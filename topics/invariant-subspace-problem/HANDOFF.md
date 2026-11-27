@@ -5,11 +5,11 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** `5760376c2710a5bacd86a8393ba11978e1ce2619`（2026-11-27 04:28:34.861613 UTC；真实新计算run45940118594的部分克隆）；两README diff无变。本地上次仍02:43:20/48bf564a，终端未恢复。每次pull且至少每小时检查。
+- **最近实际 pull / 已读规则提交：** `41f79352b3f3fd31530a1df3516f00bd2587c81b`（2026-11-27 04:39:20.790792 UTC；真实新计算run45941191773的部分克隆）；两README diff无变。本地上次仍02:43:20/48bf564a，终端未恢复。每次pull且至少每小时检查。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。04:16:38接口读92fbad0586f1abd8fac2171cd070585abc14c315，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `b3a262e981db692a8e332d36d2da2b591fbaae31`（2026-11-27 04:40:24 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `798a2fcde21a3dead70df87192a28f9ca2060472`（2026-11-27 04:47:21 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-original-Q-boundary-lines-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-closed-green-coordinate-graph-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -28,7 +28,7 @@
 - **整个原S0/Lt0分支已闭。** 615次QQ完整覆盖及全部整因子返回已合并退化面；源9d0c7789实际163.600807秒/exit0。旧门/取消审批拒绝身份保完整H/正文，不重跑。
 - 一般LS保ell/T/等权零面。原P1双零整支已闭，只付(Pf,Pt)非同时零。Delta0合法付Phi；四原值式准确等价首一二次/三一次，六参数式仅完整投影四值等式，四Gram子式仅必要。源70017734/ea0ffae2的完整来源及实际回执见results。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
-- **一般Delta0/W0的整个H_W=4ek−k²−4k−8零支已闭。** 最高次原系统已排空；有限六生成元/18真乘法/cofactor给F29=C3F26，在完整QQ[w]/C3、/F26中原18行各返常数列1，12主元真逆全乘回(0.049/0.855秒)。源b1f2e6d组件均实成、打包未整跑；保全部首项零，不假不可约/互素，无D饱和。可在W0付H，只续H非零；所有旧GB/Cramer/闭包/gcd负门冻结。 新一般W原四二次头/overlap小任务已配置180秒/4GiB，run待收。
+- **一般Delta0/W0的整个H_W=4ek−k²−4k−8零支已闭。** 最高次原系统已排空；有限六生成元/18真乘法/cofactor给F29=C3F26，在完整QQ[w]/C3、/F26中原18行各返常数列1，12主元真逆全乘回(0.049/0.855秒)。源b1f2e6d组件均实成、打包未整跑；保全部首项零，不假不可约/互素，无D饱和。可在W0付H，只续H非零；所有旧GB/Cramer/闭包/gcd负门冻结。 新原头atlas run45941191773实际1.981秒/54536KiB/exit0，两个未付首项零仍保留，准全图尚未闭。
 - **Q=1−u边界已闭y=1、H_Q=(2u−1)ell+u=0、u=1/2及ell=0四整支。** 原QQ覆盖/同根返回完整；H_Q0源50a9b96b实测1.430秒，u半158/170次严格CRT、104次保度Gauss和末原值排尽。ell0由原均值唯一x和Rt因式，完整v²+1纤维与20/40次QQ Bézout排尽，源7c231709实测2.322秒。原子/整合执行区别及全部来源保results；只续H_Q*ell*(y−1)*(2u−1)≠0。
 - **一般等权b=c已闭y1、y半、y0及A_m零。** v=2y−1,z=(x−m)/(y−1)非零，kappa=dv²,omega=zv图恢复m。原mean二次alpha*v²+beta的首项有原单位身份。三原N/P现有完整原迹降为同v一次式；三子式/三范数准确投影四等式，保全部一次首项零；y0完整QQ结式/组合1现付v+1及alpha+beta。六双参数式未判空，物理Dval/同点返回仍须保留，新原Dval的QQ任务45940118594实际600秒未决、驱动604.249秒/372796KiB/exit1，无原lift；冻结。原kappa首一新输入已成11.029秒但次数增大，转原低度模块；源/闭支见results/notes。
 
@@ -39,16 +39,13 @@
 
 ## R271 同W与实际范围核心
 
-- M=kerT、N=closureBM、W=M⊖N，N=M未证。原partial/intersection/MP自然域、帽外投影、负整数边界及全部forcing/短旗/Gram/矩/Riordan同源保完整H/open；余64^R、γ<1/16绝对Z、32^N孔权、一般e^(κy)清除，F0/首阶核不可删。
-- k=h−1费、L=o(x^(2/3))窗至全母窗桥开；通用小κ右逆/短核小残量有障碍。无锚Γ²≤27μ1不传有锚/第二Green；全M前缀Γ_occ约1.723637仍不足alpha逆费。
-- 原G0=TJ_B闭图多值部Ce0；投真空后N⊂kerA_min⊂M，I=closureRanT*⊂J=closureRanG0*⊂N⊥。J=I、J=N⊥分别开。新同尾Sh真实域奇异列证RanG0*确非闭、无统一||Sh||≤C||T*h||；输出只在M⊥。指定dyadic cut仍须λ_r||y_r||及原头缺一位顶行，Y全逆保留。
-- b_q=q⁻²alpha_q/alpha_(q−1)平方源C2对两型给完整总孔核心。Y准确K_Y=−V_b+R_b，R_b:C2→H界12，V_b填首缺位升一孔，D*−V_b保同阶抵消。h∈C2、T*h∈H即cut同返T*h/Sh，不需单独carry在H。Y在C2内最大carry域是有限行和平方可和，额外对角权界恰Σ1/ω有限。
-- 精确15/16无条件端点已付，σ>15/16两型失败；y=Sh余费Σalpha_q^(−1/8)||P_q^+y||²。N最大carry域经有限行严格三角重构：各Pq h在H且Kh在H即ρ平方和；不能先拆实际D*/K相消。
-- 同w=Ju的Sh∈H恰整个偶块h0在H；g0=H*(I+H*H)u，Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²有限恰g0在实际RanK*，W只付闭包像。N/Y正则化列的全Q_H费用与||u||²+||K(K*K+ε)^−1g0||²双侧比较，Γ/C2及输出逆权未付。
-- 全整数窗口给Σ||P≤n w||⁴/E_n≤4Aδ||w||²；E_n有限，非零W迫尾Σ1/E_n有限。真实W的倒数发散/平方根乘迭代log增长与Γ未付，旧κ阈值不重登记。
-- 五原坐标已排N/Y无条件联合图估计：||K h_q||/b_q分别趋1、sqrt2，(||T*h_q||+||Sh_q||)/b_q→0，C2/b_q→1；全Y逆保留。分离子列给有限来源联合图闭包中的h仍非C2且D*h/Kh各非H，输出在M⊥而非W。只续同W特殊正交性或更宽真实核心，不再一般最大/最小图自动付C2。
-
-- 同源dyadic费E_r有界子列经凸组合付图核心；P_Wf≠0迫liminf logE_r/r≥γ_ex>5/3，较弱子指数费仅付f∈I。新整个D(G)有零前缀V_n、D(Amax)有占满前缀Q_n的指数图估计；真实图缺陷恰T*y=Sf且By+Tf=0，保Amax≠Amin。Gamma、alpha逆费/核心仍开。
+原全部公式/常数/负门与适用范围保最新完整H、open及results；压缩不关闭旧接口。
+- M=kerT、N=closureBM、W=M⊖N，N=M未证。保同w/u、全部partial/intersection、MP自然域/帽外投影及forcing。仍须64^R、γ<1/16绝对Z、32^N孔权、e^(κy)清除；F0/首阶核不删，k=h−1费、L=o(x^(2/3))至母窗桥开。无锚Γ²≤27μ1不传有锚/第二Green。
+- 原G0=TJ_B多值部Ce0；N⊂kerAmin⊂M，I=M⊥⊂J=closureRanG0*⊂N⊥。原RanG0*确非闭、无全h来源范数界；五坐标原反例还排无条件联合图→carry/C2，输出都在M⊥而非W，不重做这些通用升级。
+- 原平方源C2/b_q=q⁻²alpha_q/alpha_(q−1)给两型总孔核心，全Y K=−V_b+R_b且R_b界12，D*−V_b同阶抵消保留。15/16端点已付、更大指数失败；N最大carry有限行域已刻画。真实y=Sh的alpha_q^(−1/8)逆费仍开，不先拆各非H项。
+- 同w=Ju的Γ有限恰g0=H*(I+H*H)u在实际RanK*，W只付闭包像；原Q_H正则费用双侧比较不付Γ。全整数窗Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零W迫Σ1/E_n有限；同W的倒数发散/费用上界仍开。
+- 同源dyadic两边费E_r有界子列经凸组合付图核心；P_Wf≠0迫liminf logE_r/r≥γ_ex>5/3，较弱子指数费只付f∈I。全M前缀最优率约1.723637及整个D(G)/D(Amax)的相反前缀指数图界仍不足alpha逆费。
+- **新真实Green缺陷E恰T*y=Sf、By+Tf=0。** 两坐标范数等价给闭X/Y、G|Y有界同构，B|Y/S|X/T|X/T*|Y有正下界。F=P_I X闭，X={v+Zv:v∈F}、Z:F→W有界，J=I⊕closure ZF。图核心⇔F0，第一范围⇔Z0，第二范围⇔closure ZF=W；X/Y/F未证不变，ZF未证闭，Γ/N=M仍开。
 
 ## 原Haar未知普通M与闭域
 

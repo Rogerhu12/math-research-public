@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R271，真实Green缺陷的闭坐标、正下界与正角图）**：[两条原耦合方程的闭子空间结构](results/R271-appendix-actual-green-defect-closed-coordinates-and-positive-angle.md)：真实缺陷两坐标范数等价，闭X/Y上G为有界同构，B/S/T/T*在对应来源有正下界；P_I|X有统一下界，F=P_I X闭，X为有界Z:F→W的图且J=I⊕closure ZF。图核心等价F0、第一范围等价Z0、第二范围等价closure ZF=W；未付不变性/Γ/全核心。
+
 - **已证明（R150，一般等权y=0整支排除）**：[原首一四次与完整QQ Bézout](results/R150-appendix-unit211-equal-weights-zero-singleton-mean-exclusion.md)：v=−1下原均值首一kappa四次，三原N/P完整余式均二次；固定6阶QQ结式26/55/62次，仅剥omega和omega−1后，12/34次完整组合1排尽。源三段实际0.095/0.191/27.241秒，无Dval饱和；可付v+1、alpha+beta，一般等权仍开。
 
 - **已证明（R150，一般Delta0/W0的整个H=0原支排除）**：[F29两完整商环的原常数行返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)：精确F29=C3F26，完整QQ商环维3/26中的原18×6矩阵各有原行组合(0,0,0,0,0,1)，12个主元原Bézout真逆、全部六列实际乘回。0.049/0.855秒，无模提升/不可约假设/D饱和；合最高次结果关闭H0，在W0可付H，W0一般图仍开。

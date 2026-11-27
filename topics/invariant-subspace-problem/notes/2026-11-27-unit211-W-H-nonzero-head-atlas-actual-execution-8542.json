@@ -1,0 +1,230 @@
+{
+  "run": 45941191773,
+  "job": 140315646741,
+  "driver": {
+    "elapsed_seconds": 2.0542788119999997,
+    "max_child_rss_kib": 54536,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "41f79352b3f3fd31530a1df3516f00bd2587c81b",
+        "before": "41f79352b3f3fd31530a1df3516f00bd2587c81b",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T04:39:20.790792+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45941191773",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "41f79352b3f3fd31530a1df3516f00bd2587c81b",
+    "source_exit_code": 0,
+    "source_git_blob": "25b8a118d7e15b819360d7e65717d8e38030d8f6",
+    "source_sha256": "7dae2838b9ecba12635c6ebec319ab451b90de9d205b85d52d95c7e7c85bfb93",
+    "stdout_bytes": 28544,
+    "stdout_sha256": "868ebc980dc4ee72f00c980090ade1b33c08f402353f8418506459e7a65f6c95",
+    "stop_reason": null
+  },
+  "result": {
+    "stage": "new_general_W_original_six_generator_input_complete",
+    "newMathematicalInput": "all four original quadratics and original cubic overlaps after H was paid",
+    "basis": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "quadraticChartUnpaidFactorization": {
+      "content": "-8",
+      "factors": [
+        {
+          "degrees": [
+            0,
+            1
+          ],
+          "totalDegree": 1,
+          "terms": 2,
+          "multiplicity": 1,
+          "sha256": "3145061ed00914f567f0b93b528b2916693a2ef4a66d233dc74df0242440612e",
+          "coefficients_e_k": [
+            [
+              0,
+              1,
+              "1"
+            ],
+            [
+              0,
+              0,
+              "2"
+            ]
+          ]
+        },
+        {
+          "degrees": [
+            4,
+            5
+          ],
+          "totalDegree": 7,
+          "terms": 19,
+          "multiplicity": 1,
+          "sha256": "0bbf49a5c500eb77710463e721cb1b1aad3dba14926d6868a898d586c3311f22",
+          "coefficients_e_k": [
+            [
+              4,
+              3,
+              "16"
+            ],
+            [
+              3,
+              4,
+              "-8"
+            ],
+            [
+              3,
+              3,
+              "-16"
+            ],
+            [
+              3,
+              2,
+              "-96"
+            ],
+            [
+              2,
+              5,
+              "-1"
+            ],
+            [
+              2,
+              4,
+              "-8"
+            ],
+            [
+              2,
+              3,
+              "24"
+            ],
+            [
+              2,
+              2,
+              "64"
+            ],
+            [
+              2,
+              1,
+              "192"
+            ],
+            [
+              1,
+              5,
+              "-2"
+            ],
+            [
+              1,
+              4,
+              "-14"
+            ],
+            [
+              1,
+              3,
+              "-12"
+            ],
+            [
+              1,
+              0,
+              "-128"
+            ],
+            [
+              0,
+              5,
+              "-1"
+            ],
+            [
+              0,
+              4,
+              "-10"
+            ],
+            [
+              0,
+              3,
+              "-40"
+            ],
+            [
+              0,
+              2,
+              "-104"
+            ],
+            [
+              0,
+              1,
+              "-160"
+            ],
+            [
+              0,
+              0,
+              "-128"
+            ]
+          ]
+        }
+      ],
+      "entireProductMultipliedBack": true
+    },
+    "cubicChartUnpaidFactorization": {
+      "content": "1/128",
+      "factors": [
+        {
+          "degrees": [
+            11,
+            16
+          ],
+          "totalDegree": 20,
+          "terms": 128,
+          "multiplicity": 1,
+          "sha256": "169763da12d0c8f417bf969c3980c32e879b9594c7035453be10beffad8155b8"
+        }
+      ],
+      "entireProductMultipliedBack": true
+    },
+    "globalOnCurrentPaidWChart": false,
+    "allUnpaidLeadingZeroFibresExplicitlyRetained": true,
+    "originalSixRuleTraceProductsVerified": true,
+    "exactMonomialReductionGeneratorsOnly": true,
+    "freeModuleClaimed": false,
+    "sourceSHA256": "7dae2838b9ecba12635c6ebec319ab451b90de9d205b85d52d95c7e7c85bfb93",
+    "rulesSHA256": "5a34271e33bf6b92b7456f9597826066709c96789d3beadacc34dfc9878eb4d7",
+    "peakRssKiB": 54536,
+    "claimExcluded": false,
+    "seconds": 1.9814691229999966
+  },
+  "status": "success, necessary original atlas only; unpaid leading factors retained; no emptiness"
+}

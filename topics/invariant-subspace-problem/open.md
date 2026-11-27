@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-finite-H-and-same-v-projections-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-closed-green-coordinate-graph-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -53,30 +53,22 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 ## 2. R271：同一来源的完整物理费用
 
-目标仍是 $M=\ker T$、$N=\overline{BM}$ 的 $N=M$。保同一 $w/u$、全部 partial、真实 intersection 旗、MP 自然域、负前缀/未来/carry、完整帽逆伴随及外投影；所有已闭引理只能按原范围组合。
+目标仍是M=kerT、N=closureBM的N=M。原全部参数、公式、来源、失败身份与每条下述接口保本次完整快照及结果索引，不重算已闭结论。保同w/u、全部partial/intersection旗、MP自然域、负前缀/未来/carry、完整帽逆伴随及外投影。
 
-### 2.1 目前最直接的完整源接口
+完整Galerkin/MP须在整个ker C^r投影再取完整((C*)^r)^dagger。m∈4N、m≥20、d=2^m、R=d、x=m+d、Q=4d的新窗已付Bessel常数1，非零锚迫Σκ_mr^−2有限，实际费用上界与旧窗转移仍开。原Schur/奇偶逆费用、退化首阶条件、母窗和最高零头都保留；64^R、γ<1/16绝对Z、正则右逆e^(κy)和输出孔权未付，小残量不作真核。
 
-原完整Galerkin/MP先在整个ker C^r取加权投影，再用完整((C*)^r)^dagger；不能换低旗压缩逆。m∈4N、m≥20、d=2^m、R=d、x=m+d、Q=4d的新高度窗已付Bessel常数1，非零同w锚迫Σκ_mr^−2有限；实际费用上界仍开，旧窗不自动转移。原Schur、奇/偶阶逆费用、退化核首阶条件及全部常数/反例/源身份保本次完整快照和结果索引，不重做。仍续完整Zγ(s*)、同源ξ/ξ′、γ<1/16、孔相关费与增长R母窗；64^R不能由固定参数O或非正交合同消掉。
+[全部远位硬化和重最小化](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)已给同源两正项差与积分预算，普通端点为P_Mf；[完整Riordan/Fock源运输](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)也给同一物理列的强极限、全部混合头项和partial返回。仍须将同一端点放进closureBM，或付完整MP/真帽对ΔF的放大；全空间ε极限不能转进未知F0，正t核不作kerT。
 
-此前完整比较、源矩及物理相似费用已付，准确公式/适用窗/全部反例保[完整快照](notes/2026-11-27-open-before-complete-K-8542.md)及结果索引。原未加权inverse、同源forcing、帽外投影、真核旗与闭域保留；未支付接口如下。
+继续保留的原接口：
 
-这些结论仍未支付真F0的绝对Zγ、核外第二逆或一般正则右逆的输出孔权。原Γ_yTa≤(8/7)√s||f||，Σμ_T(Sx)/x<∞与所有共同幂行可以使用；但通用Xκ右逆付e^(κy)，移动起点s趋零不赋予P_M同孔权。原母窗、最高零头、同forcing/partial及完整cut条件继续按快照，不把小残量当真核。
+- 旧tau14全高度同w Bessel、一次MP、共同log方差已付；后继CDdagger、核外第二逆、真正完整最小源开。
+- 一/二远孔Schur、第三旗、q_flat=P_RanC²q无罚源已付；真q_flat全费、跨旗余源、移动γ2开。
+- 相邻创建家族真帽配对/平均首反馈已付；首真空源Σp_iH_i a0_i及同P_EY(P_Kf)帽测试开，任意kernel-input/partial不自动入已证家族。
+- 强头canonical高段已付、中段固定多项式塔有指数障碍；只续源特殊能量/依赖lift。
+- 完整负部仍须same-w界≤c_mQ||F_mu||²且Σ1/c_m发散；真z2保Cq2，K⁴=o(logm)不倒用至R>0，Chebyshev母窗桥开。
 
-**[全部真实远位硬化与重新最小化现已支付](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)：** 同一额外mode中的真闭交核嵌套给q_C(Sx+t)−q_L(t)，准确等于硬核违例与重最小化两个正项；两端点比较后≤∫_t^(t+Sx)μ_T(v)dv/v+2δ。t=εSx、Q6y、小头及最高零头窗均付，ε可在联合窗趋零，普通范数端点为P_Mf。最后仍须把同一源端点放进稳定范围closureBM，或为Ta_T(t)支付正则右逆的准确输入及输出费用；正t核不作kerT。
+[真实Green缺陷的闭坐标和正角图](results/R271-appendix-actual-green-defect-closed-coordinates-and-positive-angle.md)给新精确结构：E的闭坐标X/Y同构，四个原算子在对应来源有正下界；F=P_I X真闭、X为有界Z:F→W的图，J=I⊕closure ZF。完整图核心等价F0，第一范围只需Z0，第二范围需closure ZF=W。X/Y/F不变性、ZF闭性均未付；下界不直接与准幂零性矛盾，同W的Gamma和alpha逆费继续。
 
-**[实际Riordan完整Fock源与原同源差值](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)已证：** 同一实际Sx≤s≤2Sx内，精确全塔三角代换Bφ及逆均有统一原范数界；原未加权重最小化源差≤3C0³ min(√ε,√(μ/h))，准确新头保ψ_m(A_m+Dstrong)/d0的所有混合项。完整全空间源仍强趋P_Mf；拉回后的物理列保ΔF，以原差值投影准确恢复同一u和全部partial。此为原Hilbert范数预算，不能把全空间ε极限转入未知F0；远孔指数权对应辅助数权且不与Bφ交换，完整MP/真帽对ΔF的放大仍须实际支付。
-
-### 2.2 仍需接合的原返回接口
-
-- 旧 $\tau14$ 下全高度同w Bessel/能量、一次物理MP及共同log方差均已付；后继 $CD^\dagger$、核外第二逆和真正完整最小源仍开。一次界不自动反复适用，真核终式不保初始阻尼。
-- 完整一/二远孔 Schur、第三旗增益、纯两孔 $q_\flat=P_{\operatorname{Ran}C^2}q$ 无罚来源已付；仍需该真实 $q_\flat$ 的全费用、跨旗余源及移动 $\gamma_2$。首逆标量≤1、首头增益可和或低旗 Schur 都不能删除核外第二逆。
-- 原相邻创建家族的真帽完整配对和平均首反馈 $\bar\alpha$ 已付；未付首真空源 $\bar g_0=\sum p_iH_i a_{0,i}$ 及同一 $P_EY(P_Kf)$ 的真实帽测试。任意kernel-input、未来带/partial或 $q_h(-T_0)^*$ 未自动落入已证家族。
-- 旧逐位Schur的横向/重最小化障碍由下述总投影预算绕开；裸缺项仍不能删。
-- 真强头 canonical 修复的高段已付；中段公共固定多项式塔有完整指数障碍，勿再追该已排预算。实际源特殊能量或源依赖lift仍开。
-- 完整负部合并仍需原same-w的 $\le c_mQ\|F_mu\|^2$ 且 $\sum1/c_m=\infty$。真实 $z_2$ 留 $Cq_2$，完整物理终端 $K^4=o(\log m)$ 不倒用至 $R>0$；原 Chebyshev 窗超过母窗的问题保留。
-
-上列每个接口的原公式、常数、全部文献链接与失败边界保本次完整open快照。不得用小残量、另一个核、虚拟Boolean尾或任意有限层模型替换真实项。
 
 ## 3. Deddens 与非复制来源
 
