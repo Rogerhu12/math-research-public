@@ -351,3 +351,6 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 - [原PB4四元共轭平均](2026-11-27-original-type4-inert29-coefficient.md)§7：原D²−1190x在偶S34全18列上对四dyadic lift平均，完整极抵消给B(x^a)=4(a−17)(a−8)x^(a+1)+4a(a−1)x^(a−2)。B³保PB4，真实三列矩阵、charpoly和mod11中心化域反证均手付；全σ共轭、type4的4/22分支及P4∇34²S的实际六列保留。没有新数学执行，也未把ζ首p分母或真除pcanonical行删掉。
 
 - [原S3150全部有限点来源](2026-11-27-original-s3150-full-point-carrier-and-finite-projection.md)：α=2/3150=(1/7)/15²与x=n/6全CRT，原7 gluing经g0真实坐标仍f7。全2/3/5谱和450维实际来源、η与δ整表、局部范数及3150^-m平方固定；所有存活χ的root为−，split7的相反unram参数在paired epsilon消去，5-old primitive是单因子5/6。R745完整K正一jet/Ω代数，R774/R749使同一有限K/Y的point-only 5/p平均严格等于E5old,E0。原(58)非零点因此给L_n+和L_n+−L_n−非零；所有new字保留后才投影，未冒canonical forcing或无限log点域。
+
+
+- 原full54 [几何/Newton全精度交叉](2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)：固定weight3实际finite向量通过新旧χ比ν27⁶逐处接回旧beta真空；共同cover/34M²、Ω0h∞与全Newton尾付Jβ0=1。每个正权保C2=(p+1)p^w、KS与全cyclic p²得M_p(1−p⁻²)；Kriz局部H−2配对/R997水平规范/原54 η Cor逐项同fixed-base AJ。稠密n=(p²−1)u−2先消共同因子后得I_jB_lK_l=I_lB_jK_j；一K单位时全向量由同Fgeom单位相连，barFgeom=−[L:H]。保全部固定坏集、几何q0及无K单位时的准确弱结论，不提前判通常Sha。

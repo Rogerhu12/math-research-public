@@ -8,7 +8,7 @@
 
 root独占git/H/open/log/index；每条结论即推。非快进立即实际pull --rebase、检查README差异、重比新父后再推到成功，不force。令牌只命令行/进程，不写文件/提交/API。数学执行只在公开Actions，4CPU/16GB/6h；根规则15禁止存可重算结果/日志/矩阵缓存，必要输入证书和脚本/参数/run/hash照原规。H<10KB、每MD<100KB、topic<200MB。
 
-本次整理前[完整交接](notes/2026-11-27-handoff-before-s3150-point-carrier.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
+本次整理前[完整交接](notes/2026-11-27-handoff-before-full54-geometric-newton-cross.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
 
 ## 实际同步与规则
 
@@ -29,11 +29,13 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 [原负二Newton](notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)：同D1、C=34cσ，a_h完整尾≥ceil((h(p−1)+6)/(2p))，J∈pvO〈v〉、K=J/(pv)，Kmodp=d_j,p−1/(34pcσ)常数；首行单位等价K Tate单位，全部d_dk−2赋值1−k−vp((k−1)!)。D17严格K17=K1/17。
 
-[固定weight5基](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)与[未平方全源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)：B_j=(17δ/9)T_j,5，B²=−972ω34⁴εperiod⁻³c_jγ_j，原Artin线及三标签共轭已付。完整seesaw/γdiag34两极化/3处δ lift/chirped Gaussian锁六步负号；G_j=B_jt⁴D_j(δZ/t)/(408δ)，t=2^(1/3)，是原degree3同源degree102截面。残余a_j hbar=−[L:H]B_j Kbar绝对负号已定。Ctor=34cσ(δ/t)^(p+1)保全指数修正，Jtor=−B_jJ/(306δ)、Ktor同，不免费替换102cσ,A。新增§§10–11：同一固定weight3 χ=ν27²双变量kernel保交叉cZW；正常排序后两个完整Hermite槽(n,n+2)与a^n Laguerre/δ3^n逐项一致，全部finite characters和δ相位i^(r−n)保留。n=−2只定位原D−2/β0，尚非Coleman/fp值。
+[固定weight5基](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)与[未平方全源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)：原B_j=(17δ/9)T_j,5、三标签共同绝对号、全2/3/17与54/full9、degree102实际同源、G_j=B_jt⁴D_j(δZ/t)/(408δ)及Jtor=−B_jJ/(306δ)均保。固定weight3双核保cZW，两个Hermite槽(n,n+2)准确为δ3^n。新旧finite接合已补：χ比ν27⁶在3单位逐点1、唯一diag3共同−1；α1同、α2比ν27¹²；旧(4,0)才付新beta同一finite函数的真空，新(4,6)不当真空。coherent变量全保Ω0h∞。
 
 [同一signed全精度](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)：原34δ/18/30单位在HT(2,−1)的M+，A_j=F_p(c_j/a_j)K_j²。§§7–10已关闭同一K_*单位范围的绝对period：Δ等型pro-p二变量残余2−p/2p−1与valuation twist1−2p给每个整类的整Coleman原像；全KS/isogeny −p、未平均第一层p²−1迹与同ω/Tate格给m=p−1的exp*整界p⁻¹O。原EU由μ/18、m!、1+1/p取到−1，迫F_p为Tate单位。故v_pA_j(0)=2vpK_j(0)，hEU=u_pF_p(0)(c_j/a_j)K_j0²；同几何好范围EU首层非零⇔几何首层非零⇔Kbar非零。仍不冒两类全精度相等，固定c_j/γ好集与q0始终保留。
 
-[p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付incoming depleted和0、raw norm/p²回I，保全部p+1回返。[fixed-base向外全式](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)已独立付清：Ω^[p]=d0*Ω−p⁻²λ*d2*Ω、全degree34修正图推前为degree34p²；proper AJ自然性与原全范数给Aout=(p²−1)I，原Artin下降=(p²−1)h。Tate上准确f−p²V_p²f，p²−1为真正单位。fixed底曲线只添全部p²级的向外对应与incoming零和同时成立；仍须比较同一原Newton正则化。下一继续真实AJ/Newton正则化，不能将负槽或p^weight形式赋值替代。
+[p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)保incoming完整剔除和0。[fixed-base向外全式](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)保原底曲线、全部cyclic p²级、全degree34→34p²修正图及Ω^[p]=d0*Ω−p⁻²λ*d2*Ω；proper AJ全和为(p²−1)I。
+
+**[原full54全精度交叉比较](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)已付**：新beta实际Schwartz共用固定Heisenberg cover，N=34M²、原Ω0h∞尺度及真空1；Jβ∈1+pO〈v〉、Jβ0=1。正权全KS/Hecke给C2H=(p+1)p^wH，完整fixed-base剔除因子M_p(1−p⁻²)非零；不从端点倒推。Kriz局部Γ(2,2) good邻域、原3/full9、全p² torus轨道和principal微分倍率逐项保；H−2由完整H-valued Coleman配对和R997水平规范识别。参数n=(p²−1)u−2、v=(p−1)u的稠密正整数先消所有共同factorial/period/p幂，才取u0，得I_j B_l K_l0=I_l B_j K_j0。至少一K单位且原好范围下I_j=Fgeom B_jK_j0、h_j=Fgeom(B_j/a_j)K_j0，Fgeom单位且barFgeom=−[L:H]。无K单位时只用cross式；不冒全局类等同或无穷非零。实际canonical必要零关系仍须继续。
 
 固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)与CM13/Frob²循环已付，故三K29单位；纯Newton不替代c_j好集/q0。原whole17提升已付：完整U_e²=−I、反交换、Pω秩17且E17 Heisenberg保持；ℓp=ℓpΠ4使三维PB4行零等价全17零functional。p≡2/5mod9全行非零等价三线全单位，仍未给跨p。同note§7已付原四元平均B=4(X+1)∂x²−96x²∂x+544x、全18列和PB4上1024·三列矩阵；它保dyadic块、B³保型四，但模11严格排与CM13同谱。原sigma共轭保ζ/p首分母及canonical的全低卷积，不免费产生中央零。
 
@@ -51,4 +53,4 @@ O4仍需原格a≤1于无穷ordinary p；O6仍需固定双点全核Np有限、�
 
 ## 继续分工
 
-central处理同一PB4完整p−1行的heat/半密度/Cartier，保全部Gaussian项；geometry处理原完整三向量、未平方全来源与实际forcing；arithmetic处理同一高权signed/Soulé与K²全精度；root处理原canonical接合、完整作业、每小时两库实际同步和逐条推送。做完一个具体子问题立刻继续open的下一条，不以本页或阶段结果收尾。
+central处理同一PB4完整p−1行和完整Frob返回；geometry继续原full54几何/Newton的实际接合与forcing；arithmetic处理canonical全D²S的Newton导数和ζ低卷积；root处理原canonical/标量Schur、完整作业、每小时两库实际同步和逐条推送。做完一个具体子问题立刻继续open的下一条，不以本页或阶段结果收尾。

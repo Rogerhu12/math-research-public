@@ -131,3 +131,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### 原S3150的全部点载体及有限K/Y非零已闭
 
 [完整点源笔记](notes/2026-11-27-original-s3150-full-point-carrier-and-finite-projection.md)逐项支付实际α=1/1575、全3150模块/N后450维、原7 gluing、所有finiteη/δ/Haar、全权平方及physical χ根−。K正一有限jet除Ω只留代数系数，故原完整K/Y是有限全点和；point-only 5/p惯性平均固定这些系数，准确杀所有新点角色并回原E5old,E0。投影L_n+=β^-nκ^-n(1−βκ)/(5d_n)·(10δ/7)ΩI_D≠0，负支投影0，故同一完整L_n+及两支差非零。此前尚待的S3150/root/点特征已付；真正剩项是canonical坏条件对这个**相同**有限读者的必要零关系。中央log的无限尾仍不在有限点投影定义域，不能把自然对角反角色抵消或非零角值替代该关系。
+
+
+### 原 full54 几何与 Newton 的相对全精度已闭
+
+[新交叉式](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)已经关闭此前所列“同一原Newton正则化”中的三标签相对比较：I_jB_lK_l0=I_lB_jK_j0。完整fixed-base正权因子、Kriz局部负二H-valued配对、水平规范、原54/η/Cor和实际beta的固定整模型/真空均保。只在至少一K单位及原好范围可写I_j=Fgeom B_jK_j0，Fgeom单位、barFgeom=−[L:H]；不把未知全精度Fgeom改成剩余值。下一是同一全有限读者的真正canonical坏零关系与跨p非零；不重复已付相对比较，不以HT(2,−1)几何类替代椭圆T_E。

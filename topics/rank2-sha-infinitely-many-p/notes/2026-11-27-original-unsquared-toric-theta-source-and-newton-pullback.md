@@ -689,9 +689,17 @@ weight3 的 raised family。
 这里所谓“固定 beta theta source”有具体含义：先对§3的同一个
 有限 Schwartz 作用(37)的两个 torus projectors，然后按同一
 全局变极化分解；第二因子就是所得 positive rank-one Schwartz。
-它的 Hermite 真空非零，由已付的 $T_{j,5}\ne0$及§3的未平方
-积分交换推出。以后若需它的 Taylor 系数，必须用这个向量，
-不以任意另一个中心 $L$值非零的向量替换。
+它的 Hermite 真空非零需保新旧有限来源的接合，完整证明见
+[原 full54 全精度交叉比较§3.1](2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)。
+准确地，旧 $m=4$的 binary character 与本节固定 character 之比为
+$\nu_{27}^6$：原3处单位 Schwartz 逐点不变，唯一
+$\operatorname{diag}(3,1)$字贡献共同$-1$；第一 rank-one character
+完全相同，第二者之比$\nu_{27}^{12}$在全部坏处紧 torus及$\delta$上为1。
+类数1的全 norm-one 理想重排保其余球向量及原无穷角色。
+故旧$(4,0)$与新$(4,6)$槽之前确实是同一个 positive finite函数；
+只有旧$(4,0)$和$T_{j,5}\ne0$用于支付这个真空，未把新第6槽当成真空。
+以后读取 Taylor 系数始终使用此向量和同一$h_\infty$变量倍率，
+不以任意另一个中心$L$值非零的向量替换。
 
 在纯形式的槽标号上，$n=-2$是
 $$

@@ -50,3 +50,8 @@
 - [原四元平均微分算子](notes/2026-11-27-original-type4-inert29-coefficient.md)§7：在完整偶S34上保真实半周期lift，得B=4(X+1)∂x²−96x²∂x+544x及全部18列；B³在原PB4的完整3×3回乘已手证，模11排与CM13同时谱。原σ-frame首部∂²−17z⁻¹∂和canonical全ζ低卷积保留，不从此赋p−1行非零或坏canonical强迫。
 
 - [原完整S3150点载体与有限投影](notes/2026-11-27-original-s3150-full-point-carrier-and-finite-projection.md)：实际2·9·25·7模型、N后450维、所有finite η/δ/Haar/positive平方、physical χ负根与点域全付；五old只一个5/6，七split的非紧反twist成对抵消。实际K/Y全有限点和的point-only 5/p投影准确回已付old非零，故L_n+及两支差均非零。未给canonical坏⇒同一读者零，未对中央log无限尾投影。
+
+
+### 原 full54 几何/Newton 的全精度交叉式
+
+[完整证明](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)已从实际fixed-weight3双核和Kriz局部H-valued负二配对得到 I_j B_l K_l(0)=I_l B_j K_j(0)。新旧finite Schwartz/旧(4,0)真空与新(4,6)、Ω0h∞尺度、共同N=34M²及Jβ∈1+pO〈v〉全付。全部p²正权Hecke/KS和为M_p(1−p⁻²)，同原54/η/Cor的fixed-base AJ端点为(p²−1)I；只在稠密正整数权消共同因子，不插值裸p幂或factorial。至少一K单位时，原整格范围给I_j=Fgeom B_jK_j0，Fgeom为单位且模p=−[L:H]。三K全零时cross式不自判I，尚无跨p非零或原canonical forcing。
