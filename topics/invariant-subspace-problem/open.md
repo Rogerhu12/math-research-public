@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-boundary-smooth-kernel-corners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-H265-finite-original-environment-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -202,7 +202,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原native必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：eca4真95.890604382秒/0，以已全付(k+2)J19C9的六原规则/18乘法，固定NS,PS,yNS,tNS,yPS,tPS原矩阵返回55商积；所得非零P双度97/123、总164、8472项，包含整H265零。仅必要曲线，未称不可约、平方自由、有限权或排空；原全部值纤维继续。8222常数门仅rank4、7168仅六列/两步41商积且无det的两个180秒门冻结，精确源与失败保完整快照，不重复已成95秒det。
 
-新两输入分别处理原λ坐标的四二次头/全域仿射身份，及固定p1009,k3的原det模H余式。后者只检QQ H∤P，不以模多元空性作排除；如完整非零余式返回，再由Bezout及原六生成元给有限环境，全部原值继续。
+[整H265有限交点与原七坐标环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)已由e747首次15.331051968秒/0付清：固定p1009,k3检查全41018个QQ系数整性，原D195除H16完整余15次非零。由Gauss本原性和H的QQ不可约性，H与P无公共曲线；整H0仿射权长度≤4920，原均值六生成环境≤29520。加rho、HA首一二次得118080；保完整HB且当前物理D≠0及ell−u单位时ζ线性唯一，完整规范七坐标商≤59040。全部重数保留，有限Artin环后局部化只删分量，未排H空或把必要环境当原解。原lambda新四头/仿射关系已实际返，最小新K头零及所有原值继续。
 
 ### Phi：一般 H1 余 P201，其它原权与值层仍开
 

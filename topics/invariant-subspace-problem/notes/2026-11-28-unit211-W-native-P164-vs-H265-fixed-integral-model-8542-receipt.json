@@ -1,0 +1,224 @@
+{
+  "schema": "isp-whole-head-finite-original-environment-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46070960715,
+  "job_id": 140747529466,
+  "source": "notes/2026-11-28-unit211-W-native-P164-vs-H265-fixed-integral-model-8542.py",
+  "actual_driver": {
+    "elapsed_seconds": 15.331051968,
+    "max_child_rss_kib": 101132,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "d77af47007eedbd4beb90a032390dc17ac45c316",
+        "before": "c961e30e596e3b2c43f367bf84c1b6801f7e20e2",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T21:32:44.778286+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46070960715",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "c961e30e596e3b2c43f367bf84c1b6801f7e20e2",
+    "source_exit_code": 0,
+    "source_git_blob": "e7475e7a2ddbd9e72d26ed8802a7494da359d808",
+    "source_sha256": "3720617dd19aece9719f9cdad89a5461d83887799a8d9a4914113be5837583ea",
+    "stdout_bytes": 2906,
+    "stdout_sha256": "ed4e2f008ce67feef660d84288d461652d97df83e466a6bae0c3adf02487bf7b",
+    "stop_reason": null
+  },
+  "actual_mathematical_records": [
+    {
+      "stage": "new_P164_H265_fixed_integral_model_inputs",
+      "prime": 1009,
+      "fixed_k": 3,
+      "allFullQQMatrixCoefficientDenominatorsCheckedPUnits": true,
+      "fullHQQCoefficientsCheckedPIntegral": true,
+      "HPrimitiveAtPrime": true,
+      "HVariableEDegreePreserved": 16,
+      "fullQQHIsIrreducibleByPublishedWholeFactorTheorem": true,
+      "allPaidAtomsHaveDegreeLessThanIrreducibleH": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          1
+        ],
+        [
+          "u",
+          1
+        ],
+        [
+          "distinct_p_q",
+          2
+        ],
+        [
+          "W_paid_leading",
+          2
+        ],
+        [
+          "Phi",
+          1
+        ],
+        [
+          "P02",
+          5
+        ],
+        [
+          "bc",
+          7
+        ],
+        [
+          "previous_whole_k_minus_one",
+          1
+        ],
+        [
+          "previous_complete_H_zero",
+          2
+        ],
+        [
+          "whole_equal_weights_k_plus_two",
+          1
+        ],
+        [
+          "whole_original_J19",
+          7
+        ],
+        [
+          "whole_original_C9",
+          5
+        ]
+      ],
+      "QQHAndEntirePaidStrippingProductCoprime": true,
+      "checkedRationalCoefficients": 41018,
+      "originalMatrixDefinition": {
+        "bytes": 1728830,
+        "sha256": "e5b3bc078fecd6d472d62bcba5ec831e10a2f88a8feaf51beb15ba816a9da9cf"
+      },
+      "exactHDefinitionSHA256": "b7f6ab4da28caa429f15fdb73034135568d8e73428aa1e813ee8cca292ba35c3",
+      "oldFullQQDeterminantExecuted": false,
+      "oldHOpenGateExecuted": false,
+      "noNumericalRootOrGeometricSaturationUsed": true,
+      "seconds": 15.250892848999996
+    },
+    {
+      "stage": "new_P164_H265_actual_fixed_polynomial_division",
+      "prime": 1009,
+      "fixed_k": 3,
+      "fullNativeDeterminantDegree": 195,
+      "specializedH_degree": 16,
+      "remainder_degree": 15,
+      "allDeterminantExactDivisionProducts": 55,
+      "quotientTimesHPlusRemainderActuallyReturned": true,
+      "specializedH": [
+        21,
+        558,
+        835,
+        1004,
+        146,
+        708,
+        795,
+        486,
+        405,
+        778,
+        464,
+        998,
+        821,
+        123,
+        668,
+        848,
+        618
+      ],
+      "smallRemainder": [
+        82,
+        740,
+        776,
+        47,
+        944,
+        477,
+        664,
+        145,
+        334,
+        897,
+        204,
+        290,
+        513,
+        568,
+        502,
+        444
+      ],
+      "determinantDefinition": {
+        "bytes": 758,
+        "sha256": "0179d02b56ccce48191cc508b74dee78fadccc9fee71bdcc46e84c51f215f62c"
+      },
+      "quotientDefinition": {
+        "bytes": 704,
+        "sha256": "d8af6d0281fc3931d54f96f019fea0c6bdddbde66aedb868b74864afb8392e03"
+      },
+      "remainderDefinition": {
+        "bytes": 63,
+        "sha256": "667962f7ac74070bc425485de1c7d18124c202da2151309b9aec9fc06093886e"
+      },
+      "nonzeroRemainder": true,
+      "counterexampleToQQDivisibilityOnly": true,
+      "multivariateQQEmptinessNotInferred": true,
+      "seconds": 15.251682119999998
+    },
+    {
+      "stage": "new_entire_H265_original_weight_points_are_finite",
+      "QQHeadDoesNotDivideFullNativeDeterminant": true,
+      "QQHeadDoesNotDivideP164": true,
+      "QQGcdHAndPIsOneByPublishedHQQIrreducibility": true,
+      "HTotalDegree": 30,
+      "PTotalDegree": 164,
+      "distinctComplexWeightPointBound": 4920,
+      "affineWeightAlgebraLengthBound": 4920,
+      "completeOriginalMeanSixGeneratorEnvironmentBound": 29520,
+      "originalPhysicalLocalizationsOnlyDeleteArtinComponents": true,
+      "noFreeSixGeneratorClaim": true,
+      "H265EntireOriginalFibreExcluded": false,
+      "wholeWExcluded": false,
+      "noClaimAboutP164IrreducibilityOrSquarefreeness": true,
+      "seconds": 15.251706767000002
+    },
+    {
+      "stage": "new_fixed_integral_head_vs_native_curve_model_finished",
+      "sourceSHA256": "3720617dd19aece9719f9cdad89a5461d83887799a8d9a4914113be5837583ea",
+      "actualSmallOriginalModelReturned": true,
+      "noFormerQQDeterminantFactorOrFailedGateReplayed": true,
+      "noEncodedOrChunkedDataOrRecomputableCoefficientCacheWritten": true,
+      "peakRssKiB": 101124,
+      "ordinaryISPClaim": false,
+      "seconds": 15.251839192999995
+    }
+  ],
+  "paper_consequences": {
+    "QQ_gcd_H_P_one": true,
+    "weight_affine_length_bound": 4920,
+    "original_mean_environment_length_bound": 29520,
+    "two_monic_quadratic_necessary_environment_bound": 118080,
+    "complete_HA_HB_normalized_original_coordinate_algebra_bound": 59040,
+    "normalized_coordinates": [
+      "e",
+      "k",
+      "rho",
+      "x",
+      "y",
+      "t",
+      "zeta"
+    ],
+    "HA_HB_exact_identity": "u^2*(K-2*(u-ell)*D*s)=ell*T*HA+ell^2*HB, s=(ell*zeta-T)/u",
+    "physical_D_unit_scope": "current distinct-value W chart only",
+    "whole_H265_excluded": false,
+    "whole_W_excluded": false
+  },
+  "retention": "Only exact source, parameter definitions, small modular remainder, run IDs and hashes; no large coefficient payload or cache."
+}
