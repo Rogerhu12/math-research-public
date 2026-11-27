@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全一般LS的原单位组合与A[t]三生成元](results/R150-appendix-unit211-general-LS-global-three-generators-over-t-and-original-unit-combination.md)：c_n−g_n精确已付单位，完整原规则真单首一降x/y次数；1,x,y全图生成且t不倒置，保全部原值与有限纤维。
+
 - [原真实全终列预算与同forcing固定方差窗真核费用](results/R271-appendix-actual-terminal-compatible-tower-and-fixed-variance-window-energy.md)：逐高度Bernoulli插入界626支付到L=h−1，完整Gram给原误差≤q_C(S)−q_C(S/2^22)；moving-head窗口及原lift继续。
 
 - [Q=1−u三个完整精确权域的原QQ返回](results/R150-appendix-unit211-Q1minusU-three-exact-weight-domain-exclusions.md)：原C/D保全u纤维，三域剥原Q/M后真Bézout1，二次共轭全含；新完整R模重数244/3/3仍待QQ支付。

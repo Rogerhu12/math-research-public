@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 68d75a1ff1ad9d56c3cb145e6cdb341bc0340562（2026-11-27 09:57:22 UTC，Actions run45977964238实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45977964238-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 09:57:22 UTC/e653613574f280b32bf5249a1cdf0abe242fab8f，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 933aaf8f4964299aff4ac7626ebb5b156e5d9a11（2026-11-27 10:00:25 UTC，Actions run45978364512实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45978364512-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 10:00:24 UTC/7134c46a5c0b6a41df3b345310caf8770825cbe6，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `68d75a1ff1ad9d56c3cb145e6cdb341bc0340562`（2026-11-27 09:57:04 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `c8e4e898d4018fc77da2e1a0cb48fe1f3b2195b7`（2026-11-27 10:00:03 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-real-terminal-tower-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-general-three-generator-over-t-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **一般T0=0全闭，可付T0。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **整个一般J=Q已闭，连T0付Pf=T0(J−Q)。** H0完整QQ2、642/348覆盖和325非线性严格Gauss合最后u半/u三分之二整线原48×35常数身份；16/28与14/23次QQ Bézout均1（c65802c3，4.375秒/exit0）。一般固定四二次头det=2u⁴Q(Q−1)³M²ell T0(J−Q)现全图单位；不自动推单项式序/六生成。新9d58ed11以已付四头逆接完整射影t0/t非0两图及三个同z二次，待实际；不再重跑JQ/旧十五头。
+- **一般JQ整闭、Pf及固定四头全付；新全图A[t]三生成已证。** 精确c_n−g_n=−Q²ell T0(J−Q)/2为单位；组合给x²/xy/y²关于(x,y)单首一且严格降度，故原商由1,x,y在A[t]生成，不倒置t、不假自由/有限权纤维。9d58ed11实际0.922秒及七项BigInt身份全付；新fbe4e790六原乘法列/NSPS/D/歧义返回待实际，旧十五头/JQ不重跑。
 
 ### rankH3原ess6
 
