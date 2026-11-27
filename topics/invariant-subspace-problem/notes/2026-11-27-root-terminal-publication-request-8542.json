@@ -1,19 +1,22 @@
 {
-  "message": "ISP: prove a uniform three sixteenths square budget for full five site S2",
-  "parentCommit": "bb97bcba0cc6806539be17bbde34c589b5fa17eb",
+  "message": "ISP: preserve finite G36 native failure and return the new original quartic modular point",
+  "parentCommit": "6286b753e75b74935bf6467f5c46303b947e01fe",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-three-sixteenths-certificate-8542.mjs",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-three-sixteenths-certificate-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-three-sixteenths-mean-differences-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-full-birth-one-half-companion-characteristic-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-full-birth-one-half-companion-characteristic-8542.md",
-    ".github/workflows/invariant-subspace-8542-six-bit-full-half-companion.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-uniform-S2-margin-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-finite-1198-first-native-SIGSEGV-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-finite-1198-first-native-partial-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-exact-low-61-factors-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-original-two-quartic-modular-point-return-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-original-two-quartic-modular-point-return-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-low61-entire-original-QQ-return-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-remaining-high-original-two-quartic-108x56-8542.py",
+    ".github/workflows/invariant-subspace-8542-w-g36-low61-qq.yml",
+    ".github/workflows/invariant-subspace-8542-w-g36-remaining-high-two-quartics.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-finite-partial-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-finite-partial-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,6 +26,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-six-bit-full-half-companion.yml"
+    "invariant-subspace-8542-w-g36-low61-qq.yml",
+    "invariant-subspace-8542-w-g36-remaining-high-two-quartics.yml"
   ]
 }

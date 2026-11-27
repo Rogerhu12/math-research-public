@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-P3-1474-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-finite-partial-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -197,7 +197,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [同S一次与权F恢复](results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md)保L1度18/22/8未付；原三Bi的det=已付单位×G36(e,k)，仅G36非零图F可唯一恢复。H411、L1和所有λ头零面仍保原式，不倒A143/Bi/D范数。
 
-[13低范数/B80](results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md)给首一Q6权代数及所列物理/原头范数零集，B80不是全原点投影。新[完整1198覆盖](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)以3ec9真40.954359392秒/120388KiB/0，在整六次权代数上返原六列单位：九原行、18真乘法、20真逆、36标量分量全核。只剥原k0的首一平方自由F1198完整QQ参数已存六片；全部k异常（含B80低范数零）仍须原有限返回，不能由某个q分量非零删整范数纤维。原理想只能付F1198某幂，未付一次幂。每个固定合法k必要商≤36生成，故不同(k,q,x,y,t)至多43128，非总scheme长度。下一分低B80纤维与余有限原输入；G36非零图仍保全部原条件。
+[13低范数/B80](results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md)仅盖所列物理/原头异常。已刊[完整1198覆盖](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)由整Q6原九行/36分量真实返1取得；六片参数全保，固定合法k必要商≤36，≤43128不同点，非scheme长度/cover一次幂。新[有限首次SIGSEGV与部分原返回](notes/2026-11-27-unit211-W-G36-finite-1198-first-native-SIGSEGV-8542.md)准确记录adfc64.096秒/217604KiB/−11：QQ完整分low61/high1134及全部模因子已返，12以后无返回，不能由部分成功宣称QQ空。唯一旧坏模点已由新两原四次108×56实际77ms满56；旧满35块解析升至56，无须重算。首次派发全部low61 QQ原Gram（只目标1）和剩余index12–42新108×56；保整个Q6/非单位两因子与k重数。全部high只有真实整有限自由满射才可提升，low独立返回；G36非零及所有原未付头仍开。
 
 ## Phi：四头覆盖、首头原 D 与例外原纤维（8542，2026-11-28）
 
