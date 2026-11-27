@@ -81,3 +81,7 @@
 ### 2026-11-27 16:40 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1102消费完整成功run45962228077/job140382522990，1838.859秒：原73维κ全28块unit，Norm(κ/a)=2992、det(q⁻¹h)=3972，十六实际log系数已读。
 - 已核原完整receipt的词法canonical SHA，n1/143未重算；只保脚本/参数/run/hash与小结论。八点切向FLINT ABI冲突尚无点输出，正隔离进程修复；继续α/Miller和全p两障碍。
+
+### 2026-11-27 16:47 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 八CM首run45965927561在Sage/wheel FLINT原生符号冲突处exit139，无点结果；v2改独立exec子进程，仅整数JSON跨Sage边界，原数学函数逐字不变，共用570秒截止。
+- 课题外workflow更新请求SHA后续算八点；root已读实际崩溃栈及完整修复。16:40真实pull仍无执行环境，两README无差异；按规则8小文本同步继续，完整高度R1102已推。

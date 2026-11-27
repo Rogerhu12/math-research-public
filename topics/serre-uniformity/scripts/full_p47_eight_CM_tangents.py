@@ -5,7 +5,8 @@ Only the pinned public Actions request executes arithmetic.  This consumer
 rebuilds the original Hodge/Hecke coordinates and the old 235-label INPUT,
 then visits eight specified elliptic models.  It never repeats the full
 4513 point scan or a high CM logarithm.  Extension-field calculations remain
-in python-flint; only certified prime-field integers enter Sage matrices.
+in a fresh python-flint-only process; only JSON prime-field integers enter
+Sage matrices.  The two FLINT implementations never share an address space.
 """
 import hashlib
 import importlib.util
@@ -14,6 +15,7 @@ import json
 import os
 from pathlib import Path
 import signal
+import subprocess
 import sys
 import time
 import traceback
@@ -433,8 +435,9 @@ def coarse_tangent_vector(jets, a, b, j):
         "generic: (4*A^3+27*B^2)*F/(124416*A^2*B)")
 
 
-def main():
-    global SOURCE, REQUEST_HASH, STAGE, DEADLINE
+def read_pinned_inputs():
+    """Shared standard-library gate; no mathematical runtime is imported here."""
+    global REQUEST_HASH
     if os.environ.get("GITHUB_ACTIONS") != "true" or os.environ.get(
             "GITHUB_REPOSITORY") != REPO:
         raise RuntimeError("Only this public repository's Actions may execute mathematics.")
@@ -443,7 +446,7 @@ def main():
     if REQUEST_HASH != os.environ.get("SERRE_EXPECTED_REQUEST_SHA256"):
         raise RuntimeError("Request pin mismatch.")
     req = json.loads(raw)
-    if (req["execution_id"] != "full-p47-eight-CM-tangents-v1" or
+    if (req["execution_id"] != "full-p47-eight-CM-tangents-v2" or
             req["prime"] != P or req["coefficient_prime"] != Q or
             req["total_seconds"] != 600 or req["reserve_seconds"] != 30 or
             req["sage_version"] != "10.6" or req["python_flint_version"] != "0.9.0" or
@@ -465,21 +468,274 @@ def main():
                            (trreq, TRANSFER_MODULE)):
         if req["source_sha256"][name] != consumed["source_sha256"][name]:
             raise RuntimeError("An original direct input was silently replaced: "+name)
-    hodge = load_module("eight_CM_original_Hodge", HODGE_MODULE)
+    return req, cmreq, trreq
+
+
+def checkout_source_head():
+    gd = ROOT / ".git"
+    source = (gd / "HEAD").read_text().strip()
+    if source.startswith("ref: "):
+        ref = source[5:]
+        if not ref.startswith("refs/") or ".." in ref.split("/"):
+            raise RuntimeError("Unexpected ref.")
+        path = gd / ref
+        if path.exists():
+            source = path.read_text().strip()
+        else:
+            rows = [s.split(" ", 1)[0] for s in (gd/"packed-refs").read_text().splitlines()
+                    if s.endswith(" "+ref)]
+            if len(rows) != 1:
+                raise RuntimeError("Ambiguous actual checkout.")
+            source = rows[0]
+    if len(source) != 40 or source != os.environ.get("GITHUB_SHA"):
+        raise RuntimeError("Actual checkout/GITHUB_SHA mismatch.")
+    return source
+
+
+def field_runtime_libraries():
+    """Linux loader metadata, not a native field operation."""
+    maps = Path("/proc/self/maps")
+    if not maps.is_file():
+        raise RuntimeError("The pinned Linux runner lacks loader metadata.")
+    return sorted({line.split()[-1] for line in maps.read_text().splitlines()
+                   if "libflint" in line and line.split()[-1].startswith("/")})
+
+
+def field_worker():
+    """Pure Python/flint child.  It must never import sage or a Sage consumer."""
+    global SOURCE, STAGE, DEADLINE
+    req, cmreq, trreq = read_pinned_inputs()
+    if os.environ.get("SERRE_TANGENT8_FIELD_WORKER") != "isolated-v2":
+        raise RuntimeError("The field worker must be launched by the pinned parent.")
+    packet = json.loads(sys.stdin.read())
+    if (packet["protocol"] != "eight_CM_tangent_fields_v2" or
+            packet["request_sha256"] != REQUEST_HASH or
+            packet["parent_pid"] != os.getppid() or
+            packet["CM_candidate_ids"] != IDS or
+            packet["descriptors"] != cmreq["Hodge_descriptors"] or
+            packet["descriptors_sha256"] != digest(packet["descriptors"])):
+        raise RuntimeError("The integer-only field-worker input is not the pinned source.")
+    started, deadline = packet["parent_started"], packet["deadline"]
+    now = time.monotonic()
+    if (type(started) not in (int, float) or type(deadline) not in (int, float) or
+            not started <= now < deadline or abs(deadline-started-570) > 0.000001):
+        raise RuntimeError("The child may not acquire a separate arithmetic budget.")
+    DEADLINE = deadline
+    signal.signal(signal.SIGALRM, stop)
+    signal.setitimer(signal.ITIMER_REAL, max(0.1, DEADLINE-now))
+    SOURCE = checkout_source_head()
+    if SOURCE != packet["source"]:
+        raise RuntimeError("Parent and field worker do not share the same source.")
+    if any(name == "sage" or name.startswith("sage.") for name in sys.modules):
+        raise RuntimeError("Sage was loaded into the isolated field process.")
+    if field_runtime_libraries():
+        raise RuntimeError("A FLINT library was loaded before the isolated wheel import.")
+    from flint import fq_default_ctx, nmod_poly
+    if version("python-flint") != "0.9.0":
+        raise RuntimeError("The extension-field runtime is pinned to python-flint0.9.0.")
+    libraries = field_runtime_libraries()
+    sage_local = os.environ.get("SAGE_LOCAL")
+    if (len(libraries) != 1 or
+            any(name == "sage" or name.startswith("sage.") for name in sys.modules) or
+            any("/sage/local/lib/libflint" in name for name in libraries) or
+            (sage_local and any(Path(name).is_relative_to(Path(sage_local))
+                                for name in libraries))):
+        raise RuntimeError("The field process did not isolate the wheel's FLINT library.")
+    emit("field_worker_ready", protocol=packet["protocol"], source=SOURCE,
+         request_sha256=REQUEST_HASH, parent_pid=os.getppid(),
+         executable=sys.executable, python_flint_version=version("python-flint"),
+         flint_libraries=libraries, imports_sage=False,
+         shared_absolute_deadline=True)
     transfer = load_module("eight_CM_original_transfer", TRANSFER_MODULE)
+    transfer.STARTED, transfer.DEADLINE = started, DEADLINE
+    STAGE = "consume_original_235_label_input"
+    old, roles, character_rows, p_models, candidates = transfer.candidate_input(
+        ROOT, trreq, nmod_poly)
+    cm_rows = transfer.consume_known_cm(candidates, trreq["certified_cm_rows"])
+    if sorted(r["candidate_id"] for r in cm_rows) != IDS:
+        raise ArithmeticError("The certified eight CM inputs were changed.")
+    zeta0 = next(z for z in range(2, Q) if pow(z, P, Q) == 1)
+    log0 = {pow(zeta0, i, Q): i for i in range(P)}
+    beta_all = transfer.circle_values(zeta0, list(range(2, P-2, 2)), log0)
+    emit("original_235_label_input_consumed",
+         input_run=trreq["certified_input_run"],
+         original_character_sha256=trreq["certified_character_sha256"],
+         original_coarse_points_sha256=trreq["certified_coarse_points_sha256"],
+         roles=roles, eight_CM_ids=IDS, full4513_scan_repeated=False)
+    cm_rows = sorted(cm_rows, key=lambda r: (r["candidate_id"] != 141, r["candidate_id"]))
+    for cm in cm_rows:
+        check_budget()
+        identifier = cm["candidate_id"]
+        STAGE = "actual_CM_%d_marking" % identifier
+        emit("field_point_started", candidate_id=identifier, stage=STAGE)
+        target = [c*beta_all[r] % P
+                  for c, r in zip(candidates[identifier]["vector"], roles)]
+        curve, pp, qq, marking = select_actual_model(
+            transfer, fq_default_ctx, cm, target, roles, zeta0, beta_all)
+        model = marking["model"]
+        order = 1 if model["j"] == 1728 % Q else (2 if model["j"] == 0 else 0)
+        STAGE = "actual_CM_%d_short_heat" % identifier
+        grid, grid_receipt = torsion_grid(curve, pp, qq, order, model["j"])
+        jets = original_reynolds_jets(
+            curve, grid, packet["descriptors"], order)
+        tangent95, formula = coarse_tangent_vector(
+            jets, model["A"], model["B"], model["j"])
+        result = {"candidate_id": identifier, "j_rational": cm["j_rational"],
+                  "coarse_parameter": "j-j_CM",
+                  "marking": marking, "G1_grid": grid_receipt,
+                  "coarse_KS_formula": formula,
+                  "heat_jets95_sha256": digest(jets),
+                  "coarse_tangent95_sha256": digest(tangent95),
+                  "coarse_tangent95": tangent95,
+                  "no_CM_period_or_Bq_factor_deleted": True}
+        COMPLETED.append(result)
+        emit("field_point_certificate", record=result)
+    signal.setitimer(signal.ITIMER_REAL, 0)
+    STAGE = "completed"
+    emit("field_receipt", status="complete", source=SOURCE,
+         request_sha256=REQUEST_HASH,
+         completed_CM_ids=[r["candidate_id"] for r in COMPLETED],
+         field_records_sha256=digest(COMPLETED),
+         shared_absolute_deadline=True)
+
+
+def consume_field_worker(source, cmreq, eigenmatrix, vector):
+    """Exec, never fork-and-use, a clean interpreter and project each finished row."""
+    global STAGE
+    K = source["K"]
+    linear_rows = cmreq["original_CM_linear_rows"]
+    descriptors = [list(map(int, row)) for row in source["descriptors"]]
+    if descriptors != cmreq["Hodge_descriptors"]:
+        raise ArithmeticError("The field packet changed the original95 descriptors.")
+    packet = {"protocol": "eight_CM_tangent_fields_v2",
+              "source": SOURCE, "request_sha256": REQUEST_HASH,
+              "parent_pid": os.getpid(), "parent_started": START,
+              "deadline": DEADLINE, "CM_candidate_ids": IDS,
+              "descriptors": descriptors, "descriptors_sha256": digest(descriptors)}
+    env = os.environ.copy()
+    env["SERRE_TANGENT8_FIELD_WORKER"] = "isolated-v2"
+    env["PYTHONUNBUFFERED"] = "1"
+    worker = None
+    ready = False
+    input_consumed = False
+    field_receipt = None
+    records = []
+    expected_order = sorted(IDS, key=lambda identifier: (identifier != 141, identifier))
+    try:
+        # Popen execs a fresh interpreter.  No loaded Sage/FLINT object survives.
+        worker = subprocess.Popen(
+            [sys.executable, "-u", str(ROOT/THIS_MODULE), "--field-worker"],
+            cwd=ROOT, env=env, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+            stderr=None, text=True, encoding="utf-8", bufsize=1)
+        worker.stdin.write(json.dumps(packet, sort_keys=True)+"\n")
+        worker.stdin.close()
+        for line in worker.stdout:
+            check_budget()
+            if not line.strip():
+                continue
+            message = json.loads(line)
+            if not isinstance(message, dict):
+                raise RuntimeError("The field worker emitted a non-object record.")
+            kind = message.pop("kind")
+            child_seconds = message.pop("worker_seconds")
+            if field_receipt is not None:
+                raise RuntimeError("A field message followed the final child receipt.")
+            if kind == "field_worker_ready":
+                if (ready or message["protocol"] != packet["protocol"] or
+                        message["source"] != SOURCE or
+                        message["request_sha256"] != REQUEST_HASH or
+                        message["parent_pid"] != os.getpid() or
+                        message["imports_sage"] is not False):
+                    raise RuntimeError("Invalid field-worker isolation acknowledgement.")
+                ready = True
+                emit(kind, field_worker_seconds=child_seconds, **message)
+                continue
+            if kind == "field_receipt" and message.get("status") != "complete":
+                emit(kind, field_worker_seconds=child_seconds, **message)
+                raise RuntimeError("The isolated field worker failed: "+message.get("message", "incomplete"))
+            if not ready:
+                raise RuntimeError("The field worker performed work before its isolation gate.")
+            if kind == "original_235_label_input_consumed":
+                if input_consumed or message["eight_CM_ids"] != IDS:
+                    raise RuntimeError("Invalid original-label input acknowledgement.")
+                input_consumed = True
+                emit(kind, field_worker_seconds=child_seconds, **message)
+            elif kind == "field_point_started":
+                if (not input_consumed or len(records) >= len(expected_order) or
+                        message["candidate_id"] != expected_order[len(records)]):
+                    raise RuntimeError("The field worker changed the actual CM point order.")
+                STAGE = message["stage"]
+                emit(kind, field_worker_seconds=child_seconds, **message)
+            elif kind == "field_point_certificate":
+                if not input_consumed or len(records) >= len(expected_order):
+                    raise RuntimeError("An unsolicited field point was returned.")
+                record = message["record"]
+                if record["candidate_id"] != expected_order[len(records)]:
+                    raise RuntimeError("The completed field point is not the requested next point.")
+                values = record["coarse_tangent95"]
+                if (len(values) != 95 or
+                        any(type(value) is not int or not 0 <= value < Q for value in values) or
+                        digest(values) != record["coarse_tangent95_sha256"]):
+                    raise ArithmeticError("The integer-only95 tangent bridge failed.")
+                records.append(record)
+                tangent73 = source["kernel"]*vector(K, values)
+                tangent16 = eigenmatrix*tangent73
+                rows = []
+                for index, old in enumerate(linear_rows):
+                    e = tangent16[index]
+                    lam = K(old["q_inverse_log_Bq_u1728"])
+                    rows.append({"H2_eigenvalue": old["H2_eigenvalue"],
+                                 "coarse_tangent_e": int(e),
+                                 "consumed_lambda4": int(lam),
+                                 "tangent_over_lambda4": int(e/lam)})
+                result = {key: value for key, value in record.items()
+                          if key != "coarse_tangent95"}
+                result.update(
+                    coarse_tangent73_sha256=digest([int(x) for x in tangent73]),
+                    linear_rows=rows, linear_rows_sha256=digest(rows))
+                COMPLETED.append(result)
+                emit("actual_CM_tangent_certificate", **result)
+            elif kind == "field_receipt":
+                field_receipt = message
+                emit(kind, field_worker_seconds=child_seconds, **message)
+                if (message["status"] != "complete" or
+                        message["source"] != SOURCE or
+                        message["request_sha256"] != REQUEST_HASH or
+                        message["completed_CM_ids"] != expected_order or
+                        message["field_records_sha256"] != digest(records)):
+                    raise RuntimeError("The isolated field computation was not completely certified.")
+            else:
+                raise RuntimeError("Unexpected field-worker message: "+str(kind))
+        returncode = worker.wait(timeout=max(0.1, DEADLINE-time.monotonic()))
+        if returncode != 0:
+            raise RuntimeError("The isolated field worker exited with code %d." % returncode)
+        if field_receipt is None or len(COMPLETED) != len(IDS):
+            raise RuntimeError("The isolated field worker did not finish all eight points.")
+        return field_receipt
+    finally:
+        if worker is not None:
+            if worker.poll() is None:
+                worker.kill()
+                worker.wait(timeout=5)
+            if worker.stdout is not None:
+                worker.stdout.close()
+
+
+def main():
+    global SOURCE, STAGE, DEADLINE
+    req, cmreq, trreq = read_pinned_inputs()
+    hodge = load_module("eight_CM_original_Hodge", HODGE_MODULE)
     SOURCE = hodge.source_head()
     DEADLINE = START+570
-    transfer.STARTED, transfer.DEADLINE = START, DEADLINE
     signal.signal(signal.SIGALRM, stop)
     signal.setitimer(signal.ITIMER_REAL, max(0.1, DEADLINE-time.monotonic()))
     emit("preflight", source=SOURCE, run=os.environ.get("GITHUB_RUN_ID"),
          request_sha256=REQUEST_HASH, source_sha256=req["source_sha256"],
          arithmetic_seconds=600, reserve_seconds=30,
+         native_runtime_isolation="Sage parent; fresh exec python-flint-only child",
          scope="Eight actual CM tangent rows, 16 certified linear blocks; no high CM log.")
+    # This process never imports python-flint.  Its FLINT belongs only to Sage.
     from sage.all import matrix, vector, identity_matrix
-    from flint import fq_default_ctx, nmod_poly
-    if version("python-flint") != "0.9.0":
-        raise RuntimeError("The extension-field arithmetic is pinned to python-flint0.9.0.")
     STAGE = "consume_original_Hodge_Hecke"
     source = hodge.build_source(descriptors=cmreq["Hodge_descriptors"],
                                expected_certificate=cmreq["Hodge_certificate"])
@@ -513,59 +769,8 @@ def main():
          Hecke_hashes=cmreq["original_Hecke_hashes"],
          original_CM_linear_rows_sha256=digest(linear_rows),
          high_log_recomputed=False)
-    STAGE = "consume_original_235_label_input"
-    old, roles, character_rows, p_models, candidates = transfer.candidate_input(
-        ROOT, trreq, nmod_poly)
-    cm_rows = transfer.consume_known_cm(candidates, trreq["certified_cm_rows"])
-    if sorted(r["candidate_id"] for r in cm_rows) != IDS:
-        raise ArithmeticError("The certified eight CM inputs were changed.")
-    zeta0 = next(z for z in range(2, Q) if pow(z, P, Q) == 1)
-    log0 = {pow(zeta0, i, Q): i for i in range(P)}
-    beta_all = transfer.circle_values(zeta0, list(range(2, P-2, 2)), log0)
-    emit("original_235_label_input_consumed",
-         input_run=trreq["certified_input_run"],
-         original_character_sha256=trreq["certified_character_sha256"],
-         original_coarse_points_sha256=trreq["certified_coarse_points_sha256"],
-         roles=roles, eight_CM_ids=IDS, full4513_scan_repeated=False)
-    # Gaussian first gives a short independently useful prefix if a later
-    # extension-field stage exhausts the budget; all eight remain the request.
-    cm_rows = sorted(cm_rows, key=lambda r: (r["candidate_id"] != 141, r["candidate_id"]))
-    for cm in cm_rows:
-        check_budget()
-        identifier = cm["candidate_id"]
-        STAGE = "actual_CM_%d_marking" % identifier
-        target = [c*beta_all[r] % P
-                  for c, r in zip(candidates[identifier]["vector"], roles)]
-        curve, pp, qq, marking = select_actual_model(
-            transfer, fq_default_ctx, cm, target, roles, zeta0, beta_all)
-        model = marking["model"]
-        order = 1 if model["j"] == 1728 % Q else (2 if model["j"] == 0 else 0)
-        STAGE = "actual_CM_%d_short_heat" % identifier
-        grid, grid_receipt = torsion_grid(curve, pp, qq, order, model["j"])
-        jets = original_reynolds_jets(curve, grid, source["descriptors"], order)
-        tangent95, formula = coarse_tangent_vector(
-            jets, model["A"], model["B"], model["j"])
-        tangent73 = source["kernel"]*vector(K, tangent95)
-        tangent16 = eigenmatrix*tangent73
-        rows = []
-        for index, old in enumerate(linear_rows):
-            e = tangent16[index]
-            lam = K(old["q_inverse_log_Bq_u1728"])
-            rows.append({"H2_eigenvalue": old["H2_eigenvalue"],
-                         "coarse_tangent_e": int(e),
-                         "consumed_lambda4": int(lam),
-                         "tangent_over_lambda4": int(e/lam)})
-        result = {"candidate_id": identifier, "j_rational": cm["j_rational"],
-                  "coarse_parameter": "j-j_CM",
-                  "marking": marking, "G1_grid": grid_receipt,
-                  "coarse_KS_formula": formula,
-                  "heat_jets95_sha256": digest(jets),
-                  "coarse_tangent95_sha256": digest(tangent95),
-                  "coarse_tangent73_sha256": digest([int(x) for x in tangent73]),
-                  "linear_rows": rows, "linear_rows_sha256": digest(rows),
-                  "no_CM_period_or_Bq_factor_deleted": True}
-        COMPLETED.append(result)
-        emit("actual_CM_tangent_certificate", **result)
+    STAGE = "isolated_field_worker"
+    field_receipt = consume_field_worker(source, cmreq, eigenmatrix, vector)
     signal.setitimer(signal.ITIMER_REAL, 0)
     STAGE = "completed"
     if sorted(r["candidate_id"] for r in COMPLETED) != IDS:
@@ -574,15 +779,24 @@ def main():
          request_sha256=REQUEST_HASH, completed_CM_count=len(COMPLETED),
          completed_CM_ids=[r["candidate_id"] for r in COMPLETED],
          linear_blocks=16, result_sha256=digest(COMPLETED),
+         isolated_field_receipt_sha256=digest(field_receipt),
          high_CM_log_recomputed=False, complete_auxiliary_scan_repeated=False,
          scope="Actual eight-CM e_i/lambda4_i in the 16 certified linear blocks only; no local height alpha, QC zero or rational-point exclusion is inferred.")
 
+
 if __name__ == "__main__":
+    is_field_worker = sys.argv[1:] == ["--field-worker"]
     try:
-        main()
+        if is_field_worker:
+            field_worker()
+        elif not sys.argv[1:]:
+            main()
+        else:
+            raise RuntimeError("Unexpected consumer command-line arguments.")
     except BaseException as exc:
         signal.setitimer(signal.ITIMER_REAL, 0)
-        emit("receipt", status="incomplete", stage=STAGE, source=SOURCE,
+        emit("field_receipt" if is_field_worker else "receipt",
+             status="incomplete", stage=STAGE, source=SOURCE,
              run=os.environ.get("GITHUB_RUN_ID"), request_sha256=REQUEST_HASH,
              exception_type=type(exc).__name__, message=str(exc),
              completed_CM_ids=[r["candidate_id"] for r in COMPLETED],

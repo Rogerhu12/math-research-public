@@ -108,7 +108,7 @@ so that the actual Weil root is exactly $2$. This stays in the same Cartan neckl
 
 The old tag comparison retains its actual native Weil root. For each $J$, it uses the determinant $d$, the original $\psi_5$-orbit products, the original smoothing factor $\kappa_\chi$, and the full character root-change factor. It compares the resulting fixed-root tag with the certified old vector times the original circular-unit label. This is done before the Hodge $I=13J$ normalization.
 
-All extension-field arithmetic uses the pinned python-flint field and its own modulus. Sage is used only for the prime-field Hodge matrices. The sole conversion routine first checks
+All extension-field arithmetic uses the pinned python-flint field and its own modulus in a newly executed Python child process that never imports Sage. The parent process imports Sage only for the prime-field Hodge matrices. No process loads both native FLINT implementations. The sole conversion routine first checks
 $$
 a^q=a
 $$
@@ -208,7 +208,7 @@ The new request has:
 
 | Field | Value |
 |---|---|
-| execution_id | `full-p47-eight-CM-tangents-v1` |
+| execution_id | `full-p47-eight-CM-tangents-v2` |
 | prime | $47$ |
 | coefficient_prime | $4513$ |
 | sage_version | `10.6` |
@@ -226,6 +226,12 @@ Every completed point immediately prints a compact receipt containing:
 - original grid/heat-jet/tangent hashes;
 - all sixteen $e_{y,i}$, consumed $\lambda_{4,i}$, and $b_{y,i}$.
 
+The parent reconstructs the pinned Hodge/Hecke input, then starts a fresh interpreter with `sys.executable` and the same pinned script's `--field-worker` entry point. This is exec isolation, not a forked interpreter continuing to use the parent's loaded libraries. The child repeats the public-Actions and source/request gates, checks the parent pid, source commit and descriptor hash, and verifies the Linux loader map contains one wheel FLINT library and no Sage FLINT library before creating its first field. It imports no Sage module.
+
+Only standard JSON crosses the pipe. The parent sends the original 95 descriptors, exact request/source pins and the shared absolute deadline. The child performs the original 235-input reconstruction and actual field calculations. Each completed point returns its 95 integer coordinates together with the unchanged marking/grid/heat hashes. The parent checks every coordinate is an integer in $[0,4512]$, checks the vector hash, projects immediately to the original 73 Hodge coordinates and 16 linear blocks, and prints that point's final receipt. It rejects duplicate, out-of-order or unsolicited points. The raw 95-vector is transmitted only through the runner pipe.
+
+Both processes use the same monotonic absolute deadline, equal to the parent's start plus 570 seconds. The child cannot obtain a second 570-second budget. On timeout or failure the parent kills and reaps any surviving child within the reserved cleanup period. Child runtime metadata uses `field_worker_seconds` when forwarded, leaving the parent's `worker_seconds` key unambiguous.
+
 The final receipt hashes the ordered eight completed records. A timeout or source mismatch preserves only the explicitly completed records. The emitter reserves `worker_seconds`, so imported payloads using `elapsed_seconds` cannot collide with that keyword.
 
 The source, request, run/job ids and output hashes should be registered after the public execution. Reconstructible matrices, torsion grids and raw data are not committed.
@@ -235,3 +241,22 @@ The source, request, run/job ids and output hashes should be registered after th
 A successful run certifies only (T8.1) for these original eight points and sixteen original linear Hecke blocks. It does not compute the finite-field third-kind coefficient $\alpha$, the complete QC height polynomial, or a common-zero exclusion. Those require the separately specified sources and hypotheses of R1103, including the actual non-$q$ local-height terms.
 
 No new numerical conclusion is asserted in this method before the public run.
+
+
+## 8. The first run's native failure and the isolated retry
+
+The first public run was `45965927561`, job `140394474708`, at source
+`c24a2dd1f433f8fa459e1f9a13cde41d6c028d04`. It completed the original
+Hodge/Hecke and 235-label input checks, then exited with code 139 before
+printing any completed CM point. Its native stack shows
+`flint/types/fq_default.abi3.so` calling Sage's
+`/home/sage/sage/local/lib/libflint.so.19` at
+`gr_generic_randtest_not_zero` during the first
+`fq_default_ctx(4513,1)` construction. This identifies a collision between
+the wheel's field extension and Sage's already loaded native FLINT runtime.
+
+That run supplies no tangent value. The v2 retry changes only native-runtime
+placement and the JSON protocol. The original mathematical field/grid/heat
+functions, all eight target tags, the consumed 16 Gaussian logarithms and
+the 600/30-second scope remain unchanged. The two native runtimes now live
+in different processes; integer JSON is the only arithmetic bridge.

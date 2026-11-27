@@ -1,5 +1,5 @@
 {
-  "execution_id": "full-p47-eight-CM-tangents-v1",
+  "execution_id": "full-p47-eight-CM-tangents-v2",
   "prime": 47,
   "coefficient_prime": 4513,
   "sage_version": "10.6",
@@ -16,7 +16,7 @@
     196,
     220
   ],
-  "rules_last_read_commit": "11b9d454386be7fa38b7083704fb49c3b40a0783",
+  "rules_last_read_commit": "77d7911226ae789b707e9e272d1249b6cc3b9099",
   "source_sha256": {
     "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
@@ -25,10 +25,19 @@
     "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
     "topics/serre-uniformity/scripts/original_p47_ell4513_cuspidal_transfer.py": "758df1a12306555605dde7db91ef2ab6d2aa62d9853dd134a875046e88ebaa7f",
     "topics/serre-uniformity/scripts/original_p47_cuspidal_disks.py": "35a0035d4f238670309d19c9acec35b5f9610cf13f5676f96503c59048148f98",
-    "topics/serre-uniformity/scripts/full_p47_eight_CM_tangents.py": "4ac0b6991855754673f940162b6f1d5d266455cdda2a817c45bc77a4adfab12e",
-    "topics/serre-uniformity/notes/2026-11-27-full-p47-eight-CM-tangents-method.md": "850bfe4f75862088484c0ffb3e2ef9fa19e5568239c336da60ed762e57dbf8a4",
+    "topics/serre-uniformity/scripts/full_p47_eight_CM_tangents.py": "c0932538657b87e6f2c31c0d32189383fd72e65267cf20986630d73dece1f1a5",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-eight-CM-tangents-method.md": "e3b5a732579c15f4bbced8156bb12d661b9c3567077d12c3190490283cab0c51",
     "topics/serre-uniformity/results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md": "b943cc19bdfd16e706d1e85039b02ecc3cfe28f5f330f864decfa18fd2cfab75"
   },
   "scope": "Eight original CM coarse tangents in all16 certified linear Hecke coordinates. Consume original lambda4 and old target tags; only short0/1/2 heat jets; no full4513 scan or CM high-log recomputation.",
-  "storage": "Code, parameters, run/job, small conclusions and output hashes only; no raw grids, arrays, artifacts or Releases."
+  "storage": "Code, parameters, run/job, small conclusions and output hashes only; no raw grids, arrays, artifacts or Releases.",
+  "native_runtime_isolation": "Sage parent, fresh exec python-flint-only child; integer JSON only",
+  "previous_failure": {
+    "run": 45965927561,
+    "job": 140394474708,
+    "source": "c24a2dd1f433f8fa459e1f9a13cde41d6c028d04",
+    "exit_code": 139,
+    "completed_CM_count": 0,
+    "reason": "python-flint extension resolved FLINT symbols to the already loaded Sage runtime; no CM point completed."
+  }
 }

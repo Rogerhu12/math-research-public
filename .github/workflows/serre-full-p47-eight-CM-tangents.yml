@@ -40,7 +40,7 @@ jobs:
         run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
       - name: Read eight original CM coarse tangents
         env:
-          SERRE_EXPECTED_REQUEST_SHA256: 'd010e74a9efcb197edcf6928ae663c02e591b6ca7836627d81374fe8772dac1b'
+          SERRE_EXPECTED_REQUEST_SHA256: '9bb7b3745fc680cb89e14e94c64480dc971259be41f3068b0074c22f3561f657'
         run: |
           timeout --signal=TERM --kill-after=30s 720s docker run --rm --cpus=4 \
             --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \
