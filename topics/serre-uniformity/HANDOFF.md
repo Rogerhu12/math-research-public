@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：a153a097ac116b164e5507b395ffcc4f422eac77**（2026-11-28 04:57 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：58c6b5ab92364fd00b1d0f24add7f72891fe327a**（2026-11-28 05:04 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；04:21重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 05:21。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -45,7 +45,8 @@ QF−P的contact恰2N+1且首余项unit，F=₂F₁(1/3,1/2;4/3)=√(1−x)G_N�
 
 [R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)与[原有限重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)保全gauge/常数/高尾/实际mask，付h≥1的L−2h逆、R² Newton商与完整principal；h0不外推，Θ^p在SS非零。
 
-[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)双低good分支至多一个非对角unordered pair；另一支Δ_low/48尚待unit。norm2准确消V₂后保V₃/V₄；另两二同源只给原偶band对角运输，旁unit在CM gauge抵消。§10两实际下降线已真运输：α^p=iα、t*′=it*、z′=−z；δ′=ηδ；Kronecker γ′=ηγ、N_R′=η⁻¹N_R，Weil γ_W/bχ保持。完整核与i0给Π′(z′)=Π(−z′)，同component两线统一z∈Fp；保S0/P0，不合并其他components。o2继续全部good余对或Δ。
+[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)双低good分支至多一个非对角unordered pair；另一支Δ_low/48尚待unit。norm2准确消V₂后保V₃/V₄；另两二同源只给原偶band对角运输，旁unit在CM gauge抵消。§10两实际下降线已真运输：α^p=iα、t*′=it*、z′=−z；δ′=ηδ；Kronecker γ′=ηγ、N_R′=η⁻¹N_R，Weil γ_W/bχ保持。完整核与i0给Π′(z′)=Π(−z′)，同component两线统一z∈Fp；保S0/P0，不合并其他components。o2继续全部good余对或Δ。R1135§11将全部good代数缩至A0=Fp[W²,W(W²−d)]或Fp[W]，d=S²/4−P；余维1、导子(W²−d)、真坐标恢复与节点/尖点全付。d0或非平方已分离Fp点；非零平方余对须某actual odd coefficient O_R(d)≠0。旧Δ/(2Gp−7)就是该导子类；向量场闭性未付，仍保真实mask。
+
 
 ## 已成、禁止重做与其它入口
 

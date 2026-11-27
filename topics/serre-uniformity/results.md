@@ -1,5 +1,8 @@
 # 结论索引
 
+- **R1135 §11（已证明，纸面）**：R1135§11将全部good代数缩至A0=Fp[W²,W(W²−d)]或Fp[W]，d=S²/4−P；余维1、导子(W²−d)、真坐标恢复与节点/尖点全付。d0或非平方已分离Fp点；非零平方余对须某actual odd coefficient O_R(d)≠0。旧Δ/(2Gp−7)就是该导子类；向量场闭性未付，仍保真实mask。
+[证明](results/R1135-original-Gaussian-low-row-fiber-constraint.md)。
+
 - **R1137 §2.6（已证明，纸面）**：原F²的完整首共振项和D/G平方自由性，将实际双缺陷精确转成非零Pell余式deg≤N−3；保误差首unit与可能的更高共同x因子，不以degree界冒充余式零。[证明](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)。
 
 - **R1142（已证明，纸面，Bp−5单位）**：[R1142](results/R1142-original-proper-Eisenstein-cohomology-and-Picard-dichotomy.md)只需Bp−5单位，原V_r=(TπJ⊗ω7)/πʳ的H0/H2为0、H1=O/πʳ（真实π像/Nakayama已付）。cusp section杀Leray transgression、B8杀base，故proper H²_(θ,m3)=O/p；实际ξ=ω⁻⁷ MW无torsion，Pic部分只能0或全，rank d=0/1。原Bhat=κF1∪κε2非零并生成π-socle；其field像B12非零 iff d0，d1时为非零Pic类。未定d/c，不将原βhat放进socle，其他proper块仍保。

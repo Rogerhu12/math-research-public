@@ -125,6 +125,8 @@ R1135§10已付同coarse component两实际twist的全部运输：α^p=iα，t*�
 
 R1135 §§5–7已用同一norm2平移付完整C₂/C₃/C₄乘积及原1/2、1/6、1/24尺度；安全F^(6−p)残数准确消去V₂，得到c₃=−40G_(p−3)+25H_p+8a³V₃/81−4a⁴V₄/243。H_p=0仍保V₃/V₄，不能宣c₃或Δ_low单位；原good门和两frame继续保留。§§8–9的另外两二同源给完整CM gauge及三二挠trace，原偶band只按显式因子对角运输；标准Weierstrass旁unit在实际CM框架精确消失，不能给新Δ条件，p71退化仍保。
 
+R1135§11将全部good代数缩至A0=Fp[W²,W(W²−d)]或Fp[W]，d=S²/4−P；余维1、导子(W²−d)、真坐标恢复与节点/尖点全付。d0或非平方已分离Fp点；非零平方余对须某actual odd coefficient O_R(d)≠0。旧Δ/(2Gp−7)就是该导子类；向量场闭性未付，仍保真实mask。
+
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
 完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。

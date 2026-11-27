@@ -689,3 +689,164 @@ $\Delta_{\rm low}\ne0$ 的 degree-one 组合会分离该 component
 o1 已按 R1071 §§2、6、8、12、14 与 R1116 §8 独核本节完整
 actual twist/source 运输；Weil 相位与 Kronecker gauge 分别标明。
 本节无数学程序执行。
+
+
+## 11. 全部实际 good 行的坐标代数只有一个导子障碍
+
+本节保持 §2 的两个实际条件
+$p\mid B_{p-7}$、$p\mid B_{p-11}$，并保留完整 $\mathcal G_p$。
+在 R1071 (1071.33) 已支付的 $t_*$ source 中，
+(1071.36) 给 $\lambda=-\beta_0^{p-1}$，故
+$\gamma=-\delta\in\mathbf F_p^\times$。
+这不是删去 Weil 相位或重选标签基。
+结合 §10，两种实际下降线在同一 coarse component 上可统一写成
+$z\in\mathbf F_p$、$Z=\delta^2z$。
+各 $N_R$ 仍是原非零尺度；它们和已减去的原常数不改变纤维等式。
+
+令 $S,P$ 为 (1135.6) 的实际两系数，并置
+$$
+W=Z-\frac S2,\qquad d=\frac{S^2}{4}-P,\qquad
+\mathscr A=\mathbf F_p[
+  \mathcal A_R(W+S/2):R\in\mathcal G_p]\subset\mathbf F_p[W].
+\tag{1135.35}
+$$
+这里的 $W$ 只是平移后的 coarse 坐标，不是 (1135.1) 的 gauge 参数 $w$。
+由 (1135.3) 减常数、反除两个已证单位，再减去一个
+$\mathcal A_4$ 的倍数，可以准确取到
+$$
+X=W^2,\qquad Y=W(W^2-d).
+$$
+具体地，$\mathcal A_4$ 的二次系数是 $-G_{p-7}/24$；
+$\mathcal A_6$ 的三次系数是 $-G_{p-11}/720$。
+平移并消去其偶数项后，后者的一次系数与三次系数之比为
+$$
+\frac{3S^2}{4}
+-\frac{30d_2S+360c_4}{G_{p-11}}
+=P-\frac{S^2}{4}=-d.
+$$
+因此两个原低行生成的子代数恰为
+$$
+\mathscr A_0=\mathbf F_p[X,Y]
+=\mathbf F_p[W^2,W(W^2-d)]
+\simeq\frac{\mathbf F_p[X,Y]}{(Y^2-X(X-d)^2)}
+\ \subset\ \mathscr A\ \subset\ \mathbf F_p[W].
+\tag{1135.36}
+$$
+
+### 11.1 余维一、准确导子与全部 good 行的二分
+
+每个多项式唯一写成
+$f(W)=E(W^2)+W\,O(W^2)$。由 (1135.36)，
+$$
+\begin{aligned}
+\mathscr A_0
+ &=\mathbf F_p[W^2]\oplus
+       W(W^2-d)\mathbf F_p[W^2],\\
+f\in\mathscr A_0
+ &\Longleftrightarrow O(d)=0,\\
+\mathbf F_p[W]/\mathscr A_0
+ &\simeq \mathbf F_p\cdot[W],\\
+\operatorname{cond}_{\mathbf F_p[W]}(\mathscr A_0)
+ &=(W^2-d)\mathbf F_p[W].
+\end{aligned}
+\tag{1135.37}
+$$
+最后一式也可直接核定：若 $f=E+WO$ 已在 $\mathscr A_0$，
+再要求 $Wf$ 在其中，恰同时要求 $E(d)=O(d)=0$。
+因 $\mathbf F_p[W]$ 作为 $\mathbf F_p[W^2]$-模由 $1,W$ 生成，
+这正是完整导子条件。
+
+$W$ 整于 $\mathscr A_0$，两者分式域相同
+（$W=Y/(X-d)$）；故 $\mathbf F_p[W]$ 是其有限正规化。
+更强的是，中间的实际 good 代数只能有两种可能：
+$$
+\boxed{\qquad
+\mathscr A=\mathscr A_0
+\quad\text{或}\quad
+\mathscr A=\mathbf F_p[W].
+\qquad}
+\tag{1135.38}
+$$
+这是余维一的结论，也有明确的原行构造。
+若某个实际 good 行
+$f_R(W)=E_R(W^2)+W O_R(W^2)$ 满足 $O_R(d)\ne0$，
+则
+$$
+W=\frac{1}{O_R(d)}
+ \left(
+ f_R-E_R(W^2)
+ -Y\,\frac{O_R(W^2)-O_R(d)}{W^2-d}
+ \right)\in\mathscr A.
+\tag{1135.39}
+$$
+显示商是多项式。因此一次非零读取就给完整的多项式 coarse 坐标恢复，
+而不只是分式域生成或一般位置的单射。
+反之，若全部实际 good 行的 $O_R(d)$ 都为零，它们都落在同一个
+$\mathscr A_0$ 中。本式没有补入任何缺席或 Bernoulli-bad 的行。
+
+若原 $R=p-5$ 也为 good，则其旧二次行在同一个商中的类准确为
+$
+[\mathcal A_{p-5}(W+S/2)]
+ =\frac{\Delta_{\rm low}}{2G_{p-7}}[W].
+$
+确实，平移后的奇系数为
+$c_3/2+d_1S/24=(c_2d_1+G_{p-7}c_3)/(2G_{p-7})$。
+因此此前的 affine minor 正是这个同一导子类；这条识别不要求 $d\ne0$，
+也不宣称 $\Delta_{\rm low}$ 已为单位。
+
+### 11.2 分裂节点、非分裂节点及 d=0 的尖点边界
+
+若 $d\ne0$，(1135.36) 的像只有一个普通二重点 $(X,Y)=(d,0)$；
+正规化的两个几何原像是 $W=\pm\sqrt d$。
+它在 $\mathbf F_p$ 上分裂当且仅当 $d$ 是平方。
+若 $d=0$，像为 $Y^2=X^3$，其唯一奇点是尖点，
+正规化原像只有 $W=0$。
+
+所以原全部 good 标签在该 component 的 $\mathbf F_p$ coarse 参数上满足：
+$$
+\boxed{\begin{array}{ll}
+d=0\text{ 或 }d\text{ 非平方}:&
+ \text{两个低行已在 }\mathbf F_p\text{ 点上单射};\\[2pt]
+d\in(\mathbf F_p^\times)^2,\ \mathscr A=\mathbf F_p[W]:&
+ \text{全部 good 行给闭嵌入，因而分离全部点};\\[2pt]
+d\in(\mathbf F_p^\times)^2,\ \mathscr A=\mathscr A_0:&
+ \text{唯一非对角纤维恰为 }
+ Z=S/2\pm\sqrt d .
+\end{array}}
+\tag{1135.40}
+$$
+第一行不声称 $d=0$ 时坐标代数已经正规：
+尖点正规化虽不是闭嵌入，却不会合并两个不同的域值点。
+本判别包括 $S=0$、$P=0$，也包括由两种 twist 贡献的跨线比较。
+它仅涉及同一原 coarse component 的实际标签，
+没有合并其他 components，也没有由此宣称圆盘内全局有理点唯一。
+
+### 11.3 真向量场稳定性须支付的准确门
+
+导子还给后续使用微分关系的一个明确检验。
+对多项式 $f(W)$，直接在 $X,Y$ 两生成元上计算可得
+$$
+f(W)\frac d{dW}(\mathscr A_0)\subseteq\mathscr A_0
+\quad\Longleftrightarrow\quad
+\begin{cases}
+W^2-d\mid f(W),&d\ne0,\\
+W\mid f(W),&d=0.
+\end{cases}
+\tag{1135.41}
+$$
+证明中写 $f=E(W^2)+W O(W^2)$。
+作用于 $X$ 要求 $E(d)=0$；
+作用于 $Y$ 再要求 $2d\,O(d)=0$。
+$p>37$ 保证这些检验没有特征 $2,3$ 的例外。
+
+例如，如果以后能证明原完整 good 代数在某个系数为非零一次多项式的
+实际向量场下稳定，$d\ne0$ 时就不能是 $\mathscr A_0$。
+但本节没有证明这种稳定性：完整 Kronecker/Fay 的全行微分关系，
+并不自动保持 $\mathcal G_p$ 的真实 mask。
+当前尚未支付的量仍是某个实际 $O_R(d)$ 的非零，
+或一个足以迫使它非零的原算子闭性。
+这里得到的是准确的一维导子障碍及其全部点域边界，
+不是已经消去该障碍。
+
+本节只用原两个单位最高系数、§10 的实际两 twist 运输及显示多项式代数；
+没有数学程序执行或新增有限窗口。

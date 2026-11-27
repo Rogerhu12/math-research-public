@@ -545,14 +545,18 @@
 - R1140 §13完成真实p-isogeny bare trace的全部尖点tame：乘法线的p阶、另p线的统一leading/ord及原quadratic-norm平方求和全部支付，µp相位另由Σt⁵消去。
 - generic proper门成，F33内去V投影得原cup=4δ²/21倍bare trace；结合既有cup的S延拓，该门内亦付算术支撑。门外不扩大、未定杯积值，无数学执行；继续常数与proper Picard cochain。
 
-### 2026-11-28 04:52 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-28 04:49 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1140 §14将局部leading及阶数接到原圆单位基，并核原Q下降、真实Betti复共轭与Merel记号的符号差；Bp−5门内端点在原cuspidal直线。
 - 仍保未知λ_E与全局cup倍数，未以局部非零代整体非零。全部纸推，无数学执行；继续原proper H²/Picard整模及指定端点读数。
 
-### 2026-11-28 04:56 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-28 04:54 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1142付实际每层H¹(V_r)=O/πʳ及proper H²_(θ,m3)=O/p：H0/H2、π像/Nakayama、原section的Leray differential、B8 base与Hecke关系全保。
 - 原奇MW整模无torsion迫Pic部分为0或全，实际常数杯积Bhat非零且生成socle，field像非零恰对应rank0。未定该rank/端点标量、未将任意proper cup降入socle；纸推无数学执行，继续具体Picard/cochain。
 
-### 2026-11-28 05:01 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-28 04:57 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1137 §2.6保完整F²首carry，付实际D/G无重根及互素、原非零norm余式和双缺陷后的deg≤N−3界；附真实三分支温和分歧。
 - 不假定共同零阶恰2或W0单位；仍须排实际Pell余式。纸推无数学执行，继续相邻Padé/分歧与原proper算术cochain。
+
+### 2026-11-28 05:04 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1135 §11从原两低行付全部good坐标代数的余维一二分、精确导子、显示恢复及分裂/非分裂节点和尖点的全部Fp纤维；旧Δ正是该同一导子类。
+- 实际向量场闭性仍未证明，不从全行Fay越过mask；纸推无数学执行。并按实际commit时间校准本轮三个日志分钟值；继续指定余对和相邻Padé。
