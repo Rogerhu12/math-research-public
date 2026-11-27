@@ -1,6 +1,6 @@
 {
   "schema": "rank2-original-degree130-thirteen-torsion-pair/v1",
-  "request_id": "2026-11-27-r992-complete-direct22-eleventh-zero-source",
+  "request_id": "2026-11-27-r1004-both-complete-kernel-sixth-jets",
   "degree": 130,
   "offset": 2,
   "workers": 4,
@@ -41,21 +41,24 @@
   "both_complete_quadratic_kernel_algebras": true,
   "canonical_complete_matrix_sha256": "aed9d071b6bf9b8b2751b253883fc2664e2dd19724edec8383c5a7f3e4017113",
   "source_sha256": {
-    "check-original-degree130-thirteen-torsion-entry.py": "e8f068b33c81cc7ea9856e4fe407ce3f267af8ce76e341e1c922e0790ef8bdaa",
+    "check-original-degree130-thirteen-torsion-entry.py": "63a157c8939327e23070bc51d1b64f7f89e4185298928ce968c0a25a7883512c",
     "check-original-thirteen-torsion-forced-pair.py": "550d182490d957b31898fda76c18999e2eaffc59f796eefd6b1dd75c26092104",
     "check-r464-degree102-cm7-exact.py": "b3e11a9da1b28a7623d86acf944262ab23c2d1969b1f0183030a4d1c96b5f1ff",
     "check-r466-fixed-two-division-source.py": "effd6f1526421cfcb9da3bd7769eed258374fa0addf337313d0315cb3ef08245",
     "check-r480-actual-input-cm19.py": "3d4d9a05872cdde0f24ff756ec79407417afa943eabf6f71f4e48d32f91f9c45",
     "check-original-thirteen-boundary-weights.py": "72b72c384ab352e1cdd405f1b985517bb2d2ebbef64dd0a7f31fb07473074717",
-    "check-original-thirteen-inert-zero-source.py": "220a18e1b483a7981da1621614ecddf902e3184f220053814a6c1e749f6d26ae"
+    "check-original-thirteen-inert-zero-source.py": "220a18e1b483a7981da1621614ecddf902e3184f220053814a6c1e749f6d26ae",
+    "check-original-thirteen-full-sixth-jet.py": "d33eb6db4b6251a2f893e5083e6b0d2d7f26a6e4e75cb6d0b9c6c625a93a727a"
   },
   "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-degree130-thirteen-torsion-entry.py",
   "args": [
     "--workers=4"
   ],
   "output_files": false,
-  "scope": "Retain every original R987 complete48-fiber/full22/fullgood13 gate and reconstruct both primitive rank-one sources and the raw six-sigma F10 in the same genuine direct22 context. Return both complete quadratic13-kernel mass algebras, exact primitive cancellation multiplicities and first nonzero quotient remainders, Gold boundary determinants and actual L_T sixth-power weights. All original P2(T), Xi_T, moving Z-zero and two-torsion terms remain in the proof; no local term is identified with the whole Cartier reader. Add the exact R992 common-old zero source from both complete raw13 pulls, both full kernel algebras, the actual four-source boundary determinant, and whole kernel-killed residual polynomials with their exact multiplicities and first quotient remainders. All R987/R993 gates remain mandatory.",
+  "scope": "Retain every original R987 complete48-fiber/full22/fullgood13 gate and reconstruct both primitive rank-one sources and the raw six-sigma F10 in the same genuine direct22 context. Return both complete quadratic13-kernel mass algebras, exact primitive cancellation multiplicities and first nonzero quotient remainders, Gold boundary determinants and actual L_T sixth-power weights. All original P2(T), Xi_T, moving Z-zero and two-torsion terms remain in the proof; no local term is identified with the whole Cartier reader. Add the exact R992 common-old zero source from both complete raw13 pulls, both full kernel algebras, the actual four-source boundary determinant, and whole kernel-killed residual polynomials with their exact multiplicities and first quotient remainders. All R987/R993 gates remain mandatory. Add the actual R1004 mass and sixth Taylor coefficient maps on all 22 columns in both whole 12-point kernel algebras, with exact curve and inverse-series returns, full conjugation, original raw13 trace returns and the K/C residuals. No translated central derivative is declared zero.",
   "same_job_full_thirteen_boundary_weights": true,
   "exact_kernel_multiplicities_and_first_nonzero_quotients": true,
-  "same_job_full_inert_zero_source": true
+  "same_job_full_inert_zero_source": true,
+  "same_job_all_twenty_two_kernel_sixth_jets": true,
+  "original_kernel_taylor_degree": 7
 }

@@ -6,8 +6,8 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `6878b52d4afde59c59d49968d722ac326c770541`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
-- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；23:35UTC pull至632448c6964eb2ca42eaa0b8a74f55efe0c7404f，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
+- 公开根/课题 README 已读至 `cb69e0d44c0670178cb815c2bbc125e381936721`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；00:18UTC pull至d068b7528401ee4bdb36807538380cfe9c84aa08，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-two-exact-layers.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
@@ -54,4 +54,4 @@ R988严格level12 K3双逆保持，但R990已证明其新CM17全图族在2处Cho
 
 O4最早a≤1/δ²、O6全Np有限/原q_p=1、O7同解共振/全Laurent/非恒定Y权仍开。原P134/十九角/charge40/10980/WD/TM/TJ及R953跨parity、R954实际forcing成员性保持；全部精确条件见open和逐字归档。不再只提高rank常数而当闭合。
 
-central：R1004原H_p/E_p实际必要余式；arithmetic：单P130/13有限指数129的全权运输及两exact真实消费；geometry：原3型/full9全球桥并跟唯一v8；root：独立读证、原输入研究、消费真回执、逐条推送。主目标未完成就继续下个实质门，不以来源变换或中间结果收尾。
+central：R1004同原direct22的两完整13核全22 mass/c6，轻消费者已接公开workflow，待读真回执；arithmetic：单P130/13有限指数129的全权运输及两exact真实消费；geometry：原3型/full9全球桥并跟唯一v8；root：独立读证、原输入研究、消费真回执、逐条推送。主目标未完成就继续下个实质门，不以来源变换或中间结果收尾。

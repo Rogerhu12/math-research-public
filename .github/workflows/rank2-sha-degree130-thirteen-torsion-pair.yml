@@ -9,6 +9,7 @@ name: Rank2 original complete22 and thirteen torsion boundaries
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-torsion-forced-pair.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-boundary-weights.py"
       - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-inert-zero-source.py"
+      - "topics/rank2-sha-infinitely-many-p/scripts/check-original-thirteen-full-sixth-jet.py"
   workflow_dispatch:
 permissions:
   contents: read
@@ -49,6 +50,8 @@ jobs:
           assert request["same_job_full_thirteen_boundary_weights"] is True
           assert request["exact_kernel_multiplicities_and_first_nonzero_quotients"] is True
           assert request["same_job_full_inert_zero_source"] is True
+          assert request["same_job_all_twenty_two_kernel_sixth_jets"] is True
+          assert request["original_kernel_taylor_degree"] == 7
           assert request["output_files"] is False
           script = prefix + "scripts/check-original-degree130-thirteen-torsion-entry.py"
           assert request["script"] == script and request["args"] == ["--workers=4"]
@@ -57,6 +60,7 @@ jobs:
               "check-original-thirteen-torsion-forced-pair.py",
               "check-original-thirteen-boundary-weights.py",
               "check-original-thirteen-inert-zero-source.py",
+              "check-original-thirteen-full-sixth-jet.py",
               "check-r464-degree102-cm7-exact.py",
               "check-r466-fixed-two-division-source.py",
               "check-r480-actual-input-cm19.py",
@@ -78,7 +82,7 @@ jobs:
                                                       separators=(",", ":")), flush=True)
           manifest_hash = hashlib.sha256(json.dumps(manifest, sort_keys=True,
                                        separators=(",", ":")).encode()).hexdigest()
-          print("R987_R993_R992_AST_PASS 7", flush=True)
+          print("R987_R993_R992_R1004_AST_PASS 8", flush=True)
           dependencies = pathlib.Path(os.environ["RUNNER_TEMP"]) / "rank2-thirteen-python"
           subprocess.run([sys.executable, "-m", "pip", "install",
                           "--disable-pip-version-check", "--target", str(dependencies),
@@ -91,7 +95,7 @@ jobs:
                      "stdout_sha256": hashlib.sha256(result.stdout).hexdigest(),
                      "stdout_bytes": len(result.stdout), "exit_code": result.returncode}
           if result.stdout:
-              if len(result.stdout) > 40000:
+              if len(result.stdout) > 65536:
                   print("R987_OUTPUT_LIMIT " + json.dumps(receipt, sort_keys=True), flush=True)
                   raise RuntimeError("Compact exact report exceeded its text bound")
               report = json.loads(result.stdout)
@@ -151,4 +155,19 @@ jobs:
               assert packet["exact_kernel_vanishing_multiplicity"] >= 1
               assert packet["maximal_kernel_power_full_return"] is True
               assert packet["whole_kernel_killed_residual_first_order"] >= 12
+          sixth = report["actual_thirteen_full_sixth_jet"]
+          assert sixth["status"] == "PASS"
+          assert sixth["complete_direct22_matrix_sha256"] == request["canonical_complete_matrix_sha256"]
+          assert sixth["all_twenty_two_columns_conjugate_return"] is True
+          assert sixth["actual_raw_F10_and_norm13_Xi_full_return"] is True
+          assert sixth["K_C_complete_double_two_torsion_factor_return"] is True
+          sixth_packets = sixth["both_complete_kernel_packets"]
+          assert set(sixth_packets) == {"pi", "barpi"}
+          for packet in sixth_packets.values():
+              assert packet["whole_twelve_point_algebra_dimension_over_K"] == 12
+              assert packet["original_x_taylor_degree"] == 7
+              assert packet["full_curve_and_inverse_series_return"] is True
+              assert packet["full_old_mass_row_return"] is True
+              assert packet["both_primitive_full_kernel_sixth_traces_minus_one_sixth"] is True
+              assert packet["raw_norm13_full_trace_mass_and_sixth_return"] is True
           PY
