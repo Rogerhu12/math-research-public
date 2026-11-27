@@ -293,3 +293,7 @@
 ### 2026-11-27 22:53 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1130 §6把I_(n+2)真正接回原X108的(V−v)ν/(V+v)u亚纯配对，完整Laurent范围仅读p−1；原相对Cartier标量和两次分部积分准确给 I_(n+2)+I_n=3δ/4。
 - root/o1独核，旁单位只回旧C(Uω)=−δ，不是原K4的新独立输入。该邻项来源问题已结清；不继续重复此旁单位，转实际normal-FM变分及保边界短和。无新数学执行。
+
+### 2026-11-27 22:55 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 按小时再次尝试真实 git pull --rebase origin main，执行器仍报无可用环境，shell未运行。按根规则8同步至43ad5d872ae2a6c9e36edf96bafa31f5eea60e7b；仅其它课题更新，两README差异为空，文本SHA各与已读pins完全相同，H记录。
+- 原逆中心邻项来源已结清只回δ；继续真实三挠normal-FM算子、Gaussian实际矩阵及一般p四阶覆盖来源，不等待环境恢复或阶段回复。
