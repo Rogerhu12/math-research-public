@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明输入：** [等权六生成元的原18乘法与全部原值六列返回](results/R150-appendix-unit211-equal-weights-six-generator-original-multiplication-and-value-rows.md)：两余三次、原NS/PS与不同值分子同点全乘回；保非自由关系和原物理条件，继续参数cofactor及全零面。
+
 - **已证明：** [一般等权整个半权 m=1/2 分支排除](results/R150-appendix-unit211-equal-weights-half-weight-complete-exclusion.md)：合法全支两参数返回，原首一z四次和两原三次给完整QQ结式；14/24次真实Bézout1排所有复参数，不是y半子支或单点推断。
 
 - **已证明：** [实际最大图输入的临界小指数物理孔矩与原图核心](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)：s0=(2+2log(3/2))/14的物理孔矩足够支付同一来源C2，精确权次主项保临界等号；不声称未知Green来源自动具有该矩。

@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** `d7fd0048cc5550440d78040c2bedf0ca2898b516`（2026-11-27 05:18:38.598777 UTC；真实新计算run45945018737的部分克隆）；两README diff无变。本地上次仍02:43:20/48bf564a，终端未恢复。每次pull且至少每小时检查。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。05:14:29接口读5f66338266f077a838cb43ff6b9f1a04727ee6cd，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `9498a109db96fd4448815c264bf4ae1f980d772e`（2026-11-27 05:31:15 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `cb15c05eced353626a453a5127b5428f51388a84`（2026-11-27 05:33:23 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-half-weight-and-centered-physical-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 

@@ -1,0 +1,69 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "runtime": "functions.exec V8 rational BigInt",
+  "sources": [
+    {
+      "name": "multiplication-return",
+      "source_sha256": "6218341c15450ebf8bfa79f819dfbcb10347fd7c7e957eb49dc0e13a9886fe63",
+      "actual_stages": [
+        {
+          "stage": "global_equal_weight_original_eighteen_multiplication_identities",
+          "seconds": 6.782,
+          "mathematical_payload_sha256": "6c05de3673638279ff9067bc99a9ac268b5f0f4bd74cfffa60ca7abeceb99ec5"
+        },
+        {
+          "stage": "global_equal_weight_original_NS_PS_six_column_returns",
+          "seconds": 49.212,
+          "mathematical_payload_sha256": "6b4a88f88301087fcb69006fe7797370dd05f0d83566daff16b832973577fda0"
+        }
+      ]
+    },
+    {
+      "name": "remaining-cubic-rows",
+      "source_sha256": "9d95f57cf4ca4f91ca414477e4bb926a56aa6e326ba71ddde872579072ce96dc",
+      "actual_stages": [
+        {
+          "stage": "global_equal_weight_remaining_original_cubic_rows",
+          "seconds": 13.941,
+          "mathematical_payload_sha256": "53d4e6596685345854bfc06dd79311034d9de529a18f7027d8dc3f532edfcbf4"
+        }
+      ]
+    },
+    {
+      "name": "Dval-return",
+      "source_sha256": "cbea4d37c7d89ced4819043d379f441a76a842e2cbd84454fc93ff0df6127e99",
+      "actual_stages": [
+        {
+          "stage": "original_equal_weight_Dval_six_column_return",
+          "seconds": 0.859,
+          "mathematical_payload_sha256": "b016269f1e6b2ca2f9d1d8c72d824396ab58483deabc64699ed659a5464c8d34"
+        }
+      ]
+    },
+    {
+      "name": "primitive-rows",
+      "source_sha256": "e0dd2b9de409853e3c9adbfc008015ba8adf03fc9c929e877c0d1b379db1e045",
+      "actual_stages": [
+        {
+          "stage": "original_equal_weight_primitive_six_column_rows",
+          "seconds": 0.691,
+          "mathematical_payload_sha256": "4d8d54c7455c2d3c1e7eb5db4d00fb5e4cd8e76936c600832216a7785a3f38b4"
+        },
+        {
+          "stage": "original_equal_weight_primitive_six_column_rows",
+          "seconds": 0.222,
+          "mathematical_payload_sha256": "14f254b8bef72451620c1c5f25ef16dadc81982625543f9c4a6da0c260dd9f32"
+        }
+      ]
+    }
+  ],
+  "eighteen_original_multiplication_identities": true,
+  "two_original_NP_returns": true,
+  "two_remaining_original_cubic_returns": true,
+  "original_Dval_return": true,
+  "free_module_not_assumed": true,
+  "no_parameter_cofactor_yet": true,
+  "os_exit_code": null,
+  "rss": null,
+  "ordinary_isp_claim": false
+}

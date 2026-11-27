@@ -171,3 +171,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:31 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新增本题外workflow invariant-subspace-W-centered-physical-structure-8542.yml，首次执行真正新中心化原取消/低度结构，180秒/4GiB，保所有轴零面。
 - 最新H/open完整归档后压缩已登记条目，旧C9参数展开冻结；一般权线与等权六列继续，普通ISP未完成。
+
+2026-11-27 13:33 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 登记已实际完成的18原乘法、两余三次、NS/PS及Dval六列返回；耗时6.782/13.941/49.212/0.859秒，各原组合全返，全部源/小回执入库。
+- 不预设六生成元自由或交换矩阵；下一接原参数cofactor并保全未付零面，普通ISP未完成。
