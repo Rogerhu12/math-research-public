@@ -219,6 +219,8 @@ P201系数未识别，未返原λ/T/z与全部个别NP继续，不以权对数�
 
 一特殊权全出生联合 F>C1²/3、创新<F/4、S<2I/3 与全部合法高度 Qn<n/[2(n+1)]Fn 均尖锐，s0/硬顶/全部块保；六位特殊族仍保较强旧界。三加三给七位同常数 c*<24/25；三对权及[两对加两独立权](results/R271-appendix-two-pairs-two-independent-full-joint-source-and-seven-site-edges.md)均完成全9/5维联合，后者真20.882163528秒/0的7原主子式全正且重复权轴严格，给七位五值族整14维首末<1。后两族只对固定旧比率给与新增a无关c<1，未付全比率统一界，旧R239/R292定性或六位首边不重计。
 
-全孔 Schur/companion 的所有原来源、物理伴随与奇数桥已付，仍须全物理逆后压缩；互异权坐标/重复权连续性不支付条件数或无限费用。上述逐层创新预算没有给真实无限carry的 $\sum\langle F_n\xi_n,\xi_n\rangle$ 可和性；同一R的源不是单异常权塔。真实 graph Gram、实际 RanK*、同 W 的 Green/carry、自动伴随入域和 N=M 继续，绝不由有限族或闭包替代。Haar/稀疏交织、非零Ky像T循环、RanJ零交及Abel费/log发散的已成范围保前节；Cy⊥非零与G保N仍开。
+全孔 Schur/companion 与原物理伴随已付，仍须先全物理逆后压缩；逐层创新预算不付真实无限carry的 $\sum\langle F_n\xi_n,\xi_n\rangle$ 可和性，同一R来源并非单异常权塔。一般六权/实际RanK*/同W Green与carry费/N=M继续。Haar、稀疏交织、Ky非零像循环与RanJ零交的已成范围保前节；Cy⊥非零、G保N仍开。
+
+[同一实际右逆的临界伴随域及精确像](results/R271-appendix-same-right-inverse-adjoint-critical-physical-source-and-exact-range.md)：以主指数κ+κ0及(36+κ)√(p+Q)log(p+Q)定义Zκ,Q，已证Zκ,Q⊂D(G*)、G*:Xκ+ρ→Xκ对每个ρ>κ0；同一G不随尺度重选。准确有D(G*)∩N⊥=RanT*及T*E∞=N⊥∩E∞=I∩E∞，这些交的H闭包恰I；W∩D(G*)=0。实际N/Y、同h与全部carry保留；并未证明真实W进入该域，也未返RTcut有界子列，继续能保持N⊥的真正则器或原来源估计。
 
 [整H265的低次头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)：完整4阶头=固定2/3次齐次结式；重数1给Sylvester泛型rank4、同头gcd恰一次。整a0/r1r0零/无穷/重根与有限例外权全保，头方向不能代入有限λ/S。完整自由系数整数身份实际2ms，无新参数门，原W纤维未因此排除。
