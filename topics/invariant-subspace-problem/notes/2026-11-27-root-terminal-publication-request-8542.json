@@ -1,15 +1,17 @@
 {
-  "message": "ISP: record exact original modular projections and submit infinity-local degree proof",
-  "parentCommit": "bcbbb43c54b15130bd52c92f2f3bc44ce2a9eced",
+  "message": "ISP: prove exact degree 1945 original Phi cover and enter new finite fibers",
+  "parentCommit": "cc5b021bae272c51d5bdfbcc27caa91f02776106",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-fixed-original-rho-modular-return-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-fixed-original-rho-modular-return-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-original-infinity-degree-certificate-8542.py",
-    ".github/workflows/invariant-subspace-phi-h-one-original-infinity-degree-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-1945-degree-original-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-exact-1945-degree-original-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-c-half-original-return-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-individual-NBPB-modular-return-8542.py",
+    ".github/workflows/invariant-subspace-phi-h-one-c-half-original-return-8542.yml",
+    ".github/workflows/invariant-subspace-phi-h-one-individual-nb-pb-projections-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +21,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-h-one-original-infinity-degree-8542.yml"
+    "invariant-subspace-phi-h-one-c-half-original-return-8542.yml",
+    "invariant-subspace-phi-h-one-individual-nb-pb-projections-8542.yml"
   ]
 }

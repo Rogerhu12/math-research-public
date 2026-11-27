@@ -1,0 +1,512 @@
+{
+  "scope": "original Phi0/zn0 selected h=1 chart, fixed27 rho Sylvester",
+  "result": "exact QQ resultant degree1945, leading coefficient a1009-unit; not empty",
+  "run_id": 45995941790,
+  "job_id": 140495249115,
+  "execution": {
+    "elapsed_seconds": 3.1318207979999997,
+    "max_child_rss_kib": 52636,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "af541864be32b2aeaea71de50e1af478de4e6be2",
+        "before": "af541864be32b2aeaea71de50e1af478de4e6be2",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T12:07:12.641924+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45995941790",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "af541864be32b2aeaea71de50e1af478de4e6be2",
+    "source_exit_code": 0,
+    "source_git_blob": "05391e622f92ea44f81fa58277eb45486fd6ccd4",
+    "source_sha256": "c3e74aad554242a0a4dbe386f3a1808c4529033613e0061cbc482ee1345691dc",
+    "stdout_bytes": 25292,
+    "stdout_sha256": "2550a1dde975dbd8fa4e431f1a33c8d87a0183e8c89d6a3632e586b7d792a9a7",
+    "stop_reason": null
+  },
+  "initial_matrix": {
+    "originalFixedRhoDegrees": [
+      14,
+      13
+    ],
+    "matrixSize": 27,
+    "originalIntegerCoreHashes": [
+      "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c",
+      "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64"
+    ],
+    "determinantIdentity": "det Mhat(z)=z^2051 Res_rho(F,G)(1/z)",
+    "priorModularSourceSha256": "60c2a406c48174d8a537ccf363369fc4abe7a0f39b8c00af85a071806200fafc",
+    "priorModularRun": 45994627867,
+    "priorModularDegree": 1945,
+    "targetInfinityValuation": 106,
+    "initialQQValuationLowerBound": 0,
+    "fullMatching": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "fullIntegralDualRows": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "fullIntegralDualColumns": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "everyDualEntryInequalityVerified": true,
+    "remainingPrecision": 107,
+    "wholeCoefficientReversalVerified": true,
+    "noQQResultantComputed": true,
+    "claimExcluded": false,
+    "stage": "new_original_infinity_exact_matrix",
+    "seconds": 2.656475471999997
+  },
+  "complete_certificate": {
+    "provedInfinityValuationLowerBound": 106,
+    "modularValuationUpperBound": 106,
+    "exactQQValuation": 106,
+    "exactQQDegree": 1945,
+    "degree1945Paid": true,
+    "originalIntegerCoreHashes": [
+      "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c",
+      "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64"
+    ],
+    "fullRounds": [
+      {
+        "round": 1,
+        "actualQQRank": 15,
+        "actualQQKernelDimension": 12,
+        "selectedRows": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 12,
+        "remainingPrecision": 95,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 2564
+      },
+      {
+        "round": 2,
+        "actualQQRank": 17,
+        "actualQQKernelDimension": 10,
+        "selectedRows": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 22,
+        "remainingPrecision": 85,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 3563
+      },
+      {
+        "round": 3,
+        "actualQQRank": 17,
+        "actualQQKernelDimension": 10,
+        "selectedRows": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 32,
+        "remainingPrecision": 75,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 4562
+      },
+      {
+        "round": 4,
+        "actualQQRank": 19,
+        "actualQQKernelDimension": 8,
+        "selectedRows": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 40,
+        "remainingPrecision": 67,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 5507
+      },
+      {
+        "round": 5,
+        "actualQQRank": 19,
+        "actualQQKernelDimension": 8,
+        "selectedRows": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 48,
+        "remainingPrecision": 59,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 6452
+      },
+      {
+        "round": 6,
+        "actualQQRank": 20,
+        "actualQQKernelDimension": 7,
+        "selectedRows": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 55,
+        "remainingPrecision": 52,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 7370
+      },
+      {
+        "round": 7,
+        "actualQQRank": 20,
+        "actualQQKernelDimension": 7,
+        "selectedRows": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 62,
+        "remainingPrecision": 45,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 8288
+      },
+      {
+        "round": 8,
+        "actualQQRank": 21,
+        "actualQQKernelDimension": 6,
+        "selectedRows": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 68,
+        "remainingPrecision": 39,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 9179
+      },
+      {
+        "round": 9,
+        "actualQQRank": 21,
+        "actualQQKernelDimension": 6,
+        "selectedRows": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 74,
+        "remainingPrecision": 33,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 10070
+      },
+      {
+        "round": 10,
+        "actualQQRank": 22,
+        "actualQQKernelDimension": 5,
+        "selectedRows": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 79,
+        "remainingPrecision": 28,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 10934
+      },
+      {
+        "round": 11,
+        "actualQQRank": 22,
+        "actualQQKernelDimension": 5,
+        "selectedRows": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 84,
+        "remainingPrecision": 23,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 11798
+      },
+      {
+        "round": 12,
+        "actualQQRank": 23,
+        "actualQQKernelDimension": 4,
+        "selectedRows": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 88,
+        "remainingPrecision": 19,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 12635
+      },
+      {
+        "round": 13,
+        "actualQQRank": 23,
+        "actualQQKernelDimension": 4,
+        "selectedRows": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 92,
+        "remainingPrecision": 15,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 13472
+      },
+      {
+        "round": 14,
+        "actualQQRank": 24,
+        "actualQQKernelDimension": 3,
+        "selectedRows": [
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 95,
+        "remainingPrecision": 12,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 14282
+      },
+      {
+        "round": 15,
+        "actualQQRank": 24,
+        "actualQQKernelDimension": 3,
+        "selectedRows": [
+          24,
+          25,
+          26
+        ],
+        "extractedTotal": 98,
+        "remainingPrecision": 9,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 15092
+      },
+      {
+        "round": 16,
+        "actualQQRank": 25,
+        "actualQQKernelDimension": 2,
+        "selectedRows": [
+          25,
+          26
+        ],
+        "extractedTotal": 100,
+        "remainingPrecision": 7,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 15875
+      },
+      {
+        "round": 17,
+        "actualQQRank": 25,
+        "actualQQKernelDimension": 2,
+        "selectedRows": [
+          25,
+          26
+        ],
+        "extractedTotal": 102,
+        "remainingPrecision": 5,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 16658
+      },
+      {
+        "round": 18,
+        "actualQQRank": 25,
+        "actualQQKernelDimension": 2,
+        "selectedRows": [
+          25,
+          26
+        ],
+        "extractedTotal": 104,
+        "remainingPrecision": 3,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 17441
+      },
+      {
+        "round": 19,
+        "actualQQRank": 26,
+        "actualQQKernelDimension": 1,
+        "selectedRows": [
+          26
+        ],
+        "extractedTotal": 105,
+        "remainingPrecision": 2,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 18197
+      },
+      {
+        "round": 20,
+        "actualQQRank": 26,
+        "actualQQKernelDimension": 1,
+        "selectedRows": [
+          26
+        ],
+        "extractedTotal": 106,
+        "remainingPrecision": 1,
+        "determinantRowOperation": "P=I+N0; N0^2=0; detP=1",
+        "allKernelAndDivisionIdentitiesVerified": true,
+        "divisionChecks": 18953
+      }
+    ],
+    "divisionIdentities": 18953,
+    "kernelTraceSha256": "89b37939eb968c2b7f0683011f6764e8562f07cad63f22f7afc1adcd2d769dec",
+    "noQQResultantComputed": true,
+    "noFiniteFiberRemoved": true,
+    "claimExcluded": false,
+    "ordinaryISPClaim": false,
+    "stage": "complete_original_infinity_degree_certificate",
+    "seconds": 3.063695347999996
+  }
+}
