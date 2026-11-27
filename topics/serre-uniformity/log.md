@@ -342,3 +342,8 @@
 ### 2026-11-27 23:41 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 从dSE正规化子整定理核ℓ=p可用，商Jacobian拉回核无p因子，得到实际Q上prime-to-p Chen同源，保完整p次幂扭点/Tate格及离p Hecke。原split模解释和商Fricke身份也逐一落实。
 - root/global/o2全文纸审Ohta Th5.1.4，明确使用arithmetic X₁、A={±1}、N=1及degree(p−1)/2，消去level p全部奇圆分p∞扭点；一般odd障碍准确转到Fricke+平方层。未把N=p偷入Ohta范围，实际new层/指定Ext与Kummer类继续；无新数学执行。
+
+
+### 2026-11-27 23:48 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原Tate normal-FM §8从实际完整Tate加法、全曲面graphs及三次方相位，付6v·dot S=[P,S]；完整p+1维H两端p因子、N_full+P和原最高偶补偿全部保留。
+- root复核阻断未发布草稿N.35：Vε幂约回自然基时漏曲线方程的εvU变化。o1修正为完整偶奇分解，root/o1/o2同核；原N.26–34不受影响。H逐字前态归档后压缩，无数学执行；继续指定源/Picard关系，不将实际normal单位冒成K4。

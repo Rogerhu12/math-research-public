@@ -462,3 +462,207 @@ $$
 $\Phi\mathcal N_{\rm full}\Phi^{-1}$ 是某个低阶目标微分算子。
 尤其原 $e$ 和 $K_4$ 的 Picard jets 仍须按原 $J_1,J_4$ 的全部 carry 比较。
 本次新增各式由o1_theta给出，root逐式核全局截面极界、实际核除子、普通族闭包、−Q刚化、完整heat及奇源边界；均为纸面推导，没有执行数学程序或新的素数窗口。
+
+
+## 8. 实际三挠平移的 normal 输运与最高偶边界
+
+本节保持 (N.21) 的同一个目标刚化，使用完整
+$H_\epsilon=H^0(E_\epsilon,\mathcal O((p+1)O))$。
+它给的是实际三平移矩阵随原 Tate 族的变分，未声称
+$S\Phi=\Phi S$。
+
+### 8.1 全曲面 divisor 与三挠相位
+
+写
+$$
+l_+=V-v-\epsilon U/2,\qquad
+l_-=V+v+\epsilon U/2,\qquad l_+l_-=U^3.
+$$
+把曲线写成 $l_+^2+(\epsilon U+2v)l_+=U^3$，
+在 $(U,l_+)$ 坐标中用通过 $Q=(0,0)$ 的直线取第三交点，准确得到
+$$
+U(T+Q)=-\frac{2vU}{l_-},\qquad
+l_+(T+Q)=-\frac{4v^2}{l_-},\qquad
+l_-(T+Q)=\frac{2v l_+}{l_-}.
+\tag{N.26}
+$$
+这些是完整 Tate 族的有理恒等式，不只在特殊纤维成立。
+再平移一次给 $l_-(T-Q)=-4v^2/l_+$，所以
+$$
+\prod_{i=0}^2 l_-(T+iQ)=-8v^3.
+$$
+
+定义真正的线丛平移作用
+$$
+S_\epsilon f(T)=l_-(T)^{2k}f(T+Q),\qquad
+\gamma=(2v)^{2k}\in\mathbf F_p^\times.
+$$
+因为 $\operatorname{div}(l_-)=3(-Q)-3O$，
+且 $6k=p+1$，$S_\epsilon$ 保持整个 $H_\epsilon$。
+(N.26) 给
+$$
+S_\epsilon^3=(-8v^3)^{2k}=\gamma^3=-4v^2.
+\tag{N.27}
+$$
+特别地，三次方相位没有一阶 normal 修正。
+
+还须保留核在整个乘积曲面上的 divisor。
+原 $K_\epsilon$ 的源首项归一以及 (N.20) 给
+$$
+\operatorname{div}(K_\epsilon)
+=\Gamma_{T=\mathcal V_\epsilon R}
+ -\Gamma_{R=F_\epsilon T}
+ +(p-1)(O\times E)
+ -E\times(\mathcal V_\epsilon^*O-O).
+$$
+非 vertical 部分是 (N.3)；目标端的 vertical 部分正是
+原 $s_1$ 的零除子，源 $O$ 首项恒一排掉额外底函数。
+这里的 graph 与核除子均取 scheme 重数。
+另一方面
+$$
+\operatorname{div}(U_T^p-U_R)
+=\Gamma_{R=F_\epsilon T}+\Gamma_{R=-F_\epsilon T}
+ -2p(O\times E)-2(E\times O).
+$$
+用 (N.18)、(N.21) 的真实修正，得到
+$$
+\boxed{
+\operatorname{div}(\widehat J_\epsilon)
+=\Gamma_{T=\mathcal V_\epsilon R}
+ +\Gamma_{R=-F_\epsilon T}
+ -(p+1)(O\times E+E\times O).}
+\tag{N.28}
+$$
+因此 $\widehat J_\epsilon$ 真是
+$\mathcal O((p+1)O)\boxtimes N'^{p+1}$ 的截面；
+不是只在每条一般纤维上认同除子后留下未定目标函数。
+
+目标三挠点仍记为 $Q=(0,v)$。
+由于 $F_\epsilon Q=-Q$、$\mathcal V_\epsilon Q=Q$，
+(N.28) 的两个 graph 都在
+$(T,R)\mapsto(T+Q,R+Q)$ 下不变。
+源用 $S_\epsilon$，固定目标用 $S_0$，所以两截面之比是底环单位
+$C_\epsilon$。特殊纤维由 R1095 的原相位给 $C_0=\gamma^2$。
+两端分别施三次平移，(N.27) 迫 $C_\epsilon^3=\gamma^6$；
+因 $3$ 可逆，$C_\epsilon$ 的一阶项必为零。因此
+$$
+\boxed{
+(S_\epsilon\otimes S_0)\widehat J_\epsilon
+=\gamma^2\widehat J_\epsilon.}
+\tag{N.29}
+$$
+这里先付清全局 divisor，再用真实三次方消掉底域单位，
+没有由“相同 theta type”直接删相位。
+
+### 8.2 完整 $H$ 上的有限 normal 连接
+
+在 $H_\epsilon$ 中使用自然相对单项式基
+$$
+1,U,\ldots,U^{m+1},\qquad
+V_\epsilon,V_\epsilon U,\ldots,V_\epsilon U^{m-1}.
+$$
+“系数 normal 导数”以下专指相对于这个基求导。
+(N.23) 是固定 $U$ 的函数导数，两者在奇基上相差
+$\dot{(V_\epsilon U^j)}=vU^{j+1}/(2V)$，这项必须先扣除。
+
+定义 $H=H_0$ 上的算子
+$$
+\begin{aligned}
+\mathcal P(U^j)
+ &=j(2j-1)U^{j+1}
+   +2j(j-1)v^2U^{j-2},\\
+\mathcal P(VU^j)
+ &=(2j+3)(j+1)VU^{j+1}
+   +2j(j-1)v^2VU^{j-2}.
+\end{aligned}
+\tag{N.30}
+$$
+低端因子为零的项按零读取。
+偶源由 $(D^2-2U^2D/V)/2$ 直接给第一式。
+对奇源，准确有
+$$
+(D^2-2U^2D/V)(VU^j)
+=2\mathcal P(VU^j)+\frac{6v^2U^{j+1}}{V};
+$$
+最后一项恰为 $12v$ 倍自然奇基的一阶变化。
+故 (N.23) 在这个完整有限基中为
+$$
+6v\,\dot{\widehat J}_{\rm coeff}=\mathcal P_TJ.
+\tag{N.31}
+$$
+
+这里两个最高边界都已付清：
+偶端 $j=m+1$ 有 $2j-1=p$，奇端 $j=m-1$ 有 $2j+3=p$。
+因此 $\mathcal P$ 保持整个 $p+1$ 维 $H$，
+不是先丢掉 $U^{m+1}$ 或 $\Psi$ 后的压缩矩阵。
+
+对 (N.29) 在上述基中求导，并代入 (N.31)，得到
+$$
+\bigl((6v\dot S+S\mathcal P-\mathcal P S)\otimes S\bigr)J=0.
+$$
+原 R1095 已证明 $J^\#:H^*\to H$ 是同构，而 $S$ 可逆，故
+$$
+\boxed{6v\,\dot S=\mathcal P S-S\mathcal P.}
+\tag{N.32}
+$$
+这是同一实际三挠作用的 normal 输运公式，保全部最高边界。
+它不把 $\dot S$ 设成零，也不将特殊纤维上的 $S$ 当作与原 $\Phi$ 交换。
+
+### 8.3 与原指定源的准确比较
+
+(N.24) 与 (N.30) 逐项给出
+$$
+\boxed{\mathcal N_{\rm full}+\mathcal P=D^2+U
+\quad\text{于原 }V_0.}
+\tag{N.33}
+$$
+等式把 $V_0$ 视为 $H$ 的子空间；右边可以包含最高偶方向。
+特别地，原 $f=U^m$ 满足
+$$
+\mathcal P f
+=U^{m+1}+\frac{3v^2}{2}U^{m-2}
+=\mathcal Nf+h^*,\qquad h^*=U^{m+1}.
+\tag{N.34}
+$$
+所以两个实际 normal 算子的差在原指定源上，恰含此前必须保留的
+最高偶边界 $h^*$。
+
+还可以不经矩阵推导，直接核原源的平移：
+$$
+S_\epsilon(U^m)=C U^2\,l_+^n,\qquad
+C=(-2v)^m,\quad n=k-1.
+$$
+这里必须先按自然基约化所有 $V_\epsilon^2$，不能只微分
+$l_+$ 中显式出现的 $\epsilon$。令 $W=U^3+v^2$，取唯一偶奇分解
+$$
+(V-v)^n=E_n(W)+V O_n(W),\qquad E_n,O_n\in K[W].
+$$
+在实际族中
+$(V_\epsilon-v)^n=E_n(W+\epsilon vU)+V_\epsilon O_n(W+\epsilon vU)$。
+所以相对于自然单项式基，准确有
+$$
+\boxed{
+\begin{aligned}
+\dot S(U^m)
+ &= C U^3\left\{
+ v\bigl(E_n'(W)+V O_n'(W)\bigr)
+ -\frac n2(V-v)^{n-1}\right\}\\
+ &=\frac{C U^3}{2V}
+ \left\{-n(V-v)^n-vO_n(W)\right\}.
+\end{aligned}}
+\tag{N.35}
+$$
+第一行直接表明它是全局多项式。第二行来自
+$n(V-v)^{n-1}=2V(E_n'+V O_n')+O_n$，其分子被 $V$ 整除；
+没有二挠点附加极。例如 $n=2$ 时，它准确为
+$C U^3(2v-V)$，而只微分显式 $\epsilon$ 会错误地少掉 $CvU^3$。
+
+这正是先求固定 $U$ 的函数导数，再扣除自然奇基导数所得的同一向量。
+因此 (N.35) 与 (N.32) 具有完全相同的曲线约化和标架约定。
+
+(N.32)–(N.35) 尚未把
+$\Phi(U^{m-2})(-Q)$ 的已知 normal 单位改成原 $K_4$ 单位。
+使用后继时，$h^*$ 的完整第三类项和 $J_4$ 的所有 carry 仍须保留。
+本节是原 finite theta 矩阵的纸面推导，没有新的数学执行。
+
+本节经root/o1/o2逐式复核；root在发布前指出并纠正了自然奇基约化的遗漏，完整(N.35)采用已核修正版。
