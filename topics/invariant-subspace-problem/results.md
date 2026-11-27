@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271：原Haar迹类交织的每个非零像对完整边界T循环](results/R271-appendix-actual-haar-trace-ranges-consist-of-boundary-cyclic-vectors.md)：本族与所有proper闭T不变目标零交、拉回精确为原核；仍不判断Haar循环性/N=M。
+
 - [R271：原Haar/边界交织的实际像零交与Abel同源费用](results/R271-appendix-haar-boundary-disjoint-actual-ranges-and-abel-source-cost.md)：唯一原像条件、全部固定奇块的超对数费，以及真实HS正则化；不外推W。
 
 - [R150 unit211：h=k、Q=1−u 的 Delta零整分支与整个碰撞面排除](results/R150-appendix-unit211-equal-singleton-Q1u-Delta-zero-and-entire-face-exclusion.md)：C6三原相容返1；C24同u自由Gram原E1/EBe返1，两Delta图合闭。

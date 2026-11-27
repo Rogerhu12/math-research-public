@@ -1,18 +1,16 @@
 {
-  "message": "ISP: prove disjoint actual Haar and boundary ranges with diverging Abel source costs",
-  "parentCommit": "78e2800bba2a192fad92ed39d1fec95c35bdf33c",
+  "message": "ISP: prove every nonzero original Haar trace image is cyclic for the full boundary operator",
+  "parentCommit": "968dae1ec89a5d5526a3ed6ebfac88bf18e09b00",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-haar-boundary-disjoint-actual-ranges-and-abel-source-cost.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-general-compact-scalar-means-original-input-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-compact-two-means-original-integer-identities-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-compact-two-means-original-integer-identities-8542-execution.json",
-    ".github/workflows/invariant-subspace-phi-general-compact-scalar-original-means-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Haar-boundary-disjoint-ranges-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Haar-boundary-disjoint-ranges-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-actual-haar-trace-ranges-consist-of-boundary-cyclic-vectors.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-head-zero-mean-T-unit-six-v-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-main-head-zero-mean-t-unit-six-v-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Haar-full-boundary-cyclic-images-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Haar-full-boundary-cyclic-images-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-general-compact-scalar-original-means-8542.yml"
+    "invariant-subspace-phi-main-head-zero-mean-t-unit-six-v-8542.yml"
   ]
 }
