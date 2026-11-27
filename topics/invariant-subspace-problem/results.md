@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原光滑核内部的全部幂稠密值域](results/R271-appendix-smooth-kernel-core-all-powers-dense-range.md)：同一真实创建修复给closure(B^rK∞)=K∞，原像仍在光滑核；非恒定解析芽在该限制上稠值且核恰Ce0，同u输出误差平方可和。K∞=N/M和实际来源费仍未证。
+
 - [Phi H1 原固定范数的精确QQ次数3179](results/R150-appendix-unit211-Phi-zero-H1-original-norm-exact-degree-3179-at-infinity.md)：真3.420099509秒完整∞ rank1+3 Hensel/CRT，12阶小块三轮核提取给929，36阶大块2250；首项mod1009乘积954，保度已付。只首个固定norm，804不缩。
 
 - [全部实际子商的正序交织方向与闭逆同源费](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)：到hyponormal/从cohyponormal的任意有界交织全零；反向移位迹类拟亲和确存在，但每个非零移位不变L像均稠密于同一C_x，闭逆的同一轨道强制原四次费用。未知C_x真性仍开。
