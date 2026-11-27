@@ -1,22 +1,13 @@
 {
-  "message": "ISP: exclude the whole S moment quartic fiber and reduce the ordered cover to 112",
-  "parentCommit": "94baede8cd73de4bad529c1eeb8b0ab390b1d505",
+  "message": "ISP: continue true quartic multiplicity through the new original quotient G image",
+  "parentCommit": "752a2dc560aa8d6cdda52d8c44f566d913334282",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-whole-S-moment-quartic-exclusion-and-112-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-Phi-whole-S-quartic-original-exclusion-112-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-whole-S-quartic-gcd-and-original-values-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-companion-first-serialization-attempt-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-companion-first-serialization-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-companion-moment-cost-square-json-fixed-8542.py",
-    ".github/workflows/invariant-subspace-five-bit-s-two-companion-moment-square-json-fixed-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-finite-1198-original-high-Gauss-8542.py",
-    ".github/workflows/invariant-subspace-w-g36-finite-1198-original-high-gauss-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-whole-MJ-exclusion-and-112-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-whole-MJ-exclusion-and-112-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-S-quartic-original-quotient-G-only-multiplicity-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-s-quartic-original-quotient-g-only-multiplicity-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -26,7 +17,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-five-bit-s-two-companion-moment-square-json-fixed-8542.yml",
-    "invariant-subspace-w-g36-finite-1198-original-high-gauss-8542.yml"
+    "invariant-subspace-phi-s-quartic-original-quotient-g-only-multiplicity-8542.yml"
   ]
 }
