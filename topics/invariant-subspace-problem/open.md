@@ -186,6 +186,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[整Phi0完整值](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)及[h1有序图8918基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-monic-ell-8918-point-cover.md)已付。** [新N1闭对的H³ell³原单位目标](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-ell-unit-target-cancellation.md)实际ca53/3.607秒/57344KiB/exit0，102次core完整取消Nm(ell)至88次；全部原行乘回，范数仅选相交未倒置。其余四对无改善，本次9009不改进旧8918；原有限纤维及k1交换图继续。
+**[整Phi0完整值](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)及[h1有序图8918基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-monic-ell-8918-point-cover.md)已付。** [新N1闭对的H³ell³原单位目标](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-ell-unit-target-cancellation.md)实际ca53/3.607秒/57344KiB/exit0，102次core完整取消Nm(ell)至88次；全部原行乘回，范数仅选相交未倒置。其余四对无改善，本次9009不改进旧8918；新c36f四个QQ core全因式/乘回，120秒1GiB待实际；原有限纤维及k1交换图继续。
 
 **[同一个实际右逆作用于全部物理孔指数尺度](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)已完整证明。** 固定λ>2+2log(3/2)，同Gλ:Xκ+λ→Xκ且范数≤exp[Cλ(1+κ)²]；同误差E:H→全部Xκ、H范数<1/4，同一Hilbert修正保每尺度。Gⁿ在Xnλ真返Tⁿ、费exp(Cn³)，对N⊥保同规范h的Xλ对偶表示。未证平滑核在M稠密、G保N、Gamma或N=M；继续同W实际配对/来源。
