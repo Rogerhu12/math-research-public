@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `c33a97d2fdfff54331650f5033208d21d478a8d9`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活15–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `3bd753e5d0f0cd071d0ba615c9774695e0165b6f`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活15–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -33,7 +33,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 后继与未付责任
 
-全部16/17与初18准确费、closed/R718、R716、mesh/restart完整源码、每个参数和失败未知链接保open§7与此前58c6固定H；初18费用候选不能贴修后source身份。当前producer_R722完整费用十件已刊；closed/R716/mesh完整材料已备待刊，实际费用仍未付。
+全部16/17与初18准确费、closed/R718、R716、mesh/restart完整源码、每个参数和失败未知链接保open§7与此前58c6固定H；初18费用候选不能贴修后source身份。当前producer_R722完整费用十件已刊；closed五件316954B/002eb已刊，R716/mesh完整材料已备待刊，实际费用仍未付。
 
 [完整producer_R722核](notes/2026-11-27-producer-bound-R722-mean-source-adapter.md)5件140943B/4fc252+7c66已刊，严格钉当前10fa/8027/d892及全137来源，直接由已刊e10/9da完整父派生；未刊callable候选不冒当前源。完整R710/R711数学/7133B后缀、API/validator原保；准确全角ε与实际fee未付，R709旧bool真实，Dhat不代真根。R721无Gram/主曲率排序；R718 marked σ、R719/R720全ρ>0与前三RN固定不可省，完整证明保results。
 

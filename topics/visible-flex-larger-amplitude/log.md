@@ -182,3 +182,8 @@
 13官方21:37:47更新cancelled、14官方21:39:01 cancelled，当前科学均无自然返回。13仅原1–6（两个input0、原science/pure1、两个reader0），14只两input0；最终点、完整场、typed/history、restart仍未知。完整官方run/jobs/最后小索引与观察、返回分卷保[事实JSON](computations/run13-run14-official-terminal-complete-observations.json)，最后两个真pull槽原字保[终态说明](notes/2026-11-27-runs13-14-actual-cancelled-without-complete-science.md)。仅退已终态活动槽，未退原科学责任；官方未给原因，不由时长断言timeout。
 
 16第四2fa731于21:40:46.441720真实trial-statistics-returned，Phi5551.476942430809/Gram.6480138184922606，accepted0/current初点不变。17第二已观察trial b0468于21:34:19.138255返回Phi4954.618769180181/Gram.6374150628738999，accepted1/current924732不变。两新trial几何/决定均未观察，原模型/点/全部观察身份续各完整数学note；不是接受或连续证书。继续真实求解。
+
+
+## 2026-11-27：producer_R722完整闭面、全相位、握持及R718来源接入
+
+[五件完整交付](computations/fixed-fejer-meridian-producer-bound-R722-closed-phase-grip-r718-delivery.json)316954B，运行源002eb1b91c99ea212255d14a4e929e876e09f34c38c78ffb7fc4f806b8799c5f；直接固定bf863完整父体9处必要source变化、原8argv/66selectors和全参数均保。R722是上游明确的后验均值存在证据，旧R709粗bool不伪造；完整32stage/1024circle/922径向+cuts/六jet、上下及两帽/mixed/allphase/R650和全部八beta+径向支路保。原R718整像流界/R719全当前系数条件及原盒距取max，未额外移植R720。完整主report必须complete/status/全部字节末核后才能读唯一R716-unmarked-outward-tube副件；marked embedding不循环证明无标记管，晚失败清除推广值。此为完整源与参数，实际几何/含反射非全等/精化仍待付，继续求解。

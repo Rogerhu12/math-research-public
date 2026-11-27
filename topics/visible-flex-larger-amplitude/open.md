@@ -117,3 +117,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 当前[producer_R722完整核](computations/fixed-fejer-producer-bound-R722-mean-source-delivery.json)4fc252/7c66已刊。18实际e3d2eb/f600、model9ec211首统计Phi4954.71485872585、Gram.6374168330977955，accepted0、初几何未返；独立完整来源，不能因同17初数值代付新场费用。
 
 当前[producer_R722完整准确费](computations/fixed-fejer-meridian-producer-bound-R722-complete-accurate-fees-delivery.json)十件445941B已刊，完整后验validator、正常根六jet/连续Gram与曲率/八beta+径向桥接及原全部预算保；正常费complete不代连续branch，未实际支付。完整closed/R716/mesh已准备，按活动科学自然返回后次序接入。
+
+[当前producer_R722全闭面/R718](computations/fixed-fejer-meridian-producer-bound-R722-closed-phase-grip-r718-delivery.json)五件316954B已刊，002eb全源、原8argv/66selectors/4096chunk和全帽/mixed/allphase/R650/R718/R719数学保；唯一R716无标记外管副件须完整主件最终复验通过，晚失败不能由已有副件绕过。全部数值条件待实际同场输入。
