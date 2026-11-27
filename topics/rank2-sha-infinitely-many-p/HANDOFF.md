@@ -29,7 +29,7 @@ R959/R970–983固定rank≥2有限曲线族与通常全Sha桥r+corankSha≤2ord
 
 R1016–1018同char0平坦全trace/四阶伴随/质量低位全保，原old差−61(p+1)log(π/barπ)/18480非零，须真坏canonical迫同左式深零。R1020 first-C/唯一primitive、b5/O/aZ；R1022全39/N130 Miller−43/−44/正mode2；R1024六连接/weighted primitive/真O返−M_-S均在原证，a_P非新测试。
 
-R1021§8–10两原δ-new全12字/parity与χ8已付；一阶Q=2yD−9x²给完整QfB=2fA/15，真adjoint−2y(D+10G)−15x²及唯一e曲率保齐；§11裸Q1^p+x^pQ1=0，而Q_L及Q†右端均−10(2yHcal)^p，全部gauge/角色/极保留。Q1²UB=9x⁵y越十阶帽，不能赋p行零；实际测试生成仍开；共同P10全e曲率不得删。 §12原三处norm的全Fp/Z cocycle锁定Kδ=δGδ−G−G+−G−：完整Taylor/水平项及CM型给Kδ=9ρpZ^(5p−2)+O(Z^(7p))，无需未知Fermat商；它是已固定连接差−10Kδ，仍保P10/Ξ/cut/13字，不冒forcing。 N130 Miller44、Q₂绝对常数、最终−S及π⁻¹算子齐。真正char0 δ缩放把Φ*、Φ260、δ⁶Ψ35(z/δ)、δ⁶Ψ53(z/δ)统一charge65；后两仍固定3-cover，非旧22维。补Gaussian整、原六位尾齐；Kp native O超p²误差仅在该模p全窗消去，不能删其它13纤维/char0权。
+R1021§8–10两原δ-new全12字/parity与χ8已付；一阶Q=2yD−9x²给完整QfB=2fA/15，真adjoint−2y(D+10G)−15x²及唯一e曲率保齐；§11裸Q1^p+x^pQ1=0，而Q_L及Q†右端均−10(2yHcal)^p，全部gauge/角色/极保留。Q1²UB=9x⁵y越十阶帽，不能赋p行零；实际测试生成仍开；共同P10全e曲率不得删。 §12原三处norm的全Fp/Z cocycle锁定Kδ=δGδ−G−G+−G−：完整Taylor/水平项及CM型给Kδ=9ρpZ^(5p−2)+O(Z^(7p))，无需未知Fermat商；它是已固定连接差−10Kδ，仍保P10/Ξ/cut/13字，不冒forcing。 R1021§13实际N390两源的三个E2译像Π0T_Tf=+f/√3，整J真授权；α换代表负相位保齐，target必须保W(·−T)/Miller/cut及E2→O极费，不拆十三字。 N130 Miller44、Q₂绝对常数、最终−S及π⁻¹算子齐。真正char0 δ缩放把Φ*、Φ260、δ⁶Ψ35(z/δ)、δ⁶Ψ53(z/δ)统一charge65；后两仍固定3-cover，非旧22维。补Gaussian整、原六位尾齐；Kp native O超p²误差仅在该模p全窗消去，不能删其它13纤维/char0权。
 
 R1025固定Hermite/primitive/全部GP10曲率齐，实际全p单位λ1−10λ2/81=−305ρ⁸B0(s−3)/7128仍未forcing。R1026原低H/同K/13权/dVδ与六末权完整；其精确窗口和原全三/十三/χ8未解门见归档。
 

@@ -1543,3 +1543,104 @@ $$
 原 $P_{10}$ 的运输还须继续保留其整个 $\Xi$、
 实际 cut 与原十三 trace；(85) 没有以一个连接前缀替代这些数据。
 本节未把 (84) 的单位冒作已被坏 canonical 假设迫零的读数。
+
+## 13. 两条实际 δ-new 来源的三个二挠译像
+
+本节的 $f$ 分别为原完整 $f_A,f_B$，或它们在 R981
+所用的同一固定非零归一倍数。全部十二个十三字保持。
+对 R967 的三个指定二挠点与原 degree390 Weyl lift，准确有
+$$
+\boxed{
+\Pi_0T_T^{390}f=\frac1{\sqrt3}f
+\quad(0\ne T\in E[2]).
+}
+\tag{86}
+$$
+$\sqrt3$ 仍为 R967 锁定的正实根。
+这里的正号不能由 degree10 target 的裸来源猜测。
+
+### 13.1 完整有限模型的直接证明
+
+R981 的两条实际来源均为 dyadic $\epsilon=0$，
+采用 R959/R967 的同一个二处向量；这里
+$f_0=e_0-e_2$、$f_1=e_1+e_3$：
+$
+\phi_2=f_0+t f_1,\qquad t=(\sqrt3-1)/\sqrt2.
+$$
+实半点 $T=(-1,0)$ 的原 Fourier 作用是 $(-1)^n$，
+所以只把二处向量换为 $f_0-tf_1$；三、五、十三处完整向量不变。
+R967 的原酉矩阵投影准确为
+$$
+\frac{1-t^2}{1+t^2}\phi_2=\frac1{\sqrt3}\phi_2.
+$$
+其另一二处特征使 R981 的
+$a+b+\epsilon+c\equiv0\pmod3$
+失效，故没有几何 principal Hermite 系数。
+两来源在三、五处都奇，整体仍偶；二处替换不改变这项。
+R967 的完整 Weil／Hermite 交织因此对这两个实际张量逐系数适用，
+给整个 entire 截面的 (86)，不是只给质量或某一低 jet。
+CM 将三个原半点及其 Weyl lift 循环，正号和同一个
+$\sqrt3$ 均保持。
+
+### 13.2 degree10 负号为何不能沿用
+
+独立的绝对规范核对可在原 $U_A,U_B$ 上完成。
+R967 的实半点 addition 及 $c_T=1/\sqrt3$ 给
+$$
+T_T^{10}(\sigma^{10}U_B)
+=\frac{\sigma^{10}y}{3\sqrt3}(X-3x-2),
+$$
+$$
+T_T^{10}(\sigma^{10}U_A)
+=-\frac{\sigma^{10}y}{\sqrt3}(X+6x^2+4).
+\tag{87}
+$$
+分别投影回 $U_B$、$U_A$ 的实际 CM 角型，
+两个系数确实都是 $-1/\sqrt3$。
+
+但原 $\alpha=\delta\pi=2+7\omega$ 满足
+$$
+\alpha(r/2)=\omega r/2+(1+3\omega)r
+\quad(r=1,\omega,\omega^2).
+$$
+在原 $\Lambda=(1-\omega)^{-1}\mathcal O_K$ 上
+$E(1,\omega)=3$，故 degree10 的 Weyl 换代表相位为
+$\exp(\pi i\,10\cdot3/2)=-1$。
+原严格交织
+$T_T^{390}D_\alpha=D_\alpha T_{\alpha T}^{10}$
+于是恰好再添一个负号，恢复 (86)。
+原三、十三中心与二挠点的 degree390 交换子都是一；
+保持全部有序 lift 后，没有改动五、十三角色或原 raw 常数。
+
+### 13.3 真中央授权及其使用范围
+
+(86) 的常数项说明每个实际译像仍质量零。
+它是固定的 whole degree390 截面，原代数 half-point 公式
+在排除 $2,3$ 后整；同一个完整 Gaussian 和 Newton 读者只取
+$\mu_6$ 主型。因此整个收敛函数准确满足
+$$
+\boxed{
+J_{390,T_Tf}(v)=\frac1{\sqrt3}J_{390,f}(v),\qquad
+j_{390,T_Tf}=\frac1{\sqrt3}j_{390,f}.
+}
+\tag{88}
+$$
+所以原两条坏 canonical 假设确实支付这六个固定 translated
+来源的中央零，无须另加秩假设，也没有给单个十三字赋零。
+
+对 R1034 的 $\chi_\alpha$ 读取，这项授权先用于
+$T_T^{390}f$ 的同一个合法特征零 flat 返回。
+若要改为平移已经得到的 target，准确变权是
+$$
+\boxed{
+\mathcal T_{\alpha,W}(T_T^{390}f)
+=T_{\alpha T}^{10}\mathcal T_{\alpha,W(\,\cdot-T\,)}(f),
+}
+\tag{89}
+$$
+这里 $\mathcal T$ 含原全部 sigma、未平均 trace 与绝对相位。
+它由完整纤维重排和原 Weyl 交织给出。
+不能将右侧的 $W(\cdot-T)$ 换回 $W$。
+特别原 meromorphic $h_\chi(f)$ 在 target 的二挠点可能有极，
+其直接平移到 $O$ 后不自动属于原中央读者的整源域。
+(89) 中的权差、$P_{10}$ 运输和 cut 仍须一并消费。
