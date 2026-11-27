@@ -55,6 +55,8 @@
 
 ## O1：全p同一真实本原标签的临界非零
 
+[原Gaussian norm2分布](notes/2026-11-27-original-Gaussian-norm-two-Kronecker-distribution.md)付同一$(1+i)$的完整Kronecker两极分布、真实平移相位与平方根分支；$y_k=5G_{p-3}=2a/\delta^3$为单位。N11/N12/N14保全部低层卷积及原good mask，尚未排R1116的指定内段同时零。
+
 [原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付W_C上B的准确三对角/简单谱与D³的单Jordan块；e=K4=0 iff DF∈(D³)²(U²k[V]≤k−3)，原首余核杀常数，真实三平移保全部乘子。只付同源短旗标接口，未排该包含、未占R1117；不能把全空间谱代短minor。 §6原Green两端列的所有分量单位，准确(B+v)y⁻=−4v e_−N、(B−v)y⁺=4v e_N；保0×pole端残项，原J1完整强迫不能换成端点。
 
 R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darboux因子与全部三阶jet carry；C=UD+V仅在明确W_C上半单，原U^m为唯一零列。每个实际列的relative Cartier读数e_ℓ给精确p−1系数；仍未付指定e/K4非同时零。

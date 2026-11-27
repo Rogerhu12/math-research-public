@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：ab31096656917572cdf2de591aadf3fe0e640199**（2026-11-27 20:44 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：3b52d5292afd25d60951178ec6239d8bd2e966d5**（2026-11-27 20:45 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；20:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -38,7 +38,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)已由[R1121](results/R1121-certified-original-twelve-short-Cartier-values.md)执行：run45994669183/job140490956495，541.159秒，六盘十二α全成；原73帧det3058、det(1−C)=551。全部closed/coarse/cusp/除6和hash保原文，只消费。
 
-[R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323，21.546秒，aux−11首项rank73/det4364；四原CM的ρ_D/Bq完整坐标及Hodge/Bq桥齐备。R1119几何与整性、全部receipt/hash保原文；只消费，不补跑q²。
+[R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)的四原CM全73带符号坐标、Hodge/Bq桥已成（run45994488204）；完整pins保原文，只消费，不续算q²。
 
 
 [R1122](results/R1122-certified-original-six-complete-CM-disks.md)已关76/77/100/108/196/220六盘（run45996561850，117.953秒），原矩阵及全尾来源保原文。
@@ -59,7 +59,9 @@ R1111付原p-block全公因子M D (b³−1)^(2ε)与全tame分歧，ε=1 iff f_N
 
 [R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原5H_p+(8a²/45)K_p=16G_(p−3)单位，H_p=0强制K_p=36/(aδ³)单位；K_p至其它真实forced标签的桥仍开。
 
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)：全部原Gaussian forced i2的高Hurwitz值/实际coarse首项准确读同一Kronecker P_k的c_(2j−1)，保good mask、全部primitive常数及Fay较低乘积。全forced为零会给具体奇偶半段缺失，尚未排该缺失，不代H_p或bare单位。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)把全部Gaussian forced切向准确读为Kronecker原反对角c_(2j−1)，保good mask与全部低层乘积；指定半段缺失未排。
+
+[原Gaussian norm2分布](notes/2026-11-27-original-Gaussian-norm-two-Kronecker-distribution.md)付同一$(1+i)$的完整Kronecker两极分布、真实平移相位与平方根分支；$y_k=5G_{p-3}=2a/\delta^3$为单位。N11/N12/N14保全部低层卷积及原good mask，尚未排R1116的指定内段同时零。
 
 原同h=6i+7必须同时满足本原/Legendre/fi gj两个mask；R971全span与R1006全p稳定已否，特定A/E4仍开。R1009粗CM阶≤4不代零阶。全部原尺度、来源与旧窗5992+7878至500000沿[逐字前态](handoff-archive-2026-11-27-before-short-Cartier.md)保全；不重算旧窗或已登记恒等式。
 
