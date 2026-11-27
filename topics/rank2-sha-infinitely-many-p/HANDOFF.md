@@ -6,8 +6,8 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `ef3221c5e80970d61b81457a53ff2d0cc42295a8`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
-- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；01:04UTC pull至2b4660e1f0f3187c1a7d2d7397d375a208c5d19e，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
+- 公开根/课题 README 已读至 `f66e3c9cde0f124dfd3dd145fde8433e5f19c2bb`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；01:44UTC pull至0ffb6ba2967365884b38f1fd81778a8f2f9f73af，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-long-window-and-fixed-cycle-next.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
@@ -29,9 +29,11 @@ R957同整数像格/实商范数/全位严格门a+2b<3未付；ordinary先卷积
 - R992/993：X130为whole S10原ray/全inert真双零，第11同行和完整两核边界均付；good7像却非零，零不传Hecke。ρ=−11(1±δ)/40差单位、恰1阶消核及Gold边界保持，真实Miller权不删。
 - R996/1000：X42/X70真零去掉h7基点；D=(64∞−0−1)/195，生成≤2733、c8=c6S16权69615、全195余权rank12090/基≤393/乘≤2项。五同degree238/charge119真零H_r首w^r、完整Tate F=Vx+pG给全精度等距校准。old对数检出深度L_p=O(p/logp)，h≤L_p在R614整窗；非原六块扩窗，31/195仅改全位常数。
 - R999/1001/1003/1005：B=120Φ260−11Φ*−108X−F10，首24768z12；K首51840z12，C=90B−43K首−3151872z18，坏canonical时jC=−δ(p+1)log/112≠0。单P130第六=原P2^65−A_pc6−B_pmass，B_p=−832(3/5)^p/63；全22 C³=−c6root·rω。K/C的全Z移动零点与O均消，仅E2、两个exact；完整有限部−4c6/7、7κ5a+及全部高阶/译像Miller保持。回p6最后项720/840，前五行全精度/低卷积不动。
-- R1004/1007：真实run45916324833/job140236318135/source56f5c405d给两完整13核全22 mass/c6、四源rank4及K/C两项rank2。适配Qπ=P10(πz)/(π10Rπ10)、Zπ=Z(πz)/π全等变，Jπ=qπ^−vJ，mass零导数同，半轨道适配差7dlog/4。核项−6Tr(X^p b)；§5.3固定K(√13)全范数删集外，K/C每条在两核/两Frob符号均非零。七个E[2π]点留数及两exact原点权均保。whole13迹下推S10两基：有限13⁷/全Tate13，未赋translated中央零。
+- R1004/1007：run45916324833/job140236318135/source56f5c405d给两完整13核全22 mass/c6、四源rank4及K/C各rank2。全Miller适配P10/Rπ10、Zπ与Jπ=qπ^−vJ保持γ和质量对数，核项−6Tr(X^p b)；固定全norm删集外K/C两核/两符号分别非零，非全中央。全部E[2π]留数/两exact保，whole13迹到S10两基的有限13⁷/全Tate13不赋translated零。
 
-R1010已付单原K/C隔核权g_l=(Rπ/(X+1)²)^l：T6π=13⁶T6,10(A7,p)，六次权另减Bπ=6Tr(c^p b)，c=6⁶X⁴R′⁶/(X+1)^9且Norm=−2^52·3³ω²/π。原O/全E[2π]真下推到E2，C³真零，两exact首帽+60降+12/+14、第二(p−1)/2。原p6前五项/γ/7κ5π^(5p−1)a+不删。π-cover的固定13项Kummer/第一Cartier返还全部tame字线，未给这些亚纯字线canonical零。central/arithmetic续真实字线/同点必要关系。此前每条完整式、固定坏集、source/run/hash都由逐字归档与open指向，不重做。
+R1010单原K/C隔核权g6/g7准确下推到E2，T6π=13⁶T6,10(A7,p)，六次另减6Tr(c^p b)；c及norm完整付。C³真零，两exact首帽+60降+12/+14；原p6前五项/γ/840低卷积保持。固定Kummer13项/第一Cartier返实际tame字线，未赋新中央零。
+
+R1013已把平坦化W_{r,+/0}用于全部n=rp+b前缀；p>13³、H≤L_p，准确π^n、完整支撑及< p³帽。C³保O留数/两二挠对数/b1全纯项，两个exact另保a0Z/a1Z；全局主部障碍已付。原sigma/P10/Z/Gaussian以完整单位下三角矩阵返回g_h，真实F^[H]保前H−1项模p^H精度。坏canonical下K零、C的old非零现可同一长读者比较，未由此造矛盾。
 
 ## 三、几何与固定最高循环
 
@@ -53,4 +55,4 @@ R885/897全finite/wild范数保持；R891/893/940/945原c1≠0不删，深增广
 
 O4最早a≤1/δ²、O6全Np有限/原q_p=1、O7同解共振/全Laurent/非恒定Y权仍开。原P134/十九角/charge40/10980/WD/TM/TJ及R953跨parity、R954实际forcing成员性保持；全部精确条件见open和逐字归档。不再只提高rank常数而当闭合。
 
-central：预留R1012，续固定13字线的真正canonical同点关系；arithmetic：预留R1013，已找到原点平坦化权，续h≤L_p完整长窗/O留数/非principal与sigma–P三角补偿；geometry：固定Y0混合跨ell非零，并跟唯一v9；root：原输入研究、读证、真回执、逐条推送。主目标未完成继续实质门，不以来源变换或中间结果收尾。
+central：预留R1012，续固定13字线的真正canonical同点关系；arithmetic：R1013完整长窗已付，接固定10维字线消费canonical必要关系；geometry：固定Y0混合跨ell非零，并跟唯一v9；root：原输入研究、读证、真回执、逐条推送。主目标未完成继续实质门，不以来源变换或中间结果收尾。

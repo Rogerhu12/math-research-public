@@ -24,3 +24,5 @@
 - [R1010](../results/R1010-original-thirteen-weighted-trace-and-two-exact-compression.md)：单原K/C的g6/g7 Frobenius隔核权保第六读数，完整push给13⁶，下推至原E2并付唯一六次核补项6Tr(c^p b)及全norm。下层C³全零，两exact帽+60降+12/+14；原六位前五项、γ和840低卷积全保。固定Kummer13项及第一Cartier把p增长权返有限tame字线，不赋新中央零。
 
 - [R1011](../results/R1011-fixed-undepleted-highest-cycle-and-chow-euler-factors.md)：全54图在原full9上由σ_ar=[π]的完整商同构，给一次/二次图pullback和全部degree修正；P−/η/Cor后严格Chow等式Y_j,p^depletion=d_j(p)Y_j,0。两个明确Euler因子均非零；消β Euler后固定未depletion类AJ²精确接原Kν，7993真检测同一固定Y0，跨p非零仍待。
+
+- [R1013](../results/R1013-original-flat-thirteen-weights-and-complete-long-window.md)：原点平坦化权同时保全部 n=rp+b 前缀；完整十三trace尺度为π^n，仅diagonal才13^h。p>13³时覆盖H≤L_p，全部原点/二挠对数与可能holomorphic项、两个exact及指定Z分量都保留；完整sigma/P/Gaussian单位三角矩阵返回原模p^H必要行，前H−1项仍全精度。old非零已在同一长读者检出，未把下层字线赋canonical零。
