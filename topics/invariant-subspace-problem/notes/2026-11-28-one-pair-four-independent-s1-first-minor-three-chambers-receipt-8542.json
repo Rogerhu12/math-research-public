@@ -1,0 +1,208 @@
+{
+  "schema": "isp-original-S1-first-minor-three-closed-chambers-small-receipt-v1",
+  "dateAsiaTaipei": "2026-11-28",
+  "run": 46075441179,
+  "job": 140761979679,
+  "records": [
+    {
+      "complete_layer_dimensions": [
+        11,
+        5
+      ],
+      "event": "actual_sources_and_two_cubic_bridges",
+      "lower_dimension": 4,
+      "seconds": 0.005318414000043958,
+      "upper_dimension": 6
+    },
+    {
+      "dimension": 6,
+      "event": "complete_inverse",
+      "label": "actual-upper-source-metric",
+      "seconds": 0.11584108900001411
+    },
+    {
+      "dimension": 5,
+      "event": "complete_inverse",
+      "label": "full-lower-height-2",
+      "seconds": 0.3176858390000348
+    },
+    {
+      "dimension": 5,
+      "event": "complete_inverse",
+      "label": "full-lower-height-3",
+      "seconds": 0.685405473000003
+    },
+    {
+      "dimension": 4,
+      "event": "complete_inverse",
+      "label": "lower-Gamma3",
+      "seconds": 0.892176730000017
+    },
+    {
+      "event": "FIRST_ORIGINAL_MINOR_READY",
+      "original_source_dimension": 6,
+      "seconds": 1.2498903759999962
+    },
+    {
+      "event": "original_minor_for_new_chambers",
+      "label": "S1-first-original-minor-five-chambers",
+      "original_denominator_degree": 26,
+      "original_denominator_terms": 17290,
+      "original_numerator_degree": 28,
+      "original_numerator_terms": 24921,
+      "seconds": 1.3147157370000286
+    },
+    {
+      "constant": "2519424000",
+      "event": "ordered_group_chamber",
+      "label": "S1-first-original-minor-five-chambers",
+      "negative_coefficients": 0,
+      "negative_examples": [],
+      "numerator_degree": 28,
+      "numerator_sha256": "ca2c2fc700f11c2d825993031b60f4218adb514f068fdc1bbd78cc8bd71ac089",
+      "numerator_terms": 25245,
+      "pair_position": 0,
+      "passed": true,
+      "seconds": 1.4321952890000489
+    },
+    {
+      "constant": "2519424000",
+      "event": "ordered_group_chamber",
+      "label": "S1-first-original-minor-five-chambers",
+      "negative_coefficients": 0,
+      "negative_examples": [],
+      "numerator_degree": 28,
+      "numerator_sha256": "b1f1cecb2009d94042ed38599653949cba2083638a6121610528d0071718be6c",
+      "numerator_terms": 25245,
+      "pair_position": 1,
+      "passed": true,
+      "seconds": 1.5713790830000107
+    },
+    {
+      "constant": "2519424000",
+      "event": "ordered_group_chamber",
+      "label": "S1-first-original-minor-five-chambers",
+      "negative_coefficients": 0,
+      "negative_examples": [],
+      "numerator_degree": 28,
+      "numerator_sha256": "8bae6e09310fd1371f9e44f6ccb166d77c3650016eb5e43ab1244bc85720b5ac",
+      "numerator_terms": 27395,
+      "pair_position": 2,
+      "passed": true,
+      "seconds": 1.8358922380000422
+    },
+    {
+      "constant": "2519424000",
+      "event": "ordered_group_chamber",
+      "label": "S1-first-original-minor-five-chambers",
+      "negative_coefficients": 6,
+      "negative_examples": [
+        [
+          [
+            0,
+            23,
+            3,
+            1
+          ],
+          "-226800"
+        ],
+        [
+          [
+            0,
+            24,
+            2,
+            1
+          ],
+          "-89424"
+        ],
+        [
+          [
+            0,
+            25,
+            1,
+            1
+          ],
+          "-7776"
+        ]
+      ],
+      "numerator_degree": 28,
+      "numerator_sha256": "f8ed12ed82c573a2ea8dda2b11f3a2a430de3cc944bba12be48c68ba33bfa695",
+      "numerator_terms": 29610,
+      "pair_position": 3,
+      "passed": false,
+      "seconds": 2.3820161820000294
+    },
+    {
+      "actual_S1_counterexample": false,
+      "event": "INCONCLUSIVE_NEW_CHAMBER_SOURCE",
+      "first_failed_pair_position": 3,
+      "label": "S1-first-original-minor-five-chambers",
+      "seconds": 2.382084495000015,
+      "untested_chambers": 1
+    },
+    {
+      "S2_not_tested": true,
+      "coefficient_failure_is_only_inconclusive": true,
+      "event": "FIRST_MINOR_FIVE_CHAMBERS_RESULT",
+      "first_minor_all_chambers_passed": false,
+      "full_S1_not_tested": true,
+      "new_chambers": 5,
+      "new_fixed_dimension": 6,
+      "no_expanded_data_or_encoding_exported": true,
+      "original_full_Gram_dimensions": [
+        11,
+        5
+      ],
+      "other_leading_minors_not_computed": 5,
+      "seconds": 2.3824113790000183,
+      "variables": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "whole_upper_dimension": 9
+    }
+  ],
+  "execution": {
+    "elapsed_seconds": 2.441294980000009,
+    "max_child_rss_kib": 59820,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "4ef0bf82fce130595af98e7ae403c6e9164cb45c",
+        "before": "4ef0bf82fce130595af98e7ae403c6e9164cb45c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T22:15:05.731581+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46075441179",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "4ef0bf82fce130595af98e7ae403c6e9164cb45c",
+    "source_exit_code": 0,
+    "source_git_blob": "a316519153fc5e3f893d6459c01e128ffd117840",
+    "source_sha256": "d50365936cc141e874605a28c77a1d3cc47b543419d3d6b00c21e735a57cf8a9",
+    "stdout_bytes": 3199,
+    "stdout_sha256": "30a1b99b37ae5690d4eb2368a565c7c4eaa4ad1869f147c1e5797e1d8783e4d7",
+    "stop_reason": null
+  },
+  "conclusion": {
+    "orderedPositiveWeights": true,
+    "firstOriginalMinorStrictlyPositiveWhen": "x2 >= 1",
+    "completeChambers": [
+      0,
+      1,
+      2
+    ],
+    "chamber3CoefficientRecipe": "INCONCLUSIVE: six negative coefficients",
+    "chamber4Tested": false,
+    "otherFiveMinorsTested": false,
+    "S2Tested": false
+  }
+}

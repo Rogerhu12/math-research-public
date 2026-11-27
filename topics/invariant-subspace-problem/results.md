@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一对等权加四独立权：首原S1子式在有序x2≥1的三个完整闭域严格正](results/R271-appendix-one-pair-four-independent-first-s1-minor-three-closed-chambers.md)：a316真2.441294980秒/0；全部物理逆与原交叉项保，三齐次分子全非负且常数严格正，全部重权边界保。仅首子式；第四域六负项为配方未闭、第五未算，完整S1/S2仍开。
+
 - [整K7原理想三次平方；完整规范scheme长≤72、不同点≤36](results/R150-appendix-unit211-W-entire-K7-original-cubic-square-cover-and-finite-environment.md)：85bc真148.81632278秒/0，16原行和两个固定常数余子式经QQ Bézout完整返$(m^3-4m^2-6m+18)^2$；全部临时主元零保，六原迹实际乘回。三整共轭纤维尚待原值返回，未排整个K或W。
 
 - [Phi/H1 原理想全局首一六次；每权长≤18、完整规范不同点≤28944](results/R150-appendix-unit211-Phi-zero-H1-global-original-monic-six-and-finite-normalized-points.md)：74b真0.998030146秒/0；六cofactor属于同一原理想，Q4 adj/norm与QQ Bézout共同C95全因子已付。1,T,v三生成付18；804权对付五坐标14472，完整Gram/HAHB唯一恢复后仅rho两根付28944，非全局scheme长，不排空。
