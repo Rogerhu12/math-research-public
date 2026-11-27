@@ -373,6 +373,122 @@ There are no new independently adjustable moments or zero rows.
 The prefix length is of order $p(H+\log_p(H+1)+1)$; the separate
 input-precision cost has not been absorbed into that length.
 
+## 6.1. A direct finite Newton reader without the factorial loss
+
+There is a stronger finite reader when $v_p(C)\ge0$, as in the actual
+good/bad inert pair above. It uses the same complete unflat $R_n$ and
+avoids passing through (24).
+
+Put $d=p-1$, let $H\ge1$ be integral, and, for any integer $s\ge1$, put
+$
+ L_s=\left\lceil\frac{H+s}{d}\right\rceil,\qquad
+ M_s=dL_s-s,\qquad H\le M_s\le H+d-1.
+$
+Define the integral polynomial
+$
+ P_{s,H}(x)=x^{M_s}
+   \sum_{h=0}^{H-1}(-1)^h
+     \binom{L_s+h-1}{h}(x^d-1)^h .
+ \tag{30}
+$
+On the units $x^d-1\in p\mathbf Z_p$, and the full binomial series
+is exactly $x^{-s}$. Its omitted tail is in $p^H\mathbf Z_p$.
+On $p\mathbf Z_p$ the displayed polynomial is in $p^{M_s}\mathbf Z_p$.
+Consequently
+$
+ P_{s,H}(x)\equiv{\bf1}_{\mathbf Z_p^\times}(x)x^{-s}
+       \pmod {p^H}\quad\hbox{uniformly on }\mathbf Z_p.
+ \tag{31}
+$
+The value on $p\mathbf Z_p$ is checked before integrating; no unit
+projector has been silently extended to the whole measure.
+
+The expansion in positive powers is completely explicit:
+$
+ P_{s,H}(x)=
+ \sum_{l=0}^{H-1}(-1)^l
+  \binom{L_s+l-1}{l}
+  \binom{L_s+H-1}{H-1-l}\,x^{M_s+dl}.
+ \tag{32}
+$
+Indeed,
+$\binom{L+h-1}{h}\binom hl
+ =\binom{L+l-1}{l}\binom{L+h-1}{h-l}$, and the remaining sum is
+the hockey-stick identity. In particular $\deg P_{s,H}\le pH-1$,
+independently of $s$. With the original unflat moments $m_n$,
+$
+ \int_{\mathbf Z_p^\times}x^{-s}d\mu_A
+ \equiv
+ \sum_{l=0}^{H-1}(-1)^l
+  \binom{L_s+l-1}{l}\binom{L_s+H-1}{H-1-l}
+  \sum_{i=0}^{M_s+dl}
+     c_i(M_s+dl)(-C)^iR_{M_s+dl-i}
+ \pmod {p^{m_A+H}}.
+ \tag{33}
+$
+All coefficients in this complete linear combination are integral
+when $C$ is integral. Thus the actual $R_0,\ldots,R_{pH-1}$ to precision
+$m_A+H$ suffice for (9), with $s=2$, without the extra $v_p(N!)$
+needed by the different reader (24). Formula (33) gives the other
+negative integral powers on the same prefix as well.
+
+The full slope also has a reader on a single prefix. Choose the least integer $J\ge1$
+such that
+$J+1-\lfloor\log_p(J+1)\rfloor\ge H$, put
+$e=\lfloor\log_pJ\rfloor$, and set
+$L=\lceil(H+e+2)/d\rceil$, $M=dL-2$. With the derivative below taken
+in the polynomial parameter $L$ while the displayed exponent $M$
+is held fixed, put
+$
+ \Lambda_H(x)=\frac{x^M}{d}
+ \sum_{h=1}^{J}(-1)^{h+1}
+   \left(\frac{\partial}{\partial L}\binom{L+h-1}{h}\right)
+   (x^d-1)^h .
+ \tag{34}
+$
+The Vandermonde difference-quotient bound from section 2 gives
+valuation at least $-\lfloor\log_p h\rfloor$ for this derivative.
+The full series is
+$(1+y)^{-L}\log(1+y)$, with $y=x^d-1$.
+On the units its tail has valuation at least
+$J+1-\lfloor\log_p(J+1)\rfloor\ge H$:
+the integer function $h-\lfloor\log_ph\rfloor$ is nondecreasing.
+On $p\mathbf Z_p$ the polynomial has valuation at least
+$M-e\ge H$. Since $\log(x^d)=d\log\langle x\rangle$ on the units,
+$
+ \Lambda_H(x)\equiv
+ {\bf1}_{\mathbf Z_p^\times}(x)x^{-2}\log\langle x\rangle
+       \pmod {p^H}
+ \quad\hbox{uniformly on }\mathbf Z_p .
+$
+Its coefficients have valuation at least $-e$.
+
+For the actual inert basis, $v_p(C)=2$. Take
+$I=\lfloor(H-1)/2\rfloor$ and retain the original Maass correction:
+$
+ K_H(x)=\Lambda_H(x)-
+   \sum_{i=1}^{I}(i+1)(i-1)!C^i\,P_{2+i,H}(x).
+ \tag{35}
+$
+The omitted $i>I$ terms in (10) have valuation at least
+$m_A+2(I+1)\ge m_A+H$.
+Equations (31) and (34), with all finite correction terms retained,
+therefore prove
+$
+ {\cal M}_A'(-2)\equiv\int_{\mathbf Z_p}K_H(x)\,d\mu_A(x)
+        \pmod {p^{m_A+H}} .
+ \tag{36}
+$
+Expand this one actual polynomial into powers $x^n$ and use (23)
+for every $m_n$. This is a fully specified finite linear combination
+of the original unflat $R_n$. Its maximum index is at most
+$\max\{M+dJ,pH-1\}=O(p(H+\log_p(H+1)+1))$.
+Because the coefficients of $K_H$ have valuation at least $-e$,
+input precision $m_A+H+e$ suffices for the $R_n$.
+The finite moments and their lower Maass convolutions have not been
+replaced by independently vanishing rows. A toric sum must still
+include every outer weight and its derivative from section 2.
+
 ## 7. The exact remaining source comparison
 
 Equations (9)--(11), (15), (20)--(21), and (24)--(29) are paid for

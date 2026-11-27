@@ -12,12 +12,12 @@ root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull
 
 ## 最新实际pull和已读规则
 
-只读CI run46075603971/job140784716157，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-27 23:27:25UTC实际部分clone/pull至d0b73cf4f82dece5026735a91fe33f36cd5d8949。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库23:27:29UTC实际至2735cb0e9eb6ab5eaeff45317b735dc5b6e42bd5。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
-- 四README与23:19已读版本相同，无新差异；旧请求基线3bd753e5/54fd1d82不冒充本次head。job日志14887B/hash fb3f6df586921f885e125c642046fefece9452afdcc96786c86d4220bb0c21aa，只记录不保存。
-- 库存3147blob/44,321,825B，tree01ed9e788aabceead9941c804ab2f332aa45d7d1，无>5MB，三旧必要gzip SHA不变。
-- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟2026-11-28 00:27UTC再实际拉两库**。ref前进立即试本地pull；无环境就CI实际pull，消费后继续推，不以API比较替pull。
+只读CI run46075603971/job140787123073，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-27 23:35:27UTC实际部分clone/pull至55b1725dd1ae659bfbbe838a06d46d29f6f6af17。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库23:35:32UTC实际至ace28e8d3de5d6416478db2d111c200192a09ee3。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
+- 四README与23:27已读版本相同，无新差异；旧请求基线3bd753e5/54fd1d82不冒充本次head。job日志14887B/hash ddbee53b52b52102f9cda98810c62a60ffa0201fbe7986ea93f7d2d3dce1e8f2，只记录不保存。
+- 库存3148blob/44,340,131B，tree3e9cd12f64ceb566c5d9dbfab78f9383979fbc0f，无>5MB，三旧必要gzip SHA不变。
+- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟2026-11-28 00:35UTC再实际拉两库**。ref前进立即试本地pull；无环境就CI实际pull，消费后继续推，不以API比较替pull。
 - 本地07:20失联，23:12重试仍无环境；末次本地公开07:12至1cf10ac。API、CI、本地分记。
 
 ## 当前原完整厚几何与真实软件证据
@@ -40,7 +40,7 @@ $A=p^2-1,B=p-1$ 时，任意固定非零 $K,\zeta$ 的 $g(u)=K\zeta^u((Au)!/(Bu)
 
 [正确b2和边界](notes/2026-11-27-original-bad-cm-b2-source-and-p-square-boundary.md)保持实际source $g_1^*F$ 与 $O_D=(1-p^{-2})G-\lambda_D^*I_D/p^2$；incoming范数零仍留outward原G。独立正槽/全图/Artin/直接proper-fp、纯Newton尾及R1049晶体残余范围不自动撤回。准确来源与raw幅度见归档；直接 $\mathcal A^{out}=(p^2-1)I^{new}$ 不命名flat端点。
 
-[真实flat临界reader](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)从同一有界$A(Q)$付$M(-2)=\int_{\mathbf Z_p^\times}x^{-2}d\mu$及含全部$(i+1)(i-1)!C^i$的真斜率；选定Prop7.7基、$b=2$时$v_p(C)=2$，不把$\Omega_p$改成单位。原水平Tate基/KS负号给同一primitive的$Q$旋转trace配对，$g_1$的两个$p$与$b=2$的$p^{-4}$严格返回good的$p^{-2}$。全Cayley/逆三角/Stirling与有限Mahler尾已付，输入精度另保$v_p(N!)$，不只数前缀长度。这里始终是坏点$g_1^*F$；不是旧CM有限图trace，不恢复原usual连续cross或原canonical零。central接直接Newton整读者，root接完整双Hermite与真实source转换。
+[真实flat临界reader](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)从同一有界$A(Q)$付$M(-2)=\int_{\mathbf Z_p^\times}x^{-2}d\mu$及含全部$(i+1)(i-1)!C^i$的真斜率；选定Prop7.7基、$b=2$时$v_p(C)=2$，不把$\Omega_p$改成单位。原水平Tate基/KS负号给同一primitive的$Q$旋转trace配对，$g_1$的两个$p$与$b=2$的$p^{-4}$严格返回good的$p^{-2}$。全Cayley/逆三角/Stirling与Mahler尾保输入$v_p(N!)$；§6.1另付整Newton读者，任意负幂用同一$pH-1$前缀且无该损失，真实斜率用$O(p(H+\log_p(H+1)+1))$前缀和额外$\lfloor\log_pJ\rfloor$输入精度，完整Maass与外权导数保留。这里始终是坏点$g_1^*F$；不是旧CM有限图trace，不恢复原usual连续cross或原canonical零。central核真实$g_2^*F_0$在good点的有界来源，root接完整双Hermite与全角投影。
 
 ## 当前全深矩阵与独立几何方向
 

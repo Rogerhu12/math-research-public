@@ -173,8 +173,15 @@ v13实际run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671
 [原Manin二挠读者§6](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)逐项Wilson/duplication把同一$C_n$写成中央二项式段，完整Vandermonde和准确为零且中央段等于负二倍短尾。没有判该段非零；原Manin同态还明确给$q$单位倍截面下的规范值不变，所以此多项式本身不读目标$p\ne q$饱和指数。后继仍须同一17有权评价或真正canonical除$p$来源，不能用基值或半Norm替代。
 
 
-### 2026-11-27 23:36 UTC：真实flat临界reader已付，来源返回继续
+### 2026-11-27 23:34 UTC：真实flat临界reader已付，来源返回继续
 
 [真实flat临界值、斜率与Bol primitive](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)已从同一有界$Q$系数测度证明全部临界公式：$c_i'(-2)=-(i+1)(i-1)!$，斜率保log项及全Maass修正，差商尾一致收敛；实际解析双primitive与原水平Tate/KS归一给旋转trace配对，horizontal常数被flat严格消去。$g_1$微分/杯积的两$p$均保，选定CM基的$b=2$只对真实$g_1^*F$。完整unflat raised前缀经Cayley/逆三角/Stirling返回原系数，Mahler尾给明确$O(p(H+\log_p(H+1)+1))$前缀长度，另付输入精度$v_p(N!)$。不将形式log在根单位处代零，不恢复旧usual/finite-CM-graph比较，原canonical非零仍开。
 
 后继必须在同一来源中识别真实$Q$旋转trace或完整系数与原canonical Newton/指定proper有限图；仅有形式双Hermite或已撤回的正整数连续比较不够。直接整Newton有限reader正在审，不将其当新的canonical零条件。唯一v13仍执行中，无几何终门回执。
+
+
+### 2026-11-27 23:38 UTC：直接整Newton读者已付
+
+[同一flat reader§6.1](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)给原全$\mathbf Z_p$上的显式整Newton多项式，任意$s\ge1$一致逼近$\mathbf1_\times x^{-s}$至$p^H$，次数至$pH-1$。保完整$c_i(-C)^i$逆三角，$C$整时同一unflat raised前缀仅需$m_A+H$输入精度，不经Stirling除阶乘。对参数$L$求导给真正log核，选最小合格$J$并支付$e=\lfloor\log_pJ\rfloor$，$b=2$保全部$i\le\lfloor(H-1)/2\rfloor$ Maass修正，明确斜率的有限前缀和输入精度；toric外权导数仍保。这里没有给原canonical新增零行。
+
+接着核实际$g_2^*F_0$的good germ及有界来源，使完整双Hermite可以在原固定来源中使用；仍须真实flat而非通常剔除正权身份。

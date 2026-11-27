@@ -48,3 +48,8 @@
 ### 真实flat的完整临界reader
 
 [真实flat临界值、斜率与Bol primitive](2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)已从同一有界$Q$系数测度证明全部临界公式：$c_i'(-2)=-(i+1)(i-1)!$，斜率保log项及全Maass修正，差商尾一致收敛；实际解析双primitive与原水平Tate/KS归一给旋转trace配对，horizontal常数被flat严格消去。$g_1$微分/杯积的两$p$均保，选定CM基的$b=2$只对真实$g_1^*F$。完整unflat raised前缀经Cayley/逆三角/Stirling返回原系数，Mahler尾给明确$O(p(H+\log_p(H+1)+1))$前缀长度，另付输入精度$v_p(N!)$。不将形式log在根单位处代零，不恢复旧usual/finite-CM-graph比较，原canonical非零仍开。
+
+
+### 同源直接整Newton临界读者
+
+[同一flat reader§6.1](2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)给原全$\mathbf Z_p$上的显式整Newton多项式，任意$s\ge1$一致逼近$\mathbf1_\times x^{-s}$至$p^H$，次数至$pH-1$。保完整$c_i(-C)^i$逆三角，$C$整时同一unflat raised前缀仅需$m_A+H$输入精度，不经Stirling除阶乘。对参数$L$求导给真正log核，选最小合格$J$并支付$e=\lfloor\log_pJ\rfloor$，$b=2$保全部$i\le\lfloor(H-1)/2\rfloor$ Maass修正，明确斜率的有限前缀和输入精度；toric外权导数仍保。这里没有给原canonical新增零行。
