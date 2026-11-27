@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般行列式非零图的共同分母与首一T六次原恢复](results/R150-appendix-unit211-general-delta-nonzero-common-denominator-and-monic-T-six-original-reconstruction.md)：原两矩给已付首项，显式E仅T5/484项，f/t同分母精确回两原线；无Phi或范数逆，续完整个别值。
+
 - [整个 Phi=0 面的原 D 六次必要式](results/R150-appendix-unit211-general-Phi-zero-original-D-sixth-degree-necessary-relation.md)：精确参数映射与原六迹、三列取消完整返回，保全部零纤维；48/30/6、5842项仍非单位，续原真实值输入。
 
 - [全余 W 的全图首一 Y 二次及完整原一次系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-global-monic-Y-and-original-linear-system.md)：名义头除法准确取消，原五式/D与十次真实Y乘法均返回，全部D27/B239/J19零面保留；继续真实值部分。
