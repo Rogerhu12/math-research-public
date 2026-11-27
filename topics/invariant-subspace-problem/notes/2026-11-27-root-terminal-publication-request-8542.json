@@ -1,13 +1,13 @@
 {
-  "message": "ISP: factor complete original Delta collision cover and sharpen bound to 6229",
-  "parentCommit": "9074233779aca3e001a45565adcd9a903a68ebfb",
+  "message": "ISP: submit first full original h-equals-k Gram and Delta quartic",
+  "parentCommit": "ae354209b3b4d43c956077377f6a8ab43209cca5",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Delta-zero-h-one-exact-factorization-and-6229-point-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Delta-zero-h-one-exact-original-t-eliminant-factor-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-values-original-Gram-and-Delta-quartic-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-original-quartic-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +16,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-equal-singleton-original-quartic-8542.yml"
+  ]
 }

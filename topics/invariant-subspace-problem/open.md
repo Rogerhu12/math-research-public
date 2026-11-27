@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[Delta0 h1/k1的原完整因式与6229基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-exact-factorization-and-6229-point-cover.md)已付。** b737实际25.741秒/168348KiB/exit0，G389精确a(2λ−1)²J387全乘回；J双度306/81，与F49互素。平方自由覆盖双度307/81给≤6229基点/18687含ell投影，λ半完整纤维及原t/兼容式/八行继续保留，未宣称原解有限或排空。[一般Delta非0六维](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)仍开；根继续一般h=k≠1的原Gram/Delta四次，其它E=0及t六次头零继续，旧S0碰撞不外推。
+**[Delta0 h1/k1的原完整因式与6229基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-exact-factorization-and-6229-point-cover.md)已付。** b737实际25.741秒/168348KiB/exit0，G389精确a(2λ−1)²J387全乘回；J双度306/81，与F49互素。平方自由覆盖双度307/81给≤6229基点/18687含ell投影，λ半完整纤维及原t/兼容式/八行继续保留，未宣称原解有限或排空。[一般Delta非0六维](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)仍开；新27211310首次接一般h=k≠1的原Gram/Delta首一b4，全八原值保两singleton同h靶、D=0全保；180秒4GiB待实际，其它E=0及t六次头零继续，旧S0碰撞不外推。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
