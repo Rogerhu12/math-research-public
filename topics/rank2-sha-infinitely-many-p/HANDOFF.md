@@ -49,6 +49,8 @@ R1039§§7–8对固定EL:y²=x³−12x+20给无穷q≡−1mod3且a_q=0：真实
 
 原q11新[Prym Norm全除子](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)实时消费已付R及全2484B原stdout，准确下降到E_L^(−3):Y²=X³−108X−540；完整不可约因子/分歧与双∞/O/Cantor Picard类及双Norm身份全部保留。未重算旧截面/平方根，现run45980566265/job140443090086/source4b315bb783233d98ce623d99fa3dffdca9228683实际成功：R零极各20，NQ零极各24，两有效Picard类均O；完整必要除子/支/边界见该笔记§7。
 
+R1039§9用真实实cyclic24商j域强化原无穷输入为q≡−1mod24且EL超奇异。奇数Norm与A²=−q使某自由cyclic24核固定，λ²=−q而所有24单位平方1；aux1/c两分支及全部坏集完整支付。原sqrt3边界两个点本身Fq有理，d=(q+1)/3被8整除，全Jac F²=−q保持；仍不代q+1素因子无穷或最高27权。
+
 下一步消费实际q11 R的完整零极/NQ的−3 twist Picard类，再将新全Jac Frobenius关系用于原两quadric和27有权对应。函数域和纯Jac等式不自动等于原最高AJ。
 
 ## 四、继续工作
