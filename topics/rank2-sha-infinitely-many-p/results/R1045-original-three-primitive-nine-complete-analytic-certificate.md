@@ -2,7 +2,7 @@
 
 日期：2026-11-27 UTC。
 
-**状态：完整算法已证明，§8 的公开实际回执已证明三个原角色均为解析一阶。** 本篇只消费 [R761](R761-primitive-type-five-ninth-order-characters-and-point-fields.md) 的三条原 primitive type-five 角色。其 root number 均为 $-1$，但 R761 未证明它们的 $L'(1)$ 非零。原 [F0 两字的真实返回](../notes/2026-11-27-original-f0-two-delta-word-return.md) 恰出现这一整块，因此本次是更换未付清的真实输入，不重算 R735 的两条 cubic 曲线。
+**状态：§8 的公开实际回执证明三个原角色均解析一阶；§§9–11 完成同一点域/全部周期桥，证明原三个负一值与实际五sigma奇部的负一值非零。原中央sum-unit读者继续保持。** 本篇只消费 [R761](R761-primitive-type-five-ninth-order-characters-and-point-fields.md) 的三条原 primitive type-five 角色。其 root number 均为 $-1$，但 R761 未证明它们的 $L'(1)$ 非零。原 [F0 两字的真实返回](../notes/2026-11-27-original-f0-two-delta-word-return.md) 恰出现这一整块，因此本次是更换未付清的真实输入，不重算 R735 的两条 cubic 曲线。
 
 生产脚本：
 
@@ -378,11 +378,11 @@ $$
 它在 R761(26) 的三个几何特征线上都非零。
 本次解析输入正为这三个实际分量逐一准备。
 
-即使公开输出证明三个 $L'(\Psi_j,1)\ne0$，
-仍须在 R761§6 的同一 good-pair、全局点域、真实局部 toric pairing
-及全部周期中消费 Gross–Zagier/原 point-log 公式，
-才能把解析输入变成原负一矩的非零。
-不能将三次系数域的角色冒作三条有理椭圆曲线来调用缩略版本。
+§8 的实际区间现已证明三个 $L'(\Psi_j,1)\ne0$。
+§§9–11 用同一 good-pair、全局点域、完整局部 toric pairing
+及全部周期，消费一般 Hecke 角色的 Gross–Zagier/原 point-log 公式，
+得三个原负一值及 (31) 的非零。
+三次系数域的角色始终按其实际 CM 簇与椭圆点张量处理。
 
 此外原 F0 的完整后继是
 $$
@@ -395,7 +395,7 @@ $$
 其中原 degree51 因子、两个完整 Miller 字、共同 Gaussian 和 sum-unit
 域都已固定。裸负一非零本身不允许把 (32) 改成两个独立单位域，
 也不允许把带 $\log\langle x+y\rangle$ 的中央读者赋零。
-本篇后续将从实际公开三个区间开始消费这些全式。
+§§9–11 已消费实际三个区间至有限点空间；(32) 的中央转置仍保全部费用。
 
 
 ## 8. 已完成的公开回执：三个原角色都严格解析一阶
@@ -442,5 +442,352 @@ $$
 这里不由三个嵌入之一外推另两个。它也没有将这些CM实三次系数域
 新形式改称三条有理椭圆曲线。
 
-本节结论现在可作第7节真实点桥的解析输入；完整good-pair、
-准确点域、周期及原sum-unit转置仍按原式继续消费。
+本节结论是以下真实点桥的解析输入；原sum-unit中央转置仍按 (32) 保持。
+
+
+以下各节从实际 (33) 出发，证明
+$$
+L'(\Psi_j,1)\ne0\ \Longrightarrow\
+I_{j,1}\ne0
+\quad\text{在每个原好 ordinary }p.
+\tag{33a}
+$$
+## 9. 一般 CM 角色的实际点公式：逐项核定假设
+
+### 9.1 使用的完整定理和所有条件
+
+使用 Bertolini–Darmon–Prasanna 2012，
+*p-adic Rankin L-series and rational points on CM elliptic curves*，
+[作者全文](https://sites.lsa.umich.edu/kartikp/wp-content/uploads/sites/1326/2024/07/BDP2.pdf)，
+**Theorem 2，p.265；Proposition 3.31、Theorem 3.32，p.299**。
+Theorem 2 是一般代数 Hecke 角色的版本；它的点非零条件明确是
+$L'(\nu,1)\ne0$。这里不使用只针对有理椭圆曲线的 Theorem 1，
+也不使用 §3G 的额外特例 Theorem 3.35。
+
+把 $\nu=\Psi_j$ 代入，全部假设如下。
+
+| 定理的条件 | 原三线的核定 |
+|---|---|
+| Infinity type $(1,0)$ | $\psi_0$ 为原 type$(1,0)$，$\eta_j$ 为有限阶，见 (8) |
+| (1-6) $\nu|_{\mathbf A_\mathbf Q^\times}=\epsilon_K N$ | $\psi_0$ 为原 $E_0:y^2=x^3+1$ 角色，$\eta_j$ 在有理 idèle 上平凡，见 R761(8) |
+| (1-7) root number $-1$ | 原2、3、17、无穷 epsilon 乘积，见 R761(13) |
+| (1-8) $D_K$ 为奇数 | $D_K=-3$ |
+| (1-9) 导子被 $\mathfrak d_K$ 恰除一次 | $\mathfrak f_{\Psi_j}=(34\delta)$，$34$ 素于3 |
+| §3E 的普通素数条件 | 原 $p>211$、$p$ 在 $K$ 分裂，且 $p\nmid34\delta$ |
+| §3F 的有限域下降条件 (3-37) | 下述 $H/K$ 为阿贝尔且 $\Psi_j\circ N_{H/K}=\psi_0\circ N_{H/K}$ 取值于 $K$ |
+
+作者 §3G 后加的“单位群阶二”条件不属于上述一般定理；
+本篇 $K=\mathbf Q(\sqrt{-3})$ 使用 Theorem 3.32，保原六单位全部体积，
+没有借一个排除 $D=3$ 的特例。
+
+系数域仍是
+$$
+E=\mathbf Q(\zeta_9),\qquad [E:K]=3.
+$$
+Theorem 2 的 $B_{\Psi_j}$ 是定义于 $K$ 的三维 CM 阿贝尔簇。
+它不是一条定义于 $\mathbf Q$ 的椭圆曲线。
+本篇用 Theorem 3.32 将其指定 CM 分量返回共同椭圆曲线的点张量，
+不将三维簇整体的一个 $p$-adic 坐标与某椭圆曲线对数混同。
+
+### 9.2 同一 good-pair 和反向 Gross–Zagier 的局部因子
+
+这一段解释 (33a) 为什么不是倒用 R748 的单向论证。
+
+对于固定 $j,p$，按原 R761(41) 和
+[R748](R748-original-type-five-ramified-good-pair-and-point-eigenspaces.md)§2
+取 good pair $(\psi,\xi)$：
+$$
+\psi\xi^{-1}=\Psi_j,\qquad
+L(\psi^*\xi^{-1},1)\ne0.
+\tag{34}
+$$
+$\psi$ 的 cyclic conductor 避开 $2,3,17,p$；
+原2、17有限九阶角色真实留在 $\xi$ 中，不换成只有 $p$ 分歧的字符。
+BDP Definition 3.19、Proposition 3.28 正是此构造的原出处。
+这里有限 $p$-character 是平凡角色，故不需要把其 prime-to-$p$
+定理无证延伸到 ramified $p$ 分支。
+
+同一个 good pair 的 Rankin 导数准确为
+$$
+L'(\theta_\psi,\xi^{-1},1)
+ =L'(\Psi_j,1)L(\psi^*\xi^{-1},1).
+\tag{35}
+$$
+BDP Lemma 3.25 和紧随的 Remark 3.26 使用一般 Gross–Zagier 公式，
+并明确保全原坏处 local zeta integrals 的非零。
+这一步是反向的必要费用：若 (35) 非零，
+**实际选择的 Heegner 点**非挠，而不是任意挑一个形式点。
+R748§3(17) 同时保普通 local $Q_p$、有限体积、
+Gauss 和和原代数微分；R761(42) 沿同一规范使用这些因子。
+在本次未分歧 ordinary $p$，真实 Euler 因子非零；
+一旦其等于零，会迫一个 Frobenius 根满足与其复绝对值矛盾的有限阶或范数等式。
+其余坏处非零是 good-vector 的完整局部结论，不以“只差一个单位”代替。
+
+两 toric 点经原有限 CM twist isogeny 返回同一 holomorphic 分量：
+$$
+\psi\xi^{-1}=\Psi_j,\qquad
+\frac{N}{\psi^*}(\xi^*)=\frac{N}{\Psi_j^*}=\Psi_j.
+\tag{36}
+$$
+R748(22a)–(22c) 已保持两 CM loci 的不同 reciprocity 和同一系数嵌入，
+故 (36) 没有把 $\eta_j$ 点与 $\eta_j^{-1}$ 点误认。
+全部 auxiliary conductor 经这个真实 isogeny 从点因子上消去；
+保留在代数标量中的有限角色和微分费用不被删去。
+
+BDP Theorem 2、Proposition 3.27 的双向非零结论正汇总 (34)–(36)。
+本篇只取已经成立的方向“$L'$ 非零推出这个点非零”。
+它与 R748 为一般有限角色规定“当 Katz 为零时可取零点”的表述不同；
+不能仅从那条存在性表述推出 (33a)。
+
+### 9.3 准确的共同点域和点特征
+
+由 R761(38)–(39)，置
+$$
+H=K^{\ker\eta_1}=K^{\ker\eta_7}=K^{\ker\eta_{13}},
+\qquad \operatorname{Gal}(H/K)\simeq C_9.
+\tag{37}
+$$
+其二处惯性阶3、十七处惯性阶9、三处及本次普通 $p$ 不分歧。
+系数域 $E$ 和点坐标域 $H$ 不相认。
+
+$\eta_j$ 限制到 $G_H$ 为平凡，因此
+$$
+\Psi_j\circ N_{H/K}=\psi_0\circ N_{H/K}.
+\tag{38}
+$$
+BDP§3F(3-37) 因而可直接取 $F=H$，
+对应椭圆曲线取 **原** $E_0/H$，代数微分
+$\omega_0=dx/(2y)$。
+原有理模型的 CM 角色恰为右边，不需另一个 sextic twist。
+
+Proposition 3.31 的点条件是
+$$
+\phi_\mathfrak a(P)=\Psi_j(\mathfrak a)P^{\sigma_\mathfrak a}.
+$$
+在 $E_0$ 上 $\phi_\mathfrak a=[\psi_0(\mathfrak a)]$，
+代入 (8) 立即给
+$$
+P^{\sigma_\mathfrak a}=\eta_j(\mathfrak a)P.
+\tag{39}
+$$
+这是固定代数系数后的 **点因子**作用。
+它不是同时共轭 $\zeta_9$ 系数的自然 semilinear 作用。
+
+Theorem 3.32 因而给
+$$
+P_j\in
+  \bigl(E_0(H)\otimes_{\mathbf Z}\mathbf Q\bigr)
+                \otimes_K E,\qquad
+g_{\rm pt}P_j=\eta_j(g)P_j,
+\tag{40}
+$$
+其非零恰由 (35) 支付。
+若改变 good pair，只改变对应非零代数比例和同一 CM 点直线的生成元；
+不能把点域扩大后忘掉 (39) 的实际下降。
+
+## 10. 普通对数单射、原周期和全部三个负一值
+
+### 10.1 非零点张量到指定 ordinary 对数
+
+固定原嵌入 $\iota_p:\overline{\mathbf Q}\hookrightarrow\mathbf C_p$。
+[R749](R749-point-factor-projectors-and-finite-character-extraction.md)
+Theorem 1 给实际映射
+$$
+\mathscr L_p:
+\bigl(E_0(\overline{\mathbf Q})\otimes\mathbf Q\bigr)
+              \otimes_{K,\iota_p}\overline{\mathbf Q}
+ \longrightarrow\mathbf C_p,
+\quad
+P\otimes a\longmapsto a\log_{\omega_0}P
+\tag{41}
+$$
+单射。其使用范围在此逐项满足：
+
+1. (40) 只含有限多个实际代数点，全部坐标在固定 $H$；
+2. 所有系数在代数域 $E$，没有任意 $\mathbf C_p$ 系数；
+3. $E_0$ 为简单椭圆曲线，原 $\operatorname{End}^0(E_0)=K$；
+4. 取有限指数可将这些点同时放入 formal exponential 的单射域；
+5. 对 K 独立点的对数，R749 所引 p-adic analytic subgroup theorem
+   给其代数数线性独立，故 (41) 在这个有限 tensor 上确为单射。
+
+因此由 $P_j\ne0$ 真正得到
+$$
+\log_{\omega_0}P_j\ne0.
+\tag{42}
+$$
+这不是“三维簇非挠点的一枚 arbitrary 坐标一定非零”的猜测；
+它使用了 (38)–(41) 的完整椭圆点返回。
+
+### 10.2 原 primitive Katz 和 sigma 周期的全比较
+
+使用同一个 $\theta=17^{1/6}$、原 $\Omega_p$，
+以及 R761(24)、(27) 的实际首阶 $r_j$ 和归一：
+$$
+D_{j,17}(z)=\theta^{-r_j}D_{j,1}(\theta z),
+\qquad \Omega_{p,0}=\theta\Omega_p,
+\qquad
+I_{j,1}=\int_{\mathbf Z_p^\times}x^{-1}d\nu_{D_{j,17}}(x).
+\tag{43}
+$$
+本篇不重新规定 dyadic splitting 或 $s_j$，全部沿 R761 的
+完整 Hermite/Gaussian/有限范数。
+
+Theorem 3.32 及 (34)–(36) 的准确代数 normalization 给
+$$
+\mathcal K_{34\delta}(\eta_j\widehat{\bar\psi}_0)
+=\varepsilon_{j,p}\,\Omega_{p,0}^{-1}
+         \log_{\omega_0}(P_j)^2,
+\qquad \varepsilon_{j,p}\in\overline{\mathbf Q}^{\times}.
+\tag{44}
+$$
+代数性和非零性使用原 BDP finite-twist period rule
+及 R748§3 的完整 Rankin–Katz 规范；
+$\varepsilon_{j,p}$ 不被宣称是 $p$-adic 单位，
+也不以未知 Iwasawa unit 代替。
+
+R761(35) 在同一原 primitive conductor、同一嵌入中是
+$$
+\mathcal K_{34\delta}(\eta_j\widehat{\bar\psi}_0)
+=34c_j\theta^{2r_j+1}\Omega_p I_{j,1}^{\,2},
+\qquad c_j\in\overline{\mathbf Q}^{\times}.
+\tag{45}
+$$
+两个 ordinary Euler 因子及其高正权极限已经包含在此式。
+若中间使用 imprimitive 记号，必须按 R748§3 恢复准确 Euler 因子，
+不能把不同 primitive conductor 的 Katz 函数直接相等。
+
+由 (44)、(45)，
+$$
+\boxed{
+\Omega_p I_{j,1}=A_{j,p}\log_{\omega_0}(P_j),\qquad
+A_{j,p}^{\,2}=
+ \frac{\varepsilon_{j,p}}{34c_j\theta^{2r_j+2}}
+ \in\overline{\mathbf Q}^{\times}.
+}
+\tag{46}
+$$
+符号按实际相等选取。周期多出来的 $\theta$ 来自
+$\Omega_{p,0}=\theta\Omega_p$，不能漏掉。
+(42)、(46) 完成 (33a)。
+在全部原 ordinary 射线素数上都成立，
+不需要对 $p$ 作新扫描，也不以有限一组 $p$ 的非零代替证明。
+
+### 10.3 三个点特征和有限门的直接和
+
+三个 $\eta_1,\eta_7,\eta_{13}$ 在 $\operatorname{Gal}(H/K)$ 上不同。
+按 R749 的点因子幂等元
+$$
+e_{\eta_j}^{\rm pt}
+=\frac19\sum_{g\in\operatorname{Gal}(H/K)}
+               \eta_j(g)^{-1}g_{\rm pt},
+\tag{47}
+$$
+保持 (46) 的代数系数不动。
+由 (33)，三个解析输入都非零，故三个 $P_j$ 都非零；
+(41)、(47) 给
+$$
+\{\Omega_p I_{1,1},\Omega_p I_{7,1},\Omega_p I_{13,1}\}
+\quad\text{在 }\overline{\mathbf Q}\text{ 上线性独立}.
+\tag{48}
+$$
+这是线性独立，不是代数独立。
+
+对于 R761 已付的任意有限 $p$-character，原点因子在 chosen
+$p$-units 上为 $\chi^{-1}$，在17处仍为对应 $\eta_j$。
+因此固定有限门的 Fourier 展开中，不同 $(j,\chi)$ 可在同一个有限点域中
+逐项分离；零值分量允许为零。若一条本篇非零来源所乘有限函数的
+平凡 Fourier 系数非零，则其完整负一有限门值非零。
+这只消费已付的**有限**点载体，没有把 (47) 延拓到无证明连续的
+无限 logarithm 极限。
+
+## 11. 对实际 F0 primitive 余项的准确非零消费
+
+### 11.1 实际 $b=1$ 返回与原 $b=17$ 周期运输
+
+第7节 (30)、(31) 的实际多项式计算使用 $E_0:y^2=x^3+1$。
+此处明确记该来源为 $B_{\rm odd,1}$，不能把其数值多项式直接写成
+$E_{17}$ 上的同一个多项式。
+
+它在三条 $b=1$ 线上的完整分解是
+$$
+B_{\rm odd,1}=\sum_{j\in\{1,7,13\}}b_jD_{j,1},
+\qquad b_j\in\overline{\mathbf Q}^{\times}.
+\tag{49}
+$$
+全部 $b_j\ne0$ 的理由是 §7 的实际非零余块与不可约
+$T^3+\omega$，不是由首个 Taylor 系数猜 eigenvector。
+原 R735 两线投影为零已经由原公开全式核过，故 (49) 没有漏项。
+
+保原 $\Omega_{p,0}=\theta\Omega_p$ 和同一物理测度变量，
+R761(27) 的完整测度运输逐条是
+$$
+\nu_{D_{j,1}}=\theta^{r_j}\nu_{D_{j,17}}.
+$$
+所以原返回的负一值准确为
+$$
+\boxed{
+\int_{\mathbf Z_p^\times}x^{-1}d\nu_{B_{\rm odd,1}}(x)
+ =\sum_jb_j\theta^{r_j}I_{j,1}\ne0,
+}
+\tag{50}
+$$
+其中非零由第8节的实际三个严格正区间和 (48) 给出。
+$\theta^{r_j}$ 是非零代数数，不能漏掉或吸收入未定 $p$-adic unit。
+
+也可定义真实首阶五的 $b=17$ 运输
+$$
+B_{\rm odd,17}(z)=\theta^{-5}B_{\rm odd,1}(\theta z).
+$$
+于是
+$$
+B_{\rm odd,17}
+ =\frac{3\,\sigma_{17}^{34}x_{17}^4y_{17}
+             (X_{17}+4\cdot17)
+             (X_{17}^2+20\cdot17X_{17}-8\cdot17^2)}{93184},
+\tag{50a}
+$$
+且仍准确是同一五个 $\sigma_{17}$ 的乘积
+除以 $1118208\delta$。
+其负一值为 $\theta^{-5}$ 乘 (50)，因而也非零。
+这里首阶五的缩放专属于奇部；
+没有把不同首阶的完整 $\mathcal B_+$、$\mathcal B_-$
+分别按同一个首阶五常数重新归一。
+
+### 11.2 完整差值与有限门
+
+在原 $b=1$ 的两个 actual Miller 返回中，
+$$
+\mathcal B_+-\mathcal B_-=2B_{\rm odd,1}.
+$$
+(50) 因而给它们在同一负一泛函上的非零差。
+更一般地，对有限、代数值、平凡 Fourier 系数非零的原单位门，
+(49) 和有限点特征分离给其同一完整差值非零。
+对应 $b=17$ 输入必须使用上述全周期运输，再保原两字各自的绝对常数。
+
+原 rank-two 中央来源的读取仍是 (32)：
+$W_{51}$ 的整个测度、两个 actual Miller 字、Gaussian 和
+$x+y\in\mathbf Z_p^\times$ 的耦合域全部保留。
+(50) 不是把 $\mathcal U_+C_1$ 乘任意解析权后仍非零的定理；
+也不能把由 (32) 产生的无限 $\log\langle x+y\rangle$ 展开施
+未证明连续的点因子投影。
+后继需要将这些已经非零的有限点分量接到同一 sum-unit
+完整转置，不能由裸负一非零直接宣告原中央非零。
+
+### 本节 primary 文献入口
+
+- M. Bertolini, H. Darmon, K. Prasanna,
+  *p-adic Rankin L-series and rational points on CM elliptic curves*,
+  Pacific J. Math. **260** (2012), 261–303，
+  [DOI](https://doi.org/10.2140/pjm.2012.260.261)，
+  [作者全文](https://sites.lsa.umich.edu/kartikp/wp-content/uploads/sites/1326/2024/07/BDP2.pdf)：
+  Theorem 2（p.265）、Definition 3.19（p.287）、
+  Lemma 3.25 / Remark 3.26（pp.290–291）、
+  Propositions 3.27–3.28（p.291）、
+  Proposition 3.31 / Theorem 3.32（p.299）。
+- [R748](R748-original-type-five-ramified-good-pair-and-point-eigenspaces.md)
+  §3–4：原 good-pair、primitive normalization、local $Q$、
+  两 CM loci 和同一 holomorphic 点分量。
+- [R749](R749-point-factor-projectors-and-finite-character-extraction.md)
+  Theorem 1、§2、§5：真实椭圆点 logarithm 单射和固定系数点因子投影。
+- [R761](R761-primitive-type-five-ninth-order-characters-and-point-fields.md)
+  (35)、(38)–(46)：本次完整三角色、准确 cyclic9 点域、共同周期与原 Katz 平方。

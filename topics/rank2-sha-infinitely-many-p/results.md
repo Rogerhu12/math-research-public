@@ -324,3 +324,6 @@
 
 
 - **R1043准确E4纤维与全twist运输**：[§14](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§14给S′原无穷好模型的准确canonical曲线E4:y²=x³+4及I:E27→E4，完整9基和P3→(0,−2)保留。真实17图在3处使κ取逆、在2处保有序二挠，故为ψ_t I^-1；全部γ及对偶强制η′=ηκ2，原最高角色ψ27³η^-1不变。I、∛2均在既有L，无新trace次数；未将S′全八维超越表示替代原部分。
+
+
+- **R1045实际三点桥与五sigma负一非零**：[§§9–11](results/R1045-original-three-primitive-nine-complete-analytic-certificate.md)。R1045§§9–11将三个实际L′非零经BDP2一般Theorem2/3.32、同good-pair及完整local-Q返回E0(H)的三个非零η点张量；H为原cyclic9，系数域Qζ9另保。R749指定ordinary对数单射及R761全θ/Ω/c_j周期给三个原负一值非零且代数线性独立，继而原F0五sigma奇部及平凡Fourier系数非零的有限门也非零。 原x+y单位域和degree51因子仍保留，未对无限log极限施点投影。
