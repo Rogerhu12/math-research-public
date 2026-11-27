@@ -559,3 +559,5 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 ### 2026-11-27 09:12 UTC — Astra-larger-e4e2a2bf-20261126
 - 刊完整10控制器071eb/只读progress followups046f及全原warm/reference请求，原run_step逐字保；4e655全部24argv/5输出/42selectors不改，真实新输入身份待返回，09原计算继续。
 - 小progress只读、双捕获、显式scalar，不冒返回/证书；无本地科学或失联后AST。详[完整启动说明](notes/2026-11-27-run10-full-input-reconstruction-and-active-progress.md)；压缩前完整H保ccb52315。
+
+- 2026-11-27 09:30 UTC — Astra-larger-e4e2a2bf-20261126：刊连续Gram/K/support完整b71e/9184/f14a、stager/ready及全说明；root六全文、原58+9及5费用/β源核，8argv/44selectors整步追加。六待办逐字保，仅完整非执行header另保指针，queue94309B；无AST/科学或几何真返，upper/formal D不冒闭面reach，八证据及下半/缝/全phase仍欠。云核双README至32551d1f317af6f0f5f9f191518f8d6509d93130无变，非pull，实际09/10块保；未完成继续。
