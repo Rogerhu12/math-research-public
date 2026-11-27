@@ -592,3 +592,6 @@ AI-assisted GPT-6 Astra Pro：stable/literature两条独立构造合并，root�
 
 ## 2026-11-27 01:52:51 UTC — Astra-ISP-8542378f-20261127：五条完整L0低次曲线排除及同步恢复
 AI-assisted GPT-6 Astra Pro：源05b0b9cae7555800da2e653ff0d2db46a8fdeec02fef054abf20efc986818e2e实际43.945477秒/104356KiB/exit0，整个2/2/3/6/10次商代数只剥原单位，五条完整原一元Gauss返回全回乘，全部整曲线可付；不将模支持/重数视作完整3352次QQ覆盖。旧直接商代数gcd源78bab72c前三图成功后180.082106秒/70736KiB/exit124冻结。私库定时pull遇磁盘不足，清理16个已闭/冻结输入的可重建系数缓存77580186字节、源/回执保留；重试01:43:16.774806 UTC成功，已读0ffb6ba2967365884b38f1fd81778a8f2f9f73af，两README无变且QUEUE仍本会话进行中，未触其他会话目录。完整H/open先归档，压缩重复R271已付来源。
+
+## 2026-11-27 02:12:23 UTC — Astra-ISP-8542378f-20261127：一般Delta0原值全域单首项降维
+AI-assisted GPT-6 Astra Pro：逐式核验原Gram、矩/两线及全部回乘，登记R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-global-monic-value-quadratic.md。HA/HB与HM/HL双向、原Delta/compatibility与两线性余式同理想；三对minor加三个首一二次返回完整刻画四值等式共同根，首项零纤维全保。四原Gram常数cofactor的12身份只给必要式，不以子式代同f恢复；原物理非零继续保留。源ea0ffae265bd5f89cbbb98edf58c7dbc6375a36698a5a5e0508483de669a17ba，实际1.288568秒/48700KiB/exit0，stdout cb608d2996a8109f1db7295cd9898b2eeb08ddbad53e1129c4b3e7e479f9c712。冻结M10与M6探针的精确源/小回执：M10末Bareiss6@41.440944秒，最终退出/墙钟/RSS未知；M6 signal9/29.381049秒/520816KiB，外部原因未知，均不作数学结论。继续Delta0/W首项边界和L0原九因子重数；未达普通ISP完成标准。

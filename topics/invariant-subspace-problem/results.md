@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 一般LS零行列式图的全域单首项值降维（2026-11-27，已证明）：** [原矩双向身份、六条完整值投影与同Gram必要子式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-global-monic-value-quadratic.md)把原四条值等式等价为首一二次式及三个一次式，ell/T/等权和各一次首项零面全保；六个参数式完整刻画这四条等式的共同根存在性。原Phi只在Delta0图由P1双零已闭定理支付。四Gram子式仍只必要，全部物理非零及同f返回保留。源ea0ffae2实际1.288568秒/48700KiB/exit0，22分母检查；未排空一般Delta0。
+
 - **R150 L0五条完整低次w曲线排空（2026-11-27，已证明）：** [J2a/J2b/J3/J6/J10的整个QQ商代数与原Gauss返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-fixed-w-curves-complete-exclusion.md)仅剥原Cmom/RR/P0单位根，完整原/模lambda次数、五条Bézout1和每个逆/除法/组合均乘回，保全部嵌入。源05b0b9ca实际43.945477秒/104356KiB/exit0。五因子现可付，但在3352次结果式中的特征零重数及完整穷尽仍待证明。
 
 - **R271 原两模型均无无条件联合图carry估计（2026-11-27，已证明）：** [五个真实坐标、完整Cayley主项与实际图拼接](results/R271-appendix-five-coordinate-actual-joint-graph-carry-countersequence.md)以两单缺位及三双缺位精确取消原主输出，实际KN/KY范数除b_q分别趋1、sqrt2，而T*h、Sh除b_q均趋0、C2除b_q趋1。分离子列给已在有限来源联合图闭包的h，仍非C2且纯项/carry各非H。输出严格在M⊥，因此只封闭无条件升级，保真实W专属来源问题。
