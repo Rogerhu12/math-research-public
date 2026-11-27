@@ -460,3 +460,7 @@
 ### 2026-11-28 02:26 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原两条p点直线的实际chord给U+V=1，几何anti/算术bar只取一次真实范数；完整θ/leading恢复两槽uχ、vχ，含ψ₂²且不除κ₂。每actualχ通过两段r的多项式根数保证2≤a≤m存在uχunit。
 - root/global/o2全文纸审通过；Norm后全部crossed Cor保留，不把源恢复当cup零。泛配置不交collision双tame只给universal障碍，实际elliptic addition仍需处理。无数学执行；H逐字归档保持小体积，继续指定原Manin组合与跨轨道消元。
+
+### 2026-11-28 02:29 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 固定Prym三同源以明确ψ识别为同一原E的CM[-s]，完整两坐标/微分符号已核；A=r+x、B=r−x给真实三挠Kummer源与Lamé零谱基，Wronskian=−2ρ²v。原A*/B*因此是同一E上指定三极函数的实际CM trace。
+- 原genus4双覆盖分支不被τ保持，不能提升；全norm=U³+125v²/4非平方。root/o1纸推保全部原常数，无数学执行。H逐字归档后重写精简，继续指定U^m Hermite余核、e/K4与原跨line Norm交叉项。

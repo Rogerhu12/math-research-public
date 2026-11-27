@@ -6,57 +6,50 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：cf9024bcc897642f88b74ce31c53ab191cc1d0d7**（2026-11-28 02:26 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：722bb7cce6c4d651c23f98043cf792730c8ab620**（2026-11-28 02:29 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；01:47重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 02:47。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-cross-line-chord.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-CM-Lame-transport.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
-## O0：一般 p；整平方层与实际 cochain
+## O0：完整一般 p；原单位与实际 cochain
 
-[R1003](results/R1003-global-scope-and-remaining-branches.md)保完整N_ns主范围。R317附加整j/K=Q(√−3)/σ1/二三小域，p2/5mod9还需小惯性C³；其余全范围未关。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)付原good≥floor(p/16)+3，forced-only Ω(p/logp)，预算完整T链不改1/16。原候选O(p^1.5logp)、有界惰性CM代表不推Q-CM，单cusp无Runge。
+[R1003](results/R1003-global-scope-and-remaining-branches.md)保全部N_ns主范围；R317的整j/固定K/σ1/二三小域及小惯性C³均不可删。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)原good≥floor(p/16)+3、forced Ω(p/logp)，完整T链预算不改1/16。候选O(p^1.5logp)和有界惰性CM不推Q-CM，单cusp无Runge。
 
-[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)付同时非零/localization与准确导子判别式，ℓ_faith≪p^(1215p−867−521r_min)仍不够小。[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)付分母annihilator判据，−1modp整支仍相容。几何Weil零不消HS混合项。
+[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)已付同时非零/localization、导子和判别式，选素界仍不够小；[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)分母annihilator允许−1modp整支。几何Weil零不消HS混合项。
 
-[原整K₂](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)给未分歧K₂[p]/常数=μp⊗J(K)[p]，全cusp平均Δ分裂；even残余落odd J。[整p Chen/Ohta](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)付真实同素数p单位同源，N=1消旧odd，剩余在Fricke+平方层；Σ(p²)[p∞]=0不消非Shimura odd。扩张0→ωr→E→ω1−r→0的radical是ω2−2r，非βr。
+[原整K₂](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)残余μp⊗J(K)[p]、全cusp Δ分裂及[整p Chen/Ohta](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)均已付；Σ(p²)[p∞]=0不消非Shimura odd。R1131 forced r=p−1−2j及两Bernoulli门锁实际非分裂rank2/Fricke+，radical β_(4j+2)而非βr，规范K₂角色2j+2零。R1132低偶r两Bernoulli门迫full块w负、原正商该p块零，规范K₂角色2−r零；r2需p∤Bp−3，p7mod8指定低偶r无条件。只运输已证明的简单socle/整torsion，不代K₂/p。
 
-[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：forced r=p−1−2j、B_(4j+2)B_(p−1−4j)unit锁实际非分裂rank2格，全Fricke+、odd K有理p∞零，扭点域K(β_(4j+2)^(1/p))；规范K₂角色2j+2零。p1mod4≥5块、p3mod8指定块无条件，限简单socle。[R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：偶2≤r<(p−1)/2且B_(2r)B_(p+1−2r)unit时，full低奇cuspline迫全w负，原正商该p块零、规范K₂角色2−r零。r2需p∤Bp−3；p7mod8指定低偶r无条件。均不代K₂/p。
+[原整单位关系](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)仅将原单位符号格中已有理为零的平凡角色关系整提升，保实cusps、e₀/平均/S-unit transfer及R1132前提；不除12p。
 
-[原整单位关系](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)仅将原符号格的已知有理平凡角色关系整提升：实cusps消even torsion tame，原S-unit常数先e₀/平均后transfer消去。R1132门前提与真实rational关系不能删，不除12p。
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)实际A+B=1的half范数恢复全部原Vχ，保leading。显式Heis和同Norm见证class4 p⁵塔首层(a,a,a,b)已付；cusp iff四moment全零，即赋值向量∈(σ−1)^4，Norm只控M0。§10 Fourier/λp相位严格交换同一Heis商；纤维积保两三阶及两极端四阶(p⁷)，混合四阶零。常Lie中心读K₂/p的ω²，非e₀整torsion。原见证/跨轨道Cor/算术与proper下降继续。
 
-[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：实际A+B=1的half Cartan加权范数以dχ(a)=Δ²χ(t²)|a−Δ²χ(t²)|2恢复每个原Vχ，偶根数付可逆a，保leading。原杯积保crossed Cor，常Lie中心读K₂/p的ω²而非e₀。§9同一Norm见证给p⁵/class4塔与(a,a,a,b)；cusp iff四moment全零，赋值向量∈(σ−1)^4，Norm只控M0。§10 Fourier/λp相位精确交换同一Heis商，真纤维积保两三阶/p⁵和两极端四阶/p⁷；混合四阶零。forced双字母指标已给，原见证/算术下降未付。
+[原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅E[p]索引，(P,aP,iP)给严格U+V=1；一次bar范数及全部θ相位/leading付两槽uχFχ/m、vχFχ/m。uχ=2[g(a+1)−g(a−1)]，g=(t²−δ)^r−t^(2r)；每actualχ有2≤a≤m使uχunit，第二槽保ψ₂²、不除κ₂。不保证两χ共a或第二槽unit。泛配置双tame只作范围，不能传实际cup；global正在做真实跨line交叉和/Manin组合。
 
-[原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
+[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：原K₃付整三项式；双κ同选奇c<p为unit、辅助域度p单位。§7第二K₃与O值1把完整Cor移回p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。两次{-1,h}成对整消、C排序仅二扭。原权/配置cross仍须付，不能设C零或改c⁴−[c,c]；个别hc有Hodge权，augmentation才消权。
 
-[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数付Ψc的整三项式，含t0阶c²−1；双κ可同选奇c<p为unit且辅助域度p单位。§7再用实际R_a(T)=∏(xT−xi)^ai、O值1及第二K₃，完整Cor移回原p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。两次{-1,h}成对整消，C的排序仅二扭；所有cross权保留。须继续指定原Manin组合/配置项，不把它设零或改成c⁴−[c,c]。个别hc有Hodge权，augmentation后才真权零。
+## O1：指定 U^m、原 Picard 两 jet 与真实三同源
 
-### 固定47及全部来源审计已完成
+[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保原Miller/Verschiebung、kerV/−Q刚化、全自然基与P/N连接。6v dot t̂=ΦN_full f；全V₀低阶共轭已排，指定U^m未排。首normal×Picard一/四阶零而normal零阶unit。真实Prym族Y²=−(3x+ε)(x³+2v)给完整θ及rank2 Gauss，θ为终止ε₂F₁，cup1/(9v)；moving三挠不代fixed Picard，period仅<p安全、首共振p+1。
 
-[R1125](results/R1125-original-full47-rational-point-classification.md)原full X_ns^+(47)(Q)恰八CM，全部标签/非q含2/3/73维QC/八whole4513盘与§10全维审计均成。run46025141482/job140594489905、result SHA06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173。**只消费，不重跑。**
+全族Dε^p=HεDε、DεΨε=HεU−βε；加律保−HM，dotR保全S_(p−3)/常数。Ψε(Q)=(εH−ε^p)/6，二阶公式已付。§16完整普通Picard连接为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M div=V*O−pO、Hc=−DlogM、c(FQ)=−ε/6；保moving-zero的HD_T与全部高极输出。p-curvature只核尺度。o1正对指定UDf+Vf=0作真实Hermite消去；高Ψ插入未证保持有界余核，不从rank-one/三个有限极猜固定阶。
 
-## O1：原 Picard 两 jet / 真 Tate 族
+§15固定E_P上Ξ=d(xR/r)+3v(R/r²)ωP、Υ=−3R²ωP读3e、−3K4；proper高极p次自由项按CM权排。两类在同一CM线，不能用全rank2完美性。完整Fermat矩给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k矩unit、后k零；**两原和非同时零仍开**。
 
-[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保实际Verschiebung/Miller、kerV/−Q刚化、全自然基P/N连接。6v·dot t̂=ΦN_fullf，6v·dotĴ=P_TJ，6v·dotS=[P,S]；全V₀低阶目标共轭已排，指定Um未排。首normal×Picard一/四阶零，normal零阶unit。
+[原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)，φ=(q/ρ²,w/2)，φ*ωE=−3ρ⁻²ωP。A*=Tr(R/r²)/3、B*=TrR²/3准确读e/v、K4，顶项3ρ⁻²U^(m−1)、U^(p−1)。§6真实ψ=(2v/(ρ²x),−svr/x)给φ=[−s]ψ；A³=2(V−v),B³=2(V+v)，LA=LB=0且W=−2ρ²v，原trace已写成同一E的CM[-s] trace。§7原genus4二次源W²=x²+4r²的branch不被τ保持，不能提升；完整Norm=U³+125v²/4非平方，三条平移cover必须保留。
 
-真实三挠cover η=−z/w给Prym Y²=−(3x+ε)(x³+2v)、θ完整Hasse和rank2 Gauss；θ=θ′0·ε₂F₁(1/2,5/6;4/3;ε³/(54v))到k−1，保−3dx/Y、cup1/(9v)、period安全<p/共振p+1。全族Dε^p=HεDε、DεΨε=HεU−βε、加律M^p−HεM。§14保6v·dotR=δ/2−U²Ψ/V−S_(p−3)，S全二次和/常数；Ψε(Q)=(εH−ε^p)/6与二阶全付。
+[原genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree3商y³=(2/κ)(1−η⁶)，四基全Cartier-zero；μ6×μ3排第四基的三对。原ω↦h及absolute负号给e=3ρsδA，再消费e0 iffS0，得到e0 iff全局β恒零。Y非hyperelliptic，不反用单向引理，也不把四维isotropic当矛盾。
 
-§15固定Prym x³+3xr²+2v=0：Ξ=Ψ(u−ν)=d(xR/r)+3v(R/U)ωP，Υ=−3R²ωP，CΞ=3eωP′、CΥ=−3K4ωP′。proper高极p次自由项按CM权排，两类同ζ线，zero分别iff原读数zero。完整Fermat矩L0..k−1 units、Lk..2k−1=0，e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)。**原两和非同时零仍开**，不能用rank2完美性/moving三挠normal代fixed Picard；继续实际primitive/普通连接。
+[原Lamé续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)的短旗标/Green/全Newton/纯极Φ及R1113完整Lamé谱已付；相邻单位、零谱投影、R1130相邻δ都不代指定两jet。R1126六CM十五配对保A/S/T，Pfaffian不含S；R1060非CMordinary不推S。旧素数窗至500000已成，不重扫。
 
-§16普通全族连接完整为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M的div=V*O−pO、Hc=−DlogM、Q处c=−ε/6；全部moving-zero/高极输出保留。Aε^p−H^pAε=Ψε^p仅核尺度，仍须指定U^m的低jets。
+## O2：原 Gaussian good-mask 与共同纤维
 
-[原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)自由，q=r²−x²,w=r³+3rx²给真实3-isogeny φ=(q/ρ²,w/2)到同一原E；φ*ωE=−3ρ⁻²ωP。有限Newton trace完整给A*=Tr(R/r²)/3、B*=TrR²/3，准确Cartier读e/v、K4；顶项分别3ρ⁻² U^(m−1)、U^(p−1)。proper类的φ*/φ*trace尺度已付，最高项/同源p单位不代原共同非零。
+[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次斜率unit，只付跨盘。剩余p∤Bp−3；盘内还需原高度。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)constant iff ord_bG_v≥s，degree=(s−ord)/2，非constant≥max{3,floor(p/96)+2}，不推独立/纤维唯一。
 
-[原genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree3商Y:y³=(2/κ)(1−η⁶)，完整四基全Cartier-zero；第四基与其余三基按μ6×μ3权严格配零。原映射ω↦h及absolute负号给e=3ρsδA，再消费已付e0 iff S0，得到e0 iff全局β_Y恒零。canonical比值生成K(Y)，Y非hyperelliptic；不反用hyperelliptic⇒β0，不由isotropic四维代非零。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md) §§7–9保全gauge/低卷积/高尾，f_n=−Θ^nG_v/(n!(v)_n)及有限Möbius点对差，仅weight≤p−3。Θ^p在SS=δ²∂w，不横向微分单点对等式。o2正用固定总权重长contiguity消原rank-two Hankel差商尾，保缺中项；尚无排共同纤维的minor。R1114全V₂/V₃/V₄和norm2真phase都保，邻单位不代c₃/Bp−5 good。
 
-[原Lamé续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保短旗标/Green/全Newton矩阵/纯极Φ，e0零迫邻e单位不代K4。[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)真实邻项只回旧δ单位，run46015627853仅消费。R1126六CM十五配对保A/S/T，Pfaffian不含S；R1060非CM ordinary不推S。旧素数窗口至500000已成，不重扫。
+## 已完成与永久边界
 
-## O2：原 Gaussian mask / 共同纤维
+[R1125](results/R1125-original-full47-rational-point-classification.md) full47Q恰八CM，全部标签/非q含2/3/73维QC/八whole4513盘及审计均成。run46025141482/job140594489905，SHA06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173。只消费，不重跑47/41/旧窗口。
 
-[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)：p4k3且p|Bp−3时原χ2 good且coarse一次斜率unit，只付跨盘。剩余p∤Bp−3；盘内高度仍需原来源。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)：constant iff ord_bG_v≥s，degree=(s−ord)/2，非constant≥max{3,floor(p/96)+2}；不推独立/纤维唯一。
-
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§§7–9保全gauge/低卷积/高尾和mask，f_n=−Θ^nG_v/(n!(v)_n)、有限Möbius流及实际点对差(47)/(48)，weight≤p−3。Θ^p在SS=δ²∂w，不为零；不横向微分单点对等式。继续原去对角差商/Fay。
-R1114保全部V₂/V₃/V₄，5H+(8a²/45)K=16G_(p−3)unit不代c₃；Bp−5 good未付。原norm2分布全twists/相位/低项保留。
-
-## 其它实际边界
-
-同h须本原/Legendre/fi gj两mask同满足；R971 full-span、R1006全p稳定已否，特定A/E4/mark仍开。R1095全核完美性/Gram/Fay/FSF不代指定短配对。旧MW/高度、lowest/deep整尺度、野3/非p/Poincaré/splitting沿逐字归档；R948仅两有限Abel零集，候选MW像可非零。R907原artifact真404不重造；R707主41已成、R1004仅导子下界。主完成标准不变。
+同h仍须本原/Legendre/fi gj两mask。R971 full-span、R1006全p稳定已否，特定A/E4/mark仍开。R948仅有限Abel零集，候选MW像可非零；原σ/cY、η_h、d/N、nonp/Poincaré/splitting不可删。R907原artifact真404，不据摘要重造；R1004导子下界不代高度上界。O3–6全部准确输入与旧断点见open及逐字归档。主标准不变，继续。

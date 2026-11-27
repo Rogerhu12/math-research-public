@@ -48,7 +48,7 @@ R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job1405944
 
 [原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保真实Miller/Verschiebung、kerV/−Q刚化及全部P/N连接/自然基补偿。首normal×Picard一/四阶零、normal零阶unit；全V₀低阶共轭已排，不排指定读数。真实三挠cover η=−z/w给Prym Y²=−(3x+ε)(x³+2v)、完整θ Hasse/Gauss，θ为终止ε₂F₁；period仅<p安全jets，首共振p+1。全族Ψε普通加律保−HM、Rε保完整S补偿/常数，三挠ε^p及二阶边界不删。§15固定同一Prym的Ξ/Υ准确读3e、−3K4，proper高极自由项按CM权固定，两类同一CM线。完整Fermat L_j递推给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k项unit/后k项零；moving三挠不代fixed Picard，原两和非同时零继续。 §16普通全族连接完整为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M的div=V*O−pO、Hc=−DlogM、Q处c=−ε/6；全部moving-zero/高极输出保留。Aε^p−H^pAε=Ψε^p仅核尺度，仍须指定U^m的低jets。
 
-[原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)自由，q=r²−x²,w=r³+3rx²给真实3-isogeny φ=(q/ρ²,w/2)到同一原E；φ*ωE=−3ρ⁻²ωP。有限Newton trace完整给A*=Tr(R/r²)/3、B*=TrR²/3，准确Cartier读e/v、K4；顶项分别3ρ⁻² U^(m−1)、U^(p−1)。proper类的φ*/φ*trace尺度已付，最高项/同源p单位不代原共同非零。
+[原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)自由，q=r²−x²,w=r³+3rx²给真实3-isogeny φ=(q/ρ²,w/2)到同一原E；φ*ωE=−3ρ⁻²ωP。有限Newton trace完整给A*=Tr(R/r²)/3、B*=TrR²/3，准确Cartier读e/v、K4；顶项分别3ρ⁻² U^(m−1)、U^(p−1)。proper类的φ*/φ*trace尺度已付，最高项/同源p单位不代原共同非零。 §6真实ψ=(2v/(ρ²x),−svr/x)给φ=[−s]ψ；A³=2(V−v)、B³=2(V+v)，两者满足原L=D²−2U且Wronskian=−2ρ²v，原trace成为同一E的CM[-s] trace。§7原genus4双覆盖W²=x²+4r²不容τ提升，完整Norm=U³+125v²/4非平方，三条平移分支不能删。
 
 [R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及一阶解给原I_n递推与准确短Ramanujan和，原p=6m+5的截断m及PF最后强迫项全部保留。§6已完成真邻项桥：I_(n+2)来自(V−v)ν/(V+v)u的亚纯配对，完整相对Cartier/分部积分给I_(n+2)+I_n=3δ/4。因此旁单位只回旧C(Uω)，不再把它当独立K4入口；继续原三挠族变分及有边界的短和。run46015627853/job140561880424完整证书只消费。
 
