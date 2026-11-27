@@ -9,6 +9,7 @@ import ast
 import hashlib
 import inspect
 from collections import OrderedDict
+from copy import copy
 from pathlib import Path
 import original_ys_divisor_ideal_tools as divisor
 import original_ys_artinian_norm_tools as norm
@@ -72,7 +73,7 @@ def _complete_native_matrix(M):
         COMPLETE_MATRIX_CACHE.move_to_end(key)
         CACHE_HITS+=1
         return item[2]
-    snapshot=M.copy()
+    snapshot=copy(M)
     snapshot.set_immutable()
     native=NATIVE.CompleteQuadraticMatrix(M.base_ring(),snapshot)
     COMPLETE_MATRIX_CACHE[key]=(M,snapshot,native)

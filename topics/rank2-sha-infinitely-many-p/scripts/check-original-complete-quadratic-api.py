@@ -12,6 +12,7 @@ if (os.environ.get("GITHUB_ACTIONS")!="true" or
     raise SystemExit("Run only in public research Actions.")
 import hashlib,json,time
 from pathlib import Path
+from copy import copy
 from sage.all import GF,PolynomialRing,matrix,vector
 import original_complete_quadratic_returns as fast
 from original_ys_divisor_ideal_tools import polynomial_matrix_digest
@@ -48,7 +49,7 @@ for prime,n in ((29,12),(41,9)):
     assert fast.complete_remainder_rows(perturbed,H)==fast.ORIGINAL_REMAINDER(perturbed,H)
     assert fast.complete_hermite_coordinates(H,rows)==fast.ORIGINAL_COORDINATES(H,rows)
     # A mutable caller basis must invalidate its complete representation.
-    changed=H.copy()
+    changed=copy(H)
     assert fast.complete_remainder_rows(perturbed,changed)==fast.ORIGINAL_REMAINDER(perturbed,changed)
     changed[0,1]+=z+1
     assert changed.is_hermite()
