@@ -621,3 +621,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 20:06 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 60c2a406真run45994627867/job140490824492，2.243488579秒/52472KiB/inner0；三固定原模Res度1945/2005/2096、全xgcd908，已付atom仅模剥后308；不由此断言QQ整除/次数或排空。准确note/小receipt入库。
 - 新c3e74aad主27阶原反转矩阵、matching dual与QQ核行P=I+N/N²0，目标∞106阶，120秒1GiB；每项除z/截断乘回，不计算QQ大结式、不重跑模投影。新增本题workflow。
+
+2026-11-27 20:12 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- c3e74aad真run45995941790/job140495249115，3.131820798秒/52636KiB/inner0；27阶原反转矩阵20轮真实QQ核行提106、18953逐项回乘；合前次模1945得QQ精确degree1945及1009首项单位。
+- 原固定Sylvester/Vandermonde保所有首项退化，h1有序图≤1945基点/3890含ell点；k1只交换，不把并集偷计同界，原候选仍开。
+- 新增ecea3052仅c1/2两完整QQ原域返回、1e837721仅个别NB/PB新投影与主R完整模重数；各120秒1GiB，同固定两helper。新增题外两workflow已登记；不重跑已付无穷远核提取。
