@@ -290,23 +290,28 @@ cdef tuple _reduce(CompleteQuadraticMatrix source,CompleteQuadraticMatrix H,bint
             nmod_poly_clear(&temp[h])
     return out,C
 
+cdef CompleteQuadraticMatrix _as_native(value):
+    if isinstance(value,CompleteQuadraticMatrix):
+        return value
+    return CompleteQuadraticMatrix(value.base_ring(),value)
+
 def complete_product(left,right):
-    cdef CompleteQuadraticMatrix a=CompleteQuadraticMatrix(left.base_ring(),left)
-    cdef CompleteQuadraticMatrix b=CompleteQuadraticMatrix(left.base_ring(),right)
+    cdef CompleteQuadraticMatrix a=_as_native(left)
+    cdef CompleteQuadraticMatrix b=_as_native(right)
     return _product(a,b).to_matrix()
 
 def complete_remainder_rows(rows,H):
-    cdef CompleteQuadraticMatrix a=CompleteQuadraticMatrix(H.base_ring(),rows)
-    cdef CompleteQuadraticMatrix b=CompleteQuadraticMatrix(H.base_ring(),H)
+    cdef CompleteQuadraticMatrix a=_as_native(rows)
+    cdef CompleteQuadraticMatrix b=_as_native(H)
     cdef CompleteQuadraticMatrix out
     out,C=_reduce(a,b,False)
     return out.to_matrix()
 
 def complete_hermite_coordinates(H,rows):
-    if not H.is_hermite():
+    if not isinstance(H,CompleteQuadraticMatrix) and not H.is_hermite():
         raise ValueError("Need the supplied full certified Hermite basis.")
-    cdef CompleteQuadraticMatrix a=CompleteQuadraticMatrix(H.base_ring(),rows)
-    cdef CompleteQuadraticMatrix b=CompleteQuadraticMatrix(H.base_ring(),H)
+    cdef CompleteQuadraticMatrix a=_as_native(rows)
+    cdef CompleteQuadraticMatrix b=_as_native(H)
     cdef CompleteQuadraticMatrix C
     out,C=_reduce(a,b,True)
     return C.to_matrix()

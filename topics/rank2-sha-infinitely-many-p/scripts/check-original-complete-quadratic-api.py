@@ -47,6 +47,12 @@ for prime,n in ((29,12),(41,9)):
         rows[i,j]+(z+i+j+1)*t**((i+j)%3))
     assert fast.complete_remainder_rows(perturbed,H)==fast.ORIGINAL_REMAINDER(perturbed,H)
     assert fast.complete_hermite_coordinates(H,rows)==fast.ORIGINAL_COORDINATES(H,rows)
+    # A mutable caller basis must invalidate its complete representation.
+    changed=H.copy()
+    assert fast.complete_remainder_rows(perturbed,changed)==fast.ORIGINAL_REMAINDER(perturbed,changed)
+    changed[0,1]+=z+1
+    assert changed.is_hermite()
+    assert fast.complete_remainder_rows(perturbed,changed)==fast.ORIGINAL_REMAINDER(perturbed,changed)
     # Reject an actual full-module non-inclusion, never clear denominators.
     bad=matrix(rows)
     bad[0,0]+=1
@@ -70,6 +76,7 @@ for prime,n in ((29,12),(41,9)):
         "same_complete_reference_remainder_and_coordinates":True,
         "actual_noninclusion_rejected":rejected,
         "empty_full_matrix_shapes_retained":True,
+        "caller_basis_mutation_invalidates_complete_representation":True,
         "elapsed_seconds":time.monotonic()-before,
     })
 # Rank 306 is the actual original module width.  Use an explicitly specified
@@ -96,6 +103,11 @@ checks.append({"prime":29,"constant_degree":2,"rank":n,
     "same_full_product_and_original_return":True,
     "elapsed_seconds":time.monotonic()-before,
     "not_a_claim_about_original_geometric_primary_blocks":True})
+# Repeated scalar-row reductions are the real idempotent-lift use case.
+before=time.monotonic()
+for repeat in range(8):
+    assert fast.complete_remainder_rows(matrix(R,[rows.row(0)]),H).is_zero()
+repeat_seconds=time.monotonic()-before
 binding=fast.bind_original_returns()
 assert binding["full_reverse_identity_H_equals_CI_plus_H_one_minus_e_retained"]
 files=("original_complete_quadratic_polynomials.pyx",
@@ -108,6 +120,9 @@ result={"kind":"complete-original-quadratic-polynomial-api-check",
     "topic_readme_blob":os.environ["RANK2_TOPIC_README_SHA"],
     "source_file_sha256":{p:hashlib.sha256((Path(__file__).parent/p).read_bytes()).hexdigest() for p in files},
     "preparation":preparation,"checks":checks,"binding":binding,
+    "same_complete_basis_repeat_count":8,"same_complete_basis_repeat_seconds":repeat_seconds,
+    "transient_complete_representation_hits":fast.CACHE_HITS,
+    "transient_complete_representation_refreshes":fast.CACHE_REFRESHES,
     "all_original_geometric_gates_still_required":True,
     "data_artifact_written":False,"elapsed_seconds":time.monotonic()-started}
 payload=canonical(result)

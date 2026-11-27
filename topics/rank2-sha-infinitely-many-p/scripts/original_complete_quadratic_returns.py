@@ -8,6 +8,7 @@ if (os.environ.get("GITHUB_ACTIONS") != "true" or
 import ast
 import hashlib
 import inspect
+from collections import OrderedDict
 from pathlib import Path
 import original_ys_divisor_ideal_tools as divisor
 import original_ys_artinian_norm_tools as norm
@@ -26,6 +27,10 @@ SOURCE_DEPENDENCIES=(
 NATIVE=None
 PREPARED=None
 BOUND=False
+# Transient in-process representations only; never serialized or reused by a later run.
+COMPLETE_MATRIX_CACHE=OrderedDict()
+CACHE_HITS=0
+CACHE_REFRESHES=0
 ORIGINAL_REMAINDER=divisor._hermite_remainder_rows
 ORIGINAL_COORDINATES=norm._whole_hermite_coordinates
 ORIGINAL_PROJECTOR=projector.complete_projector_ideal
@@ -58,22 +63,42 @@ def _supported(R):
     k=R.base_ring()
     return int(k.degree())==2 and 3<=int(k.characteristic())<2**31
 
+def _complete_native_matrix(M):
+    """Cache all entries, with a fresh exact equality check on every use."""
+    global CACHE_HITS,CACHE_REFRESHES
+    key=id(M)
+    item=COMPLETE_MATRIX_CACHE.get(key)
+    if item is not None and item[0] is M and item[1]==M:
+        COMPLETE_MATRIX_CACHE.move_to_end(key)
+        CACHE_HITS+=1
+        return item[2]
+    snapshot=M.copy()
+    snapshot.set_immutable()
+    native=NATIVE.CompleteQuadraticMatrix(M.base_ring(),snapshot)
+    COMPLETE_MATRIX_CACHE[key]=(M,snapshot,native)
+    COMPLETE_MATRIX_CACHE.move_to_end(key)
+    while len(COMPLETE_MATRIX_CACHE)>4:
+        COMPLETE_MATRIX_CACHE.popitem(last=False)
+    CACHE_REFRESHES+=1
+    return native
+
 def complete_product(A,B):
     prepare_backend()
     if _supported(A.base_ring()):
-        return NATIVE.complete_product(A,B)
+        return NATIVE.complete_product(A,_complete_native_matrix(B))
     return A*B
 
 def complete_remainder_rows(rows,H):
     prepare_backend()
     if _supported(H.base_ring()):
-        return NATIVE.complete_remainder_rows(rows,H)
+        return NATIVE.complete_remainder_rows(rows,_complete_native_matrix(H))
     return ORIGINAL_REMAINDER(rows,H)
 
 def complete_hermite_coordinates(H,rows):
     prepare_backend()
     if _supported(H.base_ring()):
-        return NATIVE.complete_hermite_coordinates(H,rows)
+        assert H.is_hermite()
+        return NATIVE.complete_hermite_coordinates(_complete_native_matrix(H),rows)
     return ORIGINAL_COORDINATES(H,rows)
 
 def bind_original_returns():
