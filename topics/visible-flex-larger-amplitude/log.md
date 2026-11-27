@@ -217,3 +217,10 @@
 ## 2026-11-27：R723保留法向方向的完整reach充分界
 
 [完整R723](results/R723-directional-normal-flow-support-reach.md)21535B证明：同一闭C²球面浸入与共同SPD矩阵，s=A(F−c)·n>0、a=nᵀAn，reach≥min(inf s/a,1/K)。对每个|u|<半径的平行面，flow投影为球面一层覆盖；联合逆与∂uT=1/[A(F+un−c)·n]>0证明不同偏移面全法管注入，再由最近点推出reach。目标τ条件允许等号但法管严格内部。Aβ下全叶w(a_xy+βb_z)−τ(qh+βqv)≥0给同一β仿射式；原p4帽两有理行及旧帽条件蕴含新条件已证明，所有mixed/allphase仍全域承担。原R279/R672 shape判据不重登，有限K本来已是主曲率；本条只强化support，不消除当前reach正违反。R718保同标记σ，R716独立真无标记管；当前流虽有全部N/w/F/六jet，新入口/实际证据仍未运行。此前open29584B全字归档，§1–6原23359B保持；HANDOFF完整旧版4ee986固定链接保全部历史。
+
+
+## 2026-11-27：启动19完整同g端层半宽独立科学
+
+[完整11件](computations/fixed-fejer-meridian-bhalf-complete-launch-delivery.json)392124B（含独立workflow）保当前10fa/8027/f600与全部137/18源原字。唯一科学数值改变是b/S1/4→1/2，δ1/32保持；端层每段S/8、中央总3S/8，同固定g/材料图/全部M160/J923/N2048/32stage/自由量和原预算。真实18有限六g指向reach与distanceplus，准确unit-d端层冻结尺度项减半与中央固定r项5/3相竞争；新mean、两角jets/Gram/几何/距离都未知，不许凭冻结参数推改善。
+
+完整science90652B、pure80254B，原157/7argv、458/445formal、48live和全部历史原字段保，旧18scope/input/失败显式存parameter_parent。完整三step新队列72837B（6argv maker、26argv reference、157argv science），science+pure116745B超95k故whole pure在自然返后接；没有缩预算/摘要/域。新controller19984B只四槽名变19，workflow保原partial clone/依赖/token隔离/350分钟和真实pull规则核查。所有实际19 run/input/model/point/accepted/report/fee尚未知，原16–18不取消。完整choice note、文本再生器及新output namespace fixed-fejer-meridian-batched-bhalf-first均保；继续实际求解。

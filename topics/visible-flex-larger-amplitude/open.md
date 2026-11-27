@@ -116,3 +116,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 新[R723方向流支撑](results/R723-directional-normal-flow-support-reach.md)证明全法管半径min(inf s/(nᵀAn),1/K)，含不同平行面严格排序、共同β全叶仿射条件和两条有理帽约束。它只改善支撑保守度，不消除实际曲率违反；R718仍需同标记面σ，R716须独立无标记管。本族准确流已有所需完整N/w/F/六jet，但新消费入口/实际条件未付，不能把旧八角色支撑claim改成true。
 
 [ret51](notes/2026-11-27-finite-geometry-minimax-retention-51.md)及此前完整台账保所有原source/参数/失败未知和精确Git恢复，只退旧derived。README完成标准仍未达到；时长、阶段或输入困难都不是停止条件。
+
+19现以同固定g、b/S1/2、δ1/32启动完整独立科学。[选择依据与启动](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)及[完整11件交付](computations/fixed-fejer-meridian-bhalf-complete-launch-delivery.json)保当前通用源137/18原字、157/7全参/全部预算与历史；两必要输入在新runner真实重建。端层冻结尺度变缓、中央固定r项5/3只是方向动机，新mean/Gram/distplus/全reach未知；不拿18字段充19结果。全纯读及准确费/closed/R716/mesh在真实材料具备后继续。

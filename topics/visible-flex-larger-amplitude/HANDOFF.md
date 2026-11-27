@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `5bfa65c93cf027785e68044de011355bb736dc31`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `c5b0d0a22a1620daa179ec3367661001c6a9ac49`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–19通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -26,10 +26,13 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 16=46037017666 | 两input0后a8b0749a/ed810/PID3868科学未返，完整157/7参数92522B保。 |
 | 17=46053911348 | 两input0后36ef0794/ed810/PID3823科学未返，完整wide157/7参数92407B保。 |
 | 18=46062343475 | 两input0、前三science1、三原异常reader0；producer修后完整157真实运行，同runner原输入保。 |
+| 19=待实际runID | 同g、b/S1/2、δ1/32；当前10fa/8027/f600全157科学由请求触发，两完整新输入先行。 |
 
-[16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)model8cc/current7e06/g11.17545381570094，第四2fa731统计Phi5551.476942430809/Gram.6480138184922606，几何/决定未返、accepted0；首/二/三几何决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)仅b/S1/4、δ1/32新seed，model f2e417/current924732；21:01:36真实current-geometry，accepted1、g2.04762068147831>0，完整report仍未返。17第二已观察trial b0468统计Phi4954.618769180181/Gram.6374150628738999，几何/接受未知。全部精确Phi/Gram/点/source记录保全note；六g未展示分项不猜，同坐标异model不冒同场。
+[16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：model8cc/current7e06/accepted0/g11.17545381570094，第四2fa731统计返、几何决定未知，首二三决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：model f2e417/current924732/accepted1/g2.04762068147831，第二已观察trial b0468统计返、几何决定未知。全部精确Phi/Gram/点/时间/source与原观察保全note；未公开分项不猜，异model同坐标不冒同场。
 
 18三入口失败/三完整诊断0及根第三次helper常量传播遗漏保[完整旧栈](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)、[producer续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。当前geometry5730/batch9104/driver10fa/reader8027/launcherf600/input d892，全137角色/18源、原120pairs、157/7argv、458/445formal、48live及全预算保；源码父f2eb/参数父36fb与三失败族原保。两真返input同runner不重建。实际e3d2eb/f600/PID7515/model9ec211/current7e06初统计Phi4954.71485872585/Gram.6374168330977955，accepted0；初有限geometry reach+2.0480426708394406/distplus+.11871374548166669、其余四g负。首trial7d0d统计已返、几何/接受未知；pure全对象待自然返回后接。
+
+[19完整启动](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)：仅b/S1/4→1/2，δ仍1/32；source全137/18原字，全157/7、458/445formal、48live、全部预算保。完整三step队列72837B；science/pure全队列116745B超95k，pure须真自然返回后整接。新input/model/field/费用未知，旧点不作父场；端层尺度改善不代真实root/中央/Gram/reach改善。
 
 ## 后继与未付责任
 
@@ -44,7 +47,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 ## 容量与分工
 
 [ret51](notes/2026-11-27-finite-geometry-minimax-retention-51.md)退17旧derived净1555055B，54源/187输入/18全resource/5全plan/失败未知保；ret50退19净1053787B和三完整旧源保；ret49/ret48及旧台账完整保旧源/参数/失败未知/消费者/原Git恢复，只退旧raw；ports/Nelder/已退对象不动，每fresh树核200MB。
-root独占refs/queue、完整上层与实际续求；construction据18实际六g推下一输入；solver监15/16并保全旧派生容量；geometry推进全闭reach界。一直做到README标准。
+root独占refs/queue、完整上层与实际续求；construction接19前三完整后参及ret52；solver监16并接19矩/mesh全参；geometry接独立R723完整消费者。一直做到README标准。
 
 <!-- visible-larger-parallel-16:start -->
 Actions16：[run 46037017666/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46037017666)；[全阶段记录](notes/2026-11-27-public-actions-46037017666-1.md)。running；已返2，exit=未返。
