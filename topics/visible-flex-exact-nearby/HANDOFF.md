@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:15:14 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:21:57 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与授权
 
-已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至ef55c1392580e0cfadafe3805a893f67ccd16bd5（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 04:03:28 UTC环境失联后API刷新main至8e02ac56234cae106cb36c515af382fbf8633033（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
+已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至cae26aee72451ad7ac7a400457a2b1ad630374c8（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 04:03:28 UTC环境失联后API刷新main至8e02ac56234cae106cb36c515af382fbf8633033（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
 每pull核两README、至少每小时；非FF立即rebase再推。令牌只CLI，无AGENTS。本地环境03:00前磁盘满后失联，按根规8用GitHub集成仅传<100KB文本；root独占main更新，每次最新head/两README，force=false+expected_sha拒旧父即重base。GF改由connector发布；原source35ff439e后的6件旧排版本地未commit，恢复时不得重复。缓存迁移命令无成功回执。
 科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。第5批45934384748/1已成功，public c264c5e6，128文件gross806606B−receipt69422B=net737184B，原baseline c509ce70；与前一批828816B分开计。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
 
@@ -34,7 +34,7 @@ BNC完整B-normalized strictν96列合同/pure已成：全G=K48∘H24保a相位�
 
 ## 已付高阶与非线性接口
 
-完整证明、球、域、units及source/public身份见[results](results.md)、[原H](https://github.com/Rogerhu12/math-research-public/blob/c509ce70c930b0c3bd0c0339dcfaa50a5a08cee9/topics/visible-flex-exact-nearby/HANDOFF.md)，不撤其义务：SM/SMR/STC/RTC真δ*与全部mean/join；QN/QH/NR/NT/RT/PT原负窗全阶与七ports；FX/PX/OX真正fixedφ/physical外反馈77/800与单高；TH/UH/DH/WH/WT全state/ν/mean/physicalheight的一二高阶及world独立ports；RP/RPT/PCT/PSC完整raw E/PD/两mean/waist与单高，GGB实际L8192（CP C1不授H3）；LG/RG/LV实际strong long/horizontal/vector C²及两端κ/λ/mean；RH短[0,.18]relative误差、Qb/Fb/Cθ独立。DC/DB/DG/IL/IR/DT/TM/TP/SDI旧成功、Nash94/NG与全部失败/unknown保递归原件，禁重。
+完整既成SM/QN/QH/NR/NT/RT/PT/FX/PX/OX、TH/UH/DH/WH/WT、RP/RPT/PCT/PSC/GGB、LG/RG/LV、RH及全部Nash94/NG/失败unknown的原球、域、units与scope保[results](results.md)和[a28完整H](https://github.com/Rogerhu12/math-research-public/blob/a28a95b3927dc7dbeb77ba4a816e20f1a0599761/topics/visible-flex-exact-nearby/HANDOFF.md)。同一物理对象、全mean/ports与未付义务不撤，成功禁重。
 
 GHR/GHC/GHW public3f363d86/14bc954d/d0739f98已补metric-reference1、完整fixedphysical参数height与D_w z分片C²≤2^2048 E20、固定w/λ的γ列<2^-56000000 A0/r。GHV新付完整Cartesian horizontal metric/sqrt-coframe/connection及单路径vector二jet，fixedγ≤2^4096 E20、fullpartialγ<2^-55000000 A0/r；没有height三导免费使用。泛broken方向非global C²；actual matching闭jet极限、λ/world/core仍独立。
 
@@ -43,5 +43,5 @@ GHR/GHC/GHW public3f363d86/14bc954d/d0739f98已补metric-reference1、完整fixe
 完整义务保open第1–7节和全部原proof，至少包括：
 - 真physical signed有限列/cross/full square逆、Θ96、两physicalmean、完整ν/phase Schur/negative incoming；R149完整HS/trace/θ/γ/5目标及原covariance不删。
 - 同一态两侧H1/fullmean/true residual0/wholeC0；NG门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12未actual，qν−Z负窗误差≤.005、第四Robin/腰/truephase未闭。
-- 原S/T域γ A0/r≤1/128、H8193/r≤2^1048576、r1e−9，94seed后Γ2冻结，loss1734/bg1796不改。SREG连续至E3121、固定γ/q局部唯一；GF/GA完整seed/首补偿/principal/common源/三径jet/mean，GA forcing Z20..2898<2^-48000000 A0/r，Hmet独立。SDIF ab31ad9b：common E20 A0 Lip及V界2^-31222782，u2^-31222778，fB H23为2^-31223222；A0→E3120连续。真实inward差商得闭域相对A0余项、operator H8193→E20..1164连续，strict H8193 interior C1；保大高窗低源项，不授A0 operator连续/开放A0值域/E1856导数/C2/core。SHT新成：完整实际tail+finite scalarheight global C²的A0差/导数≤2^-31220733/r，闭二jet子空间由actual matched差商进入；H8193方向C1，逐base相对A0余项。一个实际λ另加Dλ；fixed physical mean row仿射消去仅那一row，其他mean/两端span/world ports不删。继续horizontal/core/matching。
+- 原S/T域γ A0/r≤1/128、H8193/r≤2^1048576、r1e−9，94seed后Γ2冻结，loss1734/bg1796不改。SREG连续至E3121、固定γ/q局部唯一；GF/GA完整seed/首补偿/principal/common源/三径jet/mean，GA forcing Z20..2898<2^-48000000 A0/r，Hmet独立。SDIF ab31ad9b：common E20 A0 Lip及V界2^-31222782，u2^-31222778，fB H23为2^-31223222；A0→E3120连续。真实inward差商得闭域相对A0余项、operator H8193→E20..1164连续，strict H8193 interior C1；保大高窗低源项，不授A0 operator连续/开放A0值域/E1856导数/C2/core。SHT新成：完整实际tail+finite scalarheight global C²的A0差/导数≤2^-31220733/r，闭二jet子空间由actual matched差商进入；H8193方向C1，逐base相对A0余项。一个实际λ另加Dλ；fixed physical mean row仿射消去仅那一row，其他mean/两端span/world ports不删。GVC已成同一真实selected完整vector global C² A0响应≤2^-31218685/r，H8193内域C1、闭域逐base相对A0余项；实际Euclidean3 norm、一个world placement和λ保。Γ随γ变化仍非fixedmetric flex，继续core/matching。
 - 全B/C/Cmean、height、holonomy、位置周期、单一worldframe、腰镜像/regularcaps全部闭后，才用上述几何比例与一次冻结metric。组件、路线排除和计算成功均非最终验收。

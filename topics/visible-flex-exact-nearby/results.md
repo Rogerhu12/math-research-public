@@ -492,3 +492,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### GHV：实际horizontal coframe与完整vector低图二jet（已证明）
 
 [完整证明](results/R144-supplement-actual-horizontal-coframe-and-low-graph-vector-two-jets.md)及[15条新整数组合](scripts/fourfold_codazzi_low_graph_horizontal_saved_bounds.py)。实际G=I+W²er⊗er−Dz⊗Dz，真实小图与Xi(δW)≤4||Hmet||C²付完整sqrt-coframe/connection/单路径：fixedγ vector二jet≤2^4096 E20、partialγ<2^-55000000 A0/r。保所有mean/metric/Γ/端点/whole finite+flat end，不用height第三导。泛broken方向只属formal二jet读出；actual selected matching闭子空间后可取global C²响应。placement/λ/periods/core仍独立。
+
+### GVC：实际selected tail的完整global C²向量响应（已证明）
+
+[完整证明](results/R119-supplement-C1-global-vector-response-of-the-actual-selected-tail.md)及[首次新系数组合](scripts/fourfold_codazzi_selected_vector_response_saved_bounds.py)。完整vector A0 Lipschitz/response≤2^-31218685/rγ，strict H8193 interior→global C²的C1，原闭域逐base相对A0一阶余项；actual matched inward差商付所有接缝/flat-end资格。Euclidean3的完整二jet、独立λ和一个world placement保，不授A0 operator连续。metric Γ变化保留，未冒最终fixedmetric闭面族。
