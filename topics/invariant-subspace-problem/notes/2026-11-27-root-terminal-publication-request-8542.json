@@ -1,13 +1,15 @@
 {
-  "message": "ISP: prove full three-pair joint sources and seven-site birth-two edges",
-  "parentCommit": "3ff781e09e8b89b31ff8cbb2a7dc916c36eb24f8",
+  "message": "ISP: prepare the new u2 collision fibre from all original Q rows",
+  "parentCommit": "041ffb82526b9a0d32e9fe7cee71ce4274db7e7f",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-three-pairs-full-joint-source-and-seven-site-birth-two-edges.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-three-pair-joint-complete-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-u2-four-original-Q-full-fibres-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-u2-four-original-Q-full-fibres-8542.md",
+    ".github/workflows/invariant-subspace-8542-collision-u-two-original.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-collision-u2-original-input-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +18,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-collision-u-two-original.yml"
+  ]
 }

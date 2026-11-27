@@ -264,3 +264,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [三加三原联合预算及七位统一首末边](results/R271-appendix-three-plus-three-original-joint-budgets-and-seven-site-uniform-edges.md)：六位(√t³,1³)整个九/五维源F>(2/3)C1²、创新费<F/3（尖锐）、S<I/2；五原完整Gram全部真实逆后压，三全域正多项式保全部cross。真定量Schur给七位(a,√t³,1³)整14维首末边同c*=1−(1−1/√3)(1−1/√2)/3<24/25。R239旧定性不重计；该均匀数值界仍不外推一般独立权。
 
 [一特殊权全部高度的尖锐相对创新费](results/R271-appendix-one-special-weight-all-heights-sharp-relative-innovation-cost.md)：原R293完整同源直接得每合法n的Qn<n/[2(n+1)]Fn，固定n尖锐、全高度上确界1/2，En>(2n+2)^−1 CnG(n−1)Cn；包含硬顶、全部池串重数及s0真空约定。新增n≥2统一数值预算，n1/旧定性不重计。原无限carry不是此单异常串且尚欠ΣFn能量，逐层half不提升整体可和；一般高出生S2/真实同W域继续。
+
+[碰撞整个u=2的四原Q新输入](notes/2026-11-28-unit211-collision-u2-four-original-Q-full-fibres-8542.md)：固定原C_R/C_W/C_O/C_N1代u2，只有明确原非零物理乘积可饱和；真正固定Q结式保头降次，必要λ覆盖完整QQ因子再回全部原Q。只常数1或同原物理乘积幂零才排空，未返整纤维保。8df首次180秒/4GiB，旧E37与已成头门不重放，无边界偷推仿射排空。
