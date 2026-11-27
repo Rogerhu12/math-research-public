@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi例外有序权图的完整原排除](results/R150-appendix-unit211-Phi-zero-exceptional-weight-chart-complete-original-exclusion.md)：保存P6特化乘完整未付h4保首头零，固定原43阶结式模553与真首一R1977 Bézout1；仅已付phi4，严格整个原有序例外及BC交换排空。
+
 - [W-G36七个整低QQ纤维排除及末两纤维保留](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)：总32次权因子全部原q分量关闭，真180秒SIGALRM只留k14/q5与k15/q6；保存精确输入，未把已返单位或未开始域改写为失败。
 
 - [W-G36整个高1134原有限代数排除](results/R150-appendix-unit211-W-G36-entire-high1134-original-finite-free-exclusion.md)：31新整域原108×56满列，合旧块解析升阶/坏点新四次，完整有限自由与两次Nakayama保所有重数并升至QQ；低61另行保留。

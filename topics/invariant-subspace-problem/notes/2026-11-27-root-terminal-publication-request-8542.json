@@ -1,17 +1,18 @@
 {
-  "message": "ISP: preserve the repeated original Phi obstruction and start the genuine internal primitive source",
-  "parentCommit": "2c88c0db4af8af273fada3105092be3bec2d8a68",
+  "message": "ISP: exclude the complete exceptional ordered Phi weight chart",
+  "parentCommit": "a647e28074d67fb20f2b0c9ef982e8c33df0b2e1",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-exceptional-partial-phi-repeated-factor-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-exceptional-partial-phi-repeated-factor-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-internal-birth-one-half-companion-characteristic-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-internal-birth-one-half-companion-characteristic-8542.md",
-    ".github/workflows/invariant-subspace-8542-six-bit-internal-half-companion.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-partial-obstruction-and-middle-source-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-weight-chart-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-complete-P6-original-Gauss-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-F66-whole-original-QQ-fibers-8542.py",
+    ".github/workflows/invariant-subspace-8542-collision-p3-f66-fibers.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-complete-Phi-exceptional-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-complete-Phi-exceptional-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-six-bit-internal-half-companion.yml"
+    "invariant-subspace-8542-collision-p3-f66-fibers.yml"
   ]
 }
