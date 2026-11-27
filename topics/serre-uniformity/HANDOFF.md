@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：31960783dc7fb2b488ae8cc017c3043a17c72fe4**（2026-11-27 21:16 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：727471cc2e70a4e33f866df2ff4e8a6c54a7f50e**（2026-11-27 21:16 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；21:09再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -20,7 +20,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：主目标为所有充分大p的完整N_ns。p2/5mod9仍需小惯性C³；R317另需整j、K=Q(√−3)、σ1及二/三小域同时一致。完整惯性、非整j、变化K、非平凡σ与异小域均未关；固定47不等于Serre完成。
 
-[R1062–71](results.md)：原全cusp/étale/p-only来源、所有角色/phase/twists和Ω(p/logp) good提升已付，无regular/Vandiver。有限像O(p^1.5logp)、有界惰性CM代表不推Q-CM；一般p的small-aux迹零与全局共同像仍开，单cusp无Runge。
+[R1062–71](results.md)付原全cusp/étale/p-only来源、所有角色/phase/twists，无regular/Vandiver。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)用互不交高低Bernoulli配对，将实际good维数升至≥floor(p/16)+3（forced-only仍Ω(p/logp)）。原候选O(p^1.5logp)；有界惰性CM代表不推Q-CM，一般p small-aux迹零/同点像仍开，单cusp无Runge。
 
 [R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零密度=(1−1/p)^d/(p−1)，split-K中>1/2；全global标签localization同构，可加p互素Galois分裂。§§9–10付同一圆单位场精确导子/判别式，rd<p²（forced-only rd<p^1.5）；单角色degree p(p−1)的逐素并集界避整p^d场误差。有效小辅助素、一般p同点曲线像仍开。固定47的附加普通/Hecke分裂仅为已付固定输入。
 

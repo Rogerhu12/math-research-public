@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1128（已证明）**：[原全素数线性good秩](results/R1128-all-prime-linear-good-cuspidal-rank.md)：完整原V的低偶角色ω^r出现 iff p|B_(p+1−2r)；与forced高角色作不交配对，两bad消耗两个irregular指标。全部p>37实际good维数≥floor(p/16)+3，更精确渐近p/16+(log24/8)p/logp−O(1)，原étale覆盖degree相应≥p^(floor(p/16)+3)。保原p-only同构，无regular/Vandiver；尚不付有效辅助素或同点像排除。
+
 - **R1127（已证明）**：[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)关闭一个真实Gaussian标签分支：p4k+3且p|B_(p−3)时，原V中χ=ω²准确出现且B₂恒good；原完整coarse标签是斜率−aβ₀⁴λ²/(20bχ)单位的一次式，故每个固定候选在该coarse线上至多一盘。只付跨盘注入，不付盘内唯一；剩余Gaussian标签问题限p∤B_(p−3)，其H_p与其它good mask仍保。
 
 - **R1126（已证明）**：[R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)付原X108六CM输入的全部十五对Raynaud配对，目标保十维；真实R/I/σ和p逆半线性准确给A/S/T三有限和及完整表。原S_n仍为gd/uv通道；六阶Pfaffian恒零且不含S，不能从此或非CM普通性推出S单位。后继沿真实gd=c²、uv=h²及primitive求高阶约束。

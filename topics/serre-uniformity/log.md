@@ -237,3 +237,7 @@
 ### 2026-11-27 21:16 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1112 §§9–10付原圆单位每条Kummer线的实际深度r、break p−r、导子p+1−r，以及整个原合成场的精确判别式；rd<p²，forced-only <p^1.5。
 - root/global/o2逐式纸核局部与全局独立、全分歧、全部对偶角色和判别式塔；单角色逐素并集界保实际相位，解析误差/有效小素与同点像仍未付款。无数学执行。21:09真实pull仍因无执行器未运行，连接器同步至f13b8dea，两README无差异，继续按根规矩8。
+
+### 2026-11-27 21:18 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1128在完整原V中证明低偶角色的准确出现 iff，并将奇j对应的forced高角色和低r=j+1角色互不交配对；每失败pair花费两个不同irregular指标，给全p>37实际good维数≥floor(p/16)+3。
+- root/global/o2全文纸核广义Bernoulli的Teich/两幂和规范、ordinary Kummer、所有异常边界、整数+3与渐近常数；原class-group消失/p-only同构直接适用于这些实际good低角色。无数学执行，未把线性秩或巨大覆盖degree当曲线像排除；继续全局共同像及原Gaussian双支mask。
