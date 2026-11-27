@@ -24,7 +24,7 @@
 
 ### 阶段门与后继
 
-下一正常pending330沿原算法，准确采用原327+3及全部16189永久坐标，raw只作未合格warm。原base reuse仅比p/q/fine；本scope原数据确定6个新中点不在旧fine，因此会付至少16195的新完整资格，不声称有不存在的通用material SHA检测。所有新baseline/backend/fine共用同一次实际场，实际mesh如实记。新网入口资格不计metric接受。
+[已审具体pending330范围](notes/2026-11-27-r582-physical-pending330-resume-implementation.md)沿原算法，准确采用原327+3及全部16189永久坐标，raw只作未合格warm。原base reuse仅比p/q/fine；本scope原数据确定6个新中点不在旧fine，因此会付至少16195的新完整资格，不声称有不存在的通用material SHA检测。所有新baseline/backend/fine共用同一次实际场；现有材料hash已含knots及全部六jets，无须重复接口。39来源绑定/510950B原字节输入已核，按push继续；新网资格不计metric接受。
 
 p阶段约2.5e−7未过不升级；目标p=.8/末η≤1e−7。同空间真停滞时按实际残差换输入/算法，不能只延已停实例。当前mean g仍在设计，最终须同一g/参数/时间域精化。
 

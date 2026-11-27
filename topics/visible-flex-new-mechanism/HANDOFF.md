@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **cee9f6458ff4b235ab19038714014eb9f54c6d7f**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **1156103ea1dc9db4cd186a6ef54093fc6c2bbf42**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -17,11 +17,11 @@
 
 ## 3. 97q最新3bc1，同新0d实际材料
 
-[normal311原终态](notes/2026-11-27-r582-normal311-original-terminal.md)run45909167191/job140213091600/source181de62c，23:49:59 UTC结束；实际2427.43645062秒不能裁成2400。新field0d222bd1…/960944RHS区别源f60，同对象新付16167baseline再8真接受。真97q **3bc11a9c80696ad3ec54066a9bf0d5cee4436081dee79b9e22b61757fe507aa1**，p=.181，16189×3072 η3.722676721935829e−5、物理V0/working2.309485e−12在原容差内。
+[normal311原终态](notes/2026-11-27-r582-normal311-original-terminal.md)run45909167191/job140213091600/source181de62c；实际2427.43645062秒，新field0d/960944RHS区别f60，同场新付16167后8真接受。真97q **3bc11a9c80696ad3ec54066a9bf0d5cee4436081dee79b9e22b61757fe507aa1**，p=.181，16189×3072 η3.722676721935829e−5、物理V0/working2.309485e−12在原容差内。
 
-当前327径向+3pending、拟定330/1536角/trust2，永久与合格fine同16189/SHA d6a0d6e7…。末135e raw违规，16次减半后无strict metric promise而跳fine，未接受。四后端J=2/6/2/4共14份/182块/583.826191433秒，未自然OptimizeResult，已有内部BFGS，不套B030饥饿结论。下一正常pending330保原方法/全部门；6个真正新中点使至少16195需自身新资格，不重复旧16189。p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。
+当前327径向+3pending、拟定330/1536角/trust2，永久与合格fine同16189/SHA d6a0d6e7…。末135e raw违规，16次减半后无strict metric promise而跳fine，未接受。四后端J=2/6/2/4共14份/182块/583.826191433秒，未自然OptimizeResult，已有内部BFGS，不套B030饥饿结论。[已审pending330范围](notes/2026-11-27-r582-physical-pending330-resume-implementation.md)保原方法/全门；6新中点使至少16195需自身资格，材料hash含全部knots+六jets。p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。
 
-mean q64:80全变、h96=.6975711972395291；q80仍是首tail-u。旧59a4完整连续几何不移给3bc1。所有298/此前失败/物理拒绝/费用见原收据链；mean g仍在设计，最终同g/参数/时间域精化未付。
+mean q64:80全变/h96=.6975711972395291，旧59a4完整几何不转移。所有旧失败/费用链保留；mean g仍在设计，同g/参数/时间域精化未付。
 
 ## 4. B030最新d191，接原238剩余峰与native曲率
 

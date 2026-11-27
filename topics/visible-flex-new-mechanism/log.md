@@ -618,3 +618,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜97q normal311的新0d与3bc1原终态
 
 根全文审12161B收据，独立核7220660B原stdout/506334B FINAL/116368B FIELD唯一字节、97q binary64 SHA和当前327/拟定330/三pending/16189资格。8真接受到η3.722676722e−5，原2/6/2/4份Jac及未折入当前4J/52块/44value全计；新实际2427.43645062秒不裁声明预算。原mean也变，59a4连续界不移用。下一原330新增6中点使旧16189资格不足，按原算法支付真实新fine；不存在的material通用reuse检测未写成事实。同步记B030 native push run45914886940/job140231615166/source797efdf0，00:07:34 UTC启动。
+
+
+## 2026-11-27｜3bc1原pending330完整物理续算范围
+
+根全文审12325B薄wrapper的完整差异、8017B说明和6087B workflow；39来源hash及全部sparse吻合，510950B stdin包含506334B唯一原FINAL逐字，97q SHA和原330新增六中点独立核合。原科学实现/全部物理门不变，新网完整资格在同一实际field支付；当前4J/52块/44value与旧全部成本俱保。现有material hash实际已含knots及六jets，未造冗余身份helper；原base未比此hash的事实与六点强制新fine的边界分别明记。未接B030独立native82维接口，也未移59a4连续界。
