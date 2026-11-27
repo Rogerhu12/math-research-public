@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150整H265头曲线的二三次结式及泛型唯一射影方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)：完整4阶=5阶结式和伪余式通用整数身份，H重数1给函数域唯一公共线性因子；有限例外、头零与无穷支全部保留，不等同有限原解。
+
 - [R271两对等权加两独立权全联合及七位五值首末边](results/R271-appendix-two-pairs-two-independent-full-joint-source-and-seven-site-edges.md)：20.882163528秒/0，全部七个原主子式正系数/W轴严格项，支付全9/5维S1/S2，进而七位完整14维首末；常数对新增权统一，未称全比率统一。
 
 - [R150任意原三次的无除法纯二元三次替换](results/R150-appendix-unit211-W-original-cubic-pure-binary-ideal-compression.md)：完整原QF、R0/R1/R2组合给等理想、保持总次数≤3；NS/PS新固定六阶参数必要式首次实算，未预报结果。

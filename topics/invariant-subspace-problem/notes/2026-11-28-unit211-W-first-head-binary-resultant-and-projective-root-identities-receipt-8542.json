@@ -1,0 +1,43 @@
+{
+  "schema": "isp-universal-original-head-polynomial-identity-v1",
+  "variables": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "x",
+    "y"
+  ],
+  "ring": "ZZ[a,b,c,d,e,f,g,h,i,x,y]",
+  "fourFullHeadRowsReturned": true,
+  "fixed4EqualsFixed5ResultantReturned": true,
+  "entireHomogeneousPseudoRemainderReturned": true,
+  "resultantQuadraticIdentityReturned": true,
+  "actualDeterminantTerms": 26,
+  "actualR1Terms": 6,
+  "actualR0Terms": 4,
+  "newParameterOrGeometryInverse": false,
+  "numericalSampling": false,
+  "noOriginalWeightFibreExcluded": true,
+  "noOldParameterGateReplayed": true,
+  "elapsedMilliseconds": 2,
+  "osExitCode": null,
+  "peakRSSKiB": null,
+  "executionEngine": "functions.exec V8 exact BigInt, no OS process",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "sourceSHA256": "15a87e9cbdb90944b2bddb050ed5070c0291f4e22b01d1a67ebf5b2c08a4e3bc",
+  "paperConsequences": {
+    "wholeH265EqualsProjectiveQuadraticCubicCommonRoot": true,
+    "projectiveRootGenericallyUniqueBySimpleResultantFactor": true,
+    "allAZeroR1ZeroInfinityAndRepeatedFibresRetained": true,
+    "finiteOriginalGramValuesNotSetEqualToHeadDirection": true,
+    "anyOriginalWWeightFibreExcluded": false,
+    "wholeWExcluded": false
+  }
+}
