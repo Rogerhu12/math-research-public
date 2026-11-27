@@ -336,3 +336,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 原connected全有限字与实际p-new物理门
 
 [完整证明](2026-11-27-original-connected-words-and-full-p-character-return.md)。原35a逐Weyl半相位给严格加法；全部非零deep core排唯一平移character，有限Fourier准确返回φ(uY Y)ν。原六输入共同Tate基与inverse-Gram对消锁uY=uK。对全部θ（含1），Yunit返回β^−n/d_n·θ(ε/2)·D_Kκ^−n,*[1_Y×,K×θ(Y/K)μ_−ε]；θ(λ²n)与原q°相消。全字符门准确K−εY/2∈p^n，固定g0^-ε回原K深，两个β因子相消，完整返回就是(g_n^-ε)_*ν|Yunit。全部5/p新字、负深度及原K/Y分母保留；不由此赋新canonical零或对无限log尾作点投影。
+
+
+### 原未平方toric全生成源与绝对负号
+
+[完整证明](2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)。原双torus未平方seesaw保全characters、γ=diag34与两极化的真实坐标图、3处δ norm lift及原chirped Gaussian。六步相位准确为负，故ε_k=−(−1)^((k−5)/6)；全toric生成函数G_j=B_jt⁴D_j(δZ/t)/(408δ)，为原degree3同源拉回的degree102截面。原残余向量a_j hbar_j=−[L:H]B_jKbar_j(0)绝对负号已定。使用真正Ctor=34cσ(δ/t)^(p+1)，全Newton逐项给Jtor=−B_jJ/(306δ)、Ktor同；与102cσ,A之差的完整指数修正仍保。没有从该theta源恒等式直接宣布原AJ、EU或rank2 canonical类相等。

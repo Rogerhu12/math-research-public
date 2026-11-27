@@ -8,16 +8,15 @@
 
 root独占git/H/open/log/index；每条结论即推。非快进立即实际pull --rebase、检查README差异、重比新父后再推到成功，不force。令牌只命令行/进程，不写文件/提交/API。数学执行只在公开Actions，4CPU/16GB/6h；根规则15禁止存可重算结果/日志/矩阵缓存，必要输入证书和脚本/参数/run/hash照原规。H<10KB、每MD<100KB、topic<200MB。
 
-本次整理前[完整交接](notes/2026-11-27-handoff-before-type4-common-phase.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
+本次整理前[完整交接](notes/2026-11-27-handoff-before-unsquared-toric-source.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
 
 ## 实际同步与规则
 
-- 两库只读CI实际部分clone/pull --rebase于18:27成功，run46049621033/job140677403005。公开18:27:39UTC至8536d64feb45d1a89efe59fec0d0ce041948f7d3，较b19a809e5cf0c7e23d53ee1035c255a34a8f7f8e两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库18:27:46UTC至21a08c7e7afebbf42ff90abdf0038ca973679e3b，较de262010a14c6d6b08c4162462b91dcfb8129e91两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本行已亲读为本会话进行中；认领提交41fe885610073f478b2f5a752461ca56cfd43f09。既有MR_TOKEN仅进程私库只读，私文不入公开log。
-- 本地07:20失联，18:27两库pull重试仍无执行环境；末次本地公开pull07:12的1cf10ac。CI实际pull与本地/API分记。**下一轮两库实际pull不迟于19:27UTC**；至少每小时一次，每次读两README的新差异并立刻执行、记实际SHA。API发布每次检查最新main的README/topic变更，不冒作git pull。
-- 本轮rule15 inventory为3093blob/43,407,057B，无>5MB；三旧gzip输入证书同前。完整同步log仅记14854B/SHAfe878bc35fdf9378d640111f14b994cbd3eb5da4c2af377dede311d1051a9046，不存可重算日志。此前17:38实际回执仍在log及先前H归档。
-
-18:50发布GraphQL错误后main已移动；立即本地pull重试仍无环境，重比新父后已推成功64d8a2d。现追加两库实际只读pull请求，待实际回执后更新上面的已读head，不把请求视作pull成功。
+- 最新两库实际部分clone/pull --rebase：只读CI run46052404921/job140686693883，公开18:50:32UTC至7ed56a67bd6f914757323c81c83989f356967af2，较8536d64feb45d1a89efe59fec0d0ce041948f7d3两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库18:50:40UTC至a1ebea946d9dd3538cea32ad18d12597c4dbb75f，较21a08c7e7afebbf42ff90abdf0038ca973679e3b两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本行保持本会话进行中；认领提交41fe885610073f478b2f5a752461ca56cfd43f09。既有MR_TOKEN仅进程私库只读，私文不入公开log。
+- 本地07:20失联，18:50两库实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI实际pull、本地及API分记。**下一轮两库实际pull不迟于19:50UTC**；至少每小时一次，每次读两README新差异并即执行、记SHA。API每次检查最新main规则/topic差异，不冒作git pull。
+- 64d8a2d发布前首轮ref为GraphQL UNKNOWN错误、main移动；立即本地pull尝试后重比新父并第二轮推成功，本轮CI又实际补拉两库。此前18:27/17:38回执完整留log/归档。
+- 最新rule15 inventory3095blob/43,449,325B、无>5MB，三旧gzip输入证书同前。完整同步log仅记14887B/SHA339cd53f69464c31ff22d7ac72831a652e9c16f648cf6f8fe108ce1c2de47776，不存可重算日志。
 
 ## 唯一原完整厚几何执行
 
@@ -27,20 +26,11 @@ v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-fi
 
 ## 当前原惰性最高类与同源负二链
 
-R1049（当前约93KB）保原54图/full9/η/Cor/degree34，p惰性且几何识别保p>q0（R1014界未知）。proper AJ=p/(p+1)I；新增NS指数1,p、全Chern/Miller/PD同伦、FL整参数h=x+puy及logBK=p h/(p+1)已付。实际up模p=−cQ，除p全行给h=a_j⁻¹I，外系数与内部半线性不可混。
+R1049（约93KB）保原54图/full9/η/Cor/degree34，几何使用仍须p>q0（R1014界未知）。原新增NS指数1,p、全部Chern/Miller/PD同伦和FL已付：proper AJ=pI/(p+1)，h=x+puy=a_j⁻¹I，logBK=p h/(p+1)，upbar=−cQ。§12全图置换/η/Cor/三DFT给hbar=−3δαa_j⁻¹[L:H]Tg，原g=θ(ψ27^(p−1))(τ/3)完整width3/所有p倍系数已付。§13全部3相位、2/17权倍率、p球Euler、无穷平移及阶乘给Tg²=U_jp((p−1)!d_j,p−1)²，固定坏集外U单位；不从复非零猜模p单位。
 
-§12严格图置换把全η/Cor折为[L:H]，三DFT重数保；XPp(X³)=3δ·θ(ψ27^(p−1))(τ/3)模p，故hbar=−3δαa_j⁻¹[L:H]Tg_jp。§13原全部toric平方/3相位/2与17权倍率/p球Euler/无穷平移/阶乘齐付：
-(Tg_jp)²=U_jp((p−1)!d_j,p−1)²，
-U=2ω3^(p+1)34²c_jγ_jρ^(2p−1)，ρ=εperiod⁻¹2⁻¹/³。
-原d首p行整，固定坏集外U单位。
+§14原两仿射Cech/R887全二挠主部给α0bar=(pcσ)⁻¹；I27两微分与半线性给αAbar=2^((p+1)/3)/(pcσ)。[同D1负二Newton](notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)保完整尾ceil((h(p−1)+6)/(2p))、K=J/(pv)、Kmodp=d_j,p−1/(34pcσ)及全整数权m!/(k−1)!。D17严格K17=K1/17。原残余平方hbar²=C_j a_j⁻²[L:H]²Kbar(0)²，C_j=−972ω34⁴εperiod⁻³c_jγ_j；全部变p常数已消。细节和所有坏集完整留原文/归档。
 
-§14用R887的同r=x²/y、Fp=Z+ρp r^p全覆盖定标α0bar=−ρp=(pcσ)⁻¹；I27两倍率及半线性给αAbar=2^((p+1)/3)/(pcσ)。[负二Newton证明](notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)构造同D_j,1的J和K=J/(pv)，完整尾界ceil((h(p−1)+6)/(2p))；K模p恒等d_j,p−1/(34pcσ)，单位端点等价整个K为Tate单位。全正整数权保m!与(k−1)!，D17严格K17=K1/17。残余平方是
-hbar²=C_j a_j,p⁻²[L:H]²K(0)bar²，
-C_j=−972ω34⁴εperiod⁻³c_jγ_j固定非零。
-
-[共同相位证明](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)再用固定weight5原54值B_j=(17δ/9)T_j,5，给B_j²=C_j。严格几何置换把T/B送入原E；H与E在3处分歧不同、H∩E=K，故未混两个ζ9。特征零系数三循环迫共同ε_k，而非逐j任选根；所有惰性p（包括8mod9）都有同号
-a_j hbar_j=s_p[L:H]B_j Kbar_j(0)，s_p=−ε_p(3/p)。
-原Artin基不改；任意三项线性组合保B_j/a_j。尚未证明ε_k沿p进权连续、全精度类相等、跨p非零或canonical坏迫该行零。
+[固定weight5共同基](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)给B_j=(17δ/9)T_j,5、B_j²=C_j，严格Artin线/H∩E=K及三标签共轭均付。[未平方全源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)进一步保两torus完整角色、γ=diag34真实坐标/两极化、3处δ lift和chirped Gaussian，锁ε_k=−(−1)^((k−5)/6)。整个生成函数为G_j(Z)=B_j t⁴D_j(δZ/t)/(408δ)，t=2^(1/3)，是原A→E0 degree3同源的degree102截面；原残余向量遂准确a_j hbar_j=−[L:H]B_jKbar_j(0)，不逐j选根。实际completion Ctor=34cσ(δ/t)^(p+1)，逐系数全精度Jtor=−B_jJ/(306δ)、Ktor同；不能用102cσ,A免费替换Ctor，必须保全指数修正。此为同源theta源等式，原AJ/椭圆单位/真正rank2 canonical全精度接合仍须付。
 
 原全局34δ/18/30椭圆单位沿新BKNKO G.25/G.29在真实HT(2,−1)给整signed直和；augmentation Hf是M+，完整偶导子root−/Kato付原单位在M+。[全精度交叉式](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)已由同一Tsuji mixed互反及T(v)=Q^v−1付：c_j属原η_j线，A_j(c_l/a_l)K_l²=A_l(c_j/a_j)K_j²。若一K为单位，A_j=F_p(c_j/a_j)K_j²；F_p非零解析但F_p(0)仍可能零，真实hEU=u_pF_p(0)(c_j/a_j)K_j(0)²。共同mixed period/augmentation阶继续，不得套椭圆T_E或冒原图类相等。原[p²全norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付depleted端点0、raw AJ norm/p²回原I及h，不能省回返p+1路径或套primitive角色端点。
 
