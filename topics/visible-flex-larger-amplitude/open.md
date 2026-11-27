@@ -107,7 +107,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 17 current b0468/accepted2/g2.0460148700803895；18 current7d0d/accepted1/g2.0476206814786773，均真实restoration接受且有限违反仍正。17/18新的trial开始不代接受；精确各model/point/source/Phi/Gram/全部观察和18前三失败保[17全事实](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18完整续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。
 
-[19完整续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)为b/S1/2、δ1/32；真两input0，model0abfbf/current7e06/accepted0。初Phi3825.0583894874153/Gram.6460503011117507，reach+.9684249942095058/distplus+.005863061771032241、余四负。首trial d761b5统计已返Phi3825.0583176123996/Gram.6460503022350718，trial几何/接受未知；初g不能填trial。
+[19完整续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)为b/S1/2、δ1/32；真两input0，model0abfbf，初Phi3825.0583894874153/Gram.6460503011117507，reach+.9684249942095058/distplus+.005863061771032241、余四负。首restoration d761b5真实接受，current该点/accepted1，Phi3825.0583176123996/Gram.6460503022350718；真reach+.9679630392005261/distplus+.005863064535577611、余四负，六值与原观察保全note，reportfalse。
 
 [20完整续求](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复阻尼.01→.001，metric.01和全部137角色/18源、157/7argv、458/445formal/48live与原预算保。官方46079535427/1，两input真0；actual科学c592e434/f600/PID3277/model0abfbf/current7e06。23:13:27.016759初完整有限几何返，Phi/Gram/六g逐项等于19初；accepted0/reportfalse，未知trial不补。两轮全science+pure超过95k，原pure仅科学自然返回后整接，不能裁参数挤入。
 

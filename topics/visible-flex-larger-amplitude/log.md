@@ -45,3 +45,7 @@
 刊[7件完整总表](computations/current-bhalf-complete-same-source-restart-delivery.json)与[全部说明](notes/2026-11-27-current-bhalf-complete-same-source-restart-parameters.md)。19/20原完整science/pure全部metadata按精确whole父保；当前10fa/f600/8027/b8af、全137/18源/原120pairs/全部数值参数和预算不改。只原调用模式157词中的21独立模式词完整记录并替换，136共同词原序保、添4原restart词=140；fullpure7/445、science458与48live完整不缩。真正complete同源report+同SHA全13final、同runner原完整输入源与typed/history路径才有父对象；accepted-only/progress/packet不是父。父未知peer通过原memory全对象继承，未来各point/final/父末阻尼null。19 CLI.01/.01与20.01/.001仍新初始化，不冒自动继承父适应阻尼；新完整预算/重读baseline不等于完成。Node仅可选完整JSON再生器未执行，已作V8文本构造，无科学/AST/fixture或新门，未排队。
 
 完整7件共320723B；双README云核至`93b9db6ef94c29d66409ecd264ebe44d9ef3fa35`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-27 23:26:23 UTC — 19首restoration实际接受
+
+23:17:39.437630的current-geometry-returned观察已显示current/trial/previous d761b5完整点同，trialaccepted真、accepted1、完整有限geometry真。reach+.9679630392005261下降，distplus+.005863064535577611略升，余四负；Phi3825.0583176123996/Gram.6460503022350718，Phi降而Gram略升，不冒metric成功。actual36304a0d/f600/PID3240/model0abfbf，所有六g、全部原active对象与完整小文件身份保[19全note](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。alpha/K/D/空间位置未投影仍未知，reportfalse，继续真正原科学。双README云核至`e833c75f25dfa151294b93e3c802a9cb43762fcd`无变（非pull）。
