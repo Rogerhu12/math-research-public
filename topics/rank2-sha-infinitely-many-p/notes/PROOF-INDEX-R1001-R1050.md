@@ -392,3 +392,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 新ψ4同十七向量的绝对幅度（2026-11-27）
 
 [完整证明§10](2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)。同一R290十七向量9√17Π12e0下，原半周期真Weyl与代数Pauli严格U−1=iT，故s_old=−sS/[21(1+√3)]；完整两个三挠Gaussian词及147/∛2首给s_new=−7sS/[∛2(1+√3)]。完整Yang有限范数、S1={2,17}、c(0)=17/27和体积6均保，Cnew snew²/(CS sS²)=49/(4·2^(2/3))。δ^-n仍另留在实际Hermite变量，不以此固定幅度代几何augmentation或原J′非零。
+
+
+### 新ψ4实际sign模曲面与全层图的proper公式（2026-11-27）
+
+[完整证明](2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)。实际sign曲面C:s⁶=t(1−27t)、V²=1−108s⁶的g2/χ2/NS24/t2六维全付；两个∞点正规性给Ω4=dt/s⁵∧ω。完整Whittaker逐系数与width1 cusp锁fΩ4=−δf4(τ/6)，严格有限Chow M4/esign/e3及P±保最高type3新λk。真实g=P、列基((1+ω)u9,(1−ω)u9)、degree17的+34分量给d9=τ0⁻¹；全18核逐图重标，先Qτ与eA−、保Ω1伙伴取得C3不变，再完整六项sign得½两取向差。全部图先同调零，新的proper fp重付F|M4=p²、F|A=−p和杯积注入，准确AJ(Yk)(Ω4ωA)=p/(p+1) Inew，Inew保1/12及全部η/Cor/18核/两取向。无旧NS/q0或混合Selmer消失假设；实际新权族cross与同一canonical斜率非零仍待。

@@ -184,3 +184,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 
 
 新[ψ4来源§10](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)已把同f17的正负raw绝对幅度与Yang范数比锁死，完整δ^-n仍保；不再把这些固定常数留作自由规范。新几何的真实full9基/共轭分量、完整full2取向差及fp/cross仍在逐项核对，随后才接原canonical一阶非零。
+
+
+### 新 canonical 来源的真实几何与 proper fp 已闭
+
+[新sign曲面及图](notes/2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)已给C:s⁶=t(1−27t)和完整fΩ4=−δf4(τ/6)、严格Chow最高投影、正确新P列基与+34分量。全18核先重标、Qτ先于sign，完整六项准确½两个取向；实际AJ=pInew/(p+1)，不再缺新fulllevel来源或proper注入。继续在这些同一图上支付fixed-base p²权族cross，将Rcan=−3qδ^-vK−JS的斜率与指定几何读数相认，再证无穷p非零。来源中的n4复锚、两个rank0参考、K−首4=1均不替augmentation非零。

@@ -280,3 +280,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 20:59 UTC：消费central raw附节blobc80a7a2328b5ae7bd8e66ff197f852e1ab95fbae，追加原ψ4完整来源§10。root手核实际半周期cT²=1/√3、U=iT、v±两列系数、s_old、新三挠两词的z4首及s_new；亲读R290§§4–7(25)–(38)核同9√17Π12e0、完整范数与S1/体积常数，得到Cnew snew²/(CS sS²)=49/(4·2^(2/3))。合并note 24519B/SHA256 57cb18cc7b75a1dc4e4ed661e71f0dea1553e2e35726c05839a1f15619eccb75，无数学执行或来源重跑。几何稿正在独核新P而非旧Ph、full9行列与2sign实际图词；未将未审稿推送或把固定raw当augmentation单位。两库actual pull20:45/下一≤21:45，重型v12继续。
+
+
+- 2026-11-27 21:10:13 UTC：消费geometry blob6d12c5243b99d1452fb039d267612c88b9fb2ab8和arith最终02c3b3d1582922a262e49b3df8b8a237dcb0213b。root逐段手核新C2纤维积/两个∞符号、g2/NS24维数、全Whittaker有限支撑与width1 cusp、有限Chow幂等/转置、full2盖映射与Qτ先于sign、正确P列基/+34、全18图和proper卷积p/(p+1)；修正文中显示数学分隔符，不改推导。新note 30337B/SHA256 a0ba222d223d1c7ecf1d51697f94195c88d55a8372ad9d595579a111bc680a5b；无数学运行、无引用旧混合Selmer消失或未知q0。H整理前9463B逐字存2026-11-27-handoff-before-psi4-sign-surface.md，全部旧门/回执沿链保留。下一同一新权族cross与真正canonical斜率非零，主目标继续；实际两库pull20:45/下一≤21:45，唯一v12保持。
