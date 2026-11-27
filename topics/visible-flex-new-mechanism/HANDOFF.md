@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **c659c742aa4983916aadf5e45a521ee97e84ee20**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **291adcd2b2f4de1dac4c7118dbce69b471dc5813**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git/四索引，每结论即推；科学仅公开Actions，本地仅纸证/源码/原日志解析。根12不重旧门；根15不存raw/可重算表，必要再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -45,7 +45,7 @@
 
 [来源a=.9原终态](notes/2026-11-27-r625-homothetic-a09-original-terminal.md)run45920225192/job140248913335/sourceb37538ad；236.64369406秒/18接受/19J/38全谱，原state12de7ed…及LD锚/unit齐。577点h近3而所有65节点低于2.9999895，节点间高度缺口已核，不把114 generic拒绝全归h。
 
-[已审h活动行范围](notes/2026-11-27-r625-actual-interior-height-active-scope.md)保全L三次链，固定L才加实际阻挡点；正交N保全行/原惩罚与已知末增量。71绑定/12账、旧solve直接消费，trust明确.25重启；新accept令fine pending。run45925875384/job140266919674/sourcead3953a3已自然结束，原37.991045794秒/2接受终态待根核。ODE仍1.11347e13、fine ruling约3.57992e13/真末.30973，未根。
+[已审h活动行范围](notes/2026-11-27-r625-actual-interior-height-active-scope.md)保全L三次链，固定L才加实际阻挡点；正交N保全行/原惩罚与已知末增量。71绑定/12账、旧solve直接消费，trust明确.25重启；新accept令fine pending。[唯一原终态](notes/2026-11-27-r625-actual-interior-height-original-terminal.md)run45925875384/job140266919674/sourcead3953a3已02:02:37 UTC自然结束，根独核原stdout/FINAL/state；新37.991045793999994秒/2接受/13无方向。state750b3118…，3J/6全谱factor/44λ解；fine1153 ruling3.5799243916e13/真末.3097307126，未根。
 
 原失败链显示首次负r·Jd方向因整步二次预测过冲被过滤，未触发L后重解；先审α*=−r·Jd/||Jd||²在原trust内的截步，再原L/h。较大λ真非下降与行权/原merit不同的问题并存，不声称抬λ必救；原Armijo及全部真实非线性门不变。眼前不增其他物理lane，已付fine不重放。
 

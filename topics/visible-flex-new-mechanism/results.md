@@ -439,3 +439,8 @@
 ### R582：真实95de到原pending357的必要后继
 
 [已审范围](notes/2026-11-27-r582-physical-pending357-resume-implementation.md)只接原唯一FINAL，保原356+1和全部16240旧fine；新增两个中点须新网资格，raw5a723不继承独立half的接受。原科学算法/common/完整费用不变，45来源绑定；未达p阶段门，不授固定g或宏观完成。
+
+
+### R625：真实内部高度约束有效，末原下降方向被整步过冲过滤
+
+[唯一原终态](notes/2026-11-27-r625-actual-interior-height-original-terminal.md)新37.991045793999994秒/2接受，第一真实h573约束使完整原norm显著下降；末state750b3118仍未解ODE/真实ruling/真末。后续两原负内积方向因整步预测而未触发固定L解，较大λ又真非下降；分清已付实际证据，不授任意λ或约束必可解。全3J/6factor/44解及fine/旧费用保留。

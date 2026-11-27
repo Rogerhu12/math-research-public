@@ -100,6 +100,8 @@ native已实际产生5次同冻结λ Powell更新（全阻尼），3skip/1phase�
 
 [已审实际h活动行范围](notes/2026-11-27-r625-actual-interior-height-active-scope.md)已落到三份新源：完整L三次链先作原577点充分分数，真实阻挡才固定L并逐点加入Cδ=0；原已知末十增量进入仿射右端。完整正交零空间保持全部原ODE行和原Euclidean惩罚；每新态/λ先free可释放，数值依赖只使整factor失败，不删约束。71绑定/18CLI/12账，原solve直接别名消费，trust .25明确新算法重启、damping继承。原同态fine复用，新接受置pending；原所有非线性门和129条件网格保持，不授连续h证书。
 
+[h活动行唯一原终态](notes/2026-11-27-r625-actual-interior-height-original-terminal.md)run45925875384/job140266919674/sourcead3953a3，新37.991045793999994秒、2接受/13无方向/0新真盒拒绝。真实state750b3118…保原19×65/10参数/锚；首固定L+h573方向使原norm2.3859e14降至2.74019e13，末fine1153 ruling3.5799243916e13/真末.3097307126仍未过门。3J/6factor/44λ解/3真history及所有partial和12旧账保留。末首次失败λ.07402737/.7402737虽r·Jd<0，整步预测过冲使L活跃入口不触发；后段较大λ真非下降分别保留。修完整原Jd射线步长后再原L/h限制，原Armijo不改；不得把增加λ写成下降保证或重放已付fine。
+
 [R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心真M首层局部流；C1/C2全程常数，局部正则不授返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已证具体全盒/动能余量/唯一首层端常数支。[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M完整因式给两条准确平方二阶末门及必要负符号；增量乘cos²u保中心j、准确消尾增量二阶，最高43/速度245/54。该新D/q已按新函数实际支付并保原收据，不能借旧R624 q，也不再重跑作新入口。整个参数区间尾模板T<−2131/4800，仍不解两条平方等式、真A末、沿途首层或finiteε ruling。新helper只复用准确矩与成本壳，旧D/q不执行；已接正式原十九态BVP。
 
 [R626](results/R626-terminal-positive-quadrics-and-complete-intersection.md)已将R625完整两尾平方式化为两严格正定二次型，给单侧唯一正强度阈值；双方交准确化为≤4次多项式加半角漏点，空/点/重合/相切全保。系数仅用原≤10次真实矩，无新profile积分。[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)再证原尾盒差二次项严格不定、负半平面域非空且强度函数proper；每个真实分支像为闭射线，联合末支存在 iff τ≥τ_joint>0，严格以上2至4点。仍仅满足真实A末/双速度等前提的末点定理，当前未返回态不套用。可据真实待匹配末数据选择末jets，但不能把未返回候选当严格实例或加独立加速度替原反馈。
