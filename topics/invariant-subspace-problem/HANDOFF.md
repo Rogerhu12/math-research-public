@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** d4200865f48378f455a85397684a46debeadcdb4（2026-11-27 14:16:32 UTC，Actions run46014402122实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46014402122-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 14:16:32 UTC/a9c7ba96e5d1752a71cd9f0013746b73924dc553，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `d4200865f48378f455a85397684a46debeadcdb4`（2026-11-27 14:16:10 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `1a49e74813802606fd0092f52c0381c36ada5d0a`（2026-11-27 14:25:01 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-rho-discriminant-curve-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-entire-JQ-collision-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k整个等权与整个T0零面全闭，可付u−ell、T0；Delta0 h1/k1≤6219保留。** 031d真0.222秒/41044KiB/exit0，互补Delta非0未缩放八原式，固定4阶QQ投影71/67去已付因子得28/12、真Bézout1；合402d已闭Delta0，无旧D图借用。根新f7c6首返J=Q/Delta0完整lambda二次域，原NV迫u=(58−70lambda)/19，保自由f/八原式，120秒1GiB；新57a互补J=Q/Delta非0两参数八式与固定QQ投影并行，180秒4GiB，未宣整面闭。
+- **h=k整个等权、T0零、J=Q全闭，余图可付u−ell/T0/(J−Q)/Pf；Delta0 h1/k1≤6219保留。** 新f7c6真0.088秒/34568KiB/exit0，全lambda二次域原NV给u=(58−70lambda)/19，保自由f/八式，E1/EBe真单位；57a真0.350秒/41064KiB/exit0，互补Delta非0八原式固定4/3阶QQ结式102/58剥原单位得60/33、Bézout1。两图合闭整J=Q，无旧D图借用。整个h=k与其余原第五列仍开。
 - **旧D≠0值图Phi0∩zn0全闭；不传h=k。** rho头零主支8fd真必要C(d,lambda)174/55、偶降87/55保留。判别式零完整仅(b,c)=(1,1/2)及交换，738真6.255秒/50448KiB/exit0给必要(rho,lambda)31/52，均未排空。新78f改四原mean/N1的T闭包，目标(D·Sn·Z)^6，120秒1GiB；不重算旧NB六选行，大投影冻结。
 
 ### rankH3原ess6
