@@ -335,3 +335,80 @@ At the actual readback of2026-11-27 20:59 UTC, the full stage1–5 volume was525
 ```
 
 The same original complete5d25 reader is now queued against step5's exact status/source/log 0005-ec12dc9c2181.log. The full new readback plan is16668 bytes /f4b733b9edcbc3017d313d924ba70cfe1c612ecb3df274cf1610c957bb83e3af; the full active queue is4599 bytes /d93bb3544173cf393d83aa7aacbeb3a267689f9b70461e32acccec253e7662c1. The previous entire65281-byte scientific queue is retained atbf863c8796a36e99c175117688e692fd5009a89e and retired only after its actual natural failure. Both original successful inputs remain. No pure reader, numerical test, reduced problem, source gate or repeated input construction is inserted. The real new exception will determine the next exact repair.
+
+## 8. Second inner exception actually read: static function versus bound method
+
+The actual original-reader step6 returned0 from source3a08804a3f52e29a4b98dd0bdb993592000c631a. Its complete output is11678 bytes /748ee03d35d89df6cda26e52f6e36799ace8a8981c42157b50642f5f55f1aacd. The full new stage volume is17115 bytes /aec4338b8396ead6a9797d5abda7f5a709598895fafb67b28ea264d10055cc40/Git blob205edb648e24bf8e4eab710282046e3040a774ee. The original7163-byte log was read wholly frombyte0, SHA83e390680916537cc46ad466c734bf1075fcdb23a2491c3ac5107ea4fc4c86b5; both traceback bodies are uncut, only the outer last-line summary is explicitly clipped.
+
+The complete original inner exception is:
+
+```text
+Traceback (most recent call last):
+  File "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py", line 1130, in <module>
+    main()
+  File "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py", line 544, in main
+    q = endpoint.ZeroClosureOperator(base, expected_base_source_sha256=SOURCE_PINS['meridian'][1],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py", line 494, in __init__
+    self.detached_meridian_values = meridian_value_module.DetachedMeridianValues(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py", line 204, in __init__
+    function=getattr(q.base,name).__func__
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '__func__'. Did you mean: '__doc__'?
+
+```
+
+This actual path reached the new meridian cache constructor after the earlier frame guard. The helper assumed every selected base callable had the bound-method attribute __func__; the actual selected callable was a function without it. The next repair will distinguish the actual Python callable representations while retaining every full code filename/module/whole-source identity check and all numerical code. It will not remove a scientific guard, replace a static method with a differently attributed function or infer a numerical root failure.
+
+All source/point/model/working values remain unreturned. The first and second failed source versions, their exact commands and independent output namespaces stay preserved. The original successful inputs remain in the same runner, and the complete original science parameters and budgets will continue after this concrete implementation fix. The complete readback object follows; its zero F/J/root count belongs only to this diagnostic reader.
+
+```json
+{
+  "schema": "actual-public-followup-first-and-last-failure-tracebacks-v1",
+  "source_sha256": "5d25f3936fee3ae40966718ec39af16ff19ae4513fe36758af907f21baf78360",
+  "derived_from_source_sha256": "ef017af52fd8b9801434b3af655f9fccb7d7a51e9bf0abb3ff5e85496659e338",
+  "status_sha256": "47bc980900460f7a71f4b462bfe57d9131342d7fc2c1af790e2eab09517b8196",
+  "status_sha256_scope": "exact captured status bytes, not a later mutable status version",
+  "step_id": "complete-fixed-fejer-meridian-batched-method-bound-20261127",
+  "actual_source_sha256": "fda0da129cc1a3eaa36dac6192a1ca5c432eb77daea0312da3de9deafe057f45",
+  "actual_source_commit": "5a8dcd127ecb1120418b258f43fad7ada5080560",
+  "actual_returncode": 1,
+  "actual_recorded_seconds": 8.185087835999639,
+  "actual_log_path": "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/followup-logs/0005-ec12dc9c2181.log",
+  "actual_log_sha256": "83e390680916537cc46ad466c734bf1075fcdb23a2491c3ac5107ea4fc4c86b5",
+  "actual_log_bytes": 7163,
+  "log_unchanged_during_read": true,
+  "tail_start_byte": 0,
+  "tail_bytes_read": 7163,
+  "maximum_tail_bytes": 64000,
+  "captured_tail_contains_entire_log": true,
+  "captured_tail_sha256": "83e390680916537cc46ad466c734bf1075fcdb23a2491c3ac5107ea4fc4c86b5",
+  "traceback_markers_in_captured_tail": 2,
+  "first_traceback_found": true,
+  "first_traceback_start_byte": 0,
+  "first_traceback_is_first_in_entire_log": true,
+  "first_traceback_excerpt": "Traceback (most recent call last):\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py\", line 1130, in <module>\n    main()\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py\", line 544, in main\n    q = endpoint.ZeroClosureOperator(base, expected_base_source_sha256=SOURCE_PINS['meridian'][1],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py\", line 494, in __init__\n    self.detached_meridian_values = meridian_value_module.DetachedMeridianValues(\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py\", line 204, in __init__\n    function=getattr(q.base,name).__func__\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'function' object has no attribute '__func__'. Did you mean: '__doc__'?\n",
+  "first_traceback_excerpt_clipped": false,
+  "first_traceback_final_nonempty_line": "AttributeError: 'function' object has no attribute '__func__'. Did you mean: '__doc__'?",
+  "first_traceback_final_line_clipped": false,
+  "last_traceback_found": true,
+  "last_traceback_start_byte": 1576,
+  "last_traceback_excerpt": "Traceback (most recent call last):\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_meridian_batched_actions.py\", line 343, in <module>\n    main()\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_meridian_batched_actions.py\", line 339, in main\n    subprocess.run(command, env=env, cwd=args.repo, check=True)\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.14/x64/bin/python', '-u', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py', '--repo', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb', '--reference-bundle', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/reference.npz', '--preparation-report', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/report.json', '--carrier', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/observations.npz', '--node-report', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json', '--scalar-input', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json', '--outdir', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-meridian-batched-method-bound', '--manifest', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/locations.json', '--material-envelope-binding', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json', '--independent-envelope-branch', '--pending-parallel-envelope-run', '45909290354/1', '--pending-parallel-envelope-run', '45929088658/1', '--pending-parallel-envelope-run', '45943410994/1', '--pending-parallel-envelope-run', '45972294636/1', '--pending-parallel-envelope-run', '46011377225/1', '--pending-parallel-envelope-source', '45909290354/1=cc0a07369a2d9ea5e22d261441420acb4e486a8c0d43f29f57e03378e82627b5', '--pending-parallel-envelope-source', '45929088658/1=95559b0cd44e3bf521b01ca8fe35b515bf7aad5dc4dc6b008ab0d015b9211da9', '--pending-parallel-envelope-source', '45943410994/1=ff5444af4c31869a1a4d7b87cb4912f2d025b8da5ee90922924c3542ff6f0dd5', '--pending-parallel-envelope-source', '45972294636/1=c3dc77f40445eaf30ab743311dd97ea7d62a41be80db504fc778eccffa30e5d1', '--pending-parallel-envelope-source', '46011377225/1=477499b17141d8ae22558156e8b85a4c01b7a40ff07b6b46f5827e20d11b9ccd', '--envelope-near-active-rows', '32', '--angles', '2048', '--stage-block', '64', '--angle-block', '8', '--integration-order', '8', '--inverse-root-iterations', '18', '--inverse-root-tolerance', '2e-12', '--norm-kind', 'jet-sum', '--radial-norm-length', '0.05', '--angular-transition', '24.0', '--torch-threads', '4', '--damping', '0.01', '--directions', '1', '--maxiter', '16', '--restoration-directions', '4', '--restoration-damping', '0.01', '--restoration-maxiter', '64', '--line-trials', '15', '--qp-atol', '0.0', '--qp-rtol', '1e-06', '--qp-feasibility-tolerance', '2e-11', '--qp-rank-tolerance', '2e-12', '--active-rows', '192', '--active-block-columns', '32768', '--active-band', '0.025', '--reach-ratio', '0.03', '--reach-safety-factor', '0.992', '--marked-diameter-budget', '4.2', '--witness-lower-budget', '0.9', '--amplitude-height-floor', '1.01', '--amplitude-top-radius', '2', '--amplitude-top-distance', '4', '--spectral-p', '4', '--spectral-epsilon', '0.001', '--spectral-scale', '0.05', '--legacy-fraction', '0.5', '--target', '1e-09', '--panels', '128', '--seed-boundary-total-length', '1/4', '--seed-profile-delta', '1/32', '--seed-radial-quadrature-order', '8', '--seed-profile-quadrature-order', '16', '--seed-mean-maxiter', '128', '--seed-mean-tolerance', '2e-12', '--seed-mean-backtracks', '24', '--seed-mean-armijo', '0.0001', '--seed-scalar-iterations', '64', '--endpoint-bubble-1-left', '1/32', '--endpoint-bubble-1-middle', '1/4', '--endpoint-bubble-1-right', '15/32', '--endpoint-bubble-2-left', '17/32', '--endpoint-bubble-2-middle', '3/4', '--endpoint-bubble-2-right', '31/32', '--endpoint-root-tolerance', '2e-12', '--endpoint-root-iterations', '24', '--endpoint-root-backtracks', '18', '--endpoint-root-armijo', '0.0001', '--endpoint-control-radius', '2.0', '--normal-stages', '32', '--gamma-left', '1/16', '--gamma-middle', '1/8', '--gamma-right', '3/16', '--moment-input', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json', '--moment-input-sha256', 'df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c', '--moment-definition-sha256', '05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e', '--moment-input-binding', 'supported-smooth-triangle-reference']' returned non-zero exit status 1.\n",
+  "last_traceback_excerpt_clipped": false,
+  "last_traceback_final_nonempty_line": "subprocess.CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.14/x64/bin/python', '-u', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py', '--repo', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb', '--reference-bundle', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/reference.npz', '--preparation-report', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/report.json', '--carrier', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/observations.npz', '--node-report', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json', '--scalar-input', '/ho\n[bounded diagnostic: middle characters omitted]\n-left', '1/32', '--endpoint-bubble-1-middle', '1/4', '--endpoint-bubble-1-right', '15/32', '--endpoint-bubble-2-left', '17/32', '--endpoint-bubble-2-middle', '3/4', '--endpoint-bubble-2-right', '31/32', '--endpoint-root-tolerance', '2e-12', '--endpoint-root-iterations', '24', '--endpoint-root-backtracks', '18', '--endpoint-root-armijo', '0.0001', '--endpoint-control-radius', '2.0', '--normal-stages', '32', '--gamma-left', '1/16', '--gamma-middle', '1/8', '--gamma-right', '3/16', '--moment-input', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0005-ec12dc9c2181-5a8dcd127ecb/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json', '--moment-input-sha256', 'df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c', '--moment-definition-sha256', '05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e', '--moment-input-binding', 'supported-smooth-triangle-reference']' returned non-zero exit status 1.",
+  "last_traceback_final_line_clipped": true,
+  "first_and_last_are_same_traceback": false,
+  "no_traceback_tail_excerpt": "",
+  "no_traceback_tail_excerpt_clipped": false,
+  "maximum_excerpt_characters": 7000,
+  "traceback_scope": "first and last markers in bounded original log tail; no missing prefix inferred",
+  "complete_log_published": false,
+  "scientific_arrays_read": false,
+  "scientific_reports_read": false,
+  "field_or_J_evaluations": 0,
+  "numerical_failure_cause_inferred": false,
+  "github_run_id": "46062343475",
+  "github_run_attempt": "1"
+}
+```
