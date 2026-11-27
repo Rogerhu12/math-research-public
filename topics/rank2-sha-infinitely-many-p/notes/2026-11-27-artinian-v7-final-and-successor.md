@@ -129,3 +129,11 @@ RESULT 8,315 B / SHA-256
 真实尾的时间为03:42:43.6590447UTC，标签`all original cusps:positive: base-prime 2: actual maximal ideal 2`。已提取Hermite144/306列；随后同尾记录第145列前的完整gcd pivot/whole Popov tail reset，剩余determinant degree1，未将它记作已经提取145列。原run/job/数学step4仍in_progress。
 
 这准确推进了§6的实际阶段记录，但没有四交、全厚Norm或18×9 shadow的终值，也不据日志缓存的末尾时间推断当前执行停顿。继续同一原作业，后续只读摘要无需重算数学或再次获取连接器大响应。
+
+## 9. 同一 v9 的真实第三快照：负向首基素块
+
+2026-11-27 04:27:13UTC，collector run45940009036/job140311911688/source9af127b37bbe87f2cb59418168c12fbe1dfad22f 实际success；源码和固定原run/job/source仍逐字不变。collector stdout13832B/SHA202012bf530d61da302840cecd64e8d0b9c7b5e7d4a566cece33f720106d8051，exit0，无输出文件持久化。
+
+原v9完整字节快照16,808,131B，SHA256 0ef65d77c81711e193b7bd91edf7bdfffb0610dc71e9e82a86184640258561f4。真实尾为04:26:47.7119125UTC，标签`all original cusps:negative: base-prime 0: whole local primary factor 3`；已提取Hermite78/306列，随后是下一列前的全gcd pivot/whole Popov tail reset，remaining determinant degree16。不能把该reset说成已经提取79列。
+
+原数学step4及run/job仍in_progress。此尾证明已到上述负向真实厚因子；它没有包含四交、全厚Norm或18×9 shadow的最终回执，也不以程序顺序猜未读取的最终验收。继续唯一v9，无数学重跑。
