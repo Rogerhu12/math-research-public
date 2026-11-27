@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-six-site-internal-half-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-H7-complement-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -233,8 +233,8 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 例外Phi旧ffbdc准确g4=c²、无jet或QQ幂改进保[失败note](notes/2026-11-28-unit211-Phi-zero-exceptional-partial-phi-repeated-factor-8542.md)；例外整图已由独立P6闭，不再续局部入口。
 
-[主rho头的完整八权覆盖](results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md)：c3a074真0.503922414秒/51576KiB/0，P6/P9真实特化后的固定15阶QQ结式685，只剥原单位/保整H7零得首一543；新固定35阶C6/C71模1363与543完整gcd一次，局部整Gauss保全部首项退化，付H7补图≤1、整H7≤7。八仅计v及(u,Q,ell)，不并有序BC和lambda/T/z；整H7不能用只付补图的C6/C9，下一先真实QQ识别余一次并返回其整原纤维，H7另接完整原条件。三个准确小输入已存，所有已成结式不重算。
+**[Phi主rho头H7补图全部闭合](results/R150-appendix-unit211-Phi-zero-main-rho-head-H7-complement-complete-exclusion.md)。** 已付真QQ gcd(R543,S)度≤1；d751三原lambda gcd=λ−1/2给S(−1/4)=0，R543真含v+1/4，故真gcd恰它；新D原身份闭整−1/4，直接关H7补图。主权只余完整H7七根，不计所有原值；4943仅未执行便利稿，不设冗余门。新39a391首次在QQ[v]/H7保316 b0-cover交因子，互补b非零图用保存L及全部原R/W/O/N1、新固定4阶T结式/全图C71/真实D目标。所有权非单位/头零保留，120秒/1GiB；严禁P6/P9进入H7零图。
 
 [Phi主图整个−1/4原权纤维已闭](results/R150-appendix-unit211-Phi-zero-main-minus-quarter-entire-original-fiber-exclusion.md)：d751准确QQ gcd先付lambda半，新b99785实际75ms BigInt在同(u,Q,ell,lambda)=(3/4,5/4,1/2,1/2)构造全部原二次；60×28秩27，三个显式一次原R/W/O乘子直接返8890621787500(1/4−T²)，违反原D非零。N1最终乘子0，目标是D而非原1，全部T/z保留；不借另一例外图同lambda半。此前未剥543/未做余Gauss的note保准确历史。H7补图合成随后另登记，整H7仍只用完整原条件。
 
-碰撞剩E的不同新输入首次：直接读已存E177/18、E182/19全部四片，作固定原u度18/19的37阶QQ结式；只在实际返回后剥已付lambda/A/B/S及整闭J2/G2/C4、取SF lambda覆盖。全部u首项退化保在固定行列式，180秒/4GiB，精确新参数分片输出；未先宣新覆盖或整碰撞空，不重跑旧Q投影。
+[碰撞E固定37阶u QQ首次超时](notes/2026-11-28-unit211-collision-E-fixed-u-first-timeout-8542.md)：ba42真180.068846732秒/104532KiB/−14，只加载两E并完整primitive输入乘回，0.048565597秒进入结式后无返回。没有R、因子剥除或新lambda覆盖，不把超时当数学零；冻结此门不抬限/换算法重跑。既成有限五坐标dim≤235170保持；改两E原u首项/无穷远主部和完整有限头纤维，仍须全部原条件。
