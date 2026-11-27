@@ -1,0 +1,828 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-general-T0-zero-whole-quartic-curve-original-D-return-8542.py",
+  "runs": [
+    {
+      "elapsed_seconds": 0.9150297730000005,
+      "max_child_rss_kib": 44668,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "f0b6f87b831f0a9a7cdaf696f2b33267d1e61ac0",
+          "before": "f0b6f87b831f0a9a7cdaf696f2b33267d1e61ac0",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T07:48:56.618454+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45961036288",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "f0b6f87b831f0a9a7cdaf696f2b33267d1e61ac0",
+      "source_exit_code": 0,
+      "source_git_blob": "d9ba132ca4a77cd63a6851f5139aa1343ccbee9e",
+      "source_sha256": "d843f639c07b2b24be559f76f0d6aafd24593b6ece4587ac872242d9112d9709",
+      "stdout_bytes": 11365,
+      "stdout_sha256": "3aafa5d84cf94c36a7cbed427db243966eccf1badbfbedfe85dd7af35f0d08f8",
+      "stop_reason": null
+    },
+    {
+      "elapsed_seconds": 1.1612969239999984,
+      "max_child_rss_kib": 44980,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "f0b6f87b831f0a9a7cdaf696f2b33267d1e61ac0",
+          "before": "f0b6f87b831f0a9a7cdaf696f2b33267d1e61ac0",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T07:49:12.217964+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45961037548",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "f0b6f87b831f0a9a7cdaf696f2b33267d1e61ac0",
+      "source_exit_code": 0,
+      "source_git_blob": "d9ba132ca4a77cd63a6851f5139aa1343ccbee9e",
+      "source_sha256": "d843f639c07b2b24be559f76f0d6aafd24593b6ece4587ac872242d9112d9709",
+      "stdout_bytes": 11338,
+      "stdout_sha256": "d8435d8a42da97b6821fc1dad2bffd74914f3b85030f676588eccb3802590ed5",
+      "stop_reason": null
+    }
+  ],
+  "accidental_duplicate_trigger": true,
+  "duplicate_not_counted_as_new_result": true,
+  "math": [
+    {
+      "stage": "new_general_T0_quartic_curve_same_original_Gram",
+      "originalE0N0P1Verified": true,
+      "weightedOriginalNPThroughHAHBVerified": true,
+      "originalDistinctValueRetained": true,
+      "wholeWeightChartExcluded": false,
+      "seconds": 0.09990510799999797
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_X_Gram_coordinates",
+      "name": "E1",
+      "degrees": [
+        6,
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terms": 46,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.10102446699999845
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_X_Gram_coordinates",
+      "name": "EBe",
+      "degrees": [
+        6,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 60,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.10197672900000043
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_X_Gram_coordinates",
+      "name": "EBo",
+      "degrees": [
+        7,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 69,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.10292836100000002
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_X_Gram_coordinates",
+      "name": "N1",
+      "degrees": [
+        7,
+        0,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 48,
+      "paidRemoved": [
+        [
+          "u",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.10376680399999927
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_X_Gram_coordinates",
+      "name": "weighted_N",
+      "degrees": [
+        16,
+        0,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 320,
+      "paidRemoved": [
+        [
+          "u",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.1074033159999992
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_X_Gram_coordinates",
+      "name": "weighted_P",
+      "degrees": [
+        16,
+        0,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 282,
+      "paidRemoved": [
+        [
+          "u",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.11064722599999754
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_paid_or_explicit_chart_four_original_rules",
+      "selectedColumns": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "quadraticHeadUnpaidFactorization": {
+        "content": "-3/20",
+        "factors": [],
+        "entireProductMultipliedBack": true
+      },
+      "chartGlobalAfterPreviouslyPaidUnits": true,
+      "all16InverseProductsOne": true,
+      "allFourOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.12248748200000037
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_cubic_overlap",
+      "index": 0,
+      "remainingMonomials": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        14,
+        0
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.1410774169999982
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_cubic_overlap",
+      "index": 1,
+      "remainingMonomials": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        18,
+        0
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.16372025200000095
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_cubic_overlap",
+      "index": 2,
+      "remainingMonomials": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        12,
+        0
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.17433937699999902
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_cubic_overlap",
+      "index": 3,
+      "remainingMonomials": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        20,
+        0
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.1945596700000003
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_six_original_monic_rules",
+      "selectedCubicRows": [
+        1,
+        2
+      ],
+      "explicitUnpaidChart": "none beyond already excluded whole branches and original units",
+      "allOriginalTraceAndLeadingProductsVerified": true,
+      "allLeadingZeroFibresRetained": true,
+      "freeModuleClaimed": false,
+      "claimExcluded": false,
+      "seconds": 0.20349371700000063
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_six_monomial_multiplication",
+      "axis": 0,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        16,
+        0
+      ],
+      "claimExcluded": false,
+      "seconds": 0.23144442199999915
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_six_monomial_multiplication",
+      "axis": 1,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        14,
+        0
+      ],
+      "claimExcluded": false,
+      "seconds": 0.24346607700000078
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_six_monomial_multiplication",
+      "axis": 2,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        14,
+        0
+      ],
+      "claimExcluded": false,
+      "seconds": 0.263434715999999
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_remaining_original_cubic_row",
+      "index": 0,
+      "allOriginalSixTraceProductsVerified": true,
+      "freeModuleNotAssumed": true,
+      "claimExcluded": false,
+      "seconds": 0.2702853439999977
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_remaining_original_cubic_row",
+      "index": 3,
+      "allOriginalSixTraceProductsVerified": true,
+      "freeModuleNotAssumed": true,
+      "claimExcluded": false,
+      "seconds": 0.2786812839999975
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_same_original_cubic_return",
+      "name": "NS",
+      "maxCoefficientNumeratorDegrees": [
+        19,
+        0
+      ],
+      "allOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.3207068179999979
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_same_original_cubic_return",
+      "name": "PS",
+      "maxCoefficientNumeratorDegrees": [
+        19,
+        0
+      ],
+      "allOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.3593672029999979
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_cleared_original_six_column_row",
+      "label": "remaining_cubic_0",
+      "degrees": [
+        9,
+        0
+      ],
+      "terms": 55,
+      "paidRemoved": [
+        [
+          "rational_parameter_2kminus5",
+          2
+        ]
+      ],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.36083718299999745
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_cleared_original_six_column_row",
+      "label": "remaining_cubic_3",
+      "degrees": [
+        10,
+        0
+      ],
+      "terms": 59,
+      "paidRemoved": [
+        [
+          "rational_parameter_k",
+          1
+        ],
+        [
+          "rational_parameter_2kminus5",
+          2
+        ],
+        [
+          "Q_minus_one",
+          1
+        ]
+      ],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.3625885089999983
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_cleared_original_six_column_row",
+      "label": "NS",
+      "degrees": [
+        21,
+        0
+      ],
+      "terms": 128,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.3655589940000006
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_cleared_original_six_column_row",
+      "label": "PS",
+      "degrees": [
+        21,
+        0
+      ],
+      "terms": 128,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.3683635830000007
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 0,
+      "degrees": [
+        15,
+        0
+      ],
+      "terms": 91,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.3746477810000002
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 1,
+      "degrees": [
+        13,
+        0
+      ],
+      "terms": 78,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.3798296939999979
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 2,
+      "degrees": [
+        13,
+        0
+      ],
+      "terms": 79,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.38597026899999776
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 0,
+      "degrees": [
+        17,
+        0
+      ],
+      "terms": 104,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.39247618599999967
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 1,
+      "degrees": [
+        15,
+        0
+      ],
+      "terms": 92,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.397820209999999
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 2,
+      "degrees": [
+        15,
+        0
+      ],
+      "terms": 91,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.4057144459999975
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_relation_rank",
+      "rank": 1,
+      "pivot": 0,
+      "label": "remaining_cubic_0",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 0.4085215479999995
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_relation_rank",
+      "rank": 2,
+      "pivot": 1,
+      "label": "remaining_cubic_3",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 0.4122603619999978
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_relation_rank",
+      "rank": 3,
+      "pivot": 2,
+      "label": "NS",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 0.41963348499999853
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_relation_rank",
+      "rank": 4,
+      "pivot": 3,
+      "label": "PS",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 0.4284012050000001
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_relation_rank",
+      "rank": 5,
+      "pivot": 5,
+      "label": "remaining_cubic_0*y",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 0.4417582210000006
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_relation_rank",
+      "rank": 6,
+      "pivot": 4,
+      "label": "NS*x",
+      "allOriginalTraceProductsVerified": true,
+      "pivotZeroFibresNotYetDiscarded": true,
+      "seconds": 0.6420409659999997
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_true_relation_module_closed",
+      "rank": 6,
+      "candidateRows": 46,
+      "all18CommutatorOriginalSourcesVerified": true,
+      "allTrueMultiplicationClosureSourcesVerified": true,
+      "seconds": 0.8283138779999994
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_complete_original_target_identity",
+      "target": "Dphysical_power_1",
+      "fullOriginalSixProductIdentityVerified": true,
+      "denominatorDegrees": [
+        20,
+        0
+      ],
+      "denominatorTotalDegree": 20,
+      "paidRemoved": [
+        [
+          "rational_parameter_k",
+          3
+        ],
+        [
+          "rational_parameter_2kminus5",
+          4
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "Q_minus_one",
+          2
+        ]
+      ],
+      "unpaidDenominator": {
+        "content": "1/3",
+        "factors": [
+          {
+            "degrees": [
+              4,
+              0
+            ],
+            "totalDegree": 4,
+            "terms": 5,
+            "multiplicity": 1,
+            "sha256": "a962198c42738cc427866dfed9d7c72d6cb26e82356680856d2e9fbac29748c0",
+            "coefficients_u_Q": [
+              [
+                4,
+                0,
+                "3"
+              ],
+              [
+                3,
+                0,
+                "80"
+              ],
+              [
+                2,
+                0,
+                "-1100"
+              ],
+              [
+                1,
+                0,
+                "5000"
+              ],
+              [
+                0,
+                0,
+                "-6875"
+              ]
+            ]
+          }
+        ],
+        "entireProductMultipliedBack": true
+      },
+      "denominatorZeroFibresRetained": true,
+      "sourceIdentitySHA256": "55758b1d7060b65702d4150a065aac1c96aa5ac8c3bb344d14c203d6588739d4",
+      "wholeQuarticCurveExcludedByThisIdentity": false,
+      "genericChartOnlyIfUnpaidDenominatorNonconstant": true,
+      "seconds": 0.8381028819999976
+    },
+    {
+      "stage": "new_general_T0_quartic_curve_original_relation_closure_return_end",
+      "sourceSHA256": "d843f639c07b2b24be559f76f0d6aafd24593b6ece4587ac872242d9112d9709",
+      "peakRssKiB": 43752,
+      "ordinaryISPClaim": false,
+      "seconds": 0.8383312109999999
+    }
+  ],
+  "ordinary_isp_claim": false
+}

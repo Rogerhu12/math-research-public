@@ -182,4 +182,4 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
-**[一般T0=0原D身份与唯一四次曲线](results/R150-appendix-unit211-general-T0-zero-original-D-quartic-cover.md)已证：** 同六原方程完整来源清分母只剩物理单位乘F4；故整面只余F4=16(u−1)³(u+1)−16(u−1)Q−5Q²=0。k=5Q/[4(u−1)²]完整有理参数不漏k²−5零点。整曲线新原D幂源登记时未执行，最终未付k因子全部保留；不把曲线覆盖当排空，不加W或Q边界。
+**[一般T0整四次曲线的原D返回](results/R150-appendix-unit211-general-T0-quartic-curve-original-four-point-cover.md)已把整个T0面压到至多四权点：** k=5Q/[4(u−1)²]完整参数上，实际D身份唯一未付J4=3k⁴+80k³−1100k²+5000k−6875，保全部临时主元/参数分母边界。源d843f639真实0.915秒/exit0。接整个QQ[k]/J4的原48×35/真闭包，不只选一个复根；新源登记时未执行。另新一般三参15头atlas只用已付物理/等权/ell单位，不加W、Delta或T0。

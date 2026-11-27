@@ -1,16 +1,17 @@
 {
-  "message": "R150: freeze timed-out 58 by 58 QQ projection with exact execution identity",
-  "parentCommit": "bd0c1d69da172e683965f3877996c0704f0f9419",
+  "message": "R150: return original D on whole T0 quartic curve and retain four exact weights",
+  "parentCommit": "0f220c3c4ac7688ab83df8bb12011e173c3b96b7",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-58-Sylvester-h-QQ-projection-frozen-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-h-complete-u-QQ-projection-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-58-Sylvester-h-QQ-projection-8542.execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-58-Sylvester-h-QQ-projection-8542.receipt.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-58-Sylvester-h-failure-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-T0-quartic-curve-original-four-point-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-T0-quartic-curve-four-point-cover-8542.receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-T0-zero-final-J4-whole-original-return-8542.py",
+    ".github/workflows/invariant-subspace-general-t0-final-j4-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-full-general-LS-original-head-atlas-8542.py",
+    ".github/workflows/invariant-subspace-full-general-ls-head-atlas-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,5 +20,8 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-general-t0-final-j4-8542.yml",
+    "invariant-subspace-full-general-ls-head-atlas-8542.yml"
+  ]
 }
