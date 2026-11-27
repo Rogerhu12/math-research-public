@@ -207,3 +207,10 @@ $A_Q=kG$，以及该点的准确阶。
 ## 7. 本次公开请求
 
 原源码 20848 字节，SHA256 `7a560c5e2855fa6c38f5e73d0b67a7e9a7eb7251e13b0d94a752f586e1e694b3`。本次请求 `2026-11-27-1048-original-q11-specified-half-norm`，使用固定 python-flint 0.9.0；仅消费三层已付回执并计算本篇新指定半类，不缓存旧生成数据。实际结果待原公开作业返回。有限域/多项式接口按 [fq_default](https://python-flint.readthedocs.io/en/latest/fq_default.html) 与 [fq_default_poly](https://python-flint.readthedocs.io/en/latest/fq_default_poly.html) 的0.9.0原文。
+
+
+## 8. 首次真实终态及唯一兼容修复
+
+原请求实际 run45985234568 / job140459035605 / source a4e66e2d32dba6d46a74c1f7ce6c220e5d3ac762 于10:48:57 UTC以 failure 结束。10:48:55 的栈明确是 `ELT(delta) → fp → GF(value)`：python-flint 0.9.0 的 `fq_default_ctx` 不接受再次包装现成的 `fq_default`。原三层回执已读，新的局部 Fitting 尚未执行；不存在半类结果。
+
+完整日志10835字节，SHA256 `03dc9c396f9f72dec0851514eaf27e9e6217209ab0f9cea75ccc087c3730a9cf`。只为同一个固定有限域的原元素增加恒等 `field_coerce`，并在 `fp`、`encode_constant` 两处使用；δ、所有原点、厚层、六minor和Cantor公式均原样保持。新源码21050字节，SHA256 `3864c88a9f05bf50801afd46d83a496103193bc9d4aa5567bffefda084c3a6bd`。后继唯一请求 `2026-11-27-1050-original-q11-specified-half-norm-native-coercion`，实际回执待。

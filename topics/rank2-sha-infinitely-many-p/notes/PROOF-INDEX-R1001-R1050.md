@@ -109,3 +109,6 @@
 
 
 - [原q11指定半Norm](2026-11-27-original-q11-specified-half-norm.md)：新增原q11指定半Norm实时consumer：绑定原Norm→lift→唯一Q三层真实run/job/source/hash，保δW∓t方向，以两2×4乘法呈示全部六minor的完整DVR/Fitting长度分开每个厚零；尤其保T9,Y8二重零。两半各degree12、各自Cantor和准确−3 twist返回原EL，输出AQ=kG的实际k而不预设非零。 实际结果待。
+
+
+- 原q11指定半类入口：指定半类首run45985234568/job140459035605/sourcea4e66e2d32dba6d46a74c1f7ce6c220e5d3ac762真实failure：flint0.9把现成fq_default再次传GF触发TypeError，未到新Fitting。仅对同一原field值作恒等coerce，δ/六minor/全厚层/Norm/Cantor不变；消费原10835B日志后请求唯一修复后继，尚无半类结果。

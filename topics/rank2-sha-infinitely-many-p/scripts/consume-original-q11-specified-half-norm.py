@@ -26,7 +26,7 @@ spec = importlib.util.spec_from_file_location("paid_q11_reader", helper_path)
 paid = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(paid)
 
-from flint import fq_default_poly, fq_default_poly_ctx
+from flint import fq_default, fq_default_poly, fq_default_poly_ctx
 
 NORM_BINDING = {
     "run": 45980566265,
@@ -49,8 +49,13 @@ if delta*delta != GF(8) or delta**11 != -delta:
 ZERO, ONE = PCTX.zero(), PCTX.one()
 
 
+def field_coerce(value):
+    # All existing fq_default values here come from the one fixed base field.
+    return value if isinstance(value, fq_default) else GF(value)
+
+
 def fp(value):
-    return value if isinstance(value, fq_default_poly) else PCTX([GF(value)])
+    return value if isinstance(value, fq_default_poly) else PCTX([field_coerce(value)])
 
 
 def coefficients(value):
@@ -71,7 +76,7 @@ def exact(a, b):
 def encode_constant(value):
     """Return the canonical two coefficients in 1,delta, regardless of FLINT's basis."""
     d = [int(c) % 11 for c in delta.to_list()]
-    v = [int(c) % 11 for c in GF(value).to_list()]
+    v = [int(c) % 11 for c in field_coerce(value).to_list()]
     d += [0]*(2-len(d))
     v += [0]*(2-len(v))
     if d[1] == 0:

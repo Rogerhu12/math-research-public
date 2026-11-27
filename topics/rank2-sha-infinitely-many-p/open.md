@@ -154,3 +154,6 @@ R1041将原s0=0四点谱盖双向写成固定亏格二Q6，真实S4 incidence恒
 ### 指定半Norm的实际新计算
 
 新增原q11指定半Norm实时consumer：绑定原Norm→lift→唯一Q三层真实run/job/source/hash，保δW∓t方向，以两2×4乘法呈示全部六minor的完整DVR/Fitting长度分开每个厚零；尤其保T9,Y8二重零。两半各degree12、各自Cantor和准确−3 twist返回原EL，输出AQ=kG的实际k而不预设非零。 公开请求2026-11-27-1048-original-q11-specified-half-norm；不得把旧完整Norm零类代替两半或重复旧截面搜索。实际结果返回后继续与原Prym固定边界和最高权比较。
+
+
+指定半类首run45985234568/job140459035605/sourcea4e66e2d32dba6d46a74c1f7ce6c220e5d3ac762真实failure：flint0.9把现成fq_default再次传GF触发TypeError，未到新Fitting。仅对同一原field值作恒等coerce，δ/六minor/全厚层/Norm/Cantor不变；消费原10835B日志后请求唯一修复后继，尚无半类结果。 新请求2026-11-27-1050-original-q11-specified-half-norm-native-coercion；具体栈/hash见指定半类笔记§8。
