@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-compatible-Heisenberg-swap.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-fixed-Prym-marked-classes.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -36,15 +36,13 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 旧Miller run45973334832/job140418866621以预算中断结束；q² run45977769585/job140433713916成功，后到四首log已完成下述独立全维核对。两条长链均不续算或补跑。
 
-[原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]模常数准确为μ_p⊗J(K)[p]，全cusp leading平均给Δ等变分裂；规范后的even剩余落在odd J(K)[p]，既有even cusp模块不控制它。须实际付p-torsion、全tame、常数与odd分量，未得到cup零或四阶cover。§7条件式原两维层0→ω^r→E→ω^(1−r)→0的Kummer radical实际为ω^(2−2r)，即T(r)=p+1−2r；反向为ω^(2r)，不能接β_r。实际J整层/重数/圆单位在R1131双Bernoulli门内已付；其余块与cup仍开。
-
-[原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new部、原扩张类/极化尺度未付，不能将Ohta取N=p。 §7用Ling–Oesterlé原角色条件付Σ(p²)[p∞]=0，并固定w_(p²)在Shimura子群上为−1；不代非Shimura odd new消失。
+[原K₂全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)给整未分歧K₂[p]/常数=μp⊗J(K)[p]，全cusp平均Δ分裂；even剩余是odd J。实际扩张radical为ω^(2−2r)，非βr。[整p Chen/Ohta](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)付同素数p单位同源及N=1消旧odd，全部剩余在Fricke+平方层；Σ(p²)[p∞]=0不消非Shimura odd。上列R1131/32给指定块的后继，未付其余实际cup/高层，完整旧公式沿本次逐字归档。
 
 R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job140594489905，原B_q/ρ/c及16本征读数全同。该来源审计关闭；不重跑长链，不增加固定47依赖。
 
 ## O1：全p同一真实本原标签的临界非零
 
-[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–13已付实际Verschiebung/Miller、kerV、−Q刚化、全自然基及P/N连接/三平移；Vε²与最高偶补偿、全部相位/极界保原文。全V₀低阶目标共轭已排，指定Um仍开；全dot A已付，首normal×Picard一/四阶零，normal零阶unit。真实Prym商Y²=−(3x+ε)(x³+2v)给完整θ及Gauss–Manin，原θ是终止ε₂F₁(1/2,5/6;4/3;ε³/(54v))，一般period限<p jets/首共振p+1。真实Ψε保Dε^p=HεDε、DεΨε=HεU−βε、普通加律M^p−HεM；6v·dotΨ|U=−δU²/V，扣自然Vε变化后=PΨ。固定C的Picard离开三挠；原e/K4共同非零与高normal比较继续。
+[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–13已付实际Verschiebung/Miller、kerV、−Q刚化、全自然基及P/N连接/三平移；Vε²与最高偶补偿、全部相位/极界保原文。全V₀低阶目标共轭已排，指定Um仍开；全dot A已付，首normal×Picard一/四阶零，normal零阶unit。真实Prym商Y²=−(3x+ε)(x³+2v)给完整θ及Gauss–Manin，原θ是终止ε₂F₁(1/2,5/6;4/3;ε³/(54v))，一般period限<p jets/首共振p+1。真实Ψε保Dε^p=HεDε、DεΨε=HεU−βε、普通加律M^p−HεM；6v·dotΨ|U=−δU²/V，扣自然Vε变化后=PΨ。固定C的Picard离开三挠；原e/K4共同非零与高normal比较继续。 §§14–15又付Rε全S补偿/三挠ε^p及二阶边界；原固定Prym的Ξ、Υ准确读3e、−3K4，proper高极自由项按CM权固定，两类在同一CM线。完整L_j种子/递推使e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k项unit/后k项零；仍须原两和非同时零，继续有界primitive消元。
 
 [R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及一阶解给原I_n递推与准确短Ramanujan和，原p=6m+5的截断m及PF最后强迫项全部保留。§6已完成真邻项桥：I_(n+2)来自(V−v)ν/(V+v)u的亚纯配对，完整相对Cartier/分部积分给I_(n+2)+I_n=3δ/4。因此旁单位只回旧C(Uω)，不再把它当独立K4入口；继续原三挠族变分及有边界的短和。run46015627853/job140561880424完整证书只消费。
 

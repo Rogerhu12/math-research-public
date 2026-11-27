@@ -1529,3 +1529,319 @@ $\Psi_\epsilon$、两个 Cartier 标量以及全部第一阶基变化。
 
 
 §13 发布前 root 另逐式核定全部 N.57–62，包括固定 U 的三个有限分支极、O 首项和自然 Vε 系数补偿；与 o1/o2 精确全文审阅一致。
+
+
+## 14. 高 normal 导数的完整余项与三挠点二阶
+
+下面的 $\widetilde P$ 是固定 $U$ 的有理微分算子，
+不是省略自然奇基补偿后的系数矩阵 $P$：
+$$
+\widetilde P=\frac12D^2-\frac{U^2}{V}D .
+$$
+所有 $\epsilon$ 导数在本节的算子比较式中最后均代 $\epsilon=0$。
+由 §13 的实际 $\dot D$ 及
+$D(U^2/V)=U+3v^2U/V^2$，得到
+$$
+\left[6v\partial_\epsilon-\widetilde P,D\right]=-UD,
+\qquad
+(6v\partial_\epsilon-\widetilde P)U=-U^2.
+\tag{N.63}
+$$
+这里 $UD$ 指先求导再乘 $U$。
+
+令 $q_{n,\epsilon}=D_\epsilon^nU$，特殊纤维记为 $q_n$。
+完整的第一 normal 变化为
+$$
+\boxed{
+6v\,\dot q_n=\widetilde Pq_n-\mathcal S_n,\qquad
+\mathcal S_n
+=\sum_{i=0}^n D^i\!\left(U D^{n-i}U\right)
+=\frac12\sum_{j=0}^n
+ \binom{n+2}{j+1}q_jq_{n-j}.}
+\tag{N.64}
+$$
+确实，迭代 (N.63) 首先给第一种和式。
+Leibniz 展开后 $q_jq_{n-j}$ 的系数是
+$\sum_{i=j}^n\binom ij=\binom{n+1}{j+1}$；
+再与 $j\leftrightarrow n-j$ 的同一项平均，
+就是所示的 $\frac12\binom{n+2}{j+1}$。
+因此这不是忽略任一低次项的最高极估计。
+
+当 $n=p-2$ 时，所有 $\binom p{j+1}$ 都为零，
+所以 (N.64) 正好恢复 (N.61)。
+但下一条实际 primitive
+$\mathcal R_\epsilon=D_\epsilon^{p-3}U$ 有
+$$
+\boxed{
+\begin{aligned}
+6v\,\dot{\mathcal R}
+ &=\frac{\delta}{2}-\frac{U^2\Psi}{V}
+   -\mathcal S_{p-3},\\
+\mathcal S_{p-3}
+ &=-\frac12\sum_{j=0}^{p-3}(-1)^j
+       (D^jU)(D^{p-3-j}U),\\
+D\mathcal S_{p-3}&=-U\Psi .
+\end{aligned}}
+\tag{N.65}
+$$
+最后一式也由
+$D\mathcal S_n=\mathcal S_{n+1}-Uq_{n+1}$
+直接得到。
+
+$\mathcal S_{p-3}$ 是原偶多项式，其最高项为
+$+U^{m+1}$。
+可从最后一式和原 $U\Psi$ 的首极核定这个系数，
+也可逐项用
+$(j+1)!(p-2-j)!=(-1)^j$
+核定。
+$\widetilde P\mathcal R=\delta/2-U^2\Psi/V$
+的最高项同样是 $+U^{m+1}$，
+所以两者准确相消。
+最终 $\dot{\mathcal R}\in K[U^3]$ 且
+$\deg_U\dot{\mathcal R}\le m-2$，符合实际偶多项式族的极界。
+其常数项仍由 (N.65) 的整个二次和确定，
+没有另选 $\int U\Psi\,\omega$ 的常数。
+尤其不能把 $\dot{\mathcal R}$ 也写成
+$\widetilde P\mathcal R/(6v)$，或仅凭相同 CM 角色
+将它认成 $\Phi(U^{m-2})$。
+
+另有两条可独立核规范的实际高 normal 式。
+首先，$Q_\epsilon$ 的切线 slope 是 $\epsilon/2$，
+且 $2Q_\epsilon=-Q_\epsilon$。
+把这一切线情形代入 (N.60)，得到全形式族恒等式
+$$
+\boxed{
+\Psi_\epsilon(Q_\epsilon)
+=\frac{\epsilon H_\epsilon-\epsilon^p}{6}.}
+\tag{N.66}
+$$
+$\epsilon^p$ 是真正的 Frobenius 边界，不能在高精度讨论中删除。
+
+其次，两个原 Cartier 系数的指数模 $3$ 直接给
+$H''_0=\delta''_0=0$。
+固定 $U$ 时
+$\ddot D=U^5D/(4V^4)$；
+对 (N.57) 再微分一次后准确得到
+$$
+\boxed{
+\ddot\Psi
+=\frac{\delta(U^3-2v^2)}{36V^3},\qquad
+D\ddot\Psi
+=\frac{\delta U^2(8v^2-U^3)}{12V^4}.}
+\tag{N.67}
+$$
+候选与实际二阶导数之差导数为零。
+三个有限分支点的极阶至多 $3<p$，原点主部为零，
+故该差没有极点；奇性定其常数为零。
+在 $Q$ 读取为 $-\delta/(18v)$，
+与 (N.66) 的二阶读取完全一致。
+本节两次 normal 的单位仍不替代原 Picard 的 $e,K_4$。
+
+## 15. 两个原 Picard 标记在固定 Prym 上的实际微分
+
+本节固定 $\epsilon=0$，使用 §11 的同一个三挠覆盖与真正椭圆商。
+保留原相位 $\eta|_0=-z/w$，
+$$
+u=\eta\omega_E,\qquad \nu=\eta^{-1}\omega_E,\qquad
+u+\nu=-3\omega_P,\qquad
+\omega_P=\frac{dx}{Y},\quad Y=3xr.
+$$
+其平面 cubic 正是
+$$
+x^3+3xr^2+2v=0,\qquad U=r^2 .
+$$
+写原 R1061 的
+$\Psi=VU S(U^3)$；
+这里 $S$ 是已固定首项 $-1$ 的原多项式，不是另一个 sigma 函数。
+
+### 15.1 完整下降、相对 Cartier 与 exact reduction
+
+定义原实际微分
+$$
+\Xi=\Psi(u-\nu),\qquad
+\Upsilon=\mathcal R^2(u+\nu).
+$$
+两者都在原 involution $\tau$ 下不变，因而真实下降到 $E_P$。
+准确式为
+$$
+\boxed{
+\begin{aligned}
+\Xi&=xr^2S(r^6)\,dr\\
+ &=\frac{(x^3+2v)(x^3-v)}{3x}
+ S\!\left(-\frac{(x^3+2v)^3}{27x^3}\right)\omega_P,\\
+\Upsilon&=-3\mathcal R(U)^2\omega_P,\\
+C_{{\rm rel},P}(\Xi)&=3e\,\omega_P',\\
+C_{{\rm rel},P}(\Upsilon)&=-3K_4\,\omega_P'.
+\end{aligned}}
+\tag{N.68}
+$$
+前两式只用 $r^2=-(x^3+2v)/(3x)$ 及 $Y=3xr$。
+对于后两式，原
+$\nu=\eta^pF_Q\omega_E$ 给
+$C_{\rm rel}(\Psi\nu)=e\,u'$。
+由于 $\tau\Psi=-\Psi$、$\tau u=\nu$，
+相对 Cartier 的等变性给
+$C_{\rm rel}(\Psi u)=-e\,\nu'$。
+相加减便得到第三式。
+同理，
+$C_{\rm rel}(\mathcal R^2\nu)=K_4u'$
+与 $\tau\mathcal R^2=\mathcal R^2$
+给出第四式。
+所有标量均在相对版本中线性读取，
+特别没有把外面的 $v$ 换成 $v^p$ 或其 $p$ 次根。
+
+还有一个保留全部 primitive 的 exact reduction：
+$$
+\boxed{
+\Xi=d\!\left(\frac{x\mathcal R}{r}\right)
+       +3v\frac{\mathcal R}{U}\,\omega_P,\qquad
+e=v\,
+\frac{C_{{\rm rel},P}((\mathcal R/U)\omega_P)}{\omega_P'} .}
+\tag{N.69}
+$$
+确实，$d\mathcal R=r^3S(r^6)\,dr$，
+所以 $\Xi=(x/r)d\mathcal R$。
+由同一 cubic，
+$$
+d(x/r)=-\frac{3v}{r^2}\omega_P,
+$$
+分部积分即得 (N.69)。
+这不是仅从相同角色认同两个来源。
+
+### 15.2 Proper de Rham 类及其精确 CM 范围
+
+在 projective plane cubic 上，$r$ 在三个无穷点各有一个简单极。
+其中 $x/r\to0$ 的点对应 quartic 模型中的 $x=0$ 分支点；
+另两个点是该 quartic 的两无穷点。
+$\Xi$ 在这三个点的极阶分别至多为
+$p-3,p,p$；$\Upsilon$ 的极阶均至多为 $2p-2$。
+没有其他极点。
+
+(N.68) 的 Cartier 输出全纯，故全部留数为零。
+对于 $\Upsilon$，在这个极界内唯一额外可能阻碍局部积分的
+$p$ 倍分母来自 $t^{-p-1}dt$；
+其 Cartier 会产生二阶极，因此该系数同样准确为零。
+所有剩余极部都可以用单位分母积分。
+
+为使这个 proper de Rham 读取在特征 $p$ 中没有隐含的
+$p$ 次 primitive 自由项，使用原 CM 作用
+$$
+(x,r)\longmapsto(\zeta x,\zeta r).
+$$
+三个无穷点均固定，可取 $t=1/r$ 为实际 CM 本征参数。
+$\omega_P$ 的角色是 $\zeta^2$，
+而 $\Xi,\Upsilon$ 的角色都为 $\zeta$。
+对极部 primitive 取同一 $\zeta$ 角色。
+可能出现的 $t^{-p}$ primitive 具有角色 $\zeta^2$，
+因此在这个角色中不允许；
+其余极部 primitive 的分母都已证明是单位。
+这给出了来源固定的 proper de Rham 类，
+而不只是任意挑选高极 primitive 后的未定类。
+
+(N.69) 中被删去的全局函数 $x\mathcal R/r$
+在三处的极阶分别至多为 $p-4,p-1,p-1$，
+全部小于 $p$。
+所以该 exact reduction 在上述 proper 类中也真实成立。
+
+特别地，原相对 Cartier 的共轭正合列在这个
+$j=0$ 椭圆曲线上按 CM 分解后，
+$\zeta$ 角色是一维，且它到
+$H^0(E_P^{(p)},\Omega^1)$ 的 Cartier 映射为同构：
+Hodge 线的角色是 $\zeta^2$，
+共轭核也是 $\zeta^2$，
+目标微分的角色则是 $\zeta^{2p}=\zeta$。
+因此准确有
+$$
+\boxed{
+[\Xi]=0\ \Longleftrightarrow\ e=0,\qquad
+[\Upsilon]=0\ \Longleftrightarrow\ K_4=0.}
+\tag{N.70}
+$$
+两类处在**同一条** CM 特征线上。
+它们不是一个已知非退化的两坐标基，
+其 cup 配对因角色原因恒为零；
+不能由 rank two 的 de Rham 空间直接推出原非同时为零。
+
+### 15.3 原完整二次和的固定 Prym moment
+
+这一同源实现也可给一个完全有限的 actual Cartier 矩阵。
+对 $0\le j\le2k-1$，定义
+$$
+L_j=
+\frac{C_{{\rm rel},P}(r^{6j+2}\omega_P)}{\omega_P'} .
+$$
+输入只在上述三个固定无穷点有极，极阶至多 $2p-2$。
+Cartier 输出的极阶至多为二。
+除以 $\omega_P'$ 后的函数在原 CM 下不变，
+而各无穷点处的非零极阶必须是 $3$ 的倍数。
+因此输出实际上全纯，$L_j$ 确实是标量。
+
+初值及完整递推为
+$$
+\boxed{
+L_0=\frac12(4v)^{2k}\binom{4k-1}{2k-1},\qquad
+L_j=-v^2
+ \frac{(6j-1)(6j-3)}{(6j+1)(6j-2)}L_{j-1}
+ \quad(1\le j\le2k-1).}
+\tag{N.71}
+$$
+初值可直接用真正 Fermat 坐标
+$A=r+x,\ B=r-x$ 核定：
+$$
+B^3=A^3+4v,\qquad
+r=(A+B)/2,\qquad
+\omega_P=-\frac{2\,dA}{3B^2}.
+$$
+在 $r^2\omega_P$ 中，$A^2/B^2$ 及常数项的 Cartier 读取为零；
+$2A/B$ 一项使用
+$B^{-1}=B^{-2p}(A^3+4v)^{4k-1}$，
+唯一可读指数是 $A^{p-1}$，即 (N.71) 的初值。
+这也固定了全部相对标量。
+
+递推无需拟合。若 $D_P=d/\omega_P$，原 cubic 给
+$$
+D_Pr=-\frac32(x^2+r^2),\qquad D_Px=3xr.
+$$
+对 $d(r^{a+2})$、$d(xr^{a-2})$、$d(x^2r^a)$
+使用相对 Cartier 后依次消元，
+得到
+$$
+C_{\rm rel}(r^{a+3}\omega_P)
+=-\frac{a(a-2)v^2}{(a+2)(a-1)}
+ C_{\rm rel}(r^{a-3}\omega_P).
+$$
+取 $a=6j-1$ 就是 (N.71)。
+所用 $6j+1,6j-2$ 在整个 $1\le j\le2k-1$ 范围均为单位。
+故 $L_0,\ldots,L_{k-1}$ 全为单位，
+而分子 $6k-1=p$ 给 $L_k=0$，
+继而 $L_k,\ldots,L_{2k-1}$ 全为零。
+
+最后写原
+$$
+\mathcal R(U)=U^2\sum_{i=0}^{k-1}r_iU^{3i}.
+$$
+如果 $S(T)=\sum a_iT^i$，
+则 $D\mathcal R=\Psi$ 给
+$r_i=a_i/(6i+4)$，所有分母均小于 $p$；
+这与原 $\mathcal R$ 的首项和常数完全一致。
+两指定标记的同一固定 Prym 读取因而是
+$$
+\boxed{
+e=v\sum_{i=0}^{k-1}r_iL_i,\qquad
+K_4=\sum_{i,j=0}^{k-1}r_ir_jL_{i+j+1}.}
+\tag{N.72}
+$$
+最大指标是 $2k-1$，所以没有超过 (N.71) 的实际界。
+第二式可删去的项恰是 $i+j+1\ge k$ 的已证零 moment；
+其余完整二次和必须保留。
+初值和所有未灭的 moment 为单位，
+本身仍不能排除这个指定线性和与二次和同时为零。
+本节为后继提供真实 Fermat Hermite reduction 的输入，
+不重述为已经证明的原非零结论。
+
+§14 的完整 commutator/二次和与高 normal 极界，
+以及 §15 的原下降和 exact reduction，
+均经 o1/o2 独立纸核；全文没有数学执行。
+
+
+§§14–15 root 对精确候选12aae596全文独立纸核通过：交换子与二项式平均、Rε最高项相消/完整常数、固定U二阶、原两微分下降及exact reduction、proper高极的CM自由项排除、Fermat初值与不除a的三式消元全部相容。没有由同CM一维类或各moment单位推出两个指定和非同时零。
