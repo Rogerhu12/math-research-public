@@ -80,3 +80,7 @@
 ## 2026-11-27 23:47:26 UTC — 第21完整5/8启动提交
 
 刊6个完整启动件180733B（题内178506B）：19984B controller、2227B workflow、73309B三whole-step queue、51519B完整request、20538B启动总表、13156B全启动说明。已刊dd02六完整科学参数不改；两输入maker/reference没有width参数，同一固定g须在新runner真实重建；完整157科学仅namespace与width113改，δ1/32、metric/restoration均.01、137/18源、458formal/48live/全预算与5CLI+8external原责任全保。原350分钟/20000秒/finishfalse与pull/README差异同步不变，时限非课题终点。独立新分支不等19/20final；实际run/job未预填，提交后查询官方。原19请求全部改变过的字段完整保，新正文准确；启动后不改request。完整workflow Git tree cd3aa8cb8cae70b12e727f572776368c6e1884e2的1277项无同名，fresh普通合并；双README云核至`e5b10b9c589dde7ff7d32ba8a124f5cd7b6f34c8`无变（非pull）。H重复数学摘要引用全原note与12d43完整H，原科学和未知未删。
+
+## 2026-11-27 23:48:59 UTC — 21官方真实run/job
+
+95ae5c2399664bed1b9597611b7385cb4e8d6d5e启动实际46084442413/1，于23:47:39Z created/started；job140790598810。第一次官方query依赖安装in_progress，科学pending；完整原run/jobs全部字段附[全启动记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)，未冒已返科学或point。双README云核至`185679de628e5bee09652e5f8ec9beeff8ff247a`无变，非pull。

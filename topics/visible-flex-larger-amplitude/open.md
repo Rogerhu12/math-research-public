@@ -128,4 +128,4 @@ README未完成；时长、阶段、失败和输入困难均非终点；按open�
 
 容量续求：ret54完整18旧生成对象已逐项退树、净1113720B；源/请求/全spec与数值输入不退，旧读者须恢复完整原字，详[全部保全账](computations/legacy-native-generated-metadata-retention-54-complete-delivery.json)。同一批将完整21启动/后参接上，不计数学完成。
 
-21完整启动已提交：[全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同g只width1/2→5/8；原两完整输入+157词科学整步，全部source/预算/责任保全；官方run/job待实际查。科学/pure全包超95KB，真正返回后整步接pure，无删字段。
+21完整启动已提交：[全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同g只width1/2→5/8；原两完整输入+157词科学整步，全部source/预算/责任保全；官方46084442413/1、job140790598810已真启动，首次查询科学pending。科学/pure全包超95KB，真正返回后整步接pure，无删字段。
