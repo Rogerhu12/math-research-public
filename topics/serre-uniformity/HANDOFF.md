@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：b47df53119ec9912fc9c9eb04c85094dce448bb4**（2026-11-27 19:11 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：0f4bc9b08e7d2444e67192d54a2172b3c5faaf5c**（2026-11-27 19:40 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；19:11再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-denominator-Frobenius.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-short-Cartier.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -40,33 +40,17 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q² residue-trace/强制归一及两pencil同时核已证。四基本CM run45977769585/job140433713916仍运行，18000/120；新首log未出。
 
-## O1：原同一保留标签
+## O1：原同一保留标签与 Gaussian 强制切向
 
-[R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原两CM下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、负p极及最后carry已付；不能代短η/ν。
+[R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)付原有限Lamé全谱、完整jet递推及η_k=(16v²g0/(3δ))D_N(1)；g0单位，e=0时K4必须保全部三项。R1061/76的同一T=−2vΨ³/δ³、η_j=j[z^j]T、ν_j=j[z^j]T²/40不换；指定η_k/ν_k非同时零仍开。R1077加权2k次单位不代短k次。R1109完整Dixon首除层仅消费。
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：e↔S_n、Φ²=[−1]*、真实自伴及原η_k/ν_k双障碍已付；e=0时ν_k为指定有限二次和，非零仍开。R1076同一T=−2vΨ³/δ³，η_j=j[z^j]T、ν_j=j[z^j]T²/40；R1077同一T²加权2k系数单位，尚无至短k双障碍的桥。
+R1111付原p-block全公因子M D (b³−1)^(2ε)与全tame分歧，ε=1 iff f_N=0；该支尚未排。R1060/R1092给实际非CM Cartier与其余六三挠值单位，未给原H_p(0)/H_p′(0)或S_n=0⇒B_n=0。
 
-[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原p2/5mod9四非CM Cartier由B_n=P_n(3)=−a_p(E54)单位控制，核恰六CM；原L在CM-zero轨道，e为二级Petri读数，未有S_n=0⇒B_n=0。
+[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原5H_p+(8a²/45)K_p=16G_(p−3)单位，H_p=0强制K_p=36/(aδ³)单位；K_p至其它真实forced标签的桥仍开。
 
-[R1049/1059、R1043、R1031](results.md)保原f_N的方向矩、CM端点和Legendre中心导数三种准确来源；同h两mask及端点单位仍开，不能替换bare范数或forcing单位。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)：全部原Gaussian forced i2的高Hurwitz值/实际coarse首项准确读同一Kronecker P_k的c_(2j−1)，保good mask、全部primitive常数及Fay较低乘积。全forced为零会给具体奇偶半段缺失，尚未排该缺失，不代H_p或bare单位。
 
-完整theta分布、范数与全部旧角色/相位见归档；不能代同h两mask或bare。
-
-原h=6i+7须同一本原h使P_(h−1)(1/s)fi gj非零，i+j=N−1；原Norm/双CM权/相位和两个mask不删。R971 full-span、R1006全p G稳定已否；特定A/E4仍开，粗CM阶≤4不代零阶。R995–1002等已成输入只消费；R706旧5992 f_N/5991 g_N单位至200000（g零137147）不重算。全部原角色/例外/run保open和归档。
-
-[R1082](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)：原Gaussian d=p²−4p−1的G_d=H_p^p/(2δ)，H_p为完整短卷积=2∂G_(p−5)/5；两全局primitive/误差/原coarse斜率全付，H_p单位仍开。
-
-[R1084](results/R1084-original-Gaussian-high-unit-and-maximal-forced-label-degree.md)：原G_(7p−1)=−2a²/(315δ)全unit，max forced raw度(p−7)/4；保twists/phase，不能代H_p单位。
-
-[R1092](results/R1092-original-six-three-torsion-Cartier-values.md)：原FM截面在其余六三挠点的值精确为aH_p(432)=−a_p(Y²=X³−9X+9)；原étale商/微分/twist全付，2-division Q(ζ9)⁺给p2/5mod9单位。原H_p(0)、H_p′(0)及短η/ν仍开，继续真三分布。
-
-[R1109](results/R1109-original-Dixon-first-divided-Gross-Koblitz-layer.md)：原Dixon完整模p²首除层及三λ1块/carry已付；第一短系数比例现见R1113，ν比较仍开。
-
-[R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原规范p-block公因子、清除后全部tame分歧已付；f_N=0恰三CM指数ell−1，尚未排此支，不代bare。
-
-[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。
-
-[R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)：原L=D²−2U在p维W上由全部Ψ零点的真实J_P对角化；零谱投影自动消失不证e单位。完整jet递推保−r(r−1)δ²J_(r−2)，e=0时K4是三项准确配对；原η_k=(16v²g0/(3δ))D_N(1)，g0为显式单位。ν及两指定读数非同时零继续，不能用完整Dixon反对称和替代。
+原同h=6i+7必须同时满足本原/Legendre/fi gj两个mask；R971全span与R1006全p稳定已否，特定A/E4仍开。R1009粗CM阶≤4不代零阶。全部原尺度、来源与旧窗5992+7878至500000沿[逐字前态](handoff-archive-2026-11-27-before-short-Cartier.md)保全；不重算旧窗或已登记恒等式。
 
 ## O2：原高近p值
 

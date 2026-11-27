@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-original-mixed-coefficient.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-short-Cartier.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -43,6 +43,8 @@
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；新值待回执。
 
 ## O1：全p同一真实本原标签的临界非零
+
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)：原全部forced Gaussian coarse首项准确读同一Kronecker核反对角c_(2j−1)，含primitive常数、regularizer、Bernoulli-good mask和完整Fay乘积；全forced同时零会给具体奇偶半段缺失，尚未排该条件。R1114的混合K_p未被偷换为其中一项。
 
 [R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)：原L=D²−2U在p维W上由全部Ψ零点的真实J_P对角化；零谱投影自动消失不证e单位。完整jet递推保−r(r−1)δ²J_(r−2)，e=0时K4是三项准确配对；原η_k=(16v²g0/(3δ))D_N(1)，g0为显式单位。ν及两指定读数非同时零继续，不能用完整Dixon反对称和替代。
 
@@ -109,35 +111,7 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 [R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
 
 
-[R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)/[R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2 S^p=−36ρB(c₀,c₀)，保ξ^(p+1)=ρ/24、fine12≠d₁。原r2实际AS全函数给d(U/h²)=−CξT₀db/(12r^(ℓ+1)A³)。规范H=r^(ℓ+1)(AT₀′−T₀A′)满足H′=h²；原核c₀=−H(b^p)/r modA。canonical J=P/h²及全fine的p次幂差逐点res为零，完整范数化为B(c₀,c₀)=Res∞H^p(h′/h)Pdb。真p-block h²=G₀+b^pG₁给a=[b^(p−3)]h²单位、P=G₁/a；K=−2H₁/a及Wronskian保全源。原f_N²=A(1)²H₀(1)/(18a)，但范数/端点非零仍开，不扩r8。
-
-[R1034](results/R1034-original-bare-coefficient-finite-linearization.md)：原两行bare准确化为单位×[z^m](N/P)；有限递推仅用模z^ℓ Wronskian，保全局K缺陷及原相位。r2给显式F₁、degN=3k+1<degP与完整分母根留数和；r8须保N/P多项式部分。仍须证原总系数非零，不能从单个总留数零冒各局部留数零。
-
-[R1016](results/R1016-original-small-index-theta-and-complete-convolution-units.md)：原index1/2下降给σ、σ²的i+j=N完整卷积在全部T⁻单位；norm3准确返回U。U_(N−1)零集：11mod12为空，5mod12恰η⁶=−1六点。补充§7.1以真实Gaussian norm-p同源和J66给r8所需正确层U_(N−2)在这六点单位；η=±i时U_(N−2)/U_N=−25a¹²/(9B¹²)。核像/frame/Wilson常数全核。仍非单个高系数或完整bare差的单位，原primitive/Legendre不删。 §7.2保原theta/η尺度给Gaussian完全值C_N(i)=−(−432)^((p−1)/4)/2，平方−1/4；全方向常平方现由R1022证明，5mod12常数为一；原mask/bare仍开。
-
-[R1015](results/R1015-original-class-two-Poincare-projection-and-balanced-triangular-bridge.md)：原norm7的完整Π2×Π2源=C22 U⊗U，给C22 u_ℓ²=D_n c_n^-+R_n；D/C两行为6/49、342/7⁸，R全保且逐项整。§5.1进一步给c_(p−r)=−A_r−BT_r，仅用原首sigma/inverse-sigma块；A为完整regular部分，T为带三移位阶乘的carry，r8余层N−2。仍须证A_r+BT_r非零，不能用R1016两重卷积替代。
-
-[原除p坐标](notes/2026-11-26-original-high-coordinates-in-divided-Ramanujan-polynomial.md)：实际整多项式𝔅_p=(R^(p−1)E+E^p−E_(p−1)E_(p+1))/p给c_(p−r)±=r!12^(r−1)[E^r]𝔅_p(E,0,±864)。r2标量24、r8为8!12⁷，正E坐标不依纯modular升换；仍未证非零。新theta-cycle filtration不能代指定CM读数；BKO2025精确估值只对wild塔角色和Λ生成元，不能搬到原tame U₇。继续同一高坐标的实际来源。
-
-[AS原坐标比较](notes/2026-11-26-ahlgren-samart-actual-low-coordinate-comparison.md)：同一q/eta模型、完整Cartier提取与Wilson–Dixon有限和给C_AS(p)=9β³/2，准确返回R988的G_(3(p−1))低单位，乘积−9/2。新Guerzhoy仅低µ=−β；Hanson–Jameson只指定五个固定一维CM空间。均未给原c_(p−r)或高Artin–Hasse坐标，须继续实际高源比较。
-
-原全SS和S含所有点、t0权1/非零H根权3/fine12/椭圆零项；指定j0项为零不能代全和。R936/939/941原trace、Jacobi ODE和CT公式全部已成，源C负RHS、β^p=β、Tate E6=−c6、η12=−6sD、KS正号保全。R963公开允许r2的1000<p≤1e5全部1582点无零；R967独立κ/g_p两点尺度通过，只有限证据。
-
-R946/951/952原Bol障碍O_r(H)=r!(𝒰H)^p/B^(p−r)|SS、kerO=ker𝒰；whole包饱和须𝒰全包零，命名F被杀/对称radical不足。R955单奇链及R970整包nilpotence给
-
-**S≠0 iff L=dim原CM包=1 iff原高权p−1/p−7、primitive level9完整classical η_f单位 iff TU准确Manin-period-normalized adjoint值单位。**
-
-Γ6→Γ036的整格/Q、det返回d与h0、σ⁻¹T_p及2/3 type和multiplicity已经完整处理；坏链对应真实非CM level9 congruence，不再重复nilpotence证明。R958唯一moment原式S^p=−216c_momℓ(R_F)，c_mom单位仍不等目标moment单位。R960/965真实Igusa字符因子h=L+1及κ=36α=−g_pT=−g_pS^p/432，g_p=48[x^(m+1)]a²单位；低/弱primitive只能检测链顶，κ非零仍未知。R956真实compact-coker、R962权8左项零及α8式均已成，不用固定低权pairing代高指定评价。
-
-R973–975的完整原bare/Kronecker/Manin-period与heat桥只消费：[R973固定四点回执](results/R973-certified-balanced-Kronecker-coefficients-at-four-primes.md)、[R974准确critical/adjoint尺度](results/R974-original-balanced-coefficient-and-one-sided-CM-period-bridge.md)、[R975整heat递推](results/R975-original-balanced-Kronecker-integral-heat-recurrence.md)。R988已补原S非零与bare单位的等价；不能反除未知period比、混同无穷型2n的n+1与整数中央型2k−1，或由低坐标代近p高值。全部阶乘/正负模型/来源与run逐字保本次归档，旧四点不重跑。
-
-R972–990的完整AH/Robert/Δ/LT/Cartier/超几何来源、全部相位/阶乘/唯一共振及否定的共同标量模型，逐字见[本轮压缩前态](open-archive-2026-11-26-before-R1004.md)。当前准确桥是R988：原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零；高低两坐标不能互代。R990以k=⌊p/12⌋、ℓ=(p+1)/3、m=(p−r)/3<ℓ给c^+_(p−r)=(-32)^m(r−1)![z^m]Qf^(-r)/4；B是实际Jacobi多项式、H=1/((1−z)B²)、f_i=H_i/(1−3i)，且H_ℓ=B(1)^(-2)为单位。不得跨ℓ反除；目标近p系数仍未知。R975原heat整性、R976原生成元、R985除p carry、R986原有理LT jet、R987实际Poincare首分母均只消费已成结论；R983四点的factorial共同ξ模型已否定，旧窗口不重跑。
-
-[R1005](results/R1005-finite-Gauss-companion-and-complete-resonance-defect.md)给指定有限P=截断A至d=ℓ−1、C_i=B_i/(3i+1)：完整Wronskian(1−z){PB+3z(PB′−P′B)}=1−z^ℓC/B(1)²，P_d=−16/(7B(1)²)、C(1)=B(1)²。原c^+_(p−r)=(-32)^m(r−1)![z^m]QB^r/P^r/4；全部有限P根的留数须保，不能用单位首项或cusp代目标。继续精确全留数和；无新扫描。 补充§5在原r2行取S=P−P(1)z^ℓB/B(1)，尖点留数准确−28853B(1)^6/36864且恒为单位；其余全部S根仍须保。旧47给J12、cusp45、其余总和37，否定自动相消，不代全和非零。
-
-[R989方法](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)/[R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：真正新r8 1000<p≤20000共349点全非零，run44755320789成功1.998924778s；1013/1049原三路与每p首resonance一致。payload245369B SHAfea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa，全部source/方法/receipt在结果和逐字归档。R988只给该有限集原S单位，已完不重跑。
-
-[R993方法](notes/R993-original-combined-disjoint-window-method.md)/[R994回执](results/R994-certified-original-combined-windows-through-200000.md)：run44760218207/job136370438703/source248592d7f成功531.337922156s。新r8 20000..200000共2622点、新r2 100000..200000共1386点，4008全非零/无尾，四指定新点原三路、完整wp ODE及各首resonance均过。payload2865567B SHAe764dff838bb24b18c8fec7f7634c2044f403e59e23a349cc00d0554c000dc8d；全部source pins/8+7分块/预算与exit0已核，仅有限S单位，不推全p/同h/height，已完不重跑。
+原r2/r8 bare、近p高坐标、实际Igusa packet及全部旧尺度保于[逐字前态](open-archive-2026-11-27-before-short-Cartier.md)。R1041/48的核范数与AS端点平方不互代；R988准确给原S非零 iff c_(p−r)±单位，不能由低Cartier或period替代。R955/970真整格nilpotence把目标等价于原CM链长1，指定高权adjoint值仍开。R1015/16、R973–990完整theta/Poincaré/heat来源只消费，所有lower products、resonance、primitive mask保留。R991/994全部4008新点至200000已完成不重跑，也不外推一般p。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 

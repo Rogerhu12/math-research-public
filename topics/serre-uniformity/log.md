@@ -161,3 +161,7 @@
 ### 2026-11-27 19:11 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 按小时再次真实尝试git pull --rebase；仍无可用执行环境，shell未运行。按根规矩8连接器同步main至b47df531，两README及本课题无差异，已读提交记H。
 - 原两长run仍in_progress且未有可读取完成case；继续真实Gaussian全forced线性项、三次CM联合谱和更短Cartier输入，未把运行状态或方法当数值结果。
+
+### 2026-11-27 19:44 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1116付原Gaussian所有forced i2切向的统一Kronecker反对角读取，primitive全部常数/误差/真实coarse与good mask齐备；Fay式保全部较低乘积。
+- root/o1/o2全文独立纸审；没有证明指定半段缺失不可能，不把旁单位冒写目标单位。H/open/索引逐字归档后压缩旧已付输入，两长run与短Cartier/Jacobi新源继续。
