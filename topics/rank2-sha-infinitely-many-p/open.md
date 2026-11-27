@@ -167,3 +167,12 @@ R1041将原s0=0四点谱盖双向写成固定亏格二Q6，真实S4 incidence恒
 ### 三canonical同一来源的实际补域
 
 R1042给原S34/T72/Φ126真正共用H3/F81平面，保全四输出；93/2511两odd whole核均为β，另90/810两even核保χ10λ，原ray只相容细化3和31。固定六次Q全七系数含q5=0，实际五深单单位网格读三条normalized-log差，各v=n；全部质量多项式、真实Kummer周期、不同单位cut及完整补域齐。两carry whole零核(41)尚不消掉(43)补域。 后继从实际三观察源作用与两carry全部mixed条件推合法局部化；不得由局部差非零删补域，也不把Π任意乘子赋canonical零。
+
+
+### 原固定P的完整Miller运输
+
+R1041§§10–12将原四谱incidence边界准确送为[R0]−[−R0]、R0=(4,6)、类P=(1,3)；全部原Norm把Pell U送M，M(O)=1且M·[-1]*M=1，再平移得到指定P的规范Miller函数。反Norm=U⁴/(cU²f^d)，真正去B第三类的迹为dlogM且留数±1；最高λ/27消费仍待。 继续原halving图/指定半类与原全eta/Cor/27权的实际作用，不把有理非挠P或primitive留数直接等同最高H³(2)线。
+
+### 10:58:59实际同步尝试
+
+两库实际pull --rebase仍均无可用执行环境；公开API核至f6438625c06dda786cb9117b9004d84cf3184f25、私库至a6ed8db38d42aee73a8847fb1ff48e53cb015e76，四README同前次实际pull，QUEUE仍本会话进行中。公开比本topic末提交只2其它文件，未改本题/README；实际pull SHA在HANDOFF，不冒改为API。

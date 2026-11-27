@@ -512,3 +512,291 @@ q=11 的已执行“完整 N_Q 的有效除子类为 O”
 R1029 的原三谱域及纯 CM Frobenius；
 R1031(19)–(24)的全部两式、Norm 常数和 W 方向；
 R1039 的原 g 二盖、S4、准确 Prym 及 §§7–8 无穷输入。
+
+
+## 10. 原 incidence 边界准确送到固定非挠点 P
+
+本节保持 §§1–5 的同一四点谱盖和全部符号。
+记
+$$
+ \Delta_\infty=[I_+]-[I_-],\quad
+ T=(0,0),\quad
+ R_0=(4,6),\quad P=(1,3)\in E_L,
+$$
+$$
+ E_L:y_L^2=x_L^3-12x_L+20.
+\tag{40}
+$$
+实际群律的倍点斜率为 $(3\cdot4^2-12)/(2\cdot6)=3$，故 $[2]R_0=P$。
+R1039 已证明这个固定有理点 P 在特征零非挠。
+这里计算的是真正曲线对应，不只比较两个椭圆因子的 j。
+
+在 $I_+$ 上，原 $X\to0$、$Y\to0$，且
+$\vartheta=a(v+1)$ 有极。
+令 $c=3/X$，三谱根中一个趋于0，另外两个分别趋于
+$L,-L$，其中 $L^2\sim-c$。
+为使三个平方根之和 $\vartheta$ 有极，
+后两个 $r_i$ 的首项必须相同，故其乘积首项为 $-c$。
+由固定的 $r_1r_2r_3=ac$，趋于 $z=0$ 的那一根必须满足
+$$
+ s=r_1\longrightarrow-a.
+\tag{41}
+$$
+相反的 $s=+a$ 不能给这个无穷顶点。
+这一步同时付清了 incidence 边的正负方向。
+
+因此 $\Gamma I_+$ 是原 $\widetilde C$ 上的以下三个点：
+有限点 $(z,w,s)=(0,8,-a)$，
+以及 $w/z^3\to+1$ 的原 C 无穷点上方两个 $s/z\to\pm1$ 支。
+它们在 R1039 的准确映射
+$$
+ x_L=\frac{z-4a}{z-a},\qquad
+ y_L=-\frac{3w}{s(z-a)^2}
+\tag{42}
+$$
+下，分别是
+$$
+ R_0=(4,6),\qquad (1,-3),\qquad(1,3).
+\tag{43}
+$$
+例如有限点的第二坐标为 $24/a^3=6$，
+所以不是 $-R_0$。
+超椭圆反演 $\jmath_4:(v,H)\mapsto(v,-H)$
+交换 $I_\pm$；它在原六边盖上提升为
+$\jmath:(z,w,s)\mapsto(z,-w,s)$，
+并满足 $r\jmath=[-1]r$。
+故另一个边界的三个像全部取负。
+两对 $(1,\pm3)$ 在差中逐点抵消，得到**有效点除子的精确等式**
+$$
+ \boxed{
+ r_*\Gamma\Delta_\infty=[R_0]-[-R_0].
+ }
+\tag{44}
+$$
+在 Jacobian 上，右端的类为 $[2]R_0=P$。
+这一结论既没有丢三条边，也没有把分歧重数改成点集计数。
+
+还能把这个固定点完整拉回。
+令 $J=f_4^*f_{4*}$。
+在四字母一般纤维上，$\Gamma^t\iota\Gamma$
+的对角系数为0，非对角系数为2：
+一条 incident 边的对边不含原顶点，
+而其余任一顶点恰出现两次。因此与(15)合并，
+$$
+ \Gamma^t(1-\iota)\Gamma=4-J.
+\tag{45}
+$$
+同 §3，有限正规化 incidence 的闭包保全分歧重数，
+故这是实际曲线对应的等式。
+
+又因 $r$ 的甲板 involution 是 $\kappa=\iota\jmath$，
+而 $\jmath\Gamma\Delta_\infty=-\Gamma\Delta_\infty$
+在除子层面就成立，
+对(44)应用 $r^*$、再应用 $\Gamma^t$，得
+$$
+ \boxed{
+ \Gamma^t r^*([R_0]-[-R_0])
+   =4\Delta_\infty-f_4^*([T]-[-T]).
+ }
+\tag{46}
+$$
+这里 $f_{4*}\Delta_\infty=[T]-[-T]$。
+所以真正去 B 的边界
+$$
+ \Delta_{\rm prim}
+  =\Delta_\infty-\frac14 f_4^*([T]-[-T])
+\tag{47}
+$$
+满足 $4\Delta_{\rm prim}=\Gamma^t r^*P$，
+且 $r_*\Gamma\Delta_{\rm prim}=P$；
+最后一步还使用
+$\Gamma f_4^*=2(f_3\pi)^*$ 和 $r_*\pi^*=0$
+在 Jacobian 上的原始等式。
+于是特征零的 $\Delta_{\rm prim}$ 严格非挠。
+这不是只因原 B 的边界非挠而作出的推断。
+
+## 11. 全部范数将原 Pell 单位送成规范 Miller 函数
+
+现在取 R1039 已付的无穷惰性超奇异 q，
+置 $n=q+1$，并保持(18)–(21)的同一 U 和 $c_U$。
+写
+$$
+ f=\frac Y{Y+1},\qquad d=n/3.
+$$
+令 $\mathscr I$ 为原 incidence 曲线的正规化，
+$p:\mathscr I\to\mathcal C_4$ 为三度映射，
+$q_{\mathscr I}:\mathscr I\to\widetilde C$ 为二度映射。
+定义**整个** incidence 范数
+$$
+ U_\Gamma
+  =\operatorname{Nm}_{q_{\mathscr I}}(p^*U)
+       \in\mathbf F_q(\widetilde C)^\times.
+\tag{48}
+$$
+在一个分裂的一般四字母纤维上，
+若 $U_1,\ldots,U_4$ 是四个顶点的值，
+则边 $\{i,j\}$ 上的值准确为 $U_iU_j$。
+
+由 $\jmath_4U=c_U/U$，以及 $\iota$ 交换一对对边，
+$$
+ \jmath U_\Gamma=\frac{c_U^2}{U_\Gamma}.
+$$
+再取实际二度映射 $r$ 的全部范数
+$$
+ V=\operatorname{Nm}_r(U_\Gamma)\in\mathbf F_q(E_L)^\times.
+$$
+若 $\{k,l\}$ 是 $\{i,j\}$ 的对边，
+$\kappa=\iota\jmath$ 给出完全确定的等式
+$$
+ \boxed{
+ r^*V=c_U^2\,\frac{U_iU_j}{U_kU_l}.
+ }
+\tag{49}
+$$
+因此不是只按除子猜到 V 到一个常数：
+两个规范范数已经固定了 V 的常数。
+
+由(18)、(44)及 Norm 与除子的相容性，
+$$
+ \operatorname{div}(V)=n([R_0]-[-R_0]).
+$$
+而 $r\jmath=[-1]r$ 给
+$$
+ V\cdot[-1]^*V=c_U^4.
+\tag{50}
+$$
+尚可在同一个好模型的 $O_{E_L}$ 处确定规范。
+其两个原像为
+$$
+ P_0=(a,0,a\sqrt3),\qquad
+ \iota P_0=(a,0,-a\sqrt3).
+$$
+这两点允许在二次常数扩域上读取；取完整 Norm 后仍回
+$\mathbf F_q$。
+在各点，原三谱根为 $a,a\omega,a\omega^2$，
+后两根上的 g 值为0。
+相应的一条边的两个端点恰是
+$$
+ v=-1+\sqrt3\quad\hbox{或}\quad v=-1-\sqrt3
+$$
+上的两个相反 H 支。
+它们是 $D(v)=0$ 的真实四个好点；
+每一对的 U 值乘积由(19)严格等于 $c_U$。
+因此
+$$
+ U_\Gamma(P_0)=U_\Gamma(\iota P_0)=c_U,
+ \qquad V(O_{E_L})=c_U^2.
+\tag{51}
+$$
+这里没有额外的符号选择，也不依赖 $\sqrt3$ 是否已在基域。
+
+置 $M=V/c_U^2$。遂得
+$$
+ \boxed{
+ \operatorname{div}(M)=n([R_0]-[-R_0]),\quad
+ M(O_{E_L})=1,\quad M\cdot[-1]^*M=1.
+ }
+\tag{52}
+$$
+对同一固定 $R_0$ 作真实平移，
+$$
+ m_{P,q}(Q)=M(Q-R_0),
+$$
+利用 $[2]R_0=P$，可写成
+$$
+ \boxed{
+ \operatorname{div}(m_{P,q})=(q+1)([P]-[O_{E_L}]),
+ \qquad m_{P,q}(R_0)=1.
+ }
+\tag{53}
+$$
+这就是原 Pell 单位经完整 incidence 和 Prym 范数所得、
+在固定点规范的 Miller 函数。
+此外 $m_{P,q}(P-Q)=m_{P,q}(Q)^{-1}$。
+(53)并非另在 E_L 上选一个具有相同除子的函数：
+(48)–(52)支付了其与原四点谱域的完整函数恒等式。
+
+反向也有精确的乘法关系。
+对四点谱盖上固定顶点 i，其三个 incident 边的
+$r^*M$ 值乘积由(49)为
+$$
+ \prod_{j\ne i}\frac{U_iU_j}{U_kU_l}
+       =\frac{U_i^4}{U_1U_2U_3U_4}.
+$$
+因此沿转置 incidence 的整个 Norm 满足
+$$
+ \boxed{
+ \operatorname{Nm}_{\Gamma^t}(r^*M)
+   =\frac{U^4}{\operatorname{Nm}_{\mathcal C_4/B}U}
+   =\frac{U^4}{c_U^2 f^d}.
+ }
+\tag{54}
+$$
+左边定义为先沿 $\mathscr I\to\widetilde C$ 拉回，
+再沿 $\mathscr I\to\mathcal C_4$ 取三度范数；
+右边的 B 函数均按 $f_4$ 拉回。
+一般纤维上的函数域等式自动保全正规化上的所有零极重数。
+这付清了原 B 因子如何被去掉，而非只记录某个纯实现的同源关系。
+
+## 12. 去 B 后的第三类部分确实非零
+
+令 $\eta=d\log U$，并定义
+$$
+ \eta_{\rm prim}
+   =\eta-\frac14f_4^*
+         \left(\operatorname{Tr}_{\mathcal C_4/B}\eta\right).
+\tag{55}
+$$
+其 B 迹为0。
+由(25)，原迹微分在 $T,-T$ 的留数是 $1,-1$。
+$f_4$ 在 $I_\pm$ 的分歧指数是2；
+$\eta$ 在它们的留数分别为 $1,-1$。
+故
+$$
+ \operatorname{res}_{I_+}\eta_{\rm prim}=\frac12,\qquad
+ \operatorname{res}_{I_-}\eta_{\rm prim}=-\frac12.
+\tag{56}
+$$
+其余两个位于 T 上方的不分歧点各有留数 $-1/4$，
+另两个位于 $-T$ 上方的点各有留数 $1/4$。
+这些就是(46)–(47)的完整原边界。
+所以 $\eta_{\rm prim}\ne0$，不能因去掉 B 因子而删掉它。
+
+进一步，Norm 与对数微分的准确相容性给
+$$
+ r_*\Gamma\eta=d\log V=d\log M.
+$$
+要将这里的 $\eta$ 换成 $\eta_{\rm prim}$，
+还必须在第三类微分层面检查 B 项；
+单独引用 Jacobian 的 $r_*\pi^*=0$ 不够。
+置 $\beta=dX/[X(2Y+1)]$。
+原 B 的 $[-1]:(X,Y)\mapsto(X,-1-Y)$ 满足
+$[-1]^*\beta=-\beta$。
+又 $\Gamma f_4^*=2(f_3\pi)^*$，
+且 $f_3\pi\kappa=[-1]f_3\pi$。
+因此 $(f_3\pi)^*\beta$ 在 r 的甲板 involution κ 下反不变，
+其真正的二度微分迹为0。
+这直接证明
+$$
+ \boxed{r_*\Gamma\eta_{\rm prim}=d\log M.}
+\tag{57}
+$$
+右边在 $R_0,-R_0$ 的留数分别为
+$q+1,-(q+1)$，在特征 q 中为 $1,-1$，因而严格非零。
+这比只证明(25)非零更强：非零部分实际进入原 Prym 椭圆因子，
+并由(52)–(54)的全部函数范数控制。
+
+## 13. 这条固定边界尚须怎样被原最高投影消费
+
+(44)、(46)、(53)、(54)、(57)均是原四谱盖、原六边 g 盖、
+原 r 和固定 $P=(1,3)$ 之间的完整等式。
+P 在特征零非挠，去 B 的边界在特征零非挠，
+以及上述第三类微分在所选 q 中非零，都已得到证明。
+
+这些对象属于原谱盖的 Prym 与其有标记点的扩张。
+本节仍未将它等同于原 $H^3(2)$ 的最高 CM 线，
+也未计算它对原全部27对、有限 eta 权及 Cor 的实际贡献。
+后继必须保(48)–(54)的范数方向和指定边界，
+在原有权交与最高投影中作真正的比较；
+不能由这个低维非挠点或非零留数替代那一步。
+同样，无穷 q 的(53)并未证明 q+1 具有无穷多个不同素因子。

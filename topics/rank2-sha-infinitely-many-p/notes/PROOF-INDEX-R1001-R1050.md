@@ -118,3 +118,6 @@
 
 
 - [R1042](../results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)：R1042给原S34/T72/Φ126真正共用H3/F81平面，保全四输出；93/2511两odd whole核均为β，另90/810两even核保χ10λ，原ray只相容细化3和31。固定六次Q全七系数含q5=0，实际五深单单位网格读三条normalized-log差，各v=n；全部质量多项式、真实Kummer周期、不同单位cut及完整补域齐。两carry whole零核(41)尚不消掉(43)补域。
+
+
+- R1041§§10–13：R1041§§10–12将原四谱incidence边界准确送为[R0]−[−R0]、R0=(4,6)、类P=(1,3)；全部原Norm把Pell U送M，M(O)=1且M·[-1]*M=1，再平移得到指定P的规范Miller函数。反Norm=U⁴/(cU²f^d)，真正去B第三类的迹为dlogM且留数±1；最高λ/27消费仍待。
