@@ -53,9 +53,9 @@ R1027全q≥5 canonical fiber六挠；原图pushδ/∞同源−δ/τ pull及三�
 
 R1029原2挠C的f3/r2/Jac度3、Norm核与S3闭包F²=−q齐。R1031全惰性q≥5 Sel2=⟨gq⟩；仅Tate大q定位最短Q模2及twist Sha[2]=0。两quadric(19)/Norm/全坐标、稳定V/W theta R0/Fq下降全付；固定h/M与jW保gq^((q−1)/2)，Nm(h)=−2^7·3^10(r+a/2)/(r²X²)的两单零不当平方。仍须真实求覆盖点或27对。
 
-R1031§12–13将同一原Cδ双向化为(A³−1)(B³−1)=9，κ=[−1]下降无漏twist；两free三商给原C与Calt:c²=r⁶+34r³+1，Jac同源度81。Calt两个真Q椭圆商E+:y²=x³−219x+1654、E−:y²=x³+189x+702、同源度4，准确3/−1 twists和Vélu齐。E−有有理三挠(3,36)，每个ss q必inert且整个J(Cδ) F²=−q。已逐条消费Elkies1989已发表定理(Q有实嵌入)得无穷此类辅助q，可避任意固定有限集/Tate小q；§14实际swap商的九挠点及E−准确−3 twist再迫全ss辅助q≡−1mod9；不代ordinary p、q+1素因子无穷或原27非零。
+R1031§12–13将同一原Cδ双向化为(A³−1)(B³−1)=9，κ=[−1]下降无漏twist；两free三商给原C与Calt:c²=r⁶+34r³+1，Jac同源度81。Calt两个真Q椭圆商E+:y²=x³−219x+1654、E−:y²=x³+189x+702、同源度4，准确3/−1 twists和Vélu齐。E−有有理三挠(3,36)，每个ss q必inert且整个J(Cδ) F²=−q。已逐条消费Elkies1989已发表定理(Q有实嵌入)得无穷此类辅助q，可避任意固定有限集/Tate小q；§14实际九挠与−3 twist迫q≡−1mod9；§15真纤维积Ψ=−φ−3Q+、T²=−2(x+−11)、全六branch/原尺度/Frob图齐；不代ordinary p、q+1素因子无穷或原27非零。
 
-02:51–05:55执行环境失联及API快进全记录在逐字归档；05:57已补两仓实际pull，逐字重复未推提交保分支后skip。07:20UTC环境再次unavailable，实际git暂不能执行；最近真实公开pull仍07:12的1cf10ac7283dc40958604f5f981f1be0e477af80。07:23API只读比较至2f48662dd9bb90725daa0292b4742d45b6eaa7b3，根/课题README及本topic差异空；不称作实际pull。恢复即补两仓pull及README差异，断连期间仅沿最新父提交API快进，不force。数学只公开Actions。
+02:51–05:55执行环境失联及API快进全记录在逐字归档；05:57已补两仓实际pull，逐字重复未推提交保分支后skip。07:20UTC环境再次unavailable，实际git暂不能执行；最近真实公开pull仍07:12的1cf10ac7283dc40958604f5f981f1be0e477af80。07:40API只读比较至cbbb7eb83a946762c7e537d6c425e606467edc81，根/课题README及本topic差异空；不称作实际pull。恢复即补两仓pull及README差异，断连期间仅沿最新父提交API快进，不force。数学只公开Actions。
 
 ## 四、其它原门及执行分工
 

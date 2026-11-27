@@ -180,3 +180,6 @@ R1021§11登记完整一阶限制谱及真正转置：原βV在P1的留数逐点
 07:20UTC本地执行环境再次失联，exec-server transport disconnected/recovery timed out；所有此前结论已实际推至eda95d51e82b126439d51d42185a880e6ddad3e9。最近真实公开pull07:12的1cf10ac7283dc40958604f5f981f1be0e477af80、私库06:47的6139de54ac72f1c7af0508b88ce03efdbf0a5690保持。API比较至2f48662dd9bb90725daa0292b4742d45b6eaa7b3共1外题提交5文件，根/课题README及本topic差异空，不冒称实际pull。继续最新父提交API快进/不force，环境恢复补pull。唯一v10 run45956901945/job140365369016继续数学；新增固定绑定只读collector，保原全部终点投影并加R1033终点标签，发首快照，不重算或启动第二数学作业。H逐字归档压缩重复。
 
 2026-11-27 07:28 UTC：v10首只读run45958247749/job140369658303/source9018f8b49e8f9bd840e4a6ae9bc455bf42d7097a在07:24:41返回API_READ_ERROR/HTTPError，original_mathematics_status=NOT_ASSESSED；独立直接GET原job日志于07:28:45确认404 BlobNotFound。原run45956901945/job140365369016仍in_progress，未见数学失败/成功，不重启数学。当前main仍9018f8b，无新增README/topic变化；继续原证明，稍后再读已上传日志。
+
+2026-11-27 07:40 UTC / Astra-rank2-Sha-0b097461-20261127
+R1031§15登记同原Cδ的真实纤维积图：E+九挠Q+、EF→E+原Vélu两核及微分尺度1；原O与A=B两组三根逐值固定Ψ=−φ−3Q+。T=4(r−1)/(r+1)准确给−2尺度，正反函数域/全部6branch/特征q下降/Frob对易全核。没有把九挠或新商当原非挠截面。07:40API比较97f952389fd6d647056fb242ac0eef68007ffa10→cbbb7eb83a946762c7e537d6c425e606467edc81，根/课题README及本topic差异空；执行环境仍断，最近实际pull07:12未改记。继续原谱乘法/27权。
