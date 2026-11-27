@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-h1-global-monic-six-finite-points-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-s1-first-minor-five-chambers-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -218,6 +218,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
-[六位一对等权加四独立权原S1](notes/2026-11-28-one-pair-four-independent-original-s1-8542.md)的完整源9=6+3、低源5=4+1与三塔恒等式保留。修复13c594真run46073861936为6.550871417秒/121804KiB/0：首minor分子度28、24921项、944负系数；分母度26、17290项，纯Z正项23。准确INCONCLUSIVE，后五不算，不是S1反例。该系数非负配方冻结，换平方分组/同源结构；S1/S2、七位glue和同W费用仍开。首77aae仅JSON类型故障保准确回执。
+[一对加四独立S1旧配方边界](notes/2026-11-28-one-pair-four-independent-original-s1-coefficient-source-inconclusive-8542.md)：13c594真6.550871417秒/121804KiB/0，首minor分子度28/24921项/944负系数；只否定系数配方，非S1反例，后五/S2未算。原源9=6+3及完整下源5=4+1不变。[新首minor五组权序](notes/2026-11-28-one-pair-four-independent-s1-first-minor-five-chambers-8542.md)逐项付共同缩放度0、五个闭域和齐次身份；a316首次180秒/4GiB保全部逆/交叉项，只验首minor。全S1/S2、七位glue和同W费继续。
 
 [整K7双向原参数及rho恢复](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)：V8 BigInt17ms完整40身份，把K7等价为theta²=(k+12)²−96，m=(theta+k+12)/4、m^-1=(k+12−theta)/24，逆向仅原k/k4分母，判别式零与两分支俱保。k=2A/m、e=C/(6A)，全部原单位准确拉回；sigma=rho/(m−3)、m=4/(1+3sigma²)还覆盖整rho二次扩张。m0/∞无当前有限原点，A/B零只是原k/k4零。未排K空。新85bc源首次180秒/4GiB在代入整m参数后重建原六规则/18乘法；QQ(m)只选行，最终QQ[m]余子式及Bézout真返六原式，保所有临时主元零；同源个别原值继续。
