@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W整J19](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[原A[y]首一y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)与[D27单位/F806](results/R150-appendix-unit211-W-D27-original-six-column-unit-and-806-finite-cover.md)保留。** 新[同值两原四次](results/R150-appendix-unit211-W-original-two-quartic-necessary-values.md)给明确原EDelta/E2/E3组合，无D/一次值头逆；V8十独立变量五身份24ms全返。21400原生−11之前已成QQ分区F24·F782/46模因子及原M4证书、bc99全F24/065d隔离原返回的准确状态各独立保留；不重跑已成纤维。原w6/Y2、首一y6、失败与所有源身份见本次完整快照。0061首QQ超时冻结；B239/Y逆及W余原支继续，不外推旧D单位至h=k。
+**[W整J19](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[原y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)、[D27/F806](results/R150-appendix-unit211-W-D27-original-six-column-unit-and-806-finite-cover.md)及[同值两原四次](results/R150-appendix-unit211-W-original-two-quartic-necessary-values.md)保留；[F24整QQ覆盖全闭](results/R150-appendix-unit211-W-D27-F24-entire-original-QQ-exclusion.md)。** bc99真59.957秒/54208KiB/exit0，八完整k因子均保整个e5，一次支原已付权恒零、余e4商全部原48×35全列返1。全部非单位分裂保双边，无D幂目标。F782全部真实模回执及末新V8原108×56证书按完整有限整模型另行合成，旧21400/065d原生状态准确保留，不重跑已成纤维。B239/Y逆与W其余支开。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
