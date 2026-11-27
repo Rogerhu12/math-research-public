@@ -54,6 +54,10 @@ RESOLVENT_ROLE = "low_centre_resolvent_lift_math"
 OLD_DEFECT_ROLE = "completed_parent_moment_defect_actual"
 OLD_EXECUTION_ROLE = "completed_parent_moment_defect_execution"
 OLD_MANIFEST_ROLE = "completed_parent_moment_defect_manifest"
+ZERO_PREFLIGHT_EXECUTION_ROLE = "zero_science_signed_loop_execution"
+ZERO_PREFLIGHT_MANIFEST_ROLE = "zero_science_signed_loop_manifest"
+ZERO_PREFLIGHT_EXECUTION_SHA256 = "627d2a50ce6cabc5cdde1961316dcf58ebf8dda41966184c9674b3529415920b"
+ZERO_PREFLIGHT_MANIFEST_SHA256 = "27114818ceb3cc7983d5268ed2bb4e888ef4b68fc35af3455ed9c9a1fb1f2f48"
 ORIGINAL_MANIFEST_PATH = TOPIC + "notes/2026-11-26-low193-parent-moment-inputs.json"
 ORIGINAL_MANIFEST_SHA256 = "50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e"
 ORIGINAL_DEFECT_KIND = "complete_R142_low193_parent_moment_continuation_v1"
@@ -555,6 +559,51 @@ def completed_parent_defect(actual, execution, old_manifest, old_manifest_raw,
     return certificate, provenance
 
 
+def admit_zero_science_preflight(execution, previous_manifest, execution_raw,
+                                 previous_manifest_raw, specs, digest):
+    """Whole recorded UTF8 admission failure; no science or integral to replay."""
+    require(digest(execution_raw) == ZERO_PREFLIGHT_EXECUTION_SHA256
+            and digest(previous_manifest_raw) == ZERO_PREFLIGHT_MANIFEST_SHA256,
+            "whole explicit zero-science predecessor bytes")
+    require(execution["run_id"] == "45916550302" and execution["run_attempt"] == "1"
+            and execution["workflow_event_commit"] == "19938d1f149dd35a251d6976bf6dc8ae86d689c6"
+            and execution["manifest_sha256"] == ZERO_PREFLIGHT_MANIFEST_SHA256
+            and execution["scientific_started"] is False
+            and execution["scientific_children"] == 0
+            and execution["scientific_complete"] is False
+            and execution.get("actual_child_returncode") is None
+            and execution["completed_target_names"] == []
+            and execution["interrupted_target"] is None
+            and execution["scientific_files"] == []
+            and execution.get("consumed_marker_publication") is None
+            and execution["completed_old_targets_recomputed"] == 0,
+            "actual zero-child zero-target failure is not a mathematical prefix")
+    preflight = execution["readonly_preflight"]
+    require(preflight["returncode"] == 1 and preflight["stdout_bytes"] == 0
+            and preflight["stderr_sha256"] == "624bc8a53d39f23cd95321422d67d2a8c3fc4a60d0d02dc88e9777d4671a2b4a"
+            and "TypeError: Strings must be encoded before hashing" in preflight["complete_stderr_utf8"],
+            "the complete recorded UTF8-to-bytes preflight failure")
+    require(len(previous_manifest["files"]) == 97
+            and execution["current_input_receipts"] == previous_manifest["files"]
+            and previous_manifest["operation"]["ordered_targets"] == TARGETS
+            and previous_manifest["operation"]["certificate_parameters"] == CERTIFICATE_PARAMETERS
+            and previous_manifest["operation"]["fixed_runtime"] == RUNTIME,
+            "same whole97 inputs and exact unchanged mathematical target")
+    changed = {ENTRY_ROLE, "signed_loop_manifest_generator"}
+    for old in previous_manifest["files"]:
+        require(old["role"] in specs, "every prior source role remains")
+        if old["role"] not in changed:
+            require(specs[old["role"]] == old, "all mathematical inputs outside the two entry sources unchanged")
+    require(len(specs) == 99, "whole97 plus the two explicit zero-science objects")
+    return {"kind": "R149_whole_zero_science_UTF8_preflight_failure_v1",
+            "run_id": "45916550302", "run_attempt": "1",
+            "execution_sha256": ZERO_PREFLIGHT_EXECUTION_SHA256,
+            "manifest_sha256": ZERO_PREFLIGHT_MANIFEST_SHA256,
+            "recorded_scientific_children": 0, "recorded_completed_targets": [],
+            "recorded_failed_status_retained": True,
+            "old_complete_defect_or_signed_trace_recomputed": False}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ("repo", "manifest", "manifest-sha", "out", "native", "native-receipts",
@@ -627,15 +676,22 @@ def main():
             "whole saved comparison-Green success and unfinished wall-cap defect retained")
     old_defect_actual = json.loads(core.read_spec(root, specs[OLD_DEFECT_ROLE]))
     old_defect_execution = json.loads(core.read_spec(root, specs[OLD_EXECUTION_ROLE]))
-    old_defect_manifest_raw = core.read_spec(root, specs[OLD_MANIFEST_ROLE])
+    old_defect_manifest_raw = core.read_spec(root, specs[OLD_MANIFEST_ROLE]).encode("utf-8")
     old_defect_manifest = json.loads(old_defect_manifest_raw)
     original_manifest_specs = [v for v in manifest["files"] if v["path"] == ORIGINAL_MANIFEST_PATH]
     require(len(original_manifest_specs) == 1, "one entire immutable original77 manifest input")
-    original_manifest_raw = core.read_spec(root, original_manifest_specs[0])
+    original_manifest_raw = core.read_spec(root, original_manifest_specs[0]).encode("utf-8")
     original_manifest = json.loads(original_manifest_raw)
     old_defect_certificate, old_defect_provenance = completed_parent_defect(
         old_defect_actual, old_defect_execution, old_defect_manifest, old_defect_manifest_raw,
         original_manifest, original_manifest_raw, prefix_actual, manifest, specs, core.digest)
+    zero_execution_raw = core.read_spec(root, specs[ZERO_PREFLIGHT_EXECUTION_ROLE]).encode("utf-8")
+    zero_manifest_raw = core.read_spec(root, specs[ZERO_PREFLIGHT_MANIFEST_ROLE]).encode("utf-8")
+    zero_preflight = admit_zero_science_preflight(
+        json.loads(zero_execution_raw), json.loads(zero_manifest_raw),
+        zero_execution_raw, zero_manifest_raw, specs, core.digest)
+    require(operation["retained_scope"]["whole_zero_science_utf8_predecessor"] == zero_preflight,
+            "explicit whole zero-science qualification is saved in the retained scope")
     require(old_defect_certificate["model"] == prefix_actual["certificate"]["model"],
             "whole original comparison-Green model record is unchanged")
     admission_names = [item["name"] for item in admitted["admission"]["checks"]]
@@ -678,6 +734,7 @@ def main():
             "complete_old_Green_success_and_defect_wall_cap_prefix_admitted": True,
             "whole_completed_old_HS_and_false_Neumann_branch_admitted": True,
             "whole_old_defect_provenance": copy.deepcopy(old_defect_provenance),
+            "whole_zero_science_utf8_predecessor": copy.deepcopy(zero_preflight),
             "old_success_not_registered_as_new_target": True,
             "prior_diagnostic_will_not_be_recomputed": True,
             "new_scientific_targets_evaluated": 0, "old_scientific_calls": 0,

@@ -22,6 +22,8 @@ BASE_MANIFEST = TOPIC+"/notes/2026-11-26-low193-parent-moment-inputs.json"
 BASE_SHA256 = "50e5bbf2e55ee6fa7c24cd074cb2a7bd691101c3167004b840011710ac963b7e"
 MANIFEST_PATH = TOPIC+"/notes/2026-11-26-low193-signed-loop-inputs.json"
 WORKFLOW_PATH = ".github/workflows/fourfold-codazzi-low193-signed-loop-public.yml"
+RESUME_MANIFEST_PATH = TOPIC+"/notes/2026-11-27-low193-signed-loop-after-45916550302-inputs.json"
+RESUME_WORKFLOW_PATH = ".github/workflows/fourfold-codazzi-low193-signed-loop-after-45916550302.yml"
 WORKER_PATH = TOPIC+"/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py"
 OWNER_PATH = TOPIC+"/scripts/fourfold_codazzi_low_centre_signed_loop_owner.py"
 GENERATOR_PATH = TOPIC+"/scripts/make_low193_signed_loop_manifest.py"
@@ -92,6 +94,8 @@ def main():
     parser.add_argument("--defect-actual")
     parser.add_argument("--defect-execution")
     parser.add_argument("--defect-manifest")
+    parser.add_argument("--zero-science-execution", required=True)
+    parser.add_argument("--zero-science-manifest", required=True)
     args = parser.parse_args()
     root = Path(args.repo).resolve()
     base_raw = (root/BASE_MANIFEST).read_bytes()
@@ -119,6 +123,9 @@ def main():
         "ORIGINAL_DEFECT_KIND", "STREAM_DEFECT_KIND", "PARALLEL_DEFECT_KIND",
         "PARALLEL_DEFECT_OWNER_SHA256", "PARALLEL_DEFECT_MATH_SHA256", "ORIGINAL_DEFECT_OWNER_SHA256",
         "STREAM_DEFECT_OWNER_SHA256", "STREAM_DEFECT_MATH_SHA256", "DEFECT_NORM_FIELDS"})
+    constants.update(literal_assignments(owner_raw, {
+        "ZERO_PREFLIGHT_EXECUTION_ROLE", "ZERO_PREFLIGHT_MANIFEST_ROLE",
+        "ZERO_PREFLIGHT_EXECUTION_SHA256", "ZERO_PREFLIGHT_MANIFEST_SHA256"}))
     require(constants["SOURCE_PATH"] == OWNER_PATH
             and constants["KIND"] == "complete_R149_low193_signed_loop_coercivity_v1"
             and constants["TARGETS"] == ["complete_same_weighted_body_signed_trace_and_symmetric_part"]
@@ -184,6 +191,8 @@ def main():
         (constants["OLD_DEFECT_ROLE"], old_actual_path),
         (constants["OLD_EXECUTION_ROLE"], old_execution_path),
         (constants["OLD_MANIFEST_ROLE"], old_manifest_path),
+        (constants["ZERO_PREFLIGHT_EXECUTION_ROLE"], relative(args.zero_science_execution)),
+        (constants["ZERO_PREFLIGHT_MANIFEST_ROLE"], relative(args.zero_science_manifest)),
         ("signed_loop_manifest_generator", GENERATOR_PATH)):
         raw = (root/path).read_bytes()
         require(role not in by_role and path not in {item["path"] for item in original_files},
@@ -205,16 +214,17 @@ def main():
     require(len({item["role"] for item in manifest["files"]}) == len(manifest["files"])
             and len({item["path"] for item in manifest["files"]}) == len(manifest["files"]),
             "whole new entry has unique roles and paths")
-    # These three metadata functions perform only whole metadata comparisons and
+    # These four metadata functions perform only whole metadata comparisons and
     # exact decimal-record decoding. Importing or running the scientific owner,
     # any producer entrypoint, or a numerical library is not permitted here.
-    metadata_names = {"readonly_decimal_endpoints", "readonly_parallel_defect_domain", "completed_parent_defect"}
+    metadata_names = {"readonly_decimal_endpoints", "readonly_parallel_defect_domain", "completed_parent_defect",
+                      "admit_zero_science_preflight"}
     metadata_tree = ast.parse(owner_raw.decode("utf-8"), filename=OWNER_PATH)
     metadata_nodes = [node for node in metadata_tree.body
                       if isinstance(node, ast.FunctionDef) and node.name in metadata_names]
     require({node.name for node in metadata_nodes} == metadata_names
             and len(metadata_nodes) == len(metadata_names),
-            "only the exact owner's three pure metadata admission functions")
+            "only the exact owner's four pure metadata admission functions")
     metadata_namespace = {"require": require, "Fraction": Fraction,
                           "copy": copy, "re": re, **constants}
     exec(compile(ast.Module(body=metadata_nodes, type_ignores=[]), OWNER_PATH, "exec"),
@@ -226,6 +236,12 @@ def main():
         green_actual, manifest, by_role, lambda raw: hashlib.sha256(raw).hexdigest())
     require(old_certificate["defect"] == actual["certificate"]["defect"],
             "all six original saved balls stay byte-derived and unchanged")
+    zero_execution_raw = (root/by_role[constants["ZERO_PREFLIGHT_EXECUTION_ROLE"]]["path"]).read_bytes()
+    zero_manifest_raw = (root/by_role[constants["ZERO_PREFLIGHT_MANIFEST_ROLE"]]["path"]).read_bytes()
+    zero_preflight = metadata_namespace["admit_zero_science_preflight"](
+        json.loads(zero_execution_raw), json.loads(zero_manifest_raw),
+        zero_execution_raw, zero_manifest_raw, by_role,
+        lambda raw: hashlib.sha256(raw).hexdigest())
     require(by_role["proof_R149_conjugated_defect"]["git_blob_sha"]
                 == "55180c7cda85e4ba5c7f63af396d8223f196732b",
             "final whole reviewed conjugated proof with correct display delimiters")
@@ -248,6 +264,7 @@ def main():
         "completed_source_atom_or_point_targets_recomputed": False,
         "four_source_atom_and_point_continuation_still_unpaid": True,
         "whole_varying_parent_defect_not_treated_as_constant": True})
+    scope["whole_zero_science_utf8_predecessor"] = copy.deepcopy(zero_preflight)
     op = manifest["operation"]
     require(len(op["complete_gate_names"]) == 18+len(constants["GATE_SUFFIX"]),
             "same eighteen original admission gates")
@@ -302,7 +319,7 @@ on:
   push:
     branches: [main]
     paths:
-      - .github/workflows/fourfold-codazzi-low193-signed-loop-public.yml
+      - __WORKFLOW_PATH__
 
 permissions:
   contents: write
@@ -342,15 +359,19 @@ __FROZEN_SPARSE_PATHS__
           python __WORKER__ --repo "$GITHUB_WORKSPACE" --manifest __MANIFEST__ --manifest-sha __MANIFEST_SHA__
 """
     workflow = workflow.replace("__DOLLAR__", "$").replace("__WORKER__", WORKER_PATH).replace(
-        "__MANIFEST__", MANIFEST_PATH).replace("__MANIFEST_SHA__", digest)
+        "__MANIFEST__", RESUME_MANIFEST_PATH).replace("__MANIFEST_SHA__", digest).replace(
+        "__WORKFLOW_PATH__", RESUME_WORKFLOW_PATH)
     # Periodic mandatory pulls must retain every frozen current input.  Files
     # temporarily hydrated outside a sparse definition may otherwise disappear
     # on a later checkout/rebase, including during the final readonly check.
-    sparse_paths = sorted({"README.md", TOPIC+"/README.md", MANIFEST_PATH,
+    sparse_paths = sorted({"README.md", TOPIC+"/README.md", RESUME_MANIFEST_PATH,
                            *[spec["path"] for spec in manifest["files"]]})
     workflow = workflow.replace("__FROZEN_SPARSE_PATHS__", "\n".join(
         "            /"+path for path in sparse_paths))
     manifest_out, workflow_out = Path(args.manifest_out), Path(args.workflow_out)
+    require(manifest_out.resolve() == root/RESUME_MANIFEST_PATH
+            and workflow_out.resolve() == root/RESUME_WORKFLOW_PATH,
+            "one explicit new entry for the whole recorded zero-science failure")
     require(not manifest_out.exists() and not workflow_out.exists(),
             "metadata creates one new entry and does not overwrite an existing entry")
     manifest_out.parent.mkdir(parents=True, exist_ok=True)
@@ -361,7 +382,8 @@ __FROZEN_SPARSE_PATHS__
         "workflow": str(workflow_out), "complete_input_count": len(manifest["files"]),
         "bound_scientific_sources": len(op["scientific_module_binding"]),
         "scientific_evaluations": 0, "old_completed_targets_recomputed": 0,
-        "accepted_defect_provenance": old_provenance}, sort_keys=True))
+        "accepted_defect_provenance": old_provenance,
+        "whole_zero_science_utf8_predecessor": zero_preflight}, sort_keys=True))
 
 
 if __name__ == "__main__":
