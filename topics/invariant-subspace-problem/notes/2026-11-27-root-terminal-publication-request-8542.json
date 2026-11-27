@@ -1,20 +1,16 @@
 {
-  "message": "ISP: exclude the entire original D27 weight curve and continue the collision zero face",
-  "parentCommit": "6a79341b77b1b64b4eb12b641376a2d88cc4b947",
+  "message": "ISP: preserve rational source assembly failure and run the complete original parameter input",
+  "parentCommit": "04575baa9f6841e1eb9e805098f117a579396d61",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-D27-entire-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-last-cubic-original-two-quartics-fifty-return-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-last-cubic-original-two-quartics-final-return-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-last-cubic-original-two-quartics-return-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-unfinished-isolated-actual-return-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-original-rational-candidate-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-t-zero-delta-zero-rational-candidate-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-entire-D27-exclusion-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-entire-D27-exclusion-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-first-assembly-failure-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-first-assembly-failure-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-complete-original-rational-return-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-t-zero-delta-zero-complete-rational-return-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-collision-rational-original-return-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-t-zero-delta-zero-rational-candidate-8542.yml"
+    "invariant-subspace-equal-singleton-t-zero-delta-zero-complete-rational-return-8542.yml"
   ]
 }
