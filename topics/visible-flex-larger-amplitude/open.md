@@ -124,3 +124,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 [ret52](notes/2026-11-27-legacy-derived-grid-recovery-retention-52.md)仅退14个原生成网格/恢复收据/条件报告，共1632095B；四完整恢复材料162081B，净1470014B。原52小记录/43全源/142输入绑定/十全resource保，9个runner-only numpy原件仍未重新取回且不删除；历史消费者先恢复精确Git字节，不以近似重采样替代。
+
+19完整normal/geometry/closed参数已刊[总表](computations/fixed-fejer-bhalf-R722-complete-post-parameter-delivery.json)：38/8/8 argv、36/48/66 selectors及所有原预算不缩，实际源仍c6f6/7892/6c57/c6b0/002eb。只当前namespace/报告位置变，完整旧ready原历史保；准备期null不倒填成当前实际值，精确全域费用仍待真正完整场。

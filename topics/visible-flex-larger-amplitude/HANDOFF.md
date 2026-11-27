@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `4a883f0ee24f71a87c31665a85d8ee061b7e1f4d`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–19通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `5170e34ea4304c635ab0d258d9d013b9850625fb`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–19通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -36,7 +36,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 后继与未付责任
 
-全部旧后继源码/参数/失败未知保open§7及固定0c51/58c6 H链。当前producer_R722 mean5件/4fc252+7c66，准确费10件/c6f6+7892+6c57+c6b0，closed5件/002eb，R716六件/45ca+d0fe，mesh8件/2ef3+b399+8197均已刊；当前实际费用未付。完整数学/原API/validator/原预算不缩，准确mean全角ε仍待实际，旧R709 bool真实，Dhat不代真根，J不代Cu。19同源全后参数待ret52容量后刊；20仅恢复阻尼.01→.001的独立全参正在接，不改19。
+全部旧后继源码/参数/失败未知保open§7及固定0c51/58c6 H链。当前producer_R722 mean5件/4fc252+7c66，准确费10件/c6f6+7892+6c57+c6b0，closed5件/002eb，R716六件/45ca+d0fe，mesh8件/2ef3+b399+8197均已刊；当前实际费用未付。完整数学/原API/validator/原预算不缩，准确mean全角ε仍待实际，旧R709 bool真实，Dhat不代真根，J不代Cu。19同源前三完整后参已刊、矩/mesh即接；20仅恢复阻尼.01→.001的独立全参正在接，不改19。
 
 R723方向支撑s/(nᵀAn)及全平行面排序已证，实际支撑/曲率未付；完整独立消费者在接，不能冒旧8角色已通过。R718 marked σ、R716独立无标记管、R719/R720全ρ>0与前三RN固定仍须实付。R721无Gram/主曲率排序。全部证明与完整源链接见open/results。
 
