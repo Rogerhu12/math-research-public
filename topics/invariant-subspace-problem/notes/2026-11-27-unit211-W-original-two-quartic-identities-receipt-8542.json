@@ -1,0 +1,126 @@
+{
+  "schema": "isp-actual-universal-same-value-quartic-identities-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "blob": "4a2d22623519d6a6f3c29438247cda689b22fb8f",
+    "sha256": "3d71f3f1c88e0b582123bd6f00f932c882dd8ee1e50f2567c37fdaa330757189",
+    "bytes": 6395
+  },
+  "actualExecution": {
+    "runtime": "functions.exec JavaScript V8 exact BigInt polynomial arithmetic",
+    "externalProcess": false,
+    "posixExit": null,
+    "maxRss": null,
+    "elapsedMilliseconds": 24,
+    "allChecks": {
+      "schema": "isp-universal-same-value-quartic-identities-v1",
+      "variables": [
+        "ell",
+        "u",
+        "m",
+        "Q",
+        "J",
+        "d",
+        "M",
+        "lambda",
+        "T",
+        "s"
+      ],
+      "exactIntegerCoefficientPolynomialArithmetic": true,
+      "specializationsOrNumericSamples": 0,
+      "allFiveOriginalCombinationIdentitiesActuallyReturned": true,
+      "checkedIdentities": [
+        "full_original_Delta_quadratic_to_same_s_linear",
+        "Delta_second_moment_quartic_original_combination",
+        "Delta_third_moment_quartic_original_combination",
+        "second_third_moment_sextic_original_combination",
+        "three_same_value_eliminants_exact_relation"
+      ],
+      "polynomials": {
+        "a": {
+          "terms": 18,
+          "degreeLambdaT": 2,
+          "degreeS": 0,
+          "bytes": 514,
+          "sha256": "54082bc79130782b4edf6cbbeaeaa4fa4e76c321365e43cf7f33421a6652d506"
+        },
+        "b": {
+          "terms": 4,
+          "degreeLambdaT": 1,
+          "degreeS": 0,
+          "bytes": 115,
+          "sha256": "935f498b042e760bc08de367078a5ce84777c7e65b04fa53327add871ae9e609"
+        },
+        "C": {
+          "terms": 3,
+          "degreeLambdaT": 0,
+          "degreeS": 0,
+          "bytes": 86,
+          "sha256": "8572d4fb434562272cc9178412159254735f9172e6809d12e6a510b3cb125480"
+        },
+        "D": {
+          "terms": 4,
+          "degreeLambdaT": 2,
+          "degreeS": 0,
+          "bytes": 115,
+          "sha256": "02e5238a574a061f82e6a4f7a0e60708114d05d87e60a0a4d822037312811059"
+        },
+        "K": {
+          "terms": 8,
+          "degreeLambdaT": 3,
+          "degreeS": 0,
+          "bytes": 229,
+          "sha256": "fb09643a054f6ffffe4003a7e6199476e8b64b2c88143957822c9ff6e067af5a"
+        },
+        "N4": {
+          "terms": 138,
+          "degreeLambdaT": 4,
+          "degreeS": 0,
+          "bytes": 4024,
+          "sha256": "a71dc95a01962764e31838779a0b3abcef6a97c682ac85b970d9a936b5f04d2e"
+        },
+        "C4": {
+          "terms": 54,
+          "degreeLambdaT": 4,
+          "degreeS": 0,
+          "bytes": 1566,
+          "sha256": "acbd2e4ba4737f4cd75097d63ee36bfb045113a5b021ec56cfa34246efbfce3f"
+        },
+        "N6": {
+          "terms": 42,
+          "degreeLambdaT": 6,
+          "degreeS": 0,
+          "bytes": 1235,
+          "sha256": "69bd2c7bab81306c97c143aa0ee136ff81f4d5b14d3301e727eed2bd00004988"
+        }
+      },
+      "sameOriginalSUsedInAllIdentities": true,
+      "noPhysicalDOrNormInverse": true,
+      "nonunitFactorsNotDiscarded": true,
+      "onlyNecessaryOriginalEquationsAsserted": true,
+      "finiteOriginalFibersNotYetEvaluated": true,
+      "claimExcluded": false,
+      "elapsedMilliseconds": 24
+    }
+  },
+  "publishedOriginalSources": [
+    {
+      "path": "results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-native-full-value-four-generator-system.md",
+      "blob": "6e43221c5c7f61205af9b510ee8e1a17b63a576f",
+      "sourceSHA256": "f9409e5f1675e94af9ed1b7d7d09fef6abb9897dc484c9758af97c847e581bfb"
+    },
+    {
+      "path": "results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-value-identities-and-monic-four-generator-tower.md",
+      "blob": "9bff6d2a4f092801c21436a50e3ca503e5645c5c"
+    }
+  ],
+  "scope": {
+    "originalDeltaZeroWZeroOnly": true,
+    "allPriorOriginalPhysicalRestrictionsRetained": true,
+    "NoPhysicalDOrNormInverse": true,
+    "newFiftyByThirtyFiveInputActuallyExecuted": false,
+    "oldSuccessfullyClosedFibersNotReplayed": true,
+    "wholeWExcluded": false,
+    "ordinaryISPClaim": false
+  }
+}

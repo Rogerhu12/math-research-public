@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W 同值双四次必要式的完整原组合](results/R150-appendix-unit211-W-original-two-quartic-necessary-values.md)：同一s从EDelta及二三矩得R4/C4，保D及一次头零支；十独立变量五恒等式V8精确返回。
+
 - [单链U对原B、全部dyadic幂及原单个位的实际非不变性](results/R271-appendix-single-chain-actual-dyadic-shift-noninvariance.md)：完整Y Cayley系数保留；四次主项超过三次费用反解，dyadic有限头解析逆排全部幂。
 
 - [等单点值等权 Delta 零面的完整原返回与整个等权碰撞排除](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-and-entire-collision-exclusion.md)：完整lambda20代数/原Q一次/自由f的E1与EBe真Bézout1；合Delta非0支后整个h=k,b=c闭，合法付u−ell。

@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-single-chain-complete-intertwiners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-two-original-quartics-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W整J19](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[w6/Y2自由12维](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)、[原A[y]首一y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)及[D27原单位/F806](results/R150-appendix-unit211-W-D27-original-six-column-unit-and-806-finite-cover.md)保留。** 新21400实际51.554秒/109064KiB/inner−11原生崩溃，无Python traceback；精确QQ分区806=24+782、全部46好素数因子乘回已完成。0–10/12–13整e5及11/e4原M4返1，但11/e1仅rank33，14–45未返回；这些模分支不单独冒称QQ因子闭。[准确失败凭据](notes/2026-11-27-unit211-W-D27-first-finite-Gauss-native-failure-receipt-8542.json)已冻结。新bc99首作F24八整QQ因子与全e5的48×35常数1返回，所有非单位双支全保，180秒4GiB；新065d只接F782因子14–45及11/e1的真正新M5=100×56，逐k因子独立进程；已返原M4支不重放，原e非单位双支保留，180秒4GiB。0061首11阶QQ投影超时仍冻结；B239/Y逆及完整W继续，旧D非0权结论不传h=k。
+**[W整J19](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[原A[y]首一y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)与[D27单位/F806](results/R150-appendix-unit211-W-D27-original-six-column-unit-and-806-finite-cover.md)保留。** 新[同值两原四次](results/R150-appendix-unit211-W-original-two-quartic-necessary-values.md)给明确原EDelta/E2/E3组合，无D/一次值头逆；V8十独立变量五身份24ms全返。21400原生−11之前已成QQ分区F24·F782/46模因子及原M4证书、bc99全F24/065d隔离原返回的准确状态各独立保留；不重跑已成纤维。原w6/Y2、首一y6、失败与所有源身份见本次完整快照。0061首QQ超时冻结；B239/Y逆及W余原支继续，不外推旧D单位至h=k。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
