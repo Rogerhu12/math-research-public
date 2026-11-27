@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 12
     env:
       ISP_PIN: ${{ github.sha }}
-      ISP_FILE: 2026-11-28-one-pair-four-independent-original-s1-8542.py
+      ISP_FILE: 2026-11-28-one-pair-four-independent-original-s1-summary-fixed-8542.py
       OMP_NUM_THREADS: '1'
       OPENBLAS_NUM_THREADS: '1'
       MKL_NUM_THREADS: '1'

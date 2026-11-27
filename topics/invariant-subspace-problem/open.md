@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-subquotient-intertwining-directions-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-H1-exact-3179-infinity-degree-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -48,7 +48,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **S0/Lt0整支已闭：** 原615覆盖及全部退化保快照；一般LS仍保(Pf,Pt)非同时零、Delta0的Phi及W的u(Q+2)−2、k+1。四值式首一二次/三一次及四Gram仅按原必要性使用；W整H旧零已付，不混新H265。
 
-[H非零原全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)及[整u=Q返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已付H/u−Q；旧180秒cofactor、76.992秒trace、F3/F95冻结，精确来源保快照。整个D27/J19已由原整域返回排空；当前W续全T3/F2原十一行和新Θ/NV输入，旧来源及失败保完整快照。
+W的旧H非零全分类、整个u=Q、D27/J19均已闭；准确原证明、源及180秒cofactor/76.992秒trace/F3/F95失败保本次完整快照。原全T3/F2十一行、Θ/NV和全部未付个别值继续，当前规范六生成及新物理lambda图见后节，不重放这些旧门。
 
 
 
@@ -204,7 +204,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 $$
 P_{201}(u)=0,\qquad g(u,Q)=0,\qquad \#(u,Q)\le804 .
 $$
-[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)的四原尺度、六无h逆乘法及F6/NV同点列已返。[新三头整个零支](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)由e3cf真0.487842716秒及已刊十权定理合成关闭：残norm41的五条旧线、九次实际Q一次/54维原单位和十次完整QQ一次gcd全部覆盖。只允许原解图使用h逆，F9的其它Q根及整u纤维未被误删，804不变。e18d真3.420099509秒已以∞ rank1+3付首范数QQ精确3179及mod保度；另两范数QQ上界5764/6092、mod5131/5407，保度仍开，mod共同2773不直接缩QQ覆盖。新λ6实际头、P201系数、原λ/T/z/个别NP、其它Phi和b0的316继续；旧门冻结。
+[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)的四原尺度、六无h逆乘法及F6/NV同点列已返。[新三头整个零支](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)由e3cf真0.487842716秒及已刊十权定理合成关闭：残norm41的五条旧线、九次实际Q一次/54维原单位和十次完整QQ一次gcd全部覆盖。只允许原解图使用h逆，F9的其它Q根及整u纤维未被误删，804不变。[原首范数精确3179](results/R150-appendix-unit211-Phi-zero-H1-original-norm-exact-degree-3179-at-infinity.md)由e18d真3.420099509秒的∞完整rank1+3付929+2250，两首项259/814乘积954是mod单位；旧417差额由赋权411与真实小块消阶6完全支付。另两范数QQ上界5764/6092、mod5131/5407，保度仍开，mod共同2773不直接缩QQ覆盖。新λ6实际头、P201系数、原λ/T/z/个别NP、其它Phi和b0的316继续；旧门冻结。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -220,4 +220,4 @@ $$
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
-[六位一对等权加四独立权的原S1首次输入](notes/2026-11-28-one-pair-four-independent-original-s1-8542.md)：完整固定源9=6+3、低源5=4+1，另3维沿旧一般出生一结果；新六维使用完整低5维逆和第四真空塔，原U,V,W≥0/Z>0覆盖全部四单权排序。首次run46073432475真8.765704725秒/122064KiB/exit1已返全部原逆、矩阵与对称性，首minor摘要因fmpz不可JSON输出而中断；修类型后只记录首个系数失败，不继续无效的同配方后五子式，不付S1/S2/七位glue。
+[六位一对等权加四独立权的原S1首次输入](notes/2026-11-28-one-pair-four-independent-original-s1-8542.md)：完整固定源9=6+3、低源5=4+1，另3维沿旧一般出生一结果；新六维使用完整低5维逆和第四真空塔，原U,V,W≥0/Z>0覆盖全部四单权排序。首次run46073432475真8.765704725秒/122064KiB/exit1已返全部原逆、矩阵与对称性，首minor摘要因fmpz不可JSON输出而中断；修复源13c594只把负例指数转int，并在首个系数失败立即停止；不继续无效的同配方后五子式，不付S1/S2/七位glue。
