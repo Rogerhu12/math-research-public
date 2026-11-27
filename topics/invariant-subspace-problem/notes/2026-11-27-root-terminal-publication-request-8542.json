@@ -1,16 +1,15 @@
 {
-  "message": "ISP: record complete original collision u heads and finite-u infinity boundary",
-  "parentCommit": "712ec6fa9f1e483111d6ac1a7e445b0a553a6765",
+  "message": "ISP: prove three-plus-three joint budgets and uniform seven-site edges",
+  "parentCommit": "97e82b545760dd4a4c627e30b3b1ad73f708b734",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-collision-E-u-heads-and-finite-u-infinity-boundary.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-E-u-head-integral-finite-free-model-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-E-u-head-integral-finite-free-model-8542.md",
-    ".github/workflows/invariant-subspace-8542-collision-head-integral-model.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-collision-integral-head-model-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-three-plus-three-original-joint-budgets-and-seven-site-uniform-edges.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-three-plus-three-joint-source-budget-exact-8542.mjs",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-three-plus-three-uniform-edges-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-three-plus-three-uniform-edges-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-collision-head-integral-model.yml"
-  ]
+  "dispatchWorkflows": []
 }

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271 三加三原联合费用与七位统一24/25首末边](results/R271-appendix-three-plus-three-original-joint-budgets-and-seven-site-uniform-edges.md)：五个完整原Gram和三正多项式给同源S1/S2预算；真实定量Schur与倒数权对偶返回七位整14维两边的统一余量，旧定性不重计。
+
 - [R150 碰撞两原E的完整u首项及有限u无穷远边界](results/R150-appendix-unit211-collision-E-u-heads-and-finite-u-infinity-boundary.md)：首项精确为B⁵F162/B⁵F167，完整QQ分解；显式Bezout给λ∞有限u支撑0/2。两个整头零未付，原u-gcd超时准确冻结，未宣仿射排空。
 
 - [R271 一特殊权全部出生的尖锐统一联合来源预算](results/R271-appendix-one-special-weight-all-births-uniform-joint-source-budgets.md)：完整池串与真实最高逆给F>C1²/3、创新费<F/4及S<2I/3；三统一常数均尖锐，保全部原上下源，不外推一般权或无限费用。
