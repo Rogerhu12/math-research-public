@@ -35,7 +35,7 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 [p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)保incoming完整剔除和0。[fixed-base向外全式](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)保原底曲线、全部cyclic p²级、全degree34→34p²修正图及Ω^[p]=d0*Ω−p⁻²λ*d2*Ω；proper AJ全和为(p²−1)I。
 
-**[原full54全精度交叉比较](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)**：实际beta固定共同cover/N=34M²、真空1及Jβ∈1+pO〈v〉；正权全KS/Hecke、Kriz Γ(2,2)局部H−2配对和R997水平规范保持原54/η/Cor。稠密n=(p²−1)u−2、v=(p−1)u只在正权消共同factorial/period/p幂，给I_j B_lK_l0=I_lB_jK_j0。一K单位及原好范围时I_j=Fgeom B_jK_j0，Fgeom单位、barFgeom=−[L:H]；无K单位只用cross。不冒全局类相同或无穷非零。
+**[原full54全精度cross](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)** 已由[互补源§§7–9](notes/2026-11-27-original-complementary-type4-inverse-beta27-input.md)扩到实际六条：I_iB_lK_l0=I_lB_iK_i0。新B′取真T′5、全finite/phase/共同cover保；一K单位及原好集才有F单位/barF=−432。只对真实零质量组合付权导数ΣbB(K′+K0Jβ′)，beta费用不删；R614整窗给除p式(27b)。无K单位只用cross；几何q0、canonical斜率及通常Sha主门仍开。
 
 固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)已付三K29单位，不代c_j/q0好范围。whole17 Heisenberg提升及p≡2/5mod9的三线循环全保；原四元平均B完整六列、三列及模11非同谱已付，不能以B³或单U_e免费传播canonical。
 

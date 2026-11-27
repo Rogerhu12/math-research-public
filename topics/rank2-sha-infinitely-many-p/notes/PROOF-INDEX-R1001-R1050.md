@@ -369,3 +369,6 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 
 
 - [原半周期两端热运输](2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)§10：全族半周期、准周期和原半特征一起运输，真实[L2,Uτ]=[D²/68+34g2z²/24,Uτ]。原有理连接H34=L2+B34给L2P+[B34,P]=0；在原P R_S=0和指定齐次lift上，(L2P)R_S=−P4(Q_S/σ34)/68。故heat-flat与齐次lift的差和投影移动费用都准确回同六列，未对单CM坏条件微分，未给补项添中央零。
+
+
+- [原六维完整几何cross及一阶](2026-11-27-original-complementary-type4-inverse-beta27-input.md)§§7–9：实际(v_+,2/8/14)的逆η、3+√3范数、全部17向量与CM13逆根已锁；B′严格取同full54的17δT′5/9，保原绝对相位和Artin线。新三正真空与旧三条在同一个finite算子/共同cover下给跨全部六条的I_i B_lK_l0=I_l B_iK_i0；一K单位及原好整格范围才有同F单位、barF=−432。真正零质量组合的权斜率为(p−1)FΣb_iB_i(K_i′+K_i0Jβ_i′)，beta项完整保。R614全addition整窗进一步给该除p斜率的完整两系数式(27b)，没有新数学运行；原heat-flat仍D²S/68，不从CM质量零或六线比例取得canonical坏forcing。

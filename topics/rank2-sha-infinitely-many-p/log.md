@@ -250,3 +250,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 20:14 UTC：root消费arithmetic半周期两端热运输blob a1fe5cfb858a673f1b4b31453ca84ff24d72edfb，手核τ/aτ全导数、原κ半特征、指数τ/2常数、势项及sigma frame零PR处的完整导数。发布canonical note§10，合并22555B/SHA256 b2972fb15e0cf0ffcd142332999f8175f09309bc0162b704a494de6c4574705e；(L2P)R_S真费用为−P4Q_S/(68σ34)，与heat-flat有限jet准确抵消。无数学执行，原canonical坏仍只CM斜率条件。H整理前全文9866B存before-six-line-heat-transport，完整旧归档链保；下一实际双库pull≤21:01。新inverseβ′三值已发布dec681be，跨六线原finite/绝对基独审继续。
+
+
+- 2026-11-27 20:21 UTC：root消费geometry跨六线blob bfd378dea7e668cb7c98295de369a7cafbad2e7b。central独回R1049§13.3–13.5及unsquared§3–6核两处完整邻点Gram、新3+√3范数、δ符号及B′平方全部常数；root逐式核μ′=μ^-1、z4规范、同有限ν27^6/ν27^12、mixed cross、零质量差商和beta费用。root亲读完整R614，arithmetic独核(9)全addition整窗应用到D六列和实际σ^N Pβ，支付(27b)最佳除p斜率。合并逆β′note 22140B/SHA256 9298071e82c8edbafc19c1eef6609d5938417bda7914cf7b24dff0f1ff604fac。同时root亲读R798(2)(6)(7)补whole P R_S=0出处。无新运行；不假设公共连续因子可微，不由零质量拆块。下一原ψ4/ψ17 finite同源核正在研究，主目标未完成；实际双库pull仍20:01/下一≤21:01。

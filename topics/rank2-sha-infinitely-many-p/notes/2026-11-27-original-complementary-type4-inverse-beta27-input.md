@@ -212,3 +212,392 @@ full9双核、共同整模型及 fixed-base $p^2$族构造各自
 - 全部精确系数摘要 `befb8e58c4acab1fbf85e9376e2f71925cb8fa92901329c17056298f7cad495f`；
   完整理想计数摘要 `197a27aea74f2b3ddc258474696fc12bf41d9948bed9a761c9c87cc99d92ab00`。
 - request标识中的2013只作唯一标识；实际提交/执行时刻是20:08UTC，以上真实回执为准。
+
+## 7. 补块的实际 Schwartz、三个规范来源和真实 Artin 基
+
+本节使用§6的三个完整中央值非零，不重新执行该计算。为避免把
+新旧两种标签混同，记
+$$
+\mathcal I=\{(-,4),(-,10),(-,16),(+,14),(+,8),(+,2)\},
+\qquad
+\eta_{-,j}=\eta_j,\quad
+\eta_{+,18-j}=\eta_j^{-1}.
+\tag{10}
+$$
+对新补块，实际有限向量是 R806(18)--(21) 的同一个 Weil projector
+所给的 $f_{j'}$，但二处取
+$$
+v_+=(1,t_+,-1,t_+),\qquad
+t_+=(1+\sqrt3)/\sqrt2,\qquad j'=18-j .
+\tag{11}
+$$
+即
+$$
+\phi_{2,j'}=f_A+t_+f_B,\quad
+\phi_{3,j'}=\mathbf1_{3^{-1}\mathbf Z_3},\quad
+\phi_{17,j'}=\sum_a f_{j'}(a)\mathbf1_{a/17+\mathbf Z_{17}},
+$$
+$$
+a'_{j',n}=v_+(n\bmod4)f_{j'}(3n\bmod17).
+\tag{12}
+$$
+三处的支撑、Fourier 变换、different 和 canonical 半特征全部原样保留。
+二处范数是 $3+\sqrt3$；十七处仍保实际
+$n'_{j'}=\sum_a|f_{j'}(a)|^2$，不以旧 $n_j$ 代替。
+Hilbert90 的原方向 $g=u/\bar u=u^{-16}$ 及 quadratic splitting
+给十七处标签 $9-l_j=18-j$。二处的实际单位角色是
+$\epsilon_2$；这是§1说明的 idèle 单位值，
+与主理想上的 $\epsilon_2^{-1}$ 互逆。
+
+由 R806(4) 的全有限分解，(12)恰是
+$(1-P_4)V_4$，没有额外平坦二挠 twist。
+CM13 的共同标量仍是 $-\omega^2$，而二处标签由
+$\omega^2$ 换成 $1$。所以原完整十三点 trace 的特征值为
+$$
+\mu'_{j'}=-\omega^2\zeta_{18}^{14j'}
+ =\mu_j^{-1},\qquad (\mu'_{j'})^3=-\omega^2 .
+\tag{13}
+$$
+这同时核对 R798 的 $T^3+\omega^2$，没有仅由这个多项式猜
+finite characters。
+
+首 $z^4$ 行在 $(1-P_4)\sigma^{34}$ 上准确为
+$-136/13122\ne0$，因为 $\sigma^{34}$ 本身的首阶为34，
+而 R798(10)的对应条目是 $136/13122$。
+$T^3+\omega^2$ 在 $K$ 上不可约，三条来源是其完整
+$K$-Galois 轨道，故该行不能杀其中任何一条。
+于是存在唯一原模型规范
+$$
+S'_{j',\Lambda}(Z)=s'_{j'}D'_{j',1}(\Omega_0Z),
+\qquad [z^4]D'_{j',1}=1,\quad s'_{j'}\in\mathbf R^\times .
+\tag{14}
+$$
+全源按(12)定义，故这里的实性与原 R806 一样来自实际实偶
+Fourier 序列，而不是另取谱向量。若需要精确抽取，可在
+$(1-P_4)V_4$ 上应用
+$$
+\frac{\mathcal A_{13}^2+\mu'_{j'}\mathcal A_{13}
+ +(\mu'_{j'})^2}{3(\mu'_{j'})^2}
+$$
+再按(14)规范。返回原 $b=17$ 仍严格是
+$D'_{j',17}(z)=\theta^{-4}D'_{j',1}(\theta z)$。
+
+Yang 的同一全权公式在这个实际向量上给
+$$
+C'_{j'}=
+ \frac{\pi\sqrt{102\sqrt3}}
+ {17\sqrt3(3+\sqrt3)n'_{j'}},
+\qquad
+L(\eta_j^{-1}\psi_0^{2m+1},m+1)
+ =C'_{j'}\frac{(4\pi)^m}{m!}(b'_{j',m})^2 ,
+\quad m\equiv4\bmod6.
+\tag{15}
+$$
+二处两个非平凡三次字符的 Gauss 和同为2；
+十七处 $\vartheta_{\pm l}$ 的 Gauss 和同为 $-17$；
+三处整个字符、uniformizer 和无限处均未改变。
+因此同一个 Hermitian 类和 Haar 体积确实适用(15)。
+特别 $m=4$ 与(14)给新固定 $c'_{j'}\ne0$，其中
+$$
+\frac{(2\pi/\sqrt3)^m
+ L(\eta_j^{-1}\psi_0^{2m+1},m+1)}
+ {m!\varpi_0^{2m+1}}
+ =c'_{j'}34^{-m}([z^m]D'_{j',1})^2.
+\tag{16}
+$$
+现在在原同一 $54$ 条 degree34 图、原完整 $L/H$ corestriction
+和原 full9 lift 上把 $e_{\eta_j}$ 换成
+$e_{\eta_j^{-1}}$。取此前未平方 theta 来源中相同的六步
+绝对相位，定义其实际正权 toric 值 $\mathcal T'_{j',5}$，
+并置
+$$
+\boxed{B'_{j'}=\frac{17\delta}{9}\mathcal T'_{j',5}.}
+\tag{17}
+$$
+这里先定义实际值，再使用平方恒等式；不从平方值任意选根。
+原二处三商矩阵在两条非平凡 $C_3$ 字符上的本征标量相同，
+因为其对角元相同、非对角元相同且非平凡字符和为零。
+十七处同理；三处向量完全相同。因此 R1049 的已付局部常数
+保留，给
+$$
+(B'_{j'})^2
+=-972\omega\,34^4\epsilon_0^{-3}
+ c'_{j'}\gamma'_{j'},\qquad
+\gamma'_{j'}=\frac{L(\psi_{27}\eta_j^{-1},1)}{\Omega}.
+\tag{18}
+$$
+§6、(15)说明(17)非零。原 Artin 等变性逐项作用于全图与
+系数后给 $B'_{j'}\in(HE)^{\eta_j^{-1}}$。
+这条真实线与旧 $B_j\in(HE)^{\eta_j}$ 不混同。
+
+## 8. 整个六维来源的同一个未平方几何因子
+
+将(14)、(17)同旧 $D_{j,1},B_j$ 合记为 $D_i,B_i$，
+$i\in\mathcal I$。令 $\mathcal I_{i,p}$ 为对应原 fixed54 循环的
+R1049 模型基读数；最高表示为
+$\eta_i^{-1}\chi_{27}^3\varepsilon^{-1}$。
+新三条的 $\eta_i=\eta_j^{-1}$，故最高线确为
+$\eta_j\chi_{27}^3\varepsilon^{-1}$，不是旧三条的重新命名。
+在各自真实 Artin 基 $a_i$ 下记
+$h_{i,p}=a_i^{-1}\mathcal I_{i,p}$。
+
+固定 inert $p$，删除此前共同有限坏集和新增固定常数的有限
+支撑。对全部六条使用同一个
+$$
+d=p+1,\quad c_\sigma=[z^d]\log(\sigma_0/z),\quad C=34c_\sigma,
+$$
+$$
+J_i(v)=\sum_{r\ge0}C^{-r}
+ [z^{dr-2}](D_i e^{-Cz^d})(v)_r,\qquad
+K_i(v)=\frac{J_i(v)}{pv}.
+\tag{19}
+$$
+原 Hurwitz/Newton 证明是整个 bounded $V_4$ 的证明，
+故 $K_i\in\mathcal O\langle v\rangle$ 对六条全部成立。
+
+必须说明为什么得到跨两个 dyadic 块的同一因子，而不只是
+分别得到两组三线比例。已发布的
+[完整 geometric cross 证明](2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)
+§3.1比较的是旧 $m=4$ split character $\nu_{27}^{-4}$ 与
+固定 weight3 的 $\nu_{27}^2$；其比是 $\nu_{27}^6$。
+在二处它在整个 compact 上为1，故对实际
+$v_+$ 和 $v_-$ 都是点值恒等，不是两次另选交织标量。
+三处完整单位函数也相同，$\delta$ lift 给同一个 $-1$；
+$Ph$ 的 determinant 为二处单位，不引入另一 dyadic 号。
+十七处原全部 balls 与 Fourier 变换保留。
+两条 factor characters 的比较分别是恒等和
+$\nu_{27}^{12}$，后者在所有坏处 compact 及 $\delta$ 上为1。
+good split 的球函数、compact Haar 及 principal norm-one
+消估值步骤与字符标签无关。因此这个接合在整个六维有限
+空间上是同一实际算子，不依赖 $\pm$ 或 $j$。
+
+现在对六个真实非零 positive vacua
+$\beta_i=\psi_{27}\eta_i$ 同时取该证明§3的固定共同 cover：
+取六个实际 Schwartz 函数及其 Fourier 变换的共同支撑、
+周期和 Heisenberg semicharacter 的公倍数 $M$，令
+$N=34M^2$。
+采用同一个 $h_\infty$ 以及
+$\Theta_{\beta_i}(Mz/(\Omega_0h_\infty))/
+\Theta_{\beta_i}(0)$ 定义整模型。
+于是六个 beta Newton 因子均满足
+$$
+J_{\beta_i}(v)\in1+p\mathcal O\langle v\rangle,
+\qquad J_{\beta_i}(0)=1.
+\tag{20}
+$$
+这里所有 covers 的扩大只改变同一个正权标量，不能逐条
+偷偷重定变量。
+
+实际经典源因而在每个 $n\equiv4\bmod6$ 有
+$$
+\mathcal T_i(n)
+ =c_n B_i [z^n]D_i\,[z^{n+2}]E_{\beta_i},
+\tag{21}
+$$
+其中 $c_n\ne0$ 对整个 $\mathcal I$ 共同。
+其共同性来自上述全有限算子与同一个无限处 Hermite 积分；
+(17)保留了实际真空相位，并未用(18)倒推共同号。
+
+固定同一局部参数 $n(u)=(p^2-1)u-2$、$v(u)=(p-1)u$。
+Kriz/BDP 的已付连续族、原 complete fixed-base
+$p^2$ level sum 和 full54/Artin 方向对六条同时适用：
+CRT 代表在原306级上为1，所以 $\eta_i$ 与其逆在这些代表上
+同为1；$H$、$L$、$[L:H]=432$ 均不改变。
+每个正整数 $u$ 的公共 Hecke 因子仍是
+$p(p+1)(1-p^{-2})$，端点仍为 $(p^2-1)\mathcal I_{i,p}$。
+令相应连续函数为 $\mathscr L_i(u)$，以同一常数
+$q_{\rm fp}\ne0$ 规范，使
+$\mathscr L_i(0)=q_{\rm fp}\mathcal I_{i,p}$。
+
+正权先消所有共同因子，再取连续极限，完整得到
+$$
+\boxed{
+\mathscr L_i(u)B_lK_l(v)J_{\beta_l}(v)
+ =\mathscr L_l(u)B_iK_i(v)J_{\beta_i}(v)
+\quad(i,l\in\mathcal I).
+}
+\tag{22}
+$$
+特别
+$$
+\boxed{\mathcal I_{i,p}B_lK_l(0)
+ =\mathcal I_{l,p}B_iK_i(0)\quad(i,l\in\mathcal I).}
+\tag{23}
+$$
+这里包括每个旧块与新块之间的交叉等式。
+
+若至少一条 $K_*(0)$ 是单位，则所有 $\mathcal I_{i,p}$ 有
+同一个标量 $F_p$：
+$$
+\mathcal I_{i,p}=F_pB_iK_i(0),\qquad
+h_{i,p}=F_p(B_i/a_i)K_i(0).
+\tag{24}
+$$
+在 R1049 已付 cofinite 新增 NS/整格范围内，
+同一原 Čech、full54 及不同 $\eta_i$ 逐项投影给
+$F_p\in\mathcal O^\times$、$\bar F_p=-432$。
+这只把先前的共同因子扩到实际完整六维 source；
+没有新增“无穷多个 $p$ 存在单位”的断言。
+
+### 8.1 真正零质量组合的一阶返回
+
+这个应用只需连续性，不需先假设 $\mathscr L_i$ 或公共因子
+有单独的权导数。在 $0$ 的某个邻域，由(22)与
+$K_*(0)J_{\beta_*}(0)\ne0$ 可写
+$$
+\mathscr L_i(u)/q_{\rm fp}
+ =G_p(u)B_iK_i(v(u))J_{\beta_i}(v(u)),
+\quad G_p\text{ 连续},\quad G_p(0)=F_p .
+\tag{25}
+$$
+给定固定系数 $b_i$，若且仅在已实际支付
+$$
+\sum_i b_iB_iK_i(0)=0
+\tag{26}
+$$
+的范围内，右侧内和是一个在0为零的解析函数。
+差商直接给完整、存在的一阶导数
+$$
+\boxed{
+\left.\frac{d}{du}
+ \sum_i b_i\,\mathscr L_i(u)/q_{\rm fp}\right|_{u=0}
+ =(p-1)F_p
+ \sum_i b_iB_i
+ \bigl(K_i'(0)+K_i(0)J_{\beta_i}'(0)\bigr).
+}
+\tag{27}
+$$
+$J_{\beta_i}'(0)\in p\mathcal O$，但原 bounded
+$K_i'(0)$ 也在 $p\mathcal O$；若后续除 $p$，两项同阶，
+不得删去 beta 修正。若用下降基，则同时把左侧除 $a_i$
+并在右侧相应改为 $B_i/a_i$；不能只改一边。
+没有(26)时，不从本证明宣称左侧各自可微。
+
+
+还可在这里准确支付式(27)除 $p$ 后的首层，而不删 beta 修正。
+沿 [R614](../results/R614-original-addition-integrality-window-and-complete-newton-tail.md)
+(9)，置 $p=6s-1>211$、$L=s(p-1)$、
+$w=z^6$、$W=z^2x$、$Y=-z^3y$、
+$U=(\sigma_0/z)e^{-c_\sigma z^d}$。$U,W,Y$ 在 $w$ 次数 $<L$ 全整。
+写 $D_i=\sigma^{34}\sum_{k=0}^5q_{i,k}x^{3k}$，则
+$
+D_ie^{-Cz^d}
+=z^4U^{34}\sum_{k=0}^5q_{i,k}w^{5-k}W^{3k}.
+$
+所有幂非负，固定分母已在共同坏集外；故
+$
+a_{i,h}:=C^{-h}[z^{dh-2}](D_ie^{-Cz^d})\in p^h\mathcal O
+\quad(1\le h\le p-1).
+$
+对 beta 的实际固定整模型，$E_{\beta_i}=\sigma^NP_i(x,y)$，
+每项 $x^ay^\epsilon$ 满足 $2a+3\epsilon\le N$。
+其 type0 使 $N-2a-3\epsilon$ 为非负六倍数，完成 Gaussian 后每项准确是
+$
+c_{a,\epsilon}(-1)^\epsilon
+w^{(N-2a-3\epsilon)/6}U^NW^aY^\epsilon .
+$
+因此 $C_\beta=Nc_\sigma$、$a_{\beta_i,h}\in p^h\mathcal O$
+至少对 $1\le h\le p-2$ 成立；这里读取 $hs<L$，
+不把 $h=p-1$ 的边界算成整。
+
+令 $d_{i,r}=[z^r]D_i$、$e_{i,r}=[z^r]E_{\beta_i}$，
+并置
+$
+\begin{aligned}
+\gamma&=pC,&\gamma_\beta&=pC_\beta,\\
+g_{i,1}&=d_{i,p-1},&
+g_{i,2}&=d_{i,2p}-Cd_{i,p-1},&
+g_{\beta_i,1}&=e_{i,p+1}-C_\beta .
+\end{aligned}
+\tag{27a}
+$
+三个 $g$ 都是完整 Gaussian 余项的整系数；尤其不将 $d_{i,2p}$
+和 $Cd_{i,p-1}$ 分别当成整。
+由 $(v)_2/v=v-1$、$(v)_3/v=(v-1)(v-2)$，
+$K_i'(0)/p\equiv(a_{i,2}-3a_{i,3})/p^2$；
+整窗进一步给 $a_{i,3}\in p^3\mathcal O$。
+所有 $h\ge4$ 用原完整尾界落在所需 $p^2$。
+beta 的 $h\ge3$ 全尾在 $p^2$，而 $a_{\beta_i,2}\in p^2\mathcal O$，
+所以 $J_{\beta_i}'(0)\equiv a_{\beta_i,1}\pmod{p^2}$。
+最终式(27)内每条完整斜率满足
+$
+\boxed{
+\frac{K_i'(0)+K_i(0)J_{\beta_i}'(0)}p
+\equiv
+\frac{g_{i,2}}{\gamma^2}
++\frac{g_{i,1}g_{\beta_i,1}}{\gamma\gamma_\beta}
+\pmod p .
+}
+\tag{27b}
+$
+所有除法先在整环中按真实整除作出。第二项与第一项同阶，
+仍是原 beta 槽的实际费用；本式没有把它归零。
+
+## 9. 与原 canonical 热 jet 的精确接点
+
+R855 的真实算子是
+$$
+H_m=\frac{D^2}{2m}+\frac{m g_2z^2}{24},\qquad
+(L_2-H_m)(\sigma^mR)=\sigma^m\mathcal H_mR .
+\tag{28}
+$$
+取原 $m=34$ canonical $S$，以及原齐次提升的
+$\dot S=L_2\widetilde S|_{\rm CM}$。
+已付完整多项式是
+$$
+Q_S=\frac{\sigma^{34}}7
+ (-1024-117760X-46848X^2-26992X^3-1900X^4+210X^5),
+$$
+$$
+D^2S=68\dot S+Q_S,\qquad
+Q_S=-68\sigma^{34}\mathcal H_{34}\widetilde R_S|_{\rm CM}.
+\tag{29}
+$$
+所以真正 heat-flat theta family 通过该 $S$ 的一级 jet 是
+$$
+\boxed{
+\dot S_{\rm flat}=\dot S+Q_S/68=D^2S/68 .
+}
+\tag{30}
+$$
+这是支付原齐次 lift 与固定有限 Schwartz 的 heat-flat lift
+之间的准确差，不是宣称二者延拓相同。
+$Q_S$ 在(14)和旧三条构成的整六维空间内有唯一固定谱分解，
+故其六个 bounded Newton 因子可用(22)--(27)同一个公共因子返回。
+
+但是 $\dot S_{\rm flat}$ 本身不是 bounded $V_4$ 来源。
+它的第 $m$ 个正系数准确为
+$$
+[z^m]\dot S_{\rm flat}
+ =\frac{(m+2)(m+1)}{68}[z^{m+2}]S .
+\tag{31}
+$$
+相应完整 Newton 身份保持原 canonical：
+$$
+\boxed{
+K_{\rm flat}(v)
+ =\frac{d(dv-1)}{68p}J_S(v),\qquad
+K_{\rm flat}(0)=0,\qquad
+K_{\rm flat}'(0)=-\frac d{68p}J_S'(0).
+}
+\tag{32}
+$$
+第一零值是原质量零恒等式，不是某个新几何非消失的矛盾。
+原坏条件只作用在(32)的斜率；不能据此给六条
+$K_i(0)$ 分别赋零。
+
+尤其真实半周期投影沿族也须移动。
+若 $P_4$ 是原 full canonical lift 的热水平延拓，
+$P_4S_{\rm flat}=0$ 给
+$$
+0=\dot P_4 S+P_4D^2S/68.
+\tag{33}
+$$
+式(33)的 $P_4$ 是作用于全 Jacobi jet 的实际平移，不是把
+R798 的 bounded 六维常矩阵直接作用到非有界 $D^2S$。
+因此(24)支付了整个 bounded 补项 $Q_S$ 的同一几何因子，
+而(29)--(33)仍保留原 canonical 所需的指定扩展连接。
+后继必须消费这个真实 jet 或(27)的已付零质量组合；
+不能用两个 dyadic 块各自的非零值替代它。
+
+原投影移动本身也已显式支付：见[canonical二阶笔记§10](2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)。其原有限连接给 $L_2\mathsf P+[B_{34},\mathsf P]=0$，所以 $(L_2\mathsf P)R_S=-P_4(Q_S/\sigma^{34})/68$；这个完整费用与 heat-flat 的有理系数 jet $Q_S/(68\sigma^{34})$ 正好相消。

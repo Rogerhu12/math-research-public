@@ -604,7 +604,7 @@ L_2\mathsf P+[B_m,\mathsf P]=0 .
 $$
 (41) 包含半周期标签、全部 theta multiplier 及其相位；
 不是把原 CM 点的一个常矩阵认成全族常矩阵。它在 $m=34$ 的 CM 型四部分正是既有 $P_4$，在 CM 型零的原 $R_S$ 上则有
-$\mathsf P R_S=0$。
+$\mathsf P R_S=0$；最窄原出处是 [R798](../results/R798-original-halfperiod-two-types-and-e-depth-second-source.md)(2)、(6)、(7)，其中先付 whole $\mathcal H_YS=\omega^2S$，再定义该幂等，并非由 restricted type4 矩阵反推。
 
 现在使用上一节的指定齐次提升。其有理基系数在 CM 点的
 $L_2$ 导数为零，而
