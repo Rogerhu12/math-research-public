@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W四条S-free原三次理想与通用二元头结式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-four-S-free-cubics-and-binary-head-resultant.md)：无新除法的正反理想身份完成四次降三次；4×4头等于固定2/3齐次结式，26项通用整数证书，保D27/新头零面。
+
 - [Q=1−u 已付M原理想DAG与完整物理D分母](results/R150-appendix-unit211-Q1minusU-paid-M-unit-original-DAG-physical-D-denominator.md)：八条清核分母的真实原行、完整Bareiss/Cramer和自由列内取消给p(h)F(u,h)必要覆盖；全部一元/二元零支保留，未判空。
 
 - [一般J=Q完整原D/1身份与F302必要曲线](results/R150-appendix-unit211-general-J-equals-Q-original-D-and-one-F302-cover.md)：全图六规则/18真乘法及8原候选直接目标返回，最终仅余302项曲线；保全部临时主元零面，不宣全闭包或曲线排空。
