@@ -1,16 +1,16 @@
 {
-  "message": "ISP: identify the whole irreducible W binary head and its monic k23 environment",
-  "parentCommit": "36fb3539d71ac8826645df636359d34769f786e9",
+  "message": "ISP: factor the H1 original source pole support and retain the degree201 complement",
+  "parentCommit": "77fbd76235c779415e7884e22b7539d19f62fa82",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-first-binary-head-whole-irreducible-curve-and-monic-k23.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-smallest-binary-head-whole-QQ-factor-geometry-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-first-binary-head-open-original-low-value-six-coordinate-return-8542.py",
-    ".github/workflows/invariant-subspace-8542-w-head-open-value-return.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-head-k23-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-H1-original-Dixon-55-source-pole-support.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-original-Dixon-source-pole-support-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-three-linear-source-pole-original-fibers-8542.py",
+    ".github/workflows/invariant-subspace-8542-h-one-three-linear-original-fibres.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-H1-source55-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-head-open-value-return.yml"
+    "invariant-subspace-8542-h-one-three-linear-original-fibres.yml"
   ]
 }

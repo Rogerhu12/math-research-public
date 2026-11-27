@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 一般H1原Dixon极点的55次完整支持](results/R150-appendix-unit211-Phi-zero-H1-original-Dixon-55-source-pole-support.md)：原418次分母支持平方自由剥已付u/u1后九QQ因子总55，完整乘回；C256=C55·P201且互素，未宣已识别余201或减少1024权对界。
+
 - [R150 W 固定二元三次头的整不可约曲线及首一k23环境](results/R150-appendix-unit211-W-first-binary-head-whole-irreducible-curve-and-monic-k23.md)：完整QQ单因子(e,k)16/23，k首项只含已付权单位，整H0有23维自由环境；H0与补图均保留，不把几何局部化称有限。
 
 - [R150 碰撞两E全部原u首项零纤维排除](results/R150-appendix-unit211-collision-E-entire-u-heads-finite-free-exclusion.md)：p1009完整首一有限自由模型、整个另一头逆与十二剩余域原Bezout1，实际返回整F162/F167空；不借u局部化，剩余一般交点和全部Q/NP仍开。

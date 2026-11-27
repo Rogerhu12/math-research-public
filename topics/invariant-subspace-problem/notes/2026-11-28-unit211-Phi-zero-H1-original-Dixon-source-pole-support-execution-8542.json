@@ -1,0 +1,355 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "actualDriver": {
+    "elapsed_seconds": 3.3674285150000003,
+    "max_child_rss_kib": 51800,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "a241dc3b61d5ecb674559e7d01d9eb567aa3af09",
+        "before": "2e95b0d8258f164d70abb06d8678f1bfe5a01d95",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:25:42.004829+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46063533031",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "2e95b0d8258f164d70abb06d8678f1bfe5a01d95",
+    "source_exit_code": 0,
+    "source_git_blob": "3246ff21d8e5807ad181443528ff023c8bc23b8d",
+    "source_sha256": "abcfd6ca5e86ff7c18bf9f248801554d157ad79293c40940c1a7b76de0ce33cd",
+    "stdout_bytes": 5902,
+    "stdout_sha256": "dfa0f76d0dcd7380fbfa29859b6c71854349b9acc2333c6f5e5075cf753c16d7",
+    "stop_reason": null
+  },
+  "run": 46063533031,
+  "job": 140723264796,
+  "stages": [
+    {
+      "wholeWeightAlgebraRank": 4,
+      "originalLambda0A0C0RelationsReturned": true,
+      "entirePolynomialLIdentityReturned": true,
+      "forwardMapAllLPointsReturned": true,
+      "noMuInverseUsed": true,
+      "originalA0B1ZeroFibersRetainedInBaseCover": true,
+      "currentBasePoleCoverDegree": 128,
+      "stage": "new_H1_same_original_L_polynomial_two_coordinate_chart",
+      "seconds": 0.04909149399999535
+    },
+    {
+      "original": "R",
+      "degrees": [
+        2,
+        2
+      ],
+      "terms": 9,
+      "maxCoefficientUDegree": 144,
+      "sameOriginalLPolynomialChart": true,
+      "stage": "new_H1_original_biquadratic",
+      "seconds": 0.47420506099999216
+    },
+    {
+      "original": "W",
+      "degrees": [
+        2,
+        2
+      ],
+      "terms": 9,
+      "maxCoefficientUDegree": 136,
+      "sameOriginalLPolynomialChart": true,
+      "stage": "new_H1_original_biquadratic",
+      "seconds": 0.47430500199999415
+    },
+    {
+      "original": "N1",
+      "degrees": [
+        2,
+        2
+      ],
+      "terms": 9,
+      "maxCoefficientUDegree": 134,
+      "sameOriginalLPolynomialChart": true,
+      "stage": "new_H1_original_biquadratic",
+      "seconds": 0.4743281459999906
+    },
+    {
+      "originalPolynomials": [
+        "R",
+        "W",
+        "N1"
+      ],
+      "integerCauchyBinetTriples": 84,
+      "nonzeroIntegerTriples": 78,
+      "integerGeometricTerms": 144,
+      "rowMonomials": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "independentColumnMonomials": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "actualCoefficientUDegree": 325,
+      "entireDividedDifferenceDeterminantCoefficientIdentity": true,
+      "originalPointNecessity": "v(x,mu)*Dixon=0 from the full original three equations",
+      "noClaimThatBareNecessaryColumnsAreAlreadyExpandedOriginalIdealRows": true,
+      "originalSourcePoleCoverDegree": 418,
+      "stage": "new_H1_complete_original_Dixon_eight_columns",
+      "seconds": 3.2990759110000027
+    },
+    {
+      "originalSourceLCM": {
+        "degree": 418,
+        "bytes": 101520,
+        "sha256": "bc9d781f057fe54da6cf00ee3d690080859272612a647dabdc95738a92052340"
+      },
+      "exactPaidSourceSupport": {
+        "degree": 55,
+        "bytes": 2497,
+        "sha256": "29e6fcb5e775a86c83594e6886e61fc8640066f3d6f859702cf719f5d2a71ebf"
+      },
+      "onlyRemovedOriginalUnits": [
+        {
+          "originalUnit": "already paid u",
+          "degree": 1
+        },
+        {
+          "originalUnit": "already paid u-1",
+          "degree": 1
+        }
+      ],
+      "exactSourceSupportDividesPreviouslyProvedC256": true,
+      "previouslyProvedFullCoverDegree": 256,
+      "fullC256IdentifiedByDivisibilityAndEqualDegree": false,
+      "unidentifiedFinalCoefficientSupportDegreeAtMost": 201,
+      "noOldGaussianOrTargetReplay": true,
+      "stage": "new_original_Dixon_source_pole_support",
+      "seconds": 3.3038576639999917
+    },
+    {
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 1,
+            "bytes": 12,
+            "sha256": "0a014852d0f5941229c02d2427d94d6cc8cad5b944644f168bf7b141653a1279"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support",
+          "smallParameterFormula": "x + (-5/2)"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 1,
+            "bytes": 13,
+            "sha256": "8ee50d7068bc8301a4ef91d39f321039450018ad1b5e237b95d5dfc32e39637e"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support",
+          "smallParameterFormula": "x + (-12/5)"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 1,
+            "bytes": 12,
+            "sha256": "91f379e96baaf489126d0c887124c369bea6c5d28ea976b32a57d7371745ef72"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support",
+          "smallParameterFormula": "x + (-3/2)"
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 3,
+            "bytes": 22,
+            "sha256": "48be3d224101eee659039fd18fef4ba3ef9398951eafb1b27512798b5b673648"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support",
+          "smallParameterFormula": "x^3 + (-5)*x^2 + 8*x + (-15/4)"
+        },
+        {
+          "degree": 4,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 4,
+            "bytes": 24,
+            "sha256": "4d0f00b8e84a03e967ca97e548c9aa554fb91608d4be9d41671f7050bbad8971"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support",
+          "smallParameterFormula": "x^4 + (-5)*x^3 + 10*x^2 + (-9)*x + 4"
+        },
+        {
+          "degree": 5,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 5,
+            "bytes": 46,
+            "sha256": "5014dd28e57ecbdb07b887120ecffdba955db61581b8eed648e1335990217240"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support",
+          "smallParameterFormula": "x^5 + (-83/12)*x^4 + 349/18*x^3 + (-995/36)*x^2 + 20*x + (-52/9)"
+        },
+        {
+          "degree": 7,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 7,
+            "bytes": 62,
+            "sha256": "1e3fbb766520f820c618026efd51360eca7a1bde0f13500b7d9fe77bcc57496c"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support",
+          "smallParameterFormula": "x^7 + (-39/4)*x^6 + 319/8*x^5 + (-4279/48)*x^4 + 709/6*x^3 + (-187/2)*x^2 + 124/3*x + (-8)"
+        },
+        {
+          "degree": 8,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 8,
+            "bytes": 84,
+            "sha256": "9d2c4ff181a9334228193bd55a2ba596d9aa84d3f05568ce67eaa72cd0966a1c"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support",
+          "smallParameterFormula": "x^8 + (-81/11)*x^7 + 291/22*x^6 + 426/11*x^5 + (-5255/22)*x^4 + 6026/11*x^3 + (-7408/11)*x^2 + 4464/11*x + (-864/11)"
+        },
+        {
+          "degree": 25,
+          "multiplicity": 1,
+          "exactCoefficientIdentity": {
+            "degree": 25,
+            "bytes": 713,
+            "sha256": "98fe71762eb2c2d0fd5a4e5ed09066704be36b65ee2e81ae88aa8a9f7a56b4cc"
+          },
+          "definition": "the monic QQ factor with this digest of the source-defined paid support"
+        }
+      ],
+      "numberOfFactors": 9,
+      "degreeSum": 55,
+      "completeUnnormalizedFactorProductReturned": true,
+      "completeMonicFactorProductReturned": true,
+      "noFactorCalledOriginalUnitWithoutSeparateOriginalReturn": true,
+      "allWholeQQuarticRootFibersRemain": true,
+      "fullH1Excluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "new_original_Dixon_source_support_complete_QQ_factorization",
+      "seconds": 3.3067796409999914
+    },
+    {
+      "sourceSHA256": "abcfd6ca5e86ff7c18bf9f248801554d157ad79293c40940c1a7b76de0ce33cd",
+      "originalFullSourceSHA256": "ef9e285512e1eddcbac0512f853f0b2ac58b57546f9a4bfa7e5621a9eaf8ddcc",
+      "originalPrefixSHA256": "e5f66507ac2f79b9d18d7d62a8c46694a03725258a805313f55dc28a20554399",
+      "peakRSSKiB": 50428,
+      "recomputableCoefficientPayloadTransmitted": false,
+      "encodedOrSplitPayloadCreated": false,
+      "existing1024BoundUnchangedUnlessSeparateOriginalExclusionReturned": true,
+      "stage": "new_H1_source_pole_support_input_finished",
+      "seconds": 3.3068434869999948
+    }
+  ],
+  "historicalDependencies": [
+    {
+      "dependency": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-H1-original-biquadratic-Dixon-unit-target-syntax-fix-8542.py",
+      "stagedInRunnerTemporaryDirectory": true,
+      "historical": false,
+      "payloadPrintedOrRecommitted": false
+    },
+    {
+      "dependency": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-whole-first-head-original-linear-relation-exact-input-8542.json",
+      "stagedInRunnerTemporaryDirectory": true,
+      "historical": true,
+      "payloadPrintedOrRecommitted": false
+    },
+    {
+      "dependency": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-H1-b-zero-lambda-linear-exact-part-01-8542.json",
+      "stagedInRunnerTemporaryDirectory": true,
+      "historical": true,
+      "payloadPrintedOrRecommitted": false
+    }
+  ],
+  "mathematicalStatus": {
+    "CsrcDegree": 55,
+    "C256KnownDegree": 256,
+    "remainingMonicFactorDegree": 201,
+    "remainingFactorCoefficientsNotClaimedKnown": true,
+    "exactFactorizationProductReturned": true,
+    "existingDifferentWeightPairBound": 1024,
+    "boundImproved": false,
+    "wholeH1Excluded": false
+  },
+  "dataPolicy": {
+    "polynomialPayloadTransmitted": false,
+    "recomputableParameterFilesCreated": false,
+    "smallFormulasOnly": true
+  }
+}
