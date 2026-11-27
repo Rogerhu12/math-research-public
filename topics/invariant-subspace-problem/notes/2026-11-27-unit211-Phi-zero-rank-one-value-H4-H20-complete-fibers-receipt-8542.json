@@ -1,0 +1,687 @@
+{
+  "schema": "isp-H4-H20-whole-original-fiber-return-v1",
+  "run_id": 46001850994,
+  "job_id": 140515236745,
+  "execution": {
+    "elapsed_seconds": 3.620285526999993,
+    "max_child_rss_kib": 52624,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "7bd543fbd1218460bc7cb96113d678bddd165014",
+        "before": "7bd543fbd1218460bc7cb96113d678bddd165014",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T12:49:32.844083+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46001850994",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7bd543fbd1218460bc7cb96113d678bddd165014",
+    "source_exit_code": 0,
+    "source_git_blob": "d21ef0e62e314fa6f89ede877b6ff7e0719d9009",
+    "source_sha256": "cce290a5c97eefc094e9b9ae831005f64e5579302f32a1220cc7a804c608882c",
+    "stdout_bytes": 20719,
+    "stdout_sha256": "0d5ead6461f8b907f05549096861c932b33f3edf297792cf48a859a00c7f272b",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "constantFiber": "H4",
+      "originalName": "F",
+      "phiDegree": 4,
+      "originalProfile": {
+        "degrees": [
+          77,
+          14
+        ],
+        "terms": 1170,
+        "totalDegree": 91,
+        "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c"
+      },
+      "reducedProfile": {
+        "degrees": [
+          3,
+          12
+        ],
+        "terms": 52,
+        "totalDegree": 15,
+        "sha256": "946bfbae48c97b2bbc2b9691438328f70a932f0c850ce7dfb0d4efffe47094e9"
+      },
+      "scalar": "562949953421312",
+      "removedOriginalRhoUnits": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "allQQCoefficientAndUnitReturns": true,
+      "noExtensionInverse": true,
+      "allLambdaEmbeddingsRetained": true,
+      "rhoDegreePreservedMod1009": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "exact_constant_fiber_original_curve",
+      "seconds": 3.335379790999994
+    },
+    {
+      "constantFiber": "H4",
+      "originalName": "G",
+      "phiDegree": 4,
+      "originalProfile": {
+        "degrees": [
+          75,
+          13
+        ],
+        "terms": 1064,
+        "totalDegree": 88,
+        "sha256": "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64"
+      },
+      "reducedProfile": {
+        "degrees": [
+          3,
+          11
+        ],
+        "terms": 48,
+        "totalDegree": 14,
+        "sha256": "28a8cd86b0e4284f4dbac30ebf671bd9a13e6e36ad897066a557c060d6156c36"
+      },
+      "scalar": "-35184372088832",
+      "removedOriginalRhoUnits": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "allQQCoefficientAndUnitReturns": true,
+      "noExtensionInverse": true,
+      "allLambdaEmbeddingsRetained": true,
+      "rhoDegreePreservedMod1009": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "exact_constant_fiber_original_curve",
+      "seconds": 3.3501111019999996
+    },
+    {
+      "constantFiber": "H4",
+      "originalName": "S",
+      "phiDegree": 4,
+      "originalProfile": {
+        "degrees": [
+          76,
+          15
+        ],
+        "terms": 1232,
+        "totalDegree": 91,
+        "sha256": "0472fa1b169933d4cd1c2e22fe0bc2080d65dbec60aaca5f44389a71140141f4"
+      },
+      "reducedProfile": {
+        "degrees": [
+          3,
+          13
+        ],
+        "terms": 56,
+        "totalDegree": 16,
+        "sha256": "ffe672a27789502cda02b9201462f76afa33fc4060db519ab72225f79600c957"
+      },
+      "scalar": "-140737488355328",
+      "removedOriginalRhoUnits": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "allQQCoefficientAndUnitReturns": true,
+      "noExtensionInverse": true,
+      "allLambdaEmbeddingsRetained": true,
+      "rhoDegreePreservedMod1009": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "exact_constant_fiber_original_curve",
+      "seconds": 3.368165246999993
+    },
+    {
+      "constantFiber": "H4",
+      "originalName": "T",
+      "phiDegree": 4,
+      "originalProfile": {
+        "degrees": [
+          83,
+          15
+        ],
+        "terms": 1344,
+        "totalDegree": 98,
+        "sha256": "5da1ac9c04c13cc0d83dad0f464367b0cce33f28025f927b8cf7c513cb19b265"
+      },
+      "reducedProfile": {
+        "degrees": [
+          3,
+          13
+        ],
+        "terms": 56,
+        "totalDegree": 16,
+        "sha256": "4759c9cde91ded41136af65d606618471f08fd87135ff16cf6852f73fcf42c85"
+      },
+      "scalar": "-9007199254740992",
+      "removedOriginalRhoUnits": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "allQQCoefficientAndUnitReturns": true,
+      "noExtensionInverse": true,
+      "allLambdaEmbeddingsRetained": true,
+      "rhoDegreePreservedMod1009": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "exact_constant_fiber_original_curve",
+      "seconds": 3.387609975999993
+    },
+    {
+      "constantFiber": "H4",
+      "name": "F__G",
+      "curveNames": [
+        "F",
+        "G"
+      ],
+      "fixedRhoDegrees": [
+        12,
+        11
+      ],
+      "fixedSylvesterOrder": 23,
+      "exactLiftBidegrees": [
+        [
+          3,
+          12
+        ],
+        [
+          3,
+          11
+        ]
+      ],
+      "QQDeterminantNotExpanded": true,
+      "fullModDegree": 69,
+      "fullModSha256": "7313d993971ccf8ce126b236a48f7203b2569969a27fd0150f7b725f43606ace",
+      "allActualLeadingZeroFibersRetained": true,
+      "fixedQQDeterminantReduction": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "fixed_original_constant_fiber_projection",
+      "seconds": 3.390595453000003
+    },
+    {
+      "constantFiber": "H4",
+      "inputNames": [
+        "H",
+        "F__G"
+      ],
+      "gcdDegree": 0,
+      "gcdCoefficients": [
+        1
+      ],
+      "tagDegrees": [
+        68,
+        3
+      ],
+      "tagSha256": "88a506532ae41725fcabb8c6edf9e1538de45b2ff4eee64dfdfe8e10a8f5aef0",
+      "allFullProductsMultipliedBack": true,
+      "monicExactQQHHasPreservedDegree": true,
+      "wholeComplexFiberExcludedByGauss": true,
+      "stage": "constant_fiber_actual_full_Bezout",
+      "seconds": 3.390769401
+    },
+    {
+      "constantFiber": "H4",
+      "exactHIntegerCoefficientsAscending": [
+        1,
+        -7,
+        16,
+        -24,
+        16
+      ],
+      "phiDegree": 4,
+      "counts": {
+        "coefficient_divisions": 627,
+        "unit_division_coefficient_returns": 118
+      },
+      "removedRhoUnits": {
+        "F": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "G": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "S": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "T": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            0
+          ]
+        ]
+      },
+      "checkedProjectionNames": [
+        "F__G"
+      ],
+      "remainingModGcdDegree": 0,
+      "wholeComplexFiberExcludedByOriginalReturnAndMonicGauss": true,
+      "noQQResultantExpansion": true,
+      "noUnpaidInverse": true,
+      "allComplexLambdaRootsAndAllAllowedRhoRetained": true,
+      "stage": "constant_fiber_complete",
+      "seconds": 3.390810388999995
+    },
+    {
+      "constantFiber": "H20",
+      "originalName": "F",
+      "phiDegree": 20,
+      "originalProfile": {
+        "degrees": [
+          77,
+          14
+        ],
+        "terms": 1170,
+        "totalDegree": 91,
+        "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c"
+      },
+      "reducedProfile": {
+        "degrees": [
+          19,
+          13
+        ],
+        "terms": 280,
+        "totalDegree": 32,
+        "sha256": "2d5bcc39e08b66f89527f43950b87ef5f95e1d1ce9dcb17fd0e6c65f3fe76af4"
+      },
+      "scalar": "137302184505420575223776401449506706058811277312",
+      "removedOriginalRhoUnits": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "allQQCoefficientAndUnitReturns": true,
+      "noExtensionInverse": true,
+      "allLambdaEmbeddingsRetained": true,
+      "rhoDegreePreservedMod1009": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "exact_constant_fiber_original_curve",
+      "seconds": 3.416944737999998
+    },
+    {
+      "constantFiber": "H20",
+      "originalName": "G",
+      "phiDegree": 20,
+      "originalProfile": {
+        "degrees": [
+          75,
+          13
+        ],
+        "terms": 1064,
+        "totalDegree": 88,
+        "sha256": "20ae05561daf12c30208e46313cfa2d015d3792a97ce2040193ffdbb06872e64"
+      },
+      "reducedProfile": {
+        "degrees": [
+          19,
+          12
+        ],
+        "terms": 260,
+        "totalDegree": 31,
+        "sha256": "5718bccbcc593a70dd5b185534c66ae5c359e71b81df604929880247e9b078b7"
+      },
+      "scalar": "-8581386531588785951486025090594169128675704832",
+      "removedOriginalRhoUnits": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "allQQCoefficientAndUnitReturns": true,
+      "noExtensionInverse": true,
+      "allLambdaEmbeddingsRetained": true,
+      "rhoDegreePreservedMod1009": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "exact_constant_fiber_original_curve",
+      "seconds": 3.4404459759999924
+    },
+    {
+      "constantFiber": "H20",
+      "originalName": "S",
+      "phiDegree": 20,
+      "originalProfile": {
+        "degrees": [
+          76,
+          15
+        ],
+        "terms": 1232,
+        "totalDegree": 91,
+        "sha256": "0472fa1b169933d4cd1c2e22fe0bc2080d65dbec60aaca5f44389a71140141f4"
+      },
+      "reducedProfile": {
+        "degrees": [
+          19,
+          14
+        ],
+        "terms": 300,
+        "totalDegree": 33,
+        "sha256": "94f5696b94b6fe5460f92e03480f4636db27b6cd05926ed8b2b620a4c6a279fb"
+      },
+      "scalar": "-11441848708785047935314700120792225504900939776",
+      "removedOriginalRhoUnits": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "allQQCoefficientAndUnitReturns": true,
+      "noExtensionInverse": true,
+      "allLambdaEmbeddingsRetained": true,
+      "rhoDegreePreservedMod1009": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "exact_constant_fiber_original_curve",
+      "seconds": 3.4674755749999946
+    },
+    {
+      "constantFiber": "H20",
+      "originalName": "T",
+      "phiDegree": 20,
+      "originalProfile": {
+        "degrees": [
+          83,
+          15
+        ],
+        "terms": 1344,
+        "totalDegree": 98,
+        "sha256": "5da1ac9c04c13cc0d83dad0f464367b0cce33f28025f927b8cf7c513cb19b265"
+      },
+      "reducedProfile": {
+        "degrees": [
+          19,
+          14
+        ],
+        "terms": 300,
+        "totalDegree": 33,
+        "sha256": "35a978fd97fcab1c69b8e88f2652ac0907d0c10364650bed02605d30b924d1a5"
+      },
+      "scalar": "-6405970720284902357640511786028184877879898954268672",
+      "removedOriginalRhoUnits": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "allQQCoefficientAndUnitReturns": true,
+      "noExtensionInverse": true,
+      "allLambdaEmbeddingsRetained": true,
+      "rhoDegreePreservedMod1009": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "exact_constant_fiber_original_curve",
+      "seconds": 3.4968017389999915
+    },
+    {
+      "constantFiber": "H20",
+      "name": "F__G",
+      "curveNames": [
+        "F",
+        "G"
+      ],
+      "fixedRhoDegrees": [
+        13,
+        12
+      ],
+      "fixedSylvesterOrder": 25,
+      "exactLiftBidegrees": [
+        [
+          19,
+          13
+        ],
+        [
+          19,
+          12
+        ]
+      ],
+      "QQDeterminantNotExpanded": true,
+      "fullModDegree": 475,
+      "fullModSha256": "1b8d76583afe6be4973b283b8410bda50ca56a98b0585aa588a09f1085387977",
+      "allActualLeadingZeroFibersRetained": true,
+      "fixedQQDeterminantReduction": true,
+      "claimWholeFiberExcluded": false,
+      "stage": "fixed_original_constant_fiber_projection",
+      "seconds": 3.5395400550000033
+    },
+    {
+      "constantFiber": "H20",
+      "inputNames": [
+        "H",
+        "F__G"
+      ],
+      "gcdDegree": 0,
+      "gcdCoefficients": [
+        1
+      ],
+      "tagDegrees": [
+        474,
+        19
+      ],
+      "tagSha256": "fed11ba66cc77bd97b2f97a2cdd19d6954f29fc79c4ee09c5f90e2211ed37eb9",
+      "allFullProductsMultipliedBack": true,
+      "monicExactQQHHasPreservedDegree": true,
+      "wholeComplexFiberExcludedByGauss": true,
+      "stage": "constant_fiber_actual_full_Bezout",
+      "seconds": 3.540054495999996
+    },
+    {
+      "constantFiber": "H20",
+      "exactHIntegerCoefficientsAscending": [
+        5,
+        -86,
+        751,
+        -4320,
+        18035,
+        -57032,
+        138416,
+        -253716,
+        325848,
+        -204088,
+        -230340,
+        876048,
+        -1346992,
+        1230656,
+        -511168,
+        -330880,
+        752576,
+        -647168,
+        325376,
+        -94208,
+        12288
+      ],
+      "phiDegree": 20,
+      "counts": {
+        "coefficient_divisions": 480,
+        "unit_division_coefficient_returns": 61
+      },
+      "removedRhoUnits": {
+        "F": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "G": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "S": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "T": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      "checkedProjectionNames": [
+        "F__G"
+      ],
+      "remainingModGcdDegree": 0,
+      "wholeComplexFiberExcludedByOriginalReturnAndMonicGauss": true,
+      "noQQResultantExpansion": true,
+      "noUnpaidInverse": true,
+      "allComplexLambdaRootsAndAllAllowedRhoRetained": true,
+      "stage": "constant_fiber_complete",
+      "seconds": 3.5401025070000003
+    }
+  ],
+  "direct_QQ_divisibility": {
+    "H4_power": 4,
+    "H20_power": 1,
+    "method": "already-paid boundary constants and coefficient divisions; explicit universal integral dual",
+    "no_new_local_determinant_execution": true
+  }
+}

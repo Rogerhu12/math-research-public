@@ -1,14 +1,13 @@
 {
-  "message": "ISP: freeze first QQ projection timeout and enter entire D27 quintic curve",
-  "parentCommit": "545d369d165281e3072698914bc6a1742a35e124",
+  "message": "ISP: exclude entire Phi H4 and H20 fibers and prove exact 1069 residual cover",
+  "parentCommit": "51e149f6e0fdec7f420e6ef5e15eb9904e5c508b",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-monic-y-six-first-QQ-projection-timeout-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-D27-entire-quintic-original-finite-cover-8542.py",
-    ".github/workflows/invariant-subspace-w-d-twenty-seven-entire-quintic-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-receipt-8542.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,7 +16,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-w-d-twenty-seven-entire-quintic-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }
