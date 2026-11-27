@@ -4,23 +4,23 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`7bd543fbd1218460bc7cb96113d678bddd165014`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`545d369d165281e3072698914bc6a1742a35e124`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H、diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric算子范数≤1e−6；同g/参数/范围真实mesh、频率及t精化至机器或原容差，多t网格和准确严格存在缺口。D为整个F0直径。δhold按原定义不作刚体对齐；δE才对E(3)取商。有限点、开放片、障碍或仅小缺陷不完成。
 
-完整前H、全部参数/失败/未知保[db26917完整交接](https://github.com/Rogerhu12/math-research-public/blob/db26917a6b5a1ebf3972aaec8cdf7256c205d70d/topics/visible-flex-larger-amplitude/HANDOFF.md)，内含b813672完整链，由其原完整链接恢复全部历史；既有结论不重做。M160/J923/N2048/P7377、全部自由量/Phi/C/J/J*/范数/阈值不裁；iteration_limit非驻点。
+完整前H、全部参数/失败/未知保[3690efe完整交接](https://github.com/Rogerhu12/math-research-public/blob/3690efef7159e101d59d87fe421792c7a49bb7f3/topics/visible-flex-larger-amplitude/HANDOFF.md)，内含db269/b813完整链，由其原完整链接恢复全部历史；既有结论不重做。M160/J923/N2048/P7377、全部自由量/Phi/C/J/J*/范数/阈值不裁；iteration_limit非驻点。
 
 ## 历史状态与保全
 
-03–06完整九history和06两分支地点/typed/保护/合并责任保固定前H；06末未可行，28b/cfd未准入。07仅1–3返，cc0a及后继未知；08/09见末块。R697/R702/R705不重做，未知不冒已读。
+03–06九history及两分支未合并地点/typed/保护/序义务保固定前H；06未可行，28b/cfd未准入。07仅输入返、后继未知；08/09见末块。已登记R697/702/705不重做。
 
 [33–40完整保全与恢复](notes/2026-11-27-actual28-receipts-and-system-metadata-retention-40.md)及固定前H保各旧完整ledger、全部源/参数/请求/真结论/正确warm与status链。40仅退13旧actual28收据与4生成系统清单1750110B；54/57同gzip不合并科学结论，42恢复须透明解压成原.json。旧reader原guard保；缺wholeSHA明列null、不混ZIP身份。未读候选体或重跑，当前输入与队列不变。
 
 ## 09终态与完整未返回责任
 
-[09终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)见末块；1–7真返，科学8 ff544、pure aee22及后续费未返，原因未知。原94309B七pending、58源/145+7argv、333/317及全部输入/13父/全E/typed历史保原说明与b813672完整H；1995尾accuracy=false，旧2397只carrier。near32非typed上限，未知不为空，09/10目标与费用不能迁用。
+[09完整终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)和固定前H保原58源/全部参数/七pending/所有输入与typed义务。只1–7返，ff544/aee/费用未知；1995尾false，2397只carrier，不迁09目标/值至10，near32不截历史。实际取消与规则commit见末块。
 
 ## 闭面、全phase与非全等
 
@@ -44,7 +44,7 @@ R248仅活动像，固定p4须共同R650或全部mixed pairs；均值J≠normal 
 缓存只复用同链完整C，活动/未知transform旁路、每stage/final原重读，全部J链/几何保。12:43:54观察normal_chain_enter、point11a776（原cd530/5a33/0088后）：984050请求/返回、446458原算、537592命中、失败0；非接受点/指标/immutable证书。科学5和pure未返。07/08/09未知report/point/typed及后续完整合并责任保，10自身restart严格。
 
 
-[不可写点完整族](notes/2026-11-27-run10-immutable-point-cache-binding-and-complete-source-family.md)15体/两构造/两方案已刊未排，90来源保原75。normal完整bytes owner、每key同对象/owner/布局，入口出口全词与全部data/control/active旁路/每段final原式保。完整c3dc/2efa13父/全typed桥、原20121B科学后缀和全部参数保；frame_matrix键对齐。无未来SHA/数值/速度，progress原43+5=48。
+[不可写点完整族](notes/2026-11-27-run10-immutable-point-cache-binding-and-complete-source-family.md)全源/全参数已刊未排；同bytes owner与入口出口全词、所有active旁路/32段及final原式、原科学suffix/13父/typed保。计数口径分开、progress48，无实际速度或新场结论。
 
 [11完整固定输入再生](notes/2026-11-27-same-run10-fixed-reference-cross-runner-reconstruction.md)已排5989一步：真实46000835895/1、job140511753433先原561全warm，再定数2218/全7377与旧2397地址carrier完整再生。硬核512/71f/081及origin e711/b240，实际新preparation/六file身份独立，future全null。5aee纯桥/完整新context/全部16argv-10outputs-36selectors保，无AST/探针门。后继solver/pure待完整source；[准确费用接口](notes/2026-11-27-same-run10-complete-accurate-fee-interface.md)保全32段/1024闭胞/九角色，未有实际场/费，07–10未知历史不为空。
 
