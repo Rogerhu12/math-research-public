@@ -1,0 +1,234 @@
+{
+  "schema": "isp-original-interface-and-actual-boundary-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "notes/2026-11-28-unit211-W-original-NSPS-pure-binary-cubics-and-fixed-six-determinant-8542.py",
+  "run_id": 46067199807,
+  "job_id": 140735314141,
+  "actual_driver": {
+    "elapsed_seconds": 180.63554205600002,
+    "max_child_rss_kib": 347404,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "cc1846fc749262b990a611dac6949bb089b76630",
+        "before": "cc1846fc749262b990a611dac6949bb089b76630",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:58:51.141476+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46067199807",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "cc1846fc749262b990a611dac6949bb089b76630",
+    "source_exit_code": -14,
+    "source_git_blob": "7168d1fca285aca72ec4cfd21e8e36575df44ebf",
+    "source_sha256": "d5c514ea047fbc4fb7f3589cf9a75fce1cae0ae60e063e3b4e08001a1f5b4925",
+    "stdout_bytes": 7786,
+    "stdout_sha256": "7e879edfa0ab9646f9ef8f3c6bf27264dd4113deb4c5dc2e39ef4deea835c23f",
+    "stop_reason": null
+  },
+  "actual_completed": [
+    {
+      "stage": "new_W_entire_original_cubic_pure_binary_identity",
+      "seconds": 8.578491352999997,
+      "original": "NS",
+      "actualPureBinaryCubic": {
+        "totalGeometryDegree": 3,
+        "geometricMonomials": 10,
+        "coefficientNumeratorTerms": 11874,
+        "maximumNumeratorDegrees": [
+          39,
+          51
+        ],
+        "maximumDenominatorDegrees": [
+          32,
+          48
+        ],
+        "completePolynomial": {
+          "bytes": 539676,
+          "sha256": "edd0cfd99ba6e68ba93f73d86dc6f8fa14eef4afbbebe75ec9d633655e6bc6d4"
+        }
+      }
+    },
+    {
+      "stage": "new_W_H265_actual_original_NSPS_six_coordinate_row",
+      "seconds": 17.78779154,
+      "original": "NS",
+      "actualRemainder": {
+        "totalGeometryDegree": 2,
+        "geometricMonomials": 6,
+        "coefficientNumeratorTerms": 9868,
+        "maximumNumeratorDegrees": [
+          46,
+          60
+        ],
+        "maximumDenominatorDegrees": [
+          39,
+          58
+        ],
+        "completePolynomial": {
+          "bytes": 515379,
+          "sha256": "5bd33c72f473ec47bfdf7e534cf6a4feb04ed24e77cc76ad8e64ea41156c4be5"
+        }
+      }
+    },
+    {
+      "stage": "new_W_entire_original_cubic_pure_binary_identity",
+      "seconds": 18.73176498,
+      "original": "PS",
+      "actualPureBinaryCubic": {
+        "totalGeometryDegree": 3,
+        "geometricMonomials": 10,
+        "coefficientNumeratorTerms": 11263,
+        "maximumNumeratorDegrees": [
+          38,
+          49
+        ],
+        "maximumDenominatorDegrees": [
+          31,
+          46
+        ],
+        "completePolynomial": {
+          "bytes": 500817,
+          "sha256": "34d10e461bf2b7b1646ba55fc2d5a87945cf9c3ab2031e0c20a1520a8f6ee413"
+        }
+      }
+    },
+    {
+      "stage": "new_W_H265_actual_original_NSPS_six_coordinate_row",
+      "seconds": 29.275646656,
+      "original": "PS",
+      "actualRemainder": {
+        "totalGeometryDegree": 2,
+        "geometricMonomials": 6,
+        "coefficientNumeratorTerms": 10197,
+        "maximumNumeratorDegrees": [
+          47,
+          60
+        ],
+        "maximumDenominatorDegrees": [
+          40,
+          58
+        ],
+        "completePolynomial": {
+          "bytes": 533887,
+          "sha256": "1764e63f1f046ad1aa74a3938594df5bdbfbb2164c98f5cd5b6d2e05c892714d"
+        }
+      }
+    },
+    {
+      "stage": "new_W_original_NSPS_fixed_column_paid_polynomial_normalization",
+      "seconds": 32.429107578,
+      "label": "NS",
+      "maximumDegrees": [
+        46,
+        61
+      ],
+      "totalTerms": 11008
+    },
+    {
+      "stage": "new_W_original_NSPS_fixed_column_paid_polynomial_normalization",
+      "seconds": 32.478803633,
+      "label": "PS",
+      "maximumDegrees": [
+        47,
+        61
+      ],
+      "totalTerms": 11358
+    },
+    {
+      "stage": "new_W_original_NSPS_fixed_column_paid_polynomial_normalization",
+      "seconds": 32.809430334,
+      "label": "lambda*NS",
+      "maximumDegrees": [
+        66,
+        90
+      ],
+      "totalTerms": 23141
+    },
+    {
+      "stage": "new_W_original_NSPS_fixed_column_paid_polynomial_normalization",
+      "seconds": 33.052944216,
+      "label": "S*NS",
+      "maximumDegrees": [
+        66,
+        91
+      ],
+      "totalTerms": 23535
+    },
+    {
+      "stage": "new_W_original_NSPS_fixed_column_paid_polynomial_normalization",
+      "seconds": 33.397269697999995,
+      "label": "lambda*PS",
+      "maximumDegrees": [
+        67,
+        90
+      ],
+      "totalTerms": 23664
+    },
+    {
+      "stage": "new_W_original_NSPS_fixed_column_paid_polynomial_normalization",
+      "seconds": 33.647684077,
+      "label": "S*PS",
+      "maximumDegrees": [
+        67,
+        91
+      ],
+      "totalTerms": 24064
+    },
+    {
+      "stage": "new_W_original_NSPS_fixed_six_by_six_parameter_input",
+      "seconds": 34.033232088999995,
+      "matrixDefinition": {
+        "bytes": 5426821,
+        "sha256": "a2f07833f6f1ddaa938c230efafa1e07f034558b6a15343ae270a190c4f4ea62"
+      }
+    },
+    {
+      "stage": "new_original_NSPS_fixed_Bareiss_polynomial_identity_step",
+      "seconds": 34.803173926999996,
+      "step": 0,
+      "actualExactDivisionProducts": 25,
+      "currentTrailingDegrees": [
+        112,
+        152
+      ],
+      "currentTrailingTotalTerms": 256967
+    },
+    {
+      "stage": "new_original_NSPS_fixed_Bareiss_polynomial_identity_step",
+      "seconds": 53.071845558999996,
+      "step": 1,
+      "actualExactDivisionProducts": 41,
+      "currentTrailingDegrees": [
+        156,
+        213
+      ],
+      "currentTrailingTotalTerms": 344448
+    }
+  ],
+  "mathematical_scope": {
+    "global_original_NS_PS_cubic_identity": true,
+    "H_open_six_coordinate_original_rows": true,
+    "fixed_six_by_six_original_matrix_formed": true,
+    "determinant_formed": false,
+    "new_parameter_curve": false,
+    "whole_H_zero_retained": true,
+    "unit_or_exclusion_claim": false,
+    "rank_five_claim": false
+  },
+  "frozen_failure": {
+    "signal": "SIGALRM",
+    "exit": -14,
+    "last_printed_step": 1,
+    "last_printed_seconds": 53.071845559,
+    "retry_or_extension_authorized": false
+  },
+  "retention": "Only frozen source, parameter definitions, run identity, hashes and this small receipt. No matrix or coefficient cache is archived."
+}
