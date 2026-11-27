@@ -343,3 +343,6 @@
 
 
 - **R1090（已证明，精确计算）**：[原full47整Hodge来源](results/R1090-original-weight-one-integral-Hodge-source.md)：完整weight-one Reynolds下降/整性，168 jet与全23 cusp留数核，原Hecke坐标和CM微分系统；run45946046378在4.448秒认证原rank95、全23留数rank22和核73；实际CM高矩/高度仍开。
+
+
+- **R1092（已证明）**：[原六个三挠点的精确Cartier值](results/R1092-original-six-three-torsion-Cartier-values.md)：同一FM/Miller截面与实际étale商给aH_p(432)=−a_p(E*)，原微分/二次扭曲与Qζ9⁺二挠域保全；p2/5mod9全六值单位，短原点两jet仍开。

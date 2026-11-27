@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：71847a37b87904ec1f8aff934c38065924c6e7a6**（2026-11-27 13:32 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：78fe26b7508b627a79e98814b61cfae88a918fd3**（2026-11-27 13:34 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；13:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -55,6 +55,8 @@ R1012/16/17/20/25/27 的未经筛选完整 theta 分布、常平方一及全方�
 [R1082](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)：原Gaussian d=p²−4p−1的G_d=H_p^p/(2δ)，H_p为完整短卷积=2∂G_(p−5)/5；两全局primitive/误差/原coarse斜率全付，H_p单位仍开。
 
 [R1084](results/R1084-original-Gaussian-high-unit-and-maximal-forced-label-degree.md)：全p3mod4原G_(7p−1)=−2a²/(315δ)单位，最大forced R=m+3的raw coarse度恰(p−7)/4；该角色good时global顶项单位，保两twists/原相位。H_p与短η/ν仍开。
+
+[R1092](results/R1092-original-six-three-torsion-Cartier-values.md)：原FM截面在其余六三挠点的值精确为aH_p(432)=−a_p(Y²=X³−9X+9)；原étale商/微分/twist全付，2-division Q(ζ9)⁺给p2/5mod9单位。原H_p(0)、H_p′(0)及短η/ν仍开，继续真三分布。
 
 ## O2：原高近p值
 

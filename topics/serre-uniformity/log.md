@@ -753,3 +753,8 @@ R1090登记原完整Reynolds/整Hodge与真实Hecke来源，首168-jet rank95及
 2026-11-27 13:33 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1090§8消费run45946046378/job140330877264：七组原候选给rank95，全23真实留数rank22、Hodge核73，4.448254375秒success；纯虚ρ=2i新增21维被保留。
 保存来源/请求/完整hash，95来源描述只作后继参数；继续同基Hecke桥及R1091的实际CM首log，不重跑已成搜索。
+
+
+2026-11-27 13:34 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1092原六个三挠点FM值精确等于−ap(E*)；保原Miller首项、R²=W+a、反射商、−1/6微分和quadratic twist，2-division Qζ9⁺给目标mod9类单位。
+root/o2全文纸核，无新数学执行；继续与原D6三同源trace和短η/ν的真实联系，不把六点值冒原点低jet。
