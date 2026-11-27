@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 123297a9288cee356dad9d898ee7cb70a058d9b4（2026-11-27 11:36:53 UTC，Actions run45991898497实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45991898497-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 11:36:53 UTC/daa419c562a201e009c2e336b30c968e0dd1bd83，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 42e39911036c6d30837ad7569b1e80620225141e（2026-11-27 11:39:23 UTC，Actions run45992224859实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45992224859-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 11:39:22 UTC/2dfee6528a8f451ae44ede22266ebae0c673692e，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `123297a9288cee356dad9d898ee7cb70a058d9b4`（2026-11-27 11:36:35 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `42e39911036c6d30837ad7569b1e80620225141e`（2026-11-27 11:39:04 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-J19-original-input-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **一般T0=0全闭，可付T0。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **一般Delta非0八值六维及h1/k1同H清分母全返已付。** e6dae493真10.632秒/156116KiB/exit0；八原式只用基域分母、无Phi逆，三分子gcd实为1。另实核原Delta*对ell三次头−2Sxi·p⁵/rho已付；下一整个Delta*=0碰撞图的首一三维ell/原兼容式。旧权重参数化及900秒门不重做，其它E=0与t六次头零保留。
+- **一般Delta非0八值六维及h1/k1同H清分母全返已付。** e6dae493真10.632秒/exit0；三分子gcd实为1、Delta*对ell三次头−2Sxi·p⁵/rho已付。新c4273fbc接整个Delta*=0碰撞图：首一ell三维商、free原t、八原值与H³三行全乘回，180秒4GiB待实际；所有临时主元零保留。旧900秒门/旧参数化不重做，其它E=0及t六次头零开。
 - **整Phi0完整值已付；h1有序图至多8918基点。** 1ec9真4.796秒/57628KiB/exit0，首一ell2、八原行/11个H³原返回；98/91次QQ互素，仅有限覆盖，k1交换覆盖。新ca53以(r,ell r)和真单位U³目标缩小core，norm只筛相交、全原乘回，不倒norm；120秒/1GiB待实际。
 
 ### rankH3原ess6
