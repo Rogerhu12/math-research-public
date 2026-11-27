@@ -270,3 +270,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [W规范六行四列原头的整体覆盖](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)：12×10三次乘法块经合法原消元为I6⊕G，故每一允许权点rankG=4；15最大子式生成已付权环单位理想，具体六个二元单项式全局生成原均值代数。旧全局6维界不重计；新增的是该规范头覆盖/具体生成元，仍未排H265零或原个别NP。
 
 [两对等权加两独立权的完整联合新源](notes/2026-11-28-two-pairs-two-independent-original-joint-three-tower-8542.md)：4/3维真实源、全三塔及全部cross，域x=1+U,y=V+W,z=W覆盖U,V≥0,W>0；7个原主子式首次180秒/4GiB，全部返回前不称S1/S2或七位边完成。
+
+[H1三个一次极点整原纤维已闭、余≤1012权对](results/R150-appendix-unit211-Phi-zero-H1-three-linear-poles-complete-exclusion-and-1012-cover.md)：u=3/2,12/5,5/2各全部Q三次代数内的原3×3二次头、六真乘法列、两λ6同点cofactor皆完整返回，λBezout1；其余一次Q支由已付delta/ell排。C253=C256/三个一次因子，非原λ/T/z点数。六非线性源极点及P201仍全保；不重跑Dixon8、不借旧b1/A0逆。
