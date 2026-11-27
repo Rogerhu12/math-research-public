@@ -514,3 +514,192 @@ R1057 的指定原 $X_1,c_1$ 深盘唯一性也不能未经实际 source 运输
 
 全 $p$ 的共同辅助像排除同样仍开放；
 本文固定 $p=47,\ell=283$，没有把本次 finite-field 成功外推成统一定理。
+
+
+## 9. 整个原 CM 圆盘上的 j 单射与坏 47 高度
+
+本节是纸面后继，不执行新的数学程序。
+它使用 §5 已经认证的八个**原**圆盘，而不将 Kummer 标签的局部恒定性
+误当成盘内解析消去。先支付实际 $j$ morphism 的全圆盘精度，
+再给原非对角 Cartan 对应的支撑和 Néron 配对；
+最后说明与既成 R43 的准确关系。
+
+### 9.1 全部 Cp 点上的实际解析同构
+
+令 $\mathcal U_J\subset X(\mathbf C_{47})$ 为原正则模型中
+$\overline{c_J}$ 的 tube。这里包括需要 ramified fine lift 的点。
+若 $J\ne0,1728$，令 $e_J=1$；若 $J=0$ 或 $1728$，
+分别令 $e_J=3$ 或 $2$。
+
+存在该 **coarse** tube 的整参数 $z$，$z(c_J)=0$，以及
+$a_J\in\mathbf Z_{47}^{\rm ur,\times}$、整收敛函数 $R_J$，满足
+$$
+\frac{j-J}{47^{e_J}}=a_Jz+47R_J(z),
+\qquad R_J(0)=0.
+\tag{1074.14}
+$$
+参数及等式可在原点的实际下降环中读取；
+写不分歧扩张只是为了统一证明，不增加点或删掉 twist。
+
+关键是 (1074.14) 在整个完成局部环中成立，
+不是只在 $\mathbf F_{47}$ 值上成立。
+对六个非特殊 $J$，R1066 §4.2 的真实 invariant blowup chart 给
+$$
+u/47=ct+47R(t),\qquad c\text{ 为单位},\quad R\text{ 整}.
+$$
+这里的正 $47$-赋值来自精确 Kummer invariance：
+原 $\tau^{48}=47$ chart 中的正 $\tau$-赋值误差已经下降到
+不分歧 invariant 环，因而确实被 $47$ 整除。
+R1066 的 full-level source 次数控制已支付所有高项。
+在实际 CM lift $t=t_J$ 处平移，得
+$(u-u(t_J))/47=(t-t_J)(c+47R_1)$。
+这六个 $J$ 的约化都不是 $0$ 或 $1728$，所以 good fine deformation 上
+$j-J$ 是 $u-u(t_J)$ 的整单位倍；再复合其整展开便给 (1074.14)。
+
+对两个特殊中心，使用 R1066 §4.3 的真实 $\mu_{e_J}$ eigenparameter。
+写
+$$
+T=t^{e_J},\qquad u/47=tV(T),\qquad
+V(T)\equiv c\pmod {47},
+$$
+其中 $V$ 是整单位。原 coarse morphism 满足
+$$
+j-J=u^{e_J}W(u^{e_J}),\qquad W(0)\text{ 为单位}.
+$$
+因此
+$$
+\frac{j-J}{47^{e_J}}
+ =T\,V(T)^{e_J}
+    W\!\left(47^{e_J}T\,V(T)^{e_J}\right)
+ =a_JT+47R_J(T).
+\tag{1074.15}
+$$
+这里 $T$ 才是原 coarse 参数；没有要求 $t\in\mathbf Q_{47}$，
+也没有从 $T\in47\mathbf Z_{47}$ 错推 $t\in47\mathbf Z_{47}$。
+
+对任意 $z_1,z_2$ 满足 $|z_i|_{47}<1$，
+整幂级数的差商
+$(R_J(z_1)-R_J(z_2))/(z_1-z_2)$ 仍整，故
+$$
+\left|
+ \frac{j(z_1)-j(z_2)}{47^{e_J}}
+\right|_{47}
+=|z_1-z_2|_{47}.
+\tag{1074.16}
+$$
+导数同样是单位。整形式逆函数定理于是给
+$$
+\boxed{\quad
+j:\mathcal U_J\xrightarrow{\ \sim\ }
+ \{\,J+47^{e_J}w:\ |w|_{47}<1\,\}.
+\quad}
+\tag{1074.17}
+$$
+这是整个 $\mathbf C_{47}$ tube 上的解析同构，且处处 étale。
+它加强了 §6 的同余，但本身不限制圆盘中有理点的数量。
+
+### 9.2 原 j-preserving 非对角对应的所有支撑避让
+
+令 $Z$ 是原 $X$ 上若干非恒等 Cartan double-coset correspondences 的
+整数组合；每个几何支都改变 Cartan，而保持 underlying elliptic curve，
+所以保持原 $j$。要求这些支不含 diagonal component。
+这从实际 moduli 描述也可直接核：一般 elliptic curve 的
+$\operatorname{Aut}/\{\pm1\}$ 平凡，非恒等 double coset 给不同的 Cartan。
+
+在任意 $x\in\mathcal U_J$ 处，§9.1 已证明 $j$ étale。
+因此 $X\times_{\mathbf P^1_j}X$ 在 $(x,x)$ 附近的 diagonal 是开闭支；
+一个全局非对角几何不可约支若经过 $(x,x)$，
+就在该邻域包含 diagonal 的非空开，从而本身是 diagonal，矛盾。
+所以没有这样的支固定 tube 中的点。
+
+这也支付两个特殊点的原 moduli 接口：
+在 tube 内若 $j=0$ 或 $1728$，(1074.17) 迫该点就是 $c_J$。
+其 Cartan 是 **canonical CM Cartan**，全部 CM units 都正规化它，
+故其实际 Cartan 的 automorphism orbit 是 singleton。
+非恒等 double-coset 支不能借 coarse 自同构把另一个 Cartan 重新认成该点。
+
+现在取任意 $x,y\in\mathcal U_J$。
+若一个支将 $x$ 连到 tube 内的点 $x'$，则 $j(x')=j(x)$，
+由单射性得 $x'=x$，又与上述无 fixed point 矛盾。
+因此，连同所有几何共轭支，
+$$
+\operatorname{Supp}(\operatorname{Fix}Z)\cap\mathcal U_J
+=\operatorname{Supp}(Z(x))\cap\mathcal U_J
+=\operatorname{Supp}(Z(y))\cap\mathcal U_J
+=\varnothing.
+\tag{1074.18}
+$$
+虚系数只可能消去支撑，不影响此结论。
+$\operatorname{Fix}Z$ 是真正的有限交点 cycle；
+这里没有把含 diagonal 的 Hecke 算子硬当成有限 fixed divisor。
+
+### 9.3 真实 raw divisor 的坏 47 Néron 配对
+
+进一步假设 $Z$ 对称且在 $H^0(X,\Omega^1)$ 上 trace 为零。
+设 $d=\deg Z(x)$。对称性及 Lefschetz 交数公式给
+$$
+\deg\operatorname{Fix}Z=2d-2\operatorname{Tr}
+       (Z\mid H^0(X,\Omega^1))=2d.
+$$
+以下取共同有限扩张 $L/\mathbf Q_{47}$ 上的 $x,y\in\mathcal U_J\cap X(L)$；
+实际应用中两点均在 $\mathbf Q_{47}$ 上。于是
+$
+P=x-y,\qquad D=\operatorname{Fix}Z-Z(x)-Z(y)
+\tag{1074.19}
+$$
+都是次数零的真实 divisors，且由 (1074.18) 支撑互不相交。
+
+在原正则模型上，$x$ 与 $y$ 的 sections 通过同一个 smooth 特殊点。
+它们与每个垂直不可约分量的交数相同，故 $P$ 的 admissible vertical
+correction 可以取零；其仅差一个全纤维的歧义不改变与次数零 $D$ 的配对。
+另一方面，(1074.18) 说明 $D$ 的全部几何支撑都不在这个 tube，
+所以其闭包避开该特殊点，水平交数也为零。
+
+若先作有限扩张使各支撑有理，smooth chart 的基变换仍光滑，
+同一论证保持成立；再用交数的 projection formula 降回去。
+由此对任意 coefficient prime $\ell\ne47$ 及相应非 $\ell$ 处的
+Néron 高度规范，
+$$
+\boxed{\quad
+h_{47}\bigl(x-y,\operatorname{Fix}Z-Z(x)-Z(y)\bigr)=0.
+\quad}
+\tag{1074.20}
+$$
+这一步不需要整个 Jacobian 潜在好约化，也不需要特殊纤维的图是一棵树。
+所用非 coefficient-prime 高度等于垂直修正后的交数，
+是 R43 §§1、4 已核的已发表 Néron/Poincaré 比较。
+
+### 9.4 旧 R43 对八个实际圆盘的应用及余下输入
+
+[R43](R43-neron-height-from-integral-correction.md) §4 Theorem 4
+已经对其实际对称 trace-zero 对应 $F$、规范双扩张截面及基点 $b$ 证明
+$$
+h^{\rm Nek}_{F,47,b}(x)
+ =\frac{k_i(F)-k_{i_b}(F)}{2d^2}\log_\ell47.
+$$
+因此 §5 的实际圆盘结论立即给
+$$
+h^{\rm Nek}_{F,47,b}(x)
+ =h^{\rm Nek}_{F,47,b}(c_J),
+\qquad
+h^{\rm Nek}_{F,47,c_J}(x)=0.
+\tag{1074.21}
+$$
+这里保留同一个 $J$。若使用一个固定全局基点 $b$，
+应说两个值相等，不能把所有圆盘的值都擅自设为零。
+这个应用不需要小 Hecke 次数条件，也不需要 $\operatorname{rank}J=g$；
+它没有重新声称一个新的通用局部高度定理。
+
+(1074.18)–(1074.20) 另外支付了原 off-diagonal Cartan cycle 的
+**raw 支撑**和直接交数，用于需要此精确 divisor 而不只是
+规范 QC 局部函数的后继论证。
+仍须另外取得原完整 level-$2209$ Fricke-plus Jacobian 的实际秩、
+辅助素处整 Hecke / Mordell–Weil 格、全局高度及盘内首项。
+R45 的非零 Heegner 商并不等于整个 Jacobian；
+旧 $X_1,c_1$ 的结果也没有在这里被换成全 $X$。
+所以 (1074.17)、(1074.20) 和 (1074.21) 均未把八个圆盘内的有理点唯一性
+当成已经完成。
+
+本节由 global_route 逐式纸证；o1_theta 独核全整 chart、特殊 coarse
+参数与 canonical-Cartan 支撑，o2_high_coefficient 独核垂直及水平交数、
+有限扩张和 degree-zero 范围。没有运行新的数学计算。

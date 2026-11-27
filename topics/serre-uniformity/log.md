@@ -651,3 +651,7 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 11:10 Asia/Taipei｜Astra-serre-24b8836b-20261126
 - R1077将新Hurwitz单位准确运输到同一原T²的加权2k次系数；原O参数、C/c相位、residue偏移和有限Euler精度全部独核，两种常数严格相符。
 - 无数学执行；仍须把该真实单位接到η_k/ν_k短k次双障碍。full47旧R43坏项消去正在实际消费，另准备全J新秩输入，不搬旧41或X₁证书。
+
+2026-11-27 11:18 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1074§9：原八CM tube全Cp scaled-j解析同构、原非对角Cartan支撑及raw坏47 Néron配对零；引用R43的同盘QC项，不重复一般定理。
+下一步继续原短D⁶双障碍，并核full2209新Fricke+秩与aux高度；主目标OPEN。H/open按限制逐字归档。

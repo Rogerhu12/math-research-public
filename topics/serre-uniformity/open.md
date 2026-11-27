@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-p47-eight-CM-disks.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-whole-Cp-tubes.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -31,7 +31,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原p47全部235盘经ℓ283同点筛选仅余8个已定位Q-CM盘，排227盘；run45928658257/job140275928914源e5d0d9d。独立Burnside给279原aux点，完整279标签使图单射，同一个CM点在283约化；47一般j同余模47²，特殊j0/1728为4/3阶。八盘内部排点和全p仍开；R1072/73及全部pins/hash只消费。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原p47全部235盘经ℓ283同点筛选仅余8个已定位Q-CM盘，排227盘；run45928658257/job140275928914源e5d0d9d。独立Burnside给279原aux点，完整279标签使图单射，同一个CM点在283约化；47一般j同余模47²，特殊j0/1728为4/3阶。§9新增整个Cp tube的scaled-j解析同构与原非对角支撑/raw坏47配对零；旧R43已使同盘QC项相同。八盘内部排点、full47秩/aux高度和全p仍开；全部pins/hash只消费。
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V有限式/phase/两twists已付。R1075闭合原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse单位斜率；good条件仅留global圆单位坐标。原f_N/e及盘内/global排点仍开。
 
@@ -157,17 +157,11 @@ R575关于正CM角色Ψθκ4、根号−1和中心值零的更正继续生效；
 
 ## O5：原固定Y计算的有效断点
 
-完整精确run/manifest/core/hash和源参数在[前态](open-archive-2026-11-20-before-conjugate-primitive.md)，不重复已经完成的数学。
+R805–930 的全部固定源、W/两图、146/418/273 jets、cY/127全纯、七trace、DK272、三十共轭/七连接/Artin迹、原锚/双7尺度及运行pins，保留在[本次逐字前态](open-archive-2026-11-27-before-whole-Cp-tubes.md)和沿链旧归档；只消费，不重算。
 
-R805–930的原W/两图/146/418/273jets、真cY/127全纯、七trace/K固定418及DK272、五Z/两权、三十共轭、七连接、完整Artin微分迹及目标运输已成。全部原锚、七重datum、ρ/t首项、P0/P1与dual7继续保留。原char0未展开不等于已经得到准确阶。
+R907原j1的四原artifact真实404，schema修复已成、producer_inputs_pending；不能用摘要重造数组。五目标128→672铅笔、E2176九NormΦ及两端格待原producer输入。旧pre-core/预算/143/404失败均非负数学结论。
 
-R927参考已成：同λ0=1、完整2+6/0+8，Normρ阶−508/0；原t首项466867763/728442038、比315436983。267项只需9，254极阶/U272保留；**该辅助有限域比不是p-adic高度**。
-
-R907原j1 run43924786163只因pre-core配置KeyError停止；[schema修复](notes/R907-inherited-transport-configuration-repair.md)已作，但四原artifact真实404，当前request明确producer_inputs_pending。不能用摘要重造原数组。五目标128→672铅笔、完整E2176九NormΦ、两端目标格仍待真实来源；其余四方向随后沿同一来源继续。Φ=QZ/qχ正乘；DN先−dlogQN再Gal7，保完整幂零/全部块/原函数。
-
-真实剩余height输入包括real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、完整nonp/Poincaré/splitting。R870的16ni和1959位d*须合法好约化niPiξj非零才判活跃；YL1=0非rank0，UE=dY+2period，End⁰G=F且torus≥g+1，μ3qφ*=0不删Y。
-
-六继承run已核终态failure/空artifact，具体pre-core/预算/143/404见[回执](notes/2026-11-20-resumption-and-run-availability.md)。R787 primal670、R824693、半dual638、R854 N112→224的真实断点与全部在途叶保原归档；预算false FINAL不是负数学结论，旧有效位不重算。
+未付：real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、完整nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零才判活跃；YL1=0非rank0，UE=dY+2period，End⁰G=F且torus≥g+1，μ3qφ*=0不删Y。全部准确常数、断点和在途叶见逐字前态。
 
 ## O6：保留的其他全局路线与永久边界
 
