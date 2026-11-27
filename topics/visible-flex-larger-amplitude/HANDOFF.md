@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 05:19:44 UTC，真实pull/rebase至origin/main `a5825f373bb1ea15ffff675c5929391e5a17f2ba`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 05:24:52 UTC，真实pull/rebase至origin/main `f73d7ab9311f92b9da34596e5317a3a66cca730c`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
@@ -44,12 +44,9 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 
 [解析J3+根记录全入口](notes/2026-11-27-complete-analytic-J3-packet-envelope-entry.md)13体/两再生器/两全参数ready已成，root真再生及48源核过；0dfb/c2a保m32/全变量/J/J*/全E，新增显式95559完整13成员迁移，未知07/08责任保。现仅source完成，7c参数不冒09输入，真实field/费用未付。
 
-[09完整输入启动](notes/2026-11-27-run09-complete-bootstrap-for-analytic-normal-continuation.md)保原warm+4e全参数；解析J3待全源/真实输入绑定后准入。07/08未知父/typed责任保，不预填新chart或同g，08原95559不改。
+[N2048→4096完整观察入口](notes/2026-11-27-complete-N4096-fixed-reference-observation-entry.md)12运行体/6构造体/全ready，root真再生及34源核过；只原cc0a/M160/90、非径向/7c。完整旧点13成员/typed历史迁移、全old/current G和真新field保；未准入/无真返，新族适配继续。
 
-<!-- visible-larger-parallel-07:start -->
-并行公开Actions07：run45909290354/1、job140213487518，API实观05:02:15UTC为completed/cancelled；旧04:44:16索引仅1–3返、step4仍running，无科学terminal，完整终态见上note。
-并行07规则核查：2026-11-27 04:44:16 UTC，真实pull至`3171ea388defba8252c929c2e6a7666caacca93d`，双README无变化。
-<!-- visible-larger-parallel-07:end -->
+[09完整输入启动](notes/2026-11-27-run09-complete-bootstrap-for-analytic-normal-continuation.md)保原warm+4e全参数；解析J3待全源/真实输入绑定后准入。07/08未知父/typed责任保，不预填新chart或同g，08原95559不改。
 
 <!-- visible-larger-parallel-08:start -->
 并行公开Actions08：[run 45929088658/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45929088658)；[实际记录](notes/2026-11-27-public-actions-45929088658-1.md)。阶段`followup:complete-independent-fixed-chart7c-full-envelope-20261127-08`/running；已返10，exit=未返。
