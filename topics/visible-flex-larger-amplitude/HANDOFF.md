@@ -41,7 +41,7 @@ root独占refs/队列；solver监控12/15/16自然返回，geometry监控13/14�
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
-并行12规则核查：2026-11-27 17:20:42 UTC，真实pull至`447d77bd9303de1661d84ff4013d51e68e534040`，双README无变化。
+并行12规则核查：2026-11-27 17:25:44 UTC，真实pull至`0f43c0f05b8f33b828034b9b5b99f875fa2ca959`，双README无变化。
 <!-- visible-larger-parallel-12:end -->
 
 <!-- visible-larger-parallel-13:start -->
