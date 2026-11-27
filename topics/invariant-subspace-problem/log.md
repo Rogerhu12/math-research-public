@@ -179,3 +179,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:35 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新增本题外workflow invariant-subspace-equal-weight-six-generator-cofactors-8542.yml，首次运行整个等权余图新十原同点行/参数cofactor，180秒/4GiB。
 - 新源只逆原单位与已闭J/2m−1，保所有必要式零面；不重跑旧QQ或W-C9展开。
+
+2026-11-27 13:36 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 完整Q边界T0零支由原g曲线、六阶QQ覆盖、A整域平方身份及B原NS十五阶Gauss排尽；自含源52fe7571真实整跑2.277秒。
+- 仅该边界付h−2，不移用等权或扩大一般LS；继续同一y原值余式，普通ISP未完成。

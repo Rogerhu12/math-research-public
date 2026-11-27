@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明：** [Q=1−u 边界的整个 T0=0 原支排除](results/R150-appendix-unit211-Q1minusU-T0zero-complete-exclusion.md)：原共同曲线回不同值零，六阶完整QQ因式覆盖及整二次域/原NS保度Gauss排全复纤维；剩余此边界可付h−2。
+
 - **已证明输入：** [等权六生成元的原18乘法与全部原值六列返回](results/R150-appendix-unit211-equal-weights-six-generator-original-multiplication-and-value-rows.md)：两余三次、原NS/PS与不同值分子同点全乘回；保非自由关系和原物理条件，继续参数cofactor及全零面。
 
 - **已证明：** [一般等权整个半权 m=1/2 分支排除](results/R150-appendix-unit211-equal-weights-half-weight-complete-exclusion.md)：合法全支两参数返回，原首一z四次和两原三次给完整QQ结式；14/24次真实Bézout1排所有复参数，不是y半子支或单点推断。
