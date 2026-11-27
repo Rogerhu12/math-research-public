@@ -156,3 +156,8 @@ R1040§13用原D5=(K+A)/δ、E90=3K−2A的真实χ65λ/χ10λ全核，在完整
 ### 已关闭的mixed C4映射候选
 
 原C×C的mixed order4商X到原S的dominant映射已排除：实际双商r:C→E+分歧±P0、P0非挠；X的genus2 Albanese族只可能在0、±2P0坏。若映到原I9/I3曲面，Albanese同源的两坏纤维原像必须在这三点内，degree≥2由点数矛盾，degree1由差为三挠与P0非挠矛盾。 完整r的U/V、分歧/真实−2扭曲点及好Jacobian椭圆商论证见[笔记](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)；继续R1043实际S′，不再给该旧候选genus2纤维虚设degree3商。
+
+
+### 第二态G的全算术参考已固定
+
+R1040§14从原两个七挠graph在N投影前锁定整七处配对线，再由dyadic两号及完整δ-new三维矩阵识别G。全部2/3/双7坏角色、Haar、split7环带、CRT与Hermite平方给固定E15876:y²=x³+126²，归一ΨG=−28G/δ质量一且L(E15876,1)≠0、rank0。G无t^-6的真实homothety和单位域保留，不产生JG′的新零条件。 后继仍需实际同源/finite线相同才能比较其它来源；S34/T72的旧参考没有新7分歧，不能直接认成此G。

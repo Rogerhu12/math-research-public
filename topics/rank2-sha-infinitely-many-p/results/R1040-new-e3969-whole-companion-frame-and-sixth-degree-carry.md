@@ -1856,3 +1856,309 @@ $$
 覆盖完整 companion-only 域的独立整测试，并将 canonical 与
 非零质量参考逐项分开。原 S/T mixed logarithm 及含 Y 的补管
 仍按它们的真实域消费，没有在本节被赋予额外中央零。
+
+## 14. 非零质量参考 G 的完整有限来源：固定曲线 E15876
+
+本节把 (92) 的 G 识别为一个固定的实际算术来源。
+识别使用原2、3、双7处的完整有限模型及原 gluing；
+不由几个好位本征值、质量非零或同 degree 猜曲线。
+结论是
+$$
+\boxed{
+E_G:\ y^2=x^3+15876=x^3+126^2,\qquad
+\Psi_{G,b}:=-28G_{126,b}/\delta,\qquad \Psi_{G,b}(0)=1.}
+\tag{111}
+$$
+$\Psi_G$ 是该曲线的原 degree126、质量一 theta 来源。
+这条参考曲线的中央 L 值非零、秩为零；它不提供一个新的
+$J'_G(0)=0$ 条件。其真实作用仍是 (96)–(99) 的非零质量参考。
+
+### 14.1 两个原七挠 gluing 固定完整七处向量
+
+首先在任何 N 主型投影之前使用原六 sigma。逐坐标有
+$$
+\boxed{
+Y+4N\in\gamma_7\mathcal O_K^6,\quad
+N((Y+4N)/\gamma_7)=50;\qquad
+Y+3N\in\bar\gamma_7\mathcal O_K^6,\quad
+N((Y+3N)/\bar\gamma_7)=36.}
+\tag{112}
+$$
+这里 $\gamma_7=3+\omega$、$\bar\gamma_7=2-\omega$。
+例如模 $\gamma_7$ 取 $\omega=4,\delta=2$，模 $\bar\gamma_7$
+取 $\omega=2,\delta=5$，六个坐标全部为零。
+两个 quotient 范数都偶。与 (53) 相同地代入原 sigma
+准周期及原 Weyl 指数，剩余半特征因而准确为正号：
+$$
+\boxed{
+\mathsf T_{Y,u}\mathsf T_{N,4u}\mathcal B=\mathcal B
+\ (u\in\ker\gamma_7),\qquad
+\mathsf T_{Y,v}\mathsf T_{N,3v}\mathcal B=\mathcal B
+\ (v\in\ker\bar\gamma_7).}
+\tag{113}
+$$
+这是整个来源身份，保其他四个输出。
+
+在完整 CRT 模型中，只有 Y 和 N 的 degree 含7；
+七处因子是两个七维 Schrödinger 空间。
+(113) 的两个 graph 子群构成反辛配对：
+交叉中心相位的指数相加为
+$126+4\cdot3\cdot14=6\cdot49$，准确为1；
+单独一侧的中心配对非退化，因为 $14/7=2$ 在模7非零。
+所以其整个同时不变空间只有一维。
+具体地，在第一 kernel 的完整字符基中，第一组身份只留
+七个配对坐标；第二 kernel 循环这七个坐标并锁定其相对相位。
+这证明原七处张量是固定的全 Heisenberg 配对线，
+不是只知道两个 old trace 为零。
+
+现在才施加原 N 投影。
+(70)–(72) 已付 $\Theta_{14}$ 是 principal 且
+$\mathscr S_{14}=-\sqrt3$ 的唯一线。
+在 $14=2\cdot7$ 的 CRT 中，$\mathscr S_{14}$ 只读二处；
+其负特征空间在二处一维。principal 条件随后固定七处的
+一个 CM-unit 特征，且 (71) 的单重性说明该七处特征也是一维。
+因此 $\Theta_{14}$ 是二处固定向量与七处固定向量的纯张量。
+
+将此实际七处向量收缩到 (113) 的配对线，
+得到唯一的 Y 七处向量。随后改变 K/A 的类型只动2、3处，
+不改变这个 Y 七处向量。
+(92) 的 $\Phi_{126}$ 非零，且 R1038(41)–(44) 已完整识别其七处向量，
+所以 G 的七处向量与 $\Phi_{126}$ **完全相同**：
+其有限特征为 $\tau_7(t)=t$，真实 $f_7$、Haar 和 splitting 均为
+R1038(41)–(44) 的原值。
+
+这个论证特意在投影前使用 (113)，再作有限向量收缩。
+并未断言单个 $\mathsf T_N$ 与 $\Pi_{N,0}$ 交换，
+也未断言投影后的 $G\otimes\Theta_{14}$ 仍逐项满足 (113)。
+
+### 14.2 真实二处号及整个野三处支撑
+
+另一个原整数式是
+$Y-K\in2\mathcal O_K^6$，quotient 范数33为 odd。
+对每个非零 $t\in E[2]$，原准周期准确给
+$$
+\mathsf T_{Y,t}\mathsf T_{K,t}\mathcal B=-\mathcal B .
+$$
+完整三项和与各自 CM 类型投影交换。
+由 (69) 的同一 $q_e^2$ 及原二挠加法式，逐项得到
+$$
+\boxed{
+\mathscr S_6 F_6^-=-\sqrt3F_6^-,
+\qquad
+\mathscr S_6(xy\sigma^6)=+\sqrt3\,xy\sigma^6.}
+\tag{114}
+$$
+逐项原式也可写为：对每个 $e^3=-b$，
+$$
+\mathsf T_e^6(xy\sigma^6)=\sigma^6y(x+2e)/\sqrt3,\qquad
+\mathsf T_e^6((X-2b)\sigma^6)
+=-\sigma^6(X-2b+6e^2x)/\sqrt3 .
+$$
+三个 $e$ 的一次、二次和均为零，故相加恰给 (114)；
+原 $q_e^6$ 的 $b$ 因子已在这两个整式中相消。
+
+两条 K 类型分别提取 (92) 的 $\Phi$ 与 G，
+所以 Y 的 dyadic 号分别为 $+\sqrt3$、$-\sqrt3$。
+这里的号来自原 lift；不能由抽象二进维数选择。
+
+沿 R1038 的同一个 $\alpha=1/7$ 模型，
+二处完整 even 空间的基是
+$f_A=e_0-e_2,\ f_B=e_1+e_3$。
+$\Phi$ 的实际向量为 $f_A-t_-f_B$，
+$t_-=(\sqrt3-1)/\sqrt2$。
+(114) 选择的另一实际线则是
+$$
+\boxed{
+\phi_{G,2}=f_A+t_+f_B,\qquad
+t_+=(\sqrt3+1)/\sqrt2,\qquad
+v_{G,2}=(1,t_+,-1,t_+),\quad n_{G,2}=3+\sqrt3.}
+\tag{115}
+$$
+将其代入 R1038(37) 的整个矩阵，乘原 splitting 比值
+$\omega^2$ 后，严格为不变向量。
+
+三处用原九维 Schrödinger 极化 $e_a$。
+R1037 的完整 $\delta$ pull/trace 矩阵给 old 像
+$\langle e_0,e_3,e_6\rangle$。
+二处 (115)、七处 $f_7$ 都偶，Y principal 又为 even，
+所以 G 的三处向量偶。
+由 (54)，其完整 $\delta$-old 投影为零，故准确落在
+$$
+\langle e_1+e_{-1},e_2+e_{-2},e_4+e_{-4}\rangle .
+$$
+这是完整三维余空间，不是任选的单位支撑。
+
+二处从 $\Phi$ 换成 (115) 后，原 geometric $\omega$ 特征乘 $\omega$；
+七处不变。Y principal 因而迫三处的 geometric 特征乘 $\omega^2$。
+使用 R1038(32) 的原 M，这一整三维空间中的准确不变矩阵为
+$\omega^2M$。$g_*$ 的几何支撑未变；它仍在全部六个单位陪集上固定。
+因此完整新三处向量为
+$$
+\boxed{
+\begin{aligned}
+(r_1,r_2,r_4)^{\mathsf t}
+ &=3(I+\omega^2M+\omega M^2)e_1,\\
+r_1&=3+\delta(\zeta_9^4-\zeta_9^5),\\
+r_2&=-\delta(\zeta_9^2-\zeta_9^7),\\
+r_4&=\delta(\zeta_9^4-\zeta_9^5),\\
+\phi_{G,3}&=\sum_{a=1,2,4}r_a(e_a+e_{-a}).
+\end{aligned}}
+\tag{116}
+$$
+三坐标可直接由 M 的第一列及
+$M^2e_1=-\delta^{-1}(\zeta_9,\zeta_9^4,\zeta_9)^{\mathsf t}$ 核验。
+全部坐标实。$r_1$ 是 R1038(40) 的同一个整数的
+$\zeta_9\mapsto\zeta_9^2$ 共轭，故
+$$
+r_1^3-9r_1^2+18r_1-9=0,\quad Nr_1=9,\quad
+\|\phi_{G,3}\|^2=18r_1>0 .
+$$
+每个局部特征空间现在都一维；(93) 保证原 G 非零。
+所以这些完整有限条件已唯一固定 G 的整条来源线。
+
+### 14.3 固定曲线的全部坏角色，而非好位标签
+
+固定算术 reciprocity 与 R1038 的 $\vartheta_a$ 规范。
+对 $E_G:y^2=x^3+126^2$，实际同构
+$(x_1,y_1)\mapsto(126^{2/3}x_1,126y_1)$ 给
+$$
+\boxed{\psi_G=\psi_1\vartheta_{126}^{-1}
+                  =\psi_{E3969}\vartheta_2^{-1}.}
+\tag{117}
+$$
+这里 $\vartheta_2$ 是固定 cubic Kummer 角色；
+其全部坏数据如下：
+$$
+\boxed{
+\begin{array}{c|c}
+\text{处与输入}&\chi_G\text{ 的准确值}\\ \hline
+2:\ u\in\mathcal O_{K,2}^{\times}
+ &\operatorname{Teich}_{\mu_3}(u\bmod2)^2\\
+2:\ 2&-1\\
+3:\ q\omega^jg^k\bmod9
+ &\varepsilon(q)\omega^{-2j-k}\\
+3:\ \delta&i\\
+(\gamma_7):\ u\in\mathcal O_{K,\gamma_7}^{\times}
+ &u^2\bmod\gamma_7\\
+(\bar\gamma_7):\ u\in\mathcal O_{K,\bar\gamma_7}^{\times}
+ &u^2\bmod\bar\gamma_7\\
+(\gamma_7):\ \gamma_7&\omega\gamma_7/\sqrt7\\
+(\bar\gamma_7):\ \bar\gamma_7&\omega^2\bar\gamma_7/\sqrt7
+\end{array}}
+\tag{118}
+$$
+其中 $g=1-3\delta$、$\varepsilon(q)=q\bmod3$，
+$q,j,k$ 仍遍历 R1038(24) 的全部54个单位。
+
+为支付新 twist 的绝对方向：
+二处 tame 公式给
+$\vartheta_2(u)=\operatorname{Teich}(u)^{-1}$、
+$\vartheta_2(2)=1$。
+主 idèle $\omega$ 在二处的值为 $\omega^2$，
+所以三处 $\vartheta_2(\omega)=\omega$。
+写 $g=-2(1+3\omega)$；
+二处的值为 $\omega$，唯一 $(1+3\omega)\mid7$ 处的值为
+$\omega^2$，因而三处 $\vartheta_2(g)=1$。
+在有理三进单位上，复共轭相容性迫其平凡；
+同样 $\vartheta_2(\delta)=1$。
+七处单位没有新 ramification，而两个 uniformizer 的
+$\vartheta_2$ 值分别为 $\omega,\omega^2$。
+与 R1038(26)–(27) 相乘便给整张 (118)，没有遗漏 unramified 相位。
+
+将 (118) 代入原 Weil splitting，二处矩阵正是 (115) 所用的
+$\omega^2$ 倍，三处正是 $\omega^2M$ 及未变的 $g_*$；
+七处完全是原 $f_7$。
+三处原 Gauss 和仍为 $-9$：
+R1038(28) 的 j=0 和仍为 $-9$，j=1、2 各自仍为零，
+新因子只对这两和再乘常数。
+二处两个 cubic 角色的原有限 Gauss 和同为正的2；
+split 七处的两个 epsilon 积仍为1。
+故 Hermitian 类仍为 $[1]$，可以并且确实使用同一个
+$\alpha=1/7$、同一真实 Gaussian。
+
+### 14.4 完整 CRT、实平方与质量一规范
+
+七处保持 R1038 的原 $f_7$ 与 Haar。
+三处以同一个 $s_3^2=1/7,\ s_3\equiv7\bmod9$ 缩放，
+在 $n/18$ 处仍准确读 (116) 的 $v_{G,3}(n)$。
+因此整序列及整个 theta 来源是
+$$
+\boxed{
+\begin{aligned}
+a_{G,n}&=v_{G,2}(n\bmod4)\,v_{G,3}(n\bmod9)\,f_7(2n\bmod7),\\
+S_{G,\rm raw}(Z)
+ &=e^{126\sqrt3\pi Z^2}
+   \sum_{n\in\mathbf Z}a_{G,n}
+      e^{\pi i(\delta/3)n^2/252+2\pi inZ}.
+\end{aligned}}
+\tag{119}
+$$
+全部系数实、偶，且
+$a_{G,n+252}=a_{G,n}$、
+$(-1)^na_{G,n+126}=-a_{G,n}$。
+CRT 同时达到三个非零局部支撑，故整来源非零。
+完整换指标与 R1038(47)–(50) 相同，
+支付 standard even degree126、无额外 flat character 及 principal 类型。
+
+(112)–(116) 给原 G 与 (119) 的全部局部向量线相同，
+不是只有相同 conductor 或两三个好位。因此在原 E1 复周期
+$\Omega_1$ 上，有一个固定非零标量 $C_G^{\rm raw}$，
+$$
+S_{G,\rm raw}(Z)=C_G^{\rm raw}\Psi_{G,1}(\Omega_1Z).
+$$
+(111) 的质量规范唯一固定 $\Psi_G$。
+这里也证明 $\Psi_G$ 在原实模型上为实：
+(119) 为实来源，归一质量为1；而原构造的代数系数属于 K，
+故完整多项式系数实际属于 $\mathbf Q$。
+
+令 $b_{G,m}$ 是 (119) 对应的原 Hermite 系数。
+R1038(51) 的全平方证明逐项保持，只将两个范数换成
+$n_{G,2}=3+\sqrt3,\ n_{G,3}=18r_1$。
+确切地，仍取 $\kappa_\infty=3\sqrt3/7$、
+$c(0)=7/9$、$n_7=3(7+\sqrt{21})/7$，得到
+$$
+\boxed{
+L(\psi_G^{2m+1},m+1)
+=C_G\frac{(4\pi)^m}{m!}\,b_{G,m}^2,\qquad6\mid m,\qquad
+C_G=\frac{2}{6c(0)}\frac{\pi}{3\sqrt3}
+ \frac{\sqrt{2\kappa_\infty}}
+ {(3+\sqrt3)(18r_1)n_7}>0 .}
+\tag{120}
+$$
+split 七处的原非紧环带及 $7/6$ 局部费用没有改动；
+不是将有限特征匹配当作平方公式的替代。
+
+由 $G(0)=-\delta/28$、(119) 的非零比例，
+$b_{G,0}=C_G^{\rm raw}\ne0$。
+所以 (120) 在 m=0 严格给
+$L(E_G,1)\ne0$。
+原已付 CM rank-zero 定理因而给
+$\operatorname{rank}E_G(\mathbf Q)=0$。
+此结论不需要数据库秩、不用有限素数扫描，也没有将
+$J_G'(0)$ 与中央 L 值混同。
+
+### 14.5 原模型和普通读者保持不变
+
+G 与 $\Phi$ 的物理齐次次数不同，必须保留这个差异。
+由 (85)、(91) 的整缩放，若 $t^6=b$，则
+$$
+\boxed{
+G_{126,b}(z)=G_{126,1}(tz),\qquad
+\Psi_{G,b}(z)=\Psi_{G,1}(tz).}
+\tag{121}
+$$
+没有 $\Phi$ 的 $t^{-6}$ 因子；这也由质量恒定直接核对。
+取真正微分周期 $\Omega_b=\Omega_1/t$，便有完整 Amice 身份
+$$
+\Psi_{G,b}\bigl(\Omega_b\log(1+T)\bigr)
+=\Psi_{G,1}\bigl(\Omega_1\log(1+T)\bigr).
+$$
+因此从实际 $b=15876$ 返回本篇 $b=17$ 时，
+(94)、(96) 的同一单位周期和物理单位域保持。
+不将一个不在 $\mathbf Q_p$ 中的 t 冒充为 $\mathbf Z_p$ 的自映射。
+
+(118)–(121) 完成了原参考 G 的真正算术命名及整周期；
+(96) 的 $J_G(0)$、(97) 的 $\log7$ 费用、(99) 的比例关系
+均无需修改。特别这条 rank0 参考不会给出新的中央导数零。
+后续若比较别的来源，必须先证明其完整同源缩放或实际 finite 线相同，
+再比较相应 logarithm；不能仅从 reference 的质量都是单位推出同型。
