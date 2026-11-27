@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi例外权六个真原单位边界的完整QQ像](results/R150-appendix-unit211-Phi-zero-exceptional-exact-original-unit-boundary-images.md)：只留λ1/2与H6，原投影一次QQ整除已付；模余146不作新点数界。
+
 - [Phi零十二列完整原四行及四个二次首项图](results/R150-appendix-unit211-Phi-zero-monic-twelve-original-four-rows-and-quadratic-head-charts.md)：真0.302秒返回；四个小权头非零图各≤3生成元，共同头零须独立返回。
 
 - [全余W十三条原行、十二个真乘法和六列完整返回](results/R150-appendix-unit211-W-global-monic-three-two-thirteen-original-rows-six-columns.md)：个别两谱N/P与完整N4(DV)全部保留；116身份/102分母实际返回，不逆D或范数。
