@@ -1,0 +1,191 @@
+{
+  "schema": "isp-actual-original-projection-negative-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-27",
+  "source": {
+    "blob": "869cd188221864cb1433b40557f10fb11c180099",
+    "sha256": "0061056174cb53d39dde4aa1e44a59134d037bcd1590a3fa7819e601e71c417c",
+    "bytes": 25714
+  },
+  "run": 46001150292,
+  "job": 140512821775,
+  "driver": {
+    "elapsed_seconds": 180.08240808800002,
+    "max_child_rss_kib": 348844,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "44f0f866e48e97063605a71c8b38647c681dddfe",
+        "before": "ab31096656917572cdf2de591aadf3fe0e640199",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T12:44:33.226899+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46001150292",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "ab31096656917572cdf2de591aadf3fe0e640199",
+    "source_exit_code": -14,
+    "source_git_blob": "869cd188221864cb1433b40557f10fb11c180099",
+    "source_sha256": "0061056174cb53d39dde4aa1e44a59134d037bcd1590a3fa7819e601e71c417c",
+    "stdout_bytes": 17822,
+    "stdout_sha256": "d90243bb99e70caf60933b772f96ced801053d9ee02c81d82a316525bc7e7acb",
+    "stop_reason": null
+  },
+  "limits": {
+    "sourceAlarmSeconds": 180,
+    "addressSpaceGiB": 4
+  },
+  "actualOutcome": {
+    "innerExit": -14,
+    "signal": "SIGALRM",
+    "noReportedMemoryLimitFailure": true,
+    "lastStage": "new_W_original_fixed_Sylvester_QQ_begin",
+    "lastStageElapsedSeconds": 14.577471856999999,
+    "completedFullQQResultants": 0,
+    "secondProjectionStarted": false,
+    "parameterCurveProduced": false,
+    "unitCertificateProduced": false,
+    "finitePointExclusion": false
+  },
+  "completedNewInputRecords": [
+    {
+      "stage": "new_W_exact_monic_y_six_parameter_projection_input",
+      "monicDefinition": "F0/lc_y(F0)",
+      "originalF0": {
+        "degrees": [
+          15,
+          20,
+          6
+        ],
+        "terms": 1411,
+        "totalDegree": 31,
+        "exactCoefficientBytes": 29988,
+        "exactCoefficientSHA256": "b3061b9632b4afe493810baac2123338b4a9baf7f4f5eb28230a7e957608e597"
+      },
+      "completeLeading": {
+        "degrees": [
+          12,
+          20,
+          0
+        ],
+        "terms": 171,
+        "totalDegree": 25,
+        "exactCoefficientBytes": 3654,
+        "exactCoefficientSHA256": "e6181c54a708a2ab34a5699999bb81777edb7d3e6d4c37e4cb6507cd02691a42"
+      },
+      "paidLeadingRemoved": [
+        [
+          "k",
+          1
+        ],
+        [
+          "distinct_p_q",
+          1
+        ],
+        [
+          "Phi",
+          1
+        ],
+        [
+          "bc",
+          3
+        ],
+        [
+          "previous_general_equal_weights",
+          1
+        ],
+        [
+          "previous_whole_C9",
+          1
+        ]
+      ],
+      "remainingLeadingConstant": "-1024",
+      "firstDegreeSixMaintainedOnEntirePaidChart": true,
+      "bothOtherLeadingZeroFacesRetained": true,
+      "claimExcluded": false,
+      "seconds": 13.552598381000003
+    },
+    {
+      "stage": "new_W_exact_original_degree_five_parameter_input",
+      "index": 1,
+      "sourceRows": [
+        "singleton_mean_L",
+        "original_overlap_1",
+        "original_overlap_2"
+      ],
+      "profile": {
+        "degrees": [
+          32,
+          43,
+          5
+        ],
+        "terms": 5757,
+        "totalDegree": 61,
+        "exactCoefficientBytes": 174862,
+        "exactCoefficientSHA256": "0061e69441d62f28878dfa9c797b11a2965c473f412ea250633b2a03b935aa97"
+      },
+      "exactPseudoRemainderIdentity": "paid*a_i_remainder = lc(F0)*Fi-lc(Fi)*F0",
+      "paidRemoved": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          1
+        ],
+        [
+          "distinct_p_q",
+          1
+        ],
+        [
+          "bc",
+          3
+        ],
+        [
+          "previous_general_ell_zero",
+          1
+        ],
+        [
+          "previous_general_equal_weights",
+          1
+        ]
+      ],
+      "fullOldOriginalTracesRetainedByExactLinearCombination": true,
+      "noOtherLeadingInverse": true,
+      "allOtherLeadingZeroFacesRetained": true,
+      "claimExcluded": false,
+      "seconds": 13.829204490000002
+    },
+    {
+      "stage": "new_W_original_fixed_Sylvester_QQ_begin",
+      "index": 1,
+      "inputDegrees": [
+        6,
+        5
+      ],
+      "matrixSize": 11,
+      "allFixedRowsExactlyReturnedToOriginalUnivariateInputs": true,
+      "coefficientsOnly_e_k": true,
+      "library": "python-flint 0.9.0 fmpq_mpoly.resultant",
+      "noBezoutCoefficientCertificateClaim": true,
+      "claimExcluded": false,
+      "seconds": 14.577471856999999
+    }
+  ],
+  "scope": "Original monic y6 and the first paid pseudo-remainder of degrees e32/k43/y5 were exactly formed; all 11 fixed Sylvester rows were returned. The first exact QQ resultant did not finish before SIGALRM. This is not a zero resultant and is not a mathematical nonexistence result.",
+  "frozen": true,
+  "repeatOrLongerLimitPlanned": false,
+  "nextNewMathematicalInput": {
+    "sourceBlob": "084e1dc559d1528389006ffee5840675e83df287",
+    "sha256": "acf41d9be1da123da81b05210ec45b03064a2196bf941f58f3dd3b3408d53929",
+    "description": "Entire original D27 monic e-quintic curve and six actual geometric generators, retaining every norm-zero k fiber.",
+    "status": "unexecuted"
+  }
+}

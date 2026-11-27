@@ -1,0 +1,481 @@
+#!/usr/bin/env python3
+"""New entire W/D27 monic quintic curve: original six-generator finite cover.
+D27 is the previously unreturned original three-S-linear coefficient determinant.
+Keep all five e branches and every true inverse norm / denominator k zero fiber.
+All rules, original NS/PS and constant-column combinations are returned exactly.
+180 seconds / 4 GiB; no large cache. No earlier J19 gate is rerun.
+"""
+import json,time,hashlib,signal,resource
+from pathlib import Path
+from flint import fmpq_poly,fmpq
+signal.alarm(180)
+resource.setrlimit(resource.RLIMIT_AS,(4*1024**3,4*1024**3))
+start=time.perf_counter()
+P=lambda v=():fmpq_poly([fmpq(x) for x in v])
+zero=P();one=P([1]);w=P([0,1])
+def exact(a,b):
+ q,r=divmod(a,b);assert not r and q*b==a
+ return q
+class R:
+ def __init__(self,n=0,d=None):
+  if isinstance(n,R):self.n=n.n;self.d=n.d;return
+  if not isinstance(n,fmpq_poly):n=P([n])
+  if d is None:d=one
+  elif not isinstance(d,fmpq_poly):d=P([d])
+  assert d
+  if not n:self.n=zero;self.d=one;return
+  g=n.gcd(d);n=exact(n,g);d=exact(d,g);lc=d[d.degree()];self.n=n/lc;self.d=d/lc
+ def __bool__(self):return bool(self.n)
+ def __add__(self,v):
+  v=R(v);g=self.d.gcd(v.d);a=exact(self.d,g);b=exact(v.d,g)
+  return R(self.n*b+v.n*a,a*v.d)
+ __radd__=__add__
+ def __neg__(self):return R(-self.n,self.d)
+ def __sub__(self,v):return self+-R(v)
+ def __rsub__(self,v):return R(v)+-self
+ def __mul__(self,v):
+  v=R(v)
+  if not self or not v:return R()
+  g=self.n.gcd(v.d);h=v.n.gcd(self.d)
+  return R(exact(self.n,g)*exact(v.n,h),exact(self.d,h)*exact(v.d,g))
+ __rmul__=__mul__
+ def __truediv__(self,v):v=R(v);assert v;return self*R(v.d,v.n)
+ def __rtruediv__(self,v):return R(v)/self
+ def __pow__(self,n):return R(self.d**(-n),self.n**(-n)) if n<0 else R(self.n**n,self.d**n)
+ def __eq__(self,v):v=R(v);return self.n*v.d==v.n*self.d
+ def json(self):return dict(n=[str(c) for c in self.n.coeffs()],d=[str(c) for c in self.d.coeffs()])
+
+
+# Original D27 from the published three-S-linear determinant, all coefficients
+# in increasing e degree. The leading 16*k^4 is an already paid weight unit.
+N=5
+F=[-w**6-18*w**5-120*w**4-440*w**3-1008*w*w-1344*w-768,
+   -10*w**5-28*w**4+48*w**3+64*w*w-512*w-768,
+   3*w**6+8*w**5+60*w**4+384*w**3+1088*w*w+1024*w,
+   2*w**6-12*w**5-96*w**4-384*w**3-384*w*w,
+   -4*w**5+32*w**4,16*w**4]
+assert F[N]==16*w**4
+def detP(mat):
+ n=len(mat)
+ if n==0:return one
+ if n==1:return mat[0][0]
+ out=zero
+ for j in range(n):out+=((-1)**j)*mat[0][j]*detP([[c for h,c in enumerate(row) if h!=j] for row in mat[1:]])
+ return out
+def coeffmod1009(cc):
+ parts=str(cc).split('/');num=int(parts[0]);den=int(parts[1]) if len(parts)>1 else 1
+ return num%1009*pow(den%1009,-1,1009)%1009 if den%1009 else None
+def pprofile(pp):
+ bb=json.dumps([str(c) for c in pp.coeffs()],separators=(',',':')).encode()
+ out=dict(degree=int(pp.degree()),bytes=len(bb),sha256=hashlib.sha256(bb).hexdigest(),reduction1009=[coeffmod1009(c) for c in pp.coeffs()])
+ if len(bb)<=8192:out['coefficients']=[str(c) for c in pp.coeffs()]
+ return out
+def say(**r):r['seconds']=time.perf_counter()-start;print(json.dumps(r),flush=True)
+inverted_norms=[];inverse_cache={};exception_cover=one
+def add_exception(pp):
+ global exception_cover
+ if not pp or pp.degree()<=0:return
+ sf=exact(pp,pp.gcd(pp.derivative()));sf=sf/sf[sf.degree()]
+ exception_cover*=exact(sf,exception_cover.gcd(sf))
+class GenericNonunit(Exception):pass
+class A:
+ def __init__(self,v=0,den=None):
+  if isinstance(v,A):self.n=v.n[:];self.d=v.d;return
+  if isinstance(v,R):nums=[v.n];den=v.d
+  elif isinstance(v,(list,tuple)):nums=[p if isinstance(p,fmpq_poly) else P([p]) for p in v]
+  else:nums=[v if isinstance(v,fmpq_poly) else P([v])]
+  den=one if den is None else den
+  assert den and len(nums)<=N
+  nums=nums+[zero]*(N-len(nums))
+  if not any(nums):self.n=[zero]*N;self.d=one;return
+  gg=den
+  for p0 in nums:gg=gg.gcd(p0)
+  nums=[exact(p0,gg) for p0 in nums];den=exact(den,gg);lc=den[den.degree()]
+  self.n=[p0/lc for p0 in nums];self.d=den/lc
+ def __bool__(self):return any(self.n)
+ def __neg__(self):return A([-p0 for p0 in self.n],self.d)
+ def __add__(self,v):
+  v=A(v);gg=self.d.gcd(v.d);aa=exact(self.d,gg);bb=exact(v.d,gg)
+  return A([self.n[j]*bb+v.n[j]*aa for j in range(N)],aa*v.d)
+ __radd__=__add__
+ def __sub__(self,v):return self+-A(v)
+ def __rsub__(self,v):return A(v)+-self
+ def __mul__(self,v):
+  v=A(v)
+  if not self or not v:return A()
+  cc=[zero]*(2*N-1)
+  for i in range(N):
+   for j in range(N):cc[i+j]+=self.n[i]*v.n[j]
+  den=self.d*v.d
+  for j in range(2*N-2,N-1,-1):
+   lead=cc[j]
+   if not lead:continue
+   cc=[p0*F[N] for p0 in cc];den*=F[N]
+   for h in range(N+1):cc[h+j-N]-=lead*F[h]
+   assert not cc[j]
+  assert not any(cc[N:])
+  return A(cc[:N],den)
+ __rmul__=__mul__
+ def __eq__(self,v):
+  v=A(v);return all(self.n[j]*v.d==v.n[j]*self.d for j in range(N))
+ def __pow__(self,n):
+  if n<0:return self.inv()**(-n)
+  out=A(1);aa=self
+  while n:
+   if n&1:out=out*aa
+   aa=aa*aa;n//=2
+  return out
+ def json(self):return dict(n=[[str(c) for c in p0.coeffs()] for p0 in self.n],d=[str(c) for c in self.d.coeffs()])
+ def inv(self):
+  if not self:raise GenericNonunit('zero element in the whole D27 algebra')
+  key=json.dumps(self.json(),separators=(',',':'))
+  if key in inverse_cache:return A(inverse_cache[key])
+  basis=[A([0]*j+[1]) for j in range(N)]
+  cols=[self*v for v in basis];den=one
+  for col in cols:den*=exact(col.d,den.gcd(col.d))
+  mat=[[cols[j].n[i]*exact(den,cols[j].d) for j in range(N)] for i in range(N)]
+  determinant=detP(mat)
+  if not determinant:
+   say(stage='new_D27_actual_generic_nonunit_detected',elementSHA256=hashlib.sha256(key.encode()).hexdigest(),wholeFiveSheetAlgebraRetained=True,requiresExactGenericFactorSplit=True,claimExcluded=False)
+   raise GenericNonunit('regular multiplication determinant is zero')
+  cof=[]
+  for j in range(N):
+   co=((-1)**j)*detP([[mat[ii][jj] for jj in range(N) if jj!=j] for ii in range(1,N)])
+   cof.append(den*co)
+  out=A(cof,determinant)
+  assert self*out==1
+  for i in range(N):
+   assert sum((mat[i][j]*out.n[j] for j in range(N)),zero)==(den*out.d if i==0 else zero)
+  norm=R(determinant,den**N)
+  add_exception(out.d);add_exception(self.d);add_exception(norm.n);add_exception(norm.d)
+  inverted_norms.append(dict(index=len(inverted_norms),inputSHA256=hashlib.sha256(key.encode()).hexdigest(),normNumerator=pprofile(norm.n),normDenominator=pprofile(norm.d),outputDenominator=pprofile(out.d),allFiveInverseProductsActuallyOne=True,allScalarNormZeroFibersRetained=True))
+  inverse_cache[key]=out
+  return A(out)
+ def __truediv__(self,v):return self*A(v).inv()
+ def __rtruediv__(self,v):return A(v)*self.inv()
+
+k=A(w);e=A([0,1]);u=e+1;Q=e*k;V=(e+1)*k+2
+assert sum((A(F[j])*e**j for j in range(N+1)),A())==0
+D27=(16*e**5*k**4-4*e**4*k**5+32*e**4*k**4
+ +2*e**3*k**6-12*e**3*k**5-96*e**3*k**4-384*e**3*k**3-384*e**3*k*k
+ +3*e*e*k**6+8*e*e*k**5+60*e*e*k**4+384*e*e*k**3+1088*e*e*k*k+1024*e*e*k
+ -10*e*k**5-28*e*k**4+48*e*k**3+64*e*k*k-512*e*k-768*e
+ -k**6-18*k**5-120*k**4-440*k**3-1008*k*k-1344*k-768)
+assert not D27
+ell=u*((k+2)**2-2*e*k)/(k*V);d=1-Q;bc=(ell*ell-(u-ell)**2/d)/4
+V2=2*u-ell*Q;T0=V2-2*u*u;P02=(2-3*u)*V2-Q*u+2*u**3
+J=2*u*(1-u)+ell*Q;Phi=T0+4*u-4+Q;Pf=T0*(J-Q);M=ell*V2-u*u
+assert M==4*bc*d and Phi*(J-2*u*Q)-Pf==0
+J19=16*e**4*k**3+e**3*(-8*k**4-16*k**3-96*k*k)+e*e*(-k**5-8*k**4+24*k**3+64*k*k+192*k)+e*(-2*k**5-14*k**4-12*k**3-128)-k**5-10*k**4-40*k**3-104*k*k-160*k-128
+say(stage='new_D27_entire_quintic_weight_algebra',
+ relationLeading='16*k^4, already paid original weight unit',
+ basis=['1','e','e^2','e^3','e^4'],
+ publishedD27PolynomialActuallyMultipliedBack=True,
+ allOriginalWeightAndWProductsActuallyVerified=True,
+ noIrreducibilityAssumption=True,allNormZeroKFibersRetained=True,
+ inverseCount=len(inverted_norms),claimExcluded=False)
+
+class Mpoly:
+ def __init__(self,v=0):
+  if isinstance(v,Mpoly):self.terms=v.terms.copy();return
+  c=A(v);self.terms={(0,0,0):c} if c else {}
+ @staticmethod
+ def variable(j):
+  p=Mpoly();m=[0,0,0];m[j]=1;p.terms[tuple(m)]=A(1);return p
+ @staticmethod
+ def from_terms(ts):
+  p=Mpoly();p.terms={m:c for m,c in ts if c};return p
+ def __bool__(self):return bool(self.terms)
+ def __add__(self,v):
+  v=Mpoly(v);p=Mpoly(self)
+  for m,c in v.terms.items():
+   z=p.terms.get(m,A())+c
+   if z:p.terms[m]=z
+   elif m in p.terms:del p.terms[m]
+  return p
+ __radd__=__add__
+ def __neg__(self):return Mpoly.from_terms((m,-c) for m,c in self.terms.items())
+ def __sub__(self,v):return self+-Mpoly(v)
+ def __rsub__(self,v):return Mpoly(v)+-self
+ def __mul__(self,v):
+  v=Mpoly(v);p=Mpoly()
+  for ma,ca in self.terms.items():
+   for mb,cb in v.terms.items():
+    m=tuple(ma[j]+mb[j] for j in range(3));z=p.terms.get(m,A())+ca*cb
+    if z:p.terms[m]=z
+    elif m in p.terms:del p.terms[m]
+  return p
+ __rmul__=__mul__
+ def scale(self,c):
+  c=A(c);return Mpoly.from_terms((m,v*c) for m,v in self.terms.items())
+ def __pow__(self,n):
+  p=Mpoly(1)
+  for i in range(n):p=p*self
+  return p
+ def __eq__(self,v):return not(self-Mpoly(v))
+ def degree(self):return max((sum(m) for m in self.terms),default=-1)
+ def json(self):return [[list(m),c.json()] for m,c in sorted(self.terms.items())]
+class E:
+ def __init__(self,a=0,b=0):
+  if isinstance(a,E):self.a=a.a;self.b=a.b;return
+  self.a=Mpoly(a);self.b=Mpoly(b)
+ def __bool__(self):return bool(self.a) or bool(self.b)
+ def __add__(self,v):v=E(v);return E(self.a+v.a,self.b+v.b)
+ __radd__=__add__
+ def __neg__(self):return E(-self.a,-self.b)
+ def __sub__(self,v):return self+-E(v)
+ def __rsub__(self,v):return E(v)+-self
+ def __mul__(self,v):v=E(v);return E(self.a*v.a+(self.b*v.b).scale(d),self.a*v.b+self.b*v.a)
+ __rmul__=__mul__
+ def __pow__(self,n):
+  out=E(1)
+  for i in range(n):out=out*self
+  return out
+ def conj(self):return E(self.a,-self.b)
+ def __eq__(self,v):v=E(v);return self.a==v.a and self.b==v.b
+b=E(Mpoly(ell/2),Mpoly((u-ell)/(2*d)));c=b.conj();p=E(1,1);q=p.conj();a=1-ell
+assert b*c==E(Mpoly(bc)) and b*p+c*q==E(Mpoly(u))
+x,y,t=[Mpoly.variable(j) for j in range(3)];X=E(x,y);Y=X.conj()
+f=(x.scale(u)+y.scale(u-ell*Q)-Mpoly(T0/2)).scale(1/(2*u))
+W2=x.scale(V2)+y.scale(2*u-u*Q-ell*Q)
+lam=(W2-Mpoly(u*T0)-f.scale(V2+2*u*u)+t.scale(bc*Q)).scale(1/P02)
+T=((lam.scale(P02)-Mpoly((1-u)*T0)).scale(T0)-f.scale(Pf)-t.scale(Phi*bc*Q)).scale(1/(Q*P02))-Mpoly(ell)
+rg=X-p*E(Mpoly(a))-c*E(t);sg=Y-q*E(Mpoly(a))-b*E(t)
+ag=E(f.scale(2))-2*b*X-2*c*Y+E(t.scale(2*bc))
+zz=E();oo=E(1);gram=[[zz,zz,p,q],[zz,ag,rg,sg],[p,rg,zz,E(t)],[q,sg,E(t),zz]];unitvec=[oo,zz,oo,oo]
+def va(v,z):return [a+b for a,b in zip(v,z)]
+def vs(v,z):return [v*a for a in z]
+def vm(v,z):return [v[0]*z[0],v[0]*z[1]+v[1]*z[0],v[2]*z[2],v[3]*z[3]]
+def tau(v):return E(Mpoly(a))*v[0]+v[1]+b*v[2]+c*v[3]
+def DK(v):return [tau(vm(row,v)) for row in gram]
+dv=DK(unitvec);F2=tau(dv);Kd=DK(dv)
+assert F2==E(f.scale(2))
+def mean(j):
+ first=2*tau(vm(gram[0],gram[1])) if j==1 else tau(vm(gram[j],gram[j]))
+ return first-2*Kd[j]-2*vm(dv,dv)[j]+2*F2*dv[j]
+assert not mean(0)
+def N4(v):return 2*tau(vm(dv,vm(v,v)))-F2*tau(vm(v,v))-4*tau(v)*tau(vm(dv,v))+2*F2*tau(v)**2+tau(vm(v,DK(v)))
+def P2(v):
+ cv=va(v,vs(-tau(v),unitvec));return tau(vm(vm(cv,cv),cv))
+vc=va(gram[0],vs(-tau(gram[0]),unitvec));zc=va(gram[1],vs(-tau(gram[1]),unitvec));Pj=3*tau(vm(vm(vc,vc),zc))
+assert N4(gram[0])==E(lam.scale(2*P02)) and Pj==E((lam-1-T).scale(3*P02)) and P2(gram[0])==E(Mpoly(P02))
+N1=N4(va(gram[0],gram[1]))-N4(gram[0])-N4(gram[1])-E(lam.scale(A(fmpq(4,3))))*Pj
+A2=2*lam**2-2*lam+1;B3=4*lam**3-6*lam**2+3*lam-1
+NS=b*N4(gram[2])+c*N4(gram[3])-E((lam*(Mpoly(ell)+2*T+A2)).scale(2*P02))
+PS=b*P2(gram[2])+c*P2(gram[3])-E((Mpoly(ell)+3*T+3*A2+B3).scale(P02))
+E1,EB,EC=mean(1),mean(2),mean(3)
+assert not E1.b and EB.conj()==EC and not N1.b and not NS.b and not PS.b
+original=[E1.a,EB.a,EB.b,N1.a,NS.a,PS.a];names=['E1','EBe','EBo','N1','NS','PS']
+
+def aprofile(v):return dict(numeratorKDegrees=[int(p0.degree()) for p0 in v.n],denominatorKDegree=int(v.d.degree()))
+say(stage='new_D27_original_six_Gram_rows',originalE0N0P1AndRawN4P2DefinitionsActuallyRebuilt=True,bothWeightedNSPSDefinitionsFromSameOriginalGram=True,originalRows=[dict(name=name,totalDegree=pp.degree(),monomials=len(pp.terms),maxNumeratorKDegree=max(max(p0.degree() for p0 in cf.n) for cf in pp.terms.values()),maxDenominatorKDegree=max(cf.d.degree() for cf in pp.terms.values())) for name,pp in zip(names,original)],allScalarNormZeroFibersRetained=True,claimExcluded=False)
+# Independent original binary (x,t) head identities, not inferred from a sample.
+def binaryhead(pp):
+ return Mpoly.from_terms((mm,cf) for mm,cf in pp.terms.items() if sum(mm)==2 and mm[1]==0)
+lamh=x.scale(T0/(2*P02))+t.scale(bc*Q/P02)
+diffh=x.scale(ell*T0/P02)+t.scale(2*bc*(Q+2*(u-1))/P02)
+H1=(x*x).scale(2*(1-2*ell))+(x*t).scale(4*bc)
+HB=(t*t-2*x*t).scale(ell/2)
+HN=H1.scale(u)-HB.scale(4*u*bc/ell)-(lamh*diffh).scale(4*P02)
+assert binaryhead(original[0])==H1
+assert binaryhead(original[1])==HB
+assert binaryhead(original[3])==HN
+def detA(mat):
+ n=len(mat)
+ if n==0:return A(1)
+ if n==1:return mat[0][0]
+ return sum((((-1)**j)*mat[0][j]*detA([[cf for h,cf in enumerate(row) if h!=j] for row in mat[1:]]) for j in range(n)),A())
+binarymons=[(2,0,0),(1,0,1),(0,0,2)]
+binarymat=[[pp.terms.get(mm,A()) for mm in binarymons] for pp in [H1,HB,HN]]
+assert detA(binarymat)==-4*ell*bc*e**4*u*(k+2)*J19/(k*V**3*d*P02)
+say(stage='new_D27_original_binary_heads_exactly_returned',headE1='2(1-2ell)x^2+4bc*x*t',headEBe='ell*(t^2-2*x*t)/2',headN1='u*H1-4u*bc*HB/ell-4P02*lambda_h*(lambda-T)_h',fullOriginalCoefficientIdentitiesVerified=True,binaryHeadDeterminantFullOriginalJ19IdentityVerified=True,physicalHighestDirectionNotClaimedFiniteSolution=True,claimExcluded=False)
+
+# New exact six-generator circuit over the whole quintic generic algebra.
+# Every finite k denominator introduced by a real inverse remains in the cover.
+quadmons=[(2,0,0),(1,1,0),(1,0,1),(0,2,0),(0,1,1),(0,0,2)]
+selectedcols=[0,2,3,4]
+head=[[row.terms.get(mm,A()) for mm in quadmons] for row in original[:4]]
+def inverse_matrix(mat):
+ n=len(mat);dd=detA(mat)
+ if not dd:raise GenericNonunit('selected original head determinant is zero')
+ di=dd.inv();out=[]
+ for i in range(n):
+  row=[]
+  for j in range(n):
+   minor=[[v for c,v in enumerate(rr) if c!=i] for h,rr in enumerate(mat) if h!=j]
+   row.append(((-1)**(i+j))*detA(minor)*di)
+  out.append(row)
+ for i in range(n):
+  for j in range(n):assert sum((out[i][h]*mat[h][j] for h in range(n)),A())==int(i==j)
+ return out
+hi=inverse_matrix([[row[j] for j in selectedcols] for row in head])
+q=[];qtag=[]
+def verify_rule(rule,tag):
+ assert sum((original[j]*tag[j] for j in range(4)),Mpoly())==rule
+for i in range(4):
+ qq=sum((original[j].scale(hi[i][j]) for j in range(4)),Mpoly())
+ tag=[Mpoly(hi[i][j]) for j in range(4)]
+ for j,col in enumerate(selectedcols):assert qq.terms.get(quadmons[col],A())==int(i==j)
+ verify_rule(qq,tag);q.append(qq);qtag.append(tag)
+qa,qb=-q[0].terms.get((1,1,0),A()),-q[0].terms.get((0,0,2),A())
+qc,qd=-q[1].terms.get((1,1,0),A()),-q[1].terms.get((0,0,2),A())
+qe,qf=-q[2].terms.get((1,1,0),A()),-q[2].terms.get((0,0,2),A())
+qg,qh=-q[3].terms.get((1,1,0),A()),-q[3].terms.get((0,0,2),A())
+S=[y*q[0]+t*q[3].scale(qb),
+   x*q[2]+t*q[1].scale(qf),
+   y*q[1]+t*q[3].scale(qd),
+   x*q[3]+t*q[1].scale(qh),
+   (x+t.scale(qd))*q[1]-t*q[0],
+   (y+t.scale(qh))*q[3]-t*q[2]]
+Stag=[]
+for j in range(4):
+ col=[y*qtag[0][j]+t*qtag[3][j].scale(qb),
+      x*qtag[2][j]+t*qtag[1][j].scale(qf),
+      y*qtag[1][j]+t*qtag[3][j].scale(qd),
+      x*qtag[3][j]+t*qtag[1][j].scale(qh),
+      (x+t.scale(qd))*qtag[1][j]-t*qtag[0][j],
+      (y+t.scale(qh))*qtag[3][j]-t*qtag[2][j]]
+ Stag.append(col)
+Stag=[[Stag[j][i] for j in range(4)] for i in range(6)]
+cubemons=[(2,1,0),(1,2,0),(1,1,1),(0,0,3)]
+C=[[pp.terms.get(mm,A()) for mm in cubemons] for pp in S]
+expected=[[A(1),-qa,-qb*qg,-qb*qh],[-qe,A(1),-qf*qc,-qf*qd],
+ [A(),-qc,1-qd*qg,-qd*qh],[-qg,A(),1-qh*qc,-qh*qd],
+ [-qc,A(),qa-qd*qc,qb-qd*qd],[A(),-qg,qe-qh*qg,qf-qh*qh]]
+assert C==expected
+for pp,tag in zip(S,Stag):
+ assert all(sum(mm)<=2 or mm in cubemons for mm in pp.terms)
+ verify_rule(pp,tag)
+chosen=[0,1,2,4]
+ci=inverse_matrix([C[i] for i in chosen])
+def remove_bad_quadratics(pp,tag):
+ for i,col in enumerate(selectedcols):
+  mm=quadmons[col];cf=pp.terms.get(mm,A())
+  if cf:
+   pp=pp-q[i].scale(cf)
+   tag=[tag[j]-qtag[i][j].scale(cf) for j in range(4)]
+ return pp,tag
+cubrules={};cubtags={}
+for i,mm in enumerate(cubemons):
+ pp=sum((S[chosen[j]].scale(ci[i][j]) for j in range(4)),Mpoly())
+ tag=[sum((Stag[chosen[j]][h].scale(ci[i][j]) for j in range(4)),Mpoly()) for h in range(4)]
+ pp,tag=remove_bad_quadratics(pp,tag)
+ assert pp.terms.get(mm,A())==1 and all(sum(v)<=2 or v==mm for v in pp.terms)
+ verify_rule(pp,tag);cubrules[mm]=pp;cubtags[mm]=tag
+def add_cube(mm,pp,tag):
+ pp,tag=remove_bad_quadratics(pp,tag)
+ assert pp.terms.get(mm,A())==1 and all(sum(v)<=2 or v==mm for v in pp.terms)
+ verify_rule(pp,tag);cubrules[mm]=pp;cubtags[mm]=tag
+Pmon,Qmon,Rmon,Wmon=cubemons
+Umon=(1,0,2);Vmon=(0,1,2)
+add_cube(Umon,t*q[1]+cubrules[Rmon].scale(qc)+cubrules[Wmon].scale(qd),
+ [t*qtag[1][j]+cubtags[Rmon][j].scale(qc)+cubtags[Wmon][j].scale(qd) for j in range(4)])
+add_cube(Vmon,t*q[3]+cubrules[Rmon].scale(qg)+cubrules[Wmon].scale(qh),
+ [t*qtag[3][j]+cubtags[Rmon][j].scale(qg)+cubtags[Wmon][j].scale(qh) for j in range(4)])
+add_cube((2,0,1),x*q[1]+cubrules[Pmon].scale(qc)+cubrules[Umon].scale(qd),
+ [x*qtag[1][j]+cubtags[Pmon][j].scale(qc)+cubtags[Umon][j].scale(qd) for j in range(4)])
+add_cube((0,2,1),y*q[3]+cubrules[Qmon].scale(qg)+cubrules[Vmon].scale(qh),
+ [y*qtag[3][j]+cubtags[Qmon][j].scale(qg)+cubtags[Vmon][j].scale(qh) for j in range(4)])
+add_cube((3,0,0),x*q[0]+cubrules[Pmon].scale(qa)+cubrules[Umon].scale(qb),
+ [x*qtag[0][j]+cubtags[Pmon][j].scale(qa)+cubtags[Umon][j].scale(qb) for j in range(4)])
+add_cube((0,3,0),y*q[2]+cubrules[Qmon].scale(qe)+cubrules[Vmon].scale(qf),
+ [y*qtag[2][j]+cubtags[Qmon][j].scale(qe)+cubtags[Vmon][j].scale(qf) for j in range(4)])
+free=[(0,0,0),(1,0,0),(0,1,0),(0,0,1),(1,1,0),(0,0,2)]
+for mm,pp in cubrules.items():assert all(nn in free or nn==mm for nn in pp.terms)
+assert len(cubrules)==10
+say(stage='new_D27_complete_original_six_generator_rules',quadraticColumnChoice=selectedcols,cubicRowChoice=chosen,allFourQuadraticAndTenCubicOriginalTraceProductsVerified=True,allReductionsStrictlyLowerTotalDegree=True,noUnsupportedTermOrderAssumption=True,inverseCount=len(inverted_norms),allScalarNormZeroFibersRetained=True,claimExcluded=False)
+def shift_poly(pp,mm,cf):
+ return Mpoly.from_terms((tuple(nn[j]+mm[j] for j in range(3)),v*cf) for nn,v in pp.terms.items())
+def reduce_original(inp):
+ pp=Mpoly(inp);out=Mpoly();tag=[Mpoly() for _ in range(4)]
+ while pp:
+  mm=max(pp.terms,key=lambda v:(sum(v),v));cf=pp.terms[mm]
+  if sum(mm)>=3:
+   tt=next(t0 for t0 in sorted(cubrules,reverse=True) if all(t0[j]<=mm[j] for j in range(3)))
+   rule=cubrules[tt];tags=cubtags[tt]
+  elif mm in [quadmons[j] for j in selectedcols]:
+   ix=[quadmons[j] for j in selectedcols].index(mm);tt=mm;rule=q[ix];tags=qtag[ix]
+  else:
+   assert mm in free;term=Mpoly.from_terms([(mm,cf)]);out=out+term;pp=pp-term;continue
+  delta=tuple(mm[j]-tt[j] for j in range(3))
+  pp=pp-shift_poly(rule,delta,cf)
+  tag=[tag[j]+shift_poly(tags[j],delta,cf) for j in range(4)]
+ assert inp-out==sum((tag[j]*original[j] for j in range(4)),Mpoly())
+ return [out.terms.get(mm,A()) for mm in free],tag
+basis=[Mpoly.from_terms([(mm,A(1))]) for mm in free]
+mats=[];errors=[]
+for axis,var in enumerate([x,y,t]):
+ mat=[];err=[]
+ for bb in basis:
+  rr,tag=reduce_original(var*bb);mat.append(rr);err.append(tag)
+ mats.append(mat);errors.append(err)
+ say(stage='new_D27_true_original_six_generator_multiplication',axis=axis,allSixOriginalTraceProductsVerified=True,finalOriginalModuleNotClaimedFree=True,claimExcluded=False)
+def rowmul(row,mat):return [sum((row[j]*mat[j][i] for j in range(6)),A()) for i in range(6)]
+def matmul(ma,mb):return [rowmul(row,mb) for row in ma]
+def matminus(ma,mb):return [[ma[i][j]-mb[i][j] for j in range(6)] for i in range(6)]
+identity=[[A(int(i==j)) for j in range(6)] for i in range(6)]
+multipliers=[identity,mats[0],mats[1],mats[2],matmul(mats[0],mats[1]),matmul(mats[2],mats[2])]
+pointrows=[];pointlabels=[]
+for j in [4,5]:
+ rr,tag=reduce_original(original[j])
+ for h,mm in enumerate(free):
+  pointrows.append(rowmul(rr,multipliers[h]));pointlabels.append(dict(original=names[j],multiplier=list(mm)))
+for aa,bb in [(0,1),(0,2),(1,2)]:
+ cm=matminus(matmul(mats[aa],mats[bb]),matmul(mats[bb],mats[aa]))
+ for i,rr in enumerate(cm):
+  if not any(rr):continue
+  # Explicit true-point origin: the two ambient products commute.
+  tag=[]
+  for j in range(4):
+   vv=sum((errors[aa][h][j].scale(mats[bb][i][h])-errors[bb][h][j].scale(mats[aa][i][h]) for h in range(6)),Mpoly())
+   vv=vv+[x,y,t][aa]*errors[bb][i][j]-[x,y,t][bb]*errors[aa][i][j]
+   tag.append(vv)
+  out=sum((basis[h].scale(rr[h]) for h in range(6)),Mpoly())
+  assert out==sum((tag[j]*original[j] for j in range(4)),Mpoly())
+  pointrows.append(rr);pointlabels.append(dict(commutator=[aa,bb],basisIndex=i))
+say(stage='new_D27_full_NSPS_and_true_point_rows',rowCount=len(pointrows),bothOriginalNSPSRetained=True,allEighteenBasisProductsActuallyReturned=True,allNonzeroCommutatorRowsHaveActualOriginalTrace=True,allNSPSBasisMultiplesFollowExactScalarLinearity=True,claimExcluded=False)
+def adegree(v):return max([int(v.d.degree())]+[int(p0.degree()) for p0 in v.n])
+work=[row[:] for row in pointrows];tags=[[A(int(i==j)) for j in range(len(work))] for i in range(len(work))]
+pos=0;pivot_profile=[]
+for column in range(1,6):
+ candidates=[i for i in range(pos,len(work)) if work[i][column]]
+ if not candidates:continue
+ sw=min(candidates,key=lambda i:adegree(work[i][column]))
+ work[pos],work[sw]=work[sw],work[pos];tags[pos],tags[sw]=tags[sw],tags[pos]
+ pivot=work[pos][column];iv=pivot.inv()
+ work[pos]=[v*iv for v in work[pos]];tags[pos]=[v*iv for v in tags[pos]]
+ assert work[pos][column]==1
+ for i in range(pos+1,len(work)):
+  cf=work[i][column]
+  if not cf:continue
+  work[i]=[work[i][j]-cf*work[pos][j] for j in range(6)]
+  tags[i]=[tags[i][j]-cf*tags[pos][j] for j in range(len(pointrows))]
+  assert not work[i][column]
+ pivot_profile.append(dict(column=column,pivotKDegree=adegree(pivot),inverseCount=len(inverted_norms),exceptionCoverDegree=int(exception_cover.degree())))
+ pos+=1
+ say(stage='new_D27_actual_original_constant_column_elimination',pivot=pos,**pivot_profile[-1],claimExcluded=False)
+candidates=[i for i,row in enumerate(work) if row[0] and not any(row[1:])]
+if not candidates:
+ signal.alarm(0)
+ say(stage='new_D27_no_generic_original_unit_returned',nonconstantPivotCount=pos,rowCount=len(pointrows),lastPivotProfile=pivot_profile,allScalarNormZeroFibersRetained=True,claimExcluded=False,peakRssKiB=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
+ raise SystemExit(2)
+ix=min(candidates,key=lambda i:adegree(work[i][0]));h=work[ix][0];hiv=h.inv();cert=[v*hiv for v in tags[ix]]
+for j in range(6):assert sum((cert[i]*pointrows[i][j] for i in range(len(pointrows))),A())==int(j==0)
+certificate_hasher=hashlib.sha256();certificate_bytes=0
+def certificate_feed(obj):
+ global certificate_bytes
+ bb=(json.dumps(obj,separators=(',',':'))+'\n').encode()
+ certificate_hasher.update(bb);certificate_bytes+=len(bb)
+certificate_feed(dict(schema='D27-original-constant-column-JSONL-v1',basis=free,pivotProfile=pivot_profile))
+for i,row in enumerate(pointrows):certificate_feed(dict(index=i,label=pointlabels[i],row=[v.json() for v in row],combinationCoefficient=cert[i].json()))
+cover=exception_cover;paid_scalar_removed=[]
+for label,atom in [('k',w),('k_plus_one',w+1),('k_plus_two',w+2),('k_plus_four',w+4)]:
+ count=0
+ while cover:
+  qq,rr=divmod(cover,atom)
+  if rr:break
+  assert qq*atom==cover;cover=qq;count+=1
+ if count:paid_scalar_removed.append(dict(name=label,multiplicity=count))
+cover=exact(cover,cover.gcd(cover.derivative()));cover=cover/cover[cover.degree()]
+signal.alarm(0)
+say(stage='new_D27_complete_generic_original_unit_and_finite_k_cover',sourceSHA256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),genericOriginalConstantColumnCombinationActuallyEqualsOne=True,allSixColumnsVerified=True,wholeFiveSheetQuinticAlgebraRetained=True,finiteOriginalKCover=pprofile(cover),allInverseNormAndDenominatorZeroFibersIncluded=True,onlyActuallyPaidScalarKUnitsRemoved=paid_scalar_removed,finiteKFibersStillRequireOriginalReturn=True,inverseCount=len(inverted_norms),certificateBytes=certificate_bytes,certificateSHA256=certificate_hasher.hexdigest(),certificateEncoding='canonical JSONL records in source order',newInputIsWholeD27QuinticCurve=True,oldC9OrCofactorGatesNotRerun=True,claimExcluded=False,peakRssKiB=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
