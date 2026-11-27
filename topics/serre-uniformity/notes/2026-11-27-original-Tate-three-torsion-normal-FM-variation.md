@@ -1316,3 +1316,216 @@ $e$ 与 $K_4$；该比较仍是原指定问题的一部分。
 
 
 §12 发布前由 root/o1/o2 独立逐式纸审：原 exact-differential、唯一二类极的 cup 配对、两组 Gauss 初值、首个 p 分母边界和实际终止 Hasse 多项式均核定；尚未替换原固定曲线 Picard 的 e/K4。
+
+
+## 13. 原 $\Psi$ 的实际全族延拓与 Hasse 漂移
+
+本节仍在 (N.1) 的完整光滑形式族 $K[[\epsilon]]$ 上工作，
+不是先把曲线固定为特殊纤维后任意提升一个 primitive。
+写
+$$
+F_\epsilon(U)
+=U^3+\frac{\epsilon^2}{4}U^2+\epsilon vU+v^2,
+\qquad D_\epsilon=d/\omega_\epsilon,
+$$
+并定义
+$$
+H_\epsilon=[U^{p-1}]F_\epsilon(U)^m,\qquad
+\beta_\epsilon=[U^{p-2}]F_\epsilon(U)^m .
+$$
+这里 $H_\epsilon$ 是原底椭圆曲线 $E_\epsilon$ 的 Hasse 系数；
+它不是 §11 的 Prym 椭圆商的 $\theta(\epsilon)$。
+
+### 13.1 受限导数、真实 $p$ 极函数及两个原 Cartier 系数
+
+有全族恒等式
+$$
+\boxed{
+D_\epsilon^p=H_\epsilon D_\epsilon,\qquad
+\Psi_\epsilon=D_\epsilon^{p-2}U,\qquad
+D_\epsilon\Psi_\epsilon=H_\epsilon U+\delta_\epsilon,\qquad
+\delta_\epsilon=-\beta_\epsilon .}
+\tag{N.57}
+$$
+下面给出自足的归一证明。
+
+在特征 $p$ 中，$D_\epsilon^p$ 仍是一个导子；
+由于 $D_\epsilon$ 是全局不变向量场，它的 $p$ 次幂也是全局不变向量场，
+故 $D_\epsilon^p=hD_\epsilon$，其中 $h$ 是底环标量。
+在 $O$ 用只涉及分母 $1,\ldots,p-1$ 的有限参数变换，
+可将微分写成
+$$
+\omega_\epsilon=
+(1+H_\epsilon t^{p-1}+O(t^p))\,dt.
+$$
+该 $t^{p-1}$ 系数正由相对 Cartier 的 $O$ 处常数读取给出。
+于是
+$$
+D_\epsilon=
+(1-H_\epsilon t^{p-1}+O(t^p))\partial_t,
+\qquad
+(D_\epsilon^pt)(O)
+=-H_\epsilon(p-1)!=H_\epsilon.
+$$
+这确定了 $h=H_\epsilon$；这里只用了有限局部参数，
+没有假设整条特征零 elliptic logarithm 可模 $p$ 约化。
+
+原 $D_\epsilon^{p-2}U$ 只在 $O$ 有极。
+以 $u=U^{-1/2}$ 取与原 $-U/V$ 相同切向的分支，
+其最高项的系数为
+$(-1)^{p-2}(p-1)!=1$，所以 $\Psi_\epsilon$ 有准确的
+$p$ 阶极，首项 $u^{-p}$，且是奇函数。
+由第一式，
+$$
+D_\epsilon(D_\epsilon\Psi_\epsilon-H_\epsilon U)=0.
+$$
+相对函数域中，零导数函数来自相对 Frobenius 的拉回。
+括号中函数只在 $O$ 有至多 $p+1<2p$ 阶极，
+因此其 Frobenius 原像只可能有一个至多一阶的极。
+椭圆曲线上 $L(O)$ 只有常数，故括号确是底环标量
+$\delta_\epsilon$。同一恒等式先在一般纤维成立，
+再由原多项式导数及光滑模型延拓回整个形式族。
+这里没有在不完美的一般底域上擅写所有零导数函数为字面上的 $p$ 次幂。
+
+也可由原坐标直接核两个 Cartier 系数：
+$$
+C_{\rm rel}(\omega_\epsilon)=H_\epsilon\omega_\epsilon^{(p)},
+\qquad
+C_{\rm rel}(U\omega_\epsilon)=\beta_\epsilon\omega_\epsilon^{(p)}.
+\tag{N.58}
+$$
+写
+$\omega_\epsilon=F_\epsilon^m\,dU/(2V^p)$ 即得。
+分子最高次数分别为 $3m$、$3m+1$，均小于 $2p-1$，
+所以只有 $U^{p-1}$ 这一个 Cartier 指数。
+相对 Cartier 对底环线性，不在 $H_\epsilon,\beta_\epsilon$ 上另取 $p$ 次根。
+
+最后确定 $\delta_\epsilon$ 的准确符号。记
+$$
+\omega_\epsilon=w_\epsilon(u)\,du,\qquad
+w_\epsilon(u)=1+c_2u^2+\cdots.
+$$
+由 $d\Psi_\epsilon=(H_\epsilon U+\delta_\epsilon)\omega_\epsilon$，
+其完整负 Laurent 部分与线性项为
+$$
+\Psi_\epsilon
+=u^{-p}-H_\epsilon u^{-1}
+ +(\delta_\epsilon+H_\epsilon c_2)u+O(u^3).
+\tag{N.59}
+$$
+这里未写出的可能正 $p$ 倍指数不影响任何所需留数。
+唯一极点留数定理应用于 $\Psi_\epsilon U\omega_\epsilon$，
+给出
+$$
+0=\operatorname{Res}_O(\Psi_\epsilon U\omega_\epsilon)
+=[u^{p+1}]w_\epsilon+\delta_\epsilon.
+$$
+其中 $-H_\epsilon u^{-1}$ 的贡献 $-H_\epsilon c_2$
+与线性项中的 $+H_\epsilon c_2$ 准确抵消。
+而 (N.58) 在 $O$ 的常数读数正是
+$[u^{p+1}]w_\epsilon=\beta_\epsilon$。
+因此 $\delta_\epsilon=-\beta_\epsilon$，连同一般 Tate 模型的
+$U^2$ 项也没有遗漏。在特殊纤维，这就是 R1061 的原
+$\Psi,\delta$，没有重新缩放。
+
+### 13.2 必须保留的普通纤维加法律
+
+对一般两个点 $P,T$，令原 chord slope 为
+$$
+M(P,T)=\frac{V(P)-V(T)}{U(P)-U(T)}.
+$$
+在同一完整 Tate 曲线上，准确加法律是
+$$
+\boxed{
+\Psi_\epsilon(P+T)
+=\Psi_\epsilon(P)+\Psi_\epsilon(T)
+ +M(P,T)^p-H_\epsilon M(P,T).}
+\tag{N.60}
+$$
+原坐标的加法公式给
+$D_PM=U(P)-U(P+T)$，所以两边之差对 $P$ 的导数为零。
+潜在极点只有 $O,-T$。
+(N.59) 的 $p$ 阶主部和一阶主部，
+分别由 $M^p$ 与 $-H_\epsilon M$ 精确抵消。
+差因而没有极点；在 $P=O$ 读取常数为零，
+得到整个有理恒等式，最后再允许切线等特殊化。
+
+在 $H_0=0$ 时，(N.60) 恢复原 R1061 的
+$\Psi(P+T)=\Psi(P)+\Psi(T)+M^p$。
+离开 supersingular 特殊纤维时，
+不能继续只用后一个式子：遗漏 $-H_\epsilon M$
+会丢掉真实 normal 漂移。
+
+### 13.3 第一 normal 变分与原自然基的精确比较
+
+对本篇的实际 Tate 方向，
+(N.57) 的系数式与指数模 $3$ 立即给
+$$
+\delta_\epsilon\big|_0=\delta,\qquad
+\dot\delta_\epsilon\big|_0=0,\qquad
+\dot H_\epsilon\big|_0=-\frac{\delta}{6v}.
+$$
+第二式也可直接看出：
+$\partial_\epsilon F_\epsilon^m|_0
+=mvU(U^3+v^2)^{m-1}$，
+读取 $U^{p-2}$ 要求其剩余指数 $p-3=6k-4$
+被 $3$ 整除，这是不可能的。
+第三式就是已付的 (N.5)。
+
+先固定仿射坐标 $U$ 对 $\epsilon$ 求导。
+有
+$$
+\dot D=\frac{vU}{2V^2}D,
+\qquad
+D\dot\Psi
+=-\frac{\delta U}{6v}-\frac{\delta vU}{2V^2}
+=-\frac{\delta}{6v}D(U^2/V).
+$$
+这确定的不只是导数。$\dot\Psi$ 在三个 $V=0$ 点
+至多有一阶极，来自固定 $U$ 时
+$\dot V=vU/(2V)$；在 $O$ 的首项 $u^{-p}$
+恒定，故其主部由 (N.59) 准确为
+$\delta u^{-1}/(6v)$。
+因此
+$\dot\Psi+\delta U^2/(6vV)$ 的导数为零，
+所有可能极阶却都小于 $p$，所以没有极点。
+其奇性把最后的全局常数固定为零，得到
+$$
+\boxed{\qquad
+6v\,\dot\Psi_{\text{固定 }U}
+=-\delta\,\frac{U^2}{V}.
+\qquad}
+\tag{N.61}
+$$
+
+原全空间 $H$ 使用自然系数基
+$U^j,V_\epsilon U^j$。
+由于 $\Psi_\epsilon$ 是奇多项式，
+从固定 $U$ 的导数变成这个基的系数导数，
+还必须减去 $\dot V\,\Psi/V$。
+所以准确为
+$$
+\boxed{\qquad
+6v\,\dot\Psi_{\rm coeff}
+=-\delta\,\frac{U^2}{V}
+ -3v^2\frac{U\Psi}{V^2}
+=P\Psi .
+\qquad}
+\tag{N.62}
+$$
+最后一个等号是 §10 已逐项核定的原 $P\Psi$，
+右边作为整体属于 $H$；不能将两个表面有极的项分别消费。
+这给出了原 $P$ 连接在一个实际全族截面上的直接验证，
+并保留了曲线自然基自身的移动。
+
+(N.57)–(N.62) 为继续高 normal 与 Picard 比较固定了真实
+$\Psi_\epsilon$、两个 Cartier 标量以及全部第一阶基变化。
+它们没有把 $\dot\Psi$ 或普通纤维的加法律
+直接认成原 $\Phi(U^m)$ 的第四 Picard jet，
+也没有删除后续必须保留的 Hasse 漂移项。
+
+本节没有数学执行；上述全族归一、一般 $U^2$ 项的留数抵消、
+全部一阶极界与自然基补偿已由 o1/o2 独立纸核。
+
+
+§13 发布前 root 另逐式核定全部 N.57–62，包括固定 U 的三个有限分支极、O 首项和自然 Vε 系数补偿；与 o1/o2 精确全文审阅一致。
