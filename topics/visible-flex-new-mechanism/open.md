@@ -92,11 +92,11 @@ native已实际产生5次同冻结λ Powell更新（全阻尼），3skip/1phase�
 
 [可行L原自然终态](notes/2026-11-27-r625-feasible-length-natural-final-agent.md)的40接受/93LSMR到顶与末h上盒均保留；其新342.874342827秒另预载.317874901秒，原state66cdaad57…已由[完整行QR/SVD范围](notes/2026-11-27-r625-paid-dense-feasible-continuation-agent.md)直接消费，不重旧入口或fine。[同惩罚线性恒等](notes/2026-11-27-r625-complete-euclidean-row-factor-interface.md)保全行权/Euclidean惩罚/所有奇异值。
 
-[新dense原自然终态](notes/2026-11-27-r625-dense-feasible-natural-final-agent.md)run45916412405/job140236602211/source5033f516，新216.695643132秒另预载.45159104700000796秒；11Jac、33完整QR+33完整SVD/56方向解/23缓存，0新LU/LSMR。18请求全实际选择固定L+h，先自由检测保留但0真实释放。10接受/122trial/112真C²盒拒绝，全部旧失败和成本继承；原gate未存逐次违规lane，不能把112拒绝全归h。
+[上一dense10接受](notes/2026-11-27-r625-dense-feasible-natural-final-agent.md)的全部33factor/216.695643132秒及1153物理盒失败不删；[同倍h新范围](notes/2026-11-27-r625-homothetic-true-input-continuation-agent.md)保持k/L/原母/ε/规范锚，只重建必要新真history，不把四归一偶端不变量冒端改善。
 
-最后19×65 state26408B SHA34927f117d04fc3c80cb27f199f169acb5c5fb60f65a54b60f692b8fd7525b5a，原unit/LD锚/十参数完整；L2.1000000000449615、h(L)2.9999999999920437未吸附。原ODEmax43092719966557.664/stored十末0；coarse真末.2672745520455645、真ruling34113723869318.57。末trust3.725290298461914e−9/damp.00025811747917131974自然stall；随后64panel/129观察fine在1153点shape/eta后原C²盒失败，无本候选fine M/rho/ruling，状态pending且attempted=true。余3083秒，不能归clock或借旧fine资格。
+[a=.9唯一原终态](notes/2026-11-27-r625-homothetic-a09-original-terminal.md)run45920225192/job140248913335/sourceb37538ad，01:06:50 UTC自然结束，新236.64369406秒另预载2.596495532秒。18接受/135trial；114generic真C²盒拒绝、3merit拒绝，0clock/exception。19J、38完整QR/SVD、53solve，26方向全部length，末h未活跃。最后19×65/10参数state26476B SHA12de7ed26a8043634b615b94af0982edc88c60a0ca494e386a65532fa13a1a43，原LD锚与unit不变，damp.0006662463305375665/trust2.5e−9。ODEmax6.274249243657499e13/stored十末0但真末不零；20完整history=1seed+18接受+1fine，原114部分失败成本保持。
 
-[已审后继真实输入范围](notes/2026-11-27-r625-homothetic-true-input-continuation-agent.md)：以最后C²曲线h及全部h jets乘.9，k/L保持；中心四A依R322原八矩权重，新真eta/8A/6rho只在新曲线上完整积分，真实非零端保持。四原归一偶端组合随此缩放不变，故该选择只给原h墙余地，不登记端条件改善。原固定母/ε/正势/三锚/unit与自由ζ1/ζ2保留，ζ0用新完整中心重算；原dense方向及所有原联合门不放宽，当前fine未合格身份随来源保留。
+末同曲线fine1153点完成，真ruling3.503435673454944e13/真十末.306851864371693；两网A差2.193449947740511e−5、rho差.011093146181225366仅原读数差，非连续界。coarse577 hmax2.999999999989928高于所有65节点最大2.9999894354061833，节点间近壁是后继真实方向依据；原峰x未存且114失败未分lane，不补说全部h。后继保原577点，以完整L依赖/固定L仿射h活动约束和正交零空间保全部ODE行及Euclidean惩罚；原非线性曲线/历史门不变，不能借活动行冒完整物理证书。
 
 [R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心真M首层局部流；C1/C2全程常数，局部正则不授返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已证具体全盒/动能余量/唯一首层端常数支。[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M完整因式给两条准确平方二阶末门及必要负符号；增量乘cos²u保中心j、准确消尾增量二阶，最高43/速度245/54。该新D/q已按新函数实际支付并保原收据，不能借旧R624 q，也不再重跑作新入口。整个参数区间尾模板T<−2131/4800，仍不解两条平方等式、真A末、沿途首层或finiteε ruling。新helper只复用准确矩与成本壳，旧D/q不执行；已接正式原十九态BVP。
 

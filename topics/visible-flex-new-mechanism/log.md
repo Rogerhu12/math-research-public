@@ -703,3 +703,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜B030真实恢复阶段、原H与2561剩余队列范围
 
 根全文审新driver精确diff、准确舍入逆像helper、gzip runner diff及workflow；9452已付峰、909317B原FINAL、74980B H逐字/规范hash核合，45绑定/sparse、20项原参数和完整模型字典AST保持。原e减.01不能伪造未打印best_geo；准确可能binary64集合的原减法比较同值才决定，真恢复≤tol分支可独立接受。剩队列闭合前不授资格，metric eta较高不替原恢复门；转metric另付新活跃行，原同q fine不重放。新stdin2474647B不变，必要单gzip遵根8/15，无本地科学。规则metadata更新为实际已读公开b92f90a0、私库249dc306。
+
+
+## 2026-11-27｜a=.9原18接受与同曲线fine完成的独立收据
+
+根全文审11575B收据，独核1635232B原stdout与222239B唯一FINAL逐字、26476B完整19×65/10参数state按原键序SHA。38factor全complete=19free1216²+19length1216×1215，19J/53solve；135trial=18接受+114真盒失败+3merit，20完整history=1新seed+18接受+1fine。fine同曲线/中心/规范1153点确已完成，但原ODE、真端/ruling全部根门仍false。原577点hmax高于所有65节点最大说明节点间近壁；原未存x和失败lane不补造。所有11历史账/失败/partial保留，后继h可行方向只接这真态，未执行新科学。
