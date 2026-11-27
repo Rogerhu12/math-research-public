@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
 
-H1旧C55九域、原h0整零面及其范围保快照/正文；仍仅旧物理D≠0图。[P201完整整约化](results/R150-appendix-unit211-Phi-zero-H1-P201-integral-squarefree-complete-modular-reduction.md)的219−18=201已付首一1009整性/保度平方自由。[与三原norm相交至14次](results/R150-appendix-unit211-Phi-zero-H1-integral-P201-original-norm-14-cover-and-2016-points.md)：9051真13.368888226秒/81184KiB/0，完整固定48/60/64原映射和复合Bézout给共同度201→14→14；monic QQ gcd整性推出度≤14。原首一Q4/λ6、三生成元与完整Gram/HAHB恢复给≤56权对/1008五坐标/2016完整不同点，非scheme长。原十三完成块的八块已由norm单位排除；余五完整块次数1,1,3,4,5，不识别QQ因子。继续五块全Q4/完整同点原理想，原头与几何单位须实际p整支付；其它Phi/个别NP/b0的316仍开。旧Gaussian/∞门不重放，历史输入只runner暂读。
+H1旧C55九域、原h0整零面及其范围保快照/正文；仍仅旧物理D≠0图。[P201完整整约化](results/R150-appendix-unit211-Phi-zero-H1-P201-integral-squarefree-complete-modular-reduction.md)的219−18=201已付首一1009整性/保度平方自由。[与三原norm相交至14次](results/R150-appendix-unit211-Phi-zero-H1-integral-P201-original-norm-14-cover-and-2016-points.md)：9051真13.368888226秒/81184KiB/0，完整固定48/60/64原映射和复合Bézout给共同度201→14→14；monic QQ gcd整性推出度≤14。原首一Q4/λ6、三生成元与完整Gram/HAHB恢复给≤56权对/1008五坐标/2016完整不同点，非scheme长。原十三完成块的八块已由norm单位排除；余五完整块次数1,1,3,4,5，不识别QQ因子。新755e首次120秒/1GiB在各实际P201完成块保整Q4，以三个λ结式元素乘全部权基形成4d×12d原理想矩阵；全秩原列逆/常数1乘回才闭，余商维之和给严格权点上界。此步无h/λ头/D逆，未闭值模型再付其整性；其它Phi/个别NP/b0的316仍开。旧Gaussian/∞门不重放，历史输入只runner暂读。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
