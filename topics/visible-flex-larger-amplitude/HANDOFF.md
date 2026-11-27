@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`ee67190ac820ed589c1c355a9981d261c801968f`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`cf102cd5434f5149949373988bcd97128a916aa4`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -34,6 +34,9 @@ R248只归约活动像；固定p4须共同R650或全部mixed pairs。R709–715�
 
 
 [10完整mesh/t入口](notes/2026-11-27-run10-complete-same-field-phase-meshes-and-refinement-inputs.md)四全体/三再生器/两完整方案已刊未排。只取真13成员final或明确immutable同点，禁止progress/initial回退；原149argv/80角色、M160/J923/N2048/32段保。全922胞×1/2/4、全圈512/1024/2048、完整两p4帽、多t与4/8/16分段真读；raw六jet/端口投影/PL与t差分分开。M320仅全词零扩张输入，非新频率场结果；全部raw只runner，无网格/收敛/连续费用实值。
+
+
+[10 N4096全入口](notes/2026-11-27-actual-run10-N4096-complete-closure-entry.md)19完整runtime（3共享）/4再生器/三全方案已刊未排。只增当前observer，参考N2048/M160/J923与e711固定g保；旧513角字全嵌入，94角色/原变量/32段/全13成员c3dc父/所有typed和未知peer责任保。三ready均无未来父SHA，非真实精化或连续证书。
 
 ## 10实际输入与完整缓存求解
 
