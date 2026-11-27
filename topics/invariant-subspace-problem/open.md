@@ -182,6 +182,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
-**[一般T0=0已闭](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)，一般图可付T0。** [J=Q两原头图](results/R150-appendix-unit211-general-J-equals-Q-two-quadratic-charts-and-rank-drop-point.md)的唯一四阶秩降点已被[整H0线原QQ覆盖](results/R150-appendix-unit211-general-J-equals-Q-H-zero-original-two-point-cover.md)排除：八个固定35×35行列式只余P2=u²−2u+4/5，Q=2−2u/ell=1−u全保，源0265842f真实9.424秒/exit0。最后两共轭权点由新同原48×35源b0c075e7返回，登记时未执行。H≠0三次源96222bdd实际0.575秒完成，完整覆盖与原模块另条继续；其它一般LS及原值纤维仍开。
+**[一般T0=0已闭](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)。[一般J=Q的整H0线也已闭](results/R150-appendix-unit211-general-J-equals-Q-H-zero-complete-original-exclusion.md)，只在J=Q面可付H=2u+Q−2。** 八个固定原QQ行列式覆盖余P2后，末整个QQ2原48×35返常数1、40真逆，两根全排，源b0c075e7真实0.871秒/exit0；u=2/3四阶秩降点一并排除。剩余H≠0全三次源96222bdd实际0.575秒完成，接完整覆盖和真实原NSPS/D；整个J=Q及其它一般LS仍开。
 
 [原Haar解析理想像与强制来源发散](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)已证：任意非零Mz不变解析流形经同一g的原函数演算只给C_A(g)；真闭理想的实际Sobolev来源映射紧单射、像非闭，有限来源球到g有正距离，逼近g的源范数必趋∞。Rosenblum II正文现已实际取得并核相关定理；零点/ideal见证仍须构造，原边界只得closure B^k C_B(g)，不付N=M或未知闭根域。
