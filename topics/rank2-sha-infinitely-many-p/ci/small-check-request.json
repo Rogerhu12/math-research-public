@@ -1,11 +1,16 @@
 {
-  "request_id": "rank2-original-type4-fixed-inert29-coefficient-v1",
+  "request_id": "2026-11-27-2013-original-inverse-beta27-central-values",
   "python_flint_version": "0.9.0",
   "checks": [
     {
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-fixed-p29-original-type-four-pb4-row.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-inverse-beta27-central-values.py",
       "engine": "python3",
-      "args": [],
+      "args": [
+        "--cutoff",
+        "4096",
+        "--precision",
+        "256"
+      ],
       "include_stdout": true
     }
   ]

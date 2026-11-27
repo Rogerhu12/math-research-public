@@ -8,7 +8,7 @@
 
 root独占git/H/open/log/index；每条结论即推。非快进立即实际pull --rebase、检查README差异、重比新父后再推到成功，不force。令牌只命令行/进程，不写文件/提交/API。数学执行只在公开Actions，4CPU/16GB/6h；根规则15禁止存可重算结果/日志/矩阵缓存，必要输入证书和脚本/参数/run/hash照原规。H<10KB、每MD<100KB、topic<200MB。
 
-本次整理前[完整交接](notes/2026-11-27-handoff-before-paired-lame-and-heat-jet.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
+本次整理前[完整交接](notes/2026-11-27-handoff-before-inverse-beta27-input.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
 
 ## 实际同步与规则
 
@@ -29,7 +29,7 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 [原负二Newton](notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)：同D1、C=34cσ，a_h完整尾≥ceil((h(p−1)+6)/(2p))，J∈pvO〈v〉、K=J/(pv)，Kmodp=d_j,p−1/(34pcσ)常数；首行单位等价K Tate单位，全部d_dk−2赋值1−k−vp((k−1)!)。D17严格K17=K1/17。
 
-[固定weight5基](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)与[未平方全源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)：原B_j=(17δ/9)T_j,5、三标签共同绝对号、全2/3/17与54/full9、degree102实际同源、G_j=B_jt⁴D_j(δZ/t)/(408δ)及Jtor=−B_jJ/(306δ)均保。固定weight3双核保cZW，两个Hermite槽(n,n+2)准确为δ3^n。新旧finite接合已补：χ比ν27⁶在3单位逐点1、唯一diag3共同−1；α1同、α2比ν27¹²；旧(4,0)才付新beta同一finite函数的真空，新(4,6)不当真空。coherent变量全保Ω0h∞。
+[固定weight5基](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)和[未平方全源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)已锁B_j、全部finite相位、degree102与Jtor=−B_jJ/(306δ)。固定weight3完整交叉核给(n,n+2)两槽；新旧finite接合、diag3共同−1、旧(4,0)真空与Ω0h∞均已付，详原文及上方逐字归档，后继不重做。
 
 [同一signed全精度](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)已付A_j=F_p(c_j/a_j)K_j²。一K_*单位及固定常数好范围，先取Δ等型的双变量整base change/全Coleman原像；同Tate基、未平均p²−1 corestr、完整KS的−p及μ/18给m=p−1的exp*整界p⁻¹O，原EU恰取到−1，故F_p是Tate单位。因而v_pA_j0=2vpK_j0、K_j0≠0⇔EU实际loc非零，原几何好范围首层亦等价。无K单位时不套此结论，c_j好集/q0不删，全精度EU类与几何类不冒相等。
 
@@ -41,7 +41,9 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 **[原canonical二阶完整Newton](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)**：Q=D²S真三项卷积给J_Q^[-2]=dv(dv−1)J_S，尾B_(h−2)独立支付；K_Q0恒0，坏条件准确是K′_Q0=−dJ′_S/p=0。F=∇34²S完整六列、两dyadic和R=68ζ∇S+(1156ζ²−34x)S全保；三U_e交换子保真实费用。模p K_Q=α_Sv(v−1)须合h2/h3，K_j0单位不代此一阶必要关系。 §9进一步精确D²S=68 dotS+Q_S，dotS=L2原指定齐次lift首−67z10/5，Q_S全六列/两dyadic保；权同余给L2C|CM真0，所以完整未知只一个双数热jet。68K_dot+K_QS=d(dv−1)J_S/p，未对CM中央零作横向微分。
 
-**[原B完整paired基本解](notes/2026-11-27-original-type4-inert29-coefficient.md)§8**：低9真实char=det(T³I−1024C)在char0九根互异非零；每首一deg8 Qλ在全部e³=−1非零，由原U_e给deg17第二解。18解付全B半单，W_x=9(δe)^−17Qλ(e)(X+1)^8。固定genus3覆盖s⁴=X+1上Q/s17及U_eQ/s17给整个n=17/2 Lamé基本矩阵，D_z-W恒非零。原entire W=2cσ68y17、σ2z半幂和CM13不交换均保；只代数Lamé部分在固定好集外p曲率0，不替原p−1读者。
+**[原B完整paired基本解](notes/2026-11-27-original-type4-inert29-coefficient.md)§8**：九个λ各由deg8 Qλ与原U_eQλ给18维半单；固定genus3 cover上Lamé基本矩阵及常数Wronskian全付。原共同σ(2z)^(17/2)、CM13不交换和p−1读者低卷积仍保，不以代数Lamé零p曲率替首行。
+
+**[另一dyadic实际三源](notes/2026-11-27-original-complementary-type4-inverse-beta27-input.md)**：标签(v_+,2/8/14)、有限角色η_j^-1、positive槽β_j^+=ψ27η_j^-1，完整导子31212、root+和严格Mellin尾已手付；不是R994旧三值或E17 sextic族。新独立脚本只算此三源，M4096/Arb256/python-flint0.9.0，由small-check请求2026-11-27-2013-original-inverse-beta27-central-values触发公开CI。数值回执待返，不预付真空非零；原heat一阶费用仍保。
 
 ## 主目标及其余原门
 
