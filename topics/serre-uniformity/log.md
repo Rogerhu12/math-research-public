@@ -189,3 +189,7 @@
 ### 2026-11-27 20:11 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1121消费成功短Cartier run45994669183/job140490956495，541.159秒，十二原α全成、failed为空；全部RR/留数、73帧C和det(1−C)=551，root/global独立读实际日志并核完整canonical SHA。
 - 立即提交六盘实际QC请求，消费R1120四CM坐标和R1121十二α，保完整Cartier/Tq矩阵桥及73维trace；新增课题外workflow serre-full-p47-QC-first-rows.yml，仅本课题，2400/reserve60。20:10真实pull仍无可用执行器，两README无差异，按根规矩8同步继续。
+
+### 2026-11-27 20:11 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 登记原Lamé三对角/短旗标工作续稿：同一W_C上B简单谱、D³单Jordan块、原e/K4双零到严格有界像空间的iff，以及真实三平移的全部乘子。
+- root/o1/o2全文纸核，特别回读R1061/R1076并消清反向积分常数；没有执行数学程序，没有把全谱或任意函数域原函数替代短条件。指定包含仍未排，继续原两读数；R1117未占用。

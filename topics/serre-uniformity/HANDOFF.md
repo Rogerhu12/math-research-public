@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：8fc4d1f021b068dcbfee33262c563ac9dc16bac1**（2026-11-27 20:11 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：15859fc74cdb06b5bd04742a2676113b8dd1bffd**（2026-11-27 20:11 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；20:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -36,9 +36,9 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，CM坐标已由R1120取得，待实际α回执读行秩。
 
-[有限Miller](notes/2026-11-27-full-p47-finite-third-kind-method.md) run45973334832/job140418866621：0/141×ZA/ZB首4例仍运行，18000/120；原closed支撑/ratio/signed N和终点已付，只读完整新α。余12例已由R1121完成。
+[有限Miller](notes/2026-11-27-full-p47-finite-third-kind-method.md) run45973334832/job140418866621仍读0/141×ZA/ZB首4例，18000/120；只接完整新α。余12已由R1121完成，不补算。
 
-[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q² residue-trace/强制归一及两pencil同时核已证。四基本CM q² run45977769585/job140433713916仍在途；必要坐标已由R1120取得，不再依赖或补跑该链。
+[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)的q² run45977769585/job140433713916仍在途；原坐标已由R1120完整取得，不再依赖或补跑。
 
 [R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)的原短Cartier法已由[R1121](results/R1121-certified-original-twelve-short-Cartier-values.md)完整执行：run45994669183/job140490956495，541.159秒，余12例全成、无失败；六盘ZA/ZB的原α已齐，完整C的det(1−C)=551、原73帧det3058。全部closed/coarse/cusp/除6及hash保R1121，只消费不重算。
 
@@ -48,6 +48,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [完整QC新请求](notes/full-p47-QC-first-rows-request.json)已填R1120全部CM坐标和R1121十二α，六盘76/77/100/108/196/220×ZA/ZB；2400/reserve60，先核原Cartier row矩阵与1−Bq(H)，再读全73 trace的实际t(B+At)/gcd/单位导数。未提前宣称盘内唯一；0/141首4仍等Miller。
 
 ## O1：原同一保留标签与 Gaussian 强制切向
+
+[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付W_C上B的准确三对角/简单谱与D³的单Jordan块；e=K4=0 iff DF∈(D³)²(U²k[V]≤k−3)，原首余核杀常数，真实三平移保全部乘子。只付同源短旗标接口，未排该包含、未占R1117；不能把全空间谱代短minor。
 
 [R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)付原有限Lamé全谱、完整jet递推及η_k=(16v²g0/(3δ))D_N(1)；g0单位，e=0时K4必须保全部三项。R1061/76的同一T=−2vΨ³/δ³、η_j=j[z^j]T、ν_j=j[z^j]T²/40不换；指定η_k/ν_k非同时零仍开。R1077加权2k次单位不代短k次。R1109完整Dixon首除层仅消费。
 

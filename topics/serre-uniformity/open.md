@@ -51,6 +51,8 @@
 
 ## O1：全p同一真实本原标签的临界非零
 
+[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付W_C上B的准确三对角/简单谱与D³的单Jordan块；e=K4=0 iff DF∈(D³)²(U²k[V]≤k−3)，原首余核杀常数，真实三平移保全部乘子。只付同源短旗标接口，未排该包含、未占R1117；不能把全空间谱代短minor。
+
 R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darboux因子与全部三阶jet carry；C=UD+V仅在明确W_C上半单，原U^m为唯一零列。每个实际列的relative Cartier读数e_ℓ给精确p−1系数；仍未付指定e/K4非同时零。
 
 [R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)：原全部forced Gaussian coarse首项准确读同一Kronecker核反对角c_(2j−1)，含primitive常数、regularizer、Bernoulli-good mask和完整Fay乘积；全forced同时零会给具体奇偶半段缺失，尚未排该条件。R1114的混合K_p未被偷换为其中一项。
