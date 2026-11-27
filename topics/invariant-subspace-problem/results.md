@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 unit211：h=k、Q=1−u、Delta≠0 整个原面排除](results/R150-appendix-unit211-equal-singleton-Q1u-nonzero-Delta-complete-exclusion.md)：完整2/6/24次常数代数K[u]原E1/EBe返回1；互补Delta0续同一u自由Gram。
+
 - [Phi判别式零权面的原PB有限2106覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-original-PB-finite-2106-cover.md)：每有序图两原曲线QQ互素/固定57阶给≤2106基点，各≤6T；模度2033差73未付，非整支排除。
 
 - [W整lambda=3/2的同值单一F18覆盖](results/R150-appendix-unit211-W-lambda-three-halves-same-value-single-F18-cover.md)：新原8列det只含k⁴d²F18，保所有首项零/交点，不借Ah排除；F18仍须原返回。
