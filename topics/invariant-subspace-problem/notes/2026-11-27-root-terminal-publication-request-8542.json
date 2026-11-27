@@ -1,14 +1,19 @@
 {
-  "message": "ISP R150: publish exact original W value cofactor and lambda-five consequence",
-  "parentCommit": "7b43917a13a98b1d5a2dd5c39eeaea54deadfbf4",
+  "message": "ISP R271: publish strict S2 original head source; first W reduced-cofactor norm input",
+  "parentCommit": "0eaa860726ab795d8522b051b5547d94c5b7aa19",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-original-value-quartics-fixed-cofactor-and-lambda-five.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-value-quartics-three-columns-lambda-five-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-value-lambda-five-theorem-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-one-pair-four-independent-s2-positive-head-source.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s2-positive-head-boundary-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-value-C8-content-same-lambda-six-norm-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-value-C8-content-same-lambda-six-norm-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-w-value-content-six-norm.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-S2-positive-head-W-first-norm-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-S2-positive-head-W-first-norm-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-S2-positive-head-W-first-norm-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +22,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-value-content-six-norm.yml"
+  ]
 }

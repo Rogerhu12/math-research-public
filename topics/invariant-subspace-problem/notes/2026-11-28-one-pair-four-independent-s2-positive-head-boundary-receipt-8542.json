@@ -1,0 +1,173 @@
+{
+  "schema": "isp-original-s2-positive-head-boundary-v1",
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46083254596,
+  "job_id": 140786885265,
+  "execution": {
+    "elapsed_seconds": 180.04825649299994,
+    "max_child_rss_kib": 618776,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e53e7935484cc1451e1429bcb0fa153bfed81a0e",
+        "before": "e53e7935484cc1451e1429bcb0fa153bfed81a0e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T23:34:46.870633+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46083254596",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e53e7935484cc1451e1429bcb0fa153bfed81a0e",
+    "source_exit_code": -14,
+    "source_git_blob": "9f120fe91aa743c8e7f99d943e605611eeba0a11",
+    "source_sha256": "1fedf4720a32f2bd4ef4d78fd8da49a5753fc9fac073b1957285c5d408e3aa16",
+    "stdout_bytes": 7542,
+    "stdout_sha256": "344b6ab63a75b7abf75d9f38cfe12b868aaedf584975f792149360ea33602952",
+    "stop_reason": null
+  },
+  "actual_claims": {
+    "largest_single_minus_pair_source_full_s2_strict": true,
+    "five_chambers_complete": true,
+    "n1_any_chamber": false,
+    "n2_reached": false,
+    "n3_reached": false,
+    "whole_s2": false,
+    "seven_site_glue": false,
+    "ordinary_isp": false
+  },
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s2-head-leaf-rank-one-source-8542.py",
+  "head": {
+    "denominator_terms": 31679,
+    "equal_weight_denominator": "4012245201715200000000",
+    "event": "original_head_leaf_target",
+    "numerator_degree": 38,
+    "numerator_sha256": "85dd4d775b2490fd1ce0be03f3bc3dede51ab1cd8de830071c3635c450298e90",
+    "numerator_terms": 35026,
+    "numerator_weighted_degree": 61,
+    "raw_numerator": {
+      "degree": 38,
+      "sha256": "85dd4d775b2490fd1ce0be03f3bc3dede51ab1cd8de830071c3635c450298e90",
+      "terms": 35026
+    },
+    "removed_positive_factors": [],
+    "seconds": 9.539509494000072,
+    "target_index": 0,
+    "target_label": "actual-head-source-S2"
+  },
+  "chambers": [
+    {
+      "coefficient_order": 0,
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "pair_position": 0,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "a9fb5788e9e4e9078e1767cd8f1143af17196b8bc67c53c222c1ac11211075d9",
+      "residual_terms": 476790,
+      "seconds": 42.00460914100006,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "3761479876608000000000"
+    },
+    {
+      "coefficient_order": 0,
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "pair_position": 1,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "7ae7e72149e66aa21a6a976fd37d765b2daf06cb43ba109c9851eda2f5ed9de3",
+      "residual_terms": 476790,
+      "seconds": 74.04559414000005,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "3761479876608000000000"
+    },
+    {
+      "coefficient_order": 0,
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "pair_position": 2,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "00eb2f506135ca3667eb682b464f17ac2041e9dd6acb73851c40373c01409ed1",
+      "residual_terms": 511566,
+      "seconds": 100.56170063900004,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "3761479876608000000000"
+    },
+    {
+      "coefficient_order": 0,
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "pair_position": 3,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "0a79fb5e1cfa0adbe8d2f9715acd7da9e7f692892579d6caecdfa7333bd6f784",
+      "residual_terms": 562166,
+      "seconds": 120.05629327600013,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "3761479876608000000000"
+    },
+    {
+      "coefficient_order": 0,
+      "event": "EXACT_ORIGINAL_POLYNOMIAL_SQUARE_RETURN",
+      "full_identity_checked": true,
+      "pair_position": 4,
+      "passed": true,
+      "residual_negative_coefficients": 0,
+      "residual_sha256": "f5954319351cd84e33fa6ca861e90398c40f868d14c5000bf3cc0a7f924ee9f2",
+      "residual_terms": 669116,
+      "seconds": 135.33227958800012,
+      "squares": 0,
+      "strictly_positive_reserved_constant": "3761479876608000000000"
+    }
+  ],
+  "head_complete": {
+    "event": "ORIGINAL_HEAD_LEAF_TARGET_ALL_CHAMBERS_POSITIVE",
+    "seconds": 135.44229799100003,
+    "target_index": 0,
+    "target_label": "actual-head-source-S2"
+  },
+  "later_stages": [
+    {
+      "dimension": 3,
+      "event": "complete_inverse",
+      "label": "original-positive-three-leaf-source-metric",
+      "seconds": 135.46806881399993
+    },
+    {
+      "event": "ORIGINAL_HEAD_LEAF_RANK_ONE_SOURCE_READY",
+      "head_source_already_positive": true,
+      "invariant_identity": "det(tG+Zll-zl0*z0l/head)/det(G)",
+      "old_four_source_c2_not_used": true,
+      "reference_metric": "actual three leaf-minus-pair sources",
+      "seconds": 143.537931974
+    },
+    {
+      "denominator_terms": 74322,
+      "equal_weight_denominator": "2054269543278182400000000000",
+      "event": "original_head_leaf_target",
+      "numerator_degree": 47,
+      "numerator_sha256": "3f5a3f032d1a4d8f69102c730d587098f77304e247071135d216d937374f6718",
+      "numerator_terms": 84369,
+      "numerator_weighted_degree": 72,
+      "raw_numerator": {
+        "degree": 47,
+        "sha256": "3f5a3f032d1a4d8f69102c730d587098f77304e247071135d216d937374f6718",
+        "terms": 84369
+      },
+      "removed_positive_factors": [],
+      "seconds": 170.64514598799997,
+      "target_index": 1,
+      "target_label": "conditional-leaf-Schur-first-coefficient-times-head"
+    }
+  ],
+  "boundary": "SIGALRM after n1 rational parameter, before any n1 chamber; n2/n3 not reached. The original whole rank-one gate is frozen. No expanded coefficient data or encoded payload saved."
+}
