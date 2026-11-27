@@ -121,3 +121,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 19真实两input0后36304a0d/f600/PID3240已到初统计（22:34:17.427979）：model0abfbf/current7e06，Phi3825.0583894874153/Gram.6460503011117507，accepted0；初geometry未返。相较18初Phi降而Gram升，尚不能判成功；完整实际对象与全部缺值保[19启动续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。
+
+
+[ret52](notes/2026-11-27-legacy-derived-grid-recovery-retention-52.md)仅退14个原生成网格/恢复收据/条件报告，共1632095B；四完整恢复材料162081B，净1470014B。原52小记录/43全源/142输入绑定/十全resource保，9个runner-only numpy原件仍未重新取回且不删除；历史消费者先恢复精确Git字节，不以近似重采样替代。

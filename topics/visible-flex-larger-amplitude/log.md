@@ -234,3 +234,8 @@
 ### 2026-11-27 22:45 UTC — 19 两输入实际0，初始统计返回
 
 固定云读0c51ba4b8d4e82f345cb23106c29b952ab931c57，双README原blob未变；这是云读非root真pull。19参考实际1c081a10/e717/303.653668384s、完整7输出，科学实际36304a0d/f600/PID3240。22:34:17.427979初统计model0abfbf、point7e06、Phi3825.0583894874153/Gram.6460503011117507、accepted0，geometry/终态未返。18初Phi4954.71485872585/Gram.6374168330977955；新Phi降而Gram升，不推可行性或整体改善。完整实际第二input对象及全部有界progress/缺值逐字追加[19续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。H重复描述压缩，之前全字已保0c51固定历史链接，实际槽由fresh合并；持续真正求解。
+
+
+### 2026-11-27 22:47 UTC — 第52批完整可逆退存
+
+根读取完整四件与原边界，按fresh树逐14项原blob/size核对后退1632095B旧derived；完整registry82906/provenance58506/note14660/manifest6009共162081B，净1470014B（常规日志变化另计）。固定恢复837c4fdea41e621264b3cd9dd658aca1abaf0847，历史603214各项也同blob/size。52原小记录、43全源、142source/input绑定、十全resource与全部两recovery plans保；950f原5118B/e443已真取回，9个旧runner-only numpy未重新取回、原4752外client缺失及proxy多版本仍明确。十四候选有真实历史消费者，旧消费前须精确Git恢复；无候选正文/大raw/binary读取，无科学重跑或新门。原未知session非childexit，条件K非新reach成功。完整范围见[ret52](notes/2026-11-27-legacy-derived-grid-recovery-retention-52.md)。

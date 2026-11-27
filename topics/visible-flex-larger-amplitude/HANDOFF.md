@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `fd98cc85edded2c45776fed87f4abbc096b3bfff`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–19通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `4a883f0ee24f71a87c31665a85d8ee061b7e1f4d`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–19通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -44,7 +44,7 @@ R723方向支撑s/(nᵀAn)及全平行面排序已证，实际支撑/曲率未�
 
 ## 容量与分工
 
-[ret51](notes/2026-11-27-finite-geometry-minimax-retention-51.md)退17旧derived净1555055B，54源/187输入/18全resource/5全plan/失败未知保；ret50退19净1053787B和三完整旧源保；ret49/ret48及旧台账完整保旧源/参数/失败未知/消费者/原Git恢复，只退旧raw；ports/Nelder/已退对象不动，每fresh树核200MB。
+[ret52](notes/2026-11-27-legacy-derived-grid-recovery-retention-52.md)退14旧derived净1470014B，52完整小记录/43源/142输入/十全resource及失败未知保；[ret51](notes/2026-11-27-finite-geometry-minimax-retention-51.md)退17旧derived净1555055B，54源/187输入/18全resource/5全plan/失败未知保；ret50退19净1053787B和三完整旧源保；ret49/ret48及旧台账完整保旧源/参数/失败未知/消费者/原Git恢复，只退旧raw；ports/Nelder/已退对象不动，每fresh树核200MB。
 root独占refs/queue、完整上层与实际续求；construction接19前三完整后参及ret52；solver监16并接19矩/mesh全参；geometry接独立R723完整消费者。一直做到README标准。
 
 <!-- visible-larger-parallel-16:start -->
