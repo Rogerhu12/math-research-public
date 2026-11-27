@@ -36,6 +36,11 @@ def _dispatch_fixed_request():
         binding_name = "original_current_idempotent_square.py"
         check_sha = "1ebafdeb5221cddd0d001e86b79874b0eb650d20b2c4881dcc87afffb6dd0e0e"
         binding_sha = "4c01f72b41e503be862045c7b9e1b63b3a457c7c63282ee3bf5df9d0d7d2a410"
+    elif kind == "original-scalar-base-support-software-check":
+        check_name = "check-original-scalar-base-divisor-support.py"
+        binding_name = "original_scalar_base_divisor_support.py"
+        check_sha = "d66165c8fd28a991c47efd2e8a7eb3531f766872bebb16245862d93391dedfe1"
+        binding_sha = "b392e98806654be0f977e519733f4b97e45a1d2cdcbc8eb52a8ef59a727558a2"
     else:
         raise RuntimeError("Unknown fixed complete-quadratic API request kind.")
     if (request.get("check_script") != "scripts/"+check_name or

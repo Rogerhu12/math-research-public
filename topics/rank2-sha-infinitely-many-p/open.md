@@ -131,3 +131,6 @@ root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(
 [R1051：原完整 Gaussian 的全深折回与全部精度节点递推](results/R1051-original-full-depth-gaussian-node-recurrence.md)（已证明）：基线所有物理行模 $p$ 按数字和 $s_p(q)$ 精确折回原首窗，保 Gaussian 单位与 factorial 单位；同一原来源的全行 $\mathcal Y_{r,q}=p^q q![w^{r+sq}]\Phi$ 具有完整节点系数 $C_{\rho,j,r}$，其赋值至少 $\lceil\eta j-\vartheta\rceil$。任意 $H$ 由真正首一 $\prod_{\rho=0}^{p-1}(T-a\rho)^{\lfloor H/\eta\rfloor}$ 给全部后行递推。连续前缀和适配整旗标保全部 Smith 精度及实际对角 $\epsilon$，但已付加权收益仍仅 $O(M_D)$，未达 $3M_D\log D$ 主门；坏 canonical 条件仍是含全部 $k\gamma_m^k$ 分母的同源加权行，不能免费变成逐节点消失。
 
 下一步使用上述完整 $C_{\rho,j,r}$ 和坏条件，在真正高前缀核/同一首提升中支付新增 Smith 主项。整个来源有许多节点并不能推出该核仍有同样节点；也不以高物理深度本身替代全局预算。
+
+
+原完整几何当前软件接续见[scalar全厚支撑核验](notes/2026-11-27-original-scalar-support-software-and-production.md)。这项检查待真实回执；不以静态审阅、夹具结果或方法计数替原所有终门。

@@ -12,12 +12,12 @@ root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull
 
 ## 最新实际pull和已读规则
 
-只读CI run46075603971/job140771198822，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-27 22:43:19UTC实际部分clone/pull至fd98cc85edded2c45776fed87f4abbc096b3bfff。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库22:43:25UTC实际至8a3c34054e8bc523e857659980dfd90305019a96。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
-- 四README与22:39已读版本均相同，无新差异；请求旧基线3bd753e5/54fd1d82不冒充本次实际head。job日志14893B/hash a55849c81b9967ceb4b8876fb8d18b27b34712bbdf094d51ff695708e2e6df1a，只记录不存日志。
-- 库存3135blob/44,144,101B、tree bf48dcc72b3cd89c4867d4cdc133e6fc52f19cec，无>5MB，三旧gzip必要输入SHA不变。
-- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟23:43UTC再实际拉两库**。遇ref前进，发布器立即尝试本地pull；无环境则触发CI实际pull并返回，消费后继续推，不以API比较替pull。
+只读CI run46075603971/job140773032558，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-27 22:49:11UTC实际部分clone/pull至4868a6e20cf8944ebd3224b00f80d727f2bb34c7。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库22:49:16UTC实际至7a3c75afd81f19b51f83b5816fba527a8e658745。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
+- 四README与22:43已读版本均相同，无新差异；请求旧基线3bd753e5/54fd1d82不冒充本次实际head。job日志14894B/hash 6b719ad1bdc44e467f3c829a6fd3c48cd10d55016421437f789906844d8dc336，只记录不存日志。
+- 库存3138blob/44,171,879B、tree 329c8342d9512ecffbe3372ea5fc46c92171249b，无>5MB，三旧gzip必要输入SHA不变。
+- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟23:49UTC再实际拉两库**。遇ref前进，发布器立即尝试本地pull；无环境则触发CI实际pull并返回，消费后继续推，不以API比较替pull。
 - 本地07:20失联，22:39重试仍无环境；末次本地公开07:12至1cf10ac。API、CI、本地分记。
 
 ## 当前原完整厚几何与真实软件证据
@@ -32,7 +32,7 @@ root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull
 
 [R1050](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)已证明全厚支撑的主要简化：必须核实际完整HNF为 $hI$；$\pi^mA$ 每local全长 $m\deg(\pi)d_i$，重数 $md_i/f_i$，其中 $d_i=\operatorname{rank}M_{e_i}$ 为整个非约化纤维维数。原T/v两图完整scalar identities给finite v同T负点重数−1/2、∞同原负重数。专用geometry只消费point+m，可用全滤过且保289等厚度；通用需完整localideal的接口不改，不填假HNF/projector字段。
 
-central已交原scalar专用helper/checker未引用blob，根正逐字审阅，随后用原软件workflow作小例核验。新geometry需在triangular的from-import前绑定；每次独立session、原完整Frobenius/残域/maximal/registry、原∞边界和全标量HNF均保。生产旧projector“曾被实际使用”末门需准确换成实际full filtration回执，不可用夹具填记录或伪造旧PASS。新生产只能在此处等价性及软件核验已付后整合上述两项；所有四交/一般Norm/18×9终门保留。
+[原scalar专用软件](notes/2026-11-27-original-scalar-support-software-and-production.md)helper b392e988/check d66165c8根已全审，第三固定selector 351299ea/request f334a962已提交既有软件workflow，实际回执待消费。新geometry需在triangular的from-import前绑定；每次独立session、原完整Frobenius/残域/maximal/registry、原∞边界和全标量HNF均保。生产旧projector“曾被实际使用”末门需准确换成实际full filtration回执，不可用夹具填记录或伪造旧PASS。新生产只能在此处等价性及软件核验已付后整合上述两项；所有四交/一般Norm/18×9终门保留。
 
 ## 数学范围更正继续生效
 
