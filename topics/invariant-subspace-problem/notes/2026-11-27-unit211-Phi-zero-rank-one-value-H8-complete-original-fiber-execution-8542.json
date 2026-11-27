@@ -1,0 +1,497 @@
+{
+  "schema": "isp-original-H8-complete-fiber-receipt-v1",
+  "date_timezone": "2026-11-27 Asia/Taipei",
+  "scope": "Phi=0, zn=0, ordered h=1; entire H8(lambda)=0",
+  "source_blob": "a37b7da8874205b421a7f70030ca05ad6ddc31c1",
+  "source_sha256": "883e666482c32170bd0809a2e6743489fff12906ce2a4b7611b6a76a0884ec47",
+  "run_id": 46008637027,
+  "job_id": 140538132972,
+  "records": [
+    {
+      "step": 1,
+      "currentDegrees": [
+        13,
+        12
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 254,
+        "QQ_coefficient_inverse_returns": 1,
+        "rho_polynomial_division_returns": 1,
+        "rho_original_gcd_steps": 1
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 1.908028194999929
+    },
+    {
+      "step": 2,
+      "currentDegrees": [
+        12,
+        11
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 555,
+        "QQ_coefficient_inverse_returns": 2,
+        "rho_polynomial_division_returns": 2,
+        "rho_original_gcd_steps": 2
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 1.912481388999936
+    },
+    {
+      "step": 3,
+      "currentDegrees": [
+        11,
+        10
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 918,
+        "QQ_coefficient_inverse_returns": 3,
+        "rho_polynomial_division_returns": 3,
+        "rho_original_gcd_steps": 3
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 1.9250929410000026
+    },
+    {
+      "step": 4,
+      "currentDegrees": [
+        10,
+        9
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 1343,
+        "QQ_coefficient_inverse_returns": 4,
+        "rho_polynomial_division_returns": 4,
+        "rho_original_gcd_steps": 4
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 1.9560191499999746
+    },
+    {
+      "step": 5,
+      "currentDegrees": [
+        9,
+        8
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 1830,
+        "QQ_coefficient_inverse_returns": 5,
+        "rho_polynomial_division_returns": 5,
+        "rho_original_gcd_steps": 5
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 2.021234662999973
+    },
+    {
+      "step": 6,
+      "currentDegrees": [
+        8,
+        7
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 2379,
+        "QQ_coefficient_inverse_returns": 6,
+        "rho_polynomial_division_returns": 6,
+        "rho_original_gcd_steps": 6
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 2.140358348999939
+    },
+    {
+      "step": 7,
+      "currentDegrees": [
+        7,
+        6
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 2990,
+        "QQ_coefficient_inverse_returns": 7,
+        "rho_polynomial_division_returns": 7,
+        "rho_original_gcd_steps": 7
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 2.347308521999935
+    },
+    {
+      "step": 8,
+      "currentDegrees": [
+        6,
+        5
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 3663,
+        "QQ_coefficient_inverse_returns": 8,
+        "rho_polynomial_division_returns": 8,
+        "rho_original_gcd_steps": 8
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 2.676814291000028
+    },
+    {
+      "step": 9,
+      "currentDegrees": [
+        5,
+        4
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 4398,
+        "QQ_coefficient_inverse_returns": 9,
+        "rho_polynomial_division_returns": 9,
+        "rho_original_gcd_steps": 9
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 3.18399336899995
+    },
+    {
+      "step": 10,
+      "currentDegrees": [
+        4,
+        3
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 5195,
+        "QQ_coefficient_inverse_returns": 10,
+        "rho_polynomial_division_returns": 10,
+        "rho_original_gcd_steps": 10
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 3.9048554319999766
+    },
+    {
+      "step": 11,
+      "currentDegrees": [
+        3,
+        2
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 6054,
+        "QQ_coefficient_inverse_returns": 11,
+        "rho_polynomial_division_returns": 11,
+        "rho_original_gcd_steps": 11
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 4.910556065000037
+    },
+    {
+      "step": 12,
+      "currentDegrees": [
+        2,
+        -1
+      ],
+      "allQQAndExtensionProductsMultipliedBack": true,
+      "counts": {
+        "QQ_phi_division_returns": 6973,
+        "QQ_coefficient_inverse_returns": 12,
+        "rho_polynomial_division_returns": 12,
+        "rho_original_gcd_steps": 12
+      },
+      "stage": "new_H8_actual_rho_gcd_step",
+      "seconds": 6.198848362000035
+    },
+    {
+      "exactH8IntegerCoefficientsAscending": [
+        1,
+        -2,
+        -4,
+        25,
+        -44,
+        32,
+        16,
+        -48,
+        32
+      ],
+      "originalRhoGcdDegree": 2,
+      "keptRhoGcdDegree": 2,
+      "keptRhoGcdCoefficientsInLambda": [
+        [
+          "2",
+          "-13",
+          "15",
+          "4",
+          "-32",
+          "32",
+          "16",
+          "-32"
+        ],
+        [
+          "-8",
+          "2",
+          "70",
+          "-184",
+          "192",
+          "0",
+          "-224",
+          "192"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "originalUnitRhoFactorsRemoved": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "fullSameOriginalFGBEzoutAndDivisionsMultipliedBack": true,
+      "allEightLambdaEmbeddingsRetained": true,
+      "counts": {
+        "QQ_phi_division_returns": 8191,
+        "QQ_coefficient_inverse_returns": 15,
+        "rho_polynomial_division_returns": 14,
+        "rho_original_gcd_steps": 12
+      },
+      "stage": "new_H8_full_original_same_rho_gcd",
+      "seconds": 6.84036198900003
+    },
+    {
+      "rank": 1,
+      "extensionDimension": 4,
+      "fullQQDimension": 32,
+      "generatorCount": 32,
+      "pivotColumn": 0,
+      "onlyVerifiedH8ConstantCoefficientUnitsInverted": true,
+      "counts": {
+        "QQ_phi_division_returns": 19533,
+        "QQ_coefficient_inverse_returns": 120,
+        "rho_polynomial_division_returns": 114,
+        "rho_original_gcd_steps": 12
+      },
+      "stage": "new_H8_all_original_finite_ideal_pivot",
+      "seconds": 6.927433393999991
+    },
+    {
+      "rank": 2,
+      "extensionDimension": 4,
+      "fullQQDimension": 32,
+      "generatorCount": 32,
+      "pivotColumn": 1,
+      "onlyVerifiedH8ConstantCoefficientUnitsInverted": true,
+      "counts": {
+        "QQ_phi_division_returns": 22919,
+        "QQ_coefficient_inverse_returns": 121,
+        "rho_polynomial_division_returns": 114,
+        "rho_original_gcd_steps": 12
+      },
+      "stage": "new_H8_all_original_finite_ideal_pivot",
+      "seconds": 6.935424327999954
+    },
+    {
+      "power": 2,
+      "unitNames": [
+        "H",
+        "ell",
+        "u",
+        "u_minus_ell",
+        "b",
+        "u_plus_Q_minus1"
+      ],
+      "allFactorsArePreviouslyPaidActualUnits": true,
+      "fullOriginalGeneratorTags": [
+        [
+          "E1",
+          0
+        ],
+        [
+          "E1",
+          1
+        ],
+        [
+          "E1",
+          2
+        ],
+        [
+          "E1",
+          3
+        ],
+        [
+          "EB",
+          0
+        ],
+        [
+          "EB",
+          1
+        ],
+        [
+          "EB",
+          2
+        ],
+        [
+          "EB",
+          3
+        ],
+        [
+          "EC",
+          0
+        ],
+        [
+          "EC",
+          1
+        ],
+        [
+          "EC",
+          2
+        ],
+        [
+          "EC",
+          3
+        ],
+        [
+          "N1",
+          0
+        ],
+        [
+          "N1",
+          1
+        ],
+        [
+          "N1",
+          2
+        ],
+        [
+          "N1",
+          3
+        ],
+        [
+          "NB",
+          0
+        ],
+        [
+          "NB",
+          1
+        ],
+        [
+          "NB",
+          2
+        ],
+        [
+          "NB",
+          3
+        ],
+        [
+          "PB",
+          0
+        ],
+        [
+          "PB",
+          1
+        ],
+        [
+          "PB",
+          2
+        ],
+        [
+          "PB",
+          3
+        ],
+        [
+          "NC",
+          0
+        ],
+        [
+          "NC",
+          1
+        ],
+        [
+          "NC",
+          2
+        ],
+        [
+          "NC",
+          3
+        ],
+        [
+          "PC",
+          0
+        ],
+        [
+          "PC",
+          1
+        ],
+        [
+          "PC",
+          2
+        ],
+        [
+          "PC",
+          3
+        ]
+      ],
+      "fullTagSha256": "24d38d2807444d46e207fac03e0d80f02cc03a14e4721356e44bbc95e2582325",
+      "completeOriginalFiniteAlgebraIdentityMultipliedBack": true,
+      "extensionIdealRank": 2,
+      "extensionAlgebraDimension": 4,
+      "wholeComplexH8FiberExcluded": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_H8_complete_same_point_original_unit_return",
+      "seconds": 6.948460832000023
+    },
+    {
+      "originalRhoGcdDegree": 2,
+      "keptRhoDegree": 2,
+      "finiteAlgebraDimensionOverExactH8": 4,
+      "fullQQDimension": 32,
+      "originalIdealRank": 2,
+      "fullOriginalEightRowsRetained": true,
+      "wholeComplexH8FiberExcluded": true,
+      "trueH8QQResultantMultiplicityNotClaimed": true,
+      "claimEntirePhiFaceExcluded": false,
+      "ordinaryISPClaim": false,
+      "counts": {
+        "QQ_phi_division_returns": 26277,
+        "QQ_coefficient_inverse_returns": 171,
+        "rho_polynomial_division_returns": 158,
+        "rho_original_gcd_steps": 12
+      },
+      "stage": "new_H8_full_original_finite_algebra_complete",
+      "seconds": 6.948523566999938
+    },
+    {
+      "elapsed_seconds": 7.018889323999929,
+      "max_child_rss_kib": 62952,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "9032ac602c37d503afa52b2aacababc37ca57f1d",
+          "before": "9032ac602c37d503afa52b2aacababc37ca57f1d",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T13:37:07.051089+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46008637027",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "9032ac602c37d503afa52b2aacababc37ca57f1d",
+      "source_exit_code": 0,
+      "source_git_blob": "a37b7da8874205b421a7f70030ca05ad6ddc31c1",
+      "source_sha256": "883e666482c32170bd0809a2e6743489fff12906ce2a4b7611b6a76a0884ec47",
+      "stdout_bytes": 14550,
+      "stdout_sha256": "67b9cea9347a39358261e1e6eabfc620251616693f16efbbdd68c438b5d7c22d",
+      "stop_reason": null
+    }
+  ]
+}
