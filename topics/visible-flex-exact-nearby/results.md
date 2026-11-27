@@ -428,3 +428,14 @@
 
 
 - [PSC：真正physical完整相位割线与全阶Hessian](results/R144-supplement-complete-physical-phase-secant-and-tame-Hessian.md)：13新有理比较已成。实际Theta(A)−Theta(B)保所有九项二阶/两mean/真实腰trace，.01||E||p≤||Ephys||p≤7||E||p；低一阶23、mixed Hessian3000。全Hn值/一二阶/余项四导方向buffer，单B_{n+2}+G_{n+1}+W_{n+1}；完整real composition在实际A/B及凸lift上，不免费径向L² trace、不以endpoint derivative替secant，fullregular inverse/最终族另付。
+
+- [RG：实际moving-angle强长段module](results/R144-supplement-moving-angle-strong-long-module-and-raw-tame-derivatives.md)：source09b28044/public7eca126b；14新比较成。e-H1→Y0<.063477189、全参数列<2^15，同原ℓ²(逐模C_t)所有角阶一二导，方向Hn+3/单A^{n+2}，完整κ/两mean/ordinary shift/两端/λ全保，未扩大逆域。
+
+- [PRN：原negative source窗的完整phase receiver](results/R149-supplement-complete-phase-receiver-in-original-negative-source-windows.md)：source6671e23c/publiccd09c097；7新比较成。完整(I,Π) dual保两mean，原H−2/3⊕H−1和H−1⊕H−1源给2600(Droot+Jroot)+184Froot+69Fst+245Jst。真实root/strict跳和全negative phase保，未借L²；TC实际PDE误差未冒已齐。
+
+- [UDR：原Θ行的单位圆新联合误差](results/R149-supplement-unit-disk-phase-errors-in-original-Theta-rows.md)：source84b742d6/publicdacc4322。保原ASR全2048 exact αhat身份、所有原source/phase/小除数/alias/tail；新unit-disk误差直接付whole joint product，Pe=min(D∞εH/2,D2 S/3)连同Py覆盖全无限IR误差，两sign正交不添√96。全部whole候选先保存再min，不重ASR已成两scalar目标；actual入口在写，尚无新数值界。
+
+- [LV：完整long水平coframe和vector tame图](results/R144-supplement-complete-long-horizontal-coframe-and-vector-tame-graph.md)：source21e15f34/public5555d807；28新比较成。真rho_t=q<H0>均值、完整Cartesian二jet、两端mean/相位/世界刚体ports均保；无高度三阶费用，全阶方向Hn+3/单A^{n+2}，C²取n1。实际同有限long annulus嵌入已证；更新grounded行的Z/S非退化尚须真域，不冒整闭面。
+
+- [SREG：同一tail选解的更高正则性与局部唯一性](results/R119-supplement-higher-regularity-of-selected-tail-and-local-uniqueness.md)：22新有理/指数比较成。原h_n1856/6396整界插值得全部整数≤3121连续选择，实际E2960<2^-49999998；真实零residual极限经全proxy/mean/far低阶operator极限付DF priori，E20←Z1794系数2^16777216，64..1164窗保loss1734/bg1796。固定gamma及seedΓ2的E1856半径2^-49000000局部唯一，完整吸收<2^-7056957；没有γ C1/rough-source onto/fullcore结论。下一实际Dγforcing另保Γ2/首补偿/metric/ref/mean。
+
