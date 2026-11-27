@@ -66,3 +66,14 @@ checker 先重现 v12 的 prepare-then-bind 顺序和捕获别名遗漏，再验
 - 固定软件 request：05e6c1078577d50ee91be3be53833b1a832090c978caf809f189fa619fba736b。
 
 本节提交触发原公开软件 workflow，尚待实际回执；原生产 request、producer、launcher 和几何输入未修改。没有据静态核查宣称软件 PASS 或性能达标。
+
+
+## 6. 最小绑定的真实软件 PASS
+
+[公开 run46076504365](https://github.com/Rogerhu12/math-research-public/actions/runs/46076504365)，job140765352826，source1ed1b4661a2c06a9b775a8e92b9425581af59b23。固定请求在22:25:51完成源码 hash/AST 门，22:26:00实际返回 PASS，job最终 success。
+
+12804B canonical payload 的 SHA256 为 c18c857406030194b1cc17556e56fd4f70a9ea83fba4eb6ca183bf79906bc8b4；完整 job 日志29975B，SHA256为3a7018f78efc1d89124b7878017bc78cb11c7a01976f1fdbb97b8c05358c7963。依根规则15不另存输出。
+
+三个指定夹具均返回已知的完整 Hermite 基及全部 attached 结果，原 reference 的所有回执字段（仅排label/time）全部相同。两次 prime-descent 实际观测先素域、后原二次域的两次完整返回；真正二次域左块仍走原完整 fallback。旧 prepare-then-bind 的遗漏先被复现，再确认唯一别名修复及幂等性；函数对象、code和其余globals均保。另有原 Sage 对所有输入行的完整回验。
+
+这支付的是一个明确的软件实现正确性门，未运行原几何。没有由小夹具用时外推原612厚分解或整条21000秒执行。下一生产仍保全部输入和原终门，先继续处理从真实终日志定位的主要重复成本。

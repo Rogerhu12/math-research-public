@@ -157,3 +157,6 @@ $$
 
 
 - [v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；下一步只对这一个别名作保全部原门的独立软件核验，不将时限退出作反例，不重复相同生产输入。
+
+
+- [捕获别名最小修正§6](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已获公开软件PASS：run46076504365/job140765352826/source1ed1b4661a2c06a9b775a8e92b9425581af59b23，payload hash c18c857406030194b1cc17556e56fd4f70a9ea83fba4eb6ca183bf79906bc8b4。准确复现旧绑定遗漏，三个完整夹具保全reference字段、attached与常数、两域全行回验及真正二次域fallback；原生成函数/code/其余globals不变。此为软件证据，原四交/Norm/$18\times9$和主无穷$p$目标未付，未由小例声称全时限达标。

@@ -12,10 +12,11 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 ## 实际同步与规则
 
-- 最新两库实际部分clone/pull --rebase：只读CI run46075603971/job140762479905，source e5309ee152260aa4aef389c7d5d68bac1cf8b116。公开22:16:24UTC至同source，较3bd753e5d0f0cd071d0ba615c9774695e0165b6f两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库22:16:29UTC至9ff59ac6354b6aa5afb35c29fdbf9044021139d2，较54fd1d828eece642bc55afb7d55c7bde4c3df093两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
-- 本地07:20失联，22:14实际pull重试仍无环境；末次本地公开07:12的1cf10ac。22:14 ref UNKNOWN/main前进后，实际本地pull失败、重比新父二轮CAS成功beb3f9f，本轮22:16实际CI补拉成功。CI/本地/API分别记。**下一两库实际pull不迟于23:16UTC**；每次只读两README新差异并记已读SHA，不以API比较冒作pull。
-- 规则15库存3128blob/44,077,360B、tree05137500fac1838c07b81c2494992b4c2282115d，无>5MB，三旧gzip必要输入SHA不变。只读job日志14893B/hash ef0e8ad30d45c9dd090d8a805158aaae31c15e21120f2067c34f24431db9bffa，不保存日志。此前每小时实际回执及拒推补拉链在log/归档保留。
+- 最新两库实际部分clone/pull --rebase：只读CI run46075603971重运行/job140765737856，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116。公开22:26:17UTC实际至eac36712712c21a260834e279e03e0cf1365d9f4；两README无变，已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库22:26:22UTC实际至c62c16502e11978487f2d5a2587591f3601da7fc；两README无变，已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
+- 本次CI请求比较基线3bd753e5/54fd1d82，两README各与上次22:16的已读blob完全相同，故无需重复读正文。私文/凭据未入公开日志。下次可重运行这个已成功的只读job实际拉当前main，**每推前实际pull；至少不迟于23:26UTC再拉两库**。非快进立即补实际pull重比，不以API比较冒充pull。
+- 本地07:20失联，22:14实际pull重试仍无环境，末次本地公开07:12的1cf10ac；API/CI/本地分记。过去ref UNKNOWN和CI补拉链均在log/归档，不抹除。
+- 规则15库存3131blob/44,104,370B、treea65782027a51788cdef0c51863c6fd4985cbab15，无>5MB，三旧gzip必要输入SHA不变。只读job日志14887B/hash92f368d63188a11334f8717b3f0154e0385162b724f081b747624f6e170ace37，不保存日志。
 
 ## 唯一原完整厚几何执行与下一实际修正
 
@@ -23,7 +24,7 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 全部原pins仍为29/2453/64/minimal、两char0 pins、全60源及所有原几何门，Sage10.6镜像19995db6…、4CPU/16GB。v11及此前链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，全回返参数见[完整二次返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。软件v3 run46032975863已PASS，不能替几何终门。
 
-**实际软件遗漏：**v12先复制reference globals并exec生成native PREPARED，再bind完整quadratic returns；后者只改module属性，未改独立PREPARED.__globals__的旧remainder。最小显式绑定与三个完整小例软件check已修正静读，固定selector/request随22:25提交触发原软件workflow待回执；helper23f86203/checke706e6ff pins，未触发生产。全部30个实际HNF均prime descent，不猜二次HNF是瓶颈；保每个return/degree/attached门，不先写无证新算法。新软件PASS前不发生产后继，绑定修正也不先声称足以解决全时限。
+**实际软件遗漏：**v12先复制reference globals并exec生成native PREPARED，再bind完整quadratic returns；后者只改module属性，未改独立PREPARED.__globals__的旧remainder。最小绑定已公开软件PASS：run46076504365/job140765352826/source1ed1b4661a2c06a9b775a8e92b9425581af59b23，22:26:00返回；payload c18c857406030194b1cc17556e56fd4f70a9ea83fba4eb6ca183bf79906bc8b4，三个小例全原receipt/两域返回/fallback全匹配。helper23f86203/checke706e6ff pins，未触发生产。全部30个实际HNF均prime descent，不猜二次HNF是瓶颈；保每个return/degree/attached门，不先写无证新算法。绑定正确性已付，但不先声称足以解决全时限。central从最终日志定位primary中同一完整idempotent平方被重复计算，正在核保全部原输入/身份的局部复用；未据此改生产。
 
 ## 当前数学事实与禁止重走的接合
 
