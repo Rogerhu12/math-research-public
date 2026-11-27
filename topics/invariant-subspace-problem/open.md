@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
-**Q=1−u仍余至多222个不同复权点，原商≤6非自由。** [原M单位DAG/D身份](results/R150-appendix-unit211-Q1minusU-paid-M-unit-original-DAG-physical-D-denominator.md)给必要p(h)F(u,h)=0，p=(2h−1)(h²−3h+1)J7，F双度37/76、2487项（82e8aa97，26.002秒/exit0）。新dc981072固定29/37原结式，以整个p乘积与已付局部整首一R0/222作Gauss；所有p零支保留。若模gcd非1，其度先只界h；权点重数需p^29·Res。旧85/58/aa7f失败、未知b830冻结。
+**Q=1−u仍至多222个不同复权点。** [新66真实不缩小记录](notes/2026-11-27-unit211-Q1minusU-fixed-66-return-unchanged-222-8542.md)：dc981072实际39.611秒/exit0，整个p保留但裸Res已被g222整除；模因子为(h−1/2)²(h²−3h+1)³(h+1)^214，不能据此声明QQ只余三支。新86e0c4e进入三精确QQ商，原C/D及物理单位保整u返回，并取原R完整三phi模重数；之后仍须QQ整除下界和严格Gauss合成。已完成66不再跑，旧冻结门保持。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 
