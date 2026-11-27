@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi首头开图的真实D完整原理想返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)：BD∈原四式理想，必要P6度39/20/6；保存精确core，整个头零曲线与λ首项零均保留。
+
 - [Phi例外图精确QQ重数与严格146基点](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)：原R的φ1/H6重数10/2，首一2011余投影与S全模Bézout、完整Vandermonde重数计点。
 
 - [W首一F精确原消去含全部首项零面](results/R150-appendix-unit211-W-exact-monic-F-elimination-all-leading-zero-fibers.md)：完整十一原行点态等价同S的38二次式；保同一F，无Bi或D范数逆。
