@@ -12,10 +12,10 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 ## 实际同步与规则
 
-- 最新两库实际部分clone/pull --rebase：只读CI run46065793641/job140730654063，sourcef044013487035c28f2c3e21494edf0494453495d。公开20:45:38UTC至f044013487035c28f2c3e21494edf0494453495d，较50eff7e6aef263a9c7478b55a8cde0d224d04d9f两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库20:45:43UTC至bca09f7f22dd54e77e0a7f1d47f525fbb9b5eec1，较c077273f1b19137c631bc2ad7fa0f6f9279d97f7两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
-- 本地07:20失联，20:45实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI/本地/API分别记。**下一两库实际pull不迟于21:45UTC**；每次只读两README新差异，立即照新规并记已读SHA。API比较不冒作pull。
-- 20:45请求推送遇GraphQL UNKNOWN/main前进，实际本地pull失败后第二轮CAS成功f044013；本轮CI补拉成功。规则15库存3115blob/43,791,938B、无>5MB，三旧gzip必要输入SHA不变；完整回执hash在log，不落可重算日志。
+- 最新两库实际部分clone/pull --rebase：只读CI run46069822587/job140743822950，source084913a27ff7cb01fa36c301f7f6965de16d2717。公开21:22:05UTC至084913a27ff7cb01fa36c301f7f6965de16d2717，较f044013487035c28f2c3e21494edf0494453495d两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库21:22:09UTC至f8759bf1ee45ae74459d7f6e78af4cb114c0788b，较bca09f7f22dd54e77e0a7f1d47f525fbb9b5eec1两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
+- 本地07:20失联，21:21实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI/本地/API分别记。**下一两库实际pull不迟于22:22UTC**；每次只读两README新差异，立即照新规并记已读SHA。API比较不冒作pull。
+- 21:21低degree引理推送遇GraphQL UNKNOWN/main前进，本地实际pull失败后重比新父第二轮CAS成功be5f5e；本轮21:22 CI已补拉成功。规则15库存3119blob/43,883,386B、tree6d8aed3bab5ce4b57fbf70aeda9e380c43021f6e，无>5MB，三旧gzip必要输入SHA不变；完整回执hash在log，不落可重算日志。
 
 ## 唯一原完整厚几何执行
 
@@ -57,5 +57,3 @@ v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-fi
 ## 继续分工
 
 geometry继续新π4的同一Kriz/fixed-base p²权族全cross及derived斜率；central补两参考负源绝对幅度后继续Θ17原主部/完整p−1行；arithmetic核原D^rS全Gaussian shifted Newton能否在实际prefix内提供新读数，不能以导数/乘积闭包造canonical零。root审新几何/非零，消费唯一v12真终态，每小时实际两库pull、逐条推。子问题做完接open，不以阶段报告或“输入不足”停止。
-
-21:21发布低degree引理时main前进/GraphQL UNKNOWN；本地实际pull重试仍无环境，重比新父第二轮推送成功be5f5e。21:22已请求两库只读CI实际补拉，以f044013/bca09f7为基准；待真实回执才改已读SHA，原下一≤21:45仍有效。
