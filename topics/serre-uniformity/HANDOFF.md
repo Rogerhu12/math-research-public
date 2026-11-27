@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：068269d1947b8f7dfd4277de09a24f46ff78974f**（2026-11-28 07:17 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：b7559704cf6919978b1ba0eef6a6d51182c250de**（2026-11-28 07:21 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 07:05 Asia/Taipei，公开Actions run46080481087/job140778033392，在blob:none浅部分克隆中真实pull --rebase至ffd8a7ed，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:55、真实pull≤08:05。本地07:07仍无环境；恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-affine-central-count.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-relative-Hodge-connection.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -32,14 +32,13 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)付p>691同一canonical cusp fibre φ_h(Ξ_5,9;14)：Tate整支撑/低偶权消失/q_h奇项全付。ℓ−1时κ=z−xy/2、κcusp=u_h³κΞ/4；self补项全消，六次幂同cusp判据与逐label密度准确，原abelian−1整支未反改。
 
-[R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，由唯一Θ(3,5)的scaling控制；与Ξ(5,9)共享γ5的实际五维群给[M:Q]=(p−1)p⁵。§11共同cusp排除恰κΘ=0、κΞ≠0，密度准确1/p²，无额外门。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。
+[R1148 §§10–11](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)以已刊Soulé/Kurihara付p>C_cyc=exp(9^(224·9⁴))的全global H¹L3/5/9分别由原γ3/5/9生成。全部pairs=(aγ3,bγ5)，Θ与Ξ共享γ5的实际p⁵群给[M:Q]=(p−1)p⁵；共同cusp排除恰κΘ0/κΞ非零，密度1/p²。未宣loc_p单位，Bp−3/5/9局部门仍保。
 
-
-R1148 §12已付同一规范cover在ℓ−1的实际中央计数：ρψ(a,b,z)f(u)=ψ(z+bu)f(u+a)、R:u↦−u，trace=ψ(z−ab/2)；原几何满H给H¹维2p(g−1)。故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ，D_p=g+p(p−1)(g−1)。全部中央值在ℓ>p⁸的affine上出现；在§11排cusp素 tΘ0/sΞ≠0，ℓ>4D_p²（充分ℓ>p⁸/144）仍有同一个affine点兼容全部global labels并Hensel升Qℓ。大Chebotarev存在不再当affine空；继续小素实际值与p-local连接。
+R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)，故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ。全部中央值ℓ>p⁸时在affine上出现；共同cusp排除素ℓ>4D_p²（充分p⁸/144）仍有同一个affine点兼容全部labels并升Qℓ，D_p=g+p(p−1)(g−1)。继续小素真实值/p-local，不能再用大Chebotarev存在代affine空。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
-[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)保原Λ/rank3/第三类/moving p极。实际Padé N=(p−5)/6，QF−P contact恰2N+1首余项unit，F=₂F₁(1/3,1/2;4/3)；e=K4=0 iff P,Q含x²，约后deg≤N−2/contact2N−1。P_N unit/degP=N；F²=D_N−g_N²x^(2N+1)，D/G无重根互素。双缺陷后Dq²−p²=x^(2N−1)W、W≠0、degW≤N−3，W0不强称unit；缺陷仍未排。
+[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé N=(p−5)/6，F=₂F₁(1/3,1/2;4/3)，contact2N+1首余项/P_N均unit。双缺陷⇔P,Q含x²，约后deg≤N−2/contact2N−1；F²=D_N−g_N²x^(2N+1)，D/G无重根互素，实际Pell余式W≠0、deg≤N−3但W0未unit。原Λ/rank3/moving p极与全部尺度沿文；双缺陷未排。
 
 [原固定Dixon源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff整P_(p−5)全系数被p整除。原2k Laurent块唯一核、两端单位及L∈{3k+1,3k+4,…,p−1}已付；单Jordan不代中列长度。§§6–8真实Fermat平移、D³=2vT与两生成式给r_N(λ)=R1076 η_k(λ/3)。Γ=(2v)^(2k)，q_N(0)=δr_N(0)/(2Γ)，e0时导数同比；r_N′(0)=ν_k/3。原Dixon逆σ_D的互倒平方根精确读全谱/相邻系数，分母<p，未删卷积或宣非同时零。
 
@@ -53,7 +52,9 @@ R1148 §12已付同一规范cover在ℓ−1的实际中央计数：ρψ(a,b,z)f(
 
 [R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原两低good支至多一非对角pair，另一支Δ_low/48待unit；norm2完整V3/V4和CM gauge未删。§10两下降线真正运输给Π′(z′)=Π(−z′)，同component统一z∈Fp，保S0/P0。§11 actual-good代数仅A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d；d0或非平方已分Fp点，非零平方须实际O_R(d)≠0。旧Δ/(2Gp−7)即该导子类；向量场闭性仍未付。
 
-同文§12付3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，F=G_(p−7)、K=∂G_(p−9)。原p|Bp−7支q阶恰1/2、首系数−105F1G0/16或−189F1G1/16均unit；只付非零权多项式，Gaussian b0取值未付。o2继续实际节点/完整mask，不把cusp单位代目标单位。
+同文§12付3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，原bad Bp−7支q阶1/2首系数unit，Gaussian取值仍开。
+
+R1135 §13付原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。
 
 ## 已成、禁止重做与其它入口
 

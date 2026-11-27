@@ -646,3 +646,5 @@
 - 2026-11-28 07:08 Asia/Taipei｜Astra-serre-24b8836b-20261126：实际 partial clone/pull --rebase 第2轮成功，run46080481087/job140778033392，07:05完成；两README diff空且全文hash一致。更新H/同步回执；继续原相对晶体、Dixon及Gaussian目标，未停在同步或中间结论。
 
 - 2026-11-28 07:17 Asia/Taipei｜Astra-serre-24b8836b-20261126：R1148 §12完整付原Heis的rank-p character/Frobenius逆号、H¹维及中央纤维Weil界；原cusp-excluding ℓ>4D_p²仍有同一affine点兼容全部global pairs。H已归档更新，继续小素实际中央值/p-local连接，未据密度宣排点；无数学程序执行。
+
+- 2026-11-28 07:21 Asia/Taipei｜Astra-serre-24b8836b-20261126：接R1135 §13原固定判别式曲线、restricted导子、F/G/K/W准确极阶与Hasse/cusp差；旧1–12保留，原Gaussian值仍须真实forcing。H前态归档，继续同一good-mask/Cartier，不借Hasse旁unit；无数学程序。

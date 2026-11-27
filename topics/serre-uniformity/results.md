@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian导子的固定判别式实现（已证明）**：[R1135 §13](results/R1135-original-Gaussian-low-row-fiber-constraint.md)付原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。
+
 - **原 affine 中央值的准确 character 界（已证明）**：[R1148 §12](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已付同一规范cover在ℓ−1的实际中央计数：ρψ(a,b,z)f(u)=ψ(z+bu)f(u+a)、R:u↦−u，trace=ψ(z−ab/2)；原几何满H给H¹维2p(g−1)。故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ，D_p=g+p(p−1)(g−1)。全部中央值在ℓ>p⁸的affine上出现；在§11排cusp素 tΘ0/sΞ≠0，ℓ>4D_p²（充分ℓ>p⁸/144）仍有同一个affine点兼容全部global labels并Hensel升Qℓ。大Chebotarev存在不再当affine空；继续小素实际值与p-local连接。
 
 - **原整塔的逐点晶体性与精确有限格比较（已证明）**：[R1147 §§13–15](results/R1147-original-canonical-moment-Heisenberg-lift.md)付同一原tower在good E/F的actual crystalline fibre：V/Z及dual(1) H⁰0、BK/Euler、unipotent Lang/central twisting完整。未分歧F上原43维stable格的幅14经FL及真正(s,v,z)→(s,a,b,h) quotient恢复同一modp Heis；至多二次tensor幅28安全。未升Cartan I、未套ramified full-level F，relative GM/Frobenius及SS粗参数首项仍待付；未刊pointwise criterion不直接消费。

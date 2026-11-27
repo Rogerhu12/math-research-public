@@ -1026,3 +1026,287 @@ $$
 (1135.45) 仍须在同一个原 $a$、同一个 actual-good mask 下读取。
 未证明 §11 的剩余节点被分离，也没有从非零 $q$ 首项跳过
 $\mathscr W(a,0)$ 这一步。全文为纸面计算，无数学程序执行。
+
+
+## 13. 原模参数导子的固定判别式曲线与 Hasse 差项
+
+本节仍在 §12 的同一 $\mathbf F_p[a,b]$ 权环中工作。
+它把原 $\partial$、$F_*,G_*,K_*$ 与 $\mathscr W$ 放在一条明确的
+固定判别式曲线上，给出准确的 $p$ 次导子、原函数的极阶和
+Hasse 候选与原 Eisenstein 来源的完整 cusp 差。
+这些对象不是底层 Gaussian 椭圆的另一种随意坐标。
+
+### 13.1 固定判别式纤维及实际不变导子
+
+直接计算
+$\partial(4a^3+27b^2)=72a^2b-72a^2b=0$，
+故 $\partial\Delta_E=0$。
+固定原 Gaussian 点 $a=a_{\rm G}\ne0,b=0$ 的
+$\Delta_0=-64a_{\rm G}^3\in\mathbf F_p^\times$。
+在 $\Delta_E=\Delta_0$ 上置
+$$
+X=-\frac{4a}{3},\qquad Y=-4b.
+$$
+准确得到光滑射影椭圆曲线及其不变微分
+$$
+\boxed{\quad
+\mathcal C_{\Delta_0}:\ 
+Y^2=X^3-\frac{\Delta_0}{27},\qquad
+\partial X=2Y,\quad \partial Y=3X^2,\qquad
+\omega_{\Delta_0}=\frac{dX}{2Y}.
+\quad}
+\tag{1135.50}
+$$
+$\omega_{\Delta_0}(\partial)=1$。
+因此这里的原模参数 $\partial$ 真正是
+$\mathcal C_{\Delta_0}$ 的不变导子，而不是对指定点作一个形式类比。
+Gaussian 位置 $b=0$ 正是 $Y=0$ 的三个非零二挠点；
+所给 $a_{\rm G}$ 指定其中一个。
+
+这条固定判别式曲线的 reduction 型别须与底层 Gaussian 椭圆分开。
+设 $m=(p-1)/2$。不变导子的 restricted $p$ 次幂是
+$$
+\boxed{\quad
+\partial^p=
+\begin{cases}
+0,&p\equiv11\pmod{12},\\[2pt]
+\displaystyle
+\binom{m}{(p-1)/3}
+ \left(-\frac{\Delta_0}{27}\right)^{(p-1)/6}\partial,
+ &p\equiv7\pmod{12}.
+\end{cases}
+\quad}
+\tag{1135.51}
+$$
+第二行的系数为单位。
+
+这里可直接支付归一。$\partial^p$ 仍是平移不变导子，故等于
+一个常数乘 $\partial$。对 $\omega_{\Delta_0}$ 用 $X$ 计算 relative
+Cartier，常数正是
+$[X^{p-1}](X^3-\Delta_0/27)^m$；
+该多项式的次数小于 $2p-1$，因此只读这一项。
+若需将 Cartier 读数与 restricted 导子逐项比较，在 $O$ 处先以
+$1,\ldots,p-1$ 的单位分母把微分正规化成
+$(1+c\,t^{p-1})dt$ 模 $t^p$。此时
+$\partial^p(t)|_O=-c(p-1)!=c$，而 Cartier 常数也是 $c$。
+最后读二项式即得 (1135.51)。
+所以 $p\equiv11\pmod{12}$ 时该曲线 supersingular，
+$p\equiv7\pmod{12}$ 时 ordinary；底层 Gaussian 椭圆在本篇两种情形下
+仍然 supersingular，二者不能混称同一 Frobenius。
+
+### 13.2 原 cusp 阶给固定曲线上的准确极阶
+
+取 $\mathcal C_{\Delta_0}$ 的原 $O$ 参数 $s=-X/Y$。
+这里只需要首项
+$$
+X=s^{-2}+O(s^4),\quad Y=-s^{-3}+O(s^3),\quad
+a=-\frac34s^{-2}+O(s^4),\quad
+b=\frac14s^{-3}+O(s^3),\quad
+\partial s=1+O(s^6).
+$$
+对权为 $w$ 的非零同权多项式 $M(a,b)$，若其准确 Tate cusp 阶为
+$\epsilon$，写 $M=\Delta_E^\epsilon M_0$。
+$M_0$ 的 cusp 常数是 $[q^\epsilon]M\ne0$。
+原 Tate cusp 的 $a_{\rm c}=-1/48,b_{\rm c}=1/864$ 与上述首项满足
+$-3/4=6^2a_{\rm c}$、$1/4=6^3b_{\rm c}$。
+因此在 $n=w/2-6\epsilon>0$ 时，有完整首项
+$$
+\boxed{\quad
+M|_{\mathcal C_{\Delta_0}}
+=\Delta_0^\epsilon\,6^n[q^\epsilon]M\,s^{-n}
+     +\text{较低极阶项}.
+\quad}
+\tag{1135.52}
+$$
+这不仅是极阶上界；所示首系数为单位时，极阶恰为 $n$。
+
+现在保持原分支 $p\mid B_{p-7}$，令
+$\epsilon_G=0$（若 $p\nmid B_{p-9}$）或
+$\epsilon_G=1$（若 $p\mid B_{p-9}$）。
+原 $F_*$ 的 cusp 阶恰一，$G_*$ 的 cusp 阶恰 $\epsilon_G$，
+因为二者 $q^1$ 系数均为单位。
+由 (1135.52)，它们在同一曲线上只有 $O$ 处的极点，并且
+$$
+\begin{array}{c|c}
+\text{原函数}&O\text{ 处准确极阶}\\ \hline
+F_*&n_F=(p-19)/2\\
+G_*&n_G=(p-9)/2-6\epsilon_G\\
+K_*=\partial G_*&n_K=n_G+1\\
+\mathscr W&p-11-6\epsilon_G .
+\end{array}
+\tag{1135.53}
+$$
+前两个极阶为正且小于 $p$，所以微分的最高系数
+$-n_G$ 不消失，第三行也准确。
+
+第四行还可不经过 §12 的 cusp 读取而直接核定。
+若 $F_*\sim f\,s^{-n_F}$、$K_*\sim k\,s^{-n_K}$，
+则 (1135.50) 给 $\mathscr W$ 的最高系数为
+$$
+fk\left\{
+n_K(n_K+1)-4n_F(n_F+1)-\frac34
+\right\}
+=
+\begin{cases}
+-315\,fk,&\epsilon_G=0,\\
+-243\,fk,&\epsilon_G=1.
+\end{cases}
+$$
+两系数在当前范围均为单位，故不存在最高极项的额外抵消。
+极阶 $n_F+n_K+2$ 正是表中第四行，也与 (1135.47)–(1135.48)
+的准确 cusp 阶一致。这里仍没有把非零函数的指定值当成非零。
+
+$F_*,K_*,\mathscr W$ 对 $b$ 为偶，$G_*$ 为奇。
+在几何三次自同构 $(X,Y)\mapsto(\zeta_3X,Y)$ 下，
+每个同权多项式 $M$ 都按 $\zeta_3^w$ 作用，
+因为其每个单项式的 $a$ 指数模三等于权 $w$。
+因此 $\mathscr W$ 若在指定 Gaussian 点为零，
+也在其余两个 $Y=0$ 点为零。
+$Y$ 在这些点为 uniformizer，而偶性使每个零至少为二重。
+
+更精确地，原权 $2p-10$ 使
+$\mathscr W(a,0)$ 只能是 $a^{(p-5)/2}$ 的一个标量倍。
+所以对任何原 $a_{\rm G}\ne0$，
+$$
+\boxed{\quad
+\mathscr W(a_{\rm G},0)=0
+\ \Longleftrightarrow\
+b^2\mid\mathscr W\ \text{于 }\mathbf F_p[a,b].
+\quad}
+\tag{1135.54}
+$$
+在固定曲线上，这给三个非零二挠点的共同二重零，
+但 (1135.53) 的总极阶仍容许这些零。
+(1135.54) 是原全权多项式的因子判据，
+不是将 $b^2$ 偷换成整个 Hasse 因子。
+
+### 13.3 Hasse 候选的同一权与准确偏导
+
+为避免与实际行 $\mathcal A_R$ 混淆，记
+$$
+\mathsf A=E_{p-1}\bmod p,\qquad
+\beta=E_{p+1}/12\bmod p .
+$$
+它们是同一原权环中的 Hasse 多项式及其导数。
+$q$ 展开 $\mathsf A=1$、$\beta=E_2/12$，
+连同固定权的 $q$-expansion 原理给
+$$
+\partial\mathsf A=\beta,\qquad
+\partial\beta=\frac a3\mathsf A,\qquad
+\partial^2\mathsf A=\frac a3\mathsf A=-\frac X4\mathsf A.
+\tag{1135.55}
+$$
+例如第二式由
+$\theta E_2=(E_2^2-E_4)/12$ 及 $a=-E_4/48$ 得到，
+不以普通 $q$ 导数替代模参数导数。
+因此 $\mathsf A$ 在 (1135.50) 上确是一个原
+Lamé 方程的解，但本节没有把 $F_*,G_*$ 宣称为它的偏导。
+
+原 Euler 身份
+$4a\mathsf A_a+6b\mathsf A_b=(p-1)\mathsf A=-\mathsf A$
+与第一条 (1135.55) 构成两个线性方程。
+它们的 determinant 为 $\Delta_E/12$，解得
+$$
+\boxed{\quad
+\mathsf A_b=\frac{48a\beta+72b\mathsf A}{\Delta_E},\qquad
+\mathsf A_a=\frac{16a^2\mathsf A-72b\beta}{\Delta_E}.
+\quad}
+\tag{1135.56}
+$$
+虽然显示式反除 $\Delta_E$，左侧本来是权多项式；
+在固定 $\Delta_0\ne0$ 上更没有新的极点。
+$\mathsf A_b$ 的权是 $p-7$，$\mathsf A_{aa}$ 的权是 $p-9$，
+确与 $F_*,G_*$ 分别同权。仅此还不证明两组相等。
+
+### 13.4 原 cusp 常数及完整 cusp 差
+
+对权 $r$ 的任意同权多项式 $f$，同样解 Euler/Serre 两式，
+再代原 Tate convention，得到
+$$
+\partial_a f
+=\frac{(r/72)(\theta E_6)f-(E_6/12)\theta f}{\Delta_E},
+\qquad
+\partial_b f
+=\frac{(r/4)(\theta E_4)f-E_4\theta f}{\Delta_E}.
+\tag{1135.57}
+$$
+权 $r$ 在 $\mathbf F_p$ 中读取；$\theta$ 只在本显示式中作用于
+实际 $q$ 展开。对 $\mathsf A$ 使用 $r=p-1=-1$、$\theta\mathsf A=0$，
+可自足核准
+$$
+\begin{aligned}
+\mathsf A_b&=-\frac{\theta E_4}{4\Delta_E}
+             =-60-2520q+O(q^2),\\
+\mathsf A_a&=-\frac{\theta E_6}{72\Delta_E}
+             =7+630q+18480q^2+O(q^3),\\
+\mathsf A_{aa}&=\frac{385}{2}+66220q+O(q^2).
+\end{aligned}
+\tag{1135.58}
+$$
+最后一行是将第二行作为权 $p-5=-5$ 代入 (1135.57)。
+所需原级数仅为
+$E_4=1+240q+2160q^2+\cdots$、
+$E_6=1-504q-16632q^2-122976q^3+\cdots$、
+$\Delta_E=q-24q^2+252q^3+\cdots$。
+例如 $\partial_a\mathsf A_a$ 的分子在 $q,q^2$ 的系数分别是
+$385/2,61600$；除以 $\Delta_E$ 后的 $q^1$ 系数为
+$61600+24(385/2)=66220$。这是有限纸面系数运算。
+
+原 Eisenstein 规范给
+$[q^0]F_*=-B_{p-7}/(p-7)!$、
+$[q^0]G_*=-B_{p-9}/(p-9)!$。
+于是可以精确写成
+$$
+\boxed{\begin{aligned}
+F_*&=\frac{B_{p-7}}{60(p-7)!}\,\mathsf A_b+\mathcal S_F,\\
+G_*&=-\frac{2B_{p-9}}{385(p-9)!}\,\mathsf A_{aa}+\mathcal S_G,
+\end{aligned}}
+\tag{1135.59}
+$$
+其中 $\mathcal S_F,\mathcal S_G$ 是同一权环中准确的 cusp 多项式，
+分别被 $\Delta_E$ 整除；本式由显示式定义它们，不省略任何差项。
+所有分母在 $p\ge41$ 下为单位。
+
+在本节实际分支 $p\mid B_{p-7}$，
+第一行的 Hasse 系数为零，且 $\mathcal S_F=F_*$ 的 $q^1$ 系数为单位。
+特别 $F_*$ 不可能是 $\mathsf A_b$ 的任何标量倍：
+非零标量倍有非零 cusp 常数，零标量倍又不可能有该 $q^1$ 项。
+若还 $p\mid B_{p-9}$，同理 $G_*=\mathcal S_G$，
+也不是 $\mathsf A_{aa}$ 的标量倍。
+所以这个准确比较给出了具体原 cusp 差，而非只提醒“可能有差”。
+
+### 13.5 Gaussian Hasse 值不能代替原 jet
+
+最后取原 $b=0$、$a=a_{\rm G}\ne0$。
+底层 Gaussian 椭圆 supersingular，故 $\mathsf A(a_{\rm G},0)=0$，
+而 $\beta=-\delta$ 是原已付的单位。
+(1135.56) 于是给
+$$
+\boxed{\quad
+\mathsf A_b(a_{\rm G},0)=-\frac{3\beta}{4a_{\rm G}^2},
+\qquad
+\partial\mathsf A_{aa}(a_{\rm G},0)
+ =\frac{77\beta}{16a_{\rm G}^2}.
+\quad}
+\tag{1135.60}
+$$
+第二式也可不用反除判别式求导：
+$p=4k+3$ 时同权性给
+$\mathsf A=b\,a^{k-1}(h_0+O(b^2/a^3))$，
+所以
+$\partial\mathsf A_{aa}|_{b=0}
+=-(4/3)(k-1)(k-2)\mathsf A_b$。
+代 $(k-1)(k-2)=77/16\bmod p$ 即得所示常数。
+
+两值都是单位，但 (1135.59) 的完整 cusp 差及其
+$\partial$、$\partial^2$ jets 仍然存在。
+因此本节没有将 (1135.60) 用作原 $K_*$ 或
+$\mathscr W(a_{\rm G},0)$ 的单位证明。
+
+新增结论是同一原导子的实际固定曲线、
+(1135.51) 的 restricted $p$ 次结构、
+(1135.52)–(1135.54) 的原函数准确除子界和因子判据，
+以及 (1135.56)–(1135.60) 的真实 Hasse/cusp 分解。
+下一步可在这条曲线上研究原 $F_*,G_*$ 的特定 Cartier 或 CM 关系；
+不能只凭总极阶、Lamé 候选或 Hasse 单位替代指定取值。
+本节无数学程序执行，实际 good mask 与同一 coarse component 的范围不变。

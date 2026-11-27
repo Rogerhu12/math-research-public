@@ -115,6 +115,8 @@ R971证明无限列数不足，**全p full-span已否**；R992只给filtered V�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
+[R1135 §13付](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。
+
 [R1135 §12](results/R1135-original-Gaussian-low-row-fiber-constraint.md)新付原Δ_low的完整heat/模参数式：3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，F=G_(p−7)、K=∂G_(p−9)。在原p|Bp−7支，该权2p−10多项式的q阶恰1或2，首系数−105F1G0/16或−189F1G1/16均unit；完整V3/V4未删。非零多项式仍可能在Gaussian b0取零，指定minor/实际good节点未关。
 
 R1135§10已付同coarse component两实际twist的全部运输：α^p=iα，t*′=it*，z′=−z；δ′=ηδ，Kronecker γ′=ηγ、N_R′=η⁻¹N_R，而Weil γ_W/bχ保持。完整核及i0常数给Π′(z′)=Π(−z′)，两线统一为z∈Fp。低行唯一unordered pair/Δ分离范围因此覆盖两线；保S0/P0，不合并其他components，不宣Δunit。
