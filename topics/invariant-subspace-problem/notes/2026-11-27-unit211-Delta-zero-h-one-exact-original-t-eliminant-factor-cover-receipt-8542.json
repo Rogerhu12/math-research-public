@@ -1,0 +1,468 @@
+{
+  "schema": "isp-original-t-eliminant-exact-factor-cover-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 45995805152,
+  "job_id": 140494788275,
+  "execution": [
+    {
+      "elapsed_seconds": 25.740840017999997,
+      "max_child_rss_kib": 168348,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "bcbbb43c54b15130bd52c92f2f3bc44ce2a9eced",
+          "before": "bcbbb43c54b15130bd52c92f2f3bc44ce2a9eced",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T12:06:15.810063+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45995805152",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "bcbbb43c54b15130bd52c92f2f3bc44ce2a9eced",
+      "source_exit_code": 0,
+      "source_git_blob": "3af85d41e5db806e6a55b31aabe2c7929cd6f04d",
+      "source_sha256": "b737746eb60e42dcde6990348aeb047cbb07011bb8c7a83a64b095495d062399",
+      "stdout_bytes": 14925,
+      "stdout_sha256": "2870598c661be568d5d3e15dc77c41fa0d950ca9accb704f62ce30e35dd3f213",
+      "stop_reason": null
+    }
+  ],
+  "mathematical_receipts": [
+    {
+      "pair": [
+        "E1",
+        "EB"
+      ],
+      "index": 0,
+      "multiplicity": 1,
+      "profile": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          306,
+          81,
+          0
+        ],
+        "terms": 25174,
+        "totalDegree": 387,
+        "bytes": 3504154,
+        "sha256": "38e661a04bcb510eece48bf4e43bf466b8e349f083781661d2f8be45124bd71f"
+      },
+      "exactGcdWithOriginalF49": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 1,
+        "totalDegree": 0,
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "noOriginalFactorDeclaredUnit": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_original_t_eliminant_QQ_factor",
+      "seconds": 25.343498263000004
+    },
+    {
+      "pair": [
+        "E1",
+        "EB"
+      ],
+      "index": 1,
+      "multiplicity": 2,
+      "profile": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "terms": 2,
+        "totalDegree": 1,
+        "bytes": 9,
+        "sha256": "105e7cbd17b3ec91ea77f2cc2f01febde0e44b1a29946c2cfcfcdfa86c355e9f"
+      },
+      "exactGcdWithOriginalF49": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 1,
+        "totalDegree": 0,
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "noOriginalFactorDeclaredUnit": true,
+      "claimExcluded": false,
+      "polynomial": "2*lam - 1",
+      "stage": "new_Delta_zero_original_t_eliminant_QQ_factor",
+      "seconds": 25.358414309
+    },
+    {
+      "pair": [
+        "E1",
+        "EB"
+      ],
+      "originalEliminant": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          308,
+          81,
+          0
+        ],
+        "terms": 25338,
+        "totalDegree": 389,
+        "bytes": 4625054,
+        "sha256": "285f24269b20448bb3b0e2cafd652b659459100b26f7088e4240b9ccc28cd69a"
+      },
+      "completeQQProductActuallyReturned": true,
+      "squarefreeNecessaryCover": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          307,
+          81,
+          0
+        ],
+        "terms": 25256,
+        "totalDegree": 388,
+        "bytes": 4600948,
+        "sha256": "3bba9383dca67ee921d675e20639dd37e4d7f54a6332e414ae3870d0a9acea19"
+      },
+      "exactGcdWithOriginalF49": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 1,
+        "totalDegree": 0,
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "factors": [
+        {
+          "index": 0,
+          "multiplicity": 1,
+          "profile": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              306,
+              81,
+              0
+            ],
+            "terms": 25174,
+            "totalDegree": 387,
+            "bytes": 3504154,
+            "sha256": "38e661a04bcb510eece48bf4e43bf466b8e349f083781661d2f8be45124bd71f"
+          },
+          "exactGcdWithOriginalF49": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 1,
+            "totalDegree": 0,
+            "bytes": 1,
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+          },
+          "noOriginalFactorDeclaredUnit": true,
+          "claimExcluded": false
+        },
+        {
+          "index": 1,
+          "multiplicity": 2,
+          "profile": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "terms": 2,
+            "totalDegree": 1,
+            "bytes": 9,
+            "sha256": "105e7cbd17b3ec91ea77f2cc2f01febde0e44b1a29946c2cfcfcdfa86c355e9f"
+          },
+          "exactGcdWithOriginalF49": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 1,
+            "totalDegree": 0,
+            "bytes": 1,
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+          },
+          "noOriginalFactorDeclaredUnit": true,
+          "claimExcluded": false,
+          "polynomial": "2*lam - 1"
+        }
+      ],
+      "finiteDistinctBasePointBound": 6229,
+      "allFactorZeroFibersRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_entire_original_squarefree_parameter_cover",
+      "seconds": 25.644167688
+    },
+    {
+      "sourceSHA256": "b737746eb60e42dcde6990348aeb047cbb07011bb8c7a83a64b095495d062399",
+      "completeFactorCovers": [
+        {
+          "pair": [
+            "E1",
+            "EB"
+          ],
+          "originalEliminant": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              308,
+              81,
+              0
+            ],
+            "terms": 25338,
+            "totalDegree": 389,
+            "bytes": 4625054,
+            "sha256": "285f24269b20448bb3b0e2cafd652b659459100b26f7088e4240b9ccc28cd69a"
+          },
+          "completeQQProductActuallyReturned": true,
+          "squarefreeNecessaryCover": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              307,
+              81,
+              0
+            ],
+            "terms": 25256,
+            "totalDegree": 388,
+            "bytes": 4600948,
+            "sha256": "3bba9383dca67ee921d675e20639dd37e4d7f54a6332e414ae3870d0a9acea19"
+          },
+          "exactGcdWithOriginalF49": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "terms": 1,
+            "totalDegree": 0,
+            "bytes": 1,
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+          },
+          "factors": [
+            {
+              "index": 0,
+              "multiplicity": 1,
+              "profile": {
+                "degrees_ell_lambda_rho_t": [
+                  0,
+                  306,
+                  81,
+                  0
+                ],
+                "terms": 25174,
+                "totalDegree": 387,
+                "bytes": 3504154,
+                "sha256": "38e661a04bcb510eece48bf4e43bf466b8e349f083781661d2f8be45124bd71f"
+              },
+              "exactGcdWithOriginalF49": {
+                "degrees_ell_lambda_rho_t": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "terms": 1,
+                "totalDegree": 0,
+                "bytes": 1,
+                "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+              },
+              "noOriginalFactorDeclaredUnit": true,
+              "claimExcluded": false
+            },
+            {
+              "index": 1,
+              "multiplicity": 2,
+              "profile": {
+                "degrees_ell_lambda_rho_t": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "terms": 2,
+                "totalDegree": 1,
+                "bytes": 9,
+                "sha256": "105e7cbd17b3ec91ea77f2cc2f01febde0e44b1a29946c2cfcfcdfa86c355e9f"
+              },
+              "exactGcdWithOriginalF49": {
+                "degrees_ell_lambda_rho_t": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "terms": 1,
+                "totalDegree": 0,
+                "bytes": 1,
+                "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+              },
+              "noOriginalFactorDeclaredUnit": true,
+              "claimExcluded": false,
+              "polynomial": "2*lam - 1"
+            }
+          ],
+          "finiteDistinctBasePointBound": 6229,
+          "allFactorZeroFibersRetained": true,
+          "claimExcluded": false
+        }
+      ],
+      "sameOriginalCubicCompatibilityAndAllPhysicalConditionsRetained": true,
+      "oldEightRowGateNotRerun": true,
+      "noQQOneParameterProjectionComputed": true,
+      "claimExcluded": false,
+      "peakRssKiB": 168348,
+      "stage": "new_Delta_zero_original_t_eliminant_exact_factorization_complete",
+      "seconds": 25.644393670000003
+    }
+  ],
+  "prior_input_receipts": [
+    {
+      "pair": [
+        "E1",
+        "EB"
+      ],
+      "originalQuadratics": [
+        {
+          "degrees_ell_lambda_rho_t": [
+            0,
+            92,
+            23,
+            2
+          ],
+          "terms": 6251,
+          "totalDegree": 115,
+          "bytes": 407155,
+          "sha256": "0f77dd8ec5779390be5c64884fb10944a7b8b2a87ce4934328138f2cc70f0b89"
+        },
+        {
+          "degrees_ell_lambda_rho_t": [
+            0,
+            73,
+            21,
+            2
+          ],
+          "terms": 4528,
+          "totalDegree": 94,
+          "bytes": 252312,
+          "sha256": "84032fbbc200f02f9027c375c97f96473152685ed39fffad6487f27af7f15e2a"
+        }
+      ],
+      "rawEliminant": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          326,
+          84,
+          0
+        ],
+        "terms": 27795,
+        "totalDegree": 410,
+        "bytes": 5345900,
+        "sha256": "8bbf57c60a6a9a8f00c3a668cf73ab8e45a4bc4ee4e1e9e7392d1df74715c2a1"
+      },
+      "necessaryParameterPolynomial": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          308,
+          81,
+          0
+        ],
+        "terms": 25338,
+        "totalDegree": 389,
+        "bytes": 4625054,
+        "sha256": "285f24269b20448bb3b0e2cafd652b659459100b26f7088e4240b9ccc28cd69a"
+      },
+      "paidBaseFactorsOnlyRemoved": [
+        {
+          "name": "p",
+          "count": 2
+        },
+        {
+          "name": "q",
+          "count": 1
+        },
+        {
+          "name": "A2",
+          "count": 6
+        },
+        {
+          "name": "S_original",
+          "count": 3
+        }
+      ],
+      "fullBezoutTags": [
+        {
+          "degrees_ell_lambda_rho_t": [
+            0,
+            234,
+            61,
+            1
+          ],
+          "terms": 28610,
+          "totalDegree": 295,
+          "bytes": 4116861,
+          "sha256": "035982ec307936b57ecd6a5e3544a177682131d8795f4c6cab4b414a4ed19cb5"
+        },
+        {
+          "degrees_ell_lambda_rho_t": [
+            0,
+            253,
+            63,
+            1
+          ],
+          "terms": 31942,
+          "totalDegree": 316,
+          "bytes": 4918084,
+          "sha256": "83c4ea7196c0a9f572691d207f1eebb8bd606351feae5ded420ea73616f169d0"
+        }
+      ],
+      "exactGcdWithOriginalF49": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 1,
+        "totalDegree": 0,
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "completePolynomialBezoutIdentityVerified": true,
+      "allTwoQuadraticLeadingZeroFibersRetained": true,
+      "noIndividualLeadingCoefficientInverted": true,
+      "finiteDistinctLambdaRhoBound": 6239,
+      "finiteBoundProof": "fixed Sylvester in rho; independent finite root columns force determinant order",
+      "originalEllCubicAndCompatibilityAndFreeTStillRetained": true,
+      "claimExcluded": false,
+      "stage": "new_original_t_quadratics_full_parameter_return",
+      "seconds": 25.069522573000004
+    }
+  ],
+  "no_large_polynomial_cache": true,
+  "ordinary_isp_claim": false
+}
