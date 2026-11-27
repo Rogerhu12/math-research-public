@@ -11,21 +11,26 @@
 
 [实际 sign 曲面及图](notes/2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)给 $C:s^6=t(1-27t)$、全 $f_{\Omega_4}=-\delta f_4(\tau/6)$、严格有限 Chow 投影、正确 full9 列基和 $+34$ 分量。全18核先重标、$Q_\tau$ 先于 sign，完整两个取向和 proper fp 已闭；没有借旧 full54 的未知 $q_0$。
 
-[新十八图的完整 cross](notes/2026-11-27-original-psi4-full-graphs-artin-and-geometric-newton-cross.md)已付真实 Artin 全 trace、同一 fulllevel 的 fixed-base $p^2$ 全和、Kriz 的实际 $H_{-2}$ 配对及解析 $17^{n(u)}$。实际
+[新十八图](notes/2026-11-27-original-psi4-full-graphs-artin-and-geometric-newton-cross.md)的 Artin 全 trace、同一 fulllevel fixed-base $p^2$ 全和与直接 proper-fp 返回独立已付，特别
 $$
-L_k(0)=\frac{\kappa_p(p^2-1)}{17}I_k^{\rm new},
-\qquad
-L_k B_lR_l=L_lB_kR_k,
-\qquad
-R_k(v)=-3q_\delta^{-v}K_{-,k}(v)J_{+,k}(v).
+\mathcal A^{\rm out,new}_k=(p^2-1)I_k^{\rm new}.
 $$
-$B_k\ne0$ 是同一正权真锚给的 Artin 基，$\kappa_p$ 只已付非零。**仅当参考 $r=3$ 或5的 $R_r(0)\ne0$**，才可定义连续 $F_{\rm new}=L_r/(B_rR_r)$，并得
-$$
-L'_{\rm can}(0)=-3(p-1)B_1F_{\rm new}(0)K_{-,1}(0)J'_S(0).
-$$
-[双槽 Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)已付全部尾项、坏带、两个 completion 和 $q_\delta$；原 canonical 坏条件因此确实迫这个同源解析斜率零。
+[21:55连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)已将后继连续几何 cross、Kriz $H_{-2}$ 到此 AJ 的识别和共同几何单位改为条件陈述：需要同一个连通延拓或原 flat/usual-depletion 交织、换点后正确的定义域，以及负端点的实际微分/Frobenius归一。7.20 的两个不交区域与7.21的good点连续性均不自动给这些条件。
 
-**正在解决：**实际参考端点、共同因子的完整 KS/period/阶乘规范及增广阶、指定 derived 几何读数在无穷 $p$ 非零。若两参考全零，只能使用 cross；不能擅除参考，也不能任意插值裸 $p^n$ 或阶乘。已排的权二 $B_6$ 候选全部实际 toric 点为零，不再回到该输入。任何辅助非零必须再付同一 canonical forcing。
+审计还给精确离散障碍：$A=p^2-1,B=p-1$ 时，任何固定非零 $K,\zeta$ 的
+$$
+g(u)=K\zeta^u\frac{((Au)!/(Bu)!)^2}{Au-1}
+$$
+都不可能满足两个非零连续函数之间的 $L(u)=g(u)R(u)$（所有正整数）。双Hermite完整阶乘保持，不能添未证Gamma修正。实际toric比较是否只是固定幂仍须由原微分/level逐项锁定；本审计不声称原书定理假。
+
+[纯双槽 Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)仍独立给
+$$
+R_k(v)=-3q_\delta^{-v}K_{-,k}(v)J_{+,k}(v),\qquad
+R'_{\rm can}(0)=-3K_{-,1}(0)J'_S(0).
+$$
+原 canonical 坏条件确迫这个纯 Newton 斜率零。即使参考 $R_3(0)$ 或 $R_5(0)$非零，仍须先支付几何接合，才可定义实际几何共同因子及读取其端点；正权消因子自身不填连续性缺格。
+
+**正在做：**固定 $p=227,u=1$、$n=51526$ 的完整两槽特征零非零审计，只用辅助65537作一张精确系数证书；同时重证原bad点更深根与完整 $p^2$ 对应的真实算子。未能接合就继续同一 S3150 forcing/原矩阵方向，不停止研究。参考端点、真正 derived 读数及无穷 $p$ 非零仍须解决。已排权二 $B_6$ 的全部toric点零不再重算。
 
 ## O原矩阵. 正特征完整重数界及第二、第三区块
 
@@ -83,7 +88,7 @@ O4：原O格Q=δ^a εw需无穷ordinary p有a≤1；E17的a偶、E389的lengthSh
 
 上方旧主干的后续完整证明已在整理前 open 逐条登记。当前使用时须同时保留：
 
-- 原 full54 的全部图、Artin、负二 Newton、六条 source 的全精度 cross 已付；一条 $K$ 为单位且满足原好整格范围时才有共同 $F$ 单位、模 $p$ 为 $-432$。没有此范围时不能宣称全精度单位，旧未知 $q_0$ 仍保。
+- 原 full54 的全部图、Artin、负二 Newton 与六条来源保留；连续几何 cross 及共同几何 $F$ 单位现额外需要上述审计接合。即便一条 $K$ 单位、原好整格范围成立，也不独自支付该连续性门。独立残余比较按原范围保留，旧未知 $q_0$ 仍保。
 - 同一 signed 因子的绝对整周期亦只在原一 $K$ 单位范围已闭；首层非零等价不能变成跨素数非零。
 - $D^2S$、完整 $\zeta$ 补偿、指定热 jet 与实际半周期连接已闭；不对单个 CM 坏条件横向微分。完整 paired Lamé 代数解及零 $p$ 曲率不代原 $p-1$ 或除 $p$ 后的 $p+1$ 读者。
 - 原 S3150 的完整450维点载体、有限 point-only 投影及 $K/Y$ 非零已闭；仍缺同一 canonical 坏条件迫相同读者零，不对无限中央 log 尾作有限投影。
@@ -91,4 +96,4 @@ O4：原O格Q=δ^a εw需无穷ordinary p有a≤1；E17的a偶、E389的lengthSh
 - 原 $R1049$ 晶体整格、Manin/cochain、残余 toric 比较均保未知好范围及全54权；全局障碍不直接赋原加权 AJ 非零。具体全部公式、常数和失败链见本页开头逐字归档。
 - 唯一完整厚几何 v12 仍待真终态；当前 GET 只给19:05的同一前段，不据缓存尾推停顿，不重复启动。即使其原有限终门通过，仍须接通常全 $\Sha$ 的真实无穷 $p$ 条件。
 
-root 继续审证、消费唯一作业终态、实际两库 pull 和逐条推送；geometry 处理同一新图的参考及指定斜率，central 处理实际共同因子，arithmetic 接薄窗真秩与完整矩阵第二/第三块预算。子问题完成即接下一项，主目标完成前持续研究。
+root 继续审证、消费唯一作业终态、实际两库 pull 和逐条推送；geometry 处理真实 flat/Hecke 接合及同一 S3150 forcing，central 处理实际共同因子与换点定义域，arithmetic 接薄窗真秩与完整矩阵第二/第三块预算。子问题完成即接下一项，主目标完成前持续研究。

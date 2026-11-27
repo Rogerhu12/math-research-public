@@ -310,3 +310,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 21:40:37 UTC：根与arithmetic接完整厚矩阵时检出既有R467 Theta补充，root亲读blob3ecc71cb72b0d013fac23c9df9b58286680f5a96、R4678136ace及R6371de8052全文。旧文已付Theta同ODE的显式二维接触/全因子界及原短三块平方根整满射，因此立即在森林§15和H/open/results/index交叉校正范围；不把新方法的较弱二维推论计成新临界排核或预算改善。新完整note 28755B/SHA256 fe9437a688a96065342ccadd6696eebc0219574e0ee673e56bb7e9a64c7e23e0。三变量正特征cap/有限流/全交循环证明保持有效；继续实际E-moments二/三块和同一R/Xi，不重证旧界。新文献窄查亦命中已登记Banwait及Wu–Zhu范围，未重复登记新成果。无数学执行；两库actual pull21:22/下一≤22:22，唯一v12在21:39仍in_progress。
+
+
+- 2026-11-27 21:55 UTC：root与central/geometry独立审计原Kriz接合。逐项确认完整normal-ordered Hermite仍为n!(n+2)!；digit引理以u0+p^m给任意固定底数幂的估值差−2障碍。核书6.21、7.20/21及9.11–16后，明确共同连通延拓、换点定义域和负端点primitive归一尚未取得；旧full54、六线及新psi4连续cross/几何单位全部降为条件，不单保负端点。geometry新稿A2的V_p归一漏p^(k−1)由root发现、按原书Lemma8.12修正后才发布。独立图/正权/Newton/晶体残余保留，未称书定理假。审计13920B/SHA256 2252a27394f2a9a9e83225d6543a6b95a0526b1c3d99ae4a24d05b2e9dff702b；新cross25401B/SHA256 4f0060a86231117be46ed8b78f72e7d64c1ac6f6adde7c8e9faf21a7cc425147。原H9721B逐字归档handoff-before-kriz-continuity-audit.md，当前元数据一并更正。无数学执行；下一固定p227正权全系数证书与真实bad点算子继续。两库actual pull21:22/下一≤22:22，唯一v12未重复启动。

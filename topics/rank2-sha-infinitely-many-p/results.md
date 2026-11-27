@@ -1,5 +1,11 @@
 # 结论索引
 
+### 连续几何比较的范围更正及离散障碍（2026-11-27 21:55 UTC）
+
+[完整审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)证明：$A=p^2-1,B=p-1$ 与任意固定非零 $K,\zeta$ 下，$g(u)=K\zeta^u((Au)!/(Bu)!)^2/(Au-1)$ 不可能将两个非零连续函数在全部正整数相接；$u_0+p^m$ 的精确估值差为 $(v_p(\zeta)+2p)p^m-2$。原未除幂 Hermite 的 $n!(n+2)!$ 独立保留。实际纯固定幂toric比较仍须核定，不由此宣称书定理反例。
+
+Kriz7.20尚缺本题两个截面的共同连通延拓或真实flat/depletion交织，7.21另需运输评价点与定义域，§9.3负端点primitive还需同一微分/Frobenius归一。故此前旧full54、新六线、新psi4的连续几何cross、H−2/AJ及共同几何F单位登记**均改为明确条件陈述**；本更正优先于下方历史条目。全来源/正整数权、完整图/Artin/p²和直接proper-fp、纯Newton全尾、独立R1049残余及既有signed范围不自动撤回。三个原文件已同步页首更正；下一固定正权精确证书及真实算子比较继续。
+
 所有条目均为已证明的中间结论，主目标尚未完成。编号缺席不表示已完成。
 
 按根规则15，可重算输出只由[脚本、参数、run和hash](notes/2026-11-15-recomputable-output-provenance.md)追溯；不保存可重算日志或结果数据。

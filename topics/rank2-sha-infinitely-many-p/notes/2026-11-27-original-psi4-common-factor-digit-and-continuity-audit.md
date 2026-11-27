@@ -1,0 +1,262 @@
+# 原 psi4 双核共同正权因子的离散连续性审计
+
+日期：2026-11-27。会话：Astra-rank2-Sha-0b097461-20261127。
+
+本注给出一个完整的离散障碍及其准确适用门。它不把未知层级微分倍率
+$\Omega_\Gamma$置为单位，不宣称 Kriz 的定理为假，也不通过补入未证明的
+Gamma 因子保住某个插值式。原完整双核的正权代数身份及 proper 几何身份
+与这里的连续性接合分开核验。
+
+## 1. 原 Hermite 正权标量中的阶乘
+
+使用原未平方来源笔记 §§10–11 的同一正常排序核，记
+$a=17/2$、$G=51\sqrt3$、
+$b=2(\omega-1)/\sqrt G$、$h_\infty=\sqrt G/(204\pi i)$。
+在实际两 Hermite 变量中，
+$\Theta_\pm(T)=\sum_m b_{\pm,m}T^m/m!$，
+而 $b_{\pm,m}=m!s_\pm(\Omega_0h_\infty)^m$ 乘原普通 Taylor 系数。
+故未除幂的 $\partial_Z^n\partial_W^{n+2}$ 确实给两个阶乘
+$n!(n+2)!$。
+
+完整 $e^{-cZW}$ 不能随意删除；本次它的合法出现来自
+$c=(4\pi a\operatorname{Im}\omega)^{-1}$ 及原逐项恒等
+$a^n\mathcal L_{n,n+2}=\delta_3^n(z^2e^{2\pi ia|z|^2\tau})/
+e^{2\pi ia|z|^2\tau}$。
+例如 $n=1,2$ 的低项分别是
+$-3/(4\pi y)$ 和
+$-8a|z|^2/(4\pi y)+12/(4\pi y)^2$。
+因此本节不是以未证明的无交叉项代替原核。
+
+原 archimedean 提槽给
+$$
+\frac{A_n}{A_4}
+=\frac{n!(n+2)!}{4!6!}\,
+ \left[a(-ib)^2(\Omega_0h_\infty)^2\right]^{n-4},
+\qquad
+a(-ib)^2(\Omega_0h_\infty)^2
+=-\frac{\omega\Omega_0^2}{408\pi^2}
+=\frac{\omega}{102}
+ \left(\frac{\Omega_0}{2\pi i}\right)^2 .
+\tag{1}
+$$
+(1)只说明原 coherent 提槽及普通迭代的规范；从它到实际 Kriz
+algebraic toric sum 仍须同一微分/level 比较，不能省略。
+
+## 2. 固定底数幂不能修复的完整离散障碍
+
+设 $p\ge5$，
+$A=p^2-1$、$B=p-1$，固定 $K,\zeta\in\mathbf C_p^\times$。
+对正整数 $u$ 定义
+$$
+g(u)=K\zeta^u\,
+ \frac{((Au)!/(Bu)!)^2}{Au-1}.
+\tag{2}
+$$
+若两个连续函数 $L,R:\mathbf Z_p\longrightarrow\mathbf C_p$
+对每个正整数满足
+$$
+L(u)=g(u)R(u),
+\tag{3}
+$$
+则必有 $L=R=0$。
+
+证明如下。写 $s_p(m)$ 为整数 $m$ 的 $p$ 进数字和，并置
+$$
+\Delta(u)=\frac{s_p(Au)-s_p(Bu)}{p-1}.
+$$
+Legendre 公式准确给
+$$
+v_p\!\left(\frac{(Au)!}{(Bu)!}\right)
+=pu-\Delta(u).
+\tag{4}
+$$
+由于 $A$ 的数字是 $(p-1,p-1)$、$B$ 的数字是 $(p-1)$，
+$\Delta(1)=1$。
+
+若 $R$ 非零，正整数稠密性给一个正整数 $u_0$ 使 $R(u_0)\ne0$；
+由(2)–(3)亦有 $L(u_0)\ne0$。
+令 $u_m=u_0+p^m$。当 $m$ 大于 $Au_0$ 与 $Bu_0$ 的数字长度时，
+两段数字互不重叠，所以
+$$
+\Delta(u_m)=\Delta(u_0)+1.
+\tag{5}
+$$
+同时 $Au_0-1\ne0$，故对充分大 $m$，
+$v_p(Au_m-1)=v_p(Au_0-1)$。
+由(2)、(4)、(5)得到精确式
+$$
+v_p(g(u_m))-v_p(g(u_0))
+=\bigl(v_p(\zeta)+2p\bigr)p^m-2.
+\tag{6}
+$$
+另一方面 $L,R$ 连续且在 $u_0$ 非零，故
+$g(u_m)=L(u_m)/R(u_m)\to L(u_0)/R(u_0)=g(u_0)\ne0$。
+非阿基米德范数于是要求(6)最终等于0。
+若 $v_p(\zeta)+2p\ne0$，其绝对值趋于无穷；若等于0，(6)恒为$-2$。
+两者均矛盾。因此 $R=0$，再由(3)及稠密性得 $L=0$。证毕。
+
+这个论证不要求 $L,R$ 可微或解析，也不要求任何指定参考端点非零；
+唯一非零假设只是某个正整数处 $R(u_0)\ne0$。
+
+## 3. 它对当前公共因子提出的准确门
+
+原新 cross 使用
+$n=Au-2$、$r=Bu$ 及整数身份
+$$
+\delta^{-(dr-2)}d_{k,dr-2}s_{k,dr}
+=-3q_\delta^{-r}\frac{C_+^{2r}}{(r!)^2}
+ J_{-,k}(r)J_{+,k}(r).
+\tag{7}
+$$
+假设实际 algebraic comparison 另能证明
+$q_{p,n}=q_{p,0}Q_p^n$，其中 $q_{p,0},Q_p$ 固定非零；
+结合(1)，其整数公共因子
+$q_{p,n}c_n\,prC_+^{2r}/(r!)^2$
+就严格化成(2)。这里用的是
+$$
+n!(n+2)!\frac{pr}{(r!)^2}
+=\frac{p}{(p+1)(Au-1)}
+ \left(\frac{(Au)!}{(Bu)!}\right)^2 .
+\tag{8}
+$$
+所有固定 period、$\Omega_\Gamma$、degree17、Gaussian 常数与有限相位
+都只能改变 $K,\zeta$，不能改变(6)中的 $-2$。
+
+所以，“同一个连续 Kriz 读者在每个正整数等于这个纯固定幂标量乘原
+Newton 读者”与“该 Newton 读者非零”不能同时成立。
+只把参考质量或另一个端点非零补进来不会修复它。
+本结论要求继续核验实际 $q_{p,n}$ 与原 toric sum 的接合；
+它没有先断言两者已经由现有引用完全识别。
+
+## 4. 已定位的实际接合及待核之处
+
+Kriz 书版(6.51)–(6.52)的系数
+$\binom{j+k-1}{i}\binom ji i!$ 是未除幂迭代；
+(8.16)将 $L^{\rm alg}$写为相应 toric derivative sum，
+(8.21)再显示固定 period 的权幂。
+因此不能仅通过把书中算子改称“除幂”来消掉(1)。
+
+真正连续性的输入是(6.56)–(6.58)的
+$q_{\rm dR}^{1/p}$ 上 $\flat$-投影。将它换成 usual
+$p$-depletion 的具体门是 Proposition7.20(7.14)，再由(7.16)
+回到底点的正权值。该处所写下降分别在
+$U\subset Y(\Gamma)^{\rm ss}$ 与 ordinary locus 上；
+仅在二者不交并集上援引 rigidity 不足以支付相等。
+若存在同一个连通 overconvergent 域及两个截面的真实延拓，
+须实际给出并证明它与本题所选 good 点、level 基、权和 period 相容。
+目前本注未取得此额外接合，也不把其缺失直接称为原定理的反例。
+
+还有一个须独立支付的点位问题。采用书中的右作用约定，令
+$$
+g_1=\operatorname{diag}(p,1),\qquad
+g_2=\operatorname{diag}(1,p),\qquad y'=yg_1 .
+\tag{9}
+$$
+对函数 $h_j=p^j\theta_k^jF^{(p),\flat}$，固定 pullback 满足
+$$
+(g_2^*h_j)(y')=h_j(y'g_2)=h_j(y\cdot pI).
+\tag{10}
+$$
+Theorem6.21与good-point界先给的是 $h_j$ 在 $y'$ 及相应good邻域上的
+连续性。固定群作用确实连续，但它同时运输函数的定义域：
+若 $h_j$ 的连续族只在 $U$ 已证，则 $g_2^*h_j$ 的族只在
+$Ug_2^{-1}$ 由此得到。(10)要在原 $y'$ 评价，仍需在 $y\cdot pI$
+有该连续族；不能仅由 $h_j(y')$ 连续推出。
+
+对书中本次惰性 CM 规范，$|\hat z(y)|=1$、
+$|\hat z(y')|=p$；中心元 $pI$ 不改变该比值，所以
+$|\hat z(y\cdot pI)|=1$。因此这不是同一个good点的无成本重标记。
+若以原bad点的更细 $q_{\rm dR}^{1/p^2}$ 坐标直接建立连续性，
+须同时运输真实 $\flat$ 投影、整个 $p^2$ 对应、所有
+$\omega$／Kodaira–Spencer 基和相应正权式；它不能仅凭形式
+$p^{2j}$ 被命名为 usual $p$-depletion。
+
+(9)–(10)只指出 Corollary7.21 应补的域与点位接合。
+本注未声称不同定义域上原定理的完整断言已经被推翻。
+
+本注要求暂停依赖“纯固定幂公共因子非零连续延拓”的新应用；
+原正权 theta、全图/cup、原 Newton 整数回卷、以及有明确前提的交叉
+代数式应按各自实际证明范围保留，不用一个未核插值门覆盖它们。
+
+原始依据：
+- 本课题原未平方来源笔记 §§10–11；新 psi4 来源与全图 cross 笔记。
+- D. J. Kriz, *Supersingular p-adic L-functions, Maass–Shimura Operators
+  and Waldspurger Formulas*, AMS212 (2021), (6.51)–(6.58),
+  Proposition7.20、(7.16)、(8.16)、(8.21)。
+  可读书版：https://dokumen.pub/supersingular-p-adic-l-functions-maass-shimura-operators-and-waldspurger-formulas-ams-212-9780691225739.html
+
+## 5. “♭”与通常 $p$-depletion 的接合审计：有限层下降不等于共同延拓
+
+2026-11-27 UTC，geometry 独立核对。本节只定位当前证明链尚未支付的接合；不据一个证明缺格断言所引用定理为假，也不改写已经独立证明的正整数权或 proper finite-polynomial 公式。
+
+### 5.1 两个算子的真实定义不同
+
+Kriz 专著第6章 Definition6.18 从一个固定点的 $q_{\rm dR}^{1/p^b}$ 展开定义 $\flat$。令 $X=q_{\rm dR}^{1/p^b}$，把该展开写为 $F_y(X)=\sum_{m\ge0}a_m(y)(X-1)^m$，则
+$$
+ \mathcal A_{y,b}F_y(X)=\frac1p\sum_{a=0}^{p-1}F_y(\zeta_p^aX),
+ \qquad F_y^\flat=(1-\mathcal A_{y,b})F_y .
+ \tag{A1}
+$$
+右边始终使用同一个点的系数 $a_m(y)$。定义的收敛域通过全部系数的整性条件限制；一个点附近有此展开，不等于它已在一个较大的有限层严格邻域统一延拓。
+
+通常的 $p$-depletion 则为原 Hecke 算子
+$$
+ w^{(p)}=w-a_p(w)V_pw+\varepsilon_w(p)p^{k-1}V_p^2w
+ \tag{A2}
+$$
+这里 $w$ 为 weight $k$ 的实际 Hecke 本征源，并明定经典 $V_pf(q)=f(q^p)$；书第230页 Lemma8.12 的第三项也保 $\varepsilon_w(p)p^{k-1+2j}$。本题 $k=3$、$a_p=0$、$\varepsilon_w(p)=-1$，故 $w^{(p)}=w-p^2V_p^2w$。它使用真正的同源及其微分运输。两种操作在 ordinary Serre–Tate 坐标中可比较；在一个 supersingular CM 点，(A1)与(A2)相认还需要实际的同源/展开交织。
+
+项目原来使用 Proposition7.20 的关键结论，正是将已经作了(A2)的来源再作(A1)，而不改变所需正权值。至少必须证明
+$$
+ \mathcal A_{y,b}\bigl(F^{(p)}_y\bigr)=0
+ \tag{A3}
+$$
+在实际使用的所有 CM 点、原微分和级结构上成立，或证明足以给同一全部 raised 读数的对应等式。不能用(A1)的定义自身推出(A3)。
+
+### 5.2 Proposition7.20 中需要补的连接
+
+专著 Proposition7.15 给好 CM 点轨道附近的局部区域；Proposition7.20 的证明（印刷页213–214）把两待比截面下降到某个
+$$
+ U\subset Y(\Gamma)^{\rm ss}.
+$$
+ordinary 比较另沿 Igusa 覆盖下降到 $Y(\Gamma)^{\rm ord}$。该证明随后在 $U\cup Y(\Gamma)^{\rm ord}$ 上使用 rigidity。
+
+这一步单凭所写下降不能成立。按该文的定义，
+$Y^{\rm ss}=Y\setminus Y^{\rm ord}$，所以两个显示的区域不交。若其并集按证明所用方式是 admissible open，则它有这两个不交开集组成的有限 admissible cover。结构层的粘合立即给
+$$
+ \mathcal O\bigl(U\sqcup Y(\Gamma)^{\rm ord}\bigr)
+ =
+ \mathcal O(U)\times\mathcal O\bigl(Y(\Gamma)^{\rm ord}\bigr).
+ \tag{A4}
+$$
+因而在 $U$ 上取1、在 ordinary 部分取0就是一个截面；它在 ordinary 部分为零而在 $U$ 上非零。对线丛截面可在 $U$ 的一个非空平凡化子域作同样检验。ambient 模曲线的连通性并不将一个仅在这个不交开集上定义的截面自动延拓出去。
+
+这里不是说 canonical-subgroup 区域都不连通。有限层上可以另取连到 ordinary 部分的 Hasse 严格邻域。真正还需支付的是：
+
+- 两个待比截面在同一个这样的连通邻域上都有实际延拓；
+- $\flat$ 展开的全部系数在该邻域上满足所用的一致收敛/整性条件，且原权下降仍成立；
+- 这两个延拓分别限制为原 CM 区域上的截面及 ordinary 上已经比较的截面。
+
+只有取得这些条件，才能在各相关连通分支上使用恒等原理。好 CM 点处存在一个 canonical subgroup、局部 period 不等式以及局部权下降，分别都不等于上述共同延拓。此次独立审读尚未从所引用的 Proposition7.15、7.18 或7.20中取得它。
+
+另一个可接受的补法是直接在本项目的固定 theta 来源上证明(A3)，连同其 raised 算子、全部级结构和 finite trace。这样的证明可以绕开共同延拓，但必须给实际同源算子等式，不能仅用全局 $L$ 因子相同。
+
+### 5.3 负权 Coleman/fp 接合有同一个费用
+
+专著第9章印刷页245–247的(9.11)–(9.16)再次使用 ordinary 部分和上述 $U$ 的比较。(9.12)先在 ordinary 部分把 $G_{-1}$认作 $w^{(p)}$的 Coleman primitive，随后用解析延拓/唯一性将其带到 supersingular CM 区域，再以 Hodge 值配对读取 $H_{-(j+1)}$。
+
+在共同延拓尚未补上时，这一步不能由普通区域的等式给出。尤其不能只说两个原函数至多差一个水平常数：尚须在 supersingular 区域证明它们具有同一个微分及 Frobenius 归一。对一个只由(A1)和权极限构造的局部对象，普通部分的 primitive 身份本身不支付这两件事。BDP 的 primitive 配对公式在已有真正 Coleman primitive 后适用，不反向证明它就是(A1)的负权值。
+
+因此本项目的 $H_{-2}$到同一 proper-fp Abel–Jacobi 读数的接合，必须与正权(A3)同时标为待证；不能撤去正权连续插值却单独保留该负端点识别。
+
+### 5.4 项目中保留及收紧的范围
+
+以下独立内容不因这个缺格而撤回：原有限 Schwartz 与完整 Weyl 相位、两个实际 Hermite 槽及其所有合法正整数权身份、真实 fixed-base $p^2$ Hecke 全和、单独的 proper finite-polynomial 图杯积公式、纯 Newton 的完整尾界及连续函数、直接晶体/Manin 残余公式，以及普通情形的有限代数点载体。
+
+需要改成条件陈述的是：用 Proposition7.20/Corollary7.21把 $\flat$ 连续权族与(A2)的全部经典正权值相接，再用第9章上述步骤把该族的负端点认作实际几何值。旧 full54、新六线及新 $\psi_4$ 图的全精度 cross 若经过这条接合，其几何端点结论均保留这一明确前提。
+
+在正整数权上消去共同非零常数只得到那里本来的代数等式。若没有已证明的连续几何族及其实际端点，就不能用正整数权稠密性将这条等式带到 Abel–Jacobi 值。反过来，独立 Newton 函数可以继续使用，但不得以其定义替换缺失的几何族。
+
+本节未执行数学程序，也未声称已有反例。需要补的确切门是(A3)或§5.2的共同连通延拓，再加§5.3的微分/Frobenius相容。
+
+**原文定位。** D. Kriz, *Supersingular p-adic L-functions, Maass–Shimura Operators and Waldspurger Formulas*, Annals of Mathematics Studies212，Definitions6.18–6.19、Propositions7.15、7.18、7.20与第9章(9.11)–(9.16)。[出版社 DOI](https://doi.org/10.1515/9780691225739)。审读的书页转录为 [专著全文页](https://dokumen.pub/supersingular-p-adic-l-functions-maass-shimura-operators-and-waldspurger-formulas-ams-212-9780691225739.html)。本节对不交并集的(A4)为自给证明，不把一般 rigidity 口号当作缺失的延拓。

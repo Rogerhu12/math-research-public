@@ -8,7 +8,7 @@
 
 root独占git/H/open/log/index；每条结论即推。非快进立即实际pull --rebase、检查README差异、重比新父后再推到成功，不force。令牌只命令行/进程，不写文件/提交/API。数学执行只在公开Actions，4CPU/16GB/6h；根规则15禁止存可重算结果/日志/矩阵缓存，必要输入证书和脚本/参数/run/hash照原规。H<10KB、每MD<100KB、topic<200MB。
 
-本次整理前[完整交接](notes/2026-11-27-handoff-before-psi4-geometric-cross.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
+本次整理前[完整交接](notes/2026-11-27-handoff-before-kriz-continuity-audit.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
 
 ## 实际同步与规则
 
@@ -21,40 +21,34 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在21000s/exit124前返回全部306Frob，但四交/Norm/18×9未返；非反例、非终门PASS，不重跑旧输入。
 
-唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行。20:26 API仍in_progress；返回4203581B日志前段至19:05:38（非实时末尾），全两端身份/首个612厚分解已过，下一块HNF86/306。四交/Norm/18×9终门仍无回执。只读collector run46066368438/job140732535796已成功，但GitHub全GET仍返回同4203581B/同hash/同19:05:38尾，非最终日志；不据缓存尾推停顿，不重复读到真终态。只记前段hash，不存日志。保两char0 pins/60源/29/2453/64/minimal、全门、Sage10.6/21000s；不并行重作。全二次域native软件run46032975863已PASS。全pins及进程内完整矩阵规范见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
+唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行。21:39 API仍in_progress；返回4203581B日志前段至19:05:38（非实时末尾），全两端身份/首个612厚分解已过，下一块HNF86/306。四交/Norm/18×9终门仍无回执。只读collector run46066368438/job140732535796已成功，但GitHub全GET仍返回同4203581B/同hash/同19:05:38尾，非最终日志；不据缓存尾推停顿，不重复读到真终态。只记前段hash，不存日志。保两char0 pins/60源/29/2453/64/minimal、全门、Sage10.6/21000s；不并行重作。全二次域native软件run46032975863已PASS。全pins及进程内完整矩阵规范见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
 
-## 当前主线：原 canonical 的实际新来源
+## 当前最高优先级：连续性接合审计
 
-[原ψ4/ψ17完整来源](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)：π4=AIψ4²，ηk=ψ17^k/ψ4，λk=ψ4⁴/ψ17；正槽严格原S/H3/H5。2/fullsign、3/fullJ与wild两陪集、17全18项、n4→负二的∞墙已付。负源为两个完整三挠Gaussian Weyl词作δ拉回的degree102 D−，首4规范1、原首301056、幅度147/∛2，coherent变量Ω0h∞T/δ。§10同9√17Π12e0的raw锁snew/sS=−7/[∛2(1+√3)]与完整Yang平方比49/(4·2^(2/3))，δ^-n另保。负二root−和S0=0相容；正权(4,6)非零不是augmentation单位。
+[完整审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)现优先于此前登记。原 normal-ordered Hermite 确给 $n!(n+2)!$，不能偷改除幂。设 $A=p^2-1,B=p-1$，固定非零 $K,\zeta$，
+$g(u)=K\zeta^u((Au)!/(Bu)!)^2/(Au-1)$。
+若连续 $L,R$ 满足所有正整数 $L=gR$，则 $L=R=0$：取 $u_m=u_0+p^m$，精确估值差 $(v_p(\zeta)+2p)p^m-2$ 不可能最终为0。实际纯固定幂 toric 比较仍须核，未声称书定理假。
 
-[双槽完整Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)：C−=102cσ=3C+，全R301尾/R614整窗及两坏带付。qδ=δ^(p+1)/3∈1+p，Rcan=−3qδ^-vK−JS，v=(p−1)u、n=(p²−1)u−2。完整Rcan′0=−3K−0 JS′0；坏canonical确迫此斜率零。除p首层为−d−,p−1s_p+1/(pC+)²；二阶logqδ费用保留。整数阶乘/周期/p权只在合法正权消去，不把它们任意解析化。
+Kriz 6.21连续的是实际 $q_{\rm dR}^{1/p}$ 的flat族。7.20把它认作usual depletion时，仅分别下降至 $U\subset Y^{ss}$ 与ordinary，不交并集的rigidity不提供共同连通延拓。7.21的 $g_1=\operatorname{diag}(p,1),g_2=\operatorname{diag}(1,p)$ 还把评价点移到 $y\cdot pI$，不是原good $y'$。§9.3(9.11–16)的负端点primitive亦需同一共同域及微分/Frobenius归一。
 
-**[新sign曲面/fulllevel/proper fp](notes/2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)已付**：C:s⁶=t(1−27t)、V²=1−108s⁶是原cubic层与full2/A3的实际纤维积；g2/χ2/NS24/t2六维，两个∞完整正规性。Ω4=dt/s⁵∧ω的完整形式fΩ4=−δf4(τ/6)由逐项Whittaker和width1 cusp锁；有限esign/e3及f=1+2τ0*给严格Chow P±，不借混合β Selmer为零。
+因此旧full54§§7–8、六线§§8–9、新psi4§§7–9的连续几何cross、H−2/AJ及F几何单位**全部改为有条件**。各文件已置页首更正，历史归档保留。不能只降正权而保负端点。直接proper-fp、完整图/Artin/p²全和、R1049晶体/Manin/残余和独立signed范围不自动撤回；纯Newton尾界及完整整数身份继续有效。
 
-新g=P，full9列基((1+ω)u9,(1−ω)u9)，ω矩阵[[4,4],[6,4]]mod9、源pairing+2/靶+34给d9=τ0⁻¹。全18核C→ωC的真实jC和图恒等先重标后合和；先Qτ与eA−、保Ω1伙伴取得C3不变，再全六项sign准确½(Z−sZ)，不可先sign循环。全2盖4H³=A⁶−1至C的s=H/(δA),V=(A⁶+1)/(2A³)明确。
+下一实际审计：固定 $p=227,u=1$ 的原两槽系数，$n=51526,n+2=51528$，同读 $q=z^6$ 的8587次。辅助模65537只作特征零非零证书，非p单位、非无穷p。脚本只许公开Actions执行；不存前缀输出。与此同时按原bad点的真实更深根/全p²对应重证最窄算子，若不接则转同一S3150 forcing，不能用抽象flat代图。
 
-全部degree17修正图已同调零，F|M4=p²/F|A=−p；proper fp lift/注入/杯积逐项付，新AJ(Yk)(Ω4ωA)=p/(p+1) Inew。Inew准确1/12、全部η/Cor/18核/两取向；新BKexp同构已付，无旧新增NS/q0前提。**同一新图的实际cross已付如下，参考端点与指定斜率无穷p非零仍须解决**。不把fp局部公式或辅助参考代非零。
+## 独立保留的实际新来源与几何
 
+[原psi4来源](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)：原S/H3/H5正槽，全部wild/Weyl的degree102负槽；首4规范1、原301056、幅度147/∛2、物理变量Ω0h∞T/δ。三条raw分子(−7,624,1224)、Cs²比r²/(4·2^(2/3))已付，finite角色/period不删；复n4锚非augmentation单位。
 
-来源§11已付两参考完整六列Pauli提取，a3=−14δ/3、a5=6δ；两个三挠和的首4为−312/(7∛2)、68/∛2。三条归一D−首4均1、共同degree102/C102/物理z，raw分子r=(-7,624,1224)、Cs²比r²/(4·2^(2/3))；各条finite角色/period仍保，不假p单位。
+[双Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)：C−=3C+=102cσ，Rk=−3qδ^-vK−kJ+k，原Rcan′0=−3K−1,0 JS′0；完整高尾/坏带保。坏canonical确迫这个纯Newton斜率零，但尚未把它接成实际几何斜率。
 
-## 新图全精度 cross 与当前非零门
+[sign/fulllevel/proper](notes/2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)：真实C:s⁶=t(1−27t)、V²=1−108s⁶、fΩ4=−δf4(τ/6)、严格Chow投影。g=P/full9列((1+ω)u9,(1−ω)u9)、+34、d9=τ0⁻¹；先Qτ/eA−再完整sign、18×2/η/Cor保齐。直接AJ(Yk)=p Inew/(p+1)及完整fixed-base Aout=(p²−1)Inew独立已付；不能用它命名flat端点。实际Artin基Bk=9Tk4/sk6、sk6=(1,−3154/15,4046/15)非零。
 
-**[新18×2几何cross](notes/2026-11-27-original-psi4-full-graphs-artin-and-geometric-newton-cross.md)**已付。真实CM/全full9/+34/17核重标给γZk=ηk(γ)Zk，全eη Cor只乘同一[L:Hk]。正权n4真锚s6=(1,−3154/15,4046/15)、d4=1给Bk=9Tk4/sk6≠0，保各finite角色/period/raw分子。
+## 原矩阵及其它主门
 
-新中心pI在full2为1、3型为−1，全cyclic p²/两个退化映射/18×2给Aout=(p²−1)Inew。Kriz同一新Ω4在实际Γ(2,2)邻域与r1 H−2配对；必须显式L=17^(n(u))Lraw，17^(n(u))=17⁻²(17^(p²−1))^u是解析单位，负二消两次inverse-KS的17²。实际Lk0=κp(p²−1)Inew/17，κp非零但未付整单位。
+[三变量V](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)的稳定素簇/D-property、短primary根稳定及固定低degree Noetherian退出已付。[正特征forest](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)付正规化枝/cap/有限流/288退出/全交循环。只在H超过完整界排低轴核。薄X二次界保新的M□；§15已核旧R467显式二维界更强、R637原短三块满射范围优先，二维指数不另计新推进。继续原两长一短E-moments、实际同一首提升R与第二余核Xi，不能复制单位秩或添中央导数/乘积零。
 
-合法正权先消公共Gamma/factorial/period/p权后，连续cross为Lk Bl Rl=Ll Bk Rk，Rk=−3qδ^-v K−k J+k、v=(p−1)u。**只有r=3或5的Rr0非零**，才定义连续Fnew=Lr/(BrRr)并得Lcan0=0、Lcan′0=−3(p−1)B1Fnew0 K−1,0 JS′0；不需假F可微。两参考皆零时仅用cross，不擅延拓F。下一真正控制该参考门、同一derived读数及负槽端点，在无穷p迫原JS′非零；复锚/参考质量1不代此费用。
-
-## 已付其它主干与保留的门
-
-此前全部具体参数/失败/回执在上方完整交接与open逐字保留，禁止重算或删前提。原R1049/full54/六线cross/signed平方仍保未知q0/好整格，一K单位才有F单位；PB4固定29与三β′正值已COMPLETE，不移到新源。原D²S/heat-flat/paired Lamé全费用已付，不对CM坏条件微分。权二B6方案全toric点为零已排；S3150有限点读者非零仍缺同一canonical forcing。固定五条rank≥2曲线的通常全Sha桥r+corankSha≤2ordJ已付，联合无穷p原J′非零仍开。R1042全Hurwitz/Smith/blow-up环境左逆不代原scalar Schur；R1043接触/全部p字和低项坏带保。O4/O6/O7及R1009反例的准确门在归档/open保。
-
-**[原Theta三变量V](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)**新增全次数稳定素簇分类：仅三稳定超曲面t=0,1/Y=0，高余维在t=0或1，原点D-property常数1。实际J_s只modt^s但V稳定，1≤h<s的阶保持；minimal primary长度e<p才可令其根稳定。后继截断forest已付如下；不把R321 shifted/Euler再算新坏行。
-
-
-三变量V§8已补固定低degree通用Noetherian退出：固定M、L=d0+3M，minimal局部长度≤L³，p>L³才得稳定素分量并迫≤M次退出；不冒有效M或embedded长度。[完整正特征森林](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)现已付正规化枝/cap/有限流/288阶高degree退出及三层交循环。固定有限坏集外，原低轴 $\min(s,\operatorname{ord}P)\le D+D(D+A)+D(D+A)^2$，$A=3\max(M,288)$；只在 $H=s-13-r_c$ 超过此界排核，临界窗未排。同文§§11–14给该方法的薄X二次推论，§15已核旧R467 Theta补充有更强显式二维接触界、R637有真实短三块满射范围，优先复用；二维指数不另计新推进。下一原二/三块与同一首提升，低轴单位秩不代全位行列式收益。
+固定五条rank≥2曲线与通常全Sha桥r+corankSha≤2ordJ已付；真正联合无穷p原J′非零仍开。R1042环境Hurwitz/Smith左逆不代scalar Schur；D²S/heat-flat全连接不允许CM坏条件微分；S3150有限K/Y非零仍缺同一canonical forcing。O4/O6/O7、旧q0/好整格、全部失败和参数在open与逐字归档保，不重做已排的权二B6全toric零候选。
 
 ## 继续分工
 
-geometry接原S3150有限K/Y的同一canonical forcing；central核新实际共同因子/KS/period；arithmetic接薄X真秩与完整M第二/三块实际预算，不能造导数/乘积闭包中央零。open整理前全文逐字存notes/2026-11-27-open-before-positive-characteristic-forest.md，全部旧门/公式保留。root审新几何/非零，消费唯一v12真终态，每小时实际两库pull、逐条推。子问题做完接open，不以阶段报告或“输入不足”停止。
+root维护元数据、逐条推、审计比较并消费唯一v12真终态；central核共同factor的实际微分/level及坏点坐标运输；geometry核真实flat/Hecke总迹，随后S3150同一forcing；arithmetic接原厚三块、非边界重复因子和同一R/Xi。主目标未完成，子问题后接open下一项，不因时长或输入不足收尾。
