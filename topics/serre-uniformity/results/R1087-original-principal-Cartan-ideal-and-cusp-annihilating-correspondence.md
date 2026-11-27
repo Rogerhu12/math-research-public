@@ -329,10 +329,10 @@ $$
 \tag{1087.20}
 $$
 原 cycle 等式乘六给真正的整系数关系（不只是在模 torsion 的商中）：
-$
+$$
 138\,d_Z(y)=3(\mathcal F_4^*Z_{\rm ps})u_4
  +4(\mathcal F_3^*Z_{\rm ps})u_3-12Z_{\rm ps}u_y.
-$
+$$
 
 所有 cusp degree 项相消的系数恰为
 $\frac12\deg\mathcal F_4^*Z+

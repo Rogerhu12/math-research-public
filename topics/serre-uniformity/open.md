@@ -55,7 +55,7 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-cover与cusp平方角色已付；regular cusp单一p^r次闭点，无Runge盈余。原可见商/Weil范围保留，精确visibility见R1070。
 
-[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原完整cusp格/Galois及forced角色≥⌊p/4⌋−1已付，后继R1067–71保原函数和规范。
+[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原完整cusp格与forced角色已付；全覆盖、原函数/相位由R1067–71消费，余下全局排除继续。
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
