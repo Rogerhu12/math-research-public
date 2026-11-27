@@ -253,3 +253,7 @@
 ### 2026-11-27 21:31 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1116 §8将原Gaussian全部实际good完整profile准确写成同一Kronecker核的有限sigma gauge差；所有合法fine项均保原factorial/δ/Weil相位，未读未付下一band。
 - root/o2全文纸核原R1071的Lucas/两规范式与R1070的实际异常角色缺席；保两个principal极部、完整Fay及norm2的w→iw。此为完整原多项式身份，仍须排指定全good系数共同零/重值；无数学程序执行，继续这些真实核约束。
+
+### 2026-11-27 21:32 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1112 §11以同一个实际H₀/K和最大conductor接Thorner–Zaman已发表定理，付全部原good圆单位同时非零辅助素的无条件有效p^{O(p)}上界，隐含常数绝对且有效，与d无关。
+- root/global亲读正式Th1.1/degree-one定义并纸核完整两项与原相位；没有把此界当足够小的筛选素或原同点像排除。R1116 §8另获o1全文独立纸审PASS，原完整gauge/mask继续。无数学执行。

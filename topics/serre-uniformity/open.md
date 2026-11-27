@@ -14,7 +14,7 @@
 
 [R1062–71](results.md)付原全cusp/étale/p-only来源、所有角色/phase/twists，无regular/Vandiver。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)用互不交高低Bernoulli配对，将实际good维数升至≥floor(p/16)+3（forced-only仍Ω(p/logp)）。原候选O(p^1.5logp)；有界惰性CM代表不推Q-CM，一般p small-aux迹零/同点像仍开，单cusp无Runge。
 
-[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零密度=(1−1/p)^d/(p−1)，split-K中>1/2；全global标签localization同构，可加p互素Galois分裂。§§9–10付同一圆单位场精确导子/判别式，rd<p²（forced-only rd<p^1.5）；单角色degree p(p−1)的逐素并集界避整p^d场误差。有效小辅助素、一般p同点曲线像仍开。固定47的附加普通/Hecke分裂仅为已付固定输入。
+[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原good圆单位同时非零密度=(1−1/p)^d/(p−1)，split-K中>1/2；全global标签localization同构。§§9–10付准确导子/判别式，rd<p²（forced-only <p^1.5），单角色并集计数；§11以真实abelian H及最大导子付无条件ℓ_faith≪p^(1215p−867−521r_min)，无p^d粗界损失。仍不付足够小辅助素/一般p同点像；附加普通/Hecke分裂须重计参数。
 
 [R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)：原非整j局部分支由同一cusp的Kummer-annihilator Frobenius并集精确判别；−1modp整支仍相容，候选非零坐标给无条件秩下界。一般p的affine像/分母全局排除仍开。固定47现由下述独立全链完成，不再保留该固定曲线的伪缺口。
 

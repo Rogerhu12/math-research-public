@@ -725,6 +725,150 @@ $EL_\chi$ 的完全分裂素数；交域仍由 (1112.23) 支付。
 所有既有有限计算、源文件及 pin 均保持不变；本附节没有运行数学程序。
 
 
+
+## 11. 原同时非退化素的无条件有效上界
+
+本节只把 §9 的准确 conductor 接到已发表的有效 Chebotarev
+定理，不改变原圆单位、角色或辅助读数。仍取任一非空原 good
+子集 $\mathcal I_0$，令 $d_0=|\mathcal I_0|$、$r_{\min}=r_1$，
+以及 §9 的同一个 $L_0/K$。记 $\ell_{\mathrm{faith}}$ 为满足
+$
+\ell\equiv1\pmod p,\qquad
+B_{\chi,\ell}\ne0\quad(\chi\in\mathcal I_0)
+$
+的最小有理素数。这里 $B_{\chi,\ell}$ 始终是 (1112.19)
+中由原 $\beta_\chi$、同一 arithmetic Frobenius 和同一
+$\mu_p$-配对给出的读数；不是替换后的抽象非零坐标。
+
+准确有无条件有效界
+$
+\boxed{\begin{aligned}
+\ell_{\mathrm{faith}}\ll{}&
+ p^{694(p-2)+521(p+1-r_{\min})}\\
+&+p^{232(p-2)+367(p+1-r_{\min})}
+       (p-1)^{290(p-1)}.
+\end{aligned}}
+\tag{1112.46}
+$
+隐含常数是绝对且可有效计算的，特别与 $p,d_0$ 和角色选择无关。
+因此这是 $p^{O(p)}$ 的界，没有出现来自
+$[L_0:\mathbf Q]=(p-1)p^{d_0}$ 的指数维数损失。
+
+### 11.1 所用已发表定理及真正的 abelian subgroup
+
+J. Thorner、A. Zaman，
+*An explicit bound for the least prime ideal in the Chebotarev density theorem*，
+Algebra & Number Theory **11** (2017), 1135–1197，
+[正式全文](https://msp.org/ant/2017/11-5/ant-v11-n5-p04-s.pdf)，
+Theorem 1.1，印刷第1137页（PDF第3页，以封面为第0页）。
+
+该定理的准确输入是有限 Galois 扩张 $L/F$、共轭类
+$C\subset\operatorname{Gal}(L/F)$，以及一个与 $C$ 相交的
+abelian subgroup $A$。若 $K'=L^A$，
+$
+\mathcal Q(L/K')
+ =\max_{\vartheta\in\widehat A}
+      N_{K'/\mathbf Q}\mathfrak f(\vartheta),
+$
+则其定义 (1-3) 的最小 degree-one 素理想满足
+$
+P(C,L/F)\ll
+ D_{K'}^{694}\mathcal Q(L/K')^{521}
+ +D_{K'}^{232}\mathcal Q(L/K')^{367}
+       [K':\mathbf Q]^{290[K':\mathbf Q]}.
+\tag{1112.47}
+$
+定理的 degree-one 条件要求素理想范数为有理素数；
+不是仅保证一个可能为高次素数幂的范数。
+本文取 $F=\mathbf Q$，因而得到的就是实际有理辅助素。
+
+在本题中，取
+$
+L=L_0,\qquad A=H_0=\operatorname{Gal}(L_0/K)
+                     \simeq\mathbf F_p^{d_0}.
+$
+这是原扩张中的真正 abelian subgroup，其固定域准确为
+$K=\mathbf Q(\zeta_p)$，并非一个只由次数猜出的子域。
+
+由 (1112.11)，$\Delta$ 在 $H_0$ 的各一维分量上通过
+$\omega\chi^{-1}$ 作用。任选一个在每个分量上都非零的
+$h\in H_0$，并取它在 $\operatorname{Gal}(L_0/\mathbf Q)$
+中的共轭类 $C$。$H_0$ 正规且自身交换，$\Delta$ 作用只乘各分量
+的非零标量，所以
+$
+C\subset H_0,\qquad
+C\subset\{v:\text{全部原分量均非零}\},\qquad
+C\cap A\ne\varnothing.
+\tag{1112.48}
+$
+因此 (1112.47) 的所有群论假设成立。
+在 $C$ 中的 Frobenius 限制到 $K$ 为恒等，故
+$\ell\equiv1\pmod p$；其全部原 Kummer 分量非零，
+按 (1112.13) 恰给全部 $B_{\chi,\ell}\ne0$。
+共轭只改变允许的共同相位，不能把非零读数变成零。
+特别 $\ell_{\mathrm{faith}}\le P(C,L_0/\mathbf Q)$。
+
+### 11.2 最大 conductor 与尺度代入
+
+原 $L_0/K$ 只在 $\mathfrak p_K$ 分歧，
+且 $N_{K/\mathbf Q}\mathfrak p_K=p$。
+§9.1–9.3 已证明，每个非零 Kummer 组合的准确深度是
+其首个非零角色的 $r_i$，相应一维 Galois 角色的导子指数是
+$p+1-r_i$。这些是 $\widehat H_0$ 的全部非平凡角色。
+故最大 conductor 准确为
+$
+\mathcal Q(L_0/K)=p^{p+1-r_{\min}}.
+\tag{1112.49}
+$
+这里不乘 $d_0$，也不把所有角色的 conductor 乘积
+（判别式）误作最大 conductor。最大值由原 $r_{\min}$
+那条线实际取得。
+
+再用
+$
+D_K=p^{p-2},\qquad [K:\mathbf Q]=p-1
+$
+代入 (1112.47)，即得 (1112.46)。
+若只要一个较粗的单项写法，由 $(p-1)<p$，
+第二项的指数至多
+$
+889p-387-367r_{\min}.
+$
+第一项的指数为 $1215p-867-521r_{\min}$；
+二者之差
+$
+326p-480-154r_{\min}
+ \ge172p-18>0
+$
+使用了 $r_{\min}\le p-3$。因而也可写为
+$
+\ell_{\mathrm{faith}}
+ \ll p^{1215p-867-521r_{\min}}.
+\tag{1112.50}
+$
+本证明保留了定理的完整两项，没有为删除第二项另加关于
+$[K:\mathbf Q]$ 的适用条件。
+
+### 11.3 这个有效界尚未支付的范围
+
+(1112.46) 是同一原圆单位同时非退化条件的无条件有效存在性。
+它可对 R1128 的全部实际 good 子模块使用，
+并没有因该子模块的线性维数而失效。
+但它不给 $\ell<p^2/4$，也没有把所给素数放进
+R1064 (1064.39) 尚可能有筛选力的有限范围。
+尤其不能从这个上界声称原曲线的同点像缺失。
+
+附加普通性、Hecke 系数域分裂或其它指定场的完全分裂时，
+须对实际合成扩张重新计算 (1112.47) 的固定域和最大 conductor；
+§6 的定性相容性本身不允许沿用 (1112.46) 的数值参数。
+
+所以本节关闭的是“原同时非退化素是否有一个不依赖指数次数
+粗界的无条件有效上界”这一输入。它不声称局部允许标签就是
+全局点，不证明任一非 CM 候选被原辅助点集排除，
+也不改变主目标仍需真正同点像约束的范围。
+无数学程序执行。
+
+
 ## 来源与纸核
 
 - [R1062](R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：
@@ -751,3 +895,5 @@ o2 独立纸核 norm=2 的单射、$\omega\chi^{-1}$ 方向、
 无本地或其它数学程序执行。
 
 §§9–10（2026-11-27）新增原圆单位局部深度、全部导子、准确判别式和单角色并集计数接口；root/global_route/o2_high_coefficient 独立纸核，包括对偶角色计数、判别式塔与解析误差尚未支付的边界。未执行数学程序。
+
+§11：root 已亲读 Thorner–Zaman 正式 Theorem 1.1、定义 (1-3)/(1-6)，独核真实 H₀/固定域、共轭类、最大 conductor、原 phase 非零条件及两项的准确代入与吸收。全节无数学程序执行。
