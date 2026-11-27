@@ -169,3 +169,5 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [同一缺陷来源的指数边界下界与弱核心](results/R271-appendix-same-w-exponential-dyadic-boundary-cost-and-weak-core.md)现已证明：同一原最大图对若两笔真实dyadic边界费用E_r有有界子列，即可用凸组合进图核心；任意P_Wf≠0则liminf logE_r/r≥gamma_ex>5/3。较弱的沿子列E_r=o(e^{gamma r}),gamma<gamma_ex只保证输出f∈I，不偷换来源、不冒称图核心。仍需真实W的Gamma有限性及这些同源费用的实际上界，两道范围核心/N=M均未闭。
 
 [两个实际最大除法域的相反前缀正则性](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)已将原核估计扩到整个D(G)与D(Amax)：分别控制零前缀V_n与占满前缀Q_n，所有γ<γ_ex的指数位权受实际图范数控制。第一图核心真实正交缺陷恰由T*y=Sf、By+Tf=0刻画，因而Amax f=−y，不能换成Amin。这两条耦合方程继续作为新输入；未证明缺陷零、Gamma有限或alpha逆权。
+
+[一般等权整个T0=0原支](results/R150-appendix-unit211-equal-weights-T0-zero-complete-original-exclusion.md)现已关闭：原N1两线性因子合原mean给三支，分别原Dval0、非零常数和唯一末点N_S=−125/16排尽。新四原二次在x²/xy/xt/t²列的子式−16m²(m−1)²(2m+Q−2)²从此为单位。继续这个低度原模块的cubic overlap及同点N/P；旧一般QQ 600秒门保持冻结，未判整个等权为空。

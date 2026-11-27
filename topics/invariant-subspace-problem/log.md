@@ -123,3 +123,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 12:48 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 完整排除Q=1−u原均值首项s0：新线性首项零完整二次域、ell半原Dval0曲线、31次严格整数CRT覆盖/全部小纤维及C9原Gauss返回。
 - 自含源3a62434d从原Gram至末组合实际28秒；旧通用QQ(u)[h]膨胀尝试未返且原计时/源哈希缺失如实保留，不编造。继续第二首项及一般s非零；两README无变，非force推送。
+
+2026-11-27 12:55 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 完整排除一般等权T0零整支：原有限Gram/N1线性分裂及均值三支，Dval0/原非零常数/唯一末点原N_S=−125/16排尽。
+- 新增原affine/全部头/整线/原组合/末点六段精确源与实际回执；可付J及二次主子式，继续cubic overlap。末点编译变量重名错误如实记录，600秒旧门仍冻结；两README无变，非force推送。

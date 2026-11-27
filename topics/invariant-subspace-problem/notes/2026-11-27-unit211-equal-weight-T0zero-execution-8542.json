@@ -1,0 +1,67 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27 Asia/Taipei",
+  "mode": "exact BigInt V8 Function bodies",
+  "sourceSHA256": {
+    "notes/2026-11-27-unit211-equal-weight-original-affine-quadratics-8542.js": "88914af76ec66403312723ef45d12c2a503553007353e33d9e4774e90b7ccff1",
+    "notes/2026-11-27-unit211-equal-weight-original-quadratic-heads-8542.js": "46513b2b6a20cdc28ee4caf782e61ce132c9890ce582462b93f607a883211b6b",
+    "notes/2026-11-27-unit211-equal-weight-T0zero-original-line-8542.js": "b67eaebd3c0a0ccd3a838f69af23b69561164d507bd3940817807688db7e3535",
+    "notes/2026-11-27-unit211-equal-weight-T0zero-original-branches-8542.js": "4e97e0b3089b417595e41ae17121fd098c76782ca80984ad04ae6fbb7caea29d",
+    "notes/2026-11-27-unit211-equal-weight-T0zero-original-cover-trace-8542.js": "ef30dc44f7a5206822b28c29fbc21637a24d1e67f4a36a5da4bb2f95749cd43c",
+    "notes/2026-11-27-unit211-equal-weight-T0zero-original-last-point-8542.js": "5057e41d0413192b8e053745da395ec11389a2ac6b2246dbb92ce150174f739f"
+  },
+  "stages": [
+    {
+      "stage": "affine_quad",
+      "seconds": 1.22,
+      "canonicalOutputSHA256": "a843acd0c45e20ffbfc39f437f58f44815ea8c601c6a9bac41389c45e8c1f650"
+    },
+    {
+      "stage": "affine_heads",
+      "seconds": 0.059,
+      "canonicalOutputSHA256": "fe448af6adbe6c925e7cab38d46be4927f0a75f1b3a97340b0e43750c75e48ef"
+    },
+    {
+      "stage": "T0zero_line",
+      "seconds": 0.091,
+      "canonicalOutputSHA256": "c2f60d339af4c35754c191d78836e0cf5822eb9b2a89bb77d30860755451a176"
+    },
+    {
+      "stage": "T0zero_branches",
+      "seconds": 0.034,
+      "canonicalOutputSHA256": "d12c6e1fb69ad9f126ce691e84b30ee525e6216888d42e6f8ad113794bad34d3"
+    },
+    {
+      "stage": "T0zero_cover_trace",
+      "seconds": 0.001,
+      "canonicalOutputSHA256": "ca9548616f22a97b35309628b5c7ec2ae233edaf90d0fe35d6cf617eb19b967c"
+    }
+  ],
+  "lastPoint": {
+    "stage": "T0zero_original_last_point_return",
+    "point": {
+      "m": "-1/2",
+      "Q": 3,
+      "x": "-1/2",
+      "y": "1/2",
+      "t": 4
+    },
+    "normalizedNs": "500",
+    "normalizedPs": "116",
+    "normalizedDval": "-56",
+    "originalWeightedNS": "-125/16",
+    "excluded": true
+  },
+  "lastPointSeconds": "not separately captured; V8 call completed normally",
+  "parseFailure": {
+    "stage": "last-point function compilation",
+    "error": "Identifier P has already been declared",
+    "arithmeticStarted": false,
+    "failedSourceSHA256": "f4ec129d8267b871a7f660bb534d8933eeb80ef9e3ba40b4cce0698245ad8cca",
+    "resolution": "renamed local result variable; corrected source completed"
+  },
+  "rawNPAndValueUnitsRetained": true,
+  "wholeEqualWeightT0ZeroExcluded": true,
+  "wholeEqualWeightExcluded": false,
+  "ordinaryISPCompleted": false
+}

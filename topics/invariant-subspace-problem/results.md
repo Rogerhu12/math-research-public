@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，一般等权整个T0=0原支）**：[原N1线性分裂和三个同点有限返回](results/R150-appendix-unit211-equal-weights-T0-zero-complete-original-exclusion.md)：原N1=(mt−2(x−y))(mt−2(2m−1)(x−y))的已付倍式；两原mean组合给三完整支，原Dval0/非零常数/末点N_S=−125/16排尽。可付J=2m+Q−2及指定四阶二次主子式，续原低度模块；不依赖失败QQ大门或最高次替代。
+
 - **已证明（R150，Q=1−u原均值首项s0整支）**：[原同源恢复、完整权覆盖与Gauss返回](results/R150-appendix-unit211-Q1minusU-mean-leading-sZero-exclusion.md)：h=ell/u图原E1二次首项含s；s0中新的y首项零在完整二次域排尽，原公共ell半曲线回Dval0，余31次严格QQ结式各小因子全返、C9由同原NS的17阶投影和保度Gauss排尽。源3a62434d完整V8实测28秒；第二首项因子/一般余图仍开。
 
 - **已证明（R271，真实Green缺陷的闭坐标、正下界与正角图）**：[两条原耦合方程的闭子空间结构](results/R271-appendix-actual-green-defect-closed-coordinates-and-positive-angle.md)：真实缺陷两坐标范数等价，闭X/Y上G为有界同构，B/S/T/T*在对应来源有正下界；P_I|X有统一下界，F=P_I X闭，X为有界Z:F→W的图且J=I⊕closure ZF。图核心等价F0、第一范围等价Z0、第二范围等价closure ZF=W；未付不变性/Γ/全核心。
