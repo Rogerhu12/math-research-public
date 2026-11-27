@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全余W：原四均值理想的首一物理λ六次](results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md)：同一六生成元乘法与adj给χ(λ)∈I4，无自由基底/轴矩阵交换/几何D逆；旧两个λ6在已付物理局部化中可无新逆降≤5。显式系数新源首次构建。
+
 - [一对等权加四独立：共同因子三维原S1严格正](results/R271-appendix-one-pair-four-independent-common-factor-three-source-s1-block.md)：原Δ2/3五域全部返回，合已付Δ1得最大单组共同因子的三维块A>0；连续门180秒未返Δ4，完整S1/S2仍开，剩余原Schur结构另续。
 
 - [真实整P201与三原范数交至14次、完整点≤2016](results/R150-appendix-unit211-Phi-zero-H1-integral-P201-original-norm-14-cover-and-2016-points.md)：固定原结式复合Bézout及整首一gcd提升，权对≤56、五坐标≤1008；八个实际完成块排除，余五完整块1/1/3/4/5，不识别QQ因子。

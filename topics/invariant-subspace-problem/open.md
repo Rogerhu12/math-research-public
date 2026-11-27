@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-one-pair-common-factor-three-s1-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-global-original-physical-lambda-monic-six-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -220,4 +220,4 @@ H1旧C55九域、原h0整零面及其范围保快照/正文；仍仅旧物理D�
 
 [一对加四独立共同因子三维原S1块](results/R271-appendix-one-pair-four-independent-common-factor-three-source-s1-block.md)：首minor全域后，29ce9真实180.043810227秒/727708KiB/−14，Δ2/3分别22.763/92.754秒已在五闭域全正。Δ2第四域平方项 $1458B^{26}(6B^2+81BC+323C^2)(C-D)^2$，十域余式全非负且常数严格正。因此最大单组的共同因子三维原块A>0，所有重权边界保留。Δ4未返、5/6未到，连续消元门冻结；余下准确为同原源 $D-C^*A^{-1}C$ 三维形式，续其全物理回归/平方结构，不仅换序或删旧检查重跑。完整六维/九维S1、S2、六独立及同W费开。
 
-[整K7全闭/原λ三生成](results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md)：85bc返$C_3^2$，9418整QQ三次48×35、rank33返$D$，得$D^2\in I_6$，物理D单位闭整K7含幂零层；181×84未跑。当前权[λ]上1,x,y三生成、固定权/λ长≤3，不称任意D局部化全局有限。[十一原行/两个λ6及准确边界](results/R150-appendix-unit211-W-physical-lambda-eleven-original-rows-two-sextics-and-projection-boundary.md)：5dafa真180.964816531秒/280932KiB/−14，原规则/六乘法/十一六项迹和两cofactor均已返；未付h0/h1整零面保留。12×12结式仅两步221整除，无det，整门冻结。继续原六元乘法的首一λ关系及降次输入、个别NP/NV；绑定与路径故障分别保原记录。
+[整K7全闭/原λ三生成](results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md)已付全部余W固定三头，权[λ]上1,x,y三生成；不称任意D局部化全局有限。[新首一物理λ六次](results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md)由已付18原乘法定义Mλ，adj给χ(λ)∈I4，全部权分母已付，无free/轴矩阵交换假设或λ/D逆。新4ab首次180秒/4GiB构建显示系数，不作为纸证额外门。原两λ6可减头×χ降≤5且不倒新头/内容；旧λ剥除迹仅保证I6^phys，已明确物理局部化。十一原行/两λ6源保前稿；12×12真180秒仅两步221整除，无det，冻结。继续新降次/同点NP/NV，未付h0/h1整零面保留。
