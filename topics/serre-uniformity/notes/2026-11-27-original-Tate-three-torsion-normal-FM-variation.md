@@ -1845,3 +1845,204 @@ $$
 
 
 §§14–15 root 对精确候选12aae596全文独立纸核通过：交换子与二项式平均、Rε最高项相消/完整常数、固定U二阶、原两微分下降及exact reduction、proper高极的CM自由项排除、Fermat初值与不除a的三式消元全部相容。没有由同CM一维类或各moment单位推出两个指定和非同时零。
+
+
+## 16. 普通族的完整 Picard 连接、真实移动标架及插入算子
+
+本节仍用 §13 的整个 $K[[\epsilon]]$ 上 Tate 族，不只读取特殊纤维。
+记 $F_\epsilon:E_\epsilon\to E_\epsilon^{(p)}$、
+$\mathcal V_\epsilon:E_\epsilon^{(p)}\to E_\epsilon$ 为实际两条同源；
+$D_T,D_R$ 分别由源和目标的原 invariant differential 定义。
+$H=H_\epsilon,\delta_\epsilon,\Psi_\epsilon$ 始终是 (N.57)–(N.60)
+的同一规范，不把 $\delta_\epsilon$ 冻结成特殊纤维的 $\delta$。
+
+本节给出原 Picard 方向可以反复消费的完整 source 恒等式。
+它保留普通纤维的 $H D_T$ 插入及实际 $M_0$ 标架；
+没有将它缩成整个旧 $V_0$ 上的低阶目标微分算子。
+
+### 16.1 两变量的真正 logarithmic derivative
+
+对一般 $R$ 置 $A=\mathcal V_\epsilon R$，并在同一源曲线上记
+$$
+h_A(T)=\frac{V_T+V_A}{U_T-U_A},\qquad
+D_T\log K_\epsilon(T,R)=h_A(T)+c_\epsilon(R).
+\tag{N.73}
+$$
+第二式先由全部源极点定义 $c_\epsilon$：
+$D_T\log K_\epsilon$ 的两个简单极为 $A,O$，
+其留数为 $1,-1$；$p$ 重极的 logarithmic derivative 为零。
+减去 $h_A$ 后在源曲线上处处正则，故恰为目标变量的函数。
+原 $T=O$ 首项也给
+$K_\epsilon=u^{p-1}(1+c_\epsilon(R)u+O(u^2))$。
+同时反转 $T,R$ 保持刚化核，而 $D_T,h_A$ 变号，
+故 $c_\epsilon(-R)=-c_\epsilon(R)$。
+
+完整的另一变量公式为
+$$
+\boxed{
+D_R\log K_\epsilon(T,R)
+=\Psi_\epsilon(T)-h_{F_\epsilon T}(R)-Hh_A(T).
+}
+\tag{N.74}
+$$
+以下比较在一般点上进行，最后才有理延拓。
+
+在 $F_\epsilon^{-1}R$，移动的 Frobenius 分母准确给
+$-h_{F_\epsilon T}(R)$ 的 $p$ 阶主部。
+移动的简单零点 $A$ 则因
+$\mathcal V_\epsilon^*\omega_\epsilon=H\omega_R'$
+给 $-Hh_A(T)$ 的主部。除这两点和 $O$ 外没有其他源极。
+在 $O$，三项分别具有
+$u^{-p}-H/u$、$-u^{-p}$、$+H/u$ 的全部负次项；
+其常数都为零，故完全相消。
+左边在 $O$ 的常数也为零，因为 $K_\epsilon$ 的首项系数恒为一。
+所以两边之差是原点值为零的全局常数，得到 (N.74)。
+特别，不能在普通族中删去最后的 moving-zero 项。
+
+令 $a_2=\epsilon^2/4$。同一个 Weierstrass chord 的两条导数准确为
+$$
+D_T h_A=2U_T+U_A+a_2-h_A^2,\qquad
+D_A h_A=h_A^2-U_T-2U_A-a_2.
+$$
+使用 $D_T\Psi_\epsilon=HU_T+\delta_\epsilon$，
+对 (N.73)–(N.74) 作 mixed derivative，
+所有 $a_2$ 项消去，得到
+$$
+\boxed{\quad D_Rc_\epsilon=\delta_\epsilon+H U_A.\quad}
+\tag{N.75}
+$$
+这一步使用真正的目标导数；没有把相对 Frobenius 当成一个
+可微分的点参数同构。
+
+### 16.2 整个 $M_0$ 标架的 logarithmic derivative
+
+令 $M_\epsilon(R)$ 是原 §6 的实际 $M_0$ 截面以
+$\mathcal O((p-1)O)$ 的原有理标架表示的函数，并固定
+$M_\epsilon(F_\epsilon Q)=1$。其准确除子为
+$$
+\operatorname{div}M_\epsilon=\mathcal V_\epsilon^*(O)-p(O).
+$$
+普通纤维上，$\ker\mathcal V_\epsilon$ 的阶为奇素数 $p$，
+对称点对之和为零，故该 degree-zero divisor 确为主除子。
+以 $F_\epsilon Q$ 刚化后它为偶函数。
+§6 的实际截面及无 vertical 因子证明把它整地延拓到整个形式族，
+且 $M_0=1$。这里保持全部非约化核除子，不把它逐点约成 $pO$。
+
+在普通纤维的每个 $\ker\mathcal V_\epsilon$ 点附近，
+取目标 invariant 参数 $z$，则源参数为 $Hz+O(z^2)$。
+在固定一般 $T$ 上，$h_A(T)$ 的主部为 $1/(Hz)$。
+$D_T\log K_\epsilon$ 的可能轴因子不贡献这个主部。
+准确地，在固定的一般 $T$ 上，以目标局部参数 $z$ 写
+$K_\epsilon=z^d u(T,z)$，其中 $u(T,0)$ 为非零单位；
+$D_T$ 杀 $z^d$，故 $D_T\log K_\epsilon=D_Tu/u$ 没有 $z^{-1}$ 项。
+这在非零核点及 $R=O$ 都适用，不需要把具有
+$p$ 倍除子的普通 Miller 函数误称为全局 $p$ 次幂。
+因此 $c_\epsilon$ 在全部这些点的主部准确为 $-1/(Hz)$，
+没有其他极点。
+
+另一方面 $D_R\log M_\epsilon$ 在每个核点的留数都是 $1$，
+包括 $O$，因为该处除子系数为 $1-p=1$ 于特征 $p$。
+所以 $Hc_\epsilon+D_R\log M_\epsilon$ 全纯。
+它是奇函数，故全局常数为零。由普通纤维上的这一证明
+及整恒等式延拓，得到
+$$
+\boxed{\quad Hc_\epsilon=-D_R\log M_\epsilon.\quad}
+\tag{N.76}
+$$
+它不是只在 Hasse 可逆的开集上另选一个未知标架。
+
+两个准确核对有助于固定原常数。
+首先，直接由 $l_+=V-v-\epsilon U/2$、
+$D l_+=3U^2-\epsilon l_+$ 及 $6k=1$，
+$$
+D\log(U/l_+^{2k})=(V-v)/U-\epsilon/6.
+$$
+因此在原目标点
+$$
+c_\epsilon(F_\epsilon Q)=-\epsilon/6,\qquad
+D_R\log M_\epsilon(F_\epsilon Q)=\epsilon H/6.
+$$
+其次，(N.8)–(N.9) 在 $T=O$ 再保留一次项，
+给特殊纤维上的完整一阶
+$$
+\boxed{
+6v\,\dot c_\epsilon(R)\big|_0
+=-U_R^p\Psi_R-V_R^p.
+}
+\tag{N.77}
+$$
+在 $R=FQ=-Q$，右边为 $-v$，正好恢复 $-1/6$。
+其目标导数也为 $-\delta U_R^p/(6v)$，
+与 (N.75)、$H'_0=-\delta/(6v)$、$\delta'_0=0$ 相符。
+而 (N.76) 的首一阶准确回到
+$M_\epsilon=1+\epsilon\delta\mathcal R/(6v)$，
+即已经付清的 (N.21)。
+
+### 16.3 全 extended Cartier 与真正 Picard 迭代
+
+令 $Z=F_\epsilon T$。对与 $R$ 无关的源有理函数 $f$，定义完整有理输出
+$$
+\mathcal T_\epsilon[f](Z,R)
+=\frac{C_{{\rm rel},T}(fK_\epsilon\omega_\epsilon)}{\omega_Z'},
+\qquad
+\widehat{\mathcal T}_\epsilon[f]=M_\epsilon(R)\mathcal T_\epsilon[f].
+$$
+当 $f$ 在原合法有限极界内时，$\mathcal T_\epsilon[f]=t_f^\epsilon$
+与 $Z$ 无关；对随后出现的高极输入，本节始终保留全部 $Z$ 依赖，
+不省略原第三类项。
+
+相对 Cartier 对 base $R$ 线性并与 $D_R$ 交换。
+在 (N.74) 中，
+$h_{F_\epsilon T}(R)$ 正是目标 $h_Z(R)$ 的 Frobenius 拉回。
+另外 $h_AK_\epsilon=D_TK_\epsilon-c_\epsilon K_\epsilon$，
+故一次完全的分部积分给
+$$
+(D_R+h_Z(R)-Hc_\epsilon)\mathcal T_\epsilon[f]
+=\mathcal T_\epsilon[(\Psi_\epsilon+H D_T)f].
+$$
+结合 (N.76)，真正 fixed-line 形式为
+$$
+\boxed{
+(D_R+h_Z(R))\widehat{\mathcal T}_\epsilon[f]
+=\widehat{\mathcal T}_\epsilon[\mathcal A_\epsilon f],
+\qquad
+\mathcal A_\epsilon=\Psi_\epsilon+H D_T.
+}
+\tag{N.78}
+$$
+特别，源上的 $+H D_Tf$ 来自原 moving-zero 项的分部积分，
+不能以特殊纤维 $H=0$ 提前删除。
+因为 $\mathcal A_\epsilon$ 与 $R$ 无关，(N.78) 可在函数域中反复迭代；
+每步的高极输入及其全部 extended Cartier 输出都随等式保留。
+
+作为全阶一致性核对，单 derivation 的特征 $p$ 恒等式
+$(aD+b)^p=a^pD^p+b^p+a^{p-1}D^{p-1}b$
+适用于底常数 $a=H$。它可由 Leibniz 展开取得：
+除 $b^p$ 和 $D^{p-1}b$ 外的 mixed Bell 系数均被 $p$ 整除。
+原 (N.57) 与 $\Psi_\epsilon=D^{p-2}U$ 给
+$D^{p-1}\Psi_\epsilon=H\Psi_\epsilon$，从而
+$$
+\boxed{
+\mathcal A_\epsilon^p-H^p\mathcal A_\epsilon=\Psi_\epsilon^p,
+\qquad
+\{(D_R+h_Z)^p-H^p(D_R+h_Z)\}\widehat{\mathcal T}_\epsilon[f]
+=\Psi_\epsilon^{(p)}(Z)\widehat{\mathcal T}_\epsilon[f].
+}
+\tag{N.79}
+$$
+最后的 scalar 是实际 Frobenius 拉回运输后的同一
+$\Psi_\epsilon^{(p)}(Z)$，不是对 base 常数再取 $p$ 次根。
+这条 $p$-curvature 核对也可由目标的普通 Deuring 加律直接验证；
+它本身不提供指定低阶 Picard 系数的非零。
+
+本节完整支付 ordinary Picard 连接及其 $M_0$ 标架。
+它没有将 normal 的 Hasse 简单零变成原 $e$ 或 $K_4$ 的单位，
+也没有越过 §9 的全空间低阶微分算子障碍。
+后继仍须在同一个原输入 $f=U^m$ 上比较 (N.78) 的完整高极来源
+与两个指定 Picard jets。
+
+§16 核心双变量、relative Cartier、$M_0$ 主部/奇性及插入算子
+经 o1/o2 独立纸核；完整转录另交 root 审阅。无数学执行。
+
+
+§16 root 对修正版180c14e全文独立纸核通过：源所有极及O负项、完整a2 chord和、c的目标局部Laurent证明、N.20已付full-family闭包、N.9的u一次项重读、实际M标架及+HD分部积分、两个H^p系数均一致。未发布候选09e93中的错误全局pth-power理由；指定低jet非零仍继续。

@@ -447,3 +447,8 @@
 ### 2026-11-28 01:54 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原fixed-Prym三无穷点的自由阶三作用给实际quotient，目标经ρ³=2精确回原E，不仅比较j。root逐式付固定域/degree3、φ*ω=−3ρ⁻²ωP、完整Newton trace及原A*/B*的两Cartier读数；最高项分别单位3ρ⁻²与1。
 - o1独立纸核原模型、Fermat三根、微分/Frobenius trace标度和最高项。proper类经真实φ*/φ*trace识别；仍未把顶项单位或同源完美性当原e/K4非同时零。open逐字前态归档并压缩；无数学执行，继续有界primitive与三平移实际关系。
+
+
+### 2026-11-28 01:57 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原Tate normal-FM§16付ordinary全族双变量Picard连接和实际M标架。移动simple零与source Ψ的−H/u一并保留，真实插入是Ψ+HD；所有高极输入保全部extended Cartier输出。Q/normal c与M首变分均回原尺度，全p-curvature仅作核对。
+- 候选09e93的一个普通p倍divisor⇒全局pthpower理由在发布前被o2指出；修正版180c14e改为K=z^d u(T,z)的目标局部证明，root/o1/o2精确全文PASS。主结论公式不变，未据此推e/K4单位。open前态逐字归档/去重复；无数学执行，继续指定U^m低jets。

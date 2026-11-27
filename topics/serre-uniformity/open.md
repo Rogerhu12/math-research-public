@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-Prym-three-isogeny.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-ordinary-Picard-connection.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -44,15 +44,11 @@ R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job1405944
 
 ## O1：全p同一真实本原标签的临界非零
 
-[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–15保真实Miller/Verschiebung、kerV/−Q刚化及全部P/N连接/自然基补偿。首normal×Picard一/四阶零、normal零阶unit；全V₀低阶共轭已排，不排指定读数。真实三挠cover η=−z/w给Prym Y²=−(3x+ε)(x³+2v)、完整θ Hasse/Gauss，θ为终止ε₂F₁；period仅<p安全jets，首共振p+1。全族Ψε普通加律保−HM、Rε保完整S补偿/常数，三挠ε^p及二阶边界不删。§15固定同一Prym的Ξ/Υ准确读3e、−3K4，proper高极自由项按CM权固定，两类同一CM线。完整Fermat L_j递推给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k项unit/后k项零；moving三挠不代fixed Picard，原两和非同时零继续。
+[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保真实Miller/Verschiebung、kerV/−Q刚化及全部P/N连接/自然基补偿。首normal×Picard一/四阶零、normal零阶unit；全V₀低阶共轭已排，不排指定读数。真实三挠cover η=−z/w给Prym Y²=−(3x+ε)(x³+2v)、完整θ Hasse/Gauss，θ为终止ε₂F₁；period仅<p安全jets，首共振p+1。全族Ψε普通加律保−HM、Rε保完整S补偿/常数，三挠ε^p及二阶边界不删。§15固定同一Prym的Ξ/Υ准确读3e、−3K4，proper高极自由项按CM权固定，两类同一CM线。完整Fermat L_j递推给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k项unit/后k项零；moving三挠不代fixed Picard，原两和非同时零继续。 §16普通全族连接完整为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M的div=V*O−pO、Hc=−DlogM、Q处c=−ε/6；全部moving-zero/高极输出保留。Aε^p−H^pAε=Ψε^p仅核尺度，仍须指定U^m的低jets。
 
 [原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)自由，q=r²−x²,w=r³+3rx²给真实3-isogeny φ=(q/ρ²,w/2)到同一原E；φ*ωE=−3ρ⁻²ωP。有限Newton trace完整给A*=Tr(R/r²)/3、B*=TrR²/3，准确Cartier读e/v、K4；顶项分别3ρ⁻² U^(m−1)、U^(p−1)。proper类的φ*/φ*trace尺度已付，最高项/同源p单位不代原共同非零。
 
 [R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及一阶解给原I_n递推与准确短Ramanujan和，原p=6m+5的截断m及PF最后强迫项全部保留。§6已完成真邻项桥：I_(n+2)来自(V−v)ν/(V+v)u的亚纯配对，完整相对Cartier/分部积分给I_(n+2)+I_n=3δ/4。因此旁单位只回旧C(Uω)，不再把它当独立K4入口；继续原三挠族变分及有边界的短和。run46015627853/job140561880424完整证书只消费。
-
-[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)以原sigma heat与安全权≤p−3给实际完整Gaussian坐标常数 iff ord_b G_(w_R)≥s_R；非恒定时coarse degree=(s_R−ord)/2。三层互不交实际角色链和总irregular预算给p4k+3时至少max{3,floor(p/96)+2}个非恒定good坐标，精确渐近下界p/96+(log24/12)p/logp−O(1)。不声称函数线性独立、中心一阶全unit、共同纤维唯一或盘内唯一；继续完整gauge差的实际good mask。
-
-[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)关闭一个真实Gaussian标签分支：p4k+3且p|B_(p−3)时，原V中χ=ω²准确出现且B₂恒good；原完整coarse标签是斜率−aβ₀⁴λ²/(20bχ)单位的一次式，故每个固定候选在该coarse线上至多一盘。只付跨盘注入，不付盘内唯一；剩余Gaussian标签问题限p∤B_(p−3)，其H_p与其它good mask仍保。
 
 [R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)付原X108六CM输入的全部十五对Raynaud配对，目标保十维；真实R/I/σ和p逆半线性准确给A/S/T三有限和及完整表。原S_n仍为gd/uv通道；六阶Pfaffian恒零且不含S，不能从此或非CM普通性推出S单位。后继沿真实gd=c²、uv=h²及primitive求高阶约束。
 
