@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-five-L0-w-curves-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-L0-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -43,7 +43,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
-**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V及X两方向完整首项零面均闭；X可合法按λ34次或w52次首一化，四原8×8子式保全部主元零支。全部旧QQ门/大投影/PRS失败冻结，准确来源保完整快照及正文。[3352次完整QQ覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-CX-exact-degree-3352-cover.md)已有1009首项单位；[五固定低次w曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-fixed-w-curves-complete-exclusion.md)由原单位剥除/一元Gauss全闭，源05b0b9ca实际43.945477秒/exit0。尚未证明它们穷尽，继续原Sylvester特征零重数和同rho/t全部P/N，不以模支持代覆盖。
+**原U值图L0 整支已闭：** [完整3352次覆盖、九因子1535次QQ整除及1817余项原Gauss排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)已合全部退化面。九因子各实际子证及36QQ Bézout齐全，完整原S8/S5模三项乘回1；源6eb17f28实际74.373804秒/114492KiB/exit0。两整合signal9仍记失败，不作为排空门槛。旧投影/门/PRS全部冻结，不再重做L0，继续一般LS及其它open接口。
 
 **S0/Lt0 整支已闭：** 完整原615次QQ覆盖及三个整因子返回已合并全部退化面；源9d0c7789实际163.600807秒/exit0，见结果索引，不重跑旧门。现在一般LS非零层的[加权矩图及P1双零完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)已付(Pf,Pt)非同时零并保ell/T/等权零面，[Delta零全域值降维](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-global-monic-value-quadratic.md)已将四原值式双向化为首一二次式/三一次式；六条参数条件保全部首项零纤维并完整投影这四等式，四Gram子式仅必要。Phi在Delta0合法非零，保所有原非零和同f返回；[W对ell首项零整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-leading-zero-exclusion.md)现全闭，W0图可付u(Q+2)−2；W0/Delta0/一般图仍开，旧模内存/600秒及M10/M6冻结。
 

@@ -1,0 +1,81 @@
+{
+  "execution": {
+    "sourceSha256": "554f90b4e7be83e8838a3aa173012443a6e756c0b356cd15dea4b104552d19d5",
+    "arguments": [
+      "3"
+    ],
+    "wallSeconds": 20.782463524999912,
+    "actualSourceExitCode": 0,
+    "outerTimeout": false,
+    "peakRssKiB": 371644,
+    "stdoutSha256": "56f0ddc5f4b7af3ade4f993bd0529ff5b010acc603f393c7ab17b677801286f8",
+    "stdoutBytes": 2182
+  },
+  "sourceFullCertificateSha256": "a17e8d4671b7ff3453723f045599fd7e624d10345a9f32a8fa0ec95fc859d2f6",
+  "certificate": {
+    "group": "3",
+    "phi": [
+      "3/32",
+      "-23/32",
+      "-1/4",
+      "-255/32",
+      "-281/8",
+      "-1773/32",
+      "-69/16",
+      "115/4",
+      "4",
+      "-6",
+      "1"
+    ],
+    "rootPolynomial": [
+      "137663593/445081770",
+      "177048107/95374665",
+      "720943364/133524531",
+      "2979082573/267049062",
+      "-4448399479/445081770",
+      "-548796265/44508177",
+      "1214235116/222540885",
+      "2531123824/667622655",
+      "-1404849616/667622655",
+      "187317104/667622655"
+    ],
+    "initialQQExponent": 2,
+    "provedQQExponentLowerBound": 4,
+    "modularTarget": 4,
+    "targetReached": true,
+    "rounds": [
+      {
+        "round": 1,
+        "actualQQRank": 720,
+        "actualQQKernelDimension": 10,
+        "selectedKKernelRows": 1,
+        "chosenRows": [
+          0
+        ],
+        "extractedTotal": 3,
+        "remainingPrecision": 2,
+        "actualInverseProducts": 1,
+        "allKernelAndDivisionIdentitiesVerified": true
+      },
+      {
+        "round": 2,
+        "actualQQRank": 720,
+        "actualQQKernelDimension": 10,
+        "selectedKKernelRows": 1,
+        "chosenRows": [
+          0
+        ],
+        "extractedTotal": 4,
+        "remainingPrecision": 1,
+        "actualInverseProducts": 2,
+        "allKernelAndDivisionIdentitiesVerified": true
+      }
+    ],
+    "divisionIdentities": 87191,
+    "actualInverseProducts": 2,
+    "kernelTraceSha256": "2883a0c15a3c30dc6de42b68bf03ae54dd38f52933473246aa6b19ae47a7005d",
+    "sourceSha256": "554f90b4e7be83e8838a3aa173012443a6e756c0b356cd15dea4b104552d19d5",
+    "peakRssKiB": 371644,
+    "wholeL0Excluded": false
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "sourceSha256": "49acb43e06a6704d49148c7f72e254ca62a46d06f9214c4d9025f6790b4d55e9",
+  "factors": [
+    [
+      "w",
+      [
+        "0",
+        "1"
+      ],
+      815
+    ],
+    [
+      "w-1",
+      [
+        "-1",
+        "1"
+      ],
+      203
+    ],
+    [
+      "w+1",
+      [
+        "1",
+        "1"
+      ],
+      63
+    ],
+    [
+      "w+half",
+      [
+        "1/2",
+        "1"
+      ],
+      41
+    ],
+    [
+      "J2a",
+      [
+        "3/2",
+        "2",
+        "1"
+      ],
+      107
+    ],
+    [
+      "J2b",
+      [
+        "1/2",
+        "1",
+        "1"
+      ],
+      36
+    ],
+    [
+      "J3",
+      [
+        "-3/4",
+        "-1/4",
+        "1",
+        "1"
+      ],
+      5
+    ],
+    [
+      "J6",
+      [
+        "-1/28",
+        "5/56",
+        "1/14",
+        "4/7",
+        "75/28",
+        "20/7",
+        "1"
+      ],
+      12
+    ],
+    [
+      "J10",
+      [
+        "3/32",
+        "-23/32",
+        "-1/4",
+        "-255/32",
+        "-281/8",
+        "-1773/32",
+        "-69/16",
+        "115/4",
+        "4",
+        "-6",
+        "1"
+      ],
+      4
+    ]
+  ],
+  "pairwiseBezoutIdentities": 36,
+  "records": [
+    {
+      "factors": [
+        "w-1",
+        "w"
+      ],
+      "coefficientDegrees": [
+        0,
+        0
+      ],
+      "identitySha256": "7ecde13cf93afd9a3c5671cda1a3abc5c43a05a440d5c7b56d70242c60630cf7"
+    },
+    {
+      "factors": [
+        "w+1",
+        "w"
+      ],
+      "coefficientDegrees": [
+        0,
+        0
+      ],
+      "identitySha256": "278aef06e32743b02aad8b9d240178519ecc3721effc0dd77a7b0030e79b1c64"
+    },
+    {
+      "factors": [
+        "w+1",
+        "w-1"
+      ],
+      "coefficientDegrees": [
+        0,
+        0
+      ],
+      "identitySha256": "17b674301699c364133c10c43a7e7d84de29dc2f18d6962bae75c1bf65f3b42a"
+    },
+    {
+      "factors": [
+        "w+half",
+        "w"
+      ],
+      "coefficientDegrees": [
+        0,
+        0
+      ],
+      "identitySha256": "2ae47f7d477a1770a3b745cfe9c215c7f22ca1e474cb1233079a0f258468fc46"
+    },
+    {
+      "factors": [
+        "w+half",
+        "w-1"
+      ],
+      "coefficientDegrees": [
+        0,
+        0
+      ],
+      "identitySha256": "3ad747f2ed194d3b81473c3f4730f2fc962cbb53d62fcc4950b84a90e887dc56"
+    },
+    {
+      "factors": [
+        "w+half",
+        "w+1"
+      ],
+      "coefficientDegrees": [
+        0,
+        0
+      ],
+      "identitySha256": "4078675d8900b870aa18dfc381a59bc86ef815a510827147564de819f97923b9"
+    },
+    {
+      "factors": [
+        "J2a",
+        "w"
+      ],
+      "coefficientDegrees": [
+        0,
+        1
+      ],
+      "identitySha256": "eb0361ea0f00cf7df80faf5c068a4fa44e48fe06a8a943c0548f8c9a524f9870"
+    },
+    {
+      "factors": [
+        "J2a",
+        "w-1"
+      ],
+      "coefficientDegrees": [
+        0,
+        1
+      ],
+      "identitySha256": "b417d61da3358d76c380437944899e4be9e5d43e59d5b5f05618c7c8e75b09e3"
+    },
+    {
+      "factors": [
+        "J2a",
+        "w+1"
+      ],
+      "coefficientDegrees": [
+        0,
+        1
+      ],
+      "identitySha256": "f6b60afd2c1325fbb3decc686ddb385db978757a9d70b17c47b9c4ae9dbf559d"
+    },
+    {
+      "factors": [
+        "J2a",
+        "w+half"
+      ],
+      "coefficientDegrees": [
+        0,
+        1
+      ],
+      "identitySha256": "ef13195c66df0917718c1e77ce66b86d2e146992049241505b9cdf413438738a"
+    },
+    {
+      "factors": [
+        "J2b",
+        "w"
+      ],
+      "coefficientDegrees": [
+        0,
+        1
+      ],
+      "identitySha256": "f6b60afd2c1325fbb3decc686ddb385db978757a9d70b17c47b9c4ae9dbf559d"
+    },
+    {
+      "factors": [
+        "J2b",
+        "w-1"
+      ],
+      "coefficientDegrees": [
+        0,
+        1
+      ],
+      "identitySha256": "3ea90f9f8186021fef04e6d8b132c888581bd856cb2d253e80b3cca58728901c"
+    },
+    {
+      "factors": [
+        "J2b",
+        "w+1"
+      ],
+      "coefficientDegrees": [
+        0,
+        1
+      ],
+      "identitySha256": "dc2952b707c6fc6aaf1dbcc8b8117ade050da9921c35b40e14500f06f499d8da"
+    },
+    {
+      "factors": [
+        "J2b",
+        "w+half"
+      ],
+      "coefficientDegrees": [
+        0,
+        1
+      ],
+      "identitySha256": "2b8e65bc3e20285e8cea0d099e8df285dcb24d40eb5a0a81b23263fb4d89e36c"
+    },
+    {
+      "factors": [
+        "J2b",
+        "J2a"
+      ],
+      "coefficientDegrees": [
+        1,
+        1
+      ],
+      "identitySha256": "d8a643c8500021091e76e04f2a271e383ad8808f7f7cabbde41b808f56b534aa"
+    },
+    {
+      "factors": [
+        "J3",
+        "w"
+      ],
+      "coefficientDegrees": [
+        0,
+        2
+      ],
+      "identitySha256": "73705cdec92819616d909672fd2be178065d87f83db0414f2039c18eb23f81ad"
+    },
+    {
+      "factors": [
+        "J3",
+        "w-1"
+      ],
+      "coefficientDegrees": [
+        0,
+        2
+      ],
+      "identitySha256": "68b98ca0e5c2ecf2bcd507136b83907e4ab185926b4c8170fc9b388919e85f82"
+    },
+    {
+      "factors": [
+        "J3",
+        "w+1"
+      ],
+      "coefficientDegrees": [
+        0,
+        2
+      ],
+      "identitySha256": "5cfddecb6550e65b1424eb372a821f2c93cbad1061a45456d5f2d26c15d28980"
+    },
+    {
+      "factors": [
+        "J3",
+        "w+half"
+      ],
+      "coefficientDegrees": [
+        0,
+        2
+      ],
+      "identitySha256": "137cf9cddfed6033f22aff2daeb2e2f825b561745fea8dacde4ca5490177731d"
+    },
+    {
+      "factors": [
+        "J3",
+        "J2a"
+      ],
+      "coefficientDegrees": [
+        1,
+        2
+      ],
+      "identitySha256": "907100a10e40a599fddf50d4dc7955c2d115e2ab319d1f1b06bf99747a26430b"
+    },
+    {
+      "factors": [
+        "J3",
+        "J2b"
+      ],
+      "coefficientDegrees": [
+        1,
+        2
+      ],
+      "identitySha256": "19a4f1943a0b90dc09b916a36d522ad6c5732792211b77e017e85cf84d5d6d2a"
+    },
+    {
+      "factors": [
+        "J6",
+        "w"
+      ],
+      "coefficientDegrees": [
+        0,
+        5
+      ],
+      "identitySha256": "39e01f61c27a6e1c3e74f9fade1a30b1fb295f482eed75d9cdbcf9b0e15f5969"
+    },
+    {
+      "factors": [
+        "J6",
+        "w-1"
+      ],
+      "coefficientDegrees": [
+        0,
+        5
+      ],
+      "identitySha256": "487ad8c6da33d7f1b07746b759c84f1647d04f431db56ec3653934751d78187b"
+    },
+    {
+      "factors": [
+        "J6",
+        "w+1"
+      ],
+      "coefficientDegrees": [
+        0,
+        5
+      ],
+      "identitySha256": "fa1bebb709e582b7847d07d1f7c58c553cdec307f79ae0af5d79aa43eb2c8adb"
+    },
+    {
+      "factors": [
+        "J6",
+        "w+half"
+      ],
+      "coefficientDegrees": [
+        0,
+        5
+      ],
+      "identitySha256": "493c4080f1b39632b5c03e3ac7b8d4d9b80cfeb28f898f139ed067c6dc932fb4"
+    },
+    {
+      "factors": [
+        "J6",
+        "J2a"
+      ],
+      "coefficientDegrees": [
+        1,
+        5
+      ],
+      "identitySha256": "c9e85d9f3ed1cdcc8227591a1441162356591d0c781d0a2fe181d282b07406bf"
+    },
+    {
+      "factors": [
+        "J6",
+        "J2b"
+      ],
+      "coefficientDegrees": [
+        1,
+        5
+      ],
+      "identitySha256": "ea9f207e6aeb5b4095dbfef5c7ca0d2f616fb2fcec99ce75dc35bc47c0d861b0"
+    },
+    {
+      "factors": [
+        "J6",
+        "J3"
+      ],
+      "coefficientDegrees": [
+        2,
+        5
+      ],
+      "identitySha256": "dc7d116f53a51f1dd251cd30a56e4a8a13f65952c734bd01bd0adc1483dfacd8"
+    },
+    {
+      "factors": [
+        "J10",
+        "w"
+      ],
+      "coefficientDegrees": [
+        0,
+        9
+      ],
+      "identitySha256": "05538dd55b4ce30af3820501ce8767e65dc1bbc9c7f054848616f2e2e1adb4d2"
+    },
+    {
+      "factors": [
+        "J10",
+        "w-1"
+      ],
+      "coefficientDegrees": [
+        0,
+        9
+      ],
+      "identitySha256": "e305774152c9e721b2ae46a7a89afc53de7c893fbd72dd14a01029d4554fd407"
+    },
+    {
+      "factors": [
+        "J10",
+        "w+1"
+      ],
+      "coefficientDegrees": [
+        0,
+        9
+      ],
+      "identitySha256": "0b95e30ea029e291365af29244a038bb280a2e5acc69a2a3438d308509fa4dbe"
+    },
+    {
+      "factors": [
+        "J10",
+        "w+half"
+      ],
+      "coefficientDegrees": [
+        0,
+        9
+      ],
+      "identitySha256": "dc0fbe9467d327bd0f2f9ff2dfc43ec30995fd83a2882044755417add01c8350"
+    },
+    {
+      "factors": [
+        "J10",
+        "J2a"
+      ],
+      "coefficientDegrees": [
+        1,
+        9
+      ],
+      "identitySha256": "916d858396110ee9be741f12667bc0aba3887179aef84fa74b903391b548ca71"
+    },
+    {
+      "factors": [
+        "J10",
+        "J2b"
+      ],
+      "coefficientDegrees": [
+        1,
+        9
+      ],
+      "identitySha256": "91846b34b0fa67e39b5a4988242cdd202c1b4c57c696821d39a4cbeddb45d730"
+    },
+    {
+      "factors": [
+        "J10",
+        "J3"
+      ],
+      "coefficientDegrees": [
+        2,
+        9
+      ],
+      "identitySha256": "c5223d68709768aa54eafbf23e2fa43c347bd67ee9fc1cdc0fea392b5937b9cc"
+    },
+    {
+      "factors": [
+        "J10",
+        "J6"
+      ],
+      "coefficientDegrees": [
+        5,
+        9
+      ],
+      "identitySha256": "06e453469da572b65a4efa2b2168133f0035595c4089edd1669a67869a387154"
+    }
+  ],
+  "productDegree": 1535,
+  "productMonic": true,
+  "product1009Integral": true,
+  "productCoefficientSha256": "2815302d3c784772217a5a4512c43363db76bf4e799ec4ca69c83ede4a4bf51c",
+  "seconds": 0.018526523999753408,
+  "peakRssKiB": 25544,
+  "wholeL0Excluded": false,
+  "actualSourceExitCode": 0,
+  "stdoutSha256": "56f49db96d79ee1c5ba979e41caa3aa703397759eb2158d2ce3c58cd68db784f",
+  "stdoutBytes": 9371
+}

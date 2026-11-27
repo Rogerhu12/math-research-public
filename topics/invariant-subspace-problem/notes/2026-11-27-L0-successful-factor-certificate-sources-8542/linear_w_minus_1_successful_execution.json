@@ -1,0 +1,138 @@
+{
+  "execution": {
+    "sourceSha256": "6a60a75cc664dc65ff1186ee36b293578fdb25445d9a54682ab8e12d9045dd2e",
+    "arguments": [
+      "--label",
+      "w_minus_1",
+      "--suggested",
+      "202",
+      "--",
+      "1"
+    ],
+    "exitCode": 0,
+    "wallSeconds": 83.724159,
+    "stdoutBytes": 5862,
+    "stdoutSha256": "d3a6c374c53e037296e42dcd1cff9b90bf6793b6913b6acdf8880653095e5caa",
+    "stderrBytes": 0,
+    "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "sourceFullCertificateSha256": "4d9d975b6fe698da3abe31dfefa8c5866a543a466c3727e3b284bdadc0d2cf57",
+  "sourceFullCertificateBytes": 22941,
+  "verifiedCertificateSummary": {
+    "sourceSha256": "6a60a75cc664dc65ff1186ee36b293578fdb25445d9a54682ab8e12d9045dd2e",
+    "factorRoot": "1",
+    "factorCoefficientsAscending": [
+      "-1",
+      "1"
+    ],
+    "matrixSize": 73,
+    "provedQQDivisibilityExponentLowerBound": 203,
+    "exactQQDivisibilityExponent": 203,
+    "fullRankModuloPhiProved": true,
+    "constantElementaryRowOperations": 12005,
+    "rowSwaps": 70,
+    "rowOperationPolynomialMultiplyBackCount": 876365,
+    "exactDivisionPolynomialMultiplyBackCount": 14819,
+    "elapsedSeconds": 83.585615,
+    "peakRssKiB": 101052,
+    "operationTraceSha256": "119be4d49a98cecdc5afa4dc9f8d8dcc00445b2ad2b0b303be99bbeb36b26cfe"
+  },
+  "rounds": [
+    {
+      "rankModuloPhi": 53,
+      "extractedRows": 20,
+      "totalExponent": 20
+    },
+    {
+      "rankModuloPhi": 53,
+      "extractedRows": 20,
+      "totalExponent": 40
+    },
+    {
+      "rankModuloPhi": 54,
+      "extractedRows": 19,
+      "totalExponent": 59
+    },
+    {
+      "rankModuloPhi": 57,
+      "extractedRows": 16,
+      "totalExponent": 75
+    },
+    {
+      "rankModuloPhi": 57,
+      "extractedRows": 16,
+      "totalExponent": 91
+    },
+    {
+      "rankModuloPhi": 59,
+      "extractedRows": 14,
+      "totalExponent": 105
+    },
+    {
+      "rankModuloPhi": 59,
+      "extractedRows": 14,
+      "totalExponent": 119
+    },
+    {
+      "rankModuloPhi": 61,
+      "extractedRows": 12,
+      "totalExponent": 131
+    },
+    {
+      "rankModuloPhi": 61,
+      "extractedRows": 12,
+      "totalExponent": 143
+    },
+    {
+      "rankModuloPhi": 63,
+      "extractedRows": 10,
+      "totalExponent": 153
+    },
+    {
+      "rankModuloPhi": 63,
+      "extractedRows": 10,
+      "totalExponent": 163
+    },
+    {
+      "rankModuloPhi": 65,
+      "extractedRows": 8,
+      "totalExponent": 171
+    },
+    {
+      "rankModuloPhi": 65,
+      "extractedRows": 8,
+      "totalExponent": 179
+    },
+    {
+      "rankModuloPhi": 67,
+      "extractedRows": 6,
+      "totalExponent": 185
+    },
+    {
+      "rankModuloPhi": 67,
+      "extractedRows": 6,
+      "totalExponent": 191
+    },
+    {
+      "rankModuloPhi": 69,
+      "extractedRows": 4,
+      "totalExponent": 195
+    },
+    {
+      "rankModuloPhi": 69,
+      "extractedRows": 4,
+      "totalExponent": 199
+    },
+    {
+      "rankModuloPhi": 71,
+      "extractedRows": 2,
+      "totalExponent": 201
+    },
+    {
+      "rankModuloPhi": 71,
+      "extractedRows": 2,
+      "totalExponent": 203
+    }
+  ],
+  "omittedFromThisCompactReceipt": "Large terminal rational pivot values; the byte-identical source checks them."
+}

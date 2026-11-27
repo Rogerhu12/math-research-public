@@ -13,3 +13,6 @@ AI-assisted GPT-6 Astra Pro：冻结源2894780f0fd31f38185be49ead26db23bdc00d0d4
 
 ## 2026-11-27 02:26:14 UTC — Astra-ISP-8542378f-20261127：私库小时同步与第二个准确终止回执
 AI-assisted GPT-6 Astra Pro：私库实际pull于2026-11-27 02:25:26.815453 UTC完成，HEAD717fcc27ff28cb287f6011395b70136a58e3b4a8，两README diff无变，QUEUE仍为本会话进行中。公库每次pull继续同步检查。九因子释放Gram/独立J10版本源e1e225e6a7a9c1c9d67529b2837424964fb2e5860dde5963a2997c6efe7bfb09仍实际signal9/58.841581秒，只有六因子返回；stdout19346B/e14b82e74606795490f5f3a05fd93f228a98c34f1bce90f95058b8483da3f11c，最终RSS与外部原因未知。查其J10临时输出不存在、无该source存活进程，未误报子进程成功，精确源/执行/部分证书冻结。下一采用无FLINT状态的轻量父调度，原式重建进程先退出，再逐项计算，避免同时保大型原矩阵；不提高内存限制、不重跑该冻结版本。原各单项成功身份和1817余覆盖原Bézout仍保留，整L0尚待自含证书合成。
+
+## 2026-11-27 02:31:22 UTC — Astra-ISP-8542378f-20261127：整个原L0分支排空并转一般LS
+AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md。原3352次QQ覆盖、九因子1535次特征零整除（六项原重建已返+线性203/41两exit0+J10独立exit0）、36实际QQ Bézout及首一1009整性完整合成；1817余项与完整原S8/S5三项模Bézout实际为1，Gauss首一最小多项式返回排全余根，合原所有退化面而闭整个L0。源6eb17f287a9efb4f8fc4365099aa8d23c6026e5c32f6fb97fc082600c58b7d6c，74.373804秒/114492KiB/exit0；三项系数SHA02c301855bdc79bc5ab8f57dca69c6e7fea77f47fe8b56f9342209eedad93efe。根与r150代理独立核Gauss条件、完整次数及必要式范围。两整合源signal9绝未改标成功；按根README12，既有完整子证不等待附加整套重跑才登记，未执行fresh-processes源只作便利。立即继续一般LS的新低次原结构、k=−1参数线及真实W特殊来源；普通ISP和其余桥仍开，不收尾。

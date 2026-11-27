@@ -1,0 +1,184 @@
+{
+  "source": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-L0-degree1817-remainder-original-Gauss-return-8542.py",
+  "sourceSha256": "6eb17f287a9efb4f8fc4365099aa8d23c6026e5c32f6fb97fc082600c58b7d6c",
+  "configuredAlarmSeconds": 300,
+  "configuredOuterTimeoutSeconds": 310,
+  "configuredAddressSpaceBytes": 4294967296,
+  "actualSourceExitCode": 0,
+  "outerTimeout": false,
+  "wallSeconds": 74.37380411599952,
+  "peakRssKiB": 114492,
+  "stdoutBytes": 32475,
+  "stdoutSha256": "83aea1edba629f467a7440c66505c50867d2491a103c2295bad2ca0901093e29",
+  "session": "Astra-ISP-8542378f-20261127",
+  "certificateReturns": [
+    {
+      "QQCoefficientsAllPIntegral": true,
+      "actualDegree": 3352,
+      "actualOriginalLambdaDegrees": [
+        39,
+        34
+      ],
+      "claimExcluded": false,
+      "coefficientSha256": "948491aa967651a95f7085d59c90324791a766da60f38e79a56c5ce2f3a51e28",
+      "elapsedSeconds": 73.176907,
+      "label": "R_Res_lambda_C_X",
+      "preservedDegrees": true,
+      "prime": 1009,
+      "stage": "full_original_lambda_projection_modulo_prime"
+    },
+    {
+      "QQMultiplicityDivisibilityUsesSeparateOriginalCertificate": true,
+      "allQQFactorsPairwiseCoprime": true,
+      "allQQMonicFactorsPIntegral": true,
+      "claimExcluded": false,
+      "degreeOriginal": 3352,
+      "degreeRemoved": 1535,
+      "degreeResidual": 1817,
+      "elapsedSeconds": 73.217427,
+      "factors": [
+        {
+          "completeModularMultiplicity": 815,
+          "name": "w",
+          "phiDegree": 1
+        },
+        {
+          "completeModularMultiplicity": 203,
+          "name": "w_minus_1",
+          "phiDegree": 1
+        },
+        {
+          "completeModularMultiplicity": 63,
+          "name": "w_plus_1",
+          "phiDegree": 1
+        },
+        {
+          "completeModularMultiplicity": 41,
+          "name": "w_plus_half",
+          "phiDegree": 1
+        },
+        {
+          "completeModularMultiplicity": 107,
+          "name": "J_92",
+          "phiDegree": 2
+        },
+        {
+          "completeModularMultiplicity": 36,
+          "name": "J_36",
+          "phiDegree": 2
+        },
+        {
+          "completeModularMultiplicity": 5,
+          "name": "J_2",
+          "phiDegree": 3
+        },
+        {
+          "completeModularMultiplicity": 12,
+          "name": "J_8",
+          "phiDegree": 6
+        },
+        {
+          "completeModularMultiplicity": 4,
+          "name": "J_3",
+          "phiDegree": 10
+        }
+      ],
+      "residualCoefficientSha256": "e929d368dce4e082b9d0796210c34c0ae57c3eaeec80b0e2c2f19887e1364770",
+      "stage": "complete_nine_factor_modular_removal"
+    },
+    {
+      "QQCoefficientsAllPIntegral": true,
+      "actualDegree": 3386,
+      "actualOriginalLambdaDegrees": [
+        34,
+        39
+      ],
+      "claimExcluded": false,
+      "coefficientSha256": "843f350613e3183167fcc6c472c45df79cb1b8d775b192c04116e308997983c1",
+      "elapsedSeconds": 73.663566,
+      "label": "S8_Res_lambda_X_C8",
+      "preservedDegrees": true,
+      "prime": 1009,
+      "stage": "full_original_lambda_projection_modulo_prime"
+    },
+    {
+      "QQCoefficientsAllPIntegral": true,
+      "actualDegree": 3366,
+      "actualOriginalLambdaDegrees": [
+        34,
+        40
+      ],
+      "claimExcluded": false,
+      "coefficientSha256": "16bec1a91b02eeaf131d396d7a9b00a94b57bdc2abcc77b848c0946dafb0b92b",
+      "elapsedSeconds": 74.218252,
+      "label": "S5_Res_lambda_X_C5",
+      "preservedDegrees": true,
+      "prime": 1009,
+      "stage": "full_original_lambda_projection_modulo_prime"
+    },
+    {
+      "actualFullProductsMultipliedBack": true,
+      "claimExcluded": false,
+      "coefficientDegrees": [
+        3379,
+        1810
+      ],
+      "coefficientSha256": "6cc86276a0e79c46fa83eca03fc880648b2c34220ca15f91078ffdd0ec169725",
+      "elapsedSeconds": 74.2285,
+      "gcdDegree": 6,
+      "inputDegrees": [
+        1817,
+        3386
+      ],
+      "label": "first",
+      "stage": "actual_univariate_Bezout_two_products"
+    },
+    {
+      "actualFullProductsMultipliedBack": true,
+      "claimExcluded": false,
+      "coefficientDegrees": [
+        3365,
+        5
+      ],
+      "coefficientSha256": "47e0c41bfdbf16dd162e69d16c2301844eb244d0e44a2b5782ddb862d1cfa87e",
+      "elapsedSeconds": 74.230908,
+      "gcdDegree": 0,
+      "inputDegrees": [
+        6,
+        3366
+      ],
+      "label": "second",
+      "stage": "actual_univariate_Bezout_two_products"
+    },
+    {
+      "allThreeProductsAndSumExactlyOne": true,
+      "claimExcluded": false,
+      "coefficientDegrees": [
+        6744,
+        5175,
+        5
+      ],
+      "elapsedSeconds": 74.240104,
+      "gaussScope": "all complex roots of the monic p-integral degree1817 residual of the actual QQ resultant, conditional on the separate exact QQ degree and nine-factor divisibility certificates",
+      "identitySha256": "02c301855bdc79bc5ab8f57dca69c6e7fea77f47fe8b56f9342209eedad93efe",
+      "inputDegrees": [
+        1817,
+        3386,
+        3366
+      ],
+      "prime": 1009,
+      "stage": "actual_full_three_projection_Bezout_identity"
+    },
+    {
+      "conditionalOnExactQQDegreeAndNineQQMultiplicities": true,
+      "elapsedSeconds": 74.241199,
+      "independentMultivariateModularEmptyInference": false,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 114492,
+      "sourceSha256": "6eb17f287a9efb4f8fc4365099aa8d23c6026e5c32f6fb97fc082600c58b7d6c",
+      "stage": "complete_original_residual_Gauss_certificate",
+      "wholeL0Excluded": false
+    }
+  ],
+  "wholeL0Excluded": false
+}

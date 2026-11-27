@@ -1,0 +1,101 @@
+{
+  "dateTaipei": "2026-11-27",
+  "status": "Copies of already completed successful sources and receipts; no new computation or aggregate-run success is asserted.",
+  "files": [
+    {
+      "file": "L0_sylvester_linear_phi_local_rows_8542.py",
+      "bytes": 9025,
+      "sha256": "6a60a75cc664dc65ff1186ee36b293578fdb25445d9a54682ab8e12d9045dd2e",
+      "byteIdenticalToExecutedSourceOrFixedParameters": true
+    },
+    {
+      "file": "L0_translated_native_QQ_kernel_phi_probe.py",
+      "bytes": 10963,
+      "sha256": "554f90b4e7be83e8838a3aa173012443a6e756c0b356cd15dea4b104552d19d5",
+      "byteIdenticalToExecutedSourceOrFixedParameters": true
+    },
+    {
+      "file": "L0_original_sylvester_phi_valuation_8542.py",
+      "bytes": 10593,
+      "sha256": "7b3d270dafcf1c5fa4022eba1b8e40df24c766d827db8a72795c569b493d7f53",
+      "byteIdenticalToExecutedSourceOrFixedParameters": true
+    },
+    {
+      "file": "L0_translated_Sylvester_valuation_returns.json",
+      "bytes": 18892,
+      "sha256": "4643c184369ae1afec920cfbb0be4be7da8a465d8b36c0918a1f8001b6d015ec",
+      "byteIdenticalToExecutedSourceOrFixedParameters": true
+    },
+    {
+      "file": "L0_new_support_group_candidates.json",
+      "bytes": 1084,
+      "sha256": "338503e8e3577cf89119ef83d23187eed6a66d218bea297afdb1e642e339deec",
+      "byteIdenticalToExecutedSourceOrFixedParameters": true
+    },
+    {
+      "file": "linear_w_minus_1_successful_execution.json",
+      "bytes": 3244,
+      "sha256": "bd92e9939dfd11fd01bdcb07d0670090c80689aa7338507535599a7f92fd25d2",
+      "purpose": "Compact actual exit0 execution and exact QQ exponent certificate"
+    },
+    {
+      "file": "linear_two_w_plus_1_successful_execution.json",
+      "bytes": 2855,
+      "sha256": "c8df1addbf5eb7b467d3965b2282df5b896df3fe586c6c15db75096de7f943c4",
+      "purpose": "Compact actual exit0 execution and exact QQ exponent certificate"
+    },
+    {
+      "file": "J10_successful_execution.json",
+      "bytes": 2149,
+      "sha256": "90c7c7ce1f2f1a4f0d9181bb8d2f0024938efd4415b7e62d3ddb7df14ab60f48",
+      "purpose": "Actual root J10 exit0 execution and complete small certificate"
+    }
+  ],
+  "actualInputFiles": [
+    {
+      "file": "L0_original_eight_by_eight_curve.json",
+      "bytes": 88951,
+      "fileSha256": "932fc102b2f7e53fcd489f4edd5c5f17536e900602d21f4ba60fdd440b299011",
+      "storedHere": false
+    },
+    {
+      "file": "L0_XY_P1_N1.json",
+      "bytes": 73258,
+      "fileSha256": "ed4e17d0f53c4e2e33ab42a6bc726a95148fc0691370b15a6193418b3f71e6f0",
+      "storedHere": false
+    },
+    {
+      "file": "L0_XY_P1_EBe.json",
+      "bytes": 477053,
+      "fileSha256": "1b6b9855aa3ed92e371be16e60c2ba9343b3d0c92118c3dcc64102b0ec4626df",
+      "storedHere": false
+    },
+    {
+      "file": "L0_additional_macaulay_curves.json",
+      "bytes": 273524,
+      "fileSha256": "34d8243958f5e94319d2e563481f47ba020010e9c40456843d6e42425911da20",
+      "storedHere": false
+    },
+    {
+      "file": "L0_all_paid_parameter_units.json",
+      "bytes": 4015,
+      "fileSha256": "ca85fa4e41fba48196d9b3d8233f8b07055a96dbc32cce4a3a179332a36bfa46",
+      "storedHere": false
+    }
+  ],
+  "originalReconstructionSource": "../2026-11-27-unit211-L0-CX-lambda-exact-degree-cover-original-return-8542.py",
+  "originalReconstructionSourceSha256": "d69a91dec3849562e2b7b465878e9e763d2ca680e32303691154d059e95a1199",
+  "originalPrefixEndsBefore": "# NEW: exact QQ determinant-degree upper bound and actual full modular lower bound.",
+  "originalPolynomialHashes": {
+    "C": "6057a487720992327d9e065ec6b7ef5e54896637f1c756a28391fd734737b50c",
+    "X": "519fe7c69a0cf7c05283aa66833331b64e7654bb6ec0daec606c49b2c2a02f68"
+  },
+  "runtimeNotes": [
+    "The linear source accepts --input-dir; its two actual argument lists are preserved in the compact receipts. Suggested multiplicities 202 and 33 were annotations, not stopping criteria; the source continued to full residue rank and proved exact 203 and 41.",
+    "The original native J10 source was executed with argv 3 and has its original scratch root literal. It imports minimum_assignment from the byte-identical L0_original_sylvester_phi_valuation_8542.py. All five fixed translations, factors, and complete duals are retained in L0_translated_Sylvester_valuation_returns.json.",
+    "The old J10 source also loads Y, extra Macaulay curves, and paid-unit files in an unused setup section. These inputs were present in the actual successful run; their file hashes are listed. The final local-kernel argument uses C, X, the fixed phi/translation/dual, and the assignment helper only.",
+    "Portable regeneration convenience source ../2026-11-27-unit211-L0-nine-original-resultant-factors-fresh-processes-8542.py was written but NOT EXECUTED. It starts from the pinned original prefix and creates fresh per-run input data; it is not a mathematical registration gate."
+  ],
+  "wholeL0ExcludedByThisManifest": false,
+  "ordinaryISPClaim": false
+}

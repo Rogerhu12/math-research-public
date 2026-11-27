@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 unit2+1+1 的整个原L0分支为空（2026-11-27，已证明）：** [原完整覆盖与九因子/1817余项返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)原C/X结式精确3352次、首项1009单位；九个特征零幂总degree1535由同原输入的已完子证支付，36QQ Bézout保首一整性；其余1817次覆盖与原S8/S5完整一元投影的模Bézout1由Gauss排全根。余覆盖自含源6eb17f28实际74.373804秒/114492KiB/exit0。全部原退化面已合并，L0不再开放；两整合signal9仍准确保留失败身份，普通ISP未完成。
+
 - **R271 原形式除法伴随的实际值域非闭（2026-11-27，已证明）：** [同尾真实域奇异列及两型首位消逆](results/R271-appendix-actual-division-adjoint-nonclosed-range-same-tail.md)构造y_q=Sh_q∈D(G0*)，归一后弱趋0且G0*y_q趋0；原首位Schur残量为O(σ_q²)，来源范数下界为常数σ_q，完整Y逆保留。G0*闭且单射，故实际RanG0*非闭；无全h或有限坐标一致的||Sh||≤C||T*h||。输出均在RanT*⊂M⊥，两个闭包核心及真实W的Γ仍开。
 
 - **R150 一般LS的Delta0/W对ell首项零整支排空（2026-11-27，已证明）：** [原34阶cofactor、98次完整覆盖和各原纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-leading-zero-exclusion.md)完整覆盖u=1/2,Q=2、ell任意；40原乘法行、315系数身份、六一致性Bézout给原覆盖，五整因子用实际原双层投影的一元Gauss排除，ellhalf另完整QQ返回。源3769e6d6实际6.831982秒/55268KiB/exit0。W0图可付u(Q+2)−2；W0和一般Delta0尚未排空。
