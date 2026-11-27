@@ -19,15 +19,15 @@ R1052完整source/target与原Z参数、κ₁/λ₀、双incidence及全Q²读�
 
 R1050原短PD/PF参数已由R1052完整消费，κ₁、双incidence与安全分母保原证明。
 
-[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：实际MW消去格Σ的前n₀=(p−2)/3系数映射饱和单射、每本原行M1；rankΣ=r_ann≥1时公共零总重数≤n₀−r_ann+1，有理点≤n₀、非中心≤n₀−1。整Tate全尾和真实全MW保原证明；最低单位/非中心排除及O0仍开。
+[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md)：原全MW消去格Σ前n₀=(p−2)/3系数饱和单射，每本原行M1；公共零重数≤n₀−rankΣ+1。有理点≤n₀，最低单位/非中心排除与O0仍开；全部尾项保原文。
 
-[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：全p6N5的完整三CM/S₀=1与Euler有限₃F₂排new正交行的ℓ阶contact，保Q²。几何p11及R1046的p5在p>C_*给真实MW消去后准确M1；不宣最高J₀/最低单位或深盘唯一零。
+[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)：原完整三CM/S₀=1与有限₃F₂排全阶contact，保Q²；p5/p11几何在p>C_*给全MW后M1，不付最高J₀/最低单位或深盘唯一。
 
 R1044/46的原Cauchy旗标及p5全部中心/∞/分歧12已由R1052完整消费；R1045排指定c的全阶contact，最低单位与非中心根仍开。
 
-R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²ΦΠ已成；完整quotient外系数固定，核一维纯正δ、负δ单射。v=(1−Q)λ，Λ_Q杀全部原MW饱和格，在p>C_*自动本原；完整K_Q=P_(DQv)(1)/2与Q²保结果，B(c₀,J₀)=−1/8不代K_Q单位。
+R1037/40原两行PD、Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²ΦΠ已成；v=(1−Q)λ，全MW饱和消去在p>C_*本原。准确K_Q=P_(DQv)(1)/2仍保，B(c₀,J₀)=−1/8不代单位。
 
-R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细角色、相位、尺度与C_*见各结果和逐字归档。p5仍先减Teich、只在好B上施e₁；实际paired块重数一，不是辅助Res的C²。未付的H_A/H_Z新支撑、指定CM横截值与完整高度继续保留。
+R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文及归档；p5先减Teich、只在好B施e₁，paired重数一非Res的C²。实际新支撑/CM指定横截与完整高度仍开。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
@@ -60,6 +60,8 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
 [R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
+
+[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角Q代数=K23×K48×K16；Zps=K5−K25整、无对角、degree/trace0，全部cusp块严格0，principal在283/4513为单位。完整23dZ=½F4Z u1728+⅔F3Z u0−2Zuy；下一新CI读实际cusp固定cycle系数，CM类/高度单位仍开。
 
 ## O1：全p同一真实本原标签的临界非零
 

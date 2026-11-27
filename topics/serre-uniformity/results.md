@@ -329,3 +329,6 @@
 
 
 - **R1086（已证明，精确计算）**：[原4513全部点及同CM约化](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：独立点数5453=完整标签像，真全图单射；八个旧全局CM标签转移到同一原点。run45938730258/job140307865125，60.839秒；全scalar/twists/cusps与R36零坐标保留，盘内唯一仍开。
+
+
+- **R1087（已证明）**：[原principal角理想与cusp消去对应](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原K23×K48×K16，Zps=K5−K25非零、整、自伴、degree/trace0；283/4513主块单位/cusp严格零，十六一次块θ(Zps)=0。完整fixed类留下原两CM输入，不推高度单位。

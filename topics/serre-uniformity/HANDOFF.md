@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：80c069f6810cd733013baa7158284713ca54fdfe**（2026-11-27 12:22 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：98b7823a03cd3cd97f4078e9454bd4acce16d6e2**（2026-11-27 12:27 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-已真实部分克隆/pull；11:24再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
+已真实部分克隆/pull；12:23再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
 H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-CM-logarithm.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
@@ -40,17 +40,19 @@ R1062/64–67（[索引](results.md)）：原全cusp/étale/p-only覆盖允许�
 
 [R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
 
+[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角Q代数=K23×K48×K16；Zps=K5−K25整、无对角、degree/trace0，全部cusp块严格0，principal在283/4513为单位。完整23dZ=½F4Z u1728+⅔F3Z u0−2Zuy；下一新CI读实际cusp固定cycle系数，CM类/高度单位仍开。
+
 ## O1：原同一保留标签
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原j0/1728真实T下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、slope+1、首负p极及最后加性carry全付；不代短η/ν；Gaussian后继见R1082/84。
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原e≠0 iff S_n≠0、Φ²=[−1]*、对称J自伴已付。§21给e=−δ²η_k/(4v)、K₄=−δ³ν_k/(4v²)−2ve/δ²及原短D⁶完整双障碍；e=0时ν_k是指定有限二次和，非零仍开。 [R1076](results/R1076-original-primitive-cubic-and-sixth-power-obstructions.md)付同一T=−2vΨ³/δ³、η_j=j[z^j]T、ν_j=j[z^j]T²/40与完整短谱误差。R1077把新G单位准确搬为同一T²的加权2k次系数单位，尚未连接短k次双障碍。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：e↔S_n、Φ²=[−1]*、真实自伴及原η_k/ν_k双障碍已付；e=0时ν_k为指定有限二次和，非零仍开。R1076同一T=−2vΨ³/δ³，η_j=j[z^j]T、ν_j=j[z^j]T²/40；R1077同一T²加权2k系数单位，尚无至短k双障碍的桥。
 
-[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原非CM四Cartier由九挠/三同源给 $B_n=P_n(3)=-a_p(E54)\ne0$（$p\equiv2,5\bmod9$）；六CM核准确。尚无 $S_n=0\Rightarrow B_n=0$，不能代 $f_N$ 单位。
+[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原p2/5mod9四非CM Cartier由B_n=P_n(3)=−a_p(E54)单位控制，核恰六CM；原L在CM-zero轨道，e为二级Petri读数，未有S_n=0⇒B_n=0。
 
 [R1049](results/R1049-original-fN-theta-first-direction-moment.md)/R1059：同一原q/η尺度、方向矩、X108配对与f_N↔S_n已付；同h两mask仍开。
 
-[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全 $p=6N+5$ 原 $f_N=-T_0(1)/6$，核端点仍未证单位；不与 bare 核范数或 DQv 混同。
+[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：原p6N5的f_N=−T₀(1)/6，端点单位仍开，不与bare范数/DQv互代。
 
 [R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：f_N=0 iff原有限Legendre平方截断R′(1/2)=0；forcing单位不代中心导数。
 
@@ -68,7 +70,7 @@ R1041/48原r2 bare为核范数，实际AS原函数和p-block给端点平方；�
 
 ## O4–O6：旧全局边界
 
-R1007/08的原高度格三挠Picard类/ℓ²障碍及野3关闭nondeck入口仍有效，不能以其它对应跳过；R696/832只为指定Ω，R948只为两有限Abel零集。R805–930的固定Y完整来源/预算/断点及R907四artifact真404沿逐字前态保留；未付real Rcal、MW/完整高度仍开，不重造数组。R707是主水平41而非47，不重开；R1004只有导子下界。Jaswal121未公认主结论不作输入。
+R1007/08原高度格三挠Picard/ℓ²及野3障碍仍保；R696/832只为指定Ω，R948只为两有限Abel零集。R805–930与R907四artifact真404保逐字前态，不重造。R707主41非47，R1004仅导子下界；Jaswal121未公认主结论不用。
 
 原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
 
