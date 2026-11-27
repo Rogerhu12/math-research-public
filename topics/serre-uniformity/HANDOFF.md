@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：3db0fb4202a60065bf4c6ae18af0f9fc459aaba7**（2026-11-27 16:47 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：3d702b7bc21923e82270953022b09b0950bb4adf**（2026-11-27 16:52 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；16:40再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -35,9 +35,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [R1094](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)付原整W、双极核、完整ramified power-sum及全部odd-Hecke CM分盘的h_q∈q²；首global为全部非q原交数×正Fermat商。
 [R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)/[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)/[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)付所有odd-good/47/2交数：两2209进程、坏47的529D_qH+23D_qb、2处Q8的S2/8含半格，保全Tq²。
 
-[R1100](results/R1100-certified-original-level47-first-global-CM-height.md) run45955885738/job140362136569，4.332秒：Γ(1)=818 mod4513，2/47/奇好贡献4256/1323/4265，5134个全部局部项。h(Bqu4,Bqu16)赋值1；不推全部73块unit，后继不重算n1。
-
-[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)：run45958934145/job140371881297，18.667秒，实际整基恰全部奇n≤149删47、141，det3946、指标和5437；原newform/CRT/Hodge1/2/3/5桥齐备。后继只按固定73indices重建，不重开搜索；完整高度见R1102。
+[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)付Γ(1)=818；[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)付原73奇基n≤149删47/141、det3946。两项仅消费，完整后继见R1102。
 
 [R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
 
@@ -45,7 +43,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原八CM切向由真实KS与最多二阶fine jet读取；α=N⁻¹dlog f̄，等价唯一Cartier-fixed规定留数微分。完整QC首项t(B+At)及整尾已付；§6.1已付全部非q消失；实际α/角坐标/行秩继续。
 
-[八CM切向请求](notes/2026-11-27-full-p47-eight-CM-tangents-method.md)：首run45965927561/job140394474708在原输入后FLINT ABI冲突exit139，无点结果；v2已改Sage父/独立Python子进程与逐点整数桥，共570秒；原数学函数逐字未改，α/Miller继续。
+[R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。全角/α/CM坐标继续。
 
 ## O1：原同一保留标签
 

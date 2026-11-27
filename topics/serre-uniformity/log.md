@@ -85,3 +85,7 @@
 ### 2026-11-27 16:47 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 八CM首run45965927561在Sage/wheel FLINT原生符号冲突处exit139，无点结果；v2改独立exec子进程，仅整数JSON跨Sage边界，原数学函数逐字不变，共用570秒截止。
 - 课题外workflow更新请求SHA后续算八点；root已读实际崩溃栈及完整修复。16:40真实pull仍无执行环境，两README无差异；按规则8小文本同步继续，完整高度R1102已推。
+
+### 2026-11-27 16:52 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1105消费成功run45968484065/job140402824955，11.858秒，八个原CM点×16真实一次块的e及e/λ全部非零；完整源/tag/Weil/heat/coarse与128行哈希齐备。
+- root核成功八记录canonical SHA；说明id196普通trace94仍有25项链，实际代码完整匹配无漏支。v2隔离修复已成，无旧高log或全scan重算；继续全73角作用、α/Miller及一般p障碍。

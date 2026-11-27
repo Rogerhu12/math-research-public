@@ -48,15 +48,15 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 [R1094](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)付原整W、双极核、完整ramified power-sum及全部odd-Hecke CM分盘的h_q∈q²；首global为全部非q原交数×正Fermat商。
 [R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)/[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)/[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)付所有odd-good/47/2交数：两2209进程、坏47的529D_qH+23D_qb、2处Q8的S2/8含半格，保全Tq²。
 
-[R1100](results/R1100-certified-original-level47-first-global-CM-height.md) run45955885738/job140362136569，4.332秒：Γ(1)=818 mod4513，2/47/奇好贡献4256/1323/4265，5134个全部局部项。h(Bqu4,Bqu16)赋值1；不推全部73块unit，后继不重算n1。
-
-[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)：run45958934145/job140371881297，18.667秒，实际整基恰全部奇n≤149删47、141，det3946、指标和5437；原newform/CRT/Hodge1/2/3/5桥齐备。后继只按固定73indices重建，不重开搜索；完整高度见R1102。
+[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)付Γ(1)=818；[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)付原73奇基n≤149删47/141、det3946。两项仅消费，完整后继见R1102。
 
 [R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
 
 [R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原八CM切向由真实KS与最多二阶fine jet读取；α=N⁻¹dlog f̄，等价唯一Cartier-fixed规定留数微分。完整QC首项t(B+At)及整尾已付；§6.1已付全部非q消失；实际α/角坐标/行秩继续。
 
 [R1104](results/R1104-certified-original-level47-graded-RR-ring-and-degree167-pencil.md)：run45964526314/job140389923921，33.300秒，原L²至L⁵维262/429/596/763及全23 cusp核239/406/573/740已认证。前两section无共同零，原degree167可分pencil；836原cusp jets可供colon/Miller，实际α仍待读。
+
+[R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。全角/α/CM坐标继续。
 
 ## O1：全p同一真实本原标签的临界非零
 
