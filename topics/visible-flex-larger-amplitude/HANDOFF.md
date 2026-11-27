@@ -5,7 +5,7 @@
 
 ## 规则、同步、环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `25f15bd05cdb9900dcc6b4f29e075204d198223d`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–15通常每5分钟真pull，实际提交在末块。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `aa5408fa888f7c6bd3fd56dc0dcbbedb71e1c595`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–15通常每5分钟真pull，实际提交在末块。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，无终端云freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊防重置。
 
@@ -31,14 +31,14 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端�
 
 全部已刊lower/upper、N/M/J、mean/profile、normal六jet、closed、R716和mesh/t完整源/参数/已付与未知，见[ae8d完整H](https://github.com/Rogerhu12/math-research-public/blob/ae8d223e3ed43c4efb33a07b4619328d1808d734/topics/visible-flex-larger-amplitude/HANDOFF.md)及逐项完整notes，不以短摘要删除证据。
 N/M各128角色/原110保，M五metadata e207只修再生器INPUT；J f9d79全17runtime/131角色/729cf五基础、2666582变量/482通道、7377+14753并集，三全plans/四再生器保。N/M完整费用15件494847B已ae8d刊，严格来源不自动接未来N修复。
-geometry修N唯一schema实参并闭全依赖、新目录参数和准确费后继。solver16件1035739B完整stage重复整点拷贝修复已交，全部原算法/预算保；随后真实统计只读观测各自point/state、不加F/J。construction ret45七旧raw毛2631388B全源/argv/恢复闭合中；腾容量后root接完整热路径真实运行。
+geometry修N唯一schema实参并闭全依赖、新目录参数和准确费后继。solver16件1035739B完整stage重复整点拷贝修复已交，全部原算法/预算保；随后真实统计只读观测各自point/state、不加F/J。[ret45](notes/2026-11-27-retention45-seven-complete-legacy-results.md)七旧raw已退存：毛2631388B、三完整保全190442B、净2440946B；152源输入/46R82/完整argv/消费者保，固定4bcf0ccd原字恢复，hybrid wholeSHA未知null。construction续ret46保实际返回空间；root接完整N修复与热路径真实运行。
 
 ## 未付责任与旧记录
 
 独立用同完整reference初点保全部known/unknown；terminal须真完整report/history，final另须477499/274d实际13成员、point/model/typed；current离散不定义新g。R248仅活动像，固定p4两帽须共同R650或全mixed pairs。upper/lower/缝/帽/全phase准确六jet、raw lift、连续Gram/K/support/reach/强C²同场。scalar/根/积分/working字误差实付，mean J不代Cu；D全闭F0、grip.45须真比例。R716须真closed主副件/全records、独立未标记外管、正V和非零中心矩方给含反射δE。
 mesh只真13final或完整required-angle snapshot同点，缺角由原32stage全算；可选closed不挡mesh。三空间级/五t/4,8,16时间划分，15科学mesh及5完整<5MB预览仅runner；保全重生源/参数/run/hash，有限网格不冒连续证书。
 [10终态](notes/2026-11-27-run10-actual-terminal-cancelled-with-unreturned-science.md)cancelled/仅1–4返，science5等未返/因果未知；末真pull15:04:42→0245973d50a7e6ffd8f4e568009712fcc6062646双README无变，全旧队列/history保。[11](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)input词guard后H超限不松guard。03–09失败/typed/发现序/unknown保全部旧链，iteration_limit非驻点。
-[ret43](notes/2026-11-27-four-legacy-generated-records-retention-43.md)/[ret44](notes/2026-11-27-retention44-legacy-exact-raw-retention.md)全源/输入/argv/消费者恢复保，44固定155846/265身份/14argv/六plans齐、未知wholeSHA null；ret25/33–42/Nelder保。ret45完整记录后才退旧raw，每次fresh树核≤200MB。
+[ret43](notes/2026-11-27-four-legacy-generated-records-retention-43.md)/[ret44](notes/2026-11-27-retention44-legacy-exact-raw-retention.md)全源/输入/argv/消费者恢复保，44固定155846/265身份/14argv/六plans齐、未知wholeSHA null；ret25/33–42/Nelder保。ret45全记录后退七旧raw，ports与Nelder未退；ret46仍须完整源参数/实际结论/恢复，每次fresh树核≤200MB。
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
