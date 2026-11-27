@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，W0/H0有限原系统的完整29次权覆盖）**：[六生成元、18真乘法身份及原cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-finite-six-generator-weight-cover.md)：二/三次主子式仅含已付单位，原商由1,x,y,t,y²,yt生成而未称自由；九必要行加原NS/PS乘法后六行constant cofactor给78次身份，剥49次已付因子得完整F29。各组件真实完成，源00bbaf0b打包未另全跑；全部新负门准确冻结，F29纤维仍开。
+
 - **已证明（R271，两个实际最大除法域的相反前缀图正则性）**：[完整低尾行、张量指数与真实缺陷方程](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)：对全部y∈D(G)控制V_ny，对全部v∈D(Amax)控制Q_nv，统一主率γ_ex>5/3与e^(−47n⁴)图误差，保全Y逆。真实图核心余空间准确满足T*y=Sf、By+Tf=0，故Amax f=−y；指数位权成立，未付alpha逆权、Γ或E=0。
 
 - **已证明（R150，Q=1−u的整个ell=0权线）**：[原低度均值恢复及完整一元返回](results/R150-appendix-unit211-Q1minusU-ellZero-complete-exclusion.md)：原E1支付v=2y−1非零并唯一x；原Rt给(v²+1)²[4uv³(2−v)−(v²+1)²]/16。整个v²+1纤维原N/S非零范数排除，余支同u返回20/40/40次原行，完整QQ Bézout仅留已付v⁴(v²+1)^4。自含源7c231709实际2.322秒；独立于u半排除。

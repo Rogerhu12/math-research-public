@@ -1,0 +1,167 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-H-zero-six-generator-cover-8542.js",
+  "sourceSha256": "00bbaf0bd88a81da05a3265c866aa7df32008e53b6f331ad4b5cfb34ced6515b",
+  "sourceBytes": 54040,
+  "executionMode": "exact JavaScript BigInt in functions.exec V8; individual embedded components actually completed",
+  "singleWrapperExecuted": false,
+  "osExitCode": "not applicable; no OS process",
+  "rss": "not exposed",
+  "components": [
+    {
+      "key": "W0_exact_Gaussian_JS",
+      "sourceBytes": 5266,
+      "sourceSha256": "889ca051fc6f549c170951de86c480ee98460000ba32738492eb6a74486b5f6c"
+    },
+    {
+      "key": "W0_exact_Gaussian_budgeted_JS",
+      "sourceBytes": 5482,
+      "sourceSha256": "1315d54268747f3f72e3af66a020a3e86e062d468d7702906035167dc7f59904"
+    },
+    {
+      "key": "W0_H_full_affine_build_JS",
+      "sourceBytes": 6185,
+      "sourceSha256": "d5442db8ef5488c2c164165fd5a02921ab27abcacd7ef0fd06a6efc4d39f76d4"
+    },
+    {
+      "key": "W0_H_quad_head_matrix_JS",
+      "sourceBytes": 2923,
+      "sourceSha256": "603abb05fe70baf4425ed45f60a0a6472984592a12e87500038f87514b790dbc"
+    },
+    {
+      "key": "W0_H_paid_quad_and_cubic_overlap_graded_JS",
+      "sourceBytes": 6013,
+      "sourceSha256": "800df9059c062269b11a308cf6972c2bc41708fe367524bb7e83c316b1ecb145"
+    },
+    {
+      "key": "W0_H_finite_six_generator_JS",
+      "sourceBytes": 6028,
+      "sourceSha256": "6dc7e3eaef5b29bf3006988efa973410ef39f188e050dbd90ac0c26a4f807fb4"
+    },
+    {
+      "key": "W0_H_finite_constant_cofactor_JS",
+      "sourceBytes": 5095,
+      "sourceSha256": "cb053bd61002bf3bb69fd8fdfc65cbe7681a3242e1d3a35ce170ab705da1a4b5"
+    },
+    {
+      "key": "W0_H_lowest_original_row_products_JS",
+      "sourceBytes": 2440,
+      "sourceSha256": "9b51008020a3aaeea6e7743c6513a4efdefaba35fcbb5170ad4cf288123bcdb5"
+    },
+    {
+      "key": "W0_H_NS_products_JS",
+      "sourceBytes": 2420,
+      "sourceSha256": "3571f4130c53788d8967cd6fbf9f4e2edf4b0eabc8f18062eb62c65c0d026a86"
+    },
+    {
+      "key": "W0_H_PS_products_JS",
+      "sourceBytes": 2420,
+      "sourceSha256": "ebded8ae2e9be4df29aff919640873dbd43a597edf087dd4c9683ea8ead51e91"
+    },
+    {
+      "key": "W0_H_cubic_products_rank_JS",
+      "sourceBytes": 1554,
+      "sourceSha256": "1c9428fd5dd2a4b3c3c1c83c2d36e5c71c4c031e5bc05d590cd8ce6ffc6c0663"
+    },
+    {
+      "key": "W0_H_original_product_cover_JS",
+      "sourceBytes": 2921,
+      "sourceSha256": "5a81634f270f0ea91261a0555ebb76c9f81270e5fc2f90a334e84af4bd9692c8"
+    },
+    {
+      "key": "W0_H_complete_factorization_JS",
+      "sourceBytes": 2194,
+      "sourceSha256": "53d911ad6119687d2c3fcf216e473140fbbb44ab071036097023cad853ac7fc8"
+    }
+  ],
+  "actualComponentWallSeconds": [
+    2.162,
+    0.211,
+    2.514,
+    47.484,
+    0.836,
+    0.187,
+    0.247,
+    0.262,
+    0.654,
+    0.757,
+    0.009
+  ],
+  "scope": {
+    "originalEquations": [
+      "E1",
+      "EBe",
+      "EBo",
+      "N1",
+      "NS",
+      "PS"
+    ],
+    "monomialGenerators": [
+      "1",
+      "x",
+      "y",
+      "t",
+      "y^2",
+      "yt"
+    ],
+    "moduleFreeClaimed": false,
+    "originalMultiplicationIdentities": 18,
+    "necessaryRowsBeforeProducts": 9,
+    "rowsAfterSelectedOriginalProducts": 18,
+    "cofactorRows": [
+      4,
+      9,
+      0,
+      1,
+      13,
+      12
+    ],
+    "cofactorDegree": 78,
+    "paidFactorDegree": 49,
+    "coverDegree": 29,
+    "wholeHExcluded": false
+  },
+  "paidFactorization": {
+    "quadraticPivot": "-w^6*(w+2)^2*(w+4)*A^2*B^2",
+    "cubicPivot": "w*(w+2)^3*A^2/(4*(w+4))",
+    "constantCofactor": "-w^12*(w+2)^8*(w+4)^7*A^7*B^4*F29/2^21"
+  },
+  "certificateRegeneratedNotArchived": {
+    "serializedBytes": 18221,
+    "sha256": "44f499ba21f37d13b54bab8b1fb0b5334d3ff4f95ed94ff88975e23d14aa409d"
+  },
+  "primitiveCoverCoefficients": [
+    "4785074604081152",
+    "58300504551194624",
+    "335079467099619328",
+    "1207845134071234560",
+    "3065401859477864448",
+    "5830334970933018624",
+    "8634827802085949440",
+    "10207750505698951168",
+    "9786907390023565312",
+    "7680204352815890432",
+    "4946863432558182400",
+    "2602836033686994944",
+    "1100134789534449664",
+    "357927501213728768",
+    "78953274705182720",
+    "4919987039764480",
+    "-4721663677890560",
+    "-2448462039891968",
+    "-648271597854720",
+    "-84354455701504",
+    "9181176134656",
+    "8179166726400",
+    "2440929310336",
+    "480922953888",
+    "69060985808",
+    "7351019464",
+    "569304380",
+    "30453584",
+    "1007715",
+    "15540"
+  ],
+  "mathematicalClaim": "Every original finite H=0 point on the paid W=0 chart has F29(w)=0. No conclusion from multivariate gcd or from modular sampling.",
+  "ordinaryISPCompleted": false
+}

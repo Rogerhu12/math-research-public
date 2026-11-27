@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-same-w-boundary-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-finite-H-and-same-v-projections-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -45,7 +45,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0 整支已闭：** [完整3352次覆盖、九因子1535次QQ整除及1817余项原Gauss排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)已合全部退化面。九因子QQ整除、完整S8/S5模Bézout及所有准确源/成功回执见正文；两整合signal9仍记失败，不作为排空门槛。旧投影/门/PRS全部冻结，不再重做L0，继续一般LS及其它open接口。
 
-**S0/Lt0整支已闭，一般LS继续：** 615次原QQ覆盖合全部退化面，旧门冻结。一般LS的原P1双零整支、Delta0/W对ell首项零整支及W0整k=−1权线均已闭；原完整来源和全部运行见结果索引/快照。只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1，不付W本身。全域四值式等价首一二次/三一次；六参数式仅准确投影四值等式，四Gram子式仅必要。W0补图两mean商自由秩4，原余式返四列，五常数cofactor给必要x六次式，保未付H=4ek−k²−4k−8及全部首项零。[H=0权曲线的完整最高次系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-original-highest-degree-exclusion.md)已由原二次式4阶QQ(i,w)结式/Bézout=1排空；只支付该曲线的无穷远覆盖，H0有限点仍开、H不可剥。继续原同点覆盖/值返回，W0/Delta0/一般图及算子桥仍开。
+**S0/Lt0整支已闭，一般LS继续：** 615次原QQ覆盖合全部退化面，旧门冻结。一般LS的原P1双零整支、Delta0/W对ell首项零整支及W0整k=−1权线均已闭；原完整来源和全部运行见结果索引/快照。只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1，不付W本身。全域四值式等价首一二次/三一次；六参数式仅准确投影四值等式，四Gram子式仅必要。W0补图两mean商自由秩4，原余式返四列，五常数cofactor给必要x六次式，保未付H=4ek−k²−4k−8及全部首项零。[H=0权曲线的完整最高次系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-original-highest-degree-exclusion.md)已由原二次式4阶QQ(i,w)结式/Bézout=1排空；该无穷远结论现合[有限六生成元及完整F29权覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-finite-six-generator-weight-cover.md)：18真乘法身份、78次原cofactor剥已付49次因子，保所有重建首项零。F29整纤维仍须同点返回，H不可剥；旧/新失败探针冻结，W0/Delta0/一般图及算子桥仍开。
 
 **两个一般均值子支已全闭：** [Q=1−u边界的y=1](results/R150-appendix-unit211-Q1minusU-singleton-mean-y1-exclusion.md)由69/102及18/41次原QQ覆盖/全部小域返回结束；[一般b=c且y=1](results/R150-appendix-unit211-equal-weights-singleton-mean-y1-exclusion.md)由完整26/37/41次结式、14次QQ权覆盖和末半权原Bézout排尽。各分支仅支付自己的y−1。另[Q=1−u的H_Q=(2u−1)ell+u=0整权线](results/R150-appendix-unit211-Q1minusU-Hzero-complete-exclusion.md)已由完整整数53/53次QQ覆盖及三次域两层原返回排尽；再由[整个u=1/2权线](results/R150-appendix-unit211-Q1minusU-uHalf-complete-exclusion.md)的158/170次严格QQ覆盖、104次保度Gauss与末原值返回支付2u−1；[整个ell=0权线](results/R150-appendix-unit211-Q1minusU-ellZero-complete-exclusion.md)又由原均值线性x、Rt低度因式、完整二次纤维及20/40次QQ Bézout排尽。该边界只续H_Q*ell*(y−1)*(2u−1)≠0。一般等权y≠1现又付[原均值差首项A_m非零](results/R150-appendix-unit211-equal-weights-original-mean-leading-zero-exclusion.md)：两条完整零首项原纤维及末Dval0排尽，可解m，v0现亦由原N_H=−3dDval排尽，可付v非零。[新两参数首一值二次式](results/R150-appendix-unit211-equal-weights-two-parameter-monic-value-quadratic.md)已付原首项R的完整单位来源；同一个v上继续原N/P余式，v=−1保留。一般等权仍开。
 
@@ -57,11 +57,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 ### 2.1 目前最直接的完整源接口
 
-[纯远孔完整 Galerkin/MP](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)先在整个 $\ker C^r$ 取原加权投影，再用完整 $((C^*)^r)^\dagger$；双塔误差只乘真核列。不能换成低旗压缩逆。
-
-[分离高度新门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)取 $m\in4\mathbb N,\ m\ge20,\ d=2^m,\ R=d,\ x=m+d,\ Q=4d$，允许高度窗上半带的全强头读行严格正交，Bessel常数1。非零同w锚必要 $\sum_{m,r}\kappa_{m,r}^{-2}<\infty$；真实完整费用上界仍未付。旧帽参数不能自动转到这个新窗，增长R的新窗也须重新满足原支持条件。
-
-旧完整MP、Schur与全奇高度费用已付：奇r至多t⁻¹（偶r可二阶）；有界须退化全核解属于真核极限，O(t)另须ξ0=0及首阶kernel条件。一般短/长链、Hankel合同、完整极点残量和全0<t≤1正则界均保原同源/物理投影。全部准确常数、883费、高孔支撑、移动s的非统一性及原m2/m3反例保[本次完整快照](notes/2026-11-26-open-before-linear-atlas-and-infinity-347c.md)和结果索引，勿重做。剩余始终是完整Zγ(s*)、实际ξ/ξ′、物理γ<1/16或同源孔相关乘积的有效费，以及增长R母窗；64^R不能凭固定参数O或非正交合同消掉。
+原完整Galekin/MP先在整个ker C^r取加权投影，再用完整((C*)^r)^dagger；不能换低旗压缩逆。m∈4N、m≥20、d=2^m、R=d、x=m+d、Q=4d的新高度窗已付Bessel常数1，非零同w锚迫Σκ_mr^−2有限；实际费用上界仍开，旧窗不自动转移。原Schur、奇/偶阶逆费用、退化核首阶条件及全部常数/反例/源身份保本次完整快照和结果索引，不重做。仍续完整Zγ(s*)、同源ξ/ξ′、γ<1/16、孔相关费与增长R母窗；64^R不能由固定参数O或非正交合同消掉。
 
 此前完整比较、源矩及物理相似费用已付，准确公式/适用窗/全部反例保[完整快照](notes/2026-11-27-open-before-complete-K-8542.md)及结果索引。原未加权inverse、同源forcing、帽外投影、真核旗与闭域保留；未支付接口如下。
 
