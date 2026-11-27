@@ -1,15 +1,24 @@
 {
-  "message": "ISP: derive complete all-hole Schur companion sources and physical adjoints",
-  "parentCommit": "372558bc954cbe708c251615f4730426298d6528",
+  "message": "ISP: return the full canonical W ideal and affine constraint across C13",
+  "parentCommit": "c4e7adedcbe402adc9e62059a236128988d03330",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-canonical-three-original-F-rows-and-global-S-affine.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-canonical-three-original-F-rows-and-S-affine-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-canonical-affine-C13-original-input-identity-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-six-original-binary-cubics-and-weight-head-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-whole-H1-original-biquadratic-Dixon-unit-target-input-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-matrix-first-run-small-report-8542.py",
+    ".github/workflows/invariant-subspace-8542-w-six-original-binary-cubics.yml",
+    ".github/workflows/invariant-subspace-8542-whole-h-one-original-dixon.yml",
+    ".github/workflows/invariant-subspace-8542-six-matrix-first-small-report.yml",
     "topics/invariant-subspace-problem/results/R271-appendix-all-hole-schur-companion-sources-and-actual-physical-adjoints.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-all-hole-Schur-source-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-all-hole-Schur-source-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-all-hole-Schur-source-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-six-site-one-special-weight-full-s1-and-relative-source-margin.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-six-bit-s2-matrix-half-characteristic-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-canonical-ideal-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +27,9 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-six-original-binary-cubics.yml",
+    "invariant-subspace-8542-whole-h-one-original-dixon.yml",
+    "invariant-subspace-8542-six-matrix-first-small-report.yml"
+  ]
 }

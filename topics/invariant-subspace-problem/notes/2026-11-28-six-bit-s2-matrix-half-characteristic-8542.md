@@ -10,27 +10,27 @@
 ## 1. 实际原来源与新的唯一目标
 
 完全沿用[原 pair companion 输入](2026-11-28-six-bit-birth-two-s2-full-pair-companion-8542.md)：
-\[
+$
 K_2=\ker d_2,\quad L=\ker d_1,\quad \dim K_2=9,\quad\dim L=5,
-\]
-\[
+$
+$
 G_u=P_{K_2}(d_3d_3^*)^{-1}|_{K_2},\quad C_u=G_u^{-1},\quad
 B=d_{b^3}|_{K_2},
-\]
-\[
+$
+$
 L_j=P_LF_{j,1}^{-1}|_L,\quad
 A=\frac12(C_uB^*L_2+B^*L_2L_3^{-1}L_2),\quad
 \mathsf K=A^*G_uA\succeq0.
 \tag{1.1}
-\]
+$
 所有伴随仍是原物理伴随；全十五维 $F_u=d_3d_3^*$ 的逆先于九维压缩；
 完整两来源和两个交叉项全部保留。
 
 新的准确目标是
-\[
+$
 \boxed{I_L-2\mathsf K>0.}
 \tag{1.2}
-\]
+$
 已刊六位出生一首边 half 在同一 $L$ 上给
 $L_1L_2^{-1}L_1<I_L/2$。因此若 (1.2) 全部证明，
 则同一原完整 S2
@@ -52,29 +52,29 @@ Cayley–Hamilton 和 $F_u$ 逆，真实用时 $24.720906012$ 秒，
 $\texttt{2237cf832bbc9d14d73553bd43f657df5f3dc66d}$。
 
 新源嵌入这同一十五项，按
-\[
+$
 \operatorname{adj}F_u=
 F_u^{14}+c_1F_u^{13}+\cdots+c_{14}I,\qquad
 \det F_u=-c_{15}
-\]
+$
 构造必要的原完整逆。这里 $c_j$ 是
 $\det(\lambda I-F_u)$ 的原系数。
 不重新求这些系数，也不重新设立该已完成逆的通过门。
 新的运算目标从 (1.2) 开始。
 
 程序将全正分母的数值 content 与 primitive 因子分开：
-\[
+$
 \det F_1=4\delta,\quad \det F_2=9\epsilon,\quad
 \det F_u=9216\theta,
-\]
-\[
+$
+$
 \begin{aligned}
 \delta={}&S^3W-4S^2U+12SV-32X,\\
 \epsilon={}&Z^2U^2-4SZUV+12S^2UX+12ZV^2-18ZUX-36SVX+81X^2,\\
 \theta={}&S^2WV^2-4SUV^2+12V^3-4S^2ZVX+12S^3X^2.
 \end{aligned}
 \tag{2.1}
-\]
+$
 它们都是真实完整正 Gram 的行列式除以正整数，因而在正权域严格为正。
 其整数内容均为一，后续连续 Faddeev 因子只能使用这类 primitive 多项式。
 
@@ -86,20 +86,20 @@ $\det(\lambda I-F_u)$ 的原系数。
 $\mathsf K=N_{\mathsf K}/D$，$D>0$。
 源先验证完整六维 $N_{\mathsf K}$ 的真空列为零，
 再形成准确五维商矩阵
-\[
+$
 J=D I_5-2(N_{\mathsf K})_{\rm quotient}.
 \tag{3.1}
-\]
+$
 这个商与真实 $D(I_L-2\mathsf K)$ 相似，而不是普通转置下的压缩。
 所有特征值均为实数。
 
 只将 (3.1) 提出一个明确正标量多项式 $q$，写 $J=qH$，
 并计算新的完整
-\[
+$
 \det(\lambda I_5+H)=
 \lambda^5+a_1\lambda^4+a_2\lambda^3+a_3\lambda^2+a_4\lambda+a_5.
 \tag{3.2}
-\]
+$
 若全部 $a_j>0$ 在原正权域得到证明，则 (3.2) 在 $\lambda\ge0$
 无根，物理实谱给 $H>0$，从而得到 (1.2)。
 任何一个 reduced 参数多项式有负系数，本身都不构成实际负特征值。
@@ -155,9 +155,9 @@ $\operatorname{Tr}(32\mathsf K(\mathsf K-I/4)^2)$ 最大约 $0.505464$。
 本次精确源直接处理 (3.2)，不盲目增加迹阶。
 
 运行示例：
-\[
+$
 \texttt{python <source>.py --output <checkpoint.json> --full-orbits}.
-\]
+$
 实际路径为
 [新完整矩阵 half 源](2026-11-28-six-bit-s2-matrix-half-characteristic-8542.py)。
 首次执行后从其真实内层和全部 checkpoint 继续；未执行或部分返回绝不写成一般 S2 已证。
