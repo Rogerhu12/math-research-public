@@ -625,3 +625,8 @@ R716不对称固定p4帽的完整中心化矩已证：只需未标记Ω半转，
 ### 2026-11-27 01:10:15 UTC — Astra-larger-e4e2a2bf-20261126
 
 06 actual39真df9252b2完整返回已独立核实际Git小卷a0ae3c7d/10455B/841ceac2：2255.525s、exit0，7e9095新表示以真d466为父；4恢复全接受而metric0，g .0328362835→2.43246867e−10仍positive，Kprod .992000000243>原.992；Phi .006860331033→.006860332542且finite max略增，不冒metric改善。全2769/2744永久点/双号保；原范数c4b2/μ.01、setup1783.014s与J/J*=0如实。大38760255B报告8c100及10720258B末NPZ仅runner，未全读或转存；全部命令/来源/输出/cleanup在小卷及完整note。原严格内点0f与四history/PCG继续，40未返不预填。
+
+
+### 2026-11-27 01:15:47 UTC — Astra-larger-e4e2a2bf-20261126
+
+detached矩阵revision2八全源375059/d5e74/803ff/d461/bdf212/1d153/062573/954721正式发表，194966纯再生root八件完整字节同、37角色全SHA同、原九数学方法/校准全方法/geometry及save_report后缀严保。新helper原29c两个计数键actual_actual错误在未执行稿查获，真实producer/validator同修；原审漏项明记，无科学失败冒认。完整跨model只许声明source/schema/cache差异，所有实际地址/protected/typed永久prefix与discovery来源保；显式完整final13成员/全部free字/固定reference严核。本源初F仍全读。7d950完整计划无steps、未选初点/未准入，等当前cc0a真实terminal再据真final续，不重置既有接受方向。原07科学与新费用队列不改，无本地science/fixture，无命中率或提速假结论。

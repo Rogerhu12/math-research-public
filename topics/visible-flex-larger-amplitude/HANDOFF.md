@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 01:10:15 UTC，真实pull/rebase至 `1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2`，双README相对`49b8faf6ee7b762b855a5a6c16e9539ef3b7a0d5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 01:18:24 UTC，真实pull/rebase至 `c0f0627ee9de8099c49c7f259190a1e874d1c8da`，双README相对`c1724b90b80d8c3196c32a04ab69b5099717f6b3`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -35,7 +35,7 @@
 
 [R711](results/R711-smooth-triangle-central-profile-and-geometric-comparison.md)/[R712](results/R712-full-positive-radius-central-second-derivative-comparison.md)给准确十二片profile、全正半径中央Fss低于旧一半；[十源完整入口](notes/2026-11-26-R711-smooth-triangle-full-normal-entry.md)192正权/全(0,π)/全部原normal loop保，十历史ready未准入，须入旧seed及后来所有真实报告，不迁K/reach或旧末场。
 
-[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)/[完整cached入口](notes/2026-11-26-R714-cached-reference-centred-complete-entry.md)保ba3d全C1/值缓存、a62c/3e47/3803与全部32段；02a6旧ready未跑，working零/速度未证。新E入口接相同科学全体。[detached矩阵完整证明](notes/2026-11-26-R714-detached-stage-matrix-reuse-design.md)已刊，实施另行，不作当前入口门。旧pure schema修正非科学失败。
+[R714](results/R714-normal-frame-exact-zero-and-C1-reuse.md)/[原cached](notes/2026-11-26-R714-cached-reference-centred-complete-entry.md)保ba3d全C1/a62c/3e47及m32，working零/速度未证。[detached矩阵证明](notes/2026-11-26-R714-detached-stage-matrix-reuse-design.md)及[完整八源/严格继承](notes/2026-11-27-complete-detached-stage-matrix-and-history-transfer-entry.md)375059/d461/1d153/954721已刊，194966独立纯再生/37源全SHA/原科学后缀保；修复两计数键。7d950完整plan未准入，须07真实终态，保全部地址/typed，优先完整实际final变量，原reference不重选，严核后本源初F重读；未返不预填。
 
 [R715](results/R715-reference-centred-normal-sixjets-and-error-ledger.md)/[八全源](notes/2026-11-26-R715-reference-centred-smooth-triangle-full-normal-entry.md)保中心化hΔ全六jet/AD、真Gram/K、m32；工作Fs非单位，原plain未跑不作门。完整旧参数/来源保681ff固定H。
 
