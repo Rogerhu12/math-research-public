@@ -57,7 +57,7 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。全角/α/CM坐标继续。
 
-[完整角作用请求](notes/2026-11-27-full-p47-original-angle-Hodge-method.md)：固定CM76原95切向，先核[e,He,…,H⁷²e]循环，再共享2208挠点值遍历1081真实目标，按23角全求和后降域；全部组合律与trace核原73维坐标。1200/30，待回执，α/Miller并行。
+[R1106](results/R1106-certified-original-all73-angle-actions-and-two-generators.md)：run45969880122/job140407429635，66.005秒；CM76全73循环det1693，原23角实际坐标/全组合律/trace齐备。ZA=13R0+4R2、ZB=2R4−7R0在全部28块无共同零，生成整T；不代QC行秩。
 
 ## O1：全p同一真实本原标签的临界非零
 
