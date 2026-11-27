@@ -165,3 +165,19 @@ ValueError: This complete normal layer binds its actual independent supported-sm
 [完整阶段1–6原卷](https://github.com/Rogerhu12/math-research-public/blob/882086668df076632531f609a83a172dfe75d473/topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46028002241-1-part-001.md)57966B，whole SHA25683cb443967c0c8ec25f8e0cbece736740568fd21e676f85fa8f03a889fb423a0，Git blob c4df0fdbe5de291eb0dcbd74aa2a47b6a5811cc7。原所有参数/command/输出身份仍完整保；两reader从不读科学数组或重算F/J。
 
 继续按本条真实风险修完整normal/base接口和所有受影响的来源闭合，保原目标、全部变量、32normal、预算及完整history。新尝试必须用新的实际输出路径，保原失败报告和日志身份；不会删除guard、替换固定g、缩小参数或增加独立审查/fixture门。J1845只核同一构造约束是否同样受影响；未经证据不泛改。
+
+## 16:24 UTC：完整实际源码给出的确切子条件
+
+实际driver c64d2340fb51d67af98f56e3f6bec136048a43ceb9f7d9bc3ff12dc0b0488d25（95387B，blob726c884ccfa214d62c6846e651ded5beb811ca40）在该调用传：
+```python
+expected_base_source_sha256=SOURCE_PINS['meridian'][1],
+expected_base_schema='complete-fixed-fejer-supported-smooth-triangle-so3-meridian-with-core-lift-v1',
+```
+其中source pair本身就是实际3f4d5c0ec5b03eba9e93660e1341c32f1bd4872e0d1250d489894dd4ba6ed915。实际normal2db038574bb13e226b61826949cc66d917f0186fe5b9156a50eb7180da3d4bda（98437B，blobc65014dcebbcc5ccc8949aec47daf50dfbfd99ed）全体具有：
+```python
+SUPPORTED_BASE_SCHEMA = 'complete-fixed-fejer-angular-refined-supported-SO3-meridian-v1'
+SUPPORTED_BASE_SOURCE_SHA256 = '3f4d5c0ec5b03eba9e93660e1341c32f1bd4872e0d1250d489894dd4ba6ed915'
+```
+base3f的实际SCHEMA与normal常量一致。故复合guard中失败的是driver传入的旧schema字面，而非这两个完整source SHA不相等。最小科学入口修复为把这一字面改成已严格pin的真实N4096 base schema，保normal/base/128个原source pair及所有数值方法不变；需同时闭合新driver的launcher/pure和全部新输出参数。修复未实施前不预报科学成功。
+
+J1845该同一实际调用已由完整driver97ae6ab8、normal543ef572及base78ded268核对：三处schema都是complete-fixed-fejer-radial-bisection-frozen-reference-so3-meridian-with-core-lift-v1，三处完整base source SHA都是78ded2682f5a42bc44a1939e9d814eec17254d1385dfe08a545d6aee109892ef。它不存在这一次N旧字面失配，不据此变更J；此窄范围源码事实不称整族审查通过或科学结果。
