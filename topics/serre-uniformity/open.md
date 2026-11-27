@@ -50,9 +50,9 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1100](results/R1100-certified-original-level47-first-global-CM-height.md) run45955885738/job140362136569，4.332秒：Γ(1)=818 mod4513，2/47/奇好贡献4256/1323/4265，5134个全部局部项。h(Bqu4,Bqu16)赋值1；不推全部73块unit，后继不重算n1。
 
-[新小奇基请求](notes/2026-11-27-full-p47-small-odd-Hecke-basis-method.md)：原三newform精确换到h=a3+a5后CRT，核原Hodge1/2/3/5矩阵，固定prefix256/512/1024/2256到rank73即停。公开Actions900秒/reserve30；尚无新回执。下一步只在实际基上读其余高度，恢复κ并核全部28块。
+[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)：run45958934145/job140371881297，18.667秒，实际整基恰全部奇n≤149删47、141，det3946、指标和5437；原newform/CRT/Hodge1/2/3/5桥齐备。后继只按固定73indices重建，不重开搜索；其余72个真实高度继续。
 
-[完整高度方法/消费者](notes/2026-11-27-full-p47-complete-global-CM-height-method.md)已写：固定实际基后4核流式计算其余72个Γ，直接消费n1=818；trace Gram与R/P′两法恢复κ，核全部28块并读16个原log归一μ。尚未提交数值请求，待小基实际回执；完整高度仍OPEN。
+[完整高度方法/消费者](notes/2026-11-27-full-p47-complete-global-CM-height-method.md)已写：固定实际基后4核流式计算其余72个Γ，直接消费n1=818；trace Gram与R/P′两法恢复κ，核全部28块并读16个原log归一μ。小基已由R1101认证，数值请求即将提交；完整高度仍OPEN。
 
 ## O1：全p同一真实本原标签的临界非零
 
