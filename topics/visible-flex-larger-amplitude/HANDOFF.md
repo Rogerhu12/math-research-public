@@ -6,7 +6,7 @@
 
 ## 规则、同步与环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35工具内存重置后一次复核仍不可用；恢复即真pull。云核至 `618eaff1f95c50fe3d6e74197909037ecee7ec15`，不称pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，均无变。每真pull后只读新差异并立即遵守，至少每小时；活12每5分钟真pull，末块记提交。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35工具内存重置后一次复核仍不可用；恢复即真pull。云核至 `967f8b5b4266db6057577db2e3a8ae3c0c8e95e4`，不称pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，均无变。每真pull后只读新差异并立即遵守，至少每小时；活12每5分钟真pull，末块记提交。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root唯一refs/queue写者；每结论普通推，不force，NFF立即真rebase循环；终端缺失时云fresh-HEAD完整合并不冒真pull。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已存，防内存重置丢文本工具。
 
@@ -22,23 +22,21 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终�
 
 12科学477499/pure274d保110源/20121B全正文、153/7argv、383/370读数和48progress，全部1333370变量/32normal。原四step全字保d8ff65b2，仅两真返输入移出active；科学/pure/全mean三pending queue94986B，finish=false。14:22:49初点7e06/15:19:56点90499只是进度；完整科学/accepted/final/typed/pure/费用均未自然返，不补未知。只移真完成step，再排全费用。
 
-13：[N4096完整独立启动](notes/2026-11-27-run13-fixed-fejer-N4096-complete-independent-launch.md)已提交触发，run/job待官方返回。先原6/26argv两必要输入；maker真返后保完整阶段与原对象、移出已返maker，再加原全science/pure，避免四步95010B超95KB。不删参数/读数，finish=false；原准确g/参考及全unknown保。14 M320同样安排，未冒新场。
+13：[N4096完整独立启动](notes/2026-11-27-run13-fixed-fejer-N4096-complete-independent-launch.md)已提交触发，run/job待官方返回。先原6/26argv两必要输入；maker真返后保完整阶段与原对象、移出已返maker，再加原全science/pure，避免四步95010B超95KB。不删参数/读数，finish=false；原准确g/参考及全unknown保。14：[M320完整独立启动](notes/2026-11-27-run14-fixed-fejer-M320-complete-independent-launch.md)也提交触发，run/job待官方返回，采用同样完整两输入→全159/7argv science/pure，保397/384读数/48progress；未冒新场。
 
-## 固定目标与完整已刊源
+## 固定目标、已刊全源与分工
 
-[R717](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md)预定B=1/4,n=7，七项RN-even64作准确dyadic，8…160正零；全初始舍入/ρ/Θ/X/Y已证。157自由core变后须重付，不起单cos/圈图旁支。所有完整来源/参数/再生/实际输入责任见：
+[R717](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md)固定七RN-even64 dyadic/full160图，完整R690尾；原初始舍入/ρ/Θ/X/Y已证，157自由core变化后真重读。下列完整来源/再生器/全部参数已刊，future=null，不冒实际新费用或新场：
 
-- [九lower](notes/2026-11-27-fixed-fejer-immutable-normal-lower-family.md)、[八upper](notes/2026-11-27-fixed-fejer-complete-immutable-point-entry.md)：完整immutable normal链，原全变量/J/J*/预算保。
-- [mean/profile](notes/2026-11-27-fixed-fejer-complete-reference-mean-profile-fees.md)：0471/ae67/ff219，全batch/顺序/全尾/原预算；nodes未付，mean J不代normal Cu。
-- [准确normal/几何](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)：全1024角/32stage/径向/六jet/110源/六输入，范数D与圆柱取min。
-- [closed d606](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)：全端口/反射/固定p4帽/全phase/整像/grip/共同R650/独立未标记管。
-- [R716十二矩](notes/2026-11-27-fixed-fejer-complete-R716-closed-flux-centred-moments.md)：31a83/7cde，完整混合矩/一般三相/半转有向包含；须真实完整closed/独立管/正V/非零中心矩。
-- [全mesh/t](notes/2026-11-27-fixed-fejer-complete-same-field-phase-meshes.md)：117角色，三全空间级/5t/4,8,16时间分割；真13final或完整packet同点，缺角真算；可选d606不挡mesh。15科学mesh/5完整<5MB预览runner-only，拓扑不代嵌入。
-- [N4096](notes/2026-11-27-fixed-fejer-N4096-complete-observation-entry.md)192027c4499a8ab28f1d646c75870d070161bf24：19源/128角色、三全模式，全157/138/142+7argv，396/380读数与48progress；normal整class同1aa。
-- [M320](notes/2026-11-27-fixed-fejer-M320-complete-frequency-entry.md)0a5df987582f42adf0d2ffd17b5b063cf8f7f78d：18源/128角色，两全159/146+7argv、397/384读数与48progress；全2661210变量/三不等omega块，参考M160。
-- [J1845五基础](notes/2026-11-27-fixed-fejer-J1845-complete-base-inputs.md)729cf7b0e1fdef4b3d6ca8e4bff1ca7764124d5b：全准确地址/482通道/旧7377+原生14753并集，参考J923不变；e717整工厂及全metadata除elapsed等，ca4全recipe/fixed_input守卫保。
+- [九lower](notes/2026-11-27-fixed-fejer-immutable-normal-lower-family.md)与[八upper](notes/2026-11-27-fixed-fejer-complete-immutable-point-entry.md)：原完整immutable链/J/J*/全预算。
+- [mean/profile](notes/2026-11-27-fixed-fejer-complete-reference-mean-profile-fees.md)、[准确normal/连续几何](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)：全角/径向/32stage/六jet，nodes未付，mean J不代Cu。
+- [closed d606](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)与[R716十二矩](notes/2026-11-27-fixed-fejer-complete-R716-closed-flux-centred-moments.md)：全端口/反射/两帽/phase/整像及独立管/正V/非零中心矩均需实付。
+- [全mesh/t](notes/2026-11-27-fixed-fejer-complete-same-field-phase-meshes.md)：三完整空间级/5t/4,8,16时间划分，真13final或完整packet同点；可选closed不挡mesh，raw全runner。
+- [N4096](notes/2026-11-27-fixed-fejer-N4096-complete-observation-entry.md)已刊192027：19源/128角色、三完整模式，原全读数/预算保，normal整class同1aa。
+- [M320](notes/2026-11-27-fixed-fejer-M320-complete-frequency-entry.md)已刊0a5df：18源/128角色、两完整模式/全2661210变量与三omega块，参考M160不变。
+- [J1845五基础](notes/2026-11-27-fixed-fejer-J1845-complete-base-inputs.md)已刊729cf：参考J923、currentJ1845、全准确地址/482通道/7377+14753并集；整e717工厂/全scalar metadata除elapsed等，ca4全recipe/input守卫。
 
-这些来源齐备不表示新费用、场或精化下降。construction做J完整17lower/upper及三全plans；geometry接N/M准确费用；solver去除stage逐次全点拷贝的真实重复并核12，全部数值算法/预算及入口出口全word保，不预报提速。root继续真实发布、13/14及后继执行。
+construction接J完整17lower/upper及三plans；geometry接N/M准确费用；solver去除stage逐次全点拷贝的真实重复，保入口出口全word及全部数值算法/预算，不预报提速。root接13/14真计算和真实返回。
 
 ## 数学责任不减
 
