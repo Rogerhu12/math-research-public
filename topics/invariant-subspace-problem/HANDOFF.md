@@ -7,12 +7,12 @@
 - **数据规矩8/15已纠正：** 本会话可重算编码/分片载荷从main普通删除；只保源/定义/run/SHA及[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)，以后不经工具搬数据。冻结源若需旧输入，用终端按该定位临时取回；不重写历史。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 712ec6fa9f1e483111d6ac1a7e445b0a553a6765（2026-11-27 20:27:59 UTC，Actions run46063782907实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46063782907-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 20:27:59 UTC/31efebdaeff561cbef190c2e37b70d34d50046b0，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 8b8e61d0e1c0a92baf8b14fbfadaa932d7658d9b（2026-11-27 20:30:14 UTC，Actions run46064017278实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46064017278-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 20:30:13 UTC/98f524321cc75ef8406fbcceeac2f4e8a8a71ddc，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用；20:08 UTC再次探测仍不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `712ec6fa9f1e483111d6ac1a7e445b0a553a6765`（2026-11-27 20:27:35 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `97e82b545760dd4a4c627e30b3b1ad73f708b734`（2026-11-27 20:29:49 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-collision-integral-head-model-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-three-plus-three-uniform-edges-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -50,6 +50,8 @@
 - M=kerT、N=closureBM、W=M⊖N，N=M未证。固定闭G的proper U、目标U全部交织/rho及B/dyadic不保持U已付。新同G稀疏注入链全H稠密、全κ三次增长，ℒ_e0给B→完整T迹类拟亲和；新移级不可闭。真w仍ℒ_w|M=e0⊗w并灭N，不付G保N/正角/真实源费。
 - 真实E为T*y=Sf、By+Tf=0。闭X/Y与F=P_I X、Z:F→W给核心⇔F0、首范围⇔Z0、次范围需closureZF=W。两型Schur三正项及alpha^-2、物理双坐标界已付；真矩自动存在、P_Lr_D0、实际RanK*费仍开。
 - Γ有限恰同g0在实际RanK*；W只付闭包，E0/Z0/同W费仍开。出生一全位首末尖锐2/3，四/五/六位half、六位全三边闭；七位(6,1⁶)禁外推half。五位S2平方迹3/16合原Schur给六位b2首边319/320。新一特殊权全出生原联合源付F>C1²/3、创新费<F/4、S<2I/3且三常数尖锐；六位特例保既付2/3、1/9、half。一般六独立权S1/S2及N=M仍开；旧quarter迹被t36否定。82d43首次180.052867441秒/1335536KiB/−14只返真五维矩阵+c1–c3，c4/c5/CH未返，原门冻；负对称系数不作反例。新三对权完整三塔S1/S2首派，仅小摘要。全孔Schur原来源已付，不代联合正性/条件数/无限费用；所有准确源/失败保正文。
+
+- **三加三原联合与七位定量：** 全(√t³,1³)同九/五维源F>(2/3)C1²、创新费<F/3且尖锐、S<I/2；五完整Gram先逆后压与三正多项式13ms原整数返回。合已付低half/真定量Schur及倒数权，七位(a,√t³,1³)整14维首末边≤1−(1−1/√3)(1−1/√2)/3<24/25。旧R239定性不重计；三对新源run46063673245已返两式全正，完整正文续单独发表。
 
 ## 原Haar未知普通M与闭域
 

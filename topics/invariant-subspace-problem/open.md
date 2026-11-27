@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-H1-256-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-three-plus-three-uniform-edges-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -44,15 +44,15 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
-**[原L0完整3352覆盖与九因子整返回已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)。** QQ1535+余1817、全部退化面/准确源/回执/两signal9失败保总定理及快照；旧门冻结，续一般LS，不重放。
+**已闭原面不重做：** L0的完整3352覆盖、整个Q=1−u、一般ell0均已付；等权b=c仅在旧D≠0图付ell−u，W另付k+2/Q−2。W整个λ3/2也已付，全部原头零及旧失败范围保完整快照/结果索引。一般LS、D0碰撞和其它权纤维不据此关闭。
 
 **S0/Lt0整支已闭，一般LS继续：** 615次QQ覆盖合全部退化面；原P1双零、Delta0/W对ell首项零及W整k=−1全闭，分别付(Pf,Pt)非同时零、Delta0的Phi、W的u(Q+2)−2及k+1。四值式等价首一二次/三一次，六参数式只投影、四Gram子式仅必要。[W整H0原排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)支付H；完整来源与旧失败保快照。
 
 [H非零原全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)及[整u=Q返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已付H/u−Q；旧180秒cofactor、76.992秒trace、F3/F95冻结，精确来源保快照。整个D27/J19已由原整域返回排空；当前W续全T3/F2原十一行和新Θ/NV输入，旧来源及失败保完整快照。
 
-**[整个Q=1−u边界已闭](results/R150-appendix-unit211-Q1minusU-complete-original-exclusion.md)，一般LS全局可付u+Q−1。** 三QQ重数244/3/3及1129首一余式整返回；完整源/失败保正文和快照，不重开旧D≠0图。
 
-**[旧D≠0原值图的等权b=c已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 原824次覆盖和全部原单位返回已闭；仅该图付ell−u，W另付k+2/Q−2。600秒门冻，h=k用独立原结论。
+
+
 
 **2+1型H、Hp0只余全有限四源非退化ess6：** 全无穷远已闭；同Π原C/G一次和N二阶d5/8已付，四个900秒门冻结。全部原公式、四源边界、来源/回执保本次完整快照及结果索引。继续真实非退化层、原幂来源及算子桥，不重做已闭面。
 
@@ -169,17 +169,17 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **W旧补图保留。** A143非零图由1,S生成；其零面保两原降次式及B146E849−2D422C372，不倒B146/D422。八列旧环境由后列全六列原返回继续，全部旧源/边界保本次快照。
 
-**[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整源、零域、失败保正文和快照；不重做已闭面。
+
 
 
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**Phi0旧D≠0图。** [整个zn0](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)和[整个rho二次头零支](results/R150-appendix-unit211-Phi-zero-rho-quadratic-head-zero-complete-original-exclusion.md)均闭。后者完整分类2d(1−4d²)(rho+d)=0，合主图H7/补图和特殊有序权/BC交换，仅支付Aρ=ell−1−2d²。旧C87/55与C71/29主图已闭，准确源/失败保原正文不重放；不外推一般H1或h=k。当前继续Aρ非零图及一般H1的316 b0特殊纤维、b非零原条件。
+**Phi0只在旧D≠0图。** 整zn0及整个rho二次头零均闭；仅该图付Aρ，完整分类2d(1−4d²)(rho+d)=0及主H7/补图/特殊有序权交换保[总证](results/R150-appendix-unit211-Phi-zero-rho-quadratic-head-zero-complete-original-exclusion.md)。旧C87/55与C71/29主图闭，4943不设门；当前一般H1保C256全部整纤维，H0/其它Aρ非零图继续，不传h=k。
 
-**Phi旧失败冻结：** ed0内存SIGABRT、879为SIGALRM；准确源/已返范围保完整快照及失败正文，不提高限额重跑。
 
-**W整个λ=3/2原分支已闭：** [372/403完整QQ覆盖与Gauss排除](results/R150-appendix-unit211-W-lambda-three-halves-complete-original-exclusion.md)已付全W的3−2λ；A143/Ah/原e头零全保。旧a267后段SIGALRM准确保档，不复跑。
+
+
 
 **一般Phi紧凑879失败冻结：** 120.067秒/816684KiB/−14只返P1/NV，无R2/W4或新曲线；[准确源与失败](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保留，改自由z原N1首一二次，不加时重跑。
 
@@ -199,7 +199,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个G36原曲线已闭、共同F恢复全域成立](results/R150-appendix-unit211-W-G36-entire-original-exclusion-and-global-F-recovery.md)。** 完整1198=(k+1)(k+2)(k+4)L61H1134的全部原纤维已付；三原F一次行共同det=已付×G36，故同一F=Fp(S)、degS≤2，在当前W原图全域唯一。保qF(Fp)及全部原条件后才可用首一S³三列环境；不倒Bi/H411/L1/A143/D，不把三列环境当仅权参数三点数界。
 
-G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原常数1及各次准确失败见[整个G36总定理](results/R150-appendix-unit211-W-G36-entire-original-exclusion-and-global-F-recovery.md)及快照，不重放。
+
 
 ## Phi：四头覆盖、首头原 D 与例外原纤维（8542，2026-11-28）
 
@@ -217,7 +217,7 @@ G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原�
 
 [五位完整S2](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)保四共同块、两个cross与全上MP；同一平方迹的[3/16统一预算](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)以472正均值差/6478正轨道给S2余量>(2−sqrt3)/4。[原定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)再保同Qy/WW*和原H0，六位出生2九维首边≤319/320；一般四项真实费用仅条件地给alpha·epsilon/2，不支付尚未取得的来源。
 
-[六位内部及三边half](results/R271-appendix-six-site-internal-half-complete-ordered-difference-certificate.md)全闭：同唯一37383B原特征，f4/f5完整排序差在重复权亦严格正，旧flow失败冻结。低rho=1/2已付；一般六独立权上birth2的S1/S2仍须原联合来源。完整项数/SHA/13269ms回执保正文。
+六位全部三边half已闭，低rho=1/2可用；完整排序差/重复权严格性和旧flow失败保[原内部定理](results/R271-appendix-six-site-internal-half-complete-ordered-difference-certificate.md)。一般六独立权上birth2 S1/S2仍开。
 
 全部唯一准确参数/源码/回执已刊。9b5/3e34资源失败、首次JSON转换故障及旧六支持流失败保原准确身份，已成结论不重跑。有限primitive预算不替代原graph Gram、同W真实RanK*费、Green/carry或N=M；全部相关接口仍按前节和快照继续。
 
@@ -229,15 +229,15 @@ G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原�
 
 
 
-[全W恢复后的十二完整原三列行](results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md)：8430b真24.650824419秒/218236KiB/0，保qF(Fp)、六Gram、r2/R6、原个别NP/完整NV的全乘子，三乘法列/31约化均实际返。新NS/NV必要式lambda9/13、权头51/69与50/64仍未付；两大参数1.67/2.66MB只源/原定义/准确SHA，未归档全系数，9105未执行不重派。[两个原均值的新一次式与固定结式](results/R150-appendix-unit211-W-two-original-mean-S-affine-and-fixed-resultants.md)ca409真57.781107262秒/369868KiB/0：同S原一次L1/L0的lambda4/5，固定2/2及一次/首一三次原身份给lambda10/16必要式，所有原乘积返回。完整13项C13(e,k)未付，整零纤维保；两片302638B一次式准确输入已存，大结式只留原定义/SHA不缓存展开。新a8cbbc只用全已付三行B逆，首次正反返回(F−Fp,p2,p3)并约原首一S³；全C13/新头零与qF(Fp)/个别NP/NV保留，不能把必要参数式当全W空。
+[W十二完整原三列](results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md)已保qF(Fp)、六Gram、r2/R6、个别NP/NV；NS/NV的λ9/13及权头51/69、50/64仍未付，9105未执行不重派。旧两原均值一次λ4/5及必要结式λ10/16完整源/57.781秒回执保快照；现规范新一次跨C13有效，但C13/新头零自身仍未付。全qF/q3和个别NP继续，不据必要式称W空。
 
 
 
 例外Phi旧ffbdc准确g4=c²、无jet或QQ幂改进保[失败note](notes/2026-11-28-unit211-Phi-zero-exceptional-partial-phi-repeated-factor-8542.md)；例外整图已由独立P6闭，不再续局部入口。
 
-[Phi主rho头的H7补图](results/R150-appendix-unit211-Phi-zero-main-rho-head-H7-complement-complete-exclusion.md)和[整H7](results/R150-appendix-unit211-Phi-zero-main-entire-H7-original-exclusion.md)均全原排空；39a391真0.385492544秒/0，全七维QQ返回1，不用P6/P9，后备C71/F6/D未执行。全部原证书/冻结失败保正文及快照，4943未执行不设门。
 
-[Phi主图整−1/4纤维](results/R150-appendix-unit211-Phi-zero-main-minus-quarter-entire-original-fiber-exclusion.md)已用同lambda半的三原均值显式返8890621787500D排空。目标是物理D，不借另一图lambda半；完整源/75ms回执和此前准确历史保正文。
+
+
 
 [两E的完整u首项与有限u无穷远边界](results/R150-appendix-unit211-collision-E-u-heads-and-finite-u-infinity-boundary.md)：3c698仅返B⁵F162/B⁵F167和λ∞有限u公共首系数gcd u10(u−2)⁵；完整QQ因式/小显式Bezout见正文，两个原头零仍保。首个整F162 QQ u-gcd120.061897953秒/151072KiB/−14未返，F167未做；旧37阶180秒门同冻结，不以超时作空。新[整数有限自由模型](notes/2026-11-28-unit211-collision-E-u-head-integral-finite-free-model-8542.md)首派，只按积分/另一原u头整模单位选固定p；全部λ因子原u返1后才跨幂零及有限自由提升。没有物理u局部化，未运行前不付头；既成五坐标≤235170和全部原Q/个别NP保留。
 
@@ -260,3 +260,5 @@ G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原�
 [一特殊权全出生统一联合来源](results/R271-appendix-one-special-weight-all-births-uniform-joint-source-budgets.md)：全n≥2s+1、s≥1、t>0的原正交全部块，完整F>C1²/3、创新费<F/4、S<2I/3，三个常数均尖锐；最高C2硬端、真实伴随和全部原逆保留。六位特例较强旧界仍有效，不重计旧R239定性相邻性。一般独立权/无限carry/同W费用仍须另付。
 
 [新三对权完整三塔输入](notes/2026-11-28-three-pairs-original-joint-three-tower-8542.md)：同完整九/五维源中仅剩三/二维非平凡块；用R288真三塔构造S1并保深源，S2含同U0/完整上精度与双cross。x=1+U+V,y=1+V，全5前导主子式皆严格正才算闭合。7d4原首派180秒/4GiB，零外部数据依赖；尚未返回前不作正性结论。
+
+[三加三原联合预算及七位统一首末边](results/R271-appendix-three-plus-three-original-joint-budgets-and-seven-site-uniform-edges.md)：六位(√t³,1³)整个九/五维源F>(2/3)C1²、创新费<F/3（尖锐）、S<I/2；五原完整Gram全部真实逆后压，三全域正多项式保全部cross。真定量Schur给七位(a,√t³,1³)整14维首末边同c*=1−(1−1/√3)(1−1/√2)/3<24/25。R239旧定性不重计；该均匀数值界仍不外推一般独立权。
