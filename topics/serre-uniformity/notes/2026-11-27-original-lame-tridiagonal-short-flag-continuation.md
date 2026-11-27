@@ -629,3 +629,17 @@ $$
 o2_high_coefficient 已独立纸核 (T27)--(T30) 的原 jet、全部阶乘、反射常数及两个 j0 端点；
 root 与 o2_high_coefficient 随后逐式核新增 §§9–10 全文，包括移位平方、零末行和指定源两 jet 的完整有限和。
 全文没有数学程序执行。
+
+
+## 11. 后继：完整压缩微分及指定源共轭
+
+新证明见 [R1137](../results/R1137-original-Lame-conjugation-with-complete-boundaries.md)。
+它保留 $D_0=D-\Psi\ell_{p-1}$、$\Lambda=\Phi D_0\Phi^{-1}$ 的全部
+秩三交换子边界、第四阶 $\delta^4c_N$ 共振，以及原 $U/B/C$ 的完整变换。
+同一个 $\phi=\Phi(U^m)$ 准确满足
+$$
+2\Lambda^3\phi+3\Psi\Lambda^2\phi+6\Phi(V)\phi+3\delta\Psi=0.
+$$
+$\Lambda$ 仍是原纯极基降阶算子，不能自动当作目标局部微分；
+原隐藏的移动 $p$ 重极亦在 R1137 中完整保留。
+本节只指向新结果，不重写已经发布的 §§1–10。

@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-genus-four-Raynaud.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-exact-Lame-conjugation.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -76,23 +76,7 @@ R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darb
 
 [R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：实际X108双三次模型/原q尺度给A_p=(-1)^N3^(3N+1)S_n（亦−S_n/3），S_n=Σ(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3；原f_N=t²δ′A_p/[4(p+1)]。S单位与同h筛选仍开。
 
-[R1049](results/R1049-original-fN-theta-first-direction-moment.md)：原f_N=t²δ′[q^p]ΘEΘ(q⁴)/[4(p+1)]及phase/36/12保原文，R1059已接实际曲线；同h两mask仍开。
-
-[R1053](results/R1053-original-scalar-disjoint-window-through-500000.md)：全部新增7878素数200000<p≤500000、p2/5mod9原f/g非零；run45869953028/45874715945，完整预算/hash保结果；窗口完成不重开，不外推全p。
-
-[R1043](results/R1043-original-fN-and-Hodge-kernel-CM-endpoint.md)：全部p=6N+5≥41，原sigma/正CM/六标记准确f_N=−T₀(1)/6，T₀∈Fp[b³]唯一满足LT₀=A、首系数−1。完整fine Cartier身份给同一V_(p−1)†=ξr^(N+1)T₀；保两行ξ的(−1)^(N+1)、E6=−c6和原mark E6/η12=−24√−3。原B(c₀,λ)=B(c₀,v)=3T₀(1)/A(1)=−18f_N/A(1)。端值单位及同h筛选仍开，不混同r2范数或扩到r8 bare。
-
-[R1031](results/R1031-original-fN-and-actual-Faber-truncation-central-derivative.md)：原f_N=0 iff [P_d(1−2z)²]≤d 的R′(1/2)=0；真实Faber/Hasse²运输给完整单位比例，forcing为−(d+1)³(C_AS/9)z^d。中心导数单位、同h两mask与bare仍待证。
-
-[R1027](results/R1027-original-level-p-squared-theta-distribution-and-constant-one.md)：原D_p=1、4η⁶C_N²=1、Σa_i²a_(N−i)²=−1/4全p≥41已证；实际Lp²/Frob、total-D阶p交叉与[p]=−Frob²符号完整，δ′²=1。原两mask/bare不因此非零。
-
-R1022/25/27原相位、D_p=1与δ′²=1全部已成，完整尺度保原结果/归档；原两mask/bare不因它们消失。
-
-[R1020](results/R1020-original-critical-convolution-complete-theta-scalar-bridge.md)：原全方向比值、实际index2 vacuum、norm3分布负号和canonical三挠/Weyl二次相位全部已核，十二代表不变。完整尺度保结果与归档，不代原primitive/Legendre同h或O2单位。
-
-R1017 的原 $\mu_6$ 两项源、三挠 lift 与 $T^-$ 上无零已经证明；这些全方向结论只消费，不重做，不能替代实际同 $h$ 筛选。
-
-[R1012](results/R1012-original-p-similitude-divided-high-coordinates-and-critical-bridge.md) 的实际 $p$-similitude、十二表示、完整除 $p$ 高坐标与双向导数桥，已由 [R1017](results/R1017-original-tame-two-three-phases-and-every-direction-critical-unit.md) 给未经筛选的全部方向单位；全部来源与相位保原文。未接单个 bare 高系数，原 primitive/Legendre 同 $h$ 筛选不删。
+R1012–R1053 的完整相位、Faber/CM/本原标签、全方向单位及至500000的已成窗口，逐字保于[本次前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)；只消费、不重算，不将全方向结论代同h mask。
 
 本节限定原指定CM源；其R317应用受O0全部附加条件约束，D/bc无统一上界。p=6N+5、h=6i+7、i+j=N−1，原J32准确单位乘(P_(h−1)(1/s)fi gj)^p；必须同一个本原h使三个因子非零，完整Norm/两CM权/det/半周期/ζ²相位不换。
 
@@ -128,6 +112,8 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 [R1134](results/R1134-original-single-source-low-Euler-obstruction.md)：原p=101,107,131,137的r≤4/d≤2 Euler类十五列全rank15，前三项原源验收全PASS，minor36/30/63/7。run46050577346/job140680567162，2.896秒，cert SHA9a88755aa14f68a314d551f84efff633a6d5d1b8dd40e67aeaa4e0df90fd1398。仅有限四输入，无端值扫描/全p外推；不重跑。
 
+[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)：D₀=D−Ψℓ_(p−1)与Λ=ΦD₀Φ⁻¹的rank3边界全付；D⁴φ=ΦΛ⁴(U^m)+δ⁴c_N，c_N读取安全F⁴而非已付F⁷。原Lamé/B核分部积分给完整U/B/C共轭，真实φ满足2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0。末项由最高极强迫；Λ仍为纯极投影，非目标局部D。G=U^mK的div=A+mQ+m(−Q)−pP_R，隐藏moving p极不由三可见log极删除；指定e/K4继续。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 [R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
@@ -139,7 +125,7 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
-完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-genus-four-Raynaud.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。
+完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。
 
 ## O4：原 Abel 像与真正高度
 
@@ -149,8 +135,8 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 ## O5：原固定 Y 的有效断点
 
-R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-genus-four-Raynaud.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。
+R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。
 
 ## O6：其它全局路线与永久边界
 
-完整旧分支见[逐字前态](open-archive-2026-11-28-before-genus-four-Raynaud.md)。R1004导子/交叉迹下界不付a/c上界，R236/238/249依赖M*=D(bc)²。原全局目标仍须统一q<p²/4、ε(q)=−1且a_q≠0；依导子密度或有限窗口不足。R707主41与R1125 full47已完成，只消费；R101/109有gap范围不外推全p，R4无Runge尖点盈余。变化CM不能套固定A、自动Norm不添类群矛盾。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp和Shapiro边界不变。
+完整旧分支见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1004导子/交叉迹下界不付a/c上界，R236/238/249依赖M*=D(bc)²。原全局目标仍须统一q<p²/4、ε(q)=−1且a_q≠0；依导子密度或有限窗口不足。R707主41与R1125 full47已完成，只消费；R101/109有gap范围不外推全p，R4无Runge尖点盈余。变化CM不能套固定A、自动Norm不添类群矛盾。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp和Shapiro边界不变。

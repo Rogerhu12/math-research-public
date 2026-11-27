@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：08457831cca15da7f9f74662f7fc6505d2341d5b**（2026-11-28 03:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：420002f268f6978049cb9575a456630e6c363c5c**（2026-11-28 03:28 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
-最近真实pull 2026-11-27 01:48 Asia/Taipei；2026-11-28 02:39重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 03:39。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+最近真实pull 2026-11-27 01:48 Asia/Taipei；2026-11-28 03:27重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 04:27。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
 root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-forced-Manin-and-Lame-boundaries.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
@@ -34,7 +34,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保原Miller/Verschiebung、kerV/−Q刚化、全自然基与P/N连接。6v dot t̂=ΦN_full f；全V₀低阶共轭已排，指定U^m未排。首normal×Picard一/四阶零而normal零阶unit。真实Prym族Y²=−(3x+ε)(x³+2v)给完整θ及rank2 Gauss，θ为终止ε₂F₁，cup1/(9v)；moving三挠不代fixed Picard，period仅<p安全、首共振p+1。
 
-全族Dε^p=HεDε、DεΨε=HεU−βε；加律保−HM，dotR保全S_(p−3)/常数。Ψε(Q)=(εH−ε^p)/6，二阶公式已付。§16完整普通Picard连接为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M div=V*O−pO、Hc=−DlogM、c(FQ)=−ε/6；保moving-zero的HD_T与全部高极输出。p-curvature只核尺度。o1正对指定UDf+Vf=0作真实Hermite消去；高Ψ插入未证保持有界余核，不从rank-one/三个有限极猜固定阶。
+全族Dε^p=HεDε、DεΨε=HεU−βε；加律保−HM，dotR保全S_(p−3)/常数。Ψε(Q)=(εH−ε^p)/6，二阶公式已付。§16完整普通Picard连接为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M div=V*O−pO、Hc=−DlogM、c(FQ)=−ε/6；保moving-zero的HD_T与全部高极输出。p-curvature只核尺度。[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)付D₀/Λ全部rank3端点、D⁴的δ⁴c_N及原U/B/C完整变换，指定φ满足2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0。Λ非局部D，moving p极仍保；继续真正两jet消元。
 
 §15固定E_P上Ξ=d(xR/r)+3v(R/r²)ωP、Υ=−3R²ωP读3e、−3K4；proper高极p次自由项按CM权排。两类在同一CM线，不能用全rank2完美性。完整Fermat矩给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k矩unit、后k零；**两原和非同时零仍开**。
 
