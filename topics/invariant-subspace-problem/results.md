@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Phi=0 原值碰撞的首一 ell 二次与8918基参数点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-monic-ell-8918-point-cover.md)：h=1有序图的两必要式总次98/91、QQ互素，11个H³真原返回保全部临时零面；真实4.796秒/exit0，k=1由交换覆盖，未排空。
+
 - [R150：W 整余图五条无 s 原行、五条 s 一次原行与四个参数 cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)：保完整两谱，真原组合消 s 后取常数列，实际24.779秒/exit0；w度18/18/18/23与全部未付首项零面保留，未宣空。
 
 - [R150：一般 h=1/k=1 的同一清分母 Gram 八原式与首一三次行列式头](results/R150-appendix-unit211-general-h-one-cleared-eight-values-and-monic-cubic-determinant.md)：真实10.632秒/exit0完整两谱；Delta*的ell³头−2Sxi p⁵/rho已付，提供整个零图三维输入，未排空。

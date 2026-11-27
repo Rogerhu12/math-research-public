@@ -559,3 +559,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 19:20 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - W新f9141a75实际24.779秒/421204KiB/exit0，run45987986656；五加五完整双向原行、四紧凑s系数和四参数cofactor均完整回乘。
 - 四必要式w度18/18/18/23，无新增paid剥因子；只留源/小回执/SHA。旧NameError独立冻结，下一J19整个四次权曲线，未付各首项零、不宣排空。
+
+2026-11-27 19:23 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- Phi0/h1新1ec9实际4.796秒/57628KiB/exit0；首一ell2、八原行及11个H³目标全返，两QQ互素必要式给所选h1有序图≤8918基点，尚未排空。
+- 新ca53仅对(r,ell r)用真实原单位乘目标；norm只筛相交，接受步骤均完整原身份且新core整除旧core。首次120秒/1GiB，所有余零支保留。
+- 课题外仅新增invariant-subspace-phi-h-one-actual-unit-target-8542.yml；实际pull/两README/私库QUEUE继续。

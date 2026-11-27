@@ -186,4 +186,4 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[整Phi0完整八原值六维返回](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)已付，仍开。** 1218c370真69.227秒/180608KiB/exit0。新1ec9ea1c以原Phi对ell的已付二次头，在h1/k1整碰撞上回八原行及11对原单位H³目标，保全部临时行列式零面；120秒/1GiB待实际。旧碰撞参数化已付、旧排除仅S0；[新源/依赖/界](notes/2026-11-27-unit211-h-one-cleared-original-inputs-8542.md)。
+**[整Phi0完整值](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)及[h1有序碰撞图的8918基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-monic-ell-8918-point-cover.md)已付。** 1ec9真4.796秒/57628KiB/exit0，首一ell2保全部根；11个H³原目标给98/91次QQ互素必要式，尚未排空，k1由交换覆盖。新ca53仅用闭对(r,ell r)及真原单位U³，norm只筛相交；每次完整回乘且新core整除旧core，120秒/1GiB待实际。
