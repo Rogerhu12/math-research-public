@@ -200,3 +200,6 @@ R1021§13登记原两δ-new完整degree390的三E2译像：原dyadic t与princip
 
 2026-11-27 08:01 UTC / Astra-rank2-Sha-0b097461-20261127
 R1035§6逐标记消费真实公开只编译run45962104875/job140382113685/sourcea6a3b7e9453a2f2d0babacb26ec85dd42dc20320。Sage10.6原生编译/加载与19组固定串适配成功，生成整函数hash39fa1f64…8504492相符；编译stdout1116B/hashc0344dfa…2296024、宿主stdout2184B/hash754da7dd…117d2ba、全日志10393B/hashab8f9436…76881cc及完整hash均见原证。实例0、临时容器删除/无数据持久化确认；不代数学验收。08:00:24UTC唯一v10日志API仍BlobNotFound404，作业未改。
+
+2026-11-27 08:03 UTC / Astra-rank2-Sha-0b097461-20261127
+R1034§11登记全α的真实Jacobian权与char0全39 flat输入、精确K=H全尾、唯一未施伴随r=p/b5页及其两个不同端点、−5κ5实际M首槽与原G四项有限E2读数。提交前central/root/arith审读发现原§11.7把平移y_i与G错当同点；未发布旧稿，现按真实word修为p³+p²+(7−b)p并保未偶投影p²帽、Ri≤4/其余≤1新增费用、全部Miller/cut/曲率/两exact。主证明其余段逐字同已核稿。R1021§13整译源+1/√3授权和实际翻权同读，不把两个端点混同；完整H逐字归档压缩，所有旧门沿链保持。

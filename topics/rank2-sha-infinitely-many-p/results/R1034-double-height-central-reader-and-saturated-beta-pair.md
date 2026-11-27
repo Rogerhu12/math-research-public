@@ -898,3 +898,429 @@ R616/R619 的真实端点自动返回低中央数据，
 全文未新增数学执行。原二坏带引用 R614/R616/R619；
 本篇新内容是同精度两枚合法平坦权、其完整 β/γ 返回与绝对三挠主部、
 一个确定的整 native lift 及全物理高行，和不可删的第二 Cartier 行。
+
+
+## 11. 同步全39处的实际 Jacobian 权、唯一边界与首个物理耦合
+
+本节改用一个完整新权来支付 §9.4 留下的实际二挠费用。
+它同时处理三处和十三处，不把中间的 $1/y$ 移出原十三 trace。
+以下仍是同一两个 $H$、同一原来源、同一矩阵 (22) 和同一两坏带。
+
+### 11.1 一阶算子指出的实际新根
+
+令 $V=2yD$，其对偶微分为
+$\beta_V=\omega_E/(2y)$。
+原三倍 CM 公式直接给
+$$
+\chi_\delta(P)=\frac{X(P)}{X(P)-8}
+=\frac{y(P)}{\delta^3y(\delta P)},\qquad
+[\delta]^*\beta_V=9\chi_\delta\beta_V .
+\tag{44}
+$$
+所以 $V_{\rm up}[\delta]^*=9\chi_\delta[\delta]^*V$。
+这是真正的一阶向量场 Jacobian，非凭极帽挑选的乘子。
+
+在原 $\kappa^3=h=1-y$ 三字中，完整公式是
+$$
+\chi_\delta=\frac13-\frac{x}{3y}\kappa
+-\frac{x^2}{3yh}\kappa^2,\qquad
+\operatorname{Tr}_{[\delta]}\chi_\delta=1 .
+\tag{45}
+$$
+例如 $y_{\rm up}=\delta(\kappa^2+x)/(\kappa^2-x)$，
+且 $(\kappa^2-x)^{-1}=(h\kappa+x\kappa^2+x^2)/(2h)$，
+逐项就给 (45)。
+正 mode2 与原 $\beta$ 的第1字之比准确为 $(y-1)/y$；
+负支的比为 $(y+1)/y$。
+所有 $N=130$、$C_S$、Miller 与十三字仍取 §4 的原规范。
+
+只使用 (45) 时，中间 target 的新 $y^{-p^2}$ 不能跨十三 trace。
+实际 $y_\pi/y=B_\pi/(\pi^3R_\pi^3)$，其中
+$$
+B_\pi=(A_\pi+3XA_\pi')R_\pi-6XA_\pi R_\pi' .
+$$
+因此 $y_{\rm up}^{-p^2}
+=(B_\pi/(\pi^3R_\pi^3))^{p^2}y_{\rm target}^{-p^2}$；
+完整额外 $B_\pi$ 字必须保留。
+下面直接同步整个 $\alpha$，从来源上避免这次不合法交换。
+
+### 11.2 全 α 的一个特征零平坦权
+
+定义固定有理函数
+$$
+\boxed{
+\chi_\alpha(P)=\frac{y(P)}{\alpha^3y(\alpha P)}
+=\chi_\delta(P)\chi_\pi(\delta P),\qquad
+\chi_\pi=\frac{R_\pi^3}{B_\pi}.
+}
+\tag{46}
+$$
+它的规范完全由原 CM 有理图确定。原点 $y(\alpha z)\sim
+\alpha^{-3}y(z)$ 给 $\chi_\alpha(O)=1$；
+整个函数为原 $\mu_6$ 不变量。
+
+它的全部零极如下：
+
+- 非零 $E[\alpha]$ 共38点，每点恰三阶零；
+- $[\alpha]^{-1}(\mathcal D_2)\setminus\mathcal D_2$ 共114点，
+  每点恰 simple 极，且全映到 target 的三个二挠点；
+- 在原三个二挠点，分子分母的一次零相消，留下单位；
+- 没有其它零极，也没有新的 $S,-S$ 极。
+
+这些计数由 $[\alpha]$ 在当前好位为次数39的 étale isogeny
+及 $\ker\alpha$ 为奇数阶直接得到。
+好整模型下 (46) 的局部单位及全部有理图系数只用原固定坏集；
+没有随 $p$ 新增垂直分母。
+
+保持 (1)，置
+$$
+a=p^2-k,\qquad
+\mathcal V_\chi=\chi_\alpha^a B_{a,k}(\chi_\alpha).
+\tag{47}
+$$
+因为 $n<2p^2$，准确有
+$$
+3a=3p^2-\frac n2>n+1,\qquad a+k=p^2 .
+$$
+所以特征零的 $\mathcal V_\chi$ 在原点为
+$1+O(z^{n+6})$，在全部38个非零核点从高于 $n$ 阶起。
+每个 simple 极的实际阶数至多 $p^2$；
+这个帽在特征零已经成立，不仅是约化后成立。
+(9)又给完整多项式身份
+$$
+\boxed{\overline{\mathcal V_\chi}=\chi_\alpha^{p^2}.}
+\tag{48}
+$$
+
+沿原未平均 trace 定义
+$$
+A_\chi=\alpha^{-10}\operatorname{Tr}_{[\alpha]}
+  (\mathcal V_\chi R_f/R_\alpha^{10}),\qquad
+h_\chi=\sigma^{10}A_\chi .
+\tag{49}
+$$
+全部原 theta lift、有限39字、$\alpha$ 微分尺度和两个 Gaussian
+都与 (4)、(8) 相同，逐支得到
+$$
+h_\chi(\alpha z)-f(z)=O(z^{n+1}).
+\tag{50}
+$$
+target 的全部非原点极只在 $\mathcal D_2$，每处至多 $p^2$。
+对本篇的 principal 来源，$A_\chi$ 为偶函数；
+在二挠点的反演局部参数下极阶必须为偶数，故真实帽为 $p^2-1$。
+因此还可用完整整基
+$$
+A_\chi=x^2\frac{P_\chi(X)}{(X+1)^M},\qquad
+M=(p^2-1)/2,\quad \deg P_\chi\le M .
+\tag{51}
+$$
+最高次数已用 $m_0(h_\chi)=0$ 收去；
+所有系数在当前原好整环中，且 (51) 是完整 trace 的结果，
+不是自由选择的 target 多项式。
+
+(48)的完整返回也可写成
+$$
+\bar h_\chi
+=\alpha^{-3p^2}y_{\rm target}^{-p^2}\,
+ \mathcal T_\alpha(y_{\rm source}^{p^2}f),
+\tag{52}
+$$
+其中 $\mathcal T_\alpha$ 是 (49) 的原 theta trace。
+特别，(52) 绝不把 $y_{\rm source}^{p^2}$ 换成 $y_{\rm source}$，
+也不把其完整39字或物理框架删掉。
+另外真正的微分 Jacobian 为
+$[\alpha]^*\beta_V=\alpha^4\chi_\alpha\beta_V$。
+
+### 11.3 用原第二半径支付整个 p^H 精度
+
+(51) 仍具有 §5 的实际整展开
+$A_\chi=u^{-10}\sum_{j\ge1}a_ju^{6j}$。
+原 R618 的第二半径
+$$
+\tau_2=\frac{2p-1}{p(p^2-1)},\qquad R_2=p^{-\tau_2}
+$$
+上，$W_0$、$u/z$ 及其逆在略大盘均为单位；
+$U_\sigma$ 在每个严格内盘为范数一的单位。
+故对每个 $R<R_2$，整个 Gaussian 的范数至多 $R^6$。
+这对任意增长的 $M$ 同时成立，因为 $a_j$ 整且 $|u|=R<1$。
+原 source $f$ 及两个实际 Gaussian 的整差也有同一个界。
+
+因此 R618 的完整无限尾证明逐项给
+$$
+v_p(T_h)\ge
+\left\lceil h\left(1-\frac{2p-1}{p(p-1)}\right)
+ +6\tau_2\right\rceil+v_p((h-1)!) .
+\tag{53}
+$$
+在 $h=2p-1$ 右侧至少 $2p-3$，以后单调趋于无穷。
+对剩下的 $H+1\le h\le2p-2$，原两坏带给 $v_p(g_h)\ge-2$，
+而 $(h-1)!$ 恰含一次 $p$，所以 $v_p(T_h)\ge h-1\ge H$。
+这覆盖整个无限尾，严格得到
+$$
+\boxed{
+j_f-j_{10,h_\chi}-m_0(f)\log_pq_\alpha
+\in p^H\mathcal O,\qquad H=2p-11,\ 2p-5.
+}
+\tag{54}
+$$
+没有把阶乘的 $p$ 当作单位，也没有在旧截断上虚增精度。
+同一个改进证明适用于本篇前面的两个 β target；
+其整局部展开同样已付。
+所以三种模型可在真正同一个 $p^H$ 精度中比较。
+(16)–(18)及整个物理矩阵 (22)继续保留全部实际高位。
+
+### 11.4 完整新帽只留一个 r=p 边界页
+
+取这个新 $A_\chi$ 的原
+$\eta_b=Z^{-b-1}P_{10}A_\chi\omega_E$。
+由 (51)，其二挠帽准确可取
+$$
+\boxed{
+\operatorname{pole}_{\mathcal D_2}\eta_b
+\le p^3+(8-b)p ,
+}
+\tag{55}
+$$
+其它非原点极全部消失。
+原点仍先按 §7 去留数，两个 exact 与所有 $a_bZ$ 保留。
+
+专门在 $r=p$ 页，$b\equiv5\pmod6$。
+当 $b\ge11$，两次 Cartier 的帽先至多 $p$，
+型 $1$ 的反演偶性再将其降到 $p-1$。
+第三次最多 simple，但型 $5$ 排除这些 residues，
+又排除原全纯 $\omega_E$，故
+$$
+C^3\eta_b=0\qquad(r=p,\ b\ge11).
+\tag{56}
+$$
+只有 $b=5$ 可留原 $\varphi$ 方向。此时
+$$
+\boxed{
+\nu_2=C^2\eta_5=\frac{Q(X)}{(X+1)^{3s}}\omega_E,\qquad
+\deg Q\le3s,\qquad c_5^\sharp=[X^{3s}]Q .
+}
+\tag{57}
+$$
+第三次 Cartier 的完整槽为
+$[X^{4s-1}]Q(X)(1+X)^{p-1}$。
+因为 $3s<4s-1<p$，使用
+$\binom{p-1}{j}=(-1)^j\bmod p$，准确得到该槽为 $-Q(-1)$。
+于是同一规范下
+$$
+\boxed{
+C^3\eta_5=-Q(-1)^{1/p}\frac{x}{y^2}\omega_E
+=\frac{c_p}{3}Q(-1)^{1/p}\varphi .
+}
+\tag{58}
+$$
+这里 $-Q(-1)$ 是中间抽系数，不能漏掉返回 $\varphi$ 时的负号。
+
+两个端点确实不同。分解 $Q=(X+1)R+Q(-1)$ 给
+$$
+\nu_2=\frac{R(X)}{(X+1)^{3s-1}}\omega_E
+ +Q(-1)\frac{\omega_E}{y^{p+1}} .
+\tag{59}
+$$
+前一项的 Cartier 准确为零，且它承载 $c_5^\sharp$；
+后一项承载 (58)，但在 $O$ 的值为零。
+因此不能由唯一 $b=5$ 就把 $Q$ 的最高系数和 $Q(-1)$ 合并。
+
+### 11.5 同一个物理 M 的首个实际耦合
+
+原 R887 §19 (105)–(107) 的全部坐标账本给
+$$
+\kappa_5=\frac{(3/5)^p}{c_p},\qquad
+Z=z-\kappa_5z^{5p}+O(z^{11p}),
+$$
+$$
+P_{10}=(\sigma^\circ)^{10}
+ \{1+e_{10,p}z^{6p}+O(z^{6p+6})\}.
+\tag{60}
+$$
+同一个原 Taylor 证明适用 $10<p$；
+这里没有从 $G$ 的较短前缀猜 $P_{10}$ 初值。
+特别，矩阵 (22) 的第一个相对 $5p-1$ 项完全来自 $Z^n$，
+系数准确为 $-n\kappa_5$；
+$P_{10}$ 框架到相对 $6p$ 才进入。
+
+令 $n=p^2+b$、$b\equiv5\pmod6$。
+所有相关相对指标仍在原整窗内，故这些 $M$ 项本身整。
+准确有
+$$
+\boxed{
+M_{h,p^2+b}\equiv0\pmod p\quad(p\le h\le p+3),
+}
+$$
+$$
+\boxed{
+M_{p+4,p^2+5}\equiv-5\kappa_5\in k^\times,\qquad
+M_{p+4,p^2+b}\equiv0\quad(b\ge11).
+}
+\tag{61}
+$$
+理由是 $(p+1)(p+4)-(p^2+b)=5p+4-b$：
+唯一达到 $5p-1$ 的项是 $b=5$。
+$h<p$ 则这些 native 指标尚未进入。
+
+这给 (57) 的真正第一次物理耦合，不是新增一个自由读者。
+(61) 只陈述这些整矩阵项的首剩余位；
+其更高 $p$ 位、其它 native 行、R616/R619 的低回填、
+全部 Newton 阶乘和 (58) 的另一端点仍保在 (22)–(23)、(54) 内。
+
+### 11.6 唯一边界的原 G 四项顶部证书
+
+(58) 的目标可以进一步压成同一个完整来源的确定局部槽。
+置 $F=F_p=Z+\rho_pr_0^p$，仍有 $DF=1$。
+原全函数恒等是
+$$
+\begin{aligned}
+A_0=D^{p-2}x&=-c_pF,\\
+A_1=D^{p-3}x&=(\rho_px^p-c_pF^2)/2,\\
+A_2=D^{p-4}x&=-c_pF^3/6+\rho_px^pF/2-\rho_p^2y^p/3,\\
+A_3=D^{p-5}x&=-c_pF^4/24+\rho_px^pF^2/4
+ -\rho_p^2y^pF/3+\rho_p^3x^{2p}/8 .
+\end{aligned}
+\tag{62}
+$$
+逐微分证明相邻式之差为 $p$ 次幂；
+其原点极帽与原 CM 型只准显示的 $x^p,y^p,x^{2p}$ 单项。
+最高原点极固定其系数，$\rho_pc_p=1$ 固定绝对尺度；
+不留任选 horizontal 项。
+
+在任一原二挠点，$F$ 正则且为零。
+Wilson 公式将原 $G$ 的最后四项准确化为
+$$
+G_{\rm top}=-\sum_{j=0}^{3}j!\,Z^{p-1-j}A_j .
+\tag{63}
+$$
+其余原项相对最高极至少低 $4p$；
+而本页 (55) 所需的相对窗仅为 $3p-1$。
+原 $P_{10}$ 中出现至少一次微分的分支，相对纯
+$G^{p-1}$ 分支又至少低 $p^2-p-2>3p$。
+所以在这个确定窗内可以准确使用
+$P_{10}=-Z^{p+9}G_{\rm top}^{p-1}$，
+但完整 $A_\chi$、$Z$ 与微分尺度不变。
+
+具体取 $Q_e=(e,0)$、$e^3=-1$，以实际局部参数 $y$ 记
+$$
+B_e=[y^{-p^3-1}]
+\left(-\frac{Z^{p+3}G_{\rm top}^{p-1}A_\chi}{3x^2}\right).
+\tag{64}
+$$
+则 (58) 的同一个系数准确满足
+$$
+\boxed{Q(-1)^{p^2}=-\frac{3B_e}{e}.}
+\tag{65}
+$$
+这是因为 $\omega_E=dy/(3x^2)$，而
+$C^3\eta_5$ 的 $y^{-2}dy$ 系数是
+$-Q(-1)^{1/p}/(3e)$，并有 $e^{p^3}=e^{-1}$。
+三个二挠点的结果由同一个全局型相容；
+没有只取一个根而删除另外两个。
+
+(64) 是四个原函数与原完整 trace 的实际有限读者。
+它仍需要 $A_\chi$ 在该原窗中的所有系数；
+不由裸 $G$ 主项或任意局部单位直接断言 $B_e\ne0$。
+
+### 11.7 真正的一阶伴随后，哪些页重新出现
+
+R1021 §10–11 已付两原 canonical 的完整
+$Q_1U_B=U_A$ 和全部 $\chi_8$/Miller 规范。
+在尚未移位的同点坐标中，其 finite transpose 为
+$$
+Q^\dagger a=-2y(D+10G)a-15x^2a .
+\tag{66}
+$$
+但原整 word 不能将这个 $y$ 与 $G$ 误放在同一个点。
+沿 R1018 (26)–(34) 完成外部 pull 后，原 $G$、$P_{10}$、
+$Z$ 在实际 reader 点 $P$，标准来源则在 $P-R_i$。
+记 $y_i=y(P-R_i)$、$x_i=x(P-R_i)$；
+把所有 Fourier、Miller、cut 及平移因子保在实际权 $a_i$ 内，
+准确的一阶转置为
+$$
+Q_i^\dagger a_i
+=-2y_i(D+10G)a_i-15x_i^2a_i .
+\tag{66a}
+$$
+这里 $D$ 作用于整个 $a_i$，并未删除 $D\log h_i$ 或
+其它 Miller 导数；原 $\alpha,\pi$ 尺度与字符系数仍按各字保留。
+对应 $DP_{10}$ 的曲率项也仍取 R1021 (72) 的完整公式。
+
+primitive 三十九字的非零 $R_i$ 为 odd-order torsion。
+因此在原 $G$ 的三个二挠点，$y_i$ 和原 Miller 函数都是单位，
+不能使用未平移 $y$ 的一次零。
+在最终整体偶投影之前，各字的 $A_{\chi,i}$ 只取 $p^2$ 极帽；
+于是其原微分帽为 $p^3+(8-b)p+1$。
+$y_iG$ 的实际新增极费为 $p^2-p-1$，而微分项至多加一，
+故一个对全部这些字安全的完整上界是
+$$
+\boxed{p^3+p^2+(7-b)p.}
+\tag{67}
+$$
+最后全 word 求和与原 principal 投影不增加这个帽。
+若另有已经支付的整体偶性，可再收一阶；
+只有真正未平移的同点 test 才可使用 $y$ 的零而再收一阶。
+本篇不将这两次收紧预先用于 (66a)。
+
+另外 (66a) 还保留真实移位支撑：
+在 $P=R_i$，$y_i$ 三阶极和 $x_i^2$ 四阶极使相对费用至多四；
+在其余非二挠点，原 $G$ 正则或在 $O$ 为 simple，
+所以对既有 Miller/cut 极的微分费用至多一。
+这些点的原权、曲率、两个 exact、留数及 $\varphi_*$ 修正均随
+完整 trace 保留；(67) 不是将其删除后的全局边界声明。
+
+所以 (56) **不能**在施加整个 $Q^\dagger$ 后继续逐页使用：
+原 $\varphi$ 方向在其余 $b\equiv5$ 页会重新出现。
+完整源端身份只授权原 $U_A,U_B$ 两行，
+不把这些新页或某个 $F^p$ 倍测试赋零。
+
+(61) 和 (64) 已把所需的两个实际端点分别定位；
+接下来仍须在整个 (22)、(54)、(66a) 中将它们真实联立。
+不会把低帽、首单位、$p$ 曲率谱或一次裸抵消代成这个联立。
+
+### 11.8 原二挠译源的合法返回与确切变权
+
+R1021 §13 在原 $N=390$ theta lift 上已付：
+对两条当前 dyadic $\varepsilon_0$ canonical 来源及每个
+$0\ne T\in E[2]$，
+$$
+\Pi_{\rm principal}T_T^{390}f=\frac1{\sqrt3}f,\qquad
+J_{390,T_Tf}=\frac1{\sqrt3}J_{390,f}.
+\tag{68}
+$$
+这里的正号包含 $N=10$ 半周期负号与原 $\alpha=2+7\omega$
+换代表的另一枚负号；不可直接使用低层负号。
+所有原13/3字与二挠 lift 的 commutator 为一，
+所以 (68) 是完整 source 的合法零，未拆任何十三字。
+
+将它用于 (49) 时，须对 $T_Tf$ 重新使用这个真正平坦权。
+准确 theta 共轭仍为
+$$
+h_{\mathcal V_\chi}[T_Tf]
+=T_{\alpha T}^{10}\,
+ h_{\mathcal V_\chi\circ t_{-T}}[f].
+\tag{69}
+$$
+不能把右边换成 $T_{\alpha T}^{10}h_{\mathcal V_\chi}[f]$：
+后者在新的原点有实际极。
+
+变权本身也有完整有理式。
+若 $T=(e,0)$、$\alpha T=(e_\alpha,0)$，原二挠加法给
+$y(P+T)=-3e^2y(P)/(x(P)-e)^2$，故
+$$
+\boxed{
+\chi_\alpha(P+T)
+=\chi_\alpha(P)\,
+ \frac{e^2}{e_\alpha^2}
+ \left(\frac{x(\alpha P)-e_\alpha}{x(P)-e}\right)^2 .
+}
+\tag{70}
+$$
+实际 $\mathcal V_\chi\circ t_{-T}$ 必须将 (70) 整体代入 (47)；
+其全部极、$P_{10}$ 初值及原 cut/运输缺陷继续保留。
+因此 (68) 提供了所需 $O/\mathcal D_2$ 交换的原 source 授权，
+而 (69)–(70)明确了尚须消费的真正权差。
+
+本节没有新增数学执行。新的实际结论是完整39处同一个 Jacobian
+平坦输入、$p^H$ 全尾、仅一个未施伴随的边界页及其第一物理单位槽；
+两个端点 (57)–(58) 和重新出现的 (67)始终分开。
