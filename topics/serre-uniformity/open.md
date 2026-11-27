@@ -105,6 +105,8 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 [R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：原十步Katz方程在五维CM jet上rank1，四个自由低jet及forced X12单位；原末列mark=79R0−96R1，局部方程容其为零。有限primitive、full权与6尺度均保；不能以局部自由模型冒actual global反例或用此方程代真实全局归一。
 
+[R1082](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)付原Gaussian近p²值：G_(p²−4p−1)=H_p^p/(2δ)，H_p=2G_(p−3)+Σ_{i+j=p−3}G_iG_j=(2/5)∂G_(p−5)。完整carry、下位卷积与第一forced coarse斜率均保原源；H_p非零仍开，不从低G单位或Hasse simple roots跳步。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 [R1041](results/R1041-original-r2-bare-coefficient-and-Hodge-kernel-norm.md)/[R1048](results/R1048-original-AS-primitive-and-kernel-critical-value-norm.md)：原r2 S^p=−36ρB(c₀,c₀)，保ξ^(p+1)=ρ/24、fine12≠d₁。原r2实际AS全函数给d(U/h²)=−CξT₀db/(12r^(ℓ+1)A³)。规范H=r^(ℓ+1)(AT₀′−T₀A′)满足H′=h²；原核c₀=−H(b^p)/r modA。canonical J=P/h²及全fine的p次幂差逐点res为零，完整范数化为B(c₀,c₀)=Res∞H^p(h′/h)Pdb。真p-block h²=G₀+b^pG₁给a=[b^(p−3)]h²单位、P=G₁/a；K=−2H₁/a及Wronskian保全源。原f_N²=A(1)²H₀(1)/(18a)，但范数/端点非零仍开，不扩r8。

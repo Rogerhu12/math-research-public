@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：d0739f98acbbbb14c9ee9d91a022b83bac8ed056**（2026-11-27 11:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：69f057137639cedd601033354c2d896e1863711e**（2026-11-27 11:56 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；11:24再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -53,6 +53,8 @@ R1062/64–67（[完整索引与原规范](results.md)）：原全cusp格/étale
 R1012/16/17/20/25/27 的未经筛选完整 theta 分布、常平方一及全方向单位已成，全部相位与实际来源保原文/归档；不能代同 $h$ 两 mask 或 bare。
 
 原h=6i+7须同一本原h使P_(h−1)(1/s)fi gj非零，i+j=N−1；原Norm/双CM权/相位和两个mask不删。R971 full-span、R1006全p G稳定已否；特定A/E4仍开，粗CM阶≤4不代零阶。R995–1002等已成输入只消费；R706旧5992 f_N/5991 g_N单位至200000（g零137147）不重算。全部原角色/例外/run保open和归档。
+
+[R1082](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)：原Gaussian d=p²−4p−1的G_d=H_p^p/(2δ)，H_p为完整短卷积=2∂G_(p−5)/5；两全局primitive/误差/原coarse斜率全付，H_p单位仍开。
 
 ## O2：原高近p值
 

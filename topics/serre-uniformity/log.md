@@ -687,3 +687,7 @@ R1080登记full47严格rank=73：run45934421302/job140294236296源702f543e，精
 2026-11-27 11:52 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1081真实run45936209617/job140299891342认证角代数rank23、TrZ²=336288及283/4513最大整Hecke序；4513恰16个一维块，实际Hodge/Lie自由rank1。
 完整23角/1081necklace消费，8.5768秒；原数组不留存。继续新4513同点来源、指定θ及CM对数/高度，H/open逐字归档保旧边界。
+
+2026-11-27 11:57 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1082纸证原Gaussian近p² Hurwitz系数降为完整短卷积H_p及真正heat横导数，原两primitive/全部carry与coarse斜率尺度齐备。
+继续H_p指定非零及原三挠短障碍；不能从卷积中的低G单位或SS值式盲微分推出目标。

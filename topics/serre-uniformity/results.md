@@ -315,3 +315,5 @@
 - **R1080（已证明，严格计算）**：[原full47 Jacobian秩](results/R1080-certified-full-level47-Jacobian-rank.md)：精确new Fricke+因子16/24/33，全部73嵌入Arb L′>0，已刊Kolyvagin–Logachev型定理给rankJ=dimJ=ρ_Q=73。run45934421302/job140294236296，20.6657秒；无MW饱和/盘内唯一声明。
 
 - **R1081（已证明，精确计算）**：[原47角代数与整Hecke块](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)：actual trace rank23、Tr(13R0+4R2)²=336288>0；283完整整Hecke无一维块，4513有16个，原Hodge/Lie自由rank1。run45936209617/job140299891342，8.5768秒；MW/高度首项仍开。
+
+- **R1082（已证明）**：[原Gaussian高Hurwitz短卷积](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)：准确G_(p²−4p−1)=H_p^p/(2δ)，H_p完整卷积与heat横导数同源；两全局primitive、p²误差及原第一forced coarse斜率全付。H_p非零仍开。
