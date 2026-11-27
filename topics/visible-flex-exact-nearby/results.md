@@ -518,3 +518,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 [完整解析transfer](results/R144-supplement-complete-physical-readouts-for-L2-parameter-directions.md)。HL真实方向代入原全metric/mean/reference1/physicalscale/coframe公式，partialγ scalar<2^-56M/r、vector formal二jet<2^-55M/r，joint op L²→读出在γA0/wE21连续；独立λ/world ports不删，actual选择还需D_wV与闭匹配。无新数值组合、旧科学0重跑。
 
 WRC公式修正：原658c3109的physical角导数补全q_b,φ·Δx，新增一条精确有理比较；完整f0φ仍<.05282，所有已列常数保持。详见同一WRC proof第6节；原14比较未重，修正前无actual入口执行。
+
+### GHX：实际selected exterior disk嵌入与含boundary的本片reach（已证明）
+
+[完整几何证明](results/R119-supplement-actual-selected-exterior-disk-embedding-and-reach.md)及[4新组合](scripts/fourfold_codazzi_selected_exterior_geometry_saved_bounds.py)。同γ真实radial reference、同λ/placement，whole tail+finite+filleddisk物理C²差<2^-46M；完整片C² isometric embedding。凸材料域全局co-Lip/最近点一阶不等式保boundary，reach≥49/136>1/3 physicalunits，另有normal/II差。此为本片，core union/cross距和最终全族reach/D独立。

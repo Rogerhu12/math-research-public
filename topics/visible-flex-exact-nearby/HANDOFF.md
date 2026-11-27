@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:44:53 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:45:01 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-本会话已partial+sparse clone两仓并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至7bb34d2cf8eb47ca042d90865e4c72c030bffbe5（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；每次刷新核两README，至少每小时。私库04:03:28 UTC API刷新8e02ac56234cae106cb36c515af382fbf8633033，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”；初claim594e561b05a758bd8c02840ca4fbf574cd707436，最后实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c。下次私库刷新不晚于05:03 UTC。
+本会话已partial+sparse clone两仓并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至785c518e09d0d0a11a31730226c5ca66c9bf2a4d（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；每次刷新核两README，至少每小时。私库04:03:28 UTC API刷新8e02ac56234cae106cb36c515af382fbf8633033，根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”；初claim594e561b05a758bd8c02840ca4fbf574cd707436，最后实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c。下次私库刷新不晚于05:03 UTC。
 03:00前磁盘满后terminal失联，04:30 probe仍无环境；按根规8仅GitHub集成<100KB文本。root独占main updater，最新父/force=false/expected_sha；拒旧父即读最新head重base再推至成功。原source35ff439e后GF六件旧排版未commit，恢复时不得重复；缓存迁移无成功回执。令牌只CLI，不写文件或提交；无AGENTS。
 科学仅Actions，旧成功禁重；本地仅证明/静态/metadata/新saved有理组合。规12不加审批复核门，结论成即推，root LOG不动。topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁可重建大数组。第5批45934384748/c264c5e6净省737184B；第6批45940225760/c92c87d9净省736134B（gross805556−receipt69422），128新旧JSON只删字符串外空白，11537当前source/manifest全引用排除。第6receipt SHA c796f5562473709a77dfb0717ceec39bb74d383bb29ef4629a61b8fc4acb474a；原完整baseline/五旧批不动，科学0。
 
@@ -34,7 +34,7 @@ RRM原负窗两mean receiver846be8c；WMR真detQ=−1/完整Aᵀ(Jy+δJx)/两mea
 
 原S/T γA0/r≤1/128、H8193/r≤2^1048576（r1e−9）、94seed后Γ2、loss1734/bg1796不变。SREG3e87f49b同选择连续至E3121/E2960<2^-49999998、零residual真priori和固定γ/q局部唯一；GF/GA全seed/首补偿/principal/common源/三径jet/mean，A0 forcing Z20..2898<2^-48000000/r，Hmet独立。
 SDIFab31ad9b：w commonE20 A0差/响应2^-31222782/r，u2^-31222778/r，fB H23为2^-31223222/r；闭域相对A0余项，operator H8193→E20..1164连续、strict H8193 interior C1。高窗大低源项保，不授开放A0值域/A0 operator连续/E1856导数/rough-source onto。
-GHR/GHC/GHW/GHV完整reference1、metric/mean、scalar/horizontal/coframe与whole finite/flat端口已付；SHT06c1c250 scalar globalC²响应2^-31220733/r，GVCaddec8a9 fullvector globalC²响应2^-31218685/r，都由actual matched差商进入闭二jet空间。C1仅原H8193方向/base，相对A0余项逐base；oneλ/world placement独立，moving test保DT。
+GHR/GHC/GHW/GHV完整reference1、metric/mean、scalar/horizontal/coframe与whole finite/flat端口已付；SHT06c1c250 scalar globalC²响应2^-31220733/r，GVCaddec8a9 fullvector globalC²响应2^-31218685/r，都由actual matched差商进入闭二jet空间。C1仅原H8193方向/base，相对A0余项逐base；oneλ/world placement独立，moving test保DT。GHX已证同γ真实radial reference的本片whole tail+finite+filleddisk C²差<2^-46M，片本身嵌入且含boundary reach>49/136>1/3 physical units；不授whole闭面cross距/reach比。
 HL已付真正L²完整forcing与seed：M全lag Young/两sign、真实incoming固定点+94逐步导数、Γ2及fullprincipal/三径mean保；source20..2898在W_{s+1}≤1时同2^-48000000 L²/r，joint op L²→Z_s（γA0/wE2960）。HLP已完整转partialγ physical scalar<2^-56M/r、vector<2^-55M/r的L²列，joint γA0/wE21，λ/world ports独立。下一SHL消费同priori给实际选择L²响应，再接M(γ,fBγ)与原97 H_C0无限像，尚不预授完整inverse。
 
 ## 仍须实际完成

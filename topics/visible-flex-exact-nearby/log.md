@@ -144,3 +144,7 @@
 ### 2026-11-27 WMR4：完整参考物理高度首次实际入口
 
 修正WRC3171ea38之后发布最终6件，原WMR五源冻结不改，整个新增topic92159B。manifest69227B SHA3cc5872a6fca337572a41c96974d80c2875b4b475375c97376da41ea03a41290，105current/51history、108必要sparse paths，完整ARHI actual/execution/18carrier/chain和新版WRC proof/pure全pin。原3targets+首次完整reference第4target同一次proposal-only RHI恢复/同8192 grid，各自然目标仅一次，无旧science。math18000s/child18600/workflow350min，完整失败/输出预算保；首worker精确AST检查，无本地Python/science执行声明。改.github/workflows/visible-exact-complete-reference-world-height.yml用于唯一push入口，no dispatch；实际run号另读，不预报数值/Schur。
+
+### 2026-11-27 GHX：同一实际selected外盘嵌入与本片reach
+
+已证明/4新exact组合首次全过。whole tail+finite+filleddisk相对同γ实际radial reference（同λ/oneplacement）physicalC²差<2^-46M；水平投影全局co-Lipschitz给actual片嵌入。完整凸材料域最近点lemma含boundary，用global c≥7/8和D²F≤17/8得reach≥49/136>1/3 physicalunits，未以曲率上界单独冒reach；normal差16ε/II差64ε也付。仅同一实际片，不把旧analytic label当finiteSobolev对象，不授core union、另一片cross距或最终closed reach/D。
