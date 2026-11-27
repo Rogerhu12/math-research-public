@@ -159,3 +159,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:17 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 原有限压平的creation下界合实际最大图边界行，完整证明临界s0物理孔矩⇒同一h∈C2⇒原图核心；保真空/q0/取整/全Y carry。
 - 05:14:29私库接口核README未变及QUEUE正确，真实pull未冒认；继续未知Y真实矩或F/R/Z来源，普通ISP未完成。
+
+2026-11-27 13:18 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新增本题外workflow invariant-subspace-W-physical-affine-heads-8542.yml，运行真正新原物理(f,lambda,T)坐标的完整Gram/15二次头；180秒/4GiB。
+- 旧C9参数展开冻结；此新输入只原物理单位求逆，未宣排空，根继续等权六列。
