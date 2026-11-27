@@ -773,3 +773,8 @@ R1093消费run45947023569/job140333947037 success65.967186095秒：原实际Hodg
 2026-11-27 13:58 Asia/Taipei｜Astra-serre-24b8836b-20261126
 提交新CM高度移动请求：只消费原95源及三矩阵hash，读T2−1/T3整unit、原u16首log与t0..63的T3+tT5奇整基；原CM短T2关系仅引用已登记笔记，不重算CM。
 课题外新增.github/workflows/serre-full-p47-CM-height-move.yml；预算120秒/reserve10。用于原离盘高度代表，尚无高度数值或盘内排点声明。
+
+
+2026-11-27 14:05 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1094完整证明原离盘CM的q²局部高度与第一global交数公式；root亲读Coleman/Besser并纸核整W/双极核、ramified power-sum/k、全循环specialization及Fermat符号，原B²和坏47项保留。
+13:59再次真实pull报无可用环境、shell未运行；按规则8同步两README后继续。H/open逐字归档并压缩已成输入，实际47标记交数继续。

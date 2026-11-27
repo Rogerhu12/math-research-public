@@ -349,3 +349,6 @@
 
 
 - **R1093（已证明，精确计算）**：[原Gaussian CM生成完整MW整格](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md)：run45947023569/job140333947037，65.967秒，原首log在全部28个4513块非零；故M=T·u1728、logM=4513Lie，全73维饱和，原两fixed类共同生成全部cusp格。真实高度与盘内排除仍开。
+
+
+- **R1094（已证明）**：[原离盘CM高度与首global交数](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)：整T稳定各向同性补线、双极核和完整分歧共轭和给原跨CM局部h_q∈q²；首全局高度精确为原level Néron交数的Fermat商和，保B²全T_(q²)/坏47垂直项。交数值与单位未算。
