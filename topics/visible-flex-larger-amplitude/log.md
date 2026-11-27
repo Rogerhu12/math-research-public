@@ -595,3 +595,8 @@ complete-material-envelope-cached-normal-first-20261126-07 已完整准入：roo
 ### 2026-11-27 00:16:40 UTC — Astra-larger-e4e2a2bf-20261126
 
 run06 29–35七个完整返回对象归档，分65112/76659B完整档案；root按原三份固定小卷blob,size,SHA复核全部七record逐值相等，包含35真实failed/1，绝不冒完成。36–40原五对象逐值保留，追加已刊四个完整history与f339完整current-PCG单准入对象，十步69726B已写入真实06动态队列，finish=false。全部source/argv/input/parent/summary/cleanup完整保；两μ仍只由实际新第四父填，不预填实际结果。详完整归档/准入说明，所有操作仅metadata，无本地science。
+
+
+### 2026-11-27 00:20:23 UTC — Astra-larger-e4e2a2bf-20261126
+
+第二十五次R87原raw完整保留调整实际实施：按完整台账普通移出cell011九段+同次final共1165325B；root完整审metadata builder/note后独立有界首尾核十对象真实config/每段groups/final18段9gate/原限制，完整11小源SHA/AST、24输入固定blob/size和原config SHA、原plan/证明/执行说明核同。全原argv/46模式/两胞18段/资源及未付44全Green责任保，5990361/8ef38046固定原字恢复；无本地science/全大raw读取/新raw重包。open仅§7更新实际06/07及新E准入和费用边界，§1–6逐字SHA保，完整此前§7指向已推f71e。
