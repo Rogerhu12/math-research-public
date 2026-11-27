@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-thirteen-original-rows-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-four-original-heads-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -222,7 +222,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **一般Phi紧凑879首次失败冻结。** 实际run46022929932为120.067秒/816684KiB/内层−14 SIGALRM；最后只返回原P1/NV两线，无R2/W4或新必要曲线。准确源及[失败身份](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保存；不加时重跑，改保自由z先用原N1首一二次。
 
-**[全原N1首一二次与Phi零真12生成元环境](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)。** f仍自由时[z²]N1*=−4bc²ellQ(u−1)，仅原权单位；Pj仿射不改头。Phi0先解P1的f(T)而保z，原N1真monic z2与monic T6给自由12环境（原最终商不假自由）；NV保NF4 f+NC4+2bcSnZz，不倒几何量/范数。新928只返四原行12坐标及小二次头，不设旧失败/12阶大cofactor门。
+**[Phi零的十二列完整原四行与四个二次头图](results/R150-appendix-unit211-Phi-zero-monic-twelve-original-four-rows-and-quadratic-head-charts.md)。** 原N1首一z2/T6给真自由12环境；928真0.302秒/42188KiB/exit0返三均值和NV全部坐标，不逆D/SnZ。四原二次头只依赖u,Q，残度6/4、11/6、13/7、9/5，精确输入已保存；每个非零图的原商至多由1,T,z生成，共同头零仍保。新4e84只读小头作固定QQ消Q和完整u常数域返回，不重放旧原行/大cofactor。
 
 **[h=k、Delta零的完整七lambda覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)。** cf0真QQ578覆盖与独立原N1固定投影给全模Bézout/g80，首一Gauss及同点核列界≤80不同(λ,u)。真QQ分解完整乘回；153、345两整因子排除，只余C4四次、C2二次及λ1/3，共七lambda，Q/Gram未排。2.522秒/85076KiB/exit0；所有u/Q头零保留，续三个完整常数代数的原返回。
 

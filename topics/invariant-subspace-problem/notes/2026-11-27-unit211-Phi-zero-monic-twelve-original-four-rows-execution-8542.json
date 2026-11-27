@@ -1,0 +1,1017 @@
+{
+  "schema": "isp-original-Phi-monic-twelve-four-rows-actual-execution-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "execution": {
+    "elapsed_seconds": 0.301725090000005,
+    "max_child_rss_kib": 42188,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6190c1ff1ca612355b7a5066a46ccea2d812a0c3",
+        "before": "6190c1ff1ca612355b7a5066a46ccea2d812a0c3",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T15:33:07.242288+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46025870128",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "6190c1ff1ca612355b7a5066a46ccea2d812a0c3",
+    "source_exit_code": 0,
+    "source_git_blob": "80e352d00c8a181dde40a47e074b7b9a3e6dfd06",
+    "source_sha256": "928e5a6a6772cd48c1f62c29072c5859b92fbdc5a6e8e7d1dedaf0d2cb82ec23",
+    "stdout_bytes": 45212,
+    "stdout_sha256": "a79c206d970b7f1b26b4562a8631ff3bbbdc96ef540e7c9d986eecdf8a64a57c",
+    "stop_reason": null
+  },
+  "job_id": 140597014482,
+  "records": [
+    {
+      "variables": [
+        "u",
+        "Q",
+        "lambda",
+        "T"
+      ],
+      "PhiExactlyZero": true,
+      "originalMomentRelation": {
+        "degrees": [
+          12,
+          6,
+          6,
+          6
+        ],
+        "terms": 910,
+        "sha256": "cfd6bdac70e117706212e5c767197bcdc85a3180274d308de6d9660da8cb87be"
+      },
+      "originalNumerators": {
+        "D": {
+          "degrees": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "terms": 13,
+          "sha256": "fb824bd153310d0745af8cb60b8897812dcb7c6756dd6c1577620dbec01ca9e2"
+        },
+        "sn": {
+          "degrees": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "terms": 19,
+          "sha256": "4f45bcd015283202539ca0bacc7611031bfa1b3b585ef9a5a30ba9b858676e58"
+        },
+        "zn": {
+          "degrees": [
+            0,
+            0,
+            4,
+            1
+          ],
+          "terms": 9,
+          "sha256": "8bbc99c49496d54fb15cf231928def24ced54de96400e174dde739a77cad4377"
+        },
+        "K": {
+          "degrees": [
+            4,
+            2,
+            3,
+            3
+          ],
+          "terms": 49,
+          "sha256": "2e72e35aca0f7dc5b080291b4177e8fcb9438a847e373baa5af584b8b9e8c8c5"
+        },
+        "Z": {
+          "degrees": [
+            3,
+            1,
+            3,
+            3
+          ],
+          "terms": 32,
+          "sha256": "4fa47d8978944a0134c9f1b76a76475358f64df521875625bff0862a7f8fd62d"
+        },
+        "Sn": {
+          "degrees": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "terms": 17,
+          "sha256": "7ebc59f229ef2c117e6c3478a6914af142c66a422ea156544156f698ad7df006"
+        },
+        "Pc": {
+          "degrees": [
+            5,
+            2,
+            1,
+            1
+          ],
+          "terms": 29,
+          "sha256": "9101dbbe2371a375099632e56004c6878418bd543b6b400c6fddf41be0fd9105"
+        },
+        "NF4": {
+          "degrees": [
+            6,
+            3,
+            6,
+            5
+          ],
+          "terms": 371,
+          "sha256": "661457c23ccc296ece274e56211f695b59cde426e89da4d033f08edcaf657afa"
+        },
+        "NC4": {
+          "degrees": [
+            8,
+            4,
+            7,
+            6
+          ],
+          "terms": 594,
+          "sha256": "5f5cac41af89edf6d078c53ad1d4a6ed978c533de533d6db26240a1f16869a2e"
+        }
+      },
+      "originalUnits": [
+        "u",
+        "u-1",
+        "Q",
+        "1-Q",
+        "ell",
+        "ell-u",
+        "M",
+        "P02",
+        "T0",
+        "J-Q",
+        "u+Q-1",
+        "lambda",
+        "D",
+        "S",
+        "zeta"
+      ],
+      "ordinaryISPClaim": false,
+      "stage": "original_Phi0_exact_weight_and_compact_numerator_input",
+      "seconds": 0.022001388999996152
+    },
+    {
+      "quadraticHead": "-4*(bc)^2*ell*Q*(u-1)",
+      "degreeTOfLinearZCoefficientAtMost": 1,
+      "degreeTOfConstantCoefficientAtMost": 2,
+      "originalCoefficientIdentityReturned": true,
+      "onlyPaidWeightInverses": true,
+      "noDOrSnZInverse": true,
+      "sourceCompactIdentitySha256": "9ab0270fe53a0a6f169755f92f731e6cf636f1d9b7a9e12364ef487a01cdea6e",
+      "statistics": {
+        "multiplications": 188,
+        "reductions": 199,
+        "polynomial_identity_coefficients": 1197,
+        "external_coefficient_audits": 382,
+        "named_parameter_inverses": 11,
+        "geometric_inverse_checks": 0,
+        "rebase_checks": 0
+      },
+      "stage": "new_actual_original_N1_monic_z_quadratic",
+      "seconds": 0.09163501400000484
+    },
+    {
+      "originalRows": [
+        "R2_over_2rho",
+        "W4",
+        "O8_over_rho",
+        "actual_NV_line"
+      ],
+      "freeEnvironmentRank": 12,
+      "sameOriginalTAndZ": true,
+      "N1UsedAsMonicRelationNotDropped": true,
+      "NVKeptAsExtraRowNotSolvedBySnZ": true,
+      "noDOrSnZInverse": true,
+      "noNormInverse": true,
+      "statisticsT6": {
+        "multiplications": 311,
+        "reductions": 322,
+        "polynomial_identity_coefficients": 1936,
+        "external_coefficient_audits": 474,
+        "named_parameter_inverses": 11,
+        "geometric_inverse_checks": 0,
+        "rebase_checks": 0
+      },
+      "statisticsZ2": {
+        "multiplications": 15,
+        "coefficient_identity_checks": 45
+      },
+      "originalOtherIndividualNPNotClaimed": true,
+      "noFullTwelveRowIdealClosureClaim": true,
+      "wholePhiFaceExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_Phi0_original_four_rows_in_monic_twelve_environment",
+      "seconds": 0.21070922299999495
+    },
+    {
+      "rows": [
+        "R2_over_2rho",
+        "W4",
+        "O8_over_rho"
+      ],
+      "numerator": {
+        "degrees": [
+          26,
+          14,
+          0,
+          0
+        ],
+        "terms": 223,
+        "sha256": "e1ea035504f11494ab79e8fcaaea6f3c9a41643ce6b37daaf14779b21a65026a"
+      },
+      "paidDenominator": {
+        "degrees": [
+          3,
+          8,
+          0,
+          0
+        ],
+        "terms": 26,
+        "sha256": "22f4430737068b49288d9e76fcc1e2fc505b2e8643631df895979d0a219bb207"
+      },
+      "residualAfterPaidUnitFactors": {
+        "degrees": [
+          6,
+          4,
+          0,
+          0
+        ],
+        "terms": 23,
+        "sha256": "fd3c82df65ec85ccdd5d40ef1f93a115b5f34a0637073a1fbf3c83a0b6e0aa0d"
+      },
+      "residualPolynomial": "u^6*Q - 4/3*u^6 - 20/3*u^5*Q + 28/3*u^5 - 13/12*u^4*Q^2 + 62/3*u^4*Q - 28*u^4 + 13/3*u^3*Q^2 - 110/3*u^3*Q + 136/3*u^3 + 1/4*u^2*Q^3 - 26/3*u^2*Q^2 + 124/3*u^2*Q - 128/3*u^2 - 53/48*u*Q^3 + 41/4*u*Q^2 - 29*u*Q + 68/3*u - 1/12*Q^4 + 13/12*Q^3 - 5*Q^2 + 28/3*Q - 16/3",
+      "paidGcdSources": [
+        [
+          "ell",
+          4
+        ],
+        [
+          "M",
+          3
+        ]
+      ],
+      "thisHeadIsPaidUnit": false,
+      "noTemporaryHeadInverseUsed": true,
+      "stage": "new_actual_original_quadratic_head_minor",
+      "seconds": 0.2161676190000037
+    },
+    {
+      "rows": [
+        "R2_over_2rho",
+        "W4",
+        "N1"
+      ],
+      "numerator": {
+        "degrees": [
+          25,
+          13,
+          0,
+          0
+        ],
+        "terms": 195,
+        "sha256": "390a511823d24466a6801c83fdff942be39a60e270dd6c9b14062848f375497f"
+      },
+      "paidDenominator": {
+        "degrees": [
+          3,
+          6,
+          0,
+          0
+        ],
+        "terms": 22,
+        "sha256": "828c33032e2a26ef70606a3a6e358383deecc7df0e42bd849472de8cb452e22c"
+      },
+      "residualAfterPaidUnitFactors": {
+        "degrees": [
+          11,
+          6,
+          0,
+          0
+        ],
+        "terms": 48,
+        "sha256": "4406b4db3ef1c44adf686960f9caafddf42a64afc6fe27fe73cd47ebc9c02e0e"
+      },
+      "residualPolynomial": "u^11 + u^10*Q - 59/4*u^10 - 105/8*u^9*Q + 391/4*u^9 - 95/64*u^8*Q^2 + 325/4*u^8*Q - 388*u^8 + 1021/64*u^7*Q^2 - 4931/16*u^7*Q + 1031*u^7 + 17/16*u^6*Q^3 - 2441/32*u^6*Q^2 + 12533/16*u^6*Q - 7727/4*u^6 - 2157/256*u^5*Q^3 + 13605/64*u^5*Q^2 - 22119/16*u^5*Q + 10431/4*u^5 - 393/1024*u^4*Q^4 + 7333/256*u^4*Q^3 - 24101/64*u^4*Q^2 + 27307/16*u^4*Q - 5073/2*u^4 + 1057/512*u^3*Q^4 - 1687/32*u^3*Q^3 + 6903/16*u^3*Q^2 - 2899/2*u^3*Q + 3481/2*u^3 + 37/512*u^2*Q^5 - 1049/256*u^2*Q^4 + 219/4*u^2*Q^3 - 2479/8*u^2*Q^2 + 1615/2*u^2*Q - 801*u^2 - 87/512*u*Q^5 + 459/128*u*Q^4 - 483/16*u*Q^3 + 507/4*u*Q^2 - 531/2*u*Q + 222*u - 1/256*Q^6 + 27/256*Q^5 - 75/64*Q^4 + 55/8*Q^3 - 45/2*Q^2 + 39*Q - 28",
+      "paidGcdSources": [
+        [
+          "ell",
+          3
+        ],
+        [
+          "M",
+          2
+        ]
+      ],
+      "thisHeadIsPaidUnit": false,
+      "noTemporaryHeadInverseUsed": true,
+      "stage": "new_actual_original_quadratic_head_minor",
+      "seconds": 0.22015012600000716
+    },
+    {
+      "rows": [
+        "R2_over_2rho",
+        "O8_over_rho",
+        "N1"
+      ],
+      "numerator": {
+        "degrees": [
+          27,
+          14,
+          0,
+          0
+        ],
+        "terms": 238,
+        "sha256": "c2edd5178434cffdea0bf7c26cb71df5e1693ffd00ed0d139ff79450266e8a7a"
+      },
+      "paidDenominator": {
+        "degrees": [
+          3,
+          8,
+          0,
+          0
+        ],
+        "terms": 26,
+        "sha256": "22f4430737068b49288d9e76fcc1e2fc505b2e8643631df895979d0a219bb207"
+      },
+      "residualAfterPaidUnitFactors": {
+        "degrees": [
+          13,
+          7,
+          0,
+          0
+        ],
+        "terms": 70,
+        "sha256": "db5b53eaf874f9d3b6924edafe79aa6e19080855dfd34a49da9cb8ee0cba9aa6"
+      },
+      "residualPolynomial": "u^13*Q - 4*u^13 - 19*u^12*Q + 66*u^12 - 3*u^11*Q^2 + 337/2*u^11*Q - 502*u^11 + 353/8*u^10*Q^2 - 922*u^10*Q + 2336*u^10 + 101/32*u^9*Q^3 - 2423/8*u^9*Q^2 + 3468*u^9*Q - 7432*u^9 - 77/2*u^8*Q^3 + 1272*u^8*Q^2 - 9446*u^8*Q + 17086*u^8 - 121/64*u^7*Q^4 + 3343/16*u^7*Q^3 - 7221/2*u^7*Q^2 + 38215/2*u^7*Q - 29206*u^7 + 2183/128*u^6*Q^4 - 1335/2*u^6*Q^3 + 57923/8*u^6*Q^2 - 28968*u^6*Q + 37564*u^6 + 299/512*u^5*Q^5 - 8659/128*u^5*Q^4 + 44289/32*u^5*Q^3 - 83393/8*u^5*Q^2 + 32810*u^5*Q - 36312*u^5 - 959/256*u^4*Q^5 + 9657/64*u^4*Q^4 - 7691/4*u^4*Q^3 + 10724*u^4*Q^2 - 27333*u^4*Q + 26012*u^4 - 49/512*u^3*Q^6 + 2445/256*u^3*Q^5 - 202*u^3*Q^4 + 14221/8*u^3*Q^3 - 15369/2*u^3*Q^2 + 16225*u^3*Q - 13392*u^3 + 163/512*u^2*Q^6 - 775/64*u^2*Q^5 + 5155/32*u^2*Q^4 - 2095/2*u^2*Q^3 + 7265/2*u^2*Q^2 - 6476*u^2*Q + 4680*u^2 + 1/256*u*Q^7 - 49/128*u*Q^6 + 123/16*u*Q^5 - 565/8*u*Q^4 + 355*u*Q^3 - 1014*u*Q^2 + 1552*u*Q - 992*u - 3/512*Q^7 + 21/128*Q^6 - 63/32*Q^5 + 105/8*Q^4 - 105/2*Q^3 + 126*Q^2 - 168*Q + 96",
+      "paidGcdSources": [
+        [
+          "ell",
+          3
+        ],
+        [
+          "M",
+          2
+        ]
+      ],
+      "thisHeadIsPaidUnit": false,
+      "noTemporaryHeadInverseUsed": true,
+      "stage": "new_actual_original_quadratic_head_minor",
+      "seconds": 0.22468977100000131
+    },
+    {
+      "rows": [
+        "W4",
+        "O8_over_rho",
+        "N1"
+      ],
+      "numerator": {
+        "degrees": [
+          29,
+          15,
+          0,
+          0
+        ],
+        "terms": 270,
+        "sha256": "9f1e16419091f4811e3e5969043495b9d11c3ffaf852aa60f6d52e19f1031e57"
+      },
+      "paidDenominator": {
+        "degrees": [
+          3,
+          8,
+          0,
+          0
+        ],
+        "terms": 26,
+        "sha256": "22f4430737068b49288d9e76fcc1e2fc505b2e8643631df895979d0a219bb207"
+      },
+      "residualAfterPaidUnitFactors": {
+        "degrees": [
+          9,
+          5,
+          0,
+          0
+        ],
+        "terms": 40,
+        "sha256": "e69b7a64074b7596e43ca5a97060c5032ef63b4ca9870cc63900444d0d50309d"
+      },
+      "residualPolynomial": "u^9*Q - 4/3*u^9 - 8*u^8*Q + 28/3*u^8 - 11/12*u^7*Q^2 + 86/3*u^7*Q - 24*u^7 + 17/3*u^6*Q^2 - 55*u^6*Q + 40/3*u^6 + 17/48*u^5*Q^3 - 77/6*u^5*Q^2 + 130/3*u^5*Q + 220/3*u^5 - 7/6*u^4*Q^3 + 20/3*u^4*Q^2 + 137/3*u^4*Q - 644/3*u^4 - 3/64*u^3*Q^4 - 7/16*u^3*Q^3 + 95/4*u^3*Q^2 - 157*u^3*Q + 288*u^3 - 1/6*u^2*Q^4 + 65/12*u^2*Q^3 - 49*u^2*Q^2 + 524/3*u^2*Q - 656/3*u^2 - 1/96*u*Q^5 + 25/48*u*Q^4 - 20/3*u*Q^3 + 110/3*u*Q^2 - 280/3*u*Q + 272/3*u + 1/64*Q^5 - 5/16*Q^4 + 5/2*Q^3 - 10*Q^2 + 20*Q - 16",
+      "paidGcdSources": [
+        [
+          "ell",
+          4
+        ],
+        [
+          "M",
+          3
+        ]
+      ],
+      "thisHeadIsPaidUnit": false,
+      "noTemporaryHeadInverseUsed": true,
+      "stage": "new_actual_original_quadratic_head_minor",
+      "seconds": 0.22944120799999723
+    },
+    {
+      "originalHeadMonomials": [
+        "T^2",
+        "T*z",
+        "z^2"
+      ],
+      "weightVariablesOnly": [
+        "u",
+        "Q"
+      ],
+      "unknownHeadZeroFibersRetained": true,
+      "wholePhiFaceExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_actual_Phi0_quadratic_head_input",
+      "seconds": 0.22948169500000404
+    }
+  ],
+  "row_profiles": [
+    {
+      "name": "R2_over_2rho",
+      "numeratorProfiles": [
+        {
+          "degrees": [
+            16,
+            10,
+            2,
+            0
+          ],
+          "terms": 259,
+          "sha256": "09a71df85476e785415e8111c872b328048623f69dc76eebb95bc173fa7b9a48"
+        },
+        {
+          "degrees": [
+            14,
+            10,
+            1,
+            0
+          ],
+          "terms": 153,
+          "sha256": "10d216ee9685a10c81bc427a8a1276d7049877bd09cb4242f91e4adde78b77d6"
+        },
+        {
+          "degrees": [
+            12,
+            10,
+            0,
+            0
+          ],
+          "terms": 62,
+          "sha256": "90aea380d879736ea381d80486510886d87894c466aff90b21b2a32502c1187d"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            16,
+            8,
+            1,
+            0
+          ],
+          "terms": 173,
+          "sha256": "5e5daaabcdb1e1a77134fa3c8fadb4ae8af875274471172a7c420b0321cf9649"
+        },
+        {
+          "degrees": [
+            14,
+            8,
+            0,
+            0
+          ],
+          "terms": 71,
+          "sha256": "fb8f2a14b6a610edece39eb91df0a6c37c82d2081148210dc58950350a7b0661"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "denominator": {
+        "degrees": [
+          8,
+          6,
+          0,
+          0
+        ],
+        "terms": 41,
+        "sha256": "d11ff0c3bff146827fd405a77c0c7f499d8c24f21d8c8274fd2b95b1a5630c19"
+      },
+      "encoding": "base64+zlib+json",
+      "payloadSha256": "897c622bae3b4d86747ad4f82e8a6a24b630755b134117126d9e7135fadf1609",
+      "uncompressedBytes": 14450,
+      "compressedBytes": 4058,
+      "fullOriginalTwelveCoefficientsReturned": true,
+      "noGeometricInversions": true,
+      "stage": "new_exact_recoverable_original_twelve_row",
+      "seconds": 0.12684164499999895
+    },
+    {
+      "name": "W4",
+      "numeratorProfiles": [
+        {
+          "degrees": [
+            14,
+            9,
+            2,
+            0
+          ],
+          "terms": 209,
+          "sha256": "39694e15d94f796c1b651e15369b5c61abb52488516af65b59de695fbf17b894"
+        },
+        {
+          "degrees": [
+            12,
+            9,
+            1,
+            0
+          ],
+          "terms": 121,
+          "sha256": "a186a014aff7b7509c90669e29e1e1b6066185096b44cef3a1b28859e113ec1b"
+        },
+        {
+          "degrees": [
+            10,
+            9,
+            0,
+            0
+          ],
+          "terms": 47,
+          "sha256": "eece450fa1ccea0db306a73083cd27ef6692f6dde7813ee56239b917b4fef7ba"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            14,
+            7,
+            1,
+            0
+          ],
+          "terms": 140,
+          "sha256": "72be03a9cac55df2079a758bbb027c59f44aa96e562998059960b58ab7b0bf9c"
+        },
+        {
+          "degrees": [
+            12,
+            7,
+            0,
+            0
+          ],
+          "terms": 55,
+          "sha256": "f4ca3c445f7217be9597d231c15db99a4f56b39577d5f7d786019e48fad513e5"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "denominator": {
+        "degrees": [
+          4,
+          4,
+          0,
+          0
+        ],
+        "terms": 17,
+        "sha256": "2b9b77320d5850f13c110bbfd0442dc092603cd5c90c0d5ce534a4839a4752c9"
+      },
+      "encoding": "base64+zlib+json",
+      "payloadSha256": "84b3f249e95867612a8b14652c83fdae231c97db5e5e6ac101bd44bea2fecd4f",
+      "uncompressedBytes": 10744,
+      "compressedBytes": 3009,
+      "fullOriginalTwelveCoefficientsReturned": true,
+      "noGeometricInversions": true,
+      "stage": "new_exact_recoverable_original_twelve_row",
+      "seconds": 0.13894402700000796
+    },
+    {
+      "name": "O8_over_rho",
+      "numeratorProfiles": [
+        {
+          "degrees": [
+            15,
+            9,
+            2,
+            0
+          ],
+          "terms": 257,
+          "sha256": "fc6844d51526823068f0421fd8ac2b5590ad325af0d52eb8cfbdbc05ac78af2b"
+        },
+        {
+          "degrees": [
+            13,
+            9,
+            1,
+            0
+          ],
+          "terms": 146,
+          "sha256": "599b2379ed543e24c4bc6796edad05e8cee55506541dba46d3c5f1fdb130b8dd"
+        },
+        {
+          "degrees": [
+            11,
+            9,
+            0,
+            0
+          ],
+          "terms": 52,
+          "sha256": "9de146740c6ab192ff3f3ad5bbe06594c3613ccce3719594049ccf4ce2dac2c9"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            15,
+            7,
+            1,
+            0
+          ],
+          "terms": 166,
+          "sha256": "8e9f40918197e6813fa75a53a44d5129a7cb0fd07eda65684c88a4e7f857fb69"
+        },
+        {
+          "degrees": [
+            13,
+            7,
+            0,
+            0
+          ],
+          "terms": 67,
+          "sha256": "a62c4ac299086d47b94c508aa0b564d31317811ce9e1b0ae13d7858f755a5c34"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "denominator": {
+        "degrees": [
+          3,
+          6,
+          0,
+          0
+        ],
+        "terms": 17,
+        "sha256": "7602c25fc76fda9f2074d44ca2cb519c301e4240652b58eccd1359f5446b8d85"
+      },
+      "encoding": "base64+zlib+json",
+      "payloadSha256": "49e987e7f47140cc2146ff6ad95400b4883fe0dbce1fa880a45688ebdb17fbec",
+      "uncompressedBytes": 13125,
+      "compressedBytes": 3747,
+      "fullOriginalTwelveCoefficientsReturned": true,
+      "noGeometricInversions": true,
+      "stage": "new_exact_recoverable_original_twelve_row",
+      "seconds": 0.15342678199999682
+    },
+    {
+      "name": "actual_NV_line",
+      "numeratorProfiles": [
+        {
+          "degrees": [
+            12,
+            7,
+            7,
+            0
+          ],
+          "terms": 440,
+          "sha256": "c18a203b2a9c1bacd8821da6f6727b2fc22561535e21cfda30bd6fe3f741e8b0"
+        },
+        {
+          "degrees": [
+            10,
+            7,
+            6,
+            0
+          ],
+          "terms": 342,
+          "sha256": "4e27886a69d96228d0dffbcb59000202ab6a0ee2444fa728f42c8b265dca1f41"
+        },
+        {
+          "degrees": [
+            8,
+            7,
+            5,
+            0
+          ],
+          "terms": 228,
+          "sha256": "60edb4719abc3bbdd315d1bcf5bf3ecd21bec32d58574b016f858636e7553aa6"
+        },
+        {
+          "degrees": [
+            8,
+            7,
+            4,
+            0
+          ],
+          "terms": 181,
+          "sha256": "26d2e0ba6e11728d73dfac5f827012f7affc659a9137786b8af848a2c9e7c3a3"
+        },
+        {
+          "degrees": [
+            6,
+            7,
+            3,
+            0
+          ],
+          "terms": 104,
+          "sha256": "e98c524536243eb90a34f932179e01dd8d2c2dd21a09d71374bbc11f4aa6142e"
+        },
+        {
+          "degrees": [
+            6,
+            7,
+            2,
+            0
+          ],
+          "terms": 62,
+          "sha256": "c3105feb270bb975e866ba66a2de84266008eeb18db3a91759d969015947ce15"
+        },
+        {
+          "degrees": [
+            11,
+            5,
+            5,
+            0
+          ],
+          "terms": 246,
+          "sha256": "b8be9b97c7fd611152a616c1e4ce6945c29290dbe1b3918717dd1c2dca4d964b"
+        },
+        {
+          "degrees": [
+            10,
+            5,
+            5,
+            0
+          ],
+          "terms": 253,
+          "sha256": "5011d6b3c55ae31b693e80a9830d5f3f92703d08366606b5cb7769419b06828b"
+        },
+        {
+          "degrees": [
+            9,
+            5,
+            4,
+            0
+          ],
+          "terms": 170,
+          "sha256": "6fb43e06b8ba1f4c2bc2a29e5e80be39119941e395ac676436a73de5b1934b0b"
+        },
+        {
+          "degrees": [
+            8,
+            5,
+            3,
+            0
+          ],
+          "terms": 127,
+          "sha256": "3672a60f1ad0fd52173c6df9fffa3e0692622d37385b22ac3c77eecbbd4cbad7"
+        },
+        {
+          "degrees": [
+            6,
+            5,
+            2,
+            0
+          ],
+          "terms": 57,
+          "sha256": "9bffc4fc326b459fc3e6c730fd81a73f51606f4d71181d3c578b20ef02e22f57"
+        },
+        {
+          "degrees": [
+            6,
+            5,
+            1,
+            0
+          ],
+          "terms": 38,
+          "sha256": "2d6abac98c6f5d2511717a28a6e69049f68456cbf75c845258717312d60cfe27"
+        }
+      ],
+      "denominator": {
+        "degrees": [
+          2,
+          5,
+          0,
+          0
+        ],
+        "terms": 8,
+        "sha256": "b03ba3427f0361776417e16a4736cf48529c23b4b18827e496e364fe70f947ee"
+      },
+      "encoding": "base64+zlib+json",
+      "payloadSha256": "5dfc1618b13d1c4bd2ec0fb6bcfb75d6350d34b38a6c7291ab9751701ff4cf79",
+      "uncompressedBytes": 40051,
+      "compressedBytes": 10837,
+      "fullOriginalTwelveCoefficientsReturned": true,
+      "noGeometricInversions": true,
+      "stage": "new_exact_recoverable_original_twelve_row",
+      "seconds": 0.2103358869999994
+    }
+  ]
+}

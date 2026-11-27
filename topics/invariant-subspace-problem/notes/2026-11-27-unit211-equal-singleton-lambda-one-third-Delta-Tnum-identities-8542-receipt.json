@@ -1,0 +1,33 @@
+{
+  "schema": "isp-h-equals-k-lambda-one-third-Delta-Tnum-small-exact-check-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "sourceBlob": "86acc608830f3e761cbef4c621c07b005c9a76b4",
+  "sourceSHA256": "a4a88b461b08b3f9fc793dcf019c25ebc88c133646ebb81d13879d50d6f5d9d3",
+  "executionEnvironment": "functions.exec V8 BigInt",
+  "processExitCode": null,
+  "peakRssKiB": null,
+  "actual": {
+    "schema": "isp-parent-h-equals-k-lambda-one-third-original-Delta-Tnum-factor-v1",
+    "constants": {
+      "ell": "125/196",
+      "T": "-25/42",
+      "xi": "-14/15",
+      "w": "-1/14",
+      "S": "7/15",
+      "eta": "7/5"
+    },
+    "NF": "-98*T0/75",
+    "Delta": "(2*T0/225)*(196*(u-1)*(u-3)-71*Q)",
+    "Tnum": "(Q*T0/44100)*(-392*u*(u-1)*(19*u-2)+(250-1457*u)*Q)",
+    "exactElimination": "71*Tlin+(250-1457*u)*Dlin=-2940*(u-1)^2*(277*u-50)",
+    "candidateAfterPaidUminusOneQT0": {
+      "u": "50/277",
+      "Q": "489412/76729"
+    },
+    "allThreeFullIntegerPolynomialProductsActuallyVerified": true,
+    "elapsedMilliseconds": 0,
+    "originalGramNotReturnedHere": true
+  },
+  "originalGramReturned": false
+}
