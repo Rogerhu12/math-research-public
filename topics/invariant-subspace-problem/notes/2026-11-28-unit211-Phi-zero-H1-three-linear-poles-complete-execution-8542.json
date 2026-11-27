@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "run": 46064945802,
+  "job": 140727894561,
+  "actualDriver": {
+    "elapsed_seconds": 0.30259937099999945,
+    "max_child_rss_kib": 39364,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "4d47a51a25f7e27ef75dd69e58f796fb26bce420",
+        "before": "4d47a51a25f7e27ef75dd69e58f796fb26bce420",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:38:09.900815+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46064945802",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "4d47a51a25f7e27ef75dd69e58f796fb26bce420",
+    "source_exit_code": 0,
+    "source_git_blob": "434170ce3f3b308caeca2502111ff3999187bd49",
+    "source_sha256": "0e05d8280fded6c8962f4c869f2d15563b27582ccdb8bf15e582e095481768e4",
+    "stdout_bytes": 9883,
+    "stdout_sha256": "f12aa2e345669e24c677984db957eb5cd0a07b192082a2fad776737f80f7bb13",
+    "stop_reason": null
+  },
+  "results": [
+    {
+      "u": "3/2",
+      "QFactor": [
+        "-19/4",
+        "15/16",
+        "9/8",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "selectedOriginals": [
+        "R",
+        "W",
+        "N1"
+      ],
+      "allThreeFullPolynomialOriginalIdentitiesReturned": true,
+      "noLambdaValueOrLambdaHeadInverted": true,
+      "stage": "new_constant_H1_three_original_monic_quadratic_rules",
+      "seconds": 0.01863209200000071
+    },
+    {
+      "u": "3/2",
+      "QFactor": [
+        "-19/4",
+        "15/16",
+        "9/8",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "sourceColumns": [
+        "remaining_O",
+        "T_times_remaining",
+        "z_times_remaining"
+      ],
+      "fixedMatrixOrder": 3,
+      "fullPolynomialLambdaDegree": 6,
+      "remainingLambdaDegree": 6,
+      "completeQQConstantAlgebraBezoutProductReturned": true,
+      "stage": "new_constant_H1_complete_original_cofactor_Bezout",
+      "seconds": 0.033294435999998484
+    },
+    {
+      "u": "3/2",
+      "QFactor": [
+        "-19/4",
+        "15/16",
+        "9/8",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "sourceColumns": [
+        "remaining_O",
+        "T_times_remaining",
+        "actual_commutator_T"
+      ],
+      "fixedMatrixOrder": 3,
+      "fullPolynomialLambdaDegree": 6,
+      "remainingLambdaDegree": 0,
+      "completeQQConstantAlgebraBezoutProductReturned": true,
+      "stage": "new_constant_H1_complete_original_cofactor_Bezout",
+      "seconds": 0.05714230099999895
+    },
+    {
+      "u": "3/2",
+      "wholeOriginalWeightFiberExcluded": true,
+      "components": [
+        {
+          "QFactor": [
+            "-1",
+            "1"
+          ],
+          "multiplicity": 1,
+          "excluded": true
+        },
+        {
+          "QFactor": [
+            "-19/4",
+            "15/16",
+            "9/8",
+            "1"
+          ],
+          "multiplicity": 1,
+          "excluded": true
+        }
+      ],
+      "originalQQuarticFactorProductReturned": true,
+      "complexQEmbeddingsAndRepeatedRootsAllCovered": true,
+      "stage": "new_H1_constant_weight_all_Q_roots_return",
+      "seconds": 0.05732479199999929
+    },
+    {
+      "u": "12/5",
+      "QFactor": [
+        "-71008/625",
+        "49536/625",
+        "66/25",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "selectedOriginals": [
+        "R",
+        "W",
+        "N1"
+      ],
+      "allThreeFullPolynomialOriginalIdentitiesReturned": true,
+      "noLambdaValueOrLambdaHeadInverted": true,
+      "stage": "new_constant_H1_three_original_monic_quadratic_rules",
+      "seconds": 0.07464060699999919
+    },
+    {
+      "u": "12/5",
+      "QFactor": [
+        "-71008/625",
+        "49536/625",
+        "66/25",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "sourceColumns": [
+        "remaining_O",
+        "T_times_remaining",
+        "z_times_remaining"
+      ],
+      "fixedMatrixOrder": 3,
+      "fullPolynomialLambdaDegree": 6,
+      "remainingLambdaDegree": 6,
+      "completeQQConstantAlgebraBezoutProductReturned": true,
+      "stage": "new_constant_H1_complete_original_cofactor_Bezout",
+      "seconds": 0.09183874300000028
+    },
+    {
+      "u": "12/5",
+      "QFactor": [
+        "-71008/625",
+        "49536/625",
+        "66/25",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "sourceColumns": [
+        "remaining_O",
+        "T_times_remaining",
+        "actual_commutator_T"
+      ],
+      "fixedMatrixOrder": 3,
+      "fullPolynomialLambdaDegree": 6,
+      "remainingLambdaDegree": 0,
+      "completeQQConstantAlgebraBezoutProductReturned": true,
+      "stage": "new_constant_H1_complete_original_cofactor_Bezout",
+      "seconds": 0.14585148300000128
+    },
+    {
+      "u": "12/5",
+      "wholeOriginalWeightFiberExcluded": true,
+      "components": [
+        {
+          "QFactor": [
+            "-28/25",
+            "1"
+          ],
+          "multiplicity": 1,
+          "excluded": true
+        },
+        {
+          "QFactor": [
+            "-71008/625",
+            "49536/625",
+            "66/25",
+            "1"
+          ],
+          "multiplicity": 1,
+          "excluded": true
+        }
+      ],
+      "originalQQuarticFactorProductReturned": true,
+      "complexQEmbeddingsAndRepeatedRootsAllCovered": true,
+      "stage": "new_H1_constant_weight_all_Q_roots_return",
+      "seconds": 0.14602493699999997
+    },
+    {
+      "u": "5/2",
+      "QFactor": [
+        "-237/2",
+        "817/8",
+        "23/8",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "selectedOriginals": [
+        "R",
+        "W",
+        "N1"
+      ],
+      "allThreeFullPolynomialOriginalIdentitiesReturned": true,
+      "noLambdaValueOrLambdaHeadInverted": true,
+      "stage": "new_constant_H1_three_original_monic_quadratic_rules",
+      "seconds": 0.16311989000000082
+    },
+    {
+      "u": "5/2",
+      "QFactor": [
+        "-237/2",
+        "817/8",
+        "23/8",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "sourceColumns": [
+        "remaining_O",
+        "T_times_remaining",
+        "z_times_remaining"
+      ],
+      "fixedMatrixOrder": 3,
+      "fullPolynomialLambdaDegree": 6,
+      "remainingLambdaDegree": 6,
+      "completeQQConstantAlgebraBezoutProductReturned": true,
+      "stage": "new_constant_H1_complete_original_cofactor_Bezout",
+      "seconds": 0.1791529109999992
+    },
+    {
+      "u": "5/2",
+      "QFactor": [
+        "-237/2",
+        "817/8",
+        "23/8",
+        "1"
+      ],
+      "QFactorDegree": 3,
+      "factorIndex": 1,
+      "sourceColumns": [
+        "remaining_O",
+        "T_times_remaining",
+        "actual_commutator_T"
+      ],
+      "fixedMatrixOrder": 3,
+      "fullPolynomialLambdaDegree": 6,
+      "remainingLambdaDegree": 0,
+      "completeQQConstantAlgebraBezoutProductReturned": true,
+      "stage": "new_constant_H1_complete_original_cofactor_Bezout",
+      "seconds": 0.22503374600000114
+    },
+    {
+      "u": "5/2",
+      "wholeOriginalWeightFiberExcluded": true,
+      "components": [
+        {
+          "QFactor": [
+            "-3/2",
+            "1"
+          ],
+          "multiplicity": 1,
+          "excluded": true
+        },
+        {
+          "QFactor": [
+            "-237/2",
+            "817/8",
+            "23/8",
+            "1"
+          ],
+          "multiplicity": 1,
+          "excluded": true
+        }
+      ],
+      "originalQQuarticFactorProductReturned": true,
+      "complexQEmbeddingsAndRepeatedRootsAllCovered": true,
+      "stage": "new_H1_constant_weight_all_Q_roots_return",
+      "seconds": 0.2252504299999991
+    },
+    {
+      "sourceSHA256": "0e05d8280fded6c8962f4c869f2d15563b27582ccdb8bf15e582e095481768e4",
+      "weights": [
+        {
+          "u": "3/2",
+          "wholeOriginalWeightFiberExcluded": true,
+          "components": [
+            {
+              "QFactor": [
+                "-1",
+                "1"
+              ],
+              "multiplicity": 1,
+              "excluded": true
+            },
+            {
+              "QFactor": [
+                "-19/4",
+                "15/16",
+                "9/8",
+                "1"
+              ],
+              "multiplicity": 1,
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "u": "12/5",
+          "wholeOriginalWeightFiberExcluded": true,
+          "components": [
+            {
+              "QFactor": [
+                "-28/25",
+                "1"
+              ],
+              "multiplicity": 1,
+              "excluded": true
+            },
+            {
+              "QFactor": [
+                "-71008/625",
+                "49536/625",
+                "66/25",
+                "1"
+              ],
+              "multiplicity": 1,
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "u": "5/2",
+          "wholeOriginalWeightFiberExcluded": true,
+          "components": [
+            {
+              "QFactor": [
+                "-3/2",
+                "1"
+              ],
+              "multiplicity": 1,
+              "excluded": true
+            },
+            {
+              "QFactor": [
+                "-237/2",
+                "817/8",
+                "23/8",
+                "1"
+              ],
+              "multiplicity": 1,
+              "excluded": true
+            }
+          ]
+        }
+      ],
+      "allThreeEntireOriginalFibersExcluded": true,
+      "actualWholeQAlgebraInverseProducts": 64,
+      "actualQReductionProducts": 26938,
+      "actualLambdaDivisionProducts": 21,
+      "peakRSSKiB": 38532,
+      "recomputableCoefficientPayloadTransmitted": false,
+      "encodedOrSplitPayloadCreated": false,
+      "wholeH1Excluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "new_three_linear_H1_original_fiber_input_finished",
+      "seconds": 0.22546402900000118
+    }
+  ],
+  "newCoverage": {
+    "previousCdegree": 256,
+    "paidDistinctUValues": [
+      "3/2",
+      "12/5",
+      "5/2"
+    ],
+    "remainingCdegree": 253,
+    "differentWeightPairsUpperBound": 1012,
+    "physicalDNonzeroScope": true,
+    "wholeH1Excluded": false
+  },
+  "unexecutedBackupBranches": [
+    "complete_original_F6",
+    "complete_original_NV",
+    "old Dixon chart or Gaussian"
+  ],
+  "dataPolicy": {
+    "recomputableCoefficientPayloadTransmitted": false,
+    "parameterFilesCreated": false
+  }
+}
