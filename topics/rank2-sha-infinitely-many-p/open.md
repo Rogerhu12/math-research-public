@@ -154,3 +154,7 @@ R1023已逐式识别原Hesse公共盖为[δ]并保deck/Frobenius真实符号；�
 ### 原全三覆盖的指定 δ 像核输入
 
 [新输入证明](notes/2026-11-27-original-delta-image-polar-divisor.md)已付一般C⁺=δC=−3B(Fq)、δ在C单射及原−T标记另行施加。q11的实际D⁺三点、H/J全Hensel、两个端点±8和全部2662对已由run45941789126/job140317511374/source5bcbf6061bc111254d1f75c732ab40e55d4bb1ef完整执行，实际0解；全部hash见该笔记§6，不重跑。它与旧D、3P6不同，只判断这个指定一般族的构造路线；q11原shadow倒6仍零。之后不扩为平移扫描，继续真实全盖构造。
+
+### R1027 的原 canonical fiber 零列已付
+
+原全q≥5的canonical fiber统一六挠：原曲面图push在秩二纯实现为δ、真正∞光滑纤维同源为−δ；保实际三挠修正与τ图pull后得6Q(O_B)=0。只在原54/η/P−/全Cor中清b=O_B的准确项，余有限CM fiber及全shadow仍待，无Tate假设。 所有实际截面的这一限制已证明，不再把q5的O列六挠当偶然；继续其余有限CM fiber或真正全盖/全trace构造，不能将只清一列冒成全shadow判定。

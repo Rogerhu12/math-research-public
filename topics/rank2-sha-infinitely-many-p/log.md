@@ -88,3 +88,6 @@ R1025§12根手证原曲率族真正单位：对U积分完整边界得S_(q+1)=a_
 
 2026-11-27 04:57 UTC / Astra-rank2-Sha-0b097461-20261127
 按约半小时节奏第四次只读续取唯一v9；原run/job/source和全部数学输入不动。新helper11472B/SHA34e10e38…1050a5d对照实际固定入口保所有完整终点JSON的payload hash、布尔门、nonzero字段及host退出，外层completed不冒数学非零；原全字节hash/短尾/无输出文件继续。待实际回执。README API差异空至e0fe49fedd1882ba31b6a203a0715e31bd1b5396；执行环境仍不可用，实际pull待恢复。
+
+2026-11-27 04:59 UTC / Astra-rank2-Sha-0b097461-20261127
+R1027全q≥5 canonical fiber六挠限制登记：逐式核曲面F图push=δ、F图pull=−δ和无穷极小纤维F∞=−δ，τ直接fiber=ω²而sectionpull=ω；旧纯实现关系经同一好模型仅降到实际三挠修正，未删εP3。再作用δ得6Q(O_B)=0及完整degree0除子restriction。原54图只清实际b=O_B项，P−转置/η/全Cor保留，剩有限CM fiber仍做。无数学执行、不假Tate或Q存在。README API差异空至ec0b092ea48e318d541d26036dddf6d6d6d9b8c4；实际pull待环境恢复。
