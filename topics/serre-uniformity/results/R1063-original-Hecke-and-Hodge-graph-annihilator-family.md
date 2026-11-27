@@ -997,3 +997,131 @@ $d,\ell$ 的行列式，$T_1$ 的完整 Frobenius 余项仍保留。
 本节由 o2_high_coefficient 推导，root 独核规范 $\widehat J$ 的非齐次项、
 完整 Cartier 微分式的两个符号、$\mathbf F_p$ 半线性、
 共振安全界及原 adjugate 的行列式方向；无数学程序执行。
+
+
+## 13. 原核端点的 period 平方与下一系数的强迫单位
+
+保持 §12 的全部原参数，令
+$$
+d=\ell-1,\qquad h_i=[r^i]j(r)^2\quad(0\le i\le d).
+$$
+这些系数均只用到 $j$ 的安全次数 $d$，早于原第一个坏分母。
+在 R1043 的原 $f_N$ 范围内，有
+$$
+\boxed{\quad
+f_N=\frac{h_d}{12A_1},\qquad
+11h_d-16h_{d-1}=-4A_1^2.
+\quad}
+\tag{1063.60}
+$$
+特别
+$$
+f_N=0\Longrightarrow
+h_{d-1}=A_1^2/4\in\mathbf F_p^\times.
+\tag{1063.61}
+$$
+这是同一原 period 的边界关系；尚未把 $h_{d-1}$
+认成 $C_0$、$T_1$ 的一列或某个未经比较的 FM 读数。
+
+### 13.1 安全的第 ell 个原 Z 系数
+
+由 R1056 §§2、6 的原 $H'=h^2$，
+$$
+\frac{dF_0}{dr}=\frac{IW}{9},\qquad
+I=\sum_{n=0}^{\ell-2}
+ \frac{[r^n]q^2}{\ell+n+1}r^n,\qquad
+W=(1-r)^{-4/3}q^{-2}.
+$$
+全部积分分母 $\ell+1,\ldots,2\ell-1$ 都小于 $p$。
+在次数 $\ell$ 作原 $Z=-r(q/j)^3/3$ 的有限 Lagrange 反演仍合法；
+所需 $j$ 次数仅为 $d=\ell-1$。
+因 $3\ell=p+1$、$J=j/q$ 且 $J^p=1\bmod r^p$，
+$$
+a_\ell=[Z^\ell]F_0(B_{\rm CM}(Z))
+=\frac{(-3)^\ell}{9\ell}[r^d]IWJ.
+\tag{1063.62}
+$$
+在所需次数中，实际 Wronskian 给 $J-3rJ'=W$，因此
+$$
+WJ=J^2-\frac{3r}{2}(J^2)'.
+$$
+与 $I_n$ 配对的系数为
+$$
+1-\frac32(d-n)=\frac32(\ell+n+1)\quad\bmod p.
+$$
+这逐项约去的是已核为单位的积分分母，故
+$$
+[r^d]IWJ=\frac32[r^d]q^2J^2=\frac32h_d,\qquad
+a_\ell=\frac{(-3)^\ell}{2}h_d.
+\tag{1063.63}
+$$
+此处也使用 $3\ell=1$ 于 $\mathbf F_p$。
+(1063.58) 的原核式 $a_0=-\sigma_{\rm CM}a_\ell$ 给
+$$
+F_0(1)=-\frac{h_d}{2A_1^2}.
+$$
+再用 R1043 的 $f_N=-T_0(1)/6=-A_1F_0(1)/6$，
+即得 (1063.60) 第一式。
+整个推导没有定义或使用共振阶的 $j_\ell$。
+
+### 13.2 非齐次 Gauss forcing 的准确相邻边界
+
+取 R1058 的规范多项式 $P=q\widehat J$，
+$$
+P\equiv j\pmod{r^\ell},\qquad
+\mathcal L_jP=\frac{A_1^2}{9}r^{\ell-1}K,\qquad K(0)=1,
+$$
+$$
+\mathcal L_j=r x\partial_r^2+(2/3-2r)\partial_r-1/4,
+\qquad x=1-r.
+$$
+必须保留这个 forcing，不能把 $P$ 当齐次 period。
+其 symmetric-square 算子（已乘 $r^2x^2$）为
+$$
+\mathcal S y=
+r^2x^2 y'''+2rx(1-3r)y''
+ +(2/9-5r+7r^2)y'+(r-1/6)y.
+\tag{1063.64}
+$$
+令
+$$
+a=\frac{2/3-2r}{rx},\qquad
+b=-\frac1{4rx},\qquad c=\frac{\mathcal L_jP}{rx}.
+$$
+直接对 $P^2$ 微分，完整非齐次身份是
+$$
+\mathcal S(P^2)=
+r^2x^2\{2Pc'+(4aP+6P')c\}.
+\tag{1063.65}
+$$
+这里 $c=(A_1^2/9)r^{\ell-2}(1+O(r))$、$P(0)=1$。
+因此右边在 $r^{\ell-1}$ 的系数准确为
+$$
+\frac{A_1^2}{9}\{2(\ell-2)+8/3\}
+=-\frac{2A_1^2}{27}.
+\tag{1063.66}
+$$
+
+左边在此阶对 $[r^\ell]P^2$ 的乘数为
+$$
+\ell(\ell-1/3)(\ell-2/3)=0\quad\bmod p.
+$$
+故这个未知共振系数确实不进入读数。
+其余仅有安全的 $h_d,h_{d-1}$，系数为
+$$
+[r^{\ell-1}]\mathcal S(P^2)
+=\frac{11}{54}h_d-\frac8{27}h_{d-1}.
+\tag{1063.67}
+$$
+例如后一个乘数就是 $d^3=-8/27$；
+前一个是 $-2d^3-2d^2-d-1/6=11/54$，
+均用 $d=-2/3\bmod p$。
+与 (1063.66) 比较并乘 $54$，得 (1063.60) 第二式。
+
+(1063.61) 证明：原端点假如消失，同一 period 平方的下一系数
+必为单位。它没有证明原 $f_N$、bare 核范数或 (1063.59)
+两列行列式非零。后继仍须给该单位与实际第二列的完整比较。
+
+o2_high_coefficient 推导；root 独核第 $\ell$ 个系数的安全范围、
+积分分母逐项相消、symmetric-square 三个乘数和完整非齐次项。
+全部为纸面证明，无数学程序执行。
