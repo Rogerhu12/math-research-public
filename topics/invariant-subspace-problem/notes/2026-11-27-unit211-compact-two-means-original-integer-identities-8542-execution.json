@@ -1,0 +1,44 @@
+{
+  "schema": "isp-pure-V8-actual-source-execution-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "source_sha256": "b770f2f4f74af468f5348363a7a245534bb78c6329a645f4f81fb8cbd87bc3a5",
+  "source_bytes": 3777,
+  "execution": "Function(source)() in the exposed V8 exec runtime; no Node or external system calls",
+  "actual": {
+    "schema": "isp-new-compact-original-two-means-integer-return-v1",
+    "variables": [
+      "b",
+      "c",
+      "rho",
+      "f",
+      "X",
+      "Y",
+      "t"
+    ],
+    "elapsed_milliseconds": 12,
+    "integerPolynomialProducts": 289,
+    "checks": [
+      {
+        "name": "raw_original_F2",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "raw_original_E0",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "new_compact_R2_original_mean_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "new_compact_W4_original_mean_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      }
+    ],
+    "compactR2ExpandedTerms": 229,
+    "compactW4ExpandedTerms": 486,
+    "actualExecution": "pure V8 BigInt exact integer polynomial arithmetic",
+    "noPhiOrUnpaidNormAssumption": true,
+    "noNewExclusionClaim": true
+  }
+}

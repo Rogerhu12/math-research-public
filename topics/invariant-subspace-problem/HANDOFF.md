@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** e274f98bcb6b7a211a30c360263c018a74808467（2026-11-27 15:11:06 UTC，Actions run46022567009实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46022567009-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 15:11:05 UTC/93bf25fa8978d78626b2eff7c4bd270c84624a81，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 78e2800bba2a192fad92ed39d1fec95c35bdf33c（2026-11-27 15:13:10 UTC，Actions run46022874547实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46022874547-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 15:13:10 UTC/03a9f84da277592270f09c4e9067a8cd659e75a0，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `ef491ae7b6b4bf13e0268abac190f35ff3af9792`（2026-11-27 15:10:45 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `78e2800bba2a192fad92ed39d1fec95c35bdf33c`（2026-11-27 15:12:48 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-equal-singleton-entire-Q1u-exclusion-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Haar-boundary-disjoint-ranges-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -52,7 +52,7 @@
 ## 原Haar未知普通M与闭域
 
 完整原公式、来源和所有范围保[此前完整H](notes/2026-11-27-handoff-before-small-mean-branches-8542.md)、open及结果索引；以下压缩不关闭任何旧接口。
-- 原A单射/稠密像/拟幂零/非紧，普通M未知。新全整数||A^n||=βn=||B^n||，同稀疏链给每非零y真迹类K_y：TK_y=K_yA、全目标H稠密像，核恰cyclic(A*,y)⊥；每实际循环商有单向拟亲和，反向交织零。真循环时K_y⁻¹kerT=0，proper U的同源非零交点仍开。D非闭/固定成本非localizing/闭包R无紧元及MASA/odometer等旧负门全冻结；R38及未知M的额外代数保持保原稿，仍开。
+- 原A单射/稠密像/拟幂零/非紧，普通M未知。新全整数||A^n||=βn=||B^n||，同稀疏链给每非零y真迹类K_y：TK_y=K_yA、全目标H稠密像，核恰cyclic(A*,y)⊥；每实际循环商有单向拟亲和，反向交织零。同源RanK_y∩Ranℒ_e0=0；真Abel原像存在而其平方费/log趋∞。真循环时K_y⁻¹kerT=0，proper U交点仍开。D非闭/固定成本非localizing/闭包R无紧元及MASA/odometer等旧负门全冻结；R38及未知M的额外代数保持保原稿，仍开。
 - 同源累计log费Θ(n⁵)，固定负幂不付第n四次费/未知M保持。全尾根q|pk及普通M有限头非Fredholm、无尾模补/任何幂不变闭补已付；不分裂M仍开，全尾字符不传未知限制。
 - 全C强*密度/喷射/UHF零交已付，不付PH入域。指定正连续循环f的PX_f全柱无界、C1∩Cf0/无可闭性已闭，普通分母路线冻结；只续实际闭根/湮灭的特殊来源。
 - 闭稳定根+DomT⊂DomT*+有限幂有界已足够。R143实际S=T⁻¹闭稳定，S²=alpha0⁻¹B1|K且原D为图核心；余RanT⊂RanT*。慢D=−2Z在未知L的稠密像、伴随域和有限放大稠密条件仍未付，不能套全尾整除。
