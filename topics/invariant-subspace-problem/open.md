@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-ten-weight-entire-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-affine-S-and-F-weight-six-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -234,52 +234,30 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 
 
-## h=k 整个 Delta=0 已排空（8542，2026-11-28）
+## h=k：余 Delta 非零原图（8542，2026-11-28）
 
-[完整定理](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：原完整QQ578覆盖只余C1/C2/C4。C1、C2此前整纤维已闭；新3b4在C4和完整首一u三次的12维常数代数上返回全八原Gram，保同一自由f，E1/EBe全系数Bézout=1。真1.906秒/37028KiB/0，没有常数分量丢弃或重放旧有理u cofactor。结合此前碰撞退化原面，整个h=k、Delta0闭；下一步处理Delta非零，h1/k1与其他图仍保留。
+[整个Delta0已闭](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：原QQ578覆盖只余C1/C2/C4，末C4×u三次12维常数代数的全八原Gram中，同自由f的E1/EBe完整Bézout1。3b4真1.906秒/37028KiB/0，无常数分量丢弃。本图等权/T0零/JQ/Phi0/Q1−u已独立闭，旧D非零权排除不借用。
 
-## W 完整首一 F 原消去（8542，2026-11-28）
+[Delta非零完整四原式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)：6b21真3.239秒/57596KiB/0，同P1/NV恢复f=Fnum/Delta、z=Tnum/(bcDelta)，四核心(R,W,O,N1)度49/12/5、48/12/6、54/13/6、51/13/6且QQ不可约。精确输入分两片存；4500只读它们取(R,W)/(R,N1)两固定QQ投影，所有Q/λ头零完整保留，多变量gcd1不判空。h1/k1≤6219及ell首一三次后的≤18657权三元组仍开，自由t未闭；5b2旧有理cofactor超时冻。
 
-[完整引理与原十一行应用](results/R150-appendix-unit211-W-exact-monic-F-elimination-all-leading-zero-fibers.md)：qF=F²+pF+q、Ri=Ai+BiF 的同一F存在性准确等价全部Hij=BjAi−BiAj与Θi=Ai²−pAiBi+qBi²；所有Bi=0时也覆盖。八条原F线性行给28Hij+8Θ，连r2/R6为38同S二次余式，保原D非零，未展开全部系数/未宣理想逐项相等。新70603只首发三个Θ与r2/Hij的五固定cofactor；所有S/F/λ首项零面仍保留。
+## W：同一 S 的原二次系统及权六次例外（8542，2026-11-28）
 
-## Phi 例外图严格146基点与十权原值输入（8542，2026-11-28）
+[首一F全消去](results/R150-appendix-unit211-W-exact-monic-F-elimination-all-leading-zero-fibers.md)准确等价同S全部Hij、Θi及r2/R6，共38二次余式，含全Bi=0，不宣逐项理想相等。70603的三个Θ/五cofactorλ13/13/13/10/10只必要，完整个别N/P/NV与原D非零仍保留。
 
-[原R精确QQ重数](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)：实际赋值对偶及57/342阶QQ核完整乘回付φ1^10、H6²，已存模重数给合法上界；真首一2011余式与完整S的新xgcd度146，结合两整纤维排除，计至多146不同有序(rho,lambda)而不只是lambda数。没有排空例外图。新883c只用已存F10/Q−a9十权，构造四原二次行、保同两线的det零λ纤维，再送原四式/F6/NV；120秒/1GiB首次执行。
+[完整NV纯T5](results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md)给未约化C5+Phi·f·C4=mPhiQMell²Vlow，故(C4,Vlow)=(C4,C5)，T5头已付。[直接二次](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)保q5=(T+γ4)q4+μ3q3+NV2，H411度9/11/4未付。
 
-## Phi 首头图的真实 D 原理想返回（8542，2026-11-28）
+[新同S一次与权F恢复](results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md)：47f真2.314822503秒/71760KiB/0，L=b2r2−a2NV2，L1度18/22/8未付；三原Bi的完整权Cramer det=已付单位×G36，G36度6/8、36项且[e6]=32k6已付。仅G36非零图F为同S二次唯一表达，须代全部原式。G36=0整个权曲线继续六次常数环境；H411/L1/所有新λ头零面保留，不倒A143、Bi或D范数。旧A143零补图仍按前文原行保留。
 
-[完整原D返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)：前三原mean的真实二次头非零时，用伴随矩阵生成三条规则，保N1余行及两条真实乘法歧义；全系数取消给BD∈原四式理想。真D非零迫参数P6(u,Q,λ)=0，度39/20/6、3101项已精确保存。首头零整曲线仍保留，λ首项未付；新6ca只读取已存core作真正λ头/完整QQ分解，不重放DAG。同时新6b21在已闭碰撞Delta0之后，用同一NV恢复z与P1恢复f，返回全四原残式，保所有新λ/权头零。
+## Phi：四头覆盖、首头原 D 与例外原纤维（8542，2026-11-28）
 
-## W 三个原Θ与五个必要式完成（8542，2026-11-28）
+[四头共同零十权全闭](results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md)：883c真0.695秒/41660KiB/0，同两原线det零整兼容只余λ单位，开图同一T,z的60维原mean乘法矩阵返单位。故四个头非零图覆盖整个原Phi；第一头零仍整曲线。
 
-[70603实际完整返回](results/R150-appendix-unit211-W-monic-F-norm-five-original-three-column-cofactors.md)：9.183515221秒/117764KiB/0，原Θ在未约化多项式恒等、q3真迹及五cofactor三列均全乘回；余λ度13/13/13/10/10。五λ头仍非恒定，完整原个别N/P/NV约束继续，不作空性/有限性推断。新da64只核整原N4的C5+Phi·f·C4=m·Phi·Q·M·ell²·Vlow，再取真纯T五次/已付头及三个新余子式，180秒/4GiB首次执行。
+[首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给必要P6度39/20/6；[真实QQ分解](results/R150-appendix-unit211-Phi-zero-first-head-D-core-irreducibility-and-retained-leading-weight-curve.md)付其不可约，λ6头仅剥已付单位后余H19/11、137项，整H0仍保。新a215同MT到T6形成完整原F6行，再以N1/真实歧义/F6新三行返原D，不重放旧cofactor。
 
-## Phi 四头共同零的十权原值全部排空（8542，2026-11-28）
+例外权图[真实QQ重数及146覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)只在λ半/H6整原纤维闭后剥真10/2重数，余2011与完整S全xgcd度146。[ψD真实三重数](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)由原QQ342矩阵的18独立核付，但整原纤维模秩138/156未闭，仍≤146不同有序(rho,λ)，不删18度。新a40直接取真QQ rho gcd、原D单位允许的T4及原N1首一z2，≤144维完整原mean/NV环境；唯有整原纤维真排空才使用已证ψ³并重新完整xgcd。旧87/55、C71/29、首头零曲线及个别N/P继续；ed0/879及全部旧失败冻结。
 
-[完整十权原排除](results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md)：883c真实0.694719790秒/41660KiB/0，十次常数域的原四二次头rank2；同两原线det零完整兼容gcd只余λ单位，开图同一T,z使原mean_R/W六次式的60维真实乘法矩阵可逆，全部嵌入排空。故全原Phi解集四个头非零图完整覆盖，第一头零仍整曲线；继续原F6/NV及个别N/P。新6cf只以真矩ψD=3B3²−2A2³整QQ因子检验全部原曲线纤维，并核原57阶QQ核的真实重数；未排纤维不用于删点。
+## R271：全正权出生一尖锐 2/3 后的完整源（8542，2026-11-28）
 
-此前Haar/稀疏链全部已证交织接口保本次完整快照及H：固定G的proper U交织、全H稠密ℒ_e0、所有非零Ky像T循环、Ky像与RanJ零交、同源Abel平方费/log发散均已付。它们不付Cy⊥非零、G保N、W源费或N=M；这些真实接口继续，不重做已闭全族。
+[尖锐定理](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)：全部N≥4独立正权及无限正ell²行，真实Γ1Γ2⁻¹Γ1<2Γ0/3；有限倒数权对偶给末边，极限逼近2/3。次数10全支持整数证明已返，首过严断言失败保回执。高出生/内部高度/五位S2和同W源费仍开；新的完整joint primitive源须保整个上层投影、零模及两交叉项，浮点不作严界，更不推出N=M。
 
-## W 整个原 NV 的纯T5理想替换（8542，2026-11-28）
-
-[完整原恒等与实际返回](results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md)：da64真6.202216625秒/102740KiB/0，未约化C5+Phi·f·C4=mPhiQMell²Vlow全乘回，故(C4,Vlow)=(C4,C5)；T5头−4uQP02ell²(1−Q)已付。三新cofactorλ14/12/11的头仍未付。新1be只由已付原q5公式减(T+γ4)q4及一次μ3q3得到NV2≤T²，先完整恒等再因式分解真头，头零整面保留；不重跑旧N4/余子式门。
-
-## h=k 余Delta非零的四个完整同点原式（8542，2026-11-28）
-
-[新原四式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)：6b21真3.239153137秒/57596KiB/0，整Delta0闭后同P1/NV恢复f=Fnum/Delta、z=Tnum/(bcDelta)，四原均值/N1核心度49/12/5、48/12/6、54/13/6、51/13/6且完整QQ不可约。W的Q头只依λ，但未付为单位；所有λ/权头零保留。新4500直接读两个约66KB精确系数参数片段，先原Q头全分解，再(R,W)/(R,N1)两固定11阶QQ结式；多变量gcd1不作空性，个别N/P仍保。
-
-## R271 全正权出生一首末边的尖锐2/3（8542，2026-11-28）
-
-[完整尖锐定理](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)：全部N≥4独立正物理权及无限正ell²行的真实完整逆满足Γ1Γ2⁻¹Γ1<2Γ0/3；有限倒数权对偶给同常数末边，一强L弱的完整对称2×2逆比趋2/3，统一常数不可降低。次数10支持穷尽/4–6支持完整主子式/7位坏单项的同支持对分组已准确支付，新BigInt V8 9167ms全返，首次过严严格负断言失败保回执。高出生、内部高度、五位S2、同W源费和N=M仍开，继续完整joint primitive源。
-
-## W 原NV直接二次与整个H411首项面（8542，2026-11-28）
-
-[完整二次身份](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)：1be真2.275800986秒/71384KiB/0，q5=(T+γ4)q4+μ3q3+NV2，保持原理想，三系数编码从368018降84724B。真二次头=已付因子×H411，H411度9/11/4、411项未付，整个零面保留。新47f只取原r2/NV2完整同S一次组合及三Bi权常数cofactor；只有实际头剥全付才作唯一恢复，不预付几何主元。
-
-## Phi 真矩像六次的精确三重数，整纤维保留（8542，2026-11-28）
-
-[新QQ局部结果](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)：6cf实际2.476578636秒/94648KiB/0，ψ=3B3²−2A2³真QQ不可约六次，原57阶矩阵正规QQ342阶秩324，18独立QQ核全乘回付ψ³，完整模重数3给精确上界。但原整纤维156维矩阵模秩138未闭，不从必要覆盖删除18度，严格界仍146。继续真正QQ rho gcd及原D单位所允许的T4完整原值；不把ψ0本身当作D0。
-
-## Phi 首头P6不可约与整λ头H19/11（8542，2026-11-28）
-
-[完整真实因子返回](results/R150-appendix-unit211-Phi-zero-first-head-D-core-irreducibility-and-retained-leading-weight-curve.md)：6ca真0.175493409秒/43116KiB/0，P6完整QQ不可约；λ6头只剥u(u−1)²Q(1−Q)(Qell)^6后为137项不可约H19/11，整H0与第一二次头零曲线都保留。新a215首发原F6按同MT逐次取到T6的真实三系数，再以原N1/一条真实乘法歧义/F6的新三行返D，未重放旧D三行cofactor；120秒/1GiB。
+此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。

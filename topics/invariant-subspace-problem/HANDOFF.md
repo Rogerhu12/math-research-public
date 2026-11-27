@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 587a3a548f3fbdbd9db36a561a51e3b463a40fb1（2026-11-27 17:04:12 UTC，Actions run46038782819实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46038782819-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 17:04:08 UTC/4998550de4ad584cbd534a8d00d940968484bd43，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 0aee0b95d77aca3c2cbb42627bcbb8df0a545d62（2026-11-27 17:12:43 UTC，Actions run46039962252实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46039962252-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 17:12:42 UTC/8125dd8e5a40c84921b300050a2d4af78d91d3ff，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `0089b00e4e587b0716a2e94de35d06fe7bf901eb`（2026-11-27 17:03:44 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `c8b46f294324098fb72bf7e139fd62cfdf1b0e1a`（2026-11-27 17:12:18 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-first-D-core-factor-leading-curve-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-W-affine-S-and-F-weight-six-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -27,7 +27,7 @@
 - **整个原S0/Lt0已闭。** 615次QQ覆盖全退化面；9d0c7789真163.601秒/exit0。完整源/回执/旧失败保总定理及完整H，冻结不重放。
 - 一般LS只续未付T/权面；旧依赖D≠0的权排除不传h=k(D0)。原P1双零整支已闭，只付(Pf,Pt)非同时零。Delta0合法付Phi；四原值式准确等价首一二次/三一次，六参数式仅完整投影四值等式，四Gram子式仅必要。源70017734/ea0ffae2的完整来源及实际回执见results。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
-- **W整D27/J19及lambda3/2闭，全W付3−2lambda。** q3/F2六列与低D完整11原行已返；原首一F全消去保全Bi零，点态等价同S的38二次式。da64完整未约化恒等使(C4,Vlow)=(C4,C5)，T5头已付；1be真2.276秒/71384KiB/0，q5减(T+γ4)q4及μ3q3为原NV2≤T²，84724B，头H411度9/11/4未付，整个零面保留。新47f合r2/NV2成同S一次并检验三Bi权Cramer，不预付任一头。所有既有cofactor只必要、λ头未付；个别N/P仍保，不倒D范数。旧门/失败/精确来源保完整H和results。
+- **W整D27/J19及lambda3/2闭，全W付3−2lambda。** q3/F2六列及低D十一行全返；首一F消去点态等价同S38二次式。da64付(C4,Vlow)=(C4,C5)及首一T5，1be原NV2≤T²头H411度9/11/4未付。47f真2.315秒/71760KiB/0：b2r2−a2NV2=L1S+L0，L1度18/22/8未付；原E1/EBe/N1的Bi权Cramer给det=已付单位×G36(e,k)，G36度6/8且[e6]=32k6。仅G36非零图F唯一恢复，整G36/H411/L1零面保原式。继续整G36原六维环境；个别N/P及所有λ头保，旧门冻。
 - **整个Q=1−u已原排空，全局付u+Q−1。** 三native QQ核给原R重数244/3/3，两模分裂根各3；旧g222与1382余式的253度因子及全部三原整域合闭。源/回执/QQ乘回保总定理及归档，66和旧大门冻结。
 - **旧D≠0值图等权b=c全闭，仅该图付ell−u；W另付k+2/Q−2。** 824次覆盖及末m半QQ单位保总定理/归档，旧600秒门不重放。
 
