@@ -49,6 +49,8 @@
 
 [R1122](results/R1122-certified-original-six-complete-CM-disks.md)：QC run45996561850/job140497301328，117.953秒，六盘76/77/100/108/196/220全rank2、gcd=t且B unit，完整4513盘均只余原CM点；完整Cartier/Tq原矩阵桥通过，receipt SHA4ae1153b…已核。固定47尚余0/141，正在给这四个未完成α改走短Cartier；不重算六盘。
 
+[十二形式的范围](notes/2026-11-27-short-Cartier-twelve-form-span-boundary.md)：六个不同generic j纤维的R2/R4留数分别隔离每对ZA/ZB，故已成十二形式的常系数组合（即使加全纯项）不能补0/141四形式；不把all_eight表的其它列改称新除子值。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付W_C上B的准确三对角/简单谱与D³的单Jordan块；e=K4=0 iff DF∈(D³)²(U²k[V]≤k−3)，原首余核杀常数，真实三平移保全部乘子。只付同源短旗标接口，未排该包含、未占R1117；不能把全空间谱代短minor。 §6原Green两端列的所有分量单位，准确(B+v)y⁻=−4v e_−N、(B−v)y⁺=4v e_N；保0×pole端残项，原J1完整强迫不能换成端点。
