@@ -1,0 +1,150 @@
+{
+  "schema": "isp-general-delta-nonzero-five-parameter-exact-integer-identities-v1",
+  "variables": [
+    "u",
+    "Q",
+    "ell",
+    "lambda",
+    "T"
+  ],
+  "arithmetic": "exact BigInt integer sparse polynomials",
+  "checks": [
+    "F6_T_leading_paid_identity",
+    "center_v0_rational_identity",
+    "center_zeta_rational_identity",
+    "v1_equals_v0_minus_zeta",
+    "exact_original_two_line_determinant_numerator",
+    "complete_original_P1_reconstruction",
+    "complete_second_original_line_reconstruction"
+  ],
+  "profiles": {
+    "F6": {
+      "degrees_u_Q_ell_lambda_T": [
+        2,
+        1,
+        6,
+        6,
+        6
+      ],
+      "totalDegree": 13,
+      "terms": 100
+    },
+    "D": {
+      "degrees_u_Q_ell_lambda_T": [
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      "totalDegree": 3,
+      "terms": 4
+    },
+    "K": {
+      "degrees_u_Q_ell_lambda_T": [
+        0,
+        0,
+        2,
+        3,
+        3
+      ],
+      "totalDegree": 5,
+      "terms": 8
+    },
+    "Z": {
+      "degrees_u_Q_ell_lambda_T": [
+        1,
+        0,
+        1,
+        3,
+        3
+      ],
+      "totalDegree": 5,
+      "terms": 11
+    },
+    "S": {
+      "degrees_u_Q_ell_lambda_T": [
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      "totalDegree": 3,
+      "terms": 8
+    },
+    "E": {
+      "degrees_u_Q_ell_lambda_T": [
+        5,
+        2,
+        4,
+        6,
+        5
+      ],
+      "totalDegree": 12,
+      "terms": 484
+    },
+    "NF4": {
+      "degrees_u_Q_ell_lambda_T": [
+        3,
+        1,
+        3,
+        6,
+        5
+      ],
+      "totalDegree": 10,
+      "terms": 173
+    },
+    "NC4": {
+      "degrees_u_Q_ell_lambda_T": [
+        4,
+        2,
+        4,
+        7,
+        6
+      ],
+      "totalDegree": 12,
+      "terms": 396
+    },
+    "Fnum": {
+      "degrees_u_Q_ell_lambda_T": [
+        6,
+        3,
+        5,
+        7,
+        6
+      ],
+      "totalDegree": 14,
+      "terms": 971
+    },
+    "Tnum": {
+      "degrees_u_Q_ell_lambda_T": [
+        6,
+        4,
+        6,
+        7,
+        6
+      ],
+      "totalDegree": 16,
+      "terms": 1109
+    }
+  },
+  "newLeadingInverted": false,
+  "PhiInverted": false,
+  "physicalChart": "original two-line determinant nonzero, original D and ell-u nonzero",
+  "ordinaryISPClaim": false,
+  "elapsedMilliseconds": 454,
+  "sourceSHA256": "a9b3a7b83785d2193b0c6f8e3d6e92fdbe6face52e3c2a5535923fc8d511337c",
+  "polynomialSHA256": {
+    "F6": "6814bb421e73fc4b4202210666fc7eeb13dec67a9c62442466e4dec3ddf315e7",
+    "D": "9567b9e448441f8b85bb6a54df08a879446fecaf4e5b29664e642c1ee49a4e44",
+    "K": "c75752cdfa80990ae5105e0a507b3d3abf854eb14a088b59d624c49bf664d84e",
+    "Z": "cc5938a9bbbc9f70eaa3201454d31587f215a8059ff8dde6f38ff22864fd1799",
+    "S": "d6b0ea1d28c6e7df8db3b58c4f2d0f253f9adbc32edeff66d0b0bd179912c0c5",
+    "E": "f29ac97266beb21b51c8666f1589a35a59df55702ff2caa25b11ca8e46f38f1a",
+    "NF4": "4ad8bde5bddc4af510133f22088d589954b0658f0ba5177bf77bd85db0785f91",
+    "NC4": "edf9b931aba9c4033238f45fab6ef84a11fec9a160908cf0f14c058a1341b8c3",
+    "Fnum": "f1bf24b013d8999573900d35c32c342d21256bf51319a7cf20853299d3fe9dfe",
+    "Tnum": "06f787ee190126677410dad2966e997f08085bcafb07273d23d94d4c1b22264e"
+  }
+}
