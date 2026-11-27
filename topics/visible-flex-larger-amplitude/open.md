@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 当前固定g Fejer原全输入主线：M160/J923/N2048/32stage；13做N4096、14做M320、15做J1845、16原seed、17较宽seed、18完整meridian值复用/批角。它们是独立真实来源/模型/场，不能凭相同坐标hash移植结论。12已经官方cancelled、只两input0，无完整科学自然返回；潜在末场/history仍未知。
 
-17在真实21:01:36 current-geometry事件首接受恢复方向，924732、Phi4954.694898882501、Gram0.6374164670510035、正几何违反2.04762068147831>0；report/完整final/packet仍未返。16第三880d只统计返、几何/决定未返、accepted0；各实际时刻与全source见[16数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)、[17事实](computations/run17-first-accepted-restoration-observation.json)。未公开分项不猜，进度不冒费输入。
+17在真实21:01:36 current-geometry事件首接受恢复方向，924732、Phi4954.694898882501、Gram0.6374164670510035、正几何违反2.04762068147831>0；report/完整final/packet仍未返。16第四已登记2fa731开始、accepted0；第三880d几何/决定未捕获；各实际时刻与全source见[16数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)、[17事实](computations/run17-first-accepted-restoration-observation.json)。未公开分项不猜，进度不冒费输入。
 
 18前三科学均实际exit1，原三完整诊断均0；依次为frame完整wrapper身份遗漏、static function错误解包、geometry旧helper来源常量漏传。第三是根上层传播遗漏。现[完整producer修复/续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)及[完整交付](computations/fixed-fejer-meridian-producer-binding-repair-complete-delivery.json)保新10fa/8027/f600、准确input d892、geometry5730与全部137角色/18运行源。helper eaea/normal76185/packet c750/binder3ee原保；仅来源常量及必要pins，不改guard或数学。完整157/7 argv、458/445formal、48live和全部预算保，producer-bound新output完整科学已排原runner复用两真返input；pure全对象后接。新实际source commit/完整场/结果仍未知。
 

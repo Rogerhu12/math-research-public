@@ -168,3 +168,8 @@
 18实际e3d2ebacae1ddce7990d72d778c96e851810ffe8/f600/PID7515，在21:31:20.498871初统计返回Phi4954.71485872585、有限Gram算子.6374168330977955，独立model9ec211ddc5c14e0d4f0e47045ed84abc3ec4bc97fcf0e893959d6ba0cf8609bd，current7e06，accepted0/reportfalse。21:34:20公开观察初完整几何尚未返回；25项摘要None选择错误不是新增科学退出。全部原观察和身份续[完整说明](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)，不从同17数值推完整同场/旧fee可用。
 
 21:33临时工具运行时重置，全部内存store丢失；正式已刊8c1251及此前完整源/参数/实际记录安全。中断的R722待推并未落地（完整H/log/open和note身份核至9fbde3），本次从已保护完整blobs恢复发布，不重做数学。新环境唯一pwd只读探测仍No usable execution environment；根未真pull，恢复纯文本发布器与双README元数据，控制器真实pull记录原保。
+
+
+## 2026-11-27：16第四个已登记试探点真实开始
+
+21:30:56.748636真实trial-start2fa731，21:32:39观察；source a8b0749a/ed810/PID3868和model8cc保持。current仍初点7e06、Phi5551.477153263786/Gram.6480138218929927/g11.17545381570094、accepted0。新试探统计/几何/决定尚缺，第三880d几何决定未捕获，不猜值或原因，也不再把第三写成仍pending。完整原索引/normal字段/None错误保[16持续数学记录](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)。第四是已登记点数，不补未知算法历史；report未返，研究继续。
