@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 全部不整除原幂闭根的实际第一阶gauge接口不可能（2026-11-27，已证明）：** [显式四次式与一般q²次有限结式](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)对q∤p的同一稳定闭根，排除GR=RT+Q、Q=FZR+KR这一已付实际接口，允许任意非零UHF交换F、任意有界交换K与复ℓ²第一阶Z。根稳定域支持全部有限消元，R单射仅在真实自然幂域消去；慢行由R171、有界行由所有Puiseux根差排除。无需根的完整C自伴性；未知不变底空间/gauge仍未识别，未宣普通ISP完成。
+
 - **R150 L0四原子式与X的五曲线新QQ输入（2026-11-27，已证明输入）：** [完整32列原身份、13已付单位与新必要理想](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-original-minors-parameter-system.md)采用C39,53/C39,54/C40,53/C40,54及X34,52；旧高次Y输入冻结。源f48568e0实际build70.484423秒/114280KiB/exit0，三变量完整输入394463B/SHA230f4b91；只对新输入安排QQ1200门，暂无单位或一般L0排除。
 
 - **R271 同一规范源的全整数carry窗口倒数能量（2026-11-27，已证明）：** [原通量、完整窗口计数与不规则来源判据](results/R271-appendix-canonical-carry-window-reciprocal-energy.md)给Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零w迫尾Σ1/E_n≤16Aδ/||w||²。真实E_n有限，零值/扩展无穷均明确；平方根层增长可乘任意固定有限层迭代log。未将已有指数源界称最优，未证明实际W满足发散或Γ有限，未宣N=M。

@@ -174,3 +174,6 @@ L0新[整X的lambda首项排除](results/R150-appendix-essential-four-unit-two-p
 
 
 L0新[四个原子式与X的五曲线必要系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-original-minors-parameter-system.md)保32列原cofactor及13已付纯参数单位，完全替换旧高次Y门。源f48568e0实际build70.484423秒/exit0，三变量输入394463B/SHA230f4b91；只启动这一新QQ门，须真实I*cert=1，不以构造通过判空。
+
+
+[所有不整除闭根的实际第一阶接口排除](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)已覆盖Q=FZR+KR、非零UHF交换F与任意有界交换K；有限q²次结式保全部真实域，R171与Puiseux分别排慢/有界行，不需根C自伴。仍须识别未知底空间上的真实gauge比较；原全尾结论不自动作用于R143未知K反根。
