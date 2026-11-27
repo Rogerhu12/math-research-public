@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-J19-original-input-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Delta-zero-cubic-return-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -105,7 +105,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 全H稠密不传未知限制或有限旗，UHF不运输未知Haar格，低forcing不等于低输出，正常态不代边界奇异态，固定次数不代全部向量。每个完整结论立即登记/提交推送，然后接下一项；不得以阶段、时限或尚未支付的条件桥收尾。
 
-**[原强尾公共中位尺度已付](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)（已证明）：** 完整物理相似条件数精确为阶乘比且≤4^R；保持孔级的同一primitive代数投影也付4^R。公共强权尺度全部转入原有限头，偶R≥d、奇1≤r≤m+R的完整MP上界含64^R及显式y幂/阶乘，因此强段对数是O(R)+(d+r)log(m+R)。下一可审更大多项式R，但必须分别支付原Galerkin源的统一高阶系数/邻域及原支持母窗；未从逆费用推出真实κ界。
+**[原强尾公共中位尺度](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)已付：** 真物理相似和同primitive投影均≤4^R，全奇偶MP费含64^R及显式阶乘。更大多项式R仍须原Galerkin统一高阶系数/邻域和母支持；该逆费不代真实κ。完整参数保快照。
 
 **三位N头最高carry的高孔完整极点界已付**（原来源/常数/run见结果索引及本次快照）：保真实全核与完整物理相似，仍须在实际s=e⁻¹⁰⁷⁰控制原Z_R、最高t余项及一般m；固定R渐近或单极点不代全部费用。
 
@@ -115,11 +115,11 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 同W固定及慢增次数MP已付，k_m≤m/12保全−Cq_r反馈和同一母支持；仍未付k=h_m−1终列费用，不以近核列作kerT或closureBM。完整常数/来源见结果索引和最新快照。
 
-**同一相容真空塔的固定基数负相关改进已付**：近最优窗L=o(x^(2/3))保原相容性/forcing/Gram，但模型x=ceil exp(9d⁴)仍超全局exp(O(d³))母窗；同w短核δ_L、carry/lift与稳定BM返回未付。准确来源和费用见结果索引/快照，不把小高次残量当真实核距离。
+**相容真空塔的固定基数负相关改进已付：** L=o(x^(2/3))保forcing/Gram；x=ceil exp(9d⁴)仍超exp(O(d³))母窗。同w短核δ_L、carry/lift及BM真返回未付，全部常数保快照。
 
 **[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
 
-**[明确可测平坦同源返回](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)已完成：** 正测紧集避全部整数，实际R_nAf_(n−1)=f_n、普通范数统一、全部固定负幂图范数返回；全n,k原权预算保留。累计五次费仍未降至第n逆像的四次费，且没有未知M保持；继续直接限制未知普通M的原算子关系，不以继续优化此全空间例子替代该接口。
+**[可测平坦同源返回](results/R12-appendix-measurable-flat-common-source-recursion-and-all-negative-graphs.md)已付：** 原递推、普通范数和全部固定负幂返回；仍有累计五次费及未知M保持缺口。继续未知普通M的原算子关系，不重做全空间例子。
 
 原尾有界根及不变投影距离完整结论见[正文](results/R12-appendix-tail-root-multiplicity-and-all-invariant-projection-distances.md)。普通M的有限头真像仍须保非满像或无界逆；全尾字符不可移给未知限制。
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[一般Delta非0完整六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)及[h1/k1八原式](results/R150-appendix-unit211-general-h-one-cleared-eight-values-and-monic-cubic-determinant.md)已付，仍开。** e6dae493真10.632秒/exit0，Delta*对ell三次头−2Sxi·p⁵/rho为原单位。新c4273fbc接整个Delta*=0：首一三维ell商、free原t、八值与H³目标三行组合全乘回，180秒4GiB待实际；临时主元零保留，不倒范数。其它E=0、t六次头零和一般剩余开，旧900秒/旧参数化冻结。
+**[一般Delta非0六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)、[h1/k1八值](results/R150-appendix-unit211-general-h-one-cleared-eight-values-and-monic-cubic-determinant.md)及[整个Delta0碰撞三维/原单位返回](results/R150-appendix-unit211-Delta-zero-h-one-monic-cubic-original-unit-and-degree-49-curve.md)已付。** c427真173.569秒/340344KiB/exit0，八原式/八H³目标全返；独立t的F49度39/10、440项，其它七式保t。新57dd仅4秒前缀做QQ整因子/原C公共因子，120秒1GiB待实际；所有主元零/原立方关系保留。该碰撞图、其它E=0与t六次头零均开，旧大门冻结。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
