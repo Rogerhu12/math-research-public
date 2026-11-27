@@ -1,0 +1,934 @@
+{
+  "schema": "isp-complete-equal-value-equal-weight-Delta-nonzero-QQ-exclusion-v1",
+  "run_id": 46005327745,
+  "job_id": 140526939140,
+  "execution": {
+    "elapsed_seconds": 1.055201296000007,
+    "max_child_rss_kib": 45488,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e7cda931ef3078d13f0ebe0f400566a8e0377fa5",
+        "before": "b2f42ff88dbd9c40ba0308c95aa84833af7000ae",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:14:11.620600+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46005327745",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "b2f42ff88dbd9c40ba0308c95aa84833af7000ae",
+    "source_exit_code": 0,
+    "source_git_blob": "b84e0f539ae6f4f0c51ffe6673911c7cadf1809f",
+    "source_sha256": "f5e516e589210c84b0119cf80c249f5e7cc2500d34cb8db34c8dbc3a1f7e319f",
+    "stdout_bytes": 24186,
+    "stdout_sha256": "3c51e5b2e1f391462677533504c91adc963a1b381ef19304efbb61a879fc3e0c",
+    "stop_reason": null
+  },
+  "originalScalarRows": [
+    {
+      "name": "E1",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          84,
+          6
+        ],
+        "totalDegree": 89,
+        "terms": 551,
+        "bytes": 23483,
+        "sha256": "5bb90270a16323593d6c03844f1f72589b2557a03593c43bde57536db2a404d2"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          42,
+          6
+        ],
+        "totalDegree": 47,
+        "terms": 285,
+        "bytes": 8219,
+        "sha256": "49b51788bfcdc7d20935069cf10a5fc7e274df72b849a461f1eaae676a1b65cd"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "A2",
+          "count": 14
+        },
+        {
+          "name": "lambda",
+          "count": 4
+        },
+        {
+          "name": "original_P02",
+          "count": 2
+        },
+        {
+          "name": "previous_whole_S_zero_excluded",
+          "count": 2
+        }
+      ],
+      "fullScaleProductVerified": true,
+      "allOriginalValuePairsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_invariant_weight_complete_original_scalar_row",
+      "seconds": 0.5796184860000011
+    },
+    {
+      "name": "EBe",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          78,
+          6
+        ],
+        "totalDegree": 83,
+        "terms": 509,
+        "bytes": 20665,
+        "sha256": "902aff7c2817e83fd6677fa5b80340dc199b25da2be4e1c4f24e98a17a90715c"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          42,
+          6
+        ],
+        "totalDegree": 47,
+        "terms": 285,
+        "bytes": 8038,
+        "sha256": "00abd69b2edd7d92e7597c312c44f51e66787059325057f3bfa02ebbd42c2ac4"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "A2",
+          "count": 11
+        },
+        {
+          "name": "lambda",
+          "count": 4
+        },
+        {
+          "name": "original_P02",
+          "count": 2
+        },
+        {
+          "name": "previous_whole_S_zero_excluded",
+          "count": 2
+        }
+      ],
+      "fullScaleProductVerified": true,
+      "allOriginalValuePairsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_invariant_weight_complete_original_scalar_row",
+      "seconds": 0.584903256000004
+    },
+    {
+      "name": "EBo",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          78,
+          5
+        ],
+        "totalDegree": 82,
+        "terms": 429,
+        "bytes": 17178,
+        "sha256": "9a52d54157eeaccc121e07abdd0d0397bf861eb7dacc749a5e1dda6ae9b38f30"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          34,
+          5
+        ],
+        "totalDegree": 38,
+        "terms": 201,
+        "bytes": 5052,
+        "sha256": "084323e3bd2c51c78dc4778ce4310f88223c701c47e01a40bce0625c551c3b23"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "A2",
+          "count": 12
+        },
+        {
+          "name": "lambda",
+          "count": 6
+        },
+        {
+          "name": "original_P02",
+          "count": 3
+        },
+        {
+          "name": "previous_whole_S_zero_excluded",
+          "count": 2
+        }
+      ],
+      "fullScaleProductVerified": true,
+      "allOriginalValuePairsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_invariant_weight_complete_original_scalar_row",
+      "seconds": 0.5897670700000077
+    },
+    {
+      "name": "N1",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          122,
+          8
+        ],
+        "totalDegree": 129,
+        "terms": 1013,
+        "bytes": 56994,
+        "sha256": "96f79e3badcff59273212aad0ea8027e1aaad1e2d29b947ef97ac9b54308a313"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          40,
+          6
+        ],
+        "totalDegree": 45,
+        "terms": 273,
+        "bytes": 7676,
+        "sha256": "3b327a50a8018d0735604079916bc1a231347eda82a465fc4353aeda1a9306e5"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "A2",
+          "count": 21
+        },
+        {
+          "name": "lambda",
+          "count": 8
+        },
+        {
+          "name": "original_P02",
+          "count": 4
+        },
+        {
+          "name": "chart_Delta_nonzero",
+          "count": 1
+        },
+        {
+          "name": "previous_whole_S_zero_excluded",
+          "count": 2
+        }
+      ],
+      "fullScaleProductVerified": true,
+      "allOriginalValuePairsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_invariant_weight_complete_original_scalar_row",
+      "seconds": 0.6072501179999961
+    },
+    {
+      "name": "NBe",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          117,
+          8
+        ],
+        "totalDegree": 125,
+        "terms": 988,
+        "bytes": 54402,
+        "sha256": "3b90bad702d5c99e5ec40e587ff9eb02614e486cd1799269a32a47ac193d2f26"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          63,
+          8
+        ],
+        "totalDegree": 71,
+        "terms": 556,
+        "bytes": 19906,
+        "sha256": "7b35c8b002a113adcb3309a097fb17b911ca27e2997aa4b9109b2e58c7de82e8"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "A2",
+          "count": 17
+        },
+        {
+          "name": "lambda",
+          "count": 6
+        },
+        {
+          "name": "original_P02",
+          "count": 3
+        },
+        {
+          "name": "previous_whole_S_zero_excluded",
+          "count": 2
+        }
+      ],
+      "fullScaleProductVerified": true,
+      "allOriginalValuePairsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_invariant_weight_complete_original_scalar_row",
+      "seconds": 0.6225458739999965
+    },
+    {
+      "name": "NBo",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          117,
+          7
+        ],
+        "totalDegree": 123,
+        "terms": 874,
+        "bytes": 47894,
+        "sha256": "748f2232bf822844426d57b69652a41772b3b8ce178449c4d073bbee36602042"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          63,
+          7
+        ],
+        "totalDegree": 69,
+        "terms": 490,
+        "bytes": 18288,
+        "sha256": "f71fdce7b861ed150f52cbbe34c8f359a21c8967c9739350612a30bec1e68b8a"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "A2",
+          "count": 17
+        },
+        {
+          "name": "lambda",
+          "count": 6
+        },
+        {
+          "name": "original_P02",
+          "count": 3
+        },
+        {
+          "name": "previous_whole_S_zero_excluded",
+          "count": 2
+        }
+      ],
+      "fullScaleProductVerified": true,
+      "allOriginalValuePairsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_invariant_weight_complete_original_scalar_row",
+      "seconds": 0.6363063710000034
+    },
+    {
+      "name": "PBe",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          117,
+          8
+        ],
+        "totalDegree": 125,
+        "terms": 988,
+        "bytes": 54987,
+        "sha256": "2559e8c6f93c54b7a775055b10358f17462728c6e4045faec148d66ce1c49dd4"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          67,
+          8
+        ],
+        "totalDegree": 75,
+        "terms": 592,
+        "bytes": 22051,
+        "sha256": "ea1b8c9c664932bb29012b3a339be56827ea09c6645164d1a77d668b4acf7769"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "A2",
+          "count": 15
+        },
+        {
+          "name": "lambda",
+          "count": 6
+        },
+        {
+          "name": "original_P02",
+          "count": 3
+        },
+        {
+          "name": "previous_whole_S_zero_excluded",
+          "count": 2
+        }
+      ],
+      "fullScaleProductVerified": true,
+      "allOriginalValuePairsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_invariant_weight_complete_original_scalar_row",
+      "seconds": 0.6516664140000046
+    },
+    {
+      "name": "PBo",
+      "rawNumerator": {
+        "degrees_lambda_Q": [
+          117,
+          9
+        ],
+        "totalDegree": 124,
+        "terms": 1094,
+        "bytes": 61070,
+        "sha256": "f68e78edad1d5fd1ab1670a38a1198db8ea5260a3e0d44614cc1fb562868f4b4"
+      },
+      "primitive": {
+        "degrees_lambda_Q": [
+          63,
+          9
+        ],
+        "totalDegree": 70,
+        "terms": 614,
+        "bytes": 22969,
+        "sha256": "016cdbd974aaa0b96e5e483fdcb639f957bdd3bc6b508477e4d27d0b3b31d300"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "A2",
+          "count": 17
+        },
+        {
+          "name": "lambda",
+          "count": 6
+        },
+        {
+          "name": "original_P02",
+          "count": 3
+        },
+        {
+          "name": "previous_whole_S_zero_excluded",
+          "count": 2
+        }
+      ],
+      "fullScaleProductVerified": true,
+      "allOriginalValuePairsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_invariant_weight_complete_original_scalar_row",
+      "seconds": 0.6687577410000074
+    }
+  ],
+  "steps": [
+    {
+      "case": "lambda_factor_0",
+      "lambdaDegree": 2,
+      "newOriginalRow": "EBo",
+      "currentQDegree": 5,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.6846992110000087
+    },
+    {
+      "case": "lambda_factor_0",
+      "lambdaDegree": 2,
+      "newOriginalRow": "N1",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.6916329210000072
+    },
+    {
+      "case": "lambda_factor_0",
+      "lambdaDegree": 2,
+      "newOriginalRow": "E1",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.6927110390000024
+    },
+    {
+      "case": "lambda_factor_0",
+      "lambdaDegree": 2,
+      "newOriginalRow": "EBe",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.6937620759999987
+    },
+    {
+      "case": "lambda_factor_0",
+      "lambdaDegree": 2,
+      "newOriginalRow": "NBo",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.694965773000007
+    },
+    {
+      "case": "lambda_factor_0",
+      "lambdaDegree": 2,
+      "newOriginalRow": "NBe",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.696252947000005
+    },
+    {
+      "case": "lambda_factor_0",
+      "lambdaDegree": 2,
+      "newOriginalRow": "PBo",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.6975169850000071
+    },
+    {
+      "case": "lambda_factor_0",
+      "lambdaDegree": 2,
+      "newOriginalRow": "PBe",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.6987895270000024
+    },
+    {
+      "case": "lambda_factor_1",
+      "lambdaDegree": 10,
+      "newOriginalRow": "EBo",
+      "currentQDegree": 5,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7103527670000034
+    },
+    {
+      "case": "lambda_factor_1",
+      "lambdaDegree": 10,
+      "newOriginalRow": "N1",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7601512789999987
+    },
+    {
+      "case": "lambda_factor_1",
+      "lambdaDegree": 10,
+      "newOriginalRow": "E1",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7637455459999956
+    },
+    {
+      "case": "lambda_factor_1",
+      "lambdaDegree": 10,
+      "newOriginalRow": "EBe",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7670109670000045
+    },
+    {
+      "case": "lambda_factor_1",
+      "lambdaDegree": 10,
+      "newOriginalRow": "NBo",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7704290580000048
+    },
+    {
+      "case": "lambda_factor_1",
+      "lambdaDegree": 10,
+      "newOriginalRow": "NBe",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7739159730000011
+    },
+    {
+      "case": "lambda_factor_1",
+      "lambdaDegree": 10,
+      "newOriginalRow": "PBo",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7774823580000003
+    },
+    {
+      "case": "lambda_factor_1",
+      "lambdaDegree": 10,
+      "newOriginalRow": "PBe",
+      "currentQDegree": 1,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7816554590000067
+    },
+    {
+      "case": "lambda_factor_2",
+      "lambdaDegree": 2,
+      "newOriginalRow": "EBo",
+      "currentQDegree": 3,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7925772699999953
+    },
+    {
+      "case": "lambda_factor_2",
+      "lambdaDegree": 2,
+      "newOriginalRow": "N1",
+      "currentQDegree": 0,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.7980167230000035
+    },
+    {
+      "case": "lambda_factor_3",
+      "lambdaDegree": 20,
+      "newOriginalRow": "EBo",
+      "currentQDegree": 5,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.8091707150000076
+    },
+    {
+      "case": "lambda_factor_3",
+      "lambdaDegree": 20,
+      "newOriginalRow": "N1",
+      "currentQDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.9337112630000064
+    },
+    {
+      "case": "lambda_factor_3",
+      "lambdaDegree": 20,
+      "newOriginalRow": "E1",
+      "currentQDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.9400492329999963
+    },
+    {
+      "case": "lambda_factor_3",
+      "lambdaDegree": 20,
+      "newOriginalRow": "EBe",
+      "currentQDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.9463516490000075
+    },
+    {
+      "case": "lambda_factor_3",
+      "lambdaDegree": 20,
+      "newOriginalRow": "NBo",
+      "currentQDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.9533994709999973
+    },
+    {
+      "case": "lambda_factor_3",
+      "lambdaDegree": 20,
+      "newOriginalRow": "NBe",
+      "currentQDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.9606752070000084
+    },
+    {
+      "case": "lambda_factor_3",
+      "lambdaDegree": 20,
+      "newOriginalRow": "PBo",
+      "currentQDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.9682093730000076
+    },
+    {
+      "case": "lambda_factor_3",
+      "lambdaDegree": 20,
+      "newOriginalRow": "PBe",
+      "currentQDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "allLambdaRootsAndAllQHeadsRetained": true,
+      "claimExcluded": false,
+      "stage": "new_equal_weight_original_whole_factor_QQ_Bezout",
+      "seconds": 0.9755499970000017
+    }
+  ],
+  "result": {
+    "sourceSHA256": "f5e516e589210c84b0119cf80c249f5e7cc2500d34cb8db34c8dbc3a1f7e319f",
+    "cases": [
+      {
+        "case": "lambda_factor_0",
+        "lambdaDegree": 2,
+        "excluded": true,
+        "originalRowsActuallyUsed": [
+          "EBo",
+          "N1",
+          "E1",
+          "EBe",
+          "NBo",
+          "NBe",
+          "PBo",
+          "PBe"
+        ],
+        "originalGcd": {
+          "Qdegree": 1,
+          "bytes": 14,
+          "sha256": "c66b32ca4ec5a46062b597f78ea1cab000beefa76fca7bc3cf32e73ba51bc454",
+          "coefficients_Q_then_lambda": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ]
+        },
+        "retainedQPolynomial": {
+          "Qdegree": 0,
+          "bytes": 7,
+          "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104",
+          "coefficients_Q_then_lambda": [
+            [
+              "1"
+            ]
+          ]
+        },
+        "paidUnitRemoval": [
+          {
+            "originalUnit": "rho_squared",
+            "gcdLoops": 1
+          }
+        ],
+        "wholeOriginalCombinationAndUnitProductActuallyReturned": true,
+        "allLambdaRootsRetained": true,
+        "noScalarNormInvertedWithoutBezout": true,
+        "certificateBytes": 8310,
+        "certificateSHA256": "8268c595da40914fb25689fc3c224437a6420a41af7bf2e30c4db259c922ecb7"
+      },
+      {
+        "case": "lambda_factor_1",
+        "lambdaDegree": 10,
+        "excluded": true,
+        "originalRowsActuallyUsed": [
+          "EBo",
+          "N1",
+          "E1",
+          "EBe",
+          "NBo",
+          "NBe",
+          "PBo",
+          "PBe"
+        ],
+        "originalGcd": {
+          "Qdegree": 1,
+          "bytes": 14,
+          "sha256": "c66b32ca4ec5a46062b597f78ea1cab000beefa76fca7bc3cf32e73ba51bc454",
+          "coefficients_Q_then_lambda": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ]
+        },
+        "retainedQPolynomial": {
+          "Qdegree": 0,
+          "bytes": 7,
+          "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104",
+          "coefficients_Q_then_lambda": [
+            [
+              "1"
+            ]
+          ]
+        },
+        "paidUnitRemoval": [
+          {
+            "originalUnit": "rho_squared",
+            "gcdLoops": 1
+          }
+        ],
+        "wholeOriginalCombinationAndUnitProductActuallyReturned": true,
+        "allLambdaRootsRetained": true,
+        "noScalarNormInvertedWithoutBezout": true,
+        "certificateBytes": 75006,
+        "certificateSHA256": "e29b0e85d8a8030c4903572332319d312d0c391a5fbb9bb7953be1ed81e6538e"
+      },
+      {
+        "case": "lambda_factor_2",
+        "lambdaDegree": 2,
+        "excluded": true,
+        "originalRowsActuallyUsed": [
+          "EBo",
+          "N1"
+        ],
+        "originalGcd": {
+          "Qdegree": 0,
+          "bytes": 7,
+          "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104",
+          "coefficients_Q_then_lambda": [
+            [
+              "1"
+            ]
+          ]
+        },
+        "retainedQPolynomial": {
+          "Qdegree": 0,
+          "bytes": 7,
+          "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104",
+          "coefficients_Q_then_lambda": [
+            [
+              "1"
+            ]
+          ]
+        },
+        "paidUnitRemoval": [],
+        "wholeOriginalCombinationAndUnitProductActuallyReturned": true,
+        "allLambdaRootsRetained": true,
+        "noScalarNormInvertedWithoutBezout": true,
+        "certificateBytes": 2922,
+        "certificateSHA256": "99cc0c7a8755cc7ffedc54a733d4ac8654de0722a6b2e0f6a03aff4ce89ceab6"
+      },
+      {
+        "case": "lambda_factor_3",
+        "lambdaDegree": 20,
+        "excluded": true,
+        "originalRowsActuallyUsed": [
+          "EBo",
+          "N1",
+          "E1",
+          "EBe",
+          "NBo",
+          "NBe",
+          "PBo",
+          "PBe"
+        ],
+        "originalGcd": {
+          "Qdegree": 2,
+          "bytes": 1072,
+          "sha256": "c5c1fe42e2d08a7000a7014eff1a5f4084310583dc36c5c635708c34ff7b0acc",
+          "coefficients_Q_then_lambda": [
+            [
+              "-214238466009/175076150",
+              "5722516786359/700304600",
+              "824873970519/17507615",
+              "-522851656080377/700304600",
+              "60288492833162/17507615",
+              "-2496881279703971/700304600",
+              "-3061320373704289/70030460",
+              "214137039311461393/700304600",
+              "-404735586956061207/350152300",
+              "21577341525645623/7003046",
+              "-546634544075668271/87538075",
+              "867907043358899552/87538075",
+              "-218287772984104842/17507615",
+              "1086966307949806428/87538075",
+              "-849842511256536936/87538075",
+              "12503087413524288/2135075",
+              "-231717132373384224/87538075",
+              "74550535612030656/87538075",
+              "-15294413958960384/87538075",
+              "1474895520546048/87538075"
+            ],
+            [
+              "-375662532/427015",
+              "13348871297/854030",
+              "-51173870404/427015",
+              "189212787597/427015",
+              "-4220774578/427015",
+              "-1624773890825/170806",
+              "5267912412271/85403",
+              "-103890278039839/427015",
+              "299707942789698/427015",
+              "-671966581907452/427015",
+              "1201991503112112/427015",
+              "-1734165697262416/427015",
+              "2021378950222384/427015",
+              "-1893400451660128/427015",
+              "1408154674810816/427015",
+              "-19883215593216/10415",
+              "71218275267840/85403",
+              "-111247629556224/427015",
+              "22239313569792/427015",
+              "-419717081088/85403"
+            ],
+            [
+              "1"
+            ]
+          ]
+        },
+        "retainedQPolynomial": {
+          "Qdegree": 0,
+          "bytes": 7,
+          "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104",
+          "coefficients_Q_then_lambda": [
+            [
+              "1"
+            ]
+          ]
+        },
+        "paidUnitRemoval": [
+          {
+            "originalUnit": "chart_Delta_nonzero",
+            "gcdLoops": 2
+          }
+        ],
+        "wholeOriginalCombinationAndUnitProductActuallyReturned": true,
+        "allLambdaRootsRetained": true,
+        "noScalarNormInvertedWithoutBezout": true,
+        "certificateBytes": 144831,
+        "certificateSHA256": "47454eb994ecee0773cbae1fd85fd0c4d5b1a72f5379bc9b483160a9188e09ff"
+      }
+    ],
+    "allConstantSplits": [],
+    "actualScalarInverseCount": 141,
+    "actualQDivisionCount": 94,
+    "entireOriginalEqualWeightDeltaNonzeroExcluded": true,
+    "actualDomain": "h=k!=1,b=c,Delta!=0",
+    "DeltaZeroStillOpen": true,
+    "noOldDNonzeroWeightExclusionImported": true,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 45128,
+    "stage": "new_equal_value_equal_weight_all_finite_QQ_returns_complete",
+    "seconds": 0.9909400150000067
+  }
+}

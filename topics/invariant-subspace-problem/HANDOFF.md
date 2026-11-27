@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** acaabe57e22e4fdc292d7a4c3648541883b7e9b6（2026-11-27 13:13:54 UTC，Actions run46005274359实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46005274359-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:13:54 UTC/93452a5dd8b22bc1c637c211abfcb192b8bcc7f9，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** d0b9d8f57e10d0d585be0a14a6cbd17126b900ae（2026-11-27 13:19:04 UTC，Actions run46006024020实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46006024020-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:19:04 UTC/baf34101e9f051dd818129cc2e43d24bf5672c11，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `acaabe57e22e4fdc292d7a4c3648541883b7e9b6`（2026-11-27 13:13:32 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `d0b9d8f57e10d0d585be0a14a6cbd17126b900ae`（2026-11-27 13:18:43 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-D27-finite-cover-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -33,8 +33,8 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **Delta0 h1/k1≤6219保留；h=k(D0)等权Delta非0原96覆已付。** ba8真1.470秒/47168KiB/exit0，四QQ结式370/381/380/510剥原单位合gcd96，因子度2/10/2/20、幂1/1/2/4。新f5e逐整QQ常数域返八原式180秒4GiB；不倒未付norm、不套旧D单位。Delta0首一b4/不等权继续。
-- **Phi0/h1≤32基点/64三元组及四norm单位新已付。** f66真5.043秒/71108KiB/exit0，真R1069/P/PB全xgcd32；H4/H20整支和QQ36次整除保留。四norm零面的QQ像覆盖合g32/Z32模Bézout1，合法付Nm(ell/u/u−ell/b)。新971b实际T0三次norm像/小QQ结式120秒1GiB待返；k1交换、全Phi0仍开。
+- **Delta0 h1/k1≤6219保留；h=k,b=c的Delta非0整支新闭。** f5e真1.055秒/45488KiB/exit0，四完整QQ因子分别返Q−1/Q−1/1/Delta单位因子，141真逆/94除法全返。仅该图付u−ell；新0566首接Delta0两原仿射相容式，180秒4GiB。一般不等权仍开，旧D单位不外推。
+- **Phi0/h1≤32基点/64三元组及四norm单位新已付。** f66真5.043秒/71108KiB/exit0，真R1069/P/PB全xgcd32；H4/H20整支和QQ36次整除保留。四norm零面的QQ像覆盖合g32/Z32模Bézout1，合法付Nm(ell/u/u−ell/b)。971b新T0三次像待完整凭据；新845c首接缺少的原NC/PC同ell闭对与g32，120秒1GiB；k1交换、全Phi0仍开。
 
 ### rankH3原ess6
 

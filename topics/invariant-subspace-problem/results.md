@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整个h=k、b=c、Delta非0碰撞的完整QQ排除](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-nonzero-complete-exclusion.md)：96覆盖四整因子原Bézout返回，只用rho²与该图Delta单位；Delta0等权面另保。
+
 - [h=k、b=c、Delta非0的原96次QQ覆盖与四完整纤维](results/R150-appendix-unit211-equal-singleton-equal-weight-96-QQ-cover-and-four-fibers.md)：四固定原Q结式及完整QQ Bézout，精确因子度2/10/2/20，保所有参数头零。
 
 - [Phi0/h1的严格32点覆盖与四个原二次范数单位](results/R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md)：真正1069余式全Bézout/逐纤维重数；四norm零面QQ覆盖配g32/Z32真单位，授权准确adj/norm。
