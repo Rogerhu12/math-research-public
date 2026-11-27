@@ -342,3 +342,6 @@
 
 
 - **R1043全Galois列严格化成三固定值**：[§16](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§16以原CM Tate角色ρ=εu^-1、完整GL9/determinant下降和规范商函子性，逐图确定全部γ作用。所有带权图准确为原η特征，每个完整列中的每个γ项都返回同一B_a，故C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a。实际最小L0=K(A[306])次数6^5、[L0:H]=432，p≥5无新次数损。 全部图/级点/系数环与原Q保持；实际B_a非零继续。
+
+
+- **R1043真实Fricke反交换与canonical基值**：[§17](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§17从真实三Vélu x坐标确定F在完整S3盖的lift A↦−A、h固定；同核degree6图的两个倍率相反，故F′*Tω=−TωF*。原P_Q的F′*特征+δ与E4 canonical上的Picard pull同号，基值准确为3I e_A^- hatφ2,0 Q+(b2,0)，不能移植原S的6挠零。三个B′[2]确为IV*，仅三重好化后的下降点值被3杀。

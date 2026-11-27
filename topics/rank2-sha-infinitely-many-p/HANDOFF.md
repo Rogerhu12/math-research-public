@@ -50,7 +50,7 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原四谱Q6/Pell/双Norm/指定半类/全部厚点均付，q11实际AQ=−G阶16；一般4AQ=−P、二分Norm=t³(1−27t)。§§17–20第二四度Φ/Miller修正J给4ηprim=Φ*dlogM+dlogJ，Cartier受a_q(EL)控制；全tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。精确参数和回执见原文/前归档，不重算；原逐CM权、eta/Cor及最高λ仍开。
 
-R1043原2-Vélu/full9/54→6×9及全η/Cor吸入三列C_a，DFT正逆齐；S3两权和有1/36左逆并降到t=−Y′²/[27(2Y′+1)]的S′系数MW截面，I18+I6+3IV*。§14准确canonical E4及I(x,y)=(a²x,−4y−2)，全9基/3处反角色/2处原顺序运输齐；逐γ cocycle强制η′=ηκ2，最高ψ27²ψ4(η′)^−1仍原λ。均在原L，无新trace；§15原最高形式真像−3Ω′1，在canonical O四阶零，不能换成非零X′²Ω′1。§16用fullGL9/determinant与真实ρ逐图付所有γ重标记，C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a；原最小L0=K(A[306])次数6^5，无p≥5新损。三固定B_a非零/ordinary仍开。原[mixed C4映射](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)已由Albanese障碍排除。
+R1043原2-Vélu/full9、S3左逆/真实S′、canonical E4/I及原η′=ηκ2最高λ运输齐；原最高形式像−3Ω′1在O四阶零，不能换第四Hodge形式。§16完整GL9/determinant与ρ逐图给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a；最小L0=K(A[306])次数6^5。§17真实3-Vélu与二商反交换，P_Q的F′*特征+δ和canonical Picard作用同号；基值P_Q(O)=3I e_A^- hatφ2,0 Q+(b2,0)，不能套旧6挠零。三IV*只在三重好化的下降值被3杀。三个真实17标记B_a及ordinary非零仍开。原[mixed C4候选](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)已由Albanese排除。
 
 ## 四、其它未闭门与分工
 

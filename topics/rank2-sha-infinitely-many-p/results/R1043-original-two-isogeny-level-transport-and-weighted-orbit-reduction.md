@@ -1368,3 +1368,123 @@ $$
 因而在此最小选择下，(78)的次数不损失任何 $p\ge5$ 的部分。
 若原实现使用额外扩大的 $L\supset L_0$，仍须保留实际的
 $[L:L_0]$ 因子，不能把它默删。
+
+## 17. 新曲面的真实 Fricke 反交换及 canonical 点值
+
+本节仍只运输已给的同源，不能把新 canonical 点的存在当作非零。
+令 $F$ 是 R995/R1027 的原三同源；在原 Tate 参数中
+$t\mapsto1/27-t$，且
+$F^*\omega_{1/27-t}=\delta\omega_t$。
+相同的三同源在(52)上给 $F'$，其基映射是
+$(X',Y')\mapsto(X',-1-Y')$，因为
+$$
+ \frac1{27}+\frac{Y'^2}{27(2Y'+1)}
+ =\frac{(Y'+1)^2}{27(2Y'+1)}.
+$$
+
+完整二核的方向也可直接在原方程中核定。
+三 Vélu 商在进行目标平移缩放前的 $x$ 坐标是
+$x_3=x+t/x+t^2/x^2$；
+其与目标 Tate 坐标的关系是 $x_3=-3x_F-1/3$。
+在原二挠根 $x=-u^2$、$t=u^2(1-2u)$ 上，这给
+$$
+ x_F=-(u-1/3)^2.
+$$
+而 $C$ 的双曲 involution $(z,w)\mapsto(z,-w)$ 恰将
+$u$ 换成 $1/3-u$。所以原3同源运输二核的真正 lift 是
+$$
+ \widetilde F:\mathcal D\longrightarrow\mathcal D,
+ \qquad (A,h)\longmapsto(-A,h).
+ \tag{79}
+$$
+它固定 $z$、改变 $w$ 的符号，并且在 $q_-$、$q_+$ 上都诱导
+$[-1]$。它与 $\sigma,\kappa,\epsilon$ 交换；没有另作一次
+有序二核的排列。
+
+因此(9)的二同源倍率 $6u-1$ 在(79)下恰取负。
+先二后三的 degree6 复合与先三后二的复合具有相同的完整核
+$C_2+\langle P_3\rangle$、相同的靶 Tate 方程，
+但其微分倍率分别为 $\delta(6u-1)$ 和
+$-\delta(6u-1)$。在特征零中同核商的唯一靶同构因此为 $[-1]$，
+所以得到实际图恒等式
+$$
+ F_{f\iota P}\circ\phi_{2,P}
+   =-\phi_{2,\widetilde F P}\circ F_{fP}.
+ \tag{80}
+$$
+然后约化这个同源恒等式；不在正特征仅凭微分来猜两个同源相等。
+
+对(80)取真正的对偶，并使用(39)的 Picard 拉回定义，
+$$
+ F'^*\mathcal T_\omega(Q)
+       =-\mathcal T_\omega(F^*Q).
+$$
+原 $Q^+$ 的 $F^*$ 特征是 $-\delta$，故
+$$
+ \boxed{F'^*P_Q=+\delta P_Q.}
+ \tag{81}
+$$
+该式保全相对 Picard 中的原系数；此前需减去的垂直/基类仍在
+同一群中为零。它也逐式核回(70)的 holomorphic 方向：
+$F'^*\Omega'_1=+\delta\Omega'_1$。
+
+在第14节的 canonical 好模型，源参数为 $\zeta=X'/Y'$，
+目标参数满足
+$\zeta_F=-\zeta/(1+r)$，$r=1/Y'$。
+由于原 raw 微分是 $\omega_t=\zeta\omega_{\min}$，故
+$$
+ F'^*\omega_{\min}
+  =\delta\frac{\zeta}{\zeta_F}\omega_{\min}
+  \longrightarrow-\delta\omega_{\min}.
+$$
+它在 $E_4$ 上的真实特化因此是几何 $[-\delta]$，
+而其 Picard pull 为对偶 $[+\delta]$。
+所以(81)说明
+$$
+ P_Q(O)=(e_{E_4}^-)_*P_Q(O),
+ \tag{82}
+$$
+与原 $e_A^-$ 一样选择几何 $[\delta]=+\delta$。
+这里特征相同，不出现原 $S$ canonical 点证明中的相反特征；
+不能把 R1027 的 $6Q(O)=0$ 无证搬到 $P_Q(O)$。
+
+这个点还能准确回到一个已标记的原有限纤维。
+取第14节的 $A=\infty$ 支 $h/A^2\to c$，$a=c^{-1}$，
+以及原 $b_{2,0}=(-a^2/4,-1/2)$。
+此时 $q_+=O$，第12节给
+$q_+^*P_Q=\mathscr R_{\omega^2}$。
+$\sigma^i$ 对这三个支的标号正是 $a\mapsto\omega^i a$，
+故由(19)、(25)有
+$$
+ R_i(O)=\omega^{-i}[\omega^{-i}]R_0(O),\qquad
+ R_0(O)=\widehat\phi_{2,0}Q^+(b_{2,0}).
+$$
+将它代入 $\mathscr R_{\omega^2}$，
+原几何单位 projector 给
+$\sum_i\omega^i[\omega^{-i}]=3(e_A^-)_*$。
+最后使用(61)中同一个 $I$，得到
+$$
+ \boxed{
+ P_Q(O)=
+ 3I\,(e_A^-)_*\widehat\phi_{2,0}Q^+(b_{2,0}).
+ }
+ \tag{83}
+$$
+这保留原 $-3a$ 微分倍率、$P_3\mapsto(0,-2)$ 和 $I$ 的下降，
+没有只凭 $j=0$ 更换源模型。
+
+同时必须区分另一个商的坏点：
+这个 $A=\infty$ 支在 $q_-$ 下是
+$(-c,-1/2)\in B'[2]$，属于(52)的 $\mathrm{IV}^*$ 纤维，
+不是原 $S$ 在 $t=1/54$ 的好 CM 纤维。
+在 $\mathcal D$ 的三重好化后，其稳定子
+$\kappa\sigma^{-1}$ 固定这一个支，并在原 canonical 好纤维上
+作用为几何 $[\omega^2]$。
+因(49)的真正下降不变性，$\mathscr R_\omega$ 在这个好化纤维的
+值被 $[\omega^2]-1$ 杀，因而被3杀；在原倒6系数群中为零。
+这是好化纤维中的点值结论，不把 $\mathrm{IV}^*$ 的整个
+Néron 加性部分称为零。
+
+式(83)是下一步可实际使用的 canonical 基值。
+原三个 $B_a$ 则仍须由同一 $P_Q$ 在(77)的 degree17 标记纤维评价；
+本节没有由一个全局截面或这个基值自动推出其中某一项非零。
