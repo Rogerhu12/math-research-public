@@ -1684,3 +1684,175 @@ $K^3A^3$ 则是准确返回原 canonical 来源的交叉权。
 (100)–(101) 保任意真正四输出条件，
 没有将 K/A 自身的其他 cut 免费留在忘去 K/A 的等式里。
 这些实际权及 (99) 的单位质量比例，是本节给后续 mixed 补域的新增输入。
+
+## 13. norm5/norm90 的两条完整伴随管及精确质量消组合
+
+本节把 (100) 的有限矩推进为带完整 unit/depth 域的来源返回。
+所用域只读真正伴随；不把 R1042 §9 中还含 Y 的两单位管改成这里的域。
+所有等式保原四个输出 $(Y,H,J,N)$。
+
+### 13.1 原整数正交二轴与两个实际 whole 核
+
+在 K/A 平面置
+$$
+\boxed{
+\begin{aligned}
+D&=(K+A)/\delta=(0,1,-1,1,-1,-1),\\
+E&=3K-2A=(-5,\omega-2,-3-\omega,3\delta,2\delta,2\delta),\\
+K&=(E+2\delta D)/5,\qquad A=(3\delta D-E)/5 .
+\end{aligned}}
+\tag{102}
+$$
+它们的 Hermitian 范数为5、90，内积为零；也分别正交于 Y/H/J/N。
+变换 determinant 为 $-5/\delta$，所以在当前好位是整自同构。
+D 的五个非零模二系数给 standard odd；
+E 的四个非零模二系数给 standard even，均保原 Gaussian。
+
+R551(7) 的整个 odd $\mathcal S_5$ 核已经准确锁定为
+$u_5=\chi_{65}\lambda$，不是只沿其中一条主型线。
+原 ray 的 $g_\pi\equiv1\bmod(27\cdot5)$、
+$g_\pi\equiv3\bmod4$ 给 $g_\pi\equiv91\bmod180$，
+所以 standard even $\mathcal S_{90}$ 的 whole 交织为 scalar。
+用 R968 已付 even $\mathcal S_{10}$ 的非零 $[3]$ 拉回作绝对锚，
+得其实际标量为 $u_{90}=\chi_{10}\lambda$。这里两个 $\chi$ 均保留，
+没有假定它们相等。因此在原完整六变量来源上
+$$
+\boxed{
+\rho|_{D\in p^n\mathcal O}
+=u_5^n(P_{D,\kappa^n})_*\rho,\qquad
+\rho|_{E\in p\mathcal O}
+=u_{90}(P_{E,\kappa})_*\rho.}
+\tag{103}
+$$
+两个原物理缩放都保 Y/H/J/N，并相互交换；
+它们也与 $\mathscr P_3$ 交换。
+这是将 whole theta 核作用于完整系数空间，不是把 D/E 当作独立边际。
+
+### 13.2 两态的完整六阶返回系数
+
+若 d/e 是 D/E 的生成变量，则原 K/A 变量准确为
+$k=d/\delta+3e,\ a=d/\delta-2e$。
+令 $q=d/\delta$。由 (89)–(91)，两态总六阶部分为
+$$
+\boxed{
+\begin{aligned}
+[\Xi_0]_6
+ &=b\left\{-\frac{12}{5}k^6+\frac{39}{10}a^6-6k^3a^3\right\},\\
+[\Xi_1]_6
+ &=k^4a^2-ka^5\\
+ &=15q^5e-100q^3e^3+25q^2e^4-100qe^5+420e^6 .
+\end{aligned}}
+\tag{104}
+$$
+第一式各项分别来自 $F_6^-$、$\Theta_9$ 及 $6bE_3$；
+第二式直接由两个不同类型的原首项相减。
+包含每个变量的 factorial 后，全部七个六阶矩是
+$$
+\boxed{
+\begin{array}{c|rr}
+\text{权}&\Xi_0\text{ 的矩}/\Omega^6&
+             \Xi_1\text{ 的矩}/\Omega^6\\ \hline
+D^6&120b&0\\
+D^5E&480\delta b&-200\delta/3\\
+D^4E^2&0&0\\
+D^3E^3&-6840\delta b&-400\delta\\
+D^2E^4&40320b&-400\\
+DE^5&195840\delta b&4000\delta\\
+E^6&-146880b&302400
+\end{array}}
+\tag{105}
+$$
+这些是原整个两态的矩；没有遗漏高阶函数对该固定矩的贡献，
+因为一个六阶 Taylor 系数只读 (104)。
+尤其 $D^4$ 型在整个 odd $\mathcal S_5$ 中缺席，与表中两零相合。
+
+### 13.3 两个完整管测试的实际返回
+
+对 $n\ge1$，取真正紧开域
+$$
+\Gamma_n^{5,90}=\{D\in p^n\mathcal O,\ E\in\mathcal O^\times\}.
+$$
+在域外将下列函数延为零：
+$$
+\boxed{
+\begin{aligned}
+t_{1,n}&=\frac{{\bf1}_{\Gamma_n^{5,90}}}{\Omega^6}
+       \frac{(D/\kappa^n)E^5}{1-u_{90}\kappa^5},\\
+t_{2,n}&=\frac{{\bf1}_{\Gamma_n^{5,90}}}{\Omega^6}
+       \frac{(D/\kappa^n)^2E^4}{1-u_{90}\kappa^4}.
+\end{aligned}}
+\tag{106}
+$$
+在此域 $D/\kappa^n$ 整，两个分母模 p 都为1，故都是实际整有界测试。
+先用 (103) 的 D 核，再减去 E 的深部分，
+恰分别产生 $u_5^n(1-u_{90}\kappa^5)$、
+$u_5^n(1-u_{90}\kappa^4)$。这些正是 (106) 已保留的分母。
+令 $\pi_4=(Y,H,J,N)$，并沿 (100) 记 $\nu_{\rm comp}$，于是
+$$
+\boxed{
+\begin{aligned}
+(\pi_4)_*(t_{1,n}\mathscr P_3\rho)
+ &=u_5^n\{195840\delta b\cdot39\delta\,\nu_\Phi
+                       +4000\delta\,\nu_G\}\otimes\nu_{\rm comp},\\
+(\pi_4)_*(t_{2,n}\mathscr P_3\rho)
+ &=u_5^n\{40320b\cdot39\delta\,\nu_\Phi
+                       -400\,\nu_G\}\otimes\nu_{\rm comp}.
+\end{aligned}}
+\tag{107}
+$$
+这是整个四输出测度身份，因而可保任意真正四输出 mixed 测试。
+D/E 的域已被完整消费，不能再在右侧免费保一个额外 D/E 条件。
+
+这里不用额外投影 Y：两权的总次数为6，域在 D/E 同时乘
+$\mu_6$ 下不变；H/J/N 已主型，故返回的 Y 来源本身主型。
+因此 (92) 的两态分解准确覆盖整个 (107)，不只覆盖一类测试的积分。
+
+### 13.4 单位行列式、canonical 纯返回与参考纯返回
+
+两行的系数行列式准确是
+$-239616000\delta b=-400\cdot599040\delta b$。
+其中 $599040=2^{10}3^2\cdot5\cdot13$，
+故在当前好位连同 $b=17$ 均为单位。定义
+$$
+\boxed{
+\begin{aligned}
+h_{\Phi,n}&=\frac{t_{1,n}+10\delta t_{2,n}}
+                         {599040\delta b},\\
+h_{G,n}&=\frac{40320t_{1,n}-195840\delta t_{2,n}}
+                         {239616000\delta}.
+\end{aligned}}
+\tag{108}
+$$
+完整消去 (107) 的另一态，得到
+$$
+\boxed{
+\begin{aligned}
+(\pi_4)_*(h_{\Phi,n}\mathscr P_3\rho)
+ &=39\delta\,u_5^n\,\nu_\Phi\otimes\nu_{\rm comp},\\
+(\pi_4)_*(h_{G,n}\mathscr P_3\rho)
+ &=u_5^n\,\nu_G\otimes\nu_{\rm comp}.
+\end{aligned}}
+\tag{109}
+$$
+所以这里的质量消组合是在一条完整管上逐测度成立，
+不是仅抵消两条五深网格的首项。
+
+若只读 Y 中央，可将 $\mathscr P_3$ 移到测试端：
+D/E 全正交于 H/J/N，故 (106)–(108) 的域和权被这三个平均固定。
+于是 (109) 给原未投影 $\rho$ 上的合法整测试。
+特别在原 E3969 坏中央假设下，
+$$
+\boxed{
+\begin{aligned}
+\int_{Y\ {\rm unit}}d\log\langle Y\rangle\,h_{\Phi,n}\,d\rho&=0,\\
+\int_{Y\ {\rm unit}}h_{G,n}\,d\rho&=u_5^nJ_G(0),\\
+\int_{Y\ {\rm unit}}d\log\langle Y\rangle\,h_{G,n}\,d\rho&=u_5^nJ'_G(0).
+\end{aligned}}
+\tag{110}
+$$
+采用 Y/7 时，最后一式仍须减去 (97) 的准确质量费用。
+这些是所有 n 的完整返回；共同因子 $u_5^n$ 本身不产生新的
+关于 n 的不相容条件。其真正用途是给 (99) 两个可明确控制、
+覆盖完整 companion-only 域的独立整测试，并将 canonical 与
+非零质量参考逐项分开。原 S/T mixed logarithm 及含 Y 的补管
+仍按它们的真实域消费，没有在本节被赋予额外中央零。

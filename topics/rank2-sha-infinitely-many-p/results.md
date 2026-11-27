@@ -306,3 +306,6 @@
 
 
 - **R1043全角色三列与实际系数截面**：[§§9–13](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§§9–13将全部原η/Cor吸入三列C_a，η_j=η10^lj及逐γ真实17标签平移给准确DFT逆；三个完整shadow同零等价于三整列同零。原二商在整个T(S)的迹由谱三次式严格为零；S3两权和有仅除36的实际左逆。加权来源以真order3商下降到B′:Y′²+Y′=X′³、t=−Y′²/[27(2Y′+1)]上的系数MW截面P_Q；I18+I6+3IV*、原full9/17标记及每项对偶皆保。 式(59)是三个原完整有标记评价；全球分裂单射不替代固定值非零。
+
+
+- **R1040完整5/90管的两态分离**：[§13](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§13用原D5=(K+A)/δ、E90=3K−2A的真实χ65λ/χ10λ全核，在完整D深/E单位域逐四输出返回DE5与D²E4两整测试。全部七个六阶矩/阶乘、Euler分母和单位行列式齐；真实组合hΦ完全消G，hG完全消Φ，保(Y,H,J,N)及任意其上mixed测试。所有n仅共同u5^n，未被当作新的forcing。
