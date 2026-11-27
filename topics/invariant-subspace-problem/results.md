@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [G36完整原单位及1198次有限权覆盖](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)：9原行/36分量/20真逆全返；保全部k异常和QQ参数6片，仅付某幂；各固定k≤36生成，不同必要点≤43128。
+
 - [G36首一六维权代数及13完整低范数/B80](results/R150-appendix-unit211-W-G36-monic-weight-algebra-and-complete-low-norm-cover.md)：两次真V8小整式35/2ms；739精确对除，保全部范数零纤维；必要商固定k至多36生成，未称全曲线无解。
 
 - [Phi例外整ψD原纤维排除及128有序基点覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)：原rho3完整覆盖、T4/z2原144维meanR可逆，真ψ³剥后1993/2050完整Gauss；首头及余128仍开。

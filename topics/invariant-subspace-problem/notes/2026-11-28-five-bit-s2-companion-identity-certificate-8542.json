@@ -1,0 +1,25 @@
+{
+  "all_pass": true,
+  "arithmetic": "BigInt over five independent polynomial variables",
+  "checks": [
+    "full_X_Cd_R2star",
+    "physical_Xstar_R2_Cdstar",
+    "full_FCd_Cd_Cdstar",
+    "exact_companion_evaluation_intertwining",
+    "exact_rank_one_moment_intertwining",
+    "full_C_Rstar",
+    "complete_inverse_creation_Ce",
+    "two_times_pi_Y_R_Fmid_e",
+    "C_Fmid_e_numerator",
+    "full_e_star_e_numerator",
+    "e_star_Fmid_e_numerator",
+    "full_third_gram_polynomial",
+    "actual_top_precision_short_equals_R298",
+    "first_five_Newton_moments"
+  ],
+  "actual_cost_recomputed": false,
+  "no_positive_S2_inference": true,
+  "monomialBase": 16,
+  "runtimeMilliseconds": 18,
+  "maximumTotalDegreeBound": 10
+}
