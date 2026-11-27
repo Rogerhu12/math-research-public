@@ -60,21 +60,19 @@ p阶段约2.5e−7未过不升级；目标p=.8/末η≤1e−7。同空间真停�
 
 [已审持续高精度分拆](notes/2026-11-27-r618-actual397-persistent-split-scope.md)已把参考大中心/小offset保留到whole-box、trial根、连接K/Q/D/R、mean sr及实际输出/direct。实际jets先转Decimal，不能先在binary64算B再补精度；参考与trial绝对坐标预算各1e−13、总2e−13仅观察。全51来源/1473列/121600行/旧950及1728径向点与same fixed E保持。原Jac仍binary64近似；舍入与七类源误差不付零。原两个完整失败逐字嵌套，只为新接口再生未存场，所有成本保留；实际硬τ1根与连续全域证书仍须新结果。
 
-## O2b-C：B030真实5659，恢复阶段与原剩余2561
+## O2b-C：B030真实cc117，新库上的准确恢复阶段
 
-[native原自然终态](notes/2026-11-27-r566-native-d191-natural-final-agent.md)：run45914886940/job140231615166/source797efdf0，新2370.546518149秒、4metric+1geometry restore；旧d191/238范围已执行，原1678已付峰复用、238补完，旧待候选未接受。末81q **56594ecb1d8d94cd8463359dc2e40b4a681be6a4588296d63ae3eda3a240c7f3**，完整1610×3072/9330已观察峰，η.20868474226441153/物理V0；当前与合格fine同SHA6c81065190712fac73136514a7caf7f7c7b41e59a74712602aa7f08bf1fe776b，无需重入口资格。
+[2561范围唯一自然终态](notes/2026-11-27-r566-native56594-partial2561-natural-final-agent.md)run45924048811/job140261163768/source042435b253617f260442a47fdf4c3d1a92698ae1，02:22:04 UTC结束；新2370.523698866秒。原9452已付峰准确复用，仅补剩2561/34084点目标/136.35130347秒；原53ed9直接达到geometry restoration，η允许升至.20921004461892675。来源未输出g的33值逆舍入区间没有伪作单值，此真恢复后准确g=5.542782454369399e−9。之后12metric真接受，原partial/native/失败与全部旧账见该收据及[前终态](notes/2026-11-27-r566-native-d191-natural-final-agent.md)。
 
-实际804coarse/1793物理orbit/277work/1536角，未应用提案0/0，trust.45050811767578125，phase geometry_restoration。已接受fine的原margin=.0004748151855263885；末原e=.010474815185526721，但coarse更新后的best_geo没单独输出。后继保准确e/fine margin，可用RN64加法逆像的完整区间保原比较，不能把e−.01写成恢复准确值；原candidate≤tol的restored分支不受此缺口影响。
+末81q **cc117d48551e8b457bda12450e466f7e2dcff174311675b5e3445487bc9c6a30**，已合格1630×3072及1558已闭峰，η-grid .1991728488245286、峰后η.19917454273148172、物理V0。该资格与末真实接受checkpoint逐项同一，不能移给后来的1636库。现817coarse/1636fine/1829物理轨道/334work，1536角；全部旧fine保留，物理/working pending都0。无未闭localizer，不重原2561或已付fine。
 
-末候选53ed9的原coarse全2224960行、同1610×3072 fine和nested已付；fineη.20921002233215497/物理V0。原12013区间已9452、剩2561，同oracle18745e50…；已付前缀strip5.542782454e−9在原tol内，却未完成所有峰。只补原2561并合并已付9452，必要大输入gzip；原恢复判据允许eta不降，不能套此前metric-only partial238入口。所有物理/working/mean/det/box/曲率/球/strip/细网门不变。
+原outer20新coarse使准确g=.00011692915997574185，phase geometry_restoration，e=.010116929159975741。当前全部values已知，phaseI 2261160行已输出；后继不为了确认旧值重做coarse。原actual/proposed trust=.45050811767578125，后端后trust决策未做，不擅改。末raw5fc69e2c未通过working，完整trial5e199a34虽η.19818589327629638且物理V0，仍因原curvature margin .0001248759423130288被拒；其fine1634/nested/1516峰全闭，不列为待接受点。
 
-native已实际产生5次同冻结λ Powell更新（全阻尼），3skip/1phase语义reset/1原MODE−1消费，0额外模型value/J；10后端/11J/876块/388.11901701秒，0自然返回。完整checkpoint74980B SHA f499980ad5de37b29a7b80263978e07df31d012c41e5d01a1ac06f90119dfd4e保存3403packed LDL、82维锚/梯度及2非零λ。后继同helper恢复真实H/pending；若转metric语义变则原规则重置，不重复已消费secant。完整旧workspace/J未存，必要新构建与新方向全计费。
+末native checkpoint83951B SHA5194fe70…含3403packed LDL、82锚/梯度、23非零固定乘子；行函数签名505f8cbc仍metric语义。原helper到新geometry模型必须自动reset；完整原H/pending保留但不可跨目标消费，未存J/workspace必要重建全计费。25完整J/1701块含outer20的21未完块，不能授完整第26J。新native11固定乘子更新/9damped/5pending消费/8skip/1语义reset；0额外model value/J。
 
-此前normal56e8、partial391及全部旧fine/失败/费用仍保原收据链；原已知科学下界17099.551640495秒再加本次，未知仍未知。近似H和有限接受未授fixed g、完整全时宏观族或连续reach。
+新70coarse/22fine/23localize、29818新候选全闭/212450点目标/25callback/59缩步、全部oracle/compile/失败费用齐。已知科学下界21840.621857510秒，较早未知仍未知；不加总重叠分类时间。下一按真实cc117和准确恢复状态正常续算，原全部margin、物理、fine、nested与η目标保持；静态设计g仍变化，未授连续全时宏观族。
 
-[固定圆参考与固定g接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)已核：59a4圆G*的完整ρ/D可用于近邻新q，但新δ/α/K不移旧值；锁全source/L/C/RC/.38/H/mean/轴及primitive规范，不能只给reference_q。该圆不依赖design.p或材料jets，p变化仍要支付新core界；p=.8时δ≥.62，不能继续用已知ρ=.06072旧圆门。相位族直接继承全t空间几何与同固定旋转g的误差，不另做时间网格。17mean固定不足以固定Ebar，最终须本线完整连续E*/a*位置误差接口；R618的397 E*是不同目标，core a′=0排全域r=a坐标偷换。旧59a4由已付C0直接得相位δhold/D<.006，不能作宏观完成。
-
-[已审native56594/partial2561范围](notes/2026-11-27-r566-native56594-partial2561-scope-agent.md)继承实际H/pending与完整9452峰，只补2561同oracle区间。未输出best_geo以原RN64加法准确逆像保存；原严格改进判据两端同决定才采用，原成功恢复分支独立于未知g。保geometry-restoration，不能套metric eta下降或lift；真正转metric仍原H语义reset并付新metric行选择。必要request单gzip，45来源及20原common参数核合，全部旧FINAL/失败/费用保留；不登记同固定g或宏观结论。
+[固定圆参考与固定g接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)可锁59a4圆G*，但新δ/α/K不移旧值；锁全source/L/C/RC/.38/H/mean/轴与primitive，不能只给reference_q。p=.8时δ≥.62不能靠旧圆ρ=.06072；同g完整E*/a*与相位全t几何未付。R618的397 E*属不同目标，core a′=0排全域r=a偷换，旧59a4相位δhold/D<.006不授宏观。
 
 ## O4：原固定宽度十九态，全反馈与更好自由中心输入
 

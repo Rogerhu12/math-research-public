@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **37bf7fc8cb86dc7f5ee626691eb3c0fa12372364**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **d90cf9b3722c58a70047e8e6a2acb8d7e85bf91b**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git/四索引，每结论即推；科学仅公开Actions，本地仅纸证/源码/原日志解析。根12不重旧门；根15不存raw/可重算表，必要再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -21,13 +21,13 @@
 
 [已审357范围](notes/2026-11-27-r582-physical-pending357-resume-implementation.md)保全部16240 fine及356+1；pending .7836474609375带来两个新中点，原资格不移新网，按原流程新付。45绑定/48sparse/同common及main AST、唯一FINAL逐字已根核；已push2fa9aa4a；run45929007792/job140277011834于02:33:17 UTC启动，finite独占终态，不再dispatch。p=.181阶段2.5e−7未过，最终p=.8/η≤1e−7不降；mean仍在设计，旧59a4完整几何不转移，同g精化未付。
 
-## 4. B030：原5659恢复阶段/真实H，先补2561
+## 4. B030：真实cc117、准确余量与原geometry恢复
 
-[native原终态](notes/2026-11-27-r566-native-d191-natural-final-agent.md)run45914886940/job140231615166/source797efdf0；新2370.546518149秒/4metric+1restore。81q56594ecb…、1610×3072/9330峰η.20868474226441153/物理V0；804coarse/1793orbit/277work/1536角，pending0，trust.45050811767578125。
+[2561原终态](notes/2026-11-27-r566-native56594-partial2561-natural-final-agent.md)run45924048811/job140261163768/source042435b2，02:22:04 UTC自然结束；新2370.523698866秒。原9452峰复用，只补2561，53ed真restore后12metric接受。末81q **cc117d48551e8b457bda12450e466f7e2dcff174311675b5e3445487bc9c6a30**，已合格1630×3072/1558峰η.19917454273148172、物理V0；后长到817coarse/1636fine/1829物理/334work，1630资格不移新库。
 
-末geometry_restoration、exact e=.010474815185526721；fine margin=.0004748151855263885，更新best_geo未直存。[已审2561范围](notes/2026-11-27-r566-native56594-partial2561-scope-agent.md)保原RN64加法全部可能g，不能float相减冒准确。53ed9候选coarse/fine/nested及9452峰已付，只补剩2561；η较高仍按原恢复门，真转metric另付新行、不重同q fine。
+末geometry_restoration，准确g=.00011692915997574185、e=.010116929159975741；当前全库values已知，不重同q coarse确认。trust .45050811767578125/原后决策未做，pending两类0/无未闭局部峰。末raw5fc6与已拒trial5e199不替cc117；后者虽η低却原曲率余量违约。
 
-真实74980B H/3403packed/82锚/2非零λ恢复；语义变仍原reset，不冒完整workspace/J已存。全部partial/native构建/旧已知≥17099.551640495秒与未知账保原收据。run45924048811/job140261163768/source042435b2，01:41:58 UTC启动；原20参数和完整门不变，宏观fixed-g未付。
+25完整J/1701块含outer20的21未闭块；新70coarse/22fine/23localize、native11更新/1语义reset全保，已知科学下界21840.621857510秒及早期未知账不删。83951B H/pending仍metric签名505f…，后继原helper见geometry语义须reset，不能跨目标用secant或冒完整workspace已存。root已独核原29097972B log/392448B FINAL/507607B末接受checkpoint、q/四库/准确g/H/账；正常cc117后继待全文审，true独占终态。
 
 ## 5. 正常517近有限像余量，固定E持续高精度分拆
 

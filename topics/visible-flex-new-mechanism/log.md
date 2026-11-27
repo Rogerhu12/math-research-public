@@ -133,3 +133,8 @@
 ## 2026-11-27｜完整原Jd射线、原L/h与冻结非线性门
 
 根全文审34942B新源、10840B纸证及workflow；独核76来源/79sparse、18CLI、原common除input/trust/damping不变，12旧费用段逐字同原FINAL、第13的49原字段逐项相同。原log/FINAL/fullstate/plain/锚直接绑定；原solve直接别名与原活动集继承。每候选完整Jd仅一次，先t*=−s/Q，再直接min原trust、L及真实h，不用乘除重构分数；原Armijo真门保持。新策略重启值与原自然末值分别登记；同曲线1153 fine不重付，新接受pending。无本地科学。97q新push已实际触发run45929007792/job140277011834，02:33:17 UTC启动。
+
+
+## 2026-11-27｜B030原2561补完、真实13接受与cc117准确恢复态
+
+根全文审19193B原收据，核原common为20；独核29097972B stdout/392448B唯一FINAL/507607B末接受checkpoint逐字身份，81q/当前817与fine1636/已合格1630/全部物理与working库、准确g、H和完整费用hash。新2370.523698866秒含原剩2561补完、1restore+12metric；末η-grid与真实峰η分别保存，原资格不移新库。末原g/e和geometry phase准确，raw/已拒trial/当前anchor三轨不混；H仍metric须原helper语义reset。25完整J另有21已付未完块，所有native/oracle/partial和下界21840.621857510秒保留，无本地科学。
