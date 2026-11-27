@@ -475,3 +475,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 18:08 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新一般三生成元源fbe4e790完成六原乘法列、全部六原余行、同点D和两歧义完整六原迹；run45978418472/job140435932712，117.143秒/55724KiB/内部exit0。
 - 原六式与三首一规则+全部余行双向等价；其它个别值条件仍保。二次/D的t次数(2,1,1)，NSPS/歧义(3,2,2)，不假合流/自由/有限权纤维；下一新三列cofactor。
+
+2026-11-27 18:11 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 准备两个独立新原输入：0c80263f一般A[t]五关系的两组固定3×3 cofactor；79bbf349整Phi0精确参数映射后自己的三列NSPS/D与最多三阶Cramer，均保所有未付零域。
+- 前者180秒/4GiB，后者120秒/1GiB；已刊三生成元与大六原迹不设重复门，原单位u+Q−1引用已正式推送的整Q定理。
+- 课题外新增两份专用workflow invariant-subspace-general-ls-fixed-three-column-cofactors-8542.yml、invariant-subspace-general-phi-zero-original-three-column-d-return-8542.yml；实际结果待driver回执。
