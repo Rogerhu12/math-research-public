@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 22ac87ec033d658aa19b32d417c493f5748aa122（2026-11-27 09:26:44 UTC，Actions run45973738068实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45973738068-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 09:26:43 UTC/d88e604e49d64f1057d1cdca3f1ab8fa1bf0258a，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 26d1a2a2d6c7bcbf75a933a4d1bcf2c5775dbb07（2026-11-27 09:27:49 UTC，Actions run45973885977实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45973885977-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 09:27:49 UTC/d88e604e49d64f1057d1cdca3f1ab8fa1bf0258a，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `22ac87ec033d658aa19b32d417c493f5748aa122`（2026-11-27 09:26:28 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `26d1a2a2d6c7bcbf75a933a4d1bcf2c5775dbb07`（2026-11-27 09:27:30 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-whole-W-y-one-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-green-two-coordinate-moments-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -45,10 +45,10 @@
 原全部公式/常数/负门与适用范围保最新完整H、open及results；压缩不关闭旧接口。
 - M=kerT、N=closureBM、W=M⊖N，N=M未证。保同w/u、全部partial/intersection、MP自然域/帽外投影及forcing。仍须64^R、γ<1/16绝对Z、32^N孔权、e^(κy)清除；F0/首阶核不删，k=h−1费、L=o(x^(2/3))至母窗桥开。无锚Γ²≤27μ1不传有锚/第二Green。
 - 原G0=TJ_B多值部Ce0；N⊂kerAmin⊂M，I=M⊥⊂J=closureRanG0*⊂N⊥。原RanG0*确非闭、无全h来源范数界；五坐标原反例还排无条件联合图→carry/C2，输出都在M⊥而非W，不重做这些通用升级。
-- 原N/Y平方源C2给共同总孔核心，保完整Y逆/抵消。低余孔自动C2，原y有临界矩s0=(2+2log(3/2))/14即图核心。任意原最大图同源h_s=e^(−sN)h在s∈[s0,1]有加权ℓ¹及真实核心返回；E能量给||e^(−N/2)f||²≤e^(−198)||f||²及≤190孔质量≤e^(−8)。完整Y13列费/临界等号已付，未付s→0图控制、E0/Z0/Gamma，详已发表正文。
+- 原N/Y平方源C2与临界s0=(2+2log(3/2))/14图核心已付，完整Y逆/等号保留。任意原最大图h_s=e^(−sN)h在[s0,1]有真实核心/加权ℓ¹返回；E给||e^(−N/2)f||²≤e^(−198)||f||²及≤190孔质量≤e^(−8)。未付s→0、E0/Z0/Gamma，完整费保正文/归档。
 - 同w=Ju的Γ有限恰g0=H*(I+H*H)u在实际RanK*，W只付闭包像；原Q_H正则费用双侧比较不付Γ。全整数窗Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零W迫Σ1/E_n有限；同W的倒数发散/费用上界仍开。
 - 同源dyadic两边费E_r有界子列经凸组合付图核心；P_Wf≠0迫liminf logE_r/r≥γ_ex>5/3，较弱子指数费只付f∈I。全M前缀最优率约1.723637及整个D(G)/D(Amax)的相反前缀指数图界仍不足alpha逆费。
-- **新真实Green缺陷E恰T*y=Sf、By+Tf=0。** 两坐标范数等价给闭X/Y、G|Y有界同构，B|Y/S|X/T|X/T*|Y有正下界。F=P_I X闭，X={v+Zv:v∈F}、Z:F→W有界，J=I⊕closure ZF。图核心⇔F0，第一范围⇔Z0，第二范围⇔closure ZF=W；X/Y/F未证不变，ZF未证闭，Γ/N=M仍开。
+- **真实E恰T*y=Sf、By+Tf=0。** 闭X/Y同构，F=P_I X闭、X=graph Z、J=I⊕closure ZF；核心⇔F0、第一范围⇔Z0、第二需closure ZF=W。新完整两型Schur三正项保alpha^-2，P_M f=alpha^-1 J G_L^-1 P_L D*^-1(a−H*g)。全域U_D/V_D互逆且物理共轭≤2048/alpha0，故X、Y均与临界物理矩域交0；未证真实矩自动存在、P_Lr_D=0或实际RanK*费。
 
 ## 原Haar未知普通M与闭域
 

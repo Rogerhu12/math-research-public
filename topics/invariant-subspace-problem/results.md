@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [真实Green尾图三正项与物理矩双坐标传递](results/R271-appendix-actual-green-tail-positive-metric-and-two-coordinate-physical-moments.md)：原N/Y完整Cayley与alpha平方费保全，精确稳定分量读数及全域互逆U/V；临界矩排除扩到实际输出，尚不消去整个缺陷。
+
 - [一般J=Q原642次QQ投影与348个复权点覆盖](results/R150-appendix-unit211-general-J-equals-Q-exact-642-projection-and-348-weight-cover.md)：两真实参数cofactor、完整36阶固定结式及六因子乘回；Vandermonde秩亏保全部降首项纤维，两个特殊整线继续。
 
 - [W整y=1有限原Gram唯一恢复与同点参数系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-original-same-point-parameter-return.md)：原mean/E1用已付单位唯一恢复x/t，四必要参数式和物理D完整同点返回；不支付y−1，接固定26/33 QQ投影。
