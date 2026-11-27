@@ -315,3 +315,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 一般三参全15头源7b979ce9实际0.656934秒；头0234精确为2u⁴Q(Q−1)³M²ell·T0(J−Q)，接整个J=Q原权面。两次真实pull/README读号与小回执登记。
 - 新增三共享计算workflow只运行新J=Q头5a3a5758、Q整数Hadamard/Cauchy界+多素数CRT30e48b9c（保存完整checkpoint）、以及新原cofactor/NSPS倍数互补Gauss dd113962；三个源登记时均未执行，不提前合并结论。
 - 继续一般LS/W/Q及实际范围核心，普通ISP未完成。
+
+2026-11-27 16:19 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 证明一般拟幂零解析流形像准确为closure Q^k C_Q(g)，以原Haar已付强单位合法限制到未知M后提高为同g的C_A(g)，并给乘积范数≤1的解析主理想强*单位。
+- 同g的Sobolev演算映射紧单射；真闭理想像严格缺g、有限来源球有正距离，逼近源范数必趋∞。这些是真实来源结论，未构造非循环向量/N=M。
+- 本次取得并核Fang–Hou–Jiang–Zhang arXiv2610.11202v1实际正文，更新旧未取全文状态；明确零点/ideal及全域有界逆假设、两处局部表述修复，旧有理矩结论不重登记。
+- 继续原同源Green/闭根接口与R150原有限返回；普通ISP未完成。

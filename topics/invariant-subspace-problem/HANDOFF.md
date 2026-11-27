@@ -7,8 +7,8 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** 958632ebb7d24f7c8875ec5a357dbb7f706ad797（2026-11-27 08:15:08 UTC，Actions run45964194174实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45964194174-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 08:15:08 UTC/b1c347d07643f1f2f20a1a881c10b0d1c62afd4e，根README diff无变。公私均部分克隆blob:none。
-- **终端再次断开：** 约2026-11-27 07:20 UTC起执行器不可用；最后成功本地推送09969a4，实际pull及源身份已保留。按根规矩8/13小文本保存新结论，再由公开Actions真实pull --rebase/push，非快进立即循环。此前故障保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。
-- **终端断开后远端已读：** `958632ebb7d24f7c8875ec5a357dbb7f706ad797`（2026-11-27 08:14:47 UTC）；只读检查不冒称实际pull。
+- **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
+- **终端断开后远端已读：** `08d743d2fad2482079082c4f40d889e806b428a0`（2026-11-27 08:19:16 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-complete-C9-exclusion-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -57,4 +57,5 @@
 - 全C奇数剩余类同范数强*密度、喷射平坦/强*球稠密/UHF零交已付；不付PH⊂DomT。显式正连续循环f使全部非零P的PX_f全柱无界、C1∩Cf0、无可闭性/任何RSC向量。一般分母路线已闭，只续实际闭根/湮灭的特殊来源。
 - 闭稳定根+DomT⊂DomT*+有限幂有界已足够。R143实际S=T⁻¹闭稳定，S²=alpha0⁻¹B1|K且原D为图核心；余RanT⊂RanT*。慢D=−2Z在未知L的稠密像、伴随域和有限放大稠密条件仍未付，不能套全尾整除。
 - 同一GR=RT+Q及完整C自伴性可给P=RQ真正入域；原喷射迫R/Q平坦。q∤p根的Q=FZR+KR第一阶接口整类已排，完整q²结式/R171/Puiseux保真域；未知底空间的实际gauge识别仍开。原第一阶正则器ell1时C∩UHF单位，非ell1时全喷射平坦，不付另一分母的未知限制。
+- **解析理想的同g输出与真实来源费用已定：** 原Haar任意非零Mz不变解析流形经f↦f(muA)g的闭包恰C_A(g)；Sobolev映射紧单射，真闭理想不实际含g，有限来源球距g严格正，逼近源范数必趋∞。一般拟幂零只给closure Q^k C_Q(g)，不移给负整数边界强单位。新正文与Rosenblum II实际全文核查见results；没有非循环源或N=M。
 - 原G_reg同forcing/carry、循环性、交织/子商损失及全部归档未闭接口继续。全H稠密不传未知限制；正常态不代边界奇异态。
