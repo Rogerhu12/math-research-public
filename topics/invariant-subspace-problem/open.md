@@ -266,3 +266,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [一特殊权全部高度的尖锐相对创新费](results/R271-appendix-one-special-weight-all-heights-sharp-relative-innovation-cost.md)：原R293完整同源直接得每合法n的Qn<n/[2(n+1)]Fn，固定n尖锐、全高度上确界1/2，En>(2n+2)^−1 CnG(n−1)Cn；包含硬顶、全部池串重数及s0真空约定。新增n≥2统一数值预算，n1/旧定性不重计。原无限carry不是此单异常串且尚欠ΣFn能量，逐层half不提升整体可和；一般高出生S2/真实同W域继续。
 
 [碰撞整个u=2的四原Q新输入](notes/2026-11-28-unit211-collision-u2-four-original-Q-full-fibres-8542.md)：固定原C_R/C_W/C_O/C_N1代u2，只有明确原非零物理乘积可饱和；真正固定Q结式保头降次，必要λ覆盖完整QQ因子再回全部原Q。只常数1或同原物理乘积幂零才排空，未返整纤维保。8df首次180秒/4GiB，旧E37与已成头门不重放，无边界偷推仿射排空。
+
+[W规范六行四列原头的整体覆盖](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)：12×10三次乘法块经合法原消元为I6⊕G，故每一允许权点rankG=4；15最大子式生成已付权环单位理想，具体六个二元单项式全局生成原均值代数。旧全局6维界不重计；新增的是该规范头覆盖/具体生成元，仍未排H265零或原个别NP。
+
+[两对等权加两独立权的完整联合新源](notes/2026-11-28-two-pairs-two-independent-original-joint-three-tower-8542.md)：4/3维真实源、全三塔及全部cross，域x=1+U,y=V+W,z=W覆盖U,V≥0,W>0；7个原主子式首次180秒/4GiB，全部返回前不称S1/S2或七位边完成。
