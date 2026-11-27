@@ -1,0 +1,273 @@
+{
+  "date": "2026-11-27 Asia/Taipei",
+  "session": "Astra-ISP-8542378f-20261127",
+  "executionMode": "exact BigInt V8 function bodies; no OS process",
+  "sourceHashes": {
+    "notes/2026-11-27-unit211-equal-weight-three-parameter-original-NP-8542.js": "4bb99f9050bae866c30a5081579d0360e1bae1421d012304f111e0491f9c62fc",
+    "notes/2026-11-27-unit211-equal-weight-same-v-linear-remainder-8542.js": "326ebabb3b30e0f37240ff1ec23c88c171602b176c89a7fbb8110f0a7052b038",
+    "notes/2026-11-27-unit211-equal-weight-same-v-six-projections-8542.js": "22a0e87c66f6e069fba021742cbf115d2dc76e041a73cb2359e56ed836fb2e12"
+  },
+  "originalNP": {
+    "seconds": 5.657,
+    "canonicalOutputSHA256": "ad68a3c76c7c27f447b1eb576cadf6e611e8491fcb052565eefe257561e6acb0"
+  },
+  "linearExecutions": [
+    {
+      "rows": [
+        "N1"
+      ],
+      "seconds": 0.315,
+      "canonicalOutputSHA256": "62182990bf1493c7f3692db2352456079604e382925b3d342a325b7873e6cc01",
+      "metadata": {
+        "N1": {
+          "alphaPower": 3,
+          "paid": [
+            [
+              "w",
+              1
+            ],
+            [
+              "k_minus_one",
+              1
+            ]
+          ],
+          "scale": "8",
+          "degrees0": [
+            14,
+            20
+          ],
+          "degrees1": [
+            13,
+            20
+          ],
+          "terms0": 124,
+          "terms1": 124
+        }
+      }
+    },
+    {
+      "rows": [
+        "Ns",
+        "Ps"
+      ],
+      "seconds": 4.758,
+      "canonicalOutputSHA256": "a119c3802abe8843407be7a720ff9829b767e583d3e913d12c165a5e02e48ea3",
+      "metadata": {
+        "Ns": {
+          "alphaPower": 4,
+          "paid": [
+            [
+              "w_minus_one",
+              1
+            ],
+            [
+              "w_minus_k",
+              1
+            ]
+          ],
+          "scale": "32",
+          "degrees0": [
+            22,
+            30
+          ],
+          "degrees1": [
+            21,
+            30
+          ],
+          "terms0": 308,
+          "terms1": 310
+        },
+        "Ps": {
+          "alphaPower": 4,
+          "paid": [
+            [
+              "w_minus_one",
+              1
+            ],
+            [
+              "w_minus_k",
+              2
+            ]
+          ],
+          "scale": "32",
+          "degrees0": [
+            22,
+            31
+          ],
+          "degrees1": [
+            21,
+            31
+          ],
+          "terms0": 333,
+          "terms1": 332
+        }
+      }
+    }
+  ],
+  "projectionExecutions": [
+    {
+      "rows": [
+        "N1",
+        "N1_Ns"
+      ],
+      "seconds": 9.33,
+      "canonicalOutputSHA256": "cc53a9b274a80e2399caf877423e362e2919fafde629daaee2d77708936e0040",
+      "metadata": {
+        "N1": {
+          "paid": [
+            [
+              "w_minus_one",
+              1
+            ],
+            [
+              "k_minus_one",
+              1
+            ],
+            [
+              "A",
+              1
+            ],
+            [
+              "R",
+              1
+            ]
+          ],
+          "scale": "2",
+          "degrees": [
+            27,
+            39
+          ],
+          "terms": 435
+        },
+        "N1_Ns": {
+          "paid": [
+            [
+              "k_minus_one",
+              1
+            ]
+          ],
+          "scale": "1",
+          "degrees": [
+            34,
+            50
+          ],
+          "terms": 762
+        }
+      }
+    },
+    {
+      "rows": [
+        "N1_Ps"
+      ],
+      "seconds": 5.174,
+      "canonicalOutputSHA256": "558cfd878e017a173cb58dafb8cb5979e9dce4f345938606c4649a6bac764e3f",
+      "metadata": {
+        "N1_Ps": {
+          "paid": [
+            [
+              "w_minus_one",
+              1
+            ],
+            [
+              "k_minus_one",
+              1
+            ]
+          ],
+          "scale": "1",
+          "degrees": [
+            34,
+            50
+          ],
+          "terms": 762
+        }
+      }
+    },
+    {
+      "rows": [
+        "Ns_Ps"
+      ],
+      "seconds": 13.79,
+      "canonicalOutputSHA256": "d7a1b05c677e340bedc0b971db87f4d3981b933759e46dfcd5d8a8c5f229432b",
+      "metadata": {
+        "Ns_Ps": {
+          "paid": [
+            [
+              "w",
+              2
+            ],
+            [
+              "k_minus_one",
+              3
+            ],
+            [
+              "P02_norm",
+              1
+            ]
+          ],
+          "scale": "1/2",
+          "degrees": [
+            35,
+            51
+          ],
+          "terms": 776
+        }
+      }
+    },
+    {
+      "rows": [
+        "Ns"
+      ],
+      "seconds": 22.56,
+      "canonicalOutputSHA256": "437e21d92f4dfe0f12d60d652d7a1a61dc6ace5acd804e7fac4a22aa34f001cb",
+      "metadata": {
+        "Ns": {
+          "paid": [
+            [
+              "k_minus_one",
+              1
+            ]
+          ],
+          "scale": "2",
+          "degrees": [
+            46,
+            65
+          ],
+          "terms": 1354
+        }
+      }
+    },
+    {
+      "rows": [
+        "Ps"
+      ],
+      "seconds": 23.613,
+      "canonicalOutputSHA256": "24d65712b1db857c51a6cdccd5b152b03d7d1a7169f0936221c554e6fd5afa83",
+      "metadata": {
+        "Ps": {
+          "paid": [
+            [
+              "w_minus_one",
+              1
+            ],
+            [
+              "k_minus_one",
+              1
+            ]
+          ],
+          "scale": "2",
+          "degrees": [
+            46,
+            66
+          ],
+          "terms": 1405
+        }
+      }
+    }
+  ],
+  "allOriginalTracesMultipliedBack": true,
+  "allPaidFactorProductsMultipliedBack": true,
+  "unpaidLinearLeadingZeroFibresRetained": true,
+  "wholeEqualWeightExcluded": false,
+  "OSExitCode": null,
+  "RSS": null
+}

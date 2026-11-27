@@ -91,3 +91,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 12:20 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 登记W0/H0有限原系统的完整29次权覆盖：已付主子式给六生成元，18真实乘法组合及78次constant cofactor逐列返回，保所有未付首项零。
 - 源00bbaf0b各成功组件/未整跑打包分开，新Cramer/27行闭包/追加gcd未决负回执精确冻结；继续F29同点返回。私库04:16接口规则/QUEUE无变，真实pull阻断如实保H。
+
+2026-11-27 12:22 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 登记等权三原N/P的同v一次余式及六参数投影：完整差幂原迹与已付内容均实际回乘，保所有线性首项零、v负一和原Dval。
+- 新增原NP/线性/投影函数体和真实V8回执；六双参数式未判空，继续低度原组合。两README无变，按最新head非force提交。

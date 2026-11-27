@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，等权原N/P同值一次余式及六投影）**：[三原多项式身份与完整共同根条件](results/R150-appendix-unit211-equal-weights-same-value-linear-remainders-and-six-projections.md)：alpha³/⁴乘原行减已付单位乘一次余式等于原均值二次的明确倍式；三子式/三范数对四等式给准确存在性，保全部一次首项零。六双参数余式次数27–46/39–66；只剥已付内容、全回乘，尚未判空或替代原Dval/同点返回。
+
 - **已证明（R150，W0/H0有限原系统的完整29次权覆盖）**：[六生成元、18真乘法身份及原cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-finite-six-generator-weight-cover.md)：二/三次主子式仅含已付单位，原商由1,x,y,t,y²,yt生成而未称自由；九必要行加原NS/PS乘法后六行constant cofactor给78次身份，剥49次已付因子得完整F29。各组件真实完成，源00bbaf0b打包未另全跑；全部新负门准确冻结，F29纤维仍开。
 
 - **已证明（R271，两个实际最大除法域的相反前缀图正则性）**：[完整低尾行、张量指数与真实缺陷方程](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)：对全部y∈D(G)控制V_ny，对全部v∈D(Amax)控制Q_nv，统一主率γ_ex>5/3与e^(−47n⁴)图误差，保全Y逆。真实图核心余空间准确满足T*y=Sf、By+Tf=0，故Amax f=−y；指数位权成立，未付alpha逆权、Γ或E=0。
