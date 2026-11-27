@@ -1,0 +1,356 @@
+{
+  "schema": "isp-original-one-pair-full-s1-schur-spectrum-v1",
+  "date_taipei": "2026-11-28",
+  "session": "Astra-ISP-8542378f-20261127",
+  "claim": "Full original nine-dimensional birth-two S1 for six positive weights containing an equal pair; all three remaining relative Schur spectral coefficients strictly positive on all five closed weight-order chambers.",
+  "run_id": 46080372041,
+  "job_id": 140777712507,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46080372041",
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46080372041/job/140777712507",
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s1-three-leaf-companion-schur-8542.py",
+  "source_git_blob": "7ed6dd024e44427cc3b117f39e81737342797b0b",
+  "input_git_blob": "465e2239b63a2e3ad6261b2e11b01151b18530af",
+  "proof_git_blob": "d5a4ecbe6b7b34229e026596f45f1adcb2228890",
+  "execution": {
+    "elapsed_seconds": 57.527394568000005,
+    "max_child_rss_kib": 165024,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "81cd646385345b50a2e65c8aafb8a2ba973f0ad2",
+        "before": "35da134338fb246114f9d0e6308157b166659b3e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T23:04:38.174664+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46080372041",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "35da134338fb246114f9d0e6308157b166659b3e",
+    "source_exit_code": 0,
+    "source_git_blob": "7ed6dd024e44427cc3b117f39e81737342797b0b",
+    "source_sha256": "dc2d74b36796f0bfa11a7beb58f7ef45def7147cb79cf7e958fa8fe7007aedca",
+    "stdout_bytes": 14053,
+    "stdout_sha256": "517e79d228013f5e6a7fbe9b27e29e5c0a8a37ea0d8b19b170590f2b8fb63310",
+    "stop_reason": null
+  },
+  "resource_limits": {
+    "inner_seconds": 180,
+    "address_space_bytes": 4294967296
+  },
+  "stages": [
+    {
+      "complete_layer_dimensions": [
+        1,
+        5,
+        11,
+        14,
+        11,
+        5,
+        1
+      ],
+      "event": "actual_companion_sources_and_both_cubic_bridges",
+      "lower_source_dimension": 4,
+      "seconds": 0.012226464000001158,
+      "upper_source_dimension": 6
+    },
+    {
+      "dimension": 6,
+      "event": "complete_inverse",
+      "label": "full-original-upper-six-source-metric",
+      "seconds": 0.0960269199999999
+    },
+    {
+      "dimension": 3,
+      "event": "complete_inverse",
+      "label": "distinct-leaf-two-physical-metric",
+      "seconds": 0.10323035500000088
+    },
+    {
+      "dimension": 3,
+      "event": "complete_inverse",
+      "label": "distinct-leaf-one-physical-metric",
+      "seconds": 0.10574850700000127
+    },
+    {
+      "dimension": 5,
+      "event": "complete_inverse",
+      "label": "full-original-lower-five-gram-2",
+      "seconds": 0.1545150640000017
+    },
+    {
+      "dimension": 5,
+      "event": "complete_inverse",
+      "label": "full-original-lower-five-gram-3",
+      "seconds": 0.21453983500000362
+    },
+    {
+      "dimension": 4,
+      "event": "complete_inverse",
+      "label": "original-four-source-Gamma3",
+      "seconds": 0.239045591
+    },
+    {
+      "event": "ORIGINAL_S1_COMPANION_MATRIX_READY",
+      "old_leading_minors_not_retested": true,
+      "seconds": 1.1782470090000032
+    },
+    {
+      "dimension": 3,
+      "event": "complete_inverse",
+      "label": "already-positive-original-star-three-block",
+      "seconds": 9.182633437
+    },
+    {
+      "dimension": 3,
+      "event": "complete_inverse",
+      "label": "original-positive-triangle-source-metric",
+      "seconds": 15.323276655
+    },
+    {
+      "collision_interpretation": "det(tG+S)/det(G), original continuous forms",
+      "event": "ORIGINAL_THREE_SOURCE_RELATIVE_SCHUR_READY",
+      "seconds": 16.089495317
+    },
+    {
+      "coefficient_order": 1,
+      "event": "ORIGINAL_SCHUR_SPECTRAL_COEFFICIENT_ALL_CHAMBERS_POSITIVE",
+      "seconds": 27.355539170999997
+    },
+    {
+      "coefficient_order": 2,
+      "event": "ORIGINAL_SCHUR_SPECTRAL_COEFFICIENT_ALL_CHAMBERS_POSITIVE",
+      "seconds": 42.456409613999995
+    },
+    {
+      "coefficient_order": 3,
+      "event": "ORIGINAL_SCHUR_SPECTRAL_COEFFICIENT_ALL_CHAMBERS_POSITIVE",
+      "seconds": 57.443005924000005
+    },
+    {
+      "S2_not_tested": true,
+      "all_three_original_spectral_coefficients_positive": true,
+      "already_paid_star_block_not_retested": true,
+      "event": "ORIGINAL_REMAINING_SCHUR_SPECTRAL_RESULT",
+      "full_S1_proved_only_if_all_passed": true,
+      "no_expanded_data_or_encoding_exported": true,
+      "no_original_leading_minor_4_gate": true,
+      "seconds": 57.446407277000006
+    }
+  ],
+  "spectral_coefficients": [
+    {
+      "coefficient_order": 1,
+      "denominator_terms": 7792,
+      "equal_weight_denominator": "22039921152000",
+      "event": "original_relative_schur_spectral_coefficient",
+      "numerator_degree": 26,
+      "numerator_sha256": "39bc304b7b7fcc683d03598552522fa3a8f44780c80b0fd9c2a6a0a68aa4d64d",
+      "numerator_terms": 8965,
+      "numerator_weighted_degree": 39,
+      "seconds": 16.175727336
+    },
+    {
+      "coefficient_order": 2,
+      "denominator_terms": 7792,
+      "equal_weight_denominator": "22039921152000",
+      "event": "original_relative_schur_spectral_coefficient",
+      "numerator_degree": 25,
+      "numerator_sha256": "7d9a01abfb768d0bb36d4b283bcb9059c21dd1c57a35549f142b35737befc375",
+      "numerator_terms": 8764,
+      "numerator_weighted_degree": 38,
+      "seconds": 31.812435968000003
+    },
+    {
+      "coefficient_order": 3,
+      "denominator_terms": 7792,
+      "equal_weight_denominator": "22039921152000",
+      "event": "original_relative_schur_spectral_coefficient",
+      "numerator_degree": 24,
+      "numerator_sha256": "f2dfd06205c00ba825509673875a707eae690135e566c4473328c7a8053fb57c",
+      "numerator_terms": 7794,
+      "numerator_weighted_degree": 37,
+      "seconds": 48.233877758000006
+    }
+  ],
+  "closed_chamber_certificates": [
+    {
+      "coefficient": 1,
+      "pair_position": 0,
+      "terms": 93585,
+      "negative_coefficients": 0,
+      "positive_constant": "154279448064000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "88b7f24b24d303fdb10d4abcfaf57552e861d2387ae7026949952a60c1dc8c9b",
+      "seconds": 18.660086089000004
+    },
+    {
+      "coefficient": 1,
+      "pair_position": 1,
+      "terms": 93517,
+      "negative_coefficients": 0,
+      "positive_constant": "154279448064000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "003f1a71b6796a0543814473b6ffeeb41d42872d50b6bd19f3b3a110634040e0",
+      "seconds": 20.977678511999997
+    },
+    {
+      "coefficient": 1,
+      "pair_position": 2,
+      "terms": 100362,
+      "negative_coefficients": 0,
+      "positive_constant": "154279448064000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "9de5a90a65d39babc83947ece3ac8c83f230e6e1737d4080fa4a808ec7ca55f6",
+      "seconds": 23.13784551
+    },
+    {
+      "coefficient": 1,
+      "pair_position": 3,
+      "terms": 107450,
+      "negative_coefficients": 0,
+      "positive_constant": "154279448064000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "6f550b6e00107dd05014bf571980dca2714ee0b4f9083c4953e8a2a087b39173",
+      "seconds": 25.203919908000003
+    },
+    {
+      "coefficient": 1,
+      "pair_position": 4,
+      "terms": 121775,
+      "negative_coefficients": 0,
+      "positive_constant": "154279448064000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "9a5b03e871b899eba9b709ea471ec268576d8878ce2f34f717c89517bcf0f4d7",
+      "seconds": 27.339962517000004
+    },
+    {
+      "coefficient": 2,
+      "pair_position": 0,
+      "terms": 86955,
+      "negative_coefficients": 0,
+      "positive_constant": "352638738432000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "20f022f84c8b019acb73db53fcb314b06304716c4dcd04c5fa282d73db1e4a46",
+      "seconds": 34.237656947999994
+    },
+    {
+      "coefficient": 2,
+      "pair_position": 1,
+      "terms": 86955,
+      "negative_coefficients": 0,
+      "positive_constant": "352638738432000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "74b1cda48c70ff27eca7a1a536a69a7cc6a5075f75f8de0fa838c5439c2a37b0",
+      "seconds": 36.486966771
+    },
+    {
+      "coefficient": 2,
+      "pair_position": 2,
+      "terms": 91199,
+      "negative_coefficients": 0,
+      "positive_constant": "352638738432000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "914358e994e203987e7b22fe6942cba544e3d2aa8c2e8dcfc26bd3d82d6234c9",
+      "seconds": 38.503212319
+    },
+    {
+      "coefficient": 2,
+      "pair_position": 3,
+      "terms": 98319,
+      "negative_coefficients": 0,
+      "positive_constant": "352638738432000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "d2c814b8409f41fcffce2b1d851d8c3ad882e9819083134555e0d36298702eaa",
+      "seconds": 40.437849478000004
+    },
+    {
+      "coefficient": 2,
+      "pair_position": 4,
+      "terms": 110355,
+      "negative_coefficients": 0,
+      "positive_constant": "352638738432000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "71a7e830509b3cd1a0680e706c1670e2c33ce50b01b218070f0c86cfbe9f2a02",
+      "seconds": 42.440903226
+    },
+    {
+      "coefficient": 3,
+      "pair_position": 0,
+      "terms": 78574,
+      "negative_coefficients": 0,
+      "positive_constant": "261213880320000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "119eec0be4e73c641c53d16947e44ba34a45994256aa41701c8528c7304672ec",
+      "seconds": 50.319097310000004
+    },
+    {
+      "coefficient": 3,
+      "pair_position": 1,
+      "terms": 78574,
+      "negative_coefficients": 0,
+      "positive_constant": "261213880320000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "316092e76987e5633b47d5b3504ce06701e13b9eb73f4a7c074c81103f472085",
+      "seconds": 52.208546728
+    },
+    {
+      "coefficient": 3,
+      "pair_position": 2,
+      "terms": 82042,
+      "negative_coefficients": 0,
+      "positive_constant": "261213880320000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "630695c1aece22941bd8d9c3ed6c147a89d38dc809bb403b6323d94c12c2e69e",
+      "seconds": 53.953404848999995
+    },
+    {
+      "coefficient": 3,
+      "pair_position": 3,
+      "terms": 88774,
+      "negative_coefficients": 0,
+      "positive_constant": "261213880320000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "b274abfb8544b113a65893b8fffe5d0c86f35fb62fd39e9bec94fd94865ab3be",
+      "seconds": 55.650970918
+    },
+    {
+      "coefficient": 3,
+      "pair_position": 4,
+      "terms": 98225,
+      "negative_coefficients": 0,
+      "positive_constant": "261213880320000",
+      "squares": 0,
+      "full_identity_checked": true,
+      "sha256": "62b1e4fb41f0f97fe094072b3771ddc9520a0daefdb1797c86be12d46ed45c1e",
+      "seconds": 57.428998319
+    }
+  ],
+  "boundaries": {
+    "S2_not_tested": true,
+    "uniform_all_weights_gap_not_claimed": true,
+    "old_leading_minors_not_retested": true,
+    "original_delta4_gate_not_replayed": true,
+    "ordinary_ISP_not_claimed": true,
+    "expanded_or_encoded_data_exported": false
+  }
+}
