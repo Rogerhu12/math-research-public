@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [碰撞全部Q首项退化排除与有限五坐标](results/R150-appendix-unit211-collision-complete-Q-head-exclusion-and-finite-original-five-coordinates.md)：整G2/C4上两E真u组合返1/(u−1)^4；原Q6首一化，完整同(λ,u,Q,f,z)环境维数≤235170，原剩余方程继续。
+
 - [整个G36排除与共同F恢复全域化](results/R150-appendix-unit211-W-G36-entire-original-exclusion-and-global-F-recovery.md)：完整1198参数所有原纤维合闭；同F=Fp(S)处处唯一，须保qF(Fp)与全部原条件，不删H411/L1或单独Bi零图。
 
 - [G36最后两个低参数原纤维完全排除](results/R150-appendix-unit211-W-G36-last-low29-complete-original-exclusion.md)：完整70/75维原模型、12个108×56满列原返回与有限自由提升，关闭最后low29；旧成功/失败不重放。

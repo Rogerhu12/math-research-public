@@ -1,0 +1,680 @@
+{
+  "schema": "isp-collision-E-Q-head-complete-original-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28 Asia/Taipei",
+  "runId": 46053691670,
+  "jobId": 140690958605,
+  "execution": {
+    "elapsed_seconds": 33.01884104999999,
+    "max_child_rss_kib": 54536,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "fb29c7c8bfc813d583a4b6e4c0225a8fafc9fc83",
+        "before": "0298b35143bc5e99acf40ef1bb452d7002df7d77",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T19:01:38.243433+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46053691670",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0298b35143bc5e99acf40ef1bb452d7002df7d77",
+    "source_exit_code": 0,
+    "source_git_blob": "6e807252f4d2f22aaabc4bcf5109528632213675",
+    "source_sha256": "5c7711ece94f13751f861bbf5092ccc7a0942e07e1dcb8630af1088bb5ec0bae",
+    "stdout_bytes": 8261,
+    "stdout_sha256": "1a896205e45d83fcb897f1a26bf131e60ab85a562d37ab6641eef72fbb88929c",
+    "stop_reason": null
+  },
+  "actualRecords": [
+    {
+      "stage": "new_E_Q_head_complete_QQ_lambda_factorization",
+      "allQQFactors": [
+        {
+          "head": "G2",
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            "-1",
+            "1",
+            "1"
+          ],
+          "bytes": 14,
+          "sha256": "19e61e98a36bab9e65a331f49787ba16f51b8fba70dcb786c643ec19a74328be"
+        },
+        {
+          "head": "C4",
+          "degree": 4,
+          "multiplicity": 1,
+          "coefficients": [
+            "3",
+            "-12",
+            "24",
+            "-24",
+            "8"
+          ],
+          "bytes": 26,
+          "sha256": "c14fdb1890f27b1190806fa0896a5ba77917ef0a5802802eb5b9f65d067aaf26"
+        }
+      ],
+      "completeFactorProductsActuallyReturned": true,
+      "noOldProjectionOrP3FiberGateExecuted": true,
+      "seconds": 0.00031469999998989806
+    },
+    {
+      "stage": "new_E_Q_head_both_saved_original_base_curves_loaded",
+      "profiles": [
+        {
+          "degrees_lambda_u_Q": [
+            177,
+            18,
+            0
+          ],
+          "totalDegree": 195,
+          "terms": 3338,
+          "bytes": 234963,
+          "sha256": "f01fc53fe5f4b8aeb6b053ef54f67de80cbd31aca2b31a33b1c960e19f9d3603"
+        },
+        {
+          "degrees_lambda_u_Q": [
+            182,
+            19,
+            0
+          ],
+          "totalDegree": 201,
+          "terms": 3621,
+          "bytes": 258367,
+          "sha256": "9e658ff1c4868d473b310bdaf177864d6eb636bc9d351fa48d2ac92e32504a2d"
+        }
+      ],
+      "completeOriginalCoefficientsRetained": true,
+      "noProjectionReconstruction": true,
+      "seconds": 0.07972434600000611
+    },
+    {
+      "stage": "new_E_Q_head_complete_specialized_base_curve_u_gcd",
+      "path": "G2/lambda_0",
+      "lambdaDegree": 2,
+      "actualUDegrees": [
+        18,
+        19
+      ],
+      "gcdDegree": 0,
+      "entireOriginalBaseCombinationActuallyReturned": true,
+      "originalUHeadDropsRetained": true,
+      "gcdCoefficients": [
+        [
+          "1"
+        ]
+      ],
+      "certificate": {
+        "bytes": 309430,
+        "sha256": "0511446584a2dabe526bae737e06cc55fc1cdda20a50d9a85c65af6d682fb28f"
+      },
+      "seconds": 14.279552410000008
+    },
+    {
+      "stage": "new_E_Q_head_original_whole_finite_fiber_return",
+      "path": "G2/lambda_0",
+      "lambdaModulus": [
+        "-1",
+        "1",
+        "1"
+      ],
+      "bothBaseCurvesOriginalConstantOneActuallyReturned": true,
+      "excluded": true,
+      "certificate": {
+        "bytes": 309430,
+        "sha256": "0511446584a2dabe526bae737e06cc55fc1cdda20a50d9a85c65af6d682fb28f"
+      },
+      "elapsedSeconds": 14.163466215,
+      "seconds": 14.280836373999989
+    },
+    {
+      "stage": "new_E_Q_head_complete_specialized_base_curve_u_gcd",
+      "path": "C4/lambda_1",
+      "lambdaDegree": 4,
+      "actualUDegrees": [
+        18,
+        19
+      ],
+      "gcdDegree": 4,
+      "entireOriginalBaseCombinationActuallyReturned": true,
+      "originalUHeadDropsRetained": true,
+      "gcdCoefficients": [
+        [
+          "1"
+        ],
+        [
+          "-4"
+        ],
+        [
+          "6"
+        ],
+        [
+          "-4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "certificate": {
+        "bytes": 289800,
+        "sha256": "57582f1326de03d314d02d49a3ee6bfda0bef8d808218afd03b3f92bcc8f95c9"
+      },
+      "seconds": 18.913672811999987
+    },
+    {
+      "stage": "new_E_Q_head_actual_u_nonunit_complete_split",
+      "path": "C4/lambda_1",
+      "uFactor": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "uComplement": [
+        [
+          "-1"
+        ],
+        [
+          "3"
+        ],
+        [
+          "-3"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "published collision original unit u-1",
+      "originalPaidUnitOnFirstFactor": "u-1",
+      "completeOriginalUFactorProductVerified": true,
+      "bothOriginalFibersRetained": true,
+      "seconds": 18.919910821000002
+    },
+    {
+      "stage": "new_E_Q_head_named_original_unit_zero_entire_component",
+      "path": "C4/lambda_1/ua",
+      "lambdaModulus": [
+        "3",
+        "-12",
+        "24",
+        "-24",
+        "8"
+      ],
+      "uModulus": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "originalPaidUnitIdenticallyZero": "u-1",
+      "actualOriginalGcdProductVerified": true,
+      "excluded": true,
+      "seconds": 18.919960443999997
+    },
+    {
+      "stage": "new_E_Q_head_complete_specialized_base_curve_u_gcd",
+      "path": "C4/lambda_1/ub",
+      "lambdaDegree": 4,
+      "actualUDegrees": [
+        18,
+        19
+      ],
+      "gcdDegree": 4,
+      "entireOriginalBaseCombinationActuallyReturned": true,
+      "originalUHeadDropsRetained": true,
+      "gcdCoefficients": [
+        [
+          "1"
+        ],
+        [
+          "-4"
+        ],
+        [
+          "6"
+        ],
+        [
+          "-4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "certificate": {
+        "bytes": 289800,
+        "sha256": "57582f1326de03d314d02d49a3ee6bfda0bef8d808218afd03b3f92bcc8f95c9"
+      },
+      "seconds": 23.555621970000004
+    },
+    {
+      "stage": "new_E_Q_head_actual_u_nonunit_complete_split",
+      "path": "C4/lambda_1/ub",
+      "uFactor": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "uComplement": [
+        [
+          "1"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "published collision original unit u-1",
+      "originalPaidUnitOnFirstFactor": "u-1",
+      "completeOriginalUFactorProductVerified": true,
+      "bothOriginalFibersRetained": true,
+      "seconds": 23.560208297999992
+    },
+    {
+      "stage": "new_E_Q_head_named_original_unit_zero_entire_component",
+      "path": "C4/lambda_1/ub/ua",
+      "lambdaModulus": [
+        "3",
+        "-12",
+        "24",
+        "-24",
+        "8"
+      ],
+      "uModulus": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "originalPaidUnitIdenticallyZero": "u-1",
+      "actualOriginalGcdProductVerified": true,
+      "excluded": true,
+      "seconds": 23.560255756999993
+    },
+    {
+      "stage": "new_E_Q_head_complete_specialized_base_curve_u_gcd",
+      "path": "C4/lambda_1/ub/ub",
+      "lambdaDegree": 4,
+      "actualUDegrees": [
+        18,
+        19
+      ],
+      "gcdDegree": 4,
+      "entireOriginalBaseCombinationActuallyReturned": true,
+      "originalUHeadDropsRetained": true,
+      "gcdCoefficients": [
+        [
+          "1"
+        ],
+        [
+          "-4"
+        ],
+        [
+          "6"
+        ],
+        [
+          "-4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "certificate": {
+        "bytes": 289800,
+        "sha256": "57582f1326de03d314d02d49a3ee6bfda0bef8d808218afd03b3f92bcc8f95c9"
+      },
+      "seconds": 28.281653645000006
+    },
+    {
+      "stage": "new_E_Q_head_actual_u_nonunit_complete_split",
+      "path": "C4/lambda_1/ub/ub",
+      "uFactor": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "uComplement": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "reason": "published collision original unit u-1",
+      "originalPaidUnitOnFirstFactor": "u-1",
+      "completeOriginalUFactorProductVerified": true,
+      "bothOriginalFibersRetained": true,
+      "seconds": 28.28536772999999
+    },
+    {
+      "stage": "new_E_Q_head_named_original_unit_zero_entire_component",
+      "path": "C4/lambda_1/ub/ub/ua",
+      "lambdaModulus": [
+        "3",
+        "-12",
+        "24",
+        "-24",
+        "8"
+      ],
+      "uModulus": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "originalPaidUnitIdenticallyZero": "u-1",
+      "actualOriginalGcdProductVerified": true,
+      "excluded": true,
+      "seconds": 28.285414677999995
+    },
+    {
+      "stage": "new_E_Q_head_complete_specialized_base_curve_u_gcd",
+      "path": "C4/lambda_1/ub/ub/ub",
+      "lambdaDegree": 4,
+      "actualUDegrees": [
+        18,
+        19
+      ],
+      "gcdDegree": 4,
+      "entireOriginalBaseCombinationActuallyReturned": true,
+      "originalUHeadDropsRetained": true,
+      "gcdCoefficients": [
+        [
+          "1"
+        ],
+        [
+          "-4"
+        ],
+        [
+          "6"
+        ],
+        [
+          "-4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "certificate": {
+        "bytes": 289800,
+        "sha256": "57582f1326de03d314d02d49a3ee6bfda0bef8d808218afd03b3f92bcc8f95c9"
+      },
+      "seconds": 32.931606442
+    },
+    {
+      "stage": "new_E_Q_head_named_original_unit_zero_entire_component",
+      "path": "C4/lambda_1/ub/ub/ub",
+      "lambdaModulus": [
+        "3",
+        "-12",
+        "24",
+        "-24",
+        "8"
+      ],
+      "uModulus": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "originalPaidUnitIdenticallyZero": "u-1",
+      "excluded": true,
+      "seconds": 32.93477292099999
+    },
+    {
+      "stage": "new_complete_E_Q_head_original_finite_return_finished",
+      "sourceSHA256": "5c7711ece94f13751f861bbf5092ccc7a0942e07e1dcb8630af1088bb5ec0bae",
+      "completeOriginalHeadQQFactors": [
+        {
+          "head": "G2",
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            "-1",
+            "1",
+            "1"
+          ],
+          "bytes": 14,
+          "sha256": "19e61e98a36bab9e65a331f49787ba16f51b8fba70dcb786c643ec19a74328be"
+        },
+        {
+          "head": "C4",
+          "degree": 4,
+          "multiplicity": 1,
+          "coefficients": [
+            "3",
+            "-12",
+            "24",
+            "-24",
+            "8"
+          ],
+          "bytes": 26,
+          "sha256": "c14fdb1890f27b1190806fa0896a5ba77917ef0a5802802eb5b9f65d067aaf26"
+        }
+      ],
+      "allActualLambdaAndUFactorSplits": [
+        {
+          "path": "C4/lambda_1",
+          "uFactor": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "uComplement": [
+            [
+              "-1"
+            ],
+            [
+              "3"
+            ],
+            [
+              "-3"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "reason": "published collision original unit u-1",
+          "originalPaidUnitOnFirstFactor": "u-1",
+          "completeOriginalUFactorProductVerified": true,
+          "bothOriginalFibersRetained": true
+        },
+        {
+          "path": "C4/lambda_1/ub",
+          "uFactor": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "uComplement": [
+            [
+              "1"
+            ],
+            [
+              "-2"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "reason": "published collision original unit u-1",
+          "originalPaidUnitOnFirstFactor": "u-1",
+          "completeOriginalUFactorProductVerified": true,
+          "bothOriginalFibersRetained": true
+        },
+        {
+          "path": "C4/lambda_1/ub/ub",
+          "uFactor": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "uComplement": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "reason": "published collision original unit u-1",
+          "originalPaidUnitOnFirstFactor": "u-1",
+          "completeOriginalUFactorProductVerified": true,
+          "bothOriginalFibersRetained": true
+        }
+      ],
+      "allOriginalFiniteReturns": [
+        {
+          "path": "G2/lambda_0",
+          "lambdaModulus": [
+            "-1",
+            "1",
+            "1"
+          ],
+          "bothBaseCurvesOriginalConstantOneActuallyReturned": true,
+          "excluded": true,
+          "certificate": {
+            "bytes": 309430,
+            "sha256": "0511446584a2dabe526bae737e06cc55fc1cdda20a50d9a85c65af6d682fb28f"
+          },
+          "elapsedSeconds": 14.163466215
+        },
+        {
+          "path": "C4/lambda_1/ua",
+          "lambdaModulus": [
+            "3",
+            "-12",
+            "24",
+            "-24",
+            "8"
+          ],
+          "uModulus": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "originalPaidUnitIdenticallyZero": "u-1",
+          "actualOriginalGcdProductVerified": true,
+          "excluded": true
+        },
+        {
+          "path": "C4/lambda_1/ub/ua",
+          "lambdaModulus": [
+            "3",
+            "-12",
+            "24",
+            "-24",
+            "8"
+          ],
+          "uModulus": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "originalPaidUnitIdenticallyZero": "u-1",
+          "actualOriginalGcdProductVerified": true,
+          "excluded": true
+        },
+        {
+          "path": "C4/lambda_1/ub/ub/ua",
+          "lambdaModulus": [
+            "3",
+            "-12",
+            "24",
+            "-24",
+            "8"
+          ],
+          "uModulus": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "originalPaidUnitIdenticallyZero": "u-1",
+          "actualOriginalGcdProductVerified": true,
+          "excluded": true
+        },
+        {
+          "path": "C4/lambda_1/ub/ub/ub",
+          "lambdaModulus": [
+            "3",
+            "-12",
+            "24",
+            "-24",
+            "8"
+          ],
+          "uModulus": [
+            [
+              "-1"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "originalPaidUnitIdenticallyZero": "u-1",
+          "excluded": true
+        }
+      ],
+      "bothEntireOriginalQHeadZeroFibersExcluded": true,
+      "allOriginalQLeadingZeroFibersRetained": true,
+      "actualUHeadDropsPreserved": true,
+      "noPhysicalDInverse": true,
+      "noPriorProjectionOrP3FiberGateReplayed": true,
+      "remainingEIntersectionStillRequiresOriginalReturn": true,
+      "wholeCollisionExcluded": false,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 54536,
+      "seconds": 32.93553999700001
+    }
+  ],
+  "bothWholeQHeadFibersExcluded": true,
+  "originalQFallbackActuallyExecuted": false,
+  "remainingDifferentFiveCoordinateUpperBound": 235170,
+  "finiteQQEnvironmentDimensionUpperBound": 235170,
+  "remainingOriginalEquationsUnreturned": true,
+  "wholeCollisionExcluded": false,
+  "ordinaryISPClaim": false
+}

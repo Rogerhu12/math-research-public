@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-G36-global-F-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-finite-five-coordinates-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -187,7 +187,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [整个Delta0](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)及[整个J2二次λ纤维](results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md)均已原排空。后者先由ef759完整u覆盖F28/F23/F6，再由a2a真0.855秒/85760KiB/0返回224/184维原R单位及末48维真实QQ Delta²；一次目标未返不冒非成员，两个λ嵌入/全部uQ均保。
 
-[两原QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)中的J2已闭，新[整条P25,3原排除](results/R150-appendix-unit211-collision-P3-entire-original-exclusion.md)由保存66覆盖完成：35afaf真26.407033314秒/56164KiB/0，全部六QQ域及lambda/u首项退化保留，12叶全闭；九个原Q整商返回为一次1、八次Delta²。64原除法/397真逆均乘回，无D逆/模提升，重复u因子两侧真实保留。旧1474/Gamma66及所有成功门冻结。余下只能在E177/18∩E182/19，至多39195不同λu；原Q、同f/z及所有个别N/P仍开，不宣Q有限。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开。
+**[碰撞全部Q头退化已闭、五坐标有限](results/R150-appendix-unit211-collision-complete-Q-head-exclusion-and-finite-original-five-coordinates.md)。** 继整Delta0/J2/P25,3后，新5c771真33.018841050秒/54536KiB/0，从已存两E在整QQ2/4域返u-gcd 1/(u−1)^4，原u1单位排全部重纤维，Q后备未执行。余E1/E2基代数dim≤39195，C_W首项κλ4A13J2G2²C4²全付，首一Q6再局部化/取商维数≤235170；同原Delta非零恢复f,z，给五坐标(λ,u,Q,f,z)的相同上界，不含未列rho/个别值。仍须在此有限环境中返回全部原Q及个别N/P，不宣碰撞空。h1/k1≤6219、ell三次后≤18657权三元组/自由t仍开，5b2及旧已成门冻结。
 
 ## W：同一 S 的原二次系统及权六次例外（8542，2026-11-28）
 
