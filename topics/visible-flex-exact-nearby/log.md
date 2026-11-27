@@ -154,3 +154,10 @@
 DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26aed145db41401311dce3e63a8ba05d32d69dd915e158，exec27035B SHA94f1a5a87ff3215443c9fa8950ad037f10e225752d3fec9bd6e00f9fa75d01d7。e_w∞≈.347099250283449/e_w2≈.0646368666448015，全finite B†residual≈.0145911772738716、fullrowerror≈.857445102118870、J≈9.7971921608898；全误差如实保。原2048 w与96×192 signedB rows完整SHA已锁，actual proof另登记。
 
 据真whole生成BNC首manifest76380B SHAa6655051c571970a407fad139fa9485251f4091835db7b6e5e2468ea181ef42b，179current/51原native，DW9/NP2/PO12/SB11四父whole全部成，原6源码不改；metadata按同generator build生成，无本地Python/science。改.github/workflows/fourfold-codazzi-target-normalized-strict-nu-public.yml作唯一push首7目标入口，恢复只原SN/NP/row whole SHA，不重旧目标/不dispatch。
+
+
+### 2026-11-27 — WMR4首次入口真实prechild失败与最小角色字段续接
+
+原45941738781/1、event785c518e09d0d0a11a31730226c5ca66c9bf2a4d于04:45:27在public worker main line167抛KeyError reviewed_rules；完整decoded日志139208B、SHA256 fcc16476af7618d9a3804883a2872f6816df51ccbe800e7230853f387e76c582。继承引擎硬取by_role[reviewed_rules]，原RHI current前缀令主role变RHI_reviewed_rules，路径alias不替代主role。该行在首pull、reservation、try/publication及唯一Popen前；实际0child/0science/0target，没有伪造未产生的native execution。完整失败事实见notes/2026-11-27-complete-reference-world-height-rule-role-failure.json。
+
+新5件只修主role并显式准入此真实失败；原owner/math/restore、四targets、8192grid、51history及所有数学参数不变。manifest71668B/414de43ca1eabc4445a098f95a8de6ffbdb7efc179752f4b4e8908498d83a85f绑定109current/51history，112必要sparse路径；共用原consumed marker，唯一新push workflow。原失败记录原样保留，不dispatch旧入口。BNC唯一45941963989/1已真实开始原7targets，未改变。规则按本commit父检查两README无diff。
