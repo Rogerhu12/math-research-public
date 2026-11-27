@@ -32,6 +32,14 @@ $$
 
 **固定正权证书已付：**公开run46073583710/job140756005342实际成功，固定 $p=227,u=1$、$n=51526$ 的两个原完整槽系数均非零，整窗身份全PASS，故 $R_{{\rm can},227}(226)\ne0$。辅助65537只证明特征零非零；离散障碍的非零前提现在不是空条件。**正在做：**实际共同因子的微分/level锁定，以及原bad点更深根与完整 $p^2$ 对应的真实算子。未能接合就继续同一 S3150 forcing/原矩阵方向，不停止研究。参考端点、真正 derived 读数及无穷 $p$ 非零仍须解决。已排权二 $B_6$ 的全部toric点零不再重算。
 
+[原bad CM点的真实b2读者与p²边界](notes/2026-11-27-original-bad-cm-b2-source-and-p-square-boundary.md)：$g_1^*Q_1=Q_2$、$g_1^*\omega_{\rm can}=\omega_{\rm can}$、$g_1^*dz_{\rm dR}=p^{-1}dz_{\rm dR}$，故好点 $(p\theta)^j$ 的连续读者实际运输成坏点 $(p^2\theta)^j$，但source是 $g_1^*F$。回原source仍须好点 $g_2^*F_0$ 的完整有界性。对同一实际cyclic $p^2$分支，严格有
+$
+O_D=(1-p^{-2})G(E)-\lambda_D^*I_D/p^2.
+$
+完整incoming范数为零而outward为 $p(p+1)(1-p^{-2})G$，所以对偶/Fricke换点仍留下原 $G(E)$ 边界；不能靠相同Euler因子恢复原图。直接proper图身份保留，未与Newton或flat负端点相认。
+
+下一须在这个真实outward source上证明完整flat/微分比较；好点incoming连续性单独不读该边界。
+
 ## O原矩阵. 正特征完整重数界及第二、第三区块
 
 [三变量 $V$](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)已付全次数稳定素簇分类、原奇点 D-property 常数1、真实截断评价及 minimal primary 长度小于 $p$ 的根稳定性。固定低次数通用 Noetherian 链给固定退出指标 $M$，仅为存在性常数。

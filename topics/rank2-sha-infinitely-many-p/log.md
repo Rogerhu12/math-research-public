@@ -322,3 +322,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 22:01 UTC：消费arithmetic追加稿e2c3ddd7035123d0af6e7e217b85b70f2b2a73da，原forest扩至§§16–18.1。root逐式核同厚理想/电荷、剥显示分类因子、通用判别式一次项、低b例外、W齐次权和三个分离外角；亲读R534(38)–(51)、R479(3)、R481(18)–(20)确认实际两carry及same R/Xi。已窄查既有H+3K/判别式，旧R467和局部double-contact不与本全角必要式重复；R808分裂沿旧结论不重算。完整note38178B/SHA256 4de02556e6ee6e471e20979e38061329b94c3228605cc1d2008c8da189635ae1。只缩小实际核形状，未排所有核或给全局严格斜率。另21:59 fixed-p提交ref出现UNKNOWN/main前进，立即实际本地pull失败（无环境），重比父后二轮CAS成功1e2c2bc；此commit同时触发2201两库实际CI pull，基线084913/f8759，补拉后只读README差异。无数学执行。
+
+
+- 2026-11-27 22:03 UTC：消费central实际b2/同p²边界稿dff6d93fa4774df7030cce58cf1969eecb404d69。root亲读作者1805.03605(184)–(185)、书7.13/Definition7.19，核g1/g2的Q_b、omega/dz和p^j运输；逐支展开lambda/dual复合与H¹中心p²，确认incoming零范数仍有原G边界。修正文“分母的因子小于aux”而非整个乘积分母小于aux；固定p227只引用已成run，不复制结果表。新note7776B/SHA256 a655b939f044b64f7a3234e7e7e9d9633f488db659a44bb9abdc4815673559d6，无数学执行。同步消费run46073965457/job140757219958：公开22:01:06 actual pull至3bd753e5d0f0cd071d0ba615c9774695e0165b6f、私库22:01:10至54fd1d828eece642bc55afb7d55c7bde4c3df093；较084913/f8759两README全无变，完整已读blob记H，QUEUE a01613b不变。规则15 tree65320c934ac0024f3644d35643ad216c565d082a、3126blob/44,026,440B、无>5MB、三旧输入SHA不变；log14892B/hash c34c734d6fb1000b2389ecb657ed274da1034148b58f55e499448b83c29ef997不落库。下一两库actual pull≤23:01UTC。

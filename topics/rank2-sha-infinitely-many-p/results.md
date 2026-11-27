@@ -138,3 +138,10 @@ $$
 \le \lfloor11W/34\rfloor-r(2b-2).
 $$
 失败只强迫实际非边界重复因子，未排所有核；同一R的两carry、完整首次提升和真正第二余核Xi全部保留。低b例外明确，未以独立三次秩或新中央导数代替原三块。
+
+
+- [原bad CM点的真实b2读者与p²边界](notes/2026-11-27-original-bad-cm-b2-source-and-p-square-boundary.md)：$g_1^*Q_1=Q_2$、$g_1^*\omega_{\rm can}=\omega_{\rm can}$、$g_1^*dz_{\rm dR}=p^{-1}dz_{\rm dR}$，故好点 $(p\theta)^j$ 的连续读者实际运输成坏点 $(p^2\theta)^j$，但source是 $g_1^*F$。回原source仍须好点 $g_2^*F_0$ 的完整有界性。对同一实际cyclic $p^2$分支，严格有
+$$
+O_D=(1-p^{-2})G(E)-\lambda_D^*I_D/p^2.
+$$
+完整incoming范数为零而outward为 $p(p+1)(1-p^{-2})G$，所以对偶/Fricke换点仍留下原 $G(E)$ 边界；不能靠相同Euler因子恢复原图。直接proper图身份保留，未与Newton或flat负端点相认。

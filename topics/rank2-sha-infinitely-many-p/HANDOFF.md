@@ -12,11 +12,10 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 ## 实际同步与规则
 
-- 最新两库实际部分clone/pull --rebase：只读CI run46069822587/job140743822950，source084913a27ff7cb01fa36c301f7f6965de16d2717。公开21:22:05UTC至084913a27ff7cb01fa36c301f7f6965de16d2717，较f044013487035c28f2c3e21494edf0494453495d两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库21:22:09UTC至f8759bf1ee45ae74459d7f6e78af4cb114c0788b，较bca09f7f22dd54e77e0a7f1d47f525fbb9b5eec1两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
-- 本地07:20失联，21:59实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI/本地/API分别记。**下一两库实际pull不迟于22:22UTC**；每次只读两README新差异，立即照新规并记已读SHA。API比较不冒作pull。
-- 21:59 fixed-p回执推送遇GraphQL UNKNOWN/main前进，已立即实际pull尝试但本地无环境，重比新父第二轮CAS成功1e2c2b；本次2201只读两库pull请求立即补拉，尚待回执。
-- 21:21低degree引理推送遇GraphQL UNKNOWN/main前进，本地实际pull失败后重比新父第二轮CAS成功be5f5e；本轮21:22 CI已补拉成功。规则15库存3119blob/43,883,386B、tree6d8aed3bab5ce4b57fbf70aeda9e380c43021f6e，无>5MB，三旧gzip必要输入SHA不变；完整回执hash在log，不落可重算日志。
+- 最新两库实际部分clone/pull --rebase：只读CI run46073965457/job140757219958，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f。公开22:01:06UTC至同source，较084913a27ff7cb01fa36c301f7f6965de16d2717两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库22:01:10UTC至54fd1d828eece642bc55afb7d55c7bde4c3df093，较f8759bf1ee45ae74459d7f6e78af4cb114c0788b两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
+- 本地07:20失联，21:59实际pull重试仍无环境；末次本地公开07:12的1cf10ac。21:59 ref UNKNOWN/main前进后，实际本地pull失败、重比新父二轮CAS成功1e2c2bc，本轮22:01实际CI补拉成功。CI/本地/API分别记。**下一两库实际pull不迟于23:01UTC**；每次只读两README新差异并记已读SHA，不以API比较冒作pull。
+- 规则15库存3126blob/44,026,440B、tree65320c934ac0024f3644d35643ad216c565d082a，无>5MB，三旧gzip必要输入SHA不变。只读job日志14892B/hash c34c734d6fb1000b2389ecb657ed274da1034148b58f55e499448b83c29ef997，不保存日志。此前每小时实际回执及21:21拒推补拉链在log/归档保留。
 
 ## 唯一原完整厚几何执行
 
@@ -35,6 +34,8 @@ Kriz 6.21连续的是实际 $q_{\rm dR}^{1/p}$ 的flat族。7.20把它认作usua
 因此旧full54§§7–8、六线§§8–9、新psi4§§7–9的连续几何cross、H−2/AJ及F几何单位**全部改为有条件**。各文件已置页首更正，历史归档保留。不能只降正权而保负端点。直接proper-fp、完整图/Artin/p²全和、R1049晶体/Manin/残余和独立signed范围不自动撤回；纯Newton尾界及完整整数身份继续有效。
 
 下一实际审计：固定 $p=227,u=1$ 的原两槽系数，$n=51526,n+2=51528$，同读 $q=z^6$ 的8587次。辅助模65537只作特征零非零证书，非p单位、非无穷p。公开run46073583710/job140756005342/source38d4107ce0fa11b0fdf5c99a6df6596d6c3c32f5已SUCCESS；两整槽均非零、三个全窗身份PASS，故原Rcan,227(226)≠0。stdout1239B/hash b74f221e90348e596670facaa5d0f0e868ee0e7c4351565d8ed477725ee8019f；不存前缀/结果。与此同时按原bad点的真实更深根/全p²对应重证最窄算子，若不接则转同一S3150 forcing，不能用抽象flat代图。
+
+[正确b2及边界](notes/2026-11-27-original-bad-cm-b2-source-and-p-square-boundary.md)已付真实坐标/微分/level运输，good源拉回是 $g_1^*F$ 而非原F。原同一D有 $O_D=(1-p^{-2})G-\lambda_D^*I_D/p^2$；全incoming范数零仍留下outward的原G边界。下一须真正证明该source的flat/primitive，不能由Fricke或全Hecke标量省略。
 
 ## 独立保留的实际新来源与几何
 
