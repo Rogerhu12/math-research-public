@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 05:11:40 UTC，真实pull/rebase至origin/main `0827289eb329d1810acbad242d85b4937784952e`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 05:19:44 UTC，真实pull/rebase至origin/main `a5825f373bb1ea15ffff675c5929391e5a17f2ba`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
@@ -41,6 +41,8 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 [07完整原输入/真carrier](notes/2026-11-26-run07-actual-restored-old-carrier-and-radial-word-identity.md)1–3真返，3df/e640同、整dc5恢复且cells/u/Gauss全字同；[05全部来源](notes/2026-11-26-run05-all-source-material-envelope-closure.md)保1–18及19未知。root独立policy2全E/typed真筛、不冒旧protected顺序；[c79/7299/bd1a消费者](notes/2026-11-27-complete-material-envelope-consumer-and-preserved-prefix-rows.md)与[cc0a/b93a/104e完整入口](notes/2026-11-26-complete-material-envelope-cached-normal-entry.md)原全部变量/Phi/m32/预算保，[07终态](notes/2026-11-27-run07-terminal-cancellation-and-unreturned-full-normal-field.md)API cancelled，仅1–3真返；step4/新场及后继均未返，未知typed责任保。
 
 [同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)/[M320全体](notes/2026-11-27-M320-complete-frequency-refinement-cloud-reconstruction-v2.md)已刊13源/3再生器/两ready；6a9008/bc0c保原M160参考、三通道正确嵌入和全E/typed。[07实际排队及2–3全归档](notes/2026-11-27-run07-complete-M320-queue-and-returned2-3-archives.md)保原四pending，M320接cc0a真父/pure后。仅cc0a/91c非新7c；无精化真返，径向/N/连续同支仍欠。
+
+[解析J3+根记录全入口](notes/2026-11-27-complete-analytic-J3-packet-envelope-entry.md)13体/两再生器/两全参数ready已成，root真再生及48源核过；0dfb/c2a保m32/全变量/J/J*/全E，新增显式95559完整13成员迁移，未知07/08责任保。现仅source完成，7c参数不冒09输入，真实field/费用未付。
 
 [09完整输入启动](notes/2026-11-27-run09-complete-bootstrap-for-analytic-normal-continuation.md)保原warm+4e全参数；解析J3待全源/真实输入绑定后准入。07/08未知父/typed责任保，不预填新chart或同g，08原95559不改。
 

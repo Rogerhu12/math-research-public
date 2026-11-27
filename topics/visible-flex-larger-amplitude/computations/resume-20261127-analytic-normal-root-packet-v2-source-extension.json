@@ -1,0 +1,54 @@
+{
+  "schema": "complete-analytic-normal-root-packet-source-extension-v2",
+  "parent": {
+    "name": "immutable_normal_root_packets_with_entry_binding_v2.py",
+    "sha256": "ef0d00b4e07b34283b0c73591fb985b7879a4f221f74895eff7a11a0d2db06b1",
+    "bytes": 65063,
+    "blob": "92c19ca29ad2e3f84d931e8224da8f4a8add94bb"
+  },
+  "output": {
+    "name": "immutable_analytic_normal_root_packets_v2.py",
+    "sha256": "1e0656b19de4eb78937a9f8305569d7c1cce59f48614fb7a279738942bcd622e",
+    "bytes": 67095,
+    "blob": "4eef12117ecef023ffef257607ea1ef2fec75a6a"
+  },
+  "exact_patches": [
+    {
+      "old": "SCHEMA = 'immutable-current-normal-chain-root-packets-with-entry-binding-v2'",
+      "new": "SCHEMA = 'immutable-current-analytic-normal-chain-root-packets-with-entry-binding-v2'",
+      "count": 1
+    },
+    {
+      "old": "NORMALS = {\n",
+      "new": "NORMALS = {\n    '04f1d2724e1d93f138d03c558262f53e1dd5433791c081c7f93c37eeab84e21e': dict(\n        schema='complete-R711-reference-centred-analytic-J3-adjacent-frame-SO3-fixed-normal-plane-six-control-layer-v1',\n        base='6a80361a7f2fe376682fd63d39215630f5b31d4bc26493552b458691404db865',\n        adjacent='8a63cc1817fd0853c2b7ee69b64e3083de22106c239b62acc602ad9b69698787',\n        calibration='4c3fb7a6d19a9c214e2dc69428456b62bc406c8329bc60083e1f5f8be3ff3d6d',\n        analytic='64b39a8be75ee976dbf4b49768e4ebaf37a372f77dba397a439a054cc4e7465d'),\n",
+      "count": 1
+    },
+    {
+      "old": "def _scientific_counts(q):\n    return copy_json(dict(field=q.counts,endpoint=q.endpoint_counts,normal=q.normal_counts,\n        frame=q.frame_c1.counts,stage=q.stage_matrices.counts,adjacent=q.adjacent_frames.counts))\n",
+      "new": "def _scientific_counts(q):\n    value=dict(field=q.counts,endpoint=q.endpoint_counts,normal=q.normal_counts,\n        frame=q.frame_c1.counts,stage=q.stage_matrices.counts,adjacent=q.adjacent_frames.counts)\n    spec=NORMALS[q.model['source_sha256']]\n    if 'analytic' in spec:value['analytic_stage_jacobian']=q.analytic_stage_jacobian.counts\n    return copy_json(value)\n",
+      "count": 1
+    },
+    {
+      "old": "        self.partition=[str(v) for v in q.normal_step_nodes]\n",
+      "new": "        self.analytic_functions={}\n        if 'analytic' in self.spec:\n            actual=q.analytic_stage_jacobian\n            if (self.roles.get('analytic_J3')!=self.spec['analytic']\n                    or actual.definition!=q.model.get('analytic_stage_jacobian')\n                    or actual.definition.get('source_sha256')!=self.spec['analytic']):\n                raise ValueError('Bind the complete actual analytic local-J3 source and model definition')\n            for name in ('matrix','metadata'):\n                function=getattr(actual,name).__func__\n                if sha(function.__code__.co_filename)!=self.spec['analytic']:\n                    raise ValueError('The actual local-J3 counter/metadata source differs')\n                self.analytic_functions[name]=function\n        self.partition=[str(v) for v in q.normal_step_nodes]\n",
+      "count": 1
+    },
+    {
+      "old": "    def _array(self,value,shape=None,dtype='float64'):\n",
+      "new": "        if self.analytic_functions and any(getattr(q.analytic_stage_jacobian,n).__func__ is not f\n                for n,f in self.analytic_functions.items()):\n            raise ValueError('Do not replace the bound actual analytic-J3 implementation during capture')\n\n    def _array(self,value,shape=None,dtype='float64'):\n",
+      "count": 1
+    },
+    {
+      "old": "            start_token=self._cache_token()\n",
+      "new": "            if ('analytic' in self.spec and metadata.get('analytic_stage_jacobian',{}).get(\n                    'actual_counts')!=before['analytic_stage_jacobian']):\n                raise ValueError('Use the same actual analytic-J3 count snapshot as the whole operator metadata')\n            start_token=self._cache_token()\n",
+      "count": 1
+    }
+  ],
+  "normal": "04f1d2724e1d93f138d03c558262f53e1dd5433791c081c7f93c37eeab84e21e",
+  "complete_actual_new_counter_scope": "q.analytic_stage_jacobian.counts plus every original field/endpoint/normal/frame/stage/adjacent scope",
+  "dictionary_location_interface_verified_from_actual_4d92_and_95559": true,
+  "original_role_or_protection_or_point_deduplication_modified": false,
+  "complete_capture_and_entry_validation_functions_identical_to_parent": true,
+  "AST_compile_and_duplicate_keys_checked": true,
+  "scientific_evaluations": 0
+}
