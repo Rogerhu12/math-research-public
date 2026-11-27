@@ -151,3 +151,7 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 ### R1149 §§11–15：原短盘的条件相对 FL 与有限三槽
 
 [R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)证明 u=pt 下完整整 Taylor：Φ(t)D modp=C0 exp(t^pN_-)，幅14的所有尾项估值保留。应用原43塔明确以同一 rational associatedness 为前提；该前提继续补。真有限 q_t 的 λ/σ/binomial 及参考F0不删，原Heis三槽为 a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，其中 a3=2δc_g²A*/3、b5=8δ²c_g⁴B*/5、h8=2δ³c_g⁶A*B*/5；参考多项式次数≤2/4/6。Gaussian粗盘次数≤1/2/3，cubic≤1/1/2且a首槽斜率16δc_g²B0/7单位。仍须同源相对Frob、原F0中央条目和同一global lift subtraction；不从形式次数推出排点，不扩其它twist/未分歧σ。
+
+### R1135 §15：原 Frobenius 常数与指定 Gaussian 主部
+
+[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原 Π0=1−A^(−2p)B^(p−1) 满足 Π0(f_r/A^r)=(f_r/A)^p，来自同一固定Δ Tate尺度及原U_p=1；逆B准确指数p−r−1，完整forcing保留。Wω的角色和pole<p迫Cartier恒零，不能再拿它求Gaussian值；Fω的真实coefficient functional已给。指定TG的XiG=½dlog(X−rG)有residues(1,−1)，WXiG=W(TG)XiG+dJ的全部分母<p，故C(WXiG)=W(TG)XiG′且W(TG)=−ResO(WXiG)。下一步实际forcing/Serre dual pairing须读取该值；第三类检测存在不代单位，actual-good mask及两twist范围不变。

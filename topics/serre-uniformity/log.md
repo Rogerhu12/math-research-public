@@ -662,3 +662,7 @@
 ### 2026-11-28 07:52 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1149 §§11–15：u=pt完整强可除Taylor及finite q_t/λ/binomial已付，原F0三槽和cross完整，Gaussian/cubic粗次数与cubic首槽单位准确。相对associatedness/原中央常数/global subtraction仍开，无数学程序。
 - 07:49:56 Actions run46084622951/job140791187426真实部分clone/pull成功至c6fc7f50；两README diff空且全文SHA同，完整JSON hash保同回执。H先逐字归档；继续原相对Frob、e/K4和Gaussian实际值。
+
+### 2026-11-28 07:55 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1135 §15：原U_p=1付Π0(f/A^r)=(f/A)^p与逆B指数p−r−1；Wω字符强迫Cartier0，明确排除错误值检测。指定TG第三类Xi的exact polynomial差付C(WXi)=W(TG)Xi′，原值与单点residue准确。
+- 未报原值unit；继续实际forcing/主部配对，无数学执行，H先逐字归档。新相对FL结论亦只在同一associatedness门内使用。

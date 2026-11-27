@@ -1572,3 +1572,240 @@ $F_*\partial^2K_*-4K_*\partial^2F_*+aF_*K_*$
 同一 coarse component 的两 twist、实际 good mask、
 $S=0$ 与 $P=0$ 边界继续完整保留。
 本节为纸面证明，无数学程序执行。
+
+
+## 15. 原 Frobenius 常数及 Gaussian 第三类检测
+
+本节固定 (1135.68) 的实际 Eisenstein 输入。
+先消除逆 $\mathcal B$ 中未指定的 $p$ 次常数，
+再准确区分一个恒为零的全纯 Cartier 读数与原 Gaussian 值的第三类读数。
+这些结论不宣称 $\mathscr W(a_{\rm G},0)$ 已为单位。
+
+### 15.1. 原函数域中的 kernel 投影
+
+由 (1135.65)，在 $\mathbf F_p(\mathcal C_{\Delta_0})$ 上定义
+$$
+\boxed{\quad
+\Pi_0=1-\mathsf A^{-2p}\mathcal B^{p-1}.
+\quad}
+\tag{1135.72}
+$$
+因为 $\mathcal B(\mathsf A^{2p})=0$，有
+$\mathcal B\Pi_0=0$；对每个 $g^p$ 又有 $\Pi_0(g^p)=g^p$。
+故它是到原常数域
+$\ker\mathcal B=\mathbf F_p(\mathcal C_{\Delta_0})^p$
+的准确投影，而不是另选一条 complement。
+其差满足
+$$
+h-\Pi_0h
+=\mathcal B\!\left(\mathsf A^{-2p}\mathcal B^{p-2}h\right).
+$$
+结合 (1135.64)，这同一投影还有原 Cartier 读法
+$$
+\boxed{\quad
+\Pi_0h
+=F^\sharp\!\left(
+ \frac{C_{\rm rel}(h\,\omega_\Delta/\mathsf A^2)}
+      {\omega_\Delta'}\right).
+\quad}
+\tag{1135.73}
+$$
+证明只用 $\mathcal B$ 与 $\omega_\Delta/\mathsf A^2$ 对偶：
+上式差的对应微分为 exact，Cartier 为零；
+$\Pi_0h=g^p$ 则按 relative 线性给 $g'\omega_\Delta'$。
+$F^\sharp$ 仍只拉回输出函数系数。
+
+### 15.2. 原 Eisenstein 的 $p$ 次常数准确等于自身 Frobenius
+
+令 $r=7,9$，并写 $f_r=G_{p-r}$。
+在 fixed-discriminant 的原 Tate chart 中，取
+$$
+u^{12}=\frac{\Delta_0}{\Delta_E(q)},\qquad
+a=u^4\!\left(-\frac{E_4(q)}{48}\right),\qquad
+b=u^6\frac{E_6(q)}{864}.
+$$
+可以在含一个十二次常数根的 Laurent $q^{1/12}$ 域中验证；
+$12$ 为单位，该 chart 的函数域映射单射，
+所以所得身份仍是原函数域的身份。
+令 $\vartheta=q\,d/dq$。原 Serre 与判别式公式给
+$$
+\boxed{\quad
+\partial=u^2\vartheta,\qquad
+\mathsf A=u^{p-1},\qquad
+\mathcal B=u^{2p}\vartheta,\qquad
+\frac{f_r}{\mathsf A^r}
+=u^{(1-r)p}G_{p-r}(q).
+\quad}
+\tag{1135.74}
+$$
+这里 $\mathsf A(q)=1\bmod p$，而 $u^{2p}$、$u^{(1-r)p}$
+都被 $\vartheta$ 杀掉。因此 $\Pi_0$ 在最后一式上准确为
+$1-\vartheta^{p-1}$，只保留被 $p$ 整除的 Fourier 指标。
+
+对原 Eisenstein，$p-r-1>0$，所以
+$$
+\sigma_{p-r-1}(pn)\equiv\sigma_{p-r-1}(n)\pmod p.
+$$
+其常数项也在 $\mathbf F_p$。故完整 $p$-divisible 部分是
+$G_{p-r}(q)^p$，包括常数项。
+结合同权缩放，得到
+$$
+\boxed{\quad
+\Pi_0\!\left(\frac{f_r}{\mathsf A^r}\right)
+=\left(\frac{f_r}{\mathsf A}\right)^p,
+\qquad
+C_{\rm rel}\!\left(
+ \frac{f_r\omega_\Delta}{\mathsf A^{r+2}}\right)
+=\left(\frac{f_r}{\mathsf A}\right)'\omega_\Delta'.
+\quad}
+\tag{1135.75}
+$$
+第二式的 prime 表示 relative Frobenius twist 上的对应函数，
+不是 $\partial$ 导数。
+该 $p$ 次常数来自原 $U_p=1$ 的 Eisenstein $q$-source；
+没有将任意同权函数都代入这一特例。
+
+令 $c_r=2/(p-r-1)!$。
+把 (1135.68) 代入 (1135.72)，并注意 $p-r-1\ge1$，
+Frobenius forcing 那一项被 $\mathcal B$ 杀掉，得到
+$$
+\boxed{\quad
+\frac{f_r}{\mathsf A^r}
+=c_r\mathsf A^{-2p}
+ \mathcal B^{p-r-1}
+       (\mathsf A^{r+1}\mathcal E_{r+1})
++\left(\frac{f_r}{\mathsf A}\right)^p.
+\quad}
+\tag{1135.76}
+$$
+正确指数为 $p-r-1$；若写成 $p-r$，所得是
+$\mathcal B(f_r/\mathsf A^r)$，不是原输入。
+等价的无分母式是
+$$
+\mathsf A^{2p-r}f_r-\mathsf A^p f_r^p
+=c_r\mathcal B^{p-r-1}
+       (\mathsf A^{r+1}\mathcal E_{r+1}).
+$$
+全部 Frobenius 与低 forcing 项均保留。
+(1135.76) 给逆算子的原常数归一，但不把它当作
+Gaussian 点 $1,\ldots,r$ 阶自由 jets 的局部消去。
+
+### 15.3. $\mathscr W\omega_\Delta$ 的 Cartier 恒为零
+
+扩底加入一个三次单位根 $\zeta$，在固定曲线上取
+$$
+\sigma:(X,Y)\longmapsto(\zeta X,Y).
+$$
+它对应 $(a,b)\mapsto(\zeta a,b)$。
+原 weight-$w$ 齐次多项式因 $4\equiv1,6\equiv0\pmod3$
+而按 $\zeta^w$ 变化，且 $\sigma^*\omega_\Delta=\zeta\omega_\Delta$。
+$\mathscr W$ 的权为 $2p-10$，所以
+$$
+\sigma^*(\mathscr W\omega_\Delta)
+=\zeta^{2p}\mathscr W\omega_\Delta.
+$$
+由 (1135.53)，该微分只在 $O$ 有极，
+极阶 $p-11-6\epsilon_G<p$，并且 residue 为零；
+Cartier 的输出因此全纯。
+但 relative Frobenius twist 上
+$(\sigma^{(p)})^*\omega_\Delta'=\zeta^p\omega_\Delta'$。
+因 $2p\not\equiv p\pmod3$，relative 线性与等变性强迫
+$$
+\boxed{\quad
+C_{\rm rel}(\mathscr W\omega_\Delta)=0.
+\quad}
+\tag{1135.77}
+$$
+这在 $p\equiv7,11\pmod{12}$ 两支都成立。
+因此不能用 (1135.63) 的全纯 Cartier 读数检测
+$\mathscr W(a_{\rm G},0)$。
+
+其 proper 类的角色也准确可见：
+当 $p\equiv7\pmod{12}$ 时落在 $[X\omega_\Delta]$ 线，
+当 $p\equiv11\pmod{12}$ 时落在 $[\omega_\Delta]$ 线。
+这里使用标准的两维 de Rham 基；
+对本节 pole $<p$ 的多项式，关系
+$$
+d(YX^j)=
+\bigl((2j+3)X^{j+2}-2j(\Delta_0/27)X^{j-1}\bigr)\omega_\Delta
+$$
+以全部单位分母直接完成化简。
+它仍不把这个 proper 类的系数与某个二挠点的函数取值认同。
+
+相比之下，$F_*\omega_\Delta$ 的角色是 $\zeta^p$，
+与全纯目标角色相同，并没有上述字符消去。
+把原偶函数写成 $F_\Delta(X)$，其准确有限 functional 为
+$$
+\boxed{\quad
+C_{\rm rel}(F_*\omega_\Delta)
+=\Lambda_F\omega_\Delta',\qquad
+\Lambda_F=
+[X^{p-1}]F_\Delta(X)
+       (X^3-\Delta_0/27)^{(p-1)/2}.
+\quad}
+\tag{1135.78}
+$$
+因为 $\deg F_\Delta=k-4$，
+括号中多项式的总次数是 $7k-1<2p-1$，只有一个 Cartier 指数可读。
+本式只固定这条原 functional，尚不宣称 $\Lambda_F$ 为零或为单位。
+
+### 15.4. 保留 Gaussian 主部的准确第三类检测
+
+回到同一个实际 Gaussian 点，令
+$$
+r_{\rm G}=-\frac43a_{\rm G}\in\mathbf F_p^\times,\qquad
+T_{\rm G}=(r_{\rm G},0),\qquad r_{\rm G}^3=\Delta_0/27.
+$$
+原函数 $X-r_{\rm G}$ 的 divisor 为 $2T_{\rm G}-2O$。
+因此
+$$
+\boxed{\quad
+\Xi_{\rm G}=\frac12\,d\log(X-r_{\rm G})
+=\frac{dX}{2(X-r_{\rm G})}
+\quad}
+\tag{1135.79}
+$$
+在 $T_{\rm G}$、$O$ 的 residues 分别为 $1,-1$。
+在另外两个非零二挠点它正则。
+这里的 $1/2$ 是二挠处 $X-r_{\rm G}$ 的二重零给出的准确因子。
+
+$\mathscr W$ 是关于 $Y$ 的偶多项式，写成
+$\mathscr W_\Delta(X)$。
+其次数为 $(p-11-6\epsilon_G)/2<p-1$。
+因而下列多项式原函数合法：
+$$
+J_{\rm G}(X)=
+\frac12\int
+ \frac{\mathscr W_\Delta(X)-\mathscr W_\Delta(r_{\rm G})}
+      {X-r_{\rm G}}\,dX,
+\qquad J_{\rm G}(0)=0.
+$$
+所有实际分母均小于 $p$。
+直接相减得到完整身份
+$$
+\boxed{\quad
+\mathscr W\Xi_{\rm G}
+=\mathscr W(a_{\rm G},0)\,\Xi_{\rm G}+dJ_{\rm G}.
+\quad}
+\tag{1135.80}
+$$
+所以原值既有 residue 读法，也有不带额外全纯项的 Cartier 读法：
+$$
+\boxed{\begin{aligned}
+\mathscr W(a_{\rm G},0)
+ &=-\operatorname{Res}_O(\mathscr W\Xi_{\rm G}),\\
+C_{\rm rel}(\mathscr W\Xi_{\rm G})
+ &=\mathscr W(a_{\rm G},0)\,\Xi_{\rm G}'.
+\end{aligned}}
+\tag{1135.81}
+$$
+第二式使用 $T_{\rm G}$ 与原模型定义在 $\mathbf F_p$ 上，
+以及 Cartier 对 $d\log$ 的准确相容性。
+这次检测保留指定 Gaussian 主部，故 (1135.77) 的角色消去不再适用。
+
+(1135.80)–(1135.81) 指定了可用于原值的完整第三类对象；
+它们本身并没有计算右边的标量。
+下一步仍须把原 forcing、原 $F_\Delta$ functional 或实际
+Serre dual residue pairing 与这个指定主部联系起来。
+本节不以全纯 Cartier 恒零排原值，也不以第三类表示存在宣原值非零。
+全 actual good mask 和两 twist 的既定范围保持不变；无数学执行。

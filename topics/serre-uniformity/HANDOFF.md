@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：0efc8e63ee8f60862bed25e827eb52f74b4fb887**（2026-11-28 07:52 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：67bc1833565e5f191fecfb55995f7ddb0e483a59**（2026-11-28 07:55 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
-最近真实pull：2026-11-28 07:49:56 Asia/Taipei，公开Actions run46084622951/job140791187426，blob:none浅部分克隆真实pull --rebase至c6fc7f50，两README diff空且SHA与已读全文相同；[完整回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤08:39、真实pull≤08:49。本地07:37仍无环境；恢复即pull。每次提交按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，sync workflow匿名。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+最近真实pull：2026-11-28 07:49:56 Asia/Taipei，Actions run46084622951/job140791187426，blob:none浅clone真实pull --rebase至c6fc7f50，两README diff空、SHA相同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤08:39、pull≤08:49。本地07:37无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-relative-FL-finite-disc.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Gaussian-third-kind.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -60,7 +60,7 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 R1135 §13付原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。
 
-R1135 §14付原G/K有界primitive、C_rel(ω/A²)=ω′及B=A²∂满足B^p=A^(2p)B；两个原Katz forcing完整保Frobenius depletion，在L((p−r)O/2)全局唯一。局部1…r共振仍在，W留完整−3K·L F；原forcing q首项2F1单位不代Gaussian值。
+R1135 §§14–15付原G/K primitive、C_rel(ω/A²)=ω′、B^p=A^(2p)B及r7/9完整Katz forcing的全局有界唯一；1…r共振仍在。Π0(f/A^r)=(f/A)^p，逆B指数p−r−1。Wω的Cartier恒零不能测Gaussian值；指定XiG=½dlog(X−rG)满足WXiG=W(TG)XiG+dJ，故C(WXiG)=W(TG)XiG′且原值=−ResO，值仍未unit。
 
 ## 已成、禁止重做与其它入口
 

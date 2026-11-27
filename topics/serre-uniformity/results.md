@@ -183,3 +183,5 @@
 - R1135 §14（同文件）：原有界primitive、准确Cartier/B^p、r7/9完整Katz depletion与全局有界唯一性已证明；局部共振及实际Gaussian目标保留，原F非齐次forcing已明确。
 
 - R1149 §§11–15（同文件）：完整整Taylor/有限Cartan/q_t/Heis三槽与CM coarse次数已证明；原应用明确保留同一相对associatedness前提及F0/global中央常数，未宣p-local排点。
+
+- R1135 §15（同文件）：原Π0的完整Frobenius常数/逆B指数已付；Wω全纯Cartier恒零的边界及指定Gaussian第三类Xi的准确值检测已付，读数非零仍待实际forcing。
