@@ -249,3 +249,8 @@
 ### 2026-11-27 22:48 UTC — 19 完整 R716 与 mesh 参数落地
 
 刊[完整六件总表](computations/fixed-fejer-bhalf-complete-moment-mesh-parameter-delivery.json)55276B/cf5b407d；R71680089、mesh final91284、packet91233、完整再生器19886及说明17483共355251B。原45ca/d0fe/2ef3/b399/8197运行体字节全保，R71610/8argv34/60selectors600s且maxangleblocks0，mesh32/6argv110/58formal48live，所有15完整网格、5完整预览、三级空间/五t/时间4/8/16、final全13checkpoint或immutable packet条件原保。144角色137+7与全部旧五peer/未知history不省；当前完整科学投影精确接root157argv，仅bhalf科学输入/输出namespace有既定变化。纯准备没有获得任何实际closed/矩/mesh证书，全部raw只runner，最终模式与可能trial packet不互冒。
+
+
+### 2026-11-27 22:51 UTC — 17 第二次 restoration 真实接受
+
+固定云读17561514e3a4b718bc1a0dd7ad084c82e5a0406f原index18152B，真实事件22:43:01.923124、point b0468、model f2e417、accepted2/current complete geometry=true、Phi4954.618769180181/Gram.6374150628738999/g2.0460148700803895。原accepted1点g2.04762068147831；当前违反仍正，完整科学/最终场未返，不从点变化或Phi推断成功。全原进度/身份追加[17实录](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)。open29788B全字归档到[原文](notes/2026-11-27-open-through-run19-complete-postparameters.md)，§1–6保原字，完整来源/参数/失败未知不丢。
