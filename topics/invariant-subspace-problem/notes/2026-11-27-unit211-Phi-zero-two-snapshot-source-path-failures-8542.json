@@ -1,0 +1,38 @@
+{
+  "schema": "isp-two-snapshot-workflows-pre-source-path-failures-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "cases": [
+    {
+      "run_id": 46030362343,
+      "job_id": 140612322480,
+      "pin": "0b7cc6c7adc861a523ae294a27aa6baa8f042a13",
+      "source_basename": "2026-11-27-unit211-Phi-zero-four-original-quadratic-heads-common-zero-input-snapshot-fix-8542.py",
+      "intended_source_git_blob": "855d8a533145c1f23983259818bd61686139aaf3",
+      "intended_source_sha256": "8890e4b747a79b5fdee6f7268167f69ecd5fbc80e12bf6a537c410d430f36e05",
+      "failed_stage": "git source path lookup before driver",
+      "shell_exit_code": 128,
+      "source_started": false,
+      "driver_started": false,
+      "mathematical_stdout_bytes": 0,
+      "source_execution_receipt_present": false,
+      "fatal_log_line": "2026-11-27T16:04:05.9821397Z fatal: path 'topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-four-original-quadratic-heads-common-zero-input-snapshot-fix-8542.py' does not exist in '0b7cc6c7adc861a523ae294a27aa6baa8f042a13'"
+    },
+    {
+      "run_id": 46030365372,
+      "job_id": 140612332288,
+      "pin": "582fe3d87aade9e214078c0dad52c8165fd7c396",
+      "source_basename": "2026-11-27-unit211-Phi-zero-exceptional-two-boundary-image-complete-QQ-fibers-input-snapshot-fix-8542.py",
+      "intended_source_git_blob": "a70fc64b66910eaf8c59cb558e71ac3a872f267b",
+      "intended_source_sha256": "69ab0c85b1712afd630cf41022dd4bf7b98afad7e109e11b6a93950568875b7e",
+      "failed_stage": "git source path lookup before driver",
+      "shell_exit_code": 128,
+      "source_started": false,
+      "driver_started": false,
+      "mathematical_stdout_bytes": 0,
+      "source_execution_receipt_present": false,
+      "fatal_log_line": "2026-11-27T16:04:09.0880586Z fatal: path 'topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-two-boundary-image-complete-QQ-fibers-input-snapshot-fix-8542.py' does not exist in '582fe3d87aade9e214078c0dad52c8165fd7c396'"
+    }
+  ],
+  "required_correction": "align the actual published source basename and source-containing pin; mathematical sources are unchanged",
+  "ordinary_isp_claim": false
+}
