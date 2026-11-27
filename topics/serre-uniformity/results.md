@@ -1,5 +1,6 @@
 # 结论索引
 
+- **R1113（已证明）**：[R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)：原L=D²−2U在p维W上由全部Ψ零点的真实J_P对角化；零谱投影自动消失不证e单位。完整jet递推保−r(r−1)δ²J_(r−2)，e=0时K4是三项准确配对；原η_k=(16v²g0/(3δ))D_N(1)，g0为显式单位。ν及两指定读数非同时零继续，不能用完整Dixon反对称和替代。
 - **R1114（已证明）**：[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。
 - **R1112（已证明）**：[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除。 §8还付原full47八CM普通、三实际Hecke域全split与十圆单位非零可同素满足；不付该素的高度/log单位。
 - **R1111（已证明）**：[R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原r2规范p-block公因子恰M D (b³−1)^(2ε)，其中ε=1 iff原f_N=0；清除后真映射全部分歧已付，三CM指数ell+1−2ε。尚未排ε=1，不代bare范数。

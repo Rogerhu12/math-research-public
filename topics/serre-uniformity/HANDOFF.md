@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：e4f22fb07d4f0c4ef5606fc82961976c2d4f9251**（2026-11-27 18:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：4932fd35d30d9df98565cee24327c95afc2bd76a**（2026-11-27 18:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；18:18再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -63,6 +63,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原r2规范p-block公因子恰M D (b³−1)^(2ε)，其中ε=1 iff原f_N=0；清除后真映射全部分歧已付，三CM指数ell+1−2ε。尚未排ε=1，不代bare范数。
 
 [R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。
+
+[R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)：原L=D²−2U在p维W上由全部Ψ零点的真实J_P对角化；零谱投影自动消失不证e单位。完整jet递推保−r(r−1)δ²J_(r−2)，e=0时K4是三项准确配对；原η_k=(16v²g0/(3δ))D_N(1)，g0为显式单位。ν及两指定读数非同时零继续，不能用完整Dixon反对称和替代。
 
 ## O2：原高近p值
 
