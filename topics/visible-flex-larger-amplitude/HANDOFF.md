@@ -4,19 +4,17 @@
 
 ## 规则与完整目标
 
-最近规则核查：真实pull/rebase至origin/main `eda95d51e82b126439d51d42185a880e6ddad3e9`，双README整SHA581402/3c1c无变；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31次note末节/entry§9；本次云核规则至`0026a70fa4c916b34ee40f6be22c84a2176f562b`无变，非pull。私库QUEUE已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：真实pull/rebase至origin/main `eda95d51e82b126439d51d42185a880e6ddad3e9`，双README整SHA581402/3c1c无变；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31次note末节/entry§9；本次云核规则至`f84922b1309d9c3f1f0cad22ba2e7c10c73c63a7`无变，非pull。私库QUEUE已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
 目标：同一固定g、闭连通C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0；全t reach≥.03D、整面relative metric≤1e−6；固定g/参数/范围的真实mesh和频率精化至机器或原求解容差，多t可复现网格，准确说明严格存在缺口。D为完整F0直径。R248准确相位恒等式处理全t，不新增独立t插值门。有限误差/开放片/障碍不完成。
 
-终端失联/恢复、真实部分克隆/pull及全规则commit/入口检查保entry note§9；云API未冒pull，无本机科学。
-
 ## 完整历史与共同模型
 
-完整前交接及全部旧链保[d990f1固定H](https://github.com/Rogerhu12/math-research-public/blob/d990f197a7d196e1400d7cbf997a4cf2c36b7ee8/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
+完整前交接及全部旧链保[958632固定H](https://github.com/Rogerhu12/math-research-public/blob/958632ebb7d24f7c8875ec5a357dbb7f706ad797/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
 
-raw保留：前30轮完整链保固定H及[第30轮](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)；[第31轮R90十Green检查点](notes/2026-11-27-legacy-R90-green-checkpoints-retention-31.md)保14全源/43输入公开恢复/20完整轴/真argv与原终态，十件899047B普通移出，无重算或新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
+raw保留：前30轮完整链保固定H及[第30轮](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)；[第31轮R90十Green检查点](notes/2026-11-27-legacy-R90-green-checkpoints-retention-31.md)保14全源/43输入公开恢复/20完整轴/真argv与原终态，十件899047B普通移出，无重算或新值。[第32轮其余八件](notes/2026-11-27-legacy-R90-green-checkpoints-retention-32.md)承同14源/43输入/全参数，863077B按原完整manifest身份移出，未读大raw、无重算。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
 ## 旧运行边界与06真实父链
 

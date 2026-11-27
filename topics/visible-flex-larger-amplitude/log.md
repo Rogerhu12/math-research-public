@@ -535,3 +535,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 08:13 UTC：09真目标M320完整25件入口
 
 刊17完整运行体/4云端完整构造/三全ready及说明；root25全文/74roles，17体和三ready实际文本重放逐字同，原19574B科学suffix全保。固定M160参考/current320三块包含、全变量/13成员真父/全E与typed保；三mode151/140/144+7参数与344/323selectors完整，无新M场、未准入。双README云核d990f197a7d196e1400d7cbf997a4cf2c36b7ee8无变，不冒pull；继续实际求解和连续费用。详[入口](notes/2026-11-27-actual-public09-M320-full-frame-packet-entry.md)。
+
+## 2026-11-27 08:23 UTC：R90余八生成检查点按完整源与参数保全
+
+第32轮普通移出八件863077B，依第31轮完整14源/43输入/20轴/原全argv与真终态，保公开恢复blob和原manifest全SHA；仅树与小元数据核查，未读大科学文件、无重算，原R90与完整终包不变。双README云核f84922b1309d9c3f1f0cad22ba2e7c10c73c63a7无变，API非pull；继续normal连续费、整闭面矩和径向精化。详[记录](notes/2026-11-27-legacy-R90-green-checkpoints-retention-32.md)。
