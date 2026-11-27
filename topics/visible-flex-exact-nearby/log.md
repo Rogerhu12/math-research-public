@@ -64,3 +64,9 @@
 
 
 2026-11-27 03:28:31 UTC / visible-exact-astra-fb31ed6-20261127：第五批纯metadata空白入口发布：scripts/compact_legacy_metadata_fifth.py及.github/workflows/visible-exact-fifth-metadata-whitespace.yml供本题在本地失联后腾出严格200MB容量，配完整entry note。仅128个旧JSON manifest字符串外ASCII空白，不改变任何literal/数组/科学；原bytes/Gitblob/SHA/JSON逐whole核，所有current source/manifest/workflow完整path/parent/uniqueleaf/SHA/blob引用排除，当前UDRC21/RHI输入已发布故一并纳入扫描。一个<100KB完整receipt；每pull两README差异+全current引用再检，非FF立即rebase循环push，无force。无旧科学目标，暂不预报释放量。RHI实际run45933988440/1，UDRC21 run45933303391/1，均唯一push；继续选解差商和完整world端口。
+
+### 2026-11-27 SDIF：实际尾端选择的 A0 响应和 C1
+
+已证明并发布 SDIF proof/reader：25条新精确整数比较首次全过，未执行旧science。SLIP+GA给common E20的2^-31222782 A0/r和fB H23的2^-31223222；统一E3121界与图插值给A0→E2960连续。以闭域内两组实际inward解差构造V，完整Pγ/Qγ与所有mean/seed/principal项保；证明相对A0一阶余项、H8193方向operator连续及strict H8193 interior C1，未冒rough-source onto或A0 operator连续。GHR/GHC/GHW各自独立已公开3f363d86/14bc954d/d0739f98，本次登记其完整height接口与分片/global C²区别。
+
+同步真实执行：P96 45926971089/1全6成功但真实PDE修正列资格false；DWTB9唯一45935081577/1（282e03e4，03:35:44）已运行，65current/9新targets，原AS恢复停在旧WholeQuadrature前，不造BW成功。META5 45934384748/1成功，数据c264c5e6，128 legacy JSON仅空白，gross806606B、receipt69422B、net737184B；不混前一批828816B。TC/UDRC21/RHI/SL持续，未把started算完成。每次main刷新两README blob无diff；本地失联后按规8用<100KB文本与非force lease。

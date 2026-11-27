@@ -462,3 +462,9 @@
 
 
 - [RHI：完整relative参数frame/position载体](results/R147-supplement-certified-relative-parameter-frame-and-position-carriers.md)：首7件入口已齐，原NP整输入与83current/51whole，N2048全18component，原2472cell上的正交Duhamel/step残差/rounding/strip尾和RH真PDE误差全保；4新whole targets保6signed均值及全向量曲线/误差。真实Q_b/F_b/Cθ独立，反射三零均值不授绝对world行；唯一push首次科学，结果另记。
+
+### SDIF：实际 selected tail 的 A0 响应与一阶参数导数（已证明）
+
+[完整证明](results/R119-supplement-A0-response-and-differentiability-of-the-selected-exact-tail.md)及[25条新界 reader](scripts/fourfold_codazzi_selected_tail_differentiability_saved_bounds.py)。同原S/T闭域：common E20 A0-Lipschitz常数2^-31222782/rγ，u非mean2^-31222778/rγ，fB H23为2^-31223222/rγ；统一E3121界给A0→E3120连续。两组真实inward解差、完整SREG先验与GA forcing构造线性V，闭域相对A0一阶余项；V连续于operator H8193→E20..1164，strict H8193 interior真正C1。全高窗低源项保，未授rough-source onto/开放A0值域/A0 operator连续/E1856导数/二阶selected/core。
+
+GHR [metric-reference height](results/R144-supplement-actual-seed-metric-reference-height-and-complete-endpoint-column.md)（3f363d86）保reference1和全端点π；GHC [固定physical完整参数height](results/R144-supplement-complete-actual-parameter-height-at-fixed-physical-coordinate.md)（14bc954d）保vη+H∂η+Hmetη+Dλ；GHW [低图完整physicalheight导数](results/R144-supplement-complete-physical-height-derivative-in-the-original-low-graph.md)（d0739f98）给D_w z分片C²≤2^2048 E20、fixed-w/fixed-λ γ列<2^-56000000 A0/r。真实global C²仍须已匹配解的闭二jet子空间，独立λ/world ports不删。三reader17/9/10新比较各已一次通过。
