@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** `48bf564ae3c7d45b48f3a05998ac0039b460b141`（2026-11-27 02:43:20 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库QUEUE已推5746fa79且仍本会话进行中；最近实际私库pull：2026-11-27 02:25:26 UTC，已读717fcc27ff28cb287f6011395b70136a58e3b4a8，两README diff无变。公私均部分克隆。
-- 每次pull且至少每小时检查两README，变更只读差异立刻执行并记SHA。每意义步骤单独终端推；非快进/ref竞争立即pull --rebase循环，无force。令牌仅CLI。
+- **终端断开后远端已读：** `f1b16d9977f0a2756d6dcb35824ae413f4de6ce9`（2026-11-27 03:02:57 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-complete-L0-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 

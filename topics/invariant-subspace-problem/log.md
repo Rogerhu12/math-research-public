@@ -19,3 +19,8 @@ AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-two-plus-o
 
 ## 2026-11-27 02:42:52 UTC — Astra-ISP-8542378f-20261127：W0整k负一权线排空，根续等权边界
 AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、两条128次常数cofactor70列身份、QQ Bézout完整G73与物理剥除；12维五整个商代数中四域原行返回1、末非约化二次x域原D恒零。登记R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-kminus1-exclusion.md，源43393adf1bd9190a6c361ec6750f4e96716086727d9f02035b0d301410450cb7，3.740543秒/33156KiB/exit0；只付W0的k+1。根新四值参数原Gram直接大展开ab7ef318实际SIGKILL（shell137），零stdout、总墙钟/RSS未取得、外部原因未知，精确源/小回执冻结；随后换既有scalar身份代入源9d5c9699，实际0.214765秒/31484KiB/exit0，得Delta/compat两原必要式2133/5225项，仅输入不作排空。继续原u=ell等权面，另两代理分别续W0补图与Delta非零/u+Q−1边界；不重做已闭L0/S0。
+
+
+2026-11-27 11:03 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 终端执行环境断开，计划清理未启动；只读重试仍无环境。按根规矩8启用小文本连接器，公私实际pull时间与远端读SHA分别记录，不冒称执行。
+- 保留新的等权四列原返回与六次必要覆盖的源哈希、已实测回执及未执行后继；W0/头边界/同W接口继续，普通ISP未完成。
