@@ -17,6 +17,8 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 - 本地07:20失联，18:27两库pull重试仍无执行环境；末次本地公开pull07:12的1cf10ac。CI实际pull与本地/API分记。**下一轮两库实际pull不迟于19:27UTC**；至少每小时一次，每次读两README的新差异并立刻执行、记实际SHA。API发布每次检查最新main的README/topic变更，不冒作git pull。
 - 本轮rule15 inventory为3093blob/43,407,057B，无>5MB；三旧gzip输入证书同前。完整同步log仅记14854B/SHAfe878bc35fdf9378d640111f14b994cbd3eb5da4c2af377dede311d1051a9046，不存可重算日志。此前17:38实际回执仍在log及先前H归档。
 
+18:50发布GraphQL错误后main已移动；立即本地pull重试仍无环境，重比新父后已推成功64d8a2d。现追加两库实际只读pull请求，待实际回执后更新上面的已读head，不把请求视作pull成功。
+
 ## 唯一原完整厚几何执行
 
 v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在21000s/exit124前返回全部306Frob，但四交/Norm/18×9未返；非反例、非终门PASS，不重跑旧输入。
