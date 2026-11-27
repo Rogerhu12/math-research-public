@@ -1,0 +1,228 @@
+{
+  "schema": "isp-exact-small-mathematical-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "scope": "existing paid general LS Delta=0 W=0 distinct-singleton-value original chart",
+  "runId": 46063312944,
+  "jobId": 140722543727,
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-smallest-binary-head-whole-QQ-factor-geometry-8542.py",
+  "driver": {
+    "elapsed_seconds": 4.571809844000001,
+    "max_child_rss_kib": 71732,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e8436579bc345178f261be9ae0617a2a6832ad4a",
+        "before": "e8436579bc345178f261be9ae0617a2a6832ad4a",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:23:47.819158+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46063312944",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e8436579bc345178f261be9ae0617a2a6832ad4a",
+    "source_exit_code": 0,
+    "source_git_blob": "e555030133afa2e903631b3b29a667d948ceb003",
+    "source_sha256": "18d1300abbe598833c4d6142d4097c548ea12006960c258ed5e3cf704824870d",
+    "stdout_bytes": 2566,
+    "stdout_sha256": "1b790174cd775c144a8b657f06a904f44487e55f0efd8c17ea95e5a1b9c1f82c",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "stage": "new_W_smallest_binary_head_complete_parameter_leading",
+      "definition": "paid normalization of det of canonical binary-head rows 0,1,2,3",
+      "exactInputProfile": {
+        "degrees": [
+          16,
+          23,
+          0
+        ],
+        "totalDegree": 30,
+        "terms": 265,
+        "bytes": 5895,
+        "sha256": "b7f6ab4da28caa429f15fdb73034135568d8e73428aa1e813ee8cca292ba35c3"
+      },
+      "wholeFixedHeadProductReturned": true,
+      "eDegree": 16,
+      "eHead": "k^13*(k+3)",
+      "eHeadKEqualsMinusThreeFibreRetained": true,
+      "kDegree": 23,
+      "kHead": "-e^4*(e+1)^3/16384",
+      "kHeadAlreadyPaidOnWholeCurrentW": true,
+      "monicKWeightEnvironmentRank": 23,
+      "physicalFurtherWeightLocalizationsNotClaimedFree": true,
+      "noOriginalWEmptyClaim": true,
+      "seconds": 4.531615912000007
+    },
+    {
+      "stage": "new_W_smallest_binary_head_whole_QQ_factor",
+      "factor": {
+        "degrees": [
+          16,
+          23,
+          0
+        ],
+        "totalDegree": 30,
+        "terms": 265,
+        "bytes": 6039,
+        "sha256": "271befebe1923ae038ae205705a7d50bed0f7cee9c8e3bd4d64b50d25fda6ea2"
+      },
+      "multiplicity": 1,
+      "kDegree": 23,
+      "kLeading": {
+        "degrees": [
+          7,
+          0,
+          0
+        ],
+        "totalDegree": 7,
+        "terms": 4,
+        "bytes": 61,
+        "sha256": "36e328cfcbe57a9096b017c13b504dfbcd2830e8f216f9fcde67033270be2617",
+        "coefficients": [
+          [
+            [
+              4,
+              0,
+              0
+            ],
+            "-2"
+          ],
+          [
+            [
+              5,
+              0,
+              0
+            ],
+            "-6"
+          ],
+          [
+            [
+              6,
+              0,
+              0
+            ],
+            "-6"
+          ],
+          [
+            [
+              7,
+              0,
+              0
+            ],
+            "-2"
+          ]
+        ]
+      },
+      "entireKLeadingZeroFibreAlreadyExcludedByOriginalWeightUnits": true,
+      "exactMonicKNormalizationReturned": true,
+      "finiteFreeWeightEnvironmentRankBeforeFurtherLocalizations": 23,
+      "originalWholeFactorZeroFibreRetained": true,
+      "noMultivariableGcdEmptinessClaim": true,
+      "seconds": 4.53441140999999
+    },
+    {
+      "stage": "new_W_smallest_binary_head_exact_factor_geometry_finished",
+      "sourceSHA256": "18d1300abbe598833c4d6142d4097c548ea12006960c258ed5e3cf704824870d",
+      "rationalContent": "1/32768",
+      "factorRecords": [
+        {
+          "factor": {
+            "degrees": [
+              16,
+              23,
+              0
+            ],
+            "totalDegree": 30,
+            "terms": 265,
+            "bytes": 6039,
+            "sha256": "271befebe1923ae038ae205705a7d50bed0f7cee9c8e3bd4d64b50d25fda6ea2"
+          },
+          "multiplicity": 1,
+          "kDegree": 23,
+          "kLeading": {
+            "degrees": [
+              7,
+              0,
+              0
+            ],
+            "totalDegree": 7,
+            "terms": 4,
+            "bytes": 61,
+            "sha256": "36e328cfcbe57a9096b017c13b504dfbcd2830e8f216f9fcde67033270be2617",
+            "coefficients": [
+              [
+                [
+                  4,
+                  0,
+                  0
+                ],
+                "-2"
+              ],
+              [
+                [
+                  5,
+                  0,
+                  0
+                ],
+                "-6"
+              ],
+              [
+                [
+                  6,
+                  0,
+                  0
+                ],
+                "-6"
+              ],
+              [
+                [
+                  7,
+                  0,
+                  0
+                ],
+                "-2"
+              ]
+            ]
+          },
+          "entireKLeadingZeroFibreAlreadyExcludedByOriginalWeightUnits": true,
+          "exactMonicKNormalizationReturned": true,
+          "finiteFreeWeightEnvironmentRankBeforeFurtherLocalizations": 23
+        }
+      ],
+      "completeQQFactorProductActuallyReturned": true,
+      "totalKDegreeCountingMultiplicities": 23,
+      "everyFactorKHeadPaidByActualOriginalUnitCheck": true,
+      "allFactorCurvesRetainedAsWholeOriginalFibres": true,
+      "noOldFifteenMinorGateOrOriginalCofactorReplayed": true,
+      "coefficientPayloadTransmitted": false,
+      "encodedOrSplitDataCreated": false,
+      "wholeWExcluded": false,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 71732,
+      "seconds": 4.534595048999989
+    }
+  ],
+  "conclusion": {
+    "headQQIrreducible": true,
+    "headZeroOriginalFibreRetained": true,
+    "headIsNotAnOriginalNecessaryVanishingEquation": true,
+    "headGloballyPaid": false,
+    "monicKRankBeforeFurtherLocalizations": 23,
+    "baseRing": "QQ[e,1/(e(e+1))]",
+    "eLeadingZeroFibreKMinusThreeRetained": true,
+    "wholeWExcluded": false
+  },
+  "retention": {
+    "onlySourceParameterDefinitionsRunHashSmallReceipt": true,
+    "noEncodedOrSplitCoefficientPayload": true,
+    "noRegenerableMatrixCache": true
+  }
+}

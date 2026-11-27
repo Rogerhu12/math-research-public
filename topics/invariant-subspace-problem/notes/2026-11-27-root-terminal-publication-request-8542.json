@@ -1,14 +1,16 @@
 {
-  "message": "ISP: exclude both whole original collision u heads by integral finite free models",
-  "parentCommit": "c9a3abe8048afa5ca1484f94cc3cd1856faf2eca",
+  "message": "ISP: identify the whole irreducible W binary head and its monic k23 environment",
+  "parentCommit": "36fb3539d71ac8826645df636359d34769f786e9",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-collision-E-entire-u-heads-finite-free-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-E-u-head-integral-finite-free-exclusion-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-collision-u-heads-complete-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-first-binary-head-whole-irreducible-curve-and-monic-k23.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-smallest-binary-head-whole-QQ-factor-geometry-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-first-binary-head-open-original-low-value-six-coordinate-return-8542.py",
+    ".github/workflows/invariant-subspace-8542-w-head-open-value-return.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-head-k23-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +19,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-head-open-value-return.yml"
+  ]
 }
