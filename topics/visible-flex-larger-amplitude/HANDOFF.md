@@ -5,7 +5,7 @@
 
 ## 规则、同步、环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `43a3c62a29af235324ebd4f0b6f1b489c89951b1`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–15通常每5分钟真pull，实际提交在末块。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `25f15bd05cdb9900dcc6b4f29e075204d198223d`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–15通常每5分钟真pull，实际提交在末块。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，无终端云freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊防重置。
 
@@ -24,7 +24,8 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端�
 
 **14**：46028184571/1、job140604893652，head05c45d。maker/reference真0，后者519.242307125s/全7输出；数值reference212eb5/carrier8406同12，但report43a727与history身份独立。16:08:47全M科学running/sourcea9ab24/launcher596e/PID4009，点e013仅进度。全159/7argv/397、384、48读数保。只退真返reference（原对象d2f37全保）后接完整normal费40argv/36读数，queue93940B；连续geometry完整8argv/48读数待真返step腾位，未削项。尚无完整场或费。
 
-**15**：46031953783/1、job140617715235、head882086668df076632531f609a83a172dfe75d473，16:14:50Z启动。[全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)：先6692B两原必要输入；二者真返后才退休并接完整J science/pure90478B、159/7argv/407、386、48。保一个reference仍95555B，不能削参数硬塞95KB。来源f9d79，maker真0/6.193428461s，source4e34c6c、四输出齐；report65334B/a1fe3d7c…，其余三数值文件同12，F/J/roots0。reference仍pending。J同一constructor guard三source/schema全符，不改J；参考J923与currentJ1845分开，待第二输入真返接科学。
+**15**：46031953783/1、job140617715235、head882086，16:14:50Z启动。[全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)、[两真返输入](notes/2026-11-27-public-actions-46031953783-1-part-001.md)：maker0/6.193428461s，reference0/520.117180844s、sourcec03e68，全11输出齐。数值reference212eb5/carrier8406同12，本次report8f4e5153/history各自绑定，2218accuracy=false保。
+只退休两已返活对象（完整原6692B固定882086），已接f9d79原完整J science/pure90478B，159/7argv、407/386正式读数、48progress全保，finish=false。参考J923不变/currentJ1845/2666582变量；J同一constructor三source/schema全符，不改J，尚无新场。
 
 ## 完整来源与分工
 
