@@ -69,14 +69,14 @@ $
 $
 n=r+sq,\qquad 0\le r<s,\quad q\ge0
 $
-还给第二个**线性目标**：
+还给第二个在本节先按**线性目标**使用的格：
 $
 d(n)=q+v_p(q!),\qquad
 \mathscr B_d=\left\{\sum f_nw^n:
 v_p(f_n)+d(n)\ge0\right\}.
 \tag{6}
 $
-本篇不称 $\mathscr B_d$ 为环。后面直接证明原 $\Phi(P)\in\mathscr B_d$，而非从 (5) 免费降低行缩放。
+在 §9 证明其乘法以前，这里仅按线性目标使用 $\mathscr B_d$。后面直接证明原 $\Phi(P)\in\mathscr B_d$，而非从 (5) 免费降低行缩放。
 
 ## 2. 全深模 $p$ 数字折回
 
@@ -618,3 +618,347 @@ $
 - [固定深度预算说明](../notes/2026-11-14-deep-fixed-depth-tame-average-budget.md)：固定或增长块数与真正全局 Smith 收益的区别。
 
 全篇为原全参数证明，无新增数学执行或素数扫描。
+
+
+## 9. 原正规化系数的完备 PD 代数
+
+本节保 (1)–(5) 的同一个 $p,s,a$ 和全部原来源。强目标 $\mathscr B_d$ 仍按 (6) 定义；以下先证明其实际乘法，再在其中取一个严格较小的完备子环。没有把它未经比较地认作原基线 $\mathscr B_e$。
+
+对 $0\le r<s$、$j\ge0$ 置
+$$
+\mathbf e_{r,j}=\frac{w^{r+sj}}{p^j j!},\qquad
+b_{r,j}(f)=p^j j![w^{r+sj}]f.
+$$
+于是
+$$
+\mathscr B_d=
+ \left\{\sum_{r,j}b_{r,j}\mathbf e_{r,j}:
+                  b_{r,j}\in\mathcal O\right\},\qquad
+\nu_d(f)=\inf_{r,j}v_p(b_{r,j}(f)).
+$$
+这里与 (6) 的 $p^{-d(n)}w^n$ 基只差阶乘的单位部分。定义
+$$
+\boxed{
+\mathscr T_d=
+ \left\{\sum_{r,j}b_{r,j}\mathbf e_{r,j}\in\mathscr B_d:
+       \min_{0\le r<s}v_p(b_{r,j})\longrightarrow+\infty\right\}.
+}
+\tag{37}
+$$
+它使用 $\nu_d$ 所定义的系数范数拓扑，不使用普通 $w$-adic 拓扑。$s$ 固定有限，所以 (37) 也是各 $r$ 的正规化系数分别趋零。
+
+若 $r+r'=\rho+\kappa s$，其中 $0\le\rho<s$、$\kappa\in\{0,1\}$，则实际乘法准确为
+$$
+\boxed{
+\mathbf e_{r,i}\mathbf e_{r',j}
+=p^\kappa\frac{(i+j+\kappa)!}{i!\,j!}
+       \mathbf e_{\rho,i+j+\kappa}.
+}
+\tag{38}
+$$
+显示系数是整数，$r+r'\ge s$ 的额外 $p$ 不能删掉。故 $\mathscr B_d$ 是整代数，$\nu_d(fg)\ge\nu_d(f)+\nu_d(g)$；这里不声称此范数乘法性取等号。
+
+当输出指标趋于无穷时，(38) 中至少一个输入指标趋于无穷。由非 Archimedean 三角不等式，两个 (37) 元素的乘积仍满足 (37)。系数逐项的 Cauchy 极限同时给出完备性。因此 $\mathscr T_d$ 是含一的完备 $\mathcal O$ 代数。
+
+令
+$$
+E_{\rm slow}(w)=e^{aw^s}
+ =\sum_{j\ge0}(ap)^j\mathbf e_{0,j},\qquad
+E_{\rm fast}(w)=e^{aw^s/p}
+ =\sum_{j\ge0}a^j\mathbf e_{0,j}.
+$$
+准确有
+$$
+E_{\rm slow},E_{\rm slow}^{-1}\in1+p\mathscr T_d,\qquad
+E_{\rm fast}\in\mathscr B_d,\qquad
+E_{\rm fast}\notin\mathscr T_d,\qquad
+E_{\rm fast}^p=E_{\rm slow}.
+$$
+最后一个等式在特征零形式级数中成立；中间的非包含来自 $a$ 为单位，不能把快 Gaussian 当作 (37) 的一个新常数系数。
+
+定义有限自由完备代数
+$$
+\boxed{
+\mathscr A_a=\mathscr T_d[U]/(U^p-E_{\rm slow}),\qquad
+\operatorname{ev}_a:\mathscr A_a\longrightarrow\mathscr B_d,\quad
+U\longmapsto E_{\rm fast}.
+}
+\tag{39}
+$$
+因关系首一，$1,U,\ldots,U^{p-1}$ 是 $\mathscr T_d$ 基；因 $E_{\rm slow}$ 是单位，$U$ 也是单位。给 $\mathscr A_a$ 取该标准基的系数范数。关系中的乘法进位只乘 $E_{\rm slow}$，其范数为一，所以这是一个完备整代数，(39) 是良定义的连续代数同态。
+
+## 10. 全 $H$ 的 Hasse–Hermite 等距性
+
+写同一个元素
+$$
+F=\sum_{\rho=0}^{p-1}B_\rho(w)U^\rho,\qquad B_\rho\in\mathscr T_d,
+$$
+并置
+$$
+b_{\rho,r,j}=p^j j![w^{r+sj}]B_\rho,\qquad
+\lambda_\rho=a\rho.
+$$
+原系数卷积准确给
+$$
+\boxed{
+p^q q![w^{r+sq}]\operatorname{ev}_a(F)
+=\sum_{\rho=0}^{p-1}\sum_{j=0}^{q}
+ \binom qj\lambda_\rho^{q-j}b_{\rho,r,j}.
+}
+\tag{40}
+$$
+$q<j$ 的项为零；$\rho=0,q=j$ 时用 $0^0=1$。这里的 $j!$ 已留在 $b_{\rho,r,j}$ 中，不对其取逆。
+
+**Hasse–Hermite 引理。** 对每个整数 $J\ge1$，矩阵
+$$
+V_J=\left(\binom qj\lambda_\rho^{q-j}\right)_{
+  0\le q<pJ,\;0\le\rho<p,\;0\le j<J}
+$$
+在 $\mathcal O$ 上可逆。
+
+确实，其转置是次数 $<pJ$ 多项式在 $p$ 个点 $\lambda_\rho$ 上取前 $J$ 个 **Hasse** Taylor 系数的映射。不同点之差 $a(\rho-\rho')$ 为单位，故各理想 $(T-\lambda_\rho)^J$ 两两互素。整 Chinese remainder theorem 给
+$$
+\mathcal O[T]\Big/\prod_\rho(T-\lambda_\rho)^J
+ \;\simeq\;\bigoplus_\rho
+       \mathcal O[T]/(T-\lambda_\rho)^J.
+$$
+两边都以首一多项式余式给实际整基，因而正反矩阵全整。证明适用于 $J\ge p$；没有除以普通高阶导数中的 $j!$。
+
+**定理 6（实际根评价的等距嵌入）。** 对每个 $F\in\mathscr A_a$ 和每个 $H\ge1$，
+$$
+\boxed{
+\operatorname{ev}_a(F)\in p^H\mathscr B_d
+\quad\Longleftrightarrow\quad
+B_\rho\in p^H\mathscr T_d\ \text{对全部 }\rho.
+}
+\tag{41}
+$$
+因此 (39) 单射，并且其系数范数准确等于像的 $\nu_d$ 范数。
+
+证明：由 (37)，可选 $J$ 使全部 $j\ge J$ 的 $b_{\rho,r,j}$ 都在 $p^H\mathcal O$。在 (40) 的 $q=0,\ldots,pJ-1$ 上，去掉这些项只改变 $p^H$ 的倍数。若左边全在 $p^H$ 中，整可逆矩阵 $V_J$ 迫全部 $j<J$ 的 $b_{\rho,r,j}$ 也在 $p^H$ 中。加上已付尾得到右边；反向直接由 (40) 得到。对全部 $H$ 使用此结论即得单射和等距性。$\square$
+
+这一证明保留了快 Gaussian 的整个无限尾。它没有假设快 Gaussian 属于 $\mathscr T_d$，也没有把 (39) 的 $p$ 次关系改成自由的 $p$ 个点。
+
+## 11. 同一原来源的全精度厚核和完整有限矩阵
+
+### 11.1. 原来源进入同一个代数
+
+对 (2) 的同一分解定义
+$$
+\boxed{
+\Theta(P)=\sum_m A_m(P;w)U^m\in\mathscr A_a.
+}
+\tag{42}
+$$
+所有 $A_m$ 确实属于 $\mathscr T_d$：由 (4)，
+$$
+v_p\!\left(p^j j! A_{m,r+sj}\right)
+ \ge j+v_p(j!)-\lfloor b_*(r+sj)\rfloor
+ \longrightarrow+\infty,
+$$
+且各项整；$j=0$ 时 $b_*r<\vartheta<1$。对任意整数 $\ell$，
+$e^{a\ell w^s}$ 及其逆同样属于 $1+p\mathscr T_d$。所以按 $m=\rho+p\ell_m$ 写成标准基时，
+$$
+B_\rho(P;w)=
+ \sum_{m\equiv\rho}A_m(P;w)e^{a\ell_mw^s},
+\qquad
+b_{\rho,r,j}=j!C_{\rho,j,r}(P).
+$$
+这就是 (15) 的全部 $C$，包括所有 regular 带、全部整数 charge 和原固定角权，没有另选系数数组。
+
+实际物理评价严格为
+$$
+\operatorname{ev}_a\Theta(P)=\Phi(P).
+$$
+对原多项式来源环，$A_m(PQ)=\sum_{m_1+m_2=m}A_{m_1}(P)A_{m_2}(Q)$，故 $\Theta$ 是代数同态。有限次数格只取该同态在原帽内的限制；乘积必须仍支付原次数。对 $G_0\mathcal W_D$，本句仅按其真实共同因子和来源模块解释，不把固定 $D$ 的 $\mathcal W_D$ 宣称为环。所有 $19$ 个角、Miller/conductor 返回及 $P_{134}$ 继续在原 $A_m$ 内。
+
+### 11.2. 任意 $H$ 的准确有限读取
+
+仍取 (17) 的
+$$
+J_H=\lfloor H/\eta\rfloor,\qquad \eta=1-\vartheta.
+$$
+因为
+$$
+\eta J_H-\vartheta>H-1,
+$$
+(16) 使 $j\ge J_H$ 的 $C_{\rho,j,r}$ 全在 $p^H$ 中，其 $j!$ 倍当然仍如此。故在 **每个** $H\ge1$，
+$$
+\boxed{
+\begin{aligned}
+\Phi(P)\in p^H\mathscr B_d
+&\Longleftrightarrow
+ \Theta(P)\in p^H\mathscr A_a\\
+&\Longleftrightarrow
+ j!C_{\rho,j,r}(P)\in p^H\mathcal O
+ \quad(0\le r<s,\ 0\le\rho<p,\ 0\le j<J_H)\\
+&\Longleftrightarrow
+ \mathcal Y_{r,q}(P)\in p^H\mathcal O
+ \quad(0\le r<s,\ 0\le q<pJ_H).
+\end{aligned}
+}
+\tag{43}
+$$
+最后一个等价式只用 (40) 的整可逆 $V_{J_H}$ 及已经付清的尾。物理指标恰落在 $0\le n<spJ_H$，不把不连续任选行当作连续原前缀。
+
+因此，对任何固定原来源整基，完整 $p^H$ 模像可用同一个有限矩阵
+$$
+\boxed{
+\mathsf N_H:
+ P\longmapsto
+ \left(j!C_{\rho,j,r}(P)\right)_{\rho,r,j<J_H}
+}
+\tag{44}
+$$
+计算。它与 (43) 中的全部实际 $\mathcal Y$ 行矩阵模 $p^H$ 整等价。其全部截断 Smith 数据、同一个
+$P+pR+\cdots+p^{H-1}R_{H-1}$ 的可提升性都相同。没有把任一 $R_i$ 替成自由节点 jet，亦没有只核各层秩后将其相加。
+
+式 (43) 的源端核是实际理想 $p^H\mathscr A_a$ 的逆像。对来源模块则是实际子模块。这个“厚核”由原评价同态得到，不是从两个 canonical 中央零假设生成的理想。
+
+### 11.3. 保原基线的准确对数精度差
+
+这里必须回到较弱的原 $\mathscr B_e$。置
+$$
+\epsilon(r,q)=
+ \left\lfloor\frac{s_p(q)+pr/s}{p-1}\right\rfloor,\qquad
+u_q=\frac{p^{v_p(q!)}}{q!}\in\mathcal O^\times.
+$$
+(8) 给所有真实行上的准确式
+$$
+p^{e(r+sq)}[w^{r+sq}]\Phi
+=u_q\,p^{\epsilon(r,q)}\mathcal Y_{r,q}.
+$$
+
+对任意 $J\ge1$，定义真正所读矩形上的最大损失
+$$
+E(J)=\max_{\substack{0\le r<s\\0\le q<pJ}}\epsilon(r,q).
+$$
+写 $q=pj+t$，其中 $0\le j<J$、$0\le t<p$。数字和为 $s_p(j)+t$，最大值在 $t=p-1$、$r=s-1$ 取得。保留实际端点
+$pr/s=p-6+1/s$，得到精确公式
+$$
+\boxed{
+E(J)=2+\left\lfloor
+ \frac{\max_{0\le j<J}s_p(j)-5}{p-1}
+       \right\rfloor
+\le1+\lceil\log_p J\rceil.
+}
+\tag{45}
+$$
+$J=1$ 时右边为一，左边也准确为一。式中 $1/s$ 的正小数没有越过任何整数分界；这是保留 $r\le s-1$ 后的准确取整，不是以 $r<s$ 粗估多丢一位。特别
+$$
+E(J)=1\quad(1\le J\le5),\qquad
+E(J)=2\quad(6\le J\le p).
+$$
+上界由 $j<J\le p^\ell$ 时 $s_p(j)\le\ell(p-1)$ 得到。
+
+由 (43) 的同一有限行，
+$$
+\boxed{
+\Phi(P)\in p^{H+E(J_H)}\mathscr B_e
+ \ \Longrightarrow\
+ \Theta(P)\in p^H\mathscr A_a
+ \ \Longrightarrow\
+ \Phi(P)\in p^H\mathscr B_e .
+}
+\tag{46}
+$$
+第一箭头逐行用 $u_q^{-1}p^{-\epsilon(r,q)}$，第二箭头用
+$\mathscr B_d\subset\mathscr B_e$。两个箭头中的 $P$ 是同一原向量；换成一个完整首提升或高阶提升时仍是该同一向量。
+
+**(46) 不是原 $\mathscr B_e$ 中无损的充要式。** 完整充要性属于 (43)；回原基线的费用准确是 (45)。尤其不得因 $E(J_H)=2$ 在某个窗口有界，就把这两位从实际首 Bockstein 或原同一 $R$ 中省掉。
+
+若非零实际来源 $\Phi(P)$ 的两个整阶分别为
+$h_d=\nu_d(\Phi(P))$、$h_e=\nu_e(\Phi(P))$，则还得到
+$$
+\boxed{
+h_d\le h_e\le h_d+E(J_{h_d+1}).
+}
+\tag{47}
+$$
+因为若 $h_e\ge h_d+1+E(J_{h_d+1})$，(46) 将迫
+$\nu_d(\Phi(P))\ge h_d+1$，矛盾。这是原源上实际范数的比较，不将整个目标空间的两范数认成一致。
+
+## 12. 在增长整窗内的有限普通厚理想
+
+全 $H$ 的 (39)–(46) 已包含所有 PD 和阶乘费用。下面另给一个可用的有限简化窗口，不把它外推到 $H\ge p$。
+
+先对 R1051 的全部已付来源取
+$$
+1\le H\le\frac{p-3}{2}.
+$$
+这时 $(H+1)\vartheta<1$，所以 $J_H=H$；同时
+$b_*Hs=\vartheta H<1$，故所有 $A_{m,n}$、$n<Hs$ 都整。$j<H<p$ 又使 $j!$ 为单位。
+
+置
+$$
+E_H(w)=\sum_{j=0}^{H-1}\frac{a^j}{j!}w^{sj},\qquad
+\mathscr R_H=
+ \mathcal O[w,U]\Big/
+ \left((p,w^s)^H,\ U^p-E_H(w)\right).
+$$
+$E_H$ 在此是单位；各原 $A_m$ 截到 $w^{Hs}$ 后可原样评价，定义
+$$
+\boxed{
+\Theta_H(P)=\sum_m
+   \bigl(A_m(P;w)\bmod w^{Hs}\bigr)U^m\in\mathscr R_H.
+}
+\tag{48}
+$$
+普通系数 $[w^{r+sj}]B_\rho$ 在 $\mathscr R_H$ 中的模数恰为
+$p^{H-j}$。因此
+$$
+\boxed{
+\Phi(P)\in p^H\mathscr B_d
+\quad\Longleftrightarrow\quad
+\Theta_H(P)=0\text{ 于 }\mathscr R_H.
+}
+\tag{49}
+$$
+这是实际的 $(p,w^s)^H$ 厚理想，$U^p$ 仍带完整截断指数。其来源、所有 charge 以及同一修正没有改变。乘法成立是因为 (48) 从 (42) 的同一 charged 乘法得到；指数的乘法在 $w^{Hs}$ 内准确成立，所用 $j!$ 都是单位。
+
+### 12.1. 原 S/T 环可用到 $H=p-2$
+
+对原 $E_{D,2}=\mathcal O[S,T]_{\le D}$，R614 的 (18) 与实际有限乘积给所有 regular 系数
+$$
+A_{m,n}\in\mathcal O\ (n<L),\quad
+v_p(A_{m,n})\ge-1\ (n<ps),\quad
+v_p(A_{m,n})\ge-2\ (n<2L).
+$$
+这对任意 $D$ 成立：在总指标 $<2L$ 的 Cauchy 乘积中至多出现一个指标 $\ge L$ 的坏因子，全部其它因子整；原首项的 $w$ 幂只提高这些范围。没有对所有 $A_m$ 另作一个独立整性假设。
+
+据 (15) 的实际 $C_{\rho,j,r}$：
+
+- $j\le p-2$ 时，所读 regular 指标全部 $<L$，所有 $(j-i)!$ 为单位，故 $C_{\rho,j,r}\in p^j\mathcal O$；
+- $j=p-1$ 时，所读指标 $<ps$，故 $C_{\rho,p-1,r}\in p^{p-2}\mathcal O$；
+- $j=p$ 时，$i=0$ 项的 $p!$ 只损一位，其余项由 $n<2L$ 至多损两位，故仍在 $p^{p-2}\mathcal O$；
+- $j\ge p+1$ 时，(16) 在 $j=p+1$ 的右边已至少为 $p-1$，以后不减。
+
+所以对全部
+$$
+\boxed{1\le H\le p-2}
+\tag{50}
+$$
+都有 $j\ge H\Rightarrow C_{\rho,j,r}\in p^H\mathcal O$。故本窗口可以取有效 $J=H$，(48)–(49) 全部成立；回原 $\mathscr B_e$ 的费用仍为 $E(H)$，即 $H\le5$ 时一位，$6\le H\le p-2$ 时两位。
+
+这里单独使用了原 S/T 环的 R614 全窗，未把增强范围免费套到尚未逐因子付相同分段界的其他来源模块。$H=p-1$ 的原坏带仍须保留；本篇没有将 (50) 再延长一位。
+
+## 13. 对原坏条件及全局预算的实际范围
+
+(43)–(50) 给出了同一来源、同一原物理评价的真正乘法相容厚模型。对任何已付精度，先取实际 $P+pR+\cdots$，再评价到该模型；模型中的零式才是已读物理行的条件。不能先将 $U$、各 $B_\rho$ 或各阶 Hasse jet 当作自由来源调整。
+
+两个 canonical 坏条件仍只给 (29)、(36) 以及其完整原 Newton 后继。特别，$S,T$ 本身的首 $w$ 系数都是一，故即使 $j_S=j_T=0$，仍有
+$$
+\nu_d(\Phi(S))=\nu_d(\Phi(T))=0.
+$$
+因此 $j_S=j_T=0$ 不等于 $\Theta(S),\Theta(T)$ 属于 $p\mathscr A_a$；更不允许把它们生成的理想直接并入 (43) 的厚核。单个中央线性泛函的核没有在本篇被提升为乘法理想。
+
+新的可消费对象是 (44) 的**实际**厚矩阵、(48) 的**实际**有限代数和 (46) 的原基线精度比较。若要得到主目标的严格成本下降，须继续在其中证明坏 canonical 条件对高前缀核或其全 Smith 过滤的具体作用，并保同一修正和真饱和旗标。只用第6节已有的 $spJ_H$ 长度估计，仍只有所述 $O(M_D)$ 下界；本篇没有因此宣布全局主项已越过 $3M_D\log D$。
+
+### 本次追加的依赖
+
+- 本篇 (4)、(15)、(16)–(20)：全部原 regular 系数界、实际 charge 分组、任意 $H$ 的统一全尾。
+- 本篇 (8)、(30)–(36)：原基线数字和、首提升及其准确算术范围。
+- [R614](R614-original-addition-integrality-window-and-complete-newton-tail.md) (9)、(17)–(18)：仅用于 §12.1 的原 S/T 分段整窗及乘法费用。
+- [R633](R633-original-image-cone-and-complete-confluent-first-bockstein.md)：旧全 $\mathcal C_p$ 首 Bockstein 和真实像条件仍保其自身目标；本篇不把两者等同或重复计数。
+
+以上均为完整纸证，没有新增有限素数运行。

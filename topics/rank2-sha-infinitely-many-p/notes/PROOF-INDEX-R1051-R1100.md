@@ -30,3 +30,11 @@
 ## 原完整 v13 实现接续
 
 [v13原完整生产接入](2026-11-27-original-scalar-filtration-v13-production.md)：三项真实软件PASS后，保原60源和全部参数/数学终门，明确修正捕获别名、同商平方及原scalar支撑；八条本次实际filtration回执替原方法使用断言，通用full-local接口不变。新65源和workflow已逐项pin并请求唯一公开生产，实际run与终态待消费，不预付四交/Norm/$18\times9$。
+
+
+[v13实际启动](2026-11-27-original-scalar-filtration-v13-production.md)已登记run46080875647；只确认证书任务进入执行，未预报原几何PASS。
+
+
+### 同源全精度PD厚核
+
+[R1051§§9–13](../results/R1051-original-full-depth-gaussian-node-recurrence.md)证明同一原Gaussian的完备PD代数：正规化系数趋零环$\mathscr T_d$及$U^p=e^{aw^s}$的实际根评价是Hasse–Hermite等距嵌入；任意$H$的原全核准确等价同一个$j!C$厚矩阵，全部截断Smith与同P/R提升保留。回原$\mathscr B_e$仅有保准确$E(J)$费用的两箭头，未冒无损充要；普通$(p,w^s)^H$模型对全部来源至$(p-3)/2$、原S/T环至$p-2$，原首坏带仍保。没有把canonical单槽核变成乘法理想，主全局预算仍待实质新收益。

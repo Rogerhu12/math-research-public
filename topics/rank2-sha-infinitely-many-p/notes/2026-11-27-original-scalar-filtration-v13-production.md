@@ -86,3 +86,7 @@ current-square 先前约 750.508 秒重复乘法处于这些区间内，不能�
 | .github/workflows/rank2-sha-original-triangular-artinian-shadow.yml | 3736 | a9ff7ae63c0f7a452afc44648b5f4d8e95a195224f34b55b17cc3bc5a946d15b |
 
 root 已逐字读四文件，比较实际 v12 host 的全部60旧pin，确认恰加上述新launcher/producer和三helper；新request的65项与源码一致。软件执行和首次生产的回执按实际读取后追加，发布本身不充作通过。
+
+## 9. 首次实际启动
+
+公开 run [46080875647](https://github.com/Rogerhu12/math-research-public/actions/runs/46080875647) / job140779301767，source277c55dd2c0d36baf665c65700935ac671faa816，创建于2026-11-27 23:09:29UTC。已核实际job完成checkout及固定镜像拉取，并在认证原回执/完整计算步骤执行。首次读取进行中job日志返回BlobNotFound，未据此声称源码绑定或数学终门通过；以后消费实际完整输出。

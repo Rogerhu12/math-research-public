@@ -158,3 +158,13 @@ root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(
 [v13原完整生产接入](notes/2026-11-27-original-scalar-filtration-v13-production.md)：三项真实软件PASS后，保原60源和全部参数/数学终门，明确修正捕获别名、同商平方及原scalar支撑；八条本次实际filtration回执替原方法使用断言，通用full-local接口不变。新65源和workflow已逐项pin并请求唯一公开生产，实际run与终态待消费，不预付四交/Norm/$18\times9$。
 
 本次只替换已证明且软件全核验的实现成本。必须实际完成原四交、一般 Artinian Norm、全部 $18\times9$ 和九对；若失败，只按真实错误修改，不重复相同输入，也不把 finite PASS 升格为无穷 $p$ 主结论。
+
+
+v13实际run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816已于23:09:29UTC启动，原完整计算步骤执行中；进行中日志尚未可读，全部数学终门仍未完成。
+
+
+### 同一全精度PD厚核已准确建立
+
+[R1051§§9–13](results/R1051-original-full-depth-gaussian-node-recurrence.md)证明同一原Gaussian的完备PD代数：正规化系数趋零环$\mathscr T_d$及$U^p=e^{aw^s}$的实际根评价是Hasse–Hermite等距嵌入；任意$H$的原全核准确等价同一个$j!C$厚矩阵，全部截断Smith与同P/R提升保留。回原$\mathscr B_e$仅有保准确$E(J)$费用的两箭头，未冒无损充要；普通$(p,w^s)^H$模型对全部来源至$(p-3)/2$、原S/T环至$p-2$，原首坏带仍保。没有把canonical单槽核变成乘法理想，主全局预算仍待实质新收益。
+
+后继直接消费这个实际厚矩阵和原两坏条件，证明高前缀核的额外Smith主项；保持源次数、全部regular带、快Gaussian及原基线的精度损失。只重新表述代数或计算whole-source秩不会关闭主目标。

@@ -370,3 +370,9 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 23:09 UTC：根完整审阅v13 producer/launcher/request/原workflow改动，逐项核实际v12 host全部60旧源不变，恰加三已PASS helper与新launcher/producer，固定65源和实际workflow。保原数学参数、双char0认证、通用full-local API、四交/一般Norm/$18\times9$和最终all_requested门；按真实对象身份检查八条原scalar过滤回执，明确新输出tag不冒旧projector PASS。本提交请求唯一生产，实际run和终态待消费；无新数学执行结论。原H逐字归档到notes/2026-11-27-handoff-before-scalar-filtration-production.md。推前实际两库pull run46075603971/job140777453959：公开23:03:39至5d78ac456f7b88bbf6ec0dc51ce648a983a59c2c、私库23:03:44至307f2426c462581cbcbd96c76864738178bc07c1，四README和QUEUE不变；log14889B/hashbd3d75cbaceb0751cac3f516b6f7c1126ba2b2b6b39827074c46d634f0d9e3c3，topic3142blob/44,239,931B无超限。本次API查无本topic heavy在执行（其它课题任务不动）。central转实际flat输入，geometry转原17谱/Prym，arithmetic继续原厚核。
+
+
+- 2026-11-27 23:12 UTC：发布277c55dd成功并核唯一v13实际run46080875647/job140779301767/source277c55dd，创建23:09:29UTC，checkout和固定镜像拉取成功，完整认证/数学步骤in_progress；首次job日志GET404，不以启动冒绑定或数学PASS。推前实际两库pull run46075603971/job140779660758：公开23:10:44至5c9fd31521581d889ec29bdbcd6fa161183e0b28，私库23:10:50至32828a4828f3b07021b581c2f549f5fc33bdc1b1，四README和QUEUE不变；日志14893B/hash34f6ff43adf39c9004d98b5c07c4b1304e3ff67b2d41637d77a514d6fe7e71f4，库存3147blob/44,297,632B，无>5MB，三必要输入gzip不变。主数学方向继续，未新增数学执行结果。
+
+
+- 2026-11-27 23:16 UTC：首次v13启动登记发布遇ref UNKNOWN且main前进，立即试本地pull仍无环境，实际CI retry job140780177708在公开clone连接github.com:443超时（日志7902B/hash90df73794b996265588f68a86f3d677b8b5e450216f7b6b80633a5aca4c6f985），未拉到私库，未计成功；立即再跑job140781042800，公开23:15:12实际pull至57eff4923f25c6957abbbdce83ed54895480809a、私库23:15:18至6edbc441873a6666c93f1773b276b9a9af8520f4，两库四README/QUEUE与23:10一致，日志14886B/hash7e298384daee0d694b12cd2f04fa5316664ecb1c63a7359b7d32003307a7729e，库存tree不变。消费后继续不force重推。同时根全审R1051§§9–13（37）–（50）并亲读R614(16)–(26)核分段整窗，付全H的实际Hasse等距、同一厚核与有限全Smith矩阵，完整基线E(J)及p−2端点均保；全文35899B/hash8617f1d2fe139eedf7b22443689c8e96bcac44e4dcccf0e7fc698e8bcb634aee。新增仅纸证，无数学执行或主目标完成声明。
