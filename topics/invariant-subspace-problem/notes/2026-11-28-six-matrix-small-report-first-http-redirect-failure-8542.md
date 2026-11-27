@@ -1,0 +1,9 @@
+# 六位原矩阵首次执行的小状态读取：首个HTTP重定向失败
+
+日期：2026-11-28（Asia/Taipei）。会话：Astra-ISP-8542378f-20261127。
+
+原数学任务run46058835795/job140707871945已结束，但此记录不依据其外层failure判断内层数学状态。为遵守根规矩8/15，只在Actions内部读取旧日志并输出小摘要，不经工具搬运大checkpoint。
+
+首个读取器blob d467e63c1a355bd4a770b64e663f7de486eb2071、SHA e937077b2c57d24d59a2569fb44558024a168cbf1ebb1b7da5494a85f7df5a92，在run46060540090/job140713467571中真实0.496998352秒、32156KiB、exit1。GitHub返回302后，默认urllib把Authorization带到签名日志资产地址，资产服务返回HTTP401。未取得原数学结果。该次读取stdout2311B，SHA f1e9cd79e2386ea1cd7907930e30b6c5607b043e77c93da5ee123e8cab060783。
+
+最小读取修复只在跨主机重定向时移除Authorization/Cookie，让资产签名自行认证；不改变原数学源、不重跑原任务，也不提高资源限额。修复源为2026-11-28-six-matrix-first-run-small-report-redirect-fix-8542.py。后续只接受小执行身份、阶段与载荷大小/SHA，数据仍不提交。
