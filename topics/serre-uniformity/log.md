@@ -437,3 +437,8 @@
 ### 2026-11-28 01:47 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 再次真实尝试git pull --rebase origin main；执行器仍无可用环境，shell未启动。连接器同步main至d7d180efe1999083ec7f66e7e615ef53bc2e7655，仅其它课题变化；两README差异为空，文本SHA仍581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5。
 - 已登记下一次真实尝试不晚于02:47；原aux-c相关和到p点configuration、原fixed-Prym/ordinary连接及Gaussian实际差商三路继续。未将连接器读取记成真实pull。
+
+
+### 2026-11-28 01:49 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原aux-c整Manin§7用O归一差函数R_a、ψc leading和第二K₃的全部共同零点残数，把完整c-torsion Cor转成原p点配置。精确𝒫=2c²{M_a,M_b}−2c⁴C_ab；两次{-1,h}经±点整消，d0由零行和消，排序仅剩二扭。
+- root/global/o2全文独审；原cross权与实际C_ab全保，未冒称任何单个cup零。H逐字归档并系统压缩，保完整来源入口；继续真Manin投影/配置关系及两个局部原源，无数学执行。

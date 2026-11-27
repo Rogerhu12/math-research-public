@@ -26,7 +26,7 @@
 
 [R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：实际坐标差A+B=1经half Cartan加权范数，以dχ(a)=Δ²χ(t²)|a−Δ²χ(t²)|2恢复每个原Vχ；完整leading/两个缺席边界和偶根数保证可逆a，不取12p幂。原杯积须保完整crossed Cor，常Lie中心读K₂/p的ω²，不是e₀整torsion。§9同一Norm见证给阶p⁵/class4真塔；cusp四矩全零 iff赋值向量∈(σ−1)^4，Norm只控制M0。§10用全部Fourier单位及λp精确相位识别交换槽的同一Heisenberg商，真纤维积给两独立三阶方向/p⁵及两极端四阶方向/p⁷；混合四阶仍零。四种p mod8已有forced双字母指标，原两角色同一单位Norm见证、跨轨道实际关系及proper/arithmetic下降仍继续。
 
-[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数给Ψc(P,Q)=c²{hcP,hcQ}−Σ_t Cor{hc(P+t),hc(Q−t)}的整三项式，含t0阶c²−1。原双权重首项为4c²κχκψ/m²·{Fχ,Fψ}；任何实际两角色可同选奇3≤c<p使κ均unit/aux field度p单位。原same-t相关mask及指定Manin组合仍待付；个别hc有Hodge权，只有augmentation乘积真权零。
+[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数给Ψc(P,Q)=c²{hcP,hcQ}−Σ_t Cor{hc(P+t),hc(Q−t)}的整三项式，含t0阶c²−1。原双权重首项为4c²κχκψ/m²·{Fχ,Fψ}；任何实际两角色可同选奇3≤c<p使κ均unit/aux field度p单位。原same-t相关mask及指定Manin组合仍待付；个别hc有Hodge权，只有augmentation乘积真权零。 §7以R_a(T)=∏(xT−xi)^ai与第二实际K₃把全部aux Cor精确移回原p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。O归一/ψc leading/两次{-1,h}整消全保；原配置cross项仍须付，不等于杯积已零。
 
 ### 原完整X_ns^+(47)已完成，只消费
 

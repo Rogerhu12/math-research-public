@@ -265,6 +265,218 @@ $\{F_\chi,F_\psi\}$ 为有理零、模 $p$ 零或存在全局单位 norm witness
 来替代任意 $K_2/p$ 类的消失；没有得到原 coarse 曲线的四阶覆盖，
 没有关闭一般 $p$ 的同点排除问题，也没有重开固定 $p=47$ 的计算。
 
+## 7. 将全部 c-扭点相关和移回原 p-点配置
+
+本节把 (C.12) 中的全部 closed-point Cor 精确算回原
+$E[p]$ 坐标差。出现的 $c^4$ 来自下面两次实际展开；
+它仍不是未经证明的 $c^4-[c,c]$ 算子。
+
+### 7.1. 半向量权、实际差函数及 O 处规范
+
+令
+$$
+I=\mathbf F_{p^2}^{\times}/\{\pm1\},
+\qquad
+a_i=n_{\chi,[Ni]},\qquad b_i=n_{\psi,[Ni]}.
+$$
+固定 $I$ 的一个排列，并在每个 $i$ 中任选 $P_i$ 或 $-P_i$；
+所有以下函数都不受后一选择影响。
+原 Norm 纤维在 $I$ 中的大小为 $p+1$，故
+$$
+\sum_{i\in I}a_i=\sum_{i\in I}b_i=0.
+\tag{C.16}
+$$
+这里 $|I|=(p^2-1)/2$，没有把它与 $m=(p-1)/2$ 混同。
+写 $x_i=x(P_i)$、$h_i=h_c(P_i)$，并保原 all-vector 函数
+$$
+M_a=\prod_{i\in I}h_i^{\,2a_i}
+=M_{c,\chi}^{\mathrm{all}},
+\qquad
+M_b=\prod_{i\in I}h_i^{\,2b_i}.
+\tag{C.17}
+$$
+
+在同一椭圆曲线的变量 $T$ 上定义
+$$
+R_a(T)=\prod_{i\in I}(x(T)-x_i)^{a_i},
+\qquad
+R_a^{[c]}(T)=\prod_{i\in I}(x(T)-x(cP_i))^{a_i},
+\tag{C.18}
+$$
+并同样定义 $R_b$。每个 $x(T)-x_i$ 的 divisor 是
+$[P_i]+[-P_i]-2[O]$。因此
+$$
+\operatorname{div}R_a=\sum_i a_i([P_i]+[-P_i]),
+\qquad R_a(O)=R_a^{[c]}(O)=1.
+\tag{C.19}
+$$
+后一个等式是实际值：在 $O$ 的同一局部参数中，
+各 $x(T)-x_i$ 的主系数相同，总幂次为零，故极阶与主系数同时消去。
+换 Weierstrass 标架时各差也乘同一单位，(C.16) 使
+$R_a$ 成为权零函数。
+
+将 (C.10) 视为 $T$ 的函数。由 (C.2) 的全部 divisor，
+再在 $T=O$ 比较实际值，得到精确等式
+$$
+H_{\chi,c}(T)
+=M_a\frac{R_a(T)^{c^2}}{R_a^{[c]}([c]T)}.
+\tag{C.20}
+$$
+这里 $[c]_*\operatorname{div}R_a=\operatorname{div}R_a^{[c]}$；
+两侧的负点由 $a_{-i}=a_i$ 准确配对。
+所以对每个 $t\in E[c]$，
+$H_{\chi,c}(t)=M_aR_a(t)^{c^2}$，没有遗漏常数。
+
+原奇除法多项式的 leading coefficient 是 $c$：
+$$
+\psi_c(P)=c\!\!\prod_{t\in(E[c]\setminus0)/\{\pm1\}}
+ (x(P)-x(t)).
+$$
+将每个非零 $t$ 与 $-t$ 配对，再用 (C.16)，得到
+$$
+\prod_{t\in E[c]}R_a(t)=M_a^{-1}.
+\tag{C.21}
+$$
+$t=O$ 的因子是已经固定为 $1$ 的 $R_a(O)$。
+非零点的两次差相乘准确为
+$(\psi_c(P_i)/c)^2$；所有 $c$ 的幂由 augmentation 消失，
+不存在额外符号或未知 root of unity。
+式 (C.21) 在 $k$ 上是有限 étale 代数的完整 norm 等式。
+
+### 7.2. 先完整展开原 Cor
+
+记
+$$
+S_{a,b}=
+\sum_{t\in E[c]_{\rm cl}}
+ \operatorname{Cor}_{k(t)/k}\{R_a(t),R_b(t)\}.
+$$
+$R_b$ 为偶函数。由 (C.20)、(C.21) 和 projection formula，
+逐项展开给
+$$
+\begin{aligned}
+&\sum_{t\in E[c]_{\rm cl}}\operatorname{Cor}
+ \{H_{\chi,c}(t),H_{\psi,c}(-t)\}\\
+&=c^2\{M_a,M_b\}
++c^2\{M_a,M_b^{-1}\}
++c^2\{M_a^{-1},M_b\}
++c^4 S_{a,b}\\
+&=-c^2\{M_a,M_b\}+c^4S_{a,b}.
+\end{aligned}
+\tag{C.22}
+$$
+第一项的 $c^2$ 是 $E[c]$ 的完整度；中间两项使用的是
+(C.21) 的 norm，并没有把两个相关槽独立取 norm。
+
+### 7.3. 第二个实际 K3 符号及全部共同零点残数
+
+取
+$$
+\{R_a(T),R_b(T),h_c(T)\}\in K_3^M(k(E)).
+\tag{C.23}
+$$
+在非零 $c$-扭点，前两槽都是单位，最后一槽阶为 $-1$，
+所以这部分的完整残数和为 $-S_{a,b}$。
+在 $O$，虽然 $h_c$ 的阶为 $c^2-1$，但
+$R_a(O)=R_b(O)=1$，残数仍准确为零。
+
+剩余点是 $\pm P_i$。由于 $p$ 为奇数且 $P_i\ne O$，
+它们都不是二扭点，故 $t_i=x(T)-x_i$ 在两点各为实际局部参数。
+定义
+$$
+A_i=\prod_{j\ne i}(x_i-x_j)^{a_j},
+\qquad
+B_i=\prod_{j\ne i}(x_i-x_j)^{b_j}.
+$$
+在 $P_i$ 或 $-P_i$，(C.23) 的残数均为
+$$
+a_i\{B_i,h_i\}-b_i\{A_i,h_i\}
++a_i b_i\{-1,h_i\}.
+\tag{C.24}
+$$
+这是两个槽同时有阶时的完整公式。
+两点的 $A_i,B_i,h_i$ 相同，而
+$2\{-1,h_i\}=0$，所以这一项在成对残数中整地消失；
+这里没有先张量 $\mathbf Q$ 或除以 $p$。
+
+令 $\Delta_{ij}=a_i b_j-b_i a_j$。
+由 proper reciprocity 和 (C.24)，
+$$
+S_{a,b}=2\sum_{i\ne j}\Delta_{ij}\{x_i-x_j,h_i\}.
+$$
+将 $(i,j)$ 与 $(j,i)$ 合并；
+$x_j-x_i=-(x_i-x_j)$ 引入的另一项
+$2\Delta_{ij}\{-1,h_j\}$ 同样整地为零。因此
+$$
+S_{a,b}
+=2\sum_{i<j}\Delta_{ij}
+ \{x_i-x_j,h_i/h_j\}.
+\tag{C.25}
+$$
+
+任取同一曲线上的非零差 $d_0=x(P_{i_0})-x(P_{j_0})$，
+其中 $i_0\ne j_0$。这样的差始终存在且非零；
+例如可取同一个非零 $p$ 点的 $P$ 与 $2P$，
+因为 $p>3$ 时 $2P\ne\pm P$。
+由
+$$
+\sum_{j\ne i}\Delta_{ij}
+=a_i\sum_jb_j-b_i\sum_ja_j=0,
+$$
+(C.25) 中将每个 $x_i-x_j$ 除以同一个 $d_0$ 不改变总和。
+于是令
+$$
+C_{a,b,c}:=
+\sum_{i<j}\Delta_{ij}
+ \left\{\frac{x_i-x_j}{d_0},\frac{h_i}{h_j}\right\},
+\qquad
+S_{a,b}=2C_{a,b,c}.
+\tag{C.26}
+$$
+两个槽现在都是原 full-level 开曲线上的实际权零 modular units。
+坐标差比的零极只在 cusp，因为互异的 $\pm p$ 点在任何
+非退化特征零纤维上都不给相同 $x$ 坐标。
+$h_i/h_j$ 的模型权也严格抵消。
+$C_{a,b,c}$ 与 $d_0$、$\pm P_i$ 的选择无关。
+改变 $I$ 的排列至多改变一个 $2$-torsion 类；故 $2C_{a,b,c}$
+在整 $K_2$ 中与排列无关，而 $C_{a,b,c}$ 本身在本文的
+$p$-local 群及 $K_2/p$ 中与排列无关。
+这里不把未经配对的二扭规范强行删去。
+
+### 7.4. 原相关和的精确有限配置公式
+
+将 (C.22)、(C.26) 代回原 (C.12)，得到整 $K_2(k)$ 等式
+$$
+\boxed{\quad
+\mathcal P_{\chi,\psi,c}
+=2c^2\{M_{c,\chi}^{\mathrm{all}},
+         M_{c,\psi}^{\mathrm{all}}\}
+ -2c^4 C_{a,b,c}.
+\quad}
+\tag{C.27}
+$$
+因此全部辅助 $c$-扭点的 residue fields 与 Cor 已由真正的
+第二次 reciprocity 付清；右侧只含原 $p$ 点配置和原 $\psi_c$ 比值。
+这个公式仍保留完整交叉双权重 $\Delta_{ij}$。
+
+在 $K_2/p$ 中，(C.13) 给出
+$$
+\mathcal P_{\chi,\psi,c}
+=\frac{8c^2\kappa_\chi(c)\kappa_\psi(c)}{m^2}
+ \{F_\chi,F_\psi\}-2c^4 C_{a,b,c}.
+\tag{C.28}
+$$
+即使某个指定 Manin 权确实使左侧为零，仍只得到
+$\{F_\chi,F_\psi\}
+=m^2c^2 C_{a,b,c}/(4\kappa_\chi(c)\kappa_\psi(c))$。
+必须继续付款这个实际有限配置项的关系，
+不能把移回 $E[p]$ 当成它已经消失。
+
+本节所有步骤为符号与 divisor 的纸面计算。
+o2_high_coefficient 已独立核准 (C.20)–(C.27) 的 norm、
+两次 $-1$ 修正、正号及 half/all 系数。
+本节不要求或执行任何新固定素数计算。
+
 ## 来源与独立审核
 
 - [R1070](../results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)
@@ -291,3 +503,6 @@ $t=0$ 的阶、中槽负号、偶性、完整 closed Cor，以及
 
 
 root 对精确候选78d638a逐式独立审核，并亲读所引作者稿 Theorem 2.2.2 的 n=3 整版本及 §3.2 的有理尺度；三组互不交支持、残数符号、模型常数、全向量权及双κ单位门均通过。按共同审核收紧个别h_c的Hodge标架措辞：真正的全局权零单位是augmentation后的Hχ,c；未改函数域K₃或任何Cor项。
+
+
+§7 root 对精确候选43f68ddb全文独纸核：R_a的O归一、全divisor与ψ_c首系数、两次projection的负c²、两个共同非单位槽的{-1,h}及±整消、d0行和、排序二扭和C.27–28的全部尺度均通过。原交叉配置项仍需真实关系。

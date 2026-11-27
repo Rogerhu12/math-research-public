@@ -1,6 +1,6 @@
 # 结论索引
 
-- **原aux-c整Manin（已证明，纸面）**：[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数给Ψc(P,Q)=c²{hcP,hcQ}−Σ_t Cor{hc(P+t),hc(Q−t)}的整三项式，含t0阶c²−1。原双权重首项为4c²κχκψ/m²·{Fχ,Fψ}；任何实际两角色可同选奇3≤c<p使κ均unit/aux field度p单位。原same-t相关mask及指定Manin组合仍待付；个别hc有Hodge权，只有augmentation乘积真权零。
+- **原aux-c整Manin（已证明，纸面）**：[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数给Ψc(P,Q)=c²{hcP,hcQ}−Σ_t Cor{hc(P+t),hc(Q−t)}的整三项式，含t0阶c²−1。原双权重首项为4c²κχκψ/m²·{Fχ,Fψ}；任何实际两角色可同选奇3≤c<p使κ均unit/aux field度p单位。原same-t相关mask及指定Manin组合仍待付；个别hc有Hodge权，只有augmentation乘积真权零。 §7以R_a(T)=∏(xT−xi)^ai与第二实际K₃把全部aux Cor精确移回原p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。O归一/ψc leading/两次{-1,h}整消全保；原配置cross项仍须付，不等于杯积已零。
 
 - **R1133（已证明，primitive单位方程与实际低cochain）**：[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：真实x坐标差给A_a+B_a=1；half Cartan加权范数的B槽准确为dχ(a)[Fχ]/m，dχ=Δ²χ(t²)|a−Δ²χ(t²)|2。实际k=2r mod(p−1)排0/2，偶多项式根数给每个原Vχ都有单位dχ；保全部leading/实下降，不取12p幂。full-level open上写出三步étale Heisenberg方程；原范数须保完整跨轨道Cor双和，proper/cusp/四阶仍开。常Lie中心经K₂/p读取为ω²，不能用e₀整torsion替代。 §9将同一实际单位Norm见证延成长4 binomial根塔，阶p⁵的G₄真torsor/σ^p/UT5首层(a,a,a,b)全付。cusp需四矩M_j=Σbinom(i,j)ord(σ^if)全零，即赋值向量∈(σ−1)^4；Norm只付M0。四种p mod8均有原forced双字母常中心指标，但实际见证/下降未付。 §10完整Fourier单位与λp相位识别交换槽的同一Heisenberg塔，真纤维积保两三阶方向（p⁵）及两极端四阶方向（p⁷）；混合四阶为零，原跨轨道/下降继续。
 
