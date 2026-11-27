@@ -1,15 +1,14 @@
 {
-  "message": "ISP: prove global original W mean coordinates and explicit finite free twelve environment",
-  "parentCommit": "1751e7e61a9e6f8641ac513e85fc0d9b1c3960d1",
+  "message": "ISP: prove actual directional intertwiner exclusion and trace-class Rosenblum solutions",
+  "parentCommit": "38a775911837f5d05997c352941771996ebf67d4",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six-evidence-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-values-primitive-original-mean-and-Delta-factors-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-primitive-factors-8542.yml",
+    "topics/invariant-subspace-problem/results/R271-appendix-actual-directional-intertwiner-exclusion-and-trace-class-rosenblum-solutions.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-directional-intertwiners-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-directional-intertwiners-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-primitive-factors-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

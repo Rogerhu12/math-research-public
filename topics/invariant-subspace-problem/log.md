@@ -664,3 +664,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 新解析原结论：完整L=M(y−1)(t−2x/u+2dy/u−c0)−ellN(x−x*)/u给全局多项式坐标w=gamma(...)、Y=y−1，A[x,y,t]/L准确=A[w,Y]，不倒Y。
 - 原三二次Y系数矩阵C的D6满足[w6]detC=−beta³detH；原detH=unit×已闭J19，故q_w明确首一六次。合已刊q_Y2构成有限自由12维环境，原五式商仍保；仅用已刊实际身份的新解析后果，不重跑旧D6/Y门。
 - 另送83ea9f06首接h=k(D0)原Delta与三均值primitive完整QQ因式；仅剥原b/c/P02和该图Delta非0单位、保所有未付因子。180秒4GiB，新题外workflow登记。
+
+2026-11-27 20:37 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新同源算子定理：固定G=(I−P0)Gλ保所有实际域，Gⁿ有限物理孔来源费exp(Cn³+nλP)，原Bⁿ≤exp(−95n⁴/32)直接付XT=BX⇒X0。
+- 真实迹范数收敛K_f,y=ΣG^(n+1)f⊗Sⁿy给TK−KB=f⊗y；L_y=ΣGⁿe0⊗Sⁿy给TL_y=L_yB、L_y*e0=y及闭共轭Hilbert交织族，所有有限和余项由同费用趋零。
+- 对同一实际w∈W，L_w|M=e0⊗w、K_f,w|M=Gf⊗w，L_wN0且L_ww=||w||²e0；不外推G保N、Green源费或N=M。完整解析证明直接登记，不新增数值/源审计门。

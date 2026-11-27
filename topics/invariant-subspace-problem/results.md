@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271：实际方向性交织排除与反向迹类Rosenblum解](results/R271-appendix-actual-directional-intertwiner-exclusion-and-trace-class-rosenblum-solutions.md)：同G三次费合原Bⁿ四次衰减，XT=BX只零；实际迹类K/L给秩一源、闭交织族及L_y*e0=y，并有真实W上的精确秩一限制，未付N=M。
+
 - [R150：余W全局原均值坐标与明确首一w6及12维环境](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)：无y−1逆的全局环同构；原D6首项−beta³detH为已付单位，明确首一六次合原Y二次，保五原式商。
 
 - [R150：Phi0碰撞图六个真实QQ因子与首一1105原覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-six-QQ-factors-and-1105-original-cover.md)：11fc实际9.181秒/exit0，六项精确QQ重数合840，全部原零纤维已付；余1105保度、≤1105基点，未排空。
