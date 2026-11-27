@@ -304,3 +304,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 21:34:40 UTC：消费arithmetic完整forest blob6f541950f5bc3306dbc219aa94df7668acbc2eb3。root逐节手核正规化枝/横截参数、带全部循环权的cap不等式、有限流阶及特征门、三维Hilbert界/288退出和奇点叶的D-property应用；亲读Binyamini1407.1183v2 §§2–3原证明，仅沿其结构，所有正特征替换在新note另证。note 16753B/SHA256 e6af4a9101b671e558016005184c73af39b5d5f7e063836f3515803fbf1e93cc；无数学执行。open整理前29570B逐字归档2026-11-27-open-before-positive-characteristic-forest.md，旧公式/失败/前提全保；H仍保持当前主门。立方界只给显示低源范围排核，不宣称临界全核已除；继续薄X二次界与实际第二/三块、新共同因子及指定斜率。两库actual pull21:22/下一≤22:22，唯一v12未重启。
+
+
+- 2026-11-27 21:36:49 UTC：消费arithmetic矩形最终blob5157473269e6901aca314e3a9536760ec43af2bb，附原森林§§11–14。root手核平移导子全部Laurent支撑、低box清分母及首退出Leibniz、完整Segre嵌入的Hilbert限制、24/576常数、每层nef/实际边界交数和三项混合展开；另核原帽11N/34与真秩比例9/[176(6C+1)]，不越第一块行数。附节10306B/SHA256 ab377856f42760616edfb6433fda8448eeb7dab85dc69935f535fe16366ae7c8；合并note 27093B/SHA256 1ccb1f912f5867f5583b580be8fd737dca87c489b601bc02bca3ea1194280767。未知M□独立存在，全部p阈值/conductor/primitive返回条件保；无数学执行、无新增中央行。下一完整M二/三块与首提升，新共同因子仍按实际KS尺度审证；geometry改接S3150同一finite forcing，不重复Lamé或已付点投影。两库actual pull21:22/下一≤22:22，唯一v12继续。

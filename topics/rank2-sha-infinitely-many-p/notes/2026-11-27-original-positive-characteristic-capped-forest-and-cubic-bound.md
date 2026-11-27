@@ -1,6 +1,6 @@
-# 原三变量向量场的正特征截断 Rolle、最小方程退出与完整立方重数界
+# 原三变量向量场的正特征截断森林、立方界与原薄窗二次界
 
-日期：2026-11-27 UTC。**状态：以下截断局部比较、统一最小方程退出与原低轴立方重数界已证明。常数只给存在性，未计算有效最小值；原 canonical 主目标及临界完整核仍未排除。**
+日期：2026-11-27 UTC。**状态：以下截断局部比较、统一最小方程退出、原低轴立方界及§§11–14的薄X二次混合界与真秩返回已证明。常数只给存在性，未计算有效最小值；原 canonical 主目标及临界完整核仍未排除。**
 
 本文接同日《原三变量 Theta 向量场的全稳定素簇、截断 D-property 与小长度根理想》及其第8节。保持
 $$
@@ -421,3 +421,282 @@ $$
 - G. Binyamini, *Multiplicity estimates, analytic cycles and Newton polytopes*, [arXiv:1407.1183v2](https://arxiv.org/pdf/1407.1183)：§2 Lemma8、§3 Lemma13 与 Theorem3 提供原特征零循环结构。本文使用其结构，但正特征的有限流、截断 Rolle、全部 cap 与原奇点应用均在上文另证，未直接套其复解析定理。
 
 全文为符号证明；没有执行数学脚本或产生新的数值回执。
+
+
+## 11. 保原X薄度的矩形版本：不用复解析多面体定理
+
+本节另立固定常数；不把第1节的未知 $M$ 自动视为较大固定次数的同一个稳定指标。最后得到对原 $P(t,Y)$ 的二次混合界。
+
+先作整平移
+$$
+u=t+1,\qquad z=X+1,
+$$
+使原点变为三维 torus 内的 $(u,z,Y)=(1,1,1)$。导子变为
+$$
+\widehat V
+=6(u-1)(2-u)\partial_u
+ +\left((2u-1)(z-1)+\frac23(u-1)\right)\partial_z
+ +6(2-u)(z-1)Y\partial_Y.
+\tag{35}
+$$
+按“系数单项式减去所微分坐标的一个指数”计支撑，准确有
+$$
+\boxed{\Delta_{\widehat V}
+ \subset[-1,1]_u\times[-1,1]_z\times\{0\}_Y.}
+\tag{36}
+$$
+因此一次导数至多把 Laurent 支撑的每个方向各增厚1；实际 $Y$ 厚度甚至不增加。本节用单位立方体作保守增厚，不丢掉任何导数项。
+
+在此 torus 的稳定素理想收缩到多项式环后仍稳定，随后平移回原坐标。因此前注的稳定素簇分类在该开集继续成立。通过 $(1,1,1)$ 的稳定叶仍包含原 $t=u-1$，沿原弧其阶为1。
+
+### 11.1 新的固定小次数费用
+
+置
+$$
+h_0=24\cdot2^3\cdot3=576,\qquad d_{\square}=6h_0=3456.
+$$
+对总次数不超过 $d_{\square}$ 的多项式，重新用前注第8节的通用 Noetherian 升链，取一个固定稳定指标 $M_{\square}\ge1$。定义
+$$
+L_{\square}=d_{\square}+3M_{\square},\qquad
+B_{\square}=\max\{M_{\square},h_0\},\qquad
+C=h_0+B_{\square}.
+\tag{37}
+$$
+本节额外要求
+$$
+\boxed{
+p>\max\{83,L_{\square}^3,2B_{\square}+3\}.
+}
+\tag{38}
+$$
+这些均为固定存在常数，不是已计算的有效数字。
+
+若一个 Laurent 多项式的支撑在 $[-h_0,h_0]^3$，乘以
+$(uzY)^{h_0}$ 后变成总次数至多 $6h_0$ 的多项式。在 torus 上该乘子是单位。对于任一素簇，首导数退出阶不变：若前 $\ell$ 个导数都在其理想内，则 Leibniz 公式给
+$$
+\widehat V^\ell\big((uzY)^{h_0}P\big)
+ \equiv(uzY)^{h_0}\widehat V^\ell P
+ \pmod{I(Z)}.
+\tag{39}
+$$
+因而小 Laurent 次数的退出由 $M_{\square}$ 支付。整平移不增总次数，所以这个 Noetherian 步骤仍是同一个原导子的通用步骤。
+
+## 12. 完整矩形的Hilbert比较与576阶退出
+
+给整数 $A_1,A_2,A_3\ge h_0$，记
+$$
+\Delta=\prod_{i=1}^3[-A_i,A_i],\qquad
+\Delta_d=\Delta\cap[-d,d]^3,\qquad
+a_i(d)=\min(A_i,d).
+$$
+$L_\Delta$ 表示由该矩形**全部**整数单项式组成的 Laurent 线性空间，不是任取的稀疏列。对非零 Laurent 多项式，$\deg_\infty$ 是其支撑最小中心立方体的半边长。
+
+### 12.1 任意特征的限制空间维数界
+
+将 torus 紧化为 $(\mathbf P^1)^3$，记三个超平面类为 $H_1,H_2,H_3$。矩形 $\Delta_d$ 的完整单项式，在乘一个单位单项式后给出线丛
+$$
+\mathscr L_d=2a_1(d)H_1+2a_2(d)H_2+2a_3(d)H_3
+\tag{40}
+$$
+的全部截面。各边长为正时，这是实际 Segre–Veronese 嵌入，任意特征下均为闭嵌入；这里没有仅由少数单项式构造可能不可分的映射。
+
+对 $k$ 维不可约 $W$，该嵌入下的限制空间维数满足
+$$
+\boxed{
+\dim(L_{\Delta_d}|_W)
+ \le [\overline W]\cdot\mathscr L_d^k+k.
+}
+\tag{41}
+$$
+理由是其像在自己的线性包中非退化，而一个 $k$ 维非退化射影簇的次数至少为其余维加1。这个纯代数次数界可由一般超平面旗标降到零维截面得到：最终截面仍张成相应线性包，其长度至少为包的向量空间维数。度数使用实际嵌入，所以等于右边的交数；不需要特征零或可分投影假设。
+
+设 $d>h_0$。此时 $a_i(d)\ge h_0$，并有
+$$
+\begin{aligned}
+\#(\Delta_{d-1}\cap\mathbf Z^3)
+ &=\prod_i(2a_i(d-1)+1)\\
+ &> (1-1/d)^3\,\operatorname{Vol}(\Delta_d)
+ >\frac12\operatorname{Vol}(\Delta_d),\\
+\mathscr L_d^3&=6\operatorname{Vol}(\Delta_d).
+\end{aligned}
+\tag{42}
+$$
+若某个 $k\le2$ 维 $W$ 满足
+$$
+[\overline W]\cdot\mathscr L_d^k
+ \le\mathscr L_d^3/24,
+$$
+则由 $\mathscr L_{d-1}\le\mathscr L_d$、$(41)$，
+$$
+\dim(L_{\Delta_{d-1}}|_W)
+ \le \tfrac14\operatorname{Vol}(\Delta_d)+2
+ <\tfrac12\operatorname{Vol}(\Delta_d).
+$$
+结合 $(42)$，便有一个非零 $Q\in I(W)\cap L_\Delta$、$\deg_\infty Q<d$。
+
+因此，若 $P$ 是 $I(Z)\cap L_\Delta$ 中最小 $\deg_\infty$ 的非零元素，$d=\deg_\infty P>h_0$，则每个 $Z\subset W$ 都满足
+$$
+\boxed{
+[\overline W]\cdot\mathscr L_d^{\dim W}>
+ \mathscr L_d^3/24.
+}
+\tag{43}
+$$
+
+### 12.2 保完整支撑的退出构造
+
+设 $Z$ 不包含于任何真稳定素簇。使用长度 $2B_{\square}+1$ 的有限流及 cap $B_{\square}+1$，重复第6节的局部归纳，但把总次数界改为
+$$
+[\overline{\Gamma^j}]\cdot\mathscr L_d^{3-j}
+ \le2^j\mathscr L_d^3.
+\tag{44}
+$$
+初始循环为 $P$ 的除子中包含 $Z$ 的分量，保全部因子重数。其它分量在每个包含 $Z$ 的簇的一般点都是单位，故不贡献所用局部重数。这里不要求 $P$ 的单个因子仍属于原矩形。
+
+由 $(43)$、$(44)$，每个分量的权准确受限为
+$$
+m_i<24\cdot2^j.
+$$
+第6节的同一个加权 cap 归纳与一次横截性于是给首退出阶
+$$
+\ell_i<24\cdot2^j j\le576=h_0.
+\tag{45}
+$$
+若这些导数仍全在 $I(Z)$ 内，就用第一个退出该分量的导数作适当交，并保留包含 $Z$ 的分量。由 $(36)$，
+$$
+\Delta(\widehat V^{\ell_i}P)
+ \subset\Delta_d+\ell_i[-1,1]^3
+ \subset2\Delta_d,
+\tag{46}
+$$
+因为 $\Delta_d$ 含 $[-h_0,h_0]^3$。其闭包的有效除子属于 $2\mathscr L_d$；可能的边界分量全部保为有效费用，丢弃它们只降低与 nef 类的交数。因此 $(44)$ 逐层保持。
+
+最多三层后到达 $Z$，与“所有 $\le576$ 阶导数均未退出”矛盾。全部局部步骤正是第3–6节已付的截断版本，不另借无限流。小 $\deg_\infty\le h_0$ 的情形则由 $(39)$ 与固定 $M_{\square}$ 支付。得到
+$$
+\boxed{
+P\in I(Z)\cap L_\Delta\text{ 最小 }\deg_\infty
+\Longrightarrow
+\exists\,1\le j\le B_{\square},\
+ \widehat V^jP\notin I(Z).
+}
+\tag{47}
+$$
+
+## 13. 原无X多项式的明确二次混合界
+
+现在取
+$$
+0\ne P(t,Y),\qquad
+a=\deg_tP,\quad b=\deg_YP.
+$$
+平移后 $P(u-1,Y)$ 的支撑仍在
+$[0,a]\times\{0\}\times[0,b]$。选择
+$$
+\Delta=[-(a+h_0),a+h_0]\times[-h_0,h_0]
+       \times[-(b+h_0),b+h_0].
+$$
+原 $P$ 属于这个完整矩形。在每个森林节点的理想中，依 $(47)$ 选择这个固定矩形内最小 $\deg_\infty$ 的方程，再以其首退出导数相交。因此每个新交方程的支撑均在同一个固定增厚
+$$
+\Delta^*=[-(a+C),a+C]\times[-C,C]
+          \times[-(b+C),b+C].
+\tag{48}
+$$
+$X$（即平移后的 $z$）厚度确为固定 $C$，不随 $a,b$ 增长。
+
+置
+$$
+U=a+C,\qquad W=b+C,\qquad
+\mathscr L=2U H_1+2C H_2+2W H_3,\qquad
+\mathscr H=H_1+H_2+H_3.
+$$
+每层闭包循环与任何所需 nef 类的交数，由实际有效除子和适当交，分别上界为 $\mathscr L^j$ 的相应交数。每个叶在原点的普通重数不超过它与 $\dim W$ 个一般 $\mathscr H$ 截面的全交数；这些截面的原点一次 jet 足够一般，故确实比较同一个局部重数。
+
+第8节奇点 cap 与叶阶1的证明完全保持。利用
+$H_i^2=0$、$H_1H_2H_3=1$，得到
+$$
+\boxed{
+\begin{aligned}
+\min\{s,\operatorname{ord}_tP(t,\theta(t))\}
+&\le \mathscr L^3+\mathscr L^2\mathscr H+\mathscr L\mathscr H^2\\
+&=48UCW+8(UC+UW+CW)+4(U+C+W).
+\end{aligned}
+}
+\tag{49}
+$$
+这是完整的二次混合界：
+$$
+\boxed{\min\{s,\operatorname{ord}P(t,\theta)\}
+       =O_V((a+1)(b+1)).}
+\tag{50}
+$$
+其固定常数由 $(37)$ 指定的存在常数控制，仍未声称数值有效。Laurent 清分母仅在原点为单位的三维 torus 中使用；没有将 $t=0$ 的真实消失因子除掉。
+
+## 14. 同一个原M中的可用二次范围
+
+对第9节的原完整返回，
+$$
+F(t,Y)=\sum_{m\le N}Y^m
+ a(t)^{\lceil m/68\rceil}f_m(t),
+$$
+原帽
+$$
+\deg f_m\le\lfloor11m/34\rfloor-4\lceil m/68\rceil
+$$
+给
+$$
+\deg_t F\le a_N:=\lfloor11N/34\rfloor,\qquad
+\deg_YF\le N.
+\tag{51}
+$$
+把 $(49)$ 的右边记为 $\mathcal B_V(a,b)$。在原来源返回、固定坏素数、$(38)$ 及 conductor 全部条件下，
+$$
+\boxed{
+H=s-13-r_c>\mathcal B_V(a_N,N)
+\quad\Longrightarrow\quad
+\text{原完整 }\bar M\text{ 没有非零且返回 }F\ne0\text{ 的核}.
+}
+\tag{52}
+$$
+这消费的是原实际矩阵的同一必要低轴，而不是自由环境列。若原规范化来源已付 primitive 返回非零，则 $(52)$ 直接排除该来源中的完整核。
+
+例如充分的数值形式为
+$$
+p>6\mathcal B_V(a_N,N)+77+6r_c,
+\tag{53}
+$$
+再同时保 $(38)$ 与原返回范围。这里 $(53)$ 只是存在常数控制的二次 cutoff。
+
+原二次临界中 $s$ 与 $N^2$ 的比例已经固定；$(49)$ 的首系数含尚未计算的 $C$。因此本文仍没有证明临界核消失、同一 ordered scalar kernel 的严格预算改善，或任一 canonical 中央非零。二次指数本身也不能替代原需要严格改善的常数或全精度返回。后续须对这个实际低轴与原其余块继续联立，不能把已付的固定厚度换成零厚度。
+
+### 14.1 同一个实际低轴的真秩下界
+
+保持原规范化来源的独立列与已付 conductor 返回；不得为本推论添自由环境列。定义
+$$
+n_H=\max\bigl(\{0\}\cup
+ \{1\le n\le N:\mathcal B_V(\lfloor11n/34\rfloor,n)<H\}\bigr).
+\tag{54}
+$$
+在原独立低权子格 $\mathcal B_{\le n_H}$ 上，任何非零约化列组合都给非零 $F(t,Y)$，所以 $(49)$ 使其不能在全部 $H$ 个原低轴位置消失。因此，若该子格已由原固定 conductor 整返回到当前实际来源，
+$$
+\boxed{
+\operatorname{rank}_{\Bbbk}(\text{原第一块})
+ \ge \dim_{\Bbbk}\mathcal B_{\le n_H}.
+}
+\tag{55}
+$$
+有 conductor 的源权平移与固定原点阶仍分别记在实际预算和 $H=s-13-r_c$ 内，不从矩阵中删除。
+
+原已付维数为 $\dim\mathcal B_{\le n}=9n^2/68+O(n)$，而
+$$
+\mathcal B_V(\lfloor11n/34\rfloor,n)
+ =\frac{44(6C+1)}{17}n^2+O_C(n).
+$$
+故在 $N$ 足以容纳 $(54)$ 且 $H\to\infty$ 的范围，
+$$
+\boxed{
+\operatorname{rank}(\text{原第一块})
+ \ge\left(\frac9{176(6C+1)}+o(1)\right)H.
+}
+\tag{56}
+$$
+这是一个由同一实际来源与同一低轴读者得到的正比例秩下界，常数存在但未知。它远小于 $H$，不会越过行数，也不声称原临界全部列独立。第二、第三块、同一首提升与真正 Schur 返回仍须另外联立。

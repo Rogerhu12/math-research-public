@@ -115,3 +115,6 @@
 
 
 - [原正特征截断森林与立方重数界](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)：正规化枝整数赋值给真正正特征截断 Rolle，完整 cap 按循环权线性使用；一般点仅用小于 $p$ 的有限流。三维纯代数 Hilbert 下界和实际交循环给高次数最小方程在288次内退出，低次数由既有通用 Noetherian 指标 $M$ 支付。固定有限坏特征外，原奇点满足 $\min(s,\operatorname{ord}P(\gamma_s))\le D+D(D+A)+D(D+A)^2$，$A=3\max(M,288)$。原 $H=s-13-r_c$ 严格超过此界才排同一完整 $M$ 的必要低轴核；临界 $N\asymp\sqrt p$ 未排。未添中央导数条件、未引用无限特征 $p$ 轨道或直接套特征零定理。
+
+
+- [原截断森林§§11–14：薄X二次界和实际低轴秩](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)：对原 $P(t,Y)$ 保无 $X$ 的实际薄度，平移到 $(t+1,X+1,Y)$ 的 torus 后以完整矩形单项式及 $(\mathbf P^1)^3$ 的真 Segre–Veronese 嵌入支付 Hilbert 下界；所有局部 cap/有限流均沿前文已付步骤。另设固定 Noetherian 常数 $M_\square$，保清 Laurent 分母的单位、边界交数和 $p>L_\square^3$。得 $U=a+C,W=b+C$ 时完整上界 $48UCW+8(UC+UW+CW)+4(U+C+W)=O_V((a+1)(b+1))$。代原帽 $a_N=\lfloor11N/34\rfloor,b=N$ 后，只在显式 cutoff 排必要低轴核；同一已付 primitive 低源子格给第一块真秩至少 $(9/[176(6C+1)]+o(1))H$。未知存在常数、conductor/原点费用、原二/三块和实际首提升全保，未称临界全列独立。
