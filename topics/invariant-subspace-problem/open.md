@@ -241,3 +241,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 ## W 完整首一 F 原消去（8542，2026-11-28）
 
 [完整引理与原十一行应用](results/R150-appendix-unit211-W-exact-monic-F-elimination-all-leading-zero-fibers.md)：qF=F²+pF+q、Ri=Ai+BiF 的同一F存在性准确等价全部Hij=BjAi−BiAj与Θi=Ai²−pAiBi+qBi²；所有Bi=0时也覆盖。八条原F线性行给28Hij+8Θ，连r2/R6为38同S二次余式，保原D非零，未展开全部系数/未宣理想逐项相等。新70603只首发三个Θ与r2/Hij的五固定cofactor；所有S/F/λ首项零面仍保留。
+
+## Phi 例外图严格146基点与十权原值输入（8542，2026-11-28）
+
+[原R精确QQ重数](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)：实际赋值对偶及57/342阶QQ核完整乘回付φ1^10、H6²，已存模重数给合法上界；真首一2011余式与完整S的新xgcd度146，结合两整纤维排除，计至多146不同有序(rho,lambda)而不只是lambda数。没有排空例外图。新883c只用已存F10/Q−a9十权，构造四原二次行、保同两线的det零λ纤维，再送原四式/F6/NV；120秒/1GiB首次执行。
