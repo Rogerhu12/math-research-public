@@ -58,3 +58,9 @@
 ## 2026-11-27 23:27:13 UTC — 18第二个恢复试步的原统计返回
 
 18第二trial4a822统计于23:12:07.025345真实返回Phi4954.618769177863/Gram.6374150628738562，几何/接受未知；current仍7d0d/accepted1/g2.0476206814786773。不能借17近同数值的决定；完整source/model/point与原缺值保。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。双README云核至`308f42b775d05859e3b5f0d9fc9250ffca1f2cae`无变（非pull）。
+
+## 2026-11-27 23:29:23 UTC — 21完整b5/8独立参数落地，尚未启动
+
+刊[全部6件参数](computations/fixed-fejer-bfiveeighths-complete-parameter-delivery.json)，science97307B、pure86702B、display29575B、完整再生器21283B、说明12303B、总表52529B。19完整父的科学仅argv71 namespace与113 width1/2→5/8；δ1/32、metric/restoration均.01、全157/7词/458与445正式/48live/137源18runtime/全预算原字保。maker/reference不接width，固定g两输入原数学与全参数不改，须新runner实际重建。全部5支持CLI/6旧external保，19/20真官方身份仅追加external未知历史，不假迁typed；未来run/input/model/point/final/fee全null。完整双step紧凑104029B超95k，原whole步分期装载，无删字段或source重写。H完整旧16数学已在其全终态note和旧H链保，压短当前摘要留真实新槽；未启动新job。
+
+完整6件共299699B；双README云核至`11f4acf4993e93c8060c14823b717a5298761d95`无变（非pull），实际controller真pull见H各槽。
