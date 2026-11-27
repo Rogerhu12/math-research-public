@@ -473,6 +473,258 @@ $73$ 个一次整块，以及十个原圆单位的同时非零读数，
 当前 $4513$ 的已认证矩阵、对数、高度和正在进行的实际有限
 第三类微分计算保持其原来源；本节没有重跑其中任何输入。
 
+
+## 9. 同一原圆单位扩张的精确导子和判别式
+
+本节仍对全部 $p>37$，不加 regular 假设。
+令 $\mathcal I_0$ 是 $\mathcal I$ 的任一非空子集，按
+$$
+\chi_i=\omega^{r_i},\qquad
+2\le r_1<\cdots<r_{d_0}\le p-3,\qquad r_i\text{ 偶},
+\qquad d_0=|\mathcal I_0|
+\tag{1112.33}
+$$
+排列，始终使用 (1112.4) 的原类 $\beta_{\chi_i}$。
+定义
+$$
+L_0=K(\epsilon_{\chi_i}^{1/p}:1\le i\le d_0).
+$$
+这是 (1112.7) 的实际子扩张；特别可以取 $\mathcal I_0=\mathcal I$，
+或只取 R1069 的 forced good 角色。
+
+**精确结论为**
+$$
+\boxed{\quad
+|\operatorname{Disc}(L_0/\mathbf Q)|=p^{D_0},\qquad
+D_0=p^{d_0}(p-2)
+ +(p-1)\sum_{i=1}^{d_0}p^{d_0-i}(p+1-r_i).
+\quad}
+\tag{1112.34}
+$$
+$p$ 在 $L_0/\mathbf Q$ 中完全分歧，没有别的有限分歧素数。
+因此
+$$
+\boxed{\quad
+\operatorname{rd}(L_0)
+ =p^{\,\frac{p-2}{p-1}
+           +\sum_{i=1}^{d_0}\frac{p+1-r_i}{p^i}}
+ <p^2.
+\quad}
+\tag{1112.35}
+$$
+这里的根判别式属于原圆单位场；没有另选同维的 Kummer 空间。
+
+### 9.1 真实单位的准确局部深度
+
+令 $K_p=\mathbf Q_p(\zeta_p)$，$\pi=\zeta_p-1$，取
+$v_{K_p}(\pi)=1$。于是 $v_{K_p}(p)=p-1$。
+记 $\overline U_n$ 为 $1+\pi^n\mathcal O_{K_p}$ 在
+$K_p^\times/K_p^{\times p}$ 中的像。
+
+R1062 (1062.23) 给出的正是原圆单位的截断对数。
+对 $\chi_i$ 投影，其最低项为
+$$
+\log\beta_{\chi_i}
+ \equiv
+ \frac{B_{r_i}(a^{r_i}-1)}{r_i\,r_i!}\,\pi^{r_i}
+       \pmod{\pi^{r_i+1}}.
+\tag{1112.36}
+$$
+式 (1112.36) 表示：先把原类在实局部域中取 principal-unit
+代表，再取实际收敛对数。非平凡角色的 Teichmüller 常数可由局部
+$p$ 次幂去掉；不把 $\eta_a/a$ 当作全局单位。
+因为实局部域的绝对分歧指数为 $(p-1)/2$，其 principal units
+从 $K_p$ 的 $\pi^2$ 层开始，log/exp 在这里互逆且保最低赋值。
+
+good 条件、$a^{r_i}\ne1$ 及 $r_i<p$ 使显示系数为单位。
+模 $p$ 群环幂等元的不同整数提升只改 $p$ 次幂类，
+并不改变上述深度：若 $v\in K_p^\times$ 且 $v^p\equiv1\bmod\pi$，
+则其剩余类是 $1$，从而 $v=1+w$、$v_{K_p}(w)\ge1$；
+二项式展开给
+$$
+v_{K_p}(v^p-1)\ge p.
+\tag{1112.37}
+$$
+所以在严格小于 $p$ 的各层，局部 $p$ 次幂不能消掉已显示的首项。
+因此准确有
+$$
+\beta_{\chi_i}\in\overline U_{r_i}
+                      \setminus\overline U_{r_i+1}.
+\tag{1112.38}
+$$
+
+对任一非零组合
+$\beta=\sum_i b_i\beta_{\chi_i}$，若 $i_0$ 为首个 $b_i\ne0$ 的指标，
+不同 $r_i$ 使最低项不能相消，故其准确深度是 $r_{i_0}$。
+特别这些原类在 $K_p^\times/K_p^{\times p}$ 中仍线性独立。
+这重新付清所需的局部 restriction，而不是只用全局角色独立。
+
+### 9.2 一个深度为 r 的原 Kummer 线
+
+所需标准局部公式可核于 C. S. Dalawat，
+[*Further remarks on local discriminants*](https://arxiv.org/pdf/0909.2541)，arXiv:0909.2541v2，
+§1，印刷第2页：包含 $\mu_p$ 的局部域上，深度为 $r$ 的非未分歧
+Kummer 线的唯一 ramification break 为 $pe_1-r$。
+本题 $e_1=1$，故 break 为 $p-r$，导子为 $p-r+1$。
+
+为固定本题全部赋值和 $+1$，这里再直接证明。
+取代表
+$$
+a_r=1+c\pi^r,\qquad c\in\mathcal O_{K_p}^{\times},
+\qquad 2\le r\le p-3,
+$$
+并令 $\alpha^p=a_r$、$z=\alpha-1$。
+多项式
+$$
+(1+z)^p-1-c\pi^r
+$$
+的 Newton polygon 是从 $(0,r)$ 到 $(p,0)$ 的单线段：
+中间二项式系数的赋值均为 $p-1>r$。
+所以 $v_{K_p}(z)=r/p$，扩张 $M_r=K_p(\alpha)$ 的次数和分歧指数
+均为 $p$。取 $v_{M_r}$ 为整数归一化，则
+$$
+v_{M_r}(\pi)=p,\qquad v_{M_r}(z)=r.
+$$
+选 $1\le A\le p-1$ 和 $B\in\mathbf Z$ 使 $Ar+Bp=1$；
+$\varpi=z^A\pi^B$ 是 $M_r$ 的 uniformizer。
+对任一非恒等 $g\in\operatorname{Gal}(M_r/K_p)$，
+有 $g(\alpha)=\zeta_p^j\alpha$、$p\nmid j$，因此
+$$
+v_{M_r}\left(\frac{g(z)}z-1\right)
+ =v_{M_r}\left(\frac{(\zeta_p^j-1)\alpha}{z}\right)
+ =p-r.
+$$
+$A$ 为单位，所以
+$$
+v_{M_r}(g(\varpi)-\varpi)=1+p-r.
+\tag{1112.39}
+$$
+循环 $p$ 群只有这一处 lower break；upper break 相同。
+每个非平凡一维角色的 Artin 导子准确为 $p+1-r$。
+这也排除深度为 $r$ 的类给出未分歧扩张的可能。
+
+### 9.3 全分歧与全部角色的计数
+
+(1112.38) 使 $L_0$ 在唯一 $p$ 位的局部次数为 $p^{d_0}$，
+等于其全局相对次数。任一 degree-$p$ 子扩张对应一个非零
+Kummer 线，其深度由 §9.1 决定，且均由 §9.2 分歧。
+若局部 $L_0/K_p$ 有非平凡未分歧商，由其 elementary abelian
+Galois 群会得到一个未分歧 degree-$p$ 商，矛盾。
+故局部扩张全分歧，且 $p$ 在全局 $L_0$ 中只有一个素点。
+
+Kummer pairing 把
+$\operatorname{Hom}(\operatorname{Gal}(L_0/K),\mu_p)$
+参数化为这些原类。这里计数的是 Galois 群的非平凡**对偶角色**，
+不是把 (1112.11) 的 $\omega\chi^{-1}$ 再当成单位深度。
+
+首个非零指标为 $i$ 的组合恰有
+$(p-1)p^{d_0-i}$ 个，每个导子指数为 $p+1-r_i$。
+导子—判别式公式因此给
+$$
+v_{\mathfrak p_K}(\mathfrak d_{L_0/K})
+ =(p-1)\sum_{i=1}^{d_0}p^{d_0-i}(p+1-r_i).
+\tag{1112.40}
+$$
+这个标准公式及其 cyclic-character 计数也可直接核于 Dalawat
+同文 §4，印刷第15页。原单位使 $p$ 外无分歧，见 §2。
+再用 $|\operatorname{Disc}K|=p^{p-2}$、
+$N_{K/\mathbf Q}(\mathfrak p_K)=p$ 和判别式塔公式，
+得到 (1112.34)。除以 $[L_0:\mathbf Q]=(p-1)p^{d_0}$ 得 (1112.35)。
+因 $r_i\ge2$，
+$$
+\sum_{i=1}^{d_0}\frac{p+1-r_i}{p^i}
+ \le (p-1)\sum_{i=1}^{d_0}p^{-i}=1-p^{-d_0},
+$$
+故其指数严格小于 $2$。
+
+若 $\mathcal I_0$ 仅取原 forced good 角色，
+$r_i=p-1-2j_i$、$1\le j_i\le\lfloor p/4\rfloor-1$，
+便有
+$$
+p+1-r_i=2j_i+2\le2\lfloor p/4\rfloor\le(p-1)/2.
+$$
+因此更准确地
+$$
+\operatorname{rd}(L_0)
+ <p^{\,\frac{p-2+2\lfloor p/4\rfloor}{p-1}}
+ \le p^{\,3/2-1/(p-1)}<p^{3/2}.
+\tag{1112.41}
+$$
+R1069 保证这种 forced good 子集可以取维数
+$\Omega(p/\log p)$，但这个维数下界不是判别式证明的额外假设。
+
+## 10. 以原单角色场代替整大场的有效计数接口
+
+仍用原全部 $\mathcal I$、$d=|\mathcal I|$，令
+$$
+L_\chi=K(\epsilon_\chi^{1/p}).
+$$
+每个 $\beta_\chi$ 的线在 $\Delta$ 下稳定，故
+$L_\chi/\mathbf Q$ 为 Galois，
+$$
+[L_\chi:\mathbf Q]=p(p-1),\qquad
+|\operatorname{Disc}L_\chi|
+ =p^{\,p(p-2)+(p-1)(p+1-r_\chi)}
+ <p^{\,2p^2}.
+\tag{1112.42}
+$$
+这里不把 $L_\chi$ 换成任意 degree-$p(p-1)$ 场。
+若只消费 forced good 角色，同式指数还严格小于 $3p^2/2$。
+
+令 $\pi_{\rm spl}(M;x)$ 计数不超过 $x$、
+在指定 Galois 场 $M/\mathbf Q$ 中完全分裂的有理素数。
+$p$ 不计入。令 $\pi_{\rm good}(x)$ 计数 (1112.17) 的实际同时非零素数。
+对 $\ell$ 在 $K$ 完全分裂，
+$$
+B_{\chi,\ell}=0
+ \quad\Longleftrightarrow\quad
+\ell\text{ 在 }L_\chi\text{ 完全分裂}.
+\tag{1112.43}
+$$
+这来自同一个 arithmetic Frobenius/Kummer pairing (1112.13)，
+不是一个平均密度的替代。
+于是逐素数的集合并集界给出完全有效的恒等输入
+$$
+\boxed{\quad
+\pi_{\rm good}(x)\ge
+\pi_{\rm spl}(K;x)-
+ \sum_{\chi\in\mathcal I}\pi_{\rm spl}(L_\chi;x).
+\quad}
+\tag{1112.44}
+$$
+
+特别，若对这些**次数至多 $p(p-1)$ 的实际场**已经取得某些明确误差
+$$
+\left|\pi_{\rm spl}(K;x)-\frac{\operatorname{Li}(x)}{p-1}\right|
+ \le E_K(x),
+\qquad
+\left|\pi_{\rm spl}(L_\chi;x)
+ -\frac{\operatorname{Li}(x)}{p(p-1)}\right|
+ \le E_\chi(x),
+$$
+则不经过 degree $(p-1)p^d$ 的全扩张误差，直接得到
+$$
+\pi_{\rm good}(x)\ge
+ \frac{1-d/p}{p-1}\operatorname{Li}(x)
+ -E_K(x)-\sum_{\chi\in\mathcal I}E_\chi(x).
+\tag{1112.45}
+$$
+$1-d/p>1/2$ 已由 (1112.3) 支付。
+式 (1112.44) 无需任何解析假设；式 (1112.45) 则明确把所需解析
+输入单列，不在这里未经证明给出误差的大小。
+
+同样可以在 §6 的指定 $E$ 完全分裂的素数中逐一去掉
+$EL_\chi$ 的完全分裂素数；交域仍由 (1112.23) 支付。
+但这时实际场的次数和判别式须另计，不能继续使用 (1112.42)
+冒称附加分裂条件没有代价。
+
+本节给出避免整 $p^d$ 次场粗误差的具体入口，
+没有证明存在所需素数小于 $p^2/4$，没有证明它落在 (1064.39)
+尚可能有筛力的区间，也没有计算原同点曲线像。
+小根判别式本身不推出小辅助素或非 CM 候选排除。
+所有既有有限计算、源文件及 pin 均保持不变；本附节没有运行数学程序。
+
+
 ## 来源与纸核
 
 - [R1062](R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：
@@ -497,3 +749,5 @@ $73$ 个一次整块，以及十个原圆单位的同时非零读数，
 o2 独立纸核 norm=2 的单射、$\omega\chi^{-1}$ 方向、
 同一实际 Kummer residue pairing、共轭稳定集与附加场交域。
 无本地或其它数学程序执行。
+
+§§9–10（2026-11-27）新增原圆单位局部深度、全部导子、准确判别式和单角色并集计数接口；root/global_route/o2_high_coefficient 独立纸核，包括对偶角色计数、判别式塔与解析误差尚未支付的边界。未执行数学程序。
