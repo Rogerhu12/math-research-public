@@ -176,3 +176,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### positive 槽已严格换回原 canonical S
 
 [新ψ4完整来源](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)已给实际finite/Hom、wild3两陪集、两个Gaussian Weyl词、degree102负源及精确147/∛2幅度。正权(4,6)非零锚与负二root−已按∞型墙区分。现在继续真正full2/full9、十八个degree17图的fp/cross，保coherent δ^-n以及qδ整gauge；旧full54比较不能直接移名。正槽S0=0必须保，故目标仍是同源权斜率，不能改为参考真空非零。
+
+
+### 新 canonical 解析斜率已由真双槽支付
+
+[双槽Newton](notes/2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)已闭同degree102/34来源的全部Gaussian和δ权费用：Rcan=−3qδ^-v K−JS，Rcan′0=−3K−0JS′0。原坏条件迫这一指定解析斜率零，不再缺“是不是同一个S”的必要关系。真正待付是新fulllevel图的实际cross与参考非零，使该斜率等于指定几何读数；再给该同一读数无穷p非零。不得只用参考H3/H5真空、n4复锚或旧54图非零填此费用。

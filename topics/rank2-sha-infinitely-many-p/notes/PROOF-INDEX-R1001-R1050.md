@@ -382,3 +382,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 原ψ4/ψ17的实际canonical双槽（2026-11-27）
 
 [完整证明](2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)。π4=AIψ4²、ηk=ψ17^k/ψ4的全finite角色与2/3/17 Hom已逐处付，positive槽严格是原S/H3/H5。新wild3向量3·1_Z3−1_(Z3/3)来自完整lattice两陪集；负源保两真实三挠Weyl/Gaussian并作δ拉回，得完整degree102多项式、首301056和实际幅度147/∛2。原n4(4,6)为真非零锚，n−2的root−只在∞墙改变，未误作经典非零周期。负槽coherent变量Ω0h∞T/δ及两个Gaussian区别全部保；新几何图fp/cross和同一斜率非零仍开。
+
+
+### 同一canonical双槽的完整单参数返回（2026-11-27）
+
+[完整证明](2026-11-27-original-psi4-double-slot-newton-and-canonical-slope.md)。同一个degree102负槽与原S的两completion准确为102cσ/34cσ；全R301尾和R614整窗/两坏带保留，正权两个实际系数给−3qδ^-k C+^(2k)/(k!)² J−JS。只消合法整数共同因子后，完整Rcan=−3qδ^-v K−JS，其斜率严格−3K−0 JS′0；原坏条件无条件迫这个同源解析斜率零。二阶仍含log qδ，一阶除p完整首层是−d−,p−1s_p+1/γ+²。新几何L族cross/参考端点/共同因子非退化明示为后继条件，不将复n4锚当augmentation单位。
