@@ -100,3 +100,7 @@ run **46031932492**、job **140617645118**、source
 - 已读完整job log27568B SHA256：cb7e8b91834f9d5c518cfb832405e4e0836a1f8ab6fddfe6d67098a08d8ced42。
 
 后继v12将此两个已付源的实际hash固定后，接到未改正文的native v11生产器。原两char0 PASS pins、29/2453/64/minimal、API preflight=false及全部原门不变。host全60源manifest、源目录只读、Sage禁网和令牌仅host公共PASS读取保持；不装入任何旧矩阵或输出数据。唯一原重作业请求已提交，实际run回执后登记；尚未称四交/whole Norm/18×9影子完成。
+
+### 5.1 原完整v12实际启动
+
+实际run **46033409751**、job **140622660136**、source **048e20343a5f7ec65db9089d824d0635d6815b2b**；checkout与固定Sage镜像均成功，原两PASS认证及数学步骤于16:25:38UTC开始，16:37UTC仍为in_progress。16:29所取早期job log为404 BlobNotFound，未取得数学输出，不作为数学成功或失败。继续同一个作业，不重复启动。

@@ -115,3 +115,7 @@ R1049§3统一原S lift于H²_fp(S,2)，A用Besser(2.3)的唯一H¹_fp(A,0)，�
 ## 2026-11-27 16:25 UTC：完整二次返回PASS并接v12原作业
 
 run46032975863/job140621181486/source5df58ad8真PASS，完整原对照、基修改重建和全部306列回乘齐，八次单行0.9895s，原结果/log哈希记返回note。现修改本课题.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml调用v12，60源及两char0 pins、29/2453/64/minimal、全部原门/只读禁网不变；未原样重启v11，也不读取旧矩阵缓存。继续原作业实际验收及数学各线。
+
+## 2026-11-27 16:38 UTC — v12原作业实际标识
+
+已收到唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b。原数学step16:25:38UTC开始、16:37仍in_progress；早期log404没有数学含义。已将实际标识写入HANDOFF/返回证明，不改重作业请求、不重启。原全部验收未删。
