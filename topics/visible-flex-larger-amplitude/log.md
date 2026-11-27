@@ -192,3 +192,8 @@
 ## 2026-11-27：18初始六项有限几何与第一试探统计
 
 22:04:30原观察明确当前初点7e06/model9ec211的完整有限geometry已返：reach+2.0480426708394406、bodydiam−.04304843011978521、distance-plus+.11871374548166669、distance-minus−3.0936337267043594、capdiam−.06715131487906445、height−1.0411715967426867。有限最大违反在reach，另有distance-plus；没有连续证书或最大曲率位置。真实21:56:50.421541首已观察trial7d0d7e61c365986749b28def3e7759425f39ec7cb644737b13567b58592fd913统计Phi4954.694898882503/Gram.6374164670510036，accepted0/current初点不变，trial几何/决定未返。其点及模型都不同17，不能用相近数值移植结果。[完整原观察/身份](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)已续，未捕获的初geometry事件时刻不补。继续同完整科学，并据两实际瓶颈选择下一合法输入。
+
+
+## 2026-11-27：第51轮旧有限几何/LP派生结果完整保全
+
+[完整六件](computations/legacy-finite-geometry-retention-51-complete-delivery.json)344560B，按fresh树逐blob/bytes相同退17份旧derived JSON1899615B，净1555055B。固定恢复60321451c058c6a51da58c37ae5ec6f2d1145f74；54原源/71小record/187完整输入/18完整resource与argv/5整plan/56实际模型scalar全保。7大体仅原小manifest，完整旧19场315055B重构保；不读binary/大raw。旧4752B外部client仍未复得，不能拿8274B同名镜像替代；proxy原源版本、stale q095 slopes、部分六方向、未启动tail2、有限LP不可行及所有未知均保。源/参数/ports/Nelder/活输入和求解对象不动，原旧消费者需原路径整字恢复；本轮不产生科学结论。
