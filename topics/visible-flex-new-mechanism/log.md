@@ -598,3 +598,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜actual397固定E硬τ1首次实际范围与整点规则同步
 
 根全文审37612B driver、8406B说明、10778B完整场定义及6213B workflow；42来源hash/45 sparse/全部AST吻合。185644B新stdin d1d430078dd67777cc6ff972b6a6ec4cfc4262bdd0eb92d48e207df4a9f1e9ea内157609B原397来源逐字不动；目标86da8c60…同一个连续E，响应/数值坐标不改定义。完整1473Jac仅硬δτ0消元，全部1472列/原S行QR-SVD；新实际trial同根/真实尾条件及末完整读出保留，七类源误差未付。根00:01:46/47 UTC实际pull双库，公开7ad798390451dda805da35f99eb1c232d4a935a3、私库724f5769d39c1f05826ed6c36792a5bb66da6aa0，根/题/私根README均空diff，QUEUE仍本会话；只更新request规则metadata，科学stdin未变。
+
+
+## 2026-11-27｜B030原normal56e8的真实d191与238剩余
+
+根全文审9412B收据，独立核20715698B原stdout、唯一471344B FINAL/343899B PARTIAL、81q binary64 SHA、各源末库与当前/qualified fine逐项相同。15真接受/0restore、22START/J与21OUTER、1678已闭+238剩余齐合；最后298f已有ball/strip失败，未冒更低raw接受。新2370.339514432秒含所有不完整费用，旧链≥17099.551640495。下一d191已付1580不重baseline，只补原238并接真实native曲率；本地仅原JSON/hash/日志解析。

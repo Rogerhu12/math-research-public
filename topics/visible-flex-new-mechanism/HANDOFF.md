@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **aabecce45de87a746454c6a609c062090fdd3fe7**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **430ca5e5e81ad72fef1e93710e8e814a66746ac3**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -21,11 +21,13 @@
 
 末d613虽η3.77629e−5更低，却fine违约2.65026e−5，被拒并采用13点。actual311×1536/trust2、pending空；新required16167未付，保留资格仅16149，无naturalreturn或stall。[原311正常续算](notes/2026-11-27-r582-physical-normal311-resume-implementation.md)run45909167191/job140213091600/source181de62c，23:08:58 UTC启动；永久fine/旧成本保持；一次新field共用于必要新baseline与后端。p阶段2.5e−7未过；目标p=.8/末η≤1e−7，mean g仍在设计。mean坐标64:80与96；q80是首个新增tail-u，已更正分类。
 
-## 4. B030当前56e8，旧队列已经闭合
+## 4. B030最新d191，接原238剩余峰与native曲率
 
-[partial391原终态](notes/2026-11-27-r566-partial391-original-terminal.md)run45900339926/job140184283363/sourceb6343b326；2370.208649153秒，原391复用/1128补完后55e才接受，共8metric+2恢复（含η上升）。真q **56e8d87b39bf336a4cdb8c4106108396e735c498254a9e51c1a84c503904fb2f**，1388×3072/8886峰η.222444466001、物理V0，margin1.24e−12在原容差内、非严格余量。
+[normal56e8原终态](notes/2026-11-27-r566-normal56e8-original-terminal.md)run45909082053/job140212809662/source5cd6055b，23:48:08 UTC已结束；2370.339514432秒/15metric/0restore。真81q **d1914e0ff7baa35be99012afdd7af12ed3dbfe3cd876298762b9cedd2aa2e3a8**，1580×3072/1898峰η.21585219167801023、物理/working V0。当前与合格fine完全同SHA ace4e97f…，不重入口baseline；789圈/1763物理orbit/720work/1536角/trust.3003387451171875，pending11物理/15work。
 
-actual694圈/1555峰/309work/1536角/trust.3003387451171875；新fine1390未获1388资格，pending双空，旧队列不再跑。21完整Jac/1164块+未闭4块、0自然后端返回；末更差05f被拒。已知链≥14729.212126063秒，未知仍未知。[正常56e8](notes/2026-11-27-r566-normal56e8-resume-implementation.md)run45909082053/job140212809662/source5cd6055b，23:08:06 UTC启动，待自然终态；新baseline不计metric接受。[真实secant协议](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)证原33首callback先于BFGS/32交换；旧H/λ未存，首次I，后用同冻结λ/同行函数的已付两J，phase/角语义变重置。[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布：原LDL82维/3403项，MODEM1已消费不再外补；首次I，后续native reset仍I，512KiB必要checkpoint不存完整J。下一真实终态接新driver。
+末298f raw非best：同1580 fullfine/nested已付、1916峰完成1678剩238，已见ball/strip违约2.91e−7/6.82e−7，未接受。按同q/fine/oracle补余238再合并真实证据；旧1678不重跑。22后端/22Jac/21交换，0自然返回、602.598532248秒Jac；均首callback早于BFGS。已知旧链加本次≥17099.551640495秒，未知仍未知。
+
+[原源码时序](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)与[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布；旧未存H/λ不能恢复，首次I。新同冻结λ/同行函数两J、native MODEM1不二次消费、语义变重置、后续reset仍I。512KiB必要checkpoint不存完整J。具体d191/partial238新scope正在审发，全部原物理/峰/nested/双轨不变。
 
 ## 5. 正常全S继续，actual397固定E首次硬τ1范围已发布
 

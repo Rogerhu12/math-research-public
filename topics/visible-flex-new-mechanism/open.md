@@ -50,17 +50,15 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 每次求积只改善同一个连续E的评价，不换g；完整冻结高度/amp/口/参数身份须绑定真终态。求根支用真实均值c0，不假定逐角C同号；同根失败和全部求积成本保留。真正接受后继续角带/径向/尾的同g收敛，最后推宏观幅度；amp1e−5不授握持变化门。R574/R576/R594/R600/R606/R613/R615均按原量词消费，a失号时不得点除。
 
-## O2b-C：B030真实56e8，正常继续全部原物理门
+## O2b-C：B030真实d191，原剩余238与新native历史
 
-[partial391原终态](notes/2026-11-27-r566-partial391-original-terminal.md)：run45900339926/job140184283363/sourceb6343b326；新2370.208649153秒。原391个已闭bracket复用，1128个剩余全部补完后，原55e才按完整1519峰真实接受；旧队列不再复跑。本段8metric（含该接受）+2恢复，其中一次恢复η上升，不能记为全程单调。
+[normal56e8原终态](notes/2026-11-27-r566-normal56e8-original-terminal.md)：run45909082053/job140212809662/source5cd6055b；新2370.339514432秒，15metric/0restore。旧新1390baseline本段已付（不计接受），真81q **d1914e0ff7baa35be99012afdd7af12ed3dbfe3cd876298762b9cedd2aa2e3a8** 已完整1580×3072/1898峰，η.21585219167801023，物理/working V0。当前永久fine与保留资格同一1580/SHA ace4e97f3167657401810ae69d4c17422c324c4e0c09b9fd5acd347c09f0ff5b，不再重放其入口资格。
 
-实际81q **56e8d87b39bf336a4cdb8c4106108396e735c498254a9e51c1a84c503904fb2f**；1388×3072和8886个观测峰完整资格η.22244446600107332、物理V0，fine网η.22244446047228628只是较小采样值。working/ball margin违约约1.24e−12仍在原容差内，不冒严格正余量。actual694coarse/1555peak/309work/1536角、trust.3003387451171875；新requiredfine1390需自己的资格，pending双空、无PARTIAL。
+实际789coarse/1763physical orbit/720work/1536角/trust.3003387451171875，pending11物理/15工作。末298f候选raw/fine/nested已付，1916峰完成1678剩238，已有ball/strip违反2.914e−7/6.817e−7；不以较小raw e或未闭峰冒接受。后继同q/fine/oracle只补原238，合并新证据；完整物理/mean/det/box/curvature/ball/strip/working/η和细网门不动。
 
-21完整Jac528.254022765秒/1164块，未闭第22矩阵另4块与全部elapsed保留；21完成outer/22开始/0自然backendreturn。末05f2636a虽通过完整物理但η.237599993不改善，不能替保留q。继续真实56e8/全部永久坐标、原球/条带/曲率/mean/det/box/margin与η门。原内部minimizer/BFGS未存不伪恢复；[同冻结乘子真secant协议](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)已证原33调用/32交换均在首次BFGS更新前中断；旧H/λ未存，首次I。后用同目标/phase/角网、全部旧非零λ同行的已付新J形成Powell正定更新，缺行跳过、语义变重置；[最小native初H/精确LDL消费](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已审发布，原C MODE0可接实际正定近似矩阵、后续reset仍I；真x0/v/λ与MODEM1消费分明，全部编译/新的数值费用入原clock。第一段无旧H故I，下一原终态接新driver，现有运行不替换。
+本段22原后端/22Jac/21交换，0自然返回，Jac602.598532248秒/1464块；再次由原callback时序证每段尚未学首BFGS。新[native初H/真secant实现](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审：旧H/λ未存首次I，后以真实已付J与同冻结λ/完整旧非零行更新，phase/model/FFT语义变重置。原MODEM1消费不再外部重复，后续reset仍I；新构建及全费用在原clock，旧科学源冻结。具体d191/partial238新scope接续，不改目标或以近似H冒物理证书。
 
-[正常56e8新范围](notes/2026-11-27-r566-normal56e8-resume-implementation.md)从原实际694/1555/309与空pending继续；先付新1390×3072、全部峰和nested资格，旧1388身份保持，原科学参数未变。此资格不计metric接受；完整恢复/新交换和所有失败费用照旧保留。
-
-已知科学链下界14729.212126063秒，较早未知仍未知；[前epigraph全收据](notes/2026-11-27-r566-physical-epigraph-original-terminal.md)及旧open归档保所有旧工作行/回溯/backend/队列与物理拒绝。原B038缺末日志不作来源；固定g、全域全时reach及宏观族仍欠。
+[此前partial391](notes/2026-11-27-r566-partial391-original-terminal.md)的1128补全/8metric+2恢复（含η升）、全部旧fine/拒绝/费用保留，旧队列已闭不重跑。完整已知链下界17099.551640495秒，未知仍未知；fixed g、全时宏观族未付。
 
 ## O4：原固定宽度十九态，全反馈与更好自由中心输入
 
