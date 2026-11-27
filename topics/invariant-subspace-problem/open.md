@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-physical-lambda-four-heads-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-H1-entire-new-three-head-zero-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -26,11 +26,11 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
-**低秩V已闭范围：** rankV1全临界、rankV2内均值及rankH≤1低支撑结论已付；完整适用范围、结果链接和不得扩展的边界保本次完整快照。一般支撑仍须span(y,RanH,RanV)，inner ess5/6需rankH≥3；rankH5与V非零inner ess4/5/6仍开。
+**低秩V：** rankV1全临界、rankV2内均值及rankH≤1低支撑的已成范围保快照。未闭一般支撑仍用span(y,RanH,RanV)，inner ess5/6需rankH≥3；rankH5及V非零inner ess4/5/6继续。
 
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
 
-[rankH=rankV=2整层已付essT3≤4](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)，全部约化/jet/∞与原Gaussian末例外保完整快照。故潜在rankV2、ess5/6必须rankH≥3；继续rankH3ess6及独立ess4，不重做旧物理曲面门。
+[rankH=rankV=2](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)已付essT3≤4，故潜在rankV2、ess5/6须rankH≥3；续rankH3ess6及独立ess4，所有原退化/∞及失败范围保快照。
 
 ### 1.2 原权十一及更高幂
 
@@ -44,9 +44,9 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
-**已闭原面不重做：** L0的完整3352覆盖、整个Q=1−u、一般ell0均已付；等权b=c仅在旧D≠0图付ell−u，W另付k+2/Q−2。W整个λ3/2也已付，全部原头零及旧失败范围保完整快照/结果索引。一般LS、D0碰撞和其它权纤维不据此关闭。
+**已闭原面不重做：** L0、Q=1−u、ell0及旧D≠0等权整图已闭，W的k+2/Q−2和λ3/2已付；全部来源与边界保快照，碰撞及其余一般LS不外推。
 
-**S0/Lt0整支已闭，一般LS继续：** 615次QQ覆盖合全部退化面；原P1双零、Delta0/W对ell首项零及W整k=−1全闭，分别付(Pf,Pt)非同时零、Delta0的Phi、W的u(Q+2)−2及k+1。四值式等价首一二次/三一次，六参数式只投影、四Gram子式仅必要。[W整H0原排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)支付H；完整来源与旧失败保快照。
+**S0/Lt0整支已闭：** 原615覆盖及全部退化保快照；一般LS仍保(Pf,Pt)非同时零、Delta0的Phi及W的u(Q+2)−2、k+1。四值式首一二次/三一次及四Gram仅按原必要性使用；W整H旧零已付，不混新H265。
 
 [H非零原全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)及[整u=Q返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已付H/u−Q；旧180秒cofactor、76.992秒trace、F3/F95冻结，精确来源保快照。整个D27/J19已由原整域返回排空；当前W续全T3/F2原十一行和新Θ/NV输入，旧来源及失败保完整快照。
 
@@ -214,7 +214,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 $$
 P_{201}(u)=0,\qquad g(u,Q)=0,\qquad \#(u,Q)\le804 .
 $$
-[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)真15.058230470秒/0，返四原尺度/六无h逆矩列及完整F6/NV同点列，QQλ度6/6/9/10；三QQ正规范数上界3596/5764/6092，模1009度3179/5131/5407、共同2773，最高dual全零，未付QQ精确度，不缩804。e3cf真0.487842716秒返回h的QQ残norm41，九次分量54维原理想单位；十次分量对接已刊共同十权。新e18d只用同两λ6原cofactor，在∞完整rank1+3 Hensel模型上首次120秒/1GiB求真实消阶，有限精度不足只报上界；P201系数及原λ/T/z/个别NP、其它Phi仍开，旧b0的316另必要，旧门冻结。
+[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)的四原尺度、六无h逆乘法及F6/NV同点列已返。[新三头整个零支](results/R150-appendix-unit211-Phi-zero-H1-new-three-head-zero-complete-original-exclusion.md)由e3cf真0.487842716秒及已刊十权定理合成关闭：残norm41的五条旧线、九次实际Q一次/54维原单位和十次完整QQ一次gcd全部覆盖。只允许原解图使用h逆，F9的其它Q根及整u纤维未被误删，804不变。e18d真3.420099509秒已以∞ rank1+3付首范数QQ精确3179及mod保度；另两范数QQ上界5764/6092、mod5131/5407，保度仍开，mod共同2773不直接缩QQ覆盖。新λ6实际头、P201系数、原λ/T/z/个别NP、其它Phi和b0的316继续；旧门冻结。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -229,3 +229,5 @@ $$
 [整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的泛型唯一方向及a0/r1r0零、无穷和重根保留；当前有限原环境见上，不代个别值返回。
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)：每个非零普通M的非恒定解析f(A_M)，任意有界相似及紧扰动后自交换子仍有正、负本质谱；也保非零实际子商和慢平方Y_M−a。由R164忠实角与自含normaloid证明，排除这整类次正规加紧/迹类输入；新2611.28933v1的假设因而不能直接满足。非可逆交织/扩大空间/特殊闭域与同源费用仍须另做，不判M不存在。
+
+[六位一对等权加四独立权的原S1首次输入](notes/2026-11-28-one-pair-four-independent-original-s1-8542.md)：完整固定源9=6+3、低源5=4+1，另3维沿旧一般出生一结果；新六维使用完整低5维逆和第四真空塔，原U,V,W≥0/Z>0覆盖全部四单权排序。首次180秒/4GiB，仅给S1及普通边所需的实际领先主子式，不预判正性、不付S2/七位glue或同W费。
