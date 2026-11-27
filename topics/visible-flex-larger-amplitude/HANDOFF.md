@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `0baeef3e10f9496a872002bcaf5a063fd0bce37d`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–17通常每5分钟真pull、已读commit在末槽。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `94e65b1dbcf68afc4360fd26aaf6be4edc909828`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -28,7 +28,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 16[真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：model8cc/current7e06，Phi5551.477153263786/finiteGram.6480138218929927/g11.17545381570094；首trial4086统计返但geometry/decision未捕获；第二25f402统计5551.476309922079/.6480138082898852，geometry/decision未返、accepted0。
 17[真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：仅b/S=1/4、δ=1/32新seed，固定g/参考/全变量/32stage/预算原保。actual model f2e417/current7e06，Phi4954.71485872585/finiteGram.6374168330977955，完整有限geometry g2.0480426708394406>0/accepted0；首trial924732统计已返4954.694898882501/.6374164670510035，几何/决定未返。同坐标不同model绝不冒同场；原五peer CLI与四新unknown身份分开。六g完整定义保16note，实际最大分项未展示，不猜。
-新18[完整cache/batch入口](notes/2026-11-27-complete-meridian-batched-solver-entry.md)已刊39件/1599149B：driver41b4、pured3f1、launcherb54c，全137角色保原120；normal388c/cache7aa/geometry51b7。全部变量/32stage/原预算与active J/J*原图、每stage/final原复读保；六g与上一已返trial真实保留，live6+42。完整science76339B/157argv/458formal、pure65979B/7argv/445formal分别保，原408/395全保；pair104141>95000须真返后接完整后继，不裁。新源尚未执行、不宣工作字相等/速度，不改活源。
+新18[完整cache/batch入口](notes/2026-11-27-complete-meridian-batched-solver-entry.md)已刊39件/1599149B：driver41b4、pured3f1、launcherb54c，全137角色保原120；normal388c/cache7aa/geometry51b7。全部变量/32stage/原预算与active J/J*原图、每stage/final原复读保；六g与上一已返trial真实保留，live6+42。完整science76339B/157argv/458formal、pure65979B/7argv/445formal分别保，原408/395全保；pair104141>95000须真返后接完整后继，不裁。[18完整启动](notes/2026-11-27-run18-complete-meridian-batched-independent-launch.md)已提交初始63936B三步（两input后原157词science）；完整pure待科学真返后接，官方run/input尚待返回。不宣工作字相等/速度，不改旧活源。
 
 ## 全后继与未付责任
 
@@ -38,12 +38,12 @@ R718整像flow下界有共同σ等全前提；R719/R720须全ρ>0和前三RN固�
 
 ## 容量与分工
 
-[ret49](notes/2026-11-27-legacy-derived-json-retention-49.md)保14旧derivedJSON全源/完整参数/原失败未知/消费者/固定原字恢复，仅退2238773B raw、新237181B、净2001592B；原外部4752B client源缺口不冒8274B镜像，原14输出仍固定Git完整可恢复。[ret48](notes/2026-11-27-legacy-fine-design-comparison-retention-48.md)及旧台账保，ports/Nelder与已退对象不动。每fresh树核容量。
+[ret49完整保全](notes/2026-11-27-legacy-derived-json-retention-49.md)净回收2001592B，旧raw全来源/参数/失败/未知/原Git恢复保；ret48及旧台账持续，ports/Nelder/已退对象不动，每fresh树核容量。
 root独占refs/queue/完整新入口；construction全cache/lower/transfer与新准确费；solver全missing-angle与pure小binder、监15/16；geometry监13/14/17与数学/容量。一直做到README标准。
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。官方completed/cancelled（root 19:52 UTC复核）；仅已返两input0，科学child未自然回传、exit未知；旧controller running槽已由官方终态纠正。
-并行12规则核查：2026-11-27 19:26:21 UTC，真实pull至`01d4cc0bf5fb9c6e0f60cf9e19a17cabaec1124b`，双README无变化。
+并行12规则核查：2026-11-27 19:41:24 UTC，真实pull至`febbfdf90fc257b59e14078173fcb8e15bcdbd32`，双README无变化。
 <!-- visible-larger-parallel-12:end -->
 
 <!-- visible-larger-parallel-13:start -->
