@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `c9a3abe8048afa5ca1484f94cc3cd1856faf2eca`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `68c65990c5cc2dc20a5a4d7d5c25a2ceb1985120`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -32,7 +32,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 全后继与未付责任
 
-open§7保16/17全后继；[18完整准确费](notes/2026-11-27-meridian-batched-fixed-fejer-complete-accurate-fees.md)新增11件435970B，全137源绑定、六源/38+8词参数/全部预算，尚未执行。18 closed/R716/mesh适配继续。必须付全圆全径向六jet、scalar/mean/根/积分/working、上下/p4帽/mixed/allphase/R650、八beta+径向角色、末主副件唯一record与晚失败；mean J不代Cu。真closed/独立未标记外管/正V/非零中心矩才付含反射δE。
+open§7保16/17全后继；[18完整准确费](notes/2026-11-27-meridian-batched-fixed-fejer-complete-accurate-fees.md)新增11件435970B，全137源绑定、六源/38+8词参数/全部预算，尚未执行。18[完整closed/R718](notes/2026-11-27-meridian-batched-closed-phase-grip-r718-source-adapter.md)五件230004B/cbd012与全8argv66summary已保，未执行；R716/mesh续接。必须付全圆全径向六jet、scalar/mean/根/积分/working、上下/p4帽/mixed/allphase/R650、八beta+径向角色、末主副件唯一record与晚失败；mean J不代Cu。真closed/独立未标记外管/正V/非零中心矩才付含反射δE。
 R718整像flow下界有共同σ等全前提；R719/R720须全ρ>0和前三RN固定，均非实际证书。[R721](results/R721-supported-seed-width-and-profile-sensitivity.md)给δ与中央/相位曲率竞争、完整移动端B_b及Jv_b=v−B_b，不给Gram/主曲率排序；R709余量未付，Dhat不代真根。 [R722](results/R722-posterior-convex-mean-root-existence.md)以完整准确候选残差ε定位全部闭球凸极小点，η=2ε/αhat、ζ=dhat_z−η、Δ=ε+bη/ζ；ζ>0且0<αhat−Δ≤αhat+Δ<Lc给唯一准确根/全J逆界，不需粗b<Kz或收缩。实际ε与全角费用未付，旧R709布尔不伪改；独立准确分支继续实现。
 [原同源续算](notes/2026-11-27-observed16-complete-same-source-restart-parameters.md)只真complete/final可用，partial/accepted13不够；所有pending保，窗口未知。03–11全known/unknown/typed/发现序/失败保旧链，iteration_limit非驻点，时限非终点。
 
