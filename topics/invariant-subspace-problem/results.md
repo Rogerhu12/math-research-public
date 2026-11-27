@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，一般等权y=1/2整支排除）**：[原N1与物理D的同源恒等式](results/R150-appendix-unit211-equal-weights-half-singleton-mean-exclusion.md)：已付A_m/z后v0迫m半，同Gram原N_H=−dz²/12=−3dDval，与两物理单位矛盾，保全部Q。实际新V8返回0.032秒；一般等权可付v非零，整图未闭。
+
 - **已证明（R271，同W原边界指数下界/弱核心）**：[同一图对的真实费用](results/R271-appendix-same-w-exponential-dyadic-boundary-cost-and-weak-core.md)：两原dyadic边界有界子列经凸组合付图核心；原M占满前缀指数衰减和全Y末列支配迫每个非零P_Wf的同源费liminf logE_r/r≥gamma_ex>5/3。较弱子指数扇区仅付输出f∈I；Gamma/上界/两范围核心仍开。
 
 - **已证明（R150，等权原均值差首项零支排除）**：[准确y≠1图与完整A_m零支](results/R150-appendix-unit211-equal-weights-original-mean-leading-zero-exclusion.md)：原EBo解t，E1−mEBe精确给对m一次式；A_m0的z0/非零两支分别由原一元gcd和物理Dval0、已付(z+1)(z²+1)²排尽。三实际V8函数体1.059/0.094/0.005秒，可合法解m，保v0不删。

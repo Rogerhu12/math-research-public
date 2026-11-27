@@ -1,0 +1,22 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourceSHA256": "0d11eb266b841da217640b85425c33519a1b83bba5491e7e7bdf0ae9d7741150",
+  "runtime": "functions.exec pure V8 exact BigInt rational arithmetic",
+  "sourceSeconds": 0.032,
+  "completedNormally": true,
+  "osExitCode": null,
+  "peakRssKiB": null,
+  "input": "actual original chart from cfaa65b201c64aa7e7f019d955212b038260eb626a0b12a96856d9fd90e73e78",
+  "parameters": {
+    "m": "1/2",
+    "y": "1/2",
+    "Q": "1-d",
+    "z": "unrestricted original z"
+  },
+  "actualNormalizedN1": "-d^2*z^2",
+  "normalization": "P02*N_H/(m^2*(m-1)^2)",
+  "rawOriginalN1": "-d*z^2/12",
+  "physicalD": "z^2/36",
+  "proofScope": "Entire equal-weight y=1/2 branch excluded using original physical d and D units; remaining equal-weight branch open.",
+  "canonicalOutputSHA256": "a2d69120157b805eece32b8718631cb6dcb69afafbdad1f5d61f4db614a4329a"
+}

@@ -65,3 +65,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 11:48 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 登记同一最大图对的弱核心充分条件和真正P_Wf的指数边界费下界：保两dyadic边界、全Y逆、同源投影与全部尾向量，未付Gamma或费用上界。
 - 较弱增长仅给f∈I，有界子列才付图核心；不把一般坏源移到W。压缩open保完整快照，修正W0四生成元页的块公式分隔符；两README无变。
+
+
+2026-11-27 11:53 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 完整排除一般等权y=1/2：原v0迫m半，同Gram恢复lambda/T并给N_H=−3dDval，所有Q纤维同时矛盾；不把清分母行冒原N_H。
+- 保存实际V8新函数体与0.032秒回执，原图输入沿用已提交源。一般等权续v≠0；两README无变化，接口实读SHA记H，未冒称本地pull。
