@@ -24,7 +24,7 @@
 
 - **R1063（实际整族与各向同性已证明）**：[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：原完整 $v$ 的整奇次 $Q$/Hecke 族全消去 MW；轨道各向同性，不能满新部。§9由本原 $U:Y\to X$、满射 $U^\dagger$ 构造实际整 $V_\lambda=US_\lambda$ 因子及全部 split-Hecke 交换子解格的合法行，不除 bare 核范数。真整辛商为 $\Psi(x,y)=(U^\dagger x,y)$；最低读数是同一两列行列式，Lagrangian 满度及 jet 不落轨道仍开。 §10在原r2 bare失败分支给真实adjugate行、唯一Q前像递推及四配对；最低为完整两列行列式，非零仍开。 §11原零主分量的T5幂零，固定X108四维块T5²=9，故两者无非零Hecke相容线性子商桥。 §12完整Cartier共振修正给Q在CM的准确读数，原adjugate最低化为同一参数相邻d,ell两列行列式；非零仍开。 §13同一安全period给f_N=[r^d]j²/(12A1)及11h_d−16h_(d−1)=−4A1²；端点若零则下一平方系数单位，其与实际第二列仍待比较。
 
-- **R1061（已证明的实际几何判据）**：[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108三挠线准确给 $e\ne0\iff S_n\ne0$；有界primitive的 $h^3=2$、二阶解判据和真实Miller/Lamé矩给原半Dixon和。§15完整退化 $p^2$ Gauss/digit计算给 $4D_N'(1)+4D_N(1)/3$ 单位，只推出半和若零则其参数根简单；尚无actual CM参数桥或目标单位。 §16原FM Hom线与M0=1给全局刚化φ=U H_p(U³)，H_p(0)=−e/(2v)；全局非零已证，指定端值仍开，O阶只属Θ_A∨。
+- **R1061（已证明的实际几何判据）**：[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108三挠线准确给 $e\ne0\iff S_n\ne0$；有界primitive的 $h^3=2$、二阶解判据和真实Miller/Lamé矩给原半Dixon和。§15完整退化 $p^2$ Gauss/digit计算给 $4D_N'(1)+4D_N(1)/3$ 单位，只推出半和若零则其参数根简单；尚无actual CM参数桥或目标单位。 §16原FM Hom线与M0=1给全局刚化φ=U H_p(U³)，H_p(0)=−e/(2v)；全局非零已证，指定端值仍开，O阶只属Θ_A∨。 §17原Miller核的全局互易乘积准确−1，全部graph与vertical重数已核；不预设标量变换平方。
 
 - **R1060（单位输入已证明）**：[R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 

@@ -1378,6 +1378,104 @@ Proposition 3.11 的 principal-polarization 情形。
 由本节自证；o1_theta 推导，root 独立核准。无数学程序执行。
 
 
+
+
+## 17. 同一个原 Miller 核的严格互易式
+
+把原 $O$ 首项归一的 $g_P(T)$ 看作 $E_T\times E_P$
+上的有理函数。它在第二变量的普通导数为零：
+对一般 $P_0$，§7 的证明仍适用，
+因为 $[p](P_0+A)$ 到 $a^{p^2}$ 才变、
+移动的 $p$ 重极点到 $a^p$ 才变，而 $O$ 的首项恒为一。
+故次数 $1,\ldots,p-1$ 的变分全为零，
+在函数域中存在唯一实际下降
+$
+g_P(T)=K(T,FP),\qquad R=FP.
+\tag{1061.55}
+$
+这里沿第二变量的相对 Frobenius 下降；
+没有把集合意义的 $F^{-1}$ 当作可分映射。
+
+必须先核整个曲面 divisor。非 vertical 的分量由一般 $P$
+的原 divisor 决定：图 $T=[p]P$、对角线 $T=P$、
+以及 $T=O$，重数分别为 $1,-p,p-1$。
+不存在 $P=P_0\ne O$ 的额外 vertical 分量：
+本曲线 supersingular，所以 $[p]P_0\ne O$；
+两条 moving graphs 都避开 $(O,P_0)$，
+而 $g/z_O^{p-1}$ 在 $T=O$ 的刚化首值恒一。
+其沿该 vertical 的 valuation 因而为零。
+
+唯一剩下的 vertical 是 $P=O$。
+限制到一般 $T$，图 $T=[p]P$ 的 degree 是 $p^2$，
+$p$ 倍对角线的 degree 是 $p$；主 divisor 总 degree 为零，
+故这个 vertical 的重数准确为 $-p(p-1)$。
+于是全曲面上
+$
+\operatorname{div}(g)=
+\Gamma_{T=[p]P}-p\Delta_{T=P}
+ +(p-1)(O\times E)-p(p-1)(E\times O).
+\tag{1061.56}
+$
+支持和重数都已确定，没有留下任意 base function。
+
+用原 $[p]=-F^2$，沿 $\operatorname{id}\times F$ 下降，得到
+$
+\boxed{\quad
+\operatorname{div}(K)=
+\Gamma_{T=-FR}-\Gamma_{R=FT}
+ +(p-1)(O\times E-E\times O).
+\quad}
+\tag{1061.57}
+$
+第一个 graph 拉回为 $T=-F^2P$，重数一；
+第二个拉回 $FP=FT$ 是 $p$ 倍对角线；
+$R=O$ 拉回为 $p(P=O)$。
+这核准全部 inseparable scheme multiplicities。
+
+令 $\iota(T,R)=(R,-T)$。由 (1061.57) 逐项可见
+$\iota^*\operatorname{div}(K)=-\operatorname{div}(K)$。
+$E^2$ 完备且几何连通，故
+$K(T,R)K(R,-T)$ 是非零常数。
+该常数也须由原规范计算。
+
+令 $k=N+1$，则 $p=6k-1$、$m=3k-1$。
+取唯一满足 $e_2^3=108=-v^2$ 的 $e_2\in\mathbf F_p$，
+令 $T_2=(e_2,0)$ 为实际非零二挠点。
+因为 $FT_2=T_2=-T_2$、$FQ=-Q$，
+在 $T=T_2,R=-Q$ 处，原 $g_Q$ 给
+$
+K(T_2,-Q)=g_Q(T_2)=\frac{e_2}{v^{2k}}.
+$
+另一方面 $[p]T_2=T_2$，所以
+$
+g_{T_2}(S)=(U(S)-e_2)^{-m}.
+$
+这个式子的 divisor 与 $O$ 首项一都符合原规范。
+由此
+$
+K(-Q,-T_2)=g_{T_2}(-Q)=(-e_2)^{-m}.
+$
+两个值的乘积为 $-e_2^2/v^{4k}$。
+原 $v^p=-v$ 给 $v^{6k}=-v^2$，
+故 $(v^{4k})^3=e_2^6$；
+$v^{4k}$、$e_2^2$ 都在 $\mathbf F_p$，
+且立方在该域为双射。因此 $v^{4k}=e_2^2$，最终
+$
+\boxed{\qquad K(T,R)K(R,-T)=-1.\qquad}
+\tag{1061.58}
+$
+
+这是同一原 Miller 核的全局有理恒等式，
+保相对变量 $R=FP$、全部 vertical 重数与固定符号。
+它本身没有把原 Cartier 的指定 matrix coefficient 变成单位；
+也未在尚无比较时推出 §16 的标量变换平方为恒等。
+后继须继续原核的实际伴随与指定读数。
+
+o1_theta 推导；root 独立核整个曲面 divisor、$p/p^2$
+重数、$\iota$ 的两个 graph 交换及原二挠点的常数 $-1$。
+全篇纸面证明，无数学程序执行。
+
+
 ## 来源与本次核对
 
 - [R1059](R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原 $X_0(108)$ 函数、good 模型、固定微分尺度和 $S_n$ 配对。

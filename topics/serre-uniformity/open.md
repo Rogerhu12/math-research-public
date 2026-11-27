@@ -49,7 +49,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原三挠点e≠0 iff S_n≠0，Lamé给原半Dixon；§15只给加权矩单位。§16完整FM/Poincaré与M0=1固定φ=U H_p(U³)、H_p(0)=−e/(2v)，目标阶1+3ord_0H；O阶仅指Θ_A∨、仍保B_E因子。尚须原端值/无权半和非零。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原三挠点e≠0 iff S_n≠0，Lamé给原半Dixon；§15只给加权矩单位。§16完整FM/Poincaré与M0=1固定φ=U H_p(U³)、H_p(0)=−e/(2v)，目标阶1+3ord_0H；O阶仅指Θ_A∨、仍保B_E因子。尚须原端值/无权半和非零。 §17全曲面divisor给原K互易乘积−1；真实Cartier伴随/指定matrix系数仍需支付。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 
