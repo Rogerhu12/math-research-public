@@ -50,9 +50,9 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1100](results/R1100-certified-original-level47-first-global-CM-height.md) run45955885738/job140362136569，4.332秒：Γ(1)=818 mod4513，2/47/奇好贡献4256/1323/4265，5134个全部局部项。h(Bqu4,Bqu16)赋值1；不推全部73块unit，后继不重算n1。
 
-[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)：run45958934145/job140371881297，18.667秒，实际整基恰全部奇n≤149删47、141，det3946、指标和5437；原newform/CRT/Hodge1/2/3/5桥齐备。后继只按固定73indices重建，不重开搜索；其余72个真实高度继续。
+[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)：run45958934145/job140371881297，18.667秒，实际整基恰全部奇n≤149删47、141，det3946、指标和5437；原newform/CRT/Hodge1/2/3/5桥齐备。后继只按固定73indices重建，不重开搜索；完整高度见R1102。
 
-[完整高度请求](notes/2026-11-27-full-p47-complete-global-CM-height-method.md)已提交：固定R1101的73基，4核流式计算其余72个Γ，直接消费n1=818；trace Gram与R/P′恢复κ，核全部28块并读16个原log归一μ。公开Actions18000秒/reserve120，零块合法；尚待真实回执，完整高度仍OPEN。
+[R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
 
 [R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原八CM切向由真实KS与最多二阶fine jet读取；α=N⁻¹dlog f̄，等价唯一Cartier-fixed规定留数微分。完整QC首项t(B+At)及整尾已付；§6.1已付全部非q消失；实际α/角坐标/行秩继续。
 
