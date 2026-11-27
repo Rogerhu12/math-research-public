@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R12 解析理想像、同一循环闭包与强制来源发散](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)：已证明；原Haar同g的全部解析不变流形共享循环闭包，真闭理想的实际Sobolev来源逼近必范数发散。
+
 - [R150 整个一般 T0=0 原分支完全排除与一般二次头推论](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)：已证明；末整QQ4原48×35返1，可全局付T0，原四头在J!=Q余图全局可逆。
 
 - [R150 W 图整个 u=1/2 权线的原系统排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-half-complete-original-exclusion.md)：已证明；完整F13覆盖及整QQ13原常数1，余W可付2u−1，替代四二次头全余图可逆。

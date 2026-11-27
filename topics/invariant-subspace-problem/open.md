@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-58-Sylvester-h-failure-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-analytic-ideal-source-divergence-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -53,7 +53,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 
-**2+1型H、Hp0只余全有限四源非退化ess6：** 全H/V无穷远已闭；同Π的[完整原理想降次](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)、[C/G两条d一次式](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)及[原N二阶](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)均已付，保全部未付首项零。三个真Ke900秒和新1.465MB Hermite输入900秒均未得单位，准确运行保正文/快照且全部冻结；续新原输入，不能以mod样本或数域smoke代替特征零空性。三约化H与ess4/5仍开。
+**2+1型H、Hp0只余全有限四源非退化ess6：** 全无穷远已闭；同Π原C/G一次和N二阶d5/8已付，四个900秒门冻结。全部原公式、四源边界、来源/回执保本次完整快照及结果索引。继续真实非退化层、原幂来源及算子桥，不重做已闭面。
 
 ## 2. R271：同一来源的完整物理费用
 
@@ -183,3 +183,5 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
 **[整个一般T0=0原支已闭](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)，一般余图可付T0。** F4整曲线/J4全四权点完整原返回，最后QQ4原48×35直接返1（cd05afd9，0.625秒/exit0）。一般三参全15头真实计算给[0,2,3,4]仅剩T0(J−Q)未付因子；现在只需整J=Q面及其补图的真实全三次一致性，不能偷设二次单项式下降。新J=Q头源5a3a5758登记时未执行；所有其它一般LS/open接口继续。
+
+[原Haar解析理想像与强制来源发散](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)已证：任意非零Mz不变解析流形经同一g的原函数演算只给C_A(g)；真闭理想的实际Sobolev来源映射紧单射、像非闭，有限来源球到g有正距离，逼近g的源范数必趋∞。Rosenblum II正文现已实际取得并核相关定理；零点/ideal见证仍须构造，原边界只得closure B^k C_B(g)，不付N=M或未知闭根域。
