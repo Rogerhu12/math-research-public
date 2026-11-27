@@ -279,3 +279,6 @@
 
 
 - **R1040五伴随完整一维分解**：[§10](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§10以原整行A9=V−Q、N14=(2U−2V−Q)/δ替换L/M，Gram=(126,3,6,2,9,14)、有符号det756，17费用消失。原δ带权迹确定Θ9=−yσ9(X+4b)，真实二挠三项和的完整3×3矩阵确定Θ14=xσ14(X−2b)(X−8b)。五伴随principal投影严格等于39δ·Φ126⊗B3⊗F6−⊗Θ⊗Θ9⊗Θ14，原Y未新增Hecke投影。 全μ6物理平均、原F81位置、所有伴随mixed单位/depth测试的真实Mellin行均付；含Y的局部网格及YS/YT对数仍保。
+
+
+- **原两字的奇25下降与完整卷积**：[§7](notes/2026-11-27-original-f0-two-delta-word-return.md)。原F0笔记§7把三sigma G75的带ε δ-new字完整下降为两odd25来源C±；C2=−C1(−z)及原Miller乘再移号皆保持。真实三挠lift U±给Φ126=W51(U+C1−U−C2)/36，奇反演使原Mellin准确为1/18的卷积，单位条件始终是x+y为单位；原degree51 Gaussian与三个E2第三类边界不删。 这支付同一canonical在实际单字上的完整转置核，不给裸负一矩或两个summand各自新增中央零。

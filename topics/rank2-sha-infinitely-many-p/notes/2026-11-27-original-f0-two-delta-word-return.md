@@ -489,3 +489,238 @@ sigma 比率均与 (18) 相同；(34) 没有替换单位 cut。
 后续消元的对象由 (33) 的完整 transpose 明确给定，
 而不是另加未经支付的中央条件。
 
+
+
+## 7. 原三 sigma 输入、奇次数 δ 符号与完整单位卷积
+
+本节保留 (31) 的所有乘子，改用原输入中已经存在的整因子：
+$$
+G_{75}=\sigma(7z)\sigma(\pi z)\sigma(\bar\pi z),\qquad
+W_{17}=\sigma(3z)\sigma(2z)^2 .
+$$
+于是有原完整身份
+$$
+F_0=G_{75}\,[\delta]^*\sigma(3z),\qquad
+\boxed{\Phi_{126}=
+ \frac{G_{75}\,[\delta]^*W_{17}}{-3276\delta}.}
+\tag{35}
+$$
+这是三个与三个原 sigma 因子的分组，不是除去一个未知零因子后另赋中央条件。
+
+### 7.1 奇次数的真实 projector
+
+$[\delta]^*S_{25}$ 的原 Weyl lift 在 $u\in\ker\delta$ 上有
+$$
+\varepsilon(u)=\chi_\sigma(\delta u)^{25};
+\qquad\varepsilon(\pm u_\delta)=-1.
+$$
+因此 $G_{75}$ 的 δ-old projector 是
+$$
+\frac13(I-T_{u_\delta}^{75}-T_{-u_\delta}^{75}),
+\tag{36}
+$$
+而不是未加权的三个平移之和。
+(35) 的第二个因子 $[\delta]^*\sigma(3z)$ 也有同一
+$\varepsilon$，故由 $F_0$ 的整个 δ-trace 零及 module-linearity，
+严格得到 (36) 杀整个 $G_{75}$。
+在第二式中，$W_{17}$ 也是奇次数，亦有同一 $\varepsilon$；
+两个符号相乘，恢复 $\Phi_{126}$ 原来不需重相位的两个非平凡字。
+这锁定了与 R1040 联合字的方向。
+
+设
+$$
+g(P)=\frac{G_{75}(P)}{91\delta\,\sigma(\delta z)^{25}}.
+$$
+由于 $\sigma(3Q)=3x(X+4)\sigma(Q)^9$，准确有
+$$
+g=\frac{f}{x(X+4)},\qquad Q=\delta P.
+\tag{37}
+$$
+沿 (2) 的同一 $\kappa$，两个字仍标记为 i=1,2。
+其原 Miller 函数现在是
+$$
+h_{1,25}=(1-y)^{-8},\qquad
+h_{2,25}=x^2/(1+y)^9,\qquad R_1=S,\ R_2=-S.
+\tag{38}
+$$
+全 divisor 为 $(25-i)O+iS-25R_i$。
+与第2节一样先乘再平移，得到两个完整 degree25 标准来源：
+$$
+\boxed{
+\begin{aligned}
+\mathcal C_\pm
+ &=\frac{\sigma^{25}}{34944}
+   \{V_-(X)\mp9XyB_2^{\rm div}(X)\}\\
+ &=\frac{\sigma^{25}V_-(X)}{34944}
+   \mp\frac{\sigma(4z)\sigma(\delta z)^3}{46592\delta}.
+\end{aligned}}
+\tag{39}
+$$
+这里没有重新运行小消费者：
+由精确加法式，
+$$
+\left(\frac{(1-y)^3}{x(X+4)}\right)(P+S)
+=\left(\frac{(1+y)^3}{x(X+4)}\right)(P-S)
+=-\frac8{x(P)(X(P)+4)},
+$$
+故实际两个有理部分就是 $-8B(\pm y)/(X+4)$。
+(39) 是 (24) 的完整代数回乘。
+其反演是
+$$
+\boxed{\mathcal C_2(z)=-\mathcal C_1(-z),}
+\tag{40}
+$$
+不能照 degree34 的 (15) 去掉这个负号。
+
+令 $\widetilde{\mathsf P}_i$ 为 (36) 重相位后的字符 projector。
+整个回乘是
+$$
+\widetilde{\mathsf P}_iG_{75}
+=91\delta\,\kappa(P)^i h_{i,25}(Q)^{-1}
+ \frac{\sigma(Q)^{25}}{\sigma(Q-R_i)^{25}}
+ \mathcal C_i(Q-R_i).
+$$
+所以原 canonical 的第 i 字准确为
+$$
+\boxed{
+\mathsf P_i\Phi_{126}
+=-\frac1{36}\kappa(P)^i h_{i,25}(Q)^{-1}
+ \frac{\sigma(Q)^{25}W_{17}(Q)}
+      {\sigma(Q-R_i)^{25}}
+ \mathcal C_i(Q-R_i).}
+\tag{41}
+$$
+固定 $W_{17}$、实际点 $Q-R_i$、完整 sigma 比率和两种
+$\varepsilon$ 都保留在此式中。
+
+### 7.2 以真实三挠平移代替抽象 Miller 符号
+
+写 $\mathcal C_i=\sigma^{25}R_i^{\mathcal C}$；
+这里上标区分其有理部分与点 $R_i$。
+对下层来源 C 定义以下两个**完整代数来源算子**：
+$$
+\begin{aligned}
+\mathcal U_+ C(P)
+ &=\sigma(P)^{75}(y(P)+\delta)^{25}
+       R_C(\delta P-S),\\
+\mathcal U_- C(P)
+ &=\sigma(P)^{75}(y(P)-\delta)^{25}
+       R_C(\delta P+S).
+\end{aligned}
+\tag{42}
+$$
+所有表观极都由原 theta 线束回乘抵消。
+例如取原 $v=(c,\delta)$，$c^3=-4$、$\delta v=-S$，
+并保原刚性化常数
+$$
+C_v=-e^{-3\eta(v)v/2}\sigma(\delta v).
+$$
+原 cosigma 公式是
+$$
+e^{-3\eta(v)(z+v/2)}\sigma(\delta z-S)
+=C_v\sigma(z)^3(y+\delta).
+$$
+故
+$\mathcal U_+=C_v^{-25}T_v^{75}[\delta]^*$，
+$\mathcal U_-=-C_v^{-25}T_{-v}^{75}[\delta]^*$。
+(42) 保原代数有理部分，因而不需要在后续单位测度中另选一个
+未固定的复或 p-adic 标量。
+
+由 $\kappa^3=1-y(Q)$、$x(Q)^3=-(1-y(Q))(1+y(Q))$，
+以及 $\sigma(\delta z)=\delta x(P)\sigma(z)^3$，直接得到
+$$
+\boxed{
+G_{75}=-91\delta\{\mathcal U_+\mathcal C_1-
+                              \mathcal U_-\mathcal C_2\}.}
+\tag{43}
+$$
+这也独立核定了 (41) 的 $-1/36$ 和两支符号。
+设 $W_{51}=[\delta]^*W_{17}$；其完整原 frame 也可直接写为
+$\sigma(3\delta z)\sigma(2\delta z)^2$。
+于是
+$$
+\boxed{
+\Phi_{126}=\frac1{36}W_{51}
+  \{\mathcal U_+\mathcal C_1-\mathcal U_-\mathcal C_2\}.}
+\tag{44}
+$$
+$W_{51}$ 是奇函数，而由 (40) 得
+$\mathcal U_-\mathcal C_2(P)=\mathcal U_+\mathcal C_1(-P)$。
+因此 (44) 是同一原偶来源，未生成额外中央零行。
+
+### 7.3 保完整 unit cut 的实际转置核
+
+固定一个好 ordinary 地点、原普通周期和原刚性化 theta frame。
+以下 $\nu_F$ 总是整个 F 的实际 Amice 测度。
+(42) 的原代数来源和 $W_{51}$ 都只涉及固定坏素数；
+需要的固定清分母与原来源规范一并保持。
+这也可在原整 theta 格中核回： (42) 是固定 degree75 的无极标准截面，
+其代数有理式只用原 $\delta$ 加法、三挠平移和(39)的固定分母；
+由原整 theta 基提取后仅须删固定坏素数，当前 $p>211$ 均保持有界。
+原质量及首项另有 $\mathcal U_+\mathcal C_1(0)=-1/546$、
+$[z^3]\mathcal U_+\mathcal C_1=-1/(2\delta)$，
+而 $W_{51}=-36\delta z^3+O(z^9)$，故(44)准确回原 $z^6$ 首项1。
+这里直接使用 degree51 的 $W_{51}$，
+不把它无证替换成少一个 Gaussian 的
+$\delta_*\nu_{W_{17}}$。
+
+乘法在这一共同 frame 中对应测度卷积；(44) 给
+$$
+\nu_{\Phi_{126}}=
+\frac1{36}\nu_{W_{51}}*
+ \{\nu_{\mathcal U_+\mathcal C_1}
+       -\nu_{\mathcal U_-\mathcal C_2}\}.
+\tag{45}
+$$
+设 $d=p-1$，沿原 ordinary ray 定义真正单位测试
+$\mathbf1_{\mathbf Z_p^\times}(s)\langle s\rangle^{dv}$。
+由于该测试为偶、$\nu_{W_{51}}$ 为奇，(45) 精确化为
+$$
+\boxed{
+J_{\Phi,p}(v)=\frac1{18}
+\iint_{\;x+y\in\mathbf Z_p^\times}
+ \langle x+y\rangle^{dv}\,
+ d\nu_{W_{51}}(x)\,
+ d\nu_{\mathcal U_+\mathcal C_1}(y).}
+\tag{46}
+$$
+这里条件始终是 **和为单位**；
+没有改成 $x$、$y$ 各自为单位。
+因此其真实转置是
+$$
+\begin{aligned}
+K_p(v;y)&=\int_{\;x+y\in\mathbf Z_p^\times}
+                 \langle x+y\rangle^{dv}\,d\nu_{W_{51}}(x),\\
+j_{\Phi,p}
+ &=\frac1{18}\int K'_p(0;y)\,
+                    d\nu_{\mathcal U_+\mathcal C_1}(y),\\
+K'_p(0;y)
+ &=d\int_{\;x+y\in\mathbf Z_p^\times}
+                 \log\langle x+y\rangle\,d\nu_{W_{51}}(x).
+\end{aligned}
+\tag{47}
+$$
+这是原 canonical 必要行在实际单字上的完整测试，
+包含固定17因子、三处平移、原周期及全部补域。
+它不是裸的 $\int y^{-1}d\nu_{D_-}$，
+也没有将 (39) 的两个 summand 分别赋零。
+
+最后，(29) 中的短乘子还有精确的第三类分解：
+$$
+\boxed{
+\frac{X+4}{y}\,\omega_E
+=\frac12\,dx-\frac12\sum_{e^3=-1}e\,d\log(x-e).}
+\tag{48}
+$$
+因为 $\sum e/(x-e)=-3/(X+1)$。
+对实际有理输入 F，整式为
+$$
+\frac{X+4}{y}F\omega_E
+=d(xF/2)-\frac x2\,dF
+-\frac12\sum_{e^3=-1}eF\,d\log(x-e).
+\tag{49}
+$$
+因而应用 (47) 或其有限连接形式时，
+exact 项的完整 transpose 与三个二挠边界一同保留。
+若 F 含原 theta frame，$dF$ 也包含该 frame 的连接；
+(49) 不许可删除其 Gaussian 或 cut 费用。
