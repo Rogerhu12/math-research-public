@@ -1,0 +1,587 @@
+{
+  "schema": "lossless-json-whitespace-compaction/v1",
+  "original_complete_commit": "ba95a7219fa883622b2b3daefde527d04568c117",
+  "part": 2,
+  "parts": 2,
+  "batch": "next-128-original-pool-indices-256-through-383",
+  "method": "Delete only ASCII JSON whitespace outside strings. Preserve all strings and escapes, literal numbers, keys, values, array order. Original complete bytes remain in immutable Git history; this is metadata formatting, not any scientific recomputation.",
+  "reference_filter": "Excluded full root/topic path, full parent path, unique leaf name, original whole SHA256 and git blob references in all other current Python/JSON/YAML/shell/JavaScript/TypeScript files, including every current workflow and manifest.",
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0127_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25303,
+      "compact_bytes": 18280,
+      "saving": 7023,
+      "original_sha256": "5c36ff98887db18f456e135f2666efd3771369ce6695d27ec643bb57c7d49ebe",
+      "original_git_blob_sha": "354846e25fb9e4e406cdb4dcdf83f43ebb5696a3",
+      "compact_sha256": "3af9bdac10888fecc1028f598b3093b3b2a20ad4a2ea36bdc3cb342fa644075a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0127_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25302,
+      "compact_bytes": 18279,
+      "saving": 7023,
+      "original_sha256": "96b8d9792b74ff701c18ffc9fe410c47defcf5b82aef46f2dc53ec3eaa1049e4",
+      "original_git_blob_sha": "4df841837e5e0730f36e8bb93c32240bb993abad",
+      "compact_sha256": "724c6c2877b7748428c9a7f2c5d92019d5e66f4ae6fd3a82717ee9a7fda62e24"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0157_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25249,
+      "compact_bytes": 18226,
+      "saving": 7023,
+      "original_sha256": "c07f1d592e484930ee9b9923b234e3053da42ed8ea189d77c5da6fa943acb3bd",
+      "original_git_blob_sha": "ec311f65beae2e42e70db38e867f21f9d3038427",
+      "compact_sha256": "54d780abd9e607ebd16c9974d71d88d4754ec855c8b10afd7118fbb893ed2449"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0157_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25248,
+      "compact_bytes": 18225,
+      "saving": 7023,
+      "original_sha256": "631caf5156e222853d6c11019155caa7c47fc3d4b66b1eb0d5e2e2571a63e40e",
+      "original_git_blob_sha": "82e1e84878ec12140208bf1fe01e8181a947104c",
+      "compact_sha256": "66fb06a30f9496fffe38508c3f8b9a9e331c4a40aee970882c613c24cf464013"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0116_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "9fc524cfcff003e3955b4e4dbdff0398bc37e2947fe71da0b55d6543ed7aa864",
+      "original_git_blob_sha": "42fce51cf0a51fae29c41c3800c8f5b70ad657ca",
+      "compact_sha256": "ffbd816e1eab0ef97afac526e1e88944f79e534f9473be7a4a561fe181578736"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0116_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25242,
+      "compact_bytes": 18219,
+      "saving": 7023,
+      "original_sha256": "e8132b2e185f059b791a47d74a025c602920e812036810b37ef983df0d8a9024",
+      "original_git_blob_sha": "8657f190796e3abdfb1ad92c978bd2b70d153157",
+      "compact_sha256": "7272b3712ba839292782acb91c7ce47311d0f7bca818d0e02f8515902919ce85"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0113_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25247,
+      "compact_bytes": 18224,
+      "saving": 7023,
+      "original_sha256": "daddbb9b292d8accbbafdb02b701a4400139a0cf850d7480a056311a9daaab0f",
+      "original_git_blob_sha": "64a8fc5d24714ab719ff6ee91aed3fcdb088a3a2",
+      "compact_sha256": "5b3250c7f67c3db8bb9bd143a1fe564dcd08ec369b0900e08ef5fdccba936430"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0113_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25247,
+      "compact_bytes": 18224,
+      "saving": 7023,
+      "original_sha256": "cf38d692cde4ddfdfeafbc00778e1102448b9a2f6c0c89efd7f8176448b18f44",
+      "original_git_blob_sha": "1272646ac30f0e1cc01e1c0ede862a67ac17b4c8",
+      "compact_sha256": "e8e371bf6c5ef1e4c6b2ac49766377f96c729e2c1aa3b5bfeb8c0fe3acce2ea7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0147_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25307,
+      "compact_bytes": 18284,
+      "saving": 7023,
+      "original_sha256": "5fbaabe77d3cf72714fa4a09edf7808ed5b2fb501f1feed7e0972b890430f13b",
+      "original_git_blob_sha": "a7dd49b63f68d09da81dddefd8c75238d92a3cac",
+      "compact_sha256": "77a1d6363e2694a454d619dfb0d8cae4a386c78aff012611421fb17a32935574"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0147_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25307,
+      "compact_bytes": 18284,
+      "saving": 7023,
+      "original_sha256": "038a43940fba23290eaa83d38cfb85be194be649026804380a3a4cffc0fca9a1",
+      "original_git_blob_sha": "8210bb4d10ce5c231a89ddc1ea16174357399a11",
+      "compact_sha256": "114505fcfd5902b78c36670ae0ef5b918e772623e5ef73424789ca24b51eee8f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0148_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25242,
+      "compact_bytes": 18219,
+      "saving": 7023,
+      "original_sha256": "e893292f2595884d4aa169c9055ae1c5964f6eda7f6268a2b8c18cda959e3297",
+      "original_git_blob_sha": "97d3670ee0e6da0428971966d3c71b48a71ae696",
+      "compact_sha256": "a27bea05d0272044eb62ca652a475c24194353c84254c0654cdc9a64af07359e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0148_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25241,
+      "compact_bytes": 18218,
+      "saving": 7023,
+      "original_sha256": "caefacea9f1aefeff660de853aa0eaf796843fddb0824f96a0acfad0b729ce00",
+      "original_git_blob_sha": "f87df01350981d7f9855dfc2dc02b633573881eb",
+      "compact_sha256": "5169d4309d0b9d7817a94f74b04bb776d4f8336284132f59f633f7831c57f741"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0159_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25247,
+      "compact_bytes": 18224,
+      "saving": 7023,
+      "original_sha256": "d77d2364d7b07e36fed8c7cc3c85aaa66418c6c0e46a9b80f947ff79c8bcea39",
+      "original_git_blob_sha": "edc8a07fab4f8e36d5692d6fc1fcced2935d078a",
+      "compact_sha256": "b6861857fbb7cb1e25532f7184557489ae1f3cb1e45b347017792c5c5eb750f4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0159_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25246,
+      "compact_bytes": 18223,
+      "saving": 7023,
+      "original_sha256": "54db0b12cd5a79465745fbedfbf4576d58c682eb0759d9135eb7e1c328001a72",
+      "original_git_blob_sha": "7bc2b8af34d03f462fb8d033aaa43db4effd2ced",
+      "compact_sha256": "82014c72a3c6bb5c1fe45e0b7110ca0ec228a30ed0481e99273ea3d94aabbe09"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0161_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25242,
+      "compact_bytes": 18219,
+      "saving": 7023,
+      "original_sha256": "d9a69bc165a2d3e2cbf145d4479b67ea05b11a8e13f0252dfe5866487a430171",
+      "original_git_blob_sha": "876458d096fe9d15cb6004c57b16b22b426232ff",
+      "compact_sha256": "8952b6f89c4f859da4d9d2b4eb9050bd1dd399692cc2412530c0080b8e43b032"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0161_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25241,
+      "compact_bytes": 18218,
+      "saving": 7023,
+      "original_sha256": "8c24f47c159ef3c2ce9b93f13f134caa83583e3b35cb75dbacd409b9c7d641da",
+      "original_git_blob_sha": "13149acf99135d71461a32468077c79bf463c89b",
+      "compact_sha256": "08c4a4c306689f3c2fbddc7a019204f9ba11010651144398c01ff69217cdc6bd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0152_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25246,
+      "compact_bytes": 18223,
+      "saving": 7023,
+      "original_sha256": "3f3d46a1e81ab184381a07a1844dc93a5948ae3aab74265c428cf9dadb69a697",
+      "original_git_blob_sha": "e8cdd881a09a0ef71b7e429bd3f233a64d792dd2",
+      "compact_sha256": "1dbc062019ab4fa2cd14d9e27c14439b9ebedd2150dd96a0dd798dbd71211b3c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/forward_0152_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25245,
+      "compact_bytes": 18222,
+      "saving": 7023,
+      "original_sha256": "0c3dbddf350a7ed7f2c92e9d7f1d7f2e3d4ccd953aa9d965f903db609b7ad91f",
+      "original_git_blob_sha": "a9cd3a18226f025b10009b8f1dd9e111316cb543",
+      "compact_sha256": "651f6a34b3ca5b98b41ae3c82a5b4de57ae920cd59ad8d9e71cacee0d14c8c48"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0074_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25245,
+      "compact_bytes": 18222,
+      "saving": 7023,
+      "original_sha256": "cafb198bb2f8805f33d54bc8c8d5618b6e7e3d37b38e734ff40e963ec3cea748",
+      "original_git_blob_sha": "e2c8ec82603c9e96d3fc3f7291cddfa900ccbc1d",
+      "compact_sha256": "cec519b1fc5485656d104c317d677b51a2cb398ba707930e1b992dec916e32e6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0074_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25245,
+      "compact_bytes": 18222,
+      "saving": 7023,
+      "original_sha256": "62f6aeaa650d070f4fdd0125504c03dbfceb455d671d87ef0bc539579a778c39",
+      "original_git_blob_sha": "ef958de03730b631a6ca03da97e400f1b2935faf",
+      "compact_sha256": "d063284618492f07daf0d372afef152a80ebe92a8183dd290ac50f6589da404e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0056_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25239,
+      "compact_bytes": 18216,
+      "saving": 7023,
+      "original_sha256": "def38a75f2442a8db9c994b8ffe696823296a70dee63fecca63c1f69db3cab6f",
+      "original_git_blob_sha": "1379e6396024a4f61ff58b6c530d9a524a94b598",
+      "compact_sha256": "beda28c737cb774127850cea73f7c53a476afbbe6d697e2490ec23d8c6694df4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0056_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25238,
+      "compact_bytes": 18215,
+      "saving": 7023,
+      "original_sha256": "27075417f39ce457b9d2fcce49ff93324c2a175f4a05e7d0a48056c80a2ff90e",
+      "original_git_blob_sha": "2da4a250348af29bd8669e0bc7e35e8cf84b785a",
+      "compact_sha256": "67d46fb8651d50fb6dfb993016594b120b88293c5cfac61eecda31539095c52a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0077_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25234,
+      "compact_bytes": 18211,
+      "saving": 7023,
+      "original_sha256": "07a32652daad20abc0688541c23df093a6fa79b6f8b7dbbde04bb1daaccac477",
+      "original_git_blob_sha": "1758cd434d0a4fb85d9fbdbbc76a0e5160606d81",
+      "compact_sha256": "73317bae7241335db7065451a2fbd1fe5bcda637e56cba1ab8946ca45c8a7baa"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0077_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25234,
+      "compact_bytes": 18211,
+      "saving": 7023,
+      "original_sha256": "b352eedc7b0dc1f05564f5ae0b34194d5ac4bddece021544a44c9385446a411f",
+      "original_git_blob_sha": "91a85ea34bce52da23185b1c2064b3dc7157700a",
+      "compact_sha256": "126acac8b267a9c682aeb426a461463a27337a93bc3bdc2ddb30320ec3d605f4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0103_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25250,
+      "compact_bytes": 18227,
+      "saving": 7023,
+      "original_sha256": "b13711e99a13eb983f5f1aba57de6407fdc709e0c5de4faaf05d849fcac38046",
+      "original_git_blob_sha": "46c74714ee3846ad4cf8764f21a0cce9d66a9825",
+      "compact_sha256": "70b5a95bce7d6dde3e0323eb115db6bafe8fc0c53582ff8162cca62cdccf3444"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0103_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25249,
+      "compact_bytes": 18226,
+      "saving": 7023,
+      "original_sha256": "72532e662f62884baefdc3543f6f927ccd02338337d66206c2ca8e618877cc57",
+      "original_git_blob_sha": "48c581bed2623c403b6b44859a571fe95c775388",
+      "compact_sha256": "91f6a50d5646f773fffc68752a1e943397b2057e76b0090922bedeb66c90e39e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0093_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25245,
+      "compact_bytes": 18222,
+      "saving": 7023,
+      "original_sha256": "a83cb4cba11fd68619667d2b5e0a882d2861d9e21e9f07da6bf86c5a6771f1bc",
+      "original_git_blob_sha": "05d3364278bd5c16232e1e881d8fc9de2798d521",
+      "compact_sha256": "a65d83731cf26f0a6390d1321ccd9d2ff288458744c021e54b9e0e0d06509b8e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0093_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25245,
+      "compact_bytes": 18222,
+      "saving": 7023,
+      "original_sha256": "621d8400296725d3933e37ec5fc00c425575bd6d2ec95ec297493c861779eaa9",
+      "original_git_blob_sha": "5af620b0916dbfaa2072f1eca4e34924649cc5e5",
+      "compact_sha256": "aec059250f327c038811c8412e6c0db009132ba63392b262a9da232c7d360bb4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0109_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25250,
+      "compact_bytes": 18227,
+      "saving": 7023,
+      "original_sha256": "27237571ce6da57b3767fa2427cabc6ef1bcb69d62d3aed8d4c7bb9c09b328d6",
+      "original_git_blob_sha": "c30bac33a1bdcf6a4e8f7997b70e72c1bf4af23b",
+      "compact_sha256": "8719c2fc4161769d73cd941a4775edf7f31512911466c3c6d0ab2ac8ae91e777"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0109_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25249,
+      "compact_bytes": 18226,
+      "saving": 7023,
+      "original_sha256": "8bb75f0afa892f78dc109c8e1e4f1cf085ef841552a6c6f00b6bfa543c2be848",
+      "original_git_blob_sha": "ccaa83ba30f657965db40eb8bf034e35a8b01dad",
+      "compact_sha256": "53fc79cd43f24fd63c754f70a2246278bf4dbd1c15829ce230370c69c17bd519"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0098_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25239,
+      "compact_bytes": 18216,
+      "saving": 7023,
+      "original_sha256": "b7e3b6c0eb730106a745e2bd4f714de161688b5651204cf78e81891a4a14085e",
+      "original_git_blob_sha": "8ae355bfda184bd48cdd471ae85a8ba56ae3acb5",
+      "compact_sha256": "699a87b029005d3ed8701054de0ec7be26ab0377c297a3667df9be68526fe1e1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0098_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25239,
+      "compact_bytes": 18216,
+      "saving": 7023,
+      "original_sha256": "1b64e1b4d5c9bc2acc8eaf8ef6b994e704f16acec5571ca8556e6c1899191f3d",
+      "original_git_blob_sha": "83aa019977a07d25f6e22a988df21cc79bcde6d0",
+      "compact_sha256": "20eef09de2c628c56945d3bac825fcdedba4512dc6dc996f017e3d8d6430e386"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0083_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25246,
+      "compact_bytes": 18223,
+      "saving": 7023,
+      "original_sha256": "3396ff8be1f9754ae1478ab7a107578fa6f35a43fc59cb9509c31f89fc8e5f5e",
+      "original_git_blob_sha": "b670ba6d7d9b7ee70f4e41afdca32370612dc0d6",
+      "compact_sha256": "ede61403c9602616b8bfb480586547054d1bc872e78d12af60118ccf79d19342"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0083_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25246,
+      "compact_bytes": 18223,
+      "saving": 7023,
+      "original_sha256": "c3806e5e10f80cfca76c0a2485a302e50183cb6519a2d16352ea681fed60b736",
+      "original_git_blob_sha": "c1aa46b553ee0790fa047bc0501241617b1f1484",
+      "compact_sha256": "3b48f540170e9b8cd0480e4b69608e397b5312c75a2cf0d117fe3fdfb4e90521"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0067_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25166,
+      "compact_bytes": 18143,
+      "saving": 7023,
+      "original_sha256": "af1a26c0d3f1b06f4fc651d0cc7a687d5022fb36d785b7f18d7306b447af1bff",
+      "original_git_blob_sha": "09c3aa851ac34290a2017621af644d530815d576",
+      "compact_sha256": "b47504857c210897831b26c207687bda3dc0211ce892e0271c705d4ce189b03d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0067_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25166,
+      "compact_bytes": 18143,
+      "saving": 7023,
+      "original_sha256": "e14e89d797c5c90eaeab5dd6374f350766dbbcffff9328aa553284d119cd9420",
+      "original_git_blob_sha": "58e979aef11d56060c1cfd8dc30c64580889786b",
+      "compact_sha256": "be8308531ce28226238bdcea158ada0689bdf53bb4187ad2e9168f865128f66e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0066_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "00bdaeaddcc3e614aa36f74828dae7e58741269cb3245d640adba8f43264ce4d",
+      "original_git_blob_sha": "75c3b5e36d09c147c3e93e438a2aa69cf7d88c9f",
+      "compact_sha256": "e146a3b315c552d30a0fc8336f876915674fc4e05bad5e100ae335360b474974"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0066_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "70dfdb0463fbc2adb89adb4054145fce366a641d3b05f7af452e014a5f4e683f",
+      "original_git_blob_sha": "2e78708a9c408854b5117b34056fb22bfeb902b7",
+      "compact_sha256": "1323b2cd4bb403fc8b6b4fb8615e407b3551d3c70b6d8c46b7e4491898505561"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0062_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25197,
+      "compact_bytes": 18174,
+      "saving": 7023,
+      "original_sha256": "2f343ea306b8dfbc5d83623ab1cc29e5ff16689d068ffa4081b1070f319c3038",
+      "original_git_blob_sha": "ea6c95b5babcaebe3a6d24340c9abeef51ec878c",
+      "compact_sha256": "83d749fece6137b2012301f1cf6cf947c4943269429de0e8dc62a3b2b139b2ad"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0062_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25197,
+      "compact_bytes": 18174,
+      "saving": 7023,
+      "original_sha256": "53f0f451963d1a165ffba3b89a27cb1d86df92c95d51a6369cd1b3fafb351112",
+      "original_git_blob_sha": "ae457af3b9366cd54715d5bf57056584223feefa",
+      "compact_sha256": "9f8aeb2b4c03e9c8e6d3fe6335ac7eacacf31dcc1c97043878e6495207bc1d38"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0078_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25189,
+      "compact_bytes": 18166,
+      "saving": 7023,
+      "original_sha256": "e62e9e98fc4396923b346272381584fa5cfead4ae4cb0c6a861a3bab63b59803",
+      "original_git_blob_sha": "3594aefc2733ac9210b8f45f01cb1e71348331f4",
+      "compact_sha256": "4897fdfa6544e4c750a52f884a9db544717b7f5f9dcb3ca37104d3006a5d1297"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0078_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25189,
+      "compact_bytes": 18166,
+      "saving": 7023,
+      "original_sha256": "5c1e44557302a8b4e1eb18afd41a176cacdbb318dd20128d9f643be1c49d286b",
+      "original_git_blob_sha": "1d6697e4f1bb0ce2753cb3b445376e2bbc9e8724",
+      "compact_sha256": "7d596a1d7a2a38d66172043523e7e5027b2ac6548c368ee9a919f0804f40f048"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0101_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25247,
+      "compact_bytes": 18224,
+      "saving": 7023,
+      "original_sha256": "b5b65ff4b9c52c32c224afa73f6f4551a4f087bba947d18788ae640e7c6fb841",
+      "original_git_blob_sha": "d954a8ee11c85f12c64c61265eac02b5a92b9cb1",
+      "compact_sha256": "094bb7a48f51a5603c29897bc223109697dac6f78d1f6ab18d42f32779304078"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0101_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25247,
+      "compact_bytes": 18224,
+      "saving": 7023,
+      "original_sha256": "35c22fbf19f66cb799a44df6fa368630d127de6e908bc93e2f3d4f250a0d2da3",
+      "original_git_blob_sha": "5e7f1ccad99a6790c0bac0c7780ed7480e2b859c",
+      "compact_sha256": "a3e6d657ab8c9c7d09475e89ffb7f5822b4a52f53c89d0c72ee00dd4ec46a8c1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0076_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25247,
+      "compact_bytes": 18224,
+      "saving": 7023,
+      "original_sha256": "8b92962cd54a8d260d1739006d608f07aee0b7dd1181e862f53b33b9f7821f9f",
+      "original_git_blob_sha": "c747c329a2c030ca3841ce075878b162c1bda994",
+      "compact_sha256": "6e8293c2c14623f15c944afae5fedce15584478f99fa13d6ff87cffa454e63ce"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0076_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25247,
+      "compact_bytes": 18224,
+      "saving": 7023,
+      "original_sha256": "768e845b27919335b52bf331bcf299d7add8819271ca158c8d732bb1a7123a44",
+      "original_git_blob_sha": "6d5b30cbcdef24d4f93855c15261e00f9caa0b55",
+      "compact_sha256": "7fd8501be320d6c344b75d6b6d3d275bd41511cd0e06ea2f34c0a0db86c2d4f8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0105_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "7c9b42fd98cb8c1c2c26523ed2cdb6be575f3eda6acc431d494e3233e4e49fbd",
+      "original_git_blob_sha": "767a70b770f4eb9d0a9af894241747ee8e97b68b",
+      "compact_sha256": "c68194c2d8508d19769beb0364136bc21b5eb8d02c1e772187e9eec4a0747553"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0105_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "2f75ff57182b94239f39da45ac6f80da2758083bf52bfe4361c15955b021a1dc",
+      "original_git_blob_sha": "8c37e1051bc51545bf50218ac6fc70d8a7ec58c9",
+      "compact_sha256": "d769b65f4f8918b34b79b1731622d57a7c43213d45f705152a9d1624188950a6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0064_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "9cc60cabc4022303a63b2f6dd8195780611d6720f31d786513d453826041794c",
+      "original_git_blob_sha": "b43b5811f8b0853cc0ddf0bcacf71f1a20bec36e",
+      "compact_sha256": "97719b46e86ca5ae7827b948d41a85612c5ce65ee56faeab46a792402693fe0e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0064_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "81244e021233e1534166f25d16c16eafb9a7f6f29ec5d998e8ca87ef56c8a482",
+      "original_git_blob_sha": "418e204793c97265ad18a3553fd018a5440c50db",
+      "compact_sha256": "8d65f7da3c1bc4bd36b1ade6b3e32459d6ffac9267e714a04c97be576b0af7d8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0097_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25244,
+      "compact_bytes": 18221,
+      "saving": 7023,
+      "original_sha256": "b315bb61aa7a04b0e657cbdc69f3bf2600126cb990ec8bfa80e7a415e9dd5a7e",
+      "original_git_blob_sha": "998cd52927f93daade846c981afdcffe97fa5598",
+      "compact_sha256": "8cde1e43898eeb9433c44331b03eb9e3a2f7f96b12d306b8261fc4cb10f03cac"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0097_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25244,
+      "compact_bytes": 18221,
+      "saving": 7023,
+      "original_sha256": "800fe2d2472796f6b5ca1e5ab9e0454626dc96c3fddee3114a83f9bbdc311a71",
+      "original_git_blob_sha": "0a8357c875d52dc2ccccfdedc7bf49fddaac99be",
+      "compact_sha256": "c3f191f0396a14e061c5a113bdc4b1d5a41f6116a5b21979e0e1ce5f4e51334b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0080_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25241,
+      "compact_bytes": 18218,
+      "saving": 7023,
+      "original_sha256": "13abbc6d16abdb2179f7a1de9d632949bb6db8bf5a0f2382ed2790b3fd0252ba",
+      "original_git_blob_sha": "054a99f88bd1b3da277c506882e0069d388fa786",
+      "compact_sha256": "b591acc8d66f5bb6fe973a384a0a62d4e10dbc506e7ea50836e2b45e1b310a02"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0080_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25241,
+      "compact_bytes": 18218,
+      "saving": 7023,
+      "original_sha256": "de21f8f01f250f4bba2b33f1c9f76863aab7b91fb4ca8f96edf1640b733b5901",
+      "original_git_blob_sha": "3fadd8fa4fdd95573fd8fb9d36c087ea484d6e3b",
+      "compact_sha256": "8dbe2c33d36354dc0d66144e1f8b7ed637336a758f51b53828be4c9fa7909005"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0061_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25244,
+      "compact_bytes": 18221,
+      "saving": 7023,
+      "original_sha256": "4fd788ea46c6d7db2f0c2c61bedd836c36a4e4611905d76e13572a80e635fbea",
+      "original_git_blob_sha": "2e8544f45c603a81187f1b82c433c6c503efe6ba",
+      "compact_sha256": "d35bcb4dfb1ea81fe47cf07596ae3adb164f2f1d8e4d998efac5890fc10ac1c6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0061_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25244,
+      "compact_bytes": 18221,
+      "saving": 7023,
+      "original_sha256": "afb94337e412cae84901e70f5cc4d3866ee1a6ee6eb4bc957de57db782115c6a",
+      "original_git_blob_sha": "edb4663289b393de0802fd66f021657c65368c86",
+      "compact_sha256": "c2a09de5e5bca992ea686d05a5c1c15211daab129375accea7e612b0dff1ce8a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0094_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25249,
+      "compact_bytes": 18226,
+      "saving": 7023,
+      "original_sha256": "c91681989bc382ccbdabdab15e794003807fd9debcd4f4948daf7edfefe63903",
+      "original_git_blob_sha": "983a7c41c9755bf38c1285f4273225e554222dbf",
+      "compact_sha256": "1eaae17f4e31763fd5fbb48a7e362d984c9e4ad5996b03f0a618a0aab1803bf8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0094_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25249,
+      "compact_bytes": 18226,
+      "saving": 7023,
+      "original_sha256": "d35a1d9d7a4a580d6232c2d5b1f2d54e431e7f69d2f1fb6a159d91b982ab3ac1",
+      "original_git_blob_sha": "ad62d13641c0b926ecb2c73325067f90f64686c7",
+      "compact_sha256": "fb56408f0040a393996a0b399d64232d2af771ea3e9a6fb63b8ba7dae4f75d16"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0102_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25249,
+      "compact_bytes": 18226,
+      "saving": 7023,
+      "original_sha256": "feba6e944b4d824c9294aabc9c06a123952a25b00a4f0c69da6f8aa4ae6f3431",
+      "original_git_blob_sha": "b91e1e88e33a6a3c2ca1af66030be4cb7f3a5d77",
+      "compact_sha256": "dd2c3306fafd5b144a4456d9425a69ae11f6bc76d6557160c068d60e8ae11b1c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0102_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25249,
+      "compact_bytes": 18226,
+      "saving": 7023,
+      "original_sha256": "0e6cfa96927c05d08f239519cd1c0211dd256451bedf188ab79a03373280def8",
+      "original_git_blob_sha": "d5bc6fcd0c130446046b7ba4dd616548fca04a6f",
+      "compact_sha256": "c416e429e76110b5c2d74275e6325f0618717ed614fe3f8191e3dc94f324bf68"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0088_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "1be311a6cd1b514fb23bcf928f7bbaceca46c540ab302b3b0297717fd02fa948",
+      "original_git_blob_sha": "34c65eeb08b219aea859257d14c239562cee3281",
+      "compact_sha256": "05d8b9fdbad89113927a2485d2b2956d8e34362da86323a6c36094b35a5b0c76"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0088_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25243,
+      "compact_bytes": 18220,
+      "saving": 7023,
+      "original_sha256": "eb351bccf63d8a90a13aedbd7acae6ef2884001c020f0eef0883280bee9e551e",
+      "original_git_blob_sha": "96ede8a0973412eb5290bd59e26e68e63bf1aa22",
+      "compact_sha256": "6f7c79f0ccff03ffad038656177351209059d9d56b9246d17fb95274525e70a2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0092_ef134f2a18_uniform/field_p2/manifest.json",
+      "bytes": 25246,
+      "compact_bytes": 18223,
+      "saving": 7023,
+      "original_sha256": "e0ef24b75166c911739dd3f597fe01b469b15d777f45ec139e8b4870afda68a0",
+      "original_git_blob_sha": "2845db5f59b02132dddf2ef1b09ab0cfd695c6ef",
+      "compact_sha256": "86f298fb451ab70500dc62367875f286c84ea809c45602f72f67bdf8ef5c72fe"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0055_0110/forward_0092_ef134f2a18_uniform/density_p2/manifest.json",
+      "bytes": 25246,
+      "compact_bytes": 18223,
+      "saving": 7023,
+      "original_sha256": "2ad5279dd8490489ee890518f285dac1bbb87db9299c19a13ee069f0fe6e2118",
+      "original_git_blob_sha": "c32da1295d95a825217fda843084be05be86335c",
+      "compact_sha256": "34b1f36185543a70238192e4dfb7a102b85ad22cb87d4ecd454ca519979e5c06"
+    }
+  ]
+}

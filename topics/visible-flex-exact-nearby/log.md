@@ -398,3 +398,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 00:19:51 UTC / visible-exact-astra-fb31ed6-20261127：登记PT全正侧独立两端all-angular proof/reader，18新有理比较已全过，未再执行。原whole body/collar Riccati/frame、完整ordered primitive和真实mean/head保；低背景Cb<104001.697651、Db<2627.587601，M_n=[560(n+1)]³只作辅助tail能量吸收，中段由已付H¹解支付，未新增finite inverse或改变head193。显式An使高背景A^{n+5/3}只线性一次，实际root/outer traces和独立source/jumps同域。真实moving-angle exterior反射尚独立，geo继续完整拉回long PDE。WH最终public3c224b829ea747a075746d960cf550c0a6b4a03c，两README无diff。PS已完成whole六球但原body门ε≈64.097636（含点whole≈64.855555），保false并续原signed-loop；PHI唯一45915169627/1在算；TC00:17 prefix848/7724仍运行。
+
+
+2026-11-27 00:21:33 UTC / visible-exact-astra-fb31ed6-20261127：为下一真实signed-loop/OT输出留规15容量，对原pool第256..383共128个legacy native metadata JSON仅删字符串外空白并保末LF；原完整字节/全SHA/git blob逐项核ba95a7219fa883622b2b3daefde527d04568c117，literal数字/字符串escape/键序/数组逐字保，JSON语义相同。当前全部py/json/yaml/sh/js/ts（含新manifest/workflow）完整路径/parent/独特leaf/原SHA/blob引用冲突0，2份完整receipt70124B，毛省898944B、净省828820B；无数组/科学/结论重算，原history永存。PT已推66eec90f212a23db385dff2a79ac5689bbc06782，每pull根/topic README无diff。
