@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-four-original-heads-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-exact-boundary-images-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [低余孔C2](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)与[临界小指数矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)仅支付明确物理扇区/矩来源。实际E非零是否自动满足仍开，不从稠密或正则化极限补源费。
 
-**W原图当前接口。** [整D27](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)已闭；[T4/F2八列原环境](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)已返六行/16乘法。新[同头A143低组合](results/R150-appendix-unit211-W-three-original-quadratic-low-cofactors-and-two-generator-chart.md)补图由1,S生成，A143零面保两降次式及B146E849−2D422C372；不倒B146/D422。原qF、个别N/P仍须返回，环境自由不传原最终商。
+**W旧补图保留。** A143非零图由1,S生成；其零面保两原降次式及B146E849−2D422C372，不倒B146/D422。八列旧环境由后列全六列原返回继续，全部旧源/边界保本次快照。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整源、零域、失败保正文和快照；不重做已闭面。
 
@@ -194,11 +194,11 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[h=k整个Phi0已原排空](results/R150-appendix-unit211-equal-singleton-entire-Phi-zero-original-exclusion.md)，支付Phi。** ell≠1和ell1全四次代数自由Q合闭；7f9变量遮蔽失败保原档。整个h=k仍开。
 
-**[Phi例外权的新F26](results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md)。** 新mean T闭包/U6得单QQ因子(26,26)/729项，精确payload已存。与原31/52曲线都须满足；当时未付gcd/有限点，后续以真正新PB输入处理。一般rho二次统一清Gram失败另列，Ah0为独立W纤维。
+**Phi例外权旧必要输入保留。** F26,26与原31/52须同时满足；精确payload已存。后续PB/混合投影推进见168基点结果，旧六行cofactor不重放。
 
 **[同G稀疏核注入的全H链](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)。** 一次高度选择保全κ三次增长，完整旧链误差及Π+GT望远镜支付全H稠密；ℒ_e0是B→T迹类拟亲和。真w仍秩一限制并灭N；新移级图闭包多值、不可闭，不能替代原闭G或付实际源费/N=M。
 
-**[Phi例外权新混合原返回的168基点界](results/R150-appendix-unit211-Phi-zero-exceptional-mixed-original-168-cover.md)。** 4b385混合NB/PB/U6给C34,48，全385除法/六坐标核回；与真实首一2033原R的固定新60阶投影模xgcd为168，两系数1881/1864全乘回。原首一Gauss及同点Vandermonde消失阶给每有序图≤168不同基点，各≤6T；真7.471秒/60832KiB/exit0。12个模因子只选后续原输入，不当QQ因子，不宣有限纤维排空。
+**Phi例外权仍≤168有序基点。** 原首一2033覆盖/独立混合投影的Gauss已付，每点≤6T。新[六真权边界QQ像](results/R150-appendix-unit211-Phi-zero-exceptional-exact-original-unit-boundary-images.md)仅留λ1/2及完整H6；真实固定投影的一次QQ整除已付，模支持22及余146不作更小点数界。4f9真0.146秒/39728KiB/0；新4d64在两个整常数代数上剥原rho单位，再付首一原rho有限理想，未先判整纤维空。
 
 **Phi一般rho清Gram失败冻结。** ed0真102.023秒/905380KiB/SIGABRT，FLINT明确分配101202984字节失败；只返原两线及H0content，mean/N1未返。[准确失败](notes/2026-11-27-unit211-Phi-zero-general-rho-two-cleared-Gram-memory-failure-8542.md)及原源保留，不抬限重跑，换小原标量/显名分母输入。
 
@@ -218,7 +218,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 
 
-**[全unit211紧凑原恒等式](results/R150-appendix-unit211-compact-original-scalar-means-and-N1-identities.md)已接[整个h=k原五行/三列](results/R150-appendix-unit211-equal-singleton-global-compact-original-three-column-cofactors.md)。** 7bd9以已付Pf解P1的f、保z=Qt及Pf·NV=Tnum−bcDelta·z；全部三mean/N1/NV同点返回，三个固定cofactor参数度62/17/9、80/20/11、61/16/9。真5.701秒/90476KiB/exit0，整个Delta零面与所有未付头零保留。新a0e1做Delta/Tnum及Delta/原均值cofactor固定QQ消Q，保所有头零；多变量gcd只分解曲线与剩余交点，不判空。个别谱N/P仍属原条件。
+**[紧凑原恒等式](results/R150-appendix-unit211-compact-original-scalar-means-and-N1-identities.md)与h=k五原行/三列已付。** 以Pf解f、保z，Pf·NV=Tnum−bcDelta·z；三个原cofactor度62/17/9、80/20/11、61/16/9。全Delta及未付头零保留，个别N/P仍属原条件；Delta零续后列七lambda整域返回。
 
 **一般Phi紧凑879首次失败冻结。** 实际run46022929932为120.067秒/816684KiB/内层−14 SIGALRM；最后只返回原P1/NV两线，无R2/W4或新必要曲线。准确源及[失败身份](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保存；不加时重跑，改保自由z先用原N1首一二次。
 

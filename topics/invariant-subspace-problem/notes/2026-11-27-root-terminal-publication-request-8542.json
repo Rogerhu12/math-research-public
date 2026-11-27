@@ -1,22 +1,17 @@
 {
-  "message": "ISP: return four original Phi-zero rows and their exact quadratic-head charts",
-  "parentCommit": "c0599980d9305d3341c5431d8240878997334e1d",
+  "message": "ISP: identify exact original Phi exceptional boundary images over QQ",
+  "parentCommit": "bc8bbd0e280183b25f698b83f820c7d4f69ea4d5",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-monic-twelve-original-four-rows-and-quadratic-head-charts.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-monic-twelve-original-four-rows-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-monic-twelve-original-four-rows-and-heads-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-four-original-quadratic-heads-common-zero-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-four-original-heads-common-zero-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-lambda-one-third-Delta-zero-original-Gram-8542.py",
-    ".github/workflows/invariant-subspace-collision-third-delta-zero-original-gram-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-lambda-one-third-Delta-Tnum-identities-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-lambda-one-third-Delta-Tnum-identities-8542-receipt.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-four-original-heads-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-four-original-heads-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-exact-original-unit-boundary-images.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-exact-original-unit-boundary-images-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-two-boundary-image-complete-QQ-fibers-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-two-boundary-complete-qq-fibers-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-exact-boundary-images-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-exact-boundary-images-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -26,7 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-four-original-heads-common-zero-8542.yml",
-    "invariant-subspace-collision-third-delta-zero-original-gram-8542.yml"
+    "invariant-subspace-phi-two-boundary-complete-qq-fibers-8542.yml"
   ]
 }

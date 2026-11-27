@@ -1,0 +1,454 @@
+{
+  "schema": "isp-phi-exceptional-exact-original-unit-boundary-images-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "source_git_blob": "8af878df4eacb690d6f02b66cb5d4af48016d8af",
+  "source_sha256": "4f9fe288c4b7eb55034f1d8e4d8edc4d98452e8d14899df124d191b4c115156d",
+  "run_id": 46026317409,
+  "job_id": 140598521067,
+  "records": [
+    {
+      "after": "e0128091c8aad4cf8ebd6a6487f9ffe69ffaad63",
+      "before": "e0128091c8aad4cf8ebd6a6487f9ffe69ffaad63",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T15:36:10.671605+00:00"
+    },
+    {
+      "boundary": "rho0:1-Q",
+      "rho": "0",
+      "threeOriginalSpecializedDegrees": [
+        26,
+        50,
+        48
+      ],
+      "fullQQGcdDegree": 0,
+      "fullQQGcdPolynomial": "1",
+      "irreducibleQQFactors": [],
+      "allOriginalDivisionsAndFactorProductReturned": true,
+      "imageOnlyNotWholeParameterFiberExclusion": true,
+      "stage": "new_exact_QQ_same_rho_original_unit_boundary_image",
+      "seconds": 0.042992193000003454
+    },
+    {
+      "boundary": "rho1:Q",
+      "rho": "1",
+      "threeOriginalSpecializedDegrees": [
+        17,
+        42,
+        37
+      ],
+      "fullQQGcdDegree": 0,
+      "fullQQGcdPolynomial": "1",
+      "irreducibleQQFactors": [],
+      "allOriginalDivisionsAndFactorProductReturned": true,
+      "imageOnlyNotWholeParameterFiberExclusion": true,
+      "stage": "new_exact_QQ_same_rho_original_unit_boundary_image",
+      "seconds": 0.0516962830000125
+    },
+    {
+      "boundary": "rho-1:Q",
+      "rho": "-1",
+      "threeOriginalSpecializedDegrees": [
+        22,
+        46,
+        44
+      ],
+      "fullQQGcdDegree": 3,
+      "fullQQGcdPolynomial": "x^3 + (-3/2)*x^2 + 3/4*x + (-1/8)",
+      "irreducibleQQFactors": [
+        {
+          "degree": 1,
+          "multiplicityInBoundaryGcd": 3,
+          "monicCoefficients": [
+            "-1/2",
+            "1"
+          ],
+          "polynomial": "x + (-1/2)"
+        }
+      ],
+      "allOriginalDivisionsAndFactorProductReturned": true,
+      "imageOnlyNotWholeParameterFiberExclusion": true,
+      "stage": "new_exact_QQ_same_rho_original_unit_boundary_image",
+      "seconds": 0.0603849880000098
+    },
+    {
+      "boundary": "rho3:T0",
+      "rho": "3",
+      "threeOriginalSpecializedDegrees": [
+        26,
+        50,
+        48
+      ],
+      "fullQQGcdDegree": 6,
+      "fullQQGcdPolynomial": "x^6 + 3/5*x^5 + (-9/4)*x^4 + (-7/10)*x^3 + 63/80*x^2 + 39/80*x + 5/64",
+      "irreducibleQQFactors": [
+        {
+          "degree": 6,
+          "multiplicityInBoundaryGcd": 1,
+          "monicCoefficients": [
+            "5/64",
+            "39/80",
+            "63/80",
+            "-7/10",
+            "-9/4",
+            "3/5",
+            "1"
+          ],
+          "polynomial": "x^6 + 3/5*x^5 + (-9/4)*x^4 + (-7/10)*x^3 + 63/80*x^2 + 39/80*x + 5/64"
+        }
+      ],
+      "allOriginalDivisionsAndFactorProductReturned": true,
+      "imageOnlyNotWholeParameterFiberExclusion": true,
+      "stage": "new_exact_QQ_same_rho_original_unit_boundary_image",
+      "seconds": 0.07327379700001302
+    },
+    {
+      "boundary": "rho-3:u",
+      "rho": "-3",
+      "threeOriginalSpecializedDegrees": [
+        26,
+        50,
+        48
+      ],
+      "fullQQGcdDegree": 0,
+      "fullQQGcdPolynomial": "1",
+      "irreducibleQQFactors": [],
+      "allOriginalDivisionsAndFactorProductReturned": true,
+      "imageOnlyNotWholeParameterFiberExclusion": true,
+      "stage": "new_exact_QQ_same_rho_original_unit_boundary_image",
+      "seconds": 0.082168122000013
+    },
+    {
+      "boundary": "rho3/2:u+Q-1",
+      "rho": "3/2",
+      "threeOriginalSpecializedDegrees": [
+        26,
+        50,
+        48
+      ],
+      "fullQQGcdDegree": 0,
+      "fullQQGcdPolynomial": "1",
+      "irreducibleQQFactors": [],
+      "allOriginalDivisionsAndFactorProductReturned": true,
+      "imageOnlyNotWholeParameterFiberExclusion": true,
+      "stage": "new_exact_QQ_same_rho_original_unit_boundary_image",
+      "seconds": 0.09109324300001731
+    },
+    {
+      "index": 0,
+      "degree": 1,
+      "monicCoefficients": [
+        "-1/2",
+        "1"
+      ],
+      "polynomial": "x + (-1/2)",
+      "originalUnitBoundaries": [
+        "rho-1:Q"
+      ],
+      "modCoefficientsAscending": [
+        504,
+        1
+      ],
+      "fullModRMultiplicity": 10,
+      "fullModSMultiplicity": 10,
+      "commonModMultiplicity": 10,
+      "QQFactorSource": "actual gcd of all three originals at one exact rational rho boundary",
+      "QQFirstPowerResultantDivisibilityPaidByCommonBoundaryRoot": true,
+      "higherQQDivisibilityMultiplicitiesNotYetPaid": true,
+      "WholeQQParameterFiberNotYetExcluded": true,
+      "stage": "new_genuine_QQ_boundary_image_factor_and_mod_multiplicities",
+      "seconds": 0.09193651500001465
+    },
+    {
+      "index": 1,
+      "degree": 6,
+      "monicCoefficients": [
+        "5/64",
+        "39/80",
+        "63/80",
+        "-7/10",
+        "-9/4",
+        "3/5",
+        "1"
+      ],
+      "polynomial": "x^6 + 3/5*x^5 + (-9/4)*x^4 + (-7/10)*x^3 + 63/80*x^2 + 39/80*x + 5/64",
+      "originalUnitBoundaries": [
+        "rho3:T0"
+      ],
+      "modCoefficientsAscending": [
+        678,
+        114,
+        417,
+        302,
+        250,
+        606,
+        1
+      ],
+      "fullModRMultiplicity": 2,
+      "fullModSMultiplicity": 2,
+      "commonModMultiplicity": 2,
+      "QQFactorSource": "actual gcd of all three originals at one exact rational rho boundary",
+      "QQFirstPowerResultantDivisibilityPaidByCommonBoundaryRoot": true,
+      "higherQQDivisibilityMultiplicitiesNotYetPaid": true,
+      "WholeQQParameterFiberNotYetExcluded": true,
+      "stage": "new_genuine_QQ_boundary_image_factor_and_mod_multiplicities",
+      "seconds": 0.09227276300001108
+    },
+    {
+      "uniqueQQImageFactorCount": 2,
+      "trueQQImageFactors": [
+        {
+          "index": 0,
+          "degree": 1,
+          "monicCoefficients": [
+            "-1/2",
+            "1"
+          ],
+          "polynomial": "x + (-1/2)",
+          "originalUnitBoundaries": [
+            "rho-1:Q"
+          ],
+          "modCoefficientsAscending": [
+            504,
+            1
+          ],
+          "fullModRMultiplicity": 10,
+          "fullModSMultiplicity": 10,
+          "commonModMultiplicity": 10,
+          "QQFactorSource": "actual gcd of all three originals at one exact rational rho boundary",
+          "QQFirstPowerResultantDivisibilityPaidByCommonBoundaryRoot": true,
+          "higherQQDivisibilityMultiplicitiesNotYetPaid": true,
+          "WholeQQParameterFiberNotYetExcluded": true
+        },
+        {
+          "index": 1,
+          "degree": 6,
+          "monicCoefficients": [
+            "5/64",
+            "39/80",
+            "63/80",
+            "-7/10",
+            "-9/4",
+            "3/5",
+            "1"
+          ],
+          "polynomial": "x^6 + 3/5*x^5 + (-9/4)*x^4 + (-7/10)*x^3 + 63/80*x^2 + 39/80*x + 5/64",
+          "originalUnitBoundaries": [
+            "rho3:T0"
+          ],
+          "modCoefficientsAscending": [
+            678,
+            114,
+            417,
+            302,
+            250,
+            606,
+            1
+          ],
+          "fullModRMultiplicity": 2,
+          "fullModSMultiplicity": 2,
+          "commonModMultiplicity": 2,
+          "QQFactorSource": "actual gcd of all three originals at one exact rational rho boundary",
+          "QQFirstPowerResultantDivisibilityPaidByCommonBoundaryRoot": true,
+          "higherQQDivisibilityMultiplicitiesNotYetPaid": true,
+          "WholeQQParameterFiberNotYetExcluded": true
+        }
+      ],
+      "actualCommonModDegree": 168,
+      "degreeSupportedOnKnownQQBoundaryImages": 22,
+      "residualModDegree": 146,
+      "residualModCoefficientsAscending": [
+        116,
+        188,
+        475,
+        568,
+        636,
+        179,
+        622,
+        684,
+        899,
+        439,
+        534,
+        825,
+        858,
+        780,
+        651,
+        687,
+        729,
+        170,
+        182,
+        470,
+        1007,
+        826,
+        326,
+        508,
+        271,
+        470,
+        440,
+        716,
+        692,
+        576,
+        177,
+        813,
+        98,
+        476,
+        252,
+        757,
+        355,
+        973,
+        680,
+        921,
+        755,
+        470,
+        506,
+        528,
+        509,
+        536,
+        406,
+        115,
+        337,
+        732,
+        434,
+        85,
+        468,
+        321,
+        388,
+        896,
+        705,
+        583,
+        275,
+        215,
+        636,
+        984,
+        537,
+        889,
+        704,
+        256,
+        237,
+        32,
+        387,
+        886,
+        448,
+        287,
+        105,
+        930,
+        717,
+        698,
+        461,
+        849,
+        309,
+        914,
+        348,
+        315,
+        476,
+        338,
+        943,
+        587,
+        284,
+        97,
+        514,
+        145,
+        325,
+        833,
+        907,
+        784,
+        636,
+        942,
+        369,
+        214,
+        12,
+        811,
+        362,
+        147,
+        367,
+        834,
+        223,
+        801,
+        718,
+        829,
+        545,
+        463,
+        222,
+        208,
+        228,
+        648,
+        260,
+        845,
+        436,
+        201,
+        953,
+        396,
+        173,
+        155,
+        277,
+        785,
+        387,
+        125,
+        186,
+        401,
+        319,
+        907,
+        955,
+        891,
+        196,
+        639,
+        506,
+        773,
+        699,
+        878,
+        910,
+        588,
+        799,
+        219,
+        887,
+        390,
+        257,
+        973,
+        1
+      ],
+      "exactImageFactorsAreNotDeclaredWholeFiberExclusions": true,
+      "commonQQDivisibilityMultiplicitiesStillNeeded": true,
+      "oldOriginalDeterminantsAndProjectionsNotReplayed": true,
+      "wholeExceptionalBranchExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_exact_boundary_image_support_input",
+      "seconds": 0.0924268250000182
+    },
+    {
+      "elapsed_seconds": 0.14611734900000783,
+      "max_child_rss_kib": 39728,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "e0128091c8aad4cf8ebd6a6487f9ffe69ffaad63",
+          "before": "e0128091c8aad4cf8ebd6a6487f9ffe69ffaad63",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T15:36:10.671605+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46026317409",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "e0128091c8aad4cf8ebd6a6487f9ffe69ffaad63",
+      "source_exit_code": 0,
+      "source_git_blob": "8af878df4eacb690d6f02b66cb5d4af48016d8af",
+      "source_sha256": "4f9fe288c4b7eb55034f1d8e4d8edc4d98452e8d14899df124d191b4c115156d",
+      "stdout_bytes": 6343,
+      "stdout_sha256": "dcf1c389fb35a7204e7feb9373ada5697a33007604b0f0692a9ba08a0b305062",
+      "stop_reason": null
+    }
+  ],
+  "strict_prior_different_ordered_base_point_bound": 168,
+  "new_bound_claim": false,
+  "whole_lambda_fibers_not_yet_excluded": true,
+  "higher_QQ_multiplicities_not_yet_paid": true,
+  "ordinary_isp_claim": false
+}
