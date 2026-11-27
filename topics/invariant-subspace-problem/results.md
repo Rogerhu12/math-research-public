@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [碰撞Delta零整个C2二次lambda原纤维排除](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-C2-lambda-exclusion.md)：完整四次u常数域八原Gram返回，全K[f]单位覆盖全部嵌入；只余C4。
+
 - [W低D次十一条完整原行的六列实际返回](results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md)：真3.624秒，完整N/P/NV均保；23归约身份、73付分母，不再展开旧40MB门。
 
 - [碰撞C2常数代数的完整Q图及四次原权覆盖](results/R150-appendix-unit211-equal-singleton-C2-Delta-zero-complete-original-quartic-cover.md)：准确消Q和整K[u]相容，转133u⁴−30u³−32u²−24u+16全部QQ因子继续原Gram。

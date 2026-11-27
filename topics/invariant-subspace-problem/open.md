@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-eleven-original-return-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-collision-entire-C2-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -224,7 +224,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[Phi零的十二列完整原四行与四个二次头图](results/R150-appendix-unit211-Phi-zero-monic-twelve-original-four-rows-and-quadratic-head-charts.md)。** 原N1首一z2/T6给真自由12环境；928真0.302秒/42188KiB/exit0返三均值和NV全部坐标，不逆D/SnZ。四原二次头只依赖u,Q，残度6/4、11/6、13/7、9/5，精确输入已保存；每个非零图的原商至多由1,T,z生成，共同头零仍保。新4e84只读小头作固定QQ消Q和完整u常数域返回，不重放旧原行/大cofactor。
 
-**h=k、Delta零只余六lambda。** [七lambda完整QQ覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)后，[整个λ1/3已排](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-lambda-one-third-exclusion.md)：原两相容式仅余u50/277,Q489412/76729，新八原行保自由f，E1/EBe全QQ[f]Bézout返1（0.104秒/34128KiB/0）。继续C4=[3/8,−3/2,3,−3,1]与C2=[1/3,−1,1]两个完整常数代数及所有Q/u头零，不重跑原578投影。 [C2完整原相容](results/R150-appendix-unit211-equal-singleton-C2-Delta-zero-complete-original-quartic-cover.md)已给整个Q(u,λ)图及Ψ4(u)=133u4−30u3−32u2−24u+16；0.092秒/34420KiB/0。新74cf在全部QQ因子上恢复同λ,Q并返八原Gram，C4仍独立保留。
+**碰撞Delta零只余C4四lambda。** [完整QQ覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)的λ1/3与[整个C2](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-C2-lambda-exclusion.md)已原排空；74cf在Ψ4(u)=133u4−30u3−32u2−24u+16全部嵌入返回同λ,Q和八Gram，E1/EBe全K[f]单位，0.139秒/37736KiB/0。只续C4=[3/8,−3/2,3,−3,1]完整常数域；新5b2先付原Delta线性Q头，再返回Tnum及原三mean/N1全部u约束，不重跑578投影。
 
 **[W低D次十一原行完整六列返回](results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md)。** 391真3.624秒/71332KiB/exit0，23原归约身份/73付分母；个别Nlow/Plow和完整NVlow实际返回，整个原D非零等价范围保留。总系数编码4.25MB只留哈希，不重跑旧40MB。新f5c取原E1/EBe/N1的Hij=BjRi−BiRj并接r2，四固定3×3常数余子式保全部F/r2头零，不逆A143或D范数。
 
