@@ -1,0 +1,325 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "sourcePath": "notes/2026-11-28-unit211-Phi-zero-whole-H1-original-biquadratic-Dixon-unit-target-syntax-fix-8542.py",
+  "run": 46061771524,
+  "job": 140717498956,
+  "actualDriver": {
+    "elapsed_seconds": 117.41536778900002,
+    "max_child_rss_kib": 182964,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3b9cda56dfa6a1ae9d4ca2a35fa81798a5f156c9",
+        "before": "e3f2ac10ecaa6eb9616e564a1c81d0026d5f77b8",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:10:34.003231+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46061771524",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e3f2ac10ecaa6eb9616e564a1c81d0026d5f77b8",
+    "source_exit_code": 0,
+    "source_git_blob": "5cabfb620fa4095b551145f9c988abf30772e197",
+    "source_sha256": "ef9e285512e1eddcbac0512f853f0b2ac58b57546f9a4bfa7e5621a9eaf8ddcc",
+    "stdout_bytes": 4495,
+    "stdout_sha256": "52a66f304e336bde55e4df191cbfe3278ddb1982101ac9aca2c9f82b17ce3e42",
+    "stop_reason": null
+  },
+  "mathematicalRecords": [
+    {
+      "wholeWeightAlgebraRank": 4,
+      "originalLambda0A0C0RelationsReturned": true,
+      "entirePolynomialLIdentityReturned": true,
+      "forwardMapAllLPointsReturned": true,
+      "noMuInverseUsed": true,
+      "originalA0B1ZeroFibersRetainedInBaseCover": true,
+      "currentBasePoleCoverDegree": 128,
+      "stage": "new_H1_same_original_L_polynomial_two_coordinate_chart",
+      "seconds": 0.08194480600000276
+    },
+    {
+      "original": "R",
+      "degrees": [
+        2,
+        2
+      ],
+      "terms": 9,
+      "maxCoefficientUDegree": 144,
+      "sameOriginalLPolynomialChart": true,
+      "stage": "new_H1_original_biquadratic",
+      "seconds": 0.7602775550000018
+    },
+    {
+      "original": "W",
+      "degrees": [
+        2,
+        2
+      ],
+      "terms": 9,
+      "maxCoefficientUDegree": 136,
+      "sameOriginalLPolynomialChart": true,
+      "stage": "new_H1_original_biquadratic",
+      "seconds": 0.760358385
+    },
+    {
+      "original": "N1",
+      "degrees": [
+        2,
+        2
+      ],
+      "terms": 9,
+      "maxCoefficientUDegree": 134,
+      "sameOriginalLPolynomialChart": true,
+      "stage": "new_H1_original_biquadratic",
+      "seconds": 0.760394392000002
+    },
+    {
+      "originalPolynomials": [
+        "R",
+        "W",
+        "N1"
+      ],
+      "integerCauchyBinetTriples": 84,
+      "nonzeroIntegerTriples": 78,
+      "integerGeometricTerms": 144,
+      "rowMonomials": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "independentColumnMonomials": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "actualCoefficientUDegree": 325,
+      "entireDividedDifferenceDeterminantCoefficientIdentity": true,
+      "originalPointNecessity": "v(x,mu)*Dixon=0 from the full original three equations",
+      "noClaimThatBareNecessaryColumnsAreAlreadyExpandedOriginalIdealRows": true,
+      "originalSourcePoleCoverDegree": 418,
+      "stage": "new_H1_complete_original_Dixon_eight_columns",
+      "seconds": 5.095895123999998
+    },
+    {
+      "column": 0,
+      "actualRank": 1,
+      "ambientDimension": 8,
+      "maxUDegree": 254,
+      "noGenericParameterPivotDeclaredGlobalUnit": true,
+      "stage": "new_H1_Dixon_column_pivot",
+      "seconds": 5.678661841000004
+    },
+    {
+      "column": 1,
+      "actualRank": 2,
+      "ambientDimension": 8,
+      "maxUDegree": 386,
+      "noGenericParameterPivotDeclaredGlobalUnit": true,
+      "stage": "new_H1_Dixon_column_pivot",
+      "seconds": 7.870410612000004
+    },
+    {
+      "column": 2,
+      "actualRank": 3,
+      "ambientDimension": 8,
+      "maxUDegree": 497,
+      "noGenericParameterPivotDeclaredGlobalUnit": true,
+      "stage": "new_H1_Dixon_column_pivot",
+      "seconds": 13.726666714
+    },
+    {
+      "column": 3,
+      "actualRank": 4,
+      "ambientDimension": 8,
+      "maxUDegree": 505,
+      "noGenericParameterPivotDeclaredGlobalUnit": true,
+      "stage": "new_H1_Dixon_column_pivot",
+      "seconds": 22.502549618
+    },
+    {
+      "column": 4,
+      "actualRank": 5,
+      "ambientDimension": 8,
+      "maxUDegree": 459,
+      "noGenericParameterPivotDeclaredGlobalUnit": true,
+      "stage": "new_H1_Dixon_column_pivot",
+      "seconds": 37.23538040400001
+    },
+    {
+      "column": 5,
+      "actualRank": 6,
+      "ambientDimension": 8,
+      "maxUDegree": 423,
+      "noGenericParameterPivotDeclaredGlobalUnit": true,
+      "stage": "new_H1_Dixon_column_pivot",
+      "seconds": 55.04237431600001
+    },
+    {
+      "column": 6,
+      "actualRank": 7,
+      "ambientDimension": 8,
+      "maxUDegree": 338,
+      "noGenericParameterPivotDeclaredGlobalUnit": true,
+      "stage": "new_H1_Dixon_column_pivot",
+      "seconds": 76.723571953
+    },
+    {
+      "column": 7,
+      "actualRank": 8,
+      "ambientDimension": 8,
+      "maxUDegree": 0,
+      "noGenericParameterPivotDeclaredGlobalUnit": true,
+      "stage": "new_H1_Dixon_column_pivot",
+      "seconds": 99.07537409400001
+    },
+    {
+      "target": "constant_one",
+      "ambientDimension": 8,
+      "originalNecessaryColumns": 8,
+      "actualRank": 8,
+      "allFullWeightCoordinatesMultipliedBack": true,
+      "stage": "new_H1_Dixon_full_original_target_returned",
+      "seconds": 117.230434199
+    },
+    {
+      "returnedOriginalUnit": "constant_one",
+      "exactSquarefreeUCover": {
+        "degree": 256,
+        "bytes": 58213,
+        "sha256": "4d1acbe8d27ede6154ef4a25b363d02982c22ae46426943881843661694607a3"
+      },
+      "originalChartA0B1AndSourcePolesAllRetained": true,
+      "allFinalTargetCoefficientPolesRetained": true,
+      "onlyCancelledIntermediateGaussianPolesNotSeparatelyAdded": true,
+      "onlyRemovedAlreadyPaidScalarWeightFactors": [
+        [
+          "original u",
+          1
+        ],
+        [
+          "original u-1",
+          1
+        ]
+      ],
+      "allWholeQQuarticRootComponentsRetained": true,
+      "strictDifferentH1WeightPairBound": 1024,
+      "wholeH1Excluded": false,
+      "wholePhiFaceExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_whole_H1_original_Dixon_unit_target_weight_cover",
+      "seconds": 117.311197545
+    },
+    {
+      "label": "new_whole_H1_Dixon_original_unit_target_weight_cover",
+      "rawBytes": 58616,
+      "rawSHA256": "c5e278d71ada2bc8be8d98f1736572337ba50a7bd6c9780220212f6f3e8435d0",
+      "reconstructionDefinition": "the exact final sf in this self-contained original source",
+      "polynomialPayloadTransmitted": false,
+      "encodedOrSplitPayloadCreated": false,
+      "stage": "new_H1_Dixon_parameter_definition_receipt",
+      "seconds": 117.315203706
+    },
+    {
+      "sourceSHA256": "ef9e285512e1eddcbac0512f853f0b2ac58b57546f9a4bfa7e5621a9eaf8ddcc",
+      "actualWholeAlgebraInverseProducts": 15,
+      "peakRSSKiB": 182540,
+      "noOldLambdaEuclidOrResultantReplayed": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_whole_H1_Dixon_original_attempt_finished",
+      "seconds": 117.31537414800002
+    }
+  ],
+  "scope": "whole original H1 curve in Phi=0 and physical D nonzero; different weight pairs only",
+  "newTheorem": {
+    "wholeQAlgebraRank": 4,
+    "DixonRank": 8,
+    "actualTarget": "constant_one",
+    "coverDegree": 256,
+    "differentWeightPairsUpperBound": 1024,
+    "wholeH1Excluded": false
+  },
+  "dataPolicy": {
+    "encodedPayloadTransmitted": false,
+    "polynomialCoefficientFilesCreated": false,
+    "exactDefinition": "final sf of the immutable successful source; see proof (6.1)"
+  },
+  "previousFailure": {
+    "sourceSHA256": "98868120a2de2a9633855a2757e3f5e3ed6e19184465890e2a16a6308e82d105",
+    "run": 46060538070,
+    "job": 140713461189,
+    "phase": "pre-mathematics compile",
+    "reason": "unclosed parenthesis at line 426",
+    "mathStarted": false
+  },
+  "unexecutedBranches": [
+    "11-column augmentation",
+    "original_lambda target",
+    "same_physical_D target",
+    "new mu^j target"
+  ]
+}

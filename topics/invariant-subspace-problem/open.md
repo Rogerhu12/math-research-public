@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-all-hole-Schur-source-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-H1-256-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -207,9 +207,9 @@ G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原�
 
 [首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；旧lambda长模块冻结。[整H1新原L返回与D取消首次超时](notes/2026-11-27-unit211-Phi-zero-whole-first-head-linear-D-first-timeout-8542.md)准确保7dfa120.074362658秒/264344KiB/−14：L的lambda度1/1/2、三b²P−Ptilde身份已返；第一次D公共取消只到三步，无D末式或有限u覆盖。59.6KB精确L参数单存，保b0及真实权分母零。
 
-**[原Phi例外有序权图已全闭](results/R150-appendix-unit211-Phi-zero-exceptional-weight-chart-complete-original-exclusion.md)。** de686真0.143938009秒/41564KiB/0：已存原P6特化为rho41/lambda6，只剥已付rho三因子得C13/6；乘完整未付h4给N17/6，保整H1零。固定原43阶Sylvester模553与此前真QQ已付因子后的首一R1977实际Bézout=1，局部整Gauss排除全部复参数，BC交换也保。仅使用phi_J^4，不需任何更高jet。精确范围是ell=3/2、u=(rho+3)/2、Q=1−rho²的原有序例外图，绝非整ell=3/2或整Phi。旧主C87/55/C71/29、一般首头H1零/H0、全部原未付权/值仍开。
+**[原Phi例外有序权图已全闭](results/R150-appendix-unit211-Phi-zero-exceptional-weight-chart-complete-original-exclusion.md)。** de686真0.143938009秒/41564KiB/0：已存原P6特化为rho41/lambda6，只剥已付rho三因子得C13/6；乘完整未付h4给N17/6，保整H1零。固定原43阶Sylvester模553与此前真QQ已付因子后的首一R1977实际Bézout=1，局部整Gauss排除全部复参数，BC交换也保。仅使用phi_J^4，不需任何更高jet。精确范围是ell=3/2、u=(rho+3)/2、Q=1−rho²的原有序例外图，绝非整ell=3/2或整Phi。旧主C87/55/C71/29已随rho头零闭合；一般H1现保256权覆盖上的全部整纤维，H0及其它原未付权/值继续。
 
-[整H1的原b零316权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-linear-b-zero-316-weight-cover.md)：d11c5真0.549244054秒/46488KiB/0，直接读旧L全部准确系数，整Q4先b1逆得lambda、a逆得T，再原F6真逆乘回。输入/实际逆全部u分母支持仅剥u/u1后SF316，故≤1264不同(u,Q)；不能计成全lambda/T/z点数。完整316纤维与b非零仍开，未执行后备z欧氏。准确四片参数保单一manifest；旧a40/ed0/879/bb35/7dfa失败冻结。
+[H1原b0的316覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-linear-b-zero-316-weight-cover.md)仍是b0支额外必要条件，0.549244054秒/0的完整QQ4逆/F6身份保正文；本次整个H1已有更强统一256覆盖，但两覆盖的全部特殊纤维仍须原返回。旧a40/ed0/879/bb35/7dfa失败冻结。
 
 ## R271：完整五/六位来源已付，继续内部边与高出生联合费用（8542，2026-11-28）
 
@@ -251,8 +251,8 @@ G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原�
 
 [W三原平面三次与六重叠](results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md)：edbba真8.866102470秒/72424KiB/0，原(qF,R0,R1,R2)与(F+A,h0,h1,h3)完整正反理想身份；六条原三次和全部15权6×4头乘回。最小未付头e/k16/23、总30、265项；保所有头零曲线、q3/r2/R6及完整NP/NV。各头主开集上只有纸面六单项式生成环境，未实际造12乘法列，不把非单位几何局部化称有限。新e555只重建固定最小头作首次QQ全因式输入，目标其整k首项单位和整零曲线，不重放旧15门。旧跨C13全域一次及其原来源仍保[规范理想](results/R150-appendix-unit211-W-canonical-three-original-F-rows-and-global-S-affine.md)。
 
-一般H1新98868输入：同已存L与λ0/A0/C0作无μ逆的双二次坐标，真实Dixon8列必要关系；不够再添三完整原行到11列求1/λ/同D。整Q4真逆，所有A0/b1、原输入及最终乘子u极点保；只有最终已取消的中间Gaussian极点不单列。首派120秒/1GiB，不重复旧λ欧氏/F6/316门；只输出源定义及小结果。
+[一般整个H1的Dixon常数返回与256权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md)：ef9唯一117.415367789秒/182964KiB/0，原无μ逆双二次保b0/b非零，Dixon八列真rank8并逐四权坐标乘回常数1。全原chart/源分母和最终系数分母仅剥u/u1得C256，故整个分支≤1024不同(u,Q)；不是全λ/T/z点数或整H1空。全部C256零纤维、H0及个别NP继续；11列/λ/D/μ目标未执行。新abcfd只执行原构造前缀求source_cover首次QQ支持，不重放Gaussian。
 
-[一般H1 Dixon首派编译失败](notes/2026-11-28-unit211-Phi-zero-H1-Dixon-first-compile-failure-8542.md)：988在run46060538070/job140713461189编译时第426行少生成式/闭括号，数学完全未启动，无内层时间/RSS/秩/覆盖。ef9仅补该行，保持原输入/目标/120秒1GiB，继续首次数学执行；µ幂目标另作后续数学接口，未混入修复。
+首次988编译失败、数学未开始的准确历史保[原note](notes/2026-11-28-unit211-Phi-zero-H1-Dixon-first-compile-failure-8542.md)；最小ef9语法修复后的唯一数学执行已独立成功，冻结旧源，不再派相同门。
 
 [六位矩阵小状态读取失败](notes/2026-11-28-six-matrix-small-report-first-http-redirect-failure-8542.md)仅HTTP重定向读取实现问题，不代表数学状态；修复移除跨主机Authorization后重读原run小摘要，原数学不重跑。根8/15清理用终端普通提交，旧输入只留历史定位，原源哈希不改写。

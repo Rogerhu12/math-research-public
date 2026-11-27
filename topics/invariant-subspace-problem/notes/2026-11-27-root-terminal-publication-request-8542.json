@@ -1,17 +1,17 @@
 {
-  "message": "ISP: return the original W mean ideal as three plane cubics",
-  "parentCommit": "41303cae2d0f1a934de02d969c2979622dbd399c",
+  "message": "ISP: prove the whole H1 original Dixon 256-degree weight cover",
+  "parentCommit": "05299d99207a24aebf68c85dd7267061ad92eb84",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-six-original-binary-cubics-and-weight-head-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-smallest-binary-head-whole-QQ-factor-geometry-8542.py",
-    ".github/workflows/invariant-subspace-8542-w-smallest-binary-head-factors.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-compliant-focused-workflow-maker-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-plane-cubics-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-H1-Dixon-256-weight-cover-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-original-Dixon-source-pole-support-factors-8542.py",
+    ".github/workflows/invariant-subspace-8542-h-one-source-pole-factors.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-H1-256-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-H1-256-cover-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-smallest-binary-head-factors.yml"
+    "invariant-subspace-8542-h-one-source-pole-factors.yml"
   ]
 }

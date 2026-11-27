@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 一般整H1的原Dixon常数返回及256权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md)：无μ逆图覆盖b零/非零，完整QQ四维代数八列乘回1；所有原与最终极点给≤1024权对，256整纤维保留。
+
 - [R150 W 原均值理想的三条平面三次与六重叠](results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md)：qF和三原均值完整正反压缩，六纯(λ,S)三次与15个权头全返回；最小头265项，所有头零及个别NP保留，未宣W空或几何有限。
 
 - [R150 W规范三原行、完整理想等价与全域一次式](results/R150-appendix-unit211-W-canonical-three-original-F-rows-and-global-S-affine.md)：2.786010989秒/0返回全B正反与(F−Fp,p2,p3)等价，覆盖旧C13零的新一次约束；两个新系数共因1不判空，原全部条件保。
