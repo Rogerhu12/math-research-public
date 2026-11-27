@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-eighteen-boundary-new-values-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-Phi-H1-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -196,11 +196,11 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [原物理λ四头](results/R150-appendix-unit211-W-physical-lambda-four-heads-global-affine-and-finite-rank-defect.md)的双向坐标及完整仿射身份保留；共同降秩必落K7，现随整K7关闭，固定三原均值规则在全部余W可用。
 
-### Phi：一般 H1 余 P201，其它原权与值层仍开
+### Phi：整 H1 已闭，转全图首头三生成与原值层
 
-原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
+原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-H1仅旧D≠0图，[F9整提升](results/R150-appendix-unit211-Phi-zero-H1-F9-original-pole-completed-head-exclusion-and-ten-points.md)闭前四块；末块仍**5/5/5/10**。[完整Gram20实际零返回](notes/2026-11-28-unit211-Phi-zero-H1-last-block-complete-Gram-zero-return-8542.md)：70d67真14.441051881秒，原12值全零/rank0，D仅模零，未排除。新[QQ F5原点/极点/整回缩](notes/2026-11-28-unit211-Phi-zero-H1-F5-original-point-Dixon-pole-integral-retraction-8542.md)a26a首派120秒1GiB：g4原代换给真F5，同v原四式/F6/NV、Dixon左核与S418互素、全部整单位及section全返才付最后块D真0；不重播Gram20或Gaussian。[旧316范围修正](notes/2026-11-28-unit211-Phi-H1-b-zero-316-scope-correction-8542.md)：旧b0始终包含于整H1，无另外316任务。其它Phi/个别NP继续，不扩至D0。
+[整H1原图完整排除](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，QQ F5同点全原式/四cofactor、10整单位及原Dixon左核返；S418正则证F5|P201，真实φ5幂1识别整块，已付有限循环商与整点section使C5≅O5、D真0。合此前全部块，整H1含旧b0排空。旧Gram20零返回保持原历史，不重播。继续当前全Phi首头图的完整NV/个别NP、λ首项零及原权支持；一般D0碰撞图仍独立开放。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -220,4 +220,4 @@ H1仅旧D≠0图，[F9整提升](results/R150-appendix-unit211-Phi-zero-H1-F9-or
 
 一对加四独立[全九维S1已证](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)，原S2严格迹保正文。[指定原S2来源余量](results/R271-appendix-one-pair-four-independent-s2-positive-head-source.md)：9f120真180.048256493秒，最大单独位减pair来源h的五闭域全部严格正，支付完整上下费用和交叉项；仅n1参数完成，零chamber返回，n2/3未到，rankone后门冻结。整个S2/七位glue、同W费用和原Haar不变格桥仍开；不拆n1续跑。
 
-整K7闭，全余W三原规则、首一λ6及十五行精确表示保正文。8065十八行门冻。[原值C8/R5](results/R150-appendix-unit211-W-original-value-quartics-fixed-cofactor-and-lambda-five.md)全八式迹已成。新[共乘子/content/六范数原输入](notes/2026-11-28-unit211-W-original-value-C8-content-same-lambda-six-norm-input-8542.md)330a6首派180秒4GiB：约去三原cofactor共乘子后逐列返回C*∈I8，再完整λ内容C*=UGP和首一χ商中Norm，最终GN原组合全返才付；未付G和新头零支全留，不倒λ/D。旧85e未执行；其它值/个别NP/NV仍开。
+整K7闭，全余W三原规则、首一λ6及十五行精确表示保正文。原C8/R5已成；330a真180.081659622秒/843076KiB/−14：全部原cofactor共因子取消与完整content已返，未付G为非零常数，给λ本原P8∈I8；全部六同χ乘法列成，Bareiss仅step0，未返Norm/adj或新曲线，整门冻结。续N1原纯权二列坐标这一新原输入；其它值/个别NP/NV及新λ头零留。

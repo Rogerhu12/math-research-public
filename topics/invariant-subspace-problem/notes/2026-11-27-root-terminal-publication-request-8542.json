@@ -1,18 +1,15 @@
 {
-  "message": "ISP R150: record complete Gram20 zero boundary and first exact F5 original retraction input",
-  "parentCommit": "48efc7d1a96c66fa21acd408c47cdab14773d0b0",
+  "message": "ISP R150: exclude the whole original Phi H1 graph by the exact F5 point and integral retraction",
+  "parentCommit": "8acb49b4f191d66fc36c4b1d641cc9d7c498e975",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-last-block-complete-Gram-zero-return-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-P201-last-block-complete-original-Gram-values-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-H1-b-zero-316-scope-correction-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-F5-original-point-Dixon-pole-integral-retraction-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-F5-original-point-Dixon-pole-integral-retraction-8542.md",
-    ".github/workflows/invariant-subspace-8542-phi-f5-original-retraction.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-F5-original-retraction-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-F5-original-point-Dixon-pole-integral-retraction-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-Phi-H1-exclusion-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-entire-Phi-H1-exclusion-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-f5-original-retraction.yml"
-  ]
+  "dispatchWorkflows": []
 }

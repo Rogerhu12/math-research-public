@@ -1,0 +1,218 @@
+{
+  "schema": "isp-phi-H1-F5-whole-original-exclusion-receipt-v1",
+  "date_taipei": "2026-11-28",
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-F5-original-point-Dixon-pole-integral-retraction-8542.py",
+  "workflow": "invariant-subspace-8542-phi-f5-original-retraction.yml",
+  "job_id": 140792476978,
+  "execution": {
+    "elapsed_seconds": 4.821258866000001,
+    "max_child_rss_kib": 54572,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "dcf35bedaefbbba9bba2d99d13ff0a2cfe09f1e3",
+        "before": "dcf35bedaefbbba9bba2d99d13ff0a2cfe09f1e3",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T23:54:41.107791+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46085023885",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "dcf35bedaefbbba9bba2d99d13ff0a2cfe09f1e3",
+    "source_exit_code": 0,
+    "source_git_blob": "a26a3130e5e9d1fd0a2203bd67a6cc644ec0313c",
+    "source_sha256": "bcd0f992fff149a388f378be1f435a809143cae8c82938eb97e61947be107ae6",
+    "stdout_bytes": 5434,
+    "stdout_sha256": "0ccc160260ce5a0c9394bf5ca133810f28bc5f2179bfbbee048b4105e4175540",
+    "stop_reason": null
+  },
+  "exact_weight_definition": {
+    "integer_F5_coefficients": [
+      -28,
+      127,
+      -234,
+      213,
+      -90,
+      14
+    ],
+    "monic": "integer_F5/14",
+    "Q": "4*(u-1)*(u-2)",
+    "g4_substitution": "16*(u-1)^3*integer_F5",
+    "prime": 1009,
+    "modular_factor_degrees": [
+      5
+    ],
+    "QQ_irreducible": true,
+    "whole_actual_P201_factor_multiplicity": 1,
+    "source_poles_degree": 418,
+    "source_poles_QQ_gcd_degree": 0
+  },
+  "exact_point": {
+    "ell": "1/2",
+    "lambda": "1/2",
+    "T": "-1/2",
+    "v": "u*Q/2",
+    "old_z": "0",
+    "f": "u/2",
+    "D": "0",
+    "four_original_v_gcd_degree": 1,
+    "all_four_original_quadratics_and_full_F6_NV_returned": true,
+    "all_four_raw_original_lambda_cofactors_zero": true,
+    "all_original_weight_and_actual_head_p_unit_returns": [
+      {
+        "original": "u",
+        "identity": {
+          "bytes": 5,
+          "sha256": "463f2998327eb3a694145e6014444480b2235be84aa6cfd57871cc64f1cd816c",
+          "degree": 1
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "u-1",
+        "identity": {
+          "bytes": 8,
+          "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+          "degree": 1
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "Q",
+        "identity": {
+          "bytes": 9,
+          "sha256": "c9993d7b631ae39a461aa18c757ef828268b29fad762ece70ce7d58c77a689fd",
+          "degree": 2
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "1-Q",
+        "identity": {
+          "bytes": 14,
+          "sha256": "d04257b6b7c3ff621752fed378f0f5b6761809f9af7aff5e676c808202002151",
+          "degree": 2
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "T0",
+        "identity": {
+          "bytes": 13,
+          "sha256": "8b49049c8becdf0ca22d9701b84eb7d3b551284311065bcd1ebedf9284804fb9",
+          "degree": 2
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "J-Q",
+        "identity": {
+          "bytes": 13,
+          "sha256": "8b49049c8becdf0ca22d9701b84eb7d3b551284311065bcd1ebedf9284804fb9",
+          "degree": 2
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "ell_n",
+        "identity": {
+          "bytes": 10,
+          "sha256": "1f8a29e1cb188e709376dd084a9fcd60a489287404bb2dc751d23c03550bc06c",
+          "degree": 2
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "m_n",
+        "identity": {
+          "bytes": 15,
+          "sha256": "d48ff469af5a36061879583a470381fe11d50f6c79853178c9caf8ab6620f854",
+          "degree": 3
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "M_n",
+        "identity": {
+          "bytes": 20,
+          "sha256": "ca7117869418ede411308d355f43737ed1857e3010d17f32e023d69837cff747",
+          "degree": 4
+        },
+        "inverseProductReturned": true
+      },
+      {
+        "original": "same_actual_three_quadratic_head",
+        "identity": {
+          "bytes": 21,
+          "sha256": "16e2181f14e4e8c1496675a17fcb5ec0cdb5a0c64deef96f8307074bbbc83c1f",
+          "degree": 4
+        },
+        "inverseProductReturned": true
+      }
+    ]
+  },
+  "completed_bridge": {
+    "sourceSHA256": "bcd0f992fff149a388f378be1f435a809143cae8c82938eb97e61947be107ae6",
+    "originalMonicF5": {
+      "bytes": 45,
+      "sha256": "64a1d6b2b3b05a5dcdbaab5d5ba92ade11b685a02d2b57585f031580414728bb",
+      "degree": 5
+    },
+    "actualP201LastBlock": {
+      "bytes": 24,
+      "sha256": "0c780501e3c546150d75e155fd0cfa9fa774a18639ae652f10c3739ac9515d6a",
+      "degree": 5
+    },
+    "allOriginalLAndTwoCoordinateChartIdentitiesReturned": true,
+    "threeOriginalDixonPolynomialsAtSameQQPointZero": true,
+    "originalLeftAnnihilatorIdentity": {
+      "bytes": 739,
+      "sha256": "d4da59c29ac3a12a6dd2f96c4f9a065f0093a825683681942a74f7174d1840ae"
+    },
+    "allEightOriginalDixonColumnProductsZeroReturned": true,
+    "originalConstantTargetPairingOneReturned": true,
+    "originalSourcePolesRegularAtF5": true,
+    "F5DividesPreviouslyExactP201Proved": true,
+    "exactIntegralOriginalPointSectionAvailable": true,
+    "completedCyclicOriginalGeometryRetractionProved": true,
+    "actualCompletedCoordinatesForcedToQQCollisionPoint": true,
+    "actualPhysicalDReallyZeroInLastOriginalNecessaryQuotient": true,
+    "lastActualCompletionBlockExcludedInPhysicalDNonzeroScope": true,
+    "wholeOriginalH1ExcludedUsingAlreadyClosedF9Blocks": true,
+    "originalDZeroCollisionGraphNotExcluded": true,
+    "noJacobianOrNewGaussianGateUsed": true,
+    "noOldGram20OrNormDriverReplayed": true,
+    "noHenselSeriesOrQQFactorPayloadGenerated": true,
+    "coefficientPayloadTransmitted": false,
+    "encodedOrSplitPayloadCreated": false,
+    "ordinaryISPClaim": false,
+    "arithmeticCounts": {
+      "fieldReductionProducts": 15569,
+      "fieldInverseProducts": 90,
+      "vPolynomialDivisionProducts": 6,
+      "pointOriginalProducts": 8
+    },
+    "peakRSSKiB": 53220,
+    "stage": "new_F5_original_point_pole_and_completed_retraction_finished",
+    "seconds": 4.760555447999998
+  },
+  "scope": {
+    "whole_current_Phi_H1_D_nonzero_excluded": true,
+    "old_H1_b_lambda_zero_included": true,
+    "whole_Phi_not_closed": true,
+    "D_zero_collision_graph_not_excluded": true,
+    "ordinary_ISP_claim": false
+  },
+  "payload_policy": {
+    "coefficient_payload_saved": false,
+    "encoded_or_split_payload_saved": false,
+    "old_generic_Gaussian_replayed": false,
+    "old_norm_rank_Gram20_gate_replayed": false
+  }
+}
