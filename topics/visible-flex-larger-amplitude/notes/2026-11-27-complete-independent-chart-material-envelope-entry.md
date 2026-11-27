@@ -146,3 +146,7 @@ root现实际运行三个完整stdlib再生器，均退出0：
 真实pull/rebase规则核查：2026-11-27 04:49:43 UTC，origin/main `0bf40b6537302af74fd13b0652c1317b3211db2e`；双README整SHA无变；普通非强制推送重试2。
 
 真实pull/rebase规则核查：2026-11-27 04:52:17 UTC，origin/main `b8cc8fe52d7bd121a088c1f8efc0405e3f5ac333`；双README整SHA无变；普通非强制推送重试1。
+
+真实pull/rebase规则核查：2026-11-27 05:02:13 UTC，origin/main `095cbcae6273d52495facc86a338c8d592b5e007`；双README整SHA无变；普通非强制推送重试1。
+
+真实pull/rebase规则核查：2026-11-27 05:02:25 UTC，origin/main `3e139ac206cf0637fab220169f9c2d074a035023`；双README整SHA无变；普通非强制推送重试2。

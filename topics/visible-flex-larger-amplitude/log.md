@@ -458,3 +458,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 04:52 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [第27次保留处理](notes/2026-11-27-legacy-generated-manifests-retention-27.md)：移出4个旧派生输出清单共2368284 bytes；全部原请求/配置/spec/输入/完整源码保，20项源中2漂移已从原commit实际核回。全参数账本与86311固定恢复身份保留；无科学重算或新raw上传。
+
+## 2026-11-27 05:02 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [09完整输入请求](notes/2026-11-27-run09-complete-bootstrap-for-analytic-normal-continuation.md)：原完整warm+4e所有参数/来源保，新独立控制器只换槽；队列真实管理合同与5原科学对象相等已核。先取真实输入再绑解析J3全入口，不预填g/whole SHA，不取消07/08或清空未知typed；未冒已运行。
