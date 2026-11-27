@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `f66e3c9cde0f124dfd3dd145fde8433e5f19c2bb`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `cfd8b1d66564b0fd25c2e39ba72c168331a79399`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；01:44UTC pull至0ffb6ba2967365884b38f1fd81778a8f2f9f73af，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-long-window-and-fixed-cycle-next.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -35,6 +35,8 @@ R1010单原K/C隔核权g6/g7准确下推到E2，T6π=13⁶T6,10(A7,p)，六次�
 
 R1013已把平坦化W_{r,+/0}用于全部n=rp+b前缀；p>13³、H≤L_p，准确π^n、完整支撑及< p³帽。C³保O留数/两二挠对数/b1全纯项，两个exact另保a0Z/a1Z；全局主部障碍已付。原sigma/P10/Z/Gaussian以完整单位下三角矩阵返回g_h，真实F^[H]保前H−1项模p^H精度。坏canonical下K零、C的old非零现可同一长读者比较，未由此造矛盾。
 
+R1012全13字落固定degree10扭线，显式Miller+13挠平移返回完整十维，保所有P10/Z/权。两primitive字的实际伴线为Lπ和Ψ571220；双支质量匹配差3Δ125/4真old非零。degree13完整有理trace消Aπ² apparent分母；乘积G_j^p·𝔉_{−pj}之后才投影，准确缩成零/平方/非平方三轨道。继续实际字线和两exact的canonical关系。
+
 ## 三、几何与固定最高循环
 
 R909原F/R906原P及R924–927两图306/46971乘积/maps/dF1296已付；四交/厚Norm/边界/原Tate迹及18×9shadow待唯一v9。原u/λ/vnew/微分/∞O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z均保持。固定ell的有限shadow不代无穷p。
@@ -55,4 +57,4 @@ R885/897全finite/wild范数保持；R891/893/940/945原c1≠0不删，深增广
 
 O4最早a≤1/δ²、O6全Np有限/原q_p=1、O7同解共振/全Laurent/非恒定Y权仍开。原P134/十九角/charge40/10980/WD/TM/TJ及R953跨parity、R954实际forcing成员性保持；全部精确条件见open和逐字归档。不再只提高rank常数而当闭合。
 
-central：预留R1012，续固定13字线的真正canonical同点关系；arithmetic：R1013完整长窗已付，接固定10维字线消费canonical必要关系；geometry：固定Y0混合跨ell非零，并跟唯一v9；root：原输入研究、读证、真回执、逐条推送。主目标未完成继续实质门，不以来源变换或中间结果收尾。
+central：R1012已付固定13字线/真实伴线/三保权轨道，续canonical同点关系；arithmetic：R1013完整长窗已付，接固定10维字线消费canonical必要关系；geometry：固定Y0混合跨ell非零，并跟唯一v9；root：原输入研究、读证、真回执、逐条推送。主目标未完成继续实质门，不以来源变换或中间结果收尾。
