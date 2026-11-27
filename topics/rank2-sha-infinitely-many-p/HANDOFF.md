@@ -37,7 +37,7 @@ R1032新β=X/(X+4)保原39支同K，末两窗β^(p²)；δ-old/new返g与rS^(p²
 
 R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。
 
-R1030真三次角域五点Dhat degree62/65、195余权36270整基与c8Δ导子70005齐，全好p保持三次/全环饱和；两64角gcd14使比例degree50，恰actual trace-zero基，Gram导子69875及fixed resultant例外齐。三个物理像保同H/E全六位/共同核，不能相加rank；forcing与a+2b<3仍开。
+R1030原charge65三次角域/195余权整基及全部导子齐；两64次角约分比例degree50使真canonical恰为trace-zero基。三物理像仍保同H/E六位与共同核，不能加rank；forcing及a+2b<3未付，完整数值/原系数见原证。
 
 ## 三、几何与固定最高循环
 
@@ -53,9 +53,9 @@ R1027全q≥5 canonical fiber六挠；原图pushδ/∞同源−δ/τ pull及三�
 
 R1029原2挠C的f3/r2/Jac度3、Norm核与S3闭包F²=−q齐。R1031全惰性q≥5 Sel2=⟨gq⟩；仅Tate大q定位最短Q模2及twist Sha[2]=0。两quadric(19)/Norm/全坐标、稳定V/W theta R0/Fq下降全付；固定h/M与jW保gq^((q−1)/2)，Nm(h)=−2^7·3^10(r+a/2)/(r²X²)的两单零不当平方。仍须真实求覆盖点或27对。
 
-R1031§12–15同一Cδ=(A³−1)(B³−1)=9与κ下降齐；Jac度81分为原C/Calt，后者度4分为E±。Elkies1989实嵌入定理与E−真3/9挠给无穷辅助ss q≡−1mod9，整个J(Cδ) F²=−q。EF/φ/E+的准确twists和Ψ=−φ−3Q+纤维积，T²=−2(x+−11)、六branch/固定尺度/Frob图均付；不代ordinary p、q+1素因子无穷或原27非零。
+R1031§12–15同一Cδ=(A³−1)(B³−1)=9与κ下降齐；Jac度81分为原C/Calt，后者度4分为E±。Elkies1989实嵌入定理与E−真3/9挠给无穷辅助ss q≡−1mod9，整个J(Cδ) F²=−q。EF/φ/E+的准确twists和Ψ=−φ−3Q+纤维积，T²=−2(x+−11)、六branch/固定尺度/Frob图均付；不代ordinary p、q+1素因子无穷或原27非零。 §16原g的准确乘法g=−h²(X(v)+a²/4)/[2916a(A−B)²]及常数分支全核；s=54(A−B)√g/h的真实下降为U²=4s⁴/3+as²+a²/4，O2=(0,a/2)与原目标+R0给真degree2同源，双向模型j54000/Δ4096/27。保−1/a、两种底映射与全部半线性作用，原连通平方根盖准确为纤维积；常点不代(19)或原27非零。
 
-两次失联与API快进全史见逐字归档。07:20UTC执行再次不可用；最近实际公开pull07:12、私库06:47的SHA见上。07:48重试返回No usable execution environment；私库到期实际pull受阻，API查4f5789d4919445740dfd7b5ee9cef09897e5864c的两README原文blob均同06:47，QUEUE仍本会话进行中；不冒称pull。公开API读至f0b6f87b831f0a9a7cdaf696f2b33267d1e61ac0，README及本topic差异空。恢复即补两仓pull，只沿最新父提交API快进不force。
+两次失联与API快进全史见逐字归档。07:20UTC执行再次不可用；最近实际公开pull07:12、私库06:47的SHA见上。07:48重试返回No usable execution environment；私库到期实际pull受阻，API查4f5789d4919445740dfd7b5ee9cef09897e5864c的两README原文blob均同06:47，QUEUE仍本会话进行中；不冒称pull。公开API读至4ae67dc5b7144c6c9adf0b16a057a6ad13a06cd7，README及本topic差异空。恢复即补两仓pull，只沿最新父提交API快进不force。
 
 ## 四、其它原门及执行分工
 
