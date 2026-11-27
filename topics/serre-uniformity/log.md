@@ -528,3 +528,7 @@
 ### 2026-11-28 04:21 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 按小时要求提前重试真实git pull --rebase，执行环境仍不可用且shell未启动；连接器同步main与两README diff为空，按根规则8继续文本提交。未把连接器同步记作真实pull，下一次真实尝试≤05:21。
 - R1140后继续原arith-unramified Brauer/Hecke socle的支持与Pic商；另两路继续指定Padé缺陷及Gaussian剩余pair，无数学程序执行。
+
+### 2026-11-28 04:29 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1141把原低权端点准确限制到原圆单位×原函数方向：全S={p} torsor与Hecke支撑、BrS零、完整Pic商、DVR/MW可除项的socle提升及ω5/ω10角色全部支付。
+- p∤Bp−5为明确前提；再低mixed门内有某个原全局常数twist的field杯积零，未定标量、不宣proper H²零或四阶cover。root纸推、o2核socle引理，primary Herbrand/Leray/全球Brauer亲读，无数学执行；继续具体端点与Picard cochain。

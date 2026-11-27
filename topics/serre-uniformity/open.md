@@ -30,7 +30,7 @@
 
 [原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
 
-[R1136](results/R1136-original-forced-compact-Manin-sources.md)：原forced双权在每个det片分别消边界；analytic γ⁻ᵀ=JγJ⁻¹的两负号准确相消，p+1 transfer落真正X_ns^+。独立部分为2(p−1)eθ紧致读数；rank1部分来自Γ1p并保diamond θ²，含θ quadratic例外。完整B_n保全部cyclic-n Cor；物理σℓ给I_(2j+2k+2)，R1132只在额外低混合Bernoulli门消整块，原四阶非重复邻对不满足该范围。同z bar-cross准确变{A,R}，不同z项仍保；§§11–13现付全basis regularity、CRT/adjugate及两σ相消；rank1 θ⁻¹ twist exact p²/Fricke+（含quadratic-St）、away-p整Hecke商及Φ方向全成。低mixed门下唯一source unsmoothing满足F53：裸cup减指定紧致源像落target公共核。还须该公共核与实际像，四阶见证继续。
+[R1136](results/R1136-original-forced-compact-Manin-sources.md)已付原两秩紧致源/J/transfer/θ² diamond、全basis regularity/Gysin及CRT/adjugate；rank1 exact p²/Fricke+ twist保quadratic-St，整away-p Hecke商和Φ方向准确。原I_(2j+2k+2)在明确低mixed门内可unsmooth，四阶非重复邻对在门外；完整旧公式在原文和前态，不重做。
 
 [R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)已付真实模p裸比较：辅助c除子及augmentation精确消全部base factor，Lχθ′=nq*Gχ−χ(n²)π*Gχ、T̃_nGχ=(n+χ(n²))Gχ；两个crossed norm由projection formula完整计算。全部n>3,n≠p均有S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}，左侧为R1136的独立+rank1真实紧致来源。未除κχ(n)、level p或splitting degree；不使用有理Siegel的1/p。source单位理想仍须与target公共核区分，未宣cup零/四阶cover成。
 
@@ -38,6 +38,8 @@
 [R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)在明确F33低mixed Bernoulli门下消R1136 F53的实际target公共核：原p倍divisor给完整H¹ Kummer类与H² cup lift，所有cusp tame为pth；HS几何H²(2)是ω而非ω²，actual θ偶故只剩Jacobian与base两层。source单位E补为F=E+(1−E)V/v，v=n(n^a−n)(n^a−n²)可选unit，(F−1)²0⇒(2−F)F=1。恒等式保Pic/Br稳定商及整个紧致像，严格得到(4/m²){Fχ,Fψ}=Ψ(cχψ)。指定紧致源值尚未为零；原四阶非重复邻对不满足该门，不能扩大。
 
 [R1140](results/R1140-original-low-weight-Manin-source-reduction.md)对原j1,k2直接模p证明C¹=0、C²=(16δ²/21)C_Eis；实际J/apolar/三低权商及Merel完整Hecke给端点λℓ=ℓ⁻²+ℓ³。无Bernoulli门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)选unit，β_E=S_n/v_n而V_nβ₈0；两者均为真实compact像。p∤B16 B_(p−15)才删β₈；原端点值未零，不造F0。继续actual arithmetic endpoint/高cochains。
+
+[R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时付原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}，允许零。原torsor延拓全S={p}，Hecke闭包保支撑；BrS0/完整Pic商、MW可除项及DVR π支付真实socle提升。Q下降为ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍与高cover不删。继续原p-isogeny端点标量/cochains。
 
 ### 原完整X_ns^+(47)与旧整K₂输入：已完成，只消费
 

@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：fdf05510c7b097f920d4fd19767b6dea7f993bfb**（2026-11-28 04:21 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：a289f69c3d1ec0e81bd2e766c8328cfe0b66039e**（2026-11-28 04:29 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；04:21重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 05:21。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-low-weight-source-reduction.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-arithmetic-endpoint-span.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p；原单位与实际 cochain
 
@@ -22,7 +22,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原整单位关系](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)仅将原单位符号格中已有理为零的平凡角色关系整提升，保实cusps、e₀/平均/S-unit transfer及R1132前提；不除12p。
 
-[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数恢复Vχ；Heis与同Norm见证class4 p⁵塔已付，cusp仍须四moments。Fourier/λp交换同一Heis；纤维积p⁷只保两极端四阶，混合四阶零。常Lie中心读K₂/p的ω²，非e₀整torsion。原跨line弦线uχ槽各有可逆a，vχ保ψ₂²与全部cross；同z bar变{A,R}仍非零。[aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)保𝒫=2c²{M_a,M_b}−2c⁴C_ab与实际crossed Cor，不同于SV B_n。完整公式沿归档/open，四阶proper/arithmetic下降继续。
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数恢复Vχ，Heis/class4 p⁵塔及Fourier交换已成；cusp须四moments，Norm只给M0，p⁷纤维积仅两极端四阶。原aux-c相关保𝒫=2c²{M_a,M_b}−2c⁴C_ab，原弦跨line保实际第二槽ψ₂²和全部cross；常Lie中心读K₂/p的ω²，不代e₀整torsion。全部公式/links沿前态，四阶proper/arithmetic下降继续。
 
 [R1136](results/R1136-original-forced-compact-Manin-sources.md)原两秩紧致源/J/transfer/θ² diamond及ordinary Hecke全部付清；§§11–13付full-basis regularity/Gysin、CRT/adjugate、rank1 exact p²/Fricke+ twist（保quadratic-St）与整away-p order。物理σ修正给I_(2j+2k+2)，四阶指定邻对仍在低mixed门外。
 
@@ -32,6 +32,8 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 [R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)在R1136 F33门下付整个compact H²θ的单位理想：geom H²(2)=μp奇角色消，HS保Jacobian/base两层；F=E+(1−E)V/v给(F−1)²0，故(2−F)F=1。Pic/Br商及全部cusp均保，(4/m²)原cup=Ψ(c)准确无公共核歧义；指定Ψ(c)值与门外四阶仍开。
 
 [R1140](results/R1140-original-low-weight-Manin-source-reduction.md)对原j1,k2直接模p证明C¹=0、C²=(16δ²/21)C_Eis；实际J/apolar/三低权商及Merel完整Hecke给端点λℓ=ℓ⁻²+ℓ³。无Bernoulli门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)选unit，β_E=S_n/v_n而V_nβ₈0；两者均为真实compact像。p∤B16 B_(p−15)才删β₈；原端点值未零，不造F0。继续actual arithmetic endpoint/高cochains。
+
+[R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时付原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}，允许零。原torsor延拓全S={p}，Hecke闭包保支撑；BrS0/完整Pic商、MW可除项及DVR π支付真实socle提升。Q下降为ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍与高cover不删。继续原p-isogeny端点标量/cochains。
 
 ## O1：指定 U^m 的原两 jet
 
@@ -49,7 +51,7 @@ R1113完整Lamé谱/三Darboux、R1130邻项δ、R1126六CM十五配对、原Fer
 
 [R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次斜率unit，只付跨盘。剩余p∤Bp−3；盘内还需原高度。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)给线性多个非constant，未付独立/纤维唯一。
 
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md) §§7–9保全gauge/低卷积/高尾，f_n=−Θ^nG_v/(n!(v)_n)及有限Möbius点对差，仅weight≤p−3。Θ^p在SS=δ²∂w，不横向微分单点对等式。原有限本征重建已把h≥1长尾消成L−2h单位逆，全部centered矩阵由原principal唯一重建；ξ标量化保全binomial及P=0，h0不外推。见[新原重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)；o2已付R² Newton商；R1135双低指标分支同一frame非对角pair至多一对，另支Δ_low/48仍待非零，保跨twist/P=0。R1135§§5–7的原norm2三乘积与安全残数准确消V₂：c₃=−40G_(p−3)+25H+8a³V₃/81−4a⁴V₄/243；V₃/V₄、Δ_low仍开；§§8–9付另外两二同源的完整CM gauge/三二挠trace，仅得原偶band对角运输，旁unit严格抵消。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)与[原有限重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)付完整good mask、常数/高尾、Möbius及R² Newton商；h≥1的L−2h可逆，h0不外推。R1135低行给至多一unordered pair，另一支Δ_low/48仍开；norm2消V₂后保c₃=−40G_(p−3)+25H+8a³V₃/81−4a⁴V₄/243。另两二同源仅原偶band对角运输，标准旁unit在CM gauge抵消。
 
 R1135§10已付同coarse component两实际twist的全部运输：α^p=iα，t*′=it*，z′=−z；δ′=ηδ，Kronecker γ′=ηγ、N_R′=η⁻¹N_R，而Weil γ_W/bχ保持。完整核及i0常数给Π′(z′)=Π(−z′)，两线统一为z∈Fp。低行唯一unordered pair/Δ分离范围因此覆盖两线；保S0/P0，不合并其他components，不宣Δunit。
 
