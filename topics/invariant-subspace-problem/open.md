@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-rho-discriminant-curve-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-entire-JQ-collision-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[h=k整个等权](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-and-entire-collision-exclusion.md)与[整个T0零原面](results/R150-appendix-unit211-equal-singleton-entire-T0-zero-original-exclusion.md)全闭，可在该碰撞付u−ell/T0；Delta0 h1/k1≤6219保留。** 031d真0.222秒/41044KiB/exit0，完整未缩放两参数八原式，固定4阶QQ结式71/67仅剥已付单位得28/12，QQ Bézout1；合402d原T0=Delta0整面，绝不借旧D单位。下一J=Q原面直接原P1/NV：Phi=−4(u−1)²，NF=Q(1−2lambda)(3lambda²−3lambda+1)/A²；Delta0保整个二次常数代数，一般补图仍开放。其它碰撞/原第五列继续。
+**[h=k整个等权](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-and-entire-collision-exclusion.md)、[整个T0零面](results/R150-appendix-unit211-equal-singleton-entire-T0-zero-original-exclusion.md)、[整个J=Q面](results/R150-appendix-unit211-equal-singleton-entire-JQ-zero-original-exclusion.md)全闭，可付u−ell、T0、J−Q与Pf；Delta0 h1/k1≤6219保留。** f7c6完整lambda二次域、原u=(58−70lambda)/19、自由f八式给E1/EBe单位；57a互补Delta非0完整未缩放八式的固定4/3阶QQ投影102/58，仅剥原单位得60/33、Bézout1。两图实际exit0，原系数逆/全部头零都保留，不借旧D≠0权定理。整个h=k仍开放，继续其Phi0或剩余原Gram。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 

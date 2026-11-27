@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [h=k整个J=Q原面排除及Pf非零](results/R150-appendix-unit211-equal-singleton-entire-JQ-zero-original-exclusion.md)：Delta0全二次域自由f原单位，互补图固定QQ投影60/33互素；不外推整个h=k。
+
 - [Phi0 的整个rho判别式零权面及原必要曲线](results/R150-appendix-unit211-Phi-zero-rho-discriminant-zero-original-necessary-curve.md)：判别式零恰两例外权；保自由rho/完整T6，真实原单位Cramer必要曲线31/52，未判空。
 
 - [W全余图的实际八列原行、六行原迹与十六真乘法](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)：源af928全trace、73权分母、全部基乘法实际返回；未求cofactor或判空，保整lambda3/2与B239零面。
