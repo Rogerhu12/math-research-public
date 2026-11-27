@@ -297,3 +297,6 @@
 
 
 - **R1042两unit补域的完整常数与全尾**：[§9](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§9沿原ray相容提升π0≡2mod25，以σ(5z)锚支付两norm25 whole β核。真实两unit管在1296平均中恰12支，五深返回保联合d/e来源；质量常数M*明确非零，原Euler分母逐项消掉。归一A−S中央差常数为dM*log〈r*〉、Nr*=291/763≠1，完整尾给每n>ℓp准确估值ℓp，与n无关。该补域必须保留；其新框架表达仍有一个Y混合条件。
+
+
+- **R1044（消第二态的原共同3913平面）**：[R1044-original-common-norm3913-frame-and-pure-canonical-companion.md](results/R1044-original-common-norm3913-frame-and-pure-canonical-companion.md)。R1044用真实R=K+ωA整输出消掉整个Ξ1，Ξ0准确为δ*(-xyσ5)，没有额外ω相位。原共同整F的范数3913，C=(23−δ)H；D5509及114E的两个standard odd全核经实际CRT与σ锚都为β。固定六次Q保整个四输出和三条未平均canonical行；只需H/J/N三角平均时另给纯Φ126完整行。原网格T−S差准确赋值n，全补域仍保持。 原ray只加43/787相容条件、保原模64与所有既有条件；每个整degree和全单位域均已写出。

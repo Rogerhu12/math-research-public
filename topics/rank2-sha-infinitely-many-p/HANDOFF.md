@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-two-state-companion-source.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-common-norm3913-plane.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -28,11 +28,13 @@ R1016–1034原平坦迹、whole39/13字/Miller/CM36 Hermite/第一primitive与�
 
 R1037完整378谱run45973650826/job140419911466已全返，30非零块/90零标签、334fibers/390coords和全回乘齐；唯一质量零线rank1为δ-new9/dyadic−/7new。R1038将此线完整识别固定E3969（导子47628）的α1/7 finite/Schwartz/Haar/Gaussian，普通与惰性通常全Sha桥皆付；§14的真实圆盘/全尾给J′126,5≡5/3 mod25，故精确rank2且Sha[5∞]有限，不说群零/无穷p。原126全run45977711940/job140433521280的22列/64回乘、degree20/全部因子角阶/cubic61齐。完整run/source/hash/必要坐标在R1037–38及[原126笔记](notes/2026-11-27-e3969-original-degree126-live-return.md)，不重跑。
 
-R1040原六轴/单项DE5 carry及χ65/χ10 whole核已付，合法顺序先忘H/J再K，全部mixed单位补域保持。§9整个Y/K/L/M δ-old均零（L保目标17的ε），仅联合字(λ,λ,λ⁻¹)；M两个63全迹与S34六坐标全零，拟consumer未启动。§10用原A9/N14给Gram=(126,3,6,2,9,14)、det756；真实δ/二挠全作用得到Θ9=−yσ9(X+4b)、Θ14=xσ14(X−2b)(X−8b)，五伴随完整乘积=39δΦ126⊗B3⊗F6−⊗Θ⊗Θ9⊗Θ14，Y未另投影。原6⁵平均付全部companion-only h；§11证明同时保S/T/Y的F81角旋转仅四轴共同相位，1296分支不可逐一赋三canonical零。含Y网格/YS/YT对数和原补域仍待。§12只投H/J/N后，Y主型的整个K/A来源严格为39δΦ⊗Ξ0+G126⊗Ξ1。G(0)=−δ/28，wholeβ=−λ给JG(0)=−δ(1+λ)/28单位；坏Φ时完整comp-only中央/质量同一比例，归一Y/7须保log7质量。真四输出零核2KA5+5K4A2及K3A3的canonical返回已付；不能删Y混合片或赋jG零。
+R1040原六轴/whole核、§9全部Y/K/L/M δ-old零与两个联动字已付，不再运行已零的M旧投影。§10新A9/N14给Gram(126,3,6,2,9,14)、det756及五伴随完整乘积；原6⁵平均只给完整comp-only h，所有Y混合条件保。§11同时保S/T/Y的F81角旋转仅四轴共同相位。§12只投H/J/N后，Y主型的整个K/A来源为39δΦ⊗Ξ0+G126⊗Ξ1；G(0)=−δ/28、wholeβ=−λ给JG(0)=−δ(1+λ)/28单位。坏Φ时完整comp-only中央/质量同一比例，归一Y/7保log7质量。全四输出2KA5+5K4A2零核及K3A3 canonical返回齐，不保忘掉的K/A cut。精确相位/矩/完整来源仍见原文与归档。
 
 F0两δ字run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee71912a8749751实际全返：B10、反射/回乘/二处齐；两旧rank1投影全零，primitive三维非零且非∇S比例。真短式B±=(X+4)D_-/(279552y)±σ4σ3σδ³/(1118208δ)，全T_i/Miller/σ2²/单位cut保。必要坐标/hash及未闭转置见[两字笔记§6](notes/2026-11-27-original-f0-two-delta-word-return.md)，不重跑。§7进一步付两odd25 C±及C2=−C1(−z)、实际三挠U±和完整Φ=W51(U+C1−U−C2)/36；真转置是1/18的x+y单位卷积，degree51 Gaussian/三个E2第三类边界保齐。
 
 R1042三原S34/T72/Φ126共用H3/F81平面，保四输出。93/2511 odd全核β与90/810 even全核χ10λ齐；ray只作相容3/31细化。固定六次Q全部q0..6（q5=0）、真五深一单位网格、三normalized-log差各v=n、全质量多项式与补域齐。两carry whole零核(41)不消掉(43)。§8全角平均保1296真实cut/72网格支，Ravg全五矩及YA网格赋值n齐；余部保D1\Dn全72支递归和至少两unit。§9真实两unit管已付norm25 whole核及全部12支；其质量M*非零，归一A−S差首项dM*log〈r*〉（Nr*=291/763），全尾估值固定ℓp而非n。补域不能丢；新框架仍保Y−(7+4δ)H的混合条件。其余完整管及中间环继续，不给任意Π乘子中央零。
+
+R1044真R=K+ωA推前消整个Ξ1；共同F3913/C1596给两odd whole β核，完整四输出carry保三原未平均行。H/J/N三角平均另给纯Φ126行；全cut(32)和补域(41)保齐，不混两种许可。
 
 ## 三、原谱盖、Prym、半类与最高权
 
