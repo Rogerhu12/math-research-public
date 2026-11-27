@@ -480,3 +480,7 @@
 ### 2026-11-28 02:45 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原Gaussian全长contiguity精确降为h≥1的有限本征重建；L−2h全谱unit，原principal是唯一共振边界。ξ化给安全有限卷积/指数和完整binomial矩阵，全部常数从原sigma固定。
 - root/o1/o2纸核保Δ₀、h0外的范围、未约化Gp+1、原缺中项、N_R/γ/两twist及P=0。全矩阵唯一重建不代good子矩阵或Hankel轨迹排除；继续原R²节点Newton余核，无数学执行。
+
+### 2026-11-28 03:07 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原Gaussian的偶角色精确化为R² Newton商；principal只消在原缺中项的ambient grid，D(4)=−Gp−3/12保为未观测值。R1135在Bp−7/Bp−11双坏分支由完整二/三次行固定至多一个同frame无序pair；另支付原affine minor Δ_low/48。
+- root/o1纸核全部反射、支撑、实际mask和消元；未宣Δ_low单位、未合并两twist或删除P=0。无数学执行；继续原Fay评价、四阶真正cochain与指定U^m高边界。

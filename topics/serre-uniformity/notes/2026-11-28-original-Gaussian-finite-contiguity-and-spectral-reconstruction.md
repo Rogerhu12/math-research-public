@@ -368,3 +368,193 @@ o2_high_coefficient 逐式纸推；o1_theta 已独立核准
 $1\le h\le k$ 的单位逆和 principal 支撑。无数学程序执行。
 
 root 全文纸核候选 38bc87f87c78410ae8470dfdfdc6962bedb0a612：直接从齐次 (F.5) 再得 (F.6)/(F.12)，逐式核 (F.13)–(F.16) 的指数、次数、积分分母与 sigma 常数；o1_theta 已完成 §§5–6 的 exact 转录核对。全稿明确不外推 h=0，保未约化高常数层、原缺中项及 P=0 点对。
+
+
+## 7. 原偶角色的 Newton 节点与实际余核
+
+置 $m=(p-1)/2=2k+1$。对 $1\le r\le m$ 以及原偶数
+$2\le R\le p-3$，(F.9) 的本征列满足
+$$
+[X^R]E_r(X)=
+\frac{(-1)^rR}{(2r-1)!}
+\prod_{a=1}^{r-1}(R^2-a^2).
+\tag{F.20}
+$$
+在 $r\le R\le p-r$ 的范围，这就是
+$\binom{p-2r}{R-r}=(-1)^r\binom{R+r-1}{2r-1}$。
+若 $R<r$，右侧的 $a=R$ 因子为零；若 $R>p-r$，
+则 $a=p-R$ 因子为零。因此 (F.20) 也包括两个越界范围。
+$r=0$ 的 $E_0=1+X^p$ 单独处理；其所有内部原偶行均为零。
+
+令 $\mathcal N=X\partial_X$，直接求导给
+$$
+\mathcal N^2E_r=r^2E_r-2r(2r+1)E_{r+1}.
+\tag{F.21}
+$$
+$r=m$ 时第二项因 $2m+1=p$ 为零，故不需要定义 $E_{m+1}$。
+这是真正固定总次数 $p$ 的算子，并未增加横向权重。
+
+原偶数 $R=2,4,\ldots,p-3$ 的平方恰遍历
+$\mathbf F_p^{\times 2}\setminus\{1\}$。实际缺席的中间角色
+$R=(p+1)/2$ 对应节点 $1/4=m^2$。记
+$$
+Q_{\mathrm{grid}}(Y)
+=\frac{Y^m-1}{(Y-1)(Y-1/4)}.
+\tag{F.22}
+$$
+所有因子不同；这仍只是原可能节点的 ambient grid，
+不是把其中每个节点都声明为实际 good 角色。
+
+在 $\mathscr S_p\cap X^2\mathbf F_p[X]=
+\langle E_2,\ldots,E_m\rangle$ 上定义
+$$
+\mathscr E(E_r)
+=\frac{(-1)^r}{(2r-1)!}
+  \prod_{a=2}^{r-1}(Y-a^2)
+\pmod{Q_{\mathrm{grid}}}.
+\tag{F.23}
+$$
+于是原行评价等于 $R(R^2-1)\mathscr E(f)(R^2)$；
+这个前因子在全部节点上均为单位。
+$\mathscr E(E_m)$ 是非零标量乘 $Q_{\mathrm{grid}}$，
+所以 principal 的确映为零。原空间模去这一 principal 后，
+(F.23) 给出与 $\mathbf F_p[Y]/(Q_{\mathrm{grid}})$ 的同构；
+(F.21) 对应在该商中乘以 $Y$。
+这只是确定的同权有限模，不把 $\mathcal L$ 或参数导数
+自动加到可观测行中。
+
+取 $\overline{\mathsf B}_h=\mathscr E(\mathsf B_h)$，
+并以 (F.19) 中的同一 $S,P,b_n$ 定义
+$$
+\mathscr D_{S,P}(Y)=
+\sum_{h=1}^{k}\frac{b_{h-1}}{(2h)!}\,
+       \overline{\mathsf B}_h(Y),\qquad
+Q_{\mathrm{good}}(Y)=
+\prod_{R\in\mathcal G_p}(Y-R^2).
+\tag{F.24}
+$$
+所有实际观测相等准确等价于
+$Q_{\mathrm{good}}\mid\mathscr D_{S,P}$，
+其中采用次数小于 $\deg Q_{\mathrm{grid}}$ 的代表。
+没有扩大 $\mathcal G_p$。特别，
+$$
+\mathscr D_{S,P}(4)=-\frac{G_{p-3}}{12}\ne0.
+\tag{F.25}
+$$
+证明是 $[X^2]\mathsf B_1=-G_{p-3}$、
+其余 $\mathsf B_h$ 在 $X=0$ 的阶至少四，再除
+$2!\,R(R^2-1)=12$。这个值与 $S,P$ 无关。
+因此若 $R=2$ 实际出现，直接得到 R1127 的 affine 分离；
+当它实际缺席时，不能把 (F.25) 当作一个已观测方程。
+
+## 8. 两个实际低指标把同一 frame 的残余点对固定
+
+本节给出一个有明确 Bernoulli 条件的有限纤维约束，
+不声称这些条件对所有素数成立。
+[R1128](../results/R1128-all-prime-linear-good-cuspidal-rank.md)
+的低指标判据对 $R=4,6$ 给出
+$$
+\begin{split}
+p\mid B_{p-7}&\ \Longrightarrow\ 4\in\mathcal G_p,\\
+p\mid B_{p-11}&\ \Longrightarrow\ 6\in\mathcal G_p .
+\end{split}
+\tag{F.26}
+$$
+这里“$p\mid B_n$”指这个 $p$ 整有理数为非单位。
+$B_4=-1/30$、$B_6=1/42$ 在 $p\ge41$ 时均为单位，
+所以两条确是原实际出现且 good 的角色。
+这些 Bernoulli 条件与下面的 Gaussian Hurwitz 系数单位性是两回事。
+
+从原 $x''=6x^2+2a$ 逐项得到
+$G_8=a^2/525$、$G_{12}=-2a^3/53625$。
+再用 R1116 的同一规范反射
+$G_{p+1-r}=-(r-1)!\delta^{1-r}G_r$，准确有
+$$
+G_{p-7}=-\frac{48a^2}{5\delta^7},\qquad
+G_{p-11}=\frac{96768a^3}{65\delta^{11}}.
+\tag{F.27}
+$$
+两者对全部原 $p\ge41$ 都是单位。
+例如 $96768=2^9\,3^3\,7$；所有分母的素因子均小于 $41$。
+反射只用了 $r=8,12\le p-3$，没有高权 carry。
+
+记
+$c_s=[T^{p-4-s}U^s]P_k$、
+$d_s=[T^{p-8-s}U^s]P_{k-1}$，并写
+$\mathcal A_R(Z)=A_R(w)$，$Z=w^2$。
+(F.2) 的完整两条低行恰为
+$$
+\begin{split}
+\mathcal A_4(Z)&=\frac{c_2}{2}Z-\frac{G_{p-7}}{24}Z^2,\\
+\mathcal A_6(Z)&=\frac{c_4}{2}Z+\frac{d_2}{24}Z^2
+                         -\frac{G_{p-11}}{720}Z^3.
+\end{split}
+\tag{F.28}
+$$
+这些是整个原 profile 行，不只是其首项：
+其余 $h$ 超过原支撑而为零。最高系数由 (F.27) 为单位。
+
+假设 (F.26) 的两个 Bernoulli 条件同时成立。
+在一个固定的原 marked Gaussian frame 内，
+取实际允许的两个不同点 $Z,Z'$。
+若它们的全部实际 good 坐标相等，则 (F.28) 先后强迫
+$$
+\boxed{
+\quad S=Z+Z'=\frac{12c_2}{G_{p-7}},\qquad
+P=ZZ'=S^2-\frac{30d_2S+360c_4}{G_{p-11}}.\quad}
+\tag{F.29}
+$$
+证明只需分别把两行差除以 $Z-Z'$：
+第一行固定 $S$，第二行使用
+$(Z^3-Z'^3)/(Z-Z')=S^2-P$ 固定 $P$。
+
+因此在这个 frame 中，所有非对角共同纤维的无序点对
+**至多一个**，且只能是 $X^2-SX+P$ 的两个根。
+还必须检查判别式非零、两个根属于原实际 coarse 范围，
+以及 (F.24) 的其余实际 good 行。
+$P=0$ 的中心/非中心情形仍包含在内。
+(F.29) 没有证明这个唯一候选不可行。
+
+这里保留 $N_R$ 与 $\gamma$ 的原单位归一：
+实际 profile 为
+$\Pi_R(z)=N_R\mathcal A_R(\gamma^2z)$。
+在同一 frame 比较时可约去两点共同的 $N_R$。
+两个原 Gaussian twist line 各有自己的源尺度，
+其合并覆盖的 coarse 范围不能只用单条 fine 平方像替代。
+在支付跨 frame 的完整输运前，本节不宣称
+“整个原 coarse 空间至多一个共同点对”，也不删除 $S=0$。
+
+## 9. 一个固定的实际二次行 minor
+
+还有一个不同、明确的实际 mask 分支：
+$p\mid B_{p-7}$ 且 $p\nmid B_{p-5}$。
+此时低 $R=4$ 和 forced $R=p-5$ 都是实际 good 行。
+由 $P_\ell$ 的对称性，第二条完整行是
+$$
+\mathcal A_{p-5}(Z)=\frac{c_3}{2}Z+\frac{d_1}{24}Z^2.
+\tag{F.30}
+$$
+故两行的原 affine 消元为
+$$
+d_1\,\frac{\Pi_4(z)}{N_4}
++G_{p-7}\,\frac{\Pi_{p-5}(z)}{N_{p-5}}
+=\frac{\Delta_{\mathrm{low}}}{2}\gamma^2z,
+\qquad
+\Delta_{\mathrm{low}}=c_2d_1+G_{p-7}c_3.
+\tag{F.31}
+$$
+原二次行系数矩阵的行列式恰为
+$\Delta_{\mathrm{low}}/48$。
+因此 $\Delta_{\mathrm{low}}\ne0$ 时，这两条实际行已分离
+同一 marked frame 的点。若 $\Delta_{\mathrm{low}}=0$，
+则两行确切比例
+$\mathcal A_{p-5}=-(d_1/G_{p-7})\mathcal A_4$；
+不能因为两条都实际出现就略过这个退化支。
+
+(F.31) 给出一个固定 degree-one 行组合及其准确待付 minor，
+但本节未证明该 minor 为单位。
+它与 (F.29) 是两个不同 Bernoulli 分支的结论，
+均不借未出现的低角色或非 good 的高角色补行。
+
+
+root 对候选 b39a977ce9f3a9f0af4bb20c4a81b16fa5d500e5 的 F.20–F.31 纸核：Newton 两个越界范围、principal 余核、两个 Hurwitz 反射因子、完整低行及消元均相容。o1_theta 同时核准 mask 与两种 Bernoulli 分支；无数学执行。低行的已证纤维结论另登记为 R1135。
