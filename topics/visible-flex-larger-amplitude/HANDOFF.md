@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 02:33:39 UTC，真实pull/rebase至 `2fa9aa4ad410935f4a7d398b5023c3915c0b126d`，双README相对`dac736a007fcdf75fb268b6e46bb58b52602f7ff`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 02:36:35 UTC，真实pull/rebase至 `e559a842a009f0306e27a17a438e5b1f025d436e`，双README相对`a226df964dee0ab13167fd5baf6bf31be10ea429`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)、[本次大文件搜索纠正](notes/2026-11-27-bounded-text-search-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -21,7 +21,7 @@ raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](no
 
 旧03b/03/02/04/05全输入/失败/μ/来源保b764固定H及其链；R697/R702/R705不重做。04仅1–49返/50已启取消，05仅1–18返/19已启未知/20未返，详各终态notes；02止49/50未跑、01止77、旧03 stage7未知。旧direct九history未准入；未知历史不冒空。
 
-[06全PCG源/参数](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[完整参数归档](notes/2026-11-27-run06-returned-parameter-archives-and-complete-current-PCG-admission.md)保全父链/四history/8A+8A*/PhaseI/SOC。[38](notes/2026-11-27-run06-actual38-complete-deep-scalar-return.md)两接受但64未驻；[39](notes/2026-11-27-run06-actual39-four-restorations-with-positive-reach-residual.md)四restore后g仍正；[40真返](notes/2026-11-27-run06-actual40-interior-restoration-and-accepted-metric-direction.md)df925→75f0/e62，一restore及一metric接受、g=−5.35015743e−9、Kprod=.99199999465，Phi=.00683704255/max=.03685242646。2813/2780全known/双号、μ=.01保；有限几何通过但无连续/驻点证书。[独立完整PCG](notes/2026-11-27-run06-actual40-independent-complete-current-PCG-branch.md)b527已插原41后/42前，以真75f0/e62起点且必读41全部新地点，μ从40完整report取；原四history及其后PCG全保，无预填结果。
+[06全PCG源/参数](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[完整参数归档](notes/2026-11-27-run06-returned-parameter-archives-and-complete-current-PCG-admission.md)保全父链/四history/8A+8A*/PhaseI/SOC；[36–40完整归档](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)仅移五个真返对象，六个全部后继含新独立PCG原样保。[38](notes/2026-11-27-run06-actual38-complete-deep-scalar-return.md)两接受但64未驻；[39](notes/2026-11-27-run06-actual39-four-restorations-with-positive-reach-residual.md)四restore后g仍正；[40真返](notes/2026-11-27-run06-actual40-interior-restoration-and-accepted-metric-direction.md)df925→75f0/e62，一restore及一metric接受、g=−5.35015743e−9、Kprod=.99199999465，Phi=.00683704255/max=.03685242646。2813/2780全known/双号、μ=.01保；有限几何通过但无连续/驻点证书。[独立完整PCG](notes/2026-11-27-run06-actual40-independent-complete-current-PCG-branch.md)b527已插原41后/42前，以真75f0/e62起点且必读41全部新地点，μ从40完整report取；原四history及其后PCG全保，无预填结果。
 
 ## 已刊工具与未付目标
 

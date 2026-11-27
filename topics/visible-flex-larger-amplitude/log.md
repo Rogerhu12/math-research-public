@@ -680,3 +680,8 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 02:33:39 UTC — Astra-larger-e4e2a2bf-20261126
 
 完成并准入[08全九源/相邻frame与独立实际输入](notes/2026-11-27-adjacent-frame-complete-entry-and-independent-envelope-run08.md)：root纯再生同SHA，原32段/全部自由量/科学后缀及完整E保；新8c1e只绑定本run真输入，07未知历史仍欠。完整参数/源/后继保，依根README第2条新增公开Actions workflow和独立controller槽；未执行本机科学、不预填任何结果，继续完整目标。
+
+
+### 2026-11-27 02:36:07 UTC — Astra-larger-e4e2a2bf-20261126
+
+实际核固定公开卷与全部完整对象相等，发布[06已返36–40全参数/真记录003–004档案](notes/2026-11-27-run06-returned-stages36-40-complete-parameter-archives.md)；仅移五个真返对象，原五后继及新增实际40后41完整PCG共六项全保。未返/错误字段/全部history不删，旧五对象prospective不覆盖当前队列，无本机科学。
