@@ -165,3 +165,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 [所有不整除闭根的实际第一阶接口排除](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)已覆盖Q=FZR+KR、非零UHF交换F与任意有界交换K；有限q²次结式保全部真实域，R171与Puiseux分别排慢/有界行，不需根C自伴。仍须识别未知底空间上的真实gauge比较；原全尾结论不自动作用于R143未知K反根。
+
+
+[两模型共同的原平方源图核心](results/R271-appendix-y-carry-first-gap-row-domain-and-common-square-source-core.md)现已付：Y完整Cayley给K_Y=−V_b+R_b、||R_b||_(C2→H)≤12；D*−V_b严格升总孔，保两者各非H时的同阶相消。只需同一h∈C2且T*h∈H，即总孔截断同返T*h/Sh；N型已有对应平方结论。真实W的规范h∈C2仍未证，Γ有限/普通Sh∈H/各固定总孔层在H均不自动支付。Y在C2中的单独carry域准确由有限行和刻画，不能把其额外对角权条件说成完整T*图核心必需。
