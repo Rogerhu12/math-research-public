@@ -551,3 +551,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 读旧U-value-atlas及S0碰撞正文后确认：权重逆解/碰撞参数化已付不重做，h1/k1排除仅S0。两新输入改原同Gram的H²/H³缩放。
 - 一般e6dae493（180秒4GiB）三参数回八原式；Phi0的1ec9ea1c（120秒1GiB）用ell首一二次、八原行及H³实际单位目标；全部原单位/临时头零保留，尚未宣排空。
 - 课题外仅新增两个collision公开精确workflow；固定新helper41459fea与已有首一helperSHA。H完整归档后压缩，实际pull/规则检查/QUEUE继续。
+
+2026-11-27 19:17 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 一般h1/k1原碰撞新e6dae493实际10.632秒/156116KiB/exit0，run45988578719；同H清分母完整八式、基域分母和剥因子全返，三分子gcd实际1。
+- 原Delta*对ell三次头−2Sxi p⁵/rho完整实核且已付；继续整个零图首一三维/原兼容式。不重登记旧atlas，不重放900秒门，未宣排空。

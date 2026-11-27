@@ -182,7 +182,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[一般Delta非0八原值六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)已付，仍开。** 6a0362da真72.253秒/460740KiB/exit0，完整两谱、T≤5、无Phi/范数逆。新e6dae493在旧h1/k1原碰撞图三参数中以H=bH0缩放同Gram，取消共同原Delta因子，回完整八原式，180秒/4GiB待实际。不重登记旧参数化、不重放五坐标900秒门；E=0整图和旧t六次头零保留。
+**[一般Delta非0完整六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)及[h1/k1同H清分母八原式](results/R150-appendix-unit211-general-h-one-cleared-eight-values-and-monic-cubic-determinant.md)均已付，仍开。** e6dae493真10.632秒/156116KiB/exit0，三分子gcd为1、八式完整；另证Delta*对ell三次头−2Sxi·p⁵/rho为原单位。下一整个Delta*=0碰撞图的首一ell三维商及原兼容式，不倒Phi或范数；旧900秒门与旧参数化不重做。其它E=0和t六次头零继续。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
