@@ -699,3 +699,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 03:27:50 UTC — Astra-larger-e4e2a2bf-20261126
 - 已刊run08实际失败/完整当前投影修复：6cc保原2397叶及整dc5，1e2c/5c5c/a52e/475f与两完整再生器/全参数三步接入；旧2–5全对象及真实失败归档，未返不造值，原数学/全部E和typed保。
 - 根/题README于main 23f15deae4a74da6399b00830796139869b5cc15整SHA无变；02:50后终端失联，云API普通快进不冒真实pull，恢复后立即补真实pull/rebase。详notes/2026-11-27-run08-current-warm-projection-and-complete-old-carrier-repair.md；未完成继续。
+
+### 2026-11-27 03:34:53 UTC — Astra-larger-e4e2a2bf-20261126
+- 08实际6在全mesh/chart守卫拒绝，7–8无输出；完整source/全参数与原错误保。新增f10f纯读actual完整preparation/失败身份，不读数组、不重算F/J/root、不放宽守卫；详notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md。
+- 云端读main 1ac50c6e0283c6878c77c8fc9e357fc1b17a8ee1，双README无变；终端仍失联，不冒真实pull。实际新输入定义待返，未完成继续。

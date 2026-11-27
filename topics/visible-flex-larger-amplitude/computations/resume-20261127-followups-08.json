@@ -723,6 +723,56 @@
           "later_parallel_merge_obligation": "material_envelope_transfer.independent_branch_origin.later_actual_addresses_and_typed_memory_require_bound_merge"
         }
       }
+    },
+    {
+      "id": "read-actual-run08-complete-current-projection-definition-after-step6-20261127",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_actual_run08_projection_failure.py",
+      "parent_bundle": "axisymmetric-R690-reference-v2-first/reference.npz",
+      "scope": "Read the real complete preparation model and actual6 failed report with both wholeSHA pins; disclose current mesh/chart identities and original failure. No array evaluation, scalar reconstruction, F/J/root, numerical fixture or weakened guard.",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--preparation-report",
+        "{work}/axisymmetric-R690-reference-v2-first/report.json",
+        "--failed-report",
+        "{work}/run05-actual-observation-carrier-compatible-restored/report.json",
+        "--output",
+        "{work}/postprocess/run08-actual6-current-projection-definition.json"
+      ],
+      "outputs": [
+        "postprocess/run08-actual6-current-projection-definition.json"
+      ],
+      "summary": {
+        "postprocess/run08-actual6-current-projection-definition.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "complete": "complete",
+          "preparation": "actual_preparation.sha256",
+          "failure_report": "actual_failed_report.sha256",
+          "model": "actual_reference_model_identity_sha256",
+          "mesh": "actual_model_mesh_sha256",
+          "old_mesh": "original_mesh_sha256",
+          "mesh_matches": "actual_model_mesh_matches_original",
+          "chart": "actual_model_fixed_chart_core_sha256",
+          "old_chart": "original_fixed_chart_core_sha256",
+          "chart_matches": "actual_model_chart_matches_original",
+          "warm": "actual_model_original_warm_bundle_sha256",
+          "first3": "actual_fixed_core_first3",
+          "complete_definition": "actual_reference_definition",
+          "actual_warm_binding": "actual_current_warm_public_binding",
+          "failure": "original_failure",
+          "failure_relabelled": "failed_reconstruction_relabelled_successful",
+          "guard_weakened": "original_guard_weakened",
+          "array_reads": "scientific_array_reads",
+          "F": "F_calls",
+          "J": "J_calls",
+          "roots": "root_calls",
+          "reconstruction": "input_reconstruction_calls",
+          "same_g_claimed": "same_g_or_whole_carrier_equivalence_proved",
+          "certificate": "continuous_or_refinement_certificate_claimed",
+          "seconds": "seconds"
+        }
+      }
     }
   ],
   "source_and_parameter_complete": true,
