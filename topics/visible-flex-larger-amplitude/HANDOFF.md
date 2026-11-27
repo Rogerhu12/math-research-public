@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`ce2d093dce6b0b01b85a4e81605a08592a0833b3`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`587d7f8e96dae826fe254b888bade8bd30833787`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -16,7 +16,7 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 03b/03/02/04/05/direct完整九history、06双分支42/43的地点/typed/保护/合并义务保固定H；06末仍非可行，28b/cfd未准入；07仅1–3返，cc0a场/typed/pure/费/M320未知；08终态见末块。R697/R702/R705不重做，未返不冒已读。
 
-[33](notes/2026-11-27-legacy-R90-final-outputs-retention-33.md)/[34](notes/2026-11-27-legacy-condensed-intents-retention34-readonly-review.md)/[35轮](notes/2026-11-27-legacy-condensed-intents-retention35-readonly-review.md)仅退登记旧raw；R90及原源/全参数/请求/真结论、父warm/status原字链全保。35退三intent1421301B、全provenance91680B。cf418只保证intent，其他按原链恢复；大体未读、当前warm不改。
+[33](notes/2026-11-27-legacy-R90-final-outputs-retention-33.md)/[34](notes/2026-11-27-legacy-condensed-intents-retention34-readonly-review.md)/[35轮](notes/2026-11-27-legacy-condensed-intents-retention35-readonly-review.md)仅退登记旧raw；R90及原源/全参数/请求/真结论、父warm/status原字链全保。35退三intent1421301B、全provenance91680B。cf418只保证intent，其他按原链恢复；大体未读、当前warm不改。 [36轮](notes/2026-11-27-legacy-condensed-intents-retention36-readonly-review.md)退45/48两intent644158B，97043B全ledger/原请求字与三对正确warm/status链保；root五目录/七小源/八小记录核，无大体读取。
 
 ## 09终态：七项完整未返回责任
 
