@@ -224,3 +224,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [五位完整S2统一余量](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)的472正均值差/6478正轨道已实际付Tr(K²)<3/16及S2余量>(2−√3)/4。新六位half另以原完整精度和全部特征系数独立闭合；旧六位支持流失败按原范围保留，无重跑或改记。下一需支付六位低源内部L2 L3^-1 L2以及旧六位上birth2完整S1/S2，才能作更高位数真实一位递推；当前epsilon≥1/320不代这些缺项。
 
 [原一位来源的定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)已把五位同源余量返回原H0：在四项已付费用epsilon/kappa/rho/sigma下，新原首边余量≥alpha·epsilon/2，其中alpha=min{1−sqrt(sigma),(1−sqrt(kappa))(1−sqrt(rho))}。对六位出生2实际取epsilon=1、kappa=743/782、rho=1/2、sigma=(2+sqrt3)/4，alpha>1/160，故整个九维原首边≤319/320 I。保原Qy/WW*、真实Schur变分和同源可逆同余，不把辅助块常数直接移到H0；一般高出生所需四费用仍开。
+
+[W-G36前七整个低QQ纤维](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)已闭：k次数2/2/3/4/5/6/10，总32；每个原Q6实际分q1/q5，前者已付原单位恒零、后者整个QQ常数代数原48×35目标1全列乘回。cad41随后真180.069730303秒/88336KiB/−14，不抬限；只余k14的q5（其J19零q1已闭）和尚未开始的k15全q6。两原纤维准确参数单存，后续改新两四次108×56有限返回，前七成功块与已闭q1均不重跑。结合高1134全闭，G36只余这两低纤维；G36非零及原未付头另保。

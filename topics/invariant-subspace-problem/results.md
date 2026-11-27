@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W-G36七个整低QQ纤维排除及末两纤维保留](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)：总32次权因子全部原q分量关闭，真180秒SIGALRM只留k14/q5与k15/q6；保存精确输入，未把已返单位或未开始域改写为失败。
+
 - [W-G36整个高1134原有限代数排除](results/R150-appendix-unit211-W-G36-entire-high1134-original-finite-free-exclusion.md)：31新整域原108×56满列，合旧块解析升阶/坏点新四次，完整有限自由与两次Nakayama保所有重数并升至QQ；低61另行保留。
 
 - [六独立正权整个出生一尖锐half首末边](results/R271-appendix-six-independent-positive-weights-birth-one-sharp-half-first-last-edges.md)：完整六维精度的五阶特征系数与33正均值差支付整个五维源；真实2×2逆证half尖锐，七位明确121/240说明常数范围。
