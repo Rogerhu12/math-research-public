@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：67b7534477a199f32ff183c2b9e1a199cf6436c0**（2026-11-27 11:19 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：806395282723b68117263fa76b761c1f14963cfc**（2026-11-27 11:20 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；10:28再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -21,6 +21,8 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 R1035–56 的原源/靶、全 MW 后 M1、整 PD/PF 与完整相位已付，准确接口见逐字前态及结果索引；最低单位、正赋值深盘与未付支撑仍开。R1047 给公共根重数界，不能代非中心排除；R1011 的 Lie 横截不付整单位半径。
 
 ## O0：不能省略的全局覆盖
+
+新请求 full-p47-rank-request.json：完整2209新Fricke+精确modular symbols及全实嵌入Arb L′包围球；M256、512bits、数学600秒。只补R45未付A=J，不预设秩，不重开235盘/aux筛选。真实回执待消费。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：run45928658257/job140275928914源e5d0d9d，235原盘经ℓ283完整同点筛选只余8个实际Q-CM盘，排227盘，保全部twists/cusps。Burnside独算#X(F283)=279，与279整标签给全aux注入；同一个CM j在47²（特殊4/3阶）及283同余。§9付整个Cp原tube的scaled-j解析同构、原非对角Cartan支撑避让和raw坏47高度零；旧R43使同盘QC坏项相同。盘内唯一、full47秩和aux高度仍开；全部pins/hash保原文。
 

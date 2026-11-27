@@ -655,3 +655,7 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 11:18 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1074§9：原八CM tube全Cp scaled-j解析同构、原非对角Cartan支撑及raw坏47 Néron配对零；引用R43的同盘QC项，不重复一般定理。
 下一步继续原短D⁶双障碍，并核full2209新Fricke+秩与aux高度；主目标OPEN。H/open按限制逐字归档。
+
+2026-11-27 11:20 Asia/Taipei｜Astra-serre-24b8836b-20261126
+提交full2209新Fricke+精确分解/全嵌入严格L′请求；固定Sage10.6 digest、M256/512bits、600秒，未把预期秩当结果。
+课题外新增.github/workflows/serre-full-p47-rank.yml，仅为本课题公开Actions；原始数组不留存。继续原短障碍与真正盘内输入。

@@ -1,6 +1,6 @@
 # 结论索引
 
-- **R1071（已证明）**：[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：完整实际V各p盘标签=原ψ_c dlog有限多项式，所有高log、pole、full-source、Weil/circular尺度及coarse twists已付。§§11–15用同marked first lift模p²确定原eigen-T formal-log至N+1<p²，source u_*给λ=−1，有限Miller实际计算γ并支付跨SS相位，无reversion residue读A_d。Lucas将degree缩为min(R,p−R)，forced≤2j+1；顶项Cartier降阶及低A4/A6给精确generic非零来源。good角色有唯一global候选，一般p的有效aux共同像仍开；固定p47现由R1074限为八CM标签。 §16原j0首forced完整coarse斜率准确为β₀^(p(p−5))λ³G_(p−5)/(6bχ)，原κ相消及同源F⁷有限式已付，此Hurwitz单位已由R1075闭合，原f_N/e不随之闭合。 §17同marked first-lift的原t_*由Hasse梯度准确读出，并支付p47八个已知Q-CM输入及新旧profile整向量核验。 §9再付整个Cp原tube的j解析同构、原Cartan支撑避让及坏47raw配对零；一般QC项沿用R43。
+- **R1071（已证明）**：[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：完整实际V各p盘标签=原ψ_c dlog有限多项式，所有高log、pole、full-source、Weil/circular尺度及coarse twists已付。§§11–15用同marked first lift模p²确定原eigen-T formal-log至N+1<p²，source u_*给λ=−1，有限Miller实际计算γ并支付跨SS相位，无reversion residue读A_d。Lucas将degree缩为min(R,p−R)，forced≤2j+1；顶项Cartier降阶及低A4/A6给精确generic非零来源。good角色有唯一global候选，一般p的有效aux共同像仍开；固定p47现由R1074限为八CM标签。 §16原j0首forced完整coarse斜率准确为β₀^(p(p−5))λ³G_(p−5)/(6bχ)，原κ相消及同源F⁷有限式已付，此Hurwitz单位已由R1075闭合，原f_N/e不随之闭合。 §17同marked first-lift的原t_*由Hasse梯度准确读出，并支付p47八个已知Q-CM输入及新旧profile整向量核验。
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原forced角色标签准确为m/κχ·[∏ψ_c(P_z)^(−n_[Nz])]，κχ=c²−χ(c²)单位。Kato–Siegel平滑、原指数提升、二次范数、实下降及全部cusp leading已付，保same y/Weil pairing/ζ embedding，适用于2、3。R1069 good∩forced无regular条件仍有Ω(p/logp)角色；其它字符κ可能恒零，不扩范围。真实辅助共同像排除仍开。 §9扩至任意c的全向量原式，含特征2的x⁴+x与特征3的x³±x；偶数平滑尺度2、κ零时实际pth及同时可见时双退化齐备，未据低次形式冒排点。 §10原Stickelberger格证明κ异常角色及quadratic角色实际缺席，公式扩完整V；全家族精确可见iff ord_pℓ奇且非p3mod4的(p−1)/2，safe prime只ℓ1modp可见。唯一global提升仍限R1069 good角色。
 
@@ -22,7 +22,7 @@
 
 - **R1076（已证明来源身份）**：[原primitive双系数](results/R1076-original-primitive-cubic-and-sixth-power-obstructions.md)：实际H有限超几何严格解一阶式；T=z(1−z)H³=−2vΨ³/δ³保原z^p盲项，LT=2、L(T²)=40T。原η_j=j[z^j]T、ν_j=j[z^j]T²/40，故e/K₄共零准确等价两指定系数共零；全短谱参数和截断误差已付，非同时零仍开，无数学执行。
 
-- **R1074（已证明固定p47全范围盘筛选）**：[原八CM圆盘及完整aux注入](results/R1074-certified-original-p47-eight-CM-disks.md)：公开run45928658257/job140275928914、源e5d0d9d、3.123秒完整同点比较，235互异原global候选只余8个实际Q-CM盘，排除其余227盘，无整j/小惯性假设。真实coarse Burnside付#X(F283)=279，279完整tag给aux全图单射，故同一CM点在47及283约化；一般j模47²，特殊j0/1728为4/3阶，283整且同余。全部角色/twists/cusps/CM定位和hash齐备，不推盘内唯一或全p。
+- **R1074（已证明固定p47全范围盘筛选）**：[原八CM圆盘及完整aux注入](results/R1074-certified-original-p47-eight-CM-disks.md)：公开run45928658257/job140275928914、源e5d0d9d、3.123秒完整同点比较，235互异原global候选只余8个实际Q-CM盘，排除其余227盘，无整j/小惯性假设。真实coarse Burnside付#X(F283)=279，279完整tag给aux全图单射，故同一CM点在47及283约化；一般j模47²，特殊j0/1728为4/3阶，283整且同余。全部角色/twists/cusps/CM定位和hash齐备，不推盘内唯一或全p。 §9再付整个Cp原tube的j解析同构、原Cartan支撑避让及坏47raw配对零；一般QC项沿用R43。
 
 - **R1075（已证明）**：[原Hurwitz单位及首cuspidal斜率](results/R1075-original-Hurwitz-unit-and-first-cuspidal-slope.md)：完整同权theta恒等式给全部SS参考 G_(p−5)^p=−24B·β_Car^(p−6)/7，β_Car=E_(p+1)/12=C_rel(xω)/ω′单位，非零iff j≠1728。原j0/Fp闭式−24B/(7β_Car⁵)付R1071首forced完整coarse仿射斜率；原Weil/节点尺度保留，无新执行，f_N/e及全局排点仍开。
 
