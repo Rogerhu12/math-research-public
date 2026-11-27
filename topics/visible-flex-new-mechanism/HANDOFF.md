@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **291adcd2b2f4de1dac4c7118dbce69b471dc5813**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **37bf7fc8cb86dc7f5ee626691eb3c0fa12372364**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git/四索引，每结论即推；科学仅公开Actions，本地仅纸证/源码/原日志解析。根12不重旧门；根15不存raw/可重算表，必要再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -19,7 +19,7 @@
 
 [339原终态](notes/2026-11-27-r582-pending339-original-terminal.md)已根独核原8935172B stdout/528339B FINAL/116364B FIELD，完整保[旧4bd9](notes/2026-11-27-r582-pending330-original-terminal.md)及更早费用。run45922821540/job140257301670/source57d834aa已02:10:21 UTC自然结束，新2444.1902206679997秒、11metric/0restore；末q **95deda51f4fbca906e14fce050e6c0d76035fb767b43906615be7fe0d8679d1e**。实际0d材料、16240×3072 η3.448896113433797e−5/物理V0/workingV0；原356+1pending拟357，trust2/metric。17J含当前8J104块44values，22fine；raw5a723未合格，独立half真95de，不混轨。
 
-[已审357范围](notes/2026-11-27-r582-physical-pending357-resume-implementation.md)保全部16240 fine及356+1；pending .7836474609375带来两个新中点，原资格不移新网，按原流程新付。45绑定/48sparse/同common及main AST、唯一FINAL逐字已根核；本次push单触发，不再dispatch。p=.181阶段2.5e−7未过，最终p=.8/η≤1e−7不降；mean仍在设计，旧59a4完整几何不转移，同g精化未付。
+[已审357范围](notes/2026-11-27-r582-physical-pending357-resume-implementation.md)保全部16240 fine及356+1；pending .7836474609375带来两个新中点，原资格不移新网，按原流程新付。45绑定/48sparse/同common及main AST、唯一FINAL逐字已根核；已push2fa9aa4a；run45929007792/job140277011834于02:33:17 UTC启动，finite独占终态，不再dispatch。p=.181阶段2.5e−7未过，最终p=.8/η≤1e−7不降；mean仍在设计，旧59a4完整几何不转移，同g精化未付。
 
 ## 4. B030：原5659恢复阶段/真实H，先补2561
 
@@ -47,7 +47,7 @@
 
 [已审h活动行范围](notes/2026-11-27-r625-actual-interior-height-active-scope.md)保全L三次链，固定L才加实际阻挡点；正交N保全行/原惩罚与已知末增量。71绑定/12账、旧solve直接消费，trust明确.25重启；新accept令fine pending。[唯一原终态](notes/2026-11-27-r625-actual-interior-height-original-terminal.md)run45925875384/job140266919674/sourcead3953a3已02:02:37 UTC自然结束，根独核原stdout/FINAL/state；新37.991045793999994秒/2接受/13无方向。state750b3118…，3J/6全谱factor/44λ解；fine1153 ruling3.5799243916e13/真末.3097307126，未根。
 
-原失败链显示首次负r·Jd方向因整步二次预测过冲被过滤，未触发L后重解；先审α*=−r·Jd/||Jd||²在原trust内的截步，再原L/h。较大λ真非下降与行权/原merit不同的问题并存，不声称抬λ必救；原Armijo及全部真实非线性门不变。眼前不增其他物理lane，已付fine不重放。
+[已审原射线范围](notes/2026-11-27-r625-original-quadratic-ray-continuation-scope.md)先用完整Jd的t*=−r·Jd/||Jd||²，再直接min原trust/L/h上限；继承原活动集及dense.solve，不改W/惩罚/全部非线性门。76绑定/79sparse/18CLI/13账根核；新trust .09375/λ .07402737明确策略重启，原末1e12/5.5879e−9和13失败全留。1153已付fine同曲线复用、新接受重置；原Armijo不由负内积自动保证。此次push一次触发，full独占自然终态。
 
 此前原费用/失败链保收据；R619/620/624/625/626/[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)按原前提用。原19态/10参数、18块576微包、ε1/12000、全正势/两ruling/物理盒不变；129网须原配点门，pose/闭材料未付。
 
