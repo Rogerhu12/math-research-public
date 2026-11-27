@@ -191,3 +191,5 @@
 - [R1021](results/R1021-original-delta-new-rank-two-middle-sources-and-full-word-relations.md)：两条既有δ-new rank2来源准确来自uA=σ10y(X+4)、uB=σ10xy，完整三挠相位/degree30多项式/24字及(2/15)χ4·x/(X+4)比值已付。实际微分old两方向det−81，QB第四阶全部六项、11888/11860旧费用和三条非零质量补线全保；§5.1完整parity将同一+3全十二字的真中央严格还原为原两raw canonical的固定倍数，可用于实际联立；未将十三字逐一赋零。
 
 - [原q11三重六挠极点完整输入](notes/2026-11-27-original-six-torsion-polar-divisor.md)：同Pic类新3P6保原Weierstrass方程，六阶分支、2662对全覆盖和重极点真实高度返回已付；公开作业回执待取，不预记存在。
+
+- [R1022](results/R1022-original-thirtynine-flat-trace-and-common-degree10-reader.md)：完整两顺序39支原trace付17p²/18极成本、整Hurwitz/质量logqα和全p^(H+1)比较；真实δ-old在完整N前缀与同primitive低窗准确回旧13读者。显式3字/39字Kummer及全部Miller常数保齐；同+3的新两行共享g2，旧行g0，第一步degree130的−43/−44不可删，继续实际全权消元。
