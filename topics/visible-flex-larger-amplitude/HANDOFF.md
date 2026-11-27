@@ -51,7 +51,7 @@ root独占refs/queue、完整上层与实际续求；construction接19前三完�
 
 <!-- visible-larger-parallel-16:start -->
 Actions16：[run 46037017666/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46037017666)；[全阶段记录](notes/2026-11-27-public-actions-46037017666-1.md)。running；已返2，exit=未返。
-并行16规则核查：2026-11-27 22:28:07 UTC，真实pull至`ad0290ca206caf281312b5bffae123deb88ceacb`，双README无变化。
+并行16规则核查：2026-11-27 22:33:09 UTC，真实pull至`f5ac180bd86030adfca3ddf67b47fd12acc9500c`，双README无变化。
 <!-- visible-larger-parallel-16:end -->
 
 <!-- visible-larger-parallel-17:start -->
