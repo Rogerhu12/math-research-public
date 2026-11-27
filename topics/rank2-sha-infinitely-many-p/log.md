@@ -175,3 +175,7 @@ R1042§15全稿消费并逐式核17/36 Jacobian、Hasse a+b极帽、全D binomia
 run46043363954/job140656405841实际成功：公开17:38:05UTC至b19a809e5cf0c7e23d53ee1035c255a34a8f7f8e，较4e827843两README无差异；私库17:38:11UTC至de262010a14c6d6b08c4162462b91dcfb8129e91，较857ff63a两README无差异。四个已读README blob均未变，私QUEUE a01613b4也未变、本课题仍本会话进行中。完整log14861B/SHA2565e065878fabf3e947d855c5588c563f8e1dc83b2ffed345a1ef36b63c9681825；topic3089 blobs/43318632B、无>5MB，三旧input gzip大小/hash均不变。H已记实际head/时间及下一截止18:38UTC；新规无差异，无重复读旧全文。
 
 唯一v12 run46033409751在17:39:38UTC仍in_progress，未启动新重作业。
+
+## 2026-11-27 17:42:21 UTC — 固定29原三Hecke线单位
+
+消费central续节blob f8bff1a2ec9af7737033dea17497e8f288ac9a4a；root核原13核étale除子/Miller原点unit及无垂直分母、不可约三次/Frob²、原z4整归一与actual z28首列。三个原D_j,17的z28系数均29单位；无新增执行，不将有限29结论外推。

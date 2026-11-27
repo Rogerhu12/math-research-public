@@ -70,3 +70,5 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 原p²完整范数已准确返回同一整参数
 
 原full9惰性p中心diamond为−1、p²为+1；Coleman r1唯一性和KS给B1G=a_pG/p=0，完整p+1回返路径保留后B2G=(p+1)G/p。canonical上行V²每条归一回程严格p⁻²G，全部p(p+1)项恰抵消G^[p]=G−V²G，原imprimitive完整depleted范数为0。未depleted原degree34p²修正图的raw AJ全范数却严格p(p+1)AJ(Yj0)，故p⁻²归一后是同一个I_j,p，原Artin下降后恰h_j,p。全54/η/Cor/full9逐项保留，不套primitive角色定理，不把形式两项系数导数冒作解析权导数。 后继从这份未删项的原塔继续实际中央类比较；当前没有h非零或通常Sha新结论。
+
+固定29原完整行已进一步给三条原D_j的次数28系数全为单位，见消费者§5；尚无跨素数非零、原29整格或通常Sha结论。
