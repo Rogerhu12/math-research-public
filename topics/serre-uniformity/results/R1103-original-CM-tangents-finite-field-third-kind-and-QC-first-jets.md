@@ -14,7 +14,7 @@ $$
 R1074、R1086 将原有理点限制到八个已知有理 CM 点的同一坏47管域及同一好4513剩余盘。
 本篇为这些原盘给出可直接继续计算的切向量和第三类微分首项，并证明一个仅需模4513的二次 QC 判据。
 它不声称所需有限矩阵已经计算，也不从全局高度单位直接推出盘内唯一性。
-对一般 trace-zero 角组合，非4513局部项的消失在第6节列为明确前提；不从 principal 对应的 degree-zero 性质移植。
+第6节先列出非4513局部项条件，再由§6.1在原全部八管域及任意trace-zero角组合上证明；不从principal的degree-zero性质移植。
 
 ## 1. 原整格、行作用和全部尺度
 
@@ -476,6 +476,103 @@ Hensel 唯一性在整个 $t\equiv0\pmod q$ 类给唯一提升；
 其余秩一或全零情形均不自动排盘：
 可能有额外残余根或多重根，必须继续原精度，而不是将 $K$ 的单位性代入结论。
 
+### 6.1 原八管域的非辅助局部前提：整截面证明
+
+本小节支付 (1103.29) 对本题实际候选集合的全部非 $q$ 前提。
+不假设 $x$ 的 $j$ 在其它素数整，也不假设 $\deg Z=0$。
+
+先固定好素数 $\ell\ne47,q$，令
+$\mathcal Y/\mathbb Z_\ell$ 是 R1067 的原 smooth proper 模型。
+原点 $y\in X(\mathbb Q)$ 延拓成整截面。
+$\mathcal Y\times\mathcal Y$ 正则，所以原对称 $Z$ 的水平 Weil 闭包为 Cartier 除子；
+记其线丛为 $\mathcal B$。
+它的转置同构来自同一个实际对应。
+
+如有交换线性化的符号疑虑，先用 $2Z$ 和 $\mathcal B^{\otimes2}$：
+转置在对角上的特征平方为 $1$，在 $(y,y)$ 的纤维上就是恒等。
+这一操作在 $\ell=2$ 也不作平均或除以二。
+证明其高度为零后，在值域 $\mathbb Q_q$ 中除以二即可。
+以下按这一相容的对称刚性化书写。
+
+令
+$$
+\mathcal B_y=(\operatorname{id},y)^*\mathcal B,\qquad
+\mathcal K=\Delta^*\mathcal B,\qquad
+\mathcal L=
+\mathcal B\otimes
+ \operatorname{pr}_1^*(\mathcal B_y\mathcal K^{-1})
+ \otimes\operatorname{pr}_2^*\mathcal B_y^{-1}.
+\tag{1103.31}
+$$
+泛纤维上 $\deg\mathcal B_y=\deg Z=d$、$\deg\mathcal K=2d$。
+相对线丛的次数在此 smooth proper family 上恒定，
+所以 $\mathcal L$ 在每根纤维的第一变量上次数都为零。
+
+这里所需的整平凡化可以逐项写出，而不只是引用 generic Picard 类：
+在对角线上，(1103.31) 变为
+$$
+\mathcal K\otimes\mathcal B_y\otimes
+ \mathcal K^{-1}\otimes\mathcal B_y^{-1},
+$$
+用评价同构给整单位。
+在 $y\times\mathcal Y$ 上，转置同构将第一因子识别为 $\mathcal B_y$；
+第二因子的固定纤维是
+$\mathcal B_y(y)\otimes\mathcal K(y)^{-1}$。
+这两个纤维都来自同一 $\mathcal B(y,y)$，所以准确相消，
+再与第三因子 $\mathcal B_y^{-1}$ 相消。
+两条平凡化在 $(y,y)$ 相容，因为转置已经规范为恒等。
+所有操作都是整线丛的拉回、对偶和评价，没有取一个相交方程的零值再相除。
+
+相对 $\operatorname{Pic}^0$ 的带基点普遍性质因而将 $\mathcal L$
+识别为原整 Poincare 线丛的拉回；第二个 Picard 坐标的泛纤维正是
+$$
+Z[x-y]-[\operatorname{Fix}Z-2Zy].
+$$
+这个同构在整模型上保留 $y$ 轴的刚性化。
+对角单位与 $y$ 轴单位之商给规范截面
+$$
+\sigma_{Z,y}(x)\in
+\mathcal P_{[x-y],\,Z[x-y]-[D_{Z,y}]}^\times,
+\qquad \sigma_{Z,y}(y)=1,
+\tag{1103.32}
+$$
+而且它在整个 $\mathcal Y$ 上整可逆。
+这正是 R148 §§1–2、6 的实际范数约定，本段将其全部整构造写在当前模型上。
+
+$\ell\ne q$ 时，R43 §1 的唯一 Néron 双扩张 splitting
+在所有整可逆向量上为零；因为原局部字符在
+$\mathbb Z_\ell^\times$ 上为零。
+于是 $\lambda_\ell(\sigma_{Z,y}(x))=0$。
+R43 §4 的实际范数向量身份（而非仅比较两个 Picard 类）给
+$$
+h_\ell(x-y,\operatorname{Fix}Z-Zx-Zy)
+=-\lambda_\ell(\sigma_{Z,y}(x))=0.
+\tag{1103.33}
+$$
+该身份先在实际除子支撑不交的开集成立；碰撞时用同一个线丛范数的连续延拓。
+本题有理候选与固定 $y$ 的不交性已经由其坏47管域的 raw 支撑避让保证。
+
+泛纤维 fixed/axis 除子的水平闭包与上述整线丛拉回若相差垂直项，
+在本 smooth 几何连通纤维上只能相差完整纤维的倍数。
+对 $x-y$ 的 degree-zero 范数，该项不改变 (1103.33)。
+因此本证明没有暗中把某个未核水平交数单独设为零。
+
+原 $X$ proper，所以每个 $x\in X(\mathbb Q_\ell)$ 都给整截面，
+包括约到 cusp 的截面。
+$j$ 在该截面上可以有极；(1103.31)–(1103.33) 是曲线和线丛上的整结论，
+不使用 $j$ 的整性。
+全部23个 cusps 与 $\deg Z$ 仍在 (1103.21)–(1103.22) 中保留。
+
+最后，在 $\ell=47$，R1074§9 已对每个原八 CM 管域的全部非恒等角
+证明 (1103.33)：$j$ 在整个管域单射且 étale，raw supports 避管，
+$x-y$ 在同一光滑特殊点，因而其完整 admissible vertical correction 与水平项均给零。
+此证明对 signed trace-zero 组合线性延拓。
+
+所以，对 R1074/R1086 已限制的原有理候选，
+(1103.29) 在所有 $\ell\ne q$ 成立。
+现在剩余的排盘输入正是 (1103.30) 的真实有限读数；
+本小节仍没有预报它的秩或零点。
+
 ## 7. 当前新输入的边界
 
 | 数据 | 实际读取 | 本篇结论 |
@@ -485,7 +582,7 @@ Hensel 唯一性在整个 $t\equiv0\pmod q$ 类给唯一提升；
 | $z_Z,d_{Z,y}$ | 原角算子和完整 fixed-cycle / 三类 CM 关系 (1103.22) | 全 cusp 和 degree 项已保，坐标尚需读取 |
 | $\alpha_{Z,y}$ | 规定 residues 的原亚纯 RR 源，加 (1103.19)；或 finite-field Miller | 规范与 $W$ 的关系已证明，实际函数尚需构造 |
 | 整尾 | 单/双积分的完整 $q$ 赋值 | 已证明，覆盖整个 $U_y(\mathbb Q_q)$ |
-| 非 $q$ 项 | 原好模型的 Poincare 规范及坏47 vertical 项 | 判据明确要求 (1103.29)，不假定所有新组合已通过 |
+| 非 $q$ 项 | 原好模型的 Poincare 规范及坏47 vertical 项 | §6.1已付原八管域及任意trace-zero角组合，包含非整j与cusp约化 |
 
 原点限制、整 MW 格和全局高度计算是这个判据的输入。
 本篇没有声称已完成八个原盘的数值验证，更不把固定47的结论当成 Serre 一致性完成。
@@ -504,6 +601,6 @@ Hensel 唯一性在整个 $t\equiv0\pmod q$ 类给唯一提升；
 
 o1 已独立纸核三种 coarse 切向和全部常数；
 o2 已独立纸核第3节有限域归一化，特别辅助 RR lift、whole Galois cycle 和 $W$ 边界。
-o2 亦已独立纸核第5–6节的原 $K=\kappa/a$ 缩放、完整 pull--trace 双积分与 simple-root 判据；线性系数在本篇记为 $B_{Z,y}$。非 $q$ 前提仍严格按 (1103.29) 保留。
+o2 亦已独立纸核第5–6节的原 $K=\kappa/a$ 缩放、完整 pull--trace 双积分与 simple-root 判据；线性系数在本篇记为 $B_{Z,y}$。非$q$前提现由§6.1在实际原八管域上证明。
 
-root另逐节核原KS/heat系数、同一a/B/q尺度、RR提升的whole-tube单位、Cartier差的唯一性及完整双积分尾；非q条件仍按(1103.29)保留。
+root另逐节核原KS/heat系数、同一a/B/q尺度、RR提升的whole-tube单位、Cartier差的唯一性及完整双积分尾；root另读R148/R43，核§6.1整轴/对角刚化、坏47与非整j范围；非q条件已付。
