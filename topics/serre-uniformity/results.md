@@ -177,3 +177,5 @@
 - R1137 §2.5（同文件）：已证明实际Padé分子最高系数P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N为单位，有限Clausen/原q2留数付清，degP=N；双缺陷仍未排。
 
 - R1140 §13（同文件）：已证明原p-isogeny bare pull–trace的全部cusp tame消去（保µp相位与p-ramification），故generic proper；明确F33门下去V投影，原cup=(4δ²/21)𝒯{W*G₄,G₈}，值未零。
+
+- R1135 §14（同文件）：原有界primitive、准确Cartier/B^p、r7/9完整Katz depletion与全局有界唯一性已证明；局部共振及实际Gaussian目标保留，原F非齐次forcing已明确。

@@ -139,3 +139,7 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 ## O6：其它全局路线与永久边界
 
 完整旧分支见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1004导子/交叉迹下界不付a/c上界，R236/238/249依赖M*=D(bc)²。原全局目标仍须统一q<p²/4、ε(q)=−1且a_q≠0；依导子密度或有限窗口不足。R707主41与R1125 full47已完成，只消费；R101/109有gap范围不外推全p，R4无Runge尖点盈余。变化CM不能套固定A、自动Norm不添类群矛盾。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp和Shapiro边界不变。
+
+### R1135 §14：原有界解与 Cartier forcing
+
+同一固定Δ曲线上原G=YQ(X)给实际有界P，G=∂P、K=∂²P，两者乘ω的Cartier为零。完整W=∂(F∂K−K∂F)−3K(∂²−a/3)F，乘积类不能拆。准确Hasse尺度给C_rel(ω/A²)=ω′及B=A²∂、B^p=A^(2p)B。r=7,9原Katz方程B^r(G_(p−r)/A^r)=2/(p−r−1)!·(A^(r+1)ℰ_(r+1)−ℰ_(r+1)^p)在L((p−r)O/2)有唯一有界解；全局唯一不消局部1…r共振。原(∂²+35a/3)F的q首项2F1非零，明确区别Hasse旁解。继续同一W(aG,0)/good-mask，不由nonzero forcing推指定值。

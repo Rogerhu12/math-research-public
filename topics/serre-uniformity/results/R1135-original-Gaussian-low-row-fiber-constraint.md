@@ -1310,3 +1310,265 @@ $\mathscr W(a_{\rm G},0)$ 的单位证明。
 下一步可在这条曲线上研究原 $F_*,G_*$ 的特定 Cartier 或 CM 关系；
 不能只凭总极阶、Lamé 候选或 Hasse 单位替代指定取值。
 本节无数学程序执行，实际 good mask 与同一 coarse component 的范围不变。
+
+
+## 14. 原有界 primitive、Cartier 与完整 Katz forcing
+
+本节仍在 (1135.50) 的同一固定曲线
+$\mathcal C_{\Delta_0}$ 上工作，底域为 $\mathbf F_p$，必要时只为局部证明扩到代数闭包。
+保持 $p=4k+3$、$p\mid B_{p-7}$，以及原 $F_*,G_*,K_*,\mathscr W$。
+以下 primitive 和高阶方程全部作用于这些实际函数；不把它们换成 §13 的 Hasse 候选。
+
+### 14.1 原 $G_*$ 的有界原函数与 $\mathscr W$ 的完整类
+
+$G_*$ 关于 $b$ 为奇，而 $F_*,K_*$ 关于 $b$ 为偶。
+在 $Y^2=X^3-\Delta_0/27$ 的坐标环内，因而有唯一多项式
+$$
+G_*=YQ(X).
+$$
+令 $\epsilon_G$ 如 (1135.53)。该式的准确极阶给
+$\deg Q=k-3-3\epsilon_G$。逐项定义
+$$
+\boxed{\quad
+P(X)=\frac12\sum_{j\ge0}\frac{[X^j]Q}{j+1}X^{j+1},
+\qquad
+P(0)=0,\quad
+\partial P=G_*,\quad K_*=\partial^2P.
+\quad}
+\tag{1135.61}
+$$
+所除的 $j+1$ 至多为 $k-2-3\epsilon_G<p$，所以这是同一
+$\mathbf F_p$ 曲线上的实际多项式原函数。这里的 $P$ 不是前面节点坐标中的乘积 $ZZ'$；
+本小节仅用它表示这个已明确归一的原函数。
+
+因此有完整的微分与 relative Cartier 身份
+$$
+\boxed{\quad
+G_*\omega_\Delta=dP,\qquad
+K_*\omega_\Delta=dG_*,
+\qquad
+C_{\rm rel}(G_*\omega_\Delta)
+=C_{\rm rel}(K_*\omega_\Delta)=0.
+\quad}
+\tag{1135.62}
+$$
+这两个零来自原函数，不是仅由相同 CM 角色推得。
+
+设 $\mathcal L=\partial^2-a/3$。对原
+$\mathscr W=F_*\partial^2K_*-4K_*\partial^2F_*+aF_*K_*$
+直接求导，可得
+$$
+\boxed{\quad
+\mathscr W
+=\partial\!\left(F_*\partial K_*-K_*\partial F_*\right)
+ -3K_*\mathcal L F_*.
+\quad}
+\tag{1135.63}
+$$
+故其 proper de Rham 类满足
+$[\mathscr W\omega_\Delta]=-3[K_*\mathcal L F_*\omega_\Delta]$，
+Cartier 读数亦满足同式。这里各微分只在 $O$ 有极，极阶至多
+$p-11-6\epsilon_G<p$，且关于局部反射的奇偶性排除 residue；
+去极的原函数所需分母也均小于 $p$。
+(1135.63) 保留了完整的 $K_*\mathcal L F_*$。
+不能因 (1135.62) 而把乘积的 Cartier 拆成两个 Cartier 的乘积。
+
+### 14.2 原 Hasse 函数给的准确 Cartier primitive
+
+仍记 $\mathsf A=E_{p-1}\bmod p$、$\beta=\partial\mathsf A$。
+(1135.52) 给
+$$
+\operatorname{pole}_O\mathsf A=n=\frac{p-1}{2},
+\qquad
+\mathsf A=6^n s^{-n}+\text{较低极项}.
+$$
+$\mathsf A$ 的每个 affine 零都是简单零。
+确实，若其零阶为 $2\le j\le n<p$，由于 $\partial$ 是无零的不变导子，
+$\partial^2\mathsf A$ 的零阶为 $j-2$、首系数包含单位 $j(j-1)$，
+而 $(a/3)\mathsf A$ 的零阶至少为 $j$，与 (1135.55) 矛盾。
+
+在这样的零点取切向归一的不变参数 $t$，只须至三阶。
+$\partial^2\mathsf A=(a/3)\mathsf A$ 给
+$\mathsf A=\beta_0t+O(t^3)$，故
+$\omega_\Delta/\mathsf A^2$ 在此只有 double pole，residue 为零。
+这些极经 Cartier 后都消失。因此它的 Cartier 是全纯微分。
+在 $O$，同一原 $s$ 参数给
+$$
+\frac{\omega_\Delta}{\mathsf A^2}
+=6^{-(p-1)}s^{p-1}(1+O(s))\,ds
+=s^{p-1}(1+O(s))\,ds.
+$$
+输出全纯微分的首系数恰为一，遂得到
+$$
+\boxed{\quad
+C_{\rm rel}\!\left(\frac{\omega_\Delta}{\mathsf A^2}\right)
+=\omega_\Delta'.
+\quad}
+\tag{1135.64}
+$$
+最后使用的是 $6^{p-1}=1$，没有重选 Hasse 函数的单位尺度。
+
+令
+$$
+\mathcal B=\mathsf A^2\partial.
+$$
+一般地，若导子 $D$ 与 $\eta$ 对偶、$D^p=hD$，则
+$h=F^\sharp(C_{\rm rel}(\eta)/\eta')$。
+这个约定只拉回输出系数：
+在分离变量 $z$ 下写 $D=f\,d/dz$，
+两边都等于 $-(d/dz)^{p-1}(f^{p-1})$。
+因此 (1135.64) 准确给
+$$
+\boxed{\quad
+\mathcal B^p=\mathsf A^{2p}\mathcal B.
+\quad}
+\tag{1135.65}
+$$
+$\mathsf A^{2p}$ 属于导子的常数域。
+这与 (1135.51) 的 $\partial^p$ 是不同的原算子身份；
+两者即使在固定曲线 supersingular 时也不矛盾。
+
+### 14.3 两个原 Eisenstein 函数的完整 Katz 方程
+
+以
+$$
+\mathcal E_j=-\frac{B_j}{2j}
+ +\sum_{n\ge1}\sigma_{j-1}(n)q^n,
+\qquad
+G_j=\frac{2}{(j-1)!}\mathcal E_j
+$$
+固定原 lattice 规范。这里所用的权为 $p-r$ 与 $r+1$，
+$r=7,9$，全部常数和阶乘均 $p$ 整。
+
+对权为 $w$ 的模形式，Katz 算子在原多项式环中的式子是
+$\theta=\mathsf A\partial+w\beta$。
+它提高权 $p+1$，所以每次作用后权模 $p$ 增加一。
+逐 Fourier 系数有
+$n^r\sigma_{-r}(n)=\sigma_r(n)$（$p\nmid n$）；
+在 $p\mid n$ 处，准确的补偿项是 Frobenius 那一项。
+同权补上 $\mathsf A^{r+1}$ 后，$q$-expansion 原理给
+$$
+\boxed{\quad
+\theta^rG_{p-r}
+=\frac{2}{(p-r-1)!}
+ \left(\mathsf A^{r+1}\mathcal E_{r+1}
+                   -\mathcal E_{r+1}^{\,p}\right),
+\qquad r=7,9.
+\quad}
+\tag{1135.66}
+$$
+两边的权都是 $(r+1)p$。
+右边常数是 $c-c^p=0$，所以没有遗漏 Eisenstein 常数；
+也没有把 $p$-depletion 的第二项删掉。
+
+同一低权多项式的具体值为
+$$
+\mathcal E_8=\frac{24}{5}a^2,\qquad
+\mathcal E_{10}=\frac{1728}{11}ab.
+\tag{1135.67}
+$$
+例如前者来自
+$G_8=a^2/525$，后者来自 $G_{10}=ab/1155$，
+再分别乘 $7!/2$、$9!/2$。
+这里的 $a,b$ 始终是原短模型系数。
+
+因为 $G_{p-r}$ 的权模 $p$ 为 $-r$，归纳给
+$$
+\mathcal B^j\!\left(\frac{G_{p-r}}{\mathsf A^r}\right)
+=\mathsf A^{j-r}\theta^jG_{p-r}
+\qquad(0\le j\le r).
+$$
+因而 (1135.66) 是同一固定曲线上的实际有理 primitive 方程
+$$
+\boxed{\quad
+\mathcal B^r\!\left(\frac{G_{p-r}}{\mathsf A^r}\right)
+=\frac{2}{(p-r-1)!}
+ \left(\mathsf A^{r+1}\mathcal E_{r+1}
+                   -\mathcal E_{r+1}^{\,p}\right).
+\quad}
+\tag{1135.68}
+$$
+$r=7$ 的未知量是原 $F_*$，$r=9$ 的未知量是原 $G_*$。
+
+这条方程还有一个准确的全局有界唯一性。
+在
+$$
+L\!\left(\frac{p-r}{2}\,O\right)
+$$
+内，满足 (1135.68) 的函数至多一个。
+若两个解相减为 $f$，置 $h=f/\mathsf A^r$，则
+$\mathcal B^r h=0$。应用 $\mathcal B^{p-r}$ 并用 (1135.65)，得
+$\mathcal B h=0$，所以 $h=g^p$。
+在 $\mathsf A$ 的每个 affine 零点，$h$ 的极阶至多为 $r<p$，
+而 $g^p$ 的极阶必须是 $p$ 的倍数；故 $g$ 在那里没有极。
+其余 affine 点也没有极。在 $O$ 又有
+$$
+\operatorname{ord}_O h
+\ge \frac{r(p-1)-(p-r)}2
+=\frac{(r-1)p}{2}>0.
+$$
+所以 $g$ 是全曲线上的正则函数且在 $O$ 为零，只能为零。
+这证明所述唯一性；实际存在性由原 $G_{p-r}$ 与 (1135.66) 支付。
+没有在消去 $p$ 次常数时另选一个解。
+
+局部限制仍须明确保留。
+在 $\mathsf A=0$ 处以 $\mathsf A$ 为参数，设
+$\beta_0=\partial\mathsf A|_{\mathsf A=0}$。
+对输入 $f_j\mathsf A^j$，(1135.68) 左边的同阶主对角系数为
+$$
+\beta_0^r\prod_{i=1}^r(j-i).
+\tag{1135.69}
+$$
+它在 $j=1,\ldots,r$ 全为零。
+所以有界唯一性是全局极条件的结论，
+不能仅由 (1135.68) 在 Gaussian 点的局部展开消掉
+$F_*,G_*$ 的那些低阶 jets。
+$r=7$ 的常数项确恢复原 $G_{p-7}$ 单位，
+但不额外支付 $\mathscr W(a_{\rm G},0)$。
+
+### 14.4 原 $F_*$ 与 Hasse 旁解的非齐次差异
+
+(1135.55) 与两个 Euler 权恒等式还给
+$$
+\beta_b=\mathsf A_a,\qquad
+\beta_a=-\frac a3\mathsf A_b.
+$$
+与 $\partial$、偏导的真实交换子合并，得到
+$$
+\boxed{\quad
+\partial\mathsf A_b=-5\mathsf A_a,\qquad
+\partial\mathsf A_a=\frac{7a}{3}\mathsf A_b,\qquad
+\left(\partial^2+\frac{35a}{3}\right)\mathsf A_b=0.
+\quad}
+\tag{1135.70}
+$$
+这些式子也可直接由 (1135.56) 验证，不能用来断言同权的
+$F_*$ 满足相同齐次方程。
+
+事实上，在本节的原分支 $p\mid B_{p-7}$，定义
+$$
+\mathcal R_F=\left(\partial^2+\frac{35a}{3}\right)F_*.
+$$
+§12 的实际 Tate 规范给
+$$
+\boxed{\quad
+[q]\mathcal R_F
+=\left(\frac{323}{144}-\frac{35}{144}\right)F_1
+=2F_1\ne0,\qquad F_1=\frac{2}{(p-8)!}.
+\quad}
+\tag{1135.71}
+$$
+它是权 $p-3$、cusp 阶恰为一的原非零 forcing，
+在固定曲线上的极阶恰为 $(p-15)/2$。
+因此本节同时给出实际 bounded primitive 方程
+(1135.68) 及原 $F_*$ 对 Hasse 旁解的明确非齐次项；
+并没有用一个同权候选替换指定 Eisenstein 函数。
+
+目前 (1135.63) 的完整乘积类、(1135.68) 的全局有界解，
+以及 Gaussian 点上的指定
+$F_*\partial^2K_*-4K_*\partial^2F_*+aF_*K_*$
+之间仍须实际取值比较。总 Cartier 结构、方程唯一性或
+(1135.71) 的非零多项式都不单独给该取值非零。
+同一 coarse component 的两 twist、实际 good mask、
+$S=0$ 与 $P=0$ 边界继续完整保留。
+本节为纸面证明，无数学程序执行。

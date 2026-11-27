@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：907a7d95923f95045bad78b2d26589f0dcc18b49**（2026-11-28 07:34 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：5573eab45a2a1bb80a60888b1b6356debc675b26**（2026-11-28 07:38 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 07:05 Asia/Taipei，公开Actions run46080481087/job140778033392，在blob:none浅部分克隆中真实pull --rebase至ffd8a7ed，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:55、真实pull≤08:05。本地07:07仍无环境；恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -55,6 +55,8 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 同文§12付3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，原bad Bp−7支q阶1/2首系数unit，Gaussian取值仍开。
 
 R1135 §13付原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。
+
+R1135 §14付原G/K有界primitive、C_rel(ω/A²)=ω′及B=A²∂满足B^p=A^(2p)B；两个原Katz forcing完整保Frobenius depletion，在L((p−r)O/2)全局唯一。局部1…r共振仍在，W留完整−3K·L F；原forcing q首项2F1单位不代Gaussian值。
 
 ## 已成、禁止重做与其它入口
 
