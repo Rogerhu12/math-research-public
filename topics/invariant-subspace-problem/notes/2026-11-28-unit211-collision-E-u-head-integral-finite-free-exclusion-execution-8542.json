@@ -1,0 +1,426 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run": 46063824427,
+  "job": 140724240962,
+  "execution": {
+    "elapsed_seconds": 0.551286687000001,
+    "max_child_rss_kib": 44812,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "a289f69c3d1ec0e81bd2e766c8328cfe0b66039e",
+        "before": "31b7faa94d988a179009bd2b781fe741e9233ae2",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:28:22.398437+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46063824427",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "31b7faa94d988a179009bd2b781fe741e9233ae2",
+    "source_exit_code": 0,
+    "source_git_blob": "4847a25f506dfedc0b6b9ee70b0df2fc9baf8b9c",
+    "source_sha256": "7e836aad4e25976e54cd3c8423d29dc6ea3ab95aa915c3791d31cf3ff16b7213",
+    "stdout_bytes": 25119,
+    "stdout_sha256": "c34c49ccd0ff8fcb8d740c0beec875f6b76e34a218535c270a4ef704de32a22f",
+    "stop_reason": null
+  },
+  "modelQualifications": [
+    {
+      "curve": 0,
+      "prime": 1009,
+      "eligibility": [
+        {
+          "prime": 1009,
+          "integralMonicFactor": true,
+          "otherOriginalUHeadUnitInWholeReduction": true,
+          "otherHeadGcdDegree": 0
+        }
+      ],
+      "originalOtherUDegree": 19,
+      "finiteFreeRank": 3078,
+      "chosenBeforeAnyCommonRootOrUGcdCalculation": true,
+      "monicLambdaIntegral": true,
+      "wholeOriginalOtherUHeadUnit": {
+        "prime": 1009,
+        "integralMonicFactor": true,
+        "otherOriginalUHeadUnitInWholeReduction": true,
+        "otherHeadGcdDegree": 0,
+        "actualWholeHeadInverseReturned": true,
+        "unitCertificate": {
+          "bytes": 2696,
+          "sha256": "75bf4fb718a9e511da2a60e377f3255e2ebe706acbdfd40acfce5d9b0db52131"
+        }
+      },
+      "noPhysicalGeometricLocalizationUsed": true,
+      "stage": "new_E_integral_model_whole_finite_free_environment",
+      "seconds": 0.1220244870000009
+    },
+    {
+      "curve": 1,
+      "prime": 1009,
+      "eligibility": [
+        {
+          "prime": 1009,
+          "integralMonicFactor": true,
+          "otherOriginalUHeadUnitInWholeReduction": true,
+          "otherHeadGcdDegree": 0
+        }
+      ],
+      "originalOtherUDegree": 18,
+      "finiteFreeRank": 3006,
+      "chosenBeforeAnyCommonRootOrUGcdCalculation": true,
+      "monicLambdaIntegral": true,
+      "wholeOriginalOtherUHeadUnit": {
+        "prime": 1009,
+        "integralMonicFactor": true,
+        "otherOriginalUHeadUnitInWholeReduction": true,
+        "otherHeadGcdDegree": 0,
+        "actualWholeHeadInverseReturned": true,
+        "unitCertificate": {
+          "bytes": 2695,
+          "sha256": "3438e3960ee7565267949e6762fae6ca2be837d4e07d382308f0918f093a6db6"
+        }
+      },
+      "noPhysicalGeometricLocalizationUsed": true,
+      "stage": "new_E_integral_model_whole_finite_free_environment",
+      "seconds": 0.2479957800000001
+    }
+  ],
+  "factorizations": [
+    {
+      "curve": 0,
+      "prime": 1009,
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 1,
+            "bytes": 7,
+            "sha256": "4637ab898a8e47c76cf0dd28802fb1cd0a13b618244e666c9b15db4617326553"
+          }
+        },
+        {
+          "degree": 38,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 38,
+            "bytes": 154,
+            "sha256": "ac14dc3866e55caf25e7595f839425300a78b611f5be0472b28768262841006d"
+          }
+        },
+        {
+          "degree": 52,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 52,
+            "bytes": 204,
+            "sha256": "c4c57db1cad5e82c45d26ad5d820ad231845eed1e4b7c5c10fb91f3eeb70426d"
+          }
+        },
+        {
+          "degree": 71,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 71,
+            "bytes": 282,
+            "sha256": "fc90cc4289407ece88aa21168e6d21265e27763065b2c0c187a9db1811b155a7"
+          }
+        }
+      ],
+      "completeFactorProductReturned": true,
+      "allPrimaryMultiplicitiesRetained": true,
+      "stage": "new_E_integral_model_complete_lambda_residue_factorization",
+      "seconds": 0.1251939120000003
+    },
+    {
+      "curve": 1,
+      "prime": 1009,
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 1,
+            "bytes": 7,
+            "sha256": "70f417040ec5814c72fc7a9a2e52e8c3b8b81a437d419283c89e521b6f6a120f"
+          }
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 2,
+            "bytes": 11,
+            "sha256": "ca8e34cce69357b520043fd99593f1fcd33b8edfa9b6819c3bc8feddc7dd573a"
+          }
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 2,
+            "bytes": 11,
+            "sha256": "a5e190314963a0727876c4b81a0650a33fc2d791e6421e8b6bed00252c60b9b7"
+          }
+        },
+        {
+          "degree": 5,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 5,
+            "bytes": 23,
+            "sha256": "576fdfadc9ca3c0f9f6b87261f31bd18bb0dd0b666fd16f229867ae2c125d60b"
+          }
+        },
+        {
+          "degree": 7,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 7,
+            "bytes": 31,
+            "sha256": "a180759c9c82ec7ebc263430b573ce4b1da228525ddf681830ebd8f12e3d7931"
+          }
+        },
+        {
+          "degree": 16,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 16,
+            "bytes": 62,
+            "sha256": "c42ef99e436e576c300e552b416b18cd114290584d29e6c6c5b0d2a8aae41639"
+          }
+        },
+        {
+          "degree": 17,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 17,
+            "bytes": 70,
+            "sha256": "e89320e1082089fa7e20ba807977facbec8f18bd51f601da7a1471ff8d5996d4"
+          }
+        },
+        {
+          "degree": 117,
+          "multiplicity": 1,
+          "profile": {
+            "degree": 117,
+            "bytes": 457,
+            "sha256": "170f22ab76afd2b9e74031b5b29fa5b192d64fbb6f0bdf5eb730f286addb2864"
+          }
+        }
+      ],
+      "completeFactorProductReturned": true,
+      "allPrimaryMultiplicitiesRetained": true,
+      "stage": "new_E_integral_model_complete_lambda_residue_factorization",
+      "seconds": 0.2512213289999998
+    }
+  ],
+  "blocks": [
+    {
+      "path": "F162/residue0",
+      "lambdaDegree": 1,
+      "uDegrees": [
+        17,
+        19
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 281,
+        "sha256": "5903f2a2605dc0f75a445aad34b5ae9482fc3111ad1f1abae8334ac9bb1c874c"
+      },
+      "unit": true
+    },
+    {
+      "path": "F162/residue1",
+      "lambdaDegree": 38,
+      "uDegrees": [
+        17,
+        19
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 5633,
+        "sha256": "e87bb38a9f421f494bc92a173a2644bb6908b67c919219552b94090aba7a6095"
+      },
+      "unit": true
+    },
+    {
+      "path": "F162/residue2",
+      "lambdaDegree": 52,
+      "uDegrees": [
+        17,
+        19
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 7648,
+        "sha256": "bf513aeccdb563763fa86aeb92baddad0fa7ab43e01cc043f5828e22ac7624d8"
+      },
+      "unit": true
+    },
+    {
+      "path": "F162/residue3",
+      "lambdaDegree": 71,
+      "uDegrees": [
+        17,
+        19
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 10361,
+        "sha256": "63c3765945afa59048b8bdc7e93511ede8adb36d8160c6aff983d3ed7bfff706"
+      },
+      "unit": true
+    },
+    {
+      "path": "F167/residue0",
+      "lambdaDegree": 1,
+      "uDegrees": [
+        18,
+        18
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 281,
+        "sha256": "f270cae4c2b506b141afe00c8de9e6a4808938c56578541c15a7a45e21c816af"
+      },
+      "unit": true
+    },
+    {
+      "path": "F167/residue1",
+      "lambdaDegree": 2,
+      "uDegrees": [
+        18,
+        18
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 431,
+        "sha256": "663e996379f1f109c86589d82cf25291cd403962430f0a201b99e28326e6a67a"
+      },
+      "unit": true
+    },
+    {
+      "path": "F167/residue2",
+      "lambdaDegree": 2,
+      "uDegrees": [
+        18,
+        18
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 426,
+        "sha256": "b6e71c8b583b910e3b3d4f314e2bbfc1e8a181add79aecba90710b4dd1231905"
+      },
+      "unit": true
+    },
+    {
+      "path": "F167/residue3",
+      "lambdaDegree": 5,
+      "uDegrees": [
+        18,
+        18
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 857,
+        "sha256": "7cb53e8ead4b39c8f6805ccfcc0dfe4665277266d09552e29f55716ef3f62705"
+      },
+      "unit": true
+    },
+    {
+      "path": "F167/residue4",
+      "lambdaDegree": 7,
+      "uDegrees": [
+        18,
+        18
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 1141,
+        "sha256": "20407a8f76c20c745a274c7fc1791e9f46bd092164336ec04322f627e68690ca"
+      },
+      "unit": true
+    },
+    {
+      "path": "F167/residue5",
+      "lambdaDegree": 16,
+      "uDegrees": [
+        18,
+        18
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 2457,
+        "sha256": "203f9d6f14f6d3b768eabc48ab757c294e49900e8d27ba5fa275e79aba03ef38"
+      },
+      "unit": true
+    },
+    {
+      "path": "F167/residue6",
+      "lambdaDegree": 17,
+      "uDegrees": [
+        18,
+        18
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 2591,
+        "sha256": "e9366f067e6cf0489d6ef1486ce12d56f7632077179ce2ac81ef05dfeef106d8"
+      },
+      "unit": true
+    },
+    {
+      "path": "F167/residue7",
+      "lambdaDegree": 117,
+      "uDegrees": [
+        18,
+        18
+      ],
+      "gcdDegree": 0,
+      "inverseProducts": 20,
+      "divisionProducts": 19,
+      "certificate": {
+        "bytes": 16978,
+        "sha256": "68396db995299e714f2ea7c5bbc7029c79062c730defa75dfc881c3ba19a01aa"
+      },
+      "unit": true
+    }
+  ],
+  "bothWholeOriginalUHeadsExcluded": true,
+  "noAdditionalLocalization": true,
+  "coefficientPayloadStored": false,
+  "wholeCollisionExcluded": false,
+  "ordinaryISPClaim": false
+}
