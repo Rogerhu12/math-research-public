@@ -259,7 +259,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [一特殊权全出生统一联合来源](results/R271-appendix-one-special-weight-all-births-uniform-joint-source-budgets.md)：全n≥2s+1、s≥1、t>0的原正交全部块，完整F>C1²/3、创新费<F/4、S<2I/3，三个常数均尖锐；最高C2硬端、真实伴随和全部原逆保留。六位特例较强旧界仍有效，不重计旧R239定性相邻性。一般独立权/无限carry/同W费用仍须另付。
 
-[新三对权完整三塔输入](notes/2026-11-28-three-pairs-original-joint-three-tower-8542.md)：同完整九/五维源中仅剩三/二维非平凡块；用R288真三塔构造S1并保深源，S2含同U0/完整上精度与双cross。x=1+U+V,y=1+V，全5前导主子式皆严格正才算闭合。7d4原首派180秒/4GiB，零外部数据依赖；尚未返回前不作正性结论。
+[三对权完整联合来源及七位整源首末边](results/R271-appendix-three-pairs-full-joint-source-and-seven-site-birth-two-edges.md)：7d4唯一0.231146555秒/41652KiB/0，原同3/2维未付块全部5前导主子式正（S1项数210/261/200、S2项数742/1003），正常数付全部重复权；保深真空塔和双cross，合旧出生一/真空块得全9/5维S1/S2。原R275/低half/倒数权给七位(a,√x²,√y²,1²)整14维两边严格<1，并对固定x,y有与a无关c(x,y)<1；没有全x,y一致数值界。旧同三对偶相位及R292普通首边不重计，一般六独立权/更多独立值/高出生/同W无限费用继续。
 
 [三加三原联合预算及七位统一首末边](results/R271-appendix-three-plus-three-original-joint-budgets-and-seven-site-uniform-edges.md)：六位(√t³,1³)整个九/五维源F>(2/3)C1²、创新费<F/3（尖锐）、S<I/2；五原完整Gram全部真实逆后压，三全域正多项式保全部cross。真定量Schur给七位(a,√t³,1³)整14维首末边同c*=1−(1−1/√3)(1−1/√2)/3<24/25。R239旧定性不重计；该均匀数值界仍不外推一般独立权。
 
