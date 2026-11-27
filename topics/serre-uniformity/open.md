@@ -2,56 +2,31 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-short-Cartier.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-full47-classification.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
 [R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)已付全Hecke消MW与真辛商，最低两jet单位仍开；[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)已付完整全根留数与最多七阶jet，其实际非零仍开。R1045/47的本原与共同零重数不代最低单位；R1057只关闭原X₁指定47深盘，不代full47或一般p。R1018–56全部原尺度、forcing、矩阵、旧来源和精确公式逐字保于[此前open](open-archive-2026-11-27-before-local-QC.md)，不重算已登记项。
 
-## O0：全局范围与原 full47 的实际高度
+## O0：完整一般素数范围；固定47已完成
 
-[R1003](results/R1003-global-scope-and-remaining-branches.md)：主目标为所有充分大p的完整N_ns。p2/5mod9仍需小惯性C³；R317另需整j、K=Q(√−3)、σ1及二/三小域同时一致。完整惯性、非整j、变化K、非平凡σ与异小域均未关；固定47或O1/O2不等于Serre完成。
+[R1003](results/R1003-global-scope-and-remaining-branches.md)：主目标为所有充分大p的完整N_ns。p2/5mod9仍需小惯性C³；R317另需整j、K=Q(√−3)、σ1及二/三小域同时一致。完整惯性、非整j、变化K、非平凡σ与异小域均未关；固定47不等于Serre完成。
 
-[R1062–71](results.md)：原全cusp/étale/p-only来源、所有角色/phase/twists和Ω(p/logp) good提升已付，无regular/Vandiver。有限像O(p^1.5logp)、有界惰性CM代表不推Q-CM；small-aux迹零与全局共同像仍开，单cusp无Runge。
+[R1062–71](results.md)：原全cusp/étale/p-only来源、所有角色/phase/twists和Ω(p/logp) good提升已付，无regular/Vandiver。有限像O(p^1.5logp)、有界惰性CM代表不推Q-CM；一般p的small-aux迹零与全局共同像仍开，单cusp无Runge。
 
-[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除。 §8还付原full47八CM普通、三实际Hecke域全split与十圆单位非零可同素满足；不付该素的高度/log单位。
+[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除；其固定47附加普通/Hecke分裂条件是已付输入，不推广成全p结论。
 
-[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)：原非整j局部分支精确由同一cusp的Kummer-annihilator Frobenius并集判别，−1modp整支仍相容；候选非零坐标给无条件秩下界。p47完整V每cusp秩10，235候选可被同素共同排除全部cusps且保圆单位非零，但affine像/分母全局排除仍开。
+[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)：原非整j局部分支由同一cusp的Kummer-annihilator Frobenius并集精确判别；−1modp整支仍相容，候选非零坐标给无条件秩下界。一般p的affine像/分母全局排除仍开。固定47现由下述独立全链完成，不再保留该固定曲线的伪缺口。
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；R1122/R1124已关全部八盘内部；完整固定47链正在接合。
+### 原完整X_ns^+(47)已完成，只消费
 
-[R1080/81/89](results.md)：原J无条件rank=dim=ρQ=73，4513最大未分歧整T；#J余数283/4513=70/551，Bq整unit，logJ(Qq)⊂qLie，原Φ47指数46。全部旧计算只消费。
+[R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰为八个有理CM点，准确j表和原点身份保正文。R1072/1074的全235坏47盘、全10 good全局标签及283同点筛选，只余八盘；R1086的全4513标签含scalar/twists/cusps/R36零坐标，锁定同一CM点。R1074§9的whole-C47 tube和R1103§6.1付全部非q项，包含非整j与2/3；未另加整j、二次域或proper inertia假设。
 
-[R1090/93](results.md)：95原log来源/73Hodge及Gaussian首log全28块unit已证，故M=T B_qu4且logM=qLie；run45946046378/45947023569（65.967秒）。后继按原descriptor/hash消费，保KS/Igusa/Bq尺度，不重算高矩。
+R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及全部真实高度；R1105/06付八点切向和23角；R1119/20付原带符号CM全坐标。R1118/21/23完整Cartier法付16个本除子局部值，原C_row=1−Bq(H)全矩阵桥通过。每个来源、尺度和完整run/hash见R1125入口与逐字前态，不重算已成数据。
 
-[R1078/87/88](results.md)：原23角/principal-cusp分裂和完整fixed-cycle；run45941481763付双CM系数整unit。合R1093得Tc d2+Tc d3=M_c全40维；具体cyclic对应和盘内local项仍开。
+[R1122](results/R1122-certified-original-six-complete-CM-disks.md)（run45996561850/job140497301328，117.953秒）及[R1124](results/R1124-certified-original-two-special-CM-disks.md)（run46000409994/job140510309243，117.687秒）给八盘全rank2/gcd=t/单位B，原整尾付整个4513盘各只余其CM点。六盘det2141/884/1790/1720/3453/4287；0/141的det294/3157。两次完成结果SHA与全部行存原文，非只深邻域。
 
-[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md) run45948995182：det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16。§8的Sturm2256证明73奇Hecke整基可选n≤2255且47∤n；实际整基见R1101。
-
-[R1094、R1097–99](results.md)付原所有局部项：完整2/47/奇好、B²与垂直修正；全部准确式由R1102消费，旧公式及源不变。
-
-[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)付Γ(1)=818；[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)付原73奇基n≤149删47/141、det3946。两项仅消费，完整后继见R1102。
-
-[R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
-
-[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，CM坐标已由R1120取得；R1122/R1124已关全部八盘，实际局部值见R1121/R1123。
-
-[R1104–06](results.md)已认证原L≤5/836jets与degree167可分pencil、八CM×16切向全unit及全部23角的真实73维作用；ZA/ZB生成整T。run45964526314/45968484065/45969880122，原source/hash、coarse/tag、FLINT隔离和id196普通25项链更正保索引及前态。只消费，整代数生成不代QC行秩。
-
-[R1123](results/R1123-certified-original-four-special-CM-Cartier-values.md)：首四短Cartier run45998781656/job140504817189成功，314.479秒；0的ZA/ZB为531/1857，141为1783/529，四条完整RR/留数与原C同帧均通过，clean SHA1056547d…已核；其后两盘已由R1124关闭。旧Miller只消费可能后成记录，不续算。
-
-[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；该路线仍在途；所需CM坐标已由R1120完整得到，不再补跑该链。
-
-[R1118](results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md)的原短Cartier法已由[R1121](results/R1121-certified-original-twelve-short-Cartier-values.md)完整执行：run45994669183/job140490956495，541.159秒，余12例全成、无失败；六盘ZA/ZB的原α已齐，完整C的det(1−C)=551、原73帧det3058。全部closed/coarse/cusp/除6及hash保R1121，只消费不重算。
-
-[R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
-
-
-[R1122](results/R1122-certified-original-six-complete-CM-disks.md)已关76/77/100/108/196/220六盘（run45996561850，117.953秒），原矩阵及全尾来源保原文。
-
-[R1124](results/R1124-certified-original-two-special-CM-disks.md)：QC run46000409994/job140510309243成功，117.687秒；0/141两盘rank2、det294/3157、gcd=t且B unit，整个4513盘各只余原CM点。合R1122全部八盘内部唯一已成；全标签/全局来源逐项接合后登记固定47，主目标继续。
-
-[十二形式的范围](notes/2026-11-27-short-Cartier-twelve-form-span-boundary.md)：六个不同generic j纤维的R2/R4留数分别隔离每对ZA/ZB，故已成十二形式的常系数组合（即使加全纯项）不能补0/141四形式；不把all_eight表的其它列改称新除子值。
+旧Miller run45973334832/job140418866621、q² run45977769585/job140433713916仍可能在途；原所需输入已完整取得，它们不是依赖，不续算或补跑。若后成仅消费真实记录，不将相同数值再登记成新结论。
 
 ## O1：全p同一真实本原标签的临界非零
 
@@ -128,7 +103,7 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 [R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
 
 
-原r2/r8 bare、近p高坐标、实际Igusa packet及全部旧尺度保于[逐字前态](open-archive-2026-11-27-before-short-Cartier.md)。R1041/48的核范数与AS端点平方不互代；R988准确给原S非零 iff c_(p−r)±单位，不能由低Cartier或period替代。R955/970真整格nilpotence把目标等价于原CM链长1，指定高权adjoint值仍开。R1015/16、R973–990完整theta/Poincaré/heat来源只消费，所有lower products、resonance、primitive mask保留。R991/994全部4008新点至200000已完成不重跑，也不外推一般p。
+原r2/r8 bare、近p高坐标、实际Igusa packet及全部旧尺度保于[逐字前态](open-archive-2026-11-27-before-full47-classification.md)。R1041/48的核范数与AS端点平方不互代；R988准确给原S非零 iff c_(p−r)±单位，不能由低Cartier或period替代。R955/970真整格nilpotence把目标等价于原CM链长1，指定高权adjoint值仍开。R1015/16、R973–990完整theta/Poincaré/heat来源只消费，所有lower products、resonance、primitive mask保留。R991/994全部4008新点至200000已完成不重跑，也不外推一般p。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 

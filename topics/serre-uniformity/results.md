@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1125（已证明，固定47完整分类）**：[原X_ns^+(47)的全部有理点](results/R1125-original-full47-rational-point-classification.md)：恰八个已列有理CM点。原235盘与完整全局标签、283/4513同一点转移、全部非q项、73维原整格/高度、16个规范局部值及八盘全尾唯一性完整接合；不加整j、固定二次域或proper inertia假设。一般素数绝对一致性仍OPEN，继续open的下一未解分支。
+
 - **R1124（已证明，精确计算）**：[原两特殊CM盘完整关闭](results/R1124-certified-original-two-special-CM-disks.md)：run46000409994/job140510309243，117.687秒；0/141实际矩阵rank2、det294/3157、共同gcd=t且B unit，完整原4513盘各只余CM点。合R1122全部八盘内部唯一已成；固定47全局链随即接合，一般p继续。
 
 - **R1123（已证明，精确计算）**：[原两特殊CM盘的四条规范第三类值](results/R1123-certified-original-four-special-CM-Cartier-values.md)：run45998781656/job140504817189，314.479秒；0的ZA/ZB=531/1857、141=1783/529，完整RR/留数和旧C同帧通过，clean SHA1056547d…。两盘实际QC后由R1124完成，旧六盘不重算。
