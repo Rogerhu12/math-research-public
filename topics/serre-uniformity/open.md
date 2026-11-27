@@ -43,7 +43,7 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1078/87/88](results.md)：原23角/principal-cusp分裂和完整fixed-cycle；run45941481763付双CM系数整unit。合R1093得Tc d2+Tc d3=M_c全40维；具体cyclic对应和盘内local项仍开。
 
-[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md) run45948995182：det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16。§8的Sturm2256证明73奇Hecke整基可选n≤2255且47∤n；实际小指标正在读。
+[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md) run45948995182：det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16。§8的Sturm2256证明73奇Hecke整基可选n≤2255且47∤n；实际整基见R1101。
 
 [R1094](results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md)付原整W、双极核、完整ramified power-sum及全部odd-Hecke CM分盘的h_q∈q²；首global为全部非q原交数×正Fermat商。
 [R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)/[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)/[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)付所有odd-good/47/2交数：两2209进程、坏47的529D_qH+23D_qb、2处Q8的S2/8含半格，保全Tq²。
@@ -53,6 +53,8 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 [R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)：run45958934145/job140371881297，18.667秒，实际整基恰全部奇n≤149删47、141，det3946、指标和5437；原newform/CRT/Hodge1/2/3/5桥齐备。后继只按固定73indices重建，不重开搜索；其余72个真实高度继续。
 
 [完整高度请求](notes/2026-11-27-full-p47-complete-global-CM-height-method.md)已提交：固定R1101的73基，4核流式计算其余72个Γ，直接消费n1=818；trace Gram与R/P′恢复κ，核全部28块并读16个原log归一μ。公开Actions18000秒/reserve120，零块合法；尚待真实回执，完整高度仍OPEN。
+
+[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原八CM切向由真实KS与最多二阶fine jet读取；α=N⁻¹dlog f̄，等价唯一Cartier-fixed规定留数微分。完整QC首项t(B+At)及整尾已付；实际α/角坐标/行秩与非q消失条件仍继续。
 
 ## O1：全p同一真实本原标签的临界非零
 

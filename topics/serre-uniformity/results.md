@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- **R1103（读取公式与条件式判据已证明）**：[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原八CM切向由真实KS与最多二阶fine jet读取；α=N⁻¹dlog f̄，等价唯一Cartier-fixed规定留数微分。完整QC首项t(B+At)及整尾已付；实际α/角坐标/行秩与非q消失条件仍继续。
+
 - **R1101（已证明，精确计算）**：[R1101](results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md)：run45958934145/job140371881297，18.667秒，实际整基恰全部奇n≤149删47、141，det3946、指标和5437；原newform/CRT/Hodge1/2/3/5桥齐备。后继只按固定73indices重建，不重开搜索；其余72个真实高度继续。
 
 - **R1100（已证明，精确计算）**：[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)：run45955885738/job140362136569，4.332秒，原Γ(1)=818 mod4513；2/47/奇好贡献4256/1323/4265，含5134个真实局部项。故h(Bqu4,Bqu16)赋值1；完整73块单位仍待小奇Hecke基与后续高度。
