@@ -1,21 +1,16 @@
 {
-  "message": "ISP: exclude the entire original W lambda three halves Ahat zero fiber",
-  "parentCommit": "eff54f481d97129e1969996327121a77803595b1",
+  "message": "ISP: construct actual Haar global trace intertwiners and cyclic quotient quasiaffinities",
+  "parentCommit": "61acab0441950d9e441a90bf7c9ee707a575d643",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-lambda-three-halves-Ahat-zero-complete-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-Ahat-zero-complete-original-exclusion-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-same-value-R2-H6-entire-cover-8542.py",
-    ".github/workflows/invariant-subspace-w-lambda-three-halves-same-value-r-two-h-six-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Q1u-nonzero-Delta-original-two-parameter-return-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-q-one-minus-u-nonzero-delta-original-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Q1u-Delta-zero-original-compatibility-cover-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-q-one-minus-u-delta-zero-original-compatibility-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-Ahat-zero-complete-exclusion-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-Ahat-zero-complete-exclusion-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-A143-nonzero-original-two-column-and-cofactors-8542.py",
+    ".github/workflows/invariant-subspace-w-a143-nonzero-original-two-columns-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-actual-Haar-global-intertwiners-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-actual-Haar-global-intertwiners-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -25,8 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-lambda-three-halves-same-value-r-two-h-six-8542.yml",
-    "invariant-subspace-equal-singleton-q-one-minus-u-nonzero-delta-original-8542.yml",
-    "invariant-subspace-equal-singleton-q-one-minus-u-delta-zero-original-compatibility-8542.yml"
+    "invariant-subspace-w-a143-nonzero-original-two-columns-8542.yml"
   ]
 }
