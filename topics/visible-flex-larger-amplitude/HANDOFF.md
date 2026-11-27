@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`d5fd8296c2abec83213675d826462bac17d0b21c`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`ccad9f4ad40466d9a3387e70b42a77c75a2d75b9`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差保4815339固定H及notes；令牌仅瞬时CLI。
 
@@ -15,6 +15,7 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 ## 保留、旧终态与未知历史
 
 前33轮保留链及所有原源/参数/结论保固定H；[第33轮](notes/2026-11-27-legacy-R90-final-outputs-retention-33.md)仅退存旧生成raw，16全源/43输入恢复/六审计输入齐，大raw未读，R90数学未改。依赖全版本见启动请求。
+[第34轮](notes/2026-11-27-legacy-condensed-intents-retention34-readonly-review.md)仅退存56/58/60三旧生成intent共2076281B；完整源/原请求/参数/实际结论及53→56→58→60原字恢复链保完整provenance。root六目录身份/十二全源身份和实际读写点核，大本体未读，cf418固定恢复；未改当前warm输入或科学。
 旧03b/03/02/04/05/direct九history所有阶段状态与未知typed/保护/发现顺序保固定H；R697/R702/R705不重做，未返不归档冒完成。
 [06终态](notes/2026-11-27-run06-actual43-complete-SOC-return-and-terminal-budget-boundary.md)仅1–43返：42沿40且读41地点，末2b37/c5cee、科学0/pure1；43沿41到0298/64d69，Phi=.00658186539、max=.03644443150、g负，未读42新地点，后继必须合两全历史。28b/cfd未准入，首启仅规则ref失败。
 07cancelled仅1–3输入返，cc0a step4场/末点/typed与pure/费/M320未返，完整终态note保固定H；08见末块，旧载体不能替未知历史。
