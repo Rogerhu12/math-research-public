@@ -1,0 +1,287 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-generic-LS-P1-double-zero-original-return-8542.py",
+  "sourceSha256": "7001773497aeb492055b8e2ac6d63d8c044c0f5af937b2997aebadad627dc5f7",
+  "sourceBytes": 25576,
+  "parameters": [],
+  "actualExitCode": 0,
+  "wallSeconds": 11.540406093001366,
+  "stdoutSha256": "ca30e7a845dc309897bc6aa9f07c80f3e22353c3167e6400f9fd41795cdbd68b",
+  "stdoutBytes": 12876,
+  "peakRssKiB": 47912,
+  "limits": {
+    "alarmSeconds": 360,
+    "addressSpaceGiB": 4
+  },
+  "wholeGenericLSP1DoubleZeroExcluded": true,
+  "wholeGenericLSExcluded": false,
+  "verifiedReturns": [
+    {
+      "stage": "generic_coordinate_unit_trace",
+      "seconds": 6.184776097001304,
+      "checkedPolynomials": 52,
+      "inverseMultiplications": 8,
+      "allPaid": true,
+      "DeltaNotInverted": true
+    },
+    {
+      "stage": "original_generic_P1_zero_eight_equations_verified",
+      "seconds": 11.133304140999826,
+      "monicEllDegree": 4,
+      "rawEllLeadingCoefficient": -8,
+      "originalScalarRows": 8,
+      "checkedUnitPolynomials": 205,
+      "inverseMultiplications": 11,
+      "claimExcluded": false
+    },
+    {
+      "stage": "complete_original_generic_P1_zero_QQ_cover",
+      "seconds": 11.352022540002508,
+      "fullDegree": 559,
+      "fullEllDegrees": [
+        4,
+        3
+      ],
+      "fullSha256": "de90e5dad9bd6247dfacdb8e3735fe0abde995ff05116b43d5be5272226889bb",
+      "factors": [
+        {
+          "degree": 1,
+          "multiplicity": 102,
+          "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+          "polynomial": "x"
+        },
+        {
+          "degree": 43,
+          "multiplicity": 1,
+          "sha256": "b312b9ffb13dd2f4df3b45c2aec07941c82ccabf6bbc29cf11dec73947cee179",
+          "polynomial": null
+        },
+        {
+          "degree": 4,
+          "multiplicity": 3,
+          "sha256": "b52931fea85b91c5a849e6b428e873e2eb6217137d5a6ffef9acfcba88a8cc5c",
+          "polynomial": "72*x^4 + (-156)*x^3 + 136*x^2 + (-54)*x + 9"
+        },
+        {
+          "degree": 4,
+          "multiplicity": 3,
+          "sha256": "5e5522cf53787880bf15af0ee4b52cf0970647067f0fccc3906ce315a37c53c2",
+          "polynomial": "8*x^4 + (-4)*x^2 + 2*x + 1"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 45,
+          "sha256": "e00be964113201eebe0a127b0e7356ad16ce03e28c15b490ad65d68587bec5c6",
+          "polynomial": "2*x^2 + (-2)*x + 1"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 300,
+          "sha256": "b1cd874d703f4a48b6443248029a6b4a8aa56afcf1d8bf5ffab50d79790307c4",
+          "polynomial": "2*x + (-1)"
+        }
+      ],
+      "allFactorAndScalarProductsVerified": true,
+      "allEllLeadingZeroFibersRetained": true,
+      "claimExcluded": false
+    },
+    {
+      "stage": "whole_degree43_original_modular_Bezout",
+      "seconds": 11.356876343001204,
+      "prime": 1009,
+      "actualQQCandidateDegree": 43,
+      "modCandidateDegree": 43,
+      "QQLeadingCoefficientModPrime": 609,
+      "allMonicQQCoefficientsPrimeIntegral": true,
+      "fullEllDegreesQQ": [
+        4,
+        3
+      ],
+      "fullEllDegreesMod": [
+        4,
+        3
+      ],
+      "fullResultantModDegree": 578,
+      "coefficientDegrees": [
+        577,
+        42
+      ],
+      "coefficientSha256": "f277534d41ff8e989fdc1fb7981b4231db637f512cbcabe54113e1d66f9f7584",
+      "actualBezoutMultipliedBack": true,
+      "onlyActualUnivariateQQCoverUsed": true,
+      "whole43CandidateExcluded": true,
+      "claimExcluded": true
+    },
+    {
+      "stage": "whole_small_QQ_lambda_field_original_return",
+      "seconds": 11.415220028000476,
+      "fieldPolynomial": [
+        "9",
+        "-54",
+        "136",
+        "-156",
+        "72"
+      ],
+      "fieldDegree": 4,
+      "fieldSha256": "b52931fea85b91c5a849e6b428e873e2eb6217137d5a6ffef9acfcba88a8cc5c",
+      "originalEllDegree": 4,
+      "onlyPaidEllRootRemovals": [
+        [
+          "S",
+          1
+        ]
+      ],
+      "remainingEllDegree": 3,
+      "finalOriginalInputs": [
+        "entire retained H fiber",
+        "full Res_f(original E1,original EB_even)"
+      ],
+      "originalFullFDegrees": [
+        2,
+        2
+      ],
+      "fResultantHReductionMultipliedBack": true,
+      "finalGcd": "1",
+      "inversesMultipliedBack": 33,
+      "divisionsMultipliedBack": 23,
+      "bezoutCombinationsMultipliedBack": 10,
+      "allEmbeddingsRetained": true,
+      "wholeCandidateExcluded": true,
+      "claimExcluded": true
+    },
+    {
+      "stage": "whole_small_QQ_lambda_field_original_return",
+      "seconds": 11.43200509899907,
+      "fieldPolynomial": [
+        "1",
+        "2",
+        "-4",
+        "0",
+        "8"
+      ],
+      "fieldDegree": 4,
+      "fieldSha256": "5e5522cf53787880bf15af0ee4b52cf0970647067f0fccc3906ce315a37c53c2",
+      "originalEllDegree": 4,
+      "onlyPaidEllRootRemovals": [
+        [
+          "L",
+          1
+        ]
+      ],
+      "remainingEllDegree": 3,
+      "finalOriginalInputs": [
+        "entire retained H fiber",
+        "full Res_f(original E1,original EB_even)"
+      ],
+      "originalFullFDegrees": [
+        2,
+        2
+      ],
+      "fResultantHReductionMultipliedBack": true,
+      "finalGcd": "1",
+      "inversesMultipliedBack": 33,
+      "divisionsMultipliedBack": 23,
+      "bezoutCombinationsMultipliedBack": 10,
+      "allEmbeddingsRetained": true,
+      "wholeCandidateExcluded": true,
+      "claimExcluded": true
+    },
+    {
+      "stage": "whole_small_QQ_lambda_field_original_return",
+      "seconds": 11.438569150999683,
+      "fieldPolynomial": [
+        "1",
+        "-2",
+        "2"
+      ],
+      "fieldDegree": 2,
+      "fieldSha256": "e00be964113201eebe0a127b0e7356ad16ce03e28c15b490ad65d68587bec5c6",
+      "originalEllDegree": 4,
+      "onlyPaidEllRootRemovals": [
+        [
+          "ell",
+          1
+        ]
+      ],
+      "remainingEllDegree": 3,
+      "finalOriginalInputs": [
+        "entire retained H fiber",
+        "full Res_f(original E1,original EB_even)"
+      ],
+      "originalFullFDegrees": [
+        2,
+        2
+      ],
+      "fResultantHReductionMultipliedBack": true,
+      "finalGcd": "1",
+      "inversesMultipliedBack": 33,
+      "divisionsMultipliedBack": 23,
+      "bezoutCombinationsMultipliedBack": 10,
+      "allEmbeddingsRetained": true,
+      "wholeCandidateExcluded": true,
+      "claimExcluded": true
+    },
+    {
+      "stage": "whole_small_QQ_lambda_field_original_return",
+      "seconds": 11.442356154002482,
+      "fieldPolynomial": [
+        "-1",
+        "2"
+      ],
+      "fieldDegree": 1,
+      "fieldSha256": "b1cd874d703f4a48b6443248029a6b4a8aa56afcf1d8bf5ffab50d79790307c4",
+      "originalEllDegree": 4,
+      "onlyPaidEllRootRemovals": [
+        [
+          "u-1",
+          1
+        ],
+        [
+          "u-1",
+          1
+        ],
+        [
+          "u-1",
+          1
+        ]
+      ],
+      "remainingEllDegree": 1,
+      "finalOriginalInputs": [
+        "entire retained H fiber",
+        "full Res_f(original E1,original EB_even)"
+      ],
+      "originalFullFDegrees": [
+        2,
+        2
+      ],
+      "fResultantHReductionMultipliedBack": true,
+      "finalGcd": "1",
+      "inversesMultipliedBack": 38,
+      "divisionsMultipliedBack": 26,
+      "bezoutCombinationsMultipliedBack": 12,
+      "allEmbeddingsRetained": true,
+      "wholeCandidateExcluded": true,
+      "claimExcluded": true
+    },
+    {
+      "stage": "complete",
+      "seconds": 11.442558629001724,
+      "scope": "entire original three-distinct-value LS-nonzero P1-double-coefficient-zero branch",
+      "genericMomentCoordinateChartVerified": true,
+      "allOriginalNAndPReturned": true,
+      "fullQQProjectionDegree": 559,
+      "completeHighDegreeCandidate": 43,
+      "completeSmallFieldDegrees": [
+        4,
+        4,
+        2,
+        1
+      ],
+      "wholeBranchExcluded": true,
+      "generalLSExcluded": false,
+      "ordinaryISPClaim": false,
+      "sourceSha256": "7001773497aeb492055b8e2ac6d63d8c044c0f5af937b2997aebadad627dc5f7",
+      "peakRssKiB": 47912
+    }
+  ]
+}

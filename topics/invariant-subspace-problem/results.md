@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 一般LS非零图的原P1双系数零整支为空（2026-11-27，已证明）：** [保等权的四参数矩坐标、559次完整QQ覆盖和原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)不除ell/T/等权分子；双零支逼T=−ell、u=2ell，再由常首项四次H返回全部原Gram。43次因子与原578次投影的模1009一元Bézout及4/4/2/1整个QQ商代数均准确乘回；源70017734实际11.540406秒/47912KiB/exit0。只支付P1至少一个系数非零，Cramer Delta零与一般LS仍开。
+
 - **R12 全部不整除原幂闭根的实际第一阶gauge接口不可能（2026-11-27，已证明）：** [显式四次式与一般q²次有限结式](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)对q∤p的同一稳定闭根，排除GR=RT+Q、Q=FZR+KR这一已付实际接口，允许任意非零UHF交换F、任意有界交换K与复ℓ²第一阶Z。根稳定域支持全部有限消元，R单射仅在真实自然幂域消去；慢行由R171、有界行由所有Puiseux根差排除。无需根的完整C自伴性；未知不变底空间/gauge仍未识别，未宣普通ISP完成。
 
 - **R150 L0四原子式与X的五曲线新QQ输入（2026-11-27，已证明输入）：** [完整32列原身份、13已付单位与新必要理想](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-original-minors-parameter-system.md)采用C39,53/C39,54/C40,53/C40,54及X34,52；旧高次Y输入冻结。源f48568e0实际build70.484423秒/114280KiB/exit0，三变量完整输入394463B/SHA230f4b91；只对新输入安排QQ1200门，暂无单位或一般L0排除。

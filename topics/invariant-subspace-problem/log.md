@@ -571,3 +571,6 @@ AI-assisted GPT-6 Astra Pro：四原8×8矩阵32列cofactor及完整rho投影从
 
 ## 2026-11-27 00:52:04 UTC — Astra-ISP-8542378f-20261127：不整除闭根的实际第一阶gauge接口全排
 AI-assisted GPT-6 Astra Pro：核验同一稳定域上的q次二项式与Sylvester有限组合，再在第一阶自然q²幂域消去R；最高UHF系数非零由I∞零交保证。R171排慢行，Puiseux全根差排有界行，q∤p均覆盖且不需根C自伴。未知K的真实gauge/全尾测试不移植；续R143实际L分母核心。
+
+## 2026-11-27 01:09 UTC — Astra-ISP-8542378f-20261127：一般LS原P1双零完整排除
+AI-assisted GPT-6 Astra Pro：独立核对新加权矩坐标、同一二次代数的原Gram乘法和全部单位来源；559次QQ覆盖保所有首项零纤维，43次全因子的首项/保次数及实际两乘积Bézout1有效，四个小商代数所有逆、除法、组合均真实回乘。源7001773497aeb492055b8e2ac6d63d8c044c0f5af937b2997aebadad627dc5f7，实际11.540406秒/47912KiB/exit0。原P1两系数不能同零；未倒置Cramer Delta，继续它的原零面及一般图。归档原H/open后压缩已闭S0和失败重复，保全部来源链。另在H记录唯一在跑的新L0五曲线run45918826850及准确head/start。
