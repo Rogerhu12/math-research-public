@@ -1,0 +1,392 @@
+{
+  "schema": "isp-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run": 46025096446,
+  "job": 140594347573,
+  "execution": {
+    "elapsed_seconds": 1.4133853399999978,
+    "max_child_rss_kib": 75212,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8a15c7fb3e2bc6c4df46b5e7682b05af0954a25a",
+        "before": "c24e56dd35752a29f7059d3e7266cb939eb92c56",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T15:27:54.023597+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46025096446",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "c24e56dd35752a29f7059d3e7266cb939eb92c56",
+    "source_exit_code": 0,
+    "source_git_blob": "5653204b92d52007d121e2c99eb24f733eecd062",
+    "source_sha256": "a0e1efb16ec1939e50befbf4844e6cecb1603e17defcfa1b0fa1ae8fcd0abd0b",
+    "stdout_bytes": 10398,
+    "stdout_sha256": "bc1b16f8270636f7221c4de44ab88916e0fcd21a8d357d8deb05a7bfb9602061",
+    "stop_reason": null
+  },
+  "actualReturns": [
+    {
+      "originalNecessaryRows": [
+        "Delta=0",
+        "Tnum=0"
+      ],
+      "fixedQDegrees": [
+        2,
+        2
+      ],
+      "primitiveDelta": {
+        "degrees_lambda_u_Q": [
+          12,
+          4,
+          2
+        ],
+        "totalDegree": 16,
+        "terms": 98,
+        "bytes": 1847,
+        "sha256": "6e482757458656b38ee447c7509286fe03dd15fb93d1e45e84fbbeaac0ed66ef"
+      },
+      "primitiveTnum": {
+        "degrees_lambda_u_Q": [
+          19,
+          5,
+          2
+        ],
+        "totalDegree": 24,
+        "terms": 180,
+        "bytes": 3989,
+        "sha256": "e3e679e52d776c3805e31681c2040d5a04b8ad99ac61a5933444e9a7f9576085"
+      },
+      "onlyPaidOriginalRemovals": [
+        [],
+        [
+          {
+            "originalUnit": "Q",
+            "gcdLoops": 1
+          },
+          {
+            "originalUnit": "S",
+            "gcdLoops": 2
+          }
+        ]
+      ],
+      "originalQSquaredHead": "2*(ell-1)*(lambda^2+lambda-1)",
+      "headIdentityActuallyReturned": true,
+      "allHeadZeroFibersRetained": true,
+      "noDeltaOrNewHeadInverse": true,
+      "claimExcluded": false,
+      "stage": "new_entire_equal_singleton_Delta_zero_original_projection_input",
+      "seconds": 0.3109861510000016
+    },
+    {
+      "originalRows": [
+        "R",
+        "W",
+        "O"
+      ],
+      "necessaryCore": {
+        "degrees_lambda_u_Q": [
+          62,
+          17,
+          9
+        ],
+        "totalDegree": 80,
+        "terms": 5933,
+        "bytes": 244345,
+        "sha256": "9403fd667daefd68e6b71b497071959b63590c2ddf28a6e8f2fa703df4615512"
+      },
+      "onlyNecessaryPolynomialReconstructed": true,
+      "previousThreeColumnAdjugateAndCertificateGatesNotReplayed": true,
+      "stage": "new_Delta_zero_frozen_mean_cofactor_input",
+      "seconds": 1.051722416000004
+    },
+    {
+      "name": "original_Delta_Tnum_compatibility",
+      "rawOriginalQQResultant": {
+        "degrees_lambda_u_Q": [
+          55,
+          10,
+          0
+        ],
+        "totalDegree": 65,
+        "terms": 503,
+        "bytes": 19934,
+        "sha256": "e5830d2fd122f621b1f5b94f6cf87096c8060669883e4ad95fcd1322d9a49d93"
+      },
+      "fixedOriginalQDegrees": [
+        2,
+        2
+      ],
+      "fixedOriginalSylvesterSize": 4,
+      "allOriginalQLeadingZeroFibersRetained": true,
+      "projectionSeconds": 0.0029207529999979442,
+      "claimExcluded": false,
+      "stage": "new_entire_Delta_zero_fixed_original_Q_resultant_returned",
+      "seconds": 1.0547246309999991
+    },
+    {
+      "name": "original_Delta_Tnum_compatibility",
+      "necessaryCurve": {
+        "degrees_lambda_u": [
+          28,
+          3
+        ],
+        "totalDegree": 31,
+        "terms": 115,
+        "bytes": 2496,
+        "sha256": "8af7c105334af350ef5047ee49cf27a5aadbfa204a11b64f9b7f7b8a352dd49c",
+        "encoding": "base64+zlib+json-lambda-u-coeff",
+        "data": "eNpdlcmR7DgMRH2pc3WI2AlbfrT/bkwSYEvURJ2EIrHmI/79G9/x/dBFbnPOz+8XBvp+fuianKpt4O/HLncx4zZInXgstJz8EF34Tm8LvFBcShr7CK8jYa9rcCSnhSsbkeceVzo8Xya4CjuT5k7pZZNKiiPtqUUqLZO4eIR4myoxx5lLhCK2VVb+Iw+HuhyKTdhksrZpZZeR8HgehEsOl1dtWjm6sF0hwXXSunFoWuSTpS2vPGS4PR21yhPRQ/JiJpr77ErU1OxCRC2vXl3kGIxYT1rekzWZ4vJE8+WY0HSGkZLbVrmausoRLCpdozQfcniOaisczhHxsq+cJS1FMo9exPLP66CcHZ7V4UHidJQzK291Fgmz1/HVZx05ErkTDevsZ2WPelLczrDZ7RZzjTjEmSuCmIYYRnaYV/psJIw7l/h0bfvq+ZBkJPISdNMUQZFxaIwaKjRcM19UFFzErDkwlP/5WlUEQidKPsqmxg3DlRxQPO0LxZwiK0YlB8C02RuebqshrNYqpyKQ1MCXxSNrKg55qJFiErbHTw3jTJvOq4FPiGKSdE6HNuapDWo2UaBnutMhJ2pEk4bGQIV/b0dTymYGUK6tAmpQ2XOoi8apG2pcPWcq5nL0t5iFG53K8RTS3BKcoRc04nUDYZRdaU4wdEZpglXmZDKgck6rSY6cIFGPlhXLcD4oIdRL1HzbC+ckpGxprzjF9DTIaHGQ4KTMhfXq45wKcW2xU2O9qMYMlx6gpLn/WaWs1wk9f3TScKM8JMOcL2k14eyQFi2U/0ZShPMMvF5rJnd5TXj5Ila05GlkMZ7TF8zz1EpTTipUsXkb6513vDnMUMkdoSCfujSXSz03U5ty+HfKo7Mb8sXTjEc+xTgTT0fR8vjP/f6jhvCk84+1nSAqFQdOz/opyNHjpYFLmhjea1MVBrwitxvu9bmefciM97pqtiHwid/dZW6wA9LDnqQxt5H6NQ8beKC3jYspgRIOtXHzHJidPwPnojkghLUkWkzcKBPe3zH5URM3yGNk7cNdHO8HFW3eTyBvdDEqDHH3mPd6dSyTPIwrV6BCT/3S9bPYU2ehSu6Qak+YN6W0unonrg3OkEnH1QUMnp7nWPOIxZOX6bY0iXFfKwbBE2PXbEM9uWOB2m56lSLL3J9UC+r+rDHYsOc8PJjOfaBx0kv2V9Uzxv1v7S++P1d0aLMnUUT8XS0Kfub9tcb8+f39Dwj1AZs="
+      },
+      "onlyPaidQFreeRemovals": [
+        {
+          "originalQFreeUnit": "A",
+          "gcdLoops": 2
+        },
+        {
+          "originalQFreeUnit": "B",
+          "gcdLoops": 7
+        },
+        {
+          "originalQFreeUnit": "u",
+          "gcdLoops": 2
+        },
+        {
+          "originalQFreeUnit": "u_minus_one",
+          "gcdLoops": 5
+        },
+        {
+          "originalQFreeUnit": "S",
+          "gcdLoops": 2
+        }
+      ],
+      "polynomialNotReplacedByMultivariateGcd": true,
+      "wholeOriginalDeltaZeroChartExcluded": false,
+      "stage": "new_entire_Delta_zero_original_projected_necessary_curve",
+      "seconds": 1.057720605
+    },
+    {
+      "name": "original_Delta_Tnum_compatibility",
+      "unit": "1/663552",
+      "factors": [
+        {
+          "multiplicity": 1,
+          "factor": {
+            "degrees_lambda_u": [
+              1,
+              0
+            ],
+            "totalDegree": 1,
+            "terms": 2,
+            "bytes": 22,
+            "sha256": "b3ccfa21e72bcb7247055325058154b0aef9d5bd3f17e1f83cabe226f5d29fa0",
+            "encoding": "base64+zlib+json-lambda-u-coeff",
+            "data": "eNqLjjbQMdBR0jVUitWJNgQxjZViYwE4DATf"
+          }
+        },
+        {
+          "multiplicity": 1,
+          "factor": {
+            "degrees_lambda_u": [
+              2,
+              0
+            ],
+            "totalDegree": 2,
+            "terms": 3,
+            "bytes": 32,
+            "sha256": "97ecf59ab171c044f7011ae2e85b2dfd11ba2cee2682691a8d8ae085eb29e2d3",
+            "encoding": "base64+zlib+json-lambda-u-coeff",
+            "data": "eNqLjjbQMdBRMlSK1Yk2BLF0jUFMIxATyIoFAHLyBvQ="
+          }
+        },
+        {
+          "multiplicity": 1,
+          "factor": {
+            "degrees_lambda_u": [
+              25,
+              3
+            ],
+            "totalDegree": 28,
+            "terms": 103,
+            "bytes": 1782,
+            "sha256": "eac8a5660f5a8935e3fa409bc8246a40bde09fee744f1785f9ca7d896e2f3590",
+            "encoding": "base64+zlib+json-lambda-u-coeff",
+            "data": "eNpFlElyZDEIRO/idTmCUaCzOHz/azSQyF0rKesz6sHPD33o8/VtX7+fOvLnK3GSEh1H/Xxxn7i/ZEqc69NvEcOlvmZznLX/uH2Wcc2mgluZKGXi0gGEwnArI+P5RyeKmB7cJk7k3WtHugb/OrH0xqRnEy2uE+Falpyu79oBWdVP4l625VcmN29bvam81456z8vC2zjY73VcOy67ONI/qPOIM61Q9kYeR/bewZXJnQ+E8nAiMydetAN3PW6GO0/jRO7R/aILZz4dBML02SkjpqDcJEjYjKB0FiKkiaiJNDS1IjuU8lJNqH6P17t9MFVJCJMJBcW1Y5DKS4bR+RMUb5mHDyAAVOkpl4VWKk+iJnRtGQJlfPVyPaKs1ihENy8maQZ2h65fPbRSZ2Wm4X/OBkIN5iCTJ3Vit/pe7w6EgaQctfQlgQfMUCrTA8wYeB421qLXVutB8HA7AqZ4WNU4IVw0rISGVQejKrUVp2X9W/4Z7NYDV2V2YQuC7dxkOvsdMJYrZpc2k2W5nqQCCB6bAXRavYKt7VDtdNX4FQayuYhw4di4DrjUPc34fYg5zmK+HI4Gzi2ihojAJR/kVyxILDN8Nj/KYoT/xM6vR6gmEtJgXzTWIGU+aSYvavbihR32owihmldbaSYwiS0t0YDcp2USjW38jMBRstoZflbq5Ey5xi2WgBmDW4bVTDibQWCrbVKlPalTUwnyYu5p3blUvVX7k6Zxhao7toFgGk7WYG43hPZZe2MgpGAarAFmoC8EgMVkF4nMMEjVchP1CGZBC49wfRL6r6IXFcqMAtstfFfBJByXou8pvaDNy9NZAXu9qt0VLpuQ331DwbouoBZYmQGoZ5HARIhilvqt/my0A/UGQekAv9bvNmygL5N87RriOWqVybPoRKIK2nIG7P8efFfLOfT+702n0Q5//wEHzXAq"
+          }
+        }
+      ],
+      "fullQQProductReturned": true,
+      "allFactorsAndAllIntersectionsRetained": true,
+      "noFiniteCandidateOrExclusionClaim": true,
+      "stage": "new_entire_Delta_zero_complete_projected_QQ_factor_cover",
+      "seconds": 1.0587586950000016
+    },
+    {
+      "name": "original_Delta_all_means_cofactor",
+      "rawOriginalQQResultant": {
+        "degrees_lambda_u_Q": [
+          218,
+          40,
+          0
+        ],
+        "totalDegree": 258,
+        "terms": 7522,
+        "bytes": 856875,
+        "sha256": "cace5201509963b8a43129cd381fe77c2394c3c732ab53669fdec1684b2432e5"
+      },
+      "fixedOriginalQDegrees": [
+        2,
+        9
+      ],
+      "fixedOriginalSylvesterSize": 11,
+      "allOriginalQLeadingZeroFibersRetained": true,
+      "projectionSeconds": 0.10187016000000426,
+      "claimExcluded": false,
+      "stage": "new_entire_Delta_zero_fixed_original_Q_resultant_returned",
+      "seconds": 1.1606622470000048
+    },
+    {
+      "name": "original_Delta_all_means_cofactor",
+      "necessaryCurve": {
+        "degrees_lambda_u": [
+          124,
+          17
+        ],
+        "totalDegree": 141,
+        "terms": 2247,
+        "bytes": 146279,
+        "sha256": "9be04b29c603db94642b6f3df66647427601e79714a1a989a80ba066a7e1cb82"
+      },
+      "onlyPaidQFreeRemovals": [
+        {
+          "originalQFreeUnit": "A",
+          "gcdLoops": 7
+        },
+        {
+          "originalQFreeUnit": "B",
+          "gcdLoops": 24
+        },
+        {
+          "originalQFreeUnit": "lambda",
+          "gcdLoops": 4
+        },
+        {
+          "originalQFreeUnit": "u",
+          "gcdLoops": 6
+        },
+        {
+          "originalQFreeUnit": "u_minus_one",
+          "gcdLoops": 17
+        },
+        {
+          "originalQFreeUnit": "S",
+          "gcdLoops": 4
+        }
+      ],
+      "polynomialNotReplacedByMultivariateGcd": true,
+      "wholeOriginalDeltaZeroChartExcluded": false,
+      "stage": "new_entire_Delta_zero_original_projected_necessary_curve",
+      "seconds": 1.340238395
+    },
+    {
+      "name": "original_Delta_all_means_cofactor",
+      "unit": "1/3525227689996258673443209216",
+      "factors": [
+        {
+          "multiplicity": 1,
+          "factor": {
+            "degrees_lambda_u": [
+              116,
+              17
+            ],
+            "totalDegree": 133,
+            "terms": 2103,
+            "bytes": 103301,
+            "sha256": "162d4b654c20eb31ab349d3a437f2e0486566cce9a0e8fc1217be5542b2c57fa"
+          }
+        },
+        {
+          "multiplicity": 2,
+          "factor": {
+            "degrees_lambda_u": [
+              4,
+              0
+            ],
+            "totalDegree": 4,
+            "terms": 5,
+            "bytes": 56,
+            "sha256": "6a793c6a5fe9500b7b4134b194e0a1bcaf696c26a3511036e003bb39d9b1b6e8",
+            "encoding": "base64+zlib+json-lambda-u-coeff",
+            "data": "eNqLjjbQMdBRMlaK1Yk2BLF0DY1AbCMQ28gExDQGC0PYJiC2hVJsLABTNgvr"
+          }
+        }
+      ],
+      "fullQQProductReturned": true,
+      "allFactorsAndAllIntersectionsRetained": true,
+      "noFiniteCandidateOrExclusionClaim": true,
+      "stage": "new_entire_Delta_zero_complete_projected_QQ_factor_cover",
+      "seconds": 1.3509281480000013
+    },
+    {
+      "sharedCurve": {
+        "degrees_lambda_u": [
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 11,
+        "sha256": "106d3a5dc6ba0d1881534666347d39374409a958529f6b2e1731b5b905a39af0",
+        "encoding": "base64+zlib+json-lambda-u-coeff",
+        "data": "eNqLjjbQMdBRMlSKjQUAD9UCng=="
+      },
+      "firstResidual": {
+        "degrees_lambda_u": [
+          28,
+          3
+        ],
+        "totalDegree": 31,
+        "terms": 115,
+        "bytes": 2496,
+        "sha256": "8af7c105334af350ef5047ee49cf27a5aadbfa204a11b64f9b7f7b8a352dd49c",
+        "encoding": "base64+zlib+json-lambda-u-coeff",
+        "data": "eNpdlcmR7DgMRH2pc3WI2AlbfrT/bkwSYEvURJ2EIrHmI/79G9/x/dBFbnPOz+8XBvp+fuianKpt4O/HLncx4zZInXgstJz8EF34Tm8LvFBcShr7CK8jYa9rcCSnhSsbkeceVzo8Xya4CjuT5k7pZZNKiiPtqUUqLZO4eIR4myoxx5lLhCK2VVb+Iw+HuhyKTdhksrZpZZeR8HgehEsOl1dtWjm6sF0hwXXSunFoWuSTpS2vPGS4PR21yhPRQ/JiJpr77ErU1OxCRC2vXl3kGIxYT1rekzWZ4vJE8+WY0HSGkZLbVrmausoRLCpdozQfcniOaisczhHxsq+cJS1FMo9exPLP66CcHZ7V4UHidJQzK291Fgmz1/HVZx05ErkTDevsZ2WPelLczrDZ7RZzjTjEmSuCmIYYRnaYV/psJIw7l/h0bfvq+ZBkJPISdNMUQZFxaIwaKjRcM19UFFzErDkwlP/5WlUEQidKPsqmxg3DlRxQPO0LxZwiK0YlB8C02RuebqshrNYqpyKQ1MCXxSNrKg55qJFiErbHTw3jTJvOq4FPiGKSdE6HNuapDWo2UaBnutMhJ2pEk4bGQIV/b0dTymYGUK6tAmpQ2XOoi8apG2pcPWcq5nL0t5iFG53K8RTS3BKcoRc04nUDYZRdaU4wdEZpglXmZDKgck6rSY6cIFGPlhXLcD4oIdRL1HzbC+ckpGxprzjF9DTIaHGQ4KTMhfXq45wKcW2xU2O9qMYMlx6gpLn/WaWs1wk9f3TScKM8JMOcL2k14eyQFi2U/0ZShPMMvF5rJnd5TXj5Ila05GlkMZ7TF8zz1EpTTipUsXkb6513vDnMUMkdoSCfujSXSz03U5ty+HfKo7Mb8sXTjEc+xTgTT0fR8vjP/f6jhvCk84+1nSAqFQdOz/opyNHjpYFLmhjea1MVBrwitxvu9bmefciM97pqtiHwid/dZW6wA9LDnqQxt5H6NQ8beKC3jYspgRIOtXHzHJidPwPnojkghLUkWkzcKBPe3zH5URM3yGNk7cNdHO8HFW3eTyBvdDEqDHH3mPd6dSyTPIwrV6BCT/3S9bPYU2ehSu6Qak+YN6W0unonrg3OkEnH1QUMnp7nWPOIxZOX6bY0iXFfKwbBE2PXbEM9uWOB2m56lSLL3J9UC+r+rDHYsOc8PJjOfaBx0kv2V9Uzxv1v7S++P1d0aLMnUUT8XS0Kfub9tcb8+f39Dwj1AZs="
+      },
+      "secondResidual": {
+        "degrees_lambda_u": [
+          124,
+          17
+        ],
+        "totalDegree": 141,
+        "terms": 2247,
+        "bytes": 146279,
+        "sha256": "9be04b29c603db94642b6f3df66647427601e79714a1a989a80ba066a7e1cb82"
+      },
+      "exactSetCover": "sharedCurve=0 OR (firstResidual=0 AND secondResidual=0)",
+      "multivariateUnitGcdNOTTreatedAsEmptySet": true,
+      "allZeroDimensionalResidualIntersectionsRetained": true,
+      "stage": "new_Delta_zero_two_necessary_curve_exact_decomposition",
+      "seconds": 1.359720566
+    },
+    {
+      "sourceSHA256": "a0e1efb16ec1939e50befbf4844e6cecb1603e17defcfa1b0fa1ae8fcd0abd0b",
+      "noDeltaInverse": true,
+      "allQLeadingZeroFibersRetained": true,
+      "oldCofactorProofGateNotReplayed": true,
+      "wholeOriginalDeltaZeroExclusionClaim": false,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 75212,
+      "stage": "new_entire_equal_singleton_Delta_zero_two_original_QQ_projections_complete",
+      "seconds": 1.359859096000001
+    }
+  ],
+  "upperDifferentLambdaUBasePoints": 848,
+  "fullQAndGramFibersStillRequireReturn": true,
+  "ordinary_isp_claim": false
+}

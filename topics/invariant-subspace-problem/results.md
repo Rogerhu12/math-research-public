@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 unit211：整个h=k、Delta零的两条原QQ曲线与848不同基点界](results/R150-appendix-unit211-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover.md)：P28/3、M124/17真互素，固定20阶消失阶计数；全部Q/u头零保留，原纤维续返。
+
 - [R150 unit211：Phi主rho头零支原mean/T闭包的C71,29](results/R150-appendix-unit211-Phi-zero-main-head-zero-mean-T-unit-six-C71-29.md)：同一点U6目标与全部六坐标回乘，完整新core保存；主支及新旧曲线关系未宣排空。
 
 - [R150 unit211：全原N1二次头与Phi零真正12生成元环境](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)：f自由时原z²头已付；Phi上保z、T6/z2首一环境，无D/SnZ/范数逆。

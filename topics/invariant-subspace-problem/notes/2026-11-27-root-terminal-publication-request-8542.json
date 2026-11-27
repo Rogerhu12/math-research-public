@@ -1,18 +1,17 @@
 {
-  "message": "ISP: return the Phi main head-zero original mean T ideal to the exact C71 29 curve",
-  "parentCommit": "0ba00731fd332f8d3a603e991497de6627775e66",
+  "message": "ISP: bound the entire equal-singleton Delta zero original base by two exact QQ curves",
+  "parentCommit": "e0128091c8aad4cf8ebd6a6487f9ffe69ffaad63",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-main-head-zero-mean-T-unit-six-C71-29.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-head-zero-mean-T-unit-six-C71-29-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-main-head-zero-C71-29-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-168-exact-unit-boundary-images-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-exceptional-168-original-unit-boundary-images-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-main-C71-29-original-mean-T-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-main-C71-29-original-mean-T-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-zero-exact-lambda-cover-N1-Gauss-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-delta-zero-lambda-cover-n1-gauss-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-entire-equal-singleton-Delta-zero-848-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-entire-equal-singleton-Delta-zero-848-cover-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,6 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-exceptional-168-original-unit-boundary-images-8542.yml"
+    "invariant-subspace-equal-singleton-delta-zero-lambda-cover-n1-gauss-8542.yml"
   ]
 }

@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 0ba00731fd332f8d3a603e991497de6627775e66（2026-11-27 15:35:46 UTC，Actions run46026268603实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46026268603-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 15:35:46 UTC/ce502d18b507dfd0d5513bb23b8e7dc9ca0e835e，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 7b73dd930f2833af633551c01c1459a10379f78f（2026-11-27 15:37:24 UTC，Actions run46026506916实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46026506916-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 15:37:23 UTC/c9a1a720eb5efb53dc11161e7313a676db2ffe7c，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `0ba00731fd332f8d3a603e991497de6627775e66`（2026-11-27 15:35:26 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `e0128091c8aad4cf8ebd6a6487f9ffe69ffaad63`（2026-11-27 15:37:02 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-main-C71-29-original-mean-T-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-entire-equal-singleton-Delta-zero-848-cover-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k整等权/T0零/J=Q/Phi0/Q1−u均闭，付u−ell/T0/(J−Q)/Pf/Phi/(u+Q−1)。** 7bd9以Pf解f、自由z已返五原行及三个全Delta cofactor，度λ/u/Q为62/17/9、80/20/11、61/16/9；5.701秒/90476KiB/exit0，不倒Delta，零面保留。新a0e1在整个Delta0做原相容与均值cofactor的固定Q投影。Delta0 h1/k1≤6219仍保，旧失败/全原来源保归档。
+- **h=k整等权/T0零/J=Q/Phi0/Q1−u均闭。** 7bd9全Delta紧凑五行/三列已返；a0e1整Delta0固定Q相容/全mean投影给P(λ,u)28/3、M124/17，真QQ互素、固定20阶及Vandermonde给≤848不同(λ,u)基点，1.413秒/75212KiB/exit0；Q/Gram仍须返。新cf0做真QQ一元lambda覆盖及独立N1的Gauss，所有头零保留。Delta0 h1/k1≤6219仍保，旧失败/来源保归档。
 - **旧D≠0Phi0∩zn0闭；rho头零主支b441新mean/T闭包/U6给C(v,λ)71/29，43.208秒/89032KiB/exit0；旧87/55不重放，未排空。** 例外(1,1/2)及交换：原PB真首一2033覆盖已付，新4b385混合NB/PB/U6固定60阶与其模Bézout/Gauss给每有序图≤168不同基点，各≤6T；7.471秒/60832KiB/exit0。模因子不当QQ因子，未排空。ed0内存SIGABRT、879两均值SIGALRM均冻，后者只返原两线无均值；全原N1*的z²头−4bc²ellQ(u−1)已付，Phi上T6/z2真自由12环境；新928保z返原四行，不逆D/SnZ。
 
 ### rankH3原ess6
