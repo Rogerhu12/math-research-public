@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原边界光滑核闭包的创建修复与忠实 Calkin 角](results/R271-appendix-boundary-smooth-kernel-creation-repair-and-faithful-calkin-corners.md)：同一G修复完整carry，误差可和，实际K∞投影强*渐近交换及全部角忠实；D(G*)∩K∞⊥精确等于RanT*。K∞=M和投影保物理域仍开。
+
 - [Phi H1 不倒头的全多项式原值与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)：真实15.058230470秒/0，四QQ原cofactor λ度6/6/9/10及三个固定范数的严格QQ上界/真实模度；最高头全消失，804界未缩，全部h0保留。
 
 - [全W原NS/PS固定六行的完整必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：全已付native六规则/18乘法，真实95.890604382秒/0返全部55商积及非零P(e,k)，双度97/123、总164，包含整H265零；全部剩余原纤维继续。

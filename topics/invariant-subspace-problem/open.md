@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-whole-native-weight-curve-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-boundary-smooth-kernel-corners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -212,7 +212,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 $$
 P_{201}(u)=0,\qquad g(u,Q)=0,\qquad \#(u,Q)\le804 .
 $$
-[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)真15.058230470秒/0，返四原尺度/六无h逆矩列及完整F6/NV同点列，QQλ度6/6/9/10；三QQ正规范数上界3596/5764/6092，模1009度3179/5131/5407、共同2773，最高dual全零，未付QQ精确度，不缩804。h范数101整零支、QQ真单位分量和∞局部输入继续；P201系数及原λ/T/z/个别NP、其它Phi仍开，旧b0的316另必要，旧门冻结。
+[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)真15.058230470秒/0，返四原尺度/六无h逆矩列及完整F6/NV同点列，QQλ度6/6/9/10；三QQ正规范数上界3596/5764/6092，模1009度3179/5131/5407、共同2773，最高dual全零，未付QQ精确度，不缩804。新e3cf首次120秒/1GiB处理actual h范数101的QQ单位分解与整h0原纤维，只用两个原构造前缀；∞局部输入继续；P201系数及原λ/T/z/个别NP、其它Phi仍开，旧b0的316另必要，旧门冻结。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -222,7 +222,7 @@ $$
 
 全孔 Schur/companion 与原物理伴随已付，仍须先全物理逆后压缩；逐层创新预算不付真实无限carry的 $\sum\langle F_n\xi_n,\xi_n\rangle$ 可和性，同一R来源并非单异常权塔。一般六权/实际RanK*/同W Green与carry费/N=M继续。Haar、稀疏交织、Ky非零像循环与RanJ零交的已成范围保前节；Cy⊥非零、G保N仍开。
 
-[同一实际右逆的临界伴随域及精确像](results/R271-appendix-same-right-inverse-adjoint-critical-physical-source-and-exact-range.md)：以主指数κ+κ0及(36+κ)√(p+Q)log(p+Q)定义Zκ,Q，已证Zκ,Q⊂D(G*)、G*:Xκ+ρ→Xκ对每个ρ>κ0；同一G不随尺度重选。准确有D(G*)∩N⊥=RanT*及T*E∞=N⊥∩E∞=I∩E∞，这些交的H闭包恰I；W∩D(G*)=0。实际N/Y、同h与全部carry保留；并未证明真实W进入该域，也未返RTcut有界子列，继续能保持N⊥的真正则器或原来源估计。
+[同G临界伴随域](results/R271-appendix-same-right-inverse-adjoint-critical-physical-source-and-exact-range.md)的准确费用保正文。新[原光滑核闭包及边界角](results/R271-appendix-boundary-smooth-kernel-creation-repair-and-faithful-calkin-corners.md)令K∞=closure(M∩E∞)⊂N⊂M：同G修复高位创建的全部carry误差可和，P_K∞与原边界弱零翻转强*渐近交换，C*(UHF,P_K∞)及全部角忠实Calkin。D(G*)∩K∞⊥=RanT*，T*E∞=K∞⊥∩E∞=I∩E∞且闭包恰I；W∩D(G*)=0。P_K∞保E∞、K∞=N/M、真实W源费与RTcut有界子列未付；强*交换不授权无限高位乘积或孔阻尼。
 
 [整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)有完整4阶头=2/3次齐次结式，重数1给泛型gcd一次；a0/r1r0零/无穷/重根及有限例外全保，不能代有限λ/S。自由系数整数身份真2ms，未排W纤维。
 
