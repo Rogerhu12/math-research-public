@@ -379,3 +379,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 23:21 UTC：根逐项审完原Legendre笔记§6(20)–(24)，Wilson倒数、duplication全部阶乘、中央区间/对称短尾与完整Vandermonde零式无省项，规范Manin值不能读目标p饱和的尺度范围明确。完整笔记8706B/hash8691123fd956d8f08baa42f0d8fdd7515cf2cc24639cc2d1403aeab78e6808ad；不把有限重写登记为新无穷非零。geometry改做同一canonical除p低行，central继续actual flat临界primitive，arithmetic继续真实厚核。推前两库实际pull run46075603971/job140782493366：公开23:19:57至de9bc4b1562b88db3c230ba9adc382e118bdba4d、私库23:20:01至b65e32c88c9ae16b16d1da69e7e57341feb0d621，四README/QUEUE相同，日志14893B/hash2b719f6b5abf720c66bf32c199a569c02b724ee896a41102427a33927f681e93，库存3147blob/44,317,010B无超限。v13仍为同一个实际job执行中，尚未取得数学终态。
+
+
+- 2026-11-27 23:36 UTC：根逐段亲核真实flat临界值/导数，Vandermonde差商全尾、实际解析双primitive、原KS(96)/(97)负号、book Prop7.7仅选定CM基的period范围、Bol复合和g1两p；全Cayley逆三角与Mahler尾均保，补Stirling输入精度(24a,b)。新笔记14066B/hash8920d308936181194dd60d3b8404c12d38f54b7d508363942bd305d84161f5d4，严格只就实际bounded source，未恢复旧canonical比较。推前实际两库CI pull run46075603971/job140784716157：公开23:27:25至d0b73cf4f82dece5026735a91fe33f36cd5d8949、私库23:27:29至2735cb0e9eb6ab5eaeff45317b735dc5b6e42bd5，四README/QUEUE不变；日志14887B/hashfb3f6df586921f885e125c642046fefece9452afdcc96786c86d4220bb0c21aa，topic3147blob/44,321,825B无超限。v13同一实际job尚在认证/数学步骤，无新PASS。根继续来源转换，central直接Newton reader，arithmetic厚核，geometry实际四H伙伴/六sigma除p低行。

@@ -43,3 +43,8 @@
 ### 原二挠读者的精确Wilson范围
 
 [原Manin二挠读者§6](2026-11-27-original-manin-two-torsion-legendre-boundary.md)逐项Wilson/duplication把同一$C_n$写成中央二项式段，完整Vandermonde和准确为零且中央段等于负二倍短尾。没有判该段非零；原Manin同态还明确给$q$单位倍截面下的规范值不变，所以此多项式本身不读目标$p\ne q$饱和指数。后继仍须同一17有权评价或真正canonical除$p$来源，不能用基值或半Norm替代。
+
+
+### 真实flat的完整临界reader
+
+[真实flat临界值、斜率与Bol primitive](2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)已从同一有界$Q$系数测度证明全部临界公式：$c_i'(-2)=-(i+1)(i-1)!$，斜率保log项及全Maass修正，差商尾一致收敛；实际解析双primitive与原水平Tate/KS归一给旋转trace配对，horizontal常数被flat严格消去。$g_1$微分/杯积的两$p$均保，选定CM基的$b=2$只对真实$g_1^*F$。完整unflat raised前缀经Cayley/逆三角/Stirling返回原系数，Mahler尾给明确$O(p(H+\log_p(H+1)+1))$前缀长度，另付输入精度$v_p(N!)$。不将形式log在根单位处代零，不恢复旧usual/finite-CM-graph比较，原canonical非零仍开。
