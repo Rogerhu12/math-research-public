@@ -424,3 +424,8 @@
 ### R625：真实节点间h的完整L可行方向与全行仿射求解
 
 [新范围](notes/2026-11-27-r625-actual-interior-height-active-scope.md)和[正交仿射接口](notes/2026-11-27-r625-affine-active-row-euclidean-interface-agent.md)准确保原quintic h的全L三次链；固定L时新实际高度行线性，已知末十增量进g。C.T完整QR给d0与正交N，原Euclidean阻尼化为全目标行AN、b−Ad0且常数λ||d0||²保留。浮点依赖使整个活动factor失败，不删行/截谱；原全部物理/真history门仍须实际支付，有限点h不授连续根或README。
+
+
+### R613：实际517原终态与已付全谱的有限像限制
+
+[原收据](notes/2026-11-27-r613-fine-exchange457-natural-terminal.md)新增2806.649717279秒/60接受/60完整J，fine η2.244167512131557e−7仍未过2e−9，work η反微升；同一fine峰已在951。 [同惩罚谱核对](notes/2026-11-27-r613-paid-spectrum-regularization-release.md)证明正λ滤波代数，原小σ确受λ抑制；同时原QR像内可消merit浮点观察只有1.10574e−13，故单改λ不获消除缺陷保证。完整1130列/全部951工作点与fine保持，后继优先核独立新响应；不授严格最优/无根或宏观结论。
