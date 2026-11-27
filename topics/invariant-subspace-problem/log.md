@@ -617,3 +617,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 新b737746e仅13秒必要输入后精确因式G389/平方自由全覆盖，180秒4GiB；不构造91阶QQ大投影，旧173秒门冻结。
 - 4acc真run45994625232/job140490815067，19.05630689秒/72236KiB/inner1，nmod_poly无is_irreducible；已返F20/F568与好素数，48×35未启动。完整失败receipt入库；6815只修官方fq_default_ctx入口，ff21全F20首次QQ返回，各180秒4GiB。
 - W原D/D²目标的物理单位只限既有D≠0图；一般h=k碰撞仍开、S0不外推。H/open完整快照，三本题workflow更新/新增。
+
+2026-11-27 20:06 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 60c2a406真run45994627867/job140490824492，2.243488579秒/52472KiB/inner0；三固定原模Res度1945/2005/2096、全xgcd908，已付atom仅模剥后308；不由此断言QQ整除/次数或排空。准确note/小receipt入库。
+- 新c3e74aad主27阶原反转矩阵、matching dual与QQ核行P=I+N/N²0，目标∞106阶，120秒1GiB；每项除z/截断乘回，不计算QQ大结式、不重跑模投影。新增本题workflow。
