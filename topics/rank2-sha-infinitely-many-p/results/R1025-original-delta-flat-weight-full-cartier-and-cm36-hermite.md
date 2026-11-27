@@ -561,3 +561,159 @@ R1018 同深度及原第四阶完整曲率；
 R1020 唯一 primitive 与全低窗；
 R1021 原中间函数及两旧权；
 R1022 原 $\delta$ 平坦权、三字和39纤维全精度返回。
+
+## 9. 同一个原曲率在有理 $y$ 线上，以及九阶极的准确有限和
+
+继续取 (3) 的 $H=6q+5$、$r=s-H$，不更换原 $P_{10},G,Z$。
+置
+$$
+\begin{aligned}
+V_-&=x^2(X-8),\qquad V_+=x^2(X+10),\\
+W_r&=2(41+6r)V_-+(77+6r)V_+,\\
+F_H&=(x/y)^H Xy
+=\frac{x^2X^{2q+2}}{(X+1)^{3q+2}} .
+\end{aligned}
+\tag{36}
+$$
+本节的 $W_r$ 是此显示的两个 old 函数之组合，不是 R1022 的平坦权。
+
+直接用 $Dx=2y,Dy=3x^2$ 及
+$H\equiv1/6-r\bmod p$ 得完整恒等
+$$
+\boxed{DF_H=\frac1{18}(x/y)^H W_r.}
+\tag{37}
+$$
+也可由 §6.1 的 fixed-cover exact 式乘 $t^p$ 得到；
+$D(t^p)=0$，所以没有新的导数项。
+由 (30) 和乘积法则，(37) 的真正同点 $P_{10}$ 返回为
+$$
+\boxed{\begin{aligned}
+\mathcal C\bigl(P_{10}(x/y)^H W_r\omega_E\bigr)
+={}&-180\,\mathcal C(GP_{10}F_H\omega_E)\\
+&-180\,\mathcal H Z\,\mathcal C(F_HZ^9\omega_E).
+\end{aligned}}
+\tag{38}
+$$
+这里的全部系数属于 $\mathbf F_p$；
+其它固定扩域常数仍按 §1 的半线性规则取根。
+
+### 9.1 完整原函数只在三个原二挠点有极
+
+因为 $dy=3x^2\omega_E$ 且 $H+1=6q+6$，准确有
+$$
+\boxed{
+F_H\omega_E
+=\frac13 (y^2-1)^{2q+2}y^{-6q-4}\,dy
+=d\mathscr R_H(y),
+}
+\tag{39}
+$$
+其中取完整的有理函数
+$$
+\boxed{
+\mathscr R_H(y)=
+\frac13\sum_{j=0}^{2q+2}
+\frac{(-1)^j\binom{2q+2}{j}}
+     {2j-6q-3}\,
+y^{\,2j-6q-3}.
+}
+\tag{40}
+$$
+这不是只在某一点选的 primitive。
+所有显示分母都是非零奇整数，绝对值至多 $H-2<p$，
+所以在全部目标素数处是单位。
+本篇 $q\ge1$，故所有指数都负；
+$\mathscr R_H$ 在无穷远取零，没有增加自由常数。
+它在每个非零二挠点极阶恰为 $H-2$，
+在 $O$ 阶恰为 $H-8$，没有其它极。
+
+由完整导数 $d(Z^9\mathscr R_H)$ 及 $dZ=\omega_E$，得
+$$
+\boxed{
+\mathcal C(F_HZ^9\omega_E)
+=-9\,\mathcal C(Z^8\mathscr R_H\omega_E).
+}
+\tag{41}
+$$
+这一步保留的是同一个原 $Z$；没有以另一 primitive 替换它。
+
+### 9.2 四槽中的最高极只需一个明确有限和
+
+沿 (32)–(34)，定义
+$$
+\begin{aligned}
+e&=15q+10+3r,\\
+N_H(X)&=X^{2q+5}A_m(X)^9(X+1)^{e+2},\\
+n_j&=[X^{(j+1)p-1}]N_H(X)\quad(0\le j\le3).
+\end{aligned}
+\tag{42}
+$$
+在 (34) 中取 $R=(X+1)^2$，再乘其准确的外部 $t$，
+即得原 $E$ 上的整个返回
+$$
+\boxed{
+\mathcal C(F_HZ^9\omega_E)
+=\frac{x^2}{y^9}\sum_{j=0}^3n_jX^j\,\omega_E
+=\frac1{3y^9}\sum_{j=0}^3n_j(y^2-1)^j\,dy .
+}
+\tag{43}
+$$
+因此它本身也降到有理 $y$ 线上；不是仅有一个局部主部公式。
+所有四槽仍是 (42) 的实际值。
+
+令 $n=3q+1$，并置
+$$
+\boxed{
+S_H=
+\sum_{j=0}^{2q+2}
+\frac{(-1)^j\binom{2q+2}{j}}
+     {2j-6q-3}\,
+\frac{(2/3)_{\,n-j}}{(n-j)!}
+\quad\in\mathbf F_p .
+}
+\tag{44}
+$$
+这里 $n-j$ 的范围为 $q-1,\ldots,3q+1$，均非负且小于 $p$。
+全部分母已付为单位；$S_H$ 是一个确定有限和，没有新增自由参数。
+
+在 $Q=(\epsilon,0)$、$\epsilon^3=-1$，原分支
+$x=\epsilon(1-y^2)^{1/3}$ 和 (40) 给
+$$
+\operatorname{Res}_{Q}(\mathscr R_H\omega_E)
+=\frac{\epsilon^{-2}}9 S_H .
+\tag{45}
+$$
+原 R887(5) 的准确式为
+$Z=\epsilon\rho_p y^{-p}+\text{正则奇函数}$。
+因为 $\mathscr R_H\omega_E$ 在该点极阶 $H-2<p$，
+(41) 的九阶极只能来自 $Z^8$ 的完整最高项；
+含至多七个 $y^{-p}$ 因子的其它项极阶严格小于 $8p+1$。
+Cartier 的半线性给这个九阶系数
+$$
+-9\left((\epsilon\rho_p)^8
+           \frac{\epsilon^{-2}}9S_H\right)^{1/p}
+=-\rho_p^8 S_H .
+\tag{46}
+$$
+最后一步使用 $\epsilon^6=1$、
+$\rho_p,S_H\in\mathbf F_p$；
+没有漏掉扩域系数的 Frobenius 逆。
+
+与整个式 (43) 的 $y^{-9}dy$ 系数比较，得到准确的四槽约束
+$$
+\boxed{
+\sum_{j=0}^3(-1)^j n_j=-3\rho_p^8S_H.
+}
+\tag{47}
+$$
+因 $\rho_p$ 为单位，若 (44) 非零，则原完整曲率返回
+在每个二挠点都确有九阶极。
+本节尚未证明 (44) 对所有目标素数非零；
+也不从该条件性的最高极判定推出 canonical 中央非零。
+
+本节把 (38) 中原曲率部分压成完整有理 primitive、
+同一四槽及一个明确的最高极有限和。
+(38) 的 $GP_{10}F_H$ 和全部三字／十三字外权仍在。
+若将本节用于原 R1020 reader，仍须在完整外部平移之后保留其
+实际测试点、原 $P_{10}$、原点留数与全部低窗；
+本节没有给任何平移、导数或乘积新增算术零。

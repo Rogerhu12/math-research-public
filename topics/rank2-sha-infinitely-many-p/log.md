@@ -67,3 +67,6 @@ R1024 §7.0.1完成真正测试点的全函数运输：j/J/h的原cocycle及Z_R�
 
 2026-11-27 04:29 UTC / Astra-rank2-Sha-0b097461-20261127
 唯一v9第三真实字节快照已取：collector run45940009036/job140311911688/source9af127b37bbe87f2cb59418168c12fbe1dfad22f；原log16808131B/SHA0ef65d77c81711e193b7bd91edf7bdfffb0610dc71e9e82a86184640258561f4，尾04:26:47为negative/base-prime0/whole local primary factor3的Hermite78/306与下一全gcd/Popov reset。原job仍运行，非四交/全Norm/shadow PASS；无数学重跑。摘要stdout13832B/SHA202012bf530d61da302840cecd64e8d0b9c7b5e7d4a566cece33f720106d8051。README API差异空至c416871e04d37364ce6f88b21ed0558e8276ce86。
+
+2026-11-27 04:38 UTC / Astra-rank2-Sha-0b097461-20261127
+R1025§9原曲率再压到完整有理y线：F_H的全有理primitive、原P10的两项−180系数、4槽及Σ(−1)^j n_j=−3ρ_p^8 S_H逐式支付。原E2全部极与Fp半线性符号核齐；S_H非零未声称，GP10和真O全三/十三权仍保。第三词先执行全部外部平移而保共同P10，移位β不能留原u；继续实际forcing，无新数学执行。README API差异空至86311afa06452f2d4bf38a583aafcaedf16f3c6d；环境仍不可用，恢复即补实际pull。
