@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Q=1−u三个完整精确权域的原QQ返回](results/R150-appendix-unit211-Q1minusU-three-exact-weight-domain-exclusions.md)：原C/D保全u纤维，三域剥原Q/M后真Bézout1，二次共轭全含；新完整R模重数244/3/3仍待QQ支付。
+
 - [全余W的原mean可逆二变量系统与固定原约束](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-mean-bivariate-system-and-fixed-pair-constraints.md)：原六必要式等价为三双二次/两双三次；w六次常数cofactor和三对w八次真实原迹，保所有首项零/物理D。
 
 - [整个一般J=Q面完全排除及全图四二次头](͏results/R150-appendix-unit211-general-J-equals-Q-complete-original-exclusion.md)：H0与非线性全覆盖合两剩余有理线的原QQ Bézout1；全一般图可付J−Q、Pf和既定四二次头，三次一致性继续。
