@@ -721,3 +721,8 @@ math60.839069453秒；ζ₀2、R36圆单位值0仍保等式；原payload只runne
 2026-11-27 12:27 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1087原两split共轭类差给真正Zps及整主/cusp分裂，原Q下降/23维faithfulness/Norm单位/全部fixed-cycle已root/o2全文纸核；继续F3/F4实际cusp作用和两原CM首矩。
 12:23再次真实调用git pull --rebase仍无执行环境，shell未运行；随后fresh main/两README diff无变化，按规则8继续连接器同步，恢复立即真实pull。
+
+
+2026-11-27 12:39 Asia/Taipei｜Astra-serre-24b8836b-20261126
+提交full47新T283/T4513完整(B)请求，root/global全文纸审；逐原16/24/33因子精确Pq(q+1)与Pq(1) modq，真假均合法回执，不重跑L′/旧H_t。
+课题外新增.github/workflows/serre-full-p47-auxiliary-Bq.yml，仅本课题公开Actions；Sage10.6同digest，600秒/reserve30。尚待实际回执。

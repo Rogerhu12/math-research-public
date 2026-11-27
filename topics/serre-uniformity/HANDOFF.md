@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：98b7823a03cd3cd97f4078e9454bd4acce16d6e2**（2026-11-27 12:27 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：41f79352b3f3fd31530a1df3516f00bd2587c81b**（2026-11-27 12:39 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；12:23再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -20,7 +20,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原47全部23个R_C，CM/23cusps完整fixed-cycle与迹、association composition已付；13R0+4R2迹零，[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)认证角代数rank23、TrZ²=336288；283无一维块，4513有16个真实Zℓ块及原Hodge/Lie自由rank1。run45936209617/job140299891342源48868923，仍缺MW/高度首项。
 
-[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296，原full47精确Fricke+因子16/24/33、全部73嵌入L′严格正，无条件rankJ=dimJ=ρ_Q=73。整MW/高度及盘内唯一仍开；pins/hash保结果，不重算。
+[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296，原full47精确Fricke+因子16/24/33、全部73嵌入L′严格正，无条件rankJ=dimJ=ρ_Q=73。新T283/T4513的(B)整点数请求已提交；整MW/高度及盘内唯一仍开，旧L′不重算。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：run45928658257/job140275928914，原235盘仅8Q-CM盘存活；283完整279标签/Burnside证全点注入。原47²（特殊4/3阶）及283同一点；整个Cp tube原Cartan支撑避让/raw坏47高度零、R43同盘QC坏项相同已付。盘内唯一仍开；全部pins/hash保原文。
 
