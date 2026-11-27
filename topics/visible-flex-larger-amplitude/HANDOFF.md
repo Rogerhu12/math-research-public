@@ -5,7 +5,7 @@
 
 ## 规则、同步、环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `a18da98f958765da50da7f070e4591656f4dee7a`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–16通常每5分钟真pull，实际提交在末块。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `39d9a0a4be418ffdac667292589ec7f4c647bd04`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–16通常每5分钟真pull，实际提交在末块。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，无终端云freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊防重置。
 
@@ -17,7 +17,7 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端�
 
 ## 真实运行与当前动作
 
-**12**：46011377225/1、job140547455454、headed9fbfec。[真输入](notes/2026-11-27-run12-actual-fixed-fejer-input-and-reference.md)全11件/固定M160/J923/N2048/P7377保；e640≠d492、2218accuracy=false保。477499/274d原110源/全部参数预算、1333370量/32normal不变；science/pure/fullmean94986B待返。16:40:21点89eeb1仅进度，完整场/accepted/final/typed/费未返。
+**12**：46011377225/1、job140547455454、headed9fbfec。[真输入](notes/2026-11-27-run12-actual-fixed-fejer-input-and-reference.md)全11件/固定M160/J923/N2048/P7377保；e640≠d492、2218accuracy=false保。477499/274d原110源/全部参数预算、1333370量/32normal不变；science/pure/fullmean94986B待返。16:40点89eeb1仅进度，完整科学与费未返。
 
 **13**：46028002241/1、job140604269042。[全原失败](notes/2026-11-27-run13-actual-normal-constructor-source-guard.md)：reference0、science3/pure4各1、reader5/6均0。56c8[唯一schema实参修复](notes/2026-11-27-actual13-N4096-base-schema-guard-repair.md)保128原源/三全模式，2cc/8d76/015f；原88565B科学对157/7、396/380/48复用真reference到fresh目录，旧对象全保。[真实进入法向](notes/2026-11-27-N13-repair-actual-normal-entry-and-M14-progress.md)16:54:20、source e8cd0e/PID5232、point7e06/1321角缓存，先前构造处已通过；仅原1–6返，无新完整场/accepted。[修后准确费](notes/2026-11-27-N13-base-bound-complete-accurate-fee-successor.md)全12件380288B已刊；原科学对保并接全normal40argv/36读数，queue93485B。geometry全8/48已刊，组合98702B待真返腾位，不削项。
 
@@ -25,13 +25,13 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端�
 
 **15**：46031953783/1、job140617715235、head882086，16:14:50Z启动。[全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)、[两真返输入](notes/2026-11-27-public-actions-46031953783-1-part-001.md)：两输入真0、reference520.117180844s/全11输出；report8f4e5153/history独立、2218accuracy=false保。只退这两活对象（全原6692B固定882086），接f9d79原J science/pure90478B、159/7argv、407/386/48。参考J923不变/current1845/2666582变量；J同一schema guard三体全符。仍无新场。
 
-**16**：[全启动/两真输入](notes/2026-11-27-run16-complete-own-point-mathematical-research-launch.md)46037017666/1、job140634874993、head897194。maker0/6.174044017s、reference0/520.474922594s、source518f48；11输出齐，本次report ff41237c/history独立、2218accuracy=false保。只退两真返对象（完整6692B固定897194），已接原全157/7 science/pure92522B、408/395正式、live18+30且原48正式全保。同g/M160/J923/N2048/1333370量/32stage/原预算，尚无科学场。
+**16**：[全启动/两真输入](notes/2026-11-27-run16-complete-own-point-mathematical-research-launch.md)46037017666/1、job140634874993、head897194。maker0/6.174044017s、reference0/520.474922594s、source518f48；11输出齐，本次report ff41237c/history独立、2218accuracy=false保。只退两真返对象（完整6692B固定897194），已接原全157/7 science/pure92522B、408/395正式、live18+30且原48正式全保。同g/全部量/32stage/原预算，尚无科学场。[准确费](notes/2026-11-27-stage-observed-fixed-fejer-complete-accurate-fees.md)全11件334123B已刊，normal38/36与geometry8/48全保；加入normal为97374B、两费102667B超95KB，待真科学返后退休其全对象再接，不削项。
 
 ## 完整来源与分工
 
 lower/upper、N/M/J、mean/profile、六jet、closed、R716、mesh/t的全源/全参数/失败与未知完整保上引a18da、ae8d和逐项notes，不以摘要替证据。M e207仅metadata，N/M128与J131角色/原110保。
 [stage](notes/2026-11-27-fixed-fejer-complete-stage-point-owner-entry.md)020bcc全16件1035739B、119角色，scope入/出全words/SHA保，原20121B科学后缀原字；每矩阵owner及全guards仍核，实测加速未知。[观测](notes/2026-11-27-fixed-fejer-actual-mathematical-progress-entry.md)a18da全11件531481B、120角色/driver8dc9/pure c9ce；只读原返回值各自point/state，原48完整映射/文件及全部参数预算保，无新F/J/root。
-N准确费12件已刊/normal已排、旧M已排费不变；geometry监控13/14并续闭面证明，solver监控12/15/16，construction续ret47；root独占refs/队列。[ret46](notes/2026-11-27-retention46-eleven-complete-legacy-results.md)已退11旧raw，毛2800118B/完整三件201942B/净2598176B；189源输入/全argv/10资源/18frame/25+25块保，固定ad53b75恢复；4未知wholeSHA null、localV命令明标source-derived，ports/Nelder不退。
+N准确费12件已刊/normal已排、旧M已排费不变；geometry监控13/14并续闭面证明，solver监控12/15/16，construction续ret47；root独占refs/队列。[ret46](notes/2026-11-27-retention46-eleven-complete-legacy-results.md)净退2598176B，189源输入/全部参数/原结论/固定ad53b75恢复保，未知不补；ports/Nelder不退。
 
 ## 未付责任与旧记录
 
