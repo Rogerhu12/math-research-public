@@ -101,3 +101,7 @@
 ### 2026-11-27 17:23 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 提交首4个原α新请求（0/141×ZA/ZB）：原角closed支撑/八ratio一阶、L≤5有限Miller、初始主函数和signed终点完整，旧N/graded/切向只按hash消费。
 - 新增课题外workflow serre-full-p47-finite-third-kind.yml，4核、18000秒/reserve120、flint隔离。原cusp0与836jet常数列已核接；其余12例续新case，q² CM坐标及全p两障碍继续。
+
+### 2026-11-27 17:29 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1108给原q² CM首log的完整residue-trace公式；补末端E_N仅线性等价时的强制AddFlip，固定étale D0后真符号为Tr/(εN)，保23、实际Hodge与全部共轭。
+- 原Reynolds/ζ/torsion Hensel/836jet/unit-pivot提升已证，四条实际CM Hecke关系把八列归约四基本类；本条纯证明，无新数值执行。Miller首4例运行中，继续q²实现与一般p障碍。

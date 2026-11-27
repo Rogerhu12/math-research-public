@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- **R1108（读取公式与整算法已证明）**：[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²源、末端强制归一和有限étale residue-trace精确读首log；保signed N与原23尺度。八CM列由四基本类及实际T2/T3关系给出；公式已证，q²新值待执行。
+
 - **R1106（已证明，精确计算）**：[R1106](results/R1106-certified-original-all73-angle-actions-and-two-generators.md)：run45969880122/job140407429635，66.005秒；CM76全73循环det1693，原23角实际坐标/全组合律/trace齐备。ZA=13R0+4R2、ZB=2R4−7R0在全部28块无共同零，生成整T；不代QC行秩。
 
 - **R1105（已证明，精确计算）**：[R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。全角/α/CM坐标继续。

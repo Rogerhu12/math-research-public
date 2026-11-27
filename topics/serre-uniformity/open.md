@@ -40,6 +40,8 @@
 
 [有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读新α，余12例随后续；q² CM坐标并行。
 
+[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²源、末端强制归一和有限étale residue-trace精确读首log；保signed N与原23尺度。八CM列由四基本类及实际T2/T3关系给出；公式已证，q²新值待执行。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)付两种CM的原Ψ=Z_<p^p+δT modT^(p²)，含原微分/CM角色/短ζ分母/负p极代换。原G单位现可作Ψ指定高系数，但不是短η_k/ν_k；真实三平移和Gaussian近p²下位卷积仍开。

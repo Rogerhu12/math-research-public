@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：bff0683beaf873f0c810a89828d74ae48688b306**（2026-11-27 17:23 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：dbbc6e0f9884b07f41273a2fc41b362424051209**（2026-11-27 17:29 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；16:40再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -48,6 +48,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读新α，余12例随后续；q² CM坐标并行。
 
+[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²源、末端强制归一和有限étale residue-trace精确读首log；保signed N与原23尺度。八CM列由四基本类及实际T2/T3关系给出；公式已证，q²新值待执行。
+
 ## O1：原同一保留标签
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原j0/1728真实T下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、slope+1、首负p极及最后加性carry全付；不代短η/ν；Gaussian后继见R1082/84。
@@ -78,5 +80,5 @@ R1041/48原r2 bare为核范数，实际AS原函数和p-block给端点平方；�
 
 R1007/08原高度格三挠Picard/ℓ²及野3障碍仍保；R696/832只为指定Ω，R948只为两有限Abel零集。R805–930与R907四artifact真404保逐字前态，不重造。R707主41非47，R1004仅导子下界；Jaswal121未公认主结论不用。
 
-原λ始终为−6(b+1)/r（R1045.5）。当前并行：两行实际MW后M1与原盘点数界已成，继续最低w单位/正赋值深盘零点。原最高K_Q、R1041核范数、R1043端点及同h筛选各有独立读数，不能混同；O0完整全局覆盖仍未关。子问题完成即接open其余项，真正达README完成标准才收尾。
+原λ=−6(b+1)/r（R1045.5）；两行MW后M1已成，最低w单位/正赋值深盘仍开。各原角色、尺度和O0–O6边界保open及归档；子问题完即续其余项，真正达README标准才收尾。
 
