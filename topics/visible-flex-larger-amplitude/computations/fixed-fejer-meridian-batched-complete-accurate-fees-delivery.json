@@ -1,0 +1,1229 @@
+{
+  "schema": "complete-fixed-fejer-meridian-batched-normal-and-continuous-geometry-fees-delivery-v1",
+  "date": "2026-11-27",
+  "status": "complete source and parameter preparation; no actual fee execution or numerical field inferred",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "current_public_execution": {
+    "run_id": "46062343475",
+    "run_attempt": 1,
+    "scientific_report_sha256": null,
+    "full_point_sha256": null,
+    "normal_model_identity_sha256": null,
+    "immutable_snapshot_identity_sha256": null,
+    "accurate_normal_report_sha256": null,
+    "accurate_geometry_report_sha256": null,
+    "actual_start_observation": {
+      "source": "Parent root's actual public launch observation delivered during packaging; no scientific or fee result inferred",
+      "job_id": "140719355272",
+      "started_at_utc": "2026-11-27T20:15:09Z",
+      "launch_head_commit": "1b76cb746b3b6cd5d9b9c5b9d20fc83a0e3e838c",
+      "complete_current_source_package_publication_commit": "6bb07451de8b7476a36c799c4fced3a642aa8bde",
+      "future_input_report_point_packet_and_fee_identities_remain_null": true,
+      "existing_ready_files_future_fields_not_rewritten": true
+    }
+  },
+  "parent_fee_delivery": {
+    "bytes": 23822,
+    "sha256": "6990d534425ba2db3116fa77f42f0ade241414502c619a86fbcf42d044f09067",
+    "git_blob_sha": "6c7df82353fd9bb6b92af6ace319e17342b06d94",
+    "name": "fixed-fejer-stage-observed-complete-accurate-fees-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-stage-observed-complete-accurate-fees-delivery.json"
+  },
+  "historical_parameter_provenance": {
+    "run_id": "46037017666",
+    "run_attempt": 1,
+    "current_run_or_current_inputs_claimed": false,
+    "complete_parent_scientific_source_family": {
+      "bytes": 41188,
+      "sha256": "1231359df08d58853b32b03c62ef841127eb9c3f571fc12603b7698c12410544",
+      "git_blob_sha": "da1192313958df70ba3b95d5e302b34fe4a2cfc2",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-mathematical-progress-complete-delivery.json"
+    },
+    "complete_mathematical_stage_parent": {
+      "bytes": 74078,
+      "sha256": "f0497fee9a867ea1b6aee90f7d15ccd86415e7bcd3aee64e597e18afc7424d04",
+      "git_blob_sha": "7392fb1e01864e2f13bfc7d4ebae04465db229fa",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-stage-point-complete-delivery.json"
+    }
+  },
+  "current_scientific_source_family": {
+    "definition": "The complete new scientific driver SOURCE_PINS and the exact new pure reader; no numerical return is inferred",
+    "driver": {
+      "name": "fullclosed_fixed_fejer_meridian_batched_so3_qp.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py",
+      "bytes": 99313,
+      "sha256": "41b4d09d70322c90a1eb27f66210fda92ac3466fd1ad5abb25d897a740f768c2",
+      "git_blob_sha": "df1023d71441a01e0dd1e343cb1431aa7553023e"
+    },
+    "reader": {
+      "name": "read_fixed_fejer_meridian_batched_so3_report.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_so3_report.py",
+      "bytes": 99382,
+      "sha256": "d3f1b33c0b298f5000c5973281507557212299324ce246ce73ca1551822d0c52",
+      "git_blob_sha": "66c92a656aff5df0013b9c7bf69c08e71aab87c3"
+    },
+    "normal": {
+      "name": "fixed_fejer_detached_meridian_normal_lift.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+      "bytes": 96276,
+      "sha256": "388c756a81d76c92ef146838a081cfee298e43ba44fee8d936f88341ebdf3ed4",
+      "git_blob_sha": "8a22b31dcc36d3160d4c968f9645600961a22abc"
+    },
+    "packets": {
+      "name": "fixed_fejer_meridian_root_packets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_root_packets.py",
+      "bytes": 73723,
+      "sha256": "910f131c9f7024cdd7866f913f3211247327098bdae2735442619f397d3a9e15",
+      "git_blob_sha": "e347b156b0b4bec87871fc07809a40a3bbda4ddd"
+    },
+    "detached_meridian_values": {
+      "name": "fixed_fejer_detached_meridian_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py",
+      "bytes": 41030,
+      "sha256": "7aa760baa30a46484d90bc5e327849ab5229cca708e6ba4289b12da253a5facd",
+      "git_blob_sha": "6ab29473b0d549539de69a064efb19af4227a867"
+    },
+    "field_binding": {
+      "name": "fixed_fejer_meridian_source_binding.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_source_binding.py",
+      "bytes": 41894,
+      "sha256": "15cd8e201db8aeef7139baf0e82d9d18fcf190194cd33dc8b112bebe05a7dffc",
+      "git_blob_sha": "54d58893654598e94687a448e2beccc776e1cfb4"
+    },
+    "geometry": {
+      "name": "so3_fixed_fejer_batched_missing_angle_geometry.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_fixed_fejer_batched_missing_angle_geometry.py",
+      "bytes": 88163,
+      "sha256": "51b7a056baa6f81cac5d5acd5278d4258365f45bf5c98dd868cc520ecef7b898",
+      "git_blob_sha": "e66b17a5384ec29e11415d4eb6a6549594277436"
+    },
+    "lower_source_locks": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-detached-meridian-value-lower-source-locks.json",
+      "bytes": 18987,
+      "sha256": "969a1e676eab85c7497072d6a92f34dc037230da7aebf6227b0f343eded6aba3",
+      "git_blob_sha": "4903cf3479cd6be661ec1b2734d8a52be0b4b308"
+    },
+    "complete_source_role_count": 137,
+    "original_120_source_identities_remain_as_actual_parent_roles": true
+  },
+  "scientific_report_schema": "complete-fixed-fejer-meridian-batched-observed-material-envelope-SO3-QP-v1",
+  "pure_reader_schema": "actual-fixed-fejer-meridian-batched-observed-envelope-SO3-readout-v1",
+  "complete_runtime_role_count": 137,
+  "complete_current_scientific_roles": {
+    "root_packets": [
+      "scripts/resume_20261126/fixed_fejer_meridian_root_packets.py",
+      "910f131c9f7024cdd7866f913f3211247327098bdae2735442619f397d3a9e15"
+    ],
+    "analytic_parent_stage_matrices": [
+      "scripts/resume_20261126/detached_normal_stage_matrix_reuse.py",
+      "375059dc973633a1639ceddd3105fc34fe8b37eec4c9e61a55ce3959a0b9fc59"
+    ],
+    "analytic_parent_adjacent_matrices": [
+      "scripts/resume_20261126/adjacent_normal_frame_matrices.py",
+      "955dafdc865e34695489f4e8832ecb8a6d48e056f801ba119fd92e9097ad69b3"
+    ],
+    "analytic_parent_driver": [
+      "scripts/resume_20261126/fullclosed_reference_centred_independent_chart_material_envelope_so3_qp.py",
+      "95559b0cd44e3bf521b01ca8fe35b515bf7aad5dc4dc6b008ab0d015b9211da9"
+    ],
+    "analytic_parent_reader": [
+      "scripts/resume_20261126/read_reference_centred_independent_chart_material_envelope_so3_report.py",
+      "f382bedb07fdf43e3fd94ac411c4a072519494dd2a16ec19ab627492d9606470"
+    ],
+    "analytic_J3": [
+      "scripts/resume_20261126/fixed_fejer_meridian_analytic_stage_jacobian.py",
+      "223afb992e0e9904c30ab20387a92569dc2979dbfde84f75f04e3402b9c5e811"
+    ],
+    "analytic_J3_binding": [
+      "scripts/resume_20261126/fixed_fejer_meridian_source_binding.py",
+      "15cd8e201db8aeef7139baf0e82d9d18fcf190194cd33dc8b112bebe05a7dffc"
+    ],
+    "analytic_parent_frame_C1": [
+      "scripts/resume_20261126/normal_frame_c1_reuse.py",
+      "ba3d68f8560b99020f1596c4384e9fefc0115afeb987cae37627d24eba308dc9"
+    ],
+    "seed_reference": [
+      "scripts/resume_20261126/fixed_fejer_supported_meridian_reference.py",
+      "ad52a217269c2a30ce9886acb45492e0e825d3a2654f9ed045dc430951d1e15a"
+    ],
+    "seed_mean": [
+      "scripts/resume_20261126/supported_smooth_triangle_seed_mean_jets.py",
+      "f8487dfe917e76dae12e3ba5667f66423ada305c077160d606d6f6aea6dc3917"
+    ],
+    "reference": [
+      "scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb"
+    ],
+    "warm_producer": [
+      "notes/2026-11-17-parallel-model-fullclosed-hold-warm.py",
+      "bee5ae587bd519189b0b27c249987d80d82ab66822cd4f1ea4746a769f7fb3c3"
+    ],
+    "observed": [
+      "scripts/resume_20261120/gauss_observed_closed_gram.py",
+      "26f61a83505938d409ad97fdfd2b3a96d77dd0233810980aa8cd19faa9920d0d"
+    ],
+    "deep_scalar": [
+      "scripts/resume_20261126/deep_valley_tail_input.py",
+      "e091f67566ef6a380758a3aac5d79d9b41e4bffcc9a9860e66eaaa9b314257c2"
+    ],
+    "scalar": [
+      "notes/2026-11-17-parallel-model-full-hold-oracle.py",
+      "a1ed8fa5d2186f400ea50a1d609574ec6996e59317a57638a6820a59cf0e7670"
+    ],
+    "integer": [
+      "notes/2026-11-17-parallel-inward-integral-enclosure.py",
+      "babd589d07c91d8067f9ef2011ae53712aaf6dbdbe22bed25c29116771b237a0"
+    ],
+    "hold": [
+      "scripts/parallel_20261117_negative_hold_profile_ivp.py",
+      "ed6ea7d6590775767be9944d9aa305e93e8f054297648757b70e5aef962295a1"
+    ],
+    "meridian": [
+      "scripts/resume_20261126/fixed_fejer_supported_so3_meridian_operator.py",
+      "552f75dd138b81217f88155dab61446416a54510d3d947cc2bb1b3fde5b800b3"
+    ],
+    "geometry": [
+      "scripts/resume_20261126/so3_fixed_fejer_batched_missing_angle_geometry.py",
+      "51b7a056baa6f81cac5d5acd5278d4258365f45bf5c98dd868cc520ecef7b898"
+    ],
+    "qp": [
+      "scripts/resume_20261120/fullspace_feasible_active_cg_v3.py",
+      "fb4ec6b81bcabfd1760178f3cad5f5eea7f7b0708c4c5cf11147ca0d52cc4bb4"
+    ],
+    "spectral": [
+      "scripts/resume_20261120/positive_spectral_gram_weights.py",
+      "e83742c6f4237eca9d1593199209725d5f898e333f963d88873d5aaf79b0db91"
+    ],
+    "hessian": [
+      "scripts/resume_20261120/positive_spectral_gram_hessian.py",
+      "29e2cf8cf7e558168bec6cc90df662638d69da188770c17862a511352a0fb8b4"
+    ],
+    "centered": [
+      "scripts/resume_20261126/centered_spectral_statistics.py",
+      "5e5798e3fd46535ef91db5171c885701caf23f3a17a47f28d4dad9e557ce2a01"
+    ],
+    "history": [
+      "scripts/resume_20261120/launch_refinement_from_full_report.py",
+      "4d9dd319052d4e503e881c1a9f404501c0bb2f26dfb859cd836210f2a624bf60"
+    ],
+    "pure_geometry": [
+      "scripts/resume_20261120_curvature_qp.py",
+      "a2a5d27edddc6fc20f88fde62677d904bb52db5fa9af37ca82d95272cb21a854"
+    ],
+    "geometry_selector": [
+      "scripts/resume_20261120/fullclosed_point_inequalities_v2.py",
+      "e783c8a3929a7a31946e8f9ceba86e504a1c4f2139c62c0e7d5eb0c21417abb8"
+    ],
+    "endpoint": [
+      "scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+      "388c756a81d76c92ef146838a081cfee298e43ba44fee8d936f88341ebdf3ed4"
+    ],
+    "axisymmetric_seed_driver": [
+      "scripts/resume_20261126/fullclosed_axisymmetric_so3_qp.py",
+      "606e00485be3625378916cfa66f6da1803b82005ba14959610bb1a4be7cfb1f9"
+    ],
+    "frozen_moment_input": [
+      "scripts/resume_20261126/frozen_zero_moment_input.py",
+      "4dc3e1a8ba8f128e1d05176f4d0f4b18c62d278fed603cc46f7ed686f6e4e611"
+    ],
+    "moment_trace_source": [
+      "scripts/resume_20261126/trace_zero_initial_endpoint_failure.py",
+      "73193414b094c05c9d8ce1dd033aab6a18446a88a5d7c4a6f352fcbcd966fb54"
+    ],
+    "moment_initial_binding": [
+      "scripts/resume_20261126/diagnose_zero_initial_chord.py",
+      "65787b3e51f80505f5619c35fb05f8ad064e88de111578ff53e8bdad442092c0"
+    ],
+    "moment_original_endpoint": [
+      "scripts/resume_20261126/so3_zero_closure_endpoint_operator.py",
+      "5b4c3921a0f56a9ac3acc12c03e788b3b648b15817b2e89e155a18feb2b24c46"
+    ],
+    "moment_original_driver": [
+      "scripts/resume_20261126/fullclosed_zero_closure_so3_qp.py",
+      "b4d71ade8082d99dfef6eefc0e26aed83eeda507aa2e9656864bf2c596977d4b"
+    ],
+    "new_moment_input": [
+      "scripts/resume_20261126/fixed_fejer_literal_zero_moment_input.py",
+      "ca4fef4066bfb6d6fedbdf9b65349f7f0ba8480376858c84faa8ee3d4d4b97b3"
+    ],
+    "reference_calibration": [
+      "scripts/resume_20261126/fixed_fejer_meridian_reference_calibration.py",
+      "aa40b224da667b5e01b207a431f771e2bf11177fabaebb075ca6218bbb130de3"
+    ],
+    "frame_C1": [
+      "scripts/resume_20261126/fixed_fejer_meridian_normal_frame_c1.py",
+      "c97749c8fae14981a1f86e45845d152134a62039d88b7cfaccfb69fb0665e246"
+    ],
+    "envelope_memory": [
+      "scripts/resume_20261126/complete_material_envelope_memory.py",
+      "c79c7f7ec1febf0ab6dca30d28a91b1566745972342c7336a3a9a106f56b3152"
+    ],
+    "envelope_rows": [
+      "scripts/resume_20261126/complete_material_envelope_rows.py",
+      "729910dc27b0dc4fb5b1b019635f8dc606dcb2965fcbd3c47dc380b7a028c8d7"
+    ],
+    "stage_matrices": [
+      "scripts/resume_20261126/fixed_fejer_meridian_stage_matrices.py",
+      "f98bf270265f9d41c9c297dd23c2db7da9ea91a039663c1785966e9135795791"
+    ],
+    "envelope_transfer": [
+      "scripts/resume_20261126/fixed_fejer_meridian_memory_transfer.py",
+      "ae9e5b316e785bf85a223cb210ca812551bf615f0f56b8861f817877b9208021"
+    ],
+    "envelope_parent_reader": [
+      "scripts/resume_20261126/read_reference_centred_c1_material_envelope_so3_report.py",
+      "104e014062f29969c0c94884bf810b6f9b23999ad8cc902238f981a9b0ad35f7"
+    ],
+    "envelope_parent_driver": [
+      "scripts/resume_20261126/fullclosed_reference_centred_c1_material_envelope_so3_qp.py",
+      "cc0a07369a2d9ea5e22d261441420acb4e486a8c0d43f29f57e03378e82627b5"
+    ],
+    "envelope_parent_endpoint": [
+      "scripts/resume_20261126/so3_reference_centred_c1_smooth_triangle_normal_lift_operator.py",
+      "a62c24570eef2ef253c0960c387bac8d68452ef4a277e41ae77ec8adc6faebfd"
+    ],
+    "envelope_parent_calibration": [
+      "scripts/resume_20261126/reference_centred_c1_smooth_triangle_calibration.py",
+      "3e478bbeacbe236947070f9422ab6c75852f460f41536c68ebb3995ff0a2a991"
+    ],
+    "envelope_parent_geometry": [
+      "scripts/resume_20261126/so3_reference_centred_c1_material_envelope_geometry.py",
+      "bd1a2d439e2d83326dc59aa8dd9cdb28dccdbc453ab6f980f281475d44e0471f"
+    ],
+    "adjacent_matrices": [
+      "scripts/resume_20261126/fixed_fejer_meridian_adjacent_matrices.py",
+      "bd65734da69f3e5bc560ec81df03f8555593257560455b56adfa353e025c4564"
+    ],
+    "independent_envelope_memory": [
+      "scripts/resume_20261126/complete_fixed_fejer_material_envelope_memory.py",
+      "9f268e066274eff19ee2635124a8addf9c92eabf6d7177249f4ac4782c88a39a"
+    ],
+    "independent_input_projection_producer": [
+      "scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb"
+    ],
+    "analytic_frame": [
+      "scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py",
+      "ab282ea02ce774b6f2aa044c700389369d05d1ff6105cdc9a0dbdae33a4db544"
+    ],
+    "frame_parent_driver": [
+      "scripts/resume_20261126/fullclosed_reference_centred_analytic_j3_material_envelope_so3_qp.py",
+      "0dfb96e53fa92e741e2d94819636486b45c49e341006370d1c6864ce70c36b51"
+    ],
+    "frame_parent_reader": [
+      "scripts/resume_20261126/read_reference_centred_analytic_j3_material_envelope_so3_report.py",
+      "c2a6039633dbb397bdb6f56358153a362ed4e34c8e035a6a739eb23d5a1b785e"
+    ],
+    "frame_parent_endpoint": [
+      "scripts/resume_20261126/so3_reference_centred_analytic_j3_smooth_triangle_normal_lift_operator.py",
+      "04f1d2724e1d93f138d03c558262f53e1dd5433791c081c7f93c37eeab84e21e"
+    ],
+    "frame_parent_calibration": [
+      "scripts/resume_20261126/reference_centred_analytic_j3_smooth_triangle_calibration.py",
+      "4c3fb7a6d19a9c214e2dc69428456b62bc406c8329bc60083e1f5f8be3ff3d6d"
+    ],
+    "frame_parent_J3": [
+      "scripts/resume_20261126/analytic_normal_stage_jacobian.py",
+      "64b39a8be75ee976dbf4b49768e4ebaf37a372f77dba397a439a054cc4e7465d"
+    ],
+    "frame_parent_C1": [
+      "scripts/resume_20261126/analytic_j3_normal_frame_c1_reuse.py",
+      "8e6c3f255a6acbd27aa1291c1a8b0555eeaaeb869a58fde6a49b3fc5d16361f8"
+    ],
+    "frame_parent_stage_matrices": [
+      "scripts/resume_20261126/analytic_j3_detached_normal_stage_matrix_reuse.py",
+      "5db725b423db4e97229a697ff6ce712b9183236070000e8ed66ed45cbe1767c1"
+    ],
+    "frame_parent_adjacent_matrices": [
+      "scripts/resume_20261126/analytic_j3_adjacent_normal_frame_matrices.py",
+      "8a63cc1817fd0853c2b7ee69b64e3083de22106c239b62acc602ad9b69698787"
+    ],
+    "actual_public_input_binding": [
+      "scripts/resume_20261126/fixed_fejer_reference_input_binding.py",
+      "3da43e82722dfb4548ff4e8b454d47ec2626ece76084c7801c0be5b8c989670f"
+    ],
+    "closure_values": [
+      "scripts/resume_20261126/fixed_fejer_meridian_closure_values.py",
+      "2889fef0d09a32c3f609f9a4e100efb1b136070dad77c8104204b552a867c4e0"
+    ],
+    "closure_parent_analytic_J3": [
+      "scripts/resume_20261126/analytic_frame_local_stage_jacobian.py",
+      "894efd3b277b8a8c1fbd4abcd68b573fb09ee10a706a90ded7b2e1894fe3b866"
+    ],
+    "closure_parent_analytic_frame": [
+      "scripts/resume_20261126/analytic_normal_frame_jets.py",
+      "4ed6dfb93bb15b864d79c227b852421bc69b888a32923b98a21fe816da5be3d8"
+    ],
+    "closure_parent_frame_C1": [
+      "scripts/resume_20261126/analytic_frame_c1_reuse.py",
+      "f1c74928089b60fb8f5350084ace0805fa956f4b06ac0de3f6a11357dd1aa2fb"
+    ],
+    "closure_parent_stage_matrices": [
+      "scripts/resume_20261126/analytic_frame_detached_normal_stage_matrix_reuse.py",
+      "fa06705ebe19153edf455151a19c4217e42b8ab81ae3ffa4c1815701ec135255"
+    ],
+    "closure_parent_adjacent_matrices": [
+      "scripts/resume_20261126/analytic_frame_adjacent_normal_matrices.py",
+      "3788b809c986668042e1c02f927afb85bf45434c4ff69607f9aaa2e2bf142695"
+    ],
+    "closure_parent_reference_calibration": [
+      "scripts/resume_20261126/reference_centred_analytic_frame_smooth_triangle_calibration.py",
+      "fe422dbf2eac68bbc4f54e8fe290ba0e5d1b7a080f12f1d148cffe834957dba0"
+    ],
+    "closure_parent_endpoint": [
+      "scripts/resume_20261126/so3_reference_centred_analytic_frame_smooth_triangle_normal_lift_operator.py",
+      "3d8d3ed8f2a21db5731fec87115546502a49b701f7344328e8e36396cba52dbc"
+    ],
+    "closure_parent_root_packets": [
+      "scripts/resume_20261126/immutable_analytic_frame_normal_root_packets.py",
+      "094ca6a87213a8677b46aa9b0ad4c5a4b12f8c4c80437d7b640c47f7793b40f0"
+    ],
+    "closure_parent_analytic_J3_binding": [
+      "scripts/resume_20261126/run09_public_reference_analytic_frame_binding.py",
+      "15f6393acb1f069e3c5dee62708f9350b3e329b877b19fc8a69868365a45a592"
+    ],
+    "closure_parent_geometry": [
+      "scripts/resume_20261126/so3_run09_public_reference_analytic_frame_geometry_v2.py",
+      "e89dcfa368da67d6522a9df7dd5b49e58915db89bbc8152e15bc0a7a7c557a13"
+    ],
+    "closure_parent_envelope_transfer": [
+      "scripts/resume_20261126/transfer_run09_public_reference_analytic_frame_memory.py",
+      "6deeeaa1dcbbb0fbfd968d0b31443798909536a55a7ea498f661e08496a27707"
+    ],
+    "closure_parent_driver": [
+      "scripts/resume_20261126/fullclosed_run09_public_reference_analytic_frame_so3_qp_v2.py",
+      "ff5444af4c31869a1a4d7b87cb4912f2d025b8da5ee90922924c3542ff6f0dd5"
+    ],
+    "closure_parent_reader": [
+      "scripts/resume_20261126/read_run09_public_reference_analytic_frame_so3_report_v2.py",
+      "aee22caf8dc3e544cd0d7a5e80e6475608dc397a4c2aa1095c0adb72238f0b32"
+    ],
+    "closure_parent_independent_envelope_memory": [
+      "scripts/resume_20261126/complete_material_envelope_memory_public_reference.py",
+      "2518133305275c070b5b0d46774baf92ce28634c7d71486c1a6c22c0e296e7fb"
+    ],
+    "closure_parent_independent_input_projection_producer": [
+      "scripts/resume_20261126/freeze_run09_public_reference_and_restore_run05_carrier.py",
+      "9e3d0590c6d37eb07da094128df9e3b82fc03a7e9cf784cea1831b4ab0d39a18"
+    ],
+    "closure_parent_actual_public_input_binding": [
+      "scripts/resume_20261126/actual_public_reference_input_binding.py",
+      "306b5f86e0d287ea0c6cf9abb0f326f0eec869640b52daa59cf76db1492e382a"
+    ],
+    "immutable_point_parent_closure_values": [
+      "scripts/resume_20261126/same_chain_detached_closure_values.py",
+      "e1af4fc8cfecbd30ab5cf9f7ded31d6a7a8d11385a8558cc76cbb8a8b1851e9e"
+    ],
+    "immutable_point_parent_analytic_J3": [
+      "scripts/resume_20261126/analytic_local_stage_jacobian_closure_values.py",
+      "9646c1cb1e239f4625dfaa0f13e0d0776dfd9684401789a089326e177c02a5aa"
+    ],
+    "immutable_point_parent_analytic_frame": [
+      "scripts/resume_20261126/analytic_normal_frame_jets_closure_values.py",
+      "8239fc8f3588afd4f93ba10368c599a85652d3b350a088b1397731c196258598"
+    ],
+    "immutable_point_parent_frame_C1": [
+      "scripts/resume_20261126/normal_frame_c1_closure_values.py",
+      "1f80ce726f9cf9424740331eb54a5cafa86a058ca2b048ee5fb6add5fc371caa"
+    ],
+    "immutable_point_parent_stage_matrices": [
+      "scripts/resume_20261126/detached_stage_matrices_closure_values.py",
+      "bf80cc8bbcf442d07d0e9225e1fbf703be4c40b951f10fb20e861e1ec7497c45"
+    ],
+    "immutable_point_parent_adjacent_matrices": [
+      "scripts/resume_20261126/adjacent_normal_matrices_closure_values.py",
+      "6efb1b4de61635bb4121b2cc05daf4b817ecfb772f302568e2a570b7fa16b650"
+    ],
+    "immutable_point_parent_reference_calibration": [
+      "scripts/resume_20261126/reference_centred_closure_values_calibration.py",
+      "b59776d52653f036590b619124579a20400d3bb7a4de8117d3221ca32bec144f"
+    ],
+    "immutable_point_parent_endpoint": [
+      "scripts/resume_20261126/so3_reference_centred_closure_values_normal_lift_operator.py",
+      "6d2b8e59bea94226ced74cd2bdab1ffa537e4afb1cd4594b2ed83e28832029f4"
+    ],
+    "immutable_point_parent_root_packets": [
+      "scripts/resume_20261126/immutable_closure_values_normal_root_packets.py",
+      "31f66203897cde00ca537f500209296ce2e42605f06a3cbbb1221e502e298805"
+    ],
+    "immutable_point_parent_binding": [
+      "scripts/resume_20261126/run10_detached_closure_value_binding.py",
+      "dc3b40645eb47f924392a703eb65e3fda982f43804b1861f89da1c038e9140a1"
+    ],
+    "immutable_point_parent_geometry": [
+      "scripts/resume_20261126/so3_run10_detached_closure_geometry.py",
+      "6c676d4302f4271310ffca899ca8820fe43f2d792ee9a634747f25eecf9f6528"
+    ],
+    "immutable_point_parent_envelope_transfer": [
+      "scripts/resume_20261126/transfer_run10_detached_closure_memory.py",
+      "eca323b12ff941736798f7e40021f78b92e1b23cee8a7edcdcc5e3f6db7508fe"
+    ],
+    "immutable_point_parent_driver": [
+      "scripts/resume_20261126/fullclosed_run10_detached_closure_so3_qp.py",
+      "c3dc77f40445eaf30ab743311dd97ea7d62a41be80db504fc778eccffa30e5d1"
+    ],
+    "immutable_point_parent_reader": [
+      "scripts/resume_20261126/read_run10_detached_closure_so3_report.py",
+      "2efa4b1d7df920fb616b51988bc29730aa18b29ba57dc0a943d36cdcf87b3e8e"
+    ],
+    "immutable_point_parent_launcher": [
+      "scripts/resume_20261126/launch_run10_detached_closure_actions.py",
+      "22069c4bb56a4ca4820b3f608cf720a36b036534e6b1e90b5f467f8eed21e604"
+    ],
+    "fixed_fejer_previous_closure_values": [
+      "scripts/resume_20261126/immutable_point_detached_closure_values.py",
+      "2543ee5db3ff15108fbdb4e340dad84301b94eecb773f757da4126ab86778cfb"
+    ],
+    "fixed_fejer_previous_analytic_J3": [
+      "scripts/resume_20261126/analytic_local_stage_jacobian_immutable_point.py",
+      "21a929c14abfe5e66ca56c232d31b77d8f8e3a5e969d796c4601d1a1e1374024"
+    ],
+    "fixed_fejer_previous_analytic_frame": [
+      "scripts/resume_20261126/analytic_normal_frame_jets_immutable_point.py",
+      "4e9b027b365752878069fa29671f8f549fa4cd9be478487b12ceeb64a908f8fa"
+    ],
+    "fixed_fejer_previous_frame_C1": [
+      "scripts/resume_20261126/normal_frame_c1_immutable_point.py",
+      "53b5bc456cb3f62c6a25d329de54920253d9193168ef3fb761198ff61fa0822d"
+    ],
+    "fixed_fejer_previous_stage_matrices": [
+      "scripts/resume_20261126/detached_stage_matrices_immutable_point.py",
+      "a41872f7563683b28d34cb9da35d7fc3bd0879fb5a8d1d183230a518f6b8f052"
+    ],
+    "fixed_fejer_previous_adjacent_matrices": [
+      "scripts/resume_20261126/adjacent_normal_matrices_immutable_point.py",
+      "ab944e9c9af4b84a65d201a6cc997669a8f274077fc7e1f69ee35b268380bb59"
+    ],
+    "fixed_fejer_previous_reference_calibration": [
+      "scripts/resume_20261126/reference_centred_immutable_point_calibration.py",
+      "794275121ee8d2f79972c5302012a10ba1fd8aa58fa5f67f05399825244fd238"
+    ],
+    "fixed_fejer_previous_endpoint": [
+      "scripts/resume_20261126/so3_reference_centred_immutable_point_normal_lift_operator.py",
+      "9bd394592f95668956c6718387b02d22d47c445b3f981f9101ae0e2c482594d6"
+    ],
+    "fixed_fejer_previous_root_packets": [
+      "scripts/resume_20261126/immutable_point_normal_root_packets.py",
+      "b4c41b2dc8754607441c30cdb3a34199d7e40f8b52fc5e4a8f5d653ea524eac8"
+    ],
+    "fixed_fejer_previous_reference": [
+      "scripts/resume_20261126/so3_axisymmetric_reference.py",
+      "4e65577dc6b17ff4cd8256583eb9adf8b32d31deb84beb8b7ccc400e626205b3"
+    ],
+    "fixed_fejer_previous_seed_reference": [
+      "scripts/resume_20261126/supported_smooth_triangle_meridian_reference.py",
+      "0d09ca45500e85c2cdada0155c79a8db71b92d84600743a90db88889ac58662b"
+    ],
+    "fixed_fejer_previous_meridian": [
+      "scripts/resume_20261126/so3_supported_smooth_triangle_meridian_operator.py",
+      "6a80361a7f2fe376682fd63d39215630f5b31d4bc26493552b458691404db865"
+    ],
+    "fixed_fejer_previous_new_moment_input": [
+      "scripts/resume_20261126/supported_smooth_triangle_literal_zero_moment_input.py",
+      "307ebae301db059f30ff1cc5fda024b09e9c2730c9f6bffbd82f0821d2a727a7"
+    ],
+    "fixed_fejer_previous_analytic_J3_binding": [
+      "scripts/resume_20261126/run10_immutable_point_source_binding.py",
+      "85f3007a6927968eb253eab168e9379f9a1f732caf5aa43b9f24776f39606d97"
+    ],
+    "fixed_fejer_previous_geometry": [
+      "scripts/resume_20261126/so3_run10_immutable_point_geometry.py",
+      "dbbd4601f4bbc0798759f3c63cd3caae3cfc19f1a62ec9dbd02cc6fbceb896ce"
+    ],
+    "fixed_fejer_previous_envelope_transfer": [
+      "scripts/resume_20261126/transfer_run10_immutable_point_memory.py",
+      "0007abf0b2814b09a3ecc30f621cbd8814a3d94528c753762aa7be5175d08486"
+    ],
+    "fixed_fejer_previous_independent_envelope_memory": [
+      "scripts/resume_20261126/complete_material_envelope_memory_public_run10.py",
+      "f1c6629fc52e17ad8cc74d1fd2431e3e7ee132e9da2b46ed4cf63a14e99d38ba"
+    ],
+    "fixed_fejer_previous_independent_input_projection_producer": [
+      "scripts/resume_20261126/freeze_run10_public_reference_and_restore_run05_carrier.py",
+      "fcd20177bed258bc463f5ca6431c29c18c3b381b75146e1da7bbc8bc4e7a475a"
+    ],
+    "fixed_fejer_previous_actual_public_input_binding": [
+      "scripts/resume_20261126/actual_public_run10_reference_input_binding.py",
+      "9f69b860d4bf2e25e707d08c7c85ca01c17ebf468398ea007ad7448df9951209"
+    ],
+    "fixed_input_producer": [
+      "scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+      "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60"
+    ],
+    "stage_point_parent_root_packets": [
+      "scripts/resume_20261126/fixed_fejer_immutable_normal_root_packets.py",
+      "1445b883cbcf3ed76571760923c2dc735ead7c862439d9478684a5a5299de468"
+    ],
+    "stage_point_parent_stage_matrices": [
+      "scripts/resume_20261126/fixed_fejer_detached_stage_matrices.py",
+      "7aabf3ef5857dbdbbf9832b8bb4ca378faa7e06514a21b48f83649d6df7cb0d7"
+    ],
+    "stage_point_parent_adjacent_matrices": [
+      "scripts/resume_20261126/fixed_fejer_adjacent_normal_matrices.py",
+      "257e5e44d38dffb82925a410c42e51f084cf7821a398b9928e543088a3f234c0"
+    ],
+    "stage_point_parent_endpoint": [
+      "scripts/resume_20261126/fixed_fejer_normal_lift_operator.py",
+      "1aa64d7731333f8ae008f86b717421abbbbfdb7f4c3edb1173f93754364bd778"
+    ],
+    "stage_point_parent_binding": [
+      "scripts/resume_20261126/fixed_fejer_complete_source_binding.py",
+      "3b3f2322eb1d1f6304e71e4d972a8e45ba2b5dd6605501d293212de46b5c5c88"
+    ],
+    "stage_point_parent_envelope_transfer": [
+      "scripts/resume_20261126/transfer_fixed_fejer_material_envelope_memory.py",
+      "af35c30e4774987d8f71bc6d05c1942db66a9f7889127c19948b119dee9a1566"
+    ],
+    "stage_point_parent_geometry": [
+      "scripts/resume_20261126/so3_fixed_fejer_complete_geometry.py",
+      "bab4147bdd2f0d43a372ec1b04225fc66a05db2ccdc2f92968d3f70e2590bf26"
+    ],
+    "stage_point_parent_driver": [
+      "scripts/resume_20261126/fullclosed_fixed_fejer_immutable_point_so3_qp.py",
+      "477499b17141d8ae22558156e8b85a4c01b7a40ff07b6b46f5827e20d11b9ccd"
+    ],
+    "stage_point_parent_reader": [
+      "scripts/resume_20261126/read_fixed_fejer_immutable_point_so3_report.py",
+      "274d159e6c5ef9ac13a149b456394a9e53afecf753f5d8d39d0b1e224ecbc45b"
+    ],
+    "scalar_progress": [
+      "scripts/resume_20261126/fixed_fejer_complete_geometry_trial_progress.py",
+      "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5"
+    ],
+    "meridian_parent_analytic_J3": [
+      "scripts/resume_20261126/fixed_fejer_analytic_stage_jacobian.py",
+      "7645268ee3538a43a4a04b73a5aee4fc5483b56962affeb0ba7e7f879d5d4a72"
+    ],
+    "meridian_parent_frame_C1": [
+      "scripts/resume_20261126/fixed_fejer_normal_frame_c1.py",
+      "1830c1d8e69e0e12d4b9d8af9f194d234ef3437cba546200738a1592a77aa0ca"
+    ],
+    "meridian_parent_stage_matrices": [
+      "scripts/resume_20261126/fixed_fejer_immutable_point_stage_matrices.py",
+      "e4d42910f9550a20d0afc16aab8f54b5ea1ceb18ace375128f3a79bfef0e76ce"
+    ],
+    "meridian_parent_adjacent_matrices": [
+      "scripts/resume_20261126/fixed_fejer_stage_point_adjacent_matrices.py",
+      "d04cf80d40a16410a2338f3b4b0c3bbdd0084cfc2ad5270bee21d33ded9449b5"
+    ],
+    "meridian_parent_reference_calibration": [
+      "scripts/resume_20261126/fixed_fejer_reference_calibration.py",
+      "fe36240c08ad32c4d4d665a387c70aaf02c0392419a51eef01e072081945e95c"
+    ],
+    "meridian_parent_endpoint": [
+      "scripts/resume_20261126/fixed_fejer_stage_point_normal_lift.py",
+      "42b205ee34af4233002cec3d782acd78ed72a38f6013c1b931b3892f55d73e10"
+    ],
+    "meridian_parent_analytic_frame": [
+      "scripts/resume_20261126/fixed_fejer_analytic_normal_frame.py",
+      "75db2f20039b66a2784a922bf062e792328c0153fb0458c16acef92e0ab7e38c"
+    ],
+    "meridian_parent_closure_values": [
+      "scripts/resume_20261126/fixed_fejer_immutable_closure_values.py",
+      "01ca74a9f00ac17ef4452173b758d785c0e06869efa98980426f822d4beeb595"
+    ],
+    "detached_meridian_values": [
+      "scripts/resume_20261126/fixed_fejer_detached_meridian_values.py",
+      "7aa760baa30a46484d90bc5e327849ab5229cca708e6ba4289b12da253a5facd"
+    ],
+    "meridian_parent_root_packets": [
+      "scripts/resume_20261126/fixed_fejer_stage_point_root_packets.py",
+      "140f639656c2a30c59f0ba4c8153e3467d5abddf8189a84fcc38fb6638ee8aaf"
+    ],
+    "meridian_parent_analytic_J3_binding": [
+      "scripts/resume_20261126/fixed_fejer_stage_point_source_binding.py",
+      "9171871fcaaa1d2e65de1c40071cf8bb1acac0d7b0cc1d1da5b9cb36f690076f"
+    ],
+    "meridian_parent_geometry": [
+      "scripts/resume_20261126/so3_fixed_fejer_stage_point_geometry.py",
+      "2ecd2b23eccf6bee564c07daa386fbd232d7ff9f5634b484317d62ab10e56471"
+    ],
+    "meridian_parent_envelope_transfer": [
+      "scripts/resume_20261126/transfer_fixed_fejer_stage_point_memory.py",
+      "afa2d6397c331b5bf55dd461bbf52a35839ff610d3db0f12a043e8eceef3b6ed"
+    ],
+    "meridian_parent_scalar_progress": [
+      "scripts/resume_20261126/fixed_fejer_actual_mathematical_progress.py",
+      "bff1e03ae12a08444cb9d9d572e439a9b40cf59e80a201cd500f95539ce9e391"
+    ],
+    "batched_geometry_binding": [
+      "scripts/resume_20261126/fixed_fejer_batched_geometry_report_binding.py",
+      "f7e1ef4e9bff7ed9cbd94e4c07bca465b316c4b465ffbb2da2c7869654350139"
+    ],
+    "meridian_parent_driver": [
+      "scripts/resume_20261126/fullclosed_fixed_fejer_stage_point_observed_so3_qp.py",
+      "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d"
+    ],
+    "meridian_parent_reader": [
+      "scripts/resume_20261126/read_fixed_fejer_stage_point_observed_so3_report.py",
+      "c9ce27c75ab2b384642d3ccbf83f323bf018a63bfbd31a3364fd3c5e3707653f"
+    ]
+  },
+  "original_120_full_path_and_SHA_pairs_compared_and_preserved": true,
+  "original_120_registry_source": {
+    "name": "fullclosed_fixed_fejer_stage_point_observed_so3_qp.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_stage_point_observed_so3_qp.py",
+    "bytes": 95632,
+    "sha256": "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d",
+    "git_blob_sha": "3a537a58e82f152c78d0408c8b2c5f4403af1106"
+  },
+  "every_actual_137_source_file_reread_by_accurate_input": true,
+  "actual_constructor_contract": {
+    "source": {
+      "name": "fullclosed_fixed_fejer_meridian_batched_so3_qp.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py",
+      "bytes": 99313,
+      "sha256": "41b4d09d70322c90a1eb27f66210fda92ac3466fd1ad5abb25d897a740f768c2",
+      "git_blob_sha": "df1023d71441a01e0dd1e343cb1431aa7553023e"
+    },
+    "normal_source": {
+      "name": "fixed_fejer_detached_meridian_normal_lift.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py",
+      "bytes": 96276,
+      "sha256": "388c756a81d76c92ef146838a081cfee298e43ba44fee8d936f88341ebdf3ed4",
+      "git_blob_sha": "8a22b31dcc36d3160d4c968f9645600961a22abc"
+    },
+    "added_keyword": "meridian_value_module",
+    "module_source": {
+      "name": "fixed_fejer_detached_meridian_values.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_values.py",
+      "bytes": 41030,
+      "sha256": "7aa760baa30a46484d90bc5e327849ab5229cca708e6ba4289b12da253a5facd",
+      "git_blob_sha": "6ab29473b0d549539de69a064efb19af4227a867"
+    },
+    "whole_current_registry_carries_batched_geometry": true,
+    "accurate_fee_constructs_working_operator": false,
+    "accurate_fee_replays_working_field_J_or_root": false,
+    "pure_policy_validation_at_each_own_point": true,
+    "cache_diagnostics_backfilled_into_root_snapshots": false
+  },
+  "runtime_inventory": {
+    "new_complete_runtime_files": 6,
+    "shared_complete_rotation_stage_kernel_files": 1,
+    "seven_core_runtime_roles_count_includes_shared_rotation": true,
+    "no_duplicate_seventh_adapter_invented": true
+  },
+  "runtime_sources": [
+    {
+      "role": "input",
+      "name": "fixed_fejer_meridian_batched_normal_packet_accurate_field_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_normal_packet_accurate_field_input.py",
+      "bytes": 32969,
+      "sha256": "d9cbf733957e3577cfc6175a1d69024a2874468e1cde7141f5d81b984676430b",
+      "git_blob_sha": "e420aa38eafafb23054c2b8da10b6c0b48545244"
+    },
+    {
+      "role": "radial",
+      "name": "fixed_fejer_meridian_batched_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_accurate_reference_control_radial_boxes.py",
+      "bytes": 45334,
+      "sha256": "a978609f6ec973c5c495e7cdb2a2da36eb2e786f48bd948e5ed1ce488934a1fb",
+      "git_blob_sha": "f22c1c35b07e771b5ba426729d52e5b6438870dc"
+    },
+    {
+      "role": "normal",
+      "name": "fixed_fejer_meridian_batched_complete_normal_root_and_sixjet_fees.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_complete_normal_root_and_sixjet_fees.py",
+      "bytes": 40379,
+      "sha256": "242fc2f403db2495ea70e27437823031a84b26da717190b5f7e7ea252f9c0e2e",
+      "git_blob_sha": "0b7aee57e28a8d234e6be778170631907a3d13fa"
+    },
+    {
+      "role": "leaf",
+      "name": "fixed_fejer_meridian_batched_complete_physical_leaf_binding.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_complete_physical_leaf_binding.py",
+      "bytes": 47494,
+      "sha256": "897fceaa340fd042db03b3ea0f9b72b3e2c1a5c235d7104ead2c4b0104c07fc6",
+      "git_blob_sha": "8cd02f6d317139cfbc024d957bc29e296fc69c16"
+    },
+    {
+      "role": "geometry",
+      "name": "fixed_fejer_meridian_batched_continuous_gram_curvature_support.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_continuous_gram_curvature_support.py",
+      "bytes": 46723,
+      "sha256": "d0d0f45332ece0a63192b4e80c7c318635ba1068208bad45bec2a136781934a5",
+      "git_blob_sha": "0d5b050a0f7f909f42843ebad4a3f46942dc9069"
+    },
+    {
+      "role": "bridge",
+      "name": "fixed_fejer_meridian_batched_complete_geometry_support_beta_bridge.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_complete_geometry_support_beta_bridge.py",
+      "bytes": 20878,
+      "sha256": "d0b72820b7a7f8f872d2cb460e6f2fba3a685804e200ac4f35f7f12bf33cb0e7",
+      "git_blob_sha": "9a0a9e1afb5d3e10548a25934117f5dc335687ef"
+    }
+  ],
+  "runtime_schemas": {
+    "input": {
+      "SCHEMA": "actual-fixed-fejer-meridian-batched-complete-normal-packet-accurate-field-input-v1",
+      "NORMAL_SCHEMA": "complete-fixed-fejer-detached-meridian-values-normal-layer-v1",
+      "BASE_SCHEMA": "complete-fixed-fejer-supported-smooth-triangle-so3-meridian-with-core-lift-v1",
+      "REFERENCE_SCHEMA": "R690-fixed-fejer-axisymmetric-SO3-reference-input-v1"
+    },
+    "radial": {
+      "SCHEMA": "actual-fixed-fejer-meridian-batched-complete-accurate-reference-control-radial-boxes-v1"
+    },
+    "normal": {
+      "SCHEMA": "actual-fixed-fejer-meridian-batched-complete-normal-root-and-physical-sixjet-fees-v1",
+      "JOURNAL_SCHEMA": "actual-fixed-fejer-meridian-batched-complete-normal-fee-journal-v1"
+    },
+    "leaf": {
+      "SCHEMA": "actual-fixed-fejer-meridian-batched-complete-physical-sixjet-leaf-reader-v1",
+      "NORMAL_FEE_SCHEMA": "actual-fixed-fejer-meridian-batched-complete-normal-root-and-physical-sixjet-fees-v1",
+      "JOURNAL_SCHEMA": "actual-fixed-fejer-meridian-batched-complete-normal-fee-journal-v1",
+      "STREAM_SCHEMA": "complete-actual-fixed-fejer-meridian-batched-accurate-physical-sixjet-stream-v1"
+    },
+    "geometry": {
+      "SCHEMA": "actual-fixed-fejer-meridian-batched-complete-continuous-gram-curvature-support-v1"
+    },
+    "bridge": {
+      "SCHEMA": "actual-fixed-fejer-meridian-batched-complete-geometry-to-conditional-R650-beta-bridge-v1"
+    }
+  },
+  "original_complete_source_parents": [
+    {
+      "role": "input",
+      "name": "fixed_fejer_stage_observed_normal_packet_accurate_field_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_stage_observed_normal_packet_accurate_field_input.py",
+      "bytes": 33017,
+      "sha256": "720bbfc1071a3e56598fd096ec420e8cb5a44a60e06b28d33ff0f1c37e3038b3",
+      "git_blob_sha": "eabc6d900dad8b46dc731fd4de9159b4050bb54d"
+    },
+    {
+      "role": "radial",
+      "name": "fixed_fejer_stage_observed_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_stage_observed_accurate_reference_control_radial_boxes.py",
+      "bytes": 45332,
+      "sha256": "03dceaf721d5a93758a0c61055b6f409a240bb235e22f846874cf45e7bca15bd",
+      "git_blob_sha": "f969ad127bcbc0c43681c3e17e6cf63b0b6ab19f"
+    },
+    {
+      "role": "normal",
+      "name": "fixed_fejer_stage_observed_complete_normal_root_and_sixjet_fees.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_stage_observed_complete_normal_root_and_sixjet_fees.py",
+      "bytes": 40369,
+      "sha256": "24765a9049f38e6b68f1e1d457d514054557b17731ac390dade82605682d2673",
+      "git_blob_sha": "eed89ba9e5b606fb3ce27ffc54526db2a45fec1b"
+    },
+    {
+      "role": "leaf",
+      "name": "fixed_fejer_stage_observed_complete_physical_leaf_binding.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_stage_observed_complete_physical_leaf_binding.py",
+      "bytes": 47482,
+      "sha256": "280bc1cf1d91bfd60b7d905045c07ccefd901833c9734e1b3c3496f5d4afd652",
+      "git_blob_sha": "2884e1741f96a8e80b349fe023ef398b1a7ecd87"
+    },
+    {
+      "role": "geometry",
+      "name": "fixed_fejer_stage_observed_continuous_gram_curvature_support.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_stage_observed_continuous_gram_curvature_support.py",
+      "bytes": 46719,
+      "sha256": "3f383d692711d180d0f7fd24e78ce67973c85b8c231e28deb135122664dd3560",
+      "git_blob_sha": "4837232aa3a2a14a6ab36c2f1cb98aaf05ed25cd"
+    },
+    {
+      "role": "bridge",
+      "name": "fixed_fejer_stage_observed_complete_geometry_support_beta_bridge.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_stage_observed_complete_geometry_support_beta_bridge.py",
+      "bytes": 20870,
+      "sha256": "35493133665555aecf40eb85d213d53fb2b4fbf4acf949b403c258cbb24787a0",
+      "git_blob_sha": "b8975cf1054fcd5dde9525e3e2375e7e9e3e640b"
+    }
+  ],
+  "complete_shared_mathematical_sources": {
+    "continuous": {
+      "name": "so3_axisymmetric_continuous_integrand.py",
+      "sha256": "a846d373421df655da3bbba2491847b0cd016ae6db09b5d4176be227b2bc9ce6",
+      "bytes": 29047,
+      "git_blob_sha": "76d475cc54814b19e1d3aaaab8200a9ba7d7d151",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/so3_axisymmetric_continuous_integrand.py"
+    },
+    "rotation": {
+      "name": "accurate_normal_rotation_and_stage_boxes.py",
+      "sha256": "29eed317796b18c5f7430535ee2f45ee7ce9cb6546bbbd44d0bc97b9839e3f6b",
+      "bytes": 27453,
+      "git_blob_sha": "6e007ee79ccd53e3e7e58469164d6c7e34bff40e",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/accurate_normal_rotation_and_stage_boxes.py"
+    },
+    "mean": {
+      "role": "mean",
+      "name": "fixed_fejer_reference_accurate_mean_residuals.py",
+      "bytes": 41476,
+      "sha256": "ae67ecac9f205cdb2378a7f981d5d60fc723e1caadd5281dff54395d358564a0",
+      "git_blob_sha": "fdddb363e724ab45204854a2b3084fcb95cae4bc",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_reference_accurate_mean_residuals.py"
+    },
+    "seed_math": {
+      "role": "seed_math",
+      "name": "fixed_fejer_reference_seed_angular_profile_error_bounds.py",
+      "bytes": 72182,
+      "sha256": "0471c626b7850fecf19513d68209e090f88830b89ff8ad7cc62c2d1709a75e5b",
+      "git_blob_sha": "c0d09245e9e156cb93516945b3eec84e93807bf7",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_reference_seed_angular_profile_error_bounds.py"
+    },
+    "positive_support_beta": {
+      "name": "same_field_positive_support_parameter.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/same_field_positive_support_parameter.py",
+      "sha256": "e0b44e22fa9e41109ccdeb1c3908aeca60c5c4a18f90dca088f8c9e0243b5991",
+      "scope": "unchanged complete conditional R650 beta consumer; only used with the original complete eight-role evidence package"
+    }
+  },
+  "complete_ready_files": [
+    {
+      "role": "normal_ready",
+      "name": "fixed-fejer-meridian-batched-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "bytes": 16723,
+      "sha256": "029a12e9a1c0ba2c0bac068caf94743e8cb3521cfb3f31ba21db7ad4c3d7400a",
+      "git_blob_sha": "ff6ebfbcb68d5140e44bd54ad163d5b17ab22fe9"
+    },
+    {
+      "role": "geometry_ready",
+      "name": "fixed-fejer-meridian-batched-complete-continuous-gram-curvature-support-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-continuous-gram-curvature-support-ready.json",
+      "bytes": 17060,
+      "sha256": "949acd57b29bf81944df85c8af5deacdd8ac0dd21774494b62b6f47a680975e5",
+      "git_blob_sha": "65c7cbdcc93cc97d9f342828da592dae963d1b4c"
+    }
+  ],
+  "complete_parameter_parent_files": [
+    {
+      "role": "normal_ready",
+      "name": "fixed-fejer-stage-observed-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-stage-observed-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "bytes": 10975,
+      "sha256": "dc5e88a28167b2a06f0821448c07abbae6cc6ff91d3d5bac8547d03398296d2b",
+      "git_blob_sha": "46c3ba9503e7b8e42a93bb6cf7ba5b18566de603"
+    },
+    {
+      "role": "geometry_ready",
+      "name": "fixed-fejer-stage-observed-complete-continuous-gram-curvature-support-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-stage-observed-complete-continuous-gram-curvature-support-ready.json",
+      "bytes": 11490,
+      "sha256": "049776de848bb0563d1a0ee6438201d2529b470375adb23dd9eb651ebfe751d6",
+      "git_blob_sha": "177b4ca2c3566e84cfacbf0bcdfd10f50b0aa909"
+    }
+  ],
+  "original_step_correspondence": {
+    "normal_ready": {
+      "argv_count": 38,
+      "summary_selector_count": 36,
+      "all_numerical_arguments_original": true,
+      "summary_selector_mapping_original": true,
+      "output_count": 1,
+      "seconds": "900",
+      "complete_original_step_retained_except_declared_source_paths_and_scope": true
+    },
+    "geometry_ready": {
+      "argv_count": 8,
+      "summary_selector_count": 48,
+      "all_numerical_arguments_original": true,
+      "summary_selector_mapping_original": true,
+      "output_count": 1,
+      "seconds": "900",
+      "complete_original_step_retained_except_declared_source_paths_and_scope": true
+    }
+  },
+  "complete_queued_step_sizes": {
+    "normal_ready": {
+      "compact_json_bytes": 4779,
+      "compact_json_sha256": "f69927ead929cedc8e206ca0eb204ed015806c78adddfd14b1fa7c6300c9dfe9",
+      "two_space_json_plus_newline_bytes": 5312
+    },
+    "geometry_ready": {
+      "compact_json_bytes": 5024,
+      "compact_json_sha256": "a9cdb9987e6f4156765af8bcf64129987e490feea59c683be7622422b98f076b",
+      "two_space_json_plus_newline_bytes": 5503
+    }
+  },
+  "future_scientific_or_fee_success_prepopulated": false,
+  "actual_input_interface": {
+    "accurate_input_class": "ActualNormalPacketPoint",
+    "input_schema": "actual-fixed-fejer-meridian-batched-complete-normal-packet-accurate-field-input-v1",
+    "actual_role_count": 137,
+    "fixed_reference_layout": {
+      "M": 160,
+      "J": 923,
+      "N": 2048
+    },
+    "full_current_layout": {
+      "M": 160,
+      "J": 923,
+      "N": 2048,
+      "free_variables": 1333370,
+      "omega_shape": [
+        923,
+        3,
+        482
+      ]
+    },
+    "fixed_reference_entry_schema": "actual-fixed-fejer-complete-input-entry-binding-v1",
+    "actual_field_binding_source": {
+      "name": "fixed_fejer_meridian_source_binding.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_source_binding.py",
+      "bytes": 41894,
+      "sha256": "15cd8e201db8aeef7139baf0e82d9d18fcf190194cd33dc8b112bebe05a7dffc",
+      "git_blob_sha": "54d58893654598e94687a448e2beccc776e1cfb4"
+    },
+    "actual_fixed_input_binder_source": {
+      "name": "fixed_fejer_reference_input_binding.py",
+      "sha256": "3da43e82722dfb4548ff4e8b454d47ec2626ece76084c7801c0be5b8c989670f"
+    },
+    "complete_six_actual_file_roles": [
+      "current_fixed_input_bundle",
+      "current_node_report",
+      "current_scalar_input",
+      "current_reference_bundle",
+      "current_carrier",
+      "current_preparation_report"
+    ],
+    "full_actual_recipe_reference_target_and_seed_definitions_reread": true,
+    "current_reference_tail_leaf_count": 2218,
+    "historical_2397_not_used_as_current_reference_values": true,
+    "complete_immutable_selected_point_and_all_cached_angles": true,
+    "full_matrix_order_and_every_actual_stage_preserved": true,
+    "default_selection": "Latest genuine immutable complete-required-angle snapshot, not a progress/current/final point inferred from scalar data",
+    "requires_accepted_final_point": false,
+    "actual_snapshot_does_not_claim_accepted_iterate": true,
+    "pre_and_final_input_output_complete_byte_rechecks_retained": true
+  },
+  "planned_seed_parameters": {
+    "relative_boundary_total_length": "1/4",
+    "profile_delta": "1/32",
+    "boundary_each_end_relative_length": "1/16",
+    "central_combined_relative_length": "5/8",
+    "runtime_uses_whole_actual_report_seed_definition": true,
+    "fixed_mathematical_metric_changed": false,
+    "old_seed_or_field_or_root_or_fee_identity_inherited": false,
+    "R709_whole_interval_sufficient_conditions_paid_in_actual_execution_only": true,
+    "new_R722_branch_not_silently_added": true
+  },
+  "mathematical_scope": {
+    "original_complete_math_bodies_retained_by_exact_text_inverse": true,
+    "complete_current_core_and_all_rotation_coordinates_and_height": true,
+    "all_original_literal_angles_and_actual_matrix_orders": true,
+    "all_original_32_normal_stages": true,
+    "full_phi_over_pi_domain": [
+      "0",
+      "2"
+    ],
+    "full_angle_closed_cells": 1024,
+    "complete_exact_affine_radial_domain_and_infinite_scalar_tail": true,
+    "complete_accurate_reference_mean_profile_whole_angle_enclosures": true,
+    "all_original_physical_sixjets_and_h_hprime_hsecond_raw_defect_terms": true,
+    "complete_root_uniqueness_and_directed_periodic_literal_glue": true,
+    "same_target_relative_Gram_operator_norm": true,
+    "complete_second_form_principal_curvature_and_support_numerators": true,
+    "R717_complete_same_leaf_three_dimensional_norm_D_bound": true,
+    "original_complete_mixed_pair_and_R650_evidence_responsibility_retained": true,
+    "working_field_words_or_external_parameter_derivative_error_claimed": false,
+    "complete_closed_outward_embedded_all_phase_surface_claimed": false,
+    "whole_image_holding_or_noncongruence_or_reach_paid": false,
+    "actual_fee_or_mathematical_problem_complete_claimed": false,
+    "source_binding_only_changes": true,
+    "entire_stage_observed_formula_and_loop_bodies_restored_by_text_inverse": true,
+    "all_922_original_radial_quintic_cells_and_all_exact_support_profile_Q_gamma_cuts": true,
+    "whole_reference_mean_uses_existing_WholeMean_adapter_not_old_literal_batch_CLI": true,
+    "all_caller_variables_and_actual_wide_seed_profile_quantities_retained": true,
+    "accuracy_enclosures_do_not_use_detached_cache_values_as_exact_functions": true,
+    "working_batch_order_or_rounding_identity_to_old_run_claimed": false,
+    "cache_or_batch_or_time_or_progress_used_as_accuracy_evidence": false,
+    "normal_report_complete_scope": "All planned local stage/physical jobs plus final bytes recheck; continuous branch association is a separate field",
+    "geometry_promotion_requires_normal_complete_and_full_branch_and_final_bytes": true,
+    "working_word_and_external_parameter_fees_separate": true,
+    "R717_same_leaf_norm_and_formal_union_diameter_not_actual_closed_surface_certificate": true,
+    "same_field_mixed_pair_and_eight_beta_evidence_roles_not_removed": true
+  },
+  "actual_output_paths": {
+    "scientific_report": "{work}/fixed-fejer-meridian-batched-first/report.json",
+    "scientific_command": "{work}/fixed-fejer-meridian-batched-first-command.json",
+    "mutable_scientific_observation_not_fee_input": "{work}/fixed-fejer-meridian-batched-first/actual-mathematical-progress.json",
+    "normal_report": "{work}/fixed-fejer-meridian-batched-normal-root-and-sixjet-fees-v1/report.json",
+    "geometry_report": "{work}/fixed-fejer-meridian-batched-continuous-gram-curvature-support-v1/report.json",
+    "raw_arrays_journals_and_streams": "Complete actual runner files only; no raw numerical arrays embedded in this source/parameter package"
+  },
+  "downstream_interface": {
+    "physical_stream_fields": "exact_radial_leaf / accurate_phi_interval / physical_sixjets / accurate_fixed_scalar",
+    "physical_sixjet_vectors": [
+      "F",
+      "Fs",
+      "Fphi",
+      "Fss",
+      "Fsphi",
+      "Fphiphi"
+    ],
+    "bridge_load_geometry": "load_geometry(args,g,r,k,files) -> report,record,binding,identity,context,blocks,stats,source_files",
+    "beta_binding": "bind_beta retains all original eight evidence roles and same_field_lower_reflection_and_all_activity_seams",
+    "closed_or_R716_current_source_adaptation_required": true,
+    "existing_closed_or_R716_guards_relaxed": false,
+    "complete_main_report_and_exact_sidecar_required_for_future_closed_consumers": true
+  },
+  "complete_source_and_parameter_reproducer": {
+    "role": "reproducer",
+    "name": "reproduce_fixed_fejer_meridian_batched_accurate_fees.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_meridian_batched_accurate_fees.py",
+    "bytes": 81131,
+    "sha256": "1ce6a485526b20bebb73ccd373076b596ecdc4a9fdeb12fa2be0a4c46370e3c4",
+    "git_blob_sha": "57979dc27f090014c28a601d3ebd4f64b53f3968"
+  },
+  "complete_note": {
+    "role": "note",
+    "name": "2026-11-27-meridian-batched-fixed-fejer-complete-accurate-fees.md",
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-meridian-batched-fixed-fejer-complete-accurate-fees.md",
+    "bytes": 26467,
+    "sha256": "49ca33aaebf02793e1a2194b4f2cddfbd4a94ad1743bd9091c5392a4da7db39b",
+    "git_blob_sha": "a33de512c8eb64290510a58f5138c57b55b8e74e"
+  },
+  "source_only_preparation": {
+    "JavaScript_complete_source_and_parameter_forward_and_inverse": [
+      {
+        "role": "input",
+        "complete_forward_and_inverse_byte_identity": true
+      },
+      {
+        "role": "radial",
+        "complete_forward_and_inverse_byte_identity": true
+      },
+      {
+        "role": "normal",
+        "complete_forward_and_inverse_byte_identity": true
+      },
+      {
+        "role": "leaf",
+        "complete_forward_and_inverse_byte_identity": true
+      },
+      {
+        "role": "geometry",
+        "complete_forward_and_inverse_byte_identity": true
+      },
+      {
+        "role": "bridge",
+        "complete_forward_and_inverse_byte_identity": true
+      },
+      {
+        "role": "normal_ready",
+        "complete_forward_and_inverse_byte_identity": true,
+        "argv_count": 38,
+        "summary_selector_count": 36,
+        "all_numerical_arguments_original": true,
+        "summary_selector_mapping_original": true,
+        "output_count": 1,
+        "seconds": "900",
+        "complete_original_step_retained_except_declared_source_paths_and_scope": true
+      },
+      {
+        "role": "geometry_ready",
+        "complete_forward_and_inverse_byte_identity": true,
+        "argv_count": 8,
+        "summary_selector_count": 48,
+        "all_numerical_arguments_original": true,
+        "summary_selector_mapping_original": true,
+        "output_count": 1,
+        "seconds": "900",
+        "complete_original_step_retained_except_declared_source_paths_and_scope": true
+      }
+    ],
+    "full_parent_source_and_ready_bytes_read": true,
+    "new_runtime_full_sources_remote_protected": true,
+    "Python_executed": false,
+    "Python_AST_or_compile": false,
+    "scientific_import_or_execution": false,
+    "numerical_fixture_or_benchmark": false,
+    "independent_gate_added": false,
+    "original_sources_or_queues_or_refs_changed": false,
+    "ref_writer": "root",
+    "actual_execution_success_or_speedup_claimed": false,
+    "solver_narrow_interface_review": {
+      "source": "peer solver message",
+      "scope": "whole d3f1/910f actual packet/entry validator and seed_diagnostics field contract",
+      "packet_four_named_validation_functions_whole_text_equal_to_original140f": true,
+      "new_fields_do_not_replace_actual_seed_or_packet": true,
+      "science_or_full_fee_math_review_claimed": false
+    }
+  },
+  "new_artifacts_excluding_manifest": [
+    {
+      "role": "input",
+      "name": "fixed_fejer_meridian_batched_normal_packet_accurate_field_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_normal_packet_accurate_field_input.py",
+      "bytes": 32969,
+      "sha256": "d9cbf733957e3577cfc6175a1d69024a2874468e1cde7141f5d81b984676430b",
+      "git_blob_sha": "e420aa38eafafb23054c2b8da10b6c0b48545244"
+    },
+    {
+      "role": "radial",
+      "name": "fixed_fejer_meridian_batched_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_accurate_reference_control_radial_boxes.py",
+      "bytes": 45334,
+      "sha256": "a978609f6ec973c5c495e7cdb2a2da36eb2e786f48bd948e5ed1ce488934a1fb",
+      "git_blob_sha": "f22c1c35b07e771b5ba426729d52e5b6438870dc"
+    },
+    {
+      "role": "normal",
+      "name": "fixed_fejer_meridian_batched_complete_normal_root_and_sixjet_fees.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_complete_normal_root_and_sixjet_fees.py",
+      "bytes": 40379,
+      "sha256": "242fc2f403db2495ea70e27437823031a84b26da717190b5f7e7ea252f9c0e2e",
+      "git_blob_sha": "0b7aee57e28a8d234e6be778170631907a3d13fa"
+    },
+    {
+      "role": "leaf",
+      "name": "fixed_fejer_meridian_batched_complete_physical_leaf_binding.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_complete_physical_leaf_binding.py",
+      "bytes": 47494,
+      "sha256": "897fceaa340fd042db03b3ea0f9b72b3e2c1a5c235d7104ead2c4b0104c07fc6",
+      "git_blob_sha": "8cd02f6d317139cfbc024d957bc29e296fc69c16"
+    },
+    {
+      "role": "geometry",
+      "name": "fixed_fejer_meridian_batched_continuous_gram_curvature_support.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_continuous_gram_curvature_support.py",
+      "bytes": 46723,
+      "sha256": "d0d0f45332ece0a63192b4e80c7c318635ba1068208bad45bec2a136781934a5",
+      "git_blob_sha": "0d5b050a0f7f909f42843ebad4a3f46942dc9069"
+    },
+    {
+      "role": "bridge",
+      "name": "fixed_fejer_meridian_batched_complete_geometry_support_beta_bridge.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_complete_geometry_support_beta_bridge.py",
+      "bytes": 20878,
+      "sha256": "d0b72820b7a7f8f872d2cb460e6f2fba3a685804e200ac4f35f7f12bf33cb0e7",
+      "git_blob_sha": "9a0a9e1afb5d3e10548a25934117f5dc335687ef"
+    },
+    {
+      "role": "normal_ready",
+      "name": "fixed-fejer-meridian-batched-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "bytes": 16723,
+      "sha256": "029a12e9a1c0ba2c0bac068caf94743e8cb3521cfb3f31ba21db7ad4c3d7400a",
+      "git_blob_sha": "ff6ebfbcb68d5140e44bd54ad163d5b17ab22fe9"
+    },
+    {
+      "role": "geometry_ready",
+      "name": "fixed-fejer-meridian-batched-complete-continuous-gram-curvature-support-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-complete-continuous-gram-curvature-support-ready.json",
+      "bytes": 17060,
+      "sha256": "949acd57b29bf81944df85c8af5deacdd8ac0dd21774494b62b6f47a680975e5",
+      "git_blob_sha": "65c7cbdcc93cc97d9f342828da592dae963d1b4c"
+    },
+    {
+      "role": "reproducer",
+      "name": "reproduce_fixed_fejer_meridian_batched_accurate_fees.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_meridian_batched_accurate_fees.py",
+      "bytes": 81131,
+      "sha256": "1ce6a485526b20bebb73ccd373076b596ecdc4a9fdeb12fa2be0a4c46370e3c4",
+      "git_blob_sha": "57979dc27f090014c28a601d3ebd4f64b53f3968"
+    },
+    {
+      "role": "note",
+      "name": "2026-11-27-meridian-batched-fixed-fejer-complete-accurate-fees.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-meridian-batched-fixed-fejer-complete-accurate-fees.md",
+      "bytes": 26467,
+      "sha256": "49ca33aaebf02793e1a2194b4f2cddfbd4a94ad1743bd9091c5392a4da7db39b",
+      "git_blob_sha": "a33de512c8eb64290510a58f5138c57b55b8e74e"
+    }
+  ],
+  "new_file_count_excluding_manifest": 10,
+  "new_bytes_excluding_manifest": 375158
+}
