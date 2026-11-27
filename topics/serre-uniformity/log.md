@@ -571,3 +571,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 
 - R1070§10原Jacobi/Bernoulli极点及直接范数和排κ异常与quadratic角色，原unit格基保证ψ_c公式扩至完整实际V；未把class-group未付款角色冒唯一global候选。
 - root/global独核整个家族精确visibility，safe prime只ℓ1modp可读；无效辅助素不再计算标签，基础点空障碍保留。继续实际可见素的同点共同像，无数学执行。
+
+### 2026-11-27 08:44 Asia/Taipei — 小时同步与执行器重试
+
+- 00:44:22 UTC真实调用部分克隆目录的git pull --rebase origin main，工具仍返回No usable execution environment；shell未运行，最近成功真实pull仍为01:48 Asia/Taipei。
+- 随后连接器重新读取main并检查两README差异；无变化，当前已读SHA记H。按根规矩8继续小文本fallback和非force expected_sha更新，环境恢复立即真实pull；研究未暂停，无数学执行。
