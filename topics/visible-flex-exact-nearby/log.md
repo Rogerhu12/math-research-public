@@ -161,3 +161,10 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 原45941738781/1、event785c518e09d0d0a11a31730226c5ca66c9bf2a4d于04:45:27在public worker main line167抛KeyError reviewed_rules；完整decoded日志139208B、SHA256 fcc16476af7618d9a3804883a2872f6816df51ccbe800e7230853f387e76c582。继承引擎硬取by_role[reviewed_rules]，原RHI current前缀令主role变RHI_reviewed_rules，路径alias不替代主role。该行在首pull、reservation、try/publication及唯一Popen前；实际0child/0science/0target，没有伪造未产生的native execution。完整失败事实见notes/2026-11-27-complete-reference-world-height-rule-role-failure.json。
 
 新5件只修主role并显式准入此真实失败；原owner/math/restore、四targets、8192grid、51history及所有数学参数不变。manifest71668B/414de43ca1eabc4445a098f95a8de6ffbdb7efc179752f4b4e8908498d83a85f绑定109current/51history，112必要sparse路径；共用原consumed marker，唯一新push workflow。原失败记录原样保留，不dispatch旧入口。BNC唯一45941963989/1已真实开始原7targets，未改变。规则按本commit父检查两README无diff。
+
+
+### 2026-11-27 — DBRA正式登记DWTB9全部实际结果
+
+独立登记R149 DBRA：唯一45935081577/1于04:35:55全9success，whole actual24958B/2658db04a88e92f88b26aed145db41401311dce3e63a8ba05d32d69dd915e158、execution27035B/94f1a5a87ff3215443c9fa8950ad037f10e225752d3fec9bd6e00f9fa75d01d7。完整原207/SN/raw/grid恢复、新2048w、96×192r及全部96×2240 signed residual保存完整SHA；eR≈.857445102如实保，不冒fullSchur。仅将本新proof公式分隔符改为README要求的美元格式，科学文字/球未变；原9目标不重算。H压缩仅索引，全部此前细节保公开695f不可变H及proof。
+
+04:54:50 UTC私库API刷新304232f86c0bd6aab3826a3fe1d7dfe92140b117；root README blob5ba164843b1f5802184178a82d786264404873a3无diff，QUEUE仍本会话进行中。环境仍不可用，未将API刷新称为git pull；下次不晚于05:54 UTC。公开两README按本父核无diff。

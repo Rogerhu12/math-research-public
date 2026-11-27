@@ -522,3 +522,8 @@ WRC公式修正：原658c3109的physical角导数补全q_b,φ·Δx，新增一�
 ### GHX：实际selected exterior disk嵌入与含boundary的本片reach（已证明）
 
 [完整几何证明](results/R119-supplement-actual-selected-exterior-disk-embedding-and-reach.md)及[4新组合](scripts/fourfold_codazzi_selected_exterior_geometry_saved_bounds.py)。同γ真实radial reference、同λ/placement，whole tail+finite+filleddisk物理C²差<2^-46M；完整片C² isometric embedding。凸材料域全局co-Lip/最近点一阶不等式保boundary，reach≥49/136>1/3 physicalunits，另有normal/II差。此为本片，core union/cross距和最终全族reach/D独立。
+
+
+### R149 DBRA：实际target w与完整B inverse96行
+
+[完整证明与全部9正式球](results/R149-supplement-actual-direct-target-w-and-complete-B-inverse-rows.md)。45935081577/1于04:35:55成功，全2048真实w trial、96×192完整r carrier和96×2240完整residual已保存whole身份；e_w∞≈.347099250、e_w2≈.064636867、finite residual≈.014591177，而全空间联合行误差eR≈.857445102。后者完整保留true w系数误差，不以小finite residual代替。BR原same inverse/4n尺度/真a相位/两独立mean不变。允许BNC消费全部96行及整eR；不授完整forward列、physical PDE或fullSchur。原9success不重算。
