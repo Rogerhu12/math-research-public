@@ -321,3 +321,185 @@ $\mathcal V_3,\mathcal V_4$ 两个余项。不能从 $g$ 为单位
 $\Delta_{\rm low}=c_2d_1+G_{p-7}c_3$ 非零。
 使用这些列作原标签的分离时，仍须保留 §3 的实际 Bernoulli mask、
 全部较低乘积，以及两条 twist frame 的准确运输。
+
+
+## 8. 另外两条二同源：完整核与原 CM 第二类框架
+
+本节用另一条真实辅助同源检查 §6 的两个余项，不把新曲线上的
+标准 Weierstrass 系数直接当作原 marked 读数。
+取 $e^2=-a$，$Q_e=(e,0)$；同时允许 $e=0$ 表示旧 $Q$。
+置 $d_e=3e^2+a$。原二挠加法律为
+$$
+x_{Q_e}=e+\frac{d_e}{x-e},\qquad
+m_e=\frac y{x-e},\qquad
+Dm_e=x-x_{Q_e}.
+\tag{1135.19}
+$$
+normalized degree-two quotient $q_e:E_a\to E_e$ 的坐标和微分是
+$$
+X=x+x_{Q_e}-e,\qquad Y=\frac12DX,\qquad
+q_e^*\frac{dX}{2Y}=\omega.
+$$
+因此
+$$
+E_e:Y^2=X^3+A_eX+B_e,\quad
+A_e=-4a-15e^2,\quad B_e=-7e(3e^2+a).
+\tag{1135.20}
+$$
+对 $e\ne0$，这是 $(A_e,B_e)=(11a,14ae)$；
+对 $e=0$，是 $(-4a,0)$。
+
+以下所有 sigma 首项均为 $t$，所有平方根按 $t=0$ 的首项选取。
+记 $\zeta_e,\sigma_e,\mathscr K_e$ 为 $E_e$ 的标准 Weierstrass 数据，
+并写
+$$
+\zeta_{Q_e}=\zeta(t+Q_e)-\zeta(Q_e)=\zeta+m_e .
+$$
+由 (1135.19) 求导并比较 $O$ 首项，严格得到
+$$
+\zeta_e(t)=\zeta(t)+\zeta_{Q_e}(t)+et,\qquad
+\sigma_e(t)=e^{et^2/2}\sigma(t)^2\sqrt{x(t)-e}.
+\tag{1135.21}
+$$
+这里 $et$ 及 $e^{et^2/2}$ 不能删除。
+
+原 CM 第二类框架有一个同源的定标：
+$$
+q_e^*((X+e)\omega_e)=2x\omega-dm_e.
+\tag{1135.22}
+$$
+所以它对应
+$\widehat\zeta_e=\zeta_e-et$、
+$\widehat\sigma_e=e^{-et^2/2}\sigma_e$。
+这在 de Rham 上正运输原 Gaussian 的 CM 第二类直线；
+不是在新曲线上任意选一个线性项。
+相应完整核为
+$$
+\widehat{\mathscr K}_e(T,U)
+=e^{-eTU}\mathscr K_e(T,U),\qquad
+\mathscr K_{Q_e}(T,U)
+=e^{-\zeta(Q_e)U}\mathscr K(T+Q_e,U)
+=\mathscr K(T,U)
+ \sqrt{\frac{x(T+U)-e}{x(T)-e}} .
+$$
+(1135.21) 给乘法分布，而同一二同源的线性分布给
+$$
+\boxed{\begin{aligned}
+\sqrt{x(U)-e}\,\widehat{\mathscr K}_e(T,U)
+ &=\mathscr K(T,U)\mathscr K_{Q_e}(T,U),\\
+\widehat{\mathscr K}_e(T,U)
+ &=\mathscr K(T,2U)+\mathscr K_{Q_e}(T,2U).
+\end{aligned}}
+\tag{1135.23}
+$$
+第二式可直接按 $T$ 核准：两边在 $O,Q_e$ 的全部 residues 相同；
+其沿原 period $\omega_0$ 的 multiplier 都是
+$\exp(2\eta_{\omega_0}U)$。
+在 $Q_e$ 处使用
+$\eta^{E_e}_{Q_e}=2\zeta(Q_e)+eQ_e$，恰由
+$e^{-eTU}$ 消去额外相位。
+generic $U$ 的这条非平凡 degree-zero line 没有全纯截面，
+故差为零。再作有理/形式延拓，包含所有本文读取的系数。
+因此 (1135.23) 没有遗漏一个全纯或指数补项。
+
+$e=0$ 时
+$\widehat{\mathscr K}_0=\lambda\mathscr K(\lambda T,\lambda U)$，
+(1135.23) 正回原 $1+i$ 两种分布；不是另一个归一。
+
+## 9. 完整二挠 trace 只给原偶 band 的对角运输
+
+在同一刚化下，乘二同源的线性分布为
+$$
+\sum_{Q\in E[2]}\mathscr K_Q(T,2U)=2\mathscr K(2T,U),
+\qquad \mathscr K_O=\mathscr K.
+$$
+它同样由四个二挠点的 residues、multipliers 和 $O$ 首项唯一确定。
+把 (1135.23) 对三个非零二挠点求和，得到
+$$
+\boxed{\quad
+\widehat{\mathscr K}_0+\widehat{\mathscr K}_e+
+\widehat{\mathscr K}_{-e}
+=2\mathscr K(T,2U)+2\mathscr K(2T,U).
+\quad}
+\tag{1135.24}
+$$
+原 CM $i$ 交换 $e,-e$，而精确的 gauge 也同时运输：
+$$
+\widehat{\mathscr K}_{-e}(T,U)
+=i\,\widehat{\mathscr K}_e(iT,iU).
+$$
+所以在总次数 $4\ell-1$ 上，两者的 band 相同。
+记这一 band 为 $\widehat P_{\ell,e}$。由
+$\widehat{\mathscr K}_0=\lambda\mathscr K(\lambda T,\lambda U)$，
+得到完整的逐系数公式
+$$
+\boxed{\quad
+\widehat P_{\ell,e}(T,U)
+=P_\ell(T,2U)+P_\ell(2T,U)
+-\frac{(-4)^\ell}{2}P_\ell(T,U).
+\quad}
+\tag{1135.25}
+$$
+只在 $1\le\ell\le k$ 的原安全范围约化；
+所有权不超过 $p-3$。新曲线其他 parity 的 band 不被偷偷加入。
+
+特别，按原 $c_2,c_3,d_1$ 的指数定义相应带帽系数，并令
+$h=G_{p-7}$、$\widehat h=G_{p-7}(E_e)$，则
+$$
+\boxed{
+\widehat c_2=\frac{137}{32}c_2,\qquad
+\widehat c_3=\frac{529}{64}c_3,\qquad
+\widehat d_1=\frac{497}{256}d_1,\qquad
+\widehat h=\frac{121}{128}h .
+}
+\tag{1135.26}
+$$
+例如最高 band 的 $U^s$ 列因子为
+$2^s+2^{p-4-s}+1/4$，因为 $(-4)^k=-1/2$；
+下一 band 则用 $(-4)^{k-1}=1/8$。
+本式是等式，不据此反除全部因子；
+当前 $p\equiv3\pmod4$、$p\ge41$ 范围内仍须保留
+$p=71$ 时 $497=7\cdot71$ 给的零因子。
+
+这也精确解释新曲线旁单位的范围。
+由 (1135.22) 和 supersingular Cartier，
+$\beta_e=2\beta=-2\delta$。
+写 $\sigma=e^p/e\in\{\pm1\}$。
+一般 SS 的完整 Frobenius 反射
+$G_{p-5}(E_e)^p=120\beta_e^{p-6}G_6(E_e)$、
+$G_6=-B_e/35$ 给
+$$
+g_e:=G_{p-5}(E_e)=\frac{3\sigma ae}{2\delta^5}\ne0.
+\tag{1135.27}
+$$
+这里保留了 $B_e^p=\sigma B_e$；不能因原 $a\in\mathbf F_p$
+就把新 $B_e$ 也当成 $\mathbf F_p$ 系数。
+
+令标准 Weierstrass 读数
+$\mathcal H_p(E_e)=[t^{p-5}](\zeta_e^2-X)$。
+原 CM 框架的同一列则是
+$$
+\widehat{\mathcal H}_p(E_e)
+=[t^{p-5}](\widehat\zeta_e^2-X)
+=\mathcal H_p(E_e)+2e\,g_e.
+$$
+(1135.25) 在最高 band 的 $U^1$ 列准确给
+$$
+\boxed{\quad
+\widehat{\mathcal H}_p(E_e)
+=\frac{37}{16}\mathcal H_p(E_a),\qquad
+\mathcal H_p(E_e)=\frac{37}{16}\mathcal H_p(E_a)-2e\,g_e .
+\quad}
+\tag{1135.28}
+$$
+所以即使 $\mathcal H_p(E_a)=0$ 时标准
+$\mathcal H_p(E_e)=-2e\,g_e$ 为单位，真实 CM 框架中的该列仍为零。
+新 $g_e$ 位于另一 CM parity 的高权层；
+(1135.24) 没有把它运输为原 $\Delta_{\rm low}$ 的单位。
+
+本节的结论是完整 trace 和框架补项均已结算：
+仅将原偶 band 换到另外两条二同源曲线，所得仍是
+(1135.25) 的对角运输，并未增加一个原共同纤维条件。
+后续仍须处理同一实际 good mask 下的原行列式或剩余点对，
+不把 (1135.27) 的旁读数替代它。
+本节为纯纸面推导，没有数学程序执行。
