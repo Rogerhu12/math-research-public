@@ -382,3 +382,8 @@
 ### 2026-11-28 00:25 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1132由完整Cartan的真奇尖点线及H的p单位transfer付准确ω^(1−r)、阶p和w=−1；full第一Chen整同源、同素数DVR与唯一new rank2/Schur使整个相关块负，原正商几何p-divisible块遂不存在。
 - 主应用r=2仅需p∤B_(p−3)，确消原规范未分歧整K₂[p]的平凡Δ角色；并保所有低偶r的双Bernoulli推广。root/global/o2全文独纸核三份primary、实际Galois方向、商核及μp扭曲；H前态逐字归档，R1131加精确后继链接。尚未将实际cochain置入该群，继续原整关系与全部剩余分支，无数学执行。
+
+
+### 2026-11-28 00:31 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原integral-unit note证明全p-primary specialization/全cusp平均、real cusp even torsion tame自动零及原S-unit常数的transfer消去。结合R1132，在p∤B_(p−3)时将原actual canonical unit符号格的已知有理平凡角色关系提升为p-local整关系。
+- root/global/o2精确全文纸审，保先e₀后平均、原Tate leading、R1070除法多项式共同常数的augmentation抵消；未除12p、未改原Kummer类。一般cup非任意有理零，实际四阶cochain仍继续。H逐字前态归档，无数学执行。
