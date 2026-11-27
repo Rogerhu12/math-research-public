@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，等权原均值差首项零支排除）**：[准确y≠1图与完整A_m零支](results/R150-appendix-unit211-equal-weights-original-mean-leading-zero-exclusion.md)：原EBo解t，E1−mEBe精确给对m一次式；A_m0的z0/非零两支分别由原一元gcd和物理Dval0、已付(z+1)(z²+1)²排尽。三实际V8函数体1.059/0.094/0.005秒，可合法解m，保v0不删。
+
 - **已证明（R150，Q=1−u/H_Q=0整权线排除）**：[严格原整数CRT及同根两层返回](results/R150-appendix-unit211-Q1minusU-Hzero-complete-exclusion.md)：原mean/N1化F/G二次，不除ax+b首项；固定10阶结式以严格界CRT还原完整53/53次QQ多项式，只余D三次域。全K[y]迫唯一y、原K[x]Bézout=1；源50a9b96b完整V8实际1.430秒，合已闭y1排整线。
 
 - **已证明（R150，W0/H0原全部最高次方向排除）**：[原同z二次式与全参数单位](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-original-highest-degree-exclusion.md)：H0有理参数整曲线保全部复嵌入；完整原Gram尺度返回及4阶QQ(i,w)结式准确为已付单位，含X=Y/X0所有方向。源d39dc87c实际7.287秒、23分母返回；仅排射影最高次零点，H0有限点仍开，未支付H单位。

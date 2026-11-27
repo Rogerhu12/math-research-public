@@ -1,0 +1,49 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "runtime": "functions.exec pure V8 exact BigInt rationals",
+  "sourceFiles": [
+    {
+      "name": "2026-11-27-unit211-equal-weight-regular-original-chart-8542.js",
+      "sha256": "cfaa65b201c64aa7e7f019d955212b038260eb626a0b12a96856d9fd90e73e78"
+    },
+    {
+      "name": "2026-11-27-unit211-equal-weight-mean-leading-zero-original-fibers-8542.js",
+      "sha256": "d0f81615d9f5b17f50482a4a562ae527cc0bc8dc5b4c27a2681ad138017ca77e"
+    },
+    {
+      "name": "2026-11-27-unit211-equal-weight-mean-leading-zero-original-certificate-8542.js",
+      "sha256": "2f7a479d169b82f9941591a73b9e64586968f5bd36ec2d11c44126187e75bc8f"
+    }
+  ],
+  "stageSeconds": [
+    1.059,
+    0.094,
+    0.005
+  ],
+  "completedNormally": true,
+  "osExitCode": null,
+  "peakRssKiB": null,
+  "originalMeanDifferenceIdentity": "E1-m EBe=-2(m-1)[z d v^2+(m-1)(d+z^2)v-z(2m-1)]",
+  "zeroZReturnGcd": "m-1/2",
+  "nonzeroZReturnGcd": "(z+1)(z^2+1)^2",
+  "coefficientDegrees": {
+    "zeroZ": [
+      5,
+      1,
+      -1
+    ],
+    "nonzeroZ": [
+      13,
+      4,
+      -1
+    ]
+  },
+  "actualFullOriginalFiberBezout": true,
+  "finalHalfWeightHankelReturn": "Complete paper calculation from the displayed original Gram: lambda=1/2,T=-1/2,ell=1/2 imply D=0. No separate execution claimed.",
+  "claimScope": "Equal-weight original mean difference coefficient of m is never zero after the paid y=1 exclusion; the remaining equal-weight system is open.",
+  "canonicalOutputHashes": [
+    "75d65a10bb9a15d656169f0def63e0151ceecc474a2da0daa227e33d80d76586",
+    "3412f184213d561408a93491ea5894ea0aae9f9ca3e5aaf725349719f79db398",
+    "82d655d7ba53e018ef4f42f73110f4032876cf71f9549f01bc180ec60b3fe7f1"
+  ]
+}
