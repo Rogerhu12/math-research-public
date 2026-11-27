@@ -393,3 +393,5 @@
 - [PHI整数幂显式接续](notes/2026-11-27-strict-nu-phase-whole-cube-continuation.md)：45914123725/1已whole恢复NP4数组，0/6新目标/no integralprefix，完整actual cd448705…/execution5975debd…保。新q jet的r1跨零球在arb整数3 API产生非finite，仅改等义三次区间乘法，原whole球/third error不变；95current/315historical、manifest6ca3b71339e0ece21f10f7474011b9632e47034f5848f0fbb8fc92053c3c0a5e，owner/carriers冻结，source2ece37d59/public888d23a7ef唯一后继。
 
 - [WH：完整passive同world高度二阶与独立端口](results/R144-supplement-complete-passive-world-height-Hessian-with-independent-ports.md)：34个新saved有理比较已全过，原全区a/β/γ/mean/真ν和所有尾保；正交Duhamel无M指数，完整位置L² mixed二阶<4.4e10 A³、A=2^20。fixedphysical高度精确配对<ζ(Θ)J,F>给所有模/mean的H−3 mixed Hessian≤2^100，保真实outer frame/position/waisttrace，普通L²body不取免费trace。未把Fφ换成无缺陷几何值，未恢复/假设signed worldcarrier；高阶height、全逆/匹配仍待。
+
+- [PT：whole positive独立两端全角阶tame图](results/R144-supplement-all-angular-positive-Cauchy-graph-with-one-high-background-factor.md)：18个新saved有理比较已过；全body/collar原frame和ordered primitive/两mean/head source保，所有整数阶只一次A^{n+5/3}高背景。M_n=[560(n+1)]³辅助tail吸收，原97..M_n/4 middle只用既成H¹解不重造大finite逆；显式A_n及真实root/outer trace。只独立stable-root/unstable-outer图，实际moving-angle exterior反馈另付，不授full边界逆。
