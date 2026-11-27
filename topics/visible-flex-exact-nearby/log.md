@@ -82,3 +82,7 @@
 ### 2026-11-27 WMR：原世界锚与完整物理平均高度归约
 
 已证明/7新有理组合首次全过：从原Connection.anchor逐列恢复detQ=−1、e_z^TQ=(-aCref,0,-β/γ)，真实tail world锚误差在原验证器明确未含，故B_Q/B_F/rigid ports独立保。原完整terminal block在46f127c7153f5393dcd2a00f42d4c1d3662c294d可whole同SHA恢复；既成alignment加已付short-selected费给κref<.000108627。固定physical ζ=1时body νmean的完整核为Πq0[J Aᵀy+δJ Aᵀx]；general ζ的ψ项、Cθ转换、两mean/ΠδJ=0真消竖直常数均逐项保，ASB真uniformL²付δJ。只参考signed body归约，无actual世界锚成功声明；后继待RHI whole。
+
+### 2026-11-27 BNC：完整B-normalized strictν96列首合同
+
+已证明完整contract/pure，尚未执行actual。原NP physical waist f=(y+ + y−)/2与完整U_H−1，经全部G=K48∘H24（真实a相位，不用odd G_o）作8192点/192新Fourier observations，再精确全96行配对。联合费eR BH N0+√96 BH D/√2+(768 EH/√m) JI N0+全analytic alias/全quadrature；JI消费DWTB完整既成HS，m由JC两whole候选推广至同homotopy，未额外√96/重旧norm。自然七targets=五完整费、whole joint、96 signed column；前驱DWTB未完成，不造实际manifest或成功声明。

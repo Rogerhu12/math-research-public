@@ -480,3 +480,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### WMR：原世界锚和完整物理平均高度归约（已证明）
 
 [证明与原锚身份](results/R147-supplement-original-world-anchor-and-physical-mean-height-reduction.md)及[7条新有理组合](scripts/fourfold_codazzi_world_mean_height_saved_bounds.py)。原anchor detQ=−1，完整physicalmean核Aᵀ(Jy+δJx)，generalζ、Cθ、两个mean和actual B_Q/F_b/rigid ports保持。完整原waist alignment与short transfer给κref<.000108627；它只支付原参考q0ref替e1费，实际anchor差仍独立。原whole terminal块可必要同SHA恢复，RHI carrier尚未预宣告成功，后续只算首次kernel配对。
+
+### BNC：完整target-normalized strict参数列（已证明合同）
+
+[完整证明](results/R147-supplement-target-normalized-strict-parameter-column.md)与[首列纯实现](scripts/fourfold_codazzi_target_normalized_strict_nu_column.py)。完整G保真实a相位，192个新Fourier observations与96完整B inverse rows共同配对；原NP whole carrier/PO norm/ASB真error和全quadrature/alias/composition费均保。联合fee含eR BH N0、√96 BH D/√2和(768 EH/√m)JI N0。JC的m适用完整G/H同homotopy；DWTB whole后才可实例化七新targets，不把旧PO pairings视为完整96列。
