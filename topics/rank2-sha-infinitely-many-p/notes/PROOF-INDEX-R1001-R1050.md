@@ -38,3 +38,5 @@
 - [R1015](../results/R1015-original-thirteen-words-and-two-explicit-degree10-sources.md)：原两primitive来源的十三字逐条返回两个明确degree10函数σ¹⁰x²(X−8)与σ¹⁰(X+1)；完整Gauss/Weyl/χ6/χ10及所有Miller常数保留。实际乘子r=1/(4xx₂)、r(B)³=(5+3δ)/2048与全译像比值已付，所有g/h/P10/Z和乘积后Π保持；不赋新中央零，继续真正两约束强迫。
 
 - [R1017](../results/R1017-explicit-characteristic-five-section-and-original-shadow-vanishing.md)：原q5截面给完整有理函数坐标，原恒等式/全部极/两坏分量付高度10/3；deck共轭独立直接证明该小素数Tate，整判别式排指数5，得到全部MW=(5/3)A2及F5高10固定生成元。实际公开run45929764445 PASS。原全部54图及所有Artin分支在5处落四个F25 j0纤维，评值6挠使倒6后shadow全零；继续一般q，未以新NS方向代原AJ非零。
+
+- [R1018](../results/R1018-original-fourth-word-adjoint-and-single-frobenius-weight.md)：在同一特征零权内选H≈p/6≥L_p，模p准确退成单W^p；一般余band另付B/DB闭式。全13第四阶保持Miller/角色及所有归一，实际旧分量Ψ27462500系数61ω/18480。完整Cartier伴随保四项曲率，diagonal六块移位与末四b第五块补项齐；换profile真实转到其余12纤维。双支target差准确为−(61/18480)(p+1)log非零，不把新测试赋canonical零，继续实际exact消元。
