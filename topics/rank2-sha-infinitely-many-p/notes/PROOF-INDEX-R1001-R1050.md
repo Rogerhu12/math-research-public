@@ -70,3 +70,5 @@
 - [R1028](../results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)：末六原权有固定Hermite分解W_t=W∞+cp·u^pT_t，全部水平项/小坏素数已付；同一个target截面拉回后，完整39核与四阶adjoint cut第一primitive的低窗可统一W∞。全三字保原Fp/常数2/3和正mode2；Lamé原p曲率付单位nilpotent，完整P10交换子保全部e项。只统一实际有限读者，未删全函数或char0权余项；继续全Miller/τ/χ8生成及确定两行单位forcing。
 
 - [R1029](../results/R1029-original-two-torsion-cm-genus-two-and-norm-classes.md)：原S非零2挠谱域准确为亏格二C:w²=(z³−4)(z³−16)，实际f3/r2到B的交叉迹符号与Gram完整给JacC→B²度3。原Norm核两独立2类及惰性q规范gq平方Norm均付。完整S3闭包D:4H³=A⁶−1逐点恢复全部2挠、原三次deck和两坏处分歧；四实际CM角色给JacD的真Frob²=[−q]（全q≥5惰性）。这是实际谱盖/Norm输入，不代S的Chow比较、一般Q或原27对非零。
+
+- [R1030](../results/R1030-actual-cubic-angle-field-and-complete-threefold-source-lattice.md)：实际三次角域由任一新同charge源的全δ-trace0严格生成；五点公共除子、完整195余权/36270自由整基与c8Δ导子weight70005全付，允许好p上保持三次/全环p饱和。实际来源格累计31M²/65、完整普通/惰性/实范数及同H/E六位继承；三个物理像保三次关系和全部跨界，秩不可相加，指定forcing与a+2b<3仍待。
