@@ -43,6 +43,7 @@ PARAMETERS = {
     "arithmetic_bits": 320, "decimal_record_digits": 60, "private_ball_digits": 90,
     "maximum_scientific_wall_seconds": 16800,
     "row_count": 96, "IR_positive_modes": 192, "AS_positive_modes": 2048,
+    "AS_complete_raw_source_positive_modes": 192,
     "complete_Theta_row_modes": 2240, "physical_frequency_factor": 4,
     "physical_period": "pi/2", "target_basis": "sqrt(2)*cos(4*n*x-2*n*a), true a=2*H(0)",
     "source_phase": "b=a+Omega", "first_coefficient_mean": "nu=-mu/2",
@@ -196,6 +197,10 @@ def restore_AS(context, destination, progress):
     parent, pure, restore = context["AS"], context["AS_math"], context["SN_restore"]
     actual = parent["actual"]
     original = parent["admitted"][0]
+    require(pure.RAW_MODES == PARAMETERS["AS_complete_raw_source_positive_modes"] == 192
+            and actual["parameters"]["complete_raw_source_positive_modes"] == 192
+            and actual["private_raw_trial_receipt"]["positive_modes"] == 192,
+            "the entire successful ASR source192 carrier, after its whole original failure admission")
     for name in ("source_error_columns", "raw_trial_strip_norm", "complete_analytic_data",
                  "complete_mode_data", "complete_tail", "complete_errors"):
         setattr(pure, name, forbidden)
@@ -213,13 +218,14 @@ def restore_AS(context, destination, progress):
     api = directed_api(flint)
     chi = inp.root_data(1, True)["chi"].v.value().ne()/inp.rs.sqrt()
     raw_source = refs[1]+chi-inp.mu/2
-    require(raw_source.lo >= -128 and raw_source.hi <= 128, "the whole original raw source")
+    require(raw_source.lo >= -pure.RAW_MODES and raw_source.hi <= pure.RAW_MODES,
+            "the whole original raw source192")
     mean = api.rational(helper.rat(raw_source.mean()))
     pairs = []
-    for n in range(1, 129):
+    for n in range(1, pure.RAW_MODES+1):
         coefficient = (raw_source.coeff(n)+raw_source.coeff(-n).conjugate())/2
         pairs.append([str(helper.rat(coefficient.real)), str(helper.rat(coefficient.imag))])
-    raw_trial = {"kind": "AS_complete_raw_signed_trial_v1", "positive_modes": 128,
+    raw_trial = {"kind": "AS_complete_raw_signed_trial_v1", "positive_modes": pure.RAW_MODES,
                  "exact_mean": str(helper.rat(mean)), "all_positive_exact_pairs": pairs,
                  "negative_modes_are_exact_conjugates": True}
     raw_bytes = canonical(raw_trial)

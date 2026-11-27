@@ -21,7 +21,7 @@ GENERATOR = TOPIC+"/scripts/make_complete_original_Theta_rows_manifest.py"
 MANIFEST = TOPIC+"/notes/2026-11-27-complete-original-Theta-rows-inputs.json"
 WORKFLOW = ".github/workflows/fourfold-codazzi-complete-original-Theta-rows-public.yml"
 PARENTS = {"IR": TOPIC+"/notes/2026-11-27-inverse-density-rows-inputs.json",
-           "AS": TOPIC+"/notes/2026-11-27-original-alpha-carrier-inputs.json"}
+           "AS": TOPIC+"/notes/2026-11-27-original-alpha-full-source-inputs.json"}
 
 
 def sha(raw):
