@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `076416813fb73096fc7b110b1152d30381954630`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `a145bbec0c1b24bf709c9bd86e7656703e68b11d`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-second-cartier-primitive.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -53,7 +53,7 @@ R1009固定Y0在7993的真实扩张LieV有Tate(2,−1)，排有限1-motive范畴
 
 R1014从实际degree1射影族/四Weil中心完整解消及自给period证明支付已发表HYZ B：原S所有充分大q的Tate，未知q0未冒全q。惰性NS−q²、MW(q/3)A2、Frob−bar及两Br0；原54图全η/Cor/P−转置交式保持。
 
-R1017原q5截面在P=(3,1)有唯一极，原方程/局部分量给高10/3；deck独立及整指数排除付全MW=(5/3)A2、F5高10固定元与两Br0。真实run45929764445/job140279423830/source72b66100a3bd20ae115ba77a4d0c4b025232d3b9，stdout2444B/SHA27af604e…7b423d。全54评值6挠，倒6后shadow零，不重跑q5。准确坐标/完整证明见R1017和逐字归档。q11新输入为R1019固定D_q的完整2662对(m,b)恒等式，已付所有端点/分母/原三次域返回；15分钟small请求将执行check-original-q11-kernel-section.py，10118B/SHA989df727…985b3。等待实际run，不预记解；此q的shadow倒6仍零。
+R1017原q5截面在P=(3,1)有唯一极，原方程/局部分量给高10/3；deck独立及整指数排除付全MW=(5/3)A2、F5高10固定元与两Br0。真实run45929764445/job140279423830/source72b66100a3bd20ae115ba77a4d0c4b025232d3b9，stdout2444B/SHA27af604e…7b423d。全54评值6挠，倒6后shadow零，不重跑q5。准确坐标/完整证明见R1017和逐字归档。q11原D_q完整2662对已实际无解：run45934797848/job140295406866/source1ac50c6e0283c6878c77c8fc9e357fc1b17a8ee1；03:32:55UTC，stdout848B/SHA0e8db179…4022a5。只排此固定除子，不重跑；已转同Pic类三重P6=(7,1)的新原方程，未预记新解。q11 shadow倒6仍零。
 
 R1019原η_j((q))=1且H/K忠实cyclic18，所有好惰性q在H/K完全分裂；保真正Cor_L/H后全shadow落A(Fq²)⊗R并被q+1杀掉，ordinary p检测必q≡−1 mod6p。原反Frob截面trace0强制W=Mx+N，(19)/(20)精确保两个原Kummer类。真实α_qδ=F−1、δα_q=−F−1、α_q²=−(q+1)/3，C=δB(Fq)；D_q=Σ(C非零点−T)由H_q=(Y^d−1)/(Y+1)、X=Y^−d(Y+1)^(1−d)逐式给出，d=(q+1)/3。完整Hensel二/三阶约束在2d/3d维RR空间给原截面有限方程；一般q存在/54非零尚未证，不把核除子冒作截面。§7.1又付L=(Y+1)^(d−1)及fL³的完整恒等式，J2=(1+H)/L modH²、J3=(1+H+YH²)/L modH³；原D_BU=L、D_BH=[1+(1−2Y)H]/X。
 

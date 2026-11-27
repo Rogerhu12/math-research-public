@@ -185,3 +185,5 @@
 - [R1019 §7.1](results/R1019-original-full-trace-and-inert-kernel-divisor.md)：原核多项式给fL³的完整特征q恒等式，原唯一Hensel根J2/J3有显式闭式，全部点的J1²H′=L/3及D_BU、D_BH准确；可直接消费完整RR约束，未把主部候选当实际截面。
 
 - [原核除子的完整降维方程](notes/2026-11-27-original-kernel-section-finite-equations.md)：从原RR空间严格推出m=MH多项式及一个常数b，完整截面方程化为一个多项式恒等式；m零点、两坏端点、实际极数/分量/高度均返回原模型。单q11恰2662候选的公开输入已提交，尚未预记运行或解。
+
+- [原q11完整负回执](notes/2026-11-27-original-kernel-section-finite-equations.md)：run45934797848实际完成原242个m/2662对，固定D11上解数0，只排该候选极除子；改用同Pic类的3P6=(7,1)三重除子，继续原方程，未外推一般不存在。
