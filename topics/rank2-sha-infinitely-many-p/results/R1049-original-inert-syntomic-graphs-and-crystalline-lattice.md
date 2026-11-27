@@ -4,7 +4,7 @@
 
 **已证明的范围。** 本篇把 R1011 的同一个、未 depletion 的固定最高循环放到目标素数 $p$ 本身惰性的情形。给出保全部54图、全部 $\eta_j$ 权及完整 corestriction 的 proper finite-polynomial AJ 公式，准确保留因子 $p/(p+1)$。另由原完整 NS 格证明：新增最短截面的两个 CM 分量在原晶体格中的指数分别为 $1,p$；全纯分量的晶体 Chern 类是原二形式的一个 $p$-adic 单位倍。
 
-§§8–13进一步在同一整扩张格中支付全Chern–Miller/PD比较与真实限制，将原残余参数 $\overline h_{j,p}$ 准确写为全部54图的 $d_i^pX_iP_p(X_i^3)$ 加权和，再识别为原 weight $p$ CM theta form 的同一 toric 值。§13保全周期、阶乘和有限型给这个 toric 值与原 R806 type4 的 $p-1$ Taylor 行的准确平方，固定坏集外二者同时为单位。该行的无穷素数非零以及它到通常全 $\Sha$ 的全球比较仍未付；非零二形式本身不替代这两步。
+§§8–14进一步在同一整扩张格中支付全Chern–Miller/PD比较与真实限制，将原残余参数 $\overline h_{j,p}$ 准确写为全部54图的 $d_i^pX_iP_p(X_i^3)$ 加权和，再识别为原 weight $p$ CM theta form 的同一 toric 值。§13保全周期、阶乘和有限型给这个 toric 值与原 R806 type4 的 $p-1$ Taylor 行的准确平方，固定坏集外二者同时为单位。§14再用原整 Čech 覆盖定标晶体单位，把它接到同源负二 Newton 端点，全部随 $p$ 变化的比例化为一个固定非零代数常数。该行的无穷素数非零以及它到通常全 $\Sha$ 的全球比较仍未付；非零二形式本身不替代这两步。
 
 ## 1. 固定循环、系数与有限删集
 
@@ -2163,3 +2163,224 @@ Proposition2.1（印刷720页）、Proposition3.3（727页）、
 [R735](R735-two-type-five-schwartz-and-rank-one-negative-moments.md)；
 固定$\gamma_j$仅用
 [R1002](R1002-beta27-katz-nonzero-at-every-split-prime.md)和其原 R994 输入。
+
+## 14. 原晶体 $\alpha_p$ 的绝对定标与同源 Newton 端点
+
+本节把(107)中的源 Frobenius 单位也用原 sigma 规范定出，
+然后和同一个$D_{j,1}$的惰性 Newton 端点相接。
+所得仍是原残余读数的平方等式；不把它冒充全$p$精度
+的 canonical/Soulé 比较。
+
+为区分三个不同的旧记号，以下写
+$$
+c_{\sigma,p}=[z^{p+1}]\log(\sigma_1(z)/z),\qquad
+c_{H,p}=\binom{3r-1}{2r-1},\qquad
+\rho_p=c_{H,p}^{-1},\qquad p=6r-1.
+\tag{108}
+$$
+$c_{\sigma,p}$是 R301 的首 sigma 分母，$v_p(c_{\sigma,p})=-1$；
+$c_{H,p},\rho_p\in\mathbf F_p^\times$是 R887 的完整 Hasse 归一。
+它们均不是(89)中固定的全权常数$c_j$。
+
+### 14.1 一个覆盖上的全部 Čech 计算
+
+先在原$E_0:y^2=x^3+1$上取
+$$
+\omega_0=\frac{dx}{2y},\qquad
+\eta_0=x\omega_0,\qquad
+e_0=-\eta_0 .
+$$
+这里$\langle\eta_0,\omega_0\rangle=-1$，所以
+$\langle e_0,\omega_0\rangle=1$，与(66)的杯积方向一致。
+可直接用第二类形式的 residue 配对核符号：
+在$u=-x/y$处，$r_0=x^2/y=-u^{-1}+O(u^5)$，
+$\eta_0-dr_0$正则，且
+$\operatorname{Res}_O(r_0\omega_0)=-1$。
+该 residue 正是$\langle\eta_0,\omega_0\rangle$。
+等价地，对下面的覆盖，Čech1一形式的 trace 取
+$-\operatorname{Res}_O$，这使$\mathcal O(O)$的$d\log$
+Chern 类有 trace 1，并给同一个杯积。
+
+令$D_2=E_0[2]\setminus\{O\}$，取两个实际仿射开集
+$$
+U=E_0-\{O\},\qquad V=E_0-D_2 .
+$$
+$r_0$在$U\cap V$正则；
+$\eta_0$在$U$正则，$\eta_0-dr_0$在$V$正则。
+用总复形约定
+$\delta(\alpha_U,\alpha_V)=\alpha_V-\alpha_U$、
+degree1闭条件$\delta\alpha=db$，
+$\eta_0$的完整代表为
+$$
+\bigl(\eta_0,\ \eta_0-dr_0,\ -r_0\bigr).
+\tag{109}
+$$
+其杯积同$\omega_0$的 Čech1分量为$-r_0\omega_0$，
+再次给上述负号。
+
+R887(2)、(31)、(46)给原指定函数的三个精确性质
+$$
+\mathscr F_p=Z+\rho_p r_0^p,\qquad
+D\mathscr F_p=DZ=1,\qquad
+\mathscr F_p\in\Gamma(U,\mathcal O),\quad
+Z\in\Gamma(V,\mathcal O).
+\tag{110}
+$$
+$\mathscr F_p$在$O$的主项为$-\rho_pu^{-p}$，
+$Z$在$O$反而为正阶。三个二挠点的全部负主部已经在
+$\mathscr F_p$中相消；因此(110)是整个覆盖上的性质，
+不是只保留一个最高极项。
+这三条的有限多项式证明只需$p\ge5$；
+这里不使用 R887 后续较大 Cartier 窗所另加的$p>211$门。
+
+晶体 Frobenius 模$p$在此 de Rham–Čech 复形上，
+对函数为$p$次幂、对一形式为零。因此(109)的像为
+$(0,0,-r_0^p)$。
+取两个实际正则函数
+$$
+g_U=\mathscr F_p/\rho_p,\qquad g_V=Z/\rho_p .
+$$
+(110)给$g_V-g_U=-r_0^p$以及
+$dg_U=dg_V=\rho_p^{-1}\omega_0$。
+减去它们的总 coboundary，准确得到
+$$
+\boxed{\quad
+\varphi[\eta_0]\equiv-\rho_p^{-1}[\omega_0]\pmod p .
+\quad}
+\tag{111}
+$$
+这里去除$-u^{-p}$的是$+\mathscr F_p/\rho_p$；
+若把原$\mathscr F_p$的负首项漏掉，(111)的符号会反转。
+
+$\omega_0,e_0$是原积分 de Rham 格的两个 CM 本征基。
+晶体 Frobenius 交换两条线，强可除性和完美杯积给
+$$
+\varphi\omega_0=p\alpha_{0,p}e_0,\qquad
+\varphi e_0=-\alpha_{0,p}^{-1}\omega_0 .
+$$
+将$e_0=-\eta_0$代入(111)，便有
+$$
+\boxed{\quad \overline\alpha_{0,p}=-\rho_p .\quad}
+\tag{112}
+$$
+这是原晶体矩阵中的单位，不是另取一个满足$DF=1$的函数
+以后自由规定的 period。
+
+### 14.2 原 sigma 分母与 $E_{27}$ 的半线性运输
+
+R301(11)把$c_{\sigma,p}$写成原 Laurent 系数。
+若$X_r=[z^{p+1}](z^2x)$，则
+$c_{\sigma,p}=-X_r/(p(p+1))$。
+R856 的原恒等式$D^{p-1}x=-c_{H,p}$，
+在$O$取常数项并用$(p-1)!\equiv-1$，
+给$X_r\equiv c_{H,p}$。
+所以同一旧首分母的准确单位为
+$$
+\boxed{\quad
+p c_{\sigma,p}\equiv-c_{H,p}=-\rho_p^{-1},\qquad
+\overline\alpha_{0,p}
+   =\overline{p c_{\sigma,p}}^{\,-1}.
+\quad}
+\tag{113}
+$$
+只使用$p$以下的整 Laurent 窗；没有把特征零$c_{\sigma,p}$
+提前替换成一个模$p$常数再作除$p$。
+
+现在返回原源$A=E_{27}$。
+在其已固定最小微分下取
+$e_A=-x_A\omega_A$；同一 residue 计算给
+$\langle e_A,\omega_A\rangle=1$，所以这正是(66)的相反 CM 基。
+置$t=2^{1/3}$。R991 的真实同构逐项给
+$$
+I_{27}^{*}\omega_A=t\omega_0,\qquad
+I_{27}^{*}e_A=t^{-1}e_0 .
+$$
+$p\nmid6$时$t$及全部三次根可在原未分歧二次域中取值；
+$\sigma_W(t)$必须保留，不能把几何同构当成$\mathbf Q_p$上的同构。
+Frobenius 自然性现在给
+$$
+\alpha_p=t\,\sigma_W(t)\alpha_{0,p}.
+$$
+模$p$时$t\,\sigma_W(t)=t^{p+1}
+=2^{(p+1)/3}\in\mathbf F_p^\times$。
+结合(112)–(113)，得到原$A$的准确单位
+$$
+\boxed{\quad
+\overline\alpha_p
+ =-2^{(p+1)/3}\rho_p
+ =2^{(p+1)/3}\overline{p c_{\sigma,p}}^{\,-1}.
+\quad}
+\tag{114}
+$$
+同构的两个倍率互逆，源/靶杯积均保留；
+这也核了$\alpha_p$的下降到$\mathbf Z_p^\times$与原(79)相容。
+
+### 14.3 同一个 $D_{j,1}$ 的真实 Newton 端点
+
+这里准确使用
+[原 type4 惰性负二 Newton 笔记](../notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)
+中构造的解析函数。为固定它的全部尺度，记
+$$
+d=p+1,\quad C_p=34c_{\sigma,p},\qquad
+a_{j,h}=C_p^{-h}[z^{dh-2}]
+       \bigl(D_{j,1}(z)e^{-C_pz^d}\bigr),
+$$
+$$
+J_{j,p}(v)=\sum_{h\ge0}a_{j,h}(v)_h,\qquad
+K_{j,p}(v)=\frac{J_{j,p}(v)}{pv}.
+\tag{115}
+$$
+$(v)_h$为下降阶乘；负指标系数为零。
+所引笔记保完整高尾，证明$K_{j,p}\in\mathcal O\langle v\rangle$，
+以及同一原来源的端点式
+$$
+\boxed{\quad
+\overline K_{j,p}(0)
+ =\frac{\overline d_{j,p-1}}
+        {34\,\overline{p c_{\sigma,p}}}.
+\quad}
+\tag{116}
+$$
+这里$J_{j,p}\in pv\mathcal O\langle v\rangle$并不意味着
+$d_{j,p-1}$整除$p$：分母$p c_{\sigma,p}$正是(113)的单位。
+(115)全用 R806(23)的$D_{j,1}$；
+若要回原$D_{j,17}$，须另沿 R806(24)作
+$\theta^{-4}D_{j,1}(\theta z)$的同一缩放，
+本式没有先把该$\theta$删除。
+
+### 14.4 所有变 $p$ 常数的严格消去
+
+把(114)、(116)代入(107)，并使用(104)。
+由$\rho_p^2(p c_{\sigma,p})^2=1$，
+$(p-1)!^2\equiv1$及$3^{p+1}\equiv9$，
+全部依赖$p$的有理幂逐项化为
+$$
+2\cdot2^{2(p+1)/3}\cdot2^{-(2p-1)/3}=4.
+$$
+原 period 单位仍为固定$\epsilon_0^{-3}$。
+因此得到
+$$
+\boxed{
+\overline h_{j,p}^{\,2}
+ =\overline{\mathscr C_j}\,
+   \overline a_{j,p}^{-2}[L:H]^2\,
+   \overline K_{j,p}(0)^{\,2},
+\qquad
+\mathscr C_j=-972\,\omega\,34^4
+       \epsilon_0^{-3}c_j\gamma_j .
+}
+\tag{117}
+$$
+$\mathscr C_j$是固定非零代数数；
+除其固定有限支撑及前面已列坏集外为单位。
+式(117)已消去未知晶体单位、全部变$p$阶乘、
+三次模型倍率和 sigma 首分母。
+它保留了原 Artin 基、全$[L:H]$及同一个$j$。
+
+所以在本篇全部几何/整格前提下，原最高扩张的残余非零，
+也严格等价于这个真实负二 Newton 端点为单位。
+这仍不意味着两种$p$-adic类在全部精度相等，
+不允许逐$j$任选平方根去比较原线性组合，
+也不把一个$H^3$端点直接贴到某条 rank-two 椭圆曲线的通常 Selmer 上。
+后继的 signed/Soulé 与 canonical 来源比较必须保留它自己的全源、
+积分格和外部项。以上定标无新数学执行。

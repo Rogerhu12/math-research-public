@@ -26,3 +26,7 @@
 - [固定29消费者§5](notes/2026-11-27-original-type4-inert29-coefficient.md)：29处进一步由原CM13的prime-to29完整Miller/trace整性与T³+ω在F29²不可约，三个整谱幂等元被Frob29²循环置换。原Q0的z4总首项136/13122为单位，故三个z4归一量全单位；实际z28总读数17⁴·20为单位，故三个原D4,17/D10,17/D16,17的z28系数全部为29单位。只用本次已消费首列与原几何恒等，不重算CM13，不预付toric周期或q0。
 
 - [R1049§13](results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)：原完整toric平方严格为 (Tg_jp)²=U_jp((p−1)!d_j,p−1)²，U=2ω3^(p+1)34²c_jγ_jρ^(2p−1)，γ_j=L(β_j,1)/Ω固定非零代数、ρ=ε0⁻¹2⁻¹/³保原9级。完整3处Gauss/Fricke相位及2/17实际权因子、无穷平移、体积、阶乘与目标p处球Euler全部支付；原p局部L和积分同为p²/(p+1)²并精确相消。原x/σ递推只用到p−5，给d_j,p−1整；固定坏集外U单位，从而原hbar非零准确等价同一R806 d_j,p−1模p非零，h识别仍需p>q0。无穷p非零及到rank2通常全Sha的原canonical桥仍开。
+
+- [R1049§14](results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)：原E0两仿射全Cech代表与R887全部二挠主部给φη0bar=−ρ⁻¹ω0；按原杯积e0=−η0，α0bar=−ρ=(pcσ)⁻¹。I27原两微分倍率与半线性Frob给αAbar=2^((p+1)/3)/(pcσ)。结合原同D1 Newton K=J/(pv)，残余平方准确化为hbar²=C_j a_j,p⁻²[L:H]²K(0)bar²，C_j=−972ω34⁴εperiod⁻³c_jγ_j固定非零；全部p变阶乘、2/3幂和首分母严格相消，保原Artin/full9/54权。几何使用仍保p>q0；不以残余平方冒全精度类等式。
+
+- [原type4惰性负二Newton与signed支](notes/2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)：完整负二Newton保高尾，a_h赋值≥ceil((h(p−1)+6)/(2p))，K modp为常数d_p−1/(34pcσ)，d首行单位等价整个K为整Tate单位并给全部d_(p+1)k−2的精确赋值1−k−vp((k−1)!)。R806全权平方保m!、(k−1)!及原惰性Euler，D17准确K17=K1/17；新BKNKO G.25/G.29在HT(2,−1)给完整整signed直和、augmentation的Hf是正线，原单位由完整偶导子root−/Kato互反归入M+。全精度signed标量与K²、原canonical坏forcing及通常Sha桥仍待。固定29三条K的单位与全部30k−2赋值已由同一旧回执直接消费，不预付q0。

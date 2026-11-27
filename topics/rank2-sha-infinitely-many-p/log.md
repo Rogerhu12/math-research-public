@@ -181,5 +181,9 @@ run46043363954/job140656405841实际成功：公开17:38:05UTC至b19a809e5cf0c7e
 消费central续节blob f8bff1a2ec9af7737033dea17497e8f288ac9a4a；root核原13核étale除子/Miller原点unit及无垂直分母、不可约三次/Frob²、原z4整归一与actual z28首列。三个原D_j,17的z28系数均29单位；无新增执行，不将有限29结论外推。
 
 
-2026-11-27 17:57 UTC / Astra-rank2-Sha-0b097461-20261127
+2026-11-27 17:55 UTC / Astra-rank2-Sha-0b097461-20261127
 R1049§13（89）–（107）：原完整toric平方严格为 (Tg_jp)²=U_jp((p−1)!d_j,p−1)²，U=2ω3^(p+1)34²c_jγ_jρ^(2p−1)，γ_j=L(β_j,1)/Ω固定非零代数、ρ=ε0⁻¹2⁻¹/³保原9级。完整3处Gauss/Fricke相位及2/17实际权因子、无穷平移、体积、阶乘与目标p处球Euler全部支付；原p局部L和积分同为p²/(p+1)²并精确相消。原x/σ递推只用到p−5，给d_j,p−1整；固定坏集外U单位，从而原hbar非零准确等价同一R806 d_j,p−1模p非零，h识别仍需p>q0。无穷p非零及到rank2通常全Sha的原canonical桥仍开。 root亲读Hsieh原刊一般Prop2.1及Prop3.3与原配对定义，核m=0无穷因子8(k−1)!/(4π)^(k+1)、有限全乘积、体积27/4和奇k符号；另手核原模型I27周期比例、(n−6)(n+1)递推、p−5整窗及107的−27。一般公式不套Theorem A的ordinary/squarefree假设；不把固定29单位外推q0。此时唯一v12实际job仍in_progress、无终门回执。整理前H9825B逐字归档至notes/2026-11-27-handoff-before-original-inert-toric-square.md，保所有旧门和回执链。无新数学运行。
+
+
+2026-11-27 18:04:40 UTC / Astra-rank2-Sha-0b097461-20261127
+R1049§14（108）–（117）与原type4完整Newton note同步提交：原E0两仿射全Cech代表与R887全部二挠主部给φη0bar=−ρ⁻¹ω0；按原杯积e0=−η0，α0bar=−ρ=(pcσ)⁻¹。I27原两微分倍率与半线性Frob给αAbar=2^((p+1)/3)/(pcσ)。结合原同D1 Newton K=J/(pv)，残余平方准确化为hbar²=C_j a_j,p⁻²[L:H]²K(0)bar²，C_j=−972ω34⁴εperiod⁻³c_jγ_j固定非零；全部p变阶乘、2/3幂和首分母严格相消，保原Artin/full9/54权。完整负二Newton保高尾，a_h赋值≥ceil((h(p−1)+6)/(2p))，K modp为常数d_p−1/(34pcσ)，d首行单位等价整个K为整Tate单位并给全部d_(p+1)k−2的精确赋值1−k−vp((k−1)!)。R806全权平方保m!、(k−1)!及原惰性Euler，D17准确K17=K1/17；新BKNKO G.25/G.29在HT(2,−1)给完整整signed直和、augmentation的Hf是正线，原单位由完整偶导子root−/Kato互反归入M+。全精度signed标量与K²、原canonical坏forcing及通常Sha桥仍待。root亲读R887原(2)/(5)/(31)/(46)/(47)全覆盖与R301 §§2–4的高度二Gauss窗，手核尾界、全k卷积、(k−1)!和17⁻¹缩放；亲读2508.17776v1 G.25/G.29/G.22，并保实际HT权、原本地有限角色值1和三处δ值−1的区别。给固定29纯Newton推论时单独标明仅需已付P_j整与d28单位，不调用q0或未知c_j/γ单位。原§13日志的人工17:57更正为实际commit633686f的author/committer 17:55:00UTC；此前提交证据仍完整留存。无新数学执行。

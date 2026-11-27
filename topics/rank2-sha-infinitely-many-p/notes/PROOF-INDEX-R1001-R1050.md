@@ -310,3 +310,12 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### R1049§13 — 原toric平方与同一type4首p行
 
 原完整toric平方严格为 (Tg_jp)²=U_jp((p−1)!d_j,p−1)²，U=2ω3^(p+1)34²c_jγ_jρ^(2p−1)，γ_j=L(β_j,1)/Ω固定非零代数、ρ=ε0⁻¹2⁻¹/³保原9级。完整3处Gauss/Fricke相位及2/17实际权因子、无穷平移、体积、阶乘与目标p处球Euler全部支付；原p局部L和积分同为p²/(p+1)²并精确相消。原x/σ递推只用到p−5，给d_j,p−1整；固定坏集外U单位，从而原hbar非零准确等价同一R806 d_j,p−1模p非零，h识别仍需p>q0。无穷p非零及到rank2通常全Sha的原canonical桥仍开。 只复用R806原三条线和R1002/R994固定中央值；无新数学执行，不从复非零推出模p单位。
+
+
+### R1049§14 — 原晶体绝对单位与同源负二端点
+
+原E0两仿射全Cech代表与R887全部二挠主部给φη0bar=−ρ⁻¹ω0；按原杯积e0=−η0，α0bar=−ρ=(pcσ)⁻¹。I27原两微分倍率与半线性Frob给αAbar=2^((p+1)/3)/(pcσ)。结合原同D1 Newton K=J/(pv)，残余平方准确化为hbar²=C_j a_j,p⁻²[L:H]²K(0)bar²，C_j=−972ω34⁴εperiod⁻³c_jγ_j固定非零；全部p变阶乘、2/3幂和首分母严格相消，保原Artin/full9/54权。全部几何有限删集与p>q0保持，三平方根未独选。
+
+### 原type4完整负二Newton与真实高权signed支
+
+[完整证明](2026-11-27-original-type-four-inert-negative-two-newton-and-signed-line.md)。完整负二Newton保高尾，a_h赋值≥ceil((h(p−1)+6)/(2p))，K modp为常数d_p−1/(34pcσ)，d首行单位等价整个K为整Tate单位并给全部d_(p+1)k−2的精确赋值1−k−vp((k−1)!)。R806全权平方保m!、(k−1)!及原惰性Euler，D17准确K17=K1/17；新BKNKO G.25/G.29在HT(2,−1)给完整整signed直和、augmentation的Hf是正线，原单位由完整偶导子root−/Kato互反归入M+。全精度signed标量与K²、原canonical坏forcing及通常Sha桥仍待。纯Newton固定29的三条单位和全部30k−2精确赋值另已付，不要求固定全权常数/几何q0在29满足。

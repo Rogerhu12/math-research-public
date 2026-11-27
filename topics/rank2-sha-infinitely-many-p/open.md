@@ -77,3 +77,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 原toric/type4比较已闭，继续同一行和通常Sha桥
 
 原完整toric平方严格为 (Tg_jp)²=U_jp((p−1)!d_j,p−1)²，U=2ω3^(p+1)34²c_jγ_jρ^(2p−1)，γ_j=L(β_j,1)/Ω固定非零代数、ρ=ε0⁻¹2⁻¹/³保原9级。完整3处Gauss/Fricke相位及2/17实际权因子、无穷平移、体积、阶乘与目标p处球Euler全部支付；原p局部L和积分同为p²/(p+1)²并精确相消。原x/σ递推只用到p−5，给d_j,p−1整；固定坏集外U单位，从而原hbar非零准确等价同一R806 d_j,p−1模p非零，h识别仍需p>q0。无穷p非零及到rank2通常全Sha的原canonical桥仍开。 此节完成上文曾列的全type4/period/阶乘比较；下一使用已证明的原R855/R856完整热递推和固定水平theta cover，研究同一PB4三维完整首p行，不重做有限热连接或用零p-curvature替代该行。负二Newton的实际来源与其高权signed整格另同步核定；不把HT(2,−1)的高权类改称椭圆T_E。
+
+
+### 原晶体/Newton首层已无未知单位，继续同源全精度
+
+原E0两仿射全Cech代表与R887全部二挠主部给φη0bar=−ρ⁻¹ω0；按原杯积e0=−η0，α0bar=−ρ=(pcσ)⁻¹。I27原两微分倍率与半线性Frob给αAbar=2^((p+1)/3)/(pcσ)。结合原同D1 Newton K=J/(pv)，残余平方准确化为hbar²=C_j a_j,p⁻²[L:H]²K(0)bar²，C_j=−972ω34⁴εperiod⁻³c_jγ_j固定非零；全部p变阶乘、2/3幂和首分母严格相消，保原Artin/full9/54权。完整负二Newton保高尾，a_h赋值≥ceil((h(p−1)+6)/(2p))，K modp为常数d_p−1/(34pcσ)，d首行单位等价整个K为整Tate单位并给全部d_(p+1)k−2的精确赋值1−k−vp((k−1)!)。R806全权平方保m!、(k−1)!及原惰性Euler，D17准确K17=K1/17；新BKNKO G.25/G.29在HT(2,−1)给完整整signed直和、augmentation的Hf是正线，原单位由完整偶导子root−/Kato互反归入M+。全精度signed标量与K²、原canonical坏forcing及通常Sha桥仍待。几何h仍需p>q0。当前研究同一三标签的共同残余符号与原线性组合，以及完整signed/Soulé坐标；不将高权H³类改为椭圆T_E，也不由固定29推无穷p。
