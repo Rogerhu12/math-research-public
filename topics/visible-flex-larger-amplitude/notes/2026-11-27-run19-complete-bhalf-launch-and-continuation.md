@@ -39,3 +39,196 @@ final模式须实际完整13成员；packet须完整required-angle不可变同�
 [参数再生器](../scripts/resume_20261126/reproduce_fixed_fejer_bhalf_complete_parameters.mjs) 10522B/SHA256 `8570320f61c5def522512553c2627a7abf551005f06d750ea872b2fb821cda00`读取已刊三个完整不可变父文件，生成上述science/pure/display整件，保所有显式改动及输出完整SHA/bytes。它只操作完整文本/JSON，不导入科学或执行AST/数值，不加入队列。原父参数仍按精确Git字节可读；新两输入的真实重建发生在公开Actions，而非此再生器。
 
 本发布准备时没有19 actual run ID、input/model/field/result，相关字段都为null；之后在本说明续写真实来源/返回。README真正完成标准未达到，继续求解及所有未付证明和实际精化。
+
+
+## 官方启动及首个必要输入实际返回
+
+官方run为[46076669320/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46076669320)，job140765886020，created/run_started均2026-11-27T22:26:37Z，head543cfdf281c9bcd0f9b13197721b003a275c5967。下面列官方完整run响应中用于定位本次任务的字段；不把workflow head冒实际科学工作树提交。22:28:27查询的完整jobs/steps显示依赖安装已success、research step5为in_progress。
+
+```json
+{
+  "endpoint": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs?head_sha=543cfdf281c9bcd0f9b13197721b003a275c5967",
+  "id": 46076669320,
+  "run_attempt": 1,
+  "head_sha": "543cfdf281c9bcd0f9b13197721b003a275c5967",
+  "status": "in_progress",
+  "conclusion": null,
+  "created_at": "2026-11-27T22:26:37Z",
+  "run_started_at": "2026-11-27T22:26:37Z",
+  "name": "Visible larger amplitude complete next supported seed 20261127 19",
+  "path": ".github/workflows/visible-larger-20261127-parallel19.yml",
+  "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46076669320",
+  "job_id": 140765886020
+}
+```
+
+```json
+{
+  "jobs": [
+    {
+      "id": 140765886020,
+      "name": "Construct the same fixed target and solve the complete next supported seed",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_id": 46076669320,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "in_progress",
+          "conclusion": null,
+          "number": 5
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "pending",
+          "conclusion": null,
+          "number": 9
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "pending",
+          "conclusion": null,
+          "number": 10
+        }
+      ]
+    }
+  ]
+}
+```
+
+根按确切远端提交`a95cf377859a88397a29f85b41dee8add43786e4`读取当前完整index28510B/SHA256 `f9b206661022cfd11619f96e42262cc9c6bde0a26055b1d0acf268aa51322171`/blob `a6b272d94fdd1254872bcfd50dc9131f1c302377`与第一卷5756B/`e86ad28c2b8499cc90149da6f1b44aba34852042681057e0a118434845732c24`/blob `a9499ef2285e9de320c515f9f816bacf1d896b12`。index真实记录时刻22:27:39 UTC；controller实际source SHA536ce99e205816552f59bf1066da5e3ba451aff561048115984034b54fe56c37和请求445c3927…对应本完整发布。
+
+maker真实source commit `f001ca62c1081b7e542c842d14c198ce16b6bee5`、原源89cc6c07…，5.843130817000031秒自然返回0，无missing或summary error。当前report65326B/519ab0688ba80a1c20104d4073ee1d6c8e5836813451bc5f8d38aefbb90e3aa1；fixed-reference-input4334B/b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98；完整nodes与scalar身份见下方原阶段对象。只读取发布的有界metadata，没有读取144306B节点体或NPZ。
+
+这只完成第一个必要输入。第二个完整reference、真正科学及纯读尚未自然返回，当前model/完整field/accepted/费用仍未知；不从输入成功推数值求解成功。全部完整原command、source、output与cleanup metadata如下；fullraw仍在本runner。
+
+```json
+{
+  "name": "followup:prepare-complete-fixed-fejer-r690-inputs-20261127",
+  "state": "completed",
+  "returncode": 0,
+  "seconds": 5.843130817000031,
+  "scope": "Necessary complete deterministic new mathematical input. Restore the exact accepted099 scalar-parameter source; extract the whole e640 projection; construct the fixed seven-mode RN-even Fejer chart, all 923 exact affine nodes and complete FullHold node/radius error ledger. No warm/BVP/pulse field, old core, old final, F/J/normal root or geometric certificate is used. This is a new fixed target; original branches and old literal-address provenance are retained explicitly.",
+  "metrics": {
+    "fixed-fejer-r690-inputs/report.json": {
+      "schema": "complete-fixed-fejer-r690-input-preparation-v1",
+      "source": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+      "status": "complete",
+      "complete": true,
+      "seconds": 0.6666316989999928,
+      "definition": "5e1c65204a45ae97b64d845f7fe7277ffedd57c758939cc82df068b2f104ce4a",
+      "target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "actual_run": "46076669320",
+      "actual_attempt": "1",
+      "actual_source_commit": "f001ca62c1081b7e542c842d14c198ce16b6bee5",
+      "all_input_source_output_rechecked": true,
+      "physicalF": 0,
+      "J_evaluations": 0,
+      "normal_roots": 0
+    }
+  },
+  "outputs": [
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46076669320-1/research/fixed-fejer-r690-inputs/report.json",
+      "sha256": "519ab0688ba80a1c20104d4073ee1d6c8e5836813451bc5f8d38aefbb90e3aa1",
+      "bytes": 65326
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46076669320-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
+      "sha256": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+      "bytes": 4334
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46076669320-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+      "sha256": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+      "bytes": 144306
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46076669320-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+      "sha256": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+      "bytes": 40488
+    }
+  ],
+  "input_files": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+      "commit": "f001ca62c1081b7e542c842d14c198ce16b6bee5",
+      "sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60"
+    },
+    {
+      "role": "followup_queue",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-19.json",
+      "path_commit": "543cfdf281c9bcd0f9b13197721b003a275c5967",
+      "checkout_commit": "f001ca62c1081b7e542c842d14c198ce16b6bee5",
+      "sha256": "169d44c8e6787dfdcf4fc5e734807b4c376351b60765d0b2c5d574654bdd1696"
+    }
+  ],
+  "source_commit": "f001ca62c1081b7e542c842d14c198ce16b6bee5",
+  "source_sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/_temp/visible-larger-research-46076669320-1/followup-sources/0001-167d7c1a5813-f001ca62c108/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+    "--repo",
+    "/home/runner/work/_temp/visible-larger-research-46076669320-1/followup-sources/0001-167d7c1a5813-f001ca62c108",
+    "--outdir",
+    "/home/runner/work/_temp/visible-larger-research-46076669320-1/research/fixed-fejer-r690-inputs",
+    "--panels",
+    "128"
+  ],
+  "cleanup_generated": {
+    "deleted": {
+      "record_count": 0,
+      "recorded_bytes": 0,
+      "records_with_bytes": 0,
+      "listed_file_count": 0,
+      "records_with_file_lists": 0,
+      "canonical_metadata_bytes": 2,
+      "canonical_metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "canonicalization": "UTF-8 JSON; ensure_ascii=False; sort_keys=True; separators=(',',':'); allow_nan=False",
+      "detail_scope": "Complete original entries remain in runner status.json and followup-journal.json; recorded_bytes sums only explicit bytes fields; listed_file_count counts only explicit files lists"
+    },
+    "skipped": {
+      "record_count": 0,
+      "recorded_bytes": 0,
+      "records_with_bytes": 0,
+      "listed_file_count": 0,
+      "records_with_file_lists": 0,
+      "canonical_metadata_bytes": 2,
+      "canonical_metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "canonicalization": "UTF-8 JSON; ensure_ascii=False; sort_keys=True; separators=(',',':'); allow_nan=False",
+      "detail_scope": "Complete original entries remain in runner status.json and followup-journal.json; recorded_bytes sums only explicit bytes fields; listed_file_count counts only explicit files lists"
+    },
+    "scope": "Only explicit patterns, newly generated regular caches and an already returned child; never parent/input/output files"
+  },
+  "step_id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+  "summary_errors": [],
+  "missing_outputs": []
+}
+```

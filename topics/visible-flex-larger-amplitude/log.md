@@ -224,3 +224,8 @@
 [完整11件](computations/fixed-fejer-meridian-bhalf-complete-launch-delivery.json)392124B（含独立workflow）保当前10fa/8027/f600与全部137/18源原字。唯一科学数值改变是b/S1/4→1/2，δ1/32保持；端层每段S/8、中央总3S/8，同固定g/材料图/全部M160/J923/N2048/32stage/自由量和原预算。真实18有限六g指向reach与distanceplus，准确unit-d端层冻结尺度项减半与中央固定r项5/3相竞争；新mean、两角jets/Gram/几何/距离都未知，不许凭冻结参数推改善。
 
 完整science90652B、pure80254B，原157/7argv、458/445formal、48live和全部历史原字段保，旧18scope/input/失败显式存parameter_parent。完整三step新队列72837B（6argv maker、26argv reference、157argv science），science+pure116745B超95k故whole pure在自然返后接；没有缩预算/摘要/域。新controller19984B只四槽名变19，workflow保原partial clone/依赖/token隔离/350分钟和真实pull规则核查。所有实际19 run/input/model/point/accepted/report/fee尚未知，原16–18不取消。完整choice note、文本再生器及新output namespace fixed-fejer-meridian-batched-bhalf-first均保；继续实际求解。
+
+
+## 2026-11-27：19官方运行与首个必要输入真实返回
+
+19 run46076669320/1、job140765886020，官方created/start22:26:37Z、launchhead543cfdf281c9bcd0f9b13197721b003a275c5967；依赖安装success、research step5实际in_progress。22:27:39已发布maker sourcef001ca62c1081b7e542c842d14c198ce16b6bee5/89cc，5.843130817000031s自然0，report65326B/519ab0688ba80a1c20104d4073ee1d6c8e5836813451bc5f8d38aefbb90e3aa1；所有原command/source/输出/cleanup身份续[完整启动note](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。第二reference与科学/模型/最终场尚未返，输入0不是求解成功。根仅云端准确ref读取，controller真实pull槽按原逻辑保持。
