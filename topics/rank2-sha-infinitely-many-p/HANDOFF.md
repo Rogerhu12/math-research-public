@@ -18,7 +18,7 @@
 
 v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/job/source/hash、未到终门及两字段兼容修复在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。不是代数反例，也不是四交/Norm/shadow PASS。
 
-唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810已于15:48:55UTC completed/failure，数学步骤09:58:51–15:48:52；精确原因/全终门待15:50原只读collector消费。原56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。此前15:23全字节仅4203673B/f9ecdfbb…，23native/1primary（长612），尾12:39:11到base1 Hermite85/306。终态消费前不按旧快照猜结果，不重编译或开数学副本。
+native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810的完整终态已消费：09:58:51–15:48:52UTC外层21000s、signal15/exit124，不是代数反例。原log5693799B/e636efb3…8df1，30native/6primary（各长612），最后15:47:30完整306Frobenius已返；四交/Norm/18×9 shadow终门全未返。只读collector run46028499822/job140605963896与直接全字节hash一致。原56源/两char0 pins、29/2453/64/minimal、全部原门和只读/禁网保持。根已定位residue kernel/全thick projector扩域向量费用，改进前不原样重启、不存矩阵缓存；完整参数/哈希见终点链§19。
 
 ## 二、原算术输入与实际全域缺口
 
@@ -28,7 +28,7 @@ R1037–38两次完整378谱/原126回执已消费，30非零/90零、334fibers/
 
 R1040六轴Gram(126,3,6,2,9,14)、det756及全6⁵平均保持。只投H/J/N是39δΦ126Ξ0+G126Ξ1，JG(0)=−δ(1+λ)/28单位；Y/7的log7、四输出/全carry保齐。§14全G已识别E15876 rank0参考，未授权JG′零。§15原K条件矩U_K=(10δ/7)D126给E21609:y²=x³+147²、f126/level47628/root−。R1046唯一run46008071578/job140536202708/source60a44f52全L′>0，原CM/Q Rubin与PD=(-12,141)付ΩID非零；双7分歧使其与三九阶点值代数独立。故j(Y+tK)的一次项非零、坏j0时全尾v=n+ℓp；原坏条件不迫角值零，不重跑。
 
-R1042原H3/F81、93/2511与90/810全核保。§11全72支及degree372深核βB、B²1给所有中间环；原未旋转D1三对差v1，平均S/T未授权。§12整个至少双unit余域首Schur为b^-1{−h_p^-1(c_i−c_j)/p+h_p^-6Δα}，由完整质量零先付c_i∈pO及Hasse period；三坏需三个c_i/p同零，未排。§13真实cZp推前及完整质量零给全精度有限Hurwitz读数，误差H+1−floor(log_p(H+1))；所有core/Euler保真，只有H≤p−2可省deep，多Q非新坏行。继续实际有限余式。
+R1042原H3/F81、93/2511与90/810全核保。§11全72支及degree372深核βB、B²1给所有中间环；原未旋转D1三对差v1，平均S/T未授权。§12整个至少双unit余域首Schur为b^-1{−h_p^-1(c_i−c_j)/p+h_p^-6Δα}，由完整质量零先付c_i∈pO及Hasse period；三坏需三个c_i/p同零，未排。§13真实cZp推前及完整质量零给全精度有限Hurwitz读数，误差H+1−floor(log_p(H+1))；所有core/Euler保真，只有H≤p−2可省deep，多Q非新坏行。继续实际有限余式。原三行6/18/30的q13小入口已提交待单次消费，未预认v13=3。
 
 原norm25全部12管及A−S的log〈r*〉全尾付清。R1047完整付H3 α2/25、2/δ/5、25维Weil四角色r2/8/14/26、f25δ/root−、Haar/Hermite/平方及实际C15点域。BDP2与Fuchs–Pham含常数1给原整个S/T一次项非零，无须新L′或Euler单位；全尾v=n+ℓp。混合Y_A cut、所有其它unit扇区及整余域仍保，继续forcing。
 

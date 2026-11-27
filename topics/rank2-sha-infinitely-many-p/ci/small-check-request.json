@@ -1,8 +1,8 @@
 {
-  "request_id": "2026-11-27-1550-original-native-v11-terminal-snapshot",
+  "request_id": "2026-11-27-1556-original-three-source-q13-hurwitz-rank",
   "checks": [
     {
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/fetch-original-native-v11-log-snapshot.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-three-source-quadratic-thirteen-hurwitz-rank.py",
       "engine": "python3",
       "args": [],
       "include_stdout": true

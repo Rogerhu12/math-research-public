@@ -259,3 +259,60 @@ Hermite已提取85/306列，remaining determinant degree442。
 可用日志尾与读取时刻不同，不据此猜测当前停顿或后续阶段。
 完整四交、全厚Norm及18×9 shadow/nonzero最终回执仍未见；
 job仍in_progress，无数学PASS声明。原日志仅临时读取，不入git。
+
+## 19. native v11 的实际21000秒终态及完整输出消费
+
+2026-11-27 15:50:18UTC metadata 已确认原
+run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810
+为 completed/failure。job 完于15:48:55UTC，数学步骤
+09:58:51–15:48:52UTC。随后取得并完整消费终态，不按之前的早期快照猜测进度。
+
+只读 collector run46028499822/job140605963896/source
+72c4229a0d7cde95b4c68dab3bd40b3b79d9391b 于15:51UTC实际 success。
+collector源码11881B/SHA256
+46ac9fa9ff83789ae6efb731ac8d66d835e9b9825961df0e9a34dab4e3300854；
+stdout17547B/SHA256
+916afecf3eb5859d0c29289e1de0f5ae4158bedd45bb7ee49ad4547159c7c7f3；
+collector日志25947B/SHA256
+eb145c31988f8971d3197678fb01d2d5f0df2b5e487f0e7977bc3433e6e48716。
+没有数学重算、文件缓存或原作业重启。
+
+原**完整**日志5693799B，SHA256
+e636efb3fa26c8394de5dd8bb9c28ba4b0a191943ed51ff875a04dd697838df1；
+随后直接读取原job全部12535行所得字节数和SHA完全相同。
+它确实在12:39之后继续推进，早期4203673B接口快照不代表当时执行停顿。
+
+原日志共30条完整 native 行模回执、6条完整 primary 回执；
+每条已返回的emit SHA均与原payload一致。
+六条primary长度都为612，按真实输出顺序的标签/receipt SHA为：
+
+- positive/base0：97ca31d2d6c8672366f69cefc66274530fd5607879bb33598c0e89d0fefc92cd。
+- positive/base1：2556a3928a276df8d944176170b9a51846e184191263757787ccb1f131d11a12。
+- positive/base2：e01706411314173f275866ed6b3f73445bb8a5a3f48761dfcd7999b9fcb70df7。
+- negative/base0：144c38dc6cd8e59838d34f7130c96315da552c8d3af718d34cb6d4af218dec43。
+- negative/base1：e353bc0cfbc9afc2615e8d2f3ba8941e0cfc0b5c62f292262da7132dbabfd386。
+- negative/base0：4512b586dc96972529dee6b7313ffc4ad814d796b166498197188d73eade089c。
+
+上述均沿原 all original cusps 标签；最后一个标签确实再次为base0，
+不自行改成base2，也不凭计数宣布任何未输出的整体门通过。
+最后一个已返 native 行模是15:45:23UTC的
+all original cubic branching:positive: base-prime 0: whole base-prime block。
+其后原完整线性纤维乘积块继续，15:47:30.5613916UTC
+actual specialized prime Frobenius basis rows 真正返回306/306，
+source elapsed20907.860592282秒。
+
+15:48:51.7847017UTC宿主明确输出
+pipeline incomplete; no mathematical PASS is asserted，
+payload140B/SHA256
+7557bc647b11ce43697d94af88ee8d59586f6a0b961a8e850c8e727819945985。
+最终栈是 launcher 的 sage.wait 被外层 signal15中断，
+runner退出码124；这是21000秒外层超时，未见代数断言反例。
+完整四交、全厚Norm、18×9 shadow及nonzero终点仍未返回。
+collector parse_errors为空、未结束尾行0，不能补写这些验收。
+
+完整时间戳已定位后继应处理的实际费用：
+多个原 residue kernel 返回需约150秒，
+每个 thick projector 的完整suffix返回及后续证明回乘又反复耗时。
+本次原生化保了所有门，但没有让这些原扩域向量/全projector操作变快。
+后继须对这些真实阶段付完整返回的改进；
+不能只重启同一份来源，或把日志/可重算矩阵存入仓库与Release。
