@@ -18,7 +18,7 @@
 
 v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/job/source/hash、未到终门及两字段兼容修复在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。不是代数反例，也不是四交/Norm/shadow PASS。
 
-唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。不重做编译/准备，不开副本，等待实际完整终门。
+唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。12:52读原log4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；无四交/Norm/shadow终门。不重编译/开副本。
 
 ## 二、已付算术来源与仍缺的中央非零
 
@@ -46,7 +46,7 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原四谱Q6/fullincidence/Pell/双Norm/ODE已付，原FQ全极及εprod严格分两三挠交。原rΓ边界为P=(1,3)，完整Norm给M(O)=1及指定P的Miller函数。q11全Prym/指定半类实际全返，AQ=−G阶16；一般halving/ψ2主除子给4AQ=−P、全二分Norm=t³(1−27t)。所有坏纤维/厚闭点及run/source/hash在原文和两笔记，不重算。§§17–20付第二四度图Φ、Miller修正J和4ηprim=Φ*dlogM+dlogJ；Cartier由a_q(EL)控制；完整tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。无权入口关闭，原逐CM权/eta/Cor/最高λ不因此消去。
 
-R1043已付原2-Vélu/full9运输、canonical−3a_i倍率与真实τ^iφ0[ω^i]图。原Picard/源对偶ω因子及η2/η17相消，逐γ保全Cor，54项准确=6×9，原1/18平均变1/3。九项各带真实degree34对偶与原最高投影；继续其有权非零和ordinary比较，不以无权Pell或低维类替代。
+R1043原2-Vélu/full9、canonical−3a_i、真实τ^iφ0[ω^i]与54→6×9已付。§§9–13再将全η/Cor按真实17平移吸入三列，给三完整shadow同零的准确DFT等价；S3加权来源有1/36左逆，并真下降到B′椭圆基、t=−Y′²/[27(2Y′+1)]的S′系数MW截面。全部标记/对偶在(59)齐，global本原性仍不判固定三列评价或ordinary非零。
 
 ## 四、其它未闭门与分工
 

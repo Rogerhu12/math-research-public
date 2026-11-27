@@ -303,3 +303,6 @@
 
 
 - **R1039完整循环层与奇次基变的边界**：[§10](results/R1039-original-g-cover-prym-boundary-and-frobenius.md)。R1039§10把真实cyclic24商的完整负Norm证明推广到任意24|M：无穷ss有理q满足−q为模M单位平方。M=24p、p≡3mod4给m=(p−1)/2奇及Q=q^m≡−1mod24p，F_Q=(-q)^((m−1)/2)F_q。但原整NS已在Fq²定义，所有扩域除子经Pic0/垂直零限制后给同一完整η/Cor shadow，仍被q+1杀；p∤q+1时其p部仍零。原ring-class素位阶不能改写为Q+1，Pell新单位亦是原单位的(Q+1)/(q+1)次幂。
+
+
+- **R1043全角色三列与实际系数截面**：[§§9–13](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§§9–13将全部原η/Cor吸入三列C_a，η_j=η10^lj及逐γ真实17标签平移给准确DFT逆；三个完整shadow同零等价于三整列同零。原二商在整个T(S)的迹由谱三次式严格为零；S3两权和有仅除36的实际左逆。加权来源以真order3商下降到B′:Y′²+Y′=X′³、t=−Y′²/[27(2Y′+1)]上的系数MW截面P_Q；I18+I6+3IV*、原full9/17标记及每项对偶皆保。 式(59)是三个原完整有标记评价；全球分裂单射不替代固定值非零。

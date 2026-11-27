@@ -226,3 +226,36 @@ elapsed 7283.483549875秒，宿主 returncode1，并明确 pipeline incomplete�
 此次已经经过原图返回和同一主除子的若干完整阶段；完整四交、全厚Norm、
 18×9 shadow终门均没有PASS。R1035原生后端已编译/准备通过；
 消费本终态之后才可更正日志并接入唯一原生后继，仍保所有原输入和全门。
+
+
+## 18. 唯一 native v11 的实际来源与首个完整厚块
+
+消费§17的真实失败后，唯一后继为
+run45978097755/job140434827184，source
+8a19591199e83549df1709f35dc00976a40e2810。
+数学步骤于09:58:51UTC开始；原56份来源、两份char0认证、
+r29/q2453/batch64/minimal、完整原四交/Norm/18×9 shadow门、
+Sage10.6固定镜像、只读源码/禁网、21000s与360min均保。
+原progress两处重复elapsed_seconds已改成各自局部字段；
+这是已定位的日志API修复，未删数学返回或另开副本。
+
+12:52UTC直接读取同一job的真实字节快照。
+UTF8含原BOM共4203673B，SHA256
+f9ecdfbb38bd8e4518215e714c335ae65ffa0272dd4c20d43940bb5de894d193。
+本次解析无JSON错误，23条完整native行模块返回已出现；
+未将这些局部行返回当作全几何终门。
+
+12:38:52.3341014UTC实际
+RANK2_COMPLETE_PROJECTOR_PRIMARY_RESULT 返回
+all original cusps:positive: base-prime 0 的完整长度612，
+四个真实厚分量长度2、16、578、16。
+原primary receipt SHA为
+97ca31d2d6c8672366f69cefc66274530fd5607879bb33598c0e89d0fefc92cd。
+这一次logger已成功之后真正返回该完整块。
+
+快照末行12:39:11.4608152UTC为
+all original cusps:positive: base-prime 1: whole base-prime block，
+Hermite已提取85/306列，remaining determinant degree442。
+可用日志尾与读取时刻不同，不据此猜测当前停顿或后续阶段。
+完整四交、全厚Norm及18×9 shadow/nonzero最终回执仍未见；
+job仍in_progress，无数学PASS声明。原日志仅临时读取，不入git。

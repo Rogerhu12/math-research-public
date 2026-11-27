@@ -532,6 +532,379 @@ $$
 已关闭的无权 Pell–Norm 关系不代替这个九项和；九项本身的非零、
 原普通局部检测及无穷多个不同 $p$ 仍需继续证明。
 
+## 9. 把全部原 $\eta$ 一起吸入三列，而不删任何 $\gamma$
+
+本节不是从三个完整 trace 为零推逐 $\gamma$ 为零。
+先对一个固定 $\gamma$ 置
+$
+ V_{\gamma,j}=\sum_{r=0}^8
+       \zeta_9^{-l_jr}z_{\gamma,0,s^{2r}}.
+$
+写 $r=a+3b$，可将它分成三列；但(32)的外部 $\eta_j$ 随 $j$
+改变，所以仅作这个分组不足以处理三个完整 shadow。
+
+原角色还有一个由 R806(8)、R1019(6)的完整主理想规范确定的关系：
+$
+ \boxed{\eta_j=\eta_{10}^{\,l_j},\qquad l_j=-5,1,7.}
+ \tag{33}
+$
+确实对原所有素于34的主理想，$\mu_3$ 因子因
+$l_j\equiv1\pmod3$ 保持，17处则有
+$\vartheta_{l_j}=\vartheta_1^{\,l_j}$。$K$ 的类数为一，
+故这核对了整个有限 Hecke 角色，而不只是一个剩余类。
+
+对每个原 $\gamma\in\operatorname{Gal}(L/K)$，定义
+$n_\gamma\in\mathbf Z/18$ 为
+$
+ \eta_{10}(\gamma|_H)=\zeta_{18}^{\,n_\gamma}.
+$
+因 $\zeta_{18}=-\zeta_9^5$，且 $l_j$ 为奇数，原(32)的一个系数
+准确等于
+$
+ \eta_j(\gamma|_H)^{-1}\zeta_9^{-l_jr}
+ =(-1)^{n_\gamma}\zeta_9^{-l_j(r+5n_\gamma)}.
+ \tag{34}
+$
+现在才在**每个原 $\gamma$ 内**作循环换标
+$r+5n_\gamma=a+3b\pmod9$，并置
+$
+ t_{\gamma,a}=s^{\,2a-10n_\gamma},\qquad a=0,1,2,
+$
+$
+ \boxed{
+ C_a=
+ \sum_{\gamma\in\operatorname{Gal}(L/K)}(-1)^{n_\gamma}
+   \sum_{i=0}^2\omega^i z_{\gamma,i,t_{\gamma,a}}.
+ }
+ \tag{35}
+$
+定义与 $n_\gamma$ 的整数提升无关。内层用到了原(31)：
+令 $i=-b\pmod3$，就有
+$z_{\gamma,0,t_{\gamma,a}\omega^b}
+ =z_{\gamma,i,t_{\gamma,a}}$，而 $\omega^{-b}=\omega^i$。
+因此(34)逐项给完整公式
+$
+ \boxed{
+ J_j:=\mathcal S_D(Y_{j,0,R})
+ =\frac13\sum_{a=0}^2\zeta_9^{-l_ja}C_a.
+ }
+ \tag{36}
+$
+所有原 $\gamma$ 仍出现一次。$(-1)^{n_\gamma}$ 是原
+$\eta_{10}^9$ 的二次符号；其余角色已经变成显示的真实17核平移，
+而不是被删掉。
+
+按 $j(0)=10,\ j(1)=4,\ j(2)=16$ 排序，
+$l_{j(k)}\equiv1+3k\pmod9$。三阶 Fourier 逆给
+$
+ \boxed{
+ C_a=\zeta_9^a\sum_{k=0}^2\omega^{ka}J_{j(k)}.
+ }
+ \tag{37}
+$
+故在原系数群及任何仍使3可逆的商中，
+$
+ J_{10}=J_4=J_{16}=0
+ \quad\Longleftrightarrow\quad C_0=C_1=C_2=0.
+ \tag{38}
+$
+这是三个**完整**原 shadow 的等价条件，已把全部 $\eta$ 和 Cor
+放进(35)。它不等价于每个 $\gamma$ 的三列分别为零，也没有声称
+(35)中的任意一列已非零。
+
+## 10. 原二商的全迹为零，有直接的原谱域证明
+
+在第2节的 $C$ 上，对任意原 degree0 截面类 $Q$ 定义
+$
+ R_0(Q)(P)=
+ \widehat{\phi_{2,P}}\bigl(Q(f\iota P)\bigr)
+       \in S_{fP}.
+ \tag{39}
+$
+先对真正的点定义，再对原 $R$ 系数线性延拓。
+这里 $\omega$ 等系数从不充当一般纤维的几何 CM 自同源。
+
+以 $p_C:S\times_BC\to S$ 为源投影，以 $\Phi_2$ 为第2节的
+实际二同源到靶 $S$，对应 $p_{C*}\Phi_2^*$ 在相对 Picard 上
+就是(39)的三支群迹。其在原二形式上的作用可直接算出。
+
+原基微分为
+$
+ \omega_B=\frac{dX}{2Y+1}=-\frac{dt}{v^2},
+ \qquad \Omega_S=-\omega_B\wedge\omega_t.
+$
+由 R1029 的实际两映射，
+$
+ f^*\omega_B=6\,dz/w,\qquad
+ (f\iota)^*\omega_B=-3z\,dz/w.
+$
+由(7)或 R1031(4)，还有
+$
+ 6u-1=-\frac{(2Y+1)z}{z-2X}.
+$
+所以 $\Phi_2^*\Omega_S$ 相对于 $p_C^*\Omega_S$ 的准确乘子是
+$
+ H_2=\frac{(2Y+1)z^2}{2(z-2X)}.
+ \tag{40}
+$
+这保留(9)的实际微分倍率，没有用一个未经换算的 Hecke 归一化。
+
+令
+$
+ P(Z)=Z^3+\frac3X Z-4,\qquad d_0=2X.
+$
+则
+$
+ P(d_0)=2(2Y+1)^2,\qquad
+ P'(d_0)=\frac{3(2Y+1)^2}{X}.
+$
+因 $\operatorname{Tr}(z)=0$，在原三次谱域中准确有
+$
+ \operatorname{Tr}\frac{z^2}{z-d_0}
+ =3d_0-d_0^2\frac{P'(d_0)}{P(d_0)}
+ =6X-6X=0.
+ \tag{41}
+$
+故 $\operatorname{Tr}(H_2)=0$。同一有理对应也杀复共轭二形式。
+原 $T(S)_{\mathbf Q}$ 恰为这两维，所以该对应在整个 $T(S)$ 为零。
+
+原特征零 NS 恰是秩12的旧平凡格，因此这个代数对应把它仍送入
+旧 NS。沿同一图和光滑模型作 Betti–étale 比较、光滑适当基变换，
+其在约化 $H^2$ 上的像仍在旧平凡子空间中。Shioda–Tate 与
+cycle-map 单射遂说明，(39)的完整群迹是几何 torsion 截面。
+原全部 torsion 是 $\langle P_3\rangle$，故准确结论为
+$
+ \operatorname{Tr}_{C/B}R_0(Q)\in\langle P_3\rangle,\qquad
+ \boxed{\operatorname{Tr}_{C/B}R_0(Q)=0
+        \quad\text{在倒6的原系数群中}.}
+ \tag{42}
+$
+没有把整点群中的可能三挠修正先设为零。
+对奇异纤维的图作解消，只增加旧垂直类；在本式的相对 degree0
+群中不增加另一水平截面。式(41)也没有在 $2Y+1=0$ 删除纤维，
+它是函数域的恒等式，随后由同一完整对应延拓。
+
+## 11. 真正的 $S_3$ 全盖、两个加权截面及仅倒6的显式左逆
+
+使用 R1029§6 已给的原完整二谱盖
+$
+ \mathcal D:\quad 4h^3=A^6-1,
+$
+$
+ X=h^2/A^2,\quad Y=(A^3-1)^2/(4A^3),\qquad
+ z=(A^2-1)/h,\quad w=3A(A^4-1)/h^3.
+ \tag{43}
+$
+其实际 deck 为
+$
+ \sigma(A,h)=(\omega A,\omega h),\qquad
+ \epsilon(A,h)=(A^{-1},-h/A^2),
+$
+$
+ \sigma^3=\epsilon^2=1,\qquad
+ \epsilon\sigma\epsilon=\sigma^{-1}.
+ \tag{44}
+$
+$\epsilon$ 固定原 $(z,w)$，所以
+$C=\mathcal D/\langle\epsilon\rangle$。两式的源基 $B$ 均固定。
+将(39)拉到 $\mathcal D$，令
+$
+ R_i=\sigma^{i*}R_0,\qquad
+ \mathscr R_\omega=R_0+\omega R_1+\omega^2R_2,\qquad
+ \mathscr R_{\omega^2}=R_0+\omega^2R_1+\omega R_2.
+ \tag{45}
+$
+(42)正是 $R_0+R_1+R_2=0$。同时
+$\epsilon^*R_0=R_0$、$\epsilon^*R_1=R_2$，因而
+$
+ \epsilon^*\mathscr R_\omega=\mathscr R_{\omega^2},\qquad
+ \boxed{\mathscr R_\omega+\epsilon^*\mathscr R_\omega=3R_0.}
+ \tag{46}
+$
+
+这给比单纯非零向量更明确的左逆。令
+$g_1=f\iota\circ(\mathcal D\to C):\mathcal D\to B$，其次数为6。
+对 $\mathcal D$ 上源纤维的任意系数截面 $V$，定义
+$
+ \mathcal L(V)=
+ \frac1{36}\operatorname{Tr}_{g_1}
+       \left(\phi_2\bigl(V+\epsilon^*V\bigr)\right).
+$
+这里 $\phi_2$ 始终取(39)同一个标记核；$\epsilon$ 固定该核和
+$g_1$，所以两项可在同一源纤维上相加。由
+$\phi_2\widehat\phi_2=[2]$ 及(46)，
+$
+ \boxed{\mathcal L(\mathscr R_\omega(Q))=Q.}
+ \tag{47}
+$
+确实括号给 $3R_0$，二同源给 $6g_1^*Q$，再作六度迹给 $36Q$。
+
+因此 $Q\mapsto\mathscr R_\omega(Q)$ 是原 MW 系数群的一个
+**分裂单射**，左逆只除2、3。它同时保任何好系数素位
+$\mathfrak p\nmid6$ 的全球不可除性：
+$
+ \mathscr R_\omega(Q)\in\mathfrak p^n MW(\mathcal D)\otimes R
+ \ \Longrightarrow\
+ Q\in\mathfrak p^n MW(B)\otimes R.
+ \tag{48}
+$
+这不依赖先猜一个饱和子格。尤其原非零 $Q^+$ 给非零
+$\mathscr R_\omega(Q^+)$。若只想核非零，反射也已足够：
+一个加权和为零使另一个也为零，再由全迹迫 $3R_0=0$；
+而对 $R_0$ 先作用 $\phi_2$ 再取 $g_1$ 迹会迫 $12Q^+=0$。
+
+## 12. 加权截面实际下降到一个明确的椭圆基曲面
+
+下面给真实几何下降，不由纯表示同型猜一个新曲面。
+在 $\mathcal D$ 上再取
+$
+ \kappa(A,h)=(A,\omega^2h).
+$
+它覆盖原 $B$ 上的 $\tau_B$；在 $C$ 上为
+$(z,w)\mapsto(\omega z,w)$。由(13)，其靶基 $f\iota$ 则改变为
+$\tau_B^{-1}f\iota$。二同源(8)–(9)只依赖 $u$，
+而 $u(\omega z,w)=u(z,w)$。对原 $Q^+$ 用(25)遂得
+$
+ \kappa^*R_0(Q^+)=\omega^{-1}R_0(Q^+).
+$
+$\kappa$ 与 $\sigma$ 交换；(45)又给
+$\sigma^*\mathscr R_\omega=\omega^{-1}\mathscr R_\omega$。
+所以
+$
+ \boxed{(\kappa\sigma^{-1})^*\mathscr R_\omega(Q^+)
+             =\mathscr R_\omega(Q^+).}
+ \tag{49}
+$
+
+这个 order3 商的实际坐标是
+$
+ \boxed{
+ X'=-h/A^2,\qquad Y'=(A^{-3}-1)/2,\qquad
+ Y'^2+Y'=X'^3.
+ }
+ \tag{50}
+$
+$\kappa\sigma^{-1}$ 在 $(A,h)$ 上为
+$(\omega^2A,\omega h)$，所以(50)确实不变。
+反向 $A^3=(2Y'+1)^{-1}$、$h=-X'A^2$ 说明扩张次数正是3。
+原纤维参数严格变成
+$
+ \boxed{
+ t=-\frac{Y'^2}{27(2Y'+1)}.
+ }
+ \tag{51}
+$
+于是定义一个固定曲面
+$
+ \mathscr S'/B':\quad
+ y^2+xy-\frac{Y'^2}{27(2Y'+1)}y=x^3,\qquad
+ B':Y'^2+Y'=X'^3,
+ \tag{52}
+$
+并取其原光滑相对极小模型。(49)以实际群迹除3下降，给
+$
+ P_Q\in MW(\mathscr S'/B')\otimes R,\qquad
+ q_-^*P_Q=\mathscr R_\omega(Q^+),
+ \tag{53}
+$
+其中 $q_-$ 就是(50)。一般纤维没有 CM，(53)是**系数 MW 截面**：
+把它按 $1,\omega$ 展开并清固定2、3分母，得到两个真正有理截面。
+这里没有把 $\omega$ 写成一般纤维上的一个未经存在证明的同源。
+
+反射给另一个实际商
+$
+ q_+(A,h)=\bigl(h,(A^3-1)/2\bigr),\qquad
+ q_+=q_-\epsilon.
+$
+它也满足(51)，且
+$
+ q_+^*P_Q=\mathscr R_{\omega^2}(Q^+),\qquad
+ 3R_0=q_-^*P_Q+q_+^*P_Q.
+ \tag{54}
+$
+所以两个加权方向来自(52)上的同一个系数截面，
+不是两个独立、未比较的输入。
+
+为固定模型的实际边界，可直接由(51)读出其全部纤维。
+$Y'=0$ 与 $Y'=-1$ 在 $B'$ 的局部阶都是3，
+而
+$
+ t=-Y'^2/[27(2Y'+1)],\qquad
+ t-1/27=-(Y'+1)^2/[27(2Y'+1)].
+$
+因此这两处分别为 $I_{18},I_6$。
+三个非零二挠点 $2Y'+1=0$ 是 $t$ 的单极，保原 $IV^*$；
+无穷点为三重极，原 $IV^*$ 经三次分歧后极小化为好纤维。
+所以
+$
+ \operatorname{Fib}(\mathscr S')=
+ I_{18}+I_6+3IV^*,\qquad
+ \chi(\mathcal O_{\mathscr S'})=4,\quad p_g=4,\quad q=1.
+ \tag{55}
+$
+这些是同一个明确方程的纤维，并未把 $\mathscr S'$ 叫作 K3，
+也未宣称它与 $S$ 的完整 Chow 动机相同。
+(47)、(53)给的是所需系数截面的实际对应和左逆。
+
+## 13. 三列正是这个截面在原17标记点的值
+
+对任意 $t\in\mathcal C_{18}$，令
+$
+ \psi_t:A\longrightarrow S_{b_{17,t}}
+$
+为原 kernel $C_{17,t}$ 的 degree17 商，携带由(3)运输的完整9级。
+它处于第3节已说明的共轭 $K$ 分量；随后二商返回原分量。
+在原完整二谱盖上选择 $d_t$，按原 full2 标号要求
+$\sigma^i d_t$ 所标的核恰为
+$
+ \psi_t(C_{2,i}),\qquad i=0,1,2.
+ \tag{56}
+$
+三个二挠根的完整 $S_3$ 模问题使这个有序 lift 唯一；
+改变为相反的次序必须同时改变 $\sigma$ 和权，不在本篇实施。
+所有这些点已经在原 full306 的 $L$ 中。
+
+商同源的自然性给真正的图等式
+$
+ \varphi_{i,t}=\phi_{2,\sigma^id_t}\circ\psi_t.
+ \tag{57}
+$
+该式保完整9级和标记三挠点，故也保第4节的微分规范。
+对偶的顺序于是准确为
+$\widehat\psi_t\circ\widehat\phi_{2,\sigma^id_t}$，
+不多乘17或2。由(39)、(45)、(53)，
+$
+ \boxed{
+ \sum_{i=0}^2\omega^i z_{\gamma,i,t}
+ =(e_A^-)_*\widehat{\gamma\psi_t}
+       \left(\mathscr R_\omega(Q^+)(\gamma d_t)\right)
+ =(e_A^-)_*\widehat{\gamma\psi_t}
+       \left(P_Q(\gamma q_-d_t)\right).
+ }
+ \tag{58}
+$
+这里的 $\gamma$ 共轭先在原 $L$ 上进行，随后约化；
+$q_-$、实际二同源等均是已指定的代数映射。
+式中源、靶的有限坐标按(50)–(52)识别，
+没有把共轭 $K$ 分量重置为另一个同 $t$ 的 level 点。
+
+因此(35)的完整三列可以严格写成
+$
+ \boxed{
+ C_a=\sum_{\gamma\in\operatorname{Gal}(L/K)}
+ (-1)^{n_\gamma}\,
+ (e_A^-)_*\widehat{\gamma\psi_{t_{\gamma,a}}}
+ \left(P_Q(\gamma q_-d_{t_{\gamma,a}})\right).
+ }
+ \tag{59}
+$
+这是同一原最高 shadow 的三个**实际有标记评价**；
+不是把所有 CM 点平均成无权 Norm。
+(47)已经给 $P_Q$ 的全球来源非零及仅倒6的分裂回收，
+但固定评价映射仍可能有核。
+所以(59)中至少一列非零、原普通局部比较及无穷不同 $p$
+仍是尚须真正支付的步骤，不能由全球本原性直接填写。
+
 ## 依赖定位
 
 - [R991](R991-three-cubic-twists-and-explicit-level-nine-toric-input.md)
@@ -541,5 +914,5 @@ $$
 - [R1027](R1027-canonical-fiber-six-torsion-and-original-shadow-column.md)
   §1–4、§7：同一实际 $F,\tau$、Picard 对偶方向、原 $\delta$ 配对。
 - [R1029](R1029-original-two-torsion-cm-genus-two-and-norm-classes.md)
-  §1–3：原二挠谱盖与已指定双椭圆 involution。本篇另外支付它在
+  §1–3、§6：原二挠谱盖、完整S3盖与已指定双椭圆 involution。本篇另外支付它在
   原模问题中的二同源含义和完整级结构运输。
