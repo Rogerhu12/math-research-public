@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般J=Q严格Gauss排非线性候选、仅余两有理线和19权点](results/R150-appendix-unit211-general-J-equals-Q-strict-Gauss-two-rational-lines-and-19-weight-bound.md)：四新原余子式/固定投影经真实局部整首一锚，325次非线性全闭；两线分别≤3/16，接全部原D返回。
+
 - [整个W/y=1的完整QQ四次权覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-complete-QQ-quartic-cover.md)：固定26/33阶原投影和真QQ Bézout将全部降首项纤维统一收到F4；同点有限原返回继续，物理D保留。
 
 - [W四原三次实际头与两未付零面](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-actual-four-cubic-head-two-zero-loci.md)：原正反身份和头因子完整乘回，除已付因子恰D27²B239；239项新因子及两个整零面完整保留。
