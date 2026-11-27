@@ -204,3 +204,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 完整遍历此前五个候选余行，实际只有三个非零原常数列cofactor；第三个剥后等于第二个的相反数，未当作独立方程。源1541f738实际2.969546566秒，全部六列/已付剥除/因子乘回及QQ[m,Q] gcd1通过。
 - 发布严格有限性：C/D总次数30/32、无共同曲线，剩余权点至多960、每原Gram纤维至多6；不声称理想为单位或全等权为空，继续全部有限点及原Dval。
 - 本真实新数学运行于05:47:44.350936 UTC实际部分克隆/pull到8b2e4b0；两README无变，HANDOFF已更新已读提交。当前终端未恢复；本地/private实际pull状态不混记。
+
+2026-11-27 13:52 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新增已经证明有限的整等权权点的完整QQ投影：两实际原余子式在Q的符号次数24/25，直接形成固定49阶结式；全部leading零保留，只剥已付单位，随后返回整一元因子。源SHA256 4f3a8529999a42f0b8cd295d027ba154290b3450def1ae2c27ea2a9969df35c2；180秒/4GiB/单线程，无旧失败门重跑。
+- 新增共享workflow invariant-subspace-equal-weight-complete-Q-resultant-8542.yml 专供上述新数学输入。python-flint 0.9.0 的 fmpq_mpoly.resultant 公共API已核官方文档 https://python-flint.readthedocs.io/en/latest/fmpq_mpoly.html；实际执行前不宣称QQ覆盖或有限纤维排除。
