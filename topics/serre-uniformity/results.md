@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原有限矩的规范 proper Heisenberg 来源（无条件已证明）**：[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)已无条件p>37指定原moment的canonical proper Heis来源：Md的完整H¹独立c→逐ℓ同frame共同vertical阶消去；中心Z的H²泛点单射与H¹0给p⁴² universal class2 lift唯一。原q_I^2/q_I^4/q_I^6的det twists及完整polar是真正群同态；2/3稳定子、所有real cusp的L7惯性、正则模型purity给全S0规范p³连通覆盖。未将曲线上其它中心twists设零；实际p-local中心差现在用这个指定来源，仍须读SS首项并付finite-étale/整p-adic接口，不能改用复解析E6/E10代读数。
+
 - **原固定 genus 4 的 Dixon 平方根与两 jet（准确等价已证明）**：[原固定Dixon/Jordan源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff固定整P_(p−5)全系数被p整除。P递推与三步(1−t)因子、原cD³的2k Laurent块/唯一核、两端单位和最小长度L∈{3k+1,3k+4,…,p−1}全成；e非零/L=p−1，e0K4非零/L=p−4，共同零/L≤p−7。单Jordan全块不代指定中列长度，继续原整content/端部多项式，不重扫素数。
 
 - **原 proper 算术 Heisenberg 覆盖及中心（已证明，纸面）**：[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)无条件构造原修正pair的proper算术Heis p³：准确L3/L5/L8下降、连续dz=−a∪b、π1→étale H²单射、原几何独立→满Heis连通全部付；全cusps/ℓ≠p含2、3均étale。B8单位给H¹/H²(S0,L8)=0，每个全局abelian pair的提升唯一；local p中心恰一维，原点须满足实际覆盖纤维与唯一global提升的中心差为零。曲线上twists准确为J(K)[p]_(ω⁻⁷)，B16/Bp−15门内R1132 r8删全I8后cover也唯一；无门保此歧义。尚未算p-local实际函数/非零，class4和一般p同点排除继续。

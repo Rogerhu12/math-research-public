@@ -601,3 +601,8 @@
 ### 2026-11-28 06:21 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 为恢复用户要求的真实terminal pull，新增课题外 .github/workflows/serre-terminal-rule-sync.yml：本公开仓库匿名partial/shallow clone、只检出两README及请求、git pull --rebase后读上次规则提交的精确diff与哈希；无需任何令牌，permissions为空，超时10分钟，不上传artifact。
 - 当前仅已提交请求，未把它提前记作成功pull；研究继续，收到真实run后更新H的规则已读提交。该workflow只做仓库同步元数据，不执行数学程序、不复制其他课题数据。
+
+
+### 2026-11-28 06:26 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1147无门固定原finite-moment Heis覆盖：全S0整矩、完整中心H¹0与vertical H²单射、唯一p⁴² class2源及原norm-polar pushout已付；2/3 coarse、real cusp L7与正则模型purity给规范proper算术p³覆盖。未把选择规范当p-local非零；继续SS实际首项。
+- 同时消费成功run46076082440/job140764009178：06:21真正partial clone/pull至fb9f91b6，两README diff空、哈希与已读全文相同。后继改用已跑通的匿名Actions终端按小时pull，下次请求≤07:10/完成≤07:21；H已更新并归档前态。数学部分纸推，无新数学程序执行。

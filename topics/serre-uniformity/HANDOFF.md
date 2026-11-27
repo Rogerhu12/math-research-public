@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：e46a9380966f095652e34c31edf5f84735f17e1b**（2026-11-28 06:20 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：f16d9c5915e362d828c50d6feb43e49bb24c6b0b**（2026-11-28 06:26 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
-最近真实pull 2026-11-27 01:48 Asia/Taipei；06:18重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 07:18。现新增本仓库Actions真实部分克隆/pull/两README diff请求，待真实回执；本地恢复仍立即pull。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+最近真实pull已恢复：2026-11-28 06:21 Asia/Taipei，公开Actions run46076082440/job140764009178，在blob:none浅部分克隆中真实pull --rebase至fb9f91b6，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:10、真实pull≤07:21。本地06:18仍无环境；本地恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-proper-Heisenberg.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-canonical-moment-lift.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p 与原算术 cochain
 
@@ -26,7 +26,9 @@ R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2�
 
 [R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术 A1∪A2=−8δ² A1∪ε4/11，故 A1∪(A2+8δ²ε4/11)=0。有限矩的完整Tate transfer/arith项、ram–ram cyclic cup、全H²检测、polar三项、两次factor2及proper/S回填均付，不反除p。指定pair实际β8=0且 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，已替代旧未知λ/c及该pair的F33门；不扩大一般pairs或将未修正proper类当零。
 
-[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)无条件构造原修正pair的proper算术Heis p³：准确L3/L5/L8下降、连续dz=−a∪b、π1→étale H²单射、原几何独立→满Heis连通全部付；全cusps/ℓ≠p含2、3均étale。B8单位给H¹/H²(S0,L8)=0，每个全局abelian pair的提升唯一；local p中心恰一维，原点须满足实际覆盖纤维与唯一global提升的中心差为零。曲线上twists准确为J(K)[p]_(ω⁻⁷)，B16/Bp−15门内R1132 r8删全I8后cover也唯一；无门保此歧义。尚未算p-local实际函数/非零，class4和一般p同点排除继续。
+[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)构造原修正pair的proper算术Heis p³，L3/L5/L8、dz=−a∪b、满几何monodromy、全cusps/ℓ≠p含2、3已付。B8给H¹/H²(S0,L8)=0，全局abelian pair提升唯一；p-local中心一维。曲线twists=J(K)[p]ω⁻⁷，B16/Bp−15门内删I8后cover唯一。
+
+[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)无门给同一cover的指定原来源：全S0有限矩、Sym12(2)⊕Sym8(4)⊕Sym4(6)中心H¹0，原p⁴² universal class2 lift唯一；q_I的全部det twists/polar系数pushout到上述Heis。逐ℓ theta共同vertical阶、2/3 coarse稳定子、real cusp的L7惯性和正则模型purity全部付。没有删曲线其它twists。global继续同一finite moment来源的p-local首项/SS接口；尚未用一维中心或规范来源宣排点，class4和一般pair继续。
 
 ## O1：原 U^m 的两 jet 与精确 Padé
 
