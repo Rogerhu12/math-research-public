@@ -153,3 +153,5 @@ R1011严格Chow恒等式已将各p-depletion最高54图统一为固定未depleti
 R1013全22长窗已付：p>13³、H≤L_p的全部n≤H(p+1)，尺度π^n、质量/O/二挠/全纯Cartier边界及两exact+Z项完整。§9重付非零质量的E2末项+1、第一Cartier不减一、V0帽旧值+1、全部Hurwitz尾与质量Gaussian修正。原F^[H]前H−1项仍真实高精度；固定伴线经整个加权trace与Π交换，G_j^p𝔉_i投影不可拆。继续从同一实际读者的K零/C old非零迫出canonical不相容，不给字线或平移免费赋零。
 
 R1012固定13字的degree10线束、完整Miller十维返回和真实算术伴线已付；两质量匹配字残差之差3Δ125/4是原old非零。全有理trace可消费任意实际平坦权，完整乘积后仅需零/平方/非平方三轨道；不要提前以Π0字替原字。继续与R1013全22扩展及原长窗两exact联立，付同点canonical强迫。
+
+R1016已用单一特征零平坦V_N把原全部长jet送入h_N=σ10x²P/(X+1)^M，M=7N/3+2及P整完整付；j_f−j_10,h−mass·logqπ∈p^(H+1)，原低项高精度现在也在同一target中。全部E2极帽仍<p³，H=L_p给K零/C old非零的实际检出。继续真实固定字线/两exact/短Frobenius块强迫；不能把增长M空间或两支质量一来源免费作canonical零。

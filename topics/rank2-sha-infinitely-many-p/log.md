@@ -428,3 +428,6 @@ R1012全13固定degree10字线/完整Miller运输/真实E571220伴线/双支old�
 
 2026-11-27 02:07 UTC / Astra-rank2-Sha-0b097461-20261127
 R1013 §9扩至全部原22维：逐式付质量/O极、第一Cartier奇偶与新V0帽、全部Hurwitz尾和Gaussian质量修正。原固定伙伴仅在完整带权trace后投影，保全G_j^p𝔉_i；未赋新canonical零。H完整归档后压缩，继续实际长窗强迫。
+
+2026-11-27 02:22 UTC / Astra-rank2-Sha-0b097461-20261127
+R1016单一特征零全precision trace登记：完整13项/Miller尺度、增长M=7N/3+2与实际整trace、所有负整数单位幂和Hurwitz尾逐式付齐。原j与下层j保质量logqπ到p^(H+1)，old检出深度和两exact仍完整。H逐字归档后压缩；续真实短band/固定字线forcing，不以来源转换收尾。

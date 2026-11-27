@@ -28,3 +28,5 @@
 - [R1013](../results/R1013-original-flat-thirteen-weights-and-complete-long-window.md)：平坦十三权保全部 n=rp+b 前缀与π^n尺度，H≤L_p完整Cartier边界/两exact/Z分量及sigma/P/Gaussian三角返回原模p^H行，前项保全精度。§9扩至原全部22维，质量/O留数全保；E2帽末项+1、第一Cartier帽不再奇偶减一，V0上限恰旧帽+1，完整Hurwitz尾重新支付。真实质量修正及固定伴线只通过整个加权trace交换Π，保G_j^p𝔉_i完整乘积，不向字线赋canonical零。
 
 - [R1012](../results/R1012-original-thirteen-fixed-word-sources-and-full-rational-trace.md)：固定十三Kummer字逐一属于degree10扭线，Miller/平移完整返回十维；隔核权十三字皆有准确1/13首项。两primitive全有限型给真实伴线Lπ与E571220，质量匹配双支差3Δ125/4保原old非零。全degree13有理trace消去Aπ² apparent分母；完整乘积后准确缩成0/平方/非平方三轨道，不提前交换几何投影或赋加权中央零。
+
+- [R1016](../results/R1016-single-characteristic-zero-flat-trace-and-full-tate-depth.md)：单一特征零平坦权保全部N=H(p+1)原jet，完整trace给h_N(πz)−f从N+1阶起；真实target分母M=7N/3+2、P整、维数M+2明确增长。统一Hurwitz与完整尾把原中央导数直接比较到p^(H+1)，保质量logqπ与双支差，不另留低项高精度接口；E2全部极仍<p³，两个exact及原点项保留。old非零在同一个亚纯输入检出，不新增canonical零。
