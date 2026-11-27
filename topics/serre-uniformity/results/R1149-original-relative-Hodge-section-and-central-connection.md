@@ -273,3 +273,154 @@ $\operatorname{End}(T_p\mathcal E)$，也没有把 (1149.17) 直接当作原三�
 3. [R1147](R1147-original-canonical-moment-Heisenberg-lift.md) §§8–15：原 theta 的全部有序 primitive 矩、精确兼容 tower、$\lambda_\infty$、同一 rank-$43$ affine lattice 与好点 crystalline 比较。它们是本篇的实际输入，未被有理 polylog substitute 替换。
 
 无数学程序执行；未更改既成数值输入、Actions 请求或固定 $47$ 结论。一般 $p$ 的原 $p$-local 非交换标量仍须实际计算。
+
+
+## 8. 同一 Hodge 截面延到 nilpotent log extension
+
+令 $\overline{\mathcal M}=\overline{\mathcal M}_{1,1,\mathbb Q_p}$，$C$ 为 cusp divisor。本节只延伸同一有理 filtered connection。
+
+在 fine level $3$ 的每个 cusp，原 $\mathbb H$ 的 geometric monodromy 为 Tate 的 unipotent matrix。$\mathbb W_{\mathscr P}$ 保留 (1149.5)，其 diagonal blocks 为 $\mathbb Q_p,\mathbb V,\mathbb Z$，故整个 geometric monodromy 的全部 eigenvalues 都为一。这个结论不要求中央 cocycle 的 cusp 值为零。
+
+Diao–Lan–Liu–Zhu Theorem 3.2.12(2) 因而在这里给真正的 **tensor** log de Rham functor，原连接有 nilpotent residues。其 algebraization 与 §2 相同。不同 fine charts 的 extension 沿原 descent data 识别：nilpotent Deligne extension 唯一，且该文 Corollary 3.5.7 的 pullback compatibility 在本处全部 unipotent 的情形适用。由此得到 $\overline{\mathcal M}$ 上同一 flag 和右作用的 filtered log extension，记为
+$\overline{\mathcal W}_{\mathscr P}$、$\overline{\mathcal H}$ 等。
+
+还须付 boundary strictness。取 cusp 的一个 local parameter $z$。Theorem 4.3.2 / Corollary 4.3.4 将 log fibre 的 filtered nearby-cycle realization 与实际 tangential $G_{k(c)}$-representation 的 $D_{\rm dR}$ 同一。因为 residues 全 nilpotent，$\operatorname{gr}^0_V$ 就是该 log lattice 模 $z$ 的 fibre。此处 étale nearby cycle 是原 generic fibre representation 沿参数给出的 Galois section 作 restriction，因而对原 flag 正合。经典 $D_{\rm dR}$ 的严格正合性于是支付 boundary fibre 的严格正合；结合 §2.1 的 interior 结论和 subbundle 性质，整条 compact fine curve 上的 flag 都严格正合。
+
+这些 boundary representations 的 graded Hodge weights 仍是 (1149.9)。故 (1149.11) 延为
+$$
+s:\operatorname{Fil}^0\overline{\mathcal W}_{\mathscr P}
+ \xrightarrow{\ \sim\ }\mathcal O_{\overline{\mathcal M}}.
+\tag{1149.19}
+$$
+其逆像 $\overline h_{\rm H}$ 延伸原 $h_{\rm H}$。§§3–4 的 right-action 证明逐字适用，只把 $\Omega^1$ 换为 $\Omega^1(\log C)$。特别
+$$
+\alpha_d\in
+H^0\!\left(\overline{\mathcal M},
+ \overline{\mathcal F}^{\otimes d}\otimes\mathbf1(1)
+ \otimes\Omega^1_{\overline{\mathcal M}}(\log C)\right),
+\qquad d=4,8.
+\tag{1149.20}
+$$
+这一步排除了 Hodge frame 在 cusp 额外产生的 pole；不能仅从连接 regular singular 得出 (1149.20)。
+
+## 9. 最高 Hodge 线、Tate 正号与原留数
+
+### 9.1 固定所有微分与 Tate frame
+
+记 $\omega_{\rm Hod}$ 为 Hodge line。固定 de Rham Tate generator
+$\tau_1=\zeta_{p^\infty}/t_{\rm per}$，其中
+$t_{\rm per}=\log[\zeta_{p^\infty}]$；同时改变 compatible roots 时两者按同一单位改变，故 $\tau_1$ 不变。principal polarization 与 de Rham cup pairing 将一个 invariant differential $\omega$ 线性送到
+$$
+\nu(\omega)\in\overline{\mathcal F}
+ =\operatorname{Fil}^0\overline{\mathcal H}.
+$$
+具体是以 $\tau_1$ 收缩 $\omega\cup(-)$ 得到的 dual functional；它杀掉 $\omega$ 自身。按 Tate 正号取该识别，在原 cusp 的 coinvariant 中
+$$
+\nu(dv/v)\longmapsto e_1,\qquad
+e_1=q^{1/p^\infty},\quad e_2=\zeta_{p^\infty}.
+\tag{1149.21}
+$$
+这里的单位确为一：$dv/v$ 在 multiplicative cycle 上的 normalized period 是一，原 principal pairing 的两 Tate cycles determinant 也是一。若反用相反的 symplectic orientation，两边只差整体负号；本节 $d=4,8$，其 $d$ 次幂不变。没有其它 period 单位可吸收。
+
+保持原 Kodaira–Spencer 规范。对短模型
+$$
+E:\ y^2=x^3+A x+B,\qquad \omega=dx/(2y),
+$$
+[R1091](R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md) §1 的通用 de Rham 计算给
+$$
+K_\omega:=\operatorname{KS}(\omega^{\otimes2})
+ =\frac{9B\,dA-6A\,dB}{2(4A^3+27B^2)}.
+\tag{1149.22}
+$$
+这是 universal identity，不使用 R1091 的固定 $47$ 或 $4513$ 数值输入。代原 Tate 模型
+$$
+A=-E_4(q)/48,\qquad B=E_6(q)/864,\qquad
+\omega=dv/v
+$$
+恰得 $K_\omega=dq/q$。
+
+因此
+$\nu(\omega)^d\tau_1K_\omega$ 是 (1149.20) 的同一局部 frame，换 $\omega\mapsto u\omega$ 时乘 $u^{d+2}$。它把该空间准确识别为 weight-$d+2$ 模形式空间，常 Tate line 按上述 $\tau_1$ 固定。
+
+### 9.2 原 cocycle 的 residue，没有阶乘或宽度遗漏
+
+令 $u$ 是与 R1147 相同的 positive geometric generator：
+$$
+u(e_1)=e_1+e_2,\qquad u(e_2)=e_2.
+$$
+实际 $(\mathbb Q_p,\operatorname{Sym}^d\mathbb H(1))$ extension 的 cocycle 满足
+$$
+[c_d(u)]_{\rm coinv}
+ =v_d^\infty e_1^d\otimes\zeta_{p^\infty},
+\qquad
+v_d^\infty=(1-p^d)\frac{B_{d+2}}{d+2}.
+\tag{1149.23}
+$$
+这是 R1147 (1147.32)、(1147.35) 的原全部有序 primitive 点式；本篇没有重取 moment、改成 divided powers 或再除一个 factorial。
+
+该文 log comparison 的 Lemma 3.4.7 给 **正号**
+$$
+\operatorname{Res}(\nabla)=t_{\rm per}^{-1}\log(u),
+\tag{1149.24}
+$$
+其中作者的 geometric generator 同样将所选根乘 $\zeta$。在这个 extension 上，
+$\log(u)e_0$ 的首项是 $c_d(u)$，其余各项都属于
+$(u-1)\operatorname{Sym}^d\mathbb H(1)$，故在 coinvariant 中消失。将 $e_0$ 换为唯一 Hodge 截面也只增加 coefficient monodromy 的像，不改变这一 coinvariant。
+
+(1149.20) 将 residue 放在
+$\overline{\mathcal F}^{\otimes d}(1)$；由 (1149.21)，这条线到 coinvariant 是以一为尺度的同构。因此
+$$
+\operatorname{Res}_{q=0}\alpha_d
+ =v_d^\infty\,\nu(dv/v)^d\tau_1.
+\tag{1149.25}
+$$
+若先在 fine cusp 参数 $z$ 上读，$q=z^w$，其 monodromy 是 $u^w$，而 $dq/q=w\,dz/z$。两边同时乘 cusp width $w$，下降后仍为 (1149.25)；没有额外的 $3$ 或其它 level 因子。更换有相同一阶 tangent 的 local coordinate 也不改 residue。
+
+## 10. 两条实际连接形式的完整归一
+
+在 $\mathbb Q_p$ 上，compact moduli 的短 Weierstrass presentation 是 weighted stack
+$[(\mathbb A^2-\{0\})/\mathbb G_m]$，$A,B$ 的 weights 为 $4,6$。regular homogeneous functions 从 $\mathbb A^2-\{0\}$ 延至 $\mathbb A^2$，因为后者正规且所删点 codimension 二。因此 weight $6$ 的全局空间只有 $B$ 一维，weight $10$ 的全局空间只有 $AB$ 一维。这是 characteristic-zero 线束截面的直接计算，没有将一个有理维数结论约模 $p$。
+
+以同一 Tate frame 归一的 forms 为
+$$
+E_6(E,\omega)=864B,\qquad
+E_{10}(E,\omega)=E_4E_6=-41472AB;
+$$
+二者在 $\omega=dv/v$ 的 Tate $q$-expansion 常数项都是一。由 (1149.20) 与 (1149.25)，得到同一实际 Hodge connection 的精确恒等式
+$$
+\boxed{\begin{aligned}
+\alpha_4
+ &=\frac{1-p^4}{252}\,
+   E_6(E,\omega)\,\nu(\omega)^4\tau_1K_\omega,\\
+\alpha_8
+ &=\frac{1-p^8}{132}\,
+   E_{10}(E,\omega)\,\nu(\omega)^8\tau_1K_\omega.
+\end{aligned}}
+\tag{1149.26}
+$$
+两边在 $\omega$ 的缩放下相同，故这是真正全局式。也可写成
+$$
+\begin{aligned}
+\alpha_4
+ &=\frac{24}{7}(1-p^4)B\,
+       \nu(\omega)^4\tau_1K_\omega,\\
+\alpha_8
+ &=-\frac{3456}{11}(1-p^8)AB\,
+       \nu(\omega)^8\tau_1K_\omega,
+\end{aligned}
+\tag{1149.27}
+$$
+以及保持全部 tensor factors 的相容式
+$$
+\alpha_8
+ =\lambda_\infty E_4(E,\omega)\,
+       \nu(\omega)^4\otimes\alpha_4.
+\tag{1149.28}
+$$
+R1147 的高层修正 $(1+p^4)$ 正是 (1149.28) 的实际比例；并未在有理化时丢失。
+
+将 (1149.26) 代入 (1149.14)、(1149.17)，现在得到原 rank-$43$ rational connection 的完整显式输入，包括原 $\Pi_0,\Pi_2,\Pi_4$ 和 $\lambda_\infty$。这里只用原局部系的 log/Hodge 实现、实际 residue 与低权 line-bundle 计算，没有以一个另选 Eisenstein extension 替换原 tower。
+
+这些式子的係数在 $p>37$ 时都是 $p$ 整的。但“有一组 $p$ 整的有理连接公式”本身仍不等于已付的同源相对 strongly divisible lattice 或 Frobenius structure。特别在 $A=0$ 的 fine cubic point，$E_{10}$ 的零不能直接作为原 coarse $p$-Kummer 中央标量的首项；还须保原 $q_I$、comparison 与 coarse 三阶运输。
+
+新增 primary 的确切位置均在上引已刊 DLLZ 论文：Theorem 3.2.12(2)（作者版第27页）、Lemma 3.4.7 / Remark 3.4.8（第35页）、Corollary 3.5.7（第39–40页）、Theorem 4.3.2 / Corollary 4.3.4（第51页）。它们分别支付这里特定 unipotent 情形的 tensor log extension、正 monodromy residue、pullback 和 filtered tangential fibre；原 $v_d^\infty$ 来源仍是 R1147 自证的全部 primitive theta 计算。
