@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-general-T0-original-D-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-C9-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -24,7 +24,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 全部 ess$T_3\le3$ 已给 matched Bell 零；原 $W_\pm$ 上确有 Cat3 真临界点，不能把 Cat3 整层判空。Bell 非零只可能在 V≠0 且 ess4/5/6。原两原子开集的例外和有限32全参数模型仍按原范围，不能先删 $D=0$ 或合流。
 
-**低秩V完整已闭范围：** [rankV1全临界集](results/R150-appendix-rank-one-third-cumulant-complete-critical-classification.md)及[rankV2内均值全层](results/R150-appendix-rank-two-third-cumulant-all-inside-mean-complete-classification.md)均仅给T3=0；全部原梯度、D8、合流/无穷远与旧计算门已付，不重做。[rankV2且rankH≤1](results/R150-appendix-rank-two-third-cumulant-rank-at-most-one-second-cumulant-essential-bound.md)给essT3≤3、matched Bell零。潜在rankV2非零Bell须y∉RanV、rankH≥2、ess4/5/6；不能自动推共同支撑。完整旧来源/运行身份及边界保[本次压缩前open](notes/2026-11-26-open-before-unit211-nonzero-mean-unit-base-half-ratio-347c.md)和结果索引；全局幂来源仍开。
+**低秩V已闭范围：** rankV1全临界、rankV2内均值及rankH≤1低支撑结论已付；完整适用范围、结果链接和不得扩展的边界保本次完整快照。一般支撑仍须span(y,RanH,RanV)，inner ess5/6需rankH≥3；rankH5与V非零inner ess4/5/6仍开。
 
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
 
@@ -39,7 +39,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 若以19/56图处理，仍须每图真正 $g_i^{N_i}$ 原来源，再按 $N=1+\sum(N_i-1)$ 粘合，几何覆盖本身不代判空。即使根理想闭合，仍须原来源费用、Bell 算子共同域、振幅清分母与同 forcing 运输。原全W31/127的整来源存在性与费用不等于已枚举4212来源、系数高度或完整非 rank-one 算子桥。
 
-**三约化H退化Gram/ess6的准确余层：** 原F0、V二jet、Hp非零、同相位、所有H∞、中心0/2均已全闭；完整相位至多18Gram降至12，QQ四纤维/全部U幂证据见[结果索引](results.md)与本次完整快照，不重做。中心0旧b34错误Eh退出0仍无效，正确变换K/L/Eh的证明才生效。c−6只有A7/9、ab637/5580首项零边界已闭，一般范数662.582秒仍未决。余H三源全有限、c≠0,2、V可∞；原Nfirst必要归约已证但4.447MB真Ke3实际280秒触4GiB，无单位身份。[新个别源与原N/最高一阶必要系统](results/R150-appendix-rank-three-reduced-degenerate-Gram-labelled-original-N-and-highest-first-reduction.md)保5个物理源、完整12次Gram常数域和全部嵌入，Π仅原物理单位及已闭c0/2；c−6/a3零面不删，正确交叉k留在完整最高导数。新实际run45831444045/job139948952361的原身份/域检查通过，Singular900秒到时未决，无单位身份，不重跑该展开；换低次原几何，归约不作排空。非退化H Gram独立开放。
+**三约化H退化Gram/ess6：** 原F0、V二jet、Hp非零、相位、H∞、c=0/2全闭；只余c≠0,2全有限/V可∞及中心−6一般范数和非退化Gram。旧b34的Eh永久无效；Ke3/新12次域280/900秒门冻结。所有原层、来源、失败和精确缺口保本次完整快照，不用已闭首项重做代替余层。
 
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-[W原头atlas](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)给全15二次头/四overlap/六三次头；等权整支已付k+2、Q−2，J19*C9非零图六生成元/18真乘法已付。保两整零面，续原NSPS/真倍数返回。
+**[W整C9权曲线已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md)，本图可付C9。** 二次theta扩张、全部范数零纤维和156次QQ覆盖均完整原返回：七因子保度Gauss，F2整QQ原D，五低范数曲线的每个theta分支原单位/48×35返1。J19仍开；旧二维cofactor180秒门冻结。新整W/u半源登记时未执行，随后新6×4完整三次头；未付首项全部保留。
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 

@@ -1,10 +1,5 @@
 name: ISP new whole T0 quartic curve original return
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-T0-zero-whole-quartic-curve-original-D-return-8542.py'
-      - '.github/workflows/invariant-subspace-general-t0-quartic-curve-8542.yml'
   workflow_dispatch:
 permissions:
   contents: read

@@ -1,0 +1,1077 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "theorem": "Entire C9=0 in the previously paid general LS Delta=0 W=0 original chart is excluded",
+  "wholeTopicComplete": false,
+  "scopeDependencies": {
+    "equalWeightsCommit": "820e6b7917227dbeb9b9ed13f4c047aab1f98777",
+    "uEqualsQCommit": "a27604db587849fbc95e668fbc863970e58f13a3",
+    "ellZeroTheoremNotNeeded": true
+  },
+  "archive": {
+    "blob": "2a4ae4a03f4f65310ff3f28796703fdae5a8769c",
+    "sha256": "9c3ff9f47c67e04bd5dad62c2de810828bf9d625729c08c4e7f0c25e04e1e45b",
+    "path": "notes/2026-11-27-unit211-generic-LS-W-C9-complete-original-certificate-8542.py",
+    "exactExecutedComponentsEmbedded": 9,
+    "mathematicalPipelineRerun": false,
+    "syntaxValidationOfNewConvenienceWrapper": "not completed: execution environment became unavailable during archive-only write/check; original executed component bytes had already been checked against actual filesystem SHA256",
+    "fullExactBlobReadbackVerified": true
+  },
+  "proof": {
+    "blob": "d0f6ace7996b31717726676c19b681f03e57f1de",
+    "sha256": "a17cb47ad2bbc46d5608abb3c5dc0c4c169cda9e1388b729571872905b3269fd",
+    "suggestedCanonicalPath": "results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md",
+    "utf8Bytes": 16201,
+    "fullExactBlobReadbackVerified": true
+  },
+  "componentReceipts": [
+    {
+      "outputName": "c9_8542_weight_norm_inventory.json",
+      "outputBytes": 11530,
+      "outputSHA256": "2c568355c032bbe66b7371222ffdb5013ce1cab032c91bbf33be96b4ecc2090c",
+      "canonicalMathematicalSHA256": "674c23f754ba375c94085e16fe30a8bcb3992f842f15e4d1d4a7f3fb223a921c",
+      "wallSeconds": 0.009477505998802371,
+      "peakRssKiB": 24632,
+      "sourceSHA256": "3d539748d6748daae89cc713d9c2d804bef9b1d436c9531051ab1d3e63022cc5",
+      "exitCode": 0,
+      "exitCodeObservation": "actual terminal result"
+    },
+    {
+      "outputName": "c9_8542_original_Gram_head_atlas.json",
+      "outputBytes": 45801,
+      "outputSHA256": "a45628a3c7b6c469f426d8653a951e281f5cfa269ba8edee2b106d3a434c545c",
+      "canonicalMathematicalSHA256": "e5ac03bf3f92f520c674d6adc904c104b1eb13018697bcb5114a91b508c32088",
+      "wallSeconds": 0.49847870400117245,
+      "peakRssKiB": 26152,
+      "sourceSHA256": "cc3d0ac5db03437d7b86e5c3a8424f9c1128feebd3c0d3dbba2305f15db43a25",
+      "exitCode": 0,
+      "exitCodeObservation": "actual terminal result"
+    },
+    {
+      "outputName": "c9_8542_J4_original_cubic_atlas.json",
+      "outputBytes": 126847,
+      "outputSHA256": "18edde4acd46425caf9caf1d9457ca71611138defa77dd388ebbc301c82531e8",
+      "canonicalMathematicalSHA256": "36412a403b975f2169348418e8fb260279bda3f469504a7a7054d13a57fcee72",
+      "wallSeconds": 0.2602897169999778,
+      "peakRssKiB": 27280,
+      "sourceSHA256": "d7c03d05f74958ef43aecd65af4e31d5caa76423b2a882f67344c1c128c80280",
+      "exitCode": 0,
+      "exitCodeObservation": "actual terminal result"
+    },
+    {
+      "outputName": "c9_8542_chart_six_original_module.json",
+      "outputBytes": 1912617,
+      "outputSHA256": "53cff17c875b4770a8c03a6941d8b6359d95906f8d410130b483e8d32684a86d",
+      "canonicalMathematicalSHA256": "d71859218f748cde5e08398ea730093d0734250e0a051dfe753d3a46026f5143",
+      "wallSeconds": 0.9454479790001642,
+      "peakRssKiB": 32928,
+      "sourceSHA256": "70ec09904541352614e204c7a594adb9017a9e3e795a8f9053884d2f7ab4c79d",
+      "exitCode": 0,
+      "exitCodeObservation": "actual terminal result"
+    },
+    {
+      "outputName": "c9_8542_original_polynomial_norm_cover.json",
+      "outputBytes": 1295795,
+      "outputSHA256": "69441eded7b517e4e23a72113078f2d88488a529a8ae364f6c8325acac97ecac",
+      "canonicalMathematicalSHA256": "4c2be487584a543ae83183b70cedf844a0478473460ea030d052b29eb1ed2867",
+      "wallSeconds": 1.8339219960034825,
+      "peakRssKiB": 45052,
+      "sourceSHA256": "c7789965303dd53e8bd7e8661c556571affae1593759213f731274d458409d61",
+      "exitCode": 0,
+      "exitCodeObservation": "actual terminal result"
+    },
+    {
+      "outputName": "c9_8542_original_cover_factors.json",
+      "outputBytes": 2594,
+      "outputSHA256": "b96c1e8ddb475ff5ce61cb6d537c7f349f1a1136466ab173e2f6080da1732219",
+      "canonicalMathematicalSHA256": "50f3080161f257dfb4b0cff239119401992980ae1d0889758714cd9a71eb4979",
+      "wallSeconds": 0.011134344000311103,
+      "peakRssKiB": 28164,
+      "sourceSHA256": "f9e2c262b00276c31ff4bc2bad3580d6db887bfd2a1d55b9d5c45e000aad3d07",
+      "exitCode": 0,
+      "exitCodeObservation": "actual terminal result"
+    },
+    {
+      "outputName": "c9_8542_original_block_Gauss_atlas.json",
+      "outputBytes": 11041,
+      "outputSHA256": "fa5ed8d408ff36fed274185a63276148dbf768fc61ae171a5f37845507f3bbf3",
+      "canonicalMathematicalSHA256": "277270b13885338c2dd9f87baa279fb84515cd033f317a52d555c6573fd795c9",
+      "wallSeconds": 0.5331861939994269,
+      "peakRssKiB": 34960,
+      "sourceSHA256": "d39e01f86a8701e4eeda07c70b22f6256c9a120cf72a58c4b2f7907b19e3eae0",
+      "exitCode": null,
+      "exitCodeObservation": "unknown: original tool response truncated; complete asserted output file exists"
+    },
+    {
+      "outputName": "c9_8542_F2_original_D_return.json",
+      "outputBytes": 995,
+      "outputSHA256": "34423edab130ca919cc0da1ecfbff3f42a4041d06ce5683852d5b30762cdd25b",
+      "canonicalMathematicalSHA256": "f10014e13949011eee1b19c970f6393f51bb7235db1a64ebcf1ec1f72789288e",
+      "wallSeconds": 1.7403586270011147,
+      "peakRssKiB": 34980,
+      "sourceSHA256": "5bb2ad2c870c89e7aeddb39eb207ec19acec8be72b0ccf5c5ca5518df7853923",
+      "exitCode": 0,
+      "exitCodeObservation": "actual terminal result"
+    },
+    {
+      "outputName": "c9_8542_low_norm_original_Gram_return.json",
+      "outputBytes": 4709,
+      "outputSHA256": "17c7d6edb6193070a2a35b9a015710df5686399d42b5a9e947659973b44a913a",
+      "canonicalMathematicalSHA256": "b02cf93eeb1411b80cb699eea2ff2672920f26b22e42485c343edf8e7bada9c6",
+      "wallSeconds": 10.797371704000398,
+      "peakRssKiB": 29244,
+      "sourceSHA256": "c96f236a9d0091434dc082383abf88bda6ca1b3456b17b5e224e0647676a4e4f",
+      "exitCode": 0,
+      "exitCodeObservation": "actual terminal result"
+    }
+  ],
+  "completeSmallOutputReceipts": {
+    "original_cover_factors": {
+      "stage": "C9_full_QQ_original_common_cover_factorization",
+      "inputSHA256": "69441eded7b517e4e23a72113078f2d88488a529a8ae364f6c8325acac97ecac",
+      "sourceSHA256": "f9e2c262b00276c31ff4bc2bad3580d6db887bfd2a1d55b9d5c45e000aad3d07",
+      "degree": 156,
+      "content": "1/2625179875645517530386247701251038554622380450930001524149106422822556337551061893430100384922011335932247906496078995459010188458087619713281477705011347",
+      "factors": [
+        {
+          "degree": 7,
+          "multiplicity": 1,
+          "coefficients": [
+            "-16",
+            "40",
+            "192",
+            "296",
+            "236",
+            "92",
+            "16",
+            "1"
+          ],
+          "sha256": "1f49af5790d42d76758cdd3ebb1972c68b77f2e01ea4fb67f3e4fdc146e1dc1a"
+        },
+        {
+          "degree": 12,
+          "multiplicity": 1,
+          "coefficients": [
+            "-9216",
+            "-64320",
+            "-194368",
+            "-333440",
+            "-357616",
+            "-248360",
+            "-111040",
+            "-29944",
+            "-3672",
+            "302",
+            "170",
+            "22",
+            "1"
+          ],
+          "sha256": "0224697e700a4cd5fc9aae6dae8dbcd569acec3fd5c3f1750747108065f81f2b"
+        },
+        {
+          "degree": 13,
+          "multiplicity": 2,
+          "coefficients": [
+            "23499720788634736640",
+            "167368887100112820096",
+            "527002187041407251840",
+            "968038381569998383456",
+            "1154695894181916881312",
+            "943239289927727115800",
+            "542435895893915096296",
+            "222222116724129396636",
+            "64820703311938734776",
+            "13291033978346560592",
+            "1862009070545119710",
+            "168951828393826018",
+            "8925338889906685",
+            "208547920155597"
+          ],
+          "sha256": "5a9a62976acf04df06df1830a0df3d4f1fb9922ccab24fca845a098214705808"
+        },
+        {
+          "degree": 11,
+          "multiplicity": 2,
+          "coefficients": [
+            "-171042463914379675380736",
+            "372883587479946000566720",
+            "4318283789402719132200352",
+            "11100909646059964865551240",
+            "14666312540534946796383352",
+            "11709447712065171242609204",
+            "5995770807215678810683824",
+            "2005405515282939341280032",
+            "433960576368200598535802",
+            "58255236177261997353576",
+            "4386040285444060238512",
+            "140746616473721867727"
+          ],
+          "sha256": "ebb4d31e410848d607fba0f8553cfec7bd2e2cff4c4d97fec84a62656dc12349"
+        },
+        {
+          "degree": 5,
+          "multiplicity": 3,
+          "coefficients": [
+            "64",
+            "196",
+            "206",
+            "88",
+            "16",
+            "1"
+          ],
+          "sha256": "b4ab0eee141463b3027cf10cb204577d810da377aad18c25c188d1240dfa9d25"
+        },
+        {
+          "degree": 14,
+          "multiplicity": 3,
+          "coefficients": [
+            "294912",
+            "2437120",
+            "9013376",
+            "19709056",
+            "28385952",
+            "28418784",
+            "20357352",
+            "10583512",
+            "4007588",
+            "1098696",
+            "214480",
+            "28898",
+            "2542",
+            "131",
+            "3"
+          ],
+          "sha256": "51e2609808a570ce2e5caf98d5006dbba63b082883bc1b77bbd31d81d0c37d78"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 4,
+          "coefficients": [
+            "4",
+            "6",
+            "1"
+          ],
+          "sha256": "374294cfe1378a1e3c4e308bb6dca7d5aad8784b4d4c48ae46ffe09029d94c8a"
+        },
+        {
+          "degree": 4,
+          "multiplicity": 6,
+          "coefficients": [
+            "5099764893515996",
+            "9795515379821522",
+            "5203041535782440",
+            "1051837699645056",
+            "69515973385199"
+          ],
+          "sha256": "0d4a09dd28c16f62dc57aec5e497af9837f34dedd24c6bc4510533c65b844a9f"
+        }
+      ],
+      "wholeOriginalPolynomialProductVerified": true,
+      "wallSeconds": 0.011134344000311103,
+      "peakRssKiB": 28164,
+      "claimExcluded": false
+    },
+    "original_block_Gauss_atlas": {
+      "stage": "C9_complete_original_finite_cover_univariate_block_rank_atlas",
+      "sourceSHA256": "d39e01f86a8701e4eeda07c70b22f6256c9a120cf72a58c4b2f7907b19e3eae0",
+      "inputHashes": [
+        "69441eded7b517e4e23a72113078f2d88488a529a8ae364f6c8325acac97ecac",
+        "53cff17c875b4770a8c03a6941d8b6359d95906f8d410130b483e8d32684a86d",
+        "b96c1e8ddb475ff5ce61cb6d537c7f349f1a1136466ab173e2f6080da1732219"
+      ],
+      "prime": 1009,
+      "preflightRejectedPrimes": [],
+      "QQSquarefreeCoverDegree": 68,
+      "regularRepresentation": "a+b theta -> [[a,G b],[b,a]]; actual nonzero column has blocks(theta*v_j,v_j)",
+      "allOriginalDenominatorsAndParameterDegreesVerified": true,
+      "originalQQFactorResults": [
+        {
+          "QQFactorIndex": 0,
+          "QQFactorDegree": 7,
+          "originalMultiplicity": 1,
+          "QQPrimitiveLeadingModPrime": 1,
+          "wholeModularFactorizationProductVerified": true,
+          "components": [
+            {
+              "modularFactorDegree": 2,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2890,
+              "certificateSHA256": "0bb6073abb6007b42ebd9cca5c578b54750d9ef32987414bb982a374454a8338",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.06360822599526728
+            },
+            {
+              "modularFactorDegree": 5,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 4702,
+              "certificateSHA256": "67a6c67dd5a5a7c7685a8d66138d4993414be0b6b3c4d1ade053865f29848e4a",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.019531270998413675
+            }
+          ],
+          "wholeQQFactorExcludedByUnivariateGauss": true
+        },
+        {
+          "QQFactorIndex": 1,
+          "QQFactorDegree": 12,
+          "originalMultiplicity": 1,
+          "QQPrimitiveLeadingModPrime": 1,
+          "wholeModularFactorizationProductVerified": true,
+          "components": [
+            {
+              "modularFactorDegree": 5,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 4700,
+              "certificateSHA256": "8398f64a16a53c25238eb07cf142340578b7cf07b361d00f111b59ddbdb2f6b7",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.02048185500461841
+            },
+            {
+              "modularFactorDegree": 7,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 5929,
+              "certificateSHA256": "719d7ec016bdca18425d2e1f3690abb2e3917bd055ec624ccc4ef4e00ae33bc8",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.021129852000740357
+            }
+          ],
+          "wholeQQFactorExcludedByUnivariateGauss": true
+        },
+        {
+          "QQFactorIndex": 2,
+          "QQFactorDegree": 13,
+          "originalMultiplicity": 2,
+          "QQPrimitiveLeadingModPrime": 377,
+          "wholeModularFactorizationProductVerified": true,
+          "components": [
+            {
+              "modularFactorDegree": 1,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2295,
+              "certificateSHA256": "04a939d4b4ae38eb565505aa82a1ca61c95403f80f31298bcab6ed3c4081149c",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.014332219005154911
+            },
+            {
+              "modularFactorDegree": 4,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 4102,
+              "certificateSHA256": "17b4723a2e309fc85fd6a7bdedba0908e31713cc6c03005e35fcaa3e8f3caa47",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.01435301099991193
+            },
+            {
+              "modularFactorDegree": 8,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 6524,
+              "certificateSHA256": "09e88f7dd6be6fb0df7f628a7b5e1ec5b0bf461569516fa707914961bc925425",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.015148228994803503
+            }
+          ],
+          "wholeQQFactorExcludedByUnivariateGauss": true
+        },
+        {
+          "QQFactorIndex": 3,
+          "QQFactorDegree": 11,
+          "originalMultiplicity": 2,
+          "QQPrimitiveLeadingModPrime": 115,
+          "wholeModularFactorizationProductVerified": true,
+          "components": [
+            {
+              "modularFactorDegree": 2,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2900,
+              "certificateSHA256": "8b02e39875a8aa2c0ecd62213686f243252994786baef557a0fb39ab99d8ee4d",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.0180344230029732
+            },
+            {
+              "modularFactorDegree": 3,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 3504,
+              "certificateSHA256": "e2ce94c6b3b01101ed72fbec7421e3390e1bf7876727eef64518032f50b4e550",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.017435508998460136
+            },
+            {
+              "modularFactorDegree": 6,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 5339,
+              "certificateSHA256": "e5c57c6b2ed916faa561ed638bbef0e8384b68604b6c56705806c7753197494b",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.018337569999857806
+            }
+          ],
+          "wholeQQFactorExcludedByUnivariateGauss": true
+        },
+        {
+          "QQFactorIndex": 4,
+          "QQFactorDegree": 5,
+          "originalMultiplicity": 3,
+          "QQPrimitiveLeadingModPrime": 1,
+          "wholeModularFactorizationProductVerified": true,
+          "components": [
+            {
+              "modularFactorDegree": 2,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2903,
+              "certificateSHA256": "f919cfd6eebaa9b3747ea846a6a2dd37b52b4d11ca7d3db8510016f2cf5426d5",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.016576314003032167
+            },
+            {
+              "modularFactorDegree": 3,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 3506,
+              "certificateSHA256": "a4be2cc587206c1b883f0093d39e48ab8a915da0b780a43746138502673de29b",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.016335941007127985
+            }
+          ],
+          "wholeQQFactorExcludedByUnivariateGauss": true
+        },
+        {
+          "QQFactorIndex": 5,
+          "QQFactorDegree": 14,
+          "originalMultiplicity": 3,
+          "QQPrimitiveLeadingModPrime": 3,
+          "wholeModularFactorizationProductVerified": true,
+          "components": [
+            {
+              "modularFactorDegree": 1,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2275,
+              "certificateSHA256": "f35639f3fa56bcad3543d829a0a11575072b689d357fba7492c10c182c15c32b",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.017952649999642745
+            },
+            {
+              "modularFactorDegree": 1,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2278,
+              "certificateSHA256": "767bb977392ef3a44cfc40ae1b3a3dd6c1bda48f6390f188a96110683e9e702c",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.01753433900012169
+            },
+            {
+              "modularFactorDegree": 1,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2280,
+              "certificateSHA256": "d78a7c88d3e4bf90b2811e98cfb86bd7c43009dbb5e42b7c13f395a06f508636",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.017314406999503262
+            },
+            {
+              "modularFactorDegree": 5,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 4584,
+              "certificateSHA256": "49b470afaf767675a26835a5b8a2b08e8ae43e25b508a348f1bf2c811e7d647f",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.018893497996032238
+            },
+            {
+              "modularFactorDegree": 6,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 5165,
+              "certificateSHA256": "6e20dc7dac6fd30c1377e3713795aa6922d9fb20e2b2c61b14e40b51d3795f74",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.021101790000102483
+            }
+          ],
+          "wholeQQFactorExcludedByUnivariateGauss": true
+        },
+        {
+          "QQFactorIndex": 6,
+          "QQFactorDegree": 2,
+          "originalMultiplicity": 4,
+          "QQPrimitiveLeadingModPrime": 1,
+          "wholeModularFactorizationProductVerified": true,
+          "components": [
+            {
+              "modularFactorDegree": 1,
+              "initialRank": 8,
+              "rank": 8,
+              "generatedRows": 44,
+              "fullPointMultiplicationRowClosureReached": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "univariateGaussRankCertificate": false,
+              "QQEmptinessClaim": false,
+              "multiplicity": 1,
+              "wallSeconds": 0.03788184099539649
+            },
+            {
+              "modularFactorDegree": 1,
+              "initialRank": 8,
+              "rank": 8,
+              "generatedRows": 44,
+              "fullPointMultiplicationRowClosureReached": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "univariateGaussRankCertificate": false,
+              "QQEmptinessClaim": false,
+              "multiplicity": 1,
+              "wallSeconds": 0.039779332000762224
+            }
+          ],
+          "wholeQQFactorExcludedByUnivariateGauss": false
+        },
+        {
+          "QQFactorIndex": 7,
+          "QQFactorDegree": 4,
+          "originalMultiplicity": 6,
+          "QQPrimitiveLeadingModPrime": 462,
+          "wholeModularFactorizationProductVerified": true,
+          "components": [
+            {
+              "modularFactorDegree": 2,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2957,
+              "certificateSHA256": "b0d76cbb8136b582fb9e43d879205b54b84f6ff39379a77574ed71fa8ab4b23e",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.014119858002231922
+            },
+            {
+              "modularFactorDegree": 2,
+              "initialRank": 12,
+              "rank": 12,
+              "generatedRows": 20,
+              "allTwelveOriginalColumnProductsVerified": true,
+              "allOriginalInverseBezoutProductsVerified": true,
+              "bothThetaValuesRetainedByRegularRepresentation": true,
+              "certificateBytes": 2951,
+              "certificateSHA256": "b694d7c396867ec7dfc1ef0e7d82422063012d05ca98a220be7e1e8118095a1e",
+              "univariateGaussRankCertificate": true,
+              "multiplicity": 1,
+              "wallSeconds": 0.015229822005494498
+            }
+          ],
+          "wholeQQFactorExcludedByUnivariateGauss": true
+        }
+      ],
+      "allUnresolvedQQFactorsRetained": true,
+      "univariateGaussOnly": true,
+      "noDUnitModularSaturationUsed": true,
+      "wholeC9Excluded": false,
+      "wallSeconds": 0.5331861939994269,
+      "peakRssKiB": 34960
+    },
+    "F2_original_D_return": {
+      "stage": "C9_entire_F2_original_QQ_block_physical_D_return",
+      "sourceSHA256": "5bb2ad2c870c89e7aeddb39eb207ec19acec8be72b0ccf5c5ca5518df7853923",
+      "inputHashes": [
+        "69441eded7b517e4e23a72113078f2d88488a529a8ae364f6c8325acac97ecac",
+        "53cff17c875b4770a8c03a6941d8b6359d95906f8d410130b483e8d32684a86d",
+        "a45628a3c7b6c469f426d8653a951e281f5cfa269ba8edee2b106d3a434c545c"
+      ],
+      "modulus": [
+        "4",
+        "6",
+        "1"
+      ],
+      "QQBaseDimension": 2,
+      "bothThetaSheetsRetained": true,
+      "initialRank": 8,
+      "finalNecessaryRowRank": 8,
+      "generatedRows": 92,
+      "allOriginalTwelveColumnProductsVerified": true,
+      "allOriginalPointMultiplicationClosureProductsVerified": true,
+      "allOriginalInverseBezoutProductsVerified": true,
+      "DpowerReturned": 1,
+      "physicalDIdentity": "D+ell*HA/u^2=bc*(hU-kU)^2; HA=0 and original distinct singleton U values imply D is a unit",
+      "certificateBytes": 36527,
+      "certificateSHA256": "b7b8234877c4a44c8652b5312001c7a82de870be4ee716067e1101f9e6572ae8",
+      "wholeF2Excluded": true,
+      "wholeC9Excluded": false,
+      "wallSeconds": 1.7403586270011147,
+      "peakRssKiB": 34980
+    },
+    "low_norm_original_Gram_return": {
+      "stage": "C9_all_five_low_norm_fibers_original_QQ_atlas",
+      "sourceSHA256": "c96f236a9d0091434dc082383abf88bda6ca1b3456b17b5e224e0647676a4e4f",
+      "fixedFibers": [
+        [
+          "B2",
+          [
+            8,
+            8,
+            1
+          ]
+        ],
+        [
+          "U4",
+          [
+            16,
+            40,
+            34,
+            10,
+            1
+          ]
+        ],
+        [
+          "P2",
+          [
+            -1,
+            2,
+            1
+          ]
+        ],
+        [
+          "J4",
+          [
+            64,
+            179,
+            161,
+            50,
+            5
+          ]
+        ],
+        [
+          "Z2",
+          [
+            -8,
+            4,
+            3
+          ]
+        ]
+      ],
+      "completeThetaSplits": [
+        {
+          "label": "B2",
+          "QQKDegree": 2,
+          "thetaRoots": [
+            [
+              "0",
+              "-1"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "trigger": "paid original unit e",
+          "thetaSquareProductsVerified": true,
+          "allBranchesRetained": true
+        },
+        {
+          "label": "U4",
+          "QQKDegree": 4,
+          "thetaRoots": [
+            [
+              "8",
+              "15",
+              "7",
+              "1"
+            ],
+            [
+              "-8",
+              "-15",
+              "-7",
+              "-1"
+            ]
+          ],
+          "trigger": "paid original unit u",
+          "thetaSquareProductsVerified": true,
+          "allBranchesRetained": true
+        },
+        {
+          "label": "P2",
+          "QQKDegree": 2,
+          "thetaRoots": [
+            [
+              "-3",
+              "-1"
+            ],
+            [
+              "3",
+              "1"
+            ]
+          ],
+          "trigger": "paid original unit P02",
+          "thetaSquareProductsVerified": true,
+          "allBranchesRetained": true
+        },
+        {
+          "label": "J4",
+          "QQKDegree": 4,
+          "thetaRoots": [
+            [
+              "32",
+              "45",
+              "9"
+            ],
+            [
+              "-32",
+              "-45",
+              "-9"
+            ]
+          ],
+          "trigger": "original Macaulay pivot",
+          "thetaSquareProductsVerified": true,
+          "allBranchesRetained": true
+        },
+        {
+          "label": "Z2",
+          "QQKDegree": 2,
+          "thetaRoots": [
+            [
+              "-16/3",
+              "-7/3"
+            ],
+            [
+              "16/3",
+              "7/3"
+            ]
+          ],
+          "trigger": "paid original unit u-Q",
+          "thetaSquareProductsVerified": true,
+          "allBranchesRetained": true
+        }
+      ],
+      "originalBranchResults": [
+        {
+          "label": "B2/theta0",
+          "QQKDegree": 2,
+          "thetaFixed": [
+            "0",
+            "-1"
+          ],
+          "QQAlgebraDimension": 2,
+          "allOriginalWeightE0N0P1AndGramIdentitiesVerified": true,
+          "originalRows": 48,
+          "MacaulayColumns": 35,
+          "necessaryRowRank": 35,
+          "DpowerReturned": 0,
+          "allOriginalThirtyFiveColumnProductsVerified": true,
+          "actualFiniteInverseProducts": 123,
+          "certificateBytes": 4749,
+          "certificateSHA256": "59bd6b4a72dfdd0a38bebdd285d4099cf8bfdf256f5fb8c05b8e1292a91e6dc8",
+          "excluded": true,
+          "wallSeconds": 1.4992473110032734
+        },
+        {
+          "label": "B2/theta1",
+          "QQKDegree": 2,
+          "thetaFixed": [
+            "0",
+            "1"
+          ],
+          "originalPaidUnitForcedZero": "e",
+          "excluded": true,
+          "wallSeconds": 0.0009031320005306043
+        },
+        {
+          "label": "U4/theta0",
+          "QQKDegree": 4,
+          "thetaFixed": [
+            "8",
+            "15",
+            "7",
+            "1"
+          ],
+          "QQAlgebraDimension": 4,
+          "allOriginalWeightE0N0P1AndGramIdentitiesVerified": true,
+          "originalRows": 48,
+          "MacaulayColumns": 35,
+          "necessaryRowRank": 35,
+          "DpowerReturned": 0,
+          "allOriginalThirtyFiveColumnProductsVerified": true,
+          "actualFiniteInverseProducts": 123,
+          "certificateBytes": 13559,
+          "certificateSHA256": "adcd055b6ede5e9e0e90848b4a1e65d60ff8179a07c38df426d7fc1a3b44055a",
+          "excluded": true,
+          "wallSeconds": 1.69850244600093
+        },
+        {
+          "label": "U4/theta1",
+          "QQKDegree": 4,
+          "thetaFixed": [
+            "-8",
+            "-15",
+            "-7",
+            "-1"
+          ],
+          "originalPaidUnitForcedZero": "u",
+          "excluded": true,
+          "wallSeconds": 0.0030641319972346537
+        },
+        {
+          "label": "P2/theta0",
+          "QQKDegree": 2,
+          "thetaFixed": [
+            "-3",
+            "-1"
+          ],
+          "QQAlgebraDimension": 2,
+          "allOriginalWeightE0N0P1AndGramIdentitiesVerified": true,
+          "originalRows": 48,
+          "MacaulayColumns": 35,
+          "necessaryRowRank": 35,
+          "DpowerReturned": 0,
+          "allOriginalThirtyFiveColumnProductsVerified": true,
+          "actualFiniteInverseProducts": 123,
+          "certificateBytes": 6302,
+          "certificateSHA256": "da2eed3d2fbfa542b4e5dfe79a0699160592f9c5a10e405a242950fa1807366e",
+          "excluded": true,
+          "wallSeconds": 1.6176721890005865
+        },
+        {
+          "label": "P2/theta1",
+          "QQKDegree": 2,
+          "thetaFixed": [
+            "3",
+            "1"
+          ],
+          "originalPaidUnitForcedZero": "P02",
+          "excluded": true,
+          "wallSeconds": 0.007396668996079825
+        },
+        {
+          "label": "J4/theta0",
+          "QQKDegree": 4,
+          "thetaFixed": [
+            "32",
+            "45",
+            "9"
+          ],
+          "QQAlgebraDimension": 4,
+          "allOriginalWeightE0N0P1AndGramIdentitiesVerified": true,
+          "originalRows": 48,
+          "MacaulayColumns": 35,
+          "necessaryRowRank": 35,
+          "DpowerReturned": 0,
+          "allOriginalThirtyFiveColumnProductsVerified": true,
+          "actualFiniteInverseProducts": 123,
+          "certificateBytes": 23970,
+          "certificateSHA256": "5f3406fc731035e7fda40fd65d5a597e5addd55b3f76a49c0b15567d45c4c47a",
+          "excluded": true,
+          "wallSeconds": 1.7846782010019524
+        },
+        {
+          "label": "J4/theta1",
+          "QQKDegree": 4,
+          "thetaFixed": [
+            "-32",
+            "-45",
+            "-9"
+          ],
+          "QQAlgebraDimension": 4,
+          "allOriginalWeightE0N0P1AndGramIdentitiesVerified": true,
+          "originalRows": 48,
+          "MacaulayColumns": 35,
+          "necessaryRowRank": 35,
+          "DpowerReturned": 0,
+          "allOriginalThirtyFiveColumnProductsVerified": true,
+          "actualFiniteInverseProducts": 123,
+          "certificateBytes": 23185,
+          "certificateSHA256": "86d2148b79ab8f6ee8d49b9498728d5b05a0fbfb8f20cf32c54c71496a1add50",
+          "excluded": true,
+          "wallSeconds": 1.7582603210030356
+        },
+        {
+          "label": "Z2/theta0",
+          "QQKDegree": 2,
+          "thetaFixed": [
+            "-16/3",
+            "-7/3"
+          ],
+          "QQAlgebraDimension": 2,
+          "allOriginalWeightE0N0P1AndGramIdentitiesVerified": true,
+          "originalRows": 48,
+          "MacaulayColumns": 35,
+          "necessaryRowRank": 35,
+          "DpowerReturned": 0,
+          "allOriginalThirtyFiveColumnProductsVerified": true,
+          "actualFiniteInverseProducts": 123,
+          "certificateBytes": 7755,
+          "certificateSHA256": "0e19aae37dd671b834ec76c968d4bc838f3fcd37b714efc6fd3f4fcdb73a019e",
+          "excluded": true,
+          "wallSeconds": 1.672627010004362
+        },
+        {
+          "label": "Z2/theta1",
+          "QQKDegree": 2,
+          "thetaFixed": [
+            "16/3",
+            "7/3"
+          ],
+          "originalPaidUnitForcedZero": "u-Q",
+          "excluded": true,
+          "wallSeconds": 0.0012139210011810064
+        }
+      ],
+      "allNormZeroSheetsRetained": true,
+      "allFiveLowNormFibersExcluded": true,
+      "wholeC9Excluded": false,
+      "wallSeconds": 10.797371704000398,
+      "peakRssKiB": 29244
+    }
+  },
+  "allMathematicalComponentsActuallyCompleted": true,
+  "gaussOSExitCode": null,
+  "gaussOSExitCodeReason": "Original tool response exceeded available model context; complete asserted final JSON exists and is hashed. Exit status remains unknown and is not inferred.",
+  "mathematicalClaimUsesCompletedOriginalProductsNotOSStatus": true,
+  "wholeThetaSheetsPreserved": true,
+  "noMultivariateModularEmptinessLift": true,
+  "largeRegenerableCachesNotArchived": true,
+  "specialFibersClosed": [
+    "B2",
+    "U4",
+    "P2",
+    "J4",
+    "Z2"
+  ],
+  "finiteGenericCoverageDegree": 156,
+  "squarefreeFiniteGenericCoverageDegree": 68,
+  "gaussFixedOriginalBlockRows": 20,
+  "gaussBlockColumns": 12,
+  "gaussWholeQQFactorsClosedDegrees": [
+    7,
+    12,
+    13,
+    11,
+    5,
+    14,
+    4
+  ],
+  "F2ExactQQPhysicalDReturn": {
+    "baseModulus": [
+      4,
+      6,
+      1
+    ],
+    "bothThetaSheets": true,
+    "Dpower": 1,
+    "necessaryRowRank": 8,
+    "generatedRows": 92
+  },
+  "lowNormOriginalUnitCertificates": {
+    "originalRows": 48,
+    "columns": 35,
+    "branchDegrees": [
+      2,
+      4,
+      2,
+      4,
+      4,
+      2
+    ],
+    "all35ColumnsMultipliedBack": true
+  },
+  "environmentUnavailableAffectsOnlyNewArchiveWriteAndSyntaxCheck": true,
+  "archivalCorrection": {
+    "invalidProofBlob": "417b7b5370df81a7316ee9f983437444afdae432",
+    "invalidProofContent": "undefined\\n",
+    "invalidReceiptBlob": "6d19634c1ae17f302845f46c3e8c52bea9f44b72",
+    "rootStoppedBeforePublication": true,
+    "cause": "Terminated archive-only call did not retain proof store; missing value concatenation was not checked. Complete mathematical computations and earlier source stores unaffected.",
+    "replacementFullProofReadBack": true
+  }
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 W 图整个 C9 权曲线的原系统排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md)：已证明；整二次扩张、156次QQ覆盖与五低范数全部theta分支原返回，本W图可付C9。
+
 - [R150 一般 T0=0 原 D 身份与唯一四次权曲线](results/R150-appendix-unit211-general-T0-zero-original-D-quartic-cover.md)：已证明；最终分母仅物理单位乘F4，曲线全有理参数，整曲线原返回继续。
 
 - [整个一般ell=0原支完整排除](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)：三整头曲线、1146次QQ完整投影余404的五非线性整因子及两整线全由原QQ/Gauss返回；一般LS余图可付ell，继续T0及其他未付面。
