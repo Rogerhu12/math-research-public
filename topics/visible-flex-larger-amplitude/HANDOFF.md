@@ -5,8 +5,8 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `de8bb9288a55a24c50e388935883614759960af9`（非pull）。
-双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异立刻遵守，至少每小时；活12–17通常每5分钟真pull，已读commit在末槽。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `981afdce5c7c7c7c1d3999eedcd62f24ca91abe3`（非pull）。
+双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异立刻遵守，至少每小时；活13–17通常每5分钟真pull，已读commit在末槽。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端立刻rebase重推，不可用则freshHEAD完整合并、不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。完整源/所有参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不新增独立审查/冻结/AST/fixture/重跑门、不减原目标/预算。[旧log全字](log/2026-11-27-session-through-fejer-closed.md)保。
 
@@ -20,7 +20,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 | run | 实际返回及完整来源 |
 |---|---|
-| 12 | 46011377225；两输入0，477499/274d科学未返。[全输入/参数](notes/2026-11-27-run12-actual-fixed-fejer-input-and-reference.md)，原科学/pure/mean在排。 |
+| 12 | 46011377225官方completed/cancelled；两输入0，477499科学/274d纯读无自然回传。[完整终态/原输入/未知](notes/2026-11-27-run12-actual-cancelled-without-scientific-return.md)，未获complete/final13、不能续算冒父。 |
 | 13 | 46028002241；原1–6返，旧science/pure各1；[仅schema修复](notes/2026-11-27-actual13-N4096-base-schema-guard-repair.md)2cc/015f科学未返；[N全费](notes/2026-11-27-N13-base-bound-complete-accurate-fee-successor.md)normal在排。 |
 | 14 | 46028184571；两输入0，fff9/b79c科学未返。[全输入/旧失败](notes/2026-11-27-run13-entry-failure-and-run14-actual-reference.md)及[全M closed](notes/2026-11-27-M320-closed-phase-grip-r718-source-adapter.md)保；normal在排。 |
 | 15 | 46031953783；两输入0，97ae/4ea科学未返。[全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)/[J全费](notes/2026-11-27-fixed-fejer-J1845-complete-accurate-normal-sixjet-geometry-fees.md)保当前1845/参考923双胞全域。 |
@@ -42,8 +42,8 @@ R718是条件整像flow下界；R719/R720在全ρ>0和前三RN固定下给任意
 root独占refs/queue/17实返/新完整入口；solver监12/15/16并备全missing-angle批处理，construction备同点完整integration/已校正积分复用，geometry监13/14及真数学/容量。新效率实现未执行，不改活16/17，不宣速度；全部active J/J*原图与原guards/预算/域保。一直做到README标准。
 
 <!-- visible-larger-parallel-12:start -->
-Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
-并行12规则核查：2026-11-27 19:41:24 UTC，真实pull至`febbfdf90fc257b59e14078173fcb8e15bcdbd32`，双README无变化。
+Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。官方completed/cancelled（root 19:52 UTC复核）；仅已返两input0，科学child未自然回传、exit未知；旧controller running槽已由官方终态纠正。
+并行12规则核查：2026-11-27 19:26:21 UTC，真实pull至`01d4cc0bf5fb9c6e0f60cf9e19a17cabaec1124b`，双README无变化。
 <!-- visible-larger-parallel-12:end -->
 
 <!-- visible-larger-parallel-13:start -->
