@@ -633,3 +633,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜actual397硬τ1首输入的真实第103均值根失败
 
 根全文审7701B终态收据，独立核384718B原stdout/35131B唯一FINAL及其原IDENTITY、1473response仅τ1、全部102/103均值计数/零J与未付读出。新41.515274441秒及dense/盒失败/尾界全部费用保留；原源码_root与半宽更新逐字核过，Newton内部无统一收缩保证只作源码事实，不补造未存迭代轨迹。E合同区间只属真帽→口；不称τ1无根，继续同E/τ1新括区进度算法。
+
+
+## 2026-11-27｜同actual397硬τ1的括区二分进度实际范围
+
+根全文审12866B薄driver、20129B模型、7371Bconsumer、8537B说明与6840B workflow；finite独立全审通过。46绑定/sparse/AST核合，224106B stdin保持原source/数学field逐字与旧policy各项，只添预绑定进度descriptor；35131B前失败FINAL逐字继承。参考E/trial均值原函数AST只换root与chain命名空间，两消费者执行AST完全相同；旧完整solve/fine/接受直接调用。明示参考数值路径也改变且旧103参考点并未失败，连续E方程/原τ1/core根不改；42次midpoint精确进度仅坐标宽，不作浮点或源误差证书。规则metadata更新至root实际已读5033f5164ae46452a990ef0d9c68b249b6cb358c与private724f5769；未本地科学。同步R625新run45916412405/job140236602211于00:23:18 UTC启动。

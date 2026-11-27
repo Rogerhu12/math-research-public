@@ -380,3 +380,6 @@
 
 
 - [R618 actual397硬τ1首固定E真实终态](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)：**数值均值根未完成，不能推出分支不存在**；新41.515274441秒，在第103半径.22277851819887512同支λ根80步耗尽。102均值完成但0完整目标/J/QR/接受/fine/direct；同target86da8c60与硬τ1不变，下一纯二分修复显式进度，七类源误差与全部失败成本保留。
+
+
+- [R618同固定E/硬τ1的二分进度范围](notes/2026-11-27-r618-actual397-bracket-progress-scope.md)：**精确同支括号有明确收缩，实际新求解待原运行**；reference/trial换同一显式seed后midpoint算法，原参考连续方程、所有height/Jac/primitive/core公式保持。四浮点终态分记，原失败费用继承；坐标宽进度不冒根/ODE/角求积误差证书，不软化τ或宏观门。
