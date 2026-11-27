@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-universal-N1-monic-and-Phi-twelve-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-main-C71-29-original-mean-T-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -186,7 +186,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**Phi0旧D≠0图。** [整个zn0](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)已闭。rho头零主支必要C(d²,lambda)87/55仍开；判别式零完整仅(1,1/2)及交换。原31/52必要曲线及F26保完整输入，不能把曲线说成排空；不重放旧NB/cofactor。h=k有独立原排除。
+**Phi0旧D≠0图。** [整个zn0](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)已闭；rho头零主支旧C(v,λ)87/55保留，新[mean/T闭包原U6返回](results/R150-appendix-unit211-Phi-zero-main-head-zero-mean-T-unit-six-C71-29.md)给完整C71,29/2111项，43.208秒/89032KiB/exit0，385除法/全六坐标已核。新core精确保存，不猜新旧因子关系，不重算旧NB/cofactor。自由rho例外权另由168基点输入续；h=k有独立排除。
 
 **[固定闭G的proper单链U及全部交织](results/R271-appendix-single-chain-complete-intertwiners-and-bounded-commutant-representation.md)。** 目标U交织恰L_y、自动迹类，交换代数有rho单射表示。实际Green首式给原交织/真空残量，无非零y的有界后因子；第二式保两交换子。B、每dyadic幂/单个位不保持U已证；同w费用、G保N、正角、范围核心仍开。
 
