@@ -145,3 +145,7 @@ R1042§15全稿消费并逐式核17/36 Jacobian、Hasse a+b极帽、全D binomia
 ## 2026-11-27 17:05:47 UTC — 正支全G返回与原连接绝对定标
 
 消费arith blob e715a2e24bc64dfcc4e27700d4124b639e11b93b补unitary§15；root核原−1/84、norm50首项、Θ5 pole25、24/6轨道和60f整身份，正支−1/(90b)，全K偶与补质量身份保持。消费geometry blob ea4658905952ee71892691a7d30ac0c50ad7a592补R1049§10；root核真mShioda/Atiyah/Hodge、generic KS、Tate automorphy/Chern负曲率、连续微分及p-curvature符号。up modp=−cQ为已证明；原h的integral φ/PD桥继续，不预给AJ非零。首次文档打包因H超过10KB在写blob之前停止，已逐字归档并压缩重复叙述；全部pins/旧门保留。无新增数学执行。
+
+## 2026-11-27 17:13 UTC — 原惰性54图的除p残余公式
+
+消费geometry blob b8219c0447e743a679b167826056f9437feed9c3，R1049§11(63)–(79)完整I/J filtered比较、φζ/p²、a+/b+除p和Miller同伦给φn+=pn−；root逐式核源F矩阵/杯积方向/内部与外系数半线性，保全部degree34与54权，原hbar化为明确XPp全和。未知cQ取消，未给全和非零或惰性通常全Sha桥。results索引97348B接近100KB已移到完整链接归档；无新增数学执行。v12在17:09仍执行且log尚404，未重启。

@@ -1098,3 +1098,379 @@ $$
 $$
 其平方才是本篇一直使用的 $F=p^2$。
 本节未改变任何原最高投影或 Artin 下降方向。
+
+## 11. 一次 Frobenius 给原54图的准确残余公式
+
+本节将(52)中的除 $p$ 后读数真正接到原 Manin 多项式。
+所用输入仍是同一个 $Y_{j,0}$、同一个 $D_p^+$ 和所有原图。
+不更换循环，也不删去 $\eta_j$ 或 corestriction。
+
+令 $p=6r-1$。为避免与原权 $c_i$ 混淆，把实际图的微分倍率记为
+$$
+\varphi_i^*\omega_{b_i}=d_i\omega_A.
+\tag{63}
+$$
+对每个 $\sigma,\gamma$ 共轭均用相同定义。
+在原固定有限删集外，这些图、有限基点和微分都在同一好模型上，
+$d_i$ 为单位。式(63)包含完整 full9 运输；它不是只记一个
+抽象 degree34 同源的倍率。
+
+定义 R1043§20 已证明的多项式
+$$
+\begin{split}
+H_p(U)&=\sum_{\nu=0}^{r-1}h_\nu U^\nu,\qquad
+h_\nu=\frac{(-4)^\nu(5/6)_\nu(2/3)_\nu}{(\nu!)^2},\\
+P_p(U)&=\sum_{\nu=0}^{r-1}\frac{h_\nu}{3\nu+1}U^\nu .
+\end{split}
+\tag{64}
+$$
+系数在 $\mathbf F_p$ 中；所有分母都是 $p$ 单位。
+原坐标 $X=-3v$、$V=2Y+1$ 中
+$$
+A_p=V H_p(X^3),\qquad
+\mu(Q_p)=c_{Q_p}X P_p(X^3),\qquad c_{Q_p}\ne0.
+\tag{65}
+$$
+
+选源曲线的整 CM 基 $\omega_A,\epsilon_A$，使
+$\langle\epsilon_A,\omega_A\rangle=1$，且 $\epsilon_A$ 在
+与 $\omega_A$ 相反的 CM 线上。令 $\alpha_p$ 由
+$$
+\varphi\omega_A=p\alpha_p\epsilon_A,\qquad
+\varphi\epsilon_A=-\alpha_p^{-1}\omega_A
+\tag{66}
+$$
+定义。下文证明 $\alpha_p\in\mathbf Z_p^\times$。
+它是这个固定源微分的明确晶体单位，不是可自由改变的周期。
+
+本节结论为
+$$
+\boxed{
+\begin{aligned}
+\overline h_{j,p}
+={}&-\overline a_{j,p}^{-1}\,\overline\alpha_p\,
+\frac1{18}\sum_\sigma\eta_j(\sigma)^{-1}
+ \sum_\gamma\sum_{i=1}^{54}c_i\,
+ d_{\sigma\gamma i}^{\,p}\,
+ X_{\sigma\gamma b_i}\,
+ P_p\!\left(X_{\sigma\gamma b_i}^{\,3}\right).
+\end{aligned}}
+\tag{67}
+$$
+各几何量在原指定剩余域中约化。式中仅几何倍率
+$d_{\sigma\gamma i}$ 取 $p$ 次幂；
+$\eta_j(\sigma)^{-1}$ 和 $c_i$ 始终是原**外系数**，
+不在这里额外作 Frobenius 共轭。
+
+### 11.1 两个 PD 理想与同一原图的 filtered 比较
+
+本节用 $\varphi$ 表示一次、对 $W$ 半线性的晶体 Frobenius；
+其平方仍是前文 $F$。环境坐标取 $p$ 次幂，系数取 $W$ 的
+Frobenius。模 $p$ 这就是绝对 Frobenius，所以它保持每个
+特殊纤维的理想，即使该纤维或图只定义于 $\mathbf F_{p^2}$。
+在乘积环境中它与投影严格交换。于是§9.1的整个有限图表
+可以同时使用这个一次 Frobenius。
+
+必须区分两个理想。记 $\mathscr D$ 为这些环境中的完备
+PD envelope，令
+$$
+I=\ker(\mathscr D\longrightarrow\mathcal O_{\mathcal X}),\qquad
+J=\ker(\mathscr D\longrightarrow\mathcal O_{X_k}).
+$$
+$I$ 是**实际 $W$ 模型**的法向 PD 理想，$J$ 是特殊纤维理想；
+$J$ 还包含 $p$。每个实际模型、纤维及图都用自己的 $I,J$。
+由于实际图映射定义在 $W$ 上，其环境投影把源模型的 $I$
+送到图模型的 $I$，所以所有原 pullback 都保持下面的 filtration：
+$$
+\operatorname{Fil}^a_I(\mathscr D\Omega^\bullet)^b
+   =I^{[a-b]}\mathscr D\Omega^b
+\quad(b<a),
+\qquad
+=\mathscr D\Omega^b\quad(b\ge a).
+\tag{68}
+$$
+这里 $I^{[n]}$ 表示由至少第 $n$ 阶 divided powers 生成的理想。
+
+这个 filtration 的比较是原 Hodge filtration，不能把 $I$
+换成 $J$ 后再直接声称同一事。其积分 Poincaré 比较可局部核实：
+光滑模型在光滑环境中的嵌入是正则嵌入；在形式局部法向参数
+$z_1,\ldots,z_e$ 中，PD de Rham 复形的每个法向变量有
+$$
+d\gamma_{n+1}(z)=\gamma_n(z)\,dz .
+$$
+收缩同伦把含 $\gamma_n(z)\,dz$ 的项送到
+$\gamma_{n+1}(z)$，不引入分母。
+它降低一阶形式次数、提高一阶法向 PD 次数，因而保持(68)。
+逐个法向变量收缩，再在标准 Čech 覆盖上作同样的总复形比较，
+给与实际 $\Omega_{\mathcal X/W}^{\ge a}$ 的 filtered
+quasi-isomorphism。构造对这些环境投影的比较同伦也保持(68)。
+这里用的是完备 PD 复形；不假定原曲面有 Frobenius lift。
+
+据此，原全纯二形式可选一个积分代表，其总次数2的三个部分在
+$$
+\Omega^2,\qquad I\Omega^1,\qquad I^{[2]}\mathcal O
+$$
+中。仍把它记为 $\Omega_S$。
+实际图上 $\Omega_S$ 的 de Rham 限制严格为零。
+在曲线上 $\Omega^{\ge2}$ 整个复形为零，因此(68)的
+$\operatorname{Fil}^2_I$ 比较复形无上同调。
+故原限制有一个积分的、filtered 的原函数
+$$
+I_b\Omega_S=d\zeta_b,\qquad
+\zeta_b\in
+ \check C^0(I\Omega^1)\oplus
+ \check C^1(I^{[2]}\mathcal O).
+\tag{69}
+$$
+它表示的是实际零限制。
+沿实际图拉回(69)仍是同一个 filtered 原函数；
+若在图的另一个 embedding 中用局部收缩构造，
+两者之差在同一个 $\operatorname{Fil}^2_I$ 复形中 exact。
+所以可以同时保留全部54图的 pullback、实际零限制和(69)；
+没有为不同图另加一个闭的常数类。
+
+现在核一次 Frobenius 的整除性。
+在 PD envelope 上，$\varphi\bmod p$ 是其绝对 Frobenius。
+对 $z\in J$，$z^p=p!\gamma_p(z)$，故
+$$
+\varphi(J)\subset p\mathscr D,\qquad
+\varphi(\mathscr D\Omega^1)\subset p\mathscr D\Omega^1.
+$$
+对 divided powers，若 $\varphi(z)\in p\mathscr D$，则
+$\varphi(\gamma_n(z))=\gamma_n(\varphi z)$ 的 $p$ 赋值至少
+$n-v_p(n!)$。在 $p\ge5,n\ge2$ 时此数至少2。
+因 $I\subset J$，逐个分量得到
+$$
+\varphi(\Omega_S)\in p^2 C_S^2,\qquad
+\varphi(\zeta_b)\in p^2 C_b^1.
+\tag{70}
+$$
+特别(70)对于 degree1 的两个部分分别使用
+$\varphi(I\Omega^1)\subset p^2\Omega^1$ 和
+$\varphi(I^{[2]})\subset p^2\mathscr D$。
+这里只需 $\varphi(I)\subset p\mathscr D$；
+没有误用一般不成立的 $\varphi(I)\subset I$。
+
+### 11.2 使全局原函数真的可作一次除 $p$
+
+以下所有 $+$、$-$ 是内部 $W$ 标量的两个 CM projector。
+先对真正的 $mD(Q_p)$ 构造 Chern cocycle、连接及 Miller
+平凡化，最后除以 $p$ 单位 $m$ 并作投影。
+
+取(45)的积分共链
+$$
+c_+=u_p\Omega_S+d a_+.
+\tag{71}
+$$
+它存在于积分复形，因为两边在同一积分晶体格中有相同的类。
+令 $\vartheta_+$ 是§10真实连接的 $+$ 投影。
+将(71)映到实际特殊纤维的 de Rham 复形，得到
+$d\overline a_+=d\vartheta_+$。
+原 $H^1_{\rm cris}$、$H^2_{\rm cris}$ 自由及 de Rham 基变
+使每个这样的闭差的类可由一个积分闭共链提升。
+减去这个全局闭提升，再减去一个 exact 提升，可使
+$\overline a_+=\vartheta_+$ 在这个实际 de Rham 复形中逐项相等。
+若需保 CM 分量，最后应用同一分母3为单位的 projector。
+
+这里 $\vartheta_+$ 只有 Čech0的一形式部分。
+故调整后 $a_+$ 的 Čech1函数部分属于 $J$。
+结合上节的整除性，
+$$
+\varphi a_+\in pC_S^1 .
+\tag{72}
+$$
+这些调整都是全局闭类或 exact 类；原 $H^1(S)=H^1(B)$
+限制纤维为零，所以它们不改变(49)的任一原读数。
+
+对每个真正线丛仍取同一单位提升 $g_{ab}$，现在定义
+$$
+b_p=-\log\!\left(\frac{\varphi g_{ab}}{g_{ab}^{p}}\right).
+$$
+由于分式属于 $1+p\mathscr D$，$b_p\in pC_S^1$。
+和(44)完全相同的两分量计算给
+$\varphi c-pc=db_p$。
+对内部 CM projector，$\varphi(\omega)=\omega^2$，故准确地是
+$$
+\varphi c_+-p c_-=d b_+,\qquad b_+\in pC_S^1.
+\tag{73}
+$$
+这里 $b_+$ 是同一个 $b_p$ 的相应共轭 projector，
+不是重新猜一个 Frobenius 同伦。
+
+记 $\sigma_W$ 为 $W$ 的非平凡 Frobenius。定义
+$$
+\Omega_-^{\,\mathrm{F}}=\frac{\varphi\Omega_S}{p^2},\qquad
+a_-=\frac{\varphi a_+-b_+}{p},\qquad
+\zeta_{b,-}=\frac{\varphi\zeta_b}{p^2}.
+$$
+(70)、(72)、(73)证明三者都积分。
+逐式代入(71)、(73)得到
+$$
+c_-=p\,\sigma_W(u_p)\Omega_-^{\,\mathrm{F}}+da_-,
+\qquad
+I_b\Omega_-^{\,\mathrm{F}}=d\zeta_{b,-}.
+\tag{74}
+$$
+$\Omega_-^{\,\mathrm{F}}$ 只表示这个准确的 Frobenius 除式，
+不冒充一个全纯形式，也不把它与(31)中任选的对偶基混同。
+
+### 11.3 Miller 同伦给 $\varphi\mathfrak n_+=p\mathfrak n_-$
+
+对同一批 Miller 单位使用一次 Frobenius。
+以(47)的逐分量计算，精确有
+$$
+\varphi t_{b,+}-p t_{b,-}
+   =I_b b_++d\ell_{b,+}.
+$$
+$\ell_{b,+}$ 来自
+$(p+1)^{-1}\log(\varphi k/k^p)$ 及同一内部 projector。
+不删这个 degree0 同伦。定义
+$$
+\begin{split}
+\mathfrak n_{b,+}
+ &=\left[t_{b,+}-I_ba_+-u_p\zeta_b\right],\\
+\mathfrak n_{b,-}
+ &=\left[t_{b,-}-I_ba_-
+             -p\,\sigma_W(u_p)\zeta_{b,-}\right].
+\end{split}
+$$
+由(71)、(74)两者都是积分闭类。
+第一行恰是(49)已经定义的原 $\mathfrak n_{b,p}$。
+把上述 Miller 等式和(74)代入，得到
+$$
+\boxed{\ \varphi\mathfrak n_{b,+}=p\,\mathfrak n_{b,-}.\ }
+\tag{75}
+$$
+这是全 Čech 复形中的恒等式模 exact cochain。
+其成立同时使用了 $\varphi\zeta_b/p^2$；
+不能只在忽略实际限制同伦后写这个式子。
+
+一次晶体 Frobenius 对所有原几何映射自然。
+因此沿任一实际 $\varphi_i$ 拉回(75)仍成立。
+这包括只定义于 $K_p$ 的图：半线性作用在其几何系数上，
+不需要错误地要求每个图先定义于 $\mathbf Q_p$。
+
+### 11.4 特殊纤维两个 CM 连接差的准确方向
+
+先对实际 $Q_p,\tau Q_p,\tau^2Q_p$ 分别使用§10.4。
+在每个原超奇异好纤维，令 $\lambda_s\omega_b$ 为
+由(49)的 $t-\vartheta$ 指定的实际联络差（连接算子取 $d-\vartheta$）。
+式(61)给
+$$
+\lambda_s^p=-\mu(\tau^sQ_p)(b).
+$$
+由原坐标 $\tau^*X=\omega X$ 及(65)，
+$\mu(\tau^sQ_p)=\omega^s\mu(Q_p)$。
+
+现在才形成内部系数的两投影：
+$$
+\lambda_+=\frac{\lambda_0+\omega^2\lambda_1+\omega\lambda_2}{3},
+\qquad
+\lambda_-=\frac{\lambda_0+\omega\lambda_1+\omega^2\lambda_2}{3}.
+$$
+因 $p\equiv-1\bmod3$，取 $p$ 次幂会交换两组系数。
+所以
+$$
+\lambda_+^p=0,\qquad
+\lambda_-^p=-\mu(Q_p)(b).
+\tag{76}
+$$
+这一步不能把 $p$-curvature 当成对内部 $W$ 标量线性的映射。
+
+由$a_+$的选择及$\zeta_b$的 filtered 性质，
+$\overline{\mathfrak n}_{b,+}=\lambda_+\omega_b=0$。
+对负分量，(74)模$p$给$d\overline a_-=c_-$。
+而$\vartheta_-$的曲率为零，亦有$d\vartheta_-=c_-$。
+故$\overline a_--\vartheta_-$是来自全局
+$H^1_{\rm dR}(S_k)$的闭类，限制纤维为零。
+因此
+$$
+\overline{\mathfrak n}_{b,-}=\lambda_-\omega_b,\qquad
+\lambda_-^p=-\mu(Q_p)(b).
+\tag{77}
+$$
+没有对形式的带系数 $D_p^-$ 宣称它本身是一条真正线丛；
+上述等式始终由三条真正连接逐项组合得到。
+
+### 11.5 源 CM 格逐式读出除 $p$ 后的杯积
+
+源 $A$ 的积分 Hodge 线和相反的 CM 线均为直和因子。
+强可除性给
+$\varphi\omega_A=p\alpha_p\epsilon_A$，
+$\varphi\epsilon_A=\beta_p\omega_A$，
+其中 $\alpha_p,\beta_p$ 为单位。
+完美杯积在 $\varphi$ 下乘$p$，所以
+$\alpha_p\beta_p=-1$。
+再用原$\varphi^2=-p$，得到
+$\sigma_W(\alpha_p)=\alpha_p$。
+这证明(66)及$\alpha_p\in\mathbf Z_p^\times$，同时固定全部符号。
+
+对一个原图，记
+$$
+\begin{split}
+\varphi_i^*\mathfrak n_{b_i,+}&=A_i\omega_A+B_i\epsilon_A,\\
+\varphi_i^*\mathfrak n_{b_i,-}&=A_i^-\omega_A+B_i^-\epsilon_A.
+\end{split}
+$$
+全部系数属于$W$。
+(75)、(66)的$\omega_A$系数给
+$$
+-\alpha_p^{-1}\sigma_W(B_i)=pA_i^-.
+$$
+故$B_i$整除$p$，且
+$B_i/p=-\alpha_p\sigma_W(A_i^-)$。
+由(63)、(77)，
+$\overline A_i^-=d_i\lambda_-$，
+所以
+$$
+\boxed{
+\overline{\frac1p
+ \left\langle\varphi_i^*\mathfrak n_{b_i,+},\omega_A\right\rangle}
+ =\overline\alpha_p\,d_i^p\,\mu(Q_p)(b_i).
+}
+\tag{78}
+$$
+杯积方向使用$\langle\epsilon_A,\omega_A\rangle=1$；
+两个负号分别来自 Frobenius 矩阵与(77)，在这里抵消。
+特别(78)支付了每个实际图的除$p$，不只是对最终加权和
+引用§8的抽象整除性。
+
+degree34仍在(78)内。若在靶上取相同的杯积规范，
+写$\varphi\omega_b=p\alpha_b\epsilon_b$，
+则实际同源的对偶性给
+$\varphi_i^*\epsilon_b=(34/d_i)\epsilon_A$。
+Frobenius自然性因而给
+$$
+\alpha_p\,\sigma_W(d_i)=\frac{34}{d_i}\alpha_b .
+\tag{79}
+$$
+其模$p$形式正是(78)中的$\alpha_p d_i^p$。
+所以本计算没有省掉34，也没有把实际几何倍率改成无权
+Hecke 算子的规范。
+
+### 11.6 全部原权、下降基及结论的范围
+
+最后对(78)按(51)逐项施加原$e_{\eta_j}$和
+$\operatorname{Cor}_{L/H}$。
+各图的几何数据仍按$\sigma\gamma$作用；
+原外系数$E$保持不动。
+由(52)，$p+1\equiv1\bmod p$，
+再用(53)、(65)，
+$$
+\overline u_p^{-1}\mu(Q_p)(b)
+   =-X_bP_p(X_b^3).
+$$
+这就逐项得到(67)。
+
+式(67)中不存在未定的$c_{Q_p}$、未定的曲率比例或新的
+horizontal 常数。原$\alpha_p$和$a_{j,p}$都是已指定的非零单位；
+全部可能的零仍准确保留在原54项、其共轭和角色权构成的和中。
+该等式给原局部扩张的模$p$参数：
+如果这个完整有限和非零，(39)、(42)即给同一原局部 AJ 非零。
+若有限和为零，只能说明该扩张参数至少整除$p$，
+不能据此判定整个$p$-adic AJ为零。
+
+本节没有从$\mu(Q_p)\ne0$推出这个加权和非零，
+也没有把所得局部最高 AJ 自动等同于 R970/R973/R1038
+通常 Selmer 入口所需的椭圆曲线 canonical 中央首导数。
+后继须分别支付全权非零及该原算术入口的真实比较。

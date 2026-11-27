@@ -20,7 +20,7 @@ v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/j
 
 native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810全终态已消费：09:58:51–15:48:52UTC外层21000s、signal15/exit124，非反例；原log5693799B/e636efb3…8df1，30native/6primary长612，末15:47:30全部306Frob返回，但四交/Norm/18×9未返。只读collector46028499822全hash一致；完整pins/失败链见终点链§19。
 
-唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；16:57仍in_progress，joblog404尚无数学回执。完整二次域native软件run46032975863已PASS（全原域/CH=A/修改基重建），改进后保原两char0 pins/60源/29/2453/64/minimal及全部门；源码只读、Sage禁网、令牌仅host公共PASS读取。见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)，不重启、不存矩阵或可重算输出。
+唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；17:09仍in_progress，joblog404尚无数学回执。完整二次域native软件run46032975863已PASS（全原域/CH=A/修改基重建），改进后保原两char0 pins/60源/29/2453/64/minimal及全部门；源码只读、Sage禁网、令牌仅host公共PASS读取。见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)，不重启、不存矩阵或可重算输出。
 
 ## 二、原算术来源与全域缺口
 
@@ -44,12 +44,12 @@ R1043原2/3同源/full9/所有二核/η′/最高−3Ω′1及精确三权下降
 
 §21完整对偶运输μ₁(φ̂P)=cφ^qμ₂与Φq严格交换原图pull，外系数线性给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0。§22全三项消分母给μPQ=cQ X′Nq(V′²)/V′^(2r−1)，有限递推唯一、所有分母q单位。N0≠0/N1=3，IV*好化μ阶2、两cusp阶1；O值为−3cQ2^(2r−1)Pq(−1/4)，若零恰六阶。原CM289图已付full9负分量/二核循环及f′=ω/f³=id，实际R_a接触仅1/2；这些系数/指定延拓值均不替代实际T_a/p影子。
 
-R1049原惰性p固定54图/full9/η均在Kp下降；φ²=−p^-1。proper FP给AJ=p/(p+1)I_j,p；新增NS晶体指数1,p，c1D+=upΩ、c1D−=−pΩ−/(3up)，up单位，W₂障碍MW/p→H²(O)为Fp同构。§8原FL[0,3]给整h=x+puy、logBK=p h/(p+1)、modp^n split iff h≡0，严格h=a_j^-1I。§9全Chern b/Miller t/degree0ℓ与真实限制ζ给n_b=[t−Ia−upζ]=up·p/(p+1)ξ；AJ=up^-1全54权N，h=(p+1)/(p up) a_j^-1N，整除p由§8。§10真mShioda线丛Atiyah0/全局连接、proper generic KS唯一及原Tate automorphy给up modp=−cQ、相对p-curvature=−μ、ss差λω有λ^p=−μb。下一整φ/PD比较须把此数据送到除p anti坐标；全54加权非零与原全球桥仍待。
+R1049原惰性p固定54图/full9/η均在Kp下降；φ²=−p^-1。proper FP给AJ=p/(p+1)I_j,p；新增NS晶体指数1,p，c1D+=upΩ、c1D−=−pΩ−/(3up)，up单位，W₂障碍MW/p→H²(O)为Fp同构。§8原FL[0,3]给整h=x+puy、logBK=p h/(p+1)、modp^n split iff h≡0，严格h=a_j^-1I。§9全Chern b/Miller t/degree0ℓ与真实限制ζ给n_b=[t−Ia−upζ]=up·p/(p+1)ξ；AJ=up^-1全54权N，h=(p+1)/(p up) a_j^-1N，整除p由§8。§10真mShioda连接/Tate曲率给up modp=−cQ、p-curvature=−μ。§11 I/J分开且filtered图同伦ζ使φΩ/φζ整除p²；a+/b+整除p及真实Miller给φn+=pn−。每图除p杯积=αp d_i^p μb，原h模p=−a_j⁻¹αp/18乘全部η/Cor/54权d_i^p X_i Pp(X_i³)，cQ已消、34保留。完整有限和非零及惰性通常全Sha全球桥仍待。
 
 ## 四、其它未闭门与分工
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。
 
-central继续同一完整前缀/三低卷积；arithmetic继续角源全补域；geometry继续原inert-p Ξ真实限制；root处理完整作业/同步/逐条推。unitary §§10–13已付原g_n逆Gram/12odd Bell/固定坏处/F±六sigma及全部connected/étale球。§14新付完整625项5-old迹、25列交5给绝对1/5；2singlet/3 gluing/7实偶给 E5old P3 μ−=−R_K*ν/5，保K/A全部类型。忘K才是−39δΦ126/5，实际Yunit两个K缩放差全保；其K/Y非零为β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7。完整5-new 24wild与p-new反字符补项仍待，不以原canonical中央坏给它们零。主目标未完成，持续工作。
+central继续同一完整前缀/三低卷积；arithmetic继续角源全补域；geometry继续原inert-p Ξ真实限制；root处理完整作业/同步/逐条推。unitary §§10–13已付原g_n逆Gram/12odd Bell/固定坏处/F±六sigma及全部connected/étale球。§14新付完整625项5-old迹、25列交5给绝对1/5；2singlet/3 gluing/7实偶给 E5old P3 μ−=−R_K*ν/5，保K/A全部类型。忘K才是−39δΦ126/5，实际Yunit两个K缩放差全保；其K/Y非零为β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7。全5/p-new补项仍待，不由canonical坏赋零。
 
 unitary§15已付正支全625→25 Weyl迹、原Theta lift/四个μ6轨道/全部坏处相位，完整旧Y=−G126/(90b)，原b17系数−1/1530。唯一run46036879390/job140634410835/source4e827843与root60f整数手证一致。旧K全偶故K/Y=0，负支旧K/Y非零；旧Yunit质量差=c_n JG0/(90b)≠0，完整5-new+p-new必须补偿，不可随n深删。继续同一有限等式的实际ν/root及原坏零forcing；R774/R749只用于有限完整点和，不能给中央log无限尾免费点投影。

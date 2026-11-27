@@ -285,3 +285,7 @@ Kδ-old空间[δ]*S2全偶，真实P+三处(u,v)→(7u,0)、P7 fΦ∝fG与2负/7
 ### R1049§10 — 原全局连接、Manin与u_p绝对定标
 
 先清实际Shioda分母m（仅2/3），mD的c1modp=mupΩ落Fil²，E1退化使Atiyah0；曲率−dθ=mupΩ。proper generic KS非零给H0Ωabsolute=Ωbase，任意两连接曲率同。原Tate theta比Θ(Z/U)/Θ(Z) automorphy U，θ=z dlogZ、z=dlogU/dlogT；完整原T为s^9/s^3乘单位，不换width1。曲率−dz∧dlogZ=dμ∧ω，原Φ=−cQΩ故up modp=−cQ。相对向量D^p=A D给Ψ=−μ，ss的实际连接差λ满足λ^p=−μb。absolute φc1L=p c1L与系数算术Frob antiQ分开；内部CM系数半线性φ交换D±。下一φ/PD链整除p与原54 h值仍须证明。
+
+### R1049§11 — 原54图除p局部参数的完整残余公式
+
+(63)–(79)已证明。实际W模型I的filtered PD局部收缩无分母，兼容原图；曲线Fil²复形acyclic给ζ∈IΩ¹+I^[2]，φI⊂p而非I，故φΩ/φζ均除p²整。a+经全局H¹整lift调整使Čech函数在J，φa+/p及真实b+/p整；Miller的degree0同伦全保给φn+=pn−。内部CM系数在p-curvature中半线性，三条真实连接给n+bar0/n−barλ−ω、λ−^p=−μQ。源φω=pαε、φε=−α⁻¹ω、α∈Zp×；每图B_i/p modp=αd_i^p μQ(b_i)，实际degree34由αpσ(d_i)=34αb/d_i核回。全原η/Cor/54外系数固定；upbar=−cQ消常数，hbar=−a_j^-1α/18 Ση^-1ΣγΣci d_i^p X_i Pp(X_i³)。完整加权非零与惰性usualSha桥仍待，不把单个Manin非零代全和。
