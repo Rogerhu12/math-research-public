@@ -621,3 +621,5 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 2026-11-27 13:12:21 UTC — Astra-larger-e4e2a2bf-20261126：实际11/46000835895 warm返0；5989固定参考输入6.170325s返1，完整mesh/chart字守卫拒/FJroots0；随后H超10KB使第二步发布失败，job12:53:58 failure。59783B真日志区分两因、最后真pull53bd2b6/12:53:54，完整源/参数保；新同g未建立，见notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md，继续完整固定可重建输入与10真求解。
 
 2026-11-27 13:22:45 UTC — Astra-larger-e4e2a2bf-20261126：保存same-run10七完整upper/整再生器/两全参数与来源、99角色保原90/20121B原科学后缀；真实11输入守卫失败，全部upper未运行，未来13父/typed不造空。见notes/2026-11-27-same-run10-complete-solver-prepared-and-run11-input-failure.md；转预先明确非圆固定输入，不再扩旧90不可重建分支。
+
+2026-11-27 13:36:40 UTC — Astra-larger-e4e2a2bf-20261126：登记R717完整证明：唯一B=1/4,n=7预定Fejér→准确dyadic图、全ρ/Θ/闭合/初始核心界、整像盒min与逐leaf范数D条件界；不冒当前自由core/wholeδ/reach已付。保持新g/确定性J923完整主线，三代理分工input/reference/九下层；完整历史保8b6c340，压H/open留发布空间，10仍实际running。

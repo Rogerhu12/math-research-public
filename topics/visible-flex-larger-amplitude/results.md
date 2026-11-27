@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R717（已证明，预定非圆输入与条件几何界）**：[七模Fejér固定图与整像界](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md) — B=1/4、n=7短有理式经明确RN64后作准确dyadic图；全角ρ>0、闭合/单调/对称及初始核心界完整，当前自由core须重付。给全目标盒Hausdorff下界及同leaf范数D上界，不迁旧g/场或曲率证书；新完整输入与实际全域求解继续。
+
 - **R716（已证明，固定不对称帽的完整矩条件）**：[固定不对称帽与完整中心化体积矩](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md) — 未标记实体半转且固定帽完整不交时，保全部重心/混合矩给Beff=B2−b1²/V；既定R661 p4其实部严格为正，完整A2非零即可在π/4或π/2排除含反射全等。另在R625全部几何假设下给定量商距离界；新场实际A2、闭嵌入/外法向管和其余完成条件仍未付。
 
 - **R715（已证明，准确等价与完整数值表示合同）**：[参考中心化normal的六jet与费用](results/R715-reference-centred-normal-sixjets-and-error-ledger.md) — 同准确参考下全闭合/normal阶段中心化保持原准确选择；固定参考校准与完整有限root残差lift分别给端口、全部六jet/AD及误差账。工作六jet须统一重建，不能迁旧径向单位恒等式；原32阶段/全变量/真实几何保留，独立实现和实际收益待返。
