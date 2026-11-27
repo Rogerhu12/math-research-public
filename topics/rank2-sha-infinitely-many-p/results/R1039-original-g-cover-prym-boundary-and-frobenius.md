@@ -375,3 +375,336 @@ q=11 原完整 shadow 仍被12杀掉，原倒6系数下仍为零。
 - R1036：实际 q=11 唯一截面、完整格及真实极除子。
 - [原两覆盖返回及实际回执](../notes/2026-11-27-original-q11-two-cover-lift-and-frobenius-line.md)：
   q=11 的精确平方根、原两式、Norm 符号与全部厚点返回。
+
+## 7. 固定原 Prym 的无穷惰性超奇异素数
+
+这一节给(6)的固定曲线一个新的无穷输入。它不从 Elkies 定理
+“在任意实数域上有无穷超奇异素点”直接推剩余域次数1。
+我们对一个真正的三同源商的 j 域重新使用其负 Norm 证明，
+并支付两辅助素数的 Frobenius 以及最后的剩余次数奇偶性。
+
+**命题。** 对任意有限有理素数集 S，都有
+$$
+ q\notin S,\qquad q\ge5,\qquad q\equiv-1\pmod3,
+ \qquad a_q(E_L)=0.
+\tag{28}
+$$
+因此这样的 q 无穷多。这里始终是(6)的准确有理模型，
+不是 R1031 的另一非 CM 椭圆商，也没有换一个随 q 变化的扭曲。
+
+### 7.1 一个真实的实三同源商及其 j 域
+
+先付出这个曲线非 CM，避免把不同核的商 j 混同。
+在5、7处原方程均好约化。在 x 依次取标准剩余元时，
+$x^3-12x+20$ 的值分别为
+$$
+ \begin{array}{c|c|c|c}
+ q&\text{全部多项式值}&\#E_L(\mathbf F_q)&a_q\\ \hline
+ 5&(0,4,4,1,1)&10&-4\\
+ 7&(6,2,4,4,1,1,3)&11&-3.
+ \end{array}
+\tag{29}
+$$
+表中的计数由每个非零平方给两点、零给一点，再加 O 得出。
+两处均 ordinary；Frobenius 二次域分别为
+$\mathbf Q(\sqrt{16-20})=\mathbf Q(i)$ 和
+$\mathbf Q(\sqrt{9-28})=\mathbf Q(\sqrt{-19})$。
+若 $E_L$ 有 CM，其二次端同态域在每个好 ordinary 约化中
+都注入该约化的二次端同态域，因而必须等于这两个不同的域，
+矛盾。这仅是固定曲线的非 CM 判定，不用两个有限素数代替(28)。
+
+令 $C_3\subset E_L[3]$ 是一个复共轭稳定的循环三核。
+它可直接在原实模型上选定：三除多项式除以3为
+$$
+ h_3(T)=T^4-24T^2+80T-48.
+\tag{30}
+$$
+$h_3(0)<0<h_3(1)$，故有实根 $r\in(0,1)$。
+此时 $r^3-12r+20>0$，点
+$(r,\sqrt{r^3-12r+20})$ 为非零实三挠点，
+它与负点组成所需核。取真实商
+$$
+ E'=E_L/C_3,\qquad j'=j(E'),\qquad F=\mathbf Q(j').
+\tag{31}
+$$
+有 $j'\in\mathbf R$，故 F 有实嵌入。
+
+四个循环三核给四个不同的商 j。完整理由是：
+若两个商同构，则将同构与两个三同源复合，得到
+$E_L$ 的度9端同态；因非 CM，它是 $\pm[3]$。
+再与另一同源复合并在 Hom 群中消去[3]，
+得两个同源相差符号，其核相同，矛盾。
+因此
+$$
+ \operatorname{Stab}(j')=\operatorname{Stab}(C_3)
+\tag{32}
+$$
+作为绝对 Galois 群的子群严格相等。
+特别 F 位于 $\mathbf Q(E_L[3])$ 中，
+且 F 的嵌入与 $C_3$ 的 Galois 轨道一一对应。
+这一步使用真正的商 j，若只将原有理 j 扩域，便没有(32)。
+
+原 $j(E_L)=-3072$ 为整数。模多项式
+$\Phi_3(-3072,T)$ 首一且整系数，所以 j' 为代数整数。
+j' 非 CM，亦不等于1728。以下没有范数分母问题。
+
+将 S 扩大一次，纳入2、3、5、7、F 的分歧素数、
+$E'$ 的全部坏素点下的有理素数，以及四个商 j 的
+最小多项式判别式、指数和两两碰撞所需的有限坏素数。
+所有扩大的对象均固定，不依赖后面选的辅助素数。
+证明对扩大的 S 成立即满足原 S。
+
+### 7.2 Elkies 所需负 Norm 的具体实区间
+
+记 $P_D(T)$ 为判别式 $-D$ 的整环类多项式。
+使用 Elkies 1989 原文 §2 Proposition 1 及其 Corollary、
+§3 Proposition 2 及其 Corollary 中的以下精确事实。
+
+若不同素数 $\ell_1\equiv1\pmod4$、
+$\ell_3\equiv3\pmod4$，置 $L=\ell_1\ell_3$，
+则 $P_L$ 与 $P_{4L}$ 都在模 $\ell_1$、模 $\ell_3$
+下是首一多项式的平方。对
+$$
+ f_-(t)=j((1+it)/2),\qquad f_+(t)=j(it)\quad(t>0),
+$$
+二者均满足 $f_\pm(t)=f_\pm(1/t)$；
+在 $t>1$ 上，$f_-$ 从1728严格降到 $-\infty$，
+$f_+$ 从1728严格升到 $+\infty$。
+$P_L$ 的两个实根为
+$f_-(\sqrt L),f_-(\sqrt{\ell_1/\ell_3})$，
+$P_{4L}$ 的两个实根为相应的 $f_+$ 值。
+其余根成非实共轭对。
+
+现在把 j' 的所有不同实共轭排列为
+$r_1<\cdots<r_k$，其中 $k\ge1$。
+这涵盖 F 可能有两个实嵌入和一对复嵌入的情形，
+不把 F 默认为全实域。
+
+若 $r_1<1728$，选 z 严格位于
+$r_1$ 与 $\min(r_2,1728)$ 之间；当 $k=1$ 时右端取1728。
+取 $t_0>1$ 使 $f_-(t_0)=z$。
+由连续性，可选固定开区间 $I\ni t_0^2$，
+使 $\ell_1/\ell_3\in I$ 时第二实根仍在同一区间内。
+当两辅助素数充分大时，第一实根小于 $r_1$。
+故 $P_L$ 仅在 $r_1$ 处取负，在其余实共轭处取正。
+
+若 $r_1>1728$，选 z 严格位于
+$\max(r_{k-1},1728)$ 与 $r_k$ 之间；$k=1$ 时左端取1728。
+改用 $f_+$ 及 $D=4L$，得到 $P_D$ 仅在 $r_k$ 处取负。
+j' 非 CM 保证 $r_i\ne1728$，所以两种情形已经穷尽。
+每个非实共轭对贡献 $|P_D(\sigma j')|^2>0$。
+因此存在一个固定开区间 I 和固定的两种选择之一
+$D=L$ 或 $D=4L$，使
+$$
+ \ell_1/\ell_3\in I,\quad \ell_i\text{ 充分大}
+ \quad\Longrightarrow\quad
+ A_D=\operatorname{Nm}_{F/\mathbf Q}P_D(j')<0.
+\tag{33}
+$$
+$A_D$ 是非零整数。
+
+### 7.3 两个辅助 Frobenius 同时满足所有排除条件
+
+置有限 Galois 扩张
+$$
+ \mathcal M=
+ \mathbf Q\bigl(E_L[3],\,i,\,\sqrt{s}\ (s\in S)\bigr),
+\tag{34}
+$$
+并用选定复嵌入的复共轭 c 作其 Galois 元素。
+因为每个 s 是正有理素数，c 固定所有 $\sqrt s$；
+在 i 上它为负；在 $E_L[3]$ 上，
+$c^2=1$ 且由 Weil pairing 有 $\det(c)=-1$。
+在特征3中其两个特征值遂准确为1、−1。
+
+Chebotarev 素数定理对共轭类 $\{1\}$ 和 $[c]$
+分别给正密度素数集。对任意固定 $0<a<b$，
+这两个集在 $[aT,bT]$ 中的素数数目分别渐近于
+正正常数乘 $(b-a)T/\log T$。
+因此可令
+$$
+ \operatorname{Frob}_{\ell_1}=1,\qquad
+ \operatorname{Frob}_{\ell_3}\in[c],\qquad
+ \ell_1/\ell_3\in I
+\tag{35}
+$$
+并令两素数任意大、避开 S 及 $\mathcal M$ 的分歧集。
+这里只使用无条件的 Chebotarev 素数定理，不需要 GRH。
+
+逐项看(35)的后果：
+$$
+ \begin{array}{c|cc}
+ &\ell_1&\ell_3\\ \hline
+ \bmod4&1&-1\\
+ \bmod3&1&-1\\
+ (s/\ell_i),\ s\in S&1&1.
+ \end{array}
+\tag{36}
+$$
+最后一行来自它们都固定正平方根，
+不是事后另附一组可能不兼容的同余条件。
+因此(35)已同时支付 Elkies 的比值区间、两个模4条件
+和原全部 S 条件。定义二次字符
+$$
+ \chi(n)=(n/\ell_1)(n/\ell_3).
+\tag{37}
+$$
+则 $\chi(-1)=-1$、$\chi(s)=1$ 对所有 $s\in S$ 成立；
+$\chi$ 是 $\mathbf Q(\sqrt{-L})$ 的二次字符，
+也控制 $D=4L$ 的同一二次域。
+
+还有两个关键数学分支。
+在 $\ell_1$，$E_L[3]$ 的 Frobenius 为恒等，
+故 $a_{\ell_1}(E_L)\equiv2\pmod3$。
+$\ell_1\ge5$，若超奇异则迹应为0，因此它 ordinary。
+若 $\ell_3$ 超奇异，(36)立即给所需的新 q=$\ell_3$，
+命题已证。以下只需处理 $\ell_3$ 也 ordinary 的分支。
+
+在此分支，
+$$
+ \ell_1\ell_3\nmid A_D,\quad\text{且实际上 }\gcd(A_D,L)=1.
+\tag{38}
+$$
+这里必须逐素点解释：若 $\ell_i\mid A_D$，
+因 j' 整且 $\ell_i$ 不在坏集，有 F 的素点 v 满足
+$P_D(j')\equiv0\pmod v$。
+该根是某个判别式为 $-D$ 的 CM 椭圆曲线的好约化 j。
+$\ell_i$ 在 $\mathbf Q(\sqrt{-L})$ 中分歧；
+它不整除该 CM 环可能的导子2。
+由 Deuring 约化判据，该根为超奇异 j。
+于是 $E'$ 在 v 超奇异，而真实三同源将此传给 $E_L$
+在 $\ell_i$ 的约化，与该分支的 ordinary 性矛盾。
+所以这里没有把 ramified CM 相交误认为自动存在。
+
+### 7.4 负 Norm 的奇数估值迫 q 在原 K 中惰性
+
+由模 $\ell_i$ 的多项式平方和范数乘法，
+$A_D$ 在两个模数下都是非零平方。
+令 $N=-A_D>0$。由(33)、(37)、(38)，
+$$
+ \chi(N)=-1.
+\tag{39}
+$$
+故存在有理素数 q，满足
+$$
+ v_q(N)\text{ 为奇数},\qquad \chi(q)=-1.
+\tag{40}
+$$
+它不等于 $\ell_1,\ell_3$，且由 $\chi(s)=1$
+可知 $q\notin S$。
+
+整数范数的准确赋值公式为
+$$
+ v_q(N)=
+ \sum_{v\mid q} f(v/q)\,
+             v\bigl(P_D(j')\bigr).
+\tag{41}
+$$
+每项非负。存在 v 上的正赋值，即 j' 模 v 是 $P_D$ 的根。
+$\chi(q)=-1$ 说明 q 在相应 CM 二次域中惰性，
+Deuring 判据再次给 $E'$ 模 v 超奇异。
+由 q 处的真实三同源，$E_L/\mathbf F_q$ 也超奇异。
+因 $q\ge5$，
+$$
+ a_q(E_L)=0,\qquad
+ \operatorname{Frob}_q^2=-q\quad\text{在 }E_L[3]\text{ 上}.
+\tag{42}
+$$
+
+假设 $q\equiv1\pmod3$。
+$E_L[3]$ 上的特征多项式于是为
+$T^2+1\in\mathbf F_3[T]$，它不可约。
+其在四个循环三核上的作用没有不动点；
+又由(42)知其射影平方为恒等，故循环型准确为
+$$
+ (2,2).
+\tag{43}
+$$
+任何 Galois 不变的核轨道在这个元素下都由二循环组成。
+由(32)，这就是 q 在 F 的嵌入集合上的作用。
+q 已避开分歧及指数坏集，所以所有 $f(v/q)$ 都等于2。
+于是(41)为偶数，与(40)矛盾。
+只能有 $q\equiv-1\pmod3$，命题得证。
+
+注意这不是将一个 F 上的任意超奇异素点宣称为次数1；
+实际证明使用了特定非零范数的奇数估值，
+以及同一个商 j 域中的完整四核 Frobenius 周期。
+有限集 S 任意，故确得无穷多个不同的 q。
+
+## 8. 同一个原 g 二盖的无穷精确最大 Frobenius 输入
+
+对§7所得的 q，a 在 $\mathbf F_q$ 中是4的唯一立方根，
+所以§1–5的原全部映射、g、两个 involution 及 Prym 识别
+都在 $\mathbf F_q$ 上保持原规范。
+记 $\mathrm F_q$ 为曲线的 q 次 Frobenius 同态。
+$E_L$ 超奇异且迹0，故不是只有特征多项式相等，而是真同态等式
+$$
+ \mathrm F_q^2=[-q]\quad\text{在 }E_L.
+\tag{44}
+$$
+这由 Cayley–Hamilton 在任一好 ℓ-adic Tate 模上成立，
+以及 abelian variety 的同态到其 Tate 模的单射得到。
+
+R1029 已对每个惰性 q≥5证明原 $J_C$ 的同一个等式。
+π、r 定义于 $\mathbf F_q$，所以与 Frobenius 交换。
+将(9)的
+$[2]=\pi^*\pi_*+r^*r_*$
+与 $u=\mathrm F_q^2+[q]$ 复合，两个右端项均为0。
+故 $[2]u=0$。Jacobian 的 Hom 群无挠，得到
+$$
+ \boxed{\ \mathrm F_q^2=[-q]\quad\text{在 }J_{\widetilde C}.\ }
+\tag{45}
+$$
+因而对上述无穷 q，
+整个原 g 二盖在 $\mathbf F_{q^2}$ 上的六个第一上同调
+Frobenius 根都为 −q；这不是仅 C 的纯 CM 因子，
+也不需要假设 R1031 的另一非 CM 商与 $E_L$ 同时超奇异。
+
+固定有理非挠点 $P=(1,3)$ 在这些有限域中满足
+$$
+ [q+1]\overline P=0,
+\qquad
+ [q+1](D_\infty-D_0)=0
+ \quad\text{在 }J_{\widetilde C}(\mathbf F_q).
+\tag{46}
+$$
+第一式用 $\mathrm F_q\overline P=\overline P$ 代入(44)，
+第二式用真实的(14)。有理非挠性与有限域中的(46)并不冲突。
+
+(45)还给可直接在函数域中使用的完整除子关系。
+取原有理基点 $P_\infty$。
+对任意几何点 Z，Abel 映射与 Frobenius 交换，所以
+$$
+ qZ+\mathrm F_q^2(Z)\sim(q+1)P_\infty
+ \quad\text{在 }\widetilde C_{\overline{\mathbf F}_q}.
+\tag{47}
+$$
+两个点相合时保留原重数；
+不是只在点集上给一个相消关系。
+若 Z 在 $\mathbf F_{q^2}$ 上，则
+$(q+1)(Z-P_\infty)$ 为主除子。
+若其除子在某个有限域上有定义，且需要函数也在同域上，
+可用 $P_\infty$ 的 rigidification 和有限域 Hilbert 90
+下降其一维函数空间，未引入额外平方根或改动原 g。
+
+这些是(18)–(23)的原平方根盖所需的实际无限 Frobenius 输入。
+本节没有证明 q+1 的素因子包含无穷多个不同素数，
+没有替换原54图、27对的有权和，
+也没有把(46)的椭圆 Kummer 类等同原
+$\eta_j^{-1}\widehat\psi^3\varepsilon^{-1}$ 最高实现。
+后继仍须用原 R、两二次式及双 Norm 作真正的对应；
+特别不能由新的无限辅助 q 自动宣布普通 p 或主课题完成。
+
+### §§7–8 的原始文献依据
+
+- N. D. Elkies, *Supersingular primes for elliptic curves over real number fields*,
+  Compositio Math. 72 (1989), 165–172：
+  [原文](https://www.numdam.org/item/CM_1989__72_2_165_0.pdf)。
+  实际调用其已发表的 §2 Proposition 1 / Corollary 与
+  §3 Proposition 2 / Corollary；§7重新给出所需加强的全部范数论证，
+  不把该文主定理中的任意剩余次数偷换为1。
+- J.-P. Serre, *Quelques applications du théorème de densité de Chebotarev*,
+  Publ. Math. IHÉS 54 (1981), 123–201：
+  [原文](https://www.numdam.org/item/PMIHES_1981__54__123_0.pdf)。
+  §7.3仅需固定有限 Galois 扩张的无条件 Chebotarev 素数定理，
+  无需任何有效常数或 GRH。

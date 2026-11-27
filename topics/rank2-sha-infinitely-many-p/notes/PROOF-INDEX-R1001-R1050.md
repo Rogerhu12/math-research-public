@@ -90,7 +90,7 @@
 - [R1038](../results/R1038-e3969-two-independent-points-and-complete-cm-character.md)：R1038固定E3969:Y²=X³+3969的P=(18,99)、S=(−5,62)、T=(0,63)在E/3E独立，E[3](Q)=⟨T⟩，故rank≥2；完整三同源/微分复合/有理核/两个Kummer及例外点全付。ψ1的63三次逆扭与2/7/δ各局部导子给全导子47628，原三好生成元规范候选(A5,C4,H2)。不靠数据库rank，尚待R1037真实块及完整来源/通常全Sha桥，不赋新canonical零。 R1038§§8–9付E3969全54个三处单位χ3(qω^j g^k)=ε(q)ω^(−j−k)、χ3(δ)=i，两个7 uniformizer及完整Gauss−9/root+，Hermitian类[1]。α=1原九维矩阵为ωM；实际新实不变列(3−δ(ζ²−ζ⁷),δ(ζ−ζ⁸),−δ(ζ²−ζ⁷))、范数18f1全部齐。尚需同α=1/7最小126/378全finite/Gaussian规范，不把α代表或旧wild列混同。
 
 
-- [R1039](../results/R1039-original-g-cover-prym-boundary-and-frobenius.md)：R1039原g的étale二盖有严格Prym≅固定EL:y²=x³−12x+20；实际图给r^*r_*=1−ι，原∞边界减真二挠D0准确=r*(1,−3)，该有理点由完整2进倍点证明非挠。任意原两cover点给FQ=sR/(z−2X)+δu，两个真实Norm为3x及EL上的显式NQ；S4/genus13正规盖的sign局部系H1准确是H1(EL)。尚无原最高λ/27权的混合对应，不用JC的CM F²替代EL，也不把新非挠边界当原AJ。
+- [R1039](../results/R1039-original-g-cover-prym-boundary-and-frobenius.md)：R1039原g的étale二盖有严格Prym≅固定EL:y²=x³−12x+20；实际图给r^*r_*=1−ι，原∞边界减真二挠D0准确=r*(1,−3)，该有理点由完整2进倍点证明非挠。任意原两cover点给FQ=sR/(z−2X)+δu，两个真实Norm为3x及EL上的显式NQ；S4/genus13正规盖的sign局部系H1准确是H1(EL)。尚无原最高λ/27权的混合对应，不用JC的CM F²替代EL，也不把新非挠边界当原AJ。 R1039§§7–8对固定EL:y²=x³−12x+20给无穷q≡−1mod3且a_q=0：真实实三同源商j域的完整核轨道、Elkies负整数Norm、两辅助Frobenius和奇数估值排除q≡1，全分母/坏素数/ramified分支均付。原g二盖整个Jac遂有F²=−q，任意几何Z满足qZ+F²Z∼(q+1)P∞，原非挠边界模q被q+1杀。尚不代q+1无穷素因子、ordinary p或原最高27权非零。
 
 
 - 原E3969新增[degree126实时返回](2026-11-27-e3969-original-degree126-live-return.md)：从既有完整R1037公开回执绑定唯一64向量，原22列δpull唯一解/64回乘及全部角端点/因子保齐；未重算原谱，实际新回执待。 原126实时返回run45977711940/job140433521280/source311f91e77e8071abc6f55d889e8880931634600d已完整PASS：22列rank与64回乘齐，P126 degree20/monic/den91，X0/−1/−4 simple与X8 double，norm7 factor simple；原f degree20，全部端点及cubic拉回degree61/四阶1/1/2/3齐。必要全因子见原126笔记，不能预设angle21或删h7。
