@@ -527,3 +527,12 @@ WRC公式修正：原658c3109的physical角导数补全q_b,φ·Δx，新增一�
 ### R149 DBRA：实际target w与完整B inverse96行
 
 [完整证明与全部9正式球](results/R149-supplement-actual-direct-target-w-and-complete-B-inverse-rows.md)。45935081577/1于04:35:55成功，全2048真实w trial、96×192完整r carrier和96×2240完整residual已保存whole身份；e_w∞≈.347099250、e_w2≈.064636867、finite residual≈.014591177，而全空间联合行误差eR≈.857445102。后者完整保留true w系数误差，不以小finite residual代替。BR原same inverse/4n尺度/真a相位/两独立mean不变。允许BNC消费全部96行及整eR；不授完整forward列、physical PDE或fullSchur。原9success不重算。
+
+
+### R119 SHL：同一实际选解的L²响应及完整物理输出
+
+[完整证明](results/R119-supplement-L2-response-of-the-actual-selected-tail-and-physical-readouts.md)。消费HL/HLP独立完成的真正L²参数列和原SLIP/SREG prioris，不从A0 inequality偷换输入norm。实际同一S/T选择满足wE20 L²差/导数2^-31222782/r、高64..1164 2^23303175/r、uE20 2^-31222778/r、真实normalized fB H23为2^-31223222/r；全seed94/Γ2/principal/mean/三径source不删。
+
+原闭高域上L²小差由插值给A0小差；同E3121统一界给selected E2960强连续与compact image，完整源余项除L²距离uniform趋0。直接使用原actual inward differences得到同一V并唯一L²线性扩展，保B0=0且至少strong Z20线性方程；closed-domain uniform relativeL²展开已成。operator H8193→E20..1164对baseL²连续，但不授L²方向operator连续、开放L²非线性值域或rough-source onto。
+
+GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空间给真正本片globalC² L²响应2^-31220733/r、2^-31218685/r；physical relative余项逐fixedbase，普通C1及physical operator连续仍限原H8193拓扑。oneλ/placement/mean/span/moving-test DT全保；Γ随γ变，非最终fixedmetric族。无新数字比较、无reader、无旧科学重跑。
