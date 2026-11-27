@@ -48,8 +48,8 @@
 
 
 <!-- visible-larger-parallel-06:start -->
-并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-new-SO3-actual-parent-profile-first-20261126-rebuild06`/completed；已返39，exit=0。
-并行06规则核查：2026-11-27 00:58:51 UTC，真实pull至`6bc00bee3e4a9733fd3b835803495c5ae8703410`，双README无变化。
+并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-actual-parent-SO3-interior-restore-first-20261126-rebuild06`/completed；已返40，exit=0。
+并行06规则核查：2026-11-27 01:45:36 UTC，真实pull至`72b6cac4703317126fdd641d6c5614bced5589aa`，双README无变化。
 <!-- visible-larger-parallel-06:end -->
 
 <!-- visible-larger-parallel-07:start -->
