@@ -1,17 +1,25 @@
 {
-  "message": "ISP: prove full five-weight S2 and the six-weight birth-two first edge",
-  "parentCommit": "e9d537c295e35c298bdd34b106d790028c66deeb",
+  "message": "ISP: prove collision P3 original Delta square and complete 1474 parameter cover",
+  "parentCommit": "c9fb3d2d1e3f9d7af84d287132ca0dc5f047d331",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-quarter-positive-certificate-8542.mjs",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-quarter-positive-certificate-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-companion-exact-scalar-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-complete-five-weight-S2-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-complete-five-weight-S2-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-collision-P3-original-Delta-square-and-complete-1474-parameter-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-original-Delta-square-and-1474-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.manifest.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-01.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-02.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-03.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-04.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-05.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-06.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-exact-1474-cover-8542.part-07.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-collision-P3-low-Gamma-deflated-original-Q-norms-8542.py",
+    ".github/workflows/invariant-subspace-8542-collision-p3-low-gamma.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-collision-P3-1474-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-collision-P3-1474-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,5 +28,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-collision-p3-low-gamma.yml"
+  ]
 }

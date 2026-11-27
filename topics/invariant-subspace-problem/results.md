@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [碰撞P3原Delta平方与完整1474参数覆盖](results/R150-appendix-unit211-collision-P3-original-Delta-square-and-complete-1474-parameter-cover.md)：五步同Q原欧氏身份、全权代数真逆及Delta²返回；全部异常λ留于SF1474，P支≤4422、当前碰撞合计≤43617不同λu基点，原Q纤维仍开。
+
 - [五独立正权完整S2与六独立位出生二首边](results/R271-appendix-five-independent-positive-weights-full-s2-and-six-site-birth-two-first-edge.md)：同全MP费用平方迹<1/4，2841参数→6936完整正轨道；同L half及原R298/R275全拼接，原W/N=M继续。
 
 - [Phi例外整个M_J四次纤维排除及112有序基点覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-S-moment-quartic-exclusion-and-112-cover.md)：原rho4/T5/z2的160维meanR可逆，真QQ重数仅≥4；完整1977/2050新Bézout，模8保未付。
