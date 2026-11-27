@@ -121,3 +121,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### fixed-base向外p²全剔除和已回同一整参数
 
 新[p²向外笔记](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)保持原底曲线/degree34图，只添加全部cyclic p²级；两实际退化映射给Ω^[p]=d0*Ω−p⁻²λ*d2*Ω，全修正图推前和proper AJ自然性准确得Aout=(p²−1)I，原Artin下降=(p²−1)h。这个因子为整单位；原在高导子底曲线用canonical上行的incoming全和仍0。下一把这份指定向外Coleman primitive与同一Jtor/(pv)正则化比较，保持horizontal规范；不从相同连接或书中1−p⁻²形式直接认定。
+
+
+### 原dyadic平均微分算子的完整返回已付
+
+p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四半周期lift的真实共轭平均，B³才同时保PB4。原三列矩阵已手证，模11排与CM13同谱，故不能拆成三条原eigenline的独立Lamé式。完整entire算子保ζ与首部∂²−17z⁻¹∂，canonical来源P4∇34²S虽然有准确有限返回，真j_(p+1)/p及全部低卷积仍未被坏条件消去。继续这份固定完整算子的实际canonical读者；不登记一个由裸D²造成的假传播。

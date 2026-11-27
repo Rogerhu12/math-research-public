@@ -17,6 +17,8 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 - 本地07:20失联，18:50两库实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI实际pull、本地及API分记。**下一轮两库实际pull不迟于19:50UTC**；至少每小时一次，每次读两README新差异并即执行、记SHA。API每次检查最新main规则/topic差异，不冒作git pull。
 - 最新rule15 inventory3095blob/43,449,325B、无>5MB，三旧gzip输入证书同前。完整同步log仅记14887B/SHA339cd53f69464c31ff22d7ac72831a652e9c16f648cf6f8fe108ce1c2de47776，不存可重算日志。
 
+19:26发布fixed-base式时首轮ref GraphQL UNKNOWN且main移动；立即本地实际pull尝试仍无环境，重比新父第二轮已推92711daa。19:27 request rank2-20261127T1927-after-ref-retry-both-rule-pulls补拉两库，待实际回执；不把API比较写成pull。
+
 ## 唯一原完整厚几何执行
 
 v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在21000s/exit124前返回全部306Frob，但四交/Norm/18×9未返；非反例、非终门PASS，不重跑旧输入。
@@ -35,7 +37,7 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 [p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)已付incoming depleted和0、raw norm/p²回I，保全部p+1回返。[fixed-base向外全式](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)已独立付清：Ω^[p]=d0*Ω−p⁻²λ*d2*Ω、全degree34修正图推前为degree34p²；proper AJ自然性与原全范数给Aout=(p²−1)I，原Artin下降=(p²−1)h。Tate上准确f−p²V_p²f，p²−1为真正单位。fixed底曲线只添全部p²级的向外对应与incoming零和同时成立；仍须比较同一原Newton正则化。下一继续真实AJ/Newton正则化，不能将负槽或p^weight形式赋值替代。
 
-固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)与CM13/Frob²循环已付，故三K29单位；纯Newton不替代c_j好集/q0。原whole17提升已付：完整U_e²=−I、反交换、Pω秩17且E17 Heisenberg保持；ℓp=ℓpΠ4使三维PB4行零等价全17零functional。p≡2/5mod9全行非零等价三线全单位，仍未给跨p。central新原四元平均B及全三列矩阵候选blob5d34a835ffc0da9948f425d3f8930e2c35cab67f已root初读；B³不与CM13同谱，不免费产生canonical零。
+固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)与CM13/Frob²循环已付，故三K29单位；纯Newton不替代c_j好集/q0。原whole17提升已付：完整U_e²=−I、反交换、Pω秩17且E17 Heisenberg保持；ℓp=ℓpΠ4使三维PB4行零等价全17零functional。p≡2/5mod9全行非零等价三线全单位，仍未给跨p。同note§7已付原四元平均B=4(X+1)∂x²−96x²∂x+544x、全18列和PB4上1024·三列矩阵；它保dyadic块、B³保型四，但模11严格排与CM13同谱。原sigma共轭保ζ/p首分母及canonical的全低卷积，不免费产生中央零。
 
 ## 主目标及其余原门
 

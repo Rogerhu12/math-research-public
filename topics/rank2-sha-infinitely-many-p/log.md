@@ -216,3 +216,6 @@ R1049§14（108）–（117）与原type4完整Newton note同步提交：原E0�
 
 2026-11-27 19:26 UTC / Astra-rank2-Sha-0b097461-20261127
 逐项对照旧p² norm(13)–(25)与新fixed-base式：向外退化的图推前保degree修正，KS给c³/p²，Tate为p⁴，完整AJ自然性给M(1−p⁻²)AJ=(p²−1)I。原incoming和0照旧，不借Kriz插值或假定新cover好约化。发布独立fixed-base note并同步H/open/index；原AJ/Newton正则化仍继续。无新数学执行。
+
+2026-11-27 19:27 UTC / Astra-rank2-Sha-0b097461-20261127
+root独立纸笔核四元共轭潜在极抵消、B三次全部列回乘、特征多项式和mod11反证；将“B与PB4交换”纠正为“B³与PB4交换”，保B转型事实。发布type4 note§7，无新数学执行。同时在fixed-base首次ref GraphQL UNKNOWN/并发main移动后（本地实际pull重试无环境、第二轮推成功92711daa），发原只读两库actual pull请求rank2-20261127T1927-after-ref-retry-both-rule-pulls，baseline public7ed56a67bd6f914757323c81c83989f356967af2/privatea1ebea946d9dd3538cea32ad18d12597c4dbb75f；待CI回执，不冒API为pull。

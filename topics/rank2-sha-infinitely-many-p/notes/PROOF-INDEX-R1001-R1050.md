@@ -347,3 +347,5 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 - [固定weight3全双变量seesaw](2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)§§10–11：同一变极化的完整Gaussian给cZW及e^−cZW正常排序，两Hermite槽为(n,n+2)，a^n·Laguerre逐项是原δ3^n。χ=ν27²及两rank-one全finite characters、δ(χμ)=ξδ=−i保留；n=−2只定位真实D−2/β0，未把负幂槽当Coleman值。
 
 - [固定底曲线向外p²全和](2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)：Ω^[p]=d0*Ω−p⁻²λ*d2*Ω的KS/微分使Tate剔除f−p²V²f；原degree34修正图逐项推前成degree34p²。proper AJ自然性与已付未归一p²范数给完整M(1−p⁻²)AJ=(p²−1)I，原下降格=(p²−1)h。全54/full9/η/Cor/最高投影保留，无新运行；incoming零不变、未预设新cover好约化或免费Coleman正则化。
+
+- [原PB4四元共轭平均](2026-11-27-original-type4-inert29-coefficient.md)§7：原D²−1190x在偶S34全18列上对四dyadic lift平均，完整极抵消给B(x^a)=4(a−17)(a−8)x^(a+1)+4a(a−1)x^(a−2)。B³保PB4，真实三列矩阵、charpoly和mod11中心化域反证均手付；全σ共轭、type4的4/22分支及P4∇34²S的实际六列保留。没有新数学执行，也未把ζ首p分母或真除pcanonical行删掉。

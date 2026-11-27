@@ -46,3 +46,5 @@
 - [同一固定weight3双变量源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)§§10–11：完整Gaussian交叉cZW、两个Hermite coherent参数及a^n Laguerre展开逐项返回原θ(ψ27²)的δ3^n；两个完整finite characters/δ延拓均保。负二端点定位D−2/β0，尚须真实Coleman/fp正则化。
 
 - [原fixed-base向外p²剔除](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)：两实际退化映射、全部degree34图修正与全54/η/Cor交换，完整AJ和为(p²−1)I、Artin下降为(p²−1)h；准确保KS的p⁴及f−p²V²f。原incoming depleted和仍0，不混同两个模问题；尚未与Jtor/(pv)全精度相认。
+
+- [原四元平均微分算子](notes/2026-11-27-original-type4-inert29-coefficient.md)§7：在完整偶S34上保真实半周期lift，得B=4(X+1)∂x²−96x²∂x+544x及全部18列；B³在原PB4的完整3×3回乘已手证，模11排与CM13同时谱。原σ-frame首部∂²−17z⁻¹∂和canonical全ζ低卷积保留，不从此赋p−1行非零或坏canonical强迫。
