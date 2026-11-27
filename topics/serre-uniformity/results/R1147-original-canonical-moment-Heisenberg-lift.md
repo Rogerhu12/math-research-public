@@ -319,3 +319,329 @@ $H^1(\mathscr X_0,L_8)$ 中央歧义仍如 R1146 §7；F33 门可杀全部该歧
 - 本篇的低阶 H¹、群律、pushout 及 cusp residue 全部在文中逐式证明。正规底上 finite étale torsor 的泛点单射、étale purity 与 Zariski–Nagata purity 按 fine level 的 scheme charts 使用，再由 prime-to-$p$ trace 与局部 quotient 描述下降，不将 characteristic $2,3$ 的 coarse map 冒作 étale。
 
 无数学程序执行；未修改已有 Actions 请求或既成数值输入。
+
+
+## 8. 同一 theta 的 primitive $p^n$ 矩及精确兼容箭头
+
+以下是 §§1–7 的后继，仍只用原 theta，且不预设一个 $\mathbb Q_p$-connection。设
+$$
+R_n=\mathbb Z/p^n,\quad N=p^n,\quad
+\mathcal H_n=\mathcal E[N],\quad
+L_{r,n}=\mu_N^{\otimes r},\quad
+U_n=\mathcal E[N]\setminus\mathcal E[N/p].
+$$
+$U_n$ 是 exact-order-$N$ 的有序点 cover。固定一个 $c>3$、$(c,p)=1$、primitive mod $p$ 的辅助素数，令
+$$
+k_d(c)=c^2-c^{-d}\in\mathbb Z_p^\times,\qquad d=4,8,12.
+$$
+在 $\mathcal M_{\mathbb Q}$ 定义实际类
+$$
+\mathsf M_{d,n}=
+k_d(c)^{-1}\operatorname{Cor}_{U_n/\mathcal M}
+ \bigl(P^d\otimes\kappa_N(\theta_c(P))\bigr)
+ \in H^1(\mathcal M_{\mathbb Q},
+              \operatorname{Sym}^d\mathcal H_n(1)).
+\tag{1147.23}
+$$
+若原 trace-fixed $\theta_c$ 写在 $K_1\otimes\mathbb Z[1/6]$ 中，这里的 Kummer map 是按 $R_n$ 中可逆的同一分母解释；不反除 $p$。
+
+使用同一 $\theta_c$ 的 exact distribution
+$$
+[p]_*\theta_c=\theta_c\qquad((p,c)=1).
+\tag{1147.24}
+$$
+此式是原 theta 的 norm，而非一个相差未知 base 常数的 divisor 身份。Kato 的 theta 定理在 Kings §3.3, Theorem 3.3.1 中同时给出 divisor、distribution 与 base change；本篇使用其完整函数规范。也可沿 R1138 的 trace-fixed 规范证明：divisor 比较后的 base 常数由 prime-to-$pc$ 的全部 trace identities 固定，可能的 $24$-torsion 在 $R_n$ 中消失。
+
+映射 $[p]:U_{n+1}\to U_n$ 的每个 fibre 含全部 $p^2$ 个原点，且它们全是 primitive。系数约化 $\mathcal H_{n+1}\to\mathcal H_n$ 是 $P\mapsto pP$。由 projection formula 和 (1147.24)，
+$$
+\mathsf M_{d,n+1}\pmod{p^n}=\mathsf M_{d,n}.
+\tag{1147.25}
+$$
+没有额外 $p$、$p^d$ 或 degree 平均。$n=1$ 精确是 (1147.1)。
+
+圆单位的兼容性须另定准确箭头。置 $K_n=\mathbb Q(\zeta_N)$，选择 $\zeta_{p^{n+1}}^p=\zeta_{p^n}$，定义
+$$
+\gamma_{5,n}
+ =\operatorname{Cor}_{K_n/\mathbb Q}
+   \bigl(\kappa_N(1-\zeta_N)\otimes\zeta_N^{\otimes4}\bigr)
+ \in H^1(S_0,L_{5,n}).
+\tag{1147.26}
+$$
+它在 $K_n$ 的 restriction 是
+$$
+\epsilon_{4,n}\otimes\zeta_N^{\otimes4},\qquad
+\epsilon_{d,n}
+ =\sum_{b\in(\mathbb Z/N)^\times}
+       b^d\kappa_N(1-\zeta_N^b).
+\tag{1147.27}
+$$
+由
+$\operatorname{Norm}_{K_n/K_{n-1}}(1-\zeta_N)=1-\zeta_{N/p}$，
+先约化系数再用 corestriction transitivity，得到
+$$
+\gamma_{5,n}\pmod{p^{n-1}}=\gamma_{5,n-1}.
+\tag{1147.28}
+$$
+这是 **$\mathbb Q$ 上类的系数约化**。不把 $\epsilon_{4,n}$ 的 field norm 叫作同一兼容箭头：该加权全轨和的 field norm 是 $p\epsilon_{4,n-1}$。$n=1$ 的 (1147.26) 与原 $\gamma_5$ 相同。
+
+## 9. 全 primitive 轨道的 Tate residue：非单位 $a$ 也保留
+
+保持 R1144 的 Tate basis：
+$$
+e_1=q^{1/N},\qquad e_2=\zeta_N,\qquad
+u(e_1)=e_1+e_2,\quad u(e_2)=e_2.
+$$
+$e_2$ 是惯性不变量，$e_1^d$ 是 symmetric-power coinvariant 的生成元。所有计算先在 $K_n$ 的 Tate punctured chart 作，arithmetical section 固定所选全部 $q$-roots。
+
+### 9.1 实际 leading 的阶与相位
+
+写 $0<a<N$，$ca=Nr+s$，$0<s<N$。原 theta 的 Tate product 给
+$$
+\begin{aligned}
+k_N(a)
+ &=ca r+\frac{c-c^2}{2}a
+   -\frac N2(r^2+r)+\frac N{12}(c^2-1),\\
+h_c(a)&=cr+\frac{c-c^2}{2},\\
+k_N(a)&\equiv a h_c(a)\pmod N.
+\end{aligned}
+\tag{1147.29}
+$$
+这里 $k_N(a)=N\operatorname{ord}_q\theta_c(P)$。若 $P=a e_1+b e_2$，同一 product 的 leading 还包含真实相位
+$\zeta_N^{b h_c(a)}$。符号因子是 $2$-primary，故其 $R_n$-Kummer 类为零；共同 Hodge frame 因子仍保留到加权总和才消去。
+
+为逐项核 (1147.29)，可用
+$$
+\theta_c(v)=
+q^{(c^2-1)/12}(-v)^{(c-c^2)/2}
+\frac{(1-v)^{c^2}}{1-v^c}
+\frac{\prod_{j\ge1}(1-q^jv)^{c^2}(1-q^j/v)^{c^2}}
+     {\prod_{j\ge1}(1-q^jv^c)(1-q^j/v^c)} .
+$$
+代 $v=q^{a/N}\zeta_N^b$。分母中 $j=1,\ldots,r$ 的负 $q$ 阶因子准确贡献
+$cbr$ 的 $\zeta_N$ 指数及
+$ca r-Nr(r+1)/2$ 的阶；其余因子给 (1147.29) 的其余项。这里未以 Bernoulli 的 fractional-part 记号隐去相位。
+
+令 $g=p^{v_p(a)}$，$h=N/g$。固定 $a$ 的惯性轨道长度是 $h$，代表由 $b\bmod g$ 给出。若 $g=1$，只有一个轨道；若 $g>1$，primitive 条件正是 $b\in(\mathbb Z/g)^\times$，所以共有 $\varphi(g)$ 个轨道。该点在参数 $q^{1/h}$ 上的实际 theta 阶为 $k_N(a)/g$。
+
+于是每个轨道对 coinvariant residue 的贡献是
+$a^d k_N(a)/g$。记
+$$
+S_N=\sum_{a=1}^{N-1}a^d k_N(a),\qquad S_1=0.
+$$
+又 $k_N(pa')=p k_{N/p}(a')$，合并全部 primitive 轨道得到
+$$
+v_{d,n}
+ =\frac{S_N-p^dS_{N/p}}{k_d(c)}
+ \pmod N.
+\tag{1147.30}
+$$
+其中非单位 $a$ 的系数 $\varphi(g)/g=(p-1)/p$ 已完整计入。不把所有非零 $a$ 都误当长度 $N$ 的轨道。
+
+### 9.2 幂和给精确 $\mathbb Z_p$ 值
+
+令 $M=d+2$。$a\mapsto s=ca-Nr$ 置换 $1,\ldots,N-1$。比较
+$\sum s^M=\sum a^M$ 模 $N^2$：
+$$
+M c^{M-1}\sum a^{M-1}r
+ \equiv (c^M-1)\frac{\sum a^M}{N}\pmod N.
+$$
+这里 $M\le14<p-1$，所有涉及的小权 Bernoulli 分母都是 $p$ 单位。Faulhaber 恒等式给
+$\sum a^M/N\equiv B_M\pmod N$。同时，$M-1$ 为奇数且大于一，
+$\sum a^{M-1}$ 被 $N^2$ 整除。将这些式子代入 (1147.29)，得到
+$$
+S_N\equiv
+(c^2-c^{-d})\,\frac{B_{d+2}}{d+2}\pmod N.
+\tag{1147.31}
+$$
+(1147.30) 的低层误差乘 $p^d$ 后仍被 $N$ 整除。因此各层 residue 是同一精确整数的约化：
+$$
+\boxed{\quad
+v_{d,n}=v_d^\infty\bmod p^n,\qquad
+v_d^\infty=(1-p^d)\frac{B_{d+2}}{d+2}.
+\quad}
+\tag{1147.32}
+$$
+特别
+$$
+v_4^\infty=\frac{1-p^4}{252},\qquad
+v_8^\infty=\frac{1-p^8}{132},\qquad
+v_{12}^\infty=\frac{1-p^{12}}{12},\qquad
+\frac{v_8^\infty}{v_4^\infty}
+ =\frac{21}{11}(1+p^4).
+\tag{1147.33}
+$$
+三个值均是 $\mathbb Z_p$ 单位。$n=1$ 恢复 §§1–3 的原 residue 和 $21/11$，不改变既成模 $p$ 常数。
+
+### 9.3 非单位轨道的 arithmetic transfer 与相位共同消去
+
+这一门不能只靠 residue 或一个非单位轨道的 norm 为零。
+
+取 $\sigma\in G_{K_n}$，写
+$s_\sigma=(\chi_{\mathrm{cyc}}(\sigma)-1)/N\bmod N$。固定上面一个 $a,b$ 轨道，用代表 $u^i$，$0\le i<h$。theta 的真实 leading phase 的 Kummer cocycle 是
+$b h_c(a)s_\sigma$。ramified 参数的 transfer 同时给
+$k_N(a)i s_\sigma$。二者由 (1147.29) 合成
+$$
+s_\sigma h_c(a)
+ \sum_{i=0}^{h-1}(b+ia)
+       \bigl(ae_1+(b+ia)e_2\bigr)^d .
+\tag{1147.34}
+$$
+这是先合并实际 phase 与 ramified transfer 后的总式；不能分别删除两项。
+
+再对 primitive 的 $b\bmod g$ 求和，$b'=b+ia$ 在 $a$ 为单位时遍历 $\mathbb Z/N$，在 $a$ 非单位时遍历 $(\mathbb Z/N)^\times$。每个坐标的 $b'$ 次数是 $j+1$，$1\le j+1\le d+1<p-1$。这两种集合的该次数幂和都为 $0\bmod N$：乘一个 Teichmüller unit，其 $j+1$ 次幂不等于一，即可逐式证明。因此 (1147.34) 的 **全 primitive 和** 为零。
+
+共同 frame/leading 常数的总贡献也为零，因为
+$\sum_{P\ {\rm primitive}}P^d=0$；同样用 scalar homothety 且 $c^d-1$ 可逆证明。在 $a=0$ 的 $\mu_N$ 轨道中，共同 $q$ 阶与 frame 乘
+$\sum_{b\in R_n^\times}b^d=0$，相位乘
+$\sum b^{d+1}=0$，准确只余 (1147.27)。
+
+由惯性 coinvariant 的整自由性，可以减去一个在 $G_{K_n}$ 上为零的 coboundary，把完整 Tate cocycle 写成
+$$
+\mathsf M_{d,n}=R_{d,n}+U_{d,n},\qquad
+\begin{array}{ll}
+R_{d,n}(u)=v_{d,n}e_1^d,&R_{d,n}(G_{K_n})=0,\\
+U_{d,n}(u)=0,&
+U_{d,n}(\sigma)=\epsilon_{d,n}(\sigma)e_2^d .
+\end{array}
+\tag{1147.35}
+$$
+$R_{d,n}$ 真正经 $C_N$ inflation：其 norm 是各次数 $\le d$ 的完整幂和，所以为零。这里没有假设每个非单位 $a$ 的 orbit norm 都为零。
+
+## 10. 完整 $R_n$-cohomology 与同源 cup 恒等式
+
+### 10.1 几何 H¹ 的整自由性，不只模 p 维数
+
+对 $d=4,8,12$，使用同一 $\mathrm{PSL}_2(\mathbb Z)=C_2*C_3$ 计算。因 $2,3$ 在 $R_n$ 中可逆，两个 cyclic invariants 都是自由直和项，其秩分别为
+$(3,1),(5,3),(7,5)$。模 $p$ 时它们的交为零，且其和的秩为 $d$。故相应矩阵有一个模 $p$ 非零的 $d$ 阶 minor，亦即在 $R_n$ 上有 unit minor。因此其 cokernel 是自由秩一；不是仅凭模 $p$ 维数宣称无高层扭结。
+
+同一 prime-to-$p$ 的 $\Gamma(4)$ free-group cover 给 geometric cohomological dimension 一；由模 $p$ 无不变量及逐 $p$ 降阶，也有所有 $R_n$ 层 H⁰ 为零。由 (1147.32) 的单位 residue，准确得到
+$$
+H^0(\overline{\mathcal M},\operatorname{Sym}^d\mathcal H_n)=0,\quad
+H^1(\overline{\mathcal M},
+       \operatorname{Sym}^d\mathcal H_n(t))
+ \simeq R_n(t-1),\quad
+H^{\ge2}(\overline{\mathcal M},-)=0.
+\tag{1147.36}
+$$
+同构是原 cusp residue，保持完整 $G_{\mathbb Q}$ 作用。因此总次数一、二的 HS 给
+$$
+\begin{aligned}
+H^1(\mathcal M_{\mathbb Q},
+        \operatorname{Sym}^d\mathcal H_n(1))&\simeq R_n,\\
+H^2(\mathcal M_{\mathbb Q},
+        \operatorname{Sym}^d\mathcal H_n(t))&\simeq
+             H^1(\mathbb Q,R_n(t-1)).
+\end{aligned}
+\tag{1147.37}
+$$
+这也证明 (1147.23) 的辅助 $c$ 独立性在完整 $R_n$-H¹ 中成立。
+
+### 10.2 有限 cyclic cup 的实际零与算术下降
+
+在 $C_N$ 的 cyclic resolution 上，$R_{4,n}\cup R_{8,n}$ 的 H² 代表是
+$$
+\sum_{i=0}^{N-1}
+ R_{4,n}(u^i)\otimes u^i R_{8,n}(u).
+$$
+逐坐标为 $i$ 的多项式，次数至多 $13$，其分母只含 $\le13$ 的整数。对 $0\le j\le13<p-1$，$\sum_{i=0}^{N-1}i^j=0\bmod N$，故这个 **完整 H² 类** 为零。它不是仅有几何 residue 为零。
+
+沿同一 $\Pi_0,\Pi_2,\Pi_4$ 投影 (1147.35) 的两 mixed terms，只有 $\Pi_4(U_{4,n}\cup R_{8,n})$ 在 coinvariant 中留下
+$+v_{8,n}\gamma_{5,n}$；另一个 mixed term 及 $r=0,2$ 均仍含 $e_2$，在 coinvariant 为零。同一 cup 次序给
+$$
+\operatorname{res}(\mathsf M_{4,n}\cup\gamma_{5,n})
+  =-v_{4,n}\gamma_{5,n}.
+$$
+这些是同一有序点、同一 Tate basis 下的符号，沿用 R1144 的 $\Pi_4$ 规范。
+
+下降至 $\mathbb Q$ 不能用 $[K_n:\mathbb Q]$ 为 $p$ 单位，因为 $n>1$ 时它不成立。准确理由是
+$$
+\operatorname{Gal}(K_n/\mathbb Q)=\Delta\times P_n,\qquad
+|\Delta|=p-1,\quad |P_n|=p^{n-1}.
+$$
+对 $k=1,3,5$，$\Delta$ 在
+$H^i(P_n,R_n(k))$ 上的作用是非平凡 Teichmüller 角色 $\omega^k$；它在 $P_n$ 上的共轭平凡。因此这些群的 $\Delta$-invariants 为零。Lyndon–Hochschild–Serre 给
+$H^1(\operatorname{Gal}(K_n/\mathbb Q),R_n(k))=
+ H^2(\operatorname{Gal}(K_n/\mathbb Q),R_n(k))=0$。
+特别所需的 global H¹ restriction 单射。
+
+结合 (1147.37)，得到完整 universal cohomology 恒等式
+$$
+\boxed{
+\begin{aligned}
+\Pi_0(\mathsf M_{4,n}\cup\mathsf M_{8,n})&=0,\\
+\Pi_2(\mathsf M_{4,n}\cup\mathsf M_{8,n})&=0,\\
+\Pi_4(\mathsf M_{4,n}\cup\mathsf M_{8,n})
+ &=-\frac{21}{11}(1+p^4)
+       \mathsf M_{4,n}\cup\gamma_{5,n}.
+\end{aligned}}
+\tag{1147.38}
+$$
+系数按 $R_n$ 约化。这没有声称整个
+$\operatorname{Sym}^4\otimes\operatorname{Sym}^8$ 的所有 odd contractions 都零；仍只使用原 norm polar identity 所需的 $r=0,2,4$。
+
+## 11. 唯一兼容的整 class-two tower
+
+以 $\mathcal H_n,L_{r,n}$ 替换 §3 的系数，记所得 $\mathcal V_n,\mathcal Z_n$。在原第三 bilinear 槽使用同一精确 $\mathbb Z_p$ 单位
+$$
+\lambda_\infty=\frac{21}{11}(1+p^4).
+$$
+也就是
+$$
+\mathfrak b_n(v,v')=
+\bigl(\Pi_0(x,y'),\Pi_2(x,y'),
+      \Pi_4(x,y')+\lambda_\infty x\otimes t'\bigr).
+\tag{1147.39}
+$$
+群律仍为 (1147.12)，得到实际 finite étale group sheaf $\mathcal G_n$，几何阶 $p^{42n}$、exponent $p^n$。其 quotient 是
+$$
+\eta_n=(\mathsf M_{4,n},\mathsf M_{8,n},\gamma_{5,n}).
+$$
+(1147.38) 正是其三个 lifting obstructions 的零。
+
+所有层在 $S_0$ 的整性按 §2 的同一论证付款。逐 $\ell\ne p$ 换辅助 $c\ne\ell$ 后，同一 Hodge frame 的 vertical valuation 仍是共同数；primitive 点总和
+$\sum P^d=0$ 由 homothety 和 $c^d-1\in R_n^\times$ 给出。系数 $\operatorname{Sym}^d\mathcal H_n$ 在每个几何特殊纤维的 monodromy 是
+$\mathrm{SL}_2(\mathbb Z/p^n)$：逐 fine level 用固定 Weil component 的 full-level good model 和 CRT。模 $p$ 无不变量，逐 $p$ 降阶即给
+$$
+H^0(\mathcal M_{\mathbb F_\ell},\mathcal Z_n(-1))=0.
+$$
+所以 §2.2 的 vertical Gysin 同样给
+$H^2(\mathcal M,\mathcal Z_n)\hookrightarrow
+H^2(\mathcal M_{\mathbb Q},\mathcal Z_n)$。
+完整 (1147.38) 因而在整模型上成立。
+
+由 (1147.36)–(1147.37)，
+$$
+H^0(\mathcal M,\mathcal V_n)=0,\qquad
+H^0(\mathcal M,\mathcal Z_n)=H^1(\mathcal M,\mathcal Z_n)=0:
+$$
+中心三项只读 $R_n(1),R_n(3),R_n(5)$ 的算术 invariants，而它们的 Teichmüller 角色均非平凡。因此存在唯一到唯一同构的原整提升
+$$
+\mathscr P_n\in H^1(\mathcal M,\mathcal G_n).
+\tag{1147.40}
+$$
+(1147.25)、(1147.28) 及群律 (1147.39) 与系数约化相容。唯一性强迫各 $\mathscr P_n$ 的约化同构也唯一相容。因此它们给一个真实 pro-finite étale torsor
+$$
+\mathscr P_\infty=\varprojlim_n\mathscr P_n
+\quad\text{under}\quad
+\mathcal G_\infty=\varprojlim_n\mathcal G_n.
+\tag{1147.41}
+$$
+其 Lie lattices 是
+$\operatorname{Sym}^4T_p\mathcal E(1)\oplus
+ \operatorname{Sym}^8T_p\mathcal E(1)\oplus\mathbb Z_p(5)$
+及原三个中心 symmetric powers；群律有整数系数，仍是明确 class two。反除 $p$ 后得到相同实际来源的 unipotent group torsor，而非另任选一个 rational substitute。
+
+$n=1$ 时 $\lambda_\infty\equiv21/11\bmod p$，所以 (1147.40) 准确回到 §3 的 $\mathscr P$。**原 Cartan pushout 仍先约化到 $p$ 再用 §4 的 $q_I$。** 原 $I\in\operatorname{End}(E[p])$ 不因此获得一个未付的 $\operatorname{End}(T_pE)$ 提升；本篇不声称原 level-$p$ curve 上的三个常 Tate 线 Heisenberg 群本身已经提升为相同三线的 $\mathbb Z_p$ 群。
+
+## 12. 新塔的范围、来源和下一接口
+
+(1147.41) 支付了 §6 所要求的来源门：原有限覆盖确为同一 theta 的整 compatible tower 在第一层的实际 pushout。全部 primitive 点、所有非单位惯性轨道、相位、算术 corestriction 和高层修正 $(1+p^4)$ 均已保留。
+
+这里仍没有从 ordinary de Rham 公式推断 supersingular disk 的中央首项，也没有把 Cartan coarse 参数的三阶变化简化为一个 fine 一阶变化。下一步若使用 crystalline 或 de Rham comparison，必须对 (1147.41) 的同一 fibre 或同一相对对象，并再按 §4 的原模 $p$ map 读取。
+
+新增 primary 来源：
+
+- G. Kings, *Eisenstein classes, elliptic Soulé elements and the $\ell$-adic elliptic polylogarithm*, [作者 arXiv 全文](https://arxiv.org/pdf/1304.7161)，§3.3, Theorem 3.3.1 及 Definitions 3.3.3–3.3.4：Kato 的原 theta、prime-to-$c$ exact norm、base change 及 finite Kummer/moment 来源。本篇的高层 primitive residue 与 arithmetic-phase 消去在 §§9–10 自证；不使用该文后段含 level 分母的有理比较来约模 $p$。
+- R1138、R1144 与本篇 §§1–7：保持所有原 theta、full ordered vector、Tate basis 和 contraction 规范。新增 (1147.38) 是 $R_n$ 的完整 H² 身份，不只一个 rational identity 或 residue equality。
+
+无数学程序执行；未更改既成输入、Actions 请求或结果。新塔仍未给出 $p$-local 首项的实际非零性。

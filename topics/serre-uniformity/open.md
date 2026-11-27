@@ -42,6 +42,8 @@
 
 [R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)已无条件p>37指定原moment的canonical proper Heis来源：Md的完整H¹独立c→逐ℓ同frame共同vertical阶消去；中心Z的H²泛点单射与H¹0给p⁴² universal class2 lift唯一。原q_I^2/q_I^4/q_I^6的det twists及完整polar是真正群同态；2/3稳定子、所有real cusp的L7惯性、正则模型purity给全S0规范p³连通覆盖。未将曲线上其它中心twists设零；实际p-local中心差现在用这个指定来源，仍须读SS首项并付finite-étale/整p-adic接口，不能改用复解析E6/E10代读数。
 
+[R1147 §§8–12](results/R1147-original-canonical-moment-Heisenberg-lift.md)现付同一theta的唯一兼容整G_n/pro-p塔：primitive p^n点exact norm及正确Q-cor圆单位箭头；所有非单位a的φ(g)/g、相位+arith transfer全保。实际v_d∞=(1−p^d)B_(d+2)/(d+2)，第三槽修正21(1+p⁴)/11。全R_n HS/cyclic cup、Teich下降和全S0延拓均付，modp正好原P。Cartan仍先modp再pushout，不给I一个虚构T_pE提升；SS/crystalline与中心首项仍开。
+
 ### 原完整X_ns^+(47)与旧整K₂输入：已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)已付原完整47Q恰八CM、全部4513 whole盘、全维高度/对数及后到q²审计。R1122/24和run46025141482的全部参数、来源及hash在原结果和[本次前态](open-archive-2026-11-28-before-low-weight-source-reduction.md)；不重跑固定47、41或旧窗口。原整K₂全cusp/Chen/Ohta残余仍为μp⊗odd J，R1131/32仅删各自门内块，不代整个K₂/p。

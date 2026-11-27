@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原规范来源的唯一兼容整塔（已证明）**：[R1147 §§8–12](results/R1147-original-canonical-moment-Heisenberg-lift.md)现付同一theta的唯一兼容整G_n/pro-p塔：primitive p^n点exact norm及正确Q-cor圆单位箭头；所有非单位a的φ(g)/g、相位+arith transfer全保。实际v_d∞=(1−p^d)B_(d+2)/(d+2)，第三槽修正21(1+p⁴)/11。全R_n HS/cyclic cup、Teich下降和全S0延拓均付，modp正好原P。Cartan仍先modp再pushout，不给I一个虚构T_pE提升；SS/crystalline与中心首项仍开。
+
 - **原规范Heis的真实尖点纤维与负一分支（已证明）**：[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)在p>691付规范cover的真正cusp算术纤维：原Tate tangential整支撑、低偶权L2..14消失与q_h偶单项式杀余差，得c_h=φ_h(Ξ_5,9;14)，φ_h=(u_hx/2,u_h²y/2+kx,u_h³z/4+ku_hx²/4)。ℓ−1时κ=z−xy/2使self项全消，κcusp=u_h³κ14/4；同cusp条件是准确六次幂判据。γ5γ9非零门内（Bp−5/Bp−9单位足够）付逐global标签准确密度，并由纯weight14 vs全部target weight8给正密度同一ℓ排全部标签/全部cusps。未排affine、无小素界、不宣分母为空；失效门仍开。
 
 - **原Gaussian低行minor的模参数来源（已证明）**：[R1135 §12](results/R1135-original-Gaussian-low-row-fiber-constraint.md)新付原Δ_low的完整heat/模参数式：3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，F=G_(p−7)、K=∂G_(p−9)。在原p|Bp−7支，该权2p−10多项式的q阶恰1或2，首系数−105F1G0/16或−189F1G1/16均unit；完整V3/V4未删。非零多项式仍可能在Gaussian b0取零，指定minor/实际good节点未关。

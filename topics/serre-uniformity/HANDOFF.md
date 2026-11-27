@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：9a27fcfe4b28c35aeb777b80bcdc257a3a7e77b1**（2026-11-28 06:45 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：4868a6e20cf8944ebd3224b00f80d727f2bb34c7**（2026-11-28 06:49 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull已恢复：2026-11-28 06:21 Asia/Taipei，公开Actions run46076082440/job140764009178，在blob:none浅部分克隆中真实pull --rebase至fb9f91b6，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:10、真实pull≤07:21。本地06:18仍无环境；本地恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -32,6 +32,8 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)在p>691付规范cover的真正cusp算术纤维：原Tate tangential整支撑、低偶权L2..14消失与q_h偶单项式杀余差，得c_h=φ_h(Ξ_5,9;14)，φ_h=(u_hx/2,u_h²y/2+kx,u_h³z/4+ku_hx²/4)。ℓ−1时κ=z−xy/2使self项全消，κcusp=u_h³κ14/4；同cusp条件是准确六次幂判据。γ5γ9非零门内（Bp−5/Bp−9单位足够）付逐global标签准确密度，并由纯weight14 vs全部target weight8给正密度同一ℓ排全部标签/全部cusps。未排affine、无小素界、不宣分母为空；失效门仍开。
 
+[R1147 §§8–12](results/R1147-original-canonical-moment-Heisenberg-lift.md)现付同一theta的唯一兼容整G_n/pro-p塔：primitive p^n点exact norm及正确Q-cor圆单位箭头；所有非单位a的φ(g)/g、相位+arith transfer全保。实际v_d∞=(1−p^d)B_(d+2)/(d+2)，第三槽修正21(1+p⁴)/11。全R_n HS/cyclic cup、Teich下降和全S0延拓均付，modp正好原P。Cartan仍先modp再pushout，不给I一个虚构T_pE提升；SS/crystalline与中心首项仍开。
+
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon 输入
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)保原D₀/Λ rank3边界、moving p极和完整第三类补偿；Λ非局部D。原Padé N=(p−5)/6，QF−P的contact恰2N+1、首余项unit；F=₂F₁(1/3,1/2;4/3)。e=K4=0 iff P,Q均含x²，约后deg≤N−2/contact2N−1。原P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N为unit，故degP=N，未单独排二次缺陷。
@@ -46,14 +48,13 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
-[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次unit只付跨盘，盘内仍须原高度；剩余p∤Bp−3。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)线性多个非constant不代独立/注入。
+[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次unit只付跨盘；盘内须高度，余支p∤Bp−3。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)线性多个非constant不代独立/注入。
 
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)与[原有限重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)保全gauge/常数/高尾/实际mask，付h≥1的L−2h逆、R² Newton商与完整principal；h0不外推，Θ^p在SS非零。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)及[原重建](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)保gauge/高尾/mask，h≥1逆及Newton商/完整principal已付；h0不外推，Θ^p在SS非零。
 
-[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)双低good分支至多一个非对角unordered pair；另一支Δ_low/48尚待unit。norm2准确消V₂后保V₃/V₄；另两二同源只给原偶band对角运输，旁unit在CM gauge抵消。§10两实际下降线已真运输：α^p=iα、t*′=it*、z′=−z；δ′=ηδ；Kronecker γ′=ηγ、N_R′=η⁻¹N_R，Weil γ_W/bχ保持。完整核与i0给Π′(z′)=Π(−z′)，同component两线统一z∈Fp；保S0/P0，不合并其他components。o2继续全部good余对或Δ。R1135§11将全部good代数缩至A0=Fp[W²,W(W²−d)]或Fp[W]，d=S²/4−P；余维1、导子(W²−d)、真坐标恢复与节点/尖点全付。d0或非平方已分离Fp点；非零平方余对须某actual odd coefficient O_R(d)≠0。旧Δ/(2Gp−7)就是该导子类；向量场闭性未付，仍保真实mask。
+[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原两低good支至多一非对角pair，另一支Δ_low/48待unit；norm2完整V3/V4和CM gauge未删。§10两下降线真正运输给Π′(z′)=Π(−z′)，同component统一z∈Fp，保S0/P0。§11 actual-good代数仅A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d；d0或非平方已分Fp点，非零平方须实际O_R(d)≠0。旧Δ/(2Gp−7)即该导子类；向量场闭性仍未付。
 
-
-[R1135 §12](results/R1135-original-Gaussian-low-row-fiber-constraint.md)新付原Δ_low的完整heat/模参数式：3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，F=G_(p−7)、K=∂G_(p−9)。在原p|Bp−7支，该权2p−10多项式的q阶恰1或2，首系数−105F1G0/16或−189F1G1/16均unit；完整V3/V4未删。非零多项式仍可能在Gaussian b0取零，指定minor/实际good节点未关。
+同文§12付3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，F=G_(p−7)、K=∂G_(p−9)。原p|Bp−7支q阶恰1/2、首系数−105F1G0/16或−189F1G1/16均unit；只付非零权多项式，Gaussian b0取值未付。o2继续实际节点/完整mask，不把cusp单位代目标单位。
 
 ## 已成、禁止重做与其它入口
 
