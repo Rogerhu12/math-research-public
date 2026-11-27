@@ -205,3 +205,5 @@
 - [R1026](results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)：原H扩到p−6并全付精度K=min(H+1,5s−2)、六维double/两exact/原φ边界与唯一primitive。高q实际13权模p为vπ^(p²)，第二Cartier后同一固定vπ；三处原dVδ/p的Cartier=dW与裸holomorphic核全p单位。全部char0相邻权和13差保留，未因modp饱和删p^K费用；原真实系数深度<K。
 
 - [R1028](results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)：末六原权有固定Hermite分解W_t=W∞+cp·u^pT_t，全部水平项/小坏素数已付；同一个target截面拉回后，完整39核与四阶adjoint cut第一primitive的低窗可统一W∞。全三字保原Fp/常数2/3和正mode2；Lamé原p曲率付单位nilpotent，完整P10交换子保全部e项。只统一实际有限读者，未删全函数或char0权余项；继续全Miller/τ/χ8生成及确定两行单位forcing。
+
+- [R1029](results/R1029-original-two-torsion-cm-genus-two-and-norm-classes.md)：原S非零2挠谱域准确为亏格二C:w²=(z³−4)(z³−16)，实际f3/r2到B的交叉迹符号与Gram完整给JacC→B²度3。原Norm核两独立2类及惰性q规范gq平方Norm均付。完整S3闭包D:4H³=A⁶−1逐点恢复全部2挠、原三次deck和两坏处分歧；四实际CM角色给JacD的真Frob²=[−q]（全q≥5惰性）。这是实际谱盖/Norm输入，不代S的Chow比较、一般Q或原27对非零。

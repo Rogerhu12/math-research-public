@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `78462310f6c456b2087dd58e072662bfdc8ed9a7`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `919747245e95d02bd1ea03cdcc2387558a2bb01e`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；05:25UTC API逐文件核至f52bf734653dce353e97e7b53d95a765280e6abf，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-fixed-charge-three-cover.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -44,7 +44,7 @@ R988/990原CM17K3在2全平移trace零，不重试。R991/994原I9/I3、full9/T=
 
 R1014从实际degree1射影族/四Weil中心完整解消及自给period证明支付已发表HYZ B：原S所有充分大q的Tate，未知q0未冒全q。惰性NS−q²、MW(q/3)A2、Frob−bar及两Br0；原54图全η/Cor/P−转置交式保持。
 
-R1017原q5完整Q、高10/3、全MW=(5/3)A2及54图倒6零shadow已付，完整回执见原笔记，不重跑。q11两完整固定输入D_q和3P6均2662对无解：分别run45934797848/source1ac50c6e…1a8ee1、run45936278912/source89a46423…9a43e。仅排各极除子。全盖实际C⁺=δC=−3B(Fq)加原−T标记给新D⁺；q11 D⁺实际run45941789126/job140317511374全2662对亦0解。全部新旧input/source/job/hash在对应笔记，不扫平移、不外推一般无截面。
+R1017实际q5 Q与全MW=(5/3)A2已付；完整54 shadow倒6零，不重跑。q11旧D、3P6、δ像D⁺三个固定输入分别全2662对阴性，仅排各候选；全部source/job/hash见对应note及逐字归档，不转任意平移扫描。
 
 R1019原η/忠实18次H及Cor后shadow被q+1杀，ordinary检测必q≡−1mod6p。反Frob trace0、原W=Mx+N、两Kummer类及αδ=F−1/δα=−F−1/α²=−d均保。三个固定q11 D候选全阴性，完整RR/Hensel/有限方程及回执见结果；继续整个未知极除子，不以核或Pic类强认实际截面。
 
@@ -53,7 +53,9 @@ R1023原Hesse正反方程和B′≃B使B′→B准确为[δ]，deckρ为−T、F
 R1027全q≥5的统一6Q(O_B)=0已付：同一图push纯实现δ、实际∞同源−δ、τ图pull及三挠修正均齐，独立Tate。§7 full9真实图交换、c负号与Pic0对偶齐，54图成27对的正重数2，全η/Cor保。全部实际目标End=O34，O/B[2]特殊碰撞只在固定有限删集；一般有限CM评价仍待。§8已付真实ε=a（I3分量）、trace0与I9环面值ω^−a；canonical值为aS3+eP2。仅对充分大惰性q的最短反Frob生成元，高度2q/3迫a=±1，整个未知极除子D度(q−2)/3、避开T/−T/O且在有限好纤维，div∞x=2D+2O、div∞W=3D+3O。原共线M/N四端点及唯一m(−1)符号已付，未构造一般Q或给27对评价。
 
 
-02:51UTC执行环境失联，本地R1017稿25f3ec26d未推；已由云端非强制快进提交2af1bac937f2b5ddcb0762dd7b2b34860854647b替代。恢复后立即实际pull --rebase，保已发布远端证明，不重复未推本地稿；03:45UTC已到两仓下一小时，环境仍不可用，API读不冒充实际pull；恢复即补实际同步。数学仅公开Actions，唯一v9继续。
+R1029原2挠谱盖C亏格2、到B的真实3/2度映射及JacC→B²度3齐；两个完整Norm核2类和惰性q规范gq已付。完整S3谱盖D:4H³=A⁶−1、全部2挠根、原三次deck和两坏分歧齐，四CM角色给JacD真Frob²=[−q]（q≥5惰性）。继续原twist −3的2-descent覆盖/实际Q与27对；不由Jac分裂代S Chow或AJ。
+
+02:51UTC执行环境失联，本地R1017稿25f3ec26d未推；已由云端非强制快进提交2af1bac937f2b5ddcb0762dd7b2b34860854647b替代。恢复后立即实际pull --rebase，保已发布远端证明，不重复未推本地稿；05:46UTC再次最小只读探测明确仍无可用执行环境，API读不冒充实际pull；恢复即补实际同步。数学仅公开Actions，唯一v9继续。
 
 ## 四、其它原门及执行分工
 

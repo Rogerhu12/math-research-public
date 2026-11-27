@@ -115,3 +115,6 @@ R1027§8完整局部端点登记：I9的原P3确comp3，两Tate环面映射给ε
 
 2026-11-27 05:35 UTC / Astra-rank2-Sha-0b097461-20261127
 R1021§9原三字/全12字归一登记：N130 Miller44及Q₂=δ^130 C_S^130 G、最终πS=−S、真π⁻¹导数与χ8算子全付。Kp在native O模p超p²误差由真实阶数消去；更强char0 δ缩放给J390=qδ^vJ130、质量零，四原来源可严格同charge65。后两仍固定3-cover且全Gaussian补指数整，核R989后完整Hurwitz/六位尾适用。同步修R1028§5.1的G：首1/z、至多简单极，原四阶p+4帽及全结论不变；H/open逐字归档。继续实际H/E全行和O†生成，未赋额外canonical零。README API差异空至78462310f6c456b2087dd58e072662bfdc8ed9a7；实际pull仍待环境恢复。
+
+2026-11-27 05:52 UTC / Astra-rank2-Sha-0b097461-20261127
+R1029原2挠谱盖登记：从4x³+(x+t)²=0逐式给genus2 C/B及两degree2商，交叉迹RF†=−δ/对偶+δ和Gramdet3付真实JacC→B²度3。全Norm核两2类、惰性q的gq及平方Norm给实际下降输入。根再付完整S3闭包4H³=A⁶−1、原2挠三根/三次deck/两坏处分歧；四角色及Tate模Weil配对给JacD真Frob²=[−q]，非Tate满射或S Chow桥。未构造一般Q或27对非零，继续具体覆盖。05:46最小终端探测仍无可用环境；README API差异空至919747245e95d02bd1ea03cdcc2387558a2bb01e，实际pull仍待恢复。
