@@ -45,7 +45,7 @@ root独占refs/queue及实际求解承接；construction容量完整保全，sol
 
 <!-- visible-larger-parallel-17:start -->
 Actions17：[run 46053911348/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46053911348)；[全阶段记录](notes/2026-11-27-public-actions-46053911348-1.md)。running；已返2，exit=未返。
-并行17规则核查：2026-11-27 23:42:24 UTC，真实pull至`455edb481b7047b05ae00d4dde856326a78d4850`，双README无变化。
+并行17规则核查：2026-11-27 23:47:26 UTC，真实pull至`d38bc6187b9a81fc54a2126f3985b131a51d36ed`，双README无变化。
 <!-- visible-larger-parallel-17:end -->
 
 <!-- visible-larger-parallel-18:start -->
