@@ -1,0 +1,116 @@
+{
+  "schema": "isp-frozen-native-u-equals-Q-partial-returns-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "inputRegeneration": {
+    "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-u-equals-Q-original-input-generator-8542.js",
+    "sourceSHA256": "35e86a79c0e6214119c7469b89f911624056b52cdb40dd0e847c442f6c1aa241",
+    "packagingEntryPointExecuted": false,
+    "allIncludedMathematicalComponentsActuallyExecuted": true,
+    "basicInputSHA256": "c13ea22f35c74913f24305e628f0ce621ef05114cdb4a9dc902b2644bb16a56d",
+    "finiteInputSHA256": "e33fc35f000aced43bf9da73544801ea3b7cdcfb0ffc687c62fc53955c3f4e02",
+    "noLargeComputedInputsCommitted": true
+  },
+  "runtime": {
+    "pythonFlint": "0.9.0",
+    "PYTHONPATH": "/workspace/scratch/8542378f2b73/isp_pydeps",
+    "limits": {
+      "signalAlarmSeconds": 60,
+      "addressSpaceBytes": 4294967296
+    }
+  },
+  "probes": [
+    {
+      "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-u-equals-Q-Cramer-complement-and-M35-frozen-8542.py",
+      "sourceSHA256": "9c67ed429a1e60f2f5895ab6089fb2770a33c6cc3c70d49f108f40c75eca67e2",
+      "bytes": 13787,
+      "input": "basic",
+      "execSessionId": 31996,
+      "actualExitCode": 1,
+      "exactWholeProcessWallSeconds": null,
+      "wallClockExplanation": "Not recorded; the last successful stage was at source time 1.3151748620002763 seconds. Poll wait times are not a process wall time.",
+      "peakRSSKiB": null,
+      "parameters": {
+        "originalCramerRowIndices": [
+          0,
+          1,
+          3,
+          6,
+          4
+        ],
+        "originalCramerDegree": 237,
+        "unpaidLeadingDegrees": [
+          3,
+          95
+        ],
+        "F3": [
+          "-10",
+          "30",
+          "-25",
+          "4"
+        ],
+        "originalMacaulayRows": 48,
+        "originalMacaulayColumns": 35
+      },
+      "successfulPartialConclusion": {
+        "nonzeroCramerChartExcluded": true,
+        "univariateGcdDegreeSequence": [
+          195,
+          111,
+          111,
+          108,
+          0
+        ],
+        "numberOriginalReturnInputs": 5,
+        "actualCombinedBezoutEqualsOne": true,
+        "coefficientDegrees": [
+          474,
+          475,
+          -1,
+          306,
+          107
+        ],
+        "certificateBytes": 8105499,
+        "certificateSHA256": "8b45087cbb81ca66513f640f612cc9274bb5f7129928950aeb704fc4fe22aaa0",
+        "lastSuccessSourceSeconds": 1.3151748620002763
+      },
+      "failure": {
+        "lastStage": "Whole F3 original six-polynomial degree-four Macaulay return completed its column loop without a constant-one certificate.",
+        "exception": "AssertionError: whole original finite leading fiber incomplete at M35",
+        "exactFiniteRank": "not printed; unknown",
+        "F95Attempted": false,
+        "wholeUEqualsQClaim": false
+      },
+      "frozen": true
+    },
+    {
+      "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-u-equals-Q-F95-five-column-frozen-8542.py",
+      "sourceSHA256": "ef123b5119ad7e31e47954bbd5b74b820d2d2c753374df1fd8aa4a738e4efa2f",
+      "bytes": 12285,
+      "input": "finite",
+      "execSessionId": 35862,
+      "actualExitCode": 1,
+      "exactWholeProcessWallSeconds": null,
+      "wallClockExplanation": "Not recorded. The initial original Cramer stage reported 0.11128383299364941 seconds; no terminal elapsed-time or RSS marker was reached.",
+      "peakRSSKiB": null,
+      "parameters": {
+        "finiteFactorDegree": 95,
+        "originalNecessaryRows": 8,
+        "nonconstantColumns": 5,
+        "fullColumns": 6
+      },
+      "failure": {
+        "lastStage": "QQ[Q]/F95 original nonconstant-column elimination reached assert pos == 5; the assertion failed.",
+        "exception": "AssertionError at original_same_point_fiber, assert pos == 5",
+        "exactFiniteRank": "not printed; known only to be <5",
+        "F3ModuleAttempted": false,
+        "originalFiniteTracePostchecksAfterRankAssertionReached": false,
+        "wholeUEqualsQClaim": false
+      },
+      "frozen": true
+    }
+  ],
+  "noRepeatOfFrozenExpandedTrace": true,
+  "noResourceLimitCauseClaimed": true,
+  "ordinaryISPCompleted": false
+}
