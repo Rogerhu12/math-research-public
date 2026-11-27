@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **b92f90a0563a2dac0e53f2132ba927451103d885**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **249dc30670d8c084c764d7a4e60b2db6d69f748c**，2026-11-27 01:36:27 UTC空diff；下次不晚于02:30 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **4e00e0fb25f120b0781a4a943d49b23e42710337**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **249dc30670d8c084c764d7a4e60b2db6d69f748c**，2026-11-27 01:36:27 UTC空diff；下次不晚于02:30 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -23,13 +23,13 @@
 
 [已审339范围](notes/2026-11-27-r582-physical-pending339-resume-implementation.md)保原334+5及全部16203fine，8新中点需新资格；p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。16mean q64:80及h96=.6986806496374112全变，旧59a4完整几何不转移。新push run45922821540/job140257301670/source57d834aa，01:29:09 UTC启动。原normal311/更早费用链保留；mean g仍在设计，同g精化未付。
 
-## 4. B030最新5659，恢复阶段保原H并补2561区间
+## 4. B030最新5659：保恢复阶段/真实H，先补原2561
 
-[native原终态](notes/2026-11-27-r566-native-d191-natural-final-agent.md)run45914886940/job140231615166/source797efdf0；00:47:39 UTC自然结束，新2370.546518149秒，4metric+1geometry restore。81q **56594ecb1d8d94cd8463359dc2e40b4a681be6a4588296d63ae3eda3a240c7f3**，1610×3072/9330峰η.20868474226441153/物理V0。当前/合格fine同SHA6c810651…，804coarse/1793物理orbit/277work/1536角，pending0，trust.45050811767578125。
+[native原终态](notes/2026-11-27-r566-native-d191-natural-final-agent.md)run45914886940/job140231615166/source797efdf0；新2370.546518149秒，4metric+1restore。81q **56594ecb1d8d94cd8463359dc2e40b4a681be6a4588296d63ae3eda3a240c7f3**，1610×3072/9330峰η.20868474226441153/物理V0。当前/合格fine同SHA6c810651…；804coarse/1793orbit/277work/1536角、pending0、trust.45050811767578125。
 
-末phase **geometry_restoration**，exact e=.010474815185526721；已接受fine margin=.0004748151855263885，末coarse更新best_geo未直接输出，不能用float(e−.01)冒准确恢复。后继保原阶段判据，必要由准确加法舍入逆区间处理未知值；恢复≤tol分支不依赖它。待候选53ed9已付coarse/fine/nested、12013区间完成9452剩2561，已付峰前缀未构成完成资格。eta_grid.20921002233215497较高仍须按原恢复门判，不错用metric下降门；原9452不重放，必要大输入gzip。
+末phase **geometry_restoration**，exact e=.010474815185526721；fine margin=.0004748151855263885，末coarse更新best_geo未输出。[已审partial2561范围](notes/2026-11-27-r566-native56594-partial2561-scope-agent.md)用原RN64加法的准确逆像保所有可能best_geo，原比较需全体同决定；不采用float(e−.01)。原候选53ed9的coarse/fine/nested已付，9452峰直接继承，只补剩2561。其ηgrid.20921002233215497较高仍按原恢复门；恢复后新metric行资格另付，不重同q fine。必要输入单gzip。
 
-10backend/11J/876块，0自然返回；native真实5同冻结λ Powell更新、3skip、1phase reset、1 MODE−1消费，0额外模型/J。完整H checkpoint74980B SHA **f499980ad5de37b29a7b80263978e07df31d012c41e5d01a1ac06f90119dfd4e**，3403packed LDL及82锚/固定乘子梯度、2非零λ齐全，后继实际恢复；旧全workspace/J未存，语义变仍重置。构建1.260217609秒及所有新/失败费用包含总账，旧已知≥17099.551640495秒另保未知。宏观fixed-g族未付。
+原H checkpoint74980B SHA f499980ad5de37b29a7b80263978e07df31d012c41e5d01a1ac06f90119dfd4e，3403packed/82锚/2非零λ实际恢复；阶段语义变仍原reset，不冒完整workspace/J已存。10backend/11J876块、5真Powell更新/3skip/1phase reset/1MODE−1、全部partial/构建费用保原收据；旧已知≥17099.551640495秒另保未知。原20参数、完整物理门不变，宏观fixed-g未付。
 
 ## 5. 正常全S已付峰exchange；固定E贯穿高精度分拆
 
@@ -37,7 +37,7 @@
 
 固定target **86da8c603f3d7ed9eb928481f0afe492f10bb209c94bf0ccaf8070c1aa1cd6c5**。[首τ1失败](notes/2026-11-27-r618-actual397-hard-tau1-first-terminal.md)41.515274441秒/第103trial80步耗尽；[第二终态](notes/2026-11-27-r618-bracket-progress-original-terminal.md)42.15573723200001秒/435根返回，但第218参考eta_inner≈1.28625e16、宽1262后同支盒拒绝。均0完整目标/J/接受/fine，不授τ1无根；原FINAL和全部费用逐字继承。
 
-[已审持续分拆范围](notes/2026-11-27-r618-actual397-persistent-split-scope.md)与[完整链纸证](notes/2026-11-27-r618-persistent-split-mean-chain.md)：实际jets先入Decimal，参考c与小ε始终分开，reference/whole-box/trial/连接K,Q,D,R/sr及真实位置同式消费；绝对坐标观察各1e−13，合计2e−13尚非认证。全1473列/1472自由/121600行、原950/1728半径、全口/真尾/core不改；51来源绑定，新policy先入身份，旧源冻结。原Jac仍binary64近似，所有partial/再生计费，不重旧门。
+[已审持续分拆范围](notes/2026-11-27-r618-actual397-persistent-split-scope.md)与[完整链纸证](notes/2026-11-27-r618-persistent-split-mean-chain.md)：实际jets先入Decimal，参考c与小ε始终分开，reference/whole-box/trial/连接K,Q,D,R/sr及真实位置同式消费；绝对坐标观察各1e−13，合计2e−13尚非认证。全1473列/1472自由/121600行、原950/1728半径、全口/真尾/core不改；51来源绑定，新policy先入身份，旧源冻结。原Jac仍binary64近似，所有partial/再生计费，不重旧门。新push run45923793283/job140260374411/source4e00e0fb，01:39:24 UTC启动。
 
 [同固定E角误差接口](notes/2026-11-27-r618-same-fixed-E-angular-transport.md)已证完整同根、离解微分、两primitive/alias与奇频尾传递。合同E∈[.99,1.01]仅真帽至口；源/ODE/舍入/全角全径向误差仍未付。两个标量根不授D=0、增长一致逆、非圆τ1解或宏观fixed-g族。
 

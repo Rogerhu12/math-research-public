@@ -409,3 +409,8 @@
 ### R618：同actual397的持续Decimal参考分拆与实际连接全链
 
 [完整链](notes/2026-11-27-r618-persistent-split-mean-chain.md)和[新范围](notes/2026-11-27-r618-actual397-persistent-split-scope.md)保持同固定E、硬τ1、原全height/1473列与全部网格；参考c与小ε不合回binary64，作用到whole-box/trial/连接K,Q,D,R/sr/实际位置。参考能量误差在实际trial盒上传播，两个坐标预算各1e−13只是数值观察，原Jac与源/角向/舍入误差未认证。两个旧失败及全部成本逐字继承；无实际非圆根、无限带逆或README结论。
+
+
+### B030：从原舍入记录完整恢复缺失标量的可能状态
+
+[新范围与准确解释](notes/2026-11-27-r566-native56594-partial2561-scope-agent.md)由原e=RN64(g+.01)、已付fine下界得到全部可能binary64 g，保端点ties-to-even及原减法舍入。单调原严格比较两端同决定则所有原可能状态一致；否则明确未决。它只恢复缺失数值状态，不是连续几何误差证书。新科学保原geometry-restoration/真实H及9452峰，只付2561剩队列和实际后继；原所有物理门、20参数不变。

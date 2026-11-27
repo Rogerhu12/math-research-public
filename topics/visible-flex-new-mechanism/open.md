@@ -74,6 +74,8 @@ native已实际产生5次同冻结λ Powell更新（全阻尼），3skip/1phase�
 
 [固定圆参考与固定g接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)已核：59a4圆G*的完整ρ/D可用于近邻新q，但新δ/α/K不移旧值；锁全source/L/C/RC/.38/H/mean/轴及primitive规范，不能只给reference_q。该圆不依赖design.p或材料jets，p变化仍要支付新core界；p=.8时δ≥.62，不能继续用已知ρ=.06072旧圆门。相位族直接继承全t空间几何与同固定旋转g的误差，不另做时间网格。17mean固定不足以固定Ebar，最终须本线完整连续E*/a*位置误差接口；R618的397 E*是不同目标，core a′=0排全域r=a坐标偷换。旧59a4由已付C0直接得相位δhold/D<.006，不能作宏观完成。
 
+[已审native56594/partial2561范围](notes/2026-11-27-r566-native56594-partial2561-scope-agent.md)继承实际H/pending与完整9452峰，只补2561同oracle区间。未输出best_geo以原RN64加法准确逆像保存；原严格改进判据两端同决定才采用，原成功恢复分支独立于未知g。保geometry-restoration，不能套metric eta下降或lift；真正转metric仍原H语义reset并付新metric行选择。必要request单gzip，45来源及20原common参数核合，全部旧FINAL/失败/费用保留；不登记同固定g或宏观结论。
+
 ## O4：原固定宽度十九态，全反馈与更好自由中心输入
 
 ### 已闭实例与实际换向依据

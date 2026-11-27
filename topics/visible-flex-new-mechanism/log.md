@@ -698,3 +698,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜同actual397持续高精度分拆的全链审查与新范围
 
 根已全文审数学链、四源、driver及workflow，核51来源/sparse/四AST、316494B stdin、两份原FINAL逐字及policy实际AST。额外发现旧连接公式会重新丢失参考分拆，已在新源内保持Decimal e/E/e_r及sr到K/Q/D/R和实际输出；原Jac明确仍binary64近似。参考误差用实际trial盒导数，固定E/τ1/全列/全部网格/原core规则不变。原两失败费用及未知源/舍入预算保留，无本地科学。私库实际pull至249dc30670d8c084c764d7a4e60b2db6d69f748c，01:36:27 UTC根README空diff、QUEUE唯一仍本会话；公开实际read f0d8e9ec用于范围metadata，发布再pull检查。
+
+
+## 2026-11-27｜B030真实恢复阶段、原H与2561剩余队列范围
+
+根全文审新driver精确diff、准确舍入逆像helper、gzip runner diff及workflow；9452已付峰、909317B原FINAL、74980B H逐字/规范hash核合，45绑定/sparse、20项原参数和完整模型字典AST保持。原e减.01不能伪造未打印best_geo；准确可能binary64集合的原减法比较同值才决定，真恢复≤tol分支可独立接受。剩队列闭合前不授资格，metric eta较高不替原恢复门；转metric另付新活跃行，原同q fine不重放。新stdin2474647B不变，必要单gzip遵根8/15，无本地科学。规则metadata更新为实际已读公开b92f90a0、私库249dc306。
