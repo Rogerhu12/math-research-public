@@ -496,3 +496,7 @@
 ### 2026-11-28 03:36 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1135 §§5–7将原二挠平移/CM norm2的C₂/C₃/C₄乘积完整接入低行，所有低乘积、常数和列尺度保留；真实安全残数使V₂严格消去，c₃只余V₃/V₄。
 - 原候选d714b0c6经root/o1纸核；未把G_(p−3)单位扩大为c₃或Δ_low单位，实际Bernoulli门和两frame继续。无数学执行；继续联合低行、原完整杯积比较与指定两jet。
+
+### 2026-11-28 03:39 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1138从原theta除子/augmentation支付完整模p裸杯积比较；同一cyclic cover的两crossed norms由K₁单槽Hecke迹准确计算，得到完整n⁴−n²T̃_n+nθ(n²)，对所有辅助n成立。
+- root/global独立纸推，root亲读SV§6.3确认θ′在base-change E而非E/C；全部原权/phase/leading及两秩来源保留，无1/p或splitting-degree反除、无数学执行。继续真实Hecke unsmoothing的target公共核与四阶低cochains；H前态逐字归档。

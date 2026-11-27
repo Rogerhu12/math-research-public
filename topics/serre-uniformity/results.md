@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1138（已证明，纸面）**：[R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)：原辅助c除子比较与augmentation付实际K₁/p的Lχθ′=nq*Gχ−χ(n²)π*Gχ及T̃_nGχ=(n+χ(n²))Gχ；全部crossed norm按projection formula合并，S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}。所有辅助素数n>3、n≠p成立，不除κχ(n)/level p/分裂度；保R1136两秩真实源，target公共核及四阶见证继续。
+
 - **R1137（已证明，纸面）**：[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)：D₀=D−Ψℓ_(p−1)与Λ=ΦD₀Φ⁻¹的rank3边界全付；D⁴φ=ΦΛ⁴(U^m)+δ⁴c_N，c_N读取安全F⁴而非已付F⁷。原Lamé/B核分部积分给完整U/B/C共轭，真实φ满足2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0。末项由最高极强迫；Λ仍为纯极投影，非目标局部D。G=U^mK的div=A+mQ+m(−Q)−pP_R，隐藏moving p极不由三可见log极删除；指定e/K4继续。
 
 - **R1136（已证明，纸面）**：[R1136](results/R1136-original-forced-compact-Manin-sources.md)：原forced双权在每个det片分别消边界；analytic γ⁻ᵀ=JγJ⁻¹的两负号准确相消，p+1 transfer落真正X_ns^+。独立部分为2(p−1)eθ紧致读数；rank1部分来自Γ1p并保diamond θ²，含θ quadratic例外。完整B_n保全部cyclic-n Cor；物理σℓ给I_(2j+2k+2)，R1132只在额外低混合Bernoulli门消整块，原四阶非重复邻对不满足该范围。同z bar-cross准确变{A,R}，不同z项仍保；actual operator、rank1 twist与四阶见证继续。

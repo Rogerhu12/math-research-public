@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：c64c683782af9d560c6f84f2d31edfbedd5786a5**（2026-11-28 03:36 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：4724630bbf6bfa1994e04346d826d9acf54d19af**（2026-11-28 03:39 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；2026-11-28 03:27重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 04:27。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-forced-Manin-and-Lame-boundaries.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-integral-bare-cup-comparison.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p；原单位与实际 cochain
 
@@ -22,13 +22,12 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原整单位关系](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)仅将原单位符号格中已有理为零的平凡角色关系整提升，保实cusps、e₀/平均/S-unit transfer及R1132前提；不除12p。
 
-[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)实际A+B=1的half范数恢复全部原Vχ，保leading。显式Heis和同Norm见证class4 p⁵塔首层(a,a,a,b)已付；cusp iff四moment全零，即赋值向量∈(σ−1)^4，Norm只控M0。§10 Fourier/λp相位严格交换同一Heis商；纤维积保两三阶及两极端四阶(p⁷)，混合四阶零。常Lie中心读K₂/p的ω²，非e₀整torsion。原见证/跨轨道Cor/算术与proper下降继续。
-
-[原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅E[p]索引，(P,aP,iP)给严格U+V=1；一次bar范数及全部θ相位/leading付两槽uχFχ/m、vχFχ/m。uχ=2[g(a+1)−g(a−1)]，g=(t²−δ)^r−t^(2r)；每actualχ有2≤a≤m使uχunit，第二槽保ψ₂²、不除κ₂。不保证两χ共a或第二槽unit。泛配置双tame只作范围，不能传实际cup；global正在做真实跨line交叉和/Manin组合。
-
-[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：原K₃付整三项式；双κ同选奇c<p为unit、辅助域度p单位。§7第二K₃与O值1把完整Cor移回p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。两次{-1,h}成对整消、C排序仅二扭。原权/配置cross仍须付，不能设C零或改c⁴−[c,c]；个别hc有Hodge权，augmentation才消权。
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数恢复Vχ；Heis与同Norm见证class4 p⁵塔已付，cusp仍须四moments。Fourier/λp交换同一Heis；纤维积p⁷只保两极端四阶，混合四阶零。常Lie中心读K₂/p的ω²，非e₀整torsion。原跨line弦线uχ槽各有可逆a，vχ保ψ₂²与全部cross；同z bar变{A,R}仍非零。[aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)保𝒫=2c²{M_a,M_b}−2c⁴C_ab与实际crossed Cor，不同于SV B_n。完整公式沿归档/open，四阶proper/arithmetic下降继续。
 
 [R1136](results/R1136-original-forced-compact-Manin-sources.md)原forced双权逐det消边界，J双对偶/两负号及p+1 transfer准确落原正商；独立和为2(p−1)eθ读数，rank1来自Γ1p、diamond θ²含quadratic例外。物理σℓ修正给I_(2j+2k+2)，四阶指定非重复邻对不落低混合消块门。保全部cyclic-n correlation与未付operator/twist；同z bar-cross变{A,R}仍非零。
+
+[R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)原辅助c除子比较在augmentation后给Lχθ′=nq*Gχ−χ(n²)π*Gχ、T̃_nGχ=(n+χ(n²))Gχ，Gχ=2Fχ/m；完整四项Cor合并为S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}。全部n>3,n≠p成立，不除κχ(n)/p/分裂度。左侧是R1136两秩的完整紧致读数；source单位理想不消target公共核，也不使非零循环像为零。
+
 
 ## O1：指定 U^m、原 Picard 两 jet 与真实三同源
 
