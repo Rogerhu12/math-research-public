@@ -187,3 +187,8 @@
 ## 2026-11-27：producer_R722完整闭面、全相位、握持及R718来源接入
 
 [五件完整交付](computations/fixed-fejer-meridian-producer-bound-R722-closed-phase-grip-r718-delivery.json)316954B，运行源002eb1b91c99ea212255d14a4e929e876e09f34c38c78ffb7fc4f806b8799c5f；直接固定bf863完整父体9处必要source变化、原8argv/66selectors和全参数均保。R722是上游明确的后验均值存在证据，旧R709粗bool不伪造；完整32stage/1024circle/922径向+cuts/六jet、上下及两帽/mixed/allphase/R650和全部八beta+径向支路保。原R718整像流界/R719全当前系数条件及原盒距取max，未额外移植R720。完整主report必须complete/status/全部字节末核后才能读唯一R716-unmarked-outward-tube副件；marked embedding不循环证明无标记管，晚失败清除推广值。此为完整源与参数，实际几何/含反射非全等/精化仍待付，继续求解。
+
+
+## 2026-11-27：18初始六项有限几何与第一试探统计
+
+22:04:30原观察明确当前初点7e06/model9ec211的完整有限geometry已返：reach+2.0480426708394406、bodydiam−.04304843011978521、distance-plus+.11871374548166669、distance-minus−3.0936337267043594、capdiam−.06715131487906445、height−1.0411715967426867。有限最大违反在reach，另有distance-plus；没有连续证书或最大曲率位置。真实21:56:50.421541首已观察trial7d0d7e61c365986749b28def3e7759425f39ec7cb644737b13567b58592fd913统计Phi4954.694898882503/Gram.6374164670510036，accepted0/current初点不变，trial几何/决定未返。其点及模型都不同17，不能用相近数值移植结果。[完整原观察/身份](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)已续，未捕获的初geometry事件时刻不补。继续同完整科学，并据两实际瓶颈选择下一合法输入。
