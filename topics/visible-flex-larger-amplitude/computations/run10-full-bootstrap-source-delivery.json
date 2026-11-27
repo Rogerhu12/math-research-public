@@ -1,0 +1,61 @@
+{
+  "schema": "complete-public-run10-input-and-active-progress-source-delivery-v1",
+  "session": "Astra-larger-e4e2a2bf-20261126",
+  "files": [
+    {
+      "path": ".github/workflows/visible-larger-20261127-parallel10.yml",
+      "bytes": 2228,
+      "sha256": "4e0afa7e5c336eef0a4bb4e0ba0539c316b6b54c30d63d85681e7daa73e9dc95",
+      "git_blob_sha": "6ea7364b2911226283a330d31e60aaa9d14e0823"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel10_compact_metadata.py",
+      "bytes": 19587,
+      "sha256": "071eb470042a1de469bdef4b7bb651791a19bb2f47565bb5245633dd08cbecf9",
+      "git_blob_sha": "bc83bb8b9b0908c092cf61a63788f03c83e9086a"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_active_progress.py",
+      "bytes": 32762,
+      "sha256": "046f0d7b8d27df95f5249438fdaf435b00c482b009fa8956f27dbdc662a6b314",
+      "git_blob_sha": "d2c8ef87878d57525cfef04cfc401da7a9f30d6d"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-actions-request-10.json",
+      "bytes": 3351,
+      "sha256": "d01f19e83bcadfc02294d89159cedf1c20a52e76b4bc2c2f02380db524ffbb63",
+      "git_blob_sha": "d898ad5509df3dbd5b71f52f4d83b688e33275c7"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-10.json",
+      "bytes": 6444,
+      "sha256": "72cc001c16a5ebbd917eb6bad30c3e3153bfa877c19cdea819b56ab0012ed8c4",
+      "git_blob_sha": "e6b1d0398a47106acd6c0351a4d7f57249146e3a"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-run10-full-input-reconstruction-and-active-progress.md",
+      "bytes": 5310,
+      "sha256": "a7885d482e099afb87cf2bf19b6abebae628c0a6078ac19cd78d9ea5fe8ca6a3",
+      "git_blob_sha": "b819d7b0a14282ae93ff047e63b4cbddf00646da"
+    }
+  ],
+  "original_controller_sha256": "e386755a591d9a519f16b674b69c4241246df5dad68ed2eab15da3a9bf29f130",
+  "original_followups_sha256": "3cb1e706ab43dac6e952ce00b41e83055112d2ee65edb37682d1f05e94f2ee3f",
+  "complete_scientific_main_unchanged_except_named_followups_import": true,
+  "whole_original_run_step_text_byte_equal": true,
+  "complete_reference_original_scientific_fields_unchanged": [
+    "script",
+    "parent_bundle",
+    "args",
+    "outputs",
+    "summary"
+  ],
+  "original_reference_arguments": 24,
+  "original_reference_scalar_selectors": 42,
+  "scientific_source_or_parameters_changed": false,
+  "active_progress_is_optional_read_only_metadata": true,
+  "actual_input_or_field_or_run_identity_prefilled": false,
+  "post_outage_AST_or_compile_claimed": false,
+  "local_scientific_evaluation_performed": false,
+  "rule_commit": "8fa535aed5ae04e39b05a705868f761df7935d83"
+}

@@ -555,3 +555,7 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 ### 2026-11-27 09:04 UTC — Astra-larger-e4e2a2bf-20261126
 - 第33轮移R90两主生成输出及逐模账本共553399B；16整源/43输入/六冻结审计输入/35完整非逐模原成员/28旧gate均保，aa685逐字恢复，无新计算，大两件未读。
 - R90证明仅三旧raw链接改固定提交；06–09全队列不变。详[完整保留说明](notes/2026-11-27-legacy-R90-final-outputs-retention-33.md)；科学与全部未知责任继续。
+
+### 2026-11-27 09:12 UTC — Astra-larger-e4e2a2bf-20261126
+- 刊完整10控制器071eb/只读progress followups046f及全原warm/reference请求，原run_step逐字保；4e655全部24argv/5输出/42selectors不改，真实新输入身份待返回，09原计算继续。
+- 小progress只读、双捕获、显式scalar，不冒返回/证书；无本地科学或失联后AST。详[完整启动说明](notes/2026-11-27-run10-full-input-reconstruction-and-active-progress.md)；压缩前完整H保ccb52315。
