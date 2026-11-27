@@ -32,7 +32,7 @@ $$
 
 **固定正权证书已付：**公开run46073583710/job140756005342实际成功，固定 $p=227,u=1$、$n=51526$ 的两个原完整槽系数均非零，整窗身份全PASS，故 $R_{{\rm can},227}(226)\ne0$。辅助65537只证明特征零非零；离散障碍的非零前提现在不是空条件。**正在做：**当前literal序列已确定不连续，继续寻找从真实flat算子本身导出的规范及其proper端点，而不是在旧比较上补无来源因子；原bad点更深根与完整 $p^2$ source已保下述费用。未能接合就继续同一 S3150 forcing/原矩阵方向，不停止研究。参考端点、真正 derived 读数及无穷 $p$ 非零仍须解决。已排权二 $B_6$ 的全部toric点零不再重算。
 
-[原bad CM点的真实b2读者与p²边界](notes/2026-11-27-original-bad-cm-b2-source-and-p-square-boundary.md)：$g_1^*Q_1=Q_2$、$g_1^*\omega_{\rm can}=\omega_{\rm can}$、$g_1^*dz_{\rm dR}=p^{-1}dz_{\rm dR}$，故好点 $(p\theta)^j$ 的连续读者实际运输成坏点 $(p^2\theta)^j$，但source是 $g_1^*F$。回原source仍须好点 $g_2^*F_0$ 的完整有界性。对同一实际cyclic $p^2$分支，严格有
+[原bad CM点的真实b2读者与p²边界](notes/2026-11-27-original-bad-cm-b2-source-and-p-square-boundary.md)：$g_1^*Q_1=Q_2$、$g_1^*\omega_{\rm can}=\omega_{\rm can}$、$g_1^*dz_{\rm dR}=p^{-1}dz_{\rm dR}$，故好点 $(p\theta)^j$ 的连续读者实际运输成坏点 $(p^2\theta)^j$，但source是 $g_1^*F$。该原先未付的好点 $g_2^*F_0$ 完整有界性现由[实际来源返回](notes/2026-11-27-original-good-pullback-and-bad-source-return.md)补齐；但[R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)证明这个返回原未改动来源的完整toric flat分支恒零，不能作为canonical检测量。对同一实际cyclic $p^2$分支，严格有
 $
 O_D=(1-p^{-2})G(E)-\lambda_D^*I_D/p^2.
 $
@@ -180,8 +180,19 @@ v13实际run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671
 后继必须在同一来源中识别真实$Q$旋转trace或完整系数与原canonical Newton/指定proper有限图；仅有形式双Hermite或已撤回的正整数连续比较不够。直接整Newton有限reader正在审，不将其当新的canonical零条件。唯一v13仍执行中，无几何终门回执。
 
 
-### 2026-11-27 23:38 UTC：直接整Newton读者已付
+### 2026-11-27 23:37 UTC：直接整Newton读者已付
 
 [同一flat reader§6.1](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)给原全$\mathbf Z_p$上的显式整Newton多项式，任意$s\ge1$一致逼近$\mathbf1_\times x^{-s}$至$p^H$，次数至$pH-1$。保完整$c_i(-C)^i$逆三角，$C$整时同一unflat raised前缀仅需$m_A+H$输入精度，不经Stirling除阶乘。对参数$L$求导给真正log核，选最小合格$J$并支付$e=\lfloor\log_pJ\rfloor$，$b=2$保全部$i\le\lfloor(H-1)/2\rfloor$ Maass修正，明确斜率的有限前缀和输入精度；toric外权导数仍保。这里没有给原canonical新增零行。
 
 接着核实际$g_2^*F_0$的good germ及有界来源，使完整双Hermite可以在原固定来源中使用；仍须真实flat而非通常剔除正权身份。
+
+
+### 2026-11-27 23:54 UTC：原来源有界性已付，该未改动 toric flat 分支已排除
+
+[R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)与[实际来源返回](notes/2026-11-27-original-good-pullback-and-bad-source-return.md)支付原 $g_2^*F_0$ 在好点的完整有界性：书Lemma6.16作用于同一completed结构层germ，不要求新vector；实际中心给 $(pI)^*F_0=-F_0$，故同一坏点 $b=2$ 源为 $-F_0$。原书 $\omega_{\rm can}\Omega_p=\omega_0$、$v_p\Omega_p=-p/(p^2-1)$ 给正幂周期，完整双槽估值与未除幂 $n!(n+2)!$ 迫实际未flat全toric正槽沿合法逼近趋零；同一有界测度的直接极限于是证明原未改动来源的**完整toric flat分支及实际外权导数恒零**。只杀这一个完整和，不声称点级支撑、canonical $J'_S$、usual剔除、outward图或signed类为零。书版Bol的KS/杯积改回R997同一正号，向量primitive同步换号，临界标量公式不变。后继转真正导子$p$邻点来源 $g_1^*F_0$ 或直接proper返回，不再给已零分支造canonical必要行。
+
+当前真正未闭的是好点直接取 $F_0$、坏点为 $g_1^*F_0$ 的导子$p$邻点完整有限来源。其准确全权运输是
+\[
+g_1^*((p\delta)^nF_0)=p^{2n}\delta^n(g_1^*F_0)=p^ng_1^*(\delta^nF_0).
+\]
+最后值在实际邻点，不能挪用R1052原点 $D_{102}\times S_{34}$ 界。若用通常剔除，全部 $g_2^2$ 新来源及其邻点费用同样要保。central继续书7.16与实际$p$字，geometry继续原A24四伙伴及mixed除$p$返回，arithmetic继续原完整矩阵同R高前缀核；root补能实际消费主门的几何与解析比较。

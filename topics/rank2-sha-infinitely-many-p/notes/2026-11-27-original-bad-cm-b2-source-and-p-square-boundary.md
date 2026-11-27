@@ -56,7 +56,9 @@ $Ug_1^{-1}$上已付；仅在 stalk 上使用时，亦须拉回相应 stalk。
 (4)的来源是$g_1^*F$：它是原$y$出发的真实 cyclic $p$邻点来源。
 它并非原$F$在同一点仅换了一个变量名。
 
-## 2. 回原 source 的缺口不能由坐标等式删除
+## 2. 回原 source 的额外来源门及现已支付的范围
+
+**后续已付：**[实际来源返回](2026-11-27-original-good-pullback-and-bad-source-return.md)通过书Lemma6.16的completed结构层germ，已支付这里同一原 $g_2^*F_0$ 的 $Q_1$ 有界性，并保 $(pI)^*F_0=-F_0$ 与全部determinant费用。[R1052](../results/R1052-original-unmodified-b2-toric-flat-vanishing.md)进一步证明返回原未改动来源的完整toric flat分支恒零。下面保留额外来源门本身及(6)的准确定义域限制；新结果不取消(8)的向外边界，也不把它与canonical斜率相认。
 
 若要回到一个预先固定的原来源$F_0$，则必须在好点支付实际
 $g_2^*F_0$的$Q_1$有界展开及其$\flat_1$。

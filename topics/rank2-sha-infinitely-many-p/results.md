@@ -199,3 +199,6 @@ $$
 
 
 - [同一flat reader§6.1](notes/2026-11-27-original-flat-amice-critical-slope-and-bol-primitive.md)给原全$\mathbf Z_p$上的显式整Newton多项式，任意$s\ge1$一致逼近$\mathbf1_\times x^{-s}$至$p^H$，次数至$pH-1$。保完整$c_i(-C)^i$逆三角，$C$整时同一unflat raised前缀仅需$m_A+H$输入精度，不经Stirling除阶乘。对参数$L$求导给真正log核，选最小合格$J$并支付$e=\lfloor\log_pJ\rfloor$，$b=2$保全部$i\le\lfloor(H-1)/2\rfloor$ Maass修正，明确斜率的有限前缀和输入精度；toric外权导数仍保。这里没有给原canonical新增零行。
+
+
+- [R1052](results/R1052-original-unmodified-b2-toric-flat-vanishing.md)与[实际来源返回](notes/2026-11-27-original-good-pullback-and-bad-source-return.md)支付原 $g_2^*F_0$ 在好点的完整有界性：书Lemma6.16作用于同一completed结构层germ，不要求新vector；实际中心给 $(pI)^*F_0=-F_0$，故同一坏点 $b=2$ 源为 $-F_0$。原书 $\omega_{\rm can}\Omega_p=\omega_0$、$v_p\Omega_p=-p/(p^2-1)$ 给正幂周期，完整双槽估值与未除幂 $n!(n+2)!$ 迫实际未flat全toric正槽沿合法逼近趋零；同一有界测度的直接极限于是证明原未改动来源的**完整toric flat分支及实际外权导数恒零**。只杀这一个完整和，不声称点级支撑、canonical $J'_S$、usual剔除、outward图或signed类为零。书版Bol的KS/杯积改回R997同一正号，向量primitive同步换号，临界标量公式不变。后继转真正导子$p$邻点来源 $g_1^*F_0$ 或直接proper返回，不再给已零分支造canonical必要行。

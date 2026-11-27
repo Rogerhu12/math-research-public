@@ -193,17 +193,24 @@ Any two analytic double primitives differ by $a+b\log Q$, so (15)
 is independent of both integration constants. These are evaluations
 of the same $Q$-expansion, not asserted CM isogeny evaluations.
 
-## 4. The actual Bol and Hodge-valued primitive
+## 4. The Bol primitive in the book and actual Tate conventions
 
 Put $t=\log Q$, $z=z_0+p^bt$. In the horizontal de Rham frame use
 $$
  \omega_{\rm can}=-z e_1+e_2,\qquad
- \langle e_1,e_2\rangle=-1,\qquad
- {\rm KS}(\omega_{\rm can}^{\otimes2})=-dz .
+ \langle e_1,e_2\rangle=+1,\qquad
+ {\rm KS}(\omega_{\rm can}^{\otimes2})=+dz .
  \tag{16}
 $$
-These are arXiv1805.03605 (96)--(97) and (114)--(115), with its Tate
-pairing normalization. External source multipliers stay in $A$.
+These are the book's positive KS convention ((1.6), (4.52)) and
+the actual de Rham/Tate convention of R997 (11), (15)--(16), (26).
+Intrinsically, put $\xi=\nabla_{\partial_z}\omega_{\rm can}$.
+The horizontal period description gives $\nabla\xi=0$ and
+$\langle\omega_{\rm can},\xi\rangle=1$; take $e_1=-\xi$ and
+$e_2=\omega_{\rm can}-z\xi$. This constructs the displayed horizontal
+basis with its pairing. The source $A\omega_{\rm can}^{\otimes3}$
+is thus $+A\omega_{\rm can}\,dz$, as for the actual R997 Coleman
+equation. External source multipliers stay in $A$.
 
 The variable scaled connection is
 $C(t)=C(0)/(1+C(0)t)$, so $D_QC=-C^2$. Hence
@@ -216,17 +223,20 @@ The variable connection has not been replaced by a constant.
 
 Given $D_Q^2B=A$, set
 $$
- {\cal G}_B=-p^b(D_QB)\omega_{\rm can}-p^{2b}B e_1 .
+ {\cal G}_B^{\rm book}=+p^b(D_QB)\omega_{\rm can}+p^{2b}B e_1 .
  \tag{18}
 $$
 Since $D_Q\omega_{\rm can}=-p^be_1$, direct calculation gives
 $$
- \nabla{\cal G}_B=-A\omega_{\rm can}\,dz,\qquad
- \langle{\cal G}_B,\omega_{\rm can}\rangle=p^{2b}B .
+ \nabla{\cal G}_B^{\rm book}=+A\omega_{\rm can}\,dz,\qquad
+ \langle{\cal G}_B^{\rm book},\omega_{\rm can}\rangle=p^{2b}B .
  \tag{19}
 $$
-The first right side is the KS image of
-$A\omega_{\rm can}^{\otimes3}$ under (16).
+The first right side is the positive KS image of
+$A\omega_{\rm can}^{\otimes3}$ under (16). In the actual Tate frame,
+$\nabla\omega=\eta\,d\log q$ and $\langle\omega,\eta\rangle=1$
+give the same signs and the positive $\theta^{-2}f$ highest slot
+of R997 (26).
 
 Let $\mathcal G$ be an actual Coleman primitive of this same source
 and take its complete formal $Q$-expansion in (16). Its difference
@@ -248,6 +258,15 @@ $$
 This is a source-level connection identity. The finite trace remains
 the actual analytic $Q$-trace.
 
+For clarity, the previously written 2018 convention had
+$\langle e_1,e_2\rangle=-1$, $\mathrm{KS}(\omega^{\otimes2})=-dz$,
+and the negative of (18). Under the displayed identification of
+horizontal vector spaces, both the primitive and the pairing change
+sign, so the scalar highest-slot formula (20) keeps its positive
+sign. The negative-source primitive cannot be identified with the
+book's primitive while keeping the old pairing. The positive book
+KS and the original R997 source are used here.
+
 The bad-point transport has a necessary determinant cost.
 For $g_1=\operatorname{diag}(p,1)$,
 $g_1^*\omega_{\rm can}=\omega_{\rm can}$ and
@@ -264,6 +283,7 @@ $p^{-4}\cdot p\cdot p=p^{-2}$ times the good pairing, exactly the
 good $b=1$ factor. Both factors are required. This agrees with the
 proved equality of the good $(p\theta_3)^j$ reader and the bad
 $(p^2\theta_3)^j$ reader on $g_1^*F$, not on a substituted $F$.
+
 
 ## 5. Full unflat Maass data return to the Amice coefficients
 
@@ -491,9 +511,12 @@ include every outer weight and its derivative from section 2.
 
 ## 7. The exact remaining source comparison
 
+For the specified unmodified source, the [actual good pullback](2026-11-27-original-good-pullback-and-bad-source-return.md) now proves boundedness and the return $g_1^*g_2^*F_0=-F_0$. [R1052](../results/R1052-original-unmodified-b2-toric-flat-vanishing.md) proves that its complete degree102/34 toric $b=2$ flat branch is identically zero. The general formulas of this note remain valid, but this particular source does not detect the original canonical derivative.
+
+
 Equations (9)--(11), (15), (20)--(21), and (24)--(29) are paid for
 every actual bounded source under the displayed hypotheses.
-For the original bad inert point they concern $g_1^*F$. They may be
+For the original bad inert point they concern the actual $g_1^*F$ (with the specified $F=g_2^*F_0$ case now paid above). They may be
 summed with all original Schwartz, Artin and corestriction coefficients,
 including their actual weight derivatives.
 
