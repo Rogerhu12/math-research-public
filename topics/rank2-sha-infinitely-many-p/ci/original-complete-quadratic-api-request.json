@@ -1,10 +1,24 @@
 {
-  "request_id": "2026-11-27-complete-original-quadratic-return-v1",
-  "reason": "Native v11 terminal data show complete remainder, idempotent lift and full projector return costs. Replace only faithful quadratic polynomial representation, preserving every original constant, row, column, nilpotent and exact module return. One public software check before the original full pipeline; no original geometric gate is claimed by the example matrices.",
+  "request_id": "2026-11-27-captured-native-complete-return-binding-v1",
+  "kind": "original-native-captured-complete-return-software-check",
+  "reason": "Reproduce the actual native-prepare then quadratic-bind order, repair only the captured full-return alias, and compare explicit complete prime-descent and unchanged quadratic-fallback software fixtures with all pinned R975 fields. No original geometric input is run and no completion-time claim is made.",
+  "check_script": "scripts/check-original-native-return-binding.py",
+  "check_sha256": "e706e6ff3ee7033907c3f2a817592fc0ccbac35f3f8037b14a528890a0d5a146",
+  "binding_script": "scripts/original_native_complete_return_binding.py",
+  "binding_sha256": "23f862035b668478bfafebdf95cf4d7f600d251243c3e47791fd4fec47c2c5bd",
   "source_files": [
-    "original_complete_quadratic_polynomials.pyx",
+    "original_native_complete_return_binding.py",
+    "check-original-native-return-binding.py",
+    "check-original-complete-quadratic-api.py",
+    "original_native_pair_reset.py",
+    "original_native_polynomial_rows.pyx",
+    "original_pair_reset_row_reduction.py",
+    "original_degree_bounded_row_reduction.py",
+    "original_ys_divisor_ideal_tools.py",
     "original_complete_quadratic_returns.py",
-    "check-original-complete-quadratic-api.py"
+    "original_complete_quadratic_polynomials.pyx",
+    "original_ys_artinian_norm_tools.py",
+    "original_projector_hermite.py"
   ],
   "math_runs_only_in_public_actions": true,
   "recomputable_outputs_persisted": false

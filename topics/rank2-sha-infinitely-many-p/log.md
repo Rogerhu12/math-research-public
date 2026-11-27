@@ -340,3 +340,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 22:22 UTC：消费2216实际两库pull run46075603971/job140762479905：公开22:16:24至e5309ee152260aa4aef389c7d5d68bac1cf8b116、私库22:16:29至9ff59ac6354b6aa5afb35c29fdbf9044021139d2；各较3bd753e/54fd1d8两README均无变，QUEUE blob a01613b仍本会话进行中。规则15库存3128blob/44,077,360B，无>5MB，三个旧必要输入不变。同步日志14893B/SHA256 ef0e8ad30d45c9dd090d8a805158aaae31c15e21120f2067c34f24431db9bffa，不存日志；下一两库实际pull≤23:16UTC。同时先确认v12数学step completed/failure，再直接取得完整5694056B/12522行终日志hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907：22:15:38 host incomplete、signal15、exit124，21000s时限实证。30 starts/native全prime descent，六条完整612 cusps primary已返，下一cubic306块/306Frob/首maximal返回，终到direct pair batches96；四交/Norm/18×9未返。实际末尾取代19:05缓存，不另跑collector。root完整静读central两软件blob并发现checker多余右括号，退修及要求固定selector；生产尚未重启，未将binding遗漏直接称作全部瓶颈。
+
+
+- 2026-11-27 22:25 UTC：复核central修正版checker cc0fbd44731322195b707af6fe902b99e7c8202b、固定selector215149e1d1cc1ee20021ebf8f8439c6f220e8e97和requestade31412ebb957418f19018cf4f98a8deff1f08e；helperf4faa7bd不变。root逐字核三个夹具的完整HNF/attached唯一返回、两个原域回验、原receipt全字段排仅label/time、独立原Sage回验；确认selector旧API主体逐字相同，新路径/SHA固定且公开先AST解析。确定只改变30次native流程的第二个恢复原Fp²返回，不改变第一Fp回验或外部primary/projector/direct-pair。触发既有10min/420s软件workflow，生产request/producer未变，实际PASS待回执。O新来源删过时“固定倍率仍待锁”措辞，保当前literal已非连续与真实flat尚未识别的准确区别。

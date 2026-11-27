@@ -48,3 +48,21 @@
 独立软件检查应先准确重现旧顺序下的未绑定别名，再验证最小修正；对显式小例比较整份原操作流、每个输出及全部完整返回。它不运行原几何，也不声称原四交/Norm/$18\times9$ 通过。root 静态复核初稿时发现一处多余右括号，已退回修正；未把存在语法错误的稿触发为生产运行。
 
 本条登记时，新检查尚未返回 PASS，生产后继尚未启动。是否足以使整条原计算落入时限仍需实际证据；不得把这一确定的软件遗漏直接等同于全部性能问题。
+
+
+## 5. 已提交的独立软件核验范围
+
+修正后的 helper 与 checker 已完成逐字静态复核。固定 request selector 在任何 Sage 数学 import 前先核对两个指定路径和 SHA256，并在公开作业里执行 AST 解析；只允许这个确定的检查，不接受任意脚本路径。旧 API 请求的原主体逐字保留，当前新请求只运行三个明确的小软件夹具。
+
+checker 先重现 v12 的 prepare-then-bind 顺序和捕获别名遗漏，再验证一次绑定及幂等性；两个 prime-descent 夹具应实际观测完整返回的常数域次数依次为1、2，真正二次域左块则保持原完整 fallback。包括矩形全部生成行、零行、全部 attached 列和原常数恢复。与原 reference 的每一个回执字段比较时只排除 label 和 elapsed_seconds；此外以原 Sage remainder 对所有输入行独立回验。
+
+修复范围也已明确：PREPARED 内只有两个该 remainder 调用。已见30个原 HNF 都下降到素子域，第一次完整返回仍走原 prime-field 路径，第二次恢复原二次域后的全行返回才切换到已核 quadratic wrapper。v12 的外部 primary/projector/direct-pair 模块别名本来已绑定，这次修改不会额外改变那些调用。
+
+源码 SHA256：
+
+- original_native_complete_return_binding.py：23f862035b668478bfafebdf95cf4d7f600d251243c3e47791fd4fec47c2c5bd。
+- check-original-native-return-binding.py：e706e6ff3ee7033907c3f2a817592fc0ccbac35f3f8037b14a528890a0d5a146。
+- 既有 API entry 加固定 selector：f93c54d4e7ebad92fb7465fbb435f56ed6b5eabb8b6492aad1f0f0c43272a438。
+- 固定软件 request：05e6c1078577d50ee91be3be53833b1a832090c978caf809f189fa619fba736b。
+
+本节提交触发原公开软件 workflow，尚待实际回执；原生产 request、producer、launcher 和几何输入未修改。没有据静态核查宣称软件 PASS 或性能达标。

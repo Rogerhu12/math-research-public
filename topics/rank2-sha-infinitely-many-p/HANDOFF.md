@@ -23,7 +23,7 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 全部原pins仍为29/2453/64/minimal、两char0 pins、全60源及所有原几何门，Sage10.6镜像19995db6…、4CPU/16GB。v11及此前链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，全回返参数见[完整二次返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。软件v3 run46032975863已PASS，不能替几何终门。
 
-**实际软件遗漏：**v12先复制reference globals并exec生成native PREPARED，再bind完整quadratic returns；后者只改module属性，未改独立PREPARED.__globals__的旧remainder。central准备最小显式绑定与三个完整小例软件check；root已发现初稿多余右括号并退修，未触发生产。全部30个实际HNF均prime descent，不猜二次HNF是瓶颈；保每个return/degree/attached门，不先写无证新算法。新软件PASS前不发生产后继，绑定修正也不先声称足以解决全时限。
+**实际软件遗漏：**v12先复制reference globals并exec生成native PREPARED，再bind完整quadratic returns；后者只改module属性，未改独立PREPARED.__globals__的旧remainder。最小显式绑定与三个完整小例软件check已修正静读，固定selector/request随22:25提交触发原软件workflow待回执；helper23f86203/checke706e6ff pins，未触发生产。全部30个实际HNF均prime descent，不猜二次HNF是瓶颈；保每个return/degree/attached门，不先写无证新算法。新软件PASS前不发生产后继，绑定修正也不先声称足以解决全时限。
 
 ## 当前数学事实与禁止重走的接合
 
