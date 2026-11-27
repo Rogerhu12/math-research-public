@@ -18,3 +18,5 @@
 - [R1006](../results/R1006-actual-full-nine-trace-and-original-katz-square.md)：实际full9取P h/原K分量，源为光滑∞纤维；完整54商/finite idempotent、全部局部常数、真实η与Cor倍数均付。一般Waldspurger+CM Igusa微分及经典Euler先消去后延拓，给raw AJ²=−486ω34²[L:H]²Ωp²KνKβ；原ray Artin对偶再乘1/17。明确更正R995/998的Tate/cohomological混记，原V由P−/e_E−检测，混合仍由已证β Selmer消去。Kβ全分裂p非零故新实际最高AJ等价原Kν非零，未把此等价当跨p非零。
 
 - [R1008](../results/R1008-complete-original-linear-fiber-frobenius.md)：同原46971乘积在任一实际一次基根/两图完整求值，Fp²双坐标保全乘法、半线性Frob和真正约化投影；单张量缓存保厚理想/全长度/Norm目标。明确接R975七行模aliases及R986两constructor，原v8所有门继续执行；仅静态证明/源码，未运行或声称shadow PASS。
+
+- [R1009](../results/R1009-fixed-highest-extension-and-one-motive-obstruction.md)：先固定7993-depleted实际54图，经R817原Katz→R806→R1002/1006检测原P−非零；扩张Lie Ru=原V(2,−1)。Jossen半阿贝尔Lie仅0/1排整个有限1-motive张量/对偶/子商范畴，任意有限扩域后亦然；不排纯V。兼容Frob不见扩张，固定一次有限域约化仅有限ℓ挠检测，继续真正level3跨ℓ输入。

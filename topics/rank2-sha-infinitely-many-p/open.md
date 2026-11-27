@@ -161,3 +161,5 @@ R997已将新实际最高AJ落到唯一Frobenius规范的具体Picard–Fuchs方
 R1006已把新实际full9/54图完整trace接到原Katz平方：raw AJ²=−486ω34²[L:H]²Ωp²KνKβ，所有有限常数、Igusa/canonical-subgroup、经典Euler消去与负二端点均付。原R804目标准确由P−/e_E−检测，Tate/上同调dual已更正R995/R998；原ray Artin对偶再乘1/17。因Kβ全分裂p非零，新的实际循环AJ非零等价原Kν非零；跨p门仍在，继续真正非零输入。
 
 R1008已付原完整线性纤维求值/双坐标Frobenius与全约化投影的精确后继；R975全行及R986原嵌入均明确绑定，保v8全部四交/厚Norm/18×9门。当前仅源码/静态证明，待v8真实终点后运行，不以配置或中间厚块代全shadow。
+
+R1009已固定新的7993-depleted54图并经原Katz链证明其P−扩张非平凡；其Lie Ru=原V的Tate指数2/−1，排除任何有限扩域上的有限1-motive张量/对偶/子商。纯CM分次仍在该范畴，不能混淆；兼容Frob及固定一次有限域约化都未付本level3混合跨ℓ非零。继续更广混合输入，不重试已排的1-motive桥。
