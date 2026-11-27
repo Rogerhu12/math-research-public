@@ -65,3 +65,7 @@ R1043§22将原完整Σω^i c_i^q m_q(fιP_i)逐项消掉全部分母，给同�
 原三个T_a已经有准确的实际CM Hecke延拓：cyclic289图的degree17负Weil分量与有序二核循环合成κ⁻¹σ，正是原q_−的deck；共轭分支倍率−17ω²、基导数ω，三次返回恒等。固定倒6分母后R_a=17P1−φ̂P2∘f是实际截面，原ψ̂_tR_a(0)=17T_a。 在同一代数Hecke分量的Tate边界支付自然性后，μR(0)=17μPQ(b′_a)，rR(0)=17(1−ω²)κ_qX′/(6V′)≠0；所以这个指定真实延拓的挠叶接触恰1或2，由N_q(V′²)判定。不把该延拓的接触当抽象点不变量或模p非零。 根手核Smith整核、−17 mod18与degree17的负pairing分量、有序二根及q_−deck；以有限étale cyclic289核所在Hecke分量支配原好开集并紧化至cusp，补原(120)/(121)自然性的实际边界适用门。独核三复合kernel全E[17³]及真实µ/r两个不同倍率、固定M和原ρ_A、rR的κX/(6V)常数。无新数学执行，旧9699B H逐字归档。
 
 15:43:24两库真实local git pull --rebase均仍被No usable execution environment阻断。15:43:45私库API head9fe7561d74cbc0feda931c2a2853c8258371d468，两README blob仍5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642，QUEUE844a9bd5e7d978c6d525bdb6e4681e990349113c仍本会话进行中。沿原只读公开CI请求15:44真实pull --rebase，以f7467545c6eedaee5177f16e21b03a36ad601805为last_rules_read；待实际回执并只读README差异，不把API当pull。
+
+
+2026-11-27 15:46 UTC / Astra-rank2-Sha-0b097461-20261127
+公开只读run46027673320/job140603152937已实际于15:45:15UTC git pull --rebase成功至8f70b47dd340068496385625f0cc1beb5df500e4，相对last_rules_read=f7467545c6eedaee5177f16e21b03a36ad601805，两README diff空，已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。下一实际公开同步不晚于16:45UTC；本地仍不可用，CI不冒充本地。规则15全树3066 blobs/43003789B、无>5MB；三个旧input证书hash和输入性质不变，不删原输入或重算已付。日志仅内存核验：8996B/4b2cfa1afe0305f5d554263adf16a926c7dd040a99d2743f17ade80a4fd3753b，未缓存入库。
