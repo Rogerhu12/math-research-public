@@ -1,0 +1,774 @@
+{
+  "schema": "isp-first-head-original-F6-D-return-execution-v1",
+  "dateTaipei": "2026-11-28",
+  "jobId": 140641086709,
+  "execution": {
+    "elapsed_seconds": 10.754201447,
+    "max_child_rss_kib": 118992,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "07c82e3248c6f0e5d2426dbcbb5d207112496394",
+        "before": "d01aeff0a998310281986909d0ec5b9aca7cbb5b",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T17:04:31.419978+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46038844297",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "d01aeff0a998310281986909d0ec5b9aca7cbb5b",
+    "source_exit_code": 0,
+    "source_git_blob": "e6f99060b03c6e44e55d317fb530f5b5ca2165f2",
+    "source_sha256": "a215ce9efb83f66be9febde3a050f64769a18ac6e11fa3096a69e64e74c929eb",
+    "stdout_bytes": 833889,
+    "stdout_sha256": "a43454cc1b6e246b56e258d1f29ac77ca5807f59ca12a6eb7fc6fb794f612968",
+    "stop_reason": null
+  },
+  "mathematicalStages": [
+    {
+      "quadraticHeadNumerator": {
+        "degrees": [
+          26,
+          14,
+          0
+        ],
+        "terms": 223,
+        "sha256": "617adc04bfc0807da52ff2c9ce1808f1c66db40482bc7e2bf63fca37f5beeafe"
+      },
+      "quadraticHeadDenominator": {
+        "degrees": [
+          3,
+          8,
+          0
+        ],
+        "terms": 26,
+        "sha256": "5b9ca41cf577ae34127f3c4ae3707fcf7ad8ad5279745de2bc3191bce0e15550"
+      },
+      "variables": [
+        "T",
+        "z"
+      ],
+      "generators": [
+        "1",
+        "T",
+        "z"
+      ],
+      "allNineOriginalRuleCoefficientIdentitiesReturned": true,
+      "onlyOnFirstHeadNonzeroChart": true,
+      "firstHeadZeroCurveRetained": true,
+      "stage": "new_exact_three_generator_original_mean_chart",
+      "seconds": 0.07307387399999854
+    },
+    {
+      "rows": [
+        "original_N1",
+        "T_square_z_two_orders",
+        "T_z_square_two_orders"
+      ],
+      "actualExtraRowNumerators": [
+        [
+          {
+            "degrees": [
+              19,
+              9,
+              2
+            ],
+            "terms": 332,
+            "sha256": "f298eb3fde8876fe2d45b93dcb3974aaef00ea4fb057b2de4a6362a704345b76"
+          },
+          {
+            "degrees": [
+              17,
+              9,
+              1
+            ],
+            "terms": 194,
+            "sha256": "c59f4fe78eb915aa27a0e20a95a6f8df7eb272ffbee0f9cb5d1d766a21bb6caf"
+          },
+          {
+            "degrees": [
+              17,
+              8,
+              1
+            ],
+            "terms": 195,
+            "sha256": "f588a32054d50b6c6e2668250a7f57ca9bd20285756804f13664c5b80ba3e3c2"
+          }
+        ],
+        [
+          {
+            "degrees": [
+              25,
+              15,
+              3
+            ],
+            "terms": 929,
+            "sha256": "c0df88b82419bacb93b7ec12ee39a6585c67cdeaec1be33a277a58e12d1fdabc"
+          },
+          {
+            "degrees": [
+              21,
+              13,
+              2
+            ],
+            "terms": 542,
+            "sha256": "adf94c85fe26a3cb21b669e5d97ba4a8b846e406a3a8ba8c6744f5d94d9751d5"
+          },
+          {
+            "degrees": [
+              20,
+              12,
+              2
+            ],
+            "terms": 468,
+            "sha256": "ebba380e825c20869017b13ebd2513d6a4cde12a1855e9fbaa1d47e8e45dd841"
+          }
+        ],
+        [
+          {
+            "degrees": [
+              26,
+              17,
+              3
+            ],
+            "terms": 1046,
+            "sha256": "c284bc059282481bebefd3bbde665ab9130e9f0a7ff0631922f8e6497b249d82"
+          },
+          {
+            "degrees": [
+              22,
+              16,
+              2
+            ],
+            "terms": 619,
+            "sha256": "df4e1720cb7ff0fb2c9f14f93ed6ca14d6325c343bffc1eb553437b79b55c28e"
+          },
+          {
+            "degrees": [
+              21,
+              13,
+              2
+            ],
+            "terms": 542,
+            "sha256": "b06d1a9e1a9c07b3cc41f39b1aa63cfc03d8f09a49e49dafc243a3f9cb4d2788"
+          }
+        ]
+      ],
+      "target": "D=ell*A2-T^2",
+      "originalCoefficientDAGNotOnlyPointwiseNecessary": true,
+      "noUnprovedAssociativityUsed": true,
+      "stage": "new_fixed_original_N1_and_true_multiplication_ambiguity_DAG",
+      "seconds": 0.15221138700000125
+    },
+    {
+      "originalCoefficientIdentityReturned": true,
+      "actualLeadingCoefficient": "4*ell^2*(1-Q)",
+      "noMomentOrGeometricNormInverse": true,
+      "stage": "new_original_F6_coefficients_with_paid_T_six_head",
+      "seconds": 0.1548691550000001
+    },
+    {
+      "power": 0,
+      "partialNumerators": [
+        {
+          "degrees": [
+            12,
+            6,
+            6
+          ],
+          "terms": 341,
+          "sha256": "a9d515bcc7c64077e49034908c7ecb829f3d69a34c08a72b925bb1065a0a8c20"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "partialDenominators": [
+        {
+          "degrees": [
+            0,
+            5,
+            0
+          ],
+          "terms": 1,
+          "sha256": "df55d7cee2ab23d6c8039c66836b66d1e8d9ec52c5c71969433d0e2393ee3a8c"
+        },
+        {
+          "degrees": [
+            0,
+            0,
+            0
+          ],
+          "terms": 1,
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83"
+        },
+        {
+          "degrees": [
+            0,
+            0,
+            0
+          ],
+          "terms": 1,
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83"
+        }
+      ],
+      "stage": "new_same_MT_original_F6_recurrence",
+      "seconds": 0.15782331500000168
+    },
+    {
+      "power": 1,
+      "partialNumerators": [
+        {
+          "degrees": [
+            12,
+            6,
+            6
+          ],
+          "terms": 341,
+          "sha256": "a9d515bcc7c64077e49034908c7ecb829f3d69a34c08a72b925bb1065a0a8c20"
+        },
+        {
+          "degrees": [
+            10,
+            5,
+            5
+          ],
+          "terms": 216,
+          "sha256": "b0d4a8ad50ec00379baddca0f4b49cf2a7c91236f694c8e94d80a9fea316a545"
+        },
+        {
+          "degrees": [
+            -1,
+            -1,
+            -1
+          ],
+          "terms": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "partialDenominators": [
+        {
+          "degrees": [
+            0,
+            5,
+            0
+          ],
+          "terms": 1,
+          "sha256": "df55d7cee2ab23d6c8039c66836b66d1e8d9ec52c5c71969433d0e2393ee3a8c"
+        },
+        {
+          "degrees": [
+            0,
+            4,
+            0
+          ],
+          "terms": 1,
+          "sha256": "2b821c055f3701e355e2fa3fb4764accfec83b6f2a8b46738c562cd4844419ec"
+        },
+        {
+          "degrees": [
+            0,
+            0,
+            0
+          ],
+          "terms": 1,
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83"
+        }
+      ],
+      "stage": "new_same_MT_original_F6_recurrence",
+      "seconds": 0.1623589989999985
+    },
+    {
+      "power": 2,
+      "partialNumerators": [
+        {
+          "degrees": [
+            20,
+            11,
+            6
+          ],
+          "terms": 1034,
+          "sha256": "6577b1245d78db4bc3c945617184debecd0a70f655ec6b4edfdc1729b5e8e2f3"
+        },
+        {
+          "degrees": [
+            18,
+            10,
+            5
+          ],
+          "terms": 760,
+          "sha256": "88e4fef88cd2d7b1cc79846bcfad314aecca244eab51731604115f187566d8a0"
+        },
+        {
+          "degrees": [
+            19,
+            11,
+            5
+          ],
+          "terms": 882,
+          "sha256": "5de0e4625b410cade600f9c798ac51cef84fca3ef1c96161ab9da890613e81fc"
+        }
+      ],
+      "partialDenominators": [
+        {
+          "degrees": [
+            7,
+            10,
+            0
+          ],
+          "terms": 28,
+          "sha256": "c34456f0021e7744964aa9940e8a19c2a895a0db0784552b1d084919b4a9ba76"
+        },
+        {
+          "degrees": [
+            7,
+            9,
+            0
+          ],
+          "terms": 28,
+          "sha256": "9527367d6cd9f50c3cb19c0ea1e882a5d83193f348aef411f282ef01536d7c7f"
+        },
+        {
+          "degrees": [
+            6,
+            12,
+            0
+          ],
+          "terms": 30,
+          "sha256": "c54e5d3165d29d3db6724a8bee4f7398b9dacfd7d4bcc87f9c9b61e4f57ade18"
+        }
+      ],
+      "stage": "new_same_MT_original_F6_recurrence",
+      "seconds": 0.18922932399999937
+    },
+    {
+      "power": 3,
+      "partialNumerators": [
+        {
+          "degrees": [
+            30,
+            16,
+            6
+          ],
+          "terms": 2063,
+          "sha256": "a6794f25fd58d65d289a6a02ae6de22a63d2ca0f7e92c3a993b200e11edc7d5a"
+        },
+        {
+          "degrees": [
+            26,
+            14,
+            5
+          ],
+          "terms": 1397,
+          "sha256": "9eb8d0c4ba0347b6e9a99524affb0d30079d4475d402e53a37de63280ced8caa"
+        },
+        {
+          "degrees": [
+            29,
+            16,
+            5
+          ],
+          "terms": 1775,
+          "sha256": "24a300d65c24d3a2488b950b3c38c40bad5761532995a3f4579edd590e4a6050"
+        }
+      ],
+      "partialDenominators": [
+        {
+          "degrees": [
+            15,
+            15,
+            0
+          ],
+          "terms": 104,
+          "sha256": "f19dd338b59728454da42516f9d5754019f5dff6dfa3e51f83c0b2508ac0324d"
+        },
+        {
+          "degrees": [
+            13,
+            13,
+            0
+          ],
+          "terms": 84,
+          "sha256": "2521aa0002273a31b70efae78e028109f99f10330066920086d532b0bbec5e03"
+        },
+        {
+          "degrees": [
+            14,
+            17,
+            0
+          ],
+          "terms": 109,
+          "sha256": "e40b9871b2b1e76979fa4c722410418676b1d5cd772b97cb21c9450613bccb57"
+        }
+      ],
+      "stage": "new_same_MT_original_F6_recurrence",
+      "seconds": 0.2490317900000001
+    },
+    {
+      "power": 4,
+      "partialNumerators": [
+        {
+          "degrees": [
+            36,
+            21,
+            6
+          ],
+          "terms": 3355,
+          "sha256": "ea7ba2d4121fc0d4d9f80cf39764e356d0afdecb3c8b53f80e8eec528ead01c6"
+        },
+        {
+          "degrees": [
+            32,
+            19,
+            5
+          ],
+          "terms": 2399,
+          "sha256": "7551fcde91bbcf7c95391daffc6df16461961abc0ec092bb5b9d5513832823b2"
+        },
+        {
+          "degrees": [
+            35,
+            21,
+            5
+          ],
+          "terms": 2882,
+          "sha256": "4dc7dc98c86ec6c5e3d936724ffade205d86c8ff788fbb9f99a04d60a2ee3120"
+        }
+      ],
+      "partialDenominators": [
+        {
+          "degrees": [
+            21,
+            20,
+            0
+          ],
+          "terms": 198,
+          "sha256": "dfca9a35e030c14fa8c329d8c84bb654234f3fd508bceb99802e81f3672b5df5"
+        },
+        {
+          "degrees": [
+            19,
+            18,
+            0
+          ],
+          "terms": 170,
+          "sha256": "fe9c31e0ff3135aacba316d22535cc049c1a33fd31f634470b0d3385437ca801"
+        },
+        {
+          "degrees": [
+            20,
+            22,
+            0
+          ],
+          "terms": 205,
+          "sha256": "0c3827960ac91dbfa690ee37e4cfa0c99710d75ad176d68626caf6cfc5ab732a"
+        }
+      ],
+      "stage": "new_same_MT_original_F6_recurrence",
+      "seconds": 0.38812571500000104
+    },
+    {
+      "power": 5,
+      "partialNumerators": [
+        {
+          "degrees": [
+            36,
+            21,
+            6
+          ],
+          "terms": 3355,
+          "sha256": "ea7ba2d4121fc0d4d9f80cf39764e356d0afdecb3c8b53f80e8eec528ead01c6"
+        },
+        {
+          "degrees": [
+            32,
+            19,
+            5
+          ],
+          "terms": 2399,
+          "sha256": "7551fcde91bbcf7c95391daffc6df16461961abc0ec092bb5b9d5513832823b2"
+        },
+        {
+          "degrees": [
+            35,
+            21,
+            5
+          ],
+          "terms": 2882,
+          "sha256": "4dc7dc98c86ec6c5e3d936724ffade205d86c8ff788fbb9f99a04d60a2ee3120"
+        }
+      ],
+      "partialDenominators": [
+        {
+          "degrees": [
+            21,
+            20,
+            0
+          ],
+          "terms": 198,
+          "sha256": "dfca9a35e030c14fa8c329d8c84bb654234f3fd508bceb99802e81f3672b5df5"
+        },
+        {
+          "degrees": [
+            19,
+            18,
+            0
+          ],
+          "terms": 170,
+          "sha256": "fe9c31e0ff3135aacba316d22535cc049c1a33fd31f634470b0d3385437ca801"
+        },
+        {
+          "degrees": [
+            20,
+            22,
+            0
+          ],
+          "terms": 205,
+          "sha256": "0c3827960ac91dbfa690ee37e4cfa0c99710d75ad176d68626caf6cfc5ab732a"
+        }
+      ],
+      "stage": "new_same_MT_original_F6_recurrence",
+      "seconds": 0.5780768129999991
+    },
+    {
+      "power": 6,
+      "partialNumerators": [
+        {
+          "degrees": [
+            56,
+            33,
+            6
+          ],
+          "terms": 7890,
+          "sha256": "32aaeab992a0957322e2db4c0409676fdf00bd5650a7c5ade233b913c31db893"
+        },
+        {
+          "degrees": [
+            52,
+            31,
+            5
+          ],
+          "terms": 6024,
+          "sha256": "f58cc650f3c65d5f05d8d2af4593427de7edc5412e905bd27d39ad07a31559d6"
+        },
+        {
+          "degrees": [
+            55,
+            33,
+            5
+          ],
+          "terms": 6778,
+          "sha256": "96f34f82c1a2eae78b9d5e048bf9b12de322f0c955c2d809fcd7f133e0176d01"
+        }
+      ],
+      "partialDenominators": [
+        {
+          "degrees": [
+            39,
+            32,
+            0
+          ],
+          "terms": 620,
+          "sha256": "9125ed67a404321fe9b2adb518696ae13917fc1a43ac75e902dfe2edecd9e96d"
+        },
+        {
+          "degrees": [
+            37,
+            30,
+            0
+          ],
+          "terms": 570,
+          "sha256": "f215a6504f3f6d810bff4c067319270be7e2d90717b400e895ec12a10a60f4a9"
+        },
+        {
+          "degrees": [
+            38,
+            34,
+            0
+          ],
+          "terms": 634,
+          "sha256": "3f67a2a90054b8c25cb48c451074f9077a5b8aedcf1eb6c22c506e7e469b6231"
+        }
+      ],
+      "stage": "new_same_MT_original_F6_recurrence",
+      "seconds": 0.8333944859999995
+    },
+    {
+      "exact": {
+        "encoding": "base64+zlib+json",
+        "payloadSha256": "503bd798a55c546048f1216bece8da431d36b14116873c08e35c35546f99a103",
+        "uncompressedBytes": 866383
+      },
+      "trueOriginalMTRecurrenceThroughPowerSix": true,
+      "allTemporaryRulesHaveOriginalMeanCoefficientIdentities": true,
+      "firstHeadZeroCurveRetained": true,
+      "stage": "complete_new_actual_original_F6_three_coefficient_row",
+      "seconds": 1.1766492640000017
+    },
+    {
+      "rows": [
+        "original_N1",
+        "T_square_z_two_orders",
+        "original_full_value_F6"
+      ],
+      "target": "D=ell*A2-T^2",
+      "allRowsInSameOriginalLocalizedIdeal": true,
+      "formerThreeRowDTargetNotRecomputed": true,
+      "stage": "new_fixed_original_F6_D_target_triple",
+      "seconds": 1.17868816
+    },
+    {
+      "commonDenominator": {
+        "degrees": [
+          78,
+          46,
+          9
+        ],
+        "terms": 20701,
+        "sha256": "bcaacd6d97ce8d32074f742acbb1f8aeb426420d57b14e493ec83ae49497d539"
+      },
+      "threeClearedOriginalRowMultipliers": [
+        {
+          "degrees": [
+            72,
+            42,
+            9
+          ],
+          "terms": 17734,
+          "sha256": "f6a7ca48ce36a1261635c9c6aae8b7589efd3de8ff5550121d1896f7fd9f9616"
+        },
+        {
+          "degrees": [
+            79,
+            44,
+            8
+          ],
+          "terms": 18408,
+          "sha256": "af0f560ff17d0ffa8d1bec32e29a591282c4a42b91c6a4f46ed3325e31605718"
+        },
+        {
+          "degrees": [
+            66,
+            45,
+            5
+          ],
+          "terms": 8970,
+          "sha256": "f57ea287eaad4118bde552f8831a09ea655ddad5ba579131a44cffd2e69cae44"
+        }
+      ],
+      "allThreeFullOriginalCoefficientProductsReturned": true,
+      "temporaryCofactorHeadsNotDeclaredUnits": true,
+      "stage": "new_complete_original_F6_D_target_common_denominator",
+      "seconds": 10.077763425
+    },
+    {
+      "core": {
+        "degrees": [
+          73,
+          41,
+          9
+        ],
+        "terms": 17389,
+        "sha256": "66f463b0123b79423e4e2e1e8564372582a9c8e18f1e98ecf13fec75abbbd73d"
+      },
+      "strippedOnlyActualOriginalUnitsOrNamedHeadChart": [
+        [
+          "Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 1,
+            "sha256": "8dd8e357fda5db239496035d91428fda6f37a10b3ae3fa1e12ea5025cd5bc10b"
+          }
+        ],
+        [
+          "1-Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 2,
+            "sha256": "2c17fc2dd67ecdb4b916bfe4fd93b9e614d9be409236a15192ea37392beb427f"
+          }
+        ],
+        [
+          "ell",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "29957ce1ed0f70d7ffdf2c2030d821271a4f6bcc94e8a37434578bfb846881ca"
+          }
+        ],
+        [
+          "ell",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "29957ce1ed0f70d7ffdf2c2030d821271a4f6bcc94e8a37434578bfb846881ca"
+          }
+        ],
+        [
+          "T0",
+          {
+            "degrees": [
+              1,
+              1,
+              0
+            ],
+            "terms": 3,
+            "sha256": "b65f153af5fb44c485be4c5f7aaab4c9e9c8cbab35894597a4ad2335769ea7f2"
+          }
+        ]
+      ],
+      "encoding": "base64+zlib+json",
+      "payloadSha256": "4b6d2d46c294b77a6b14ba905ceaabfe460719e6bb634cee5d261f5b6e2ec51f",
+      "uncompressedBytes": 785391,
+      "fullPayloadDecodeAndRebuildReturned": true,
+      "actualIdentity": "delta*D = polynomial combination of three actual original-ideal rows",
+      "firstHeadZeroCurveRetained": true,
+      "wholePhiFaceExcluded": false,
+      "entireHeadChartExcluded": false,
+      "noGeometricDOrSnZInverse": true,
+      "noNormInverse": true,
+      "noOldSixRowCofactorRecomputed": true,
+      "noFormerThreeRowDTargetRecomputed": true,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_first_head_original_F6_D_necessary_polynomial",
+      "seconds": 10.659902195999997
+    }
+  ]
+}

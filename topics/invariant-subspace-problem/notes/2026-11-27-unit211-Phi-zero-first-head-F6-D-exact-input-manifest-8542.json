@@ -1,0 +1,197 @@
+{
+  "schema": "isp-first-head-original-F6-row-and-D-exact-fragment-manifest-v1",
+  "producer": {
+    "runId": 46038844297,
+    "jobId": 140641086709,
+    "sourceSha256": "a215ce9efb83f66be9febde3a050f64769a18ac6e11fa3096a69e64e74c929eb"
+  },
+  "priorUnpublishedCombinedJsonSha256": "725cbf630d16b973b4948affb5adae87e8e62a91b9f75baa86f2c1ec4f0528ae",
+  "noSourceReexecution": true,
+  "maximumFragmentBytes": 100000,
+  "records": {
+    "originalF6Row": {
+      "metadata": {
+        "encoding": "base64+zlib+json",
+        "payloadSha256": "503bd798a55c546048f1216bece8da431d36b14116873c08e35c35546f99a103",
+        "uncompressedBytes": 866383
+      },
+      "dataEncoding": "concatenate dataChunk values in listed order before base64 decoding",
+      "concatenatedBase64Sha256": "3c3b3e18c9138f4f2ba07987f5274a47c7c7727590a0e2404ab6788ea17c2216",
+      "concatenatedBase64Characters": 428264,
+      "parts": [
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-01-8542.json",
+          "blob": "f195009fa7750f6949b016f835b0dda28bb94f06",
+          "sha256": "36e215c9b073ebf790a5973d89984ff0727337af91141358259acd5b0280a57d",
+          "bytes": 80099,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-02-8542.json",
+          "blob": "e3455043f43807ffe531ef81ce15b111982a0ecb",
+          "sha256": "e9555e12aabd905e6ec975156f0267281fc2b7665bef1c0a8038051b2bd3e8dc",
+          "bytes": 80099,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-03-8542.json",
+          "blob": "5c68b6db206863b2993a12acaee44c76f9099213",
+          "sha256": "b46edd1f0901636121956f0344665553e44f999253b9d3f35f97c88b2f12ac13",
+          "bytes": 80099,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-04-8542.json",
+          "blob": "49bb10cd9b9d5b0c6e1dab8417e43142acde4654",
+          "sha256": "39abd83e9e4026cf95b8c9e9ad440eab06e186dc10db7f0c900e2a833fb25617",
+          "bytes": 80099,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-05-8542.json",
+          "blob": "496ff4e9e42c5fc5b9f8288b84c859b3b779e105",
+          "sha256": "e5ac24d655f218e6faf285f16726c50a31d10ce0b859c51be038256e362d032e",
+          "bytes": 80099,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-F6-row-exact-part-06-8542.json",
+          "blob": "d6254693047bca3f9de4cecac358cebe6baff104",
+          "sha256": "e8076975273a784d08e3b6d62431c6398d2a97d85da5a06694d8137add23c069",
+          "bytes": 28363,
+          "dataCharacters": 28264
+        }
+      ]
+    },
+    "polynomial": {
+      "metadata": {
+        "core": {
+          "degrees": [
+            73,
+            41,
+            9
+          ],
+          "terms": 17389,
+          "sha256": "66f463b0123b79423e4e2e1e8564372582a9c8e18f1e98ecf13fec75abbbd73d"
+        },
+        "strippedOnlyActualOriginalUnitsOrNamedHeadChart": [
+          [
+            "Q",
+            {
+              "degrees": [
+                0,
+                1,
+                0
+              ],
+              "terms": 1,
+              "sha256": "8dd8e357fda5db239496035d91428fda6f37a10b3ae3fa1e12ea5025cd5bc10b"
+            }
+          ],
+          [
+            "1-Q",
+            {
+              "degrees": [
+                0,
+                1,
+                0
+              ],
+              "terms": 2,
+              "sha256": "2c17fc2dd67ecdb4b916bfe4fd93b9e614d9be409236a15192ea37392beb427f"
+            }
+          ],
+          [
+            "ell",
+            {
+              "degrees": [
+                2,
+                1,
+                0
+              ],
+              "terms": 4,
+              "sha256": "29957ce1ed0f70d7ffdf2c2030d821271a4f6bcc94e8a37434578bfb846881ca"
+            }
+          ],
+          [
+            "ell",
+            {
+              "degrees": [
+                2,
+                1,
+                0
+              ],
+              "terms": 4,
+              "sha256": "29957ce1ed0f70d7ffdf2c2030d821271a4f6bcc94e8a37434578bfb846881ca"
+            }
+          ],
+          [
+            "T0",
+            {
+              "degrees": [
+                1,
+                1,
+                0
+              ],
+              "terms": 3,
+              "sha256": "b65f153af5fb44c485be4c5f7aaab4c9e9c8cbab35894597a4ad2335769ea7f2"
+            }
+          ]
+        ],
+        "encoding": "base64+zlib+json",
+        "payloadSha256": "4b6d2d46c294b77a6b14ba905ceaabfe460719e6bb634cee5d261f5b6e2ec51f",
+        "uncompressedBytes": 785391,
+        "fullPayloadDecodeAndRebuildReturned": true,
+        "actualIdentity": "delta*D = polynomial combination of three actual original-ideal rows",
+        "firstHeadZeroCurveRetained": true,
+        "wholePhiFaceExcluded": false,
+        "entireHeadChartExcluded": false,
+        "noGeometricDOrSnZInverse": true,
+        "noNormInverse": true,
+        "noOldSixRowCofactorRecomputed": true,
+        "noFormerThreeRowDTargetRecomputed": true,
+        "ordinaryISPClaim": false,
+        "stage": "complete_new_first_head_original_F6_D_necessary_polynomial",
+        "seconds": 10.659902195999997
+      },
+      "dataEncoding": "concatenate dataChunk values in listed order before base64 decoding",
+      "concatenatedBase64Sha256": "0524f54553ba80902061c66b271e6f514db8ee16e903e1993c3942bc1ef20778",
+      "concatenatedBase64Characters": 394660,
+      "parts": [
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-01-8542.json",
+          "blob": "443eb1ba9df144d0b079c1c434b5bfa99ae70913",
+          "sha256": "410902649bfc2e8c7d511077ebc7ccf15ca0e8ebed5f0b63790fd5fbe4737aca",
+          "bytes": 80096,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-02-8542.json",
+          "blob": "980908000ea51ebd36e67b83a0db2c8e0b8de7f4",
+          "sha256": "7276b1796de4dd1a457649dadc32c5fbc5f7e7873906dfd19a93fc17102ceaad",
+          "bytes": 80096,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-03-8542.json",
+          "blob": "d5d0dafe0423235fde7bcf63cacac17e8f1d3968",
+          "sha256": "5bab9aa0a1d92a4fa5be256ef32406c238370260682beed396e2c73cdbb42434",
+          "bytes": 80096,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-04-8542.json",
+          "blob": "60f00f6e1eb8455794295136ae8342bb48ce9974",
+          "sha256": "6438bd79f272e1c16b3d42a9a027ce615161c24ad6436d2277a6edc2cf53a312",
+          "bytes": 80096,
+          "dataCharacters": 80000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-first-head-P9-exact-part-05-8542.json",
+          "blob": "c06ac1405029762fc660cfd67dafed2eaa1de528",
+          "sha256": "46b620f70a6281d5db0d002d80ed6d9eb0fadf1127f65d218d122c637eaf8528",
+          "bytes": 74756,
+          "dataCharacters": 74660
+        }
+      ]
+    }
+  }
+}

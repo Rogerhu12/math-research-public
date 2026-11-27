@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi首头完整原F6三系数与D九次必要式](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真实10.754秒全MT递推/新三行BD，P9度73/41/9；保全部首头零及P6/P9共同纤维。
+
 - [h=k两QQ投影的完整共同曲线与剩余基点](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)：J2/P25,3整曲线或两不可约剩余曲线交点，末类不同基点≤39195，全部Q纤维保留。
 
 - [W同S一次关系与权六次例外外F恢复](results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md)：47f实际全身份；L1、H411、G36整零面保留，G36外原F唯一恢复。

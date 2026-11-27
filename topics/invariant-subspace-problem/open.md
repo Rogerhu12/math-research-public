@@ -211,7 +211,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [四头共同零十权全闭](results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md)：883c真0.695秒/41660KiB/0，同两原线det零整兼容只余λ单位，开图同一T,z的60维原mean乘法矩阵返单位。故四个头非零图覆盖整个原Phi；第一头零仍整曲线。
 
-[首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给必要P6度39/20/6；[真实QQ分解](results/R150-appendix-unit211-Phi-zero-first-head-D-core-irreducibility-and-retained-leading-weight-curve.md)付其不可约，λ6头仅剥已付单位后余H19/11、137项，整H0仍保。新a215同MT到T6形成完整原F6行，再以N1/真实歧义/F6新三行返原D，不重放旧cofactor。
+[首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；继续原lambda行模块。
 
 例外权图[真实QQ重数及146覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)只在λ半/H6整原纤维闭后剥真10/2重数，余2011与完整S全xgcd度146。[ψD真实三重数](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)由原QQ342矩阵的18独立核付，但整原纤维模秩138/156未闭，仍≤146不同有序(rho,λ)，不删18度。新a40直接取真QQ rho gcd、原D单位允许的T4及原N1首一z2，≤144维完整原mean/NV环境；唯有整原纤维真排空才使用已证ψ³并重新完整xgcd。旧87/55、C71/29、首头零曲线及个别N/P继续；ed0/879及全部旧失败冻结。
 
