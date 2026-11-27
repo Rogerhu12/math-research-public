@@ -691,3 +691,8 @@ R1081真实run45936209617/job140299891342认证角代数rank23、TrZ²=336288及
 2026-11-27 11:57 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1082纸证原Gaussian近p² Hurwitz系数降为完整短卷积H_p及真正heat横导数，原两primitive/全部carry与coarse斜率尺度齐备。
 继续H_p指定非零及原三挠短障碍；不能从卷积中的低G单位或SS值式盲微分推出目标。
+
+
+2026-11-27 12:04 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1083纸证原有限类型真系数子域、283一次泛块不可能性及4513全部scalar/普通CM输入；root亲读Mercuri–Schoof并与o2独核。
+保j1728全四twists/553粗点、j0全六twists/1点及23cusps；新4513标签继续，不重跑旧283或L′证书。H/open前态逐字归档。

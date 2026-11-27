@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-integral-Hecke-blocks.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-auxiliary4513-transfer.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -35,7 +35,9 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 [R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，完整Fricke+三因子16/24/33、73实嵌入严格L′>0，DLF Appendix Prop8给原全J rank=dim=ρ_Q=73。M256/512bits/严格尾、20.6657秒及全部hash保原文；不重跑，整MW/局部块/aux高度及盘内唯一仍开。
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原p47全部235盘经ℓ283同点筛选仅余8个已定位Q-CM盘，排227盘；run45928658257/job140275928914源e5d0d9d。独立Burnside给279原aux点，完整279标签使图单射，同一个CM点在283约化；47一般j同余模47²，特殊j0/1728为4/3阶。§9新增整个Cp tube的scaled-j解析同构与原非对角支撑/raw坏47配对零；旧R43已使同盘QC项相同。八盘内部排点、aux整高度和全p仍开，full47秩已见R1080；全部pins/hash只消费。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：235原盘仅8Q-CM盘存活，run45928658257/job140275928914；全部279原aux点标签注入，同一CM在47/283约化，特殊47阶4/3保留。§9完整Cp tube的scaled-j同构、原Cartan支撑/raw坏47高度零，R43同盘QC项相同已付；八盘内部/aux整高度/全p仍开，全部pins/hash保原文。
+
+[R1083](results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md)：真实类型子域K23/K48/K16排283一次泛块；4513所有scalar仅j1728，四twists给553粗点，j0纤维1，全部23cusps有理。八CM为六ordinary/二SS；继续完整4513同点标签与原CM高度，不把实际16一次块当MW单位。
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V有限式/phase/两twists已付。R1075闭合原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse单位斜率；good条件仅留global圆单位坐标。原f_N/e及盘内/global排点仍开。
 

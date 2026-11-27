@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：69f057137639cedd601033354c2d896e1863711e**（2026-11-27 11:56 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：c171f3fd9aab8d9ad6644c88be3977b528d81067**（2026-11-27 12:04 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；11:24再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-integral-Hecke-blocks.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-auxiliary4513-transfer.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -22,7 +22,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，精确Fricke+三因子16/24/33、全部73实嵌入L′严格正；无条件rankJ=dimJ=ρ_Q=73。原整MW/aux高度及盘内唯一仍开；20.6657秒、全部pins/hash保结果。
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：run45928658257/job140275928914源e5d0d9d，235原盘经ℓ283完整同点筛选只余8个实际Q-CM盘，排227盘，保全部twists/cusps。Burnside独算#X(F283)=279，与279整标签给全aux注入；同一个CM j在47²（特殊4/3阶）及283同余。§9付整个Cp原tube的scaled-j解析同构、原非对角Cartan支撑避让和raw坏47高度零；旧R43使同盘QC坏项相同。盘内唯一和aux整高度仍开，full47秩见R1080；全部pins/hash保原文。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：run45928658257/job140275928914，原235盘仅8Q-CM盘存活；283完整279标签/Burnside证全点注入。原47²（特殊4/3阶）及283同一点；整个Cp tube原Cartan支撑避让/raw坏47高度零、R43同盘QC坏项相同已付。盘内唯一仍开；全部pins/hash保原文。
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：原全V finite式/phase/两twists已付，degree≤min(R,p−R)；§17付Hasse梯度及8CM first-lift。 [R1075](results/R1075-original-Hurwitz-unit-and-first-cuspidal-slope.md)现证原G_(p−5)=−24B/(7β_Car⁵)于j0，故首forced coarse斜率单位；good仅用于global圆单位基，原f_N/e仍开。
 
@@ -35,6 +35,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 R1062/64–67（[完整索引与原规范](results.md)）：原全cusp格/étale cover及p-only已付，允许非整j；每p盘标签恒定、像O(p^1.5logp)，各盘有D′≤4p^1.5/√3惰性CM代表。保wild coarse/GM/full source及两twists，不推Q-CM；regular cusp单一高次闭点无Runge盈余，原可见商/Weil范围见R1064。
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：R1只剩完整N_ns(p)；p2/5mod9还需小惯性C³。R317还需整j、K=Q(√−3)、σ=1及二/三除法小域同时一致。完整惯性、非整j、变化K、σ非平凡及异小域大导子支路仍开。导子下界非上界；O1/O2或X₁新商即使单独完成也不等于Serre完成。
+
+[R1083](results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md)：真系数域K23/K48/K16独立排283一次泛块；4513全部scalar仅j1728，四twists全1081/25项链给553粗点，j0纤维1。八CM为六ordinary/二SS；正实现完整新aux标签，原CM对数/高度仍开。
 
 ## O1：原同一保留标签
 

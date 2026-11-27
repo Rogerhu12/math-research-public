@@ -317,3 +317,6 @@
 - **R1081（已证明，精确计算）**：[原47角代数与整Hecke块](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)：actual trace rank23、Tr(13R0+4R2)²=336288>0；283完整整Hecke无一维块，4513有16个，原Hodge/Lie自由rank1。run45936209617/job140299891342，8.5768秒；MW/高度首项仍开。
 
 - **R1082（已证明）**：[原Gaussian高Hurwitz短卷积](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)：准确G_(p²−4p−1)=H_p^p/(2δ)，H_p完整卷积与heat横导数同源；两全局primitive、p²误差及原第一forced coarse斜率全付。H_p非零仍开。
+
+
+- **R1083（已证明）**：[原47辅助系数域与完整标量分支](results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md)：真实类型子域排283一次泛块；4513标量准确只在j1728，全部四twists给553粗点，八CM为六普通/二SS。整Hecke准则已由R1081认证；新aux标签/CM高度继续。
