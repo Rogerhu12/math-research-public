@@ -1,14 +1,15 @@
 {
-  "message": "ISP: prove W original value identities and the monic four-generator tower; freeze incomplete ambient expansion",
-  "parentCommit": "f25f0a62fad0c6beb37d14d02c02ff57b7c3113f",
+  "message": "ISP: submit native coefficient arithmetic for ten full original W value rows",
+  "parentCommit": "9625ac0b94de97e8c51dd7b81bcba86b4af77367",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-value-identities-and-monic-four-generator-tower.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-centered-monic-value-tower-positive-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-full-values-ambient-timeout-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-native-four-generator-new-input-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-native-coefficient-full-values-four-generators-8542.py",
+    ".github/workflows/invariant-subspace-w-native-coefficient-full-values-four-generators-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-native-value-returns-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +18,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-w-native-coefficient-full-values-four-generators-8542.yml"
+  ]
 }
