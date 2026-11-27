@@ -6,7 +6,7 @@
 
 ## 规则与同步
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35内存重置后一次复核仍不可用；恢复即真pull。云核至 `59ee1ef553965ba71eceef9f972a2964c59769cb`，非pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，无变。每真pull只读新差异并立刻遵守，至少每小时；活12/13/14每5分钟真pull，末块存实际提交。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35内存重置后一次复核仍不可用；恢复即真pull。云核至 `0268e597b2807b48466ee29d87d8cd7bc9c3504c`，非pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，无变。每真pull只读新差异并立刻遵守，至少每小时；活12/13/14每5分钟真pull，末块存实际提交。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue；每结论普通推，不force。NFF有终端立即rebase重推；云freshHEAD完整合并不冒真pull。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊防重置。令牌仅瞬时CLI。
 
@@ -29,7 +29,7 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终�
 [R717](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md)固定七RN-even64 dyadic/full160图及全R690尾；已证原初点舍入/ρ/Θ/X/Y，157自由core变化后须真重读。
 - [lower](notes/2026-11-27-fixed-fejer-immutable-normal-lower-family.md)、[upper](notes/2026-11-27-fixed-fejer-complete-immutable-point-entry.md)保完整immutable/J/J*链和全部预算。
 - [N4096](notes/2026-11-27-fixed-fejer-N4096-complete-observation-entry.md)192027、[M320](notes/2026-11-27-fixed-fejer-M320-complete-frequency-entry.md)0a5df保各128角色/原110/全部自由量和normal全class。M参数再生器INPUT缺name/路径undefined已按原ab5c修；仅5metadata件，两ready完整step、18runtime及源构造器原字不变，活14不改。
-- [J五基础](notes/2026-11-27-fixed-fejer-J1845-complete-base-inputs.md)729cf保准确双网格/全部482通道/旧7377与原生14753并集、e717全factory/scalar metadata、ca4全recipe/input守卫。17完整lower/upper＋三fullplans已经交付，root接实际公开运行；construction现补ret45完整退存链腾容量。
+- [J五基础](notes/2026-11-27-fixed-fejer-J1845-complete-base-inputs.md)729cf保准确双网格/全部482通道/旧7377与原生14753并集、e717全factory/scalar metadata、ca4全recipe/input守卫。[完整J包](notes/2026-11-27-fixed-fejer-J1845-complete-radial-continuation.md)27件1596418B已刊：17runtime/131角色含原110、3fullplans与4完整再生器。独立159/7argv、407/386读数、48progress，2666582变量全保；原normal整class同1aa、完整共同7377函数在新点重读。root接公开15；construction补ret45完整退存链腾容量。
 - [mean/profile](notes/2026-11-27-fixed-fejer-complete-reference-mean-profile-fees.md)、[准确normal六jet](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)全径向/角/32stage已刊；geometry接N/M完整128源和current布局费用。
 - [closed d606](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)、[R716十二矩](notes/2026-11-27-fixed-fejer-complete-R716-closed-flux-centred-moments.md)、[同场mesh/t](notes/2026-11-27-fixed-fejer-complete-same-field-phase-meshes.md)已刊完整源/参数，future全null。
 solver修stage逐次整点拷贝真实重复，入口/出口全word和全部数值方法/预算保持；没有实测提速。另接已有统计自然返回处真实残差/violation/accepted进度，各自绑定point/state，不额外F/J或混点。
@@ -42,9 +42,8 @@ mesh只真13final或完整required-angle snapshot同点，缺角由原32-stage�
 
 ## 旧终态与容量
 
-[10](notes/2026-11-27-run10-actual-terminal-cancelled-with-unreturned-science.md)45972294636/1、job140415391810实际cancelled（15:06:33更新），只1–4返0；science5/pure/mean/13final/typed未返，原因未知。末真pull15:04:42→0245973d50a7e6ffd8f4e568009712fcc6062646、双README无变；原92609Bqueue/fullargv/slot保旧H/note，旧e711/081不混新g。
-[11](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)warm0、input词守卫返1后H超限；全log59783B/七源/99角色保，不松guard。03–09所有失败/typed/发现序/unknown保此前全链，iteration_limit不当驻点。
-[ret43](notes/2026-11-27-four-legacy-generated-records-retention-43.md)、[ret44](notes/2026-11-27-retention44-legacy-exact-raw-retention.md)全源/输入/argv/消费者恢复保；44原字155846f67d9fff97adba79dfb57ddb1cf16ade78、265身份/14argv/六plans齐，唯一未知wholeSHA仍null。ret25/33–42全链及Nelder保；ret45须全证明记录后才退旧raw，每次fresh树核≤200MB。
+[10全终态](notes/2026-11-27-run10-actual-terminal-cancelled-with-unreturned-science.md)：45972294636/1 cancelled，仅1–4返0，science/pure/mean/13final/typed未返、原因未知；末真pull15:04:42→0245973d50a7e6ffd8f4e568009712fcc6062646双README无变。全92609B队列/参数/slot保旧H/note，e711/081不混新g。[11](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)输入词守卫返1后H超限，全log/七源/99角色保，不松guard。03–09失败/history/typed/发现序与unknown全链保，iteration_limit不是驻点。
+[ret43](notes/2026-11-27-four-legacy-generated-records-retention-43.md)/[ret44](notes/2026-11-27-retention44-legacy-exact-raw-retention.md)保完整源/输入/参数/消费者恢复；44固定155846、265身份/14argv/六plans全，未知wholeSHA仍null，ret25/33–42/Nelder保。ret45全记录后才退旧raw；fresh树须≤200MB。
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
