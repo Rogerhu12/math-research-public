@@ -1,13 +1,14 @@
 {
-  "message": "ISP: prove global monic Y quadratic and full original linear returns on all remaining W",
-  "parentCommit": "3e6d3884296fc772ec144ef51dffd3041cd11a6b",
+  "message": "ISP: submit primitive same-physical-D identities in the two general three-column spans",
+  "parentCommit": "d46f14b6c237fec1ee24ccb906e5857a0db05177",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-global-monic-Y-and-original-linear-system.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-Y-original-linear-system-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-LS-primitive-D-new-input-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-LS-primitive-original-D-three-column-cofactors-8542.py",
+    ".github/workflows/invariant-subspace-general-ls-primitive-original-d-three-column-cofactors-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +17,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-general-ls-primitive-original-d-three-column-cofactors-8542.yml"
+  ]
 }
