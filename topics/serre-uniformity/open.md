@@ -31,11 +31,11 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原full47无条件rank=dim=ρ_Q=73，全部16/24/33因子L′认证只消费。[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)给真整Hecke/Hodge，4513有16一次块；[R1089](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)run45941243499/job140315814260证#J mod283/4513=70/551，Bq整可逆，已刊Φ47指数46。CM首矩/MW深度/高度仍开。
+[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原full47无条件rank=dim=ρ_Q=73，全部16/24/33因子L′认证只消费。[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)给真整Hecke/Hodge，4513有16一次块；[R1089](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)run45941243499/job140315814260证#J mod283/4513=70/551，Bq整可逆，已刊Φ47指数46。CM首矩与全MW格已由R1093付清，真实高度仍开。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原235盘只余8Q-CM盘，283全279标签图注入；whole Cp tube原Cartan支撑避让/raw坏47项零与R43同盘QC已付。[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)run45938730258/job140307865125给4513独立5453点=5453完整tags，八CM同点转移，保scalar553粗点/全twists/cusps及R36零坐标。盘内唯一仍开。
 
-[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)/[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角K23×K48×K16、完整fixed-cycle与Zps类和已付。[R1088](results/R1088-certified-principal-fixed-cycles-and-two-CM-integral-span.md)run45941481763/job140316562143证两原Z2/Z3的双CM系数矩阵在全部4513 cusp块整可逆；实际d2,d3与u1728,u0生成同一T模，两组log共同深度相同。3.990秒；原CM值/高度单位仍开。
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)/[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角K23×K48×K16、完整fixed-cycle与Zps类和已付。[R1088](results/R1088-certified-principal-fixed-cycles-and-two-CM-integral-span.md)run45941481763/job140316562143证两原Z2/Z3的双CM系数矩阵在全部4513 cusp块整可逆；实际d2,d3与u1728,u0生成同一T模，两组log共同深度相同。3.990秒；原CM全格见R1093，高度仍开。
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V有限式/phase/两twists已付。R1075闭合原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse单位斜率；good条件仅留global圆单位坐标。原f_N/e及盘内/global排点仍开。
 
@@ -47,13 +47,13 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
-[R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
+[R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：原六ordinary CM的完整Bq/ST首矩与全q+1根、Mahler尾、下降/coarse重数已付；Gaussian实际全块单位见R1093，其余点来源及真实高度继续。
 
-[R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。
+[R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际全28块值与整MW结论见R1093。
 
 [R1090](results/R1090-original-weight-one-integral-Hodge-source.md)：run45946046378/job140330877264认证原Reynolds整格rank95、全部23留数rank22及Hodge核73，数学4.448秒；只七组候选。后继固定95源并核hash，继续真实Hecke坐标及R1091原CM首矩/高度。
 
-[原CM首log请求](notes/2026-11-27-full-p47-Gaussian-CM-log-method.md)：固定已认证95来源/五hash，新建同一73基的Hecke桥，再以单P的47-division Hensel及完整2208点读R1091；全28块含16一次块，1800秒/reserve60，尚待执行回执。
+[R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md)：run45947023569/job140333947037，65.967秒；原Gaussian q⁻¹log(Bqu4)全28块非零，M=T4513·u4且logM=4513Lie，全73维整MW格已付。两原fixed类共同生成40维cusp格；真实高度/八盘内部仍开。
 
 ## O1：全p同一真实本原标签的临界非零
 

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：9e7aba99d02e21172d969a3daa05de726c10b5ea**（2026-11-27 13:38 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：bd0e9088f9ad1076d008c9a82d0081248ecbd1e0**（2026-11-27 13:49 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；13:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -18,11 +18,11 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 ## O0：不能省略的全局覆盖
 
-[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原full47无条件rank=dim=ρ_Q=73，全部16/24/33因子L′认证只消费。[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)给真整Hecke/Hodge，4513有16一次块；[R1089](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)run45941243499/job140315814260证#J mod283/4513=70/551，Bq整可逆，已刊Φ47指数46。CM首矩/MW深度/高度仍开。
+[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原full47无条件rank=dim=ρ_Q=73，全部16/24/33因子L′认证只消费。[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)给真整Hecke/Hodge，4513有16一次块；[R1089](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)run45941243499/job140315814260证#J mod283/4513=70/551，Bq整可逆，已刊Φ47指数46。CM首矩与全MW格已由R1093付清，真实高度仍开。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原235盘只余8Q-CM盘，283全279标签图注入；whole Cp tube原Cartan支撑避让/raw坏47项零与R43同盘QC已付。[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)run45938730258/job140307865125给4513独立5453点=5453完整tags，八CM同点转移，保scalar553粗点/全twists/cusps及R36零坐标。盘内唯一仍开。
 
-[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)/[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角K23×K48×K16、完整fixed-cycle与Zps类和已付。[R1088](results/R1088-certified-principal-fixed-cycles-and-two-CM-integral-span.md)run45941481763/job140316562143证两原Z2/Z3的双CM系数矩阵在全部4513 cusp块整可逆；实际d2,d3与u1728,u0生成同一T模，两组log共同深度相同。3.990秒；原CM值/高度单位仍开。
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)/[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角K23×K48×K16、完整fixed-cycle与Zps类和已付。[R1088](results/R1088-certified-principal-fixed-cycles-and-two-CM-integral-span.md)run45941481763/job140316562143证两原Z2/Z3的双CM系数矩阵在全部4513 cusp块整可逆；实际d2,d3与u1728,u0生成同一T模，两组log共同深度相同。3.990秒；原CM全格见R1093，高度仍开。
 
 [R1062–71](results.md)：原全cusp/étale/p-only覆盖、同盘恒定标签与实际good角色global唯一已付；forced-good维数Ω(p/logp)，无regular/Vandiver。每盘有D′≤4p^1.5/√3惰性CM代表，不推Q-CM；小aux非零迹来源仅五Q-CM，完整迹零支路仍开。原全V/phase/两twists/野coarse与regular单cusp无Runge保结果及逐字前态。
 
@@ -30,11 +30,11 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
 
-[R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。
+[R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际全28块值与整MW结论见R1093。
 
 [R1090](results/R1090-original-weight-one-integral-Hodge-source.md)：run45946046378/job140330877264认证原Reynolds整格rank95、全部23留数rank22及Hodge核73，数学4.448秒；只七组候选。后继固定95源并核hash，继续真实Hecke坐标及R1091原CM首矩/高度。
 
-[原CM首log请求](notes/2026-11-27-full-p47-Gaussian-CM-log-method.md)：固定已认证95来源/五hash，新建同一73基的Hecke桥，再以单P的47-division Hensel及完整2208点读R1091；全28块含16一次块，1800秒/reserve60，尚待执行回执。
+[R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md)：run45947023569/job140333947037，65.967秒；原Gaussian q⁻¹log(Bqu4)全28块非零，M=T4513·u4且logM=4513Lie，全73维整MW格已付。两原fixed类共同生成40维cusp格；真实高度/八盘内部仍开。
 
 ## O1：原同一保留标签
 

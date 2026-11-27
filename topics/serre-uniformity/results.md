@@ -346,3 +346,6 @@
 
 
 - **R1092（已证明）**：[原六个三挠点的精确Cartier值](results/R1092-original-six-three-torsion-Cartier-values.md)：同一FM/Miller截面与实际étale商给aH_p(432)=−a_p(E*)，原微分/二次扭曲与Qζ9⁺二挠域保全；p2/5mod9全六值单位，短原点两jet仍开。
+
+
+- **R1093（已证明，精确计算）**：[原Gaussian CM生成完整MW整格](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md)：run45947023569/job140333947037，65.967秒，原首log在全部28个4513块非零；故M=T·u1728、logM=4513Lie，全73维饱和，原两fixed类共同生成全部cusp格。真实高度与盘内排除仍开。
