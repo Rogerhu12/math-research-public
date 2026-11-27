@@ -1,20 +1,16 @@
 {
-  "message": "ISP: return actual D in the first original Phi head ideal and preserve all head zero curves",
-  "parentCommit": "78434395d818a2ed53f040ad37debcbf91d48b9a",
+  "message": "ISP: return three original monic F norms and all five new constant-column minors",
+  "parentCommit": "d52babbed995cdfb82d9ae02dce9d6eadd17746d",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-return-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-quadratic-head-actual-D-core-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-actual-D-core-factor-lambda-head-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-first-head-actual-d-core-factor-lambda-head-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-nonzero-same-original-four-polynomials-8542.py",
-    ".github/workflows/invariant-subspace-collision-delta-nonzero-same-original-values-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-first-head-D-and-collision-nonzero-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-first-head-D-and-collision-nonzero-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-monic-F-norm-five-original-three-column-cofactors.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-monic-F-norm-original-three-column-minors-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-entire-original-NV-pure-T-quintic-three-column-minors-8542.py",
+    ".github/workflows/invariant-subspace-w-entire-original-nv-pure-t-quintic-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-three-Theta-five-cofactors-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,7 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-first-head-actual-d-core-factor-lambda-head-8542.yml",
-    "invariant-subspace-collision-delta-nonzero-same-original-values-8542.yml"
+    "invariant-subspace-w-entire-original-nv-pure-t-quintic-8542.yml"
   ]
 }

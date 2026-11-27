@@ -249,3 +249,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 ## Phi 首头图的真实 D 原理想返回（8542，2026-11-28）
 
 [完整原D返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)：前三原mean的真实二次头非零时，用伴随矩阵生成三条规则，保N1余行及两条真实乘法歧义；全系数取消给BD∈原四式理想。真D非零迫参数P6(u,Q,λ)=0，度39/20/6、3101项已精确保存。首头零整曲线仍保留，λ首项未付；新6ca只读取已存core作真正λ头/完整QQ分解，不重放DAG。同时新6b21在已闭碰撞Delta0之后，用同一NV恢复z与P1恢复f，返回全四原残式，保所有新λ/权头零。
+
+## W 三个原Θ与五个必要式完成（8542，2026-11-28）
+
+[70603实际完整返回](results/R150-appendix-unit211-W-monic-F-norm-five-original-three-column-cofactors.md)：9.183515221秒/117764KiB/0，原Θ在未约化多项式恒等、q3真迹及五cofactor三列均全乘回；余λ度13/13/13/10/10。五λ头仍非恒定，完整原个别N/P/NV约束继续，不作空性/有限性推断。新da64只核整原N4的C5+Phi·f·C4=m·Phi·Q·M·ell²·Vlow，再取真纯T五次/已付头及三个新余子式，180秒/4GiB首次执行。
