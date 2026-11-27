@@ -439,3 +439,5 @@
 
 - [SREG：同一tail选解的更高正则性与局部唯一性](results/R119-supplement-higher-regularity-of-selected-tail-and-local-uniqueness.md)：22新有理/指数比较成。原h_n1856/6396整界插值得全部整数≤3121连续选择，实际E2960<2^-49999998；真实零residual极限经全proxy/mean/far低阶operator极限付DF priori，E20←Z1794系数2^16777216，64..1164窗保loss1734/bg1796。固定gamma及seedΓ2的E1856半径2^-49000000局部唯一，完整吸收<2^-7056957；没有γ C1/rough-source onto/fullcore结论。下一实际Dγforcing另保Γ2/首补偿/metric/ref/mean。
 
+
+- [GGB：真实principal gauge的明确低预算与完整phase constant](results/R144-supplement-actual-principal-gauge-budget-with-full-phase-constant.md)：10新有理比较成。消费原true H三导完整界，g0逆二导<9/2、三导<1280、u0′H2<1281，非constant u0 A2预算<6406；独立H3-radius1后<6410，故可用L8192。PCT/PSC全阶证明可按非constant displacement norm细化，实际g/完整E mean/constant ξ及g′α方向/E′a都不投影，原pin文件不改；与CP真实邻域交集非空，仍须iteration保H3门。

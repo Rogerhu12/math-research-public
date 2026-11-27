@@ -164,8 +164,8 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 | 原alpha/Θ | ASR45914639857全2048/2目标完成，但实际eα∞≈7.95e220/eα2≈3.47e220，矩形复幂包裹所致，不授可闭合精度。全SHA/尾/旧失败保HANDOFF。原OT首次45924861985已启动，exact signed96×2240不消费巨费，10scalar诚实保巨界；UDR新unit-disk与全无限IR联合乘积误差proof/pure已推，actual owner续写；不重ASR两个目标。TQC整4carrier→11球strict square未actual；BW/BR实际暂待新误差输入，原实现及全means/fullSchur不删。 |
 | strictν相位 | NP/NH/PO/APA/ASB既成锁，物理幅度(−.006275,−.006264)/high97<5.330e−5等全旧球保。[APHI](results/R147-supplement-actual-nonzero-phase-border-of-the-strict-parameter-particular.md)45915169627全6/6 rc0，131germs/1572polys/2545新交片与NP4whole数组全核；全球重组phase(.038736784,.038768096)、逆<25.82、幅度比(−.161991,−.161576)可行消元。原mean/fulltail/失败保，PP保完整regular/nonmeanphase/E′a作准确rank-one消元；CP明示邻域给1/60<S<3/50，仅PD.7候选，fullregular Schur/height仍独立。原TC trial候选P96首run45926971089已启，真实PDE修正未冒齐。 |
 | 完整高图 | DC/DB/DG/IL/IR/DT/TM/TP/SDI whole锁，C^-1 H−1/2≤1、H−1<5/3、H−4/3<5/2、原J homogeneous<2^-449。巨大finite complement、实际6/56/truephysical96、两mean/height/ν/phase及原normalizers不删。 |
-| 非线性高度 | TH/UH/DH/RP原low Hessian、WH同world独立ports/physicalheight H−3二阶≤2^100保。WT全部Hn height一二阶/余项已付；RPT真实两ray全部Hn return已付。新PCT付raw E全部Hn Hessian和PD当前左归一row背景一导，四导方向buffer、单B_{n+2}+G_{n+1}，独立G2≤L；七项δrow/means/E′a保，非线性E不改E/J。PSC已付实际physical完整secant、独立腰trace/mean，低一阶23/混合Hessian3000及全角阶；cap图/full inverse/可求和迭代待。 |
+| 非线性高度 | TH/UH/DH/RP原low Hessian、WH同world独立ports/physicalheight H−3二阶≤2^100保。WT全部Hn height一二阶/余项已付；RPT真实两ray全部Hn return已付。新PCT付raw E全部Hn Hessian和PD当前左归一row背景一导，四导方向buffer、单B_{n+2}+G_{n+1}，GGB另付实际L8192（独立H3-radius1+CP C1，norm非constant但全相位保）；七项δrow/means/E′a保，非线性E不改E/J。PSC已付实际physical完整secant、独立腰trace/mean，低一阶23/混合Hessian3000及全角阶；cap图/full inverse/可求和迭代待。 |
 
 最终仍须同一态H1/fullmean/true residual0/wholeC0、NG入口、全部B/C/Cmean/腰/height/holonomy/位置周期、单一worldframe/regularcaps。真正完成后才一次冻结ν*/Γ*/η/metric并用第1节几何余量。每pull核两README差异、至少每小时；读过SHA/私库进行中状态见HANDOFF。
 
-BR/PX/PP/CP/RPT/OX/LG/PCT/PSC/RG/LV/PRN/UDR/SREG的新完整proof、实际范围和source/public身份统一见[结果目录](results.md)及HANDOFF，不由有限signed配对补出未观察方向。
+BR/PX/PP/CP/RPT/OX/LG/PCT/PSC/RG/LV/PRN/UDR/SREG/GGB的新完整proof、实际范围和source/public身份统一见[结果目录](results.md)及HANDOFF，不由有限signed配对补出未观察方向。
