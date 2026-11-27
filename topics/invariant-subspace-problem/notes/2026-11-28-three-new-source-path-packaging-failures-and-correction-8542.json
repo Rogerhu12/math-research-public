@@ -1,0 +1,53 @@
+{
+  "schema": "isp-0900-three-source-path-packaging-failure-v1",
+  "dateAsiaTaipei": "2026-11-28",
+  "responsibility": "Root publication placed three unchanged source blobs at the topic root while their declared workflow paths were in notes.",
+  "preparedSource": "6375a8bda3c619d086b979109624abd2c9afa7a4",
+  "publishedWrongPathCommit": "f16d9c5915e362d828c50d6feb43e49bb24c6b0b",
+  "firstEntries": [
+    {
+      "run": 46076648438,
+      "job": 140765823938,
+      "errors": [
+        "fatal: path 'topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-K7-open-physical-lambda-original-three-column-projection-binding-corrected-8542.py' does not exist in 'f16d9c5915e362d828c50d6feb43e49bb24c6b0b'",
+        "##[error]Process completed with exit code 128."
+      ],
+      "scientificReceiptPresent": false,
+      "actualScientificStagesPresent": false
+    },
+    {
+      "run": 46076646594,
+      "job": 140765817594,
+      "errors": [
+        "fatal: path 'topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-K7-last-cubic-original-QQ-return-8542.py' does not exist in 'f16d9c5915e362d828c50d6feb43e49bb24c6b0b'",
+        "##[error]Process completed with exit code 128."
+      ],
+      "scientificReceiptPresent": false,
+      "actualScientificStagesPresent": false
+    },
+    {
+      "run": 46076644507,
+      "job": 140765812946,
+      "errors": [
+        "fatal: path 'topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s1-first-minor-remaining-chambers-squares-8542.py' does not exist in 'f16d9c5915e362d828c50d6feb43e49bb24c6b0b'",
+        "##[error]Process completed with exit code 128."
+      ],
+      "scientificReceiptPresent": false,
+      "actualScientificStagesPresent": false
+    }
+  ],
+  "correction": {
+    "source": "f39fde534208615014aa4312c4662f6ca191be78",
+    "actualPublishedCommit": "22e753773375efc483000ff580592e173f000583",
+    "sourceBlobsChanged": false,
+    "allThreeSourcesMovedToDeclaredNotesPaths": true,
+    "misplacedCopiesDeleted": true,
+    "resourceLimitsChanged": false
+  },
+  "mathematicalFailure": false,
+  "firstScientificRuns": {
+    "k7Cubic": 46076745817,
+    "s1RemainingSquares": 46076743875,
+    "k7BindingCorrected": 46076747693
+  }
+}
