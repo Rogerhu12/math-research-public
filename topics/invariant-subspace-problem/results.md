@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W-G36整个高1134原有限代数排除](results/R150-appendix-unit211-W-G36-entire-high1134-original-finite-free-exclusion.md)：31新整域原108×56满列，合旧块解析升阶/坏点新四次，完整有限自由与两次Nakayama保所有重数并升至QQ；低61另行保留。
+
 - [六独立正权整个出生一尖锐half首末边](results/R271-appendix-six-independent-positive-weights-birth-one-sharp-half-first-last-edges.md)：完整六维精度的五阶特征系数与33正均值差支付整个五维源；真实2×2逆证half尖锐，七位明确121/240说明常数范围。
 
 - [碰撞P3原Gamma剥除与完整66参数覆盖](results/R150-appendix-unit211-collision-P3-original-Gamma-deflation-and-complete-66-cover.md)：同点真实单位Gamma²降四原式，固定Sylvester身份跨临时主元零、完整三维范数与chart保全域；P支≤198、当前总计≤39393不同λu，原Q纤维仍开。

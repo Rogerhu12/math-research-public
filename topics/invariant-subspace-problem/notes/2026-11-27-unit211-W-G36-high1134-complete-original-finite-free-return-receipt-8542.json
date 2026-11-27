@@ -1,0 +1,1946 @@
+{
+  "schema": "isp-whole-G36-high1134-original-finite-free-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-27",
+  "runId": 46049260859,
+  "jobId": 140676210096,
+  "sourceGitBlob": "d13436079d00b62c913b3b4d88f5dc04673e9ddc",
+  "sourceSHA256": "7a602ac1a3e91a86764fa563008cf8b9e1c597c29f39551910b3dca65aff25af",
+  "actualDriver": {
+    "elapsed_seconds": 85.534334059,
+    "max_child_rss_kib": 124504,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e3b8d580c512471a68ba32b3af2e9f108be921bb",
+        "before": "549b3305fae3e440ec47aef73f7e6069d0f1cb5b",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T18:24:56.813247+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46049260859",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "549b3305fae3e440ec47aef73f7e6069d0f1cb5b",
+    "source_exit_code": 0,
+    "source_git_blob": "d13436079d00b62c913b3b4d88f5dc04673e9ddc",
+    "source_sha256": "7a602ac1a3e91a86764fa563008cf8b9e1c597c29f39551910b3dca65aff25af",
+    "stdout_bytes": 99395,
+    "stdout_sha256": "be92d8f2643eca88052f0438d26476f6154b5f515c27e289a6c2ba00a81be684",
+    "stop_reason": null
+  },
+  "completeMathematicalReturn": {
+    "stage": "new_G36_high1134_entire_original_finite_free_return_finished",
+    "sourceSHA256": "7a602ac1a3e91a86764fa563008cf8b9e1c597c29f39551910b3dca65aff25af",
+    "priorGoodPrimeAndQQPartitionRun": 46046219647,
+    "prime": 1009,
+    "QQHighCover": {
+      "degree": 1134,
+      "bytes": 684025,
+      "sha256": "2143f3b89e4bd748ddb796cc5aaa4f0f3a9259a89afd410cf97c9f44a6dfdb94"
+    },
+    "remainingExactLow61Cover": {
+      "degree": 61,
+      "bytes": 1801,
+      "sha256": "3f6d0d88becc49ec7aabc1343e801516576d98921bdbd5f01b818c0ae0e4f83e",
+      "coefficients": [
+        "697517510287142420480",
+        "16633342662151057178624",
+        "1213848272021743636316160/7",
+        "7696599226434724573478912/7",
+        "5216439909747276573048832",
+        "156470845354525342325276672/7",
+        "653750043004639926124806144/7",
+        "2472195774774742833847861248/7",
+        "7700978287600728332272926720/7",
+        "18761235715853644799890423808/7",
+        "34404439988962189206727163904/7",
+        "43653361207453933813907849216/7",
+        "25018652315179718439977615360/7",
+        "-40604478313554283021004177408/7",
+        "-21027450560901590643606814720",
+        "-251898169851078091868821520384/7",
+        "-294144897305284196116042088448/7",
+        "-237866735167696271322407501824/7",
+        "-101950897461777350285821214720/7",
+        "49941108290658060935353597952/7",
+        "152292648525932307252628160512/7",
+        "25279512946326084665523109888",
+        "140133976728646699309540409344/7",
+        "79949094566746093140784738304/7",
+        "4102576213104315681514528768",
+        "-377470654564497955356064256/7",
+        "-10151852518106502564120062592/7",
+        "-9485257612198970416619347840/7",
+        "-5793221629787736511859991568/7",
+        "-2691690671434026989934293288/7",
+        "-971750588281880498300553518/7",
+        "-256455331834368123204630537/7",
+        "-19330843768975338865688785/4",
+        "10774743685189863819640705/7",
+        "82584950803511780760241859/56",
+        "157178384754291889498272439/224",
+        "57766531803034666040366391/224",
+        "18031364238797399065673291/224",
+        "19628704913573165559013859/896",
+        "2302529456162197892421087/448",
+        "15794043069619841662101/16",
+        "239534275600914740842187/1792",
+        "14567346228446650174271/3584",
+        "-7489741399792154160557/1792",
+        "-381856958380063433573/256",
+        "-156298349871782252133/512",
+        "-18399222996261430705/448",
+        "-10567817311702248879/3584",
+        "116427964855417699/896",
+        "235226196081126505/3584",
+        "28651889718702247/3584",
+        "844436068176065/3584",
+        "-17595764766887/256",
+        "-1383508658505/128",
+        "-714103580131/1792",
+        "19989880457/224",
+        "7893077313/448",
+        "26974685/16",
+        "1634293/16",
+        "28004/7",
+        "2619/28",
+        "1"
+      ]
+    },
+    "earlier12ReducedFactorsNotRecomputed": true,
+    "originalIndex10NewV8PointSourceSHA256": "b51ae78d55e515b3ae0723f844e61017403e72e6e32c9876bbe24a33a04acccf",
+    "isolatedNativeExecutionReceipts": [
+      {
+        "kFactorIndex": 12,
+        "kDegree": 3,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.5757446209999983,
+        "stdoutBytes": 1613,
+        "stdoutSHA256": "329471025a91e47453a97d219b10a9f0268034a9bc45c82d6c92c730442643f0",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 13,
+        "kDegree": 3,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.5738863500000022,
+        "stdoutBytes": 1616,
+        "stdoutSHA256": "7849404dc8dc986498da63951d85aa80366f1a6130c52ede57a816b8018ae6a6",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 14,
+        "kDegree": 3,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.5213566010000008,
+        "stdoutBytes": 1617,
+        "stdoutSHA256": "ffad4d0ea4ed418dcba02fa0d1a3f9cbd06b23932767cd83dc91e8ae59ddb414",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 15,
+        "kDegree": 3,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.5151334620000014,
+        "stdoutBytes": 1617,
+        "stdoutSHA256": "df6c80f8a4bcdff530072a9e08b140dbed1316f2ea89869049768d8a3351aec7",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 16,
+        "kDegree": 3,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.512210662000001,
+        "stdoutBytes": 1617,
+        "stdoutSHA256": "bac8a1a7bdf8c8572d9937179977307c1f6517a0b3721c25596bbd9bc3ebd7c2",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 17,
+        "kDegree": 3,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 2.659050490999995,
+        "stdoutBytes": 3130,
+        "stdoutSHA256": "4ea68dcd240d4bd2e6f3a6c5f98ec9eb5afe86ae9e90ab9606c4c43459b03817",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 18,
+        "kDegree": 4,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.5384999660000034,
+        "stdoutBytes": 1617,
+        "stdoutSHA256": "ea20aa513e09aab7d37b10319ecaa017373e83169f3cdacafb2a8cf660496cfa",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 19,
+        "kDegree": 4,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.5457983659999996,
+        "stdoutBytes": 1616,
+        "stdoutSHA256": "a4b35d3134a67dbc9ae3fdf715946ecf2f58727ab366261d554541afa30c62d2",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 20,
+        "kDegree": 4,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.543994278999996,
+        "stdoutBytes": 1617,
+        "stdoutSHA256": "d228e4bf3eba6a422efd66cea37a12972edd534c272b0b2f32f533476671c54b",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 21,
+        "kDegree": 6,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.6502024620000029,
+        "stdoutBytes": 1618,
+        "stdoutSHA256": "da940b08e06008d2398ca471852d904475eabc8e214b0139a3e3e13e408f0850",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 22,
+        "kDegree": 7,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.710412054999999,
+        "stdoutBytes": 1619,
+        "stdoutSHA256": "4d0ef635b2c81813c169a4814cc239237ea5c37658acd796f0ecc2b914b0cd6c",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 23,
+        "kDegree": 7,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 2.8028366590000005,
+        "stdoutBytes": 3347,
+        "stdoutSHA256": "618b42989427bfbd60eab9ced9ba6f571915051b5c13241c0585b67ac776fd76",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 24,
+        "kDegree": 9,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.7432421119999972,
+        "stdoutBytes": 1619,
+        "stdoutSHA256": "a7d5a73a864bae0fcb5a311ff203b43130495df53015017dd13dae1ef168843d",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 25,
+        "kDegree": 12,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.8121290249999973,
+        "stdoutBytes": 1617,
+        "stdoutSHA256": "162582e35516c02c12bf5b8e994669365d150ab871cd3a6d8f63af7fff060f05",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 26,
+        "kDegree": 12,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.8174491979999985,
+        "stdoutBytes": 1622,
+        "stdoutSHA256": "34cd4d0ac6adb2d2f250ce67b03d510ef701ac07bae5fc8418be0c10044fe1e4",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 27,
+        "kDegree": 16,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.903847466000002,
+        "stdoutBytes": 1624,
+        "stdoutSHA256": "373f7b68bc7ec618a94c1e5e5a7da6048f6f77020987bfd562943c0311092128",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 28,
+        "kDegree": 16,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.9063588469999928,
+        "stdoutBytes": 1624,
+        "stdoutSHA256": "dffb1b645ea645a08aece40295d998086acbe318f2ce79af09edec4b5bec4b50",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 29,
+        "kDegree": 16,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 1.9011055470000002,
+        "stdoutBytes": 1624,
+        "stdoutSHA256": "80d277f495332d9627f331655d43fea6119ffc73e0f4df2c600e9cb9b60931e9",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 30,
+        "kDegree": 24,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 2.138539893000001,
+        "stdoutBytes": 1622,
+        "stdoutSHA256": "ef46dfa3334ced1ed0d643fe306ec0a2b821276bb1fd042a304f6a3e5787ea47",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 31,
+        "kDegree": 24,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 2.1427320019999883,
+        "stdoutBytes": 1621,
+        "stdoutSHA256": "0a95b167f598c923b02e00a2f781302e85295d7589b3cde2725ae00a21b88e1d",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 32,
+        "kDegree": 27,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 2.263211522000006,
+        "stdoutBytes": 1623,
+        "stdoutSHA256": "d93e07744f6549e4030d28799ce6619eff0d44288a29289c99b786a0315f113c",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 33,
+        "kDegree": 29,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 2.2871844249999924,
+        "stdoutBytes": 1623,
+        "stdoutSHA256": "f29e58a4019ff2f527f1a73253e43f78007f42b515b5f06f8e390acaba325e0c",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 34,
+        "kDegree": 29,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 2.3190815319999984,
+        "stdoutBytes": 1623,
+        "stdoutSHA256": "36c1c2ce6709d218fa93b9bb4fe459b574bb46595e8ceabfd1f1170ce2596eab",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 35,
+        "kDegree": 47,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 2.8879232350000024,
+        "stdoutBytes": 1623,
+        "stdoutSHA256": "f40ea6df405d15672972e03ae0e0c5c13415e07f5b612a83d809d1d47c8f29a5",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 36,
+        "kDegree": 59,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 3.2470155330000097,
+        "stdoutBytes": 1625,
+        "stdoutSHA256": "f08756c496d8e7ce34705d9335d68fb1e87c9747f180034f8f88ba59250d918d",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 37,
+        "kDegree": 68,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 3.5913403340000087,
+        "stdoutBytes": 1621,
+        "stdoutSHA256": "0bf1cb9a4ebc47bf0f91ea23ed3c2f860e131bc20e382fac5478c211b30281aa",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 38,
+        "kDegree": 83,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 4.146514164999999,
+        "stdoutBytes": 1624,
+        "stdoutSHA256": "4732b1af23db93eee02c746456ccf4bfd1749df821edc67dedda8567f701c4cd",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 39,
+        "kDegree": 89,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 4.400395924999998,
+        "stdoutBytes": 1624,
+        "stdoutSHA256": "7e32ddf943ca5468b351a2d1341897170aef973fa045004a3737f7d36cf4f0ee",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 40,
+        "kDegree": 116,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 5.412545531000006,
+        "stdoutBytes": 1629,
+        "stdoutSHA256": "f23a6872ae2a40a3c0901b8e5743afc7a2014336e1c4c05feb3a6b58b8a52190",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 41,
+        "kDegree": 175,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 8.205861714999998,
+        "stdoutBytes": 1628,
+        "stdoutSHA256": "268c798af6a5ab5c0a4d568886bf7e50e4298dbf29f2c7c31bc29520d1c40153",
+        "actualCompleteMathematicalReturn": true
+      },
+      {
+        "kFactorIndex": 42,
+        "kDegree": 219,
+        "nativeSourceExitCode": 0,
+        "timedOut": false,
+        "elapsedSeconds": 10.164116370000002,
+        "stdoutBytes": 1631,
+        "stdoutSHA256": "dcd56f7d8e9637c78b525af85e3adf86ffc5346bc4f0a179ec094945346c5e36",
+        "actualCompleteMathematicalReturn": true
+      }
+    ],
+    "pendingFactorsNotStarted": [],
+    "completeNewFiniteOriginalReturns": [
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 12,
+        "kDegree": 3,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 12,
+            "kDegree": 3,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 74178,
+              "sha256": "185e706a52b71fdc2a2c8ace7bc9f7341c1747925f3f1aee0c5f17a241430a29"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.480262592999999
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 13,
+        "kDegree": 3,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 13,
+            "kDegree": 3,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 74108,
+              "sha256": "66ff543244b37fa12b032a9f3aa6f5fd1289f41b59626aea109ef653e6f124d2"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.4846064459999937
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 14,
+        "kDegree": 3,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 14,
+            "kDegree": 3,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 74069,
+              "sha256": "29b8f1d519968f907e1994fa056e46faaf5a03ad147843f8d0cc73e8e426a2bf"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.4357950099999996
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 15,
+        "kDegree": 3,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 15,
+            "kDegree": 3,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 74128,
+              "sha256": "c2e038fe674580ab21cf190144bb9dbcdf787b865e4b0e4b08019cb9c5aea61e"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.4294316490000014
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 16,
+        "kDegree": 3,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 16,
+            "kDegree": 3,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 74162,
+              "sha256": "2976318906c2683e9558f28d31118b96c300bbea9c97e9388227c217928d1693"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.4255101030000006
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 17,
+        "kDegree": 3,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 17,
+            "kDegree": 3,
+            "kMultiplicity": 1,
+            "qPath": "Q6/a",
+            "qDegree": 1,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 19194,
+              "sha256": "7ce7b205ed0559c2938e2cb269e48cf7173ca4a6fcc0122e66d196d4f5db6fc3"
+            }
+          },
+          {
+            "kFactorIndex": 17,
+            "kDegree": 3,
+            "kMultiplicity": 1,
+            "qPath": "Q6/b",
+            "qDegree": 5,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 63041,
+              "sha256": "4d7078394fbf606d9be4a3d6e8b62755d93b6b201d78e3820d899348226151c8"
+            }
+          }
+        ],
+        "allOriginalQSplits": [
+          {
+            "kFactorIndex": 17,
+            "qPath": "Q6",
+            "left": [
+              [
+                291,
+                831,
+                217
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "right": [
+              [
+                988,
+                690,
+                474
+              ],
+              [
+                109,
+                689,
+                241
+              ],
+              [
+                443,
+                317,
+                92
+              ],
+              [
+                785,
+                392,
+                998
+              ],
+              [
+                712,
+                178,
+                35
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "wholeOriginalQProductActuallyVerified": true,
+            "bothComponentsRetained": true
+          }
+        ],
+        "actualInverseProducts": 161,
+        "wholeG36Excluded": false,
+        "seconds": 2.571732615000002
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 18,
+        "kDegree": 4,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 18,
+            "kDegree": 4,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 93009,
+              "sha256": "55c8d37acee9f3182ef9ae0e154eb2679ba065a1d009a15c5075e94cc096fbf9"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.4523843220000003
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 19,
+        "kDegree": 4,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 19,
+            "kDegree": 4,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 93043,
+              "sha256": "aa1b5d92439cb3b9ee99163ce236d2ac7107ef85740aba0a6dfa65160cc316d7"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.4602008620000007
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 20,
+        "kDegree": 4,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 20,
+            "kDegree": 4,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 93179,
+              "sha256": "99ab36e5b944896cda6bc08c5ebb2bf5c70a84ecbfd58ae189549ed5d587857c"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.4573391869999952
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 21,
+        "kDegree": 6,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 21,
+            "kDegree": 6,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 131088,
+              "sha256": "cb9a914a3b7ae11fbfe89a7b0df8e42d66bae4bfcdf7285cbda850c157c39b54"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.5621428910000006
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 22,
+        "kDegree": 7,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 22,
+            "kDegree": 7,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 150172,
+              "sha256": "b63234f4e9fb767d3d18779c4c5927c2749864a4a6d3a1008721b551ca313a74"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.6217396589999993
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 23,
+        "kDegree": 7,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 23,
+            "kDegree": 7,
+            "kMultiplicity": 1,
+            "qPath": "Q6/a",
+            "qDegree": 1,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 32302,
+              "sha256": "c38b4b241410dccda9b69f43db7a14ff5a5c0e15f5980915ceb324bff204238d"
+            }
+          },
+          {
+            "kFactorIndex": 23,
+            "kDegree": 7,
+            "kMultiplicity": 1,
+            "qPath": "Q6/b",
+            "qDegree": 5,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 126394,
+              "sha256": "414ccdd0f2454ad6c34e32f37dde4c67c241b4ba421a964607218d7b2142324f"
+            }
+          }
+        ],
+        "allOriginalQSplits": [
+          {
+            "kFactorIndex": 23,
+            "qPath": "Q6",
+            "left": [
+              [
+                534,
+                466,
+                398,
+                748,
+                646,
+                892,
+                982
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "right": [
+              [
+                507,
+                897,
+                285,
+                33,
+                135,
+                536,
+                734
+              ],
+              [
+                452,
+                885,
+                940,
+                13,
+                414,
+                778,
+                930
+              ],
+              [
+                939,
+                628,
+                39,
+                297,
+                799,
+                686,
+                2
+              ],
+              [
+                709,
+                734,
+                218,
+                882,
+                416,
+                906,
+                905
+              ],
+              [
+                469,
+                543,
+                863,
+                261,
+                363,
+                117,
+                27
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "wholeOriginalQProductActuallyVerified": true,
+            "bothComponentsRetained": true
+          }
+        ],
+        "actualInverseProducts": 161,
+        "wholeG36Excluded": false,
+        "seconds": 2.716568009999996
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 24,
+        "kDegree": 9,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 24,
+            "kDegree": 9,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 188038,
+              "sha256": "8ac8fdf0976d4a6c19753ee9a8bcb3a5e61fca94ef0e0e5eff1b9ce11a470800"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.6569810730000043
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 25,
+        "kDegree": 12,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 25,
+            "kDegree": 12,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 244844,
+              "sha256": "7918f63443c9875d181ea2f915d21115cee2380ad4932ed5565263f84f7fd9d8"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.726617245
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 26,
+        "kDegree": 12,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 26,
+            "kDegree": 12,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 244795,
+              "sha256": "d23b2f1eea87fc1367a2fcd00fd6cb3bf71309d922f3a3722727f46f662f5a8f"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.731021546000008
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 27,
+        "kDegree": 16,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 27,
+            "kDegree": 16,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 320947,
+              "sha256": "791471169ec26df6cc0ee1009ee54a44305def9ff035b8fdcaf38f9fa26cdb3a"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.8145511840000097
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 28,
+        "kDegree": 16,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 28,
+            "kDegree": 16,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 320705,
+              "sha256": "1785ed2ea0e9e96ec20c693bc1f69252818c5d6f2e232339a2b18200a50a7d20"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.8189399629999912
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 29,
+        "kDegree": 16,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 29,
+            "kDegree": 16,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 321068,
+              "sha256": "6d882c0ec76519c59649802c01b8ae80269830ef3a455050785877d15ef58330"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 1.8148063579999985
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 30,
+        "kDegree": 24,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 30,
+            "kDegree": 24,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 472452,
+              "sha256": "6de99ac48cfacfbbda0f01d6315e06effed9dcb8b0b9b0381e76181b2cce6ab2"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 2.0519148809999876
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 31,
+        "kDegree": 24,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 31,
+            "kDegree": 24,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 472247,
+              "sha256": "afac29d7aef1fedd990534a77063f1f6ef21081f1ca812a65b4b15e385baeba0"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 2.055135968000002
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 32,
+        "kDegree": 27,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 32,
+            "kDegree": 27,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 529722,
+              "sha256": "3e1876a862c92ba6c5a17d7e47e7815512b5e38eacb9530f4472b215158f5da0"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 2.1757266259999994
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 33,
+        "kDegree": 29,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 33,
+            "kDegree": 29,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 567171,
+              "sha256": "135b8f36a9cc16b98eccbd5a025268a1669e7de0a861cd4869b90149113b3a24"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 2.199316870000004
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 34,
+        "kDegree": 29,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 34,
+            "kDegree": 29,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 567520,
+              "sha256": "49056d42a377889ed9c7af0cd0a038e25a0e2af901f875d440155dfcebc8c3bf"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 2.2307715510000037
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 35,
+        "kDegree": 47,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 35,
+            "kDegree": 47,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 908677,
+              "sha256": "6816a1b73bc341920357a450414167cf706c7515d6e89ad95ab4bbea8f6756c8"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 2.8014159269999936
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 36,
+        "kDegree": 59,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 36,
+            "kDegree": 59,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 1136484,
+              "sha256": "acbf12ab58348fe2b2f1221cf916d6722903937981d9962916868130cd7f925a"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 3.1587098839999896
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 37,
+        "kDegree": 68,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 37,
+            "kDegree": 68,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 1307866,
+              "sha256": "6ee21c439a52b1d6baf41854aa081ad84e35f92994c0db0b2179fa55a80b8aa2"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 3.496606279000005
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 38,
+        "kDegree": 83,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 38,
+            "kDegree": 83,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 1592696,
+              "sha256": "205eea8fca9cf942a29433c7f833947d9eeb7555b8f4eef6ada54152a14439d6"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 4.057376797000003
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 39,
+        "kDegree": 89,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 39,
+            "kDegree": 89,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 1705809,
+              "sha256": "f01a350bbe3f57673570d3411600955b84165face3ef11895fc5cf67e79b1285"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 4.312015796000011
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 40,
+        "kDegree": 116,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 40,
+            "kDegree": 116,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 2218332,
+              "sha256": "70376043b2e1cbf2690cc76fb2a0784c516c60692f677b910c304d1a0b1bbcca"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 5.323888464999996
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 41,
+        "kDegree": 175,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 41,
+            "kDegree": 175,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 3338347,
+              "sha256": "4713772390adaaa45c113090105d7cc39359eba2d6e49fbb73ec31b422279194"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 8.116990217999998
+      },
+      {
+        "stage": "new_G36_remaining_factor_original_108x56_finished",
+        "kFactorIndex": 42,
+        "kDegree": 219,
+        "kMultiplicity": 1,
+        "allEntireQComponentsFullColumnRank": true,
+        "originalQComponentReturns": [
+          {
+            "kFactorIndex": 42,
+            "kDegree": 219,
+            "kMultiplicity": 1,
+            "qPath": "Q6",
+            "qDegree": 6,
+            "originalRows": 108,
+            "columns": 56,
+            "rank": 56,
+            "originalDegrees": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              4
+            ],
+            "allBasisOriginalFiftySixColumnProductsActuallyVerified": true,
+            "originalConstantOneFiftySixColumnProductsActuallyVerified": true,
+            "fullColumnRank": true,
+            "allUsedInverseProductsOne": true,
+            "certificate": {
+              "bytes": 4172633,
+              "sha256": "210c277bdac60f903641c9e543e02f8107464dbbfb6297eb581f38275523e0bb"
+            }
+          }
+        ],
+        "allOriginalQSplits": [],
+        "actualInverseProducts": 69,
+        "wholeG36Excluded": false,
+        "seconds": 10.073609869000009
+      }
+    ],
+    "allRemaining1120DegreeOriginalFibresReturned": true,
+    "allHigh1134QQFibresExcludedByFiniteFreeNakayama": true,
+    "everyModularMultiplicityRetained": true,
+    "proofScope": "finite free over Z_(1009), full original row surjection, not multivariate modular emptiness",
+    "wholeG36Excluded": false,
+    "ordinaryISPClaim": false,
+    "peakRssKiB": 32240,
+    "seconds": 85.443097176
+  },
+  "priorFrozenReturn": {
+    "run": 46046219647,
+    "sourceExitCode": -11,
+    "receipt": "2026-11-27-unit211-W-G36-finite-1198-first-native-partial-receipt-8542.json",
+    "sha256": "c630e7aa789b96ec33d897bba4e8a88f77f6ec516cc21710aea58e68054baf42",
+    "actualCompletedReducedKFactors": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "index10QFiveFullRank35": true
+  },
+  "newPoint": {
+    "sourceSHA256": "b51ae78d55e515b3ae0723f844e61017403e72e6e32c9876bbe24a33a04acccf",
+    "receipt": "2026-11-27-unit211-W-G36-original-two-quartic-modular-point-return-receipt-8542.json",
+    "sha256": "a58712c241a887ade3ffb391df1852c7c33f14b81d866959b400fbc8e32a15f1",
+    "prime": 1009,
+    "k": 422,
+    "Q": 965,
+    "rows": 108,
+    "columns": 56,
+    "rank": 56
+  },
+  "proofScope": {
+    "exactQQHighDegree": 1134,
+    "finiteFreeBaseRank": 1134,
+    "finiteFreeWeightRank": 6804,
+    "all43ModularKFactorsCovered": true,
+    "kFactor587Multiplicity2Retained": true,
+    "allQFactorsAndNilpotentsRetained": true,
+    "oldRank35LiftsToDegree5ByMonomialMultiplication": true,
+    "wholeHighQQExcluded": true,
+    "low61Excluded": false,
+    "wholeG36Excluded": false
+  }
+}
