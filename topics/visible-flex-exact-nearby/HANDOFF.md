@@ -1,6 +1,6 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 05:29 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 05:31:44 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
@@ -40,6 +40,8 @@ GHR/GHC/GHW/GHV/SHT/GVC完整reference1及三径/mean二jet保；GHX只同γ tai
 
 
 RA已构造 actual M 同轴 R 锚：A0R<1e−12、A1R<2e−12、B1R<5e−20，真mean/单λ/独立world tilt保；10新组合全过。R→L须实际cap状态/原角桥，禁止core界外推；完整证明见results中RA。
+
+SRH现由同一S.34完整residual低/高插值（0新Nash步）得selected连续至E4224、E4000<2^-49999998；relativeL²背景连续至E4223，exact prioris输出64..2204/domainE4000/source至3938，两常数仍2^16777216/2^71303172。17新组合首算全过，尚待真HL高forcing扩窗后才授更高参数导数。
 
 ## 仍须实际完成
 

@@ -571,3 +571,10 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 ### R133 RA：实际 M 长端的完整世界 R 锚
 
 [完整证明](results/R133-supplement-actual-long-cap-R-anchor-and-complete-vertical-C1-bounds.md)与[10新有理组合](scripts/fourfold_codazzi_actual_R_anchor_saved_bounds.py)。实际 M/O 全两端域和原 D 解给 Y<1/6000000、完整四态<1/1500000；同原 Connection.anchor 的 det−1 标架及准确 moving lift 中，vertical R 差 A0<1e−12、A1<2e−12、B1<5e−20。实际 nonmean f_*、holonomy mean、单λ及唯一 world placement完整保；额外 tilt θO 的三增量(1,4,14e−6)另列，非按角重置frame。仅旧已成数值的新有理组合，无旧科学；实际cap R→L状态/角桥和后续selected core/TC/fullmatching仍分别支付。
+
+
+### R119 SRH：完整residual插值提高同一实际选解的正则窗口
+
+[完整证明](results/R119-supplement-residual-interpolation-and-order4224-selected-tail.md)与[17个新exact组合](scripts/fourfold_codazzi_selected_tail_residual_interpolation_saved_bounds.py)。同一S.34/T selector、原step/seed/γ域完全不变，直接在S.24前插值已经完成的|Fn|1856≤T^-3000与|Fn|6396≤T^320，并保全高背景项。h_s的完整source指数为(166s−701252)/227，background指数(140s−689400)/227；前者在s4224仍<−1/4，在s4000两者均<−164。
+
+故原完整graph修正无新步骤即在E4224收敛，E4000全tail≤2^-61450609、加原seed后仍<2^-49999998。原H8193 topology连续至4224；与SHL lowL²界插值得relativeL²背景连续至4223。通过真正residual-sensitive proxy极限，exact prioris现对E4000 directions给64..2204输出/source3938，原两constants不变，outerstate3984/height3986和三径mean/source全付。未授rough-source onto、E8192极限或尚未扩窗的参数forcing。17新比较首算全过，旧scientific/seed/Nash步骤0重算。
