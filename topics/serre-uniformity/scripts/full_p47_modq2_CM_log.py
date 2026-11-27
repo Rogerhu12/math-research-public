@@ -163,7 +163,8 @@ class UnitLinear:
             return self.identity(self.R,M.nrows())
         B=M.matrix_from_rows(inds)
         piv=list(self.reduction(B).pivots())
-        free=[j for j in range(M.nrows()) if j not in set(inds)]
+        used=set(inds)
+        free=[j for j in range(M.nrows()) if j not in used]
         C=M.matrix_from_rows_and_columns(free,piv)*self.inverse(
             B.matrix_from_columns(piv))
         if M.matrix_from_rows(free)!=C*B:
@@ -185,7 +186,8 @@ class UnitLinear:
         if len(piv)!=B.nrows():
             raise ArithmeticError("A multiplication denominator lost injectivity.")
         inv=self.inverse(B.matrix_from_columns(piv))
-        free=[j for j in range(B.ncols()) if j not in set(piv)]
+        used=set(piv)
+        free=[j for j in range(B.ncols()) if j not in used]
         tail=inv*B.matrix_from_columns(free)
         return piv,free,tail
 
@@ -307,7 +309,8 @@ class LiftedKM:
         answer=[]
         for row in M.rows():
             prod=self.poly(row)._mul_trunc_(f,PREC)
-            answer.append([prod[k] for k in range(PREC)])
+            coefficients=prod.list()
+            answer.append(coefficients+[0]*(PREC-len(coefficients)))
         return self.matrix(self.R,answer)
 
     def coordinates(self,jets,n):
@@ -388,7 +391,8 @@ class LiftedKM:
                 if first.stamp==second.stamp and i<j:
                     continue
                 prod=f._mul_trunc_(g,PREC)
-                batch.append([prod[k] for k in range(PREC)])
+                coefficients=prod.list()
+                batch.append(coefficients+[0]*(PREC-len(coefficients)))
                 considered+=1
                 if len(batch)==95:
                     M=self.matrix(self.R,selected+batch)
@@ -719,7 +723,8 @@ class ResidueAlgebra:
         answer=[]
         for row in M.rows():
             product=self.ring(list(row))._mul_trunc_(poly,PREC)
-            answer.append([product[k] for k in range(PREC)])
+            coefficients=product.list()
+            answer.append(coefficients+[0]*(PREC-len(coefficients)))
         return self.matrix(self.K,answer)
 
     def coordinates(self,jets,n):

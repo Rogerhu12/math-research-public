@@ -40,7 +40,7 @@
 
 [有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读新α，余12例随后续；q² CM坐标并行。
 
-[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及KM实现已推，四CM源提升并行，新值待执行。
+[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；新值待回执。
 
 ## O1：全p同一真实本原标签的临界非零
 

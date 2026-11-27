@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：944999145a79af2b1e1dce6de60cf14f0eb44bd8**（2026-11-27 17:49 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：311f91e77e8071abc6f55d889e8880931634600d**（2026-11-27 17:55 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；17:36再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -48,7 +48,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读新α，余12例随后续；q² CM坐标并行。
 
-[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及KM实现已推，四CM源提升并行，新值待执行。
+[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；新值待回执。
 
 ## O1：原同一保留标签
 
