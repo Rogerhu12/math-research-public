@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-zero-original-values-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-single-scale-right-inverse-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -88,9 +88,9 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 [负幂自然域与等距共轭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)保全部 $\operatorname{Ran}A^k$，$\Phi=AXA^{-1}$ 与逆互为D代数等距自同构。真实递推 $f_n=R_nAf_{n-1}$ 的原像满足 $u_n=\Phi^{-n}(R_n)u_{n-1}$；每个真不变M中的 $\bigcap A^kM$ 稠密，但无增长率。
 
-[全D最优成本有限头化](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)给每个X的同最优c强逼近。固定成本球的有限输入像弱紧、恰为同成本有限头像范数闭包；有限插值最小成本若有限则达到。**当前继续同一变化递推来源的实际凸最优费用**，不能假任意目标有限成本。
+[全D最优成本有限头化](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)已付同成本强逼近、固定成本有限输入像弱紧及有限最优值达到。继续同一变化递推来源的真实凸最优费用；不能假任意目标有限成本。
 
-[全交换子的收缩多项式密度](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)及特选同头/平均双逼近成本最优1已经闭合；不再重做。一般平均却[在统一成本球仍强不连续](results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md)：真实有限头 $B_m\to0$ 于op范数、$c(B_m)\le2$，但 $\Pi B_m\to-I/4$ 于SOT。因此全D强逼近不能直接平均成保持同输入的交换子插值。
+[全交换子收缩多项式密度](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)及特选同头平均成本1已付；[一般平均的统一成本球强不连续反例](results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md)也已付。因此全D强逼近不能自动平均成保持同输入的交换子插值；不重做已闭例子。
 
 
 同一实际源的运输插值、双预算/最小普通范数和固定球真实递推已付；指定硬目标的全D最优累计log费用Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，含dyadic半径边界的四次准确常数；所有实际递推∏c≥m_n。全D连续整数前缀约束进一步迫独立软最优目标的连接普通范数dyadic无界，必须改变真实目标并付完整前缀/逆像双费。完整原身份与全部源保[压缩前页](notes/2026-11-27-open-before-tail-roots-and-closed-graph-8542.md)和[结果索引](results.md)。
@@ -130,11 +130,11 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 [总孔核心](results/R271-appendix-canonical-source-carry-norm-total-hole-core.md)现有[精确15/16来源端点](results/R271-appendix-critical-fifteen-sixteenths-carry-domain.md)：N/Y完整carry在X_(15/16)有界，总孔cut由q≤p有限块直接支付；σ>15/16无条件延拓不成立。真实y=Sh的剩余费准确为Σalpha_q^(−1/8)||P_q^+y||²，仍须由同W规范源给出，甚至一般W的y∈H尚未付。两范围核心仍开。
 
-Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离、具体B内核心、odometer非平凡谱投影距离≥1/π及全非奇异加权复合距离均已闭，完整链接/原边界保[快照](notes/2026-11-27-open-before-same-eta-and-output-core-8542.md)。R38真实Y∈D\B；全R自伴核、连续Fourier乘子及未知普通M的D保持仍开，不能无损拼合一般细块。
+Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复合距离及具体B核心均已闭，完整常数、来源和范围保本次快照。R38有真实Y∈D\B；全R自伴核、连续Fourier乘子、未知普通M的D保持仍开，不能无损拼合细块。
 
 [同源dyadic两边界](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)已付，含Y全逆和可能增长的h^(<r)成本；指定prefix-cut当且仅当λ_r||y_r||及真实头顶行趋零。[实际RanG0*非闭](results/R271-appendix-actual-division-adjoint-nonclosed-range-same-tail.md)已由Sh域内同尾奇异列证明，两个闭包核心/一般W最大域及两费仍开。
 
-[原奇数剩余类同范数强*密度](results/R12-appendix-contractive-strong-star-density-in-every-odd-residue-class.md)已付：每个完整交换子X可仅用任意固定奇p剩余类、最低次数→∞的多项式，以范数≤||X||强*逼近。单剩余类尾循环空间仍是[f]_B，正常配对和同一已存闭域图单位可返回；不把它搬到负整数boundary，不推出全域像入闭根域。继续PH⊂DomT或同源有界分母接口。
+[原奇数剩余类同范数强*密度](results/R12-appendix-contractive-strong-star-density-in-every-odd-residue-class.md)已付任意固定奇p类、次数→∞、同范数逼近及同源尾循环返回；不传到负整数boundary或未知闭根域。继续PH⊂DomT和同源有界分母，完整旧范围保快照。
 
 
 [整幂根与闭域](results/R12-appendix-all-integer-power-root-multiplicity-and-closed-root-domains.md)给q|pk的有界分类；新[伴随域包含引理](results/R12-appendix-stable-root-adjoint-domain-inclusion-and-actual-parts.md)证明闭稳定域+DomT⊂DomT*+有限幂有界即T全域有界，不需有界自交换子。不整除根必无该包含；C自伴时D/CD不可比较。R161/R212/R236的真实闭部分可继承包含，未知头像根须先证明是该闭部分；全幂像/平坦性仍不付PH入域。
@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W整余图两列原值、[Y真单位/w≤6首一存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[五无s/五含s完整原行与四cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** f914实际24.779秒/421204KiB/exit0，四式w度18/18/18/23；四小s系数和全部原乘回完整。未付各头、不宣空；下一J19整个e首一四次曲线，不堆43秒大D矩阵。d5eab名字错负回执保留，Y逆及显式首一w尚未构造。
+**W整余图两列原值、[Y真单位/w≤6首一存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[五无s/五含s完整原行与四cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** f914实际24.779秒/421204KiB/exit0，四式w度18/18/18/23；四小s系数和全部原乘回完整。未付各头、不宣空；新267e17cb在整J19首一e四次曲线建原六行/48×35，180秒4GiB待实际；函数域逆完整回乘，全部k范数/分母零面保留，不宣整支为空。d5eab名字错负回执保留，Y逆及显式首一w尚未构造。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
@@ -187,3 +187,5 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
 **[整Phi0完整值](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)及[h1有序碰撞图的8918基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-monic-ell-8918-point-cover.md)已付。** 1ec9真4.796秒/57628KiB/exit0，首一ell2保全部根；11个H³原目标给98/91次QQ互素必要式，尚未排空，k1由交换覆盖。新ca53仅用闭对(r,ell r)及真原单位U³，norm只筛相交；每次完整回乘且新core整除旧core，120秒/1GiB待实际。
+
+**[同一个实际右逆作用于全部物理孔指数尺度](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)已完整证明。** 固定λ>2+2log(3/2)，同Gλ:Xκ+λ→Xκ且范数≤exp[Cλ(1+κ)²]；同误差E:H→全部Xκ、H范数<1/4，同一Hilbert修正保每尺度。Gⁿ在Xnλ真返Tⁿ、费exp(Cn³)，对N⊥保同规范h的Xλ对偶表示。未证平滑核在M稠密、G保N、Gamma或N=M；继续同W实际配对/来源。

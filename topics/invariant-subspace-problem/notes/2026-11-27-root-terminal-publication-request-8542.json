@@ -1,15 +1,16 @@
 {
-  "message": "ISP: prove original Phi zero h one finite cover and return improved true unit targets",
-  "parentCommit": "d24658e42707cf8b0931bf6e400d7b3ce41ab6d9",
+  "message": "ISP: prove one actual right inverse on all physical exponential scales and submit whole J19 input",
+  "parentCommit": "fcbf53eb09b86c1d758f16b01d0d47c8c96d124b",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rank-one-value-monic-ell-8918-point-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-h-one-8918-point-cover-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-actual-unit-target-saturation-8542.py",
-    ".github/workflows/invariant-subspace-phi-h-one-actual-unit-target-8542.yml",
+    "topics/invariant-subspace-problem/results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-J19-entire-quartic-original-Gram-input-8542.py",
+    ".github/workflows/invariant-subspace-w-j-nineteen-whole-quartic-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-single-scale-right-inverse-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-single-scale-right-inverse-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-h-one-actual-unit-target-8542.yml"
+    "invariant-subspace-w-j-nineteen-whole-quartic-8542.yml"
   ]
 }
