@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-exceptional-mixed-168-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-equal-singleton-global-compact-cofactors-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -218,6 +218,6 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[整lambda3/2四个原十列权曲线](results/R150-appendix-unit211-W-lambda-three-halves-global-original-ten-column-weight-curves.md)。** d8dae四固定矩阵全十列常数cofactor真实返回；仅剥原单位后C_N1/C_NS/C_PS/C_rT次数(e,k)26/33、28/34、28/33、30/38，真53.807秒/72976KiB/exit0，所有未付头零保留。新a267把F18与前三原曲线完整QQ消e，再同k xgcd返回；只剥k、k+1、k+2、k+4，180秒4GiB，不重放旧adjugate证书门。未称交集为空。
 
-**[原unit211全部紧凑均值/N1恒等式](results/R150-appendix-unit211-compact-original-scalar-means-and-N1-identities.md)。** 七自由变量BigInt完整六差为零，16毫秒/624乘积；bcQrhoell原单位域上R2/W4/O8与其余三mean等价，N1*保实际P1来源。不预设Phi0。新7bd9用h=k已付Pf解原P1的f，保z=Qt及Pf·NV=Tnum−bcDelta·z，五原行/固定三列cofactor保整个Delta零面；仅180秒/4GiB首发，不重做旧scaled Gram/投影。个别谱N/P仍须另返。
+**[全unit211紧凑原恒等式](results/R150-appendix-unit211-compact-original-scalar-means-and-N1-identities.md)已接[整个h=k原五行/三列](results/R150-appendix-unit211-equal-singleton-global-compact-original-three-column-cofactors.md)。** 7bd9以已付Pf解P1的f、保z=Qt及Pf·NV=Tnum−bcDelta·z；全部三mean/N1/NV同点返回，三个固定cofactor参数度62/17/9、80/20/11、61/16/9。真5.701秒/90476KiB/exit0，整个Delta零面与所有未付头零保留。新a0e1做Delta/Tnum及Delta/原均值cofactor固定QQ消Q，保所有头零；多变量gcd只分解曲线与剩余交点，不判空。个别谱N/P仍属原条件。
 
 **一般Phi紧凑879首次失败冻结。** 实际run46022929932为120.067秒/816684KiB/内层−14 SIGALRM；最后只返回原P1/NV两线，无R2/W4或新必要曲线。准确源及[失败身份](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保存；不加时重跑，改保自由z先用原N1首一二次。

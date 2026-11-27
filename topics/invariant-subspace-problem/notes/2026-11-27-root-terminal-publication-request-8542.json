@@ -1,19 +1,17 @@
 {
-  "message": "ISP: reduce the exceptional Phi original ordered base point cover to 168 by a true Gauss return",
-  "parentCommit": "3b5df6d617173daed1b09baad5cd33690d372adc",
+  "message": "ISP: return the full equal-singleton compact original system without inverting Delta",
+  "parentCommit": "244906aebea68c73a74cda79f108df35953c8402",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-mixed-original-168-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-mixed-original-168-cover-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-mixed-core-and-mod-return-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-results-before-Phi-exceptional-mixed-168-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-exceptional-mixed-168-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-exceptional-mixed-168-cover-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-global-compact-original-three-column-cofactors.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-global-compact-original-three-column-cofactors-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-zero-compact-original-QQ-projections-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-delta-zero-compact-qq-projections-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-equal-singleton-global-compact-cofactors-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-equal-singleton-global-compact-cofactors-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-equal-singleton-delta-zero-compact-qq-projections-8542.yml"
+  ]
 }
