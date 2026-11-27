@@ -70,3 +70,7 @@
 已证明并发布 SDIF proof/reader：25条新精确整数比较首次全过，未执行旧science。SLIP+GA给common E20的2^-31222782 A0/r和fB H23的2^-31223222；统一E3121界与图插值给A0→E2960连续。以闭域内两组实际inward解差构造V，完整Pγ/Qγ与所有mean/seed/principal项保；证明相对A0一阶余项、H8193方向operator连续及strict H8193 interior C1，未冒rough-source onto或A0 operator连续。GHR/GHC/GHW各自独立已公开3f363d86/14bc954d/d0739f98，本次登记其完整height接口与分片/global C²区别。
 
 同步真实执行：P96 45926971089/1全6成功但真实PDE修正列资格false；DWTB9唯一45935081577/1（282e03e4，03:35:44）已运行，65current/9新targets，原AS恢复停在旧WholeQuadrature前，不造BW成功。META5 45934384748/1成功，数据c264c5e6，128 legacy JSON仅空白，gross806606B、receipt69422B、net737184B；不混前一批828816B。TC/UDRC21/RHI/SL持续，未把started算完成。每次main刷新两README blob无diff；本地失联后按规8用<100KB文本与非force lease。
+
+### 2026-11-27 AP96：完整原始96试探列上的真实相位行
+
+已证明/数值认证：45926971089/1的6/6目标全部成功，scientific33896B SHA31a0d69b3fa53ada9ed73284c24fd49266fe9a4ad855ce1bc73548c478009a53，execution29713B SHAe424d4210e5a98f75c185e339f076f23835e30bb5a5b6237583536310a6e13a3。原四whole arrays[7671,193,96]与TC同SHA，169germs/3095原poly/3434新intersection及true root sliver全付。联合96radius<.000227442、首signed(.0028306,.0029694)，精确joint中心208967022709991/72057594037927936；true_PDE_corrected_columns=false，不能当完整解相位。旧baseline球没有冒充新joint中心。TC03:58 whole1316/contiguous1112，UDRC21 necessary AS恢复0/21，DWTB9尚无complete目标；不重复成功旧计算。

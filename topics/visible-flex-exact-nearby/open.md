@@ -158,7 +158,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 本节此前全部运行、完整球/SHA、错误/unknown、参数/单位与scope保[6ecc原open第8节](https://github.com/Rogerhu12/math-research-public/blob/6ecc22139cdb367421d9b93afa16e6a8c2031704/topics/visible-flex-exact-nearby/open.md)和递归原件；第1–7节全部义务保持，成功目标禁重。
 
 - PS完整body/含点门64.097636/64.855555均false，只充分条件失败，禁DP/重积分；唯一SL45917913526/1（0c4f842d）03:53仍在算，原UTF8零science失败保。
-- TC原45889161044完整992/7724与whole matrix/waist保；输入SkylakeX全SHA恢复及0-d失败全保。唯一TCXV45928452441/1（c721）三互斥slice，03:46公开whole1316/7724，contiguous1112，prefix24f3468f3768d0da14fc416e1321c568ddddd896afaa39fb46029eb2eb8cdb32，failure null，negative/positive未成，不重旧992。
+- TC原45889161044完整992/7724与whole matrix/waist保；输入SkylakeX全SHA恢复及0-d失败全保。唯一TCXV45928452441/1（c721）三互斥slice，03:58公开whole1316/7724，contiguous1112，prefix24f3468f3768d0da14fc416e1321c568ddddd896afaa39fb46029eb2eb8cdb32，failure null，negative/positive未成，不重旧992。
 - ASR45914639857全2048/2已成，但eα∞≈7.95e220/eα2≈3.47e220矩形包裹，不授精度。OT45924861985全10/完整96×2240已成，trial3b5bff1c…，原巨scalar诚实保；signed carrier不消费巨误差。GYN完整GY operator proof已成，旧HS只复用。
 - [UDRC21](notes/2026-11-27-unit-disk-operator-Theta-first-square.md)唯一45933303391/1（6ecc2213，03:17:28）已启：3新GY+7新unit-disk joint+11首次Theta square，130current/6native与原18四源全保，manifest80dbfdf3；whole候选先保存再min，旧ASR/IR/OT目标0重跑。Theta坐标门不授fullphysical逆。
 - strictν NP/NH/PO/APA/ASB/PHI全部whole锁，APHI真phase(.038736784,.038768096)、逆25.82仅strict particular；PP/CP保regular defect/mean/nonmeanphase/E′a。P96原96trial候选phase首45926971089/1（358eb35a）03:18仍在算，TC真实PDE修正资格未授。PRN完整negative原窗receiver已成；RH的Q_b/F_b/Cθ独立world ports保。

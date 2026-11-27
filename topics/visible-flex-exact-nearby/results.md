@@ -468,3 +468,7 @@
 [完整证明](results/R119-supplement-A0-response-and-differentiability-of-the-selected-exact-tail.md)及[25条新界 reader](scripts/fourfold_codazzi_selected_tail_differentiability_saved_bounds.py)。同原S/T闭域：common E20 A0-Lipschitz常数2^-31222782/rγ，u非mean2^-31222778/rγ，fB H23为2^-31223222/rγ；统一E3121界给A0→E3120连续。两组真实inward解差、完整SREG先验与GA forcing构造线性V，闭域相对A0一阶余项；V连续于operator H8193→E20..1164，strict H8193 interior真正C1。全高窗低源项保，未授rough-source onto/开放A0值域/A0 operator连续/E1856导数/二阶selected/core。
 
 GHR [metric-reference height](results/R144-supplement-actual-seed-metric-reference-height-and-complete-endpoint-column.md)（3f363d86）保reference1和全端点π；GHC [固定physical完整参数height](results/R144-supplement-complete-actual-parameter-height-at-fixed-physical-coordinate.md)（14bc954d）保vη+H∂η+Hmetη+Dλ；GHW [低图完整physicalheight导数](results/R144-supplement-complete-physical-height-derivative-in-the-original-low-graph.md)（d0739f98）给D_w z分片C²≤2^2048 E20、fixed-w/fixed-λ γ列<2^-56000000 A0/r。真实global C²仍须已匹配解的闭二jet子空间，独立λ/world ports不删。三reader17/9/10新比较各已一次通过。
+
+### AP96：真实相位泛函在完整原96试探列上的首个联合行（已证明/数值认证）
+
+[完整结果与96记录](results/R149-supplement-actual-complete-phase-row-on-original-finite-trials.md)，45926971089/1全部6目标成功。四个原[7671,193,96]试探数组保持TC完整SHA，真实根sliver与3434新交段逐一保；joint radius<.000227442，首列signed(.0028306,.0029694)，其精确joint中心为208967022709991/72057594037927936，非旧baseline中心。完整误差PRN原负窗units保。true_PDE_corrected_columns=false，因此这是完整trial相位行，真实PDE修正/fullSchur另付；不重新运行旧run。
