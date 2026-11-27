@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：5573eab45a2a1bb80a60888b1b6356debc675b26**（2026-11-28 07:38 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：349d183eb3864f675c00ad8bc75142ff882f6e48**（2026-11-28 07:42 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 07:05 Asia/Taipei，公开Actions run46080481087/job140778033392，在blob:none浅部分克隆中真实pull --rebase至ffd8a7ed，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:55、真实pull≤08:05。本地07:07仍无环境；恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-exact-relative-Eisenstein-forms.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Fermat6-Raynaud-tensor.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -40,9 +40,11 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [原固定Dixon源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付双零⇔D^(p−5)η0⇔整P_(p−5)content被p除；全Jordan不代指定中列。§§6–8原Fermat/D³=2vT、q/r生成式给r_N(λ)=R1076η_k(λ/3)与r′=ν/3；互倒Dixon平方根精确读全谱/相邻系数，尚未排共同零。
 
-原Dixon §§9–10付真实Hesse族的p维Frel纤维、f/g/e全基、三块D矩阵/全部边界和cyclicity，Dp=H(α)D、H=αh(α³)，h首一且h0=−(4/3)_ell/ell!单位。完整Schur Q的det=∏(1+(6j+1)w){λ^ell−w h(λw³)}；w0两原主块准确复原。normal读数为12tr(adj Q·A²)，spectral读数为tr(adj Q)，未互代；继续原e/K4双零，不能用整族光滑/全Jordan直接排。
+原Dixon §§9–10付Hesse Frel全矩阵/边界、Dp=H D及H=αh(α³)、h0单位；完整Schur Q付det和原q/r块。normal为12tr(adjQ A²)、spectral为tr(adjQ)，未互代，原双零仍开。
 
 [R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个带宽1/2系统只有标量；四输入及run46071081257/job140747905385只排有限机制。旧5372素数扫描/R1134十五Euler列/Prym/六CM/normal-FM全部只消费，source和全常数保open/前态。o1继续真实Hesse变分时须保αD²/α²D及原主块边界。
+
+[原genus4 §6](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)真实接Fermat6十维/全部45槽，安全primitive与统一有限和已付。准确B22,12=−c^(2k−1)e/δ，e0 iff222方向为全β radical；V4分解1+3×3、三genus4内部零后仍留18 cross，继续原e/K4。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

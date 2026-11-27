@@ -143,3 +143,7 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 ### R1135 §14：原有界解与 Cartier forcing
 
 同一固定Δ曲线上原G=YQ(X)给实际有界P，G=∂P、K=∂²P，两者乘ω的Cartier为零。完整W=∂(F∂K−K∂F)−3K(∂²−a/3)F，乘积类不能拆。准确Hasse尺度给C_rel(ω/A²)=ω′及B=A²∂、B^p=A^(2p)B。r=7,9原Katz方程B^r(G_(p−r)/A^r)=2/(p−r−1)!·(A^(r+1)ℰ_(r+1)−ℰ_(r+1)^p)在L((p−r)O/2)有唯一有界解；全局唯一不消局部1…r共振。原(∂²+35a/3)F的q首项2F1非零，明确区别Hasse旁解。继续同一W(aG,0)/good-mask，不由nonzero forcing推指定值。
+
+### 原 Fermat6 完整 Raynaud 张量
+
+[原genus4 §6](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)从指定degree2商η=x、y_Y=b0y²接Z:x⁶+y⁶=1。十个ω_ab=x^(a−1)y^(b−6)dx都有完整无p分母primitive，C全零；45槽由(G4.19)统一有限和给出，三个坐标和不全<6时为零。原尺度精确B22,12=−c^(2k−1)e/δ，故e0 iff公共222椭圆方向在全十维β的radical。真实V4三商维数1+3×3；e0消去9个允许槽，仍有114/123之间18个cross，不能宣全β零或指定middle cyclic。继续实际cross与原K4的关系。
