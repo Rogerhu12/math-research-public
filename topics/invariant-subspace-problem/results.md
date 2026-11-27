@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 unit211：全原N1二次头与Phi零真正12生成元环境](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)：f自由时原z²头已付；Phi上保z、T6/z2首一环境，无D/SnZ/范数逆。
+
 - [R150 unit211：W 的整lambda=3/2原分支排除](results/R150-appendix-unit211-W-lambda-three-halves-complete-original-exclusion.md)：两个首一1009整QQ覆盖，完整模Bézout返回1与Gauss；全当前W支付3−2lambda。
 
 - [R150 unit211：整W lambda=3/2的372/403完整QQ覆盖及后段xgcd SIGALRM](results/R150-appendix-unit211-W-lambda-three-halves-two-complete-QQ-projections.md)：两个固定原投影、只去已付k因子、逐系数1009整；准确冻结未返回步骤。
