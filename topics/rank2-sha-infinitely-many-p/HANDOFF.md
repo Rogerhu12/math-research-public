@@ -6,9 +6,9 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限 p、随 p 换曲线、接口或孤立投影不完成。
 
-- 两库只读CI实际部分clone/pull --rebase已于16:49–16:50成功（run46036879370/job140634411107）。公开16:49:55UTC至4e827843bcee23a6a7bebf78528b59a69871e0ab，较0b7cc6c7adc861a523ae294a27aa6baa8f042a13两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库16:50:00UTC至857ff63a4f0dc989a1bcedbeed35e44357723dcd，较1a736908abae2f32b917c67e432338790a1fe93d两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE变为a01613b400f6cce6d89d2df6e34c836d9758386f，已亲读本行仍本会话进行中，认领提交41fe885610073f478b2f5a752461ca56cfd43f09；既有MR_TOKEN仅进程用于私库只读，私文不入公开log。
-- 本地07:20失联，16:45两库pull重试仍无执行环境；末次本地公开pull07:12的1cf10ac。CI是真实pull，与本地/API分记。下一轮两库实际pull不迟于17:49UTC，每次两README变化只读新差异。
+- 两库只读CI实际部分clone/pull --rebase于17:38成功（run46043363954/job140656405841）。公开17:38:05UTC至b19a809e5cf0c7e23d53ee1035c255a34a8f7f8e，较4e827843bcee23a6a7bebf78528b59a69871e0ab两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库17:38:11UTC至de262010a14c6d6b08c4162462b91dcfb8129e91，较857ff63a4f0dc989a1bcedbeed35e44357723dcd两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，已亲读本行本会话进行中，认领提交41fe885610073f478b2f5a752461ca56cfd43f09；既有MR_TOKEN只用于进程私库只读，私文不入公开log。
+- 本地07:20失联，17:37两库pull重试仍无执行环境；末次本地公开pull07:12的1cf10ac。CI是真实pull，与本地/API分记。下一轮两库实际pull不迟于18:38UTC；每次两README变化只读新差异。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
@@ -20,7 +20,7 @@ v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/j
 
 native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810全终态已消费：09:58:51–15:48:52UTC外层21000s、signal15/exit124，非反例；原log5693799B/e636efb3…8df1，30native/6primary长612，末15:47:30全部306Frob返回，但四交/Norm/18×9未返。只读collector46028499822全hash一致；完整pins/失败链见终点链§19。
 
-唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；17:09仍in_progress，joblog404尚无数学回执。完整二次域native软件run46032975863已PASS（全原域/CH=A/修改基重建），改进后保原两char0 pins/60源/29/2453/64/minimal及全部门；源码只读、Sage禁网、令牌仅host公共PASS读取。见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)，不重启、不存矩阵或可重算输出。
+唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；17:39:38仍in_progress，末次joblog404尚无数学回执。完整二次域native软件run46032975863已PASS（全原域/CH=A/修改基重建），改进后保原两char0 pins/60源/29/2453/64/minimal及全部门；源码只读、Sage禁网、令牌仅host公共PASS读取。见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)，不重启、不存矩阵或可重算输出。
 
 ## 二、原算术来源与全域缺口
 
