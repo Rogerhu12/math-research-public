@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-G36-complete-1198-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-P3-original-Delta-power-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -77,24 +77,14 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 原候选在 $L^2(\mathbb Z_2)$ 上为 $Af(y)=w(y)f(y-1)$，
 $$
-w(0)=0,\qquad
-w(y)=\alpha_{v_2(y)},\qquad
+w(0)=0,\qquad w(y)=\alpha_{v_2(y)},\qquad
 \alpha_j=\exp\left(-\frac{280}{3}16^j+90\,8^j-300\,2^j+\frac{850}{3}\right).
 $$
-A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍未知，排除此候选亦不完成Hilbert ISP。
+A单射、稠密像、拟幂零且非紧；普通非零真闭不变M未知，排除此候选也不完成普通ISP。全部原结论/来源/失败范围保本次完整快照，不重算。
 
-完整 $D_A$ localizing 但范数不闭，所有统一最优c族非localizing，范数闭包无非零紧算子；这条闭性缺口已经明确，勿重复套缺假设的判据。正向加权平移、负向零结论、有限头的下三角精确分类和至多2N成本端点都已付。
+完整D localizing但范数不闭、统一成本球非localizing、范数闭包无非零紧均已付，勿套缺前提的判据。正/负向平移、有限头下三角分类及2N端点已付。[负幂域与等距共轭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)保全部RanA^k，真实递推原像满足u_n=Phi^(-n)(R_n)u_(n−1)；交A^kM稠密但无费用率。[同成本有限头逼近](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)给弱紧及有限最优值达到，任意变化目标有限成本未付。交换子收缩多项式密度/特选同头平均已付，一般平均统一成本球强不连续，不能假保持同输入的插值。
 
-[负幂自然域与等距共轭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)保全部 $\operatorname{Ran}A^k$，$\Phi=AXA^{-1}$ 与逆互为D代数等距自同构。真实递推 $f_n=R_nAf_{n-1}$ 的原像满足 $u_n=\Phi^{-n}(R_n)u_{n-1}$；每个真不变M中的 $\bigcap A^kM$ 稠密，但无增长率。
-
-[全D最优成本有限头化](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)已付同成本强逼近、固定成本有限输入像弱紧及有限最优值达到。继续同一变化递推来源的真实凸最优费用；不能假任意目标有限成本。
-
-已付交换子收缩多项式密度与特选同头平均，但一般平均在统一成本球强不连续，故不能由全D强逼近获得保持同输入的交换子插值；两完整证明/旧范围保本次快照，不重做。
-
-
-同源运输/双预算及硬、任意复软复制的累计log费Θ(n⁵)已付；原软最优W_n²/(W_n²+λ)、dyadic边界和全整数前缀普通范数无界的完整证明保快照。仅改实现不降四次，必须改变真实目标并同时付全部前缀/逆像双费。一般非复制来源及未知普通M的D保持仍开。
-
-硬复制和任意复软复制（自适应、统一有界放大、固定非零球）已有五次累计成本障碍，原幂衰减只有四次；软化cut不能修复。一般有限头重排与非复制来源仍开。未知A不变空间未证被D核心保持。
+硬复制及全部复软复制（自适应、统一有界放大、固定非零球）同源双费累计log为Theta(n^5)，原幂仅四次；W_n²/(W_n²+lambda)、dyadic边界与全前缀普通范数无界均已付。改变cut或实现不降此障碍。继续真实不同目标、全部前缀/逆像双费、一般有限头重排与非复制来源、未知普通M的D保持；不重试已冻结复制门。
 
 ## 4. 其余开放路线和范围
 
@@ -222,3 +212,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保全有限/无限正ell²来源；新[4/5位严格1/2](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)由次数10支持、真实特征系数及6平方/10均值差全整数944ms返回，给同五位低源budget>I/2和末边<L1/2，未称最优或扩至六位。高出生/内部高度/上源费用仍开。[完整S2首次SIGALRM](notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-8542.md)在180.033秒只返低逆/上源三块，无cost或轨道，冻结换先消分母/真实矩阵预算；保整个上投影和两cross。[新Ward完整cost首次中止](notes/2026-11-28-five-bit-s2-ward-first-resource-attempt-8542.md)真180.047秒/356660KiB/−14，90.746秒已返同源cost，后续投影核对/平方迹无终记录或结果文件；不能细分中断行，无反例/证书。冻结换五次companion/Newton矩。六位完整支持最大流失败及84个新平方迹浮点值保[新尝试](notes/2026-11-28-six-support-ward-attempts-8542.md)，不作正性结论；N=M未证。
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。
+
+**碰撞P25/3新输入：** d6cad4仅读已刊四原多项式两片及既存P3参数，在完整QQ(lambda)[u]/P3三维权代数做原Q欧氏恒等，检验实际Delta^1..4；非首一u头先入完整λ覆盖，每次实际逆及目标商分母全部保留，整代数逆逐三分量乘回。首派前root与独立代理只读审查通过，未冒称已执行。若泛型返回也仅限λ补图，所有异常纤维和原个别N/P继续。
