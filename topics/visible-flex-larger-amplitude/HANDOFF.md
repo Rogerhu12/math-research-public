@@ -63,6 +63,6 @@ R248仅活动像，固定p4须共同R650或全部mixed pairs；均值J≠normal 
 <!-- visible-larger-parallel-10:end -->
 
 <!-- visible-larger-parallel-11:start -->
-并行公开Actions11：[run 46000835895/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46000835895)；[实际记录](notes/2026-11-27-public-actions-46000835895-1.md)。阶段`warm`/completed；已返1，exit=0。
-并行11规则核查：2026-11-27 12:47:10 UTC，真实pull至`bb9f4faf5ca195b12bfce692485f2b7bffc29526`，双README无变化。
+并行公开Actions11：[run 46000835895/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46000835895)；[实际记录](notes/2026-11-27-public-actions-46000835895-1.md)。阶段`followup_waiting`/running；已返1，exit=未返。
+并行11规则核查：2026-11-27 12:47:13 UTC，真实pull至`9dea60fd0da28129dfb5b508c1a297667bda2f20`，双README无变化。
 <!-- visible-larger-parallel-11:end -->
