@@ -162,6 +162,6 @@
 
 - [R1011](results/R1011-fixed-undepleted-highest-cycle-and-chow-euler-factors.md)：全54图在原full9上由σ_ar=[π]的完整商同构，给一次/二次图pullback和全部degree修正；P−/η/Cor后严格Chow等式Y_j,p^depletion=d_j(p)Y_j,0。两个明确Euler因子均非零；消β Euler后固定未depletion类AJ²精确接原Kν，7993真检测同一固定Y0，跨p非零仍待。
 
-- [R1013](results/R1013-original-flat-thirteen-weights-and-complete-long-window.md)：原点平坦化权同时保全部 n=rp+b 前缀；完整十三trace尺度为π^n，仅diagonal才13^h。p>13³时覆盖H≤L_p，全部原点/二挠对数与可能holomorphic项、两个exact及指定Z分量都保留；完整sigma/P/Gaussian单位三角矩阵返回原模p^H必要行，前H−1项仍全精度。old非零已在同一长读者检出，未把下层字线赋canonical零。
+- [R1013](results/R1013-original-flat-thirteen-weights-and-complete-long-window.md)：平坦十三权保全部 n=rp+b 前缀与π^n尺度，H≤L_p完整Cartier边界/两exact/Z分量及sigma/P/Gaussian三角返回原模p^H行，前项保全精度。§9扩至原全部22维，质量/O留数全保；E2帽末项+1、第一Cartier帽不再奇偶减一，V0上限恰旧帽+1，完整Hurwitz尾重新支付。真实质量修正及固定伴线只通过整个加权trace交换Π，保G_j^p𝔉_i完整乘积，不向字线赋canonical零。
 
 - [R1012](results/R1012-original-thirteen-fixed-word-sources-and-full-rational-trace.md)：固定十三Kummer字逐一属于degree10扭线，Miller/平移完整返回十维；隔核权十三字皆有准确1/13首项。两primitive全有限型给真实伴线Lπ与E571220，质量匹配双支差3Δ125/4保原old非零。全degree13有理trace消去Aπ² apparent分母；完整乘积后准确缩成0/平方/非平方三轨道，不提前交换几何投影或赋加权中央零。

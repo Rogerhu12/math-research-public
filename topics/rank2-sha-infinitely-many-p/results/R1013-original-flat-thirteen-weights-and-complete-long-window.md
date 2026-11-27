@@ -746,3 +746,226 @@ $13^{n/(p+1)}$，也不能因两支共轭而先认其中央读数相同。
 R1007（适配模型及 Gaussian）；R1010（六阶隔核和未平均 trace）。
 
 
+## 9. 同一个平坦权作用整个原22维来源，及保全 W 的配对
+
+本节是在上述结论之后的完整来源扩展。令
+
+$$
+\mathcal V_{130}=\Pi_0\mathcal S_{130}
+=\left\{\sigma^{130}x^2P(X):\deg P\le21\right\}.
+\tag{50}
+$$
+
+取其原整基 $\sigma^{130}x^{2+3j}$（$0\le j\le21$）上的
+$\mathcal O$ 系数。现在允许质量和六阶非零，也不要求
+$(X+1)^2\mid P$。下面重新支付因此改变的帽，不沿用(5)的增益。
+
+### 9.1 整个前缀保留，不需要十二阶起点
+
+本节 $U_{\pi,f}$ 仅从零阶起。原(10)的同一个 $W_{r,+}$ 仍满足
+
+$$
+6(k_r+1)p\ge(r+1)p>rp+b=n.
+\tag{51}
+$$
+
+因此(13)对全部 $0\le n\le N$ 原样成立；不需增加一个可调权。
+原(16)、(18)–(20)的完整 trace、全部核低 jet 和 $\pi^n$ 尺度均保持。
+在(39)–(44)使用同一单位下三角矩阵，但(44)的内和下限准确改为
+$n=0$，完整保留质量项及其 Gaussian 卷积。
+
+$+$ 权仍消掉非零十三核的全部极。现在只能断言
+$\operatorname{ord}_O A_{r,+,p}\ge-10$；
+乘 $\sigma^{10}$ 或 $P_{10}$ 后仍正则，质量正是原 $m_0(f)$。
+在二挠处，$R_f$ 是正则函数，失去原四阶零的增益，所以
+
+$$
+\boxed{\begin{aligned}
+\operatorname{pole}_{E[2]\setminus O}\eta_{10,r,b}^{+}
+&\le d_{r,b}^{\rm full}
+=p^3-p^2+C_{r,b}p+1<p^3,\\
+\operatorname{pole}_O\eta_{10,r,b}^{+}&\le b+1\le p,\\
+\operatorname{res}_O\eta_{10,r,b}^{+}
+&=\pi^{-b}c_b(f).
+\end{aligned}}
+\tag{52}
+$$
+
+这里仍是(21)的同一 $C_{r,b}$。由(23)和 $p>13^3$，
+$C_{r,b}\le p-1$，所以第一式的严格不等号成立。
+当 $b=0$ 时，最后一式包括真实的 $m_0(f)$，不能省去。
+(22)仍付全部其它 $Z=0$ 点的正则性。
+
+### 9.2 重新支付第一层精细帽
+
+本节第一 Cartier 的形式帽为
+
+$$
+d_1^{\rm full}=p^2-p+C_{r,b}+1.
+\tag{53}
+$$
+
+它已经与 $b+1$ 同奇偶，因此这次**不能**再减一。
+第二层满足
+
+$$
+d_2^{\rm full}
+\le\left\lfloor\frac{d_1^{\rm full}-1}{p}\right\rfloor+1
+\le p,\qquad
+p(d_2^{\rm full}-1)+1\le d_1^{\rm full}.
+\tag{54}
+$$
+
+原 §4.3 的六种角色表完整保持；其 $\rho_b$、$a_b$、
+$\alpha_{r,b}$ 都读取本节实际完整微分。
+同样的(28)–(36)于是仍给全部边界和两 exact，但精细帽改为
+
+$$
+\boxed{\begin{aligned}
+\deg_1 V_0^{\rm full}
+&\le\frac{p(p-1)}2+
+\left\lceil\frac{C_{r,b}}2\right\rceil,\\
+\deg_1 V_1^{\rm full}&\le\frac{p-1}{2}.
+\end{aligned}}
+\tag{55}
+$$
+
+这恰比(37)的第一层上限增加一，而不是无声地保留旧帽。
+两个 $a_0Z,a_1Z$ 的角色范围与原点权仍为(38)。
+因此全22维扩展并未删除质量、原点小留数或全纯 exact 分量。
+
+### 9.3 全22维的真实 Tate 尾和质量修正
+
+用 R602 的原 $W=z^2x$、$U_\sigma=\sigma^\circ/z$，
+第 $j$ 个整基的整个 Gaussian 来源准确为
+
+$$
+e^{-130cz^{p+1}}\sigma^{130}x^{2+3j}
+=w^{21-j}U_\sigma^{130}W^{2+3j},\qquad 0\le j\le21.
+\tag{56}
+$$
+
+全部指数非负。这些式子属于同一个完整整 Hurwitz 代数，
+并在 R614 的 $w<s(p-1)$ 窗口内系数全整。
+质量非零没有增加一个负幂输入。
+
+令 $J_f(v)$ 为原 Newton 级数，保其 $h=0$ 常数项 $m_0(f)$。
+该项的导数为零，故原(45)的导数截断形式保持。
+对每个完整基，强 Hurwitz 界给归一后第 $h$ 项
+
+$$
+v_p(\text{第 }h\text{ 项})
+\ge h-1-v_p((hs)!)+v_p((h-1)!)
+\ge\frac{h(5p-7)}{6(p-1)}-1.
+\tag{57}
+$$
+
+取 $h_0=(p-1)/2$。在 $h\le h_0$ 时，所读 $hs$ 严格小于
+原整窗端点，故 $h>H$ 的各项含 $p^H$。
+在 $h>h_0$ 时，(57)严格大于 $(p+1)/6\ge H$；
+在首端点这归结为 $3p^2-14p+7>0$，随后随 $h$ 单调增加。
+所以(46)–(47)对整个原整 $\mathcal V_{130}$ 仍成立。
+该论证保全部无限尾，未沿用质量零时的额外六阶增益。
+
+若另以适配 Gaussian 定义整个 $J_f^{(\pi)}$，则质量修正为
+
+$$
+J_f^{(\pi)}(v)=q_\pi^{-v}J_f(v),\qquad
+j_f^{(\pi)}=j_f-m_0(f)\log_pq_\pi,\qquad
+q_\pi=\pi^{p+1}/13.
+\tag{58}
+$$
+
+这由原所有非负整数权及上述 Tate 收敛得到。
+本篇实际(44)已经换回原 Gaussian，所以使用(47)时不再另减一次；
+若直接比较适配中央值，则必须保(58)。尤其不将质量一伴线的
+两个适配导数冒认相同。
+
+### 9.4 几何投影只与整个带权 trace 交换
+
+对全 $\mathcal S_{130}$ 定义同一亚纯 theta 算子
+
+$$
+\mathscr A_{r,p}(f)=\sigma^{10}A_{r,+,p}(f).
+\tag{59}
+$$
+
+$W_{r,+}(X)$ 是完整几何主型，$[\pi]$ 与 $\mu_6$ 交换，
+且 $130-10=120$ 被6整除。因此原两个 theta frame 的实际角色给
+
+$$
+\boxed{\Pi_0^{(10)}\mathscr A_{r,p}
+=\mathscr A_{r,p}\Pi_0^{(130)}.}
+\tag{60}
+$$
+
+这是一条**整个** trace 算子的等变身份。
+若先分成 R1012 的字 $G_j^pF_{-pj}$，
+(60)仍要求对完整 product 作 $\Pi_0$；
+它不允许把单个非 principal $G_j^p$ 留在外面，只投影 $F_{-pj}$。
+
+使用 R1012 的原绝对相位，记
+$\nu_\pi=g m_\pi/13$、
+$\rho_\pi=-11(1+\delta)/40$、
+$L_\pi=(t x_{\bar\pi}-x_\pi)/(t-1)$、
+$\Psi=\Psi_{571220}$。
+其整个来源身份通过(60)给，对每个 $i\ne0$，
+
+$$
+\boxed{\begin{aligned}
+\Pi_0^{(10)}\mathscr A_{r,p}
+      (\mathcal P_{\pi,i}\Phi_*)
+ &=\frac{\mathscr A_{r,p}(\Phi_*)}{12}
+   +\varepsilon(i)\nu_\pi\,\mathscr A_{r,p}(L_\pi),\\
+\Pi_0^{(10)}\mathscr A_{r,p}
+      (\mathcal P_{\pi,i}\Phi_{260})
+ &=\frac{\mathscr A_{r,p}(\Phi_{260})}{12}
+   +\varepsilon(i)\rho_\pi\nu_\pi\,
+       \mathscr A_{r,p}(\Psi).
+\end{aligned}}
+\tag{61}
+$$
+
+还可在完整 product 上直接核(61)。令
+$\mathfrak f=R_f/R_\pi^{10}$，
+$\mathfrak F_i$ 是它的第 $i$ 个原 deck Fourier 分量，
+$G_j$ 是整个 $W_{r,+}$ 的第 $j$ 个 deck 分量（都含实际 Kummer 字幂）。
+当 $i+pj\equiv0\pmod{13}$ 时，完整未平均 trace 和正交投影给
+
+$$
+\boxed{\begin{aligned}
+[\pi]^*A_{r,+,p}(\mathcal P_{\pi,i}f)
+ &=13\pi^{-10}G_j^p\mathfrak F_i,\\
+\Pi_{-10}(G_j^p\mathfrak F_i)
+ &=\frac{\pi^{10}}{13}[\pi]^*
+ A_{r,+,p}(\Pi_0\mathcal P_{\pi,i}f).
+\end{aligned}}
+\tag{62}
+$$
+
+$\Pi_{-10}$ 是源函数的实际 $\varepsilon^{-10}$ 角色投影，
+与除去 $\sigma(\pi z)^{10}$ 的原 frame 相容。
+将 R1012 的全来源式代入(62)，就是(61)的逐个带权字版本；
+投影始终施在 $G_j^p\mathfrak F_i$ 整体上。
+
+这里的右边仍是同一 $W_{r,+}^p$ 的完整加权输入。
+$L_\pi,\Psi$ 的质量一和全部高系数均保留；
+不能将 $\mathscr A(L_\pi)$ 或 $\mathscr A(\Psi)$
+直接换成未加权的两个数 $j(L_\pi),j(\Psi)$。
+对 $\bar\pi$ 原样保其全部相位得到第二支。
+质量匹配与双支差可以在(61)上作真正线性运算，
+但两支各自的带权 trace 算子也必须保留。
+
+这些实际伴线属于本节整格：$L_\pi$ 的唯一新分母为
+$t-1$（范数16）；$\Psi$ 由 R1012(30)的完整整 theta 投影及
+$\rho_\pi\nu_\pi$ 规范。
+该规范量的所有零极只在 $2,3,5,7,11,13$，所以本篇
+$p>13^3$ 没有额外的整性删集。
+
+最后，R1012(44)给(14)的完整、无需选择 torsion 根的13维有理余式。
+可将本篇已经显示的 $W_{r,+}$ 直接代入该式，计算所有
+$A_{r,+,p}$，再使用本篇完整前缀与(55)。
+因此(61)是固定字线与原 canonical 长窗之间可直接消费的实际配对；
+它仍不把 canonical 零传播给各字或各亚纯伴线。
+
+

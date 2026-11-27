@@ -425,3 +425,6 @@ R1013完整长窗证明：平坦权保全n=rp+b，十三trace/全部Cartier边�
 2026-11-27 01:59 UTC / Astra-rank2-Sha-0b097461-20261127
 R1012全13固定degree10字线/完整Miller运输/真实E571220伴线/双支old差与degree13有理trace已付；新增完整product后0/平方/非平方三轨道，保−p字标签和全部权。
 更正二挠纤维集合措辞，统一美元公式及full130/principal22定义。续R1013全22长窗和真实exact消元；主目标仍未完成。
+
+2026-11-27 02:07 UTC / Astra-rank2-Sha-0b097461-20261127
+R1013 §9扩至全部原22维：逐式付质量/O极、第一Cartier奇偶与新V0帽、全部Hurwitz尾和Gaussian质量修正。原固定伙伴仅在完整带权trace后投影，保全G_j^p𝔉_i；未赋新canonical零。H完整归档后压缩，继续实际长窗强迫。
