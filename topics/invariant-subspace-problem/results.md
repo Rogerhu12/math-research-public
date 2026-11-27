@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 Phi主图整个H7原纤维排除](results/R150-appendix-unit211-Phi-zero-main-entire-H7-original-exclusion.md)：原七维QQ代数全部嵌入，316覆盖互素后两个原fixed4结式仅剥b⁴，全lambda八次gcd返回1；0.385492544秒/exit0，主图合补图全闭。
+
 - [R271 六位一特殊权完整S1及同源裕量](results/R271-appendix-six-site-one-special-weight-full-s1-and-relative-source-margin.md)：完整最高Gram逆与九维来源保原C2，F>(2/3)C1²、创新费用<F/9，精确正余量给严格Schur正性；一般独立六权接口保留。
 
 - [R150 全W两原均值一次式及固定结式](results/R150-appendix-unit211-W-two-original-mean-S-affine-and-fixed-resultants.md)：同S一次系数lambda4/5、固定原结式lambda10/16完整乘回，C13整零纤维保留，精确一次式两片已存；57.781107262秒/exit0，未宣W空。
