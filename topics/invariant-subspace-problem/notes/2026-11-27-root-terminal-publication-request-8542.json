@@ -1,22 +1,19 @@
 {
-  "message": "ISP: return the original exceptional Phi mean unit-six F26 curve and advance new original inputs",
-  "parentCommit": "17eda17024a8b1c566d096b64695cad64112f80c",
+  "message": "ISP: exclude the original equal-singleton Phi zero ell nonone face and preserve corrected quartic input",
+  "parentCommit": "3e17fc19ce405009cbe0c19f3459932c6a203a47",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-general-rho-two-original-means-N1-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-general-rho-two-original-means-n-one-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-one-whole-quartic-original-return-8542.py",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-one-first-shadow-failure-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-one-first-shadow-failure-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-one-complete-quartic-original-return-8542.py",
     ".github/workflows/invariant-subspace-equal-singleton-phi-zero-ell-one-quartic-original-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-Ahat-zero-whole-original-QQ-return-8542.py",
-    ".github/workflows/invariant-subspace-w-lambda-three-halves-ahat-zero-original-qq-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-F26-new-original-inputs-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-F26-new-original-inputs-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-collision-ell-nonone-exclusion-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-collision-ell-nonone-exclusion-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -26,8 +23,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-general-rho-two-original-means-n-one-8542.yml",
-    "invariant-subspace-equal-singleton-phi-zero-ell-one-quartic-original-8542.yml",
-    "invariant-subspace-w-lambda-three-halves-ahat-zero-original-qq-8542.yml"
+    "invariant-subspace-equal-singleton-phi-zero-ell-one-quartic-original-8542.yml"
   ]
 }

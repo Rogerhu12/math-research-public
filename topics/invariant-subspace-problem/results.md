@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [h=k,Phi=0的整个ell≠1原面排除](results/R150-appendix-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion.md)：八未缩放原式固定11/9阶QQ投影143/80互素；完整ell1u2四次纤维保留。
+
 - [Phi判别式零原均值乘法理想的完整F26必要曲线](results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md)：新T闭包与真U6目标得到729项单QQ因子，精确可恢复输入；未排空曲线。
 
 - [W整lambda=3/2的三条首一权曲线覆盖](results/R150-appendix-unit211-W-lambda-three-halves-entire-original-three-curve-cover.md)：固定6阶完整原列证书、全QQ因子Ah·G4²·F18；三e头全已付，覆盖不是排除。
