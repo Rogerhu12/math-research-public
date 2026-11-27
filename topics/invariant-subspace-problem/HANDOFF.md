@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 1b05dbbac4852c6bf6fe590a12ba631708d7aa2f（2026-11-27 18:21:15 UTC，Actions run46048787170实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46048787170-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 18:21:14 UTC/c6a82165c2bae0a06733c416cba024b27b237a4b，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** bb97bcba0cc6806539be17bbde34c589b5fa17eb（2026-11-27 18:22:32 UTC，Actions run46048944957实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46048944957-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 18:22:32 UTC/4adc984308d7490377d70a562f4abf57c3c109d3，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `c9fb3d2d1e3f9d7af84d287132ca0dc5f047d331`（2026-11-27 18:20:52 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `bb97bcba0cc6806539be17bbde34c589b5fa17eb`（2026-11-27 18:22:07 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-collision-P3-1474-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-uniform-S2-margin-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -47,7 +47,7 @@
 
 - M=kerT、N=closureBM、W=M⊖N，N=M未证。固定闭G的proper U、目标U全部交织/rho及B/dyadic不保持U已付。新同G稀疏注入链全H稠密、全κ三次增长，ℒ_e0给B→完整T迹类拟亲和；新移级不可闭。真w仍ℒ_w|M=e0⊗w并灭N，不付G保N/正角/真实源费。
 - 真实E为T*y=Sf、By+Tf=0。闭X/Y与F=P_I X、Z:F→W给核心⇔F0、首范围⇔Z0、次范围需closureZF=W。两型Schur三正项及alpha^-2、物理双坐标界已付；真矩自动存在、P_Lr_D0、实际RanK*费仍开。
-- Γ有限恰同g0在实际RanK*，W只付闭包；s→0/E0/Z0/同W源费及倒数发散未付，旧负门冻。全有限/无限正ell2出生一首末边<2/3统一尖锐，4/5位<1/2已付；六位出生一half未付。**五位全独立正权完整S2已闭：** 同物理cost平方迹N/D加权98，2841完整参数经BigInt 3942ms转6936正轨道（658965单项式），Tr(K²)<1/4；同L严格half给S2。合已刊R298硬端S1与R275完整同余，六独立位出生2九维首边严格成立。所有两cross/全上MP保；高出生/内部高度/原joint费用/N=M仍开。9b5/3e34资源失败及56996 JSON失败准确保，修复后566b真实0.233秒/46236KiB/0。
+- Γ有限恰同g0在实际RanK*，W只付闭包；s→0/E0/Z0/同W源费及倒数发散未付，旧负门冻。全有限/无限正ell2出生一首末边<2/3统一尖锐，4/5位<1/2已付；六位出生一half未付。**五位全独立正权完整S2已闭：** 同物理cost平方迹N/D加权98，2841完整参数经BigInt 3942ms转6936正轨道（658965单项式），Tr(K²)<1/4。新472正均值差+6478严格正轨道实际3655ms进一步给Tr(K²)<3/16、同L完整S2余量>(2−√3)/4。合已刊R298硬端S1与R275完整同余，六独立位出生2九维首边严格成立。所有两cross/全上MP保；新六位完整精度companion特征系数首次派发；高出生/内部高度/原joint费用/N=M仍开。9b5/3e34资源失败及56996 JSON失败准确保，修复后566b真实0.233秒/46236KiB/0。
 
 ## 原Haar未知普通M与闭域
 
