@@ -53,3 +53,7 @@ $$
 $$
 
 构造通过、模支持或任何尚未返回的运行状态都不作一般 L0 排除。
+
+## 实际门返回：输入冻结
+
+run45918826850 / job140244380823 于2026-11-27 01:09:29 UTC完成。独立std测试成功，完整slimgb QQ门在1200秒超时，只输出 `ISP_L0_BEGIN_FIVE_MINORS_QQ_LIFT`；无单位、无lift乘回。driver实际1268.484761秒、4159892KiB、source exit1。原输入394463字节/SHA230f4b91保持，冻结不重跑。CI实际pull并检查两README于00:48:18.443368 UTC，已读提交029dfddea1d7b5418e83bf75fdbb5350de2e146d；两规则blob均无变。完整小回执见 `notes/2026-11-27-unit211-L0-five-original-minors-actual-QQ-timeout-8542.json`。继续新的原一元覆盖返回。

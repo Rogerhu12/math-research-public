@@ -43,7 +43,7 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
-**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V及X的两方向完整首项零面均闭。新[w首项排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-w-leading-complete-exclusion.md)付λ3/2及整J4，源54f6780f实际21.511314秒/exit0；原lambda首项源579c3c75给w−1/−1/2及整H7，X可合法按λ34次、w52次首一化。四个原8×8子式保所有主元零支、32列身份；其与X的五曲线源f48568e0/run45918826850尚待准确回收。旧fae9完整门、C/X/Y门478dfef5、旧投影/PRS/次数降行/H15输入全部冻结，具体失败/资源/规则SHA保归档及正文。继续同rho/t原交点及全部P/N，不倒置新余式首项或以模次数代特征零。
+**原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V及X的两方向完整首项零面均闭。新[w首项排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-w-leading-complete-exclusion.md)付λ3/2及整J4，源54f6780f实际21.511314秒/exit0；原lambda首项源579c3c75给w−1/−1/2及整H7，X可合法按λ34次、w52次首一化。四个原8×8子式保所有主元零支、32列身份；其与X的五曲线源f48568e0/run45918826850已1200秒超时/exit1，仅BEGIN，冻结。新[完整消lambda结式3352次证书](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-CX-exact-degree-3352-cover.md)由QQ行变换上界与完整模下界相合支付真正有限覆盖及1009首项单位；源d69a91de实际31.958961秒/exit0，覆盖全部候选的原返回仍开。旧fae9完整门、C/X/Y门478dfef5、旧投影/PRS/次数降行/H15输入全部冻结，具体失败/资源/规则SHA保归档及正文。继续同rho/t原交点及全部P/N，不倒置新余式首项或以模次数代特征零。
 
 **S0/Lt0 整支已闭：** [完整原615次覆盖及三个因子的特征零排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-complete-original-cubic-cover-exclusion.md)已排除最后三值互异、Af非零的一般图；与此前全部退化面合并，S0/Lt0不再开放。源9d0c7789实际163.600807秒/exit0，原G132/完整QQ覆盖/保次数与首项的一元Bézout全回乘，不依赖独立QQ门。现接原U值atlas的一般LS非零层；新[加权矩四参数图及原P1双零完整排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)已付(Pf,Pt)非同时零，保ell/T/等权零面。原两线Cramer Delta零仍开；L0继续，旧模内存/600秒输入冻结。
 
@@ -152,28 +152,16 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。
 
 
-L0原C39,53已付；新[九行的三个原8×8子式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-additional-original-parameter-curves.md)给C39,54/C40,53/C40,54，24列与原行组合全乘回且保主元零支，51.704210秒/exit0。继续同参数原返回，不重跑冻结大投影。
-
-
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-L0的[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)已保C/X/Y完整来源及10单位；源478dfef5/run45915015066实际1200秒仅BEGIN、无单位，driver1249.315264秒/4456132KiB/exit1，冻结。另C/X直接QQ投影250秒exit−9同样不重跑；转新已付首项后的原参数关系。
-
-
 [原图核心与R143实际反根](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)已付S=T⁻¹闭稳定、S²=α0⁻¹B1|K及原D图核心；余RanT⊂RanT*或等价实际伴随域包含，未知K不套全尾根整除。另D=−2Z的D²L核心只在旧有限放大稠密条件下成立，一般慢行不能借B1强单位。
-
-
-L0新[整X的lambda首项排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-lambda-leading-complete-exclusion.md)已付w=−1/−1/2及整个H7：两个原QQ Bézout和273次完整QQ覆盖/保52与7次的一元1009 Bézout全回乘。X可在已付环首一化为34次；续其他原曲线的同点除法/返回，不倒置未知余式首项。源579c3c75实际21.538033秒/exit0。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
 
 
 [同一规范来源的全整数窗口倒数预算](results/R271-appendix-canonical-carry-window-reciprocal-energy.md)已付Σ||P≤n w||⁴/E_n≤4Aδ||w||²；非零W必有尾Σ1/E_n有限。可用实际不规则窗口或平方根乘有限层迭代log检验，但已有指数来源界仍不付倒数发散；继续同u的Γ与输出逆权。
-
-
-L0新[四个原子式与X的五曲线必要系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-original-minors-parameter-system.md)保32列原cofactor及13已付纯参数单位，完全替换旧高次Y门。源f48568e0实际build70.484423秒/exit0，三变量输入394463B/SHA230f4b91；只启动这一新QQ门，须真实I*cert=1，不以构造通过判空。
 
 
 [所有不整除闭根的实际第一阶接口排除](results/R12-appendix-nondivisible-roots-have-no-actual-first-row-gauge-interface.md)已覆盖Q=FZR+KR、非零UHF交换F与任意有界交换K；有限q²次结式保全部真实域，R171与Puiseux分别排慢/有界行，不需根C自伴。仍须识别未知底空间上的真实gauge比较；原全尾结论不自动作用于R143未知K反根。

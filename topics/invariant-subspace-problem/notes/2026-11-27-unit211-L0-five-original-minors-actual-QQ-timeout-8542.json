@@ -1,0 +1,52 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "runId": 45918826850,
+  "jobId": 140244380823,
+  "createdAtUTC": "2026-11-27T00:47:52Z",
+  "completedAtUTC": "2026-11-27T01:09:29Z",
+  "conclusion": "failure",
+  "fullInputSha256": "230f4b911f6d93f32bfa45de9b414d33b70bca03ee70809a040ad1423d548491",
+  "fullInputBytes": 394463,
+  "gateTimeout": {
+    "claimExcluded": false,
+    "elapsedSeconds": 1268.385159,
+    "stage": "actual_five_original_minors_L0_QQ_timeout",
+    "stdoutBytes": 33,
+    "stdoutSha256": "e268ac20afbd19ace827f422af3dc54896eba347fa56a95e20d39cc7300bd007",
+    "text": "ISP_L0_BEGIN_FIVE_MINORS_QQ_LIFT\n",
+    "timeoutSeconds": 1200
+  },
+  "actualDriverReceipt": {
+    "elapsed_seconds": 1268.484760695,
+    "max_child_rss_kib": 4159892,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "029dfddea1d7b5418e83bf75fdbb5350de2e146d",
+        "before": "eb30eb09fe418ab41a828b844cd1831ccdeccbe9",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T00:48:18.443368+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45918826850",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "eb30eb09fe418ab41a828b844cd1831ccdeccbe9",
+    "source_exit_code": 1,
+    "source_git_blob": "e8b16ed23f7379926e3e1f812ac46fdb7149c927",
+    "source_sha256": "f48568e06e13d777e0649fb7e8f5f1720a35823d4be853a22c10d034ac54887d",
+    "stdout_bytes": 31639,
+    "stdout_sha256": "a250a4b7814d2364be117853e189b48efcdefe4a0be4c8633a8fc965a1275eaf",
+    "stop_reason": null
+  },
+  "downloadedJobLogSha256": "72d6c18fe50abf2142f6ff3c32cd233c50f8b69dca1c3533c227fa1fbbaa844d",
+  "downloadedJobLogBytes": 80827,
+  "verifiedLiftUnit": false,
+  "inputFrozenDoNotRerun": true,
+  "ordinaryISPClaim": false
+}

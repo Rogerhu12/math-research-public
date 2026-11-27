@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0原C/X有精确3352次特征零覆盖（2026-11-27，已证明必要归约）：** [73阶原Sylvester的QQ行变换上界和完整模下界](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-CX-exact-degree-3352-cover.md)以2233次有理行变换、163009条逐项回乘把上界3390降到3352，与同一完整结式模1009次数相合；真实QQ首项于是为1009单位，单首项完整覆盖合法。源d69a91de实际31.958961秒/96912KiB/exit0。原允许参数交点有限，但尚未返回排除全部候选；另五曲线QQ门实际1200秒超时/exit1已冻结。
+
 - **R150 L0整个X的w首项零面为空（2026-11-27，已证明）：** [lambda=3/2与四次J4的完整原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-w-leading-complete-exclusion.md)核原首项−λ5(2λ−3)²J4²/5804752896；52/51次QQ Bézout和208次完整QQ覆盖/保34与4次的模1009一元Bézout均全乘回。源54f6780f实际21.511314秒/96348KiB/exit0，现可按w52次合法首一化，与已付lambda首项合并；未宣一般L0排空。
 
 - **R150 一般LS非零图的原P1双系数零整支为空（2026-11-27，已证明）：** [保等权的四参数矩坐标、559次完整QQ覆盖和原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-P1-double-zero-and-weighted-moment-coordinates.md)不除ell/T/等权分子；双零支逼T=−ell、u=2ell，再由常首项四次H返回全部原Gram。43次因子与原578次投影的模1009一元Bézout及4/4/2/1整个QQ商代数均准确乘回；源70017734实际11.540406秒/47912KiB/exit0。只支付P1至少一个系数非零，Cramer Delta零与一般LS仍开。
