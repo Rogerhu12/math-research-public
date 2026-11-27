@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原相对Hodge截面与中央连接槽（已证明）**：[R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)以已刊Liu–Zhu/DLLZ从同一43维原整塔取得相对filtered algebraic connection，fine/stack下降与strict exact已付。Fil0W→O严格同构给唯一Hodge截面，右作用微分b(v_h,v)付款；在此frame连接差为(α,η;b(α,−))，Griffiths迫η=0及α_L5=0。保原Π0/2/4和λ∞的全部中央迭代式，未把零连接槽当中央函数恒定。α4/8实际E6/E10尺度、relative crystalline/整格及SS粗盘首jet继续，不用未刊普遍判据。
+
 - **原Gaussian导子的固定判别式实现（已证明）**：[R1135 §13](results/R1135-original-Gaussian-low-row-fiber-constraint.md)付原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。
 
 - **原 affine 中央值的准确 character 界（已证明）**：[R1148 §12](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已付同一规范cover在ℓ−1的实际中央计数：ρψ(a,b,z)f(u)=ψ(z+bu)f(u+a)、R:u↦−u，trace=ψ(z−ab/2)；原几何满H给H¹维2p(g−1)。故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ，D_p=g+p(p−1)(g−1)。全部中央值在ℓ>p⁸的affine上出现；在§11排cusp素 tΘ0/sΞ≠0，ℓ>4D_p²（充分ℓ>p⁸/144）仍有同一个affine点兼容全部global labels并Hensel升Qℓ。大Chebotarev存在不再当affine空；继续小素实际值与p-local连接。

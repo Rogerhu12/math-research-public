@@ -49,6 +49,9 @@
 
 [R1148 §12已](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)付同一规范cover在ℓ−1的实际中央计数：ρψ(a,b,z)f(u)=ψ(z+bu)f(u+a)、R:u↦−u，trace=ψ(z−ab/2)；原几何满H给H¹维2p(g−1)。故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ，D_p=g+p(p−1)(g−1)。全部中央值在ℓ>p⁸的affine上出现；在§11排cusp素 tΘ0/sΞ≠0，ℓ>4D_p²（充分ℓ>p⁸/144）仍有同一个affine点兼容全部global labels并Hensel升Qℓ。大Chebotarev存在不再当affine空；继续小素实际值与p-local连接。
 
+
+[R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)以已刊Liu–Zhu/DLLZ从同一43维原整塔取得相对filtered algebraic connection，fine/stack下降与strict exact已付。Fil0W→O严格同构给唯一Hodge截面，右作用微分b(v_h,v)付款；在此frame连接差为(α,η;b(α,−))，Griffiths迫η=0及α_L5=0。保原Π0/2/4和λ∞的全部中央迭代式，未把零连接槽当中央函数恒定。α4/8实际E6/E10尺度、relative crystalline/整格及SS粗盘首jet继续，不用未刊普遍判据。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个原H_N带宽1、2完整系统均只有标量；p=101,107,131,137，run46071081257/job140747905385成功，全部核维1及单位子式已付。只排有限输入的三/五对角自伴随机制，不代e/K4非同时零；不重跑。
