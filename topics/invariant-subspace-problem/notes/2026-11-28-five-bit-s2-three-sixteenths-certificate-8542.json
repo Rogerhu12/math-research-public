@@ -1,0 +1,32 @@
+{
+  "schema": "isp-five-bit-s2-three-sixteenths-mean-certificate-v1",
+  "status": "CERTIFIED",
+  "input_source": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": 46046216601,
+    "job_id": 140666034355,
+    "git_blob": "7ca2a2d4993ddf33f2292dd1b512d201b0c84d5a",
+    "sha256": "566b0cea6a673ccd813bf65fc5f5afeefc450ed8939bbfbe4ebdc2d5925572e6"
+  },
+  "exact_input_sha256": "2d7078584c2aea20d9e80f0dda7700f446b6471aeb3e17ef9eb8d237f415f909",
+  "elementary_records": 2841,
+  "original_degree": 98,
+  "total_orbits": 6936,
+  "leading_orbits": 458,
+  "leading_negative_orbits": 22,
+  "leading_total_mean_weight": "0",
+  "positive_mean_differences": 472,
+  "negative_mean_demand": "3101091202451400",
+  "strictly_positive_remainder_orbits": 6478,
+  "remainder_monomials": "613365",
+  "minimum_positive_remainder_coefficient": "30",
+  "equal_variable_mass": "583567942034732582448000000",
+  "orbit_sha256": "03e94dd38ef4d349b26856286196dd6fd0332416e271d4c8f170ee6ad09a83cd",
+  "statement": "3D-16N is a sum of 472 positive multiples of single-transfer symmetric mean differences and 6478 strictly positive monomial orbits. Hence Tr_L((A*Gu A)^2)<3/16 and full five-site S2 has uniform budget (2+sqrt(3))/4.",
+  "scope": "Same original five-site full primitive source. No optimality, arbitrary-birth, infinite source, or ordinary ISP assertion.",
+  "elapsed_ms": 3655,
+  "execution": "Actual pure V8 BigInt using the identical core embedded in the distributed mjs",
+  "source_sha256": "3e4b2d7cd5dd5b5d8aef671f2a0300fd7242c8275950ac74362a9e59f91d59f7",
+  "flow_sha256": "f8e600508e00d016b73fecb864c8723bcd38b71a718fbc17fca740cc44c36d5f",
+  "date_taipei": "2026-11-28"
+}
