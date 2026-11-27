@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-A143-actual-two-column-cofactors-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-exceptional-PB-exact-2033-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -198,7 +198,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[同G稀疏核注入的全H链](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)。** 一次高度选择保全κ三次增长，完整旧链误差及Π+GT望远镜支付全H稠密；ℒ_e0是B→T迹类拟亲和。真w仍秩一限制并灭N；新移级图闭包多值、不可闭，不能替代原闭G或付实际源费/N=M。
 
-**[Phi例外权原PB的2106有限覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-original-PB-finite-2106-cover.md)。** 642bad真11.963秒/61048KiB/exit0，新PB偶奇/U6给C31,50（1632项）与已存F26真QQ互素。固定57阶QQ上界2106，逐lambda纤维Vandermonde右核及det消失阶计数给每个有序权图≤2106不同基点、每点≤6个原T；两个有序图不合并计2106。模1009真2033仍差73，QQ精确度/LC未付；cf39新输入只读两精确payload返无穷远原核，120秒1GiB，不重算原det/QQ或模结式。全部有限点尚须原返回。
+**[Phi例外权原PB的真实首一2033覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-PB-exact-infinity-2033-monic-cover.md)。** cf39只读精确已存F26/C31,50，原固定57阶反转于λ无穷远，15轮完整QQ核提取73阶；4161核/除s及48735截断乘回。与已付模R2033相合，故原QQ次数2033且LC1009单位；15.748秒/60968KiB/exit0。每个有序权图≤2033不同基点、各≤6原T，所有rho头零保留，两图不混计。新4b385取E1/EBe/EBo/N1/NBe/PBe及实际T闭包/U6，接已存R的原Gauss；不重放旧PB/NB六行，有限点仍须返回。
 
 **Phi一般rho清Gram失败冻结。** ed0真102.023秒/905380KiB/SIGABRT，FLINT明确分配101202984字节失败；只返原两线及H0content，mean/N1未返。[准确失败](notes/2026-11-27-unit211-Phi-zero-general-rho-two-cleared-Gram-memory-failure-8542.md)及原源保留，不抬限重跑，换小原标量/显名分母输入。
 

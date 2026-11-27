@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 unit211：Phi例外权原PB无穷远精确73阶与首一2033覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-PB-exact-infinity-2033-monic-cover.md)：固定原R真QQ度2033、LC1009单位；保所有rho头零与每有序图≤2033基点。
+
 - [R150 unit211：W 的 A143 非零补图九条原行、两列乘法与三参数 cofactor](results/R150-appendix-unit211-W-A143-nonzero-original-two-columns-and-three-parameter-cofactors.md)：全原返回及λ次数6/8/8必要式；保A143零面与所有新首项零。
 
 - [R150 unit211：h=k、Q=1−u、Delta≠0 整个原面排除](results/R150-appendix-unit211-equal-singleton-Q1u-nonzero-Delta-complete-exclusion.md)：完整2/6/24次常数代数K[u]原E1/EBe返回1；互补Delta0续同一u自由Gram。

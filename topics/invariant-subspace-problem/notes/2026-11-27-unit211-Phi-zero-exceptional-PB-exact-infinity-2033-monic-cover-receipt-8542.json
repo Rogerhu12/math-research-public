@@ -1,0 +1,382 @@
+{
+  "schema": "isp-Phi-exceptional-PB-exact-infinity-73-degree-2033-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "job_id": 140578575320,
+  "execution": {
+    "elapsed_seconds": 15.748269055999998,
+    "max_child_rss_kib": 60968,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "1df329b12bac25982f3637f678fe6c41de5e1812",
+        "before": "1df329b12bac25982f3637f678fe6c41de5e1812",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T14:57:19.565546+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46020492155",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "1df329b12bac25982f3637f678fe6c41de5e1812",
+    "source_exit_code": 0,
+    "source_git_blob": "e92d4cfedf9d68d5479f8330a71468ad5f90f876",
+    "source_sha256": "cf39a4241f61c8b62919dd8a9e652a364d3f56c1f490142d9969097da26754f1",
+    "stdout_bytes": 15813,
+    "stdout_sha256": "e7af309e07d2a0a67f0bed0d5020a5016fb56a9e0a25f1fabaa602f9fc3ac7aa",
+    "stop_reason": null
+  },
+  "initial": {
+    "fixedRhoDegrees": [
+      26,
+      31
+    ],
+    "dimension": 57,
+    "originalLambdaUpper": 2106,
+    "originalRowDegrees": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "initialPrecision": 74,
+    "targetInfinityValuation": 73,
+    "savedFullModDegree": 2033,
+    "reverseEachOriginalCoefficientReturned": true,
+    "noOldCofactorOrResultantReplay": true,
+    "stage": "new_original_fixed_57_infinity_matrix",
+    "seconds": 6.098010640999998
+  },
+  "actual": {
+    "exactInfinityValuation": 73,
+    "exactQQLambdaDegree": 2033,
+    "originalPrimitiveResultantIntegral": true,
+    "leadingCoefficient1009UnitPaid": true,
+    "originalTwoPolynomialQQGcdOnePreviouslyPaid": true,
+    "distinctOrderedWeightPointUpperBound": 2033,
+    "fixedOriginalSylvesterPreservesAllRhoHeadZeroFibers": true,
+    "noOldProjectionReplay": true,
+    "statistics": {
+      "kernel_equations": 4161,
+      "polynomial_division_products": 4161,
+      "precision_reduction_products": 48735,
+      "unipotent_square_zero_checks": 15
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "constantRank": 47,
+        "actualKernelDimension": 10,
+        "selectedRows": [
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 10,
+        "previousPrecision": 74,
+        "newPrecision": 73,
+        "kernelSha256": "152ba9a10ef892512402389872943a74f6c3f27c95a006f9fd8c9f94cfef03ab",
+        "reducedMatrixSha256": "034ea8f96b03908e3ba638c3bafaeeb74d686e55690c05626347d03285941a53"
+      },
+      {
+        "round": 2,
+        "constantRank": 48,
+        "actualKernelDimension": 9,
+        "selectedRows": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 19,
+        "previousPrecision": 73,
+        "newPrecision": 72,
+        "kernelSha256": "1dd210b46055aab664d95b734f9efa019fe624e03051a840e78e444f5955de65",
+        "reducedMatrixSha256": "362c7773b4ad8c5105510f2a7ec257b4254c8f95511be512a3c14339ea32d694"
+      },
+      {
+        "round": 3,
+        "constantRank": 48,
+        "actualKernelDimension": 9,
+        "selectedRows": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 28,
+        "previousPrecision": 72,
+        "newPrecision": 71,
+        "kernelSha256": "582a0cde8c42ac8b0d3bb5afcdace1e773bdbb06cd314639dff2cc2e9a3e6bfd",
+        "reducedMatrixSha256": "5e89aeca31359a27c6c2df5c212a26d00d2eb4cc3896786b14fb4600fe988526"
+      },
+      {
+        "round": 4,
+        "constantRank": 49,
+        "actualKernelDimension": 8,
+        "selectedRows": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 36,
+        "previousPrecision": 71,
+        "newPrecision": 70,
+        "kernelSha256": "86ede88c3c9b109489a55e0e597e1918b50d3c5fffb8484baa9662bd0d31c537",
+        "reducedMatrixSha256": "1d22eddddd549fb3151d2a2514ffc893913480d77a4d18c0408dfbf995df8572"
+      },
+      {
+        "round": 5,
+        "constantRank": 50,
+        "actualKernelDimension": 7,
+        "selectedRows": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 43,
+        "previousPrecision": 70,
+        "newPrecision": 69,
+        "kernelSha256": "56d1739e6bbfc57fbde39f2b872b14a07f6e63116d853df52734e35f4b307ecd",
+        "reducedMatrixSha256": "c990387e3c8fd03f1e2d55108781df2e9c33a1e0ae17eb345be9490280eb6532"
+      },
+      {
+        "round": 6,
+        "constantRank": 50,
+        "actualKernelDimension": 7,
+        "selectedRows": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 50,
+        "previousPrecision": 69,
+        "newPrecision": 68,
+        "kernelSha256": "b92a138cb2cd34330a2436c84d7ea40460c7d2788ea965883e087f4c83021345",
+        "reducedMatrixSha256": "c4b115b7faf7e3505501d06b95cd18a7fb54fd8ba38853e98d21190dbba3319f"
+      },
+      {
+        "round": 7,
+        "constantRank": 52,
+        "actualKernelDimension": 5,
+        "selectedRows": [
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 55,
+        "previousPrecision": 68,
+        "newPrecision": 67,
+        "kernelSha256": "7ab073e14597b8c1a3d36686cd5f127798f78869b1940b86e5be2261fb03f691",
+        "reducedMatrixSha256": "ba89cd9bfd820e9dc8953c14c859d408691e5191257c36e7784c896a27401839"
+      },
+      {
+        "round": 8,
+        "constantRank": 52,
+        "actualKernelDimension": 5,
+        "selectedRows": [
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 60,
+        "previousPrecision": 67,
+        "newPrecision": 66,
+        "kernelSha256": "2b29b39e9058c57035910b8aff6eb9fbc6d609190d2483ddd4b3f39ddf57683a",
+        "reducedMatrixSha256": "e61c6d8a31fd171cbc765b014158b5438a39087a448c43296a66294557813f07"
+      },
+      {
+        "round": 9,
+        "constantRank": 54,
+        "actualKernelDimension": 3,
+        "selectedRows": [
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 63,
+        "previousPrecision": 66,
+        "newPrecision": 65,
+        "kernelSha256": "315d93e3cfb1905f8fe78a844d15231705887d022670aaade4b9c3de6f6028e0",
+        "reducedMatrixSha256": "80f7078e89887ac43404519febf7f6100002f6fbf9eb3186bffafeeadb2217da"
+      },
+      {
+        "round": 10,
+        "constantRank": 54,
+        "actualKernelDimension": 3,
+        "selectedRows": [
+          54,
+          55,
+          56
+        ],
+        "extractedTotal": 66,
+        "previousPrecision": 65,
+        "newPrecision": 64,
+        "kernelSha256": "babf7fa986c49b7c21a98be99cd3a284b387ed1e0d4f7c52d839b8d8e3f14c30",
+        "reducedMatrixSha256": "0739ac7af2ab7faa5686028a0feb7267fd248841eb6eaa6dab0bfd3f1343e355"
+      },
+      {
+        "round": 11,
+        "constantRank": 55,
+        "actualKernelDimension": 2,
+        "selectedRows": [
+          55,
+          56
+        ],
+        "extractedTotal": 68,
+        "previousPrecision": 64,
+        "newPrecision": 63,
+        "kernelSha256": "ee0f1a436920f17128d11250ebfa3c124e56cc9a4fe735b7e5d791dea4799643",
+        "reducedMatrixSha256": "07e17374af3f10a9d45bd33b01c83ea135ef0286548a7093049aa0fef631aac0"
+      },
+      {
+        "round": 12,
+        "constantRank": 55,
+        "actualKernelDimension": 2,
+        "selectedRows": [
+          55,
+          56
+        ],
+        "extractedTotal": 70,
+        "previousPrecision": 63,
+        "newPrecision": 62,
+        "kernelSha256": "8c3078cb538fb155407d39d6a8544e6ecf87f0a94a0f41922cab97c48ec017cb",
+        "reducedMatrixSha256": "4d4074d27d6ec7a7162295d7653bab5d6f29881fa3bf59979a59ea91fa85a663"
+      },
+      {
+        "round": 13,
+        "constantRank": 56,
+        "actualKernelDimension": 1,
+        "selectedRows": [
+          56
+        ],
+        "extractedTotal": 71,
+        "previousPrecision": 62,
+        "newPrecision": 61,
+        "kernelSha256": "89c3e46919df8db7975212b4c1eca303de271802dd548e876a4e93746288fe25",
+        "reducedMatrixSha256": "0c4a1f204ebf8f639f90fdffae1417458825068b5ca7fe4177eb1af871e7a776"
+      },
+      {
+        "round": 14,
+        "constantRank": 56,
+        "actualKernelDimension": 1,
+        "selectedRows": [
+          56
+        ],
+        "extractedTotal": 72,
+        "previousPrecision": 61,
+        "newPrecision": 60,
+        "kernelSha256": "2abe2f868544553873e3224b484d05fcb0eba8e6fee958812f92e50e824e7643",
+        "reducedMatrixSha256": "08f30c7b85f590c8fd3589769b6da18ea79fc974163a6460f3bf4a4d71a8fbea"
+      },
+      {
+        "round": 15,
+        "constantRank": 56,
+        "actualKernelDimension": 1,
+        "selectedRows": [
+          56
+        ],
+        "extractedTotal": 73,
+        "previousPrecision": 60,
+        "newPrecision": 59,
+        "kernelSha256": "7e0b9cee585cf403af4fe8dac3bdd9e493b11ffa382658e7656867bf178a365c",
+        "reducedMatrixSha256": "a45331b5d7802be361a4825cb8fa33f5d6567f83e1c5e6e43e062a19286adceb"
+      }
+    ],
+    "entireExceptionalBranchExcluded": false,
+    "ordinaryISPClaim": false,
+    "stage": "complete_new_original_exceptional_PB_infinity_input",
+    "seconds": 15.669418320000002
+  }
+}
