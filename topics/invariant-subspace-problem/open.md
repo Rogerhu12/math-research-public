@@ -237,3 +237,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 ## h=k 整个 Delta=0 已排空（8542，2026-11-28）
 
 [完整定理](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：原完整QQ578覆盖只余C1/C2/C4。C1、C2此前整纤维已闭；新3b4在C4和完整首一u三次的12维常数代数上返回全八原Gram，保同一自由f，E1/EBe全系数Bézout=1。真1.906秒/37028KiB/0，没有常数分量丢弃或重放旧有理u cofactor。结合此前碰撞退化原面，整个h=k、Delta0闭；下一步处理Delta非零，h1/k1与其他图仍保留。
+
+## W 完整首一 F 原消去（8542，2026-11-28）
+
+[完整引理与原十一行应用](results/R150-appendix-unit211-W-exact-monic-F-elimination-all-leading-zero-fibers.md)：qF=F²+pF+q、Ri=Ai+BiF 的同一F存在性准确等价全部Hij=BjAi−BiAj与Θi=Ai²−pAiBi+qBi²；所有Bi=0时也覆盖。八条原F线性行给28Hij+8Θ，连r2/R6为38同S二次余式，保原D非零，未展开全部系数/未宣理想逐项相等。新70603只首发三个Θ与r2/Hij的五固定cofactor；所有S/F/λ首项零面仍保留。

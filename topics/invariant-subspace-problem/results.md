@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W首一F精确原消去含全部首项零面](results/R150-appendix-unit211-W-exact-monic-F-elimination-all-leading-zero-fibers.md)：完整十一原行点态等价同S的38二次式；保同一F，无Bi或D范数逆。
+
 - [h=k整个Delta零排空](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：C4×u三次完整12维代数全八原Gram，E1/EBe同自由f全Bézout1；合七λ完整覆盖和C1/C2排除。
 
 - [W原Gram和值的四行三列全部参数余子式](results/R150-appendix-unit211-W-coupled-original-Gram-value-four-by-three-complete-minors.md)：实际λ度12/12/9/11，所有F首项零和四个λ头零保留。
