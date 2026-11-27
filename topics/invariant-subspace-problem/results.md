@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原一位定量来源转移及六位出生二319/320首边](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)：四项实际费用给一般alpha·epsilon/2余量，完整Schur变分及原H0比较返回六独立正权九维primitive上的统一319/320；不假交换。
+
 - [五位完整S2的统一3/16平方预算](results/R271-appendix-five-site-full-s2-uniform-three-sixteenths-square-budget.md)：同一原费用3D−16N完整分解为472正均值差与6478严格正轨道；全物理S2余量>(2−√3)/4，保持两交叉项和同一低源。
 
 - [碰撞P3原Delta平方与完整1474参数覆盖](results/R150-appendix-unit211-collision-P3-original-Delta-square-and-complete-1474-parameter-cover.md)：五步同Q原欧氏身份、全权代数真逆及Delta²返回；全部异常λ留于SF1474，P支≤4422、当前碰撞合计≤43617不同λu基点，原Q纤维仍开。
