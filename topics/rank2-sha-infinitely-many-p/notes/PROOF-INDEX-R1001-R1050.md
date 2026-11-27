@@ -115,3 +115,6 @@
 
 
 - [指定半类§9](2026-11-27-original-q11-specified-half-norm.md)：原q11指定半Norm真实run45985515813/job140459993008/source239d3f42206392460b4c345ec85fbb547104c739成功；全13个闭点/厚零和两个degree12分割齐，二重零(9,8)准确(1,1)。原第一半AQ=(9,6)=−G，G=(−2,−6)真阶16，反半G；[12]AQ=P=(1,3)非零，故AQ本身不等于原被12杀的旧shadow。
+
+
+- [R1042](../results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)：R1042给原S34/T72/Φ126真正共用H3/F81平面，保全四输出；93/2511两odd whole核均为β，另90/810两even核保χ10λ，原ray只相容细化3和31。固定六次Q全七系数含q5=0，实际五深单单位网格读三条normalized-log差，各v=n；全部质量多项式、真实Kummer周期、不同单位cut及完整补域齐。两carry whole零核(41)尚不消掉(43)补域。
