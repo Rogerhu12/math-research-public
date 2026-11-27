@@ -1,0 +1,87 @@
+{
+  "execution_id": "p47-ell4513-original-complete-transfer-v1",
+  "prime": 47,
+  "auxiliary_prime": 4513,
+  "cartan_nonsquare": 5,
+  "smoothing_integer": 5,
+  "total_seconds": 600,
+  "reserve_seconds": 30,
+  "rules_last_read_commit": "ea1e99a413aad93165c82ec9e1063809f97671da",
+  "certified_input_run": 45925829303,
+  "certified_input_job": 140266778118,
+  "certified_input_source": "91de38ca63948967904fc5a5a0d8f0a8717ca3ed",
+  "certified_character_sha256": "880799848773da716df2dd4b5db76c07fcc0027e281baff963aff0eeeaf82014",
+  "certified_coarse_points_sha256": "12025eb9c76692312c856360add6a4702cbe02ccaf51def477bafeaf5e06d1ee",
+  "certified_global_sieve_run": 45928658257,
+  "certified_global_sieve_job": 140275928914,
+  "certified_global_sieve_source": "e5d0d9d4101ca12f960db709bfe34acf17663791",
+  "certified_cm_rows": [
+    {
+      "candidate_id": 0,
+      "j_rational": 0,
+      "twist": 0,
+      "t": 0
+    },
+    {
+      "candidate_id": 76,
+      "j_rational": -3375,
+      "twist": 0,
+      "t": 29
+    },
+    {
+      "candidate_id": 77,
+      "j_rational": -12288000,
+      "twist": 0,
+      "t": 30
+    },
+    {
+      "candidate_id": 100,
+      "j_rational": 16581375,
+      "twist": 0,
+      "t": 6
+    },
+    {
+      "candidate_id": 108,
+      "j_rational": 8000,
+      "twist": 0,
+      "t": 14
+    },
+    {
+      "candidate_id": 141,
+      "j_rational": 1728,
+      "twist": 0,
+      "t": 0
+    },
+    {
+      "candidate_id": 196,
+      "j_rational": 287496,
+      "twist": 0,
+      "t": 8
+    },
+    {
+      "candidate_id": 220,
+      "j_rational": 54000,
+      "twist": 0,
+      "t": 32
+    }
+  ],
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/scripts/original_p47_cuspidal_disks.py": "35a0035d4f238670309d19c9acec35b5f9610cf13f5676f96503c59048148f98",
+    "topics/serre-uniformity/results/R9-cm-reduction-separation.md": "2c488ed7af03f3b715d2af326c2eaed9a120ccb16032fafac53409e6b1b500ce",
+    "topics/serre-uniformity/results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md": "fbcbc8a09c0c7cd8ce0ba4dba7b1d00a765006b4c9e120bfa7ccd667ff044d3c",
+    "topics/serre-uniformity/results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md": "471480dd01ef510b2ceef037cd90b626cee154958e4a212ae7cb6bcad933558f",
+    "topics/serre-uniformity/results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md": "a18fc3bb9b501f64e2bacf4298d2e367f438c2bb674a54c86f4b84f112d82ac9",
+    "topics/serre-uniformity/results/R1070-original-cuspidal-labels-by-division-polynomial-values.md": "f04e191f4728fa23ea364c4784a0438e8275bd45d0fdb82e7ceb61a5286f3825",
+    "topics/serre-uniformity/results/R1071-original-p-local-cuspidal-label-polynomials.md": "24ddfcd55185d09a7421bd26f031af02921c9c8656b9d207d9e2d274110b78ae",
+    "topics/serre-uniformity/results/R1072-certified-original-p47-cuspidal-disk-labels.md": "7acc862f66576e667a9c2ceb181b728c667365f24a05aeebe117316103ae2660",
+    "topics/serre-uniformity/results/R1073-original-split-auxiliary-cuspidal-sieve.md": "75b4c23e74c379e129800a6edfe515346e7d663a0288542bfd8fcd6e4fb680c6",
+    "topics/serre-uniformity/scripts/original_p47_ell4513_cuspidal_transfer.py": "758df1a12306555605dde7db91ef2ab6d2aa62d9853dd134a875046e88ebaa7f",
+    "topics/serre-uniformity/notes/2026-11-27-original-p47-ell4513-cuspidal-transfer-method.md": "883f4e68c13d3394fc1e4a49b9703a97296ad652a40d94de010635500db6a00a",
+    "topics/serre-uniformity/results/R1074-certified-original-p47-eight-CM-disks.md": "3ae4f84eac6252cdeafdc18436f0ca80eb7a0e90133e08d63ad47b691a7f1d67",
+    "topics/serre-uniformity/results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md": "2be10465ee4c0264ddf8ff6b4693c44602428d836a739f7b81ecd7fbeaba9539"
+  },
+  "scope": "New complete original ell4513 point-label image, all scalar/twist/cusp branches, independent coarse point count, and transfer of eight previously certified globally admissible CM labels. No repeated ell283 exclusion or rank computation.",
+  "storage": "Compact public stdout receipts and runner scratch only; no artifacts, Releases or committed reproducible arrays."
+}
