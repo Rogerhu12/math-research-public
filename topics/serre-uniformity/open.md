@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-low-weight-source-reduction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-exact-Pade-top.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -49,6 +49,8 @@ R1140§§10–12再以真实degree-p norm（不除p）把端点写成p-isogeny�
 
 ## O1：全p同一真实本原标签的临界非零
 
+R1137§2.5已付原分子准确最高项：J_N=δ(3N+1)(v²)^N[z^N]F₀²，有限Clausen递推给P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N为单位。故degP=N；若双缺陷，则约后分子恰degree N−2，仍须实际缺陷排除，不声称Q顶项或gcd单位。
+
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)§2从原moving p重极给准确Gauss–Padé接口：整差商q_A=(h_A−h_-Q)/a支付碰撞与唯一p极，vφ_-−Ψφ=U^pχ，χ(−Q)=−d0/v为原旁列单位。Q(x)=H(−v²x)、P=−J(−v²x)/a0，N=(p−5)/6，QF−P的contact恰2N+1、首余项−d0(−v²)^(2N+1)/(a0v²)非零；F=√(1−x)·₂F₁(1,5/6;4/3)=₂F₁(1/3,1/2;4/3)于全部安全次数。e=K4=0 iff Q0=Q1=0，实际P/Q同除x²后deg≤N−2/contact2N−1。首余项unit、char0正常性/Jacobi正性均不单独排该有限特征缺陷；此为当前指定目标。
 
 [原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保真实Miller/Verschiebung、kerV/−Q刚化及全部P/N连接/自然基补偿。首normal×Picard一/四阶零、normal零阶unit；全V₀低阶共轭已排，不排指定读数。真实三挠cover η=−z/w给Prym Y²=−(3x+ε)(x³+2v)、完整θ Hasse/Gauss，θ为终止ε₂F₁；period仅<p安全jets，首共振p+1。全族Ψε普通加律保−HM、Rε保完整S补偿/常数，三挠ε^p及二阶边界不删。§15固定同一Prym的Ξ/Υ准确读3e、−3K4，proper高极自由项按CM权固定，两类同一CM线。完整Fermat L_j递推给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k项unit/后k项零；moving三挠不代fixed Picard，原两和非同时零继续。 §16普通全族连接完整为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M的div=V*O−pO、Hc=−DlogM、Q处c=−ε/6；全部moving-zero/高极输出保留。Aε^p−H^pAε=Ψε^p仅核尺度，仍须指定U^m的低jets。
@@ -79,27 +81,11 @@ R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darb
 
 [R1059](results/R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：实际X108双三次模型/原q尺度给A_p=(-1)^N3^(3N+1)S_n（亦−S_n/3），S_n=Σ(-1)^i binom(n,i)²/(3i+1)，n=(p−2)/3；原f_N=t²δ′A_p/[4(p+1)]。S单位与同h筛选仍开。
 
-R1012–R1053 的完整相位、Faber/CM/本原标签、全方向单位及至500000的已成窗口，逐字保于[本次前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)；只消费、不重算，不将全方向结论代同h mask。
+### 旧本原同 h 与 filtered-source 路线：只消费
 
-本节限定原指定CM源；其R317应用受O0全部附加条件约束，D/bc无统一上界。p=6N+5、h=6i+7、i+j=N−1，原J32准确单位乘(P_(h−1)(1/s)fi gj)^p；必须同一个本原h使三个因子非零，完整Norm/两CM权/det/半周期/ζ²相位不换。
+R734/R935的Legendre单位、R1012–53的全部CM/Faber相位及至500000窗口已成，完整公式在[本次前态](open-archive-2026-11-28-before-exact-Pade-top.md)。仍必须同一原本原h满足Legendre、fi、gj三mask；R945的227/857反例禁止“完整trace单位⇒中央同h”。R949/954/957–59与R968准确mark未关，R964逆character不控制fi。
 
-R734/旧双标签/R935已给原Legendre单位标签；R945的227/h115之f18=0、857/h433之g70=0虽完整S单位，排除“完整trace单位⇒中央同h”。替代标签与旧窗口仅消费。R949/954/957–959准确mark全失败iff原B_p(C,X)含(1+24X)，粗CM因子cusp值1，valence/全源非零不能排。R968原列Z_i∈M_(p−5)的mark=−72(−864)^−N fi gj，目标仍是这些实际mask列不共同含E4³。
-
-R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源秩二不代指定jet。R969有限113/131/227满秩及A/E4组合只限三点。R971经完整Wilson–Fourier与M0=37182145的CRT/Dirichlet给无限列数不足，故全p full-span已否；特定A/E4包含、实际mark非零仍开，不重开普通Vandermonde或全span路线。完整旧公式/角色/预算在逐字归档。
-
-[R992](results/R992-original-full-level-Jacobi-operator-and-filtered-stability-criterion.md)：在整个原M_(p−5)、F=Y^NP(z),z=X³/Y²上，真实Serre D给 **G(F)=[D²(XF)+X²F/144]/[X²(1−z)]**，全表观分母消去。诱导L=z(1−z)∂²+(4/3−7z/3)∂−55/144，Jacobi B_d有互异λd=−(d+5/12)(d+11/12)、mark1；kerG正是Tate A/E4，标量B_k(1)^−1。**原filtered V≠0且G(V)⊂V⇒同h三因子非零**，非零假设现由R996/999覆盖55∤p+1，全p稳定性现由R1006否定。旧R969p227 central i18为pivot（组合13）、全局非零但mark0，严格排逐列本征；三个旧满秩点的G稳定无需重算。原E+帧G(F)(0,864)=(25F−D³F)(0,864)/144；下一步是actual heat/kernel作用，不能从算子与mask交换冒稳定。
-
-[R1006](results/R1006-end-column-linear-cyclic-dimension-and-filtered-nonstability.md)：固定Eichler源在q^p前精确约化到原端列；完整Fuchs方程/有理无穷远指数、Jacobi带宽和固定Taylor子式证明端列G循环维数≥cp。与原本原列数结合，得一整无限允许素数等差族原V不G稳定。故全p稳定路线关闭；原mark与特定A/E4包含未否，继续它们。
-
-[R1009](results/R1009-end-column-order-four-CM-jet-bound.md)：原端列P_p在全部p≥41、p5mod6时，粗CM消失阶≤4；8093由旧R706的g_N单位与R995首导式关闭，无重算。真实十步方程经q^p精度/次数界转成固定PF非齐次方程，五个实际局部源输出的Taylor矩阵准确三角化，最后主项3⁴·8093/(2²⁰·25·11)；因此某j≤4的G^jP_p标记非零。p≠8093时该四阶在局部源中可达到，不决定真实零阶mark；5∤p+1时端列保留，继续证明原筛选列的真实有限CM来源，不要求全V稳定。
-
-[R995](results/R995-original-mixed-source-for-the-first-coarse-CM-normal-jet.md)、R997、R1000 的实际mixed heat、108→36 ε-vector、全部bulk与首次边界已成，完整公式和执行来源保存在本次逐字open归档。原mask杀自身边界的所有连接迭代；k≤7不达critical、k8仅两端单位，不代原同h非零。真实G(Z)mark=(25Z+Ψ)/144仍含新partner，不能冒G稳定。
-
-[R996](results/R996-original-end-column-cusp-unit-and-filtered-space-nonzero.md)、[R999](results/R999-certified-second-end-column-and-filtered-space-nonzero.md)：原末/次末列的全部cusp/Legendre坏因子已通过完整exact公开回执排除，分别给5∤p+1、11∤p+1时原filtered V≠0；合为55∤p+1。原同h CM mark仍开。第二端列run44764524952/job136385485790成功0.0138129s，完整payload/hash/source见R999与归档，已成不重跑。
-
-[R1001](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)：原α=2+s、Nα=7的真实dual-Poincaré产品保全部cross/semicharacter与轴pole≤2；Π4×Π0减完整polar后给−6Aα F⊗G，Aα=4(5+6s)/7为原p单位。首p唯一边界−6Bz^(p−1)Wbar确消；原完整高卷积和mask仍须保留，单核balanced单位不代乘积单位。
-
-[R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：原十步Katz方程在五维CM jet上rank1，四个自由低jet及forced X12单位；原末列mark=79R0−96R1，局部方程容其为零。有限primitive、full权与6尺度均保；不能以局部自由模型冒actual global反例或用此方程代真实全局归一。
+R971证明无限列数不足，**全p full-span已否**；R992只给filtered V非零且G稳定的充分条件，R1006已证明无限族不稳定，**全p稳定路线已否**。特定A/E4包含、actual mark仍开。R1009付原端列粗CM消失阶≤4，非零阶mark；R995/997/1000的mixed heat及伙伴仍须原mask，不能跳成G稳定。R996/999付55∤p+1时V≠0及真实run/hash，不重跑。R1001 norm7完整cross/semicharacter和R1002四自由CM jets均只消费，不代原primitive同h非零。全部源、预算与精确单位沿上述前态续接。
 
 [R1082](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)付原Gaussian近p²值：G_(p²−4p−1)=H_p^p/(2δ)，H_p=2G_(p−3)+Σ_{i+j=p−3}G_iG_j=(2/5)∂G_(p−5)。完整carry、下位卷积与第一forced coarse斜率均保原源；H_p非零仍开，不从低G单位或Hasse simple roots跳步。
 

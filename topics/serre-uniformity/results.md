@@ -128,3 +128,5 @@
 - [R1141：原低权端点的算术支撑与实际圆单位杯积方向](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)：已证明p∤Bp−5时原arith-compact θ的I3像由{Fχ1,βχ2}张成（允许零），支付全部S支撑/Br–Pic/DVR socle；混合门内得到真实常数twist的field cup零，未知标量与proper H²仍保。
 
 - R1140 §§10–12（同文件）：已证明指定端点的真实degree-p norm/p-isogeny来源，trace-fixed常数、双权u⁴v⁸及fixed-Weil n⁻⁴均完整；得到保V_n₀投影的两个原单线单位的实际表达，不先宣bare trace proper。
+
+- R1137 §2.5（同文件）：已证明实际Padé分子最高系数P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N为单位，有限Clausen/原q2留数付清，degP=N；双缺陷仍未排。

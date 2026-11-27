@@ -536,3 +536,7 @@
 ### 2026-11-28 04:31 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1140 §§10–12将端点准确写成原p-isogeny两槽：degree-p norm不反除p，trace-fixed/gcd24付常数，Fricke仅交换4/8不强消，原Galois/Cartan重标给u⁴v⁸。
 - fixed-Weil dual generator的n因子、全部cross及trace intertwining回到原V_n；保投影和bare trace的proper边界。root亲读SV/纸核系数，o2 exact稿核，无数学执行；继续指定标量与原Picard障碍。
+
+### 2026-11-28 04:40 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1137 §2.5以原q2留数及自足symmetric-square有限递推付实际P_N单位，分子deg恰N；保平方根、相对δ与两个符号，没有把顶边界代二次缺陷排除。
+- root纸核原留数/Clausen递推，o2全文核，无数学执行；H/open为容量归档并精简已成旧路，全部公式与来源保前态，继续相邻Hankel及原proper Picard结构。
