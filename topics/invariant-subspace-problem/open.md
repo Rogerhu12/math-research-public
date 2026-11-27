@@ -213,7 +213,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；继续原lambda行模块。
 
-例外权图[真实QQ重数及146覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)只在λ半/H6整原纤维闭后剥真10/2重数，余2011与完整S全xgcd度146。[ψD真实三重数](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)由原QQ342矩阵的18独立核付，但整原纤维模秩138/156未闭，仍≤146不同有序(rho,λ)，不删18度。新a40直接取真QQ rho gcd、原D单位允许的T4及原N1首一z2，≤144维完整原mean/NV环境；唯有整原纤维真排空才使用已证ψ³并重新完整xgcd。旧87/55、C71/29、首头零曲线及个别N/P继续；ed0/879及全部旧失败冻结。
+例外权图[真实QQ重数及146覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)只在λ半/H6整原纤维闭后剥真10/2重数，余2011与完整S全xgcd度146。[ψD真实三重数](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)由原QQ342矩阵的18独立核付，但整原纤维模秩138/156未闭，仍≤146不同有序(rho,λ)，不删18度。[a40实际SIGALRM](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)：120.058秒只返22步到5次余式，无完整gcd/原值，冻结。新461以原G的156阶QQ乘法行空间发现rho3，完整F/G短除法及已证corank3付全根覆盖，再作原T4/z2≤144环境；整纤维真排空后才新1993/S2050完整xgcd。旧87/55、C71/29、首头零曲线及个别N/P继续；ed0/879及全部旧失败冻结。
 
 ## R271：全正权出生一尖锐 2/3 后的完整源（8542，2026-11-28）
 
