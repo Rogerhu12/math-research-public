@@ -1241,6 +1241,143 @@ Theorem 4；(1061.40) 的阶乘约化已在上文给出。
 root 推导全 $q$ 公式和两个数字矩形；o1_theta 独立逐项核
 阈值、四组 carry、末角、阶乘比与完整/半截边界。无数学执行。
 
+
+
+## 16. 原 Cartier 映射的完整 FM 线与指定系数
+
+令 $N=\mathcal O_E(O)$，保持原 $\omega$、
+相对 $F:E\to E^{(p)}$ 及 $N_p=\mathcal O_{E^{(p)}}(O)$。
+有限平坦对偶用这两条不变微分刚化后，准确给
+$
+\operatorname{Hom}(F_*N,N_p)
+ =H^0(E,N^{p-1})=L((p-1)O),\qquad
+f\longmapsto\mathscr C_{\rm rel}\circ f.
+\tag{1061.46}
+$
+右边的 $f$ 作为有理函数在 $O$ 的极阶至多 $p-1$；
+$f=U^m$ 正是 (1061.18) 的原映射，未换双覆盖分支线。
+
+取规范 Poincaré 的 Fourier–Mukai 变换。
+对任意 degree-zero twist，两原丛的 $H^1$ 均为零、$H^0$ 均为一，
+所以它们的变换是两条线丛 $\widehat{F_*N},\widehat{N_p}$，
+度数分别为 $-p,-1$。
+也可用 isogeny 相容
+$\widehat{F_*N}=V_E^*\widehat N$ 和
+$\widehat N\simeq N^{-1}$ 直接读出这两个度。
+因此
+$
+\mathcal M=
+\mathcal Hom(\widehat{F_*N},\widehat{N_p}),\qquad
+\deg\mathcal M=p-1.
+\tag{1061.47}
+$
+Mukai 的全忠实性使每个非零 $f$ 给出非零截面 $s_f$。
+
+必须固定 $\mathcal M$ 的有理帧。对 $P\ne O$，
+在 §9.2 已付的两条真实生成元中，$s_f$ 的 Cartier scalar 为
+$
+M_f(P)=
+\frac{\mathscr C_{\rm rel}(f(T)g_P(T)\omega_T)}{\omega'}.
+$
+当 $f=1$ 时，原刚化给
+$g_P=z_O^{p-1}(1+\cdots)$、$\omega=(1+\cdots)dz_O$。
+这个 meromorphic differential 只可能在 $P$ 有至多 $p$ 阶极；
+唯一留数为零，故 Cartier 后没有极点，是全纯常数。
+读取 $z_O^{p-1}dz_O$ 的系数准确得到 $M_0=1$。
+
+§9.2 的源、靶生成元在非零 Picard 点都非零，
+所以 $s_1$ 在这些点没有零。结合 (1061.47)，
+$
+\operatorname{div}(s_1)=(p-1)O,\qquad
+\mathcal M\simeq\mathcal O((p-1)O).
+\tag{1061.48}
+$
+令 $t_f=s_f/s_1$。
+原生成元的比较因子在这个 ratio 中完全相消，故
+$
+t_f(FP)=M_f(P).
+\tag{1061.49}
+$
+该式保持相对参数 $FP$，未把 $a^p$ 直接改成 $a$。
+
+在原 $\mathbf F_p$ 模型上作系数 Frobenius 逆识别，
+定义
+$
+\phi_f(P)=t_f(FP)^{1/p}
+ =\frac{\mathscr C_{\rm abs}(f(T)g_P(T)\omega_T)}{\omega},
+\qquad
+\phi_f\in L((p-1)O).
+\tag{1061.50}
+$
+一般系数下这是半线性变换；$f\in\mathbf F_p(E)$ 时，
+$\phi_f$ 在 $\mathbf F_p$ 上定义。
+这里使用的是完整函数族的 Frobenius 识别，
+不是让相对 Cartier 对变动参数取根。
+作为线空间的变换它是半线性同构；
+非零来自原 Hom 的全忠实，而非指定点值。
+
+设 $\zeta^3=1$，其作用为 $(U,V)\mapsto(\zeta U,V)$。
+原 divisor 和 $O$ 首项归一给
+$
+g_{\zeta P}(\zeta T)=\zeta^{p-1}g_P(T).
+$
+保 $\omega\mapsto\zeta\omega$、Cartier 半线性及
+$p\equiv-1\pmod3$，得到
+$
+\phi_{U^j}(\zeta P)=\zeta^{-j}\phi_{U^j}(P).
+\tag{1061.51}
+$
+同理 $[-1]$ 给 $\phi_{U^j}(-P)=\phi_{U^j}(P)$。
+偶性使其为 $U$ 的多项式；极阶及 $\mu_3$ 角色
+使原 $m=3N+2$ 的函数准确形如
+$
+\boxed{\quad
+\phi_{U^m}(P)=U(P)H_p(U(P)^3),\qquad
+0\ne H_p\in\mathbf F_p[X],\quad\deg H_p\le N.
+\quad}
+\tag{1061.52}
+$
+
+原 $P=Q+A$、$a=z_O(A)$ 下，(1061.34) 给
+$M_m(Q+A)=e a^p+O(a^{2p})$。
+绝对识别后为
+$\phi_{U^m}(Q+A)=e^{1/p}a+O(a^2)$；
+同时 $U(Q+A)=2va+O(a^2)$。所以
+$
+\boxed{\quad
+H_p(0)=\frac{e^{1/p}}{2v}=-\frac e{2v}.
+\quad}
+\tag{1061.53}
+$
+最后使用原 $e^p=-e$。这是已固定全部有理帧后的准确常数。
+
+若 $r_H=\operatorname{ord}_{X=0}H_p$，
+截面 $s_{U^m}$（即实际 $\Theta_{\mathcal A^\vee}$ 的方程）
+在 $\pm Q$ 的消失阶恰为 $1+3r_H$；
+在 $O$ 的阶为
+$
+6(N-\deg H_p)+2\ge2.
+\tag{1061.54}
+$
+这里的 $O$ 阶只属于 $s_{U^m}$，
+不是整个 $\Theta_{B_C}$ 限制的 $O$ 阶：
+在 $O$ 处还须保留 $B_E$ 因子。
+在 $\pm Q$ 处该因子为单位，§9.3 因而把
+$1+3r_H$ 准确传回原指定 theta 点。
+
+未证 $H_p$ 最高系数非零时，不称 (1061.54) 恰为二。
+$e=0$ 只会使指定点的阶至少四；本节尚未排除它，
+不能以全局截面非零代替原 $S_n$ 单位。
+
+原始来源：S. Mukai, *Duality between D(X) and D(X) with its application
+to Picard sheaves*, Nagoya Math. J. **81** (1981), 153–175，
+[原文](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BDBEBAC584BE15236C2D62C383A34245/S002776300001922Xa.pdf/duality-between-dx-and-with-its-application-to-picard-sheaves.pdf)。
+实读 Theorem 2.2、Corollary 2.5、(3.4)、(3.10) 和
+Proposition 3.11 的 principal-polarization 情形。
+原 Miller 帧、$s_1$ divisor、半线性角色与 (1061.53)
+由本节自证；o1_theta 推导，root 独立核准。无数学程序执行。
+
+
 ## 来源与本次核对
 
 - [R1059](R1059-original-fN-actual-X108-Raynaud-pairing-and-inverse-central-sum.md)：原 $X_0(108)$ 函数、good 模型、固定微分尺度和 $S_n$ 配对。

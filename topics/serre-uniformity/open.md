@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-small-auxiliary-points.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-miller-FM.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -15,7 +15,7 @@
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒落Q核候选。
 [R1057 §5](results/R1057-certified-original-p47-actual-lowest-functional.md)：本次真实C=15支付p47一次单位；逐节核C_*仅用于自动本原、逐块全MW消去不需该界，故原X₁指定c₁的v47(w)>0深盘唯一有理点为c₁。未分类其它盘/X_d/O0；无重算。
 
-[R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整source/target、全返回与p除法误差已付，原全轮廓精确读取[Z^k](T_c/A)(B_CM)，保κ₁/λ₀与双incidence。最低C_CM(T)=2B(c,L_CM)，实际2B(v,QD L_CM)保Q²；全p最低单位/深盘仍开。
+R1052完整source/target与原Z参数、κ₁/λ₀、双incidence及全Q²读数已付；[原证明](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)保全部尺度。最低2B(v,QD L_CM)的单位与深盘排点仍开。
 
 R1050原短PD/PF参数已由R1052完整消费，κ₁、双incidence与安全分母保原证明。
 
@@ -49,7 +49,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原X108三挠线准确给 $e\ne0\iff S_n\ne0$；有界primitive的 $h^3=2$、二阶解判据和真实Miller/Lamé矩给原半Dixon和。§15完整退化 $p^2$ Gauss/digit计算给 $4D_N'(1)+4D_N(1)/3$ 单位，只推出半和若零则其参数根简单；尚无actual CM参数桥或目标单位。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原三挠点e≠0 iff S_n≠0，Lamé给原半Dixon；§15只给加权矩单位。§16完整FM/Poincaré与M0=1固定φ=U H_p(U³)、H_p(0)=−e/(2v)，目标阶1+3ord_0H；O阶仅指Θ_A∨、仍保B_E因子。尚须原端值/无权半和非零。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原X108非CM四Cartier矩阵精确由B_n=P_n(3)=−a_p(E54)控制。明确九挠点/实际三次同源给原p2/5mod9时B_n≠0、非CM ordinary且核恰六CM。A_p=−S_n/3，但尚未证S_n=0⇒B_n=0，不能代原f_N单位。
 

@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：7ad798390451dda805da35f99eb1c232d4a935a3**（2026-11-27 08:01 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：9c2fb8456e32aa479abced4c40cc1f22484995d9**（2026-11-27 08:03 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；07:50再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-small-auxiliary-points.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-miller-FM.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -20,7 +20,7 @@ H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写�
 
 R1055/56原核两列与完整v规范原函数已付，全部尺度/p次幂修正保原文；最低单位仍开。
 
-[R1052](results/R1052-original-complete-CM-profile-and-actual-lowest-functional.md)：完整 source/target、全返回及除 $p$ 误差已付；原全轮廓读 $[Z^k](T_c/A)(B_{\rm CM})$，保 $\kappa_1/\lambda_0$。最低 $\mathcal C(T_c)=2B(c,L_{\rm CM})$，实际全 $Q^2$ 单位/深盘仍开。
+R1052原完整source/target与CM参数/系数尺度均已付，最低C=2B(c,L_CM)；原全Q²单位/深盘仍开。
 
 [R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md) 已付两行 $p>C_*$ 的全 MW 后 $M=1$；[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md) 给饱和系数映射与公共零重数界。最低单位/非中心仍开，全部原盘/相位/整尾保原文。
 
@@ -48,7 +48,7 @@ R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新�
 
 ## O1：原同一保留标签
 
-[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原三挠线给 $e\ne0\iff S_n\ne0$，有界primitive/二阶判据和真实Miller/Lamé给原半Dixon。§15全双digit给加权一阶矩单位；无权半和及其actual CM参数桥仍开。
+[R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原三挠点读数e≠0 iff S_n≠0；Lamé给半Dixon，加权矩单位不代半和。§16真实FM线及M0=1固定φ=U H_p(U³)，H_p(0)=−e/(2v)，全局非零不代指定端值；原非零仍开。
 
 [R1060](results/R1060-actual-X108-nonCM-Cartier-and-nine-torsion-ordinary-input.md)：原非CM四Cartier由九挠/三同源给 $B_n=P_n(3)=-a_p(E54)\ne0$（$p\equiv2,5\bmod9$）；六CM核准确。尚无 $S_n=0\Rightarrow B_n=0$，不能代 $f_N$ 单位。
 
