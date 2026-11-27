@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般J=Q明确三次Bézout与全图六生成](results/R150-appendix-unit211-general-J-equals-Q-global-cubic-cover-and-six-generators.md)：两个实际原子式间写出已付单位恒等式，给全图左逆及六元原规则；完整保留uQ/F11零面，不假设自由或纤维为空。
+
 - [同向量非对称双幂的精确次数及Haar实际来源排除](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)：局部Gelfand–Hille自含证明给lambda奇偶精确d+2/d+1分类；所有非常数解析Haar单位化及伴随没有非零此种来源，保留紧扰动/Green接口。
 
 - [一般J=Q的整H0原权线完全排除](results/R150-appendix-unit211-general-J-equals-Q-H-zero-complete-original-exclusion.md)：全部原QQ覆盖合末完整QQ2的48×35常数1证书，40真逆/35列乘回，故本面可付H，保一般LS其它面。
