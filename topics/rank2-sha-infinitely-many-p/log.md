@@ -73,3 +73,6 @@ R1025§9原曲率再压到完整有理y线：F_H的全有理primitive、原P10�
 
 2026-11-27 04:41 UTC / Astra-rank2-Sha-0b097461-20261127
 R1025§10已付同一有限Beta和的有理lift严格非零：正概率矩、逐素数幂lcm界、共同分母与AMGM给全部目标p的v_p<H−3。严格区分Q中的lift与§9的Fp值，不将Cartier最高极免费提升为原p^H中央行；完整GP10和真flat contiguous消元继续。无新数学执行。README API差异空至66716dd434c9d6ae8fc64eae995b1d21a3878ff0；实际pull仍待环境恢复。
+
+2026-11-27 04:44 UTC / Astra-rank2-Sha-0b097461-20261127
+R1025§11不再任意选模p lift：原有限Z在特征零准确满足DZ=1−3prZ，保初值全E2展开后，Z⁹F_H目标Laurent系数只由8个主项与1个正则项贡献，准确为ρ⁸T_H(p)。正矩和显式共同分母给全目标p的v_p<5q+4<H−3。原P10/GP10与全外权未删，继续实际高精度中央强迫。无数学执行。README API差异空至5562ca421364688be9d5b3818c51cc1beb0b61b2；实际pull仍待环境恢复。
