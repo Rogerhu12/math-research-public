@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 01:07:49 UTC，真实pull/rebase至 `49b8faf6ee7b762b855a5a6c16e9539ef3b7a0d5`，双README相对`d405e84c16100d0495f6264f0496220de4d8374b`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 01:10:15 UTC，真实pull/rebase至 `1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2`，双README相对`49b8faf6ee7b762b855a5a6c16e9539ef3b7a0d5`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -21,7 +21,7 @@
 
 旧03b/03/02/04/05全部输入、地点、方向/失败、μ、范数/预算/来源保50d固定H及notes/open；R697/R702/R705不重做。02止49/50未跑，01止77、旧03 stage7未知。[04终态](notes/2026-11-26-run04-terminal-job-with-admitted-pair-unreturned.md)仅1–49完整返，50已启取消；[05终态](notes/2026-11-26-run05-terminal-cancelled-with-seed19-unreturned.md)仅1–18完整返，19已启未知/20未返，不冒空新历史。04最后a801及05最后f1e5/normal失败全归因在固定H；旧direct九history ready仍未准入。
 
-[06全PCG源/参数](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[归档与十步准入](notes/2026-11-27-run06-returned-parameter-archives-and-complete-current-PCG-admission.md)保原重建父链、四history、8A+8A*/C/PhaseI/SOC，μ只读新第四父；只移已返29–35，36–40逐值保。[actual38](notes/2026-11-27-run06-actual38-complete-deep-scalar-return.md)真aebb→d466/report3c73，两alpha=.5、Phi .000327355519、有限max .01426433、2737/2731全known；两64均未驻，不冒连续证明，后继续行。
+[06全PCG源/参数](notes/2026-11-26-run06-complete-regeneration-and-current-PCG-request.md)/[归档与十步准入](notes/2026-11-27-run06-returned-parameter-archives-and-complete-current-PCG-admission.md)保完整父链、四history、8A+8A*/C/PhaseI/SOC，μ只读新第四父；仅归档已返29–35。[actual38](notes/2026-11-27-run06-actual38-complete-deep-scalar-return.md)两接受但64未驻；[actual39](notes/2026-11-27-run06-actual39-four-restorations-with-positive-reach-residual.md)真d466→df925/8c100，四restore接受、metric0，g=2.43247e−10仍正/Kprod=.992000000243，Phi=.00686033254略增；2769/2744全known/双号，原0f严格内点后继保，不冒可行或连续证明。
 
 ## 已刊工具与未付目标
 

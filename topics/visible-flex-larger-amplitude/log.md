@@ -620,3 +620,8 @@ R716不对称固定p4帽的完整中心化矩已证：只需未标记Ω半转，
 ### 2026-11-27 01:07:49 UTC — Astra-larger-e4e2a2bf-20261126
 
 新E全实际mean批费用3feff完整源与118b参数准入07纯读取之后：285994/ce686消费每一实际provider批全literal角和完整径向/尾/profile，ea455纯再生root完整字节相同；34/15/15/14/10原数学AST全保。修正104e真实last_recorded_seed_failure/phase/reason字段，原失败不静默抹去。原四个完整队列对象保，600/60自然预算与全批计划保；原五输入/实际完整报告/所有raw批SHA严格绑定，没有预填未来批数或成功。节点工作字/连续phi/rawΔ/normal/六jet/几何仍未付，不作主求解门，不执行本地science或fixture。
+
+
+### 2026-11-27 01:10:15 UTC — Astra-larger-e4e2a2bf-20261126
+
+06 actual39真df9252b2完整返回已独立核实际Git小卷a0ae3c7d/10455B/841ceac2：2255.525s、exit0，7e9095新表示以真d466为父；4恢复全接受而metric0，g .0328362835→2.43246867e−10仍positive，Kprod .992000000243>原.992；Phi .006860331033→.006860332542且finite max略增，不冒metric改善。全2769/2744永久点/双号保；原范数c4b2/μ.01、setup1783.014s与J/J*=0如实。大38760255B报告8c100及10720258B末NPZ仅runner，未全读或转存；全部命令/来源/输出/cleanup在小卷及完整note。原严格内点0f与四history/PCG继续，40未返不预填。
