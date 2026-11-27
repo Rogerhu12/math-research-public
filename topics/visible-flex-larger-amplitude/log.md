@@ -474,3 +474,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 05:23 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [完整N4096观察入口](notes/2026-11-27-complete-N4096-fixed-reference-observation-entry.md)：原90/M160固定N2048参考、全1025新角/513旧even字、全P0/G/typed和13成员父转移；12运行体/6构造体/全ready，root完整再生exit0及34源核过。未准入/无值，非径向/7c；07真实终态仍保未知历史，新解析族适配继续。
+
+## 2026-11-27 05:35 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [09实际公开输入入口](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)：warm/ref真返3df/2ab/d449，306b/9e3d/cc46完整源与28词argv/6输出/45scalar单步已排；root真再生，旧2397/DC正文整保。5e373固定原卷保runner快照，same-g未主张不冒不等；producer未返，完整frame后继继续。
