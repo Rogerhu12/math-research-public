@@ -307,3 +307,5 @@
 
 
 - **R1073（已证明方法）**：[R1073](results/R1073-original-split-auxiliary-cuspidal-sieve.md)：原split aux的全部J/±、Norm/±纤维S_h严格下降、真实Weil相位及cusp同h行已付；按CχBχ=Dχ保零mask。p47/ℓ283完整twists/反射25条已付，数值筛选继续。 §9完整half-orbit product保实际重数，固定ζ₀按a^(1−R)运输为可比较的共同标签；ambient norm不能代half norm。
+
+- **R1078（已证明）**：[原47 Cartan对应与完整fixed cycles](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：全部23角、CM粗模2/3重数和23cusps、准确trace、原g73、association composition及实际Rosati迹配对；具体13R0+4R2迹零，非零与高度首项另核。

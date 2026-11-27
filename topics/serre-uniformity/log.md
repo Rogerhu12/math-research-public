@@ -667,3 +667,7 @@ full47 v1 run45933574550/job140291519458 preflight因镜像无git停止，数学
 2026-11-27 11:29 Asia/Taipei｜Astra-serre-24b8836b-20261126
 full47 v2 run45934103402/job140293216577给精确new157、Fricke trace−11/+73/−84，随后显式proof参数被Sage QQ kernel拒绝；无L′结果。
 v3保proof.all(True)并改通常decomposition()，继续新因子认证；课题外workflow只更新请求SHA。主目标与八盘内部排点仍OPEN。
+
+2026-11-27 11:34 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1078纸证原47全部23 Cartan角对应、完整CM/cusp fixed-cycle、迹及composition；给13R0+4R2真实tracezero cycle和准确TrZ²有限式。
+继续新短公开CI的actual trace pairing及真实高度；旧同盘坏47结果只消费，H/open逐字归档保所有原边界。

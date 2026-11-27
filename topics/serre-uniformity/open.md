@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-whole-Cp-tubes.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-full47-rank.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -30,6 +30,8 @@ R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²
 R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细角色、相位、尺度与C_*见各结果和逐字归档。p5仍先减Teich、只在好B上施e₁；实际paired块重数一，不是辅助Res的C²。未付的H_A/H_Z新支撑、指定CM横截值与完整高度继续保留。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
+
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原23个角对应全部fixed-cycle、degree/trace、composition与Rosati迹配对已纸证。Z=13R0+4R2是迹零actual cycle；未先验宣称endomorphism非零或指定残余θ(Z)=0。完整23项TrZ²待新公开CI。
 
 新请求 [full-p47-rank](notes/full-p47-rank-request.json) 用精确modular symbols分别取star sign与Fricke+，完整新空间分解及全实嵌入Arb L′，固定M256/512bits、数学600秒；脚本/方法有SHA钉住。v2 run45934103402精确Fricke+维73/−84后遇QQ-kernel proof关键字错误；v3已修，导数未出；只补R45的A=J，不能代MW饱和/283高度/盘内唯一。
 
@@ -135,9 +137,7 @@ R972–990的完整AH/Robert/Δ/LT/Cartier/超几何来源、全部相位/阶乘
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 
-完整原整格、q尺度、角色、cusp/SS边界及所有公式见[本次逐字前态](open-archive-2026-11-27-before-small-auxiliary-points.md)与R944/947/950/953/956/961/962。已付的低权对角和弱Frobenius单位只检测真实coker顶，不代命名类所在链底；一般高坐标与指定评价仍开。
-
-R956实际coker含H¹ω^(2−r)(−C)及S_(r+2)，原trace严格为真实edge配对；r2原α=([Q^p]Y_F)^(1/p)仍待非零。R962支付r8左项零及完整T5 projector，α8=(1−5^9/147456)y_p^(1/p)−y_(25p)^(1/p)/147456，保全部尺度和升换不变性。不能从低权coker一维、原全局注入或Scholl顶单位推出指定α非零；继续原高源/除p坐标，不重做已成低权配对。
+旧O3全部指定输入、低权/高权角色、完整trace和mask条件沿[本次逐字前态](open-archive-2026-11-27-before-full47-rank.md)保留。低权来源和完整投影不等于原高近p系数非零；不重开已完成窗口、不删实际相位、carry或本原标签约束。当前优先消费R1076–79的同一原primitive与完整短障碍，实际跨来源比较未付时不得替换目标。
 
 ## O4：原Abel零集、正秩像与真正高度
 

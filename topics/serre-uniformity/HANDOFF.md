@@ -6,21 +6,19 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：c509ce70c930b0c3bd0c0339dcfaa50a5a08cee9**（2026-11-27 11:28 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：89228bbf21ccc9988786648ae8eabe4dc90af7be**（2026-11-27 11:32 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；11:24再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-whole-Cp-tubes.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-full47-rank.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
-## 最新全局实际来源
+## 原高度来源与范围
 
-[R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：整Hecke族全消MW，真辛商 $(U^\dagger x,y)$。原r2 bare失败给adjugate；§12完整Q共振式将最低值化为原相邻两jet行列式，非零仍开。§11排固定X108四维块的Hecke线性桥。 §13端点零迫相邻period平方系数单位，尚未接第二列。
-
-[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：完整 $D/Q/Q^2$ 最低值已迁至全部 $P=q\widehat J$ 根，等于 $(-3)^d[r^{d-1}]W_*/P^2/(dA_1)$。所有其它极点、非齐次 forcing 与规范修正保原文；$P$ 根至多四重、每根至多七阶 jet，非零仍开。
-
-R1035–56 的原源/靶、全 MW 后 M1、整 PD/PF 与完整相位已付，准确接口见逐字前态及结果索引；最低单位、正赋值深盘与未付支撑仍开。R1047 给公共根重数界，不能代非中心排除；R1011 的 Lie 横截不付整单位半径。
+R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原D/Q/Q²值的完整全根留数及最多七阶jet已付，单位仍开。R1035–56的原PD/PF、全MW后M1与完整相位/全尾保逐字前态；R1047公共根界不代非中心排除，R1011 Lie横截不付整单位半径。
 
 ## O0：不能省略的全局覆盖
+
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原47全部23个R_C，CM/23cusps完整fixed-cycle与迹、association composition已付；13R0+4R2迹零，实际非零待完整trace-square有限式消费。
 
 新请求 full-p47-rank-request.json：完整2209新Fricke+精确modular symbols及全实嵌入Arb L′包围球；M256、512bits、数学600秒。只补R45未付A=J，不预设秩，不重开235盘/aux筛选。v1缺git已修；v2 run45934103402精确+维73/−84后遇QQ kernel不接受proof关键字；v3保global proof并修接口，待L′回执。
 
