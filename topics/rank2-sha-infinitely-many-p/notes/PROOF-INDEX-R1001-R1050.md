@@ -293,3 +293,7 @@ Kδ-old空间[δ]*S2全偶，真实P+三处(u,v)→(7u,0)、P7 fΦ∝fG与2负/7
 ### R1049§12 — 原完整toric值与规范weight p伴随形式
 
 R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:H]乘原54和；三列与全部ω/δ相位给原DFT重数6。raw m_p=XPp(X³)准确等于3δ·g_p，g_p=θ(ψ27^(p−1))(τ/3)为原Γ的整weight p CM cusp form；T/U3及Fricke证明级别，full9 determinant下降保持，惰性逐系数给θg_p=hΓ/3且所有p倍指数齐。原Tate/KS定标及weight1 cusp核零排全部q^p附项，故原hbar=−3δα a_j⁻¹[L:H]乘同一原有限toric值。后继仍须付全type4/period/阶乘比较、完整和非零及通常全Sha全球桥。
+
+### R1049后继 — 原p²完整范数与imprimitive端点
+
+[完整证明](2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)。原full9惰性p中心diamond为−1、p²为+1；Coleman r1唯一性和KS给B1G=a_pG/p=0，完整p+1回返路径保留后B2G=(p+1)G/p。canonical上行V²每条归一回程严格p⁻²G，全部p(p+1)项恰抵消G^[p]=G−V²G，原imprimitive完整depleted范数为0。未depleted原degree34p²修正图的raw AJ全范数却严格p(p+1)AJ(Yj0)，故p⁻²归一后是同一个I_j,p，原Artin下降后恰h_j,p。全54/η/Cor/full9逐项保留，不套primitive角色定理，不把形式两项系数导数冒作解析权导数。
