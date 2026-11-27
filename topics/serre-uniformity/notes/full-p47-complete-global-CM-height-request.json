@@ -256,5 +256,11 @@
     "topics/serre-uniformity/notes/2026-11-27-full-p47-complete-global-CM-height-method.md": "fef273b40fe439d3a8906a28f55c9e306caaee73fd1ff50c01b0d5aa34d7a50d"
   },
   "scope": "New 72 original Gamma(T_n) values in the certified basis; consume Gamma(1)=818 and all original inputs, then recover exact kappa, all 28 residue blocks and 16 normalized linear coefficients. Degenerate blocks are valid results.",
-  "storage": "Code, parameters, actual run/job, hashes and small mathematical conclusions only; no raw arrays, artifacts or Releases."
+  "storage": "Code, parameters, actual run/job, hashes and small mathematical conclusions only; no raw arrays, artifacts or Releases.",
+  "launcher_revision": 2,
+  "previous_launch_failure": {
+    "run": 45960073755,
+    "job": 140375557226,
+    "reason": "Wrong launcher entrypoint and missing sparse-checkout source; Python script did not start; no mathematics executed."
+  }
 }

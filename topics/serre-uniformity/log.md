@@ -45,3 +45,7 @@
 ### 2026-11-27 15:40 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 提交原完整第一层高度请求：消费R1101实际最小整基和n1=818，只算其余72值；4核共享精确SPF/流式全范数和，完整2/47/odd-good与trace双读、a/λ/Bq尺度已root/global全文核准。
 - 课题外新增.github/workflows/serre-full-p47-complete-global-CM-height.yml，仅本课题；数学18000秒/reserve120，零块合法，全部28块/16真log系数均待回执。继续原全p三分布，不因等待CI暂停。
+
+### 2026-11-27 15:49 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 完整高度首次run45960073755/job140375557226在Python启动前失败，未算数学；修正课题外workflow的入口和sparse旧源缺项，补launch记录后立即重触发。
+- 15:49真实pull仍无环境；按规则8检查两README差异并同步。继续原三平移证明，完整高度待真实回执。

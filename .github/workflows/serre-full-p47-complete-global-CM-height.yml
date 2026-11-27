@@ -38,7 +38,7 @@ jobs:
             /topics/serre-uniformity/results/R1099-original-level47-dyadic-CM-intersections.md
             /topics/serre-uniformity/results/R1100-certified-original-level47-first-global-CM-height.md
             /topics/serre-uniformity/results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md
-            /topics/serre-uniformity/scripts/full_p47_complete_global_CM_height.py
+            /topics/serre-uniformity/scripts/full_p47_first_global_CM_height.py
             /topics/serre-uniformity/notes/full-p47-small-odd-Hecke-basis-request.json
             /topics/serre-uniformity/scripts/full_p47_complete_global_CM_height.py
             /topics/serre-uniformity/notes/2026-11-27-full-p47-complete-global-CM-height-method.md
@@ -47,7 +47,7 @@ jobs:
         run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
       - name: Compute complete original CM global height functional
         env:
-          SERRE_EXPECTED_REQUEST_SHA256: '0caf2205be19c11bafedef4b7b3375b061b10ac34b5dca878401b10f38ed6650'
+          SERRE_EXPECTED_REQUEST_SHA256: '8341b130a6835de710ee311597b7214107a960245334ee2ee584b13143b7a451'
         run: |
           timeout --signal=TERM --kill-after=30s 18000s docker run --rm --cpus=4 \
             --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \
@@ -58,4 +58,4 @@ jobs:
             -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 \
             -e OMP_NUM_THREADS=1 -e OPENBLAS_NUM_THREADS=1 \
             sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879 \
-            sage -python topics/serre-uniformity/scripts/full_p47_first_global_CM_height.py
+            sage -python topics/serre-uniformity/scripts/full_p47_complete_global_CM_height.py
