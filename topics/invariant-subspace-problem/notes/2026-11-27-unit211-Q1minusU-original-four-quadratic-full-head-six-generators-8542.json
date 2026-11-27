@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-27",
+  "timezone": "Asia/Taipei (UTC+8)",
+  "source_sha256": "08477fa3af36f1e8d3397e392d12ba5c1426546fbf04ae606818ef797e4f9a08",
+  "source_ascii_bytes": 13998,
+  "execution": "actual integrated V8 completion",
+  "result": {
+    "date": "2026-11-27",
+    "timezone": "Asia/Taipei (UTC+8)",
+    "input": "original Q=1-u Gram, E0/N0/P1 and original E1,Rt0,Ry0,NH0",
+    "units": [
+      "u",
+      "1-u",
+      "ell",
+      "M",
+      "H",
+      "P02",
+      "ell-2u",
+      "2u-1"
+    ],
+    "originalMinorColumns": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        5
+      ]
+    ],
+    "originalMinorMonomials": [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "minorFactor": "Delta_i=(M^3*(1-u)^2/u^4)*G_i",
+    "globalIdentities": [
+      "G1-G0/2=-4*(u-1)*ell*(ell-2*u)*(ell+2*u-1)",
+      "2*(1-u)^2*G2+P02^2=(ell+2*u-1)*Khead"
+    ],
+    "binaryReturns": {
+      "y0": {
+        "resultant": "M^2*(u-1)/u^3*(2*ell-1)*(u-ell^2)",
+        "coefficientDeterminant": "M^2*(u-1)^2/u^3*Fy",
+        "wholeFibers": [
+          "ell=1/2",
+          "u=ell^2"
+        ]
+      },
+      "z0": {
+        "resultant": "16*M^2*H^2*(u-1)^4/u^10*(ell-u)*(ell-u-4*u^2)",
+        "coefficientDeterminant": "-16*M^2*H*(ell-2*u)*(u-1)^5/u^8*Kz",
+        "wholeFibers": [
+          "ell=u",
+          "ell=u+4*u^2"
+        ]
+      }
+    },
+    "allExactIdentitiesVerified": true,
+    "elapsedMs": 2770,
+    "consequenceByProof": "head rank 4 and no projective common zero; cubic head span has rank 10; actual quotient has dimension at most 6",
+    "generatingCharts": [
+      [
+        "1",
+        "x",
+        "y",
+        "t",
+        "y*t",
+        "t^2"
+      ],
+      [
+        "1",
+        "x",
+        "y",
+        "t",
+        "y^2",
+        "t^2"
+      ],
+      [
+        "1",
+        "x",
+        "y",
+        "t",
+        "y^2",
+        "y*t"
+      ]
+    ],
+    "limitation": "six generators need not be independent; actual quotient multiplication requires all relations and same original parameter"
+  }
+}

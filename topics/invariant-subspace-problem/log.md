@@ -208,3 +208,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:52 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新增已经证明有限的整等权权点的完整QQ投影：两实际原余子式在Q的符号次数24/25，直接形成固定49阶结式；全部leading零保留，只剥已付单位，随后返回整一元因子。源SHA256 4f3a8529999a42f0b8cd295d027ba154290b3450def1ae2c27ea2a9969df35c2；180秒/4GiB/单线程，无旧失败门重跑。
 - 新增共享workflow invariant-subspace-equal-weight-complete-Q-resultant-8542.yml 专供上述新数学输入。python-flint 0.9.0 的 fmpq_mpoly.resultant 公共API已核官方文档 https://python-flint.readthedocs.io/en/latest/fmpq_mpoly.html；实际执行前不宣称QQ覆盖或有限纤维排除。
+
+2026-11-27 13:54 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 发布Q边界原四二次完整头覆盖：三原4阶minor的两个全局身份，无新增权单位；Ry头=Myz后两平面共四候选权曲线以原齐次结式/3阶行列式全排。源08477fa3从同一原Gram完整重建实跑2770ms。
+- 完整纸面apolar证明四维二次头无射影零点即三次一次倍数满十维，包含纯幂及重根；三图同一原商生成元≤6，不声称自由基或已付18乘法，继续原NSPS/Dval。无需额外独立复跑。

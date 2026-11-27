@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** `8b2e4b0d33a0ab21d7d5f52fcb67d428c42bba6e`（2026-11-27 05:47:44.350936 UTC；真实新计算run45947894307的部分克隆）；两README diff无变。本地上次仍02:43:20/48bf564a，终端未恢复。每次pull且至少每小时检查。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。05:14:29接口读5f66338266f077a838cb43ff6b9f1a04727ee6cd，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `1784f0c4455ca31bfa0fcb1ee89e895b11bb4cab`（2026-11-27 05:52:53 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `db6548ecb23214eb1dde28b2a4dc378c73a286ab`（2026-11-27 05:54:59 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-half-weight-and-centered-physical-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -29,7 +29,7 @@
 - 一般LS保ell/T/等权零面。原P1双零整支已闭，只付(Pf,Pt)非同时零。Delta0合法付Phi；四原值式准确等价首一二次/三一次，六参数式仅完整投影四值等式，四Gram子式仅必要。源70017734/ea0ffae2的完整来源及实际回执见results。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
 - **一般Delta0/W0整个H=4ek−k²−4k−8零支已闭，可付H。** 原18行在C3/F26完整代数返1，源b1f2e6d。H非零最高次仅余u=Q、ell=2−Q、Q²−12Q+8共同纤维，已以独立有限48×35单位行全排（源078e1d1c）；不单独支付各权因子。原头atlas与C9图六生成元全原来源见results。C9的18乘法/NSPS/8comm/9同点行全返，但参数cofactor180.074秒SIGALRM（源10720660），该展开冻结。物理(f,λ,T)原逆/15头/24系数源5b77c8e8实际1.308秒/exit0；中心化F=2f−uλ、S=T−2λ已给整图双侧逆/原Jacobian及四行理想等式，N1−2(u−1)E1确为S一次（源60a4c4cf，1.135秒/exit0），保新首项零。全部未付头零、一般u=Q权线与其余W有限仍开。
-- **Q=1−u又已闭整个T0=0/h=2权支。** 原u线性恢复后R/N共同g曲线回Dval0；完整六阶QQ结式给A、B两整二次覆盖，A由原平方恒等式回g0、B由原NS十五阶保度Gauss排尽；源52fe7571整实跑2.277秒，不额外除s/2u−1。此前y1/H_Q0/u半/ell0及两原y二次首项零支全闭；首项2s[(h−2)s+2mu]与h−2均已付。续同一y原R/N1/NSPS/Dval余式；不扩成一般LS的T0闭合。
+- **Q=1−u整个T0=0/h=2权支已闭**：原共同g曲线回Dval0，六阶QQ覆盖A/B两整二次及NS保度Gauss排尽，源52fe7571整实跑2.277秒。此前y1/H_Q0/u半/ell0及两y首项零全闭。新原四二次三个4阶minor全覆盖，齐次变换Ry头=Myz；两个平面四候选曲线全由原3/4阶行列式排尽。apolar证明全部三次张成、每原商≤6，源08477fa3整实跑2.770秒；三组生成元非固定独立基，18乘法/NSPS/Dval仍续，不扩成一般LS的T0闭合。
 - **一般等权b=c已闭整个m=1/2权线**（此前y1/y半/y0、A_m零、T0零全闭）；原14/24次QQ Bézout1实际81.740秒，故2m−1可付。全图六生成元、18真乘法、原NSPS/Dval和其余cubic全返。新十原同行源6a7adfc1给两必要曲线；1541f738实际2.970秒全遍余行，三个非零cofactor中第三仅−D，C/D总次数30/32且QQ[m,Q] gcd1。因此余权点有限≤960、每原Gram纤维≤6；未判空，续有限交点及原Dval。旧QQ600秒门冻结，整个等权及桥仍开。
 
 ### rankH3原ess6

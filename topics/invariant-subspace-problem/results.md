@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Q=1−u原四二次全头覆盖及真实商六生成元](results/R150-appendix-unit211-Q1minusU-original-four-quadratic-full-head-six-generators.md)：三组原minor覆盖全部余图；原Myz齐次分裂的所有方向排除，完整apolar证明三次头满秩，故每真实原商维数≤6。源08477fa3原Gram整实跑2.770秒；生成元不冒充独立基，乘法与原值返回继续。
+
 - [一般等权的剩余原权点有限及Gram六点界](results/R150-appendix-unit211-equal-weights-finite-original-weight-and-Gram-locus.md)：完整原cofactor曲线总次数30/32、QQ[m,Q] gcd1，最多960权点、每权点至多6个原Gram点；不把互素当单位理想。源1541f738，首次实际2.970秒/exit0，继续全部有限交点与Dval。
 
 - [一般LS/W整图原物理坐标双侧逆与S一次N行](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-centered-physical-coordinate-and-original-S-linear-row.md)：原Jacobian全由已付单位构成；四行原理想等式与N1−2(u−1)E1的S²恒等消去，包括ell0；未倒置新S首项，未声称有限支排空。源60a4c4cf，首次Actions1.135秒/exit0。
