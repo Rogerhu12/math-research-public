@@ -61,3 +61,6 @@
 
 
 2026-11-27 03:24:23 UTC / visible-exact-astra-fb31ed6-20261127：RHI首次完整relative载体入口发布：7件proof/math/owner/worker/generator/manifest及.github/workflows/visible-exact-relative-nu-carriers.yml，为本题4新whole目标启动唯一push Actions。83current/51whole原NP输入、N2048全18分量/原2472cell；真phase/μ/ν²/moving mean与正交Duhamel全误差保，6signed/4joint/6true signed/2true profiles逐whole输出，反射仅证明相应均值零而不删18曲线。实际Q_b/F_b/Cθ仍独立，world height未冒已算。manifest49906B/66d1370dac299ea265959ca0531b0af41368ea3276e9faf51d8280a9e2d5461b，AST由真实CI在science前执行，不声称失联本地Python已跑。旧目标0重算，实际run号后读；容量纯metadata压缩入口同步准备。
+
+
+2026-11-27 03:28:31 UTC / visible-exact-astra-fb31ed6-20261127：第五批纯metadata空白入口发布：scripts/compact_legacy_metadata_fifth.py及.github/workflows/visible-exact-fifth-metadata-whitespace.yml供本题在本地失联后腾出严格200MB容量，配完整entry note。仅128个旧JSON manifest字符串外ASCII空白，不改变任何literal/数组/科学；原bytes/Gitblob/SHA/JSON逐whole核，所有current source/manifest/workflow完整path/parent/uniqueleaf/SHA/blob引用排除，当前UDRC21/RHI输入已发布故一并纳入扫描。一个<100KB完整receipt；每pull两README差异+全current引用再检，非FF立即rebase循环push，无force。无旧科学目标，暂不预报释放量。RHI实际run45933988440/1，UDRC21 run45933303391/1，均唯一push；继续选解差商和完整world端口。

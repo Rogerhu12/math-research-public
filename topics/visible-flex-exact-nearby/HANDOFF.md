@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 03:24:23 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 03:28:31 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与授权
 
-已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至37c083b9539cea50cb76b752e940355eba63c1da（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 03:14:37 UTC环境失联后API刷新main至26c6e7d301bdff07f24b99d7dcfe6bb51e5a555b（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
+已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至4de4b57575be4eb3a05d352022545f369f23e5ad（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 03:14:37 UTC环境失联后API刷新main至26c6e7d301bdff07f24b99d7dcfe6bb51e5a555b（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
 每pull核两README、至少每小时；非FF立即rebase再推。令牌只CLI，无AGENTS。本地环境03:00前磁盘满后失联，按根规8用GitHub集成仅传<100KB文本；root独占main更新，每次最新head/两README，force=false+expected_sha拒旧父即重base。GF改由connector发布；原source35ff439e后的6件旧排版本地未commit，恢复时不得重复。缓存迁移命令无成功回执。
-科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
+科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。第5批旧metadata空白整理已建唯一Actions入口，排除所有当前source/manifest引用、整128文件单receipt后才计释放；当前尚未宣称成功。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
 
 ## 同一对象和验收
 
@@ -25,7 +25,7 @@ geometry43584188751/26仅同η0全core含帽物理C0≤1e−4、|δν|≤1e−5�
 3. **原alpha与Θ。** ASR45914639857/1全2048/2成功但eα∞≈7.9535e220/eα2≈3.4685e220，源于复矩形powers包裹；原tail仅.0001024925/2.77108e−6，旧2scalar禁重。原AS raw192误限失败、全SHA保原H。OT45924861985/1于02:50:18全10目标/96×2240 signed carrier成功，actual24891B/c6fd3416718fc5861907da9b941a7809845d5c7dad83540cc444cc4b1060a146；trial1720320B/3b5bff1ccffa74600cc6cb56b8521fb32830ae0697733617eb0042bb1a8f9143。JG_HS≈9.797954、BG≈68.352743、alphaW≈.4903964、rounding≈.00145681，旧VQ/Θ巨费如实保，signed carrier本身不消费巨费。UDR新unit-disk全无限IR joint proof/pure已成；UDRC18完整源码public952c4538但未跑，GYN完整384×96 operator proof/pure已付，首UDRC21六件已发布：3新GY operator+7新UDR+11首次TQC，完整130current/6native、原18四源identity保；manifest48987B/80dbfdf33a39c180159f930a288813ef16fabe04e61c81f175154f012b99dcee。唯一push run45933303391/1（6ecc2213，03:17:28）已实际in_progress，旧ASR/IR/OT目标0重跑。TQC只原Θ坐标square，fullSchur独立；DWT新直接同w公式/全反射已证，原完整ASR尾由同136|n|majorant合法复用；首DWT2→BR7入口在写，未冒BW actual。SC仍须whole58/224/32+TC3+RW96+JC7，仅physical/incoming配对。
 4. **完整positive有限。** 58→224→32→PN56/CXN6须真低逆；原14ports/单位/同因三角/aux Ec*e/BH KW/Ni/root96/两mean/ν全保。square过才消head，actual6/56、negative incoming、全physical finite/high反馈与fullSchur仍待。
 5. **strictν/phase及relative载体。** NP/NH/PO/APA/ASB/PHI whole全锁，ASB physical幅度(−.006275,−.006264)/high97<5.330e−5；PHI45915169627全6目标，APHI真phase(.038736784,.038768096)/逆<25.82仅strict particular，原全SHA保6eccH。PP保regular defect/nonmeanphase/E′a，CP给1/60<S<3/50仅候选。P96首45926971089/1（358eb35a）03:18仍step7，TC真实PDE修正未齐。PRN原负窗receiver2600(Droot+Jroot)+184Froot+69Fst+245Jst保全mean/源单位。
-RHI完整7件首push入口已推，run号待实际读；manifest49906B/66d1370dac299ea265959ca0531b0af41368ea3276e9faf51d8280a9e2d5461b，83current/51whole，N2048/18component、原2472cell，4新whole targets/18000s。relative A/x与两个ν变分全曲线保，实际Q_b/F_b/Cθ仍独立，反射零均值不冒world行。
+RHI完整7件唯一push run45933988440/1（2e59ff1c，03:24:31）已in_progress；manifest49906B/66d1370dac299ea265959ca0531b0af41368ea3276e9faf51d8280a9e2d5461b，83current/51whole，N2048/18component、原2472cell，4新whole targets/18000s。relative A/x与两个ν变分全曲线保，实际Q_b/F_b/Cθ仍独立，反射零均值不冒world行。
 
 ## 已付高阶与非线性接口
 
