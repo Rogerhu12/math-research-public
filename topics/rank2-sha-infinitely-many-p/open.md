@@ -52,3 +52,11 @@ R1049§9已给全部Chern/Frob及p+1 Miller共链，保degree0 ℓ与原Hodge限
 ### 双source整反写的已付成本与未付观测
 
 R1042§15将17/36实际charge的Hasse角帽降为a+b；原全E_D在总阶2D环境格可整检测，D≥p也成立。此环境左逆不等于沿原z曲线的标量观测左逆；若要把同qS/qT方向导数计入全位范数，仍需原有序核上的真正Schur返回。R774/R749已有全wild点因子定理，应复用而不重证；当前全p-new实际ν/root及theta–Katz平方、同读者的真正坏零关系仍须支付。所有点投影只对有限完整代数点和合法，不对整个中央log无限尾免费使用。
+
+### 两支旧返回已闭，完整新补项仍为真实来源
+
+unitary§15给正支全旧Y=−G126/(90b)、b17系数−1/1530，K全偶所以旧K/Y=0；负支全旧为原K反演−1/5，K/Y已付非零。但旧Yunit质量差c_nJG0/(90b)非零，完整5-new+p-new必须补偿，不能把它们当趋零误差。R774/R749/R778须用于实际有限ν/root/全K类型；还要同一读者下真正由canonical坏迫零的有限关系，不把另一个角非零代主门。
+
+### Manin到原晶体单位的绝对比例已闭
+
+R1049§10已付up modp=−cQ：真正mShioda线丛的全局连接、proper generic KS唯一性及原Tate automorphy锁曲率和所有倍率。其相对p-curvature−μ，在ss纤维的Miller连接差λ有λ^p=−μb。继续以一阶φ/完整PD Hodge限制同伦把它送到原h的除p anti坐标；该integral chain比较尚待完成，不以模p的空间λ直接充AJ。

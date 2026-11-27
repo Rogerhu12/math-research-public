@@ -1047,3 +1047,267 @@ odd 配对字。原两支的2、3、7向量未被证明相同，
 所以不能仅因 R1046 的原点域在 p 未分歧，就通过惯性把它删掉。
 (53)–(58)新增的是已完整支付的旧投影及真实读者，
 尚未把(59)的两个补项变成已知中央零。
+
+
+## 15. 正号支的完整 G 系数、四次有理迹及两个原补项
+
+本节接(53)，计算另一支最后的真实 Y 边际。
+仍先保完整 Y/K 旧投影，再取 K 质量；新来源的原质量零
+不能用于删掉其旧投影。
+
+### 15.1 原 K 的两个不同 δ 返回
+
+原 $Y-H\in\delta\mathcal O_K^6$，quotient norm43 odd。
+与 R1040(49)、(54) 的原 H 偶线相结合，
+Y 的完整 $\delta$-old 投影为零。
+在(43)–(47)的旧返回中，新 Y 的 $\ker\delta$ 平移回原
+$(u,0)$，所以两个分支的 Y 都仍然 $\delta$-new。
+
+新 K 的同一个平移则回到
+$$
+ Q_\epsilon^t(0,u/5)=( -\epsilon u/5,\,2u/5)
+          \equiv(\epsilon u,u)\pmod{\Lambda^2}.
+ \tag{60}
+$$
+这些平行整数周期的原 even Weyl 相位为一。
+由(48)，正号支的 K 因而是整个 $\delta$-old；
+负号支的 K 是 $\delta$-new。此区分发生在所有 K 类型都保留时。
+
+正号支的 K 空间准确为
+$$
+ [\delta]^*\mathcal S_2
+ =\langle\Theta(\delta k),\sigma(\delta k)^2\rangle,\qquad
+ \Theta(\delta k)=\sigma(k)^6(X(k)+4b).
+ \tag{61}
+$$
+整个空间在 $k\mapsto-k$ 下均为偶。
+其 principal 质量一线为第一项；
+先在 $b=1$ 的原二挠规范中用加法式
+$$
+ \mathsf T_e^6\{\sigma^6(X+4)\}
+  =\sigma^6(X+4-6ex^2)/\sqrt3,\qquad e^3=-1.
+$$
+三项和为 $+\sqrt3\,\sigma^6(X+4)$；再按本篇同一 CM
+homothety 把 sigma、二挠 lift 和 period 一起运到 $b=17$，
+这个本征号仍是 $+\sqrt3$。
+(50)于是迫最后 Y 主型的 dyadic 号为 $-\sqrt3$。
+七处仍为(52)的实偶 $f_7$。三处还须保原完整向量，
+不能只以 $\delta$-new 命名：正号置换为
+$(u,v)\mapsto(4u+6v,u+v)$，在 $v\equiv-u\pmod3$ 上
+准确是 $(7u,0)$。
+若按 R1038 的三个偶代表 $(1,2,4)$ 写
+$f_\Phi=(A,B,C)$，其返回为 $(C,A,B)$；
+直接代原 $\zeta_9$ 坐标，得到这个非零向量与
+$$
+ f_G=(3+\delta(\zeta^4-\zeta^5),\
+          -\delta(\zeta^2-\zeta^7),\
+           \delta(\zeta^4-\zeta^5))
+$$
+成比例。故真正固定的是原 $\omega^2M$ 的一维线；
+该比例不另猜，由下文全质量确定。
+R1040 §§14.2–14.4 的全有限唯一性因此给
+$$
+ (\operatorname{pr}_Y)_*\mathcal E^{\rm old}_5\mathscr P_3\mu_+
+           =c_+(b)\,\nu_{G_{126,b}} .
+ \tag{62}
+$$
+这里 $G_{126,b}(0)=-\delta/28$，是原 E15876 质量一线
+的这个已固定倍数；没有凭两三个好位本征值命名。
+系数尚由下文的实际完整迹决定。
+
+### 15.2 625 个纤维准确降为 25 个原 Weyl 值
+
+在(45)的正号支取
+$$
+ w=2u-v,\qquad
+ Q_+^t(u,v)=(w,25u-2w).
+$$
+每个 $w\in E[5]$ 有25个原 $(u,v)$。
+与 $(w,-2w)$ 相比，第二分量只多原周期 $25u\in5\Lambda$。
+其完整 Weyl 相位为
+$\exp(\pm\pi i\,300E(u,w))=1$，
+因为 $E(u,w)\in25^{-1}\mathbf Z$。
+因此对总质量，原625项不是丢掉24个分支，而是逐纤维相等：
+$$
+ m_0(\mathcal O_+\mathcal C)
+ =\frac1{25}\sum_{w\in E[5]}
+    \{\mathsf T_{150,w}\,\mathcal C(z,-2z,0)\}(0).
+ \tag{63}
+$$
+H/J/N 投影在其原点不改质量，所以(63)仍是原六 sigma 的值。
+
+原行的完整因子是
+$$
+ \frac{Y-2K}{\delta}
+ =(-3\delta,-2-3\omega,-1-3\omega,1,2,2),
+ \qquad N((Y-2K)/\delta)=50.
+$$
+用 $2+3\omega=-\omega^2\gamma_7$、
+$1+3\omega=\omega\bar\gamma_7$，两个 norm7 因子的单位与三个
+负号的总乘积准确为正。令
+$$
+ \begin{aligned}
+ Q_2(X)&=7X^2-4bX+16b^2,\\
+ P_3(X)&=X^3-96bX^2+48b^2X+64b^3,\\
+ h_{50}(z)&=\sigma(z)^{50}x(z)
+              (X+b)(X+4b)Q_2(X)P_3(X).
+ \end{aligned}
+$$
+原 division 恒等式
+$$
+ \sigma(\gamma_7z)\sigma(\bar\gamma_7z)=\sigma^{14}Q_2,\quad
+ \sigma(3\delta z)=3\delta x(X+4b)P_3\,\sigma^{27},\quad
+ \sigma(2z)^2=4(X+b)\sigma^8
+$$
+遂逐项给
+$$
+ \boxed{\mathcal C(z,-2z,0)=-\frac{\delta}{7}\,h_{50}(\delta z).}
+ \tag{64}
+$$
+原 $-1/84$ 已在(64)中使用，不能再乘或再除一次。
+$[\delta]^*$ 与完整五迹交织；$\delta$ 在 $E[5]$ 上为置换，
+且原 Gaussian/Weyl 指数被其 norm3 精确保持。
+
+### 15.3 同一个 Theta lift 把迹化为四次有理数
+
+写原五分多项式
+$$
+ q_b(X)=5X^4+380bX^3-240b^2X^2-1600b^3X-256b^4.
+ \tag{65}
+$$
+它来自 $\psi_5=\psi_4\psi_2^3-\psi_3^3$，不是拟合的系数。
+对非零 $T\in E[5]$，原 $[5]^*\Theta$ 的 Weyl 值为1，故
+$$
+ \{\mathsf T_{50,T}h_{50}\}(0)
+ =\frac{x(T)(X(T)+b)(X(T)+4b)Q_2(X(T))P_3(X(T))}
+        {\phi_5(T)} .
+$$
+这里 $\Theta(5z)=\sigma^{50}\phi_5$；
+$\phi_5$ 是原乘五 x-map 的分子。
+在 T 的同一个参数中 $x(5(T+z))=(25z^2)^{-1}+O(z^4)$，
+所以完整 pole 比较准确给
+$$
+ \phi_5(T)=\frac{(D\psi_5(T))^2}{25},\qquad
+ D\psi_5=6x^2y\,q_b'(X).
+ \tag{66}
+$$
+$T=O$ 的 $h_{50}$ 值为零。
+其余24点分成四个各6点的原 $\mu_6$ 轨道。
+(66)使每轨道的六项完全相同，并消掉显示的 $X+b$。
+因此(63)–(64)准确成为
+$$
+ \boxed{
+ m_0(\mathcal O_+\mathcal C)
+ =-\frac{\delta}{42}\,T_b,\quad
+ T_b=\operatorname{Tr}_{\mathbf Q[X]/(q_b)}
+ \frac{(X+4b)Q_2(X)P_3(X)}{Xq_b'(X)^2}.}
+ \tag{67}
+$$
+$x,y$、全部24个点、原 $25^{-1}$ 和 $-1/84$ 的费用
+现在都已进入这个固定四次迹。
+$X=bZ$ 直接给 $T_b=b^{-1}T_1$。
+
+以下八个整数系数的恒等式是完整纸面证书。
+令 $q=q_1$、
+$f=(X+4)(7X^2-4X+16)(X^3-96X^2+48X+64)$，则
+$$
+ \begin{aligned}
+ 60f={}&Xq'\,(832-96X-204X^2-5X^3)\\
+       &+q\,(-960+80X+520X^2+20X^3).
+ \end{aligned}
+ \tag{68}
+$$
+逐次相乘即可核(68)全部系数。
+非零五挠在特征零为 étale，四个 $\mu_6$ 轨道的 X 值不同，
+故 $q$ 无重根；又 $q(0)=-256\ne0$，
+所以 $Xq'$ 在完整四次代数中可逆。
+Lagrange 留数公式
+$\sum_{q(r)=0}g(r)/q'(r)=\frac15[X^3]g$
+给
+$$
+ \boxed{T_1=-\frac1{60},\qquad
+        T_b=-\frac1{60b},\qquad
+        m_0(\mathcal O_+\mathcal C)=\frac{\delta}{2520b}.}
+ \tag{69}
+$$
+所以(62)的系数和非零性现在完全确定：
+$$
+ \boxed{c_+(b)=-\frac1{90b}.}
+ \tag{70}
+$$
+本篇实际 $b=17$，故 $c_+=-1/1530$、
+$m_0/\delta=1/42840$。
+不需要新 degree3150 谱，也没有假设一个数值近零测试。
+
+### 15.4 唯一公开四次回执与执行范围
+
+本次只执行原(65)–(68)的有理四次代数，
+保完整 Bezout 回乘、四乘四乘法矩阵的 trace、Lagrange 公式，
+以及 b=1、17 的齐次返回；没有重跑756列或旧任何谱。
+
+实际来源提交为
+4e827843，run 46036879390、job 140634410835。
+脚本
+$\texttt{scripts/check-original-positive-five-old-quartic-trace.py}$
+SHA256 为
+0a315b319001a1f0b5ff3dfcedbd0e619059bd494529f8478312caafd3f82f75。
+完整 stdout 1176B、SHA256
+63ded7037646bb2ffd8e40c3ea5845159f61c85e8b36ac8b97b28bb1f8eaeea0；
+完整 job log 9336B、SHA256
+5ad23ec4bbeb38f5527b1c24c4059eba597633032fc00f46cae1a4d9da0b98a1。
+回执返回的 $T_1,T_{17},m_0/\delta,c_+$ 全与(69)–(70)一致。
+本节数学结论同时由(68)的完整手证支付。
+
+### 15.5 原同一 Y-unit 的质量、中央和 K/Y
+
+合并原反变号、(40)、(55)、(70)，得到
+$$
+ \boxed{
+ \begin{aligned}
+ J_{\mathcal E^{\rm old}_5E_0\Phi_n^+}(v)
+       &=-\frac{39\delta}{5}c_nJ_{126,17}(v),\\
+ J_{\mathcal E^{\rm old}_5E_0\Phi_n^-}(v)
+       &=-\frac{c_n}{90b}J_G(v).
+ \end{aligned}}
+ \tag{71}
+$$
+同一个原单位 cut、所有 ordinary Euler 和 n 的 p 分母均保留。
+在 E3969 坏中央时，第一行首导数为零，第二行是
+$-c_nj_G/(90b)$；本篇没有把 $j_G$ 赋零。
+
+(61)还付一个全源结论：正号固定来源的旧部分在 K 为偶。
+因此对于任意保其余输出的实际 Y-unit 测试，
+$$
+ \boxed{
+ \int_{Y\ {\rm unit}}\frac K Y\,
+          d\nu_{\mathcal E^{\rm old}_5E_0\Phi_n^-}=0 .}
+ \tag{72}
+$$
+这与(58)的另一支真正不同。
+(72)由整个 K 偶性得出，没有使用某条 canonical 坏假设。
+
+原 $J_G(0)=-\delta(1+\lambda)/28$ 为单位。
+所以两支旧项之差的实际质量是
+$$
+ m_\times\!\left(
+   \mathcal E^{\rm old}_5E_0(\Phi_n^+-\Phi_n^-)\right)
+       =\frac{c_n}{90b}J_G(0)\ne0 .
+ \tag{73}
+$$
+另一方面，原小角的 Y-unit 域仍是同一个原 Y-unit 域，
+两条完整有理角的单位质量均为零。
+因此同(59)的全部新项必须准确补偿(73)：
+$$
+ \boxed{
+ \begin{aligned}
+ m_\times\!\left(
+ (1-\mathcal E^{\rm old}_5)E_0(\Phi_n^+-\Phi_n^-)
+ +(1-E_0)(\Phi_n^+-\Phi_n^-)\right)
+       =-\frac{c_n}{90b}J_G(0).
+ \end{aligned}}
+ \tag{74}
+$$
+(74)证明这两个实际补项的全和不可删，也不能因 n 深便赋更深误差。
+它不指定二者分别的值。
+中央和 K/Y 仍须在同一全和上使用(59)，不能从(71)的旧零
+跳过这两个已经具有非零质量的补项。

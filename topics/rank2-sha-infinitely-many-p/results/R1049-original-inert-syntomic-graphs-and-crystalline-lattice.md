@@ -880,3 +880,221 @@ $a_{j,p}^{-1}\mathcal N_{j,p}\in p\mathcal O$
 本节的等式是上述 PD/Čech 复形中的直接计算；
 proper AJ、投影及 trace 所需的来源范围仍严格是§7所列。
 没有使用尚未取得全文的 normal-function 文献，也没有新增数学执行。
+
+## 10. 原全局连接的曲率与明确的模 $p$ 定标
+
+本节证明同一个 $u_p$ 与 R1043 的实际 Manin 常数之间的准确关系：
+$$
+\boxed{\ \overline u_p=-c_{Q_p}\ \in\mathbf F_{p^2}^{\times}. \ }
+\tag{53}
+$$
+横线是原 $W$ 的模 $p$ 约化。式(53)用原
+$\Omega_S,\omega_B,\mu$ 的规范，包含原三次基覆盖的倍率，
+不只给一个未定非零比例。
+
+以下记 $k=\mathbf F_{p^2}$、$K_0=k(B)$；
+这里 $K_0$ 是函数域，不是前面的局部数域 $K_p$。
+
+### 10.1 先构造真正 Shioda 线丛的全局连接
+
+选一个仅含2、3因子的整数 $m>0$，清掉原 Shioda 校正的分母，
+使 $mD(Q_p)$ 是 $S_k$ 上的实际整除子，并令
+$\mathcal L=\mathcal O_{S_k}(mD(Q_p))$。
+在泛纤维上准确有
+$$
+\mathcal L|_{S_{K_0}}=\mathcal O\bigl(m(Q_p)-m(O)\bigr).
+\tag{54}
+$$
+式中右侧指除子的整数倍。旧垂直类和基类在泛纤维上平凡；
+它们已经在左侧先作了正确校正。本文不对未校正的
+$\mathcal O([Q_p]-[O])$ 直接声称全局 Atiyah 类为零。
+
+由(31)，
+$$
+c_{1,\rm dR}(\mathcal L)=m\overline u_p\,\overline\Omega_S
+ \in\operatorname{Fil}^2H^2_{\rm dR}(S_k).
+\tag{55}
+$$
+因为 $c_1(D_p^-)$ 整除 $p$，故这里确实是**实际整**
+$D(Q_p)$ 的 Chern 类，不是只对带系数 $D_p^+$ 作一个形式推断。
+
+原固定好模型的 Hodge 分次自由及基变保证 Hodge–de Rham
+谱序列在当前有限删集外于 $E_1$ 退化：
+各个 Hodge 维数及 de Rham 总维数等于特征零的相应维数，
+故没有余地容纳非零微分。
+因此
+$H^2(\Omega_{S_k}^{\ge1})\to H^2_{\rm dR}(S_k)$
+为单射，像是 $\operatorname{Fil}^1$；
+而其向 $H^1(\Omega_{S_k}^1)$ 的映射在
+$\operatorname{Fil}^2$ 上为零。
+Chern cocycle $d\log g_{ab}$ 的这个像就是 $\mathcal L$ 的
+Atiyah 类。由(55)它为零，故 $\mathcal L$ 有全局代数绝对连接。
+
+按§9的 Chern 符号，取局部一形式 $\vartheta_a$ 满足
+$$
+\check\delta\vartheta=d\log g.
+$$
+连接写作 $d-\vartheta$；其曲率为 $-d\vartheta$。
+因为 $c_1-d_{\rm tot}\vartheta$ 只剩这个全局二形式，
+且 $H^0(\Omega_{S_k}^2)\to H^2_{\rm dR}(S_k)$ 为单射，
+得到准确的形式等式
+$$
+-d\vartheta=m\overline u_p\,\overline\Omega_S.
+\tag{56}
+$$
+这不是只在一个穿孔邻域里比较两个 exact 的上同调类。
+
+### 10.2 非零 KS 使泛纤维的连接曲率唯一
+
+记泛纤维为 $\mathscr E/K_0$。绝对微分的序列给
+$$
+0\longrightarrow\Omega^1_{K_0/k}
+ \longrightarrow H^0(\mathscr E,\Omega^1_{\mathscr E/k})
+ \longrightarrow H^0(\mathscr E,\Omega^1_{\mathscr E/K_0})
+ \xrightarrow{\rm KS}
+ H^1(\mathscr E,\mathcal O_{\mathscr E})
+       \otimes\Omega^1_{K_0/k}.
+\tag{57}
+$$
+后三个相关空间各为一维，原 KS 由 R1043(97)为
+$3dt/[t(1-27t)]$，非零；故最后箭头同构。
+于是所有全局正则绝对一形式都来自基：
+$$
+H^0(\mathscr E,\Omega^1_{\mathscr E/k})=\Omega^1_{K_0/k}.
+$$
+任意两个定义在同一个 degree0 线丛上的绝对连接之差，
+因此是一条基一形式，其外微分在一维函数域上为零。
+**所以该线丛的连接曲率唯一。**
+
+这个论证也说明此后完成到一个乘法 cusp 时不会留下能改变曲率
+的额外选择。准确地说，我们将原有限秩空间
+$\Omega^1_{K_0/k}$ 基变到 $k((s))$，并使用由原基导数延伸的
+连续微分；不引入 $k((s))/k$ 的全部非连续 Kähler 微分。
+在这个意义下，(57)继续是同一个一维 KS 序列。
+
+### 10.3 在实际 Tate 线丛上计算曲率
+
+在原 $I_9$ 或 $I_3$ cusp 取局部参数 $s$。
+记真实 Tate period 为 $T=T(s)$，原点 $Q_p$ 的 Tate 参数为
+$U=U(s)$。一般 $T=s^n$ 乘单位，$n=9$ 或3；以下始终使用
+$d\log T$，不把 $T$ 偷换成 $s$。
+在 Tate 均匀化的纤维坐标 $Z$ 上，
+$$
+\omega_T=d\log Z,\qquad
+\lambda_T=d\log T,\qquad A_T=1,\qquad
+z=\frac{d\log U}{d\log T}.
+$$
+
+为固定真正的线丛及其符号，可取
+$$
+\Theta_T(Z)=(1-Z)\prod_{r\ge1}(1-T^rZ)(1-T^r/Z),
+\qquad \Theta_T(TZ)=-Z^{-1}\Theta_T(Z).
+$$
+比值 $\Theta_T(Z/U)/\Theta_T(Z)$ 的除子是 $(Q_p)-(O)$，
+其 automorphy multiplier 是 $U$。
+在§9使用的 transition 约定下，令
+$$
+\vartheta_T=z\,d\log Z.
+$$
+则
+$\vartheta_T(TZ)-\vartheta_T(Z)=z\,d\log T=d\log U$。
+所以它确实给**同一** $\mathcal O((Q_p)-(O))$ 的绝对连接。
+这是 proper Tate 泛纤维上的正则线丛连接；
+对该有限秩 connection 扩张使用 proper rigid GAGA，
+可与(57)中的代数连接比较。
+
+其 Chern 曲率为
+$$
+-d\vartheta_T=-dz\wedge d\log Z.
+$$
+R1043§19已在这个相同 Tate 规范支付
+$\mu(Q_p)=z^p-z$。故
+$$
+-d\vartheta_T=d\mu(Q_p)\wedge\omega_T.
+\tag{58}
+$$
+原模型变换
+$\mu_{\rm new}=u^p\mu$、
+$A_{\rm new}=u^{p-1}A$、
+$\omega_{\rm new}=u^{-1}\omega$
+给
+$$
+\Phi(Q_p):=\frac{d\mu(Q_p)}{A_p}\wedge\omega_t
+$$
+为模型无关的二形式；因为 $d(u^p)=0$，这里没有遗漏一个导数项。
+在 Tate 模型中它就是(58)。
+泛纤维连接曲率的唯一性因此将(58)运输到原曲面。
+先对(54)的整数倍得到曲率 $m\Phi(Q_p)$，再除以当前
+$p$ 单位 $m$，由(56)得到
+$$
+\overline u_p\,\overline\Omega_S=\Phi(Q_p).
+\tag{59}
+$$
+
+最后，R1043§20给
+$d\mu(Q_p)=c_{Q_p}A_p\omega_B$。
+原坐标 $X=-3v$ 与 KS 的准确等式为
+$$
+\frac{dt}{v^2}=\frac v3\,\lambda=-\omega_B.
+$$
+所以
+$\Phi(Q_p)=c_{Q_p}\omega_B\wedge\omega_t
+          =-c_{Q_p}\overline\Omega_S$。
+代入(59)即得(53)。该步骤保留原基覆盖和微分的全部倍率，
+没有使用 cusp width 为1的替代模型。
+
+### 10.4 同一个连接的相对 $p$-curvature
+
+还有一个后继可直接使用的规范。
+在 proper 泛纤维上，(57)说明绝对连接的**相对部分**唯一：
+改变连接只加基一形式，不改变沿纤维的协变导数。
+设 $D_{\mathscr E}$ 是与 $\omega_t$ 对偶的相对不变向量场，
+故 $D_{\mathscr E}^{\,p}=A_pD_{\mathscr E}$。
+对 $\mathcal O((Q_p)-(O))$ 的上述规范连接，定义相对
+$p$-curvature 标量
+$$
+\Psi_Q=\nabla_{D_{\mathscr E}}^{\,p}
+       -A_p\nabla_{D_{\mathscr E}}\in K_0.
+$$
+它是线丛的正则端同态；proper 纤维上的正则函数来自基，
+故确为这个标量。
+
+在 Tate 模型上，
+$\nabla_{Z\partial_Z}=Z\partial_Z-z$，$A_T=1$，
+所以
+$$
+\Psi_Q=-(z^p-z)=-\mu(Q_p).
+\tag{60}
+$$
+与曲率一样，原相对部分的唯一性和 Tate 完成的单射将该式
+给到原函数域；模型变换两侧同乘 $u^p$。
+它也在每个原好纤维以极小模型延拓。
+清掉 Shioda 分母时两侧同乘 $m$，再除回不会改变(60)。
+
+例如在一个原超奇异好纤维 $S_b$，
+用(47)的 $N=p+1$ Miller 平凡化给其 degree0 限制取
+$p$-curvature 为零的挠连接。规范全局连接与它之差写作
+$\lambda_b\omega_b$。
+相对 $p$-curvature 的差为
+$\lambda_b^p-A_p(b)\lambda_b$；因 $A_p(b)=0$，
+$$
+\boxed{\lambda_b^p=-\mu(Q_p)(b).}
+\tag{61}
+$$
+这里的 $\lambda_b$ 只是这个实际特殊纤维连接差的全纯系数。
+要读(52)中的除 $p$ 后 anti-Hodge 坐标，还须保留整
+Frobenius/Čech 比较，不能仅凭(61)就称其等于原 AJ。
+
+最后，绝对晶体 Frobenius 的约定也必须保留：
+对一个实际特殊纤维线丛有
+$\varphi c_1(\mathcal L)=p\,c_1(\mathcal L)$。
+原 $Q_p$ 的**系数算术** Frobenius 为负并不将此式改成
+$-p\,c_1(\mathcal L)$。
+在内部 $W$ 标量的两 CM 投影中，半线性
+$\varphi(\omega)=\omega^2$ 给
+$$
+\varphi c_1(D_p^+)=p\,c_1(D_p^-).
+\tag{62}
+$$
+其平方才是本篇一直使用的 $F=p^2$。
+本节未改变任何原最高投影或 Artin 下降方向。

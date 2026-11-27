@@ -408,3 +408,7 @@
 - R1042§15（136）–（150）：原S=Θ¹⁷f(t)、T=Θ³⁶g(t)，真实Jacobian−19t；(S,T/S−1)有整逆。全Hasse反代两方向极帽a+b，读取i≤I+h、l≤J+h，原精度不损。所有D的总阶2D环境Taylor格整检测由binomial Vandermonde=19^{m(m+1)/2}直接给出，D≥p亦有效。原同一标量行仅给qS c10+qT c01及其方向导数；未免费给scalar→环境Schur左逆。
 
 - [原正支唯一四次迹](notes/2026-11-27-fixed-five-old-positive-trace.md)：完整四维trace T_b=−1/(60b)，原T17=−1/1020，待合并来源公式给m0/δ=1/42840、c+=−1/1530。唯一run46036879390/job140634410835真PASS，root另给完整60f多项式身份及Lagrange手证。完整5/p-new补项保持。
+
+- 原unitary§15（60）–（74）完整锁正支：Kδ-old且全偶；Y三处真实P7及2/7相位返回原G126。625项逐纤维降25，原−1/84/δ/7/Theta5/全部μ6轨道给准确c+(b)=−1/(90b)，原b17为−1/1530，完整手证及唯一公开回执齐。其旧K/Y=0，负支旧K/Y非零；两支旧Yunit质量差c_n JG0/(90b)非零，因此5-new+p-new全和必须严格补偿，不可删为深误差。
+
+- R1049§10（53）–（62）：对真正mShioda线丛先由Fil²/E1退化得Atiyah0，全局绝对连接；原proper generic KS非零使连接差仅基1形式，曲率唯一。原Tate线丛automorphy U给曲率dμ/A∧ω，保三次覆盖倍率得up modp=−cQ。相对p-curvature准确−μ，ss处规范连接与Miller挠连接差λω满足λ^p=−μ(Q)(b)。除p的anti/AJ读取还需全φ/PD同伦，不预给h非零。

@@ -277,3 +277,11 @@
 ### R1042§15 — 17/36真实双源整反写
 
 Jacobian=Θ⁵²(17fg′−36f′g)=−19t+高阶，原(S,T)不étale；整blow-up(S,q−1)、q=T/S才有单位Jacobian19。全Hasse替换Θ极帽t^-h、t极帽t^{1−h}，两个方向h=a+b，输入i≤I+h,l≤J+h。原E_D用总阶2D全Taylor格整检测，所有D的binomial Vandermonde准确19^{m(m+1)/2}，无模p除阶乘。c10=(a1−36a0)/19,c01=(17a0−a1)/19；同§13原qS/qT给Z_H，Hasse后仍是原方向导数并保(a+1),(b+1)。原scalar Schur与完整前缀forcing未付。
+
+### 原unitary§15 — 正支精确G系数与不可删补项
+
+Kδ-old空间[δ]*S2全偶，真实P+三处(u,v)→(7u,0)、P7 fΦ∝fG与2负/7实偶锁原G。全625项按w=2u−v逐纤维25相等（Weyl相位exp(±πi300E)=1），原(Y−2K)/δ norm50完整sigma式−δh50(δz)/7。Θ5 lift、Dψ5=6x²yq′、24点四μ6轨道给m0=−δTb/42，60f整数身份及Lagrange得Tb=−1/(60b)，故c+=−1/(90b)。原b17为−1/1530。正旧K/Y=0，负旧K/Y为原E21609非零载体；旧单位质量差=c_nJG0/(90b)，全新补项准确是其负值。未从两个不同读者制造矛盾。
+
+### R1049§10 — 原全局连接、Manin与u_p绝对定标
+
+先清实际Shioda分母m（仅2/3），mD的c1modp=mupΩ落Fil²，E1退化使Atiyah0；曲率−dθ=mupΩ。proper generic KS非零给H0Ωabsolute=Ωbase，任意两连接曲率同。原Tate theta比Θ(Z/U)/Θ(Z) automorphy U，θ=z dlogZ、z=dlogU/dlogT；完整原T为s^9/s^3乘单位，不换width1。曲率−dz∧dlogZ=dμ∧ω，原Φ=−cQΩ故up modp=−cQ。相对向量D^p=A D给Ψ=−μ，ss的实际连接差λ满足λ^p=−μb。absolute φc1L=p c1L与系数算术Frob antiQ分开；内部CM系数半线性φ交换D±。下一φ/PD链整除p与原54 h值仍须证明。

@@ -141,3 +141,7 @@ R1049§9追加（43）–（52），root逐式核全部Cech符号、p²与p/(p+1
 R1042§15全稿消费并逐式核17/36 Jacobian、Hasse a+b极帽、全D binomial整数det及2D环境整检测；明确标量Schur未付。唯一正支四次迹run46036879390/job140634410835/source4e827843已PASS，T1=−1/60/T17=−1/1020；root手推60f整数身份给独立短证，回执/全部hash写单页，不保存原输出。
 
 只读实际pull run46036879370/job140634411107：公开16:49:55UTC到4e827843bcee23a6a7bebf78528b59a69871e0ab，较0b7cc6c7两README无差异；私库16:50:00UTC到857ff63a4f0dc989a1bcedbeed35e44357723dcd，较1a736908两README无差异。公开README blobs282e86b0/2f3b3c92、私库5ba16484/452d0127均已读；QUEUE新blob a01613b400f6cce6d89d2df6e34c836d9758386f已亲读本课题仍本会话进行中。实际log14861B/SHA256 1ba19cdf197c889989c51b192b4485dafe319dac9f89f4252af275033af3aa66。topic3082文件/43204732B，无>5MB；既有三gzip input的大小/hash全未变，无新增可重算数据。下一轮两库实际pull≤17:49UTC。
+
+## 2026-11-27 17:05:47 UTC — 正支全G返回与原连接绝对定标
+
+消费arith blob e715a2e24bc64dfcc4e27700d4124b639e11b93b补unitary§15；root核原−1/84、norm50首项、Θ5 pole25、24/6轨道和60f整身份，正支−1/(90b)，全K偶与补质量身份保持。消费geometry blob ea4658905952ee71892691a7d30ac0c50ad7a592补R1049§10；root核真mShioda/Atiyah/Hodge、generic KS、Tate automorphy/Chern负曲率、连续微分及p-curvature符号。up modp=−cQ为已证明；原h的integral φ/PD桥继续，不预给AJ非零。首次文档打包因H超过10KB在写blob之前停止，已逐字归档并压缩重复叙述；全部pins/旧门保留。无新增数学执行。
