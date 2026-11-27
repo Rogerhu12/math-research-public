@@ -241,3 +241,7 @@
 ### 2026-11-27 21:18 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1128在完整原V中证明低偶角色的准确出现 iff，并将奇j对应的forced高角色和低r=j+1角色互不交配对；每失败pair花费两个不同irregular指标，给全p>37实际good维数≥floor(p/16)+3。
 - root/global/o2全文纸核广义Bernoulli的Teich/两幂和规范、ordinary Kummer、所有异常边界、整数+3与渐近常数；原class-group消失/p-only同构直接适用于这些实际good低角色。无数学执行，未把线性秩或巨大覆盖degree当曲线像排除；继续全局共同像及原Gaussian双支mask。
+
+### 2026-11-27 21:23 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1116 §7把原Appell primitive准确扩至1≤r≤p−3，并把完整实际good角色的Gaussian首项全部读作同一Kronecker反对角c_(R−2)=c_(p−R−2)。R1128高低pair分别落在原奇2j−1/偶j−1位置。
+- root/o2全文纸核所有primitive常数、同权反射合法区间、真实参数/Ψ高尾至少4p间隔、regularizer及R2与R1127完全同一单位斜率。旧文逐字保留；无数学执行，未把双支mask、端点或低层卷积删去。继续原全good首项共同零排除。

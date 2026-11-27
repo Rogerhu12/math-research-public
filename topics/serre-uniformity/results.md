@@ -26,7 +26,7 @@
 
 - **原Gaussian norm2续稿（已证明）**：[原Gaussian norm2分布](notes/2026-11-27-original-Gaussian-norm-two-Kronecker-distribution.md)付同一$(1+i)$的完整Kronecker两极分布、真实平移相位与平方根分支；$y_k=5G_{p-3}=2a/\delta^3$为单位。N11/N12/N14保全部低层卷积及原good mask，尚未排R1116的指定内段同时零。
 
-- **R1116（已证明）**：[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)：原全部forced Gaussian coarse首项准确读同一Kronecker核反对角c_(2j−1)，含primitive常数、regularizer、Bernoulli-good mask和完整Fay乘积；全forced同时零会给具体奇偶半段缺失，尚未排该条件。R1114的混合K_p未被偷换为其中一项。
+- **R1116（已证明，§7全实际角色延拓）**：[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§7扩至完整实际V：原Appell全1≤r≤p−3，good角色R首项读c_(p−R−2)=c_(R−2)，保全部尺度/常数/高尾。R1128高低pair读c_(2j−1)/c_(j−1)，R2与R1127单位斜率吻合；双支good mask共同零仍开，保全部低层乘积。
 - **R1115（已证明）**：[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)：原非整j局部分支精确由同一cusp的Kummer-annihilator Frobenius并集判别，−1modp整支仍相容；候选非零坐标给无条件秩下界。p47完整V每cusp秩10，235候选可被同素共同排除全部cusps且保圆单位非零，但affine像/分母全局排除仍开。
 - **R1113（已证明；新增§§8–9）**：[R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)：原L=D²−2U在p维W上由全部Ψ零点的真实J_P对角化；零谱投影自动消失不证e单位。完整jet递推保−r(r−1)δ²J_(r−2)，e=0时K4是三项准确配对；原η_k=(16v²g0/(3δ))D_N(1)，g0为显式单位。ν及两指定读数非同时零继续，不能用完整Dixon反对称和替代。 R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darboux因子与全部三阶jet carry；C=UD+V仅在明确W_C上半单，原U^m为唯一零列。每个实际列的relative Cartier读数e_ℓ给精确p−1系数；仍未付指定e/K4非同时零。
 - **R1114（已证明）**：[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。

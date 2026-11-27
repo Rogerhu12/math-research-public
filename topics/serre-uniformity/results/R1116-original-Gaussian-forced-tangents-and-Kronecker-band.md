@@ -355,3 +355,187 @@ $5\mathcal H_p+(8a^2/45)\mathcal K_p=16G_{p-3}$
 R1075 的完整同权 theta 证明（本篇 §3 明列其所需一般偶权版本）；
 R1079 的原短 $\Psi$ carry；R1082 的 Gaussian 标架、$\delta$ 与
 $G_{p-3}$；R1114 的同一原二挠及 $1+i$ 归一。
+
+
+## 7. 完整实际 V 的同一反对角：全部低角色也保原尺度
+
+本节扩大第3–5节的可读范围，不修改前文对 forced 来源的证明。
+仍固定 $p=4k+3\ge41$ 及同一个原 Gaussian frame。
+
+### 7.1 原 Appell primitive 的全短范围
+
+准确的有限身份其实在整个范围
+$$
+\boxed{\quad
+D^{p-r-1}x=
+\frac{\mathcal C_r(\Psi;x^p,y^p,a^p)}
+ {r!\delta^{r-1}},
+\qquad 1\le r\le p-3,
+\quad}
+\tag{1116.26}
+$$
+成立。为避免只作形式外推，逐项核对扩大后的边界。
+
+首先 $\mathcal C_r$ 只需 $\sigma(u)$ 至 $u^{r+1}$，
+而 $r+1\le p-2$；所需阶乘与 Hurwitz 权均严格低于 $p-1$。
+所以原 Appell 定义仍 $p$ 整。
+在原 $T=0$ 展开，只有
+$\mathcal C_1(Z)$ 有负次；其余 $\mathcal C_s(Z)$，$s\ge2$，
+都正规到本次所需精度。
+(1116.12) 的唯一最高负项仍是 $\nu=r-1$，
+故右端极阶至多 $p+1-r<2p$。
+截断 zeta 与原 $\Psi$ 两种误差的最低次数仍至少
+$p(p-r+1)>0$。这里没有让大 $r$ 的 Laurent 极点吞掉误差。
+
+原 $D F_r=F_{r-1}$ 递推从 $F_1=\Psi$ 开始，因而两个原 primitive
+之差是一个 $p$ 次幂函数，且只在 $O$ 有严格低于 $2p$ 的极。
+椭圆曲线非恒定函数的最小极阶为二，所以差为常数。
+奇 $r$ 由奇性定零。
+偶 $4\le r\le p-3$ 时，纯 G 反射 (1116.14) 仍合法：
+两侧权 $r,p+1-r$ 均在 $[4,p-3]$，全部 Eisenstein 常数和阶乘 $p$ 整。
+故左右常数仍准确为
+$$
+\frac{G_{p+1-r}}{(r-1)!}
+ =-\delta^{1-r}G_r.
+$$
+$r=2$ 仍由 Gaussian $G_{p-1}=0$ 及 $\mathcal C_2$ 零常数支付。
+这给出 (1116.26) 的全部常数，不以导数相同略去它们。
+
+### 7.2 任一实际偶角色的 i=2 源
+
+令
+$$
+2\le R\le p-3,\quad R\text{ 偶},\qquad
+r=p-1-R,\qquad
+d_R=(p+1)R-2(p-1)=p(R-2)+R+2.
+\tag{1116.27}
+$$
+$r$ 为偶数且 $2\le r\le p-3$，$d_R\ge4$。
+R1071 的真实 profile 对任何实际 $V_{\omega^R}\ne0$ 均适用；
+其 $i=2$ 系数合法，二项式为
+$(d_R-1)/2\equiv(R+1)/2\ne0$。
+本节不使用一个不在 $V$ 中的 ambient 角色作标签。
+
+取 (1116.26) 的 $T^{p(R-2)}$ 系数。
+左侧是 $D^R x$，原 Hurwitz 系数乘子为
+$$
+(d_R-1)(d_R-2)_R\equiv(R+1)!
+ =\frac1{(r-1)!}\pmod p.
+$$
+右侧只有 (1116.12) 的 $\nu=0$ 能给这个 $p$ 倍指数。
+原 $\Psi$ 误差最低次 $p(R+2)$ 与目标 $p(R-2)$ 恰相差 $4p$。
+
+原 additive $t$ 和 eigen-$T$ 也没有额外混合：
+$t(T)=T+O(T^{p^2})$，$x$ 的误差从 $T^{p^2-3}$ 开始；
+对 $D^R x$，所涉导数或参数误差最早在 $T^{p^2-R-3}$。
+它与目标之差为
+$$
+p^2-R-3-p(R-2)
+=4p+(p+1)(p-3-R)\ge4p.
+$$
+同时 $d_R-2<p^2-3$。
+所以扩大范围仍没有读取第一个未付的高尾。
+
+得到同一个原反对角的准确公式
+$$
+\boxed{\quad
+G_{d_R}
+ =\frac{(r-1)!}{\delta^{r-1}}\,c_{r-1}
+ =\frac{(r-1)!}{\delta^{r-1}}\,c_{R-2}.
+\quad}
+\tag{1116.28}
+$$
+最后一步只是原 $P_k$ 的对称性，因为
+$(r-1)+(R-2)=p-4$。
+输入的有限总权始终是 $p-3$，并没有随 $r$ 增大而读取不整 Hurwitz 项。
+
+### 7.3 全部实际 good 首项及 R=2 的原尺度复核
+
+若该实际角色 Bernoulli-good，仍用同一个原 $b_{\omega^R}$，
+以及 R1071 的 $\beta_0,\lambda$。
+原 division identity 是
+$$
+A_{d_R}=\kappa_{\omega^R}G_{d_R},
+$$
+因为 $d_R\equiv2R\pmod{p-1}$。
+$\kappa_{\omega^R}$ 对全部实际 $V$ 非零，已由 R1070 §10 支付。
+在 Gaussian coarse 参数 $z=t_*^2$ 上，准确有
+$$
+\boxed{\quad
+[z]\bigl(c_{\omega^R,s}(z)-c_{\omega^R,s}(0)\bigr)
+ =-\frac{r!}{4b_{\omega^R}\delta^{r-1}}\,
+   \beta_0^{d_R}\lambda^2 c_{r-1}.
+\quad}
+\tag{1116.29}
+$$
+这是完整多项式的一阶系数；一般 $R$ 的更高 coarse 项仍保留，
+不把所有角色的 profile 误称为 affine。
+$R=2$ 与第一 forced $R=p-3$ 是已付 degree 界中的特殊 affine 情形。
+
+特别 $R=2$ 时，$r=p-3$、$d_R=4$。
+由 Wilson
+$$
+(p-4)!=1/6,\qquad (p-3)!=-1/2,
+$$
+以及 $\delta\in\mathbf F_p^\times$、$c_{p-4}=-G_{p-3}$，
+(1116.28) 给
+$$
+G_4=-\frac{\delta^3}{6}G_{p-3}=-\frac a{15}.
+$$
+(1116.29) 因而严格成为
+$$
+-\frac{\delta^3G_{p-3}}{8b_{\omega^2}}\,
+ \beta_0^4\lambda^2
+=-\frac{a\,\beta_0^4\lambda^2}{20b_{\omega^2}},
+\tag{1116.30}
+$$
+与 R1127 的实际 affine unit 逐因子相同。
+这里没有重算一个有限素数或把边界单位换成别的同权源。
+
+### 7.4 原全 good mask 及高低配对的确切位置
+
+令
+$$
+\mathcal G_p=
+\{\,R:\ 2\le R\le p-3,\ R\text{ 偶},\
+       V_{\omega^R}\ne0,\ p\nmid B_R\,\}.
+$$
+全部实际 good 标签在 Gaussian 中心的一阶同时为零，准确等价于
+$$
+c_{p-R-2}=c_{R-2}=0
+\qquad(R\in\mathcal G_p).
+\tag{1116.31}
+$$
+这是同一个 $P_k$ 的一组指定系数条件，
+没有把 bad 角色的全局像擅自设为零。
+
+R1128 的互不相交高低配对在此有具体位置。
+对奇数 $j$、$1\le j\le k-1$，令
+$$
+R_{\rm hi}=p-1-2j,\qquad R_{\rm lo}=j+1.
+$$
+前者是原 forced 角色；后者小于 $(p-1)/2$。
+其原出现判据是
+$$
+V_{\omega^{R_{\rm lo}}}\ne0
+ \quad\Longleftrightarrow\quad p\mid B_{R_{\rm hi}}.
+$$
+所以在假设 (1116.31) 下：
+
+- 若 $p\nmid B_{R_{\rm hi}}$，必有原奇下标
+  $c_{2j-1}=0$。
+- 若 $p\mid B_{R_{\rm hi}}$ 而 $p\nmid B_{j+1}$，
+  必有原偶下标 $c_{j-1}=0$。
+- 若这两个 Bernoulli 都 bad，本配对没有提供可除圆单位的约束；
+  两者均不能被省略。
+
+R1128 已严格下界这些实际 good 角色的总数；
+本节把它们的 Gaussian 首项全部定位到原完整核。
+但不同系数位置及其原来源得到确认，不等于这些指定值已证非零。
+二同源分布和 (1116.25) 的全部低乘积仍在；
+本节没有排除 (1116.31)，也没有把原 bare、primitive/Legendre 或
+$\eta_k,\nu_k$ 换成这个 mask。
+
+本附节仅为纸面全范围延拓及原尺度核对；无数学程序执行。
+
+root 已独立纸核 §7 全短 primitive 的常数、两种参数误差的至少4p间隔、实际全部角色的 regularizer、R=2 与 R1127 的逐因子一致及双支 good mask。旧 §§1–6 逐字保留。
