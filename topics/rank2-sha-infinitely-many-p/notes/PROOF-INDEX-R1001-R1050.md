@@ -265,3 +265,7 @@
 ### R1049§8 — 原惰性局部整扩张参数
 
 原T(-2)的两标记filtration3/0，φe1=p³u e2、φe2=−u⁻¹e1；商filtration2，Hodge lifts的全参数(x,y)仅有gauge(x−puz,y+z)。h=x+puy给全Hf¹≅O，FL精确/全忠实/essential image及所有除φi给模p^n split iff h≡0。Frob lift反坐标−p h/(p+1)，标准BK Hodge−Frob给log=+p h/(p+1)。与R1049（20）–（21）同测试比较严格h=a_j,p⁻¹I_j,p，没有可变周期或省非单位p。原几何全54加权h的残余非零仍未付。
+
+### 原unitary§14 — 完整5-old负支反演
+
+[原文](2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)（43）–（59）。D=diag126,6，Qε DQεᵗ=25D；同even characteristic的625项Weyl平均在完整theta列交5/25，old返回严格1/5·Pε。原Y+K/δ even锁3处v=−u，Y−K/2 odd锁真实2处singlet；原N完整收缩的7处f7实偶。P−逐处给2交换−1、3全K反演、7反演+1，所以保K/A整函数O−C=−C(z,−k,a)/5。真Yunit返回两次带负K缩放，忘K才是−39δ c_nJ126/5；K/Y系数β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7非零。全和三项分解含oldE0、5-new E0、p-new，后两项未授权为零。

@@ -125,3 +125,7 @@ run46032975863/job140621181486/source5df58ad8真PASS，完整原对照、基修�
 追加§8（33）–（42），直接分类原FL[0,3]整晶体扩张，唯一h=x+puy，logBK=p h/(p+1)，原整log格=pO；全除Frobenius和精确全忠实给modp^n split iff h≡0。同原积分测试/Artin基比较严格h=a_j,p⁻¹I_j,p。root亲读FL§7.14/7.15/8.4及GHLS§2.3 p414，保原两个标记嵌入与负号。尚无h非零，继续全54权Ξ图限制和原全球桥。open接近30KB，逐字归档后压缩重复说明，未删任何旧门。无数学执行或重算。
 
 16:37同步附记：R1049§8首次ref返回GitHub GraphQL UNKNOWN；已立即尝试本地pull --rebase（执行环境仍不可用），随后重读实际main、比较两README和本topic外部差异、以新父50145fc4重建并成功非force推13b0bbd9。更正两条记录的手写时标为实际UTC分钟，运行状态只记实际读取时状态。
+
+## 2026-11-27 16:39:54 UTC — 完整5-old负支反演与真实读者
+
+消费arith未引用blob31c7d9561c58b904ea61d8c67316a0a2dbb1da61；root逐式读同theta框架/625项迹/25交5及2/3/7 CRT，central同期手核相位。追加unitary§14（43）–（59）：E5old P3 μ−=−R_K*ν/5，canonical系数−39δ/5，实际K/Y非零的全部p损和K反演准确。全5-new/p-new补项继续保留，未赋whole中央零。H接近10KB，逐字归档再压缩末分工段；所有旧结论/条件/回执保于归档链。无数学执行或扫描。

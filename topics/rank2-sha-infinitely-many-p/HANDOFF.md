@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-inert-syntomic-lattice.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-complete-five-old-reflection.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -48,4 +48,4 @@ R1049新转向目标p惰性：同一固定54图均以原full9/完整GΓ在Kp下�
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。
 
-central继续同一完整前缀/三低卷积；arithmetic继续实际角源与全补域forcing；geometry继续原inert-p最高λ的finite-polynomial积分桥；root处理完整作业、同步、接线与逐条推送。原g_n准确稳定子1+p^n、全E0球环带/二次相位和移动投影费用(1−E0)φ_n均已付。新§§10–13以a=2/5,b=κ^n/5锁逆Gram，保5处12odd Bell、旧2/3/7全部固定状态和反变符号，明确两norm3150/150六sigma F±；原connected/étale division图把Y-unit全返回为β^-n/d_n的两个K缩放差。忘K才成c_n(JF−−JF+)；K/Y另保κ^-n(1−βκ)。p^(1−n)损和mixed cut全保，未给新来源canonical中央零。主目标未完成，持续工作。
+central继续同一完整前缀/三低卷积；arithmetic继续角源全补域；geometry继续原inert-p Ξ真实限制；root处理完整作业/同步/逐条推。unitary §§10–13已付原g_n逆Gram/12odd Bell/固定坏处/F±六sigma及全部connected/étale球。§14新付完整625项5-old迹、25列交5给绝对1/5；2singlet/3 gluing/7实偶给 E5old P3 μ−=−R_K*ν/5，保K/A全部类型。忘K才是−39δΦ126/5，实际Yunit两个K缩放差全保；其K/Y非零为β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7。完整5-new 24wild与p-new反字符补项仍待，不以原canonical中央坏给它们零。主目标未完成，持续工作。

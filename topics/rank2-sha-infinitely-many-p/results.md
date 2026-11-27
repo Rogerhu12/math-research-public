@@ -400,3 +400,5 @@
 [完整证明](results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)。R1049在目标p惰性时保同一未depletion固定54图、全部η/Cor/full9。原图的Kp下降与η((p))=1先付，原H³(2)的φ²=−p^-1给BK exp一维。proper全Čech原函数的真实限制给AJ=p/(p+1)·原54项杯积和，p非单位不省。全NS判别式−p²、旧幺模格与Hodge分解给新增CM晶体指数恰1,p，c1D+=upΩ、c1D−=−p/(3up)Ω−且up单位；实际W₂线丛障碍给MW/p→H²(O)的Fp同构。仍须计算原Ξp的全标记限制并消费全球来源；未把μ、up或global障碍非零当加权AJ非零。 无新增数学执行或素数扫描，主要来源为Besser proper FP、DR§3.3、Ulmer晶体cycle map及原已付NS格；仍继续原函数限制。
 
 - R1049§8（33）–（42）：原惰性p整实现扭曲后在FL[0,3]；保两个标记嵌入/原积分测试/Artin基，全部整晶体扩张唯一参数h=x+puy，模p^n分裂恰h≡0。直接解Frobenius/Hodge splitting给logBK=p h/(p+1)、整log格=pO，同原54/η/Cor读取准确h=a_j,p⁻¹I_j,p。未给h非零；继续全Čech/Frobenius的图限制。无新增数学执行。
+
+- 原unitary§14（43）–（59）：完整625项5-old迹在同一even theta基上，25列与旧列恰交5，给绝对1/5。全2/3/7 CRT及dyadic singlet真实负号使负支whole返回E5old P3 μ−=−R_K*ν/5，保K/A全类型；忘K为−39δΦ126/5。原Yunit双K缩放式及K/Y真实非零点对数系数齐，旧canonical坏确令相应首导数零；5-new全24wild与p-new paired字仍保，未给whole角来源中央零。[完整证明](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)。

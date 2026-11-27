@@ -772,3 +772,278 @@ $$
 (29)的十二个 wild 字或(32)的新六 sigma 当作已知 rank-two
 canonical 族。下一步可直接对这两个已完整返回的固定输入及
 (39)的两项 mixed 测试作比较；无须再次重建 p 局部球/环带。
+
+
+## 14. 原完整 5-old 迹的负号支：保 K/A 的准确反演
+
+本节只使用原固定角(26)及原有限来源，未执行新数学程序。
+5-old 指五处两个轴各自的旧球投影；它不是 p 处的
+$E_0$，也不是把整个新来源赋成一个旧 canonical 行。
+以下在完整 H/J/N 投影后保留 K 与 A 的全部类型。
+
+### 14.1 固定半特征和真正的 625 项投影
+
+写 $D=\operatorname{diag}(126,6)$，并令
+$$
+ Q_\epsilon=
+ \begin{pmatrix}2&21\epsilon\\-\epsilon&2\end{pmatrix},
+ \qquad Q_\epsilon DQ_\epsilon^{\,t}=25D,\qquad \det Q_\epsilon=25.
+ \tag{43}
+$$
+R1040(84)–(85) 的整个来源为
+$$
+ \mathscr P_3\mathcal B
+ =B_3(h)\Theta(j)\Theta_{14}(n)\mathcal C(z,k,a),
+ \qquad
+ \mathscr P_3=\Pi_{H,0}\Pi_{J,0}\Pi_{N,0}.
+$$
+原 $(Y,K)$ 两度均为 even，故其标准半特征为平凡：
+在共同实周期归一及同一 Gaussian gauge 中可用完整基
+$$
+ \vartheta_{\mathbf c,D}(\mathbf z)
+ =\sum_{\mathbf m\in\mathbf c+D\mathbf Z^2}
+   \exp\!\left(\pi i\tau\,\mathbf m^tD^{-1}\mathbf m
+                    +2\pi i\,\mathbf m^t\mathbf z\right),
+ \quad
+ \mathbf c\in\mathbf Z/126\times\mathbf Z/6 .
+ \tag{44}
+$$
+其中 $\tau=(1-\omega)^{-1}$ 是同一个原周期比；改变到原 sigma
+frame 只乘各轴共同的二次 Gaussian。
+(43) 保持该二次型，因此此变框架不会添一个角依赖的指数或 phase。
+A 的 odd degree9 半特征完全未动。
+
+先在 degree $(3150,150)=25D$ 上形成
+$\mathcal C(Q_\epsilon^t\mathbf z,a)$。
+在两个轴的全部 $E[5]$ 上，使用原 Weyl lift 定义
+$$
+ \mathcal E_5F
+ =\frac1{5^4}\sum_{u,v\in E[5]}
+       \mathsf T_{3150,u}\mathsf T_{150,v}F .
+ \tag{45}
+$$
+因为各度除以25后仍为 even，这个群的完整中心及整数周期
+在(45)中平凡；其像准确是 $[5]^*H^0(\mathcal L_D)$。
+定义唯一的旧返回 $\mathcal O_\epsilon$ 为
+$$
+ [5]^*(\mathcal O_\epsilon f)
+       =\mathcal E_5\{f(Q_\epsilon^t\mathbf z)\}.
+ \tag{46}
+$$
+这就是对(33)的五处旧球投影并返回原参数，不是另选一个同维模型。
+
+### 14.2 25 列与 5 个交点锁定绝对系数
+
+由(43)，$Q_\epsilon^tD^{-1}Q_\epsilon=25D^{-1}$。
+所以 $f=\vartheta_{\mathbf c,D}$ 的拉回在
+degree $25D$ 的完整 theta 基中恰为25个不同列之和，每列系数一。
+另一方面
+$[5]^*\vartheta_{\mathbf b,D}$ 也是25列之和，索引为
+$$
+ 5\mathbf b+5D\mathbf t\pmod{25D},\qquad
+ \mathbf t\in(\mathbf Z/5)^2 .
+$$
+第一组与后一组相交，必须
+$\mathbf b\equiv Q_\epsilon\mathbf c/5\pmod D$；
+除以5在两个原有限群中均唯一合法。
+对这个唯一 $\mathbf b$，条件
+$Q_\epsilon\mathbf m\in5\mathbf Z^2$ 在模5只有一个独立条件：
+$Q_\epsilon\bmod5$ 秩一。因此两组恰交5列。
+
+同一级的(44)各列正交且范数相同。
+故正交投影的系数是 $5/25=1/5$，不是由非零平方值猜一个标量：
+$$
+ \boxed{\quad
+ \mathcal O_\epsilon\vartheta_{\mathbf c,D}
+   =\frac15\vartheta_{P_\epsilon\mathbf c,D},
+ \qquad
+ P_\epsilon\mathbf c=Q_\epsilon\mathbf c/5\pmod D .
+ \quad}
+ \tag{47}
+$$
+(45)的 $5^{-4}$、625个完整纤维及(47)的 $1/5$ 全部保留。
+相交列中的系数均是一，故(47)也锁定绝对号。
+这与(28)中两个归一旧球对 Bell 图的内积 $1/5$ 一致，
+但本证明还支付了无限 theta 及其原 half-characteristic。
+
+### 14.3 原三处 gluing 与二、七处符号
+
+以下不用预先施加 $\Pi_{Y,0}$ 或 $\Pi_{K,0}$。
+
+首先直接由原行，
+$$
+ \frac{Y+K}{\delta}
+     =2(-\delta,-\omega,-\omega^2,2,1,1),\qquad
+ N((Y+K)/\delta)=44.
+$$
+quotient 的 norm 偶，原六 sigma 准周期和 Weyl 指数因而准确给
+$$
+ \mathsf T_{Y,u}\mathsf T_{K,u}\mathcal C=\mathcal C
+       \qquad(u\in\ker\delta).
+ \tag{48}
+$$
+在原 $\Lambda=\mathbf Z+\tau\mathbf Z$ 中，
+$\delta/3=2\tau-1$，可取真实实方向 $u=1/3$。
+标准 even gauge 下该 Weyl 算子就是(44)的实平移，
+所以若 $u_9,v_3$ 是 Y/K 的三处索引，(48)准确限制
+$$
+ v_3\equiv-u_9\pmod3 .
+ \tag{49}
+$$
+这里不是把两个已经主型化的三处向量相乘；
+K 的所有实际类型仍在(49)中。
+
+二处使用 R1040(114) 之前的整个来源关系。
+原 $Y-K\in2\mathcal O_K^6$、quotient norm33 odd，
+故对全部三个非零 $t\in E[2]$，
+$$
+ \mathsf T_{Y,t}\mathsf T_{K,t}\mathcal C=-\mathcal C .
+ \tag{50}
+$$
+在(44)的完整 CRT 基，实半周期是两侧同一个
+$\operatorname{diag}(1,-1)$，虚半周期是两侧同一个交换矩阵；
+$126/2=63$ 和 $6/2=3$ 都是 odd，第三个 Weyl 相位也一致。
+因此(50)的整个二处共同空间准确是
+$$
+ e_0\otimes e_1-e_1\otimes e_0 .
+ \tag{51}
+$$
+特别交换两侧的绝对号是 $-1$。这不由抽象 dyadic 号推断，
+而是由三个真实平移及其相位锁定。
+
+七处必须先用原投影前的 Bell 配对，再收缩 N。
+R1040(112)–(113)已经付
+$Y+4N\in\gamma_7\mathcal O_K^6$、
+$Y+3N\in\bar\gamma_7\mathcal O_K^6$，
+以及两个 quotient 的 even 半特征。
+$\Theta_{14}$ 的七处向量收缩这个完整配对线后，
+无论 K/A 采用哪个类型，Y 的七处都为同一个
+R1038(44) 的实偶向量 $f_7$。故索引 $a_7\mapsto-a_7$ 对此向量
+准确为 $+1$。
+这里仍没有把单个 N 平移穿过 $\Pi_{N,0}$。
+原 Weil $W_7(-1)$ 本身是负反射，有限特征
+$\tau_7(-1)=-1$；二者合起来正说明实际向量的索引反射为正，
+不遗漏该七处负号。
+
+### 14.4 负号支是整个 K 反演
+
+把 $P_-$ 在完整 CRT 索引中写开：
+$$
+ \begin{array}{c|c}
+ 2 & (u_2,v_2)\longmapsto(v_2,u_2)\\
+ 3 & (u_9,v_3)\longmapsto(4u_9+3v_3,\ v_3-u_9)\\
+ 7 & a_7\longmapsto-a_7 .
+ \end{array}
+ \tag{52}
+$$
+所有除以5都使用(47)的同一个有限群逆元。
+在(49)上，第二行准确是
+$(u_9,v_3)\mapsto(u_9,-v_3)$。
+二处交换由(51)给 $-1$，七处由前段给 $+1$。
+而 K 的整个反演在其二处索引上为恒等、在三处索引上正是
+$v_3\mapsto-v_3$。于是(47)逐列给完整函数身份
+$$
+ \boxed{\quad
+ \mathcal O_-\mathcal C(z,k,a)
+       =-\frac15\,\mathcal C(z,-k,a).
+ \quad}
+ \tag{53}
+$$
+(53)保整个 A 变量，以及 K 的全部 principal 和非 principal
+类型；没有在混合 $Y/K$ 前先删除 type1 的 $U_K$ 等来源。
+
+把 H/J/N 的三个已付整因子放回，等价地
+$$
+ \boxed{\quad
+ \mathcal E^{\rm old}_5
+       \mathscr P_3\mu_-
+     =-\frac15(R_K)_*\mathscr P_3((Y,K,H,J,A,N)_*\rho),
+ \qquad R_K(Y,K,H,J,A,N)=(Y,-K,H,J,A,N).
+ \quad}
+ \tag{54}
+$$
+左边 $\mu_-$ 沿(33)的同一 $1/5$ 参数和原反变规范；
+$\mathcal E^{\rm old}_5$ 精确指(45)–(46)。
+这是两个整来源的完整测度身份，故对所有连续 mixed 测试都成立，
+但测试中的 K 必须真的反演。
+
+只在最后忘掉 K/A 等伴随后，R1040(4)与(54)给
+$$
+ \boxed{\quad
+ (\operatorname{pr}_Y)_*\mathcal E^{\rm old}_5
+           \mathscr P_3\mu_-
+       =-\frac{39\delta}{5}\,\nu_{\Phi_{126,17}} .
+ \quad}
+ \tag{55}
+$$
+因此该支的系数和非零性都已经付清。
+这不是由新 $F_-$ 的质量零反推它只能有旧 rank-two 分量。
+
+### 14.5 同一个 Y-unit 读者及已付点对数
+
+五处投影与 p 处的完整 $E_0$ 平均交换。
+保(26)、(30)的 n 子序列及原反变号：
+$\Phi_n^+$ 对应 $\mu_-$。
+令 $\nu=\mathscr P_3((Y,K,H,J,A,N)_*\rho)$，并在其原 Y 轴取单位。
+将(54)代入原(39)，严格得到
+$$
+ \boxed{
+ \mathcal E^{\rm old}_5
+    \nu_{E_0\Phi_n^+}\big|_{Y\ {\rm unit}}
+ =-\frac{\beta^{-n}}{5d_n}
+    \{(D_{K,-\kappa^{-n}})_*
+       -\beta(D_{K,-\kappa^{1-n}})_*\}\nu^\times .
+ }
+ \tag{56}
+$$
+两次 K 缩放、反演、全部 p 分母和 H/J/N/A 测试均在式中。
+忘 K 后才是
+$$
+ J_{\mathcal E^{\rm old}_5 E_0\Phi_n^+}(v)
+       =-\frac{39\delta}{5}c_n J_{126,17}(v).
+ \tag{57}
+$$
+在原 E3969 的坏中央条件下，(57)的首导数确为零。
+
+另一方面，同一个完整测度身份给实际 K/Y
+$$
+ \boxed{
+ \begin{aligned}
+ \int_{Y\ {\rm unit}}\frac K Y\,
+       d\nu_{\mathcal E^{\rm old}_5 E_0\Phi_n^+}
+ &=\frac{\beta^{-n}\kappa^{-n}(1-\beta\kappa)}
+          {5d_n}\,
+       \frac{10\delta}{7}\Omega I_{D,p}\\
+ &\ne0 .
+ \end{aligned}}
+ \tag{58}
+$$
+最后的非零是 R1046 已付的 E21609 同一个 Rubin 点对数；
+$1-\beta\kappa\equiv1\bmod p$。
+(58)并不与(57)冲突：二者测试函数不同。
+它支付了新投影实际保留下来的非零点载体，不从
+$j_Y(0)=0$ 微分出额外零，也不把 K-dependent cut 换成(57)。
+
+### 14.6 原全和仍需保留的两个补项
+
+对每个实际来源，准确分解始终为
+$$
+ \nu_{\Phi_n^+}
+ =\nu_{\mathcal E^{\rm old}_5 E_0\Phi_n^+}
+  +\nu_{(1-\mathcal E^{\rm old}_5)E_0\Phi_n^+}
+  +\nu_{(1-E_0)\Phi_n^+}.
+ \tag{59}
+$$
+对同一个 Y-unit 或其它完整 mixed 测试逐项使用(59)才合法。
+五处单支 new 部分包含24个 wild 配对字；
+只有在其它有限向量相同时，其局部有符号差才缩为(29)的十二个
+odd 配对字。原两支的2、3、7向量未被证明相同，
+所以不能用局部奇偶直接删掉(59)第二项。
+这些字也不是 R1047 的四个 even type5 点载体；
+其全部联合 Hermite 权和全坏处仍须返回。
+
+第三项的 p 字是(18)中的 Y/K 相反字符。
+原 $E^6$ 的对角 p 惯性会同时作用于两轴，两个字符可能相消；
+所以不能仅因 R1046 的原点域在 p 未分歧，就通过惯性把它删掉。
+(53)–(58)新增的是已完整支付的旧投影及真实读者，
+尚未把(59)的两个补项变成已知中央零。
