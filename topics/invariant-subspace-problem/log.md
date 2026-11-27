@@ -187,3 +187,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:38 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 中心化源60a4c4cf实际1.135421917秒/exit0，N1−2eE1全域S²取消与原理想等价变换均返；未付轴零面仍保留。
 - 真实05:31:39部分克隆pull两README无变已记H；继续新原u=Q单参图及一般等权参数cofactor。
+
+2026-11-27 13:40 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新等权原十行与两6列cofactor实际全返回；源6a7adfc1用1.898962029秒/50392KiB/exit0，原必要C24,24/C25,25全因子身份已登记。
+- 记录05:36:12真实pull及两README无变；下一接两曲线的全部共同部分和原Dval，普通ISP未完成。

@@ -1,0 +1,998 @@
+{
+  "elapsed_seconds": 1.9651849930000012,
+  "max_child_rss_kib": 50392,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "78462310f6c456b2087dd58e072662bfdc8ed9a7",
+      "before": "78462310f6c456b2087dd58e072662bfdc8ed9a7",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T05:36:12.798149+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "45946761510",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "78462310f6c456b2087dd58e072662bfdc8ed9a7",
+  "source_exit_code": 0,
+  "source_git_blob": "d11365a5ca6e04d17122b2109772b71b7ddec230",
+  "source_sha256": "6a7adfc147e22077a50bf5c17278c2ccc4dd5c78c6ac6a1e64233ccfcc4953db",
+  "stdout_bytes": 13090,
+  "stdout_sha256": "da0d11bb2dc34d5f7ffc402a8fa412438272fb7868c3065b28d1c7d9f6069366",
+  "stop_reason": null,
+  "job_id": 140333116341,
+  "stages": [
+    {
+      "stage": "new_equal_weight_same_original_Gram",
+      "originalE0N0P1Verified": true,
+      "weightedOriginalNPThroughHAHBVerified": true,
+      "originalDistinctValueRetained": true,
+      "wholeWeightChartExcluded": false,
+      "seconds": 0.03735818599999874
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "E1",
+      "degrees": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terms": 27,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.03780895799999939
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "EBe",
+      "degrees": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 14,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.038062054999997486
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "EBo",
+      "degrees": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terms": 11,
+      "paidRemoved": [],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.03825489300000129
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "N1",
+      "degrees": [
+        5,
+        4,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terms": 107,
+      "paidRemoved": [
+        [
+          "m",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 2,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.039201312999999516
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "weighted_N",
+      "degrees": [
+        7,
+        6,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 391,
+      "paidRemoved": [
+        [
+          "m",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.04179727199999661
+    },
+    {
+      "stage": "new_equal_weight_original_X_Gram_coordinates",
+      "name": "weighted_P",
+      "degrees": [
+        7,
+        6,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "terms": 327,
+      "paidRemoved": [
+        [
+          "m",
+          1
+        ]
+      ],
+      "totalDegreeXYt": 3,
+      "originalE0N0P1AndMeanReconstructionVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.043991652999999076
+    },
+    {
+      "stage": "new_equal_weight_paid_or_explicit_chart_four_original_rules",
+      "selectedColumns": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "quadraticHeadUnpaidFactorization": {
+        "content": "-4",
+        "factors": [],
+        "entireProductMultipliedBack": true
+      },
+      "chartGlobalAfterPreviouslyPaidUnits": true,
+      "all16InverseProductsOne": true,
+      "allFourOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.0518480009999962
+    },
+    {
+      "stage": "new_equal_weight_original_cubic_overlap",
+      "index": 0,
+      "remainingMonomials": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        7,
+        4
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.06883501800000147
+    },
+    {
+      "stage": "new_equal_weight_original_cubic_overlap",
+      "index": 1,
+      "remainingMonomials": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        10,
+        7
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.10325453499999782
+    },
+    {
+      "stage": "new_equal_weight_original_cubic_overlap",
+      "index": 2,
+      "remainingMonomials": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        7,
+        4
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.1147550250000009
+    },
+    {
+      "stage": "new_equal_weight_original_cubic_overlap",
+      "index": 3,
+      "remainingMonomials": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "maxWeightNumeratorDegrees": [
+        10,
+        7
+      ],
+      "allOriginalSixTraceProductsVerified": true,
+      "allDenominatorsSupportedByExplicitChart": true,
+      "claimExcluded": false,
+      "seconds": 0.15032609800000074
+    },
+    {
+      "stage": "new_equal_weight_six_original_monic_rules",
+      "selectedCubicRows": [
+        0,
+        2
+      ],
+      "explicitUnpaidChart": "none beyond already excluded whole branches and original units",
+      "allOriginalTraceAndLeadingProductsVerified": true,
+      "allLeadingZeroFibresRetained": true,
+      "freeModuleClaimed": false,
+      "claimExcluded": false,
+      "seconds": 0.1617633139999981
+    },
+    {
+      "stage": "new_equal_weight_original_six_monomial_multiplication",
+      "axis": 0,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        8,
+        7
+      ],
+      "claimExcluded": false,
+      "seconds": 0.19466242499999709
+    },
+    {
+      "stage": "new_equal_weight_original_six_monomial_multiplication",
+      "axis": 1,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        8,
+        7
+      ],
+      "claimExcluded": false,
+      "seconds": 0.20888723499999884
+    },
+    {
+      "stage": "new_equal_weight_original_six_monomial_multiplication",
+      "axis": 2,
+      "originalMonomialIdentities": 6,
+      "allOriginalTraceProductsVerified": true,
+      "allDenominatorsPaidOnExplicitChart": true,
+      "maxCoefficientNumeratorDegrees": [
+        8,
+        7
+      ],
+      "claimExcluded": false,
+      "seconds": 0.23593805000000145
+    },
+    {
+      "stage": "new_equal_weight_remaining_original_cubic_row",
+      "index": 1,
+      "allOriginalSixTraceProductsVerified": true,
+      "freeModuleNotAssumed": true,
+      "claimExcluded": false,
+      "seconds": 0.25610321299999583
+    },
+    {
+      "stage": "new_equal_weight_remaining_original_cubic_row",
+      "index": 3,
+      "allOriginalSixTraceProductsVerified": true,
+      "freeModuleNotAssumed": true,
+      "claimExcluded": false,
+      "seconds": 0.27705585999999727
+    },
+    {
+      "stage": "new_equal_weight_same_original_cubic_return",
+      "name": "NS",
+      "maxCoefficientNumeratorDegrees": [
+        15,
+        13
+      ],
+      "allOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.3880346380000006
+    },
+    {
+      "stage": "new_equal_weight_same_original_cubic_return",
+      "name": "PS",
+      "maxCoefficientNumeratorDegrees": [
+        14,
+        13
+      ],
+      "allOriginalTraceProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.49641063600000024
+    },
+    {
+      "stage": "new_equal_weight_cleared_original_six_column_row",
+      "label": "remaining_cubic_1",
+      "degrees": [
+        10,
+        10
+      ],
+      "terms": 406,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.4986562029999959
+    },
+    {
+      "stage": "new_equal_weight_cleared_original_six_column_row",
+      "label": "remaining_cubic_3",
+      "degrees": [
+        10,
+        10
+      ],
+      "terms": 439,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.5009964400000015
+    },
+    {
+      "stage": "new_equal_weight_cleared_original_six_column_row",
+      "label": "NS",
+      "degrees": [
+        15,
+        13
+      ],
+      "terms": 801,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.5055305079999997
+    },
+    {
+      "stage": "new_equal_weight_cleared_original_six_column_row",
+      "label": "PS",
+      "degrees": [
+        14,
+        13
+      ],
+      "terms": 781,
+      "paidRemoved": [],
+      "allOriginalProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.5101612989999964
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 0,
+      "degrees": [
+        16,
+        16
+      ],
+      "terms": 1014,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.521763950999997
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 1,
+      "degrees": [
+        12,
+        13
+      ],
+      "terms": 637,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.529607771000002
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 0,
+      "axis": 2,
+      "degrees": [
+        16,
+        16
+      ],
+      "terms": 1024,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.5404639309999979
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 0,
+      "degrees": [
+        16,
+        16
+      ],
+      "terms": 1075,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.5527585839999958
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 1,
+      "degrees": [
+        13,
+        13
+      ],
+      "terms": 684,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.5608744899999962
+    },
+    {
+      "stage": "new_equal_weight_additional_original_same_point_product",
+      "sourceRow": 1,
+      "axis": 2,
+      "degrees": [
+        16,
+        16
+      ],
+      "terms": 1087,
+      "allOriginalTraceAndPaidProductsVerified": true,
+      "claimExcluded": false,
+      "seconds": 0.5727272150000005
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 0,
+      "column": 0,
+      "selectedOriginalRow": 0,
+      "degrees": [
+        9,
+        9
+      ],
+      "terms": 66,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 0.581728358999996
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 1,
+      "column": 1,
+      "selectedOriginalRow": 1,
+      "degrees": [
+        18,
+        18
+      ],
+      "terms": 231,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 0.6236673629999956
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 2,
+      "column": 2,
+      "selectedOriginalRow": 5,
+      "degrees": [
+        28,
+        28
+      ],
+      "terms": 517,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 0.7508418179999978
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 3,
+      "column": 3,
+      "selectedOriginalRow": 8,
+      "degrees": [
+        39,
+        38
+      ],
+      "terms": 913,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 0.9179580399999949
+    },
+    {
+      "stage": "new_equal_weight_exact_parameter_fraction_free_pivot",
+      "position": 4,
+      "column": 4,
+      "selectedOriginalRow": 2,
+      "degrees": [
+        51,
+        47
+      ],
+      "terms": 1453,
+      "allExactDivisionsMultipliedBack": true,
+      "claimExcluded": false,
+      "seconds": 1.0635331679999993
+    },
+    {
+      "stage": "new_equal_weight_complete_original_parameter_cofactor",
+      "openChartExcluded": false,
+      "wholeEqualWeightExcluded": false,
+      "rows": [
+        0,
+        1,
+        5,
+        8,
+        2,
+        3
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "remaining_cubic_1*y",
+        "remaining_cubic_3*y",
+        "NS",
+        "PS"
+      ],
+      "fullDegrees": [
+        64,
+        57
+      ],
+      "fullTerms": 2237,
+      "paidRemoved": [
+        [
+          "m",
+          3
+        ],
+        [
+          "m_minus_one",
+          10
+        ],
+        [
+          "Q",
+          6
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "P02_linear",
+          2
+        ],
+        [
+          "paid_T0_J",
+          23
+        ],
+        [
+          "previous_complete_half_weight",
+          2
+        ]
+      ],
+      "reducedDegrees": [
+        24,
+        24
+      ],
+      "reducedTerms": 413,
+      "reducedSHA256": "940f15f76663021106eb1ee940eab588fd9a5cfe9865f7555187dbe28c97a6b5",
+      "cofactorSHA256": "f1f6873a6fe0262a847dbcc3fba3d0b241d36d354cc26ec8e72c739142daf791",
+      "allSixOriginalColumnProductsMultipliedBack": true,
+      "allPaidFactorsActuallyMultipliedBack": true,
+      "seconds": 1.4737191970000012
+    },
+    {
+      "stage": "new_equal_weight_complete_original_parameter_cofactor",
+      "openChartExcluded": false,
+      "wholeEqualWeightExcluded": false,
+      "rows": [
+        0,
+        1,
+        5,
+        8,
+        2,
+        6
+      ],
+      "labels": [
+        "remaining_cubic_1",
+        "remaining_cubic_3",
+        "remaining_cubic_1*y",
+        "remaining_cubic_3*y",
+        "NS",
+        "remaining_cubic_1*t"
+      ],
+      "fullDegrees": [
+        64,
+        59
+      ],
+      "fullTerms": 2296,
+      "paidRemoved": [
+        [
+          "m",
+          3
+        ],
+        [
+          "m_minus_one",
+          9
+        ],
+        [
+          "Q",
+          7
+        ],
+        [
+          "Q_minus_one",
+          2
+        ],
+        [
+          "paid_T0_J",
+          25
+        ],
+        [
+          "previous_complete_half_weight",
+          2
+        ]
+      ],
+      "reducedDegrees": [
+        25,
+        25
+      ],
+      "reducedTerms": 461,
+      "reducedSHA256": "97a989760ea5e6ab70775bf35c1bb2beba695f5bf78c77482d2971a0a01300dd",
+      "cofactorSHA256": "e9f6eacdd20caf005d901b1be2d3588ad4376af61d46271ca84313705dd7beb2",
+      "allSixOriginalColumnProductsMultipliedBack": true,
+      "allPaidFactorsActuallyMultipliedBack": true,
+      "seconds": 1.8987286260000005
+    },
+    {
+      "stage": "new_equal_weight_original_six_generator_parameter_input_complete",
+      "explicitUnpaidChart": "none beyond already excluded whole branches and original units",
+      "basis": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "originalMultiplicationIdentities": 18,
+      "initialOriginalNecessaryRows": 4,
+      "totalOriginalNecessaryRows": 10,
+      "nonconstantRank": 5,
+      "completeParameterCofactors": [
+        {
+          "rows": [
+            0,
+            1,
+            5,
+            8,
+            2,
+            3
+          ],
+          "labels": [
+            "remaining_cubic_1",
+            "remaining_cubic_3",
+            "remaining_cubic_1*y",
+            "remaining_cubic_3*y",
+            "NS",
+            "PS"
+          ],
+          "fullDegrees": [
+            64,
+            57
+          ],
+          "fullTerms": 2237,
+          "paidRemoved": [
+            [
+              "m",
+              3
+            ],
+            [
+              "m_minus_one",
+              10
+            ],
+            [
+              "Q",
+              6
+            ],
+            [
+              "Q_minus_one",
+              2
+            ],
+            [
+              "P02_linear",
+              2
+            ],
+            [
+              "paid_T0_J",
+              23
+            ],
+            [
+              "previous_complete_half_weight",
+              2
+            ]
+          ],
+          "reducedDegrees": [
+            24,
+            24
+          ],
+          "reducedTerms": 413,
+          "reducedSHA256": "940f15f76663021106eb1ee940eab588fd9a5cfe9865f7555187dbe28c97a6b5",
+          "cofactorSHA256": "f1f6873a6fe0262a847dbcc3fba3d0b241d36d354cc26ec8e72c739142daf791",
+          "allSixOriginalColumnProductsMultipliedBack": true,
+          "allPaidFactorsActuallyMultipliedBack": true
+        },
+        {
+          "rows": [
+            0,
+            1,
+            5,
+            8,
+            2,
+            6
+          ],
+          "labels": [
+            "remaining_cubic_1",
+            "remaining_cubic_3",
+            "remaining_cubic_1*y",
+            "remaining_cubic_3*y",
+            "NS",
+            "remaining_cubic_1*t"
+          ],
+          "fullDegrees": [
+            64,
+            59
+          ],
+          "fullTerms": 2296,
+          "paidRemoved": [
+            [
+              "m",
+              3
+            ],
+            [
+              "m_minus_one",
+              9
+            ],
+            [
+              "Q",
+              7
+            ],
+            [
+              "Q_minus_one",
+              2
+            ],
+            [
+              "paid_T0_J",
+              25
+            ],
+            [
+              "previous_complete_half_weight",
+              2
+            ]
+          ],
+          "reducedDegrees": [
+            25,
+            25
+          ],
+          "reducedTerms": 461,
+          "reducedSHA256": "97a989760ea5e6ab70775bf35c1bb2beba695f5bf78c77482d2971a0a01300dd",
+          "cofactorSHA256": "e9f6eacdd20caf005d901b1be2d3588ad4376af61d46271ca84313705dd7beb2",
+          "allSixOriginalColumnProductsMultipliedBack": true,
+          "allPaidFactorsActuallyMultipliedBack": true
+        }
+      ],
+      "openChartExcluded": false,
+      "allUnpaidZeroFibresRetained": true,
+      "noMultivariateGcdEmptinessInference": true,
+      "freeModuleClaimed": false,
+      "sourceSHA256": "6a7adfc147e22077a50bf5c17278c2ccc4dd5c78c6ac6a1e64233ccfcc4953db",
+      "peakRssKiB": 50392,
+      "wholeEqualWeightExcluded": false,
+      "ordinaryISPClaim": false,
+      "seconds": 1.8989620289999962
+    }
+  ]
+}
