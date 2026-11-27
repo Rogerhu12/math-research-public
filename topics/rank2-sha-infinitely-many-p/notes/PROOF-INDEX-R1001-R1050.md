@@ -297,3 +297,7 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### R1049后继 — 原p²完整范数与imprimitive端点
 
 [完整证明](2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)。原full9惰性p中心diamond为−1、p²为+1；Coleman r1唯一性和KS给B1G=a_pG/p=0，完整p+1回返路径保留后B2G=(p+1)G/p。canonical上行V²每条归一回程严格p⁻²G，全部p(p+1)项恰抵消G^[p]=G−V²G，原imprimitive完整depleted范数为0。未depleted原degree34p²修正图的raw AJ全范数却严格p(p+1)AJ(Yj0)，故p⁻²归一后是同一个I_j,p，原Artin下降后恰h_j,p。全54/η/Cor/full9逐项保留，不套primitive角色定理，不把形式两项系数导数冒作解析权导数。
+
+### 原type4固定惰性29的完整系数行
+
+[唯一消费者](2026-11-27-original-type4-inert29-coefficient.md)。固定p29原PB4唯一run46043135878/job140655635855/source346dd26f已返回：原6→3投影rank3、完整次数28行mod29=(20,27,7,20,23,21)，mod841=(803,665,819,832,429,688)，精确最小v29=0；17⁴·28!mod841=260，全Hurwitz投影=(212,495,167,183,528,588)。特征零/模841递推、全椭圆式和完整回乘皆核，无CM13重建。所有源/stdout/log字节哈希已记消费者note；仅此系数functional非零，不向原h或Sha自动外推。
