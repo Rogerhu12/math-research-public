@@ -354,3 +354,6 @@
 
 
 - **R1043真实Frobenius与全p整除**：[§18](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§18以原Qmin的反Frobenius、完整GL9下降及两次有序二核倒序，证明Fr(d_t)=d_{h_q/t}和Fr B_a=−ζ6^(−m_a)c_EB_{a′}。因此原三个完整J在同一系数位全零时，三个真实点T_a=U1,a+[ω]U2,a确实全p整除，两个CM方向均付；三J零仍是未从Sha坏推出的前提。 每点有p²个Fq²除点，但最小degree(q+1)的Fr−unit核中只有p个；完整Fr²−1的degree为(q+1)²，尚无高度矛盾。
+
+
+- **R1047原finite5点载体与管内一次非零**：[完整证明](results/R1047-original-degree25-finite-five-point-carrier-and-tube-first-term.md)。R1047完整识别原H3的α2/25、二/三/五处来源、25维Weil全trace与四条r=2,8,14,26角色，精确付Haar/Hermite/25^-m及负一Katz平方。四个type(1,0)角色的导子25δ、根数−1、实际点域C15；一般BDP2允许零点，故无须新L′非零输入。Fuchs–Pham含常数1的分离使R1042原12支S/T一次项严格非零。 原管全尾给v=n+ℓp；未旋转D1与平均行区分，全部补域和Y混合cut仍保，不冒作主目标完成。

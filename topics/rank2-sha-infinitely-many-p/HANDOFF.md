@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-full-frobenius-p-divisibility.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-finite-five-point-carrier.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -20,25 +20,23 @@ v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/j
 
 唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。14:18复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；14:09API数学步骤仍在运行，无四交/Norm/shadow终门。不重编译/开副本。
 
-## 二、已付算术来源与仍缺的中央非零
+## 二、原算术输入与实际全域缺口
 
-R959/R970–983固定E65/E65³/E260/E54925/E8125的rank≥2、全有限角色/整周期/平方及通常全Sha桥r+corankSha≤2ordJ已付；联合无穷真J′非零未付。原22/66/81列、全权、a+2b<3、低项/坏带/高M/Ξ完整保持。
+R959/R970–983固定E65/E65³/E260/E54925/E8125的rank≥2、全部finite/整周期/平方及通常全Sha桥r+corankSha≤2ordJ已付；联合无穷真J′非零未付。全22/66/81列、a+2b<3和所有低项/坏带/高M/Ξ保齐。R1016–1034的primitive/curvature、两frame/M̂B=M、同c/全4+5 Cartier槽及Q†费用全在逐字归档；单位组合仍未由原canonical坏条件迫同读者深零，三物理像rank不相加。
 
-R1016–1034原平坦迹、Miller/CM36 Hermite、完整primitive/curvature及R1021两frame/M̂B=M、全4+5 Cartier槽/同c读者和R1034真实Q†费用均在逐字归档。已知primitive组合单位仍未使同canonical坏条件迫同原读者深零；三物理像rank不相加，source C²顺序/所有高低费用保齐。
+R1037–38两次完整378谱/原126回执已消费，30非零/90零、334fibers/390coords、22列/64回乘及degree20全角齐。E3969全部finite/Schwartz/Haar/Gaussian和通常全Sha桥已付；原p5严格圆盘/全尾给rank2及Sha[5∞]有限，仅此一p。全部模型/参数/run/hash见原文与归档，不重跑。
 
-R1037–38的完整378谱/原126两次实际回执已全消费：30非零/90零、334fibers/390coords、22列/64回乘及degree20全角齐。固定E3969的全finite/Schwartz/Haar/Gaussian和通常全Sha桥已付；原p5完整圆盘/全尾给精确rank2、Sha[5∞]有限，只此一p。全部模型/参数/run/hash在原文及逐字归档，不重跑。
+R1040六轴Gram(126,3,6,2,9,14)/det756及真实6⁵平均保持。只投H/J/N的整源是39δΦ126Ξ0+G126Ξ1，JG(0)=−δ(1+λ)/28单位；坏Φ给完整companion-only中央/质量同一比例，Y/7的log7费用不删。5/90全核的DE5与D²E4保四输出分离两态，n仅共同单位因子。§14原G全bad/七挠gluing/Haar/平方已识别E15876 rank0参考，G无t^-6，不给JG′新零。
 
-R1040 §§1–13原六轴、Gram(126,3,6,2,9,14)/det756和所有δ-old零已付。原6⁵平均只给完整comp-only许可；H/J/N投影后Y主型整源=39δΦΞ0+GΞ1，G0=−δ/28、JG0单位。坏Φ时中央/质量同一比例，Y/7保log7费用。DE5与D²E4的真5/90完整管给hΦ/hG两态分离、保全部四输出，n仅u5^n。§14全bad/七挠gluing/Haar/平方识别G为E15876 rank0参考；JG′无新零。全矩、相位和原cut见原文/逐字归档。
+§15原K条件矩U_K=(10δ/7)D126，完整odd9/JMJ/2/3/双7及正权平方识别E21609:y²=x³+147²，f126、level47628/root−。R1046唯一run46008071578/job140536202708/source60a44f52的完整L′严格正，原CM/Q Rubin定理和固定点(-12,141)付ΩI_D非零，双7分歧使它与三九阶点值代数线性独立。原角函数j(Y+tK)的j′(0)≠0；坏j(0)=0时全bounded尾给v(j(ξκⁿ))=n+ℓp，n>ℓp−bp。原坏条件仍不迫j(t)或角导数零，继续实际forcing；不重跑。
 
-§15原K一阶矩U_K=(10δ/7)D126，D首z5；全odd9的JMJ、真实CRT负号、2/3/双7与正权平方识别E21609:y²=x³+147²，f=(126)、level47628/root−。实际∫K/Y P3ρ=(10δ/7)ΩI_D=j′_{Y+tK}(0)/d；现有坏条件仅给j(0)，不迫角导数零。R1046唯一run46008071578/job140536202708/source60a44f52于13:33完整PASS，原L′严格正。原有理CM Rubin定理及固定点(-12,141)给I_D≠0，与三九阶点值代数线性独立；角函数深度首项v(j(ξκⁿ))=n+ℓp（n>ℓp−bp）保全有界尾。真实forcing仍缺，不重跑。
+R1042共同H3/F81、93/2511 odd与90/810 even全核、四输出六次Q及单unit网格三对差v=n均付。§8–11完整1296平均中72支的372深核βB(B²1)、24整/48半整及所有中间环准确返回；D_m贡献β^(n+4m)A_{ζ,n−m mod2}(κ^m)。网格n项被精确补回；原未旋转整D1三对差均v=1，n>1中间环也v=1。平均S/T没有被新增授权；真正剩余是至少双unit整补域。
 
-F0两δ字run45991193171/job140479142693已全返，两个旧rank1投影零、primitive三维非零；完整C±/U±、三挠Miller/degree51 Gaussian与第三类边界在[两字笔记§§6–7](notes/2026-11-27-original-f0-two-delta-word-return.md)。真Φ=W51(U+C1−U−C2)/36，转置仍保x+y单位域，不能把裸负一非零代中央卷积。不重跑。
+norm25管的12支M*≠0、A−S常数dM*log〈r*〉（Nr*=291/763）及全尾已付；S/T一次项A_p+B_pΩI3中A_p严格非零。新R1047完整付H3的α2/25、2/δ/5、25维Weil、四角色r2/8/14/26、f25δ/root−、Haar/h/平方和actual C15点域。BDP2将ΩI3送到有限E0点对数；Fuchs–Pham含常数1的分离给整个原一次项非零，管内v=n+ℓp。无需四L′非零或Euler单位；不把有限point投影延至无限log。Y_A−(7+4δ)H混合cut及所有其余unit扇区保持，完整补域尚待。
 
-R1042共同H3/F81、93/2511 odd与90/810 even全核、四输出Q和原五深网格三对差v=n已付。§8平均保1296真cut/72网格支，D1\Dn全递归和至少两unit部分均保。§9norm25 whole返回的12支质量M*非零，归一A−S首项dM*log〈r*〉、Nr*=291/763；全尾估值固定ℓp而非n。真实Y−(7+4δ)H混合条件不能删。§10整degree25条件源H3=432bσ25x(−35X³+84bX²+84b²X+208b³)，完整12支S/T一次项为A_p+B_pΩI3；A_p严格非零，finite5点载体待付。§11 whole372核βB(B²1)准确支付全部中间环；原未旋转整D1两差v=1，n>1中间环亦v=1。网格n项已精确补回，继续至少双unit整补域。
+R1044真R=K+ωA整推前消Ξ1，Ξ0回δ*(-xyσ5)；共同F3913/C1596的全四输出carry保三原未平均行，H/J/N平均另给纯Φ行。两个授权不能混，原全cut与补域(41)继续。
 
-R1044真R=K+ωA推前消整个Ξ1；共同F3913/C1596给两odd whole β核，完整四输出carry保三原未平均行。H/J/N三角平均另给纯Φ126行；全cut(32)和补域(41)保齐，不混两种许可。
-
-R1045唯一run46004443574/job140523950861/sourcef13b8dea已全返PASS：三个原L′严格正、288单位/512系数三共轭及全尾齐。§§9–11以BDP2一般Thm2/3.32与同good-pair/实际H cyc9付真非零点，R749单射给三个负一值代数线性独立；原F0五sigma奇部裸负一及平凡Fourier系数非零的有限门已非零。全部有理界/hash/θ周期见原文，不重跑；degree51/x+y单位中央卷积仍开。
+F0唯一两δ字run45991193171/job140479142693全返；完整C±/U±、Miller/三挠/degree51 Gaussian与第三类边界给Φ=W51(U+C1−U−C2)/36，原x+y-unit卷积不可拆。R1045唯一run46004443574/job140523950861/sourcef13b8dea给三个九阶L′严格正；一般BDP2/同good-pair/H cyc9/R749单射已给三个负一值代数线性独立和五sigma奇部非零。全部有理界/θ周期/hash在原文；当前是全sum-unit中央转置，禁止重跑裸负一输入。
 
 ## 三、原谱盖、Prym、半类与最高权
 

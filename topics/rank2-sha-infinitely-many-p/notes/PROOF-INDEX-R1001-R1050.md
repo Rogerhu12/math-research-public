@@ -218,3 +218,8 @@
 
 
 - R1043§18：R1043§18以原Qmin的反Frobenius、完整GL9下降及两次有序二核倒序，证明Fr(d_t)=d_{h_q/t}和Fr B_a=−ζ6^(−m_a)c_EB_{a′}。因此原三个完整J在同一系数位全零时，三个真实点T_a=U1,a+[ω]U2,a确实全p整除，两个CM方向均付；三J零仍是未从Sha坏推出的前提。 c_E只共轭系数，真实Fr只作用几何点并线性延拓；不借Cp自同构、不换q−为q+，全μ6/determinant相位齐。
+
+
+## R1047 原degree25的完整有限点载体
+
+[原文](../results/R1047-original-degree25-finite-five-point-carrier-and-tube-first-term.md)。R1047完整识别原H3的α2/25、二/三/五处来源、25维Weil全trace与四条r=2,8,14,26角色，精确付Haar/Hermite/25^-m及负一Katz平方。四个type(1,0)角色的导子25δ、根数−1、实际点域C15；一般BDP2允许零点，故无须新L′非零输入。Fuchs–Pham含常数1的分离使R1042原12支S/T一次项严格非零。 全splitting深单位的两个符号显式抵消，D_r由Θ^(1+3k)σ^(23−6k)直接给bounded测度；ε_r,p仅作Qbar×，没有p单位断言或无限log point投影。
