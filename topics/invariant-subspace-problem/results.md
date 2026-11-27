@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整个原 W/D27 五次权曲线排除](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)：全F24真实QQ与全F782有限自由整模型合成；末三次域原108×56单位补齐所有模纤维并付QQ提升，原生退出异常及不足矩阵保留。
+
 - [D27 的整个 F24 范数零权覆盖原 QQ 排除](results/R150-appendix-unit211-W-D27-F24-entire-original-QQ-exclusion.md)：八完整k因子各保e5双支，原已付权零一次支与余e4原48×35单位全部返回；无D幂替代。
 
 - [Phi0 秩一中心值图的整 H8 原纤维排除](results/R150-appendix-unit211-Phi-zero-rank-one-value-H8-complete-original-fiber-exclusion.md)：QQ(lambda)/H8上完整rho2/ell2四维代数，八原行全乘法理想秩2而实际原单位U²落理想；保全部嵌入和非约化。

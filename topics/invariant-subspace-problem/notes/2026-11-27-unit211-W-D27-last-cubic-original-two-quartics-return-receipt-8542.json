@@ -1,0 +1,1424 @@
+{
+  "schema": "isp-actual-D27-last-Fq3-two-original-quartics-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "originalTwoQuarticIdentitySource": {
+    "blob": "4a2d22623519d6a6f3c29438247cda689b22fb8f",
+    "sha256": "3d71f3f1c88e0b582123bd6f00f932c882dd8ee1e50f2567c37fdaa330757189",
+    "completePaperProofBlob": "8ab2fc1f15a7c680046e755ab7fa8916c88b879d"
+  },
+  "preciseFirstNewM50": {
+    "sourceBlob": "0ad1e351a8ffa8eec7395816c2e815c14c5366c5",
+    "sourceSHA256": "2e47ceb2690dd03b125f52d2468eccaf58b0e9e43ec3c9919fc1b5aaf3976eaf",
+    "sourceBytes": 16491,
+    "actualReceipt": {
+      "schema": "isp-D27-last-Fq3-original-two-quartics-fifty-by-thirty-five-v1",
+      "prime": 1009,
+      "kFactorIndex": 11,
+      "kDegree": 3,
+      "eDegree": 1,
+      "kModulus": [
+        12,
+        14,
+        7,
+        1
+      ],
+      "eCoefficients": [
+        1008,
+        251,
+        252
+      ],
+      "completeOriginalThreeDimensionalConstantField": true,
+      "finiteFieldFrobeniusAndInverseActuallyVerified": true,
+      "D27FiveTermAndLeadingTermAllActuallyReturned": true,
+      "allPaidOriginalWeightInverseProductsOne": true,
+      "originalE0N0P1AndDoublePointGramActuallyRebuilt": true,
+      "originalSixGramRowsActuallyReturned": true,
+      "fullOriginalN4VSecondMomentCorrectionActuallyReturned": true,
+      "originalDeltaIdentityActuallyReturned": true,
+      "originalFirstSecondThirdMomentsActuallyReturned": true,
+      "bothNewQuarticOriginalCombinationIdentitiesActuallyReturned": true,
+      "originalRows": 50,
+      "originalColumns": 35,
+      "rank": 34,
+      "pivots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        15,
+        16,
+        17,
+        25,
+        6,
+        7,
+        8,
+        9,
+        18,
+        11,
+        19,
+        20,
+        26,
+        12,
+        13,
+        14,
+        22,
+        23,
+        24,
+        27,
+        28,
+        21,
+        29,
+        10,
+        30,
+        31,
+        33,
+        32
+      ],
+      "everyBasisRowAllThirtyFiveOriginalColumnProductsActuallyVerified": true,
+      "constantOneActuallyAttempted": true,
+      "constantOneActuallyReturned": false,
+      "targetAllThirtyFiveOriginalColumnProductsActuallyVerified": true,
+      "allActualScalarInversesMultipliedBackToOne": true,
+      "actualInverseCount": 73,
+      "noPhysicalDOrNormInverse": true,
+      "oldSuccessfulFibersNotRerun": true,
+      "onlyThisPreviouslyUnreturnedModularFiberConsidered": true,
+      "fullQQD27ExclusionNotIndependentlyClaimed": true,
+      "claimExcluded": false,
+      "originalRowsProfiles": [
+        {
+          "name": "E1",
+          "degree": 2,
+          "terms": 7
+        },
+        {
+          "name": "EBe",
+          "degree": 2,
+          "terms": 9
+        },
+        {
+          "name": "EBo",
+          "degree": 2,
+          "terms": 9
+        },
+        {
+          "name": "N1",
+          "degree": 2,
+          "terms": 10
+        },
+        {
+          "name": "NS",
+          "degree": 3,
+          "terms": 20
+        },
+        {
+          "name": "PS",
+          "degree": 3,
+          "terms": 20
+        },
+        {
+          "name": "Delta_second_moment_R4",
+          "degree": 4,
+          "terms": 35
+        },
+        {
+          "name": "Delta_third_moment_C4",
+          "degree": 4,
+          "terms": 35
+        }
+      ],
+      "elapsedMilliseconds": 222
+    },
+    "certificate": {
+      "bytes": 14941,
+      "sha256": "f217e23de9032dcdabcb1c62f32629131de6cca1f7210c2b88f20fdb4a7d3025"
+    },
+    "targetRemainder": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "limit": "rank 34/35; 1 not returned. Truncated linear codimension one does not prove a genuine unique Gram point. A coefficient-derived candidate failed the full original row check and is not used."
+  },
+  "successfulNewM108": {
+    "sourceBlob": "4c32a59b6aa3bad16b7fa40d893783957b7eddf5",
+    "sourceSHA256": "8c36a0c611501b6f93398e1b98cb6e83a2892ed3b6e5041dfb53309a9024d672",
+    "sourceBytes": 16582,
+    "actualReceipt": {
+      "schema": "isp-D27-last-Fq3-original-two-quartics-one-hundred-eight-by-fifty-six-v1",
+      "prime": 1009,
+      "kFactorIndex": 11,
+      "kDegree": 3,
+      "eDegree": 1,
+      "kModulus": [
+        12,
+        14,
+        7,
+        1
+      ],
+      "eCoefficients": [
+        1008,
+        251,
+        252
+      ],
+      "completeOriginalThreeDimensionalConstantField": true,
+      "finiteFieldFrobeniusAndInverseActuallyVerified": true,
+      "D27FiveTermAndLeadingTermAllActuallyReturned": true,
+      "allPaidOriginalWeightInverseProductsOne": true,
+      "originalE0N0P1AndDoublePointGramActuallyRebuilt": true,
+      "originalSixGramRowsActuallyReturned": true,
+      "fullOriginalN4VSecondMomentCorrectionActuallyReturned": true,
+      "originalDeltaIdentityActuallyReturned": true,
+      "originalFirstSecondThirdMomentsActuallyReturned": true,
+      "bothNewQuarticOriginalCombinationIdentitiesActuallyReturned": true,
+      "originalRows": 108,
+      "originalColumns": 56,
+      "rank": 56,
+      "pivots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        36,
+        37,
+        38,
+        46,
+        10,
+        11,
+        12,
+        13,
+        27,
+        14,
+        16,
+        28,
+        29,
+        17,
+        30,
+        32,
+        39,
+        40,
+        41,
+        47,
+        18,
+        19,
+        20,
+        33,
+        34,
+        35,
+        43,
+        44,
+        45,
+        48,
+        49,
+        42,
+        50,
+        31,
+        51,
+        52,
+        15,
+        54,
+        53,
+        55
+      ],
+      "everyBasisRowAllFiftySixOriginalColumnProductsActuallyVerified": true,
+      "constantOneActuallyAttempted": true,
+      "constantOneActuallyReturned": true,
+      "targetAllFiftySixOriginalColumnProductsActuallyVerified": true,
+      "allActualScalarInversesMultipliedBackToOne": true,
+      "actualInverseCount": 95,
+      "noPhysicalDOrNormInverse": true,
+      "oldSuccessfulFibersNotRerun": true,
+      "onlyThisPreviouslyUnreturnedModularFiberConsidered": true,
+      "fullQQD27ExclusionNotIndependentlyClaimed": true,
+      "claimExcluded": false,
+      "originalRowsProfiles": [
+        {
+          "name": "E1",
+          "degree": 2,
+          "terms": 7
+        },
+        {
+          "name": "EBe",
+          "degree": 2,
+          "terms": 9
+        },
+        {
+          "name": "EBo",
+          "degree": 2,
+          "terms": 9
+        },
+        {
+          "name": "N1",
+          "degree": 2,
+          "terms": 10
+        },
+        {
+          "name": "NS",
+          "degree": 3,
+          "terms": 20
+        },
+        {
+          "name": "PS",
+          "degree": 3,
+          "terms": 20
+        },
+        {
+          "name": "Delta_second_moment_R4",
+          "degree": 4,
+          "terms": 35
+        },
+        {
+          "name": "Delta_third_moment_C4",
+          "degree": 4,
+          "terms": 35
+        }
+      ],
+      "elapsedMilliseconds": 774
+    },
+    "certificate": {
+      "bytes": 31917,
+      "sha256": "e97340a485440b75f25a78c95b9b47ae21ae2f10727393776c2682f7c1d58db6"
+    },
+    "exactOriginalConstantOneCombination": [
+      {
+        "rowIndex": 0,
+        "label": [
+          "E1",
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          194,
+          444,
+          938
+        ]
+      },
+      {
+        "rowIndex": 1,
+        "label": [
+          "E1",
+          [
+            1,
+            2,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          42,
+          601,
+          468
+        ]
+      },
+      {
+        "rowIndex": 2,
+        "label": [
+          "E1",
+          [
+            0,
+            2,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          580,
+          876,
+          143
+        ]
+      },
+      {
+        "rowIndex": 3,
+        "label": [
+          "E1",
+          [
+            2,
+            1,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          548,
+          103,
+          397
+        ]
+      },
+      {
+        "rowIndex": 4,
+        "label": [
+          "E1",
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          850,
+          171,
+          965
+        ]
+      },
+      {
+        "rowIndex": 5,
+        "label": [
+          "E1",
+          [
+            0,
+            1,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          704,
+          970,
+          653
+        ]
+      },
+      {
+        "rowIndex": 6,
+        "label": [
+          "E1",
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          441,
+          682,
+          933
+        ]
+      },
+      {
+        "rowIndex": 7,
+        "label": [
+          "E1",
+          [
+            2,
+            0,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          404,
+          432,
+          394
+        ]
+      },
+      {
+        "rowIndex": 8,
+        "label": [
+          "E1",
+          [
+            1,
+            0,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          122,
+          28,
+          248
+        ]
+      },
+      {
+        "rowIndex": 9,
+        "label": [
+          "E1",
+          [
+            0,
+            0,
+            3,
+            0
+          ]
+        ],
+        "coefficient": [
+          681,
+          771,
+          822
+        ]
+      },
+      {
+        "rowIndex": 10,
+        "label": [
+          "E1",
+          [
+            0,
+            2,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          724,
+          515,
+          479
+        ]
+      },
+      {
+        "rowIndex": 11,
+        "label": [
+          "E1",
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          903,
+          712,
+          446
+        ]
+      },
+      {
+        "rowIndex": 12,
+        "label": [
+          "E1",
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          160,
+          295,
+          596
+        ]
+      },
+      {
+        "rowIndex": 13,
+        "label": [
+          "E1",
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          17,
+          381,
+          889
+        ]
+      },
+      {
+        "rowIndex": 14,
+        "label": [
+          "E1",
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          580,
+          747,
+          832
+        ]
+      },
+      {
+        "rowIndex": 15,
+        "label": [
+          "E1",
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          38,
+          423,
+          452
+        ]
+      },
+      {
+        "rowIndex": 16,
+        "label": [
+          "E1",
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          851,
+          208,
+          234
+        ]
+      },
+      {
+        "rowIndex": 17,
+        "label": [
+          "E1",
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          236,
+          393,
+          81
+        ]
+      },
+      {
+        "rowIndex": 18,
+        "label": [
+          "E1",
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          786,
+          619,
+          532
+        ]
+      },
+      {
+        "rowIndex": 19,
+        "label": [
+          "E1",
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          89,
+          223,
+          551
+        ]
+      },
+      {
+        "rowIndex": 20,
+        "label": [
+          "EBe",
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          729,
+          404,
+          731
+        ]
+      },
+      {
+        "rowIndex": 21,
+        "label": [
+          "EBe",
+          [
+            1,
+            2,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          751,
+          476,
+          119
+        ]
+      },
+      {
+        "rowIndex": 22,
+        "label": [
+          "EBe",
+          [
+            0,
+            2,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          419,
+          787,
+          226
+        ]
+      },
+      {
+        "rowIndex": 23,
+        "label": [
+          "EBe",
+          [
+            2,
+            1,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          44,
+          851,
+          256
+        ]
+      },
+      {
+        "rowIndex": 24,
+        "label": [
+          "EBe",
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          972,
+          813,
+          104
+        ]
+      },
+      {
+        "rowIndex": 25,
+        "label": [
+          "EBe",
+          [
+            0,
+            1,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          908,
+          617,
+          863
+        ]
+      },
+      {
+        "rowIndex": 26,
+        "label": [
+          "EBe",
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          143,
+          438,
+          561
+        ]
+      },
+      {
+        "rowIndex": 27,
+        "label": [
+          "EBe",
+          [
+            2,
+            0,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          121,
+          506,
+          765
+        ]
+      },
+      {
+        "rowIndex": 28,
+        "label": [
+          "EBe",
+          [
+            1,
+            0,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          179,
+          6,
+          197
+        ]
+      },
+      {
+        "rowIndex": 30,
+        "label": [
+          "EBe",
+          [
+            0,
+            2,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          350,
+          623,
+          340
+        ]
+      },
+      {
+        "rowIndex": 31,
+        "label": [
+          "EBe",
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          533,
+          105,
+          18
+        ]
+      },
+      {
+        "rowIndex": 32,
+        "label": [
+          "EBe",
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          61,
+          795,
+          1006
+        ]
+      },
+      {
+        "rowIndex": 33,
+        "label": [
+          "EBe",
+          [
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          93,
+          465,
+          730
+        ]
+      },
+      {
+        "rowIndex": 34,
+        "label": [
+          "EBe",
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          267,
+          366,
+          973
+        ]
+      },
+      {
+        "rowIndex": 35,
+        "label": [
+          "EBe",
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          491,
+          227,
+          639
+        ]
+      },
+      {
+        "rowIndex": 40,
+        "label": [
+          "EBo",
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          940,
+          117,
+          304
+        ]
+      },
+      {
+        "rowIndex": 41,
+        "label": [
+          "EBo",
+          [
+            1,
+            2,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          252,
+          301,
+          485
+        ]
+      },
+      {
+        "rowIndex": 42,
+        "label": [
+          "EBo",
+          [
+            0,
+            2,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          886,
+          860,
+          708
+        ]
+      },
+      {
+        "rowIndex": 43,
+        "label": [
+          "EBo",
+          [
+            2,
+            1,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          1000,
+          197,
+          459
+        ]
+      },
+      {
+        "rowIndex": 44,
+        "label": [
+          "EBo",
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          624,
+          375,
+          937
+        ]
+      },
+      {
+        "rowIndex": 45,
+        "label": [
+          "EBo",
+          [
+            0,
+            1,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          648,
+          882,
+          562
+        ]
+      },
+      {
+        "rowIndex": 46,
+        "label": [
+          "EBo",
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          911,
+          947,
+          797
+        ]
+      },
+      {
+        "rowIndex": 47,
+        "label": [
+          "EBo",
+          [
+            2,
+            0,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          930,
+          194,
+          983
+        ]
+      },
+      {
+        "rowIndex": 48,
+        "label": [
+          "EBo",
+          [
+            1,
+            0,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          1008,
+          291,
+          703
+        ]
+      },
+      {
+        "rowIndex": 50,
+        "label": [
+          "EBo",
+          [
+            0,
+            2,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          544,
+          767,
+          387
+        ]
+      },
+      {
+        "rowIndex": 60,
+        "label": [
+          "N1",
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          310,
+          851,
+          677
+        ]
+      },
+      {
+        "rowIndex": 61,
+        "label": [
+          "N1",
+          [
+            1,
+            2,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          907,
+          32,
+          225
+        ]
+      },
+      {
+        "rowIndex": 62,
+        "label": [
+          "N1",
+          [
+            0,
+            2,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          725,
+          567,
+          949
+        ]
+      },
+      {
+        "rowIndex": 63,
+        "label": [
+          "N1",
+          [
+            2,
+            1,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          827,
+          986,
+          734
+        ]
+      },
+      {
+        "rowIndex": 64,
+        "label": [
+          "N1",
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          266,
+          478,
+          184
+        ]
+      },
+      {
+        "rowIndex": 65,
+        "label": [
+          "N1",
+          [
+            0,
+            1,
+            2,
+            0
+          ]
+        ],
+        "coefficient": [
+          575,
+          249,
+          715
+        ]
+      },
+      {
+        "rowIndex": 66,
+        "label": [
+          "N1",
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          780,
+          616,
+          761
+        ]
+      },
+      {
+        "rowIndex": 67,
+        "label": [
+          "N1",
+          [
+            2,
+            0,
+            1,
+            0
+          ]
+        ],
+        "coefficient": [
+          10,
+          281,
+          964
+        ]
+      },
+      {
+        "rowIndex": 100,
+        "label": [
+          "Delta_second_moment_R4",
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          927,
+          436,
+          970
+        ]
+      },
+      {
+        "rowIndex": 101,
+        "label": [
+          "Delta_second_moment_R4",
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "coefficient": [
+          879,
+          13,
+          161
+        ]
+      }
+    ],
+    "targetRemainderAllZero": true
+  },
+  "execution": {
+    "runtime": "functions.exec JavaScript V8 exact modular polynomial arithmetic",
+    "externalProcess": false,
+    "posixExit": null,
+    "maxRss": null,
+    "initialM50ElapsedMilliseconds": 222,
+    "newM108ElapsedMilliseconds": 774,
+    "finiteWholeConstantFieldDegree": 3,
+    "noNumericalSampling": true,
+    "noPhysicalDOrNormInverse": true,
+    "onlyPreviouslyUnreturnedFactor11LinearBranch": true
+  },
+  "scope": {
+    "mathematicalLastResidueExcluded": true,
+    "QQFullCoverRequiresCombinationWithPreviouslyCompletedGoodPrimeAndAllOtherReturns": true,
+    "noOtherSuccessfulResidueReplayed": true
+  }
+}
