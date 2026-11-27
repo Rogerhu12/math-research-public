@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W整J19已闭](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[明确w6/Y2自由12维环境](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)及[整W原A[y]三生成/首一y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)已付。** 2698真17.044秒/183288KiB/exit0，六真乘法、七同点三列与三个原y6全返；最小F0度15/20/6、1411项，首项−1024乘已付gcd积，可全图首一化；其余两头仍353/607项未付，全部保留。新0061用lc(F0)Fi−lc(Fi)F0降≤5，再作两个固定QQ Sylvester权投影，180秒4GiB待实际。D27/B239、Y逆及完整原返回仍开，不外推一般h=k(D0)。
+**[W整J19已闭](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[明确w6/Y2自由12维环境](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)及[原A[y]三生成/首一y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)已付。** 2698的七原行/六乘法保持，最小F0全图首一，另两y6头未付。新0061首个QQ权投影180.082秒/348844KiB/inner−14；只在14.577秒完成11阶原Sylvester输入，首结式未返、次未始，无参数曲线，准确[失败凭据](notes/2026-11-27-unit211-W-monic-y-six-first-QQ-projection-timeout-receipt-8542.json)已冻结。转acf41整个D27=0首一e5曲线，真5维正则逆与六原生成/NSPS，保所有norm/分母零k纤维，180秒4GiB待实际。D27/B239、Y逆及完整原返回仍开；旧D≠0值图权排除不外推h=k(D0)。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
