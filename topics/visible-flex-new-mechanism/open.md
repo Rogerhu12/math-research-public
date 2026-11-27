@@ -78,7 +78,7 @@ fine1728×512 η2.216608039e−7，原两直接位置读数2.216686200e−7/2.21
 
 [可行L原自然终态](notes/2026-11-27-r625-feasible-length-natural-final-agent.md)实际新增342.874342827秒+预载.317874901秒，40接受/45固定ΔL选择/0实际释放；41Jac、93LSMR全部1600上限。末原微分max4.6125883651714664e13，stored末十全0但fixed-fine真末.257725752159/真ruling3.29461205220e13，联合/真门未过。末原19×65 state26459B SHA66cdaad57e0f03454743356b686d6471cee8cb3a0f32862f04fd15606d8cc3cd，LD锚/原unit/已付coarse-fine均留唯一FINAL。
 
-L仍精确2.1000000000449615，实际h(L)=2.9999999999920437在节点64达原上盒；中心图内点/155调用0失败，其余存储物理量内点。不补造102早期path盒拒绝全属此端点。末trust3.72529029846e−9/damp1.52415790276e−8是自然stall，不能只重启原同算法。下一同全行/同Euclidean自由步惩罚的无列缩放QR→全SVD针对未收敛LSMR；h末与L的准确同值活跃需真实方向截步证据，仍每新态允许向内释放。原全物理盒/未缩放接受/true-C²门不变。
+L仍精确2.1000000000449615，实际h(L)=2.9999999999920437在节点64达原上盒；中心图内点/155调用0失败，其余存储物理量内点。不补造102早期path盒拒绝全属此端点。末trust3.72529029846e−9/damp1.52415790276e−8是自然stall，不能只重启原同算法。[已审新完整行范围](notes/2026-11-27-r625-paid-dense-feasible-continuation-agent.md)与[同惩罚QR/SVD恒等](notes/2026-11-27-r625-complete-euclidean-row-factor-interface.md)针对未收敛LSMR；h末与L的准确同值活跃需真实方向截步证据，仍每新态允许向内释放。54来源绑定、原26459B state/锚/coarse/fine直接消费；新trust.25、damp继承实际末值，所有lambda复用同Jac/模式因子，失败因子也不重付。原全物理盒/未缩放接受/true-C²门不变。
 
 
 [R619](results/R619-free-center-leading-energy-and-true-memory-local-flow.md)给非prepared自由奇中心真M首层局部流；C1/C2全程常数，局部正则不授返回。[R624](results/R624-free-center-terminal-constants-and-compatible-analytic-input.md)已证具体全盒/动能余量/唯一首层端常数支。[R625](results/R625-true-terminal-acceleration-and-tail-flat-compatible-input.md)原尾M完整因式给两条准确平方二阶末门及必要负符号；增量乘cos²u保中心j、准确消尾增量二阶，最高43/速度245/54。该新D/q已按新函数实际支付并保原收据，不能借旧R624 q，也不再重跑作新入口。整个参数区间尾模板T<−2131/4800，仍不解两条平方等式、真A末、沿途首层或finiteε ruling。新helper只复用准确矩与成本壳，旧D/q不执行；已接正式原十九态BVP。

@@ -374,3 +374,6 @@
 
 
 - [97q normal311的新0d/真实3bc1终态](notes/2026-11-27-r582-normal311-original-terminal.md)：**8次实际改善，阶段未过**；新2427.43645062秒，入口异于源f60且新fine确已付，末16189×3072 η3.72267672194e−5/物理V0，working2.31e−12在原容差内。当前327+3pending仅拟定330；14J中当前4份不能漏计，已有内部BFGS。mean改变、旧59a4连续reach不转移，接原330正常物理推进。
+
+
+- [R625同完整行Euclidean QR/SVD恒等](notes/2026-11-27-r625-complete-euclidean-row-factor-interface.md)及[实际L/h边界续算范围](notes/2026-11-27-r625-paid-dense-feasible-continuation-agent.md)：**纸面线性目标严格相同，实际效果待新原运行**；全行QR与R完整SVD给正lambda唯一Euclidean阻尼解，无列缩放/截秩/正规方程。只在原实际边界截步阻塞时固定原L或末h的增量，原全路径和true-C²门保留；直接消费已付40接受态，不重旧LSMR或fine。

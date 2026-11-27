@@ -623,3 +623,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜3bc1原pending330完整物理续算范围
 
 根全文审12325B薄wrapper的完整差异、8017B说明和6087B workflow；39来源hash及全部sparse吻合，510950B stdin包含506334B唯一原FINAL逐字，97q SHA和原330新增六中点独立核合。原科学实现/全部物理门不变，新网完整资格在同一实际field支付；当前4J/52块/44value与旧全部成本俱保。现有material hash实际已含knots及六jets，未造冗余身份helper；原base未比此hash的事实与六点强制新fine的边界分别明记。未接B030独立native82维接口，也未移59a4连续界。
+
+
+## 2026-11-27｜R625原全行QR/SVD与真实L/h边界范围
+
+根全文审43897B新driver、13024B独立完整Euclidean helper、两份说明和7529B workflow；另组独立源码审通过。54来源hash/17CLI/全部sparse吻合，旧solve AST仅inflight标签变，原26459B state与2103100B raw身份准确。保原1216行/同W/全sigma，端十准确消元；实际方向边界阻塞才固定原L/h增量、每态重试自由，原值不吸附。新trust.25明示、继承实际末damp；因子按同态/活跃模式复用含失败，不重旧LU/LSMR/fine。仅request规则metadata更新到root实际已读public 1156103ea1dc9db4cd186a6ef54093fc6c2bbf42/private 724f5769d39c1f05826ed6c36792a5bb66da6aa0，科学输入不改。
