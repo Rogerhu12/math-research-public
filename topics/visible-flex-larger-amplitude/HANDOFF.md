@@ -53,5 +53,5 @@ R717给整像目标全盒min（含z及两帽）和同完整leaf位置盒的D≤2
 
 <!-- visible-larger-parallel-10:start -->
 并行公开Actions10：[run 45972294636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45972294636)；[实际记录](notes/2026-11-27-public-actions-45972294636-1.md)。阶段`followup:complete-run10-detached-closure-values-first-20261127`/running；已返4，exit=未返。
-并行10规则核查：2026-11-27 13:49:19 UTC，真实pull至`3c14fd74ab58e34a6a1f07bad3aa7e907df8d33f`，双README无变化。
+并行10规则核查：2026-11-27 13:54:20 UTC，真实pull至`156e49e21e7fc7ab5ef0109527d30979051dbbd5`，双README无变化。
 <!-- visible-larger-parallel-10:end -->
