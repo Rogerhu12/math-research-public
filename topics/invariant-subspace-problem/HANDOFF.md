@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** `41f79352b3f3fd31530a1df3516f00bd2587c81b`（2026-11-27 04:39:20.790792 UTC；真实新计算run45941191773的部分克隆）；两README diff无变。本地上次仍02:43:20/48bf564a，终端未恢复。每次pull且至少每小时检查。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。04:16:38接口读92fbad0586f1abd8fac2171cd070585abc14c315，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `798a2fcde21a3dead70df87192a28f9ca2060472`（2026-11-27 04:47:21 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `a1674b5bc5ffb2357453a0a1ba9c45fa1a8802da`（2026-11-27 04:48:34 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-closed-green-coordinate-graph-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -29,7 +29,7 @@
 - 一般LS保ell/T/等权零面。原P1双零整支已闭，只付(Pf,Pt)非同时零。Delta0合法付Phi；四原值式准确等价首一二次/三一次，六参数式仅完整投影四值等式，四Gram子式仅必要。源70017734/ea0ffae2的完整来源及实际回执见results。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
 - **一般Delta0/W0的整个H_W=4ek−k²−4k−8零支已闭。** 最高次原系统已排空；有限六生成元/18真乘法/cofactor给F29=C3F26，在完整QQ[w]/C3、/F26中原18行各返常数列1，12主元真逆全乘回(0.049/0.855秒)。源b1f2e6d组件均实成、打包未整跑；保全部首项零，不假不可约/互素，无D饱和。可在W0付H，只续H非零；所有旧GB/Cramer/闭包/gcd负门冻结。 新原头atlas run45941191773实际1.981秒/54536KiB/exit0，两个未付首项零仍保留，准全图尚未闭。
-- **Q=1−u边界已闭y=1、H_Q=(2u−1)ell+u=0、u=1/2及ell=0四整支。** 原QQ覆盖/同根返回完整；H_Q0源50a9b96b实测1.430秒，u半158/170次严格CRT、104次保度Gauss和末原值排尽。ell0由原均值唯一x和Rt因式，完整v²+1纤维与20/40次QQ Bézout排尽，源7c231709实测2.322秒。原子/整合执行区别及全部来源保results；只续H_Q*ell*(y−1)*(2u−1)≠0。
+- **Q=1−u已闭y1、H_Q0、u半、ell0及新原均值首项s0整支。** h=ell/u、mu=u h²−(h−1)²、s=h(1−omega)−1。s0先排新J首项零整二次域，再原ell半曲线回Dval0；严格31次QQ覆盖/全部小域和C9保度Gauss排余，源3a62434d实测28秒。旧各原子/整合执行区别及来源见results；只续原H_Q*ell*(y−1)*(2u−1)*s非零，另首项(h−2)s+2mu零/一般图仍开。
 - **一般等权b=c已闭y1、y半、y0及A_m零。** v=2y−1,z=(x−m)/(y−1)非零，kappa=dv²,omega=zv图恢复m。原mean二次alpha*v²+beta的首项有原单位身份。三原N/P现有完整原迹降为同v一次式；三子式/三范数准确投影四等式，保全部一次首项零；y0完整QQ结式/组合1现付v+1及alpha+beta。六双参数式未判空，物理Dval/同点返回仍须保留，新原Dval的QQ任务45940118594实际600秒未决、驱动604.249秒/372796KiB/exit1，无原lift；冻结。原kappa首一新输入已成11.029秒但次数增大，转原低度模块；源/闭支见results/notes。
 
 ### rankH3原ess6

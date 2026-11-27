@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-27 Asia/Taipei",
+  "complete": true,
+  "sourceSHA256": "3a62434d67a50c0e814d44436df20b7426b91f94dfe6612dd7fbb4a17745307f",
+  "milliseconds": 28000,
+  "result": {
+    "kind": "Q=1-u original s=0 mean-leading boundary complete",
+    "parameterChart": "h=ell/u, s=h(1-w)-1; s=0 is u(t+2y)-2x+1-u=0",
+    "JminusZeroQuadratic": "4u^2-u-1",
+    "JminusOriginalGcd": "1",
+    "originalCommonCurve": "2uh-1",
+    "commonCurveGermRowZero": true,
+    "commonCurveValueVarianceZero": true,
+    "exactResultant": {
+      "degree": 31,
+      "priorBound": 40,
+      "primeCount": 10,
+      "strictCRT": true
+    },
+    "exactFactors": [
+      [
+        "u",
+        7
+      ],
+      [
+        "u-1",
+        2
+      ],
+      [
+        "4u-1",
+        3
+      ],
+      [
+        "3u-1",
+        2
+      ],
+      [
+        "4u2-u-1",
+        4
+      ]
+    ],
+    "remainderDegree": 9,
+    "rationalFibres": {
+      "1/4": "h-2 -> m=0",
+      "1/3": "h-3 -> Hh=0"
+    },
+    "quadraticFibre": "(h-(1+4u))^2 -> Jminus=0",
+    "actualGauss": {
+      "prime": 1009,
+      "originalFixedMatrixSize": 17,
+      "priorBound": 104,
+      "degree": 81,
+      "coverLeading": 938,
+      "bezoutDegrees": [
+        80,
+        8
+      ],
+      "return": [
+        1
+      ]
+    },
+    "exactQuotientCounts": {
+      "inverses": 45,
+      "divisions": 7,
+      "bezouts": 2
+    },
+    "ordinaryISPClaim": false,
+    "remainingQBoundaryClaim": false
+  },
+  "sourceGitBlob": "5581ce405ec51456647793815ea070443ca19a34",
+  "proofGitBlob": "5c221d5874a61139c713642f223732d19ee153a5",
+  "abandonedAttempt": {
+    "cell": "g4:380",
+    "operation": "QQ(u)[h] extended Euclid of the original degree 5/6 parameter rows",
+    "status": "Terminated without a returned gcd; not used as proof",
+    "inputSHA256": "ba065672c5982f7b4402adeb9ef30c95236b75a788681db87ce730d62467a2b6",
+    "sourceSHAAtExecution": "Not recorded before termination; no retrospective actual-execution hash claimed",
+    "elapsedMilliseconds": "Not retained; not guessed"
+  }
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，Q=1−u原均值首项s0整支）**：[原同源恢复、完整权覆盖与Gauss返回](results/R150-appendix-unit211-Q1minusU-mean-leading-sZero-exclusion.md)：h=ell/u图原E1二次首项含s；s0中新的y首项零在完整二次域排尽，原公共ell半曲线回Dval0，余31次严格QQ结式各小因子全返、C9由同原NS的17阶投影和保度Gauss排尽。源3a62434d完整V8实测28秒；第二首项因子/一般余图仍开。
+
 - **已证明（R271，真实Green缺陷的闭坐标、正下界与正角图）**：[两条原耦合方程的闭子空间结构](results/R271-appendix-actual-green-defect-closed-coordinates-and-positive-angle.md)：真实缺陷两坐标范数等价，闭X/Y上G为有界同构，B/S/T/T*在对应来源有正下界；P_I|X有统一下界，F=P_I X闭，X为有界Z:F→W的图且J=I⊕closure ZF。图核心等价F0、第一范围等价Z0、第二范围等价closure ZF=W；未付不变性/Γ/全核心。
 
 - **已证明（R150，一般等权y=0整支排除）**：[原首一四次与完整QQ Bézout](results/R150-appendix-unit211-equal-weights-zero-singleton-mean-exclusion.md)：v=−1下原均值首一kappa四次，三原N/P完整余式均二次；固定6阶QQ结式26/55/62次，仅剥omega和omega−1后，12/34次完整组合1排尽。源三段实际0.095/0.191/27.241秒，无Dval饱和；可付v+1、alpha+beta，一般等权仍开。
