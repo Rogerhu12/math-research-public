@@ -471,3 +471,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 全余W新a5b1b6bf四组(q0,q1,Yq0或Yq1,NS或PS)固定4×4 cofactor完整回原五行，w九次；run45976920580/job140430864466，7.434秒/114832KiB/exit0，四大迹仅存字节数/SHA。
 - 保全部未付首项及D27/B239/J19零面，未以投影代完整物理D或原值系统。新0e3be45e尝试原头全图monic Y²与完整Y线性原返回，180秒/4GiB。
 - 课题外新增专用workflow invariant-subspace-w-global-monic-y-original-linear-system-8542.yml；仅执行已列新数学输入，逐pull检查两README，后续同点L_Delta/L_C另作新输入。
+
+2026-11-27 18:08 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新一般三生成元源fbe4e790完成六原乘法列、全部六原余行、同点D和两歧义完整六原迹；run45978418472/job140435932712，117.143秒/55724KiB/内部exit0。
+- 原六式与三首一规则+全部余行双向等价；其它个别值条件仍保。二次/D的t次数(2,1,1)，NSPS/歧义(3,2,2)，不假合流/自由/有限权纤维；下一新三列cofactor。
