@@ -540,3 +540,7 @@
 ### 2026-11-28 04:40 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1137 §2.5以原q2留数及自足symmetric-square有限递推付实际P_N单位，分子deg恰N；保平方根、相对δ与两个符号，没有把顶边界代二次缺陷排除。
 - root纸核原留数/Clausen递推，o2全文核，无数学执行；H/open为容量归档并精简已成旧路，全部公式与来源保前态，继续相邻Hankel及原proper Picard结构。
+
+### 2026-11-28 04:41 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1140 §13完成真实p-isogeny bare trace的全部尖点tame：乘法线的p阶、另p线的统一leading/ord及原quadratic-norm平方求和全部支付，µp相位另由Σt⁵消去。
+- generic proper门成，F33内去V投影得原cup=4δ²/21倍bare trace；结合既有cup的S延拓，该门内亦付算术支撑。门外不扩大、未定杯积值，无数学执行；继续常数与proper Picard cochain。

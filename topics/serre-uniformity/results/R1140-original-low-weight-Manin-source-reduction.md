@@ -738,3 +738,155 @@ degree-$p$ distribution 由 (1140.39)–(1140.40) 在原函数上直接证明。
 global_route 与 o2_high_coefficient 已分别核原 norm、Fricke 号、
 两次 Galois/Cartan 重标、$u^4v^8$、fixed-Weil 的 $n^{-4}$，
 以及 (1140.57)–(1140.58) 的完整系数。没有数学程序执行。
+
+
+## 13. 这个未平滑 pull–trace 的全部尖点 tame 实际消去
+
+本节补付 (1140.60) 后保留的 generic-$K$ 紧致性门。
+记
+$$
+\mathfrak b=\mathcal T\{W_\zeta^*\mathcal G_4,\mathcal G_8\}
+       \in K_2(K(X))/p.
+\tag{1140.61}
+$$
+结论是 $\mathfrak b$ 确有原 $X_K$ 上的 proper
+$H^2(\mu_p^{\otimes2})$ lift。本节不另断言
+$\mathcal O_K[1/p]$ 上的算术延拓，也不将它设为零。
+
+### 13.1 同一 Tate 规范及不可遗漏的 p 次根相位
+
+在任一 full-level cusp 选保 Weil pairing 的 Tate basis
+$$
+E=E_{\tau^p},\qquad e_1=\tau,\quad e_2=\zeta.
+$$
+使用 R1070 (1070.19)–(1070.20) 的同一 theta product。
+在乘法点 $\zeta^t$，其首项除去与 $t$ 无关的共同因子后为
+$$
+\zeta^{a_c t}
+ \frac{(1-\zeta^t)^{c^2}}{1-\zeta^{ct}},
+\qquad a_c\in\mathbb Z,
+\tag{1140.62}
+$$
+可能的共同符号也包含在上述共同因子中。
+$\mathcal L_4$ 的 augmentation-zero 整数提升杀共同因子；
+剩下的 $\mu_p$ 相位由
+$\sum_{t\ne0}t^5=0$ 消去。亦可直接选
+$t\leftrightarrow -t$ 对称的 augmentation-zero 提升核该相位。
+所以在乘法 cusp，
+$$
+\overline{\mathcal G_4}
+ =\epsilon_4:=\sum_{t\ne0}t^4[1-\zeta^t]
+       \quad\text{in }K^\times/K^{\times p}.
+\tag{1140.63}
+$$
+这里重指标 $t\mapsto ct$ 给的系数正是
+$c^2-c^{-4}=\kappa_4(c)$，由 (1140.51) 除回。
+共同 Hodge frame，包括 degree-$p$ quotient 的微分尺度，
+也因同一 augmentation 条件消去。
+因此 (1140.63) 保留原 $\mu_p$ 相位及原实际常数，而非只比较 divisor。
+
+另外，将 $\mathcal G_8$ 代入非乘法点
+$Q_b=\tau\zeta^b$ 时，其 $\tau$-阶与 $b$ 无关。
+这是同一 theta product 的直接结论：每个非零 $t$ 的
+$q$-指数只依赖 $t/p$；乘以 $\zeta^{bt}$ 不改变该指数。
+因为 $c$ 与 $p$ 互素，分母中的 $ct/p$ 不成为整数，
+没有额外的 leading cancellation。记此共同阶为 $v_8$，
+只需其模 $p$ 值，不需要对 $v_8$ 作 Bernoulli 单位假设。
+
+### 13.2 p+1 条核直线的两种实际贡献
+
+原 $\mathcal T$ 中的 $p+1$ 条直线正是
+$$
+L_\infty=\langle e_2\rangle,\qquad
+L_b=\langle e_1+b e_2\rangle\quad(b\in\mathbb F_p).
+$$
+
+对 $L_\infty$，取 $Q=e_2=\zeta$。
+实际 quotient 为
+$E_{\tau^p}\to E_{\tau^{p^2}}$，dual generator 为 $\tau^p$。
+在 target 的非乘法 cusp，局部参数因此是 $\tau^p$。
+所以 $A=W_\zeta^*\mathcal G_4$ 的 $\tau$-阶为 $p$ 的倍数，
+而 $B=\mathcal G_8$ 是单位；该槽的 tame 在 $K^\times/K^{\times p}$
+中为零。这使用实际 ramification factor $p$，未将 degree-$p$ norm
+替换成除以 $p$ 的平均。
+
+对 $L_b$，取 $Q_b=\tau\zeta^b$。
+quotient 为 $E_{\tau^p}\to E_{\tau\zeta^b}$；
+dual generator 是同一个 $\zeta^{-1}$（反向 Weil convention 同时改成
+$\zeta$，因权 $4$ 为偶数，结果相同）。
+因此 $A$ 是单位、首项为同一个 $\epsilon_4$，
+而 $B$ 的阶为同一个 $v_8$。
+按 $\partial\{A,B\}=\overline A^{\operatorname{ord}B}$
+的原 tame 约定，
+$$
+\partial_{L_b}D=v_8\,\epsilon_4
+\quad\text{对所有 }b\in\mathbb F_p.
+\tag{1140.64}
+$$
+第二槽的 leading coefficient 可以随 $b$ 变化，但因
+$\operatorname{ord}A=0$，它不进入 (1140.64)。
+
+### 13.3 原范数平方权逐 cusp 精确杀掉剩余贡献
+
+在所选 Tate basis 中，原 norm 是某个二次型 $Q_N$。
+本式没有把重新选的 basis 当成原 norm 的等距变换。
+其实际权为
+$$
+N(e_1+b e_2)^2=Q_N(1,b)^2,
+$$
+是 $b$ 的次数至多 $4$ 的多项式。
+$p>37$ 给 $4<p-1$，包括常数项在内逐幂求和均为零：
+$$
+\sum_{b\in\mathbb F_p}Q_N(1,b)^2=0
+          \quad\text{in }\mathbb F_p.
+\tag{1140.65}
+$$
+因此 (1140.64) 的完整带权和为零；
+$L_\infty$ 已由前节的 $p$ 因子消去。
+同一证明适用于每个 full cusp。
+
+原 $H$ 与 cusp 的 order-$p$ unipotent inertia 交平凡；
+full-level 与原 Cartan cusp 的宽度均为 $p$，
+且 $Z\to X_K$ 的次数 $p+1$ 在模 $p$ 可逆。
+由 residue/corestriction 相容及 (1140.50)，
+上述全部 tame 消去准确下降到 $\mathfrak b$。
+非尖点处两单线槽都是 augmentation 后的实际 modular units，
+故没有其他 residue。
+Merkurjev–Suslin 及曲线 purity 遂给
+$$
+\boxed{\quad
+\mathfrak b\in
+\operatorname{im}\bigl(
+ \operatorname{Br}(X_K)[p]\otimes\mu_p
+ \longrightarrow K_2(K(X))/p
+\bigr).
+\quad}
+\tag{1140.66}
+$$
+Kummer exact sequence再给原 proper $H^2(\mu_p^{\otimes2})$ lift。
+这里用的是原一次 weighted pull–trace，没有添加一个新的 cusp 修正常数。
+
+### 13.4 去掉 V 投影所需的准确条件
+
+由 (1140.59)、$\mathfrak b$ 的紧致性及 §7，
+$$
+\beta-\frac{16\delta^2}{21m^2}\mathfrak b
+\tag{1140.67}
+$$
+是一个实际紧致的 $I_8$ common-kernel 类。
+只有在 (1140.36) 的两个 Bernoulli 单位门下，
+R1139 才将它杀掉；于是
+$$
+\boxed{\quad
+ \{F_{\chi_1},F_{\chi_2}\}
+ =\frac{4\delta^2}{21}\,
+   \mathcal T\{W_\zeta^*\mathcal G_4,\mathcal G_8\}
+ \quad\text{in }K_2(K(X))/p.
+\quad}
+\tag{1140.68}
+$$
+没有这两个门时，(1140.60) 的投影表达及 (1140.67) 的
+compact common-kernel 仍是保留的准确范围。
+本节的 Tate leading、$\mu_p$ 相位、两类核直线、
+全部 cusp 的多项式求和与 purity 范围均经 o2_high_coefficient
+独立纸核；没有数学程序执行。

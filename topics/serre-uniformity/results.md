@@ -130,3 +130,5 @@
 - R1140 §§10–12（同文件）：已证明指定端点的真实degree-p norm/p-isogeny来源，trace-fixed常数、双权u⁴v⁸及fixed-Weil n⁻⁴均完整；得到保V_n₀投影的两个原单线单位的实际表达，不先宣bare trace proper。
 
 - R1137 §2.5（同文件）：已证明实际Padé分子最高系数P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N为单位，有限Clausen/原q2留数付清，degP=N；双缺陷仍未排。
+
+- R1140 §13（同文件）：已证明原p-isogeny bare pull–trace的全部cusp tame消去（保µp相位与p-ramification），故generic proper；明确F33门下去V投影，原cup=(4δ²/21)𝒯{W*G₄,G₈}，值未零。

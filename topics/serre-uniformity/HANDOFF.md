@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：b12c5cdb988f111d6613d98df1b4767af2efc258**（2026-11-28 04:40 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：6c5de852b9e6c6b974cffeca3edcc5791df3f781**（2026-11-28 04:41 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；04:21重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 05:21。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -22,7 +22,7 @@ R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2�
 
 [R1136](results/R1136-original-forced-compact-Manin-sources.md)原两秩紧致源、J/transfer/θ² diamond、ordinary Hecke及rank1 exact p²/Fricke+ twist全成（保quadratic-St）；整away-p order、source unsmoothing不代全field关系。[R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)原除子/augmentation付全部n>3的S_n=(4/m²)V_n{Fχ,Fψ}，V_n=n⁴−n^(a+2)T_n+n^(2a+1)，两cross完整。[R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)明确F33低mixed门下付HS/base/Pic全部target公共核消去，原裸cup=指定Ψ(c)；值未零，四阶指定邻对在门外。
 
-[R1140](results/R1140-original-low-weight-Manin-source-reduction.md)原j1,k2：C¹=0、C²=(16δ²/21)C_Eis，实际Merel/det/apolar给λℓ=ℓ⁻²+ℓ³。无门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)，β_E=S_n/v_n，V_nβ₈0；B16/B_(p−15)单位才删β₈。§§10–12真实degree-p norm不反除p，trace-fixed付24常数，一次Galois/Cartan权u⁴v⁸，fixed-Weil n⁻⁴与两cross准确给β_E=16δ² V_n₀𝒯{W*G₄,G₈}/(21m²v₀)。保bare trace proper门及实际常数，不造F0。
+[R1140](results/R1140-original-low-weight-Manin-source-reduction.md)原j1,k2：C¹=0、C²=(16δ²/21)C_Eis，实际Merel/det/apolar给λℓ=ℓ⁻²+ℓ³。无门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)，β_E=S_n/v_n，V_nβ₈0；B16/B_(p−15)单位才删β₈。§§10–12真实degree-p norm不反除p，trace-fixed付24常数，一次Galois/Cartan权u⁴v⁸，fixed-Weil n⁻⁴与两cross准确给β_E=16δ² V_n₀𝒯{W*G₄,G₈}/(21m²v₀)。§13已付该bare trace在原X_K的全部cusp tame，F33内cup=(4δ²/21)𝒯{W*G₄,G₈}，可去V投影；门外仍保compact I8差。实际标量不造F0。
 
 [R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时，原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}（允许零）。全S={p}延拓/Hecke闭包、BrS0、完整Pic商、DVR与MW可除项的真实socle提升均成；Q下降ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍仍保。root继续该Pic结构，global继续实际p-isogeny常数/cochains。
 
