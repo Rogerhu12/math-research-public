@@ -352,3 +352,8 @@
 ### 2026-11-27 23:48 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原整p Chen/Ohta笔记§7核LO Th1：N=p²时(d−1)²=0条件杀整个1+pZ/p²，标准Shimura子群本身无p-primary；prime-power精确阶、圆分角色及Fricke −1原文均保。
 - root/global亲核原primary与完整角色推导；此结论排掉真实Shimura来源，但没有将它扩成全部μ-type或非Shimura odd new。继续same-prime平方层实际Hecke格/非分裂嵌入及原整cochain；无数学执行。
+
+
+### 2026-11-27 23:50 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原Tate note§9结清完整低阶共轭方案：degree p−1的原目标线丛在r≤p−3处全局截面生成全部r-jets，保V₀的亚纯微分算子因此全局正则；最高/次高系数的单点留数迫任意r<p全局算子只有标量。
+- 实际ΦN_fullΦ⁻¹把1送非恒定δRcal，故不能是整个V₀上的二阶/四阶目标算子。root给完整纸证，o1/o2独核；不排指定Um、−Q处含源变化/边界的关系，继续该真实读数，未把排错方案称原e/K4闭合。

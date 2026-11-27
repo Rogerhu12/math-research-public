@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：3e164b4c24cb814c9ccd8f42c182e526575b0502**（2026-11-27 23:48 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：b29e94acdd805f015425572994aa41e405d6595a**（2026-11-27 23:50 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 22:55再试pull仍报无可用执行环境，shell未运行；按根规则8用连接器小文本同步、读差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；数学程序仅本公开仓库Actions，禁止本地/V8数学计算。root维护main/H/open/index/log，子研究独立稿，每条结论立即推；此前V8偏差及停用见[纠正记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -32,7 +32,7 @@ R1125 §10后到q² producer run45977769585/job140433713916成功；交叉核run
 
 ## O1：原同一标签、Picard两jet与实际Gaussian mask
 
-[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–8已付实际Verschiebung/Miller/相对Cartier一阶、kerV全局截面及−Q刚化。修正M₀后6v·dot t̂_f=ΦN_full f；全自然奇源/最高边界保。完整H上6v·dot Ĵ_coeff=P_TJ，真实三平移给6v·dot S=[P,S]，N_full+P=D²+U，原Pf=Nf+U^(m+1)。§8.3完整保Vε²约化的额外变化。normal单位不代e/K4；实际指定Picard关系继续。
+[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–8已付实际Verschiebung/Miller/相对Cartier一阶、kerV全局截面及−Q刚化。修正M₀后6v·dot t̂_f=ΦN_full f；全自然奇源/最高边界保。完整H上6v·dot Ĵ_coeff=P_TJ，真实三平移给6v·dot S=[P,S]，N_full+P=D²+U，原Pf=Nf+U^(m+1)。§8.3完整保Vε²约化的额外变化。normal单位不代e/K4；实际指定Picard关系继续。 §9以完整jet生成及单点留数证明：全V₀上的ΦN_fullΦ⁻¹不是任何阶≤p−3的目标微分算子；仅针对原f、−Q的关系仍开。
 
 [原Lamé短旗标](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保B简单谱/D³单Jordan及严格短像；两端Green/normal列给e₀=0⇒e_±1单位、e₁=−5e_−1。§§9–10付完整Cartier Newton矩阵，e/K4分别为同矩阵R和移位R²读数；末零行/短cut全保。原Φ在半常数纯极基反对角，U^m全部系数和两jet有限和已付；完美性不代指定非正交。R1113保原Lamé谱、η_k/D_N(1)准确单位尺度、Lax与Darboux carry。原e=K4=0的短η_k/ν_k门仍开，R1077加权2k不代短k，R1109首除层不代直接比较。
 
