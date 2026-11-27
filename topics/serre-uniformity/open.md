@@ -45,6 +45,8 @@ R1140§13已付bare 𝔟=𝒯{W*G₄,G₈}的generic-K proper lift：乘法核�
 
 R1140§14已付原ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132，完整带权tame仍消；真Betti共轭c_*=-Merelι*，source保原N/J/Q下降。p∤Bp−5门内c_Eis=λ_E Pχ1于实际I3 socle，λ_E允许0，局部tame系数和全局cup常数不混同；继续算λ_E/指定cochain。
 
+[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件p>37付同一source c_Eis=−2016δ²Pχ1≠0：BM整零周期格的compact reduction就是cuspidal p-torsion，ES唯一偶角色免去Bp−5门；全μ边界、负Abel、J e2=−e1、Sω²/p=1/189和原m尺度全付。仅source非零，Ψ(Pχ1)实际值与R1141/Pic/混合门均未取消。
+
 [R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时付原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}，允许零。原torsor延拓全S={p}，Hecke闭包保支撑；BrS0/完整Pic商、MW可除项及DVR π支付真实socle提升。Q下降为ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍与高cover不删。继续原p-isogeny端点标量/cochains。
 
 [R1142](results/R1142-original-proper-Eisenstein-cohomology-and-Picard-dichotomy.md)只需Bp−5单位，原V_r=(TπJ⊗ω7)/πʳ的H0/H2为0、H1=O/πʳ（真实π像/Nakayama已付）。cusp section杀Leray transgression、B8杀base，故proper H²_(θ,m3)=O/p；实际ξ=ω⁻⁷ MW无torsion，Pic部分只能0或全，rank d=0/1。原Bhat=κF1∪κε2非零并生成π-socle；其field像B12非零 iff d0，d1时为非零Pic类。未定d/c，不将原βhat放进socle，其他proper块仍保。

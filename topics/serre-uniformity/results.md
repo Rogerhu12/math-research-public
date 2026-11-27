@@ -1,5 +1,8 @@
 # 结论索引
 
+- **R1143（已证明，纸面，无条件p>37）**：[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件p>37付同一source c_Eis=−2016δ²Pχ1≠0：BM整零周期格的compact reduction就是cuspidal p-torsion，ES唯一偶角色免去Bp−5门；全μ边界、负Abel、J e2=−e1、Sω²/p=1/189和原m尺度全付。仅source非零，Ψ(Pχ1)实际值与R1141/Pic/混合门均未取消。
+
+
 - **R1135 §11（已证明，纸面）**：R1135§11将全部good代数缩至A0=Fp[W²,W(W²−d)]或Fp[W]，d=S²/4−P；余维1、导子(W²−d)、真坐标恢复与节点/尖点全付。d0或非平方已分离Fp点；非零平方余对须某actual odd coefficient O_R(d)≠0。旧Δ/(2Gp−7)就是该导子类；向量场闭性未付，仍保真实mask。
 [证明](results/R1135-original-Gaussian-low-row-fiber-constraint.md)。
 

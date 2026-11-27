@@ -1045,3 +1045,5 @@ $\lambda_E$ 可以为零。本节既没有计算 $\lambda_E$，
 (1140.69)–(1140.75) 的角色、数值分母、真实复共轭符号及
 actual socle 范围均经 o2_high_coefficient 独立纸核；
 所有引用的 cusp/Hecke 格均为已发表的原来源，没有数学程序执行。
+
+后续 [R1143](R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md) 已将 (1140.75) 升级为无条件 $p>37$ 的准确式 $c_{\rm Eis}=-2016\delta^2P_{\chi_1}\ne0$，保同一规范。其 motivic 读数仍未由 source 非零确定。
