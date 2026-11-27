@@ -117,4 +117,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [闭面全phase/grip](notes/2026-11-27-run10-closed-phase-grip-source-adapter.md)、[同点mesh/t](notes/2026-11-27-run10-complete-same-field-phase-meshes-and-refinement-inputs.md)完整体与全参数均刊未排；九角色/共同A/整像δhold/δE/真实精化仍欠，raw只runner。07/08/09全未知历史保，当前没有新场/费/精化真返；继续全部README目标。
 
-[11完整公开续作](notes/2026-11-27-run11-complete-warm-launch-and-fixed-reference-continuation.md)先运行原完整warm，后续完整源将确定性重建实际2218有限参考及全部7377观测；旧e711/4ace执行证据与新真实来源分开，同数学g只据全部实际定义/词比较。当前不宣称新输入/场或精化结果，旧07–10未知父/typed责任保。
+[11完整固定输入再生](notes/2026-11-27-same-run10-fixed-reference-cross-runner-reconstruction.md)已排唯一必要一步：原warm后，按真实2218完整算法/节点/标量参数重建全7377及reference/old2397 carrier，硬核512/71f/081及origin e711/b240。新5989 context＋5aee桥保原4e全数学方法，独立记录实际新执行和六file，不冒whole4ace。全部16参数/10输出/36读取项，后继完整solver/pure与[全准确费用接口](notes/2026-11-27-same-run10-complete-accurate-fee-interface.md)继续；新同g/场/费均待实际返回，旧07–10全未知历史保。

@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`44f0f866e48e97063605a71c8b38647c681dddfe`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`7bd543fbd1218460bc7cb96113d678bddd165014`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -14,7 +14,7 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 ## 历史状态与保全
 
-03b/03/02/04/05/direct完整九history、06双分支42/43的地点/typed/保护/合并义务保固定H；06末仍非可行，28b/cfd未准入；07仅1–3返，cc0a场/typed/pure/费/M320未知；08终态见末块。R697/R702/R705不重做，未返不冒已读。
+03–06完整九history和06两分支地点/typed/保护/合并责任保固定前H；06末未可行，28b/cfd未准入。07仅1–3返，cc0a及后继未知；08/09见末块。R697/R702/R705不重做，未知不冒已读。
 
 [33–40完整保全与恢复](notes/2026-11-27-actual28-receipts-and-system-metadata-retention-40.md)及固定前H保各旧完整ledger、全部源/参数/请求/真结论/正确warm与status链。40仅退13旧actual28收据与4生成系统清单1750110B；54/57同gzip不合并科学结论，42恢复须透明解压成原.json。旧reader原guard保；缺wholeSHA明列null、不混ZIP身份。未读候选体或重跑，当前输入与队列不变。
 
@@ -41,12 +41,12 @@ R248仅活动像，固定p4须共同R650或全部mixed pairs；均值J≠normal 
 [10实际输入](notes/2026-11-27-run10-actual-public-inputs-and-complete-carrier-freeze.md)1–4真返0：warm3df/node1fed/scalar aa7a/ref512/report35fd/carrier71f/model081、targete711/wholeb240与binding84478/whole4ace；2218尾accuracy=false，旧2397只carrier。两b239快照和160图词保，fcd冻结/52fc源重生实际已过。350分钟/20000秒只编排界。
 [10完整缓存](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)七上/九下源、149/7argv与373/357/43progress保；92609B queue三pending=科学5/pure/已排[mean-profile](notes/2026-11-27-run10-complete-reference-mean-profile-fee-adapter.md)，原三真返bootstrap另保。[normal/geometry](notes/2026-11-27-run10-complete-normal-and-continuous-geometry-fees.md)六全体与两ready已刊未排：全32段/1024角胞/全部径向/raw六jet/准确同g全算子范数/K/support保，shared29eed/e0原字；只消费真完整report/immutable同点，progress不是输入，未产费用证书。
 
-缓存只复用同链完整C，活动/未知transform旁路、每stage/final原重读，全部J链/几何保。12:28:50观察normal_chain_enter、point11a776（原cd530/5a33/0088后）：884230请求/返回、394815原算、489415命中、失败0；非接受点/指标/immutable证书。科学5和pure未返。07/08/09未知report/point/typed及后续完整合并责任保，10自身restart严格。
+缓存只复用同链完整C，活动/未知transform旁路、每stage/final原重读，全部J链/几何保。12:43:54观察normal_chain_enter、point11a776（原cd530/5a33/0088后）：984050请求/返回、446458原算、537592命中、失败0；非接受点/指标/immutable证书。科学5和pure未返。07/08/09未知report/point/typed及后续完整合并责任保，10自身restart严格。
 
 
 [不可写点完整族](notes/2026-11-27-run10-immutable-point-cache-binding-and-complete-source-family.md)15体/两构造/两方案已刊未排，90来源保原75。normal完整bytes owner、每key同对象/owner/布局，入口出口全词与全部data/control/active旁路/每段final原式保。完整c3dc/2efa13父/全typed桥、原20121B科学后缀和全部参数保；frame_matrix键对齐。无未来SHA/数值/速度，progress原43+5=48。
 
-[11同g输入续作](notes/2026-11-27-run11-complete-warm-launch-and-fixed-reference-continuation.md)完整控制器4b080/原561 warm/独立workflow已触发真实46000835895/1、job140511753433，12:42:06 UTC启动；末块保实际阶段。仅先重建全warm；后续确定性2218/全7377与原完整词须真核。e711/4ace是旧执行证据，不能冒新身份；新的完整context/binder/solver与全参数待入队，07–10未知peer历史保。
+[11完整固定输入再生](notes/2026-11-27-same-run10-fixed-reference-cross-runner-reconstruction.md)已排5989一步：真实46000835895/1、job140511753433先原561全warm，再定数2218/全7377与旧2397地址carrier完整再生。硬核512/71f/081及origin e711/b240，实际新preparation/六file身份独立，future全null。5aee纯桥/完整新context/全部16argv-10outputs-36selectors保，无AST/探针门。后继solver/pure待完整source；[准确费用接口](notes/2026-11-27-same-run10-complete-accurate-fee-interface.md)保全32段/1024闭胞/九角色，未有实际场/费，07–10未知历史不为空。
 
 继续10真实科学/pure与独立全域费用；完成闭面全phase/全像握持/共同A/R716、同问题实际mesh/频率/t精化和多t网格，不停在条件论证或job时间上。
 <!-- visible-larger-parallel-08:start -->
