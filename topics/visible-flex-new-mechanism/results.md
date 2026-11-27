@@ -368,3 +368,6 @@
 
 
 - [B030 normal56e8的真实d191终态](notes/2026-11-27-r566-normal56e8-original-terminal.md)：**15次实际改善，未完成**；新2370.339514432秒到1580×3072/1898峰η.215852191678、物理/working V0，当前与合格fine同网无需再baseline。末298f已付1678峰/剩238且ball/strip已失败，保留候选仍d191；22原段均首callback早于BFGS，接新native首次I与真实secant，旧/部分成本不清零。
+
+
+- [R625同盒可行L的真实40接受终态](notes/2026-11-27-r625-feasible-length-natural-final-agent.md)：**原残差明显下降，根仍未解且末h上盒stall**；新增342.874342827秒另来源.317874901秒，45真活跃L方向/40接受，原微分max4.612588365e13。stored末十全0，fine真末.25773/ruling3.29461e13未过；h(L)=2.9999999999920437达原上盒，93LSMR全1600/istop7提供下一完整QR-SVD依据，不能凭它忽略物理边界或全部真history。
