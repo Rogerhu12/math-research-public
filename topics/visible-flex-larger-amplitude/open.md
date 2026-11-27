@@ -118,3 +118,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [ret51](notes/2026-11-27-finite-geometry-minimax-retention-51.md)及此前完整台账保所有原source/参数/失败未知和精确Git恢复，只退旧derived。README完成标准仍未达到；时长、阶段或输入困难都不是停止条件。
 
 19=46076669320/1已官方启动，22:26:37Z/job140765886020，maker真返0、reference/科学未返；以同固定g、b/S1/2、δ1/32启动完整独立科学。[选择依据与启动](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)及[完整11件交付](computations/fixed-fejer-meridian-bhalf-complete-launch-delivery.json)保当前通用源137/18原字、157/7全参/全部预算与历史；两必要输入在新runner真实重建。端层冻结尺度变缓、中央固定r项5/3只是方向动机，新mean/Gram/distplus/全reach未知；不拿18字段充19结果。全纯读及准确费/closed/R716/mesh在真实材料具备后继续。
+
+
+19真实两input0后36304a0d/f600/PID3240已到初统计（22:34:17.427979）：model0abfbf/current7e06，Phi3825.0583894874153/Gram.6460503011117507，accepted0；初geometry未返。相较18初Phi降而Gram升，尚不能判成功；完整实际对象与全部缺值保[19启动续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。

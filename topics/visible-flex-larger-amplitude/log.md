@@ -229,3 +229,8 @@
 ## 2026-11-27：19官方运行与首个必要输入真实返回
 
 19 run46076669320/1、job140765886020，官方created/start22:26:37Z、launchhead543cfdf281c9bcd0f9b13197721b003a275c5967；依赖安装success、research step5实际in_progress。22:27:39已发布maker sourcef001ca62c1081b7e542c842d14c198ce16b6bee5/89cc，5.843130817000031s自然0，report65326B/519ab0688ba80a1c20104d4073ee1d6c8e5836813451bc5f8d38aefbb90e3aa1；所有原command/source/输出/cleanup身份续[完整启动note](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。第二reference与科学/模型/最终场尚未返，输入0不是求解成功。根仅云端准确ref读取，controller真实pull槽按原逻辑保持。
+
+
+### 2026-11-27 22:45 UTC — 19 两输入实际0，初始统计返回
+
+固定云读0c51ba4b8d4e82f345cb23106c29b952ab931c57，双README原blob未变；这是云读非root真pull。19参考实际1c081a10/e717/303.653668384s、完整7输出，科学实际36304a0d/f600/PID3240。22:34:17.427979初统计model0abfbf、point7e06、Phi3825.0583894874153/Gram.6460503011117507、accepted0，geometry/终态未返。18初Phi4954.71485872585/Gram.6374168330977955；新Phi降而Gram升，不推可行性或整体改善。完整实际第二input对象及全部有界progress/缺值逐字追加[19续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。H重复描述压缩，之前全字已保0c51固定历史链接，实际槽由fresh合并；持续真正求解。
