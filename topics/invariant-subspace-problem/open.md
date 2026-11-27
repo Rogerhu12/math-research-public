@@ -272,3 +272,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [两对等权加两独立权的完整联合新源](notes/2026-11-28-two-pairs-two-independent-original-joint-three-tower-8542.md)：4/3维真实源、全三塔及全部cross，域x=1+U,y=V+W,z=W覆盖U,V≥0,W>0；7个原主子式首次180秒/4GiB，全部返回前不称S1/S2或七位边完成。
 
 [H1三个一次极点整原纤维已闭、余≤1012权对](results/R150-appendix-unit211-Phi-zero-H1-three-linear-poles-complete-exclusion-and-1012-cover.md)：u=3/2,12/5,5/2各全部Q三次代数内的原3×3二次头、六真乘法列、两λ6同点cofactor皆完整返回，λBezout1；其余一次Q支由已付delta/ell排。C253=C256/三个一次因子，非原λ/T/z点数。六非线性源极点及P201仍全保；不重跑Dixon8、不借旧b1/A0逆。
+
+[W固定H265非零的实际六坐标原接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)：四条原三次规则、32左右逆积、12真实乘法列及h4/h5/完整R3/q4四原值余式在91.153742492秒前全返。随后QQ(e,k)常数目标180.220946432秒/−14，最后已打印秩4；无返1、无新权覆盖，不猜未打印状态。此门冻结，全部H0及余原点保；转完整NS/PS低次原式。

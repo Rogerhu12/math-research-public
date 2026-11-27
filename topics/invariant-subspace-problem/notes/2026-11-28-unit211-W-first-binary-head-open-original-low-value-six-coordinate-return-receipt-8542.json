@@ -1,0 +1,313 @@
+{
+  "schema": "isp-exact-partial-success-and-frozen-timeout-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "runId": 46064793934,
+  "jobId": 140727394672,
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-first-binary-head-open-original-low-value-six-coordinate-return-8542.py",
+  "driver": {
+    "elapsed_seconds": 180.220946432,
+    "max_child_rss_kib": 200068,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "bfda9a49f70a59f9ced650dcddfd5c5f2ec84e3f",
+        "before": "bfda9a49f70a59f9ced650dcddfd5c5f2ec84e3f",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:36:49.857211+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46064793934",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "bfda9a49f70a59f9ced650dcddfd5c5f2ec84e3f",
+    "source_exit_code": -14,
+    "source_git_blob": "8222a480e9a1b06ad28ea8eacff750320b1da86e",
+    "source_sha256": "ffa9634230009c3f949e2f9a4e051f891f0ad28769e971bc393cc560da8ffb66",
+    "stdout_bytes": 5952,
+    "stdout_sha256": "870cf8a16135342f0872500e1c0d04b9829cb5f84ea55cf8b0553db32f9d973e",
+    "stop_reason": null
+  },
+  "actualMathematicalRecords": [
+    {
+      "stage": "new_W_H265_open_actual_four_original_binary_rules",
+      "chart": "only the whole explicitly retained H265 != 0 principal open",
+      "allThirtyTwoTrueWeightMatrixProductsReturned": true,
+      "allFourCompleteOriginalCubicRulesReturned": true,
+      "HZeroWholeOriginalFibreRetained": true,
+      "noUnpaidHeadDeclaredGlobalUnit": true,
+      "actualRuleCertificate": {
+        "bytes": 1411274,
+        "sha256": "fbd372f43fdc9b930dd378e290846a811472352997701f25a5b925f719bc84b1"
+      },
+      "seconds": 6.343531954000014
+    },
+    {
+      "stage": "new_W_H265_open_twelve_true_weight_multiplication_columns",
+      "actualGenerators": [
+        "1",
+        "lambda",
+        "S",
+        "lambda^2",
+        "lambda*S",
+        "S^2"
+      ],
+      "allTwelveCompleteOriginalProductsReturned": true,
+      "noFreedomOrCommutativityOfChosenSixGeneratorsAssumed": true,
+      "columnCertificate": {
+        "bytes": 1966150,
+        "sha256": "f15af3a8ba6b0dd78ab259d8620654e79612d7696657fbb429b399c6b2f039b5"
+      },
+      "allScalarDenominatorsOnlyPaidWeightsAndExplicitHChart": true,
+      "seconds": 9.578286870000014
+    },
+    {
+      "stage": "new_W_H265_open_true_original_six_coordinate_row",
+      "name": "original_h4_overlap",
+      "remainderZero": false,
+      "profile": {
+        "coordinates": 6,
+        "coefficientProfileBytes": 1756,
+        "coefficientProfileSHA256": "3cbe015f7a70d5e35b3c33e1ece1f3547a5cc13bea25858207130c6da0be6e3f",
+        "maxNumeratorDegrees": [
+          36,
+          48
+        ],
+        "maxDenominatorDegrees": [
+          31,
+          47
+        ],
+        "numeratorTerms": 5982
+      },
+      "completeOriginalPolynomialAndFourRuleMultipliersReturned": true,
+      "originalTrace": {
+        "bytes": 107928,
+        "sha256": "bdfdc3422279289c9ede04f2c1e0f1460f2237e00f963636b1012f7e5211303d"
+      },
+      "noPhysicalDOrNewGeometricInverse": true,
+      "HZeroFibreRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 16.07876950100001
+    },
+    {
+      "stage": "new_W_H265_open_true_original_six_coordinate_row",
+      "name": "original_h5_overlap",
+      "remainderZero": false,
+      "profile": {
+        "coordinates": 6,
+        "coefficientProfileBytes": 1756,
+        "coefficientProfileSHA256": "0a582becfa7552af04be311f3104605319a37428cd41e67021f8d8d2b804fc64",
+        "maxNumeratorDegrees": [
+          36,
+          49
+        ],
+        "maxDenominatorDegrees": [
+          31,
+          48
+        ],
+        "numeratorTerms": 6231
+      },
+      "completeOriginalPolynomialAndFourRuleMultipliersReturned": true,
+      "originalTrace": {
+        "bytes": 112104,
+        "sha256": "61b9cd113f603f281b6b80ea8abdfc87dad850de306b791c63eac84be0fa416d"
+      },
+      "noPhysicalDOrNewGeometricInverse": true,
+      "HZeroFibreRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 23.24894198700001
+    },
+    {
+      "stage": "new_W_H265_open_true_original_six_coordinate_row",
+      "name": "entire_original_R3_value",
+      "remainderZero": false,
+      "profile": {
+        "coordinates": 6,
+        "coefficientProfileBytes": 1789,
+        "coefficientProfileSHA256": "4b1488d57ade1146c451663c12c289355a584324b04db6dbef26494c09891bee",
+        "maxNumeratorDegrees": [
+          81,
+          96
+        ],
+        "maxDenominatorDegrees": [
+          60,
+          91
+        ],
+        "numeratorTerms": 30002
+      },
+      "completeOriginalPolynomialAndFourRuleMultipliersReturned": true,
+      "originalTrace": {
+        "bytes": 669391,
+        "sha256": "cbeb3b41db86efad44aeb50849f6003a7a023dba3c6c76b72d26fd36abc9f4e7"
+      },
+      "noPhysicalDOrNewGeometricInverse": true,
+      "HZeroFibreRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 65.345063319
+    },
+    {
+      "stage": "new_W_H265_open_true_original_six_coordinate_row",
+      "name": "entire_original_q4_value",
+      "remainderZero": false,
+      "profile": {
+        "coordinates": 6,
+        "coefficientProfileBytes": 1789,
+        "coefficientProfileSHA256": "c7f5d354068b95d543a55dab6c550be9c6ccb04ce2fe108b3dc9e1c4064c57e5",
+        "maxNumeratorDegrees": [
+          64,
+          86
+        ],
+        "maxDenominatorDegrees": [
+          56,
+          86
+        ],
+        "numeratorTerms": 19992
+      },
+      "completeOriginalPolynomialAndFourRuleMultipliersReturned": true,
+      "originalTrace": {
+        "bytes": 372393,
+        "sha256": "1eba72e829605b5e34a3520bc1f32543fda26e53be16ff4d155fe70dbac16533"
+      },
+      "noPhysicalDOrNewGeometricInverse": true,
+      "HZeroFibreRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 91.153655441
+    },
+    {
+      "stage": "new_W_H265_open_complete_new_same_point_value_input",
+      "fourOriginalRows": [
+        "original_h4_overlap",
+        "original_h5_overlap",
+        "entire_original_R3_value",
+        "entire_original_q4_value"
+      ],
+      "originalR3Identity": "R3=R4-[S^4]R4*q4=theta*q3",
+      "noGeometricThreeMinusTwoLambdaInverseInNewValueRows": true,
+      "allOriginalRulesMultiplicationAndInputRowsActuallyReturned": true,
+      "actualNewPolynomialReductionProducts": 16,
+      "originalFullNPStillRequiredUnlessThisNecessarySubsystemExcludes": true,
+      "noOldWholeCofactorGateReplayed": true,
+      "seconds": 91.153742492
+    },
+    {
+      "stage": "new_W_H265_generic_weight_column_pivot",
+      "originalColumn": "original_h4_overlap",
+      "rank": 1,
+      "ambientDimension": 6,
+      "actualPivotInverseProductActuallyReturned": true,
+      "noGenericPivotDeclaredGlobalUnit": true,
+      "normalizedVectorProfile": {
+        "coordinates": 6,
+        "coefficientProfileBytes": 1746,
+        "coefficientProfileSHA256": "ac584a06bde0aabd31410a9002810e19a280609dfa51fc3b18bd42be51407330",
+        "maxNumeratorDegrees": [
+          34,
+          47
+        ],
+        "maxDenominatorDegrees": [
+          35,
+          47
+        ],
+        "numeratorTerms": 5257
+      },
+      "seconds": 91.230100243
+    },
+    {
+      "stage": "new_W_H265_generic_weight_column_pivot",
+      "originalColumn": "original_h5_overlap",
+      "rank": 2,
+      "ambientDimension": 6,
+      "actualPivotInverseProductActuallyReturned": true,
+      "noGenericPivotDeclaredGlobalUnit": true,
+      "normalizedVectorProfile": {
+        "coordinates": 6,
+        "coefficientProfileBytes": 1732,
+        "coefficientProfileSHA256": "8156b5529977c514845e2b6b9f8a99418e9d0f5149066c7c492bc472db8b2d36",
+        "maxNumeratorDegrees": [
+          36,
+          49
+        ],
+        "maxDenominatorDegrees": [
+          37,
+          49
+        ],
+        "numeratorTerms": 4800
+      },
+      "seconds": 91.97409630400001
+    },
+    {
+      "stage": "new_W_H265_generic_weight_column_pivot",
+      "originalColumn": "entire_original_R3_value",
+      "rank": 3,
+      "ambientDimension": 6,
+      "actualPivotInverseProductActuallyReturned": true,
+      "noGenericPivotDeclaredGlobalUnit": true,
+      "normalizedVectorProfile": {
+        "coordinates": 6,
+        "coefficientProfileBytes": 1729,
+        "coefficientProfileSHA256": "bdd3a06e57e8eea9dfe92022e6e3c4d4c3d72a18b33512b04ffc02ece9f44774",
+        "maxNumeratorDegrees": [
+          70,
+          93
+        ],
+        "maxDenominatorDegrees": [
+          71,
+          93
+        ],
+        "numeratorTerms": 13411
+      },
+      "seconds": 101.128072905
+    },
+    {
+      "stage": "new_W_H265_generic_weight_column_pivot",
+      "originalColumn": "entire_original_q4_value",
+      "rank": 4,
+      "ambientDimension": 6,
+      "actualPivotInverseProductActuallyReturned": true,
+      "noGenericPivotDeclaredGlobalUnit": true,
+      "normalizedVectorProfile": {
+        "coordinates": 6,
+        "coefficientProfileBytes": 1714,
+        "coefficientProfileSHA256": "01b2578a3d973c10ebf67c373caa31c561feddc8279c1f43d379cbf319839488",
+        "maxNumeratorDegrees": [
+          82,
+          108
+        ],
+        "maxDenominatorDegrees": [
+          83,
+          108
+        ],
+        "numeratorTerms": 11964
+      },
+      "seconds": 127.7748308
+    }
+  ],
+  "completeSuccess": {
+    "fourCubicRules": true,
+    "all32InverseProducts": true,
+    "twelveTrueMultiplicationColumns": true,
+    "fourOriginalValueRows": true,
+    "originalReductionProducts": 16
+  },
+  "negativeOutcome": {
+    "signal": "SIGALRM",
+    "lastCompletedPrintedRank": 4,
+    "lastCompletedPrintedRankSeconds": 127.7748308,
+    "constantOneReturned": false,
+    "newWeightCoverReturned": false,
+    "unknownUnprintedExitStateNotGuessed": true,
+    "fullWExcluded": false,
+    "gateFrozenNoRerunOrExtension": true
+  },
+  "scope": "Only explicit H265 != 0 chart. Entire H265=0 and every unpaid parameter/geometry fibre retained.",
+  "retention": {
+    "sourceDefinitionsRunSHAAndSmallReceiptOnly": true,
+    "noEncodedPayload": true,
+    "noRegenerableCertificateCache": true
+  }
+}
