@@ -1,0 +1,522 @@
+{
+  "schema": "isp-original-collision-u2-complete-exclusion-v1",
+  "date": "2026-11-28",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run": 46065699605,
+  "job": 140730374090,
+  "source": "notes/2026-11-28-unit211-collision-u2-four-original-Q-full-fibres-8542.py",
+  "driver": {
+    "elapsed_seconds": 0.8924567489999973,
+    "max_child_rss_kib": 46424,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "0058b14e7cc10fd1b9d8547d6f0000678c0f6eed",
+        "before": "0058b14e7cc10fd1b9d8547d6f0000678c0f6eed",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T20:45:03.446838+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46065699605",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0058b14e7cc10fd1b9d8547d6f0000678c0f6eed",
+    "source_exit_code": 0,
+    "source_git_blob": "8dfda3ad290c99253130f33fc2fd2f9cd4d7e697",
+    "source_sha256": "3e52b76560070f677914e87c84692f94d67b79621fff3bffea11ba58674aa37a",
+    "stdout_bytes": 9008,
+    "stdout_sha256": "8ed70a59dde18eb6dd619c595dcd75d0c9218922c4b1f1f60610916e04ebcafb",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "stage": "new_collision_u2_complete_original_saturation",
+      "name": "R",
+      "original": {
+        "degrees": [
+          46,
+          5
+        ],
+        "terms": 278,
+        "bytes": 8090,
+        "sha256": "f14d12b3655f7c684d180f6cf4e4ce2680507ecc88075c62f99c82b5f54a62c1"
+      },
+      "remaining": {
+        "degrees": [
+          45,
+          5
+        ],
+        "terms": 272,
+        "bytes": 7495,
+        "sha256": "2d0d16566fa54ead006240da81378313d2c526b441e7195c493021bb6203061f"
+      },
+      "paidFactorRemovalSteps": 1,
+      "wholePhysicalProduct": "Delta*Q*(1-Q)*M*P02*Phi*Pf times explicitly paid scalar units",
+      "noUnpaidFactorRemoved": true,
+      "completeOriginalSaturationProductReturned": true,
+      "seconds": 0.015884458999998685
+    },
+    {
+      "stage": "new_collision_u2_complete_original_saturation",
+      "name": "W",
+      "original": {
+        "degrees": [
+          45,
+          6
+        ],
+        "terms": 314,
+        "bytes": 9300,
+        "sha256": "a2ccf4b973a572bcc45d034cb0f7fb6bdd5506ecf6dc161a129bdeecd75e60b4"
+      },
+      "remaining": {
+        "degrees": [
+          45,
+          6
+        ],
+        "terms": 314,
+        "bytes": 8488,
+        "sha256": "bffb0017ac15ddc616e32dc2e95f9662138e2f40d46d6f1011943d3ec6efab3c"
+      },
+      "paidFactorRemovalSteps": 0,
+      "wholePhysicalProduct": "Delta*Q*(1-Q)*M*P02*Phi*Pf times explicitly paid scalar units",
+      "noUnpaidFactorRemoved": true,
+      "completeOriginalSaturationProductReturned": true,
+      "seconds": 0.0228289069999974
+    },
+    {
+      "stage": "new_collision_u2_complete_original_saturation",
+      "name": "O",
+      "original": {
+        "degrees": [
+          51,
+          6
+        ],
+        "terms": 357,
+        "bytes": 11244,
+        "sha256": "133246ebc0b099be18c62ceb485bdd67f0a0b33375d4af740bd18b963fc92145"
+      },
+      "remaining": {
+        "degrees": [
+          51,
+          6
+        ],
+        "terms": 357,
+        "bytes": 10098,
+        "sha256": "88527f862ee6a0e765c50db969a1d6f47ee971df1c52954baffaabd5d593d66a"
+      },
+      "paidFactorRemovalSteps": 0,
+      "wholePhysicalProduct": "Delta*Q*(1-Q)*M*P02*Phi*Pf times explicitly paid scalar units",
+      "noUnpaidFactorRemoved": true,
+      "completeOriginalSaturationProductReturned": true,
+      "seconds": 0.031744740999997134
+    },
+    {
+      "stage": "new_collision_u2_complete_original_saturation",
+      "name": "N1",
+      "original": {
+        "degrees": [
+          48,
+          6
+        ],
+        "terms": 282,
+        "bytes": 8778,
+        "sha256": "4f3792130604fc7297ce66889a7602f67ac0a3b898521164df65c85b4fc8a8ba"
+      },
+      "remaining": {
+        "degrees": [
+          47,
+          5
+        ],
+        "terms": 282,
+        "bytes": 7835,
+        "sha256": "cf3a8837882e85937df1c8bdafe64c66e9719312871f88ee0d7de522abe2da8d"
+      },
+      "paidFactorRemovalSteps": 1,
+      "wholePhysicalProduct": "Delta*Q*(1-Q)*M*P02*Phi*Pf times explicitly paid scalar units",
+      "noUnpaidFactorRemoved": true,
+      "completeOriginalSaturationProductReturned": true,
+      "seconds": 0.038469704000000604
+    },
+    {
+      "stage": "new_collision_u2_original_input_ready",
+      "allOriginalRows": [
+        "R",
+        "W",
+        "O",
+        "N1"
+      ],
+      "originalPhysicalProductProfile": {
+        "degrees": [
+          75,
+          9
+        ],
+        "terms": 503,
+        "bytes": 17280,
+        "sha256": "109f48f88fcc6f531c9a8a0b06a949d888ef1f3c3e581325a1a46400edfa2907"
+      },
+      "physicalScalarContent": {
+        "degree": 39,
+        "bytes": 657,
+        "sha256": "682b85a66b9741fcde268eb94ac5df379ea3807e3d37412a6ea22d644063c403"
+      },
+      "lambdaAndQAllRemainVariables": true,
+      "noEProjectionReconstruction": true,
+      "seconds": 0.04443141299999809
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_started",
+      "originals": [
+        "R",
+        "W"
+      ],
+      "fixedQDegrees": [
+        5,
+        6
+      ],
+      "seconds": 0.044483440000000485
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_returned",
+      "originals": [
+        "R",
+        "W"
+      ],
+      "fixedQDegrees": [
+        5,
+        6
+      ],
+      "projection": {
+        "degree": 485,
+        "bytes": 80462,
+        "sha256": "40c579a89dc23e505ead7996c49dee8ace6b23e324b0d04fb4442468a7a76048"
+      },
+      "allLambdaHeadDropsRetainedByPolynomialResultant": true,
+      "necessaryRemainingLambdaCover": {
+        "degree": 260,
+        "bytes": 28305,
+        "sha256": "348b982351d56998d116c84f27e2f2caa80f42d05b0047e435c13c48b238c672"
+      },
+      "seconds": 0.13321631299999837
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_started",
+      "originals": [
+        "R",
+        "O"
+      ],
+      "fixedQDegrees": [
+        5,
+        6
+      ],
+      "seconds": 0.13327810500000226
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_returned",
+      "originals": [
+        "R",
+        "O"
+      ],
+      "fixedQDegrees": [
+        5,
+        6
+      ],
+      "projection": {
+        "degree": 515,
+        "bytes": 89331,
+        "sha256": "b5be3d15e8627d15ef6425bc69d32716d2cc32a835d5043f6eef382e3c4941cc"
+      },
+      "allLambdaHeadDropsRetainedByPolynomialResultant": true,
+      "necessaryRemainingLambdaCover": {
+        "degree": 92,
+        "bytes": 3648,
+        "sha256": "b963f395862b2fdc553df7185fa813f81e36999449949d2cfcb4f915ec877968"
+      },
+      "seconds": 0.21659874399999524
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_started",
+      "originals": [
+        "R",
+        "N1"
+      ],
+      "fixedQDegrees": [
+        5,
+        5
+      ],
+      "seconds": 0.21665754099999646
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_returned",
+      "originals": [
+        "R",
+        "N1"
+      ],
+      "fixedQDegrees": [
+        5,
+        5
+      ],
+      "projection": {
+        "degree": 450,
+        "bytes": 70584,
+        "sha256": "8328de368ac63b10471bfa81eab2a9dff1abd48cdb59224d85f65722d4be2dc6"
+      },
+      "allLambdaHeadDropsRetainedByPolynomialResultant": true,
+      "necessaryRemainingLambdaCover": {
+        "degree": 92,
+        "bytes": 3648,
+        "sha256": "b963f395862b2fdc553df7185fa813f81e36999449949d2cfcb4f915ec877968"
+      },
+      "seconds": 0.2717735040000022
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_started",
+      "originals": [
+        "W",
+        "O"
+      ],
+      "fixedQDegrees": [
+        6,
+        6
+      ],
+      "seconds": 0.2718278839999968
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_returned",
+      "originals": [
+        "W",
+        "O"
+      ],
+      "fixedQDegrees": [
+        6,
+        6
+      ],
+      "projection": {
+        "degree": 560,
+        "bytes": 101648,
+        "sha256": "a9e7b1b9865ab6d09ac0add6e88a86927b19134c1078f2018f13b069caf54dbb"
+      },
+      "allLambdaHeadDropsRetainedByPolynomialResultant": true,
+      "necessaryRemainingLambdaCover": {
+        "degree": 92,
+        "bytes": 3648,
+        "sha256": "b963f395862b2fdc553df7185fa813f81e36999449949d2cfcb4f915ec877968"
+      },
+      "seconds": 0.3884889129999962
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_started",
+      "originals": [
+        "W",
+        "N1"
+      ],
+      "fixedQDegrees": [
+        6,
+        5
+      ],
+      "seconds": 0.38854345400000057
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_returned",
+      "originals": [
+        "W",
+        "N1"
+      ],
+      "fixedQDegrees": [
+        6,
+        5
+      ],
+      "projection": {
+        "degree": 490,
+        "bytes": 81916,
+        "sha256": "52e746d2a5a146ee14d1f5bfd08dbef8490491c1526232174f85b7bc6e839ac7"
+      },
+      "allLambdaHeadDropsRetainedByPolynomialResultant": true,
+      "necessaryRemainingLambdaCover": {
+        "degree": 92,
+        "bytes": 3648,
+        "sha256": "b963f395862b2fdc553df7185fa813f81e36999449949d2cfcb4f915ec877968"
+      },
+      "seconds": 0.4706815679999963
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_started",
+      "originals": [
+        "O",
+        "N1"
+      ],
+      "fixedQDegrees": [
+        6,
+        5
+      ],
+      "seconds": 0.4707453319999999
+    },
+    {
+      "stage": "new_collision_u2_fixed_original_Q_projection_returned",
+      "originals": [
+        "O",
+        "N1"
+      ],
+      "fixedQDegrees": [
+        6,
+        5
+      ],
+      "projection": {
+        "degree": 522,
+        "bytes": 90870,
+        "sha256": "d4f309f2d88ebb8a07e9493bdad3eb90cc3df77952f06c743bf81666ee47d087"
+      },
+      "allLambdaHeadDropsRetainedByPolynomialResultant": true,
+      "necessaryRemainingLambdaCover": {
+        "degree": 92,
+        "bytes": 3648,
+        "sha256": "b963f395862b2fdc553df7185fa813f81e36999449949d2cfcb4f915ec877968"
+      },
+      "seconds": 0.5609953869999984
+    },
+    {
+      "stage": "new_collision_u2_complete_QQ_lambda_factor",
+      "index": 0,
+      "multiplicity": 1,
+      "factor": {
+        "degree": 23,
+        "bytes": 308,
+        "sha256": "4796bc316b5efb75f8c0590d7b4968032a9da4d6f8d33bd29727efe92da4e99c"
+      },
+      "entireOriginalLambdaFibreRetained": true,
+      "seconds": 0.5615939159999996
+    },
+    {
+      "stage": "new_collision_u2_complete_original_Q_gcd",
+      "path": "lambda_0",
+      "originalsUsed": [
+        "R"
+      ],
+      "degree": 5,
+      "completeOriginalCombinationActuallyMultipliedBack": true,
+      "seconds": 0.5656747429999953
+    },
+    {
+      "stage": "new_collision_u2_complete_original_Q_gcd",
+      "path": "lambda_0",
+      "originalsUsed": [
+        "R",
+        "W"
+      ],
+      "degree": 2,
+      "completeOriginalCombinationActuallyMultipliedBack": true,
+      "seconds": 0.8030406029999995
+    },
+    {
+      "stage": "new_collision_u2_complete_original_Q_gcd",
+      "path": "lambda_0",
+      "originalsUsed": [
+        "R",
+        "W",
+        "O"
+      ],
+      "degree": 2,
+      "completeOriginalCombinationActuallyMultipliedBack": true,
+      "seconds": 0.8111645119999977
+    },
+    {
+      "stage": "new_collision_u2_complete_original_Q_gcd",
+      "path": "lambda_0",
+      "originalsUsed": [
+        "R",
+        "W",
+        "O",
+        "N1"
+      ],
+      "degree": 2,
+      "completeOriginalCombinationActuallyMultipliedBack": true,
+      "seconds": 0.8193468870000018
+    },
+    {
+      "stage": "new_collision_u2_entire_original_lambda_fibre_return",
+      "path": "lambda_0",
+      "lambdaFactor": {
+        "degree": 23,
+        "bytes": 308,
+        "sha256": "4796bc316b5efb75f8c0590d7b4968032a9da4d6f8d33bd29727efe92da4e99c"
+      },
+      "allActualQDegrees": {
+        "R": 5,
+        "W": 6,
+        "O": 6,
+        "N1": 5
+      },
+      "excluded": true,
+      "reason": "full paid physical product nilpotent modulo original Q gcd",
+      "originalQGcdDegree": 2,
+      "targetPower": 2,
+      "inverseProducts": 9,
+      "divisionProducts": 13,
+      "certificate": {
+        "bytes": 91547,
+        "sha256": "7846aadad741f7ed2a54e1161f918c98cd4a14e0ad9c5ef4eba87fbed68dd884"
+      },
+      "seconds": 0.825818464000001
+    },
+    {
+      "stage": "new_collision_u2_original_fibre_finished",
+      "sourceSHA256": "3e52b76560070f677914e87c84692f94d67b79621fff3bffea11ba58674aa37a",
+      "necessaryLambdaCover": {
+        "degree": 23,
+        "bytes": 308,
+        "sha256": "4796bc316b5efb75f8c0590d7b4968032a9da4d6f8d33bd29727efe92da4e99c"
+      },
+      "completeQQFactors": [
+        {
+          "index": 0,
+          "multiplicity": 1,
+          "factor": {
+            "degree": 23,
+            "bytes": 308,
+            "sha256": "4796bc316b5efb75f8c0590d7b4968032a9da4d6f8d33bd29727efe92da4e99c"
+          }
+        }
+      ],
+      "originalFibreReturns": [
+        {
+          "path": "lambda_0",
+          "lambdaFactor": {
+            "degree": 23,
+            "bytes": 308,
+            "sha256": "4796bc316b5efb75f8c0590d7b4968032a9da4d6f8d33bd29727efe92da4e99c"
+          },
+          "allActualQDegrees": {
+            "R": 5,
+            "W": 6,
+            "O": 6,
+            "N1": 5
+          },
+          "excluded": true,
+          "reason": "full paid physical product nilpotent modulo original Q gcd",
+          "originalQGcdDegree": 2,
+          "targetPower": 2,
+          "inverseProducts": 9,
+          "divisionProducts": 13,
+          "certificate": {
+            "bytes": 91547,
+            "sha256": "7846aadad741f7ed2a54e1161f918c98cd4a14e0ad9c5ef4eba87fbed68dd884"
+          }
+        }
+      ],
+      "entireOriginalCollisionUEqualsTwoExcluded": true,
+      "noUnpaidOriginalHeadOrGeometricFactorDeleted": true,
+      "noOldE37ProjectionOrQQHeadGateReplayed": true,
+      "coefficientPayloadPrintedOrStored": false,
+      "wholeCollisionExcluded": false,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 46196,
+      "seconds": 0.8260335129999987
+    }
+  ],
+  "coefficientsOrRegenerableDataStored": false,
+  "ordinaryISPClaim": false
+}
