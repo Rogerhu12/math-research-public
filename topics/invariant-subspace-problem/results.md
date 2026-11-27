@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整个D27曲线的原六列单位与完整806次有限覆盖](results/R150-appendix-unit211-W-D27-original-six-column-unit-and-806-finite-cover.md)：全五维e代数、21原行六列返1，全部真逆范数/分母零纤维收QQ首一平方自由806。
+
 - [h=k 值碰撞的权不变量与完整八条原条件](results/R150-appendix-unit211-equal-singleton-invariant-weight-full-original-system.md)：同一点B/C双行付合法偶奇系数，H=bcDelta；lambda/u/Q全原均值和梯度输入，所有未付权面保留。
 
 - [实际proper单链限制、共同迹类像与单向稠密交织](results/R271-appendix-proper-single-chain-restriction-and-common-trace-class-intertwiner-range.md)：规范闭右逆给U∩kerT=Ce0，全部广义核与L_y的核/共同闭包像准确；保同W商映射的未付单射。
