@@ -1,15 +1,13 @@
 {
-  "message": "ISP: prove the exact JQ 642 projection and 348 complex weight cover",
-  "parentCommit": "22ac87ec033d658aa19b32d417c493f5748aa122",
+  "message": "ISP: prove actual Green positive tail metric and two-coordinate physical moments",
+  "parentCommit": "26d1a2a2d6c7bcbf75a933a4d1bcf2c5775dbb07",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-J-equals-Q-exact-642-projection-and-348-weight-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-JQ-exact-642-projection-348-cover-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-complementary-original-cofactors-fixed-Gauss-8542.py",
-    ".github/workflows/invariant-subspace-jq-complementary-fixed-gauss-8542.yml",
+    "topics/invariant-subspace-problem/results/R271-appendix-actual-green-tail-positive-metric-and-two-coordinate-physical-moments.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-green-two-coordinate-moments-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,7 +16,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-jq-complementary-fixed-gauss-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

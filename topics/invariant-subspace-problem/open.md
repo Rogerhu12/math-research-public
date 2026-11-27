@@ -71,7 +71,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 - 强头canonical高段已付、中段固定多项式塔有指数障碍；只续源特殊能量/依赖lift。
 - 完整负部仍须same-w界≤c_mQ||F_mu||²且Σ1/c_m发散；真z2保Cq2，K⁴=o(logm)不倒用至R>0，Chebyshev母窗桥开。
 
-[真实Green缺陷闭坐标](results/R271-appendix-actual-green-defect-closed-coordinates-and-positive-angle.md)给闭X/Y同构、闭F及有界Z:F→W，J=I⊕closure ZF；核心⇔F0、第一范围⇔Z0、第二范围需closure ZF=W。[同源物理正则化与真实缺陷低孔能量](results/R271-appendix-actual-physical-source-regularization-and-defect-low-hole-energy.md)现对任意原最大图来源支付s∈[s0,1]的加权ℓ¹全部N/Y carry与原核心；真实E给||e^(−N/2)f||²≤e^(−198)||f||²及≤190孔质量≤e^(−8)。续同一E的s→0图控制；X/Y/F不变、ZF闭、Gamma与alpha逆费仍未付，固定正阻尼不推出E0。
+[真实Green闭坐标](results/R271-appendix-actual-green-defect-closed-coordinates-and-positive-angle.md)给闭X/Y同构、闭F和Z:F→W；核心⇔F0、第一范围⇔Z0、第二需closure ZF=W。[新两型完整正度量与物理矩双坐标传递](results/R271-appendix-actual-green-tail-positive-metric-and-two-coordinate-physical-moments.md)给Schur三个正项（保alpha^-2）、同源P_Mf的P_LD*^-1(a−H*g)准确读数，以及U_D/V_D全域逆/共轭≤2048/alpha0；真实X、Y都与临界s0物理矩域交0。任意最大图的输出矩须合同一第一块Green残量矩才能进核心。未付矩自动存在、原残量投影零、Gamma或s→0，正物理平滑不自动保未知X/Y。
 
 
 ## 3. Deddens 与非复制来源
