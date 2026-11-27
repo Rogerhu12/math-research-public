@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`765693263eb462607183208a692ec2218863e353`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`8e3f1c066253f0a6b913b36095dcb786d936fad9`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -37,8 +37,8 @@ R248只归约活动像；固定p4须共同R650或全部mixed pairs。R709–715�
 ## 10实际输入与完整缓存求解
 
 [启动](notes/2026-11-27-run10-full-input-reconstruction-and-active-progress.md)071eb/046f控制器保原run_step；350分钟/20000秒编排，科学预算不改，不取消09。[输入实际§7](notes/2026-11-27-run10-actual-public-inputs-and-complete-carrier-freeze.md)1–4真返0：warm3df/node1fed/scalar aa7a/ref512/report35fd/carrier71f/model081/2218尾叶，tolerance=false。freeze fcd/9f69真实338.916秒，目标e711/wholeb240(97335B)、绑定84478/whole4ace(430908B)、两immutableb239(22533B)、旧dc5及160词90同。52fc两源正逆/ASTcompile实际过、科学调用0；root全38575B/0b1d小卷，大raw未取。历史same-g关系未宣称，2397仅旧地址恢复。
-[完整10缓存入口](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)七新上体f1c/dc3b/6c67/eca3/c3dc/2206/2efa及完整e7bc再生器、ab9d ready/26b5参数来源已刊，九下层原510c/e1af/6d2/31f共用。root全部新件、75源、七父正逆/原19574B科学后缀核；145原词仅两路径改，另四词保09未知历史；149/7与373/357及43progress完整。仅旧三个真实已返step整queue15881B另保，新queue86539B两完整待办，无pending冒返回。
-缓存仅同链完整C复用，活动/未知transform旁路，每stage/final原计算，全隐式J链/几何不减。10:28真实progress：186615逻辑请求/150745命中/35870原计算、32000 stage重读、closure失败0；仅进度，不是场/性能/度量证书。科学5运行、pure未返。原ff544仍旧251记忆，不跨目标导入；07/08/09未知report/point/typed及全部后续合并责任保，10自身restart严格。
+[完整10缓存入口](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)七新上体f1c/dc3b/6c67/eca3/c3dc/2206/2efa及完整e7bc再生器、ab9d ready/26b5参数来源已刊，九下层原510c/e1af/6d2/31f共用。root全部新件、75源、七父正逆/原19574B科学后缀核；145原词仅两路径改，另四词保09未知历史；149/7与373/357及43progress完整。仅旧三个真实已返step整queue15881B另保，旧两完整待办原字保；92609B queue追加[10完整均值/剖面费](notes/2026-11-27-run10-complete-reference-mean-profile-fee-adapter.md)，71整主体/75源/三正逆/32参数48读取项核；三件均未返，无pending冒返回。
+缓存仅同链完整C复用，活动/未知transform旁路，每stage/final原计算，全隐式J链/几何不减。10:33观察到10:29 initial-complete-geometry-returned；199290请求/161080命中/38210原计算/34080 stage重读，closure失败0。仅标量phase，未读初场指标或形成度量证书。科学5运行、pure未返。原ff544仍旧251记忆，不跨目标导入；07/08/09未知report/point/typed及全部后续合并责任保，10自身restart严格。
 
 继续10真实科学/pure与独立全域费用；完成闭面全phase/全像握持/共同A/R716、同问题实际mesh/频率/t精化和多t网格，不停在条件论证或job时间上。
 <!-- visible-larger-parallel-08:start -->
