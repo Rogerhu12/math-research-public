@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi0 上整个中心值碰撞 zn0 的原 QQ 重数及完整排除](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)：H8精确4重、九真因子Q908及真余1037保度Gauss1；所有原复零纤维已闭，h1/k1交换覆盖，作用域保D非0。
+
 - [整个原 W/D27 五次权曲线排除](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)：全F24真实QQ与全F782有限自由整模型合成；末三次域原108×56单位补齐所有模纤维并付QQ提升，原生退出异常及不足矩阵保留。
 
 - [D27 的整个 F24 范数零权覆盖原 QQ 排除](results/R150-appendix-unit211-W-D27-F24-entire-original-QQ-exclusion.md)：八完整k因子各保e5双支，原已付权零一次支与余e4原48×35单位全部返回；无D幂替代。
