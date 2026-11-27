@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `19e776ccc88a4a2710c589e468b54bcf58c1034d`（非pull）。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `eef531c77669f6ff338f7f7856ffba955afb648e`（非pull）。
 双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异并立即遵守，至少每小时；活12–17通常每5分钟真pull，实际已读commit在末槽。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端立刻rebase重推，终端不可用则freshHEAD完整合并，不冒pull、不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。完整源/所有参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不另设独立审查/冻结/AST/fixture/重跑门，不减原目标/预算。[旧log全文](log/2026-11-27-session-through-fejer-closed.md)96562B保。
