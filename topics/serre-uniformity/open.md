@@ -30,7 +30,7 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 ## O1：全p同一真实本原标签的临界非零
 
-[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及纸面因式给原I_n的一阶非齐次递推；p=3n+2时I_(n+2)+I_n是明确单位。§5还准确给I_(2m+1)=−2ρ_mΣ_(j≤m)(6j+1)binom(2j,j)³/256^j，ρ_m=(−16)^m(m!)²/(3/2)_m²，原p=6m+5。短截断PF的最后强迫项在1/4非零，不能挪用半长超同余或齐次Clausen式；原S/e/K4桥与共同非零继续。run46015627853/job140561880424完整证书只消费。
+[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及一阶解给原I_n递推与准确短Ramanujan和，原p=6m+5的截断m及PF最后强迫项全部保留。§6已完成真邻项桥：I_(n+2)来自(V−v)ν/(V+v)u的亚纯配对，完整相对Cartier/分部积分给I_(n+2)+I_n=3δ/4。因此旁单位只回旧C(Uω)，不再把它当独立K4入口；继续原三挠族变分及有边界的短和。run46015627853/job140561880424完整证书只消费。
 
 [R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)以原sigma heat与安全权≤p−3给实际完整Gaussian坐标常数 iff ord_b G_(w_R)≥s_R；非恒定时coarse degree=(s_R−ord)/2。三层互不交实际角色链和总irregular预算给p4k+3时至少max{3,floor(p/96)+2}个非恒定good坐标，精确渐近下界p/96+(log24/12)p/logp−O(1)。不声称函数线性独立、中心一阶全unit、共同纤维唯一或盘内唯一；继续完整gauge差的实际good mask。
 

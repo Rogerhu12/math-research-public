@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：2c8da5ccca4fb13e674359942a4e3e57d87b5d8a**（2026-11-27 22:46 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：ba26c5520ac5b02f4cea6d14f762693a06613b41**（2026-11-27 22:53 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；21:59再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -44,7 +44,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 R1061/76原短η_k/ν_k仍开；R1077加权2k单位不代短k，R1109完整Dixon首除层只消费。
 
-[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及纸面因式给原I_n的一阶非齐次递推；p=3n+2时I_(n+2)+I_n是明确单位。§5还准确给I_(2m+1)=−2ρ_mΣ_(j≤m)(6j+1)binom(2j,j)³/256^j，ρ_m=(−16)^m(m!)²/(3/2)_m²，原p=6m+5。短截断PF的最后强迫项在1/4非零，不能挪用半长超同余或齐次Clausen式；原S/e/K4桥与共同非零继续。run46015627853/job140561880424完整证书只消费。
+[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及一阶解给原I_n递推与准确短Ramanujan和，原p=6m+5的截断m及PF最后强迫项全部保留。§6已完成真邻项桥：I_(n+2)来自(V−v)ν/(V+v)u的亚纯配对，完整相对Cartier/分部积分给I_(n+2)+I_n=3δ/4。因此旁单位只回旧C(Uω)，不再把它当独立K4入口；继续原三挠族变分及有边界的短和。run46015627853/job140561880424完整证书只消费。
 
 R1111付原p-block全公因子M D (b³−1)^(2ε)与全tame分歧，ε=1 iff f_N=0；该支尚未排。R1060/R1092给实际非CM Cartier与其余六三挠值单位，未给原H_p(0)/H_p′(0)或S_n=0⇒B_n=0。
 

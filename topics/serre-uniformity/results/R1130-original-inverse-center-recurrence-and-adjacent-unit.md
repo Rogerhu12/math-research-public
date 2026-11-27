@@ -367,3 +367,172 @@ $S/e/K_4$ 的准确坐标桥。
 root/o2 独立纸核 (1130.10) 的齐次因子、增量、初值、
 central-binomial 因子及原截断整性；(1130.12) 为上述完整逐项证明。
 没有新增数学程序执行，也没有重算已登记素数窗口。
+
+
+## 6. 邻项的真正几何来源：它准确回到原 Cartier 单位
+
+本节完成 §3 留下的邻项来源比较。
+它在同一个原曲线上给出准确身份
+$$
+\boxed{\qquad I_{n+2}+I_n=\frac34\delta\pmod p.\qquad}
+\tag{1130.13}
+$$
+因此 (1130.3) 的旁单位正是 R1061 (1061.92) 已付的
+$C_{\rm rel}(U\omega)=-\delta\omega'$；
+它没有引入一个新的原 $K_4$ 条件。
+
+### 6.1 原 X108 上的完整 Laurent 系数
+
+保持 R1059/R1061 的全部原函数
+$$
+z^3=1-\kappa x^3,\quad w^3=1+\kappa x^3,\quad
+s^2=-3,\quad\kappa=3s,\quad v=-6s=-2\kappa,
+$$
+$$
+V=27x^3-x^{-3},\qquad
+\nu=\frac{dx}{z^2},\quad u=\frac{dx}{w^2},\quad
+\omega_h=\frac{dx}{zw}.
+$$
+以下全用**相对** Cartier，保持 base 常数线性。
+目标上的微分记为 $\omega_h'$。
+原 $X$ 的 Frobenius twist 上 $z',w'$ 的方程系数变为
+$\kappa^p=-\kappa$，但 $z'w'$、$V'$ 与原椭圆商的微分
+仍按 R1061 的同一实际映射运输；没有暗中使用绝对 Cartier 的
+$p$ 次根标量。
+
+相对版本的原配对是
+$$
+\beta_{\rm rel}(\nu,u)
+ =\kappa^n S_n\omega_h'
+ =\frac{2}{3s}I_n\omega_h',
+\tag{1130.14}
+$$
+其中 $\kappa^n=1/s$ 已由 R1060 的原 Euler 规范支付。
+这与绝对 Cartier 版本的 $-S_n/s$ 不矛盾；
+两种线性规范不能混用。
+
+原函数直接给
+$$
+x^{-3}z^6=-(V-v),\qquad
+x^{-3}w^6=-(V+v).
+$$
+因此实际修改后的两条亚纯微分
+$$
+\nu_+=(V-v)\nu,\qquad u_+=(V+v)u
+$$
+分别是
+$$
+-z^{-p}x^{-3}(1-\kappa x^3)^{n+2}dx,\qquad
+-w^{-p}x^{-3}(1+\kappa x^3)^{n+2}dx.
+$$
+取第一条的完整 Laurent 原函数
+$$
+-z^{-p}\sum_{i=0}^{n+2}
+ \frac{(-\kappa)^i\binom{n+2}{i}}{3i-2}\,x^{3i-2}.
+$$
+全部 $3i-2$ 在模 $p$ 下非零：它们位于 $[-2,p+2]$，
+同余 $1\bmod3$，而区间内唯一可能的正 $p$ 倍数 $p$
+同余 $2\bmod3$。
+
+将此原函数乘上 $u_+$ 后，两负号消去；
+Cartier 内部 Laurent 项的指数是 $3(i+j)-5$，
+全范围为 $[-5,2p+3]$。
+在此范围可能被 Cartier 读取的指数为 $-1,p-1,2p-1$，
+其中只有 $p-1$ 同余 $1\bmod3$。
+所以完整读数只来自 $i+j=n+2$，没有删掉另一个极点或高项。
+准确系数为
+$$
+\kappa^{n+2}\sum_{i=0}^{n+2}
+ \frac{(-1)^i\binom{n+2}{i}^2}{3i-2}.
+$$
+又
+$$
+3i-2=\frac32(2i-n-2)\pmod p,\qquad
+\kappa^{n+2}=-\frac{27}{s}.
+$$
+因此
+$$
+\boxed{\quad
+\beta_{\rm rel}(\nu_+,u_+)
+ =-\frac{18}{s}I_{n+2}\,\omega_h'.
+\quad}
+\tag{1130.15}
+$$
+两条修改微分都有上述准确有理原函数，所以 Cartier 都为零，
+更换原函数仍不改变配对。
+它们虽是亚纯输入，完整读数 (1130.15) 却是原全纯微分的常数倍。
+
+### 6.2 在同一椭圆商上完成分部积分
+
+令 $k=(p+1)/6$，仍取
+$$
+E:\ V^2=U^3+v^2,\quad
+\omega=dU/(2V),\quad
+F=F_Q=\left(\frac{V+v}{V-v}\right)^k.
+$$
+R1061 §10 已付原覆盖上的
+$\nu=\eta^pF\omega$、$u=\eta^{-p}F^{-1}\omega$。
+两个 $\eta$ 因子在配对中消去。
+取同一有理原函数 $H$ 满足 $DH=F$，并记
+$$
+B=C_{\rm rel}(H F^{-1}\omega).
+$$
+它在原覆盖上的拉回就是 (1130.14)。
+
+由于 $6k=1\pmod p$，
+$$
+DF=-\frac vU F,\qquad
+D(F^{-1})=\frac vU F^{-1}.
+$$
+故全部输入准确分解为
+$$
+(V-v)F=\frac12D(UF)-\frac v2F,\qquad
+(V+v)F^{-1}=\frac12D(UF^{-1})+\frac v2F^{-1}.
+\tag{1130.16}
+$$
+第一条修改输入的原函数可取
+$H_+=UF/2-vH/2$。
+利用相对 Cartier 杀所有有理 exact differential，
+完整分部积分得到
+$$
+\begin{aligned}
+C_{\rm rel}(H_+(V+v)F^{-1}\omega)
+ &=\frac12C_{\rm rel}(U(V+v)\omega)
+   -\frac v2 C_{\rm rel}(H(V+v)F^{-1}\omega),\\
+C_{\rm rel}(H(V+v)F^{-1}\omega)
+ &=-\frac12C_{\rm rel}(U\omega)+\frac v2B.
+\end{aligned}
+$$
+而 $UV\omega=d(U^2)/4$，所以
+$$
+\boxed{\quad
+\beta_{\rm rel}(\nu_+,u_+)
+ =\frac{3v}{4}C_{\rm rel}(U\omega)-\frac{v^2}{4}B
+ =-\frac{3v\delta}{4}\omega'+27B
+\quad}
+\tag{1130.17}
+$$
+（最后一式在原覆盖上拉回）。
+这里 $v$ 一直作为 base 常数线性提出；
+若用绝对 Cartier，它的 $p$ 次根是 $-v$，必须同时改动其它标量，
+不能混取两种公式。
+
+代入 (1130.14)、(1130.15) 及 $v=-6s$，
+即得 (1130.13)。与 (1130.3) 比较，还得到同一已定
+$\delta$ 的准确二项式写法
+$$
+\delta=6(-1)^{(n-1)/2}
+             \binom{n}{(n-1)/2}\pmod p.
+\tag{1130.18}
+$$
+这只是同一个 Cartier 常数的另一闭式，
+不重登记其早已证明的单位性。
+
+本节给出了真正的邻项来源并结清全部相对标量、Laurent 边界
+和分部积分项。原 $K_4$ 仍是 R1061 (1061.72) 的
+$F_Q\mathcal R^2\omega$ 读数；它没有出现在 (1130.17) 中。
+因此不再把这个相邻单位当成尚未找到的独立 $K_4$ 输入。
+后继继续实际三挠族变分或保边界的短 Ramanujan 源。
+
+root 推导全来源；o1 独立核实际 X108 函数、唯一 Cartier 指数、
+原分母、相对/绝对标量区别及完整分部积分。无新数学执行。
