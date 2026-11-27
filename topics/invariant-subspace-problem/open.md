@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-general-ell-zero-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-general-T0-original-D-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,6 +178,8 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-[H非零原头atlas及低次cubic补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)已给全部15二次头子式、4真实overlap及6三次子式。等权整支已闭后k+2已付，只在J19*C9非零图得(1,x,y,t,y²,yt)六生成元，不断言自由；C9仅9项degree(e,k)=2/4。k=−2及Q=2权面已由一般等权总定理排除；J19/C9整零面仍待原返回。继续同点原NS/PS与乘法矩阵，保全部主元边界。
+[W原头atlas](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)给全15二次头/四overlap/六三次头；等权整支已付k+2、Q−2，J19*C9非零图六生成元/18真乘法已付。保两整零面，续原NSPS/真倍数返回。
 
-**[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般LS余图可付ell：** 三整头曲线、全六元18真乘法、1146次QQ投影的全部404次未付因子及u2/u半两整权线均完整返回原方程。既有原H1/H2证明和全部成功组件保正文/小回执，不加整源重放。继续一般T0=0及其余未付权面，不加W或Q边界假设；普通ISP继续。
+**[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
+
+**[一般T0=0原D身份与唯一四次曲线](results/R150-appendix-unit211-general-T0-zero-original-D-quartic-cover.md)已证：** 同六原方程完整来源清分母只剩物理单位乘F4；故整面只余F4=16(u−1)³(u+1)−16(u−1)Q−5Q²=0。k=5Q/[4(u−1)²]完整有理参数不漏k²−5零点。整曲线新原D幂源登记时未执行，最终未付k因子全部保留；不把曲线覆盖当排空，不加W或Q边界。

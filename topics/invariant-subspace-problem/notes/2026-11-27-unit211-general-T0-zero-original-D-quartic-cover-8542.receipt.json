@@ -1,0 +1,46 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "schema": "observed-real-execution-identities-v1",
+  "observations": [
+    {
+      "kind": "head_atlas",
+      "source_sha256": "dcaa8d7ab161d32ad520ea78c0a6ea13159e05e61562e884e52eb5a327011c90",
+      "utc": "2026-11-27T07:11:25.891276+00:00",
+      "elapsed_seconds": 0.167613330996,
+      "max_rss_kib": 28752,
+      "exit_code": 0,
+      "stdout_bytes": 11916,
+      "stdout_sha256": "18b3cfbff7118d715224f62ffd763d7bb5d36401c683a5d1a8890aac364f91e7",
+      "source_elapsed_seconds": 0.075705171,
+      "source_rss_kib": 27876
+    },
+    {
+      "kind": "cubic_atlas",
+      "source_sha256": "1b7e438c88077f3b1324e7c9e1f9aec1e4dd854e0de15d6278dc201a1c5b108b",
+      "utc": "2026-11-27T07:12:24.315359+00:00",
+      "elapsed_seconds": 0.270516731005,
+      "max_rss_kib": 30264,
+      "exit_code": 0,
+      "stdout_bytes": 6835,
+      "stdout_sha256": "2864dbcc448b253e34a7a7d94df810903510967b276a53934ca6cfc3bf5587fa",
+      "source_elapsed_seconds": 0.141381895,
+      "source_rss_kib": 29552
+    },
+    {
+      "kind": "original_relation_D",
+      "source_sha256": "b46d3f0f92b18249295460bc4cb8c5cdef49f61bcd42ebde067abe59fa2a83d3",
+      "utc": "2026-11-27T07:16:38.272764+00:00",
+      "elapsed_seconds": 1.480047597004,
+      "max_rss_kib": 33460,
+      "exit_code": 0,
+      "stdout_bytes": 12402,
+      "stdout_sha256": "96d0a658964bc90e73b74dc87e7cf4df41b3548bfef5365f70b83a1fb4e994d9",
+      "source_elapsed_seconds": 1.354888353,
+      "source_rss_kib": 32600
+    }
+  ],
+  "full_stdout_not_retrieved_after_second_executor_outage": true,
+  "all_source_bytes_recovered_with_matching_actual_sha256": true,
+  "unobserved_rank_and_candidate_counts_not_asserted": true,
+  "ordinary_isp_claim": false
+}
