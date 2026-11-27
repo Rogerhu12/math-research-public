@@ -163,3 +163,6 @@ $$
 
 
 - [原幂等元局部平方复用](notes/2026-11-27-original-idempotent-square-reuse-and-v12-profile.md)已给完整正确性证明：在整个原商保存当前 $e^2$，每轮仍计算原 $e^3$、新 $e$、新完整误差及全部原步数/投影门；循环不变式保证输出和原receipt不变。$s$轮完整乘法由 $1+3s$ 变为 $1+2s$，无跨方法缓存。旧v12的24个相应重复窗口合计750.508秒只是已观测成本，不是新run时限保证。软件核验已请求，原几何未重跑。
+
+
+- [R1050：原标量厚纤维及T/v准确返回](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)（已证明）：完整自由代数中 $\pi^jA/\pi^{j+1}A\simeq A/\pi A$，故原 $\pi^mA$ 每个局部分量全长为 $m\deg(\pi)d_i$、重数为 $md_i/f_i$；$d_i$ 是整个非约化分量维数。原T/v在两图的完整scalar HNF逐式固定，finite v同T负点取有号重数−1/2，∞取同原重数。专用geometry支撑只消费point+m，因而可用全滤过回执保所有厚度而不重做其不消费的local projector；通用需完整ideal的接口不变。原四交/Norm/$18\times9$及主无穷$p$目标仍未付，软件实现待实际验证。

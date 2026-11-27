@@ -113,3 +113,14 @@ $\mathbf F_{29^2}[t,x]/(t^e,x^2-x)$，$e=1,2,3,9$，
 
 这只是软件正确性检查，不构造原曲线，不替代原 six primary、
 四交、Norm 或最终 shadow 接受门。
+
+
+## 6. 独立软件核验的真实结果
+
+公开 [run46077929103](https://github.com/Rogerhu12/math-research-public/actions/runs/46077929103)，job140769938354，source67341297b3ee3ba2ec926e21608c9b254fb3f143 已实际 success。
+
+完整 canonical payload 5496B，SHA256 7850a80bb36541db06e3a26ae00821925706a0e8dd8a508b55e63516d3113547；完整 job 日志22660B，SHA256 c51ce21506bb813439ad3e6ed1a7e4bf53d61b7129cee86becf5a10ee8744918。输出不另存。
+
+四个指定厚商的原、新全部 receipt 和最终元素相同，保留的每次完整乘法输入/输出和顺序相同；删去项全部是已经算出的当前平方。零轮和多轮均通过，重复调用没有共享状态，故意不足的 bound 仍抛原异常。真实生产 decomposer 的函数/code 保持，并已实际核它读取同一个 live closed 模块中的新 lift。
+
+这不构造原曲线，也不替任何原几何终门；局部正确性已付，整条执行的性能不由这些小夹具外推。
