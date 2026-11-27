@@ -1,0 +1,757 @@
+{
+  "schema": "fixed-fejer-complete-ready-correspondence-v1",
+  "parent": {
+    "name": "run10-immutable-point-independent-complete-ready.json",
+    "sha256": "9948e5db970cea85d7b176a14ec1dd8397c80a3b2bc90069f76ac14f1e938f0c",
+    "bytes": 91753,
+    "git_blob_sha": "cc25cd7dc39c14deb69e1e0b399ef160b7df51d4"
+  },
+  "complete_original_numerical_args": [
+    "--repo",
+    "{repo}",
+    "--reference-bundle",
+    "{work}/axisymmetric-R690-reference-v2-first/reference.npz",
+    "--preparation-report",
+    "{work}/axisymmetric-R690-reference-v2-first/report.json",
+    "--carrier",
+    "{work}/axisymmetric-R690-reference-v2-first/observations.npz",
+    "--node-report",
+    "{work}/fullclosed_solver/data/fullclosed-hold-warm.json",
+    "--scalar-input",
+    "{work}/fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+    "--angles",
+    "2048",
+    "--stage-block",
+    "64",
+    "--angle-block",
+    "8",
+    "--integration-order",
+    "8",
+    "--norm-kind",
+    "jet-sum",
+    "--radial-norm-length",
+    ".05",
+    "--angular-transition",
+    "24",
+    "--torch-threads",
+    "4",
+    "--damping",
+    ".01",
+    "--directions",
+    "1",
+    "--maxiter",
+    "16",
+    "--restoration-directions",
+    "4",
+    "--restoration-damping",
+    ".01",
+    "--restoration-maxiter",
+    "64",
+    "--line-trials",
+    "15",
+    "--active-rows",
+    "192",
+    "--qp-atol",
+    "0",
+    "--qp-rtol",
+    "1e-6",
+    "--reach-ratio",
+    ".03",
+    "--reach-safety-factor",
+    ".992",
+    "--active-band",
+    ".025",
+    "--marked-diameter-budget",
+    "4.2",
+    "--witness-lower-budget",
+    ".9",
+    "--amplitude-height-floor",
+    "1.01",
+    "--spectral-p",
+    "4",
+    "--spectral-epsilon",
+    ".001",
+    "--spectral-scale",
+    ".05",
+    "--legacy-fraction",
+    ".5",
+    "--target",
+    "1e-9",
+    "--outdir",
+    "{work}/run10-immutable-point-independent-first",
+    "--panels",
+    "128",
+    "--endpoint-bubble-1-left",
+    "1/32",
+    "--endpoint-bubble-1-middle",
+    "1/4",
+    "--endpoint-bubble-1-right",
+    "15/32",
+    "--endpoint-bubble-2-left",
+    "17/32",
+    "--endpoint-bubble-2-middle",
+    "3/4",
+    "--endpoint-bubble-2-right",
+    "31/32",
+    "--endpoint-root-tolerance",
+    "2e-12",
+    "--endpoint-root-iterations",
+    "24",
+    "--endpoint-root-backtracks",
+    "18",
+    "--endpoint-root-armijo",
+    "1e-4",
+    "--moment-definition-sha256",
+    "05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e",
+    "--moment-input",
+    "{repo}/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json",
+    "--moment-input-sha256",
+    "df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c",
+    "--endpoint-control-radius",
+    "2",
+    "--gamma-left",
+    "1/16",
+    "--gamma-middle",
+    "1/8",
+    "--gamma-right",
+    "3/16",
+    "--moment-input-binding",
+    "supported-smooth-triangle-reference",
+    "--normal-stages",
+    "32",
+    "--seed-boundary-total-length",
+    "1/16",
+    "--seed-profile-delta",
+    "1/128",
+    "--seed-radial-quadrature-order",
+    "8",
+    "--seed-profile-quadrature-order",
+    "16",
+    "--seed-mean-maxiter",
+    "128",
+    "--seed-mean-tolerance",
+    "2e-12",
+    "--seed-mean-backtracks",
+    "24",
+    "--seed-mean-armijo",
+    "1e-4",
+    "--seed-scalar-iterations",
+    "64",
+    "--manifest",
+    "{work}/axisymmetric-R690-reference-v2-first/locations.json",
+    "--material-envelope-binding",
+    "{work}/run10-actual-public-reference-run05-carrier/material-envelope-carrier-binding.json",
+    "--envelope-near-active-rows",
+    "32",
+    "--independent-envelope-branch",
+    "--pending-parallel-envelope-run",
+    "45909290354/1",
+    "--pending-parallel-envelope-source",
+    "45909290354/1=cc0a07369a2d9ea5e22d261441420acb4e486a8c0d43f29f57e03378e82627b5",
+    "--pending-parallel-envelope-run",
+    "45929088658/1",
+    "--pending-parallel-envelope-source",
+    "45929088658/1=95559b0cd44e3bf521b01ca8fe35b515bf7aad5dc4dc6b008ab0d015b9211da9",
+    "--pending-parallel-envelope-run",
+    "45943410994/1",
+    "--pending-parallel-envelope-source",
+    "45943410994/1=ff5444af4c31869a1a4d7b87cb4912f2d025b8da5ee90922924c3542ff6f0dd5",
+    "--pending-parallel-envelope-run",
+    "45972294636/1",
+    "--pending-parallel-envelope-source",
+    "45972294636/1=c3dc77f40445eaf30ab743311dd97ea7d62a41be80db504fc778eccffa30e5d1"
+  ],
+  "complete_new_numerical_args": [
+    "--repo",
+    "{repo}",
+    "--reference-bundle",
+    "{work}/fixed-fejer-reference/reference.npz",
+    "--preparation-report",
+    "{work}/fixed-fejer-reference/report.json",
+    "--carrier",
+    "{work}/fixed-fejer-reference/observations.npz",
+    "--node-report",
+    "{work}/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+    "--scalar-input",
+    "{work}/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+    "--angles",
+    "2048",
+    "--stage-block",
+    "64",
+    "--angle-block",
+    "8",
+    "--integration-order",
+    "8",
+    "--norm-kind",
+    "jet-sum",
+    "--radial-norm-length",
+    ".05",
+    "--angular-transition",
+    "24",
+    "--torch-threads",
+    "4",
+    "--damping",
+    ".01",
+    "--directions",
+    "1",
+    "--maxiter",
+    "16",
+    "--restoration-directions",
+    "4",
+    "--restoration-damping",
+    ".01",
+    "--restoration-maxiter",
+    "64",
+    "--line-trials",
+    "15",
+    "--active-rows",
+    "192",
+    "--qp-atol",
+    "0",
+    "--qp-rtol",
+    "1e-6",
+    "--reach-ratio",
+    ".03",
+    "--reach-safety-factor",
+    ".992",
+    "--active-band",
+    ".025",
+    "--marked-diameter-budget",
+    "4.2",
+    "--witness-lower-budget",
+    ".9",
+    "--amplitude-height-floor",
+    "1.01",
+    "--spectral-p",
+    "4",
+    "--spectral-epsilon",
+    ".001",
+    "--spectral-scale",
+    ".05",
+    "--legacy-fraction",
+    ".5",
+    "--target",
+    "1e-9",
+    "--outdir",
+    "{work}/fixed-fejer-immutable-point-first",
+    "--panels",
+    "128",
+    "--endpoint-bubble-1-left",
+    "1/32",
+    "--endpoint-bubble-1-middle",
+    "1/4",
+    "--endpoint-bubble-1-right",
+    "15/32",
+    "--endpoint-bubble-2-left",
+    "17/32",
+    "--endpoint-bubble-2-middle",
+    "3/4",
+    "--endpoint-bubble-2-right",
+    "31/32",
+    "--endpoint-root-tolerance",
+    "2e-12",
+    "--endpoint-root-iterations",
+    "24",
+    "--endpoint-root-backtracks",
+    "18",
+    "--endpoint-root-armijo",
+    "1e-4",
+    "--moment-definition-sha256",
+    "05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e",
+    "--moment-input",
+    "{repo}/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json",
+    "--moment-input-sha256",
+    "df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c",
+    "--endpoint-control-radius",
+    "2",
+    "--gamma-left",
+    "1/16",
+    "--gamma-middle",
+    "1/8",
+    "--gamma-right",
+    "3/16",
+    "--moment-input-binding",
+    "supported-smooth-triangle-reference",
+    "--normal-stages",
+    "32",
+    "--seed-boundary-total-length",
+    "1/16",
+    "--seed-profile-delta",
+    "1/128",
+    "--seed-radial-quadrature-order",
+    "8",
+    "--seed-profile-quadrature-order",
+    "16",
+    "--seed-mean-maxiter",
+    "128",
+    "--seed-mean-tolerance",
+    "2e-12",
+    "--seed-mean-backtracks",
+    "24",
+    "--seed-mean-armijo",
+    "1e-4",
+    "--seed-scalar-iterations",
+    "64",
+    "--manifest",
+    "{work}/fixed-fejer-reference/locations.json",
+    "--material-envelope-binding",
+    "{work}/fixed-fejer-reference/material-envelope-carrier-binding.json",
+    "--envelope-near-active-rows",
+    "32",
+    "--independent-envelope-branch",
+    "--pending-parallel-envelope-run",
+    "45909290354/1",
+    "--pending-parallel-envelope-source",
+    "45909290354/1=cc0a07369a2d9ea5e22d261441420acb4e486a8c0d43f29f57e03378e82627b5",
+    "--pending-parallel-envelope-run",
+    "45929088658/1",
+    "--pending-parallel-envelope-source",
+    "45929088658/1=95559b0cd44e3bf521b01ca8fe35b515bf7aad5dc4dc6b008ab0d015b9211da9",
+    "--pending-parallel-envelope-run",
+    "45943410994/1",
+    "--pending-parallel-envelope-source",
+    "45943410994/1=ff5444af4c31869a1a4d7b87cb4912f2d025b8da5ee90922924c3542ff6f0dd5",
+    "--pending-parallel-envelope-run",
+    "45972294636/1",
+    "--pending-parallel-envelope-source",
+    "45972294636/1=c3dc77f40445eaf30ab743311dd97ea7d62a41be80db504fc778eccffa30e5d1"
+  ],
+  "exact_path_and_source_replacements": [
+    [
+      "axisymmetric-R690-reference-v2-first",
+      "fixed-fejer-reference"
+    ],
+    [
+      "fullclosed_solver/data/fullclosed-hold-warm.json",
+      "fixed-fejer-r690-inputs/fixed-affine-nodes.json"
+    ],
+    [
+      "fullclosed_solver/data/pulse-a5-complete-base.json.gz",
+      "fixed-fejer-r690-inputs/fixed-scalar-input.json"
+    ],
+    [
+      "run10-actual-public-reference-run05-carrier/material-envelope-carrier-binding.json",
+      "fixed-fejer-reference/material-envelope-carrier-binding.json"
+    ],
+    [
+      "run10-immutable-point-independent-first",
+      "fixed-fejer-immutable-point-first"
+    ],
+    [
+      "launch_run10_immutable_point_actions.py",
+      "launch_fixed_fejer_immutable_point_actions.py"
+    ],
+    [
+      "read_run10_immutable_point_so3_report.py",
+      "read_fixed_fejer_immutable_point_so3_report.py"
+    ]
+  ],
+  "complete_scalar_metadata_mapping": [
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "envelope_old_carrier",
+        "path": "material_envelope.historical_address_binding.origin_carrier.record.sha256"
+      },
+      "current": {
+        "label": "envelope_initial_reference_carrier",
+        "path": "material_envelope.historical_address_binding.origin_carrier.record.sha256"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "historical_chart",
+        "path": "independent_fixed_target_validation.historical_original_chart_core_sha256"
+      },
+      "current": {
+        "label": "previous_target_carrier_provenance",
+        "path": "material_envelope.definition.previous_target_carrier_provenance_sha256"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "input_binding",
+        "path": "independent_fixed_target_validation.independent_fixed_target_binding_identity_sha256"
+      },
+      "current": {
+        "label": "actual_input_binding_file",
+        "path": "independent_fixed_target_validation.actual_binding_file.sha256"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "same_original_fixed_chart",
+        "path": "independent_fixed_target_validation.same_original_fixed_chart"
+      },
+      "current": {
+        "label": "same_original_fixed_chart",
+        "path": "material_envelope.same_original_fixed_chart"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "same_old_mathematical_g",
+        "path": "independent_fixed_target_validation.same_mathematical_g_claimed"
+      },
+      "current": {
+        "label": "same_old_mathematical_g",
+        "path": "independent_fixed_target_validation.same_previous_mathematical_g_claimed"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "target_definition_frozen_before_field",
+        "path": "independent_fixed_target_definition.target_fixed_before_any_field_or_direction"
+      },
+      "current": {
+        "label": "predeclared_new_target",
+        "path": "predeclared_new_fixed_fejer_target"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_input_binding_file",
+        "path": "actual_public_reference_input_binding.actual_binding_file.sha256"
+      },
+      "current": {
+        "label": "fixed_input_input_binding_file",
+        "path": "actual_fixed_reference_input_binding.actual_binding_file.sha256"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_actual_target",
+        "path": "actual_public_reference_input_binding.actual_fixed_target_definition_identity_sha256"
+      },
+      "current": {
+        "label": "fixed_input_actual_target",
+        "path": "actual_fixed_reference_input_binding.actual_fixed_target_definition_identity_sha256"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_actual_model",
+        "path": "actual_public_reference_input_binding.actual_reference_model_identity_sha256"
+      },
+      "current": {
+        "label": "fixed_input_actual_model",
+        "path": "actual_fixed_reference_input_binding.actual_reference_model_identity_sha256"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_actual_chart",
+        "path": "actual_public_reference_input_binding.actual_fixed_chart_core_sha256"
+      },
+      "current": {
+        "label": "fixed_input_actual_chart",
+        "path": "actual_fixed_reference_input_binding.actual_fixed_chart_core_sha256"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_origin_run",
+        "path": "actual_public_reference_input_binding.actual_run_id"
+      },
+      "current": {
+        "label": "fixed_input_origin_run",
+        "path": "actual_fixed_reference_input_binding.actual_run_id"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_origin_attempt",
+        "path": "actual_public_reference_input_binding.actual_run_attempt"
+      },
+      "current": {
+        "label": "fixed_input_origin_attempt",
+        "path": "actual_fixed_reference_input_binding.actual_run_attempt"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_six_files_read",
+        "path": "actual_public_reference_input_binding.all_six_current_whole_files_reread"
+      },
+      "current": {
+        "label": "fixed_input_six_files_read",
+        "path": "actual_fixed_reference_input_binding.all_six_current_whole_files_reread"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_same_chart_words",
+        "path": "actual_public_reference_input_binding.same_original_fixed_chart"
+      },
+      "current": {
+        "label": "fixed_input_same_chart_words",
+        "path": "actual_fixed_reference_input_binding.same_original_fixed_chart"
+      }
+    },
+    {
+      "step": 0,
+      "output": "fixed-fejer-immutable-point-first/report.json",
+      "original": {
+        "label": "run10_same_g_claimed",
+        "path": "actual_public_reference_input_binding.same_mathematical_g_claimed"
+      },
+      "current": {
+        "label": "fixed_input_same_g_claimed",
+        "path": "actual_fixed_reference_input_binding.same_mathematical_g_claimed"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "envelope_old_carrier",
+        "path": "material_envelope_diagnostics.historical_origin_carrier_sha256"
+      },
+      "current": {
+        "label": "envelope_initial_reference_carrier",
+        "path": "material_envelope_diagnostics.actual_initial_target_carrier_sha256"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_input_binding_file",
+        "path": "actual_public_reference_input_binding.actual_binding_file.sha256"
+      },
+      "current": {
+        "label": "fixed_input_input_binding_file",
+        "path": "actual_fixed_reference_input_binding.actual_binding_file.sha256"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_actual_target",
+        "path": "actual_public_reference_input_binding.actual_fixed_target_definition_identity_sha256"
+      },
+      "current": {
+        "label": "fixed_input_actual_target",
+        "path": "actual_fixed_reference_input_binding.actual_fixed_target_definition_identity_sha256"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_actual_model",
+        "path": "actual_public_reference_input_binding.actual_reference_model_identity_sha256"
+      },
+      "current": {
+        "label": "fixed_input_actual_model",
+        "path": "actual_fixed_reference_input_binding.actual_reference_model_identity_sha256"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_actual_chart",
+        "path": "actual_public_reference_input_binding.actual_fixed_chart_core_sha256"
+      },
+      "current": {
+        "label": "fixed_input_actual_chart",
+        "path": "actual_fixed_reference_input_binding.actual_fixed_chart_core_sha256"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_origin_run",
+        "path": "actual_public_reference_input_binding.actual_run_id"
+      },
+      "current": {
+        "label": "fixed_input_origin_run",
+        "path": "actual_fixed_reference_input_binding.actual_run_id"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_origin_attempt",
+        "path": "actual_public_reference_input_binding.actual_run_attempt"
+      },
+      "current": {
+        "label": "fixed_input_origin_attempt",
+        "path": "actual_fixed_reference_input_binding.actual_run_attempt"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_six_files_read",
+        "path": "actual_public_reference_input_binding.all_six_current_whole_files_reread"
+      },
+      "current": {
+        "label": "fixed_input_six_files_read",
+        "path": "actual_fixed_reference_input_binding.all_six_current_whole_files_reread"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_same_chart_words",
+        "path": "actual_public_reference_input_binding.same_original_fixed_chart"
+      },
+      "current": {
+        "label": "fixed_input_same_chart_words",
+        "path": "actual_fixed_reference_input_binding.same_original_fixed_chart"
+      }
+    },
+    {
+      "step": 1,
+      "output": "postprocess/fixed-fejer-immutable-point-first-readout.json",
+      "original": {
+        "label": "run10_same_g_claimed",
+        "path": "actual_public_reference_input_binding.same_mathematical_g_claimed"
+      },
+      "current": {
+        "label": "fixed_input_same_g_claimed",
+        "path": "actual_fixed_reference_input_binding.same_mathematical_g_claimed"
+      }
+    }
+  ],
+  "original_progress": {
+    "run10-immutable-point-independent-first/actual-normal-evaluation-progress.json": {
+      "phase": "phase",
+      "at": "recorded_at_utc",
+      "point": "current_full_point_sha256",
+      "stage": "normal_stage_index",
+      "scope_order": "active_scope_maximum_order",
+      "scope_angles": "active_scope_angle_count",
+      "cached_angle_roots": "current_cached_angle_roots",
+      "observer_scientific_calls": "actual_scientific_evaluations_by_observer",
+      "scientific_complete_inferred": "scientific_complete_inferred",
+      "closure_logical_requests": "closure_counts.logical_requests",
+      "closure_logical_returns": "closure_counts.logical_returns",
+      "closure_logical_failures": "closure_counts.logical_failures",
+      "closure_original_attempts": "closure_counts.original_attempts",
+      "closure_original_returns": "closure_counts.original_returns",
+      "closure_original_failures": "closure_counts.original_failures",
+      "closure_original_angle_jet_requests": "closure_counts.original_angle_jet_requests",
+      "closure_original_angle_jet_returns": "closure_counts.original_angle_jet_returns",
+      "closure_cache_hits": "closure_counts.cache_hits",
+      "closure_cache_hit_angle_jets": "closure_counts.cache_hit_angle_jets",
+      "closure_cache_misses": "closure_counts.cache_misses",
+      "closure_forced_original_requests": "closure_counts.forced_original_requests",
+      "closure_forced_stage_rereads": "closure_counts.forced_stage_rereads",
+      "closure_forced_endpoint_rereads": "closure_counts.forced_endpoint_rereads",
+      "closure_bypass_no_scope": "closure_counts.bypass_no_scope",
+      "closure_bypass_caller_environment": "closure_counts.bypass_caller_environment",
+      "closure_bypass_current_environment": "closure_counts.bypass_current_environment",
+      "closure_bypass_tensor_or_data_tracking": "closure_counts.bypass_tensor_or_data_tracking",
+      "closure_bypass_optional_failure": "closure_counts.bypass_optional_failure",
+      "closure_binding_failures": "closure_counts.binding_failures",
+      "closure_key_checks": "closure_counts.key_checks",
+      "closure_point_word_checks": "closure_counts.point_word_checks",
+      "closure_stored_values": "closure_counts.stored_values",
+      "closure_optional_cache_failures": "closure_counts.optional_cache_failures",
+      "closure_scopes_started": "closure_counts.scopes_started",
+      "closure_scopes_closed": "closure_counts.scopes_closed",
+      "closure_scopes_with_exception": "closure_counts.scopes_with_exception",
+      "closure_scopes_disabled_at_entry": "closure_counts.scopes_disabled_at_entry",
+      "closure_scope_stage_completions": "closure_counts.scope_stage_completions",
+      "closure_progress_writes": "closure_counts.progress_writes",
+      "closure_progress_write_failures": "closure_counts.progress_write_failures",
+      "closure_progress_events": "closure_counts.progress_events",
+      "closure_peak_cache_entries": "closure_counts.peak_cache_entries",
+      "closure_peak_cache_bytes": "closure_counts.peak_cache_bytes",
+      "closure_immutable_point_entry_checks": "closure_counts.immutable_point_entry_checks",
+      "closure_immutable_point_key_checks": "closure_counts.immutable_point_key_checks",
+      "closure_immutable_point_exit_checks": "closure_counts.immutable_point_exit_checks",
+      "closure_original_closure_seconds": "original_closure_seconds",
+      "closure_binding_and_key_seconds": "binding_and_key_seconds"
+    }
+  },
+  "new_progress": {
+    "fixed-fejer-immutable-point-first/actual-normal-evaluation-progress.json": {
+      "phase": "phase",
+      "at": "recorded_at_utc",
+      "point": "current_full_point_sha256",
+      "stage": "normal_stage_index",
+      "scope_order": "active_scope_maximum_order",
+      "scope_angles": "active_scope_angle_count",
+      "cached_angle_roots": "current_cached_angle_roots",
+      "observer_scientific_calls": "actual_scientific_evaluations_by_observer",
+      "scientific_complete_inferred": "scientific_complete_inferred",
+      "closure_logical_requests": "closure_counts.logical_requests",
+      "closure_logical_returns": "closure_counts.logical_returns",
+      "closure_logical_failures": "closure_counts.logical_failures",
+      "closure_original_attempts": "closure_counts.original_attempts",
+      "closure_original_returns": "closure_counts.original_returns",
+      "closure_original_failures": "closure_counts.original_failures",
+      "closure_original_angle_jet_requests": "closure_counts.original_angle_jet_requests",
+      "closure_original_angle_jet_returns": "closure_counts.original_angle_jet_returns",
+      "closure_cache_hits": "closure_counts.cache_hits",
+      "closure_cache_hit_angle_jets": "closure_counts.cache_hit_angle_jets",
+      "closure_cache_misses": "closure_counts.cache_misses",
+      "closure_forced_original_requests": "closure_counts.forced_original_requests",
+      "closure_forced_stage_rereads": "closure_counts.forced_stage_rereads",
+      "closure_forced_endpoint_rereads": "closure_counts.forced_endpoint_rereads",
+      "closure_bypass_no_scope": "closure_counts.bypass_no_scope",
+      "closure_bypass_caller_environment": "closure_counts.bypass_caller_environment",
+      "closure_bypass_current_environment": "closure_counts.bypass_current_environment",
+      "closure_bypass_tensor_or_data_tracking": "closure_counts.bypass_tensor_or_data_tracking",
+      "closure_bypass_optional_failure": "closure_counts.bypass_optional_failure",
+      "closure_binding_failures": "closure_counts.binding_failures",
+      "closure_key_checks": "closure_counts.key_checks",
+      "closure_point_word_checks": "closure_counts.point_word_checks",
+      "closure_stored_values": "closure_counts.stored_values",
+      "closure_optional_cache_failures": "closure_counts.optional_cache_failures",
+      "closure_scopes_started": "closure_counts.scopes_started",
+      "closure_scopes_closed": "closure_counts.scopes_closed",
+      "closure_scopes_with_exception": "closure_counts.scopes_with_exception",
+      "closure_scopes_disabled_at_entry": "closure_counts.scopes_disabled_at_entry",
+      "closure_scope_stage_completions": "closure_counts.scope_stage_completions",
+      "closure_progress_writes": "closure_counts.progress_writes",
+      "closure_progress_write_failures": "closure_counts.progress_write_failures",
+      "closure_progress_events": "closure_counts.progress_events",
+      "closure_peak_cache_entries": "closure_counts.peak_cache_entries",
+      "closure_peak_cache_bytes": "closure_counts.peak_cache_bytes",
+      "closure_immutable_point_entry_checks": "closure_counts.immutable_point_entry_checks",
+      "closure_immutable_point_key_checks": "closure_counts.immutable_point_key_checks",
+      "closure_immutable_point_exit_checks": "closure_counts.immutable_point_exit_checks",
+      "closure_original_closure_seconds": "original_closure_seconds",
+      "closure_binding_and_key_seconds": "binding_and_key_seconds"
+    }
+  },
+  "remaining_all_summary_entries_retained": true,
+  "future_results": null
+}
