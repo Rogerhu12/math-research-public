@@ -789,3 +789,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 21:53 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 4e76实际46009550138/140541275144 inner0，4.659秒/83124KiB；新H8精确QQ重数与真余式单位完成，整个原Phi0∩zn0已闭即推。
 - 新根工作流派8fd rho二次头零主整支，保d半例外；使用已付monic-six与separate-geometric-exponents两个helper、120秒1GiB，无旧全源重跑。
+
+2026-11-27 21:57 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 402d实际46010648548/140544983517 inner0，0.120秒/37448KiB；原整个T0=Delta0碰撞面由唯一有理候选和原mean单位排除，完成即推。
+- 46c5装配失败准确保留；新根工作流031d只接互补T0、Delta非0完整两参数输入，180秒4GiB，无旧D非0权图借用。

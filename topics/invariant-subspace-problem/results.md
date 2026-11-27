@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [等值碰撞 T0 与 Delta 同时为零的整个原面排除](results/R150-appendix-unit211-equal-singleton-T0-Delta-zero-complete-original-exclusion.md)：原仿射行迫唯一lambda1/3,u125/123，保自由f的全部原Gram返回及两原mean显式非零常数组合。
+
 - [Phi0 上整个中心值碰撞 zn0 的原 QQ 重数及完整排除](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)：H8精确4重、九真因子Q908及真余1037保度Gauss1；所有原复零纤维已闭，h1/k1交换覆盖，作用域保D非0。
 
 - [整个原 W/D27 五次权曲线排除](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)：全F24真实QQ与全F782有限自由整模型合成；末三次域原108×56单位补齐所有模纤维并付QQ提升，原生退出异常及不足矩阵保留。
