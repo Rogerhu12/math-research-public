@@ -1,15 +1,13 @@
 {
-  "message": "ISP: derive the full original D and unit identities giving the general JQ F302 curve",
-  "parentCommit": "7b88c43350fe37b29072abc8dc024054d3eca55c",
+  "message": "ISP: prove the paid M original source DAG and complete Q physical D denominator",
+  "parentCommit": "645c9e7d441dc5e4dfb5736878039029d6f10c27",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-J-equals-Q-original-D-and-one-F302-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-JQ-original-D-one-F302-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-original-cofactors-QQ-projection-8542.py",
-    ".github/workflows/invariant-subspace-general-jq-cofactors-qq-projection-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Q1minusU-paid-M-unit-original-DAG-physical-D-denominator.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-paid-M-unit-DAG-D-execution-8542.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,7 +16,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-general-jq-cofactors-qq-projection-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }
