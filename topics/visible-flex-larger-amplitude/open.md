@@ -116,3 +116,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [不可写点改进](notes/2026-11-27-run10-immutable-point-cache-binding-and-complete-source-family.md)15完整运行体/两构造/两互斥全方案已刊未排，90来源保原75；每key不可写owner身份/完整布局与入口出口全词区分计数，active旁路、所有data/control、全stage/final原读及科学后缀保。完整真c3dc/2efa13父与全部typed/未知peer义务保；独立起点方案仍欠真实peer合并，future SHA null。未实跑，不宣称加速或场相等。
 
 [闭面全phase/grip](notes/2026-11-27-run10-closed-phase-grip-source-adapter.md)、[同点mesh/t](notes/2026-11-27-run10-complete-same-field-phase-meshes-and-refinement-inputs.md)完整体与全参数均刊未排；九角色/共同A/整像δhold/δE/真实精化仍欠，raw只runner。07/08/09全未知历史保，当前没有新场/费/精化真返；继续全部README目标。
+
+[11完整公开续作](notes/2026-11-27-run11-complete-warm-launch-and-fixed-reference-continuation.md)先运行原完整warm，后续完整源将确定性重建实际2218有限参考及全部7377观测；旧e711/4ace执行证据与新真实来源分开，同数学g只据全部实际定义/词比较。当前不宣称新输入/场或精化结果，旧07–10未知父/typed责任保。
