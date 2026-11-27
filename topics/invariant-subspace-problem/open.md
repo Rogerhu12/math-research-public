@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
 
-H1仍仅旧D≠0图。[第五块真实原几何](results/R150-appendix-unit211-Phi-zero-H1-fifth-block-original-geometry-and-334-points.md)1be35真24.8222秒，全λ原组合及Tv闭包K-rank2/余5。随后4e9f真7.504925993秒：QQ F9上D8全零、全部源分母正则⇒F9|P201；实际h整Bezout和完整1134模式，将前四块真实Q商经g4_Q单位提升至h0，引用已付原h0排除。**当前仅第五块，≤5权对/5三元组/5五坐标/10完整不同点。** 续同一个原有限商的完整Gram20输入，以ρ²和首一值二次保留模D0双根；不倒物理D。其它Phi/个别NP/b0的316开，F9不扩到D0图。
+H1仅旧D≠0图，[F9原极点及实际头整提升](results/R150-appendix-unit211-Phi-zero-H1-F9-original-pole-completed-head-exclusion-and-ten-points.md)已完整闭前四块：真D8全零/源分母互素⇒F9|P201，整Bezout/1134模式/g4_Q单位⇒原h0。合[末块原几何](results/R150-appendix-unit211-Phi-zero-H1-fifth-block-original-geometry-and-334-points.md)，**仅余5/5/5/10不同点**。新[完整Gram20输入](notes/2026-11-28-unit211-Phi-zero-H1-P201-last-block-complete-original-Gram-values-8542.md)70d67首派120秒1GiB：原10子式返T/v，ρ²与首一值二次保全部根及模D0幂零；四均值/P1/N1/个别NP/三矩/完整N4(V)同点原20行理想，原方阵×逆才闭第五块。其它Phi/个别NP/b0的316开，不扩至D0。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

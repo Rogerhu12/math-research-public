@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：原 F9 极点与实际头整提升，四个完成块全闭](results/R150-appendix-unit211-Phi-zero-H1-F9-original-pole-completed-head-exclusion-and-ten-points.md)：新 QQ D8 专门化全零、原源分母互素，证 F9|P201；整实际 h Bézout、完整 1/1/3/4 模式及导数单位提升 Q=qh，四块接原 h0 排除。仅第五块尚余，完整点≤10。
+
 - [R150：第五完成块的真实 λ 与原几何关系](results/R150-appendix-unit211-Phi-zero-H1-fifth-block-original-geometry-and-334-points.md)：全 λ 幂原关系、完整 Tv 九种子闭包 K-rank 2，余商 5 维。独立运行给 167/334 界；随后 F9 原特征零桥已闭前四块，当前余图仅 5/5/5/10。
 
 - [R271：一对加四独立原 S2 严格总迹缺陷](results/R271-appendix-one-pair-four-independent-s2-strict-trace-deficit.md)：真实全源第一谱系数在五个闭域严格正，给对称四维 Tr 费用 <4、完整五维 <14/3。实际 180 秒仅 c1 完成，完整 S2 与七位联合仍未付。
