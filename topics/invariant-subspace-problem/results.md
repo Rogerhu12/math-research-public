@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 W 固定二元三次头的整不可约曲线及首一k23环境](results/R150-appendix-unit211-W-first-binary-head-whole-irreducible-curve-and-monic-k23.md)：完整QQ单因子(e,k)16/23，k首项只含已付权单位，整H0有23维自由环境；H0与补图均保留，不把几何局部化称有限。
+
 - [R150 碰撞两E全部原u首项零纤维排除](results/R150-appendix-unit211-collision-E-entire-u-heads-finite-free-exclusion.md)：p1009完整首一有限自由模型、整个另一头逆与十二剩余域原Bezout1，实际返回整F162/F167空；不借u局部化，剩余一般交点和全部Q/NP仍开。
 
 - [R271 三加三原联合费用与七位统一24/25首末边](results/R271-appendix-three-plus-three-original-joint-budgets-and-seven-site-uniform-edges.md)：五个完整原Gram和三正多项式给同源S1/S2预算；真实定量Schur与倒数权对偶返回七位整14维两边的统一余量，旧定性不重计。

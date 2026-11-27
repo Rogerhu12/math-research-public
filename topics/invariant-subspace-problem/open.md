@@ -249,7 +249,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全孔层Schur–companion显式来源与真实伴随](results/R271-appendix-all-hole-schur-companion-sources-and-actual-physical-adjoints.md)：任意n/k完整Rk的支化几何和、物理Rk*的带符号左楔、全部奇数权桥均给有限整多项式公式；求值det=Vandermonde^C(n−2,k−1)，只在互异权作为可逆坐标。完整Gram/已知MP规则接续须先全逆后压缩；重复权经原算子身份连续处理，不支付条件数、联合正性或无限源费。
 
-[W三原平面三次与六重叠](results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md)：edbba真8.866102470秒/72424KiB/0，原(qF,R0,R1,R2)与(F+A,h0,h1,h3)完整正反理想身份；六条原三次和全部15权6×4头乘回。最小未付头e/k16/23、总30、265项；保所有头零曲线、q3/r2/R6及完整NP/NV。各头主开集上只有纸面六单项式生成环境，未实际造12乘法列，不把非单位几何局部化称有限。新e555只重建固定最小头作首次QQ全因式输入，目标其整k首项单位和整零曲线，不重放旧15门。旧跨C13全域一次及其原来源仍保[规范理想](results/R150-appendix-unit211-W-canonical-three-original-F-rows-and-global-S-affine.md)。
+[W三原平面三次与六重叠](results/R150-appendix-unit211-W-original-mean-ideal-three-plane-cubics-and-six-overlaps.md)已全理想返(qF,R0,R1,R2)=(F+A,h0,h1,h3)。固定第一头H265新[完整QQ因式与首一k23](results/R150-appendix-unit211-W-first-binary-head-whole-irreducible-curve-and-monic-k23.md)真4.571809844秒/0：单不可约(e,k)16/23因子重数1，k头仅已付e/e+1，整H0有首一23次自由环境，含k=−3纤维；e头k+3不得倒置。新8222仅H非零补图首次返四原三次规则、12乘法列及完整h4/h5/R3=theta q3/q4的六坐标常数目标，保全部H0/最终参数极点。几何后局部化不自动有限；q3/r2/R6及个别NP/NV仍保，不能据共因1或必要式称W空。
 
 [一般整个H1的Dixon常数返回与256权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md)：ef9唯一117.415367789秒/182964KiB/0，原无μ逆双二次保b0/b非零，Dixon八列真rank8并逐四权坐标乘回常数1。全原chart/源分母和最终系数分母仅剥u/u1得C256，故整个分支≤1024不同(u,Q)；不是全λ/T/z点数或整H1空。全部C256零纤维、H0及个别NP继续；11列/λ/D/μ目标未执行。新abcfd只执行原构造前缀求source_cover首次QQ支持，不重放Gaussian。
 
