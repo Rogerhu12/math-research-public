@@ -1,0 +1,108 @@
+{
+  "sourceSHA256": "b0915886bb86e6247a702bec66693cef42b0d7da9d73df44a4c0a04d8ab01f77",
+  "actualTermination": {
+    "subprocessReturnCode": -14,
+    "shellExitCode": 142,
+    "signal": "SIGALRM",
+    "elapsedSeconds": 120.09779006500321,
+    "peakRssKiB": 78752,
+    "wallBudgetSeconds": 120,
+    "memoryLimitBytes": 1073741824
+  },
+  "lastStdoutRecord": {
+    "stage": "new_Qboundary_h_full_QQ_projection_started",
+    "fixedSylvesterOrder": 58,
+    "newEliminatedVariable": "u",
+    "newRemainingVariable": "h=ell/u",
+    "allLeadingZeroFibresRetained": true,
+    "seconds": 8.61983696000243
+  },
+  "lastKnownLeadingInputs": [
+    {
+      "index": 0,
+      "symbolicUDegree": 29,
+      "content": "-1/64",
+      "factors": [
+        {
+          "coefficientsAscending": [
+            "0",
+            "1"
+          ],
+          "multiplicity": 31
+        },
+        {
+          "coefficientsAscending": [
+            "-432",
+            "1448",
+            "-1524",
+            "434",
+            "8",
+            "-29",
+            "3"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "coefficientsAscending": [
+            "-4",
+            "8",
+            "-7",
+            "1"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "seconds": 8.618488997002714
+    },
+    {
+      "index": 1,
+      "symbolicUDegree": 29,
+      "content": "1/4",
+      "factors": [
+        {
+          "coefficientsAscending": [
+            "0",
+            "1"
+          ],
+          "multiplicity": 33
+        },
+        {
+          "coefficientsAscending": [
+            "-1",
+            "1"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "coefficientsAscending": [
+            "-432",
+            "1912",
+            "-3084",
+            "2118",
+            "-562",
+            "37",
+            "9"
+          ],
+          "multiplicity": 1
+        },
+        {
+          "coefficientsAscending": [
+            "-4",
+            "1"
+          ],
+          "multiplicity": 2
+        }
+      ],
+      "seconds": 8.619812152996019
+    }
+  ],
+  "fullStdoutSHA256": "42015904219e4d75ac5a8cb4295939f80169bb9655653dbaafd8505baf5e76e1",
+  "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "completeQQResultantReturned": false,
+  "QQProjectionDegreeEstablishedByThisRun": false,
+  "allFiniteParametersRemainOpen": true,
+  "frozen": true,
+  "sourceRecreatedFromPublishedPrefixAndExactOriginalConstructionWithMatchingSHA256": true,
+  "driverReceiptRecreatedFromCompleteActualToolReturn": true,
+  "fullLocalStdoutUnavailableDuringExecutorOutage": true
+}

@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-C9-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-58-Sylvester-h-failure-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类及整个二次权纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)已排全部共同无穷远方向；现[整个u=Q权线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)也全闭：F9两完整QQ代数返1，同点Cramer图原五式QQ Bézout1，F3原D单位返回、F95固定十四原行一元保度Gauss覆盖。W0余图可付u−Q；其余J19/C9零面和有限原解仍开。旧180秒参数cofactor、76.992秒展开trace、F3 M35与F95五列三个后续未决门全部冻结，精确失败不冒成功；继续整C9二次扩张原小行。
 
-**Q=1−u边界：** 原y1/H_Q0/u半/ell0/两y首项、[T0/h2](results/R150-appendix-unit211-Q1minusU-T0zero-complete-exclusion.md)、[Kz0](results/R150-appendix-unit211-Q1minusU-complete-Kz-zero-exclusion.md)、[ell半](results/R150-appendix-unit211-Q1minusU-complete-ellHalf-exclusion.md)及[整个G2零曲线](results/R150-appendix-unit211-Q1minusU-complete-G2-zero-exclusion.md)均全闭，全部原首项零纤维保留。原四二次/apolar及18真乘法给每商≤6；[63/60互素覆盖](results/R150-appendix-unit211-Q1minusU-original-G2-chart-finite-parameter-cover.md)现覆盖全边界余权点，至多3780点。续全部有限点原NSPS/值返回，有限不代表空。 [85阶QQ投影已SIGALRM冻结](notes/2026-11-27-unit211-Q1minusU-85-Sylvester-QQ-projection-frozen-8542.md)；没有一元覆盖，续新原NSPS真倍数/值关系。
+**Q=1−u边界：** 原y1/H_Q0/u半/ell0/两y首项、T0/h2、Kz0、ell半和整个G2全闭；原六生成元/18真乘法给每商≤6，全部余权点在63/60 QQ互素覆盖≤3780。全部原来源与已付整面链接保完整快照。固定85阶QQ投影和[改h后的58阶QQ投影](notes/2026-11-27-unit211-Q1minusU-58-Sylvester-h-QQ-projection-frozen-8542.md)均120秒SIGALRM、没有结式，冻结。58阶实际120.097790秒/78752KiB/−14；b830平移状态未知不重跑。继续固定原矩阵的小QQ度/估值、真实首一Bézout变换和全部有限原返回；不以模计算代QQ保度。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 

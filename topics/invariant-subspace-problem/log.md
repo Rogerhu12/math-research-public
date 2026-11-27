@@ -292,3 +292,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 首次归档正文undefined错误已在发布前纠正；现正文/源/回执字节哈希完整匹配。Gauss OS退出码仍unknown，完整最终数学乘回回执已保存，不猜退出码。
 - 新增共享W/u半workflow只执行新整线原返回；T0首门因push+dispatch意外双触发，两次均结束，现改为唯一workflow_dispatch并保两次实际身份，不把重复算作新结论。
 - HANDOFF/open压缩且完整快照留存；续J19、一般T0最后有限因子及Q有限原返回，普通ISP未完成。
+
+2026-11-27 15:56 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 登记h=ell/u新固定58阶QQ投影失败：源b0915886，实际120.097790秒、78752KiB、−14/SIGALRM；末8.619837秒仅启动记录，没有完整QQ结式或新排除。
+- 原源完整SHA与实跑相同，driver JSON和末记录从已观察工具回执忠实恢复，完整stdout断开后未取回；冻结该门，不重跑状态未知b830。
+- 转同原矩阵的首一Bézout及小QQ次数/估值证书，保全部首项退化点；普通ISP继续。
