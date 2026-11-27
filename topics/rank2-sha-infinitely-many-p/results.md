@@ -369,3 +369,6 @@
 
 
 - **原有理角的准确p级成本**：[完整证明](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)。原Y/K平面的有理等距g_n确将Y归一为Y+t_nK、t_n→0，但原split-p Schwartz在Y紧环面下的准确稳定子为1+p^n：完整共轭矩阵左下项估值−n+v_p(1−u)。故每n至少一个准确导子p^n的Schwartz角色非零；未分歧投影及其对真实角导数的影响必须支付。该结论仅限单个g_n向量，不排有限求和或后继theta消去新字。 固定t=1另有Y+K=2δ(−δ,−ω,−ω²,2,1,1)，完整乘积为2δ[2δ]^*(xyσ11)。全七挠trace的μ6相位保齐后质量非零，故其mass0内层不是该真实CM算子的本征线，未增加rank2 canonical授权。
+
+
+- **R1043一般原Manin完整多项式**：[§20](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§20已对一般原Qmin直接证明D_Bμ=c_q A且c_q在特征q中非零；完整Hasse系数、Picard–Fuchs和原ε奇偶性排除局部s^−q附项，给μ/δ=κ_q XΣh_j X^(3j)/(3j+1)，所有系数有限明确。canonical接触恒3，有限超奇异接触严格只1或2，两cusp ν单位，N_ord+2N_ss=q−5。 适用于每个已存在原最短截面的q>5、q≡−1mod6，不假Prym超奇异；不新增数学执行或把目标p全整除当高接触。
