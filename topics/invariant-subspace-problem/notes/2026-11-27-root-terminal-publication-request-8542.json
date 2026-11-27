@@ -1,15 +1,17 @@
 {
-  "message": "ISP: return actual equal value equal weight QQ96 cover and four finite fibers",
-  "parentCommit": "acaabe57e22e4fdc292d7a4c3648541883b7e9b6",
+  "message": "ISP: exclude entire equal value equal weight Delta nonzero and enter two original boundary inputs",
+  "parentCommit": "d0b9d8f57e10d0d585be0a14a6cbd17126b900ae",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-equal-weight-96-QQ-cover-and-four-fibers.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-96-cover-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-full-finite-QQ-return-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-equal-weight-finite-qq-original-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-nonzero-complete-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-Delta-nonzero-exclusion-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-equal-weight-Delta-zero-original-compatibility-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-missing-NC-PC-original-Gauss-input-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-equal-weight-delta-zero-compatibility-8542.yml",
+    ".github/workflows/invariant-subspace-phi-missing-original-nc-pc-gauss-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +21,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-equal-weight-finite-qq-original-8542.yml"
+    "invariant-subspace-equal-singleton-equal-weight-delta-zero-compatibility-8542.yml",
+    "invariant-subspace-phi-missing-original-nc-pc-gauss-8542.yml"
   ]
 }

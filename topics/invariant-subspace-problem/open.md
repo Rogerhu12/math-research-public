@@ -90,7 +90,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 [全D最优成本有限头化](results/R12-appendix-full-deddens-algebra-optimal-cost-finite-head-approximation.md)已付同成本强逼近、固定成本有限输入像弱紧及有限最优值达到。继续同一变化递推来源的真实凸最优费用；不能假任意目标有限成本。
 
-[全交换子收缩多项式密度](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)及特选同头平均成本1已付；[一般平均的统一成本球强不连续反例](results/R12-appendix-finite-conjugation-average-discontinuity-at-uniform-cost.md)也已付。因此全D强逼近不能自动平均成保持同输入的交换子插值；不重做已闭例子。
+已付交换子收缩多项式密度与特选同头平均，但一般平均在统一成本球强不连续，故不能由全D强逼近获得保持同输入的交换子插值；两完整证明/旧范围保本次快照，不重做。
 
 
 同一实际源的运输插值、双预算/最小普通范数和固定球真实递推已付；指定硬目标的全D最优累计log费用Θ(n⁵)，仅换实现不能降四次。原球软逆像唯一最优W_n²/(W_n²+λ)，含dyadic半径边界的四次准确常数；所有实际递推∏c≥m_n。全D连续整数前缀约束进一步迫独立软最优目标的连接普通范数dyadic无界，必须改变真实目标并付完整前缀/逆像双费。完整原身份与全部源保[压缩前页](notes/2026-11-27-open-before-tail-roots-and-closed-graph-8542.md)和[结果索引](results.md)。
@@ -182,11 +182,11 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[Delta0 h1/k1整λ半/6219基点](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)、[h=k首一b4](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)与[完整八原权不变量](results/R150-appendix-unit211-equal-singleton-invariant-weight-full-original-system.md)保留；[h=k,b=c,Delta非0的QQ96覆盖](results/R150-appendix-unit211-equal-singleton-equal-weight-96-QQ-cover-and-four-fibers.md)新已付。** ba8真1.470秒/47168KiB/exit0，四固定11/11/11/12阶QQ原结式剥实际单位后gcd96，完整因子度2/10/2/20，幂1/1/2/4；不同λ支持34，未宣原点空。新f5e完整四常数QQ代数返全部八原行，真系数逆或整分两支，原Q头零/单位零全保，180秒4GiB。该h=k物理D0不沿用旧D非0等权排除；Delta0首一b4、不等权/其它权面和物理第五列继续。
+**[Delta0 h1/k1整λ半/6219基点](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)、[h=k首一b4](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)与[完整八原权不变量](results/R150-appendix-unit211-equal-singleton-invariant-weight-full-original-system.md)保留；[h=k,b=c,Delta非0整支新闭](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-nonzero-complete-exclusion.md)。** f5e真1.055秒/45488KiB/exit0，96覆四完整QQ因子返Q−1、Q−1、1、两原Delta因子；141次真系数逆/94次Q除法全返，未用旧D非0等权结论。仅此Delta非0图可付u−ell；新0566直接在等权Delta0上保两原affine行并取Delta/F/Tnum必要式，全部头零保留，180秒4GiB。Delta0、不等权/其它原面和物理第五列继续。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[Phi0/h1真首一1069余式给≤32基点/64三元组及四norm单位](results/R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md)新已付。** f66真5.043秒/71108KiB/exit0，真实R1069/P/PB完整xgcd返32，保逐纤维Vandermonde重数；[H4/H20全复纤维及QQ36次因子](results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md)仍保。四原norm零面无除法QQ覆盖配新g32/Z32完整Bézout1，现合法付Nm(ell),Nm(u),Nm(u−ell),Nm(b)，不泛化任意范数。新971b首接Nm(T0)的真实rho三次像与四原core，余二次/≤5阶QQ Bareiss保头零；必要时再接u+Q−1四次像，120秒1GiB。k1只交换，全Phi0未闭。
+**[Phi0/h1真首一1069余式给≤32基点/64三元组及四norm单位](results/R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md)新已付。** f66真5.043秒/71108KiB/exit0，真实R1069/P/PB完整xgcd返32，保逐纤维Vandermonde重数；[H4/H20全复纤维及QQ36次因子](results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md)仍保。四原norm零面无除法QQ覆盖配新g32/Z32完整Bézout1，现合法付Nm(ell),Nm(u),Nm(u−ell),Nm(b)，不泛化任意范数。新971b首接Nm(T0)的真实rho三次像与四原core，余二次/≤5阶QQ Bareiss保头零；必要时再接u+Q−1四次像，120秒1GiB。新845c补此前未使用的NC/PC原值对，各同ell闭对返原H³必要core，并只消已付四norm；新固定rho投影与g32真实QQ共同覆盖作全Bézout，120秒1GiB。k1只交换，全Phi0未闭。
 
 **[同一全尺度右逆](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)、[平滑修正/实际cut通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)及[方向交织/迹类解](results/R271-appendix-actual-directional-intertwiner-exclusion-and-trace-class-rosenblum-solutions.md)保留；[真闭proper单链U与共同迹类像](results/R271-appendix-proper-single-chain-restriction-and-common-trace-class-intertwiner-range.md)新已付。** e0在实际Gλ*域使规范G只减有界秩一，闭包真闭值域交M为0；故U=closure span Gⁿe0有U∩M=Ce0、kerT_U^r恰前r链且并稠密。任意非零y的closure RanL_y=U、kerL_y=cyclic_S(y)⊥；L_e0:H→U单射稠密迹类，反向XT_U=BX只能0。实际w∈W仅给H/N→U稠密迹类商映射及L_w|M=e0⊗w，未付其单射、BU⊂U/正角、G保N、Gamma/Sr或W0。旧RTcut范数发散/有锚实际通量与两范围核心继续。
 
