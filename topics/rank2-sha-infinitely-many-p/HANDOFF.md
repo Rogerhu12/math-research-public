@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-three-source-thirteen-rank.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-inert-syntomic-lattice.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -32,23 +32,17 @@ R1047 norm25原12管、四角色/25维Weil、f25δ、Haar/Hermite/平方及实�
 
 F0唯一run45991193171已付全C±/U±/Miller/三挠/degree51，原x+y-unit不可拆。R1045唯一run46004443574已付三九阶L′>0、一般BDP2/原good-pair/Hcyc9/R749，给三负一值代数独立及五sigma奇部非零；全sum-unit中央转置仍开。所有细数、原run/job/source与hash保于逐字归档，不重算。
 
-## 三、原谱盖、最高权与一般 Manin 多项式
+## 三、原谱盖、最高权与Manin/晶体新入口
 
-R1002只付Kβ，原AJ²=KνKβ的ν未付；完整54/27图、eta/Cor和所有权保。R1014 cofinite Tate的未知q0不能向小q外推；R1027最短anti截面高2q/3、D度(q−2)/3。原两quadric/Norm/W/下降、Cδ/Jac81/E±等全部在逐字归档，不能以存在或接口代原最高AJ。
+所有原54/27图、η/Cor、各权、两cover、Prym和倒6规范均保。R1002只付Kβ、ν未付。R1014充分大Tate界q0未知，不向小q外推。R1027最短anti截面高2q/3、D度(q−2)/3。q5/q11全shadow倒6零已付；q11唯一Q/NS−121/Br0、D四挠/半类、MW与全部run/hash沿逐字归档复用，不重算。
 
-q5/q11全shadow倒6为零已付；q11唯一Q高22/3、D四挠、2D=P2、MW=(11/3)A2、NS−121/Br0，原两cover、Prym、半类和必要坐标/全部run/hash沿消费笔记与归档复用。R1041的AQ=−G阶16、4AQ=−P及完整Pell/厚点保持，不重算。
+R1039 Prym EL:y²=x³−12x+20及完整双Norm/S4 sign、cyclic24与负Norm给无穷q≡−1mod24全Jac F²=−q；加大M只保−q平方，不能绕原影子q+1消失。R1041的AQ=−G16、4AQ=−P、完整Pell/厚点与U²⁴∈Fq*保持；p|q+1的无权半交为p次幂，全η/Cor/最高λ仍开。
 
-R1039 Prym EL:y²=x³−12x+20、全双Norm/S4 sign、实cyclic24商及负Norm给无穷q≡−1mod24且全Jac F²=−q。更大M只给−q模M平方，形式奇次Q≡−1modp不改变原影子被q+1杀。R1041全tame reciprocity给U(E+)²⁴∈Fq*，p|q+1的无权半交为p次幂；全η/Cor/最高λ仍开。
+R1043原2/3同源/full9/所有二核/η′/最高−3Ω′1及精确三权下降均付。真实Fr作用与外系数共轭分开；同一位三个完整J全零才得三个实际T_a全p整除，Sha坏尚不迫此条件。Fr−unit核只p个除点，不得免费全p²。§§19–20已直接付原KS/Hasse/Broumasμ：D_Bμ=cq A且cq≠0，全PF/ε/L(O)排q次幂附项，μ/δ=κqXPq(X³)。canonical接触3、有限ss1/2、两cusp ν单位及N_ord+2N_ss=q−5；p除点不提高接触。唯一q11 Manin run46018592834已消费μ/δ=10X+3X⁴、九有限ss接触1，不重跑。
 
-R1043全2-Vélu/full9、S′/S3左逆、canonical E4/I及η′=ηκ2保。最高像−3Ω′1在O零4，全GL9/Cor给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a，L0次数6⁵。原3-Vélu/Picard同号，基值非旧6挠，IV*只好化后被3杀。§18真Fr与外系数共轭分开，Fr(d_t)=d_hq/t；同一位三完整J全零才得三个实际T_a全p整除，尚不由Sha坏推出。同Fr−unit核degree q+1只p个除点，不得免费全p²。
+§21完整对偶运输μ₁(φ̂P)=cφ^qμ₂与Φq严格交换原图pull，外系数线性给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0。§22全三项消分母给μPQ=cQ X′Nq(V′²)/V′^(2r−1)，有限递推唯一、所有分母q单位。N0≠0/N1=3，IV*好化μ阶2、两cusp阶1；O值为−3cQ2^(2r−1)Pq(−1/4)，若零恰六阶。原CM289图已付full9负分量/二核循环及f′=ω/f³=id，实际R_a接触仅1/2；这些系数/指定延拓值均不替代实际T_a/p影子。
 
-§19原KS/Hasse简单零及Broumasμ全边界齐。§20从R=Dμ/A的一维全局空间得D_Bμ=c_q A、c_q≠0；ε及L(O)排局部q次幂，完整Hasse/PF给μ/δ=κ_q X P_q(X³)，P_q=Σ(-4)^j(5/6)_j(2/3)_j U^j/((j!)²(3j+1))。canonical接触恒3，有限ss仅1或2，两cusp ν单位，N_ord+2N_ss=q−5；无须新27桥。§21原对偶运输μ₁(φ̂P)=cφ^qμ₂，Φq严格交换原pull，完整三项给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0和Σω^i c_i^q m_q(fιP_i)。PQ外系数≠固定CM纤维实际T_a的几何[ω]，全η/17/Cor与真正点群forcing仍开；目标p除点不自动提高接触。
-
-§22全三项相位/指数精确消分母，μPQ=cQ X′N_q(V′²)/V′^(2r−1)，唯一有限递推所有3k+1为q单位。N0≠0/N1=3，三IV*好化μ阶2、两cusp阶1；O值=−3cQ 2^(2r−1)P_q(−1/4)，若零则恰六阶。系数变形值不代实际T_a/p影子，继续三个原17标记。
-
-原CM289 note已付真实full9负分量及二核循环合成q−deck、f′=ω/f³=id。实际R_a=17P1−φ̂P2∘f满足ψ̂R_a(0)=17T_a；同一Hecke分量Tate边界付自然性，rR(0)≠0，指定延拓接触仅1/2，由N_q判。p整除不提高接触，继续真正点群forcing。
-
-唯一q11 Manin run46018592834/job140572039981已给μ/δ=10X+3X⁴、Hasse=V(1−X³)，九有限ss接触1、O接触3、余ordinary零度6；全部pins/hash/必要函数在原消费笔记，禁止重跑。原mixed C4候选由Albanese排除。
+R1049新转向目标p惰性：同一固定54图均以原full9/完整GΓ在Kp下降，η((p))=1；原最高H³(2)有φ²=−p^-1，BK exp目标一维。proper finite-polynomial全Čech/Frobenius同伦给AJ(Yj0)=p/(p+1)·原54/η/Cor杯积和，非单位p因子保。原全NS判别式及Hodge/CM分解给新增晶体指数1,p，c1D+=upΩ、c1D−=−p/(3up)Ω−且up单位；实际W₂提升障碍MW/p→H²(O)是Fp同构。Ξp的原图restriction、与Manin常数/全权值的积分桥及通常全Sha全球桥仍待实际支付；继续这一步，不以global障碍非零当AJ非零。
 
 ## 四、其它未闭门与分工
 

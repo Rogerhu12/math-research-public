@@ -393,3 +393,8 @@
 
 
 - **原有理角的两固定六sigma完整返回**：[§§10–13](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)。原Y/K角§§10–13付a=2/5,b=κ^n/5的完整返回：逆Gram/共同2、全5 Bell十二odd wild字、固定深度子序列上旧2/3/7状态及反变±标签均锁定。两份原六sigma框架norm3150/150及两个whole β核给原connected/étale division/Miller图的正负球返回；Y-unit全读者是β^-n/((p−1)p^(n−1))乘两个不同K缩放，忘K才简化为c_n(JF−−JF+)。混合cut、K/Y的κ^-n(1−βκ)和全部p分母保持，新来源尚未获canonical中央零。
+
+
+## R1049（已证明）：原惰性目标素数的完整syntomic图与晶体整格
+
+[完整证明](results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)。R1049在目标p惰性时保同一未depletion固定54图、全部η/Cor/full9。原图的Kp下降与η((p))=1先付，原H³(2)的φ²=−p^-1给BK exp一维。proper全Čech原函数的真实限制给AJ=p/(p+1)·原54项杯积和，p非单位不省。全NS判别式−p²、旧幺模格与Hodge分解给新增CM晶体指数恰1,p，c1D+=upΩ、c1D−=−p/(3up)Ω−且up单位；实际W₂线丛障碍给MW/p→H²(O)的Fp同构。仍须计算原Ξp的全标记限制并消费全球来源；未把μ、up或global障碍非零当加权AJ非零。 无新增数学执行或素数扫描，主要来源为Besser proper FP、DR§3.3、Ulmer晶体cycle map及原已付NS格；仍继续原函数限制。
