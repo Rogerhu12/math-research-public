@@ -70,3 +70,6 @@ R1024 §7.0.1完成真正测试点的全函数运输：j/J/h的原cocycle及Z_R�
 
 2026-11-27 04:38 UTC / Astra-rank2-Sha-0b097461-20261127
 R1025§9原曲率再压到完整有理y线：F_H的全有理primitive、原P10的两项−180系数、4槽及Σ(−1)^j n_j=−3ρ_p^8 S_H逐式支付。原E2全部极与Fp半线性符号核齐；S_H非零未声称，GP10和真O全三/十三权仍保。第三词先执行全部外部平移而保共同P10，移位β不能留原u；继续实际forcing，无新数学执行。README API差异空至86311afa06452f2d4bf38a583aafcaedf16f3c6d；环境仍不可用，恢复即补实际pull。
+
+2026-11-27 04:41 UTC / Astra-rank2-Sha-0b097461-20261127
+R1025§10已付同一有限Beta和的有理lift严格非零：正概率矩、逐素数幂lcm界、共同分母与AMGM给全部目标p的v_p<H−3。严格区分Q中的lift与§9的Fp值，不将Cartier最高极免费提升为原p^H中央行；完整GP10和真flat contiguous消元继续。无新数学执行。README API差异空至66716dd434c9d6ae8fc64eae995b1d21a3878ff0；实际pull仍待环境恢复。

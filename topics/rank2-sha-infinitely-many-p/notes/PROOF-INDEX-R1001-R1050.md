@@ -61,4 +61,4 @@
 
 - [R1024](../results/R1024-original-three-word-connection-and-complete-p10-primitive-adjoint.md)：原三字六固定连接保δ缩放；全P10 first-C伴随、真实weighted primitive及小留数/trace齐。三挠J_S的完整水平式、Gaussian费马商和−3非水平单位已付，原Miller/test/P10_S及Ξ初值同时保持；§7.0.1的全cocycle已将M准确拉回原O并保Gaussian符号改变，完整P10/Miller/十三权仍须同运，不直接充当canonical第三块。
 
-- [R1025](../results/R1025-original-delta-flat-weight-full-cartier-and-cm36-hermite.md)：原增长δ根权的全部六型Cartier表与全支撑证明，实际H5的两个old响应在全部目标p为单位；固定属16的CM36盖及全Hermite原函数保真实全纯γ。乘回P10后完整保GP10项，曲率准确落原四系数槽/四维空间；§6.1精确差原函数只剩固定t幂·x²U_B，但其U_C补线仍保；继续全外权和同primitive forcing，未将裸响应当canonical非零。§9进一步给原F_H的完整P¹_y有理primitive与同四槽最高极有限和，精确保留−180倍GP10及曲率两项，有限和非零和全外权forcing仍未付。
+- [R1025](../results/R1025-original-delta-flat-weight-full-cartier-and-cm36-hermite.md)：原增长δ根权的全部六型Cartier表与全支撑证明，实际H5的两个old响应在全部目标p为单位；固定属16的CM36盖及全Hermite原函数保真实全纯γ。乘回P10后完整保GP10项，曲率准确落原四系数槽/四维空间；§6.1精确差原函数只剩固定t幂·x²U_B，但其U_C补线仍保；继续全外权和同primitive forcing，未将裸响应当canonical非零。§9进一步给原F_H的完整P¹_y有理primitive与同四槽最高极有限和，精确保留−180倍GP10及曲率两项，有限和非零和全外权forcing仍未付。§10将同一有限和的有理提升写成严格负矩，自给分母界给全部目标p的v_p<H−3；仍须真正把原高精度中央读数接到该lift，未冒称模p单位。

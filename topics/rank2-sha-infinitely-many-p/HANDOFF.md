@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `86311afa06452f2d4bf38a583aafcaedf16f3c6d`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `66716dd434c9d6ae8fc64eae995b1d21a3878ff0`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；04:26UTC API逐文件核至a4f3ff79494e88cc61bd186622d6dd00813b0937，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-three-word-connection.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -39,7 +39,7 @@ R1022完整39支特征零trace已付：Rα=xAπRπ、两顺序原权、增长M=1
 R1024原三字给六个固定有理连接，target导数δ^-1及绝对权齐。完整C(P10u)=−ZC[Z9(D+10G)^(p−1)u]、真实weighted primitive/小留数和相同trace保持。S=(0,1)的J_S全水平有限式已付，J_S=a_SZp−3Z^(3p−1)+O(Z4p)，a_S=(3cp/2)·overline((qδ−1)/p)。原M_R,b、Miller及P10_S全定义/运输方程与非零Ξ初值仍保；§7.0.1全cocycle给t_-R*M_R=−M_-R，已实际回O并改正Gaussian符号；完整P10/Miller/13权仍须同拉回，不把−3或裸权当canonical第三行。续同原四行完整消元。
 
 
-R1025原u^H全六型Cartier与实际H5两old单位响应、固定属16的CM36盖及γ真全纯已付。§6.1完整Hermite差恰81t^(1−6r)x²U_B/[2(1−k)]，仍保x²U_B=(U_A+2U_C)/3。§9同一F_H=u^H Xy的有理primitive已显式，真P10返回仍为−180倍GP10F_H与Hcal·Z曲率两项；曲率在P¹_y全落4槽，最高极Σ(−1)^j n_j=−3ρ_p^8 S_H，S_H为已付有限和，未证非零。继续全三/十三权、真O/末四b；先执行全部外部τ保共同P10，移位β也必须全换，a_P仅变框架账本。
+R1025原u^H全六型Cartier与实际H5两old单位响应、固定属16的CM36盖及γ真全纯已付。§6.1完整Hermite差恰81t^(1−6r)x²U_B/[2(1−k)]，仍保x²U_B=(U_A+2U_C)/3。§9同一F_H=u^H Xy的有理primitive已显式，真P10返回仍为−180倍GP10F_H与Hcal·Z曲率两项；曲率在P¹_y全落4槽，最高极Σ(−1)^j n_j=−3ρ_p^8 S_H，§10该和的有理lift为严格负矩，v_p<H−3全p已付；模p单位和原高精度同式未付。继续全三/十三权、真O/末四b；先执行全部外部τ保共同P10，移位β也必须全换，a_P仅变框架账本。
 
 ## 三、几何与固定最高循环
 
