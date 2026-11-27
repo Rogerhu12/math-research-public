@@ -86,3 +86,9 @@
 ### 2026-11-27 BNC：完整B-normalized strictν96列首合同
 
 已证明完整contract/pure，尚未执行actual。原NP physical waist f=(y+ + y−)/2与完整U_H−1，经全部G=K48∘H24（真实a相位，不用odd G_o）作8192点/192新Fourier observations，再精确全96行配对。联合费eR BH N0+√96 BH D/√2+(768 EH/√m) JI N0+全analytic alias/全quadrature；JI消费DWTB完整既成HS，m由JC两whole候选推广至同homotopy，未额外√96/重旧norm。自然七targets=五完整费、whole joint、96 signed column；前驱DWTB未完成，不造实际manifest或成功声明。
+
+### 2026-11-27 SHT：实际selected尾端的global C²物理高度C1
+
+已证明，5条新增exact integer组合首次全过，不重旧science。完整链AγVγ+Cγ包含非mean/holonomymean/首principal/seed第二参数/reference1/全有限连接段与固定物理尺度，bound2^2048·2^-31222782+2^-56000000<2^-31220733。逐base两阶段Taylor保GHC的A0/E21连续和GHW原H8193 operator拓扑，不偷A0 operator连续；actual matched inward差商进入closed global二jet子空间，得到strict H8193 interior C1与原闭域逐base相对A0余项。实际λ另加Dλ，一个mean row仿射消去只该row，moving endpoint/test另付其真导数，core/world/两端span全保。GHR/GHC/GHW三proof仅按根规4转换为$/$$，数学和17/9/10既成比较不变不重算。
+
+04:03:28 UTC私库API刷新8e02ac56234cae106cb36c515af382fbf8633033，README原blob无diff，QUEUE仍本session进行中；当前环境仍无成功terminal恢复，不虚称git pull。

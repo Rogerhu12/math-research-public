@@ -484,3 +484,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### BNC：完整target-normalized strict参数列（已证明合同）
 
 [完整证明](results/R147-supplement-target-normalized-strict-parameter-column.md)与[首列纯实现](scripts/fourfold_codazzi_target_normalized_strict_nu_column.py)。完整G保真实a相位，192个新Fourier observations与96完整B inverse rows共同配对；原NP whole carrier/PO norm/ASB真error和全quadrature/alias/composition费均保。联合fee含eR BH N0、√96 BH D/√2和(768 EH/√m)JI N0。JC的m适用完整G/H同homotopy；DWTB whole后才可实例化七新targets，不把旧PO pairings视为完整96列。
+
+### SHT：实际selected tail的完整global C²物理高度响应（已证明）
+
+[完整证明](results/R119-supplement-C1-physical-height-of-the-actual-selected-tail.md)与[5条新整数组合](scripts/fourfold_codazzi_selected_physical_height_saved_bounds.py)。原S/T闭域，完整physical height的A0差与线性响应≤2^-31220733/rγ；包括mean、reference1、全Γ反馈和整个finite connector。实际匹配解的inward差商在闭二jet子空间取极限，得strict H8193 interior→global physical C²的C1，闭域逐base相对A0一阶余项；不偷A0 operator连续。独立λ导数单列；一个固定物理mean row可精确仿射消去且常数2^-31220732，但两端span、moving test、world/core与最终fixedmetric族仍独立。三GH proof公式定界符仅修渲染，无数学重跑。
