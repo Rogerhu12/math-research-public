@@ -11,7 +11,7 @@
 - 07:20UTC本地执行再次失联；08:12两库实际pull再次尝试均明确No usable execution environment。私库API至5d54a63ae9dd77a3ae010c470c344b5de21e42e4逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。08:12公开API至d990f197a7d196e1400d7cbf997a4cf2c36b7ee8，两README blob仍同07:12；全部最新父比较无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-full-alpha-jacobian.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-complete-dyadic-return.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
 ## 一、唯一原几何作业及原生后端
 
@@ -33,7 +33,8 @@ R1021§§8–11两δ-new原来源的完整24字/χ8与Q1=2yD−9x²给QfB=2fA/15
 
 R1021§12原三处norm全Fp/Z cocycle及有限Taylor锁定Kδ=δGδ−G−G+−G−=9ρpZ^(5p−2)+O(Z^(7p))；水平项原从4p并受型迫7p，原Zp/6p−1实际消，无需未知Fermat商。真实连接差−10Kδ仍保整个P10/Ξ/cut/13字，首单位尚未forcing。
 §13原N390两源的三个E2译像Π0T_Tf=+f/√3，完整finite/Hermite及α换代表负相位相符，整J真授权；返回必须同时取W(·−T)、Miller/cut及E2→O极费，不拆十三字。
-R1021§14原Aδ有18Z^(6p−1)单位，但P30适配连接180与曲率−180同阶相消；去原Gaussian后的−27e10,p−e30,p水平初值及全部低卷积保留，不代比例/中央非零。
+R1021§14原Aδ的18单位在完整P30适配中180/曲率−180相消，去Gaussian后的−27e10,p−e30,p水平初值/全部低卷积保留。
+§15原三个E2 lift整和式S390f=√3f严格成立；degree390/378的有序Pauli中心为+i/−i。B12共轭保q⁴与q⁻⁴两个不同方向，第四和式准确保f与非principal g乘x的真principal项；新378两dyadic质量为(c6±3^-94P′(−1))/2。固定R的Hermite全纯项1与完整P10曲率齐，未给378新零或旧5/13标签。
 
 R1025原λ1−10λ2/81=−305ρ⁸B0(s−3)/7128为全p单位，完整Hermite/primitive/GP10/曲率齐，forcing未付。R1026低H同K和全13权/dVδ齐；R1028固定末六水平式、target全39首primitive、四阶G/cut的36阶帽与P10曲率全保，Jordan单位不代forcing。R1030原charge65三次角域/195余权整基及导子齐，两约分degree50真canonical恰为trace-zero基；三物理像保同H/E六位与共同核，不能相加rank。
 
@@ -43,9 +44,9 @@ R1032/1034旧β/γ的全39、N130、even/odd、六Weyl极/cocycle/原cut/Ξ及�
 
 ## 三、原几何与固定最高循环
 
-R909/R906/R924–927原两图306/46971、微分1296及λ/vnew/∞/17均有回执；四交/全厚Norm/18×9仍待唯一作业。R885/897不把c1非零当整个H¹等式；R979/984固定7993和三Griff独立不排κ0。R988/990的CM17K3全trace零不重试。R991/994 full9与三β27全L(1)>0保持，R995/997/1006 full54/η/Cor/−486常数给AJ²=KνKβ，R1002只付Kβ，ν未付。R998仅消mixed eE−；R1011固定7993不跨p；R1009排有限1-motive，纯CM不代mixed跨p。
+R909/R906/R924–927原两图/微分/λ/vnew/∞/17均真回执，四交/全厚Norm/18×9仍待。原full54/η/Cor/−486接AJ²=KνKβ，R1002只付Kβ，ν未付；R885/897 corec1门、CM17K3全trace零、7993有限输入、mixed与1-motive旧排除均在归档保持原范围，不重做。
 
-R1014原非恒period族/四全局解消与已发表HYZ B给充分大惰性q的Tate，MW=(q/3)A2、NS−q²、两Br0；q0未知保持。R1017 q5及R1019 q11三旧固定输入的负回执不重试。完整η/Cor shadow被q+1杀，ordinary检测必q≡−1mod6p。R1023原Hesse/全3有序cube及αT=S3保持；不将同源自提升为同一三型。
+R1014已发表HYZ B给充分大惰性q的Tate、MW=(q/3)A2、NS−q²和两Br0，未知q0保留。q5与q11三个固定D的负回执不重做。全η/Cor shadow被q+1杀，ordinary检测q≡−1mod6p；R1023原Hesse/有序cube和αT=S3不代同三型自提升，全部条件见原证。
 
 R1027原54正重数配成27、End=O34、全特殊端点与未知D的M/N费用齐；仅Tate大q最短anti Q高2q/3迫I3分量±1，D度(q−2)/3避T/−T/O。存在性不代实际Q/27权。
 
@@ -59,4 +60,4 @@ R1031§§12–15将同一Cδ双向化为(A³−1)(B³−1)=9，κ下降与Jac度
 
 O4最早a≤1/δ²、O6全Np有限/原q_p=1、O7同解共振/全Laurent/非恒Y权仍开。R953跨parity、R954 forcing成员性及P134/十九角/charge40全部未付条件在open和逐字归档，不以秩常数改善当闭合。
 
-central：真实三块forcing、N390译源/完整变权/原Q†；arithmetic：新χα同H高M、Qtop/Q(−1)、全低位及实际测试；geometry：原谱盖/CM二同源/Frob接两quadric及27权；root：论证接线、唯一公开作业/原生后端、同步与逐条推送。继续实际未解门，不作阶段性收尾。
+central：真实三块forcing、N390译源/完整变权/原Q†；arithmetic：实际F378两输入的完整2×27×7 canonical分解，原χα高M/Qtop/Q(−1)继续与central接线；geometry：原谱盖/CM二同源/Frob接两quadric及27权；root：论证接线、唯一公开作业/原生后端、同步与逐条推送。继续实际未解门，不作阶段性收尾。

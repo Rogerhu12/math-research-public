@@ -1789,3 +1789,175 @@ $$
 (95) 的全低卷积也不能从原高位物理矩阵中删除。
 
 本节无新增数学执行。
+
+## 15. 三个二挠 lift 的完整 Pauli 返回与真实 fourth 余项
+
+本节继续用 §13 的同一两个完整 $f$，保持全部十三字。
+记 $U_r=T_{r/2}^{390}$、$V_r=T_{r/2}^{378}$
+（$r=1,\omega,\omega^2$），并令 $S_N$ 为相应三个 lift 之和。
+所有代表和正实 $\sqrt3$ 均沿 R967，不重新选中心。
+
+### 15.1 whole 和式及两种不同的中心
+
+R967 §3 已付 CM 对三个指定 lift 的严格循环；
+它们也保持偶性。
+因此 $S_{390}$ 与原 principal 投影交换。
+$f$ 本身 principal，故 §13 的三个准确投影立即给整个截面恒等
+$$
+\boxed{S_{390}f=\sqrt3 f.}
+\tag{96}
+$$
+这里的推理使用整个和式已 principal，不把一个未成轨道的译像直接等同于其投影。
+
+中心还可完全核定。
+原 Weyl 公式是
+$T_u^NT_v^N=\exp(\pi iN E(u,v))T_{u+v}^N$，
+且 $E(1/2,\omega/2)=3/4$。
+因 $1+\omega=-\omega^2$，偶 degree 下 $T_{-T}^N=T_T^N$，准确得到
+$$
+U_1U_\omega=iU_{\omega^2},\qquad
+V_1V_\omega=-iV_{\omega^2},
+$$
+及其循环式；反向乘法各添负号。
+两种 $S_N$ 都平方为 $3I$，但其有序 Pauli 中心确实相反。
+不能只凭抽象二维表示把 (96) 的标量移给 $S_{378}$。
+
+### 15.2 一个实际 whole degree378 来源
+
+置
+$$
+B_{12}=\sigma^{12}y^2=\frac14\sigma^4\sigma(2z)^2,\qquad
+F=f/B_{12}.
+$$
+$B_{12}$ 在 $O$ 恰六阶零，在三个二挠点各恰二阶零。
+原 $f$ 在这些点分别至少六阶、二阶零，故
+$F$ 是完整 degree378 截面。
+它的质量为 $c_6(f)$；不能因为 $f$ 质量零就给 $F$ 赋质量零。
+
+写 $T=(e,0)$、$e^3=-1$，原准确 Miller 乘子为
+$$
+q_T^2=\frac{e^2}{\sqrt3}(x-e),\qquad
+x_T=\frac{e(x+2e)}{x-e},\qquad
+y_T=-\frac{3e^2y}{(x-e)^2}.
+$$
+逐项回乘给
+$$
+T_T^{12}B_{12}=q_T^4B_{12},\qquad
+q_T^{-4}T_T^{390}f=B_{12}T_T^{378}F .
+\tag{97}
+$$
+没有遗留 scalar。
+特别原 whole 关系 (96) 等价于
+$$
+\boxed{\sum_Tq_T^4T_T^{378}F=\sqrt3F,}
+$$
+而所需的另一和式准确是
+$$
+\boxed{\sum_Tq_T^{-4}T_T^{390}f=B_{12}S_{378}F.}
+\tag{98}
+$$
+两者的权方向不同。
+确切 cocycle 为
+$q_T^4(q_U^4\circ t_T)=-q_{T+U}^4$（$T\ne U$），
+使 (97) 的加权 degree378 算子恢复 degree390 的 $+i$ 中心。
+这明确支付了两个 degree 之间的相位差。
+
+### 15.3 fourth 和式的全部两个来源
+
+定义同一个实际 dyadic 伴随
+$$
+g=(U_1-1/\sqrt3)f .
+$$
+由上述 Pauli 乘法及 (96)，直接解得
+$U_rf=f/\sqrt3+r g$。
+在函数作用 $C_\omega f(z)=f(\omega z)$ 的规范下，
+$C_\omega U_1=U_{\omega^2}C_\omega$，故
+$C_\omega g=\omega^2g$。
+$g$ 偶且在 $O$ 从 $z^2$ 起；不把它赋成新的 principal canonical。
+
+坐标 $e=-r$，而
+$$
+\sum_{e^3=-1}q_e^{-4}
+=\frac{9(1-2X)}{(X+1)^2},\qquad
+\sum_{e^3=-1}e\,q_e^{-4}
+=-\frac{9x(X-2)}{(X+1)^2}.
+$$
+因此实际第四费用的全部返回为
+$$
+\boxed{
+\sum_Tq_T^{-4}T_T^{390}f
+=\frac{9(1-2X)}{\sqrt3\,y^4}f
+ +\frac{9x(X-2)}{y^4}g .
+}
+\tag{99}
+$$
+右边整体 whole 已由 (97) 支付。
+第二项不能因为 $g$ 非 principal 而删除：
+$xg$ 的整体 CM 型恰为 principal。
+同样不能把其中任一非常数乘子移出中央读者。
+
+其质量也完全可追。
+若 $f=\sigma^{390}P_f(X)$，
+实半点加法给
+$g=9\cdot3^{-195/2}P_f'(-1)z^2+O(z^8)$。
+从 (99) 得
+$$
+m_0(S_{378}F)=81\cdot3^{-195/2}P_f'(-1).
+$$
+故两个真正 degree378 dyadic 分量
+$$
+F_\pm=\frac12(F\pm S_{378}F/\sqrt3)
+$$
+准确满足
+$$
+\boxed{
+S_{378}F_\pm=\pm\sqrt3F_\pm,\qquad
+m_0(F_\pm)=\frac12\{c_6(f)\pm3^{-94}P_f'(-1)\}.
+}
+\tag{100}
+$$
+这不是对其五、十三标签的保留声明；
+除去 $B_{12}$ 后必须重新支付该 degree 的完整算术谱。
+也没有给 $F_\pm$ 或 (98) 新增中央零。
+
+### 15.4 固定有理原函数及完整 P10 费用
+
+(99) 的第一项系数有完整的固定 Hermite 身份。
+令
+$$
+\mathscr W=\frac{9(1-2X)}{y^4},\qquad
+\mathscr R=\frac{x(X+4)}{y^3}.
+$$
+直接使用
+$$
+D\frac{xP(X)}{y^3}
+=\frac{(2-7X)P+6X(X+1)P'}{y^4}
+$$
+并取 $P=X+4$，得到
+$$
+\boxed{\mathscr W\,\omega_E=d\mathscr R+\omega_E.}
+\tag{101}
+$$
+因此它并非一个可以在特征零删除的裸 exact；原全纯项为一。
+
+在原同点 finite reader 中，对完整实际测试 $a$，
+$DP_{10}=10GP_{10}+10\mathcal H^pZ^{p+9}$ 给
+$$
+\boxed{\begin{aligned}
+C(P_{10}\mathscr W a\,\omega_E)
+={}&C(P_{10}a\,\omega_E)
+-C(P_{10}\mathscr R(D+10G)a\,\omega_E)\\
+&-10\mathcal H Z\,C(Z^9\mathscr R a\,\omega_E).
+\end{aligned}}
+\tag{102}
+$$
+这保留原曲率和全部 $D a$。
+用于原字时 $a$ 含整个 Miller、cut 和 Fourier 权，
+所有函数必须按实际外部 pull 放到同一个点。
+特别 (102) 不能替换 (99) 中真实的 $g$ 项。
+任何对含 $\sqrt3$ 系数再施 Cartier 的步骤均保其半线性根，
+不假定该常数被 Frobenius 固定。
+
+(96) 是原算术假设已授权的 whole 行；
+(98)–(102) 则将所需第四费用准确落到两条实际来源和确定连接项。
+本节没有从这些不同的行之间跳过权差，也没有新增数学执行。
