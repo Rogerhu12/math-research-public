@@ -165,3 +165,6 @@ L0新[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-pl
 
 
 L0新[整X的lambda首项排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-X-lambda-leading-complete-exclusion.md)已付w=−1/−1/2及整个H7：两个原QQ Bézout和273次完整QQ覆盖/保52与7次的一元1009 Bézout全回乘。X可在已付环首一化为34次；续其他原曲线的同点除法/返回，不倒置未知余式首项。源579c3c75实际21.538033秒/exit0。
+
+
+[闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
