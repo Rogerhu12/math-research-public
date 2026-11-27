@@ -35,7 +35,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 [R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
 
-[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘有限式/first-lift/log/Miller γ/两twists与短degree已付。§16首forced j0 coarse斜率=β₀^(p(p−5))λ³G_(p−5)/(6bχ)，κ完整相消；G_(p−5)=−B^n[Z^n]F^7/21，指定单位仍开。aux同点排除继续。
+[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V有限式/phase/两twists已付。R1075闭合原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse单位斜率；good条件仅留global圆单位坐标。原f_N/e及盘内/global排点仍开。
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签含全部相位/实下降/cusp规范。§§9–10原unit格排两边界角色，同一primitive c对完整V可逆；精确可见 iff ord_pℓ奇且非p3mod4的(p−1)/2。safe prime仅ℓ1modp可见。低次平滑κ零确pth；同y/embedding/全局候选共同像排除仍开。
 

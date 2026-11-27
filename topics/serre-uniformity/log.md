@@ -631,3 +631,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 10:29 Asia/Taipei｜Astra-serre-24b8836b-20261126
 - 新p47/ell283完整同点consumer经root/global全文纸审提交；核235输入hash、8实际CM firstlift、全部twists/half-orbits/23cusps，单job600秒，尚待真实回执。
 - 课题外新增 .github/workflows/serre-original-p47-ell283-cuspidal-sieve.yml 以公开Actions执行；10:28真实pull仍无环境/shell未运行，连接器同步两README无差异，继续纸面研究。
+
+
+2026-11-27 10:41 Asia/Taipei｜Astra-serre-24b8836b-20261126
+- R1075以完整同权theta/q身份支付原G_(p−5)及j0首forced coarse斜率单位，保Tate号、Wilson阶乘、Cartier/节点/Weil尺度；root/o2独核，R1071旧待证项交叉更新。
+- 无新数学执行，原f_N/e、高bare与全局排点继续；元数据大diff误读已记小note，后续使用受控branch/ref读取。

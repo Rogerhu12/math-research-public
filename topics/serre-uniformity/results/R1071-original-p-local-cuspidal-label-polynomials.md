@@ -1314,3 +1314,8 @@ $$
 非 CM 有理点；不能据此写成 Serre 已完成。
 global_route 给出原 first-lift 梯度和经典 CM 源的准确消费，
 o2/root 独核 degree $p$ 的积分、参数变换及 $p^2$ 精度。
+
+
+## 18. 后继单位证明
+
+[R1075](R1075-original-Hurwitz-unit-and-first-cuspidal-slope.md) 已用完整同权 theta 恒等式证明原 $G_{p-5}$ 在超奇异参考上非零当且仅当 $j\ne1728$。在本篇原 $j=0$、$\mathbf F_p$ 标架，准确为 $G_{p-5}=-24B/(7\beta_{\rm Car}^5)$，$\beta_{\rm Car}=C_{\rm rel}(x\omega)/\omega'$。这关闭 §16 所留的该单位问题；(1071.54) 原局部斜率无条件单位，(1071.55) 的唯一 global 圆单位坐标仍保 Bernoulli-good 条件。原 $f_N/e$、高 bare 及全局排除不随之关闭。

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：54b28c472b84e408ec453b57a07599d29ddcb39a**（2026-11-27 10:29 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：72b66100a3bd20ae115ba77a4d0c4b025232d3b9**（2026-11-27 10:42 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；10:28再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -34,7 +34,7 @@ R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新�
 
 [R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10个实际角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
 
-[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：原全V finite式/phase/两twists已付，degree≤min(R,p−R)。§16首forced j0 coarse斜率准确为β₀^(p(p−5))λ³G_(p−5)/(6bχ)，G单位仍开；aux共同像继续。 §17原Hasse梯度与8个已知CM first-lift定位已付。
+[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：原全V finite式/phase/两twists已付，degree≤min(R,p−R)；§17付Hasse梯度及8CM first-lift。 [R1075](results/R1075-original-Hurwitz-unit-and-first-cuspidal-slope.md)现证原G_(p−5)=−24B/(7β_Car⁵)于j0，故首forced coarse斜率单位；good仅用于global圆单位基，原f_N/e仍开。
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签全部相位/cusp规范齐备；§§9–10扩至完整实际V，同一primitive c可逆，两个边界角色实际缺席。全V辅助可见性精确已付，仍须同点共同像排除。
 
