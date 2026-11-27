@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 unit211：整W lambda=3/2的372/403完整QQ覆盖及后段xgcd SIGALRM](results/R150-appendix-unit211-W-lambda-three-halves-two-complete-QQ-projections.md)：两个固定原投影、只去已付k因子、逐系数1009整；准确冻结未返回步骤。
+
 - [R150 unit211：整个h=k紧凑原五行、三列与全Delta cofactor](results/R150-appendix-unit211-equal-singleton-global-compact-original-three-column-cofactors.md)：同一z上的完整原返回，三个新参数必要多项式；不倒Delta，整个零面与首项零保留。
 
 - [R150 unit211：Phi例外权混合原返回后的168不同有序基点界](results/R150-appendix-unit211-Phi-zero-exceptional-mixed-original-168-cover.md)：新C34,48与真实2033首一覆盖的完整模Bézout/Gauss；所有原头零保留，模候选未当QQ因子。
