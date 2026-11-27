@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-list-snapshot-fixes-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-pure-T-three-cofactors-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -229,3 +229,5 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **W十三原行由[低D次十一行原理想](results/R150-appendix-unit211-W-original-odd-NP-full-NV-lower-D-ideal-compression.md)继续。** 原D非0域内保NS/PS/R6，两个个别N/P奇部及完整NV可各降为一次D清除，13→11理想精确等价；三个完整BigInt身份真实3ms返回。391首次新11×6构建不重跑394的40MB原行；T3/F2自由只指首一环境，r2头与未付参数零面保留，不倒D范数。
 
 **两个小输入的列表快照错误。** [真实失败记录](notes/2026-11-27-unit211-Phi-zero-two-small-input-list-snapshot-failures-8542.md)：4e84已付四头共同零的QQ覆盖u3/2或F10后，K[Q]乘回比较对象被原地修改；4d64已付λ半三曲线各剥(rho+1)^3后同错，均exit1且无资源失败。旧源/部分数学保留；新8890/69ab各只改list(a)，唯一首派，不提前标整纤维排除。
+
+**[W纯T三列三个完整原参数式](results/R150-appendix-unit211-W-global-pure-T-three-original-parameter-cofactors.md)。** 505只取原r2/R6及真S乘法，三个固定3×3常数列全返，余(e,k,λ)度34/40/16、34/40/16、40/48/19；真12.786秒/169540KiB/0。λ最高次的809/816/1227项头仍未付，全部零纤维保留，不作全图首一λ。原U atlas明确λ=m/U0非零供后续剥除，本次profile不改不重跑；个别N/P与完整NV继续低11行。
