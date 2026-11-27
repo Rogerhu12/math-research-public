@@ -8,7 +8,7 @@
 
 root独占git/H/open/log/index；每条结论即推。非快进立即实际pull --rebase、检查README差异、重比新父后再推到成功，不force。令牌只命令行/进程，不写文件/提交/API。数学执行只在公开Actions，4CPU/16GB/6h；根规则15禁止存可重算结果/日志/矩阵缓存，必要输入证书和脚本/参数/run/hash照原规。H<10KB、每MD<100KB、topic<200MB。
 
-本次整理前[完整交接](notes/2026-11-27-handoff-before-full54-geometric-newton-cross.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
+本次整理前[完整交接](notes/2026-11-27-handoff-before-paired-lame-and-heat-jet.md)逐字保所有旧参数、门、失败及更早归档链；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)给实际状态。不重做已登记结论，不将旧反例或未付条件删为已付。
 
 ## 实际同步与规则
 
@@ -35,11 +35,13 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 [p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)保incoming完整剔除和0。[fixed-base向外全式](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)保原底曲线、全部cyclic p²级、全degree34→34p²修正图及Ω^[p]=d0*Ω−p⁻²λ*d2*Ω；proper AJ全和为(p²−1)I。
 
-**[原full54全精度交叉比较](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)已付**：新beta实际Schwartz共用固定Heisenberg cover，N=34M²、原Ω0h∞尺度及真空1；Jβ∈1+pO〈v〉、Jβ0=1。正权全KS/Hecke给C2H=(p+1)p^wH，完整fixed-base剔除因子M_p(1−p⁻²)非零；不从端点倒推。Kriz局部Γ(2,2) good邻域、原3/full9、全p² torus轨道和principal微分倍率逐项保；H−2由完整H-valued Coleman配对和R997水平规范识别。参数n=(p²−1)u−2、v=(p−1)u的稠密正整数先消所有共同factorial/period/p幂，才取u0，得I_j B_l K_l0=I_l B_j K_j0。至少一K单位且原好范围下I_j=Fgeom B_jK_j0、h_j=Fgeom(B_j/a_j)K_j0，Fgeom单位且barFgeom=−[L:H]。无K单位时只用cross式；不冒全局类等同或无穷非零。实际canonical必要零关系仍须继续。
+**[原full54全精度交叉比较](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)**：实际beta固定共同cover/N=34M²、真空1及Jβ∈1+pO〈v〉；正权全KS/Hecke、Kriz Γ(2,2)局部H−2配对和R997水平规范保持原54/η/Cor。稠密n=(p²−1)u−2、v=(p−1)u只在正权消共同factorial/period/p幂，给I_j B_lK_l0=I_lB_jK_j0。一K单位及原好范围时I_j=Fgeom B_jK_j0，Fgeom单位、barFgeom=−[L:H]；无K单位只用cross。不冒全局类相同或无穷非零。
 
 固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)已付三K29单位，不代c_j/q0好范围。whole17 Heisenberg提升及p≡2/5mod9的三线循环全保；原四元平均B完整六列、三列及模11非同谱已付，不能以B³或单U_e免费传播canonical。
 
-**[原canonical二阶完整Newton](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)已付**：Q=D²S不是有界type4截面；完整三项卷积保Gaussian，J_Q^[-2]=d v(dv−1)J_S、K_Q=d(dv−1)J_S/p。其尾只直接继承B_(h−2)，已独立付整性/全部导数收敛。K_Q0恒0，真正坏条件是K′_Q0=−dJ′_S/p=0。同原全六列F=∇34²S分P4及另一dyadic块，D²S=F++F−+68ζ∇S+(1156ζ²−34x)S；完整端点/一阶两行与三U_e交换子皆保。模p K_Q=α_Sv(v−1)，h2、h3补偿不可删；继续同一一阶补源，不能把K_j0单位当canonical简单零。
+**[原canonical二阶完整Newton](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)**：Q=D²S真三项卷积给J_Q^[-2]=dv(dv−1)J_S，尾B_(h−2)独立支付；K_Q0恒0，坏条件准确是K′_Q0=−dJ′_S/p=0。F=∇34²S完整六列、两dyadic和R=68ζ∇S+(1156ζ²−34x)S全保；三U_e交换子保真实费用。模p K_Q=α_Sv(v−1)须合h2/h3，K_j0单位不代此一阶必要关系。
+
+**[原B完整paired基本解](notes/2026-11-27-original-type4-inert29-coefficient.md)§8**：低9真实char=det(T³I−1024C)在char0九根互异非零；每首一deg8 Qλ在全部e³=−1非零，由原U_e给deg17第二解。18解付全B半单，W_x=9(δe)^−17Qλ(e)(X+1)^8。固定genus3覆盖s⁴=X+1上Q/s17及U_eQ/s17给整个n=17/2 Lamé基本矩阵，D_z-W恒非零。原entire W=2cσ68y17、σ2z半幂和CM13不交换均保；只代数Lamé部分在固定好集外p曲率0，不替原p−1读者。
 
 ## 主目标及其余原门
 

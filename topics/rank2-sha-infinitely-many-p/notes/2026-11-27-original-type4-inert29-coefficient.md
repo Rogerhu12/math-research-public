@@ -487,3 +487,202 @@ $j_{p+1}(S)=34c_p\,m_0(S)=0\pmod p$。
 不能将这一自动一阶整除代成 $r_{p-1}(P_{B_4}\nabla^2S)=0$。
 本节支付了原有限二阶算子、完整三列矩阵和这些实际来源关系，
 跨 $p$ 非零或原中央强迫仍要在同一个完整读者中完成。
+
+
+
+## 8. 同一个 dyadic 平均的完整成对基本解
+
+本节给§7的整个偶18维算子一个固定代数基本解，而不只给某一个
+特征向量。原 sigma 因子、所有半周期相位和原 $p-1$ 读者保持。
+本节没有数学执行。已检索原 public/private 的 Lamé、Wronskian、
+half-density 与 dyadic 记录；R565 的普通 degree6 paired-$V$
+两列是不同来源，本节不重复该结论。
+
+### 8.1 低九维全部谱与重根范围
+
+置 $V_{\rm lo}=\overline K[x]_{\le8}$，仍用§7的
+$$
+B=4(x^3+1)\partial_x^2-96x^2\partial_x+544x.
+$$
+它严格保持 $V_{\rm lo}$。按次数模3将此空间分为三块
+$V_0,V_1,V_2$，$V_0=\langle1,x^3,x^6\rangle$；
+$B$依次把三块送到下一块。在 $V_0$ 上
+$B^3=1024C$，$C$正是§7.2的完整三列矩阵。
+
+因为 $\det C=6670664000\ne0$，三个块间的映射皆为同构，
+所以低九维的特征多项式准确为
+$$
+\chi_{\rm lo}(T)=\det(T^3I-1024C).
+$$
+这里并非从 PB4 的特征根数猜出九维谱。
+$\chi_C\bmod11=T(T^2+4)$有三个不同根，故
+$\chi_C$在特征零可分；其常数项非零，故三个根也都非零。
+因此 $\chi_{\rm lo}$在特征零有九个不同的非零根。
+
+对每个根 $\lambda$，存在唯一首一低解
+$$
+Q_\lambda\in K(\lambda)[x],\qquad
+BQ_\lambda=\lambda Q_\lambda,\qquad
+\deg Q_\lambda=8.
+$$
+低解必须恰为8次：若最高次数 $a<8$，§7的
+$4(a-17)(a-8)x^{a+1}$不能在特征方程中抵消。
+低九维特征根简单后，首一性固定整个向量。
+
+此处未宣称模11的九维谱可分：$\det C$被11整除，模11的
+$\chi_{\rm lo}$确有重复零根。后文若在有限特征使用成对谱，
+须删去 $2,3$、$\det C$、$\operatorname{disc}(\chi_C)$及实际
+固定代数系数/格的分母、非零常数的范数支撑；还取 $p>17$。
+这是固定有限集合，不是依 $p$另选一组特征向量。
+在此范围外本节不排除约化的重根或 Jordan 块。
+
+### 8.2 原半周期给第二整多项式解
+
+对 $e^3=-1$，保§6原 lift 的全部常数：
+$$
+(\mathscr U_eQ)(x)
+=(\delta e)^{-17}(x-e)^{17}
+Q\!\left(\frac{e(x+2e)}{x-e}\right),\qquad
+U_e(\sigma^{34}Q)=\sigma^{34}\mathscr U_eQ.
+$$
+§7的真实四元共轭平均已经证明 $B\mathscr U_e=\mathscr U_eB$。
+故
+$$
+R_{\lambda,e}=\mathscr U_eQ_\lambda
+$$
+是同一特征值 $\lambda$ 的第二多项式解，次数至多17。
+
+先证明对三个实际二挠点均有 $Q_\lambda(e)\ne0$。
+若 $Q_\lambda$在 $x=e$有正零阶 $r$，令 $t=x-e$。
+在 $(B-\lambda)Q=0$的最低 $t^{r-1}$项中，
+$$
+4(x^3+1)=12e^2t+O(t^2),\qquad -96x^2=-96e^2+O(t),
+$$
+所以其系数为
+$$
+12e^2r(r-9).
+$$
+特征零只有 $r=9$可行，而 $\deg Q_\lambda=8$，矛盾。
+这证明的是每个根、每个 $e$的原全值非零，非有限 jet 拟合。
+因此
+$$
+\deg R_{\lambda,e}=17,\qquad
+[x^{17}]R_{\lambda,e}=(\delta e)^{-17}Q_\lambda(e).
+$$
+它与 $Q_\lambda$线性独立。
+
+九个不同 $\lambda$各给两个独立多项式解。不同特征值的
+特征空间直和，故这些18个解已构成整个
+$\overline K[x]_{\le17}$的基。于是本篇的完整偶18维算子
+在特征零确为半单，特征多项式为 $\chi_{\rm lo}(T)^2$；
+没有从“存在特征值”直接推半单。
+每个二维特征空间中，所有三个 $R_{\lambda,e}$均在同一
+已给的二维空间，原 Pauli lift 及其非交换乘法仍保持。
+
+### 8.3 完整 Wronskian 与一个固定 genus3 覆盖
+
+以 $x$求导的 Wronskian 定向为
+$$
+W_x(Q,R)=QR'-Q'R.
+$$
+同一二阶方程直接给
+$$
+W_x'=\frac{24x^2}{x^3+1}W_x.
+$$
+因此
+$$
+\boxed{
+W_x(Q_\lambda,R_{\lambda,e})
+=c_{\lambda,e}(x^3+1)^8,\qquad
+c_{\lambda,e}=9(\delta e)^{-17}Q_\lambda(e)\ne0.
+}
+$$
+常数由两个首项次数 $8,17$逐项读出，保原 $\delta,e$相位。
+
+取固定光滑曲线
+$$
+\mathcal C:\quad s^4=x^3+1,\qquad y=s^2.
+$$
+它是 $E_0$上 adjoining $\sqrt y$的二次覆盖。
+分支恰为三个 $y=0$点与 $O$，故 Riemann–Hurwitz 给
+$g(\mathcal C)=3$；这与特征值 $\lambda$无关。
+在其函数域中置
+$$
+\phi_{\lambda,1}=\frac{Q_\lambda(x)}{s^{17}},\qquad
+\phi_{\lambda,2}=\frac{R_{\lambda,e}(x)}{s^{17}}.
+$$
+对原物理导数 $D_zx=2y$，直接共轭给
+$$
+\boxed{
+y^{-17/2}B\,y^{17/2}=D_z^2-323x(2z),
+\qquad
+x(2z)=\frac{x(x^3-8)}{4(x^3+1)}.
+}
+$$
+例如令 $a=(51/2)x^2/y$，零阶项为
+$D_za-a^2+544x=-323x(x^3-8)/(4(x^3+1))$；
+一阶项准确消失。
+故两个 $\phi$满足整个方程
+$$
+(D_z^2-323x(2z))\phi=\lambda\phi,
+$$
+并且
+$$
+\boxed{
+\phi_{\lambda,1}D_z\phi_{\lambda,2}
+ -(D_z\phi_{\lambda,1})\phi_{\lambda,2}=2c_{\lambda,e}.
+}
+$$
+后一式保全函数，不仅在 $O$成立。
+在变量 $w=2z$下，这就是参数 $17/2$、accessory 参数
+$\lambda/4$的 Lamé 方程；其基本矩阵已在上述固定代数覆盖上
+完整给出。没有调用一般 Lamé 有限单值性分类。
+
+在前述固定好素数之外，将整基本矩阵约化后仍有非零常数行列式。
+因此这个**代数 Lamé 部分**的连接在同一 tame 二次覆盖上
+平凡化，其 $p$-curvature为零。此句既不涉及原 sigma 水平因子，
+也不给原 Taylor 第 $p-1$行赋单位。
+
+### 8.4 回到原 entire frame：共同因子不能删除
+
+真实两个 degree34 截面为
+$$
+F_{\lambda,1}=\sigma(z)^{34}Q_\lambda(x(z)),\qquad
+F_{\lambda,2}=\sigma(z)^{34}R_{\lambda,e}(x(z)).
+$$
+原 duplication 恒等式 $\sigma(2z)=-2y(z)\sigma(z)^4$给
+$$
+F_{\lambda,i}
+=\left(-\frac{\sigma(2z)}2\right)^{17/2}\phi_{\lambda,i}.
+$$
+平方根分支与 $s^2=y$联动，右边整个乘积就是左边已固定的
+单值截面；不能分别改其中一个平方根。
+完整 Wronskian 则无需平方根：
+$$
+\boxed{
+F_{\lambda,1}D_zF_{\lambda,2}
+ -(D_zF_{\lambda,1})F_{\lambda,2}
+=2c_{\lambda,e}\sigma(z)^{68}y(z)^{17}
+=2c_{\lambda,e}\left(-\frac{\sigma(2z)}2\right)^{17}.
+}
+$$
+首项独立检查也固定其号：
+$F_{\lambda,1}=z^{18}+\cdots$、
+$F_{\lambda,2}=(\delta e)^{-17}Q_\lambda(e)+\cdots$，
+故左边首项是 $-18(\delta e)^{-17}Q_\lambda(e)z^{17}$，
+与右边一致。
+
+整个 $p-1$ functional 仍读取
+$$
+[z^{p-1}]
+\left\{
+\left(-\frac{\sigma(2z)}2\right)^{17/2}
+\phi_{\lambda,i}
+\right\}.
+$$
+本节没有把它改成 $\phi$的裸 Cartier 输出。
+特征零共同 sigma 因子在原 R855/R856 的 Gaussian/Hurwitz
+返回中必须完整保留。另由§7.2，$B^3$不与原 CM13 交换，
+所以这九对基本解也不是三条原 $D_j$的独立算术特征线。
+本节支付完整成对 connection 及相位，后继仍须把它用于
+同一个原 PB4 行或实际 canonical 必要读者。

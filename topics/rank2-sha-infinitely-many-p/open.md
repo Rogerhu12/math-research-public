@@ -141,3 +141,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### canonical 的二阶 theta 导数已定位到真实一阶端点
 
 [原D²S完整Newton](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)给同一负二参数K_Q=d(dv−1)J_S/p，因此K_Q0恒零，坏canonical迫K′_Q0。准确需处理Σ_j u_jK′_j0+K′_-0+K′_R0，其中另一dyadic块和R=68ζ∇S+(1156ζ²−34x)S全部固定，尾B_(h−2)已付。模p K_Q=α_Sv(v−1)的h2/h3不能删；三dyadic译像不产生免费的PB4端点零。继续这份真正一阶关系，或另一个确由canonical坏迫出的相同有限读者；不重复以K_j0非零替主门。
+
+
+### 原B的整个代数paired connection已闭
+
+[type4笔记§8](notes/2026-11-27-original-type4-inert29-coefficient.md)已给全部九个λ、18维完整多项式谱与同一genus3覆盖上的Lamé两解/常数Wronskian；不再只缺一个第二解或Jordan范围。真正原p−1读者仍含共同σ(2z)^(17/2)。后继须保这个因子的完整Gaussian/Hurwitz，计算指定functional或其真实theta-group返回；不能只用代数Lamé零p曲率或irreducibility宣称全17原行非零。

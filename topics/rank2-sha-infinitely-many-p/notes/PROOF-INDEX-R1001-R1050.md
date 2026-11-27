@@ -357,3 +357,6 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 
 
 - [原canonical全D²/Newton](2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)：同Gaussian实际导数的三项系数重排给J_Q^[-2]=dv(dv−1)J_S、K′_Q0=−dJ′_S/p；尾为B_(h−2)，与有界PB4严格分开。原F=∇²S全部六列、P4/另一dyadic及68ζ∇S+(1156ζ²−34x)S保完整函数；每个U_e实际交换子返回−2δP4F/3但不删其费用。全Tate模p α_Sv(v−1)保h2/h3，R855真除p规范同号；K_j0的单位不代此一阶必要零关系。
+
+
+- [原B全paired基本解](2026-11-27-original-type4-inert29-coefficient.md)§8：低9的det(T³I−1024C)在char0可分非零，首一deg8的Qλ不在任何二挠e处零；真实U_e给deg17第二解与全部18维半单。W_x=9(δe)^−17Qλ(e)(X+1)^8；固定s⁴=x³+1 genus3 cover给完整n=17/2 Lamé基础矩阵，原sigma-frame W=2cσ68y17。所有相位、坏集及共同σ(2z)^(17/2)保，不给原PB4/p−1或canonical赋新零。

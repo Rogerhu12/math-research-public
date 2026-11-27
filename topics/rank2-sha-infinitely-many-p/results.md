@@ -60,3 +60,8 @@
 ### 原 canonical 二阶导数的真实 Newton 端点
 
 [完整恒等式](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)对实际Q=D²S保同一C=34cσ，三项全卷积给J_Q^[-2]=d v(dv−1)J_S、K_Q=d(dv−1)J_S/p；另付B_(h−2)尾，未把Q冒作有界type4。K_Q(0)恒零，canonical坏准确迫K′_Q(0)=−dJ′_S/p=0。原∇²S的六列、两dyadic块及全部ζ补偿同式保留；三translated行的新增P4恰在完整交换子内。模p K_Q=α_S v(v−1)由真实h2/h3合并，指定首除p行同R855。下一消费完整一阶补源，未闭canonical forcing。
+
+
+### 原 dyadic 平均的完整 paired Lamé 基本解
+
+[原type4笔记§8](notes/2026-11-27-original-type4-inert29-coefficient.md)支付原B整个偶18维：低9的九个不同非零特征值，每个由原半周期给deg8/17两个独立多项式解；全部Qλ(e)非零由局部指标0、9证明。全18解给真实半单与固定genus3 cover上的n=17/2 Lamé基本矩阵、常数Wronskian。原sigma68y17共同因子和全部δ/e相位保留，有限好集另删实际固定判别式/分母；没有把此代数connection的零p曲率当原p−1行单位。
