@@ -54,8 +54,8 @@
 
 
 <!-- visible-larger-parallel-06:start -->
-并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:held-amplitude-protected-complete-mean-design-first-20261126-rebuild06`/failed；已返35，exit=1。
-并行06规则核查：2026-11-26 23:53:27 UTC，真实pull至`8c8c55a651dec2b1dbf5dd158ac2f21d7aec4a87`，双README无变化。
+并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:held-amplitude-protected-complete-mean-design-first-v2-20261126-rebuild06`/completed；已返36，exit=0。
+并行06规则核查：2026-11-27 00:02:38 UTC，真实pull至`ac8f862e5e731350c1f4203add2a231e501f116d`，双README无变化。
 <!-- visible-larger-parallel-06:end -->
 
 <!-- visible-larger-parallel-07:start -->
