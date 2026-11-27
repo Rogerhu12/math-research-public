@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W全余图的实际八列原行、六行原迹与十六真乘法](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)：源af928全trace、73权分母、全部基乘法实际返回；未求cofactor或判空，保整lambda3/2与B239零面。
+
 - [Phi0 的rho二次头完整分解及主支原单位必要曲线](results/R150-appendix-unit211-Phi-zero-rho-head-zero-main-original-unit-necessary-curve.md)：主支全八式/48候选、原单位六列Cramer实际返回(d,lambda)174/55必要曲线，严格偶降87/55；例外两权完整保留，未判空。
 
 - [等单点值碰撞的整个 T0 零面排除](results/R150-appendix-unit211-equal-singleton-entire-T0-zero-original-exclusion.md)：互补Delta非0的两个固定4阶原QQ结式剥后28/12完整Bézout1，合Delta0已有原排除，现碰撞可付T0。

@@ -1,17 +1,18 @@
 {
-  "message": "ISP: return the complete Phi rho-head main necessary curve and continue J equal Q fibers",
-  "parentCommit": "e554d937d859dc76729eda334c9d360ecfa76ff8",
+  "message": "ISP: return the global W eight-column original algebra and continue both new finite inputs",
+  "parentCommit": "281f6ec37b28b4e23b0c5285f7150621e662f5ca",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-four-two-eight-column-original-return-receipt-8542.json",
     "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rho-head-zero-main-original-unit-necessary-curve.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rho-head-zero-main-original-unit-necessary-curve-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-JQ-Delta-zero-complete-quadratic-original-return-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-j-equal-q-delta-zero-quadratic-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-rho-head-main-curve-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-rho-head-main-curve-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-JQ-nonzero-Delta-original-two-parameter-return-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-j-equal-q-nonzero-delta-original-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-whole-original-value-cover-8542.py",
+    ".github/workflows/invariant-subspace-w-lambda-three-halves-entire-original-value-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +22,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-j-equal-q-delta-zero-quadratic-8542.yml"
+    "invariant-subspace-equal-singleton-j-equal-q-nonzero-delta-original-8542.yml",
+    "invariant-subspace-w-lambda-three-halves-entire-original-value-8542.yml"
   ]
 }
