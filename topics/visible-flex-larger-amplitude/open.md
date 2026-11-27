@@ -123,3 +123,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [ret51完整保全](notes/2026-11-27-finite-geometry-minimax-retention-51.md)退17旧有限几何/LP派生JSON净1555055B；54原源、187全输入、全部参数/资源/失败未知和60321451原字节恢复保。当前A旧有限预测不冒新Fejer场，缺失旧外部源不冒已恢复。
 
 [producer_R722完整R716](computations/fixed-fejer-meridian-producer-R722-complete-R716-moment-delivery.json)六件386778B，十二通道/原一般三相位中心张量/全部帽反射/32stage与根域保；10/8argv、34/60selectors、600s/不限角胞原参数保。旧R709 bool真实，新完整posterior validator不能由布尔替代；actual全矩/正V/闭面管与含反射分离仍待支付。
+
+[当前producer完整同场mesh](computations/fixed-fejer-meridian-producer-bound-complete-same-field-phase-mesh-delivery.json)八件496394B已刊，144源/9077B实际constructor、全原执行后缀、32/6argv/110/58formal/48live保。final须真完整13件；packet须真实完整required-angle快照，可是trial但不冒accepted。全5t/三级空间/4,8,16时间、15全科学网格与5个<5MB预览原保；不以预览截科学网格、不以M320零包含代新求解。
