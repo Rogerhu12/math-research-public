@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 原Delta0/W0的整个k=−1权线为空（2026-11-27，已证明）：** [同Gram六原式、完整12次QQ覆盖与原Hankel矛盾](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-kminus1-exclusion.md)原48×35矩阵的两条常数cofactor完整70列回乘，128/128次QQ Bézout给73次覆盖；只剥物理单位后五整商代数全返，末4e²+5e+3域保(x−1/2)²非约化结构仍迫D=0。源43393adf实际3.740543秒/33156KiB/exit0，原加权N/P的HA/HB迹已付。只给W0的k+1单位，整W0仍开。
+
 - **R150 unit2+1+1 的整个原L0分支为空（2026-11-27，已证明）：** [原完整覆盖与九因子/1817余项返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)原C/X结式精确3352次、首项1009单位；九个特征零幂总degree1535由同原输入的已完子证支付，36QQ Bézout保首一整性；其余1817次覆盖与原S8/S5完整一元投影的模Bézout1由Gauss排全根。余覆盖自含源6eb17f28实际74.373804秒/114492KiB/exit0。全部原退化面已合并，L0不再开放；两整合signal9仍准确保留失败身份，普通ISP未完成。
 
 - **R271 原形式除法伴随的实际值域非闭（2026-11-27，已证明）：** [同尾真实域奇异列及两型首位消逆](results/R271-appendix-actual-division-adjoint-nonclosed-range-same-tail.md)构造y_q=Sh_q∈D(G0*)，归一后弱趋0且G0*y_q趋0；原首位Schur残量为O(σ_q²)，来源范数下界为常数σ_q，完整Y逆保留。G0*闭且单射，故实际RanG0*非闭；无全h或有限坐标一致的||Sh||≤C||T*h||。输出均在RanT*⊂M⊥，两个闭包核心及真实W的Γ仍开。

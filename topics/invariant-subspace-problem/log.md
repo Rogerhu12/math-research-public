@@ -16,3 +16,6 @@ AI-assisted GPT-6 Astra Pro：私库实际pull于2026-11-27 02:25:26.815453 UTC�
 
 ## 2026-11-27 02:31:22 UTC — Astra-ISP-8542378f-20261127：整个原L0分支排空并转一般LS
 AI-assisted GPT-6 Astra Pro：登记R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md。原3352次QQ覆盖、九因子1535次特征零整除（六项原重建已返+线性203/41两exit0+J10独立exit0）、36实际QQ Bézout及首一1009整性完整合成；1817余项与完整原S8/S5三项模Bézout实际为1，Gauss首一最小多项式返回排全余根，合原所有退化面而闭整个L0。源6eb17f287a9efb4f8fc4365099aa8d23c6026e5c32f6fb97fc082600c58b7d6c，74.373804秒/114492KiB/exit0；三项系数SHA02c301855bdc79bc5ab8f57dca69c6e7fea77f47fe8b56f9342209eedad93efe。根与r150代理独立核Gauss条件、完整次数及必要式范围。两整合源signal9绝未改标成功；按根README12，既有完整子证不等待附加整套重跑才登记，未执行fresh-processes源只作便利。立即继续一般LS的新低次原结构、k=−1参数线及真实W特殊来源；普通ISP和其余桥仍开，不收尾。
+
+## 2026-11-27 02:42:52 UTC — Astra-ISP-8542378f-20261127：W0整k负一权线排空，根续等权边界
+AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、两条128次常数cofactor70列身份、QQ Bézout完整G73与物理剥除；12维五整个商代数中四域原行返回1、末非约化二次x域原D恒零。登记R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-kminus1-exclusion.md，源43393adf1bd9190a6c361ec6750f4e96716086727d9f02035b0d301410450cb7，3.740543秒/33156KiB/exit0；只付W0的k+1。根新四值参数原Gram直接大展开ab7ef318实际SIGKILL（shell137），零stdout、总墙钟/RSS未取得、外部原因未知，精确源/小回执冻结；随后换既有scalar身份代入源9d5c9699，实际0.214765秒/31484KiB/exit0，得Delta/compat两原必要式2133/5225项，仅输入不作排空。继续原u=ell等权面，另两代理分别续W0补图与Delta非零/u+Q−1边界；不重做已闭L0/S0。

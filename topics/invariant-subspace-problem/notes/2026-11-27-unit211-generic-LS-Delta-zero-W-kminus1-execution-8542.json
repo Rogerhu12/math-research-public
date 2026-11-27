@@ -1,0 +1,106 @@
+{
+  "source": "notes/2026-11-27-unit211-generic-LS-Delta-zero-W-kminus1-original-return-8542.py",
+  "sourceSHA256": "43393adf1bd9190a6c361ec6750f4e96716086727d9f02035b0d301410450cb7",
+  "returncode": 0,
+  "wallSeconds": 3.7405429829996137,
+  "maxRSSKiB": 33156,
+  "stdoutBytes": 13375,
+  "stdoutSHA256": "b6ee2dbca1efa1debc01a2ad2fd3ced4af5e99ce629fb01a527c986876320ed7",
+  "sourceBytes": 18947,
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "configuredLimits": {
+    "sourceAlarmSeconds": 180,
+    "addressSpaceGiB": 4,
+    "outerTimeoutSeconds": null
+  },
+  "pythonFlintVersion": "0.9.0",
+  "scope": "Entire general LS / original Delta=0 / W=0 / k=Q/(u-1)=-1 line; not whole W0 or ordinary ISP.",
+  "inputPolicy": "Self-contained original Gram reconstruction; no cached polynomial input.",
+  "originalRowDegrees": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "originalMacaulayShape": [
+    48,
+    35
+  ],
+  "polynomialConstantCofactorRows": [
+    40,
+    41
+  ],
+  "cofactorColumnProductChecks": 70,
+  "cofactorSHA256": [
+    "c06508df1de9505be52a9b68b1f25027ecdc548f8b34bfd9426652ab8a1db0e0",
+    "046bb9945ac09a65b649d3b9b442e98dc75b554962306cd1c740a79824e4e085"
+  ],
+  "actualQQConstantGCD": {
+    "inputDegrees": [
+      128,
+      128
+    ],
+    "gcdDegree": 73,
+    "bezoutCoefficientDegrees": [
+      54,
+      54
+    ],
+    "allProductsMultipliedBack": true,
+    "identitySHA256": "71a13b8f039eb674244b44259b24af33b3a40d445cca6d790f5c2cb233efd695"
+  },
+  "completePaidRemainingQQCover": {
+    "degree": 12,
+    "sha256": "349564fc817a821e560ada110e8bd8948278039b6f67038b5a46be0c90e7e345",
+    "factorDegrees": [
+      1,
+      2,
+      2,
+      3,
+      4
+    ]
+  },
+  "wholeConstantAlgebraReturns": [
+    {
+      "factor": "4e+5",
+      "dimension": 1,
+      "rank": 35,
+      "originalUnitCombination": true
+    },
+    {
+      "factor": "4e^2+6e-1",
+      "dimension": 2,
+      "rank": 35,
+      "originalUnitCombination": true
+    },
+    {
+      "factor": "6e^3+14e^2+11e+2",
+      "dimension": 3,
+      "rank": 35,
+      "originalUnitCombination": true
+    },
+    {
+      "factor": "16e^4+26e^3-e^2-11e-12",
+      "dimension": 4,
+      "rank": 35,
+      "originalUnitCombination": true
+    },
+    {
+      "factor": "4e^2+5e+3",
+      "dimension": 2,
+      "rank": 33,
+      "relations": [
+        "y=1/2",
+        "t=0",
+        "(x-1/2)^2=0"
+      ],
+      "sameOriginalHankelD": 0,
+      "physicalDIsUnit": true
+    }
+  ],
+  "leadingZeroCoverage": "Every fraction-free pivot-zero fiber retained by polynomial cofactor identities; all five entire QQ quotient algebras returned; x-u-1 never inverted.",
+  "sourceInternalSeconds": 3.3101013909981702,
+  "sourceInternalPeakRSSKiB": 32000
+}
