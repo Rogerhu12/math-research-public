@@ -404,3 +404,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 00:22:33 UTC / visible-exact-astra-fb31ed6-20261127：登记TQC六件source/合同。必要完整OT carrier恢复提取原两字面段SHA b8477204bcc9678a7660a3d5200af97d3a84d52d0c7a8fb71e54e893dfd8dba0、58a8d2914eeb5d9275b0120206a60b16067381875a1d47d317e4f18f4b41510e，所有old norm目标禁用。whole96×2240原4receipt全核才取96square，11新球保joint low误差、B和signed I−BThat完整norm候选与严格rho；原global/新low整界先保存后择小，B=0 fallback完整false不假阳性。仅whole OT成功才造manifest，当前无actual门，不免费授physical/full Schur。helper容量提交5777da76dbb3927ff9f4ec7c1a1b0d37b4237156成功，两README无diff，净省828820B且原128meta全字节可追。
+
+
+2026-11-27 00:46:00 UTC / visible-exact-astra-fb31ed6-20261127：WT两件完成，20新有理比较首次全过，无旧科学。真SE3相对propagator<2^32且输出始终实际G(R)，有序permutation simplices覆盖cube无额外l!；coloured jets保trueν²/两mean，在完整展开项上先作moment插值，高背景仅一次。真实inverseΘ二阶全项与off-shell Fφ/Fφφ保，全部H^n height值/一二阶/余项，方向至H^{n+3}、背景A^{n+2}/terminalH^{n+3}，Cn=2^{200(n+12)}((n+12)!)^8；WH低阶2^100保。signed carrier/cap图导数/full inverse尚待。登记已推ASP19938d/APHI6599383d/SL续接0c4f842d。私库00:40:23 UTC pull到d1a0702dc42704c13c138c179a36b295668314fe，根README无diff、QUEUE进行中不变；公开两README核至0c4f842d无diff。H/open压缩保该immutable原件，旧scope/义务不撤。

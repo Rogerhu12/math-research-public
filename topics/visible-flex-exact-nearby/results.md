@@ -397,3 +397,9 @@
 - [PT：whole positive独立两端全角阶tame图](results/R144-supplement-all-angular-positive-Cauchy-graph-with-one-high-background-factor.md)：18个新saved有理比较已过；全body/collar原frame和ordered primitive/两mean/head source保，所有整数阶只一次A^{n+5/3}高背景。M_n=[560(n+1)]³辅助tail吸收，原97..M_n/4 middle只用既成H¹解不重造大finite逆；显式A_n及真实root/outer trace。只独立stable-root/unstable-outer图，实际moving-angle exterior反馈另付，不授full边界逆。
 
 - [TQC：原OT完整四载体与low96实际逆门入口](notes/2026-11-27-original-Theta-low-square-first-target.md)：6件源码/合同已齐，AST/原literal carrier blocks已检查无本地科学；原IR Haswell/ASR未设CORETYPE及4whole receipts全同后才取9216原dyadic entries。11新球包括low joint误差、B/R0各4whole norm候选与严格ρ；浮点proposal失败B=0必为false。旧global与新low整界保存读回再择小，原TP/TM科学目标不重。OT尚未完成，无实际manifest/workflow；ρ<1才授原Theta坐标逆，fullfinite/边界/两mean/νSchur独立。
+
+- [ASP：完整PS六球false与原signed-loop后继](results/R142-supplement-actual-complete-streamed-defect-and-signed-loop-continuation.md)：全155/1424/193与6球，body门ε≈64.097636、含点whole≈64.855555，job只球后containment失败，禁止DP/重积分不推奇异。SL原0science UTF8失败保，明确续接public0c4f842df7、唯一45917913526/1在算。
+
+- [APHI：实际非零strict参数phase列](results/R147-supplement-actual-nonzero-phase-border-of-the-strict-parameter-particular.md)：45915169627全6/6 rc0，131germs/1572wholepoly/NP4数组全核，2545新交片/fulltail/mean/directν保。5新有理组合给(.038736784,.038768096)、逆<25.82、ASB物理幅度比(−.161991,−.161576)可行消元；仍非fullνphase Schur。public6599383d3c。
+
+- [WT：完整同world高度所有角阶tame图](results/R144-supplement-all-angular-passive-world-height-tame-map.md)：20新有理比较全过。同锚SE3 propagator<2^32；完整有序jets/真实inverseΘ全项/两mean/wholemodes保。H^n height值/一二阶/余项，方向至H^{n+3}、背景A^{n+2}/terminalH^{n+3}各一次，Cn=2^{200(n+12)}((n+12)!)^8。独立ports/waisttrace/off-shell Fφ保；未授signed高度carrier/cap图导数/full inverse/最终嵌入。
