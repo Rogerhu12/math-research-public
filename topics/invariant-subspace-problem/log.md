@@ -650,3 +650,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 新纸面原身份：λ半h1使NF=zeta T0、Phi−(J−Q)=2p²(ell−1)，故Delta=−p³(ell−1)T0/rho。两零因子分别回原等权/T0排除；T0旧覆盖所需D在本图=bA非零，不外推h=k。
 - G389中的(2λ−1)²整纤维已付，剩J387双度306/81合F49互素，必要投影界6229→6219/含ell18657；原t与全八行仍保留，无旧门重跑。
 - 另送ca7e5acf首次同rho组合Res(F,G+S/T/NB/PB)，必要时取原rho边界六core QQ gcd作新候选；120秒1GiB。新增题外workflow登记；不把独立投影误作同点返回。
+
+2026-11-27 20:32 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- fdece673真run45998121640/job140502588909，4.240095449秒/96500KiB/inner0；一般h=k≠1完整N4原线、Delta首一b4和Delta非零图全八原值首次全部返回。尺度H=bcDelta，不倒D/Pf/S/T0/norm；原权面全保。
+- 27211310漏清c的真实失败已冻结；当前只保存完整原输入源/参数/各行SHA，最大2.30MB可重算原行不存缓存。不能把旧用D的权排除移入此D0图。
+- 新增2698af5a整W/J19已付后的A[y]原三生成输入180秒4GiB；415b702b真1105残余覆的原模Bezout120秒1GiB。两题外workflow已登记；各只接新数学输入，不加旧门重放。

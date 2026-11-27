@@ -1,14 +1,17 @@
 {
-  "message": "ISP: exclude entire Delta collision lambda-half fiber and sharpen to 6219",
-  "parentCommit": "97b2a143c1fc34ddefd151e314eb208905710435",
+  "message": "ISP: complete equal-singleton original Gram and retain whole Delta quartic",
+  "parentCommit": "db67ee41e49fb4ad66cbf91a34b370ac8ace86f4",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-same-rho-combinations-boundary-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-h-one-same-rho-combinations-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-J19-paid-Ay-three-generator-original-input-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-actual-1105-residual-Gauss-input-8542.py",
+    ".github/workflows/invariant-subspace-w-paid-j-nineteen-ay-three-generators-8542.yml",
+    ".github/workflows/invariant-subspace-phi-h-one-true-residual-gauss-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,6 +21,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-h-one-same-rho-combinations-8542.yml"
+    "invariant-subspace-w-paid-j-nineteen-ay-three-generators-8542.yml",
+    "invariant-subspace-phi-h-one-true-residual-gauss-8542.yml"
   ]
 }
