@@ -1,7 +1,7 @@
 {
-  "request_id": "rank2-20261127T2001-after-paired-ref-retries-both-rule-pulls",
-  "utc": "2026-11-27 20:01:03 UTC",
-  "last_rules_read": "420002f268f6978049cb9575a456630e6c363c5c",
-  "private_last_rules_read": "e5971fbad30f1a658de11feffd69e0fd7ab9fcd5",
-  "reason": "Actual read-only partial clones and git pull --rebase for both repositories after concurrent main changes and transient ref update errors; compare both README files against the already read baselines. Never print private file contents or credentials."
+  "request_id": "rank2-20261127T2045-both-rule-pulls-after-canonical-source",
+  "utc": "2026-11-27 20:45:18 UTC",
+  "last_rules_read": "50eff7e6aef263a9c7478b55a8cde0d224d04d9f",
+  "private_last_rules_read": "c077273f1b19137c631bc2ad7fa0f6f9279d97f7",
+  "reason": "Perform actual read-only partial clones and git pull --rebase in both repositories before the hourly deadline; compare root and topic README to the last personally read actual-pull heads. Print only private blob identities and diff hash, never private content or credentials."
 }
