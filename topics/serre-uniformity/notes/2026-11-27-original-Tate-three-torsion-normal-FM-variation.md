@@ -1169,3 +1169,150 @@ $$
 
 
 §11复核：root、o1_theta、o2_high_coefficient 对精确候选06f875eb的N.46–52逐式独立纸核通过；原覆盖相位、商微分、相对Frobenius与N.14首项全部相容。
+
+
+## 12. 原 Prym 族的完整二阶 Gauss–Manin 来源
+
+本节只针对 (N.48) 的实际椭圆商，不把其秩二系统当作
+整个 $V_0$ 的目标微分系统，也不把其两个初值认作原 $e,K_4$。
+
+### 12.1 原微分上的精确二类恒等式
+
+写
+$$
+g=3x+\epsilon,\qquad h=x^3+2v,\qquad
+Y^2=-gh,\qquad \omega_{\rm P}=\frac{dx}{Y}.
+$$
+固定 $x$ 求导，准确有
+$$
+\partial_\epsilon\omega_{\rm P}=-\frac{\omega_{\rm P}}{2g},
+\qquad
+\partial_\epsilon^2\omega_{\rm P}=\frac{3\omega_{\rm P}}{4g^2}.
+$$
+因此在这同一个相对函数域内，
+$$
+\boxed{
+\left\{4(54v-\epsilon^3)\partial_\epsilon^2
+      -12\epsilon^2\partial_\epsilon-3\epsilon\right\}
+ \omega_{\rm P}
+=-18\,d_x\left(\frac{h}{gY}\right).}
+\tag{N.53}
+$$
+左边的系数直接化为 $27(6v-\epsilon x^2)/g^2$。
+右边则用
+$$
+d_x(F/Y)
+=\left(F'-\frac{F(gh)'}{2gh}\right)\omega_{\rm P},
+\qquad F=h/g,
+$$
+得到
+$$
+F'-\frac{F(gh)'}{2gh}
+=\frac{3(\epsilon x^2-6v)}{2g^2}.
+$$
+所以 (N.53) 是真实的 exact-differential 身份，
+不是从一个模 $p$ 多项式反向猜测的 Picard–Fuchs 方程。
+
+两条 de Rham 类确实独立。在 $\epsilon=0$ 的 $x=0$ 分支点，
+用 $Y$ 作参数，
+$$
+x=-\frac{Y^2}{6v}+O(Y^8),\qquad
+\omega_0=-\frac{dY}{3v}+O(Y^6)dY,\qquad
+\dot\omega_0=-\frac{dY}{3Y^2}+O(Y^4)dY.
+$$
+$\dot\omega_0$ 只有这一处二阶极，其留数为零。
+$\omega_0$ 的局部原函数与 $\dot\omega_0$ 的乘积留数为
+$1/(9v)$，是单位；这给出两类的非零 Serre cup 配对，
+符号只随 cup 的输入次序改变。
+这里局部原函数所需的第一项没有任何 $p$ 分母，
+二类极阶 $2<p$。于是 $\omega_{\rm P}$ 及其一次
+Gauss–Manin 导数是同一实际 rank-two de Rham 束的基；
+(N.53) 给出其完整标量方程。
+
+这套论证也可在同一 quartic 的特征零形式提升上逐字进行。
+因 $54v$ 是单位，$\epsilon=0$ 是这个真实微分方程的非奇异点，
+而非借用一个未识别来源的抽象二阶系统。
+
+### 12.2 两个规范局部 period 及有限精度
+
+令
+$$
+t=\frac{\epsilon^3}{54v}.
+$$
+把 (N.53) 的标量方程除以 $4$，得到
+$$
+(54v-\epsilon^3)y''-3\epsilon^2y'-\frac34\epsilon y=0.
+\tag{N.54}
+$$
+在特征零的形式提升中，取初值 $(y(0),y'(0))=(1,0)$ 和 $(0,1)$，
+两个规范解准确为
+$$
+\boxed{
+\begin{aligned}
+y_0(\epsilon)&={}_2F_1\left(\frac16,\frac12;\frac23;t\right),\\
+y_1(\epsilon)&=\epsilon\,
+{}_2F_1\left(\frac12,\frac56;\frac43;t\right).
+\end{aligned}}
+\tag{N.55}
+$$
+可直接以 $\vartheta=\epsilon\partial_\epsilon$ 核对：
+方程等价于
+$$
+\left\{\vartheta(\vartheta-1)
+-t(\vartheta+\tfrac12)(\vartheta+\tfrac32)\right\}y=0.
+$$
+对 $y_0$ 代 $\vartheta=3t\partial_t$，
+对 $y_1$ 代 $\vartheta=1+3t\partial_t$，
+正是 (N.55) 中各自的 Gauss 方程和给定初值。
+
+模 $p$ 使用这些解时必须保有限精度。
+对 $\epsilon$ 次数严格小于 $p$ 的递推，
+所有所需的通常导数阶乘均是单位，且 (N.54) 的首系数在原点为单位。
+因此这两个初值在该范围确定唯一的实际 jets。
+第一行需要的 $t$ 指标仅为 $0\le j\le2k-1$；
+$(2/3)_j$ 的首个含 $p$ 因子出现在 $j=2k$，
+对应 $\epsilon^{6k}=\epsilon^{p+1}$，不在所用范围。
+不能把安全的有限前缀自动扩成整条特征零 period 的无条件模 $p$ 约化，
+也不能忽略特征 $p$ 中次数 $\ge p$ 的新 Frobenius 自由项。
+
+### 12.3 原 Hasse 截面的精确 Gauss 解
+
+对 (N.53) 使用相对 Cartier，右边为零。
+目标微分的参数为 $\epsilon^p$，所以对 $\epsilon$ 求通常导数时，
+目标微分本身的导数为零。
+从 (N.50)–(N.51) 得到的原 $\theta(\epsilon)$
+因而真实满足 (N.54)，初值是
+$\theta(0)=0$ 和已经定标的 $\theta'(0)$。
+
+其完整多项式式也可以直接写成
+$$
+\boxed{
+\theta(\epsilon)
+=\theta'(0)\,\epsilon
+\sum_{j=0}^{k-1}
+\frac{(1/2)_j(5/6)_j}{(4/3)_j\,j!}
+\left(\frac{\epsilon^3}{54v}\right)^j.}
+\tag{N.56}
+$$
+这里 $(5/6)\equiv-(k-1)\pmod p$，
+所以这是实际终止的 Gauss 多项式。
+所有 $j\le k-1$ 的分母都是单位。
+把 (N.51) 相邻系数相除，正得到
+$$
+\frac{(j+1/2)(j+5/6)}{(j+1)(j+4/3)}
+\frac1{54v};
+$$
+故 (N.56) 与已付的完整 Hasse 多项式逐项相同，
+没有使用超出安全范围的非终止变换或删除边界项。
+
+(N.53)–(N.56) 为后继提供一个来源固定的二阶系统：
+它来自原三挠覆盖的真实椭圆商和原微分，
+同时保留相对 Frobenius 与有限分母范围。
+但固定 $C$ 的 Picard 方向离开三挠子空间，
+所以此处的 $y_0,y_1$ 初值尚不能换成
+$e$ 与 $K_4$；该比较仍是原指定问题的一部分。
+
+本节全部为纸面恒等式与原相对几何的核对，没有数学执行。
+
+
+§12 发布前由 root/o1/o2 独立逐式纸审：原 exact-differential、唯一二类极的 cup 配对、两组 Gauss 初值、首个 p 分母边界和实际终止 Hasse 多项式均核定；尚未替换原固定曲线 Picard 的 e/K4。

@@ -392,3 +392,8 @@
 ### 2026-11-28 00:33 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1132§8.1补无条件p7mod8低偶块：r=(p+1)/4的两Bernoulli都为B_(p+1)/2，R1131已付的奇二次类数界在全部p3mod4有效，故原几何整块及规范K₂角色ω^(3(p+1)/4)消失。与R1131 p3mod8合起来覆盖所有p3mod4的一个指定非平凡偶残余。
 - root/o2独纸核；不删常数角色的Bp−3门、不改一般主目标。H逐字归档后重新压缩以保持续接手空间，无数学执行。
+
+
+### 2026-11-28 00:44 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原Tate normal-FM§12在同一Prym椭圆商上付精确二阶exact-differential、二类导数与唯一局部cup留数1/(9v)，从而给真实rank2 Gauss–Manin系统及两规范Gauss初值。原θ由相对Cartier准确落在终止的第二解，完整相位与θ′(0)不变。
+- root/o1/o2全文独立纸审；一般period严格限次数<p的可约化jets，首p分母在p+1不删，未将moving三挠的两个period初值当固定C的e/K4。open的该长条压缩，逐字前态归档以保旧公式入口；无数学执行，继续原Ψε及实际单位方程/cross项。

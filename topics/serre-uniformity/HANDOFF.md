@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：b074d70ff0d0689076713e125936c30cb916528b**（2026-11-28 00:33 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：368506bd6261b338f458a32fac3084c2f1629422**（2026-11-28 00:44 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；23:53重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 00:53。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -36,11 +36,11 @@ R1062–71已付全原cusp、étale/p-only、角色/phase/twists，无regular/Va
 
 ## O1：原 Picard 两 jet 与真实 Tate 族
 
-[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–11已付实际Verschiebung/Miller、kerV截面、−Q刚化与全自然奇源。6v·dot t̂=ΦN_full f，全H上6v·dot Ĵ_coeff=P_TJ，三平移6v·dot S=[P,S]，N_full+P=D²+U；原Pf=Nf+U^(m+1)。§8保Vε²约化项（旧错误草稿未发布）。
+[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–12已付实际Verschiebung/Miller、kerV截面、−Q刚化与全自然奇源。6v·dot t̂=ΦN_full f，全H上6v·dot Ĵ_coeff=P_TJ，三平移6v·dot S=[P,S]，N_full+P=D²+U；原Pf=Nf+U^(m+1)。§8保Vε²约化项（旧错误草稿未发布）。
 
 §9证明全V₀上ΦNΦ⁻¹不能是阶≤p−3目标微分算子，未排指定Um/−Q关系。§10付全dot A和6v·dot A=A(Nf,g)−A(f,Pg)，dot A(Ψ,Ψ)=δ/(6v)。原Um首normal×Picard一/四阶均零，normal零阶unit。
 
-§11从同一3-cover得Prym商Y²=−(3x+ε)(x³+2v)，η|₀=−z/w、u+ν=−3dx/Y和相对F全保；原normal值恰等完整Hasse多项式，全ε^(3j+1)系数unit、首项回N14。固定C的Picard移动不保三挠，**不能当原e/K4共同非零**。o1继续真实vertical theta接口。
+§11从同一3-cover得Prym商Y²=−(3x+ε)(x³+2v)，η|₀=−z/w、u+ν=−3dx/Y和相对F全保；原normal值恰等完整Hasse多项式，全ε^(3j+1)系数unit、首项回N14。固定C的Picard移动不保三挠，**不能当原e/K4共同非零**。§12原exact differential及cup留数1/(9v)付真实rank2 Gauss系统、两规范period与θ的终止Gauss式；一般解只用<p jets，首共振p+1保留。o1继续真实vertical theta接口。
 
 [原Lamé短旗标](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保B简单谱/D³单Jordan、Green、normal列、全Cartier Newton矩阵、原R/移位R²及纯极反对角Φ。e₀0迫邻e单位，不代K4。原e/K4 iff短η_k/ν_k，R1077加权2k不代短k。
 
