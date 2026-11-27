@@ -758,3 +758,8 @@ R1090§8消费run45946046378/job140330877264：七组原候选给rank95，全23�
 2026-11-27 13:34 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1092原六个三挠点FM值精确等于−ap(E*)；保原Miller首项、R²=W+a、反射商、−1/6微分和quadratic twist，2-division Qζ9⁺给目标mod9类单位。
 root/o2全文纸核，无新数学执行；继续与原D6三同源trace和短η/ν的真实联系，不把六点值冒原点低jet。
+
+
+2026-11-27 13:38 Asia/Taipei｜Astra-serre-24b8836b-20261126
+提交原Gaussian CM首log新请求：消费95真实Hodge源/五hash，首次同基Hecke桥、单P的ψ47提升与完整2208点，R1091精确系数后读全部28整块；预算1800秒/reserve60。
+课题外新增.github/workflows/serre-full-p47-Gaussian-CM-log.yml，仅本课题公开Actions；原配对2、descriptor坐标、完整相位及所有小分母已纸核，不预设非零或高度结论。

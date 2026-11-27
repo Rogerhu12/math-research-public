@@ -43,8 +43,6 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p实际good角色global提升唯一，forced-good维数Ω(p/logp)，无regular/Vandiver；坏角色类群及aux同点排除仍开。
 
-[R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3模型/Burnside点数与全部非零迹五Q-CM来源已付，保twist重合/potential-good；迹零反射点仍待消费。
-
 [R1062–67](results.md)：原全cusp/étale/p-only覆盖允许非整j；每盘global标签恒定、像O(p^1.5logp)，有D′≤4p^1.5/√3惰性CM代表但不推Q-CM。全部wild/coarse/两twists与regular单cusp无Runge保原文和逐字归档；global共同像仍开。
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
@@ -54,6 +52,8 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 [R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。
 
 [R1090](results/R1090-original-weight-one-integral-Hodge-source.md)：run45946046378/job140330877264认证原Reynolds整格rank95、全部23留数rank22及Hodge核73，数学4.448秒；只七组候选。后继固定95源并核hash，继续真实Hecke坐标及R1091原CM首矩/高度。
+
+[原CM首log请求](notes/2026-11-27-full-p47-Gaussian-CM-log-method.md)：固定已认证95来源/五hash，新建同一73基的Hecke桥，再以单P的47-division Hensel及完整2208点读R1091；全28块含16一次块，1800秒/reserve60，尚待执行回执。
 
 ## O1：全p同一真实本原标签的临界非零
 
