@@ -1,15 +1,18 @@
 {
-  "message": "ISP R150: launch fifth P201 block original lambda and full Tv geometry",
-  "parentCommit": "81f9bb6faf09ecbe9e1b7a1177b4fad48eb74a3d",
+  "message": "ISP R150: freeze W eighteen-row boundary and add original value quartics",
+  "parentCommit": "d0b73cf4f82dece5026735a91fe33f36cd5d8949",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-P201-fifth-block-actual-lambda-and-original-Tv-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-P201-fifth-block-actual-lambda-and-original-Tv-8542.md",
-    ".github/workflows/invariant-subspace-8542-phi-h1-fifth-original-tv.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-fifth-block-original-Tv-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-eighteen-module-first-boundary-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-eighteen-module-first-boundary-8542-receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-value-quartics-three-columns-lambda-five-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-value-quartics-three-columns-lambda-five-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-w-original-value-quartics-lambda-five.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-eighteen-boundary-new-values-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-eighteen-boundary-new-values-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-h1-fifth-original-tv.yml"
+    "invariant-subspace-8542-w-original-value-quartics-lambda-five.yml"
   ]
 }

@@ -1,0 +1,158 @@
+{
+  "schema": "isp-original-module-first-negative-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "run": 46081731081,
+  "job": 140782035795,
+  "driver": {
+    "elapsed_seconds": 180.542756417,
+    "max_child_rss_kib": 413848,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "a02b2766d2ec89852a4ac8f584b3f5fe772426f5",
+        "before": "e6fcda0fe69d65afcaea3243218cf5a7b799c5a1",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T23:18:36.170489+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46081731081",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e6fcda0fe69d65afcaea3243218cf5a7b799c5a1",
+    "source_exit_code": -14,
+    "source_git_blob": "8065d3347bf41ecf5b557ca9dae8f723297fff47",
+    "source_sha256": "dda32b1306148ba748859966f24ba47e6dd08bbc3c510d3e639fb1ff2325c035",
+    "stdout_bytes": 1781,
+    "stdout_sha256": "27bde0fe5d2429068094964377a4cf0f03c3c813fd65e5e5893381a2923f7399",
+    "stop_reason": null
+  },
+  "source": {
+    "path": "notes/2026-11-28-unit211-W-original-fifteen-plus-monic-lambda-module-weight-cover-8542.py",
+    "blob": "8065d3347bf41ecf5b557ca9dae8f723297fff47",
+    "bytes": 12523,
+    "sha256": "dda32b1306148ba748859966f24ba47e6dd08bbc3c510d3e639fb1ff2325c035"
+  },
+  "completedMathematicalRecords": [
+    {
+      "stage": "new_whole_W_exact_fifteen_and_monic_lambda_module_input",
+      "originalPresentation": "I6 polynomial quotient = A[lambda]^3/span(G,GMx,GMy)",
+      "originalRowsReturned": 15,
+      "zeroOriginalRows": [],
+      "allOriginalProductsActuallyReturned": true,
+      "monicLambdaDegree": 6,
+      "totalOriginalInputRows": 18,
+      "inputLabels": [
+        "monic_original_chi_times_basis_0",
+        "monic_original_chi_times_basis_1",
+        "monic_original_chi_times_basis_2",
+        "N1",
+        "same_point_commutator_1",
+        "same_point_commutator_2",
+        "N1*x",
+        "N1*y",
+        "same_point_commutator_1*x",
+        "same_point_commutator_1*y",
+        "same_point_commutator_2*x",
+        "same_point_commutator_2*y",
+        "NS",
+        "PS",
+        "NS*x",
+        "NS*y",
+        "PS*x",
+        "PS*y"
+      ],
+      "allInputWeightDenominatorsAlreadyPaid": true,
+      "inputDefinition": {
+        "bytes": 3587767,
+        "sha256": "a7766c709f973127bd6382399c5843c27bd8ea9c43d8d18237acde46b8980f95"
+      },
+      "oldCofactorAndTwelveSylvesterExecuted": false,
+      "oldSpectralStripExecuted": false,
+      "noMatrixFreenessAssumed": true,
+      "noNewHeadPaid": true,
+      "claimExcluded": false,
+      "seconds": 18.150137197
+    },
+    {
+      "stage": "new_original_lambda_module_insertion",
+      "lastOriginalInput": "N1",
+      "processedOriginalInputs": 1,
+      "reductionSteps": 13,
+      "allLambdaCoefficientReturnCount": 191,
+      "rowSwaps": 3,
+      "basisLeadingPairs": [
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "basisProfiles": [
+        {
+          "lambdaDegrees": [
+            2,
+            1,
+            1
+          ],
+          "coefficientTerms": 705,
+          "identity": {
+            "bytes": 20373,
+            "sha256": "1a8303dd814980284dfcb9c29b4448ec308c82f126a1e9f461e1a0fb0739b33b"
+          }
+        },
+        {
+          "lambdaDegrees": [
+            5,
+            5,
+            4
+          ],
+          "coefficientTerms": 28445,
+          "identity": {
+            "bytes": 1175789,
+            "sha256": "d803e6bfd682ede6bf58a5d6bfe0ad99a62f20da6bfc003a8968174c15dc8d3c"
+          }
+        },
+        {
+          "lambdaDegrees": [
+            5,
+            5,
+            5
+          ],
+          "coefficientTerms": 5949,
+          "identity": {
+            "bytes": 205074,
+            "sha256": "48817abf64f35ddfc3f8cf3faa740a1c599c1542f5ec10c096cc430385dafb59"
+          }
+        }
+      ],
+      "exactGenericUnitReached": false,
+      "allUnpaidParameterZeroFibresStillRetained": true,
+      "claimExcluded": false,
+      "seconds": 20.036021044
+    }
+  ],
+  "unconfirmed": [
+    "second input insertion completion",
+    "generic unit source DAG",
+    "complete reachable denominator",
+    "weight cover or its power",
+    "whole W exclusion"
+  ],
+  "frozen": true,
+  "noReplay": "No time increase, basis reorder, old resultant restart or repeated generic row reduction.",
+  "nextMathematicalDirection": "New original-value R4/C4 rows and a fixed three-row cofactor, using the existing monic lambda six only for original degree reduction.",
+  "retention": "Only source/definitions/run/SHA/small receipt, no row coefficients or DAG payload."
+}

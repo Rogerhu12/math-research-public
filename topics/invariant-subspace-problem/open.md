@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-same-q-fourteen-weight-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-eighteen-boundary-new-values-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -220,4 +220,4 @@ H1仍仅旧物理D≠0图；C55九域/原h0、P201整全约化和同Q14界保正
 
 一对加四独立的[**完整九维S1已证**](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)：已付star三维后，7ed首次run46080372041/job140777712507真57.527394568秒/165024KiB/0，原Schur三谱系数的15个闭域全非负且严格常数。保全物理G/逆/cubic桥/cross，V²消去与原连续谱覆盖碰撞；合pair-singlet出生一给全九维F−ΔL3⁻¹Δ*>0及每权费用<1，无全权统一gap。29ce9第四子式未返门冻。新[原S2四源输入](notes/2026-11-28-one-pair-four-independent-s2-four-source-companion-spectrum-8542.md)e527首派180秒4GiB：五维全Λ1/2/3逆后压缩、完整六源C1逆、两个cross及低费用全保，四谱×五闭域全成功才付四源S2并合singlet给低5维。R275七位首末glue还须真S2；同W真实费用继续未付。
 
-整K7已闭，全余W三原二次规则可用。[首一λ六次](results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md)无λ/D逆返χ∈I4，4ab真六系数/B6零。[十五行精确原表示](results/R150-appendix-unit211-W-global-three-generators-exact-fifteen-original-relations.md)由G={两comm,rN1,rNS,rPS}及GMx/GMy一次严格稳定，双向循环同构给六式商。新[十八原行权覆盖输入](notes/2026-11-28-unit211-W-original-fifteen-plus-monic-lambda-module-weight-cover-input-8542.md)8065首派180秒/4GiB，以χe0/1/2加全部15行在QQ(e,k)[λ]^3约化，只倒权不倒λ多项式。若实际e0返回，则可达DAG全部比率分母δ及深度n给H^n∈I6；未付H=0全部保留，不付临时主元。旧两λ6降≤5仅I6^phys，h0/h1零面保留，12×12结果式无det已冻；续原同点R4/C4及NP/NV。
+整K7闭，全余W三原规则、[首一λ6](results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md)及[十五原行精确表示](results/R150-appendix-unit211-W-global-three-generators-exact-fifteen-original-relations.md)保正文。[8065首派边界](notes/2026-11-28-unit211-W-original-eighteen-module-first-boundary-8542.md)：真180.5428秒/413848KiB/−14，十八行全返，只N1插入完成；无单位/分母/新覆盖，门冻。新[原值输入](notes/2026-11-28-unit211-W-original-value-quartics-three-columns-lambda-five-input-8542.md)dc173首派180秒4GiB：qT4/rT3与原R4/C4等理想，(N1,qT4,rT3)全八式迹及三阶C8，再以χ首一除法求≤5余式；无新值头或D逆，允许C8/余式零。所有新头、内容零支与个别NP/NV保留。
