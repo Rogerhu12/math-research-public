@@ -145,8 +145,9 @@ def download_fixed_job_log():
             location=exc.headers.get("Location")
         finally:
             exc.close()
-    except urllib.error.URLError:
-        raise RuntimeError("The fixed GitHub job-log API could not be read.") from None
+    except urllib.error.URLError as exc:
+        reason=type(exc.reason).__name__
+        raise RuntimeError("The fixed GitHub job-log API could not be read; reason type "+reason+".") from None
     parts=urllib.parse.urlsplit(location or "")
     if parts.scheme!="https" or not parts.hostname or parts.username or parts.password:
         raise RuntimeError("The fixed job did not supply a valid HTTPS storage URL.")
@@ -168,8 +169,33 @@ def download_fixed_job_log():
     return raw.decode("utf-8-sig")
 
 
-def consume_completed_logs():
+def prefetch_fixed_job_log():
+    """I/O-only host step; all arithmetic stays in the pinned Sage step."""
+    global SOURCE,STAGE
+    read_request()
+    SOURCE=os.environ.get("GITHUB_SHA")
+    STAGE="host_prefetch_fixed_completed_job"
+    if not os.environ.get("RUNNER_TEMP"):
+        raise RuntimeError("The Actions temporary input directory is absent.")
     log=download_fixed_job_log()
+    destination=Path(os.environ["RUNNER_TEMP"])/"serre-full47-completed-job.log"
+    # The fixed log is public. Mode 0644 lets the isolated Sage uid read a
+    # single-file, read-only bind mount; no token or signed URL is written.
+    with destination.open("w",encoding="utf-8") as stream:
+        stream.write(log)
+    destination.chmod(0o644)
+    emit("host_prefetch_complete",source=SOURCE,
+         consumed_job=Q2_SOURCE["job"],byte_count=destination.stat().st_size,
+         scope="I/O only; fixed public job log in runner temporary storage; no mathematical comparison.")
+
+
+def consume_completed_logs():
+    if os.environ.get("SERRE_CM_LOG_INPUT")!="/input/completed-job.log":
+        raise RuntimeError("The fixed read-only completed-log input was not mounted.")
+    raw=Path("/input/completed-job.log").read_bytes()
+    if len(raw)>8*1024*1024:
+        raise RuntimeError("The fixed job log exceeded the declared input bound.")
+    log=raw.decode("utf-8-sig")
     receipts=[]
     for line in log.splitlines():
         first=line.find("{")
@@ -425,9 +451,13 @@ def main():
 
 if __name__=="__main__":
     try:
-        if sys.argv[1:]:
+        if sys.argv[1:]==["--fetch-job-log"]:
+            prefetch_fixed_job_log()
+            exit_code=0
+        elif sys.argv[1:]:
             raise RuntimeError("Unexpected command-line arguments.")
-        exit_code=main()
+        else:
+            exit_code=main()
     except BaseException as exc:
         signal.setitimer(signal.ITIMER_REAL,0)
         emit("receipt",status="incomplete",source=SOURCE,run=os.environ.get("GITHUB_RUN_ID"),

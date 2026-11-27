@@ -162,8 +162,21 @@ $$
 旧 height 请求和旧 QC-v2 请求。
 请求和脚本均不保存四条73向量或完整 clean records。
 
-runner 仅从固定 job140433713916 的日志取输入。首个请求发至固定 GitHub Actions API，使用该 workflow 的只读自动 token，并禁止自动重定向。取得302的 HTTPS Location 后，使用全新、无 Authorization 的请求下载日志；任何后续跳转也不得携带 Authorization。不输出 token 或临时签名 URL。
+runner 宿主机先以本消费者的 `--fetch-job-log` I/O 模式从固定 job140433713916 取日志，不导入 Sage 或执行数学。首个请求发至固定 GitHub Actions API，使用该 workflow 的只读自动 token，并禁止自动重定向。取得302的 HTTPS Location 后，使用全新、无 Authorization 的请求下载日志；任何后续跳转也不得携带 Authorization。TLS验证不放宽，不输出 token 或临时签名 URL。下载至固定 RUNNER_TEMP 文件后，容器仅只读挂载该单文件；token不传入容器。
 
-日志只驻留 runner 内存。消费者要求唯一、完整、来源相符的 receipt，重算其 `completed` 的 canonical SHA，再读取四条 CM 记录并核各自73向量 SHA。workflow 只需 `contents: read` 与 `actions: read`，通过 `GH_TOKEN` 传入自动 token。没有 artifact、Release、raw 数组提交或新缓存。
+日志只在 runner 临时目录与内存中。数学消费者要求唯一、完整、来源相符的 receipt，重算其 `completed` 的 canonical SHA，再读取四条 CM 记录并核各自73向量 SHA。workflow 只需 `contents: read` 与 `actions: read`，自动 `GH_TOKEN` 只用于宿主机I/O步骤。没有 artifact、Release、raw 数组提交或新缓存。宿主机预取单独限90秒；其后原数学窗口600秒/reserve30保持。
 
 整个算术入口仅限指定公开仓库的 Actions；Sage10.6，单进程，无 python-flint wheel、无扩域 worker。这里只有固定有限矩阵的输入复建和新的交叉比较。
+
+
+## 6. 首次I/O失败与恢复范围
+
+首次 source590f08b371a7bcb246b67944a786da068986adb3，
+run46024515504/job140592329768 已真实结束。
+checkout、镜像和请求预检成功；消费者在2.440997938秒因容器到固定
+GitHub API 的 URLError 返回 incomplete，completed为空。
+没有读到数学输入，也没有产生任何相等或不相等结论。
+
+恢复只把同一固定日志的TLS下载移至宿主机，
+再只读挂入固定容器路径；全部数学比较、来源pin与失败语义不变。
+不重复任何旧CM链、高矩、Jacobi或高度。

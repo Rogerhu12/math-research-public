@@ -5,7 +5,7 @@
   "sage_version": "10.6",
   "total_seconds": 600,
   "reserve_seconds": 30,
-  "rules_last_read_commit": "ef491ae7b6b4bf13e0268abac190f35ff3af9792",
+  "rules_last_read_commit": "590f08b371a7bcb246b67944a786da068986adb3",
   "consumed_modq2_source": {
     "source": "ccad9f4ad40466d9a3387e70b42a77c75a2d75b9",
     "run": 45977769585,
@@ -14,8 +14,8 @@
     "result_sha256": "5a084d55b4df85ab0a4eb38e8e5032292960ff83a81b6babfd3c54235d5ea734"
   },
   "source_sha256": {
-    "topics/serre-uniformity/scripts/full_p47_CM_log_crosscheck.py": "bf3b55ebe874e5709166867dd1643c32602c34fa75f4a4ae9c8ccd78879417e7",
-    "topics/serre-uniformity/notes/2026-11-27-full-p47-CM-log-crosscheck-method.md": "e1507d20f3ff4b68e950fc9176cdc91e15980aaa9efdc5adfc44996c9abdc630",
+    "topics/serre-uniformity/scripts/full_p47_CM_log_crosscheck.py": "e4e56f1c8f17e79389e9bbf048aeda10220d31f056f88315a8e06aa3cd664bd4",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-CM-log-crosscheck-method.md": "e0a9d88478c0f7b5a1bd169f7530a694475e8071ae71fc523e23971207b69733",
     "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
     "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
     "topics/serre-uniformity/notes/full-p47-QC-first-rows-request.json": "95e8ccb0bd7906f1c0c47fbebc794c77994b3fd5cba58766d31fbc53ac3dbc0b",
@@ -23,5 +23,10 @@
     "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5"
   },
   "scope": "Compare only newly completed original q^-1 CM logs with the previously certified Gaussian Bq anchor and all four signed Jacobi ratios in the same actual73 Hodge basis; no CM chain, high moment, Jacobi path, height or QC rerun. Mismatch is a complete outcome, not an implementation failure.",
-  "storage": "Only source, finite parameters, source/run/job identifiers, hashes and small conclusions. The old fixed job log and raw vectors remain in runner memory only; no artifacts, Releases, caches or raw committed arrays."
+  "storage": "Only source, finite parameters, source/run/job identifiers, hashes and small conclusions. The old fixed job log resides only in runner temporary storage and memory; the container reads a single read-only input file. No artifacts, Releases, caches or raw committed arrays.",
+  "resume_from": {
+    "run": 46024515504,
+    "job": 140592329768,
+    "scope": "I/O failure before any completed mathematical input; complete audit still required."
+  }
 }

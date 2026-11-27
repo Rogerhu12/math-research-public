@@ -317,3 +317,8 @@
 ### 2026-11-27 23:23 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 提交新完成q² CM对数的独立完整交叉核：仅复建固定95/73 Hodge及T2/T3/T5矩阵，消费旧B_q/ρ/c，比较四73向量、旧完整Gaussian anchor与16线性读数；root/o1/o2全文纸审，终点负号/宽47/行列作用保全，不重跑CM链、高矩或Jacobi。
 - 课题外新增.github/workflows/serre-full-p47-CM-log-crosscheck.yml，只监听本请求；固定Sage10.6、600/reserve30、4核14g、contents/actions只读自动token。旧job日志只在runner内存，302后不携token，无raw/artifact/Release。请求SHA715152fe4b7c31252115947c5b54146d67f4b8c163a9b2c0fd732227cc5986aa；完整不等也输出complete/exit2，不预报相容。其它原主线继续。
+
+
+### 2026-11-27 23:27 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 独立log交叉核首run46024515504/job140592329768在2.441秒因容器到API的URLError返回incomplete，completed为空，无数学相等/不等结论。
+- 修复课题外同workflow：宿主机Python只做固定日志TLS/302无凭据转发预取，容器只读单个RUNNER_TEMP文件、不接token；完整来源/hash和数学代码均保。请求71f9182ff1ab840ac0ad2f37a9f716bb3232ab958d82c16019887e7c48afefbc再次触发，600/reserve30数学预算不变，原主线继续。

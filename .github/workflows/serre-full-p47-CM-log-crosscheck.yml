@@ -34,19 +34,25 @@ jobs:
             /topics/serre-uniformity/scripts/full_p47_CM_log_crosscheck.py
             /topics/serre-uniformity/notes/2026-11-27-full-p47-CM-log-crosscheck-method.md
             /topics/serre-uniformity/notes/full-p47-CM-log-crosscheck-request.json
+      - name: Fetch the fixed completed public job log on the host
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SERRE_EXPECTED_REQUEST_SHA256: '71f9182ff1ab840ac0ad2f37a9f716bb3232ab958d82c16019887e7c48afefbc'
+        run: timeout --signal=TERM --kill-after=10s 90s python3 topics/serre-uniformity/scripts/full_p47_CM_log_crosscheck.py --fetch-job-log
       - name: Pull pinned official SageMath 10.6 image
         run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
       - name: Compare completed logs in the full original Hodge frame
         env:
-          GH_TOKEN: ${{ github.token }}
-          SERRE_EXPECTED_REQUEST_SHA256: '715152fe4b7c31252115947c5b54146d67f4b8c163a9b2c0fd732227cc5986aa'
+          SERRE_EXPECTED_REQUEST_SHA256: '71f9182ff1ab840ac0ad2f37a9f716bb3232ab958d82c16019887e7c48afefbc'
         run: |
           timeout --signal=TERM --kill-after=30s 600s docker run --rm --cpus=4 --memory=14g \
             --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \
+            --mount "type=bind,source=${RUNNER_TEMP}/serre-full47-completed-job.log,target=/input/completed-job.log,readonly" \
             --workdir /work \
             -e GITHUB_ACTIONS -e GITHUB_REPOSITORY -e GITHUB_SHA \
             -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
-            -e GH_TOKEN -e SERRE_EXPECTED_REQUEST_SHA256 \
+            -e SERRE_EXPECTED_REQUEST_SHA256 \
+            -e SERRE_CM_LOG_INPUT=/input/completed-job.log \
             -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 \
             -e OMP_NUM_THREADS=1 -e OPENBLAS_NUM_THREADS=1 \
             sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879 \
