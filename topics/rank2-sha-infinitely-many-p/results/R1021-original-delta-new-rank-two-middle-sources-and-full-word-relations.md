@@ -1398,3 +1398,148 @@ $U_B,Q_1U_B,\ldots,Q_1^{p-1}U_B$
 它没有自动证明测试族对 $Q^\dagger$ 封闭。
 后续必须在 R1034 的同一个高精度物理矩阵、$\beta/\gamma$
 两种合法平坦权、实际 cut 和完整十三字中证明这种生成关系。
+
+## 12. 原三处 norm 的完整 G 交叉与第一个实际单位
+
+这一节只用 R887 的原指定 $Z,G,\mathscr F_p$ 和 R1024 的实际
+三挠平移。它支付把 $\delta$ 的完整 sigma 连接接到三支平均时
+必须保留的项，不以这个局部单位另加中央零。
+
+写 $S=(0,1)$、$r_0=x^2/y$、$\rho_p=c_p^{-1}$。
+下标 $\delta,\pm$ 分别表示 $[\delta]$、$P\mapsto P\pm S$ 的实际拉回。
+原加法公式直接给
+$$
+y\,y_+y_-=3\delta y_\delta,\qquad
+j_++j_-=\frac{2y}{x},\qquad
+r_0+r_{0,+}+r_{0,-}=\delta r_{0,\delta}.
+$$
+利用 R887 的全 $\mathscr F_p$ cocycle，而非另选 primitive，
+遂得
+$$
+\boxed{
+\mathscr F_p+\mathscr F_{p,+}+\mathscr F_{p,-}
+=-\delta\mathscr F_{p,\delta},\qquad
+Z+Z_++Z_-=-\delta Z_\delta.
+}
+\tag{80}
+$$
+例如第二式中的 $r_0^p$ 项准确相消，因为 $\delta^p=-\delta$。
+它是整个函数域等式。
+
+### 12.1 三支平均与 CM 拉回并不具有同一个 G
+
+定义原实际差
+$$
+K_\delta=\delta G_\delta-G-G_+-G_-.
+$$
+原 $\delta^2x_\delta=x+x_++x_-$ 和 $DG=-x+c_pZ^{p-1}$ 给
+$$
+\boxed{
+DK_\delta
+=c_p\left\{
+3(Z+Z_++Z_-)^{p-1}
+-Z^{p-1}-Z_+^{p-1}-Z_-^{p-1}
+\right\}.
+}
+\tag{81}
+$$
+这里使用 (80) 和 $\delta^{p-1}=-1$。
+右端的交叉项没有被加法关系删掉。
+
+为锁住水平项，沿 R1024 定义原有限算子
+$$
+\mathcal G_T(f)=-\sum_{i=0}^{p-2}
+ \frac{(-1)^iT^{i+1}D^if}{(i+1)!},\qquad
+\Pi_Tf=\sum_{i=0}^{p-1}\frac{(-T)^iD^if}{i!}.
+$$
+置
+$$
+a_\pm=Z_\pm-Z=h_\pm^p,\qquad
+b=Z_\delta/\delta-Z=h_\delta^p/\delta
+       =\frac{a_++a_-}{3},\qquad j=2y/x .
+$$
+因 $\delta^2x_\delta=3x-Dj$，同一个原有限和准确给
+$$
+\boxed{
+\delta G_\delta-3G-j
+=3\{\mathcal G_{Z+b}(x)-\mathcal G_Z(x)\}
+-\Pi_{Z+b}j.
+}
+\tag{82}
+$$
+平移的相应式就是 R1024(25)。
+故以下水平项始终由 (82) 与那两个实际平移式定义，
+不能换成自由参数。
+
+逐原有限 Taylor 和分开非水平部分，有完整等式
+$$
+\boxed{
+K_\delta=
+c_p\sum_{\ell=1}^{p-1}\frac{(-1)^{\ell-1}}{\ell}
+ \left(3b^\ell-a_+^\ell-a_-^\ell\right)Z^{p-\ell}
++k_\delta^p .
+}
+\tag{83}
+$$
+所有分母都是单位，$k_\delta^p$ 是 (82) 指定的剩项。
+特别 $\ell=1$ 整项由 $3b=a_++a_-$ 精确消失。
+
+### 12.2 不依赖未知 Fermat 商的首项
+
+R1024 的原 $h_\pm$ 和 R887 的 $h_\delta$ 给
+$$
+a_+=-3\rho_pZ^{2p}+O(Z^{5p}),\quad
+a_-=3\rho_pZ^{2p}+O(Z^{5p}),\quad b=O(Z^{5p}).
+$$
+(83) 的 $\ell=2$ 因而准确贡献
+$9\rho_pZ^{5p-2}+O(Z^{8p-2})$。
+$\ell=3$ 使用
+$a_+^3+a_-^3=(a_++a_-)\{(a_++a_-)^2-3a_+a_-\}$
+得阶至少 $10p-3$；$\ell\ge4$ 的阶至少 $9p-4$。
+
+还必须核水平项不能抢在它之前。
+R1024(26) 的原水平公式对三支使用后，
+$-\Pi_Z(j_++j_-)+\Pi_Zj_++\Pi_Zj_-$ 完全相消。
+平移剩项的首项含
+$a_\pm\Pi_Zx_\pm$；
+$x_\pm(O)=0$ 且其 CM3 型迫 $\Pi_Zx_\pm=O(Z^{2p})$，
+故它从 $4p$ 起。其余平移项至少含 $a_\pm^2$，同样从 $4p$ 起。
+CM 支的首项含 $b\Pi_Z(\delta^2x_\delta)$，
+从 $7p$ 起；其余项更高。
+对最后可能有 $p$ 阶极的有限 Taylor 坐标，
+显示 $b^\ell$ 或 $a_\pm^\ell$ 的阶仍严格支付上述界。
+
+所以 $k_\delta^p=O(Z^{4p})$。
+整个 $K_\delta$ 及 (83) 的显示和都为 $\mu_6$ 型五；
+水平指数 $mp$ 因而必须满足 $m\equiv1\pmod6$。
+$4p$ 以后的第一个允许水平指数是 $7p$。于是
+$$
+\boxed{
+K_\delta=9\rho_p Z^{5p-2}+O(Z^{7p}),\qquad
+9\rho_p\in k^\times .
+}
+\tag{84}
+$$
+这里原 $Z^p$ Gaussian 水平项及 $6p-1$ 非水平项都已经实际相消；
+不需要假定原三处 Fermat 商为单位或为零。
+
+### 12.3 它在完整一阶运输中的位置
+
+原 sigma 的三支 norm 与 $\delta$ 拉回具有相同的
+$\delta x$ Miller 因子。
+但在有限模型中，它们的 degree10 拉回连接分别使用
+$\sum_{T\in\ker\delta}G_T$ 和 $\delta G_\delta$。
+准确差为
+$$
+\boxed{
+\left(D-10\delta G_\delta\right)
+-\left(D-10\sum_{T\in\ker\delta}G_T\right)
+=-10K_\delta.
+}
+\tag{85}
+$$
+因此 (84) 是已经固定的原模型交叉，
+不能在 $\gamma$ 的 Jacobian 或 (72) 的真实转置中省掉。
+原 $P_{10}$ 的运输还须继续保留其整个 $\Xi$、
+实际 cut 与原十三 trace；(85) 没有以一个连接前缀替代这些数据。
+本节未把 (84) 的单位冒作已被坏 canonical 假设迫零的读数。

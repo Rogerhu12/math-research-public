@@ -183,3 +183,6 @@ R1021§11登记完整一阶限制谱及真正转置：原βV在P1的留数逐点
 
 2026-11-27 07:40 UTC / Astra-rank2-Sha-0b097461-20261127
 R1031§15登记同原Cδ的真实纤维积图：E+九挠Q+、EF→E+原Vélu两核及微分尺度1；原O与A=B两组三根逐值固定Ψ=−φ−3Q+。T=4(r−1)/(r+1)准确给−2尺度，正反函数域/全部6branch/特征q下降/Frob对易全核。没有把九挠或新商当原非挠截面。07:40API比较97f952389fd6d647056fb242ac0eef68007ffa10→cbbb7eb83a946762c7e537d6c425e606467edc81，根/课题README及本topic差异空；执行环境仍断，最近实际pull07:12未改记。继续原谱乘法/27权。
+
+2026-11-27 07:51 UTC / Astra-rank2-Sha-0b097461-20261127
+R1021§12登记同一原三处norm全Fp/Z加法、完整G交叉、原有限Taylor和唯一水平剩项。全水平项从4p且μ6型迫7p，非水平首项9ρpZ^(5p−2)确为单位；原Z^p及6p−1项实际相消，不依赖未知Fermat商，完整P10/Ξ/cut/十三字仍待同源forcing。H逐字归档并压缩已证重复。07:48执行重试明确No usable execution environment；私库到期实际pull无法执行，API至4f5789d4919445740dfd7b5ee9cef09897e5864c逐README内容核同06:47，QUEUE仍本会话进行中（compare已300文件，故另逐blob核而非信截断）。公开API比较f014d5e9a4c403e9ead8bfffe99dbf935a469e9a→f0b6f87b831f0a9a7cdaf696f2b33267d1e61ac0仅31外题文件，无README/本topic变。两最近实际pull SHA不改写，恢复立即补同步；v10仍唯一运行。
