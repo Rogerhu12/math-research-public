@@ -185,7 +185,7 @@ root完整读取19:20:05 UTC公开index：20103B/SHA256 5bb9c1de88a78b61e27adf91
 
 ## 5. 初始完整有限几何已返回，首试步实际开始
 
-root在2026-11-27 19:54 UTC完整读取19:45:18 UTC公开索引，18924B/SHA256 204d22d939e8306bb8c8297718bddbb96b6df9676fbeabcd3da85e7374657f73/Gitblob9edf920ca0b9fef2ff94ffd2d2fdf1737e180cdc。这次保留的actual数学事件已为19:43:44.731193+00:00的trial-start，不能把该时间冒作此前initial geometry的返回时间。
+root复读19:45:18 UTC公开索引（记录时间2026-11-27 19:53:18 UTC），18924B/SHA256 204d22d939e8306bb8c8297718bddbb96b6df9676fbeabcd3da85e7374657f73/Gitblob9edf920ca0b9fef2ff94ffd2d2fdf1737e180cdc。这次保留的actual数学事件已为19:43:44.731193+00:00的trial-start，不能把该时间冒作此前initial geometry的返回时间。
 
 **同一f2e417模型、初始7e06坐标的完整有限几何读数已实际返回：positive physical g = 2.0480426708394406，complete=True。** 它仍严格为正，原几何可行性未通过，accepted directions仍0，complete report仍false。相同固定target及原几何预算下，它小于16旧初场的11.17545381570094，但这既不是通过、连续上界、reach或幅度证书，也没有给出六个分项中的最大项身份。原observer/live selector未显示各分项，不能从总最大值猜坏项或用R721条件式替实测。
 
