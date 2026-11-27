@@ -1,15 +1,17 @@
 {
-  "message": "ISP: exclude both complete genuine QQ boundary-image fibers in the Phi exceptional chart",
-  "parentCommit": "392591048656cb5f0c8aa779fe163c4eed912427",
+  "message": "ISP: preserve the complete C4 original Q graph and cubic u cover while freezing its timed-out cofactor",
+  "parentCommit": "f0844f1a7fdd7f689b79c7c972e7e64fffd2eb6f",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-two-genuine-boundary-image-complete-QQ-fiber-exclusions.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-two-complete-QQ-fiber-exclusions-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-two-entire-QQ-fibers-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-two-entire-QQ-fibers-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-C4-Delta-zero-complete-Q-graph-and-cubic-u-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-C4-Q-graph-cubic-u-and-SIGALRM-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-complete-C4-twelve-dimensional-original-Gram-8542.py",
+    ".github/workflows/invariant-subspace-collision-c-four-finite-original-gram-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-collision-C4-cubic-u-and-timeout-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-collision-C4-cubic-u-and-timeout-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-collision-c-four-finite-original-gram-8542.yml"
+  ]
 }

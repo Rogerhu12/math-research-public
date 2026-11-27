@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 69a4a10f249c1b597880392f5f06b93c64ba7549（2026-11-27 16:19:14 UTC，Actions run46032550972实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46032550972-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 16:19:13 UTC/e02ad3b57d7487f0fd582d40fd47360a2d884031，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** f0844f1a7fdd7f689b79c7c972e7e64fffd2eb6f（2026-11-27 16:23:33 UTC，Actions run46033174087实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46033174087-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 16:23:33 UTC/b18d8a522e9e64154432f7b7b953dba69099f0a0，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `392591048656cb5f0c8aa779fe163c4eed912427`（2026-11-27 16:18:50 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `f0844f1a7fdd7f689b79c7c972e7e64fffd2eb6f`（2026-11-27 16:23:12 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-two-entire-QQ-fibers-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-collision-C4-cubic-u-and-timeout-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k整等权/T0零/J=Q/Phi0/Q1−u均闭。** 7bd9全Delta五原行/三列已返；cf0整Delta0真QQ578/独立N1全Gauss只余C4/C2/λ1/3。后两整纤维已分别由唯一有理点、完整Ψ4(u)原八Gram及E1/EBe单位排空；74cf真0.139秒/37736KiB/0。现在Delta0只余C4=[3/8,−3/2,3,−3,1]四λ；新5b2付原Q头再做同Q(u)原三mean/N1，所有u头零保留。Delta非零及h1/k1≤6219仍开，旧来源/失败保档。
+- **h=k整等权/T0零/J=Q/Phi0/Q1−u均闭。** 7bd9全Delta五原行/三列已返；cf0整Delta0真QQ578/独立N1全Gauss只余C4/C2/λ1/3。后两整纤维已分别由唯一有理点、完整Ψ4(u)原八Gram及E1/EBe单位排空；74cf真0.139秒/37736KiB/0。现在Delta0只余C4=[3/8,−3/2,3,−3,1]四λ；5b2真付Q头/Bézout及完整首一三次u、四原mean/N1，≤12基点；后cofactor120.071秒/41680KiB/−14冻。新3b4直接完整12维常数代数返八Gram，非单位逆分两支。Delta非零及h1/k1≤6219仍开，旧来源/失败保档。
 - **旧D≠0Phi0∩zn0闭；rho头零主支保87/55与新C71/29，未排空。** 例外权原首一2033/混合投影≤168有序基点，各≤6T；69ab真1.196秒/41896KiB/0，λ半/H6两整QQ纤维原23/150维满秩全逆返，现仅此图付(2λ−1)H6；68dbc局部重数另续。全Phi原N1/z2与T6自由12、四原行已返；8890真0.085秒四二次头共同零准确为F10(u)=0,Q=−a9(u)十个权点，原值仍须返。其余头开图≤3生成元，新100ce首头图真D/三原行返回；该首头零曲线保留。两快照/路径失败保档，不重放ed0/879。
 
 ### rankH3原ess6

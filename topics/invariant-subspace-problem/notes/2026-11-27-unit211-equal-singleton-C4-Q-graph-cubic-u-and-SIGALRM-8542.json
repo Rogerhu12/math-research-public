@@ -1,0 +1,213 @@
+{
+  "format": "isp-C4-original-Q-graph-cubic-u-and-frozen-SIGALRM-8542",
+  "execution": {
+    "elapsed_seconds": 120.070572019,
+    "max_child_rss_kib": 41680,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c03e68ac712e5aff12a42667d5316537cb46cc79",
+        "before": "d01651f689a85b7797a7a9e8edf270ea40dea642",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T16:16:23.720245+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46032150195",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "d01651f689a85b7797a7a9e8edf270ea40dea642",
+    "source_exit_code": -14,
+    "source_git_blob": "f2d555ac62e231023c27962e75f82533a7020498",
+    "source_sha256": "5b2b2fcd2706e2bbe6761b38055cd42ac6ccd63e944f8e4f8a7fd5cf5503d0aa",
+    "stdout_bytes": 2218,
+    "stdout_sha256": "0651e6df6cda513ce7c37cc4dcdba366a48f3ba20335635836d7dde939610521",
+    "stop_reason": null
+  },
+  "completedMath": [
+    {
+      "originalHead": [
+        [
+          "-8",
+          "8",
+          "12",
+          "-8"
+        ],
+        [
+          "6",
+          "-6",
+          "-10",
+          "8"
+        ]
+      ],
+      "originalConstant": [
+        [],
+        [
+          "-4",
+          "0",
+          "24",
+          "-16"
+        ],
+        [
+          "2",
+          "4",
+          "-28",
+          "16"
+        ],
+        [
+          "2",
+          "-4",
+          "4"
+        ]
+      ],
+      "fullHeadConstantGcd": [
+        [
+          "1"
+        ]
+      ],
+      "headZeroOriginalUnitRemovals": [],
+      "remainingHeadZeroUPolynomial": [
+        [
+          "1"
+        ]
+      ],
+      "allQQConstantInversesAndPolynomialBezoutReturned": true,
+      "entireHeadZeroFiberExcluded": true,
+      "stage": "new_C4_original_Delta_Q_head_complete_return",
+      "seconds": 0.011812134000003027
+    },
+    {
+      "numerator": [
+        [],
+        [
+          "316/47",
+          "-680/47",
+          "3376/141",
+          "-480/47"
+        ],
+        [
+          "-490/47",
+          "1152/47",
+          "-5768/141",
+          "2528/141"
+        ],
+        [
+          "174/47",
+          "-472/47",
+          "2392/141",
+          "-1088/141"
+        ]
+      ],
+      "denominator": [
+        [
+          "-110/47",
+          "132/47",
+          "-704/141",
+          "368/141"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "originalDeltaActuallyZero": true,
+      "entireOriginalQHeadZeroExcluded": true,
+      "stage": "new_C4_complete_original_Delta_zero_Q_graph",
+      "seconds": 0.11145687500000179
+    },
+    {
+      "variables": [
+        "u"
+      ],
+      "constantField": "complete_C4_lambda",
+      "originalQGraphPaid": true,
+      "freeOriginalCoordinate": "z=Q*t",
+      "fFromOriginalP1": true,
+      "NVExactAffineRow": true,
+      "actualNVIdentity": "Pf*NV=Tnum-bc*Delta*z",
+      "PfPaidByEntireOriginalT0AndJQExclusions": true,
+      "noDeltaInverse": true,
+      "allDeltaZeroFibersRetained": true,
+      "compactOriginalIdentitySHA256": "9ab0270fe53a0a6f169755f92f731e6cf636f1d9b7a9e12364ef487a01cdea6e",
+      "noOldGramOrProjectionReplayed": true,
+      "claimExcluded": false,
+      "stage": "new_equal_singleton_compact_original_full_chart_input",
+      "seconds": 0.4054413189999977
+    },
+    {
+      "originalRowDegrees": {
+        "R": 2,
+        "W": 2,
+        "O": 2,
+        "N1": 2
+      },
+      "allOriginalDenominatorsPaid": true,
+      "freeOriginalCoordinate": "z=Q*t",
+      "stage": "new_C4_all_original_compact_rows_on_same_Q_graph",
+      "seconds": 62.384079659
+    },
+    {
+      "degree": 3,
+      "coefficients": [
+        [
+          "-1935968/377807",
+          "-582832/377807",
+          "2333440/377807",
+          "-734336/377807"
+        ],
+        [
+          "86116/10211",
+          "82696/10211",
+          "-151584/10211",
+          "33024/10211"
+        ],
+        [
+          "-1726012/377807",
+          "-2265096/377807",
+          "2999120/377807",
+          "-176192/377807"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "onlyPaidRemovals": [
+        {
+          "unit": "u",
+          "degree": 1
+        },
+        {
+          "unit": "u",
+          "degree": 1
+        },
+        {
+          "unit": "u",
+          "degree": 1
+        },
+        {
+          "unit": "u-1",
+          "degree": 1
+        },
+        {
+          "unit": "u-1",
+          "degree": 1
+        },
+        {
+          "unit": "u-1",
+          "degree": 1
+        },
+        {
+          "unit": "Q",
+          "degree": 1
+        }
+      ],
+      "stage": "new_C4_complete_original_Tnum_u_constraint",
+      "seconds": 62.418906039
+    }
+  ],
+  "cofactorCompleted": false,
+  "wholeC4Excluded": false
+}
