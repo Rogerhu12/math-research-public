@@ -539,3 +539,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 08:23 UTC：R90余八生成检查点按完整源与参数保全
 
 第32轮普通移出八件863077B，依第31轮完整14源/43输入/20轴/原全argv与真终态，保公开恢复blob和原manifest全SHA；仅树与小元数据核查，未读大科学文件、无重算，原R90与完整终包不变。双README云核f84922b1309d9c3f1f0cad22ba2e7c10c73c63a7无变，API非pull；继续normal连续费、整闭面矩和径向精化。详[记录](notes/2026-11-27-legacy-R90-green-checkpoints-retention-32.md)。
+
+## 2026-11-27 08:29 UTC：08取消而完整科学11未返
+
+Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelled，root实读API/最后索引；仅1–10返，95559科学11已启而report/final/退出/typed未知，pure12未返，原完整队列不改，不猜取消原因。H/open转真实终态；09继续，normal全域费用接入及同g精化不停。详[终态记录](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)。

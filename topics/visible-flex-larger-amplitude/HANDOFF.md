@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：真实pull/rebase至origin/main `eda95d51e82b126439d51d42185a880e6ddad3e9`，双README整SHA581402/3c1c无变；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31次note末节/entry§9；本次云核规则至`f84922b1309d9c3f1f0cad22ba2e7c10c73c63a7`无变，非pull。私库QUEUE已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：真实pull/rebase至origin/main `eda95d51e82b126439d51d42185a880e6ddad3e9`，双README整SHA581402/3c1c无变；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31次note末节/entry§9；本次云核规则至`c24a2dd1f433f8fa459e1f9a13cde41d6c028d04`无变，非pull。私库QUEUE已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
@@ -47,8 +47,8 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 [09输入](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)1–3真返0，整dc5/160词90同、目标7c766/绑定21a44，双5e373保；原4/5失败无场报告。[6/7原诊断](notes/2026-11-27-run09-actual6-7-adjacent-policy-key-failure.md)真返0，查实旧政策键。[完整修复](notes/2026-11-27-run09-selected-stage-guard-repair-and-complete-retry.md)e89d/ff54/c188/aee2四独立体、7857再生器及2ea1全ready已排；root真重建/58源、145+7参数/333+317selectors全等，原数学suffix不变。2–7全对象/返回归档，原输入不重跑；07/08未知保，未冒新场。
 
 <!-- visible-larger-parallel-08:start -->
-并行公开Actions08：[run 45929088658/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45929088658)；[实际记录](notes/2026-11-27-public-actions-45929088658-1.md)。阶段`followup:complete-independent-fixed-chart7c-full-envelope-20261127-08`/running；已返10，exit=未返。
-并行08规则核查：2026-11-27 08:08:18 UTC，真实pull至`812ff88bd83b5669770c0224269ee9dccfab7c9e`，双README无变化。
+[08终态](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)：45929088658/1的job140277268174及step5真实completed/cancelled；08:25:18观察、API更新08:24:27。仅1–10返；95559科学11已启而退出/report/final/typed未知，pure12未返；不猜取消因果，原全参数保。
+08最后记录的真实规则核查：2026-11-27 08:08:18 UTC，真实pull至`812ff88bd83b5669770c0224269ee9dccfab7c9e`，双README无变化。
 <!-- visible-larger-parallel-08:end -->
 
 <!-- visible-larger-parallel-09:start -->
