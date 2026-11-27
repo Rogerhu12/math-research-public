@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W整J19原权曲线已闭](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)，[全局原均值坐标与明确首一w6/12维环境](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)已付。** L的完整有限身份给A[x,y,t]/L=A[w,Y]，无y−1逆；D6的精确w6首项=−beta³detH，detH=已付因子×J19，故q_w6与原q_Y2定义自由12维环境，五原式商仍完整保留且未声称自由。2698新的A[y]三生成真17.044秒/183288KiB/exit0，六乘法/七原行/三个y6全部返回，待合并完整稿；继续真正原参数返回、D27/B239及Y逆。先前各权定理适用域保留，一般h=k(D0)不外推。
+**[W整J19已闭](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)、[明确w6/Y2自由12维环境](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)及[整W原A[y]三生成/首一y6](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)已付。** 2698真17.044秒/183288KiB/exit0，六真乘法、七同点三列与三个原y6全返；最小F0度15/20/6、1411项，首项−1024乘已付gcd积，可全图首一化；其余两头仍353/607项未付，全部保留。新0061用lc(F0)Fi−lc(Fi)F0降≤5，再作两个固定QQ Sylvester权投影，180秒4GiB待实际。D27/B239、Y逆及完整原返回仍开，不外推一般h=k(D0)。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
@@ -186,6 +186,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[Phi0/h1真余式Gauss给≤68不同原基点/136三元组](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-residual-68-point-cover.md)已付。** 415b真3.690秒/52380KiB/exit0，1105首一QQ余覆的真实模余式与Q840 gcd1，再对两原28阶投影全Bezout得gcd68；QQ首一公共因子保度及每纤维r个Vandermonde核列给严格点界。原840六因子及c1/2整排继续保留。ca7同rho组合仍余68模支持，QQ边界给H4/H20新候选，不能据此付原单位；继续它们的完整QQ原域及剩32模支持来源。k1只交换，原点尚未排空。
+**[Phi0/h1真余式Gauss给≤68不同原基点/136三元组](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-residual-68-point-cover.md)已付。** 415b真3.690秒/52380KiB/exit0，1105首一QQ余覆的真实模余式与Q840 gcd1，再对两原28阶投影全Bezout得gcd68；QQ首一公共因子保度及每纤维r个Vandermonde核列给严格点界。原840六因子及c1/2整排继续保留。ca7同rho组合仍余68模支持，[QQ边界H4/H20准确记录](notes/2026-11-27-unit211-Phi-zero-rank-one-value-same-rho-exact-boundary-observation-8542.md)只给新候选，不能据此付原单位；继续它们的完整QQ原域及剩32模支持来源。k1只交换，原点尚未排空。
 
 **[同一全尺度右逆](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)、[平滑修正/实际cut通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)及[实际方向性交织/迹类Rosenblum解](results/R271-appendix-actual-directional-intertwiner-exclusion-and-trace-class-rosenblum-solutions.md)已付。** 同G迭代exp(Cn³)、G=R−C全H平滑、有限孔R*及G可闭/闭值域保留；原RTcut有界子列⇒N，非零W迫范数全序列∞而配对→||w||²。同G真空规范合原||Bⁿ||≤exp(−95n⁴/32)，付XT=BX⇒X0；实际K/L级数给TK−KB=f⊗y、TL_y=L_yB及L_y*e0=y。真实w∈W有L_w|M=e0⊗w、K_f,w|M=Gf⊗w；未给G保N、Gamma/Sr域费或W0。继续原有锚来源、通量上界与两范围核心。

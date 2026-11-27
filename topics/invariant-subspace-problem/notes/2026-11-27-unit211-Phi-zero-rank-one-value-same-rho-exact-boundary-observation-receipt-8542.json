@@ -1,0 +1,517 @@
+{
+  "schema": "isp-same-rho-and-exact-boundary-small-receipt-v1",
+  "execution": {
+    "elapsed_seconds": 4.374202256999993,
+    "max_child_rss_kib": 57976,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "03df0ac00ed7301767ec51323018355b2920ce1c",
+        "before": "03df0ac00ed7301767ec51323018355b2920ce1c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T12:27:56.403256+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45998827667",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "03df0ac00ed7301767ec51323018355b2920ce1c",
+    "source_exit_code": 0,
+    "source_git_blob": "c8115c333903fc4ceaa357e5d6a7ccce5c4f256d",
+    "source_sha256": "ca7e5acfb12f90e5f5e38dfb5057aadb3579cb7cb233512ca4d73e3caede0562",
+    "stdout_bytes": 25840,
+    "stdout_sha256": "94d6d1777f259e98b4ffca5844690a4e4dae28cff96128039b5b19d62c42cc3c",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "name": "G_plus_S",
+      "gcd": {
+        "degree": 906,
+        "sha256": "985b276e6ed417b32380669bdc859d327378e20ad350c1b7ccb27cbff8d38f03"
+      },
+      "afterSixPhi": {
+        "degree": 68,
+        "sha256": "51ff3c9fba943f174369ce7beff7b81cd6b6505be5f3180f4de966b1bfe542a6"
+      },
+      "sixPhiModMultiplicities": [
+        [
+          "A2",
+          110
+        ],
+        [
+          "B3_linear",
+          117
+        ],
+        [
+          "B3_quadratic",
+          110
+        ],
+        [
+          "Snum",
+          24
+        ],
+        [
+          "lambda_half",
+          145
+        ],
+        [
+          "c_half_quadratic",
+          44
+        ]
+      ],
+      "allFullProjectionProductsMultipliedBack": true,
+      "originalProjectionNames": [
+        "R",
+        "S",
+        "G_plus_S"
+      ],
+      "tagDegrees": [
+        2299,
+        2239,
+        1
+      ],
+      "tagSha256": "b609f55d2ce58bb17486662f6b315ced9dbbc11e15751f64ca1fd98f0f7cc541",
+      "exactQQDivisibilityStillSeparate": true,
+      "claimExcluded": false,
+      "stage": "same_rho_full_modular_Bezout_return",
+      "seconds": 3.6243494289999916
+    },
+    {
+      "name": "G_plus_T",
+      "gcd": {
+        "degree": 902,
+        "sha256": "c4bec26d1567bd2e19fbb6fda1b43ab60ea071dc84ca8742c9462341d9c1f188"
+      },
+      "afterSixPhi": {
+        "degree": 68,
+        "sha256": "51ff3c9fba943f174369ce7beff7b81cd6b6505be5f3180f4de966b1bfe542a6"
+      },
+      "sixPhiModMultiplicities": [
+        [
+          "A2",
+          110
+        ],
+        [
+          "B3_linear",
+          113
+        ],
+        [
+          "B3_quadratic",
+          110
+        ],
+        [
+          "Snum",
+          24
+        ],
+        [
+          "lambda_half",
+          145
+        ],
+        [
+          "c_half_quadratic",
+          44
+        ]
+      ],
+      "allFullProjectionProductsMultipliedBack": true,
+      "originalProjectionNames": [
+        "R",
+        "S",
+        "G_plus_S",
+        "G_plus_T"
+      ],
+      "tagDegrees": [
+        3603,
+        3543,
+        1305,
+        3
+      ],
+      "tagSha256": "013b34310d9e1f8fc2fe8eef0f3dee260b9e3ff575fd8d30dfcd75465578f216",
+      "exactQQDivisibilityStillSeparate": true,
+      "claimExcluded": false,
+      "stage": "same_rho_full_modular_Bezout_return",
+      "seconds": 3.7186640729999993
+    },
+    {
+      "name": "G_plus_NB",
+      "gcd": {
+        "degree": 902,
+        "sha256": "c4bec26d1567bd2e19fbb6fda1b43ab60ea071dc84ca8742c9462341d9c1f188"
+      },
+      "afterSixPhi": {
+        "degree": 68,
+        "sha256": "51ff3c9fba943f174369ce7beff7b81cd6b6505be5f3180f4de966b1bfe542a6"
+      },
+      "sixPhiModMultiplicities": [
+        [
+          "A2",
+          110
+        ],
+        [
+          "B3_linear",
+          113
+        ],
+        [
+          "B3_quadratic",
+          110
+        ],
+        [
+          "Snum",
+          24
+        ],
+        [
+          "lambda_half",
+          145
+        ],
+        [
+          "c_half_quadratic",
+          44
+        ]
+      ],
+      "allFullProjectionProductsMultipliedBack": true,
+      "originalProjectionNames": [
+        "R",
+        "S",
+        "G_plus_S",
+        "G_plus_T",
+        "G_plus_NB"
+      ],
+      "tagDegrees": [
+        3603,
+        3543,
+        1305,
+        3,
+        -1
+      ],
+      "tagSha256": "1d0b3ebef7324be1c234b68c2e0d720031313fe41c0a928320872c38332a6d79",
+      "exactQQDivisibilityStillSeparate": true,
+      "claimExcluded": false,
+      "stage": "same_rho_full_modular_Bezout_return",
+      "seconds": 3.9207335419999936
+    },
+    {
+      "name": "G_plus_PB",
+      "gcd": {
+        "degree": 891,
+        "sha256": "871951467939b7c6129f540db0693ff58d3a19d3b708ec97eb7997b26eab33da"
+      },
+      "afterSixPhi": {
+        "degree": 68,
+        "sha256": "51ff3c9fba943f174369ce7beff7b81cd6b6505be5f3180f4de966b1bfe542a6"
+      },
+      "sixPhiModMultiplicities": [
+        [
+          "A2",
+          110
+        ],
+        [
+          "B3_linear",
+          108
+        ],
+        [
+          "B3_quadratic",
+          107
+        ],
+        [
+          "Snum",
+          24
+        ],
+        [
+          "lambda_half",
+          145
+        ],
+        [
+          "c_half_quadratic",
+          44
+        ]
+      ],
+      "allFullProjectionProductsMultipliedBack": true,
+      "originalProjectionNames": [
+        "R",
+        "S",
+        "G_plus_S",
+        "G_plus_T",
+        "G_plus_NB",
+        "G_plus_PB"
+      ],
+      "tagDegrees": [
+        6125,
+        6065,
+        3827,
+        2525,
+        -1,
+        10
+      ],
+      "tagSha256": "8f14fd08d52329994f082576db23da78798bef9d70e2764f07c6ccdbd68af961",
+      "exactQQDivisibilityStillSeparate": true,
+      "claimExcluded": false,
+      "stage": "same_rho_full_modular_Bezout_return",
+      "seconds": 4.187836124
+    },
+    {
+      "boundary": "0",
+      "originalCurves": [
+        "F",
+        "G",
+        "S",
+        "T",
+        "NB",
+        "PB"
+      ],
+      "inputDegrees": [
+        77,
+        75,
+        76,
+        83,
+        113,
+        127
+      ],
+      "actualQQGcdDegree": 44,
+      "rationalContent": "1/4294967296",
+      "exactQQFactors": [
+        {
+          "coefficientsAscending": [
+            "1",
+            "-7",
+            "16",
+            "-24",
+            "16"
+          ],
+          "degree": 4,
+          "multiplicity": 2,
+          "sha256": "3e1cff11fa67c3bad1641954d06759a429d0a357d44c6b4ec1e8b67500d1c88f"
+        },
+        {
+          "coefficientsAscending": [
+            "-1",
+            "1"
+          ],
+          "degree": 1,
+          "multiplicity": 12,
+          "sha256": "79d5cff11205f117be585c6d12d682b632868096503e7fb4b798ee52249c60a8"
+        },
+        {
+          "coefficientsAscending": [
+            "1",
+            "-2",
+            "4"
+          ],
+          "degree": 2,
+          "multiplicity": 12,
+          "sha256": "891b1d5bd21d5559de13d15a9af76dfbf40af029f2fbcea93194cdabe056fbeb"
+        }
+      ],
+      "allQQBezoutAndFactorProductsMultipliedBack": true,
+      "onlyCandidatesForWholeOriginalFiberReturn": true,
+      "claimExcluded": false,
+      "stage": "exact_QQ_original_rho_boundary_input",
+      "seconds": 4.213091282999997
+    },
+    {
+      "boundary": "1",
+      "originalCurves": [
+        "F",
+        "G",
+        "S",
+        "T",
+        "NB",
+        "PB"
+      ],
+      "inputDegrees": [
+        75,
+        73,
+        74,
+        81,
+        110,
+        124
+      ],
+      "actualQQGcdDegree": 26,
+      "rationalContent": "1/131072",
+      "exactQQFactors": [
+        {
+          "coefficientsAscending": [
+            "1",
+            "-2",
+            "2"
+          ],
+          "degree": 2,
+          "multiplicity": 1,
+          "sha256": "e00be964113201eebe0a127b0e7356ad16ce03e28c15b490ad65d68587bec5c6"
+        },
+        {
+          "coefficientsAscending": [
+            "-1",
+            "1"
+          ],
+          "degree": 1,
+          "multiplicity": 8,
+          "sha256": "79d5cff11205f117be585c6d12d682b632868096503e7fb4b798ee52249c60a8"
+        },
+        {
+          "coefficientsAscending": [
+            "1",
+            "-2",
+            "4"
+          ],
+          "degree": 2,
+          "multiplicity": 8,
+          "sha256": "891b1d5bd21d5559de13d15a9af76dfbf40af029f2fbcea93194cdabe056fbeb"
+        }
+      ],
+      "allQQBezoutAndFactorProductsMultipliedBack": true,
+      "onlyCandidatesForWholeOriginalFiberReturn": true,
+      "claimExcluded": false,
+      "stage": "exact_QQ_original_rho_boundary_input",
+      "seconds": 4.242319524999999
+    },
+    {
+      "boundary": "-1",
+      "originalCurves": [
+        "F",
+        "G",
+        "S",
+        "T",
+        "NB",
+        "PB"
+      ],
+      "inputDegrees": [
+        66,
+        65,
+        64,
+        71,
+        95,
+        107
+      ],
+      "actualQQGcdDegree": 39,
+      "rationalContent": "1/2038431744",
+      "exactQQFactors": [
+        {
+          "coefficientsAscending": [
+            "5",
+            "-86",
+            "751",
+            "-4320",
+            "18035",
+            "-57032",
+            "138416",
+            "-253716",
+            "325848",
+            "-204088",
+            "-230340",
+            "876048",
+            "-1346992",
+            "1230656",
+            "-511168",
+            "-330880",
+            "752576",
+            "-647168",
+            "325376",
+            "-94208",
+            "12288"
+          ],
+          "degree": 20,
+          "multiplicity": 1,
+          "sha256": "5f0ed7c30a74a6ee2fa3bf11f88085227bfb3d63ad44fc23c565bde7e2d00aa3"
+        },
+        {
+          "coefficientsAscending": [
+            "1",
+            "-2",
+            "3"
+          ],
+          "degree": 2,
+          "multiplicity": 4,
+          "sha256": "0eb2a8614e37a767181ea028d8dab9144cac464a4ed05bbba3bd1c5cca3eb915"
+        },
+        {
+          "coefficientsAscending": [
+            "-1",
+            "2"
+          ],
+          "degree": 1,
+          "multiplicity": 11,
+          "sha256": "b1cd874d703f4a48b6443248029a6b4a8aa56afcf1d8bf5ffab50d79790307c4"
+        }
+      ],
+      "allQQBezoutAndFactorProductsMultipliedBack": true,
+      "onlyCandidatesForWholeOriginalFiberReturn": true,
+      "claimExcluded": false,
+      "stage": "exact_QQ_original_rho_boundary_input",
+      "seconds": 4.26770720399999
+    },
+    {
+      "boundary": "infinity",
+      "originalCurves": [
+        "F",
+        "G",
+        "S",
+        "T",
+        "NB",
+        "PB"
+      ],
+      "inputDegrees": [
+        77,
+        75,
+        76,
+        83,
+        113,
+        127
+      ],
+      "actualQQGcdDegree": 0,
+      "rationalContent": "1",
+      "exactQQFactors": [],
+      "allQQBezoutAndFactorProductsMultipliedBack": true,
+      "onlyCandidatesForWholeOriginalFiberReturn": true,
+      "claimExcluded": false,
+      "stage": "exact_QQ_original_rho_boundary_input",
+      "seconds": 4.302055387999999
+    },
+    {
+      "currentFullModularGcd": {
+        "degree": 891,
+        "sha256": "871951467939b7c6129f540db0693ff58d3a19d3b708ec97eb7997b26eab33da"
+      },
+      "afterSixKnownPhiModularRemainder": {
+        "degree": 68,
+        "sha256": "51ff3c9fba943f174369ce7beff7b81cd6b6505be5f3180f4de966b1bfe542a6"
+      },
+      "exactQQBoundaryCandidateDegree": 32,
+      "exactQQBoundaryCandidateSha256": "4f6d6873aee63b92f208ccf77306d4a342f25d0e11d81810966ac81649c19a96",
+      "modularCandidateIntersections": [
+        {
+          "meetDegree": 24,
+          "sha256": "68a6bfe7636788ee69da1ca8a29261c772a06be537172bde55ca449d1205958d"
+        },
+        {
+          "meetDegree": 4,
+          "sha256": "cbe1dce39934ae70439ce35aedc7e40bfcee0966d70c9f042673ea16935b5d40"
+        },
+        {
+          "meetDegree": 4,
+          "sha256": "cbe1dce39934ae70439ce35aedc7e40bfcee0966d70c9f042673ea16935b5d40"
+        },
+        {
+          "meetDegree": 4,
+          "sha256": "cbe1dce39934ae70439ce35aedc7e40bfcee0966d70c9f042673ea16935b5d40"
+        }
+      ],
+      "modularSupportOutsideBoundaryCandidates": {
+        "degree": 32,
+        "sha256": "a97d9ceb641c3c5162af051160864103b4dc8d6a0431a740e3c932378d4f9dec"
+      },
+      "wholeOriginalQQBoundaryReturnNotYetClaimed": true,
+      "noQQResultantExpanded": true,
+      "noOriginalZeroFiberDiscarded": true,
+      "claimExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_same_rho_and_QQ_boundary_input",
+      "seconds": 4.306587162999989
+    }
+  ],
+  "proofScope": "new exact boundary input only; no whole H4/H20 fiber exclusion; no stronger than separately proved 68"
+}

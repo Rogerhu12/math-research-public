@@ -1,13 +1,17 @@
 {
-  "message": "ISP: bound original Phi collision fibers by 68 using true residual Gauss return",
-  "parentCommit": "c61258a2ceb155b30b89ac032bc02a3d202f3040",
+  "message": "ISP: prove whole W original three generators and explicit monic y six",
+  "parentCommit": "08df8a5992ccaee07c2b3d10ef8ba57471c43e07",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-residual-68-point-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-actual-residual-68-point-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-monic-y-six-original-QQ-parameter-projections-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-same-rho-exact-boundary-observation-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-same-rho-exact-boundary-observation-receipt-8542.json",
+    ".github/workflows/invariant-subspace-w-monic-y-six-qq-parameter-projections-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-w-monic-y-six-qq-parameter-projections-8542.yml"
+  ]
 }

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：J19已付后整W的A[y]三生成与原首一y六次](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)：2698实际17.044秒/exit0，六乘法/七原行/三cofactor全返；最小y6首项全部已付，其余头零全保。
+
 - [R150：Phi0真实1105余式的Gauss返回与68原基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-residual-68-point-cover.md)：415b实际3.690秒/exit0，直接真余式xgcd68、首一QQ公共因子保度、逐纤维核重数；≤136含ell点，不是旧908/840形式相除。
 
 - [R271：实际方向性交织排除与反向迹类Rosenblum解](results/R271-appendix-actual-directional-intertwiner-exclusion-and-trace-class-rosenblum-solutions.md)：同G三次费合原Bⁿ四次衰减，XT=BX只零；实际迹类K/L给秩一源、闭交织族及L_y*e0=y，并有真实W上的精确秩一限制，未付N=M。
