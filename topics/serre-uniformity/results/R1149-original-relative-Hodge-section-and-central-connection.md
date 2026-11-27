@@ -424,3 +424,302 @@ R1147 的高层修正 $(1+p^4)$ 正是 (1149.28) 的实际比例；并未在有�
 这些式子的係数在 $p>37$ 时都是 $p$ 整的。但“有一组 $p$ 整的有理连接公式”本身仍不等于已付的同源相对 strongly divisible lattice 或 Frobenius structure。特别在 $A=0$ 的 fine cubic point，$E_{10}$ 的零不能直接作为原 coarse $p$-Kummer 中央标量的首项；还须保原 $q_I$、comparison 与 coarse 三阶运输。
 
 新增 primary 的确切位置均在上引已刊 DLLZ 论文：Theorem 3.2.12(2)（作者版第27页）、Lemma 3.4.7 / Remark 3.4.8（第35页）、Corollary 3.5.7（第39–40页）、Theorem 4.3.2 / Corollary 4.3.4（第51页）。它们分别支付这里特定 unipotent 情形的 tensor log extension、正 monodromy residue、pullback 和 filtered tangential fibre；原 $v_d^\infty$ 来源仍是 R1147 自证的全部 primitive theta 计算。
+
+
+## 11. 原小盘上的整 Taylor 引理与有限 Frobenius 矩阵
+
+以下先给一个完整的整线性代数引理。它不假定一个逐点 crystalline 局部系已经自动具有相对 crystalline 实现。§12 将明确列出将该引理用于原 tower 时所需的同源前提。
+
+设 $p>37$，$M=\bigoplus_{j=1}^h\mathbb Z_p[[u]]e_j$ 有分裂过滤，其中 $e_j$ 的 filtration weight 是 $-r_j$，$0\le r_j\le14$。写
+$$
+\nabla e=eN(u)\,du,\qquad
+N(u)\in\operatorname{Mat}_h(\mathbb Z_p[[u]]).
+$$
+这里 $e$ 是基的行向量，故向量坐标的连接是 $d+N(u)\,du$。假设 Griffiths 条件，即 $N_{ij}(u)=0$ 若 $r_i>r_j+1$。令
+$$
+T'(u)=T(u)N(u),\quad T(0)=I,\qquad
+D=\operatorname{diag}(p^{r_j}),
+$$
+并给定参考点的 semilinear Frobenius 矩阵 $\Phi_0$，满足
+$C_0=\Phi_0D\in\operatorname{GL}_h(\mathbb Z_p)$。在此 $\mathbb Z_p$ 底上 coefficient Frobenius 是恒等。
+
+改用真正的整小盘坐标 $u=pt$。对任一 Frobenius lift
+$\varphi(t)\equiv t^p\bmod p$，定义
+$$
+\Phi(t)=T(pt)^{-1}\Phi_0T(p\varphi(t)).
+\tag{1149.29}
+$$
+这是由同一个参考 Frobenius 及水平运输定义的 map；由微分直接检验，它保持拉回连接。它不是把 $\Phi_0$ 的条目逐项当作常数而略掉 Gauss–Manin 运输。
+
+令 $N_-$ 是 $N(0)\bmod p$ 中恰好降低 filtration 一阶的部分：
+$$
+(N_-)_{ij}=
+\begin{cases}
+N_{ij}(0)\bmod p,&r_i=r_j+1,\\
+0,&\text{其它}.
+\end{cases}
+$$
+则
+$$
+\boxed{\quad
+\Phi(t)D\in\operatorname{GL}_h(\mathbb Z_p\langle t\rangle),
+\qquad
+\Phi(t)D\bmod p
+ =C_0\bmod p\;\exp(t^pN_-).
+\quad}
+\tag{1149.30}
+$$
+右边的 exponential 是次数至多 $14$ 的多项式，因为 $N_-^{15}=0$。
+
+证明如下。写 $T(u)=\sum_{n\ge0}T_nu^n$。递推式给
+$n!T_n$ 整，且 $(T_n)_{ij}=0$ 若 $r_i-r_j>n$。所以
+$T(pt)$ 收敛为整可逆矩阵，且 $T(pt)\equiv I\bmod p$。在
+$D^{-1}T(p\varphi(t))D$ 的 $(i,j)$ 项中，第 $n$ 项的估值至少
+$$
+n-v_p(n!)-(r_i-r_j).
+\tag{1149.31}
+$$
+当 $n\le14$ 时分母是单位；当 $n\ge15$ 时，由
+$r_i-r_j\le14$ 及 $p>37$，(1149.31) 严格为正。若 $n<r_i-r_j$，该项本来为零。因此全部条目整，且模 $p$ 只留下
+$n=r_i-r_j\le14$ 的项。
+
+达到这个最大 filtration 降阶的 Taylor 项，只能使用 $n$ 次 $N(0)$ 的降一阶部分：$N(u)$ 的任何正次 $u$ 项或 filtration 不降阶的项都会少降至少一阶。因此其系数恰是 $N_-^n/n!$。这给出 (1149.30)；其行列式是 $\det C_0$，因为 $\exp(t^pN_-)$ 是幺幂矩阵。这里没有把 $v_p(n!)$ 遗漏，也没有对无限尾项作形式截断。
+
+所有 divided Frobenius maps 都由 (1149.30) 定义。加上原分裂过滤，它们满足强可除性；相对连接为
+$d+pN(pt)\,dt$，模 $p$ 为平凡连接，且由同一 Taylor 估值是 $p$-adically quasi-nilpotent。于是这是幅度 $14$ 的相对 Fontaine–Laffaille 数据（取对偶或作共同 Tate twist，可改成标准的 $[0,14]$ 约定）。
+
+这个引理只要求一个**整代数参数** $u$。不能假定一个由积分定义的 heat 时间在所有高阶上都属于 $\mathbb Z_p[[u]]$。后文只把整参数的**一阶**按 Kodaira–Spencer 归一；全部 Taylor 尾项仍在整代数 chart 内估计。
+
+### 11.1 已刊的 étale realization 入口
+
+Abhinandan 的已刊论文 *Crystalline representations and Wach modules in the relative case*，*Ann. Inst. Fourier* **75** (2025), 379–474，Definition 5.1、Proposition 5.3（印刷452–453页），给小权自由相对 Fontaine–Laffaille 数据的同秩 crystalline $\mathbb Z_p$-representation，并给全忠实性。其 §5.3 还保留有限 $p^n$ reduction 的比较。这里仅使用从已经写出的格到 étale 局部系的方向，不使用一个未付的相对 essential-surjectivity 命题。
+
+该文底环是 formal torus 的 $p$-completed étale algebra。小盘 $\mathbb Z_p\langle t\rangle$ 可由 $t$ 或 $t+1$ 可逆的两个 opens 覆盖，分别使用 torus 坐标 $t$、$t+1$。在各 chart 用相应的 $\varphi(t)$ 写 (1149.29)。重叠上的 Frobenius structures 由同一 quasi-nilpotent connection 的 Taylor isomorphism 比较，故构成同一个 filtered crystal。因而这里不把 power-series 版本的未刊等价定理作为黑盒。
+
+正式版本的 Proposition 5.3 直接引用 Faltings 的 Theorem 2.4 及 Tsuji 的 Proposition 66、Theorem 77；作者 arXiv 版本中同一命题编号是 Proposition 5.2。两版编号不混用。
+
+## 12. 用于原 rank-43 tower 的准确同源条件
+
+以下应用保留一个明确的前提：
+
+> **相对同源前提。** 在所讨论的原 good-reduction 小盘上，已经识别了原 $W_{\mathscr P_\infty}\otimes\mathbb Q_p$ 的 associated filtered $F$-isocrystal；其 filtered connection 是 §§1–10 的同一个对象，而参考点的 Frobenius 是 R1147 §13 的同一个 crystalline fibre 的 Frobenius。
+
+本篇前面的点上比较及 Hodge connection 本身，不被重新解释成已经证明这一前提。若该前提由另一项同源比较支付，下面的整格与有限读取就不再有额外选择。
+
+先在参考点取 R1147 §14 恢复的**原** Fontaine–Laffaille 格。该格的 flag、right-action 的至多二次 tensor maps 以及原 Tate lines 都是同一短权有限比较所恢复的 maps。严格性给 $\operatorname{Fil}^0W\to\mathbb Z_p$ 同构。取映到一的 $h_0$，再用 (1149.12) 的 right-action 线性化。该 map 在每个 flag graded piece 上是原恒等 map，故是整的严格同构，而不只是有理同构。由此得到原格的适配 Hodge basis。
+
+在一个判别式为单位的短 Weierstrass chart 上，$\omega=dx/(2y)$、$\eta=x\omega$ 给原 de Rham 格的整基；Gauss–Manin 矩阵、(1149.26) 的两个 $\alpha$ 及原 $\Pi_r,\lambda_\infty$ 均整。因此在延伸的 Hodge frame 中满足 §11 的假设。该 frame 在参考点就是刚取出的原格，而非一个未知 index 的替代格。
+
+用参考点实际 $\Phi_0$ 作 (1149.29)，得到小盘上的整强可除格。它的 rationalization 与前提中的原 $F$-isocrystal 相同：两个水平 Frobenius maps 在参考点相等，其 Taylor 解唯一，故在整个小盘相等。§11.1 的 étale realization 因而是原 rational 局部系中的一个 stable $\mathbb Z_p$-lattice，且在参考点等于原 lattice。连通底上局部常值格由任一几何 fibre 及平行运输确定，故这两个 lattice 全部相同。
+
+这里仅恢复原 lattice，不重新选择一个 Heisenberg cocycle。原 affine hyperplane、flag、right action、两槽、中心及 §4 的有限 $q_I$ maps 都沿同一短权 tensor 比较运输。特别：
+$$
+\text{实际有限读数只需原 }\Phi_0D\bmod p
+\text{ 和原 }N_-\text{，以及同一有限 }q_I.
+\tag{1149.32}
+$$
+不需要把原 Cartan $I$ 提升成相对 $T_pE$ 的 endomorphism。
+
+## 13. 超奇异 CM 参考点的有限 Cartan 基变换
+
+以下将有限计算写在 $\mathbb Q_p$ 及 residue field $\mathbb F_p$ 上；(1149.34) 以后按 $t\in\mathbb F_p$ 的实际点逐个读取，所以 $t^p=t$。这不是将 $\mathbb F_p[t]$ 中的 $t^p$ 与 $t$ 认同。若先换到更大的未分歧域，所有 Frobenius-semilinear 系数都必须同时作 $\sigma$；不能将下列 $\lambda^\sigma=\lambda$ 的简化原样搬去。
+
+取原 good supersingular CM 参考曲线
+$$
+E_0:y^2=x^3+A_0x+B_0,
+$$
+其中 $B_0=0$（Gaussian）或 $A_0=0$（cubic），判别式为单位。保持 (1149.21) 的原 $\nu=\nu(\omega)$、$\tau_1$；令 $\mu_g=\nu(\eta)$。写
+$$
+\langle\nu,\mu_g\rangle=c_g\tau_1,\qquad
+c_g\in\mathbb Z_p^\times.
+$$
+这里保留实际 polarization unit，不用另选 period 将它设为一。所有后面的 $c_g$ 都只以偶次出现。
+
+选整代数参数 $u$，使参考点处 $K_\omega/du=1$。例如：
+
+- Gaussian 固定 $A_0$，取 $u=-3B/(4A_0^2)$；
+- cubic 固定 $B_0$，取 $u=A/(6B_0)$。
+
+由原 Gauss–Manin 公式，在参考点有
+$\nabla_{\partial_u}\nu=\mu_g$。这只是参考点的一阶身份，不将整条上述代数 family 假装成 heat flow。
+
+因参考 CM 的两个特征线被 supersingular Frobenius 交换，存在实际单位 $\lambda\in\mathbb Z_p^\times$ 使
+$$
+\mu:=\varphi\nu=\lambda\mu_g,\qquad
+p\varphi\mu=-\nu.
+\tag{1149.33}
+$$
+第二式由原 $T_pE_0$ 的 trace-zero crystalline Frobenius 及 determinant 给出。$\lambda$ 没有被规范化掉。
+
+在 $u=pt$ 的点，§11 的 coefficient Taylor 式给
+$$
+\varphi_0\nu_t\equiv\mu-s\nu=:\mu_s,\qquad
+\varphi_{-1}\mu_s=-\nu,\qquad
+s=t/\lambda
+\quad\bmod p.
+\tag{1149.34}
+$$
+这里 $\nu_t\equiv\nu\bmod p$；等式中的 $\mu_s$ 是有限 Fontaine–Laffaille 基，而非原有理水平基。实际超奇异惯性的 Cartan 是该简单有限表示的原 centralizer Cartan。于未分歧二次扩张取 $a^2=\delta$、$\sigma(a)=-a$，实际 $I$ 在 $(\nu,\mu_s)$ 上是
+$\operatorname{diag}(a,-a)$。因此同一 Weil pairing 给
+$$
+\begin{aligned}
+q_t(x\nu+y\mu)
+ &=C\,y(x+sy)\tau_1,\\
+C&=-2a\lambda c_g,\qquad s=t/\lambda.
+\end{aligned}
+\tag{1149.35}
+$$
+$I\mapsto-I$ 只改 $C$ 的号，原 pushout 的全部偶次幂不变。这支付的是原有限 Cartan map；$\mu_s$ 及 $q_t$ 随 $t$ 的变化不能删掉。
+
+特别，$q_t^{2k}$ 作为 $\operatorname{Sym}^{4k}H\to L_{2k}$ 的线性 functional，按纯幂规范
+$q_t^{2k}(v^{4k})=q_t(v)^{2k}$ 延长。于是
+$$
+q_t^{2k}(\nu^{4k-i}\mu^i)
+ =
+\begin{cases}
+\displaystyle
+C^{2k}\frac{\binom{2k}{\,i-2k\,}}{\binom{4k}{i}}\,
+s^{i-2k}\tau_1^{2k},
+ &2k\le i\le4k,\\
+0,&i<2k .
+\end{cases}
+\tag{1149.36}
+$$
+所有二项式分母在 $p>37$ 时均为单位。这里显式保留 polarization 的 binomial factors，不能把多项式系数直接当作 symmetric-power 基值。
+
+## 14. 同一有限 Frobenius torsor 的完整三项式
+
+仍在 §12 的相对同源前提内。将参考点实际 Frobenius 相对 coefficient Frobenius 写成原群元素
+$$
+F_0=(X_0,Y_0,T_0;Z_{0,0},Z_{2,0},Z_{4,0})
+   \in G(\mathbb Z_p).
+\tag{1149.37}
+$$
+它确整：原 $43$-维 divided-Frobenius 矩阵及 coefficient divided-Frobenius 矩阵都在 $\operatorname{GL}_{43}(\mathbb Z_p)$，其比就是 faithful $R(F_0)$。这里的 $F_0$ 是原点的实际输入，不设为单位元，也不从 Hodge connection 单独推算其未知条目。
+
+记
+$$
+A_*=\frac{1-p^4}{252}E_6(E_0,\omega),\qquad
+B_*=\frac{1-p^8}{132}E_{10}(E_0,\omega),
+$$
+以下有限式均在 $\mathbb F_p$ 中读取。§11 的最高过滤 Taylor 计算给一个实际 increment $\Delta(t)$。在 $(\nu,\mu)$ frame 中，其两槽为
+$$
+\begin{aligned}
+\Delta X(t)
+ &=\lambda A_*\int_0^s(\mu-r\nu)^4\tau_1\,dr,\\
+\Delta Y(t)
+ &=\lambda B_*\int_0^s(\mu-r\nu)^8\tau_1\,dr,\qquad
+\Delta T(t)=0.
+\end{aligned}
+\tag{1149.38}
+$$
+这里积分仅是次数至多八的有限多项式 primitive；分母 $1,\ldots,9$ 全是单位。三中心按原群律为
+$$
+\Delta Z_r(t)
+ =\int_0^s
+    \Pi_r\!\left(\Delta X(v),
+                 \lambda B_*(\mu-v\nu)^8\tau_1\right)\,dv,
+\qquad r=0,2,4.
+\tag{1149.39}
+$$
+原 $\lambda_\infty X\otimes T'$ 补项在这里是零，因为 $\Delta T=0$，不是将它从整个参考 torsor 删除。
+
+更具体地，参考 flat frame 中的 Hodge section 写成 $g(u)$，则
+$g^{-1}\nabla g=(\alpha,0)$，其中心导数是
+$\Pi_r(X,\alpha_8)$。Frobenius 相对 Hodge frame 是
+$g(u)^{-1}F_0\varphi(g(u))$。在小盘 $g(pt)\equiv1\bmod p$；对右因子应用 §11 的最高过滤计算，恰得到 (1149.38)–(1149.39)。所以有限 Frobenius 的次序是
+$$
+F_t=F_0\Delta(t)\quad\bmod p.
+\tag{1149.40}
+$$
+若改用反向群作用，必须同时反转这一式及原 cross term；本篇保持 R1147 的 left-cocycle/right-torsor 约定。
+
+把**终点的同一个** $q_t$ 固定，再对 (1149.38)–(1149.39) 作原 pushout。由
+$q_t(\mu-r\nu)=C(s-r)\tau_1$，得到
+$$
+\begin{aligned}
+a(\Delta(t))&=\frac{\lambda A_*C^2}{6}s^3,\\
+b(\Delta(t))&=\frac{\lambda B_*C^4}{10}s^5,\\
+h(\Delta(t))&=\frac{\lambda^2A_*B_*C^6}{160}s^8.
+\end{aligned}
+\tag{1149.41}
+$$
+中心系数来自同一个原 polar identity：
+$$
+\frac14\int_0^s
+ \left(\int_0^v(s-r)^2\,dr\right)(s-v)^4\,dv
+ =\frac{s^8}{160}.
+$$
+不能在内层 primitive 中把 $q_t$ 改成 $q_v$；那会改变所读的实际 quotient。
+
+代 $C=-2a\lambda c_g$、$s=t/\lambda$，所有 $\lambda$ 在这三个最高项中准确相消：
+$$
+\boxed{\begin{aligned}
+a(\Delta(t))&=\frac23\delta c_g^2A_*\,t^3=:a_3t^3,\\
+b(\Delta(t))&=\frac85\delta^2c_g^4B_*\,t^5=:b_5t^5,\\
+h(\Delta(t))&=\frac25\delta^3c_g^6A_*B_*\,t^8=:h_8t^8.
+\end{aligned}}
+\tag{1149.42}
+$$
+这是三个实际 source-normalized coefficients；它不消去参考点 $F_0$。
+
+定义原参考点在**移动的有限** Cartan map 下的三个多项式
+$$
+\begin{aligned}
+P_a(t)&=\tfrac12q_t^2X_0,\\
+P_b(t)&=\tfrac12q_t^4Y_0+\frac{8\delta^2}{11}T_0,\\
+P_h(t)&=\tfrac14q_t^6Z_{0,0}
+        -\frac{4\delta}{11}q_t^4Z_{2,0}
+        +\frac{4\delta^2}{21}q_t^2Z_{4,0}.
+\end{aligned}
+\tag{1149.43}
+$$
+所有 Tate factors 用原 $\tau_1^3,\tau_1^5,\tau_1^8$ 读取。由 (1149.36)，
+$$
+\deg P_a\le2,\qquad \deg P_b\le4,\qquad \deg P_h\le6.
+$$
+保持 Heisenberg 群律 $(a,b,h)(a',b',h')
+=(a+a',b+b',h+h'+ab')$，完整有限 Frobenius torsor 坐标是
+$$
+\boxed{\begin{aligned}
+\mathsf a(t)&=P_a(t)+a_3t^3,\\
+\mathsf b(t)&=P_b(t)+b_5t^5,\\
+\mathsf h(t)&=P_h(t)+P_a(t)b_5t^5+h_8t^8 .
+\end{aligned}}
+\tag{1149.44}
+$$
+中间的 $P_a(t)b_5t^5$ 是原 cross term，不能省略。特别它的最高次数至多七；(1149.44) 的八次系数只有显式的 $h_8$。
+
+这里的坐标是原有限 Fontaine–Laffaille quotient 的 Frobenius 坐标。用同一规范给 global comparison torsor 取坐标之后，且先核前两槽相同，第三槽之差才是原中央 local obstruction。不能把 $\mathsf h(t)$ 自己称作已经减掉 global label 的障碍，也不能无计算地将 global lift 的第三坐标设为零。
+
+## 15. 两个特殊参考点的范围与尚待读取的常数
+
+(1149.44) 清楚区分 Hodge connection 能强迫的项与真正还需参考点算术输入的项。
+
+在 Gaussian 参考点，$E_6=E_{10}=0$，故 $A_*=B_*=0$，完整式只剩
+$(P_a,P_b,P_h)$。原参考 torsor 与其唯一 Hodge 截面对实际 CM automorphism 自然；该 automorphism 也与 crystalline Frobenius 相容。因此 $F_0$ 的三个 symmetric-power 槽都在相应 CM invariants 中。在 $(\nu,\mu)$ 基上，两条 CM 特征互逆，Gaussian 情形只允许偶数的 $\mu$ 次数。(1149.36) 因而直接使这些 Tate-valued quotient 多项式只含偶次 $t$，即下降到 $T=t^2$，其次数至多分别为 $1,2,3$。这没有给出 $P_h$ 的最高系数非零；尤其不能从本篇零中央 Hodge connection 推出 $P_h=0$。
+
+在 cubic 参考点，$E_{10}=0$ 而 $E_6=864B_0$ 是单位。因此 $B_*=0$，而
+$$
+\mathsf a(t)=P_a(t)+
+ \frac23\delta c_g^2\,\frac{E_6}{252}\,t^3,\qquad
+\mathsf b(t)=P_b(t),\qquad
+\mathsf h(t)=P_h(t)
+\quad\bmod p.
+\tag{1149.45}
+$$
+同一参考点自然性在 cubic 情形给：$\operatorname{Sym}^4$ 槽只有 $\mu$ 次数 $i=2$，$\operatorname{Sym}^8$ 槽只有 $i=1,4,7$，$\operatorname{Sym}^{12}$ 槽只有 $i\equiv0\pmod3$。逐项代入 (1149.36)，各多项式只有 $t^3$ 的幂，故下降到 $T=t^3$。于是 $P_a$ 是常数，$\mathsf a$ 是 $T$ 的 affine polynomial，斜率是明确的单位
+$16\delta c_g^2B_0/7$；$\mathsf b$ 的次数至多一，$\mathsf h$ 的次数至多二。这个第一槽的单位与原 cubic 一阶标签来源相容，但它本身仍不支付新的中央非零性。
+
+上述 coarse 叙述是在同一个原 CM fine chart 及其真实 automorphism quotient 中进行。若一个 $\mathbb Q_p$ coarse 点需通过其它 twist chart 或未分歧扩域表示，必须同步运输原模型、Weil frame、Frobenius-semilinear 系数和 $q_I$；本节不以一个 $\mathbb Q_p$ fine line 代替全部 coarse 点。尤其在更一般未分歧扩域中应保留 $\sigma(t)$、$\sigma(\lambda)$，不能直接复用 (1149.34) 的固定域简写。
+
+因而下一实际输入已缩为具体的原参考点 divided-Frobenius 矩阵及同一 global torsor 的有限坐标，不是一个任意 connection 的无限高阶展开。**§12 的相对 associatedness 前提，以及参考 $F_0$ 中尚未计算的中央条目，仍是明确保留的门。**本节不据低次数或某个最高项的形式推断原 supersingular 盘内 rational-point 排除。
+
+新增 primary：
+Abhinandan，*Crystalline representations and Wach modules in the relative case*，
+[正式期刊全文](https://aif.centre-mersenne.org/item/10.5802/aif.3670.pdf)，
+*Ann. Inst. Fourier* 75 (2025), 379–474，
+[DOI](https://doi.org/10.5802/aif.3670)；
+Definition 5.1、Proposition 5.3、§5.3。
+[作者全文](https://arxiv.org/pdf/2103.17097)中同一 realization 命题为 Proposition 5.2。
+§11 的 Taylor 精度、§§13–14 的 finite Cartan 基变换、群乘法次序和三个系数均在文中自证。没有数学程序执行。

@@ -147,3 +147,7 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 ### 原 Fermat6 完整 Raynaud 张量
 
 [原genus4 §6](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)从指定degree2商η=x、y_Y=b0y²接Z:x⁶+y⁶=1。十个ω_ab=x^(a−1)y^(b−6)dx都有完整无p分母primitive，C全零；45槽由(G4.19)统一有限和给出，三个坐标和不全<6时为零。原尺度精确B22,12=−c^(2k−1)e/δ，故e0 iff公共222椭圆方向在全十维β的radical。真实V4三商维数1+3×3；e0消去9个允许槽，仍有114/123之间18个cross，不能宣全β零或指定middle cyclic。继续实际cross与原K4的关系。
+
+### R1149 §§11–15：原短盘的条件相对 FL 与有限三槽
+
+[R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)证明 u=pt 下完整整 Taylor：Φ(t)D modp=C0 exp(t^pN_-)，幅14的所有尾项估值保留。应用原43塔明确以同一 rational associatedness 为前提；该前提继续补。真有限 q_t 的 λ/σ/binomial 及参考F0不删，原Heis三槽为 a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，其中 a3=2δc_g²A*/3、b5=8δ²c_g⁴B*/5、h8=2δ³c_g⁶A*B*/5；参考多项式次数≤2/4/6。Gaussian粗盘次数≤1/2/3，cubic≤1/1/2且a首槽斜率16δc_g²B0/7单位。仍须同源相对Frob、原F0中央条目和同一global lift subtraction；不从形式次数推出排点，不扩其它twist/未分歧σ。

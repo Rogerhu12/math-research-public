@@ -181,3 +181,5 @@
 - R1140 §13（同文件）：已证明原p-isogeny bare pull–trace的全部cusp tame消去（保µp相位与p-ramification），故generic proper；明确F33门下去V投影，原cup=(4δ²/21)𝒯{W*G₄,G₈}，值未零。
 
 - R1135 §14（同文件）：原有界primitive、准确Cartier/B^p、r7/9完整Katz depletion与全局有界唯一性已证明；局部共振及实际Gaussian目标保留，原F非齐次forcing已明确。
+
+- R1149 §§11–15（同文件）：完整整Taylor/有限Cartan/q_t/Heis三槽与CM coarse次数已证明；原应用明确保留同一相对associatedness前提及F0/global中央常数，未宣p-local排点。
