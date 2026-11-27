@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 04:38:09 UTC，真实pull/rebase至origin/main `6bff50b25021f97899b3f3673073b44f0363d8e7`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 04:49:43 UTC，真实pull/rebase至origin/main `0bf40b6537302af74fd13b0652c1317b3211db2e`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)、[本次大文件搜索纠正](notes/2026-11-27-bounded-text-search-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -34,7 +34,7 @@ R700限固定M/正ρ，旧QR未跑。[全时连续合同](notes/2026-11-27-new-e
 
 R710/R713条件链保固定H。[全实际mean批费用](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff已加入07纯读后，所有实际批/角字/失败三字段保；600/60预算非完成。[完整节点费](notes/2026-11-27-complete-immutable-reference-node-fee-design.md)80744/81ce排其后，含全E/积分查询、真新四jet、准确affine/全支持支/向上费用；不冒旧cache字同。尚无费用真返，normal/连续角/rawΔ/F六jet仍欠，不作求解门。
 
-R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md)拒旧chart且真返7c≠90，全部对象/失败归档。[新独立固定目标](notes/2026-11-27-independent-run08-fixed-chart-and-complete-old-carrier.md)105289/657c全source/ready已排：完整160词/923准确节点/492模型/eeb参考先冻结；旧90身份及所有地址保，不冒同旧g或继承值。原2397及整dc5硬核不减，08 producer待返；[新4d92/95559/f382全入口](notes/2026-11-27-complete-independent-chart-material-envelope-entry.md)及全参数已排其后，原科学后缀全保，未知07 typed仍须合入。
+R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-11-27-run08-actual6-projection-rejection-and-definition-readback.md)拒旧chart且真返7c≠90，全部对象/失败归档。[新独立固定目标](notes/2026-11-27-independent-run08-fixed-chart-and-complete-old-carrier.md)105289/657c全source/ready已排：完整160词/923准确节点/492模型/eeb参考先冻结；旧90身份及所有地址保，不冒同旧g或继承值。[08实际10](notes/2026-11-27-run08-actual10-complete-old-carrier-and-independent-fixed-chart-input.md)真返0：整dc5命中、新目标d469/绑定7991冻结，F/J/root=0；[新4d92/95559/f382全入口](notes/2026-11-27-complete-independent-chart-material-envelope-entry.md)及全参数已排其后，原科学后缀全保，未知07 typed仍须合入。
 
 [06首启失败](notes/2026-11-26-run06-startup-failure-unfetchable-rules-commit.md)45903578703仅规则ref fetch失败，未启科学；原后继责任全保。
 

@@ -138,3 +138,9 @@ root现实际运行三个完整stdlib再生器，均退出0：
 恢复后的真实拉取已读commit依次为 `c45c1bb6dfe27417891c7265eb4e302773a6e12e`、`658c31092cb0995bfc4a52ec3eded7244edf9231`；本次终端推送NFF后立即真实pull/rebase至 `250450ef74f006b09628b2187a16be198e745773`，于2026-11-27 04:36:05 UTC再次核双README完整SHA无变。重推只作普通非强制更新。
 
 真实pull/rebase规则核查：2026-11-27 04:38:09 UTC，origin/main `6bff50b25021f97899b3f3673073b44f0363d8e7`；双README整SHA无变；普通非强制推送重试1。
+
+补记恢复阶段已实际pull/rebase并于04:39 UTC核读的完整提交 `66de8242cec51abe444d7a80013cad8a5894eddf`；双README整SHA581402/3c1c均无变。本行只补全此前终端核查记录，不冒新一次pull。
+
+真实pull/rebase规则核查：2026-11-27 04:49:34 UTC，origin/main `46579cfb5f97c604d1025a1d1caa9ec38de59a0d`；双README整SHA无变；普通非强制推送重试1。
+
+真实pull/rebase规则核查：2026-11-27 04:49:43 UTC，origin/main `0bf40b6537302af74fd13b0652c1317b3211db2e`；双README整SHA无变；普通非强制推送重试2。

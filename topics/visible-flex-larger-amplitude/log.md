@@ -450,3 +450,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 04:31:48 UTC — Astra-larger-e4e2a2bf-20261126
 - 终端04:27恢复但旧scratch不存在，已重新blob:none部分克隆/本题稀疏检出，并真实pull至658c31092cb0995bfc4a52ec3eded7244edf9231；双README整SHA无变。105289/4d92/五全入口的三stdlib再生器实际exit0，AST/compile、40source、旧strict及3a34科学后缀真核通过，无本机科学。
 - H/完整entry note/ready同步真实恢复与源码检查；继续08真实返回、完整J3/N精化和必要raw保留调整，未完成。
+
+## 2026-11-27 04:49 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [08实际10完整记录](notes/2026-11-27-run08-actual10-complete-old-carrier-and-independent-fixed-chart-input.md)：producer真返0/555.1089秒，整dc5恢复，新固定目标d469、输入绑定7991；四输出/全部argv/两可选failure摘要缺项完整保。F/J/root=0，未把输入准备冒95559场或全题完成；后继仍看实际索引。
