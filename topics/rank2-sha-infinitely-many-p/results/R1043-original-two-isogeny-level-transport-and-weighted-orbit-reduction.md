@@ -1171,3 +1171,200 @@ $X'^2\Omega'_1$ 不是(70)的原对应像。
 $\Omega'_1$ 来评价原最高 Abel–Jacobi 类。
 式(70)和(72)同时给出了后继真实负二阶/标记评价应使用的
 形式与其延拓；它们不把(59)三个完整列的非零作为已知。
+
+## 16. 完整 Galois 作用逐图重标记：三列各严格等于一个固定值
+
+本节进一步计算(59)中的全部 $\gamma$。
+所作等式先在原有限数域内的实际商图上成立，再在同一选定的
+约化嵌入下使用；不把一个不在 decomposition group 中的
+$\gamma$ 当作剩余域的 Frobenius。
+
+### 16.1 原 full9 的完整 determinant 下降
+
+沿 R1006(24)–(25) 的算术 reciprocity。
+令 $L_0\subset L$ 为由原 $H$、全部306级点及规范商图生成的域。
+这些对象的 Galois 作用来自 CM torsion 的阿贝尔商。
+对任意 $\gamma\in\operatorname{Gal}(L/K)$，在此阿贝尔商中选择
+有限单位 idèle $u$ 表示其限制；$h_K=1$ 保证可如此选择。
+记 $\epsilon(u)\in\mu_6$ 为 $u_3\bmod3$ 的唯一单位提升。
+则原 $A=E_{27}$ 上
+$$
+ \rho(\gamma)=\epsilon(u)u^{-1},\qquad
+ \rho_3\equiv1\pmod{3\mathcal O_{K,3}}.
+ \tag{73}
+$$
+
+不能仅由最后的模3同余就跳到 full9 结论。
+写 $\rho_3=A_3+B_3\omega$；这里
+$A_3\equiv1\pmod3$、$B_3\equiv0\pmod3$。
+在原 $\boldsymbol\beta$ 基中，(20)给准确矩阵
+$$
+ G_\gamma=A_3I+B_3M_\omega
+ =\begin{pmatrix}
+ A_3-B_3/2&B_3/2\\
+ -3B_3/2&A_3-B_3/2
+ \end{pmatrix}\pmod9.
+ \tag{74}
+$$
+下左项实际上被9整除，且在(12)的记号中
+$b-c=B_3$。所以 $G_\gamma$ 满足(14)的全部条件，而不只其
+$\mathrm{SL}_2$ 投影。
+它的 determinant 是
+$d_\gamma=A_3^2-A_3B_3+B_3^2\in(\mathbf Z/9)^\times$，
+$ d_\gamma\equiv1\pmod3$。
+准确分解
+$G_\gamma=\operatorname{diag}(d_\gamma,1)G_\gamma^0$
+中，$G_\gamma^0$ 的 determinant 为1，并仍满足(12)的
+$b-c\equiv0\pmod3$；第一因子属于(14)的 determinant 下降部分。
+
+原 Weil pairing 在 $\gamma$ 下恰变为其 $d_\gamma$ 次幂，
+这正是(14)内的 cyclotomic 下降，不要求
+$d_\gamma=1\pmod9$。因此原 $\Gamma$ 级对象在其既定
+$\mathbf Q$ 模型上被固定，没有漏掉 $\zeta_9$ 的内在共轭，
+也没有再乘一个不明的三次根。
+这与系数环中的 $\zeta_9$ 是两件事：
+本篇全部 $\gamma$、$e_{\eta_j}$ 都是点/循环因子作用
+$\gamma\otimes1$，在已经固定的代数系数上不再作 semilinear
+共轭。
+
+源曲线 $A$、标记 $P_3$ 及 $\omega_A$ 均在 $K$ 上。
+其非平凡 CM 自同构不能保持这个 $\Gamma$ 级对象：
+$[-1]$ 改变 $P_3$，而 $[\omega]$ 的(21)矩阵有非平凡
+$\theta$。所以上述 full9 识别没有一个剩余源自同构。
+
+### 16.2 全部54图的严格置换与原角色
+
+定义 $r_\gamma\in\mathbf Z/3$ 和
+$h_\gamma\in C_{18}$ 为
+$$
+ \rho_2(\gamma)=\omega^{r_\gamma},\qquad
+ h_\gamma=[\rho_{17}(\gamma)].
+$$
+于是原核的标号严格变为
+$$
+ \gamma C_{2,i}=C_{2,i-r_\gamma},\qquad
+ \gamma C_{17,t}=C_{17,h_\gamma^{-1}t}.
+$$
+第二式使用的是原 $C_{17,t}=\bar t C_{17,0}$，
+以及 $\overline{h_\gamma}=h_\gamma^{-1}$，不能把这个逆省掉。
+由§16.1的源 full9 固定及规范商的函子性，
+$$
+ \boxed{
+ \gamma\varphi_{i,t}
+   =\varphi_{i-r_\gamma,h_\gamma^{-1}t}.
+ }
+ \tag{75}
+$$
+此式包含靶的全9点和原模型，不仅是两曲线的 $j$ 值相等。
+两边的微分均由同一个固定的 $\omega_A$ 拉回规范唯一确定；
+$\gamma\omega_A=\omega_A$，故商微分的倍率也被正确运输。
+规范减项中的34、两个零截面与同一个最高 projector 均与此置换
+交换。
+
+置 $Z_j=\sum_{i,t}\omega^i\vartheta_{l_j}(t)^{-1}
+\Delta_{\varphi_{i,t}}$，系数全部固定。
+重新标号(75)逐项给
+$$
+ \gamma Z_j=
+ \omega^{r_\gamma}\vartheta_{l_j}(h_\gamma)^{-1}Z_j
+ =\eta_j(\gamma)Z_j.
+ \tag{76}
+$$
+最后一个等号可以直接核全有限角色，不仅凭 infinity type：
+若 $\epsilon(u)$ 的三次部分为 $\omega^e$，则
+$\omega^{r_\gamma}=\omega^e\epsilon_2(u_2)^{-1}$，
+而
+$\vartheta_{l_j}(h_\gamma)
+ =\omega^e\vartheta_{l_j}(u_{17})^{-1}$。
+相消后正是原
+$\eta_j(u)=\epsilon_2(u_2)^{-1}\vartheta_{l_j}(u_{17})$。
+所有 $\gamma$ 都已有单位 idèle 代表，所以这也包含原在3处
+不分歧但可能非平凡的 uniformizer 值；
+没有把它另设为1。
+
+因此 full corestriction 和 $1/18$ 投影在同一循环上准确给
+$[L:H]Z_j$。这一步是实际循环的等式，不再只在复形式或
+$p$-adic形式的评值上读取一个特征。
+
+### 16.3 每一完整列中的所有项都返回同一个固定值
+
+对同一个原 $Q^+$ 定义
+$$
+ A(t)=\sum_{i=0}^2\omega^i z_{1,i,t},\qquad
+ B_a=A(s^{2a})
+ =(e_A^-)_*\widehat{\psi_{s^{2a}}}
+       P_Q(q_-d_{s^{2a}}),\quad a=0,1,2.
+ \tag{77}
+$$
+后一式就是(58)，全2加权、同一 $q_-$ 和 degree17 图均保留。
+由(26)和 R1027§7的原 $\delta$ 配对，
+$A(\omega t)=\omega A(t)$、
+$A(\delta t)=-A(t)$。
+两式是在相同点群及 coefficient module 中的等式，不是
+把一般纤维上的系数 $\omega$ 误作 CM 端同态。
+
+令 $h_\gamma=s^{k_\gamma}$。
+(76)对 $j=10$ 给
+$n_\gamma\equiv6r_\gamma-k_\gamma\pmod{18}$。
+而(75)在(35)的整项中给
+$$
+ \sum_i\omega^i z_{\gamma,i,t}
+   =\omega^{r_\gamma} A(h_\gamma^{-1}t).
+$$
+代入原
+$t=t_{\gamma,a}=s^{2a-10n_\gamma}$，准确有
+$$
+ h_\gamma^{-1}t_{\gamma,a}
+   =s^{2a-6r_\gamma-9n_\gamma}
+   =s^{2a}\omega^{-r_\gamma}\delta^{-n_\gamma}.
+$$
+所以(35)中这个 $\gamma$ 的整项是
+$(-1)^{n_\gamma}\omega^{r_\gamma}
+ \omega^{-r_\gamma}(-1)^{n_\gamma} B_a=B_a$。
+没有跨 $\gamma$ 的剩余抵消。于是
+$$
+ \boxed{
+ C_a=[L:K]B_a,\qquad
+ J_j=6[L:H]\sum_{a=0}^2
+             \zeta_9^{-l_ja}B_a .
+ }
+ \tag{78}
+$$
+这也独立核回(36)的 DFT 常数。
+degree17 单独商满足
+$\gamma\psi_t=\psi_{h_\gamma^{-1}t}$；
+其目标有序二挠基同时循环移位 $-r_\gamma$，
+即 $\gamma d_t=\sigma^{-r_\gamma}d_{h_\gamma^{-1}t}$。
+因而(77)的 $S'$ 表示与(75)使用的是同一实际 lift，
+不需要另选 full2 基或重新归一微分。
+
+所有身份先在特征零的规范图上证明，再在原好约化处逐图约化。
+$Q^+$ 是该特征中的固定截面；只把上述相等图对它评价，
+不对它附加一个未经定义的 $\gamma$ 作用。
+由(78)，除原固定有限次数因子的损失外，三个完整原值是否全为零的
+问题已经准确回到这三个指定 $B_a$ 是否全为零。
+式(78)不证明其中任何 $B_a$ 非零；同样不能从全局
+$P_Q$ 本原而越过其固定标记评价的核。
+
+
+### 16.4 实际最小级点域的完整次数
+
+可在原许可范围内准确选取 $L_0=K(E_{27}[306])$。
+原 $H$、所有规范商图、$a$ 与 $\vartheta=2/a$ 均在其中；
+$\zeta_9$ 由原 Weil pairing 已在该域。
+式(73)的 mod9 像准确是
+$1+3\mathcal O_K/(9)$，阶9；
+mod2、mod17 的像分别是阶3的全单位群、
+阶288的全单位群。
+它们独立：分别只改变 $u_2$、取 $u_3\in1+3\mathcal O_{K,3}$、
+或只改变 $u_{17}$，其它局部分量均取1，
+就在另外两个模数上保持恒等。
+所以
+$$
+[L_0:K]=3\cdot9\cdot288=7776=6^5,\qquad
+[L_0:H]=432.
+$$
+这是同一原级点域的完整像计算，不是只给一个上界。
+因而在此最小选择下，(78)的次数不损失任何 $p\ge5$ 的部分。
+若原实现使用额外扩大的 $L\supset L_0$，仍须保留实际的
+$[L:L_0]$ 因子，不能把它默删。

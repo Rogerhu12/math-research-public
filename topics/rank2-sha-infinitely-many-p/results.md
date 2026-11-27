@@ -339,3 +339,6 @@
 
 
 - **R1046实际解析一阶与原mixed非零**：[§§5.1–9](results/R1046-original-e21609-analytic-rank-one-and-point-input.md)。R1046唯一原公开回执给E21609的严格L′正区间及解析秩一；原Rubin有理CM定理适用于wildδ4，固定非挠点(-12,141)与全部ϑ/θ/Ω/cD周期接回原I_D非零。双7分歧分离原H cyc9，四个实际负一值代数线性独立。原K/Y矩及角导数非零，全bounded尾准确给坏j(0)=0下v(j(ξκⁿ))=n+ℓp，只需n>ℓp−bp。 原S/T或whole carry到同角函数的强迫关系仍须证明。
+
+
+- **R1043全Galois列严格化成三固定值**：[§16](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§16以原CM Tate角色ρ=εu^-1、完整GL9/determinant下降和规范商函子性，逐图确定全部γ作用。所有带权图准确为原η特征，每个完整列中的每个γ项都返回同一B_a，故C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a。实际最小L0=K(A[306])次数6^5、[L0:H]=432，p≥5无新次数损。 全部图/级点/系数环与原Q保持；实际B_a非零继续。
