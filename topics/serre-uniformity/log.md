@@ -213,3 +213,7 @@
 ### 2026-11-27 20:39 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1123消费首四短Cartier成功run45998781656/job140504817189，314.479秒；0/141各ZA/ZB的四α全成，root/global核完整receipt、RR/留数、C/E原帧与clean SHA。
 - root/global/o2全文纸审独立两特殊盘QC四文件，真实填四条与新证书，旧六盘共同request按完整SHA只读；新增课题外workflow serre-full-p47-QC-special-two.yml，仅0/141，2400/reserve60。旧六盘和十二值不重算，完整47与一般p继续。
+
+### 2026-11-27 20:44 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1124消费两特殊盘QC成功run46000409994/job140510309243，117.687秒；0/141矩阵det294/3157，全rank2/gcd=t/单位B，原73维来源、Cartier/Tq桥及共同输入哈希全过。
+- root/global独立读完整receipt并核canonical SHA，沿R1103全整尾付完整盘唯一。合R1122八个原CM盘内部全部关闭，立即接合R1074/R1086的完整固定47全局链；一般p未完成，继续。

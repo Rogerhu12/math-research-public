@@ -1,8 +1,10 @@
 # 结论索引
 
-- **R1123（已证明，精确计算）**：[原两特殊CM盘的四条规范第三类值](results/R1123-certified-original-four-special-CM-Cartier-values.md)：run45998781656/job140504817189，314.479秒；0的ZA/ZB=531/1857、141=1783/529，完整RR/留数和旧C同帧通过，clean SHA1056547d…。两盘实际QC独立请求随即提交，已关六盘不重算。
+- **R1124（已证明，精确计算）**：[原两特殊CM盘完整关闭](results/R1124-certified-original-two-special-CM-disks.md)：run46000409994/job140510309243，117.687秒；0/141实际矩阵rank2、det294/3157、共同gcd=t且B unit，完整原4513盘各只余CM点。合R1122全部八盘内部唯一已成；固定47全局链随即接合，一般p继续。
 
-- **R1122（已证明，精确计算）**：[原六个完整CM圆盘关闭](results/R1122-certified-original-six-complete-CM-disks.md)：run45996561850/job140497301328，117.953秒；六盘76/77/100/108/196/220全rank2/gcd=t/单位B，原全73 trace及Cartier/Tq同帧桥通过。结合R1103整尾，整个4513盘各只余原CM点；固定47尚余0/141，全p主目标继续。
+- **R1123（已证明，精确计算）**：[原两特殊CM盘的四条规范第三类值](results/R1123-certified-original-four-special-CM-Cartier-values.md)：run45998781656/job140504817189，314.479秒；0的ZA/ZB=531/1857、141=1783/529，完整RR/留数和旧C同帧通过，clean SHA1056547d…。两盘实际QC后由R1124完成，旧六盘不重算。
+
+- **R1122（已证明，精确计算）**：[原六个完整CM圆盘关闭](results/R1122-certified-original-six-complete-CM-disks.md)：run45996561850/job140497301328，117.953秒；六盘76/77/100/108/196/220全rank2/gcd=t/单位B，原全73 trace及Cartier/Tq同帧桥通过。结合R1103整尾，整个4513盘各只余原CM点；余0/141后由R1124关闭，全p主目标继续。
 
 - **R1121（已证明，精确计算）**：[原十二个短Cartier第三类值](results/R1121-certified-original-twelve-short-Cartier-values.md)：run45994669183/job140490956495，541.159秒，六盘×ZA/ZB全成无失败；α表、完整RR/留数和原73帧C齐备，detE=3058、det(1−C)=551。只消费已成值，原0/141首4后由R1123取得；六盘实际QC见R1122。
 

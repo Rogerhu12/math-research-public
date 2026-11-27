@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：843aa19b0bfa3f6d09bda5edb3eaee29d14d6926**（2026-11-27 20:38 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：ab31096656917572cdf2de591aadf3fe0e640199**（2026-11-27 20:44 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；20:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -26,13 +26,13 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)：原非整j局部分支精确由同一cusp的Kummer-annihilator Frobenius并集判别，−1modp整支仍相容；候选非零坐标给无条件秩下界。p47完整V每cusp秩10，235候选可被同素共同排除全部cusps且保圆单位非零，但affine像/分母全局排除仍开。
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；R1122已关六盘，0/141内部唯一仍开。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；R1122/R1124已关全部八盘内部；完整固定47链正在接合。
 
 原full47完整已付输入见[R1122](results/R1122-certified-original-six-complete-CM-disks.md)、[索引](results.md)及逐字前态：R1080/81/89原rank=dim=ρQ=73、q4513整T/Bq与Φ47；R1090/93原95/73来源及Gaussian全28块首log unit；R1078/87/88原fixed-cycle和双CM整生成；R1096/1101原73奇基；R1094/97–1102全部2/47/奇好高度，完整κ unit、Normκ/a2992；R1104–06原L≤5/836jet/可分pencil、八×16真实切向全unit、全部23角同帧作用。原run/source/尺度/hash全部已保存，只消费，不重算旧高度/高矩/点扫描。
 
-[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)付原α、完整t(B+At)整尾及全部非q消失；R1122已实际关闭六盘，余0/141继续。
+[R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)付原α、完整t(B+At)整尾及全部非q消失；R1122/R1124已实际关闭全部八盘。
 
-[R1123](results/R1123-certified-original-four-special-CM-Cartier-values.md)：首四短Cartier run45998781656/job140504817189成功，314.479秒；0的ZA/ZB为531/1857，141为1783/529，四条完整RR/留数与原C同帧均通过，clean SHA1056547d…已核。随即推[两特殊盘QC独立请求](notes/2026-11-27-full-p47-QC-special-two-method.md)，只读0/141，旧六盘和十二值不重算。旧Miller只消费可能后成记录，不续算。
+[R1123](results/R1123-certified-original-four-special-CM-Cartier-values.md)：首四短Cartier run45998781656/job140504817189成功，314.479秒；0的ZA/ZB为531/1857，141为1783/529，四条完整RR/留数与原C同帧均通过，clean SHA1056547d…已核；其后两盘已由R1124关闭。旧Miller只消费可能后成记录，不续算。
 
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)的q² run45977769585/job140433713916仍在途；原坐标已由R1120完整取得，不再依赖或补跑。
 
@@ -41,7 +41,9 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323，21.546秒，aux−11首项rank73/det4364；四原CM的ρ_D/Bq完整坐标及Hodge/Bq桥齐备。R1119几何与整性、全部receipt/hash保原文；只消费，不补跑q²。
 
 
-[R1122](results/R1122-certified-original-six-complete-CM-disks.md)：QC run45996561850/job140497301328，117.953秒，六盘76/77/100/108/196/220全rank2、gcd=t且B unit，完整4513盘均只余原CM点；完整Cartier/Tq原矩阵桥通过，receipt SHA4ae1153b…已核。固定47尚余0/141的实际QC判据；四个α已见R1123。
+[R1122](results/R1122-certified-original-six-complete-CM-disks.md)已关76/77/100/108/196/220六盘（run45996561850，117.953秒），原矩阵及全尾来源保原文。
+
+[R1124](results/R1124-certified-original-two-special-CM-disks.md)：QC run46000409994/job140510309243成功，117.687秒；0/141两盘rank2、det294/3157、gcd=t且B unit，整个4513盘各只余原CM点。合R1122全部八盘内部唯一已成；全标签/全局来源逐项接合后登记固定47，主目标继续。
 
 [十二形式的常系数张成边界](notes/2026-11-27-short-Cartier-twelve-form-span-boundary.md)已证；不把all_eight表的其它列当新除子值。
 
