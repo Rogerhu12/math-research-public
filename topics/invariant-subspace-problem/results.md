@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原W/D27的泛型五次不可约性](results/R150-appendix-unit211-W-D27-generic-quintic-irreducibility.md)：完整27项保次数专门化、模7五步Frobenius及两条完整Bézout；有限k例外全保。
+
 - [Phi0/h1 的 H4/H20 整复纤维排除及精确1069次原覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md)：固定23/25阶原投影的全模Bézout/Gauss；已付QQ系数赋值直接证明H4⁴H20整除，无未付范数逆。
 
 - [R150：h=k原Delta及三均值完整QQ因式](results/R150-appendix-unit211-equal-singleton-Delta-and-three-original-mean-factors.md)：83ea实际2.327秒/exit0；Delta整四次、三必要core12/78/12，复用旧λ半物理排除，不由gcd1宣空。
