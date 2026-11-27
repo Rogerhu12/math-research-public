@@ -1,14 +1,21 @@
 {
-  "message": "ISP: prove same right-inverse smoothing correction and actual kernel cut flux",
-  "parentCommit": "b20593b5b9391182d5724023e3beabab2f60657a",
+  "message": "ISP: record primitive Delta-zero F49 curve and submit three new original finite returns",
+  "parentCommit": "a0eec1a3566503cfec9b5cf7e50601fd3ac0e530",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-same-kernel-cut-flux-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-same-kernel-cut-flux-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Delta-zero-h-one-original-degree-49-primitive-curve.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Delta-zero-h-one-original-degree-49-primitive-curve-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Delta-zero-h-one-full-original-t-quadratic-elimination-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-J19-entire-F588-original-finite-Gauss-return-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-fixed-original-rho-modular-projections-8542.py",
+    ".github/workflows/invariant-subspace-delta-zero-h-one-t-quadratic-8542.yml",
+    ".github/workflows/invariant-subspace-w-j-nineteen-finite-gauss-8542.yml",
+    ".github/workflows/invariant-subspace-phi-h-one-fixed-rho-modular-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-F49-primitive-curve-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-F49-primitive-curve-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +24,9 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-delta-zero-h-one-t-quadratic-8542.yml",
+    "invariant-subspace-w-j-nineteen-finite-gauss-8542.yml",
+    "invariant-subspace-phi-h-one-fixed-rho-modular-8542.yml"
+  ]
 }

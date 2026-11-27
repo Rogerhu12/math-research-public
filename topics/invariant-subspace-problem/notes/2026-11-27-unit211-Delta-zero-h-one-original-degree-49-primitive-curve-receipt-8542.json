@@ -1,0 +1,392 @@
+{
+  "schema": "isp-delta-zero-collision-F49-exact-factor-and-primitive-compatibility-v1",
+  "run_id": 45993230279,
+  "job_id": 140486080393,
+  "execution": {
+    "elapsed_seconds": 3.2647187269999947,
+    "max_child_rss_kib": 66324,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "418272ed363fe646bc796ce122b3f4b4bc40c034",
+        "before": "418272ed363fe646bc796ce122b3f4b4bc40c034",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T11:46:56.029761+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45993230279",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "418272ed363fe646bc796ce122b3f4b4bc40c034",
+    "source_exit_code": 0,
+    "source_git_blob": "26ad670c07ef0d454f4a3bae2a82cbf95577fbe1",
+    "source_sha256": "57dd0cb40bfd5753bbbbee178db073a4b40a6525fa3993b86642af4699422c5c",
+    "stdout_bytes": 44751,
+    "stdout_sha256": "6e1d577604ed3241da67dc7f322596b6b8d9e01ea7ca386ada4a3d0f1e2b577b",
+    "stop_reason": null
+  },
+  "mathematical_records": [
+    {
+      "oldCollisionChartReused": true,
+      "baseParameters": [
+        "lambda",
+        "rho"
+      ],
+      "originalGramFreeVariable": "t",
+      "originalRelation": "Phi*NF-S*zeta*Pf",
+      "paidLeading": "-2*S*xi*p^5/rho",
+      "allFourOriginalRelationCoefficientsVerified": true,
+      "coefficients": [
+        {
+          "numerator": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              20,
+              4,
+              0
+            ],
+            "terms": 84,
+            "totalDegree": 24,
+            "bytes": 2013,
+            "sha256": "11ff668aa2f76029e64778691e90d23f5298913aa864d922c379800642217e38"
+          },
+          "denominator": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              20,
+              4,
+              0
+            ],
+            "terms": 105,
+            "totalDegree": 24,
+            "bytes": 2244,
+            "sha256": "e8e144c930bada28316ee0ea681705150e105c05d2e42cbac4b6333bcc982081"
+          }
+        },
+        {
+          "numerator": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              14,
+              3,
+              0
+            ],
+            "terms": 60,
+            "totalDegree": 17,
+            "bytes": 1226,
+            "sha256": "632bf333f6e53da8fd5d18b408777d1199065e87cc85850465eab7bdc770d203"
+          },
+          "denominator": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              14,
+              3,
+              0
+            ],
+            "terms": 60,
+            "totalDegree": 17,
+            "bytes": 1151,
+            "sha256": "fa8740259047e4692270b686945c48747a949f95efc3ec0e8899897c0a1dd03e"
+          }
+        },
+        {
+          "numerator": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              8,
+              2,
+              0
+            ],
+            "terms": 27,
+            "totalDegree": 10,
+            "bytes": 442,
+            "sha256": "d7e56a3a3e5f147ad45492bff27484189cb62dc54fe898e7d31a3d7e7742e53a"
+          },
+          "denominator": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              8,
+              2,
+              0
+            ],
+            "terms": 27,
+            "totalDegree": 10,
+            "bytes": 409,
+            "sha256": "dfda96778a23dd7b117060464528b304221ef9a3d82d373aa4aaf8ad77f2ee16"
+          }
+        }
+      ],
+      "wholeLeadingZeroCoveragePaid": true,
+      "noNormInverse": true,
+      "claimExcluded": false,
+      "stage": "new_entire_h_one_Delta_zero_monic_ell_cubic",
+      "seconds": 0.015269666999998321
+    },
+    {
+      "scale": "H=b*Pf, original point unit",
+      "originalF": "(-Pc-bcQ*Phi*t)/Pf",
+      "originalT": "free original t",
+      "originalP1Zero": true,
+      "originalNVIdentity": "Phi*nline=Pf*compatibility",
+      "PhiPointUnitReason": "Delta=0 and Pf*S*zeta nonzero",
+      "noPhiOrPfAlgebraInverse": true,
+      "allOriginalPhysicalConditionsRetained": true,
+      "statistics": {
+        "multiplications": 160,
+        "full_original_difference_coefficients": 800
+      },
+      "claimExcluded": false,
+      "stage": "new_entire_Delta_zero_h_one_same_cleared_Gram",
+      "seconds": 2.457655099
+    },
+    {
+      "name": "original_compatibility",
+      "baseDenominator": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          24,
+          1,
+          0
+        ],
+        "terms": 50,
+        "totalDegree": 25,
+        "bytes": 1039,
+        "sha256": "7bf546e587bcc1c5e1d0bacb55192b9835265579115fe39d1f6dcd05c4ea0695"
+      },
+      "paidOnlyRemoval": [
+        {
+          "name": "q",
+          "count": 1
+        }
+      ],
+      "coefficients": [
+        {
+          "degrees_ell_lambda_rho_t": [
+            0,
+            26,
+            5,
+            0
+          ],
+          "terms": 162,
+          "totalDegree": 31,
+          "bytes": 4227,
+          "sha256": "f817f158b1a8ec3d016bea12f8b9f72ed91742e78decadf9b6182fad0cba4dd4"
+        },
+        {
+          "degrees_ell_lambda_rho_t": [
+            0,
+            26,
+            5,
+            0
+          ],
+          "terms": 162,
+          "totalDegree": 31,
+          "bytes": 4279,
+          "sha256": "8e4b5799ee3bcc793a4d1aaa62070d6e7220739f5d35d879fae3116eaceb78ca"
+        },
+        {
+          "degrees_ell_lambda_rho_t": [
+            0,
+            26,
+            5,
+            0
+          ],
+          "terms": 162,
+          "totalDegree": 31,
+          "bytes": 4119,
+          "sha256": "0d7d602a57c1a417d159d5dd669d5846fb83c8bb1391dc6b16b90f38f7295f44"
+        }
+      ],
+      "allThreeOriginalScaleProductsVerified": true,
+      "noEllOrTDependentFactorStripped": true,
+      "claimExcluded": false,
+      "stage": "new_complete_original_three_column_row",
+      "seconds": 2.4613321530000007
+    },
+    {
+      "rows": [
+        "C",
+        "ell:C",
+        "ell2:C"
+      ],
+      "target": "H^3=(b*Pf)^3, true original point unit",
+      "clearedFullScalarDenominator": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          127,
+          24,
+          0
+        ],
+        "terms": 3200,
+        "totalDegree": 151,
+        "bytes": 244443,
+        "sha256": "0536879972ca3be89fe8a3a8e4d684d07019aa9dabf1f188f6d31f315029c69f"
+      },
+      "necessaryOriginalParameterPolynomial": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          39,
+          10,
+          0
+        ],
+        "terms": 440,
+        "totalDegree": 49,
+        "bytes": 15345,
+        "sha256": "8422cc37a5de471b3bc6bf8b34b313d3ba4c394af8063e19dc37a7ad80d345c8"
+      },
+      "onlyActuallyPaidBaseFactorsRemoved": [
+        {
+          "name": "p",
+          "count": 14
+        },
+        {
+          "name": "B3",
+          "count": 22
+        },
+        {
+          "name": "S_original",
+          "count": 11
+        }
+      ],
+      "allThreeFinalPolynomialCoefficientsVerified": true,
+      "originalEllCubicRetained": true,
+      "temporaryDeterminantZeroFibersRetained": true,
+      "noNormAlgebraInverse": true,
+      "claimExcluded": false,
+      "stage": "new_full_original_unit_three_row_return",
+      "seconds": 3.190065883999999
+    },
+    {
+      "index": 0,
+      "multiplicity": 1,
+      "profile": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          39,
+          10,
+          0
+        ],
+        "terms": 440,
+        "totalDegree": 49,
+        "bytes": 12896,
+        "sha256": "8b4f671800d5edfba40c407ef960f43353d9c268f9d140e4da04d0a167ac854b"
+      },
+      "entireQQFactorRetained": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_h_one_exact_F49_component",
+      "seconds": 3.197212276000002
+    },
+    {
+      "common": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "terms": 1,
+        "totalDegree": 0,
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "originalThreeCoefficientsFactorActuallyVerified": true,
+      "primitiveCoefficients": [
+        {
+          "profile": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              26,
+              5,
+              0
+            ],
+            "terms": 162,
+            "totalDegree": 31,
+            "bytes": 4227,
+            "sha256": "f817f158b1a8ec3d016bea12f8b9f72ed91742e78decadf9b6182fad0cba4dd4"
+          }
+        },
+        {
+          "profile": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              26,
+              5,
+              0
+            ],
+            "terms": 162,
+            "totalDegree": 31,
+            "bytes": 4279,
+            "sha256": "8e4b5799ee3bcc793a4d1aaa62070d6e7220739f5d35d879fae3116eaceb78ca"
+          }
+        },
+        {
+          "profile": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              26,
+              5,
+              0
+            ],
+            "terms": 162,
+            "totalDegree": 31,
+            "bytes": 4119,
+            "sha256": "0d7d602a57c1a417d159d5dd669d5846fb83c8bb1391dc6b16b90f38f7295f44"
+          }
+        }
+      ],
+      "allCommonFactorZeroFibersRetained": true,
+      "noCommonFactorGlobalInverse": true,
+      "claimExcluded": false,
+      "stage": "new_Delta_zero_h_one_compatibility_common_parameter_factor",
+      "seconds": 3.1985425040000024
+    },
+    {
+      "sourceSHA256": "57dd0cb40bfd5753bbbbee178db073a4b40a6525fa3993b86642af4699422c5c",
+      "originalCover": {
+        "degrees_ell_lambda_rho_t": [
+          0,
+          39,
+          10,
+          0
+        ],
+        "terms": 440,
+        "totalDegree": 49,
+        "bytes": 15345,
+        "sha256": "8422cc37a5de471b3bc6bf8b34b313d3ba4c394af8063e19dc37a7ad80d345c8"
+      },
+      "completeQQProductActuallyReturned": true,
+      "factors": [
+        {
+          "index": 0,
+          "multiplicity": 1,
+          "profile": {
+            "degrees_ell_lambda_rho_t": [
+              0,
+              39,
+              10,
+              0
+            ],
+            "terms": 440,
+            "totalDegree": 49,
+            "bytes": 12896,
+            "sha256": "8b4f671800d5edfba40c407ef960f43353d9c268f9d140e4da04d0a167ac854b"
+          },
+          "entireQQFactorRetained": true,
+          "claimExcluded": false
+        }
+      ],
+      "noFactorsPaidByFactorization": true,
+      "oldEightRowsAndOtherSevenTargetsNotRerun": true,
+      "fullOriginalCubicAndCompatibilityStillRequired": true,
+      "claimExcluded": false,
+      "peakRssKiB": 66324,
+      "stage": "new_Delta_zero_h_one_exact_original_curve_factorization_complete",
+      "seconds": 3.1996658330000045
+    }
+  ]
+}

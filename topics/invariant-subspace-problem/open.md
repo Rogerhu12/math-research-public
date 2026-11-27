@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-same-kernel-cut-flux-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-F49-primitive-curve-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,14 +178,14 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W两列原值、[Y单位/w≤6存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[5+5原行](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** [整个J19四次曲线六列返1/588次QQ覆盖](results/R150-appendix-unit211-W-J19-six-generator-original-unit-and-degree-588-cover.md)实际f436/11.197秒/71244KiB/exit0，4+10规则、18真乘法、21原行全部返回。F588保全部中间范数/分母零，含旧C15未付纤维；只剥四个已付纯k因子，至多2352个权候选。接整覆盖原纤维返回；J19、Y逆/显式首一w仍开，旧名字错和未付头保结果/快照。
+**W两列原值、[Y单位/w≤6存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[5+5原行](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** [整个J19四次曲线六列返1/588次QQ覆盖](results/R150-appendix-unit211-W-J19-six-generator-original-unit-and-degree-588-cover.md)实际f436/11.197秒/71244KiB/exit0，4+10规则、18真乘法、21原行全部返回。F588保全部中间范数/分母零，含旧C15未付纤维；只剥四个已付纯k因子，至多2352个权候选。新4acc将整F588准确分low/high，原48×35有限常数代数/Nakayama返回180秒4GiB待实际，low全保；J19、Y逆/显式首一w仍开，旧名字错和未付头保结果/快照。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[一般Delta非0六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)、[h1/k1八值](results/R150-appendix-unit211-general-h-one-cleared-eight-values-and-monic-cubic-determinant.md)及[整个Delta0碰撞三维/原单位返回](results/R150-appendix-unit211-Delta-zero-h-one-monic-cubic-original-unit-and-degree-49-curve.md)已付。** c427真173.569秒/340344KiB/exit0，八原式/八H³目标全返；独立t的F49度39/10、440项，其它七式保t。新57dd仅4秒前缀做QQ整因子/原C公共因子，120秒1GiB待实际；所有主元零/原立方关系保留。该碰撞图、其它E=0与t六次头零均开，旧大门冻结。
+**[一般Delta非0六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)及[整个Delta0碰撞三维/原单位返回](results/R150-appendix-unit211-Delta-zero-h-one-monic-cubic-original-unit-and-degree-49-curve.md)已付。** c427八值/八H³目标全返；[F49精确单因子与原C三列gcd1](results/R150-appendix-unit211-Delta-zero-h-one-original-degree-49-primitive-curve.md)57dd实际3.265秒/66324KiB/exit0。新1c2b仅必要前缀与原t二次清分母组合，180秒4GiB待实际，全部首项零保留。整碰撞、其它E=0和t六次头零仍开。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[整Phi0完整值](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)和[有序h1图2051基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-core-2051-point-cover.md)已付。** c36f真2.735秒/52388KiB/exit0，原(E1,EC)/N1单位目标core的双次数77/14、75/13且QQ gcd1；固定27阶Sylvester保全部首项退化，计不同基点≤2051、含ell≤4102，无大结式展开。四core无低次分解；ca53原ell³取消保留。k1交换不把两图并集偷计同界；所有原有限候选仍待返回。
+**[整Phi0完整值](results/R150-appendix-unit211-general-Phi-zero-monic-six-same-source-original-values.md)和[有序h1图2051基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-core-2051-point-cover.md)已付。** c36f真2.735秒/52388KiB/exit0，原(E1,EC)/N1单位目标core的双次数77/14、75/13且QQ gcd1；固定27阶Sylvester保全部首项退化，计不同基点≤2051、含ell≤4102，无大结式展开。四core无低次分解；ca53原ell³取消保留。k1交换不把两图并集偷计同界；新60c2固定1009上的27/28/28阶原投影，120秒1GiB待实际，仅选下一QQ输入；全部原有限候选仍待返回。
 
 **[同一实际右逆的全部指数尺度](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)与[新平滑修正/实际核截断通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)已付。** 同Gλ:Xκ+λ→Xκ、Gⁿ费exp(Cn³)；G=R−C且C:H→所有Xκ、CPq高斯，C*有e^(28N²)矩。双侧孔壳给R*有限孔、R/G可闭、闭G值域闭。对f_n∈E∞→f∈M，RTf_n有界子列即f∈N；非零w∈W的原cut修复范数全序列→∞，固定有限孔测试趋0而同w配对→||w||²。同规范h=r−C*w，Sh∈H恰Sr∈H。原通量上界、Gamma、G保N及N=M均未付。
