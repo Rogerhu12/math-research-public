@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Phi0碰撞图原H³ell³目标的一次真实分母取消](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-ell-unit-target-cancellation.md)：ca53实际3.607秒/exit0，N1必要core总次数102→88；完整原两行身份支付，不倒Nm(ell)；旧8918上界不变。
+
 - [R150：整个J19四次权曲线的新原Gram输入、C15例外与1−2ell真单位](results/R150-appendix-unit211-W-J19-entire-quartic-original-Gram-input.md)：267e实际0.839秒/exit0；全四维权代数、六行48×35及所有逆完整，有限k例外保留；未排空J19。
 
 - [R271：同一个实际右逆在全部物理孔指数尺度上的作用](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)：固定构造只损失同一λ；完整carry误差从H映入全部尺度，全H小量与同一Neumann逆直接证明；真幂来源费exp(Cn³)，同规范对偶保留，未推N=M。
