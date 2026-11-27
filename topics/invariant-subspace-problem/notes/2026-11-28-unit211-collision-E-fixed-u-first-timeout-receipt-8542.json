@@ -1,0 +1,93 @@
+{
+  "schema": "isp-collision-E-fixed-u-first-timeout-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28 Asia/Taipei",
+  "runId": 46056479321,
+  "jobId": 140700095041,
+  "execution": {
+    "elapsed_seconds": 180.068846732,
+    "max_child_rss_kib": 104532,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6af8dabc213ae32d6ef023f9b2b2fffffd8bd27d",
+        "before": "350aa64980e7bb55bddd5e60b06f615c7d3dd360",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T19:24:45.820647+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46056479321",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "350aa64980e7bb55bddd5e60b06f615c7d3dd360",
+    "source_exit_code": -14,
+    "source_git_blob": "612cb5b34d68c081be461abfb0f747366c07c6df",
+    "source_sha256": "ba42a1359c72f65434457327001761cef9a91ba62d1fd5b1fd6d84df757e63bb",
+    "stdout_bytes": 1008,
+    "stdout_sha256": "a1deb2b22274706c097b8afc26812e44d0bf92294ac8a7fe3712aa349f3e05f9",
+    "stop_reason": null
+  },
+  "actualRecords": [
+    {
+      "name": "E177-18",
+      "degrees": [
+        177,
+        18
+      ],
+      "terms": 3338,
+      "originalPayloadSHA256": "65736a226b106d5b25240130131e37956abfe918aa3a0264159027a135b9494a",
+      "completePrimitiveIntegerInputProductReturned": true,
+      "noPriorProjectionReconstruction": true,
+      "stage": "new_collision_E_original_saved_curve_loaded",
+      "seconds": 0.02319973099999828
+    },
+    {
+      "name": "E182-19",
+      "degrees": [
+        182,
+        19
+      ],
+      "terms": 3621,
+      "originalPayloadSHA256": "182f94064ead0432161fff015836b38de3f1e958491d3158867dfee918bd952c",
+      "completePrimitiveIntegerInputProductReturned": true,
+      "noPriorProjectionReconstruction": true,
+      "stage": "new_collision_E_original_saved_curve_loaded",
+      "seconds": 0.04847882499999656
+    },
+    {
+      "originalUDegrees": [
+        18,
+        19
+      ],
+      "fixedOriginalSylvesterOrder": 37,
+      "primitiveIntegerInputScales": [
+        {
+          "name": "E177-18",
+          "denominator": 1,
+          "content": 1
+        },
+        {
+          "name": "E182-19",
+          "denominator": 1,
+          "content": 1
+        }
+      ],
+      "allUHeadZeroLambdaFibersRetained": true,
+      "resourceBudgetSeconds": 180,
+      "resourceBudgetBytes": 4294967296,
+      "stage": "new_collision_E_fixed_u_QQ_resultant_started",
+      "seconds": 0.04856559699999963
+    }
+  ],
+  "resultantReturned": false,
+  "paidFactorDivisionsActuallyExecuted": false,
+  "newLambdaCoverReturned": false,
+  "oldFiniteFiveCoordinateUpperBound": 235170,
+  "sourceFrozenWithoutLargerBudget": true,
+  "ordinaryISPClaim": false
+}
