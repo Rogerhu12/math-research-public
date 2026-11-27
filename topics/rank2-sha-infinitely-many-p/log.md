@@ -283,3 +283,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 21:10:13 UTC：消费geometry blob6d12c5243b99d1452fb039d267612c88b9fb2ab8和arith最终02c3b3d1582922a262e49b3df8b8a237dcb0213b。root逐段手核新C2纤维积/两个∞符号、g2/NS24维数、全Whittaker有限支撑与width1 cusp、有限Chow幂等/转置、full2盖映射与Qτ先于sign、正确P列基/+34、全18图和proper卷积p/(p+1)；修正文中显示数学分隔符，不改推导。新note 30337B/SHA256 a0ba222d223d1c7ecf1d51697f94195c88d55a8372ad9d595579a111bc680a5b；无数学运行、无引用旧混合Selmer消失或未知q0。H整理前9463B逐字存2026-11-27-handoff-before-psi4-sign-surface.md，全部旧门/回执沿链保留。下一同一新权族cross与真正canonical斜率非零，主目标继续；实际两库pull20:45/下一≤21:45，唯一v12保持。
+
+
+- 2026-11-27 21:13:18 UTC：消费central blob9338731c2dd2eed5c82fe4f53e0506454bfe725a，追加实际ψ4来源§11。root亲读R307(3)/(4)/(15)–(17)，逐列手核全部三行二项式提取及两原列乘积、Pauli δ/19683、首2/两三挠首4、两个raw符号与r3=624/r5=1224；补共同degree102/C102/物理z及δ尺度的准确范围。完整note 28989B/SHA256 b415d14b87e16b9ce20c9e51c901ce97bf8a0615f55e4250f40766ff0299c5cf，无数学运行、无p扫描，旧两个秩零中央值不重算。新三分支actual cross继续，固定幅度不冒端点单位；两库actual pull20:45/下一≤21:45，唯一v12未重启。

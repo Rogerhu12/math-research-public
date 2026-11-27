@@ -189,3 +189,6 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### 新 canonical 来源的真实几何与 proper fp 已闭
 
 [新sign曲面及图](notes/2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)已给C:s⁶=t(1−27t)和完整fΩ4=−δf4(τ/6)、严格Chow最高投影、正确新P列基与+34分量。全18核先重标、Qτ先于sign，完整六项准确½两个取向；实际AJ=pInew/(p+1)，不再缺新fulllevel来源或proper注入。继续在这些同一图上支付fixed-base p²权族cross，将Rcan=−3qδ^-vK−JS的斜率与指定几何读数相认，再证无穷p非零。来源中的n4复锚、两个rank0参考、K−首4=1均不替augmentation非零。
+
+
+新来源§11已把两个原rank0参考的完整negative幅度一并固定：r=(-7,624,1224)，同degree102/C102/δ变量和全finite norm，故新三分支cross不再缺这两个固定规范；仍须实际新图权族比较及端点非退化，参考的原质量1不代K−(0)非零。

@@ -397,3 +397,6 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 新ψ4实际sign模曲面与全层图的proper公式（2026-11-27）
 
 [完整证明](2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)。实际sign曲面C:s⁶=t(1−27t)、V²=1−108s⁶的g2/χ2/NS24/t2六维全付；两个∞点正规性给Ω4=dt/s⁵∧ω。完整Whittaker逐系数与width1 cusp锁fΩ4=−δf4(τ/6)，严格有限Chow M4/esign/e3及P±保最高type3新λk。真实g=P、列基((1+ω)u9,(1−ω)u9)、degree17的+34分量给d9=τ0⁻¹；全18核逐图重标，先Qτ与eA−、保Ω1伙伴取得C3不变，再完整六项sign得½两取向差。全部图先同调零，新的proper fp重付F|M4=p²、F|A=−p和杯积注入，准确AJ(Yk)(Ω4ωA)=p/(p+1) Inew，Inew保1/12及全部η/Cor/18核/两取向。无旧NS/q0或混合Selmer消失假设；实际新权族cross与同一canonical斜率非零仍待。
+
+
+- [新ψ4来源§11](2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)：原H3/H5完整多项式经同一Pauli/type2投影的首z2为−14δ/3、6δ，六列提取由二项式逐式给出；两三挠Weyl/δ拉回的首z4为−312/(7∛2)、68/∛2，归一后都为1。同各自原positive raw相比，三条snew/sk的分子r=(-7,624,1224)，分母∛2(1+√3)；完整Yang范数给Cs²比r²/(4·2^(2/3))。三条共同degree102/C102/物理z及δ^-n保齐，原finite角色与各自period仍不同；不从固定首4或参考质量1预付p单位。
