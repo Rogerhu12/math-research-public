@@ -488,3 +488,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 18:17 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 0e3be45e全余W全图monic Y²实际完成：run45979307745/job140438859151，9.457秒/145092KiB/exit0，原N1头及B(1)=k(u−Q)组合只除已付单位。
 - 名义B(w0)/w−w0两商完整取消，五原Y一次余式、原D一次、十真Y乘法完整原迹均付；只对所选必要系统等价，下一中心值s的四生成原值返回，未宣整W或普通ISP完成。
+
+2026-11-27 18:18 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新0fc5a4c6把两组三列原行的目标改为同点Dphysical，Cramer原/取消后全部三列均核回，公共gcd不作为单位倒置；完整参数零纤维保留。
+- 180秒/4GiB待执行；新增专用workflow invariant-subspace-general-ls-primitive-original-d-three-column-cofactors-8542.yml，保新目标必要五行重建，不重跑旧常数输出或完整六迹门。
