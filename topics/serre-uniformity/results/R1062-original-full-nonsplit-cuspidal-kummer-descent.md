@@ -543,3 +543,12 @@ regular $p$ 的全部非平凡角色因而有唯一全局提升；
 原 $p$-local 实际像已由 R1065 的圆盘恒定和 R1066 的有界 CM 代表给出，
 不再是任意 ambient 输入。R1067 给同一候选的圆单位坐标与辅助方程；
 irregular class-group 项及同标签辅助共同像排除仍未支付。
+
+
+[R1070](R1070-original-cuspidal-labels-by-division-polynomial-values.md) §10
+从本篇原 $S_\psi$ 证明：
+$p\equiv3\pmod4$ 时 $V_{\omega^{(p+1)/2}}=0$；
+$p\equiv1\pmod4$ 时 $S_{\omega^{(p-1)/2}}=(1-p^2)/24$ 为单位，
+故 quadratic 分量也缺席。
+同一 primitive 整数的原除法多项式公式因而适用于完整实际 $V$；
+没有假定所有 ambient 偶角色都在 $V$ 中。

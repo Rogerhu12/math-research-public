@@ -578,3 +578,13 @@ $$
 $\operatorname{Hom}_G(W,F(\{p\},p))$ 后也适用于 $\ell=2,3$。
 这补齐了本篇原先保留的两个好位接口；不声称其辅助点像已排除候选，
 $p$ 处仍使用 R1065–1066 的真实模型。
+
+
+[R1070](R1070-original-cuspidal-labels-by-division-polynomial-values.md) §10
+进一步付清整个实际 $V$ 的精确可见素：
+$\operatorname{ord}_p(\ell)$ 须为奇数，
+并排除 $p\equiv3\pmod4$ 时的 $(p-1)/2$；
+该边界的唯一可见 ambient 角色在原 cusp 模块中实际为零。
+反向充分性由本篇 forced 角色直接给出。
+特别 $p=2q+1$、$q$ 为奇素数时，只有 $\ell\equiv1\pmod p$ 可见。
+不可见时仍保基础 $X(\mathbf F_\ell)$ 是否为空的障碍。

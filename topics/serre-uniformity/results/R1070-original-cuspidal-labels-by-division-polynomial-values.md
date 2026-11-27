@@ -14,9 +14,10 @@ R1064 固定的每个 forced character 基 $u_\chi$ 的规范 Kummer 标签，
 
 这给出了 R1068 有限点输入的实际函数值接口。
 它没有证明不同辅助素的共同像为空，也没有排除非 CM 有理点。
-可逆平滑的断言限于下面的 forced 范围；
-R1069 的 $\mathrm{good}\cap\mathrm{forced}$ 子模块完全位于此范围内，
-因而无 regular 假设仍有 $\Omega(p/\log p)$ 个可用角色。
+§§1–9 先在 forced 范围付款；§10 进一步证明 smoothing 的异常角色
+在原 cusp 模块中实际缺席，将同一公式扩到完整实际 $V$，
+并给整个家族的精确辅助可见性判据。
+R1069 的 good 子模块仍保其无条件 $\Omega(p/\log p)$ 下界。
 
 ## 1. 沿用原基，不重新选择一个相似的 modular unit
 
@@ -103,8 +104,9 @@ $$
 偶角色 $\chi=\omega^{(p+1)/2}$ 满足
 $\chi(c^2)=c^2$，对每个 $c$ 都有 $\kappa_\chi=0$。
 它位于本 forced 范围之外。
-本文不宣称对 R1069 的所有其它 $V_\chi$ 平滑仍可逆。
-R1069 所给的 $\mathrm{good}\cap\mathrm{forced}$ 角色全部满足 (1070.8)。
+到本节为止不据此扩大角色范围；R1069 的 good∩forced 全满足 (1070.8)。
+后继 §10 从原 Stickelberger 格证明该异常角色的实际 $V_\chi$ 为零，
+据此才将可逆性扩至完整实际 $V$。
 
 ## 3. 除法多项式乘积在原模型上的定义
 
@@ -584,3 +586,155 @@ $x^4+x$ 或 $x^3\pm x$ 的实际乘积；
 global_route 推导，root 与 o2_high_coefficient 独立核准
 偶数平滑的因子二、全部 $b_i$、退化时的实际 $p$ 次幂
 及可见性边界。无数学程序执行。
+
+
+## 10. 全部实际角色的可逆平滑与精确辅助可见性
+
+本节回到 R1062 的完整 $V=C_\Sigma[p]$，
+不限于 forced 子空间。先用原 Stickelberger 格的
+准确 eigenvalue 排除两个边界角色。
+
+### 10.1 两个角色在实际 cusp 模块中缺席
+
+若 $p\equiv3\pmod4$，置 $m=(p-1)/2$，
+$\chi_*=\omega^{m+1}$，$\psi=\chi_*^{-1}=\omega^{m-1}$。
+取 $2j=m-1<m$，R1062 的原 Jacobi 展开仍给
+$J(\psi,\eta)\equiv0\pmod p$；
+反向和的唯一 $p-1$ 次系数为
+$-\binom m{m-1}=-m$，是单位。
+原 Gauss 乘积恒等式遂给 $v_pJ(\psi,\eta)=1$。
+
+另一方面 $\psi^2=\omega^{-2}$，所以
+$$
+\sum_{a=1}^{p-1}a^2\psi(a)^2\equiv-1\pmod p.
+$$
+在原
+$$
+B_{2,\psi^2}
+=\frac1p\sum a^2\psi(a)^2-\sum a\psi(a)^2
+ +\frac p6\sum\psi(a)^2
+$$
+中，后两项整，第一项的 valuation 准确为 $-1$。
+故 $S_\psi=-J(\psi,\eta)B_{2,\psi^2}/4$ 是 $p$-unit，
+准确得到
+$$
+\boxed{
+(C_\Sigma\otimes\mathbf Z_p)_{\chi_*}=0,\qquad V_{\chi_*}=0.
+}
+\tag{1070.40}
+$$
+这里 $\psi,\eta,\psi\eta,\psi^2$ 全非平凡，
+$p>37$ 不出现 Jacobi 退化。
+不能把 forced 范围之外首和的极点略掉：
+正是这个极点抵消了 Jacobi 和的一次 $p$ 因子。
+
+若 $p\equiv1\pmod4$，quadratic $\eta=\omega^m$ 是偶角色。
+直接按原范数纤维求和：
+$a\ne0$ 时 $\sum_b\eta(a^2-\delta b^2)=1$，
+$a=0$ 时该和为 $-(p-1)$。
+又 $\sum_{a=1}^{p-1}B_2(a/p)=(1-p)/(6p)$，所以
+$$
+\boxed{
+S_\eta=\frac p4
+ \left(\frac{1-p}{6p}-\frac{p-1}{6}\right)
+=\frac{1-p^2}{24}\in\mathbf Z_p^\times,\qquad V_\eta=0.
+}
+\tag{1070.41}
+$$
+trivial 分量本来为零；当 $p\equiv3\pmod4$ 时
+quadratic 不是偶角色。
+因此整个实际 $V$ 的非零分量都满足 $\chi^2\ne1$。
+
+### 10.2 原除法多项式公式扩到完整实际 $V$
+
+取一个 $c\bmod p$ 为 primitive 的正整数，
+仍可同时要求 $(c,6p\ell)=1$。
+对偶角色 $\chi=\omega^r$，
+$$
+\kappa_\chi(c)=0
+\quad\Longleftrightarrow\quad
+2(r-1)\equiv0\pmod{p-1}.
+$$
+$p\equiv1\pmod4$ 时两解 $r=1,1+m$ 都为奇数；
+$p\equiv3\pmod4$ 时唯一偶解恰为已排除的 $\chi_*$。
+所以这同一个 $c$ 对整个实际 $V$ 的每个非零分量均可逆。
+
+还须支付原基，而不只证明某个 smoothing scalar 非零。
+对任意 $V_\chi\ne0$，照 (1070.3) 选原 augmentation-zero 整数指数。
+R1062 的 $\theta$ 在 $\mathbf Z_p[G]$ 中整，
+且 $S_{\chi^{-1}}\in p\mathbf Z_p$，
+故原 raw product 的 divisor 确为 $p$ 倍。
+Carlucci 实际 unit 格张量 $\mathbf Z_p$ 后，
+在每个非 trivial 角色由这个指数生成：
+$p\nmid d$ 使原 $R_d$ 变成 $\mathbf Z_p[G]$，
+trivial 方向以外的 $\theta$ eigenvalue 均非零，
+所以指数到实际 unit 格的映射在各非 trivial 方向为同构。
+$n\bmod p=e_\chi\ne0$ 因而保证该 unit 不在 $pU$；
+所得 $u_\chi$ 准确生成一维 $V_\chi$。
+即使 $v_pS_{\chi^{-1}}>1$，这个单位格结论仍成立。
+
+实际 $\chi^2\ne1$，故原平方角色 leading 计算全部适用，
+特别全部 cusp leading 类总和仍为零。
+因此 (1070.31) 及 §§3–8 的相位、整数提升、实下降和同一点条件，
+准确扩为
+$$
+\boxed{
+\Phi_y(u_\chi)=\frac{m}{c^2-\chi(c^2)}
+ \left[\prod_{z/\pm}\psi_c(P_z)^{-n_{[Nz]}}\right]
+\quad\text{对所有实际 }V_\chi\ne0.
+}
+\tag{1070.42}
+$$
+先前 forced 限定由 (1070.40)–(1070.41) 的真实缺席解除；
+没有在一个实际非零分量上除掉零 $\kappa$。
+
+这不把 R1069 其它角色尚存的 class-group 自由度
+自动称为唯一全局候选。
+唯一性仍只在其 good 子模块使用；本节扩展的是原函数评价。
+
+### 10.3 整个原家族的精确可见素判据
+
+令 $\ell\ne p$ 为辅助素，$d_\ell=\operatorname{ord}_p(\ell)$。
+由 R1064 的真实角色，
+$\chi$ 可见恰当且仅当 $\chi(\ell)=\ell$。
+若 $d_\ell$ 为偶数，此式对偶角色无解。
+
+若 $p\equiv3\pmod4$ 且 $d_\ell=m$，
+full even characters 中唯一解为 $\chi_*$，
+而 (1070.40) 已证明它不属于实际 $V$。
+故 $H^1(\mathbf F_\ell,H_V)=0$，且 $H_V(\mathbf F_\ell)=0$。
+只要原 $X(\mathbf F_\ell)$ 非空，
+每个允许的原 cuspidal twist 在该素都自动有点，
+每个原点的纤维恰有一个 $\mathbf F_\ell$ 点；
+若基础点集为空，该基础障碍仍保留。
+
+反过来，若 $d_\ell=1$，forced $\chi_1$ 可见。
+若 $d_\ell>1$ 为奇数，且排除上述 $d_\ell=m$ 情形，
+取 $j=(d_\ell-1)/2$。
+当 $p\equiv1\pmod4$ 时，
+$d_\ell\le(p-1)/4$；
+当 $p\equiv3\pmod4$ 且 $d_\ell<m$ 时，
+$d_\ell\le m/3$。
+两种情况下 $1\le j\le\lfloor p/4\rfloor-1$，
+所以真实 forced $V_{\chi_j}$ 已无条件一维，
+且 $\ell^{2j+1}=1$。
+于是完整判据为
+$$
+\boxed{
+H^1(\mathbf F_\ell,H_V)\ne0
+\iff
+d_\ell\text{ 为奇数且 }
+\neg\bigl(p\equiv3\pmod4,\ d_\ell=(p-1)/2\bigr).
+}
+\tag{1070.43}
+$$
+特别若 $p=2q+1$、$q$ 为奇素数，整个原 cuspidal 家族
+**只在 $\ell\equiv1\pmod p$ 时可见**。
+这只是精确删除无效辅助素，未声称其余素已排除候选，
+也未把基础曲线点集为空的障碍丢掉。
+
+本节消费 R1062 的原完整 Stickelberger/unit 格和已证明 forced 分量，
+以及 R1064 的原 finite-field 角色。
+global_route 与 root 分别付款边界角色及精确判据；
+o2_high_coefficient 独核 exceptional 角色的 Jacobi/Bernoulli valuations。
+全部为纸面证明，无数学程序执行。
