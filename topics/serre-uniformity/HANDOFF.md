@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：1e23dc9cd41e9335379254578ece6db20a3907fd**（2026-11-27 20:17 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：b7ab15fe8cc4983bfde052b94e2917fb6e08e564**（2026-11-27 20:18 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；20:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -49,7 +49,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 ## O1：原同一保留标签与 Gaussian 强制切向
 
-[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付W_C上B的准确三对角/简单谱与D³的单Jordan块；e=K4=0 iff DF∈(D³)²(U²k[V]≤k−3)，原首余核杀常数，真实三平移保全部乘子。只付同源短旗标接口，未排该包含、未占R1117；不能把全空间谱代短minor。
+[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付W_C上B的准确三对角/简单谱与D³的单Jordan块；e=K4=0 iff DF∈(D³)²(U²k[V]≤k−3)，原首余核杀常数，真实三平移保全部乘子。只付同源短旗标接口，未排该包含、未占R1117；不能把全空间谱代短minor。 §6原Green两端列的所有分量单位，准确(B+v)y⁻=−4v e_−N、(B−v)y⁺=4v e_N；保0×pole端残项，原J1完整强迫不能换成端点。
 
 [R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)付原有限Lamé全谱、完整jet递推及η_k=(16v²g0/(3δ))D_N(1)；g0单位，e=0时K4必须保全部三项。R1061/76的同一T=−2vΨ³/δ³、η_j=j[z^j]T、ν_j=j[z^j]T²/40不换；指定η_k/ν_k非同时零仍开。R1077加权2k次单位不代短k次。R1109完整Dixon首除层仅消费。
 
