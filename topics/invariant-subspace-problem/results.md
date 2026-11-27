@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [h=k、Delta零的七lambda完整QQ覆盖与80基点界](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)：真578次QQ覆盖和独立N1的Gauss，完整153/345因子排除；余三整常数代数须返回。
+
 - [R150 unit211：全余W原首一T3/F2与六列环境](results/R150-appendix-unit211-W-global-monic-T-three-F-two-and-six-column-environment.md)：新头由整lambda3/2排除全付；原两四次等价q3加必留r2，原商不假自由。
 
 - [R150 unit211：整个h=k、Delta零的两条原QQ曲线与848不同基点界](results/R150-appendix-unit211-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover.md)：P28/3、M124/17真互素，固定20阶消失阶计数；全部Q/u头零保留，原纤维续返。
