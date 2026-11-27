@@ -413,3 +413,343 @@ $$
 
 所有这些有限平均的原分母均保留，尤其
 $(p-1)p^{n-r-1}$ 随 n 产生的 p 损。本文没有将它们改成此前整 bounded 的 whole carry，也没有声称 (10) 中某一新字的中央值非零。
+
+
+## 10. 一个只有新增五处分母的真实角及其完整 Bell 差
+
+本节延续(23)，不将其中的其它有限输入当作原向量。
+直接取
+$$
+ a=\frac25,\qquad b_n=\frac{\kappa^n}{5},\qquad
+ g_n^\epsilon=\frac15
+ \begin{pmatrix}2&21\epsilon\kappa^n\\
+              -\epsilon\kappa^{-n}&2\end{pmatrix},
+ \quad\epsilon\in\{+1,-1\}.
+ \tag{26}
+$$
+其行列式为一，且(4)逐项成立。这也是 Cayley 参数 $c=1/7$；
+虽不再是第1节的整数参数，(26)本身已直接证明全部有理等距条件。
+新增分母只有5；原框架的2、3、7仍须保留。
+
+### 10.1 原输出坐标的逆 Gram
+
+(19)中的 Hermitian 系数在这里必须按输出的对偶坐标解释。
+相对于原 sigma 的共同 Hermitian 类 $\alpha_\sigma=2$，
+两条双系数为
+$$
+ \alpha_Y^{\rm rel}=1/126,\qquad \alpha_K^{\rm rel}=1/6.
+$$
+若记 $c_\sigma=2x_0^3$，则(19)–(21)准确使用
+$c_Y=c_\sigma/126,\ c_K=c_\sigma/6$。
+原行 Gram $(126,6)$ 与此逆 Gram 不混同；
+$gDg^*=D$ 等价于 $g^*D^{-1}g=D^{-1}$。
+因而(19)–(21)不需换公式，但不能把其中未展开的
+$\alpha_L$ 误填为126或6。
+
+先在5处取 $\kappa^n\equiv1\bmod25$。
+由第二行再代第一行，整个格是
+$$
+ L_5^\epsilon=
+ \{y\in5^{-1}\mathbf Z_5,\quad
+       k-\epsilon y/2\in5\mathbf Z_5\}.
+ \tag{27}
+$$
+两个格的自对偶 Haar 体积都是一。
+这不是只取单位上的条件。
+
+以 $u=5y,v=5k\bmod25$ 写其有限向量，则
+$$
+ \phi_5^\epsilon(u,v)={\bf1}_{\,2v=\epsilon u}.
+ \tag{28}
+$$
+两轴的小球基均为 $\mathbf1_{u/5+5\mathbf Z_5}$，
+每列范数平方为 $1/5$。所以(28)的25个非零系数均准确为一，
+其张量范数平方也是一。
+
+这里相位的符号有实质作用：
+$$
+ \frac1{126}+\frac{(1/2)^2}{6}=\frac{25}{504}.
+$$
+故图 $v=u/2$ 在完整模25逆 Gram 配对中是反辛图。
+原共同 $\alpha_\sigma=2$ 仍在场。
+Y轴改坐标 $u=5y$ 后的 Hermitian 代表是 $2/(126\cdot25)$；
+因 $126\equiv1\bmod125$，其完整模25模型恰为
+R1047(11)的 $2/25$ 模型。
+K轴再改坐标 $w=2v$，其模型是该模型的对偶。
+这同时固定原 $\omega$ 作用和 splitting；不是从反演奇偶猜相位。
+
+沿 R1047(10)–(14)，令
+$\mathcal T=(\mathcal O_K/25)^1$，生成元
+$g_5=-\omega(1+5\delta)$，$\theta_r(g_5)=\zeta_{30}^r$。
+保其实际矩阵
+$$
+ W(a+b\delta)_{uv}
+ =\frac15\zeta_{25}^{\,3\{a(u^2+v^2)-2uv\}/b}
+ \quad(5\nmid b)
+$$
+及同一表示对其它群元的定义。
+全谱是一个平凡旧字和所有 $5\nmid r$ 的24个单重字。
+令 $f_r=\Pi_re_{a_r}$、$n_r=\sum_u f_r(u)^2$，
+取 R1047(14) 的同一最小非零列规范。
+这些 $f_r$ 是实向量。完整 Bell 分解因此是
+$$
+ \boxed{
+ \phi_5^+-\phi_5^-
+ =2\!\!\sum_{\substack{0\le r<30\\r\ {\rm odd},\ 5\nmid r}}
+       \frac{f_r(u)f_r(2v)}{n_r}.
+ }
+ \tag{29}
+$$
+这十二个标签是
+$1,3,7,9,11,13,17,19,21,23,27,29$，
+每项都非零；两轴取相反角色。
+(29)在任一轴单独反演时为负，而两轴同时反演时为正。
+它不是 R1047 的四条 even 型五线。
+每条留下的角色在 $1+5\mathcal O_K$ 上均非平凡，
+故不能把它们称为 $\mathbf Q$ 上 $j=0$ 椭圆曲线的六次角色。
+
+(27)–(29)的全部标量由原 Haar、原模25 Gauss 核和同一个旧球固定。
+没有任选一条平方根，也没有把5处的 wild 字换成 tame 字。
+
+### 10.2 n 的固定有限状态与旧坏处
+
+原 ray 已有 $\kappa\equiv1\bmod25$。
+其它坏处不能因(26)的分母只有5就被抹去。
+可以不改变原普通素数集合，而只让深度 n 取一个固定子序列。
+
+例如令
+$$
+ M_{\rm bad}=2^{12}3^8 7^4 5^2,\qquad
+ h_{\rm bad}=\#(\mathcal O_K/M_{\rm bad})^\times.
+ \tag{30}
+$$
+取 $h_{\rm bad}\mid n$，则 $\kappa^n\equiv1\bmod M_{\rm bad}$。
+这里 $\kappa$ 在这些处是单位，故这一断言只用有限单位群，
+不改变原模64的条件。
+两个相对矩阵 $g_n^\epsilon(g_0^\epsilon)^{-1}$ 及其反序
+在5处整；例如正号支为
+$$
+ \frac1{25}\begin{pmatrix}
+ 4+21\kappa^n&42(\kappa^n-1)\\
+ 2(1-\kappa^{-n})&4+21\kappa^{-n}
+ \end{pmatrix}.
+$$
+在2、3、7处它们与一的差分别含(30)的相应高次幂。
+共轭回(1)时逆框架至多损失 $2^1,3^2,7^1$；
+换回原标准极化后仍远深于原 Schwartz 的开稳定子。
+具体地，原二处支撑在 $\frac14\mathbf Z_2^6$、周期为
+$2\mathbf Z_2^6$，原三处为 $(3^{-1}\mathbf Z_3)^6$，
+七处为标准球。对标准上剪切、下剪切和对角生成元逐项使用
+这些支撑/周期，分别在 $2^5,3^2,7$ 的主同余群已固定原向量；
+(30)连同上述框架损失足以覆盖它们。
+在二处还保 $\det\equiv1\bmod8$，不遗漏 metaplectic 符号。
+
+所以对这一 n 子序列，(23)中两个其它有限向量分别等于
+$n=0$ 的两个实际向量。这没有说两向量彼此相同，
+也没有说 $g_0^\epsilon$ 在2、3、7处固定原来源。
+
+## 11. 其它有限费用的完整六 sigma 返回
+
+反变规范须在此锁定。
+本文(6)是 $\phi_0(gx)$；用全局有理 Weil 协变移到无限处，
+其参数是 $g^{-t}$，不是 g。
+因此 $\phi_n^+$ 的固定坏处返回对应下文 $F_-$，
+$\phi_n^-$ 对应 $F_+$。
+
+定义完整整行
+$$
+ U_\epsilon=2Y+21\epsilon K,\qquad
+ V_\epsilon=-\epsilon Y+2K.
+ \tag{31}
+$$
+例如
+$$
+\begin{aligned}
+ U_+&=(-7,\,8+23\omega,\,-15-23\omega,\,27\delta,\,4\delta,\,4\delta),\\
+ V_+&=(-9,\,-4+\omega,\,-5-\omega,\,-\delta,\,-2\delta,\,-2\delta).
+\end{aligned}
+$$
+直接 Gram 为 $(3150,150)$，二行正交，且与 H/J/A/N 全正交。
+两行模二各有四个非零系数，所以两完整半特征都是 standard even。
+
+使用原同一个 sigma、原 $b=17$、原周期、原 $-1/84$，置
+$$
+ \mathcal G_\epsilon(z,w,\mathbf t)
+ =-\frac1{84}\prod_{j=1}^6
+ \sigma\left(
+ U_{\epsilon,j}z+V_{\epsilon,j}w+
+ H_jt_H+J_jt_J+A_jt_A+N_jt_N\right),
+ \tag{32}
+$$
+$$
+ \mathcal F_\epsilon(z,w,\mathbf t)
+ =\mathcal G_\epsilon(z/5,w/5,\mathbf t),\qquad
+ F_\epsilon(z)=\mathcal F_\epsilon(z,0,\mathbf0).
+ \tag{33}
+$$
+(32)是两份实际固定来源，不是一个仅给维数的模型。
+它包含旧2、3、7处和新增5处的全部相位。
+(29)是它们在5处的有符号 Bell 差；
+其它旧有限向量是原(32)本身的向量，未被替成球。
+
+全局有理 lift 的乘积相位为一，且(26)的行列式为一；
+无限 Gaussian 的二次型由(4)严格保持。
+故原 theta 协变给出的正是(32)–(33)，没有未定非零标量。
+也可在原六 sigma 的第一非零 Taylor 项逐项核定：
+其系数是 $-\prod_j U_{\epsilon,j}/(84\cdot5^6)$，
+与同一反变有理替换完全相同。
+只读这个首项不是用来识别一个未付的 Hecke 线，而是核定
+已经给出整个乘积的绝对规范。
+
+原 ray 的
+$\kappa\equiv3\bmod4$、$\kappa\equiv1\bmod9\cdot25\cdot7$
+分别给两度的完整中心
+$3151\bmod6300$、$151\bmod300$。
+其非零绝对锚是
+$$
+ \Theta(15\gamma_7z),\qquad\Theta(5\delta z).
+ \tag{34}
+$$
+原 $\Theta$ whole core 是 $\beta=-\lambda=\bar\pi_0^{-1}$；
+prime-to-p CM pull 与全深限制严格交换。
+因此(32)沿 U、V 两轴的整个核都是 $\beta$，
+保其余四输出，不先取一个边际。
+除以5只是 p 单位坐标变换，故(33)也有同一两个 whole 核。
+
+## 12. 自然球经原 division/Miller 图的全部正负深度
+
+以下锁定(21)到物理读者所缺的具体图。
+固定(32)或(33)的其它有限输入；在当前好 split p，
+将某轴的原自然球 $B_0$ 改为 $B_r$，再用(19)回标准极化。
+记所得完整 theta/测度来源为 $\mathcal B_r$。
+这个记号不把自然球先定义成物理深限制。
+
+当 $r\ge0$，
+$$
+ B_r(x)=B_0(x)\frac1{p^r}
+       \sum_{a\bmod p^r}\psi_p(ax/p^r).
+ \tag{35}
+$$
+原 theta 的对偶 connected 直线将这些调制逐项对应
+$E[\pi_0^r]$ 的完整 Weyl lift。
+逆 Gram 及 theta degree 只在 a 上给单位换元；
+$p\nmid3150\cdot150$，所以没有删支。
+此处使用原正式同构送入的 connected 核，不能将未规范的
+Schrödinger 位置平移与调制互换。
+原相位和刚性化由 R300(8)–(12) 的 division 函数图逐支给出；
+在同一 Amice 坐标中(35)正是
+$$
+ \frac1{p^r}\sum_{\zeta^{p^r}=1}
+ \mathcal A\bigl(\zeta(1+T)-1\bigr).
+ \tag{36}
+$$
+根单位的正式对数不被逐项代成零。
+因此正 r 的整个返回是物理深限制。
+再用(34)的 whole 核，得到
+$$
+ \boxed{\nu_{\mathcal B_r}=\beta^r[\kappa^r]_*\nu_{\mathcal B_0}
+       \quad(r\ge0).}
+ \tag{37}
+$$
+
+负深度必须另付 Haar 费用。
+自然位置的完整平移平均给 $p^{-r}B_{-r}$，$r\ge0$；
+原对偶图是 $E[\bar\pi_0^r]$ 的 étale 全迹。
+共轭的同一个 whole 锚给其准确系数
+$$
+ \pi_0^{-r}=\beta^{-r}p^{-r}.
+$$
+乘回自然球前的 $p^r$ 后，才得到
+$$
+ \boxed{\nu_{\mathcal B_{-r}}
+       =\beta^{-r}[\kappa^{-r}]_*\nu_{\mathcal B_0}
+       \quad(r\ge0).}
+ \tag{38}
+$$
+(38)的测度支撑在 $p^{-r}\mathbf Z_p$，
+不被称为 $\mathbf Z_p$ 上的整测度。
+(35)–(38)同时保 connected/étale 两个完整纤维、
+原 $1/p^r$、CM 尺度和 division/Miller 因子。
+这正是不能仅从 Yang Corollary2.10 的局部特征略过的步骤。
+自然/标准间所有二次相位仍是(19)–(21)。
+
+两个正交轴的图严格交换，故对整数 r,s 的联合返回为
+$\beta^{r+s}[\operatorname{diag}(\kappa^r,\kappa^s)]_*\nu$，
+保 H/J/A/N 全部坐标。
+正负支撑及其扩域分别如(37)–(38)所示。
+
+## 13. 原 Y-unit 的完整返回：两项 K 缩放差
+
+记 $\mu_\epsilon$ 为(33)的完整六输出测度；
+$\mu_\epsilon^\times$ 仅在其第一个真实物理坐标 Y 取单位。
+这里 Y 是已经在反变图中明确锁定的输出坐标，
+不是将原六输入之一更名为 Y。
+
+令
+$$
+ D_{K,t}=\operatorname{diag}(1,t,1,1,1,1),\qquad
+ d_n=(p-1)p^{n-1}.
+$$
+将(17)经(35)–(38)整式返回。
+$r\ge1$ 的 Y 环带和第一项 $B_n\otimes B_0$ 在 Y-unit 上全零；
+$r=0$ 的 $B_0-B_1$ 准确成为同一个 $\mu_\epsilon^\times$。
+K 的两个负深度球不能丢弃。故对(30)的 n 子序列，
+$$
+ \boxed{
+ \nu_{E_0\Phi_n^\epsilon}\big|_{Y\ {\rm unit}}
+ =\frac{\beta^{-n}}{d_n}
+   \left\{(D_{K,\kappa^{-n}})_*
+             -\beta(D_{K,\kappa^{1-n}})_*\right\}
+             \mu_{-\epsilon}^{\times}.
+ }
+ \tag{39}
+$$
+这是真测度身份，先作用于完整六输出，不是只比某个首矩。
+原 H/J/N 投影可在两边共同施加，因为所有显示操作都固定这些轴。
+任意仍读 K 的 mixed cut 必须保持(39)的两个实际转置。
+
+只在忘掉 K 后，(39)才简化为
+$$
+ \boxed{
+ (\operatorname{pr}_{Y,H,J,A,N})_*
+   \nu_{E_0\Phi_n^\epsilon}\big|_{Y\ {\rm unit}}
+ =c_n(\operatorname{pr}_{Y,H,J,A,N})_*\mu_{-\epsilon}^{\times},
+ \qquad
+ c_n=\frac{(1-\beta)\beta^{-n}}{(p-1)p^{n-1}}.
+ }
+ \tag{40}
+$$
+例如同一个原单位 Mellin 给
+$$
+ J_{E_0\Phi_n^+}(v)-J_{E_0\Phi_n^-}(v)
+ =c_n\{J_{F_-}(v)-J_{F_+}(v)\}.
+ \tag{41}
+$$
+所以(23)的固定坏处差已返回到(32)两个完整固定六 sigma，
+不再留下自由的未指定局部向量。
+$n$ 的全部分母和尺度显示在(39)–(41)中。
+特别这里仍有 $p^{1-n}$，不能将它说成原整 carry。
+
+两个 $F_\epsilon$ 的全质量为零；
+由其 whole core，单位质量也为零。
+若使用不除5的第一来源 $\mathcal G_\epsilon(z,0,\mathbf0)$，
+其 Mellin 差只多 $\langle1/5\rangle^{dv}$；
+中央首导数因质量为零而不另付 $\log5$。
+这个规范只消一项已明确的质量费用，不将任何新来源赋中央零。
+
+还可直接读真实 K/Y，而非猜它被平均杀去：
+$$
+ \boxed{
+ \int_{Y\ {\rm unit}}\frac KY\,d\nu_{E_0\Phi_n^\epsilon}
+ =\frac{\beta^{-n}\kappa^{-n}(1-\beta\kappa)}{d_n}
+       \int_{Y\ {\rm unit}}\frac KY\,d\mu_{-\epsilon}.
+ }
+ \tag{42}
+$$
+右边是两个固定新来源自己的完整读数，不是原(25)。
+原(25)仍属于移动投影(24)。
+(39)同时说明：含 K 的原 carry/cut 不可只用(40)的标量。
+因此本节没有把原 $j_Y(0)=0$ 微分成一个新零，也没有把
+(29)的十二个 wild 字或(32)的新六 sigma 当作已知 rank-two
+canonical 族。下一步可直接对这两个已完整返回的固定输入及
+(39)的两项 mixed 测试作比较；无须再次重建 p 局部球/环带。

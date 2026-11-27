@@ -6,9 +6,9 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限 p、随 p 换曲线、接口或孤立投影不完成。
 
-- 两库部分克隆已做。公开既有只读CI于15:45:15UTC真实pull --rebase成功至8f70b47dd340068496385625f0cc1beb5df500e4（run46027673320/job140603152937），相对上次f7467545两README无差异；已读根282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题2f3b3c9264fbba8189f85716e68f768830e921bc。本地最后成功pull仍07:12的1cf10ac，CI与本地分别记账。
-- 私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推。最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变；blob分别5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。
-- 07:20本地执行环境失联；15:43两库actual pull重试仍不可用。15:43私库API head9fe7561d、两README及QUEUE未变。按根README§13，公开只读CI现增用既有MR_TOKEN secret作私库真实部分clone/pull，只打印SHA/是否变化；不输出私库正文。待回执，不冒充成功。
+- 两库只读CI实际部分clone/pull --rebase已于16:03成功（run46030351581/job140612272176）。公开16:03:53UTC至0b7cc6c7adc861a523ae294a27aa6baa8f042a13，较8f70b47dd340068496385625f0cc1beb5df500e4两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库16:03:58UTC至1a736908abae2f32b917c67e432338790a1fe93d，较上次实际6139de54ac72f1c7af0508b88ce03efdbf0a5690两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。既有MR_TOKEN secret按根§13使用，正文/凭证不输出公开log。QUEUE844a9bd5e7d978c6d525bdb6e4681e990349113c仍本会话进行中，认领提交41fe885610073f478b2f5a752461ca56cfd43f09。
+- 本地07:20失联，最近重试两库仍无执行环境；本地末次公开pull07:12的1cf10ac。CI是真实pull，与本地/API分别记账，不混称。下一轮实际pull不迟于17:03UTC，两README变更须立即读差异。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
@@ -54,4 +54,4 @@ R1043全2-Vélu/full9、S′/S3左逆、canonical E4/I及η′=ηκ2保。最高
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。
 
-central负责同一三低卷积；arithmetic负责真实角源和全补域forcing；geometry负责原Manin/两标记与最高λ；root核接线、原作业、同步及逐条推送。原g_n趋零角的Schwartz稳定子恰1+p^n，含真p^n字；未分歧投影及后继消字须另付。固定norm11端点非CM本征。新§§6–9全E0球/环带及标准极化二次相位已付，每层p^(n−r−1)损保；固定其它输入的±角被全杀，真实有理角保固定坏处差。非零K/Y导数属于移动投影，换固定E0费用(1−E0)φ_n不可丢。未新增canonical授权。主目标未完成，持续工作。
+central继续同一完整前缀/三低卷积；arithmetic继续实际角源与全补域forcing；geometry继续原inert-p最高λ的finite-polynomial积分桥；root处理完整作业、同步、接线与逐条推送。原g_n准确稳定子1+p^n、全E0球环带/二次相位和移动投影费用(1−E0)φ_n均已付。新§§10–13以a=2/5,b=κ^n/5锁逆Gram，保5处12odd Bell、旧2/3/7全部固定状态和反变符号，明确两norm3150/150六sigma F±；原connected/étale division图把Y-unit全返回为β^-n/d_n的两个K缩放差。忘K才成c_n(JF−−JF+)；K/Y另保κ^-n(1−βκ)。p^(1−n)损和mixed cut全保，未给新来源canonical中央零。主目标未完成，持续工作。

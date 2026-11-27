@@ -255,3 +255,5 @@
 - R1043后继原CM289：[证明](2026-11-27-original-cm-289-germs-and-marked-contacts.md)。原三个T_a已经有准确的实际CM Hecke延拓：cyclic289图的degree17负Weil分量与有序二核循环合成κ⁻¹σ，正是原q_−的deck；共轭分支倍率−17ω²、基导数ω，三次返回恒等。固定倒6分母后R_a=17P1−φ̂P2∘f是实际截面，原ψ̂_tR_a(0)=17T_a。 在同一代数Hecke分量的Tate边界支付自然性后，μR(0)=17μPQ(b′_a)，rR(0)=17(1−ω²)κ_qX′/(6V′)≠0；所以这个指定真实延拓的挠叶接触恰1或2，由N_q(V′²)判定。不把该延拓的接触当抽象点不变量或模p非零。 原全部η权及Cor仍保，不将三点接触自行相加。
 
 - **R1042§14**：[原文](../results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§14已由公开13校准及完整无限Schur差商证明：三条原raw六sigma在全部正奇数r的6r/18r/30r矩阵v13det=3+3v13(r)。当前共同ray相容细化π0≡2mod13³后，三个不同Euler因子全保而同赋值式仍成立。实际有限前缀前三秩跳a=1,b≤3,c≤5，按原p^(h+1)格归一的Smith恢复费用≤(18+o(1))p；未把三行当三自由变量或新增canonical坏行，完整至少双unit补域仍保。
+
+- **原有理角完整有限返回**：[原文§§10–13](2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)。原Y/K角§§10–13付a=2/5,b=κ^n/5的完整返回：逆Gram/共同2、全5 Bell十二odd wild字、固定深度子序列上旧2/3/7状态及反变±标签均锁定。两份原六sigma框架norm3150/150及两个whole β核给原connected/étale division/Miller图的正负球返回；Y-unit全读者是β^-n/((p−1)p^(n−1))乘两个不同K缩放，忘K才简化为c_n(JF−−JF+)。混合cut、K/Y的κ^-n(1−βκ)和全部p分母保持，新来源尚未获canonical中央零。
