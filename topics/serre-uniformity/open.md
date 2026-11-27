@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-ordinary-Picard-connection.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-genus-four-Raynaud.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -120,6 +120,8 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 [R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原r2规范p-block公因子恰M D (b³−1)^(2ε)，其中ε=1 iff原f_N=0；清除后真映射全部分歧已付，三CM指数ell+1−2ε。尚未排ε=1，不代bare范数。
 
+[原genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree3商Y:y³=(2/κ)(1−η⁶)，完整四基全Cartier-zero；第四基与其余三基按μ6×μ3权严格配零。原映射ω↦h及absolute负号给e=3ρsδA，再消费已付e0 iff S0，得到e0 iff全局β_Y恒零。canonical比值生成K(Y)，Y非hyperelliptic；不反用hyperelliptic⇒β0，不由isotropic四维代非零。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 [R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
@@ -127,38 +129,20 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 原r2/r8 bare、近p高坐标、实际Igusa packet及全部旧尺度保于[逐字前态](open-archive-2026-11-27-before-full47-classification.md)。R1041/48的核范数与AS端点平方不互代；R988准确给原S非零 iff c_(p−r)±单位，不能由低Cartier或period替代。R955/970真整格nilpotence把目标等价于原CM链长1，指定高权adjoint值仍开。R1015/16、R973–990完整theta/Poincaré/heat来源只消费，所有lower products、resonance、primitive mask保留。R991/994全部4008新点至200000已完成不重跑，也不外推一般p。
 
-## O3：固定低权cohomology与原Igusa投影的边界
+## O3：固定低权 cohomology 与原 Igusa 投影
 
-旧O3全部指定输入、低权/高权角色、完整trace和mask条件沿[本次逐字前态](open-archive-2026-11-27-before-full47-rank.md)保留。低权来源和完整投影不等于原高近p系数非零；不重开已完成窗口、不删实际相位、carry或本原标签约束。当前优先消费R1076–79的同一原primitive与完整短障碍，实际跨来源比较未付时不得替换目标。
+完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-genus-four-Raynaud.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。
 
-## O4：原Abel零集、正秩像与真正高度
+## O4：原 Abel 像与真正高度
 
-[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md)已构造原J₁实际Q简单商C，q_CN=0、β=q_CD₀非挠，End_Q⁰C=全实F₀，dimC=2f、rankC(Q)=f且C(Q)⊗Q=F₀β。用同一canonical c的κ₄投影和Nekovář3.2，保内扭曲/全部同源重数；Faltings中央化子与MW秩共同排Schur指数。各素ℓ的真实对数空间维f、与有理Lie向量交零；原c₁首个Abel jet因此有实际MW消去泛函，首项非零。尚无p整首项赋值或统一圆盘半径，不移用旧一维CM通道，继续真实β的Coleman/晶体两列与尾项。
+[R1011](results/R1011-original-nonCM-half-rank-quotient-and-rational-CM-jet-transversality.md) 的实际 Q 简单商 C 已有 dim=2f、rank=f、MW=F₀β、原 c₁ Abel 首 jet 非零；未付 p 整首项赋值/统一半径，须同 β 的 Coleman/晶体两列和尾项。R1010 原 X₁ 非CM投影非挠（全 p≥10¹⁸,p5mod6；p11mod12可431），不能移到变化 X_d 或代候选排除。
 
-[R1010](results/R1010-original-CM-divisor-nontorsion-in-nonCM-part.md)已证明原X₁指定D₀在非CM新部投影非挠：全p≥10¹⁸、p5mod6；p11mod12时p≥431即可。完整T_qδ=δ^qT_q下降、六水平Std型、全部CM域筛选、31处ES挠点消去和最深CM导子唯一支持均给出；除子度≤4608(q+1)²对gonality≥21p(p−1)/800，自足PV给q=O(√p logp)。仅限原X₁，不搬到变化X_d；继续同CM点的实际低秩商与原p圆盘排点，不以非挠代候选排除。
+R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 
-[R1007](results/R1007-deck-compatible-CM-correspondence-height-valuation-obstruction.md)：原μ3相容对应的修改对角满足ND_Z(c0)=3D_Z(c0)、D_Z(y)=D_Z(c0)−2Z[y−c0]。同一真实整高度格及N/Z自伴、NG=0、ZG=λG、λ∈ℓZℓ下，指定高度必在ℓ²Zℓ；原纯CM对应不能满足新valuation-QC的赋值1条件，一致改基点或整splitting不解除。保η_h与清分母；底曲线块及其它全高度关系仍开。
+## O5：原固定 Y 的有效断点
 
-[R1008](results/R1008-wild-inertia-and-all-rational-correspondence-centralization.md)：原canonical level6p全H¹在三处野惯性平凡；原κ₄κ_d⁻¹扭曲将一个野惯性元素实现为δ，实际偶分支d∈Q₃ cubes。故整个End_Q(J_d)均中央化δ，包含非CM/旧形式/全部重数。R1007的三挠Picard投影及ℓ²高度整除因此适用于全部有理自对应，关闭原曲线上的新nondeck入口；保留底曲线η_h、其它完整高度及O0范围。
+R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-genus-four-Raynaud.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。
 
-R696已由同一个实际全局Φ的局部中心化子证明候选的λ₂=λ₃=0、Ω_actual={0}，原及实际偶分支均包括；R832已消费。此旧结论不计算一般Q₃点值域，不删η_h，后继不重复零靶论证。
+## O6：其它全局路线与永久边界
 
-R921/R924的实际整completed Hom、两节点极界、完整inertia和原a_h均已解决相应normal首层问题。中央p^−a_h G_h整restricted且最高项单位；几何开盘零数由最小单位下标决定，不是有理零数或height。
-
-R945两中央Q中心阶恰2，scalar/w在pR0有唯一根，可能仍为中心。替代227/h151与857/h445同h临界积非零已成。[R948](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)已由原共同phase和顶参考把二次根降到pZp；非中心 iff char0 M2非零，v(w*)=2+v(M2)−ν/2，ν在两例为0且v(M5)=−5。另一原坐标按R727完整tail准则只有中心零，故这两个有限p的原开盘全Abel**零**集恰中心；这不等于一般rational point排除。原候选可能有非零Mordell–Weil像，仍须真正global/height关系。
-
-R575关于正CM角色Ψθκ4、根号−1和中心值零的更正继续生效；相反twist的实际商/秩零断言已撤回。非挠、log、rank、深盘简单根、nonzero Abel坐标不能替代实际height。需要保原σ/cY、eη、d/N、完整nonp、Poincaré和splitting，而非只给模p单位。
-
-## O5：原固定Y计算的有效断点
-
-R805–930 的全部固定源、W/两图、146/418/273 jets、cY/127全纯、七trace、DK272、三十共轭/七连接/Artin迹、原锚/双7尺度及运行pins，保留在[本次逐字前态](open-archive-2026-11-27-before-whole-Cp-tubes.md)和沿链旧归档；只消费，不重算。
-
-R907原j1的四原artifact真实404，schema修复已成、producer_inputs_pending；不能用摘要重造数组。五目标128→672铅笔、E2176九NormΦ及两端格待原producer输入。旧pre-core/预算/143/404失败均非负数学结论。
-
-未付：real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、完整nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零才判活跃；YL1=0非rank0，UE=dY+2period，End⁰G=F且torus≥g+1，μ3qφ*=0不删Y。全部准确常数、断点和在途叶见逐字前态。
-
-## O6：其他全局路线与永久边界
-
-完整旧分支及准确常数保于[本次逐字前态](open-archive-2026-11-27-before-integral-Hecke-blocks.md)。R1004的CM交叉迹赋值/立方条件与q下界不付a/c上界；R236/238/249仍依M*=D(bc)²，不能把导子下界反用。原Frobenius目标仍是异常族中统一找到q<p²/4、ε(q)=−1且a_q≠0；固定有限窗口/依导子的密度不付该界。
-
-R707完整关闭主水平41的129盘/8CM，只消费，不外推一般p；R101/R109有限层和有gap的BBM范围不作全p输入。R4的通常Runge路线无尖点盈余。变化CM不能套固定A，自动Norm不添类群矛盾；普通43/Gaussian5旧例不是Serre反例。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp原尺度及Shapiro边界沿前态不变。
+完整旧分支见[逐字前态](open-archive-2026-11-28-before-genus-four-Raynaud.md)。R1004导子/交叉迹下界不付a/c上界，R236/238/249依赖M*=D(bc)²。原全局目标仍须统一q<p²/4、ε(q)=−1且a_q≠0；依导子密度或有限窗口不足。R707主41与R1125 full47已完成，只消费；R101/109有gap范围不外推全p，R4无Runge尖点盈余。变化CM不能套固定A、自动Norm不添类群矛盾。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp和Shapiro边界不变。
