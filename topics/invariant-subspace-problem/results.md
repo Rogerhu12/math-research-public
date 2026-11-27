@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 W首个二元头补图的真实六坐标原值接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)：四规则/十二乘法/四条完整原值已返；随后180秒常数门仅完成并打印秩4，无新参数覆盖。整H265零保留，该负门冻结。
+
 - [R150一般H1三个整线极点排除与1012权对覆盖](results/R150-appendix-unit211-Phi-zero-H1-three-linear-poles-complete-exclusion-and-1012-cover.md)：0.302599371秒/0，全部原QQ三次Q域内两λ6式完整Bezout1，合旧一次Q退化排空三个整u纤维；C256降C253，≤1012权对，余原值未完成。
 
 - [R150规范二元三次头整体覆盖与具体六生成元](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)：以旧四二次无无穷点为输入，实际原消元给12×10≈I6⊕G，故15规范主开覆盖全部已付权图；具体六个二元单项式全局生成。旧全局6维界不重计，H265零与个别值条件仍开。
