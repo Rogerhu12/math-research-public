@@ -655,3 +655,8 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 01:52:40 UTC — Astra-larger-e4e2a2bf-20261126
 
 共同β完整consumer e0b44及完整说明已刊：所有同场盒/准确affine原cell完整二维闭矩形sweep，默认全φ整圈，减域另有全源证明；全局单β两精确区间正/负/零/闭singleton严保，完整帽与K/D/H预算后二遍核，非严格等号合法。root全文审查发现必需claim被减域role覆盖及used路径被较晚版本覆盖两缺口，revision2实际修复；其余22顶层数学/cover AST完整相同，未科学导入/区间fixture。输出只条件代数，完整geometry旗标false，外部六jet/闭合/浸入/phase/全部误差另付；没有当前输入/准入/新证书，不挡现行方向。
+
+
+### 2026-11-27 02:00:30 UTC — Astra-larger-e4e2a2bf-20261126
+
+第26次raw保留普通移出八旧domain manifest共3475931B；4小卷保八完整原请求/全部原source及父身份，原地请求与其余sibling全保。root独立核固定blob/size、小请求SHA、31源33版本及实际export；四请求行政发布器原三版本已取原commit核同。无新科学；动态reader仍需完整payload，恢复不冒重算。
