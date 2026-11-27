@@ -259,3 +259,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [完整十权原排除](results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md)：883c真实0.694719790秒/41660KiB/0，十次常数域的原四二次头rank2；同两原线det零完整兼容gcd只余λ单位，开图同一T,z使原mean_R/W六次式的60维真实乘法矩阵可逆，全部嵌入排空。故全原Phi解集四个头非零图完整覆盖，第一头零仍整曲线；继续原F6/NV及个别N/P。新6cf只以真矩ψD=3B3²−2A2³整QQ因子检验全部原曲线纤维，并核原57阶QQ核的真实重数；未排纤维不用于删点。
 
 此前Haar/稀疏链全部已证交织接口保本次完整快照及H：固定G的proper U交织、全H稠密ℒ_e0、所有非零Ky像T循环、Ky像与RanJ零交、同源Abel平方费/log发散均已付。它们不付Cy⊥非零、G保N、W源费或N=M；这些真实接口继续，不重做已闭全族。
+
+## W 整个原 NV 的纯T5理想替换（8542，2026-11-28）
+
+[完整原恒等与实际返回](results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md)：da64真6.202216625秒/102740KiB/0，未约化C5+Phi·f·C4=mPhiQMell²Vlow全乘回，故(C4,Vlow)=(C4,C5)；T5头−4uQP02ell²(1−Q)已付。三新cofactorλ14/12/11的头仍未付。新1be只由已付原q5公式减(T+γ4)q4及一次μ3q3得到NV2≤T²，先完整恒等再因式分解真头，头零整面保留；不重跑旧N4/余子式门。
