@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：h=k原Delta及三均值完整QQ因式](results/R150-appendix-unit211-equal-singleton-Delta-and-three-original-mean-factors.md)：83ea实际2.327秒/exit0；Delta整四次、三必要core12/78/12，复用旧λ半物理排除，不由gcd1宣空。
+
 - [R150：J19已付后整W的A[y]三生成与原首一y六次](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)：2698实际17.044秒/exit0，六乘法/七原行/三cofactor全返；最小y6首项全部已付，其余头零全保。
 
 - [R150：Phi0真实1105余式的Gauss返回与68原基点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-residual-68-point-cover.md)：415b实际3.690秒/exit0，直接真余式xgcd68、首一QQ公共因子保度、逐纤维核重数；≤136含ell点，不是旧908/840形式相除。
