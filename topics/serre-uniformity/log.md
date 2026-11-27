@@ -13,3 +13,7 @@
 ### 2026-11-27 15:03 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 提交原Γ(1)首全局高度新请求：全奇好/2/坏47实际交数及正号Fermat商，五维Brandt标定E4/E16并独核q范数，不扫q²全部核。
 - 课题外新增.github/workflows/serre-full-p47-first-global-CM-height.yml，仅本课题；固定Sage10.6数学900秒/reserve30，零值合法。只存代码/参数/hash，真实回执待读，继续其它原障碍。
+
+### 2026-11-27 15:08 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1100消费run45955885738/job140362136569，4.3324823秒：原q⁻¹h(Bqu4,Bqu16)=818 mod4513，三类贡献4256/1323/4265，全部5134局部项完整。
+- root核source/request/receipt canonical hash，global全文纸核消费者；只保脚本/小结论/hash，不重跑。实际首height为unit，继续完整73块泛函及原八盘local项，主目标OPEN。

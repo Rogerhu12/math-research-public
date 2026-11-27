@@ -51,7 +51,7 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)、[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)、[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)已付全部odd-good/坏47/2交数：模2209两进程，坏47 I=529D_qH+23D_qb，2处Q8给S2/8并保half-lattice。以下开始实际数值。
 
-[首全局高度请求](notes/2026-11-27-full-p47-first-global-CM-height-method.md)：首次读取Γ(1)=q⁻¹h(Bqu4,Bqu16) mod4513，消费R1094/96–99全部理论；两2209进程、2处半格、47³水平及五维Brandt垂直项齐备。公开Actions900秒/reserve30，零值合法；尚无回执。
+[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)：run45955885738/job140362136569，4.332秒，原Γ(1)=818 mod4513；2/47/奇好贡献4256/1323/4265，含5134个真实局部项。故h(Bqu4,Bqu16)赋值1；完整73块单位仍待小奇Hecke基与后续高度。
 
 ## O1：全p同一真实本原标签的临界非零
 

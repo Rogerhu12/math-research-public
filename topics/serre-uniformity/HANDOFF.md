@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：dbe77f2af089da5afc91a0347331a02aa0b92bed**（2026-11-27 15:03 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：01b5ee9e561e65955ce89ec10ae01ee58990d8b6**（2026-11-27 15:08 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；14:53再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -36,13 +36,13 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md)：run45948995182/job140340211167，6.976秒；det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，故M=T·u16且奇Hecke整基覆盖全部T。D4与全部Hodd^jD16分盘，h_q∈q²；全高度首层由非q原level交数读取，实际值仍开。
 
-[R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)：原47奇好素交数化为两条模2209进程的正范数和，含ℓ|n及全二核/粗重数；n≤275奇部零。2与坏47继续。
+[R1097](results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md)：原47奇好素交数化为两条模2209进程的正范数和，含ℓ|n及全二核/粗重数；n≤275奇部零；2与坏47由R1098/99支付。
 
-[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)：原坏47全部CM目标未分歧且避cusp；真实coarse长度2(L−1)，完整admissible Hecke移槽给 I47=529D_qH+23D_qb，H只需47³倍数、b用五维Brandt。实际全局高度和2处继续。
+[R1098](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)：原坏47全部CM目标未分歧且避cusp；真实coarse长度2(L−1)，完整admissible Hecke移槽给 I47=529D_qH+23D_qb，H只需47³倍数、b用五维Brandt。全部local公式继续接真实global值。
 
-[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)：原2处marked Aut=Q8、effectiveV4；canonical两分支各重2与quasi v2=1/4给每matching核交数1，故G2=S2/8，含Gaussian/anti及半整数格。两稀疏r2和支付全部odd-index 2处交数；下一项是真实首global高度。
+[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)：原2处marked Aut=Q8、effectiveV4；canonical两分支各重2与quasi v2=1/4给每matching核交数1，故G2=S2/8，含Gaussian/anti及半整数格。两稀疏r2和支付全部odd-index 2处交数；首global值见R1100，完整格继续。
 
-[首全局高度请求](notes/2026-11-27-full-p47-first-global-CM-height-method.md)：首次读取Γ(1)=q⁻¹h(Bqu4,Bqu16) mod4513，消费R1094/96–99全部理论；两2209进程、2处半格、47³水平及五维Brandt垂直项齐备。公开Actions900秒/reserve30，零值合法；尚无回执。
+[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)：run45955885738/job140362136569，4.332秒，原Γ(1)=818 mod4513；2/47/奇好贡献4256/1323/4265，含5134个真实局部项。故h(Bqu4,Bqu16)赋值1；完整73块单位仍待小奇Hecke基与后续高度。
 
 ## O1：原同一保留标签
 

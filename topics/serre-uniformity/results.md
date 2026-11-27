@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- **R1100（已证明，精确计算）**：[R1100](results/R1100-certified-original-level47-first-global-CM-height.md)：run45955885738/job140362136569，4.332秒，原Γ(1)=818 mod4513；2/47/奇好贡献4256/1323/4265，含5134个真实局部项。故h(Bqu4,Bqu16)赋值1；完整73块单位仍待小奇Hecke基与后续高度。
+
 - **R1099（已证明）**：[R1099](results/R1099-original-level47-dyadic-CM-intersections.md)：原2处marked Aut=Q8、effectiveV4；canonical两分支各重2与quasi v2=1/4给每matching核交数1，故G2=S2/8，含Gaussian/anti及半整数格。两稀疏r2和支付全部odd-index 2处交数；下一项是真实首global高度。
 
 - **R1098（已证明）**：[原坏47完整交数](results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md)：原坏47全部CM目标未分歧且避cusp；真实coarse长度2(L−1)，完整admissible Hecke移槽给 I47=529D_qH+23D_qb，H只需47³倍数、b用五维Brandt。实际全局高度和2处继续。
