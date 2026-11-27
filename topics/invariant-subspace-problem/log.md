@@ -569,3 +569,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 新R271完整纸证：同一个Gλ作用全部物理指数尺度，E从全H平滑且H范数<1/4、同一U保每尺度；自然域真幂与同规范h对偶返回完整，未付核稠密/G保N/N=M。不设新执行门。
 - 新W/J19源267e17cb为整个首一e四次权代数的原六行/48×35输入，首次180秒4GiB；正规表示逆逐项回1，完整一元k异常集保留，不把范数当原单位。
 - 课题外仅新增invariant-subspace-w-j-nineteen-whole-quartic-8542.yml；H/open先完整归档后压缩已闭段，未闭接口保留。
+
+2026-11-27 19:36 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- J19整个首一e四次代数实际267e17cb/run45990662128/job140477369366，0.839051405秒/39988KiB/exit0；六原Gram/48×35、10逆全返，全部k范数/分母零合C15，未排空。
+- 由原binary determinant精确给(1−2ell)Z=ellT0²，付整个J19上的真逆，含有限范数零纤维；proof/小回执逐项入库，无重复审计门。
+- 新f43664bf只续同输入六生成/18真乘法/NSPS真点行/原单位组合，180秒4GiB；新增本题workflow。公私实际pull、README差异/QUEUE由publisher核验。
