@@ -649,6 +649,204 @@ $$
 平移修正。全文没有数学执行或新扫描。
 
 
+## 9. 保留移位 Miller 项的完整三平移公式
+
+本节沿用 $S f(T)=(V(T)+v)^{2k}f(T+Q)$、$Q=(0,v)$，
+以及 §8 的 $G_P=\mathscr FJ_P$。本节给出实际
+$\mathscr F S\mathscr F$，包括不能删去的移位 Miller 项；
+不假定 $S$ 与 $\mathscr T_F$ 交换。
+
+### 9.1 原 $S\Psi$ 的变换现在有确切来源
+
+在 $O$ 的原 frame 中，$S\Psi$ 的最高项是
+$\delta u^{-p}$，没有 $u^{-p-1}$ 项。因此
+$g=S\Psi-\delta\Psi\in V_0$。由 (1095.35) 的第一阶核和
+(1095.30)，可以对参数 $P$ 在 $-Q$ 微分：
+$$
+\begin{aligned}
+\mathscr F(S\Psi)(T)
+ &=D_P G_P(T)\big|_{P=-Q},\\
+D_Pm(T,P)\big|_{P=-Q}
+ &=-\frac{2v(V(T)+v)}{U(T)^2}.
+\end{aligned}
+$$
+因为 $D_P\Psi=\delta$，得到完整式
+$$
+\boxed{
+\mathscr T_F(g)=\mathscr F(S\Psi)
+ =\frac{(V+v)(2v\Psi-\delta U)}{U^2}.
+}
+\tag{1095.36}
+$$
+这不是由角色或未登记的旧 $g$ 候选猜出的变换。
+
+两处 $U=0$ 的表面极都可直接消去。写
+$\Psi=VU\,s(U)$，其中 $s(U)$ 只含 $U^3$ 的幂，
+且 $s(0)=\delta/(2v^2)$。右边准确等于
+$$
+2vU^2s(U)+2v^2(V+v)\frac{s(U)-s(0)}U.
+$$
+后一分子被 $U^3$ 整除。由于 $\deg_U s=m-2$，
+整式在 $O$ 的极阶至多 $p-1$，确属原 $V_0$。
+
+### 9.2 完整三平移所需的三个实际极点
+
+以下先取一般位置的 $P,R$，最后按有理函数恒等式延拓。
+为避免将点名与算子混淆，设
+$$
+\begin{gathered}
+A=-P-Q,\qquad R_-=R-Q,\qquad
+a=\frac{V(R)+v}{U(R)},\qquad
+b=\frac{V(P)-v}{U(P)},\qquad d=\Psi(P),\\
+m_0(T)=(V(T)+v)^{2k},\\
+r_0=-U(A)+b\Psi(R),\qquad
+r_A=m_0(A)K(A,R).
+\end{gathered}
+\tag{1095.37}
+$$
+记原完整相对 Cartier 输出
+$$
+W(Z,R)=
+\frac{
+ C_{{\rm rel},T}
+ \bigl(m_0(T)h_{-P}(T+Q)K(T,R)\omega_T\bigr)}
+ {\omega_Z}.
+$$
+源只须保留以下三个极点：
+
+- $T=A$ 是简单极，留数准确为 $r_A$；
+- $T=F^{-1}R$ 至多为 $p$ 阶极；
+- $T=O$ 至多为二阶极，留数准确为 $r_0$。
+
+最后一条由原 frame 直接给出：
+$$
+\begin{aligned}
+h_{-P}(T+Q)&=b-U(A)u_T+O(u_T^2),\\
+m_0(T)K(T,R)\omega_T
+ &=u_T^{-2}\{1+\Psi(R)u_T+O(u_T^2)\}\,du_T.
+\end{aligned}
+$$
+相对 Cartier 后仅有 $Z=FA,R,O$ 三个简单极。
+留数和为零，因此必有
+$$
+W=w_0-r_0h_R(Z)+r_A\{h_{FA}(Z)-h_R(Z)\},
+\tag{1095.38}
+$$
+其中 $w_0=\operatorname{Reg}_{Z=O}W$。
+
+这里的全纯常数不能省去，也不以同除子为由另选。
+在 $T=-Q$，$m_0$ 的零阶是 $p+1$，
+$h_{-P}(T+Q)$ 至多有一个简单极，$K$ 在一般位置正则。
+故整个源的零阶至少 $p$；相对 Cartier 输出在
+$Z=F(-Q)=Q$ 确实消失。又
+$$
+h_R(Q)=-a,\qquad h_{FA}(Q)=-b^p.
+$$
+后一式来自原弦线 $V(A)=bU(A)+v$ 及 $v^p=-v$。
+把 $Z=Q$ 代入 (1095.38)，严格固定
+$$
+\boxed{w_0=-ar_0+(b^p-a)r_A.}
+\tag{1095.39}
+$$
+因此这里已支付整个源的常数，而不只是极部。
+
+### 9.3 真实 $\mathscr F S\mathscr F$ 核
+
+原弦线加法和原 Deuring 加法分别给
+$$
+\begin{aligned}
+h_{-P}(T+Q)
+ &=h_{-(P+Q)}(T)-h_{-Q}(T)+b,\\
+\Psi(T+Q)&=\Psi(T)+h_{-Q}(T)^p.
+\end{aligned}
+$$
+于是由 $G_P(T)=-h_{-P}(T)(\Psi(T)+d)$，
+保留相对 Cartier 的整个目标变量 $Z$，得到
+$$
+\frac{C_{{\rm rel},T}((SG_P)(T)K(T,R)\omega_T)}
+ {\omega_Z}
+=-(D_R+d+h_Z(R)+h_Q(Z))W(Z,R).
+\tag{1095.40}
+$$
+此处 $h_{-Q}(T)^p$ 的目标函数准确是 $h_Q(Z)$；
+这是 $F(-Q)=Q$ 的实际 Frobenius 扭曲，base 常数未取 $p$ 次根。
+
+在 $Z=O$，原两项的极恰相消：
+$$
+h_Z(R)+h_Q(Z)=U(R)u_Z+O(u_Z^2),\qquad
+W=r_0u_Z^{-1}+w_0+O(u_Z).
+$$
+所以 (1095.19) 给出的正规常数是
+$$
+(\mathscr F S\mathscr FJ_P)(R)
+=-(D_R+d)w_0-U(R)r_0.
+\tag{1095.41}
+$$
+特别是 $U(R)r_0$ 这一项不能因两条 $h$ 的常数都为零而删除。
+
+最后只需原加法公式作确切代数化简：
+$$
+\begin{aligned}
+D_Ra&=U(R)-U(R_-),\\
+D_Rr_0&=b\delta,\\
+D_R\log r_A&=-d-b^p-h_{FA}(R),\\
+(a-b^p)h_{FA}(R)
+ &=U(R)+U(A)^p-ab^p,\\
+U(A)&=b^2-U(P).
+\end{aligned}
+$$
+将 (1095.39) 代入 (1095.41)，得到完整三平移核
+$$
+\boxed{
+\begin{aligned}
+(\mathscr F S\mathscr FJ_P)(R)
+={}&\bigl(d\,a-U(R_-)\bigr)
+       \bigl(-U(A)+b\Psi(R)\bigr)+ab\delta\\
+ &+\bigl(U(P)^p-U(R_-)\bigr)
+       m_0(A)K(A,R).
+\end{aligned}
+}
+\tag{1095.42}
+$$
+末行是实际移位 Miller 项，仍保留它的全部零点和极点。
+它不是可不经证明删掉的有限秩误差。
+右边各项在某些点有表面极；其总和由左边的
+$\mathscr F S\mathscr FJ_P\in H$ 延拓为正则截面。
+碰撞、切线和竖线情形一律在完成恒等式后取极限，
+没有将单独的 $0\cdot\infty$ 项先置零。
+
+### 9.4 一个保留原标架的切线特化
+
+在 $P=Q$ 的切线极限，$b=d=U(P)=U(A)=0$，
+$A=Q$，而 $m_0(Q)=(2v)^{2k}=\gamma$。
+另由原加法和原 $J(Q,R)$，
+$$
+U(R-Q)=\frac{2vU(R)}{V(R)-v},\qquad
+K(Q,R)=-\frac{(V(R)-v)^{2k}}{U(R)}.
+$$
+故 (1095.42) 给出
+$$
+\boxed{
+\mathscr F S\mathscr F J_Q
+=2v\gamma(V-v)^{2k-1}.
+}
+\tag{1095.43}
+$$
+这支付了该特化的全部 theta multiplier 和常数，
+没有用一般三平移范数来代替单个变换。
+
+(1095.36)–(1095.43) 给出了真正可用于原三分布的源；
+(1095.35) 的两条指定配对仍是
+$e$ 与 $ve+\delta^2K_4/6$。本节没有由
+$g$、$J_Q$ 或另一输入的非零，推出原 $e,K_4$ 非同时零。
+
+本节 o1_theta 从 §8 完整核微分及三极相对 Cartier 推导；
+o2_high_coefficient 独立核准原 $g$ 的多项式消极、
+三个实际留数、$T=-Q$ 的零阶、$W(Q)=0$ 所固定的常数、
+正规项 $-U(R)r_0$ 以及最后弦线化简。
+全文没有数学程序执行或新扫描。
+
+
 ## 原来源与核对
 
 - R1061 (1061.57)–(1061.59)：原全部 graph、Miller 首项与实际相对变换的可逆性。

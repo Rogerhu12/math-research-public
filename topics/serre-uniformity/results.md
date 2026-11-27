@@ -30,7 +30,7 @@
 
 - **R1096（已证明，精确计算）**：[R1096](results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md)：run45948995182/job140340211167，6.976秒；det(T2−1)=3715、detT3=3071，Hodd=T3+T5判别式2650，M=T·u16；§8以Sturm2256证明可选n≤2255且47∤n的73个奇Hecke整基。D4与全部Hodd^jD16分盘，h_q∈q²；全高度首层由非q原level交数读取，实际值仍开。
 
-- **R1095（已证明）**：[R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay/chord全Cartier核、两个divided-polynomial及e/K4真实三平移两列；指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
+- **R1095（已证明）**：[R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
 
 - [R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。（2026-11-27）
 
