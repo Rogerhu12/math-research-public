@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-entire-equal-singleton-Delta-zero-848-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-global-monic-T3-F2-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -225,3 +225,5 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **[全原N1首一二次与Phi零真12生成元环境](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)。** f仍自由时[z²]N1*=−4bc²ellQ(u−1)，仅原权单位；Pj仿射不改头。Phi0先解P1的f(T)而保z，原N1真monic z2与monic T6给自由12环境（原最终商不假自由）；NV保NF4 f+NC4+2bcSnZz，不倒几何量/范数。新928只返四原行12坐标及小二次头，不设旧失败/12阶大cofactor门。
 
 **[整个h=k、Delta零的848不同基点界](results/R150-appendix-unit211-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover.md)。** a0e1固定原Q次数2/2及2/9全QQ返回，去已付Q无关单位后P(λ,u)28/3、M124/17真互素；固定u3/17的20阶上界848和同点核列计数保所有Q/u头零。真1.413秒/75212KiB/exit0；仅(λ,u)基点有限，Q和原Gram未排空。新cf0真QQ消u并以独立N1投影接一元Gauss，不将多变量gcd当判空。
+
+**[全余W的原首一T3/F2六列环境](results/R150-appendix-unit211-W-global-monic-T-three-F-two-and-six-column-environment.md)。** theta=8M²uQ(3−2lambda)ell³d(2uQ−J)全原已付，BigInt实际53ms核完整原组合；(q4,R4)=(q3,r2)准确等价，r2二次头保零。自由仅指首一塔，不传原最终商或D局部化。新394首返13原行/12乘法，保个别两谱D²N/D³P及完整N4(DV)，不逆D/范数，不重放旧8列门。
