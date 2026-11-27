@@ -6,8 +6,8 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `919747245e95d02bd1ea03cdcc2387558a2bb01e`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
-- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；05:25UTC API逐文件核至f52bf734653dce353e97e7b53d95a765280e6abf，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
+- 公开根/课题 README 已读至 `612d82679c59a11778e4218e36c23b348609a52f`（2026-11-27 06:01UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；05:57UTC实际pull至98dc41b3886e454c03b537ec21529497936ad0e6，两README差异空、QUEUE仍本会话进行中。令牌只命令行/进程认证，不落文件。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-fixed-charge-three-cover.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
@@ -55,7 +55,7 @@ R1027全q≥5的统一6Q(O_B)=0已付：同一图push纯实现δ、实际∞同�
 
 R1029原2挠谱盖C亏格2、到B的真实3/2度映射及JacC→B²度3齐；两个完整Norm核2类和惰性q规范gq已付。完整S3谱盖D:4H³=A⁶−1、全部2挠根、原三次deck和两坏分歧齐，四CM角色给JacD真Frob²=[−q]（q≥5惰性）。继续原twist −3的2-descent覆盖/实际Q与27对；不由Jac分裂代S Chow或AJ。
 
-02:51UTC执行环境失联，本地R1017稿25f3ec26d未推；已由云端非强制快进提交2af1bac937f2b5ddcb0762dd7b2b34860854647b替代。恢复后立即实际pull --rebase，保已发布远端证明，不重复未推本地稿；05:46UTC再次最小只读探测明确仍无可用执行环境，API读不冒充实际pull；恢复即补实际同步。数学仅公开Actions，唯一v9继续。
+02:51–05:55UTC执行环境失联期间采用非强制API快进且逐次核README；05:57已补两仓实际pull。未推本地25f3ec26d的R1017证明/归档与远端对应blob逐字相同，已留本地恢复分支后rebase --skip，保远端全部较新H/log。后续恢复实际git推送；数学仍只公开Actions。
 
 ## 四、其它原门及执行分工
 
