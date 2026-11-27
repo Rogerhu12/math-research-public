@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-directional-intertwiners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-thirty-two-norm-units-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -29,11 +29,11 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
 
 
-[整个rankH=rankV=2层的本质维数界](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)已完整升级为essT3≤4：最后Gaussian例外把C=−A,D=−B代回两个分别的原H值方程即得17F³0矛盾。全部约化/二jet/∞均已支付，不再研究旧有限Gram的物理曲面门；无需新计算。结合rankH≤1，rankV2的潜在ess5/6必须rankH≥3；当前接rankH3的ess6满支撑反设，ess4仍独立开放。
+[rankH=rankV=2整层已付essT3≤4](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)，全部约化/jet/∞与原Gaussian末例外保完整快照。故潜在rankV2、ess5/6必须rankH≥3；继续rankH3ess6及独立ess4，不重做旧物理曲面门。
 
 ### 1.2 原权十一及更高幂
 
-原权7–11均已完成，勿重算：Γ11=36782、原μ11核8912全Koszul，四个q_jb³商类线性独立；权十Γ10=13697及δ14b²非成员已付。[完整权十一结果](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)保原run、子式和整数来源。下一为b⁴（权12）、δ14b³（权13）、q_jb⁴（权14）及b⁵（权15）；Γ上界90012/203542/430212/857074，尚未执行这些门。权12起保第三Koszul边界，不把形式关系全当独立；完整Bell平方非成员不排更高幂或根理想。旧全部参数见[本次完整快照](notes/2026-11-26-open-before-two-linear-original-ideal-347c.md)。
+原权7–11已付，[权十一结果](results/R150-appendix-complete-weight-eleven-rank-four-quadratic-bell-cube-obstructions-and-weight-fifteen-ceiling.md)保Γ11=36782/μ核8912/四独立商类及全部准确来源。下一b⁴、δ14b³、q_jb⁴、b⁵分别权12–15，Γ上界90012/203542/430212/857074，尚未执行；须保第三Koszul边界。平方非成员不排高幂/根理想，旧完整数值保本次快照，不重算7–11。
 
 ### 1.3 原来源与算子桥
 
@@ -43,15 +43,15 @@ rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单
 
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
 
-**原U值图L0 整支已闭：** [完整3352次覆盖、九因子1535次QQ整除及1817余项原Gauss排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)已合全部退化面。九因子QQ整除、完整S8/S5模Bézout及所有准确源/成功回执见正文；两整合signal9仍记失败，不作为排空门槛。旧投影/门/PRS全部冻结，不再重做L0，继续一般LS及其它open接口。
+**[原L0完整3352覆盖与九因子整返回已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)。** QQ1535+余1817、全部退化面/准确源/回执/两signal9失败保总定理及快照；旧门冻结，续一般LS，不重放。
 
 **S0/Lt0整支已闭，一般LS继续：** 615次QQ覆盖合全部退化面；原P1双零、Delta0/W对ell首项零及W整k=−1全闭，分别付(Pf,Pt)非同时零、Delta0的Phi、W的u(Q+2)−2及k+1。四值式等价首一二次/三一次，六参数式只投影、四Gram子式仅必要。[W整H0原排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)支付H；完整来源与旧失败保快照。
 
-[H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
+[H非零原全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)及[整u=Q返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已付H/u−Q；旧180秒cofactor、76.992秒trace、F3/F95冻结，精确来源保快照。现只续当前D27/B239原有限返回。
 
 **[整个Q=1−u边界已闭](results/R150-appendix-unit211-Q1minusU-complete-original-exclusion.md)，一般LS全局可付u+Q−1。** 三新QQ局部重数244/3/3、1129首一余式和严格Gauss全原返回；源/回执/全部零域及冻结旧门保正文与本页快照，不重开整Q。
 
-**[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
+**[旧D≠0原值图的等权b=c已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 原824次覆盖、F236/F243及末m半QQ Bézout1完整保存，可在该原域付ell−u，W另付k+2/Q−2。旧600秒门冻结；不外推h=k(D0)，该碰撞等权另从其原八式返回。
 
 **2+1型H、Hp0只余全有限四源非退化ess6：** 全无穷远已闭；同Π原C/G一次和N二阶d5/8已付，四个900秒门冻结。全部原公式、四源边界、来源/回执保本次完整快照及结果索引。继续真实非退化层、原幂来源及算子桥，不重做已闭面。
 
@@ -186,7 +186,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
-**[Phi0/h1严格≤68原基点/136三元组](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-residual-68-point-cover.md)保留；[H4/H20整复纤维新闭及QQ精确36次因子](results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md)已付。** cce2 run46001850994/job140515236745真3.620秒/52624KiB/exit0；两个常数整商中只剥原rho²/rho+1，完整固定23/25阶投影与首一H4/H20返模Bézout1，Gauss排所有复根/全部rho/ell纤维。既有QQ系数身份配整数对偶逐项付H4⁴H20|R，无新局部复现门；与Q840合成真首一1069次余覆。不能从形式模相除直接宣32点；新f66（21849B）首作真1069余式/P/PB完整xgcd，再作原ell/u/u−ell/b单位面的二次rho像与四原core无除法伪余式，保全部首项零纤维；模支持仅选下一输入，120秒1GiB待实际。k1只交换，整个Phi0仍开。
+**[Phi0/h1真首一1069余式给≤32基点/64三元组及四norm单位](results/R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md)新已付。** f66真5.043秒/71108KiB/exit0，真实R1069/P/PB完整xgcd返32，保逐纤维Vandermonde重数；[H4/H20全复纤维及QQ36次因子](results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md)仍保。四原norm零面无除法QQ覆盖配新g32/Z32完整Bézout1，现合法付Nm(ell),Nm(u),Nm(u−ell),Nm(b)，不泛化任意范数。新971b首接Nm(T0)的真实rho三次像与四原core，余二次/≤5阶QQ Bareiss保头零；必要时再接u+Q−1四次像，120秒1GiB。k1只交换，全Phi0未闭。
 
 **[同一全尺度右逆](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)、[平滑修正/实际cut通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)及[方向交织/迹类解](results/R271-appendix-actual-directional-intertwiner-exclusion-and-trace-class-rosenblum-solutions.md)保留；[真闭proper单链U与共同迹类像](results/R271-appendix-proper-single-chain-restriction-and-common-trace-class-intertwiner-range.md)新已付。** e0在实际Gλ*域使规范G只减有界秩一，闭包真闭值域交M为0；故U=closure span Gⁿe0有U∩M=Ce0、kerT_U^r恰前r链且并稠密。任意非零y的closure RanL_y=U、kerL_y=cyclic_S(y)⊥；L_e0:H→U单射稠密迹类，反向XT_U=BX只能0。实际w∈W仅给H/N→U稠密迹类商映射及L_w|M=e0⊗w，未付其单射、BU⊂U/正角、G保N、Gamma/Sr或W0。旧RTcut范数发散/有锚实际通量与两范围核心继续。
 

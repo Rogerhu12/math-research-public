@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** afa5e0c81f5702e4007238ce45b3b0c54f98e0a2（2026-11-27 13:06:05 UTC，Actions run46004154768实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46004154768-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:06:05 UTC/549c5ba873313a03ad40d6b75e8722ad97365a18，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** f6543168261113fc90fa3c5a9321d063ef69579c（2026-11-27 13:12:00 UTC，Actions run46005006984实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46005006984-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:11:59 UTC/c0e52948e63e35a490e14e889065b95981012395，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `afa5e0c81f5702e4007238ce45b3b0c54f98e0a2`（2026-11-27 13:05:43 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `f6543168261113fc90fa3c5a9321d063ef69579c`（2026-11-27 13:11:40 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-D27-finite-cover-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **Delta0 h1/k1≤6219基点保留；h=k(D0)八原权不变量已返。** d718真5.007秒/67312KiB/exit0，同lambda/u/Q与rho²=1−Q保八配对，E1/Lmean50/12/6、N1 53/13/6，不倒T0/Pf/S/D。新ba8a2306首接此图b=c、Delta非0原面，180秒4GiB；Delta0首一b4/不等权仍开。旧S0λ半物理排除不重做。
-- **Phi0/h1≤68基点；H4/H20全原复纤维新闭。** cce2真3.620秒/52624KiB/exit0，完整23/25阶投影与首一H4/H20模Bézout1付QQ原单位；只剥已付rho²/rho+1。已实QQ系数身份合整数对偶严付H4⁴H20|R，合840得首一1069余覆。新f66真1069余式/单位面精确像120秒1GiB待返回；k1交换及全Phi0未闭。
+- **Phi0/h1≤32基点/64三元组及四norm单位新已付。** f66真5.043秒/71108KiB/exit0，真R1069/P/PB全xgcd32；H4/H20整支和QQ36次整除保留。四norm零面的QQ像覆盖合g32/Z32模Bézout1，合法付Nm(ell/u/u−ell/b)。新971b实际T0三次norm像/小QQ结式120秒1GiB待返；k1交换、全Phi0仍开。
 
 ### rankH3原ess6
 
