@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-H1-b-zero-316-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-G36-global-F-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -195,9 +195,9 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [完整NV纯T5](results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md)给未约化C5+Phi·f·C4=mPhiQMell²Vlow，故(C4,Vlow)=(C4,C5)，T5头已付。[直接二次](results/R150-appendix-unit211-W-entire-NV-direct-T-quadratic-and-complete-leading.md)保q5=(T+γ4)q4+μ3q3+NV2，H411度9/11/4未付。
 
-[同S一次与权F恢复](results/R150-appendix-unit211-W-two-value-quadratics-affine-and-weight-six-F-recovery.md)保L1度18/22/8未付；原三Bi的det=已付单位×G36(e,k)，仅G36非零图F可唯一恢复。H411、L1和所有λ头零面仍保原式，不倒A143/Bi/D范数。
+**[整个G36原曲线已闭、共同F恢复全域成立](results/R150-appendix-unit211-W-G36-entire-original-exclusion-and-global-F-recovery.md)。** 完整1198=(k+1)(k+2)(k+4)L61H1134的全部原纤维已付；三原F一次行共同det=已付×G36，故同一F=Fp(S)、degS≤2，在当前W原图全域唯一。保qF(Fp)及全部原条件后才可用首一S³三列环境；不倒Bi/H411/L1/A143/D，不把三列环境当仅权参数三点数界。
 
-[G36完整1198覆盖](results/R150-appendix-unit211-W-G36-original-unit-and-complete-1198-weight-cover.md)及[整个高1134排除](results/R150-appendix-unit211-W-G36-entire-high1134-original-finite-free-exclusion.md)保持：7a602真85.534334059秒/124504KiB/0，新31原108×56整域返回合旧成功块/新坏点，经p整有限自由6804维与两次Nakayama覆盖43因子及所有重数。adfc原SIGSEGV准确冻结；全部细节/参数保正文与完整open归档，不重放。
+G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-finite-free-exclusion.md)、[前七low32](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)和[末low29](results/R150-appendix-unit211-W-G36-last-low29-complete-original-exclusion.md)各自的原常数1、重复k/q幂零、有限自由提升及准确失败状态保持，不增复算门；细节保完整正文/快照。
 
 ## Phi：四头覆盖、首头原 D 与例外原纤维（8542，2026-11-28）
 
@@ -227,7 +227,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 
 
-[最后两个低参数原纤维全闭](results/R150-appendix-unit211-W-G36-last-low29-complete-original-exclusion.md)：b88ab真19.783737046秒/51300KiB/0，k14只读已存q5，k15新QQ gcd分原M恒零q1/整q5；两个p整首一模型秩70/75，首素数1009的12整q5块均108×56 rank56及原1全列乘回，24子进程全0。有限自由Nakayama闭整个QQ末low29，未挑根/删幂零，不用D逆。前七low32和高1134既闭，所有旧失败原状保留；共同F恢复与剩W原式继续。
+**W的新完整三列输入首次：** 8430b仅恢复冻结原构造，先三F行共同余子式真实返F−Fp，再完整保qF(Fp)、六Gram、r2/R6、原D线性个别N/P与完整NV，共12行及原乘子身份。两新固定3×3常数cofactor分别加入NS/完整NV，所有lambda头零保留，180秒/4GiB；未宣整个W排空。
 
 
 
