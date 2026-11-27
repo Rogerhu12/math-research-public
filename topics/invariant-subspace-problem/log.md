@@ -536,3 +536,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 18:59 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 一般Delta≠0原值全返：source6a0362da/run45985977120内层exit0，72.253秒/460740KiB；八条mean/N1/个别NP全部T≤5，原矩/两线/两谱保持。
 - 3613次六维乘法完整原身份，D/E分列、无Phi或范数逆；大多项式只保SHA，不重复展开审计。当前图未排空，接原两点值/权重小输入。
+
+2026-11-27 19:03 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 整Phi0新同源完整值输入实际69.227秒/180608KiB/exit0，run45985974447/source1218c370；八原式及两谱全返T≤5，3646次完整约化；源/小回执立即登记。
+- W新d5eab088取五无s+五含s原行的四固定cofactor，首次180秒/4GiB；不重放已成功43秒大矩阵，所有旧首项零/物理条件保留。
+- 课题外仅新增invariant-subspace-w-five-plus-five-original-cofactors-8542.yml；发布器实际pull、检查两README、核私库QUEUE并推送。
