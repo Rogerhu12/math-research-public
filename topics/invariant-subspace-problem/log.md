@@ -332,3 +332,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 唯一实际run45964240198，106.567731526秒/66616KiB/exit0，源30e48b9c；保全checkpoint与小执行回执，旧QQ超时不改写成功。
 - 新Q原D闭合源aa7fafff单次120秒/1GiB；只取最终原恒等式分母，不删除中间Gaussian主元零面。
 - 前条W定理已真推23b086ab；dispatch因workflow名含大写未执行。本条按既有小写约束更名后单次执行新S源，未改变权限/重跑旧源；课题外workflow均记于此。
+
+2026-11-27 16:41 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 27互补原投影唯一实际run45964242648，85.368915768秒/76448KiB/exit0，源dd113962；完整模gcd依次1382→648→646→224→222。
+- 由首一Gauss付QQ共同因子度≤222；对同h的r个不同u，固定原Sylvester有r个独立Vandermonde右核列，行列式阶≥r，故全部不同原权点≤222。
+- 保留所有首项零/常值退化纤维，未给自由模/QQ gcd精确222/模D提升或整图排空断言；继续已派新原D关系输入。

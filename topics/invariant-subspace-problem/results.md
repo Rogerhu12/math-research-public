@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Q=1−u 余下不同复权点至多222个](results/R150-appendix-unit211-Q1minusU-original-cofactors-222-degree-h-cover.md)：27真实原cofactor的模gcd、已付局部整首一性及固定Sylvester/Vandermonde秩亏共同给出特征零权点总数界；未排空各原纤维。
+
 - [Q=1−u 完整投影的精确2265次与三处重数](results/R150-appendix-unit211-Q1minusU-exact-2265-projection-and-three-multiplicities.md)：严格Hadamard/Cauchy整数界及233个不同已证素数付全特征零次数/重数，余1382次局部整首一投影；仍未排空边界。
 
 - [W 全三次头覆盖与整图六生成元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-cubic-cover-and-global-six-generators.md)：实际6×4十五子式与初等对偶三次证明给全图主开覆盖、左逆存在及原商六生成/纤维长度≤6；保留所有有限原值返回，未判空。
