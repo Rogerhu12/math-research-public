@@ -31,11 +31,13 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘标签完整有限式保原ψ_c/Weil/circular规范及两twists。§§11–15付first-lift模p²/log至N+1、source λ=−1、Miller真实γ、跨SS全局相位和无reversion residue；degree≤min(R,p−R)，forced≤2j+1，顶项Cartier降至A4/A6。good唯一global；新p47全盘CI待回执，aux同点排除仍开。
+[R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
+
+[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘完整有限式保ψ_c/Weil/circular/两twists；first-lift模p²/log、λ=−1、真实Miller γ、跨SS相位和residue算法已付。degree≤min(R,p−R)，forced≤2j+1，顶项Cartier降至A4/A6。aux共同像仍开。
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签含全部相位/实下降/cusp规范。§§9–10原unit格排两边界角色，同一primitive c对完整V可逆；精确可见 iff ord_pℓ奇且非p3mod4的(p−1)/2。safe prime仅ℓ1modp可见。低次平滑κ零确pth；同y/embedding/全局候选共同像排除仍开。
 
-[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全部p>37上，原Bernoulli单位角色χ=ω^r无regular/Vandiver假设地给p-only global→local同构。Herbrand及准确ωχ⁻¹ Kummer方向杀对应real类群；奇字符正交/相对类数给good forced维数≥⌊p/4⌋−1−⌊log_p(2p((p−1)(p−2)/(24p))^((p−1)/4))⌋，故Ω(p/logp)。该真实子覆盖每原p-disk仅一global候选，总数≤p·n_Qp(p)；其余坏角色类群及同标签辅助排除仍开。
+[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p原Bernoulli-good角色p-only global→local同构，无regular/Vandiver假设；Herbrand与准确Kummer方向、类数/正交给good forced维数Ω(p/logp)，每原p盘唯一global候选。精确下界保结果；坏角色类群及aux同点排除仍开。
 
 [R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3五/八模型、twisted Burnside与精确点数已付，cusps无点。§7全部非零迹输入准确为五个固定Q-CM点的约化及原标签；保potential-good和twist重合，迹零反射点/同标签排除仍开。
 

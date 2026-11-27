@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：3e014e8693bbabf960f647212b40d9d353fa0b25**（2026-11-27 10:00 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：647932772befccec6f0dadf85017b4e8e5d21aad**（2026-11-27 10:08 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；09:37再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-short-sixth-obstruction.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-p47-cuspidal-result.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 最新全局实际来源
 
@@ -30,13 +30,15 @@ R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新�
 
 ## O0：不能省略的全局覆盖
 
-[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘标签由原ψ_c有限式给出。§§11–15已付first-lift模p²/log、λ=−1、真实Miller γ与global相位；degree≤min(R,p−R)，forced≤2j+1。good角色唯一global；新p47全盘CI待回执，aux共同像排除仍开。
+[R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10个实际角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
+
+[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V原p盘有限式、first-lift模p²/log、真实Miller γ/全局相位及两twists已付；degree≤min(R,p−R)，forced≤2j+1。aux共同像仍开。
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签全部相位/cusp规范齐备；§§9–10扩至完整实际V，同一primitive c可逆，两个边界角色实际缺席。全V辅助可见性精确已付，仍须同点共同像排除。
 
 [R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p原Bernoulli单位角色有唯一global提升，无regular/Vandiver假设；类数/正交给实际good子模块维数Ω(p/logp)，每盘一候选。坏角色类群及辅助排除仍开。
 
-[R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3五/八模型、twisted Burnside与精确点数已付，cusps无点。§7全部非零迹输入准确为五个固定Q-CM点的约化及原标签；保potential-good和twist重合，迹零反射点/同标签排除仍开。
+[R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3模型、twisted Burnside及点数齐备；全部非零迹输入为五个Q-CM点约化。保potential-good/twist重合，迹零反射点继续。
 
 [R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原全标签仅p支撑，允许非整j；wild coarse及全部ℓ≠p好模型已付。regular全V唯一global，后继R1069无条件good角色唯一。
 
@@ -86,4 +88,4 @@ R696早已证明同一全局Φ候选Ω_actual={0}，R832已消费；不重做、
 
 [R1054](results/R1054-original-lowest-CM-column-kernel-candidate-counterexample.md)：p47 K15=23排最低列恒在Q核候选，不代指定值。
 
-[R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：run45880257064/job140117536918、源9543f2ef，原p47完整DQv最低C=15三读一致、Bcv0、首w¹。§5已核全MW范围，原X₁该c₁正赋值深盘唯一有理点为c₁；不推其它盘/全p/O0。
+[R1057](results/R1057-certified-original-p47-actual-lowest-functional.md)：原p47 DQv最低C=15，指定X₁ c₁正赋值深盘仅c₁；run/job/hash及全MW边界保结果，不推其它盘。

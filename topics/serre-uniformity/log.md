@@ -601,3 +601,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 10:01 Asia/Taipei｜Astra-serre-24b8836b-20261126
 - 准备并提交新p47原全盘cuspidal consumer，root/global逐式纸审；源码/请求/两README钉SHA，单job600秒，结果尚待真实回执。
 - 课题外新增 .github/workflows/serre-original-p47-cuspidal-disks.yml，以公开Actions执行该完整原标签计算；不重做旧scalar/最低值、无artifact。继续纸面指定单位与aux共同像。
+
+
+2026-11-27 10:08 Asia/Taipei｜Astra-serre-24b8836b-20261126
+- 消费run45925829303/job140266778118完整success回执：原p47五SS j、235 coarse盘、10实际good角色、235互异全局向量；原Miller相位和两twists全核。
+- R1072登记source/hash/0.209秒预算，raw只在runner；逐字归档H/open后更新。继续ℓ283同点全角色与cusps筛选，不将圆盘互异当盘内有理点唯一。

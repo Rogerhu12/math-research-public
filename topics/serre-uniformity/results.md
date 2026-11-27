@@ -293,3 +293,6 @@
 - **R1001（真实norm7 dual-Poincaré产品与原filtered tensor）**：[完整线丛map、有限卷积与首边界](results/R1001-norm-seven-dual-Poincare-source-and-original-filtered-tensor.md)。M†M8I及两cross/semicharacter精确取消到L6×L6轴pole≤2；Π4×Π0完整四维源减V⊗Wbar后，x^−1∇给−6AαF⊗G，Aα=4(5+6s)/7、Norm16·19/7全原p单位。完整Laurent卷积保r=i+1双pole端点、三角导数与原mask；critical每项整，整个首p投影唯一p residue为−6Bz^(p−1)Wbar。单balanced与全乘积严格区分，高carry仍开；root/literature全文独审，无数学执行。SHA256 6f798a05c36cbc65ba9c72f4824b7ab28ad598008a07fc8dc55c5569f0485fe0。
 
 - **R1002（真实十步theta方程的四自由CM jet）**：[有限局部正规形与原末列标记](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)。保full权p−9/quotient权p−11及6^−10；仅合法有限primitive给五维jet上rank1、四个显式kernel与forcedX12单位，实际ord≤12但低两jet未定。原heat严格给末列432D³f+75XDf−9Yf及mark79R0−96R1；该局部方程容标记零，非actual global反例，不能替全局归一或G稳定。root/audit/literature全文独审，无数学执行。SHA256 b31308a952b7dc706cf55836b9e141d122540c5743cc84229e1e186fa2bbe06e。
+
+
+- **R1072（已认证有限结果）**：[R1072](results/R1072-certified-original-p47-cuspidal-disk-labels.md)：run45925829303/job140266778118、源91de38ca，原p47全部235盘给235个互异完整global向量，10个实际角色全good。原相位/两twists已核；不推盘内唯一，继续ℓ283同点筛选。
