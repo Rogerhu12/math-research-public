@@ -154,3 +154,6 @@ $$
 
 
 - [森林§19的准确范围](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)：原profile $m_0/N\to\mu,b/N\to\beta,r/N\to\rho,K/H\to\tau$ 必须保 $\mu/68\le\rho\le19\mu/68$；判别式严格失败门是 $\beta[19(\beta+2\mu)-136\rho]<9\min(2,1+3\tau)/(2+\tau)$。真实逐charge列数(68)表明，有固定裕量时已经 $H>n_{\rm win}+cN^2$，所以此门仍在第一块行数超过窄窗列数的范围，**未触全临界或主严格预算**。泛型不可分被 $\deg_Y<p$ 排除后可得核子空间共同平方因子，但Theta的68格不能未付返回就接成rho的19角格；同R/carry/Xi保。后继转增长块数与同一饱和旗标的全Smith指数，不再把固定三块小改进充作全局正收益。
+
+
+- [v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；下一步只对这一个别名作保全部原门的独立软件核验，不将时限退出作反例，不重复相同生产输入。

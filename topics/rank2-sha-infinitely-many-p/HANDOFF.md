@@ -12,20 +12,18 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 ## 实际同步与规则
 
-- 最新两库实际部分clone/pull --rebase：只读CI run46073965457/job140757219958，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f。公开22:01:06UTC至同source，较084913a27ff7cb01fa36c301f7f6965de16d2717两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库22:01:10UTC至54fd1d828eece642bc55afb7d55c7bde4c3df093，较f8759bf1ee45ae74459d7f6e78af4cb114c0788b两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
-- 本地07:20失联，21:59实际pull重试仍无环境；末次本地公开07:12的1cf10ac。21:59 ref UNKNOWN/main前进后，实际本地pull失败、重比新父二轮CAS成功1e2c2bc，本轮22:01实际CI补拉成功。CI/本地/API分别记。**下一两库实际pull不迟于23:01UTC；22:14又一次ref重试后2216请求立即补拉待回执**；每次只读两README新差异并记已读SHA，不以API比较冒作pull。
-- 规则15库存3126blob/44,026,440B、tree65320c934ac0024f3644d35643ad216c565d082a，无>5MB，三旧gzip必要输入SHA不变。只读job日志14892B/hash c34c734d6fb1000b2389ecb657ed274da1034148b58f55e499448b83c29ef997，不保存日志。此前每小时实际回执及21:21拒推补拉链在log/归档保留。
+- 最新两库实际部分clone/pull --rebase：只读CI run46075603971/job140762479905，source e5309ee152260aa4aef389c7d5d68bac1cf8b116。公开22:16:24UTC至同source，较3bd753e5d0f0cd071d0ba615c9774695e0165b6f两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库22:16:29UTC至9ff59ac6354b6aa5afb35c29fdbf9044021139d2，较54fd1d828eece642bc55afb7d55c7bde4c3df093两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
+- 本地07:20失联，22:14实际pull重试仍无环境；末次本地公开07:12的1cf10ac。22:14 ref UNKNOWN/main前进后，实际本地pull失败、重比新父二轮CAS成功beb3f9f，本轮22:16实际CI补拉成功。CI/本地/API分别记。**下一两库实际pull不迟于23:16UTC**；每次只读两README新差异并记已读SHA，不以API比较冒作pull。
+- 规则15库存3128blob/44,077,360B、tree05137500fac1838c07b81c2494992b4c2282115d，无>5MB，三旧gzip必要输入SHA不变。只读job日志14893B/hash ef0e8ad30d45c9dd090d8a805158aaae31c15e21120f2067c34f24431db9bffa，不保存日志。此前每小时实际回执及拒推补拉链在log/归档保留。
 
 ## 唯一原完整厚几何执行与下一实际修正
 
-唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行，21000s门限约22:15:38。22:15:18 API仍in_progress。此前完整GET只返4203581B/19:05:38缓存尾：全两端身份、首个612厚分解已过，下一HNF86/306；四交/Norm/18×9仍无终回执。先确认真实终态，再用既有readonly collector消费完整最终日志；不据缓存尾推停顿，不重启相同输入。
+[v12真终态及绑定](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b在22:15:38UTC真实21000s门限退出124/signal15。完整GET5694056B/12522行/SHA256 80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费，不另跑collector或存日志。全部两端身份、30次完整native回返、六条完整612尖点厚分解已返；下一cubic306块/Frobenius与第一maximal返回后，到direct pair batches96被中止。四交/Norm/18×9无最终回执。不是数学反例，也不能以此前缀充PASS。
 
-全部原pins仍为29/2453/64/minimal、两char0 pins、全60源及所有原几何门，Sage10.6镜像19995db6…、4CPU/16GB。v11终态及此前链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，全回返参数见[完整二次返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。软件v3 run46032975863已PASS，不能替几何终门；即使有限原影子通过也不等于无穷p。
+全部原pins仍为29/2453/64/minimal、两char0 pins、全60源及所有原几何门，Sage10.6镜像19995db6…、4CPU/16GB。v11及此前链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，全回返参数见[完整二次返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。软件v3 run46032975863已PASS，不能替几何终门。
 
-**具体软件缺口已定位，未运行修正：**v12先在original_native_pair_reset.prepare_backend里复制reference的globals并exec生成PREPARED，再bind完整quadratic returns。后者只更新sys.modules的属性，未更新PREPARED.__globals__的旧remainder，故末尾全部原行回验仍用旧路径。central正准备最小显式绑定及独立软件check，保每个return/degree/attached门。已见24个HNF全部prime descent，不能猜二次HNF是当前瓶颈；不先写无根据的新算法。生产后继只在v12真终态消费、软件正确性回执通过后触发。
-
-22:14范围尾推送遇UNKNOWN/main前进，立即实际本地pull失败（环境仍无），重比新父第二轮CAS成功beb3f9f。2216两库只读pull请求随本次提交补拉，基线3bd753e/54fd1d8；不可将API比较称为actual pull。
+**实际软件遗漏：**v12先复制reference globals并exec生成native PREPARED，再bind完整quadratic returns；后者只改module属性，未改独立PREPARED.__globals__的旧remainder。central准备最小显式绑定与三个完整小例软件check；root已发现初稿多余右括号并退修，未触发生产。全部30个实际HNF均prime descent，不猜二次HNF是瓶颈；保每个return/degree/attached门，不先写无证新算法。新软件PASS前不发生产后继，绑定修正也不先声称足以解决全时限。
 
 ## 当前数学事实与禁止重走的接合
 
