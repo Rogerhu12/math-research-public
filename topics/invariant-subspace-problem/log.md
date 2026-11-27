@@ -546,3 +546,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - W新纸面结论：原Gram商Y真单位，w在同一六生成权代数，存在≤6次首一关系；旧y1原来源只用u²矛盾，未用物理D或lambda；无新计算门。
 - d5eab新五加五源实际4.400秒/exit1，V未定义，新身份/cofactor均未开始；负回执冻结，只修Vbar为f9141a75、同180秒/4GiB实际调度。
 - 课题外只更新五加五workflow源路径；继续保全部J19/D27/B239头零与物理单位，未宣排空。
+
+2026-11-27 19:12 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 读旧U-value-atlas及S0碰撞正文后确认：权重逆解/碰撞参数化已付不重做，h1/k1排除仅S0。两新输入改原同Gram的H²/H³缩放。
+- 一般e6dae493（180秒4GiB）三参数回八原式；Phi0的1ec9ea1c（120秒1GiB）用ell首一二次、八原行及H³实际单位目标；全部原单位/临时头零保留，尚未宣排空。
+- 课题外仅新增两个collision公开精确workflow；固定新helper41459fea与已有首一helperSHA。H完整归档后压缩，实际pull/规则检查/QUEUE继续。
