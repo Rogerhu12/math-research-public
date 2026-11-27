@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** `48bf564ae3c7d45b48f3a05998ac0039b460b141`（2026-11-27 02:43:20 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。03:20:13接口读c5523b6e0a7582da73cbf516e92eaf3f4e99bb4e，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `5afd26b8709f9c2fc1a9aba602a724929845098d`（2026-11-27 04:12:40 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `fac8e9a509c013ec5988a7c902cafd64a752cd23`（2026-11-27 04:13:12 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-original-Q-boundary-lines-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -29,7 +29,7 @@
 - 一般LS保ell/T/等权零面。原P1双零整支已闭，只付(Pf,Pt)非同时零。Delta0合法付Phi；四原值式准确等价首一二次/三一次，六参数式仅完整投影四值等式，四Gram子式仅必要。源70017734/ea0ffae2的完整来源及实际回执见results。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
 - W0补图两原mean商自由秩4，四条原余式返四列，五常数cofactor给必要x六次式；未付H=4ek−k²−4k−8及所有首项零保留，不宣W0空。H_W=0整权曲线的原mean/N1最高次射影系统现已排空，精确QQ(i,w)结式全为原单位；源d39dc87c实际7.287秒。仅无穷远闭，H_W0有限点/W0仍开，H不可剥。新QQ(i,w)有限六式门78a8c764返回四原二次迹后未决并终止，完整墙钟未知；原输入d5442db8已成2.162秒，冻源/回执见notes，不同序加限重跑。
-- **Q=1−u边界已闭y=1、H_Q=(2u−1)ell+u=0及u=1/2三整支。** 各用完整原QQ覆盖/同根返回，H_Q0源50a9b96b实际1.430秒；u半用158/170次严格整数CRT、104次保度覆盖及同原第三投影Gauss，末ell半/1回Dval与原N排尽。原子成功与未执行整合源分开，准确来源见results；只续H_Q≠0,y≠1,2u−1≠0。
+- **Q=1−u边界已闭y=1、H_Q=(2u−1)ell+u=0、u=1/2及ell=0四整支。** 原QQ覆盖/同根返回完整；H_Q0源50a9b96b实测1.430秒，u半158/170次严格CRT、104次保度Gauss和末原值排尽。ell0由原均值唯一x和Rt因式，完整v²+1纤维与20/40次QQ Bézout排尽，源7c231709实测2.322秒。原子/整合执行区别及全部来源保results；只续H_Q*ell*(y−1)*(2u−1)≠0。
 - **一般等权b=c已闭y1、y半及原权一次首项A_m零整支。** v=2y−1,z=(x−m)/(y−1)均非零。新kappa=dv²,omega=zv图给m=(omega−1)(omega−kappa)/A，A=kappa+omega²−2omega。两原mean同返alpha*v²+beta；R=kappa²+(omega−1)²kappa−omega²由完整原单位身份非零，可首一化v²=−beta/alpha。只续同一个v上的原N/P和值条件，v=−1仍保留；准确源/全部旧闭支证明见results。
 
 ### rankH3原ess6

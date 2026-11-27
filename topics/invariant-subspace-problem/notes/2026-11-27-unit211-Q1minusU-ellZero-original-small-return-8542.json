@@ -1,0 +1,59 @@
+{
+  "milliseconds": 2322,
+  "completed": true,
+  "sourceSHA256": "7c231709422820f0a0ed97ddc33d55053391675d5ac7ae0949d454a490b48d60",
+  "result": {
+    "kind": "ell=0 complete exclusion on Q=1-u",
+    "originalHomogeneousDegrees": {
+      "E1x": 1,
+      "Rtx": 2,
+      "N1x": 2,
+      "NSx": 3,
+      "PSx": 3
+    },
+    "originalRtFactor": "(v^2+1)^2*(4*u*v^3*(2-v)-(v^2+1)^2)/16",
+    "exceptionalQuadraticGcd": "u^2",
+    "exceptionalTraceAtUhalfPlusV": [
+      "-109/64",
+      "787/64"
+    ],
+    "exactQuotientCounts": {
+      "inverses": 7,
+      "divisions": 5,
+      "bezouts": 2
+    },
+    "univariateOriginalDegrees": [
+      20,
+      40,
+      40
+    ],
+    "fullQQgcd": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "4",
+      "0",
+      "6",
+      "0",
+      "4",
+      "0",
+      "1"
+    ],
+    "fullQQBezoutDegrees": [
+      27,
+      7
+    ],
+    "parameterUnitsUsed": [
+      "u",
+      "u-1",
+      "2u-3"
+    ],
+    "scope": "Original general LS; no assertion about the remaining ell nonzero branch or ordinary ISP"
+  },
+  "sourceGitBlob": "acaac741b120fcfb0d8e4fe39e6634701b134bdf",
+  "proofGitBlob": "2777798d016e655f7c299e2657d6e98ad5c5d053",
+  "date": "2026-11-27 Asia/Taipei"
+}

@@ -79,3 +79,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 12:12 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 完整排除Q=1−u、u半整权线：158/170次严格整数CRT及真实整因子、104次保度Gauss/同原第三投影，末ell1/半全部回原值与N。
 - 源3ded7c45与小回执保原子实际成功/整合仅语法检查区别；未加重跑门。两README无变，小文本连接器按最新head非force提交，实际pull仍受执行环境阻断。
+
+2026-11-27 12:13 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 完整排除Q=1−u、ell0整权线：原E1付v并恢复x，原Rt低度分支中v²+1整代数被原N/S排尽，余20/40次完整QQ Bézout只留单位。
+- 自含源7c231709从原Gram至末组合实际2.322秒，保同嵌入和各首项零。一般边界续ell非零新图；两README无变，按最新head非force提交。

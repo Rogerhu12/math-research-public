@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，Q=1−u的整个ell=0权线）**：[原低度均值恢复及完整一元返回](results/R150-appendix-unit211-Q1minusU-ellZero-complete-exclusion.md)：原E1支付v=2y−1非零并唯一x；原Rt给(v²+1)²[4uv³(2−v)−(v²+1)²]/16。整个v²+1纤维原N/S非零范数排除，余支同u返回20/40/40次原行，完整QQ Bézout仅留已付v⁴(v²+1)^4。自含源7c231709实际2.322秒；独立于u半排除。
+
 - **已证明（R150，Q=1−u的整个u=1/2权线）**：[原整数CRT、保度Gauss和两原末纤维](results/R150-appendix-unit211-Q1minusU-uHalf-complete-exclusion.md)：全部ell保留，固定15阶原结式完整QQ次数158/170；剥原单位及返回候选后104/112次与同原第三177次模投影实际三项Bézout1，经1009局部首一性排全复根。ell1以Dval0、ell半以原E1/N_H纸面非零范数排尽；整合源3ded7c45未整跑，原子计算实际成功。
 
 - **已证明（R150，等权两参数首一值二次式）**：[原首项完整单位身份](results/R150-appendix-unit211-equal-weights-two-parameter-monic-value-quadratic.md)：kappa=dv²,omega=zv准确恢复m；两原mean同返alpha*v²+beta，2alpha=(omega−1)AR。完整原组合等于4omega⁵(omega−1)⁴，故R首项零支全闭并给真实商中逆；原N/P须保同v。新实际V8源0.110/0.005秒，未判一般图空。
