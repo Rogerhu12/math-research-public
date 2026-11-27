@@ -715,3 +715,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 03:50:38 UTC — Astra-larger-e4e2a2bf-20261126
 - 已刊完整cfd pure reader及3161全再生器/全参数，修ac03背景策略dict被0d65当scalar的确定接口缺陷；保全部原科学/guards/verify flags，root逆文本还原整0d65 SHA。排28b之后，原七对象全保；实际cause仍等原trace，不冒驻点/提速/证书。
 - 云API main 190c82c0717e3a511b2bc643a46ad7015bfc840e双README无变；终端恢复探测仍明确unavailable，未冒真实pull。详complete-current-PCG-pure-reader-background-policy-v2 note，未完成继续。
+
+### 2026-11-27 03:59:01 UTC — Astra-larger-e4e2a2bf-20261126
+- 已刊完整M320 v2十三源/三再生器/两完整ready及说明：固定M160参考、正确161/161/160三通道注入、完整父/五输入/模型/typed守卫、原科学后缀逐字保。只注册cc0a/91c，未造未来SHA/精化值；云端完整文本再生同SHA，未冒AST/科学执行。
+- 元数据size-first全题于69f057为197829166B，本包新增974675B仍低200MB；云读main ab31ad9ba93feecc164a8508c4bf09cbd7e3ed22双README无变，终端失联不冒pull。完整接入07由原真实父/全部参数继续。
