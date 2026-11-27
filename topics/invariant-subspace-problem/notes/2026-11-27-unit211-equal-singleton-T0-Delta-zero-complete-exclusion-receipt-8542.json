@@ -1,0 +1,205 @@
+{
+  "schema": "isp-equal-singleton-T0-Delta0-entire-original-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "runURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46010648548",
+  "jobId": 140544983517,
+  "execution": {
+    "elapsed_seconds": 0.1200854850000006,
+    "max_child_rss_kib": 37448,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "936a740199284fefb3c14d9fe637919bbbf234bc",
+        "before": "936a740199284fefb3c14d9fe637919bbbf234bc",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:51:11.068838+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46010648548",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "936a740199284fefb3c14d9fe637919bbbf234bc",
+    "source_exit_code": 0,
+    "source_git_blob": "6aee162135c5c7edace4e78a33a3af8c5eaac5c8",
+    "source_sha256": "402d5ce112bbd862d8eaedc5a2447f058bb097d229c6621d5daf04203108dd97",
+    "stdout_bytes": 2587,
+    "stdout_sha256": "4e90c2fe5c53ba05d4f9abb0df74e1199639eca4521981767cb8ec56f29f8e69",
+    "stop_reason": null
+  },
+  "actualOutputs": [
+    {
+      "lambdaValue": "1/3",
+      "uValue": "125/123",
+      "Qvalue": "-784/15129",
+      "freeOriginalParameter": "f",
+      "allOriginalMomentE0N0P1NVIdentitiesReturned": true,
+      "bothSingletonGradientAndHighestTargetsRetained": true,
+      "coefficientPairsUseBothActualRowsAndRhoNonzero": true,
+      "originalRows": [
+        {
+          "name": "E1",
+          "degree": 2,
+          "coefficientsAscending": [
+            "-67500/82369",
+            "6375/2009",
+            "-108/49"
+          ]
+        },
+        {
+          "name": "EBe",
+          "degree": 1,
+          "coefficientsAscending": [
+            "2605898/4412625",
+            "-4406/2583"
+          ]
+        },
+        {
+          "name": "EBo",
+          "degree": 1,
+          "coefficientsAscending": [
+            "-29258/35875",
+            "50/21"
+          ]
+        },
+        {
+          "name": "N1",
+          "degree": 2,
+          "coefficientsAscending": [
+            "-124000/482447",
+            "125000/82369",
+            "-4500/2009"
+          ]
+        },
+        {
+          "name": "NBe",
+          "degree": 3,
+          "coefficientsAscending": [
+            "-706188388/180917625",
+            "96452546/4412625",
+            "-31280/861",
+            "16"
+          ]
+        },
+        {
+          "name": "NBo",
+          "degree": 2,
+          "coefficientsAscending": [
+            "-26657132/13237875",
+            "319734/35875",
+            "-64/7"
+          ]
+        },
+        {
+          "name": "PBe",
+          "degree": 3,
+          "coefficientsAscending": [
+            "-32819614262/9692015625",
+            "33211298/1891125",
+            "-3460/123",
+            "16"
+          ]
+        },
+        {
+          "name": "PBo",
+          "degree": 2,
+          "coefficientsAscending": [
+            "-864882694/236390625",
+            "268342/15375",
+            "-20"
+          ]
+        }
+      ],
+      "noDeltaNFOrUnpaidNormInverse": true,
+      "claimExcluded": false,
+      "stage": "new_original_collision_T0_Delta_zero_same_Gram_all_rows",
+      "seconds": 0.045815947000001245
+    },
+    {
+      "newOriginalRow": "E1",
+      "degree": 2,
+      "allOriginalProductsReturned": true,
+      "stage": "new_original_collision_T0_Delta_zero_free_f_Bezout",
+      "seconds": 0.045900162999998884
+    },
+    {
+      "newOriginalRow": "EBe",
+      "degree": 0,
+      "allOriginalProductsReturned": true,
+      "stage": "new_original_collision_T0_Delta_zero_free_f_Bezout",
+      "seconds": 0.046315295999999506
+    },
+    {
+      "sourceSHA256": "402d5ce112bbd862d8eaedc5a2447f058bb097d229c6621d5daf04203108dd97",
+      "originalDomain": "h=k!=1,T0=0,Delta=0",
+      "uniqueBaseCandidate": {
+        "lambdaValue": "1/3",
+        "uValue": "125/123"
+      },
+      "allEightOriginalRowsRebuilt": true,
+      "originalRowsUsed": [
+        "E1",
+        "EBe"
+      ],
+      "finalFreeFPolynomial": [
+        "1"
+      ],
+      "entireOriginalFaceExcluded": true,
+      "fullCertificate": {
+        "rows": [
+          {
+            "name": "E1",
+            "coefficients": [
+              "-67500/82369",
+              "6375/2009",
+              "-108/49"
+            ]
+          },
+          {
+            "name": "EBe",
+            "coefficients": [
+              "2605898/4412625",
+              "-4406/2583"
+            ]
+          }
+        ],
+        "tags": [
+          [
+            "892307973484375/13325993021529"
+          ],
+          [
+            "280172301308625/2961331782562",
+            "-128109062531250/1480665891281"
+          ]
+        ],
+        "commonPolynomial": [
+          "1"
+        ]
+      },
+      "certificateBytes": 277,
+      "certificateSHA256": "3d87460a368ca4d22c440c9d9b7418df663842c3fac5cdfa7bfa50e23e07bac0",
+      "genericT0DeltaNonzeroAndOtherEqualValueFacesRemainOpen": true,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 36624,
+      "stage": "new_original_collision_T0_Delta_zero_full_return_complete",
+      "seconds": 0.04659733100000096
+    }
+  ],
+  "additionalPaperIdentity": {
+    "originalRows": [
+      "EBe",
+      "EBo"
+    ],
+    "combinationCoefficients": [
+      "1",
+      "2203/3075"
+    ],
+    "constant": "32956/5253125",
+    "exactRationalCoefficientCheck": true,
+    "externalProcess": false
+  }
+}

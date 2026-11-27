@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 936a740199284fefb3c14d9fe637919bbbf234bc（2026-11-27 13:53:43 UTC，Actions run46011003949实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46011003949-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:53:42 UTC/8273b0a7d30e40db1757ceb5a0d73eb64eb96d59，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** a9eb389df62be73c25f6649596472591a0feca09（2026-11-27 13:57:32 UTC，Actions run46011548364实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46011548364-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:57:31 UTC/ba6953048b2d81fe3cb9f024b327ef3c02049985，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `936a740199284fefb3c14d9fe637919bbbf234bc`（2026-11-27 13:53:21 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `97051366b05adc2a6aa27c845f712c5b79edfdff`（2026-11-27 13:57:09 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-centered-value-collision-closed-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k,b=c整个原碰撞支新全闭；Delta0 h1/k1≤6219保留。** c2d6在完整QQ(lambda20)恢复原Q一次，保自由f重建全部八式，E1/EBe真Bézout1；46逆/9除法全返，真0.289秒/41412KiB/exit0。合f5e已闭Delta非0，现整个碰撞可付u−ell，不借旧D单位。46c5仅全lambda身份已返，参数段漏装致NameError/exit1，Gram未起；新402d补原段首返lambda1/3,u125/123自由f全八式，120秒1GiB。其余不等权图开。
+- **h=k整个等权支及T0=Delta0原面全闭；Delta0 h1/k1≤6219保留。** 新402d真0.120秒/37448KiB/exit0，原两仿射式迫lambda1/3,u125/123，保自由f全八式，原mean显式非零常数组合。此前c2d6/f5e闭等权可付u−ell，未借旧D单位。46c5装配失败保原状态。新031d接T0、Delta非0的简化原两参数/八式及固定QQ投影，180秒4GiB。
 - **旧D≠0原值图Phi0∩zn0整支全闭，Phi0余图可付zn。** 4e76真4.659秒/83124KiB/exit0；原216维QQ核三轮200/208/208付H8精确4重，真Q908/余1037与原P2005保度模Bézout1，九原零纤维已全闭；h1/k1原交换覆盖，不传h=k图。新8fd首接rho二次头零主支rho=−d、ell=1+2d²完整T6/八原式；d=±1/2、ell3/2另保，120秒1GiB。
 
 ### rankH3原ess6
