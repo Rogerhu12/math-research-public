@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 碰撞两原E的完整u首项及有限u无穷远边界](results/R150-appendix-unit211-collision-E-u-heads-and-finite-u-infinity-boundary.md)：首项精确为B⁵F162/B⁵F167，完整QQ分解；显式Bezout给λ∞有限u支撑0/2。两个整头零未付，原u-gcd超时准确冻结，未宣仿射排空。
+
 - [R271 一特殊权全部出生的尖锐统一联合来源预算](results/R271-appendix-one-special-weight-all-births-uniform-joint-source-budgets.md)：完整池串与真实最高逆给F>C1²/3、创新费<F/4及S<2I/3；三统一常数均尖锐，保全部原上下源，不外推一般权或无限费用。
 
 - [R150 一般整H1的原Dixon常数返回及256权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-Dixon-256-weight-cover.md)：无μ逆图覆盖b零/非零，完整QQ四维代数八列乘回1；所有原与最终极点给≤1024权对，256整纤维保留。
