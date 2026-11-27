@@ -18,7 +18,7 @@
 
 [R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)：原非整j局部分支精确由同一cusp的Kummer-annihilator Frobenius并集判别，−1modp整支仍相容；候选非零坐标给无条件秩下界。p47完整V每cusp秩10，235候选可被同素共同排除全部cusps且保圆单位非零，但affine像/分母全局排除仍开。
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；八盘内部唯一仍开。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；R1122已关六盘，0/141内部唯一仍开。
 
 [R1080/81/89](results.md)：原J无条件rank=dim=ρQ=73，4513最大未分歧整T；#J余数283/4513=70/551，Bq整unit，logJ(Qq)⊂qLie，原Φ47指数46。全部旧计算只消费。
 
@@ -47,7 +47,7 @@
 [R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
 
 
-[完整QC新请求](notes/full-p47-QC-first-rows-request.json)消费R1120全部CM坐标和R1121十二α，只读六盘76/77/100/108/196/220；2400/reserve60，完整原Cartier/Tq矩阵交叉核验后，实际计算全73 trace与t(B+At)的gcd/单位导数。未预报唯一，0/141首4仍等原Miller。
+[R1122](results/R1122-certified-original-six-complete-CM-disks.md)：QC run45996561850/job140497301328，117.953秒，六盘76/77/100/108/196/220全rank2、gcd=t且B unit，完整4513盘均只余原CM点；完整Cartier/Tq原矩阵桥通过，receipt SHA4ae1153b…已核。固定47尚余0/141，正在给这四个未完成α改走短Cartier；不重算六盘。
 
 ## O1：全p同一真实本原标签的临界非零
 
