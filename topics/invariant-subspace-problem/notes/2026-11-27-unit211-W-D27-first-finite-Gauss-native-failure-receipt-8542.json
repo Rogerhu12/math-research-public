@@ -1,0 +1,2504 @@
+{
+  "schema": "isp-actual-D27-finite-return-native-failure-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "blob": "78b0c2fc424640e735935540b8ec5e8a8ffc3f2f",
+    "sha256": "21400b018185d10166cb6eedf441849e3fa4041259b29609f54b64f2e1bbe4a5",
+    "bytes": 12924
+  },
+  "run": 46004204867,
+  "job": 140523158558,
+  "driver": {
+    "elapsed_seconds": 51.55380944399997,
+    "max_child_rss_kib": 109064,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8fbc78254fd6828b67da87576eabccc77dad52b8",
+        "before": "8fbc78254fd6828b67da87576eabccc77dad52b8",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:06:24.296538+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46004204867",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8fbc78254fd6828b67da87576eabccc77dad52b8",
+    "source_exit_code": -11,
+    "source_git_blob": "78b0c2fc424640e735935540b8ec5e8a8ffc3f2f",
+    "source_sha256": "21400b018185d10166cb6eedf441849e3fa4041259b29609f54b64f2e1bbe4a5",
+    "stdout_bytes": 28962,
+    "stdout_sha256": "65142dd203a5e91bcfa8ee4a8d39f812d326ec55a7fd65d9bd44eb8e901323d1",
+    "stop_reason": null
+  },
+  "actualFailure": {
+    "innerExit": -11,
+    "signal": "SIGSEGV",
+    "pythonTraceback": false,
+    "rootCauseUnknown": true,
+    "lastCompletedKFactorIndex": 13,
+    "nextUncompletedKFactorIndex": 14,
+    "lastMathStageSeconds": 50.32060528599999,
+    "noTimeoutOrAddressSpaceLimitDiagnostic": true
+  },
+  "completedMathematicalRecords": [
+    {
+      "stage": "new_D27_finite_return_exact_input_regenerated",
+      "publishedCoverDegree": 806,
+      "publishedCoverSHA256": "5a7e1e1a26879d0d7a2457fb490c7b16e66124b3a6f631db3fd2d10eebe4781e",
+      "dependencySourceSHA256": "acf41d9be1da123da81b05210ec45b03064a2196bf941f58f3dd3b3408d53929",
+      "regenerationLogSHA256": "694e2a690750b35e3ddc9c6d93a2d7b1047ea17965bfddcb19ed38cef2950599",
+      "newReturnInput": "fixed original degree-four Macaulay rows at finite k",
+      "oldSourceNotUsedAsNewResultGate": true,
+      "claimExcluded": false,
+      "seconds": 45.42012115
+    },
+    {
+      "stage": "new_D27_entire_QQ_finite_cover_weight_norm_partition",
+      "fullCover": {
+        "degree": 806,
+        "bytes": 407990,
+        "sha256": "5a7e1e1a26879d0d7a2457fb490c7b16e66124b3a6f631db3fd2d10eebe4781e"
+      },
+      "retainedLowNormCover": {
+        "degree": 24,
+        "bytes": 340,
+        "sha256": "03e009b3540a749f6b95c2d2e39bfa192698dd7d4b27c8f100235bdb56ecd3d8",
+        "coefficients": [
+          "-247726080",
+          "-2014543872",
+          "-6822617088",
+          "-13655546880",
+          "-23814188544",
+          "-50283347456",
+          "-103695105392",
+          "-164662978128",
+          "-193246082288",
+          "-170825955398",
+          "-116292014876",
+          "-61744374387",
+          "-25528735099",
+          "-16028609963/2",
+          "-7005455735/4",
+          "-1374825081/8",
+          "388340167/8",
+          "117528723/4",
+          "33047045/4",
+          "12520147/8",
+          "1697379/8",
+          "40969/2",
+          "5381/4",
+          "54",
+          "1"
+        ]
+      },
+      "retainedLowNormQQFactors": [
+        {
+          "multiplicity": 1,
+          "degree": 1,
+          "bytes": 9,
+          "sha256": "fd72074c24baad97583d582adbdef9652b86d6ee10c14f33c89ce469b4f7632d",
+          "coefficients": [
+            "3",
+            "2"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 1,
+          "bytes": 9,
+          "sha256": "cc3f2a1ffd63c4db19e0114b93a94b774e4a2d07a2a5ec5b193303ac1387d633",
+          "coefficients": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 1,
+          "bytes": 10,
+          "sha256": "16e072e9fa30b5b8e443940c97131a795bdf862bdb95475459b770c44e651fde",
+          "coefficients": [
+            "-4",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 1,
+          "bytes": 9,
+          "sha256": "eb8b0a50b3e319f2396b31690d7c7605e429410a168456563ebab83efe9f4f44",
+          "coefficients": [
+            "3",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 4,
+          "bytes": 25,
+          "sha256": "692bc7742cc2a6e3d5eadb616283b1b3557e284594e4e266def1435e9b39909b",
+          "coefficients": [
+            "28",
+            "80",
+            "54",
+            "13",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 4,
+          "bytes": 27,
+          "sha256": "f9bbeead63192524f53e2e525a0313ca2724bef9c744d753e9eaa4ec3bb3df2f",
+          "coefficients": [
+            "192",
+            "144",
+            "60",
+            "14",
+            "1"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 5,
+          "bytes": 32,
+          "sha256": "7053567d85981f47351faaca3d4f732c74ec7f486935314cd36e48ce73cf2de2",
+          "coefficients": [
+            "40",
+            "111",
+            "104",
+            "49",
+            "14",
+            "2"
+          ]
+        },
+        {
+          "multiplicity": 1,
+          "degree": 7,
+          "bytes": 47,
+          "sha256": "942a6332f357b97b4570493699462a6ca9dbff4c65dae2c1443d3d878b7a482f",
+          "coefficients": [
+            "256",
+            "-256",
+            "168",
+            "892",
+            "580",
+            "150",
+            "19",
+            "1"
+          ]
+        }
+      ],
+      "highNormUnitCover": {
+        "degree": 782,
+        "bytes": 388060,
+        "sha256": "1114db34d767cb4a696161318fea9a8560349ad8d493a9ea557b291936c8cafa"
+      },
+      "allOriginalUnitNormNumeratorDenominators": [
+        {
+          "name": "k",
+          "numerator": {
+            "degree": 5,
+            "bytes": 25,
+            "sha256": "f37aef4bac3efe9040e2da22f7a53e85c068c819ef5172fc4ff67651555f1316",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "k+1",
+          "numerator": {
+            "degree": 5,
+            "bytes": 27,
+            "sha256": "2d49e468228fce28bac33ba17629272ab5b8b46b06b1ef650c7abb70c48c7aaa",
+            "coefficients": [
+              "1",
+              "5",
+              "10",
+              "10",
+              "5",
+              "1"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "k+2",
+          "numerator": {
+            "degree": 5,
+            "bytes": 30,
+            "sha256": "b90836ae6458fc1163e1f2155ca61d5bb19190ca5476b733b2549a9cb5b7133e",
+            "coefficients": [
+              "32",
+              "80",
+              "80",
+              "40",
+              "10",
+              "1"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "k+4",
+          "numerator": {
+            "degree": 5,
+            "bytes": 36,
+            "sha256": "dd0543ac1293777d24e285e9f7bd6a7fc2323d7b6b835509119e6aa9a748b8ba",
+            "coefficients": [
+              "1024",
+              "1280",
+              "640",
+              "160",
+              "20",
+              "1"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "e",
+          "numerator": {
+            "degree": 6,
+            "bytes": 43,
+            "sha256": "fdee24de8bd7d01299eb58d206cd29374560b3bf8f0b2d317bbde1b547d167bf",
+            "coefficients": [
+              "48",
+              "84",
+              "63",
+              "55/2",
+              "15/2",
+              "9/8",
+              "1/16"
+            ]
+          },
+          "denominator": {
+            "degree": 4,
+            "bytes": 21,
+            "sha256": "9417a978c233813d84d0df570798ac450489b4b6e5bc1ca0a35d716ecc060006",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "u",
+          "numerator": {
+            "degree": 4,
+            "bytes": 33,
+            "sha256": "e0602034c0c0d1a67d958c1a6d299b3a8edef211f33712278434fb9a54d74556",
+            "coefficients": [
+              "-12",
+              "-25",
+              "-35/2",
+              "-5",
+              "-1/2"
+            ]
+          },
+          "denominator": {
+            "degree": 3,
+            "bytes": 17,
+            "sha256": "c6202370d4cc2ddc01edfd3e37ade2bd18764d23ce0720ea8ccab1b00aca6828",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "Q",
+          "numerator": {
+            "degree": 7,
+            "bytes": 47,
+            "sha256": "1f61fd947e86501228f826f156e5c41d165361d2442ae662e66be01d5d5bccbd",
+            "coefficients": [
+              "0",
+              "48",
+              "84",
+              "63",
+              "55/2",
+              "15/2",
+              "9/8",
+              "1/16"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "V",
+          "numerator": {
+            "degree": 6,
+            "bytes": 49,
+            "sha256": "0cedd7f551386c9605625b0b293f384227aff338166a82ec78e52fee45e1d905",
+            "coefficients": [
+              "-512",
+              "-1024",
+              "-832",
+              "-352",
+              "-82",
+              "-10",
+              "-1/2"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "1-Q",
+          "numerator": {
+            "degree": 7,
+            "bytes": 61,
+            "sha256": "d844491e40eba742bc374e0e6a95b3d00b5d90a14e37792fac6309fdeafebe9c",
+            "coefficients": [
+              "-7",
+              "-34",
+              "-249/4",
+              "-57",
+              "-229/8",
+              "-127/16",
+              "-9/8",
+              "-1/16"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "bc",
+          "numerator": {
+            "degree": 15,
+            "bytes": 185,
+            "sha256": "64d4d40dadc5a592bb6cd2f9dccb63ee7cd46704a2a3a9ca290f8da0002ffc7a",
+            "coefficients": [
+              "108",
+              "306",
+              "2613/8",
+              "2309/4",
+              "237111/128",
+              "899265/256",
+              "2038381/512",
+              "3035101/1024",
+              "1568287/1024",
+              "1157123/2048",
+              "616067/4096",
+              "58939/2048",
+              "7941/2048",
+              "719/2048",
+              "79/4096",
+              "1/2048"
+            ]
+          },
+          "denominator": {
+            "degree": 15,
+            "bytes": 69,
+            "sha256": "f079671c47f1f1c9baae29bbfa46425bdaac12c58e9378e3050e4387b79d5812",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "28",
+              "80",
+              "54",
+              "13",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "P02",
+          "numerator": {
+            "degree": 20,
+            "bytes": 240,
+            "sha256": "a08a007913c9de63abd7a960109558a7f5c6f0b339f757d65d07d8d522a9e295",
+            "coefficients": [
+              "17694720",
+              "139051008",
+              "506105856",
+              "1143327744",
+              "1810889472",
+              "2151291456",
+              "1999734480",
+              "1495888192",
+              "917576804",
+              "467173068",
+              "198804156",
+              "70888232",
+              "84574429/4",
+              "5242743",
+              "17095381/16",
+              "702985/4",
+              "181543/8",
+              "17635/8",
+              "2407/16",
+              "51/8",
+              "1/8"
+            ]
+          },
+          "denominator": {
+            "degree": 11,
+            "bytes": 49,
+            "sha256": "9cc2ad25506940f91c62f7fc3e8fecdc94a2134b9ed403a5e4f8362d78a24c9f",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "Phi",
+          "numerator": {
+            "degree": 11,
+            "bytes": 93,
+            "sha256": "eda44f5c65c38f48d0d1a809e0f3ff8a4145167cfbccf1ba75a89acb0bffec8e",
+            "coefficients": [
+              "147456",
+              "405504",
+              "525312",
+              "429312",
+              "246720",
+              "104208",
+              "32800",
+              "7632",
+              "1268",
+              "140",
+              "9",
+              "1/4"
+            ]
+          },
+          "denominator": {
+            "degree": 8,
+            "bytes": 37,
+            "sha256": "aba68c4a143209bae34420b3dd68f83831c380660075538063241dd5f7e09d44",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "ell",
+          "numerator": {
+            "degree": 5,
+            "bytes": 35,
+            "sha256": "a9dad56717005db923ef463e8bade6796c03192b26d5309dfcd6261baff4e539",
+            "coefficients": [
+              "12",
+              "49",
+              "135/2",
+              "40",
+              "21/2",
+              "1"
+            ]
+          },
+          "denominator": {
+            "degree": 5,
+            "bytes": 25,
+            "sha256": "f37aef4bac3efe9040e2da22f7a53e85c068c819ef5172fc4ff67651555f1316",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "ell-u",
+          "numerator": {
+            "degree": 8,
+            "bytes": 68,
+            "sha256": "235cf2c9a81f72c34b21b7eeb5ee353b06c90ff9b8c8f907673ed7e9a7efba99",
+            "coefficients": [
+              "-24",
+              "-98",
+              "-171",
+              "-167",
+              "-100",
+              "-301/8",
+              "-139/16",
+              "-9/8",
+              "-1/16"
+            ]
+          },
+          "denominator": {
+            "degree": 6,
+            "bytes": 29,
+            "sha256": "0a7809c9eb420a82724a677ce959c6199785700de16b806e2cf08b5f2aa58c6b",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "Q-2",
+          "numerator": {
+            "degree": 7,
+            "bytes": 41,
+            "sha256": "26d556fa9d51a07d4fe894bb5f9abe5be309991ef8d5b3e06f2cf1612c4dc299",
+            "coefficients": [
+              "0",
+              "0",
+              "32",
+              "48",
+              "28",
+              "8",
+              "9/8",
+              "1/16"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "u-Q",
+          "numerator": {
+            "degree": 10,
+            "bytes": 86,
+            "sha256": "9bee15be389af165499c4896dd64a10b2125a503994c9ff85fbbc5288cf6af1c",
+            "coefficients": [
+              "-60",
+              "67",
+              "143/2",
+              "-129/2",
+              "-187/4",
+              "151/8",
+              "37/2",
+              "3/16",
+              "-47/16",
+              "-13/16",
+              "-1/16"
+            ]
+          },
+          "denominator": {
+            "degree": 3,
+            "bytes": 17,
+            "sha256": "c6202370d4cc2ddc01edfd3e37ade2bd18764d23ce0720ea8ccab1b00aca6828",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "H",
+          "numerator": {
+            "degree": 10,
+            "bytes": 73,
+            "sha256": "04b14bbde684a176105a948f8a8d3288c6f95717ae4cf437f5375fbf8dbb9021",
+            "coefficients": [
+              "0",
+              "0",
+              "16384",
+              "36864",
+              "32768",
+              "13824",
+              "2112",
+              "-432",
+              "-232",
+              "-36",
+              "-2"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "C9",
+          "numerator": {
+            "degree": 22,
+            "bytes": 254,
+            "sha256": "d045f51125aebf3d802681c6870149e94f79175ecdd18cfc4cf2a30b2535d6bb",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "-26214400",
+              "-216006656",
+              "-815005696",
+              "-1875902464",
+              "-2959892480",
+              "-3409108992",
+              "-2978335744",
+              "-2023407104",
+              "-1086612880",
+              "-466049600",
+              "-160535128",
+              "-44470674",
+              "-9878777",
+              "-1746484",
+              "-242419",
+              "-206745/8",
+              "-8169/4",
+              "-1803/16",
+              "-31/8",
+              "-1/16"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "2e+1",
+          "numerator": {
+            "degree": 6,
+            "bytes": 44,
+            "sha256": "2dac6c501a58195401b58f26e295e8abf38894e9ff7576e0903d61c7d37dff78",
+            "coefficients": [
+              "768",
+              "1664",
+              "1440",
+              "640",
+              "155",
+              "39/2",
+              "1"
+            ]
+          },
+          "denominator": {
+            "degree": 4,
+            "bytes": 21,
+            "sha256": "9417a978c233813d84d0df570798ac450489b4b6e5bc1ca0a35d716ecc060006",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "T0",
+          "numerator": {
+            "degree": 14,
+            "bytes": 144,
+            "sha256": "2aa999ba97a9b3c61905f1eb956929f2d7fab4b9d432d648b5df3aac0243de62",
+            "coefficients": [
+              "-36864",
+              "-205824",
+              "-525312",
+              "-815808",
+              "-865040",
+              "-665416",
+              "-384480",
+              "-170038",
+              "-57920",
+              "-30219/2",
+              "-2962",
+              "-3367/8",
+              "-651/16",
+              "-19/8",
+              "-1/16"
+            ]
+          },
+          "denominator": {
+            "degree": 7,
+            "bytes": 33,
+            "sha256": "ba7b62a6338bf99cda770acbc45babff58cd9070f092d2471e034dd309be99f3",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "J-Q",
+          "numerator": {
+            "degree": 12,
+            "bytes": 107,
+            "sha256": "0f0d4da93773271a8b4efcc3e5b0816058ce964bb319436cfd7903f0d1a2542d",
+            "coefficients": [
+              "110592",
+              "405504",
+              "684288",
+              "711936",
+              "514032",
+              "272856",
+              "109248",
+              "33164",
+              "7538",
+              "1238",
+              "547/4",
+              "71/8",
+              "1/4"
+            ]
+          },
+          "denominator": {
+            "degree": 7,
+            "bytes": 33,
+            "sha256": "ba7b62a6338bf99cda770acbc45babff58cd9070f092d2471e034dd309be99f3",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        },
+        {
+          "name": "previously_excluded_J19",
+          "numerator": {
+            "degree": 27,
+            "bytes": 340,
+            "sha256": "7c103725168c71604d91a292004ca2c5fb7d774621ff7ced5b617ad8f9077b00",
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "-4294967296",
+              "-39728447488",
+              "-171530256384",
+              "-460970786816",
+              "-866962636800",
+              "-1215681265664",
+              "-1321502507008",
+              "-1142694346752",
+              "-799916752896",
+              "-458823680000",
+              "-217366908928",
+              "-85453388800",
+              "-27929311488",
+              "-7582596800",
+              "-1703761040",
+              "-314658508",
+              "-47247114",
+              "-5674422",
+              "-531988",
+              "-150015/4",
+              "-14957/8",
+              "-235/4",
+              "-7/8"
+            ]
+          },
+          "denominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFiniteNormZeroFibersRetained": true
+        }
+      ],
+      "allOriginalWeightNormZeroFibersRetained": true,
+      "exactFullCoverPartitionProductVerified": true,
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 45.470018495999966
+    },
+    {
+      "stage": "new_D27_finite_original_good_prime_and_complete_k_factorization",
+      "prime": 1009,
+      "rejectedPrimes": [],
+      "QQHighDegree": 782,
+      "modularHighDegree": 782,
+      "QQLeadingCoefficientActuallyOne": true,
+      "allActualOriginalQQCoefficientDenominatorsPUnits": true,
+      "completeNormBezoutActuallyMultipliedBack": true,
+      "fullModularFactorizationProductActuallyReturned": true,
+      "modularFactors": [
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "coefficients": [
+            39,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "coefficients": [
+            209,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "coefficients": [
+            721,
+            1
+          ]
+        },
+        {
+          "degree": 1,
+          "multiplicity": 1,
+          "coefficients": [
+            857,
+            1
+          ]
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            405,
+            374,
+            1
+          ]
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            341,
+            442,
+            1
+          ]
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            756,
+            774,
+            1
+          ]
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            974,
+            781,
+            1
+          ]
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            51,
+            809,
+            1
+          ]
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            543,
+            943,
+            1
+          ]
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1,
+          "coefficients": [
+            120,
+            977,
+            1
+          ]
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "coefficients": [
+            12,
+            14,
+            7,
+            1
+          ]
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "coefficients": [
+            653,
+            130,
+            281,
+            1
+          ]
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "coefficients": [
+            784,
+            85,
+            487,
+            1
+          ]
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "coefficients": [
+            47,
+            504,
+            552,
+            1
+          ]
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "coefficients": [
+            954,
+            435,
+            841,
+            1
+          ]
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "coefficients": [
+            566,
+            746,
+            898,
+            1
+          ]
+        },
+        {
+          "degree": 3,
+          "multiplicity": 1,
+          "coefficients": [
+            459,
+            489,
+            992,
+            1
+          ]
+        },
+        {
+          "degree": 4,
+          "multiplicity": 1,
+          "coefficients": [
+            57,
+            805,
+            326,
+            69,
+            1
+          ]
+        },
+        {
+          "degree": 4,
+          "multiplicity": 1,
+          "coefficients": [
+            949,
+            1005,
+            655,
+            237,
+            1
+          ]
+        },
+        {
+          "degree": 4,
+          "multiplicity": 1,
+          "coefficients": [
+            328,
+            700,
+            928,
+            363,
+            1
+          ]
+        },
+        {
+          "degree": 4,
+          "multiplicity": 1,
+          "coefficients": [
+            207,
+            781,
+            153,
+            909,
+            1
+          ]
+        },
+        {
+          "degree": 5,
+          "multiplicity": 1,
+          "coefficients": [
+            938,
+            275,
+            407,
+            107,
+            598,
+            1
+          ]
+        },
+        {
+          "degree": 6,
+          "multiplicity": 1,
+          "coefficients": [
+            142,
+            259,
+            122,
+            948,
+            690,
+            427,
+            1
+          ]
+        },
+        {
+          "degree": 6,
+          "multiplicity": 1,
+          "coefficients": [
+            875,
+            80,
+            203,
+            525,
+            921,
+            603,
+            1
+          ]
+        },
+        {
+          "degree": 7,
+          "multiplicity": 1,
+          "coefficients": [
+            176,
+            956,
+            446,
+            129,
+            501,
+            16,
+            931,
+            1
+          ]
+        },
+        {
+          "degree": 8,
+          "multiplicity": 1,
+          "coefficients": [
+            496,
+            334,
+            965,
+            476,
+            93,
+            479,
+            401,
+            27,
+            1
+          ]
+        },
+        {
+          "degree": 8,
+          "multiplicity": 1,
+          "coefficients": [
+            887,
+            757,
+            992,
+            925,
+            997,
+            325,
+            34,
+            957,
+            1
+          ]
+        },
+        {
+          "degree": 9,
+          "multiplicity": 1,
+          "coefficients": [
+            355,
+            928,
+            741,
+            459,
+            368,
+            277,
+            352,
+            153,
+            131,
+            1
+          ]
+        },
+        {
+          "degree": 10,
+          "multiplicity": 1,
+          "coefficients": [
+            643,
+            371,
+            604,
+            174,
+            910,
+            340,
+            359,
+            714,
+            125,
+            456,
+            1
+          ]
+        },
+        {
+          "degree": 11,
+          "multiplicity": 1,
+          "coefficients": [
+            245,
+            623,
+            787,
+            767,
+            388,
+            293,
+            867,
+            139,
+            306,
+            639,
+            364,
+            1
+          ]
+        },
+        {
+          "degree": 12,
+          "multiplicity": 1,
+          "coefficients": [
+            1003,
+            413,
+            776,
+            410,
+            658,
+            116,
+            922,
+            550,
+            664,
+            747,
+            725,
+            966,
+            1
+          ]
+        },
+        {
+          "degree": 15,
+          "multiplicity": 1,
+          "coefficients": [
+            240,
+            386,
+            264,
+            93,
+            837,
+            895,
+            359,
+            929,
+            111,
+            711,
+            373,
+            61,
+            709,
+            353,
+            524,
+            1
+          ]
+        },
+        {
+          "degree": 16,
+          "multiplicity": 1,
+          "coefficients": [
+            34,
+            101,
+            355,
+            664,
+            144,
+            701,
+            437,
+            60,
+            252,
+            814,
+            843,
+            995,
+            188,
+            362,
+            491,
+            964,
+            1
+          ]
+        },
+        {
+          "degree": 17,
+          "multiplicity": 1,
+          "coefficients": [
+            678,
+            257,
+            346,
+            266,
+            584,
+            627,
+            551,
+            752,
+            510,
+            359,
+            683,
+            443,
+            109,
+            714,
+            142,
+            748,
+            459,
+            1
+          ]
+        },
+        {
+          "degree": 20,
+          "multiplicity": 1,
+          "coefficients": [
+            800,
+            587,
+            657,
+            586,
+            117,
+            458,
+            249,
+            950,
+            288,
+            780,
+            903,
+            474,
+            222,
+            570,
+            304,
+            777,
+            437,
+            339,
+            987,
+            774,
+            1
+          ]
+        },
+        {
+          "degree": 22,
+          "multiplicity": 1,
+          "coefficients": [
+            255,
+            663,
+            149,
+            673,
+            1001,
+            426,
+            969,
+            735,
+            820,
+            385,
+            141,
+            48,
+            778,
+            898,
+            888,
+            127,
+            784,
+            154,
+            830,
+            754,
+            74,
+            102,
+            1
+          ]
+        },
+        {
+          "degree": 29,
+          "multiplicity": 1,
+          "coefficients": [
+            591,
+            549,
+            610,
+            947,
+            1006,
+            310,
+            583,
+            319,
+            312,
+            447,
+            763,
+            509,
+            578,
+            392,
+            138,
+            493,
+            26,
+            883,
+            940,
+            935,
+            370,
+            525,
+            660,
+            151,
+            680,
+            154,
+            518,
+            21,
+            736,
+            1
+          ]
+        },
+        {
+          "degree": 37,
+          "multiplicity": 1,
+          "coefficients": [
+            261,
+            99,
+            882,
+            79,
+            84,
+            222,
+            203,
+            911,
+            707,
+            617,
+            48,
+            400,
+            633,
+            351,
+            379,
+            179,
+            118,
+            164,
+            393,
+            647,
+            613,
+            742,
+            329,
+            765,
+            447,
+            948,
+            467,
+            778,
+            407,
+            996,
+            935,
+            513,
+            244,
+            267,
+            446,
+            642,
+            212,
+            1
+          ]
+        },
+        {
+          "degree": 44,
+          "multiplicity": 1,
+          "coefficients": [
+            604,
+            810,
+            958,
+            441,
+            121,
+            429,
+            851,
+            653,
+            564,
+            544,
+            308,
+            773,
+            868,
+            53,
+            786,
+            652,
+            491,
+            965,
+            601,
+            950,
+            176,
+            49,
+            116,
+            944,
+            870,
+            951,
+            57,
+            863,
+            517,
+            327,
+            378,
+            795,
+            416,
+            375,
+            92,
+            872,
+            389,
+            789,
+            800,
+            807,
+            908,
+            375,
+            380,
+            490,
+            1
+          ]
+        },
+        {
+          "degree": 52,
+          "multiplicity": 1,
+          "coefficients": [
+            423,
+            284,
+            685,
+            755,
+            22,
+            602,
+            571,
+            192,
+            539,
+            150,
+            644,
+            22,
+            124,
+            472,
+            66,
+            195,
+            763,
+            989,
+            464,
+            385,
+            1004,
+            675,
+            421,
+            973,
+            159,
+            22,
+            520,
+            51,
+            356,
+            365,
+            39,
+            634,
+            429,
+            817,
+            616,
+            928,
+            1005,
+            688,
+            845,
+            343,
+            434,
+            915,
+            67,
+            179,
+            308,
+            215,
+            590,
+            120,
+            285,
+            849,
+            883,
+            390,
+            1
+          ]
+        },
+        {
+          "degree": 63,
+          "multiplicity": 1,
+          "coefficients": [
+            1004,
+            603,
+            875,
+            542,
+            799,
+            488,
+            562,
+            22,
+            76,
+            598,
+            360,
+            7,
+            937,
+            863,
+            637,
+            536,
+            984,
+            136,
+            203,
+            192,
+            139,
+            843,
+            365,
+            349,
+            555,
+            872,
+            323,
+            243,
+            430,
+            547,
+            212,
+            1004,
+            117,
+            550,
+            13,
+            230,
+            526,
+            703,
+            257,
+            227,
+            677,
+            84,
+            130,
+            391,
+            151,
+            698,
+            647,
+            22,
+            4,
+            587,
+            427,
+            576,
+            601,
+            853,
+            842,
+            788,
+            914,
+            173,
+            419,
+            123,
+            441,
+            437,
+            636,
+            1
+          ]
+        },
+        {
+          "degree": 64,
+          "multiplicity": 1,
+          "coefficients": [
+            451,
+            582,
+            786,
+            568,
+            163,
+            508,
+            3,
+            571,
+            49,
+            645,
+            120,
+            896,
+            204,
+            598,
+            426,
+            631,
+            366,
+            639,
+            524,
+            171,
+            175,
+            358,
+            193,
+            947,
+            235,
+            257,
+            299,
+            129,
+            728,
+            675,
+            420,
+            72,
+            396,
+            795,
+            145,
+            559,
+            536,
+            915,
+            98,
+            268,
+            668,
+            994,
+            199,
+            124,
+            71,
+            354,
+            575,
+            832,
+            117,
+            917,
+            5,
+            67,
+            533,
+            958,
+            855,
+            451,
+            95,
+            734,
+            24,
+            490,
+            481,
+            47,
+            225,
+            789,
+            1
+          ]
+        },
+        {
+          "degree": 73,
+          "multiplicity": 1,
+          "coefficients": [
+            426,
+            410,
+            642,
+            544,
+            146,
+            305,
+            559,
+            180,
+            520,
+            341,
+            642,
+            963,
+            669,
+            966,
+            530,
+            404,
+            523,
+            987,
+            365,
+            175,
+            696,
+            374,
+            74,
+            531,
+            321,
+            203,
+            526,
+            825,
+            488,
+            37,
+            11,
+            205,
+            961,
+            91,
+            478,
+            134,
+            9,
+            956,
+            651,
+            17,
+            396,
+            352,
+            841,
+            503,
+            774,
+            576,
+            274,
+            74,
+            225,
+            887,
+            857,
+            694,
+            418,
+            56,
+            227,
+            124,
+            133,
+            458,
+            215,
+            991,
+            972,
+            764,
+            753,
+            891,
+            346,
+            1005,
+            284,
+            523,
+            266,
+            468,
+            209,
+            1002,
+            252,
+            1
+          ]
+        },
+        {
+          "degree": 90,
+          "multiplicity": 1,
+          "coefficients": [
+            526,
+            329,
+            275,
+            814,
+            852,
+            435,
+            18,
+            648,
+            914,
+            66,
+            55,
+            10,
+            887,
+            309,
+            452,
+            280,
+            370,
+            17,
+            901,
+            667,
+            624,
+            973,
+            878,
+            317,
+            342,
+            31,
+            205,
+            691,
+            119,
+            326,
+            823,
+            442,
+            524,
+            47,
+            567,
+            74,
+            748,
+            131,
+            241,
+            438,
+            350,
+            167,
+            413,
+            7,
+            615,
+            41,
+            16,
+            183,
+            687,
+            93,
+            510,
+            935,
+            20,
+            2,
+            957,
+            476,
+            21,
+            287,
+            395,
+            764,
+            469,
+            635,
+            745,
+            89,
+            62,
+            592,
+            291,
+            161,
+            496,
+            52,
+            488,
+            395,
+            766,
+            395,
+            775,
+            993,
+            194,
+            797,
+            134,
+            511,
+            33,
+            980,
+            562,
+            194,
+            206,
+            408,
+            671,
+            1005,
+            904,
+            896,
+            1
+          ]
+        },
+        {
+          "degree": 103,
+          "multiplicity": 1,
+          "coefficients": [
+            99,
+            547,
+            334,
+            399,
+            776,
+            791,
+            129,
+            577,
+            276,
+            687,
+            224,
+            167,
+            582,
+            659,
+            883,
+            807,
+            90,
+            807,
+            725,
+            614,
+            862,
+            947,
+            658,
+            776,
+            861,
+            614,
+            420,
+            201,
+            921,
+            358,
+            67,
+            628,
+            215,
+            612,
+            855,
+            913,
+            162,
+            332,
+            24,
+            515,
+            641,
+            723,
+            59,
+            165,
+            65,
+            666,
+            970,
+            355,
+            170,
+            159,
+            910,
+            725,
+            141,
+            693,
+            388,
+            559,
+            831,
+            818,
+            375,
+            564,
+            406,
+            248,
+            97,
+            459,
+            627,
+            823,
+            273,
+            634,
+            21,
+            22,
+            447,
+            576,
+            649,
+            1,
+            479,
+            900,
+            366,
+            879,
+            111,
+            665,
+            512,
+            594,
+            288,
+            352,
+            941,
+            801,
+            543,
+            485,
+            391,
+            290,
+            456,
+            559,
+            335,
+            43,
+            539,
+            692,
+            631,
+            748,
+            788,
+            682,
+            540,
+            1008,
+            616,
+            1
+          ]
+        }
+      ],
+      "noMultivariateModularEmptinessClaim": true,
+      "claimExcluded": false,
+      "seconds": 45.669976470999984
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 0,
+      "kDegree": 1,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 16865,
+        "sha256": "d5501d0ee9f33ff2393d5296b3f119be137f1b94ecfb5ecc148deeecb424520e"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 45.914834498000005
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 1,
+      "kDegree": 1,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 16851,
+        "sha256": "1e2ed06b5f911d20a0ca9a141337ad2482e9dc13a91a6357e8ad80fc30dbb3f6"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 46.15594903900001
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 2,
+      "kDegree": 1,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 16858,
+        "sha256": "72f91f946297413186ab341d9d89978d646af88a1429441de717613331110a3e"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 46.39684745399995
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 3,
+      "kDegree": 1,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 16874,
+        "sha256": "5f89c50e00b5dc535625e24b129602e42fc14fe9aaeca09840e90fda0d47b622"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 46.64073340199997
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 4,
+      "kDegree": 2,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 25420,
+        "sha256": "55c858edbc6cb03fd11d2edd6354fcdf2cc38942c97d3bffe30ae5c75559568d"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 46.98126926599997
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 5,
+      "kDegree": 2,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 25411,
+        "sha256": "ba3108700d69fd03657d7eeb9c7476493f965d771c7ac63f469edb9314cbf01a"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 47.318914751999955
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 6,
+      "kDegree": 2,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 25419,
+        "sha256": "86daba415a0494a4edddf83dd688a5f1b4e671b603247e6ed30ee95ad5dba9fd"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 47.662647623
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 7,
+      "kDegree": 2,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 25439,
+        "sha256": "add6890ce92f816e9c769913b32dfdb417e6ed94b79f3804dcb427c72c1dc0fe"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 48.000990779000006
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 8,
+      "kDegree": 2,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 25436,
+        "sha256": "6541da482b758cc4c4352e9b234a0cfb91e622e0fdde1f0d88d16e005bda51d4"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 48.33509150399999
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 9,
+      "kDegree": 2,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 25415,
+        "sha256": "e1bc69d7e6acc3fbe879cd5bfba50cb879a88497138b64a53268c6954aa038b4"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 48.676772408999966
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 10,
+      "kDegree": 2,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 25456,
+        "sha256": "d039428b91e506c6247e603b608b1304c377d2cff34c98dd07089119ecd4bf53"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 49.018723328999954
+    },
+    {
+      "stage": "new_D27_finite_actual_e_zero_divisor_complete_split",
+      "kFactorIndex": 11,
+      "ePath": "D27",
+      "left": [
+        [
+          1,
+          758,
+          757
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "right": [
+        [
+          739,
+          733,
+          460
+        ],
+        [
+          383,
+          412,
+          436
+        ],
+        [
+          672,
+          79,
+          966
+        ],
+        [
+          1,
+          503,
+          252
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "wholeEPolynomialProductActuallyVerified": true,
+      "bothOriginalBranchesRetained": true,
+      "claimExcluded": false,
+      "seconds": 49.12046123699997
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 11,
+      "kDegree": 3,
+      "kMultiplicity": 1,
+      "ePath": "D27/a",
+      "eDegree": 1,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 33,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": false,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": false,
+      "certificate": {
+        "bytes": 8077,
+        "sha256": "8b85a75a0dc283e8c942acfda11b182387ca7c2d0dc4a90d379e8ee952333b5b"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 49.35352468399998
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 11,
+      "kDegree": 3,
+      "kMultiplicity": 1,
+      "ePath": "D27/b",
+      "eDegree": 4,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 27973,
+        "sha256": "4b8702a0fbb57312843c7d2cd4d3c96c4614d2a5eb108be30b784ec85dbd059d"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 49.621538155999986
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 12,
+      "kDegree": 3,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 33992,
+        "sha256": "7c4e3f20eb160a3e2e8c31ab134c561316dd7c971c7b2e06633511d011be1623"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 49.97350579099998
+    },
+    {
+      "stage": "new_D27_finite_whole_e_algebra_original_48x35_return",
+      "kFactorIndex": 13,
+      "kDegree": 3,
+      "kMultiplicity": 1,
+      "ePath": "D27",
+      "eDegree": 5,
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "allBasisOriginalThirtyFiveColumnProductsActuallyVerified": true,
+      "originalUnitThirtyFiveColumnProductsActuallyVerified": true,
+      "allActualInverseProductsOne": true,
+      "fullColumnRank": true,
+      "certificate": {
+        "bytes": 34024,
+        "sha256": "74c4244d3072122b67cf4e5a8520a6336c2f4f1d94d536fea5d11cc44df2456a"
+      },
+      "wholeD27Excluded": false,
+      "claimExcluded": false,
+      "seconds": 50.32060528599999
+    }
+  ],
+  "scope": {
+    "exactQQPartitionF806EqualsF24TimesF782": true,
+    "completeGoodPrimeAndFortySixFactorProductVerified": true,
+    "wholeHighQQExclusion": false,
+    "unreturnedModularLinearEBranch": {
+      "kFactorIndex": 11,
+      "kCoefficients": [
+        12,
+        14,
+        7,
+        1
+      ],
+      "eCoefficients": [
+        [
+          1,
+          758,
+          757
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "boundedDegreeFourRank": 33,
+      "unitTargetNotAttemptedBecauseFullColumnRankFalse": true
+    },
+    "remainingBaseFactorIndices": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "completedModularBranchesNotIndependentlyClaimedQQFactors": true
+  },
+  "nextInput": "Retain exact F24 QQ branches; isolate native finite-field processes and use new degree-five original rows for the unresolved branch, without replaying the completed modular certificates."
+}
