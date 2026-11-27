@@ -73,3 +73,7 @@
 ### 2026-11-27 16:27 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1103§6.1补齐原八管域全部非q局部项：好素smooth proper模型的实际对应线丛、整轴/对角评价刚化和唯一Néron splitting给零；原坏47另消费R1074§9。
 - root/global/o1回读R148/R43核全部范数向量与ℓ2平方处理，涵盖degree非0及非整j/cusp约化。无新执行；真实α/CM坐标/有限行秩继续。
+
+### 2026-11-27 16:28 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 八CM切向消费者保完整原tag、SS25选择、I=13J/norm/Weil2、两phase/heat与三coarse尺度；root/o1/o2全文核准，已提交新600秒/reserve30公开请求。
+- 新增课题外workflow serre-full-p47-eight-CM-tangents.yml，固定Sage10.6与python-flint0.9.0。只算新8×16切向，原λ/高log不重算，继续真α/角坐标。
