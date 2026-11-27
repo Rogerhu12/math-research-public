@@ -1,0 +1,115 @@
+{
+  "schema": "isp-original-partial-phi-obstruction-repeated-factor-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateTaipei": "2026-11-28",
+  "runId": 46051028892,
+  "jobId": 140682083101,
+  "source": "notes/2026-11-28-unit211-Phi-zero-exceptional-S-quartic-partial-common-factor-phi-jets-input-8542.py",
+  "sourceGitBlob": "b5572a0bcd543e59321e25aa930384b8d57e9ddb",
+  "sourceSHA256": "ffbdcb83af4f183c68d8255694a44cc1e19831ad94c1aa303515363b46b7ce5c",
+  "actualDriver": {
+    "elapsed_seconds": 0.14774676599999736,
+    "max_child_rss_kib": 40444,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "0732bf8a94daf8680bc98874a4e54222586190e6",
+        "before": "2f42ccac9a928feca73179f6aa12b10b5baf618e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T18:39:13.143339+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46051028892",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "2f42ccac9a928feca73179f6aa12b10b5baf618e",
+    "source_exit_code": 0,
+    "source_git_blob": "b5572a0bcd543e59321e25aa930384b8d57e9ddb",
+    "source_sha256": "ffbdcb83af4f183c68d8255694a44cc1e19831ad94c1aa303515363b46b7ce5c",
+    "stdout_bytes": 18125,
+    "stdout_sha256": "521fd732aaaececc5b004bf655b4d2cc19714c16e34cb9fbb8c15b3bd1a83cbc",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "pair": "NEW partial first-jet obstruction",
+      "step": 1,
+      "divisorDegree": 3,
+      "nextRemainderDegree": 2,
+      "stage": "new_exact_QQ_rho_gcd_step",
+      "seconds": 0.08036773800000674
+    },
+    {
+      "pair": "NEW partial first-jet obstruction",
+      "step": 2,
+      "divisorDegree": 2,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_rho_gcd_step",
+      "seconds": 0.08953141400000675
+    },
+    {
+      "originalG4Degree": 4,
+      "obstructionRhoDegree": 3,
+      "partialCommonFactorDegree": 2,
+      "partialFactorAscending": [
+        [
+          "9834966905757/239608319477",
+          "-19260839935128/239608319477",
+          "12026420208528/239608319477",
+          "-3247437333840/239608319477"
+        ],
+        [
+          "5306433907382/239608319477",
+          "-12372655921520/239608319477",
+          "8039735719632/239608319477",
+          "-2131793591760/239608319477"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "noOldFullCommonLiftSystemRecomputed": true,
+      "existing112BoundUnchanged": true,
+      "stage": "new_actual_partial_phi_obstruction",
+      "seconds": 0.09105034600000295,
+      "completeObstructionCoefficientDigest": {
+        "bytes": 16799,
+        "sha256": "689dd49fbc08415e5648bf8e0b0bebf972fa32e0b733c6d8141d454faca7e1de",
+        "canonicalEncoding": "JSON of ascending rho coefficients, each four ascending rational lambda strings"
+      }
+    },
+    {
+      "pair": "NEW partial factor versus exact complement",
+      "step": 1,
+      "divisorDegree": 2,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_rho_gcd_step",
+      "seconds": 0.09137050000001068
+    },
+    {
+      "commonDegree": 2,
+      "noWholePartialJetClaim": true,
+      "existing112BoundUnchanged": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_partial_factor_and_complement_not_coprime_retained",
+      "seconds": 0.0914151529999998
+    }
+  ],
+  "conclusion": {
+    "commonG4IsTheSquareOfTheReturnedMonicQuadratic": true,
+    "partialFactorAndComplementNotCoprime": true,
+    "noFurtherPartialJetSystemExecuted": true,
+    "qqPhiMultiplicityLowerBound": 4,
+    "qqPhiMultiplicityUpperBound": 8,
+    "previous112BoundUnchanged": true,
+    "ordinaryISPClaim": false
+  }
+}
