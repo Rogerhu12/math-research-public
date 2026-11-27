@@ -18,6 +18,8 @@
 
 [R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)：原非整j局部分支由同一cusp的Kummer-annihilator Frobenius并集精确判别；−1modp整支仍相容，候选非零坐标给无条件秩下界。一般p的affine像/分母全局排除仍开。固定47现由下述独立全链完成，不再保留该固定曲线的伪缺口。
 
+[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)在p>691付规范cover的真正cusp算术纤维：原Tate tangential整支撑、低偶权L2..14消失与q_h偶单项式杀余差，得c_h=φ_h(Ξ_5,9;14)，φ_h=(u_hx/2,u_h²y/2+kx,u_h³z/4+ku_hx²/4)。ℓ−1时κ=z−xy/2使self项全消，κcusp=u_h³κ14/4；同cusp条件是准确六次幂判据。γ5γ9非零门内（Bp−5/Bp−9单位足够）付逐global标签准确密度，并由纯weight14 vs全部target weight8给正密度同一ℓ排全部标签/全部cusps。未排affine、无小素界、不宣分母为空；失效门仍开。
+
 [R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：原forced r=p−1−2j且B_(4j+2)、B_(p−1−4j)均unit时，Ca同素数DVR及trace理想BC=m付原秩二整格；实际偶cuspline锁非分裂方向0→ω^r→J[m]→ω^(1−r)→0。整个块Fricke+、奇K有理p∞全零；真实扭点域为K(β_(4j+2)^(1/p))，不是β_r。原规范整K₂[p]的ω^(2j+2)分量零。p1mod4至少五个块，p3mod8的j=(p−3)/8由二次类数无条件；其余块及真实cup/四阶cover仍开；常数角色另见R1132。
 
 [R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：完整Y=X_ns(p)的真实ω^(1−r)尖点线在w负部，full整p Chen及同素数DVR/唯一new秩二迫整个块w=−1；故原X_ns^+的该几何p-divisible块为零。准确范围：偶2≤r<(p−1)/2且B_(2r)、B_(p+1−2r)单位。r=2只需p∤B_(p−3)，因此原全尖点规范的Δ平凡未分歧整K₂[p]残余为零。仍须实际整类/tame/规范与cup接口，不代K₂/p或四阶cover。 R1132§8.1又付p7mod8的低偶r=(p+1)/4：两Bernoulli相同且由二次类数无条件为unit，原整块及规范K₂角色3(p+1)/4均零；仍非平凡角色，不删常数门前提。

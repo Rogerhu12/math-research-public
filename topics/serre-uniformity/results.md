@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原规范Heis的真实尖点纤维与负一分支（已证明）**：[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)在p>691付规范cover的真正cusp算术纤维：原Tate tangential整支撑、低偶权L2..14消失与q_h偶单项式杀余差，得c_h=φ_h(Ξ_5,9;14)，φ_h=(u_hx/2,u_h²y/2+kx,u_h³z/4+ku_hx²/4)。ℓ−1时κ=z−xy/2使self项全消，κcusp=u_h³κ14/4；同cusp条件是准确六次幂判据。γ5γ9非零门内（Bp−5/Bp−9单位足够）付逐global标签准确密度，并由纯weight14 vs全部target weight8给正密度同一ℓ排全部标签/全部cusps。未排affine、无小素界、不宣分母为空；失效门仍开。
+
 - **原Gaussian低行minor的模参数来源（已证明）**：[R1135 §12](results/R1135-original-Gaussian-low-row-fiber-constraint.md)新付原Δ_low的完整heat/模参数式：3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，F=G_(p−7)、K=∂G_(p−9)。在原p|Bp−7支，该权2p−10多项式的q阶恰1或2，首系数−105F1G0/16或−189F1G1/16均unit；完整V3/V4未删。非零多项式仍可能在Gaussian b0取零，指定minor/实际good节点未关。
 
 - **原Dixon两实际谱块及原双读数（已证明）**：[原Dixon双谱生成式](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md) §§6–8进一步付原Fermat平移、D³=2vT、q_N/r_N两个实际主块与完整生成式；r_N(λ)=R1076的η_k(λ/3)。Γ=(2v)^(2k)下q_N(0)=δr_N(0)/(2Γ)，e0时q_N′(0)=δr_N′(0)/(2Γ)，r_N′(0)=ν_k/3。Lagrange反演将完整谱写成原Dixon逆函数σ_D的互倒平方根(σ_D/τ)^(±1/2)相邻系数，全部阶乘/逆级数低于p；指定两系数非同时零仍开，未从大块Jordan或特征零正性偷推。

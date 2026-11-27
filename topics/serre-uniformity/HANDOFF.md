@@ -6,29 +6,31 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：195f1686a404b9d13a3adea3369e681b952a8c65**（2026-11-28 06:38 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：9a27fcfe4b28c35aeb777b80bcdc257a3a7e77b1**（2026-11-28 06:45 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull已恢复：2026-11-28 06:21 Asia/Taipei，公开Actions run46076082440/job140764009178，在blob:none浅部分克隆中真实pull --rebase至fb9f91b6，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:10、真实pull≤07:21。本地06:18仍无环境；本地恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Dixon-spectral-functions.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-canonical-cusp-fibres.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
-## O0：完整一般 p 与原算术 cochain
+## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
-[R1003](results/R1003-global-scope-and-remaining-branches.md)保完整N_ns；R317的整j/固定K/σ1/二三小域和小惯性C³均未删。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)原good≥floor(p/16)+3、forced Ω(p/logp)；原候选O(p^1.5logp)，有界惰性CM不推Q-CM。[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)已付同时非零与导子/判别式，选素界仍不够；[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)仍容−1modp整支。一般p排点未成。
+[R1003](results/R1003-global-scope-and-remaining-branches.md)保完整N_ns；R317整j/固定K/σ1/二三小域和小惯性C³均未删。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)原good≥floor(p/16)+3、forced Ω(p/logp)，候选O(p^1.5logp)；有界惰性CM不推Q-CM。[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)原圆单位同时非零、导子/判别式已付，最小辅助素仍太大。[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)原abelian标签容−1整支；新非阿贝尔限制见R1148，不反改原结论。
 
-R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2非split/Fricke+，radical β_(4j+2)，奇K有理p∞及指定规范整K₂角色消零。R1132的低偶r两Bernoulli门迫full块w负，原正商该块零；r2须Bp−3单位，p7mod8指定r由二次类数无条件。整Chen/Ohta、全cusp平均与原rational-zero单位关系已成；这些结论均不代任意K₂/p杯积零。
+[R1131–32](results.md)分别在原forced高偶r的两Bernoulli门、低偶r的B2r/Bp+1−2r门锁完整DVR/Fricke符号，消各自指定odd-K扭点及整K₂角色；r2须Bp−3，p7mod8指定r由二次类数无条件。实际radical β_(4j+2)非β_r。全cusp平均/原整rational-zero关系已付；不代任意K₂/p或全部块。
 
-[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数、Heis/class4 p⁵塔与Fourier交换已成；cusp须四moments，Norm仅M0；p⁷纤维积只保两极端四阶。原aux-c/跨line全部cross及ψ₂²保于open/前态；常Lie中心ω²非e₀整torsion。四阶proper/arithmetic继续。
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数、Heis/class4 p⁵塔与Fourier交换已付；cusp四矩仍须全零，Norm仅M0，p⁷纤维积只保两极端四阶。aux-c/跨line全部cross、ψ₂²及常Lie ω²非e₀整torsion均保open/前态。四阶proper/arithmetic仍开。
 
-[R1136–40](results.md)原完整Manin来源、两种秩/J/transfer/Hecke与两个cross均已付。全部n>3,n≠p有 S_n=(4/m²)V_n{Fχ,Fψ}；F33门内付整个target unsmoothing，四阶原邻对未扩。原j1,k2有C¹=0、C²=16δ²C_Eis/21，β=β_E+β₈；p-isogeny两槽、真实degree-p norm与全cusp tame见R1140。原ε4=βχ2/(1−a⁻⁴)，v4=1/252，v8=1/132；旧窗口不重做。
+[R1136–40](results.md)完整Manin、J/transfer/Hecke/cross/p-isogeny/degree-p norm和全tame已付。S_n=(4/m²)V_n{Fχ,Fψ}；一般F33门不扩大。指定j1,k2的rank1零/rank2端点16δ²/21，旧原尺度沿结果消费。
 
-[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件 c_Eis=−2016δ²Pχ1≠0，原BM整格/负Abel/全μ边界/J/原m尺度全部付。[R1141–42](results.md)在Bp−5单位时，原arith-proper I3块H²=O/p，实际MW Pic只能0或全；d0/1分别给constant cup的field像非零/零。原Bhat=A1∪βχ2非零且生成socle；d仍未定。
+[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件c_Eis=−2016δ²Pχ1≠0。[R1141–42](results.md)Bp−5单位时原proper I3 H²=O/p，constant cup非零socle；MW d0/1对应field像非零/零，d未定。
 
-[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术 A1∪A2=−8δ² A1∪ε4/11，故 A1∪(A2+8δ²ε4/11)=0。有限矩的完整Tate transfer/arith项、ram–ram cyclic cup、全H²检测、polar三项、两次factor2及proper/S回填均付，不反除p。指定pair实际β8=0且 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，已替代旧未知λ/c及该pair的F33门；不扩大一般pairs或将未修正proper类当零。
+[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术 A1∪A2=−8δ² A1∪ε4/11，修正pair杯积零；ε4=βχ2/(1−a⁻⁴)，v4=1/252、v8=1/132。完整Tate算术transfer、cyclic cup、HS检测/polar/两factor2及proper回填已付。指定β8=0且Ψ_E(Pχ1)={F1,ε4}/(132δ²)，不扩一般pairs/四阶或误删未修正proper非零。
 
-[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)构造原修正pair的proper算术Heis p³，L3/L5/L8、dz=−a∪b、满几何monodromy、全cusps/ℓ≠p含2、3已付。B8给H¹/H²(S0,L8)=0，全局abelian pair提升唯一；p-local中心一维。曲线twists=J(K)[p]ω⁻⁷，B16/Bp−15门内删I8后cover唯一。
+[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)原L3/L5/L8的proper Heis p³、满几何像和全部cusps/ℓ≠p含2、3已付。B8给base中心H¹/H²0，每个global abelian pair唯一lift，p-local中心一维。曲线twists=J(K)[p]ω⁻⁷，B16/Bp−15门内删I8才全无。
 
-[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)无门给同一cover的指定原来源：全S0有限矩、Sym12(2)⊕Sym8(4)⊕Sym4(6)中心H¹0，原p⁴² universal class2 lift唯一；q_I的全部det twists/polar系数pushout到上述Heis。逐ℓ theta共同vertical阶、2/3 coarse稳定子、real cusp的L7惯性和正则模型purity全部付。没有删曲线其它twists。global继续同一finite moment来源的p-local首项/SS接口；尚未用一维中心或规范来源宣排点，class4和一般pair继续。
+[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)无门选择规范原来源：全S0有限矩及中心Z的H¹0/H²泛点单射给唯一p⁴² universal lift，原q_I完整det/polar pushout。2/3 coarse、real cusp L7及purity齐备；未删曲线其它twists。global继续同一theta primitive p^n的兼容整moment tower与SS接口，不将复解析E6/E10代有限读数。
+
+[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)在p>691付规范cover的真正cusp算术纤维：原Tate tangential整支撑、低偶权L2..14消失与q_h偶单项式杀余差，得c_h=φ_h(Ξ_5,9;14)，φ_h=(u_hx/2,u_h²y/2+kx,u_h³z/4+ku_hx²/4)。ℓ−1时κ=z−xy/2使self项全消，κcusp=u_h³κ14/4；同cusp条件是准确六次幂判据。γ5γ9非零门内（Bp−5/Bp−9单位足够）付逐global标签准确密度，并由纯weight14 vs全部target weight8给正密度同一ℓ排全部标签/全部cusps。未排affine、无小素界、不宣分母为空；失效门仍开。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon 输入
 
