@@ -555,3 +555,10 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 [完整证明](results/R133-supplement-actual-selected-cap-and-complete-height-feedback-absorption.md)与[38个新exact组合](scripts/fourfold_codazzi_selected_cap_feedback_saved_bounds.py)。M(γ,fBγ)保原γ值域、固定sB、全curvature/f_*/κ/two means/unscreened span，真实H8193 C1至cap q1165；Hilbert方向用完整lag卷积，不由isolated columns推op norm。L_*DfB全physical列<2^-31223196，同界支付原完整97 moving输入及Cmean；H_C0常moving输入的无限physical像不截。
 
 两旧CPA完整finite193 comparison仅作精确正矩阵rank-one更新，truecut feedback<2^-31223185，full新gap>3/4,12/25,6/25；tail>3/4,61/125,1/4。四独立source/right97/highbody/highcut接收表给整数upper，highcut新项保pYτ(cC+1)/(1−q)。actual selected secant吸收真实fB差一次，CH原quadratic/差界继续有效；独立外给height、λ、waist、affine、high与moving-chart准入不删除。未知core存在/全high/actualworld/固定metric族未授。38新组合仅首算全过，旧CPA数字/科学不重。
+
+
+### R147 BFP：真正完整target-normalized ν列和原Θ消费
+
+[完整证明](results/R147-supplement-complete-target-normalized-nu-forward-column-by-pullback.md)与[新纯公式](scripts/fourfold_codazzi_full_target_nu_forward_residual_math.py)。同一strictν从NP/PO/ASB/JC/DBRA已成输入选一个新512mode forward trial，形成全部2560 signed输出；用准确pullback积分∫(r(G)G′−f)²/G′认证全圆L² residual，保8192全点、真正G′chain、完整Wiener无限alias。true H/G density同伦费包含Jacobian和lift二导，真w两whole products/PDE费全保；同一WBP onto inverse给全列误差，Q_a只在trueB后投影，不假定trial有真a parity。
+
+原Θ消费保整个新512目标坐标及true Cayley multipliers、完整OT96×2240 carrier，误差用EV·||Gbar Xhat||+EM·||xhat||+(新Θtrial norm+原global error)δX+96joint配对费。未用low96补零或拿12.588坐标逆当全Θ norm。19自然新目标未执行，BGR3可同次必要恢复；在跑BNC7、旧DWTB/IR/ASR/OT/UDRC/CYA全目标均不重。

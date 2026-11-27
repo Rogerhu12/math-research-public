@@ -188,3 +188,8 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 ### 2026-11-27 — SCAP闭合actual selected cap及其finite193 height反馈
 
 独立推送proof28541B与pure8040B；依赖public SHL552f24cd78fe9cabdcd036f90a0e35b07ad7e024。原M/I/CPA/USC实际完整输出/低高范数/两mean及moving97全输入保，新增真正height列τ<2^-31223196，cut feedback<2^-31223185。两case原完整正矩阵和exact determinant更新，不以saved upper当equal；四列integer table含highcut直接+1项。selected nonlinear secant已把同一个height差吸收一次，外给height仍独立。38新exact组合一次全过，旧矩阵/积分/science0重算。H旧detail保5c94不可变版本与完整proof，压缩只索引。
+
+
+### 2026-11-27 — BFP补齐完整forward ν列的可执行证书
+
+独立推送BFP新proof13142B/7438692ea404ec703d9a7bdca2983b038991735660949eb195ac054668d8b7a0及pure14620B/f900390d336d48319be9940725fdda5e6a99eec06ba0efd11004691393ac613a。新proof仅转换美元公式分隔符，数学不变。证明full512 trial→2560同号forward outputs→8192全圆pullback残差→trueB inverse/truea投影→完整原Θν列，密度Jacobian/二导、无限alias、两w候选、全PDE/mean/相位均保；原全Θ850级误差诚实用于δX，不误用finite square界。19新目标未执行，BGR3可同次恢复，原在跑BNC7不改且成功旧目标禁重。TC05:11只读accepted union1876、contiguous1320、failure null，未把started当成完成。
