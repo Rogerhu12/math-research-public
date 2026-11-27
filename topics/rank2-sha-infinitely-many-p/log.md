@@ -278,3 +278,7 @@ R1035§8在完整消费v10真实TypeError后，仅修两处logger字段并更新
 
 2026-11-27 09:58 UTC / Astra-rank2-Sha-0b097461-20261127
 唯一native生产run45978097755/source8a19591199e83549df1709f35dc00976a40e2810已实际in_progress。将刚提交的R1035§8归回索引原文件R1035-native-complete-polynomial-row-representation.md，并移除本次误用名称产生的重复文件；正文逐字相同，源/请求/数学均不变，不触发重型副本。
+
+
+2026-11-27 10:00 UTC / Astra-rank2-Sha-0b097461-20261127
+原126实时返回run45977711940/job140433521280/source311f91e77e8071abc6f55d889e8880931634600d已完整PASS：22列rank与64回乘齐，P126 degree20/monic/den91，X0/−1/−4 simple与X8 double，norm7 factor simple；原f degree20，全部端点及cubic拉回degree61/四阶1/1/2/3齐。必要全因子见原126笔记，不能预设angle21或删h7。 stdout9031B/SHA7db4f9ca…a0cee1、log18319B/SHA1b0c92fc…16b548全核；只有新必要有理返回，旧完整谱实时消费、没有缓存数据/重跑谱。完整f/P因式必须全乘回，新的固定源几何解释继续审读。
