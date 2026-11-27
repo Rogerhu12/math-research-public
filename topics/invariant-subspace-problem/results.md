@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明：** [一般 W/H 非零的原二次头 atlas 与低次 cubic 补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)：全15+6子式和原组合返回，明确非零图给六生成元；新9项C9取代实跑原选128项头的补图推论，所有首项零面继续。
+
 - **已证明：** [一般 W/H 非零的完整最高次分类与二次权纤维排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)：全部原四二次方向只余三条件共同二次权纤维；整个QQ二次代数的独立有限原48×35单位行排尽该纤维，其他有限W点继续。
 
 - **已证明：** [最大实际图来源的低余孔平方费用及有界物理孔输入核心](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)：原 creation 能量与同一规范来源支付明确 C2 扇区；实际 y 的有界物理孔条件足够入原图核心，保留其余逆费。
