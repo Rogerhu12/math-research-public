@@ -197,7 +197,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [整个Delta0已闭](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：原QQ578只余C1/C2/C4，末12维全八Gram中同f的E1/EBe完整Bézout1。本图等权/T0/JQ/Phi0/Q1−u独立闭，不借旧D非零图。
 
-[四同点原式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)保同P1/NV恢复f,z，所有Q/λ头零。[新两QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)：4500真76.517秒/231160KiB/0，J2²P25/3⁴分别乘E177/18、E182/19，故J2=0或P25/3=0或末两式同时零；末类不同(λ,u)≤39195，完整Q纤维仍开。P25/3与旧Delta相容三次全系数一致，但不同Q可能投到同基点，不能删曲线。新ef759只在整J2常数域取四原式的同λ norm/cross，保全权头零。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开；5b2旧有理cofactor超时冻。
+[四同点原式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)保同P1/NV恢复f,z，所有Q/λ头零。[新两QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)：4500真76.517秒/231160KiB/0，J2²P25/3⁴分别乘E177/18、E182/19，故J2=0或P25/3=0或末两式同时零；末类不同(λ,u)≤39195，完整Q纤维仍开。P25/3与旧Delta相容三次全系数一致，但不同Q可能投到同基点，不能删曲线。[整J2新覆盖](results/R150-appendix-unit211-entire-J2-original-norm-cross-three-u-factor-cover.md)：ef759真0.139秒完整同λ norm/cross及固定Q结式，u落F28/F23/F6，至多57u/114(λ,u)。原O的Q4头是(u−2)乘二次域单位，故≤456三元组；新a2a只读准确输入建224/184/48维原Q4环境，整R/W/N1或真实QQ Delta幂返回，不从模归属提升。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开；5b2旧有理cofactor超时冻。
 
 ## W：同一 S 的原二次系统及权六次例外（8542，2026-11-28）
 
