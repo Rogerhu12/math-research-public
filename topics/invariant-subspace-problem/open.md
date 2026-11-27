@@ -182,6 +182,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
-**[一般T0=0](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)及[一般J=Q的整H0线](results/R150-appendix-unit211-general-J-equals-Q-H-zero-complete-original-exclusion.md)已闭。** [J=Q余面明确三次Bézout与六生成](results/R150-appendix-unit211-general-J-equals-Q-global-cubic-cover-and-six-generators.md)已付：F11+(u−Q)E11=3u(u−1)H²给全图左逆，保留u=Q和F11零面；原商由(1,x,y,t,y²,yt)生成、非自由、每权纤维≤6。头源96222bdd真实0.575秒/exit0；新原NSPS/D目标输入b95d6e25待执行。整个J=Q有限原纤维及其它一般LS仍开。
+**一般T0=0及J=Q整H0已闭；J=Q余面明确三次Bézout保全uQ/F11零面。** [新全图原D/1返回](results/R150-appendix-unit211-general-J-equals-Q-original-D-and-one-F302-cover.md)实际给同一必要F302权曲线（双度33/18、总34、302项），源b95d6e25真实2.848秒/exit0；原六规则/18乘法及8真候选来源全部核验，未执行全交换闭包。F302整曲线仍开；新本原参数cofactor/固定QQ投影5ec4cfde继续，不能以多元gcd1直接判空。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
