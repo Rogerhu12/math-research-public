@@ -1,0 +1,99 @@
+{
+  "schema": "isp-Phi-zero-four-head-common-zero-ten-exact-weights-v1",
+  "producer": {
+    "source_git_blob": "855d8a533145c1f23983259818bd61686139aaf3",
+    "source_sha256": "8890e4b747a79b5fdee6f7268167f69ecd5fbc80e12bf6a537c410d430f36e05",
+    "run_id": 46030813504,
+    "job_id": 140613841410
+  },
+  "weight_coordinate": "u",
+  "minimal_polynomial_coefficients_ascending": [
+    "165888",
+    "-1373184",
+    "5228032",
+    "-11812736",
+    "17377608",
+    "-17333916",
+    "11867209",
+    "-5509191",
+    "1660962",
+    "-293804",
+    "23152"
+  ],
+  "Q_is_negative_of_a9": true,
+  "a9_numerator_coefficients_ascending": [
+    "264519679611596233728",
+    "-1950659031838187601792",
+    "6565953687022161792160",
+    "-12873169642134543408440",
+    "16029150317585162405816",
+    "-13112769190600841959231",
+    "7050254802090396814853",
+    "-2404916940610514555078",
+    "472621352259226010212",
+    "-40767438456421825488"
+  ],
+  "a9_denominator": "291147442348495488",
+  "complete_QQ_fiber_record": {
+    "phi": "x^10 + (-73451/5788)*x^9 + 830481/11576*x^8 + (-5509191/23152)*x^7 + 11867209/23152*x^6 + (-4333479/5788)*x^5 + 2172201/2894*x^4 + (-738296/1447)*x^3 + 326752/1447*x^2 + (-85824/1447)*x + 10368/1447",
+    "phiCoefficientsAscending": [
+      "10368/1447",
+      "-85824/1447",
+      "326752/1447",
+      "-738296/1447",
+      "2172201/2894",
+      "-4333479/5788",
+      "11867209/23152",
+      "-5509191/23152",
+      "830481/11576",
+      "-73451/5788",
+      "1"
+    ],
+    "irreducibleUDegree": 10,
+    "originalFourSpecializedQDegrees": [
+      4,
+      6,
+      7,
+      5
+    ],
+    "actualFourHeadGcdQDegree": 1,
+    "fullFourHeadBezoutTagDegrees": [
+      4,
+      2,
+      -1,
+      -1
+    ],
+    "removedOnlyOriginalWeightUnitFactors": [],
+    "residualQDegree": 1,
+    "residualCoefficients": [
+      {
+        "degree": 9,
+        "sha256": "910089333db6026f9c236fdd8b55dc46f894b935ff2541d9dc007d51002887bf",
+        "coefficientsAscending": [
+          "688853332321865192/758196464449207",
+          "-5079841228745280213/758196464449207",
+          "205186052719442556005/9098357573390484",
+          "-1609146205266817926055/36393430293561936",
+          "286234827099735042961/5199061470508848",
+          "-13112769190600841959231/291147442348495488",
+          "7050254802090396814853/291147442348495488",
+          "-171779781472179611077/20796245882035392",
+          "118155338064806502553/72786860587123872",
+          "-849321634508788031/6065571715593656"
+        ]
+      },
+      {
+        "degree": 0,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "coefficientsAscending": [
+          "1"
+        ]
+      }
+    ],
+    "excluded": false,
+    "stage": "new_exact_irreducible_u_fiber_four_head_original_unit_return",
+    "seconds": 0.023983141000002206
+  },
+  "all_other_head_zero_fibers_excluded_by_original_units": true,
+  "full_original_value_equations_still_required": true
+}

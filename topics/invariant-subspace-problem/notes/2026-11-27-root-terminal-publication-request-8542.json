@@ -1,17 +1,18 @@
 {
-  "message": "ISP: exclude the entire quadratic-lambda collision Delta-zero fiber over its full quartic algebra",
-  "parentCommit": "974f49c6b6d90444b21d34d38aba2301eaa00703",
+  "message": "ISP: classify the complete ten-weight common-zero locus of the original Phi quadratic heads",
+  "parentCommit": "51b434cacc9d0812194882f175e22be8a654b986",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-C2-lambda-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-zero-entire-C2-exclusion-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-complete-C4-Delta-zero-Q-graph-original-means-8542.py",
-    ".github/workflows/invariant-subspace-collision-c-four-original-q-graph-means-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-collision-entire-C2-exclusion-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-collision-entire-C2-exclusion-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-four-original-quadratic-heads-complete-ten-weight-locus.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-four-head-complete-ten-weight-locus-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-four-head-common-zero-ten-exact-weights-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-quadratic-head-three-original-rows-D-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-first-head-three-generator-d-return-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-ten-weight-head-locus-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-ten-weight-head-locus-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-collision-c-four-original-q-graph-means-8542.yml"
+    "invariant-subspace-phi-first-head-three-generator-d-return-8542.yml"
   ]
 }
