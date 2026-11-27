@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-H265-finite-original-environment-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-physical-lambda-four-heads-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -166,7 +166,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [低余孔C2](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)与[临界小指数矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)仅支付明确物理扇区/矩来源。实际E非零是否自动满足仍开，不从稠密或正则化极限补源费。
 
-**W旧补图保留。** A143非零图由1,S生成；其零面保两原降次式及B146E849−2D422C372，不倒B146/D422。八列旧环境由后列全六列原返回继续，全部旧源/边界保本次快照。
+**W旧补图保留：** A143、B146/D422零面、八列到六列原返回及个别NP/NV均未闭；原式和源见本次完整快照。
 
 
 
@@ -202,7 +202,9 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原native必要权曲线](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)：eca4真95.890604382秒/0，以已全付(k+2)J19C9的六原规则/18乘法，固定NS,PS,yNS,tNS,yPS,tPS原矩阵返回55商积；所得非零P双度97/123、总164、8472项，包含整H265零。仅必要曲线，未称不可约、平方自由、有限权或排空；原全部值纤维继续。8222常数门仅rank4、7168仅六列/两步41商积且无det的两个180秒门冻结，精确源与失败保完整快照，不重复已成95秒det。
 
-[整H265有限交点与原七坐标环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)已由e747首次15.331051968秒/0付清：固定p1009,k3检查全41018个QQ系数整性，原D195除H16完整余15次非零。由Gauss本原性和H的QQ不可约性，H与P无公共曲线；整H0仿射权长度≤4920，原均值六生成环境≤29520。加rho、HA首一二次得118080；保完整HB且当前物理D≠0及ell−u单位时ζ线性唯一，完整规范七坐标商≤59040。全部重数保留，有限Artin环后局部化只删分量，未排H空或把必要环境当原解。原lambda新四头/仿射关系已实际返，最小新K头零及所有原值继续。
+[整H265有限交点与原七坐标环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)已由e747首次15.331051968秒/0付清：固定p1009,k3检查全41018个QQ系数整性，原D195除H16完整余15次非零。由Gauss本原性和H的QQ不可约性，H与P无公共曲线；整H0仿射权长度≤4920，原均值六生成环境≤29520。加rho、HA首一二次得118080；保完整HB且当前物理D≠0及ell−u单位时ζ线性唯一，完整规范七坐标商≤59040。全部重数保留，有限Artin环后局部化只删分量，未排H空或把必要环境当原解。全部原值继续。
+
+[物理lambda四头、全域仿射与有限降秩支](results/R150-appendix-unit211-W-physical-lambda-four-heads-global-affine-and-finite-rank-defect.md)：0b261真1.092022892秒/0返两向坐标及六完整原式，四个余子式QQ只余不可约F56/F86/F80/K7（总度13/16/15/4），共同乘子完整同除后仍全域原仿射关系。K7开图及另三头图分别在其权[lambda]上由1,x,y生成；整个共同降秩权理想含互素K7/F56，长度≤52，均值≤312、双二次环境≤1248、完整HA/HB原七坐标≤624。未排这些点或整K7曲线，续原个别NP/NV；不把各图三生成当权环上有限。
 
 ### Phi：一般 H1 余 P201，其它原权与值层仍开
 
@@ -212,7 +214,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 $$
 P_{201}(u)=0,\qquad g(u,Q)=0,\qquad \#(u,Q)\le804 .
 $$
-[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)真15.058230470秒/0，返四原尺度/六无h逆矩列及完整F6/NV同点列，QQλ度6/6/9/10；三QQ正规范数上界3596/5764/6092，模1009度3179/5131/5407、共同2773，最高dual全零，未付QQ精确度，不缩804。新e3cf首次120秒/1GiB处理actual h范数101的QQ单位分解与整h0原纤维，只用两个原构造前缀；∞局部输入继续；P201系数及原λ/T/z/个别NP、其它Phi仍开，旧b0的316另必要，旧门冻结。
+[新v原多项式与固定范数接口](results/R150-appendix-unit211-Phi-zero-H1-polynomial-v-source-and-fixed-original-norm-interface.md)真15.058230470秒/0，返四原尺度/六无h逆矩列及完整F6/NV同点列，QQλ度6/6/9/10；三QQ正规范数上界3596/5764/6092，模1009度3179/5131/5407、共同2773，最高dual全零，未付QQ精确度，不缩804。e3cf真0.487842716秒返回h的QQ残norm41，九次分量54维原理想单位；十次分量对接已刊共同十权。新e18d只用同两λ6原cofactor，在∞完整rank1+3 Hensel模型上首次120秒/1GiB求真实消阶，有限精度不足只报上界；P201系数及原λ/T/z/个别NP、其它Phi仍开，旧b0的316另必要，旧门冻结。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -224,6 +226,6 @@ $$
 
 [同G临界伴随域](results/R271-appendix-same-right-inverse-adjoint-critical-physical-source-and-exact-range.md)的准确费用保正文。新[原光滑核闭包及边界角](results/R271-appendix-boundary-smooth-kernel-creation-repair-and-faithful-calkin-corners.md)令K∞=closure(M∩E∞)⊂N⊂M：同G修复高位创建的全部carry误差可和，P_K∞与原边界弱零翻转强*渐近交换，C*(UHF,P_K∞)及全部角忠实Calkin。D(G*)∩K∞⊥=RanT*，T*E∞=K∞⊥∩E∞=I∩E∞且闭包恰I；W∩D(G*)=0。P_K∞保E∞、K∞=N/M、真实W源费与RTcut有界子列未付；强*交换不授权无限高位乘积或孔阻尼。
 
-[整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)有完整4阶头=2/3次齐次结式，重数1给泛型gcd一次；a0/r1r0零/无穷/重根及有限例外全保，不能代有限λ/S。自由系数整数身份真2ms，未排W纤维。
+[整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的泛型唯一方向及a0/r1r0零、无穷和重根保留；当前有限原环境见上，不代个别值返回。
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)：每个非零普通M的非恒定解析f(A_M)，任意有界相似及紧扰动后自交换子仍有正、负本质谱；也保非零实际子商和慢平方Y_M−a。由R164忠实角与自含normaloid证明，排除这整类次正规加紧/迹类输入；新2611.28933v1的假设因而不能直接满足。非可逆交织/扩大空间/特殊闭域与同源费用仍须另做，不判M不存在。
