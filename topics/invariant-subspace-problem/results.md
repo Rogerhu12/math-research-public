@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [G36最后两个低参数原纤维完全排除](results/R150-appendix-unit211-W-G36-last-low29-complete-original-exclusion.md)：完整70/75维原模型、12个108×56满列原返回与有限自由提升，关闭最后low29；旧成功/失败不重放。
+
 - [原Phi首头零曲线的b零316权覆盖](results/R150-appendix-unit211-Phi-zero-whole-first-head-linear-b-zero-316-weight-cover.md)：整Q4原L恢复lambda/T并由原F6返回单位，全部u极点保留；≤1264权对，未闭特殊纤维或b非零支。
 
 - [整条碰撞P25,3原排除](results/R150-appendix-unit211-collision-P3-entire-original-exclusion.md)：完整66参数六QQ域/全部头降次，九原返回1或Delta²，余仅两E交点≤39195不同λu；不外推整个碰撞图。
