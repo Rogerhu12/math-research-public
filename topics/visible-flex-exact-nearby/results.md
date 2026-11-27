@@ -541,3 +541,10 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 ### R147 WRA：真实anchor C1差对完整弱高度行的作用
 
 [完整证明](results/R147-supplement-actual-anchor-sensitive-weak-height-receiver.md)与[saved有理组合](scripts/fourfold_codazzi_actual_anchor_weak_height_saved_bounds.py)。对同一原b=9/50的真实vertical anchor差a0=||Δq_b||∞、a1=||∂φΔq_b||∞、b1=||∂φΔf_b||∞，给完整same-row difference及原root/strict四类源的三列增量：(86061,6086,2919,8098)、(12531,887,441,1180)、(4590,325,210,432)，逐项加原WRC(94000,6650,3000,8850)。含真实Aφ/Fubini/所有moving-mean、Δq_b,φ·x；常base高度差仅由Πg=0准确消，varyingYb仍付27/8、world axKb付4617/2000。须原circle真正vertical periodic；未配平seam保额外boundary functional。三C1输入不赋假值，TC全weak norms/actualports未完成不提前消费。12新exact rational一次全过，旧科学0。
+
+
+### R149 BGR：同一target B全trial的signed Gram改进界
+
+[完整证明](results/R149-supplement-complete-target-B-trial-Gram-and-joint-row-error.md)与[纯Gram/完整候选模块](scripts/fourfold_codazzi_target_B_complete_Gram_math.py)。对DBRA同一完整96×192 exact r trial形成全部9216 signed Gram项，完整行Gershgorin给||IY||=||Rhat||新operator upper g；不是从旧HS上界倒推。全部true w误差/96×2240 residual/infinite tail保，新whole product与旧两候选整选后eR=FH/2+P*/4。可将新g用于BNC真实complete polynomial Bernstein/alias/disk费用，前提为完整相应输入，不能除旧upper提取缺失量。
+
+当前没有新Gram actual；已在跑BNC7保持原目标/manifest。其完成后可复制全部96signed centers、四旧整费和父身份，以新rowfee重新完整求和，不重192quadrature、不从旧total相减。true a/4n/两physical means不变，完整forwardΘ、高/phase/core独立。
