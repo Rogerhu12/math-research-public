@@ -376,3 +376,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 23:16 UTC：首次v13启动登记发布遇ref UNKNOWN且main前进，立即试本地pull仍无环境，实际CI retry job140780177708在公开clone连接github.com:443超时（日志7902B/hash90df73794b996265588f68a86f3d677b8b5e450216f7b6b80633a5aca4c6f985），未拉到私库，未计成功；立即再跑job140781042800，公开23:15:12实际pull至57eff4923f25c6957abbbdce83ed54895480809a、私库23:15:18至6edbc441873a6666c93f1773b276b9a9af8520f4，两库四README/QUEUE与23:10一致，日志14886B/hash7e298384daee0d694b12cd2f04fa5316664ecb1c63a7359b7d32003307a7729e，库存tree不变。消费后继续不force重推。同时根全审R1051§§9–13（37）–（50）并亲读R614(16)–(26)核分段整窗，付全H的实际Hasse等距、同一厚核与有限全Smith矩阵，完整基线E(J)及p−2端点均保；全文35899B/hash8617f1d2fe139eedf7b22443689c8e96bcac44e4dcccf0e7fc698e8bcb634aee。新增仅纸证，无数学执行或主目标完成声明。
+
+
+- 2026-11-27 23:21 UTC：根逐项审完原Legendre笔记§6(20)–(24)，Wilson倒数、duplication全部阶乘、中央区间/对称短尾与完整Vandermonde零式无省项，规范Manin值不能读目标p饱和的尺度范围明确。完整笔记8706B/hash8691123fd956d8f08baa42f0d8fdd7515cf2cc24639cc2d1403aeab78e6808ad；不把有限重写登记为新无穷非零。geometry改做同一canonical除p低行，central继续actual flat临界primitive，arithmetic继续真实厚核。推前两库实际pull run46075603971/job140782493366：公开23:19:57至de9bc4b1562b88db3c230ba9adc382e118bdba4d、私库23:20:01至b65e32c88c9ae16b16d1da69e7e57341feb0d621，四README/QUEUE相同，日志14893B/hash2b719f6b5abf720c66bf32c199a569c02b724ee896a41102427a33927f681e93，库存3147blob/44,317,010B无超限。v13仍为同一个实际job执行中，尚未取得数学终态。

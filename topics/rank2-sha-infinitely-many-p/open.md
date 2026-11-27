@@ -168,3 +168,6 @@ v13实际run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671
 [R1051§§9–13](results/R1051-original-full-depth-gaussian-node-recurrence.md)证明同一原Gaussian的完备PD代数：正规化系数趋零环$\mathscr T_d$及$U^p=e^{aw^s}$的实际根评价是Hasse–Hermite等距嵌入；任意$H$的原全核准确等价同一个$j!C$厚矩阵，全部截断Smith与同P/R提升保留。回原$\mathscr B_e$仅有保准确$E(J)$费用的两箭头，未冒无损充要；普通$(p,w^s)^H$模型对全部来源至$(p-3)/2$、原S/T环至$p-2$，原首坏带仍保。没有把canonical单槽核变成乘法理想，主全局预算仍待实质新收益。
 
 后继直接消费这个实际厚矩阵和原两坏条件，证明高前缀核的额外Smith主项；保持源次数、全部regular带、快Gaussian及原基线的精度损失。只重新表述代数或计算whole-source秩不会关闭主目标。
+
+
+[原Manin二挠读者§6](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)逐项Wilson/duplication把同一$C_n$写成中央二项式段，完整Vandermonde和准确为零且中央段等于负二倍短尾。没有判该段非零；原Manin同态还明确给$q$单位倍截面下的规范值不变，所以此多项式本身不读目标$p\ne q$饱和指数。后继仍须同一17有权评价或真正canonical除$p$来源，不能用基值或半Norm替代。

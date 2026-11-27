@@ -12,12 +12,12 @@ root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull
 
 ## 最新实际pull和已读规则
 
-只读CI run46075603971/job140781042800，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-27 23:15:12UTC实际部分clone/pull至57eff4923f25c6957abbbdce83ed54895480809a。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库23:15:18UTC实际至6edbc441873a6666c93f1773b276b9a9af8520f4。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
-- 四README与23:10已读版本相同，无新差异；旧请求基线3bd753e5/54fd1d82不冒充本次head。job日志14886B/hash 7e298384daee0d694b12cd2f04fa5316664ecb1c63a7359b7d32003307a7729e，只记录不保存。
-- 库存3147blob/44,297,632B，treec28488301a9d491c78ca81bd89d11f1c3f397ffe，无>5MB，三旧必要gzip SHA不变。
-- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟2026-11-28 00:15UTC再实际拉两库**。ref前进立即试本地pull；无环境就CI实际pull，消费后继续推，不以API比较替pull。
+只读CI run46075603971/job140782493366，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-27 23:19:57UTC实际部分clone/pull至de9bc4b1562b88db3c230ba9adc382e118bdba4d。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库23:20:01UTC实际至b65e32c88c9ae16b16d1da69e7e57341feb0d621。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
+- 四README与23:15已读版本相同，无新差异；旧请求基线3bd753e5/54fd1d82不冒充本次head。job日志14893B/hash 2b719f6b5abf720c66bf32c199a569c02b724ee896a41102427a33927f681e93，只记录不保存。
+- 库存3147blob/44,317,010B，tree3d09114055ad5af71a4e9f771ee4b6cef7d5eaea，无>5MB，三旧必要gzip SHA不变。
+- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟2026-11-28 00:19UTC再实际拉两库**。ref前进立即试本地pull；无环境就CI实际pull，消费后继续推，不以API比较替pull。
 - 本地07:20失联，22:56重试仍无环境；末次本地公开07:12至1cf10ac。API、CI、本地分记。
 
 ## 当前原完整厚几何与真实软件证据
@@ -46,7 +46,7 @@ $A=p^2-1,B=p-1$ 时，任意固定非零 $K,\zeta$ 的 $g(u)=K\zeta^u((Au)!/(Bu)
 
 [正特征forest](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)§§16–19的原厚理想/全角判别式/same R/carry/Xi已付，但严格触发窗已在第一块行数超过该窗列数范围，未触主临界；Theta68与rho19格不可混用，不重复旧R467强界。
 
-[unitary§16](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)真实有限Hecke字的非K边际全零而K/Y非零，不能给S3150 canonical forcing。geometry转原 $P_q(-1/4)$：这是实际三非零2挠点；[Legendre/Rodrigues完整边界](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)已严格给原读数 $(-1)^{n+1}c_Q C_n/(2n+1)!$，$C_n$为显示整数卷积；辅助q的无穷非零及原17/η/Cor返回仍未付，不混目标p、不以实正性当q单位。
+[unitary§16](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)真实有限Hecke字的非K边际全零而K/Y非零，不能给S3150 canonical forcing。geometry转原 $P_q(-1/4)$：这是实际三非零2挠点；[Legendre/Rodrigues完整边界](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)已严格给原读数 $(-1)^{n+1}c_Q C_n/(2n+1)!$，$C_n$为显示整数卷积；辅助q的无穷非零及原17/η/Cor返回仍未付，不混目标p、不以实正性当q单位。§6给Wilson中央二项式段的准确重写，完整Vandermonde和为0；规范Manin多项式在$q$单位倍截面下不变，仍不记录目标$p$饱和。geometry已转原canonical除$p$低行的实际Cartier返回，不继续只换$C_n$表达。
 
 固定五条rank≥2曲线及通常全Sha桥已付，真正联合无穷p原J′非零仍开。R1042环境左逆不代scalar Schur；D²S/heat不允许横向微分CM坏条件；权二B6全toric零不重算。O4/O6/O7及所有模型、旧负例与未付参数保在open/归档。
 
