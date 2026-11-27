@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-Ahat-zero-complete-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-actual-Haar-global-intertwiners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -205,3 +205,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **[lambda3/2、Ah0整个原支已排空](results/R150-appendix-unit211-W-lambda-three-halves-Ahat-zero-complete-original-exclusion.md)。** 410a真0.527秒/45844KiB/exit0；原Delta/二矩给首一T²与真实权单位D0，原三矩同T一次保R1零，34次QQ norm剥已付得完整14次因子，原61×15含个别N/P与全NV给常数1全部15列返回。仅在lambda3/2支付Ah；余G4/F18仍开。新a0e7采用另一同z完整原R2/H6固定8列覆盖，不重放旧六列/不用Ah新单位，180秒4GiB。
 
 **h=k新Q=1−u互补输入。** 7eaa在Delta非0以同f=F/Delta、t=Tnum/(bcQDelta)未缩放原八式接固定QQ投影；2298在Delta0首返三原相容多项式Delta/F/Tnum，Delta/(1−u)²对u二次头真实−4xi²，无Delta逆。只用本碰撞已付u−ell/T0/(J−Q)/Phi等原单位，整个Delta0及非恒定覆盖仍须返原Gram；两次各180秒4GiB，未执行不作闭合声明。
+
+**[原Haar真实来源到完整T的迹类交织及循环商](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)。** 原连续ruler全整数范数||A^n||=βn=||B^n||由逐2^r计数与实际clopen达到，单一稀疏链给K_y=Σu_n⊗(A*)^n y。每非零y的全目标稠密像由非零首系数/真实可逆范数收敛算子支付，不借Haar循环；核恰cyclic(A*,y)⊥。各真实循环商的伴随压缩到完整T有迹类拟亲和，反向全有界交织零。若y循环，K_y⁻¹kerT=0；拉回proper U还须同来源真实非零交点，不能用稠密像代实际范围。
+
+**W新866两列原输入。** 只在A143≠0把原仿射F/S及纯S二次首一化，以1,S返回六原Gram行、原qF/qT/R4共九行、四真乘法及三对新常数列cofactor；保A143完整零面/全部lambda首项零，不倒D/范数，不声称个别谱N/P全返。180秒4GiB，仅执行冻结构造前缀。

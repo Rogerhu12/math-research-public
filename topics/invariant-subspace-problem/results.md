@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [原Haar全目标迹类交织与实际循环商拟亲和](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)：全整数幂共同范数，每个非零来源全目标稠密像，精确核/反向零；不借循环性、不自动拉回非零不变子空间。
+
 - [W lambda=3/2的整个Ah=0原支排除](results/R150-appendix-unit211-W-lambda-three-halves-Ahat-zero-complete-original-exclusion.md)：原T²/同T一次给完整14次QQ覆盖，61×15原Gram/个别N/P真1；仅所述纤维付Ah。
 
 - [h=k整个Phi=0原碰撞面排除](results/R150-appendix-unit211-equal-singleton-entire-Phi-zero-original-exclusion.md)：一般ell≠1完整QQ投影与互补ell1u2全四次代数/自由Q原Bézout1；余h=k可付Phi，整个碰撞仍开。
