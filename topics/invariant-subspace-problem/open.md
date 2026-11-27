@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类及整个二次权纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)现排所有对角/零坐标方向；其余只可能u=Q、ell=2−Q、Q²−12Q+8=0，再以独立有限原Gram的48×35原单位行排该整个纤维。因此仍可能含有限原解的其余W权参数，其四二次头无非零公共向量；不能将三个权条件任意一个单独付为单位。全部旧四生成元/Cramer大门冻结，续小原模块和全部未付头零面。
 
-**Q=1−u边界：** y1、H_Q0、u半、ell0、两条原y二次首项零及[整个T0=0/h=2](results/R150-appendix-unit211-Q1minusU-T0zero-complete-exclusion.md)均全闭，来源/实跑保结果索引与归档；h−2及原y二次首项已付，不扩大到一般LS。[原四二次全头覆盖/每商≤6](results/R150-appendix-unit211-Q1minusU-original-four-quadratic-full-head-six-generators.md)给三原4阶minor全覆盖、Ry头Myz全部方向排除和apolar满三次证明，源08477fa3实跑2.770秒。续三图同一原关系/NSPS/Dval；六元非独立基，未构造的18乘法不冒成功。
+**Q=1−u边界：** y1、H_Q0、u半、ell0、两条原y二次首项零及[整个T0=0/h=2](results/R150-appendix-unit211-Q1minusU-T0zero-complete-exclusion.md)均全闭，来源/实跑保结果索引与归档；h−2及原y二次首项已付，不扩大到一般LS。[原四二次全头覆盖/每商≤6](results/R150-appendix-unit211-Q1minusU-original-four-quadratic-full-head-six-generators.md)给三原4阶minor全覆盖、Ry头Myz全部方向排除和apolar满三次证明，源08477fa3实跑2.770秒。续三图同一原关系/NSPS/Dval；六元非独立基，未构造的18乘法不冒成功。 [整个Kz=0](results/R150-appendix-unit211-Q1minusU-complete-Kz-zero-exclusion.md)现由47/50次QQ覆盖及完整二次域原Dphys行空间返回排尽，源30c3c66b/ff12a088实跑18.399/0.495秒；本边界可付Kz，保其余G2头零。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 

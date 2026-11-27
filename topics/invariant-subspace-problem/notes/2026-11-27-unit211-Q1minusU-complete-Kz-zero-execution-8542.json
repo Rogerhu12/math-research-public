@@ -1,0 +1,1092 @@
+{
+  "date": "2026-11-27",
+  "timezone": "Asia/Taipei (UTC+8)",
+  "session": "Astra-ISP-8542",
+  "branch": "Q=1-u, Kz=0",
+  "actual_completed_inputs": [
+    {
+      "canonical_source": "2026-11-27-unit211-Q1minusU-Kz-zero-original-Macaulay-return-8542.py",
+      "source_sha256": "30c3c66b1a73a8922f4b1e163918db2fe3b58f4c69ea9c39c80f9a42ad7a1edf",
+      "source_bytes": 12166,
+      "stdout_sha256": "8194903661a8c55e339f9bb3e7d574672c72fcd6941cc9464055308cf9149b43",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_tool_exit_code": 0,
+      "actual_source_seconds": 18.39931053500186,
+      "peak_rss_kib": 34768,
+      "records": [
+        {
+          "stage": "new_Qboundary_KzZero_chart_same_original_Gram",
+          "originalE0N0P1Verified": true,
+          "weightedOriginalNPThroughHAHBVerified": true,
+          "originalDistinctValueRetained": true,
+          "wholeWeightChartExcluded": false,
+          "seconds": 0.10942212100053439
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "E1",
+          "degrees": [
+            6,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "terms": 55,
+          "paidRemoved": [
+            [
+              "h_minus_two",
+              1
+            ]
+          ],
+          "totalDegreeXYt": 2,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11090851400513202
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "Rt0",
+          "degrees": [
+            5,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "terms": 46,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              1
+            ],
+            [
+              "h_minus_two",
+              1
+            ]
+          ],
+          "totalDegreeXYt": 2,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11149909500090871
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "Ry0",
+          "degrees": [
+            5,
+            0,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "terms": 40,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              3
+            ],
+            [
+              "h_minus_two",
+              1
+            ]
+          ],
+          "totalDegreeXYt": 2,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11209366200637305
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "N1",
+          "degrees": [
+            7,
+            0,
+            2,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          "terms": 74,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              2
+            ]
+          ],
+          "totalDegreeXYt": 2,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11290226200071629
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "weighted_N",
+          "degrees": [
+            9,
+            0,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0
+          ],
+          "terms": 193,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              2
+            ]
+          ],
+          "totalDegreeXYt": 3,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11460895700292895
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "weighted_P",
+          "degrees": [
+            9,
+            0,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0
+          ],
+          "terms": 186,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              2
+            ]
+          ],
+          "totalDegreeXYt": 3,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11616235100518679
+        },
+        {
+          "stage": "new_whole_KzZero_original_Macaulay4",
+          "rows": 48,
+          "columns": 35,
+          "originalSixRows": 6,
+          "all48OriginalMonomialProductsMultipliedBack": true,
+          "constantColumn": 34,
+          "inputSHA256": "2b7b1a3ad8b302b6f132b80b665a13533cbcc8e177fccd834504c1aa2d29e9b3",
+          "G2Inverted": false,
+          "cubicMinorInverted": false,
+          "claimExcluded": false,
+          "seconds": 0.13513094800146064
+        },
+        {
+          "stage": "new_whole_KzZero_numeric_row_selector_only",
+          "p": 1009,
+          "h": 7,
+          "selectedOriginalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "targetCount": 8,
+          "numericEmptinessNotInferred": true,
+          "seconds": 0.15521396300027845
+        },
+        {
+          "stage": "new_whole_KzZero_original_QQ_Macaulay_determinant",
+          "originalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            40
+          ],
+          "lastOriginalRow": 40,
+          "fullDegree": 196,
+          "remainingDegree": 47,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              53
+            ],
+            [
+              "h_plus_one",
+              34
+            ],
+            [
+              "h_minus_two",
+              3
+            ],
+            [
+              "h_minus_three",
+              1
+            ],
+            [
+              "h_square_minus_h_plus_two",
+              29
+            ]
+          ],
+          "exactBareissDivisionProducts": 13685,
+          "originalFixed35By35Determinant": true,
+          "determinantSHA256": "77e2801141962021beac616d8445f62593b2290a77c18f3a996f4fadb280b600",
+          "remainingSHA256": "e6ae0afe33ee61845e8ce2450ad55febbd5dcb1e2dc470ca3f42aae69950a3b4",
+          "runningQQGCDDegree": 47,
+          "runningQQGCD": null,
+          "claimExcluded": false,
+          "seconds": 2.393171774005168
+        },
+        {
+          "stage": "new_whole_KzZero_original_QQ_Macaulay_determinant",
+          "originalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            41
+          ],
+          "lastOriginalRow": 41,
+          "fullDegree": 196,
+          "remainingDegree": 50,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              53
+            ],
+            [
+              "h_plus_one",
+              34
+            ],
+            [
+              "h_minus_two",
+              2
+            ],
+            [
+              "h_minus_three",
+              1
+            ],
+            [
+              "h_square_minus_h_plus_two",
+              28
+            ]
+          ],
+          "exactBareissDivisionProducts": 13685,
+          "originalFixed35By35Determinant": true,
+          "determinantSHA256": "9e6d32248ac51464e3533c051d8381b15624b6d18b6508cd79576b7a4feeeb2a",
+          "remainingSHA256": "34cf661aea9782d83b64a595a5c31e470faa97bcfd2a5b6e78eab0a95b64722d",
+          "runningQQGCDDegree": 4,
+          "runningQQGCD": "x^4 + (-1)*x^3 + 5/4*x^2 + (-1/2)*x + 1/4",
+          "claimExcluded": false,
+          "seconds": 4.741605280003569
+        },
+        {
+          "stage": "new_whole_KzZero_original_QQ_Macaulay_determinant",
+          "originalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            42
+          ],
+          "lastOriginalRow": 42,
+          "fullDegree": 196,
+          "remainingDegree": 51,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              52
+            ],
+            [
+              "h_plus_one",
+              34
+            ],
+            [
+              "h_minus_two",
+              2
+            ],
+            [
+              "h_minus_three",
+              1
+            ],
+            [
+              "h_square_minus_h_plus_two",
+              28
+            ]
+          ],
+          "exactBareissDivisionProducts": 13685,
+          "originalFixed35By35Determinant": true,
+          "determinantSHA256": "bf68a5509720d3842f9056893bdd4fe7fd7ea610b62a8df8cf708a28bd9c8b60",
+          "remainingSHA256": "a2216a8428fe99af1e98975b66ee94ed5f92ed33f5f53b2f39f4b7d28001f017",
+          "runningQQGCDDegree": 4,
+          "runningQQGCD": "x^4 + (-1)*x^3 + 5/4*x^2 + (-1/2)*x + 1/4",
+          "claimExcluded": false,
+          "seconds": 7.071015929002897
+        },
+        {
+          "stage": "new_whole_KzZero_original_QQ_Macaulay_determinant",
+          "originalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            43
+          ],
+          "lastOriginalRow": 43,
+          "fullDegree": 196,
+          "remainingDegree": 52,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              51
+            ],
+            [
+              "h_plus_one",
+              34
+            ],
+            [
+              "h_minus_two",
+              2
+            ],
+            [
+              "h_minus_three",
+              1
+            ],
+            [
+              "h_square_minus_h_plus_two",
+              28
+            ]
+          ],
+          "exactBareissDivisionProducts": 13685,
+          "originalFixed35By35Determinant": true,
+          "determinantSHA256": "692982458f20aea1af53fc33e2b618b9d6d1fb47ed010f3c104d6888aba277d6",
+          "remainingSHA256": "a9a32ff85896b5362699273a2d877ba5ae8afc2fcfd82f05e97a7766a6e5f2ad",
+          "runningQQGCDDegree": 4,
+          "runningQQGCD": "x^4 + (-1)*x^3 + 5/4*x^2 + (-1/2)*x + 1/4",
+          "claimExcluded": false,
+          "seconds": 9.43803604900313
+        },
+        {
+          "stage": "new_whole_KzZero_original_QQ_Macaulay_determinant",
+          "originalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            44
+          ],
+          "lastOriginalRow": 44,
+          "fullDegree": 196,
+          "remainingDegree": 49,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              51
+            ],
+            [
+              "h_plus_one",
+              34
+            ],
+            [
+              "h_minus_two",
+              3
+            ],
+            [
+              "h_minus_three",
+              1
+            ],
+            [
+              "h_square_minus_h_plus_two",
+              29
+            ]
+          ],
+          "exactBareissDivisionProducts": 13685,
+          "originalFixed35By35Determinant": true,
+          "determinantSHA256": "b22c1fa40ff938e682c677c5bc55e49483e6f3304c32a3463ba71c4700ad2f3a",
+          "remainingSHA256": "7e486dd072b309c58365f52e79833644046a9d900c5491f7c07ae0fd4dacb7f8",
+          "runningQQGCDDegree": 4,
+          "runningQQGCD": "x^4 + (-1)*x^3 + 5/4*x^2 + (-1/2)*x + 1/4",
+          "claimExcluded": false,
+          "seconds": 11.742816332000075
+        },
+        {
+          "stage": "new_whole_KzZero_original_QQ_Macaulay_determinant",
+          "originalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            45
+          ],
+          "lastOriginalRow": 45,
+          "fullDegree": 196,
+          "remainingDegree": 53,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              51
+            ],
+            [
+              "h_plus_one",
+              34
+            ],
+            [
+              "h_minus_two",
+              2
+            ],
+            [
+              "h_square_minus_h_plus_two",
+              28
+            ]
+          ],
+          "exactBareissDivisionProducts": 13685,
+          "originalFixed35By35Determinant": true,
+          "determinantSHA256": "4a9a9b58650892a4b3c84f53ec3880c082f93f62e4ffd9546e4f735435f58391",
+          "remainingSHA256": "d5b67a2088c7fbe0ae4ec37da2d42dd7e6819945d829e3c2e7fd44e152745ee7",
+          "runningQQGCDDegree": 4,
+          "runningQQGCD": "x^4 + (-1)*x^3 + 5/4*x^2 + (-1/2)*x + 1/4",
+          "claimExcluded": false,
+          "seconds": 13.931765717003145
+        },
+        {
+          "stage": "new_whole_KzZero_original_QQ_Macaulay_determinant",
+          "originalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            46
+          ],
+          "lastOriginalRow": 46,
+          "fullDegree": 196,
+          "remainingDegree": 54,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              50
+            ],
+            [
+              "h_plus_one",
+              34
+            ],
+            [
+              "h_minus_two",
+              2
+            ],
+            [
+              "h_square_minus_h_plus_two",
+              28
+            ]
+          ],
+          "exactBareissDivisionProducts": 13685,
+          "originalFixed35By35Determinant": true,
+          "determinantSHA256": "09191ea17de58d9e91c6b34ff7b76cacc34f062b698726ce24ed2d1e3857f888",
+          "remainingSHA256": "c221395c55534a6d477f48194756ac222b58b0e17e60732d183e967c68b05488",
+          "runningQQGCDDegree": 4,
+          "runningQQGCD": "x^4 + (-1)*x^3 + 5/4*x^2 + (-1/2)*x + 1/4",
+          "claimExcluded": false,
+          "seconds": 16.185407841003325
+        },
+        {
+          "stage": "new_whole_KzZero_original_QQ_Macaulay_determinant",
+          "originalRows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            47
+          ],
+          "lastOriginalRow": 47,
+          "fullDegree": 196,
+          "remainingDegree": 53,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              51
+            ],
+            [
+              "h_plus_one",
+              34
+            ],
+            [
+              "h_minus_two",
+              2
+            ],
+            [
+              "h_square_minus_h_plus_two",
+              28
+            ]
+          ],
+          "exactBareissDivisionProducts": 13685,
+          "originalFixed35By35Determinant": true,
+          "determinantSHA256": "603b33eb78b491f6f60f88e55e704fc06cf967082320ed7a17aa9446bfbec2f7",
+          "remainingSHA256": "6075a501a30f91857d6f9d4e853f02e8a7b420be4d55034cb742871c7e2f12cd",
+          "runningQQGCDDegree": 4,
+          "runningQQGCD": "x^4 + (-1)*x^3 + 5/4*x^2 + (-1/2)*x + 1/4",
+          "claimExcluded": false,
+          "seconds": 18.398734246002277
+        },
+        {
+          "stage": "new_whole_KzZero_original_Macaulay_return_complete",
+          "sourceSHA256": "30c3c66b1a73a8922f4b1e163918db2fe3b58f4c69ea9c39c80f9a42ad7a1edf",
+          "inputSHA256": "2b7b1a3ad8b302b6f132b80b665a13533cbcc8e177fccd834504c1aa2d29e9b3",
+          "fullParameterBranchRationalization": "u=(h-1)^2/(h^2-h+2),ell=u*h",
+          "allPhysicalUnitsCovered": true,
+          "onlyOriginalPaidFactorsDivided": true,
+          "QQBezoutProductsMultipliedBack": true,
+          "fullKzZeroExcluded": false,
+          "determinantCount": 8,
+          "runningQQGCDDegree": 4,
+          "peakRssKiB": 34768,
+          "ordinaryISPClaim": false,
+          "seconds": 18.39931053500186
+        }
+      ]
+    },
+    {
+      "canonical_source": "2026-11-27-unit211-Q1minusU-Kz-zero-quadratic-fiber-original-return-8542.py",
+      "source_sha256": "ff12a0889c6225092f76ceeab61949c417057ca84923def3a8af583a6fc6c5fc",
+      "source_bytes": 12634,
+      "stdout_sha256": "8833dd7443a0c7d2c0329f85b37a579d368561070843cc72f67b59124bbb9f60",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_tool_exit_code": 0,
+      "actual_source_seconds": 0.4951357590034604,
+      "peak_rss_kib": 29100,
+      "records": [
+        {
+          "stage": "new_Qboundary_KzZero_chart_same_original_Gram",
+          "originalE0N0P1Verified": true,
+          "weightedOriginalNPThroughHAHBVerified": true,
+          "originalDistinctValueRetained": true,
+          "wholeWeightChartExcluded": false,
+          "seconds": 0.10877362199971685
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "E1",
+          "degrees": [
+            6,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "terms": 55,
+          "paidRemoved": [
+            [
+              "h_minus_two",
+              1
+            ]
+          ],
+          "totalDegreeXYt": 2,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11038556299899938
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "Rt0",
+          "degrees": [
+            5,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "terms": 46,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              1
+            ],
+            [
+              "h_minus_two",
+              1
+            ]
+          ],
+          "totalDegreeXYt": 2,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11097397100093076
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "Ry0",
+          "degrees": [
+            5,
+            0,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "terms": 40,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              3
+            ],
+            [
+              "h_minus_two",
+              1
+            ]
+          ],
+          "totalDegreeXYt": 2,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11167322600522311
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "N1",
+          "degrees": [
+            7,
+            0,
+            2,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          "terms": 74,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              2
+            ]
+          ],
+          "totalDegreeXYt": 2,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11248304699984146
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "weighted_N",
+          "degrees": [
+            9,
+            0,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0
+          ],
+          "terms": 193,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              2
+            ]
+          ],
+          "totalDegreeXYt": 3,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11467213900323259
+        },
+        {
+          "stage": "new_Qboundary_KzZero_chart_original_X_Gram_coordinates",
+          "name": "weighted_P",
+          "degrees": [
+            9,
+            0,
+            3,
+            3,
+            3,
+            0,
+            0,
+            0
+          ],
+          "terms": 186,
+          "paidRemoved": [
+            [
+              "h_minus_one",
+              2
+            ]
+          ],
+          "totalDegreeXYt": 3,
+          "originalE0N0P1AndMeanReconstructionVerified": true,
+          "claimExcluded": false,
+          "seconds": 0.11629076000099303
+        },
+        {
+          "stage": "new_whole_KzZero_original_Macaulay4",
+          "rows": 48,
+          "columns": 35,
+          "originalSixRows": 6,
+          "all48OriginalMonomialProductsMultipliedBack": true,
+          "constantColumn": 34,
+          "inputSHA256": "2b7b1a3ad8b302b6f132b80b665a13533cbcc8e177fccd834504c1aa2d29e9b3",
+          "G2Inverted": false,
+          "cubicMinorInverted": false,
+          "claimExcluded": false,
+          "seconds": 0.1339530410041334
+        },
+        {
+          "stage": "new_whole_KzZero_quadratic_field_original_RREF",
+          "fieldPolynomial": "2*h^2-h+1",
+          "representation": "h=(1+v)/4, v^2=-7",
+          "originalRows": 48,
+          "originalColumns": 35,
+          "rank": 33,
+          "pivotColumns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "allFieldInversesMultipliedBack": 41,
+          "originalWeights": "u=1/2-h, ell=1/2",
+          "allOriginalUnitImagesNonzero": true,
+          "claimExcluded": false,
+          "seconds": 0.48329547000321327
+        },
+        {
+          "stage": "new_whole_KzZero_quadratic_field_actual_original_return",
+          "fieldPolynomial": "2*h^2-h+1",
+          "rank": 33,
+          "originalConstantInRowSpan": false,
+          "originalDphysicalNumeratorInRowSpan": true,
+          "originalDphysicalDenominatorImageNonzero": true,
+          "all35OriginalColumnProductsMultipliedBack": true,
+          "fullTwoComplexEmbeddingsCovered": true,
+          "directNonzeroTraceCount": 0,
+          "physicalNonzeroTraceCount": 29,
+          "directTraceSHA256": "1c94331db4be7df79246f1e509b4e893b72a5742a6675964f18fb8da80c8ba9a",
+          "physicalTraceSHA256": "46aed6592efb137a138024e669a5b764520b0e900c5d42ca3629b28472c8d030",
+          "fullQuadraticFiberExcluded": true,
+          "sourceSHA256": "ff12a0889c6225092f76ceeab61949c417057ca84923def3a8af583a6fc6c5fc",
+          "inputSHA256": "2b7b1a3ad8b302b6f132b80b665a13533cbcc8e177fccd834504c1aa2d29e9b3",
+          "peakRssKiB": 29100,
+          "ordinaryISPClaim": false,
+          "seconds": 0.4951357590034604
+        }
+      ]
+    }
+  ],
+  "synthesis": "The first actual QQ return leaves (2*h^2-h+1)^2; the second actual whole quadratic-field original return forces Dphysical=0. The full Kz=0 original physical branch is excluded.",
+  "integrated_rerun_required": false,
+  "ordinary_ISP_completion": false
+}
