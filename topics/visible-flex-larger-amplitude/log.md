@@ -269,3 +269,8 @@
 ### 2026-11-27 22:54 UTC — 16 官方终态，保全部原科学未知
 
 root独立读官方run46037017666/1及job140634874993，均completed/cancelled、研究step5 cancelled；updated_at22:41:11Z，官方工具未给job精确结束时刻，取消原因未知。刊[完整56911B终态note](notes/2026-11-27-run16-official-terminal-and-unreturned-observed-solve.md)1bbd0765：含两input实际整卷16596B、末index14246B及全原request、whole92522queue身份和157/7argv/48live、全部末已观察数学/normal计数与未知。末真pull22:38:10至021081652f3522cd5df8803a771a251e86856bdc的原H16槽全文保，再以显式override16删除活动槽；没有制造science/pure return/final/typed，也没有按350分钟推终因。当前17–19继续真实求解，20独立完整mu分支正启动。
+
+
+### 2026-11-27 22:55 UTC — 完整20分支：同bhalf，恢复阻尼仅 .01→.001
+
+发布并由request路径触发20独立workflow；12新件484749B（含topic外workflow2219B），完整science97019/pure86221/display32429/参数再生器15064/来源分析15526/全参数总表50679，加controller19984/初队列73243/request44226/启动总表42648/启动note5491。全部137角色/18原运行体、157/7argv、458/445formal/48live与旧120pairs及失败未知原保。唯一科学标量argv37 `.01`→`.001`，argv71仅新namespace；metric阻尼、全部变量/32stages/4恢复方向64内迭代/15trial和真g接受不变。精确QP比较仅同完整线性可行集/相同tau0范数及全局最优，不能宣告实际有限迭代改善。root只从19原controller四标签/完整workflow六处命名变换，350min/20000s/finishfalse原保；两个必要全输入在新runner再建后整科学，pure全对象另等真正自然返回，不缩参数挤95k。官方run/model/point/接受/费用/终态先全null；[全部身份及继续义务](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。17–19现有队列不改，root云核非真pull，活controller继续真实同步。

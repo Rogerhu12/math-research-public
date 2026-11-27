@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `196c2d6c01b19fbab71a33f507a6f43449ce7d38`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活17–19通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `52ec703c1a995c63c8af83175045c5de0c43e0f6`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活17–20通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -19,14 +19,12 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 | run | 当前边界 |
 |---|---|
-| 12=46011377225 | cancelled；只两input0，科学/纯读无自然回传。[完整终态](notes/2026-11-27-run12-actual-cancelled-without-scientific-return.md)保潜在末场未知，无可验证complete/final13。 |
-| 13=46028002241 | 官方cancelled；仅原1–6返，修后N4096无完整科学返回。[13/14完整终态](notes/2026-11-27-runs13-14-actual-cancelled-without-complete-science.md)，末场/history/restart未知。 |
-| 14=46028184571 | 官方cancelled；仅两input0，M320科学无自然返；全源/全参数/未付责任及末真pull保同终态note。 |
-| 15=46031953783 | 官方cancelled，仅两input0、J1845科学/纯读无自然返。[全终态及末真pull](notes/2026-11-27-run15-official-terminal-and-unreturned-radial-solve.md)保最终场/typed/accept未知。 |
+| 12–15 | 已官方cancelled；各原已返输入/诊断及末真pull全保上方0c51固定H终态链；完整科学/最终场/typed仍未知，取消不付精化。 |
 | 16=46037017666 | 官方cancelled；仅两input0，完整科学/pure未返。[全终态/末真pull](notes/2026-11-27-run16-official-terminal-and-unreturned-observed-solve.md)保末场/history未知。 |
 | 17=46053911348 | 两input0后36ef0794/ed810/PID3823科学未返，完整wide157/7参数92407B保。 |
 | 18=46062343475 | 两input0、前三science1、三原异常reader0；producer修后完整157真实运行，同runner原输入保。 |
 | 19=46076669320 | 两input0，36304a0d/f600/PID3240初六族几何已返，首trial在算。 |
+| 20待官方 | 同g、b/S1/2、δ1/32，仅恢复阻尼`.01`→`.001`；两全input+全science初队列73243B已准备启动。 |
 
 [16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：model8cc/current7e06/accepted0/g11.17545381570094，第四2fa731统计返、几何决定未知，首二三决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：model f2e417/current b0468/accepted2/g2.0460148700803895，第二restoration真实接受，终态未返。全部精确Phi/Gram/点/时间/source与原观察保全note；未公开分项不猜，异model同坐标不冒同场。
 
@@ -36,7 +34,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 后继与未付责任
 
-全部旧后继源码/参数/失败未知保open§7及固定0c51/58c6 H链。当前producer_R722 mean5件/4fc252+7c66，准确费10件/c6f6+7892+6c57+c6b0，closed5件/002eb，R716六件/45ca+d0fe，mesh8件/2ef3+b399+8197均已刊；当前实际费用未付。完整数学/原API/validator/原预算不缩，准确mean全角ε仍待实际，旧R709 bool真实，Dhat不代真根，J不代Cu。19同源全部费用/closed/R716/mesh完整后参已刊；20仅恢复阻尼.01→.001的独立全参正在接，不改19。
+全部旧后继源码/参数/失败未知保open§7及固定0c51/58c6 H链。当前producer_R722 mean5件/4fc252+7c66，准确费10件/c6f6+7892+6c57+c6b0，closed5件/002eb，R716六件/45ca+d0fe，mesh8件/2ef3+b399+8197均已刊；当前实际费用未付。完整数学/原API/validator/原预算不缩，准确mean全角ε仍待实际，旧R709 bool真实，Dhat不代真根，J不代Cu。19同源全部费用/closed/R716/mesh完整后参已刊；[20完整独立启动](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)12件含全137/18源绑定、157/7argv、458/445formal、48live；仅恢复阻尼`.01`→`.001`，原接受/全部预算不变，不改19。
 
 R723方向支撑s/(nᵀAn)及全平行面排序已证，实际支撑/曲率未付；完整独立消费者在接，不能冒旧8角色已通过。R718 marked σ、R716独立无标记管、R719/R720全ρ>0与前三RN固定仍须实付。R721无Gram/主曲率排序。全部证明与完整源链接见open/results。
 
@@ -61,3 +59,7 @@ Actions18：[run 46062343475/1](https://github.com/Rogerhu12/math-research-publi
 Actions19：[run 46076669320/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46076669320)；[全阶段记录](notes/2026-11-27-public-actions-46076669320-1.md)。running；已返2，exit=未返。
 并行19规则核查：2026-11-27 22:52:56 UTC，真实pull至`b93221b5009a12dfc7973c58f95c70b6a7a07fe9`，双README无变化。
 <!-- visible-larger-parallel-19:end -->
+
+<!-- visible-larger-parallel-20:start -->
+Actions20：完整独立请求已提交；实际run/job/来源/输入与场待官方及真实返回，未冒已执行。
+<!-- visible-larger-parallel-20:end -->

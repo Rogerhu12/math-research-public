@@ -125,3 +125,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 16官方completed/cancelled，updated_at22:41:11Z（不冒exact结束时刻或取消原因）；末公开index仍22:38:10，仅两input0，完整科学/pure无自然返回。[全终态](notes/2026-11-27-run16-official-terminal-and-unreturned-observed-solve.md)保原两输入整卷、完整末index/请求、92522全queue身份及157/7全argv、末H槽22:38:10真pull021081652f3522cd5df8803a771a251e86856bdc。最后科学状态仍未知，不把末accepted0扩成终态史空。
+
+
+[20完整独立启动](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)及[启动全总表](computations/fixed-fejer-bhalf-mu001-complete-launch-delivery.json)：同g/bhalf/delta1/32，仅恢复阻尼argv37 `.01`→`.001`，metric仍`.01`。全部157/7、458/445formal/48live和全源137/18/原预算保，3whole初step73243B；两science/pure whole队列117276pretty/104048compact超95k，pure真自然返回后整接。精确同线性QP的非负最优tau单调不代64步/非线性改善保证。future actual全未知，19独立不改；后续全费用/矩/mesh待真实材料继续。
