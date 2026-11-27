@@ -15,7 +15,7 @@ R1042§§13–14给原S/T/A全精度Hurwitz前缀：push cZp、误差H+1−floor
 
 ## O角. 全p-new字与固定角来源
 
-[R1040](results/R1040-original-six-axis-projection-and-twisted-reference.md)相关模型/固定HJN全平均、Φ126/Ξ0与G126/Ξ1、质量JG0单位均沿归档；仅JG0已付，JG′=0未经授权。R1046原E21609的K/Y角导数和R1047原norm25四even角色的完整一次项均非零，已付BDP2/真实点域/Fuchs–Pham及全尾v=n+ℓp；canonical坏尚不迫这些角值为零。
+R1040相关模型/固定HJN全平均、Φ126/Ξ0与G126/Ξ1、质量JG0单位均沿归档；仅JG0已付，JG′=0未经授权。R1046原E21609的K/Y角导数和R1047原norm25四even角色的完整一次项均非零，已付BDP2/真实点域/Fuchs–Pham及全尾v=n+ℓp；canonical坏尚不迫这些角值为零。
 
 [完整unitary字](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)§§10–13锁g_n的逆Gram、5处12odd Bell、旧2/3/7状态与反变符号；两norm3150/150固定六sigma F±的Y-unit全返回，是β^-n/d_n乘两个K缩放差。只有忘K后才为c_n(JF−−JF+)；K/Y读数另保κ^-n(1−βκ)。p^(1−n)损、mixed cut、全部wild与补域都保留。继续实际F±的完整5-old投影、精确canonical/reference系数及5-new同解约束；不把投影的身份当全来源的零。
 

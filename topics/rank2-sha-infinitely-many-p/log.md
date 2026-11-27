@@ -116,10 +116,12 @@ R1049§3统一原S lift于H²_fp(S,2)，A用Besser(2.3)的唯一H¹_fp(A,0)，�
 
 run46032975863/job140621181486/source5df58ad8真PASS，完整原对照、基修改重建和全部306列回乘齐，八次单行0.9895s，原结果/log哈希记返回note。现修改本课题.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml调用v12，60源及两char0 pins、29/2453/64/minimal、全部原门/只读禁网不变；未原样重启v11，也不读取旧矩阵缓存。继续原作业实际验收及数学各线。
 
-## 2026-11-27 16:38 UTC — v12原作业实际标识
+## 2026-11-27 16:36 UTC — v12原作业实际标识
 
-已收到唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b。原数学step16:25:38UTC开始、16:37仍in_progress；早期log404没有数学含义。已将实际标识写入HANDOFF/返回证明，不改重作业请求、不重启。原全部验收未删。
+已收到唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b。原数学step16:25:38UTC开始、读取时仍in_progress；早期log404没有数学含义。已将实际标识写入HANDOFF/返回证明，不改重作业请求、不重启。原全部验收未删。
 
-## 2026-11-27 16:42 UTC — R1049原整局部扩张与残余参数
+## 2026-11-27 16:37 UTC — R1049原整局部扩张与残余参数
 
 追加§8（33）–（42），直接分类原FL[0,3]整晶体扩张，唯一h=x+puy，logBK=p h/(p+1)，原整log格=pO；全除Frobenius和精确全忠实给modp^n split iff h≡0。同原积分测试/Artin基比较严格h=a_j,p⁻¹I_j,p。root亲读FL§7.14/7.15/8.4及GHLS§2.3 p414，保原两个标记嵌入与负号。尚无h非零，继续全54权Ξ图限制和原全球桥。open接近30KB，逐字归档后压缩重复说明，未删任何旧门。无数学执行或重算。
+
+16:37同步附记：R1049§8首次ref返回GitHub GraphQL UNKNOWN；已立即尝试本地pull --rebase（执行环境仍不可用），随后重读实际main、比较两README和本topic外部差异、以新父50145fc4重建并成功非force推13b0bbd9。更正两条记录的手写时标为实际UTC分钟，运行状态只记实际读取时状态。
