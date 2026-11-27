@@ -12,13 +12,13 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-universal-manin-polynomial.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-original-unramified-average.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
 v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/job/source/hash、未到终门及两字段兼容修复在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。不是代数反例，也不是四交/Norm/shadow PASS。
 
-唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。14:45复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；14:43API数学步骤仍在运行，无四交/Norm/shadow终门。不重编译/开副本。15:20仍in_progress、接口同旧快照；15:24沿原只读collector收v11全字节/终门，待回执。
+唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。14:45复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；14:43API数学步骤仍在运行，无四交/Norm/shadow终门。不重编译/开副本。15:23只读collector run46024397441/job140591925091完整取同4203673B/f9ecdfbb…，23native/1primary，终门空；不据旧尾推定停顿，约15:49再收原终态。
 
 ## 二、原算术输入与实际全域缺口
 
@@ -30,13 +30,13 @@ R1040六轴Gram(126,3,6,2,9,14)/det756及真实6⁵平均保持。只投H/J/N的
 
 §15原K条件矩U_K=(10δ/7)D126，完整odd9/JMJ/2/3/双7及正权平方识别E21609:y²=x³+147²，f126、level47628/root−。R1046唯一run46008071578/job140536202708/source60a44f52的完整L′严格正，原CM/Q Rubin定理和固定点(-12,141)付ΩI_D非零，双7分歧使它与三九阶点值代数线性独立。原角函数j(Y+tK)的j′(0)≠0；坏j(0)=0时全bounded尾给v(j(ξκⁿ))=n+ℓp，n>ℓp−bp。原坏条件仍不迫j(t)或角导数零，继续实际forcing；不重跑。
 
-R1042共同H3/F81、93/2511与90/810全核、四输出六次Q及网格三对差v=n均付。§11的72支/24整48半整、degree372深核βB(B²1)及全部中间环准确返回；原未旋转D1三对差v=1，平均S/T未授权。§12给整个至少双unit余域的首Schur：先以完整unit质量零证明a_i,p−1∈pO，再用Hasse付Ω^(p−1)=H_b^-1，真实六sigma低卷积c_i,p∈pO。其首位为b^-1{−h_p^-1(c_i−c_j)/p+h_p^-6(α_i−α_j)}；三canonical坏要求三个c_i/p同为0modp，尚未排除。§13以真实cZp推前/完整质量零把任意精度改写为代数有限Hurwitz读数，误差H+1−floor(log_p(H+1))；u_S=λ/u_A=−λ/u_T保真phase，只有H≤p−2可省deep。多Q非新坏行，继续实际Schur消元。
+R1042原H3/F81、93/2511与90/810全核保。§11全72支及degree372深核βB、B²1给所有中间环；原未旋转D1三对差v1，平均S/T未授权。§12整个至少双unit余域首Schur为b^-1{−h_p^-1(c_i−c_j)/p+h_p^-6Δα}，由完整质量零先付c_i∈pO及Hasse period；三坏需三个c_i/p同零，未排。§13真实cZp推前及完整质量零给全精度有限Hurwitz读数，误差H+1−floor(log_p(H+1))；所有core/Euler保真，只有H≤p−2可省deep，多Q非新坏行。继续实际有限余式。
 
 原norm25管12支M*≠0及A−S的dM*log〈r*〉全尾已付。R1047完整付H3的α2/25、全部2/δ/5、25维Weil、四角色r2/8/14/26、f25δ/root−、Haar/h/平方及actual C15点域。BDP2和Fuchs–Pham含常数1分离给整个S/T一次项非零，管内v=n+ℓp；不需四L′非零或Euler单位。Y_A−(7+4δ)H混合cut及所有其余unit扇区保持，继续全低卷积和完整补域forcing。
 
 R1044真R=K+ωA整推前消Ξ1，Ξ0回δ*(-xyσ5)；共同F3913/C1596的全四输出carry保三原未平均行，H/J/N平均另给纯Φ行。两个授权不能混，原全cut与补域(41)继续。
 
-F0唯一两δ字run45991193171/job140479142693全返；完整C±/U±、Miller/三挠/degree51 Gaussian与第三类边界给Φ=W51(U+C1−U−C2)/36，原x+y-unit卷积不可拆。R1045唯一run46004443574/job140523950861/sourcef13b8dea给三个九阶L′严格正；一般BDP2/同good-pair/H cyc9/R749单射已给三个负一值代数线性独立和五sigma奇部非零。全部有理界/θ周期/hash在原文；当前是全sum-unit中央转置，禁止重跑裸负一输入。
+F0唯一run45991193171/job140479142693已付全C±/U±/Miller/三挠/degree51及Φ=W51(U+C1−U−C2)/36，原x+y-unit不可拆。R1045唯一run46004443574/job140523950861/sourcef13b8dea已付三九阶L′>0；一般BDP2/原good-pair/H cyc9/R749给三负一值代数线性独立及五sigma奇部非零。全sum-unit中央转置仍开，不重跑。
 
 ## 三、原谱盖、最高权与一般 Manin 多项式
 
@@ -56,4 +56,4 @@ R1043原2-Vélu/full9、真实S′/S3左逆、canonical E4/I及η′=ηκ2全部
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。
 
-central负责同一三低卷积；arithmetic负责真实角源和全补域forcing；geometry负责原Manin/两标记与最高λ；root核接线、原作业、同步及逐条推送。原g_n趋零角的Schwartz稳定子恰1+p^n，含真p^n字；未分歧投影及后继消字须另付。固定norm11端点非CM本征，未新增授权。主目标未完成，持续工作。
+central负责同一三低卷积；arithmetic负责真实角源和全补域forcing；geometry负责原Manin/两标记与最高λ；root核接线、原作业、同步及逐条推送。原g_n趋零角的Schwartz稳定子恰1+p^n，含真p^n字；未分歧投影及后继消字须另付。固定norm11端点非CM本征。新§§6–9全E0球/环带及标准极化二次相位已付，每层p^(n−r−1)损保；固定其它输入的±角被全杀，真实有理角保固定坏处差。非零K/Y导数属于移动投影，换固定E0费用(1−E0)φ_n不可丢。未新增canonical授权。主目标未完成，持续工作。

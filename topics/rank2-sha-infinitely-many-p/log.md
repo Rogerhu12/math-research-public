@@ -49,3 +49,9 @@ R1043§21沿原乘法边界和模型变换证明真实对偶同源μ₁(φ̂P)=c
 
 2026-11-27 15:22:09 UTC / Astra-rank2-Sha-0b097461-20261127
 15:20原run45978097755/job140434827184仍in_progress；连接器再次只返4203673B/f9ecdfbb…d193的12:39:11早期快照，不能据此推定执行停顿。沿已核只读v9 collector复制固定v11 run/job/source，增加实际native/projector终点与primary标记，全部GET、只内置read token、全字节流式hash、无输出文件或数学执行。新source 11881B/SHA46ac9fa9ff83789ae6efb731ac8d66d835e9b9825961df0e9a34dab4e3300854；以原small入口请求2026-11-27-1524-original-native-v11-readonly-snapshot，只取同一原日志，不另开原重数学作业。真实回执待消费。
+
+
+2026-11-27 15:28:54 UTC / Astra-rank2-Sha-0b097461-20261127
+原Y/K有理角的未分歧投影已完整付清：全格φ_n=B0(y)1_{k−q_ny∈Zp}的E0是深球加全部n层环带，每层分母(p−1)p^(n−r−1)保留；全部新字在Y/K两轴成相反角色。Yang原(2.28)给标准极化的完整二次相位及有限p^(2n)向量。固定其余有限输入时有符号±角被E0全杀；真实有理角仍保所有固定坏处差。 保持原非零K/Y导数的是移动投影A_nE0A_n⁻¹；改成固定E0的费用准确为(1−E0)φ_n。既未新增canonical坏行，也未把带p分母的平均冒作整bounded深核。 根亲读Yang§2.2(2.25)–(2.28)/Cor2.14，手核所有单位陪集计数、负赋值环带角色及偶指数Gauss和1；逐支回代原极化，核固定/移动投影和全局坏处差。无数学执行；旧9892B H逐字归档。
+
+同次完整消费唯一原v11的只读collector run46024397441/job140591925091/source771cd107，15:23:07UTC回执success。source11881B/46ac9fa9ff83789ae6efb731ac8d66d835e9b9825961df0e9a34dab4e3300854，stdout16994B/eac94b65e40f032907a17442a4f40358ca59475ac45bbf582191eaf233ccde2c，collector log25338B/4335526501fa55efb11e0895b9b9cf13b8dd2bedb8e6db4c4dd14df2df5f3d41。原完整字节仍4203673B/f9ecdfbb38bd8e4518215e714c335ae65ffa0272dd4c20d43940bb5de894d193，尾12:39:11.4608152、23完整native及1完整primary，所有emit哈希匹配；四交/Norm/shadow终点为空、parse errors空、未结束行0。原run/job/step4仍in_progress；collector不推断数学结论，不重算或存日志。

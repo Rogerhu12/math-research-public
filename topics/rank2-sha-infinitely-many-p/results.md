@@ -378,3 +378,6 @@
 
 
 - **R1043原图的Manin与三权运输**：[§21](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§21沿原乘法边界和模型变换证明真实对偶同源μ₁(φ̂P)=cφ^qμ₂(P)、R₁=cφ³R₂/n及Φq与原正规二形式pullback严格交换。外部ω系数线性延拓后，μ(Q+)=μ(Qmin)、μ(Q−)=0，原全三项下降给Φq(PQ)=3cQΩ′1和μ(cEPQ)=0；完整评值保留Σω^i c_i^q m_q(fιP_i)。 原PQ是系数截面，固定CM纤维上的实际T_a才使用几何[ω]；一般纤维没有该端同态，故未将系数μ零或其接触阶移给实际T_a。目标p的全影子非零仍未付。
+
+
+- **原未分歧平均的完整有限返回**：[§§6–9](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)。原Y/K有理角的未分歧投影已完整付清：全格φ_n=B0(y)1_{k−q_ny∈Zp}的E0是深球加全部n层环带，每层分母(p−1)p^(n−r−1)保留；全部新字在Y/K两轴成相反角色。Yang原(2.28)给标准极化的完整二次相位及有限p^(2n)向量。固定其余有限输入时有符号±角被E0全杀；真实有理角仍保所有固定坏处差。 保持原非零K/Y导数的是移动投影A_nE0A_n⁻¹；改成固定E0的费用准确为(1−E0)φ_n。既未新增canonical坏行，也未把带p分母的平均冒作整bounded深核。
