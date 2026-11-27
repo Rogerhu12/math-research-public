@@ -1644,3 +1644,148 @@ $$
 特别原 meromorphic $h_\chi(f)$ 在 target 的二挠点可能有极，
 其直接平移到 $O$ 后不自动属于原中央读者的整源域。
 (89) 中的权差、$P_{10}$ 运输和 cut 仍须一并消费。
+
+## 14. δ 适配连接的首单位与完整曲率抵消
+
+本节保持 §12 的原 $Z,G,\delta$，令
+$$
+j_\delta=2y/x,\qquad b_\delta=Z(\delta P)/\delta-Z(P),\qquad
+A_\delta=\delta G(\delta P)-3G(P)-j_\delta .
+\tag{90}
+$$
+这是把 degree10 的原模型沿 $[\delta]$ 拉回到 degree30 时实际出现的连接差，
+不同于 §12 的三个平移连接之和 $K_\delta$。
+以下均在 R887 §19 已付的同一个有限整窗口内读取。
+仍记 $\rho=c_p^{-1}$、$q_\delta=\delta^{p+1}/3\in1+p\mathcal O$。
+
+### 14.1 原有限 Taylor 规范锁定全部首项
+
+原 R887 (107) 给
+$Z=z-\kappa_5z^{5p}+O(z^{11p})$，
+$\kappa_5=(3/5)^p/c_p$。
+因为 $\delta^p=-\delta$，有 $\delta^{5p-1}=-9$，故
+$$
+b_\delta=10\kappa_5Z^{5p}+O(Z^{11p})
+       =6\rho Z^{5p}+O(Z^{11p}).
+\tag{91}
+$$
+这里没有把 $z$ 当作全局有理参数；所用次数均在原整窗口内。
+
+以 $\mathcal G_T(x)$ 表示原 $G$ 的有限 Taylor 多项式，只把显示的
+$Z$ 换为 $T$。原 sigma division 给
+$\delta^2x(\delta P)=3x-Dj_\delta$。
+逐项保原 $p-1$ 个项，准确得到
+$$
+\boxed{
+A_\delta
+=3\{\mathcal G_{Z+b_\delta}(x)-\mathcal G_Z(x)\}
+ -\Pi_{Z+b_\delta}j_\delta .
+}
+\tag{92}
+$$
+这里 $\Pi_T=\sum_{i=0}^{p-1}(-T)^iD^i/i!$。
+所用恒等是 $\mathcal G_T(Dj)=\Pi_Tj-j$；
+不留一个任意 horizontal 初值。
+
+原 $\partial_T\mathcal G_T(x)|_{T=Z}
+=-\Pi_Zx+c_pZ^{p-1}$。
+$\Pi_Zx$ 在原点正则，原 CM 型使其首可能次数为 $2p$；
+因此它乘 (91) 的贡献从 $7p$ 起。
+二次以上的 $b_\delta$ 项更高。
+同样 $\partial_T\Pi_Tj|_{T=Z}=-\Pi_ZDj$，
+其与 $b_\delta$ 的差从 $7p$ 起。
+最后 $\Pi_Zj_\delta$ 的型只允许 $p,7p,\ldots$ 次项。
+
+其第一个系数也由原特征零来源固定：
+$j_\delta=\delta\zeta(\delta z)-3\zeta(z)$，
+故先在特征零除 $p$ 再约化，
+$$
+[z^p]j_\delta
+=(\delta^{p+1}-3)[z^p]\zeta
+=-3c_p\,\frac{q_\delta-1}{p}\pmod p.
+$$
+这里用 $p[z^p]\zeta\equiv-c_p$，
+即原同一个 Gaussian 的 Hasse 系数；
+没有在剩余域中直接除以零。
+
+于是完整首式为
+$$
+\boxed{
+A_\delta
+=3c_p\frac{q_\delta-1}{p}\,Z^p
+ +18Z^{6p-1}+O(Z^{7p}).
+}
+\tag{93}
+$$
+$18$ 对本课题全部 $p>13^4$ 为单位。
+另一个独立核对是原全函数微分式
+$$
+DA_\delta
+=3c_p\{(Z+b_\delta)^{p-1}-Z^{p-1}\}.
+$$
+由 (91) 其首项为 $-18Z^{6p-2}$，
+恰为 (93) 中非水平项的导数。
+首 $Z^p$ 系数则必须保留原费马商，不能由这个微分式删掉。
+
+### 14.2 真实 P 模型中同阶曲率恰好相消
+
+令
+$$
+\widehat P_{30,\delta}
+=\delta^{-10}\frac{P_{10}(\delta P)}{x^{10}} .
+$$
+它在原点从 $z^{30}$ 起，首系数一。
+因为 $D\log x=j_\delta$，
+原曲率方程逐项给
+$$
+\boxed{
+(D-30G)\widehat P_{30,\delta}
+=10A_\delta\widehat P_{30,\delta}
+ +10\delta^{-9}
+  \frac{\mathcal H(\delta P)^pZ(\delta P)^{p+9}}{x^{10}} .
+}
+\tag{94}
+$$
+右边第二项不是原 $30\mathcal H^pZ^{p+29}$，
+因此不能用 (93) 的单位直接宣布两个 $P$ 模型首差为单位。
+
+准确地，$\mathcal H=(3/5)z^5+O(z^{11})$，
+$\delta^{6p}=-27$。
+(93) 的首非水平项在 (94) 中贡献
+$180z^{6p+29}$。
+适配曲率与原 $P_{30}$ 曲率的同阶差却是
+$$
+10(\delta^{6p}-3)(3/5)^p z^{6p+29}
+=-180z^{6p+29}.
+$$
+这两个显示贡献完全抵消。
+首水平 Gaussian 串仍须原样保留；
+这个抵消没有给整个比例赋常数。
+
+为明确锁定真正留下的初始化，沿 R887 (105)–(106) 记
+$$
+c_a(j)=[w^j](\sigma^\circ/z)^{-a},\qquad
+e_{a,p}=c_a(p)+(1-a)\kappa_5c_a(s).
+$$
+该有限 Taylor 证明对当前 $a=10,30<p$ 原样成立。
+在同一原窗口中，
+$$
+\boxed{
+\frac{\widehat P_{30,\delta}}{P_{30}}
+=\exp\{-30c(q_\delta-1)z^{p+1}\}
+ \{1+(-27e_{10,p}-e_{30,p})z^{6p}
+       +O(z^{6p+6})\}.
+}
+\tag{95}
+$$
+指数参数整，仍由原 $c=[z^{p+1}]\log(\sigma/z)$ 固定。
+显示指数只在这个有限窗口截取，所需指数次数至多五、阶乘均为单位；
+没有宣称任意阶的形式指数都整。
+公式由完整 $\sigma(\delta z)=\delta\sigma^3x$
+和两个原 $P_a$ 的 (106) 直接相除得到。
+去掉显示 Gaussian 后，$z^{6p}$ 是一个真实 horizontal 系数；
+本节既未赋其零，也未赋其单位。
+(94) 的曲率不能由裸连接抵消替代，
+(95) 的全低卷积也不能从原高位物理矩阵中删除。
+
+本节无新增数学执行。

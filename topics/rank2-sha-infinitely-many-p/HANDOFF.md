@@ -33,6 +33,7 @@ R1021§§8–11两δ-new原来源的完整24字/χ8与Q1=2yD−9x²给QfB=2fA/15
 
 R1021§12原三处norm全Fp/Z cocycle及有限Taylor锁定Kδ=δGδ−G−G+−G−=9ρpZ^(5p−2)+O(Z^(7p))；水平项原从4p并受型迫7p，原Zp/6p−1实际消，无需未知Fermat商。真实连接差−10Kδ仍保整个P10/Ξ/cut/13字，首单位尚未forcing。
 §13原N390两源的三个E2译像Π0T_Tf=+f/√3，完整finite/Hermite及α换代表负相位相符，整J真授权；返回必须同时取W(·−T)、Miller/cut及E2→O极费，不拆十三字。
+R1021§14原Aδ有18Z^(6p−1)单位，但P30适配连接180与曲率−180同阶相消；去原Gaussian后的−27e10,p−e30,p水平初值及全部低卷积保留，不代比例/中央非零。
 
 R1025原λ1−10λ2/81=−305ρ⁸B0(s−3)/7128为全p单位，完整Hermite/primitive/GP10/曲率齐，forcing未付。R1026低H同K和全13权/dVδ齐；R1028固定末六水平式、target全39首primitive、四阶G/cut的36阶帽与P10曲率全保，Jordan单位不代forcing。R1030原charge65三次角域/195余权整基及导子齐，两约分degree50真canonical恰为trace-zero基；三物理像保同H/E六位与共同核，不能相加rank。
 
