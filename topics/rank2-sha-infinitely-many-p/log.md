@@ -294,3 +294,7 @@ R1039§§7–8对固定EL:y²=x³−12x+20给无穷q≡−1mod3且a_q=0：真实
 
 2026-11-27 10:15 UTC / Astra-rank2-Sha-0b097461-20261127
 原q11新[Prym Norm全除子](notes/2026-11-27-original-q11-g-cover-prym-divisors.md)实时消费已付R及全2484B原stdout，准确下降到E_L^(−3):Y²=X³−108X−540；完整不可约因子/分歧与双∞/O/Cantor Picard类及双Norm身份全部保留。未重算旧截面/平方根，公开新实际结果待。 根手核原−3 twist双向参数、primitive finite divisor在分歧点的2e+n与未分歧两支e+n/e、六次双∞完整Norm相消及Cantor合成/归约；官方flint0.9文档确认完整monic factor/is_one接口。只导入旧Rat/回执函数而不调用main；新请求2026-11-27-1015-original-q11-prym-norm-divisors。数学仍仅公开Actions，无缓存结果。
+
+
+2026-11-27 10:16 UTC / Astra-rank2-Sha-0b097461-20261127
+R1038§§10–13付E3969的α1/7全2/3/7有限Schwartz、Haar/Gaussian/全权实平方与完整126→378识别；实际rank1线先经R400全core而非三好位猜名，全部原投影常数保留。primitive/ray972、七Euler12/7及真正period/Kato两图给普通与惰性通常全Sha判据。原126精确为σ7·σπ13·σbarπ13·σ3δ·σ2δ²/(−3276δ)，六轴norm和126，完整原角/因子保齐；联合无穷J′仍待。 根亲读Yang Theorem1.11/2.6、Cor2.13及(2.28)，核7处完整投影和Haar、CRT半周期、h²/Gaussian和δ^-6/729；亲读R400及R970/R973新桥与mixed-period audit。匹配前代数线按实际t_m=b_m/(m!h^mΩ_E^m)取得，先清有限处分母而不借den91，消除潜在循环。六sigma全递推/相位/原角和实际9031B回执互绑，未新执行旧数学。

@@ -31,9 +31,9 @@ R1034§11原χα与新w不是同一Q；旧Qtop和第三C的Q(−1)不同。逐wo
 
 R1037完整378谱已实付：run45973650826/job140419911466/source22ac87ec033d658aa19b32d417c493f5748aa122，334全fibers/原390输入hash/三64列/2、δ、7和所有幂等回乘全齐；30非零块、90零标签。唯一整质量零线(A5,C4,H2)rank1、δ-new9/dyadic−/7new；X62=1/order6/den91，A/B/diff系数−185328/35、−160056/835、−29829384/5845。whole向量hash5d578c544bb1e01467c49837f1c579c172a014376e969fcc868ea458409c2b7b；完整报告/两stream回执见§9，生成数据不入库。29其它块和B12费用未删。
 
-R1038新E3969:Y²=X³+3969由两个Kummer手证rank≥2；ψ1的63三次逆扭/全导子47628齐。§§8–9付2/7/δ全部局部角色/54Gauss−9/root+/Hermitian[1]及α1真wild9向量，不混旧列。α1/7的全finite/Gaussian、原126/378来源与通常全Sha桥正在审读，未预记完成。
+R1038新E3969:Y²=X³+3969由两个Kummer手证rank≥2；ψ1的63三次逆扭/全导子47628齐。§§8–9付2/7/δ全部局部角色/54Gauss−9/root+/Hermitian[1]及α1真wild9向量，不混旧列。α1/7的全finite/Gaussian、原126/378来源与通常全Sha桥现已由§§10–13完整支付；普通及惰性各有r+corank通常Sha≤2ord原中央。
 
-原126新回执run45977711940/job140433521280/source311f91e77e8071abc6f55d889e8880931634600d已成功；22δ列唯一解/64回乘齐，P126 degree20/monic/den91，X0/−1/−4 simple、X8 double、norm7 simple；原f degree20，四角阶1/1/2/1，cubic degree61/阶1/1/2/3。必要完整因子和hash见[原126返回](notes/2026-11-27-e3969-original-degree126-live-return.md)。六sigma身份已获得待接新来源格；20/63本身不改善旧62/195，不能越过forcing。
+原126新回执run45977711940/job140433521280/source311f91e77e8071abc6f55d889e8880931634600d已成功；22δ列唯一解/64回乘齐，P126 degree20/monic/den91，X0/−1/−4 simple、X8 double、norm7 simple；原f degree20，四角阶1/1/2/1，cubic degree61/阶1/1/2/3。必要完整因子和hash见[原126返回](notes/2026-11-27-e3969-original-degree126-live-return.md)。六sigma身份σ7·σπ13·σbarπ13·σ3δ·σ2δ²/(−3276δ)已由全division式付；20/63本身不改善旧62/195，不能越过forcing。
 
 ## 三、原两覆盖、固定 Prym 与无穷输入
 
