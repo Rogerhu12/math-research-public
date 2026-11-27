@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi例外整ψD原纤维排除及128有序基点覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)：原rho3完整覆盖、T4/z2原144维meanR可逆，真ψ³剥后1993/2050完整Gauss；首头及余128仍开。
+
 - [整个J2碰撞原纤维完整排除](results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md)：两完整有限代数原R可逆，末48维真实QQ Delta²组合，合57个u全覆盖；原Q纤维无遗漏。
 
 - [整个J2的四同λ原式及三u因子完整覆盖](results/R150-appendix-unit211-entire-J2-original-norm-cross-three-u-factor-cover.md)：新固定13阶QQ结式给57个u候选，原O全Q4头已付，至多456规范三元组；整纤维返回继续。

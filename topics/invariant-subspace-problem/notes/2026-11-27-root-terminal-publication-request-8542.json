@@ -1,20 +1,18 @@
 {
-  "message": "ISP: exclude the entire original J two collision fiber and continue new whole-curve inputs",
-  "parentCommit": "be3d20e8598a377751247afc588415e3013b3df0",
+  "message": "ISP: exclude the entire Phi moment image fiber and reduce its ordered cover to 128",
+  "parentCommit": "bbdb05229dbb28fc0a3c01b18fafb193a3b4cc2b",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-entire-original-fiber-exclusion-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-whole-Q-six-original-thirty-six-column-return-8542.py",
-    ".github/workflows/invariant-subspace-w-g36-whole-q-six-original-thirty-six-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-ward-factored-cost-square-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-odd-hard-top-s2-one-projection-source-8542.md",
-    ".github/workflows/invariant-subspace-five-bit-s-two-ward-factored-square-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-J2-original-exclusion-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-entire-J2-original-exclusion-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-Phi-psiD-entire-original-fiber-128-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-psiD-cubic-and-original-four-by-two-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-actual-lambda-row-module-D-return-8542.py",
+    ".github/workflows/invariant-subspace-phi-first-head-actual-lambda-row-module-d-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-whole-psiD-and-128-cover-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-whole-psiD-and-128-cover-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,7 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-g36-whole-q-six-original-thirty-six-8542.yml",
-    "invariant-subspace-five-bit-s-two-ward-factored-square-8542.yml"
+    "invariant-subspace-phi-first-head-actual-lambda-row-module-d-8542.yml"
   ]
 }
