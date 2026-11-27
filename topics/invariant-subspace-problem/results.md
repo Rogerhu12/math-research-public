@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：W 原值四次的 C8 与首一六次商中的五次必要式](results/R150-appendix-unit211-W-original-value-quartics-fixed-cofactor-and-lambda-five.md)：原 N1、qT4、rT3 完整八式迹给非零 C8，首一 χ 除法返真 R5；无 λ/D 或新头逆，全部未付内容零支保留。
+
 - [R150：原 F9 极点与实际头整提升，四个完成块全闭](results/R150-appendix-unit211-Phi-zero-H1-F9-original-pole-completed-head-exclusion-and-ten-points.md)：新 QQ D8 专门化全零、原源分母互素，证 F9|P201；整实际 h Bézout、完整 1/1/3/4 模式及导数单位提升 Q=qh，四块接原 h0 排除。仅第五块尚余，完整点≤10。
 
 - [R150：第五完成块的真实 λ 与原几何关系](results/R150-appendix-unit211-Phi-zero-H1-fifth-block-original-geometry-and-334-points.md)：全 λ 幂原关系、完整 Tv 九种子闭包 K-rank 2，余商 5 维。独立运行给 167/334 界；随后 F9 原特征零桥已闭前四块，当前余图仅 5/5/5/10。
