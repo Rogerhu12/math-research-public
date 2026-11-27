@@ -8,7 +8,8 @@
 
 - 两库部分克隆已做。公开根/课题README实际pull --rebase已读至1cf10ac7283dc40958604f5f981f1be0e477af80（07:12UTC），两README无差异；blob分别282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
 - 私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推。最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变；blob分别5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。
-- 07:20执行环境再次失联，10:58:59两库实际pull重试仍各为No usable execution environment。随后公开API核至f6438625c06dda786cb9117b9004d84cf3184f25、私库至a6ed8db38d42aee73a8847fb1ff48e53cb015e76；四README均与前次实际pull同blob，QUEUE仍“进行中（Astra-rank2-Sha-0b097461-20261127 / 2026-11-27）”。公开相对本课题末提交只2个其它文件变动。API不冒充pull；恢复立即补两库实际pull。
+- 07:20执行环境失联；11:32:20两库actual pull仍各为No usable execution environment。10:58:59 API公开f6438625c06dda786cb9117b9004d84cf3184f25/私库a6ed8db38d42aee73a8847fb1ff48e53cb015e76四README同上述blob，QUEUE仍本会话进行中。本次触发仓库既有只读CI actual pull入口，实际回执待；其runner与本地checkout分别记账。API不冒充pull，本地恢复立即补。
+
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
 - 本次整理前的[完整交接](notes/2026-11-27-handoff-before-dual-four-cover.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-prym-inert-infinitude.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
@@ -33,7 +34,7 @@ R1038的E3969:Y²=X³+3969，完整α1/7有限Schwartz/Haar/Gaussian、63三次�
 
 R1040原六轴Gram=(126,3,6,51,2,2142)、det−12852δ，C=H与F=J全纤维B3⊗Θ给DE5单项返回；D5、3E30各保χ65/χ10 whole核。三支carry保Y/K/L/M并回39δuD^nJ126,17；§8准确分离K主型σ6(X−2b)，真实(Y,L,M)三变量源(45)保所有mixed。合法顺序先carry忘C/F，再K因子；H/J平均不提前穿cut。norm17矩阵是真混合，未按51/2142范数贴canonical。§9整个Y/K/L/M δ-old为零（L目标17的原ε权必保）；只余联合字(Y,L,M)=(λ,λ,λ⁻¹)，λ=ω/ω²。M两个63全迹、S34六坐标/E17投影恒零；F0及两个δ-pull因子的完整module证明另核回。拟consumer未启动；转两个非平凡字与真mixed转置。
 
-原F0两非平凡δ字手证为σ34xB(±y)，全Kummer/Miller/σ2²和单位cut保齐；B两端点−1/1092。新small请求2026-11-27-1133-original-f0-two-delta-word-return，仅求固定B10、完整dyadic和∇S关系；实际输出待。证明/参数见[两字笔记](notes/2026-11-27-original-f0-two-delta-word-return.md)。
+F0两δ字run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee71912a8749751实际全返：B10、反射/回乘/二处齐；两旧rank1投影全零，primitive三维非零且非∇S比例。真短式B±=(X+4)D_-/(279552y)±σ4σ3σδ³/(1118208δ)，全T_i/Miller/σ2²/单位cut保。必要坐标/hash及未闭转置见[两字笔记§6](notes/2026-11-27-original-f0-two-delta-word-return.md)，不重跑。
 
 R1042三原S34/T72/Φ126共用H3/F81平面，保四输出。93/2511 odd全核β与90/810 even全核χ10λ齐；ray只作相容3/31细化。固定六次Q全部q0..6（q5=0）、真五深一单位网格、三normalized-log差各v=n、全质量多项式与补域齐。两carry whole零核(41)不消掉(43)；继续实际源作用和合法局部化，不给任意Π乘子中央零。
 

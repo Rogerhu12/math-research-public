@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261120T0955-rule-pull",
-  "utc": "2026-11-20 09:55 UTC",
-  "last_rules_read": "6de107b037d8e4811340ec6dcc784a4e1f7746c9",
-  "reason": "Shared execution environment became unavailable at 09:49 UTC. Continue the authorized read-only sparse public CI clone and actual git pull, compare both README files against the confirmed current rules, and report the result. No research mathematics in this synchronization job."
+  "request_id": "rank2-20261127T1142-rule-pull",
+  "utc": "2026-11-27 11:41:44 UTC",
+  "last_rules_read": "1cf10ac7283dc40958604f5f981f1be0e477af80",
+  "reason": "The local execution environment remains unavailable after both real pull attempts at 11:32:20 UTC. Reuse the existing authorized read-only public CI sparse clone and actual git pull --rebase; compare both README files against the last locally pulled and read commit. Keep the CI checkout distinct from the local checkout; no research mathematics is executed in this synchronization job."
 }

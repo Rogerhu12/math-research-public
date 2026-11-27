@@ -270,3 +270,6 @@
 
 
 - **原F0的两个非平凡δ字**：[完整返回与消费规范](notes/2026-11-27-original-f0-two-delta-word-return.md)。原F0两个非平凡δ字已完整手证下降为σ34xB(±y)：固定三项Kummer代数/全Miller乘再移方向、两字反射和B(±1)=−1/1092均齐；真实Φ126仍保κ^i、σ2²、sigma比和原unit cut。小consumer只求固定B10全部系数及原完整五维dyadic投影/∇S比较，尚无新实际谱输出。
+
+
+- **原F0两字实际完整返回**：[§6](notes/2026-11-27-original-f0-two-delta-word-return.md)。F0两δ字实际run45991193171/job140479142693/sourcec5b9ce61389b975b1a11d1ff1ee71912a8749751完整PASS，0.06458秒。B10/反射/全Kummer回乘及5维二处齐；R735两rank1系数皆0，非零奇部全在primitive三维且不与∇S余块成比例。完整短式为B±=(X+4)D_-/(279552y)±σ4σ3σδ³/(1118208δ)，negative-xy符号/首项齐；原两T_i和全部单位权仍保。
