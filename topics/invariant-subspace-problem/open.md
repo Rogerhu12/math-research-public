@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-highest-complete-weight-return-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-half-weight-and-centered-physical-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -180,4 +180,3 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [H非零原头atlas及低次cubic补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)已给全部15二次头子式、4真实overlap及6三次子式。只在(k+2)J19*C9非零图得(1,x,y,t,y²,yt)六生成元，不断言自由；C9仅9项degree(e,k)=2/4。k=−2属等权分支，J19/C9整零面仍待原返回。继续同点原NS/PS与乘法矩阵，保全部主元边界。
 
-[整个剩余等权图的原六生成元](results/R150-appendix-unit211-equal-weights-global-original-six-generator-module.md)现已完成：四二次 cofactor 合四原 cubic overlap，[0,2]头为8(m−1)Q(Q−1)²/J，全由已付单位组成。六条原首一规则无新增零支，继续同点乘法/原NSPS及其重叠差；不假商自由或唯一余式，整个等权仍开。
