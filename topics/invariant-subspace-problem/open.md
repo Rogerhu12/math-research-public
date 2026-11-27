@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-J2-original-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-psiD-and-128-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -213,7 +213,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；继续原lambda行模块。
 
-例外权图[真实QQ重数及146覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md)只在λ半/H6整原纤维闭后剥真10/2重数，余2011与完整S全xgcd度146。[ψD真实三重数](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)由原QQ342矩阵的18独立核付，但整原纤维模秩138/156未闭，仍≤146不同有序(rho,λ)，不删18度。[a40实际SIGALRM](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)：120.058秒只返22步到5次余式，无完整gcd/原值，冻结。新461以原G的156阶QQ乘法行空间发现rho3，完整F/G短除法及已证corank3付全根覆盖，再作原T4/z2≤144环境；整纤维真排空后才新1993/S2050完整xgcd。旧87/55、C71/29、首头零曲线及个别N/P继续；ed0/879及全部旧失败冻结。
+例外权图的λ半/H6已闭；新[整ψD原纤维排除及128覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)以461真5.132370765秒/197080KiB/0完成。原G的156阶QQ行空间发现首一rho3，完整F/G短除法和既有真corank3覆盖全部FG根，H也整除；原F6在同一18维常数代数只合法剥D所付的(T/t*−1)²，原T4/z2的144维meanR乘法矩阵完整可逆。因此整ψD6各λ/rho/T/z原纤维全空，真QQ ψ³重数可剥；新1993与完整S2050的完整模Bézout及Gauss给至多128个不同有序(rho,λ)，不交换/合并b,c。原F26的QQ不可约性另付无垂直rho整纤维，固定Sylvester/Vandermonde保全部rho点计数。[a40的120.058秒SIGALRM](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)仍准确冻结，未把它说成成功。余128基点、旧87/55、C71/29、首头零曲线及个别N/P继续。bb35新首派同原F6行的λ模块/真实D幂，全部权分母零面保留，不重算P6/P9或旧cofactor；ed0/879及全部旧失败冻结。
 
 ## R271：全正权出生一尖锐 2/3 后的完整源（8542，2026-11-28）
 
