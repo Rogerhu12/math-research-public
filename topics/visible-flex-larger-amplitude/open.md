@@ -112,3 +112,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ## 2026-11-27：10真实输入上的完整缓存入口已准入
 
 七上体/九原字下层及全参数见[10完整入口](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)：实际target e711/whole binding4ace/model081，1–4返0；c3dc科学5/2efa pure未返，149/7argv、373/357及43progress完整。[mean/profile](notes/2026-11-27-run10-complete-reference-mean-profile-fee-adapter.md)完整一步已排；[normal/连续geometry](notes/2026-11-27-run10-complete-normal-and-continuous-geometry-fees.md)六全体/两ready已刊未排，保全32段/1024角胞/全径向，38/8argv和36/44读取项。无新场/费/精化真返；09已cancelled、末点/typed未知，07/08/09全部责任保。各费用只读同点真实完整report/snapshot，不取progress或迁09值。[10闭面](notes/2026-11-27-run10-closed-phase-grip-source-adapter.md)全体已刊未排；九角色、全phase共同A/整像δhold/δE及真实精化未付，旧open原字保固定提交。
+
+[10完整同点mesh/t生成器](notes/2026-11-27-run10-complete-same-field-phase-meshes-and-refinement-inputs.md)已刊未排；真final/immutable输入，保原场与全域网格，有限精化未运行。
