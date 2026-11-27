@@ -6,7 +6,7 @@
 
 ## 规则与同步
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35内存重置后一次复核仍不可用；恢复即真pull。云核至 `4bcf0ccd2d663f0b1aec4f264efd48959106e875`，非pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，无变。每真pull只读新差异并立刻遵守，至少每小时；活12/13/14每5分钟真pull，末块存实际提交。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用，15:03:35内存重置后一次复核仍不可用；恢复即真pull。云核至 `cf6a7d6a01952927919858a50c9819e2d9196231`，非pull。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，无变。每真pull只读新差异并立刻遵守，至少每小时；活12/13/14每5分钟真pull，末块存实际提交。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue；每结论普通推，不force。NFF有终端立即rebase重推；云freshHEAD完整合并不冒真pull。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊防重置。令牌仅瞬时CLI。
 
@@ -18,11 +18,13 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终�
 
 ## 真实运行
 
-12：46011377225/1、job140547455454，初始ed9fbfec354330d11b0e46ef61a4d0565b88dfc6。[全启动](notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md)、[两真返输入](notes/2026-11-27-run12-actual-fixed-fejer-input-and-reference.md)保11输出/全命令。maker89cc返0/5.893721086s，reference e717返0/430.2165345s。math957cf/fulltarget50df/model ea64/chart af8ab各自绑定；参考M160/J923/N2048/P7377、H1.947054437068418，2218全尾accuracy=false，e640参数投影≠d492 scalar，旧2397仅历史。
+12：46011377225/1、job140547455454，初始ed9fbfec354330d11b0e46ef61a4d0565b88dfc6。[全启动](notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md)、[两真返输入](notes/2026-11-27-run12-actual-fixed-fejer-input-and-reference.md)保11输出/全命令。两输入真返0，完整11输出在上note；math957cf/fulltarget50df/model ea64/chart af8ab分开，参考M160/J923/N2048/P7377及全2218尾accuracy=false保，e640参数≠d492 scalar。
 科学477499/pure274d保110源、原20121B正文、153/7argv、383/370读数、48progress、1333370变量/32normal。原四step全字d8ff65，仅真返两输入移活队列；science/pure/fullmean三pending94986B、finish=false。15:55:12新点678651仍仅progress，无完整科学/accepted/final/typed/pure/费用结论。
 
 13：46028002241/1、job140604269042、head99b59。maker0/6.210515469s，reference0/574.277473395s；science3返1/8.492643881s、pure4返1/6.193607087s、完整场report未生成。仅command47833B/0c1fd8e…实际存在，不猜失败原因或F/J次数。[真实输入与失败](notes/2026-11-27-run13-entry-failure-and-run14-actual-reference.md)保全部原卷/身份/源参数；只退休这三个已返对象，原93488B全队列固定347ff；接两原异常链reader、7654Bqueue、finish=false，真实异常后修复续算。
 14：46028184571/1、job140604893652、head05c45d。maker0/6.144792773s，reference0/519.242307125s、全部7输出齐，数值reference212eb5/carrier8406相同，本次report43a727/provenance各自绑定。16:08:47科学仍running，sourcea9ab24、launcher596e、PID4009、点e013仅进度；全159/7argv/397、384、48读数/queue94405B保，暂无完整场。两输入及全来源同上真实note，不能冒费用。
+
+15：[完整J1845独立启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)已提交，实际run/job待API；全源f9d79。初始两原完整输入6692B，须二者真返后才退休并接原159/7argv science/pure（407/386/48）90478B；保一个reference加两scientific仍95555B，不削参数塞95KB。固定g/参考与全部新变量保，未来场null。
 
 ## 全源与续作
 
@@ -57,3 +59,7 @@ Actions13：[run 46028002241/1](https://github.com/Rogerhu12/math-research-publi
 Actions14：[run 46028184571/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46028184571)；[全阶段记录](notes/2026-11-27-public-actions-46028184571-1.md)。running；已返2，exit=未返。
 并行14规则核查：2026-11-27 16:13:49 UTC，真实pull至`056f9508549f2aaaacb61795e2daf112628a4090`，双README无变化。
 <!-- visible-larger-parallel-14:end -->
+
+<!-- visible-larger-parallel-15:start -->
+Actions15：完整公开请求已提交；实际run/job和真pull提交待runner返回，不预填。
+<!-- visible-larger-parallel-15:end -->
