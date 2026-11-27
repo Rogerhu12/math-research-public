@@ -508,3 +508,7 @@ GHR [metric-reference height](results/R144-supplement-actual-seed-metric-referen
 ### ARHI：实际完整relative参数frame/position载体（已证明/数值认证）
 
 [完整4目标/载体/真均值](results/R147-supplement-actual-complete-relative-parameter-frame-and-position.md)，45933988440/1全4成功，2847cells/18whole曲线；position均值第一[-.0249±4.50e−5]、第三[.0036±4.22e−5]，frame第二[±8.65e−6]无真符号。全Eu≈7.210855e−6/Ey≈9.750080e−6，whole数组/orderedchain和原source完整身份保，reflection三个零mean真实成立。actual Q_b/F_b/Cθ仍独立，下一首WMR4消费而不重跑。
+
+### HL：完整真实L²参数forcing与第二seed响应（已证明）
+
+[完整证明](results/R144-supplement-complete-L2-parameter-forcing-and-actual-second-seed-response.md)与[15新组合](scripts/fourfold_codazzi_l2_gamma_forcing_saved_bounds.py)。全lag Young、真实Hilbert long模块、incoming固定点及94逐步真导数，付Γ2导数<2^-110M；完整mixed far128^d/一高因子/fullprincipal/mean/三径source保。Z20..2898真方向L²界与GA相同：W_{s+1}≤1时2^-48M/r；joint op L²→Z_s在γA0/wE2960连续。不是开放L²值域或rough-source onto，所需实际选择由后继消费。
