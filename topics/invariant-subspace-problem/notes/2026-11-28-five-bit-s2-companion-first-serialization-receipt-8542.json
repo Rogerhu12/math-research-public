@@ -1,0 +1,128 @@
+{
+  "status": "serialization_failure_before_checkpoint_not_mathematical_failure",
+  "run_id": 46045307104,
+  "job_id": 140662977474,
+  "source_blob": "56996cf06750e51b883604965c912e466f176836",
+  "execution_receipt": {
+    "elapsed_seconds": 0.14652138700000705,
+    "max_child_rss_kib": 39924,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "468c8a40bd07b72998cbb9199b7c95b2a6a72e57",
+        "before": "468c8a40bd07b72998cbb9199b7c95b2a6a72e57",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T17:53:42.855578+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46045307104",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "468c8a40bd07b72998cbb9199b7c95b2a6a72e57",
+    "source_exit_code": 1,
+    "source_git_blob": "56996cf06750e51b883604965c912e466f176836",
+    "source_sha256": "77afd10df396ac61b6f351dfd19a9b2e502d1b51404d7d0ab3ef6ac08c2a26a6",
+    "stdout_bytes": 2303,
+    "stdout_sha256": "711a938584220a3fbf43181bff14b0ff1e945909b3ee51298c2891ad7d7ddf38",
+    "stop_reason": null
+  },
+  "exact_stages": [
+    {
+      "stage": "companion_complete_primitive_grams",
+      "seconds": 0.007976636000009307,
+      "L1": {
+        "den_factors": {
+          "S": 2,
+          "delta": 1
+        },
+        "max_num_degree": 9,
+        "max_num_terms": 21
+      },
+      "L2": {
+        "den_factors": {
+          "S": 2,
+          "epsilon": 1
+        },
+        "max_num_degree": 9,
+        "max_num_terms": 35
+      },
+      "E": {
+        "den_factors": {
+          "e4": 1
+        },
+        "max_num_degree": 5,
+        "max_num_terms": 7
+      }
+    },
+    {
+      "stage": "same_short_four_blocks",
+      "seconds": 0.024376934000002848,
+      "Kcc": {
+        "den_factors": {
+          "epsilon": 1
+        },
+        "max_num_degree": 8,
+        "max_num_terms": 32
+      },
+      "Kce": {
+        "den_factors": {
+          "pi": 1,
+          "epsilon": 1
+        },
+        "max_num_degree": 9,
+        "max_num_terms": 51
+      },
+      "Kee": {
+        "den_factors": {
+          "pi": 1,
+          "epsilon": 1
+        },
+        "max_num_degree": 8,
+        "max_num_terms": 39
+      }
+    },
+    {
+      "stage": "common_source_inner_square",
+      "seconds": 0.03335186800001111,
+      "inner": {
+        "den_factors": {
+          "e4": 2,
+          "delta": 2,
+          "epsilon": 1
+        },
+        "max_num_degree": 16,
+        "max_num_terms": 198
+      }
+    },
+    {
+      "stage": "same_actual_cost_in_companion_coordinates",
+      "seconds": 0.050385693000009724,
+      "cost": {
+        "den_factors": {
+          "S": 2,
+          "e4": 2,
+          "delta": 2,
+          "epsilon": 3
+        },
+        "max_num_degree": 23,
+        "max_num_terms": 688
+      }
+    }
+  ],
+  "exception": "TypeError: Object of type fmpz is not JSON serializable",
+  "exception_location": "build: temporary.write_text(json.dumps(checkpoint,...)), mathematical cost already formed",
+  "report_file_produced": false,
+  "fix_blob": "7ca2a2d4993ddf33f2292dd1b512d201b0c84d5a",
+  "fix_scope": [
+    "two exponent-list JSON records convert each fmpz to int",
+    "weighted-degree JSON statistic converts each exponent to int"
+  ],
+  "mathematics_changed": false,
+  "resource_limits_changed": false,
+  "positive_s2_claim": false
+}
