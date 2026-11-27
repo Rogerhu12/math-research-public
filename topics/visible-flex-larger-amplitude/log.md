@@ -64,3 +64,7 @@
 刊[全部6件参数](computations/fixed-fejer-bfiveeighths-complete-parameter-delivery.json)，science97307B、pure86702B、display29575B、完整再生器21283B、说明12303B、总表52529B。19完整父的科学仅argv71 namespace与113 width1/2→5/8；δ1/32、metric/restoration均.01、全157/7词/458与445正式/48live/137源18runtime/全预算原字保。maker/reference不接width，固定g两输入原数学与全参数不改，须新runner实际重建。全部5支持CLI/6旧external保，19/20真官方身份仅追加external未知历史，不假迁typed；未来run/input/model/point/final/fee全null。完整双step紧凑104029B超95k，原whole步分期装载，无删字段或source重写。H完整旧16数学已在其全终态note和旧H链保，压短当前摘要留真实新槽；未启动新job。
 
 完整6件共299699B；双README云核至`11f4acf4993e93c8060c14823b717a5298761d95`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-27 23:38:21 UTC — 全normal续费与下游source路径合同
+
+刊32,822B完整15源接口分析，全部source/bytes/SHA/blob和真正字段/900/900/600顺序保。normal原whole request含137源绝对path，同outdir续允许新step_id而须同首次normal的--repo/源/科学report/snapshot/全输入；不是solver路径的推测。geometry第一次可freshrepo，续目录需原whole normal与自己3源路径；normal SHA更新不能重绑。R723每次fresh；45ca矩可复用同execution完整block但最终R716同normal whole版本；meshfresh且原137完整源copy映射。当前19/20原32词mesh没有optional closed参数，本来无缺件门；未来有附证时2ef3只支持002eb，不能塞1782。全部源守卫保，无新增science/AST/前门。双README云核至`eccff6a0f85e9a27b6152f54c1cd30686a67a034`无变（非pull）。
