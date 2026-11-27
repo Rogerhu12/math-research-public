@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 14bed8622314e1daba28b430303be433aa1e8537（2026-11-27 16:05:34 UTC，Actions run46030565793实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46030565793-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 16:05:33 UTC/0d7c8c097b3c505ae30a77e4c2d2064167f26e74，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 153311b13ef2c8a7a837de21a2830cd8dde75e53（2026-11-27 16:06:52 UTC，Actions run46030759720实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46030759720-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 16:06:52 UTC/c806c29a541afa4eab20a9fe96346e90fb666ea3，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `582fe3d87aade9e214078c0dad52c8165fd7c396`（2026-11-27 16:05:09 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `153311b13ef2c8a7a837de21a2830cd8dde75e53`（2026-11-27 16:06:28 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-pure-T-three-cofactors-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
