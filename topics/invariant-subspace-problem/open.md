@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-P3-original-Delta-power-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-whole-MJ-exclusion-and-112-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -205,7 +205,9 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；继续原lambda行模块。
 
-例外权图的λ半/H6已闭；新[整ψD原纤维排除及128覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)以461真5.132370765秒/197080KiB/0完成。原G的156阶QQ行空间发现首一rho3，完整F/G短除法和既有真corank3覆盖全部FG根，H也整除；原F6在同一18维常数代数只合法剥D所付的(T/t*−1)²，原T4/z2的144维meanR乘法矩阵完整可逆。因此整ψD6各λ/rho/T/z原纤维全空，真QQ ψ³重数可剥；新1993与完整S2050的完整模Bézout及Gauss给至多128个不同有序(rho,λ)，不交换/合并b,c。原F26的QQ不可约性另付无垂直rho整纤维，固定Sylvester/Vandermonde保全部rho点计数。[a40的120.058秒SIGALRM](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)仍准确冻结，未把它说成成功。余128基点、旧87/55、C71/29、首头零曲线及个别N/P继续。[bb35首次原λ行模块失败](notes/2026-11-27-unit211-Phi-zero-first-head-lambda-row-module-first-timeout-8542.md)真120.074秒/307928KiB/−14只返19步，无末弱Popov/D幂/分母，冻结。新b711首派整M_J4常数纤维，以原FGH全QQ像与短除法确定全部rho根；原T6/Sn小gcd只剥真S单位，再原N1首一z²环境；整纤维返回前不删模8重数。P6/P9、整首头零与H0继续，ed0/879全冻。
+例外有序权图的λ半/H6/[整ψD6](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)已闭；新[整M_J4与112覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-S-moment-quartic-exclusion-and-112-cover.md)由b711真5.218445731秒/171388KiB/0完成：208×104原FGH像QQ秩88，完整rho4短除法覆盖所有根；原S单位只剥T6一个一次因子，T5/z2原160维meanR矩阵全返单位。四条独立原57核列仅付QQ phi^4，模重数8未提升。完整原R新除后1977与S2050实际Bézout度112；原F26不可约与固定Sylvester/Vandermonde保全部不同有序(rho,λ)计数，不合并BC交换图。整原g4/T5/N1及160行小输入保存，余112与更高真重数继续。
+
+[a40长rho欧氏失败](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)及[bb35原λ模块失败](notes/2026-11-27-unit211-Phi-zero-first-head-lambda-row-module-first-timeout-8542.md)准确冻结，后者无最终D幂或权分母。下一换F/g4、G/g4的G-only原22阶商线性输入，不重跑208combined/160原值。旧87/55、C71/29、首头零/H0/个别N/P与ed0/879边界均保留。
 
 ## R271：全正权出生一尖锐 2/3 后的完整源（8542，2026-11-28）
 

@@ -1,0 +1,1742 @@
+{
+  "schema": "isp-complete-original-whole-quartic-fiber-and-strict-112-execution-v1",
+  "dateTaipei": "2026-11-28",
+  "jobId": 140661012844,
+  "execution": {
+    "elapsed_seconds": 5.218445731000003,
+    "max_child_rss_kib": 171388,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "a26f3d9f4982a850bb21825afb37d7f6ba627a2b",
+        "before": "a26f3d9f4982a850bb21825afb37d7f6ba627a2b",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T17:49:06.831708+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46044724644",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "a26f3d9f4982a850bb21825afb37d7f6ba627a2b",
+    "source_exit_code": 0,
+    "source_git_blob": "9f2ebc1bf6eea9b30840c18204af227aaad850f4",
+    "source_sha256": "b7116bbaeba341aa5356aae2a4ad2a3516f29e896b62f14d49384210272b7d82",
+    "stdout_bytes": 33931,
+    "stdout_sha256": "4a314d3b19b35ba8585aebc59a82d0069f745b223015d6ca566fa099ed33c0dc",
+    "stop_reason": null
+  },
+  "mathematicalStages": [
+    {
+      "phiAscending": [
+        "229/105",
+        "-257/35",
+        "1221/140",
+        "-157/35",
+        "1"
+      ],
+      "completeQQIrreducibleFactorProductReturned": true,
+      "oldSZeroSubbranchExcludedButEntirePhiFiberNotPreviouslyExcluded": true,
+      "stage": "new_whole_original_S_moment_image_constant_field",
+      "seconds": 0.031226267000000973
+    },
+    {
+      "pair": "NEW_original_T6_vs_actual_S_numerator_T2",
+      "step": 1,
+      "divisorDegree": 2,
+      "nextRemainderDegree": 1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 0.03175849600000191
+    },
+    {
+      "pair": "NEW_original_T6_vs_actual_S_numerator_T2",
+      "step": 2,
+      "divisorDegree": 1,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 0.031965081000002726
+    },
+    {
+      "pair": "NEW_original_T6_vs_actual_S_numerator_T2",
+      "step": 1,
+      "divisorDegree": 2,
+      "nextRemainderDegree": 1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 0.03241783800000064
+    },
+    {
+      "pair": "NEW_original_T6_vs_actual_S_numerator_T2",
+      "step": 2,
+      "divisorDegree": 1,
+      "nextRemainderDegree": 0,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 0.032645970000004354
+    },
+    {
+      "pair": "NEW_original_T6_vs_actual_S_numerator_T2",
+      "step": 3,
+      "divisorDegree": 0,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 0.03291724400000362
+    },
+    {
+      "originalF6AfterRhoUnitRemoval": "2*K(T)^2-D(T)^3",
+      "originalF6Leading": "9",
+      "originalSCondition": "Sn=sn+(3-2*lambda)*D is a unit because original S and D are units",
+      "removedOnlyFactorsOfActualSn": true,
+      "removedFactorDegrees": [
+        1
+      ],
+      "quotientTDegree": 5,
+      "quotientAscending": [
+        [
+          "416076372/8216075",
+          "-9888207869/65728600",
+          "9173693673/65728600",
+          "-626696571/16432150"
+        ],
+        [
+          "-2041907/134140",
+          "4442289/67070",
+          "-11659431/134140",
+          "1241967/33535"
+        ],
+        [
+          "-61506/6707",
+          "537261/26828",
+          "-64506/6707",
+          "7371/6707"
+        ],
+        [
+          "-134821/13414",
+          "157154/6707",
+          "-132496/6707",
+          "26040/6707"
+        ],
+        [
+          "25552/6707",
+          "-153635/13414",
+          "58044/6707",
+          "-16170/6707"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "removedFactorsAscending": [
+        [
+          [
+            "-25552/6707",
+            "153635/13414",
+            "-58044/6707",
+            "16170/6707"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "completeQQDivisionsAndOriginalT6ReconstructionReturned": true,
+      "notReplayingOldSZeroGram": true,
+      "stage": "complete_new_whole_S_moment_image_original_small_T_relation",
+      "seconds": 0.03307635299999845
+    },
+    {
+      "actualRhoDegrees": [
+        26,
+        31,
+        34
+      ],
+      "allLeadingCoefficientZeroFibersRetained": true,
+      "constantFieldDegree": 4,
+      "stage": "new_original_curve_specializations_in_whole_quartic_field",
+      "seconds": 0.057029167000003156
+    },
+    {
+      "rows": 208,
+      "columns": 104,
+      "originalSources": "rho^j*lambda^i*G and rho^j*lambda^i*H modulo the actual monic original F",
+      "allQQMonicDivisionProductsReturned": true,
+      "noHighDegreeKPolynomialEuclidOrFormerLocalKernelRecomputed": true,
+      "stage": "new_original_QQ_G_and_H_multiplication_row_space_built",
+      "seconds": 2.7830495540000015
+    },
+    {
+      "originalQQRows": 208,
+      "originalQQColumns": 104,
+      "originalQQRank": 88,
+      "originalFieldDegree": 4,
+      "degree": 4,
+      "coefficientsAscending": [
+        [
+          "1552326258705019467987/8560033809839286947",
+          "-3141442415824189196688/8560033809839286947",
+          "1965125657693214275856/8560033809839286947",
+          "-526211114153612438880/8560033809839286947"
+        ],
+        [
+          "-521661730000865113772/8560033809839286947",
+          "846031925553514643712/8560033809839286947",
+          "-458348414082576807744/8560033809839286947",
+          "116142806390362305120/8560033809839286947"
+        ],
+        [
+          "-118411519795824747838/8560033809839286947",
+          "462954651946496291888/8560033809839286947",
+          "-354476447078176754224/8560033809839286947",
+          "96745848584680065120/8560033809839286947"
+        ],
+        [
+          "10612867814764/239608319477",
+          "-24745311843040/239608319477",
+          "16079471439264/239608319477",
+          "-4263587183520/239608319477"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "exactFullOriginalShortDivisions": [
+        {
+          "original": "F",
+          "actualOriginalDegree": 26,
+          "exactMonicDivisorDegree": 4,
+          "completeQQProductReturned": true
+        },
+        {
+          "original": "G",
+          "actualOriginalDegree": 31,
+          "exactMonicDivisorDegree": 4,
+          "completeQQProductReturned": true
+        },
+        {
+          "original": "H",
+          "actualOriginalDegree": 34,
+          "exactMonicDivisorDegree": 4,
+          "completeQQProductReturned": true
+        }
+      ],
+      "fullOriginalFGRhoHRootCoveragePaidByQQImageRankAndExactDivisibility": true,
+      "allFourLambdaEmbeddingsRetained": true,
+      "coefficientPayloadSha256": "178eb7cd37c9e806038e3cfdb9d52551a2cec36950af60e2f4a203bba2fb013d",
+      "stage": "complete_new_true_QQ_same_rho_common_gcd_from_original_linear_input",
+      "seconds": 3.8376750930000014
+    },
+    {
+      "originalFixedSylvesterDegrees": [
+        26,
+        31
+      ],
+      "originalFixedOrder": 57,
+      "independentKKernelColumns": 4,
+      "independence": "the shifted nonzero F/g blocks have distinct highest rho degrees",
+      "completeOriginalKernelProductsReturned": true,
+      "trueQQPhiDivisibilityLowerBound": 4,
+      "kernelSha256": "d1128129451e6fd9db1312dc18fea194bcc8eade3638f97b2c5be9514e3f3276",
+      "noClaimOfExactMultiplicityBeforeActualModularUpperBound": true,
+      "stage": "complete_new_original_fixed_Sylvester_QQ_local_divisibility_lower_bound",
+      "seconds": 3.8805855860000023
+    },
+    {
+      "pair": "paid_rho_unit_1-Q",
+      "step": 1,
+      "divisorDegree": 1,
+      "nextRemainderDegree": 0,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8857584380000034
+    },
+    {
+      "pair": "paid_rho_unit_1-Q",
+      "step": 2,
+      "divisorDegree": 0,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.885922970000003
+    },
+    {
+      "pair": "paid_rho_unit_Q_plus",
+      "step": 1,
+      "divisorDegree": 1,
+      "nextRemainderDegree": 0,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8860779649999984
+    },
+    {
+      "pair": "paid_rho_unit_Q_plus",
+      "step": 2,
+      "divisorDegree": 0,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.886306699000002
+    },
+    {
+      "pair": "paid_rho_unit_Q_minus",
+      "step": 1,
+      "divisorDegree": 1,
+      "nextRemainderDegree": 0,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8865123630000014
+    },
+    {
+      "pair": "paid_rho_unit_Q_minus",
+      "step": 2,
+      "divisorDegree": 0,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8866775380000007
+    },
+    {
+      "pair": "paid_rho_unit_u",
+      "step": 1,
+      "divisorDegree": 1,
+      "nextRemainderDegree": 0,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8868677930000004
+    },
+    {
+      "pair": "paid_rho_unit_u",
+      "step": 2,
+      "divisorDegree": 0,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8870121170000047
+    },
+    {
+      "pair": "paid_rho_unit_T0",
+      "step": 1,
+      "divisorDegree": 1,
+      "nextRemainderDegree": 0,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8872074420000047
+    },
+    {
+      "pair": "paid_rho_unit_T0",
+      "step": 2,
+      "divisorDegree": 0,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8873846850000007
+    },
+    {
+      "pair": "paid_rho_unit_u+Q-1",
+      "step": 1,
+      "divisorDegree": 1,
+      "nextRemainderDegree": 0,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8875819130000053
+    },
+    {
+      "pair": "paid_rho_unit_u+Q-1",
+      "step": 2,
+      "divisorDegree": 0,
+      "nextRemainderDegree": -1,
+      "stage": "new_exact_QQ_single_variable_gcd_step",
+      "seconds": 3.8877516780000008
+    },
+    {
+      "actualRhoDegree": 4,
+      "remainingTDegree": 5,
+      "prospectiveQQDimension": 160,
+      "fullOriginalF6AndSnIdentitiesReturned": true,
+      "allOriginalQQRhoEmbeddingsRetained": true,
+      "stage": "new_original_S_unit_reduction_in_whole_rho_constant_algebra",
+      "seconds": 3.8955825160000046
+    },
+    {
+      "actualQQDimension": 160,
+      "originalLabels": [
+        "mean_R",
+        "mean_W",
+        "mean_O",
+        "original_NV"
+      ],
+      "originalRowsHaveFullQQDivisionProducts": true,
+      "allNamedInverses": [
+        {
+          "label": "1-Q",
+          "reason": "original physical weight unit",
+          "exactQQInverseProductReturned": true
+        },
+        {
+          "label": "Pf=T0*(J-Q)",
+          "reason": "both original entire weight faces already excluded",
+          "exactQQInverseProductReturned": true
+        },
+        {
+          "label": "original N1 z^2 head",
+          "reason": "proved full original coefficient -4*bc^2*ell*Q*(u-1), all factors physical weight units",
+          "exactQQInverseProductReturned": true
+        }
+      ],
+      "encoding": "base64+zlib+json",
+      "uncompressedBytes": 41353,
+      "payloadSha256": "34b737b8d2bbdecbbdd14307862c3de0de30f6054aa00b12aade4a4ea6749892",
+      "stage": "complete_new_original_same_constant_algebra_rows",
+      "seconds": 3.989303372000002,
+      "dataSavedInExactInput": true,
+      "dataCharacters": 18344
+    },
+    {
+      "operator": "lambda",
+      "dimension": 160,
+      "prime": 1009,
+      "allQQDivisionProductsBeforeReductionReturned": true,
+      "stage": "new_actual_original_constant_algebra_multiplication",
+      "seconds": 4.000015908999998
+    },
+    {
+      "operator": "rho",
+      "dimension": 160,
+      "prime": 1009,
+      "allQQDivisionProductsBeforeReductionReturned": true,
+      "stage": "new_actual_original_constant_algebra_multiplication",
+      "seconds": 4.01463219
+    },
+    {
+      "operator": "T",
+      "dimension": 160,
+      "prime": 1009,
+      "allQQDivisionProductsBeforeReductionReturned": true,
+      "stage": "new_actual_original_constant_algebra_multiplication",
+      "seconds": 4.038287830000002
+    },
+    {
+      "operator": "z",
+      "dimension": 160,
+      "prime": 1009,
+      "allQQDivisionProductsBeforeReductionReturned": true,
+      "stage": "new_actual_original_constant_algebra_multiplication",
+      "seconds": 4.2948147500000005
+    },
+    {
+      "actualQQConstantFieldDegree": 4,
+      "actualQQRhoDegree": 4,
+      "dimension": 160,
+      "originalRows": 640,
+      "prime": 1009,
+      "actualRank": 160,
+      "certificate": {
+        "selectedActualOriginalRows": [
+          [
+            "mean_R",
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            0,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            1,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            2,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            3,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            4,
+            0
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            0,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            1,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            2,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            3,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            0,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            0,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            0,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            0,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            1,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            1,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            1,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            1,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            2,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            2,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            2,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            2,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            0,
+            3,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            1,
+            3,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            2,
+            3,
+            4,
+            1
+          ],
+          [
+            "mean_R",
+            3,
+            3,
+            4,
+            1
+          ]
+        ],
+        "matrixSha256": "3be6342d214c6f7783df70f318495f7b2960a128172f1f224ecd50f93ade9f48",
+        "inverseSha256": "3affa475211322a5251d93548cd2cd58ff8a42d55cd582cd61bf87043136baf7",
+        "completeSelectedSquareTimesInverseReturned": true
+      },
+      "operatorHashes": [
+        {
+          "label": "lambda",
+          "sha256": "77a9d24f61f598dca433ceed1493dbb02f1b7224ae69ed1b05e686a5e0b49480"
+        },
+        {
+          "label": "rho",
+          "sha256": "a2941d0fedbed9a4d47bec5b3bc670afe75c2e84f8963b4ccd5b5c44f47158a3"
+        },
+        {
+          "label": "T",
+          "sha256": "97afe5057585a9046f0a7bce714f7225837f589ae29375ad788efd02c5780140"
+        },
+        {
+          "label": "z",
+          "sha256": "0aa9b988250701594d8641a0cc865acc9b199069644dc65edeaddba01c7ab971"
+        }
+      ],
+      "checks": {
+        "QQPhiDivisionProducts": 151748,
+        "QQFieldInverseProducts": 23,
+        "QQRhoDivisionProducts": 976,
+        "QQNamedBaseInverseProducts": 3,
+        "exactFormalOriginalReductionProducts": 644
+      },
+      "exactQQRhoGcdAndAllNamedConstantInverseProductsReturned": true,
+      "monicTRelationFromOriginalF6AndPhysicalSUnit": true,
+      "actualOriginalTDegree": 5,
+      "monicZSquareIsCompleteOriginalN1": true,
+      "fullOriginalMeansAndNVInSameAlgebra": true,
+      "fixedQQIdealMatrixIntegralAtActualPrime": true,
+      "wholeQQMomentImageFiberExcluded": true,
+      "allFourLambdaEmbeddingsAndAllRhoRootsCovered": true,
+      "noBareModularEmptinessInference": true,
+      "noOriginalResultantOrFormerLocalKernelRecomputed": true,
+      "noGeometricDOrUnclassifiedNormInverse": true,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_original_psiS_moment_fiber_reduced_T_by_two_return",
+      "seconds": 5.137682628
+    },
+    {
+      "exactQQEntireSMomentImageFiberExclusionPaidByThisRun": true,
+      "trueQQMultiplicityLowerBound": 4,
+      "actualFullOriginalRModPhiMultiplicity": 8,
+      "exactQQMultiplicityPaid": false,
+      "originalRQQDegreeAnd1009LeadingUnitPreviouslyProved": true,
+      "totalTrueQQFactorDegree": 56,
+      "actualFullRQuotientDegree": 1977,
+      "actualFullSDegree": 2050,
+      "actualNewFullGcdDegree": 112,
+      "actualNewFullGcdCoefficients": [
+        490,
+        223,
+        90,
+        579,
+        174,
+        143,
+        720,
+        110,
+        438,
+        858,
+        103,
+        814,
+        975,
+        295,
+        324,
+        821,
+        486,
+        180,
+        144,
+        55,
+        632,
+        25,
+        734,
+        777,
+        822,
+        798,
+        937,
+        901,
+        695,
+        581,
+        426,
+        708,
+        99,
+        711,
+        795,
+        124,
+        310,
+        163,
+        873,
+        324,
+        865,
+        3,
+        49,
+        360,
+        22,
+        812,
+        720,
+        606,
+        909,
+        38,
+        272,
+        88,
+        850,
+        988,
+        918,
+        594,
+        655,
+        331,
+        965,
+        135,
+        113,
+        534,
+        1,
+        755,
+        26,
+        970,
+        496,
+        392,
+        525,
+        726,
+        117,
+        415,
+        848,
+        204,
+        429,
+        963,
+        866,
+        540,
+        649,
+        976,
+        706,
+        125,
+        377,
+        229,
+        792,
+        916,
+        115,
+        512,
+        419,
+        890,
+        948,
+        755,
+        555,
+        899,
+        967,
+        1000,
+        319,
+        173,
+        905,
+        889,
+        657,
+        402,
+        464,
+        563,
+        520,
+        534,
+        587,
+        245,
+        320,
+        841,
+        172,
+        654,
+        1
+      ],
+      "bezoutDegrees": [
+        1937,
+        1864
+      ],
+      "completeNewQuotientAndBezoutProductsReturned": true,
+      "strictDifferentOrderedBasePointBound": 112,
+      "noVerticalFibersByPreviouslyProvedF26Irreducibility": true,
+      "BCSwappedChartNotMergedIntoSameBound": true,
+      "wholeExceptionalBranchExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_actual_full_quotient_original_Gauss_return",
+      "seconds": 5.145597656
+    }
+  ],
+  "wholeSMomentImageFiberExcluded": true,
+  "strictOrderedBasePointBound": 112,
+  "wholeExceptionalChartExcluded": false,
+  "ordinaryISPClaim": false
+}
