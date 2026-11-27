@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W 全三次头覆盖与整图六生成元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-cubic-cover-and-global-six-generators.md)：实际6×4十五子式与初等对偶三次证明给全图主开覆盖、左逆存在及原商六生成/纤维长度≤6；保留所有有限原值返回，未判空。
+
 - [R12 解析理想像、同一循环闭包与强制来源发散](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)：已证明；原Haar同g的全部解析不变流形共享循环闭包，真闭理想的实际Sobolev来源逼近必范数发散。
 
 - [R150 整个一般 T0=0 原分支完全排除与一般二次头推论](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)：已证明；末整QQ4原48×35返1，可全局付T0，原四头在J!=Q余图全局可逆。

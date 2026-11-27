@@ -47,7 +47,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **S0/Lt0整支已闭，一般LS继续：** 615次原QQ覆盖合全部退化面，旧门冻结。原P1双零、Delta0/W对ell首项零及W0整k=−1均已闭；只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1。全域四值式等价首一二次/三一次；六参数式只是完整投影，四Gram子式只是必要。[W0整个H=4ek−k²−4k−8零支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-complete-original-exclusion.md)已由原六生成元、F29=C3F26和完整两QQ商环的原18行单位返回排尽，可付H。
 
-[H非零最高次全分类及整个二次权纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)已排全部共同无穷远方向；现[整个u=Q权线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)也全闭：F9两完整QQ代数返1，同点Cramer图原五式QQ Bézout1，F3原D单位返回、F95固定十四原行一元保度Gauss覆盖。W0余图可付u−Q；其余J19/C9零面和有限原解仍开。旧180秒参数cofactor、76.992秒展开trace、F3 M35与F95五列三个后续未决门全部冻结，精确失败不冒成功；继续整C9二次扩张原小行。
+[H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
 **Q=1−u边界：** 原y1/H_Q0/u半/ell0/两y首项、T0/h2、Kz0、ell半和整个G2全闭；原六生成元/18真乘法给每商≤6，全部余权点在63/60 QQ互素覆盖≤3780。全部原来源与已付整面链接保完整快照。固定85阶QQ投影和[改h后的58阶QQ投影](notes/2026-11-27-unit211-Q1minusU-58-Sylvester-h-QQ-projection-frozen-8542.md)均120秒SIGALRM、没有结式，冻结。58阶实际120.097790秒/78752KiB/−14；b830平移状态未知不重跑。继续固定原矩阵的小QQ度/估值、真实首一Bézout变换和全部有限原返回；不以模计算代QQ保度。
 
@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W整C9曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md)和[整u半权线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-half-complete-original-exclusion.md)均闭，余W可付C9、2u−1。** u半六原cofactor完整F13上，24原行在整13维QQ商直接返常数1，源5d706446真实0.676秒/exit0；没有使用D饱和。结合一般ell/等权闭，替代四头[0,2,3,4]全余图可逆，但不兼容简单单项式下降。续新6×4完整三次头及原小模块，源bdd57650登记时未执行，所有新minor零纤维保留；旧二维180秒门冻结。
+**[W整C9曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md)和[整u半权线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-half-complete-original-exclusion.md)已闭，余W可付C9、2u−1。** [全三次头覆盖与整图六生成](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-cubic-cover-and-global-six-generators.md)现已付全：替代四二次头全图单位、实际6×4十五子式及初等对偶三次证明给完整主开覆盖/左逆存在，六元素生成原商、纤维长度≤6。新源bdd57650实际0.979秒/exit0；不假定六列自由，不支付单个J19/F98，不宣原纤维为空。续原centered三S线性及完整值返回；旧二维180秒门冻结。
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
