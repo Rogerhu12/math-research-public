@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Delta0碰撞图原消元式完整QQ因式与6229基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-exact-factorization-and-6229-point-cover.md)：b737实际25.741秒/exit0，G389=a(2λ−1)²J387完整乘回；保λ半纤维与自由t，改进必要投影界，未排空。
+
 - [R150：整个余W的J19原权曲线完整排除](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)：F568完整32因子原35列满秩经有限自由整模型提升，F20五QQ原域全部直接返1；全部norm零纤维已付，末返回不要求D非零。
 
 - [R150：Phi0有序碰撞图的原结式精确1945次及保持次数](results/R150-appendix-unit211-Phi-zero-rank-one-value-exact-1945-degree-original-cover.md)：c3e7实际3.132秒/exit0，QQ∞核行提106合真实模1945；≤1945基点/3890含ell点，1009首项单位，未排空。
