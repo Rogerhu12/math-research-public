@@ -211,3 +211,5 @@
 - [R1030](results/R1030-actual-cubic-angle-field-and-complete-threefold-source-lattice.md)：实际三次角域由任一新同charge源的全δ-trace0严格生成；五点公共除子、完整195余权/36270自由整基与c8Δ导子weight70005全付，允许好p上保持三次/全环p饱和。实际来源格累计31M²/65、完整普通/惰性/实范数及同H/E六位继承；三个物理像保三次关系和全部跨界，秩不可相加，指定forcing与a+2b<3仍待。 §10再用原同次全gcd回执：两64次原角的gcd为14，约分比例次数50不能经三次τ复合，故两条真实canonical恰为全trace-zero平面的基。完整三列Gram返回给c8D2导子69875；剩余域例外由固定50次reduced pair的leading/resultant准确指定。保真实旧系数/测试，不能把函数域基当中央零空间。
 
 - [R1031](results/R1031-original-two-selmer-cover-and-canonical-frobenius-bundle.md)：所有惰性q≥5的原E及常数−3扭曲，完整二Selmer准确为规范gq的一维Norm核；全部坏处奇分量的真实局部条件已付。仅在已付Tate的大q范围，将最短anti Q的模2类锁定为gq并得twist Sha[2]=0。真正两二次式覆盖、Norm及全返回坐标、稳定V/W的固定theta截面与R0平移/Fq下降全部明确；原Frob三列含gq^((q−1)/2)并保完整trace配对。未由Selmer或束同构冒成一般Q/原27对非零，继续真实谱乘法。
+
+- [R1032](results/R1032-saturated-three-torsion-beta-and-complete-thirtynine-return.md)：新特征零β=X/(X+4)的完整39支保持原中央K=5s−2；末两窗全Lucas饱和β^(p²)，实际δ-old/new分别返g与rS^(p²)T_S^130G，消去共同Fp槽。原H_G为固定整degree130源，even/odd全型保留且odd图单射。新增±S主部、全部原点留数/两exact/aZ与九维第三Cartier边界齐；真实四阶G极费和最后四b补项明确保留。旧/新差的1+Kp只在native O平坦，未把合法表示或裸单位当作canonical forcing。

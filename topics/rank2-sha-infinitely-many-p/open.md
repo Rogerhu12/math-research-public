@@ -176,3 +176,7 @@ R1030实际t=−27u/(1−4u)³、Θ=(1−4u)Θhat与新同charge源完整付三�
 ### R1030§10 的实际 trace-zero canonical 基
 
 §10再用原同次全gcd回执：两64次原角的gcd为14，约分比例次数50不能经三次τ复合，故两条真实canonical恰为全trace-zero平面的基。完整三列Gram返回给c8D2导子69875；剩余域例外由固定50次reduced pair的leading/resultant准确指定。保真实旧系数/测试，不能把函数域基当中央零空间。 下一步须用(34)逐项运输原旧系数及全Gauss/Miller/P/Z，或从实际必要行生成完整伴随测试；非恒定系数下中央首导数不具线性，三块共同核仍须消去。
+
+### R1032 的完整 β 返回与新增三挠边界
+
+新特征零β=X/(X+4)的完整39支保持原中央K=5s−2；末两窗全Lucas饱和β^(p²)，实际δ-old/new分别返g与rS^(p²)T_S^130G，消去共同Fp槽。原H_G为固定整degree130源，even/odd全型保留且odd图单射。新增±S主部、全部原点留数/两exact/aZ与九维第三Cartier边界齐；真实四阶G极费和最后四b补项明确保留。旧/新差的1+Kp只在native O平坦，未把合法表示或裸单位当作canonical forcing。 下一实质项是把新增两点主部按真实3挠Miller平移和全13 trace返回原canonical，或支付高一整块的真实中央精度与第二Cartier全纯项，使确定λ1−10λ2/81单位进入同一个必要读者。不能只增H而越过Hurwitz给的K帽，也不能在r=p继续用r<p的primitive公式。

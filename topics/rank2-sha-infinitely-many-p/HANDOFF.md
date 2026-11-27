@@ -9,7 +9,7 @@
 - 公开根/课题 README 已读至 `69778bb2097bd112b599f45d8fb7fbb567d34e28`（2026-11-27 06:25UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；05:57UTC实际pull至98dc41b3886e454c03b537ec21529497936ad0e6，两README差异空、QUEUE仍本会话进行中。令牌只命令行/进程认证，不落文件。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
-- [此次完整逐字归档](notes/2026-11-27-handoff-before-original-two-descent.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
+- [此次完整逐字归档](notes/2026-11-27-handoff-before-saturated-beta.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
@@ -31,13 +31,15 @@ R1025全Cartier/CM36/Hermite、UC补线/FH primitive/四曲率槽、GP10保持�
 
 R1028末六W_t=W∞+cp·u^pT_t全水平式/固定Hermite齐；真Vδ余项只在target φ_(p−6)拉回的全39第一primitive低窗可删。G简单极，四阶cut p+4→2→37→primitive36，A^p给p−36>K；b5/O/aZ全保。W∞真三字只含原Fp和2/3、正mode2；Lamé p曲率−10Hcal^pI+(5cp/6)E12与P10交换子保全部e项。Jordan单位/裸log不代真正forcing。
 
+R1032新char0 β=X/(X+4)保原完整39支/同K=5s−2，末两窗真Vβ=β^(p²)。实际δ-old返g、δ-new返rS^(p²)T_S^130G，无共同Fp；固定H_G=rS T_SG是原degree130整源，even/odd都在，odd图单射。新增±S主部原P10≥p消cut，全两exact/留数/aZ与九维C³边界齐；四阶E2费用及O最后四b补项不删。与旧模型差含1+Kp，仅native O平坦；不能以低窗重写赋新零。继续全部13/χ8真实测试及高一块原精度。
+
 R1030真实三次角域/五点Dhat degree62/65、195余权36270整基与c8Δ导子70005齐，全好p仍三次/全环p饱和。两64次角gcd14给约分比例degree50，两个actual canonical恰trace-zero平面基；三列Gram另付导子69875、fixed resultant剩余坏集。完整三物理像/范数/同H/E六位仍保共同核和跨界，不相加rank；指定forcing及a+2b<3仍待。
 
 ## 三、几何与固定最高循环
 
 R909/R906原F/P、R924–927两图306/46971/maps/dF1296及所有原λ/vnew/微分/∞/17返回完整保留，四交/全厚Norm/18×9 shadow仍待唯一v9。R885/897全finite/wild及c1非零不使H¹(J⊗T)=JH¹；H²自由/ordinary/s0未付。R979/984只在7993给Selbal1/ordinary strict核0及三canonical Griff²独立，κ上界不排κ0。
 
-R988/990原CM17K3在2全平移trace零，不重试。R991/994原I9/I3、full9/T=Indψ27²和三β27完整L(1)>0保持。R995/997严格最高Chow及真实图AJ=−degφ·b/cφ、BDP3.14条件齐，cyclic27失败不得套5.13。R1006原54全权/Cor/P−对偶及−486常数给AJ²接KνKβ；R1002只付Kβ全好分裂p非零，原ν仍未付。R998消的是barχη⁻¹混合eE−，eE+仍开。R1011固定未depletionY0只差非零Euler，7993检测同一Y0，不能外推跨p。R1009真实LieV=Tate(2,−1)排有限1-motive，纯CM/固定有限域检测不代跨p；polylog负指标和两因子共3分歧的范围全在归档，未排更广输入。
+R988/990的CM17K3在2全平移trace零不重试。R991/994原full9/T=Indψ27²及三β27全L(1)>0保持。R995/997严格最高Chow、真图AJ=−degφ·b/cφ及BDP3.14齐，cyclic27失败不得套5.13。R1006全54/η/Cor/P−与−486常数接AJ²=KνKβ；R1002只付Kβ，ν仍开。R998只消mixed eE−；R1011固定Y0/7993检测不代跨p。R1009真实LieV=Tate(2,−1)排有限1-motive，纯CM/固定有限域不代混合跨p；polylog负指标/共同3分歧仍按归档范围。
 
 
 R1014原变形族与已发表HYZ B支付所有充分大惰性q的Tate/MW=(q/3)A2/NS−q²/两Br0；未知q0仍保，原54图/全η/Cor最高转置不能由纯Tate冒成AJ非零。
@@ -53,7 +55,7 @@ R1027全q≥5的统一6Q(O_B)=0已付：同一图push纯实现δ、实际∞同�
 
 R1029原2挠谱盖C的f3/r2、JacC→B²度3、完整Norm核2类齐；完整S3盖D:4H³=A⁶−1/全部2挠与原deck给JacD真Frob²=[−q]，不代S Chow/AJ。R1031付全q≥5惰性原E及−3twist的完整Sel2=⟨gq⟩一维；所有局部odd组件给真正unram核。仅充分大q最短anti Q模2为gq、twist Sha[2]=0。原两二次式(19)、Norm及全坐标返回齐。V=f_*L≅δ_*O(−O)的真同构来自genus4 Cδ上v*O(O)固定截面，R0平移/三个零点/Fq下降全付；原j乘gq^((q−1)/2)及完整trace配对不可省。继续由该实际谱乘法求(19)一般点或原27对完整有权评价，未构造Q或ordinary非零。
 
-02:51–05:55UTC执行环境失联期间采用非强制API快进且逐次核README；05:57已补两仓实际pull。未推本地25f3ec26d的R1017证明/归档与远端对应blob逐字相同，已留本地恢复分支后rebase --skip，保远端全部较新H/log。后续恢复实际git推送；数学仍只公开Actions。
+02:51–05:55执行环境失联及API快进全记录在逐字归档；05:57已补两仓实际pull，逐字重复未推提交保分支后skip。现用实际git，数学只公开Actions。
 
 ## 四、其它原门及执行分工
 

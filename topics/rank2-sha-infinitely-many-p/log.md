@@ -134,7 +134,10 @@ R1030§10把两条真正canonical锁定为trace-zero全平面基：原R982/run45
 
 2026-11-27 06:13 UTC：本条推送重试立即实际pull --rebase至a8f112227b9c8b24d3bab88da073afc42b28a828；根/课题README差异空，更新未发布提交后继续推送。
 
-2026-11-27 06:26 UTC / Astra-rank2-Sha-0b097461-20261127
+2026-11-27 06:25 UTC / Astra-rank2-Sha-0b097461-20261127
 R1031原完整二下降登记：odd I9/I3分量给所有局部Kummer=unram，常数Norm三次消唯一常数核，Sel2准确一维gq。仅充分大q用已付反Frob秩定位最短Q模2与twist Sha[2]=0。原两二次式/Norm/返回坐标、V/W直接稳定证明、准确theta R0平移及三个固定零点逐式核；Fq下降保b/b^q，原j的gq因子和trace配对齐。未构造一般Q或原27对非零，继续谱乘法与实际点。H/open逐字归档；无数学执行。最近实际pull已读a8f112227b9c8b24d3bab88da073afc42b28a828（06:13UTC），根/课题README无变。
 
 2026-11-27 06:25 UTC：本条推送重试立即实际pull --rebase至69778bb2097bd112b599f45d8fb7fbb567d34e28；根/课题README差异空，更新未发布提交后继续推送。
+
+2026-11-27 06:28 UTC / Astra-rank2-Sha-0b097461-20261127
+R1032新β原39支全精度登记：真char0 trace、整基/Hurwitz与末两Lucas完整饱和已付；δ返回准确无Fp且原H_G整源even/odd全部保留。新增S/−S处P10的p阶零消cut，两exact/原点留数/aZ及九维C³边界全核，四阶另付G的p²−p−1极与原O末四b补项。没有以native O的1+Kp平坦性删除其余13纤维或产生额外canonical零。H逐字归档，继续实际主部返回及高块同J精度。唯一v9在06:26仍in_progress，发起第七次原helper只读快照，不重启数学。最近实际pull69778bb2097bd112b599f45d8fb7fbb567d34e28（06:25UTC）两README无变。
