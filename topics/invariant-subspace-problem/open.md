@@ -246,3 +246,7 @@ G36全部高1134和低61已闭；完整有限自由提升、重复幂零、原�
 [一般六独立权的新完整S2矩阵half输入](notes/2026-11-28-six-bit-s2-matrix-half-characteristic-8542.md)：原同五维L上以I−2K全部特征为新目标，保完整十五维上逆后压缩、两个cross、真实真空商和全部正分母。旧15特征已与刊本逐项匹配；不重跑已假的quarter平方迹。首次180秒/4GiB，lossless保原新矩阵/每阶系数/连续checkpoint；部分输出不付S2。小405点记录仅准确选源历史，不是谱界或新增门。
 
 [全孔层Schur–companion显式来源与真实伴随](results/R271-appendix-all-hole-schur-companion-sources-and-actual-physical-adjoints.md)：任意n/k完整Rk的支化几何和、物理Rk*的带符号左楔、全部奇数权桥均给有限整多项式公式；求值det=Vandermonde^C(n−2,k−1)，只在互异权作为可逆坐标。完整Gram/已知MP规则接续须先全逆后压缩；重复权经原算子身份连续处理，不支付条件数、联合正性或无限源费。
+
+[W规范三原行全理想身份及全域S一次式](results/R150-appendix-unit211-W-canonical-three-original-F-rows-and-global-S-affine.md)：a8c实际2.786010989秒/72116KiB/0，全B正反18乘积与三原行理想等价已返；新一次lambda4/5、权27/37及28/37，全域含C13零，旧式=−32C13×新式262ms全返。共因1不判空，C13/新L1均未付；qF(Fp)/q3/全部NP继续。新edbba六纯(λ,S)原三次及权6×4头首次180秒/4GiB，只保源/定义/SHA/小回执，不发布新载荷片。
+
+一般H1新98868输入：同已存L与λ0/A0/C0作无μ逆的双二次坐标，真实Dixon8列必要关系；不够再添三完整原行到11列求1/λ/同D。整Q4真逆，所有A0/b1、原输入及最终乘子u极点保；只有最终已取消的中间Gaussian极点不单列。首派120秒/1GiB，不重复旧λ欧氏/F6/316门；只输出源定义及小结果。
