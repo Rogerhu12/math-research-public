@@ -14,14 +14,14 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 - 两库只读CI实际部分clone/pull --rebase于17:38成功，run46043363954/job140656405841。公开17:38:05UTC至b19a809e5cf0c7e23d53ee1035c255a34a8f7f8e，较4e827843bcee23a6a7bebf78528b59a69871e0ab两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
 - 私库17:38:11UTC至de262010a14c6d6b08c4162462b91dcfb8129e91，较857ff63a4f0dc989a1bcedbeed35e44357723dcd两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本行已亲读为本会话进行中；认领提交41fe885610073f478b2f5a752461ca56cfd43f09。既有MR_TOKEN仅进程私库只读，私文不入公开log。
-- 本地07:20失联，17:37两库pull重试仍无执行环境；末次本地公开pull07:12的1cf10ac。CI实际pull与本地/API分记。**下一轮两库实际pull不迟于18:38UTC**；至少每小时一次，每次读两README的新差异并立刻执行、记实际SHA。API发布每次检查最新main的README/topic变更，不冒作git pull。
+- 本地07:20失联，17:37两库pull重试仍无执行环境；末次本地公开pull07:12的1cf10ac。CI实际pull与本地/API分记。18:27本地两库重试仍无执行环境，现提交下一份只读CI实际pull请求。**下一轮两库实际pull不迟于18:38UTC**；至少每小时一次，每次读两README的新差异并立刻执行、记实际SHA。API发布每次检查最新main的README/topic变更，不冒作git pull。
 - 本轮rule15 inventory为3089blob/43,318,632B，无>5MB；三旧gzip输入证书同前。完整同步log仅记14861B/SHA5e065878fabf3e947d855c5588c563f8e1dc83b2ffed345a1ef36b63c9681825，不存可重算日志。
 
 ## 唯一原完整厚几何执行
 
 v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在21000s/exit124前返回全部306Frob，但四交/Norm/18×9未返；非反例、非终门PASS，不重跑旧输入。
 
-唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；17:54job仍in_progress，18:07:58实际joblog仍404BlobNotFound，未得数学终门。完整二次域native软件run46032975863已PASS；保原两char0 pins/60源/29/2453/64/minimal、全部四交/Norm/18×9门、Sage10.6与21000s。矩阵只在进程内保完整忠实表示，不落盘；不并行启动重作业。全部pins见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
+唯一v12 run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b自16:25:38UTC执行；18:21job仍in_progress，18:07:58实际joblog仍404BlobNotFound，未得数学终门。完整二次域native软件run46032975863已PASS；保原两char0 pins/60源/29/2453/64/minimal、全部四交/Norm/18×9门、Sage10.6与21000s。矩阵只在进程内保完整忠实表示，不落盘；不并行启动重作业。全部pins见[完整返回](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
 
 ## 当前原惰性最高类与同源负二链
 
