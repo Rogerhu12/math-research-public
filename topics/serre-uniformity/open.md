@@ -26,9 +26,11 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 [R1122](results/R1122-certified-original-six-complete-CM-disks.md)（run45996561850/job140497301328，117.953秒）及[R1124](results/R1124-certified-original-two-special-CM-disks.md)（run46000409994/job140510309243，117.687秒）给八盘全rank2/gcd=t/单位B，原整尾付整个4513盘各只余其CM点。六盘det2141/884/1790/1720/3453/4287；0/141的det294/3157。两次完成结果SHA与全部行存原文，非只深邻域。
 
-旧Miller run45973334832/job140418866621、q² run45977769585/job140433713916仍可能在途；原所需输入已完整取得，它们不是依赖，不续算或补跑。若后成仅消费真实记录，不将相同数值再登记成新结论。
+旧Miller run45973334832/job140418866621以预算中断结束；q² run45977769585/job140433713916成功，后到四首log已完成下述独立全维核对。两条长链均不续算或补跑。
 
 [原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]模常数准确为μ_p⊗J(K)[p]，全cusp leading平均给Δ等变分裂；规范后的even剩余落在odd J(K)[p]，既有even cusp模块不控制它。须实际付p-torsion、全tame、常数与odd分量，未得到cup零或四阶cover。§7条件式原两维层0→ω^r→E→ω^(1−r)→0的Kummer radical实际为ω^(2−2r)，即T(r)=p+1−2r；反向为ω^(2r)，不能接β_r。实际J整层/重数/圆单位相等仍开。
+
+[原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new部、原扩张类/极化尺度未付，不能将Ohta取N=p。
 
 R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job140594489905，原B_q/ρ/c及16本征读数全同。该来源审计关闭；不重跑长链，不增加固定47依赖。
 

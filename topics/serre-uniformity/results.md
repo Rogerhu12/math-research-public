@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原整p同源及odd平方层归约（已证明，纸面）**：[原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new部、原扩张类/极化尺度未付，不能将Ohta取N=p。
+
 - **原四CM对数独立相容性核查（全部完成）**：R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job140594489905，原B_q/ρ/c及16本征读数全同。该来源审计关闭；不重跑长链，不增加固定47依赖。 来源与hash见[R1125 §10](results/R1125-original-full47-rational-point-classification.md)。
 
 - **原整K₂[p]剩余接口（已证明，纸面）**：[原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]模常数准确为μ_p⊗J(K)[p]，全cusp leading平均给Δ等变分裂；规范后的even剩余落在odd J(K)[p]，既有even cusp模块不控制它。须实际付p-torsion、全tame、常数与odd分量，未得到cup零或四阶cover。§7条件式原两维层0→ω^r→E→ω^(1−r)→0的Kummer radical实际为ω^(2−2r)，即T(r)=p+1−2r；反向为ω^(2r)，不能接β_r。实际J整层/重数/圆单位相等仍开。

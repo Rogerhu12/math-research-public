@@ -337,3 +337,8 @@
 ### 2026-11-27 23:33 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 后到q²四CM首log的独立交叉核run46025141482/job140594489905全部success，8.719432211秒；原B_q·λ141完整anchor hash与R1093相同，四CM的ρ/c/B_q全73维差均零，16旧本征读数全相同，没有补乘任何符号或比例。
 - root亲读完整日志并核canonical SHA06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173；o2独立亲读全部小结果。R1125§10保存完整source/run/hash与首I/O失败、旧Miller失败范围，原q²方法状态同步。该审计真完成；继续一般p整扭点和原Picard/实际Gaussian mask，不重算固定47。
+
+
+### 2026-11-27 23:41 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 从dSE正规化子整定理核ℓ=p可用，商Jacobian拉回核无p因子，得到实际Q上prime-to-p Chen同源，保完整p次幂扭点/Tate格及离p Hecke。原split模解释和商Fricke身份也逐一落实。
+- root/global/o2全文纸审Ohta Th5.1.4，明确使用arithmetic X₁、A={±1}、N=1及degree(p−1)/2，消去level p全部奇圆分p∞扭点；一般odd障碍准确转到Fricke+平方层。未把N=p偷入Ohta范围，实际new层/指定Ext与Kummer类继续；无新数学执行。

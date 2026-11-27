@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：6190c1ff1ca612355b7a5066a46ccea2d812a0c3**（2026-11-27 23:33 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：f30369a950d336e2d39e5b7b9e11cafd5d2ca4e8**（2026-11-27 23:41 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 22:55再试pull仍报无可用执行环境，shell未运行；按根规则8用连接器小文本同步、读差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；数学程序仅本公开仓库Actions，禁止本地/V8数学计算。root维护main/H/open/index/log，子研究独立稿，每条结论立即推；此前V8偏差及停用见[纠正记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -21,6 +21,8 @@ R1062–71保原全cusp、étale/p-only、全部角色与twists，无regular/Van
 [R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)给原圆单位同时非零密度(1−1/p)^d/(p−1)、完整localization同构、精确conductor/discriminant及有效ℓ_faith≪p^(1215p−867−521r_min)。该p^{O(p)}界不付足够小辅助素或same-point像。[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)给原分母annihilator精确判据，−1modp整支仍相容。继续实际整四阶cochain、算术cup与原同点函数；几何Weil pairing零不付HS混合阻碍。
 
 [原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]模常数准确为μ_p⊗J(K)[p]，全cusp leading平均给Δ等变分裂；规范后的even剩余落在odd J(K)[p]，既有even cusp模块不控制它。须实际付p-torsion、全tame、常数与odd分量，未得到cup零或四阶cover。§7条件式原两维层0→ω^r→E→ω^(1−r)→0的Kummer radical实际为ω^(2−2r)，即T(r)=p+1−2r；反向为ω^(2r)，不能接β_r。实际J整层/重数/圆单位相等仍开。
+
+[原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new部、原扩张类/极化尺度未付，不能将Ohta取N=p。
 
 ### 原完整X_ns^+(47)：只消费；新旧来源交叉审计完成
 
