@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `da58c15d5c663b16950291cd463dd50bef7e9444`（非pull）。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `109c22a5877ce1ec71e1b495ed4f61576e310f90`（非pull）。
 双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异并立即遵守，至少每小时；活12–16通常每5分钟真pull，实际已读commit在末槽。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端立刻rebase重推，终端不可用则freshHEAD完整合并，不冒pull、不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。完整源/所有参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不另设独立审查/冻结/AST/fixture/重跑门，不减原目标/预算。[旧log全文](log/2026-11-27-session-through-fejer-closed.md)96562B保。
@@ -42,10 +42,12 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 15[J1845全准确费](notes/2026-11-27-fixed-fejer-J1845-complete-accurate-normal-sixjet-geometry-fees.md)12件493221B已刊；当前1845与参考923完整分域/切点/双胞，131源、全32/1024/六jet及原预算保。40/36与8/48待真返接。
 
+M14[全closed/R718](notes/2026-11-27-M320-closed-phase-grip-r718-source-adapter.md)保当前320词/962槽与参考160分离、128源及原全闭数学/8argv/66读数；待真M场/准确费返回，不冒旧场。
+
 ## 容量与分工
 
 [ret47](notes/2026-11-27-retention47-twelve-complete-legacy-results.md)及全部旧台账保全源/参数/失败/未知/固定原字恢复，只退旧raw；ports/Nelder保，已退对象不重删。root每fresh树核≤200MB。
-root独占refs/queue及真实调度；solver监控12/15/16实际数学/自然返回；geometry监控13/14并续M320全closed；construction做ret48完整旧raw退存。一直完成README标准。
+root独占refs/queue及真实调度；solver监控12/15/16实际数学/自然返回；geometry监控13/14并核既有真实父续算合同；construction做ret48完整旧raw退存。一直完成README标准。
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
