@@ -1,0 +1,77 @@
+{
+  "schema": "isp-five-bit-birth-two-S2-full-source-SIGALRM-v1",
+  "execution": {
+    "elapsed_seconds": 180.032840093,
+    "max_child_rss_kib": 246696,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6d2533eee50180872114609ddfa2d8003c74743c",
+        "before": "6d2533eee50180872114609ddfa2d8003c74743c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T17:16:17.587146+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46040466818",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "6d2533eee50180872114609ddfa2d8003c74743c",
+    "source_exit_code": -14,
+    "source_git_blob": "131f8b70863771841b107f366540eaed31aadf84",
+    "source_sha256": "9b5e88735ce80a4a72463335c30a24851605042c3d5eb149f44984f2afb0b17c",
+    "stdout_bytes": 612,
+    "stdout_sha256": "80ef5b7ec5d0753c49b3613cd6c10d49a6b6f03bc5c227d635e23ab4532b0dda",
+    "stop_reason": null
+  },
+  "jobId": 140646598438,
+  "completedStages": [
+    {
+      "stage": "all_complete_low_inverses_and_top_compressed_inverse",
+      "seconds": 0.08466223399999961,
+      "L1": {
+        "den_degree": 7,
+        "den_terms": 265,
+        "max_num_degree": 6,
+        "max_num_terms": 171
+      },
+      "L2": {
+        "den_degree": 12,
+        "den_terms": 390,
+        "max_num_degree": 10,
+        "max_num_terms": 247
+      }
+    },
+    {
+      "stage": "upper_source_eliminated_exactly",
+      "seconds": 0.2608696409999993,
+      "Kbb": {
+        "den_degree": 5,
+        "den_terms": 81,
+        "max_num_degree": 8,
+        "max_num_terms": 184
+      },
+      "Kg1": {
+        "den_degree": 15,
+        "den_terms": 676,
+        "max_num_degree": 17,
+        "max_num_terms": 1890
+      },
+      "Kc1": {
+        "den_degree": 10,
+        "den_terms": 81,
+        "max_num_degree": 14,
+        "max_num_terms": 149
+      }
+    }
+  ],
+  "completeCostReturned": false,
+  "completeTraceReturned": false,
+  "completeCoefficientOrbitsProduced": false,
+  "sourceFrozen": true,
+  "wholeS2Proved": false
+}

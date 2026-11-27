@@ -1,0 +1,378 @@
+{
+  "all_pass": true,
+  "target": "C2^2-2*C3",
+  "physicalSites": [
+    4,
+    5
+  ],
+  "allIndependentPositiveWeights": true,
+  "completeBirthOnePrimitiveSource": true,
+  "smallSupport": "<=2 vanishes; support 3 equals e2^2*e3*A*C2^2*A and is PSD",
+  "coefficientDegree": 10,
+  "monomialBase": 32,
+  "maximumIntermediateExponent": 20,
+  "characteristicCoefficientPrinciple": "one zero eigenvalue; all remaining elementary symmetric coefficients positive, hence all remaining eigenvalues positive",
+  "result": [
+    {
+      "support": 4,
+      "independentCovarianceConstruction": true,
+      "checks": [
+        {
+          "order": 1,
+          "degree": 6,
+          "originalTerms": 58,
+          "originalNegative": 0,
+          "symmetryOrbits": 5,
+          "positiveResidual": {
+            "terms": 58,
+            "min": "4",
+            "max": "42",
+            "sum": "792"
+          },
+          "repairs": []
+        },
+        {
+          "order": 2,
+          "degree": 12,
+          "originalTerms": 375,
+          "originalNegative": 12,
+          "symmetryOrbits": 27,
+          "positiveResidual": {
+            "terms": 345,
+            "min": "17",
+            "max": "3312",
+            "sum": "209088"
+          },
+          "repairs": [
+            {
+              "variables": [
+                0,
+                1
+              ],
+              "positiveTerm": "x^4*y^4*(x-y)^2*(3*x^2+2*x*y+3*y^2)"
+            },
+            {
+              "variables": [
+                0,
+                2
+              ],
+              "positiveTerm": "x^4*y^4*(x-y)^2*(3*x^2+2*x*y+3*y^2)"
+            },
+            {
+              "variables": [
+                0,
+                3
+              ],
+              "positiveTerm": "x^4*y^4*(x-y)^2*(3*x^2+2*x*y+3*y^2)"
+            },
+            {
+              "variables": [
+                1,
+                2
+              ],
+              "positiveTerm": "x^4*y^4*(x-y)^2*(3*x^2+2*x*y+3*y^2)"
+            },
+            {
+              "variables": [
+                1,
+                3
+              ],
+              "positiveTerm": "x^4*y^4*(x-y)^2*(3*x^2+2*x*y+3*y^2)"
+            },
+            {
+              "variables": [
+                2,
+                3
+              ],
+              "positiveTerm": "x^4*y^4*(x-y)^2*(3*x^2+2*x*y+3*y^2)"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "degree": 18,
+          "originalTerms": 832,
+          "originalNegative": 42,
+          "symmetryOrbits": 51,
+          "positiveResidual": {
+            "terms": 766,
+            "min": "32",
+            "max": "149264",
+            "sum": "18399744"
+          },
+          "repairs": [
+            {
+              "from": [
+                10,
+                7,
+                1,
+                0
+              ],
+              "to": [
+                9,
+                8,
+                1,
+                0
+              ],
+              "weight": "96",
+              "step": {
+                "fromIndex": 0,
+                "toIndex": 1
+              }
+            },
+            {
+              "from": [
+                9,
+                7,
+                2,
+                0
+              ],
+              "to": [
+                8,
+                8,
+                2,
+                0
+              ],
+              "weight": "480",
+              "step": {
+                "fromIndex": 0,
+                "toIndex": 1
+              }
+            },
+            {
+              "from": [
+                9,
+                7,
+                1,
+                1
+              ],
+              "to": [
+                8,
+                8,
+                1,
+                1
+              ],
+              "weight": "288",
+              "step": {
+                "fromIndex": 0,
+                "toIndex": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "support": 5,
+      "independentCovarianceConstruction": true,
+      "checks": [
+        {
+          "order": 1,
+          "degree": 5,
+          "originalTerms": 121,
+          "originalNegative": 0,
+          "symmetryOrbits": 6,
+          "positiveResidual": {
+            "terms": 121,
+            "min": "24",
+            "max": "300",
+            "sum": "7860"
+          },
+          "repairs": []
+        },
+        {
+          "order": 2,
+          "degree": 10,
+          "originalTerms": 976,
+          "originalNegative": 0,
+          "symmetryOrbits": 28,
+          "positiveResidual": {
+            "terms": 976,
+            "min": "180",
+            "max": "163800",
+            "sum": "23167350"
+          },
+          "repairs": []
+        },
+        {
+          "order": 3,
+          "degree": 15,
+          "originalTerms": 3801,
+          "originalNegative": 0,
+          "symmetryOrbits": 80,
+          "positiveResidual": {
+            "terms": 3801,
+            "min": "432",
+            "max": "120502960",
+            "sum": "30349228500"
+          },
+          "repairs": []
+        },
+        {
+          "order": 4,
+          "degree": 20,
+          "originalTerms": 9906,
+          "originalNegative": 70,
+          "symmetryOrbits": 169,
+          "positiveResidual": {
+            "terms": 9506,
+            "min": "10800",
+            "max": "37747937700",
+            "sum": "14909058500625"
+          },
+          "repairs": [
+            {
+              "from": [
+                14,
+                5,
+                1,
+                0,
+                0
+              ],
+              "to": [
+                14,
+                4,
+                2,
+                0,
+                0
+              ],
+              "weight": "32400",
+              "step": {
+                "fromIndex": 1,
+                "toIndex": 2
+              }
+            },
+            {
+              "from": [
+                14,
+                4,
+                2,
+                0,
+                0
+              ],
+              "to": [
+                14,
+                3,
+                2,
+                1,
+                0
+              ],
+              "weight": "176400",
+              "step": {
+                "fromIndex": 1,
+                "toIndex": 3
+              }
+            },
+            {
+              "from": [
+                14,
+                4,
+                1,
+                1,
+                0
+              ],
+              "to": [
+                14,
+                3,
+                2,
+                1,
+                0
+              ],
+              "weight": "6000",
+              "step": {
+                "fromIndex": 1,
+                "toIndex": 2
+              }
+            },
+            {
+              "from": [
+                14,
+                4,
+                1,
+                1,
+                0
+              ],
+              "to": [
+                14,
+                3,
+                1,
+                1,
+                1
+              ],
+              "weight": "120000",
+              "step": {
+                "fromIndex": 1,
+                "toIndex": 4
+              }
+            },
+            {
+              "from": [
+                14,
+                3,
+                3,
+                0,
+                0
+              ],
+              "to": [
+                14,
+                3,
+                2,
+                1,
+                0
+              ],
+              "weight": "111600",
+              "step": {
+                "fromIndex": 1,
+                "toIndex": 3
+              }
+            },
+            {
+              "from": [
+                14,
+                3,
+                2,
+                1,
+                0
+              ],
+              "to": [
+                14,
+                2,
+                2,
+                2,
+                0
+              ],
+              "weight": "24000",
+              "step": {
+                "fromIndex": 1,
+                "toIndex": 3
+              }
+            },
+            {
+              "from": [
+                14,
+                3,
+                2,
+                1,
+                0
+              ],
+              "to": [
+                14,
+                2,
+                2,
+                1,
+                1
+              ],
+              "weight": "606000",
+              "step": {
+                "fromIndex": 1,
+                "toIndex": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "runtimeMilliseconds": 944,
+  "boundary": "No six-site or larger half-bound, no S2 or higher-birth result, no original W fee inferred."
+}
