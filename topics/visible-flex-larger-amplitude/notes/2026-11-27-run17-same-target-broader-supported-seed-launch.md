@@ -94,3 +94,13 @@ K=P−Gamma−∫UᶜT0不变，边界积分B与Lc改变，工作v/d/w/lambda、
 本提交请求push触发17，紧接读取真实run/job/head并写回本文；此刻actual_run_id、actual_input_report、actual_seed/base/Q/normal模型、physical point、report/final/packet和全部费用均未知。必要inputs真实完成后，立即投放已完整准备的科学pair，随后按真实return接全费用/closed/矩/mesh；原pending对象不裁。若本输入有限场失败、均值充分条件不付或平台截止，保持真实失败/未知、继续换合理输入或方向；不能以参数适配完成、时长、旧结论、已提交源码或等待用户作终点。
 
 真正标准仍是同一固定g上闭连通C²嵌入与全t强C²、固定有内点grip直径≥.2D、整像delta_hold≥.2D、不允许刚体对齐抵消、含反射delta_E>0、全t reach≥.03D及整面relative metric算子≤1e−6；还要固定g/参数/t真实mesh/频率/t精化至机器或原容差、多t完整网格<5MB，并准确写严格存在缺口。所有raw数组/网格/log/证书只在runner scratch，不进Git/Release/artifacts。**本次尚未达到这些标准，继续执行。**
+
+## 8. 真实启动记录（2026-11-27 19:05:19 UTC）
+
+普通main提交7d0146332d4975fbd2d02b9d160c5f45c503a9b4已成功；官方Actions API实际返回run **46053911348/1**，创建时间2026-11-27T19:03:11Z，head就是该完整启动提交，workflow为.github/workflows/visible-larger-20261127-parallel17.yml。实际job **140691661221**处于in_progress；当次读取的checkout和setup-python均completed/success，原固定依赖安装in_progress，research step仍pending。这证明真实job启动，不证明输入或科学阶段已自然返回；未来reference/field/normal模型等仍null。请求文件保持原字，不通过改请求触发重复job。
+
+- [实际run](https://github.com/Rogerhu12/math-research-public/actions/runs/46053911348)
+- [固定完整启动树](https://github.com/Rogerhu12/math-research-public/tree/7d0146332d4975fbd2d02b9d160c5f45c503a9b4/topics/visible-flex-larger-amplitude)
+- [初始两个完整输入对象原字](https://github.com/Rogerhu12/math-research-public/blob/7d0146332d4975fbd2d02b9d160c5f45c503a9b4/topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-17.json)
+
+接续仍是等这两个真实输入自然返回并保存全实际输入身份后，立即排完整157/7科学对；不削预算，不把job启动或输入准备当完成。
