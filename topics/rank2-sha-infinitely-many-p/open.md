@@ -197,3 +197,6 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### 原低轴的三变量素簇与截断稳定性已闭
 
 [三变量V证明](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)已给全次数稳定素簇分类/奇点D-property常数1，真实J_s稳定及e<p的minimal primary到稳定素理想短证。下一实际支付正特征次数受控森林、截断Rolle和完整原M中的预算；不能造越过s窗的Fp形式解，不能套复解析定理，也不能将Euler shifted身份重复计作新坏行。这里的乘积只为同一原必要投影的代数消元，不增加原canonical坏条件。
+
+
+三变量V§8又已闭固定低degree统一有限阶退出：通用Noetherian链固定M，minimal局部长度≤(d0+3M)³，排固定有限p后接稳定素簇分类。继续实际高degree/截断森林及原完整矩阵预算；未知M只作固定存在常数，不能用作已知有效阈值。

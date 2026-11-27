@@ -106,3 +106,6 @@
 
 
 - [原三变量向量场的全稳定素簇](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)：同R525实际低轴的三变量V=V0+6(1−t)XY∂Y已全次数分类：有理log导数为多项式迫f=g^p t^a(1−t)^b，kerV0=K^p；稳定素超曲面仅t=0、t=1、Y=0，高余维稳定素簇全落t=0或1，原奇点的素理想D-property常数1。原弧只modt^s，但完整ev_s(VF)=6t(1−t)∂t ev_s(F)给真实J_s稳定；所有1≤h<s阶严格保持。对D稳定理想的minimal primary局部长度e<p，幂零指数短证给该minimal prime也D稳定。未将(f^p)根自动稳定，未引用特征零森林为正特征重数界。
+
+
+- [三变量V证明§8](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)：固定低degree d0的通用有限参数多项式，在Z[1/6,a,t,X,Y]的导数理想升链于固定M稳定；有限多项式等式随任意相容specialization保留。专门化J全部生成元degree≤L=d0+3M，minimal prime的局部长度由孤立Bézout≤L³。p>L³时局部Artin引理使这些minimal primes稳定，故不在proper稳定簇中的任一原Z，其非零degree≤d0方程必在≤M次导数退出。M仅固定存在、不冒有效数值；不涉及embedded长度或无限Fp轨道。

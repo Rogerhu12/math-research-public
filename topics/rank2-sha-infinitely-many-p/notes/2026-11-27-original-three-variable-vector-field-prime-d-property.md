@@ -268,3 +268,99 @@ $$
 
 - [R525 — 原低轴的多权 Wronskian 零估计](../results/R525-original-multiweight-wronskian-and-growing-kernel-support.md)：实际全局障碍与 $(2)$ 对应其 §1(2)–(7)，真实截断与完整 $M$ 在其 §2、§4。
 - [R526 — 原 Theta 对数方程与两权核排除](../results/R526-original-theta-logarithmic-zero-bound-and-two-weight-kernel-exclusion.md)。
+
+
+## 8. 固定低次数的统一有限阶退出：不借特征零轨道
+
+本节另付森林的低次数步骤。常数只取决于固定的原导子
+$V$ 和一个固定整数 $d_0$；不随剩余特征、待测多项式系数或
+待测素簇改变。后继可取 $d_0=864$，这里不宣称已经算出有效最小值。
+
+令 $\mathbf z=(t,X,Y)$，给所有 $|\alpha|\le d_0$ 引入有限个独立参数
+$a_\alpha$，并在
+$$
+R_{\rm univ}
+ =\mathbf Z[1/6,\{a_\alpha\}_{|\alpha|\le d_0},t,X,Y],
+\qquad
+P_{\rm univ}=\sum_{|\alpha|\le d_0}a_\alpha\mathbf z^\alpha
+$$
+中延拓 $V$，规定 $Va_\alpha=0$。
+参数个数虽大但有限，故 Hilbert 基定理使此环 Noetherian。
+升链
+$$
+I_j=(P_{\rm univ},VP_{\rm univ},\ldots,V^jP_{\rm univ})
+$$
+于某个固定 $M$ 稳定。可增大 $M$ 使 $M\ge1$。
+稳定等式 $I_M=I_{M+1}$ 是有限多项式线性组合的等式；
+它不是一个需要假定平坦性的几何纤维结论。
+
+因此对任一特征 $p>3$ 的代数闭域 $\Bbbk$，以及任一
+非零 $P\in\Bbbk[t,X,Y]$、$\deg P\le d_0$，把 $a_\alpha$
+专门化为 $P$ 的系数，准确得到
+$$
+J=(P,VP,\ldots,V^MP),\qquad VJ\subset J.
+\tag{21}
+$$
+该专门化与导子相容；即使某些生成元或系数变零，有限线性
+组合仍然成立。这里没有无限多个参数，也没有新增依赖 $p$
+的分母。
+
+因 $\deg V\le3$，保守地置
+$$
+L=d_0+3M .
+$$
+$(21)$ 的所有生成元的总次数至多 $L$。
+若 $J\ne R$，令 $\mathfrak q$ 为其任一最小素理想，
+$c=\operatorname{ht}\mathfrak q\le3$。在无穷域上可取
+$c$ 个这些生成元的通用常系数线性组合 $G_1,\ldots,G_c$，
+使 $\mathfrak q$ 在 $(G_1,\ldots,G_c)$ 中仍为一个孤立分量。
+具体地，在正则局部环 $R_{\mathfrak q}$ 中逐次避开有限个
+极小素理想，取得一个参数理想。其每个生成元的次数仍至多 $L$。
+局部理想包含与该孤立分量的 Bézout 交数于是给
+$$
+\begin{aligned}
+e_{\mathfrak q}
+&:=\operatorname{length}_{R_{\mathfrak q}}
+                  (R_{\mathfrak q}/JR_{\mathfrak q})\\
+&\le
+ \operatorname{length}_{R_{\mathfrak q}}
+          (R_{\mathfrak q}/(G_1,\ldots,G_c)R_{\mathfrak q})
+ \le L^c\le L^3 .
+\end{aligned}
+\tag{22}
+$$
+最后一步是 $c$ 个次数不超过 $L$ 的超曲面在一个余维 $c$
+孤立分量上的交重数界；其正整数分量次数至少为1。
+$(22)$ **只**讨论最小素分量，不对 embedded primary 长度
+作未经证明的声称。
+
+若
+$$
+p>L^3,
+\tag{23}
+$$
+第6节的局部引理逐个使所有这些 $\mathfrak q$ 成为 $V$ 稳定
+素理想。无需先声称任意正特征根理想自动稳定，再从中分解。
+
+由此得到所需结论：
+
+**命题4（固定低次数退出）。** 设 $(23)$ 成立，
+$Z\subset\mathbf A^3_\Bbbk$ 为不可约真簇，并且 $Z$ 不包含于
+任何非零真 $V$ 稳定素理想定义的簇。若
+$0\ne P\in I(Z)$、$\deg P\le d_0$，则存在
+$$
+\boxed{1\le j\le M\quad\text{使}\quad V^jP\notin I(Z).}
+\tag{24}
+$$
+
+若反之 $(21)$ 的所有生成元均在 $I(Z)$ 内，则 $J\subset I(Z)$。
+取包含于 $I(Z)$ 的一个最小素理想 $\mathfrak q$；
+因 $P\ne0$，$\mathfrak q\ne0$，且它是真理想。
+$(22)$–$(23)$ 与第6节使 $\mathfrak q$ 稳定，故
+$Z\subset V(\mathfrak q)$，直接矛盾。命题证毕。
+
+这是一个固定的有限坏素数排除及统一有限阶存在结论。
+没有在不存在的无限特征 $p$ 轨道上求 Taylor 展开，也没有把
+未知 $M$ 写成已经计算的有效常数。高次数最小方程、三层实际
+交循环和原 $s$ 窗内的截断重数比较仍须继续给出；本命题不独自
+排除原完整 $M$ 的临界核。
