@@ -1,0 +1,921 @@
+{
+  "schema": "isp-accurate-frozen-new-input-failure-v1",
+  "dateTaipei": "2026-11-28",
+  "scope": "Phi=0; first original quadratic head nonzero; new QQ(u,Q)[lambda] original row module",
+  "runId": 46044068354,
+  "jobId": 140658809632,
+  "execution": {
+    "elapsed_seconds": 120.073988817,
+    "max_child_rss_kib": 307928,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9b6ed72d07f41e6c8361d74b8402f146988aefc7",
+        "before": "acceb72f8fb174ef1616a293b298e6907aee730e",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T17:43:48.902915+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46044068354",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "acceb72f8fb174ef1616a293b298e6907aee730e",
+    "source_exit_code": -14,
+    "source_git_blob": "a817dd1cfa95e5f5995c56ef41cd53aefe3a0936",
+    "source_sha256": "bb35ea1ac9e4c8b48822332a7bf1f6e1bf9ad5f7e083d1ac890b79df517190b1",
+    "stdout_bytes": 14602,
+    "stdout_sha256": "547b96f51cc88178b7c438694b196529285c96977f01b7d67b1ed084f2d92922",
+    "stop_reason": null
+  },
+  "lastCompletedMathematicalStage": {
+    "operation": 19,
+    "lambdaShift": 0,
+    "weightMultiplierNumerator": {
+      "degrees": [
+        179,
+        109,
+        0
+      ],
+      "terms": 12088,
+      "sha256": "7c1ce2e74b12e263483de859b7a3491c7c8be7092bc6a0d9e6aa45afe5d47f80"
+    },
+    "weightMultiplierDenominator": {
+      "degrees": [
+        186,
+        112,
+        0
+      ],
+      "terms": 12349,
+      "sha256": "45a43658201ec6d3ca2914bcaba06282fa008af786c725e19ccc63f582af7602"
+    },
+    "newLeading": [
+      1,
+      2
+    ],
+    "currentWeakDegrees": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+    "stage": "new_actual_lambda_polynomial_row_operation",
+    "seconds": 31.637519828
+  },
+  "completedRowOperations": [
+    {
+      "operation": 1,
+      "lambdaShift": 1,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          14,
+          10,
+          0
+        ],
+        "terms": 113,
+        "sha256": "8f66374ffd4b65b4d59d7fe03ceaa17e39695e6d67a7341e9395b75db3f029c5"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          22,
+          13,
+          0
+        ],
+        "terms": 178,
+        "sha256": "66eb77364fdaf2e050795005406341d292c61da65d4013748778030c73a02804"
+      },
+      "newLeading": [
+        2,
+        2
+      ],
+      "currentWeakDegrees": {
+        "0": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 0.40461821599999936
+    },
+    {
+      "operation": 2,
+      "lambdaShift": 1,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          17,
+          13,
+          0
+        ],
+        "terms": 161,
+        "sha256": "d98d56bf5f4dfeeb11393d753b7b1fa724dd55e6f4185ed140af223feee3587b"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          27,
+          14,
+          0
+        ],
+        "terms": 251,
+        "sha256": "7b4ea40cc299511911ffcfd13ba10688598d45073aefd21700b1db783cbc8855"
+      },
+      "newLeading": [
+        2,
+        2
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 0.463033995
+    },
+    {
+      "operation": 3,
+      "lambdaShift": 0,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          21,
+          14,
+          0
+        ],
+        "terms": 186,
+        "sha256": "e9cd4395a786c2351224d9fe8b62590c0f133c350bd9cf0824a14a4718a8540a"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          23,
+          12,
+          0
+        ],
+        "terms": 201,
+        "sha256": "72f3d4a30000221ec71590d995f0ffc632365c3258571859ec2d05696955f7c8"
+      },
+      "newLeading": [
+        2,
+        1
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 0.5628662390000017
+    },
+    {
+      "operation": 4,
+      "lambdaShift": 4,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          40,
+          27,
+          0
+        ],
+        "terms": 723,
+        "sha256": "e1a05b5cff5b48bd0d16186058ec5e662ae5390fb6a89aef61eb4a40d56eb315"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          36,
+          30,
+          0
+        ],
+        "terms": 527,
+        "sha256": "e82d8f3f346ebdfdfa302a37bb546bbd592b36b397edbac03be8bde230a1b0f7"
+      },
+      "newLeading": [
+        5,
+        2
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 1.267653811999999
+    },
+    {
+      "operation": 5,
+      "lambdaShift": 3,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          49,
+          31,
+          0
+        ],
+        "terms": 994,
+        "sha256": "cae5be4ac378ceeb2eae62c72c5da20cab8be52d3d09d76b109dbc03fa37a546"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          37,
+          31,
+          0
+        ],
+        "terms": 624,
+        "sha256": "e3d3e54aacc535dd1a4d9a04525b3f0c2c02f780b54d4b9c9e2a08c304f19e8b"
+      },
+      "newLeading": [
+        5,
+        1
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 1.6283454619999986
+    },
+    {
+      "operation": 6,
+      "lambdaShift": 3,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          57,
+          35,
+          0
+        ],
+        "terms": 1294,
+        "sha256": "0fe21cb96f9c242aa1b2645b0279baa60e4897bf659e08fc6305bb1669a14833"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          42,
+          37,
+          0
+        ],
+        "terms": 793,
+        "sha256": "0268adfaadc93fedfdccb885ba698c325794018326a5789b0d76bf362e57ee0c"
+      },
+      "newLeading": [
+        5,
+        0
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 2.261316388000001
+    },
+    {
+      "operation": 7,
+      "lambdaShift": 3,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          64,
+          40,
+          0
+        ],
+        "terms": 1664,
+        "sha256": "714af74c957fea84a36553d606b609aaf3b1771f5d0bdd5a0fe9aa3ea5c70268"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          59,
+          43,
+          0
+        ],
+        "terms": 1307,
+        "sha256": "ca1e3cde456e247e3d41b3cb13db0f050a8d6dcb2e271395cdb6828c21c799aa"
+      },
+      "newLeading": [
+        4,
+        2
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 2.580684124000001
+    },
+    {
+      "operation": 8,
+      "lambdaShift": 2,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          73,
+          44,
+          0
+        ],
+        "terms": 2061,
+        "sha256": "b0b6df7cd603c8be250927b8d9cdcdfe17a923f995f0766b3176bed4acabd737"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          60,
+          44,
+          0
+        ],
+        "terms": 1458,
+        "sha256": "d41c573114af0219824cdde122994a5f13457e80172699531b5131a67cd1972d"
+      },
+      "newLeading": [
+        4,
+        1
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 3.368725081000001
+    },
+    {
+      "operation": 9,
+      "lambdaShift": 2,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          82,
+          50,
+          0
+        ],
+        "terms": 2610,
+        "sha256": "d20ffdf70108ab2fd2d9a7d12bea263982602ce234324bc8a925ddc20f35ebf0"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          66,
+          52,
+          0
+        ],
+        "terms": 1756,
+        "sha256": "3f9a93421259dc808a0506d51049c8bfd0819c96c84f3adf6ae15ecb248319e8"
+      },
+      "newLeading": [
+        4,
+        0
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 4.548897424
+    },
+    {
+      "operation": 10,
+      "lambdaShift": 2,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          90,
+          56,
+          0
+        ],
+        "terms": 3178,
+        "sha256": "86ad0aa95c33fd3b8df12120f11579a280e87edfed764a893254049fe64efcda"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          84,
+          58,
+          0
+        ],
+        "terms": 2535,
+        "sha256": "215de387d58be6316d7753a5720c9dc9482b259142be214dae55c9e7f6ca264c"
+      },
+      "newLeading": [
+        3,
+        2
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 5.163904818999999
+    },
+    {
+      "operation": 11,
+      "lambdaShift": 1,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          99,
+          60,
+          0
+        ],
+        "terms": 3720,
+        "sha256": "1ee546a8ad88bb8ef3950b84ea145f1b474aff89d2edd0053dab5cd83b05cf7e"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          85,
+          59,
+          0
+        ],
+        "terms": 2745,
+        "sha256": "9c9c3fe23fb0c2dacbda9f6ed3a43d2e37112100c5e22d04ce95ffa18f371d44"
+      },
+      "newLeading": [
+        3,
+        1
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 6.586337511
+    },
+    {
+      "operation": 12,
+      "lambdaShift": 1,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          107,
+          66,
+          0
+        ],
+        "terms": 4383,
+        "sha256": "0a98394f115ea6077ca3a02c99f12900b917a8355aaaf74c6782e09078cb4658"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          90,
+          67,
+          0
+        ],
+        "terms": 3093,
+        "sha256": "3c01d675d581cfdb4b597733fa9973d3be2ef69cf0ffdf653a88bcf31d96078f"
+      },
+      "newLeading": [
+        3,
+        0
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 8.648198871000002
+    },
+    {
+      "operation": 13,
+      "lambdaShift": 1,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          115,
+          71,
+          0
+        ],
+        "terms": 5105,
+        "sha256": "ab4d42d9211c28f311e45dca2a12c4c08ecf3093d74b4f2e35fc8a25d928fd8b"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          108,
+          73,
+          0
+        ],
+        "terms": 4101,
+        "sha256": "f517edc0f3a8249823cea4e900dfc37db2cdf659a496a37160db8fa7c3a76057"
+      },
+      "newLeading": [
+        2,
+        2
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 9.690238230999999
+    },
+    {
+      "operation": 14,
+      "lambdaShift": 0,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          124,
+          75,
+          0
+        ],
+        "terms": 5787,
+        "sha256": "68e785b425d70c0838628928696849c8d14787f508ab9ab8fd3103eb89104cc9"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          109,
+          74,
+          0
+        ],
+        "terms": 4368,
+        "sha256": "fce23974c68ad8eb26437d9b0332439cbea69ae05c62448a750433b20027acc9"
+      },
+      "newLeading": [
+        2,
+        1
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 12.060864679000002
+    },
+    {
+      "operation": 15,
+      "lambdaShift": 0,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          133,
+          81,
+          0
+        ],
+        "terms": 6692,
+        "sha256": "3929cb9bddd3511a9d882e077e1a8f82f680c9e5a2ff66af3708eb786c1f89e5"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          115,
+          82,
+          0
+        ],
+        "terms": 4875,
+        "sha256": "30ce65fb0c7fadc51589c72859e57401f4967860cbc2aa0740e625a6bc308a6f"
+      },
+      "newLeading": [
+        2,
+        0
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 15.605799839000003
+    },
+    {
+      "operation": 16,
+      "lambdaShift": 0,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          135,
+          83,
+          0
+        ],
+        "terms": 6915,
+        "sha256": "26682629c81f570cbe44594c3fb4fa695c95626dd303a35b4ff679d31da76e4e"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          127,
+          84,
+          0
+        ],
+        "terms": 5524,
+        "sha256": "c4820caf593c525a82b4bf168071e3a6f3664bdfb0d4477d17ca7f0051726bed"
+      },
+      "newLeading": [
+        1,
+        2
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 2
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 17.389132022000002
+    },
+    {
+      "operation": 17,
+      "lambdaShift": 1,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          128,
+          85,
+          0
+        ],
+        "terms": 5834,
+        "sha256": "91af3da5ea160754cf42a39ea581710289345130c9476411daf243e4e68becc2"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          144,
+          87,
+          0
+        ],
+        "terms": 7705,
+        "sha256": "6d69ef70f2a98c6a6a21f031c874a00a7fe3641f8656df6471f621b33d7cacc2"
+      },
+      "newLeading": [
+        2,
+        1
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 1
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 22.850573550000004
+    },
+    {
+      "operation": 18,
+      "lambdaShift": 0,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          167,
+          101,
+          0
+        ],
+        "terms": 10456,
+        "sha256": "6312a8280d679ef8618bf1ad1711377aa890f49a5a63690efeb8a9c13e8c0c58"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          164,
+          103,
+          0
+        ],
+        "terms": 10064,
+        "sha256": "2a8992d0ab6b95895a38cb1670433d7a4f3ca7fafde7bd5ed44c05c7237594bc"
+      },
+      "newLeading": [
+        2,
+        0
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 1
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 27.340667153000002
+    },
+    {
+      "operation": 19,
+      "lambdaShift": 0,
+      "weightMultiplierNumerator": {
+        "degrees": [
+          179,
+          109,
+          0
+        ],
+        "terms": 12088,
+        "sha256": "7c1ce2e74b12e263483de859b7a3491c7c8be7092bc6a0d9e6aa45afe5d47f80"
+      },
+      "weightMultiplierDenominator": {
+        "degrees": [
+          186,
+          112,
+          0
+        ],
+        "terms": 12349,
+        "sha256": "45a43658201ec6d3ca2914bcaba06282fa008af786c725e19ccc63f582af7602"
+      },
+      "newLeading": [
+        1,
+        2
+      ],
+      "currentWeakDegrees": {
+        "0": 2,
+        "1": 2,
+        "2": 1
+      },
+      "temporaryWeightDenominatorNotDeclaredPhysicalUnit": true,
+      "stage": "new_actual_lambda_polynomial_row_operation",
+      "seconds": 31.637519828
+    }
+  ],
+  "paidSmallStages": [
+    {
+      "quadraticHeadNumerator": {
+        "degrees": [
+          26,
+          14,
+          0
+        ],
+        "terms": 223,
+        "sha256": "617adc04bfc0807da52ff2c9ce1808f1c66db40482bc7e2bf63fca37f5beeafe"
+      },
+      "quadraticHeadDenominator": {
+        "degrees": [
+          3,
+          8,
+          0
+        ],
+        "terms": 26,
+        "sha256": "5b9ca41cf577ae34127f3c4ae3707fcf7ad8ad5279745de2bc3191bce0e15550"
+      },
+      "variables": [
+        "T",
+        "z"
+      ],
+      "generators": [
+        "1",
+        "T",
+        "z"
+      ],
+      "allNineOriginalRuleCoefficientIdentitiesReturned": true,
+      "onlyOnFirstHeadNonzeroChart": true,
+      "firstHeadZeroCurveRetained": true,
+      "stage": "new_exact_three_generator_original_mean_chart",
+      "seconds": 0.05619191999999984
+    },
+    {
+      "rows": [
+        "original_N1",
+        "T_square_z_two_orders",
+        "T_z_square_two_orders"
+      ],
+      "actualExtraRowNumerators": [
+        [
+          {
+            "degrees": [
+              19,
+              9,
+              2
+            ],
+            "terms": 332,
+            "sha256": "f298eb3fde8876fe2d45b93dcb3974aaef00ea4fb057b2de4a6362a704345b76"
+          },
+          {
+            "degrees": [
+              17,
+              9,
+              1
+            ],
+            "terms": 194,
+            "sha256": "c59f4fe78eb915aa27a0e20a95a6f8df7eb272ffbee0f9cb5d1d766a21bb6caf"
+          },
+          {
+            "degrees": [
+              17,
+              8,
+              1
+            ],
+            "terms": 195,
+            "sha256": "f588a32054d50b6c6e2668250a7f57ca9bd20285756804f13664c5b80ba3e3c2"
+          }
+        ],
+        [
+          {
+            "degrees": [
+              25,
+              15,
+              3
+            ],
+            "terms": 929,
+            "sha256": "c0df88b82419bacb93b7ec12ee39a6585c67cdeaec1be33a277a58e12d1fdabc"
+          },
+          {
+            "degrees": [
+              21,
+              13,
+              2
+            ],
+            "terms": 542,
+            "sha256": "adf94c85fe26a3cb21b669e5d97ba4a8b846e406a3a8ba8c6744f5d94d9751d5"
+          },
+          {
+            "degrees": [
+              20,
+              12,
+              2
+            ],
+            "terms": 468,
+            "sha256": "ebba380e825c20869017b13ebd2513d6a4cde12a1855e9fbaa1d47e8e45dd841"
+          }
+        ],
+        [
+          {
+            "degrees": [
+              26,
+              17,
+              3
+            ],
+            "terms": 1046,
+            "sha256": "c284bc059282481bebefd3bbde665ab9130e9f0a7ff0631922f8e6497b249d82"
+          },
+          {
+            "degrees": [
+              22,
+              16,
+              2
+            ],
+            "terms": 619,
+            "sha256": "df4e1720cb7ff0fb2c9f14f93ed6ca14d6325c343bffc1eb553437b79b55c28e"
+          },
+          {
+            "degrees": [
+              21,
+              13,
+              2
+            ],
+            "terms": 542,
+            "sha256": "b06d1a9e1a9c07b3cc41f39b1aa63cfc03d8f09a49e49dafc243a3f9cb4d2788"
+          }
+        ]
+      ],
+      "target": "D=ell*A2-T^2",
+      "originalCoefficientDAGNotOnlyPointwiseNecessary": true,
+      "noUnprovedAssociativityUsed": true,
+      "stage": "new_fixed_original_N1_and_true_multiplication_ambiguity_DAG",
+      "seconds": 0.11542849799999999
+    },
+    {
+      "fragmentCount": 6,
+      "allFragmentAndWholePayloadHashesReturned": true,
+      "originalF6Numerators": [
+        {
+          "degrees": [
+            56,
+            33,
+            6
+          ],
+          "terms": 7890,
+          "sha256": "32aaeab992a0957322e2db4c0409676fdf00bd5650a7c5ade233b913c31db893"
+        },
+        {
+          "degrees": [
+            52,
+            31,
+            5
+          ],
+          "terms": 6024,
+          "sha256": "f58cc650f3c65d5f05d8d2af4593427de7edc5412e905bd27d39ad07a31559d6"
+        },
+        {
+          "degrees": [
+            55,
+            33,
+            5
+          ],
+          "terms": 6778,
+          "sha256": "96f34f82c1a2eae78b9d5e048bf9b12de322f0c955c2d809fcd7f133e0176d01"
+        }
+      ],
+      "originalF6Denominators": [
+        {
+          "degrees": [
+            39,
+            32,
+            0
+          ],
+          "terms": 620,
+          "sha256": "9125ed67a404321fe9b2adb518696ae13917fc1a43ac75e902dfe2edecd9e96d"
+        },
+        {
+          "degrees": [
+            37,
+            30,
+            0
+          ],
+          "terms": 570,
+          "sha256": "f215a6504f3f6d810bff4c067319270be7e2d90717b400e895ec12a10a60f4a9"
+        },
+        {
+          "degrees": [
+            38,
+            34,
+            0
+          ],
+          "terms": 634,
+          "sha256": "3f67a2a90054b8c25cb48c451074f9077a5b8aedcf1eb6c22c506e7e469b6231"
+        }
+      ],
+      "stage": "saved_actual_original_F6_row_loaded_without_recurrence_replay",
+      "seconds": 0.3518882930000018
+    }
+  ],
+  "completeWeakPopovBasisReturned": false,
+  "actualDTargetIdentityReturned": false,
+  "finalWeightDenominatorReturned": false,
+  "wholeHeadChartExcluded": false,
+  "sourceFrozen": true,
+  "noHigherLimitReplay": true,
+  "ordinaryISPClaim": false
+}

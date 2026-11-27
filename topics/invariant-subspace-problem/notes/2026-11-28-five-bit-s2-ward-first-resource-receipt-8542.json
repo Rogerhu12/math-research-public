@@ -1,0 +1,164 @@
+{
+  "status": "resource_failure_no_s2_conclusion",
+  "workflow_run": 46043260675,
+  "job_id": 140656062003,
+  "attempt": 1,
+  "source_blob": "3e34f9c431258b279ddb3b88977569fff79e5286",
+  "execution_receipt": {
+    "elapsed_seconds": 180.04702267099998,
+    "max_child_rss_kib": 356660,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "929cab446c0ad73fc1a28660a4929169c48dca8d",
+        "before": "929cab446c0ad73fc1a28660a4929169c48dca8d",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T17:37:23.150204+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46043260675",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "929cab446c0ad73fc1a28660a4929169c48dca8d",
+    "source_exit_code": -14,
+    "source_git_blob": "3e34f9c431258b279ddb3b88977569fff79e5286",
+    "source_sha256": "12f094cd327bb4cd4454af77a4301021019e2dbcfe29b76ebb8b60eaafb0c54e",
+    "stdout_bytes": 1575,
+    "stdout_sha256": "ff3607d919bb300425f8b55bebe1fe37b68efb29a06cd7b0ab09e8b9fd42bf3e",
+    "stop_reason": null
+  },
+  "exact_stages": [
+    {
+      "stage": "factored_complete_low_operators",
+      "seconds": 0.04086720800000876,
+      "L1": {
+        "den_factors": {
+          "S": 2,
+          "delta": 1
+        },
+        "max_num_degree": 6,
+        "max_num_terms": 171
+      },
+      "L2": {
+        "den_factors": {
+          "S": 2,
+          "epsilon": 1
+        },
+        "max_num_degree": 10,
+        "max_num_terms": 247
+      },
+      "E": {
+        "den_factors": {
+          "e4": 1
+        },
+        "max_num_degree": 7,
+        "max_num_terms": 4
+      }
+    },
+    {
+      "stage": "single_joint_source_before_outer_gram",
+      "seconds": 0.10670552199997019,
+      "F": {
+        "den_factors": {
+          "S": 1,
+          "e4": 1,
+          "delta": 1
+        },
+        "max_num_degree": 11,
+        "max_num_terms": 423
+      },
+      "Fs": {
+        "den_factors": {
+          "S": 1,
+          "e4": 1,
+          "delta": 1
+        },
+        "max_num_degree": 12,
+        "max_num_terms": 423
+      }
+    },
+    {
+      "stage": "same_physical_V_and_adjoint",
+      "seconds": 1.0857761679999953,
+      "V": {
+        "den_factors": {
+          "S": 2,
+          "e4": 1,
+          "delta": 1,
+          "epsilon": 1
+        },
+        "max_num_degree": 20,
+        "max_num_terms": 3726
+      },
+      "Vs": {
+        "den_factors": {
+          "S": 2,
+          "e4": 1,
+          "delta": 1,
+          "epsilon": 1
+        },
+        "max_num_degree": 22,
+        "max_num_terms": 3726
+      }
+    },
+    {
+      "stage": "unprojected_same_source_square",
+      "seconds": 8.93738555799996,
+      "first": {
+        "den_factors": {
+          "S": 4,
+          "e4": 2,
+          "delta": 2,
+          "epsilon": 2
+        },
+        "max_num_degree": 42,
+        "max_num_terms": 68089
+      },
+      "H": {
+        "den_factors": {
+          "S": 2,
+          "e4": 1,
+          "delta": 1,
+          "epsilon": 1
+        },
+        "max_num_degree": 22,
+        "max_num_terms": 5871
+      }
+    },
+    {
+      "stage": "complete_Moore_Penrose_removed_square",
+      "seconds": 86.37276978999995,
+      "second": {
+        "den_factors": {
+          "S": 4,
+          "e4": 2,
+          "delta": 2,
+          "epsilon": 3
+        },
+        "max_num_degree": 52,
+        "max_num_terms": 123810
+      }
+    },
+    {
+      "stage": "actual_S2_cost",
+      "seconds": 90.74633859,
+      "cost": {
+        "den_factors": {
+          "S": 2,
+          "e4": 2,
+          "delta": 2,
+          "epsilon": 3
+        },
+        "max_num_degree": 50,
+        "max_num_terms": 49523
+      }
+    }
+  ],
+  "report_file_produced": false,
+  "boundary": "The actual cost was returned at 90.74633859s, but no scalar square-trace or final coefficient table was returned. The last unlogged region includes the source-projection identity check and scalar square expansion; no finer location is asserted."
+}

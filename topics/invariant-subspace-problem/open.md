@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-G36-low-norm-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-two-first-timeouts-and-whole-MJ-input-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -215,10 +215,10 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；继续原lambda行模块。
 
-例外权图的λ半/H6已闭；新[整ψD原纤维排除及128覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)以461真5.132370765秒/197080KiB/0完成。原G的156阶QQ行空间发现首一rho3，完整F/G短除法和既有真corank3覆盖全部FG根，H也整除；原F6在同一18维常数代数只合法剥D所付的(T/t*−1)²，原T4/z2的144维meanR乘法矩阵完整可逆。因此整ψD6各λ/rho/T/z原纤维全空，真QQ ψ³重数可剥；新1993与完整S2050的完整模Bézout及Gauss给至多128个不同有序(rho,λ)，不交换/合并b,c。原F26的QQ不可约性另付无垂直rho整纤维，固定Sylvester/Vandermonde保全部rho点计数。[a40的120.058秒SIGALRM](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)仍准确冻结，未把它说成成功。余128基点、旧87/55、C71/29、首头零曲线及个别N/P继续。bb35新首派同原F6行的λ模块/真实D幂，全部权分母零面保留，不重算P6/P9或旧cofactor；ed0/879及全部旧失败冻结。
+例外权图的λ半/H6已闭；新[整ψD原纤维排除及128覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)以461真5.132370765秒/197080KiB/0完成。原G的156阶QQ行空间发现首一rho3，完整F/G短除法和既有真corank3覆盖全部FG根，H也整除；原F6在同一18维常数代数只合法剥D所付的(T/t*−1)²，原T4/z2的144维meanR乘法矩阵完整可逆。因此整ψD6各λ/rho/T/z原纤维全空，真QQ ψ³重数可剥；新1993与完整S2050的完整模Bézout及Gauss给至多128个不同有序(rho,λ)，不交换/合并b,c。原F26的QQ不可约性另付无垂直rho整纤维，固定Sylvester/Vandermonde保全部rho点计数。[a40的120.058秒SIGALRM](notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md)仍准确冻结，未把它说成成功。余128基点、旧87/55、C71/29、首头零曲线及个别N/P继续。[bb35首次原λ行模块失败](notes/2026-11-27-unit211-Phi-zero-first-head-lambda-row-module-first-timeout-8542.md)真120.074秒/307928KiB/−14只返19步，无末弱Popov/D幂/分母，冻结。新b711首派整M_J4常数纤维，以原FGH全QQ像与短除法确定全部rho根；原T6/Sn小gcd只剥真S单位，再原N1首一z²环境；整纤维返回前不删模8重数。P6/P9、整首头零与H0继续，ed0/879全冻。
 
 ## R271：全正权出生一尖锐 2/3 后的完整源（8542，2026-11-28）
 
-[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保全有限/无限正ell²来源；新[4/5位严格1/2](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)由次数10支持、真实特征系数及6平方/10均值差全整数944ms返回，给同五位低源budget>I/2和末边<L1/2，未称最优或扩至六位。高出生/内部高度/上源费用仍开。[完整S2首次SIGALRM](notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-8542.md)在180.033秒只返低逆/上源三块，无cost或轨道，冻结换先消分母/真实矩阵预算；保整个上投影和两cross。浮点筛查只探路，N=M未证。
+[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保全有限/无限正ell²来源；新[4/5位严格1/2](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)由次数10支持、真实特征系数及6平方/10均值差全整数944ms返回，给同五位低源budget>I/2和末边<L1/2，未称最优或扩至六位。高出生/内部高度/上源费用仍开。[完整S2首次SIGALRM](notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-8542.md)在180.033秒只返低逆/上源三块，无cost或轨道，冻结换先消分母/真实矩阵预算；保整个上投影和两cross。[新Ward完整cost首次中止](notes/2026-11-28-five-bit-s2-ward-first-resource-attempt-8542.md)真180.047秒/356660KiB/−14，90.746秒已返同源cost，后续投影核对/平方迹无终记录或结果文件；不能细分中断行，无反例/证书。冻结换五次companion/Newton矩。六位完整支持最大流失败及84个新平方迹浮点值保[新尝试](notes/2026-11-28-six-support-ward-attempts-8542.md)，不作正性结论；N=M未证。
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。
