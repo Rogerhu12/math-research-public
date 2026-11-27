@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R271 三对正权完整S1/S2及七位出生二首末边](results/R271-appendix-three-pairs-full-joint-source-and-seven-site-birth-two-edges.md)：全部原九/五维来源严格正，五个完整正系数证书保重复权、深源和双cross；新七位2+2+2+1族整14维两边严格<1，固定比率余量与追加位无关。
+
 - [R271 一特殊权全部高度的尖锐相对创新费用](results/R271-appendix-one-special-weight-all-heights-sharp-relative-innovation-cost.md)：同原完整R293源给Qn/Fn<n/[2(n+1)]，固定n及跨n的1/2均尖锐；显式整数展开、硬顶和s0全保，不代原无限费用。
 
 - [R150 一般H1原Dixon极点的55次完整支持](results/R150-appendix-unit211-Phi-zero-H1-original-Dixon-55-source-pole-support.md)：原418次分母支持平方自由剥已付u/u1后九QQ因子总55，完整乘回；C256=C55·P201且互素，未宣已识别余201或减少1024权对界。
