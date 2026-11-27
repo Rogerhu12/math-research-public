@@ -434,3 +434,8 @@
 ### R582：339原自然终态的真实95de及完整费用
 
 [原收据](notes/2026-11-27-r582-pending339-original-terminal.md)新增2444.1902206679997秒/11metric，当前95de在16240×3072 η3.448896113433797e−5、物理/working均0；原raw未合格与独立half真接受分别保留。17J含当前8J、22fine含5新baseline，旧失败和所有费用不删。原356+1拟357带来两新中点；未达原p阶段2.5e−7，不改目标、不授新g/refinement或宏观结论。
+
+
+### R582：真实95de到原pending357的必要后继
+
+[已审范围](notes/2026-11-27-r582-physical-pending357-resume-implementation.md)只接原唯一FINAL，保原356+1和全部16240旧fine；新增两个中点须新网资格，raw5a723不继承独立half的接受。原科学算法/common/完整费用不变，45来源绑定；未达p阶段门，不授固定g或宏观完成。
