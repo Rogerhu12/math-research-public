@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：5d940f979afe77848a00032c6b1cc7fec6df150a**（2026-11-27 20:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：97b2a143c1fc34ddefd151e314eb208905710435**（2026-11-27 20:27 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；20:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -32,7 +32,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)付原α、完整t(B+At)整尾及全部非q消失；R1122已实际关闭六盘，余0/141继续。
 
-[有限Miller](notes/2026-11-27-full-p47-finite-third-kind-method.md) run45973334832/job140418866621仍读0/141×ZA/ZB首4例，18000/120；只接完整新α。余12已由R1121完成，不补算。
+[首4短Cartier v2](notes/2026-11-27-full-p47-short-Cartier-first-four-method.md)已推独立入口/请求，仅0/141×ZA/ZB，3600/reserve120、4核；旧C/E/grid同帧hash在新α前逐项核。旧Miller run45973334832/job140418866621仍在途，完整值尚未读到；若后成只消费，不补跑。已成12值和6盘不重算。
 
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)的q² run45977769585/job140433713916仍在途；原坐标已由R1120完整取得，不再依赖或补跑。
 
@@ -41,7 +41,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323，21.546秒，aux−11首项rank73/det4364；四原CM的ρ_D/Bq完整坐标及Hodge/Bq桥齐备。R1119几何与整性、全部receipt/hash保原文；只消费，不补跑q²。
 
 
-[R1122](results/R1122-certified-original-six-complete-CM-disks.md)：QC run45996561850/job140497301328，117.953秒，六盘76/77/100/108/196/220全rank2、gcd=t且B unit，完整4513盘均只余原CM点；完整Cartier/Tq原矩阵桥通过，receipt SHA4ae1153b…已核。固定47尚余0/141，正在给这四个未完成α改走短Cartier；不重算六盘。
+[R1122](results/R1122-certified-original-six-complete-CM-disks.md)：QC run45996561850/job140497301328，117.953秒，六盘76/77/100/108/196/220全rank2、gcd=t且B unit，完整4513盘均只余原CM点；完整Cartier/Tq原矩阵桥通过，receipt SHA4ae1153b…已核。固定47尚余0/141，四个未完成α的短Cartier v2已推；不重算六盘。
 
 [十二形式的范围](notes/2026-11-27-short-Cartier-twelve-form-span-boundary.md)：六个不同generic j纤维的R2/R4留数分别隔离每对ZA/ZB，故已成十二形式的常系数组合（即使加全纯项）不能补0/141四形式；不把all_eight表的其它列改称新除子值。
 

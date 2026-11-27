@@ -38,7 +38,7 @@
 
 [R1104–06](results.md)已认证原L≤5/836jets与degree167可分pencil、八CM×16切向全unit及全部23角的真实73维作用；ZA/ZB生成整T。run45964526314/45968484065/45969880122，原source/hash、coarse/tag、FLINT隔离和id196普通25项链更正保索引及前态。只消费，整代数生成不代QC行秩。
 
-[有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读首4个尚缺α；余12例已由R1121完成，CM坐标已由R1120完成。
+[首4短Cartier v2](notes/2026-11-27-full-p47-short-Cartier-first-four-method.md)已推独立入口/请求，仅0/141×ZA/ZB，3600/reserve120、4核；旧C/E/grid同帧hash在新α前逐项核。旧Miller run45973334832/job140418866621仍在途，完整值尚未读到；若后成只消费，不补跑。已成12值和6盘不重算。
 
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；该路线仍在途；所需CM坐标已由R1120完整得到，不再补跑该链。
 
@@ -47,7 +47,7 @@
 [R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
 
 
-[R1122](results/R1122-certified-original-six-complete-CM-disks.md)：QC run45996561850/job140497301328，117.953秒，六盘76/77/100/108/196/220全rank2、gcd=t且B unit，完整4513盘均只余原CM点；完整Cartier/Tq原矩阵桥通过，receipt SHA4ae1153b…已核。固定47尚余0/141，正在给这四个未完成α改走短Cartier；不重算六盘。
+[R1122](results/R1122-certified-original-six-complete-CM-disks.md)：QC run45996561850/job140497301328，117.953秒，六盘76/77/100/108/196/220全rank2、gcd=t且B unit，完整4513盘均只余原CM点；完整Cartier/Tq原矩阵桥通过，receipt SHA4ae1153b…已核。固定47尚余0/141，四个未完成α的短Cartier v2已推；不重算六盘。
 
 [十二形式的范围](notes/2026-11-27-short-Cartier-twelve-form-span-boundary.md)：六个不同generic j纤维的R2/R4留数分别隔离每对ZA/ZB，故已成十二形式的常系数组合（即使加全纯项）不能补0/141四形式；不把all_eight表的其它列改称新除子值。
 

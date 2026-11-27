@@ -1,0 +1,213 @@
+{
+  "execution_id": "full-p47-short-Cartier-first-four-v2",
+  "prime": 47,
+  "coefficient_prime": 4513,
+  "sage_version": "10.6",
+  "python_flint_version": "0.9.0",
+  "jet_length": 836,
+  "local_length": 4513,
+  "cases": [
+    "0-ZA",
+    "0-ZB",
+    "141-ZA",
+    "141-ZB"
+  ],
+  "already_completed_case_ids": [
+    "100-ZA",
+    "100-ZB",
+    "108-ZA",
+    "108-ZB",
+    "196-ZA",
+    "196-ZB",
+    "220-ZA",
+    "220-ZB",
+    "76-ZA",
+    "76-ZB",
+    "77-ZA",
+    "77-ZB"
+  ],
+  "maximum_workers": 4,
+  "total_seconds": 3600,
+  "reserve_seconds": 120,
+  "field_worker_seconds": 1800,
+  "rules_last_read_commit": "7a50fcf087ce969985e499747f12f064925155f5",
+  "consumed_group_order": {
+    "source": "1f0e3604a87d4b574c708ddcc0ab1b17852f09f1",
+    "run": 45941243499,
+    "job": 140315814260,
+    "order_mod_coefficient_prime": 551,
+    "recompute_Hecke_q": false
+  },
+  "consumed_graded_source": {
+    "source": "feaff1c23f0ddf90c6879cfaaf59811cdd17823e",
+    "run": 45964526314,
+    "job": 140389923921,
+    "input_request": "topics/serre-uniformity/notes/full-p47-graded-RR-source-request.json",
+    "input_Hodge_request": "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json",
+    "completed_object_sha256": "0d5077448b2c711306cce664ad9b6adbd5affb19bad5bd9388b8b561d636cc9c"
+  },
+  "graded_certificate": {
+    "L1_long_jet_matrix_sha256": "4b1e6a1010a05009677087a734baa2d871d37eb92135cf9eea3d4e9a1b245706",
+    "coefficient_prime": 4513,
+    "degrees": [
+      {
+        "all_23_cusp_values_sha256": "8f3065d82d98bce76aa0dbd24827c71334b588afd059b1df50acd68e5b8c388a",
+        "basis_jets_sha256": "a854221bbfcbc1d43208ccfacadb7e2b65c89ab9d93a9c8dd035a2dc84046299",
+        "cusp_vanishing_dimension": 239,
+        "cusp_vanishing_kernel_sha256": "7f6ce844cdaf7c0a5f8437e6dfa73eef830a646dad815cecde9c33bdf141562d",
+        "degree": 2,
+        "dimension": 262,
+        "last_source_index": 2,
+        "product_pairs_sha256": "3f96bfc33d3a5b20800c7cb6b066fb01c0fbf951a3a14e5431161843583d61bb",
+        "products_considered": 282
+      },
+      {
+        "all_23_cusp_values_sha256": "f218a4a3fbf049552200ce7a526ea694133d18fab668185a86bb2e21311fd74e",
+        "basis_jets_sha256": "333a919cd240261bd45686f330ebcd36f0ef49cefec4ca4b3beee3adedb1685a",
+        "cusp_vanishing_dimension": 406,
+        "cusp_vanishing_kernel_sha256": "98876a95c5173c862b42d25463d7481a01518bbee6462b96403155a598dfbb52",
+        "degree": 3,
+        "dimension": 429,
+        "last_source_index": 1,
+        "product_pairs_sha256": "040853df555de647306965a6464cf7372f6ae4ab743ab40a2c8aabfd0c426c8e",
+        "products_considered": 524
+      },
+      {
+        "all_23_cusp_values_sha256": "e1d7b76f69dd4cea9eb9a23de1bd0f63d5c2afd6296f7ca45db2f339a635bc42",
+        "basis_jets_sha256": "72c27e1e3f9d4437e441f70198ae080cc682b61a3a18daae0d0d18641b4c6427",
+        "cusp_vanishing_dimension": 573,
+        "cusp_vanishing_kernel_sha256": "2ee8ef3fa35762542823db2d893c2104d1e5ebaf8c2a089913ae3d6260858d38",
+        "degree": 4,
+        "dimension": 596,
+        "last_source_index": 1,
+        "product_pairs_sha256": "b6ba509088befaea26577d70e05ee4a991b9761293dc3e429c28a5a450040779",
+        "products_considered": 858
+      },
+      {
+        "all_23_cusp_values_sha256": "e50ba88423b59b1d355fc162fd171dc0d03198f60aac87448e617a216c52dd9c",
+        "basis_jets_sha256": "2368dd62b517f3cacc8cd2bb08adba7a6b4828777f1a994729682a83578b1a01",
+        "cusp_vanishing_dimension": 740,
+        "cusp_vanishing_kernel_sha256": "f7ac41430708ccfed27290f9c415fb38f64247d7f69fc715e4f5365cd7e745a4",
+        "degree": 5,
+        "dimension": 763,
+        "last_source_index": 1,
+        "product_pairs_sha256": "2b6f6f902b8cc21d7ab0721d4edd4d4ccd47a55b117df426f4d22e0c70f57aba",
+        "products_considered": 1192
+      }
+    ],
+    "genus": 73,
+    "jet_length": 836,
+    "line_bundle": "Omega(C_infinity)",
+    "line_bundle_degree": 167,
+    "original_Hodge_certificate_sha256": "4656ed9535d1df10776de395641342580b58f8d27727e64f2dfcb9b8db39498d",
+    "prime": 47,
+    "primitive_root": 2
+  },
+  "consumed_CM_tangents": {
+    "source": "9fba1d2b2865407f949a81a72568a9980e378a3c",
+    "run": 45968484065,
+    "job": 140402824955,
+    "ids": [
+      0,
+      76,
+      77,
+      100,
+      108,
+      141,
+      196,
+      220
+    ],
+    "read_new_projective_derivative_only": true
+  },
+  "certified_CM_tangent95_sha256": {
+    "0": "a8bb8a93e48b8508002ef8db853733a0785d41ff103c8c0bbb72e98ccb29354c",
+    "76": "25f16f989716b2d7b3d80bd217bda8de3c0738dbfea0a65fb9eee2608c21233e",
+    "77": "0e2265efba451a84394a870e3c8321d90d7541900a964bd4c0d04b09b52a6c91",
+    "100": "7aa3de36e17d42d4a5e32b24e5d3b610082390725efa77806f89e8ad5300463f",
+    "108": "db3808c45948dbcea8fc08b95c48eb3a54101e733331f513f27f39f1cac550cb",
+    "141": "3cb7cc4c045604b4de037ea31348d13af728bbff8c2776916b427649544062c0",
+    "196": "0cdb616c7ba3dc81e3bc2fd6e56381bfb44dfdf2552af53b9cf5b586303fdd58",
+    "220": "c319cf9e27820e348e091b337b57f1beba9edb9b5c313d7feee4b22c0c14f62d"
+  },
+  "consumed_Gaussian_grid": {
+    "source": "282be088b6286c21e4ccedf79127c8a1f93e77df",
+    "run": 45947023569,
+    "job": 140333947037
+  },
+  "certified_Gaussian_grid_sha256": "627e076ae64de06332324f1bdf0a82e2888b493f4799af3b7211c6d7524d7c50",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/scripts/full_p47_Miller_support.py": "bb5d9b4517a6fec35709a0a0fcb2d327db57c75e235423a1f77f985908e58267",
+    "topics/serre-uniformity/scripts/full_p47_eight_CM_tangents.py": "c0932538657b87e6f2c31c0d32189383fd72e65267cf20986630d73dece1f1a5",
+    "topics/serre-uniformity/scripts/full_p47_graded_RR_source.py": "e54339e527a36ba15c4f2c799226a61ca8dcfc413fd0f9513819f44ac426ffa8",
+    "topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py": "fe2e4f6b2420389b534fab0b2d1976dc6ac7cb2b1fe8ad98c07112ecd860afac",
+    "topics/serre-uniformity/scripts/original_p47_ell4513_cuspidal_transfer.py": "758df1a12306555605dde7db91ef2ab6d2aa62d9853dd134a875046e88ebaa7f",
+    "topics/serre-uniformity/scripts/original_p47_cuspidal_disks.py": "35a0035d4f238670309d19c9acec35b5f9610cf13f5676f96503c59048148f98",
+    "topics/serre-uniformity/notes/full-p47-graded-RR-source-request.json": "82fba83b0e46d98d16b0251baf3d04130ed41c683e65379fc019d42363ae94df",
+    "topics/serre-uniformity/notes/full-p47-CM-height-move-request.json": "bc89913668d6b3d209719a720c7562a7914459441526b6a565fc69edbfc2b7e6",
+    "topics/serre-uniformity/notes/original-p47-ell4513-cuspidal-transfer-request.json": "655d3f21b34d6c87f3e7eac95e3b9621c7989e4afc21c625a6b8416fa0dd6493",
+    "topics/serre-uniformity/scripts/full_p47_short_Cartier_third_kind.py": "f78bbb0e701de91afe2af5a7189948bc92055d62a6c2bfad13343af08e4e2adf",
+    "topics/serre-uniformity/scripts/full_p47_Cartier_support.py": "6e2221fa6e3fb8b5624ec76ee5fca36ef211cacc288708700c84c32d046f6b59",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-short-Cartier-third-kind-method.md": "a7cfec96ed279a1824ed3faa614c034e53845f584aa5e0f381283fb91829ff09",
+    "topics/serre-uniformity/scripts/full_p47_Gaussian_CM_log.py": "f412bf532b09bec72d485f02d35a2c7b8b4b87cefc5c8ce4a159f299fe23f6b1",
+    "topics/serre-uniformity/results/R1118-original-short-Cartier-reading-for-CM-third-kind-values.md": "9cabb17b08a9d3256958c66a8e5d02bd543d4c1c50509bcdc111d1ea18fde1f3",
+    "topics/serre-uniformity/scripts/full_p47_short_Cartier_first_four.py": "d7e5529e9c45183cc902689e93573b3aff0f37ec3e4d0f9956c24aa39affe72a",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-short-Cartier-first-four-method.md": "0b72ec1b67b6f29cfddd19eefd5084588f486191368a10363250826dbe59be1d",
+    "topics/serre-uniformity/notes/full-p47-short-Cartier-third-kind-request.json": "20db24c6c8857df91109713833b47fcd2db5fd0930e45b4703f7017befb49f84",
+    "topics/serre-uniformity/results/R1121-certified-original-twelve-short-Cartier-values.md": "34d4e790cd598bf68c3f4cbb8d7000e16770e8255ca124c810f61d5e54e2dd88"
+  },
+  "scope": "Only 0/141 × ZA/ZB, whose complete values were not observed at request; separate algorithm beside the original in-progress Miller. No prior twelve values, old heights, labels or CM logarithms are rerun. Regenerated common C/E/grid is necessary input and must match its exact prior certificate.",
+  "storage": "All field packets, long series, residue matrices and Cartier matrices remain runner-only; no artifact, Release, raw output files or data chunks committed.",
+  "concurrent_independent_algorithm": {
+    "algorithm": "bounded_Miller",
+    "run": 45973334832,
+    "job": 140418866621,
+    "source": "4fc63ab4df03123599b1b1ad06560a071f464d58",
+    "case_ids": [
+      "0-ZA",
+      "0-ZB",
+      "141-ZA",
+      "141-ZB"
+    ],
+    "completed_case_ids_observed_at_request": [],
+    "status_checked_at_UTC": "2026-11-27 12:19:51 UTC",
+    "status_at_request": "in_progress",
+    "relationship": "independent_algorithm_for_not_yet_completed_values",
+    "later_Miller_completion": "consume_existing_run_only_no_rerun"
+  },
+  "consumed_short_Cartier": {
+    "run": 45994669183,
+    "job": 140490956495,
+    "source": "1340d243733c1693ac57aa04043b7b9194fd14ed",
+    "request_sha256": "20db24c6c8857df91109713833b47fcd2db5fd0930e45b4703f7017befb49f84",
+    "result_sha256": "895d06ff05fab216225b5a6794295b3fb731d4ea5d1982935db365a4ebddcc09",
+    "completed_case_ids": [
+      "100-ZA",
+      "100-ZB",
+      "108-ZA",
+      "108-ZB",
+      "196-ZA",
+      "196-ZB",
+      "220-ZA",
+      "220-ZB",
+      "76-ZA",
+      "76-ZB",
+      "77-ZA",
+      "77-ZB"
+    ],
+    "common_input_only": true
+  },
+  "certified_common_Cartier_input": {
+    "Cartier_column_matrix_sha256": "21fc43c13f58e974adb58804e3480f80d3268104546e31e40ca5370806bbb58f",
+    "Cartier_row_matrix_sha256": "deda5ed6dbe8122f243c46bb60245cf8facc00b6040a8f34958c9ca4241d855d",
+    "Hodge_evaluation_sha256": "8c5073af02da9d9731f7cbff7ab5fa1e061e590fe965355c9a2e79ff463795bb",
+    "Hodge_evaluation_determinant": 3058,
+    "selected_frames_sha256": "ac2b0b2dc168977fe758cbf9b6f9a2eeb5b187d6da566f0940f824c9f375c67f",
+    "selected95_values_sha256": "2c8159a9a6d8e5f6c6bf54d4e312cd5a9b062f9a8c61f7fa250300f96f5402a9",
+    "grid_sha256": "627e076ae64de06332324f1bdf0a82e2888b493f4799af3b7211c6d7524d7c50",
+    "dimension": 73,
+    "one_minus_C_determinant": 551,
+    "KS_constant": 809
+  }
+}

@@ -205,3 +205,7 @@
 ### 2026-11-27 20:24 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 十二条已成Cartier形式的常系数张成范围已核：六个不同generic j纤维的独立R2/R4留数逐对迫系数零；即使加全纯项，也无法补有cusp留数8的首4目标形式。
 - root/global逐式纸核实际j余数、角支撑与除6尺度；这只排所述形式恒等式，不排数值巧合或新对应输入。首4独立短Cartier新入口已写并待最后源核，旧12/六盘均不重算。
+
+### 2026-11-27 20:27 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 提交仅0/141×ZA/ZB的短Cartier v2独立入口/新请求；原v1所有成功文件与guards不改，FourRR保原cycle和除6，已成十二case不构造新形式。
+- root/global/o2全文纸核新driver/请求/方法；新α前强制旧C/E/frame/grid完整hash。新增课题外workflow serre-full-p47-short-Cartier-first-four.yml，仅本课题，3600/reserve120、4核；Miller仍in_progress而未读到完整值，新方法明确记录并行来源，不把未成值当旧结论重算。
