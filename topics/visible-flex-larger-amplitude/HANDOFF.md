@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `ae4116b01724869a954e5edf67639a0dd5dad2d1`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `2f1b1edd81bbe4e3d4030d0f98176218edc3d0cc`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -25,18 +25,18 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 15=46031953783 | 两input0后97ae/4ea科学未返；J1845全源/双胞全费保open§7历史。 |
 | 16=46037017666 | 两input0后a8b0749a/ed810/PID3868科学未返，完整157/7参数92522B保。 |
 | 17=46053911348 | 两input0后36ef0794/ed810/PID3823科学未返，完整wide157/7参数92407B保。 |
-| 18=46062343475 | 两input0、首science1、异常reader0；已提交修后完整157步同runner续求，未读新回传。 |
+| 18=46062343475 | 两input0、首science1、异常reader0；修后完整157步再exit1；原同runner读第二实际异常，原输入保。 |
 
 [16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)model8cc/current7e06/g11.17545381570094，第三880d统计已返、几何/决定未返、accepted0；首/二几何决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)仅b/S1/4、δ1/32新seed，model f2e417/current7e06/g2.0480426708394406>0，首924732统计已返、几何/决定未返、accepted0。全部精确Phi/Gram/点/source记录保全note；六g未展示分项不猜，同坐标异model不冒同场。
 
-18[真实失败](notes/2026-11-27-run18-complete-meridian-batched-independent-launch.md)：两input0、首41b4科学1、5d25诊断0，确为frame遗漏新_meridian_data完整方法身份，旧完整失败族固定36fb。 [完整修复/续求](notes/2026-11-27-run18-complete-method-binding-repair-and-continuation.md)保10完整运行源修复+准确input fd299，当前driver5b0d/reader79375/launcherfda0、normal33c/frame d3cf/packet45dd。只加精确wrapper身份并联动必要pins，所有guard/数学/137角色及原120pairs/变量/32stage/预算原保。完整science97549B/157argv/458formal、pure84983B/7argv/445formal，48live不变；单科学65281B队列已提交method-bound新output，同runner复用真返回input。controller实际新checkout/场未读前不冒成功；fullpair104670compact>95000，纯读完整后接，不裁。
+18[真实失败](notes/2026-11-27-run18-complete-meridian-batched-independent-launch.md)：两input0、首41b4科学1、5d25诊断0，确为frame遗漏新_meridian_data完整方法身份，旧完整失败族固定36fb。 [完整修复/续求](notes/2026-11-27-run18-complete-method-binding-repair-and-continuation.md)保10完整运行源修复+准确input fd299，当前driver5b0d/reader79375/launcherfda0、normal33c/frame d3cf/packet45dd。只加精确wrapper身份并联动必要pins，所有guard/数学/137角色及原120pairs/变量/32stage/预算原保。完整science97549B/157argv/458formal、pure84983B/7argv/445formal，48live不变；单科学65281B队列已提交method-bound新output，同runner复用真返回input。修后实际5a8d/fda0再次8.185s exit1、缺report；新异常未读，原5d25正接，只退真返science；fullpair104670compact>95000，纯读完整后接，不裁。
 
 ## 后继、数学与未付责任
 
 [18准确费](notes/2026-11-27-meridian-batched-fixed-fejer-complete-accurate-fees.md)11件435970B、[closed/R718](notes/2026-11-27-meridian-batched-closed-phase-grip-r718-source-adapter.md)5件230004B/cbd012、[R716](notes/2026-11-27-meridian-batched-complete-R716-moment-source-adapter.md)6件323585B/c1ae+daff已保；均属明确原18失败族的完整候选，尚无场/费用。修后族须明确新全pin，不能用旧hash标新体；全mesh/t接续。16/17原全后继及完整计划保open§7历史。
 完整费用含32stage/整圆1024胞/全径向922+cuts/六jet、scalar/mean/根/积分/working、全部尾、上下/p4帽/mixed/allphase/R650、八beta+径向、主副件唯一record/晚失败。normal.complete不代连续branch；mean J不代Cu。真closed/独立未标记外管/正V/非零中心矩才付含反射δE。R718共同marked σ、R719/R720全ρ>0及前三RN固定不可省。
 
-[R721](results/R721-supported-seed-width-and-profile-sensitivity.md)给参数竞争/完整移动边层导数，不给Gram或主曲率排序；[R722](results/R722-posterior-convex-mean-root-existence.md)由完整准确残差定位闭球凸极小点、排内点并证唯一合法根/全非对称J逆/全角拼接。实际整角ε/全输入误差尚未付，Dhat不代真根；旧R709粗bool原义保，独立后验准确分支继续实现。
+[R721](results/R721-supported-seed-width-and-profile-sensitivity.md)给参数竞争/完整移动边层导数，不给Gram或主曲率排序；[R722](results/R722-posterior-convex-mean-root-existence.md)由完整准确残差定位闭球凸极小点、排内点并证唯一合法根/全非对称J逆/全角拼接。实际整角ε/全输入误差尚未付，Dhat不代真根；旧R709粗bool原义保，[独立R722完整核](notes/2026-11-27-R722-posterior-mean-complete-source-interface.md)5件196903B/e10a+9da已保，实际费未付，下游全源接续。
 [全mesh/t](notes/2026-11-27-stage-observed-complete-same-field-phase-meshes.md)原完整32+6参数、922径向/两帽/五t/三级空间时间、15科学mesh+5预览只runner保；M320零包含不代新解。[同源续算](notes/2026-11-27-observed16-complete-same-source-restart-parameters.md)只真complete/final，partial/accepted13不够。03–11所有known/unknown/typed/发现序/失败保旧链，iteration_limit/时限均非终点。
 
 ## 容量与分工
