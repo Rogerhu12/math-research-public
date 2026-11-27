@@ -5,7 +5,7 @@
 
 ## 规则、同步、环境
 
-root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `d144b463b611689a97727e9550cad261db7ea8a5`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–15通常每5分钟真pull，实际提交在末块。
+root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端失效，15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `c80f51d4b3d61dde3ec7c76be82c6d8995b3f3da`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull后只读新差异，立刻遵守，至少每小时。活12–15通常每5分钟真pull，实际提交在末块。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，无终端云freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊防重置。
 
@@ -22,7 +22,7 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端�
 **13**：46028002241/1、job140604269042。maker/reference真0；science3为1/8.492643881s、pure4为1/6.193607087s，场report缺；只真command47833B/0c1fd8e…存在。[全输入与失败](notes/2026-11-27-run13-entry-failure-and-run14-actual-reference.md)保所有来源、argv与输出。三个已返活对象退休，93488B完整原队列固定347ff，maker保99b59。
 [真实异常](notes/2026-11-27-run13-actual-normal-constructor-source-guard.md)：两reader5/6真0；science原log6797B/f1ab18…全读，driver c64d构造q时normal2db0的base来源复合guard报错，inner未截断；pure原1723B/6668fb…是缺report。geometry按真实约束修完整源闭合/新输出，保guard与g；同一J构造风险顺带定位，不泛改。当前两readers7654B队列finish=false，不冒新场。
 
-**14**：46028184571/1、job140604893652，head05c45d。maker/reference真0，后者519.242307125s/全7输出；数值reference212eb5/carrier8406同12，但report43a727与history身份独立。16:08:47全M科学running/sourcea9ab24/launcher596e/PID4009，点e013仅进度。全159/7argv/397、384、48读数及94405B队列保，尚无完整场。
+**14**：46028184571/1、job140604893652，head05c45d。maker/reference真0，后者519.242307125s/全7输出；数值reference212eb5/carrier8406同12，但report43a727与history身份独立。16:08:47全M科学running/sourcea9ab24/launcher596e/PID4009，点e013仅进度。全159/7argv/397、384、48读数保。只退真返reference（原对象d2f37全保）后接完整normal费40argv/36读数，queue93940B；连续geometry完整8argv/48读数待真返step腾位，未削项。尚无完整场或费。
 
 **15**：46031953783/1、job140617715235、head882086668df076632531f609a83a172dfe75d473，16:14:50Z启动。[全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)：先6692B两原必要输入；二者真返后才退休并接完整J science/pure90478B、159/7argv/407、386、48。保一个reference仍95555B，不能削参数硬塞95KB。来源f9d79，固定g/参考J923与currentJ1845分开，未来场null。root继续读实际输入返回并接完整科学。
 
@@ -32,7 +32,7 @@ root最后真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；07:21终端�
 [N4096](notes/2026-11-27-fixed-fejer-N4096-complete-observation-entry.md)192027、[M320](notes/2026-11-27-fixed-fejer-M320-complete-frequency-entry.md)0a5df各128角色/原110全保；M仅5metadata件e207修INPUT.name/path，两完整step/18runtime不改。
 [J完整](notes/2026-11-27-fixed-fejer-J1845-complete-radial-continuation.md)f9d79保17runtime/131角色、729cf五基础、全部2666582变量/482通道、7377共同函数和14753原生并集、三全plans/四再生器；normal整个class同1aa，working包含不当准确场或精化结果。
 [mean/profile](notes/2026-11-27-fixed-fejer-complete-reference-mean-profile-fees.md)、[normal六jet](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)、[closed](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)、[R716](notes/2026-11-27-fixed-fejer-complete-R716-closed-flux-centred-moments.md)、[mesh/t](notes/2026-11-27-fixed-fejer-complete-same-field-phase-meshes.md)全源参数已刊，未来字段null。
-geometry完整N/M费用15件已交，root接刊；geometry转N实际bug。solver完整stage重复整点拷贝修复16件已交，保入口出口全word/全部算法预算，未实测加速；再接已有统计/scan/save_report处真实残差/violation/accepted，各自point/state不借进度点、不额外F/J。construction补ret45完整退存链，容量足后root刊完整热路径并接真实计算。
+[N/M完整费](notes/2026-11-27-fixed-fejer-N4096-M320-complete-continuous-fee-adapter.md)15件494847B已刊，严格各128来源/原110、N160/M320全core/全32段/1024角胞及原900s预算；不能自动接未来N修复。geometry转N实际bug。solver完整stage重复整点拷贝修复16件已交，保入口出口全word/全部算法预算，未实测加速；再接已有统计/scan/save_report处真实残差/violation/accepted，各自point/state不借进度点、不额外F/J。construction补ret45完整退存链，容量足后root刊完整热路径并接真实计算。
 
 ## 未付责任与旧记录
 
