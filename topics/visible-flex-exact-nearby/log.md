@@ -110,3 +110,7 @@
 ### 2026-11-27 BNC 首完整归一strictν列 source 实施
 
 5脚本+完整entry note冻结并公开，未造实际manifest/workflow/run；DWTB9 whole成功仍是原真实输入前提。原NP/PO/ASB whole schema与父receipts已接入，160current/51history（具体entry再增当前实际）保whole descriptors；共享native的restore_only:true不降为false，引用完整原manifest descriptor序列并绑定全SHA/计数，非删除closure。原DWTB rows/NP carriers仅必要sameSHA proposal恢复，K(0)用原scalar_taylor点代数。13个新wrapper替换定位成功、扩展37994B，仅词法/定界静态检查；不虚称失联环境执行Python AST，不跑旧science。容量已用Git树metadata刷新，结论成功旧目标0重算。
+
+### 2026-11-27 第六批完整旧metadata空白整理入口
+
+公开92f1d660完整Git tree metadata为14292文件/199179631B（820369B余量），此后GHV/GVC/BNC源码和实时receipts继续占用。新增独立第6批脚本、note及.github/workflows/visible-exact-sixth-metadata-whitespace.yml，原因是根规15的200MB上限；改动自己的workflow已在此登记。只选仍未整理的128旧manifest，逐全bytes/Gitblob/SHA和词法token/解析值核同，排除当前所有source/manifest引用，每pull读两README差异并再次核引用，非FF立即rebase再推。单一完整receipt后才计释放，不重科学/旧五批，不改number/string/escape/order；原完整对象保immutable baseline。唯一push入口，未预报成功或释放量。

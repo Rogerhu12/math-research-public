@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:27:38 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 04:29:15 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与授权
 
-已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至7820076b721f9e0b4499f685eeb0dcfed8dd0de2（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 04:03:28 UTC环境失联后API刷新main至8e02ac56234cae106cb36c515af382fbf8633033（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
+已partial+sparse clone两仓库并pull main，读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至c45c1bb6dfe27417891c7265eb4e302773a6e12e（相对12385db351ab03292b18db4cfc40e86754aadc89无diff）；私库2026-11-27 04:03:28 UTC环境失联后API刷新main至8e02ac56234cae106cb36c515af382fbf8633033（上次实际pull3673eb091d9fa2f558e9bdfdfc443e478832367c），根README无diff，QUEUE仍“进行中（visible-exact-astra-fb31ed6-20261127 / 2026-11-27）”，初次claim594e561b05a758bd8c02840ca4fbf574cd707436。
 每pull核两README、至少每小时；非FF立即rebase再推。令牌只CLI，无AGENTS。本地环境03:00前磁盘满后失联，按根规8用GitHub集成仅传<100KB文本；root独占main更新，每次最新head/两README，force=false+expected_sha拒旧父即重base。GF改由connector发布；原source35ff439e后的6件旧排版本地未commit，恢复时不得重复。缓存迁移命令无成功回执。
-科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。第5批45934384748/1已成功，public c264c5e6，128文件gross806606B−receipt69422B=net737184B，原baseline c509ce70；与前一批828816B分开计。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
+科学仅Actions，本地证明/静态/metadata/新saved有理组合。容量本轮原pool512..639共128legacy JSON仅删字符串外空白，当前所有manifest/workflow引用冲突0、原bytes/SHA/blob全核，净省828816B；两完整receipt保notes，原历史不动。第5批45934384748/1已成功，public c264c5e6，128文件gross806606B−receipt69422B=net737184B，原baseline c509ce70；与前一批828816B分开计。第6批独立metadata入口已发布待实际receipt，仅新128无引用JSON空白，原五批不重。规12不增复核审批，结论成即推；规15 topic≤200MB、H<10KB、禁可重建大数组。成功旧科学禁重。
 
 ## 同一对象和验收
 
