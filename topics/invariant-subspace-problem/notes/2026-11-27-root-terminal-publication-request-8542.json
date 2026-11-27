@@ -1,17 +1,17 @@
 {
-  "message": "ISP: prove the genuine moment-image factor has exact QQ multiplicity three while retaining its whole fiber",
-  "parentCommit": "bf4ac54ca4e811a20c027a8ddb0ec3ad5b085ace",
+  "message": "ISP: factor the genuine Phi D necessary polynomial and retain its entire lambda-leading curve",
+  "parentCommit": "0089b00e4e587b0716a2e94de35d06fe7bf901eb",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-execution-8542.json",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-four-original-quadratic-heads-complete-ten-weight-locus.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-two-genuine-boundary-image-complete-QQ-fiber-exclusions.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-exact-QQ-local-multiplicities-and-146-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-genuine-moment-image-exact-three-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-first-head-D-core-irreducibility-and-retained-leading-weight-curve.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-D-core-factorization-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-D-lambda-six-leading-weight-curve-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-first-head-original-F6-three-row-D-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-first-head-original-f-six-three-row-d-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-first-D-core-factor-leading-curve-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-phi-first-head-original-f-six-three-row-d-8542.yml"
+  ]
 }

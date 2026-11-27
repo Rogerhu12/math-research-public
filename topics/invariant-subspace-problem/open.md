@@ -279,3 +279,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 ## Phi 真矩像六次的精确三重数，整纤维保留（8542，2026-11-28）
 
 [新QQ局部结果](results/R150-appendix-unit211-Phi-zero-exceptional-genuine-moment-image-exact-three-and-retained-fiber.md)：6cf实际2.476578636秒/94648KiB/0，ψ=3B3²−2A2³真QQ不可约六次，原57阶矩阵正规QQ342阶秩324，18独立QQ核全乘回付ψ³，完整模重数3给精确上界。但原整纤维156维矩阵模秩138未闭，不从必要覆盖删除18度，严格界仍146。继续真正QQ rho gcd及原D单位所允许的T4完整原值；不把ψ0本身当作D0。
+
+## Phi 首头P6不可约与整λ头H19/11（8542，2026-11-28）
+
+[完整真实因子返回](results/R150-appendix-unit211-Phi-zero-first-head-D-core-irreducibility-and-retained-leading-weight-curve.md)：6ca真0.175493409秒/43116KiB/0，P6完整QQ不可约；λ6头只剥u(u−1)²Q(1−Q)(Qell)^6后为137项不可约H19/11，整H0与第一二次头零曲线都保留。新a215首发原F6按同MT逐次取到T6的真实三系数，再以原N1/一条真实乘法歧义/F6的新三行返D，未重放旧D三行cofactor；120秒/1GiB。
