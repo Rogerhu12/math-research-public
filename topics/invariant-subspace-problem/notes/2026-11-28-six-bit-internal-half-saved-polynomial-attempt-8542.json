@@ -1,0 +1,1892 @@
+{
+  "schema": "isp-six-internal-half-saved-polynomial-attempt-v1",
+  "status": "PARTIAL_POSITIVITY_ONLY",
+  "original_input_sha256": "694657b7a7c0315d6c4f137122ef84c77f35bae2fe077deee4c31c85ba4cd4be",
+  "original_source_sha256": "95a24e1071332f0e85f6392058e454619083605d3f16f7edf0fac714dea6b01e",
+  "full_original_characteristic_return": true,
+  "ledger": [
+    {
+      "index": 1,
+      "degree": 19,
+      "elementary_records": 32,
+      "original_orbits": 112,
+      "negative_orbits": 2,
+      "equal_variable_mass": "76800000",
+      "complete_dominance_flow": true,
+      "demand": "292440",
+      "paid": "292440",
+      "moves": 3,
+      "positive_remaining": 109,
+      "proved_mean_differences": [
+        {
+          "from": [
+            5,
+            4,
+            4,
+            4,
+            2,
+            0
+          ],
+          "to": [
+            4,
+            4,
+            4,
+            4,
+            3,
+            0
+          ],
+          "weight": "36720"
+        },
+        {
+          "from": [
+            5,
+            3,
+            3,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            4,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "weight": "59400"
+        },
+        {
+          "from": [
+            4,
+            4,
+            3,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            4,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "weight": "196320"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "degree": 22,
+      "elementary_records": 100,
+      "original_orbits": 187,
+      "negative_orbits": 7,
+      "equal_variable_mass": "153600000",
+      "complete_dominance_flow": true,
+      "demand": "3518280",
+      "paid": "3518280",
+      "moves": 10,
+      "positive_remaining": 177,
+      "proved_mean_differences": [
+        {
+          "from": [
+            7,
+            5,
+            4,
+            3,
+            3,
+            0
+          ],
+          "to": [
+            6,
+            6,
+            4,
+            3,
+            3,
+            0
+          ],
+          "weight": "31500"
+        },
+        {
+          "from": [
+            7,
+            5,
+            3,
+            3,
+            2,
+            2
+          ],
+          "to": [
+            6,
+            6,
+            3,
+            3,
+            2,
+            2
+          ],
+          "weight": "196740"
+        },
+        {
+          "from": [
+            7,
+            5,
+            3,
+            3,
+            2,
+            2
+          ],
+          "to": [
+            6,
+            5,
+            3,
+            3,
+            3,
+            2
+          ],
+          "weight": "60840"
+        },
+        {
+          "from": [
+            7,
+            4,
+            4,
+            3,
+            2,
+            2
+          ],
+          "to": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            2
+          ],
+          "weight": "1028520"
+        },
+        {
+          "from": [
+            7,
+            4,
+            3,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            6,
+            5,
+            3,
+            3,
+            3,
+            2
+          ],
+          "weight": "1539360"
+        },
+        {
+          "from": [
+            6,
+            6,
+            4,
+            2,
+            2,
+            2
+          ],
+          "to": [
+            6,
+            6,
+            3,
+            3,
+            2,
+            2
+          ],
+          "weight": "159840"
+        },
+        {
+          "from": [
+            6,
+            5,
+            5,
+            2,
+            2,
+            2
+          ],
+          "to": [
+            5,
+            5,
+            5,
+            3,
+            2,
+            2
+          ],
+          "weight": "4680"
+        },
+        {
+          "from": [
+            6,
+            4,
+            4,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            6,
+            4,
+            3,
+            3,
+            3,
+            3
+          ],
+          "weight": "12120"
+        },
+        {
+          "from": [
+            5,
+            5,
+            5,
+            3,
+            3,
+            1
+          ],
+          "to": [
+            5,
+            5,
+            5,
+            3,
+            2,
+            2
+          ],
+          "weight": "407280"
+        },
+        {
+          "from": [
+            5,
+            5,
+            4,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            5,
+            5,
+            3,
+            3,
+            3,
+            3
+          ],
+          "weight": "77400"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "degree": 25,
+      "elementary_records": 186,
+      "original_orbits": 288,
+      "negative_orbits": 45,
+      "equal_variable_mass": "153600000",
+      "complete_dominance_flow": true,
+      "demand": "73888080",
+      "paid": "73888080",
+      "moves": 72,
+      "positive_remaining": 216,
+      "proved_mean_differences": [
+        {
+          "from": [
+            10,
+            8,
+            5,
+            2,
+            0,
+            0
+          ],
+          "to": [
+            9,
+            9,
+            5,
+            2,
+            0,
+            0
+          ],
+          "weight": "180"
+        },
+        {
+          "from": [
+            10,
+            8,
+            4,
+            3,
+            0,
+            0
+          ],
+          "to": [
+            9,
+            9,
+            4,
+            3,
+            0,
+            0
+          ],
+          "weight": "180"
+        },
+        {
+          "from": [
+            10,
+            5,
+            4,
+            2,
+            2,
+            2
+          ],
+          "to": [
+            9,
+            5,
+            5,
+            2,
+            2,
+            2
+          ],
+          "weight": "63720"
+        },
+        {
+          "from": [
+            9,
+            8,
+            6,
+            2,
+            0,
+            0
+          ],
+          "to": [
+            9,
+            7,
+            7,
+            2,
+            0,
+            0
+          ],
+          "weight": "360"
+        },
+        {
+          "from": [
+            9,
+            7,
+            5,
+            2,
+            2,
+            0
+          ],
+          "to": [
+            8,
+            8,
+            5,
+            2,
+            2,
+            0
+          ],
+          "weight": "28080"
+        },
+        {
+          "from": [
+            9,
+            7,
+            5,
+            2,
+            2,
+            0
+          ],
+          "to": [
+            8,
+            7,
+            6,
+            2,
+            2,
+            0
+          ],
+          "weight": "1800"
+        },
+        {
+          "from": [
+            9,
+            6,
+            6,
+            2,
+            2,
+            0
+          ],
+          "to": [
+            8,
+            7,
+            6,
+            2,
+            2,
+            0
+          ],
+          "weight": "14040"
+        },
+        {
+          "from": [
+            9,
+            6,
+            5,
+            5,
+            0,
+            0
+          ],
+          "to": [
+            8,
+            6,
+            6,
+            5,
+            0,
+            0
+          ],
+          "weight": "360"
+        },
+        {
+          "from": [
+            9,
+            6,
+            5,
+            3,
+            2,
+            0
+          ],
+          "to": [
+            8,
+            7,
+            5,
+            3,
+            2,
+            0
+          ],
+          "weight": "58320"
+        },
+        {
+          "from": [
+            9,
+            6,
+            4,
+            4,
+            2,
+            0
+          ],
+          "to": [
+            8,
+            7,
+            4,
+            4,
+            2,
+            0
+          ],
+          "weight": "7200"
+        },
+        {
+          "from": [
+            9,
+            6,
+            4,
+            4,
+            2,
+            0
+          ],
+          "to": [
+            8,
+            6,
+            5,
+            4,
+            2,
+            0
+          ],
+          "weight": "54720"
+        },
+        {
+          "from": [
+            9,
+            6,
+            4,
+            2,
+            2,
+            2
+          ],
+          "to": [
+            8,
+            7,
+            4,
+            2,
+            2,
+            2
+          ],
+          "weight": "79560"
+        },
+        {
+          "from": [
+            9,
+            6,
+            3,
+            3,
+            2,
+            2
+          ],
+          "to": [
+            8,
+            7,
+            3,
+            3,
+            2,
+            2
+          ],
+          "weight": "462960"
+        },
+        {
+          "from": [
+            9,
+            6,
+            3,
+            3,
+            2,
+            2
+          ],
+          "to": [
+            8,
+            6,
+            4,
+            3,
+            2,
+            2
+          ],
+          "weight": "13680"
+        },
+        {
+          "from": [
+            9,
+            5,
+            5,
+            4,
+            2,
+            0
+          ],
+          "to": [
+            8,
+            6,
+            5,
+            4,
+            2,
+            0
+          ],
+          "weight": "177120"
+        },
+        {
+          "from": [
+            9,
+            5,
+            4,
+            4,
+            3,
+            0
+          ],
+          "to": [
+            8,
+            5,
+            4,
+            4,
+            4,
+            0
+          ],
+          "weight": "57600"
+        },
+        {
+          "from": [
+            9,
+            5,
+            4,
+            4,
+            3,
+            0
+          ],
+          "to": [
+            9,
+            4,
+            4,
+            4,
+            4,
+            0
+          ],
+          "weight": "2880"
+        },
+        {
+          "from": [
+            9,
+            5,
+            4,
+            3,
+            2,
+            2
+          ],
+          "to": [
+            8,
+            6,
+            4,
+            3,
+            2,
+            2
+          ],
+          "weight": "520920"
+        },
+        {
+          "from": [
+            9,
+            5,
+            3,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            8,
+            5,
+            4,
+            3,
+            3,
+            2
+          ],
+          "weight": "331920"
+        },
+        {
+          "from": [
+            9,
+            4,
+            4,
+            4,
+            2,
+            2
+          ],
+          "to": [
+            8,
+            5,
+            4,
+            4,
+            2,
+            2
+          ],
+          "weight": "52320"
+        },
+        {
+          "from": [
+            9,
+            4,
+            4,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            8,
+            5,
+            4,
+            3,
+            3,
+            2
+          ],
+          "weight": "873000"
+        },
+        {
+          "from": [
+            8,
+            8,
+            4,
+            2,
+            2,
+            1
+          ],
+          "to": [
+            8,
+            8,
+            3,
+            2,
+            2,
+            2
+          ],
+          "weight": "59820"
+        },
+        {
+          "from": [
+            8,
+            7,
+            6,
+            3,
+            1,
+            0
+          ],
+          "to": [
+            8,
+            7,
+            6,
+            2,
+            2,
+            0
+          ],
+          "weight": "27720"
+        },
+        {
+          "from": [
+            8,
+            7,
+            5,
+            5,
+            0,
+            0
+          ],
+          "to": [
+            8,
+            6,
+            6,
+            5,
+            0,
+            0
+          ],
+          "weight": "3240"
+        },
+        {
+          "from": [
+            8,
+            7,
+            4,
+            3,
+            2,
+            1
+          ],
+          "to": [
+            8,
+            7,
+            4,
+            2,
+            2,
+            2
+          ],
+          "weight": "481680"
+        },
+        {
+          "from": [
+            8,
+            6,
+            5,
+            5,
+            1,
+            0
+          ],
+          "to": [
+            8,
+            5,
+            5,
+            5,
+            2,
+            0
+          ],
+          "weight": "92160"
+        },
+        {
+          "from": [
+            8,
+            6,
+            5,
+            3,
+            2,
+            1
+          ],
+          "to": [
+            8,
+            6,
+            5,
+            2,
+            2,
+            2
+          ],
+          "weight": "933480"
+        },
+        {
+          "from": [
+            8,
+            6,
+            4,
+            4,
+            3,
+            0
+          ],
+          "to": [
+            8,
+            5,
+            5,
+            4,
+            3,
+            0
+          ],
+          "weight": "87840"
+        },
+        {
+          "from": [
+            8,
+            6,
+            4,
+            4,
+            3,
+            0
+          ],
+          "to": [
+            8,
+            5,
+            4,
+            4,
+            4,
+            0
+          ],
+          "weight": "97200"
+        },
+        {
+          "from": [
+            8,
+            6,
+            4,
+            3,
+            3,
+            1
+          ],
+          "to": [
+            8,
+            6,
+            4,
+            3,
+            2,
+            2
+          ],
+          "weight": "1631160"
+        },
+        {
+          "from": [
+            8,
+            6,
+            3,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            8,
+            5,
+            4,
+            3,
+            3,
+            2
+          ],
+          "weight": "367200"
+        },
+        {
+          "from": [
+            8,
+            5,
+            5,
+            4,
+            2,
+            1
+          ],
+          "to": [
+            8,
+            5,
+            4,
+            4,
+            2,
+            2
+          ],
+          "weight": "474120"
+        },
+        {
+          "from": [
+            8,
+            5,
+            5,
+            3,
+            3,
+            1
+          ],
+          "to": [
+            8,
+            5,
+            5,
+            3,
+            2,
+            2
+          ],
+          "weight": "1962000"
+        },
+        {
+          "from": [
+            8,
+            5,
+            4,
+            4,
+            3,
+            1
+          ],
+          "to": [
+            8,
+            4,
+            4,
+            4,
+            3,
+            2
+          ],
+          "weight": "1685280"
+        },
+        {
+          "from": [
+            8,
+            5,
+            4,
+            4,
+            3,
+            1
+          ],
+          "to": [
+            8,
+            5,
+            4,
+            4,
+            2,
+            2
+          ],
+          "weight": "2636160"
+        },
+        {
+          "from": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            1
+          ],
+          "to": [
+            7,
+            4,
+            4,
+            4,
+            4,
+            2
+          ],
+          "weight": "294480"
+        },
+        {
+          "from": [
+            7,
+            7,
+            6,
+            3,
+            2,
+            0
+          ],
+          "to": [
+            7,
+            7,
+            5,
+            4,
+            2,
+            0
+          ],
+          "weight": "85680"
+        },
+        {
+          "from": [
+            7,
+            7,
+            5,
+            3,
+            2,
+            1
+          ],
+          "to": [
+            7,
+            7,
+            5,
+            2,
+            2,
+            2
+          ],
+          "weight": "662400"
+        },
+        {
+          "from": [
+            7,
+            7,
+            4,
+            3,
+            3,
+            1
+          ],
+          "to": [
+            7,
+            7,
+            4,
+            3,
+            2,
+            2
+          ],
+          "weight": "1432800"
+        },
+        {
+          "from": [
+            7,
+            6,
+            6,
+            5,
+            1,
+            0
+          ],
+          "to": [
+            7,
+            6,
+            5,
+            5,
+            2,
+            0
+          ],
+          "weight": "85680"
+        },
+        {
+          "from": [
+            7,
+            6,
+            6,
+            4,
+            2,
+            0
+          ],
+          "to": [
+            7,
+            6,
+            5,
+            5,
+            2,
+            0
+          ],
+          "weight": "48960"
+        },
+        {
+          "from": [
+            7,
+            6,
+            6,
+            3,
+            2,
+            1
+          ],
+          "to": [
+            7,
+            6,
+            6,
+            2,
+            2,
+            2
+          ],
+          "weight": "616440"
+        },
+        {
+          "from": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "to": [
+            6,
+            6,
+            5,
+            5,
+            3,
+            0
+          ],
+          "weight": "1440"
+        },
+        {
+          "from": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            0
+          ],
+          "to": [
+            7,
+            5,
+            5,
+            4,
+            4,
+            0
+          ],
+          "weight": "77760"
+        },
+        {
+          "from": [
+            7,
+            6,
+            5,
+            3,
+            3,
+            1
+          ],
+          "to": [
+            7,
+            6,
+            5,
+            3,
+            2,
+            2
+          ],
+          "weight": "4108320"
+        },
+        {
+          "from": [
+            7,
+            6,
+            4,
+            4,
+            3,
+            1
+          ],
+          "to": [
+            7,
+            6,
+            4,
+            4,
+            2,
+            2
+          ],
+          "weight": "3696840"
+        },
+        {
+          "from": [
+            7,
+            6,
+            4,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            7,
+            5,
+            4,
+            4,
+            3,
+            2
+          ],
+          "weight": "4271760"
+        },
+        {
+          "from": [
+            7,
+            5,
+            5,
+            5,
+            3,
+            0
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            5,
+            4,
+            0
+          ],
+          "weight": "145440"
+        },
+        {
+          "from": [
+            7,
+            5,
+            5,
+            4,
+            3,
+            1
+          ],
+          "to": [
+            7,
+            5,
+            4,
+            4,
+            4,
+            1
+          ],
+          "weight": "956160"
+        },
+        {
+          "from": [
+            7,
+            5,
+            5,
+            4,
+            3,
+            1
+          ],
+          "to": [
+            7,
+            5,
+            4,
+            4,
+            3,
+            2
+          ],
+          "weight": "32400"
+        },
+        {
+          "from": [
+            7,
+            5,
+            5,
+            4,
+            3,
+            1
+          ],
+          "to": [
+            7,
+            5,
+            5,
+            4,
+            2,
+            2
+          ],
+          "weight": "6266520"
+        },
+        {
+          "from": [
+            7,
+            5,
+            5,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            4,
+            3,
+            2
+          ],
+          "weight": "724680"
+        },
+        {
+          "from": [
+            7,
+            5,
+            4,
+            4,
+            4,
+            1
+          ],
+          "to": [
+            6,
+            5,
+            4,
+            4,
+            4,
+            2
+          ],
+          "weight": "3751200"
+        },
+        {
+          "from": [
+            7,
+            5,
+            4,
+            4,
+            4,
+            1
+          ],
+          "to": [
+            7,
+            4,
+            4,
+            4,
+            4,
+            2
+          ],
+          "weight": "956160"
+        },
+        {
+          "from": [
+            6,
+            6,
+            6,
+            3,
+            3,
+            1
+          ],
+          "to": [
+            6,
+            6,
+            6,
+            3,
+            2,
+            2
+          ],
+          "weight": "510480"
+        },
+        {
+          "from": [
+            6,
+            6,
+            5,
+            5,
+            3,
+            0
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            5,
+            4,
+            0
+          ],
+          "weight": "456120"
+        },
+        {
+          "from": [
+            6,
+            6,
+            5,
+            5,
+            2,
+            1
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            5,
+            2,
+            2
+          ],
+          "weight": "1427220"
+        },
+        {
+          "from": [
+            6,
+            6,
+            5,
+            4,
+            4,
+            0
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            5,
+            4,
+            0
+          ],
+          "weight": "28800"
+        },
+        {
+          "from": [
+            6,
+            6,
+            5,
+            4,
+            3,
+            1
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            4,
+            4,
+            1
+          ],
+          "weight": "1891980"
+        },
+        {
+          "from": [
+            6,
+            6,
+            5,
+            4,
+            3,
+            1
+          ],
+          "to": [
+            6,
+            6,
+            5,
+            4,
+            2,
+            2
+          ],
+          "weight": "6416280"
+        },
+        {
+          "from": [
+            6,
+            6,
+            5,
+            3,
+            3,
+            2
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            4,
+            3,
+            2
+          ],
+          "weight": "3699000"
+        },
+        {
+          "from": [
+            6,
+            6,
+            4,
+            4,
+            4,
+            1
+          ],
+          "to": [
+            6,
+            5,
+            4,
+            4,
+            4,
+            2
+          ],
+          "weight": "2890440"
+        },
+        {
+          "from": [
+            6,
+            6,
+            4,
+            4,
+            3,
+            2
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            4,
+            3,
+            2
+          ],
+          "weight": "1282680"
+        },
+        {
+          "from": [
+            6,
+            5,
+            5,
+            5,
+            4,
+            0
+          ],
+          "to": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            0
+          ],
+          "weight": "84600"
+        },
+        {
+          "from": [
+            6,
+            5,
+            5,
+            5,
+            3,
+            1
+          ],
+          "to": [
+            5,
+            5,
+            5,
+            5,
+            3,
+            2
+          ],
+          "weight": "1865340"
+        },
+        {
+          "from": [
+            6,
+            5,
+            5,
+            5,
+            3,
+            1
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            4,
+            3,
+            2
+          ],
+          "weight": "1592280"
+        },
+        {
+          "from": [
+            6,
+            5,
+            5,
+            5,
+            3,
+            1
+          ],
+          "to": [
+            6,
+            5,
+            5,
+            5,
+            2,
+            2
+          ],
+          "weight": "2059020"
+        },
+        {
+          "from": [
+            6,
+            5,
+            5,
+            4,
+            4,
+            1
+          ],
+          "to": [
+            5,
+            5,
+            5,
+            4,
+            4,
+            2
+          ],
+          "weight": "7770420"
+        },
+        {
+          "from": [
+            6,
+            5,
+            5,
+            4,
+            4,
+            1
+          ],
+          "to": [
+            6,
+            5,
+            4,
+            4,
+            4,
+            2
+          ],
+          "weight": "1679400"
+        },
+        {
+          "from": [
+            6,
+            4,
+            4,
+            4,
+            4,
+            3
+          ],
+          "to": [
+            5,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "weight": "738480"
+        },
+        {
+          "from": [
+            5,
+            5,
+            5,
+            5,
+            4,
+            1
+          ],
+          "to": [
+            5,
+            5,
+            5,
+            4,
+            4,
+            2
+          ],
+          "weight": "754020"
+        },
+        {
+          "from": [
+            5,
+            5,
+            5,
+            4,
+            3,
+            3
+          ],
+          "to": [
+            5,
+            5,
+            4,
+            4,
+            4,
+            3
+          ],
+          "weight": "120600"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "degree": 28,
+      "elementary_records": 245,
+      "original_orbits": 388,
+      "negative_orbits": 105,
+      "equal_variable_mass": "76800000",
+      "complete_dominance_flow": false,
+      "demand": "184283580",
+      "paid": "163126260",
+      "moves": 429,
+      "positive_remaining": 24
+    },
+    {
+      "index": 5,
+      "degree": 30,
+      "elementary_records": 143,
+      "original_orbits": 288,
+      "negative_orbits": 124,
+      "equal_variable_mass": "2560000",
+      "complete_dominance_flow": false,
+      "demand": "44558890",
+      "paid": "37040500",
+      "moves": 283,
+      "positive_remaining": 11
+    }
+  ],
+  "exact_integer_screen": {
+    "status": "no_negative_in_this_finite_screen",
+    "seed_initial": 680713549,
+    "tested": 1638,
+    "scope": "No positive-weight theorem follows from this finite exact screen."
+  },
+  "scope": "The first three actual coefficients are positive by complete mean differences. The selected dominance flow does not close coefficients four and five. The finite exact screen is not a positivity theorem or a matrix counterexample. No full matrix is replayed.",
+  "elapsed_ms": 680,
+  "execution": "Actual pure V8 BigInt execution of the identical distributed certificate core",
+  "date_taipei": "2026-11-28",
+  "source_sha256": "0e7f7bd426f2b56b9e81723a5afe347766f385dab4b00c649770d18f3b1cd5fb",
+  "original_execution": {
+    "elapsed_seconds": 0.5169374090000076,
+    "max_child_rss_kib": 45632,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "054a3682cbddf454a128e5a012d648e0c8d07df3",
+        "before": "97cfe5e4997c3fb94447302ed6d324735b4db7ec",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T18:44:47.494517+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46051703383",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "97cfe5e4997c3fb94447302ed6d324735b4db7ec",
+    "source_exit_code": 0,
+    "source_git_blob": "ab9e4ac670c8d8bbf75f454050bb904e7449133b",
+    "source_sha256": "95a24e1071332f0e85f6392058e454619083605d3f16f7edf0fac714dea6b01e",
+    "stdout_bytes": 11228,
+    "stdout_sha256": "2f9eb72fee38458c22bfcea3ea37d3a46ffcbaa13d001960c873c45ee2e130bd",
+    "stop_reason": null
+  },
+  "original_stages": [
+    {
+      "stage": "full_internal_precision_and_complete_inverse",
+      "seconds": 0.01616107799999611,
+      "det_F1": "4 delta6",
+      "full_matrix": {
+        "max_terms": "116",
+        "max_ordinary_degree": "12"
+      },
+      "quotient": {
+        "max_terms": "114",
+        "max_ordinary_degree": "12"
+      }
+    },
+    {
+      "stage": "complete_internal_characteristic_coefficient",
+      "seconds": 0.02571230499999899,
+      "index": "1",
+      "original_weighted_degree": "19",
+      "positive_integer_content": "4",
+      "positive_factor_powers": {},
+      "reduced_weighted_degree": "19",
+      "reduced_terms": "32",
+      "negative_terms": "15",
+      "reduced_sha256": "499f54720867381a02cb7aa3dd10296aec3112601833d465878cee8aab67ffbb",
+      "equal_weight_original_value": "307200000",
+      "checkpoint_bytes": "37672"
+    },
+    {
+      "stage": "same_faddeev_matrix_positive_factor_reduction",
+      "seconds": 0.03497049299998878,
+      "index": "1",
+      "positive_integer_scale": "1",
+      "positive_factor_powers": {},
+      "matrix": {
+        "max_terms": "114",
+        "max_ordinary_degree": "12"
+      }
+    },
+    {
+      "stage": "complete_internal_characteristic_coefficient",
+      "seconds": 0.06974923699999636,
+      "index": "2",
+      "original_weighted_degree": "38",
+      "positive_integer_content": "16",
+      "positive_factor_powers": {
+        "W": "2",
+        "U": "1",
+        "delta6": "1"
+      },
+      "reduced_weighted_degree": "22",
+      "reduced_terms": "100",
+      "negative_terms": "49",
+      "reduced_sha256": "99487a71839ca3edb97f7ebea6f6577868a3412115c11e6b8affeddeb64648a9",
+      "equal_weight_original_value": "37748736000000000",
+      "checkpoint_bytes": "170837"
+    },
+    {
+      "stage": "same_faddeev_matrix_positive_factor_reduction",
+      "seconds": 0.09938862199999221,
+      "index": "2",
+      "positive_integer_scale": "1",
+      "positive_factor_powers": {
+        "W": "2",
+        "U": "1",
+        "delta6": "1"
+      },
+      "matrix": {
+        "max_terms": "305",
+        "max_ordinary_degree": "13"
+      }
+    },
+    {
+      "stage": "complete_internal_characteristic_coefficient",
+      "seconds": 0.1707294969999964,
+      "index": "3",
+      "original_weighted_degree": "57",
+      "positive_integer_content": "64",
+      "positive_factor_powers": {
+        "W": "4",
+        "U": "2",
+        "delta6": "2"
+      },
+      "reduced_weighted_degree": "25",
+      "reduced_terms": "186",
+      "negative_terms": "91",
+      "reduced_sha256": "82ee67eea9a208d2d89d2f41ca882b6728cfbdf4e54d462038d62134895dd981",
+      "equal_weight_original_value": "2319282339840000000000000",
+      "checkpoint_bytes": "315713"
+    },
+    {
+      "stage": "same_faddeev_matrix_positive_factor_reduction",
+      "seconds": 0.22652596899999367,
+      "index": "3",
+      "positive_integer_scale": "1",
+      "positive_factor_powers": {
+        "W": "4",
+        "U": "2",
+        "delta6": "2"
+      },
+      "matrix": {
+        "max_terms": "509",
+        "max_ordinary_degree": "14"
+      }
+    },
+    {
+      "stage": "complete_internal_characteristic_coefficient",
+      "seconds": 0.3274060829999996,
+      "index": "4",
+      "original_weighted_degree": "76",
+      "positive_integer_content": "256",
+      "positive_factor_powers": {
+        "W": "6",
+        "U": "3",
+        "delta6": "3"
+      },
+      "reduced_weighted_degree": "28",
+      "reduced_terms": "245",
+      "negative_terms": "121",
+      "reduced_sha256": "9f70fe09408ec9371e82cef2cc828db287d79a7d53eaf159b0eca7b2ee90532c",
+      "equal_weight_original_value": "71248353479884800000000000000000",
+      "checkpoint_bytes": "394163"
+    },
+    {
+      "stage": "same_faddeev_matrix_positive_factor_reduction",
+      "seconds": 0.3935773429999898,
+      "index": "4",
+      "positive_integer_scale": "1",
+      "positive_factor_powers": {
+        "W": "6",
+        "U": "3",
+        "delta6": "3"
+      },
+      "matrix": {
+        "max_terms": "608",
+        "max_ordinary_degree": "15"
+      }
+    },
+    {
+      "stage": "complete_internal_characteristic_coefficient",
+      "seconds": 0.43338365699999315,
+      "index": "5",
+      "original_weighted_degree": "95",
+      "positive_integer_content": "1024",
+      "positive_factor_powers": {
+        "S": "1",
+        "W": "8",
+        "U": "4",
+        "delta6": "4"
+      },
+      "reduced_weighted_degree": "30",
+      "reduced_terms": "143",
+      "negative_terms": "69",
+      "reduced_sha256": "d90e1340d0a49a9e7f01441c580bfd93195315207fb99bbccc92238301486349",
+      "equal_weight_original_value": "875499767560824422400000000000000000000",
+      "checkpoint_bytes": "37029"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "isp-Phi-H1-b-zero-exact-input-fragment-manifest-v1",
+  "producer": {
+    "sourceGitBlob": "b5ad9a1796195f118b00ae15e5e85b386b26624e",
+    "sourceSHA256": "d11c5be7d933f00c7f812f070ac51652da5cab01a85f5117b668d655076ec51e",
+    "runId": 46052980920,
+    "jobId": 140688611573
+  },
+  "records": {
+    "lambda-linear": {
+      "label": "new_lambda_and_remaining_original_linear_relation",
+      "rawBytes": 18841,
+      "rawSHA256": "302d25083c5066b73c338c4c1d5565d3b7d5292ebc0881019afe49558c89070f",
+      "encoding": "base64+zlib+json after concatenating dataChunk",
+      "concatenatedBase64SHA256": "3d1667a41d57f94631da0ce1797aea9ba46c242e6ae0d67e1646272342c4e18c",
+      "parts": [
+        {
+          "name": "2026-11-27-unit211-Phi-zero-H1-b-zero-lambda-linear-exact-part-01-8542.json",
+          "blob": "dfb74c75915702d665b25149e532a91646fd3880",
+          "sha256": "1bc01ff121193bf3e50edd7545e0d95ef5a6f6ed1ded3e2b5973d4e6d4276393",
+          "bytes": 11849,
+          "dataCharacters": 11704
+        }
+      ]
+    },
+    "T-D-F6": {
+      "label": "new_original_b_zero_T_D_and_F6",
+      "rawBytes": 277450,
+      "rawSHA256": "f24c8a38028dff9279c3270f54cd2f80279d6e17d92c36c786d37ee7b35f9139",
+      "encoding": "base64+zlib+json after concatenating dataChunk",
+      "concatenatedBase64SHA256": "af008ebdac52515030a71e8af0ba0021d3777a025c03ed863f1893f2b4a4bcb8",
+      "parts": [
+        {
+          "name": "2026-11-27-unit211-Phi-zero-H1-b-zero-T-D-F6-exact-part-01-8542.json",
+          "blob": "e0db4bd13d1389d6ae53164088d30228bb6620b0",
+          "sha256": "daefe590d63cd6ce7257def84dfca4b6cae8431d2c7c760e8694aa5cdf49f457",
+          "bytes": 75126,
+          "dataCharacters": 75000
+        },
+        {
+          "name": "2026-11-27-unit211-Phi-zero-H1-b-zero-T-D-F6-exact-part-02-8542.json",
+          "blob": "a910ab91442538ac1f91e117c2059bfc09cd7c0f",
+          "sha256": "85b050d8311fd728ccd987a584606a5987e0478e6aa78215cd2d5d4ab213dbd6",
+          "bytes": 58958,
+          "dataCharacters": 58832
+        }
+      ]
+    },
+    "u-cover": {
+      "label": "new_b_zero_weight_cover",
+      "rawBytes": 89101,
+      "rawSHA256": "bfb03f2fe2a96360d2930f0ca81733b9e08f503f6889cd5d3c09fbf80a6882dc",
+      "encoding": "base64+zlib+json after concatenating dataChunk",
+      "concatenatedBase64SHA256": "3143acadcefceb0406f8faf90c52306dffeea0179ee706b59e9c43a3de84594a",
+      "parts": [
+        {
+          "name": "2026-11-27-unit211-Phi-zero-H1-b-zero-u-cover-exact-part-01-8542.json",
+          "blob": "7b79f7af8323c8b79f8800f241c99f510dbf3a5b",
+          "sha256": "73e1dacb455ecabb933dbdbfe3c967ff03191554dce2ee82c54d7c0ac8172b75",
+          "bytes": 47431,
+          "dataCharacters": 47312
+        }
+      ]
+    }
+  },
+  "maximumFragmentBytes": 100000,
+  "noMathematicalSourceReexecution": true
+}
