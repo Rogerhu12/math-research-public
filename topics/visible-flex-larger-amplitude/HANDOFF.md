@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 04:49:43 UTC，真实pull/rebase至origin/main `0bf40b6537302af74fd13b0652c1317b3211db2e`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 04:52:17 UTC，真实pull/rebase至origin/main `b8cc8fe52d7bd121a088c1f8efc0405e3f5ac333`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)、[本次大文件搜索纠正](notes/2026-11-27-bounded-text-search-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -16,7 +16,7 @@
 
 完整交接保[dbed固定H](https://github.com/Rogerhu12/math-research-public/blob/dbed6c97d0cf9c56e0065743338b1aa9559e5e33/topics/visible-flex-larger-amplitude/HANDOFF.md)及其b764/50d/f5fd/681ff/27a0/4463/7774/e06f/5e5f/bcfbc链；全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、全部core/H/旋转/Gram/mean/cross/J/J*/真Phi/FullHold材料图和反射帽不删；有限筛非连续，iteration_limit非驻点。
 
-raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](notes/2026-11-27-legacy-R87-cell011-and-final-retention.md)、[26次八旧domain清单](notes/2026-11-27-legacy-domain-manifests-retention.md)；完整源/真参数/父输入/原结论/固定恢复全保，不造新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
+raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](notes/2026-11-27-legacy-R87-cell011-and-final-retention.md)、[26次](notes/2026-11-27-legacy-domain-manifests-retention.md)、[27次四输出清单](notes/2026-11-27-legacy-generated-manifests-retention-27.md)；完整源/真参数/父输入/原结论/固定恢复全保，不造新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
 ## 旧运行边界与06真实父链
 

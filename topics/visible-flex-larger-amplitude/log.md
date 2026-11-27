@@ -454,3 +454,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 04:49 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [08实际10完整记录](notes/2026-11-27-run08-actual10-complete-old-carrier-and-independent-fixed-chart-input.md)：producer真返0/555.1089秒，整dc5恢复，新固定目标d469、输入绑定7991；四输出/全部argv/两可选failure摘要缺项完整保。F/J/root=0，未把输入准备冒95559场或全题完成；后继仍看实际索引。
+
+## 2026-11-27 04:52 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [第27次保留处理](notes/2026-11-27-legacy-generated-manifests-retention-27.md)：移出4个旧派生输出清单共2368284 bytes；全部原请求/配置/spec/输入/完整源码保，20项源中2漂移已从原commit实际核回。全参数账本与86311固定恢复身份保留；无科学重算或新raw上传。
