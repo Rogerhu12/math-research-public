@@ -1,0 +1,119 @@
+{
+  "schema": "whole-step-bfiveeighths-normal-geometry-closed-parameter-v1",
+  "prepared_utc": "2026-11-27 23:35:50 UTC",
+  "executed": false,
+  "queued": false,
+  "complete_current_binding": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bfiveeighths-complete-normal-closed-parameter-binding.json",
+    "bytes": 64060,
+    "sha256": "3b6e8e082746a1900b79a60772c0d92d3c9ed608d72951a21ba2175946b846c1",
+    "sha": "033bc2427bd70d86a639c6c3a38b3314f3ebe5b5",
+    "git_blob_sha": "033bc2427bd70d86a639c6c3a38b3314f3ebe5b5"
+  },
+  "complete_parent_parameter_file": {
+    "role": "geometry_ready",
+    "name": "fixed-fejer-meridian-batched-bhalf-first-R722-complete-continuous-gram-curvature-support-ready.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bhalf-first-R722-complete-continuous-gram-curvature-support-ready.json",
+    "bytes": 48299,
+    "sha256": "d43d408cb4612a8998256e4e0d85085bb4041f0abf7e47dc89e5dd6b3e0874cc",
+    "git_blob_sha": "bab97b529ea6e68d19fbd92335bd7064ef283202",
+    "fixed_commit": "6167a8bd8fd01c984095e705874e7516ea3fcb6c"
+  },
+  "all_original_parent_metadata_retained_by_exact_whole_file": true,
+  "all_original_step_fields_preserved_except_explicit_namespace_scope_and_id": true,
+  "original_step_id": "actual-fixed-fejer-meridian-batched-bhalf-first-R722-complete-continuous-gram-curvature-support-20261127",
+  "current_step_id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-continuous-gram-curvature-support-20261127",
+  "original_scope_in_full_binding_and_parent": true,
+  "complete_argument_differences": [
+    {
+      "index": 3,
+      "before": "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-normal-root-and-sixjet-fees-v1/report.json",
+      "after": "{work}/fixed-fejer-meridian-batched-bfiveeighths-first-R722-normal-root-and-sixjet-fees-v1/report.json"
+    },
+    {
+      "index": 5,
+      "before": "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-continuous-gram-curvature-support-v1",
+      "after": "{work}/fixed-fejer-meridian-batched-bfiveeighths-first-R722-continuous-gram-curvature-support-v1"
+    }
+  ],
+  "argument_count": 8,
+  "formal_selector_count": 48,
+  "all_original_numeric_parameters_domains_budgets_and_selector_pairs_unchanged": true,
+  "no_runtime_source_changed": true,
+  "parameter_stage": "complete_continuous_geometry",
+  "downstream_execution_is_not_automatically_queued_with_partial_predecessors": true,
+  "future_actual": null,
+  "steps": [
+    {
+      "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-continuous-gram-curvature-support-20261127",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_continuous_gram_curvature_support.py",
+      "parent_bundle": "fixed-fejer-reference/reference.npz",
+      "scope": "Read only the complete source-bound repaired-family R722 normal-fee report and every original same-point stage/physical stream. Re-read original posterior source/theorem paths, complete actual mean batches and all integral leaves, and recompute the full R722 attribution and the retained true-or-false R709 condition. Check all 32-stage journals, 1024 closed full-circle domains, all literal associations and directed periodic branch glue under the explicit R722 uniqueness theorem. Preserve the entire original Gram operator, second-form curvature, candidate Fphi cross Fs support and R717 same-leaf three-dimensional norm mathematics, every original radial cell/cut and complete scalar tail, full physical sixjets and h/hp/hpp raw defects. New source identities do not replace any field or input bytes. The full upper cover/formal reflected-rotated-two-cap union remains distinct from the closed physical phase family; R650 mixed-pair reach and all eight beta plus radial evidence roles are still separate. No working or new accurate root/integrand evaluation. All unchanged original budgets, partial/unproved obligations and final input/output byte rechecks remain. No unavailable scientific point or accuracy success is filled from progress or preparation. This is the complete parameter-only run21 successor for the independent b/S=5/8 initial field; the original run18 observations, input returns and all older parameter/source records are retained only as history. Every current field and fee input must come from this new namespace; no prior seed/root/value/certificate or future actual identity is inherited.",
+      "args": [
+        "--repo",
+        "{repo}",
+        "--normal-report",
+        "{work}/fixed-fejer-meridian-batched-bfiveeighths-first-R722-normal-root-and-sixjet-fees-v1/report.json",
+        "--outdir",
+        "{work}/fixed-fejer-meridian-batched-bfiveeighths-first-R722-continuous-gram-curvature-support-v1",
+        "--seconds",
+        "900"
+      ],
+      "outputs": [
+        "fixed-fejer-meridian-batched-bfiveeighths-first-R722-continuous-gram-curvature-support-v1/report.json"
+      ],
+      "summary": {
+        "fixed-fejer-meridian-batched-bfiveeighths-first-R722-continuous-gram-curvature-support-v1/report.json": {
+          "schema": "schema",
+          "source": "source_sha256",
+          "source_commit": "source_commit",
+          "run": "github_run_id",
+          "attempt": "github_run_attempt",
+          "normal_report": "normal_report.sha256",
+          "geometry_binding": "complete_binding_identity_sha256",
+          "actual_point": "actual_current_full_point_sha256",
+          "model": "complete_original_model_identity_sha256",
+          "snapshot": "actual_snapshot_identity_sha256",
+          "target": "exact_fixed_target_identity_sha256",
+          "scalar": "fixed_scalar_metric_identity_sha256",
+          "setup": "geometry_setup_available",
+          "complete_upper": "complete",
+          "whole_angle_jobs": "expected_whole_angle_jobs",
+          "upstream_whole_jobs": "upstream_complete_whole_angle_jobs",
+          "processed_whole_jobs": "processed_complete_whole_angle_jobs",
+          "exact_radial_leaves": "expected_radial_leaves_per_angle",
+          "expected_all_leaves": "expected_complete_geometry_leaves",
+          "processed_leaves": "processed_geometry_leaves",
+          "complete_cover": "full_upper_cover_processed",
+          "continuous_Gram_complete": "continuous_Gram_bound_complete",
+          "continuous_K_complete": "continuous_curvature_bound_complete",
+          "continuous_support_complete": "continuous_support_numerator_bounds_complete",
+          "positive_upper_immersion_boxes": "complete_upper_immersion_lower_from_boxes",
+          "original_branch": "original_complete_angle_branch.complete",
+          "final_all_bytes": "all_input_and_output_bytes_rechecked",
+          "Gram_operator_upper": "accurate_global_bounds.relative_Gram_error_operator_norm_upper",
+          "curvature_upper": "accurate_global_bounds.principal_curvature_absolute_upper",
+          "normal_norm_lower": "accurate_global_bounds.normal_norm_lower",
+          "upper_only_D": "accurate_global_bounds.upper_base_phase_diameter_upper",
+          "formal_reflected_rotated_D": "accurate_global_bounds.formal_reflection_fixed_caps_all_rotation_set_diameter_upper",
+          "formal_D_actual_phase_proved": "accurate_global_bounds.formal_diameter_is_actual_phase_family_certificate",
+          "full_closed_D": "accurate_global_bounds.full_marked_surface_diameter_upper",
+          "full_closed_reach": "accurate_global_bounds.complete_closed_surface_reach_lower",
+          "Gram_unavailable": "partial_processed_statistics.relative_Gram_unavailable_leaf_count",
+          "K_unavailable": "partial_processed_statistics.curvature_unavailable_leaf_count",
+          "normal_positive_unproved": "partial_processed_statistics.normal_positive_unproved_leaf_count",
+          "lower_horizontal_support": "partial_processed_statistics.minima_over_processed_leaves.horizontal_support_numerator_lower.value",
+          "lower_vertical_support": "partial_processed_statistics.minima_over_processed_leaves.vertical_support_numerator_lower.value",
+          "new_working_F_J_root": "new_working_field_J_or_root_calls",
+          "new_accurate_root_integrands": "new_accurate_root_or_integrand_calls",
+          "closed_geometry": "complete_closed_geometry_certified",
+          "elapsed_hex": "elapsed_seconds_binary64_hex",
+          "same_leaf_norm_upper": "accurate_global_bounds.formal_diameter_definition.same_leaf_position_norm_upper",
+          "fixed_cap_norm_upper": "accurate_global_bounds.formal_diameter_definition.cap_position_norm_upper",
+          "norm_diameter_upper": "accurate_global_bounds.formal_diameter_definition.same_leaf_norm_diameter_upper",
+          "coordinate_cylinder_D_upper": "accurate_global_bounds.formal_diameter_definition.separate_coordinate_cylinder_diameter_upper"
+        }
+      }
+    }
+  ]
+}

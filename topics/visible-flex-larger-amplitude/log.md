@@ -88,3 +88,9 @@
 ## 2026-11-27 23:49:39 UTC — 19第二恢复试步的真实统计
 
 19第二b622于23:38:29.041545统计返Phi3824.6263877655356/Gram.6461163467955962；Phi降、Gram升，trial几何/接受未知。current仍d761b5/accepted1/g.9679630392005261，reportfalse；完整原math/错误与normal进度/小文件身份在全note，不借初g填新trial。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。双README云核至`d9bf1ece383641bcd182b3daf821d0f21de7879e`无变（非pull）。
+
+## 2026-11-27 23:49:50 UTC — 21完整normal、geometry与两条closed参数
+
+刊8件完整149117B，64,060B共享binding全157词/137角色/18runtime、8external/5CLI和四whole父全部metadata保；四原whole步normal38/36、geometry8/48、002ebclosed8/66、1782 R7238/77，只namespace/显式ID/scope变，runtime及所有预算、全角/径向/六jet/尾均不改。192bit/1024整圆/原900秒+百万叶等全部参数完整保。normal同outdir续必须第一次actual --repo绝对源路径/同科学report/snapshot；G须稳定whole normal与自身原source路径，R723每次fresh。旧八角色与新五方向角色、marked R718与独立unmarked R716不混。完整说明/再生器保，未执行科学/AST/fixture，未排post队列；真实run21已启动不代表费用已付。
+
+完整8件共149117B；双README云核至`7a80be9af8510a60ffce53defdf6595db3131f5c`无变（非pull），实际controller真pull见H各槽。
