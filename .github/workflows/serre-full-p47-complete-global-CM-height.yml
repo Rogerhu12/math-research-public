@@ -1,0 +1,61 @@
+name: Serre full p47 complete global CM height
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/full-p47-complete-global-CM-height-request.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-full-p47-complete-global-CM-height-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  complete_global_CM_height:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/results/R1096-certified-original-CM-moving-units-and-odd-Hecke-height-basis.md
+            /topics/serre-uniformity/scripts/full_p47_weight_one_Hodge_certificate.py
+            /topics/serre-uniformity/notes/full-p47-CM-height-move-request.json
+            /topics/serre-uniformity/scripts/full_p47_small_odd_Hecke_basis.py
+            /topics/serre-uniformity/notes/2026-11-27-full-p47-small-odd-Hecke-basis-method.md
+            /topics/serre-uniformity/results/R1094-original-disjoint-CM-heights-and-first-global-intersection-functional.md
+            /topics/serre-uniformity/results/R1097-original-level47-odd-prime-CM-intersections-and-sparse-norm-sum.md
+            /topics/serre-uniformity/results/R1098-original-bad47-CM-intersections-and-exact-vertical-correction.md
+            /topics/serre-uniformity/results/R1099-original-level47-dyadic-CM-intersections.md
+            /topics/serre-uniformity/results/R1100-certified-original-level47-first-global-CM-height.md
+            /topics/serre-uniformity/results/R1101-certified-original-level47-smallest-odd-Hecke-basis.md
+            /topics/serre-uniformity/scripts/full_p47_complete_global_CM_height.py
+            /topics/serre-uniformity/notes/full-p47-small-odd-Hecke-basis-request.json
+            /topics/serre-uniformity/scripts/full_p47_complete_global_CM_height.py
+            /topics/serre-uniformity/notes/2026-11-27-full-p47-complete-global-CM-height-method.md
+            /topics/serre-uniformity/notes/full-p47-complete-global-CM-height-request.json
+      - name: Pull pinned official SageMath 10.6 image
+        run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
+      - name: Compute complete original CM global height functional
+        env:
+          SERRE_EXPECTED_REQUEST_SHA256: '0caf2205be19c11bafedef4b7b3375b061b10ac34b5dca878401b10f38ed6650'
+        run: |
+          timeout --signal=TERM --kill-after=30s 18000s docker run --rm --cpus=4 \
+            --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \
+            --workdir /work \
+            -e GITHUB_ACTIONS -e GITHUB_REPOSITORY -e GITHUB_SHA \
+            -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -e SERRE_EXPECTED_REQUEST_SHA256 \
+            -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=1 -e OPENBLAS_NUM_THREADS=1 \
+            sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879 \
+            sage -python topics/serre-uniformity/scripts/full_p47_first_global_CM_height.py
