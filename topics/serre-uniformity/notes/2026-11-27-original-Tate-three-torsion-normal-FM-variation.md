@@ -953,3 +953,219 @@ $e$ 和 $16ve+4\delta^2K_4$；(N.45) 没有改变其定义。
 本节全部为同一原来源的纸面推导；没有执行数学程序或新的素数窗口。
 
 §10由o1_theta推导，root独立逐式核对全H的第三类输出、自然奇基补偿、完整留数矩阵和两个指定mixed jets；采用上述完整相对约定。
+
+
+## 11. 同一三挠覆盖的实际椭圆商与全部 normal Hasse 系数
+
+本节回到 (N.1) 的完整 $K[[\epsilon]]$ 族，保留
+$\epsilon^2U^2/4$。所有曲线都取包含 $\epsilon=0$ 的光滑形式邻域。
+相对 Frobenius 的目标参数为 $\epsilon^p$，且 $v^p=-v$；
+下述等式使用相对 Cartier，对底环线性。
+特别地，它们不是把绝对 Cartier 的常数开 $p$ 次根后所得的式子。
+
+### 11.1 原三挠线的真实无分歧三次覆盖
+
+令
+$$
+C_\epsilon:\quad
+V^2=r^6+\frac{\epsilon^2}{4}r^4+\epsilon vr^2+v^2,
+\qquad q_\epsilon(r,V)=(U,V)=(r^2,V).
+$$
+记 $P_\pm=(0,\pm v)$，仍取
+$l_+=V-v-\epsilon r^2/2$、$l_-=V+v+\epsilon r^2/2$，故 $l_+l_-=r^6$。
+在 $E_\epsilon$ 上 $\operatorname{div}(l_+)=3Q-3O$，
+而 $q_\epsilon$ 在 $P_\pm$ 分歧、在两个无穷远点不分歧。
+因此
+$$
+\operatorname{div}_{C_\epsilon}(l_+/r^3)=3(P_+-P_-).
+$$
+$P_+-P_-$ 不是主除子：否则光滑 genus-two 纤维上有一个一次函数。
+所以添上
+$$
+\eta^3=l_+/r^3
+\tag{N.46}
+$$
+给同一原非平凡三挠线的连通无分歧三次覆盖
+$\pi_\epsilon:Y_\epsilon\to C_\epsilon$。
+$3$ 可逆，故相同构造在整个形式族中为有限 étale。
+$\epsilon=0$ 正是 R1061 中原互逆 $\chi,\chi^{-1}$ 线的三次子覆盖。
+还须固定 Kummer 常数：用 R1061 的 $t=x_0^3$、
+$r^3=t^{-1}+27t$、$V=27t-t^{-1}$、$v=-6\sqrt{-3}$，准确有
+$$
+\frac{V-v}{r^3}=-\frac{1-3\sqrt{-3}\,t}{1+3\sqrt{-3}\,t}.
+$$
+因此选择 $\eta|_0=-z/w$；这确定了原实际覆盖的相位。
+下述 $u_0,\nu_0$ 同时为原 R1061 有序两微分的负值。
+源与目标同时乘 $-1$ 不改变相对 Cartier 标量；
+它不是一个未定的原尺度。
+
+置
+$$
+a=r\eta,\qquad b=r/\eta.
+$$
+则在覆盖的实际函数域内
+$$
+ab=r^2,\qquad a^3=l_+,\qquad b^3=l_-,
+\qquad b^3-a^3-\epsilon ab=2v,\qquad
+V=(a^3+b^3)/2.
+\tag{N.47}
+$$
+所有等式保原 $r,\eta$ 的标架，不只比较椭圆商的 $j$ 值。
+
+原两条非平凡角色微分可写为
+$$
+u_\epsilon=a\,\frac{dr}{V}
+=\eta\,q_\epsilon^*\omega_\epsilon,\qquad
+\nu_\epsilon=b\,\frac{dr}{V}
+=\eta^{-1}q_\epsilon^*\omega_\epsilon.
+$$
+它们全纯：$q_\epsilon^*\omega_\epsilon$ 在 $P_\pm$ 各有一次零，
+(N.46) 的零极恰改变这两点的零阶而不增加极。
+两个非平凡角色各一维，由 degree-zero 非平凡线的
+Riemann–Roch 得到；不删去平凡角色的另外两维。
+
+### 11.2 实际 involution、商曲线与微分尺度
+
+覆盖有真正的对合
+$$
+\tau(a,b,r)=(-b,-a,r).
+$$
+它保持 (N.47)，在 $C_\epsilon$ 上诱导 $V\mapsto-V$，
+并准确交换 $u_\epsilon,\nu_\epsilon$。
+取其不变函数
+$$
+x=a-b,\qquad Y=(3x+\epsilon)r.
+$$
+由 (N.47) 得
+$$
+(3x+\epsilon)r^2=-x^3-2v,\qquad
+\boxed{\quad
+E_{\rm P,\epsilon}:\ 
+Y^2=-(3x+\epsilon)(x^3+2v).
+\quad}
+\tag{N.48}
+$$
+$a+b$ 的平方为 $x^2+4r^2$，其符号正由 $\tau$ 改变，
+所以这确为完整的二次商函数域。
+特殊纤维的 quartic 有四个不同根，故本形式邻域中商是光滑 genus-one 曲线；
+点 $(x,Y)=(-\epsilon/3,0)$ 给出一个实际截面。
+其微分拉回的精确尺度为
+$$
+\boxed{
+u_\epsilon+\nu_\epsilon=-3\,\frac{dx}{Y}.}
+\tag{N.49}
+$$
+证明不需要选复周期。微分
+$x^3+(3x+\epsilon)r^2+2v=0$ 给
+$$
+3(x^2+r^2)dx+2(3x+\epsilon)r\,dr=0,
+$$
+而 $2V=(a+b)(x^2+r^2)$，立即得到 (N.49)。
+
+该椭圆商的微分属于两个非平凡三次角色的和，
+所以它位于原三次覆盖的 Prym 部分；
+本文只使用这个实际商及其微分，不需另称整个 Prym 与某固定椭圆曲线同构。
+
+### 11.3 原 FM normal 值恰等于商的 Hasse 多项式
+
+令
+$$
+F_\epsilon=(l_-/l_+)^k,\qquad
+\theta(\epsilon)
+=\frac{C_{{\rm rel},E_\epsilon}(F_\epsilon\omega_\epsilon)}
+       {\omega'_{E_\epsilon}}.
+$$
+该输出全纯：输入在 $Q$ 的极阶为 $3k=m+1<p$，
+Cartier 后至多在 $FQ$ 有一个简单极；唯一极的总留数为零。
+这就是原 Miller / FM 指定值
+$$
+\theta(\epsilon)=t_{U^m}^\epsilon(FQ),\qquad FQ=(0,v^p)=(0,-v).
+$$
+确实，$g_Q=U/l_+^{2k}$ 的除子是
+$(-Q)-p(Q)+(p-1)O$，原点首项仍准确为 $u^{p-1}$；
+并且 $U^m g_Q=F_\epsilon$。
+这里 $[p]Q=-Q$ 来自实际三挠点及 $p\equiv-1\pmod3$。
+
+现在保留相对 twist。目标微分 $u_\epsilon',\nu_\epsilon'$
+是 (N.47) 各坐标的 Frobenius twist：
+目标方程用 $\epsilon^p,v^p=-v$。
+源 $\eta\mapsto\zeta\eta$ 的目标作用为
+$\eta'\mapsto\zeta^p\eta'=\zeta^{-1}\eta'$。
+相对 Cartier 因而交换这两个基向量的角色。
+又
+$$
+\eta^{-1}=\eta^p(l_-/l_+)^k,
+$$
+所以与原可分态射拉回的相容性给
+$$
+C_{\rm rel}(\nu_\epsilon)=\theta(\epsilon)u_\epsilon'.
+$$
+$\tau$ 与其目标 twist 交换两个微分，故完整非平凡角色矩阵为
+$$
+\boxed{
+C_{\rm rel}(u_\epsilon)=\theta(\epsilon)\nu_\epsilon',
+\qquad
+C_{\rm rel}(\nu_\epsilon)=\theta(\epsilon)u_\epsilon'.}
+\tag{N.50}
+$$
+常数 $\theta$ 没有被取 $p$ 次根，也没有从不同角色借入 ordinary 值。
+
+对 (N.49) 使用相对 Cartier 与商拉回相容性，
+$-3$ 在 Frobenius 下不变，于是 $\theta$ 准确等于
+$E_{\rm P,\epsilon}$ 在 $dx/Y$ 标架中的 Hasse 系数。
+更直接地写
+$dx/Y=Y^{-p}\{-(3x+\epsilon)(x^3+2v)\}^{m}dx$，
+其中多项式次数为 $2p-2$，只有 $x^{p-1}$ 一项被 Cartier 读取。
+所以
+$$
+\boxed{
+\begin{aligned}
+\theta(\epsilon)
+ &= [x^{p-1}]\{-(3x+\epsilon)(x^3+2v)\}^m\\
+ &=(-1)^m\sum_{j=0}^{k-1}
+   \binom m{3j+1}\,3^{m-3j-1}
+   \binom m{k+j}\,(2v)^{m-k-j}\epsilon^{3j+1}.
+\end{aligned}}
+\tag{N.51}
+$$
+这是原 FM normal 值的完整多项式，不仅是相同零点或未定单位比例。
+
+### 11.4 全部实际 normal 系数与首项核对
+
+每个 $0\le j\le k-1$ 都满足
+$$
+0<3j+1\le3k-2<m<p,\qquad 0<k+j\le2k-1<m<p.
+$$
+因此 (N.51) 的全部 $k$ 个显示系数均为单位；
+其它次幂的系数严格为零。
+相应的通常导数阶乘 $(3j+1)!$ 也与 $p$ 互素，
+所以全部阶数 $3j+1$ 的 normal jets 都非零。
+所用最高阶 $3k-2<p$，目标族在该有限精度内仍确实固定；
+完整相对式 (N.50)–(N.51) 则已保留更一般的目标 $\epsilon^p$。
+
+第一项必须回到原 (N.14)，可完全纸核：
+$$
+\binom m k=2\binom m{2k},\qquad
+2m=-1,\qquad (-3)^m=-1.
+$$
+最后一式来自 $p\equiv5\pmod6$ 下 $-3$ 为非平方。
+将这些式子代入 (N.51) 的一次项，准确得到
+$$
+\boxed{\theta'(0)
+=\frac{(2v)^{2k}}{6v}\binom{3k-1}{2k}.}
+\tag{N.52}
+$$
+没有额外的 $2,3$、绝对 Cartier 符号或同源微分因子。
+
+(N.51) 付清的是保持原三挠线的实际曲线族方向。
+在固定 $E$ 上移动 Picard 参数时，该点一般已不再是三挠点，
+所以不能把这个三次覆盖仍当作同一个覆盖随该方向移动。
+原 $e,K_4$ 的指定 Picard jets 与 (N.51) 的高阶 normal 系数之间，
+仍须另付真实来源的比较；(N.45) 已说明最初的混合读数并不相同。
+本节没有由全系数单位直接宣布原两障碍非同时为零。
+
+本节为完整代数纸证；已对照 R1061、R1095、R1126 与本篇原族，
+没有数学程序执行、新素数窗口或仅凭 $j$ 的模型替换。
+
+
+§11复核：root、o1_theta、o2_high_coefficient 对精确候选06f875eb的N.46–52逐式独立纸核通过；原覆盖相位、商微分、相对Frobenius与N.14首项全部相容。
