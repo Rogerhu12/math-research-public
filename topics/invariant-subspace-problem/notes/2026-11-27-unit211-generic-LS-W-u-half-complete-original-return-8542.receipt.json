@@ -1,0 +1,580 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "scope": "Entire u=1/2 weight line inside previously paid general LS Delta=0 W=0 chart",
+  "wholeLineExcluded": true,
+  "wholeWExcluded": false,
+  "proof": {
+    "blob": "5d4ff3de3ada25ee59bb48004933d6f6aec2ca5c",
+    "sha256": "4a3dc5f396e34b0bc165db520e4d11dea18d479c0f8c2ddfbfbd62cfe350c1e3",
+    "utf8Bytes": 9380,
+    "fullBlobReadbackVerified": true
+  },
+  "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-u-half-complete-original-return-8542.py",
+  "actualDriverReceipt": {
+    "elapsed_seconds": 0.6759337199999997,
+    "max_child_rss_kib": 40828,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "4ae67dc5b7144c6c9adf0b16a057a6ad13a06cd7",
+        "before": "4ae67dc5b7144c6c9adf0b16a057a6ad13a06cd7",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T07:53:40.677368+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45961582428",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "4ae67dc5b7144c6c9adf0b16a057a6ad13a06cd7",
+    "source_exit_code": 0,
+    "source_git_blob": "282e95f68f77db2dd209bd93590465ef23acb7d0",
+    "source_sha256": "5d7064468698db3d580e0116e0814b15df1bef246428838f2294727838077582",
+    "stdout_bytes": 9207,
+    "stdout_sha256": "d9ece7e80ebacd4c57b9face83863d3bbf3c3a3ea66da5d677827d4d5e90c83f",
+    "stop_reason": null
+  },
+  "jobId": 140380414506,
+  "actualMathematicalRecords": [
+    {
+      "stage": "new_entire_u_half_original_global_six_module",
+      "allOriginalE0N0P1AndGramProductsVerified": true,
+      "allOriginalSixRuleTracesAnd18MultiplicationsVerified": true,
+      "allQuadraticAndCubicLeadingFactorsPaid": true,
+      "allOriginalDenominatorsPaid": true,
+      "basis": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "necessaryRows": 24,
+      "polynomialRowDegrees": [
+        8,
+        7,
+        10,
+        10,
+        10,
+        9,
+        8,
+        7,
+        10,
+        10,
+        10,
+        9,
+        13,
+        11,
+        12,
+        12,
+        10,
+        11,
+        15,
+        13,
+        14,
+        15,
+        13,
+        14
+      ],
+      "allRowScalingProductsVerified": true,
+      "claimLineExcluded": false,
+      "seconds": 0.22536076100000102
+    },
+    {
+      "stage": "new_u_half_original_polynomial_elimination",
+      "nonconstantRankSoFar": 1,
+      "pivotColumn": 0,
+      "pivotDegree": 6,
+      "allExactDivisionsMultipliedBack": true,
+      "claimLineExcluded": false,
+      "seconds": 0.22586453699999964
+    },
+    {
+      "stage": "new_u_half_original_polynomial_elimination",
+      "nonconstantRankSoFar": 2,
+      "pivotColumn": 1,
+      "pivotDegree": 13,
+      "allExactDivisionsMultipliedBack": true,
+      "claimLineExcluded": false,
+      "seconds": 0.22640392699999978
+    },
+    {
+      "stage": "new_u_half_original_polynomial_elimination",
+      "nonconstantRankSoFar": 3,
+      "pivotColumn": 2,
+      "pivotDegree": 21,
+      "allExactDivisionsMultipliedBack": true,
+      "claimLineExcluded": false,
+      "seconds": 0.22733210900000245
+    },
+    {
+      "stage": "new_u_half_original_polynomial_elimination",
+      "nonconstantRankSoFar": 4,
+      "pivotColumn": 3,
+      "pivotDegree": 29,
+      "allExactDivisionsMultipliedBack": true,
+      "claimLineExcluded": false,
+      "seconds": 0.22829195899999988
+    },
+    {
+      "stage": "new_u_half_original_polynomial_elimination",
+      "nonconstantRankSoFar": 5,
+      "pivotColumn": 4,
+      "pivotDegree": 36,
+      "allExactDivisionsMultipliedBack": true,
+      "claimLineExcluded": false,
+      "seconds": 0.22909331199999983
+    },
+    {
+      "stage": "new_u_half_original_constant_cofactor",
+      "selectedRows": [
+        1,
+        0,
+        2,
+        3,
+        5,
+        4
+      ],
+      "rawCofactorDegree": 44,
+      "unpaidDegree": 13,
+      "runningCoverDegree": 13,
+      "allSixOriginalColumnsMultipliedBack": true,
+      "allPaidRemovalProductsVerified": true,
+      "allUnivariateBezoutProductsVerified": true,
+      "certificateBytes": 6900,
+      "certificateSHA256": "7378481ed69506d9884b9273713d9c4db6ccc9a7a28662f13a308fb132f630e0",
+      "claimLineExcluded": false,
+      "seconds": 0.23113838000000086
+    },
+    {
+      "stage": "new_u_half_original_constant_cofactor",
+      "selectedRows": [
+        1,
+        0,
+        2,
+        3,
+        5,
+        8
+      ],
+      "rawCofactorDegree": 44,
+      "unpaidDegree": 13,
+      "runningCoverDegree": 13,
+      "allSixOriginalColumnsMultipliedBack": true,
+      "allPaidRemovalProductsVerified": true,
+      "allUnivariateBezoutProductsVerified": true,
+      "certificateBytes": 6916,
+      "certificateSHA256": "f9652be800881b1412edf85f5e15777d9506d97a666e86a73e6ddad2a01dc9da",
+      "claimLineExcluded": false,
+      "seconds": 0.23305590800000076
+    },
+    {
+      "stage": "new_u_half_original_constant_cofactor",
+      "selectedRows": [
+        1,
+        0,
+        2,
+        3,
+        5,
+        10
+      ],
+      "rawCofactorDegree": 44,
+      "unpaidDegree": 13,
+      "runningCoverDegree": 13,
+      "allSixOriginalColumnsMultipliedBack": true,
+      "allPaidRemovalProductsVerified": true,
+      "allUnivariateBezoutProductsVerified": true,
+      "certificateBytes": 6886,
+      "certificateSHA256": "ed3523fe9dba6ccba11ecae667894f6966fd955e266d6c7819e0292031ece667",
+      "claimLineExcluded": false,
+      "seconds": 0.2349437200000004
+    },
+    {
+      "stage": "new_u_half_original_constant_cofactor",
+      "selectedRows": [
+        1,
+        0,
+        2,
+        3,
+        5,
+        16
+      ],
+      "rawCofactorDegree": 44,
+      "unpaidDegree": 13,
+      "runningCoverDegree": 13,
+      "allSixOriginalColumnsMultipliedBack": true,
+      "allPaidRemovalProductsVerified": true,
+      "allUnivariateBezoutProductsVerified": true,
+      "certificateBytes": 6722,
+      "certificateSHA256": "45ba190a8c41d18d616c2d8b0e8fdaf63ba868e07b24ad995bc1d348f740faca",
+      "claimLineExcluded": false,
+      "seconds": 0.23675899400000233
+    },
+    {
+      "stage": "new_u_half_original_constant_cofactor",
+      "selectedRows": [
+        1,
+        0,
+        2,
+        3,
+        5,
+        13
+      ],
+      "rawCofactorDegree": 45,
+      "unpaidDegree": 13,
+      "runningCoverDegree": 13,
+      "allSixOriginalColumnsMultipliedBack": true,
+      "allPaidRemovalProductsVerified": true,
+      "allUnivariateBezoutProductsVerified": true,
+      "certificateBytes": 7010,
+      "certificateSHA256": "e66dcc2c7c6ab4772ec7b12a85b69739395766b2a59cb2b39cc1da54753de308",
+      "claimLineExcluded": false,
+      "seconds": 0.23862062700000308
+    },
+    {
+      "stage": "new_u_half_original_constant_cofactor",
+      "selectedRows": [
+        1,
+        0,
+        2,
+        3,
+        5,
+        17
+      ],
+      "rawCofactorDegree": 45,
+      "unpaidDegree": 13,
+      "runningCoverDegree": 13,
+      "allSixOriginalColumnsMultipliedBack": true,
+      "allPaidRemovalProductsVerified": true,
+      "allUnivariateBezoutProductsVerified": true,
+      "certificateBytes": 7078,
+      "certificateSHA256": "526e07bcd5a931f935c966125941783797c625f5d5554ba6380ad41adc3cb420",
+      "claimLineExcluded": false,
+      "seconds": 0.24046677700000174
+    },
+    {
+      "stage": "new_u_half_complete_original_univariate_cover",
+      "degree": 13,
+      "factors": [
+        {
+          "coefficients": [
+            "5513568",
+            "169255236",
+            "860964576",
+            "2099984956",
+            "3064262397",
+            "2913699520",
+            "1863202972",
+            "798383289",
+            "219823272",
+            "34723590",
+            "2223520",
+            "1448",
+            "29056",
+            "5120"
+          ],
+          "degree": 13,
+          "multiplicity": 1
+        }
+      ],
+      "wholeQQFactorProductVerified": true,
+      "seconds": 0.2407532769999996
+    },
+    {
+      "stage": "new_u_half_whole_QQ_original_D_return",
+      "modulus": [
+        "172299/160",
+        "42313809/1280",
+        "26905143/160",
+        "524996239/1280",
+        "3064262397/5120",
+        "9105311/16",
+        "465800743/1280",
+        "798383289/5120",
+        "27477909/640",
+        "3472359/512",
+        "13897/32",
+        "181/640",
+        "227/40",
+        "1"
+      ],
+      "QQBaseDegree": 13,
+      "initialRank": 6,
+      "finalRank": 6,
+      "generatedRows": 48,
+      "allSixOriginalColumnProductsVerified": true,
+      "allTruePointClosureProductsVerified": true,
+      "actualInverseProducts": 200,
+      "DpowerReturned": 0,
+      "physicalDIsOriginalUnit": "D+ell*HA/u^2=bc*(hU-kU)^2",
+      "certificateBytes": 108591,
+      "certificateSHA256": "224ceb3e01680e8779b614b68aea66619f370fa398d2723be87dbef9dddc8452",
+      "excluded": true,
+      "path": "F0",
+      "wallSeconds": 0.37685826400000266,
+      "seconds": 0.6176392730000018
+    },
+    {
+      "stage": "new_entire_W_u_half_original_finite_return_complete",
+      "sourceSHA256": "5d7064468698db3d580e0116e0814b15df1bef246428838f2294727838077582",
+      "lineDefinition": {
+        "u": "1/2",
+        "e": "-1/2",
+        "Q": "-k/2",
+        "ell": "(k+1)/k"
+      },
+      "allOriginalGramAndSixRulesAnd18MultiplicationsVerified": true,
+      "allLeadingAndDenominatorFactorsPaid": true,
+      "physicalUnits": [
+        "k",
+        "k+1",
+        "k+2",
+        "k+4",
+        "2k+3"
+      ],
+      "fixedOriginalNecessaryRows": 24,
+      "nonconstantRank": 5,
+      "originalCofactorProfiles": [
+        {
+          "selectedRows": [
+            1,
+            0,
+            2,
+            3,
+            5,
+            4
+          ],
+          "rawCofactorDegree": 44,
+          "unpaidDegree": 13,
+          "runningCoverDegree": 13,
+          "allSixOriginalColumnsMultipliedBack": true,
+          "allPaidRemovalProductsVerified": true,
+          "allUnivariateBezoutProductsVerified": true,
+          "certificateBytes": 6900,
+          "certificateSHA256": "7378481ed69506d9884b9273713d9c4db6ccc9a7a28662f13a308fb132f630e0"
+        },
+        {
+          "selectedRows": [
+            1,
+            0,
+            2,
+            3,
+            5,
+            8
+          ],
+          "rawCofactorDegree": 44,
+          "unpaidDegree": 13,
+          "runningCoverDegree": 13,
+          "allSixOriginalColumnsMultipliedBack": true,
+          "allPaidRemovalProductsVerified": true,
+          "allUnivariateBezoutProductsVerified": true,
+          "certificateBytes": 6916,
+          "certificateSHA256": "f9652be800881b1412edf85f5e15777d9506d97a666e86a73e6ddad2a01dc9da"
+        },
+        {
+          "selectedRows": [
+            1,
+            0,
+            2,
+            3,
+            5,
+            10
+          ],
+          "rawCofactorDegree": 44,
+          "unpaidDegree": 13,
+          "runningCoverDegree": 13,
+          "allSixOriginalColumnsMultipliedBack": true,
+          "allPaidRemovalProductsVerified": true,
+          "allUnivariateBezoutProductsVerified": true,
+          "certificateBytes": 6886,
+          "certificateSHA256": "ed3523fe9dba6ccba11ecae667894f6966fd955e266d6c7819e0292031ece667"
+        },
+        {
+          "selectedRows": [
+            1,
+            0,
+            2,
+            3,
+            5,
+            16
+          ],
+          "rawCofactorDegree": 44,
+          "unpaidDegree": 13,
+          "runningCoverDegree": 13,
+          "allSixOriginalColumnsMultipliedBack": true,
+          "allPaidRemovalProductsVerified": true,
+          "allUnivariateBezoutProductsVerified": true,
+          "certificateBytes": 6722,
+          "certificateSHA256": "45ba190a8c41d18d616c2d8b0e8fdaf63ba868e07b24ad995bc1d348f740faca"
+        },
+        {
+          "selectedRows": [
+            1,
+            0,
+            2,
+            3,
+            5,
+            13
+          ],
+          "rawCofactorDegree": 45,
+          "unpaidDegree": 13,
+          "runningCoverDegree": 13,
+          "allSixOriginalColumnsMultipliedBack": true,
+          "allPaidRemovalProductsVerified": true,
+          "allUnivariateBezoutProductsVerified": true,
+          "certificateBytes": 7010,
+          "certificateSHA256": "e66dcc2c7c6ab4772ec7b12a85b69739395766b2a59cb2b39cc1da54753de308"
+        },
+        {
+          "selectedRows": [
+            1,
+            0,
+            2,
+            3,
+            5,
+            17
+          ],
+          "rawCofactorDegree": 45,
+          "unpaidDegree": 13,
+          "runningCoverDegree": 13,
+          "allSixOriginalColumnsMultipliedBack": true,
+          "allPaidRemovalProductsVerified": true,
+          "allUnivariateBezoutProductsVerified": true,
+          "certificateBytes": 7078,
+          "certificateSHA256": "526e07bcd5a931f935c966125941783797c625f5d5554ba6380ad41adc3cb420"
+        }
+      ],
+      "commonCover": [
+        "172299/160",
+        "42313809/1280",
+        "26905143/160",
+        "524996239/1280",
+        "3064262397/5120",
+        "9105311/16",
+        "465800743/1280",
+        "798383289/5120",
+        "27477909/640",
+        "3472359/512",
+        "13897/32",
+        "181/640",
+        "227/40",
+        "1"
+      ],
+      "completeQQFactors": [
+        {
+          "coefficients": [
+            "5513568",
+            "169255236",
+            "860964576",
+            "2099984956",
+            "3064262397",
+            "2913699520",
+            "1863202972",
+            "798383289",
+            "219823272",
+            "34723590",
+            "2223520",
+            "1448",
+            "29056",
+            "5120"
+          ],
+          "degree": 13,
+          "multiplicity": 1
+        }
+      ],
+      "finiteOriginalReturns": [
+        {
+          "modulus": [
+            "172299/160",
+            "42313809/1280",
+            "26905143/160",
+            "524996239/1280",
+            "3064262397/5120",
+            "9105311/16",
+            "465800743/1280",
+            "798383289/5120",
+            "27477909/640",
+            "3472359/512",
+            "13897/32",
+            "181/640",
+            "227/40",
+            "1"
+          ],
+          "QQBaseDegree": 13,
+          "initialRank": 6,
+          "finalRank": 6,
+          "generatedRows": 48,
+          "allSixOriginalColumnProductsVerified": true,
+          "allTruePointClosureProductsVerified": true,
+          "actualInverseProducts": 200,
+          "DpowerReturned": 0,
+          "physicalDIsOriginalUnit": "D+ell*HA/u^2=bc*(hU-kU)^2",
+          "certificateBytes": 108591,
+          "certificateSHA256": "224ceb3e01680e8779b614b68aea66619f370fa398d2723be87dbef9dddc8452",
+          "excluded": true,
+          "path": "F0",
+          "wallSeconds": 0.37685826400000266
+        }
+      ],
+      "wholeLineExcluded": true,
+      "wholeWExcluded": false,
+      "wallSeconds": 0.6178151470000017,
+      "peakRssKiB": 40100
+    }
+  ],
+  "finalProofUsesOriginalConstantOne": true,
+  "physicalDUnitNotNeededForFinalQQReturn": true,
+  "noModularEmptinessInput": true,
+  "noUnpaidLeadingFactorDiscarded": true,
+  "independentV8HeadSpecializationProducts": {
+    "specialization": "e=-1/2, u=1/2, Q=-k/2",
+    "sixGeneratorGlobalOnEntireLine": true,
+    "J19Times16": [
+      "-1024",
+      "-1792",
+      "-1216",
+      "-400",
+      "-64",
+      "-4"
+    ],
+    "C9Times4": [
+      "64",
+      "128",
+      "84",
+      "22",
+      "2"
+    ],
+    "allPolynomialProductsVerified": true,
+    "allRemainingFactorsPreviouslyPaid": true,
+    "claimLineExcluded": false
+  }
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 W 图整个 u=1/2 权线的原系统排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-half-complete-original-exclusion.md)：已证明；完整F13覆盖及整QQ13原常数1，余W可付2u−1，替代四二次头全余图可逆。
+
 - [R150 一般 T0 整四次曲线的原 D 返回与四点覆盖](results/R150-appendix-unit211-general-T0-quartic-curve-original-four-point-cover.md)：已证明；全曲线最终只余J4四次因子，全部四权点继续作整QQ原返回。
 
 - [R150 W 图整个 C9 权曲线的原系统排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md)：已证明；整二次扩张、156次QQ覆盖与五低范数全部theta分支原返回，本W图可付C9。

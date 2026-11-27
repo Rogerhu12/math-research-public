@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W整C9权曲线已闭](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md)，本图可付C9。** 二次theta扩张、全部范数零纤维和156次QQ覆盖均完整原返回：七因子保度Gauss，F2整QQ原D，五低范数曲线的每个theta分支原单位/48×35返1。J19仍开；旧二维cofactor180秒门冻结。新整W/u半源登记时未执行，随后新6×4完整三次头；未付首项全部保留。
+**[W整C9曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-C9-complete-original-exclusion.md)和[整u半权线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-half-complete-original-exclusion.md)均闭，余W可付C9、2u−1。** u半六原cofactor完整F13上，24原行在整13维QQ商直接返常数1，源5d706446真实0.676秒/exit0；没有使用D饱和。结合一般ell/等权闭，替代四头[0,2,3,4]全余图可逆，但不兼容简单单项式下降。续新6×4完整三次头及原小模块，源bdd57650登记时未执行，所有新minor零纤维保留；旧二维180秒门冻结。
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
