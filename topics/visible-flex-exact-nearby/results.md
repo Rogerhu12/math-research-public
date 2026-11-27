@@ -548,3 +548,10 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 [完整证明](results/R149-supplement-complete-target-B-trial-Gram-and-joint-row-error.md)与[纯Gram/完整候选模块](scripts/fourfold_codazzi_target_B_complete_Gram_math.py)。对DBRA同一完整96×192 exact r trial形成全部9216 signed Gram项，完整行Gershgorin给||IY||=||Rhat||新operator upper g；不是从旧HS上界倒推。全部true w误差/96×2240 residual/infinite tail保，新whole product与旧两候选整选后eR=FH/2+P*/4。可将新g用于BNC真实complete polynomial Bernstein/alias/disk费用，前提为完整相应输入，不能除旧upper提取缺失量。
 
 当前没有新Gram actual；已在跑BNC7保持原目标/manifest。其完成后可复制全部96signed centers、四旧整费和父身份，以新rowfee重新完整求和，不重192quadrature、不从旧total相减。true a/4n/两physical means不变，完整forwardΘ、高/phase/core独立。
+
+
+### R133 SCAP：真正选定帽图及完整height反馈吸收
+
+[完整证明](results/R133-supplement-actual-selected-cap-and-complete-height-feedback-absorption.md)与[38个新exact组合](scripts/fourfold_codazzi_selected_cap_feedback_saved_bounds.py)。M(γ,fBγ)保原γ值域、固定sB、全curvature/f_*/κ/two means/unscreened span，真实H8193 C1至cap q1165；Hilbert方向用完整lag卷积，不由isolated columns推op norm。L_*DfB全physical列<2^-31223196，同界支付原完整97 moving输入及Cmean；H_C0常moving输入的无限physical像不截。
+
+两旧CPA完整finite193 comparison仅作精确正矩阵rank-one更新，truecut feedback<2^-31223185，full新gap>3/4,12/25,6/25；tail>3/4,61/125,1/4。四独立source/right97/highbody/highcut接收表给整数upper，highcut新项保pYτ(cC+1)/(1−q)。actual selected secant吸收真实fB差一次，CH原quadratic/差界继续有效；独立外给height、λ、waist、affine、high与moving-chart准入不删除。未知core存在/全high/actualworld/固定metric族未授。38新组合仅首算全过，旧CPA数字/科学不重。

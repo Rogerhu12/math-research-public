@@ -183,3 +183,8 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 ### 2026-11-27 — BGR建立新whole operator Gram和行误差后继
 
 独立推送BGR proof7437B/70023df23aa4375e67ced3070b04e6d6543b45f4e71ca3ebfe71458cd7f77daa（新proof仅转换美元公式分隔符）及pure5241B/32ab1b1ddb5f09ca42dca4e17cc9458ed6df9fe35c1e2ca343d698ebfa59b8a0。全same-trial96×96 signed Gram先存再取完整行上界，新∞product及整eR为三个尚未执行目标；旧DWTB9/HS不重算。明确BNC45941963989原7不动，其完成后只读完整新实际对象形成新rowfee+whole列候选。没有声称新Gram数值已成或低96即完整Θ列。
+
+
+### 2026-11-27 — SCAP闭合actual selected cap及其finite193 height反馈
+
+独立推送proof28541B与pure8040B；依赖public SHL552f24cd78fe9cabdcd036f90a0e35b07ad7e024。原M/I/CPA/USC实际完整输出/低高范数/两mean及moving97全输入保，新增真正height列τ<2^-31223196，cut feedback<2^-31223185。两case原完整正矩阵和exact determinant更新，不以saved upper当equal；四列integer table含highcut直接+1项。selected nonlinear secant已把同一个height差吸收一次，外给height仍独立。38新exact组合一次全过，旧矩阵/积分/science0重算。H旧detail保5c94不可变版本与完整proof，压缩只索引。
