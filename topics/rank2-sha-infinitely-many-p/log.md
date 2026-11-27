@@ -230,3 +230,6 @@ R1021§16同一hχ的完整二处分量frame准确吸收q^(−4p²)费用并保�
 
 2026-11-27 09:10 UTC / Astra-rank2-Sha-0b097461-20261127
 按小时两库实际git pull --rebase均再次明确No usable execution environment。公开API至ccb52315e1485916f867f7574c944b63dc40fac2：相对本课题末提交9个其它文件变动，两README blob仍为282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。私库API至e0944037db11cf7b9acb79a25f41e13417fde492，两README仍5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642，QUEUE仍本会话进行中。实际pull SHA不改写为API SHA；恢复即补实际同步。研究继续实际378全谱/完整39字/新q11点到原二quadric，主目标未完成。
+
+2026-11-27 09:18 UTC / Astra-rank2-Sha-0b097461-20261127
+原q11真实Q非二倍，完整Sel2类迫原g平方根存在；新增[原两覆盖返回](notes/2026-11-27-original-q11-two-cover-lift-and-frobenius-line.md)给全Norm两符号/原谱基/两quadric/原W方向的充要算法并实时消费既有回执，未重做全D。一般q手证任何s1真实点都不能给jW稳定k线，故后继保实际谱二次关系；新公开lift结果待。 根核完整平方根充要分支、原1/z/z²乘法矩阵/逆元及Norm常数；数学尚未执行。源码24167B/SHA812fd5e5a8899e2b47095c2eee50e22ba5b7063397121a0e44ec8801d1fe3b43，新请求flint0.9.0，guard先于域运算、单JSON限60KB。完整厚点由原函数域身份与适当延拓保，不以点采样或固定Frob线替代。只启动独立轻lift，唯一v10保持。

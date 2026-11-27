@@ -1,10 +1,10 @@
 {
-  "request_id": "2026-11-27-0850-original-q11-all-minimal-poles",
+  "request_id": "2026-11-27-0918-original-q11-two-cover-lift",
   "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-original-q11-all-minimal-poles.py",
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/lift-original-q11-section-to-two-cover.py",
       "args": [],
       "include_stdout": true
     }
