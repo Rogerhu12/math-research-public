@@ -14,3 +14,7 @@
 真实日志结果 JSON 的 UTF-8 SHA-256 为 929c165a6865bfe984f4ab671b9c2555b0e3dfd7a1982bc4151a07050bbeeca8；哈希对象是 SERRE_TERMINAL_RULE_SYNC 前缀后的完整 JSON，不含日志时间戳、前缀或末换行。可重算日志不另提交。
 
 后继只更新同一请求的时间与 last_read_rules_commit，push 即触发下一次真实 pull。收到结果后先读任何 README diff并立即执行新规，再更新 HANDOFF 的实际 pull 时间与已读提交。每小时要求继续；请求需提前留队列余量。连接器 fresh-head 检查不冒称真实 pull，本地恢复后仍立即实际 pull。
+
+## 第二次真实 pull
+
+2026-11-27 23:05:38 UTC，即 2026-11-28 07:05:38 Asia/Taipei，source/HEAD/origin main 均为 ffd8a7ed8bb8e544fcaf7e7d57a5e5300a142619；[run46080481087](https://github.com/Rogerhu12/math-research-public/actions/runs/46080481087)，job140778033392，success。相对已读 3b34f6064ca3030c4521f779844b64d05690c937，两份 README diff 为空，两个 SHA-256 与首轮相同；blob:none、shallow=true。实际结果 JSON SHA-256 为 8cc90b834ddd5b42f0545523cbd8160dbec19ff32927e89f5ab63ee9847f4122，哈希对象与首轮定义完全相同。
