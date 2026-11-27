@@ -709,3 +709,81 @@ maker实际0，耗时5.993991221999991秒；reference实际0，469.9814885510000
 接入现成完整8679B/5d25f3936fee3ae40966718ec39af16ff19ae4513fe36758af907f21baf78360 reader，不改源码。它绑定实际status的唯一returned failed step、实际launcher源、原log0003-dc8fac08e2e4；原64000尾字节/每traceback7000字符/全部selector与是否截断、是否完整日志的区别全保。父是确已返回的原reference212eb5，不是缺失的场报告。完整参数[resume-20261127-run18-actual-first-and-last-tracebacks-ready.json](../computations/resume-20261127-run18-actual-first-and-last-tracebacks-ready.json)16741B/d10070867e35b597f7759b7aae6ceb22b7fe3e81116b25d15695b3c6d762367f，新队列4720B/9301462176f00adb00808799342e052dca5e47bf52b80f22851d188487f5dc6a。
 
 原63936B三步现在均真实自然返回，才从活队列退休；三个完整原对象固定保1b76cb746b3b6cd5d9b9c5b9d20fc83a0e3e838c下同queue路径，完整science ready与pure ready仍保，所有参数/原预算/outputs/summary无删减。新队列仅只读原异常，finish=false。失败原因还没有回传；必须据实际异常修完整来源族并换独立新输出路径，不冒充成功父，也不重做两已返回必要输入。
+
+## 9. 原异常实际归因：新 meridian 方法的完整绑定不匹配（2026-11-27 20:36 UTC）
+
+同runner实际只读步骤已exit0，source commit b07c0aebbf6125cfa1a7e1b595b84ab3d67be3ca、reader5d25原字；输出11675B/SHA25685cbea9228c60fd15a6c6e7397bd3a3e39e6e33bc349d8305657588abdbe131b。root完整读取阶段1–4卷42893B/ac49f5b0f00b2a7185be88b7a0c0593e74d67978b172e5c2a2e72c062ac463ab/blobb4c479790c2d90184be6f42d77322affca66af5b，全四步原字固定[36fb阶段卷](https://github.com/Rogerhu12/math-research-public/blob/36fb3539d71ac8826645df636359d34769f786e9/topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46062343475-1-part-001.md)。
+
+原日志7167B/1baa32787375046913bdb762ff4d57db990e0e8567d75cd8b03f13834d5d190d，从byte0完整读到末尾，两次stat一致；共两个traceback，首异常实际是：
+
+```text
+Traceback (most recent call last):
+  File "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py", line 1130, in <module>
+    main()
+  File "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py", line 544, in main
+    q = endpoint.ZeroClosureOperator(base, expected_base_source_sha256=SOURCE_PINS['meridian'][1],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py", line 489, in __init__
+    self.analytic_normal_frame = analytic_frame_module.AnalyticNormalFrame(self)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py", line 372, in __init__
+    raise ValueError('A full original method or the explicit frame wrapper changed: '+name)
+ValueError: A full original method or the explicit frame wrapper changed: _meridian_data
+
+```
+
+第二异常是launcher对已失败driver的CalledProcessError；首末traceback正文均未裁剪，只有单独的末异常行摘要超过2048字符而显式裁剪。两个异常不能合成一个虚构原因，也不把外层CalledProcessError当最内层原因。完整各标量、准确status与日志identity、所有scope和原完整命令均保上述固定阶段卷。
+
+这次实际拒绝来自 analytic frame 的完整方法文本绑定，点名`_meridian_data`。修复将以真正当前完整新方法的精确identity更新相关来源绑定，并贯通所需完整lower/upper/reader/参数来源链；不删除guard、不允许旧hash冒新方法、不改数学公式或原科学预算。原失败版本的完整137来源、所有120父pairs、原命令和原输出路径保持固定Git可恢复；将使用独立新输出路径继续，不能重用原已存在command。修复后的数值表现仍须新的实际运行给出，不能从本次文本错误推出场、根、收敛或几何结果。
+
+完整诊断标量对象保如下；其中field_or_J_evaluations=0只说明本只读诊断没有科学求值，不能据此反填旧失败driver的执行计数。
+
+```json
+{
+  "schema": "actual-public-followup-first-and-last-failure-tracebacks-v1",
+  "source_sha256": "5d25f3936fee3ae40966718ec39af16ff19ae4513fe36758af907f21baf78360",
+  "derived_from_source_sha256": "ef017af52fd8b9801434b3af655f9fccb7d7a51e9bf0abb3ff5e85496659e338",
+  "status_sha256": "8d3fc14d827933f14f702fa5d5c6823a3844fb12832718d1df085c87b5324731",
+  "status_sha256_scope": "exact captured status bytes, not a later mutable status version",
+  "step_id": "complete-fixed-fejer-meridian-batched-first-20261127",
+  "actual_source_sha256": "b54cd45d9fb71fe082f3f4403a595296203883aedc84fb3ac0d0d4c0625d9d12",
+  "actual_source_commit": "7936ae753065d6e47c1c02848551020acf5a7b2a",
+  "actual_returncode": 1,
+  "actual_recorded_seconds": 8.147090872999911,
+  "actual_log_path": "/home/runner/work/_temp/visible-larger-research-46062343475-1/research/followup-logs/0003-dc8fac08e2e4.log",
+  "actual_log_sha256": "1baa32787375046913bdb762ff4d57db990e0e8567d75cd8b03f13834d5d190d",
+  "actual_log_bytes": 7167,
+  "log_unchanged_during_read": true,
+  "tail_start_byte": 0,
+  "tail_bytes_read": 7167,
+  "maximum_tail_bytes": 64000,
+  "captured_tail_contains_entire_log": true,
+  "captured_tail_sha256": "1baa32787375046913bdb762ff4d57db990e0e8567d75cd8b03f13834d5d190d",
+  "traceback_markers_in_captured_tail": 2,
+  "first_traceback_found": true,
+  "first_traceback_start_byte": 0,
+  "first_traceback_is_first_in_entire_log": true,
+  "first_traceback_excerpt": "Traceback (most recent call last):\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py\", line 1130, in <module>\n    main()\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py\", line 544, in main\n    q = endpoint.ZeroClosureOperator(base, expected_base_source_sha256=SOURCE_PINS['meridian'][1],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_detached_meridian_normal_lift.py\", line 489, in __init__\n    self.analytic_normal_frame = analytic_frame_module.AnalyticNormalFrame(self)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_analytic_normal_frame.py\", line 372, in __init__\n    raise ValueError('A full original method or the explicit frame wrapper changed: '+name)\nValueError: A full original method or the explicit frame wrapper changed: _meridian_data\n",
+  "first_traceback_excerpt_clipped": false,
+  "first_traceback_final_nonempty_line": "ValueError: A full original method or the explicit frame wrapper changed: _meridian_data",
+  "first_traceback_final_line_clipped": false,
+  "last_traceback_found": true,
+  "last_traceback_start_byte": 1587,
+  "last_traceback_excerpt": "Traceback (most recent call last):\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_meridian_batched_actions.py\", line 343, in <module>\n    main()\n  File \"/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_meridian_batched_actions.py\", line 339, in main\n    subprocess.run(command, env=env, cwd=args.repo, check=True)\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.14/x64/bin/python', '-u', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py', '--repo', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065', '--reference-bundle', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/reference.npz', '--preparation-report', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/report.json', '--carrier', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/observations.npz', '--node-report', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json', '--scalar-input', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json', '--outdir', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-meridian-batched-first', '--manifest', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/locations.json', '--material-envelope-binding', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json', '--independent-envelope-branch', '--pending-parallel-envelope-run', '45909290354/1', '--pending-parallel-envelope-run', '45929088658/1', '--pending-parallel-envelope-run', '45943410994/1', '--pending-parallel-envelope-run', '45972294636/1', '--pending-parallel-envelope-run', '46011377225/1', '--pending-parallel-envelope-source', '45909290354/1=cc0a07369a2d9ea5e22d261441420acb4e486a8c0d43f29f57e03378e82627b5', '--pending-parallel-envelope-source', '45929088658/1=95559b0cd44e3bf521b01ca8fe35b515bf7aad5dc4dc6b008ab0d015b9211da9', '--pending-parallel-envelope-source', '45943410994/1=ff5444af4c31869a1a4d7b87cb4912f2d025b8da5ee90922924c3542ff6f0dd5', '--pending-parallel-envelope-source', '45972294636/1=c3dc77f40445eaf30ab743311dd97ea7d62a41be80db504fc778eccffa30e5d1', '--pending-parallel-envelope-source', '46011377225/1=477499b17141d8ae22558156e8b85a4c01b7a40ff07b6b46f5827e20d11b9ccd', '--envelope-near-active-rows', '32', '--angles', '2048', '--stage-block', '64', '--angle-block', '8', '--integration-order', '8', '--inverse-root-iterations', '18', '--inverse-root-tolerance', '2e-12', '--norm-kind', 'jet-sum', '--radial-norm-length', '0.05', '--angular-transition', '24.0', '--torch-threads', '4', '--damping', '0.01', '--directions', '1', '--maxiter', '16', '--restoration-directions', '4', '--restoration-damping', '0.01', '--restoration-maxiter', '64', '--line-trials', '15', '--qp-atol', '0.0', '--qp-rtol', '1e-06', '--qp-feasibility-tolerance', '2e-11', '--qp-rank-tolerance', '2e-12', '--active-rows', '192', '--active-block-columns', '32768', '--active-band', '0.025', '--reach-ratio', '0.03', '--reach-safety-factor', '0.992', '--marked-diameter-budget', '4.2', '--witness-lower-budget', '0.9', '--amplitude-height-floor', '1.01', '--amplitude-top-radius', '2', '--amplitude-top-distance', '4', '--spectral-p', '4', '--spectral-epsilon', '0.001', '--spectral-scale', '0.05', '--legacy-fraction', '0.5', '--target', '1e-09', '--panels', '128', '--seed-boundary-total-length', '1/4', '--seed-profile-delta', '1/32', '--seed-radial-quadrature-order', '8', '--seed-profile-quadrature-order', '16', '--seed-mean-maxiter', '128', '--seed-mean-tolerance', '2e-12', '--seed-mean-backtracks', '24', '--seed-mean-armijo', '0.0001', '--seed-scalar-iterations', '64', '--endpoint-bubble-1-left', '1/32', '--endpoint-bubble-1-middle', '1/4', '--endpoint-bubble-1-right', '15/32', '--endpoint-bubble-2-left', '17/32', '--endpoint-bubble-2-middle', '3/4', '--endpoint-bubble-2-right', '31/32', '--endpoint-root-tolerance', '2e-12', '--endpoint-root-iterations', '24', '--endpoint-root-backtracks', '18', '--endpoint-root-armijo', '0.0001', '--endpoint-control-radius', '2.0', '--normal-stages', '32', '--gamma-left', '1/16', '--gamma-middle', '1/8', '--gamma-right', '3/16', '--moment-input', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json', '--moment-input-sha256', 'df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c', '--moment-definition-sha256', '05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e', '--moment-input-binding', 'supported-smooth-triangle-reference']' returned non-zero exit status 1.\n",
+  "last_traceback_excerpt_clipped": false,
+  "last_traceback_final_nonempty_line": "subprocess.CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.14/x64/bin/python', '-u', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_meridian_batched_so3_qp.py', '--repo', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065', '--reference-bundle', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/reference.npz', '--preparation-report', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/report.json', '--carrier', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-reference/observations.npz', '--node-report', '/home/runner/work/_temp/visible-larger-research-46062343475-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json', '--scalar-input', '/ho\n[bounded diagnostic: middle characters omitted]\n-left', '1/32', '--endpoint-bubble-1-middle', '1/4', '--endpoint-bubble-1-right', '15/32', '--endpoint-bubble-2-left', '17/32', '--endpoint-bubble-2-middle', '3/4', '--endpoint-bubble-2-right', '31/32', '--endpoint-root-tolerance', '2e-12', '--endpoint-root-iterations', '24', '--endpoint-root-backtracks', '18', '--endpoint-root-armijo', '0.0001', '--endpoint-control-radius', '2.0', '--normal-stages', '32', '--gamma-left', '1/16', '--gamma-middle', '1/8', '--gamma-right', '3/16', '--moment-input', '/home/runner/work/_temp/visible-larger-research-46062343475-1/followup-sources/0003-dc8fac08e2e4-7936ae753065/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json', '--moment-input-sha256', 'df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c', '--moment-definition-sha256', '05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e', '--moment-input-binding', 'supported-smooth-triangle-reference']' returned non-zero exit status 1.",
+  "last_traceback_final_line_clipped": true,
+  "first_and_last_are_same_traceback": false,
+  "no_traceback_tail_excerpt": "",
+  "no_traceback_tail_excerpt_clipped": false,
+  "maximum_excerpt_characters": 7000,
+  "traceback_scope": "first and last markers in bounded original log tail; no missing prefix inferred",
+  "complete_log_published": false,
+  "scientific_arrays_read": false,
+  "scientific_reports_read": false,
+  "field_or_J_evaluations": 0,
+  "numerical_failure_cause_inferred": false,
+  "github_run_id": "46062343475",
+  "github_run_attempt": "1"
+}
+```

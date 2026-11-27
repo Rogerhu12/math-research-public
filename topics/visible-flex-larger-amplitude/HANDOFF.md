@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `68c65990c5cc2dc20a5a4d7d5c25a2ceb1985120`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `4d47a51a25f7e27ef75dd69e58f796fb26bce420`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活13–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -28,7 +28,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 16[真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：model8cc/current7e06，Phi5551.477153263786/finiteGram.6480138218929927/g11.17545381570094；首trial4086统计返但geometry/decision未捕获；第二25f402统计5551.476309922079/.6480138082898852，geometry/decision未捕获；第三880d于20:22统计返5551.4767315961935/.6480138150914985，几何/决定未返，current/accepted0不变。
 17[真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：仅b/S=1/4、δ=1/32新seed，固定g/参考/全变量/32stage/预算原保。actual model f2e417/current7e06，Phi4954.71485872585/finiteGram.6374168330977955，完整有限geometry g2.0480426708394406>0/accepted0；首trial924732统计已返4954.694898882501/.6374164670510035，几何/决定未返。同坐标不同model绝不冒同场；原五peer CLI与四新unknown身份分开。六g完整定义保16note，实际最大分项未展示，不猜。
-18[全137角色入口](notes/2026-11-27-complete-meridian-batched-solver-entry.md)保39件1599149B、原120pairs/全部变量/32stage/预算/J/J*和每级final复读；41b4/d3f1/b54c、388c/7aa/51b7。全157/7 argv与原408/395、新458/445、live6+42、六g/上一完整trial保；两完整ready76339/65979B。 [实际启动/失败](notes/2026-11-27-run18-complete-meridian-batched-independent-launch.md)46062343475/1：两input0；20:24已返科学exit1（8.147s、缺report、command50540B/491c）。原因未回传，现接原runner完整5d25异常reader，三个已返对象全字保1b76后才退休；完整pure未排，不削参数、不重建已返输入。
+18[全137角色入口](notes/2026-11-27-complete-meridian-batched-solver-entry.md)保39件1599149B、原120pairs/全部变量/32stage/预算/J/J*和每级final复读；41b4/d3f1/b54c、388c/7aa/51b7。全157/7 argv与原408/395、新458/445、live6+42、六g/上一完整trial保；两完整ready76339/65979B。 [实际启动/失败](notes/2026-11-27-run18-complete-meridian-batched-independent-launch.md)46062343475/1：两input0；20:24已返科学exit1（8.147s、缺report、command50540B/491c）。原5d25诊断已0：normal388c构造时frameab282拒绝完整_meridian_data方法绑定；修其精确新方法/SHA全链，不删guard或改数学。原三步全字保1b76，原失败族固定36fb；完整pure未排，新输出修复继续，不重建输入。
 
 ## 全后继与未付责任
 
