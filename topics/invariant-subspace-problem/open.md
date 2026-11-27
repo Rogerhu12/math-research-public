@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-entire-Phi-zero-collision-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-Ahat-zero-complete-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -201,3 +201,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **Phi例外F26新PB补图输入：** 642bad只从精确已存F26输入开始，使用含原PB_even/PB_odd的新六行与U6目标，首次返回新QQ核心、与F26的真实QQ gcd；若无公共曲线才给有限权点覆盖。新固定rho模结式及匹配对偶只支付实际达到的最高度；不以模无根冒称QQ排空。120秒1GiB，不重放78旧七det。
 
 **Phi一般rho二次 ed0统一清Gram资源失败冻结。** run46016728393/job140565651692，102.023秒/905380KiB/inner−6 SIGABRT；FLINT明确无法分配101202984字节，非timeout。只返回原矩/两条2rho清分母线与20.004秒同H0公共content（55项），没有mean/N1或二行单位返回。原源与[准确失败](notes/2026-11-27-unit211-Phi-zero-general-rho-two-cleared-Gram-memory-failure-8542.md)保留，换小原标量/逐运算分母输入，不抬内存重放。
+
+**[lambda3/2、Ah0整个原支已排空](results/R150-appendix-unit211-W-lambda-three-halves-Ahat-zero-complete-original-exclusion.md)。** 410a真0.527秒/45844KiB/exit0；原Delta/二矩给首一T²与真实权单位D0，原三矩同T一次保R1零，34次QQ norm剥已付得完整14次因子，原61×15含个别N/P与全NV给常数1全部15列返回。仅在lambda3/2支付Ah；余G4/F18仍开。新a0e7采用另一同z完整原R2/H6固定8列覆盖，不重放旧六列/不用Ah新单位，180秒4GiB。
+
+**h=k新Q=1−u互补输入。** 7eaa在Delta非0以同f=F/Delta、t=Tnum/(bcQDelta)未缩放原八式接固定QQ投影；2298在Delta0首返三原相容多项式Delta/F/Tnum，Delta/(1−u)²对u二次头真实−4xi²，无Delta逆。只用本碰撞已付u−ell/T0/(J−Q)/Phi等原单位，整个Delta0及非恒定覆盖仍须返原Gram；两次各180秒4GiB，未执行不作闭合声明。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W lambda=3/2的整个Ah=0原支排除](results/R150-appendix-unit211-W-lambda-three-halves-Ahat-zero-complete-original-exclusion.md)：原T²/同T一次给完整14次QQ覆盖，61×15原Gram/个别N/P真1；仅所述纤维付Ah。
+
 - [h=k整个Phi=0原碰撞面排除](results/R150-appendix-unit211-equal-singleton-entire-Phi-zero-original-exclusion.md)：一般ell≠1完整QQ投影与互补ell1u2全四次代数/自由Q原Bézout1；余h=k可付Phi，整个碰撞仍开。
 
 - [W五条低阶原组合与两生成元补图](results/R150-appendix-unit211-W-three-original-quadratic-low-cofactors-and-two-generator-chart.md)：三二次给共同A143首项、完整仿射/二次及三同F立方；全部首项零支保留，原qF/N/P仍须返回。

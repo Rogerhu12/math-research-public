@@ -850,3 +850,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - af821真实46017199172/job140567258560：9.967秒/35672KiB/exit0，全四次常数代数与自由Q八原式，E1/EBe完整K[Q]单位，小证书5263B；合33e互补图，整个h=k,Phi0闭。
 - 保7f9首源变量遮蔽失败身份，未借旧D≠0图。h=k现在付u−ell/T0/(J−Q)/Pf/Phi，整个碰撞继续。
 - ed0新一般rho清Gram在102.023秒/905380KiB/SIGABRT失败，FLINT明确内存分配报错，只有两线/content返回；准确小note/receipt冻结，不当数学成功或抬限重跑。
+
+2026-11-27 22:43 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 410a实际46016734237/job140565671613：0.527秒/45844KiB/源exit0，原T²/同T一次保全部R1零，34→14次QQ覆盖全因子原61×15返回常数1/129真逆；lambda3/2整Ah0闭，覆盖及原谱行严格同点。
+- 新a0e7同z原R2/H6固定8列首次投影，不重放旧六列、不用新Ah单位；180秒4GiB。
+- 根新7eaa/2298分别h=k,Q1−u,Delta非0八式/Delta0原相容，真二次头−4xi²已乘回；各180秒4GiB，所有旧D图作用域分离。三个课题外workflow已记本题，普通ISP继续。
