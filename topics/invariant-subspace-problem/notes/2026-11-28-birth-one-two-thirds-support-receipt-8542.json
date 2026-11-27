@@ -1,0 +1,232 @@
+{
+  "all_pass": true,
+  "smallSupports": "support <=2 vanishes; support 3 is 2*e2^2*e3*A*C2^2*A",
+  "summaries": [
+    {
+      "support": 4,
+      "independentCovarianceConstruction": true,
+      "stats": [
+        {
+          "order": 1,
+          "originalTerms": 49,
+          "positiveResidual": {
+            "terms": 49,
+            "min": "1",
+            "max": "38"
+          },
+          "repair": []
+        },
+        {
+          "order": 2,
+          "originalTerms": 301,
+          "positiveResidual": {
+            "terms": 289,
+            "min": "4",
+            "max": "5252"
+          },
+          "repair": [
+            {
+              "i": 0,
+              "k": 2,
+              "polynomial": "4*x^4*y^6*(x^2-x*y+y^2)"
+            },
+            {
+              "i": 0,
+              "k": 3,
+              "polynomial": "4*x^4*y^6*(x^2-x*y+y^2)"
+            },
+            {
+              "i": 1,
+              "k": 2,
+              "polynomial": "4*x^4*y^6*(x^2-x*y+y^2)"
+            },
+            {
+              "i": 1,
+              "k": 3,
+              "polynomial": "4*x^4*y^6*(x^2-x*y+y^2)"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "originalTerms": 808,
+          "positiveResidual": {
+            "terms": 808,
+            "min": "12",
+            "max": "851350"
+          },
+          "repair": []
+        }
+      ]
+    },
+    {
+      "support": 5,
+      "independentCovarianceConstruction": true,
+      "stats": [
+        {
+          "order": 1,
+          "originalTerms": 107,
+          "positiveResidual": {
+            "terms": 107,
+            "min": "9",
+            "max": "216"
+          },
+          "repair": []
+        },
+        {
+          "order": 2,
+          "originalTerms": 916,
+          "positiveResidual": {
+            "terms": 916,
+            "min": "54",
+            "max": "259368"
+          },
+          "repair": []
+        },
+        {
+          "order": 3,
+          "originalTerms": 3636,
+          "positiveResidual": {
+            "terms": 3636,
+            "min": "432",
+            "max": "551358988"
+          },
+          "repair": []
+        },
+        {
+          "order": 4,
+          "originalTerms": 9996,
+          "positiveResidual": {
+            "terms": 9996,
+            "min": "2592",
+            "max": "1055567585280"
+          },
+          "repair": []
+        }
+      ]
+    },
+    {
+      "support": 6,
+      "independentCovarianceConstruction": true,
+      "stats": [
+        {
+          "order": 1,
+          "originalTerms": 120,
+          "positiveResidual": {
+            "terms": 120,
+            "min": "18",
+            "max": "426"
+          },
+          "repair": []
+        },
+        {
+          "order": 2,
+          "originalTerms": 1275,
+          "positiveResidual": {
+            "terms": 1275,
+            "min": "360",
+            "max": "2969888"
+          },
+          "repair": []
+        },
+        {
+          "order": 3,
+          "originalTerms": 6170,
+          "positiveResidual": {
+            "terms": 6170,
+            "min": "5400",
+            "max": "27990920544"
+          },
+          "repair": []
+        },
+        {
+          "order": 4,
+          "originalTerms": 20321,
+          "positiveResidual": {
+            "terms": 20321,
+            "min": "162000",
+            "max": "211289708801652"
+          },
+          "repair": []
+        },
+        {
+          "order": 5,
+          "originalTerms": 53094,
+          "positiveResidual": {
+            "terms": 53094,
+            "min": "2916000",
+            "max": "1688540675474782644"
+          },
+          "repair": []
+        }
+      ]
+    }
+  ],
+  "large": {
+    "sevenSitePairDeterminant": [
+      "0",
+      "9900",
+      "141600",
+      "3019000",
+      "141600",
+      "9900",
+      "0"
+    ],
+    "eightSiteTwoCoordinateDeterminant": "3024000",
+    "laplacians": [
+      {
+        "alpha": [
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largestOffDiagonal": "0"
+      },
+      {
+        "alpha": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largestOffDiagonal": "-420"
+      },
+      {
+        "alpha": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largestOffDiagonal": "-840"
+      }
+    ]
+  },
+  "coefficientDegree": 10,
+  "monomialBase": 32,
+  "maximumIntermediateExponent": 20,
+  "conclusion": "For every N>=4 and every independent positive physical weight, Gamma1 Gamma2^{-1} Gamma1 < (2/3) Gamma0 on the complete birth-one primitive space. No general higher-birth claim.",
+  "runtimeMilliseconds": 9167,
+  "execution": "Fresh V8; exact BigInt arithmetic; no shell or external dependencies",
+  "previousFailure": {
+    "result": "all small-support checks completed; stopped at an overly strict off-diagonal sign assertion in certifyLarge",
+    "message": "large-support Laplacian edge",
+    "durationSeconds": 10.5
+  }
+}

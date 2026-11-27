@@ -1,18 +1,15 @@
 {
-  "message": "ISP: return four complete original polynomials on the remaining collision Delta nonzero chart",
-  "parentCommit": "a18da5e44c257156799a01f824079cff15dcdd0f",
+  "message": "ISP: prove the sharp two-thirds universal physical birth-one first and last edge bounds",
+  "parentCommit": "1842a091b396c1d280c919b99794d1a7fb170aa4",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-nonzero-four-original-polynomials-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-collision-Delta-nonzero-four-original-exact-input-part1-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-collision-Delta-nonzero-four-original-exact-input-part2-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Delta-nonzero-two-original-QQ-projections-8542.py",
-    ".github/workflows/invariant-subspace-collision-delta-nonzero-two-original-qq-projections-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-collision-Delta-nonzero-four-original-polynomials-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-birth-one-two-thirds-support-certificate-8542.mjs",
+    "topics/invariant-subspace-problem/notes/2026-11-28-birth-one-two-thirds-support-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-sharp-birth-one-two-thirds-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-collision-delta-nonzero-two-original-qq-projections-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** a18da5e44c257156799a01f824079cff15dcdd0f（2026-11-27 16:48:11 UTC，Actions run46036611807实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46036611807-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 16:48:11 UTC/857ff63a4f0dc989a1bcedbeed35e44357723dcd，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `a18da5e44c257156799a01f824079cff15dcdd0f`（2026-11-27 16:47:46 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `1842a091b396c1d280c919b99794d1a7fb170aa4`（2026-11-27 16:49:11 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-collision-Delta-nonzero-four-original-polynomials-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-sharp-birth-one-two-thirds-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -47,7 +47,7 @@
 
 - M=kerT、N=closureBM、W=M⊖N，N=M未证。固定闭G的proper U、目标U全部交织/rho及B/dyadic不保持U已付。新同G稀疏注入链全H稠密、全κ三次增长，ℒ_e0给B→完整T迹类拟亲和；新移级不可闭。真w仍ℒ_w|M=e0⊗w并灭N，不付G保N/正角/真实源费。
 - 真实E为T*y=Sf、By+Tf=0。闭X/Y与F=P_I X、Z:F→W给核心⇔F0、首范围⇔Z0、次范围需closureZF=W。两型Schur三正项及alpha^-2、物理双坐标界已付；真矩自动存在、P_Lr_D0、实际RanK*费仍开。
-- Γ有限恰同g0在实际RanK*，W只付闭包。C2/临界s0/[s0,1]图核心、全整数窗/前缀/同源dyadic费均保精确原稿；s→0、E0/Z0、同W费用上界/倒数发散未付。尾阻尼交叉、完整primitive跨出生硬核源继续；浮点不作严界。G0多值/非闭像及五坐标通用升级反例冻结，不能外推同W。
+- Γ有限恰同g0在实际RanK*，W只付闭包；s→0、E0/Z0、同W费上界/倒数发散未付。全部C2/临界/整数窗/前缀/dyadic核心、G0多值非闭像/五坐标反例保原稿与归档，不能外推同W。新出生一首末边对全有限正权及无限正ell2行，真Γ1Γ2⁻¹Γ1<2Γ0/3且常数统一尖锐；新次数10整数证书V8 9167ms全返，首失败严格负误断言已保存。高出生S1/S2及完整同源joint MP仍开，浮点不作严界。
 
 ## 原Haar未知普通M与闭域
 
