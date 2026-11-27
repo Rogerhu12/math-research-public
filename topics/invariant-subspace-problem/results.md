@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整K7原理想三次平方；完整规范scheme长≤72、不同点≤36](results/R150-appendix-unit211-W-entire-K7-original-cubic-square-cover-and-finite-environment.md)：85bc真148.81632278秒/0，16原行和两个固定常数余子式经QQ Bézout完整返$(m^3-4m^2-6m+18)^2$；全部临时主元零保，六原迹实际乘回。三整共轭纤维尚待原值返回，未排整个K或W。
+
 - [Phi/H1 原理想全局首一六次；每权长≤18、完整规范不同点≤28944](results/R150-appendix-unit211-Phi-zero-H1-global-original-monic-six-and-finite-normalized-points.md)：74b真0.998030146秒/0；六cofactor属于同一原理想，Q4 adj/norm与QQ Bézout共同C95全因子已付。1,T,v三生成付18；804权对付五坐标14472，完整Gram/HAHB唯一恢复后仅rho两根付28944，非全局scheme长，不排空。
 
 - [整K7权曲线与原rho的双向有理参数](results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md)：实际V8 BigInt17ms/40完整身份，m及sigma覆盖两值分支、判别式零及所有当前有限原点；每个新分母对应原已付单位。只换同一原输入，未排空K7。

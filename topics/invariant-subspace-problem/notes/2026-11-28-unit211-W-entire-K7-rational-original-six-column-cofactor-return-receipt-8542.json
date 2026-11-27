@@ -1,0 +1,486 @@
+{
+  "schema": "isp-original-K7-cubic-square-cover-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28 (Asia/Taipei)",
+  "scope": "Current general LS Delta=0 W=0 original physical distinct-value domain, whole K7=0",
+  "source": {
+    "path": "notes/2026-11-28-unit211-W-entire-K7-rational-original-six-column-cofactor-return-8542.py",
+    "blob": "85bc58c0b57c8e6250c1cc82c7521bcebfd35a5b",
+    "bytes": 17866,
+    "sha256": "0f9413d3cee49a1feacf46992cfbefd91c3c3f1ff41e1954cd0bd9795b2e78bf"
+  },
+  "run": 46075250765,
+  "job": 140761370773,
+  "driver": {
+    "elapsed_seconds": 148.81632278,
+    "max_child_rss_kib": 242692,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "bf5f7e9708e3438b3c4f0435e1c908b0f95f933a",
+        "before": "bd359ea13859b221a4add6695addf5dc7c6eaf46",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T22:13:20.282297+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46075250765",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "bd359ea13859b221a4add6695addf5dc7c6eaf46",
+    "source_exit_code": 0,
+    "source_git_blob": "85bc58c0b57c8e6250c1cc82c7521bcebfd35a5b",
+    "source_sha256": "0f9413d3cee49a1feacf46992cfbefd91c3c3f1ff41e1954cd0bd9795b2e78bf",
+    "stdout_bytes": 8129,
+    "stdout_sha256": "7c285e3acb1815c82d81e69e92b51f50931c13b4373e73ea5cb46533ccd4b3c2",
+    "stop_reason": null
+  },
+  "mathematicalRecords": [
+    {
+      "stage": "new_entire_K7_original_Gram_row",
+      "name": "E1",
+      "mDegree": 15,
+      "terms": 101,
+      "originalScaleMultipliedBack": true,
+      "allDenominatorsPaid": true,
+      "seconds": 0.20761333600000142
+    },
+    {
+      "stage": "new_entire_K7_original_Gram_row",
+      "name": "EBe",
+      "mDegree": 10,
+      "terms": 78,
+      "originalScaleMultipliedBack": true,
+      "allDenominatorsPaid": true,
+      "seconds": 0.2093160900000015
+    },
+    {
+      "stage": "new_entire_K7_original_Gram_row",
+      "name": "EBo",
+      "mDegree": 10,
+      "terms": 72,
+      "originalScaleMultipliedBack": true,
+      "allDenominatorsPaid": true,
+      "seconds": 0.21110852099999988
+    },
+    {
+      "stage": "new_entire_K7_original_Gram_row",
+      "name": "N1",
+      "mDegree": 18,
+      "terms": 154,
+      "originalScaleMultipliedBack": true,
+      "allDenominatorsPaid": true,
+      "seconds": 0.21438127000000406
+    },
+    {
+      "stage": "new_entire_K7_original_Gram_row",
+      "name": "NS",
+      "mDegree": 25,
+      "terms": 415,
+      "originalScaleMultipliedBack": true,
+      "allDenominatorsPaid": true,
+      "seconds": 0.21969063699999936
+    },
+    {
+      "stage": "new_entire_K7_original_Gram_row",
+      "name": "PS",
+      "mDegree": 25,
+      "terms": 416,
+      "originalScaleMultipliedBack": true,
+      "allDenominatorsPaid": true,
+      "seconds": 0.2249891940000026
+    },
+    {
+      "stage": "new_entire_K7_global_original_six_rules_and_18_products",
+      "originalDefinitionPrefixBytes": 6015,
+      "originalRulePrefixBytes": 8441,
+      "actualHeadNumeratorsAndDenominatorsPaid": true,
+      "fullOriginalTraceProductsVerified": true,
+      "wholeK7RationalCoverVerified": true,
+      "temporaryFieldPivotsWillNotBeAssumedUnits": true,
+      "basis": [
+        "1",
+        "x",
+        "y",
+        "t",
+        "y^2",
+        "y*t"
+      ],
+      "claimExcluded": false,
+      "seconds": 0.8080059199999994
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 0,
+      "label": "NS",
+      "degree": 40,
+      "genericRowRank": 1,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 0.8294647319999982
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 1,
+      "label": "PS",
+      "degree": 40,
+      "genericRowRank": 2,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 0.8545487140000034
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 2,
+      "label": "unused_original_overlap_1",
+      "degree": 33,
+      "genericRowRank": 3,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 0.9022712909999981
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 3,
+      "label": "unused_original_overlap_3",
+      "degree": 31,
+      "genericRowRank": 4,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 0.9538909560000022
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 4,
+      "label": "NS*y",
+      "degree": 51,
+      "genericRowRank": 5,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.0245635799999988
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 5,
+      "label": "NS*t",
+      "degree": 55,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.1055730269999984
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 6,
+      "label": "PS*y",
+      "degree": 51,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.1791981840000076
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 7,
+      "label": "PS*t",
+      "degree": 55,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.2596057069999986
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 8,
+      "label": "comm_0_1_4",
+      "degree": 39,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.3322870720000068
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 9,
+      "label": "comm_0_1_5",
+      "degree": 40,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.3994276200000044
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 10,
+      "label": "comm_0_2_1",
+      "degree": 33,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.4347163889999948
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 11,
+      "label": "comm_0_2_3",
+      "degree": 31,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.476505115000002
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 12,
+      "label": "comm_0_2_4",
+      "degree": 39,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.5442110990000018
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 13,
+      "label": "comm_0_2_5",
+      "degree": 42,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.6144311279999997
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 14,
+      "label": "comm_1_2_4",
+      "degree": 39,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.681775476999995
+    },
+    {
+      "stage": "new_entire_K7_polynomial_original_six_column_row",
+      "index": 15,
+      "label": "comm_1_2_5",
+      "degree": 40,
+      "genericRowRank": 6,
+      "fullOriginalTraceAndPaidProductsVerified": true,
+      "genericSelectionPivotsNotInvertedGeometrically": true,
+      "claimExcluded": false,
+      "seconds": 1.743433556999996
+    },
+    {
+      "stage": "new_entire_K7_first_polynomial_constant_cofactor",
+      "selectedOriginalRows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rawDeterminant": {
+        "degree": 242,
+        "bytes": 43270,
+        "sha256": "227825165445928be2c881acd6e381885bb76f3f809307433eb00d65377845d7"
+      },
+      "paidResidual": {
+        "degree": 107,
+        "bytes": 9890,
+        "sha256": "116b0ea61acae8c24638e26cf55937e2f24b8906c21eb0274e5d941ffee3384a"
+      },
+      "all72AdjugateAndSixColumnProductsVerified": true,
+      "temporaryPivotZeroFibresPreserved": true,
+      "claimExcluded": false,
+      "seconds": 2.325437000000001
+    },
+    {
+      "stage": "new_entire_K7_polynomial_cofactor_Bezout_drop",
+      "row": 6,
+      "replacedPosition": 0,
+      "gcd": {
+        "degree": 6,
+        "bytes": 39,
+        "sha256": "2ec0b7bd102fdbd6630b3efe32595ddc7be94412040524b10bf08357c2b3d5ac"
+      },
+      "fullReplacementDeterminantAndSixConstantProductsVerified": true,
+      "fullUnivariateBezoutAndUpdatedOriginalRowProductsVerified": true,
+      "allTemporaryPivotZeroFibresPreserved": true,
+      "claimExcluded": false,
+      "seconds": 144.600186085
+    },
+    {
+      "stage": "new_entire_K7_original_polynomial_constant_return_complete",
+      "originalRows": 16,
+      "selectedRows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cofactorGcdEvents": [
+        {
+          "source": "selected_six",
+          "degree": 107,
+          "paidRemoved": [
+            [
+              "entire_parameter_m",
+              20
+            ],
+            [
+              "entire_parameter_A",
+              5
+            ],
+            [
+              "e",
+              8
+            ],
+            [
+              "distinct_p_q",
+              4
+            ],
+            [
+              "P02",
+              2
+            ],
+            [
+              "bc",
+              6
+            ],
+            [
+              "whole_equal_weights_k_plus_two",
+              14
+            ],
+            [
+              "whole_C9",
+              5
+            ],
+            [
+              "whole_J19",
+              8
+            ]
+          ]
+        },
+        {
+          "row": 6,
+          "replacedPosition": 0,
+          "degree": 6,
+          "paidRemoved": [
+            [
+              "entire_parameter_m",
+              20
+            ],
+            [
+              "entire_parameter_A",
+              5
+            ],
+            [
+              "e",
+              8
+            ],
+            [
+              "distinct_p_q",
+              4
+            ],
+            [
+              "P02",
+              2
+            ],
+            [
+              "bc",
+              7
+            ],
+            [
+              "whole_equal_weights_k_plus_two",
+              14
+            ],
+            [
+              "whole_C9",
+              6
+            ],
+            [
+              "whole_J19",
+              8
+            ]
+          ]
+        }
+      ],
+      "exactBareissDivisionProducts": 1605,
+      "cover": {
+        "degree": 6,
+        "bytes": 39,
+        "sha256": "2ec0b7bd102fdbd6630b3efe32595ddc7be94412040524b10bf08357c2b3d5ac",
+        "coefficientsAscending": [
+          "324",
+          "-216",
+          "-108",
+          "84",
+          "4",
+          "-8",
+          "1"
+        ]
+      },
+      "wholeCoverFactorization": [
+        {
+          "multiplicity": 2,
+          "degree": 3,
+          "bytes": 20,
+          "sha256": "85bc19712a4f6c24343a9c305d300ffd454a70b2971c52a29d00c1f9fe8a30d4",
+          "coefficientsAscending": [
+            "18",
+            "-6",
+            "-4",
+            "1"
+          ]
+        }
+      ],
+      "wholeCoverFactored": true,
+      "completeOriginalSixTermTraceVerified": true,
+      "originalTraceDefinitionOnly": {
+        "bytes": 41158202,
+        "sha256": "ff723c0603dbaef47653115020b6e39383e5c58a2c3d74a62a59b8ea90600390"
+      },
+      "allTraceDenominatorsPreviouslyPaid": true,
+      "everyTemporaryFieldPivotZeroFibrePreserved": true,
+      "wholeCurrentK7Excluded": false,
+      "finiteParameterCoverOnly": true,
+      "noCoefficientCacheWritten": true,
+      "seconds": 148.71970069099999
+    }
+  ],
+  "originalIdealIdentity": "sum_j T_j*(E1,EBe,EBo,N1,NS,PS)_j = (m^3-4*m^2-6*m+18)^2",
+  "bound": {
+    "differentWeights": 3,
+    "differentMeanPoints": 18,
+    "differentCompleteNormalizedPoints": 36,
+    "nonreducedWeightLength": 6,
+    "nonreducedMeanLengthAtMost": 36,
+    "nonreducedCompleteNormalizedLengthAtMost": 72
+  },
+  "largeRecomputableTraceSaved": false,
+  "oldSuccessfulGateReplayed": false,
+  "wholeKExcluded": false,
+  "ordinaryISPClaim": false
+}
