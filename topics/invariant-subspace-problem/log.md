@@ -639,3 +639,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 20:18 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新27211310/blobabd6f94b只复用已刊h=k≠1原矩参数化，首次送原N4(V)线、Delta完整b四次及非零图八个原Gram值；两个singleton均保h²/h³靶，D=0不倒，Pf/S/norm不倒。
 - 公开新workflow invariant-subspace-equal-singleton-original-quartic-8542.yml；180秒4GiB、外195秒，单一原Gram helper41459fea，冻结大门不重跑。尚未冒称执行成功或原支排空。
+
+2026-11-27 20:22 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- ecea3052真run45996824454/job140498201469，0.219095405秒/38440KiB/inner0；原矩覆盖λ半或3λ²−2λ+1，Phi只余ell1/3/2，前者等权已闭，后者两个完整常数域原E1/EB都返1，整c1/2闭。
+- 1e837721真5.506421563秒/57548KiB/inner0，新NB/PB固定36/38阶投影仍gcd908；六phi主R模重数合840，QQ整除尚未冒称。新11fc首次真实QQ局部核行，120秒1GiB。
+- 27211310真run45997577456/job140500746670，0.079589205秒/41048KiB/inner1；原Delta首一b4和N4线已完成，c=ell-b非底环量使H=bDelta分母审计停止。新fdece仅将原单位尺度改H=bcDelta并首接八行，180秒4GiB；不加norm/D/Pf/S逆。
+- 本次新增两题外workflow已登记；H/open压缩前完整快照保存，未关闭任何省略接口。
