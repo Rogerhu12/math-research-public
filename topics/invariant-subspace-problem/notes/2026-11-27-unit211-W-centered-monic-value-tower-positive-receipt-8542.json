@@ -1,0 +1,86 @@
+{
+  "schema": "isp-W-original-value-identities-and-monic-four-generator-model-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "proof": {
+    "blob": "ce37cbc90b22eb285665dc11c6830d9b3eb3e5e4",
+    "bytes": 6446,
+    "sha256": "73716fa0d01892f4ab09f964abf2be73cfa2fcce100c28333acf7e3312dae5f1"
+  },
+  "source": {
+    "blob": "54b9b0c7d04982e78829da8b1886ec5b92b49a04",
+    "sha256": "7681be8c837ed4f45929815627f5d1d1421fdf955f94213277333bf430d07e4b",
+    "bytes": 26170,
+    "limits": {
+      "seconds": 180,
+      "addressSpaceGiB": 4
+    }
+  },
+  "executionStatus": "completed new original identities and monic tower; later ambient expansion SIGALRM",
+  "actual": {
+    "run": 45981471920,
+    "job": 140446181313,
+    "driver": {
+      "elapsed_seconds": 180.075155169,
+      "max_child_rss_kib": 96736,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "209b0c5a874c6a4e8c6483fd0b5d83de845fe224",
+          "before": "209b0c5a874c6a4e8c6483fd0b5d83de845fe224",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T10:22:08.946270+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45981471920",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "209b0c5a874c6a4e8c6483fd0b5d83de845fe224",
+      "source_exit_code": -14,
+      "source_git_blob": "54b9b0c7d04982e78829da8b1886ec5b92b49a04",
+      "source_sha256": "7681be8c837ed4f45929815627f5d1d1421fdf955f94213277333bf430d07e4b",
+      "stdout_bytes": 15122,
+      "stdout_sha256": "33b1958fd4476903af4733eb712f3e50a6678c0e5c77a888c75cde73fd4d0ce2",
+      "stop_reason": null
+    },
+    "completedNewStages": [
+      {
+        "stage": "new_W_centered_value_true_monic_tower",
+        "s": "(ell*zeta-T)/u=-v1",
+        "v0": "(T+(u-ell)*s)/ell",
+        "zeta": "(T+u*s)/ell",
+        "originalFirstSecondThirdMomentsActuallyRebuilt": true,
+        "secondMomentIdentity": "ell*E2=M*s^2-D",
+        "thirdMomentIdentity": "ell^2*B-3ell*T*A+2T^3-2(u-ell)*D*s=ell*(2(u-ell)*s+3ell+3T)*E2-ell^2*E3",
+        "newMonicRelation": "s^2=Dlinear/M",
+        "originalMonicTraceActuallyVerified": true,
+        "noDOrDNormInverted": true,
+        "originalDUnitStillRequired": true,
+        "claimExcluded": false,
+        "seconds": 1.442233796
+      },
+      {
+        "stage": "new_W_full_original_value_and_individual_NP_identities",
+        "branchAssumption": "original Delta=0 and W=0 only",
+        "originalEDeltaAndECompatibilityRebuilt": true,
+        "originalN4VCorrectionMinusQfHAOveru2ActuallyVerified": true,
+        "originalP1AndCompatibilityProductsVerified": true,
+        "individualNAndPBothSpectralConjugatesVerified": true,
+        "weightedNSPSDerivedFromIndividualRowsAndOriginalMoments": true,
+        "originalLambdaDValueZetaAndSUnitsRetained": true,
+        "noDOrValueLeadingDivided": true,
+        "claimExcluded": false,
+        "seconds": 2.477233700000003
+      }
+    ]
+  },
+  "negativeReceiptBlob": "bbf80c17682c6c72addfbb4373f76b422686d17a",
+  "formalFourGeneratorRelationsDefined": true,
+  "allTenExpandedRowsActuallyComputed": false,
+  "allEightExpandedMultiplicationColumnsActuallyComputed": false,
+  "wholeOriginalSystemExcluded": false
+}
