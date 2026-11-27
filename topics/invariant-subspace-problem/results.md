@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 unit211：Phi主rho头零支原mean/T闭包的C71,29](results/R150-appendix-unit211-Phi-zero-main-head-zero-mean-T-unit-six-C71-29.md)：同一点U6目标与全部六坐标回乘，完整新core保存；主支及新旧曲线关系未宣排空。
+
 - [R150 unit211：全原N1二次头与Phi零真正12生成元环境](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)：f自由时原z²头已付；Phi上保z、T6/z2首一环境，无D/SnZ/范数逆。
 
 - [R150 unit211：W 的整lambda=3/2原分支排除](results/R150-appendix-unit211-W-lambda-three-halves-complete-original-exclusion.md)：两个首一1009整QQ覆盖，完整模Bézout返回1与Gauss；全当前W支付3−2lambda。
