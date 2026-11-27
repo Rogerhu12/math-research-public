@@ -176,7 +176,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 
-[最大实际图的低余孔平方来源费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)现给同一规范来源 h 的新 C2 可支付扇区：任意 c<2^(1/3)−1，大首缺位 q 上只要来源总孔数≤q+floor(cq)−2，其费用由实际 (y,Gy) 图范数控制。由原 creation 交换子取得 η_(q−1) 级前缀界；因此物理孔数有界的实际 y 已在原图核心。剩余高余孔来源、同 W 的 Gamma 仍开；不假设任意物理孔截断保最大图域。
+[最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
 [H非零原头atlas及低次cubic补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)已给全部15二次头子式、4真实overlap及6三次子式。只在(k+2)J19*C9非零图得(1,x,y,t,y²,yt)六生成元，不断言自由；C9仅9项degree(e,k)=2/4。k=−2属等权分支，J19/C9整零面仍待原返回。继续同点原NS/PS与乘法矩阵，保全部主元边界。
 

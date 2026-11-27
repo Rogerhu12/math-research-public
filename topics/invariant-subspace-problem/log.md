@@ -155,3 +155,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新C9门实际180.073626917秒/RSS223228KiB/source−14：18真乘法、NSPS、8comm及9同点行全返，参数cofactor未完成；准确源/stdout哈希与run45944087815记notes。
 - 已记录05:09:37真实pull及两README无变；冻结该参数展开，改物理坐标/整零曲线，不加时重跑。
+
+2026-11-27 13:17 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 原有限压平的creation下界合实际最大图边界行，完整证明临界s0物理孔矩⇒同一h∈C2⇒原图核心；保真空/q0/取整/全Y carry。
+- 05:14:29私库接口核README未变及QUEUE正确，真实pull未冒认；继续未知Y真实矩或F/R/Z来源，普通ISP未完成。
