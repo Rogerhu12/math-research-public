@@ -6,15 +6,15 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：dbbc6e0f9884b07f41273a2fc41b362424051209**（2026-11-27 17:29 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：9742ed02137da6bbaf2d885457500f83912fdd6b**（2026-11-27 17:37 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
-已真实部分克隆/pull；16:40再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
+已真实部分克隆/pull；17:36再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
 H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-local-QC.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
-R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原D/Q/Q²值的完整全根留数及最多七阶jet已付，单位仍开。R1035–56的原PD/PF、全MW后M1与完整相位/全尾保逐字前态；R1047公共根界不代非中心排除，R1011 Lie横截不付整单位半径。
+R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原D/Q/Q²值的完整全根留数及最多七阶jet已付，单位仍开。旧原PD/PF、MW后M1及相位/全尾保归档；R1047公共根界不代非中心排除，R1011 Lie横截不付整单位半径。
 
 ## O0：全局范围与原 full47 的实际高度
 
@@ -70,6 +70,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1092](results/R1092-original-six-three-torsion-Cartier-values.md)：原FM截面在其余六三挠点的值精确为aH_p(432)=−a_p(Y²=X³−9X+9)；原étale商/微分/twist全付，2-division Q(ζ9)⁺给p2/5mod9单位。原H_p(0)、H_p′(0)及短η/ν仍开，继续真三分布。
 
+[R1109](results/R1109-original-Dixon-first-divided-Gross-Koblitz-layer.md)：原Dixon函数1−p的完整模p²/首除层已证；保全部三块λ1、Wilson/harmonic carry及原有理U0。与短η/ν的准确比较仍开。
+
 ## O2：原高近p值
 
 [R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
@@ -80,5 +82,5 @@ R1041/48原r2 bare为核范数，实际AS原函数和p-block给端点平方；�
 
 R1007/08原高度格三挠Picard/ℓ²及野3障碍仍保；R696/832只为指定Ω，R948只为两有限Abel零集。R805–930与R907四artifact真404保逐字前态，不重造。R707主41非47，R1004仅导子下界；Jaswal121未公认主结论不用。
 
-原λ=−6(b+1)/r（R1045.5）；两行MW后M1已成，最低w单位/正赋值深盘仍开。各原角色、尺度和O0–O6边界保open及归档；子问题完即续其余项，真正达README标准才收尾。
+原λ=−6(b+1)/r（R1045.5）；MW后M1已成，最低w单位/深盘仍开。全部尺度/边界保open及归档，真达README标准才收尾。
 

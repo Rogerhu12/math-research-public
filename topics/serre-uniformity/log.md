@@ -105,3 +105,8 @@
 ### 2026-11-27 17:29 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1108给原q² CM首log的完整residue-trace公式；补末端E_N仅线性等价时的强制AddFlip，固定étale D0后真符号为Tr/(εN)，保23、实际Hodge与全部共轭。
 - 原Reynolds/ζ/torsion Hensel/836jet/unit-pivot提升已证，四条实际CM Hecke关系把八列归约四基本类；本条纯证明，无新数值执行。Miller首4例运行中，继续q²实现与一般p障碍。
+
+
+### 2026-11-27 17:40 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1109付原退化Dixon函数的完整首除p层：两位Gamma整数证明、λ1三矩形与精确反射、全部Wilson/harmonic和原有理提升。与原η/ν的来源比较继续。
+- 17:36真实pull仍无执行环境，shell未运行；同步main8b90f22后两README无差异。R1108的原q²源与unit-pivot/末端trace分工实现，Miller首4例仍运行。

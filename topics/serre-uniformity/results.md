@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- **R1109（已证明）**：[R1109](results/R1109-original-Dixon-first-divided-Gross-Koblitz-layer.md)：原Dixon函数1−p的完整模p²/首除层已证；保全部三块λ1、Wilson/harmonic carry及原有理U0。与短η/ν的准确比较仍开。
+
 - **R1108（读取公式与整算法已证明）**：[R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²源、末端强制归一和有限étale residue-trace精确读首log；保signed N与原23尺度。八CM列由四基本类及实际T2/T3关系给出；公式已证，q²新值待执行。
 
 - **R1106（已证明，精确计算）**：[R1106](results/R1106-certified-original-all73-angle-actions-and-two-generators.md)：run45969880122/job140407429635，66.005秒；CM76全73循环det1693，原23角实际坐标/全组合律/trace齐备。ZA=13R0+4R2、ZB=2R4−7R0在全部28块无共同零，生成整T；不代QC行秩。

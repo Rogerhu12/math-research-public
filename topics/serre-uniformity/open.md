@@ -96,6 +96,8 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 [R1092](results/R1092-original-six-three-torsion-Cartier-values.md)：原FM截面在其余六三挠点的值精确为aH_p(432)=−a_p(Y²=X³−9X+9)；原étale商/微分/twist全付，2-division Q(ζ9)⁺给p2/5mod9单位。原H_p(0)、H_p′(0)及短η/ν仍开，继续真三分布。
 
+[R1109](results/R1109-original-Dixon-first-divided-Gross-Koblitz-layer.md)：原Dixon函数1−p的完整模p²/首除层已证；保全部三块λ1、Wilson/harmonic carry及原有理U0。与短η/ν的准确比较仍开。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 [R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
