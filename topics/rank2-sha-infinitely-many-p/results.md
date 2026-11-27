@@ -14,7 +14,7 @@ Kriz7.20尚缺本题两个截面的共同连通延拓或真实flat/depletion交�
 
 - [截至R950的完整旧索引](notes/2026-11-26-results-index-through-r950.md)。
 - [本次整理前完整索引](notes/2026-11-27-results-index-before-original-inert-residue.md)：保R951至R1049§10的全部条目、更正、真实运行回执与归档入口；因文件接近100KB而移出，本次未删除任何结论。
-- [R901–R950](notes/PROOF-INDEX-R901-R950.md)、[R951–R1000](notes/PROOF-INDEX-R951-R1000.md)、[R1001–R1050](notes/PROOF-INDEX-R1001-R1050.md)。
+- [R901–R950](notes/PROOF-INDEX-R901-R950.md)、[R951–R1000](notes/PROOF-INDEX-R951-R1000.md)、[R1001–R1050](notes/PROOF-INDEX-R1001-R1050.md)、[R1051–R1100](notes/PROOF-INDEX-R1051-R1100.md)。
 - [当前实际门](open.md)和[交接](HANDOFF.md)保同一原来源、全部未付条件与接续分工。
 
 ## 当前新增结论
@@ -166,3 +166,6 @@ $$
 
 
 - [R1050：原标量厚纤维及T/v准确返回](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)（已证明）：完整自由代数中 $\pi^jA/\pi^{j+1}A\simeq A/\pi A$，故原 $\pi^mA$ 每个局部分量全长为 $m\deg(\pi)d_i$、重数为 $md_i/f_i$；$d_i$ 是整个非约化分量维数。原T/v在两图的完整scalar HNF逐式固定，finite v同T负点取有号重数−1/2，∞取同原重数。专用geometry支撑只消费point+m，因而可用全滤过回执保所有厚度而不重做其不消费的local projector；通用需完整ideal的接口不变。原四交/Norm/$18\times9$及主无穷$p$目标仍未付，软件实现待实际验证。
+
+
+- [R1051：原完整 Gaussian 的全深折回与全部精度节点递推](results/R1051-original-full-depth-gaussian-node-recurrence.md)（已证明）：基线所有物理行模 $p$ 按数字和 $s_p(q)$ 精确折回原首窗，保 Gaussian 单位与 factorial 单位；同一原来源的全行 $\mathcal Y_{r,q}=p^q q![w^{r+sq}]\Phi$ 具有完整节点系数 $C_{\rho,j,r}$，其赋值至少 $\lceil\eta j-\vartheta\rceil$。任意 $H$ 由真正首一 $\prod_{\rho=0}^{p-1}(T-a\rho)^{\lfloor H/\eta\rfloor}$ 给全部后行递推。连续前缀和适配整旗标保全部 Smith 精度及实际对角 $\epsilon$，但已付加权收益仍仅 $O(M_D)$，未达 $3M_D\log D$ 主门；坏 canonical 条件仍是含全部 $k\gamma_m^k$ 分母的同源加权行，不能免费变成逐节点消失。

@@ -3,7 +3,7 @@
 主目标：固定一条 $E/\mathbf Q$，完整证明 $\operatorname{rank}E(\mathbf Q)\ge2$ 且无穷不同 $p$ 的通常全 $\Sha(E/\mathbf Q)[p^\infty]$ 有限。**未完成；持续研究。**
 
 2026-11-27 / Astra-rank2-Sha-0b097461-20261127。
-[本次整理前完整 open](notes/2026-11-27-open-before-positive-characteristic-forest.md)逐字保全部旧问题、公式、source/run、失败、未付条件与更早归档链；下列整理不删除未闭门或改变既有结论。证明见 [results](results.md)、[R1001–1050 索引](notes/PROOF-INDEX-R1001-R1050.md) 和 [HANDOFF](HANDOFF.md)。
+[本次整理前完整 open](notes/2026-11-27-open-before-positive-characteristic-forest.md)逐字保全部旧问题、公式、source/run、失败、未付条件与更早归档链；下列整理不删除未闭门或改变既有结论。证明见 [results](results.md)、[R1001–1050 索引](notes/PROOF-INDEX-R1001-R1050.md) 、[R1051–1100 索引](notes/PROOF-INDEX-R1051-R1100.md) 和 [HANDOFF](HANDOFF.md)。
 
 ## O新来源. 同一个 canonical 斜率的实际几何非零
 
@@ -102,7 +102,7 @@ R984原规范循环Griffiths非零不付各p AJ；R988 level12 K3–E0²实现�
 
 ## O厚点. 唯一原完整执行
 
-原q5/q11全影子倒6零、q11完整NS/Br/MW和q11 Manin唯一run46018592834已付，不重跑。v11真时限终态沿原归档。[v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；这一个别名的保全部原门软件核验已于run46076504365真PASS，原primary局部平方重复已公开软件PASS（run46077929103）。[R1050：原标量厚纤维及T/v准确返回](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)（已证明）：完整自由代数中 $\pi^jA/\pi^{j+1}A\simeq A/\pi A$，故原 $\pi^mA$ 每个局部分量全长为 $m\deg(\pi)d_i$、重数为 $md_i/f_i$；$d_i$ 是整个非约化分量维数。原T/v在两图的完整scalar HNF逐式固定，finite v同T负点取有号重数−1/2，∞取同原重数。专用geometry支撑只消费point+m，因而可用全滤过回执保所有厚度而不重做其不消费的local projector；通用需完整ideal的接口不变。原四交/Norm/$18\times9$及主无穷$p$目标仍未付，软件实现待实际验证。，不将时限退出作反例，不重复相同生产输入。
+原q5/q11全影子倒6零、q11完整NS/Br/MW和q11 Manin唯一run46018592834已付，不重跑。v11真时限终态沿原归档。[v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；这一个别名的保全部原门软件核验已于run46076504365真PASS，原primary局部平方重复已公开软件PASS（run46077929103）。[R1050：原标量厚纤维及T/v准确返回](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)（已证明）：完整自由代数中 $\pi^jA/\pi^{j+1}A\simeq A/\pi A$，故原 $\pi^mA$ 每个局部分量全长为 $m\deg(\pi)d_i$、重数为 $md_i/f_i$；$d_i$ 是整个非约化分量维数。原T/v在两图的完整scalar HNF逐式固定，finite v同T负点取有号重数−1/2，∞取同原重数。专用geometry支撑只消费point+m，因而可用全滤过回执保所有厚度而不重做其不消费的local projector；通用需完整ideal的接口不变。原四交/Norm/$18\times9$及主无穷$p$目标仍未付，软件实现待实际验证；不将时限退出作反例，不重复相同生产输入。
 
 保原两char0 pins、全60源/29/2453/64/minimal及全部原几何门；即使有限影子通过，真正无穷p主门仍须另付。
 
@@ -121,6 +121,13 @@ O4：原O格Q=δ^a εw需无穷ordinary p有a≤1；E17的a偶、E389的lengthSh
 - 原 S3150 的完整450维点载体、有限 point-only 投影及 $K/Y$ 非零已闭；仍缺同一 canonical 坏条件迫相同读者零，不对无限中央 log 尾作有限投影。
 - 原 $R1042$ 全 Hurwitz、Euler、Smith 和两角 blow-up 已闭；环境格左逆不是原 scalar kernel 的 Schur 左逆。原线性格费用约 $18p$ 必须保。
 - 原 $R1049$ 晶体整格、Manin/cochain、残余 toric 比较均保未知好范围及全54权；全局障碍不直接赋原加权 AJ 非零。具体全部公式、常数和失败链见本页开头逐字归档。
-- 唯一完整厚几何 v12 的真实21000s/exit124终态已消费；四交/Norm/18×9未返。下一受核软件修改只修捕获别名，不删完整返回或几何门。有限终门也不替通常全 $\Sha$ 的真实无穷 $p$ 条件。
+- 唯一完整厚几何 v12 的真实21000s/exit124终态已消费；四交/Norm/18×9未返。捕获别名和同商局部平方软件均已真实通过；下一受核修改是R1050的原scalar支撑入口，保完整非约化纤维、maximal/registry及所有一般返回和几何门。有限终门也不替通常全 $\Sha$ 的真实无穷 $p$ 条件。
 
-root 继续审证、消费唯一作业终态、实际两库 pull 和逐条推送；geometry 处理真实 flat/Hecke 接合及同一 S3150 forcing，central 处理实际共同因子与换点定义域，arithmetic 接薄窗真秩与完整矩阵第二/第三块预算。子问题完成即接下一项，主目标完成前持续研究。
+root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(-1/4)$ 的准确二挠读数，central 实现已证明的原scalar全厚支撑并保生产所有终门，arithmetic 处理真正高前缀核中的同源节点 jets 和全部 Smith 主项。子问题完成即接下一项，主目标完成前持续研究。
+
+
+## 原全深矩阵的已付递推与下一未闭项（R1051）
+
+[R1051：原完整 Gaussian 的全深折回与全部精度节点递推](results/R1051-original-full-depth-gaussian-node-recurrence.md)（已证明）：基线所有物理行模 $p$ 按数字和 $s_p(q)$ 精确折回原首窗，保 Gaussian 单位与 factorial 单位；同一原来源的全行 $\mathcal Y_{r,q}=p^q q![w^{r+sq}]\Phi$ 具有完整节点系数 $C_{\rho,j,r}$，其赋值至少 $\lceil\eta j-\vartheta\rceil$。任意 $H$ 由真正首一 $\prod_{\rho=0}^{p-1}(T-a\rho)^{\lfloor H/\eta\rfloor}$ 给全部后行递推。连续前缀和适配整旗标保全部 Smith 精度及实际对角 $\epsilon$，但已付加权收益仍仅 $O(M_D)$，未达 $3M_D\log D$ 主门；坏 canonical 条件仍是含全部 $k\gamma_m^k$ 分母的同源加权行，不能免费变成逐节点消失。
+
+下一步使用上述完整 $C_{\rho,j,r}$ 和坏条件，在真正高前缀核/同一首提升中支付新增 Smith 主项。整个来源有许多节点并不能推出该核仍有同样节点；也不以高物理深度本身替代全局预算。

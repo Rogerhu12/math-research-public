@@ -489,3 +489,6 @@ $$
 [R1050：原标量厚纤维及T/v准确返回](../results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)（已证明）：完整自由代数中 $\pi^jA/\pi^{j+1}A\simeq A/\pi A$，故原 $\pi^mA$ 每个局部分量全长为 $m\deg(\pi)d_i$、重数为 $md_i/f_i$；$d_i$ 是整个非约化分量维数。原T/v在两图的完整scalar HNF逐式固定，finite v同T负点取有号重数−1/2，∞取同原重数。专用geometry支撑只消费point+m，因而可用全滤过回执保所有厚度而不重做其不消费的local projector；通用需完整ideal的接口不变。原四交/Norm/$18\times9$及主无穷$p$目标仍未付，软件实现待实际验证。
 
 局部幂等元平方复用另已获公开软件run46077929103真PASS，见[原证明§6](2026-11-27-original-idempotent-square-reuse-and-v12-profile.md)；这不等于原几何完成。
+
+
+后续新结论见 [R1051–R1100](PROOF-INDEX-R1051-R1100.md)。本卷保留全部范围更正与实际失败，不因分卷重新宣布完成。
