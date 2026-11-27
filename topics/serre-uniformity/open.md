@@ -44,7 +44,7 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darboux因子与全部三阶jet carry；C=UD+V仅在明确W_C上半单，原U^m为唯一零列。每个实际列的relative Cartier读数e_ℓ给精确p−1系数；仍未付指定e/K4非同时零。
 
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§§7–8付完整实际Gaussian good profile：全短Appell/常数/高尾给原首项c_(p−R−2)=c_(R−2)，完整多项式为N_R·[T^(p−R)U^R](exp(wTU)−1)K。全部低band、Weil/δ尺度、两twist及principal极部保留；极部仅落实际缺席R=(p+1)/2。norm2准确w→iw，Fay保全低乘积；原双支good mask与全标签注入仍开。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§§7–9付原全good Gaussian完整profile、全部短Appell/常数/高尾与实际mask。完整差为同一Kronecker有限gauge；§9给 f_n=−Θ^nG_v/(n!(v)_n)、有限Möbius流及两个参数的准确有界系数式(47)/(48)，只读权≤p−3。原Hasse first integral C=B−wH，ΘH=C、ΘC=0，且Θ^p=H²Θ+HC E+C²∂w，在SS处是δ²∂w而非零。Fay/norm2全低乘积和两twist相位均保；共同纤维排除仍开，不对单个点对等式作横向微分。
 
 [R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)：原L=D²−2U在p维W上由全部Ψ零点的真实J_P对角化；零谱投影自动消失不证e单位。完整jet递推保−r(r−1)δ²J_(r−2)，e=0时K4是三项准确配对；原η_k=(16v²g0/(3δ))D_N(1)，g0为显式单位。ν及两指定读数非同时零继续，不能用完整Dixon反对称和替代。
 

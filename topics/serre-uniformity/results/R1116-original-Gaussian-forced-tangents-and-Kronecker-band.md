@@ -785,3 +785,274 @@ R1128 的角色维数下界仍只给实际可用位置的数量。
 全文无数学程序执行。
 
 root 已全文独核 §8，回读 R1071 原 (1071.20)/(1071.25)/§15 及 R1070 (1070.40)：全部合法 i、Wilson/δ/circular-unit 因子、真实非Fp source相位、唯一principal缺席、有限exp和二同源w→iw均一致。无数学程序执行。
+
+
+## 9. 原完整 gauge 的 Ramanujan 迭代与有限共纤维式
+
+本节继续 (1116.37) 的同一个原核与全部 source 单位。
+它把两个实际参数的完整读数之差化为一个有界单变量系数，
+并明确第一个 $p$ 次迭代的真实边界。
+以下没有从某两个点的取值相等，推断其横向导数相等；
+也没有删除 actual-good mask。
+
+### 9.1 真正的三变量 Ramanujan 向量场
+
+先在一般短模型 $y^2=x^3+ax+b$ 上保留独立 gauge 变量 $w$。
+R1129 已从原 sigma 热式证明
+$$
+\partial\mathscr K
+ =\left(\partial_T\partial_U-\frac a3TU\right)\mathscr K,
+\qquad
+\partial=6b\,\partial_a-\frac{4a^2}{3}\,\partial_b.
+$$
+对 $\mathscr K_w=e^{wTU}\mathscr K$，逐项共轭给
+$$
+\partial\mathscr K_w
+=\left[
+ \partial_T\partial_U
+ -w(T\partial_T+U\partial_U+1)
+ +(w^2-a/3)TU
+ \right]\mathscr K_w.
+\tag{1116.41}
+$$
+这里 $w$ 在 $\partial$ 下保持不变；它与下面完整三变量向量场的
+第三个分量不可混淆。
+
+固定偶数 $v\ge4$，定义
+$$
+f_n^{v,w}
+ =[T^{v+n-1}U^n]\mathscr K_w,\qquad n\ge0.
+$$
+因 $v\ge4$，principal 项不改变 $f_0^{v,w}=-G_v$。
+又有
+$$
+\partial_w f_n^{v,w}=f_{n-1}^{v,w},\qquad f_{-1}^{v,w}=0.
+$$
+从 (1116.41) 读取系数，完整得到
+$$
+(v+n)(n+1)f_{n+1}^{v,w}
+=\partial f_n^{v,w}
+ +(v+2n)w f_n^{v,w}
+ +(a/3-w^2)\partial_w f_n^{v,w}.
+\tag{1116.42}
+$$
+给 $a,b,w$ 分别赋权 $4,6,2$，则 $f_n^{v,w}$ 权为 $v+2n$。
+因此 (1116.42) 的右端准确是
+$$
+\Theta f_n^{v,w},\qquad
+\boxed{\quad
+\Theta=(4wa+6b)\partial_a
+ +(6wb-4a^2/3)\partial_b
+ +(w^2+a/3)\partial_w.
+\quad}
+\tag{1116.43}
+$$
+归纳得到
+$$
+\boxed{\qquad
+f_n^{v,w}=-\frac{\Theta^nG_v}{n!(v)_n}.
+\qquad}
+\tag{1116.44}
+$$
+这是原完整核的身份，不是只比较一个最高项。
+其中 $(v)_n=v(v+1)\cdots(v+n-1)$。
+
+对实际 $R\in\mathcal G_p$，采用 R1129 (1129.12) 的
+$$
+(v,s)=
+\begin{cases}
+(p+1-2R,R),&R<(p-1)/2,\\
+(2R-p+1,p-R),&R>(p+1)/2.
+\end{cases}
+$$
+于是 $v=p+1-2s$、$4\le v\le p-3$、$s<p$，
+且 $(v)_s$ 最大因子为 $p-s<p$。
+所以 (1116.44) 对 $0\le n\le s$ 的全部分母是 $p$-单位。
+输入 $G_v$ 是 R1129 已付的 $p$ 整非零权多项式。
+
+这还说明该指定 interior coefficient $f_s^{v,w}$ 本身 $p$ 整，
+尽管本篇仍不约化整条未截断的最高核 band。
+当读取 centered difference 时，(1116.37) 已保证只用权至 $p-3$
+的低 band；下文再次逐项检查这个精度。
+
+### 9.2 只至 p−1 阶的精确 Möbius 时间变换
+
+固定 $(a,b)$，令
+$$
+(a_0(u),b_0(u),w_0(u))
+$$
+是 (1116.43) 从 $(a,b,0)$ 出发的有限 Taylor 解。
+在特征 $p$ 中，这句话只指模 $u^p$ 的 jet：
+其 $u^n$ 系数为 $\Theta^n(a,b,w)|_{w=0}/n!$，$n<p$。
+不使用 $1/p!$，也不假设这个有限解已延拓成整条加法群作用。
+
+初始 gauge 改为 $\eta$ 时，准确的有限变换为
+$$
+\begin{aligned}
+a_\eta(t)
+ &=(1-\eta t)^{-4}
+      a_0\!\left(\frac{t}{1-\eta t}\right),\\
+b_\eta(t)
+ &=(1-\eta t)^{-6}
+      b_0\!\left(\frac{t}{1-\eta t}\right),\\
+w_\eta(t)
+ &=\frac{\eta}{1-\eta t}
+  +(1-\eta t)^{-2}
+      w_0\!\left(\frac{t}{1-\eta t}\right)
+ \pmod {t^p}.
+\end{aligned}
+\tag{1116.45}
+$$
+证明可先在特征零直接代入三个微分方程：
+变换后初值为 $(a,b,\eta)$，
+且 $d(t/(1-\eta t))/dt=(1-\eta t)^{-2}$。
+逐系数唯一性只需除以 $1,\ldots,p-1$，
+故原式的每个所用 jet 都可准确约化，得到 (1116.45)。
+
+对权 $v$ 的原 $G_v$，置
+$$
+\mathcal E_v(u)=G_v(a_0(u),b_0(u)).
+$$
+同权性给
+$$
+G_v(a_\eta(t),b_\eta(t))
+ =(1-\eta t)^{-v}
+       \mathcal E_v\!\left(\frac{t}{1-\eta t}\right)
+ \pmod {t^p}.
+$$
+用实际换元 $t=u/(1+\eta u)$ 取 $t^s$ 系数：
+$$
+[t^s]G_v(a_\eta(t),b_\eta(t))
+ =[u^s](1+\eta u)^{v+s-1}\mathcal E_v(u).
+$$
+当 $v=p+1-2s$ 时，$v+s-1=p-s$。
+因 $s<p$，$(1+\eta u)^p=1+\eta^pu^p$ 的第二项不参与读取，
+所以准确得到
+$$
+\boxed{\quad
+f_s^{v,\eta}(a,b)
+=-\frac1{(v)_s}
+ [u^s](1+\eta u)^{-s}\mathcal E_v(u).
+\quad}
+\tag{1116.46}
+$$
+这里 $(1+\eta u)^{-s}$ 只展开到 $u^s$；
+所有负二项式系数都在本范围内有定义。
+
+### 9.3 两个原参数的完整共同纤维条件
+
+现在回到原 Gaussian $b=0$。
+令
+$$
+\kappa_*=\delta\lambda\beta_0^{1-p},\qquad
+w=\kappa_*t_*,\qquad w'=\kappa_*t_*',
+$$
+并保持 (1116.35) 的原 $N_R$。
+核对称性及 (1116.37)、(1116.46) 给出
+$$
+\boxed{\quad
+\Pi_R(t_*^2)-\Pi_R(t_*'^2)
+=-\frac{N_R}{(v)_s}
+ [u^s]\left\{(1+wu)^{-s}-(1+w'u)^{-s}\right\}
+      \mathcal E_v(u).
+\quad}
+\tag{1116.47}
+$$
+同一条 Gaussian twist line 上的两个 coarse 参数共纤维，
+准确等价于 (1116.47) 对全部 $R\in\mathcal G_p$ 为零。
+对另一 twist line 应按原 source 一起运输，
+不能私自固定 $\beta_0,\lambda$ 或合并两个不同的 Weil frame。
+
+本次系数的安全范围还可以直接从有限流看清。
+从 $(a,0,0)$ 出发，$a_0(u)$ 是偶 jet，
+$b_0(u),w_0(u)$ 是奇 jet；
+由 $G_v$ 同权性，$\mathcal E_v(u)$ 只含与 $s$ 同 parity 的次数。
+所以 (1116.47) 中只有偶次 $i\ge2$ 的 gauge 差参与。
+它恰为完整有限和
+$$
+-\frac{N_R}{(v)_s}
+ \sum_{\substack{2\le i\le s\\i\ {\rm even}}}
+ (-1)^i\binom{s+i-1}{i}
+ (w^i-w'^i)\,[u^{s-i}]\mathcal E_v(u).
+\tag{1116.48}
+$$
+当 $s$ 为奇数，上限自动变为 $s-1$。
+最大输入是 $[u^{s-2}]\mathcal E_v$，
+其权为 $v+2(s-2)=p-3$。
+因而 (1116.47) 没有偷偷恢复被 centered difference 删除的高 band，
+也没有读取 $G_v$ 流的第 $p$ 阶。
+
+(1116.48) 保留了所有 $i$；不能由两个参数的这个单一线性组合为零，
+反推每个 $[u^{s-i}]\mathcal E_v$ 为零。
+特别，R1129 的非恒定性判据不能直接应用到某一个共纤维点对。
+相差 sign 的 $w,w'$ 本来就是同一个 coarse 参数，须先识别。
+
+### 9.4 原 Hasse first integral 与非零 p 次边界
+
+记原规范的权多项式
+$$
+H=E_{p-1}(a,b),\qquad B=\frac{E_{p+1}(a,b)}{12},
+\qquad C=B-wH,
+$$
+并记加权 Euler 向量场
+$$
+E=4a\partial_a+6b\partial_b+2w\partial_w.
+$$
+模 $p$ 的原 Serre 恒等式为
+$$
+\partial H=B,\qquad \partial B=\frac a3H.
+$$
+因 $H,B$ 的权分别同余 $-1,1$，代入 (1116.43) 立即得到
+$$
+\boxed{\qquad
+\Theta H=C,\qquad \Theta C=0,\qquad \Theta^2H=0.
+\qquad}
+\tag{1116.49}
+$$
+在 supersingular Gaussian 点，$H=0$、$B=\beta_{\rm Car}=-\delta$
+是单位。因此上一节从该点出发的有限流准确满足
+$H(a_0(u),b_0(u))=B(a,0)u\bmod u^p$。
+
+完整 restricted-power 恒等式是
+$$
+\boxed{\qquad
+\Theta^p=H^2\Theta+HC\,E+C^2\partial_w.
+\qquad}
+\tag{1116.50}
+$$
+这正是 Bianchini，
+[On the Ramanujan Vector Field modulo p,
+arXiv:2602.20109v1](https://arxiv.org/abs/2602.20109)，
+Theorem 1 / (22) 的原规范换元：
+$$
+e_2=12w,\qquad e_4=-48a,\qquad e_6=864b.
+$$
+该文的 $-12\partial_{e_2}$ 是 $-\partial_w$，
+其 $(\widetilde B-e_2\widetilde A)/12$ 恰为这里的 $C$。
+三个分量也可直接核为
+$$
+\begin{aligned}
+\Theta^p a&=4HBa+6H^2b,\\
+\Theta^p b&=6HBb-\frac43a^2H^2,\\
+\Theta^p w&=B^2+\frac a3H^2.
+\end{aligned}
+$$
+root 与 o2 已亲读该主要来源并独立核对全部换元。
+
+特别在 $H=0$ 上，
+$$
+\Theta^p|_{H=0}=B^2\partial_w=\delta^2\partial_w.
+\tag{1116.51}
+$$
+这是第 $p$ 次迭代的真实非零方向；不是 $\Theta^p=0$。
+$\Theta$ 自身横截 $H=0$，所以不能先把 $\Theta$ 限制成
+supersingular 直线上的向量场再随意迭代。
+同样不能对 (1116.47) 的某个点对等式作未付的横向微分。
+
+本附节完成的是原完整 profile 的真实 Ramanujan 来源、
+安全有限时间变换与共同纤维的准确有界系数式。
+尚未证明 actual-good mask 上 (1116.47) 无不同 coarse 解。
+原较低 Fay / norm-two 乘积、bad 角色和各 source 相位仍全部保留。
+全文无数学程序执行。
+
+root 已全文独立纸核 §9 的热式共轭、Euler 第三分量、有限时间换元、全部 source 与 parity/最高安全权；o1 另行全文独核 (41)–(48)，并核 (49)–(51) 的代数换元。旧 §§1–8 逐字保留。无数学程序执行。

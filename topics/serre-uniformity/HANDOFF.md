@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：304af5a94f206ad69cd5d709f1f6d6b15f86d770**（2026-11-27 22:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：56a5d643432fb781d762785bb463fc96d50cde3f**（2026-11-27 22:36 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；21:59再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-linear-nonconstant-profiles.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-inverse-center-wz.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -28,9 +28,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 ### 原完整X_ns^+(47)已完成，只消费
 
-[R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰八个有理CM点：全235坏47盘/十good角色、283与4513同一点标签、所有非q高度（含非整j及2/3）、完整73维整Hodge/MW/高度、带符号CM坐标和16个Cartier值，最后R1122/24给八个完整4513盘唯一。原C_row=1−Bq(H)、23角和全整尾均已付；无额外整j/二次域/proper inertia假设。完整j表、run/job/hash、尺度和每项来源均在R1125及[逐字前态](handoff-archive-2026-11-27-before-linear-nonconstant-profiles.md)，不重算。
-
-旧Miller run45973334832/job140418866621与q² run45977769585/job140433713916不是依赖，不续算；若后成仅消费真实记录，不重登记。
+[R1125](results/R1125-original-full47-rational-point-classification.md)已完整证明原X_ns^+(47)(Q)恰八个有理CM点；全235坏盘/十good标签、283与4513同一点、全部非q高度（含非整j及2/3）、原73维Hodge/MW/高度、16个Cartier值及八个完整4513盘唯一均付。完整点表、各来源/run/hash在R1125及[逐字前态](handoff-archive-2026-11-27-before-linear-nonconstant-profiles.md)，只消费、不重算。旧Miller run45973334832及q² run45977769585不是依赖，不续算。
 
 ## O1：原同一保留标签与 Gaussian 强制切向
 
@@ -50,7 +48,7 @@ R1111付原p-block全公因子M D (b³−1)^(2ε)与全tame分歧，ε=1 iff f_N
 
 [R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原5H_p+(8a²/45)K_p=16G_(p−3)单位，H_p=0迫K_p=36/(aδ³)单位。§7已把K_p准确接到第二forced首项c₃：24c₃=−90G_(p−3)+(75/2)H_p+(2a³/3)V₂−(4a³/27)V₃+(a⁴/81)V₄，三个原低卷积完整保留；该角色仍须B_(p−5)good，非零/共纤维继续。
 
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§§7–8付完整实际Gaussian good profile：全短Appell/常数/高尾给原首项c_(p−R−2)=c_(R−2)，完整多项式为N_R·[T^(p−R)U^R](exp(wTU)−1)K。全部低band、Weil/δ尺度、两twist及principal极部保留；极部仅落实际缺席R=(p+1)/2。norm2准确w→iw，Fay保全低乘积；原双支good mask与全标签注入仍开。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§§7–9付原全good Gaussian完整profile、全部短Appell/常数/高尾与实际mask。完整差为同一Kronecker有限gauge；§9给 f_n=−Θ^nG_v/(n!(v)_n)、有限Möbius流及两个参数的准确有界系数式(47)/(48)，只读权≤p−3。原Hasse first integral C=B−wH，ΘH=C、ΘC=0，且Θ^p=H²Θ+HC E+C²∂w，在SS处是δ²∂w而非零。Fay/norm2全低乘积和两twist相位均保；共同纤维排除仍开，不对单个点对等式作横向微分。
 
 [原Gaussian norm2分布](notes/2026-11-27-original-Gaussian-norm-two-Kronecker-distribution.md)付同一$(1+i)$的完整Kronecker两极分布、真实平移相位与平方根分支；$y_k=5G_{p-3}=2a/\delta^3$为单位。N11/N12/N14保全部低层卷积及原good mask，尚未排R1116的指定内段同时零。
 
