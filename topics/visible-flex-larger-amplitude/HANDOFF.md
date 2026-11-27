@@ -4,13 +4,13 @@
 
 问题：给出同一固定g的闭C²等距弯曲数值族，将整像握持变化做到整个F0直径的20%，并支付全部README标准。
 
-缩短前完整H保 [f237全文](https://github.com/Rogerhu12/math-research-public/blob/f2373631725b34466d114648cfe878a3594737e2/topics/visible-flex-larger-amplitude/HANDOFF.md)，含5fc/199c/8b6及更早全链。原结论、全源/参数、真实失败与未知责任不删除、不重做。
+此前完整H保 [9a794全文](https://github.com/Rogerhu12/math-research-public/blob/9a794d911922ede62dd573332d13a1432a735b81/topics/visible-flex-larger-amplitude/HANDOFF.md)及其f237/5fc/199c/8b6全链。原结论、完整源/参数、失败与未知责任保留，不重做。
 
 ## 规则与环境
 
 root最后真pull/rebase：eda95d51e82b126439d51d42185a880e6ddad3e9。07:21起终端不可用；15:03:35内存重置后一次复核仍不可用，已刊Git/完整blob不失。恢复终端即真pull。
 
-云核至 `d267f715d7552be4514e1471accfaa8d2b3b2aef`（不是pull）。双README SHA256为581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，均无变。每次真实pull后检查差异、至少每小时一次；活12每5分钟真实pull并记末块。10最后实际pull见末块。
+云核至 `3e58f9836279ef8bff1daa088cc2c0fcb90e9cfe`（不是pull）。双README SHA256为581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d，均无变。每次真实pull后检查差异、至少每小时一次；活12每5分钟真实pull并记末块。10最后实际pull见末块。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root唯一refs/queue写者，结论即普通推，无force；NFF真终端立即rebase循环，终端缺失则云fresh-HEAD保全合并、不冒pull。[发布支持](computations/resume-20261127-root-publication-support.mjs)可恢复文本元数据工具。
 
@@ -32,36 +32,29 @@ maker89cc返0/5.893721086s，reference e717返0/430.2165345s；math957cf、targe
 
 科学3未自然返：14:22:49初点7e06的initial-complete-geometry-returned、14:44:42点90499的normal进度均非accepted/可行/完整报告。pure/mean未返，进度不补snapshot/typed/final。真实返回后读完整小卷/pure，只移出真完成对象，再排完整费用。
 
-## 新完整后继源：已刊，尚未实际支付
+## 新完整后继源和精化
 
-- [mean/profile](notes/2026-11-27-fixed-fejer-complete-reference-mean-profile-fees.md)：0471/ae67/ff219全batch、全部原literal顺序与整尾，600/60/128/160/原阶数不减；节点输入仍未付，均值J不等于normal Cu。
-- [normal/连续几何](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)：六全源1a915/fcae/ff77等，1024全圆、32阶段、全径向和六jet；原38/8argv、36/44selectors保，仅加4同leaf范数读数。全110科学源/实际六文件/全point/snapshot复读。
-- [closed d606](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)：完整端口、带符号反射、两Cartesian帽、全phase、整像所有目标盒min、固定grip、共同R650和独立未标记外管；8argv/57读数保。原题README仅从同冻结提交按完整SHA必要材料化。
-- [R716全十二矩31a83/7cde](notes/2026-11-27-fixed-fejer-complete-R716-closed-flux-centred-moments.md)：10/8argv，原33/59读数各加math身份；全通量/一矩/混合二矩、一般三相和半转有向包含各保。最终closed主报告/唯一原副件、全原输入输出、独立未标记管、正V和非零中心矩实际付清才可得含反射δE。
+以下全源、完整再生器/参数/原全部读数已刊，future identities=null；均未冒充实际费用或新场：
 
-所有来源/完整复现/全参数及future=null在各manifest。准备源、成功input、过程观察都不冒费用结果。原10各完整费用与精化族保前H/open，不能当新g结果。
+- [mean/profile](notes/2026-11-27-fixed-fejer-complete-reference-mean-profile-fees.md)：0471/ae67/ff219全batch/原literal顺序/全尾，原600/60/128/160和阶数；nodes未付，均值J不等于normal Cu。
+- [normal/连续几何](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)：全1024角/32阶段/径向/六jet/110源/实际六文件，原38/8argv保；同leaf范数D和圆柱界取min。
+- [closed d606](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)：8argv/57读数，全端口/带符号反射/固定Cartesian p4帽/全phase/整像盒min/固定grip/共同R650/独立未标记管。原题README同冻结提交必要材料化且全SHA核。
+- [R716 31a83/7cde](notes/2026-11-27-fixed-fejer-complete-R716-closed-flux-centred-moments.md)：10/8argv、全十二矩/混合项、一般三相/半转有向包含、全尾全点不减。d606最终主副件/全记录/独立未标记管/正V/非零中心矩真付才得含反射δE。
+- [同场mesh/t](notes/2026-11-27-fixed-fejer-complete-same-field-phase-meshes.md)：四全源ad809/80116/2acc9/fde5、117角色保原110，原8924B完整q构造；32/6argv、正式110/58读数，三全空间级/5t/4,8,16时间划分。真13final或完整required-angle snapshot，同全点/原缓存/缺角真计算；可选d606不作准入门，缺证仍生成全mesh。15完整科学mesh和5完整<5MB预览均runner-only；拓扑/有限误差不冒连续证书，M320零包含只输入。
 
-## 当前并行精化与真正几何缺口
+construction做N4096，solver做M320与实际耗时，root做J1845；geometry完成mesh后做ret44。固定参考M160/J923/N2048、完整scalar/图/参数/t不变；current离散不定义新g。独立模式用固定reference全初点/全known与unknown历史；terminal只真完整父报告/history；final还需真13成员/全word/point/model；restart全模型相等。全部新变量/Jacobian/双mean/尾/原预算保，未有实际精化返回。
 
-geometry做mesh/t，construction做N4096，solver做M320并核12，root做J1845。固定参考M160/J923/N2048、完整scalar/图/参数/t不变；current离散改变不定义新g。
+R248只覆盖活动像；非对称固定p4帽需共同R650或全mixed pairs。upper/lower/缝/两帽/全phase的准确六jet和raw lift必须同场；共同正A不改g，中央Fss不代全K。整像对所有上/下/帽盒min后对真源见证max，D是全闭F0；grip半径.45仍需真实比例。working字误差、强C²、连续Gram/reach、精化各自实付。
 
-独立模式用固定reference全初点、保全部known/unknown历史，不造父。terminal只读真完整父报告/history；final还读真13成员与原word/point/model守卫，restart全模型相等。全新变量、全Jacobian/双mean/尾/原预算保；尚无新精化执行，旧全族在前H/open，不重做。
+## 原终态、历史和容量
 
-R248只自动覆盖活动像；非对称固定p4帽需共同R650或所有mixed pairs。全部upper/lower/缝/两帽、每一phase、准确六jet与raw closure lift同场支付。共同正A不是改变g的仿射变换；中央Fss不等于全K。
+[10真实终态](notes/2026-11-27-run10-actual-terminal-cancelled-with-unreturned-science.md)：45972294636/1，job140415391810，API completed/cancelled/updated15:06:33 UTC；只1–4真返0，科学5未自然返，pure/mean、13final/新增typed未知。149/7/32argv、373/357/48读数、92609B队列完整保；15:04:38点a45bc/1861924请求返回仅进度，取消原因未证。旧e711/081和2218/2397角色不混，新12不冒旧完成。
 
-R717同leaf三维范数D与圆柱界取min；整像对所有上/下/帽盒min后对真实源见证max，不以core或材料位移替代。grip半径.45/diam≥.9仍需真实D比例。R716/working字误差/强C²/连续Gram与reach/真精化各自实付，不停于条件证明或源码。
+[11真实终态](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)：46000835895/1；warm0，5989输入6.170325s返1/全mesh-chart词守卫/FJroots0；继而H超10KB未刊第二步。59783B原log区分两因、不细猜词。七upper/99源全参数保，无同g重建/新场/费/父，不松guard、不改名旧raw。
 
-## 10与11的实际终态
+03–06九history/两分支、07–09未返/typed/发现序/永久地点保9a794全链和open。06未可行、28b/cfd未准入；07仅输入，08仅1–10、09仅1–7且后两cancelled；unknown不补空、iteration_limit不当驻点。真pull/规则记录保各note。
 
-[10完整终态](notes/2026-11-27-run10-actual-terminal-cancelled-with-unreturned-science.md)：45972294636/1、job140415391810已completed/cancelled，API updated15:06:33 UTC。只1–4真返0；科学5无自然return，pure/mean和13final/新增typed未知。完整149/7/32参数、373/357/48摘要与原92609B队列均保，不标完成。末次15:04:38点a45bc/1861924请求返回仅进度；没有尺寸合规日志证据，取消原因未知。旧e711/081与2218/2397职责不混；新12不能冒旧分支完成。
-
-[11完整终态](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)：46000835895/1失败。warm返0，5989输入6.170325s返1/全mesh-chart词守卫/FJroots0；随后H超10KB导致未刊第二步，59783B实际日志区分两因，不细猜哪一词。原完整七upper/99角色与全参数仍保，没同g重建、新场/费/父；守卫不松、旧raw不改名参数。最后真pull与双README核查保原note。
-
-## 旧历史及容量
-
-03–06九history/两分支、07–09未返、typed/发现序/永久地点全保f237→5fc→199c→8b6及f654/3690/db269链和open。06未可行，28b/cfd未准入；07只有输入真返，未知不是空；08仅1–10返、09仅1–7返且均cancelled。完整终态及真实pull保原notes，不猜取消因果、不把iteration_limit当驻点。
-
-[43保全](notes/2026-11-27-four-legacy-generated-records-retention-43.md)退4派生记录，毛2158488B、全provenance/100文件表/说明154566B，主体净2003922B；真正消费者原输入须恢复原Git对象，全源/argv/失败成功和603旧依赖保。此前42退3坐标轨迹、Nelder未删，41及33–40全ledger/正确warm状态/旧reader责任保前H。未知SHA为null；容量按每次最新树核，不读大体或二进制。
+[ret43](notes/2026-11-27-four-legacy-generated-records-retention-43.md)四派生记录毛2158488B、完整provenance/100文件表/说明154566B、主体净2003922B；真消费者恢复原Git字，全源/argv/成功失败/603依赖保。42退3轨迹但Nelder不删，41及33–40全ledger/warm/reader责任保旧H。未知SHA=null；每次最新树计容量，不读大体/binary。
 
 <!-- visible-larger-parallel-10:start -->
 并行公开Actions10：[run 45972294636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45972294636)；[实际记录](notes/2026-11-27-public-actions-45972294636-1.md)。API已completed/cancelled（15:06:33 UTC）；科学5未自然返，已返仅1–4，后继未知。
