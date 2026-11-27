@@ -1,19 +1,15 @@
 {
-  "message": "ISP: preserve two small-input assertion failures and fix exact polynomial input snapshots",
-  "parentCommit": "e708f1b258568cb7ef3d2dc5e5776a03f34a50dc",
+  "message": "ISP: retain three complete original W pure-value parameter cofactors",
+  "parentCommit": "582fe3d87aade9e214078c0dad52c8165fd7c396",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-two-small-input-list-snapshot-failures-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-two-small-input-list-snapshot-failures-8542-receipt.json",
-    "topics/invariant-subspace-problem/2026-11-27-unit211-Phi-zero-four-original-quadratic-heads-common-zero-input-snapshot-fix-8542.py",
-    "topics/invariant-subspace-problem/2026-11-27-unit211-Phi-zero-exceptional-two-boundary-image-complete-QQ-fibers-input-snapshot-fix-8542.py",
-    ".github/workflows/invariant-subspace-phi-four-heads-snapshot-fix-8542.yml",
-    ".github/workflows/invariant-subspace-phi-two-boundary-fibers-snapshot-fix-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-list-snapshot-fixes-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-list-snapshot-fixes-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-pure-T-three-original-parameter-cofactors.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T3-pure-value-three-column-cofactors-8542-receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-pure-T-three-cofactors-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-pure-T-three-cofactors-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,8 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-phi-four-heads-snapshot-fix-8542.yml",
-    "invariant-subspace-phi-two-boundary-fibers-snapshot-fix-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

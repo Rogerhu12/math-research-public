@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W纯T三列三个原参数cofactor](results/R150-appendix-unit211-W-global-pure-T-three-original-parameter-cofactors.md)：真12.786秒全列身份；λ度16/16/19，三个未付最高次零面完整保留。
+
 - [全余W个别N/P与完整NV的低D次原理想压缩](results/R150-appendix-unit211-W-original-odd-NP-full-NV-lower-D-ideal-compression.md)：保NS/PS/R6，在原D非零域十三原行准确等价十一行；三新原式均只一次D清除。
 
 - [h=k、Delta零的整个lambda=1/3原纤维排除](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-lambda-one-third-exclusion.md)：完整原相容式只留一个有理权点，八原Gram行与QQ[f]单位身份排空；余C4/C2六lambda。
