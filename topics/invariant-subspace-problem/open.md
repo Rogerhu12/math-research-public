@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[当前W整个D27已闭](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)；[全图首一T4/F2及固定有限环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)新已付。** 同值C4首项8muQell²d且T3恒消，原mean组合L的F²头u²mdPhi/(eM)也为已付权单位；故A[lambda]上的Gram环境自由8维，加同一个s²−D/M环境为16维，完整原方程商只由其基生成。R4除首一qT余三次，其头只另含3−2lambda，整lambda3/2保留。未倒D、原值范数或B239；原EC/逐谱N/P、其余Gram及物理非零都继续同点返回。新源26ms精确通用身份全返，8列原矩阵尚待执行；D27所有有理/模/原生退出证据与旧J19/y6来源保正文及本次快照。
+**[W全图实际八列原行与十六真乘法返回](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)已成，承接[首一四二次环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)与[整D27排除](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)。** af928实际2.153秒/45936KiB/exit0，六原行均按qF/qT完整trace乘回、16基乘法返真系数、73不同分母全为旧付权单位。环境自由8维（加同s²16维），原最终方程商只说生成；原逐谱N/P和相容条件仍须同点返回。新eb1首接整lambda3/2的首一qT4与rT≤2固定6×6原值cofactor，全部6列乘回、保所有rT降次头，180秒4GiB；新z=s/v0仅作原比率坐标并保物理单位。D/几何范数/B239均未倒，余W开放。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 

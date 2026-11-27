@@ -1,0 +1,447 @@
+{
+  "schema": "isp-W-global-monic-T4-F2-eight-column-original-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "source": {
+    "path": "notes/2026-11-27-unit211-W-global-monic-T4-F2-original-eight-column-return-8542.py",
+    "blob": "e66b589cb75c22a77362ae21eb78646ae6494046",
+    "bytes": 11838,
+    "sha256": "af928bbd7240d5235feb3188e65fc8ee5c92aaf8866433a077f1ab96b7507913"
+  },
+  "run": 46012527509,
+  "job": 140551384341,
+  "actualDriver": {
+    "elapsed_seconds": 2.1532350630000003,
+    "max_child_rss_kib": 45936,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "ce4b30ff054ce0346c48bc99d9745e4ad76387c2",
+        "before": "ce4b30ff054ce0346c48bc99d9745e4ad76387c2",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T14:04:10.499930+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46012527509",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "ce4b30ff054ce0346c48bc99d9745e4ad76387c2",
+    "source_exit_code": 0,
+    "source_git_blob": "e66b589cb75c22a77362ae21eb78646ae6494046",
+    "source_sha256": "af928bbd7240d5235feb3188e65fc8ee5c92aaf8866433a077f1ab96b7507913",
+    "stdout_bytes": 8666,
+    "stdout_sha256": "ed0dd7af7a9f5416bd1cc9c5e455fc90e8bae36c34f3605113a16d35b4cb2717",
+    "stop_reason": null
+  },
+  "actualMathRecords": [
+    {
+      "stage": "new_W_actual_monic_T4_F2_same_original_input",
+      "originalFrozenPrefixSHA256": "add0eca5d8b451a0cbc57bd978e573ee238ee002a6cd214296b42d8d757cb70a",
+      "originalPrefixLogSHA256": "6ccdb7f155f202929ee3899b1f479e0325040032f55d3d85bea40ee99ea5669c",
+      "allSixOriginalGramCoefficientEmbeddingsActuallyVerified": true,
+      "fullOriginalMonicF2IdentityActuallyReturned": true,
+      "monicF2Leading": "u^2*(u-ell)*d*Phi/(e*M)",
+      "explicitMonicT4OriginalC4IdentityActuallyReturned": true,
+      "basisCoordinate": "S=T-2lambda; qT remains monic S^4",
+      "qF": {
+        "FSDegree": 2,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          8,
+          11,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          4,
+          9,
+          0
+        ],
+        "numeratorTerms": 426,
+        "bytes": 8793,
+        "sha256": "ae3d82d74ae41a21c3e5cf26f690bc64d57d22105a413755645b7a7e97fc5b48"
+      },
+      "qT": {
+        "FSDegree": 4,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          7,
+          6,
+          4
+        ],
+        "denominatorMaxDegrees": [
+          4,
+          6,
+          0
+        ],
+        "numeratorTerms": 403,
+        "bytes": 7016,
+        "sha256": "ddb9e434bb1183adc7c98e6aee6ece03e478b73f91b3f046c7fedff952e15e10"
+      },
+      "R4": {
+        "FSDegree": 4,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          25,
+          20,
+          4
+        ],
+        "denominatorMaxDegrees": [
+          10,
+          15,
+          0
+        ],
+        "numeratorTerms": 5290,
+        "bytes": 124861,
+        "sha256": "7dbefb24eb7d715f542bfbc681e75bd496e45c3307967283af31d39425278cd4"
+      },
+      "noB239OrD27HeadInverseUsed": true,
+      "noLambdaThreeHalvesInverseUsed": true,
+      "noPhysicalDOrNormInverse": true,
+      "claimExcluded": false,
+      "seconds": 1.5794539179999987
+    },
+    {
+      "stage": "new_W_original_eight_column_row_return",
+      "name": "E1",
+      "remainder": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          9,
+          11,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          4,
+          9,
+          0
+        ],
+        "numeratorTerms": 415,
+        "bytes": 8699,
+        "sha256": "fdbb03650066edc1d06cd96078ef82bec64b539f2f96d81a14f1d7432e4ac3e7"
+      },
+      "allOriginalCoefficientProductsActuallyVerified": true,
+      "monicRulesHavePublishedCompleteOriginalMomentDeltaAndMeanTraces": true,
+      "noSaturationOrNormInverse": true,
+      "certificate": {
+        "bytes": 9078,
+        "sha256": "7eaec9f3d353a03f56d43e1fa95cc9e7b09b83ab614dc472f0b8ec985eff1426",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "rowSeconds": 0.010510283000002119,
+      "claimExcluded": false,
+      "seconds": 1.5901927359999988
+    },
+    {
+      "stage": "new_W_original_eight_column_row_return",
+      "name": "EBe",
+      "remainder": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          12,
+          15,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          8,
+          13,
+          0
+        ],
+        "numeratorTerms": 844,
+        "bytes": 22046,
+        "sha256": "082fd3e49fe115959e89675af0bf02fae13705706e37c91078d6f9a33b761cbd"
+      },
+      "allOriginalCoefficientProductsActuallyVerified": true,
+      "monicRulesHavePublishedCompleteOriginalMomentDeltaAndMeanTraces": true,
+      "noSaturationOrNormInverse": true,
+      "certificate": {
+        "bytes": 23465,
+        "sha256": "c45750342aaa1574bcf088343a322e85ee693be6675fa2c146153829becaa254",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "rowSeconds": 0.02556671700000024,
+      "claimExcluded": false,
+      "seconds": 1.6157949589999987
+    },
+    {
+      "stage": "new_W_original_eight_column_row_return",
+      "name": "N1",
+      "remainder": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          14,
+          15,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          8,
+          13,
+          0
+        ],
+        "numeratorTerms": 853,
+        "bytes": 20308,
+        "sha256": "9b96e5b0a0420d9d4a80e92ed21cae94aabe493e946dfeeba9bef193bf1e49ce"
+      },
+      "allOriginalCoefficientProductsActuallyVerified": true,
+      "monicRulesHavePublishedCompleteOriginalMomentDeltaAndMeanTraces": true,
+      "noSaturationOrNormInverse": true,
+      "certificate": {
+        "bytes": 20902,
+        "sha256": "2de3f780c5ea4cd2a9e09ccd758c64c688e4c183994b75c0fe9a9b78219bd42a",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "rowSeconds": 0.018783160999998216,
+      "claimExcluded": false,
+      "seconds": 1.6346149789999984
+    },
+    {
+      "stage": "new_W_original_eight_column_row_return",
+      "name": "NS",
+      "remainder": {
+        "FSDegree": 3,
+        "monomials": 7,
+        "numeratorMaxDegrees": [
+          19,
+          26,
+          3
+        ],
+        "denominatorMaxDegrees": [
+          12,
+          23,
+          0
+        ],
+        "numeratorTerms": 4373,
+        "bytes": 120799,
+        "sha256": "a01e9da23ab833173f4a945ccea5ce6c546e181be80e6cf60f43caa9e5e3c2fd"
+      },
+      "allOriginalCoefficientProductsActuallyVerified": true,
+      "monicRulesHavePublishedCompleteOriginalMomentDeltaAndMeanTraces": true,
+      "noSaturationOrNormInverse": true,
+      "certificate": {
+        "bytes": 131839,
+        "sha256": "9a7f27b2e7d107f21fe71a58369ca255621d7b31b8a117cde41b533a71b66812",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "rowSeconds": 0.09180323300000026,
+      "claimExcluded": false,
+      "seconds": 1.7264516939999979
+    },
+    {
+      "stage": "new_W_original_eight_column_row_return",
+      "name": "PS",
+      "remainder": {
+        "FSDegree": 3,
+        "monomials": 7,
+        "numeratorMaxDegrees": [
+          19,
+          25,
+          3
+        ],
+        "denominatorMaxDegrees": [
+          12,
+          22,
+          0
+        ],
+        "numeratorTerms": 4181,
+        "bytes": 115524,
+        "sha256": "f7a4636f2e2022ff1c527eb1d9387fc4efd98f9c6260f78fe339d1463b4de72c"
+      },
+      "allOriginalCoefficientProductsActuallyVerified": true,
+      "monicRulesHavePublishedCompleteOriginalMomentDeltaAndMeanTraces": true,
+      "noSaturationOrNormInverse": true,
+      "certificate": {
+        "bytes": 126632,
+        "sha256": "179b07dd0ccf4a5f5505929f4fa6dbbb7cb6936f3fe8b6f1cd545a35e3e78b18",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "rowSeconds": 0.08989339800000096,
+      "claimExcluded": false,
+      "seconds": 1.8163868799999996
+    },
+    {
+      "stage": "new_W_original_eight_column_row_return",
+      "name": "original_Delta_second_moment_R4",
+      "remainder": {
+        "FSDegree": 3,
+        "monomials": 4,
+        "numeratorMaxDegrees": [
+          27,
+          21,
+          4
+        ],
+        "denominatorMaxDegrees": [
+          11,
+          16,
+          0
+        ],
+        "numeratorTerms": 5755,
+        "bytes": 139285,
+        "sha256": "adb4c5319515aa742db27f4d5bbb62b1468731ed96e91f7dfd19365cddd5ffaa"
+      },
+      "allOriginalCoefficientProductsActuallyVerified": true,
+      "monicRulesHavePublishedCompleteOriginalMomentDeltaAndMeanTraces": true,
+      "noSaturationOrNormInverse": true,
+      "certificate": {
+        "bytes": 145821,
+        "sha256": "1fd79881186ef2dc2a990d0d52fe91ead195fbe13f80b40f70ce82f819daa603",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "rowSeconds": 0.07982172200000193,
+      "claimExcluded": false,
+      "seconds": 1.896251270999997
+    },
+    {
+      "stage": "new_W_eight_generator_actual_original_multiplication",
+      "variable": "F",
+      "allEightProductsActuallyReturned": true,
+      "matrixCertificate": {
+        "bytes": 115149,
+        "sha256": "f88b0050541d301d605316764c1c8d1706c738885298fd1116f6e9e075353b2a",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "ambientMonicTowerFreeButFinalOriginalQuotientNotClaimedFree": true,
+      "claimExcluded": false,
+      "seconds": 1.943932789999998
+    },
+    {
+      "stage": "new_W_eight_generator_actual_original_multiplication",
+      "variable": "S",
+      "allEightProductsActuallyReturned": true,
+      "matrixCertificate": {
+        "bytes": 14246,
+        "sha256": "c18c7f1d098e669cb2d3661f4acb4089cbcb27ee018d012ca816865db11f30e0",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "ambientMonicTowerFreeButFinalOriginalQuotientNotClaimedFree": true,
+      "claimExcluded": false,
+      "seconds": 1.9511497029999987
+    },
+    {
+      "stage": "new_W_global_monic_T4_F2_eight_column_original_input_complete",
+      "sourceSHA256": "af928bbd7240d5235feb3188e65fc8ee5c92aaf8866433a077f1ab96b7507913",
+      "scalarVariables": [
+        "e",
+        "k",
+        "lambda"
+      ],
+      "actualBasis": [
+        "1",
+        "S",
+        "S^2",
+        "S^3",
+        "F",
+        "F*S",
+        "F*S^2",
+        "F*S^3"
+      ],
+      "originalRowLabels": [
+        "E1",
+        "EBe",
+        "N1",
+        "NS",
+        "PS",
+        "original_Delta_second_moment_R4"
+      ],
+      "allSixRowsHaveCompleteOriginalQuotientTraceProducts": true,
+      "allSixteenTrueMultiplicationColumnsActuallyVerified": true,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "checkedDistinctDenominators": 73,
+      "lambdaThreeHalvesEntireFiberRetained": true,
+      "physicalUnitRepresentations": [
+        {
+          "name": "physical_D",
+          "returned": {
+            "FSDegree": 2,
+            "monomials": 3,
+            "numeratorMaxDegrees": [
+              2,
+              2,
+              2
+            ],
+            "denominatorMaxDegrees": [
+              1,
+              2,
+              0
+            ],
+            "numeratorTerms": 22,
+            "bytes": 457,
+            "sha256": "3023b24c6eaf7d2d7d497882e7f379970bc7b84b30e173430c96cbf87df2af66"
+          },
+          "inverseNotTaken": true
+        },
+        {
+          "name": "lambda",
+          "returned": {
+            "FSDegree": 0,
+            "monomials": 1,
+            "numeratorMaxDegrees": [
+              0,
+              0,
+              1
+            ],
+            "denominatorMaxDegrees": [
+              0,
+              0,
+              0
+            ],
+            "numeratorTerms": 1,
+            "bytes": 51,
+            "sha256": "7884c893437f3512f4616e626a957fe734913e373bafd4072565d398046b0a1d"
+          },
+          "inverseNotTaken": true
+        },
+        {
+          "name": "centered_S",
+          "returned": {
+            "FSDegree": 1,
+            "monomials": 1,
+            "numeratorMaxDegrees": [
+              0,
+              0,
+              0
+            ],
+            "denominatorMaxDegrees": [
+              0,
+              0,
+              0
+            ],
+            "numeratorTerms": 1,
+            "bytes": 51,
+            "sha256": "45130259cc3216c1232777da6b4b19cb8e8e97807d14532b98a467be0888a200"
+          },
+          "inverseNotTaken": true
+        }
+      ],
+      "newInputUsesOriginalValueQuarticNotOnlyOldGram": true,
+      "coefficientCertificate": {
+        "bytes": 556062,
+        "sha256": "eb401f269c987a189139a96629b3a19334dca7b0638d44d300f3839128e1a89a",
+        "encoding": "successive compact polynomial JSON followed by newline"
+      },
+      "bigMatrixCacheWritten": false,
+      "noParameterCofactorYetComputed": true,
+      "completeIndividualValueNPRowsStillRequired": true,
+      "fullOriginalSystemExcluded": false,
+      "claimExcluded": false,
+      "peakRssKiB": 45936,
+      "seconds": 2.0767679249999986
+    }
+  ],
+  "scope": {
+    "sixOriginalRowsReturned": true,
+    "sixteenTrueMultiplicationColumnsReturned": true,
+    "lambdaThreeHalvesEntireFiberRetained": true,
+    "noGeometricInverseOrNorm": true,
+    "noParameterCofactor": true,
+    "noExclusionClaim": true,
+    "completeIndividualValueNPRowsStillRequired": true
+  },
+  "largeCoefficientCachesSaved": false
+}
