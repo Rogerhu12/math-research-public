@@ -40,7 +40,7 @@ R966/967的原12个2/3译像真中央零只覆盖δ-new指定线，真实cross �
 
 ## 第一实际门：原映射、全部厚除子与 shadow
 
-**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学step4自01:10:41UTC运行；全49源/两char0/两图七式四交18×9及Sage10.6/r29/q2453/batch64/minimal保持。05:27只读collector run45945876436实际取得原log23110630B/SHA748bdb5e…171fbba0，尾05:17:48到negative/base-prime0/whole local primary factor1的Hermite188/306及下一全gcd/Popov reset；仍非四交/全Norm/shadow PASS。原首段和全部source/失败/新回执见终点链，不重算v9。
+**唯一v9实际运行，尚无完整生产回执。** run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学step4自01:10:41UTC运行；全49源/两char0/两图七式四交18×9及Sage10.6/r29/q2453/batch64/minimal保持。06:01只读collector run45949222673实际取得原log27312505B/SHA22371d0d…c094aff7，尾05:52:25到original cubic branching:positive/base-prime0/whole local primary factor3的Hermite225/306；原gcd/Popov reset；仍非四交/全Norm/shadow PASS。原首段和全部source/失败/新回执见终点链，不重算v9。
 
 R909原F/R906§8原P、R924 TUV/DS204/36cusp/Y666/ys360、R925两正规化图306自由环及46971全产品、R926原cube/低权/maps、R927 e0/z96/dF1296均已有真实回执，不重算成新结论。原u/λ/vnew/微分/∞→O/返回17、三退化、omega/Artin(2,0,1)、Z02=Z/Z20=−Z全部保持。四交00/01/11/12、全厚闭点度数/长度/无穷边界/原Tate迹和18×9shadow待实际输出；每E真度39840，成本2256+r·dF或2256(r+1)不能模ell先缩。7993及固定ell有限shadow不代无穷p。
 
@@ -172,3 +172,7 @@ R1028已付末六原三权W_t=W∞+cp·u^pT_t，固定Hermite有理函数/全部
 ### R1030 的真实三次角域与原物理矩阵
 
 R1030实际t=−27u/(1−4u)³、Θ=(1−4u)Θhat与新同charge源完整付三次角域；全五点Dhat degree62/65、195余权/36270自由基、最高基权393和c8Δ导子weight70005齐。原trace0保证每个好p仍三次可分，导子全环p饱和；三复制给累计31M²/65，但真实矩阵[Jold,MzJold65,Mz²Jold130]秩不可相加。全部同H/E六位/普通unit/惰性尾与实范数保留，a+2b<3及指定forcing余向量仍待实际消元。 新规范化和导子只给合法来源及其准确返回；下一条必须支付原受迫余向量在实际新增两像中的成员性/排除，或用完整六位必要行迫确定λ1−10λ2/81单位为零。不能把三复制当三个新独立深块，也不能传播任意乘积的中央零。
+
+### R1030§10 的实际 trace-zero canonical 基
+
+§10再用原同次全gcd回执：两64次原角的gcd为14，约分比例次数50不能经三次τ复合，故两条真实canonical恰为全trace-zero平面的基。完整三列Gram返回给c8D2导子69875；剩余域例外由固定50次reduced pair的leading/resultant准确指定。保真实旧系数/测试，不能把函数域基当中央零空间。 下一步须用(34)逐项运输原旧系数及全Gauss/Miller/P/Z，或从实际必要行生成完整伴随测试；非恒定系数下中央首导数不具线性，三块共同核仍须消去。

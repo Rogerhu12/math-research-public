@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `1a4a8bd51457570700bcefd1f78734c1e5905835`（2026-11-27 06:04UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `a8f112227b9c8b24d3bab88da073afc42b28a828`（2026-11-27 06:13UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；05:57UTC实际pull至98dc41b3886e454c03b537ec21529497936ad0e6，两README差异空、QUEUE仍本会话进行中。令牌只命令行/进程认证，不落文件。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-cubic-source-lattice.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -15,7 +15,7 @@
 
 v8 run45882239615/job140124138541在01:05:47UTC数学21000s timeout124、01:05:50 job failure；正三块及负首块全厚已过，停负第二块Frob169/306。完整终log/SHA和全部原门见归档及终点链；非四交/全Norm/shadow PASS。
 
-R1008/R975/R986全后继保原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9、21000s/360min、人工API false。唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学自01:10:41UTC运行。两char0真认证、306Frob约1.78秒；05:27只读collector实际取得原log23110630B/SHA748bdb5e…171fbba0，尾05:17:48到negative/base-prime0/whole local primary factor1的Hermite188/306及下一全gcd/Popov reset，原job仍运行。collector run45945876436/job140330328944只读、不重算；完整终点JSON仍空，不是四交/全Norm/shadow PASS。全部旧快照/403读取故障及新source/hash见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
+R1008/R975/R986全后继保原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9、21000s/360min、人工API false。唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学自01:10:41UTC运行。两char0真认证、306Frob约1.78秒；06:01只读collector实际取得原log27312505B/SHA22371d0d…c094aff7，尾05:52:25到original cubic branching:positive/base-prime0/whole local primary factor3的Hermite225/306，原job仍运行。collector run45949222673/job140340910080只读、不重算；完整终点JSON仍空，不是四交/全Norm/shadow PASS。全部旧快照/403读取故障及新source/hash见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
 
 R982/983/R987/R993/R992全部原门真PASS；R992 run45907263972全13核残差、R994 run45907264125三β27复L(1)>0及完整尾<2^-180的全部source/job/hash见结果和归档。
 
@@ -35,7 +35,7 @@ R1026已付H≤p−6的真精度K=min(H+1,5s−2)、六维double/原φ及primiti
 
 R1028已付末六原三权W_t=W∞+cp·u^pT_t，固定Hermite有理函数/全部水平项/坏素数齐；真Vδ=W_t^p余项只在同target φ_(p−6)经α拉回的全39第一primitive低窗可删。原G首1/z、至多简单极；四阶adjoint cut全核p+4→2→37→primitive36，乘A^p后p−36>K；b5/O/aZ仍保。共同W∞的真三字只含原Fp和常数2/3，正支仍mode2；原Lamé p曲率为−10Hcal^p I+(5cp/6)E12，完整P10交换子保全部e项。须实际全Miller/τ/χ8测试生成，不由Jordan单位或裸log非零赋canonical零。
 
-R1030实际t=−27u/(1−4u)³、Θ=(1−4u)Θhat与新同charge源完整付三次角域；全五点Dhat degree62/65、195余权/36270自由基、最高基权393和c8Δ导子weight70005齐。原trace0保证每个好p仍三次可分，导子全环p饱和；三复制给累计31M²/65，但真实矩阵[Jold,MzJold65,Mz²Jold130]秩不可相加。全部同H/E六位/普通unit/惰性尾与实范数保留，a+2b<3及指定forcing余向量仍待实际消元。
+R1030真实三次角域/五点Dhat degree62/65、195余权36270整基及c8Δ导子70005齐；全好p仍三次/全环p饱和。原两64次角gcd14给比例degree50，故新两canonical恰为整个trace-zero平面之基；全Gram另给导子69875，剩余域坏集由fixed resultant指定。真实三块像/全部范数与同H/E六位保齐，秩不可相加、a+2b<3及原forcing仍待。
 
 ## 三、几何与固定最高循环
 

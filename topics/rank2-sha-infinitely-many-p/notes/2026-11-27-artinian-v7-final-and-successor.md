@@ -164,3 +164,11 @@ collector run `45945876436`、job `140330328944`、source `fc1211c0a08fd9643ade3
 原日志共23110630字节，SHA-256 `748bdb5eb859af6c6659a5195842c720bc44871899080c2ad2520a7e171fbba0`。可读尾止于 `2026-11-27T05:17:48.6613019Z`，实际标签为 `all original cusps:negative: base-prime 0: whole local primary factor 1`。Hermite已经抽取188/306列，随后记录第189列前的完整gcd/Popov reset，剩余determinant degree2。此处记录实际标签，不以先后次序猜测未返回的其它全部块。
 
 完整终点JSON、host终门和parse errors仍为空，未结束尾行0；没有四交、全厚Norm、全shadow或原nonzero字段的最终回执。collector stdout14046字节，SHA-256 `1bc51aa1bbf122c3717bff269a136b75bbd74ab74181b5b5ad5fd2222974f2a8`，exit0、outputs_persisted=false。原全部字节只经过流式读取，未存入git。继续唯一v9，外层collector成功不当数学PASS。
+
+## 13. 第六次真实快照：2026-11-27T06:01:27.8682625Z
+
+collector run `45949222673`、job `140340910080`、source `5f2df4435c2d435598c30aaccbeb2ec3ef9ddf0e` 实际success。原run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2绑定不变；原run/job/数学step4仍in_progress，未返回conclusion。
+
+原完整日志27312505字节，SHA-256 `22371d0db0a1f1b380fd3245a20a3df190a530d2850ecc6614b5e255c094aff7`。可读尾止于 `2026-11-27T05:52:25.0945895Z`，完整标签为 `all original cubic branching:positive: base-prime 0: whole local primary factor 3`，Hermite已经抽取225/306列，剩余determinant degree2。此标签与§12不同，但不以程序顺序代替其它块的完整终门回执。
+
+完整终点JSON、host终门、parse errors均为空，未结束尾行0；仍没有四交、全Norm、全shadow或原nonzero字段的最终返回。helper保持§10的11472字节与同SHA；collector stdout14069字节，SHA-256 `b98c80154a083356c7f995c6a541e390c4a89f07edd4fdcc3f1d58cf9a5adc58`，exit0、outputs_persisted=false。只有流式只读，无数学重算或原日志文件提交。唯一v9继续。

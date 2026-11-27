@@ -71,4 +71,4 @@
 
 - [R1029](../results/R1029-original-two-torsion-cm-genus-two-and-norm-classes.md)：原S非零2挠谱域准确为亏格二C:w²=(z³−4)(z³−16)，实际f3/r2到B的交叉迹符号与Gram完整给JacC→B²度3。原Norm核两独立2类及惰性q规范gq平方Norm均付。完整S3闭包D:4H³=A⁶−1逐点恢复全部2挠、原三次deck和两坏处分歧；四实际CM角色给JacD的真Frob²=[−q]（全q≥5惰性）。这是实际谱盖/Norm输入，不代S的Chow比较、一般Q或原27对非零。
 
-- [R1030](../results/R1030-actual-cubic-angle-field-and-complete-threefold-source-lattice.md)：实际三次角域由任一新同charge源的全δ-trace0严格生成；五点公共除子、完整195余权/36270自由整基与c8Δ导子weight70005全付，允许好p上保持三次/全环p饱和。实际来源格累计31M²/65、完整普通/惰性/实范数及同H/E六位继承；三个物理像保三次关系和全部跨界，秩不可相加，指定forcing与a+2b<3仍待。
+- [R1030](../results/R1030-actual-cubic-angle-field-and-complete-threefold-source-lattice.md)：实际三次角域由任一新同charge源的全δ-trace0严格生成；五点公共除子、完整195余权/36270自由整基与c8Δ导子weight70005全付，允许好p上保持三次/全环p饱和。实际来源格累计31M²/65、完整普通/惰性/实范数及同H/E六位继承；三个物理像保三次关系和全部跨界，秩不可相加，指定forcing与a+2b<3仍待。 §10再用原同次全gcd回执：两64次原角的gcd为14，约分比例次数50不能经三次τ复合，故两条真实canonical恰为全trace-zero平面的基。完整三列Gram返回给c8D2导子69875；剩余域例外由固定50次reduced pair的leading/resultant准确指定。保真实旧系数/测试，不能把函数域基当中央零空间。

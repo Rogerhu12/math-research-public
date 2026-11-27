@@ -666,3 +666,142 @@ $$
 
 全文为原恒等式、固定有限 trace 与整模证明。
 未执行本地数学，未增加素数扫描或读取一个缓存矩阵来替代来源。
+
+
+## 10. 两条真实 canonical 恰为整个 trace-zero 平面的基
+
+这一节继续使用原完整来源，且不新增数学运行。
+R982 第1节式(6)及其同一次公开回执给
+$$
+\deg f_{35}=\deg f_{53}=64,\qquad
+\deg\gcd(f_{35},f_{53})=14.
+\tag{31}
+$$
+具体回执是 source
+c3fc3c60605f4455fc57177367c89e56a9763f6a，
+[run45892525657](https://github.com/Rogerhu12/math-research-public/actions/runs/45892525657)，
+job 140158402506。
+原 helper check-original-four-arithmetic-source-angles.py
+的 SHA-256 为
+4bfa7783e5fc307a1a5a332a25a95340060bd83a58c4e5a04ff5c52f2c0ddfaf；
+完整两源 gcd 的 SHA-256 为
+43ec173b02ecfe7dbe521eaae5e08c4b47a4a75b83e2dbdf499e310e548ff210。
+原全部66列矩阵仍为
+e80e5777735077da004012b5abe8dfd2ba246b9404fd53899502c453242d1fff；
+回执先完成全来源投影和完整角反转，随后才读取 (31)。
+这里没有把两个低 jet 的不同比例外推成函数域独立。
+
+记
+$$
+z_1=\widehat\Psi_{35},\qquad z_2=\widehat\Psi_{53},
+\quad
+K_0=\mathbf Q(\Theta,t),\quad K_1=\mathbf Q(\widehat\Theta,u).
+$$
+由 (4)，
+$$
+\frac{z_2}{z_1}=\frac{f_{53}(u)}{f_{35}(u)}.
+$$
+约去 (31) 的完整 gcd 后，分子、分母都准确为50次，
+且互素。因此这一个有理映射的次数恰为50。
+
+若 $z_2/z_1$ 属于 $K_0$，由于它独立于超越元 $\Theta$，
+它必属于 $\mathbf Q(t)$。
+这是 $\mathbf Q(u)\cap\mathbf Q(t)(\Theta)=\mathbf Q(t)$：
+一个在 $\mathbf Q(t)(\Theta)$ 中、且对 $\mathbf Q(t)$ 代数的元素
+必须在 $\mathbf Q(t)$，因为纯超越扩张中的相对代数闭包就是基域。
+于是存在 $R\in\mathbf Q(t)$ 使
+$f_{53}/f_{35}=R\circ\tau$。
+两个非恒定有限映射的次数相乘，便得 $3\mid50$，矛盾。
+恒定 $R$ 也与次数50矛盾。
+
+结合两个完整 trace 均为零和 $[K_1:K_0]=3$，准确得到
+$$
+\boxed{
+K_1=K_0\oplus K_0z_1\oplus K_0z_2,\qquad
+\ker(\operatorname{Tr}_{K_1/K_0})
+=K_0z_1\oplus K_0z_2.
+}
+\tag{32}
+$$
+这里两个新方向都是原已经识别的 rank 至少二来源，
+没有用 $z_1^2$ 充作另一个被赋中央零的方向。
+
+### 10.1 同一 trace 配对的更短整返回
+
+设
+$$
+A=\operatorname{Tr}(z_1^2),\quad
+B=\operatorname{Tr}(z_1z_2),\quad
+C=\operatorname{Tr}(z_2^2),\quad
+D_2=AC-B^2.
+\tag{33}
+$$
+$A,B,C\in B^{(8)}_{130}$，$D_2\in B^{(8)}_{260}$。
+全扩张可分，trace 配对非退化；
+常数线与 trace-zero 平面正交，且 $\operatorname{Tr}(1)=3$。
+由 (32)，其在 $z_1,z_2$ 上的 Gram 行列式非零，故 $D_2\ne0$。
+
+对任意实际 $b\in\widehat B_m$，全部三列的准确回乘是
+$$
+\boxed{
+\begin{aligned}
+D_2 b={}&\frac{D_2}{3}\operatorname{Tr}(b)\\
+&+\bigl(C\operatorname{Tr}(bz_1)-B\operatorname{Tr}(bz_2)\bigr)z_1\\
+&+\bigl(A\operatorname{Tr}(bz_2)-B\operatorname{Tr}(bz_1)\bigr)z_2 .
+\end{aligned}}
+\tag{34}
+$$
+三项旧系数的权分别为 $m+260,m+195,m+195$。
+整性由第7节的同一个有限整扩张及旧正规性支付，$1/3$ 已在原允许环中。
+因此又有完全指定的同来源导子
+$$
+\boxed{
+c_{\rm pair}=c_8D_2,\qquad
+\deg c_{\rm pair}=69875,\qquad
+c_{\rm pair}\widehat B
+\subset A^{(8)}+A^{(8)}z_1+A^{(8)}z_2.
+}
+\tag{35}
+$$
+它把第7节的三次 trace 返回改为同一个真实 canonical 对，
+并减少固定返回权130；没有把任何旧系数的乘法赋中央零。
+
+剩余域的范围可以在不新增运算的情况下完全指定。
+固定取 (31) 的 monic gcd $g$，
+并分别把 $f_{35}/g,f_{53}/g$ 清成 primitive 整数多项式 $a_1,a_2$。
+它们均为50次且互素。
+除了原固定坏集，再排除
+$$
+\boxed{
+\operatorname{lc}(a_1)\operatorname{lc}(a_2)
+\operatorname{Res}(a_1,a_2)
+}
+\tag{36}
+$$
+的非零整数素因子，以及这些固定清分母所需素数。
+这是由已经固定的原两源唯一确定的有限集合，
+不宣称它全部小于211。
+在其外 (31) 的约分次数仍为50；
+原 $\tau$ 仍是次数三的可分映射，
+故上面整个次数论证在剩余函数域中仍成立。
+因此 $\overline{D_2}\ne0$，
+(35) 的全来源像 $p$-饱和由第7节同一个整环消去证明。
+若继续使用已经支付准确原点位移的六块前缀，可直接保留
+$c_{\rm new}$ 和 (27)，不用为 (35) 猜一个新的首项。
+
+### 10.2 实际读者中保留的两个基方向
+
+(34) 给完整目标矩阵的另一份真实呈示：
+$$
+[\ \mathcal J_{\rm old},\
+M_{\mathcal J(z_1)}\mathcal J_{\rm old,\,65},\
+M_{\mathcal J(z_2)}\mathcal J_{\rm old,\,65}\ ].
+\tag{37}
+$$
+其中两个新列均来自同一个 (29)–(30) 的实际 canonical 行。
+它们在函数域上的独立不表示截断目标中三个像的秩可相加。
+所有 (33)–(34) 的系数都是实际旧来源函数，
+而中央首导数只对固定标量线性；
+因此 (32) 不把整个 $K_0$-平面变成中央零空间。
+后续可以使用 (34) 逐项运输真正的旧系数和完整测试，
+但须保原 Gauss、Miller、切域及全部 $P/Z$ 费用。
