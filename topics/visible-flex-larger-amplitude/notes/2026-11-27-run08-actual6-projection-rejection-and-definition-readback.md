@@ -29,3 +29,29 @@
 本次追加新唯一step ID `read-actual-run08-complete-current-projection-definition-after-step6-20261127`，输出到新的runner路径，不覆盖失败文件。当前未返回的诊断结果不预填。若证实是接口接错，修复确切完整源码；若输入确已改变，则更换完整原输入重建或开展具有明确固定目标和历史责任的完整新分支，不能放宽mesh/chart要求后冒称原同场。
 
 科学完成标准与全部E/typed/同g/精化责任不变，继续研究。
+
+## 实际第9步：mesh相同，完整固定chart不同
+
+第9步已实际完成并返回0，控制器seconds为6.154771044999961，读取内部0.0009769970001798356。完整实际输出为8083字节/SHA256 `4c3bbbff7f13ec801d8300c58c2d45c6feb8fc786d9a2cb3de9f752a395c61ec`。完整preparation与失败report的原wholeSHA和model SHA均重新通过。
+
+| 实际定义字段 | 当前实际值 | 历史要求 | 比较 |
+|---|---|---|---|
+| 全mesh SHA256 | `eff967897039ec740c9aca49620253f27fb46d93cd8c59f4ed4759781ef88262` | 同左 | 相同 |
+| 全固定chart core SHA256 | `7c4c9b736c0c8081e9f00a131db5fb63af224aa64fb476c07c78c09b5288bb48` | `90e6cf8a5794bf6d61c2180c6e0549df74ac883457228af1e6ccfd34544f082e` | 不同 |
+| 实际完整reference model | `492456a67601cac752dc8e5cb79c14eaccc7339b2d3206f0d570bb60b02c5c5e` | 不冒旧model同一 | 原样保 |
+| 实际whole warm | `4c34e0889a40e67a3a0a38abce030bb0358f74333fc1d8c95f669d5beefd9a0f` | 不冒旧whole warm | 原样保 |
+
+这次真实读回将第6步的联合拒绝具体定位到模型记录中的固定chart字节身份不同，mesh身份并未改变。不能从“参数/源同”或差异可能很小推断同一个固定材料度量，也未取得旧chart全部系数逐字对照。原6cc的严格拒绝保留，不把expected摘要换成7c就宣称原90的历史责任已付。
+
+完整实际definition和warm binding留在runner该8083字节输出；controller只允许scalar summary，所以本次误选的四个非标量字段 `actual_fixed_core_first3`、`actual_reference_definition`、`actual_current_warm_public_binding`、`original_failure` 被如实登记为四项 `Requested summary is not scalar`。它们没有在公开卷完整返回，不能把已公开标量说成完整对象已公开。所有必要的本表标量已实际返回；无需为了补打印重新运行数值构造。
+
+更新后的真实卷为固定提交 `a145bbec0c1b24bf709c9bd86e7656703e68b11d`、blob `eb0fab203d187e4498983eb30a08c574827311d1`，37303字节/SHA256 `f3a69d930714259c9a954a9910602743194a73299c69e4c1f2bf6eeea3b8e429`。先前30776字节的6–8快照身份仍有效，二者是不同时间的完整卷，不混同SHA。
+
+### 全参数6–9归档与继续路径
+
+真实6–9四对象现按自然阶段分成两份完整归档。每份包括原完整队列头、固定原队列65,523字节/SHA256 `87ec42ac3100b7bc55e5ba1404d7312a965144eefe0842c5fdf1e69a491b6f81`、完整原step及实际完整compact return。失败、summary_errors和missing_outputs原样保留。没有归档任何待返任务。
+
+- [resume-20261127-followups-08-returned-006-007-archive.json](../computations/resume-20261127-followups-08-returned-006-007-archive.json)：70664字节，SHA256 `2ff1c679a8cff5e49c26c719e7999dcb2bdb24b9828b87944ab186c915ed6df1`。
+- [resume-20261127-followups-08-returned-008-009-archive.json](../computations/resume-20261127-followups-08-returned-008-009-archive.json)：41221字节，SHA256 `37fa7d6c7185c8d97d6f749708f7caad7c851402674915f087345079e27716a5`。
+
+控制器继续 `finish_when_done=false`。后续必须实际取得原完整chart输入并重建，或完整声明独立冻结的新目标及原历史边界，再以完整源/参数继续；不能放宽旧守卫、改名旧SHA或把本次元数据读回当数学同一性/metric/reach/精化证明。原分支仍保，题目未完成。
