@@ -177,7 +177,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 [N型最大carry域](results/R271-appendix-maximal-n-carry-domain-triangular-reconstruction.md)已由有限行严格三角重构识别为ρ权平方和域；各Pq h在H且Kh在H即进总孔核心。若同W来源已付Sh∈H，非零W只可能来自D*h与Kh各非H的真实抵消；此来源与抵消排除均未付，Y不套此正交重构。
 
 
-L0新[原8×8参数必要曲线](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-eight-by-eight-original-parameter-curve.md)为C_(39,53)，八列cofactor身份保全部主元零纤维，15.766025秒/exit0。与X/Y及同rho/t的全部原P/N继续交点返回，不重跑冻结的大投影。
+L0原C39,53已付；新[九行的三个原8×8子式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-additional-original-parameter-curves.md)给C39,54/C40,53/C40,54，24列与原行组合全乘回且保主元零支，51.704210秒/exit0。继续同参数原返回，不重跑冻结大投影。
 
 
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。

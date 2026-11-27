@@ -1,0 +1,105 @@
+{
+  "sourceSha256": "6a2e37636bc190e4fa9d6e4299f1e66f27e0d2657f6e75284f28bf19ea87537a",
+  "sourceBytes": 16480,
+  "exitCode": 0,
+  "wallSeconds": 51.70420995200038,
+  "peakRssKiB": 103552,
+  "stopReason": null,
+  "stdoutBytes": 22074,
+  "stdoutSha256": "820283fb181053c5ee626f2b19e9ab529a34ff964786a903b81e70a93feb552e",
+  "scope": "three new original bounded-rho Macaulay necessary curves; not whole L0 exclusion",
+  "source": "2026-11-27-unit211-L0-three-additional-original-parameter-curves-8542.py",
+  "limits": {
+    "sourceAlarmSeconds": 230,
+    "outerHardSeconds": 240,
+    "addressSpaceGiB": 4
+  },
+  "sourceWritesOnlyOptionalScratchCache": "/workspace/scratch/8542378f2b73/L0_additional_macaulay_curves.json",
+  "reproductionNote": "Create the scratch cache parent directory before execution; the cache is not a proof input and is not committed.",
+  "exactNewReturns": [
+    {
+      "allRemovedFactorsPaid": true,
+      "claimExcluded": false,
+      "cofactorIdentityAllEightColumnsVerified": true,
+      "constantColumnExactlyOne": true,
+      "determinant": {
+        "degrees": [
+          0,
+          84,
+          126
+        ],
+        "sha256": "81b55ac8f5c51018a5e249952d074a2ee24f8bcb414246965628baca4063c6ae",
+        "terms": 8324
+      },
+      "elapsedSeconds": 16.349784,
+      "necessaryCurve": {
+        "degrees": [
+          0,
+          39,
+          54
+        ],
+        "sha256": "16720813d546e77a4847da2ab9777eb6d009ced33085a7164e9e78909f14c36b",
+        "terms": 1884
+      },
+      "omittedRow": 8,
+      "pivotZeroFibresRetained": true,
+      "stage": "additional_original_eight_by_eight_parameter_curve"
+    },
+    {
+      "allRemovedFactorsPaid": true,
+      "claimExcluded": false,
+      "cofactorIdentityAllEightColumnsVerified": true,
+      "constantColumnExactlyOne": true,
+      "determinant": {
+        "degrees": [
+          0,
+          88,
+          126
+        ],
+        "sha256": "1e1daafa782de2afa20bfb29c83bf8d8376dc52d31454db5c92d1ebcfd751e56",
+        "terms": 8670
+      },
+      "elapsedSeconds": 32.694054,
+      "necessaryCurve": {
+        "degrees": [
+          0,
+          40,
+          53
+        ],
+        "sha256": "e794abe1f3c03c6cbda5fa7474b4a7d3a4e5b70e6996c0ee19dc3e5cbeb0cb05",
+        "terms": 1848
+      },
+      "omittedRow": 5,
+      "pivotZeroFibresRetained": true,
+      "stage": "additional_original_eight_by_eight_parameter_curve"
+    },
+    {
+      "allRemovedFactorsPaid": true,
+      "claimExcluded": false,
+      "cofactorIdentityAllEightColumnsVerified": true,
+      "constantColumnExactlyOne": true,
+      "determinant": {
+        "degrees": [
+          0,
+          88,
+          127
+        ],
+        "sha256": "f20668a7d40f41b3f80a2a3d8b0eb4add0d25fb95b7702d6168636f59e3693f7",
+        "terms": 8760
+      },
+      "elapsedSeconds": 51.567637,
+      "necessaryCurve": {
+        "degrees": [
+          0,
+          40,
+          54
+        ],
+        "sha256": "9090d7ebd9cea351271a0ddd7b7d7a9bce16da6d333045cf49f05b276af0d36d",
+        "terms": 1890
+      },
+      "omittedRow": 2,
+      "pivotZeroFibresRetained": true,
+      "stage": "additional_original_eight_by_eight_parameter_curve"
+    }
+  ]
+}

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0三个新增原八行参数子式（2026-11-27，已证明）：** [九原行删8/5/2的完整cofactor证书](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-additional-original-parameter-curves.md)给C39,54/C40,53/C40,54，24列身份及原多项式组合全回乘，全部主元零纤维保留，只剥已付单位。源6a2e3763实际51.704210秒/103552KiB/exit0；不重算旧删7的C39,53，不宣一般L0排空。
+
 - **R150 S0/Lt0三条原三次低参数曲线（2026-11-27，已证明）：** [U38/N42/P47及60条原系数身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-original-cubic-lower-parameter-curves.md)以U_moment/NB_even/PB_even分别换原20×20矩阵的Qa常数行；完整cofactor逐列乘回，全部原主元零纤维保留，只剥已付因子。源e809705c实际51.526931秒/73032KiB/exit0，曲线各737/908/1076项；本条尚不判空一般图。
 
 - **R12 原图核心的有界幂与R143实际反根（2026-11-27，已证明）：** [核心加强、实际闭逆与分母平方核心](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)只在真实图核心上付有限幂界即可沿用伴随域引理；原尾整幂作用于已有域给图核心。R143特殊跨核的S=T⁻¹确为闭稳定根，原D是S图核心；另付RanT⊂RanT*即S有界，未把未知K当全尾。慢行分母D=−2Z的D²L核心准确保旧有限放大稠密假设；一般慢行与实际伴随域包含仍开。
