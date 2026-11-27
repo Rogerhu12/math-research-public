@@ -203,3 +203,5 @@
 - [R1027](results/R1027-canonical-fiber-six-torsion-and-original-shadow-column.md)：原全q≥5的canonical fiber统一六挠：原曲面图push在秩二纯实现为δ、真正∞光滑纤维同源为−δ；保实际三挠修正与τ图pull后得6Q(O_B)=0。只在原54/η/P−/全Cor中清b=O_B的准确项，余有限CM fiber及全shadow仍待，无Tate假设。§7已在完整full9标号支付F_bφ_C=φ_(δC)[−δ]，原c与正确Pic0投影评价均取负，故54图成27对的正重数2；全η/Cor保持。实际54目标End=O34，O/B[2]碰撞只在固定有限删集中，不能充一般非零入口。
 
 - [R1026](results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)：原H扩到p−6并全付精度K=min(H+1,5s−2)、六维double/两exact/原φ边界与唯一primitive。高q实际13权模p为vπ^(p²)，第二Cartier后同一固定vπ；三处原dVδ/p的Cartier=dW与裸holomorphic核全p单位。全部char0相邻权和13差保留，未因modp饱和删p^K费用；原真实系数深度<K。
+
+- [R1028](results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)：末六原权有固定Hermite分解W_t=W∞+cp·u^pT_t，全部水平项/小坏素数已付；同一个target截面拉回后，完整39核与四阶adjoint cut第一primitive的低窗可统一W∞。全三字保原Fp/常数2/3和正mode2；Lamé原p曲率付单位nilpotent，完整P10交换子保全部e项。只统一实际有限读者，未删全函数或char0权余项；继续全Miller/τ/χ8生成及确定两行单位forcing。

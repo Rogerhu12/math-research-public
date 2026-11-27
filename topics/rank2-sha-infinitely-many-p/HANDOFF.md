@@ -6,10 +6,10 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `eb8dff7a25c258e5c186c3f8a6952343fdd33f0e`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
-- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；04:26UTC API逐文件核至a4f3ff79494e88cc61bd186622d6dd00813b0937，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
+- 公开根/课题 README 已读至 `a369d48b7724246e1b8a0e868ebc32b90e720372`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；05:25UTC API逐文件核至f52bf734653dce353e97e7b53d95a765280e6abf，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
-- [此次完整逐字归档](notes/2026-11-27-handoff-before-contiguous-curvature.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
+- [此次完整逐字归档](notes/2026-11-27-handoff-before-terminal-flat-weights.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
@@ -29,9 +29,11 @@ R1020全22同一K_H∈F/F^p、原O留数、S0/φ_H、第二层b5和aZ仅b1、帽
 
 R1022完整39支两顺序原权、增长帽/整Hurwitz/质量logqα及旧δ-old整N前缀回原13已付；三字用新g2/旧g0，π对δ-deck取负，target130保Miller−43/−44。R1024六固定连接、完整P10伴随和weighted primitive已付；原S三挠J全水平式及−3首非水平项、P10_S/Ξ非零初值同保。§7.0.1真cocycle给τ_-R*M_R=−M_-R；先把全外部τ执行再在真O保共同P10，源和β同移位，a_P只属变框架账本。
 
-R1025全六型Cartier、两old单位响应、属16 CM36及γ全纯、全Hermite与§6.1差81t^(1−6r)x²U_B/[2(1−k)]齐；U_C补线不可删。§9同一F_H=u^H Xy全有理primitive和4曲率槽保GP10。§10正矩/§11原char0 Z准确ODE已给实际Laurent系数ρ⁸T_H(p)的深度非零；§12自给一阶递推和非零四次多项式证明任意6个连续合法H中至少一个实际系数为p-unit，原曲率在三个E2皆恰九阶极。§12.4末两H=p−6,p−12的实际组合λ1−10λ2/81已是全p单位（−305/7128·ρ⁸B0）。此为原输入，仍须全GP10/全词迫该组合零。
+R1025原六型Cartier/CM36全Hermite及UC补线、FH有理primitive/四曲率槽和全部GP10保齐。§11实际char0 Z的准确ODE给原Laurent系数ρ⁸T_H(p)；§12自给Beta边界递推付6连续原权至少一unit，§12.4更定末两H=p−6,p−12的λ1−10λ2/81为全p单位（−305/7128·ρ⁸B0）。完整曲率在三E2恰九阶极；原canonical坏假设如何迫该确定组合零仍待。
 
 R1026已付H≤p−6的真精度K=min(H+1,5s−2)、六维double/原φ及primitive帽；高q原13权Vπ=vπ^(p²)，全char0相邻差不删，dVδ/p的Cartier=dW与裸核单位齐。q=s−7,…,s−2六行同13乘子、同K=5s−2且至少一曲率unit；须共同P10的全三/十三权contiguous/真实adjoint消元，不能新增任意测试零。
+
+R1028已付末六原三权W_t=W∞+cp·u^pT_t，固定Hermite有理函数/全部水平项/坏素数齐；真Vδ=W_t^p余项只在同target φ_(p−6)经α拉回的全39第一primitive低窗可删。四阶adjoint cut全核p+4→2→37→primitive36，乘A^p后p−36>K；b5/O/aZ仍保。共同W∞的真三字只含原Fp和常数2/3，正支仍mode2；原Lamé p曲率为−10Hcal^p I+(5cp/6)E12，完整P10交换子保全部e项。须实际全Miller/τ/χ8测试生成，不由Jordan单位或裸log非零赋canonical零。
 
 ## 三、几何与固定最高循环
 
@@ -57,4 +59,4 @@ R1027全q≥5的统一6Q(O_B)=0已付：同一图push纯实现δ、实际∞同�
 
 O4最早a≤1/δ²、O6全Np有限/原q_p=1、O7同解共振/全Laurent/非恒定Y权仍开。原P134/十九角/charge40/10980/WD/TM/TJ及R953跨parity、R954实际forcing成员性保持；全部精确条件见open和逐字归档。不再只提高rank常数而当闭合。
 
-central：R1025全Hermite/原G与真实三十三字外权；arithmetic：R1024完整P10/primitive及同测试点前三块；geometry：R1023全[3]盖的真实Frobenius图/Q/54迹；root：同点运输、实际回执/同步/逐条推送。主目标未完成继续实质门，不以来源变换或中间结果收尾。
+central：原共同Fp的完整Miller/τ/χ8十三来源；arithmetic：原Lamé/完整P10曲率与真实两行unit forcing；geometry：一般最短Q的全部极除子端点、全盖与54迹；root：确定两行组合/真实回执/同步/逐条推送。主目标未完成继续实质门，不以来源变换或中间结果收尾。
