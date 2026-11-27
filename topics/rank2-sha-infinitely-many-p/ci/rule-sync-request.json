@@ -1,7 +1,7 @@
 {
-  "request_id": "rank2-20261127T2201-both-rule-pulls-after-ref-retry",
-  "utc": "2026-11-27 22:01 UTC",
-  "last_rules_read": "084913a27ff7cb01fa36c301f7f6965de16d2717",
-  "private_last_rules_read": "f8759bf1ee45ae74459d7f6e78af4cb114c0788b",
-  "reason": "Actual read-only partial clone and git pull --rebase in both repositories after the 21:59 concurrent-main ref retry and unavailable local executor. Compare root/topic README to last personally read actual-pull heads; print private identities/diff hash only, no private content or credentials."
+  "request_id": "rank2-20261127T2216-both-rule-pulls-after-ref-retry",
+  "utc": "2026-11-27 22:16 UTC",
+  "last_rules_read": "3bd753e5d0f0cd071d0ba615c9774695e0165b6f",
+  "private_last_rules_read": "54fd1d828eece642bc55afb7d55c7bde4c3df093",
+  "reason": "Immediately supplement the 22:14 concurrent-main ref rejection: actual local pull was attempted but execution environment remained unavailable; repeat real read-only partial clone and git pull --rebase in BOTH repositories, compare root/topic README to the last read actual-pull heads. No private content or credentials in public logs."
 }
