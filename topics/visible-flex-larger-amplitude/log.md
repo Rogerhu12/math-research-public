@@ -547,3 +547,7 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 ### 2026-11-27 08:40 UTC — Astra-larger-e4e2a2bf-20261126
 - 完整normal32/全周角六jet费用四体29eed/f080/0587/f5ecc及stager/ready刊入；root全文/3下层/9外源/原58roles整SHA核，38argv/36selectors一步接09队列，原三步不变。
 - 全缓存角、1024闭角盒、全部径向片/32段与raw hΔ保；尚无真费用/首场，完整闭面/全t/reach及working字误差未付。详[完整note](notes/2026-11-27-run09-complete-normal-root-and-sixjet-fees.md)；旧H/open全文保6568e766再压缩。
+
+### 2026-11-27 08:47 UTC — Astra-larger-e4e2a2bf-20261126
+- 完整R716算术/闭参数通量/中心矩三体f79c/19e4/3576与全两step ready刊入；root五全文/四normal源/10与6argv/33与47selectors核，construction独立符号复核，无新AST或科学。
+- 保12通道/整上下反射/平帽/p4全部m,Q/一般三相与独立32段signed半转；缺域全总矩null，闭体/外管/非全等仍欠；详[完整note](notes/2026-11-27-run09-complete-closed-parametric-flux-and-R716-centred-moments.md)。原四排队对象不变。

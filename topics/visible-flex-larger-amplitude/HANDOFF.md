@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`a044c83ae61ed92021e37addba17daea5de20311`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，云API不冒pull，恢复即真拉取。完整经过保第31轮note/entry§9。本次云核至`91e6cc8826b8d6b091f054674c8b9980541da24e`，双README整SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d` 无变；非pull。09持续实际pull见末块。私库QUEUE已真推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差保4815339固定H及notes；令牌仅瞬时CLI。
 
@@ -37,6 +37,8 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 R709均值J不迁normal Cu；R711/R712中央Fss不冒K/reach；R714全C1/m32及R715全rawΔ/六jet/E/typed责任保。[全时合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)/[β消费者](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)保完整cover/八角色、同场D+/K/握持与所有mixed pair，β代数不自动闭面认证。
 
 [R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)保完整Beff=B2−b1²/V及固定R661 p4的ReBeff≥747π/80000000000>0；须同场完整A2≠0和半转假设才用简式/π/4或π/2排含反射全等；一般完整m,Q三相法不预设半转，实际矩/闭嵌入/外管仍欠。不改帽/g，不迁旧6077。
+
+[09完整闭参数通量与R716重心矩](notes/2026-11-27-run09-complete-closed-parametric-flux-and-R716-centred-moments.md)三完整体f79c/19e4/3576、两step ready已刊并排normal费用后；12通道及上下反射/两平帽/p4全部一阶混合矩、一般三相与独立32段signed半转包含保。root五全文/四normal源与10/6参数、33/47selectors核，construction按R716符号复核。无新科学/AST；缺域全总矩null，完整通量不冒外向闭体/帽外管/非全等。原四排队步骤不改。
 
 [09 N4096](notes/2026-11-27-actual-public09-N4096-full-frame-packet-entry.md)18运行体/9完整构造/三ready已刊，root31全文/75roles/原参数suffix核同；固定参考N2048、全部旧角字/地址/历史保。[09 M320](notes/2026-11-27-actual-public09-M320-full-frame-packet-entry.md)17体/4构造/三ready已刊，root25全文/74roles及17体/三ready真文本重放逐字同。两者严格ff544/aee22真实父，原固定g/M160参考/923节点/所有自由量/全E/typed/13成员父保；无N/M真返或准入。旧07M/N90/N7c入口全部未知责任保固定H。径向exact-affine同点、旧quintic限制、全部旧新Gauss并集/新校准仍在做。R700只固定M/正rho，旧QR未跑不作门。
 
