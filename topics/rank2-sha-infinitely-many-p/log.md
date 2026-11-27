@@ -286,3 +286,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 21:13:18 UTC：消费central blob9338731c2dd2eed5c82fe4f53e0506454bfe725a，追加实际ψ4来源§11。root亲读R307(3)/(4)/(15)–(17)，逐列手核全部三行二项式提取及两原列乘积、Pauli δ/19683、首2/两三挠首4、两个raw符号与r3=624/r5=1224；补共同degree102/C102/物理z及δ尺度的准确范围。完整note 28989B/SHA256 b415d14b87e16b9ce20c9e51c901ce97bf8a0615f55e4250f40766ff0299c5cf，无数学运行、无p扫描，旧两个秩零中央值不重算。新三分支actual cross继续，固定幅度不冒端点单位；两库actual pull20:45/下一≤21:45，唯一v12未重启。
+
+
+- 2026-11-27 21:18:58 UTC：消费arithmetic blobe0dcc9e1dce1d27056587cfe94e0fc8aec7f17e2。root亲读R525§1(2)–(7)，核全可分/不可分障碍已有正确全次数范围，再逐式审新有理log导数、P0/cofactor/p次分支、稳定曲线投影与真正有限ev_s；核局部Artin最小幂零指数证明不越e<p。note 10897B/SHA256 b94f6ba6df3c8b907809d4dddf42e100acb0a79c87d7db533514be3c7eb1cb2f，无数学执行，未新增原来源列或中央零。root正在亲读Binyamini primary1407.1183的§§2–3，仅提取需补的正特征/截断步骤，未将C上定理冒作新结论；central独核通用低degree Noetherian桥，后续立即接实际森林与原budget。新π4三分支cross亦继续；actual两库pull20:45/下一≤21:45。

@@ -192,3 +192,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 
 
 新来源§11已把两个原rank0参考的完整negative幅度一并固定：r=(-7,624,1224)，同degree102/C102/δ变量和全finite norm，故新三分支cross不再缺这两个固定规范；仍须实际新图权族比较及端点非退化，参考的原质量1不代K−(0)非零。
+
+
+### 原低轴的三变量素簇与截断稳定性已闭
+
+[三变量V证明](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)已给全次数稳定素簇分类/奇点D-property常数1，真实J_s稳定及e<p的minimal primary到稳定素理想短证。下一实际支付正特征次数受控森林、截断Rolle和完整原M中的预算；不能造越过s窗的Fp形式解，不能套复解析定理，也不能将Euler shifted身份重复计作新坏行。这里的乘积只为同一原必要投影的代数消元，不增加原canonical坏条件。

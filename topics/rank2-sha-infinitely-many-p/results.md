@@ -103,3 +103,6 @@
 
 
 - [新ψ4完整来源§11](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)：原H3/H5完整多项式经同一Pauli/type2投影的首z2为−14δ/3、6δ，六列提取由二项式逐式给出；两三挠Weyl/δ拉回的首z4为−312/(7∛2)、68/∛2，归一后都为1。同各自原positive raw相比，三条snew/sk的分子r=(-7,624,1224)，分母∛2(1+√3)；完整Yang范数给Cs²比r²/(4·2^(2/3))。三条共同degree102/C102/物理z及δ^-n保齐，原finite角色与各自period仍不同；不从固定首4或参考质量1预付p单位。
+
+
+- [原三变量向量场的全稳定素簇](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)：同R525实际低轴的三变量V=V0+6(1−t)XY∂Y已全次数分类：有理log导数为多项式迫f=g^p t^a(1−t)^b，kerV0=K^p；稳定素超曲面仅t=0、t=1、Y=0，高余维稳定素簇全落t=0或1，原奇点的素理想D-property常数1。原弧只modt^s，但完整ev_s(VF)=6t(1−t)∂t ev_s(F)给真实J_s稳定；所有1≤h<s阶严格保持。对D稳定理想的minimal primary局部长度e<p，幂零指数短证给该minimal prime也D稳定。未将(f^p)根自动稳定，未引用特征零森林为正特征重数界。
