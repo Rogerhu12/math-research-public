@@ -456,3 +456,6 @@
 
 
 - [UDRC21：完整operator/单位圆联合误差与首次Θ方阵实际入口](notes/2026-11-27-unit-disk-operator-Theta-first-square.md)：6件首入口已齐，130current/6native、原18四源全身份保，完整manifest48987B/80dbfdf3。3新GY induced/Schur+7新joint+11首次square，全signed阵/四product先完整保存读回再min；旧HS和全部旧ASR/IR/OT目标不重跑。唯一push workflow，实际结果与run号另记，不预报逆门成立。
+
+
+- [DWT：同一target w的直接单位圆输入](results/R149-supplement-direct-target-w-from-complete-unit-disk-input.md)：原w=vi−alpha准确化为−(vi+t conjugate(vi))/(q−1)，真小除数/物理4/反射/零mean全保；2048新disk→exact trial/完整误差，原ASR全tail因共同136|n||vi_n|majorant合法复用，不执行旧tail或旧coho目标。首w两个whole误差和BR实际准入仍须执行，不冒未运行BW或fullphysical逆。

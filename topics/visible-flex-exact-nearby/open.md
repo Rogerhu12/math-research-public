@@ -153,19 +153,15 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行和后继
 
-此前全执行、球/pins、失败/unknown及scope保[0c4原open](https://github.com/Rogerhu12/math-research-public/blob/0c4f842df7758cc5d11d27b3f1d0fa84e063dec0/topics/visible-flex-exact-nearby/open.md)与递归原件；第1–7节全部义务保持，成功目标禁重。
+本节此前全部运行、完整球/SHA、错误/unknown、参数/单位与scope保[6ecc原open第8节](https://github.com/Rogerhu12/math-research-public/blob/6ecc22139cdb367421d9b93afa16e6a8c2031704/topics/visible-flex-exact-nearby/open.md)和递归原件；第1–7节全部义务保持，成功目标禁重。
 
-| 路线 | 当前实际与接续 |
-|---|---|
-| PS→SL | [ASP](results/R142-supplement-actual-complete-streamed-defect-and-signed-loop-continuation.md)：全155/1424/193与6球完整，body门ε≈64.097636、含点whole≈64.855555，充分门false不推奇异，job只球后containment失败。禁止DP/重积分。SL首0science UTF8失败完整保，[明确接续](notes/2026-11-27-low193-signed-loop-utf8-zero-science-continuation.md)唯一45917913526/1在算。 |
-| 完整positive | 58→224→32→PN56/CXN6须真低逆；原14ports/单位/同因三角/aux Ec*e/BH KW/Ni全保，square过才消head。actual6/56、negative incoming、两mean/ν/fullSchur独立。 |
-| compact全角阶 | SM双端mean精确/完整residual与incoming<.002029；旧forward C0/mean false保。QN/QH/NR/NT/RT低域/两mean/source/jumps全保。PT独立root/outer全阶、单高A^{n+5/3}，DN四真实row/adjoints全阶；[FX](results/R144-supplement-fixed-moving-angle-long-module-and-full-exterior-commutators.md)已付fixedφ完整long module和raw exterior所有角交换子，最高真实反馈<.0025；PX已闭PT全阶真实外反馈；OX识别其为DH固定physical输出真DF，完整三row Hessian保。LG原ℓ²(逐模C_t) strong physical height全阶/κ/两端mean-height/λ已闭；RG真实e-H1 rawφ strong module/全阶已成，LV实际horizontal/coframe/vector与full Fourier mean已成；无generic径向L² headtrace。 |
-| TC真96 | 原45889161044真budget终态992/7724、whole matrix/waist已成。TCX45920124552旧cubic全SHA恢复失败，新science0；AMD诊断45923136710无AVX512/0child。明确ubuntu24后继45924740082全原cubic/14片/index匹配、实际SkylakeX/必要producer1次/TCscience0；TCX45926154640首次prefix保存0-d向量序列化失败，0fork/0新cell、原992保；明确TCXV45928452441已启动，只改零向量shape、全数学/96hex不变。SC仍须五whole源，仅physical/incoming配对。 |
-| 原alpha/Θ | ASR45914639857全2048/2目标完成，但实际eα∞≈7.95e220/eα2≈3.47e220，矩形复幂包裹所致，不授可闭合精度。全SHA/尾/旧失败保HANDOFF。原OT首次45924861985已启动，exact signed96×2240不消费巨费，10scalar诚实保巨界；UDR新unit-disk与全无限IR联合乘积误差proof/pure已推，UDRC18源码public952c4538未跑，OT全10现已成，[UDRC21](notes/2026-11-27-unit-disk-operator-Theta-first-square.md)首次六件已发布：GYN3+UDR7+首次TQC11，whole130current/6native与原18四源保，manifest80dbfdf3；唯一push触发run待读，原IR/ASR/OT目标0重跑；不重ASR/OT旧目标。TQC整4carrier→11球strict square未actual；BW/BR实际暂待新误差输入，原实现及全means/fullSchur不删。 |
-| strictν相位 | NP/NH/PO/APA/ASB既成锁，物理幅度(−.006275,−.006264)/high97<5.330e−5等全旧球保。[APHI](results/R147-supplement-actual-nonzero-phase-border-of-the-strict-parameter-particular.md)45915169627全6/6 rc0，131germs/1572polys/2545新交片与NP4whole数组全核；全球重组phase(.038736784,.038768096)、逆<25.82、幅度比(−.161991,−.161576)可行消元。原mean/fulltail/失败保，PP保完整regular/nonmeanphase/E′a作准确rank-one消元；CP明示邻域给1/60<S<3/50，仅PD.7候选，fullregular Schur/height仍独立。原TC trial候选P96首run45926971089已启，真实PDE修正未冒齐。 |
-| 完整高图 | DC/DB/DG/IL/IR/DT/TM/TP/SDI whole锁，C^-1 H−1/2≤1、H−1<5/3、H−4/3<5/2、原J homogeneous<2^-449。巨大finite complement、实际6/56/truephysical96、两mean/height/ν/phase及原normalizers不删。 |
-| 非线性高度 | TH/UH/DH/RP原low Hessian、WH同world独立ports/physicalheight H−3二阶≤2^100保。WT全部Hn height一二阶/余项已付；RPT真实两ray全部Hn return已付。新PCT付raw E全部Hn Hessian和PD当前左归一row背景一导，四导方向buffer、单B_{n+2}+G_{n+1}，GGB另付实际L8192（独立H3-radius1+CP C1，norm非constant但全相位保）；七项δrow/means/E′a保，非线性E不改E/J。PSC已付实际physical完整secant、独立腰trace/mean，低一阶23/混合Hessian3000及全角阶；cap图/full inverse/可求和迭代待。 |
+- PS完整body/含点门64.097636/64.855555均false，只充分条件失败，禁DP/重积分；唯一SL45917913526/1（0c4f842d）03:18仍在算，原UTF8零science失败保。
+- TC原45889161044完整992/7724与whole matrix/waist保；输入SkylakeX全SHA恢复及0-d失败全保。唯一TCXV45928452441/1（c721）三互斥slice，最新公开whole1040/7724，prefix5118d71ecd032fbcacdbe9b9c13ca2ec13401638f9c51a43ac3078bf4a64d3ad，failure null，negative/positive未成，不重旧992。
+- ASR45914639857全2048/2已成，但eα∞≈7.95e220/eα2≈3.47e220矩形包裹，不授精度。OT45924861985全10/完整96×2240已成，trial3b5bff1c…，原巨scalar诚实保；signed carrier不消费巨误差。GYN完整GY operator proof已成，旧HS只复用。
+- [UDRC21](notes/2026-11-27-unit-disk-operator-Theta-first-square.md)唯一45933303391/1（6ecc2213，03:17:28）已启：3新GY+7新unit-disk joint+11首次Theta square，130current/6native与原18四源全保，manifest80dbfdf3；whole候选先保存再min，旧ASR/IR/OT目标0重跑。Theta坐标门不授fullphysical逆。
+- strictν NP/NH/PO/APA/ASB/PHI全部whole锁，APHI真phase(.038736784,.038768096)、逆25.82仅strict particular；PP/CP保regular defect/mean/nonmeanphase/E′a。P96原96trial候选phase首45926971089/1（358eb35a）03:18仍在算，TC真实PDE修正资格未授。PRN完整negative原窗receiver已成；RH的Q_b/F_b/Cθ独立world ports保。
+- [DWT](results/R149-supplement-direct-target-w-from-complete-unit-disk-input.md)给同一真w的直接disk trial公式和完整反射，原ASR尾因同136|n|majorant合法复用，不重tail。首DWT2→BR7合同在写，BW未actual；BR全2240残差/能量inverse/两mean与actualw误差必须完整。SC仍须whole58/224/32+TC3+RW96+JC7，仅physical/incoming配对。
 
-最终仍须同一态H1/fullmean/true residual0/wholeC0、NG入口、全部B/C/Cmean/腰/height/holonomy/位置周期、单一worldframe/regularcaps。真正完成后才一次冻结ν*/Γ*/η/metric并用第1节几何余量。每pull核两README差异、至少每小时；读过SHA/私库进行中状态见HANDOFF。
+QN/QH/NR/NT/RT/PT/PX/FX/OX、TH/UH/DH/WH/WT、RP/RPT/PCT/PSC/GGB、LG/RG/LV与SREG/GF/GA/SLIP的完整证明、精确域/单位和未付端口统一见[结果目录](results.md)及HANDOFF，不能由finite配对补出未观察方向。仍须58→224→32→PN56/CXN6 actual6/56、negative incoming、完整finite/high与νphase Schur、同态H1/fullmean/zeroPDE/wholeC0/NG、全部B/C/Cmean/腰/height/holonomy/位置周期及单一worldframe/regularcaps。真正完成才一次冻结ν*/Γ*/η/metric并用第1节几何余量。
 
-BR/PX/PP/CP/RPT/OX/LG/PCT/PSC/RG/LV/PRN/UDR/SREG/GGB的新完整proof、实际范围和source/public身份统一见[结果目录](results.md)及HANDOFF，不由有限signed配对补出未观察方向。
+本地环境失联后按根规8仅小文本GitHub集成，每次读最新main及两README；非force更新拒绝旧父即重base。私库进行中与读取SHA见HANDOFF。
