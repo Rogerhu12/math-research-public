@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-collision-C2-quartic-u-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-eleven-original-return-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -226,7 +226,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **h=k、Delta零只余六lambda。** [七lambda完整QQ覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)后，[整个λ1/3已排](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-lambda-one-third-exclusion.md)：原两相容式仅余u50/277,Q489412/76729，新八原行保自由f，E1/EBe全QQ[f]Bézout返1（0.104秒/34128KiB/0）。继续C4=[3/8,−3/2,3,−3,1]与C2=[1/3,−1,1]两个完整常数代数及所有Q/u头零，不重跑原578投影。 [C2完整原相容](results/R150-appendix-unit211-equal-singleton-C2-Delta-zero-complete-original-quartic-cover.md)已给整个Q(u,λ)图及Ψ4(u)=133u4−30u3−32u2−24u+16；0.092秒/34420KiB/0。新74cf在全部QQ因子上恢复同λ,Q并返八原Gram，C4仍独立保留。
 
-**W十三原行由[低D次十一行原理想](results/R150-appendix-unit211-W-original-odd-NP-full-NV-lower-D-ideal-compression.md)继续。** 原D非0域内保NS/PS/R6，两个个别N/P奇部及完整NV可各降为一次D清除，13→11理想精确等价；三个完整BigInt身份真实3ms返回。391首次新11×6构建不重跑394的40MB原行；T3/F2自由只指首一环境，r2头与未付参数零面保留，不倒D范数。
+**[W低D次十一原行完整六列返回](results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md)。** 391真3.624秒/71332KiB/exit0，23原归约身份/73付分母；个别Nlow/Plow和完整NVlow实际返回，整个原D非零等价范围保留。总系数编码4.25MB只留哈希，不重跑旧40MB。新f5c取原E1/EBe/N1的Hij=BjRi−BiRj并接r2，四固定3×3常数余子式保全部F/r2头零，不逆A143或D范数。
 
 **两个小输入的列表快照错误。** [真实失败记录](notes/2026-11-27-unit211-Phi-zero-two-small-input-list-snapshot-failures-8542.md)：4e84已付四头共同零的QQ覆盖u3/2或F10后，K[Q]乘回比较对象被原地修改；4d64已付λ半三曲线各剥(rho+1)^3后同错，均exit1且无资源失败。旧源/部分数学保留；新8890/69ab各只改list(a)，唯一首派，不提前标整纤维排除。
 

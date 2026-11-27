@@ -1,0 +1,345 @@
+{
+  "schema": "isp-whole-W-D-linear-eleven-original-six-column-actual-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "runId": 46030195664,
+  "jobId": 140611756098,
+  "sourcePath": "notes/2026-11-27-unit211-W-global-monic-T3-D-linear-eleven-by-six-original-return-8542.py",
+  "driver": {
+    "elapsed_seconds": 3.6237379529999956,
+    "max_child_rss_kib": 71332,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e708f1b258568cb7ef3d2dc5e5776a03f34a50dc",
+        "before": "e708f1b258568cb7ef3d2dc5e5776a03f34a50dc",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T16:03:03.707142+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46030195664",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e708f1b258568cb7ef3d2dc5e5776a03f34a50dc",
+    "source_exit_code": 0,
+    "source_git_blob": "002f2fd10bcb6593156d3ce379b48646b9070494",
+    "source_sha256": "391e253ee36625abbbc3fada73175007c74f947cc5e3f7622bd30f7ebc31ade9",
+    "stdout_bytes": 9142,
+    "stdout_sha256": "ed723040f70e1250702f508525cf99fa0ac9ce66178b9f4f01bb4911f4d5414f",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "E1",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          9,
+          11,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          4,
+          9,
+          0
+        ],
+        "numeratorTerms": 415,
+        "bytes": 8699,
+        "sha256": "fdbb03650066edc1d06cd96078ef82bec64b539f2f96d81a14f1d7432e4ac3e7"
+      },
+      "claimExcluded": false,
+      "seconds": 1.2276736220000046
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "EBe",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          12,
+          15,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          8,
+          13,
+          0
+        ],
+        "numeratorTerms": 844,
+        "bytes": 22046,
+        "sha256": "082fd3e49fe115959e89675af0bf02fae13705706e37c91078d6f9a33b761cbd"
+      },
+      "claimExcluded": false,
+      "seconds": 1.2353994959999994
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "EBo",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          12,
+          15,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          9,
+          14,
+          0
+        ],
+        "numeratorTerms": 870,
+        "bytes": 23698,
+        "sha256": "7b4e18c835c90db252f280e9ac5c7f1db90a3a628bfe7fd77a77419dbed9250b"
+      },
+      "claimExcluded": false,
+      "seconds": 1.2438165010000048
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "N1",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          14,
+          15,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          8,
+          13,
+          0
+        ],
+        "numeratorTerms": 853,
+        "bytes": 20308,
+        "sha256": "9b96e5b0a0420d9d4a80e92ed21cae94aabe493e946dfeeba9bef193bf1e49ce"
+      },
+      "claimExcluded": false,
+      "seconds": 1.2512934670000035
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "NS",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          22,
+          29,
+          4
+        ],
+        "denominatorMaxDegrees": [
+          15,
+          26,
+          1
+        ],
+        "numeratorTerms": 6367,
+        "bytes": 196539,
+        "sha256": "de4aaf63646ff980b902bf6dfd238aeaea8432bfc8d753015dde0f11ce4f1f0e"
+      },
+      "claimExcluded": false,
+      "seconds": 1.3110569370000036
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "PS",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          22,
+          28,
+          4
+        ],
+        "denominatorMaxDegrees": [
+          15,
+          25,
+          1
+        ],
+        "numeratorTerms": 6099,
+        "bytes": 188506,
+        "sha256": "4d65a43d978cba5010024eb6d097d2573627f46bb720774fe7ec26256b8953ca"
+      },
+      "claimExcluded": false,
+      "seconds": 1.3698736119999992
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "original_q4_remainder_r2",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 3,
+        "numeratorMaxDegrees": [
+          14,
+          16,
+          6
+        ],
+        "denominatorMaxDegrees": [
+          11,
+          16,
+          2
+        ],
+        "numeratorTerms": 3127,
+        "bytes": 83829,
+        "sha256": "71f7e3dfc8b2fc62118dcf2558a7e57d70406692050edc53c06b4a788682688a"
+      },
+      "claimExcluded": false,
+      "seconds": 1.3936976200000046
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "original_same_value_R6",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 3,
+        "numeratorMaxDegrees": [
+          28,
+          30,
+          10
+        ],
+        "denominatorMaxDegrees": [
+          20,
+          29,
+          4
+        ],
+        "numeratorTerms": 19429,
+        "bytes": 661124,
+        "sha256": "f34dab4c99d57a06c98c46d8be60aecb200848e738f389b8f81b00d305190616"
+      },
+      "claimExcluded": false,
+      "seconds": 1.5731580100000002
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "D_linear_individual_N_odd_complete",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          29,
+          37,
+          8
+        ],
+        "denominatorMaxDegrees": [
+          23,
+          35,
+          3
+        ],
+        "numeratorTerms": 28517,
+        "bytes": 1093639,
+        "sha256": "affc313c955db32809323b96d68ddcfc06044c169a1b08430cf36e720587a0ad"
+      },
+      "claimExcluded": false,
+      "seconds": 2.1231043330000006
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "D_linear_individual_P_odd_complete",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          33,
+          42,
+          8
+        ],
+        "denominatorMaxDegrees": [
+          27,
+          40,
+          3
+        ],
+        "numeratorTerms": 35812,
+        "bytes": 1483900,
+        "sha256": "8ba683f152023549f16c35eefe65fea8628fe5c5dd93e352b1266566917aec78"
+      },
+      "claimExcluded": false,
+      "seconds": 2.7488295469999997
+    },
+    {
+      "stage": "whole_W_new_D_linear_original_row_profile",
+      "name": "D_linear_entire_original_N4_Vval",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          22,
+          26,
+          8
+        ],
+        "denominatorMaxDegrees": [
+          18,
+          25,
+          3
+        ],
+        "numeratorTerms": 14100,
+        "bytes": 466322,
+        "sha256": "2e156b7d0b303cc9d46e3fe51db3f609eece79149fd7c57393e009862c919f5c"
+      },
+      "claimExcluded": false,
+      "seconds": 3.048472814
+    },
+    {
+      "stage": "whole_W_new_complete_original_D_linear_eleven_by_six_input",
+      "sourceSHA256": "391e253ee36625abbbc3fada73175007c74f947cc5e3f7622bd30f7ebc31ade9",
+      "frozenOldSourceSHA256": "394bb2ed7d65474e46a693c4eab6474e36841b65c4dc49c5b499317884713a68",
+      "exactOriginalLoweringIdentitySourceSHA256": "f083869fe46a453e014dabd0a8b3079ed0a5fa80d956d1694e9d2813075064df",
+      "classAndConstructionOnly": true,
+      "oldLargeThirteenRowAndTwelveColumnGatesRerun": false,
+      "scalarVariables": [
+        "e",
+        "k",
+        "lambda"
+      ],
+      "basis": [
+        "1",
+        "S",
+        "S^2",
+        "F",
+        "F*S",
+        "F*S^2"
+      ],
+      "actualRows": [
+        "E1",
+        "EBe",
+        "EBo",
+        "N1",
+        "NS",
+        "PS",
+        "original_q4_remainder_r2",
+        "original_same_value_R6",
+        "D_linear_individual_N_odd_complete",
+        "D_linear_individual_P_odd_complete",
+        "D_linear_entire_original_N4_Vval"
+      ],
+      "allElevenOriginalNecessaryRowsActuallyReturned": true,
+      "allThreeNewLowerDOriginalEquationsActuallyConstructed": true,
+      "originalDNonzeroDomainForEquivalenceRetained": true,
+      "noPhysicalDOrAnyNormInverse": true,
+      "noA143OrB239Inverse": true,
+      "r2LeadingZeroFiberRetained": true,
+      "actualNewOriginalRuleRewriteProducts": 23,
+      "allFinalCoefficientDenominatorsActuallyPaid": true,
+      "distinctPaidDenominators": 73,
+      "coefficientCertificate": {
+        "bytes": 4248621,
+        "sha256": "e3e6955ffd5e3b0446948ba60fe4abb9d9c7c296e3013ea2fe9ac9c8a24e9e01"
+      },
+      "largeRegenerableCachesWritten": false,
+      "noParameterCofactorYetComputed": true,
+      "wholeWExcluded": false,
+      "peakRssKiB": 71332,
+      "seconds": 3.589427257000004
+    }
+  ],
+  "oldLargeGateRerun": false,
+  "wholeWExcluded": false
+}
