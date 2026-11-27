@@ -1,0 +1,63 @@
+# Serre 一致性交接
+
+## 目标、认领与规则
+
+绝对常数C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN；未达到课题README完成标准。**
+
+会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
+
+**公开两README已读提交：e491ef8c4ea0b8c739310f4663c1060794df7f30**（2026-11-28 00:31 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+
+23:53再试pull仍报无可用执行环境，shell未运行；按根规则8用连接器小文本同步、读差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；数学程序仅本公开仓库Actions，禁止本地/V8数学计算。root维护main/H/open/index/log，子研究独立稿，每条结论立即推；此前V8偏差及停用见[纠正记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-integral-unit-relations.md)沿链保全部旧公式/来源/run/hash；[open](open.md)、[索引](results.md)为完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+
+## O0：所有充分大素数；固定47已完成
+
+[R1003](results/R1003-global-scope-and-remaining-branches.md)保完整N_ns主范围：p2/5mod9仍需小惯性C³；R317需整j、K=Q(√−3)、σ1及二/三小域一致。完整惯性、非整j、变化K、非平凡σ与异小域仍开。[最新primary范围](notes/2026-11-27-latest-primary-literature-scope.md)的条件开像/固定121不补一般p。
+
+R1062–71保原全cusp、étale/p-only、全部角色与twists，无regular/Vandiver。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)给实际good维数≥floor(p/16)+3，forced-only Ω(p/logp)；仅总irregular预算的完整T链不能改善1/16。原候选O(p^1.5logp)，有界惰性CM代表不推Q-CM，单cusp无Runge。
+
+[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)给原圆单位同时非零密度(1−1/p)^d/(p−1)、完整localization同构、精确conductor/discriminant及有效ℓ_faith≪p^(1215p−867−521r_min)。该p^{O(p)}界不付足够小辅助素或same-point像。[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)给原分母annihilator精确判据，−1modp整支仍相容。继续实际整四阶cochain、算术cup与原同点函数；几何Weil pairing零不付HS混合阻碍。
+
+[原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]/常数=μ_p⊗J(K)[p]，全cusp leading平均给Δ分裂；even规范残余为odd J(K)[p]。实际两维扩张若为0→ω^r→E→ω^(1−r)→0，Kummer radical是ω^(2−2r)=ω^T(r)，反向是ω^(2r)。实际整层/指定圆单位在下述R1131门内已付；其余块及算术cup仍开。
+
+[原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new实际扩张由下述R1131部分处理，指定极化未付；不能将Ohta取N=p。 §7用Ling–Oesterlé原角色条件付Σ(p²)[p∞]=0，并固定w_(p²)在Shimura子群上为−1；不代非Shimura odd new消失。
+
+[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：原forced r=p−1−2j且B_(4j+2)、B_(p−1−4j)均unit时，Ca同素数DVR及trace理想BC=m付原秩二整格；实际偶cuspline锁非分裂方向0→ω^r→J[m]→ω^(1−r)→0。整个块Fricke+、奇K有理p∞全零；真实扭点域为K(β_(4j+2)^(1/p))，不是β_r。原规范整K₂[p]的ω^(2j+2)分量零。p1mod4至少五个块，p3mod8的j=(p−3)/8由二次类数无条件；其余块及真实cup/四阶cover仍开；常数角色另见下文R1132。
+
+[R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：完整Y=X_ns(p)的真实ω^(1−r)尖点线在w负部，full整p Chen及同素数DVR/唯一new秩二迫整个块w=−1；故原X_ns^+的该几何p-divisible块为零。准确范围：偶2≤r<(p−1)/2且B_(2r)、B_(p+1−2r)单位。r=2只需p∤B_(p−3)，因此原全尖点规范的Δ平凡未分歧整K₂[p]残余为零。仍须实际整类/tame/规范与cup接口，不代K₂/p或四阶cover。
+
+[原整单位关系与常数消去](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)：全未分歧K₂的angular specialization与全cusp平均扩到p∞；实cusps使even有限p-primary tame全零。原Tate leading为S-unit，e₀后平均经transfer到K₂(Z[1/6p])消零。因此p∤B_(p−3)时，原actual canonical unit符号格中已有理为零的平凡角色关系，准确在K₂⊗Z_(p)为零。实际函数/指数格与rational关系仍须给出，不除12p或将此当任意cup零。
+
+### 原完整X_ns^+(47)：全部已完成，仅消费
+
+[R1125](results/R1125-original-full47-rational-point-classification.md)原完整八CM、235坏盘/十good、283/4513同点、全部非q高度及73维整QC/八完整盘唯一均已付。§10旧q²run45977769585与独立交叉核run46025141482/job140594489905相容，四完整73维及16读数全同，result SHA06c8bbd4fa4a437eaf3ce5b0fa2ce998c661329ca593fbb63c07352d92383173。旧失败/预算/source见正文；固定47及审计不再运行。
+
+## O1：原同一标签、Picard两jet与实际Gaussian mask
+
+[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–10付实际Verschiebung/Miller、kerV全局截面及−Q刚化：6v·dot t̂_f=ΦN_full f；全H真实三平移6v·dot S=[P,S]，N_full+P=D²+U，原Pf=Nf+U^(m+1)。§8.3保Vε²约化变化。§9证明全V₀上的ΦNΦ⁻¹不是阶≤p−3目标微分算子；不排指定Um、−Q关系。§10付全dot A及6v·dot A=A(Nf,g)−A(f,Pg)、dot A(Ψ,Ψ)=δ/(6v)；原首normal×Picard一/四阶均零，零阶normal单位不代e/K4。实际高阶族现由§11付全Hasse多项式（真实三覆盖/商、−3微分及相位保全），全部ε^(3j+1)系数单位；继续原固定曲线Picard关系。
+
+[原Lamé短旗标](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保B简单谱/D³单Jordan、两端Green及全部normal列；e₀=0迫邻两e单位但不代K4。全Cartier Newton矩阵、原R与移位R²读数、纯极反对角Φ与Um完整系数均见原文。原短η_k/ν_k共同非零仍开。
+
+[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)原短Ramanujan/WZ完整已成，实际邻项只给I_(n+2)+I_n=3δ/4；不是新K4。run46015627853/source4a0f6f21、证书SHA9b825833…仅消费，不重跑窗口。
+
+[R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)保六CM十五对配对与十维目标，实际Aut保A/S/T；完整Pfaffian不含原S，不能从非CM普通性推S单位。R1060/R1092原非CM Cartier/六三挠值已unit，无S0⇒B0桥。R1111准确p-block公因子MD(b³−1)^(2ε)，ε1 iff原f_N0；此支仍开。
+
+### 原Gaussian完整gauge与共纤维
+
+[R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md)：p4k3且p|B_(p−3)时实际χ=ω²出现，B₂恒good，完整coarse一次单位斜率−aβ₀⁴λ²/(20bχ)。只付跨盘；剩余Gaussian可设p∤B_(p−3)，盘内仍需原高度。
+
+[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)完整坐标constant iff ord_bG_(v_R)≥s_R；非constant degree=(s_R−ord)/2。原三层实际角色链给至少max{3,floor(p/96)+2}个非恒定good坐标，精确渐近p/96+(log24/12)p/logp−O(1)。不推函数独立/首jet单位/共同纤维唯一。
+
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md) §§7–9保原完整Kronecker gauge、低卷积/高尾及Bernoulli mask；f_n=−Θ^nG_v/(n!(v)_n)，有限Möbius流给同点差(47)/(48)，只读weight≤p−3。Θ^p在SS为δ²∂w，不可误设零或对单点pair等式横向微分。继续实际mask共同纤维。
+
+[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)原5H+(8a²/45)K=16G_(p−3)unit；§7 c₃含V₂/V₃/V₄三完整卷积，B_(p−5)good与c₃unit未付，profile含i4非affine。[原norm2](notes/2026-11-27-original-Gaussian-norm-two-Kronecker-distribution.md)全部twist/相位/低卷积仍保。
+
+原同h=6i+7须本原/Legendre/fi gj两mask同时满足；R971全span和R1006全p稳定已否，特定A/E4开。R1009粗CM阶≤4不代零阶。旧5992+7878至500000及4008至200000窗口全部已成，只消费沿归档来源。
+
+## O2及旧全局边界
+
+[R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)全J#可逆、B_J(Ψ,Ψ)=1、最高边界/三平移Gram及全Fay/FSF/Miller均保；Φ(SΨ)=(V+v)(2vΨ−δU)/U²不代指定短配对。R988高balanced全相位/carry/共振与本原筛选仍开；R1041/48 bare范数不代AS端点平方。
+
+原MW后M1、λ=−6(b+1)/r、最低w/deep盘的整尺度及野3障碍均沿逐字归档保持；R696/832仅指定Ω，R948仅两有限Abel零集，一般候选MW像可非零。旧R907四artifact真404不重造；R707主41，R1004仅导子下界，未公认Jaswal121不用。达到README主标准才收尾。
