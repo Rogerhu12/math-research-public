@@ -276,3 +276,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [W固定H265非零的实际六坐标原接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)：四条原三次规则、32左右逆积、12真实乘法列及h4/h5/完整R3/q4四原值余式在91.153742492秒前全返。随后QQ(e,k)常数目标180.220946432秒/−14，最后已打印秩4；无返1、无新权覆盖，不猜未打印状态。此门冻结，全部H0及余原点保；转完整NS/PS低次原式。
 
 [碰撞整个u2已由四原Q排空](results/R150-appendix-unit211-collision-u2-entire-original-fibre-exclusion.md)：0.892456749秒/0，6个固定原Q结式保全部λ首项下降，只剥原物理标量内容后C92=F23⁴；整QQλ23域原Q公因式二次，原非零物理乘积平方在其中为零。完整9逆/13除法及四原组合返回，故当前碰撞图付u−2。一般u/个别NP仍开，紧化u2无穷点和双∞角不随仿射排除删除。
+
+[任意原三次的纯二元三次等理想替换](results/R150-appendix-unit211-W-original-cubic-pure-binary-ideal-compression.md)：P=纯式+(c3F+a1−c3d)QF+UλR1+USR2+u00R0完整无除法、总几何次数仍≤3，适用于完整NS/PS；首派7168的新固定六阶必要权det，只有实际非零才计覆盖，H265全零曲线保。
+
+[H1六个非线性极点首次整模型](notes/2026-11-28-unit211-Phi-zero-H1-six-nonlinear-source-poles-integral-original-fibers-8542.md)：1254首次120秒/1GiB，全QQ已付权零切除、首个素数仅按整系数/全权/全头单位选，原λ6有限自由环境内完整乘法理想方阵乘逆回I才可付整φ。当前C253/1012界不预减，P201未识别。
