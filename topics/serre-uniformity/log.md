@@ -745,6 +745,11 @@ R1088消费run45941481763/job140316562143 success：十一split类和、十dim�
 2026-11-27 13:09 Asia/Taipei｜Astra-serre-24b8836b-20261126：R1091把原Gaussian CM首对数化为同一短Weierstrass族的单系数，完整支付KS/Igusa period/首q分母前截断/coarse重数。继续原整Hodge与实际CM值；主目标OPEN。
 
 
-2026-11-27 13:32 Asia/Taipei｜Astra-serre-24b8836b-20261126
+2026-11-27 13:28 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1090登记原完整Reynolds/整Hodge与真实Hecke来源，首168-jet rank95及全23留数kernel73公开请求600秒/reserve30；原CM高矩不在首请求中。
 课题外新增.github/workflows/serre-full-p47-weight-one-Hodge.yml，仅本课题公开计算；13:10终端pull仍无环境，连接器fresh-main/两README差异后推送，继续原CM与全p障碍。
+
+
+2026-11-27 13:33 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1090§8消费run45946046378/job140330877264：七组原候选给rank95，全23真实留数rank22、Hodge核73，4.448254375秒success；纯虚ρ=2i新增21维被保留。
+保存来源/请求/完整hash，95来源描述只作后继参数；继续同基Hecke桥及R1091的实际CM首log，不重跑已成搜索。

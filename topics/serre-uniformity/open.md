@@ -53,7 +53,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。
 
-[R1090](results/R1090-original-weight-one-integral-Hodge-source.md)：完整原weight-one Reynolds族、168 jet整性、全23 cusp residue与真实Hecke坐标公式已证；首次600秒公开请求待核rank95/kernel73，不预设数值。后继用R1091读原CM首矩，实际值/高度仍开。
+[R1090](results/R1090-original-weight-one-integral-Hodge-source.md)：run45946046378/job140330877264认证原Reynolds整格rank95、全部23留数rank22及Hodge核73，数学4.448秒；只七组候选。后继固定95源并核hash，继续真实Hecke坐标及R1091原CM首矩/高度。
 
 ## O1：全p同一真实本原标签的临界非零
 

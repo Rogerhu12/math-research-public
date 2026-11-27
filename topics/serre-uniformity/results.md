@@ -342,4 +342,4 @@
 - **R1088（已证明，精确计算）**：[原两principal对应与两CM整模](results/R1088-certified-principal-fixed-cycles-and-two-CM-integral-span.md)：新十一类和/十dim家族，全部12cusp characters上统一Z2/Z3二阶minor单位，真fixed类生成模=两原CM类生成模。run45941481763/job140316562143，3.990秒；只消系数相消，CM/高度单位未付。
 
 
-- **R1090（已证明来源，数值待核）**：[原full47整Hodge来源](results/R1090-original-weight-one-integral-Hodge-source.md)：完整weight-one Reynolds下降/整性，168 jet与全23 cusp留数核，原Hecke坐标和CM微分系统；首次rank95/kernel73请求独立执行，尚无数值回执。
+- **R1090（已证明，精确计算）**：[原full47整Hodge来源](results/R1090-original-weight-one-integral-Hodge-source.md)：完整weight-one Reynolds下降/整性，168 jet与全23 cusp留数核，原Hecke坐标和CM微分系统；run45946046378在4.448秒认证原rank95、全23留数rank22和核73；实际CM高矩/高度仍开。
