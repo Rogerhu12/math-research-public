@@ -179,3 +179,5 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 [同一缺陷来源的指数边界下界与弱核心](results/R271-appendix-same-w-exponential-dyadic-boundary-cost-and-weak-core.md)现已证明：同一原最大图对若两笔真实dyadic边界费用E_r有有界子列，即可用凸组合进图核心；任意P_Wf≠0则liminf logE_r/r≥gamma_ex>5/3。较弱的沿子列E_r=o(e^{gamma r}),gamma<gamma_ex只保证输出f∈I，不偷换来源、不冒称图核心。仍需真实W的Gamma有限性及这些同源费用的实际上界，两道范围核心/N=M均未闭。
+
+[两个实际最大除法域的相反前缀正则性](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)已将原核估计扩到整个D(G)与D(Amax)：分别控制零前缀V_n与占满前缀Q_n，所有γ<γ_ex的指数位权受实际图范数控制。第一图核心真实正交缺陷恰由T*y=Sf、By+Tf=0刻画，因而Amax f=−y，不能换成Amin。这两条耦合方程继续作为新输入；未证明缺陷零、Gamma有限或alpha逆权。

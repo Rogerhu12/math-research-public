@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R271，两个实际最大除法域的相反前缀图正则性）**：[完整低尾行、张量指数与真实缺陷方程](results/R271-appendix-maximal-division-graph-opposite-prefix-regularity.md)：对全部y∈D(G)控制V_ny，对全部v∈D(Amax)控制Q_nv，统一主率γ_ex>5/3与e^(−47n⁴)图误差，保全Y逆。真实图核心余空间准确满足T*y=Sf、By+Tf=0，故Amax f=−y；指数位权成立，未付alpha逆权、Γ或E=0。
+
 - **已证明（R150，Q=1−u的整个ell=0权线）**：[原低度均值恢复及完整一元返回](results/R150-appendix-unit211-Q1minusU-ellZero-complete-exclusion.md)：原E1支付v=2y−1非零并唯一x；原Rt给(v²+1)²[4uv³(2−v)−(v²+1)²]/16。整个v²+1纤维原N/S非零范数排除，余支同u返回20/40/40次原行，完整QQ Bézout仅留已付v⁴(v²+1)^4。自含源7c231709实际2.322秒；独立于u半排除。
 
 - **已证明（R150，Q=1−u的整个u=1/2权线）**：[原整数CRT、保度Gauss和两原末纤维](results/R150-appendix-unit211-Q1minusU-uHalf-complete-exclusion.md)：全部ell保留，固定15阶原结式完整QQ次数158/170；剥原单位及返回候选后104/112次与同原第三177次模投影实际三项Bézout1，经1009局部首一性排全复根。ell1以Dval0、ell半以原E1/N_H纸面非零范数排尽；整合源3ded7c45未整跑，原子计算实际成功。

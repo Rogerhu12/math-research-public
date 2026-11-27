@@ -83,3 +83,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 12:13 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 完整排除Q=1−u、ell0整权线：原E1付v并恢复x，原Rt低度分支中v²+1整代数被原N/S排尽，余20/40次完整QQ Bézout只留单位。
 - 自含源7c231709从原Gram至末组合实际2.322秒，保同嵌入和各首项零。一般边界续ell非零新图；两README无变，按最新head非force提交。
+
+2026-11-27 12:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 登记两个实际最大除法图域的相反前缀估计：低位真实边界行、全Y逆、完整张量Cauchy给统一指数图正则性。
+- 第一图核心余空间准确两方程T*y=Sf、By+Tf=0，保Amax/Amin与真实同W来源区别；未付alpha逆权/Γ。两README无变，连接器按最新head非force提交。
