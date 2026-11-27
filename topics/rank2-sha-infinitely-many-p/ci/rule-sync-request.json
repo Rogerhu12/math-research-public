@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261127T1314-rule-pull",
-  "utc": "2026-11-27 13:14:07 UTC",
-  "last_rules_read": "dd52096e6f921537c3385636ee5a0d363d48b48a",
-  "reason": "Both actual local pull attempts at 13:13 UTC again failed because no execution environment is available. Reuse the existing read-only sparse public CI checkout for a real git pull --rebase and compare both README files with the last actual CI pull already read. Private API head 93452a5dd8b22bc1c637c211abfcb192b8bcc7f9 and QUEUE were separately checked; do not treat API reads or the CI checkout as a local pull."
+  "request_id": "rank2-20261127T1408-rule-pull",
+  "utc": "2026-11-27 14:08 UTC",
+  "last_rules_read": "31960783dc7fb2b488ae8cc017c3043a17c72fe4",
+  "reason": "Both actual local pull attempts at 13:58 UTC again failed because no execution environment is available. Reuse the existing read-only sparse public CI checkout for a real git pull --rebase and compare both README files with the last actual CI pull already read. Private API head 63d4441bf64a5c2933298de774a736d5fb57450c and QUEUE were separately checked at 13:58 UTC; API reads and the CI checkout are not local pulls."
 }
