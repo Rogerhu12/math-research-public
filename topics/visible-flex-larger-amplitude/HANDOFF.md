@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root最后真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `41fc359d050358bf414b9e4c03c19524bccd2ba2`（非pull）。
+root最后真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `6d2533eee50180872114609ddfa2d8003c74743c`（非pull）。
 双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。无变；每真pull只读新差异并立刻遵守，至少每小时。活12–16通常每5分钟真pull，实际已读commit在末块。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue；每结论普通推，NFF有终端立即rebase重推；无终端freshHEAD完整合并不冒pull，不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊。
 科学只本公开Actions；raw只runner/scratch、不Git/Release/artifact、不改名输入。保全源/全部参数/真实run与输出hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不另设独立审查/冻结/AST/fixture/重跑门，不减目标或原预算。[旧log全文](log/2026-11-27-session-through-fejer-closed.md)96562B保。
@@ -24,7 +24,7 @@ root最后真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终�
 
 **15**：46031953783/1、job140617715235、head882086。[完整启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)及原分卷保两真输入0、reference520.117180844s/全11输出，report8f4e5153/history独立。原J1845 science/pure90478B、159/7、407/386/48、131源/2666582量保；仅两输入返，无新场。J同一schema guard三体一致，未改J。原6692B全对象固定882086。
 
-**16**：46037017666/1、job140634874993、head897194。[全启动/两输入](notes/2026-11-27-run16-complete-own-point-mathematical-research-launch.md)两0，reference520.474922594s/source518f48、report ff41237c/history独立/11输出齐。原6692B固定897194，只退两真返对象后已3bd5d403接原全157/7 science/pure92522B，408/395正式、live18+30。实际science sourcea8b0749a3907ef7241745d07c5c24a7670aa842d/launcher ed810/PID3868；17:05:45初始采样两progress尚无，子进程未返，不归因失败或报值。[准确费](notes/2026-11-27-stage-observed-fixed-fejer-complete-accurate-fees.md)e841全11件334123B：normal38/36、geometry8/48全保；加normal97374B/两费102667B超95KB，真科学返后接，不削项。
+**16**：46037017666/1、job140634874993、head897194。[全启动/两输入](notes/2026-11-27-run16-complete-own-point-mathematical-research-launch.md)两0，reference520.474922594s/source518f48、report ff41237c/history独立/11输出齐。原6692B固定897194，只退两真返对象后已3bd5d403接原全157/7 science/pure92522B，408/395正式、live18+30。实际science sourcea8b0749a3907ef7241745d07c5c24a7670aa842d/launcher ed810/PID3868；[真实初值](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)17:07:51、point7e06，Phi5551.477153/有限Gram.648013822，接受0、geometry/trial未返、helper失败0；不是完整场。[准确费](notes/2026-11-27-stage-observed-fixed-fejer-complete-accurate-fees.md)e841全11件334123B：normal38/36、geometry8/48全保；加normal97374B/两费102667B超95KB，真科学返后接，不削项。
 
 ## 完整来源与未付数学
 
