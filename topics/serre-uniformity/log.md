@@ -778,3 +778,7 @@ R1093消费run45947023569/job140333947037 success65.967186095秒：原实际Hodg
 2026-11-27 14:05 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1094完整证明原离盘CM的q²局部高度与第一global交数公式；root亲读Coleman/Besser并纸核整W/双极核、ramified power-sum/k、全循环specialization及Fermat符号，原B²和坏47项保留。
 13:59再次真实pull报无可用环境、shell未运行；按规则8同步两README后继续。H/open逐字归档并压缩已成输入，实际47标记交数继续。
+
+### 2026-11-27 14:15 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1095原完整theta核可逆、Ψ最高系数对偶及范数1、真三平移常数与Gram已由原R1061逐式推出；保最高偶边界和两实际退化因子。
+- root/o1全文纸核，未冒称bare/e/K₄单位；继续原三分布和原47全局CM交数，无新数学执行，主目标OPEN。

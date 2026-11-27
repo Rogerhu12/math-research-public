@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- **R1095（已证明）**：[R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，保最高偶边界。两个因子与原短η/ν仍开，未替换bare范数。
+
 - [R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。（2026-11-27）
 
 - **R1077（已证明原加权单位）**：[同一primitive的Hurwitz读数](results/R1077-original-Hurwitz-unit-as-weighted-primitive-coefficient.md)：原O参数/residue及Euler安全前缀给G_(p−5)=C·[z^(2k)](1−z)^−1/3 T²/(24v²)，C³=4v²取Fp唯一根；该系数=576v⁴/(7Cδ⁵)全p单位。原T固定、所有参数/Cartier相位已付，尚未连接η_k/ν_k的未加权k次读数，无数学执行。
