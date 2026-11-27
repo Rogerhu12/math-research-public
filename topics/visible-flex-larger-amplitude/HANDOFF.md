@@ -48,8 +48,8 @@ R715完整hΔ六jet/AD、真Gram/K与working Fs非单位责任保；原八全源
 
 
 <!-- visible-larger-parallel-06:start -->
-并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-actual-parent-SO3-interior-restore-first-20261126-rebuild06`/completed；已返40，exit=0。
-并行06规则核查：2026-11-27 01:45:36 UTC，真实pull至`72b6cac4703317126fdd641d6c5614bced5589aa`，双README无变化。
+并行公开Actions06：[run 45904402595/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45904402595)；[实际记录](notes/2026-11-26-public-actions-45904402595-1.md)。阶段`followup:complete-normalized-parent-cached-backtracked-SOC-v2-20261126-rebuild06`/running；已返40，exit=未返。
+并行06规则核查：2026-11-27 02:18:39 UTC，真实pull至`cd09c09779ed7c40e07beb8956f30727e25cb4a6`，双README无变化。
 <!-- visible-larger-parallel-06:end -->
 
 <!-- visible-larger-parallel-07:start -->
