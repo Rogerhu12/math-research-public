@@ -2301,3 +2301,230 @@ $$
 它们仍须连同原所有低行、(104) 曲率、实际 source Cartier
 和十三字一起使用，未声称已经迫出新的非零中央值。
 没有新增数学执行。
+
+## 17. 二倍 sigma 的完整字规范、二挠不变的真实平坦返回与四挠边界的一条整关系
+
+日期：2026-11-27。本节继续使用 (103)–(112) 的同一 $\alpha=\delta\pi$、同一原 Gaussian 与原物理矩阵。以下平坦返回由特征零的实际有理函数构造，不由改写有限 frame 宣称存在。它使原二挠来源的完整恒等式在**同一个目标函数**上成立；没有给它的任意有理倍数赋中央零。
+
+### 17.1 全部原字中的二倍 sigma 与平方根规范
+
+在固定有限扩域与固定覆盖 $r^2=y$ 上保留原 Weyl 函数
+$q_R(P)=e^{-\eta(R)(z+R/2)}\sigma(z+R)/\sigma(z)$。
+由原 $\sigma(2z)=-2y(z)\sigma(z)^4$ 和 $\eta(2R)=2\eta(R)$，完整有
+$$
+q_{2R}(2P)=\frac{y(P+R)}{y(P)}q_R(P)^4,
+\qquad
+q_R(P)^{10}=q_{2R}(2P)^{5/2}
+ \left(\frac{y(P)}{y(P+R)}\right)^{5/2}.
+\tag{113}
+$$
+右侧的平方根以第一式及原 $q_R$ 定义：
+$q_{2R}(2P)^{1/2}=q_R(P)^2r(P+R)/r(P)$。
+因此它没有一个可自由改变的符号或 Weyl 相位。
+
+令 $n=(p+5)/2$。对 (26)–(27) 的每一个实际字，准确地
+$$
+y(P)^{-n}q_R(P)^{10}U(P+R)
+=r(P)^{-p}q_{2R}(2P)^{5/2}
+ \bigl[y(P+R)^{-5/2}U(P+R)\bigr].
+\tag{114}
+$$
+其中两条实际低层输入变为
+$$
+y^{-5/2}U_A=D\left(\frac{2x}{r}\right),\qquad
+y^{-5/2}U_B=\frac{x}{r^3}.
+$$
+在原 source 坐标中使用 $P\mapsto\alpha P$ 时，导数仍乘原来的 $\alpha$；(114) 没有重置这个尺度。所有外部 $g$、Miller、cut 与移动 $R_i$ 继续乘在整个右侧。特别是第一式为裸有理函数的 exact，不意味着乘上原 $P$、外权后仍为 exact。
+
+原字标签在倍乘后为 $(s',i')=(-s,2i\bmod13)$。因为
+$\chi_6(2)=-1$、$-\chi_{10}(2)^{-1}=\omega$，完整 profile 分别满足
+$$
+s\chi_6(i)=s'\chi_6(i'),\qquad
+s\chi_{10}(i)=\omega\,s'\chi_{10}(i').
+\tag{115}
+$$
+(113)–(115) 始终使用实际中心 $2R$。若将它改为一个标准代表，必须同时施行由原 $q_R$ 确定的二进矩阵；半整数次数的表达不能把这个代表差当成一个任意标量，更不能将其当成新的 canonical 来源。
+
+### 17.2 在原二挠平移下真正不变的平坦权
+
+置
+$$
+w(P)=\chi_\alpha(2P)
+=\frac{y(2P)}{\alpha^3y(2\alpha P)}.
+\tag{116}
+$$
+它在原点为 $1+O(z^6)$，在每个非零 $\ker\alpha$ 点为准确三阶零，并对每个 $T\in E[2]$ 满足
+$w(P+T)=w(P)$。其全部简单极是
+$[2\alpha]^{-1}(E[2]\setminus\{O\})\setminus[2]^{-1}(E[2]\setminus\{O\})$；
+共有 $456$ 个，沿 $[\alpha]$ 映到十二个 $E[4]\setminus E[2]$ 点。被减去的十二个点处分子、分母同时简单消失，比值为单位；原 $E[2]$ 处则 $w=1$。这也逐点支付了 (116) 的支撑。
+
+取 R1034 的任一
+$H=2p-11$ 或 $2p-5$，令
+$N=H(p+1)$、$k=N/6$、$a=p^2-k$，并使用已定义的原截断
+$$
+V_w=w^a B_{a,k}(w),\qquad
+B_{a,k}(T)=\sum_{j=0}^k(-1)^j\binom{a+j-1}{j}(T-1)^j.
+\tag{117}
+$$
+由于 $a+k=p^2$，完整有
+$$
+V_w=1+O(z^{N+6}),\qquad
+\operatorname{ord}_{T}V_w\ge3a>N+1\quad(0\ne T\in\ker\alpha),
+\qquad
+\overline V_w=w^{p^2}.
+\tag{118}
+$$
+最后一个等号只在特征 $p$ 中使用；特征零的全部高位继续采用 (117)。
+
+用原未平均的全 $\alpha$ 迹定义
+$$
+h_w(f)=\sigma^{10}\alpha^{-10}
+ \operatorname{Tr}_{[\alpha]}
+ \left(V_w\,\frac{R_f}{R_\alpha^{10}}\right),
+\qquad f=\sigma^{390}R_f .
+\tag{119}
+$$
+同 R1034 的整条纤维展开给
+$h_w(f)(\alpha z)-f(z)=O(z^{N+1})$。
+每个新极在目标 $E[4]\setminus E[2]$ 的阶至多 $p^2$。其余有限点没有极，原点首阶与 $f$ 相同；对当前两条 canonical 及其二挠译源，质量为零且首阶至少二。对未平移的 principal 来源首阶至少六。
+
+具体地，记 $B_2=X^2+20X-8$。未平移的整个目标可写为
+$$
+h_w(f)=\sigma^{10}A_w,\qquad
+A_w=\frac{x^2P_w(X)}{B_2(X)^{p^2}},\quad
+P_w\in\mathcal O_p[X],\quad\deg P_w\le2p^2.
+\tag{120}
+$$
+整性直接来自原固定好位模型上的整有理函数、整数截断系数及度 $39$ 的整迹；$B_2$ 的判别式为 $432$，没有新增随 $p$ 变化的坏分母。用原 $u=x^{-1/2}$ 展开，(120) 是 $u^{-4}$ 乘一个整的 $u^6$ 级数。因此 R1034 §5 的完整 Hurwitz 尾、两条坏带及原 Newton 重构原样适用，准确给
+$$
+j_{390,f}-j_{10,h_w(f)}\in p^H\mathcal O_p .
+\tag{121}
+$$
+这里已使用两边质量零；一般质量的 $\log q_\alpha$ 项仍按 R1034 保留。
+
+### 17.3 同一个目标上的真实二挠恒等式
+
+(116)–(117) 在特征零已经对 $E[2]$ 不变，所以原全迹与真实 Weyl 算子严格满足
+$$
+h_w(T_T^{390}f)=T_{\alpha T}^{10}h_w(f).
+\tag{122}
+$$
+这里没有 R1034 的 $W(P-T)/W(P)$ 剩余权。完整 $\mu_6$ 投影亦与 (119) 交换。
+
+由本篇 §13、§15 已付的原 source 身份，(122) 给
+$$
+\Pi_0T_{\alpha T}^{10}h_w=\frac1{\sqrt3}h_w,\qquad
+\sum_{0\ne T\in E[2]}T_{\alpha T}^{10}h_w=\sqrt3\,h_w.
+\tag{123}
+$$
+仍使用 §13 的实际代表：$\alpha T$ 与对应标准半周期的 degree-$10$ Weyl 算子相差负号。因此若
+$S_{10}$ 是三个**标准**二挠算子的和，则整个目标准确满足
+$$
+\boxed{S_{10}h_w=-\sqrt3\,h_w,\qquad
+ \Pi_0T_{T'}^{10}h_w=-h_w/\sqrt3.}
+\tag{124}
+$$
+这不是只比较原点的质量。相应的实际 translated 中央读数也由 (121) 与 (122) 在同一精度内返回原 canonical 条件，但它们仍由原来源身份关联，未被计成四条独立的中央零行。
+
+### 17.4 与原 $M$、原 $\chi_\alpha$ 及两个有限 frame 的全部回接
+
+在 (103) 去掉 $v_2^{-p^2}$，记
+$$
+K_0=2^{-n}(-y)^{-n}P_n(2P),\qquad
+\mathbf P_0=K_0(x^p,1)^{\mathsf t},\qquad
+\widehat Z=Z(2P)/2.
+\tag{125}
+$$
+它仍具有原点首阶 $10,2p+10$。它的特征零整 lift 由原同一 $\widetilde P_n$ 构造。在 (107)–(108) 中以该 lift 取代原 $\widetilde{\mathbf P}$，仍得到整可逆的三角变换 $\tau^{[0]}=B_0\tau$ 及
+$\widehat M^{[0]}B_0=M$。因此 (121) 用的是原物理 $g_h$；两个原坏带、全部 Gaussian、原 $\Xi$ 与新四挠极都在这条准确矩阵关系中，不能用 $\mathbf P_0$ 的模 $p$ 恒等式删除高位费用。
+
+此外有完整函数等式
+$$
+w=\chi_\alpha\,\frac{v_2(P)}{v_2(\alpha P)}.
+$$
+故对全模 $p$ 迹，
+$$
+A_w(f)=v_2^{-p^2}\mathcal A(v_2^{p^2}f),\qquad
+\boxed{\widehat Z^{-b-1}\mathbf P_0 A_w(f)\omega_E
+=\widehat Z^{-b-1}\mathbf P\,\mathcal A(v_2^{p^2}f)\omega_E.}
+\tag{126}
+$$
+$\mathcal A$ 是 (106) 的原 $\chi_\alpha^{p^2}$ 迹，此处仅将其作为全亚纯迹使用。右侧的 $v_2^{p^2}f$ 没有被赋中央零。两次 Cartier 后，$v_2$ 只能在原 source 的完整 $C^2$ 微分中提出；不能把 (126) 简写为对裸 $f$ 乘 $v_2$ 的新中央条件。虽然 $v_2y=8y(2P)$，同样不能把未取 $p^2$ 次的 $y$ 穿过 $C^2$。
+
+### 17.5 完整 Pauli 关系与第一分量的真正 $[2]$ 迹零
+
+沿用 (105) 的 $M_e$ 及 $\varepsilon=(-1)^{n+1}$。现在没有 $v_2$ 的第四费用，准确有
+$$
+(\mathbf P_0)_T=\varepsilon q_T^{10}M_e^{(p)}\mathbf P_0.
+$$
+对整个目标置
+$\boldsymbol\eta_b=\widehat Z^{-b-1}\mathbf P_0 A_w\omega_E$。
+由 (124) 及 $\widehat Z_T=\widehat Z$ 得全微分恒等式
+$$
+\boxed{\sum_{T\ne0}\varepsilon M_e^{(p)}
+                  \tau_T^*\boldsymbol\eta_b
+=-\sqrt3\,\boldsymbol\eta_b.}
+\tag{127}
+$$
+矩阵顺序与 (105) 相同；不是将 Weyl 算子乘法顺序误搬到列函数矩阵。
+
+现在对 $E[2]$ 取未平均迹。因为
+$\sum M_e^{(p)}=\operatorname{diag}(-(\sqrt3)^p,(\sqrt3)^p)$，
+而对 $p\equiv5\bmod6$ 有
+$\varepsilon(\sqrt3)^p=-\sqrt3$，(127) 的第一分量严格给
+$$
+\boxed{\operatorname{Tr}_{[2]}\eta_{b,0}=0,\qquad
+       \operatorname{Tr}_{[2]}C^j\eta_{b,0}=0\quad(j\ge0).}
+\tag{128}
+$$
+第二式使用 Cartier 与可分有限迹的交换，所有常数依原半线性取根。这里并未给第二分量的迹赋零。
+
+### 17.6 实际 $r=p,b=5$ 页的四个边界系数
+
+对整个未平移 canonical 输入，在目标 $E[2]$ 有
+$\operatorname{ord}A_w\ge2$。这是由 (123) 的质量零与译源偶性得到的真实二阶消失；$\mathbf P_0$ 在这些点正则，$\widehat Z$ 为一阶零。因此 $\eta_{5,i}$ 在这些点极阶至多四。其局部系数为偶函数，留数为零，第一 Cartier 已消去整个极。原点亦正则；其他 $\widehat Z$ 零点仍由原 $P_n(2P)$ 的完整 $Z(2P)^p$ 因子支付。
+
+在十二个 $E[4]\setminus E[2]$ 点，整个微分的极帽为
+$$
+d_{E[4]}(\eta_{b,i})\le p^3+(n-b-2)p+1<2p^3.
+\tag{129}
+$$
+这与 (110) 的真实费用相同：旧 frame 的 $v_2^{-p^2}$ 极已由 (120) 的新实际目标极替代。于是第三 Cartier 至多有二阶极。第一分量在当前页的真实 $\mu_6$ 型为五，故准确写成
+$$
+C^3\eta_{5,0}
+=\frac{xP_3(X)}{B_2(X)^2}\omega_E,\qquad
+P_3=p_0+p_1X+p_2X^2+p_3X^3.
+\tag{130}
+$$
+第二分量型为一，可能含全纯 $\omega_E$；本节没有将它删掉。逐字分裂后的移动 $R_i$ 和 Miller 极也不能套用整个输入的 (129)。
+
+下式是完整有理迹，不是单点拟合：
+$$
+\operatorname{Tr}_{[2]}
+ \left(\frac{xP_3(X)}{B_2(X)^2}\omega_E\right)
+=\frac1{16}
+ \operatorname{Tr}_{K[X]/(B_2)/K}
+ \left(\frac{P_3(X)}{(X-8)(X+1)^2}\right)
+ \frac{x}{y^2}\omega_E .
+\tag{131}
+$$
+确切常数可在目标 $(-1,0)$ 核定。其四个原像有
+$x=-1\pm\sqrt3$，每个配两个 $y$ 符号，且
+$y_{\rm down}=B_2/(8y^3)$、$\omega_{\rm up}=dy_{\rm down}/(6x_{\rm down}^2)=(1/6+O(y_{\rm down}^2))dy_{\rm down}$。
+因此双极系数为
+$-\frac1{48}\operatorname{Tr}(P_3/((X-8)(X+1)^2))$；
+目标 $x\omega_E/y^2$ 的双极系数为 $-1/3$，给出 $1/16$。
+迹的型及支撑将整个返回限制在这一条线上，故该常数确定全式。
+
+模 $B_2$ 写 $P_3=a+bX$，则
+$(X-8)(X+1)^2=27(19X-8)$，且
+$$
+\operatorname{Tr}\frac{a+bX}{27(19X-8)}
+=-\frac{11a+4b}{162}.
+$$
+再以 $X^2=-20X+8$、$X^3=408X-160$ 返回四个原系数，(128)–(131) 严格给
+$$
+\boxed{11p_0+4p_1+8p_2-128p_3=0.}
+\tag{132}
+$$
+该整关系在所有当前目标好位成立，无新增变化分母。它排掉第一分量的一个真实四挠边界方向；其他三个方向、第二分量的全纯项、原 (112) 的第一 primitive 卷积及整个物理 $M$ 均继续保留。(132) 本身不被升级成原中央矛盾。

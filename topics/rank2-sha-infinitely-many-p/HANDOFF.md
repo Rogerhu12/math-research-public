@@ -29,7 +29,9 @@ R1016–1018同char0平坦全trace/四阶伴随/全部低位齐；原old差−61
 
 R1021§§8–15：原Q1=2yD−9x²、完整24字/χ8、真transpose/唯一曲率已付；裸p-curvature不代原测试生成。三处完整norm锁Kδ首9ρZ5p−2，原P30连接180与曲率−180相消，水平初值保留。三E2 whole授权S390f=√3f；degree390/378有序中心+i/−i，B12保相反q±4和真principal xg，378两质量(c6±3^-94P′(−1))/2。所有旧式/费用在原证和逐字归档，不把裸单位、新角色或字分别赋零。
 
-R1021§16把同一hχ接完整两分量P⃗=2^-n(−y)^-n Pn(2P)v2^-p²(x^p,1)，n=(p+5)/2；native Ẑ=Z2/2。完整E2运输为εq^(10−4p²)M^(p)，实际α半点负相位/source C²顺序保齐。整三角B与M̂B=M精确回同一物理M/全部坏带、高位、Ξ；新首槽−80κ5不混原−5κ5。E2极消、12 E4余点未伴随/一次Q†三C至多double，两μ6轨道≤4坐标仅授整体。真同点Q̂†=−2y(D+5G2)，移位Ri仍有15yi(r0−r0i)、完整Miller/cut/曲率；第二frame依赖第一，b3的csharp只读同一第一primitive p−2,p−8,…,3槽。继续真实39字gauge及全M forcing，无新canonical零。
+R1021§16完整两分量P⃗=2^-n(−y)^-nPn(2P)v2^-p²(x^p,1)、native Ẑ=Z2/2及εq^(10−4p²)M^(p)运输已付；真实α半点负相位/source C²次序、M̂B=M全部高位/Ξ/坏带保持，新首槽−80κ5。真Q̂†=−2y(D+5G2)，逐字移动补项/Miller/cut/曲率全保；b3第二scalar仍读同一第一primitive原槽，完整式沿原证及逐字归档。
+
+R1021§17实际w=χα(2P)及char0截断对E2严格不变，456简单极全映十二E4余点；原全39迹/无限尾仍给K=H。目标全S10 h=−√3h，与原M通过整三角B0准确回接；whole向量Pauli严格迫第一分量全部Cartier的[2]迹零。r=p,b5三C的四挠边界xP3/B2² ω准确满足11p0+4p1+8p2−128p3=0；另外三槽、第二holomorphic项、源C²次序及full M未删，无新增canonical零。
 
 R1025–1030的原λ全p单位、同窗primitive/末六水平式、P10曲率及charge65三角域/degree50真实两canonical均保持，完整式见原证和本页逐字归档；单位不代forcing，三个物理像的rank不能相加。
 
