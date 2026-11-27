@@ -301,6 +301,8 @@ $$
 
 本篇没有处理 (1131.21) 的全部偶角色，尤其没有据 (1131.22) 宣称其平凡角色
 $\alpha=0$ 已消失。四阶实际 Siegel cochain／cover 的其余接口仍须分别完成。
+后续 [R1132](R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)
+另用完整 Cartan 的奇尖点线，在 $p\nmid B_{p-3}$ 下消去规范残余的平凡角色；这不由本文 (1131.22) 推出。
 
 ## 8. 无条件的实际应用
 

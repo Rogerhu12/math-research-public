@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：65d2065b1fe8c6a34e2850188cd7b5c0e40737ba**（2026-11-28 00:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：6b80efbbeb179c4b8232a31e3ed2b560674388c2**（2026-11-28 00:25 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 23:53再试pull仍报无可用执行环境，shell未运行；按根规则8用连接器小文本同步、读差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；数学程序仅本公开仓库Actions，禁止本地/V8数学计算。root维护main/H/open/index/log，子研究独立稿，每条结论立即推；此前V8偏差及停用见[纠正记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-square-level-integral-lattice.md)沿链保全部旧公式/来源/run/hash；[open](open.md)、[索引](results.md)为完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-full-Cartan-odd-block.md)沿链保全部旧公式/来源/run/hash；[open](open.md)、[索引](results.md)为完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## O0：所有充分大素数；固定47已完成
 
@@ -24,7 +24,9 @@ R1062–71保原全cusp、étale/p-only、全部角色与twists，无regular/Van
 
 [原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new实际扩张由下述R1131部分处理，指定极化未付；不能将Ohta取N=p。 §7用Ling–Oesterlé原角色条件付Σ(p²)[p∞]=0，并固定w_(p²)在Shimura子群上为−1；不代非Shimura odd new消失。
 
-[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：原forced r=p−1−2j且B_(4j+2)、B_(p−1−4j)均unit时，Ca同素数DVR及trace理想BC=m付原秩二整格；实际偶cuspline锁非分裂方向0→ω^r→J[m]→ω^(1−r)→0。整个块Fricke+、奇K有理p∞全零；真实扭点域为K(β_(4j+2)^(1/p))，不是β_r。原规范整K₂[p]的ω^(2j+2)分量零。p1mod4至少五个块，p3mod8的j=(p−3)/8由二次类数无条件；其余块、常数角色及真实cup/四阶cover仍开。
+[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：原forced r=p−1−2j且B_(4j+2)、B_(p−1−4j)均unit时，Ca同素数DVR及trace理想BC=m付原秩二整格；实际偶cuspline锁非分裂方向0→ω^r→J[m]→ω^(1−r)→0。整个块Fricke+、奇K有理p∞全零；真实扭点域为K(β_(4j+2)^(1/p))，不是β_r。原规范整K₂[p]的ω^(2j+2)分量零。p1mod4至少五个块，p3mod8的j=(p−3)/8由二次类数无条件；其余块及真实cup/四阶cover仍开；常数角色另见下文R1132。
+
+[R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：完整Y=X_ns(p)的真实ω^(1−r)尖点线在w负部，full整p Chen及同素数DVR/唯一new秩二迫整个块w=−1；故原X_ns^+的该几何p-divisible块为零。准确范围：偶2≤r<(p−1)/2且B_(2r)、B_(p+1−2r)单位。r=2只需p∤B_(p−3)，因此原全尖点规范的Δ平凡未分歧整K₂[p]残余为零。仍须实际整类/tame/规范与cup接口，不代K₂/p或四阶cover。
 
 ### 原完整X_ns^+(47)：全部已完成，仅消费
 
@@ -34,9 +36,9 @@ R1062–71保原全cusp、étale/p-only、全部角色与twists，无regular/Van
 
 [原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–10付实际Verschiebung/Miller、kerV全局截面及−Q刚化：6v·dot t̂_f=ΦN_full f；全H真实三平移6v·dot S=[P,S]，N_full+P=D²+U，原Pf=Nf+U^(m+1)。§8.3保Vε²约化变化。§9证明全V₀上的ΦNΦ⁻¹不是阶≤p−3目标微分算子；不排指定Um、−Q关系。§10付全dot A及6v·dot A=A(Nf,g)−A(f,Pg)、dot A(Ψ,Ψ)=δ/(6v)；原首normal×Picard一/四阶均零，零阶normal单位不代e/K4。实际高阶族现由§11付全Hasse多项式（真实三覆盖/商、−3微分及相位保全），全部ε^(3j+1)系数单位；继续原固定曲线Picard关系。
 
-[原Lamé短旗标](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保B简单谱/D³单Jordan及严格短像；两端Green/normal列给e₀=0⇒e_±1单位、e₁=−5e_−1。§§9–10付完整Cartier Newton矩阵，e/K4分别为同矩阵R和移位R²读数；末零行/短cut全保。原Φ在半常数纯极基反对角，U^m全部系数和两jet有限和已付；完美性不代指定非正交。R1113保原Lamé谱、η_k/D_N(1)准确单位尺度、Lax与Darboux carry。原e=K4=0的短η_k/ν_k门仍开，R1077加权2k不代短k，R1109首除层不代直接比较。
+[原Lamé短旗标](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保B简单谱/D³单Jordan、两端Green及全部normal列；e₀=0迫邻两e单位但不代K4。全Cartier Newton矩阵、原R与移位R²读数、纯极反对角Φ与Um完整系数均见原文。原短η_k/ν_k共同非零仍开。
 
-[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)完整WZ及一阶解给原I_n和截断m=(p−5)/6的Ramanujan和，PF强迫边界unit保全。§6付实际邻项来源及I_(n+2)+I_n=3δ/4；旁单位只回旧C(Uω)，不再当独立K4入口。run46015627853/job140561880424，source4a0f6f21…、证书SHA9b825833…只消费；不重跑prime窗口。
+[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)原短Ramanujan/WZ完整已成，实际邻项只给I_(n+2)+I_n=3δ/4；不是新K4。run46015627853/source4a0f6f21、证书SHA9b825833…仅消费，不重跑窗口。
 
 [R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)保六CM十五对配对与十维目标，实际Aut保A/S/T；完整Pfaffian不含原S，不能从非CM普通性推S单位。R1060/R1092原非CM Cartier/六三挠值已unit，无S0⇒B0桥。R1111准确p-block公因子MD(b³−1)^(2ε)，ε1 iff原f_N0；此支仍开。
 

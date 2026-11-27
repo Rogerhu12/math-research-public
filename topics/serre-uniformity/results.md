@@ -1,6 +1,8 @@
 # 结论索引
 
-- **R1131（已证明，原平方层整格及实际圆单位扩张）**：[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：原forced r=p−1−2j且B_(4j+2)、B_(p−1−4j)均unit时，Ca同素数DVR及trace理想BC=m付原秩二整格；实际偶cuspline锁非分裂方向0→ω^r→J[m]→ω^(1−r)→0。整个块Fricke+、奇K有理p∞全零；真实扭点域为K(β_(4j+2)^(1/p))，不是β_r。原规范整K₂[p]的ω^(2j+2)分量零。p1mod4至少五个块，p3mod8的j=(p−3)/8由二次类数无条件；其余块、常数角色及真实cup/四阶cover仍开。
+- **R1132（已证明，完整Cartan负块及规范常数K₂消去）**：[R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：完整Y=X_ns(p)的真实ω^(1−r)尖点线在w负部，full整p Chen及同素数DVR/唯一new秩二迫整个块w=−1；故原X_ns^+的该几何p-divisible块为零。准确范围：偶2≤r<(p−1)/2且B_(2r)、B_(p+1−2r)单位。r=2只需p∤B_(p−3)，因此原全尖点规范的Δ平凡未分歧整K₂[p]残余为零。仍须实际整类/tame/规范与cup接口，不代K₂/p或四阶cover。
+
+- **R1131（已证明，原平方层整格及实际圆单位扩张）**：[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：原forced r=p−1−2j且B_(4j+2)、B_(p−1−4j)均unit时，Ca同素数DVR及trace理想BC=m付原秩二整格；实际偶cuspline锁非分裂方向0→ω^r→J[m]→ω^(1−r)→0。整个块Fricke+、奇K有理p∞全零；真实扭点域为K(β_(4j+2)^(1/p))，不是β_r。原规范整K₂[p]的ω^(2j+2)分量零。p1mod4至少五个块，p3mod8的j=(p−3)/8由二次类数无条件；其余块及真实cup/四阶cover仍开；常数角色另见R1132。
 
 - **原整p同源及odd平方层归约（已证明，纸面）**：[原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new部、原扩张类/极化尺度未付，不能将Ohta取N=p。 §7用Ling–Oesterlé原角色条件付Σ(p²)[p∞]=0，并固定w_(p²)在Shimura子群上为−1；不代非Shimura odd new消失。
 
