@@ -689,6 +689,194 @@ torsor。这是几何无分歧判据；它不要求算术 residue extension
 分裂，也不把这种未分裂误当成分歧。原 forced 角色尚未获得
 (1133.38) 的所需实际见证，故本节没有据此宣称原目标覆盖已完成。
 
+
+## 10. 交换两槽的精确 Fourier 相容及共同低层
+
+本节仍在原 primitive 单位方程 $U+W=1$ 上工作。
+它识别 §6 的两份交换槽位的 Heisenberg torsor，并因此实际拼接
+§9 的两条上链。所有公式保留同一个 $\zeta_p$ 和确切圆分常数；
+没有把一个任意高上链或范数交叉项设为零。
+
+### 10.1. 原 Fermat Kummer 开曲线上的单位 Fourier 和
+
+先在通用开曲线
+$$
+\mathcal F^\circ:
+\quad \alpha^p+\beta^p=1,\qquad \alpha\beta\ne0
+\tag{1133.58}
+$$
+上证明恒等式，然后沿原
+$\alpha^p=U,\beta^p=W$ 的 Kummer cover 拉回。
+记
+$$
+\rho_i=\beta^{-i}\prod_{k=0}^{i-1}(1-\zeta_p^k\alpha),
+\quad0\le i<p,\qquad
+\mathcal S_j=\sum_{i=0}^{p-1}\zeta_p^{ij}\rho_i
+\quad(j\in\mathbf Z/p).
+\tag{1133.59}
+$$
+空积为 $1$，且范数恒等式给 $\rho_p=\rho_0=1$。
+由 $\beta\rho_{i+1}=(1-\zeta_p^i\alpha)\rho_i$ 循环求和，
+$$
+\alpha\mathcal S_{j+1}
+=(1-\zeta_p^{-j}\beta)\mathcal S_j,\qquad
+\sum_{j=0}^{p-1}\mathcal S_j=p.
+\tag{1133.60}
+$$
+$\alpha,\beta$ 及全部 $1-\zeta_p^i\alpha,1-\zeta_p^i\beta$ 均是
+$\mathcal F^\circ$ 上的单位。第一式因此使所有 $\mathcal S_j$
+互为单位倍，第二式又以同一个可逆常数 $p$ 给出它们各自的逆。
+所以每个 $\mathcal S_j$ 都是实际全局单位，而不只是非零函数。
+这里 $p$ 及以后出现的圆分常数都完整保留，未在原 Kummer
+类中删除其赋值。
+
+设
+$$
+D(T)=\prod_{i=0}^{p-1}(1-\zeta_p^iT)^i,\qquad
+\lambda_p=(-1)^{m(m-1)/2}\prod_{i=1}^m(1-\zeta_p^i).
+\tag{1133.61}
+$$
+则精确的原根相容式为
+$$
+\boxed{\quad
+D(\alpha)D(\beta)
+=\left(\frac{\lambda_p\alpha^{p-1}}{\mathcal S_1}\right)^p.
+\quad}
+\tag{1133.62}
+$$
+
+为证明而不遗漏常数，令
+$C=D(\alpha)D(\beta)\mathcal S_1^p$。
+对 $\sigma_0:(\alpha,\beta)\mapsto(\zeta_p\alpha,\beta)$ 及
+$\tau_0:(\alpha,\beta)\mapsto(\alpha,\zeta_p\beta)$，(1133.59) 给出
+$$
+\sigma_0(\mathcal S_j)
+=\zeta_p^{-j}\frac{\beta}{1-\alpha}\mathcal S_j,\qquad
+\tau_0(\mathcal S_j)=\mathcal S_{j-1}.
+\tag{1133.63}
+$$
+配上 (1133.33) 及 (1133.60)，$C$ 对这两个真实 deck 作用不变。
+因它是单位，故在商
+$K[U,U^{-1},(1-U)^{-1}]$ 中必为 $cU^aW^b$。
+
+在 $\alpha\to0,\beta\to1$ 的分支，
+$\mathcal S_0\to p$ 且
+$\mathcal S_1=(1-\beta)\mathcal S_0/\alpha
+\sim\alpha^{p-1}$，所以 $a=p-1$。
+在 $\beta\to0,\alpha\to1$ 的分支，对 $i\ge1$ 有
+$\rho_i=O(\beta^{p-i})$，故 $\mathcal S_1\to1$。
+于是 $b=0$，且 $c=D(1)$。最后配对 $i,p-i$：
+$$
+D(1)=
+\left(\prod_{i=1}^m(1-\zeta_p^i)\right)^p
+(-1)^{\sum_{i=1}^m(p-i)}
+\zeta_p^{-\sum_{i=1}^m i(p-i)}
+=\lambda_p^p.
+\tag{1133.64}
+$$
+最后一个相位为 $1$，因为
+$\sum_{i=1}^m i^2=m(m+1)p/6\equiv0\pmod p$，且 $p>3$；
+两个符号指数相差偶数 $m(m+1)$。
+这证明了 (1133.62) 的确切常数，而非仅证明某个未知常数的倍数。
+
+### 10.2. 原 Heisenberg 根的实际交换
+
+在 §6 的原代数 $\gamma^p=D(\alpha)$ 中定义
+$$
+\widetilde\gamma
+=\frac{\lambda_p\alpha^{p-1}}{\gamma\mathcal S_1}.
+\tag{1133.65}
+$$
+式 (1133.62) 给 $\widetilde\gamma^p=D(\beta)$。
+更重要的是，原 $\sigma,\tau,\nu$ 的完整作用满足
+$$
+\sigma(\widetilde\gamma)=\widetilde\gamma,\qquad
+\tau(\widetilde\gamma)
+=\frac{1-\beta}{\alpha}\widetilde\gamma,\qquad
+\nu(\widetilde\gamma)=\zeta_p^{-1}\widetilde\gamma.
+\tag{1133.66}
+$$
+例如 $\sigma(\gamma\mathcal S_1)=\zeta_p^{-1}\gamma\mathcal S_1$，
+同时 $\sigma(\alpha^{p-1})=\zeta_p^{-1}\alpha^{p-1}$，
+两相位准确相消。
+
+因此交换 $U,W$ 的标准 Heisenberg 代数
+$(\beta,\alpha,\widetilde\gamma)$ 与原代数实际同构，群的识别是
+$$
+(\sigma,\tau,\nu)\longleftrightarrow
+(\tau,\sigma,\nu^{-1}).
+\tag{1133.67}
+$$
+这不是仅用 cup 的反对称性选择另一份存在性提升。
+
+还可核此交换严格为 involution。
+由 (1133.62) 的对称性，
+$$
+\frac{\mathcal S_1(\beta,\alpha)\alpha^{p-1}}
+     {\mathcal S_1(\alpha,\beta)\beta^{p-1}}\in\mu_p.
+$$
+在通用几何不可约的 Fermat 曲线上它是常数；
+取 $\alpha\to0,\beta\to1$ 的同一分支得该常数为 $1$。
+于是反向再用 (1133.65) 精确恢复 $\gamma$，没有另一个中心相位。
+
+### 10.3. 同时保留两个实际三阶方向
+
+把 §9 的塔截在 $\gamma_0,\gamma_1,\gamma_2$，
+得到群 $\mathbf F_p^3\rtimes C_p$、秩 $p^4$ 的 class-three torsor。
+分别对 $(U,W)$ 和 $(W,U)$ 构造，然后利用 (1133.65)–(1133.67)
+识别它们的**同一实际 Heisenberg 商**。沿该商作纤维积，得到
+一个秩
+$$
+p^4p^4/p^3=p^5
+\tag{1133.68}
+$$
+的真实有限 étale torsor，允许总空间不连通。
+
+群内取
+$$
+x=(\sigma_1,\tau_{0,2}),\qquad
+y=(\tau_{0,1},\sigma_2),\qquad
+z=[x,y]=(\tau_{1,1},\tau_{1,2}^{-1}).
+\tag{1133.69}
+$$
+则
+$$
+[x,z]=(\tau_{2,1},1),\qquad
+[y,z]=(1,\tau_{2,2}^{-1}).
+\tag{1133.70}
+$$
+三个低括号互相独立；连同 $x,y$，它们生成整个秩 $p^5$ 的群。
+这里两个不同三阶方向已经由同一代数拼接，不能再把它们视为
+各自选取而尚无相容性的零上链。
+
+同样对两份完整 class-four 塔作上述纤维积，秩为
+$$
+p^5p^5/p^3=p^7.
+\tag{1133.71}
+$$
+它还保留两个独立四阶括号
+$$
+[x,[x,z]]=(\tau_{3,1},1),\qquad
+[y,[y,z]]=(1,\tau_{3,2}^{-1}).
+\tag{1133.72}
+$$
+但在这个具体群中
+$$
+[x,[y,z]]=[y,[x,z]]=1.
+\tag{1133.73}
+$$
+所以不能把它称为完整的两生成元 free class-four 群：
+混合四阶方向在这个商里尚未保留。
+本节完成的是原低 Heisenberg 商、两种三阶方向及两个极端
+四阶方向的实际相容拼接。
+
+上述新 torsor 全部在同一个原 full-level open 上有限 étale。
+要过 cusp，仍须对各个实际塔检查 §9.5 的 valuation moments；
+要得到原不同 $V_\chi$ 的 arithmetic/coarse 覆盖，
+仍须支付 §7 的交叉范数及 §9.4 的指定单位范数见证。
+本节没有将这些待付条件改写成已得结论。
+
+
 ## 来源及审核
 
 - [R1064](R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)
@@ -726,3 +914,12 @@ $(I+L)^{-1}$ 与相位共轭方向，以及标准 $\mathbb U_5$ 首对角；
 
 
 §9 root 独立全文核准最终候选：循环指数的整补项、较大根代数的实际σ^p、相位共轭的逆矩阵、UT5嵌入及几何cusp的四moment判据均通过。原角色的全局单位范数见证与算术下降仍继续；没有将本节通用判据称为已构造原四阶覆盖。
+
+
+§10 的有限 Fourier 恒等式、$\lambda_p$ 完整相位及两份实际塔的
+Heisenberg 商识别由 global_route 推导，o2_high_coefficient 已逐式
+独立纸核单位性、原边界 leading、群作用与 $p^5/p^7$ 纤维积；
+混合四阶方向及原范数下降未据此宣称完成。
+
+
+§10 root 对精确候选96b1d45b逐式独立核准：有限Fourier的两个deck作用、全局单位性、D(1)的符号与ζ相位、严格交换involution及两个真纤维积的全部显示括号均通过。只统一数学display定界符；原跨轨道及混合四阶边界保留。

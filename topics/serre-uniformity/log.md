@@ -417,3 +417,8 @@
 ### 2026-11-28 01:12 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1133§9将原Heisenberg的同一unit Norm见证延成长4 binomial根塔，整循环补项和大根代数支付σ^p精确为1，得到阶p⁵的实际G₄ torsor及UT5首层(a,a,a,b)，不删除最高中心。四种p mod8的forced双字母常中心指标全给。
 - root/global/o2全文纸审；正常完成的几何cusp惯性精确为四矩M0..M3，消失 iff 原赋值向量在(σ−1)^4群环理想；Norm b仅控制M0。原两角色仍须同一个全局单位见证、完整crossed Cor与算术下降。H前态逐字归档/压缩，继续真实配置关系；无数学执行。
+
+
+### 2026-11-28 01:26 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1133§10在原U+W=1的Fermat Kummer开曲线上给全部Fourier单位与精确D(α)D(β)根式，λp符号/ζ相位及两个deck作用全部保留；从而交换槽位的实际Heisenberg塔严格同构且平方为恒等。
+- root/global/o2精确全文纸核。沿同一低商纤维积得到秩p⁵的两独立三阶括号及秩p⁷的两极端四阶括号，混合四阶准确为零；未假称完整free class4或原不同角色已下降。H/open逐字前态归档并压缩，继续真实跨轨道关系及fixed-Prym/Gaussian两源；无数学执行。

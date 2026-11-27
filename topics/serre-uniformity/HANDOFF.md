@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：c8b46f294324098fb72bf7e139fd62cfdf1b0e1a**（2026-11-28 01:12 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：5846202a46e3ec0081b244aacca72fb1757a1b8d**（2026-11-28 01:26 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；00:50重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 01:50。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-original-class-four-unit-tower.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-compatible-Heisenberg-swap.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：一般 p；整平方层与实际 cochain
 
@@ -28,9 +28,9 @@ R1062–71已付全原cusp、étale/p-only、角色/phase/twists，无regular/Va
 
 [R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：完整Y=X_ns(p)的真实低奇cuspline为w负；full第一Chen整同源及唯一new rank2/Schur迫全块负，原正商几何p-divisible块不存在。范围偶2≤r<(p−1)/2、B_(2r)B_(p+1−2r)unit。r2只需p∤B_(p−3)，遂消规范平凡Δ整K₂[p]。§8.1另付p7mod8的r=(p+1)/4无条件、K₂角色3(p+1)/4零；不删常数门前提。
 
-[原整单位关系](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)：angular specialization/全cusp平均用于整个p∞；实cusps使even有限p-primary tame全零。原Tate leading是S-unit，先e₀再平均，经K₂(Z[1/6p]) transfer消常数。因此R1132门内，原actual canonical unit符号格的已知有理平凡角色关系准确整提升。须继续给原整数指数/真实关系/低cochain；不除12p、不代任意K₂/p杯积或四阶cover。
+[原整单位关系](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)：全cusp angular平均处理p∞；实cusps消even有限p-primary tame。原Tate leading S-unit先e₀再平均，经K₂(Z[1/6p]) transfer消常数。R1132门内仅将原actual unit符号的已知有理平凡角色关系整提升；还须真实关系/低cochain，不除12p，不代任意K₂/p。
 
-[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：真实x坐标差给A_a+B_a=1；half Cartan加权范数的B槽准确为dχ(a)[Fχ]/m，dχ=Δ²χ(t²)|a−Δ²χ(t²)|2。实际k=2r mod(p−1)排0/2，偶多项式根数给每个原Vχ都有单位dχ；保全部leading/实下降，不取12p幂。full-level open上写出三步étale Heisenberg方程；原范数须保完整跨轨道Cor双和，proper/cusp/四阶仍开。常Lie中心经K₂/p读取为ω²，不能用e₀整torsion替代。 §9将同一实际单位Norm见证延成长4 binomial根塔，阶p⁵的G₄真torsor/σ^p/UT5首层(a,a,a,b)全付。cusp需四矩M_j=Σbinom(i,j)ord(σ^if)全零，即赋值向量∈(σ−1)^4；Norm只付M0。四种p mod8均有原forced双字母常中心指标，但实际见证/下降未付。
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：实际坐标差A+B=1及half Cartan加权范数，以dχ(a)=Δ²χ(t²)|a−Δ²χ(t²)|2准确恢复每个原Vχ；原两个缺席边界/偶根数付可逆a，保leading、不取12p幂。原范数杯积须保完整跨轨道Cor，常Lie中心读K₂/p的ω²，不是e₀整torsion。§9从同一Norm单位见证给阶p⁵/class4真塔及UT5首层(a,a,a,b)；cusp iff四赋值矩全零，即n∈(σ−1)^4，Norm只付M0。四种p mod8均有forced双字母指标，原见证未付。§10完整Fourier单位和/λp相位精确识别交换两槽的同一Heisenberg商，真纤维积给p⁵的两三阶方向及p⁷的两极端四阶方向；混合四阶仍零，proper/原不同角色下降仍开。
 
 ### 固定47与来源审计均已完成
 

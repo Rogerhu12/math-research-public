@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-Prym-Gauss-Manin.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-compatible-Heisenberg-swap.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -24,7 +24,7 @@
 
 [原整单位关系与常数消去](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)：全未分歧K₂的angular specialization与全cusp平均扩到p∞；实cusps使even有限p-primary tame全零。原Tate leading为S-unit，e₀后平均经transfer到K₂(Z[1/6p])消零。因此p∤B_(p−3)时，原actual canonical unit符号格中已有理为零的平凡角色关系，准确在K₂⊗Z_(p)为零。实际函数/指数格与rational关系仍须给出，不除12p或将此当任意cup零。
 
-[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：真实x坐标差给A_a+B_a=1；half Cartan加权范数的B槽准确为dχ(a)[Fχ]/m，dχ=Δ²χ(t²)|a−Δ²χ(t²)|2。实际k=2r mod(p−1)排0/2，偶多项式根数给每个原Vχ都有单位dχ；保全部leading/实下降，不取12p幂。full-level open上写出三步étale Heisenberg方程；原范数须保完整跨轨道Cor双和，proper/cusp/四阶仍开。常Lie中心经K₂/p读取为ω²，不能用e₀整torsion替代。 §9将同一实际单位Norm见证延成长4 binomial根塔，阶p⁵的G₄真torsor/σ^p/UT5首层(a,a,a,b)全付。cusp需四矩M_j=Σbinom(i,j)ord(σ^if)全零，即赋值向量∈(σ−1)^4；Norm只付M0。四种p mod8均有原forced双字母常中心指标，但实际见证/下降未付。
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：实际坐标差A+B=1经half Cartan加权范数，以dχ(a)=Δ²χ(t²)|a−Δ²χ(t²)|2恢复每个原Vχ；完整leading/两个缺席边界和偶根数保证可逆a，不取12p幂。原杯积须保完整crossed Cor，常Lie中心读K₂/p的ω²，不是e₀整torsion。§9同一Norm见证给阶p⁵/class4真塔；cusp四矩全零 iff赋值向量∈(σ−1)^4，Norm只控制M0。§10用全部Fourier单位及λp精确相位识别交换槽的同一Heisenberg商，真纤维积给两独立三阶方向/p⁵及两极端四阶方向/p⁷；混合四阶仍零。四种p mod8已有forced双字母指标，原两角色同一单位Norm见证、跨轨道实际关系及proper/arithmetic下降仍继续。
 
 ### 原完整X_ns^+(47)已完成，只消费
 
