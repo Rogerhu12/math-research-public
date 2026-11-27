@@ -823,3 +823,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 22:27 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 11e9 V8精确整多项式233ms：lambda3/2整支新z=s/v0、e首一二次、同e一次和norm完整身份；只剥非零整数/k,z幂，原v0唯一恢复，G1零支保留。源/小receipt随结论立即推。
 - 根新h=k Phi0在已付Pf下自动Delta非0，ell≠1两参数八式/QQ投影180秒4GiB；ell1u2整个quartic留作另一原输入。课题外新workflow已记本题。
+
+2026-11-27 22:28 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- eb1实际46013956888/job140556230723：3.591秒/57544KiB/源exit0。原qT4/rT2固定六阶全部cofactor列返回、保rT降头，剥原单位后完整QQ因式Ah·G4²·F18。
+- 全部e头精确返回4(k+1)、32k³、9834496k^10(k+2)^6均已付，三整曲线1/4/18维；F18完整331项7747B保小receipt。未宣任何曲线排空，立即按原Ah0继续。

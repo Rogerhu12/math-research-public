@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W整lambda=3/2的三条首一权曲线覆盖](results/R150-appendix-unit211-W-lambda-three-halves-entire-original-three-curve-cover.md)：固定6阶完整原列证书、全QQ因子Ah·G4²·F18；三e头全已付，覆盖不是排除。
+
 - [W lambda=3/2整支同值比率与e首一二次](results/R150-appendix-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic.md)：原Delta/二三矩完整同点恢复、六步伪除给同e一次；全部G1零支保留，原Gram未闭。
 
 - [h=k整个J=Q原面排除及Pf非零](results/R150-appendix-unit211-equal-singleton-entire-JQ-zero-original-exclusion.md)：Delta0全二次域自由f原单位，互补图固定QQ投影60/33互素；不外推整个h=k。

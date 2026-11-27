@@ -1,18 +1,15 @@
 {
-  "message": "ISP: return the entire W lambda three halves same-value e quadratic and same-root linear relation",
-  "parentCommit": "047c944db6cd133418a9f2fd4a7a3817583c68d0",
+  "message": "ISP: cover the entire W lambda three halves original fiber by three monic weight curves",
+  "parentCommit": "9b749875f8896e53d3c101ecd39fc1365bbfc864",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-original-two-parameter-return-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-phi-zero-original-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-three-halves-ratio-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-three-halves-ratio-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-lambda-three-halves-entire-original-three-curve-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-entire-original-three-curve-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-three-halves-three-curves-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-three-halves-three-curves-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-phi-zero-original-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

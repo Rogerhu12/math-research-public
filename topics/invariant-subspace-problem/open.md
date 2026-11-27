@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-three-halves-ratio-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-three-halves-three-curves-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W全图八列原行与十六乘法](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)、[首一四二次环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)与[整D27排除](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)已付。** 六原行/全部乘法原trace与73不同分母保正文；环境自由8维（加同s²16维），原最终商只生成。新[lambda3/2整支同值比率](results/R150-appendix-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic.md)令z=s/v0，完整原Delta/二三矩给e首一二次及G0+eG1，精确6步伪除/同e norm(22,24)，G1零支全保留，Az/P3由原式支付后唯一恢复同v0,s,T。原Gram/个别N/P未排空。新649d只取构造前缀返回三原二次的两个标量cofactor与三个同F组合；D/范数/B239均未倒。
+**[W全图八列原行与十六乘法](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)、[首一四二次环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)与[整D27排除](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)已付。** 六原行/全部乘法原trace与73不同分母保正文；环境自由8维（加同s²16维），原最终商只生成。新[lambda3/2整支同值比率](results/R150-appendix-unit211-W-lambda-three-halves-same-value-ratio-e-quadratic.md)令z=s/v0，完整原Delta/二三矩给e首一二次及G0+eG1，精确6步伪除/同e norm(22,24)，G1零支全保留，Az/P3由原式支付后唯一恢复同v0,s,T。原Gram/个别N/P未排空。新[整lambda3/2三曲线覆盖](results/R150-appendix-unit211-W-lambda-three-halves-entire-original-three-curve-cover.md)：eb1真3.591秒/57544KiB/exit0，全6列原cofactor与QQ因子乘回，权点必在Ah=4e(k+1)+3(k+2)、G4或F18；三e首项全由k,k+1,k+2支付，分别首一1/4/18维，F18完整331项小输入已存。三曲线均保留，先从Ah0回完整原Gram。新649d只取构造前缀返回三原二次的两个标量cofactor与三个同F组合；D/范数/B239均未倒。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
