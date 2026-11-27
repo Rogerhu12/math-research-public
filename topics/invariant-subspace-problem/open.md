@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-collision-two-QQ-projection-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-entire-J2-original-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -193,11 +193,11 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[W低D次十一原行完整六列返回](results/R150-appendix-unit211-W-global-D-linear-eleven-original-six-column-return.md)。** 391真3.624秒/71332KiB/exit0，23原归约身份/73付分母；个别Nlow/Plow和完整NVlow实际返回，整个原D非零等价范围保留。总系数编码4.25MB只留哈希，不重跑旧40MB。新f5c取原E1/EBe/N1的Hij=BjRi−BiRj并接r2，四固定3×3常数余子式保全部F/r2头零，不逆A143或D范数。
 
-## h=k：两共有曲线与有限剩余基点（8542，2026-11-28）
+## h=k：整J2已闭，继续原三次权曲线（8542，2026-11-28）
 
-[整个Delta0已闭](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：原QQ578只余C1/C2/C4，末12维全八Gram中同f的E1/EBe完整Bézout1。本图等权/T0/JQ/Phi0/Q1−u独立闭，不借旧D非零图。
+[整个Delta0](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)及[整个J2二次λ纤维](results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md)均已原排空。后者先由ef759完整u覆盖F28/F23/F6，再由a2a真0.855秒/85760KiB/0返回224/184维原R单位及末48维真实QQ Delta²；一次目标未返不冒非成员，两个λ嵌入/全部uQ均保。
 
-[四同点原式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)保同P1/NV恢复f,z，所有Q/λ头零。[新两QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)：4500真76.517秒/231160KiB/0，J2²P25/3⁴分别乘E177/18、E182/19，故J2=0或P25/3=0或末两式同时零；末类不同(λ,u)≤39195，完整Q纤维仍开。P25/3与旧Delta相容三次全系数一致，但不同Q可能投到同基点，不能删曲线。[整J2新覆盖](results/R150-appendix-unit211-entire-J2-original-norm-cross-three-u-factor-cover.md)：ef759真0.139秒完整同λ norm/cross及固定Q结式，u落F28/F23/F6，至多57u/114(λ,u)。原O的Q4头是(u−2)乘二次域单位，故≤456三元组；新a2a只读准确输入建224/184/48维原Q4环境，整R/W/N1或真实QQ Delta幂返回，不从模归属提升。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开；5b2旧有理cofactor超时冻。
+因此[4500两QQ投影](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)余覆盖是P25/3=0整曲线，或E177/18=E182/19交点（不同λu基点≤39195）。所有实际Q纤维、原Delta非零及个别N/P条件仍开。P25/3与旧Delta相容曲线全系数相同，但投影可能丢失Q区别，须用同点原Gram继续，不能删。h1/k1≤6219、ell三次后≤18657权三元组及自由t仍开；5b2有理cofactor超时冻。
 
 ## W：同一 S 的原二次系统及权六次例外（8542，2026-11-28）
 
