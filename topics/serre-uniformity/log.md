@@ -177,3 +177,7 @@
 ### 2026-11-27 19:56 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1119付原四基本惰性CM的完整反向incidence、偶判别式本原性/粗重数及真正带符号Jacobi比例；先Q同源再由原MW格付款4513整性。
 - root/o2全文纸审新Python/GP消费者与全部规范；新增课题外workflow serre-full-p47-signed-Jacobi-CM.yml，1800秒/reserve60，只读新full47坐标与必要Bq嵌入，旧41/CM高矩不重算。新数值须待公开回执，短Cartier新12例随后。
+
+### 2026-11-27 19:57 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1118短Cartier两个实际消费者/method/request已完成root/o1全文纸审，closed jets、确定f、V5完整colon、全部留数及73 Gaussian帧与除6接口一致。
+- 新增课题外workflow serre-full-p47-short-Cartier-third-kind.yml，只算余12例，4核18000/reserve120、field1800；首4Miller此刻仍in_progress。Jacobi run45994488204已在数学步骤，待完整记录后接QC，不将算法当数值。
