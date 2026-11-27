@@ -273,3 +273,7 @@
 ### 2026-11-27 22:08 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原Lamé续稿§§9–10给完整相对Cartier矩阵及Newton基、原e/K4的R与移位R²同矩阵读法，最后零行和短卷积均保；原Φ纯极基反对角及指定U^m两jet全有限和保全部δ、阶乘与相对Frobenius尺度。
 - root/o1/o2全文独立纸核，补齐j0的p−2/p−1边界，未从对调/完美性/邻e单位推出原共同非零。无数学执行；两种原读法继续真实消元，不占R1117。
+
+### 2026-11-27 22:24 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 新增原逆中心I_n的统一步长二WZ有限输入，直接在QQ(n)[k]求多项式核并全恒等验证，不做prime窗口或数值猜递推；完整求和边界与原S=(2/3)I桥保留。
+- root/o1全文纸审四文件及整数清分母/有限退化/两README pins；新workflow仅监听本请求，3600/reserve90、4核、官方Sage10.6固定digest、只读权限。源码SHA e4765d302327bb6ca56ae14c1ccd3315e7cfe23fbf1b3b4783db912734e02fcd，请求SHA 655c3f4e75ceaa91ab7e9cb39e8da263c517d747ac73f6f2080b310bfafe5078。具体证书待真实Actions回执，主线继续。

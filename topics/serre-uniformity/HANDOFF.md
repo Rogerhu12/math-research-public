@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：9b0c75a4a65832c613ca5bcfd0126b9f7913ba6f**（2026-11-27 22:08 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：304af5a94f206ad69cd5d709f1f6d6b15f86d770**（2026-11-27 22:24 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；21:59再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -44,7 +44,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)付原有限Lamé全谱/jet边界、η_k=(16v²g0/(3δ))D_N(1)及g0单位；§§8–9保同一B/C准确作用域、Lax联合简单谱、三Darboux因子与全部carry。e=0时K4的三项均保；特定e/K4非同时零仍开。
 
-R1061/76保同一T=−2vΨ³/δ³、η_j=j[z^j]T、ν_j=j[z^j]T²/40；指定短η_k/ν_k非同时零仍开。R1077的加权2k次单位不代短k次，R1109完整Dixon首除层仅消费。
+R1061/76原T及短η_k/ν_k的两指定系数非同时零仍开；R1077加权2k单位不代短k，R1109完整Dixon首除层只消费。原逆中心和新增整n WZ有限请求（original_inverse_center_wz.py）已推，待Actions真实证书，不作非零宣称。
 
 R1111付原p-block全公因子M D (b³−1)^(2ε)与全tame分歧，ε=1 iff f_N=0；该支尚未排。R1060/R1092给实际非CM Cartier与其余六三挠值单位，未给原H_p(0)/H_p′(0)或S_n=0⇒B_n=0。
 
