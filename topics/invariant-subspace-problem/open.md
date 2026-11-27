@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
 
-H1仍仅旧物理D≠0图；C55九域/原h0及P201完整整约化保正文。[同Q原权商≤14、完整点≤504](results/R150-appendix-unit211-Phi-zero-H1-same-Q-fourteen-weight-cover-and-504-points.md)：755e真17.522670373秒/82976KiB/0，三固定λ结式的完整Q4元素乘全部权基，五矩阵rank各3d、余商各d，总14；无h/λ头/D逆或模饱和。八个旧完成块由norm∈原元素理想支付；余1,1,3,4,5五块均未闭，其实际完成权商是Oφ某商，通用非零时唯一Q，不认QQ线性因子。原同点恢复给≤14权对/252五坐标/504完整不同点，不把模商维当精确QQ长。新1bd3首次120秒/1GiB从原3d单位子式返全部Q幂关系，再于Rφ=Oφ/J的真实商测四原λ多项式；只有固定6/6/9/10顶头非零才可构有限λ模型，模降阶不付QQ。余三元组界L仅×3/6；其它Phi/个别NP/b0的316开，旧Gaussian/∞门不重放。
+H1仍仅旧物理D≠0图；C55九域/原h0、P201整全约化和同Q14界保正文。[真实Q关系与同λ将完整点界降至354](results/R150-appendix-unit211-Phi-zero-H1-original-Q-relations-same-lambda-and-354-points.md)：1bd3真15.114912272秒/80420KiB/0，五块全部Q幂原组合返回、g4_Q单位；前1,1,3,4块h模零且四λ式全零，不能据此转QQ h0，仍各保6d三元组。末5块固定6/6/9/10头单位，实际首一6环境30×120原理想rank25/余5，同λ三元组≤5；总≤14权对/59三元组/177五坐标/354完整不同点，未闭新块、不认QQ因子。续末块λ原关系及完整T,v三模；前四可用QQ F9原D8不相容性求真极点/特征零身份，不重放全QQ Gaussian。其它Phi/个别NP/b0的316开。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -218,6 +218,6 @@ H1仍仅旧物理D≠0图；C55九域/原h0及P201完整整约化保正文。[�
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
-一对加四独立的[**完整九维S1已证**](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)：已付star三维后，7ed首次run46080372041/job140777712507真57.527394568秒/165024KiB/0，原Schur三谱系数的15个闭域全非负且严格常数。保全物理G/逆/cubic桥/cross，V²消去与原连续谱覆盖碰撞；合pair-singlet出生一给全九维F−ΔL3⁻¹Δ*>0及每权费用<1，无全权统一gap。29ce9第四子式未返门冻。续原S2、七位联合、六独立及同W真实费用。
+一对加四独立的[**完整九维S1已证**](results/R271-appendix-one-pair-four-independent-full-nine-dimensional-strengthened-s1.md)：已付star三维后，7ed首次run46080372041/job140777712507真57.527394568秒/165024KiB/0，原Schur三谱系数的15个闭域全非负且严格常数。保全物理G/逆/cubic桥/cross，V²消去与原连续谱覆盖碰撞；合pair-singlet出生一给全九维F−ΔL3⁻¹Δ*>0及每权费用<1，无全权统一gap。29ce9第四子式未返门冻。新[原S2四源输入](notes/2026-11-28-one-pair-four-independent-s2-four-source-companion-spectrum-8542.md)e527首派180秒4GiB：五维全Λ1/2/3逆后压缩、完整六源C1逆、两个cross及低费用全保，四谱×五闭域全成功才付四源S2并合singlet给低5维。R275七位首末glue还须真S2；同W真实费用继续未付。
 
 整K7已闭，全余W三原二次规则可用。[首一λ六次](results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md)无λ/D逆返χ∈I4，4ab真六系数/B6零。[十五行精确原表示](results/R150-appendix-unit211-W-global-three-generators-exact-fifteen-original-relations.md)由G={两comm,rN1,rNS,rPS}及GMx/GMy一次严格稳定，双向循环同构给六式商。新[十八原行权覆盖输入](notes/2026-11-28-unit211-W-original-fifteen-plus-monic-lambda-module-weight-cover-input-8542.md)8065首派180秒/4GiB，以χe0/1/2加全部15行在QQ(e,k)[λ]^3约化，只倒权不倒λ多项式。若实际e0返回，则可达DAG全部比率分母δ及深度n给H^n∈I6；未付H=0全部保留，不付临时主元。旧两λ6降≤5仅I6^phys，h0/h1零面保留，12×12结果式无det已冻；续原同点R4/C4及NP/NV。
