@@ -179,3 +179,7 @@ run46043363954/job140656405841实际成功：公开17:38:05UTC至b19a809e5cf0c7e
 ## 2026-11-27 17:42:21 UTC — 固定29原三Hecke线单位
 
 消费central续节blob f8bff1a2ec9af7737033dea17497e8f288ac9a4a；root核原13核étale除子/Miller原点unit及无垂直分母、不可约三次/Frob²、原z4整归一与actual z28首列。三个原D_j,17的z28系数均29单位；无新增执行，不将有限29结论外推。
+
+
+2026-11-27 17:57 UTC / Astra-rank2-Sha-0b097461-20261127
+R1049§13（89）–（107）：原完整toric平方严格为 (Tg_jp)²=U_jp((p−1)!d_j,p−1)²，U=2ω3^(p+1)34²c_jγ_jρ^(2p−1)，γ_j=L(β_j,1)/Ω固定非零代数、ρ=ε0⁻¹2⁻¹/³保原9级。完整3处Gauss/Fricke相位及2/17实际权因子、无穷平移、体积、阶乘与目标p处球Euler全部支付；原p局部L和积分同为p²/(p+1)²并精确相消。原x/σ递推只用到p−5，给d_j,p−1整；固定坏集外U单位，从而原hbar非零准确等价同一R806 d_j,p−1模p非零，h识别仍需p>q0。无穷p非零及到rank2通常全Sha的原canonical桥仍开。 root亲读Hsieh原刊一般Prop2.1及Prop3.3与原配对定义，核m=0无穷因子8(k−1)!/(4π)^(k+1)、有限全乘积、体积27/4和奇k符号；另手核原模型I27周期比例、(n−6)(n+1)递推、p−5整窗及107的−27。一般公式不套Theorem A的ordinary/squarefree假设；不把固定29单位外推q0。此时唯一v12实际job仍in_progress、无终门回执。整理前H9825B逐字归档至notes/2026-11-27-handoff-before-original-inert-toric-square.md，保所有旧门和回执链。无新数学运行。

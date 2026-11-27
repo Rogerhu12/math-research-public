@@ -4,7 +4,7 @@
 
 **已证明的范围。** 本篇把 R1011 的同一个、未 depletion 的固定最高循环放到目标素数 $p$ 本身惰性的情形。给出保全部54图、全部 $\eta_j$ 权及完整 corestriction 的 proper finite-polynomial AJ 公式，准确保留因子 $p/(p+1)$。另由原完整 NS 格证明：新增最短截面的两个 CM 分量在原晶体格中的指数分别为 $1,p$；全纯分量的晶体 Chern 类是原二形式的一个 $p$-adic 单位倍。
 
-§§8–12进一步在同一整扩张格中支付全Chern–Miller/PD比较与真实限制，将原残余参数 $\overline h_{j,p}$ 准确写为全部54图的 $d_i^pX_iP_p(X_i^3)$ 加权和，再识别为原 weight $p$ CM theta form 的同一 toric 值。全权和的非零以及它到通常全 $\Sha$ 的全球比较仍未付；非零二形式本身不替代这两步。
+§§8–13进一步在同一整扩张格中支付全Chern–Miller/PD比较与真实限制，将原残余参数 $\overline h_{j,p}$ 准确写为全部54图的 $d_i^pX_iP_p(X_i^3)$ 加权和，再识别为原 weight $p$ CM theta form 的同一 toric 值。§13保全周期、阶乘和有限型给这个 toric 值与原 R806 type4 的 $p-1$ Taylor 行的准确平方，固定坏集外二者同时为单位。该行的无穷素数非零以及它到通常全 $\Sha$ 的全球比较仍未付；非零二形式本身不替代这两步。
 
 ## 1. 固定循环、系数与有限删集
 
@@ -1764,3 +1764,402 @@ $p>q_0$前提。只有把它们称作(88)的原局部扩张参数时，
 完整 toric 值。其经典 CM 分解、原 type4 Taylor 源及周期的比较
 若要用于模$p$，仍须逐项支付阶乘和所有$p$赋值。
 这里没有从一个复临界值非零推出(88)的模$p$非零。
+
+## 13. 原完整 toric 平方与 type4 的首 $p$ Taylor 行
+
+本节支付(88)尚未使用的经典比较。结论是同一个原来源的
+逐素位等价，不是一个复值非零就自动成为模$p$单位的推论。
+
+沿 R806 令
+$$
+d_{j,m}=[z^m]D_{j,1}(z),\qquad [z^4]D_{j,1}=1,
+$$
+其中$D_{j,1}$是原$\mathcal B_4$的三个完整 CM13 特征来源。
+保持 R1006 的 raw 周期$\Omega$、原9挠生成元及原54图，
+并定义固定代数数
+$$
+\gamma_j=\frac{L(\beta_j,1)}{\Omega},\qquad
+\rho=\frac{\varpi_0}{\Omega},\qquad
+U_{j,p}=2\omega\,3^{p+1}34^2c_j\gamma_j\rho^{\,2p-1}.
+\tag{89}
+$$
+$c_j$正是 R806(27)的固定常数，$\varpi_0$为其原周期。
+下文证明$\gamma_j,\rho\ne0$且代数，并核其实际模型尺度。
+
+**定理。** 对每个$p\equiv5\bmod6$，原完整经典评价满足
+$$
+\boxed{\quad
+(\mathcal T_{j,p}^{\,g})^2
+ =U_{j,p}\bigl((p-1)!\,d_{j,p-1}\bigr)^2 .
+\quad}
+\tag{90}
+$$
+这是代数数之间的等式，可经任何固定系数嵌入使用。
+除一个与$p$无关的有限坏集外，$U_{j,p}$和$(p-1)!$均为$p$单位，
+$d_{j,p-1}$为$p$整。因此
+$$
+\mathcal T_{j,p}^{\,g}\not\equiv0\pmod p
+ \quad\Longleftrightarrow\quad d_{j,p-1}\not\equiv0\pmod p .
+\tag{91}
+$$
+在本篇原新增 NS/晶体整格的全部前提下，特别保留$p>q_0$，
+(88)再给
+$$
+\boxed{\quad
+\overline h_{j,p}\ne0
+ \quad\Longleftrightarrow\quad d_{j,p-1}\not\equiv0\pmod p .
+\quad}
+\tag{92}
+$$
+(90)–(91)本身不需要$q_0$。三个$j$均保持原标签，不取逆、
+不更换系数素位，也不选择互不相关的平方根。
+
+### 13.1 weight $p$ 的全3型及原向量
+
+暂记$k=p$、$n=k-1$，并令
+$$
+\nu=\psi_{27}N_K^{-1/2},\quad
+\pi_k=\operatorname{AI}_{K/\mathbf Q}(\nu^{\,k-1}),\quad
+\xi_{j,k}=\eta_j^{-1}\nu^{-k},\quad
+\chi_{j,k}=\xi_{j,k}^{-1}.
+\tag{93}
+$$
+$\pi_k$是(85)的 unitary 表示，中心角色为$\chi_K$。
+无穷处$\xi_{j,k}$的型为$(k/2,-k/2)$。
+有限处仍用 R991、R1006 的 idèle 规范；
+在2、17的单位上$\nu=1$，所以$\chi_{j,k}$给原来的
+$\epsilon_2^{-1}$、$\vartheta_{l_j}$，不改变54项系数。
+其在有理 uniformizer 2、17上均为$-1$，和中心角色相容。
+
+3处需要同时支付单位和$D$的延拓。
+R991(5)给$\nu_3(u)=u$、$\nu_3(\delta)=i$及
+$\eta_{j,3}(\delta)=-1$。故
+$$
+\chi_{j,k,3}(u)=u^k=u^{-1}\quad(u\in\mu_6),\qquad
+\chi_{j,k,3}(\delta)=-i^k.
+\tag{94}
+$$
+$p\equiv5\bmod6$并不固定$p\bmod12$；所以不能把右$D$特征
+一律沿用 weight3 的$-i$。
+
+为定这个符号，采用 R1006、Hsieh 的原加性角色
+$\Psi_3(1/3)=\omega^{-1}$。这是 R991(13)的逆角色。
+对$\varrho=\nu_3^n$，导子指数为2，
+$\varrho(u)=u^n$，$\varrho(\delta)=i^n$。
+六个单位的实际加性值为
+$$
+\begin{array}{c|rrrrrr}
+u&1&-1&\omega&-\omega&\omega^2&-\omega^2\\ \hline
+\Psi_{K_3}(u/\delta^3)&1&1&\omega&\omega^2&\omega^2&\omega .
+\end{array}
+$$
+因为$n\equiv4\bmod6$，$\varrho(u)^{-1}=u^2$，故完整 Gauss 和是
+$2-\omega-\omega^2=3$。R991(11)的 Tate 公式于是给
+$$
+\epsilon(\varrho,\Psi_{K_3})=i^{3n}
+ =(-1)^{n/2}.
+$$
+同一$\Psi_3$的二次 Gauss 和给
+$\lambda(K_3/\mathbf Q_3,\Psi_3)=-i$，从而
+$$
+\epsilon_3(\pi_k)=-i(-1)^{(k-1)/2}=i^{-k}.
+\tag{95}
+$$
+其余有限处的新表示未分歧，无穷 epsilon 为$i^k$；
+故该实系数 newform 的 Fricke 本征值为$i^{-k}$。
+由$g_k(\tau)=f_{k-1}(\tau/3)$及直接的 slash 换元，
+$g_k|D=i^{-k}g_k$，$D=\left(\begin{smallmatrix}0&-1\\3&0\end{smallmatrix}\right)$。
+R1006 的左有理不变、右平移 adelization 把经典角色取逆；
+因此原右$\theta^{-1}$线的$D$值准确为$i^k$。
+
+具体仍取同一个阶243的投影
+$$
+w_k^-=3^{k/2}e_{\theta^{-1}}
+ \pi_{k,3}\!\left(\begin{smallmatrix}3&0\\0&1\end{smallmatrix}\right)W^0_{k,3},
+\qquad w_k^+=\pi_{k,3}(h)w_k^-,
+\quad h=\operatorname{diag}(-1,1).
+$$
+§12.3的两个经典生成元及 R1006(9)的平均证明，保证它在
+identity 经典分量上恰为$g_k$，首项仍是$q^{1/3}$。
+其 Kirillov 函数为
+$$
+w_k^-(d(a))=3^{k/2}{\bf1}_{1/3+\mathbf Z_3}(a),\qquad
+w_k^+(d(a))=3^{k/2}{\bf1}_{-1/3+\mathbf Z_3}(a).
+\tag{96}
+$$
+标准 torus 下取$W_{k,3}=\pi_{k,3}(g)w_k^-$，
+其中仍是原$g=Ph$、$\det g=-2$。
+在原基中$\iota_-(\delta)=-D$；
+中心$\chi_{K,3}(-1)=-1$把$i^k$变成$-i^k$，
+所以(94)在 uniformizer 上也完全匹配。
+原 full9 基及 Weil pairing 分量均不变。
+
+### 13.2 两个真实 CM 因子
+
+在$K$上的 Rankin 参数逐项分解为
+$$
+\left.\pi_k\right|_{W_K}\otimes\xi_{j,k}
+ =\eta_j^{-1}\nu^{-1}\ \oplus\
+   \eta_j^{-1}\nu^{\,1-2k}.
+$$
+定义
+$$
+\nu_{j,k-1}=\eta_j\psi_{27}^{\,k}\bar\psi_{27}^{\,1-k}.
+$$
+两项分别为$\beta_j^{-1}N_K^{1/2}$和
+$\nu_{j,k-1}^{-1}N_K^{1/2}$。
+由于$\psi_{27}=\kappa\psi_0$且$\kappa^3=1$，
+$2k-1\equiv0\bmod3$精确消去全部$\kappa^{2k-1}$，
+包括2与 wild3。因此
+$$
+\nu_{j,k-1}
+ =\eta_j\psi_0^k\bar\psi_0^{\,1-k}
+ =\eta_j\psi_0^{\,2k-1}N_K^{1-k}.
+\tag{97}
+$$
+这正是 R806 的$m=k-1$，而非另一个同无穷型角色。
+
+两个角色$\chi=\beta_j,\nu_{j,k-1}$均满足
+$\chi\chi^c=N_K$。逐理想重标号$\mathfrak a\mapsto\bar{\mathfrak a}$
+给$L(\chi^{-1},0)=L(\chi^c,1)=L(\chi,1)$。
+故完整有限$L$函数准确为
+$$
+L(1/2,\pi_{k,K}\otimes\xi_{j,k})
+ =L(\beta_j,1)\,
+   L(\eta_j\psi_0^{\,2k-1},k).
+\tag{98}
+$$
+这里没有使用函数方程把一个零点换成另一点。
+第一因子导子$(34\delta^2)$，第二因子导子$(34\delta)$；
+在2、3、17均真正分歧，所以这些局部$L$因子原本为1。
+所有其余有限 Euler 因子都保留，特别目标惰性$p$处使用
+完整球向量；本节没有$p$-depletion或普通 CM 型假设。
+在目标$p$处，这一点还可显式核定：两个 unitary 角色在
+$K_p$的 uniformizer $p$上都取$-1$，所以局部$L$为
+$(1+p^{-1})^{-2}=p^2/(p+1)^2$。原球向量的局部积分
+同样是$\zeta_p(2)(p-1)/(p+1)=p^2/(p+1)^2$。
+它们在 Waldspurger 的局部商中精确相消，不留下一个漏记的$p^2$。
+
+### 13.3 三个有限处的全部常数
+
+所有 Haar 与双线性式仍为 R1006(29)及 Hsieh §2.2。
+在$\ell=2,17$，$\pi_{k,\ell}$的 unitary Satake 参数为$1,-1$。
+令$u_t=\pi(\iota(t)d(\ell^{-1}))W^0$、$b_0=\zeta_\ell(2)$。
+原全$\ell+1$邻点逐项满足
+$$
+b(u_t,u_t)=-b_0,\qquad
+b(u_t,u_s)=b_0/\ell\ (t\ne s),\qquad \sum_tu_t=0 .
+$$
+后两式分别由有序异点对的传递性和 Hecke 特征值0得到。
+令$v=\sum_t\chi_{j,k,\ell}(t)^{-1}u_t$。
+原$J$送$t$到$\bar t$，完整角色和为0，故
+$b(v,Jv)=-b_0(\ell+1)^2/\ell$。
+
+真实 weight $k$ 商向量是$\ell^{k/2}v$：
+这是 R1006(19)同一实际格商、拉回微分及 Hsieh(5.1)的
+$|\det d(\ell^{-1})|_\ell^{k/2}$，不是可以任改的常数。
+用体积1和$L(1,\chi_{K,\ell})/\zeta_\ell(1)
+=(\ell-1)/(\ell+1)$，完整相乘给
+$$
+\mathcal P_\ell=-\ell^{\,k+1}\qquad(\ell=2,17).
+\tag{99}
+$$
+
+3处仍有 R1006(34)的准确矩阵
+$g^{-1}Jg=\iota_-(-\omega)h$。
+(94)使其相位为
+$\chi_{j,k,3}(-\omega^2)=(-\omega^2)^k=-\omega$。
+由(96)，原支撑的乘法测度为$1/2$且$\chi_{K,3}(a)=1$，
+所以$b(w_k^-,w_k^+)=3^k/2$。
+乘原 torus 体积$2/\sqrt3$和$L(1,\chi_{K,3})/\zeta_3(1)=2/3$，得到
+$$
+\mathcal P_3=-2\sqrt3\,\omega\,3^{k-2},\qquad
+\mathcal P_2\mathcal P_3\mathcal P_{17}
+ =-2\sqrt3\,\omega\,3^{k-2}34^{\,k+1}.
+\tag{100}
+$$
+这保了$p\bmod12$的表示延拓，同时说明最终相位对整个
+$p\equiv5\bmod6$支确实相同。
+
+### 13.4 无穷平移、体积及周期逐项相消
+
+只使用 Hsieh 的一般 Proposition2.1 和 Proposition3.3；
+后者取其 raising 次数0、weight $k$。
+无穷向量明确是
+$$
+W_{k,\infty}=\pi_\infty(\varsigma_\infty)W^0_{k,\infty},
+\qquad
+\varsigma_\infty=
+\begin{pmatrix}\sqrt3/2&-1/2\\0&1\end{pmatrix},\qquad
+W^0_{k,\infty}(d(a))=a^{k/2}e^{-2\pi a}{\bf1}_{a>0}.
+$$
+所以$\varsigma_\infty i=\omega$，其局部积分为
+$8(k-1)!/(4\pi)^{k+1}$。
+全部有限单位上，实际向量为$\xi_{j,k}^{-1}$特征，
+无穷平移向量也匹配$\xi_{j,k,\infty}$。
+类数1使 torus 的每个元素可由无穷分量及有限单位表示，
+故原被积函数恒等于基点值：
+$$
+P_{\xi_{j,k}}(\phi_k)
+ =\frac2{3\sqrt3}\phi_k(1),\qquad
+\mathcal T_{j,k}^{\,g}
+ =\left(\frac{2\pi i}{\Omega}\right)^k
+  \left(\frac{\sqrt3}{2}\right)^{-k/2}\phi_k(1).
+\tag{101}
+$$
+这里$\phi_k$已含(96)、(99)的全部有限向量。
+第二式沿原$\Omega$及原 full9 基把这个基点变成(88)的54项，
+没有重加或减掉 degree34 的 determinant。
+
+一般 Waldspurger 的完成$L$中，无穷$L$恰被局部商中的同一项除去。
+用(98)及(100)–(101)，得到
+$$
+\boxed{
+(\mathcal T_{j,k}^{\,g})^2
+ =2\omega\,102^{\,k+1}(k-1)!
+   \left(\frac{2\pi}{\sqrt3}\right)^{k-1}
+   \frac{L(\beta_j,1)L(\eta_j\psi_0^{\,2k-1},k)}
+        {\Omega^{2k}} .
+}
+\tag{102}
+$$
+为明确常数，尚未乘有限项的系数准确为
+$-27\,2^{k-1}3^{-k/2}(k-1)!\pi^{k-1}\Omega^{-2k}$：
+这里负号来自奇数$k$时$i^{2k}=-1$，而$27/4$来自体积平方的逆。
+与(100)相乘正是(102)。
+没有把$2\pi i$、实际 period 或随$k$的阶乘吸进未知比例。
+
+上述引用只用一般经典公式；不调用该文 Theorem A 的
+square-free/ordinary 假设，也不调用其 residual irreducibility
+非零定理。完整 CM base change 的两个一维因子已在(98)直接代入。
+
+### 13.5 原 type4 全权平方及实际 period 同构
+
+R806(28)对每个$m\ge0$、$m\equiv4\bmod6$已经证明
+$$
+\frac{(2\pi/\sqrt3)^m L(\eta_j\psi_0^{\,2m+1},m+1)}
+ {m!\varpi_0^{\,2m+1}}
+ =c_j34^{-m}d_{j,m}^{\,2}.
+\tag{103}
+$$
+本节$m=p-1$恰在这个合法支；
+(97)也核了所有有限角色，不只是形式上的指数相等。
+将(103)代入(102)，再以$\gamma_j=L(\beta_j,1)/\Omega$、
+$\rho=\varpi_0/\Omega$分开一个固定周期，便严格得到(89)–(90)。
+
+R1002(6)–(8)已经给$\gamma_j$的 CM 代数性；
+R994的三个完整中央值已经严格非零，所以
+$\gamma_j\in\overline{\mathbf Q}^{\times}$。
+这里只复用这一个固定值，不重新执行数值或把普通 Katz 非零
+当作惰性插值定理。
+
+$\rho$亦可完全在原两条曲线上定标。
+R735(22)、(25)固定
+$\Lambda_{E_0}=\varpi_0\mathcal O_K$、
+$\omega_0=dx/(2y)$。
+R991(1)给实际同构
+$$
+I_{27}(x,y)=(2^{1/3}x/2,(y-1)/2),\qquad
+I_{27}^{*}\omega_A=2^{1/3}\omega_0 .
+$$
+因此$\Lambda_A=2^{1/3}\varpi_0\mathcal O_K$。
+R1006已经固定$\Lambda_A=\Omega\mathcal O_K$及原9级，
+故存在一个**已经固定的**$\epsilon_0\in\mu_6$使
+$$
+\Omega=\epsilon_0\,2^{1/3}\varpi_0,\qquad
+\rho=\epsilon_0^{-1}2^{-1/3},\qquad
+\rho^{2p-1}=\epsilon_0^{-3}2^{-(2p-1)/3}.
+\tag{104}
+$$
+最后一步用$2p-1=3(4r-1)$，其中$4r-1$为奇数。
+不为令$\epsilon_0=1$而重选既有 torsion 标号。
+式(104)既给精确模型比例，也直接给所有$p\ge5$的单位性。
+
+### 13.6 第一条 $p$ 行的整性及所有赋值
+
+先固定一个数域包含原三个$D_{j,1}$、$c_j,\gamma_j,\epsilon_0$；
+删它们的固定系数分母与非零常数的有限支撑。
+还须排除 Taylor 展开在指标$p-1$自己产生$p$分母；
+以下用原$E_0$方程直接支付。
+
+写
+$$
+D_{j,1}(z)=\sigma(z)^{34}\sum_{a=0}^5 A_{j,a}x(z)^{3a},
+\quad
+w(z)=z^2x(z)=1+\sum_{\substack{n>0\\6\mid n}}a_nz^n,
+\quad s(z)=\sigma(z)/z .
+$$
+则
+$$
+D_{j,1}=s^{34}\sum_{a=0}^5 A_{j,a}z^{34-6a}w^{3a}.
+$$
+最小幂为4，所以$z^{p-1}$只使用$w,s$至多$p-5$阶。
+由$x'^2=4(x^3+1)$、$x''=6x^2$，
+$$
+a_6=-1/7,\qquad
+(n-6)(n+1)a_n=6\!\sum_{\substack{i+j=n\\i,j>0}}a_i a_j,
+\qquad
+[z^n]\log s=-\frac{a_n}{n(n-1)} .
+\tag{105}
+$$
+在$n=6$处用第一式，其他$6\mid n\le p-5$处用第二式。
+其非零分母均小于$p$；$p$为惰性素数也不等于7。
+第三式及指数展开到这个阶数只再出现小于$p$的阶乘。
+于是$d_{j,p-1}$为$p$整。
+这解释了为何需要的是真正首$p$行；
+并未声称任意高 Taylor 窗口具有相同整性。
+
+(89)、(104)表明$U_{j,p}$在同一个固定有限坏集外为单位。
+$(p-1)!$也为单位。因此(90)在每个系数素位给
+$$
+v_p(\mathcal T_{j,p}^{\,g})=v_p(d_{j,p-1}) .
+\tag{106}
+$$
+结合(88)，更加完整的残余平方为
+$$
+\boxed{
+\overline h_{j,p}^{\,2}
+ =-27\,\overline\alpha_p^{\,2}\overline a_{j,p}^{-2}
+   [L:H]^2\,
+   \overline U_{j,p}
+   \bigl((p-1)!\,\overline d_{j,p-1}\bigr)^2 .
+}
+\tag{107}
+$$
+原$[L:H]$、Artin 基及其固定有限例外均保留；
+$\delta^2=-3$给出$-27$。这证明(91)–(92)。
+
+### 13.7 对原完成标准的准确作用
+
+本节把惰性原最高扩张的残余非零准确接到
+R806 的同一个 type4 来源和同一个$p-1$系数。
+R806 中原三条线、全部 Schwartz 型、原17缩放及首阶4规范都不改。
+既有公开 PB4 第一$p$行计算可据此直接消费，不需要重新计算54个 CM 点。
+[原$p=29$回执笔记](../notes/2026-11-27-original-type4-inert29-coefficient.md)
+§4保全部实际 source/run/job/hash及整行，§5保三条 Hecke 线的
+原$z^4$整归一与 Frobenius 平方三循环。
+该笔记已经证明这个固定素数的三个$d_{j,28}$为单位；
+本节不以此替代$p=29$是否避开(89)固定坏集的核定，
+也不替代该素数的新增 NS 格条件。
+
+但(90)并未证明这些原行在无穷多个$p$为单位。
+某个固定$p$的完整行单位，也不能外推未给上界的$q_0$，
+或直接给原$h_{j,p}$赋值。
+此外，得到(92)的最高$H^3$类非零以后，
+还须把它与原固定 rank-two 曲线所消费的真正 canonical
+$J_p$及通常全 Selmer/Sha 桥相接。
+本节未删 R806(41)–(43)的真实线性组合和外项，
+也未把“三条最高类”直接改称 rank-two 中央导数。
+
+本节无新数学运行。所用主源是
+M.-L. Hsieh，*Special values of anticyclotomic Rankin–Selberg
+L-functions*，Documenta Math.19 (2014)，
+Proposition2.1（印刷720页）、Proposition3.3（727页）、
+§§1.1、2.2、3.6.3与(5.1)；
+[出版社全文](https://content.ems.press/assets/public/full-texts/serials/dm/19/8965392/online/10.4171-dm-462.pdf)。
+全有限型另由 R991、R1006 的已付实际模型重算；
+固定 type4 平方与周期分别使用
+[R806](R806-original-type-four-order-eighteen-and-negative-two-katz.md)、
+[R735](R735-two-type-five-schwartz-and-rank-one-negative-moments.md)；
+固定$\gamma_j$仅用
+[R1002](R1002-beta27-katz-nonzero-at-every-split-prime.md)和其原 R994 输入。

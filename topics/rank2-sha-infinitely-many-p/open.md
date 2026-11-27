@@ -72,3 +72,8 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 原full9惰性p中心diamond为−1、p²为+1；Coleman r1唯一性和KS给B1G=a_pG/p=0，完整p+1回返路径保留后B2G=(p+1)G/p。canonical上行V²每条归一回程严格p⁻²G，全部p(p+1)项恰抵消G^[p]=G−V²G，原imprimitive完整depleted范数为0。未depleted原degree34p²修正图的raw AJ全范数却严格p(p+1)AJ(Yj0)，故p⁻²归一后是同一个I_j,p，原Artin下降后恰h_j,p。全54/η/Cor/full9逐项保留，不套primitive角色定理，不把形式两项系数导数冒作解析权导数。 后继从这份未删项的原塔继续实际中央类比较；当前没有h非零或通常Sha新结论。
 
 固定29原完整行已进一步给三条原D_j的次数28系数全为单位，见消费者§5；尚无跨素数非零、原29整格或通常Sha结论。
+
+
+### 原toric/type4比较已闭，继续同一行和通常Sha桥
+
+原完整toric平方严格为 (Tg_jp)²=U_jp((p−1)!d_j,p−1)²，U=2ω3^(p+1)34²c_jγ_jρ^(2p−1)，γ_j=L(β_j,1)/Ω固定非零代数、ρ=ε0⁻¹2⁻¹/³保原9级。完整3处Gauss/Fricke相位及2/17实际权因子、无穷平移、体积、阶乘与目标p处球Euler全部支付；原p局部L和积分同为p²/(p+1)²并精确相消。原x/σ递推只用到p−5，给d_j,p−1整；固定坏集外U单位，从而原hbar非零准确等价同一R806 d_j,p−1模p非零，h识别仍需p>q0。无穷p非零及到rank2通常全Sha的原canonical桥仍开。 此节完成上文曾列的全type4/period/阶乘比较；下一使用已证明的原R855/R856完整热递推和固定水平theta cover，研究同一PB4三维完整首p行，不重做有限热连接或用零p-curvature替代该行。负二Newton的实际来源与其高权signed整格另同步核定；不把HT(2,−1)的高权类改称椭圆T_E。

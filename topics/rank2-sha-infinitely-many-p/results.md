@@ -24,3 +24,5 @@
 - [原惰性p²完整范数](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)：原full9惰性p中心diamond为−1、p²为+1；Coleman r1唯一性和KS给B1G=a_pG/p=0，完整p+1回返路径保留后B2G=(p+1)G/p。canonical上行V²每条归一回程严格p⁻²G，全部p(p+1)项恰抵消G^[p]=G−V²G，原imprimitive完整depleted范数为0。未depleted原degree34p²修正图的raw AJ全范数却严格p(p+1)AJ(Yj0)，故p⁻²归一后是同一个I_j,p，原Artin下降后恰h_j,p。全54/η/Cor/full9逐项保留，不套primitive角色定理，不把形式两项系数导数冒作解析权导数。
 
 - [固定29消费者§5](notes/2026-11-27-original-type4-inert29-coefficient.md)：29处进一步由原CM13的prime-to29完整Miller/trace整性与T³+ω在F29²不可约，三个整谱幂等元被Frob29²循环置换。原Q0的z4总首项136/13122为单位，故三个z4归一量全单位；实际z28总读数17⁴·20为单位，故三个原D4,17/D10,17/D16,17的z28系数全部为29单位。只用本次已消费首列与原几何恒等，不重算CM13，不预付toric周期或q0。
+
+- [R1049§13](results/R1049-original-inert-syntomic-graphs-and-crystalline-lattice.md)：原完整toric平方严格为 (Tg_jp)²=U_jp((p−1)!d_j,p−1)²，U=2ω3^(p+1)34²c_jγ_jρ^(2p−1)，γ_j=L(β_j,1)/Ω固定非零代数、ρ=ε0⁻¹2⁻¹/³保原9级。完整3处Gauss/Fricke相位及2/17实际权因子、无穷平移、体积、阶乘与目标p处球Euler全部支付；原p局部L和积分同为p²/(p+1)²并精确相消。原x/σ递推只用到p−5，给d_j,p−1整；固定坏集外U单位，从而原hbar非零准确等价同一R806 d_j,p−1模p非零，h识别仍需p>q0。无穷p非零及到rank2通常全Sha的原canonical桥仍开。
