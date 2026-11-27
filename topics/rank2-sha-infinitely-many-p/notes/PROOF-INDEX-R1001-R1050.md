@@ -163,3 +163,5 @@
 
 
 - [R1044](../results/R1044-original-common-norm3913-frame-and-pure-canonical-companion.md)：R1044用真实R=K+ωA整输出消掉整个Ξ1，Ξ0准确为δ*(-xyσ5)，没有额外ω相位。原共同整F的范数3913，C=(23−δ)H；D5509及114E的两个standard odd全核经实际CRT与σ锚都为β。固定六次Q保整个四输出和三条未平均canonical行；只需H/J/N三角平均时另给纯Φ126完整行。原网格T−S差准确赋值n，全补域仍保持。 (18)/(26)是全核；(28)与(30)是不同来源的真实许可，不能逐支互换。
+\n
+- R1039§10：R1039§10把真实cyclic24商的完整负Norm证明推广到任意24|M：无穷ss有理q满足−q为模M单位平方。M=24p、p≡3mod4给m=(p−1)/2奇及Q=q^m≡−1mod24p，F_Q=(-q)^((m−1)/2)F_q。但原整NS已在Fq²定义，所有扩域除子经Pic0/垂直零限制后给同一完整η/Cor shadow，仍被q+1杀；p∤q+1时其p部仍零。原ring-class素位阶不能改写为Q+1，Pell新单位亦是原单位的(Q+1)/(q+1)次幂。 该候选完整消费，不把形式素数幂条件当原ordinary非零。

@@ -42,7 +42,7 @@ R1002只付Kβ，原AJ²=KνKβ的ν未付；全54/27图、eta/Cor和全部权�
 
 q5旧shadow倒6全零。q11全D run45968889219/job140404155125/source3d702b7bc21923e82270953022b09b0950bb4adf与原两cover45972624090/job140416498782/sourcec5020fcd7f026ef21d4b69735b3a47b56148d258已全返；唯一Q高22/3，D类Z4四挠/2Z4=P2，MW=(11/3)A2、NS−121、两Br0及W符号齐。旧shadow倒6仍零；一般jW稳定k线入口已排。必要原坐标在两cover笔记§7，不能重搜。
 
-R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞−D0=r*(1,−3)非挠、FQ双Norm/S4 sign局部系全部付。§§7–9用真实实cyclic24商j域/完整核轨道/Elkies负整数Norm手证无穷q≡−1mod24且EL超奇异，原全Jac F²=−q，sqrt3边界本身Fq有理。阶24用本原实周期；不代q+1无穷素因子或目标p无穷。
+R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞−D0=r*(1,−3)非挠、FQ双Norm/S4 sign局部系全部付。§§7–9用真实实cyclic24商j域/完整核轨道/Elkies负整数Norm手证无穷q≡−1mod24且EL超奇异，原全Jac F²=−q，sqrt3边界本身Fq有理。阶24用本原实周期。§10任意cyclicM给−q模M平方及形式奇次Q≡−1modp；但全NS扩域后原η/Cor shadow仍被旧q+1杀，不能由p|Q+1制造p部或替代原素位。
 
 R1041原四谱Q6/fullincidence/Pell/双Norm/ODE已付，原FQ全极及εprod严格分两三挠交。原rΓ边界为P=(1,3)，完整Norm给M(O)=1及指定P的Miller函数。q11全Prym/指定半类实际全返，AQ=−G阶16；一般halving/ψ2主除子给4AQ=−P、全二分Norm=t³(1−27t)。所有坏纤维/厚闭点及run/source/hash在原文和两笔记，不重算。§§17–20付第二四度图Φ、Miller修正J和4ηprim=Φ*dlogM+dlogJ；Cartier由a_q(EL)控制；完整tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。无权入口关闭，原逐CM权/eta/Cor/最高λ不因此消去。
 
