@@ -6,18 +6,20 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `69778bb2097bd112b599f45d8fb7fbb567d34e28`（2026-11-27 06:25UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
-- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；05:57UTC实际pull至98dc41b3886e454c03b537ec21529497936ad0e6，两README差异空、QUEUE仍本会话进行中。令牌只命令行/进程认证，不落文件。
+- 公开根/课题 README 已读至 `814c3e38b7f9ae2cae883440424aed33610aaa29`（2026-11-27 06:47UTC实际pull --rebase；两README差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；06:47UTC实际pull至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README差异空、QUEUE仍本会话进行中。令牌只命令行/进程认证，不落文件。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
-- [此次完整逐字归档](notes/2026-11-27-handoff-before-saturated-beta.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
+- [此次完整逐字归档](notes/2026-11-27-handoff-before-complete-projector.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
-v8 run45882239615/job140124138541在01:05:47UTC数学21000s timeout124、01:05:50 job failure；正三块及负首块全厚已过，停负第二块Frob169/306。完整终log/SHA和全部原门见归档及终点链；非四交/全Norm/shadow PASS。
+v8 run45882239615/job140124138541于01:05:47UTC数学21000s timeout124，01:05:50 failure；全失败范围/source/hash在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)，非四交/全Norm/shadow PASS。
 
-R1008/R975/R986全后继保原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9、21000s/360min、人工API false。唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学自01:10:41UTC运行。两char0真认证、306Frob约1.78秒；06:01只读collector实际取得原log27312505B/SHA22371d0d…c094aff7，尾05:52:25到original cubic branching:positive/base-prime0/whole local primary factor3的Hermite225/306，原job仍运行。collector run45949222673/job140340910080只读、不重算；完整终点JSON仍空，不是四交/全Norm/shadow PASS。全部旧快照/403读取故障及新source/hash见[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
+唯一v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，数学自01:10:41UTC。原49源/两char0 pins/Sage10.6/r29/q2453/batch64/minimal/两图七式四交18×9、21000s/360min及人工API false全保。06:29第七只读run45952136806/job140350212654取得原log31514035B/SHAeef3c1ab…ae0ff59，尾06:25:55至cubic branching负向/base-prime0/actual maximal ideal1的Hermite138/306；原job仍运行，终点数学JSON空。全部七快照见终点链。
 
-R982/983/R987/R993/R992全部原门真PASS；R992 run45907263972全13核残差、R994 run45907264125三β27复L(1)>0及完整尾<2^-180的全部source/job/hash见结果和归档。
+R1033已付原剩余映射的完整核及整个厚商的后缀Krylov Hermite；全部306坐标/nilpotent和H=CI+H(1−e)双包含保齐。新helper/outer/host及未激活v10请求已备，旧49源全保并加3源；只静态AST/哈希，未运行数学、未动v9触发。待v9真正终态再消费并决定后继；不得由源码正确性记实际shadow PASS。
+
+R982/983/R987/R993/R992全部原门真PASS；R992 run45907263972全13核残差、R994 run45907264125三β27复L(1)>0及完整尾<2^-180的source/job/hash见结果及归档。
 
 ## 二、原中央及实际后继
 

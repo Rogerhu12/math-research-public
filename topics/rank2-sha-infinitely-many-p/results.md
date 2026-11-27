@@ -213,3 +213,5 @@
 - [R1031](results/R1031-original-two-selmer-cover-and-canonical-frobenius-bundle.md)：所有惰性q≥5的原E及常数−3扭曲，完整二Selmer准确为规范gq的一维Norm核；全部坏处奇分量的真实局部条件已付。仅在已付Tate的大q范围，将最短anti Q的模2类锁定为gq并得twist Sha[2]=0。真正两二次式覆盖、Norm及全返回坐标、稳定V/W的固定theta截面与R0平移/Fq下降全部明确；原Frob三列含gq^((q−1)/2)并保完整trace配对。未由Selmer或束同构冒成一般Q/原27对非零，继续真实谱乘法。
 
 - [R1032](results/R1032-saturated-three-torsion-beta-and-complete-thirtynine-return.md)：新特征零β=X/(X+4)的完整39支保持原中央K=5s−2；末两窗全Lucas饱和β^(p²)，实际δ-old/new分别返g与rS^(p²)T_S^130G，消去共同Fp槽。原H_G为固定整degree130源，even/odd全型保留且odd图单射。新增±S主部、全部原点留数/两exact/aZ与九维第三Cartier边界齐；真实四阶G极费和最后四b补项明确保留。旧/新差的1+Kp只在native O平坦，未把合法表示或裸单位当作canonical forcing。
+
+- [R1033](results/R1033-complete-residue-and-thick-projector-hermite-return.md)：原剩余映射用右端独立行给完整多项式核；原厚幂等商保所有nilpotent，以后缀Krylov给完整Hermite并实际验H=CI+H(1−e)双包含。新helper/外层/host只替原两个理想构造器，保v9全部原门和52源；仅文本/AST/哈希，未数学执行，未激活请求或打断唯一v9。
