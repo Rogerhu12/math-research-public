@@ -432,3 +432,309 @@ $I_3$ compact block 消失，不能用于删掉此项；
 - Loïc Merel，*Universal Fourier expansions of modular forms*，Lecture Notes in Mathematics 1585 (1994), 59–94；[作者全文](https://perso.imj-prg.fr/wp-content/uploads/merel-pub/Essen.pdf)。本文亲读其 §1.1 的 adjugate coefficient action、Proposition 1 的 Manin relations、Proposition 6 的 boundary、§2.1 Theorem 4 与 Proposition 11，以及 introduction Theorem 2 的完整 universal Hecke 元。作者稿的对应印刷页为 4、9、16–18。
 
 上述低权关系与全部常数在本文逐式自证；没有调用数值计算。保留的下一项是原 $\Psi(c_{\mathrm{Eis}},0)$ 的实际值及其与所需高 cochain 的关系。本文不从来源缩小推原 cup 零，不从 cup 归约推全局有理点分类。
+
+
+## 10. 指定端点的真实 degree-p norm 与 p-isogeny 两槽
+
+本节仍取 $n>3$、$n\ne p$ 为辅助素数，所有 theta 使用 SV §6.3.1
+(6.5)–(6.6) 的 trace-fixed 规范。以下只对 degree-$p$ map 取真实 norm，
+从不反除 $p$。
+
+### 10.1 不留下未知 base 常数的 theta norm
+
+令 $\pi:E\to E'$ 为 cyclic degree-$p$ isogeny，$C\subset E[n]$。
+因为 $(n,p)=1$，$\pi$ 将 $E[n]$ 同构到 $E'[n]$，并将 $C$ 同构到 $\pi C$。
+pushforward 原 theta divisor 给
+$$
+\pi_*\bigl(n^2[O]-[E[n]]\bigr)
+ =n^2[O']-[E'[n]],\qquad
+\pi_*\bigl(n[C]-[E[n]]\bigr)
+ =n[\pi C]-[E'[n]].
+\tag{1140.39}
+$$
+所以 norm 与对应 target theta 至多相差 base 的 $K_1$ 类。
+norm 与所有 $[s]_*$ 交换，故此差仍 trace fixed。
+对 base 类，$[s]_*$ 是乘 $s^2$；因而差被全部 $s^2-1$ 杀掉。
+SV 脚注 19 的 gcd 论证给该 gcd 整除 $24$。
+在 $\mathbb Z_{(p)}$ 中 $24$ 可逆，所以差严格为零：
+$$
+\operatorname{Nm}_{\pi}\theta_{n,E}=\theta_{n,E'},
+\qquad
+\operatorname{Nm}_{\pi}\theta'_{n,C,E}
+ =\theta'_{n,\pi C,E'}.
+\tag{1140.40}
+$$
+也可先限制 $s$ 与 $6np$ 互素；CRT 仍使其 gcd 整除 $24$。
+这保留了原规范，不把两个 fiber divisors 相等误写成无常数等式。
+若使用实际函数代表，则唯一余差为 prime-to-$p$ torsion，
+在所用 $K_1/p$ 中同样为零。
+
+### 10.2 固定 Q 的 p 个实际 first-slot 点
+
+在 $Y_1(p)_K$ 上取原 $(E,Q)$，令
+$$
+\pi_Q:E\longrightarrow E_Q=E/\langle Q\rangle.
+$$
+固定 $\zeta=\zeta_p$。对任一 $P$ 满足 $e_p(P,Q)=\zeta$，
+$$
+Q^\vee=\pi_Q(P)\in\ker\widehat\pi_Q
+\tag{1140.41}
+$$
+与 $P$ 的选择无关，因为全部选择正是 $P+\langle Q\rangle$。
+它由 $Q$、$\zeta$ 及 Cartier duality 唯一给出，所以定义在同一
+$Y_1(p)_K$ 上。这不是另外选择一个未规范的 dual generator。
+
+定义
+$$
+\begin{aligned}
+\mathcal B_n^{\rm iso}(E,Q)
+={}&\{\theta_{n,E_Q}(Q^\vee),\theta_{n,E}(Q)\}\\
+&-\sum_{C\subset E[n]\ {\rm cyclic}}
+ \operatorname{Cor}_C
+ \{\theta'_{n,\pi_QC,E_Q}(Q^\vee),
+   \theta'_{n,C,E}(Q)\}.
+\end{aligned}
+\tag{1140.42}
+$$
+求和仍按真实 closed subgroup 及其 residue field 作 corestriction。
+两个被评值点均有阶 $p$，因而避开全部 $n$-torsion 支撑。
+
+由 projection formula、(1140.40) 及 cyclic-$n$ base change 与
+degree-$p$ norm 的交换，
+$$
+\boxed{\quad
+ \sum_{\substack{P\in E[p]\\e_p(P,Q)=\zeta}}
+       B_n(P,Q)=\mathcal B_n^{\rm iso}(E,Q).
+ \quad}
+\tag{1140.43}
+$$
+左边是原 full-level 至固定 $Q$ 的 degree-$p$ norm；
+它没有被除以 cover degree。第二行的整个 cyclic correlation
+在这一 norm 下逐项保留。
+
+### 10.3 Fricke 交换的确切号及其限制
+
+令 $W_\zeta(E,Q)=(E_Q,Q^\vee)$。
+在第二次 quotient 后以 dual isogeny 识别回 $E$，
+新的 dual generator 为 $-Q$。确切地，若 $R$ 满足
+$e_p(R,Q^\vee)=\zeta$，则 Weil pairing 相容给
+$e_p(P,\widehat\pi_QR)=\zeta^{-1}$，所以
+$\widehat\pi_QR=-Q$。
+两 theta 都偶，因此
+$$
+W_\zeta^*\mathcal B_n^{\rm iso}
+ =-\mathcal B_n^{\rm iso}.
+\tag{1140.44}
+$$
+这同时交换全部 $C$ 与 $\pi_QC$，没有删除 norm 项。
+
+对 $u,v\in\mathbb F_p^\times$，用
+$\mathcal B_n^{u,v}(E,Q)$ 表示 (1140.42) 中
+$Q^\vee,Q$ 分别换成 $uQ^\vee,vQ$ 的完整符号。
+则更准确的式子是
+$$
+W_\zeta^*\mathcal B_n^{u,v}=-\mathcal B_n^{v,u}.
+\tag{1140.45}
+$$
+所以带不同双权的和不因 (1140.44) 自动为零。
+
+## 11. 原一次 Galois 投影给出的准确双权 4、8
+
+将 (1140.43) 代入 (1140.4) 的实际 theta 读数。
+在原 full-level field 上，
+$$
+\mathfrak z_{n,X}(c_{\mathrm{Eis}})
+ =\frac1{2m^2}\sum_{Q\in E[p]\setminus\{0\}}
+       N(Q)^2\mathcal B_n^{\rm iso}(E,Q).
+\tag{1140.46}
+$$
+本式按原 $H$ transfer 的 restriction 理解；
+R1136 (F17) 使其与原 $X$ 上的读数完全一致。
+
+在 full-level lift 上，原 $\sigma_d$ 同时把
+$\zeta$ 送到 $\zeta^d$、$Q$ 送到 $b_dQ$。
+重指标 $Q'=b_dQ$ 给 $N(Q)^2=d^{-2}N(Q')^2$。
+而将 $\zeta$ 换成 $\zeta^d$ 把 (1140.41) 的 dual generator 乘 $d$。
+故 $e_\theta$、$\theta=\omega^{-6}$ 的权准确为
+$$
+d^6d^{-2}=d^4.
+\tag{1140.47}
+$$
+不能只改变 Weil root 而漏掉 Cartan 重标的 $d^{-2}$。
+
+每条 $\mathbb F_p$-line $L\subset E[p]$ 选 $Q_L\ne0$。
+写 $Q=tQ_L$ 时，quotient 不变而
+$Q^\vee=t^{-1}Q_L^\vee$。
+置 $u=d/t,\ v=t$，则
+$$
+d^4t^4=u^4v^8.
+\tag{1140.48}
+$$
+结合 $\Psi_n(c,0)=2(p-1)e_\theta\mathfrak z_{n,X}(c)$，
+$1/2$ 与 $p-1$ 都按原定义抵消，得到
+$$
+\boxed{\quad
+\Psi_n(c_{\mathrm{Eis}},0)
+ =\frac1{m^2}\,
+ \mathcal T\!\left(\mathcal R_n^{4,8}\right),
+\quad
+\mathcal R_n^{4,8}
+ =\sum_{u,v\ne0}u^4v^8\,\mathcal B_n^{u,v}.
+\quad}
+\tag{1140.49}
+$$
+这里 $\mathcal T$ 是以下实际 weighted pull–trace：
+对 diamond-$t^{-4}$ 的 $Y_1(p)_K$ 类 $D$，
+$$
+\mathcal T(D)=\frac1{p+1}
+ \operatorname{Cor}_{K(Z)/K(X)}
+ \sum_{L}N(Q_L)^2\,\pi_L^*D.
+\tag{1140.50}
+$$
+$\pi_L$ 忘到 $(E,Q_L)$；选择 $Q_L\mapsto tQ_L$ 时，
+权乘 $t^4$、$D$ 乘 $t^{-4}$，故不依赖生成元。
+整个和在原 $H$ 下不变；(1140.50) 只除 prime-to-$p$ 的 $p+1$。
+
+式 (1140.45) 把双权 $(4,8)$ 交换成 $(8,4)$ 并取负。
+它没有将 (1140.49) 的指定权变成其自身，因此不能据 Fricke 号将它设零。
+
+## 12. 同一 p-isogeny 来源的两个实际单位与完整算子
+
+### 12.1 单线单位类，不使用 1/p Siegel 代表
+
+在 $Y_1(p)_K$ 上，对 $r=4,8$ 定义
+$$
+\mathcal L_r f=\sum_{t\ne0}t^r[f(tQ)],
+\qquad
+\kappa_r(c)=c^2-c^{-r}.
+$$
+各权先取 augmentation-zero 整数提升，再约模 $p$。
+选择 primitive residue class 中的共同辅助素数 $c>3$、
+$c\ne n,p$；因为 $p-1>10$，两个 $\kappa_r(c)$ 都非零。
+置
+$$
+\mathcal G_r=\kappa_r(c)^{-1}\mathcal L_r\theta_c.
+\tag{1140.51}
+$$
+两 auxiliary-theta divisor 的比较给
+$\kappa_r(d)\mathcal L_r\theta_c
+ =\kappa_r(c)\mathcal L_r\theta_d$；
+共同 base factor 由 augmentation 消去。
+因此 (1140.51) 不依赖 $c$。
+它是原 theta 的实际 $K_1/p$ 类，未使用 $1/p$ 的有理 Siegel 单位。
+$\mathcal G_r$ 是本节单线类，不应与原全向量 $G_\chi$ 混名。
+
+定义两个真实槽
+$$
+A=W_\zeta^*\mathcal G_4,\qquad B=\mathcal G_8,\qquad D=\{A,B\}.
+\tag{1140.52}
+$$
+diamond $t$ 对 $A,B$ 分别作用 $t^4,t^{-8}$，所以 $D$ 的
+diamond 为 $t^{-4}$，满足 (1140.50) 的确切条件。
+对 $K$ 的自然常数作用、保持 $(E,Q)$ 不动时，
+$\sigma_d^0A=d^{-4}A$、$\sigma_d^0B=B$。
+再加 (1140.50) 的 Cartan 重标 $d^{-2}$，得到
+$$
+\sigma_d\mathcal T(D)=d^{-6}\mathcal T(D).
+\tag{1140.53}
+$$
+这是原 target 的 $\theta$ 角色；没有漏掉第二个 root/marking 因子。
+
+### 12.2 fixed-Weil quotient 中必要的 n 因子
+
+令 $T_n^Y=\phi_*q^*$ 是 $Y_1(p)_K$ 上固定 $\zeta$ 的通常
+degree-$n$ correspondence。在相应 square 中，
+$p$-dual generator 的真实运输满足
+$$
+q(Q^\vee)=n\,Q_{\rm target}^\vee.
+\tag{1140.54}
+$$
+因为 degree-$n$ isogeny 将 Weil pairing 乘为 $\zeta^n$，
+而 target generator 仍以 $\zeta$ 规范。
+权 $t^4$ 重标给 $n^{-4}$。
+因此，R1138 同一 divisor 比较在两槽分别为
+$$
+\mathcal L_4\theta'_{n,\pi_QC,E_Q}
+ =n^{-4}(nA'-A),\qquad
+\mathcal L_8\theta'_{n,C,E}
+ =nB'-n^{-8}B.
+\tag{1140.55}
+$$
+$A',B'$ 为 fixed-$\zeta$ target 的实际 pullback。
+相同 single-slot norm 给
+$$
+T_n^Y A=(n^5+1)A,\qquad
+T_n^Y B=(n+n^{-8})B.
+\tag{1140.56}
+$$
+例如第一式先在 physical generator 上是
+$n^{-4}T_n^YA=(n+n^{-4})A$；这一步不能省去 $n^{-4}$。
+
+### 12.3 全部 crossed 项合并，回到同一个原算子
+
+用 (1140.55) 展开 (1140.49) 中完整 correlation，并用
+(1140.56) 和 projection formula，得到
+$$
+\begin{aligned}
+\mathcal R_n^{4,8}
+={}&\Bigl[
+ (n^2-n^{-4})(n^2-n^{-8})
+ -n^{-2}T_n^Y\\
+&\hspace{6mm}
+ +n^{-11}(n^5+1)+n^{-3}(n+n^{-8})
+ -(n+1)n^{-12}
+ \Bigr]D\\
+={}&\boxed{\ (n^4-n^{-2}T_n^Y+n^{-11})D\ } .
+\end{aligned}
+\tag{1140.57}
+$$
+这与 R1138 一样是计算两个 crossed 项，未将它们逐个设零。
+
+最后，actual physical quotient 的 root 是 $\zeta^n$。
+故 Cartesian pull–trace square 给
+$$
+\widetilde T_n^X\mathcal T(D)
+ =\mathcal T(\sigma_n^0T_n^YD)
+ =n^{-4}\mathcal T(T_n^YD).
+$$
+由 (1140.53)，左侧又是 $n^{-6}T_n^X\mathcal T(D)$。
+因此准确的同源 twist 为
+$$
+\mathcal T(T_n^YD)=n^{-2}T_n^X\mathcal T(D).
+\tag{1140.58}
+$$
+本式是对具体类及其 stable character space 的实际 moduli
+pull–trace 证明，不把一个 characteristic-zero twisting matrix
+直接约模 $p$。
+
+综合 (1140.49)、(1140.57)、(1140.58)：
+$$
+\boxed{\quad
+\Psi_n(c_{\mathrm{Eis}},0)
+ =\frac1{m^2}
+ (n^4-n^{-4}T_n^X+n^{-11})\,
+        \mathcal T\{W_\zeta^*\mathcal G_4,\mathcal G_8\}.
+\quad}
+\tag{1140.59}
+$$
+故 (1140.33) 中无条件定义的端点部分有完全具体的式子
+$$
+\boxed{\quad
+\beta_{\mathrm{Eis}}
+ =\frac{16\delta^2}{21m^2v_0}\,
+ V_{n_0}\mathcal T
+       \{W_\zeta^*\mathcal G_4,\mathcal G_8\}.
+\quad}
+\tag{1140.60}
+$$
+这里仍保实际 $V_{n_0}$ 投影，不能从 (1140.59) 直接在整个
+field $K_2/p$ 上反除它，也没有先宣布
+$\mathcal T\{W_\zeta^*\mathcal G_4,\mathcal G_8\}$ 本身有完整 proper lift。
+(1140.60) 的左侧已有 §7 的实际紧致 lift；这正是当前已付范围。
+
+本后继亲读 SV §6.3.1 的 (6.5)–(6.6)、脚注 19
+（作者稿印刷第 57–58 页）及 Lemma 6.3.1；
+degree-$p$ distribution 由 (1140.39)–(1140.40) 在原函数上直接证明。
+global_route 与 o2_high_coefficient 已分别核原 norm、Fricke 号、
+两次 Galois/Cartan 重标、$u^4v^8$、fixed-Weil 的 $n^{-4}$，
+以及 (1140.57)–(1140.58) 的完整系数。没有数学程序执行。

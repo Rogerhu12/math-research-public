@@ -532,3 +532,7 @@
 ### 2026-11-28 04:29 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1141把原低权端点准确限制到原圆单位×原函数方向：全S={p} torsor与Hecke支撑、BrS零、完整Pic商、DVR/MW可除项的socle提升及ω5/ω10角色全部支付。
 - p∤Bp−5为明确前提；再低mixed门内有某个原全局常数twist的field杯积零，未定标量、不宣proper H²零或四阶cover。root纸推、o2核socle引理，primary Herbrand/Leray/全球Brauer亲读，无数学执行；继续具体端点与Picard cochain。
+
+### 2026-11-28 04:31 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1140 §§10–12将端点准确写成原p-isogeny两槽：degree-p norm不反除p，trace-fixed/gcd24付常数，Fricke仅交换4/8不强消，原Galois/Cartan重标给u⁴v⁸。
+- fixed-Weil dual generator的n因子、全部cross及trace intertwining回到原V_n；保投影和bare trace的proper边界。root亲读SV/纸核系数，o2 exact稿核，无数学执行；继续指定标量与原Picard障碍。

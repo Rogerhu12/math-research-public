@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：a289f69c3d1ec0e81bd2e766c8328cfe0b66039e**（2026-11-28 04:29 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：389f38e01ffe622e59428e91722df25ab6826655**（2026-11-28 04:31 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；04:21重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 05:21。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -32,6 +32,8 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 [R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)在R1136 F33门下付整个compact H²θ的单位理想：geom H²(2)=μp奇角色消，HS保Jacobian/base两层；F=E+(1−E)V/v给(F−1)²0，故(2−F)F=1。Pic/Br商及全部cusp均保，(4/m²)原cup=Ψ(c)准确无公共核歧义；指定Ψ(c)值与门外四阶仍开。
 
 [R1140](results/R1140-original-low-weight-Manin-source-reduction.md)对原j1,k2直接模p证明C¹=0、C²=(16δ²/21)C_Eis；实际J/apolar/三低权商及Merel完整Hecke给端点λℓ=ℓ⁻²+ℓ³。无Bernoulli门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)选unit，β_E=S_n/v_n而V_nβ₈0；两者均为真实compact像。p∤B16 B_(p−15)才删β₈；原端点值未零，不造F0。继续actual arithmetic endpoint/高cochains。
+
+R1140§§10–12再以真实degree-p norm（不除p）把端点写成p-isogeny两槽G₄/G₈；trace-fixed付24常数，原一次Galois/Cartan权为u⁴v⁸，fixed-Weil n⁻⁴与两cross给完整V_n。β_E=16δ² V_n₀𝒯{W*G₄,G₈}/(21m²v₀)；保V投影，不假bare trace proper。
 
 [R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时付原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}，允许零。原torsor延拓全S={p}，Hecke闭包保支撑；BrS0/完整Pic商、MW可除项及DVR π支付真实socle提升。Q下降为ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍与高cover不删。继续原p-isogeny端点标量/cochains。
 

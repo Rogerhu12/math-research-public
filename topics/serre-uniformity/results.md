@@ -126,3 +126,5 @@
 - R1135 §10（同文件）：已证明同原Gaussian coarse component两实际下降线的完整source/Weil/Kronecker/常数运输，Π′(z′)=Π(−z′)；既有低行纤维界现覆盖统一z∈Fp，Δ非零和剩余pair仍待付。
 
 - [R1141：原低权端点的算术支撑与实际圆单位杯积方向](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)：已证明p∤Bp−5时原arith-compact θ的I3像由{Fχ1,βχ2}张成（允许零），支付全部S支撑/Br–Pic/DVR socle；混合门内得到真实常数twist的field cup零，未知标量与proper H²仍保。
+
+- R1140 §§10–12（同文件）：已证明指定端点的真实degree-p norm/p-isogeny来源，trace-fixed常数、双权u⁴v⁸及fixed-Weil n⁻⁴均完整；得到保V_n₀投影的两个原单线单位的实际表达，不先宣bare trace proper。
