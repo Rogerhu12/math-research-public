@@ -38,7 +38,7 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 [原Gaussian norm2分布](notes/2026-11-27-original-Gaussian-norm-two-Kronecker-distribution.md)付同一$(1+i)$的完整Kronecker两极分布、真实平移相位与平方根分支；$y_k=5G_{p-3}=2a/\delta^3$为单位。N11/N12/N14保全部低层卷积及原good mask，尚未排R1116的指定内段同时零。
 
-[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付同一W_C的B简单谱、D³单Jordan、e=K4=0的严格短像iff及真实三平移；§6两端Green列全unit并保−4v/+4v残项。§§7–8给完整实际强迫d_r=γ binom(3k−1+r,2k)、d_r y⁻_r=γ，以及w_rΔz_r=3δγ(N−r)与左端值；原e₀=0迫两相邻原e_±1单位且e₁=−5e_−1。尚未接成原K4/primitive mask，短包含仍开，不占R1117。
+[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保原B简单谱/D³单Jordan、严格短像iff及三平移；两端Green和全法向列给e₀=0时e_±1单位、e₁=−5e_−1。§§9–10付完整M_(s,ℓ)反三角/Newton矩阵，原e与K4分别为同矩阵的R和移位R²读数（保零末行）；原Φ在半常数校正纯极基上准确反对角，指定U^m的全c_s及两jet有限和均含全项。相邻单位/矩阵完美性不代原短共同非零；继续真实消元，不占R1117。
 
 R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darboux因子与全部三阶jet carry；C=UD+V仅在明确W_C上半单，原U^m为唯一零列。每个实际列的relative Cartier读数e_ℓ给精确p−1系数；仍未付指定e/K4非同时零。
 

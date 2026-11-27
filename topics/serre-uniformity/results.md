@@ -4,7 +4,7 @@
 
 - **完整T链预算界限（计数方法范围已证明）**：[短纸注](notes/2026-11-27-good-character-chain-budget-boundary.md)：前驱闭合的长度一/二链给满足原判据和总irregular预算的形式mask，其可保证good数仅p/16+(log24/8)p/logp+O(1)。可保任意固定有限个已知单位；不宣实际Bernoulli模式可实现，继续实际源约束。
 
-- **原Lamé完整法向列（已证明，续稿§§7–8）**：[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付同一W_C的B简单谱、D³单Jordan、e=K4=0的严格短像iff及真实三平移；§6两端Green列全unit并保−4v/+4v残项。§§7–8给完整实际强迫d_r=γ binom(3k−1+r,2k)、d_r y⁻_r=γ，以及w_rΔz_r=3δγ(N−r)与左端值；原e₀=0迫两相邻原e_±1单位且e₁=−5e_−1。尚未接成原K4/primitive mask，短包含仍开，不占R1117。
+- **原Lamé完整双读数（已证明，续稿§§9–10）**：[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保原B简单谱/D³单Jordan、严格短像iff及三平移；两端Green和全法向列给e₀=0时e_±1单位、e₁=−5e_−1。§§9–10付完整M_(s,ℓ)反三角/Newton矩阵，原e与K4分别为同矩阵的R和移位R²读数（保零末行）；原Φ在半常数校正纯极基上准确反对角，指定U^m的全c_s及两jet有限和均含全项。相邻单位/矩阵完美性不代原短共同非零；继续真实消元，不占R1117。
 
 - **R1128（已证明）**：[原全素数线性good秩](results/R1128-all-prime-linear-good-cuspidal-rank.md)：完整原V的低偶角色ω^r出现 iff p|B_(p+1−2r)；与forced高角色作不交配对，两bad消耗两个irregular指标。全部p>37实际good维数≥floor(p/16)+3，更精确渐近p/16+(log24/8)p/logp−O(1)，原étale覆盖degree相应≥p^(floor(p/16)+3)。保原p-only同构，无regular/Vandiver；尚不付有效辅助素或同点像排除。
 

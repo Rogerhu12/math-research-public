@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：35e20af71e6f3afec1bc711cf740f2c855ae5e34**（2026-11-27 22:05 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：9b0c75a4a65832c613ca5bcfd0126b9f7913ba6f**（2026-11-27 22:08 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；21:59再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -40,7 +40,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)付原X108六CM输入的全部十五对Raynaud配对，目标保十维；真实R/I/σ和p逆半线性准确给A/S/T三有限和及完整表。原S_n仍为gd/uv通道；六阶Pfaffian恒零且不含S，不能从此或非CM普通性推出S单位。后继沿真实gd=c²、uv=h²及primitive求高阶约束。
 
-[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)付同一W_C的B简单谱、D³单Jordan、e=K4=0的严格短像iff及真实三平移；§6两端Green列全unit并保−4v/+4v残项。§§7–8给完整实际强迫d_r=γ binom(3k−1+r,2k)、d_r y⁻_r=γ，以及w_rΔz_r=3δγ(N−r)与左端值；原e₀=0迫两相邻原e_±1单位且e₁=−5e_−1。尚未接成原K4/primitive mask，短包含仍开，不占R1117。
+[原Lamé三对角续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保原B简单谱/D³单Jordan、严格短像iff及三平移；两端Green和全法向列给e₀=0时e_±1单位、e₁=−5e_−1。§§9–10付完整M_(s,ℓ)反三角/Newton矩阵，原e与K4分别为同矩阵的R和移位R²读数（保零末行）；原Φ在半常数校正纯极基上准确反对角，指定U^m的全c_s及两jet有限和均含全项。相邻单位/矩阵完美性不代原短共同非零；继续真实消元，不占R1117。
 
 [R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)付原有限Lamé全谱/jet边界、η_k=(16v²g0/(3δ))D_N(1)及g0单位；§§8–9保同一B/C准确作用域、Lax联合简单谱、三Darboux因子与全部carry。e=0时K4的三项均保；特定e/K4非同时零仍开。
 

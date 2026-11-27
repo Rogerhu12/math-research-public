@@ -408,3 +408,224 @@ $$
 原共同零条件仍为 (T7)--(T9)；下一步需要支付 (T22) 与原 $J_4$ 或同一短子空间的准确接口。
 
 root/o1_theta/o2_high_coefficient 独立纸核 §§7–8：同一相对 Cartier/全H边界、唯一指数、系数多项式恒等式、所有单位与Green两端残项均保留；旧 §§1–6 逐字保留。无数学程序执行。
+
+
+## 9. 全部矩列及原平方读数：保留乘法后的移位
+
+对 $0\le s\le2k-1$、$1\le\ell\le2k-1$，定义同一相对 Cartier 的标量
+$$
+M_{s,\ell}=\frac{C_{\rm rel}(U^{3s+1}F_\ell\omega)}{\omega'}.
+$$
+其完整闭式是
+$$
+\boxed{\quad
+M_{s,\ell}=(2v)^{2k+2s}
+ \binom{4k-1+s-\ell}{2k+2s}.
+\quad}
+\tag{T24}
+$$
+这里的 Cartier 输出确为常数乘 $\omega'$，不先假设高极输入仍属于旧 $\Phi$。
+直接把 (T18) 的分子分别再乘 $(V^2-v^2)^s$，得
+$$
+U^{3s+1}F_\ell\omega
+=\left(\frac1{3U^2}\right)^p
+ (V-v)^{4k-1+s-\ell}(V+v)^{4k-1+s+\ell}\,dV.
+$$
+分子次数至多 $12k-4=2p-2$，故仍只读 $V^{p-1}$。
+反转系数后被读的次数为 $2k+2s\le p-1$；用 (T19)，其中
+$n=2k+2s-1$，便给 (T24)，所有整数分母都小于 $p$。
+
+因二项式上指标非负且严格小于 $p$，
+$$
+M_{s,\ell}=0
+\quad\Longleftrightarrow\quad
+\ell>2k-1-s.
+$$
+所以 $s=0,\ldots,2k-2$ 与 $\ell=1,\ldots,2k-1$ 的方阵是反三角单位阵型：
+反对角线上二项式恰为一。最后一行 $s=2k-1$ 则全零。
+这明确保留了原高次乘积的最后边界行。
+
+它也可按真正的 Newton 基写为
+$$
+\frac{M_{s,\ell}}{M_{0,\ell}}
+=\frac{(4v^2)^s}{(2k+1)_{2s}}
+ \prod_{j=0}^{s-1}\bigl(\ell^2-(4k+j)^2\bigr).
+\tag{T25}
+$$
+这是把二项式商逐项展开，并用 $2k-1=-4k$ 于底域得到的恒等式。
+节点依次为 $(2k-1)^2,(2k-2)^2,\ldots$，彼此不同。
+它没有将原源改成任意插值多项式。
+
+写原
+$$
+\mathcal R=U^2R(U^3),\qquad R(X)=\sum_{j=0}^{N}r_jX^j.
+$$
+原全部一阶列和四阶所需平方列准确是
+$$
+\boxed{\quad
+\varepsilon_{k-\ell}
+ =6\ell v\sum_{j=0}^{N}r_jM_{j,\ell},
+\qquad
+\kappa_\ell:=\frac{C_{\rm rel}(F_\ell\mathcal R^2\omega)}{\omega'}
+ =\sum_{i,j=0}^{N}r_ir_jM_{i+j+1,\ell}.
+\quad}
+\tag{T26}
+$$
+第一式由 $D\mathcal R=\Psi$、
+$DF_\ell=-6\ell vF_\ell/U$ 和
+$C_{\rm rel}(d(F_\ell\mathcal R))=0$ 得到。
+原核的一阶式给
+$C_{\rm rel}(F_\ell\Psi\omega)=\varepsilon_{k-\ell}\omega'$；
+其第三类项乘 $\Phi g_{k-\ell}(-Q)=0$，所以这里没有省略非零正规常数。
+第二式只把
+$\mathcal R^2=\sum r_ir_jU^{3(i+j+1)+1}$
+展开，范围 $i+j+1\le2k-1$ 正好全在 (T24) 内。
+特别
+$$
+e=v\sum_{j=0}^{N}r_jM_{j,k},\qquad K_4=\kappa_k.
+$$
+因为 $M_{s,k}=0$ 当 $s\ge k$，原平方的读数只剩
+$i+j\le k-2$；这是已付零行造成的准确截断，不能把余下卷积再删去。
+(T24)--(T26) 支付了两次读数的同一完整矩阵，但矩阵的完美性本身仍不排 $e=K_4=0$。
+
+## 10. 原 $\Phi$ 的纯极基对调与目标两 jet 的完整有限和
+
+这一节用原 $O$ 处 additive 参数 $t$，仅消费低于 $p^2$ 的已付整精度。
+它不是把整个特征零 logarithm 或 $\zeta^p$ 无条件约化。
+在原 j0 模型中
+$$
+U(t)=t^{-2}+\sum_{d\ge4}(d-1)G_dt^{d-2},
+\qquad G_d=0\quad(d\not\equiv0\pmod6).
+$$
+对 $2\le r\le p-1$ 置
+$$
+q_r=\frac{(-1)^r}{(r-1)!}D^{r-2}U-(-1)^rG_r,
+\qquad p_r=q_r+\frac{G_r}{2}.
+$$
+当 $r=p-1$ 时这里的 $G_{p-1}=0$ 是 j0 角色给的精确零，
+不读取一般曲线的未整高权常数。
+逐项微分可见 $q_r=t^{-r}+O(t)$；所以
+$1,q_2,\ldots,q_{p-1}$ 是原 $V_0=L((p-1)O)$ 的纯极基。
+
+令 $\mathcal C_r$ 为同一 sigma 规范的 Appell 多项式：
+$$
+\mathcal C_r(X;U(P),V(P))
+=r![t^{r-1}]
+ e^{(X-\zeta(P))t}
+ \frac{\sigma(P+t)}{\sigma(P)\sigma(t)}.
+$$
+关于 $X$ 有
+$\partial_X\mathcal C_r=r\mathcal C_{r-1}$。
+原实际 Miller 核的 $O$ 首项及
+$D_T\log K=h_{-FR}(T)+\Psi(R)$
+给出其全部安全低 jet
+$$
+K(T,R)
+=t^{p-1}\sum_{j=0}^{p-1}
+ \frac{\mathcal C_j(\Psi(R);U(R)^p,V(R)^p)}{j!}\,t^j
+ +O(t^{2p-1}).
+\tag{T27}
+$$
+为核 source，取 $A=-FR$，原加法式准确为
+$h_A(T)=\zeta(T-A)-\zeta(T)+\zeta(A)$。
+因此 $t^p$ 乘上述 Appell 核具有同一对数导数和同一首项。
+在次数 $j<p$，系数由除以 $1,\ldots,p-1$ 唯一确定；
+可能的 $p$ 次单位歧义从 $j=p$ 才开始，未进入 (T27)。
+所需 sigma 权至 $p-1$；其唯一可能危险的末权在 j0 上由 $\mu_6$ 杀掉。
+实际 additive 坐标与整 eigen 坐标的首误差在远于 $2p-2$ 的范围，
+所以本次首极替换没有 R1079 所警示的高位 carry。
+
+由 $q_r=t^{-r}+O(t)$，相对 Cartier 在 $Z=O$ 的正规常数只读 (T27) 的 $j=r$ 项，得
+$$
+\Phi(q_r)
+=\frac{\mathcal C_r(\Psi;U^p,V^p)}{r!}.
+\tag{T28}
+$$
+这里底域常数保持不动；不能将相对 Cartier 的输出系数再取 $p$ 次根。
+
+在本 j0 模型中，完整有界 primitive 身份为
+$$
+D^{p-r-1}U
+=\frac{\mathcal C_r(\Psi;U^p,V^p)}{r!\delta^{r-1}},
+\qquad 2\le r\le p-1.
+\tag{T29}
+$$
+给出两个端点也适用的付款。
+用 R1079 的 $\Psi=\zeta_{<p}^{\,p}+\delta t$ 安全负次展开，
+Appell 原 sigma 分母使所有 $s\ge2$ 的
+$\mathcal C_s(\zeta(t);U(t),V(t))$ 在 $O$ 正规；
+唯一负次部分来自 $s=1$。
+故 (T29) 右边的极阶至多 $p+1-r$。
+误差最低阶至少为 $p^2-p(r-1)>0$，全范围仍安全。
+其 $D$ 导数是上一项，起点为已付 $D^{p-2}U=\Psi$。
+两边之差只能是常数：它是 $p$ 次幂、只在 $O$ 有低于 $2p$ 的极，而椭圆函数没有单极函数。
+
+奇数 $r$ 的常数由奇偶性杀掉。
+偶数 $r$ 满足 $4\le r\le p-3$ 时，R1075 的同权 theta-cycle 证明给
+$$
+G_{p+1-r}/(r-1)!=-\delta^{1-r}G_r.
+$$
+两边的权均至 $p-3$，所以该反射包括所有本次非零常数；
+两边常数项分别为 $(p-r)!G_{p+1-r}$ 和 $-\delta^{1-r}G_r$。
+$r=2$ 用 $G_{p-1}=0$；$r=p-2$ 为奇数且极阶至三；
+$r=p-1$ 的极阶至二，常数为 $G_2=G_{p-1}=0$。
+故不能只引用此前 Gaussian 写到 $p-3$ 的范围，但这两个 j0 端点确已补齐。
+
+合并 (T28)--(T29)，令
+$$
+a_r=(-1)^r(p-r)!\delta^{r-1},
+$$
+得到真正原基上的反对角式
+$$
+\boxed{\quad
+\Phi(q_r)=a_rq_{p+1-r}-G_r,\qquad
+\Phi(p_r)=a_rp_{p+1-r}.
+\quad}
+\tag{T30}
+$$
+其中 $a_rG_{p+1-r}=-G_r$；非零常数只在偶数 $r$ 出现。
+Wilson 给 $a_ra_{p+1-r}=(-1)^r$，与原 $\Phi^2=[-1]^*$ 完全相符。
+这不是由维数或同角色猜测的对调。
+
+最后把这一个原变换用于指定源，而不更换目标。
+置
+$$
+c_s=[t^{6s+1}]U(t)^{-1/2},\qquad 0\le s\le N.
+$$
+在全部负次范围内，
+$(t^2U)^m=(t^2U)^{-1/2}$：
+两者之商是首项一的 $p$ 次幂，首非恒定项的次数大于 $p-1$。
+于是原源恰为
+$$
+U^m=\sum_{s=0}^{N}c_s q_{p-1-6s}.
+$$
+差的常数由 $\mu_6$ 角色杀掉。这里所有 $r=p-1-6s\equiv4\pmod6$，
+故相应 $G_r$ 全零。
+(T29) 给原完整输出
+$$
+\boxed{\quad
+\Phi(U^m)(R)
+=\delta^{-1}\sum_{s=0}^{N}c_s\delta^{-6s}D_R^{6s}U(R).
+\quad}
+\tag{T31}
+$$
+因此两个真正 Picard 读数准确为
+$$
+\begin{aligned}
+e&=\delta^{-1}\sum_{s=0}^{N}c_s\delta^{-6s}
+ D^{6s+1}U(-Q),\\
+16ve+4\delta^2K_4
+ &=\delta^{-1}\sum_{s=0}^{N}c_s\delta^{-6s}
+ D^{6s+4}U(-Q).
+\end{aligned}
+\tag{T32}
+$$
+最高微分阶为 $6N+4=p-1$，没有越过 $D^p=0$。
+(T32) 保留所有项；$c_0=1$ 或某个端项为单位均不能据此删去其余卷积。
+它与 (T26) 是同一原 $e,K_4$ 的两种完整读取，尚未把原短 flag 的共同零排除。
+
+来源与审计：本节 Appell 构造保持 R1116 的同一 sigma 分母，低矩形整性用 R1079；
+常数反射用 R1075 的同权证明；原相对 Cartier、$\Phi$、$J_4$ 标架用 R1061、R1095、R1113。
+o2_high_coefficient 已独立纸核 (T27)--(T30) 的原 jet、全部阶乘、反射常数及两个 j0 端点；
+root 与 o2_high_coefficient 随后逐式核新增 §§9–10 全文，包括移位平方、零末行和指定源两 jet 的完整有限和。
+全文没有数学程序执行。
