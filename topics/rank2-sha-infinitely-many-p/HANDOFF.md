@@ -6,16 +6,18 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `11020ef0b05b52d3c7b75b45e9e8dbb3ace1d06f`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `f40e03d1ef2f09090c45289f7811537a26b56e32`（差异空）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；00:18UTC pull至d068b7528401ee4bdb36807538380cfe9c84aa08，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-two-exact-layers.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
-**v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26，19:15:47UTC入数学。maps/全零极degree612/positive三个base-prime全厚已过；第三块四因子23:19/27/30/38完。negative首块23:39:13真长度612，Frobenius00:03:15到193/306，尾00:05:37继续。最新真log12610605B/SHA 75d275bb887aec2edb1db70de34feebd54bd3ad44ca5f9b47b1a79559b4b8eb9；四交/全厚Norm/shadow未完。
+**v8仍运行**：run45882239615/job140124138541/source3b0fe32226b1f91ec37ef68a8d53ff865e9d9b26，19:15:47UTC入数学。maps/全零极degree612/positive三个base-prime全厚已过；第三块四因子23:19/27/30/38完。negative首块Frobenius已完；前三厚因子00:24:35/00:31:54/00:35:40长2/16/578已过，第四00:42:13为137/306列。最新真log14712188B/SHA a6e210475c0256dbad1ca5c53c2d00d71ddd564129fc1b58d797ca44c843bdcf；四交/全厚Norm/shadow未完。
 
-Sage10.6/r29/q2453/batch64/minimal/45源/两char0 pins/原两图七式四交18×9全保，数学21000s、工作流360min。v7 API失败已由R974实修；R975/R986/root零纤维helper未接入，不重复启重任务。[完整终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
+Sage10.6/r29/q2453/batch64/minimal/45源/两char0 pins/原两图七式四交18×9全保，数学21000s、工作流360min。v7 API失败已由R974实修；R975/R986旧helper未接入v8，不重复启重任务。[完整终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
+
+R1008完整线性纤维张量已证明/静态核：同46971乘积双序、原两图权、实际常数根和全部306单位返回；Fp²双坐标保半线性Frob及真正约化投影。新wrapper保v8全门，完整绑定R975七aliases/R986两constructor；仅备好源码，未改workflow/request、未运行。helper SHA70e94b3c…8b6d1c5、wrapper aec8056c…9692ddfdc；v8真终点后再接后继。
 
 R982/983/R987/R993/R992全部旧门及新结论均真PASS。source5ce57788fdf943376c908f815e42756f859dc0c7的R992 run45907263972给全13核残差；R994 run45907264125给三β27复L(1)>0，完整尾<2^-180。全部job/source/hash见结果和归档，不存生成数据。
 
