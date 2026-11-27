@@ -203,7 +203,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [四头共同零十权全闭](results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md)：883c真0.695秒/41660KiB/0，同两原线det零整兼容只余λ单位，开图同一T,z的60维原mean乘法矩阵返单位。故四个头非零图覆盖整个原Phi；第一头零仍整曲线。
 
-[首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；继续原lambda行模块。
+[首头原BD返回](results/R150-appendix-unit211-Phi-zero-first-quadratic-head-actual-D-sixth-degree-necessary-equation.md)给P6度39/20/6；真实QQ分解付其不可约，λ头H19/11未付。[完整原F6新返回](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真10.754秒/118992KiB/0，同MT到T6得λ6/5/5三系数，新N1/歧义/F6三行完整BD身份给P9度73/41/9、17389项。原F6行/P9精确存11小片，首头零/H0保留，不先假P6/P9互素；旧lambda长模块冻结。[整H1新原L返回与D取消首次超时](notes/2026-11-27-unit211-Phi-zero-whole-first-head-linear-D-first-timeout-8542.md)准确保7dfa120.074362658秒/264344KiB/−14：L的lambda度1/1/2、三b²P−Ptilde身份已返；第一次D公共取消只到三步，无D末式或有限u覆盖。59.6KB精确L参数单存，保b0及真实权分母零。
 
 例外有序权图的λ半/H6/[整ψD6](results/R150-appendix-unit211-Phi-zero-exceptional-whole-moment-image-fiber-exclusion-and-128-cover.md)已闭；新[整M_J4与112覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-whole-S-moment-quartic-exclusion-and-112-cover.md)由b711真5.218445731秒/171388KiB/0完成：208×104原FGH像QQ秩88，完整rho4短除法覆盖所有根；原S单位只剥T6一个一次因子，T5/z2原160维meanR矩阵全返单位。四条独立原57核列仅付QQ phi^4，模重数8未提升。完整原R新除后1977与S2050实际Bézout度112；原F26不可约与固定Sylvester/Vandermonde保全部不同有序(rho,λ)计数，不合并BC交换图。整原g4/T5/N1及160行小输入保存，余112与更高真重数继续。
 
@@ -226,3 +226,5 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [原一位来源的定量Schur返回](results/R271-appendix-quantitative-one-bit-source-transfer-and-six-site-319-over-320.md)已把五位同源余量返回原H0：在四项已付费用epsilon/kappa/rho/sigma下，新原首边余量≥alpha·epsilon/2，其中alpha=min{1−sqrt(sigma),(1−sqrt(kappa))(1−sqrt(rho))}。对六位出生2实际取epsilon=1、kappa=743/782、rho=1/2、sigma=(2+sqrt3)/4，alpha>1/160，故整个九维原首边≤319/320 I。保原Qy/WW*、真实Schur变分和同源可逆同余，不把辅助块常数直接移到H0；一般高出生所需四费用仍开。
 
 [W-G36前七整个低QQ纤维](results/R150-appendix-unit211-W-G36-seven-low-QQ-fibers-exclusion-and-two-retained-fibers.md)已闭：k次数2/2/3/4/5/6/10，总32；每个原Q6实际分q1/q5，前者已付原单位恒零、后者整个QQ常数代数原48×35目标1全列乘回。cad41随后真180.069730303秒/88336KiB/−14，不抬限；只余k14的q5（其J19零q1已闭）和尚未开始的k15全q6。两原纤维准确参数单存，后续改新两四次108×56有限返回，前七成功块与已闭q1均不重跑。结合高1134全闭，G36只余这两低纤维；G36非零及原未付头另保。
+
+**Phi例外新增同点必要式：** 新de686源仅读已存3101项P6，代u=(rho+3)/2、Q=1−rho²；准确−12H1=rho²(rho+1)²h4/4，h4=11rho4−14rho3+44rho2−18rho+9。必要式保整个未付h4乘因子，只剥已付纯rho单位；新固定原F26/h4P6结式与实际QQ已付phi4后的R1977、旧S2050三项全Bézout首次派发。没有预支phi8、没有丢首项退化或H1零。原整H1图仍开，旧D公共取消不加时。

@@ -1,16 +1,17 @@
 {
-  "message": "ISP: record incompatible full quartic lift and start genuine partial original phi jets",
-  "parentCommit": "94b43b6814f7323cb9d8a3ebd1c89ec4bf1c0006",
+  "message": "ISP: preserve whole first head original relations and start a saved original P6 condition",
+  "parentCommit": "35ff2a247b820bbdbfa928fa28de41479d17b7f2",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-S-quartic-first-phi-lift-inconsistent-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-S-quartic-first-phi-lift-inconsistent-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-exceptional-S-quartic-partial-common-factor-phi-jets-input-8542.py",
-    ".github/workflows/invariant-subspace-8542-phi-s-quartic-partial-jets.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-partial-jets-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-whole-first-head-linear-D-first-timeout-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-whole-first-head-linear-D-first-timeout-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-whole-first-head-original-linear-relation-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-saved-P6-entire-first-head-original-Gauss-input-8542.py",
+    ".github/workflows/invariant-subspace-8542-phi-exceptional-saved-p6-gauss.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-saved-P6-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-s-quartic-partial-jets.yml"
+    "invariant-subspace-8542-phi-exceptional-saved-p6-gauss.yml"
   ]
 }

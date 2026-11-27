@@ -1,0 +1,147 @@
+{
+  "schema": "isp-Phi-whole-H1-original-linear-D-first-timeout-v1",
+  "runId": 46049436790,
+  "jobId": 140676791106,
+  "source": "7dfa17a6a871f6a2c1be4773d58f096f3a3252bcffbc61c8f6f766302bc8ea2e",
+  "records": [
+    {
+      "after": "0526ab6b035556abf0c9051e1a69c11afb6f6566",
+      "before": "0526ab6b035556abf0c9051e1a69c11afb6f6566",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T18:26:20.826073+00:00"
+    },
+    {
+      "wholeQAlgebraRank": 4,
+      "originalHeadExactlyZero": true,
+      "originalAdjugateRowActuallyNonzero": true,
+      "lambdaDegrees": [
+        1,
+        1,
+        2
+      ],
+      "noCoefficientOfThisLinearRelationInverted": true,
+      "allThreeOriginalMeansActuallyMultipliedBack": true,
+      "coefficientData": {
+        "exactPayloadSHA256": "c6c0b8973ea18a3fd320921238a7e331e460ca26ed1d96ec5f4e6276fd45ff44",
+        "exactPayloadBytes": 59640
+      },
+      "allWeightDenominatorZeroFibersRetained": true,
+      "stage": "new_entire_H1_original_mean_linear_relation",
+      "seconds": 0.08288146499999982
+    },
+    {
+      "original": "mean_R",
+      "TMaxDegree": 2,
+      "lambdaCoefficientDegrees": [
+        4,
+        3,
+        2
+      ],
+      "completePolynomialIdentityReturned": true,
+      "originalBZeroBranchRetainedWithoutAnyInverse": true,
+      "stage": "new_H1_original_linear_homogenization",
+      "seconds": 0.3087124509999981
+    },
+    {
+      "original": "mean_W",
+      "TMaxDegree": 2,
+      "lambdaCoefficientDegrees": [
+        4,
+        3,
+        2
+      ],
+      "completePolynomialIdentityReturned": true,
+      "originalBZeroBranchRetainedWithoutAnyInverse": true,
+      "stage": "new_H1_original_linear_homogenization",
+      "seconds": 0.5319834499999985
+    },
+    {
+      "original": "original_N1",
+      "TMaxDegree": 2,
+      "lambdaCoefficientDegrees": [
+        4,
+        3,
+        2
+      ],
+      "completePolynomialIdentityReturned": true,
+      "originalBZeroBranchRetainedWithoutAnyInverse": true,
+      "stage": "new_H1_original_linear_homogenization",
+      "seconds": 0.741128848999999
+    },
+    {
+      "pair": "new D common cancellation 0",
+      "step": 1,
+      "divisorDegree": 7,
+      "remainderDegree": 6,
+      "coefficientUDegree": 527,
+      "allFourWeightComponentsOfDivisionIdentityReturned": true,
+      "retainedUCoverDegree": 393,
+      "stage": "new_original_whole_quartic_lambda_division_returned",
+      "seconds": 6.4216045630000025
+    },
+    {
+      "pair": "new D common cancellation 0",
+      "step": 2,
+      "divisorDegree": 6,
+      "remainderDegree": 5,
+      "coefficientUDegree": 694,
+      "allFourWeightComponentsOfDivisionIdentityReturned": true,
+      "retainedUCoverDegree": 871,
+      "stage": "new_original_whole_quartic_lambda_division_returned",
+      "seconds": 12.573403186
+    },
+    {
+      "pair": "new D common cancellation 0",
+      "step": 3,
+      "divisorDegree": 5,
+      "remainderDegree": 4,
+      "coefficientUDegree": 1247,
+      "allFourWeightComponentsOfDivisionIdentityReturned": true,
+      "retainedUCoverDegree": 1450,
+      "stage": "new_original_whole_quartic_lambda_division_returned",
+      "seconds": 34.251608198999996
+    },
+    {
+      "elapsed_seconds": 120.07436265800001,
+      "max_child_rss_kib": 264344,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "0526ab6b035556abf0c9051e1a69c11afb6f6566",
+          "before": "0526ab6b035556abf0c9051e1a69c11afb6f6566",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T18:26:20.826073+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46049436790",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "0526ab6b035556abf0c9051e1a69c11afb6f6566",
+      "source_exit_code": -14,
+      "source_git_blob": "9f03cd560852b293a5486112b8df369abd5bb53e",
+      "source_sha256": "7dfa17a6a871f6a2c1be4773d58f096f3a3252bcffbc61c8f6f766302bc8ea2e",
+      "stdout_bytes": 46925,
+      "stdout_sha256": "3728422257594d47c2e373bee21d028a66308a5da17c738a9cda0d5bd1806de6",
+      "stop_reason": null
+    }
+  ],
+  "accurateStatus": {
+    "originalLinearRelationReturned": true,
+    "threeOriginalHomogenizationsReturned": true,
+    "commonDContentEuclidComplete": false,
+    "finalDNecessaryPolynomialReturned": false,
+    "finiteWeightCoverReturned": false,
+    "wholeH1Exclusion": false
+  },
+  "frozen": true,
+  "noResourceIncreaseOrOldEuclidRerun": true
+}
