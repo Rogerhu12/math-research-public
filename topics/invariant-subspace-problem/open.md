@@ -49,7 +49,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)与[整个u=Q原返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)已支付H、u−Q；C9、u半与整图三次覆盖现见下方更新。旧180秒参数cofactor、76.992秒展开trace及F3/F95未决门全部冻结，精确失败保归档，不重跑。
 
-**Q=1−u边界：** 原y1/H_Q0/u半/ell0/两y首项、T0/h2、Kz0、ell半和整个G2全闭；原六生成元/18真乘法给每商≤6，全部余权点在63/60 QQ互素覆盖≤3780。全部原来源与已付整面链接保完整快照。固定85阶QQ投影和[改h后的58阶QQ投影](notes/2026-11-27-unit211-Q1minusU-58-Sylvester-h-QQ-projection-frozen-8542.md)均120秒SIGALRM、没有结式，冻结。58阶实际120.097790秒/78752KiB/−14；b830平移状态未知不重跑。继续固定原矩阵的小QQ度/估值、真实首一Bézout变换和全部有限原返回；不以模计算代QQ保度。
+**Q=1−u边界：** 原y1/H_Q0/u半/ell0/两y首项、T0/h2、Kz0、ell半和G2均闭；原商≤6、非自由。[严格整数高度CRT证书](results/R150-appendix-unit211-Q1minusU-exact-2265-projection-and-three-multiplicities.md)现已证明完整QQ结式度2265，h0/1/2精确重数304/47/532，余式度1382并付1009局部整首一性；233不同素数实际满足P²>4B²，源30e48b9c真实106.568秒/exit0。27互补原投影实际仍留222次模gcd，不宣判空；其特征零有限覆盖另条归档。原63/60互素覆盖、全部单位及旧85/58阶QQ超时/未知b830范围保归档，不重跑。继续同一原D关系模块aa7fafff的最终分母与完整有限返回。
 
 **[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 
