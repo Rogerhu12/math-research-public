@@ -6,10 +6,10 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `f78055462396139486e8cc873e0caf17fe78bf9a`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `b5df17843379ab8718b5e9807140f94e54770e48`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；03:45UTC API核至65009af53f743c057d0f9a6b5385192165c426aa，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
-- [此次完整逐字归档](notes/2026-11-27-handoff-before-thirtynine-common-reader.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
+- [此次完整逐字归档](notes/2026-11-27-handoff-before-hesse-full-three-cover.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
@@ -46,9 +46,12 @@ R1009固定Y0在7993的真实扩张LieV有Tate(2,−1)，排有限1-motive范畴
 
 R1014从实际degree1射影族/四Weil中心完整解消及自给period证明支付已发表HYZ B：原S所有充分大q的Tate，未知q0未冒全q。惰性NS−q²、MW(q/3)A2、Frob−bar及两Br0；原54图全η/Cor/P−转置交式保持。
 
-R1017原q5截面在P=(3,1)有唯一极，原方程/局部分量给高10/3；deck独立及整指数排除付全MW=(5/3)A2、F5高10固定元与两Br0。真实run45929764445/job140279423830/source72b66100a3bd20ae115ba77a4d0c4b025232d3b9，stdout2444B/SHA27af604e…7b423d。全54评值6挠，倒6后shadow零，不重跑q5。准确坐标/完整证明见R1017和逐字归档。q11原D_q完整2662对已实际无解：run45934797848/job140295406866/source1ac50c6e0283c6878c77c8fc9e357fc1b17a8ee1；03:32:55UTC，stdout848B/SHA0e8db179…4022a5。只排此固定除子，不重跑；3P6新输入亦实际无解：run45936278912/job140300111547/source89a464233e4d50471eb795622a80ea05af09a43e，03:48:26UTC完整2662对、stdout952B/SHA73cadc36…b17f12。两固定除子均不重跑，已转原Hesse公共盖/Frobenius构造。q11 shadow倒6仍零。
+R1017原q5完整Q、高10/3、全MW=(5/3)A2及54图倒6零shadow已付；真实run45929764445/job140279423830/source72b66100a3bd20ae115ba77a4d0c4b025232d3b9、stdout2444B/SHA27af604e…7b423d，不重跑。q11两完整固定输入D_q和3P6均2662对无解：分别run45934797848/source1ac50c6e…1a8ee1、run45936278912/source89a46423…9a43e。仅排各极除子；全部job/hash/原坐标/重数证明在两输入笔记及归档，不外推一般无截面。
 
-R1019原η_j((q))=1且H/K忠实cyclic18，所有好惰性q在H/K完全分裂；保真正Cor_L/H后全shadow落A(Fq²)⊗R并被q+1杀掉，ordinary p检测必q≡−1 mod6p。原反Frob截面trace0强制W=Mx+N，(19)/(20)精确保两个原Kummer类。真实α_qδ=F−1、δα_q=−F−1、α_q²=−(q+1)/3，C=δB(Fq)；D_q=Σ(C非零点−T)由H_q=(Y^d−1)/(Y+1)、X=Y^−d(Y+1)^(1−d)逐式给出，d=(q+1)/3。完整Hensel二/三阶约束在2d/3d维RR空间给原截面有限方程；一般q存在/54非零尚未证，不把核除子冒作截面。§7.1又付L=(Y+1)^(d−1)及fL³的完整恒等式，J2=(1+H)/L modH²、J3=(1+H+YH²)/L modH³；原D_BU=L、D_BH=[1+(1−2Y)H]/X。
+R1019原全η/忠实18次H及Cor后shadow被q+1杀，ordinary检测必q≡−1mod6p。反Frob trace0、W=Mx+N和两个准确Kummer类已付；αδ=F−1、δα=−F−1、α²=−d、C=δB(Fq)。D_q由H=(Y^d−1)/(Y+1)及唯一X分支给出；完整2d/3d维RR和二/三阶Hensel闭式、D_BU=L、D_BH=[1+(1−2Y)H]/X均保。原有限降维存在性及54非零未付；两q11负输入后已换真实公共盖。
+
+R1023原Hesse正反方程和B′≃B使B′→B准确为[δ]，deckρ为−T、F′φ=φ(−F)。实际αT=S3=(−1,ω²)，原cube类T拉回−S3、Yα=ℓ_-S3(−δGα)^3，不能自提升到同一三型。全[3]盖的两个立方根U/V已显式支付，ordered deck T:(U,ωV)、S3:(ωU,V)及常数无遗漏。继续该全盖的Frobenius图与全degree9/3迹，未构成Q或ordinary非零。
+
 
 02:51UTC执行环境失联，本地R1017稿25f3ec26d未推；已由云端非强制快进提交2af1bac937f2b5ddcb0762dd7b2b34860854647b替代。恢复后立即实际pull --rebase，保已发布远端证明，不重复未推本地稿；03:45UTC已到两仓下一小时，环境仍不可用，API读不冒充实际pull；恢复即补实际同步。数学仅公开Actions，唯一v9继续。
 
