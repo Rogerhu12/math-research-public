@@ -1,0 +1,114 @@
+{
+  "schema": "isp-actual-W-global-monic-T4-mean-F2-identities-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "blob": "718e3bf9e151a6083bb813a9fd414b8405a0642f",
+    "sha256": "e53cc4c0d77264a8da2697758237914afb899e1f7aa31df5aa66218ea006ce33",
+    "bytes": 8111
+  },
+  "actual": {
+    "runtime": "V8 exact BigInt multivariate integer polynomial arithmetic",
+    "externalProcess": false,
+    "posixExit": null,
+    "maxRss": null,
+    "elapsedMilliseconds": 26,
+    "result": {
+      "schema": "isp-W-global-depressed-T4-and-mean-F2-original-identities-v1",
+      "exactIntegerPolynomialArithmetic": true,
+      "variables": [
+        "ell",
+        "u",
+        "m",
+        "Q",
+        "J",
+        "d",
+        "M",
+        "lambda",
+        "T",
+        "s"
+      ],
+      "allOriginalQuarticCoefficientProductsActuallyVerified": true,
+      "T3IdenticallyZeroBeforeWeightRelation": true,
+      "monicQuarticLeadingBeforeNormalization": "4*u*Q*ell^2*d for C4/(2m)",
+      "onlyWeightRelationUsed": "M+m^2=ell^2*d",
+      "exactR4CubicRemainderLeading": "8*M^2*u*Q*ell^3*d*(3-2lambda)*(2uQ-J)",
+      "lambdaThreeHalvesEntireFiberRetained": true,
+      "noPhysicalDOrNormInverse": true,
+      "profiles": {
+        "h4": {
+          "terms": 1,
+          "degreeLambdaT": 0,
+          "degreeS": 0,
+          "bytes": 29,
+          "sha256": "7ad852af7f586e7f6de453911c755000815065adce1ea4c3d089c6a07d9c10ce"
+        },
+        "q2num": {
+          "terms": 5,
+          "degreeLambdaT": 2,
+          "degreeS": 0,
+          "bytes": 146,
+          "sha256": "7f8b0e19fa0e916d9cf41f23ca1f145136b7367064424c55ee3eacc5dc97290f"
+        },
+        "q1num": {
+          "terms": 8,
+          "degreeLambdaT": 3,
+          "degreeS": 0,
+          "bytes": 232,
+          "sha256": "93ff7343d6024328481e3faef7422299f6670ecf3cb24c28f4043bc257b8abc2"
+        },
+        "q0num": {
+          "terms": 24,
+          "degreeLambdaT": 4,
+          "degreeS": 0,
+          "bytes": 694,
+          "sha256": "e6f38944cbd885232a3b9bd93d48c9f464d3b7ddbdd30fe658babd78f6f1afec"
+        },
+        "qTnum": {
+          "terms": 38,
+          "degreeLambdaT": 4,
+          "degreeS": 0,
+          "bytes": 1098,
+          "sha256": "d536047fcb3b98eea1fc96ed55e76b72bbcfb96c815ff28a81b24ac6352f004d"
+        },
+        "r3": {
+          "terms": 437,
+          "degreeLambdaT": 4,
+          "degreeS": 0,
+          "bytes": 12966,
+          "sha256": "c863c697d6201247601875374ef6eccd300cf94ba92c81b22f5b287a57369b60"
+        }
+      },
+      "originalMeanF2LeadingActuallyVerified": true,
+      "originalMeanF2Leading": "u^2*(u-ell)*d*Phi/((u-1)*M)",
+      "meanOnlyPreviouslyKnownWAndMRelationsUsed": true,
+      "explicitEightDimensionalGramProjectionAndSixteenDimensionalValueEnvironment": true,
+      "theoremIsWholeCurrentWMonicValueInput": true,
+      "noFiniteFiberExclusionClaim": true,
+      "noNumericSpecializations": true,
+      "elapsedMilliseconds": 26
+    }
+  },
+  "originalReferences": [
+    {
+      "path": "results/R150-appendix-unit211-W-original-two-quartic-necessary-values.md",
+      "sourceSHA256": "3d71f3f1c88e0b582123bd6f00f932c882dd8ee1e50f2567c37fdaa330757189"
+    },
+    {
+      "path": "results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md",
+      "blob": "7690652b42633e4b43db1733610c3034da342322"
+    },
+    {
+      "path": "results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-centered-three-S-linear-original-elimination.md",
+      "sourceSHA256": "4da946c486a2e3ca9b22faa16df13f8e24068ea390eed52135a1f2e49dcd6a30"
+    }
+  ],
+  "scope": {
+    "wholeCurrentWMonicInput": true,
+    "newParameterHeadInverted": false,
+    "lambdaThreeHalvesWholeFiberRetained": true,
+    "onlyMonicAmbientRingsAssertedFree": true,
+    "geometricInverseVariablesNotAdded": true,
+    "expandedEightOrSixteenGeneratorMatricesNotYetExecuted": true,
+    "wholeWExcluded": false
+  }
+}

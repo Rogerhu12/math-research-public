@@ -793,3 +793,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 21:57 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 402d实际46010648548/140544983517 inner0，0.120秒/37448KiB；原整个T0=Delta0碰撞面由唯一有理候选和原mean单位排除，完成即推。
 - 46c5装配失败准确保留；新根工作流031d只接互补T0、Delta非0完整两参数输入，180秒4GiB，无旧D非0权图借用。
+
+2026-11-27 21:59 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- e53cc4c0 V8真26ms通用整系数回乘，付qT全系数/缺T3及原mean F²已付首项；8维Gram与16维值环境纸证独立发布。
+- 新根工作流738d首次接Phi rho头零两例外权的完整原T6/八式/单位Cramer，保另一权为BC交换；120秒1GiB/两个monic helper，不重复主曲线输入。

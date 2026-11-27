@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-centered-value-collision-closed-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-global-monic-T4-F2-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[当前W整D27权曲线全闭](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)。** 原F806完整分区24+782，F24八QQ域已返1；高782的46模因子和全e5双支保全，末三次域加入两条明确原值四次后新108×56 V8 774ms返1。完整3910维Z_(1009)有限自由模型、全部原分母好素数和Nakayama付QQ提升；旧48×35真满秩经逐变量倍乘扩到新矩阵，不重跑已成纤维。21400原生−11、065d总exit2及31完整数学证书后的−11、先50×35秩34不足均保精确回执。现在仅当前原W域可付D27；B239及其它头/Y逆未付，继续原S消元和余W理想，不外推旧D单位到h=k。原J19/w6/Y2/y6等完整来源保正文与本次快照。
+**[当前W整个D27已闭](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)；[全图首一T4/F2及固定有限环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)新已付。** 同值C4首项8muQell²d且T3恒消，原mean组合L的F²头u²mdPhi/(eM)也为已付权单位；故A[lambda]上的Gram环境自由8维，加同一个s²−D/M环境为16维，完整原方程商只由其基生成。R4除首一qT余三次，其头只另含3−2lambda，整lambda3/2保留。未倒D、原值范数或B239；原EC/逐谱N/P、其余Gram及物理非零都继续同点返回。新源26ms精确通用身份全返，8列原矩阵尚待执行；D27所有有理/模/原生退出证据与旧J19/y6来源保正文及本次快照。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
