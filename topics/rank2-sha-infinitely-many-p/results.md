@@ -372,3 +372,6 @@
 
 
 - **R1043一般原Manin完整多项式**：[§20](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§20已对一般原Qmin直接证明D_Bμ=c_q A且c_q在特征q中非零；完整Hasse系数、Picard–Fuchs和原ε奇偶性排除局部s^−q附项，给μ/δ=κ_q XΣh_j X^(3j)/(3j+1)，所有系数有限明确。canonical接触恒3，有限超奇异接触严格只1或2，两cusp ν单位，N_ord+2N_ss=q−5。 适用于每个已存在原最短截面的q>5、q≡−1mod6，不假Prym超奇异；不新增数学执行或把目标p全整除当高接触。
+
+
+- **R1042全部普通精度的实际代数读者**：[§13](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§13将同一三canonical的普通中央导数在任意有限精度写成无未知period的纯代数有限式。真实推前支撑是cZp，完整unit质量零准确消去log c；每项保原core u_S=λ、u_A=−λ、u_T=ε_Tλ及完整Euler。统一误差E_p(H)=H+1−floor(log_p(H+1))，只有H≤p−2时可省deep。多种Q始终给同一个读数，不新增独立坏行。 (109)是完整非零的有限判据，(110)同精度返回整个补域；仍须取得一个实际非零余式。

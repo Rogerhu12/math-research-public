@@ -238,3 +238,6 @@
 
 
 - R1043§20：R1043§20已对一般原Qmin直接证明D_Bμ=c_q A且c_q在特征q中非零；完整Hasse系数、Picard–Fuchs和原ε奇偶性排除局部s^−q附项，给μ/δ=κ_q XΣh_j X^(3j)/(3j+1)，所有系数有限明确。canonical接触恒3，有限超奇异接触严格只1或2，两cusp ν单位，N_ord+2N_ss=q−5。 原r=(Dμ)/A权3的一维全局空间直接支付，c_q≠0由kernel/最短高度及L(O)=k给出；不借抽象CM形式或未知整格常数。
+
+
+- R1042§13：R1042§13将同一三canonical的普通中央导数在任意有限精度写成无未知period的纯代数有限式。真实推前支撑是cZp，完整unit质量零准确消去log c；每项保原core u_S=λ、u_A=−λ、u_T=ε_Tλ及完整Euler。统一误差E_p(H)=H+1−floor(log_p(H+1))，只有H≤p−2时可省deep。多种Q始终给同一个读数，不新增独立坏行。 高权矩先保(jd)!，不把高项分母单独约化；未将cZp冒作新的形式群period。

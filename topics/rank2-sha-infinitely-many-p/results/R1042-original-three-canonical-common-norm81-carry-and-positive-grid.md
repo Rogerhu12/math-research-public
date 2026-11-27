@@ -1729,3 +1729,197 @@ $$
 目前 (96)–(100) 并未证明三项不可同时为零：
 后续需要在这个**同一个有限低卷积**上取得真正非零或全精度消元，
 不能把 (99) 所计算的实际补偿再宣布为零。
+
+
+## 13. 全部 ordinary 精度的无周期有限读者：真实缩放支撑与原 Euler
+
+(99) 只消掉了首位的 period。本节在同一个原普通测度上消掉
+**任意有限精度**所需的全部 period 数字。它不增加新的坏条件；
+三个真实来源和各自的完整 unit cut 均保持。
+尤其不能把这里的辅助缩放解释成另选一个
+$\widehat{\mathbf G}_m\longrightarrow\widehat E_b$ 的 period。
+
+### 13.1 三个真实 core 与完整零质量
+
+继续用 (92) 的原整边际 $\nu_i=\nu_{\mathcal F_i}$。
+原全部平方插值和原点质量按
+[R400](R400-full-square-interpolation-determines-core-and-e24-cmseven-phase.md)
+恢复完整 core。写
+$$
+\pi_{17}=-\pi_0,\qquad
+\varepsilon_{i,p}=\frac{\psi_{E_i}(\mathfrak p)}
+                        {\psi_{E_{17}}(\mathfrak p)}\in\mu_6,\qquad
+u_{i,p}=\varepsilon_{i,p}\lambda ,
+\quad(E_S,E_T,E_A)=(E_{17},E_{24},E_{3969}).
+$$
+同一个 $\mu_6$ 不变的原来源上，$\psi_{E_i}$ 的缩放参数与
+$\kappa$ 至多差 $\mu_6$，其推前相同。因此全测度和全部矩准确为
+$$
+\boxed{
+\begin{aligned}
+\nu_i|_{p\mathbf Z_p}&=u_{i,p}[\kappa]_*\nu_i,\\
+\nu_i(\mathbf Z_p)&=\nu_i(\mathbf Z_p^\times)=0,\\
+\int_{\mathbf Z_p^\times}y^m\,d\nu_i
+ &=(1-u_{i,p}\kappa^m)\Omega^m m![z^m]\mathcal F_i .
+\end{aligned}}
+\tag{101}
+$$
+对非 principal 的 $m$，两边依原对称性同时为零。
+这里 $u_{S,p}=\lambda$；R1040(95) 的原 ray 与
+$\Theta(3\gamma z)$ 的 whole 锚还给 $u_{A,p}=\beta=-\lambda$。
+T 始终保它真正的 $\varepsilon_{T,p}\lambda$；
+没有因三个来源质量均零而把它们的 core 设成同一个数。
+同模型的六 sigma homothety 同时运输微分与 period，
+不再产生遗漏的根单位相位，见 R1038 §§11–12 及 R308 §2。
+
+### 13.2 Q 是代数整数，辅助支撑确为 cZp
+
+取任意固定代数整数单位 $Q$，满足
+$$
+Q\equiv\mathcal H_{b,p}^{-1}\pmod p .
+$$
+例如可取这个非零剩余类的一个普通整数代表。
+由 (95)，Hensel 给唯一
+$$
+\boxed{
+c\in1+p\mathcal O_{\mathbf C_p},\qquad
+c^d=Q/\Omega^d .}
+\tag{102}
+$$
+定义真正的推前 $\widetilde\nu_i=[c]_*\nu_i$。
+它支撑在紧集 $c\mathbf Z_p\subset\mathbf C_p$；
+一般不支撑在 $\mathbf Z_p$，这里也不声称它是某个新整形式群的
+Amice 测度。推前范数仍不超过一，valuation-unit 部分正是
+$c\mathbf Z_p^\times$。
+
+若 $z=cy$、$y\in\mathbf Z_p^\times$，则 $z^d-1\in p\mathcal O_{\mathbf C_p}$，
+并且原 logarithm 准确满足
+$$
+\log(z^d)=d\log c+d\log\langle y\rangle .
+$$
+由 (101) 的**完整 unit 质量零**，
+$$
+\boxed{
+\int_{c\mathbf Z_p^\times}\log(z^d)\,d\widetilde\nu_i(z)
+=J_{\mathcal F_i}'(0).}
+\tag{103}
+$$
+若改用 (92) 的归一观察 $Y_i/a_i$，其额外
+$-d\log\langle a_i\rangle$ 仍只在完整 unit 质量上消去。
+在本篇任何指定小管或中间环内，都不能由 (103) 删除局部质量项。
+对 R1040 的非零质量参考 G，同一操作还会留下
+$d\log c\,J_G(0)$，因而不能无修改地套用本节。
+
+### 13.3 完整有限多项式及一个统一尾界
+
+对整数 $H\ge1$，置
+$$
+E_p(H)=H+1-\lfloor\log_p(H+1)\rfloor .
+$$
+在整个 $p\mathcal O_{\mathbf C_p}$ 上，
+$$
+\log(1+t)-\sum_{k=1}^H\frac{(-1)^{k-1}t^k}{k}
+\in p^{E_p(H)}\mathcal O_{\mathbf C_p}.
+\tag{104}
+$$
+确切地，第 k 项赋值至少 $k-v_p(k)$；
+$k-\lfloor\log_pk\rfloor$ 随整数 k 不减，且趋于无穷。
+所以 (104) 是整个无限尾的一致估计，不是只估下一项。
+
+写 $a_{i,m}=[z^m]\mathcal F_i$，并保原完整 Euler：
+$$
+\boxed{
+M_{i,j}(Q)
+=(1-u_{i,p}\kappa^{jd})Q^j(jd)!\,a_{i,jd}
+=\int_{c\mathbf Z_p^\times}z^{jd}\,d\widetilde\nu_i(z),
+\qquad M_{i,0}=0.}
+\tag{105}
+$$
+因此全部 $M_{i,j}$ 为整。
+高权的 $a_{i,jd}$ 本身可能含 p 分母；
+(105) 始终先保真实 $(jd)!$，不将其分别约化后相乘。
+
+把 $t=z^d-1$ 代入 (104)，展开有限和。
+常数项只乘 $M_{i,0}=0$。
+对每个 $1\le j\le H$，准确的组合恒等式为
+$$
+\sum_{k=j}^H\frac1k\binom kj=\frac1j\binom Hj .
+$$
+两次符号相乘为 $(-1)^{j-1}$。故定义
+$$
+\boxed{
+\mathscr L_{i,H}(Q)
+=\sum_{j=1}^H\frac{(-1)^{j-1}}j\binom Hj
+ (1-u_{i,p}\kappa^{jd})Q^j(jd)!\,a_{i,jd}.}
+\tag{106}
+$$
+则原完整中央导数满足
+$$
+\boxed{
+J_{\mathcal F_i}'(0)-\mathscr L_{i,H}(Q)
+\in p^{E_p(H)}\mathcal O_{\mathbf C_p}.}
+\tag{107}
+$$
+(106) 的所有数均为代数数：原六 sigma 的有限 Taylor 系数、
+真正 Hecke 值、Q、整数和阶乘。
+未知 period 及其高位没有留在这个有限式中。
+
+### 13.4 原 p 窗内的精确简化
+
+若 $1\le H\le p-2$，则 $E_p(H)=H+1$。
+在 (106) 的第 j 项，删去 deep Euler 部分的误差赋值至少
+$jd-v_p(j)\ge d\ge H+1$，因为 $(jd)!a_{i,jd}$ 已由原整测度付整。
+所以仅在这个范围内可进一步写
+$$
+\boxed{
+J_{\mathcal F_i}'(0)\equiv
+\sum_{j=1}^H\frac{(-1)^{j-1}}j\binom Hj
+ Q^j(jd)!\,a_{i,jd}\pmod {p^{H+1}}.}
+\tag{108}
+$$
+例如令 $m_{i,j}=Q^j(jd)!a_{i,jd}$，则
+$$
+J_{\mathcal F_i}'(0)\equiv m_{i,1}\pmod {p^2},\qquad
+J_{\mathcal F_i}'(0)\equiv2m_{i,1}-\tfrac12m_{i,2}\pmod {p^3}.
+$$
+第一式与 (93) 一致，因为 $a_{i,d}\in p\mathcal O$、
+$Q\equiv\Omega^d\bmod p$。
+第二式中的 $m_{i,2}$ 是整个真实 Hurwitz 矩，不能以低于共振的
+(96) 未经除分母的普通约化代替。
+超过 (108) 的范围，继续用 (106)，不丢任何 $u_{i,p}$ 或 deep 项。
+
+### 13.5 全精度判据、真正 Schur 余式与边界
+
+由 $E_p(H)\longrightarrow\infty$，得到完全代数的普通有限判据
+$$
+\boxed{
+J_{\mathcal F_i}'(0)\ne0
+\quad\Longleftrightarrow\quad
+\exists H\ge1:\ 
+v_p\bigl(\mathscr L_{i,H}(Q)\bigr)<E_p(H).}
+\tag{109}
+$$
+选择不同的允许 Q 不产生新的坏条件：
+对同一个 H，它们的 (106) 都是同一个原中央导数模
+$p^{E_p(H)}$ 的表示。因此不能把多个 Q 的零当作多条
+独立 canonical 行。
+
+结合 (90)，整个至少双 unit 余域在任意有限精度的准确读者是
+$$
+\boxed{
+\begin{aligned}
+\beta^{-n}\int_{\Gamma_n\setminus\mathcal D_1}
+ (L_i-L_j)h_n\,d\rho
+\equiv{}&
+\mathscr L_{i,H}(Q)-\mathscr L_{j,H}(Q)\\
+&-\beta^4\{\mathcal A_i(\kappa)-\mathcal A_j(\kappa)\}
+\pmod {p^{E_p(H)}} .
+\end{aligned}}
+\tag{110}
+$$
+这里 $\mathcal A_i$ 仍是原 (28) 的完整 unit/carry 函数，
+不把它换成指定 norm25 小管。
+原坏三 canonical 在全精度上恰强迫
+$v_p(\mathscr L_{i,H})\ge E_p(H)$ 对每个 i、H 成立。
+(106)–(110) 支付了其无 period 的完整有限输入；
+还须证明某个实际余式非零，不能把这种输入重写本身认作矛盾。
