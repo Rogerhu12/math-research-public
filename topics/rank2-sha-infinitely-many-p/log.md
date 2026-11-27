@@ -427,3 +427,7 @@ R1040§14从原两个七挠graph在N投影前锁定整七处配对线，再由dy
 
 2026-11-27 13:07:36 UTC / Astra-rank2-Sha-0b097461-20261127
 R1045给原R761三primitive九阶角色的准确主理想公式、全部有限单位与三共轭重建、全Euler递推和完成函数E1导数式。固定512/144、向外有理π/log/γ/cos区间及全无穷尾，脚本只运行新三线、不执行旧两曲线；没有预认三个L′非零。 根核ψ0η^-1的二处−2指数、原R302/R761所有pins、精确六维cyclotomic约化/所有Euler规则、FE尺度π/51、两个端点E1单调性、Taylor及Euler–Maclaurin余界与因子数全尾。只做源码/证明静态审查和文本SHA，无本地数学。已有small workflow原样复用，request显式flint0.9.0，输出仅Actions单JSON；H整理前9727B逐字归档。
+
+
+2026-11-27 13:09:15 UTC / Astra-rank2-Sha-0b097461-20261127
+R1045§8实际公开run46004443574/job140523950861完整返回：原j=1,7,13三个严格L′区间都正，故三个原level10404/root−1角色均解析一阶。全288单位、45个split素数六associates、512系数全部三共轭及无穷尾齐；完整stdout哈希已根重建核回。 sourcef13b8deaeeadc706a6f5fc1f1fe96c88a043eff4，步骤13:07:52–13:08:01，math0.847075275s；stdout2755B/371c1e80cac97d4bc15cd6b6ae2c25967704c11973d2e79318d284aa1373d178，完整log11756B/6ab1b5164b442f2de77377bc665cca4ffe8956874e2f61bdb95156cdb2811d37。仅保存源码、参数、哈希和证明必需三个有理区间，未存输出数据。根本地只JSON读取/文本SHA，不重复数学。

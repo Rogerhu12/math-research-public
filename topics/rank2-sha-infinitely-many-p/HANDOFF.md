@@ -36,7 +36,7 @@ R1042原H3/F81三canonical四输出、93/2511 odd与90/810 even全核、完整Q�
 
 R1044真R=K+ωA推前消整个Ξ1；共同F3913/C1596给两odd whole β核，完整四输出carry保三原未平均行。H/J/N三角平均另给纯Φ126行；全cut(32)和补域(41)保齐，不混两种许可。
 
-R1045新三条primitive九阶角色的全288单位、全部六associates/三共轭/512系数与严格E1无穷尾算法已审；脚本14113B/8abde697…c6fe，N512/J144、flint0.9.0，唯一small请求已推，待真实区间。不是旧R735重跑；即使解析非零，仍需同good-pair点桥及完整F0 sum-unit读者。
+R1045唯一run46004443574/job140523950861/sourcef13b8dea已全返PASS：288单位、45split六associates、512系数全部三共轭和严格E1全尾齐，三个L′区间严格正，故各解析一阶。stdout2755B/371c1e80…178、全部pins/有理界在§8；不重跑。继续同good-pair点域/全local-Q及F0 degree51/x+y单位卷积，不直接给原中央非零。
 
 ## 三、原谱盖、Prym、半类与最高权
 

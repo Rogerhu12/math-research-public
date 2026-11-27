@@ -318,3 +318,6 @@
 
 
 - **R1045新三角色完整解析consumer**：[原文](results/R1045-original-three-primitive-nine-complete-analytic-certificate.md)。R1045给原R761三primitive九阶角色的准确主理想公式、全部有限单位与三共轭重建、全Euler递推和完成函数E1导数式。固定512/144、向外有理π/log/γ/cos区间及全无穷尾，脚本只运行新三线、不执行旧两曲线；没有预认三个L′非零。
+
+
+- **R1045三条实际解析一阶已证**：[§8](results/R1045-original-three-primitive-nine-complete-analytic-certificate.md)。R1045§8实际公开run46004443574/job140523950861完整返回：原j=1,7,13三个严格L′区间都正，故三个原level10404/root−1角色均解析一阶。全288单位、45个split素数六associates、512系数全部三共轭及无穷尾齐；完整stdout哈希已根重建核回。 原点桥和sum-unit中央读者继续，不从裸负一值替代原J′。
