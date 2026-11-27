@@ -72,3 +72,7 @@
 ## 2026-11-27 23:39:50 UTC — 20首个trial统计真实返回
 
 首trial345906于23:28:21.769877真统计Phi3824.783531693056/Gram.6460723929865344；Phi降、最大Gram上升，几何/alpha/决定仍未知，current初点7e06/accepted0/reportfalse。整数学子对象、完整原小索引fixed commit/blob/bytes/SHA及两进度文件whole身份保[20全note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)，其余原字段和错误仍在完整索引，未截原记录。初g不可冒trial违反，继续原完整科学。双README云核至`faf7bb1248b9fe133132376d7c2690a4e3f63c31`无变（非pull）。
+
+## 2026-11-27 23:46:39 UTC — ret54完整保全与实际退树
+
+精确18旧生成件总1376720B，5份完整参数/源输入/边界/说明/总表263000B，净释放1113720B；五字节完全相同身份留actual59 canonical，83/91 transport/root/binding、41/54预调用intent、50四完整绑定描述、四输出数组描述仅退所列对象。13 whole SHA已知、5大/压缩件SHA未知仍null，固定de59ba22整Git原字恢复；49源/30完整边界源、8全新请求及5旧完整请求/整lane、原spec/config/数组/真实失败和旧reader原守卫保全。未读≥100KB/binary，未作科学/AST/fixture/新门。完整[保全总表](computations/legacy-native-generated-metadata-retention-54-complete-delivery.json)及[说明](notes/2026-11-27-legacy-native-generated-metadata-retention-54.md)。H重排引用此前12d43完整原H，全部原参数/失败和controller当前真pull槽合并保留。双README云核至`f5e4897c620dd9e924114ad9bfda52e8760e8223`无变（非pull），继续原任务与21完整启动。

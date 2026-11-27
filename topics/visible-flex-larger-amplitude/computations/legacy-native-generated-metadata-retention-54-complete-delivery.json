@@ -1,0 +1,431 @@
+{
+  "schema": "legacy-native-generated-metadata-retention-54-complete-delivery-v1",
+  "date_utc": "2026-11-27",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "visible-flex-larger-amplitude",
+  "status": "Prepared and protected as complete unreferenced Git blobs; publication/deletion pending root, not performed by construction.",
+  "fixed_restore_commit": "de59ba22c3b7cc8d6271525fd500a3697ae742a8",
+  "fixed_topic_tree_sha": "83587091cac63613488711b4351daa93ffd885da",
+  "documentation": "The complete parameter file, source/input registry, provenance and note are retained as whole objects. No source or original scientific input is abbreviated or deleted. Each full object is below100000bytes; unknown candidate wholeSHA256 remains null.",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/legacy-native-generated-metadata-retention-54-complete-parameters.json",
+      "bytes": 80056,
+      "sha256": "11836ae15261fb4cec6bb369e6c60f697655be43378ce949efa3bcf7946144ee",
+      "git_blob_sha": "c4bd45fe289e53fe9e4eab4e5abe0a0b0a77d2aa"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/legacy-native-generated-metadata-retention-54-complete-source-input-registry.json",
+      "bytes": 70350,
+      "sha256": "f551e6d754e4fdc90a60261df2056d44e926c82279eb0cc9f0fda9e7e9941c0e",
+      "git_blob_sha": "78fe7a29e0f403e8a991120ad1aa00495619cb0d"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/legacy-native-generated-metadata-retention-54-provenance.json",
+      "bytes": 71382,
+      "sha256": "bddc58ec4a307f2eda278ed670adb34f70204c34828818f9eeed29d9636d78b5",
+      "git_blob_sha": "8121bc0e7b73ac5fae50a702dcb209f7fd4d75ea"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-legacy-native-generated-metadata-retention-54.md",
+      "bytes": 21074,
+      "sha256": "1f9e09dfccf08225767d6cc290d8e79678a59df3bcec27c39502af444dda4b18",
+      "git_blob_sha": "56e13d50514d4f19e9abd567c2241bc6797d40a2"
+    }
+  ],
+  "this_manifest": {
+    "path": "topics/visible-flex-larger-amplitude/computations/legacy-native-generated-metadata-retention-54-complete-delivery.json",
+    "bytes": 20138,
+    "sha256": "The whole manifest SHA256 is supplied in the external delivery record; self-reference is intentionally absent.",
+    "git_blob_sha": "The whole manifest Git blob is supplied in the external delivery record; self-reference is intentionally absent."
+  },
+  "accounting": {
+    "candidate_count": 18,
+    "gross_removed_bytes": 1376720,
+    "new_document_count": 5,
+    "new_document_bytes": 263000,
+    "net_current_tree_bytes_released": 1113720,
+    "scope": "Only current-tree file bytes. No repository-history/Git-pack deletion and no external-artifact deletion."
+  },
+  "grouping": [
+    {
+      "id": "A_original_live_identity",
+      "count": 5,
+      "bytes": 264495
+    },
+    {
+      "id": "B_realized_trial_metadata",
+      "count": 3,
+      "bytes": 472005
+    },
+    {
+      "id": "C_pre_call_launch_intent",
+      "count": 2,
+      "bytes": 333264
+    },
+    {
+      "id": "D_saved_stage_metadata",
+      "count": 4,
+      "bytes": 203906
+    },
+    {
+      "id": "E_output_array_descriptors",
+      "count": 4,
+      "bytes": 103050
+    }
+  ],
+  "source_and_parameter_scope": {
+    "new_original_request_values": 8,
+    "additional_complete_original_request_records_via_retention40": 5,
+    "original_source_records": 49,
+    "complete_boundary_source_records": 30,
+    "entire_source_bodies_preserved": true,
+    "whole_original_workflow_and_argv_preserved": true,
+    "all_numeric_parameters_and_resource_limits_preserved": true,
+    "all_scientific_specs_configs_inputs_and_raw_arrays_preserved": true,
+    "real_failures_unknowns_and_nonacceptance_preserved": true
+  },
+  "canonical_original_identity": {
+    "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43640772654-1-original576damped/native-original576-damped-chain-original-trial/restored-original-mathematical-identity-before-seed.json",
+    "bytes": 52899,
+    "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7",
+    "git_blob_sha": "1730e2713f0b8673a8144a9e747a498145a0c582",
+    "restore_commit": "de59ba22c3b7cc8d6271525fd500a3697ae742a8",
+    "remains_in_current_tree": true
+  },
+  "expected_retired_files": [
+    {
+      "id": 1,
+      "group": "A_original_live_identity",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/original-live-identity.json",
+      "bytes": 52899,
+      "git_blob_sha": "1730e2713f0b8673a8144a9e747a498145a0c582",
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7",
+      "sha256_basis": "retained whole canonical identity has exactly the same Git blob and size",
+      "original_run_id": "43603818345",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 2,
+      "group": "A_original_live_identity",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/original-live-identity.json",
+      "bytes": 52899,
+      "git_blob_sha": "1730e2713f0b8673a8144a9e747a498145a0c582",
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7",
+      "sha256_basis": "retained whole canonical identity has exactly the same Git blob and size",
+      "original_run_id": "43604874829",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 3,
+      "group": "A_original_live_identity",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/original-live-identity.json",
+      "bytes": 52899,
+      "git_blob_sha": "1730e2713f0b8673a8144a9e747a498145a0c582",
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7",
+      "sha256_basis": "retained whole canonical identity has exactly the same Git blob and size",
+      "original_run_id": "43605912092",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 4,
+      "group": "A_original_live_identity",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/original-live-identity-before-seed.json",
+      "bytes": 52899,
+      "git_blob_sha": "1730e2713f0b8673a8144a9e747a498145a0c582",
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7",
+      "sha256_basis": "retained whole canonical identity has exactly the same Git blob and size",
+      "original_run_id": "43607404925",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 5,
+      "group": "A_original_live_identity",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/original-live-identity-before-seed.json",
+      "bytes": 52899,
+      "git_blob_sha": "1730e2713f0b8673a8144a9e747a498145a0c582",
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7",
+      "sha256_basis": "retained whole canonical identity has exactly the same Git blob and size",
+      "original_run_id": "43611175099",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 6,
+      "group": "B_realized_trial_metadata",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43672150224-1-modelresponse/actual83-original-transport-receipt.json",
+      "bytes": 197634,
+      "git_blob_sha": "370f64eb1a9dd91f69121fadadc70d22ec5afd8b",
+      "sha256": null,
+      "sha256_basis": "unknown; body not fetched or decompressed; fixed Git blob and byte count identify exact recovery",
+      "original_run_id": "43672150224",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 7,
+      "group": "B_realized_trial_metadata",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43668743706-1-modelresponse/actual73-realized-trial/root-return-packet-manifest.json",
+      "bytes": 157973,
+      "git_blob_sha": "07ad10b2353fbb99796377589b3625d9e42562b9",
+      "sha256": null,
+      "sha256_basis": "unknown; body not fetched or decompressed; fixed Git blob and byte count identify exact recovery",
+      "original_run_id": "43668743706",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 8,
+      "group": "B_realized_trial_metadata",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43668743706-1-modelresponse/actual73-realized-trial/input-binding.json.gz",
+      "bytes": 116398,
+      "git_blob_sha": "02f95ce8d247ff8bc3a1686477e369edfabe6c7e",
+      "sha256": null,
+      "sha256_basis": "unknown; body not fetched or decompressed; fixed Git blob and byte count identify exact recovery",
+      "original_run_id": "43668743706",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 9,
+      "group": "C_pre_call_launch_intent",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43622149326-1-rawcell0steps/native-rawcell0-step-capture/verified-launch-intent.json",
+      "bytes": 166639,
+      "git_blob_sha": "d5e84bda4c20f572f500680eaf446de3574697cb",
+      "sha256": null,
+      "sha256_basis": "unknown; body not fetched or decompressed; fixed Git blob and byte count identify exact recovery",
+      "original_run_id": "43622149326",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 10,
+      "group": "C_pre_call_launch_intent",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/native-rawcell0-direct-ld/verified-launch-intent.json",
+      "bytes": 166625,
+      "git_blob_sha": "5e4bb6093baef21264a9776b63f56e0978f28c50",
+      "sha256": null,
+      "sha256_basis": "unknown; body not fetched or decompressed; fixed Git blob and byte count identify exact recovery",
+      "original_run_id": "43634889730",
+      "body_read_in_this_retention": false
+    },
+    {
+      "id": 11,
+      "group": "D_saved_stage_metadata",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43632067148-1-stagecovariance/saved-stage-covariance/input-binding.json",
+      "bytes": 67216,
+      "git_blob_sha": "3236d2c73febb795c54a3d82a1706cbf81c3bd01",
+      "sha256": "1f8a09d4a12f1a1a686b1ed56661e51bfcada8ecae441d4be122e3b43fcfd578",
+      "sha256_basis": "complete small text read and SHA256 computed",
+      "original_run_id": "43632067148",
+      "body_read_in_this_retention": true
+    },
+    {
+      "id": 12,
+      "group": "D_saved_stage_metadata",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43632067148-1-stagecovariance/saved-stage-full-reference/input-binding.json",
+      "bytes": 58717,
+      "git_blob_sha": "0a23943d3a7bab83c592e7d0a4d820d84fcdbe56",
+      "sha256": "7eab1b630e11b040e2cbe5f2282482c7dde19398545801400c3335d55b3dbc0f",
+      "sha256_basis": "complete small text read and SHA256 computed",
+      "original_run_id": "43632067148",
+      "body_read_in_this_retention": true
+    },
+    {
+      "id": 13,
+      "group": "D_saved_stage_metadata",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43632067148-1-stagecovariance/saved-stage-covariance/array-manifest.json",
+      "bytes": 49663,
+      "git_blob_sha": "ee7638164b1bbbcfcac9613950651782fc813ea5",
+      "sha256": "e41e2a0f597647fc08db0477d8fd727ddb76ed7f00c25ae191ccfd99e788da22",
+      "sha256_basis": "complete small text read and SHA256 computed",
+      "original_run_id": "43632067148",
+      "body_read_in_this_retention": true
+    },
+    {
+      "id": 14,
+      "group": "D_saved_stage_metadata",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43632067148-1-stagecovariance/actual47-artifact-fetch-receipt.json",
+      "bytes": 28310,
+      "git_blob_sha": "e926844825aee44baee51cef3fdf6ea0f02bcb12",
+      "sha256": "92f25421aba479dfd8bd39c70f7eabf5b13fe899963a27c4be836fae995c61b9",
+      "sha256_basis": "complete small text read and SHA256 computed",
+      "original_run_id": "43632067148",
+      "body_read_in_this_retention": true
+    },
+    {
+      "id": 15,
+      "group": "E_output_array_descriptors",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/rawcell0-direct-ld-correction/output-array-manifest.json",
+      "bytes": 29049,
+      "git_blob_sha": "f8d24866c8eff84fdbfb9310f20b9b5e05d31ed3",
+      "sha256": "75c4ccbf15cca130345b74475f7de756957ea8b37d7e251dc1138513f79c8131",
+      "sha256_basis": "complete small text read and SHA256 computed",
+      "original_run_id": "43634889730",
+      "body_read_in_this_retention": true
+    },
+    {
+      "id": 16,
+      "group": "E_output_array_descriptors",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43620111146-1-nativesplitband/native-split-equilibrated-correction/output-array-manifest.json",
+      "bytes": 25417,
+      "git_blob_sha": "a478aa918a68c6c624afc4c043a7065bb4d449bf",
+      "sha256": "45f80e87d1c9ff66c338008a1205dc8850af8adfe1e27ec5afc99f05ef5c5639",
+      "sha256_basis": "complete small text read and SHA256 computed",
+      "original_run_id": "43620111146",
+      "body_read_in_this_retention": true
+    },
+    {
+      "id": 17,
+      "group": "E_output_array_descriptors",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43623850723-1-rawcell0band/rawcell0-step-equilibrated-correction/output-array-manifest.json",
+      "bytes": 23542,
+      "git_blob_sha": "70b2de1515c6092a3130741723b7fdb78e598c0c",
+      "sha256": "146848d424be796e7f346730eea4c34598427da0b2bd857b045f3360df4bc22f",
+      "sha256_basis": "complete small text read and SHA256 computed",
+      "original_run_id": "43623850723",
+      "body_read_in_this_retention": true
+    },
+    {
+      "id": 18,
+      "group": "E_output_array_descriptors",
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/output-array-manifest.json",
+      "bytes": 25042,
+      "git_blob_sha": "f05b4294bfcc6a04d741bb3cb53f14010cca27be",
+      "sha256": "f0533e52327eff3789e41fea44077e711abf421138ef067069b660336067dbc4",
+      "sha256_basis": "complete small text read and SHA256 computed",
+      "original_run_id": "43626121246",
+      "body_read_in_this_retention": true
+    }
+  ],
+  "delete_entries": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/original-live-identity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/original-live-identity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/original-live-identity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/original-live-identity-before-seed.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/original-live-identity-before-seed.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43672150224-1-modelresponse/actual83-original-transport-receipt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43668743706-1-modelresponse/actual73-realized-trial/root-return-packet-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43668743706-1-modelresponse/actual73-realized-trial/input-binding.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43622149326-1-rawcell0steps/native-rawcell0-step-capture/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/native-rawcell0-direct-ld/verified-launch-intent.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43632067148-1-stagecovariance/saved-stage-covariance/input-binding.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43632067148-1-stagecovariance/saved-stage-full-reference/input-binding.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43632067148-1-stagecovariance/saved-stage-covariance/array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43632067148-1-stagecovariance/actual47-artifact-fetch-receipt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/rawcell0-direct-ld-correction/output-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43620111146-1-nativesplitband/native-split-equilibrated-correction/output-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43623850723-1-rawcell0band/rawcell0-step-equilibrated-correction/output-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/output-array-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    }
+  ],
+  "root_publication_boundary": {
+    "fresh_path_blob_size_match_required": true,
+    "ordinary_nonforce_publication": true,
+    "do_not_remove_unmatched_or_adjacent_objects": true,
+    "root_is_only_ref_and_queue_writer": true,
+    "construction_changed_refs_or_queues": false,
+    "implementation_commit": null,
+    "actual_implemented_deletions": null
+  },
+  "recovery_scope": {
+    "primary": "Complete fixed Git commit/path or exact whole blob; ID1..5 may also copy all canonical bytes. Preserve original compressed bytes and all historical reader guards.",
+    "availability": "No new external archive download or claim of future external service availability. Original complete input recovery contracts and unavailable-payload boundaries remain whole.",
+    "no_recomputation_required_for_exact_retirement_object_recovery": true,
+    "no_empty_or_count_only_substitution": true
+  },
+  "evidence_scope": {
+    "metadata_and_full_small_text_only": true,
+    "large_or_binary_candidate_body_read": false,
+    "unknown_whole_sha256_count": 5,
+    "known_whole_sha256_count": 13,
+    "scientific_calculation_performed": false,
+    "AST_or_fixture_or_benchmark_performed": false,
+    "new_science_gate_added": false
+  },
+  "publication_notes": "Root may append its actual implementation record without reinterpreting any scientific result. Construction has protected all new bodies in the repository object store but has not made them reachable through a ref."
+}
