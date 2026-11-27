@@ -675,3 +675,7 @@ R1078纸证原47全部23 Cartan角对应、完整CM/cusp fixed-cycle、迹及com
 2026-11-27 11:35 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1079纸证两种实际CM的Ψ–ζ modT^(p²)完整carry，保原slope+1与全部低分母/极项精度；没有约化整条高ζ。
 继续原短η/ν三平移、theta3真实配对和Gaussian高系数下位卷积；新系数接口不当作单位目标完成。
+
+2026-11-27 11:38 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1080登记full47严格rank=73：run45934421302/job140294236296源702f543e，精确三因子16/24/33与全73嵌入L′>0；DLF已刊Appendix Prop8/Cor4给实际代数秩及ρ_Q。
+只存脚本/参数/哈希，20.6657秒。继续原角trace-square、good-prime整格与深盘高度，不把rank输入当点分类。

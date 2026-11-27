@@ -311,3 +311,5 @@
 - **R1078（已证明）**：[原47 Cartan对应与完整fixed cycles](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：全部23角、CM粗模2/3重数和23cusps、准确trace、原g73、association composition及实际Rosati迹配对；具体13R0+4R2迹零，非零与高度首项另核。
 
 - **R1079（已证明）**：[原CM Ψ–ζ完整短carry](results/R1079-original-CM-Psi-zeta-short-carry.md)：两种原CM模型在实际整T下Ψ=Z_<p^p+δT modT^(p²)；Gaussian Ψ递推、原slope+1、完整短分母和首负p极精度齐备。原e及Gaussian高G单位仍开。
+
+- **R1080（已证明，严格计算）**：[原full47 Jacobian秩](results/R1080-certified-full-level47-Jacobian-rank.md)：精确new Fricke+因子16/24/33，全部73嵌入Arb L′>0，已刊Kolyvagin–Logachev型定理给rankJ=dimJ=ρ_Q=73。run45934421302/job140294236296，20.6657秒；无MW饱和/盘内唯一声明。

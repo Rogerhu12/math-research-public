@@ -33,9 +33,9 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 [R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原23个角对应全部fixed-cycle、degree/trace、composition与Rosati迹配对已纸证。Z=13R0+4R2是迹零actual cycle；未先验宣称endomorphism非零或指定残余θ(Z)=0。完整23项TrZ²待新公开CI。
 
-新请求 [full-p47-rank](notes/full-p47-rank-request.json) 用精确modular symbols分别取star sign与Fricke+，完整新空间分解及全实嵌入Arb L′，固定M256/512bits、数学600秒；脚本/方法有SHA钉住。v2 run45934103402精确Fricke+维73/−84后遇QQ-kernel proof关键字错误；v3已修，导数未出；只补R45的A=J，不能代MW饱和/283高度/盘内唯一。
+[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，完整Fricke+三因子16/24/33、73实嵌入严格L′>0，DLF Appendix Prop8给原全J rank=dim=ρ_Q=73。M256/512bits/严格尾、20.6657秒及全部hash保原文；不重跑，整MW/局部块/aux高度及盘内唯一仍开。
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原p47全部235盘经ℓ283同点筛选仅余8个已定位Q-CM盘，排227盘；run45928658257/job140275928914源e5d0d9d。独立Burnside给279原aux点，完整279标签使图单射，同一个CM点在283约化；47一般j同余模47²，特殊j0/1728为4/3阶。§9新增整个Cp tube的scaled-j解析同构与原非对角支撑/raw坏47配对零；旧R43已使同盘QC项相同。八盘内部排点、full47秩/aux高度和全p仍开；全部pins/hash只消费。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原p47全部235盘经ℓ283同点筛选仅余8个已定位Q-CM盘，排227盘；run45928658257/job140275928914源e5d0d9d。独立Burnside给279原aux点，完整279标签使图单射，同一个CM点在283约化；47一般j同余模47²，特殊j0/1728为4/3阶。§9新增整个Cp tube的scaled-j解析同构与原非对角支撑/raw坏47配对零；旧R43已使同盘QC项相同。八盘内部排点、aux整高度和全p仍开，full47秩已见R1080；全部pins/hash只消费。
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V有限式/phase/两twists已付。R1075闭合原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse单位斜率；good条件仅留global圆单位坐标。原f_N/e及盘内/global排点仍开。
 
