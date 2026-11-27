@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** 603552b7fb0919202037b084ce1bbc5ffdf10ef7（2026-11-27 16:46:08 UTC，Actions run46036328803实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46036328803-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 16:46:08 UTC/e939c22cac88543831c72c69c506c8279a028a45，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `603552b7fb0919202037b084ce1bbc5ffdf10ef7`（2026-11-27 16:45:43 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `a18da5e44c257156799a01f824079cff15dcdd0f`（2026-11-27 16:47:46 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-entire-NV-pure-T5-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-collision-Delta-nonzero-four-original-polynomials-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k整个Delta0已闭。** 7bd9全Delta五原行/三列与cf0整QQ578→七λ覆盖已付；C1、C2整原八Gram闭后，3b4真1.906秒/37028KiB/0在完整C4×首一三次u的12维代数返回全八Gram，同自由f的E1/EBe全Bézout1；不选常数嵌入。整等权/T0零/J=Q/Phi0/Q1−u各原面均闭，新6b21保同NV/P1转Delta非零四原残式；h1/k1≤6219仍开。5b2有理u cofactor超时冻，所有原来源/失败保档。
+- **h=k整个Delta0已闭。** 7bd9全Delta五原行/三列与cf0整QQ578→七λ覆盖已付；C1、C2整原八Gram闭后，3b4真1.906秒/37028KiB/0在完整C4×首一三次u的12维代数返回全八Gram，同自由f的E1/EBe全Bézout1；不选常数嵌入。整等权/T0零/J=Q/Phi0/Q1−u各原面均闭，6b21真3.239秒/57596KiB/0，Delta非零同NV/P1四原残式λ/u/Q度49/12/5、48/12/6、54/13/6、51/13/6；全QQ不可约且全头零保，4500只读保存原系数首作两QQ Q投影；h1/k1≤6219仍开。5b2有理u cofactor超时冻，所有原来源/失败保档。
 - **旧D≠0Phi0∩zn0闭；rho头零主支87/55与C71/29仍开。** 例外权69ab整λ半/H6纤维闭，68dbc真QQ重数10/2及2011余式全Gauss给≤146有序基点，各≤6T；新6cf整真矩ψD纤维/局部原矩阵核首派。全Phi四二次头共同零准确F10/Q=−a9十权，883c真0.695秒/41660KiB/0完整同两线det零支与60维真乘法矩阵原单位合闭；故四头开图全覆盖，不全局倒第一头。100ce真BD∈原四式理想给首头图P6度39/20/6，6ca已返不可约及λ头H19/11未付；整个第一头零曲线与λ头零全保。两快照/路径失败及ed0/879资源门冻结。
 
 ### rankH3原ess6

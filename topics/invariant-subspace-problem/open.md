@@ -263,3 +263,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 ## W 整个原 NV 的纯T5理想替换（8542，2026-11-28）
 
 [完整原恒等与实际返回](results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md)：da64真6.202216625秒/102740KiB/0，未约化C5+Phi·f·C4=mPhiQMell²Vlow全乘回，故(C4,Vlow)=(C4,C5)；T5头−4uQP02ell²(1−Q)已付。三新cofactorλ14/12/11的头仍未付。新1be只由已付原q5公式减(T+γ4)q4及一次μ3q3得到NV2≤T²，先完整恒等再因式分解真头，头零整面保留；不重跑旧N4/余子式门。
+
+## h=k 余Delta非零的四个完整同点原式（8542，2026-11-28）
+
+[新原四式](results/R150-appendix-unit211-equal-singleton-Delta-nonzero-four-complete-original-polynomials.md)：6b21真3.239153137秒/57596KiB/0，整Delta0闭后同P1/NV恢复f=Fnum/Delta、z=Tnum/(bcDelta)，四原均值/N1核心度49/12/5、48/12/6、54/13/6、51/13/6且完整QQ不可约。W的Q头只依λ，但未付为单位；所有λ/权头零保留。新4500直接读两个约66KB精确系数参数片段，先原Q头全分解，再(R,W)/(R,N1)两固定11阶QQ结式；多变量gcd1不作空性，个别N/P仍保。
