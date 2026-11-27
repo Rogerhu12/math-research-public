@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Q=1−u整ell=1/2权线排除](results/R150-appendix-unit211-Q1minusU-complete-ellHalf-exclusion.md)：原Dphys完整理想身份，唯一16次分母在整个QQ商代数中全96列乘回；本边界可付2ell−1。
+
 - [一般W0整条u=Q权线排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-equals-Q-complete-original-exclusion.md)：原F9全部头零、同点Cramer完整QQ Bézout1、F3原Dphys及F95固定十四原行Gauss全覆盖；W0可付u−Q。
 
 - **已证明：** [Q=1−u的整个Kz=0权曲线排除](results/R150-appendix-unit211-Q1minusU-complete-Kz-zero-exclusion.md)：整曲线有理参数化，原48×35的完整QQ行列式余二次平方覆盖；完整QQ[v]/(v²+7)中原Dphys分子以29行来源乘回，两个复嵌入全排。源30c3c66b/ff12a088实际18.399/0.495秒；仅本Q边界支付Kz。
