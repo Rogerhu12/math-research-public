@@ -392,3 +392,6 @@
 
 
 - [R613正常397的真实457终态](notes/2026-11-27-r613-normal397-sixty-step-terminal.md)：**60次工作目标接受，但fine变差且未完成**；4768.702256165秒，工作η2.208819954e−7、fine2.244953790e−7及双direct均照实分列。末仍fraction1接受非stall，下一把已付fine峰r=.32708333333333334加入原950完整库；全部奇行/1130列/fine保持，新网merit不跨定义比较，独立fixedE397不动。
+
+
+- [R625完整行QR/SVD十次接受与fine盒终态](notes/2026-11-27-r625-dense-feasible-natural-final-agent.md)：**线性完整解已付，原根与本候选fine仍未合格**；新216.695643132秒、33完整QR/SVD、10接受/112真曲线盒拒绝。原ODE4.30927e13/stored十末0而coarse真末.26727、ruling3.41137e13；fine在shape/eta后失败，未有fine M/rho/ruling。最后真实state及全部失败/成本保存，后继同比缩h.9仅清墙，原四偶端缺陷按既有权重不变。

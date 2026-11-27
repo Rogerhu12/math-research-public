@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **c5cbf6cd63acdc12c99d9daa3ed765655fbbaf50**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **cbe13d8e3aa78be8e3e13e307abac098cf257b28**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -39,15 +39,15 @@ mean q64:80全变/h96=.6975711972395291，旧59a4完整几何不转移。所有�
 
 固定target **86da8c603f3d7ed9eb928481f0afe492f10bb209c94bf0ccaf8070c1aa1cd6c5**，未来normal q/H不替它。响应1473硬τ1，其余1472列/全部121600行；J48/2J96、原1129非mean/全部原口/a1真全平尾/coreP0保持，首次尚未完整评价。[完整模型](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)、全尾producer/双direct及[稳定坐标](notes/2026-11-27-r618-stable-coordinate-bound-scope-path.md)已审。E∈[.99,1.01]仅整个真帽→口；七类源误差未知不置零，条件界不作证书。新根政策须先绑定身份，原源冻结；全部重建/失败费用保留。旧R615改E闭合不套fixedE；S→η的同根/primitive/alias/M/ODE/舍入、全时族/宏观/严格存在均未付。
 
-## 6. 原十九态：可行L的40次接受，转同全行直接阻尼与h末盒
+## 6. 原十九态：全行QR/SVD十次接受，fine真曲线盒未过
 
-[可行L真实终态](notes/2026-11-27-r625-feasible-length-natural-final-agent.md)run45912884474/job140225165615/source5aa3756c；342.874342827秒+预载.317874901秒，40接受/154trial/102原path盒拒绝。原微分max **4.6125883651714664e13**，stored末十全0，但fine真末.257725752159/真ruling3.29461205220e13，原联合/真曲线门均未过；无异常/clock，实际数值stall。
+[完整原终态](notes/2026-11-27-r625-dense-feasible-natural-final-agent.md)run45916412405/job140236602211/source5033f516；00:27:29 UTC自然结束，新216.695643132秒另预载.45159104700000796秒。11Jac、33完整QR/33完整SVD、56阻尼解/23缓存，0新LU/LSMR；18方向全部实际选固定L+h，未有向内释放。10接受/122trial，112拒绝都是真C²盒，但原日志没有逐次违规lane，不补说全是h。
 
-末state26459B SHA **66cdaad57e0f03454743356b686d6471cee8cb3a0f32862f04fd15606d8cc3cd**；19×65原数组、十混合参数/原unit/已付LD锚/同曲线coarse及completed fine都在唯一原FINAL。L仍**2.1000000000449615**未吸附；末h(L)=**2.9999999999920437**在节点64到原上盒，中心H2.44432/v−.52757/β.37350仍内点。不能把所有早期102拒绝都补说成h末墙。
+最后原state26408B SHA **34927f117d04fc3c80cb27f199f169acb5c5fb60f65a54b60f692b8fd7525b5a**；19×65、原unit/LD锚和十参数完整保留。L **2.1000000000449615**、末h **2.9999999999920437**未吸附，H2.433631351705405/v−.5375978991126716。原ODEmax **43092719966557.664**，stored十末全0；coarse真末.2672745520455645/ruling34113723869318.57，所有联合门未过。
 
-45固定ΔL/0释放；41Jac/40LU、93LSMR全1600/istop7。末trust3.72529029846e−9/damp1.52415790276e−8。[已审完整行QR/SVD范围](notes/2026-11-27-r625-paid-dense-feasible-continuation-agent.md)保原行权/Euclidean惩罚/所有奇异值，实际阻塞才固定原值L/h增量并重试向内释放；新trust.25明示。直接载已付state/锚/coarse/fine，不复旧入口/LU/LSMR；原全物理/true-C²门不改。新run45916412405/job140236602211/source5033f516，00:23:18 UTC启动待自然终态。
+末trust3.725290298461914e−9/damp.00025811747917131974自然stall；随后64panel/129观察fine已尝试并到1153真shape/eta点，在原C²盒失败，**无本候选fine M/rho/ruling**。123真曲线尝试/10完整报告及113部分失败成本保留，余3083秒非clock。下一实际h与全部h jets缩为.9，k/L不变，依R322保八M权重和四原偶端缺陷不变；新真eta/A/rho必须完整重积分、非零真末不改零。仅清墙不是原根或端改善；fixed母/ε/原ζ1ζ2/锚保持，ζ0完整重算。
 
-[此前混合图](notes/2026-11-27-r625-paid-gauge-coordinate-natural-final-agent.md)190.431593844秒/27接受、[首次全反馈](notes/2026-11-27-r620-r625-first-full-feedback-natural-final-agent.md)28.886597651秒/0接受及R616以前完整九项费用/失败链均保最新收据；旧metadata布尔bug不作重跑理由。R619/620/624/625/626/[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)仅按原真M/末返回前提使用，不套当前未返回态。原19/10参数/8末A+双速度/完整正势/ruling、18块/576微包/ε1/12000不变，65→129仍须原配点门，pose/闭材料未付。
+此前40接受342.874342827秒、27接受190.431593844秒、首次28.886597651秒及更早十项账保最新收据，不重旧资格。R619/620/624/625/626/[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)只按真实返回前提用；原19/10参数、18块/576微包、ε1/12000、全正势/两ruling/原物理盒不变。65→129须原配点门，pose/闭材料未付。
 
 ## 7. 59a4单候选完整reach门已过，仍非宏观fixed-g族
 

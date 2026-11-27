@@ -663,3 +663,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜实际457原fine峰的最小径向exchange范围及小时规则同步
 
 根全文审15592B driver/6593B说明/5035B workflow；28来源hash/sparse/AST及220270B stdin核合，原22777B q文字逐字、全部成本字段与唯一原FINAL完全吻合。新main显式原950∪唯一已付峰→951，全121728行/1130列；solve/Jac/QR/fine直接调用原函数，无旧全局patch，原dr权按并集更新且新merit不能跨网比较。根00:50:21 UTC实际pull私库到50c1c0039e5e9ff8c6979369a8059aad7efc3ddf，根README空diff/原blob不变，QUEUE唯一本会话；H已记本次与01:45前下次要求。仅新request规则metadata更新，科学stdin不变。
+
+
+## 2026-11-27｜R625完整QR/SVD原十次接受与fine失败的唯一终态
+
+根全文审15416B收据，独立核1368216B原stdout/204563B唯一原FINAL及26408B state SHA；区分pretty JSON文件与原始逐字JSON。33因子均complete=True/complete_factor_ready，122trial/112真C²盒拒绝、10接受和18双活跃选择均吻合。原同候选fine确已尝试并失败，无M/rho/ruling，不能继承上一候选资格；123真曲线尝试和113失败部分全部保成本。新216.695643132秒另预载.45159104700000796秒、原十项链保留。后继h.9真实新输入承认四原偶端量不变；实际history重积分及原固定母/规范条件完整保持，未在本地科学。
