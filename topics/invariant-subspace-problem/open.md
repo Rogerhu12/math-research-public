@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[h=k整个等权碰撞闭](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-and-entire-collision-exclusion.md)与[T0=Delta0整个原面闭](results/R150-appendix-unit211-equal-singleton-T0-Delta-zero-complete-original-exclusion.md)；Delta0 h1/k1≤6219保留。** 402d真0.120秒/37448KiB/exit0；原P1付Phi、原Delta迫lambda1/3、同NV迫u125/123，全部八原式保自由f返回，EBe+(2203/3075)EBo=32956/5253125。46c5参数漏装的NameError记录保持。新031d只接互补T0=0、Delta非0：bc/P02/Phi简化后未缩放两参数Gram，完整八式及固定QQ投影，180秒4GiB。T0非零的一般碰撞、其它原面及物理第五列开，不外推旧D单位。
+**[h=k整个等权](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-and-entire-collision-exclusion.md)与[整个T0零原面](results/R150-appendix-unit211-equal-singleton-entire-T0-zero-original-exclusion.md)全闭，可在该碰撞付u−ell/T0；Delta0 h1/k1≤6219保留。** 031d真0.222秒/41044KiB/exit0，完整未缩放两参数八原式，固定4阶QQ结式71/67仅剥已付单位得28/12，QQ Bézout1；合402d原T0=Delta0整面，绝不借旧D单位。下一J=Q原面直接原P1/NV：Phi=−4(u−1)²，NF=Q(1−2lambda)(3lambda²−3lambda+1)/A²；Delta0保整个二次常数代数，一般补图仍开放。其它碰撞/原第五列继续。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 
