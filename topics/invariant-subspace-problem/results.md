@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R271 原形式除法伴随的实际值域非闭（2026-11-27，已证明）：** [同尾真实域奇异列及两型首位消逆](results/R271-appendix-actual-division-adjoint-nonclosed-range-same-tail.md)构造y_q=Sh_q∈D(G0*)，归一后弱趋0且G0*y_q趋0；原首位Schur残量为O(σ_q²)，来源范数下界为常数σ_q，完整Y逆保留。G0*闭且单射，故实际RanG0*非闭；无全h或有限坐标一致的||Sh||≤C||T*h||。输出均在RanT*⊂M⊥，两个闭包核心及真实W的Γ仍开。
+
 - **R150 一般LS的Delta0/W对ell首项零整支排空（2026-11-27，已证明）：** [原34阶cofactor、98次完整覆盖和各原纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-leading-zero-exclusion.md)完整覆盖u=1/2,Q=2、ell任意；40原乘法行、315系数身份、六一致性Bézout给原覆盖，五整因子用实际原双层投影的一元Gauss排除，ellhalf另完整QQ返回。源3769e6d6实际6.831982秒/55268KiB/exit0。W0图可付u(Q+2)−2；W0和一般Delta0尚未排空。
 
 - **R150 一般LS零行列式图的全域单首项值降维（2026-11-27，已证明）：** [原矩双向身份、六条完整值投影与同Gram必要子式](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-global-monic-value-quadratic.md)把原四条值等式等价为首一二次式及三个一次式，ell/T/等权和各一次首项零面全保；六个参数式完整刻画这四条等式的共同根存在性。原Phi只在Delta0图由P1双零已闭定理支付。四Gram子式仍只必要，全部物理非零及同f返回保留。源ea0ffae2实际1.288568秒/48700KiB/exit0，22分母检查；未排空一般Delta0。

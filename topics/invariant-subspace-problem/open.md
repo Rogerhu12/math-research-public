@@ -138,7 +138,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离、具体B内核心、odometer非平凡谱投影距离≥1/π及全非奇异加权复合距离均已闭，完整链接/原边界保[快照](notes/2026-11-27-open-before-same-eta-and-output-core-8542.md)。R38真实Y∈D\B；全R自伴核、连续Fourier乘子及未知普通M的D保持仍开，不能无损拼合一般细块。
 
-[同源dyadic两边界](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)已付，含Y全逆和可能增长的h^(<r)成本；指定prefix-cut当且仅当λ_r||y_r||及真实头顶行趋零。一般W的最大图域/这两费仍需原来源证明。
+[同源dyadic两边界](results/R271-appendix-exact-dyadic-division-graph-boundaries-and-cayley-cost.md)已付，含Y全逆和可能增长的h^(<r)成本；指定prefix-cut当且仅当λ_r||y_r||及真实头顶行趋零。[实际RanG0*非闭](results/R271-appendix-actual-division-adjoint-nonclosed-range-same-tail.md)已由Sh域内同尾奇异列证明，两个闭包核心/一般W最大域及两费仍开。
 
 [原奇数剩余类同范数强*密度](results/R12-appendix-contractive-strong-star-density-in-every-odd-residue-class.md)已付：每个完整交换子X可仅用任意固定奇p剩余类、最低次数→∞的多项式，以范数≤||X||强*逼近。单剩余类尾循环空间仍是[f]_B，正常配对和同一已存闭域图单位可返回；不把它搬到负整数boundary，不推出全域像入闭根域。继续PH⊂DomT或同源有界分母接口。
 

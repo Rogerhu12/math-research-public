@@ -5,7 +5,7 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** `fcaa1657c0f9817ad804d2098e1649125b899127`（2026-11-27 02:15:38 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
+- **最近实际 pull / 已读规则提交：** `c0ecae620a99c4b2174571e02298088d54cf736e`（2026-11-27 02:19:56 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库QUEUE已推5746fa79且仍本会话进行中；最近实际私库pull：2026-11-27 01:43:16 UTC，已读0ffb6ba2967365884b38f1fd81778a8f2f9f73af，两README diff无变。公私均部分克隆。
 - 每次pull且至少每小时检查两README，变更只读差异立刻执行并记SHA。每意义步骤单独终端推；非快进/ref竞争立即pull --rebase循环，无force。令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
@@ -41,7 +41,7 @@
 
 - M=kerT、N=closureBM、W=M⊖N，N=M未证。全部原partial/真intersection旗/MP自然域/完整帽外投影保留；负整数边界不等于Haar。原forcing、短旗、Galerkin/Gram、Hankel、全矩/方差、Riordan同源已付，余64^R、γ<1/16绝对Z、32^N孔权、帽外返回及一般e^(κy)清除，F0/首阶核条件不可删。
 - 终端k=h−1费、L=o(x^(2/3))窗到全母窗桥仍开；通用小κ右逆/短核小残量有障碍。无锚Γ²≤27μ1不传有锚/第二Green。全M前缀Γ_occ约1.723637与e^(−47n⁴)carry不足alpha逆费；原来源/费用保最新H及正文。
-- 原G0=TJ_B闭图多值部Ce0；投真空后N⊂kerA_min⊂M，I=closureRanT*⊂J=closureRanG0*⊂N⊥。J=I、J=N⊥分别开；指定dyadic cut须λ_r||y_r||和原头缺一位顶行，Y全逆保留，不宣一般W在最大域。
+- 原G0=TJ_B闭图多值部Ce0；投真空后N⊂kerA_min⊂M，I=closureRanT*⊂J=closureRanG0*⊂N⊥。J=I、J=N⊥分别开。新同尾Sh真实域奇异列证RanG0*确非闭、无统一||Sh||≤C||T*h||；输出只在M⊥。指定dyadic cut仍须λ_r||y_r||及原头缺一位顶行，Y全逆保留。
 - b_q=q⁻²alpha_q/alpha_(q−1)平方源C2对两型给完整总孔核心。Y准确K_Y=−V_b+R_b，R_b:C2→H界12，V_b填首缺位升一孔，D*−V_b保同阶抵消。h∈C2、T*h∈H即cut同返T*h/Sh，不需单独carry在H。Y在C2内最大carry域是有限行和平方可和，额外对角权界恰Σ1/ω有限。
 - 精确15/16无条件端点已付，σ>15/16两型失败；y=Sh余费Σalpha_q^(−1/8)||P_q^+y||²。N最大carry域经有限行严格三角重构：各Pq h在H且Kh在H即ρ平方和；不能先拆实际D*/K相消。
 - 同w=Ju的Sh∈H恰整个偶块h0在H；g0=H*(I+H*H)u，Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²有限恰g0在实际RanK*，W只付闭包像。N/Y正则化列的全Q_H费用与||u||²+||K(K*K+ε)^−1g0||²双侧比较，Γ/C2及输出逆权未付。
