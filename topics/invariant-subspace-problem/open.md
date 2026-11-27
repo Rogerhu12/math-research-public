@@ -168,3 +168,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 [两模型共同的原平方源图核心](results/R271-appendix-y-carry-first-gap-row-domain-and-common-square-source-core.md)现已付：Y完整Cayley给K_Y=−V_b+R_b、||R_b||_(C2→H)≤12；D*−V_b严格升总孔，保两者各非H时的同阶相消。只需同一h∈C2且T*h∈H，即总孔截断同返T*h/Sh；N型已有对应平方结论。真实W的规范h∈C2仍未证，Γ有限/普通Sh∈H/各固定总孔层在H均不自动支付。Y在C2中的单独carry域准确由有限行和刻画，不能把其额外对角权条件说成完整T*图核心必需。
+
+
+[实际第一阶正则器的平坦/可逆二分](results/R12-appendix-actual-first-regularizers-flat-or-invertible.md)已识别同一R128/R143正则器：行属ell1即C∩UHF单位，非ell1即全兼容喷射平坦。只用真实尾闭域分解与空谱预解式；未知L上的另一分母D=−2Z稠密像及伴随域包含仍未付，不能以此二分代替。

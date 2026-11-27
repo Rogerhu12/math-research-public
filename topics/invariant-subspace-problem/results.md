@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 同一实际第一阶正则器的平坦/可逆二分（2026-11-27，已证明）：** [真实尾预解式、全部字符矩阵及复四正分量](results/R12-appendix-actual-first-regularizers-flat-or-invertible.md)给ell1行的R(t)为C∩UHF可逆元，非ell1行为非零全喷射平坦元。每个有限头的真实尾空谱使其预解式拟幂零，完整有限头字符矩阵因此全零；复行共同乘积也准确二分。没有把R(t)混作未知L上的D=−2Z，后者稠密像与实际伴随域仍开。
+
 - **R271 原Y的准确行和域及两模型统一平方源图核心（2026-11-27，已证明条件定理）：** [完整Cayley余项与保同阶抵消的总孔核心](results/R271-appendix-y-carry-first-gap-row-domain-and-common-square-source-core.md)给K_Y=−V_b+R_b，R_b从原b平方源C2到H范数≤12；V_b准确填首缺位、每行有限且升总孔一。D*−V_b合并后，任何h∈C2且形式T*h∈H均由原总孔cut返回完整图，不需单独D*/carry属于H。Y单独carry最大域及对角权Σ1/ω充要性另精确刻画；真实W是否在C2仍开，未宣N=M。
 
 - **R150 L0原C/X有精确3352次特征零覆盖（2026-11-27，已证明必要归约）：** [73阶原Sylvester的QQ行变换上界和完整模下界](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-CX-exact-degree-3352-cover.md)以2233次有理行变换、163009条逐项回乘把上界3390降到3352，与同一完整结式模1009次数相合；真实QQ首项于是为1009单位，单首项完整覆盖合法。源d69a91de实际31.958961秒/96912KiB/exit0。原允许参数交点有限，但尚未返回排除全部候选；另五曲线QQ门实际1200秒超时/exit1已冻结。
