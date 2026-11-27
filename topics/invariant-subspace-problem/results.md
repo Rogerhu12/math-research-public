@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般J=Q、H=0整线的原二次权覆盖](results/R150-appendix-unit211-general-J-equals-Q-H-zero-original-two-point-cover.md)：八个固定原35×35 QQ行列式/Bézout仅余(u²−2u+4/5)³，保整线全部原退化面；u=2/3头秩降点已排，最后两个共轭权值待原返回。
+
 - [一般J=Q面两原头图及唯一四阶秩降点](results/R150-appendix-unit211-general-J-equals-Q-two-quadratic-charts-and-rank-drop-point.md)：H、G两主开图覆盖除(2/3,2/3,1/3)之外全部合法权点，15原子式与特殊点精确乘回；保留整H0线及全部有限原返回。
 
 - [Q=1−u 余下不同复权点至多222个](results/R150-appendix-unit211-Q1minusU-original-cofactors-222-degree-h-cover.md)：27真实原cofactor的模gcd、已付局部整首一性及固定Sylvester/Vandermonde秩亏共同给出特征零权点总数界；未排空各原纤维。

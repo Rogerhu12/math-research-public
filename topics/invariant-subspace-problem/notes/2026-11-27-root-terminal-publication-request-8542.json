@@ -1,21 +1,15 @@
 {
-  "message": "ISP: cover the general J equals Q plane by two original heads and one rank drop point",
-  "parentCommit": "a044c83ae61ed92021e37addba17daea5de20311",
+  "message": "ISP: reduce the entire general JQ head-zero line to two original weight points",
+  "parentCommit": "9fba1d2b2865407f949a81a72568a9980e378a3c",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-J-equals-Q-two-quadratic-charts-and-rank-drop-point.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-two-chart-head-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-original-cubic-atlas-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-H-zero-whole-original-Macaulay-return-8542.py",
-    ".github/workflows/invariant-subspace-general-j-equals-q-cubic-atlas-8542.yml",
-    ".github/workflows/invariant-subspace-general-jq-hzero-return-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-y-one-original-same-point-parameter-return-8542.py",
-    ".github/workflows/invariant-subspace-w-y-one-same-point-return-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-general-JQ-two-charts-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-general-JQ-two-charts-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-J-equals-Q-H-zero-original-two-point-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-JQ-Hzero-two-point-cover-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-H-zero-final-QQ2-original-return-8542.py",
+    ".github/workflows/invariant-subspace-general-jq-hzero-qq2-return-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -25,8 +19,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-general-j-equals-q-cubic-atlas-8542.yml",
-    "invariant-subspace-general-jq-hzero-return-8542.yml",
-    "invariant-subspace-w-y-one-same-point-return-8542.yml"
+    "invariant-subspace-general-jq-hzero-qq2-return-8542.yml"
   ]
 }
