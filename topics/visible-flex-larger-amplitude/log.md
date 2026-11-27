@@ -54,3 +54,7 @@
 
 17下一trial e2c1ad7真实23:15:09.707622统计返Phi4954.529810387847/Gram.6374134312335948，几何接受未知；current仍b0468/accepted2/g2.0460148700803895，reportfalse。没有把下一个point或Phi下降当接受。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)。双README云核至`545570af6c666c333f71fff133bad78c668f601c`无变（非pull）。
 19 note本节整理分钟按实际提交23:26订正；原科学事件时刻不变。
+
+## 2026-11-27 23:27:13 UTC — 18第二个恢复试步的原统计返回
+
+18第二trial4a822统计于23:12:07.025345真实返回Phi4954.618769177863/Gram.6374150628738562，几何/接受未知；current仍7d0d/accepted1/g2.0476206814786773。不能借17近同数值的决定；完整source/model/point与原缺值保。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。双README云核至`308f42b775d05859e3b5f0d9fc9250ffca1f2cae`无变（非pull）。

@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `545570af6c666c333f71fff133bad78c668f601c`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活17–20通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `308f42b775d05859e3b5f0d9fc9250ffca1f2cae`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活17–20通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -28,7 +28,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 [16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)：model8cc/current7e06/accepted0/g11.17545381570094，第四2fa731统计返、几何决定未知，首二三决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)：model f2e417/current b0468/accepted2/g2.0460148700803895，第二restoration真实接受；第三e2c1ad7统计已返、几何决定未知，终态未返。全部精确Phi/Gram/点/时间/source与原观察保全note；未公开分项不猜，异model同坐标不冒同场。
 
-18三入口失败/三诊断0与根第三次常量传播遗漏保[旧栈](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)、[producer续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。当前geometry5730/batch9104/driver10fa/reader8027/launcherf600/inputd892；全137角色/18源、原120pairs、157/7argv、458/445formal、48live及全预算保。实际e3d2eb/f600/PID7515/model9ec211/current7d0d，accepted1；当前reach+2.0476206814786773/distplus+.11871831669889943、余四g负。首restoration已真接受，终态未返。三失败族、全源/数值/参数见完整note。
+18三入口失败/三诊断0与根第三次常量传播遗漏保[旧栈](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)、[producer续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。当前geometry5730/batch9104/driver10fa/reader8027/launcherf600/inputd892；全137角色/18源、原120pairs、157/7argv、458/445formal、48live及全预算保。实际e3d2eb/f600/PID7515/model9ec211/current7d0d，accepted1；当前reach+2.0476206814786773/distplus+.11871831669889943、余四g负。首restoration已真接受；第二4a822统计返、几何决定未知，终态未返。三失败族、全源/数值/参数见完整note。
 
 [19完整启动及初统计](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)：仅b/S1/4→1/2，δ1/32；全137/18源、157/7argv、458/445formal、48live及全部预算保。两input0；实际36304a0d/f600/PID3240/model0abfbf/current7e06，初Phi3825.0583894874153/Gram.6460503011117507；初reach+.9684249942095058/distplus+.005863061771032241、余四g负，仍未可行。首restoration d761b5真实接受，accepted1/g.9679630392005261；六值同点保全note，仍未可行。完整三step72837B；science+pure116745B超95k，pure待科学自然返回后整接；旧点不作父场。
 
