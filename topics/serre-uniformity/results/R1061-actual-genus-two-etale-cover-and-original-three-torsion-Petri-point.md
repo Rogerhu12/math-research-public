@@ -2403,3 +2403,8 @@ $$
 (1061.94) 后 (1061.95)–(1061.96) 的全部相对 Frobenius、平移与常数。
 主目标的指定单位性和共同深盘排除没有在本节关闭。
 
+
+
+## 22. 同一个原 primitive 的后继完整表达
+
+[R1076](R1076-original-primitive-cubic-and-sixth-power-obstructions.md) 证明原 $\mathscr T=z(1-z)\mathscr H^3=-2v\Psi^3/\delta^3$，保其最高 $z^p$ 项；$L\mathscr T=2$、$L(\mathscr T^2)=40\mathscr T$，且本篇原 $\eta_j=j[z^j]\mathscr T$、$\nu_j=j[z^j]\mathscr T^2/40$。这给 $e=K_4=0$ 的准确双系数条件与完整短谱递推，未证明两个指定系数不能同零；原作用域及所有相对 Cartier 标度保留。
