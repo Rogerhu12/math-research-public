@@ -1,0 +1,423 @@
+# 原三变量向量场的正特征截断 Rolle、最小方程退出与完整立方重数界
+
+日期：2026-11-27 UTC。**状态：以下截断局部比较、统一最小方程退出与原低轴立方重数界已证明。常数只给存在性，未计算有效最小值；原 canonical 主目标及临界完整核仍未排除。**
+
+本文接同日《原三变量 Theta 向量场的全稳定素簇、截断 D-property 与小长度根理想》及其第8节。保持
+$$
+V=6t(1-t)\partial_t+
+ \left((1+2t)X+\frac23t\right)\partial_X+
+ 6(1-t)XY\partial_Y.
+\tag{1}
+$$
+原实际低轴是
+$$
+\gamma_s(t)=(t,x(t),\theta(t))\pmod{t^s},\qquad
+p=6s-1,\quad x(0)=0,\ \theta(0)=1.
+$$
+只使用已付的截断关系
+$$
+\operatorname{ev}_s(VF)
+ =6t(1-t)\partial_t\operatorname{ev}_s(F)\pmod{t^s}.
+\tag{2}
+$$
+不把 $\gamma_s$ 延成一条满足 $(1)$ 的无限特征 $p$ 解。
+
+方法沿 Binyamini 的重数森林结构，但本文逐项替换其特征零局部轨道步骤：局部比较用正规化赋值而非 Puiseux；一般点只作长度小于 $p$ 的有限流；原奇点直接保 $(2)$ 的误差与截断。下述定理不是对复解析定理作未经证明的换特征引用。
+
+## 1. 固定常数与待证上界
+
+沿前注第8节，固定
+$$
+d_0=864.
+$$
+在通用系数环上，对所有次数不超过 $d_0$ 的多项式同时考虑
+$(P,VP,\ldots,V^jP)$ 的升链，取其一个固定稳定指标 $M\ge1$。定义
+$$
+L=864+3M,\qquad
+B=\max\{M,288\},\qquad
+A=3B.
+\tag{3}
+$$
+本文所有特征均要求
+$$
+\boxed{p>\max\{83,L^3,2B+3\}.}
+\tag{4}
+$$
+这是一个固定的有限排除，独立于待测多项式 $P$、其系数及次数。没有把未计算的 $M$ 称作有效数值。
+
+**定理。** 对任意非零 $P\in\Bbbk[t,X,Y]$、总次数 $D\ge1$，在同一个原截断评价中，
+$$
+\boxed{
+\min\{s,\operatorname{ord}_tP(t,x(t),\theta(t))\}
+ \le (D+A)^3+(D+A)^2+(D+A).
+}
+\tag{5}
+$$
+评价为零模 $t^s$ 时，左边按 $s$ 解释。常数多项式的评价阶为0。
+
+稍强的森林记账给
+$$
+\min\{s,\operatorname{ord}_tP(\gamma_s)\}
+ \le D+D(D+A)+D(D+A)^2,
+\tag{6}
+$$
+但本文后续只使用 $(5)$，不优化常数。若右边至少为 $s$，结论本身不排除任何截断零；不可将一个立方估计当作二次临界的自动排核。
+
+## 2. 截断重数的准确局部定义
+
+在光滑三维形式邻域中，取一条光滑形式曲线 $\gamma$，以 $u$ 为参数。它只须满足某个有限精度 $N$ 的切向条件。将曲线拉直后写坐标 $(u,w_1,w_2)$，其理想为 $(w_1,w_2)$，并假设
+$$
+V|_\gamma
+ =a(u)\partial_u+b_1(u)\partial_{w_1}
+                      +b_2(u)\partial_{w_2},
+\qquad b_1,b_2\in(u^N).
+\tag{7}
+$$
+称 $a(0)=0$ 的情形为本节的奇点情形。实际原点的 $(2)$ 正属于此情形，且可取 $N=s$。
+
+对不可约簇 $W$ 的局部 germ，若 $\gamma$ 不包含于 $W$，令
+$$
+m_\gamma(W)
+ =e(I_\gamma,\mathcal O_{W,0})
+$$
+为 Samuel 重数。对有限个待处理簇，可任意选择 $\gamma_s$ 的足够一般的高尾，使 $\gamma$ 不包含于它们；这只选择计算局部交数的辅助曲线，保持原 $s$-jet 与 $(7)$，不声称它为无限轨道。对给定的有限森林，这样的延拓可以一次选定。
+
+给正循环 $\Gamma=\sum n_i[W_i]$，定义**线性加权的截断函数**
+$$
+\mathcal M_c(\Gamma)=\sum_i n_i\min\{c,m_\gamma(W_i)\},
+\qquad 1\le c\le N.
+\tag{8}
+$$
+这里没有将 $\min\{c,\sum n_i m_i\}$ 认成 $(8)$。实际始终只使用
+$$
+\min\{c,\sum_i n_i m_i\}
+ \le\sum_i n_i\min\{c,m_i\}.
+\tag{9}
+$$
+
+### 2.1 正规化枝与横截参数
+
+用足够一般、包含 $\gamma$ 的形式超平面把 $W$ 切到曲线。保留交循环的全部正整数权重；不需要断言曲线约化。对各正规化枝，设其赋值为 $\nu_i$。可把第一坐标换成
+$$
+\widetilde u=u+\ell(w_1,w_2),
+$$
+其中 $\ell$ 为一般线性式，使它同时横截有限个枝；在 $\gamma$ 上仍有 $\widetilde u=u$，且 $(7)$ 的误差阶不变。于是
+$$
+e_i=\nu_i(\widetilde u)\ge1,\qquad
+a_i=\min\{\nu_i(w_1),\nu_i(w_2)\}\ge e_i.
+\tag{10}
+$$
+泛线性式 $\ell'(w_1,w_2)$ 在该枝上的阶准确为 $a_i$。标准局部交数与正规化公式给
+$$
+m_\gamma(W)=\sum_i n_i a_i,\qquad
+\operatorname{mult}_0W=\sum_i n_i e_i.
+\tag{11}
+$$
+这些是整数赋值等式；没有在特征域内除以 $e_i$，也没有要求分歧指数与 $p$ 互素。
+
+## 3. 保全部cap与枝权的局部 Rolle 引理
+
+**引理1。** 设 $f$ 在 $W$ 上恒零，而 $g=Vf$ 不在 $W$ 上恒零，令
+$$
+\Gamma'= [W]\cdot\operatorname{div}(g)
+$$
+为实际适当交循环。对 $(7)$ 与 $1\le c\le N$，有
+$$
+\boxed{
+\min\{c,m_\gamma(W)\}
+ \le \operatorname{mult}_0W+\mathcal M_c(\Gamma').
+}
+\tag{12}
+$$
+若 $a(0)=0$，则可去掉第一项：
+$$
+\boxed{
+\min\{c,m_\gamma(W)\}\le\mathcal M_c(\Gamma').
+}
+\tag{13}
+$$
+
+证明：沿第2节的某个正规化枝，因 $f$ 在该枝上为零，$f(\widetilde u,0)$ 的拉回阶至少为 $a_i$，即其 $\widetilde u$ 阶至少为 $\lceil a_i/e_i\rceil$。由 $(7)$，再将 $g(\widetilde u,0)$ 拉回该枝，得到
+$$
+\nu_i g\ge \min\{a_i-e_i,Ne_i\}
+$$
+的一般界；奇点时切向导数不降低阶，故加强为
+$$
+\nu_i g\ge \min\{a_i,Ne_i\}.
+\tag{14}
+$$
+从 $\gamma$ 移回该枝的差在 $(w_1,w_2)$ 内，阶至少为 $a_i$，所以不削弱上述界。$a_i\ge e_i$ 保一般界右边非负。
+
+奇点时，由 $e_i\ge1$、$c\le N$ 及全部正权，
+$$
+\min\{c,\sum_i n_i a_i\}
+ \le\sum_i n_i\min\{a_i,Ne_i\}
+ \le\sum_i n_i\nu_i g.
+\tag{15}
+$$
+一般情形则先加回 $\sum_i n_i e_i$，得到同样的比较。最右边是沿同一泛截曲线的 $g$ 交数，也就是 $m_\gamma(\Gamma')$ 的线性总和。把这一总和再用 $(9)$ 截断，得到 $(12)$、$(13)$。更明确地，左边不超过 $c$，故先可把右边总交数取 $\min(c,\cdot)$，随后才用 $(9)$ 分解到各子循环；没有把 cap 当作线性运算。
+
+若采用一般情形的 $\operatorname{mult}_0W$ 项，使用整数不等式
+$$
+\min(c,\mu+q)\le\mu+\min(c,q)
+$$
+即可作同一分解。引理证毕。
+
+这个证明只用正规化上的整数赋值、局部交数与普通求导的阶界。特别，它在不可分投影的枝上仍成立；所需横截坐标已由 $(10)$ 单独选择。
+
+## 4. 一般点处的有限流与实际导数检测
+
+令 $q$ 为 $V$ 的一个非奇异点。因 $(4)$，所有 $j!\ (j\le2B)$ 均可逆，故可以取长度 $2B+1$ 的真实有限流
+$$
+\gamma_q(u)=
+\left(
+ \sum_{j=0}^{2B}\frac{V^jt(q)}{j!}u^j,\
+ \sum_{j=0}^{2B}\frac{V^jX(q)}{j!}u^j,\
+ \sum_{j=0}^{2B}\frac{V^jY(q)}{j!}u^j
+\right)
+ \pmod{u^{2B+1}}.
+\tag{16}
+$$
+Leibniz 公式在这些次数内准确给
+$$
+F(\gamma_q(u))
+ =\sum_{j=0}^{2B}\frac{V^jF(q)}{j!}u^j
+ \pmod{u^{2B+1}},
+\qquad
+\gamma_q'(u)-V(\gamma_q(u))=O(u^{2B}).
+\tag{17}
+$$
+因 $V(q)\ne0$，这是一条光滑曲线的有限 jet。任意保持该 jet 的一般高尾都满足第2节条件，取 $N=2B$。以下统一用
+$$
+c=B+1<2B.
+\tag{18}
+$$
+不需要存在无限特征 $p$ 流。
+
+对不可约簇 $Z$，在其一般非奇异点取 $(16)$。则
+$$
+\min\{c,\operatorname{ord}_uF(\gamma_q(u))\}
+ =\min\bigl(\{c\}\cup
+       \{j<c:V^jF\notin I(Z)\}\bigr).
+\tag{19}
+$$
+这只由有限代数条件决定。在下面的循环论证中，各局部比较对每个满足 $(16)$ 的一般高尾都成立，因此不需要给不存在的无限流定义唯一轨道重数。
+
+若 $Z$ 不包含于任何非零真稳定素簇，它的每个包含簇也不稳定，且其一般点不在 $V$ 的奇异集。对一个不稳定不可约 $W$，在其一般光滑点 $V$ 横截 $W$，故
+$$
+m_{\gamma_q}(W)=1.
+\tag{20}
+$$
+这是一次切向检测：存在 $h\in I(W)$ 而 $Vh\notin I(W)$；第一阶 jet 已付横截性，未用高阶或无限轨道。
+
+## 5. 三维的纯代数次数下界
+
+需要的 Hilbert 步骤可以在三维中直接支付，不依赖复解析几何。
+
+**引理2。** 设 $d>6$，$Z\subset\mathbf A^3_{\overline{\Bbbk}}$ 不可约，$P$ 为 $I(Z)$ 中非零最小总次数的多项式，$\deg P=d$。若 $Z\subset W$、$W$ 不可约且余维为 $j$，则
+$$
+\boxed{\deg W>d^j/12.}
+\tag{21}
+$$
+
+余维1时，$W$ 的不可约定义方程次数为 $\deg W$，且属于 $I(Z)$，故实际上 $\deg W\ge d>d/12$。
+
+余维2时，取 $W$ 的射影闭包及正规化。次数至多 $d-1$ 的仿射多项式限制空间，注入次数为 $(d-1)\deg W$ 的线丛截面空间。一个次数为 $e\ge0$ 的线丛的截面维数至多 $e+1$：在 $e+1$ 个一般点取值即为单射，否则非零截面有超过 $e$ 个零。因此该限制空间维数至多
+$$
+(d-1)\deg W+1.
+$$
+若 $\deg W\le d^2/12$，它严格小于
+$$
+\binom{d+2}{3}=\dim\overline{\Bbbk}[t,X,Y]_{\le d-1}.
+$$
+于是有一个非零次数小于 $d$ 的多项式在 $W$、从而在 $Z$ 上恒零，矛盾。
+
+余维3时 $W$ 为一点，其理想已有非零线性式，与 $d>6$ 不相容。因而这种包含在本引理假设下不会发生。以上证明在任意特征中成立。
+
+## 6. 高次数最小方程在288阶内退出
+
+**命题3。** 设 $Z$ 不包含于任何非零真 $V$ 稳定素簇，$P$ 为 $I(Z)$ 中非零最小次数方程。若
+$$
+d=\deg P>864,
+$$
+则
+$$
+\boxed{\text{存在 }1\le j\le288\text{ 使 }V^jP\notin I(Z).}
+\tag{22}
+$$
+证明不先假定退出阶有限。
+
+反设 $V^jP\in I(Z)$ 对 $0\le j\le288$ 全成立。最小性使 $P$ 不可约：否则其某个较低次数因子在不可约 $Z$ 上恒零。构造最多三层正循环
+$$
+\Gamma^1=\operatorname{div}(P),\quad \Gamma^2,\quad \Gamma^3,
+$$
+每个保留的分量均包含 $Z$，并满足
+$$
+\operatorname{codim}\Gamma^j=j,\qquad
+\deg\Gamma^j\le(2d)^j.
+\tag{23}
+$$
+
+同时保留下列完整局部归纳。对 $Z\subset W\subset\operatorname{supp}\Gamma^j$，在 $W$ 的一般点取第4节有限流及任一一般高尾，设 $\mu_W$ 为普通局部重数，则
+$$
+\boxed{
+\min\{c,\operatorname{ord}_{\gamma_q}P\}
+ \le (j-1)\mu_W(\Gamma^j)+\mathcal M_c(\Gamma^j).
+}
+\tag{24}
+$$
+$j=1$ 由除子因子分解与 $(9)$ 成立。
+
+假设第 $j$ 层已构成，写
+$$
+\Gamma^j=\sum_i m_i[W_i].
+$$
+由 $(21)$、$(23)$，
+$$
+m_i<12\cdot2^j.
+\tag{25}
+$$
+在 $W_i$ 一般点，其它分量不经过该点，而 $(20)$ 给 $\mathcal M_c(\Gamma^j)=m_i$。所以 $(24)$ 迫
+$$
+\min\{c,\operatorname{ord}_{\gamma_q}P\}
+ \le j m_i<12\cdot2^j j\le288<c.
+\tag{26}
+$$
+因此原实际导数已有一个首退出阶 $\ell_i\le288$：
+$$
+Q_i=V^{\ell_i}P\notin I(W_i),\qquad
+V^{\ell_i-1}P\in I(W_i).
+$$
+这是从截断不等式推出的有限退出，不是先假定有限后引用轨道阶。反设保证 $Q_i\in I(Z)$。
+
+对每个 $i$ 作适当交
+$$
+[W_i]\cdot\operatorname{div}(Q_i),
+$$
+保留其中包含 $Z$ 的分量，并乘回原权 $m_i$；所有这些循环之和定义 $\Gamma^{j+1}$。因为
+$$
+\deg Q_i\le d+3\ell_i\le d+864<2d,
+\tag{27}
+$$
+Bézout 给 $(23)$ 的下一层。
+
+为核 $(24)$，对下一层中包含 $Z$ 的任意 $W$，在它的一般点应用引理1。未保留的分量不包含 $Z$，故不包含 $W$，不会经过 $W$ 的一般点。实际交数的单调性给
+$$
+\mu_W([W_i])\le
+ \mu_W([W_i]\cdot\operatorname{div}(Q_i)).
+$$
+引理1把每个旧分量的 $\mathcal M_c$ 上界为其普通重数加新循环的 $\mathcal M_c$。将这些不等式乘原 $m_i$ 求和，旧式 $(24)$ 便变成
+$$
+j\,\mu_W(\Gamma^{j+1})+\mathcal M_c(\Gamma^{j+1}),
+$$
+正是下一层的 $(24)$。全过程中 $\mathcal M_c$ 按 $(8)$ 线性使用；只在单个多项式的左边取 cap。
+
+当 $j=3-\dim Z$ 时，所有保留分量都等于 $Z$。$(26)$ 此时使截断阶至多 $288$，而反设使它至少为 $289$（$c=B+1\ge289$），矛盾。命题证毕。
+
+由前注第8节的低次数命题及 $(4)$，$\deg P\le864$ 时退出阶至多 $M$。合并得到对全部最小次数方程的统一结论：
+$$
+\boxed{
+0\ne P\in I(Z)\text{ 最小次数},\
+Z\text{ 不包含于真稳定素簇}
+\Longrightarrow
+\exists\,1\le j\le B,\quad V^jP\notin I(Z).
+}
+\tag{28}
+$$
+这里小次数步骤真正使用局部 primary 长度 $<p$；高次数步骤使用的是 $(16)$–$(27)$ 的有限流和交循环，两者的逻辑没有混合。
+
+## 7. 原任意多项式的三层实际森林
+
+现在令 $0\ne P$、$\deg P=D$。以 $\operatorname{div}(P)$ 的不可约分量及其**实际因子重数**为根，递归如下。
+
+若节点 $n[W]$ 为一点，或 $W$ 包含于某个非零真稳定素簇，则把它作为叶。否则在 $I(W)$ 中选最小次数方程 $\widetilde P$。因原 $P$ 在 $W$ 上恒零，
+$$
+\deg\widetilde P\le D.
+$$
+由 $(28)$，取首退出阶 $j\le B$，令
+$$
+f=V^{j-1}\widetilde P,\qquad
+g=V^j\widetilde P,\qquad
+f|_W=0,\quad g|_W\ne0.
+$$
+该节点的子节点是实际交循环
+$$
+n[W]\cdot\operatorname{div}(g)
+$$
+的所有不可约分量及其正整数交重数。因为
+$$
+\deg g\le D+A,
+$$
+深度 $j=1,2,3$ 的循环总次数分别满足
+$$
+\boxed{
+\deg\mathcal T^1\le D,\quad
+\deg\mathcal T^2\le D(D+A),\quad
+\deg\mathcal T^3\le D(D+A)^2.
+}
+\tag{29}
+$$
+每次为适当交，余维增加1，因此最多三层。这里没有丢掉 embedded 问题后猜 multiplicity；节点使用实际素分量的交循环权。
+
+此森林完全由代数多项式、导数及交数构成，与原截断弧的高尾选择无关。构成后，可一次选原 $\gamma_s$ 的一般形式高尾，避开有限全部节点，并保持 $(2)$。
+
+## 8. 在原奇点上的加权cap归纳
+
+原 $(0,0,1)$ 是 $V$ 的奇点；$(2)$ 在拉直坐标后给第2节条件 $N=s$ 与 $a(0)=0$。所以沿森林每一条边使用的是引理1的**奇点式** $(13)$，没有额外普通重数损失。
+
+根处，若 $P=\prod P_i^{e_i}$，
+$$
+\min\{s,\operatorname{ord}P(\gamma_s)\}
+ \le\sum_i e_i\min\{s,\operatorname{ord}P_i(\gamma_s)\}.
+\tag{30}
+$$
+每个根因子的评价阶等于相应除子沿 $\gamma$ 的重数。将 $(13)$ 对每个节点乘其原正整数权，逐层用 $(8)$ 求和，得到
+$$
+\min\{s,\operatorname{ord}P(\gamma_s)\}
+ \le\sum_{\text{叶 }n[W]}
+ n\,\min\{s,m_\gamma(W)\}.
+\tag{31}
+$$
+这就是需要的加权 cap 归纳，而不是把 $\min$ 从和式中交换出去。
+
+叶若为原点，其沿曲线重数为1；其它点对原点的局部贡献为0。叶若为正维且通过原点，前注的全稳定素簇分类迫它包含于 $t=0$。此时在 $\mathcal O_{W,0}$ 中，曲线的理想等于极大理想：因为 $t=0$，其余两个拉直坐标已经生成全部极大理想。因此准确有
+$$
+m_\gamma(W)=\operatorname{mult}_0W.
+\tag{32}
+$$
+若它在 $Y=0$ 或 $t=1$ 等不经过原点的稳定边界内，则局部贡献为0。于是 $(31)$ 不超过全部叶在原点的普通重数总和，再不超过其次数总和。由 $(29)$ 得到 $(6)$，从而得到 $(5)$。
+
+至此已完整支付原奇点、所有分量重数、截断误差和正特征导数。既没有在 $\Bbbk[[t]]$ 中制造 $(1)$ 的无限解，也没有用复 Puiseux 参数或遗漏 $p$ 次非约化分量。
+
+## 9. 回到同一个原完整M的准确范围
+
+R525 §4 对原完整 $M=c_*U_0m_{13}J$ 已给必要低轴
+$$
+\bar M P_{\rm source}=0
+\Longrightarrow
+F(t,\theta)=\sum_{m\le N}\theta^m
+ a(t)^{\lceil m/68\rceil}f_m(t)=0\pmod{t^{H}},
+$$
+$$
+a(t)=t(t-1)(7+4t+16t^2),\qquad
+H=s-13-r_c.
+\tag{33}
+$$
+所有原 Gaussian、进位、固定 conductor 及原来源格仍属于该必要式的前提。本文只对这个完整返回多项式使用 $(5)$；不反向由低轴核制造原完整核。
+
+若 $F(t,Y)\ne0$，其实际总次数为 $D_F$，且
+$$
+H>(D_F+A)^3+(D_F+A)^2+(D_F+A),
+\tag{34}
+$$
+则 $(33)$ 与本文定理矛盾。因此 $(34)$ 在原已付返回范围内排除该完整核。若 $(34)$ 不成立，本文没有排核结论。
+
+特别，原二次临界 $N\asymp\sqrt p$ 下，单靠一个含未知固定常数的立方上界不能排除核。后继若进一步利用原 $F$ 不含 $X$ 的 Newton 多面体厚度，仍须重新付相应 mixed-degree 消元，而不能把本文纯次数常数直接删掉一维。本文不增加任何独立中央条件，也未改变同一 ordered scalar kernel 的预算。
+
+## 10. 原文定位与依赖
+
+- [前注：全稳定素簇、截断 D-property、Artin 根理想与固定低次数退出](2026-11-27-original-three-variable-vector-field-prime-d-property.md)，尤其 §6、§8。
+- [R525：真实低轴与完整 M 必要投影](../results/R525-original-multiweight-wronskian-and-growing-kernel-support.md)，§1–2、§4。
+- G. Binyamini, *Multiplicity estimates, analytic cycles and Newton polytopes*, [arXiv:1407.1183v2](https://arxiv.org/pdf/1407.1183)：§2 Lemma8、§3 Lemma13 与 Theorem3 提供原特征零循环结构。本文使用其结构，但正特征的有限流、截断 Rolle、全部 cap 与原奇点应用均在上文另证，未直接套其复解析定理。
+
+全文为符号证明；没有执行数学脚本或产生新的数值回执。

@@ -50,11 +50,11 @@ v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-fi
 
 此前全部具体参数/失败/回执在上方完整交接与open逐字保留，禁止重算或删前提。原R1049/full54/六线cross/signed平方仍保未知q0/好整格，一K单位才有F单位；PB4固定29与三β′正值已COMPLETE，不移到新源。原D²S/heat-flat/paired Lamé全费用已付，不对CM坏条件微分。权二B6方案全toric点为零已排；S3150有限点读者非零仍缺同一canonical forcing。固定五条rank≥2曲线的通常全Sha桥r+corankSha≤2ordJ已付，联合无穷p原J′非零仍开。R1042全Hurwitz/Smith/blow-up环境左逆不代原scalar Schur；R1043接触/全部p字和低项坏带保。O4/O6/O7及R1009反例的准确门在归档/open保。
 
-**[原Theta三变量V](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)**新增全次数稳定素簇分类：仅三稳定超曲面t=0,1/Y=0，高余维在t=0或1，原点D-property常数1。实际J_s只modt^s但V稳定，1≤h<s的阶保持；minimal primary长度e<p才可令其根稳定。下一补真正正特征/截断forest及原M预算，未声称已有三次或二次零界，不把R321 shifted/Euler再算新坏行。
+**[原Theta三变量V](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)**新增全次数稳定素簇分类：仅三稳定超曲面t=0,1/Y=0，高余维在t=0或1，原点D-property常数1。实际J_s只modt^s但V稳定，1≤h<s的阶保持；minimal primary长度e<p才可令其根稳定。后继截断forest已付如下；不把R321 shifted/Euler再算新坏行。
 
 
-三变量V§8已补固定低degree通用Noetherian退出：固定M、L=d0+3M，minimal局部长度≤L³，p>L³才得稳定素分量并迫≤M次退出；不冒有效M或embedded长度。高degree/截断forest正续证。
+三变量V§8已补固定低degree通用Noetherian退出：固定M、L=d0+3M，minimal局部长度≤L³，p>L³才得稳定素分量并迫≤M次退出；不冒有效M或embedded长度。[完整正特征森林](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)现已付正规化枝/cap/有限流/288阶高degree退出及三层交循环。固定有限坏集外，原低轴 $\min(s,\operatorname{ord}P)\le D+D(D+A)+D(D+A)^2$，$A=3\max(M,288)$；只在 $H=s-13-r_c$ 超过此界排核，临界窗未排。下一薄X二次界与原第二/三块；第一块仅s行，不能超过真实列行维数。
 
 ## 继续分工
 
-geometry继续新π4的显示参考端点/真正derived非零；central继续Θ17原主部/完整p−1行；arithmetic补V的正特征截断Rolle与受控次数forest，再核完整M实际预算，不能造导数/乘积闭包中央零。root审新几何/非零，消费唯一v12真终态，每小时实际两库pull、逐条推。子问题做完接open，不以阶段报告或“输入不足”停止。
+geometry继续新π4的显示参考端点/真正derived非零；central核新实际共同因子/KS/period；arithmetic补薄X mixed-degree界，再接完整M第二/三块实际预算，不能造导数/乘积闭包中央零。open整理前全文逐字存notes/2026-11-27-open-before-positive-characteristic-forest.md，全部旧门/公式保留。root审新几何/非零，消费唯一v12真终态，每小时实际两库pull、逐条推。子问题做完接open，不以阶段报告或“输入不足”停止。
