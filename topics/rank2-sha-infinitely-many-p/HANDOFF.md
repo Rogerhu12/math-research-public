@@ -48,7 +48,7 @@ R1039严格Prym=EL:y²=x³−12x+20、非挠边界、全双Norm/S4 sign已付。
 
 R1043原2-Vélu/full9、真实S′/S3左逆、canonical E4/I及η′=ηκ2全部保持。最高像−3Ω′1在O零4；原GL9/Cor给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a，L0次数6^5。真实3-Vélu的F′*特征+δ和Picard同号；原基值非旧6挠，IV*只在三重好化下降后被3杀。§18两次二核倒序相消给Fr(d_t)=d_hq/t；原三完整J同一位全零时三个真实T_a全p整除，此前提尚不由Sha坏推出。同Fr−unit核degree q+1只p个除点，全p²需degree(q+1)²。
 
-§19原KS/Hasse简单零及Broumasμ全边界齐。新§20直接由r=Dμ/A落一维L³(−两cusp)，得到D_Bμ=c_q A、c_q≠0；Hasse完整系数/PF给V奇性，ε及L(O)排局部q次幂项。对每个存在原Qmin的q=6r−1，μ/δ=κ_q X P_q(X³)、κ_q∈Fq×，P_q=Σh_j U^j/(3j+1)，h_j=(-4)^j(5/6)_j(2/3)_j/(j!)²。canonical接触恒3，所有有限ss仅1或2，两cusp ν单位；N_ord+2N_ss=q−5。无需一般Q坐标或新27桥。目标p除点不自动增加接触，三原B_a加权/ordinary forcing仍开。
+§19原KS/Hasse简单零及Broumasμ全边界齐。§20从R=Dμ/A的一维全局空间得D_Bμ=c_q A、c_q≠0；ε及L(O)排局部q次幂，完整Hasse/PF给μ/δ=κ_q X P_q(X³)，P_q=Σ(-4)^j(5/6)_j(2/3)_j U^j/((j!)²(3j+1))。canonical接触恒3，有限ss仅1或2，两cusp ν单位，N_ord+2N_ss=q−5；无须新27桥。§21原对偶运输μ₁(φ̂P)=cφ^qμ₂，Φq严格交换原pull，完整三项给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0和Σω^i c_i^q m_q(fιP_i)。PQ外系数≠固定CM纤维实际T_a的几何[ω]，全η/17/Cor与真正点群forcing仍开；目标p除点不自动提高接触。
 
 唯一q11 Manin run46018592834/job140572039981已给μ/δ=10X+3X⁴、Hasse=V(1−X³)，九有限ss接触1、O接触3、余ordinary零度6；全部pins/hash/必要函数在原消费笔记，禁止重跑。原mixed C4候选由Albanese排除。
 

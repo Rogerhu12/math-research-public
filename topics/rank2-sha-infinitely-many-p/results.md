@@ -375,3 +375,6 @@
 
 
 - **R1042全部普通精度的实际代数读者**：[§13](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§13将同一三canonical的普通中央导数在任意有限精度写成无未知period的纯代数有限式。真实推前支撑是cZp，完整unit质量零准确消去log c；每项保原core u_S=λ、u_A=−λ、u_T=ε_Tλ及完整Euler。统一误差E_p(H)=H+1−floor(log_p(H+1))，只有H≤p−2时可省deep。多种Q始终给同一个读数，不新增独立坏行。 (109)是完整非零的有限判据，(110)同精度返回整个补域；仍须取得一个实际非零余式。
+
+
+- **R1043原图的Manin与三权运输**：[§21](results/R1043-original-two-isogeny-level-transport-and-weighted-orbit-reduction.md)。R1043§21沿原乘法边界和模型变换证明真实对偶同源μ₁(φ̂P)=cφ^qμ₂(P)、R₁=cφ³R₂/n及Φq与原正规二形式pullback严格交换。外部ω系数线性延拓后，μ(Q+)=μ(Qmin)、μ(Q−)=0，原全三项下降给Φq(PQ)=3cQΩ′1和μ(cEPQ)=0；完整评值保留Σω^i c_i^q m_q(fιP_i)。 原PQ是系数截面，固定CM纤维上的实际T_a才使用几何[ω]；一般纤维没有该端同态，故未将系数μ零或其接触阶移给实际T_a。目标p的全影子非零仍未付。
