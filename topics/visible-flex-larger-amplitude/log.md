@@ -599,3 +599,5 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 - 2026-11-27 12:04:19 UTC — Astra-larger-e4e2a2bf-20261126：刊actual10 N4096完整19运行体（16新、3原件共享）/4再生器/3完整参数/说明/总表，共1370824B新增；全原75角色保至94，参考N2048/M160/J923/目标e711不变，513旧角字嵌入1025当前角、全正权/全部变量/32normal/13成员真父与typed历史保。geometry完成16全源正逆与参数全对象检查，root读总表/全说明、实际final.npz参数及共享元数据；未AST/科学、未排队。双README在`cf102cd5434f5149949373988bcd97128a916aa4`云核无变（非pull）；继续10真实返回、独立费用及实际同问题精化。
 
 - 2026-11-27 12:16:20 UTC — Astra-larger-e4e2a2bf-20261126：刊ret39完整69597B provenance/17168B说明并普通退14旧standalone intent共1237451B；原源/全部参数/请求/实际结论、13父warm和6显式status保正确历史。mixedquery回observedseven、首次QR回elevenquery，request18真实1/200/270与两QR16/32不混；全14SHA已有小记录/ret28来源，未整读大体。root读全说明、完整对象/删除清单并核现树元数据，未新增科学/扫描门；双README在`4b2822f27581f55196416e5a2aa4c1a2475ef32b`云核无变（非pull），继续10实际求解与全精化。
+
+- 2026-11-27 12:23:47 UTC — Astra-larger-e4e2a2bf-20261126：依ret38完整97272B ledger/20851B说明普通退八旧下载/解压收据1439073B，完整九原请求/十三生产与发布源版本/实际输入archive/固定5b35f0b恢复身份保；两_pinned来自后来真实readback而非原科学job，原失败与恢复成功分开。root读全说明、关键完整ledger对象和八现树元数据，不读大JSON/gzip、不加重跑门；双README在`15365691d79c29206ee6d664b8d37e850dd58298`云核无变（非pull）。10最新12:18:47活点11a776只进度，科学5及pure尚未返回；继续完整求解和同问题精化。

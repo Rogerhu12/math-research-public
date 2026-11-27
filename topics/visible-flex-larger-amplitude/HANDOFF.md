@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`4b2822f27581f55196416e5a2aa4c1a2475ef32b`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`15365691d79c29206ee6d664b8d37e850dd58298`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -16,10 +16,7 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 03b/03/02/04/05/direct完整九history、06双分支42/43的地点/typed/保护/合并义务保固定H；06末仍非可行，28b/cfd未准入；07仅1–3返，cc0a场/typed/pure/费/M320未知；08终态见末块。R697/R702/R705不重做，未返不冒已读。
 
-[33–36旧raw保全](notes/2026-11-27-legacy-condensed-intents-retention36-readonly-review.md)及固定完整H中的各原说明，仅退登记派生输出；原源/全参数/请求/真结论、父warm/status正确字链均保。cf418只保证intent，其他依原链恢复；无大体读取，当前warm不改。 [37](notes/2026-11-27-actual41-eight-download-receipts-retention37.md)仅退八旧下载收据1663643B；完整来源/全部argv及61ce5c1历史blob保，receipt wholeSHA未知明列null，未读大体或重跑。
-
-
-[39十四旧intent](notes/2026-11-27-standalone-optimization-intents-retention39.md)仅退1237451B独立派生记录；全原源/参数/原warm与status正确分支及1340d243原字恢复保，14 wholeSHA有来源；未读大体或重跑。
+[33–36保全](notes/2026-11-27-legacy-condensed-intents-retention36-readonly-review.md)、[37八actual41收据](notes/2026-11-27-actual41-eight-download-receipts-retention37.md)、[38八旧下载收据](notes/2026-11-27-legacy-artifact-fetch-receipts-retention-38.md)、[39十四旧intent](notes/2026-11-27-standalone-optimization-intents-retention39.md)仅退登记派生记录；完整源/全参数/请求/真结论/正确父warm与status/精确历史blob均保，缺SHA明列null，不混ZIP或JSON重排身份。38两receipt来自后来真实readback43657876708/43664753410，非原科学job；gzip与失败责任保。未读大体或重跑，当前warm/queue不变。
 
 ## 09终态与完整未返回责任
 
@@ -45,7 +42,7 @@ R248只归约活动像；固定p4须共同R650或全部mixed pairs。R709–715�
 [10实际输入](notes/2026-11-27-run10-actual-public-inputs-and-complete-carrier-freeze.md)1–4真返0：warm3df/node1fed/scalar aa7a/ref512/report35fd/carrier71f/model081、targete711/wholeb240与binding84478/whole4ace；2218尾accuracy=false，旧2397只carrier。两b239快照和160图词保，fcd冻结/52fc源重生实际已过。350分钟/20000秒只编排界。
 [10完整缓存](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)七上/九下源、149/7argv与373/357/43progress保；92609B queue三pending=科学5/pure/已排[mean-profile](notes/2026-11-27-run10-complete-reference-mean-profile-fee-adapter.md)，原三真返bootstrap另保。[normal/geometry](notes/2026-11-27-run10-complete-normal-and-continuous-geometry-fees.md)六全体与两ready已刊未排：全32段/1024角胞/全部径向/raw六jet/准确同g全算子范数/K/support保，shared29eed/e0原字；只消费真完整report/immutable同点，progress不是输入，未产费用证书。
 
-缓存只复用同链完整C，活动/未知transform旁路、每stage/final原重读，全部J链/几何保。11:28:35观察normal_chain_enter、point0088（原cd530/5a33后）：543964请求/返回、218955原算、325009命中、失败0；非接受点/指标/immutable证书。科学5和pure未返。07/08/09未知report/point/typed及后续完整合并责任保，10自身restart严格。
+缓存只复用同链完整C，活动/未知transform旁路、每stage/final原重读，全部J链/几何保。12:18:47观察normal_chain_enter、point11a776（原cd530/5a33/0088后）：864744请求/返回、383756原算、480988命中、失败0；非接受点/指标/immutable证书。科学5和pure未返。07/08/09未知report/point/typed及后续完整合并责任保，10自身restart严格。
 
 继续10真实科学/pure与独立全域费用；完成闭面全phase/全像握持/共同A/R716、同问题实际mesh/频率/t精化和多t网格，不停在条件论证或job时间上。
 <!-- visible-larger-parallel-08:start -->
