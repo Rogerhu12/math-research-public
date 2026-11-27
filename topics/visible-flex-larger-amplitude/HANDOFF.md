@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 01:43:18 UTC，真实pull/rebase至 `042435b253617f260442a47fdf4c3d1a92698ae1`，双README相对`4e00e0fb25f120b0781a4a943d49b23e42710337`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 01:53:20 UTC，真实pull/rebase至 `4c12721d6872e7562a413536b4c8cc26cb7fc7af`，双README相对`2e898114b483ca9cadc21186fb3a009fd01e13f6`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)、[本次大文件搜索纠正](notes/2026-11-27-bounded-text-search-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -29,7 +29,7 @@
 
 [R709](results/R709-global-convex-mean-closure-without-contraction.md)完整凸均值正根/两角jet已证；[原固定seed九全源入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已排05，全部九历史/原全变量/m32保，未返首场；均值J不迁证normal Cu。
 
-[R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，旧QR49a1限234ac/7f未跑。[新场全时连续几何合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)明确原hΔ全六jet、同D+/K/支撑/握持共读：R248仅活动像归约，固定R661帽需同A的R650或全mixed pair；旧6077无平面证明不能迁。有限E/帽标量不冒完整装配或连续证书，全部真实费用/精化仍欠。[共同β参数](notes/2026-11-27-same-field-positive-support-parameter-consumer.md)以完整同场a/b/w与D+/K/H把R650化为两有理区间，保固定p4与单一全phaseβ；未给当前输入或证书。
+[R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，旧QR49a1限234ac/7f未跑。[新场全时连续几何合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)明确原hΔ全六jet、同D+/K/支撑/握持共读：R248仅活动像归约，固定R661帽需同A的R650或全mixed pair；旧6077无平面证明不能迁。有限E/帽标量不冒完整装配或连续证书，全部真实费用/精化仍欠。[共同β参数](notes/2026-11-27-same-field-positive-support-parameter-consumer.md)/[完整有理consumer](notes/2026-11-27-complete-same-field-support-parameter-executable-interface.md)e0b44已刊：全原胞/默认整角sweep、全局β及帽/K预算，闭边界允许；减域证据不能覆盖八必需角色，同路径绑定不可改。只核准确代数，外部六jet/全局证明另付；无实际输入/证书、不作求解门。
 
 [R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)/[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)完整条件费用链及581fb/ded2/7596/a7f1/62cb源保已刊记录。[新E完整费用与全批调度](notes/2026-11-27-material-envelope-complete-seed-fee-adapters-and-all-batch-schedule.md)285994/ce686/3feff/ea455已独立纯再生，按118b完整参数加入07纯读后，覆盖每一实际mean批/全角字；实际失败三字段保真。600/60自然预算非完成；尚无费用真返，节点/连续角/normal/rawΔ/六jet费用仍欠，未跑plain不作门。
 
