@@ -645,3 +645,8 @@ detached矩阵revision2八全源375059/d5e74/803ff/d461/bdf212/1d153/062573/9547
 ### 2026-11-27 01:30:18 UTC — Astra-larger-e4e2a2bf-20261126
 
 相邻frame完整J6/J9设计7c9已完整证明并源码核对：独立jet偏导给Aj=Dphi^j fu，Mi按全Leibniz，J9下三角含2M1，不删六/九维未知；既存Bi+1给Ai，末Am须真实另读。root完整四方法及geometry定点独立核，原previous=controls.detach字链与同分支upgrade保；旧record无previous摘要须在新源实际补。requested order1可消费已升级order2根，禁止误拒或重选。全根/Newton/J3/变量/active上游链不改；工作乘加矩阵另声明新数值来源，不冒旧AD逐字等；186/279仅条件reverse调用差非实测速度。新producer/准入/实际效果仍未做。完整设计及边界即推；H旧06startup细节完整保既定notes/50d固定H。
+
+
+### 2026-11-27 01:41:41 UTC — Astra-larger-e4e2a2bf-20261126
+
+R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证明，现按根README8补results.md新增结论导航，不增加未付数据。open§1–6严格字节SHA1be136不变，旧§7全文固定保8a0/f71e/a936；更新06 actual38/39仍positive及40待返、07新科学已启仅1–3返、新全批费用准入、完整detached源未准入/相邻frame待实现、新全时几何/共同β/R716实际A2责任。已有R676/678/679只在原准确表示范围，不把新SO3更换目标当精化；所有连续完成条件保。

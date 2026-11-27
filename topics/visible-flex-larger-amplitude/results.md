@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R716（已证明，固定不对称帽的完整矩条件）**：[固定不对称帽与完整中心化体积矩](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md) — 未标记实体半转且固定帽完整不交时，保全部重心/混合矩给Beff=B2−b1²/V；既定R661 p4其实部严格为正，完整A2非零即可在π/4或π/2排除含反射全等。另在R625全部几何假设下给定量商距离界；新场实际A2、闭嵌入/外法向管和其余完成条件仍未付。
+
 - **R715（已证明，准确等价与完整数值表示合同）**：[参考中心化normal的六jet与费用](results/R715-reference-centred-normal-sixjets-and-error-ledger.md) — 同准确参考下全闭合/normal阶段中心化保持原准确选择；固定参考校准与完整有限root残差lift分别给端口、全部六jet/AD及误差账。工作六jet须统一重建，不能迁旧径向单位恒等式；原32阶段/全变量/真实几何保留，独立实现和实际收益待返。
 
 - **R714（已证明，准确零支与完整一阶重接）**：[精确零支与同值 normal-frame 的完整一阶重接](results/R714-normal-frame-exact-zero-and-C1-reuse.md) — 准确原初参考的全法向阶段为零但外层敏感度非零；完整18控制jet同字时，保留每阶段上游图并重接全部54×18导数可保持原J/J*，不保持二阶外Hessian。现行working积分不保证零字，实际重复次数/提速与费用未付，不删32阶段或现有源。 完整[实施附录](notes/2026-11-26-R714-complete-frame-cache-and-zero-template-implementation.md)另给零左exp全A/H角Leibniz、54×18重接与独立no-grad同字值缓存；ba3d完整核保全部stage/上游导数，尚无科学/提速返回。
