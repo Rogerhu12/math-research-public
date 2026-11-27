@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；阶段、时长、失败、输入困难均非终点。**
-此前H全字/所有来源参数/失败未知保[58c6全文](https://github.com/Rogerhu12/math-research-public/blob/58c6b5ab92364fd00b1d0f24add7f72891fe327a/topics/visible-flex-larger-amplitude/HANDOFF.md)及2d9966/旧链、open和全部notes；不重做已登记数学。
+此前H全字/所有来源参数/失败未知保[58c6全文](https://github.com/Rogerhu12/math-research-public/blob/58c6b5ab92364fd00b1d0f24add7f72891fe327a/topics/visible-flex-larger-amplitude/HANDOFF.md)及[4ee986全文](https://github.com/Rogerhu12/math-research-public/blob/4ee986c5df5bcf0b2f4e58485908917a8f71546f/topics/visible-flex-larger-amplitude/HANDOFF.md)、旧链/open/全notes；不重做已登记数学。
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `4ef0bf82fce130595af98e7ae403c6e9164cb45c`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效；15:03及21:33重置后各唯一探测仍失败，恢复即真pull。云核至 `5bfa65c93cf027785e68044de011355bb736dc31`（非pull）。双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异即遵守、至少每小时；活16–18通常每5分钟真pull、已读commit在末槽。12终态前末真pull19:41:24至febbfdf90fc257b59e14078173fcb8e15bcdbd32，完整旧槽保1b76H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并，不冒pull/force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立审查/冻结/AST/fixture/重跑门、不减原目标预算。[旧log](log/2026-11-27-session-through-fejer-closed.md)全字保。
 
@@ -29,13 +29,13 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 [16真实数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)model8cc/current7e06/g11.17545381570094，第四2fa731统计Phi5551.476942430809/Gram.6480138184922606，几何/决定未返、accepted0；首/二/三几何决定未捕获。[17真实数学](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)仅b/S1/4、δ1/32新seed，model f2e417/current924732；21:01:36真实current-geometry，accepted1、g2.04762068147831>0，完整report仍未返。17第二已观察trial b0468统计Phi4954.618769180181/Gram.6374150628738999，几何/接受未知。全部精确Phi/Gram/点/source记录保全note；六g未展示分项不猜，同坐标异model不冒同场。
 
-18三真实失败/完整原栈保[callable记录](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)与[producer修复续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。第三512f/d683/8.19665s exit1缺report，原诊断044730/5d25返回0，6727B全log确认geometry漏传helper7aa→eaea，责任为根上层传播，不是数学失败。现完整geometry5730/batch9104/driver10fa/reader8027/launcherf600/准确input d892已保；其余13运行源原字不变。全137角色及原120pairs、全部数学/guard/变量/32stage/预算保。完整science97806B/157argv/458formal、pure85234B/7argv/445formal、48live原保；producer-bound新output单科学65310B已排，同runner复用真返input。实际e3d2eb/f600/PID7515已返首统计：21:31:20 Phi4954.71485872585、Gram.6374168330977955，model9ec211/current7e06、accepted0；初有限geometry完成，reach+2.0480426708394406/distplus+.11871374548166669，其余四g负；首trial7d0d统计已返、几何未知。pure全对象待自然返回后接；完整源码父f2eb、全参数父36fb和三旧失败族原保。
+18三入口失败/三完整诊断0及根第三次helper常量传播遗漏保[完整旧栈](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)、[producer续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。当前geometry5730/batch9104/driver10fa/reader8027/launcherf600/input d892，全137角色/18源、原120pairs、157/7argv、458/445formal、48live及全预算保；源码父f2eb/参数父36fb与三失败族原保。两真返input同runner不重建。实际e3d2eb/f600/PID7515/model9ec211/current7e06初统计Phi4954.71485872585/Gram.6374168330977955，accepted0；初有限geometry reach+2.0480426708394406/distplus+.11871374548166669、其余四g负。首trial7d0d统计已返、几何/接受未知；pure全对象待自然返回后接。
 
 ## 后继与未付责任
 
 全部16/17与初18准确费、closed/R718、R716、mesh/restart完整源码、每个参数和失败未知链接保open§7与此前58c6固定H；初18费用候选不能贴修后source身份。当前producer_R722完整费用十件已刊；closed五件316954B/002eb已刊，R716六件386778B/45ca+d0fe已刊，mesh八件496394B/2ef3+b399+8197已刊，实际费用仍未付。
 
-[完整producer_R722核](notes/2026-11-27-producer-bound-R722-mean-source-adapter.md)5件140943B/4fc252+7c66已刊，严格钉当前10fa/8027/d892及全137来源，直接由已刊e10/9da完整父派生；未刊callable候选不冒当前源。完整R710/R711数学/7133B后缀、API/validator原保；准确全角ε与实际fee未付，R709旧bool真实，Dhat不代真根。R721无Gram/主曲率排序；R718 marked σ、R719/R720全ρ>0与前三RN固定不可省，完整证明保results。
+[完整producer_R722核](notes/2026-11-27-producer-bound-R722-mean-source-adapter.md)5件140943B/4fc252+7c66已刊，严格钉当前10fa/8027/d892及全137来源，直接由已刊e10/9da完整父派生；未刊callable候选不冒当前源。完整R710/R711数学/7133B后缀、API/validator原保；准确全角ε与实际fee未付，R709旧bool真实，Dhat不代真根。R723方向支撑s/(nᵀAn)与全平行面排序已证，实际支撑/曲率未付，R718的σ和R716无标记管仍独立。R721无Gram/主曲率排序；R718 marked σ、R719/R720全ρ>0与前三RN固定不可省，完整证明保results。
 
 [完整producer_R722费用](notes/2026-11-27-producer-bound-R722-complete-normal-geometry-fees.md)normal c6f6/leaf7892/geometry6c57/bridgec6b0，38/8argv、36/48selectors和全部原预算保；旧R709粗bool真实，后验全域validator及周期key精确接本族，未排进活动科学前插入。
 

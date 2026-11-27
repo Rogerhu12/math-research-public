@@ -212,3 +212,8 @@
 ## 2026-11-27：15官方取消，原全径向精化责任未付
 
 [完整终态](notes/2026-11-27-run15-official-terminal-and-unreturned-radial-solve.md)45817B保官方run与job/step实证、最后11945B index全文、两input整卷、原全部159/7argv与90478B queue身份及H15末真pull原槽。run46031953783/1/job140617715235官方completed/cancelled；22:05:13仅API updated_at，原因未证。最后22:00:31真pull至1e70144771dcd13688311fc2e877cb8082c3523b，双README无变化。完整科学/纯读无自然return，mutable4ccb点不冒accepted/final，typed/history与restart资格未知。仅移除已终态H15活槽，原J1845的全部费用/精化责任继续。
+
+
+## 2026-11-27：R723保留法向方向的完整reach充分界
+
+[完整R723](results/R723-directional-normal-flow-support-reach.md)21535B证明：同一闭C²球面浸入与共同SPD矩阵，s=A(F−c)·n>0、a=nᵀAn，reach≥min(inf s/a,1/K)。对每个|u|<半径的平行面，flow投影为球面一层覆盖；联合逆与∂uT=1/[A(F+un−c)·n]>0证明不同偏移面全法管注入，再由最近点推出reach。目标τ条件允许等号但法管严格内部。Aβ下全叶w(a_xy+βb_z)−τ(qh+βqv)≥0给同一β仿射式；原p4帽两有理行及旧帽条件蕴含新条件已证明，所有mixed/allphase仍全域承担。原R279/R672 shape判据不重登，有限K本来已是主曲率；本条只强化support，不消除当前reach正违反。R718保同标记σ，R716独立真无标记管；当前流虽有全部N/w/F/六jet，新入口/实际证据仍未运行。此前open29584B全字归档，§1–6原23359B保持；HANDOFF完整旧版4ee986固定链接保全部历史。
