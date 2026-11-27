@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W完整原NV的纯T五次理想替换](results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md)：无D逆的未约化恒等，T5头已付，三新参数式λ14/12/11；保全部新头零面。
+
 - [Phi四头共同零十权的完整原值排空](results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md)：同两线det零支精确排除、开图60维原mean_W乘法矩阵单位；四头开图成全覆盖。
 
 - [W三原首一F范数与五新常数列余子式](results/R150-appendix-unit211-W-monic-F-norm-five-original-three-column-cofactors.md)：70603完整原恒等及三列身份返，必要式λ度13/13/13/10/10，五头零面全保。

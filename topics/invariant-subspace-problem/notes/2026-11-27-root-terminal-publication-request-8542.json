@@ -1,17 +1,16 @@
 {
-  "message": "ISP: exclude all ten common-head Phi weights by complete original value return",
-  "parentCommit": "d3f79177517cd88f1b7dbdd2245409acdc0e708b",
+  "message": "ISP: compress the entire original NV to a monic pure T quintic by an exact ideal identity",
+  "parentCommit": "603552b7fb0919202037b084ce1bbc5ffdf10ef7",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-true-D-moment-image-whole-QQ-fibers-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-true-d-moment-image-whole-qq-fibers-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-ten-weight-entire-exclusion-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-ten-weight-entire-exclusion-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-original-NV-pure-T-quintic-ideal-compression.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-entire-original-NV-pure-T-quintic-three-column-minors-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-entire-NV-direct-T-quadratic-leading-8542.py",
+    ".github/workflows/invariant-subspace-w-entire-nv-direct-t-quadratic-leading-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-entire-NV-pure-T5-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-phi-true-d-moment-image-whole-qq-fibers-8542.yml"
+    "invariant-subspace-w-entire-nv-direct-t-quadratic-leading-8542.yml"
   ]
 }
