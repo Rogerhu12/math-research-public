@@ -28,6 +28,8 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 旧Miller run45973334832/job140418866621、q² run45977769585/job140433713916仍可能在途；原所需输入已完整取得，它们不是依赖，不续算或补跑。若后成仅消费真实记录，不将相同数值再登记成新结论。
 
+[原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]模常数准确为μ_p⊗J(K)[p]，全cusp leading平均给Δ等变分裂；规范后的even剩余落在odd J(K)[p]，既有even cusp模块不控制它。须实际付p-torsion、全tame、常数与odd分量，未得到cup零或四阶cover。
+
 ## O1：全p同一真实本原标签的临界非零
 
 [原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)已付实际ε族的Verschiebung一阶、全Miller核及相对Cartier变分。原有限偶源上 N=2(U³+v²)∂U²+5U²∂U+U，6v·dot t_f=Φ(Nf)−δRcal·Φf；N保持原V₀。指定f=U^m给6v·dot t=−δRcal·t+(3v²/2)Φ(U^(m−2))，在−Q恢复原normal单位。移动标架可有2p−2极，不能删项或认作Picard D⁴；实际normal-to-Picard桥及e/K4共同非零仍开。

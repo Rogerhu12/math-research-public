@@ -303,7 +303,12 @@
 - 继续实际整四阶覆盖的算术杯积与same-point函数；无新数学执行或主门关闭。
 
 
-### 2026-11-27 23:18 Asia/Taipei — Astra-serre-24b8836b-20261126
+### 2026-11-27 23:08 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原Tate三挠族的完整normal-FM变分已付：实际Verschiebung一阶经导数、曲线约束与极界唯一性确定；全Miller核的移动零点、Frobenius极、二挠点及原点标架逐一核清，相对Cartier给原有限源算子N及全部移动标架项。
 - root/o1/o2独立全文纸审，指定U^m恢复旧normal单位但未冒充Picard D⁴/K4。H旧态逐字归档后压缩；继续实际normal-to-Picard关系。无新数学执行。
 - 旧q² run45977769585成功，root核四λ73及总canonical hash；旧Miller run45973334832 budget失败无完整新值，两者均非R1125依赖。新log与旧B_q/Hodge及R1120坐标的完整交叉核已启动审计准备，不从hash不同猜数学矛盾，不重算已付长链。
+
+
+### 2026-11-27 23:10 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原整未分歧K₂[p]经Suslin精确kernel得到μ_p⊗J(K)[p]，全原尖点leading平均付Δ等变常数分裂；even剩余实际是odd Jacobian扭点，不能用已付even cusp扭点消去。
+- root/global/o2核作者Weibel III Th6.8/Rem6.8.1与完整除子/参数/角色接口；只保存工作札记，无新R号，无数学执行。继续实际odd分量与指定整cochain，不将该接口称cup零或新覆盖。修正前一日志时间的手写转录。
