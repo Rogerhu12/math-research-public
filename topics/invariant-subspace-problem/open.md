@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-exceptional-PB-finite-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Q1u-nonzero-Delta-entire-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -204,14 +204,14 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[lambda3/2整Ah0已闭](results/R150-appendix-unit211-W-lambda-three-halves-Ahat-zero-complete-original-exclusion.md)。** 原T²/同T一次保R1零，完整14次QQ因子上61×15含个别N/P/全NV真1。仅该纤维付Ah；余曲线从新同z R2/H6八列原覆盖继续，未用新Ah单位。
 
-**h=k的Q=1−u输入已返回。** 两Δ图的最新完整32次lambda覆盖见下；三整因子须返原Gram，原Delta0保留自由参数，不重放先前投影。
+**[h=k,Q=1−u,Delta≠0整个原面已闭](results/R150-appendix-unit211-equal-singleton-Q1u-nonzero-Delta-complete-exclusion.md)。** fb8在完整C2/C6/C24三个常数代数直接返回原E1/EBe Bézout单位，54.970秒/58528KiB/exit0，所有复根及原分母保全。此前完整32次lambda覆盖与所有源保正文；不重放四大结式。互补Delta0的整C6/C24仍须自由Gram返回，新54f9从三原相容恢复同一u，保所有未返纤维。
 
 **[原Haar全目标迹类交织及循环商](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)。** 全整数||A^n||=βn，K_y对每非零y全目标稠密、核恰cyclic(A*,y)⊥，真实循环商到T拟亲和，反向交织零。真循环时K_y⁻¹kerT=0；proper U的同源实际非零交点仍须支付，不以稠密像倒置。
 
 **W新866两列原输入。** 只在A143≠0把原仿射F/S及纯S二次首一化，以1,S返回六原Gram行、原qF/qT/R4共九行、四真乘法及三对新常数列cofactor；保A143完整零面/全部lambda首项零，不倒D/范数，不声称个别谱N/P全返。180秒4GiB，仅执行冻结构造前缀。
 
-**[h=k,Q=1−u完整32次lambda覆盖](results/R150-appendix-unit211-equal-singleton-Q1u-complete-lambda-cover.md)。** 7eaa非0图全八式/固定17,17,18,22阶QQ投影给C2⁴C6⁹C24⁴；2298零图三原相容/固定5,5,6阶给C6C24，真实u二次头−4xi²保全部头零且≤60(λ,u)候选。因子全部QQ系数已保存；直接对2/6/24整常数代数返原Gram，不重放大结式，不把lambda覆盖算成全部原点有限或排空。
+
 
 **[整个lambda3/2已缩紧为单一F18](results/R150-appendix-unit211-W-lambda-three-halves-same-value-single-F18-cover.md)。** a0e7同z原R2/H6固定8列全cofactor返回，det=非零QQ·k⁴d²F18，仅剥两个已付权原子；331项精确同旧F18，Ah/G4不再独立覆盖，但与F18交点仍保。完整e首一18次环境；新全域原均值/N/P继续，不能把曲线说成排空。
 
-**h=k,Q1u非0Delta新fb8有限原返回：** 只执行7eaa原八式构造前缀，直接全C2/C6/C24常数代数K[u]核实际分母和真Bézout，常数非单位拆两整支；不重做旧因式或四大结式。Delta0整C6/C24仍另需自由Gram返回。
+
