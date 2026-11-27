@@ -21,7 +21,7 @@ from section_quotient_algebra import canonical, digest
 HERE = Path(__file__).resolve().parent
 IMPLEMENTATION = "r1035-complete-native-rows-projector-original-linear-fibers"
 PINNED = {
-    "produce-original-projector-artinian-shadow.py": "9229b6e47ce95eb9dd0833e37a761f33162e264b28c21a2d163c1c55d054d683",
+    "produce-original-projector-artinian-shadow.py": "cf58493f4619140d02d28e8a830a0b25376846d14bc3eb2323d52fce66123087",
     "produce-original-linear-fiber-artinian-shadow.py": "aec8056ca7cda7a6ab60157aeddd1051dc14b18255e15e0749616db9692ddfdc",
     "original_native_pair_reset.py": "a270a003fbbe80d3cced1856fb19707ab83cb250bc57d2152da5583978fd7e28",
     "original_native_polynomial_rows.pyx": "c940f1759238103c85bf01bf22427394c87524eaf7ebe3f08488457447246922",

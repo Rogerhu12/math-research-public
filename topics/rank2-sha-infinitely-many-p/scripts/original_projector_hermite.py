@@ -106,7 +106,7 @@ def complete_residue_maximal_ideal(fiber, component, label):
     engine.progress("complete original residue kernel returned directly",
                     label=label, full_quotient_length=answer.length,
                     basis_sha256=receipt["full_hermite_basis_sha256"],
-                    elapsed_seconds=receipt["elapsed_seconds"])
+                    construction_elapsed_seconds=receipt["elapsed_seconds"])
     return answer
 
 
@@ -263,7 +263,7 @@ def complete_projector_ideal(engine, primary, lifted, label):
     engine.progress("complete original thick projector ideal returned directly",
                     label=label, full_quotient_length=answer.length,
                     basis_sha256=receipt["full_hermite_basis_sha256"],
-                    elapsed_seconds=receipt["elapsed_seconds"])
+                    construction_elapsed_seconds=receipt["elapsed_seconds"])
     return answer
 
 

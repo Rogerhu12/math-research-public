@@ -11,7 +11,7 @@
 - 07:20UTC本地执行再次失联；09:09两库实际pull重试均明确No usable execution environment。私库API至e0944037db11cf7b9acb79a25f41e13417fde492逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。09:09公开API至ccb52315e1485916f867f7574c944b63dc40fac2，两README blob仍同07:12；最新父比较9文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-v10-actual-terminal.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-native-production-activation.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
 ## 一、原几何真实终态及原生后端
 
@@ -19,15 +19,15 @@ v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2
 
 原v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已于09:15:03UTC failure，根09:50完整消费。全log4056415B/SHA521e26eb54219ef9197599c787a6f365a1bda6136846d4b4d56622b65270ca48；7283秒时logger的elapsed_seconds重复关键字TypeError，exit1，并非超时或代数反例。此前原图/完整主除子阶段已返，但第一个residue kernel仅计算后未交回，四交/全Norm/shadow无PASS。
 
-R1035原生后端/56源生产候选已真编译及准备成功（45962104875/140382113685、45964030236/140388320652），0数学实例。全部pins、19组完整适配/七绑定/原门在§§5–7；现v10真终态已消费，先修两个logger字段并同步sourcepins，再接唯一候选，不排副本。R982–994已付原回执沿索引/归档，不重复旧结论。
+R1035原生后端已真编译/准备成功（45962104875/140382113685、45964030236/140388320652），0旧数学实例。消费v10终态后，两处logger仅更名construction_elapsed_seconds并同步两外层pins；§8给完整当前hash。现同一workflow接唯一native v11，56源、两char0 pins、原29/2453/64/minimal、全门、禁网/21000s/360min/cancel=false均保；实际新run待登记，无重复重作业。
 
 ## 二、原中央实际门与最新完整输入
 
 R959/R970–983固定E65/E65³/E260/E54925/E8125等rank≥2与通常全群桥r+corankSha≤2ordJ已付；无穷p至少一个真正canonical J′非零未付。全22/66/81列、角色/周期/全权平方、Gaussian/Hurwitz/端点和严格a+2b<3保持。R957–1015原低项、P130/第六Cartier/两exact+aZ、七点/边界/charge119全账本沿归档；不由质量、任意字或局部单位赋新中央零。
 
-R1016–1018同char0平坦全trace/四阶伴随/全部低位齐；原old差−61(p+1)log(π/barπ)/18480非零，须真坏canonical迫同左式深零。R1020唯一primitive及b5/O/aZ、R1022全39/N130 Miller43/44和正mode2、R1024六连接/完整cocycle/−S返回均已付，a_P不是新增测试。
+R1016–1020全平坦迹/四阶伴随/primitive及old差−61(p+1)log(π/barπ)/18480已付；原M/低位/边界保留，须真坏canonical迫同左式深零。R1022全39/N130 Miller43/44及R1024全连接/cocycle/−S齐；a_P不新增测试，完整旧式沿本页逐字归档。
 
-R1021§§8–15：原Q1=2yD−9x²、完整24字/χ8、真transpose/唯一曲率已付；裸p-curvature不代原测试生成。三处完整norm锁Kδ首9ρZ5p−2，原P30连接180与曲率−180相消，水平初值保留。三E2 whole授权S390f=√3f；degree390/378有序中心+i/−i，B12保相反q±4和真principal xg，378两质量(c6±3^-94P′(−1))/2。所有旧式/费用在原证和逐字归档，不把裸单位、新角色或字分别赋零。
+R1021§§8–15完整24字/Q1/真adjoint/χ8和唯一曲率均付；三norm连接9ρ首项、P30的180与−180相消，水平初值仍保。whole S390f=√3f、Pauli有序中心+i/−i、B12两相反q±4与真principal xg齐；378质量式沿原证，不从裸曲率/单位或字赋零。
 
 R1021§16完整两分量P⃗=2^-n(−y)^-nPn(2P)v2^-p²(x^p,1)、native Ẑ=Z2/2及εq^(10−4p²)M^(p)运输已付；真实α半点负相位/source C²次序、M̂B=M全部高位/Ξ/坏带保持，新首槽−80κ5。真Q̂†=−2y(D+5G2)，逐字移动补项/Miller/cut/曲率全保；b3第二scalar仍读同一第一primitive原槽，完整式沿原证及逐字归档。
 

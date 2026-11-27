@@ -1,4 +1,4 @@
-name: Rank2 original shadow through complete projector Hermite
+name: Rank2 original shadow with complete native polynomial rows
 on:
   push:
     branches: [main]
@@ -13,6 +13,11 @@ on:
       - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-projector-artinian-shadow.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-projector-artinian-shadow.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_projector_hermite.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-native-row-artinian-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-native-row-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-native-row-artinian-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_native_pair_reset.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_native_polynomial_rows.pyx'
   workflow_dispatch:
 permissions:
   contents: read
@@ -46,4 +51,4 @@ jobs:
           PYTHONDONTWRITEBYTECODE: '1'
         run: |
           set -euo pipefail
-          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-projector-artinian-shadow.py
+          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-native-row-artinian-shadow.py

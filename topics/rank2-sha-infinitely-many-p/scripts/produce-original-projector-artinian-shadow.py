@@ -26,7 +26,7 @@ IMPLEMENTATION = "r1033-complete-projector-hermite-original-linear-fibers"
 PINNED = {
     "produce-original-linear-fiber-artinian-shadow.py": "aec8056ca7cda7a6ab60157aeddd1051dc14b18255e15e0749616db9692ddfdc",
     "original_ys_closed_point_tools.py": "7428cadb6b2179aebd547c749ec11ae46305476947aa443f7266e64d03ccc7bb",
-    "original_projector_hermite.py": "99e64fd3ae1c7b49882357b60ef39e6c3856fb66685275be344a2814a8bb084e",
+    "original_projector_hermite.py": "545b330c4b7fb0c876e15f0ea6b94c9e35d29fdaf94b87707b3853dd33c32545",
 }
 STARTED = time.monotonic()
 ENTRY = None
