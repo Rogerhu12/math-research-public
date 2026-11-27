@@ -1,15 +1,20 @@
 {
-  "message": "R150: exclude the entire W u one-half line by a characteristic-zero unit certificate",
-  "parentCommit": "05f9c32cb7faca1672e23203ab0e8cfa4db1370b",
+  "message": "R150: completely exclude general T0 zero and reduce the universal quadratic head to J equals Q",
+  "parentCommit": "958632ebb7d24f7c8875ec5a357dbb7f706ad797",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-u-half-complete-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-u-half-complete-original-return-8542.receipt.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-alternative-six-by-four-full-cubic-head-atlas-8542.py",
-    ".github/workflows/invariant-subspace-w-full-cubic-six-by-four-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-T0-zero-final-J4-whole-original-return-8542.receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-full-general-LS-original-head-atlas-8542.receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-J-equals-Q-original-head-atlas-8542.py",
+    ".github/workflows/invariant-subspace-general-j-equals-q-head-atlas-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-integer-height-CRT-degree-certificate-8542.py",
+    ".github/workflows/invariant-subspace-q-boundary-integer-crt-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-original-complementary-Gauss-return-8542.py",
+    ".github/workflows/invariant-subspace-q-boundary-complementary-gauss-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +24,8 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-full-cubic-six-by-four-8542.yml"
+    "invariant-subspace-general-j-equals-q-head-atlas-8542.yml",
+    "invariant-subspace-q-boundary-integer-crt-8542.yml",
+    "invariant-subspace-q-boundary-complementary-gauss-8542.yml"
   ]
 }

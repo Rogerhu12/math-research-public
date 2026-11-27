@@ -1,0 +1,96 @@
+{
+  "execution": {
+    "elapsed_seconds": 0.6248347490000015,
+    "max_child_rss_kib": 37260,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "bed3fa68601efa40df0ea957c8956305fa47d1c2",
+        "before": "bed3fa68601efa40df0ea957c8956305fa47d1c2",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T08:03:09.382780+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45962685405",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "bed3fa68601efa40df0ea957c8956305fa47d1c2",
+    "source_exit_code": 0,
+    "source_git_blob": "b67940ceccd172f19b74d5c8b2806eb81843a006",
+    "source_sha256": "cd05afd9e55d77bcf7e0b8e3aac79d1c7607b03dc438a3a245e049f220c31056",
+    "stdout_bytes": 1751,
+    "stdout_sha256": "fb5d762477768f3c6dffa2a7e73a72b452904bf0991bb2c5b76b19e5346586a1",
+    "stop_reason": null
+  },
+  "math": [
+    {
+      "stage": "new_T0_J4_whole_finite_original_Gram",
+      "label": "whole_J4",
+      "QQBaseDegree": 4,
+      "allOriginalE0N0P1MeanAndNPIdentitiesVerified": true,
+      "allOriginalWeightedNPThroughHAHBVerified": true,
+      "originalPhysicalDIdentityVerified": true,
+      "finiteInverseProducts": 30,
+      "claimExcluded": false,
+      "seconds": 0.14166687800000943
+    },
+    {
+      "stage": "new_T0_final_J4_whole_QQ_original_return",
+      "label": "whole_J4",
+      "QQBaseDegree": 4,
+      "method": "whole finite QQ original 48x35 Macaulay",
+      "originalRows": 48,
+      "columns": 35,
+      "rank": 35,
+      "DpowerReturned": 0,
+      "allOriginal35ColumnProductsVerified": true,
+      "certificateBytes": 9112,
+      "certificateSHA256": "2e6253148a011b78a3dd25281c20e24898f4270a3064e4a90b5bf7de2a38c9b6",
+      "actualInverseProducts": 65,
+      "excluded": true,
+      "wallSeconds": 0.5423907890000095,
+      "seconds": 0.5424805960000043
+    },
+    {
+      "stage": "new_T0_final_J4_complete_original_QQ_atlas",
+      "sourceSHA256": "cd05afd9e55d77bcf7e0b8e3aac79d1c7607b03dc438a3a245e049f220c31056",
+      "parentOriginalSourceSHA256": "d843f639c07b2b24be559f76f0d6aafd24593b6ece4587ac872242d9112d9709",
+      "modulus": [
+        "-6875",
+        "5000",
+        "-1100",
+        "80",
+        "3"
+      ],
+      "allOriginalSpectrumBranchesRetained": true,
+      "allFiniteNonunitSplitsRetained": true,
+      "completeOriginalReturns": [
+        {
+          "label": "whole_J4",
+          "QQBaseDegree": 4,
+          "method": "whole finite QQ original 48x35 Macaulay",
+          "originalRows": 48,
+          "columns": 35,
+          "rank": 35,
+          "DpowerReturned": 0,
+          "allOriginal35ColumnProductsVerified": true,
+          "certificateBytes": 9112,
+          "certificateSHA256": "2e6253148a011b78a3dd25281c20e24898f4270a3064e4a90b5bf7de2a38c9b6",
+          "actualInverseProducts": 65,
+          "excluded": true,
+          "wallSeconds": 0.5423907890000095
+        }
+      ],
+      "actualNonunitSplits": [],
+      "wholeJ4Excluded": true,
+      "wholeT0PlaneClaimed": false,
+      "peakRssKiB": 36960,
+      "seconds": 0.5426910099999986
+    }
+  ]
+}
