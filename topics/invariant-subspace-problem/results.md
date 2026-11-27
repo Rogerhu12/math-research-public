@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [碰撞C2常数代数的完整Q图及四次原权覆盖](results/R150-appendix-unit211-equal-singleton-C2-Delta-zero-complete-original-quartic-cover.md)：准确消Q和整K[u]相容，转133u⁴−30u³−32u²−24u+16全部QQ因子继续原Gram。
+
 - [W纯T三列三个原参数cofactor](results/R150-appendix-unit211-W-global-pure-T-three-original-parameter-cofactors.md)：真12.786秒全列身份；λ度16/16/19，三个未付最高次零面完整保留。
 
 - [全余W个别N/P与完整NV的低D次原理想压缩](results/R150-appendix-unit211-W-original-odd-NP-full-NV-lower-D-ideal-compression.md)：保NS/PS/R6，在原D非零域十三原行准确等价十一行；三新原式均只一次D清除。

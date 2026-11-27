@@ -166,3 +166,7 @@
 2026-11-28 00:06 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 两snapshot-fix工作流实际在git rev-parse/show退出128：根发布把源放在课题顶层，workflow从notes读取；没有启动Python源，无数学stdout/时长/RSS。
 - 现仅把相同blob移到notes准确路径，删除误置顶层副本；8890/69ab数学字节与依赖/限制不变，发起首次数学执行。准备失败两个pin及日志准确保小回执。
+
+2026-11-28 00:08 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 6769真实0.092380秒/34420KiB/exit0，整C2原NF/Delta/Tnum返回，唯一剥u−1后残完整二次u式。
+- 原参数head已付，完整四次u覆盖不选根；首派74cf全QQ因子同点八原Gram，C4另续，不重放578大投影。
