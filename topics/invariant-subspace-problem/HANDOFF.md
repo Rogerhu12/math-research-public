@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** 61acab0441950d9e441a90bf7c9ee707a575d643（2026-11-27 14:46:23 UTC，Actions run46018876247实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46018876247-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 14:46:22 UTC/92e41df8d5abc51f82b89baa8d8b4bb4fc5e504a，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `61acab0441950d9e441a90bf7c9ee707a575d643`（2026-11-27 14:46:02 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `45593b701bd5c5142d1a9fddca2f4170be3a7406`（2026-11-27 14:51:56 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-actual-Haar-global-intertwiners-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Q1u-complete-lambda-cover-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **h=k整等权/T0零/J=Q/Phi0全闭，付u−ell/T0/(J−Q)/Pf/Phi；Delta0 h1/k1≤6219保留。** 全原两图/小证书及7f9变量遮蔽失败保总定理/归档，无旧D图借用。新Q=1−u面7eaa在Delta非0返回八原式/固定QQ投影，2298在Delta0先返Delta/F/Tnum相容，真u二次头−4xi²已核；各180秒4GiB。整个h=k仍开。
+- **h=k整等权/T0零/J=Q/Phi0闭，付u−ell/T0/(J−Q)/Pf/Phi。** 新Q1−u两Δ图实际返回完整lambda覆盖C2,C6,C24（总32）；非0八式投影gcd=C2⁴C6⁹C24⁴，零图三原相容gcd=C6C24、真u二次头−4xi²故≤60(λ,u)对。7eaa真11.665秒/69768KiB，2298真0.101秒/40688KiB，均exit0；三整因子须返原Gram，未排空。Delta0 h1/k1≤6219保留，所有旧失败/全原来源保归档。
 - **旧D≠0值图Phi0∩zn0闭，不传h=k。** rho头零主支必要C(d,lambda)174/55、偶降87/55；判别式零仅(1,1/2)及交换，原31/52曲线后，新78f真8.634秒/53168KiB/exit0用mean的T闭包/U6得完整QQ单因子F26，729项可恢复输入已存，未排空。ed0一般rho统一清Gram真102.023秒/905380KiB/SIGABRT，FLINT明确101202984分配失败，仅返两原线/公共content，mean/N1未返；原源/小失败冻结，不抬限重跑。642bad换真正PB原输入，A0保留。旧NB/cofactor不重放。
 
 ### rankH3原ess6
@@ -43,13 +43,11 @@
 
 ## R271 同W与实际范围核心
 
-原全部公式/常数/负门与适用范围保最新完整H、open及results；压缩不关闭旧接口。
-- M=kerT、N=closureBM、W=M⊖N，N=M未证。固定闭G的proper U、全部目标U交织/rho、Green两原交换子及B/dyadic幂不保持U均保完整原稿，不重放。**新稀疏真核注入链在全H稠密**，同一G/全κ保持exp(Cκn³)，有限Π+GT望远镜与完整旧链误差已付；新迹类ℒ_y每个非零y均全H稠密像，ℒ_e0单射且Tℒ=ℒB，奇异值四次衰减。对真w∈W仍ℒ_w|M=e0⊗w、ℒ_wN0；新链移级J_ch不可闭，不能替换闭G或付实际除法源/正角/G保N/Gamma。
-- 原G0=TJ_B的多值部Ce0，N⊂kerAmin⊂M且J=closureRanG0*；其像非闭/无全h源范数界、五坐标联合图→carry/C2反例均已付。反例输出在M⊥非W，不用它关闭同W费用；完整范围保归档/open。
-- 原N/Y平方源C2、临界s0与[s0,1]真实图核心/加权ℓ¹返回已付，保完整Y逆及等号。E的指数小范数/有限孔界保归档；s→0、E0/Z0/Gamma未付。
-- 同w=Ju的Γ有限恰g0在实际RanK*，W只给闭包；Q_H正则费用/全整数窗界均不付Γ。非零W迫Σ1/E_n有限，同W的倒数发散或费用上界仍开，准确常数保原稿。
-- 同源dyadic两边费有界子列可付图核心；非零P_Wf迫明确正指数费，弱子指数只付f∈I。全M前缀最优率及D(G)/D(Amax)相反图界仍不足alpha逆费，完整定量保归档/open。
-- **真实E：T*y=Sf、By+Tf=0。** 闭X/Y同构、F=P_I X闭、X=graph Z；核心⇔F0、首范围⇔Z0、次范围需closureZF=W。两型Schur保三正项/alpha^-2，U_D/V_D物理共轭界与E交临界矩域0已付；真实矩自动存在、P_Lr_D0、实际RanK*费及尾阻尼a/r交叉仍开，完整公式/常数保归档/open；浮点不作严界。
+全部原公式、费用常数、成功源和冻结负门保最新完整H、open及结果索引；压缩不关闭接口。
+
+- M=kerT、N=closureBM、W=M⊖N，N=M未证。固定闭G的proper U、目标U全部交织/rho及B/dyadic不保持U已付。新同G稀疏注入链全H稠密、全κ三次增长，ℒ_e0给B→完整T迹类拟亲和；新移级不可闭。真w仍ℒ_w|M=e0⊗w并灭N，不付G保N/正角/真实源费。
+- 真实E为T*y=Sf、By+Tf=0。闭X/Y与F=P_I X、Z:F→W给核心⇔F0、首范围⇔Z0、次范围需closureZF=W。两型Schur三正项及alpha^-2、物理双坐标界已付；真矩自动存在、P_Lr_D0、实际RanK*费仍开。
+- Γ有限恰同g0在实际RanK*，W只付闭包。C2/临界s0/[s0,1]图核心、全整数窗/前缀/同源dyadic费均保精确原稿；s→0、E0/Z0、同W费用上界/倒数发散未付。尾阻尼交叉、完整primitive跨出生硬核源继续；浮点不作严界。G0多值/非闭像及五坐标通用升级反例冻结，不能外推同W。
 
 ## 原Haar未知普通M与闭域
 
