@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** 155846f67d9fff97adba79dfb57ddb1cf16ade78（2026-11-27 15:17:40 UTC，Actions run46023569022实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46023569022-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 15:17:40 UTC/e71e2bd8ccf1e9037d148eaeeeb9cbec1692c0ca，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `155846f67d9fff97adba79dfb57ddb1cf16ade78`（2026-11-27 15:17:18 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `3b5df6d617173daed1b09baad5cd33690d372adc`（2026-11-27 15:22:42 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-lambda-three-halves-four-global-curves-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-exceptional-mixed-168-cover-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **h=k整等权/T0零/J=Q/Phi0/Q1−u均闭，付u−ell/T0/(J−Q)/Pf/Phi/(u+Q−1)。** Q1−u非0Delta的2/6/24整常数K[u]真1；新54f9零图C6原相容真1、C24同u自由f原E1/EBe真1，0.895秒/42304KiB/exit0，全根/原八式保留。新全unit211紧凑R2/W4/O8/N1*已原BigInt证624乘积；7bd9以Pf解f、自由z返三列，不倒Delta，全零面保留。Delta0 h1/k1≤6219保留，所有旧失败/全原来源保归档。
-- **旧D≠0Phi0∩zn0闭；rho头零主支C(d²,λ)87/55仍开。** 判别式零仅(1,1/2)及交换，PB/U6的C31,50与F26 QQ互素；cf39新精确无穷远15轮提73，原R真实QQ度2033且LC1009单位，15.748秒/60968KiB/exit0。每有序支≤2033基点，各≤6T；未排空。新4b385混合NB/PB原U6接真Gauss，不重放旧det。ed0内存SIGABRT冻；一般rho换紧凑标量均值。
+- **旧D≠0Phi0∩zn0闭；rho头零主支仍开。** 例外(1,1/2)及交换：原PB真首一2033覆盖已付，新4b385混合NB/PB/U6固定60阶与其模Bézout/Gauss给每有序图≤168不同基点，各≤6T；7.471秒/60832KiB/exit0。模因子不当QQ因子，未排空。ed0内存SIGABRT、879两均值SIGALRM均冻，后者只返原两线无均值；换保z的原monic N1输入。
 
 ### rankH3原ess6
 
