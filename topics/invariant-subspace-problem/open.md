@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
 
-H1仅旧D≠0图，[F9原极点及实际头整提升](results/R150-appendix-unit211-Phi-zero-H1-F9-original-pole-completed-head-exclusion-and-ten-points.md)已完整闭前四块：真D8全零/源分母互素⇒F9|P201，整Bezout/1134模式/g4_Q单位⇒原h0。合[末块原几何](results/R150-appendix-unit211-Phi-zero-H1-fifth-block-original-geometry-and-334-points.md)，**仅余5/5/5/10不同点**。新[完整Gram20输入](notes/2026-11-28-unit211-Phi-zero-H1-P201-last-block-complete-original-Gram-values-8542.md)70d67首派120秒1GiB：原10子式返T/v，ρ²与首一值二次保全部根及模D0幂零；四均值/P1/N1/个别NP/三矩/完整N4(V)同点原20行理想，原方阵×逆才闭第五块。其它Phi/个别NP/b0的316开，不扩至D0。
+H1仅旧D≠0图，[F9整提升](results/R150-appendix-unit211-Phi-zero-H1-F9-original-pole-completed-head-exclusion-and-ten-points.md)闭前四块；末块仍**5/5/5/10**。[完整Gram20实际零返回](notes/2026-11-28-unit211-Phi-zero-H1-last-block-complete-Gram-zero-return-8542.md)：70d67真14.441051881秒，原12值全零/rank0，D仅模零，未排除。新[QQ F5原点/极点/整回缩](notes/2026-11-28-unit211-Phi-zero-H1-F5-original-point-Dixon-pole-integral-retraction-8542.md)a26a首派120秒1GiB：g4原代换给真F5，同v原四式/F6/NV、Dixon左核与S418互素、全部整单位及section全返才付最后块D真0；不重播Gram20或Gaussian。[旧316范围修正](notes/2026-11-28-unit211-Phi-H1-b-zero-316-scope-correction-8542.md)：旧b0始终包含于整H1，无另外316任务。其它Phi/个别NP继续，不扩至D0。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
