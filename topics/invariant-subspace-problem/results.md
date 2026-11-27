@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 unit211：W 的 A143 非零补图九条原行、两列乘法与三参数 cofactor](results/R150-appendix-unit211-W-A143-nonzero-original-two-columns-and-three-parameter-cofactors.md)：全原返回及λ次数6/8/8必要式；保A143零面与所有新首项零。
+
 - [R150 unit211：h=k、Q=1−u、Delta≠0 整个原面排除](results/R150-appendix-unit211-equal-singleton-Q1u-nonzero-Delta-complete-exclusion.md)：完整2/6/24次常数代数K[u]原E1/EBe返回1；互补Delta0续同一u自由Gram。
 
 - [Phi判别式零权面的原PB有限2106覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-original-PB-finite-2106-cover.md)：每有序图两原曲线QQ互素/固定57阶给≤2106基点，各≤6T；模度2033差73未付，非整支排除。

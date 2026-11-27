@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Q1u-nonzero-Delta-entire-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-A143-actual-two-column-cofactors-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -208,7 +208,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[原Haar全目标迹类交织及循环商](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)。** 全整数||A^n||=βn，K_y对每非零y全目标稠密、核恰cyclic(A*,y)⊥，真实循环商到T拟亲和，反向交织零。真循环时K_y⁻¹kerT=0；proper U的同源实际非零交点仍须支付，不以稠密像倒置。
 
-**W新866两列原输入。** 只在A143≠0把原仿射F/S及纯S二次首一化，以1,S返回六原Gram行、原qF/qT/R4共九行、四真乘法及三对新常数列cofactor；保A143完整零面/全部lambda首项零，不倒D/范数，不声称个别谱N/P全返。180秒4GiB，仅执行冻结构造前缀。
+**[W的A143非零补图已返九原行、四乘法及三参数cofactor](results/R150-appendix-unit211-W-A143-nonzero-original-two-columns-and-three-parameter-cofactors.md)。** 866全九原行含qF/qT/R4，63分母核回；真常数列组合给λ度6/8/8的必要式，39.505秒/202820KiB/exit0。A143完整零面、所有新λ头零与个别谱N/P仍须返回，不能以三cofactor零代九原条件。新d8dae改取整个λ3/2的三原均值乘1/F/S与N1/NS/PS/rT固定10列，未倒A143/Ah，无旧投影重放。
 
 
 
