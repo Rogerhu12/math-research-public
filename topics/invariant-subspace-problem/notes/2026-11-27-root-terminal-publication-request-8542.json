@@ -1,17 +1,17 @@
 {
-  "message": "ISP R271: prove original S2 trace deficit; test exact F9 Dixon pole and head lift",
-  "parentCommit": "310ea9c16c1351f9f80d1f8c72e1b7ec531e1c26",
+  "message": "ISP R150: publish original fifth-block geometry; launch S2 head-leaf source",
+  "parentCommit": "907a7d95923f95045bad78b2d26589f0dcc18b49",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-one-pair-four-independent-s2-strict-trace-deficit.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s2-trace-first-boundary-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-F9-original-Dixon-pole-and-integral-head-lift-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-F9-original-Dixon-pole-and-integral-head-lift-8542.md",
-    ".github/workflows/invariant-subspace-8542-phi-f9-original-dixon-pole.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-S2-trace-F9-actual-head-input-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-H1-fifth-block-original-geometry-and-334-points.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-P201-fifth-block-actual-lambda-and-original-Tv-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s2-head-leaf-rank-one-source-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s2-head-leaf-rank-one-source-8542.md",
+    ".github/workflows/invariant-subspace-8542-one-pair-s2-head-leaf.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-fifth-geometry-S2-head-leaf-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +21,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-f9-original-dixon-pole.yml"
+    "invariant-subspace-8542-one-pair-s2-head-leaf.yml"
   ]
 }

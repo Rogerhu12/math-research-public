@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：第五完成块的真实 λ 与原几何关系](results/R150-appendix-unit211-Phi-zero-H1-fifth-block-original-geometry-and-334-points.md)：全 λ 幂原关系、完整 Tv 九种子闭包 K-rank 2，余商 5 维。独立运行给 167/334 界；随后 F9 原特征零桥已闭前四块，当前余图仅 5/5/5/10。
+
 - [R271：一对加四独立原 S2 严格总迹缺陷](results/R271-appendix-one-pair-four-independent-s2-strict-trace-deficit.md)：真实全源第一谱系数在五个闭域严格正，给对称四维 Tr 费用 <4、完整五维 <14/3。实际 180 秒仅 c1 完成，完整 S2 与七位联合仍未付。
 
 - [R150：真实 Q 关系、同 λ 原商与完整 354 点界](results/R150-appendix-unit211-Phi-zero-H1-original-Q-relations-same-lambda-and-354-points.md)：五块原 Q 幂关系全返回；末 5 块的同 λ 原商为 5 维，其余四块完整保留。给 14/59/177/354 界，不将模头零提升为特征零头零。
