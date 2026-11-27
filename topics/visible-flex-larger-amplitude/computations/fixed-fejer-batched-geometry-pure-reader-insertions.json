@@ -1,0 +1,65 @@
+{
+  "schema": "complete-batched-geometry-pure-reader-insertion-text-v1",
+  "exact_original_reader": {
+    "name": "read_fixed_fejer_stage_point_observed_so3_report.py",
+    "bytes": 98763,
+    "sha256": "c9ce27c75ab2b384642d3ccbf83f323bf018a63bfbd31a3364fd3c5e3707653f",
+    "git_blob_sha": "f37f64e9da226b40cc836c1b5f139eec342db764"
+  },
+  "complete_new_module": {
+    "name": "fixed_fejer_batched_geometry_report_binding.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_batched_geometry_report_binding.py",
+    "bytes": 12136,
+    "sha256": "f7e1ef4e9bff7ed9cbd94e4c07bca465b316c4b465ffbb2da2c7869654350139",
+    "git_blob_sha": "83172b8b13ea5663723aebad5d424cb38e9d28a2",
+    "role": "batched_geometry_binding"
+  },
+  "exact_replacements": [
+    {
+      "label": "reuse the original whole-source pure loader for the new role",
+      "before": "    for role,function in (('analytic_J3_binding','read_actual'),('root_packets','validate_entry_report')):\n",
+      "after": "    for role,function in (('analytic_J3_binding','read_actual'),('root_packets','validate_entry_report'),\n                          ('batched_geometry_binding','bind_report')):\n",
+      "count": 1
+    },
+    {
+      "label": "retain the real geometry closure locally without serializing a function",
+      "before": "        answer[role]=(fn(report,roles=report['source_sha256_by_role'],source_directory=path.parent)\n",
+      "after": "        if role=='batched_geometry_binding':\n            answer[role],answer['full_geometry_check']=fn(report,\n                source_by_role=report['source_sha256_by_role'],\n                geometry_source=topic/load_pins(driver)['geometry'][0])\n            continue\n        answer[role]=(fn(report,roles=report['source_sha256_by_role'],source_directory=path.parent)\n",
+      "count": 1
+    },
+    {
+      "label": "attach to the original envelope closure; its complete function body remains unchanged",
+      "before": "    extra=extra_bindings(report,topic,driver,envelope_binding)\n",
+      "after": "    extra=extra_bindings(report,topic,driver,envelope_binding)\n    envelope_check.full_geometry_check=extra['full_geometry_check']\n",
+      "count": 1
+    },
+    {
+      "label": "append batching attribution after every original geometric check",
+      "before": "    result['material_envelope'] = checked_scope\n    return result\n",
+      "after": "    result['material_envelope'] = checked_scope\n    result['missing_angle_batches'] = envelope_check.full_geometry_check(value)\n    return result\n",
+      "count": 1
+    },
+    {
+      "label": "publish only the actual pure binding object",
+      "before": "        material_envelope_binding=envelope_binding,\n",
+      "after": "        material_envelope_binding=envelope_binding,\n        batched_geometry_binding=extra['batched_geometry_binding'],\n",
+      "count": 1
+    }
+  ],
+  "complete_original_reader_restored_by_inverse": true,
+  "source_only_body_size_after_these_insertions": 99317,
+  "source_only_body_sha_after_these_insertions": "7b715821effe44ecc305fbeecb528de6aac8fa2653d02c01684ce5d42542908b",
+  "fully_assembled_new_reader_claimed": false,
+  "root_must_add_actual_new_source_role_and_update_actual_family_pins": true,
+  "original_material_envelope_binding_body_changed": false,
+  "original_geometric_checks_removed_or_relaxed": false,
+  "raw_and_pure_scan_keys": {
+    "raw": "missing_angle_root_batches",
+    "pure": "missing_angle_batches"
+  },
+  "callback_signature": "bind_report(report, *, source_by_role, geometry_source) -> (binding, full_geometry_check)",
+  "report_cross_checks": "normal_stage_count == len(exact_normal_step_nodes)-1; exact working node words and angle_block match; full canonical model and actual geometry/source/helper roles match",
+  "partial_scan_scope": "None stays None; failed scans keep their own actual incomplete batching record, and no successful source_binding is invented",
+  "local_Python_AST_compile_or_science_executed": false,
+  "no_independent_scientific_gate_created": true
+}
