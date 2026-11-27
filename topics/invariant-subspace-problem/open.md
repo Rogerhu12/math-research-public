@@ -201,7 +201,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [新规范头整体覆盖](results/R150-appendix-unit211-W-canonical-binary-head-full-cover-and-six-mean-generators.md)给六行四列 G 在全部已付权点 rank4，15最大子式生成单位理想；具体 $1,\lambda,S,\lambda^2,\lambda S,S^2$ 全局生成均值代数，不重计旧六维界。固定 H265 是单 QQ 不可约(e,k)16/23曲线；首一 k23 环境保整 H0，e 方向的 k+3 不得倒置，几何局部化不自动保持对权环有限。
 
-[H265 非零原值接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)已返四规则/十二真乘法/h4,h5,完整R3,q4四余式；180秒常数门最后完整打印秩4，没有返1或新覆盖，冻结。[纯二元三次等理想替换](results/R150-appendix-unit211-W-original-cubic-pure-binary-ideal-compression.md)保任意原三次次数≤3且无新分母；7168的新完整 NS/PS 固定六阶参数 det 首次运行，只有完整非零返回才可记新必要权覆盖，整H265零及所有未付头/原值始终保留。
+[H265 非零四值接口](results/R150-appendix-unit211-W-first-binary-head-open-original-value-six-coordinate-return.md)的180秒常数门仅完整rank4，无1/新覆盖，冻结。7168[实际NS/PS接口与失败](notes/2026-11-28-unit211-W-original-NSPS-cubic-six-coordinate-actual-interface-and-determinant-boundary-8542.md)真180.635542056秒/−14：全域纯三次、H开图六原列及清分母已返，Bareiss仅两步41商积，无det/新曲线，整H0保留。新0d890改原native(1,x,y,t,y²,yt)及NS,PS,yNS,tNS,yPS,tPS六行，全部分母逐项按已付(k+2)J19C9返回，包含整H0；首次门只认实际返回，不重放旧lambda/S门。
 
 ### Phi：一般 H1 余 P201，其它原权与值层仍开
 
@@ -223,4 +223,4 @@ P201系数未识别，未返原λ/T/z与全部个别NP继续，不以权对数�
 
 [同一实际右逆的临界伴随域及精确像](results/R271-appendix-same-right-inverse-adjoint-critical-physical-source-and-exact-range.md)：以主指数κ+κ0及(36+κ)√(p+Q)log(p+Q)定义Zκ,Q，已证Zκ,Q⊂D(G*)、G*:Xκ+ρ→Xκ对每个ρ>κ0；同一G不随尺度重选。准确有D(G*)∩N⊥=RanT*及T*E∞=N⊥∩E∞=I∩E∞，这些交的H闭包恰I；W∩D(G*)=0。实际N/Y、同h与全部carry保留；并未证明真实W进入该域，也未返RTcut有界子列，继续能保持N⊥的真正则器或原来源估计。
 
-[整H265的低次头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)：完整4阶头=固定2/3次齐次结式；重数1给Sylvester泛型rank4、同头gcd恰一次。整a0/r1r0零/无穷/重根与有限例外权全保，头方向不能代入有限λ/S。完整自由系数整数身份实际2ms，无新参数门，原W纤维未因此排除。
+[整H265头方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)有完整4阶头=2/3次齐次结式，重数1给泛型gcd一次；a0/r1r0零/无穷/重根及有限例外全保，不能代有限λ/S。自由系数整数身份真2ms，未排W纤维。
