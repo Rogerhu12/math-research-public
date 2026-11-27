@@ -191,3 +191,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 13:40 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 新等权原十行与两6列cofactor实际全返回；源6a7adfc1用1.898962029秒/50392KiB/exit0，原必要C24,24/C25,25全因子身份已登记。
 - 记录05:36:12真实pull及两README无变；下一接两曲线的全部共同部分和原Dval，普通ISP未完成。
+
+2026-11-27 13:47 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新增整等权五条原参数余子式的 QQ[m,Q] 全共同因子/不可约因子乘回输入；使用刚成功的六生成元原行，不延长或重排被冻结门。源 SHA256 1541f738a902d0f9354137994a90b3dcd8850fa4671fba5b30e2af21ef3c84cf，180秒/4GiB/单线程；运行前不声称公共零集为空。
+- 新增共享 .github/workflows/invariant-subspace-equal-weight-all-cofactor-common-factors-8542.yml 仅执行此新数学输入，真实部分克隆/pull 后按既定 driver 检查两 README。当前终端仍不可用，接口读不冒充本地 pull。
