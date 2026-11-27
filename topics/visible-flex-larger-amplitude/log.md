@@ -279,3 +279,8 @@ root独立读官方run46037017666/1及job140634874993，均completed/cancelled�
 ### 2026-11-27 22:56 UTC — 20 官方运行归因
 
 实际launch85cd235221ace28158625a7ced52a24551b509eb唯一官方run46079535427/1，created/start22:55:41Z，job140775034500。root22:56:26真读job全step：原checkout/Python/依赖均success，研究step5 in_progress；新input/科学/字段尚未自然返回。全部官方实际归因追加[20启动note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)，请求文件不改以免重复触发。精确父52ec703c的完整workflows树1266/truncatedfalse确认新增20原路径不存在，contents仅1000列表不冒完整证据。继续读原controller新input与科学真实输出。
+
+
+### 2026-11-27 23:00 UTC — 19 首 trial 统计实际返回
+
+固定3b34f6064ca3030c4521f779844b64d05690c937的index34423B显示d761b5于22:50:51.653725真实trial-statistics-returned，Phi3825.0583176123996/Gram.6460503022350718。原初Phi3825.0583894874153/Gram.6460503011117507保；Phi略降而Gram略升，恢复阶段不能据此判接受/优化效率。trial几何/决定仍null，current初7e06/accepted0/g.9684249942095058未变，原g不填到trial。全部原有界观察及缺值保[19续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)，完整科学继续。
