@@ -233,3 +233,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 **[W纯T三列三个完整原参数式](results/R150-appendix-unit211-W-global-pure-T-three-original-parameter-cofactors.md)。** 505只取原r2/R6及真S乘法，三个固定3×3常数列全返，余(e,k,λ)度34/40/16、34/40/16、40/48/19；真12.786秒/169540KiB/0。λ最高次的809/816/1227项头仍未付，全部零纤维保留，不作全图首一λ。原U atlas明确λ=m/U0非零供后续剥除，本次profile不改不重跑；个别N/P与完整NV继续低11行。
 
 **[W原Gram/value四行三列完整耦合](results/R150-appendix-unit211-W-coupled-original-Gram-value-four-by-three-complete-minors.md)。** f5c真3.993秒/91328KiB/exit0，三原Ri=Ai+BiF的Hij=BjRi−BiRj与r2、Sr2给全部四个3×3常数列身份；余λ度12/12/9/11。所有Bi零面/r2头/四新λ头保留，不判参数交点空或有限，原个别N/P/NV仍保。下一由原首一qF补Θi=Ai²−pAiBi+qBi²，处理同一F的完整存在性。
+
+## h=k 整个 Delta=0 已排空（8542，2026-11-28）
+
+[完整定理](results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：原完整QQ578覆盖只余C1/C2/C4。C1、C2此前整纤维已闭；新3b4在C4和完整首一u三次的12维常数代数上返回全八原Gram，保同一自由f，E1/EBe全系数Bézout=1。真1.906秒/37028KiB/0，没有常数分量丢弃或重放旧有理u cofactor。结合此前碰撞退化原面，整个h=k、Delta0闭；下一步处理Delta非零，h1/k1与其他图仍保留。

@@ -1,0 +1,224 @@
+{
+  "schema": "isp-exact-conclusion-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": "2026-11-27-unit211-equal-singleton-complete-C4-twelve-dimensional-original-Gram-8542.py",
+  "run": 46033224090,
+  "job": 140622042399,
+  "execution": {
+    "elapsed_seconds": 1.9062440350000003,
+    "max_child_rss_kib": 37028,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "65d2065b1fe8c6a34e2850188cd7b5c0e40737ba",
+        "before": "b8b8464e2750bbf9bb723e6878dd613763720fe1",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T16:23:53.732931+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46033224090",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "b8b8464e2750bbf9bb723e6878dd613763720fe1",
+    "source_exit_code": 0,
+    "source_git_blob": "c52031f323be7923be2ce6328f56618d81ad2672",
+    "source_sha256": "3b4e352d11a1fefdf496f481c6e1317c72221caef9e8ab90e63d00bbb157600d",
+    "stdout_bytes": 3104,
+    "stdout_sha256": "b58d3dec620eaf099a5fc1c31ef6e244bdb3babbe8c59183125a4e13ee1a1ef7",
+    "stop_reason": null
+  },
+  "mathematical": [
+    {
+      "completeLambdaFactor": [
+        "3/8",
+        "-3/2",
+        "3",
+        "-3",
+        "1"
+      ],
+      "entireUCubic": [
+        [
+          "-1935968/377807",
+          "-582832/377807",
+          "2333440/377807",
+          "-734336/377807"
+        ],
+        [
+          "86116/10211",
+          "82696/10211",
+          "-151584/10211",
+          "33024/10211"
+        ],
+        [
+          "-1726012/377807",
+          "-2265096/377807",
+          "2999120/377807",
+          "-176192/377807"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "maximumQQAlgebraDimension": 12,
+      "sourceOfCompletedOriginalCubic": "5b2b2fcd2706e2bbe6761b38055cd42ac6ccd63e944f8e4f8a7fd5cf5503d0aa",
+      "noPriorRationalUCofactorGateReplayed": true,
+      "allComponentsRetained": true,
+      "stage": "new_C4_complete_cubic_u_original_input",
+      "seconds": 0.0002516699999972616
+    },
+    {
+      "case": "entire_original_C4_cubic_u",
+      "lambdaDegree": 4,
+      "recoveredU": [
+        [],
+        [
+          "1"
+        ]
+      ],
+      "originalQ": [
+        [
+          "1264/7",
+          "-3320/7",
+          "5664/7",
+          "-2496/7"
+        ],
+        [
+          "-2008/7",
+          "5272/7",
+          "-8944/7",
+          "3936/7"
+        ],
+        [
+          "687/7",
+          "-1802/7",
+          "3040/7",
+          "-1336/7"
+        ]
+      ],
+      "QequalsOneMinusSameU": false,
+      "originalDeltaAndBothCompatibilityRowsReturned": true,
+      "noDeltaOrNFInverse": true,
+      "freeOriginalParameter": "f",
+      "claimExcluded": false,
+      "stage": "new_C4_finite_Delta_zero_same_original_u_recovered",
+      "seconds": 0.06099968999999916
+    },
+    {
+      "case": "entire_original_C4_cubic_u",
+      "lambdaDegree": 4,
+      "freeOriginalParameter": "f",
+      "allEightOriginalRows": [
+        {
+          "name": "E1",
+          "fDegree": 2
+        },
+        {
+          "name": "EBe",
+          "fDegree": 2
+        },
+        {
+          "name": "EBo",
+          "fDegree": 2
+        },
+        {
+          "name": "N1",
+          "fDegree": 2
+        },
+        {
+          "name": "NBe",
+          "fDegree": 3
+        },
+        {
+          "name": "NBo",
+          "fDegree": 3
+        },
+        {
+          "name": "PBe",
+          "fDegree": 3
+        },
+        {
+          "name": "PBo",
+          "fDegree": 3
+        }
+      ],
+      "allMomentE0N0P1NVAndBothSingletonTargetsReturned": true,
+      "coefficientPairsUseBothActualRowsAndRhoNonzero": true,
+      "claimExcluded": false,
+      "stage": "new_C4_finite_Delta_zero_finite_same_original_Gram_complete",
+      "seconds": 1.6779153739999977
+    },
+    {
+      "newOriginalRow": "E1",
+      "fDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "stage": "new_C4_finite_Delta_zero_finite_free_f_original_Bezout",
+      "seconds": 1.6912563079999998
+    },
+    {
+      "newOriginalRow": "EBe",
+      "fDegree": 0,
+      "allOriginalCoefficientProductsReturned": true,
+      "stage": "new_C4_finite_Delta_zero_finite_free_f_original_Bezout",
+      "seconds": 1.8264861749999994
+    },
+    {
+      "excluded": true,
+      "uDegree": 3,
+      "originalRowsUsed": [
+        "E1",
+        "EBe"
+      ],
+      "finalFPolynomial": [
+        [
+          [
+            "1"
+          ]
+        ]
+      ],
+      "allLambdaAndURootsAndFreeFValuesRetained": true,
+      "certificateBytes": 26989,
+      "certificateSHA256": "43717a736effeedad28bec7de3b3ca0c5c05736ef129d4ba87850423c307f762",
+      "fullCertificate": null,
+      "stage": "new_C4_complete_finite_original_Gram_return",
+      "seconds": 1.8283167569999996
+    },
+    {
+      "sourceSHA256": "3b4e352d11a1fefdf496f481c6e1317c72221caef9e8ab90e63d00bbb157600d",
+      "outcomes": [
+        {
+          "excluded": true,
+          "uDegree": 3,
+          "originalRowsUsed": [
+            "E1",
+            "EBe"
+          ],
+          "finalFPolynomial": [
+            [
+              [
+                "1"
+              ]
+            ]
+          ],
+          "allLambdaAndURootsAndFreeFValuesRetained": true,
+          "certificateBytes": 26989,
+          "certificateSHA256": "43717a736effeedad28bec7de3b3ca0c5c05736ef129d4ba87850423c307f762"
+        }
+      ],
+      "allConstantSplits": [],
+      "entireOriginalC4DeltaZeroFiberExcluded": true,
+      "actualConstantInverseCount": 14309,
+      "actualPolynomialDivisionCount": 14207,
+      "peakRssKiB": 35012,
+      "ordinaryISPClaim": false,
+      "stage": "new_C4_complete_twelve_dimensional_original_return_finished",
+      "seconds": 1.8287556449999975
+    }
+  ],
+  "entireOriginalEqualSingletonDeltaZeroExcluded": true,
+  "ordinaryISPClaim": false
+}
