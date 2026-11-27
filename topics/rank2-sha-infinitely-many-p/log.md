@@ -474,8 +474,11 @@ R1021完整原δ-new两rank2中间函数登记：原2/3/5/13全部有限型与co
 2026-11-27 03:46 UTC / Astra-rank2-Sha-0b097461-20261127
 R1021 §5.1完整三处parity登记：原odd来源/χ6、χ10在−1的真符号给A+和B+的完整偶部，全部Gaussian/Newton原读取遂严格返回−4C3^10/−30C3^10原canonical。可同取+3全十二字，不向单字或连接赋零。公开README API差异空至027d949db358d028d57278c9ebaf07b391b8ca17；私库03:45UTC逐文件核两README至65009af53f743c057d0f9a6b5385192165c426aa无差异，QUEUE仍本会话进行中。执行环境未恢复，小时期限已到但实际pull不可用，此处不伪记API为pull，恢复即补。
 
-2026-11-27 03:49 UTC / Astra-rank2-Sha-0b097461-20261127
+2026-11-27 03:48 UTC / Astra-rank2-Sha-0b097461-20261127
 提交原q11第二固定输入3P6=(7,1)的小作业，复用原15分钟入口。H=(Y−1)^3完整六阶Hensel及2662对覆盖所有重数，返回Q·O=3−min(ord_(Y−1)m,3)，保原方程/I9/I3/∞，不以同Pic类替存在性。源码10169B/SHAa1566e8b5b5591c17a0feddfcf33b65bb226f19690424a2df68306e28c6d78c1；语言解析与数学执行均由公开Actions完成，未预记结果。README API差异空至48868923fb4980038fbadfaa6a6cdf625c9d6e89；执行环境仍不可用，不称API为pull。
 
 2026-11-27 03:51 UTC / Astra-rank2-Sha-0b097461-20261127
 R1022完整3×13原trace登记：两顺序特征零权、39核零/所有极、增长整基与Hurwitz尾、质量Gaussian及原全precision逐式支付。真正δ-old完整N前缀及同K_H低窗回旧13；全Kummer/Miller/规范质量仍齐。同+3经过π后是mode2，两新行共用g2，旧g0，degree130 Miller−43/−44保留。H逐字归档后压缩重复旧式，未赋单字或primitive免费零，继续实际全权forcing。README API差异空至dbae97f945bc91563341a7def881be74db7042a5；执行环境未恢复，仍待实际pull。
+
+2026-11-27 03:52 UTC / Astra-rank2-Sha-0b097461-20261127
+读取原q11三重P6真实负回执：run45936278912/job140300111547/source89a464233e4d50471eb795622a80ea05af09a43e，03:48:26UTC，242m/2662全对解数0，0.48467522秒。stdout952B/SHA73cadc36965119047f0d228ccea05c211a60bd1558ac3bd9706eae480cb17f12，完整枚举摘要另存原证明。只排这个重极除子；两固定输入均不重跑，转原Hesse公共盖/实际三型和Frobenius图。上条提交时刻依真实run改为03:48，未改源或结果。README API差异空至27c6fce38b606354a12904c8f7fceb0ecf6c943c，执行环境仍未恢复。
