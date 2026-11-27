@@ -61,6 +61,6 @@ Actions15：[run 46031953783/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-15:end -->
 
 <!-- visible-larger-parallel-16:start -->
-Actions16：[run 46037017666/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46037017666)；[全阶段记录](notes/2026-11-27-public-actions-46037017666-1.md)。completed；已返1，exit=0。
-并行16规则核查：2026-11-27 16:52:09 UTC，真实pull至`5aacee6d6e4aea51c1496926422dc8440a36fb4b`，双README无变化。
+Actions16：[run 46037017666/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46037017666)；[全阶段记录](notes/2026-11-27-public-actions-46037017666-1.md)。completed；已返2，exit=0。
+并行16规则核查：2026-11-27 17:00:53 UTC，真实pull至`489518979e4473bedcb6ff56d5118742ce0216fd`，双README无变化。
 <!-- visible-larger-parallel-16:end -->
