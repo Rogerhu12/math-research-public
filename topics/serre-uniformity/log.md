@@ -209,3 +209,7 @@
 ### 2026-11-27 20:27 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 提交仅0/141×ZA/ZB的短Cartier v2独立入口/新请求；原v1所有成功文件与guards不改，FourRR保原cycle和除6，已成十二case不构造新形式。
 - root/global/o2全文纸核新driver/请求/方法；新α前强制旧C/E/frame/grid完整hash。新增课题外workflow serre-full-p47-short-Cartier-first-four.yml，仅本课题，3600/reserve120、4核；Miller仍in_progress而未读到完整值，新方法明确记录并行来源，不把未成值当旧结论重算。
+
+### 2026-11-27 20:39 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1123消费首四短Cartier成功run45998781656/job140504817189，314.479秒；0/141各ZA/ZB的四α全成，root/global核完整receipt、RR/留数、C/E原帧与clean SHA。
+- root/global/o2全文纸审独立两特殊盘QC四文件，真实填四条与新证书，旧六盘共同request按完整SHA只读；新增课题外workflow serre-full-p47-QC-special-two.yml，仅0/141，2400/reserve60。旧六盘和十二值不重算，完整47与一般p继续。

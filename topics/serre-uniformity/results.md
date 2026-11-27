@@ -1,8 +1,10 @@
 # 结论索引
 
+- **R1123（已证明，精确计算）**：[原两特殊CM盘的四条规范第三类值](results/R1123-certified-original-four-special-CM-Cartier-values.md)：run45998781656/job140504817189，314.479秒；0的ZA/ZB=531/1857、141=1783/529，完整RR/留数和旧C同帧通过，clean SHA1056547d…。两盘实际QC独立请求随即提交，已关六盘不重算。
+
 - **R1122（已证明，精确计算）**：[原六个完整CM圆盘关闭](results/R1122-certified-original-six-complete-CM-disks.md)：run45996561850/job140497301328，117.953秒；六盘76/77/100/108/196/220全rank2/gcd=t/单位B，原全73 trace及Cartier/Tq同帧桥通过。结合R1103整尾，整个4513盘各只余原CM点；固定47尚余0/141，全p主目标继续。
 
-- **R1121（已证明，精确计算）**：[原十二个短Cartier第三类值](results/R1121-certified-original-twelve-short-Cartier-values.md)：run45994669183/job140490956495，541.159秒，六盘×ZA/ZB全成无失败；α表、完整RR/留数和原73帧C齐备，detE=3058、det(1−C)=551。只消费已成值，原0/141首4仍在Miller；六盘实际QC随即新算。
+- **R1121（已证明，精确计算）**：[原十二个短Cartier第三类值](results/R1121-certified-original-twelve-short-Cartier-values.md)：run45994669183/job140490956495，541.159秒，六盘×ZA/ZB全成无失败；α表、完整RR/留数和原73帧C齐备，detE=3058、det(1−C)=551。只消费已成值，原0/141首4后由R1123取得；六盘实际QC见R1122。
 
 - **R1120（已证明，精确计算）**：[R1120](results/R1120-certified-original-full47-signed-CM-coordinates.md)：run45994488204/job140490328323已成功，21.546秒；aux−11首项完整rank73、det4364，四基本CM的ρ_D与原QC坐标ρ_D/Bq全73系数齐备，原Hodge/Bq全矩阵桥通过。几何/整性见R1119；全部receipt/source/hash已核，仅消费，不再等待或补跑q²链。第三类值与真正QC行秩继续。
 
