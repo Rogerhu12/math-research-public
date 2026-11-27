@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-exceptional-PB-exact-2033-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-equal-singleton-entire-Q1u-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -204,7 +204,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[lambda3/2整Ah0已闭](results/R150-appendix-unit211-W-lambda-three-halves-Ahat-zero-complete-original-exclusion.md)。** 原T²/同T一次保R1零，完整14次QQ因子上61×15含个别N/P/全NV真1。仅该纤维付Ah；余曲线从新同z R2/H6八列原覆盖继续，未用新Ah单位。
 
-**[h=k,Q=1−u,Delta≠0整个原面已闭](results/R150-appendix-unit211-equal-singleton-Q1u-nonzero-Delta-complete-exclusion.md)。** fb8在完整C2/C6/C24三个常数代数直接返回原E1/EBe Bézout单位，54.970秒/58528KiB/exit0，所有复根及原分母保全。此前完整32次lambda覆盖与所有源保正文；不重放四大结式。互补Delta0的整C6/C24仍须自由Gram返回，新54f9从三原相容恢复同一u，保所有未返纤维。
+**[h=k的整个Q=1−u原面已闭](results/R150-appendix-unit211-equal-singleton-Q1u-Delta-zero-and-entire-face-exclusion.md)。** 非0Delta完整2/6/24次常数返回与新54f9零图合闭：C6三相容原组合返1，C24恢复同一u后保自由f返回全八式，原E1/EBe返1。真0.895秒/42304KiB/exit0，528常数逆/325除法全乘回；未倒Delta或NF，保所有复根。剩余h=k可付u+Q−1；不重做旧完整lambda覆盖和原返回，继续一般碰撞参数。
 
 **[原Haar全目标迹类交织及循环商](results/R271-appendix-actual-haar-global-trace-intertwiners-and-cyclic-quotient-quasiaffinities.md)。** 全整数||A^n||=βn，K_y对每非零y全目标稠密、核恰cyclic(A*,y)⊥，真实循环商到T拟亲和，反向交织零。真循环时K_y⁻¹kerT=0；proper U的同源实际非零交点仍须支付，不以稠密像倒置。
 

@@ -1,0 +1,662 @@
+{
+  "schema": "isp-Q1u-Delta-zero-entire-original-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run": 46021956889,
+  "job": 140583573322,
+  "execution": {
+    "elapsed_seconds": 0.8950360789999969,
+    "max_child_rss_kib": 42304,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e20a2cfce88602a32cc996c1b174850b49feae81",
+        "before": "e20a2cfce88602a32cc996c1b174850b49feae81",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T15:07:06.430280+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46021956889",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e20a2cfce88602a32cc996c1b174850b49feae81",
+    "source_exit_code": 0,
+    "source_git_blob": "e314dbbd2e6c0e3762442ed03ae2e9783bf78a5f",
+    "source_sha256": "54f9a5098986eb3c0f706b32ef3387b220b2b4d1f1aad2fc9c0ef4b77f67d114",
+    "stdout_bytes": 10967,
+    "stdout_sha256": "5e60b5651bb8eaebcf210c3641aca5fea2d0aecf4ef757afc65ea972337eba1f",
+    "stop_reason": null
+  },
+  "actualReturns": [
+    {
+      "originalInputSourceSHA256": "2298408cf56888d710f4a22d74026a81b2d900aca84541148459ea4eacfe6ab2",
+      "onlyRawConstructionPrefixSHA256": "899325563084c0a165f5e5cd00aa050e3b315c4e5aea9bf5b3383862538f51a0",
+      "noOldOriginalFactorizationOrProjectionGateReplayed": true,
+      "allThreeOriginalCompatibilityPolynomialsReconstructed": true,
+      "allOriginalTwoRowEliminationIdentitiesReturned": true,
+      "completeLambdaFactorDegrees": [
+        6,
+        24
+      ],
+      "claimExcluded": false,
+      "stage": "new_Q1u_Delta_zero_complete_affine_finite_input",
+      "seconds": 0.00806983599999711
+    },
+    {
+      "case": "complete_lambda_degree_6",
+      "lambdaDegree": 6,
+      "originalRows": [
+        {
+          "name": "Delta",
+          "onlyPaidRemovals": [
+            {
+              "originalUnit": "Q",
+              "gcdLoops": 3
+            }
+          ],
+          "primitive": {
+            "uDegree": 1,
+            "bytes": 107,
+            "sha256": "9afae33f9bc3736c687cc5be592d3843df70370953944ac4bbdec5871d864a81",
+            "coefficients_u_then_lambda": [
+              [
+                "7/864",
+                "-1/16",
+                "127/576",
+                "-193/432",
+                "47/96",
+                "-1/4"
+              ],
+              [
+                "7/432",
+                "-1/12",
+                "35/144",
+                "-85/216",
+                "19/48",
+                "-1/6"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "F",
+          "onlyPaidRemovals": [
+            {
+              "originalUnit": "Q",
+              "gcdLoops": 3
+            }
+          ],
+          "primitive": {
+            "uDegree": 2,
+            "bytes": 205,
+            "sha256": "f46c32153899ee2f754da886baa9aec44d232d46652a008b081906dfde9d34ee",
+            "coefficients_u_then_lambda": [
+              [
+                "23/4608",
+                "-163/6912",
+                "197/3072",
+                "-113/1152",
+                "85/864",
+                "-19/384"
+              ],
+              [
+                "11/2304",
+                "-113/5184",
+                "863/13824",
+                "-341/3456",
+                "139/1296",
+                "-169/3456"
+              ],
+              [
+                "-7/20736",
+                "5/2592",
+                "-71/13824",
+                "167/20736",
+                "-73/10368",
+                "7/1728"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Tnum",
+          "onlyPaidRemovals": [
+            {
+              "originalUnit": "Q",
+              "gcdLoops": 4
+            }
+          ],
+          "primitive": {
+            "uDegree": 2,
+            "bytes": 276,
+            "sha256": "23ad21534a49e2863571643319eba875dc76c2eb3aa93e35aec976d0abc212c0",
+            "coefficients_u_then_lambda": [
+              [
+                "1765/11943936",
+                "-2965/3981312",
+                "17285/7962624",
+                "-85051/23887872",
+                "14825/3981312",
+                "-221/124416"
+              ],
+              [
+                "187/995328",
+                "-2017/1990656",
+                "995/331776",
+                "-20195/3981312",
+                "21025/3981312",
+                "-593/221184"
+              ],
+              [
+                "395/2985984",
+                "-13/18432",
+                "4105/1990656",
+                "-1283/373248",
+                "781/221184",
+                "-1763/995328"
+              ]
+            ]
+          }
+        }
+      ],
+      "fullCompatibilityGcd": {
+        "uDegree": 0,
+        "bytes": 7,
+        "sha256": "e28610836ab702cd35495751839961e9fae54fec4ee18dc4b314862c18c3d104",
+        "coefficients_u_then_lambda": [
+          [
+            "1"
+          ]
+        ]
+      },
+      "allBezoutProductsReturned": true,
+      "allOriginalUnitRemovalsReturned": true,
+      "claimExcluded": false,
+      "stage": "new_Q1u_Delta_zero_complete_original_compatibility_return",
+      "seconds": 0.0456494929999991
+    },
+    {
+      "case": "complete_lambda_degree_6",
+      "lambdaDegree": 6,
+      "excluded": true,
+      "originalCompatibilityUnit": true,
+      "allLambdaAndURootsRetained": true,
+      "stage": "new_Q1u_Delta_zero_compatibility_unit_exclusion",
+      "seconds": 0.045709992999999116
+    },
+    {
+      "case": "complete_lambda_degree_24",
+      "lambdaDegree": 24,
+      "originalRows": [
+        {
+          "name": "Delta",
+          "onlyPaidRemovals": [
+            {
+              "originalUnit": "Q",
+              "gcdLoops": 2
+            }
+          ],
+          "primitive": {
+            "uDegree": 2,
+            "bytes": 310,
+            "sha256": "0e88ac72f7cf63b511b93666daf148a6c1a00cddc0cbfb368984305cf0d4884e",
+            "coefficients_u_then_lambda": [
+              [
+                "-1/16",
+                "11/16",
+                "-129/32",
+                "505/32",
+                "-1439/32",
+                "387/4",
+                "-1271/8",
+                "1583/8",
+                "-1461/8",
+                "239/2",
+                "-51",
+                "12",
+                "-1"
+              ],
+              [
+                "1/4",
+                "-23/8",
+                "555/32",
+                "-1107/16",
+                "6391/32",
+                "-3471/8",
+                "5761/8",
+                "-1823/2",
+                "864",
+                "-590",
+                "270",
+                "-72",
+                "8"
+              ],
+              [
+                "-1/16",
+                "3/4",
+                "-39/8",
+                "85/4",
+                "-1089/16",
+                "333/2",
+                "-633/2",
+                "468",
+                "-531",
+                "448",
+                "-264",
+                "96",
+                "-16"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "F",
+          "onlyPaidRemovals": [
+            {
+              "originalUnit": "Q",
+              "gcdLoops": 2
+            }
+          ],
+          "primitive": {
+            "uDegree": 3,
+            "bytes": 659,
+            "sha256": "5508d554fc2a30c680f6b5d452c7348667d7e9a2c1a273c9b7789a36f9fd5bf3",
+            "coefficients_u_then_lambda": [
+              [
+                "-7/256",
+                "57/128",
+                "-29/8",
+                "4973/256",
+                "-305/4",
+                "29615/128",
+                "-35783/64",
+                "69991/64",
+                "-27903/16",
+                "72573/32",
+                "-38251/16",
+                "16133/8",
+                "-1332",
+                "2661/4",
+                "-237",
+                "54",
+                "-6"
+              ],
+              [
+                "23/256",
+                "-47/32",
+                "391/32",
+                "-17291/256",
+                "275",
+                "-222349/256",
+                "560529/256",
+                "-572721/128",
+                "477535/64",
+                "-324859/32",
+                "179115/16",
+                "-39477/4",
+                "27201/4",
+                "-7067/2",
+                "5223/4",
+                "-615/2",
+                "35"
+              ],
+              [
+                "-5/64",
+                "159/128",
+                "-41/4",
+                "3633/64",
+                "-14921/64",
+                "95571/128",
+                "-61349/32",
+                "128241/32",
+                "-109869/16",
+                "9647",
+                "-44181/4",
+                "20347/2",
+                "-7374",
+                "4058",
+                "-1596",
+                "400",
+                "-48"
+              ],
+              [
+                "1/64",
+                "-1/4",
+                "135/64",
+                "-385/32",
+                "3275/64",
+                "-2727/16",
+                "29233/64",
+                "-31985/32",
+                "28755/16",
+                "-10615/4",
+                "12781/4",
+                "-6183/2",
+                "2345",
+                "-1340",
+                "540",
+                "-136",
+                "16"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "Tnum",
+          "onlyPaidRemovals": [
+            {
+              "originalUnit": "Q",
+              "gcdLoops": 3
+            }
+          ],
+          "primitive": {
+            "uDegree": 3,
+            "bytes": 1038,
+            "sha256": "104e4ff585ccf8119e856ebd70b32b253dbb2ae018a7ab069d495e2b4018e680",
+            "coefficients_u_then_lambda": [
+              [
+                "-1/4096",
+                "3/512",
+                "-141/2048",
+                "2163/4096",
+                "-6083/2048",
+                "6673/512",
+                "-11855/256",
+                "139713/1024",
+                "-173319/512",
+                "91419/128",
+                "-164945/128",
+                "510173/256",
+                "-337905/128",
+                "95511/32",
+                "-22887/8",
+                "147203/64",
+                "-48847/32",
+                "6533/8",
+                "-679/2",
+                "413/4",
+                "-41/2",
+                "2"
+              ],
+              [
+                "5/4096",
+                "-31/1024",
+                "757/2048",
+                "-12101/4096",
+                "35485/2048",
+                "-324409/4096",
+                "1198407/4096",
+                "-1830811/2048",
+                "4697479/2048",
+                "-1277603/256",
+                "9483869/1024",
+                "-7524685/512",
+                "10205801/512",
+                "-5895945/256",
+                "2882543/128",
+                "-295023/16",
+                "796271/64",
+                "-216143/32",
+                "22745/8",
+                "-6983/8",
+                "697/4",
+                "-17"
+              ],
+              [
+                "-1/512",
+                "25/512",
+                "-155/256",
+                "5055/1024",
+                "-1895/64",
+                "283901/2048",
+                "-1074979/2048",
+                "3367659/2048",
+                "-8859609/2048",
+                "9880523/1024",
+                "-2348667/128",
+                "7633703/256",
+                "-5297635/128",
+                "782211/16",
+                "-390501/8",
+                "652039/16",
+                "-55981/2",
+                "61747/4",
+                "-13169/2",
+                "2042",
+                "-410",
+                "40"
+              ],
+              [
+                "1/1024",
+                "-23/1024",
+                "267/1024",
+                "-1033/512",
+                "5945/512",
+                "-53897/1024",
+                "199115/1024",
+                "-38291/64",
+                "1592263/1024",
+                "-1763355/512",
+                "209089/32",
+                "-1361707/128",
+                "475191/32",
+                "-566453/32",
+                "143125/8",
+                "-121261/8",
+                "21169/2",
+                "-11879/2",
+                "2576",
+                "-810",
+                "164",
+                "-16"
+              ]
+            ]
+          }
+        }
+      ],
+      "fullCompatibilityGcd": {
+        "uDegree": 1,
+        "bytes": 1201,
+        "sha256": "3512281297b8a3bdb50775903b406c0bdf230fffea97738c966b9638aa420862",
+        "coefficients_u_then_lambda": [
+          [
+            "18147092599609242878709/354017595295346500",
+            "-452442705479028018544661/424821114354415800",
+            "5811179848977771565820849/531026392943019750",
+            "-156197353948768238283615673/2124105571772079000",
+            "254520437397801352671849937/708035190590693000",
+            "-951841374880111032703502957/708035190590693000",
+            "8342008163635600467902402863/2124105571772079000",
+            "-902143674936526108586536749/101147884370099000",
+            "10611043973928619701932035839/708035190590693000",
+            "-3969256074873906879607353581/265513196471509875",
+            "-2914970094491512701658679093/424821114354415800",
+            "74836013937639056149133238013/1062052785886039500",
+            "-32873773030506494098510495713/177008797647673250",
+            "88780185464098959354698513879/265513196471509875",
+            "-123857404325328293501024272708/265513196471509875",
+            "139136481787076070498570913078/265513196471509875",
+            "-3638012715610208887622655956/7586091327757425",
+            "94790936142475810132807597256/265513196471509875",
+            "-1158660509469207845454507904/5418636662683875",
+            "8930039805824865905343028896/88504398823836625",
+            "-3207284224385189610902066752/88504398823836625",
+            "354721148741257814408502784/37930456638787125",
+            "-137611784538353347343310592/88504398823836625",
+            "319223294651928682812416/2528697109252475"
+          ],
+          [
+            "1"
+          ]
+        ]
+      },
+      "allBezoutProductsReturned": true,
+      "allOriginalUnitRemovalsReturned": true,
+      "claimExcluded": false,
+      "stage": "new_Q1u_Delta_zero_complete_original_compatibility_return",
+      "seconds": 0.47187821099999994
+    },
+    {
+      "case": "complete_lambda_degree_24",
+      "lambdaDegree": 24,
+      "recoveredU": [
+        "-18147092599609242878709/354017595295346500",
+        "452442705479028018544661/424821114354415800",
+        "-5811179848977771565820849/531026392943019750",
+        "156197353948768238283615673/2124105571772079000",
+        "-254520437397801352671849937/708035190590693000",
+        "951841374880111032703502957/708035190590693000",
+        "-8342008163635600467902402863/2124105571772079000",
+        "902143674936526108586536749/101147884370099000",
+        "-10611043973928619701932035839/708035190590693000",
+        "3969256074873906879607353581/265513196471509875",
+        "2914970094491512701658679093/424821114354415800",
+        "-74836013937639056149133238013/1062052785886039500",
+        "32873773030506494098510495713/177008797647673250",
+        "-88780185464098959354698513879/265513196471509875",
+        "123857404325328293501024272708/265513196471509875",
+        "-139136481787076070498570913078/265513196471509875",
+        "3638012715610208887622655956/7586091327757425",
+        "-94790936142475810132807597256/265513196471509875",
+        "1158660509469207845454507904/5418636662683875",
+        "-8930039805824865905343028896/88504398823836625",
+        "3207284224385189610902066752/88504398823836625",
+        "-354721148741257814408502784/37930456638787125",
+        "137611784538353347343310592/88504398823836625",
+        "-319223294651928682812416/2528697109252475"
+      ],
+      "QequalsOneMinusSameU": true,
+      "originalDeltaAndBothCompatibilityRowsReturned": true,
+      "noDeltaOrNFInverse": true,
+      "freeOriginalParameter": "f",
+      "claimExcluded": false,
+      "stage": "new_Q1u_Delta_zero_same_original_u_recovered",
+      "seconds": 0.4949372249999975
+    },
+    {
+      "case": "complete_lambda_degree_24",
+      "lambdaDegree": 24,
+      "freeOriginalParameter": "f",
+      "allEightOriginalRows": [
+        {
+          "name": "E1",
+          "fDegree": 2
+        },
+        {
+          "name": "EBe",
+          "fDegree": 2
+        },
+        {
+          "name": "EBo",
+          "fDegree": 2
+        },
+        {
+          "name": "N1",
+          "fDegree": 2
+        },
+        {
+          "name": "NBe",
+          "fDegree": 3
+        },
+        {
+          "name": "NBo",
+          "fDegree": 3
+        },
+        {
+          "name": "PBe",
+          "fDegree": 3
+        },
+        {
+          "name": "PBo",
+          "fDegree": 3
+        }
+      ],
+      "allMomentE0N0P1NVAndBothSingletonTargetsReturned": true,
+      "coefficientPairsUseBothActualRowsAndRhoNonzero": true,
+      "claimExcluded": false,
+      "stage": "new_Q1u_Delta_zero_finite_same_original_Gram_complete",
+      "seconds": 0.7284760339999998
+    },
+    {
+      "newOriginalRow": "E1",
+      "fDegree": 2,
+      "allOriginalCoefficientProductsReturned": true,
+      "stage": "new_Q1u_Delta_zero_finite_free_f_original_Bezout",
+      "seconds": 0.7361853759999981
+    },
+    {
+      "newOriginalRow": "EBe",
+      "fDegree": 0,
+      "allOriginalCoefficientProductsReturned": true,
+      "stage": "new_Q1u_Delta_zero_finite_free_f_original_Bezout",
+      "seconds": 0.8252213409999989
+    },
+    {
+      "case": "complete_lambda_degree_24",
+      "lambdaDegree": 24,
+      "excluded": true,
+      "originalRowsUsed": [
+        "E1",
+        "EBe"
+      ],
+      "finalFPolynomial": [
+        [
+          "1"
+        ]
+      ],
+      "allLambdaEmbeddingsRetained": true,
+      "certificateBytes": 82976,
+      "certificateSHA256": "83560bf88007fe2d944910a378ebc352d6e24bfc2071e3c9091b4dab20a9f258",
+      "fullCertificate": null,
+      "stage": "new_Q1u_Delta_zero_finite_full_original_return",
+      "seconds": 0.8273287239999974
+    },
+    {
+      "sourceSHA256": "54f9a5098986eb3c0f706b32ef3387b220b2b4d1f1aad2fc9c0ef4b77f67d114",
+      "originalDomain": "h=k!=1,Q=1-u,Delta=0",
+      "allOriginalReturns": [
+        {
+          "case": "complete_lambda_degree_6",
+          "lambdaDegree": 6,
+          "excluded": true,
+          "originalCompatibilityUnit": true,
+          "allLambdaAndURootsRetained": true
+        },
+        {
+          "case": "complete_lambda_degree_24",
+          "lambdaDegree": 24,
+          "excluded": true,
+          "originalRowsUsed": [
+            "E1",
+            "EBe"
+          ],
+          "finalFPolynomial": [
+            [
+              "1"
+            ]
+          ],
+          "allLambdaEmbeddingsRetained": true,
+          "certificateBytes": 82976,
+          "certificateSHA256": "83560bf88007fe2d944910a378ebc352d6e24bfc2071e3c9091b4dab20a9f258",
+          "fullCertificate": null
+        }
+      ],
+      "constantSplits": [],
+      "allTwoCompleteLambdaFactorsProcessed": true,
+      "entireOriginalFaceExcluded": true,
+      "actualConstantInverseCount": 528,
+      "actualPolynomialDivisionCount": 325,
+      "noDeltaInverse": true,
+      "ordinaryISPClaim": false,
+      "peakRssKiB": 41784,
+      "stage": "new_Q1u_Delta_zero_complete_original_finite_return",
+      "seconds": 0.8276764389999975
+    }
+  ],
+  "whole_h_equals_k_Q_equals_one_minus_u_excluded": true,
+  "ordinary_isp_claim": false
+}
