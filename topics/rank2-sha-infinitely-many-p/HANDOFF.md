@@ -19,6 +19,8 @@ v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2
 
 R1033全剩余核/厚projector及双向返回证明见原文；52源/两char0 pins/原r29/q2453/batch64/minimal/全部门/21000s/360min与preflight=false保持。唯一v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已实际进入数学，07:48仍in_progress。首只读45958247749/140369658303仅下载HTTP失败；07:28直接GET确认BlobNotFound404，未得快照或数学结论。不排重复作业，源码不代PASS。
 
+R1035以全素域忠实系数表示替R975完整行加/乘/Bezout，19组固定串适配保同pivot、全列/附列/次数帽及每原生成元双向返回。原源hash锁定，非全下降仍走原后端；新增公开只编译检查不造矩阵，不代几何PASS。唯一v10保持，未激活后继。
+
 R982/983/R987/R993/R992全部原门真PASS；R992全13残差与R994三β27复L(1)>0/尾<2^-180的完整run/source/hash在结果及逐字归档，不重算。
 
 ## 二、原中央及实际后继
@@ -31,7 +33,7 @@ R1021§8–10两原δ-new全12字/parity与χ8已付；一阶Q=2yD−9x²给完�
 
 R1025固定Hermite/primitive/全部GP10曲率齐，实际全p单位λ1−10λ2/81=−305ρ⁸B0(s−3)/7128仍未forcing。R1026原低H/同K/13权/dVδ与六末权完整；其精确窗口和原全三/十三/χ8未解门见归档。
 
-R1028末六W_t=W∞+cp·u^pT_t全水平式/固定Hermite齐；真Vδ余项只在target φ_(p−6)拉回的全39第一primitive低窗可删。G简单极，四阶cut p+4→2→37→primitive36，A^p给p−36>K；b5/O/aZ全保。W∞真三字只含原Fp和2/3、正mode2；Lamé p曲率−10Hcal^pI+(5cp/6)E12与P10交换子保全部e项。Jordan单位/裸log不代真正forcing。
+R1028原末六全水平式/固定Hermite及target全39首primitive低窗付齐；四阶G/cut的36阶帽、b5/O/aZ和全部P10曲率保留，Jordan单位仍不代forcing，精确公式在原证。
 
 R1032新β=X/(X+4)保原39支同K，末两窗β^(p²)；δ-old/new返g与rS^(p²)T_S^130G，原整H_G even/odd齐且odd单射。±S/两exact/留数/aZ/九维C³、四阶G费和O末四b全保。1+Kp仅native O平坦，不能删其它13纤维或赋新零。
 

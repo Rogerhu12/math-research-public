@@ -217,3 +217,5 @@
 - [R1033](results/R1033-complete-residue-and-thick-projector-hermite-return.md)：原剩余映射用右端独立行给完整多项式核；原厚幂等商保所有nilpotent，以后缀Krylov给完整Hermite并实际验H=CI+H(1−e)双包含。新helper/外层/host只替原两个理想构造器，保v9全部原门和52源；仅文本/AST/哈希，未数学执行，未激活请求或打断唯一v9。 §6.1已消费v9真实21000s超时完整终态，原log34193573B/SHAfe59eda2…fae56dc；旧作业停A0 y0全分母像Hermite4/306，无最终数学PASS。现接同workflow到v10，参数/两pin/全门/时间帽原样，实际新回执待。
 
 - [R1034](results/R1034-double-height-central-reader-and-saturated-beta-pair.md)：R1034将同一char0全39比较扩至H=2p−11/2p−5，真正K>p；两β权饱和β^(p²)/β^(2p²)，γ=3β²−2β消六三挠simple。原native P/Z整提升、整个物理M及R614/616/619两坏带与r=p第二C scalar全保；该页CM另排S极，C³原φ与顶系数是不同泛函。全Weyl cocycle给六极准确old双主部，只有canonical偶读者消odd，原cut/Ξ/高p位仍在。一般四阶后S第二C帽3/primitive3p−2，特殊r=p帽2按整体型用。实际Q†测试生成及确定λ unit迫零仍开。
+
+- [R1035](results/R1035-native-complete-polynomial-row-representation.md)：R1035以全素域忠实系数表示替R975完整行加/乘/Bezout，19组固定串适配保同pivot、全列/附列/次数帽及每原生成元双向返回。原源hash锁定，非全下降仍走原后端；新增公开只编译检查不造矩阵，不代几何PASS。唯一v10保持，未激活后继。
