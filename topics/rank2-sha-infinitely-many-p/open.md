@@ -102,6 +102,8 @@ O5外部强声称的范围/反证仍保：R5反驳的是特定统一lifting引�
 
 R1021§§12–15支付原δ norm连接、真实三E2译源授权、P30曲率抵消和完整Pauli/B12返回。原S390f=√3f；S378是另一degree，q⁴与q⁻⁴不可互换，第四和式仍含真principal的xg。两378 dyadic质量为(c6±3^-94P′(−1))/2，不自动给新canonical零或沿用旧5/13角色。下一项是同原全字、Miller/cut/P10Ξ的E2翻权与真实一阶测试，不从连接单位或新frame推出同原reader强迫。
 
+R1021§16同一hχ的完整二处分量frame准确吸收q^(−4p²)费用并保原α半点负相位/source C²顺序；整三角转换M̂B=M回同一个物理M、所有高位/Ξ/两坏带与低回填，新首槽−80κ5单位。全E4/移动Ri/原曲率及真Q†补项齐，第二frame的b3 scalar只读同一第一primitive的p−2,p−8,…,3槽，不给新source零。 继续原sigma二倍恒等的固定2-cover gauge，将实际39字与Ri→2Ri、原χ8/十三profile完整返回；两分量相依，不能多算一条独立零。
+
 R1034§11的χα=y/(α³yα)给全39 char0平坦权，H=2p−11/2p−5且K=H；原M首槽−5κ5单位。未伴随r=p时Qtop与第三C的Q(−1)是不同泛函；实际word的Q†用y(P−Ri)和G(P)，全偶投影前安全帽p³+p²+(7−b)p及Ri/其余极费必须保留，故其余b5页会重现。继续两端点/高p/低Newton回填的完整M，而非给边界或exact层赋零。
 
 R1030原三次角域与degree50两canonical/195整余权格已经付；共同核的三物理像秩不能相加。arith继续原两F378完整2×27×7谱、真δ-old与dyadic分量；质量零不足消rank0混合，非μ6的higher-dimensional角色不能用E/Q桥。

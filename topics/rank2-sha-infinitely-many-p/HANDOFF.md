@@ -11,7 +11,7 @@
 - 07:20UTC本地执行再次失联；08:12两库、08:48公开实际pull重试均明确No usable execution environment。私库API至5d54a63ae9dd77a3ae010c470c344b5de21e42e4逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
 - 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。08:12公开API至d990f197a7d196e1400d7cbf997a4cf2c36b7ee8，两README blob仍同07:12；全部最新父比较无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
-- [此次逐字归档](notes/2026-11-27-handoff-before-complete-polar-divisors.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
+- [此次逐字归档](notes/2026-11-27-handoff-before-dyadic-vector-frame.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
 ## 一、唯一原几何作业及原生后端
 
@@ -29,12 +29,9 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125等rank≥2与通常全群桥r+c
 
 R1016–1018同char0平坦全trace/四阶伴随/全部低位齐；原old差−61(p+1)log(π/barπ)/18480非零，须真坏canonical迫同左式深零。R1020唯一primitive及b5/O/aZ、R1022全39/N130 Miller43/44和正mode2、R1024六连接/完整cocycle/−S返回均已付，a_P不是新增测试。
 
-R1021§§8–11两δ-new原来源的完整24字/χ8与Q1=2yD−9x²给QfB=2fA/15，真转置−2y(D+10G)−15x²与唯一e曲率保齐。裸Q1^p+x^pQ1=0，但Q_L/Q†右端同为−10(2yHcal)^p；gauge/全word/极全保。Q1²UB=9x⁵y越十阶帽，不能迭代赋p条零。
+R1021§§8–15：原Q1=2yD−9x²、完整24字/χ8、真transpose/唯一曲率已付；裸p-curvature不代原测试生成。三处完整norm锁Kδ首9ρZ5p−2，原P30连接180与曲率−180相消，水平初值保留。三E2 whole授权S390f=√3f；degree390/378有序中心+i/−i，B12保相反q±4和真principal xg，378两质量(c6±3^-94P′(−1))/2。所有旧式/费用在原证和逐字归档，不把裸单位、新角色或字分别赋零。
 
-R1021§12原三处norm全Fp/Z cocycle及有限Taylor锁定Kδ=δGδ−G−G+−G−=9ρpZ^(5p−2)+O(Z^(7p))；水平项原从4p并受型迫7p，原Zp/6p−1实际消，无需未知Fermat商。真实连接差−10Kδ仍保整个P10/Ξ/cut/13字，首单位尚未forcing。
-§13原N390两源的三个E2译像Π0T_Tf=+f/√3，完整finite/Hermite及α换代表负相位相符，整J真授权；返回必须同时取W(·−T)、Miller/cut及E2→O极费，不拆十三字。
-R1021§14原Aδ的18单位在完整P30适配中180/曲率−180相消，去Gaussian后的−27e10,p−e30,p水平初值/全部低卷积保留。
-§15原三个E2 lift整和式S390f=√3f严格成立；degree390/378的有序Pauli中心为+i/−i。B12共轭保q⁴与q⁻⁴两个不同方向，第四和式准确保f与非principal g乘x的真principal项；新378两dyadic质量为(c6±3^-94P′(−1))/2。固定R的Hermite全纯项1与完整P10曲率齐，未给378新零或旧5/13标签。
+R1021§16把同一hχ接完整两分量P⃗=2^-n(−y)^-n Pn(2P)v2^-p²(x^p,1)，n=(p+5)/2；native Ẑ=Z2/2。完整E2运输为εq^(10−4p²)M^(p)，实际α半点负相位/source C²顺序保齐。整三角B与M̂B=M精确回同一物理M/全部坏带、高位、Ξ；新首槽−80κ5不混原−5κ5。E2极消、12 E4余点未伴随/一次Q†三C至多double，两μ6轨道≤4坐标仅授整体。真同点Q̂†=−2y(D+5G2)，移位Ri仍有15yi(r0−r0i)、完整Miller/cut/曲率；第二frame依赖第一，b3的csharp只读同一第一primitive p−2,p−8,…,3槽。继续真实39字gauge及全M forcing，无新canonical零。
 
 R1025原λ1−10λ2/81=−305ρ⁸B0(s−3)/7128为全p单位，完整Hermite/primitive/GP10/曲率齐，forcing未付。R1026低H同K和全13权/dVδ齐；R1028固定末六水平式、target全39首primitive、四阶G/cut的36阶帽与P10曲率全保，Jordan单位不代forcing。R1030原charge65三次角域/195余权整基及导子齐，两约分degree50真canonical恰为trace-zero基；三物理像保同H/E六位与共同核，不能相加rank。
 

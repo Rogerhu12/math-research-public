@@ -1961,3 +1961,343 @@ $$
 (96) 是原算术假设已授权的 whole 行；
 (98)–(102) 则将所需第四费用准确落到两条实际来源和确定连接项。
 本节没有从这些不同的行之间跳过权差，也没有新增数学执行。
+
+## 16. 实际二处分量 frame、完整物理回接与一个真实层间关系
+
+本节仍读取 R1034 的同一个 $h_\chi(f)$。
+不改变原特征零 flat 来源，不给它增加一个中央零，
+也不以新 finite frame 替代该篇的完整物理矩阵。
+新处是把二挠运输的 fourth 权放进一个完全指定的两分量 frame；
+其两分量相依，且其原 $P_{10}$ 初始化可准确回接。
+
+### 16.1 全部函数和初始化
+
+在本节特征 $p$ 中置
+$$
+n=(p+5)/2<p,\qquad
+Z_2=Z(2P),\quad G_2=G(2P),\quad
+\widehat Z=Z_2/2,
+$$
+$$
+v_2=\frac{X^2+20X-8}{(X+1)^2}
+=\frac{8y(2P)}{y(P)},\qquad
+K=2^{-n}(-y)^{-n}P_n(2P)v_2^{-p^2},
+$$
+$$
+\boxed{
+\mathbf P=\begin{pmatrix}P^{[0]}\\P^{[1]}\end{pmatrix}
+=K\begin{pmatrix}x^p\\1\end{pmatrix}.
+}
+\tag{103}
+$$
+$P_n=-Z^p(D-nG)^{p-1}Z^{n-1}$ 是原指定有限模型，
+没有另选一个同低 jet 的解。
+$D\widehat Z=1$，且 $\widehat Z$ 对三个二挠平移严格不变。
+原点有
+$P^{[0]}=z^{10}(1+\cdots)$、
+$P^{[1]}=z^{2p+10}(1+\cdots)$，
+因为 $4n=2p+10$。
+同时 $P^{[1]}=x^{-p}P^{[0]}$ 是完整全函数身份。
+
+令
+$$
+\widehat G=\frac12G_2-\frac34r_0,\qquad
+\widehat{\mathcal H}=\frac12\mathcal H(2P).
+$$
+所有 $p$ 次幂因子求导为零，原 $P_n$ 方程准确给
+$$
+\boxed{\begin{aligned}
+D\mathbf P={}&10\widehat G\,\mathbf P+\mathbf E,\\
+\mathbf E={}&2^{1-n}n(-y)^{-n}v_2^{-p^2}
+ \mathcal H(2P)^p Z_2^{p+n-1}
+ \begin{pmatrix}x^p\\1\end{pmatrix}.
+\end{aligned}}
+\tag{104}
+$$
+原 $D^{p-1}r_0=-r_0^p$ 又逐项给
+$\widehat G^p+D^{p-1}\widehat G=\widehat{\mathcal H}^{\,p}$。
+因此曲率并没有因换 frame 消失；(104) 是本节始终保留的实际曲率。
+
+### 16.2 原二处 Pauli 矩阵的准确运输
+
+对 $T=(e,0)$、$e^3=-1$，原 degree2 矩阵为
+$$
+q_T^2
+\begin{pmatrix}x_T\\1\end{pmatrix}
+=M_e\begin{pmatrix}x\\1\end{pmatrix},
+\qquad
+M_e=\frac1{\sqrt3}
+\begin{pmatrix}-1&-2e\\e^2&1\end{pmatrix},
+\qquad M_e^2=I .
+$$
+二倍图在 $T$ 下不变，而
+$y_T=-q_T^{-4}y$、$v_{2,T}=-q_T^4v_2$。
+记 $\varepsilon=(-1)^{n+1}$，逐项得到完整矩阵恒等
+$$
+\boxed{
+\mathbf P(P+T)
+=\varepsilon\,q_T^{\,10-4p^2}M_e^{(p)}\mathbf P(P).
+}
+\tag{105}
+$$
+矩阵上标表示逐项 Frobenius。
+它包含整个 finite 初始化，不是只比较其 logarithmic 导数。
+
+同时 $r_0(P+T)-r_0(P)=-(4/3)j_T$，故
+$$
+\widehat G(P+T)-\widehat G(P)=j_T .
+$$
+这项标量连接式不足以替代 (105)；
+后者真正支付了完整原点初值和两分量运输。
+选择 $v_2^{-p^2}$ 的方向也不可反：
+它正好产生 $10-4p^2$，以匹配原 $\chi_\alpha$ 的 fourth 变权。
+另有整个 CM 图上的准确身份
+$
+\boxed{
+v_2(\alpha P)^{-1}\chi_\alpha(P)
+=\frac{y(P)}{(2\alpha)^3y(2\alpha P)}
+=\chi_{2\alpha}(P).
+}
+\tag{105a}
+$
+它由 $v_2=8y(2P)/y(P)$ 直接回乘，说明当前权真正对应整个
+norm156 Jacobian；两分量保留了 $390/156=5/2$ 的二处费用。
+(105a) 并未另宣称一个已付的新特征零 flat 来源；
+本篇物理输入仍是原 $h_\chi$，其完整回接如下。
+
+### 16.3 原 χ 译源的完整恒等及 source Cartier 顺序
+
+写 $\mathcal A(f)=\mathcal T_{\alpha,\chi_\alpha^{p^2}}(f)$，
+保持原全部未平均 trace、$R_\alpha^{10}$ 和原 Weyl 中心。
+这是 R1034 实际特征零 $h_\chi$ 的约化。
+对其中任一实际 target $h$，定义
+$$
+\boldsymbol\eta_b[h]
+=\widehat Z^{-b-1}\mathbf P\,R_h\,\omega_E .
+$$
+若原 $T=r/2$、$Q=\alpha T$，令 $M_Q$ 使用这个**实际代表**
+的 degree2 lift。
+R1021 §13 已核 $Q$ 与标准代表 $\omega r/2$ 相差一枚负号，
+所以若改用显示的标准点矩阵，它是 $M_Q=-M_{e_Q}$；
+不能漏掉这项换代表相位。
+
+完整 (89) 及 $\chi_\alpha$ 的 fourth 变权给
+$$
+\mathcal A(U_Tf)
+=q_Q^{-4p^2}T_Q^{10}
+  \mathcal A(q_T^{-4p^2}f).
+$$
+利用 $\widehat Z_Q=\widehat Z$ 和 (105)，准确化成
+$$
+\boxed{
+\boldsymbol\eta_b[\mathcal A(U_Tf)]
+=\varepsilon M_Q^{(p)}
+ \tau_Q^*\boldsymbol\eta_b[
+       \mathcal A(q_T^{-4p^2}f)] .
+}
+\tag{106}
+$$
+这里 $M_Q^{-1}=M_Q$。
+在标准点矩阵的写法中，右边整体常数是 $-\varepsilon M_{e_Q}^{(p)}$。
+
+这是整个实际字的恒等，没有先移走 Miller 或 cut。
+在当前固定剩余扩张中，$M_Q$ 的系数属于 $\mathbf F_{p^2}$。
+施两次 Cartier 后的准确常数为
+$\varepsilon M_Q^{(1/p)}$，而不是任意将它改成原矩阵。
+原 whole $S_{390}f=\sqrt3f$ 可在 (106) 左边直接求和。
+
+必须保 source 端顺序：$q_T^{-4p^2}$ 经两次 Cartier 后，
+是在完整 source trace **内部**乘 $q_T^{-4}$。
+它乘的是原曲率和全部测试已经进入后的 source 微分；
+不能把它提前换成
+$q_T^{-4}U_Tf$，也不能立即套 (98) 的原 degree378 来源。
+$\mathcal A(q_T^{-4p^2}f)$ 在此仅是一个明确亚纯代数输入，
+未被赋予新的原中央零。
+(106) 真正去掉的是 target 端未付的任意运输参数，
+不是将 source Cartier 与 fourth 费用认成可交换。
+
+### 16.4 回到同一个完整物理矩阵
+
+此处的改变必须支付特征零读者。
+沿 R1034 (19)，给 $Z,G,P_n$ 取同一指定有理整 lift，
+$n$ 取当前这个整数；固定有理 $x,y,v_2$ 不变。
+由 (103) 定义 $\widetilde{\mathbf P},\widetilde{\widehat Z}$。
+在原好参数 $u=x^{-1/2}$ 上，
+$$
+\widetilde{\widehat Z}=u\times\mathcal O[[u^6]]^\times,\quad
+\widetilde P^{[0]}=u^{10}\times\mathcal O[[u^6]]^\times,\quad
+\widetilde P^{[1]}=u^{2p+10}\times\mathcal O[[u^6]]^\times .
+$$
+原有限算子的首系数模 $p$ 为一，所以这里的单位是真实单位。
+所有正负整数幂均整；未把一个特征零 $p^2$ 次幂只按 Frobenius 处理。
+
+设 $\ell_0=0,\ell_1=2p$。
+对同一个原整 $A_\chi$，定义
+$$
+\tau^{[i]}_m=[T^m](\widetilde P^{[i]}A_\chi)(P(T)),
+\qquad T=\widetilde{\widehat Z}(P),
+$$
+$$
+\boxed{
+\widehat M^{[i]}_{h,m}
+=[z^{(p+1)h}]
+  \frac{(\sigma^\circ)^{10}}{\widetilde P^{[i]}}
+  \widetilde{\widehat Z}^{\,m},\qquad
+g_h=\sum_{m\le(p+1)h+\ell_i}
+       \widehat M^{[i]}_{h,m}\tau^{[i]}_m .
+}
+\tag{107}
+$$
+$\tau^{[i]}_m$ 全整，并从 $m\ge\ell_i+6$ 起。
+第二个分量是同一来源的另一读取，不增加独立必要零。
+当 $H\le2p-5$ 时，两种实际 native 指标仍都小于 $2p^2$。
+
+还可明确锁定与原 $P_{10}/Z$ 的完整转换。
+在 $T=\widetilde{\widehat Z}$ 上置
+$$
+\psi(T)=\widetilde Z(P(T)),\qquad
+R(T)=\widetilde P^{[0]}/\widetilde P_{10}.
+$$
+二者分别是整参数和整单位。
+矩阵
+$B_{mn}=[T^m]R(T)\psi(T)^n$
+因而为有整逆的下三角矩阵，其对角均为单位。
+准确有
+$$
+\boxed{\boldsymbol\tau^{[0]}=B\boldsymbol\tau,\qquad
+       \widehat M^{[0]}B=M.}
+\tag{108}
+$$
+这不是只约化的关系：所有实际高位、原 $\Xi$ 初始化、
+R616/R619 两坏带和低回填都由同一原 $M$ 回接。
+原 Newton 权及 R1034 的 $p^H$ 全尾继续作用于同一个 $g_h$。
+
+为核分母，把 (107) 逐项写成
+$z^{m-\ell_i+6j}U_\sigma^{10}
+ W_0^{5-(m-\ell_i)/2-3j}$。
+实际角色只留整数指数，且 $m\ge\ell_i+6$。
+R614/R616/R619 原同一个坏因子计数因此逐项适用；
+在本篇实际范围 $p^2\widehat M^{[i]}$ 整。
+不能把 $v_2^{-p^2}$ 在特征零低位的费用删掉。
+
+第一个实际耦合也可核定。原整窗口给
+$$
+\widehat Z=z-16\kappa_5z^{5p}+O(z^{11p}).
+$$
+到相对 $5p-1$ 以前，
+$(\sigma^\circ)^{10}/P^{[0]}$ 仅有原整 Gaussian 的
+$(p+1)$ 倍次项；其它首差从 $6p$ 起。
+因此对第一分量 $m=p^2+b$、$b\equiv5\pmod6$，准确有
+$$
+\boxed{
+\widehat M^{[0]}_{h,p^2+b}\equiv0\ (p\le h\le p+3),\qquad
+\widehat M^{[0]}_{p+4,p^2+5}\equiv-80\kappa_5,
+}
+\tag{109}
+$$
+且同一 $h=p+4$ 的其余 $b\ge11$ 项为零。
+这里的单位属于新矩阵，未与原 $-5\kappa_5$ 冒认相同。
+所用 Gaussian 只在该有限窗截取，阶乘仍为单位。
+
+### 16.5 固定支撑、真实伴随和两分量的不同角型
+
+$P^{[i]}$ 在原三个二挠点至少 $4p^2$ 阶零。
+$\widehat Z$ 的这些零点为 simple；
+其它 $\widehat Z$ 零点由原 $P_n(2P)$ 的 $Z_2^p$ 因子
+消掉全部 $b<p$ 的 cut。
+所以未施伴随的 whole canonical 输入只剩 $O$ 和
+$E[4]\setminus E[2]$ 的极。
+后者共12点，是两个自由 $\mu_6$ 轨道。
+
+在这12点，完整帽为
+$$
+\operatorname{pole}\boldsymbol\eta_b
+\le p^3+(n-b-2)p+1 .
+\tag{110}
+$$
+第三 Cartier 因而至多 double。
+在真正 $r=p$ 的物理页，
+第一分量要求 $b\equiv5$，第二分量要求 $b\equiv3\pmod6$；
+两种对应输入的第三层都为型 $5$。
+原点无留数，二挠点没有极，型 $5$ 又排除全纯 $\omega_E$。
+因此每个这样的**实际分量**第三层在两个轨道上至多四个坐标。
+不能把同一个 $b$ 下另一分量的不同 CM 型删掉。
+
+原一阶 transpose 在真正同点时准确简化为
+$$
+\boxed{
+\widehat Q^\dagger
+=-2y(D+10\widehat G)-15x^2
+=-2y(D+5G_2).
+}
+\tag{111}
+$$
+它对普通二挠 pull 满足
+$\tau_T^*\widehat Q^\dagger(\tau_T^*)^{-1}
+=-q_T^{-4}\widehat Q^\dagger$。
+但原第 $i$ 字的真实 $x_i,y_i$ 在 $P-R_i$，
+故完整公式仍是
+$$
+\widehat Q_i^\dagger a_i
+=-2y_i(D+5G_2)a_i
+ +15y_i(r_0-r_{0,i})a_i .
+$$
+末项等于 $5y_iD\log(y/y_i)a_i$；
+在固定平方根扩张上可用 $(y/y_i)^{5/2}$ 作准确 gauge，
+却不能因此改变原 source 的归一或删掉整个 Miller/test。
+曲率项始终是 (104) 对应的
+$-C(2y_i a_i\mathbf E\,U_i\omega_E)$。
+
+在原12点，一次真实伴随的上界为
+$p^3+p^2+(n-b-3)p<2p^3$，第三层仍至多 double。
+移动 $R_i$、原 Miller 的表面极和其它完整字支撑
+还须按原顺序合并或逐项保留；
+(110) 的四坐标结论不预先授给这些未合并的分拆项。
+同点固定 cover $r^2=y$ 上
+$y^{-5/2}U_A=D(2x/r)$，
+正与 (111) 成对偶，但不删除 $G_2$ 或 (104)。
+
+### 16.6 一个实际第二层标量只读原第一 primitive
+
+两分量的关系还能真正消去一个高层自由量。
+令 $\nu_{1,i}=C\eta_i$、
+$\nu_{2,i}=C^2\eta_i$，
+$c^\sharp_i=(\nu_{2,i}/\omega_E)(O)$；
+本段使用上述物理 $r=p$ 页，原点留数为零。
+由 $P^{[1]}=x^{-p}P^{[0]}$，严格有
+$$
+\nu_{2,1}=C(x^{-1}\nu_{1,0}).
+$$
+仍用 R1020 的同一个
+$\varphi_*=\varphi-dJ_{p-6}$，
+它在 $\widehat Z$ 中从 $p-1$ 阶起，
+$C\varphi_*=\omega_E$。
+写原唯一 primitive 类
+$\nu_{1,0}=dK_{b,0}+f_{2,0}^p\varphi_*$。
+又令
+$x^{-1}=\sum_{j\ge0}a_j\widehat Z^{2+6j}$，
+其中 $a_0=1$，所用次数全部严格小于 $p$。
+
+$x^{-1}$ 的二阶零使
+$x^{-1}f_{2,0}^p\varphi_*$ 从 $p+1$ 阶起，
+故它完全不进入以下真实槽：
+$$
+\boxed{
+(c^\sharp_1)^p
+=\sum_{j=0}^{s-1}
+ a_j(p-2-6j)
+ [\widehat Z^{\,p-2-6j}]K_{b,0}.
+}
+\tag{112}
+$$
+右边仅含 $p-2,p-8,\ldots,3$ 的原第一 primitive 系数，
+没有一个新的任选高层 scalar。
+这些系数的指数均非 $p$ 倍数，所以不受 $F^p$ 代表歧义影响。
+在第二分量实际 $b\equiv3$ 页，(112) 是非空的真实返回；
+不能把它与第一分量的 $b\equiv5$ scalar 混为同一项。
+
+本节由 (107)–(108) 保留全部物理精度。
+(106)、(111)、(112) 给的是原两条 canonical 的同一完整测试关系；
+它们仍须连同原所有低行、(104) 曲率、实际 source Cartier
+和十三字一起使用，未声称已经迫出新的非零中央值。
+没有新增数学执行。
