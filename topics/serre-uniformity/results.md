@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1145（已证明，有限精确计算）**：[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个原H_N带宽1、2完整系统均只有标量；p=101,107,131,137，run46071081257/job140747905385成功，全部核维1及单位子式已付。只排有限输入的三/五对角自伴随机制，不代e/K4非同时零；不重跑。
+
 - **R1143（已证明，纸面，无条件p>37）**：[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件p>37付同一source c_Eis=−2016δ²Pχ1≠0：BM整零周期格的compact reduction就是cuspidal p-torsion，ES唯一偶角色免去Bp−5门；全μ边界、负Abel、J e2=−e1、Sω²/p=1/189和原m尺度全付。仅source非零，Ψ(Pχ1)实际值与R1141/Pic/混合门均未取消。
 
 
