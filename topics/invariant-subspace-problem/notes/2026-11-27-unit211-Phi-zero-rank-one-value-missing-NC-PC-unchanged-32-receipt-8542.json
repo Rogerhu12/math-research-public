@@ -1,0 +1,454 @@
+{
+  "schema": "isp-missing-individual-NC-PC-modular-return-v1",
+  "run_id": 46006078572,
+  "job_id": 140529465165,
+  "execution": {
+    "elapsed_seconds": 3.1582190390000022,
+    "max_child_rss_kib": 56972,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c1bd68ef5987d6c735b8b36e5a42711454773415",
+        "before": "02f4d2adf4ed8d3337e5d4486a5d9812e6bbf4c7",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:19:30.415482+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46006078572",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "02f4d2adf4ed8d3337e5d4486a5d9812e6bbf4c7",
+    "source_exit_code": 0,
+    "source_git_blob": "c92ba6fb5cec66fc2b0a680f4b4b58999e9e420e",
+    "source_sha256": "845c3ab2c24e0c2a982c453192467e2d37b2d0e2a569369d4cd40b7c92e37eb8",
+    "stdout_bytes": 14062,
+    "stdout_sha256": "8faa5654ca003c383de2122e843d605ace70c45dfa6f0824f163d47ad87455be",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "originalRow": "NC",
+      "actualPair": [
+        "NC",
+        "ell:NC"
+      ],
+      "originalTarget": "H^3",
+      "preNormCore": {
+        "degrees": [
+          122,
+          21
+        ],
+        "terms": 2706,
+        "totalDegree": 143,
+        "sha256": "99f5894b44621055d25a2d41b73c6898348313f95112e07e08877ff4b3367d89"
+      },
+      "postNormCore": {
+        "degrees": [
+          122,
+          21
+        ],
+        "terms": 2706,
+        "totalDegree": 143,
+        "sha256": "99f5894b44621055d25a2d41b73c6898348313f95112e07e08877ff4b3367d89"
+      },
+      "integerCore": {
+        "degrees": [
+          122,
+          21
+        ],
+        "terms": 2706,
+        "totalDegree": 143,
+        "sha256": "afd038035acea37d36780ddd263906daf370c8f615ccf3cd613e8179f23cf5bd"
+      },
+      "integerScale": "679629081567673770919619198976",
+      "removedPreviouslyPaidNormFactors": [],
+      "fourNormUnitsProof": "R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md",
+      "allCramerDenominatorAndTwoCoefficientProductsMultipliedBack": true,
+      "noUnpaidNormInversion": true,
+      "claimExcluded": false,
+      "stage": "new_individual_NCPC_actual_original_unit_core",
+      "seconds": 2.1181394560000015
+    },
+    {
+      "name": "F__NC",
+      "integerInputProfiles": [
+        {
+          "degrees": [
+            77,
+            14
+          ],
+          "terms": 1170,
+          "totalDegree": 91,
+          "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c"
+        },
+        {
+          "degrees": [
+            122,
+            21
+          ],
+          "terms": 2706,
+          "totalDegree": 143,
+          "sha256": "afd038035acea37d36780ddd263906daf370c8f615ccf3cd613e8179f23cf5bd"
+        }
+      ],
+      "fixedRhoDegrees": [
+        14,
+        21
+      ],
+      "fixedSylvesterOrder": 35,
+      "fullModDegree": 3159,
+      "fullModSha256": "8d1ef397a7558531687d6ebdaf36ec69631934f33dd92ff1caad416a16132146",
+      "sameFixedQQDeterminantReduction": true,
+      "allOriginalLeadingZeroFibersRetained": true,
+      "fullQQDeterminantNotExpanded": true,
+      "stage": "new_individual_NCPC_fixed_original_projection",
+      "seconds": 2.291366960000005
+    },
+    {
+      "inputNames": [
+        "paid_true_common_cover_mod32_bound",
+        "F__NC"
+      ],
+      "inputDegrees": [
+        32,
+        3159
+      ],
+      "gcdDegree": 32,
+      "gcdCoefficientsAscending": [
+        722,
+        278,
+        731,
+        355,
+        485,
+        40,
+        431,
+        879,
+        886,
+        775,
+        986,
+        900,
+        350,
+        67,
+        972,
+        697,
+        900,
+        306,
+        248,
+        789,
+        718,
+        976,
+        181,
+        674,
+        177,
+        210,
+        486,
+        428,
+        438,
+        486,
+        520,
+        1003,
+        1
+      ],
+      "gcdSha256": "a97d9ceb641c3c5162af051160864103b4dc8d6a0431a740e3c932378d4f9dec",
+      "actualTagDegrees": [
+        0,
+        -1
+      ],
+      "actualTagSha256": "55116b2f0d18377400a93699c713e3cee1b6fef53a2ecf0a87cc1f446ae213ab",
+      "allFullProductsMultipliedBack": true,
+      "trueQQInferenceUsesPriorMonic1069CommonCover": true,
+      "originalFiniteRhoKernelMultiplicityRetained": true,
+      "entireOrderedPhi0RankOneChartExcluded": false,
+      "stage": "new_missing_original_values_full_modular_Bezout",
+      "seconds": 2.291731120999998
+    },
+    {
+      "originalRow": "PC",
+      "actualPair": [
+        "PC",
+        "ell:PC"
+      ],
+      "originalTarget": "H^3",
+      "preNormCore": {
+        "degrees": [
+          128,
+          21
+        ],
+        "terms": 2838,
+        "totalDegree": 149,
+        "sha256": "a74b9fe2127791fc75f2e10aad773e9a597d19c6b46cf0270a58726724912ea1"
+      },
+      "postNormCore": {
+        "degrees": [
+          128,
+          21
+        ],
+        "terms": 2838,
+        "totalDegree": 149,
+        "sha256": "a74b9fe2127791fc75f2e10aad773e9a597d19c6b46cf0270a58726724912ea1"
+      },
+      "integerCore": {
+        "degrees": [
+          128,
+          21
+        ],
+        "terms": 2838,
+        "totalDegree": 149,
+        "sha256": "a8d662d5b384b697f1e1f2925f40ccb031a78d32484eba60dfdf4dda2e3fd400"
+      },
+      "integerScale": "8467509868712001080310009692160",
+      "removedPreviouslyPaidNormFactors": [],
+      "fourNormUnitsProof": "R150-appendix-unit211-Phi-zero-rank-one-value-32-point-cover-and-four-norm-units.md",
+      "allCramerDenominatorAndTwoCoefficientProductsMultipliedBack": true,
+      "noUnpaidNormInversion": true,
+      "claimExcluded": false,
+      "stage": "new_individual_NCPC_actual_original_unit_core",
+      "seconds": 2.7340357429999997
+    },
+    {
+      "name": "F__PC",
+      "integerInputProfiles": [
+        {
+          "degrees": [
+            77,
+            14
+          ],
+          "terms": 1170,
+          "totalDegree": 91,
+          "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c"
+        },
+        {
+          "degrees": [
+            128,
+            21
+          ],
+          "terms": 2838,
+          "totalDegree": 149,
+          "sha256": "a8d662d5b384b697f1e1f2925f40ccb031a78d32484eba60dfdf4dda2e3fd400"
+        }
+      ],
+      "fixedRhoDegrees": [
+        14,
+        21
+      ],
+      "fixedSylvesterOrder": 35,
+      "fullModDegree": 3243,
+      "fullModSha256": "f078d8d10e7337b475a85695af958987526a043fd3b9e335078664816b000914",
+      "sameFixedQQDeterminantReduction": true,
+      "allOriginalLeadingZeroFibersRetained": true,
+      "fullQQDeterminantNotExpanded": true,
+      "stage": "new_individual_NCPC_fixed_original_projection",
+      "seconds": 2.910016403
+    },
+    {
+      "inputNames": [
+        "paid_true_common_cover_mod32_bound",
+        "F__NC",
+        "F__PC"
+      ],
+      "inputDegrees": [
+        32,
+        3159,
+        3243
+      ],
+      "gcdDegree": 32,
+      "gcdCoefficientsAscending": [
+        722,
+        278,
+        731,
+        355,
+        485,
+        40,
+        431,
+        879,
+        886,
+        775,
+        986,
+        900,
+        350,
+        67,
+        972,
+        697,
+        900,
+        306,
+        248,
+        789,
+        718,
+        976,
+        181,
+        674,
+        177,
+        210,
+        486,
+        428,
+        438,
+        486,
+        520,
+        1003,
+        1
+      ],
+      "gcdSha256": "a97d9ceb641c3c5162af051160864103b4dc8d6a0431a740e3c932378d4f9dec",
+      "actualTagDegrees": [
+        0,
+        -1,
+        -1
+      ],
+      "actualTagSha256": "811e17433519f2f85bbeef28f45b90e2fd0733ad8424ec6ee1f000da7de327f4",
+      "allFullProductsMultipliedBack": true,
+      "trueQQInferenceUsesPriorMonic1069CommonCover": true,
+      "originalFiniteRhoKernelMultiplicityRetained": true,
+      "entireOrderedPhi0RankOneChartExcluded": false,
+      "stage": "new_missing_original_values_full_modular_Bezout",
+      "seconds": 2.910326089999998
+    },
+    {
+      "name": "F__NC_plus_PC",
+      "integerInputProfiles": [
+        {
+          "degrees": [
+            77,
+            14
+          ],
+          "terms": 1170,
+          "totalDegree": 91,
+          "sha256": "81798a00dd2c4be037737c974dea3b77563363789701dbfc5a0ad0b13769362c"
+        },
+        {
+          "degrees": [
+            128,
+            21
+          ],
+          "terms": 2838,
+          "totalDegree": 149,
+          "sha256": "52ed6a7b115a358073b29cc08d701d0a85162dd9670ecb68d260cf5b1e04bb70"
+        }
+      ],
+      "fixedRhoDegrees": [
+        14,
+        21
+      ],
+      "fixedSylvesterOrder": 35,
+      "fullModDegree": 3243,
+      "fullModSha256": "246ef128e0c6cdac6d4c6b990c7413fc92961f03b157771aef8ebf4642257f43",
+      "sameFixedQQDeterminantReduction": true,
+      "allOriginalLeadingZeroFibersRetained": true,
+      "fullQQDeterminantNotExpanded": true,
+      "stage": "new_individual_NCPC_fixed_original_projection",
+      "seconds": 3.099954457999999
+    },
+    {
+      "inputNames": [
+        "paid_true_common_cover_mod32_bound",
+        "F__NC",
+        "F__PC",
+        "F__NC_plus_PC"
+      ],
+      "inputDegrees": [
+        32,
+        3159,
+        3243,
+        3243
+      ],
+      "gcdDegree": 32,
+      "gcdCoefficientsAscending": [
+        722,
+        278,
+        731,
+        355,
+        485,
+        40,
+        431,
+        879,
+        886,
+        775,
+        986,
+        900,
+        350,
+        67,
+        972,
+        697,
+        900,
+        306,
+        248,
+        789,
+        718,
+        976,
+        181,
+        674,
+        177,
+        210,
+        486,
+        428,
+        438,
+        486,
+        520,
+        1003,
+        1
+      ],
+      "gcdSha256": "a97d9ceb641c3c5162af051160864103b4dc8d6a0431a740e3c932378d4f9dec",
+      "actualTagDegrees": [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "actualTagSha256": "6a88dfeb45bbc589e597e2384365c7bac820464ebfe8b6b81e4a368dcd68920c",
+      "allFullProductsMultipliedBack": true,
+      "trueQQInferenceUsesPriorMonic1069CommonCover": true,
+      "originalFiniteRhoKernelMultiplicityRetained": true,
+      "entireOrderedPhi0RankOneChartExcluded": false,
+      "stage": "new_missing_original_values_full_modular_Bezout",
+      "seconds": 3.1001919859999987
+    },
+    {
+      "remainingModDegree": 32,
+      "remainingModCoefficientsAscending": [
+        722,
+        278,
+        731,
+        355,
+        485,
+        40,
+        431,
+        879,
+        886,
+        775,
+        986,
+        900,
+        350,
+        67,
+        972,
+        697,
+        900,
+        306,
+        248,
+        789,
+        718,
+        976,
+        181,
+        674,
+        177,
+        210,
+        486,
+        428,
+        438,
+        486,
+        520,
+        1003,
+        1
+      ],
+      "genuineQQPointBound": 32,
+      "originalOrderedPhi0Zn0_h1_Excluded": false,
+      "claimEntirePhiFaceExcluded": false,
+      "ordinaryISPClaim": false,
+      "stage": "new_missing_individual_values_complete",
+      "seconds": 3.100221234000003
+    }
+  ],
+  "scope": "accurate complete unchanged mod32; no whole original exclusion"
+}

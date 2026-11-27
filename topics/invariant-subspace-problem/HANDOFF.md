@@ -8,7 +8,7 @@
 - **最近实际 pull / 已读规则提交：** 1487ef136534812550caeb5bc650a6d402a0681b（2026-11-27 13:35:43 UTC，Actions run46008427832实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46008427832-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 13:35:42 UTC/0954edccd86b46e96560285166cca0f4454b82d7，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `b816535cedce7a640d2a3c1b3582b81f2af076f5`（2026-11-27 13:35:21 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `1c75d0229ca79c12ec6d517776540ad830b4bc1d`（2026-11-27 13:36:27 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-single-chain-complete-intertwiners-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **Delta0 h1/k1≤6219、h=k,b=c的Delta非0全闭保留。** 新0566真0.088秒/40020KiB/exit0；等权Delta0两原仿射行给Delta/F/Tnum，三固定4阶QQ投影合首一phi20，所有头零保留。新c2d6在完整QQ(lambda20)保系数非单位双支、原Q相容与自由f的全部八Gram式，180秒4GiB；未运行不宣闭。一般不等权开，旧D单位不外推。
-- **Phi0/h1≤32基点/64三元组与四norm单位保留。** 971真3.353秒/66308KiB/exit0，Nm(T0)三次像十QQ投影合gcd289，只余H8²与旧已付因子；仅normT0零支必H8=0。Nm(J−Q)新付单位，实际另一ell根/首一lambda6图已纸证。845c缺少的原NC/PC与g32已运行待凭据；全Phi0开。
+- **Phi0/h1≤32基点/64三元组、四norm单位、仅Nm(T0)零支H8与Nm(J−Q)单位保留。** 新845c真3.158秒/56972KiB/exit0；NC/PC及同rho和的三新投影仍g32，无增益已冻结。新883完整QQ(lambda)/H8保同rho/ell与全部八原行，真乘法理想只返原单位幂，120秒1GiB；未宣全Phi0闭。
 
 ### rankH3原ess6
 

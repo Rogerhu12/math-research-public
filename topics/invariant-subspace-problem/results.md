@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [补齐原 NC/PC 后 32 次界未缩小](notes/2026-11-27-unit211-Phi-zero-rank-one-value-missing-NC-PC-unchanged-32-return-8542.md)：三新固定35阶投影实际仍g32，冻结845c；换完整H8原有限代数输入。
+
 - [单链目标全部交织与交换代数的有界忠实表示](results/R271-appendix-single-chain-complete-intertwiners-and-bounded-commutant-representation.md)：所有有界Z恰迹类L_y；rho保单位单射且非零交换子稠密像；同一个Green来源保真空残量并排有界后因子。
 
 - [等单点值等权 Delta 零面：原相容式与完整二十次覆盖](results/R150-appendix-unit211-equal-singleton-equal-weight-Delta-zero-original-compatibility-20-cover.md)：两原仿射行完整系数恒等式；三固定4阶QQ投影及扩展gcd保全部头零纤维，未宣整个原支空。
