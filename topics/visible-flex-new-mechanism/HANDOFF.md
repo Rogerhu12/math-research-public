@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **922616ef53f3ca2297dfe531784c19081ee54813**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **f0d8e9ec936756e3d0267078d88f39e8c8b8483e**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -21,7 +21,7 @@
 
 当前334圈/1536角/trust2/metric，原5pending拟定339；当前与合格fine同SHA f4770c7a…16203。末raw c4b9原行违约3.412826e−6未合格，独立.5副本4bd9完整fine后接受，不能混两轨。五后端J=3/1/1/1/8共14/182块，当前8J/104块/36value不可漏；17fine=4新baseline+13callback，1同网入口复用。0自然OptimizeResult/0stall，不套B030首步重置瓶颈。
 
-后继原334+5/339及全部16203永久fine，新增位置付原完整资格；p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。16mean q64:80及h96=.6986806496374112全变，旧59a4完整几何不转移。原normal311/较早全部失败与费用保收据链；mean g仍在设计，同g/参数/时间域精化未付。
+[已审339范围](notes/2026-11-27-r582-physical-pending339-resume-implementation.md)保原334+5及全部16203fine，8新中点需新资格；p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。16mean q64:80及h96=.6986806496374112全变，旧59a4完整几何不转移。原normal311/较早全部失败与费用保收据链；mean g仍在设计，同g/参数/时间域精化未付。
 
 ## 4. B030最新5659，恢复阶段保原H并补2561区间
 

@@ -688,3 +688,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜B030 native原自然终态与真实恢复阶段
 
 根全文审14027B收据，独立核17839432B原stdout/909317B唯一FINAL/2083457B唯一PARTIAL、9452峰及2561队列规范hash、81q与fine身份。五实际接受的原checkpoint逐项核合，工作margin和物理V0分别保留；末e有记录而更新best_geo未直存，禁止float相减冒精确恢复。74980B checkpoint/3403packed LDL/82维锚/2非零λ与原QP身份均核合；5真secant/1MODE−1消费和新构建成本不漏。所有2370.546518149秒、partial及旧账保留。后继仅补2561，用原geometry-restoration门及真实H，不能借较低eta或重旧9452峰。
+
+
+## 2026-11-27｜4bd9原pending339的完整正常续接范围
+
+根全文审新wrapper相对已发pending330的精确diff、9258B说明及6268B workflow；42来源/45sparse、原common参数与527897B stdin核合，原522743B FINAL逐字不变。新source只继承真实4bd9/原334+5拟定339/全部16203永久fine/原c4b9不合格warm及完整费用；8新中点须新同场资格。仅改新日志flag为raw无fine资格，避免继承旧135未有strict promise的较强断言；实际half副本曾通过promise不混raw。原科学函数、98维backend、接受与全部物理门保持；6+8J及62+36value均记，不套B030 native。规则metadata更新至根已读922616ef53f3ca2297dfe531784c19081ee54813/私库50c1c003，无本地科学。

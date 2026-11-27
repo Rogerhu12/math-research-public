@@ -1,0 +1,98 @@
+name: visible-flex actual4bd9 original pending339 physical continuation
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r582-physical-pending339-resume-20261127.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r582-physical-pending298-resume-20261127
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue actual4bd9 with original pending339 full physical gates
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        lane: [actual-4bd9-0d-pending339]
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-26-r582-finite-radius-only-original-receipt.md
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-paid-resume-20261127.json
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_local_tail_angular_continue_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_current_rows_first_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_epigraph_continuation_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_epigraph_paid_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r604_reference_reach_norms_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_local_tail_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_local_tail_columns_model_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_stable_material_field_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_radius_only_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_finite_resonant_model_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_paid_resonant_field_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_true_core_shooting_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+            /.github/workflows/visible-r582-local-tail-columns-20261126.yml
+            /.github/workflows/visible-r582-paid-local-tail-angular-20261126.yml
+            /.github/workflows/visible-r582-current-rows-first-20261126.yml
+            /.github/workflows/visible-r582-physical-epigraph-20261127.yml
+            /.github/workflows/visible-r582-physical-paid-resume-20261127.yml
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending279_resume_20261127.py
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending279-resume-20261127.json
+            /.github/workflows/visible-r582-physical-pending279-resume-20261127.yml
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending298_resume_20261127.py
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending298-resume-20261127.json
+            /.github/workflows/visible-r582-physical-pending298-resume-20261127.yml
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_normal311_resume_20261127.py
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-normal311-resume-20261127.json
+            /.github/workflows/visible-r582-physical-normal311-resume-20261127.yml
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending330_resume_20261127.py
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending330-resume-20261127.json
+            /.github/workflows/visible-r582-physical-pending330-resume-20261127.yml
+            /topics/visible-flex-new-mechanism/scripts/r582_physical_pending339_resume_20261127.py
+            /topics/visible-flex-new-mechanism/computations/request-r582-physical-pending339-resume-20261127.json
+            /.github/workflows/visible-r582-physical-pending339-resume-20261127.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and continue fixed finite nonround cores
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r582-physical-pending339-resume-20261127.json
+          --lane ${{ matrix.lane }}
+      # Exact retained4bd9 belongs to the original actual0d field and16203 fine.
+      # Original334 plus5 pending becomes339;8new midpoints force newfine.
+      # Rawc4b9 has no fine qualification;its independent half-copy is4bd9.
+      # Every source fine coordinate and all original physical gates remain.
+      # Source6completed plus8current Jacobians and all costs are inherited.
+      # The original98dimensional backend does not use the native82helper.
