@@ -18,7 +18,7 @@
 
 v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/job/source/hash、未到终门及两字段兼容修复在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。不是代数反例，也不是四交/Norm/shadow PASS。
 
-native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810的完整终态已消费：09:58:51–15:48:52UTC外层21000s、signal15/exit124，不是代数反例。原log5693799B/e636efb3…8df1，30native/6primary（各长612），最后15:47:30完整306Frobenius已返；四交/Norm/18×9 shadow终门全未返。只读collector run46028499822/job140605963896与直接全字节hash一致。原56源/两char0 pins、29/2453/64/minimal、全部原门和只读/禁网保持。根已定位residue kernel/全thick projector扩域向量费用，改进前不原样重启、不存矩阵缓存；完整参数/哈希见终点链§19。
+native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810的完整终态已消费：09:58:51–15:48:52UTC外层21000s、signal15/exit124，不是代数反例。原log5693799B/e636efb3…8df1，30native/6primary（各长612），最后15:47:30完整306Frobenius已返；四交/Norm/18×9 shadow终门全未返。只读collector run46028499822/job140605963896与直接全字节hash一致。原56源/两char0 pins、29/2453/64/minimal、全部原门和只读/禁网保持。根已定位residue kernel/全thick projector扩域向量费用，改进前不原样重启、不存矩阵缓存；完整参数/哈希见终点链§19。新原生二次多项式全运算保当前generator/全部坐标与CH=A，公开一次软件入口已提交待回执；尚未接原重作业，见[返回证明](notes/2026-11-27-complete-quadratic-polynomial-returns.md)。
 
 ## 二、原算术来源与全域缺口
 

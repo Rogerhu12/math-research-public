@@ -1,0 +1,115 @@
+#!/usr/bin/env sage-python
+"""One public exact check of the full quadratic polynomial representation.
+
+This is a software correctness/performance input, not an original-geometry
+PASS.  It includes non-prime coefficients, nonreduced thick quotients,
+arbitrary source rows, and exact return coordinates against the untouched
+pinned implementation.
+"""
+import os
+if (os.environ.get("GITHUB_ACTIONS")!="true" or
+        os.environ.get("GITHUB_REPOSITORY")!="Rogerhu12/math-research-public"):
+    raise SystemExit("Run only in public research Actions.")
+import hashlib,json,time
+from pathlib import Path
+from sage.all import GF,PolynomialRing,matrix,vector
+import original_complete_quadratic_returns as fast
+from original_ys_divisor_ideal_tools import polynomial_matrix_digest
+
+def canonical(x):
+    return json.dumps(x,sort_keys=True,separators=(",",":"))
+started=time.monotonic()
+preparation=fast.prepare_backend()
+checks=[]
+for prime,n in ((29,12),(41,9)):
+    k=GF(prime**2,"original_z")
+    z=k.gen()
+    R=PolynomialRing(k,"original_t")
+    t=R.gen()
+    # Non-prime diagonal coefficients force the full conjugate/norm division.
+    H=matrix(R,n,n)
+    for i in range(n):
+        H[i,i]=(t-z-(i%3))**(2+i%3)
+        for j in range(i+1,n):
+            H[i,j]=R([(z+i+j+1)*(e+1) for e in range(2+j%3)])
+    assert H.is_hermite()
+    C=matrix(R,n+3,n,lambda i,j:
+             (z+i+1)*t**((i+2*j)%4)+(z*j+i+2))
+    rows=C*H
+    before=time.monotonic()
+    product=fast.complete_product(C,H)
+    assert product==rows
+    coordinates=fast.complete_hermite_coordinates(H,rows)
+    assert coordinates==C
+    returned=fast.complete_remainder_rows(rows,H)
+    assert returned.is_zero()
+    perturbed=matrix(R,n+3,n,lambda i,j:
+        rows[i,j]+(z+i+j+1)*t**((i+j)%3))
+    assert fast.complete_remainder_rows(perturbed,H)==fast.ORIGINAL_REMAINDER(perturbed,H)
+    assert fast.complete_hermite_coordinates(H,rows)==fast.ORIGINAL_COORDINATES(H,rows)
+    # Reject an actual full-module non-inclusion, never clear denominators.
+    bad=matrix(rows)
+    bad[0,0]+=1
+    rejected=False
+    try:
+        fast.complete_hermite_coordinates(H,bad)
+    except ArithmeticError:
+        rejected=True
+    assert rejected
+    empty=matrix(R,0,n)
+    assert fast.complete_remainder_rows(empty,H)==empty
+    assert fast.complete_hermite_coordinates(H,empty)==empty
+    assert fast.complete_product(matrix(R,0,n),H)==empty
+    checks.append({
+        "prime":prime,"constant_degree":2,"rank":n,
+        "full_thick_length":sum(int(H[i,i].degree()) for i in range(n)),
+        "actual_nonprime_diagonal_used":any(c not in k.prime_subfield()
+            for i in range(n) for c in H[i,i].list()),
+        "full_product_sha256":polynomial_matrix_digest(product),
+        "full_coordinates_sha256":polynomial_matrix_digest(coordinates),
+        "same_complete_reference_remainder_and_coordinates":True,
+        "actual_noninclusion_rejected":rejected,
+        "empty_full_matrix_shapes_retained":True,
+        "elapsed_seconds":time.monotonic()-before,
+    })
+# Rank 306 is the actual original module width.  Use an explicitly specified
+# complete upper Hermite module with quadratic coefficients and nilpotents;
+# do not call it an original geometric primary block.
+k=GF(29**2,"original_z")
+z=k.gen()
+R=PolynomialRing(k,"original_t")
+t=R.gen()
+n=306
+H=matrix(R,n,n)
+for i in range(n):
+    H[i,i]=(t-z)**2
+    for j in range(i+1,min(n,i+8)):
+        H[i,j]=(z+i+j)*t+(z*i+j+1)
+C=matrix(R,2,n,lambda i,j:(z+i+j)*t**(j%3)+(j+1))
+rows=C*H
+before=time.monotonic()
+assert fast.complete_product(C,H)==rows
+assert fast.complete_hermite_coordinates(H,rows)==C
+assert fast.complete_remainder_rows(rows,H).is_zero()
+checks.append({"prime":29,"constant_degree":2,"rank":n,
+    "full_thick_length":612,"source_rows":2,
+    "same_full_product_and_original_return":True,
+    "elapsed_seconds":time.monotonic()-before,
+    "not_a_claim_about_original_geometric_primary_blocks":True})
+binding=fast.bind_original_returns()
+assert binding["full_reverse_identity_H_equals_CI_plus_H_one_minus_e_retained"]
+files=("original_complete_quadratic_polynomials.pyx",
+       "original_complete_quadratic_returns.py",Path(__file__).name)
+result={"kind":"complete-original-quadratic-polynomial-api-check",
+    "status":"PASS","source":os.environ["RANK2_SOURCE_SHA"],
+    "run_id":os.environ["RANK2_RUN_ID"],
+    "run_attempt":os.environ["RANK2_RUN_ATTEMPT"],
+    "root_readme_blob":os.environ["RANK2_ROOT_README_SHA"],
+    "topic_readme_blob":os.environ["RANK2_TOPIC_README_SHA"],
+    "source_file_sha256":{p:hashlib.sha256((Path(__file__).parent/p).read_bytes()).hexdigest() for p in files},
+    "preparation":preparation,"checks":checks,"binding":binding,
+    "all_original_geometric_gates_still_required":True,
+    "data_artifact_written":False,"elapsed_seconds":time.monotonic()-started}
+payload=canonical(result)
+print("RANK2_COMPLETE_QUADRATIC_API_RESULT "+payload,flush=True)
+print("RANK2_COMPLETE_QUADRATIC_API_SHA256 "+hashlib.sha256(payload.encode()).hexdigest(),flush=True)
