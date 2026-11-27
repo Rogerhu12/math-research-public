@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 05:46:57 UTC，真实pull/rebase至origin/main `ed58d5899f35d6c2339d38277c4ef5024241f826`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 05:48:52 UTC，真实pull/rebase至origin/main `4d6d175264279a8796c6c36f615d6e886c7e5c00`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
@@ -46,7 +46,7 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 
 [N2048→4096完整观察入口](notes/2026-11-27-complete-N4096-fixed-reference-observation-entry.md)12运行体/6构造体/全ready，root真再生及34源核过；只原cc0a/M160/90、非径向/7c。完整旧点13成员/typed历史迁移、全old/current G和真新field保；未准入/无真返，新族适配继续。
 
-[09真实输入与生产入口](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)：warm/ref1–2真返0，3df/2ab/d449；306b/9e3d/cc46全源及单步参数已排，保5e373整公开证据快照/六文件/160词/923节点/原2397与整dc5。producer待返，数学g关系不由SHA猜；后继完整frame/J3正在绑定，07/08未知typed保。
+[09真实输入与生产入口](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)：warm/ref1–2真返0，3df/2ab/d449；306b/9e3d/cc46全源及单步参数已排，保5e373整公开证据快照/六文件/160词/923节点/原2397与整dc5。实际3真返0：整dc5/完整90词同，目标7c766/绑定21a44、F/J/root0；数学g未主张。完整frame/J3后继继续，07/08未知typed保。
 
 <!-- visible-larger-parallel-08:start -->
 并行公开Actions08：[run 45929088658/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45929088658)；[实际记录](notes/2026-11-27-public-actions-45929088658-1.md)。阶段`followup:complete-independent-fixed-chart7c-full-envelope-20261127-08`/running；已返10，exit=未返。

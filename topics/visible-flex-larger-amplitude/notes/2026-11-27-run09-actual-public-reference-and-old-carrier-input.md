@@ -151,3 +151,26 @@ run07/1 已 completed/cancelled，step4 未返回；未知历史不是空集。r
 root实际运行完整标准库再生器exit0，六个原函数AST与整段2397/原save/完整dc5比较正文逐字保留，两个完整输出分别306b/9e3d。root已完整读实际第2条返回的全部argv、输入/输出身份与无missing/summary_error记录；单步完整原对象追加09队列，原reference步骤逐对象保持，未删任何pending。此处只登记已排入的完整执行参数，生产器完成与目标身份仍以未来真实返回为准。
 
 完整生产器保留已锁字节的末EOF空行；默认Git检查报告这一样式项。为保9e3d及全部再生/后继pin不变，源码不作无数学作用的重排；仅排除blank-at-eof后的其余空白检查通过，科学guard和完整原算法未变。
+
+## 10. 实际第3项已返回：完整载体与当前固定目标
+
+root 在真实 pull 后逐项完整读取 [实际第1卷（阶段1–3）](2026-11-27-public-actions-45943410994-1-part-001.md) 的第3个完整 JSON：该卷33693 bytes，whole SHA256 `837901528194ed8b23f5fca8b45d95520d5e490b5420d7b3772de5d3027d7e62`。这不是原输入快照5e373的替代；两个5e373原卷快照仍在本runner作为后继完整输入。
+
+实际步骤 `freeze-actual-run09-public-reference-and-restore-whole-run05-carrier-20261127` 为 completed/exit0，外层368.9653335570001秒、内层366.9169047739997秒。完整source为9e3d0590c6d37eb07da094128df9e3b82fc03a7e9cf784cea1831b4ab0d39a18，实际源码checkout `ba42fd2819a2ee9638d3044539076ff3e39de67f`。完整原28词用户参数及Python实际argv逐项仍在实际小卷；队列path_commit为 `1f102dc8df41ada504a9d30e56bad92be01bde90`、whole队列SHA `927dcb2afd9198c86a8f1e17920dea3e641ff841ef5f1ed32a2d8235a85b336f`。没有推测未返父SHA。
+
+实际报告确认完整旧载体dc5/227202精确命中；全部old/current材料地址相同，当前与历史完整160 chart词均为90e6且逐字相同。原2397叶重建完成，旧/重建scalar profile均为 `e71b374557c5efa07ce2b5795c73f3e5b3a50d10d125b40c1f1682af37742350`。这2397指旧载体重建分支，不能改写为当前09参考生成时的1995叶。
+
+实际固定目标canonical身份为 `7c766fb2d5008761c35d1ee848c76ef66f75510bee860efa037e70ed4f0f1f5a`；input binding canonical身份为 `21a44bdb4ab28c00b57256094075499e2434c30af6db4b788ff94a6f691cfa53`，canonical与whole-file SHA分列，不混用。实际输入证据canonical身份为 `3a0c2d8e7a99a5c2cfeb61e24ae4c5e249ceb4badb88dfa4034f3188a9414794`。完整实际输出如下，路径均在09 runner的 `research/run09-actual-public-reference-run05-carrier/`，raw不进入Git或artifact。
+
+| 输出 | bytes | whole SHA256 |
+|---|---:|---|
+| `report.json` | 769358 | `f857e675af324fd9e0b540f4d2746e293879bbdb5ab3fe57e41688efa0fd5a2e` |
+| `run05-observations-restored.npz` | 227202 | `dc5ffc55ecc4478d265bbad6e8f2abcf672709d99365e14ead01478a4042e7d0` |
+| `independent-fixed-target-definition.json` | 97334 | `68d76e31e685995a3245a824d3fedf7a44cf862002ae60be4d541b6c64fbef99` |
+| `material-envelope-carrier-binding.json` | 430906 | `2f8de167fb0b66a9328bb7e45c2a31b0fe985678a0af7143fc1c9e965d18ec3d` |
+| `actual-public-warm-immutable.md` | 22456 | `5e3732096b95ccc65f7fc70cc2b4e5ba4ffc67023c444ce4f93762c7d765a1be` |
+| `actual-public-reference-immutable.md` | 22456 | `5e3732096b95ccc65f7fc70cc2b4e5ba4ffc67023c444ce4f93762c7d765a1be` |
+
+当前六文件whole身份、d449模型、e640标量参数、eff967网格、90e6完整chart及ba5a准确节点都由真实文件核入；不是源常量或文件名充当读回。`same_mathematical_g_claimed=false` 表示未主张新旧数学目标相同，且报告明确 different metadata SHA is not mathematical target inequality；这也不是声称二者数学不等。旧Phi/场值未继承，exact_chart_conjugacy未主张，旧分支未完成，未读历史未冒已读。
+
+F/J/root实际调用均为0，故本项完成的是必要完整输入生产，尚不是新物理场、收敛、全时reach或完成标准。六个输出全部存在，missing_outputs为空；两条summary_errors仅为成功报告没有可选 `failure.type`/`failure.message`，不能解释成生产失败。cleanup删除/跳过均0。后继须完整读取430906-byte绑定、97334-byte固定目标及六真实文件和原载体，由新的完整解析frame/J3入口实际求值；07/08未知typed责任继续保留。
