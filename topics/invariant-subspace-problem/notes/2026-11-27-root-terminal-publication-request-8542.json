@@ -1,14 +1,17 @@
 {
-  "message": "ISP: construct a dense original backward chain and a global trace class quasiaffinity",
-  "parentCommit": "a3467c4b0ebb02a053e95fbcd05d4975986a8c85",
+  "message": "ISP: return five low original W combinations and the two-generator complementary chart",
+  "parentCommit": "8d591182aabd6c52fc99e0ae0e7308f2b6cfe9ab",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-global-sparse-chain-quasiaffinity-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-global-sparse-chain-quasiaffinity-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-three-original-quadratic-low-cofactors-and-two-generator-chart.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-three-original-quadratic-low-cofactors-and-two-generator-chart-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-original-PB-complement-Gauss-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-exceptional-original-pb-complement-gauss-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-five-low-original-combinations-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-five-low-original-combinations-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-phi-exceptional-original-pb-complement-gauss-8542.yml"
+  ]
 }

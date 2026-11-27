@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W五条低阶原组合与两生成元补图](results/R150-appendix-unit211-W-three-original-quadratic-low-cofactors-and-two-generator-chart.md)：三二次给共同A143首项、完整仿射/二次及三同F立方；全部首项零支保留，原qF/N/P仍须返回。
+
 - [同G稀疏注入的全H稠密链与全空间迹类拟亲和](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)：单一链全物理尺度三次增长，B到完整T有单射稠密像迹类交织；新链移级不可闭，N=M仍开。
 
 - [h=k,Phi=0的整个ell≠1原面排除](results/R150-appendix-unit211-equal-singleton-Phi-zero-ell-nonone-original-exclusion.md)：八未缩放原式固定11/9阶QQ投影143/80互素；完整ell1u2四次纤维保留。
