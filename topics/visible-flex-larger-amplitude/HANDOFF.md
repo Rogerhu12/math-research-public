@@ -55,5 +55,5 @@ R248只归约活动像；固定p4须共同R650或全部mixed pairs。R709–715�
 
 <!-- visible-larger-parallel-10:start -->
 并行公开Actions10：[run 45972294636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/45972294636)；[实际记录](notes/2026-11-27-public-actions-45972294636-1.md)。阶段`followup:complete-run10-detached-closure-values-first-20261127`/running；已返4，exit=未返。
-并行10规则核查：2026-11-27 11:33:37 UTC，真实pull至`c5b9ce61389b975b1a11d1ff1ee71912a8749751`，双README无变化。
+并行10规则核查：2026-11-27 11:38:39 UTC，真实pull至`e8e7c2ffa8fe107b6890a8e90a785b80a1f6aa16`，双README无变化。
 <!-- visible-larger-parallel-10:end -->
