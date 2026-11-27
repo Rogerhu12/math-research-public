@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 00:21:33 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 00:22:33 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至66eec90f212a23db385dff2a79ac5689bbc06782（相对12385db35无diff）；私库23:51pull根规则核至05c360087484521cd72939782acd89debebdb22f，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
-Actions计算；本地只证明/静态/metadata。规12不增审批复核、每结论推送；规15 topic≤200MB、H<10KB、禁可重建大数组。前H/open 27c422943及递归历史保所有成功/失败/unknown/义务，成功禁重。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至5777da76dbb3927ff9f4ec7c1a1b0d37b4237156（相对12385db35无diff）；私库23:51pull根规则核至05c360087484521cd72939782acd89debebdb22f，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
+Actions计算；本地只证明/静态/metadata。规12不增审批复核、每结论推送；规15 topic≤200MB、H<10KB、禁可重建大数组。前H/open递归历史保全部记录，成功禁重。
 
 ## 同一对象与最终标准
 
@@ -17,14 +17,14 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 
 ## 当前真实工作次序
 
-1. **PS完整false，转原signed-loop。** 45880363964/1已全155/155母格、1424/1424 cells、193atoms和6球：body门ε<64.097637、whole含点<64.855555（atoms<9.886156），严格收缩门false；整体job只在目标完成后的current-file containment失败。whole actual65855B/a674a43c5d24e24a59499cb93b5f4c21e3786c8e97f126fca86de210f93468de、execution64093B/2254670ad25736632f4706039d308029c5cd5b6ed7e443d21a3bb4e0125347a3原件保。禁止DP/重积分；positive_inverse正在准入原full-false signed-loop分支，不把充分门false当算子不可逆。此前76/155和取消被自动审批拒绝记录保原H/log，实际最终全成功目标覆盖余79。
+1. **PS完整false，转原signed-loop。** 45880363964/1已全155/155母格、1424/1424 cells、193atoms和6球：body门ε<64.097637、whole含点<64.855555（atoms<9.886156），严格收缩门false；整体job只在目标完成后的current-file containment失败。whole actual/execution的完整SHA及六球保66eec90f2原H。禁止DP/重积分；positive_inverse正在准入原full-false signed-loop分支，不把充分门false当算子不可逆。此前76/155和取消被自动审批拒绝记录保原H/log，实际最终全成功目标覆盖余79。
 2. **完整positive58→224→32→PN56/CXN6。** [physical入口](notes/2026-11-26-physical-scalar-execution.md)、[PN56](results/R149-supplement-actual-positive-negative-receiver-execution.md)、[CXN6](results/R149-supplement-actual-common-high-negative-receiver-execution.md)已推，前驱未齐无manifest。NS/strict/R149v2来源分别核，失败保；square成功才消全L²_r正侧head，raw root96与mean/ν保。原14ports/同因三角/aux Ec*e/Ni/BH KW单位保下述430e原H和proof。
 3. **[固定η0 forward完整失败](results/R144-supplement-actual-fixed-eta0-forward-mean-and-terminal-mismatch.md)。** 45778507038/1全7296格/6143joins已成禁重，positive true而C0/outermean false，row7147下界>1.00195589e−4、terminal mean约−.00766584024。只排该中心，续compact路线。
 4. **compact主线。** 全部compact既成账保430e原H/proof；全|δ|≤1e−10双端mean精确、变更只[.05,.18]，negative incoming<.002029，RI内部Schur0。QN fulltail A³≤1e−6/独立outer≤1e−9给whole positive given-head body<.310/.801及七端口；QH真实H±2 DN/H7/6与正侧H¹ whole反馈<.803。NR同域strict/root given-Cauchy强/弱root到腰1192.764/2038.696；两mean/真density/source/jumps全保。NT付strict任意整数阶单高背景tame；新[RT](results/R144-supplement-root-angular-tame-flow-with-one-high-background-factor.md)付根端所有整数阶、单个A^{n+4/3}背景因子，R=.005 H¹≤15D1+17200D0，接strict到腰≤5100D1+1.32e7D0+340S1+1.12e6S0，真腰density另<1.041。
 UH完整physical chart、DH三curvature行含两mean/独立height的mixed Hessian10000（固定height outer A³≤1e−9余项≤1e−14）、RP双ray return/真ν²/未归一phase低阶mixed400已付；真physical waist零方程等价且非零残差费保。新[DN全阶](results/R144-supplement-all-angular-exterior-DN-tame-inverse-in-real-function-spaces.md)付四真实DN行与adjoints、全nonmean K^-1<1.001及单个raw A^{n+1}高背景tame；two means/height独立。[WH](results/R144-supplement-complete-passive-world-height-Hessian-with-independent-ports.md)现付同world passive全区位置L²及fixedphysical height全频H−3二阶≤2^100 mixed，独立outer frame/position/waist trace和两mean保。[PT](results/R144-supplement-all-angular-positive-Cauchy-graph-with-one-high-background-factor.md)再付whole positive两独立端口所有角阶，单个A^{n+5/3}背景，middle band用已付H¹解；真实外反射/高阶height、full边界逆与收敛仍待。
 5. **TC真96试列。** 45889161044/1仍运行：完整signed矩阵/waist首目标已存，00:17公开prefix848/7724 cells，三目标584球尚未齐。原runtime/cubic/14Z全SHA恢复、全部失败、8数值源/4whole数组及同float proposal修复保[恢复记录](notes/2026-11-27-true-root-trial-input-restoration.md)与430e原H/proof；exact cuts/质量/CF4/QR/残差数学不变。[TCX](results/R149-supplement-disjoint-same-trial-cell-continuation.md)只在真终态后一次恢复、≤3互斥fork续缺域；全5×96原子ledger/连续prefix/非连续union不混，旧upper不重加。SC五源仍须whole58/224/32+TC3+RW96+JC7，做96真列误差及两个signed全square；仅physical/incoming配对，非Θ/B^-1全列或fullSchur。
 6. **完整高频与原Θ。** DC/DB/DG/IL/SDI/IR/DT/TM/TP全部whole结果/pins/误差及原same-sign修正保430e原H/proof；C^-1双逆H−1/2≤1、H−1<5/3/H−4/3<5/2，原J homogeneous<2^-449，巨大finite/两mean/νphase仍保。IR45899761652/1全99：εH<.142402/ε0<.435430/L行误差<.071201；仅L，不冒Θ。AS45906100247/1在完整SN endpoint核SHA后、新alpha前因raw support128错误而failure；[ASR](results/R149-supplement-original-alpha-full-source192-and-ended-first-attempt.md)保真实selected χ支集192/原终点128，整个radius/strip/head/alias/tail同修，45914639857/1唯一新run在算；OT未运行owner/generator同步准入ASR，原08e身份保。OT全四源已齐，10新scalar+96×2240 signed行只在AS whole成功后生成首manifest。
-[TQ](results/R149-supplement-original-Theta-restriction-and-joint-Schur-row-consumer.md)给trueTheta Q97全signed square门及WGB32首96辅助行联合consumer，SC低配对不当B^-1完整列；[TQL](results/R149-supplement-exact-low-model-isometry-and-Theta-square-error.md)用原low96 model真等距，ξlow=全VQ joint误差+原formal carrier前96square完整rounding/phase费，免高频KG512；与原wholeglobal先保存再整界择小。实际矩阵/完整Schur待。
+[TQ](results/R149-supplement-original-Theta-restriction-and-joint-Schur-row-consumer.md)给trueTheta Q97全signed square门及WGB32首96辅助行联合consumer，SC低配对不当B^-1完整列；[TQL](results/R149-supplement-exact-low-model-isometry-and-Theta-square-error.md)用原low96 model真等距，ξlow=全VQ joint误差+原formal carrier前96square完整rounding/phase费，免高频KG512；与原wholeglobal先保存再整界择小。[TQC](notes/2026-11-27-original-Theta-low-square-first-target.md)已具完整OT四载体恢复和11新球的真正96square门入口，OT whole成才造manifest；actual矩阵/fullSchur待。
 
 ## 已锁定的实际结果与排除
 

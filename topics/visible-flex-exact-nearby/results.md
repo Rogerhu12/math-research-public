@@ -395,3 +395,5 @@
 - [WH：完整passive同world高度二阶与独立端口](results/R144-supplement-complete-passive-world-height-Hessian-with-independent-ports.md)：34个新saved有理比较已全过，原全区a/β/γ/mean/真ν和所有尾保；正交Duhamel无M指数，完整位置L² mixed二阶<4.4e10 A³、A=2^20。fixedphysical高度精确配对<ζ(Θ)J,F>给所有模/mean的H−3 mixed Hessian≤2^100，保真实outer frame/position/waisttrace，普通L²body不取免费trace。未把Fφ换成无缺陷几何值，未恢复/假设signed worldcarrier；高阶height、全逆/匹配仍待。
 
 - [PT：whole positive独立两端全角阶tame图](results/R144-supplement-all-angular-positive-Cauchy-graph-with-one-high-background-factor.md)：18个新saved有理比较已过；全body/collar原frame和ordered primitive/两mean/head source保，所有整数阶只一次A^{n+5/3}高背景。M_n=[560(n+1)]³辅助tail吸收，原97..M_n/4 middle只用既成H¹解不重造大finite逆；显式A_n及真实root/outer trace。只独立stable-root/unstable-outer图，实际moving-angle exterior反馈另付，不授full边界逆。
+
+- [TQC：原OT完整四载体与low96实际逆门入口](notes/2026-11-27-original-Theta-low-square-first-target.md)：6件源码/合同已齐，AST/原literal carrier blocks已检查无本地科学；原IR Haswell/ASR未设CORETYPE及4whole receipts全同后才取9216原dyadic entries。11新球包括low joint误差、B/R0各4whole norm候选与严格ρ；浮点proposal失败B=0必为false。旧global与新low整界保存读回再择小，原TP/TM科学目标不重。OT尚未完成，无实际manifest/workflow；ρ<1才授原Theta坐标逆，fullfinite/边界/两mean/νSchur独立。

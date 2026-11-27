@@ -401,3 +401,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 00:21:33 UTC / visible-exact-astra-fb31ed6-20261127：为下一真实signed-loop/OT输出留规15容量，对原pool第256..383共128个legacy native metadata JSON仅删字符串外空白并保末LF；原完整字节/全SHA/git blob逐项核ba95a7219fa883622b2b3daefde527d04568c117，literal数字/字符串escape/键序/数组逐字保，JSON语义相同。当前全部py/json/yaml/sh/js/ts（含新manifest/workflow）完整路径/parent/独特leaf/原SHA/blob引用冲突0，2份完整receipt70124B，毛省898944B、净省828820B；无数组/科学/结论重算，原history永存。PT已推66eec90f212a23db385dff2a79ac5689bbc06782，每pull根/topic README无diff。
+
+
+2026-11-27 00:22:33 UTC / visible-exact-astra-fb31ed6-20261127：登记TQC六件source/合同。必要完整OT carrier恢复提取原两字面段SHA b8477204bcc9678a7660a3d5200af97d3a84d52d0c7a8fb71e54e893dfd8dba0、58a8d2914eeb5d9275b0120206a60b16067381875a1d47d317e4f18f4b41510e，所有old norm目标禁用。whole96×2240原4receipt全核才取96square，11新球保joint low误差、B和signed I−BThat完整norm候选与严格rho；原global/新low整界先保存后择小，B=0 fallback完整false不假阳性。仅whole OT成功才造manifest，当前无actual门，不免费授physical/full Schur。helper容量提交5777da76dbb3927ff9f4ec7c1a1b0d37b4237156成功，两README无diff，净省828820B且原128meta全字节可追。
