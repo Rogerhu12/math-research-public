@@ -182,6 +182,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 
-**一般T0=0、J=Q整H0及全部325次非线性候选已闭。** [四原补余子式严格Gauss](results/R150-appendix-unit211-general-J-equals-Q-strict-Gauss-two-rational-lines-and-19-weight-bound.md)实际给全余式gcd19、非线性gcd1；QQ首一局部整锚和完整原投影保全部零支。只余u=1/2、2/3两整线，各至多3/16个不同复权点（c082809a，11.608秒/exit0）；新c65802c3直接原48×35矩阵返回1和原物理D，所有35列清分母后乘回，未执行不宣两线闭。
+**[整个一般J=Q原面已完整排除](results/R150-appendix-unit211-general-J-equals-Q-complete-original-exclusion.md)。** H0整QQ2、完整348覆盖/325非线性Gauss及最后两整线原48×35常数返回全部合拢：16/28、14/23次QQ Bézout均1（c65802c3，4.375秒/exit0）。余一般LS可付J−Q，连已闭T0得到Pf单位；已核固定四头x²/xt/y²/yt因此全图可逆。三次一致性/全图有限生成仍须新原返回，不把可逆二次头当下降序。JQ所有旧源不重跑。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
