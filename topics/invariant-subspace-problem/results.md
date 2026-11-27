@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi0/h1 的 H4/H20 整复纤维排除及精确1069次原覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-H4-H20-complete-fibers-and-QQ-divisibility.md)：固定23/25阶原投影的全模Bézout/Gauss；已付QQ系数赋值直接证明H4⁴H20整除，无未付范数逆。
+
 - [R150：h=k原Delta及三均值完整QQ因式](results/R150-appendix-unit211-equal-singleton-Delta-and-three-original-mean-factors.md)：83ea实际2.327秒/exit0；Delta整四次、三必要core12/78/12，复用旧λ半物理排除，不由gcd1宣空。
 
 - [R150：J19已付后整W的A[y]三生成与原首一y六次](results/R150-appendix-unit211-W-J19-paid-Ay-three-generators-and-original-monic-y-six.md)：2698实际17.044秒/exit0，六乘法/七原行/三cofactor全返；最小y6首项全部已付，其余头零全保。

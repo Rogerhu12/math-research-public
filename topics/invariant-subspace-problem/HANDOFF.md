@@ -5,10 +5,10 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** f677012030e09776dbbdd031f6899dc07996b10f（2026-11-27 12:54:40 UTC，Actions run46002551541实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46002551541-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 12:54:39 UTC/f4c896ee8e5821f45a1e7ed0260baa5562ad9b87，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 51e149f6e0fdec7f420e6ef5e15eb9904e5c508b（2026-11-27 12:56:46 UTC，Actions run46002826202实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46002826202-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 12:56:45 UTC/576ef6988fc60cb8fc50e553a197287c63715145，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `545d369d165281e3072698914bc6a1742a35e124`（2026-11-27 12:54:19 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `51e149f6e0fdec7f420e6ef5e15eb9904e5c508b`（2026-11-27 12:56:20 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-directional-intertwiners-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **Delta0 h1/k1≤6219基点已付；一般h=k(D0)开。** fdece全八值/H=bcDelta和首一b4已返。83ea真2.327秒/77896KiB/exit0，Delta4/24/4单因子；三均值剥已付λ半后12/78/12，gcd1不宣空；λ半只复用旧S0第五列物理排除。新d718首用lambda,u,Q还原八原配对，180秒4GiB待实际；不套旧D单位。
-- **Phi0/h1≤68原基点/136含ell点已付。** 11fc六QQ因子合840付首一1105余覆；415b真3.690秒/52380KiB/exit0，真R*与Q840模gcd1、原S/T全Bezoutgcd68，Gauss及逐纤维核重数严付。ca7同rho仍68，QQ边界H4/H20只候选，新cce2整原域Gauss120秒1GiB待实际；k1交换及全部原点未排空。
+- **Phi0/h1≤68基点；H4/H20全原复纤维新闭。** cce2真3.620秒/52624KiB/exit0，完整23/25阶投影与首一H4/H20模Bézout1付QQ原单位；只剥已付rho²/rho+1。已实QQ系数身份合整数对偶严付H4⁴H20|R，合840得首一1069余覆。新的实际余式/剩32模支持待原返回；k1交换及全Phi0未闭。
 
 ### rankH3原ess6
 
