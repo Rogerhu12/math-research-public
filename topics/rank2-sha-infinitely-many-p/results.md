@@ -151,3 +151,6 @@ $$
 
 
 - [连续性审计§7](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)现锁定同一已完成的未除幂 raised 张量 $\omega^3\otimes(\Omega^1)^n$：固定CM基/KS/level比较只有 $q_{p,n}=q_{p,4}Q_p^{n-4}$，完整两Hermite仍为 $c_n=n!(n+2)!\xi^{n-4}/(4!6!)$。真实Hecke等变KS保 $\det H_{\rm dR}^{-n}$，7.19的实际基乘 $p^{3+n}$；书7.22的 $p^{3+2n}$ 尚缺同一线性化比较，但任何这种固定幂都不修digit障碍。由实际 $R_{{\rm can},227}(226)\ne0$，当前明定的 full18图/通常depletion/未除幂正整数序列**不存在连续延拓到 $\mathbf Z_{227}$**。这是本题literal数列的严格结论，不把它与真实flat族无条件相认，也不据此称书定理假。后继须真正给不同算子或权归一并重证proper端点，参考非零或period单位不能补此门。
+
+
+- [森林§19的准确范围](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)：原profile $m_0/N\to\mu,b/N\to\beta,r/N\to\rho,K/H\to\tau$ 必须保 $\mu/68\le\rho\le19\mu/68$；判别式严格失败门是 $\beta[19(\beta+2\mu)-136\rho]<9\min(2,1+3\tau)/(2+\tau)$。真实逐charge列数(68)表明，有固定裕量时已经 $H>n_{\rm win}+cN^2$，所以此门仍在第一块行数超过窄窗列数的范围，**未触全临界或主严格预算**。泛型不可分被 $\deg_Y<p$ 排除后可得核子空间共同平方因子，但Theta的68格不能未付返回就接成rho的19角格；同R/carry/Xi保。后继转增长块数与同一饱和旗标的全Smith指数，不再把固定三块小改进充作全局正收益。

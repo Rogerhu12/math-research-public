@@ -47,7 +47,7 @@ Kriz 6.21连续的是实际 $q_{\rm dR}^{1/p}$ 的flat族。7.20把它认作usua
 
 ## 原矩阵及其它主门
 
-原forest§§16–18.1新增同三块厚理想及全角判别式：$P^\circ\in(t^{H'},t^{K'}h^2,h^3)$、$W=(b-1)(b+2m_0)$，平方自由时 $\min(2H',H'+3K')+3\lceil W/68\rceil\le\lfloor11W/34\rfloor-r(2b-2)$。失败仅迫非边界重复因子；同R/carry/Xi不删。新通用判别式与三外角已排重，旧R808的25−24分裂不重做。
+原forest§§16–18.1新增同三块厚理想及全角判别式：$P^\circ\in(t^{H'},t^{K'}h^2,h^3)$、$W=(b-1)(b+2m_0)$，平方自由时 $\min(2H',H'+3K')+3\lceil W/68\rceil\le\lfloor11W/34\rfloor-r(2b-2)$。失败仅迫非边界重复因子；同R/carry/Xi不删。§19已核该严格判别式窗仍有第一块行数超过窄窗列数，不触全临界；Theta/rho不同格不可混用。改接增长块数与全Smith严格收益，旧R808不重做。
 
 
 [三变量V](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)的稳定素簇/D-property、短primary根稳定及固定低degree Noetherian退出已付。[正特征forest](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)付正规化枝/cap/有限流/288退出/全交循环。只在H超过完整界排低轴核。薄X二次界保新的M□；§15已核旧R467显式二维界更强、R637原短三块满射范围优先，二维指数不另计新推进。继续原两长一短E-moments、实际同一首提升R与第二余核Xi，不能复制单位秩或添中央导数/乘积零。
