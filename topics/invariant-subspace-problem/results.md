@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W全图原首一T四次/F二次与固定八维、十六维环境](results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md)：完整原首项均已付、T3恒消；保lambda3/2、D及所有原几何条件，原最终方程商不冒称自由。
+
 - [等值碰撞 T0 与 Delta 同时为零的整个原面排除](results/R150-appendix-unit211-equal-singleton-T0-Delta-zero-complete-original-exclusion.md)：原仿射行迫唯一lambda1/3,u125/123，保自由f的全部原Gram返回及两原mean显式非零常数组合。
 
 - [Phi0 上整个中心值碰撞 zn0 的原 QQ 重数及完整排除](results/R150-appendix-unit211-Phi-zero-complete-centered-value-collision-exclusion.md)：H8精确4重、九真因子Q908及真余1037保度Gauss1；所有原复零纤维已闭，h1/k1交换覆盖，作用域保D非0。

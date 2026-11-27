@@ -1,15 +1,18 @@
 {
-  "message": "ISP: exclude the entire T0 Delta zero singleton collision original face",
-  "parentCommit": "97051366b05adc2a6aa27c845f712c5b79edfdff",
+  "message": "ISP: derive global original monic T4 F2 environments and continue Phi exceptional weights",
+  "parentCommit": "6110da26281f1154fbaa8b0751189be88c5b1adc",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-equal-singleton-T0-Delta-zero-complete-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-Delta-zero-complete-exclusion-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-T0-nonzero-Delta-original-two-parameter-return-8542.py",
-    ".github/workflows/invariant-subspace-equal-singleton-t-zero-nonzero-delta-original-two-parameter-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-monic-T-four-F-two-and-finite-original-environments.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T-four-F-two-identities-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-monic-T-four-F-two-identities-8542-receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rho-head-zero-exceptional-weights-original-return-8542.py",
+    ".github/workflows/invariant-subspace-phi-rho-head-zero-exceptional-original-weights-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-global-monic-T4-F2-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-global-monic-T4-F2-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-equal-singleton-t-zero-nonzero-delta-original-two-parameter-8542.yml"
+    "invariant-subspace-phi-rho-head-zero-exceptional-original-weights-8542.yml"
   ]
 }
