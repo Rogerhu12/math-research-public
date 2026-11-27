@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：7ab1f15c8504164cdedf307e265d43843aea83ff**（2026-11-27 21:25 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：5a42c95db0def93b449b82f73f445f8f3d50e174**（2026-11-27 21:31 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；21:09再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -52,7 +52,7 @@ R1111付原p-block全公因子M D (b³−1)^(2ε)与全tame分歧，ε=1 iff f_N
 
 [R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原5H_p+(8a²/45)K_p=16G_(p−3)单位，H_p=0强制K_p=36/(aδ³)单位；K_p至其它真实forced标签的桥仍开。
 
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§7扩至完整实际V：原Appell全1≤r≤p−3，good角色R首项读c_(p−R−2)=c_(R−2)，保全部尺度/常数/高尾。R1128高低pair读c_(2j−1)/c_(j−1)，R2与R1127单位斜率吻合；双支good mask共同零仍开，保全部低层乘积。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§§7–8付完整实际Gaussian good profile：全短Appell/常数/高尾给原首项c_(p−R−2)=c_(R−2)，完整多项式为N_R·[T^(p−R)U^R](exp(wTU)−1)K。全部低band、Weil/δ尺度、两twist及principal极部保留；极部仅落实际缺席R=(p+1)/2。norm2准确w→iw，Fay保全低乘积；原双支good mask与全标签注入仍开。
 
 [原Gaussian norm2分布](notes/2026-11-27-original-Gaussian-norm-two-Kronecker-distribution.md)付同一$(1+i)$的完整Kronecker两极分布、真实平移相位与平方根分支；$y_k=5G_{p-3}=2a/\delta^3$为单位。N11/N12/N14保全部低层卷积及原good mask，尚未排R1116的指定内段同时零。
 

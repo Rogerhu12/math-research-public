@@ -539,3 +539,249 @@ $\eta_k,\nu_k$ 换成这个 mask。
 本附节仅为纸面全范围延拓及原尺度核对；无数学程序执行。
 
 root 已独立纸核 §7 全短 primitive 的常数、两种参数误差的至少4p间隔、实际全部角色的 regularizer、R=2 与 R1127 的逐因子一致及双支 good mask。旧 §§1–6 逐字保留。
+
+
+## 8. 原 Gaussian 完整 profile 的有限 Kronecker gauge
+
+本节读取整个 centered profile，而不只上一节的 coarse 首项。
+仍保原 $\mathbf F_p$ Gaussian reference、$\delta$、$\beta_0$、
+$\lambda$ 和实际 Weil/circular-unit 系数 $b_{\omega^R}$。
+下文的两个核变量记为 $T,U$；它们是第1节同一个 additive
+formal parameter 的两份，不是新的 deformation 坐标。
+原 fine deformation 变量另记为 $t_*$，coarse 变量为 $z=t_*^2$。
+
+### 8.1 每一个合法非零 fine 项都来自有限低 band
+
+固定实际 $V_{\omega^R}\ne0$，$R$ 为偶数、$2\le R\le p-3$。
+R1071 §15 的 Lucas 消去与 Gaussian $\mu_4$ 共同说明：
+全部可能非零的非 constant 项恰在
+$$
+i=2h,\qquad 2\le i\le\min(R,p-R-1).
+$$
+这是一个允许范围，未声称范围内所有系数非零。置
+$$
+r=p+1-R-i,\qquad
+d=(p+1)R-i(p-1)=p(R-i)+R+i.
+\tag{1116.32}
+$$
+则 $r$ 为偶数，$2\le r\le p-3$；$R-i\ge0$，
+$r-1=p-R-i\ge1$，所有阶乘指标均小于 $p$。
+
+使用 (1116.26)，取 $D^{R+i-2}x$ 的
+$T^{p(R-i)}$ 系数。左侧原 Hurwitz 乘子准确为
+$$
+(d-1)(d-2)_{R+i-2}
+\equiv(R+i-1)!=\frac1{(r-1)!}\pmod p.
+$$
+最后等号用 $R+i-1$ 为奇数及 Wilson，
+并非在可能含 $p$ 的下降阶乘上作约分。
+
+右侧 (1116.12) 仍只有 $\nu=0$ 项能给一个 $p$ 倍指数。
+原 $\Psi$ 误差最低次为 $p(R+i)$，
+比目标高 $2pi\ge4p$。
+原参数或导数误差最早在 $T^{p^2-R-i-1}$，
+与目标的差是
+$$
+p^2-R-i-1-p(R-i)=p^2-1-d\ge4p.
+$$
+这里用 $R\le p-3$、$i\ge2$，故
+$d\le p^2-4p-1$。
+因此这些读取均由已付原短 carry 支持。
+
+由 (1116.8) 得完整高系数身份
+$$
+\boxed{\quad
+G_d=\frac{(r-1)!}{\delta^{r-1}}\,
+       [T^{R-i}U^{r-1}]\mathscr K(T,U).
+\quad}
+\tag{1116.33}
+$$
+所读核的总次数为 $p-2i=4(k+1-h)-1$，
+恰是原 $P_{k+1-h}$。
+所需 Hurwitz 总权 $p+1-2i\le p-3$，
+没有读取未知的总次数 $p$ 的下一 band。
+系数均在当前 $\mathbf F_p$ reference 上，
+所以此处去掉实际 $p$ 次方合法。
+
+### 8.2 全部原 factorial、regularizer 和相位
+
+R1071 (1071.20)、(1071.25) 中，
+原 $i$ 次系数为
+$$
+-\frac{m(p+1)}{\kappa_{\omega^R}b_{\omega^R}}\,
+ \beta_0^d\lambda^i A_d
+ \frac{\binom{d-1}{i-1}}i.
+$$
+在这里 $d\equiv2R\bmod p-1$，
+同一个原 division identity 给 $A_d=\kappa_{\omega^R}G_d$。
+实际 $\kappa_{\omega^R}$ 为单位；不引入其它 smoothing constant。
+又
+$$
+-m(p+1)=\frac12,\qquad
+\frac1i\binom{d-1}{i-1}
+ =\frac{(R+i-1)!}{i!\,R!}\quad\text{in }\mathbf F_p.
+$$
+与 (1116.33) 的 factorial 正好全部抵消，得到
+$$
+\boxed{\quad
+[t_*^i]\bigl(c_{\omega^R,s}(t_*)-c_{\omega^R,s}(0)\bigr)
+ =
+ \frac{\beta_0^d\lambda^i}
+      {2b_{\omega^R}R!\,i!\,\delta^{r-1}}\,
+ [T^{R-i}U^{p-R-i}]\mathscr K(T,U).
+\quad}
+\tag{1116.34}
+$$
+用核的对称性可以交换两个显示指数。
+本式对原 good 角色使用 $b_{\omega^R}^{-1}$；
+并未对一个 bad 角色作不存在的 global-unit 坐标归一。
+
+令
+$$
+w=\delta\lambda\beta_0^{\,1-p}t_*,
+\qquad
+N_R=\frac{(\beta_0^{p+1})^R\delta^{R-1}}
+           {2b_{\omega^R}R!}.
+\tag{1116.35}
+$$
+所有量都来自同一原 full-level/Weil 标记。
+这里不假设 $\beta_0$ 或 $\lambda$ 属于 $\mathbf F_p$，
+也不把 $\beta_0^{p+1}$ 私自改为一。
+只对已固定的 $\delta\in\mathbf F_p^\times$ 用
+$\delta^{p-1}=1$：
+$$
+\beta_0^d\lambda^i\delta^{1-r}
+=(\beta_0^{p+1})^R\delta^{R-1}
+       (\delta\lambda\beta_0^{1-p})^i.
+$$
+因此 (1116.35) 保留了完整原尺度。
+
+### 8.3 有限 exponential 的准确意义及唯一 principal 角色
+
+定义同一个有限核
+$$
+\mathscr K_{\le p-4}(T,U)
+ =T^{-1}+U^{-1}+\sum_{j=1}^kP_j(T,U).
+$$
+以下的 $e^{wTU}$ 只需指数 $i\le(p+1)/2<p$，
+即读有限和 $\sum_{i=0}^{p-1}(wTU)^i/i!$；
+没有在特征 $p$ 中使用无限 exponential 的未定义分母。
+
+令 $\mathscr M_w(T,U)$ 是
+$(e^{wTU}-1)\mathscr K_{\le p-4}(T,U)$
+的总次数 $p$ 部分。其完整表达为
+$$
+\begin{aligned}
+\mathscr M_w(T,U)
+={}&\sum_{h=1}^{k}
+ \frac{w^{2h}(TU)^{2h}}{(2h)!}\,P_{k+1-h}(T,U)\\
+&+\frac{w^{2k+2}(TU)^{2k+2}}{(2k+2)!}
+       (T^{-1}+U^{-1}).
+\end{aligned}
+\tag{1116.36}
+$$
+这是真正的对称齐次多项式，次数为 $p$，且为 $w^2$ 的多项式。
+第一行保留全部原低 band；第二行保留两个 principal terms。
+
+对偶数 $R$ 读取 $[T^{p-R}U^R]$ 时，
+第二行仅能落在
+$$
+R=2k+2=(p+1)/2=m+1.
+$$
+R1070 (1070.40) 已按原 Stickelberger 格证明
+$V_{\omega^{m+1}}=0$：
+其原 Jacobi 和 valuation 为 $+1$，
+而 $B_{2,\omega^{-2}}$ valuation 为 $-1$，
+二者乘积 $S_{\omega^{-(m+1)}}$ 是单位。
+所以这次 principal 项消失由真实角色缺席支付，
+不是形式地忽略极部，也不是因为该角色不在某个 chosen mask 中。
+
+### 8.4 整个原 centered profile 的单一核公式
+
+合并 (1116.34)–(1116.36)，对每个实际 good 角色准确有
+$$
+\boxed{\quad
+c_{\omega^R,s}(t_*)-c_{\omega^R,s}(0)
+ =N_R[T^{p-R}U^R]\mathscr M_w(T,U)
+ =N_R[T^{p-R}U^R]
+       (e^{wTU}-1)\mathscr K(T,U).
+\quad}
+\tag{1116.37}
+$$
+最后一个写法总是按 §8.3 的有限读取解释。
+因 $e^{wTU}-1$ 无 constant term，
+第一个未付的总次数 $p$ 的 $\mathscr K$ band 从未被使用。
+更高 band 也不能回流。
+对 $i=2$，本式逐因子恢复 (1116.29)；
+对 $R=2$，恢复 R1127 的原 affine unit。
+
+这是完整原 profile，不是任意同权替代源。
+其右边只含 $w^2$，因而与原 $z=t_*^2$ coarse descent 相容。
+R1071 的两条 Gaussian twist line 仍按同一
+$\beta_0,\lambda,b_{\omega^R}$ 一起运输；
+没有只保一个固定 fine line 的平方像。
+
+### 8.5 同一 sigma 的形式 gauge 与完整 Fay 约束
+
+在 characteristic zero 中置
+$$
+\sigma_w(t)=e^{wt^2/2}\sigma(t).
+$$
+直接有
+$$
+\frac{\sigma_w(T+U)}{\sigma_w(T)\sigma_w(U)}
+ =e^{wTU}\mathscr K(T,U)=:\mathscr K_w(T,U).
+\tag{1116.38}
+$$
+所以 (1116.37) 是同一个原 sigma 的形式 gauge 差。
+这只说明所读取函数的精确身份；
+不声称原非恒定椭圆 deformation family 与固定曲线全局同构。
+约化时仍只取 §8.3 的安全有限部分。
+
+同一 gauge 满足
+$$
+\mathscr K_w(T,U)\mathscr K_w(T,-U)=x(T)-x(U),
+\qquad
+\partial_w\mathscr K_w=TU\,\mathscr K_w.
+\tag{1116.39}
+$$
+第一式中的两个 exponential 准确抵消，符号仍由
+$T^{-2}-U^{-2}$ 定准。
+
+也可保留原 norm-two note 的全部相位。
+为免与 (1116.35) 的 source 单位 $\lambda$ 混淆，
+这里把 $1+i$ 另记为 $\alpha$，$\bar\alpha=1-i$。
+令 $\mathscr K_{Q,w}=e^{wTU}\mathscr K_Q$，$Q=(0,0)$。
+原线性及乘法分布逐项乘上 exponential 后成为
+$$
+\begin{aligned}
+\alpha\,\mathscr K_w(\alpha T,U)
+ &=\mathscr K_{iw}(T,\bar\alpha U)
+   +\mathscr K_{Q,iw}(T,\bar\alpha U),\\
+\alpha\sqrt{x(U)}\,\mathscr K_w(\alpha T,\alpha U)
+ &=\mathscr K_{iw}(T,U)\mathscr K_{Q,iw}(T,U).
+\end{aligned}
+\tag{1116.40}
+$$
+这里 $i\bar\alpha=\alpha$、$\alpha^2=2i$ 支付两个指数；
+$\mathscr K_Q$ 仍包含原
+$e^{-\zeta(Q)U}$ 和全部 square-root lower convolutions。
+先在 characteristic zero 比较，再对 centered finite part 约化。
+没有从乘法分布删去低 band 的乘积。
+
+### 8.6 精确后继问题
+
+(1116.37) 将所有实际 good 坐标放到一个固定核的有限 gauge 中。
+特别两个原 coarse 参数具有相同完整 good 标签，
+等价于该同一 $\mathscr M_w-\mathscr M_{w'}$
+在实际 $\mathcal G_p$ 指定位置的系数全为零；
+相差 sign 的 fine 参数本来代表同一 coarse 参数，必须先识别。
+
+目前没有证明这些指定系数不能同时消失，
+也未从 (1116.39)–(1116.40) 中删除全部较低乘积。
+R1128 的角色维数下界仍只给实际可用位置的数量。
+本节不把 complete profile、coarse 首项、原 bare、$f_N/e$
+或短 $\eta_k,\nu_k$ 互相替换。
+全文无数学程序执行。
+
+root 已全文独核 §8，回读 R1071 原 (1071.20)/(1071.25)/§15 及 R1070 (1070.40)：全部合法 i、Wilson/δ/circular-unit 因子、真实非Fp source相位、唯一principal缺席、有限exp和二同源w→iw均一致。无数学程序执行。

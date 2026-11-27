@@ -40,7 +40,7 @@ R1090/93、R1096/1101与R1102付同一原73维Hodge/MW整格、对数满格及�
 
 R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darboux因子与全部三阶jet carry；C=UD+V仅在明确W_C上半单，原U^m为唯一零列。每个实际列的relative Cartier读数e_ℓ给精确p−1系数；仍未付指定e/K4非同时零。
 
-[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§7扩至完整实际V：原Appell全1≤r≤p−3，good角色R首项读c_(p−R−2)=c_(R−2)，保全部尺度/常数/高尾。R1128高低pair读c_(2j−1)/c_(j−1)，R2与R1127单位斜率吻合；双支good mask共同零仍开，保全部低层乘积。
+[R1116](results/R1116-original-Gaussian-forced-tangents-and-Kronecker-band.md)§§7–8付完整实际Gaussian good profile：全短Appell/常数/高尾给原首项c_(p−R−2)=c_(R−2)，完整多项式为N_R·[T^(p−R)U^R](exp(wTU)−1)K。全部低band、Weil/δ尺度、两twist及principal极部保留；极部仅落实际缺席R=(p+1)/2。norm2准确w→iw，Fay保全低乘积；原双支good mask与全标签注入仍开。
 
 [R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)：原L=D²−2U在p维W上由全部Ψ零点的真实J_P对角化；零谱投影自动消失不证e单位。完整jet递推保−r(r−1)δ²J_(r−2)，e=0时K4是三项准确配对；原η_k=(16v²g0/(3δ))D_N(1)，g0为显式单位。ν及两指定读数非同时零继续，不能用完整Dixon反对称和替代。
 
