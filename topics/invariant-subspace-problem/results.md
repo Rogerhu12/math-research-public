@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整个J2碰撞原纤维完整排除](results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md)：两完整有限代数原R可逆，末48维真实QQ Delta²组合，合57个u全覆盖；原Q纤维无遗漏。
+
 - [整个J2的四同λ原式及三u因子完整覆盖](results/R150-appendix-unit211-entire-J2-original-norm-cross-three-u-factor-cover.md)：新固定13阶QQ结式给57个u候选，原O全Q4头已付，至多456规范三元组；整纤维返回继续。
 
 - [四位五位全独立正权出生一严格1/2](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)：全部支持与真正特征系数整数944ms返回，首末边同常数；S2和六位不外推。

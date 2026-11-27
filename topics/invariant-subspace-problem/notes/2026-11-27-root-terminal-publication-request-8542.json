@@ -1,17 +1,20 @@
 {
-  "message": "ISP: cover the entire J two collision fiber by three exact u factors and return original Q values",
-  "parentCommit": "8ec0d4e6efce0e731f3a30db67bb26694b531ba2",
+  "message": "ISP: exclude the entire original J two collision fiber and continue new whole-curve inputs",
+  "parentCommit": "be3d20e8598a377751247afc588415e3013b3df0",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-entire-J2-original-norm-cross-three-u-factor-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-original-norm-cross-three-factor-cover-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-original-pairs-and-three-u-factors-exact-input-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-three-entire-u-factors-original-Q-four-return-8542.py",
-    ".github/workflows/invariant-subspace-collision-j-two-finite-original-q-four-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-J2-three-original-u-factor-cover-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-entire-J2-complete-original-fiber-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-J2-entire-original-fiber-exclusion-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-G36-whole-Q-six-original-thirty-six-column-return-8542.py",
+    ".github/workflows/invariant-subspace-w-g36-whole-q-six-original-thirty-six-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-s2-ward-factored-cost-square-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-odd-hard-top-s2-one-projection-source-8542.md",
+    ".github/workflows/invariant-subspace-five-bit-s-two-ward-factored-square-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-J2-original-exclusion-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-entire-J2-original-exclusion-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +24,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-collision-j-two-finite-original-q-four-8542.yml"
+    "invariant-subspace-w-g36-whole-q-six-original-thirty-six-8542.yml",
+    "invariant-subspace-five-bit-s-two-ward-factored-square-8542.yml"
   ]
 }
