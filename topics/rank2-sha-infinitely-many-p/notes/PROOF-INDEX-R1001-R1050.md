@@ -435,3 +435,13 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 
 
 - 固定正权非零审计已由公开run46073583710/job140756005342真付：$p=227,u=1$，原degree102负槽的 $[z^{51526}]$ 与原S的 $[z^{51528}]$ 均在固定辅助65537下非零；完整椭圆/两个指数身份全PASS，故原 $R_{{\rm can},227}(226)\ne0$。源38d4107ce0fa11b0fdf5c99a6df6596d6c3c32f5、脚本/hash和完整推论见[审计§6](2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)。只付离散障碍的非零前提，不称目标p单位、augmentation或无穷p；实际toric比较继续待核。
+
+
+### 原两长一短厚理想与全角判别式（2026-11-27）
+
+[原森林§§16–18.1](2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)把同一三块实际化为 $(t^H,t^Kh^2,h^3)$，只剥显示 $t^rY^{m_0}$，保Euler电荷。通用判别式的一次项严格为 $-4c_0c_2^3\operatorname{Disc}Q_2$，故原点阶至少 $\min(2H',H'+3K')$。原全部68角帽给 $W=(b-1)(b+2m_0)$，若剩余判别式非零则
+$$
+\min(2H',H'+3K')+3\lceil W/68\rceil
+\le \lfloor11W/34\rfloor-r(2b-2).
+$$
+失败只强迫实际非边界重复因子，未排所有核；同一R的两carry、完整首次提升和真正第二余核Xi全部保留。低b例外明确，未以独立三次秩或新中央导数代替原三块。

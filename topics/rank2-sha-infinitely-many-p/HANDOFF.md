@@ -14,7 +14,8 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 - 最新两库实际部分clone/pull --rebase：只读CI run46069822587/job140743822950，source084913a27ff7cb01fa36c301f7f6965de16d2717。公开21:22:05UTC至084913a27ff7cb01fa36c301f7f6965de16d2717，较f044013487035c28f2c3e21494edf0494453495d两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
 - 私库21:22:09UTC至f8759bf1ee45ae74459d7f6e78af4cb114c0788b，较bca09f7f22dd54e77e0a7f1d47f525fbb9b5eec1两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
-- 本地07:20失联，21:21实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI/本地/API分别记。**下一两库实际pull不迟于22:22UTC**；每次只读两README新差异，立即照新规并记已读SHA。API比较不冒作pull。
+- 本地07:20失联，21:59实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI/本地/API分别记。**下一两库实际pull不迟于22:22UTC**；每次只读两README新差异，立即照新规并记已读SHA。API比较不冒作pull。
+- 21:59 fixed-p回执推送遇GraphQL UNKNOWN/main前进，已立即实际pull尝试但本地无环境，重比新父第二轮CAS成功1e2c2b；本次2201只读两库pull请求立即补拉，尚待回执。
 - 21:21低degree引理推送遇GraphQL UNKNOWN/main前进，本地实际pull失败后重比新父第二轮CAS成功be5f5e；本轮21:22 CI已补拉成功。规则15库存3119blob/43,883,386B、tree6d8aed3bab5ce4b57fbf70aeda9e380c43021f6e，无>5MB，三旧gzip必要输入SHA不变；完整回执hash在log，不落可重算日志。
 
 ## 唯一原完整厚几何执行
@@ -44,6 +45,9 @@ Kriz 6.21连续的是实际 $q_{\rm dR}^{1/p}$ 的flat族。7.20把它认作usua
 [sign/fulllevel/proper](notes/2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)：真实C:s⁶=t(1−27t)、V²=1−108s⁶、fΩ4=−δf4(τ/6)、严格Chow投影。g=P/full9列((1+ω)u9,(1−ω)u9)、+34、d9=τ0⁻¹；先Qτ/eA−再完整sign、18×2/η/Cor保齐。直接AJ(Yk)=p Inew/(p+1)及完整fixed-base Aout=(p²−1)Inew独立已付；不能用它命名flat端点。实际Artin基Bk=9Tk4/sk6、sk6=(1,−3154/15,4046/15)非零。
 
 ## 原矩阵及其它主门
+
+原forest§§16–18.1新增同三块厚理想及全角判别式：$P^\circ\in(t^{H'},t^{K'}h^2,h^3)$、$W=(b-1)(b+2m_0)$，平方自由时 $\min(2H',H'+3K')+3\lceil W/68\rceil\le\lfloor11W/34\rfloor-r(2b-2)$。失败仅迫非边界重复因子；同R/carry/Xi不删。新通用判别式与三外角已排重，旧R808的25−24分裂不重做。
+
 
 [三变量V](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)的稳定素簇/D-property、短primary根稳定及固定低degree Noetherian退出已付。[正特征forest](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)付正规化枝/cap/有限流/288退出/全交循环。只在H超过完整界排低轴核。薄X二次界保新的M□；§15已核旧R467显式二维界更强、R637原短三块满射范围优先，二维指数不另计新推进。继续原两长一短E-moments、实际同一首提升R与第二余核Xi，不能复制单位秩或添中央导数/乘积零。
 

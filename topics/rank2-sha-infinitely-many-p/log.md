@@ -319,3 +319,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 21:59 UTC：消费固定正权公开run46073583710/job140756005342（source38d4107ce0fa11b0fdf5c99a6df6596d6c3c32f5）的成功回执；21:57:33实际两完整source模辅助65537非零，p227/u1/n51526与51528、q8587/精度8588保持。全wp身份、34/102两个exp微分身份及两首项PASS，严格给原Rcan,227(226)非零。stdout1239B/SHA256 b74f221e90348e596670facaa5d0f0e868ee0e7c4351565d8ed477725ee8019f；joblog10040B/SHA256 4cdeb95d353a5131ad33e76ea7f5fe624d6c44c42cd41cd1495b54e5f4b7ef5d，均不保存输出文件。note§6.3只登记已付非零、run/hash及准确范围，实际连续几何比较仍待，不称书定理反例或无穷p。继续原bad点实际算子与原厚矩阵同R。
+
+
+- 2026-11-27 22:01 UTC：消费arithmetic追加稿e2c3ddd7035123d0af6e7e217b85b70f2b2a73da，原forest扩至§§16–18.1。root逐式核同厚理想/电荷、剥显示分类因子、通用判别式一次项、低b例外、W齐次权和三个分离外角；亲读R534(38)–(51)、R479(3)、R481(18)–(20)确认实际两carry及same R/Xi。已窄查既有H+3K/判别式，旧R467和局部double-contact不与本全角必要式重复；R808分裂沿旧结论不重算。完整note38178B/SHA256 4de02556e6ee6e471e20979e38061329b94c3228605cc1d2008c8da189635ae1。只缩小实际核形状，未排所有核或给全局严格斜率。另21:59 fixed-p提交ref出现UNKNOWN/main前进，立即实际本地pull失败（无环境），重比父后二轮CAS成功1e2c2bc；此commit同时触发2201两库实际CI pull，基线084913/f8759，补拉后只读README差异。无数学执行。
