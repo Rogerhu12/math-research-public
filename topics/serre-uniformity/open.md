@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-proper-Heisenberg.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-local-comparison.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -22,17 +22,11 @@
 
 [R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，由唯一Θ(3,5)的scaling控制；与Ξ(5,9)共享γ5的实际五维群给[M:Q]=(p−1)p⁵。§11共同cusp排除恰κΘ=0、κΞ≠0，密度准确1/p²，无额外门。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。
 
-[R1131](results/R1131-original-square-level-Eisenstein-lattice-and-odd-torsion.md)：原forced r=p−1−2j且B_(4j+2)、B_(p−1−4j)均unit时，Ca同素数DVR及trace理想BC=m付原秩二整格；实际偶cuspline锁非分裂方向0→ω^r→J[m]→ω^(1−r)→0。整个块Fricke+、奇K有理p∞全零；真实扭点域为K(β_(4j+2)^(1/p))，不是β_r。原规范整K₂[p]的ω^(2j+2)分量零。p1mod4至少五个块，p3mod8的j=(p−3)/8由二次类数无条件；其余块及真实cup/四阶cover仍开；常数角色另见R1132。
+[R1131–32](results.md)原高forced与低偶块的整DVR/Chen/Ohta/Fricke符号、odd-K扭点及指定整K₂消失各保原两Bernoulli门；r2须Bp−3，p7mod8指定r另由二次类数无条件。实际radical β_(4j+2)非β_r；全cusp平均仅把原规范格中已rational-zero关系整化，不代任意K₂/p杯积。
 
-[R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：完整Y=X_ns(p)的真实ω^(1−r)尖点线在w负部，full整p Chen及同素数DVR/唯一new秩二迫整个块w=−1；故原X_ns^+的该几何p-divisible块为零。准确范围：偶2≤r<(p−1)/2且B_(2r)、B_(p+1−2r)单位。r=2只需p∤B_(p−3)，因此原全尖点规范的Δ平凡未分歧整K₂[p]残余为零。仍须实际整类/tame/规范与cup接口，不代K₂/p或四阶cover。 R1132§8.1又付p7mod8的低偶r=(p+1)/4：两Bernoulli相同且由二次类数无条件为unit，原整块及规范K₂角色3(p+1)/4均零；仍非平凡角色，不删常数门前提。
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原primitive A+B=1的half norm恢复全部Vχ，actual Heis/class4 p⁵与Fourier交换齐备；cusp须四矩，Norm只给M0，p⁷纤维积的混合四阶仍零。四种p mod8的forced双指标、actual同Norm见证和proper/arithmetic继续。
 
-[原整单位关系与常数消去](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)：全未分歧K₂的angular specialization与全cusp平均扩到p∞；实cusps使even有限p-primary tame全零。原Tate leading为S-unit，e₀后平均经transfer到K₂(Z[1/6p])消零。因此p∤B_(p−3)时，原actual canonical unit符号格中已有理为零的平凡角色关系，准确在K₂⊗Z_(p)为零。实际函数/指数格与rational关系仍须给出，不除12p或将此当任意cup零。
-
-[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：实际坐标差A+B=1经half Cartan加权范数，以dχ(a)=Δ²χ(t²)|a−Δ²χ(t²)|2恢复每个原Vχ；完整leading/两个缺席边界和偶根数保证可逆a，不取12p幂。原杯积须保完整crossed Cor，常Lie中心读K₂/p的ω²，不是e₀整torsion。§9同一Norm见证给阶p⁵/class4真塔；cusp四矩全零 iff赋值向量∈(σ−1)^4，Norm只控制M0。§10用全部Fourier单位及λp精确相位识别交换槽的同一Heisenberg商，真纤维积给两独立三阶方向/p⁵及两极端四阶方向/p⁷；混合四阶仍零。四种p mod8已有forced双字母指标，原两角色同一单位Norm见证、跨轨道实际关系及proper/arithmetic下降仍继续。
-
-[原aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)：真实K₃残数给Ψc(P,Q)=c²{hcP,hcQ}−Σ_t Cor{hc(P+t),hc(Q−t)}的整三项式，含t0阶c²−1。原双权重首项为4c²κχκψ/m²·{Fχ,Fψ}；任何实际两角色可同选奇3≤c<p使κ均unit/aux field度p单位。原same-t相关mask及指定Manin组合仍待付；个别hc有Hodge权，只有augmentation乘积真权零。 §7以R_a(T)=∏(xT−xi)^ai与第二实际K₃把全部aux Cor精确移回原p点：𝒫=2c²{M_a,M_b}−2c⁴C_ab，C_ab=Σi<j(ai bj−bi aj){(xi−xj)/d0,hi/hj}。O归一/ψc leading/两次{-1,h}整消全保；原配置cross项仍须付，不等于杯积已零。
-
-[原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
+原aux-c K₃/Manin与跨line弦单位的全cross/degree/leading/ψ₂²均已付，指定mask相关与真正四阶未付。全部未删公式和条件完整见[本次前态](open-archive-2026-11-28-before-integral-local-comparison.md)，沿该处链接回对应notes；不再重作这些source身份。
 
 [R1136–40](results.md)原完整Manin来源、两种秩/J/transfer/Hecke与两个cross均已付。全部n>3,n≠p有 S_n=(4/m²)V_n{Fχ,Fψ}；F33门内付整个target unsmoothing，四阶原邻对未扩。原j1,k2有C¹=0、C²=16δ²C_Eis/21，β=β_E+β₈；p-isogeny两槽、真实degree-p norm与全cusp tame见R1140。原ε4=βχ2/(1−a⁻⁴)，v4=1/252，v8=1/132；旧窗口不重做。
 
@@ -45,6 +39,8 @@
 [R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)已无条件p>37指定原moment的canonical proper Heis来源：Md的完整H¹独立c→逐ℓ同frame共同vertical阶消去；中心Z的H²泛点单射与H¹0给p⁴² universal class2 lift唯一。原q_I^2/q_I^4/q_I^6的det twists及完整polar是真正群同态；2/3稳定子、所有real cusp的L7惯性、正则模型purity给全S0规范p³连通覆盖。未将曲线上其它中心twists设零；实际p-local中心差现在用这个指定来源，仍须读SS首项并付finite-étale/整p-adic接口，不能改用复解析E6/E10代读数。
 
 [R1147 §§8–12](results/R1147-original-canonical-moment-Heisenberg-lift.md)现付同一theta的唯一兼容整G_n/pro-p塔：primitive p^n点exact norm及正确Q-cor圆单位箭头；所有非单位a的φ(g)/g、相位+arith transfer全保。实际v_d∞=(1−p^d)B_(d+2)/(d+2)，第三槽修正21(1+p⁴)/11。全R_n HS/cyclic cup、Teich下降和全S0延拓均付，modp正好原P。Cartan仍先modp再pushout，不给I一个虚构T_pE提升；SS/crystalline与中心首项仍开。
+
+[R1147 §§13–15](results/R1147-original-canonical-moment-Heisenberg-lift.md)付同一原tower在good E/F的actual crystalline fibre：V/Z及dual(1) H⁰0、BK/Euler、unipotent Lang/central twisting完整。未分歧F上原43维stable格的幅14经FL及真正(s,v,z)→(s,a,b,h) quotient恢复同一modp Heis；至多二次tensor幅28安全。未升Cartan I、未套ramified full-level F，relative GM/Frobenius及SS粗参数首项仍待付；未刊pointwise criterion不直接消费。
 
 ### 原完整X_ns^+(47)与旧整K₂输入：已完成，只消费
 

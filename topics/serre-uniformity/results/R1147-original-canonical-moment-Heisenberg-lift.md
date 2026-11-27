@@ -645,3 +645,157 @@ $n=1$ 时 $\lambda_\infty\equiv21/11\bmod p$，所以 (1147.40) 准确回到 §3
 - R1138、R1144 与本篇 §§1–7：保持所有原 theta、full ordered vector、Tate basis 和 contraction 规范。新增 (1147.38) 是 $R_n$ 的完整 H² 身份，不只一个 rational identity 或 residue equality。
 
 无数学程序执行；未更改既成输入、Actions 请求或结果。新塔仍未给出 $p$-local 首项的实际非零性。
+
+
+## 13. 好约化点上同一 tower 的 crystalline fibre
+
+本节是逐点比较，允许 supersingular reduction。先令 $F/\mathbb Q_p$ 为任意有限扩张，$\mathcal O_F$ 为其整数环，$E/\mathcal O_F$ 为光滑 proper elliptic curve。将 (1147.41) 拉回这个实际点，反除 $p$，记
+$$
+H=T_pE\otimes\mathbb Q_p,\quad
+V=\operatorname{Sym}^4H(1)\oplus
+  \operatorname{Sym}^8H(1)\oplus\mathbb Q_p(5),
+$$
+$$
+Z=\operatorname{Sym}^{12}H(2)\oplus
+  \operatorname{Sym}^{8}H(4)\oplus
+  \operatorname{Sym}^{4}H(6),\qquad
+G=V\oplus Z
+$$
+并保持 (1147.39) 的同一个 bilinear 群律。记实际 fibre 为 $P_E$。
+
+### 13.1 线性 local 条件全部满足
+
+$H$ 是原 good elliptic curve 的 crystalline Tate module。这里以 de Rham filtration 的跳跃记 Hodge weights，故 $H$ 的两个 weights 是 $0,-1$。各 graded pieces 的范围如下：
+
+| piece | filtration weights | Frobenius Weil weight |
+|---|---:|---:|
+| $\operatorname{Sym}^4H(1)$ | $-5,\ldots,-1$ | $-6$ |
+| $\operatorname{Sym}^8H(1)$ | $-9,\ldots,-1$ | $-10$ |
+| $\mathbb Q_p(5)$ | $-5$ | $-10$ |
+| $\operatorname{Sym}^{12}H(2)$ | $-14,\ldots,-2$ | $-16$ |
+| $\operatorname{Sym}^{8}H(4)$ | $-12,\ldots,-4$ | $-16$ |
+| $\operatorname{Sym}^{4}H(6)$ | $-10,\ldots,-6$ | $-16$ |
+
+Weil weight 指 residue-field Frobenius 的复绝对值；对 $T_pE$ 使用 weight $-1$，并不把 arithmetic Frobenius 的点坐标约定混入此表。因而 $V,Z$ 以及 $V^*(1),Z^*(1)$ 均没有 Frobenius eigenvalue 一，特别
+$$
+H^0(F,V)=H^0(F,V^*(1))
+ =H^0(F,Z)=H^0(F,Z^*(1))=0.
+\tag{1147.42}
+$$
+这里 dual-twist pieces 的 Weil weights 分别是 $4,8,14$，全不为零。Local Tate duality 于是给 $H^2(F,V)=H^2(F,Z)=0$。
+
+对 $W=V$ 或 $Z$，Bloch–Kato exact sequence 与 local Euler characteristic 给
+$$
+\begin{aligned}
+\dim_{\mathbb Q_p}H^1_f(F,W)
+ &=\dim_{\mathbb Q_p}D_{\rm dR}(W)/\operatorname{Fil}^0
+     +\dim_{\mathbb Q_p}H^0(F,W)\\
+ &=[F:\mathbb Q_p]\dim_{\mathbb Q_p}W
+   =\dim_{\mathbb Q_p}H^1(F,W).
+\end{aligned}
+$$
+因此
+$$
+\boxed{H^1(F,V)=H^1_f(F,V),\qquad
+       H^1(F,Z)=H^1_f(F,Z).}
+\tag{1147.43}
+$$
+这个论证不使用 ordinary unit-root splitting。
+
+### 13.2 真实非交换 fibre 也是 crystalline
+
+$G$ 是 crystalline representations 的 Tannakian category 中的 unipotent group：其 coordinate algebra 从 $V^*,Z^*$ 的 symmetric powers 构造，群律是原 crystalline bilinear map。令
+$\mathcal D=D_{\rm cris}(G)$，$f$ 为 $F$ 的 residue degree。
+
+Sakugawa 的两个条件在这里可逐项核：
+
+1. **Non-neg。** Lie algebra 的 filtration weights 全负，所以 coordinate algebra 的 weights 全非负；
+$\operatorname{Fil}^0\mathcal O(\mathcal D_F)=\mathcal O(\mathcal D_F)$。
+而 $\operatorname{Fil}^0\mathcal D_F=1$。
+2. **Bij。** Lang map $x\mapsto\varphi^f(x)x^{-1}$ 是 polynomial isomorphism。先在 $V$ 解 $(\varphi^f-1)v$，再在 $Z$ 解 $(\varphi^f-1)z$ 加已知的二次项；两线性算子都由上表无 eigenvalue 一而可逆。
+
+此外，$G$ 及其 filtered-$\varphi$ 实现作为底域上的代数群都是 split unipotent；沿中心向量群逐次用 $H^1(k,\mathbb G_a)=0$，它们的普通代数 torsors 都有底域点。因此 Theorem 3.9 所需的 $\omega_{\mathbb Q_p}$-trivial 和 $\omega_F$-trivial 也满足（亦见原文 Lemma 3.1、Remark 6）。
+
+使用其 Theorem 3.9 的 **unipotent** 分支（Proposition 3.3(b)，不使用 ordinary 分支），有自然参数化
+$$
+H^1_f(F,G)\simeq \mathcal D_F(F).
+\tag{1147.44}
+$$
+Theorem 3.10 保持 central pushout 及中心作用。投影
+$\mathcal D_F\to D_{\rm dR}(V)$ 是满射，所以每个 $V$ 的 crystalline torsor 都有一个 crystalline $G$-lift。
+
+现在取实际 $P_E$。它的 abelian quotient 由 (1147.43) 是 crystalline。选上述 crystalline lift $P'_E$。两个 lift 的差来自 $H^1(F,Z)$；由于该群也等于 $H^1_f(F,Z)$，中心 twisting 保持 crystalline。故
+$$
+\boxed{\ P_E\text{ 是同一原 tower 的 crystalline }
+        G\text{-torsor。}\ }
+\tag{1147.45}
+$$
+这并未计算 $P_E$ 在 (1147.44) 中的坐标。它证明可以对这个实际 fibre 使用 crystalline comparison，且没有先换成另一个 rational torsor。
+
+## 14. 未分歧基域上的原整格与模 p Heisenberg quotient
+
+本节另假设 $F/\mathbb Q_p$ **未分歧**。不能在取得全 $p$-level 标记所需的 ramified field 上照用此假设。
+
+### 14.1 一个携带原 torsor 的有限维格
+
+令 $V_{\mathbb Z_p},Z_{\mathbb Z_p}$ 为 (1147.41) 的原格。定义
+$$
+W_{\mathbb Z_p}=\mathbb Z_p\oplus V_{\mathbb Z_p}\oplus Z_{\mathbb Z_p}.
+$$
+其秩为 $43$。$G_\infty$ 的 faithful affine representation 是
+$$
+R(v,z)=
+\begin{pmatrix}
+1&0&0\\
+v&I_V&0\\
+z&\mathfrak b_\infty(v,-)&I_Z
+\end{pmatrix}.
+\tag{1147.46}
+$$
+直接相乘给
+$R(v,z)R(v',z')=
+ R(v+v',z+z'+\mathfrak b_\infty(v,v'))$。
+因此这不是只在 associated graded 上的表示。
+
+选择 (1147.41) 的一个 fibre point，把实际 cocycle 记为 $c_\sigma\in G_\infty$。以
+$R(c_\sigma)$ 复合原 $V,Z$ 的 coefficient action，得到同一个
+$G_F$-stable $\mathbb Z_p$ lattice $W_{E,\mathbb Z_p}$。改变 point 只给由原 $R(G_\infty)$ 诱导的同构；原 affine hyperplane、flag 和 quotient maps 一并保留。
+
+由 (1147.45)，$W_E=W_{E,\mathbb Z_p}\otimes\mathbb Q_p$ 是 crystalline。它的 filtration graded pieces 是 $\mathbb Q_p,V,Z$，所以全部 weights 在 $[-14,0]$。这只是 **幅度 $14$**，不随 $p$ 或 $E$ 增长。
+
+### 14.2 Fontaine–Laffaille 恢复的是这个格
+
+对未分歧 $F$，Fontaine–Laffaille 的整比较在长度 $\le p-2$ 的区间内给出 crystalline stable lattices 与 strongly divisible filtered modules 的等价，并与 quotient mod $p^n$ 相容。以对偶约定将上述 filtration 区间改写为 $[0,14]$；因 $p>37$，它严格落在该范围内。于是 **实际**
+$W_{E,\mathbb Z_p}$ 对应一个 strongly divisible lattice，约模 $p^n$ 后恢复的正是原 $W_{E,\mathbb Z_p}/p^n$，而非任意选取的 isogenous lattice。
+
+精确格这一点可按原文的 finite-level 与 lattice 两步读：有限扭部分的 exactness/full faithfulness 见 Theorems 3.3、6.1，整格及其有限 quotients 见 §§7.14–7.15；Proposition 7.8 与 Theorem 8.4 接 crystalline rational realization。在短区间内，simple objects 的表示是 simple，故 exact fully faithful image 对 subobjects、quotients 关闭；由此在一个 strongly divisible lattice 的有界 $p$-power sandwich 中恢复任意同一 rational representation 的 stable lattice。这里保留原给定的格，不用一句 rational crystallinity 代替整比较。
+
+若原点还带有实际 $N_{\rm ns}(p)$-structure，§4 的 $q_I$ 及 $(a,b,h)$ 在模 $p$ 上是原 $G_F$-equivariant maps。它们给 (1147.46) 的真实 quotient
+$$
+(s,v,z)\longmapsto (s,a(v),b(v),h(z))
+ \in \mathbb F_p\oplus L_3\oplus L_5\oplus L_8.
+\tag{1147.47}
+$$
+(1147.17) 准确保证此线性 map intertwines 实际 twisted affine actions。它满射，且连同 affine hyperplane $s=1$、flag 及三个指定 graded lines，恢复的就是原
+$\mathscr Y_{\rm mom,E}$ 的 Heisenberg cocycle。
+
+因此 (1147.47) 可在 Fontaine–Laffaille 的有限扭范畴中读取同一个 quotient。它没有制造一个
+$I\in\operatorname{End}(T_pE)$：$q_I$ 只在最后的模 $p$ quotient 使用。所需的 bilinear structure 也保持在 short-weight 范围；(1147.46) 的至多二次 tensor relations 幅度至多 $28<p-2$，没有偷偷调用任意高 tensor power 的无界整比较。
+
+## 15. 此局部桥支付的范围与 primary
+
+现在已有三个严格分开的对象，并已支付它们的对应：
+
+- 同一 theta 的 compatible integral $\mathscr P_\infty$；
+- 每个 good elliptic point 上其 actual crystalline rational fibre；
+- 在未分歧基域上携带该 fibre 的原 stable lattice、它的有限 reduction 和 (1147.47) 的实际 Heisenberg quotient。
+
+这一步仍不声称已写出相对 strongly divisible module 的 Gauss–Manin/Frobenius 矩阵，也不声称某个 supersingular coarse disk 的中央首项是单位。逐点晶体性与实际相对 jet 是两项不同输入。特别，$\mu_3$ 特殊点的 coarse 三阶变化仍须在原全 coefficient system 中计算，不能由 ordinary $E_{10}=E_4E_6$ 的 fine 简单零直接替代。
+
+本节使用的已刊 primary：
+
+- S. Bloch、K. Kato，*L-functions and Tamagawa numbers of motives*，1990，[全文](https://virtualmath1.stanford.edu/~conrad/BSDseminar/refs/BKTamagawa.pdf)，Corollary 3.8.4、其后 (3.8.5) 与 local Euler characteristic（印刷355–356页）。本篇在 (1147.42) 逐项排除 H⁰ 和 dual-twist H⁰ 后使用其完整维数式。
+- K. Sakugawa，*On a non-abelian generalization of the Bloch–Kato exponential map*，*Math. J. Okayama Univ.* 59 (2017), 41–70，[全文](https://www.math.okayama-u.ac.jp/mjou/mjou59/_04_Sakugawa.pdf)，Definition 8、Proposition 3.3(b)、Theorems 3.9–3.10（印刷49、52、57–58页）。Non-neg、Bij 与 unipotent 条件在 §13.2 明确验证；特别不借 ordinary 条件。
+- J.-M. Fontaine、G. Laffaille，*Construction de représentations $p$-adiques*，*Ann. Sci. ÉNS* 15 (1982), 547–608，[正式全文](https://www.numdam.org/item/10.24033/asens.1437.pdf)，Theorems 3.3、6.1、§§7.7–7.15、Theorem 8.4：有限层、整格和 crystalline realization 的同一比较。§14 始终保未分歧底和幅度 $14$，不使用 ramified full-level field 的虚假 Fontaine–Laffaille 假设。
+
+本节没有数学程序执行，也没有给出一个未经计算的 local obstruction 值。

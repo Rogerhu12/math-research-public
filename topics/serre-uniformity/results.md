@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原整塔的逐点晶体性与精确有限格比较（已证明）**：[R1147 §§13–15](results/R1147-original-canonical-moment-Heisenberg-lift.md)付同一原tower在good E/F的actual crystalline fibre：V/Z及dual(1) H⁰0、BK/Euler、unipotent Lang/central twisting完整。未分歧F上原43维stable格的幅14经FL及真正(s,v,z)→(s,a,b,h) quotient恢复同一modp Heis；至多二次tensor幅28安全。未升Cartan I、未套ramified full-level F，relative GM/Frobenius及SS粗参数首项仍待付；未刊pointwise criterion不直接消费。
+
 - **固定权原圆单位：充分大p无条件非零（已证明）**：[R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，由唯一Θ(3,5)的scaling控制；与Ξ(5,9)共享γ5的实际五维群给[M:Q]=(p−1)p⁵。§11共同cusp排除恰κΘ=0、κΞ≠0，密度准确1/p²，无额外门。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。
 
 - **原规范来源的唯一兼容整塔（已证明）**：[R1147 §§8–12](results/R1147-original-canonical-moment-Heisenberg-lift.md)现付同一theta的唯一兼容整G_n/pro-p塔：primitive p^n点exact norm及正确Q-cor圆单位箭头；所有非单位a的φ(g)/g、相位+arith transfer全保。实际v_d∞=(1−p^d)B_(d+2)/(d+2)，第三槽修正21(1+p⁴)/11。全R_n HS/cyclic cup、Teich下降和全S0延拓均付，modp正好原P。Cartan仍先modp再pushout，不给I一个虚构T_pE提升；SS/crystalline与中心首项仍开。

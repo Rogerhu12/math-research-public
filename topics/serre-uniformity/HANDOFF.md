@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：ebdf38b0f0754f3a4760d1c52f638457b7b15bbd**（2026-11-28 06:56 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：780e051fa5828827fd818cf7fdd3dece25512b1b**（2026-11-28 06:59 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 06:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull已恢复：2026-11-28 06:21 Asia/Taipei，公开Actions run46076082440/job140764009178，在blob:none浅部分克隆中真实pull --rebase至fb9f91b6，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:10、真实pull≤07:21。本地06:18仍无环境；本地恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -28,11 +28,9 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)原L3/L5/L8的proper Heis p³、满几何像和全部cusps/ℓ≠p含2、3已付。B8给base中心H¹/H²0，每个global abelian pair唯一lift，p-local中心一维。曲线twists=J(K)[p]ω⁻⁷，B16/Bp−15门内删I8才全无。
 
-[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)无门选择规范原来源：全S0有限矩及中心Z的H¹0/H²泛点单射给唯一p⁴² universal lift，原q_I完整det/polar pushout。2/3 coarse、real cusp L7及purity齐备；未删曲线其它twists。global继续同一theta primitive p^n的兼容整moment tower与SS接口，不将复解析E6/E10代有限读数。
+[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)无门以全S0有限矩/Z的H¹0/H²单射给唯一p⁴²源及规范proper Heis，det/polar/2/3/cusp/purity全付。§§8–12原primitive p^n norm/Q-cor/phase与非单位轨道给唯一compatible塔，v_d∞=(1−p^d)B_(d+2)/(d+2)、修正21(1+p⁴)/11。§§13–15同一good E fibre全部crys；未分歧F原43维格幅14经FL准确恢复原modp四维Heis quotient。未升I、未给relative矩阵/SS首jet；global继续已刊theta/relative来源。
 
 [R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)在p>691付规范cover的真正cusp算术纤维：原Tate tangential整支撑、低偶权L2..14消失与q_h偶单项式杀余差，得c_h=φ_h(Ξ_5,9;14)，φ_h=(u_hx/2,u_h²y/2+kx,u_h³z/4+ku_hx²/4)。ℓ−1时κ=z−xy/2使self项全消，κcusp=u_h³κ14/4；同cusp条件是准确六次幂判据。γ5γ9非零门内（Bp−5/Bp−9单位足够）付逐global标签准确密度，并由纯weight14 vs全部target weight8给正密度同一ℓ排全部标签/全部cusps。未排affine、无小素界、不宣分母为空；失效门仍开。
-
-[R1147 §§8–12](results/R1147-original-canonical-moment-Heisenberg-lift.md)现付同一theta的唯一兼容整G_n/pro-p塔：primitive p^n点exact norm及正确Q-cor圆单位箭头；所有非单位a的φ(g)/g、相位+arith transfer全保。实际v_d∞=(1−p^d)B_(d+2)/(d+2)，第三槽修正21(1+p⁴)/11。全R_n HS/cyclic cup、Teich下降和全S0延拓均付，modp正好原P。Cartan仍先modp再pushout，不给I一个虚构T_pE提升；SS/crystalline与中心首项仍开。
 
 [R1148 §10](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)已用Soulé固定权定理消掉充分大p的global门：C_cyc=exp(9^(224·9⁴))，p>C_cyc时原ε4/ε8投影与单位因子精确匹配，γ5/γ9无条件非零并生成各H¹；Kurihara给γ3生成H¹L3。全部global pairs恰(aγ3,bγ5)，由唯一Θ(3,5)的scaling控制；与Ξ(5,9)共享γ5的实际五维群给[M:Q]=(p−1)p⁵。§11共同cusp排除恰κΘ=0、κΞ≠0，密度准确1/p²，无额外门。未宣localization unit，Bp−3/5/9的p-local门仍保；继续affine/有效辅助素和SS值。
 
