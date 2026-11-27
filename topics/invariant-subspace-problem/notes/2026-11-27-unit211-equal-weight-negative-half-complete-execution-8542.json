@@ -1,0 +1,49 @@
+{
+  "receipt": {
+    "schema": "isp-local-exact-execution-v1",
+    "sourceSHA256": "5063af65da86c69b5d89dfd595e5a885f5b16443edd4683097e0d84f61c52e33",
+    "startedUTC": "2026-11-27T06:11:10.967835+00:00",
+    "elapsedSeconds": 0.315394681005273,
+    "exitCode": 0,
+    "maxChildRSSKiB": 31272,
+    "stdoutBytes": 26070,
+    "stdoutSHA256": "63d526442a7b12058d6bee1b0a076c605ca3ab4f0358f9420cd00c129cb01cfa",
+    "stderr": "",
+    "runtime": "Python3.12.14/python-flint0.9.0",
+    "limits": "alarm180s/4GiB/one thread"
+  },
+  "stages": [
+    {
+      "stage": "new_equal_weight_entire_negative_half_original_return",
+      "m": "-1/2",
+      "originalNecessaryCofactors": 5,
+      "originalOneVariableDegrees": [
+        23,
+        29,
+        29,
+        29,
+        29
+      ],
+      "exactQQGcdDegree": 0,
+      "exactQQGcdFactorization": {
+        "content": "1",
+        "factors": [],
+        "entireProductMultipliedBack": true
+      },
+      "bezoutCoefficientDegrees": [
+        28,
+        -1,
+        22,
+        -1,
+        -1
+      ],
+      "allBezoutProductsActuallyVerified": true,
+      "allOriginalSixColumnAndTraceProductsVerified": true,
+      "allOriginalUnitsOnly": true,
+      "allOriginalPivotZeroFibresRetained": true,
+      "entireNegativeHalfWeightExcluded": true,
+      "ordinaryISPClaim": false,
+      "seconds": 0.2058324640020146
+    }
+  ]
+}

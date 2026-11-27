@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明：** [整个一般等权b=c原unit211分支为空](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。完整824次QQ覆盖的F236/F243已全返，最后整m=−1/2五cofactor以QQ Bézout1排尽，源5063af65实际0.315秒/exit0。一般剩余图可付ell−u，W0可付k+2与Q−2；不等权及普通ISP仍开。
+
 - [一般等权整个F236的原六行余子式排除](results/R150-appendix-unit211-equal-weights-entire-F236-original-cofactor-exclusion.md)：原行(0,1,2,3,4,7)完整cofactor保旧五行头零，51阶结式在1009与整F236保度Bézout1，系数857/235；源34014ec5实跑11.362秒/exit0，只余m=−1/2。
 
 - [一般等权整个F243权因子的原Gauss排除](results/R150-appendix-unit211-equal-weights-entire-F243-original-Gauss-exclusion.md)：真实NS*x原六列cofactor与C给52阶结式，1009下保度243/939的完整Bézout1排所有复根；源ae8dc73e实际14.574秒/exit0。只余(2m+1)F236，未扩大结论。

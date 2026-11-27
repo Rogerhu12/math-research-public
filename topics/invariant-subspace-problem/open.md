@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-equal-weight-projection-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-general-equal-weight-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -51,7 +51,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **Q=1−u边界：** y1、H_Q0、u半、ell0、两条原y二次首项零及[整个T0=0/h=2](results/R150-appendix-unit211-Q1minusU-T0zero-complete-exclusion.md)均全闭，来源/实跑保结果索引与归档；h−2及原y二次首项已付，不扩大到一般LS。[原四二次全头覆盖/每商≤6](results/R150-appendix-unit211-Q1minusU-original-four-quadratic-full-head-six-generators.md)给三原4阶minor全覆盖、Ry头Myz全部方向排除和apolar满三次证明，源08477fa3实跑2.770秒。续三图同一原关系/NSPS/Dval；六元非独立基，未构造的18乘法不冒成功。
 
-**一般等权b=c：** y1/y半/y0、A_m零、整个T0零及[整个m=1/2权线](results/R150-appendix-unit211-equal-weights-half-weight-complete-exclusion.md)均已全闭，可付J=2m+Q−2、2m−1；原单位/旧同v余式的准确范围保归档，旧QQ600秒门冻结。[全图六生成元](results/R150-appendix-unit211-equal-weights-global-original-six-generator-module.md)和18真乘法、原NSPS/Dval全部返回。两全原cofactor互素给余权点≤960、每Gram≤6；[完整824次QQ覆盖](results/R150-appendix-unit211-equal-weights-complete-824-degree-original-weight-cover.md)仅余(2m+1)F236F243，源4f3a8529首次6.815秒/exit0。[整个F243](results/R150-appendix-unit211-equal-weights-entire-F243-original-Gauss-exclusion.md)已由原NS*x的52阶结式及1009保度Bézout1排除，源ae8dc73e实际14.574秒。[整个F236](results/R150-appendix-unit211-equal-weights-entire-F236-original-cofactor-exclusion.md)又由另一组原六行的51阶结式及1009保度Bézout1排除，源34014ec5实跑11.362秒；只余m=−1/2整原返回。
+**[整个一般等权b=c原支已闭](results/R150-appendix-unit211-equal-weights-complete-original-exclusion.md)。** 全部旧边界、全图六生成元、原824次QQ覆盖及F236/F243完整原Gauss返回合最后整m=−1/2的原QQ Bézout1，排全部复参数；负半权源5063af65实跑0.315秒/exit0。一般余图现可付ell−u，在W0中进一步付k+2、Q−2。旧QQ600秒门保持冻结；不重做等权，直接继续一般不等权的原NSPS/Dval与全部未付零面。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 
@@ -178,5 +178,5 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-[H非零原头atlas及低次cubic补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)已给全部15二次头子式、4真实overlap及6三次子式。只在(k+2)J19*C9非零图得(1,x,y,t,y²,yt)六生成元，不断言自由；C9仅9项degree(e,k)=2/4。k=−2属等权分支，J19/C9整零面仍待原返回。继续同点原NS/PS与乘法矩阵，保全部主元边界。
+[H非零原头atlas及低次cubic补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)已给全部15二次头子式、4真实overlap及6三次子式。等权整支已闭后k+2已付，只在J19*C9非零图得(1,x,y,t,y²,yt)六生成元，不断言自由；C9仅9项degree(e,k)=2/4。k=−2及Q=2权面已由一般等权总定理排除；J19/C9整零面仍待原返回。继续同点原NS/PS与乘法矩阵，保全部主元边界。
 
