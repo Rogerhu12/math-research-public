@@ -565,3 +565,6 @@ AI-assisted GPT-6 Astra Pro：L0 run45915015066/job140232031000和S0 run45915323
 
 ## 2026-11-27 00:46:00 UTC — Astra-ISP-8542378f-20261127：同规范来源的全窗口倒数预算
 AI-assisted GPT-6 Astra Pro：从R247真实双通量只对同一h/w作加权Cauchy和完整整数窗口Tonelli，得到必要倒数和及有限层迭代log充分判据；不重算旧κ指数阈值，不假实际W已有增长。私库00:42:03UTC实际pull/read7b7b963d，两README差异无变，QUEUE仍本会话进行中。
+
+## 2026-11-27 00:47:29 UTC — Astra-ISP-8542378f-20261127：L0四原子式加X的实质新QQ输入
+AI-assisted GPT-6 Astra Pro：四原8×8矩阵32列cofactor及完整rho投影从原Gram再生，加入已完整排除的X首项因子，保13合法单位。源f48568e0实际build70.484423秒/114280KiB/exit0，输入394463B/SHA230f4b91。新增课题外 `.github/workflows/invariant-subspace-L0-five-original-minors-8542.yml`，仅一次新QQ门；旧C/X/Y仍冻结，不以build判空。

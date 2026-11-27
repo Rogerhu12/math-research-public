@@ -171,3 +171,6 @@ L0新[整X的lambda首项排除](results/R150-appendix-essential-four-unit-two-p
 
 
 [同一规范来源的全整数窗口倒数预算](results/R271-appendix-canonical-carry-window-reciprocal-energy.md)已付Σ||P≤n w||⁴/E_n≤4Aδ||w||²；非零W必有尾Σ1/E_n有限。可用实际不规则窗口或平方根乘有限层迭代log检验，但已有指数来源界仍不付倒数发散；继续同u的Γ与输出逆权。
+
+
+L0新[四个原子式与X的五曲线必要系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-original-minors-parameter-system.md)保32列原cofactor及13已付纯参数单位，完全替换旧高次Y门。源f48568e0实际build70.484423秒/exit0，三变量输入394463B/SHA230f4b91；只启动这一新QQ门，须真实I*cert=1，不以构造通过判空。

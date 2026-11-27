@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R150 L0四原子式与X的五曲线新QQ输入（2026-11-27，已证明输入）：** [完整32列原身份、13已付单位与新必要理想](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-five-original-minors-parameter-system.md)采用C39,53/C39,54/C40,53/C40,54及X34,52；旧高次Y输入冻结。源f48568e0实际build70.484423秒/114280KiB/exit0，三变量完整输入394463B/SHA230f4b91；只对新输入安排QQ1200门，暂无单位或一般L0排除。
+
 - **R271 同一规范源的全整数carry窗口倒数能量（2026-11-27，已证明）：** [原通量、完整窗口计数与不规则来源判据](results/R271-appendix-canonical-carry-window-reciprocal-energy.md)给Σ||P≤n w||⁴/E_n≤4Aδ||w||²，非零w迫尾Σ1/E_n≤16Aδ/||w||²。真实E_n有限，零值/扩展无穷均明确；平方根层增长可乘任意固定有限层迭代log。未将已有指数源界称最优，未证明实际W满足发散或Γ有限，未宣N=M。
 
 - **R12 实际共同gauge接口给闭平方根的全域分母（2026-11-27，已证明条件定理）：** [明确P=RQ、完整取伴随与全喷射返回](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)在同一闭C自伴稳定根与已付GR=RT+Q、单射R上逐域推出PH⊂DomT、TP=Y及Y²=λB^pP²；Q非零由根身份推出。奇p迫R/Q/P/Y全部平坦；R143最低非零行还给单射稠密分母，但其原二阶算子并无已付根身份。未知头像根的原空间、C域与实际gauge接口仍待证明。
