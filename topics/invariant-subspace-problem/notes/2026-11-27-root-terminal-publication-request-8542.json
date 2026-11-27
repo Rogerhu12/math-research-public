@@ -1,17 +1,15 @@
 {
-  "message": "ISP: construct a global monic physical lambda sextic in the original four-mean ideal",
-  "parentCommit": "a56aa66e343c5a31155469b0aef526a41f561a1f",
+  "message": "ISP: start the full same-Q original resultant ideal on the five actual P201 blocks",
+  "parentCommit": "52ec703c1a995c63c8af83175045c5de0c43e0f6",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-global-physical-lambda-six-characteristic-original-input-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-global-physical-lambda-six-characteristic-original-input-8542.py",
-    ".github/workflows/invariant-subspace-8542-w-global-physical-lambda-characteristic.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-global-original-physical-lambda-monic-six-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-global-original-physical-lambda-monic-six-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-P201-five-whole-Q-original-resultant-ideals-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-P201-five-whole-Q-original-resultant-ideals-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-h1-five-whole-q-original-ideals.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-five-whole-q-original-ideals-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +19,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-global-physical-lambda-characteristic.yml"
+    "invariant-subspace-8542-phi-h1-five-whole-q-original-ideals.yml"
   ]
 }
