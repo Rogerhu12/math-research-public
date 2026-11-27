@@ -1,0 +1,691 @@
+{
+  "schema": "isp-general-h-one-cleared-original-eight-values-success-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourcePath": "notes/2026-11-27-unit211-general-h-one-cleared-original-eight-values-8542.py",
+  "jobId": 140470355209,
+  "driver": {
+    "elapsed_seconds": 10.632351119999996,
+    "max_child_rss_kib": 156116,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "7a5c98b8e31f4e4596972d48c233ee6106a2dc5c",
+        "before": "7a5c98b8e31f4e4596972d48c233ee6106a2dc5c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T11:12:54.439798+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45988578719",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7a5c98b8e31f4e4596972d48c233ee6106a2dc5c",
+    "source_exit_code": 0,
+    "source_git_blob": "94e47ed8328fb55539c269cd7bb97c9765866f17",
+    "source_sha256": "e6dae4937592235db729031ae27ec14e3a3f747fcf648d2d3e66e81eeb1be0a2",
+    "stdout_bytes": 10612,
+    "stdout_sha256": "efa1fe565ec9ca9d2ee1a3f049714fd2ac35841aa9c247bc82649a649f07c227",
+    "stop_reason": null
+  },
+  "mathematicalRecords": [
+    {
+      "oldCoordinateSource": "R150 original U value atlas section 2.2",
+      "variables": [
+        "ell",
+        "lambda",
+        "rho"
+      ],
+      "PhiNeverInverted": true,
+      "originalDIdentity": "D=b*A2",
+      "originalMomentAndTwoLineProductsVerified": true,
+      "determinant": {
+        "numerator": {
+          "degrees": [
+            3,
+            20,
+            5
+          ],
+          "terms": 483,
+          "bytes": 12803,
+          "sha256": "63d03ac14472557e9f705babdc53c11e364d7e0b55a0fa588c90a61490aebf94"
+        },
+        "denominator": {
+          "degrees": [
+            0,
+            19,
+            1
+          ],
+          "terms": 20,
+          "bytes": 410,
+          "sha256": "d533820819633e96685b7c755852af23e495bdefc8d03c0637064bdc52f10e56"
+        }
+      },
+      "ellDegree": 3,
+      "determinantLeading": {
+        "numerator": {
+          "degrees": [
+            0,
+            5,
+            5
+          ],
+          "terms": 36,
+          "bytes": 534,
+          "sha256": "8a3e0ade79eaf7e4a6751f7d93d0b81abfcf904f01c3c2cff52dadef495e6637"
+        },
+        "denominator": {
+          "degrees": [
+            0,
+            4,
+            1
+          ],
+          "terms": 5,
+          "bytes": 57,
+          "sha256": "7da06c7b2fe6fd1cb50c668224aaaeae3f46596d2a5ef74bf26fa4505de98d1d"
+        }
+      },
+      "determinantLeadingEqualsMinus2SXiP5OverRho": true,
+      "noGeneralFiveCoordinateExpansionRerun": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_original_two_line_compact_input",
+      "seconds": 0.02795557999999687
+    },
+    {
+      "common": {
+        "degrees": [
+          0,
+          0,
+          0
+        ],
+        "terms": 1,
+        "bytes": 1,
+        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+      },
+      "remainingH0": {
+        "numerator": {
+          "degrees": [
+            3,
+            20,
+            5
+          ],
+          "terms": 483,
+          "bytes": 12803,
+          "sha256": "63d03ac14472557e9f705babdc53c11e364d7e0b55a0fa588c90a61490aebf94"
+        },
+        "denominator": {
+          "degrees": [
+            0,
+            19,
+            1
+          ],
+          "terms": 20,
+          "bytes": 410,
+          "sha256": "d533820819633e96685b7c755852af23e495bdefc8d03c0637064bdc52f10e56"
+        }
+      },
+      "remainingF0": {
+        "numerator": {
+          "degrees": [
+            4,
+            27,
+            6
+          ],
+          "terms": 950,
+          "bytes": 28883,
+          "sha256": "a65483d57cebe1a1aee80d10ba103405d82d1b3ed91c737aaf64eb7c253a43c5"
+        },
+        "denominator": {
+          "degrees": [
+            0,
+            25,
+            1
+          ],
+          "terms": 26,
+          "bytes": 594,
+          "sha256": "e20be92254c74590bc63ea3b264b6b5b87221a2de8be1c0d8ab579065a4ecda8"
+        }
+      },
+      "remainingT0": {
+        "numerator": {
+          "degrees": [
+            6,
+            39,
+            6
+          ],
+          "terms": 1825,
+          "bytes": 63511,
+          "sha256": "1f4e89913d357261c228df3582fe06e1aa7193dba1b966eb44f31e8de0dec33d"
+        },
+        "denominator": {
+          "degrees": [
+            0,
+            37,
+            1
+          ],
+          "terms": 38,
+          "bytes": 1015,
+          "sha256": "965c8f2dff61d00ed580a3ab76b4644e91ffd7bfe634f32373659cca6da0ae7e"
+        }
+      },
+      "fullThreeNumeratorProductsVerified": true,
+      "removedFactorDividesOriginalDeterminant": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_same_determinant_common_cancellation",
+      "seconds": 0.050649262000000306
+    },
+    {
+      "scale": "H=b*H0",
+      "originalF": "f0/H0",
+      "originalT": "t0/(b*H0)",
+      "originalH0DividesActualTwoLineDeterminant": true,
+      "allClearedGramEntriesUseOnlyPaidBaseDenominators": true,
+      "currentOriginalP1ExactlyZero": true,
+      "originalNVRetrievedByPaidAtlasAndActualMomentsAndTwoLines": true,
+      "fullOriginalNVExpansionNotRepeated": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_original_cleared_Gram",
+      "seconds": 0.5610278340000008
+    },
+    {
+      "name": "E1",
+      "scale": "H^2",
+      "before": {
+        "degrees": [
+          12,
+          80,
+          12
+        ],
+        "terms": 13429,
+        "bytes": 727770,
+        "sha256": "ee4849b10b8968cc00e9dc4f0d65bb168a0546a40074091768f413114b5eb028"
+      },
+      "after": {
+        "degrees": [
+          11,
+          74,
+          12
+        ],
+        "terms": 11458,
+        "bytes": 628568,
+        "sha256": "990a0856b3a93b0c3c211342b4ffb8203508dddbbc56e1d9cc62561a83c885fa"
+      },
+      "denominator": {
+        "degrees": [
+          0,
+          76,
+          2
+        ],
+        "terms": 77,
+        "bytes": 3291,
+        "sha256": "ca3b2ef43580c652e6220d0744b6288ab40df0f8a7966f901952d2cc6b14e7ae"
+      },
+      "paidRemoved": [
+        [
+          "b",
+          1
+        ]
+      ],
+      "completePaidProductVerified": true,
+      "ellDegree": 11,
+      "ellLeading": {
+        "degrees": [
+          0,
+          74,
+          12
+        ],
+        "terms": 961,
+        "bytes": 43510,
+        "sha256": "cac20316dac027092c2dac89e77b014b3dca9af5c9af502cd171578b4e193b6e"
+      },
+      "unpaidLeadingNeverInverted": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_individual_original_row",
+      "seconds": 1.0149278689999974
+    },
+    {
+      "name": "EB",
+      "scale": "H^2",
+      "before": {
+        "degrees": [
+          12,
+          78,
+          12
+        ],
+        "terms": 13058,
+        "bytes": 685470,
+        "sha256": "7a4c06207af88f00a2fc1981d72e2290bbc9ea2a9dd17f2fcd7f5e1119173cc4"
+      },
+      "after": {
+        "degrees": [
+          12,
+          78,
+          12
+        ],
+        "terms": 13058,
+        "bytes": 719770,
+        "sha256": "1a7f496218ce9e8b536ea70d6c5aadbc9127ac149b337d0fac81674733b65123"
+      },
+      "denominator": {
+        "degrees": [
+          0,
+          74,
+          2
+        ],
+        "terms": 75,
+        "bytes": 3120,
+        "sha256": "9ad10c7d529a6ccd1ec91ad0f0833219c3df38c3f3b12471124f0092ee453a12"
+      },
+      "paidRemoved": [],
+      "completePaidProductVerified": true,
+      "ellDegree": 12,
+      "ellLeading": {
+        "degrees": [
+          0,
+          78,
+          12
+        ],
+        "terms": 1001,
+        "bytes": 44484,
+        "sha256": "be58401bcf88f5460e46b738dc7722ec84dd0ffe7349037c28d85dd57712c69c"
+      },
+      "unpaidLeadingNeverInverted": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_individual_original_row",
+      "seconds": 1.2994235899999964
+    },
+    {
+      "name": "EC",
+      "scale": "H^2",
+      "before": {
+        "degrees": [
+          13,
+          84,
+          12
+        ],
+        "terms": 15160,
+        "bytes": 829003,
+        "sha256": "1b83444e1193140dd85f904e48778f95a0369c2987a2b39d61303699e505414e"
+      },
+      "after": {
+        "degrees": [
+          12,
+          78,
+          12
+        ],
+        "terms": 13059,
+        "bytes": 717508,
+        "sha256": "4294e6e596c098d25697d7d2d35b99859df5d5431830b9dc8d8bdf3c5f7ea9be"
+      },
+      "denominator": {
+        "degrees": [
+          0,
+          80,
+          2
+        ],
+        "terms": 81,
+        "bytes": 3537,
+        "sha256": "fcd833991deae713a15d26034397628b535b3cb4e4b86eda3b10b155e489e3db"
+      },
+      "paidRemoved": [
+        [
+          "b",
+          1
+        ]
+      ],
+      "completePaidProductVerified": true,
+      "ellDegree": 12,
+      "ellLeading": {
+        "degrees": [
+          0,
+          78,
+          12
+        ],
+        "terms": 1001,
+        "bytes": 44484,
+        "sha256": "be58401bcf88f5460e46b738dc7722ec84dd0ffe7349037c28d85dd57712c69c"
+      },
+      "unpaidLeadingNeverInverted": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_individual_original_row",
+      "seconds": 1.6410609759999986
+    },
+    {
+      "name": "N1",
+      "scale": "H^3",
+      "before": {
+        "degrees": [
+          18,
+          116,
+          18
+        ],
+        "terms": 41008,
+        "bytes": 2874586,
+        "sha256": "53d076e607bc55555c08ed9b68a5be192c76a5716e687063cc41448cab2387d5"
+      },
+      "after": {
+        "degrees": [
+          13,
+          84,
+          13
+        ],
+        "terms": 16106,
+        "bytes": 942454,
+        "sha256": "b07bd61b18f6b41a1aa21b94243533975e5587b502e21f2ed9e0e8c986513f42"
+      },
+      "denominator": {
+        "degrees": [
+          0,
+          111,
+          3
+        ],
+        "terms": 112,
+        "bytes": 6276,
+        "sha256": "e267faaa0a927f2f30ce504085fd28f5bc213435350545105cc574469f70847c"
+      },
+      "paidRemoved": [
+        [
+          "p",
+          1
+        ],
+        [
+          "b",
+          2
+        ],
+        [
+          "original_Delta",
+          1
+        ]
+      ],
+      "completePaidProductVerified": true,
+      "ellDegree": 13,
+      "ellLeading": {
+        "degrees": [
+          0,
+          84,
+          13
+        ],
+        "terms": 1162,
+        "bytes": 55791,
+        "sha256": "71aaecd5766f956936a8e5bb53ac1a888c20daab312f76f724ebf5730e5e736d"
+      },
+      "unpaidLeadingNeverInverted": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_individual_original_row",
+      "seconds": 3.8501554759999976
+    },
+    {
+      "name": "NB",
+      "scale": "H^3",
+      "before": {
+        "degrees": [
+          17,
+          113,
+          18
+        ],
+        "terms": 38245,
+        "bytes": 2645655,
+        "sha256": "e999ed59d4929b617463facc08bfbad4210d4cc0b945a8a892e937665875068e"
+      },
+      "after": {
+        "degrees": [
+          16,
+          107,
+          17
+        ],
+        "terms": 32344,
+        "bytes": 2284146,
+        "sha256": "ab612eb506862641ec71c1d46f9506438cc4315204377e109707896f26cbb009"
+      },
+      "denominator": {
+        "degrees": [
+          0,
+          107,
+          3
+        ],
+        "terms": 108,
+        "bytes": 5854,
+        "sha256": "b07f060868f758956d4d06b68ec58081ea317b2161419ac16a296150b199e2be"
+      },
+      "paidRemoved": [
+        [
+          "p",
+          1
+        ],
+        [
+          "b",
+          1
+        ]
+      ],
+      "completePaidProductVerified": true,
+      "ellDegree": 16,
+      "ellLeading": {
+        "degrees": [
+          0,
+          107,
+          17
+        ],
+        "terms": 1907,
+        "bytes": 106223,
+        "sha256": "47fdfd0961e95fad351329eecc12443d58416cba2e6cf6100d2fbd681ae2b576"
+      },
+      "unpaidLeadingNeverInverted": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_individual_original_row",
+      "seconds": 5.768457046999998
+    },
+    {
+      "name": "PB",
+      "scale": "H^3",
+      "before": {
+        "degrees": [
+          18,
+          117,
+          18
+        ],
+        "terms": 41775,
+        "bytes": 2951344,
+        "sha256": "3dcaeeca6c5b03fd523f31764ecb5e40e06680b3a21e1bc956002fbbaa95d60b"
+      },
+      "after": {
+        "degrees": [
+          18,
+          117,
+          18
+        ],
+        "terms": 41775,
+        "bytes": 3122604,
+        "sha256": "d0f9334472203f2926e205a97b8c061e1c7e2486051385b3d0447e7579a3fe53"
+      },
+      "denominator": {
+        "degrees": [
+          0,
+          111,
+          3
+        ],
+        "terms": 112,
+        "bytes": 6220,
+        "sha256": "9e29b80a41dec1dba7eb9b7dc54ac6fa0106598029d9f345698c553552bdb93e"
+      },
+      "paidRemoved": [],
+      "completePaidProductVerified": true,
+      "ellDegree": 18,
+      "ellLeading": {
+        "degrees": [
+          0,
+          117,
+          18
+        ],
+        "terms": 2185,
+        "bytes": 132034,
+        "sha256": "8b444bb815f6e0fe34487dce6edc98cfd4bf23a2f0784dc18df7ad5367820eaf"
+      },
+      "unpaidLeadingNeverInverted": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_individual_original_row",
+      "seconds": 6.981579756999999
+    },
+    {
+      "name": "NC",
+      "scale": "H^3",
+      "before": {
+        "degrees": [
+          18,
+          117,
+          18
+        ],
+        "terms": 41831,
+        "bytes": 2949221,
+        "sha256": "d0c5ba378f55a34e196dcee1e60b4e1ad42b70963e9927dbf61b677fedb0aa02"
+      },
+      "after": {
+        "degrees": [
+          17,
+          111,
+          18
+        ],
+        "terms": 37573,
+        "bytes": 2716680,
+        "sha256": "2fd669b485430369faf6cfc83d9680fa97fcf4248864e2fd338a54e0f5efb55b"
+      },
+      "denominator": {
+        "degrees": [
+          0,
+          111,
+          3
+        ],
+        "terms": 112,
+        "bytes": 6220,
+        "sha256": "9e29b80a41dec1dba7eb9b7dc54ac6fa0106598029d9f345698c553552bdb93e"
+      },
+      "paidRemoved": [
+        [
+          "b",
+          1
+        ]
+      ],
+      "completePaidProductVerified": true,
+      "ellDegree": 17,
+      "ellLeading": {
+        "degrees": [
+          0,
+          111,
+          18
+        ],
+        "terms": 2089,
+        "bytes": 121699,
+        "sha256": "ea6eb414b0e73545d80a893eadf71b903ca07973adf02f930464123f3509266e"
+      },
+      "unpaidLeadingNeverInverted": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_individual_original_row",
+      "seconds": 9.034610053999998
+    },
+    {
+      "name": "PC",
+      "scale": "H^3",
+      "before": {
+        "degrees": [
+          19,
+          123,
+          18
+        ],
+        "terms": 46261,
+        "bytes": 3377778,
+        "sha256": "915915c5ed729f382ff737257f08afd04f45f5ae3b13f73b219bc5e6a1714e80"
+      },
+      "after": {
+        "degrees": [
+          18,
+          117,
+          18
+        ],
+        "terms": 41775,
+        "bytes": 3123270,
+        "sha256": "0c17d9ebf43b047238f1b468db245de8b75ab67bdfe88c9c0437c4b5759516d5"
+      },
+      "denominator": {
+        "degrees": [
+          0,
+          117,
+          3
+        ],
+        "terms": 118,
+        "bytes": 6774,
+        "sha256": "58f74d331380d859e677deab5ba9620dc37c1882b0a0097fcff923ff1c1b398b"
+      },
+      "paidRemoved": [
+        [
+          "b",
+          1
+        ]
+      ],
+      "completePaidProductVerified": true,
+      "ellDegree": 18,
+      "ellLeading": {
+        "degrees": [
+          0,
+          117,
+          18
+        ],
+        "terms": 2185,
+        "bytes": 132034,
+        "sha256": "8b444bb815f6e0fe34487dce6edc98cfd4bf23a2f0784dc18df7ad5367820eaf"
+      },
+      "unpaidLeadingNeverInverted": true,
+      "claimExcluded": false,
+      "stage": "new_general_h_one_full_individual_original_row",
+      "seconds": 10.541276397999994
+    },
+    {
+      "sourceSHA256": "e6dae4937592235db729031ae27ec14e3a3f747fcf648d2d3e66e81eeb1be0a2",
+      "helperSHA256": "41459fea3ff0419d8c9230a2f6093cc0b1bc5f528b6f2d2e714a4469f11e5c3e",
+      "allOriginalMeansN1AndBothSingletonNP": true,
+      "oldCollisionParameterizationReused": true,
+      "secondCollisionByLabelInterchange": true,
+      "originalNonzeroConditionsRetained": [
+        "lambda",
+        "rho",
+        "p",
+        "q",
+        "A2",
+        "B3",
+        "S",
+        "b",
+        "c",
+        "u",
+        "u-1",
+        "Q",
+        "ell",
+        "u-ell",
+        "M",
+        "P02",
+        "T0",
+        "J-Q",
+        "u+Q-1",
+        "original_Delta",
+        "S",
+        "zeta",
+        "D",
+        "h-k"
+      ],
+      "noPhiInverse": true,
+      "noFiniteAlgebraNormInverse": true,
+      "chart": "general LS; (h-1)(k-1)=0; original two-line determinant nonzero",
+      "allEightRowsReturned": true,
+      "newParameterProjectionComputed": false,
+      "allDenominatorsOnlyLambdaRhoBase": true,
+      "baseDenominatorCount": 26,
+      "claimExcluded": false,
+      "ordinaryISPClaim": false,
+      "maximumChildRSSKiB": 153544,
+      "stage": "complete_general_h_one_original_cleared_eight_values",
+      "seconds": 10.544963158999998
+    }
+  ],
+  "oldCollisionParameterizationReused": true,
+  "claimExcluded": false,
+  "ordinaryIspClaim": false
+}
