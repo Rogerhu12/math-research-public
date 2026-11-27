@@ -184,4 +184,4 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[一般T0=0已闭](results/R150-appendix-unit211-general-T0-zero-complete-original-exclusion.md)。[一般J=Q的整H0线也已闭](results/R150-appendix-unit211-general-J-equals-Q-H-zero-complete-original-exclusion.md)，只在J=Q面可付H=2u+Q−2。** 八个固定原QQ行列式覆盖余P2后，末整个QQ2原48×35返常数1、40真逆，两根全排，源b0c075e7真实0.871秒/exit0；u=2/3四阶秩降点一并排除。剩余H≠0全三次源96222bdd实际0.575秒完成，接完整覆盖和真实原NSPS/D；整个J=Q及其它一般LS仍开。
 
-[原Haar解析理想像与强制来源发散](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)已证：任意非零Mz不变解析流形经同一g的原函数演算只给C_A(g)；真闭理想的实际Sobolev来源映射紧单射、像非闭，有限来源球到g有正距离，逼近g的源范数必趋∞。Rosenblum II正文现已实际取得并核相关定理；零点/ideal见证仍须构造，原边界只得closure B^k C_B(g)，不付N=M或未知闭根域。
+[Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [同向量非对称双幂的精确次数及Haar实际来源排除](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)：局部Gelfand–Hille自含证明给lambda奇偶精确d+2/d+1分类；所有非常数解析Haar单位化及伴随没有非零此种来源，保留紧扰动/Green接口。
+
 - [一般J=Q的整H0原权线完全排除](results/R150-appendix-unit211-general-J-equals-Q-H-zero-complete-original-exclusion.md)：全部原QQ覆盖合末完整QQ2的48×35常数1证书，40真逆/35列乘回，故本面可付H，保一般LS其它面。
 
 - [W三条原S一次式与二变量原消元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-centered-three-S-linear-original-elimination.md)：已付S²头、完整δ=D27×单位覆盖、18双侧adj积及两三次/一四次全部原迹；非零图同S双向返回，零曲线和NSPS未闭。
