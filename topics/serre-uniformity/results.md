@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1133（已证明，primitive单位方程与实际低cochain）**：[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：真实x坐标差给A_a+B_a=1；half Cartan加权范数的B槽准确为dχ(a)[Fχ]/m，dχ=Δ²χ(t²)|a−Δ²χ(t²)|2。实际k=2r mod(p−1)排0/2，偶多项式根数给每个原Vχ都有单位dχ；保全部leading/实下降，不取12p幂。full-level open上写出三步étale Heisenberg方程；原范数须保完整跨轨道Cor双和，proper/cusp/四阶仍开。常Lie中心经K₂/p读取为ω²，不能用e₀整torsion替代。
+
 - **原实际单位常角色关系整提升（已证明，纸面）**：[原整单位关系与常数消去](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)：全未分歧K₂的angular specialization与全cusp平均扩到p∞；实cusps使even有限p-primary tame全零。原Tate leading为S-unit，e₀后平均经transfer到K₂(Z[1/6p])消零。因此p∤B_(p−3)时，原actual canonical unit符号格中已有理为零的平凡角色关系，准确在K₂⊗Z_(p)为零。实际函数/指数格与rational关系仍须给出，不除12p或将此当任意cup零。
 
 - **R1132（已证明，完整Cartan负块及规范常数K₂消去）**：[R1132](results/R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)：完整Y=X_ns(p)的真实ω^(1−r)尖点线在w负部，full整p Chen及同素数DVR/唯一new秩二迫整个块w=−1；故原X_ns^+的该几何p-divisible块为零。准确范围：偶2≤r<(p−1)/2且B_(2r)、B_(p+1−2r)单位。r=2只需p∤B_(p−3)，因此原全尖点规范的Δ平凡未分歧整K₂[p]残余为零。仍须实际整类/tame/规范与cup接口，不代K₂/p或四阶cover。 R1132§8.1又付p7mod8的低偶r=(p+1)/4：两Bernoulli相同且由二次类数无条件为unit，原整块及规范K₂角色3(p+1)/4均零；仍非平凡角色，不删常数门前提。

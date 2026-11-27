@@ -1,0 +1,462 @@
+# R1133：原尖点 Kummer 坐标的 primitive 单位方程与 full-level Heisenberg 源
+
+日期：2026-11-28（Asia/Taipei）。
+会话：Astra-serre-24b8836b-20261126；global_route / root。
+
+**已证明。** 对每个 $p>37$，完整原曲线 $X=X_{\rm ns}^+(p)$ 的每个实际非零
+cuspidal $p$-torsion 角色，都能由一个具体 Weierstrass 单位方程的加权 Cartan
+范数，以模 $p$ 单位恢复。原函数不取 $12p$ 次幂；原整数指数、实下降、
+全部 cusp leading、同一个 Weil root 和 R1064 的无基点归一化均保留。
+
+在 full-level 开曲线上，同一单位方程还给一个写出全部方程和群作用的
+有限 étale Heisenberg torsor。本文没有将它称为原 proper $X$ 上的非交换覆盖：
+范数后的全部 crossed corestriction 项在 §7 明写；尖点、高层以及 coarse
+下降尚须另证。本文没有由单位生成或低阶 torsor 推出有理点排除。
+
+全文为纸面证明，没有数学程序执行。
+
+## 1. 原域、角色、整数指数与几何商
+
+固定
+$$
+K=\mathbf Q(\zeta_p),\quad F=K^+,\quad
+m=(p-1)/2,\quad G=\operatorname{Gal}(F/\mathbf Q).
+\tag{1133.1}
+$$
+沿用 R1062、R1064、R1070 的实际
+$$
+V=C_\Sigma[p]=U_p/pU,\qquad
+V_\chi\ne0,\qquad \chi=\omega^r,\quad r\text{ 为偶数}.
+\tag{1133.2}
+$$
+每个这样的 $V_\chi$ 恰一维。采用同一个非平方 $\delta$、原
+$\mathbf F_{p^2}=\mathbf F_p(\sqrt\delta)$、原实际 $p$-torsion 标记
+$z\mapsto P_z$ 和 Weil pairing $\zeta_p$。
+
+令 $G=\mathbf F_p^\times/\{\pm1\}$，选 R1064 的整数指数
+$$
+n_h\equiv m^{-1}\chi(h)^{-1}\pmod p,\qquad
+\sum_{h\in G}n_h=0.
+\tag{1133.3}
+$$
+记 $u_\chi\in V_\chi$ 为这些指数固定的原基，$[F_\chi]$ 为
+R1064 (1064.4)–(1064.5) 中的规范泛点 Kummer 类：
+若 $\widetilde u_\chi$ 是一个实际 modular-unit 代表，则
+$$
+[F_\chi]=
+\left[\frac{\widetilde u_\chi^{\,m}}
+ {A(\widetilde u_\chi)}\right]
+\in F(X)^\times/F(X)^{\times p}.
+\tag{1133.4}
+$$
+改变允许的代表或局部参数只改 $p$ 次幂，不能另选不明常数。
+
+在固定 Weil pairing 的连通 full-level 曲线 $Z=X(p)_K$ 上，
+$Z\to X_K$ 的几何 deck 群是
+$$
+D=(N_{\rm ns}\cap{\rm SL}_2(\mathbf F_p))/\{\pm I\},
+\qquad |D|=p+1.
+\tag{1133.5}
+$$
+这不是把整个 $\mathbf F_{p^2}^\times$ 当成几何 deck 群。
+范数一 Cartan 部分作用为 $z\mapsto tz$、$Nt=1$；
+另一个陪集作用为 $z\mapsto \alpha\bar z$、$N\alpha=-1$。
+因此 $D$ 在 $\mathbf F_{p^2}^\times/\{\pm1\}$ 上的轨道准确是
+$[Nz]=h$ 的完整纤维，各有 $p+1$ 个元素。
+
+这几个轨道上作用均自由：Cartan 部分只有已除掉的 $\pm1$ 能固定
+$z/\pm$；非 Cartan 元在二维空间的平方是 $-I$，不可能将非零 $z$
+送到 $\pm z$ 后再固定它。这里讨论的是 level 向量上的自由作用；
+不将 $Z\to X_K$ 在椭圆 coarse 点的分歧擅自删去。
+
+## 2. 实际 Weierstrass 单位方程
+
+对整数
+$$
+3\le a\le m
+\tag{1133.6}
+$$
+及非零 $P\in E[p]$，定义
+$$
+B_a(P)=\frac{x([2]P)-x(P)}{x([a]P)-x(P)},\qquad
+A_a(P)=\frac{x([a]P)-x([2]P)}{x([a]P)-x(P)}.
+\tag{1133.7}
+$$
+于是有实际函数恒等式
+$$
+A_a(P)+B_a(P)=1.
+\tag{1133.8}
+$$
+全部 $a,a\pm1,a\pm2$ 均非零模 $p$。对椭圆曲线，
+$x(Q)=x(R)$ 当且仅当 $Q=\pm R$；
+故 (1133.7) 中各个分子、分母在非 cusp full-level 开曲线上均不为零。
+这些函数是该开曲线上的实际单位，零、极点只可能在 compactification 的 cusps。
+
+一般 Weierstrass 变量替换的 $x$ 变化为 $x\mapsto v^2x+s$。
+两个差同时乘 $v^2$，所以 (1133.7) 不依赖模型或 invariant differential。
+又有 $A_a(-P)=A_a(P)$、$B_a(-P)=B_a(P)$，故采用 $P/\pm$ 无代表歧义。
+
+原标准 division polynomials 满足
+$$
+x([n]P)-x(P)
+=-\frac{\psi_{n+1}(P)\psi_{n-1}(P)}{\psi_n(P)^2},
+\qquad \psi_1=1.
+\tag{1133.9}
+$$
+因此
+$$
+B_a(P)=
+\frac{\psi_3(P)\psi_a(P)^2}
+ {\psi_2(P)^2\psi_{a+1}(P)\psi_{a-1}(P)},
+\tag{1133.10}
+$$
+$$
+A_a(P)=
+\frac{\psi_{a+2}(P)\psi_{a-2}(P)}
+ {\psi_2(P)^2\psi_{a+1}(P)\psi_{a-1}(P)}.
+\tag{1133.11}
+$$
+第二式也直接来自 Ward identity
+$$
+\psi_{a+2}\psi_{a-2}
+=\psi_{a+1}\psi_{a-1}\psi_2^2-\psi_3\psi_a^2.
+\tag{1133.12}
+$$
+例如 $a=3$ 时，原等式就是
+$$
+\frac{\psi_5}{\psi_4\psi_2^3}
++\frac{\psi_3^3}{\psi_4\psi_2^3}=1.
+\tag{1133.13}
+$$
+式中没有 $p$ 分母，也没有先把 Siegel 函数取 $p$ 次幂。
+(1133.9) 可由同一模型的 multiplication formula，或 Stange 已刊
+Lemma 3.5 的 $\wp$–$\sigma$ 公式直接得到；(1133.12) 是其已刊 Eq. (1)。
+
+## 3. 原 half Cartan 产品与严格实下降
+
+按同一实际标记定义
+$$
+\mathcal B_{a,\chi}
+=\prod_{z\in\mathbf F_{p^2}^\times/\{\pm1\}}
+ B_a(P_z)^{-n_{[Nz]}},
+\quad
+\mathcal A_{a,\chi}
+=\prod_{z\in\mathbf F_{p^2}^\times/\{\pm1\}}
+ A_a(P_z)^{-n_{[Nz]}}.
+\tag{1133.14}
+$$
+两者在 $D$ 下均严格不变，故属于 $K(X)^\times$。
+原复共轭的 determinant $-1$ 运输是 $z\mapsto\bar z$，允许同时加负号；
+(1133.7) 的代数式固定、范数指标不变、两个函数又都为偶函数。
+故严格有
+$$
+\mathcal A_{a,\chi},\mathcal B_{a,\chi}\in F(X)^\times.
+\tag{1133.15}
+$$
+这里没有 Siegel 根单位相位可任意删除。
+
+若 $z_h$ 是 $D$ 的一个轨道代表，则等价地
+$$
+\mathcal B_{a,\chi}
+=\prod_{h\in G}
+ \operatorname{Nm}_{K(Z)/K(X)}(B_a(P_{z_h}))^{-n_h},
+\tag{1133.16}
+$$
+另一个函数同理。这是 degree $p+1$ 的真实范数，每个轨道恰数一次；
+没有额外除二或除 $p+1$。
+
+改变 (1133.3) 的整数提升，差为 $p$ 倍、augmentation 仍零，
+所以 (1133.14) 只改变实际 modular unit 的 $p$ 次幂。
+本篇保持与 R1064 相同的提升，不将这些函数换成别的符号格。
+
+## 4. 精确恢复原 Kummer 坐标
+
+回读 R1070 §9 的全部非零向量乘积：
+$$
+M_c^{\rm all}=\prod_{z\ne0}\psi_c(P_z)^{-n_{[Nz]}},
+\qquad
+\kappa_\chi(c)=c^2-\chi(c^2).
+\tag{1133.17}
+$$
+该节对任意正整数 $c$、$p\nmid c$ 支付实际函数、偶数平滑、
+全部 leading 和共同 theta 常数；$c=1$ 取 $M_1^{\rm all}=1$。
+具体是
+$$
+[M_c^{\rm all}]_V=2\kappa_\chi(c)u_\chi,\quad
+[A(M_c^{\rm all})]=0,\quad
+[M_c^{\rm all}]=\frac{2\kappa_\chi(c)}m[F_\chi].
+\tag{1133.18}
+$$
+最后一个等式在 $F(X)^\times/F(X)^{\times p}$ 中成立，包括
+$\kappa_\chi(c)=0$。它由前两个式和原规范定义得到，
+不是只在某些点取值后才成立。
+
+这里共同 $\Theta$–$\psi_c$ 比较常数是对每个固定 $c$ 的 $\lambda_c(E)$，
+它在整个 $M_c^{\rm all}$ 中以 $\sum_{z\ne0}n_{[Nz]}=0$ 次幂出现并严格消去。
+不能在未形成完整原产品前逐因子任意删常数。
+
+由 (1133.10)，精确函数等式为
+$$
+\mathcal B_{a,\chi}^{\,2}
+=\frac{M_3^{\rm all}(M_a^{\rm all})^2}
+ {(M_2^{\rm all})^2M_{a+1}^{\rm all}M_{a-1}^{\rm all}}.
+\tag{1133.19}
+$$
+平方正是 half 与 all 的区别；偶数 $\psi_c$ 的负号已由 all-vector 源支付。
+
+置 $f_\chi(t)=\chi(t^2)$（$t\ne0$），并写
+$$
+D_\chi(t)=f_\chi(t+1)+f_\chi(t-1)-2f_\chi(t),\qquad
+d_\chi(a)=D_\chi(a)-D_\chi(2).
+\tag{1133.20}
+$$
+这里只在 $t=2,a$ 使用 $D_\chi$，没有把 $f_\chi(0)$ 当作字符值。
+直接展开有
+$$
+\kappa_\chi(3)+2\kappa_\chi(a)-2\kappa_\chi(2)
+-\kappa_\chi(a+1)-\kappa_\chi(a-1)=d_\chi(a).
+\tag{1133.21}
+$$
+核常数时，左侧整数平方部分准确为 $-1$，而 $f_\chi(1)=1$；
+两项共同给右式，不能单删其中一项。
+
+因为 $p$ 为奇数，(1133.18)–(1133.21) 给出
+$$
+\boxed{
+[\mathcal B_{a,\chi}]_V=d_\chi(a)u_\chi,\qquad
+[A(\mathcal B_{a,\chi})]=0,\qquad
+[\mathcal B_{a,\chi}]=\frac{d_\chi(a)}m[F_\chi].
+}
+\tag{1133.22}
+$$
+特别 $\operatorname{div}\mathcal B_{a,\chi}$ 为 $p$ 倍；
+可先由其平方的 divisor 为 $p$ 倍，再用 $p\nmid2$ 得到这一点。
+leading 式同样由平方的完整 leading 类为零推出。
+
+因此只要 $d_\chi(a)\ne0$，原全标签准确为
+$$
+\boxed{
+\Phi_y(u_\chi)=\frac m{d_\chi(a)}
+ [\mathcal B_{a,\chi}(y)].
+}
+\tag{1133.23}
+$$
+在 cusp 使用同一个去除 $p$ 倍参数的 leading 值。
+这保持同一个实际 $y$、同一 cyclotomic embedding 和所有原圆单位尺度。
+
+原 $A$ 范数也有完整公式。若
+$$
+e_\chi(a)=\kappa_\chi(a+2)+\kappa_\chi(a-2)
+-\kappa_\chi(a+1)-\kappa_\chi(a-1)-2\kappa_\chi(2),
+$$
+则
+$$
+[\mathcal A_{a,\chi}]=\frac{e_\chi(a)}m[F_\chi].
+\tag{1133.24}
+$$
+同一 $\chi$ 的这两个范数类共线；它们自身的 alternating cup 为零
+不会提供第二个独立 Kummer 方向。
+
+## 5. 每个实际角色都有可逆的单位方程
+
+由 R1070 §10，实际非零 $V_\chi$ 中既没有 $\chi^2=1$，
+也没有使 $\chi(t^2)=t^2$ 的边界角色。
+后者在 $p\equiv3\pmod4$ 时是实际缺席的 $\omega^{m+1}$，
+在 $p\equiv1\pmod4$ 时没有偶解。
+
+取 $2r\bmod(p-1)$ 的最小非负代表 $k$。于是
+$$
+k\text{ 为偶数},\qquad 4\le k\le p-3,\qquad
+f_\chi(t)=t^k\quad(t\in\mathbf F_p^\times).
+\tag{1133.25}
+$$
+令
+$$
+P_\chi(T)=(T+1)^k+(T-1)^k-2T^k
+-\bigl(3^k+1-2\cdot2^k\bigr).
+\tag{1133.26}
+$$
+它是偶多项式，
+$$
+\deg P_\chi=k-2,\qquad
+\operatorname{lc}(P_\chi)=k(k-1)\ne0\pmod p,\qquad
+P_\chi(\pm2)=0,
+\tag{1133.27}
+$$
+且 $P_\chi(a)=d_\chi(a)$。
+
+若 $d_\chi(a)=0$ 对所有 $3\le a\le m$ 成立，偶性连同 $\pm2$
+使 $P_\chi$ 在 $\mathbf F_p\setminus\{0,1,-1\}$ 的 $p-3$ 个元素上为零。
+但其次数至多 $p-5$，矛盾。因此
+$$
+\boxed{\text{对每个实际 }V_\chi\ne0，
+\text{存在 }3\le a\le m\text{ 使 }d_\chi(a)\in\mathbf F_p^\times.}
+\tag{1133.28}
+$$
+更精确地，坏的正代表至多 $(k-4)/2$ 个，所以
+$$
+\#\{a\in[3,m]:d_\chi(a)\ne0\}\ge\frac{p-1-k}{2}\ge1.
+\tag{1133.29}
+$$
+也可只查 $3\le a\le k/2+1$：若这个较短范围全为零，
+连同 $\pm2$ 已给 $k$ 个不同根，仍超过次数 $k-2$。
+这些都是纸面次数界，不是数值窗口。
+
+例如 $k=4$ 时，$P_\chi(T)=12(T^2-4)$，$a=3$ 给 $d_\chi(3)=60$，
+在 $p>37$ 为单位；这一例只说明相应角色出现时的源尺度，
+不声称该角色对所有 $p$ 都出现。
+
+由 (1133.22)、(1133.28)，选整数 $b_\chi$ 满足
+$b_\chi d_\chi(a)\equiv m\pmod p$，则
+$\mathcal B_{a,\chi}^{b_\chi}$ 是同一个 $[F_\chi]$ 的实际代表。
+所以这些明确 unit-equation 的加权范数恢复整个原 $V$ 的所有坐标，
+不只 forced 或 Bernoulli-good 子模块。
+是否有唯一全局标签仍按 R1069、R1128 的原条件处理，未被本篇替代。
+
+## 6. 显式 full-level 开曲线 Heisenberg torsor
+
+本节只在固定 $K$ 上的 full-level 开曲线 $\mathscr Y=Y(p)_K$ 工作。
+取某个 $a,z$，缩写
+$$
+U=A_a(P_z),\qquad W=B_a(P_z),\qquad U+W=1.
+$$
+两者都是 $\mathscr Y$ 上的实际单位，故已有整 Steinberg 关系
+$\{U,W\}=0$。下面给出与之相同的显式低 cochain，而不只引用 cup 为零。
+
+依次取
+$$
+\alpha^p=U,\qquad \beta^p=W,\qquad
+\gamma^p=\mathcal D(\alpha),\qquad
+\mathcal D(\alpha)=\prod_{i=0}^{p-1}(1-\zeta_p^i\alpha)^i.
+\tag{1133.30}
+$$
+在第一步代数中，
+$$
+\prod_{i=0}^{p-1}(1-\zeta_p^i\alpha)=1-\alpha^p=W
+\tag{1133.31}
+$$
+为单位，所以各个因子及 $\mathcal D$ 都是单位。
+$p$ 在基域中可逆，三步均有限 étale，总秩恰 $p^3$。
+
+定义保持原基曲线的三个自同构：
+$$
+\begin{array}{c|ccc}
+ &\alpha&\beta&\gamma\\ \hline
+\sigma&\zeta_p\alpha&\beta&(1-\alpha)\gamma/\beta\\
+\tau&\alpha&\zeta_p\beta&\gamma\\
+\nu&\alpha&\beta&\zeta_p\gamma .
+\end{array}
+\tag{1133.32}
+$$
+关键的完整等式为
+$$
+\frac{\mathcal D(\zeta_p\alpha)}{\mathcal D(\alpha)}
+=\frac{(1-\alpha)^p}{W}.
+\tag{1133.33}
+$$
+所以 (1133.32) 确保持三条方程。又由 (1133.31)，
+$$
+\sigma^p=\tau^p=\nu^p=1,\qquad
+\nu\text{ 中心},\qquad \tau\sigma=\nu^{-1}\sigma\tau.
+\tag{1133.34}
+$$
+例如 $\sigma^p(\gamma)=W\gamma/\beta^p=\gamma$。
+在每个几何纤维，先用 $\sigma,\tau$ 选定 $\alpha,\beta$，
+再用 $\nu$ 选定 $\gamma$，作用单传递。
+因此 (1133.30) 是实际阶 $p^3$ Heisenberg 群的 torsor，
+即使总空间不连通也成立。
+
+这一构造保原 $\zeta_p$，不需要取大幂或除以 $p$。
+它只证明 full-level open 上每个 primitive pair 的真实低阶提升。
+它没有证明 cusp 上无分歧，没有证明该非交换 torsor 的 coarse 或
+$\mathbf Q$ 下降，也没有证明原各范数坐标之间的 cup 为零。
+
+## 7. 原范数的完整交叉项
+
+令 $L=K(Z)$、$M=K(X)$，使用 (1133.5) 的真实群 $D$。
+对任意实际单位方程 $U+W=1$，$K_2$ transfer 的 projection formula 给
+$$
+\begin{aligned}
+\{\operatorname{Nm}_{L/M}U,\operatorname{Nm}_{L/M}W\}
+&=\operatorname{Cor}_{L/M}
+ \{U,\operatorname{res}_{L/M}\operatorname{Nm}_{L/M}W\}\\
+&=\sum_{d\in D}\operatorname{Cor}_{L/M}\{U,dW\}\\
+&=\boxed{\sum_{\substack{d\in D\\d\ne1}}
+ \operatorname{Cor}_{L/M}\{U,dW\}}.
+\end{aligned}
+\tag{1133.35}
+$$
+只删除了 $d=1$ 的实际 Steinberg 项。
+这个式子是整 $K_2$ 恒等式，没有除以 $|D|$，
+也没有将 $\operatorname{Nm}U+\operatorname{Nm}W$ 误写成一。
+
+加权范数更须保不同轨道。若在第 $h$ 个轨道取
+$U_h=A_a(P_{z_h})$、$W_h=B_a(P_{z_h})$，
+并用两组原整数指数 $n_h,n'_k$，则
+$$
+\left\{\prod_h(\operatorname{Nm}U_h)^{-n_h},
+       \prod_k(\operatorname{Nm}W_k)^{-n'_k}\right\}
+=
+\sum_{h,k}n_hn'_k
+ \sum_{d\in D}\operatorname{Cor}_{L/M}\{U_h,dW_k\}.
+\tag{1133.36}
+$$
+一般只能先删除 $h=k,d=1$ 的项。
+不同角色、不同 $a$ 的组合也必须保其完整双和；
+不能用各槽单独平滑可逆，推断平滑与 Manin row 混合交换。
+
+左侧按 §3 定义在 $F(X)$。
+式 (1133.35)–(1133.36) 在 $K(X)$ 中进行实际 field transfer；
+随后需要下降时，$[K:F]=2$ 是 $p$ 单位，restriction–norm 保原 $p$-primary
+信息，但不会自行杀掉右侧交叉项。
+
+## 8. 与实际后继目标的准确接口
+
+本篇完成了三个不同层次：
+
+1. 用实际 $x$ 坐标差给出 $A_a+B_a=1$，两槽均是原 full-level 单位。
+2. 完整原 $V_\chi$ 的每个坐标，由这些第二槽的加权范数以原尺度恢复。
+3. 对每个 full-level primitive pair，已给真正 Heisenberg torsor 的整方程。
+
+待付的是 (1133.36) 的原交叉项如何在指定关系中相消，
+以及所需 higher cochain、cusp 无分歧和原 coarse/arithmetic 下降。
+[R1132](R1132-original-full-Cartan-odd-cusp-and-constant-K2-torsion.md)
+与
+[整关系提升笔记](../notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)
+只能在一个**确已写出的实际符号组合具有有理关系**时消费；
+不能替代该关系，也不能由 integral torsion 消失推出任意 $K_2/p$ 类为零。
+
+还有一个 Tate twist 必须保留。
+若 $V_\chi$ 的角色是 $\omega^r$，其实际 Kummer 群角色为
+$\omega^{1-r}$。对一般常系数 $\mathbf F_p$ 的二次 obstruction，
+以 $K_2/p\simeq H^2(\mu_p^{\otimes2})$ 读取时对应的是
+$K_2/p$ 的 $\omega^2$ 分量；它不是 $e_0K_2$。
+因此四阶 Lie 常中心的形式权和，也不能直接用 R1132 的
+$\Delta$-平凡 integral torsion 结论完成。
+
+本篇没有新固定素计算，没有重开已闭合的 $p=47$ 链；
+一般 $p$ 的真实同点排除与四阶覆盖仍未完成。
+
+## 来源及审核
+
+- [R1064](R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)
+  §§1–4：原 $n_h$、真实基、$u^m/A(u)$、全 cusp leading 和函数域下降。
+- [R1070](R1070-original-cuspidal-labels-by-division-polynomial-values.md)
+  §§9–10：任意整数平滑的 all-vector 函数、共同常数抵消、
+  $\kappa=0$ 时的实际 $p$ 次幂、完整实际角色的两个缺席边界。
+- K. Stange, *Elliptic nets and elliptic curves*, Algebra & Number Theory
+  **5** (2011), 197–229, DOI 10.2140/ant.2011.5.197。
+  已刊全文：
+  https://msp.org/ant/2011/5-2/ant-v5-n2-p03-p.pdf 。
+  本文消费 Eq. (1)、Lemma 3.5 的实际除法/加法式及 §4 的代数同源；
+  原模曲线范数、角色多项式和整 Heisenberg 方程均在上文逐式证明。
+- $K_2$ 的 Steinberg、transfer 及 projection formula 采用原 Milnor/Quillen
+  field $K_2$，不以复解析 rational $K$ 群替代。
+  (1133.30)–(1133.34) 自行支付所需低 cochain，不另依赖存在性猜测。
+
+global_route 推导。o2_high_coefficient 已独立回读 R1070 并纸核
+Ward 方向、half/all 的二、$d_\chi(a)$、所有实际角色范围、根数证明，
+以及三步 étale 代数与 Heisenberg 群作用。全文候选交 root 精确复核。
+
+
+root 已全文回读 R1070 §§9–10 及 Stange 已刊 Eq. (1)、Lemma 3.5、Lemma 4.2，独立核定原 D 自由轨道、两槽 Ward 方向、half/all 与 leading、根数界及完整 Heisenberg 作用；与 o2 对精确候选的全文纸审一致。

@@ -407,3 +407,8 @@
 ### 2026-11-28 00:52 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原Tate normal-FM§13从有限局部Cartier/Wilson给Dε^p=HεDε，真实全族Ψε=Dε^(p−2)U及DεΨε=HεU−βε；O的p极/一阶极与一般a2留数抵消准确固定尺度，普通加律必须保M^p−HεM。
 - root/o1/o2全文逐式纸核；原方向δ′=0、H′=−δ/(6v)，固定U的6v·dotΨ=−δU²/V，在自然Vε基还须扣3v²UΨ/V²，准确回PΨ。未把这一实际primitive变分冒成原e/K4，继续高normal及crossed cochain；无数学执行。
+
+
+### 2026-11-28 00:54 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1133用原Weierstrass坐标差与Ward identity构造实际A+B=1，以dχ(a)=Δ²χ(t²)|a−Δ²χ(t²)|2和完整half/all/leading定标恢复每个原Vχ；实际两个缺席边界及偶多项式根数保证至少一个可逆a，无p幂平滑。
+- 原full-level开曲线三步有限étale代数给真实Heisenberg torsor和全部群作用；范数后的crossed Cor及跨轨道双和完整保留，最终常Lie中心的K₂/p角色ω²明确区别于e₀。root/global/o2精确全文及primary纸审，H/open/index同步，每条新结论立即推送；继续原指定pairs/高层与尖点下降，无数学执行。

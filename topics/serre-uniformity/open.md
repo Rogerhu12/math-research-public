@@ -24,6 +24,8 @@
 
 [原整单位关系与常数消去](notes/2026-11-28-original-integral-Manin-relations-and-cusp-constants.md)：全未分歧K₂的angular specialization与全cusp平均扩到p∞；实cusps使even有限p-primary tame全零。原Tate leading为S-unit，e₀后平均经transfer到K₂(Z[1/6p])消零。因此p∤B_(p−3)时，原actual canonical unit符号格中已有理为零的平凡角色关系，准确在K₂⊗Z_(p)为零。实际函数/指数格与rational关系仍须给出，不除12p或将此当任意cup零。
 
+[R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)：真实x坐标差给A_a+B_a=1；half Cartan加权范数的B槽准确为dχ(a)[Fχ]/m，dχ=Δ²χ(t²)|a−Δ²χ(t²)|2。实际k=2r mod(p−1)排0/2，偶多项式根数给每个原Vχ都有单位dχ；保全部leading/实下降，不取12p幂。full-level open上写出三步étale Heisenberg方程；原范数须保完整跨轨道Cor双和，proper/cusp/四阶仍开。常Lie中心经K₂/p读取为ω²，不能用e₀整torsion替代。
+
 ### 原完整X_ns^+(47)已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)证明原完整X_ns^+(47)(Q)恰为八个有理CM点，准确j表和原点身份保正文。R1072/1074的全235坏47盘、全10 good全局标签及283同点筛选，只余八盘；R1086的全4513标签含scalar/twists/cusps/R36零坐标，锁定同一CM点。R1074§9的whole-C47 tube和R1103§6.1付全部非q项，包含非整j与2/3；未另加整j、二次域或proper inertia假设。
@@ -42,7 +44,7 @@ R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job1405944
 
 ## O1：全p同一真实本原标签的临界非零
 
-[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–12已付同一实际Tate族的Verschiebung/Miller、全kerV截面、−Q刚化、自然奇源、完整H上的P/N连接和三平移；全部公式/相位/极界见原文，§8保Vε²约化补偿。§9排除全V₀上的低阶目标共轭，不排指定Um读数。§10全dot A及6v·dot A=A(Nf,g)−A(f,Pg)成立；原首normal×Picard一/四阶零，normal零阶unit。§11同一三挠覆盖的真实Prym商Y²=−(3x+ε)(x³+2v)给完整Hasse θ，每个ε^(3j+1)系数单位。§12以原exact differential及非零cup留数1/(9v)付真实rank2 Gauss–Manin和两规范Gauss解；θ恰为终止的ε·₂F₁(1/2,5/6;4/3;ε³/(54v))。一般period只用次数<p安全jets，首共振p+1不能越过。固定C的Picard变化离开三挠；原e/K4共同非零及normal-to-Picard桥仍开。 §13以有限local-Cartier/Wilson付Dε^p=HεDε和真实Ψε=Dε^(p−2)U，DεΨε=HεU−βε；普通加律保M^p−HεM。第一normal准确6v·dotΨ|U=−δU²/V，自然基还须扣3v²UΨ/V²，合为PΨ；高normal/Picard比较继续。
+[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–12已付原实际Tate族的Verschiebung/Miller、kerV、−Q刚化、自然奇源、P/N连接和三平移；相位/极界及Vε²补偿保原文。§9排除全V₀上的低阶目标共轭，不排指定Um读数。§10全dot A及6v·dot A=A(Nf,g)−A(f,Pg)成立；原首normal×Picard一/四阶零，normal零阶unit。§11同一三挠覆盖的真实Prym商Y²=−(3x+ε)(x³+2v)给完整Hasse θ，每个ε^(3j+1)系数单位。§12以原exact differential及非零cup留数1/(9v)付真实rank2 Gauss–Manin和两规范Gauss解；θ恰为终止的ε·₂F₁(1/2,5/6;4/3;ε³/(54v))。一般period只用次数<p安全jets，首共振p+1不能越过。固定C的Picard变化离开三挠；原e/K4共同非零及normal-to-Picard桥仍开。 §13以有限local-Cartier/Wilson付Dε^p=HεDε和真实Ψε=Dε^(p−2)U，DεΨε=HεU−βε；普通加律保M^p−HεM。第一normal准确6v·dotΨ|U=−δU²/V，自然基还须扣3v²UΨ/V²，合为PΨ；高normal/Picard比较继续。
 
 [R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及一阶解给原I_n递推与准确短Ramanujan和，原p=6m+5的截断m及PF最后强迫项全部保留。§6已完成真邻项桥：I_(n+2)来自(V−v)ν/(V+v)u的亚纯配对，完整相对Cartier/分部积分给I_(n+2)+I_n=3δ/4。因此旁单位只回旧C(Uω)，不再把它当独立K4入口；继续原三挠族变分及有边界的短和。run46015627853/job140561880424完整证书只消费。
 
