@@ -88,3 +88,6 @@
 
 
 - [原ψ4权二局部障碍和零点](notes/2026-11-27-original-weight-two-psi4-local-obstruction-and-zero-toric-point.md)：原ψ4的weight2候选已逐处核完：χ=ν17/ν4在2/3的GL2 toric Hom皆0，转到判别式6不定四元数后，完整Rankin因子为L(ψ4²/ψ17)L(ψ17)。前因子root−、原rank2后因子中央至少二阶零，Rankin至少三阶；CST一般GZ及正定Néron–Tate高度给所有实际χ toric点及其p-log为0。新type1 twist导子7803、方程x³+22717712与全部加性/制服元相位保留；这是排除该具体降权端点，不代derived斜率或原Sha结论。
+
+
+- [原ψ4/ψ17完整canonical双槽来源](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)：π4=AIψ4²、ηk=ψ17^k/ψ4的全finite角色与2/3/17 Hom已逐处付，positive槽严格是原S/H3/H5。新wild3向量3·1_Z3−1_(Z3/3)来自完整lattice两陪集；负源保两真实三挠Weyl/Gaussian并作δ拉回，得完整degree102多项式、首301056和实际幅度147/∛2。原n4(4,6)为真非零锚，n−2的root−只在∞墙改变，未误作经典非零周期。负槽coherent变量Ω0h∞T/δ及两个Gaussian区别全部保；新几何图fp/cross和同一斜率非零仍开。

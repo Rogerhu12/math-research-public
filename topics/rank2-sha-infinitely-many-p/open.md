@@ -171,3 +171,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### 原ψ4权二的正确四元数端点也为零
 
 [完整权二证明](notes/2026-11-27-original-weight-two-psi4-local-obstruction-and-zero-toric-point.md)已付实际2/3 Hom、B6与全Rankin至少三阶零；CST GZ迫该χ全部toric点=0，故不再尝试从此零阶点取得非零。继续π4=AIψ4²、positive=ψ17的实际weight3双核：须保新λcan有限角色、degree102两个Gaussian平移、δ^-n和qδ整gauge，给坏J_S′迫同一真几何斜率零，再证明该斜率在无穷p非零。复n4锚、接口或rank0辅助真空不能代此最后费用。
+
+
+### positive 槽已严格换回原 canonical S
+
+[新ψ4完整来源](notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md)已给实际finite/Hom、wild3两陪集、两个Gaussian Weyl词、degree102负源及精确147/∛2幅度。正权(4,6)非零锚与负二root−已按∞型墙区分。现在继续真正full2/full9、十八个degree17图的fp/cross，保coherent δ^-n以及qδ整gauge；旧full54比较不能直接移名。正槽S0=0必须保，故目标仍是同源权斜率，不能改为参考真空非零。
