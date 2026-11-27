@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [H1同Q原权商≤14、完整规范点≤504](results/R150-appendix-unit211-Phi-zero-H1-same-Q-fourteen-weight-cover-and-504-points.md)：保全部五块的Q4和三原λ结式元素，真实秩均3d；有限整矩阵给通用维数上界，14/252/504不同点界。五块均未全闭，原同λ继续。
+
 - [全余W三生成元：十五行精确原关系表示](results/R150-appendix-unit211-W-global-three-generators-exact-fifteen-original-relations.md)：四个二次矩阵缺陷字面落两comm行，一次15行闭包严格稳定；双向循环模同构精确等于同一六式商，不仅必要环境。同时记录首一λ6实际六系数成功。
 
 - [全余W：原四均值理想的首一物理λ六次](results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md)：同一六生成元乘法与adj给χ(λ)∈I4，无自由基底/轴矩阵交换/几何D逆；旧两个λ6在已付物理局部化中可无新逆降≤5。显式系数新源首次构建。
