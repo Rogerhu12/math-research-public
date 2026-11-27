@@ -50,3 +50,5 @@
 - [原核除子的完整降维方程](2026-11-27-original-kernel-section-finite-equations.md)：从原RR空间严格推出m=MH多项式及一个常数b，完整截面方程化为一个多项式恒等式；m零点、两坏端点、实际极数/分量/高度均返回原模型。单q11恰2662候选的公开输入已提交，尚未预记运行或解。
 
 - [原q11完整负回执](2026-11-27-original-kernel-section-finite-equations.md)：run45934797848实际完成原242个m/2662对，固定D11上解数0，只排该候选极除子；改用同Pic类的3P6=(7,1)三重除子，继续原方程，未外推一般不存在。
+
+- [R1021](../results/R1021-original-delta-new-rank-two-middle-sources-and-full-word-relations.md)：两条既有δ-new rank2来源准确来自uA=σ10y(X+4)、uB=σ10xy，完整三挠相位/degree30多项式/24字及(2/15)χ4·x/(X+4)比值已付。实际微分old两方向det−81，QB第四阶全部六项、11888/11860旧费用和三条非零质量补线全保；只给两raw canonical必要行，继续同窗primitive强迫。

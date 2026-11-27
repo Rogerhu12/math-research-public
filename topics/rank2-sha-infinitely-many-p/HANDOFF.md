@@ -6,10 +6,10 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `a145bbec0c1b24bf709c9bd86e7656703e68b11d`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `a926a703d13faf13907726ed445e81219380a5ed`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
-- [此次完整逐字归档](notes/2026-11-27-handoff-before-second-cartier-primitive.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
+- [此次完整逐字归档](notes/2026-11-27-handoff-before-delta-middle-sources.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
 
 ## 一、唯一原几何作业与真实公开回执
 
@@ -23,15 +23,7 @@ R982/983/R987/R993/R992全部旧门及新结论均真PASS。source5ce57788fdf943
 
 R959/R970–983已付固定E65/E65³/E260/E54925/E8125等rank≥2、全部有限角色/周期/全权平方及通常全群桥r+corankSha≤2ordJ。须无穷p至少一个真正canonical J′非零。F10/H/F11 old非零不是rank2 primitive；全22/66/81列、五伴随/mixed不得删。
 
-R957同整数像格/实商范数/全位严格门a+2b<3未付；ordinary先卷积后切总和unit。R960/R989同p6完整六块、a=pκ单位、八位输入两次真除p、前五项全精度、全部尾/Schur及ordered前缀均保。原H/E必须同实际点，完整Θ低卷积不由五个高log轴决定。R963–968 whole h/ρ/双W、补域H_cd/Pj/Rc及不同source projection均保；局部非零不代全中央。
-
-R985–1007完整旧门及source/run在逐字归档与结果中保留：全部Heisenberg/Miller/22伴随/mixed、两13核归一、同p6低项真实精度、K/C两exact+aZ、全七点及核残差非零不代中央。R1000五charge119真零只校准五轴，old检出L_p=O(p/logp)，严格全位a+2b<3未付。
-
-R1010单原K/C隔核权g6/g7准确下推到E2，T6π=13⁶T6,10(A7,p)，六次另减6Tr(c^p b)；c及norm完整付。C³真零，两exact首帽+60降+12/+14；原p6前五项/γ/840低卷积保持。固定Kummer13项/第一Cartier返实际tame字线，未赋新中央零。
-
-R1013全22平坦长窗已付π^n/O/E2/Cartier边界/两exact+aZ及完整三角返回；质量列E2帽末+1、第一Cartier帽不减一，V0=p(p−1)/2+ceil(C/2)。全Hurwitz尾/质量log/乘积后Π和原低项精度保持。
-
-R1012固定十三字的Miller/扭线/三轨道全乘积返回；双支真实伴线差3Δ125/4仍非零。R1015两显式下层为Ψ125=σ10x²(X−8)、q=σ10(X+1)，全部χ6/χ10、Gauss/Weyl和字归一保齐；乘子r=1/(4xx₂)、r(B)^3=(5+3δ)/2048及共轭支负号不得删。
+R957–1013全部旧门、精确式及source/run在逐字归档中保留：严格全位a+2b<3、同p6真实低项高精度、全部Heisenberg/Miller/22伴随/mixed、K/C两exact+aZ和全七点均未删。R1000五charge119真零只校准五轴，old检出L_p=O(p/logp)。R1010/1013完整长窗/Cartier边界返回不赋字零。R1012/1015固定下层Ψ125=σ10x²(X−8)、q=σ10(X+1)，全部χ6/χ10/Gauss/Weyl与r=1/(4xx₂)、r(B)^3=(5+3δ)/2048保齐；共轭负号和乘积后Π不得删。
 
 R1016原特征零V_N在全H≤s保N=H(p+1) jet及j_f−j_10,h−mass·logqπ∈p^(H+1)，M=7N/3+2增长、整trace/全Hurwitz尾/E2帽<p³保持。§9完整两gauge/短band和端点p次退化已付。
 
@@ -40,6 +32,8 @@ R1018取H*=6floor((s−5)/6)+5≈p/6，在p>13⁴时≥L_p且V_N modp准确单W^
 
 
 R1020同一全22 target的第二Cartier准确返回：先只去原O留数ρ_b，ν1=Cη0、ν2=C²η0均O正则。全局S0(uω)=u^pφ、φ=−3xω/[c_p(X+1)]，第二层整个Z<p窗只见(f2(O))^pφ，且仅b≡5mod6可有该scalar；原aZ只在b≡1。真实K0∈F/F^p帽≤p²+1。取J_H=Σ_{n<H}a_nZ^(n+1)/(n+1)、φ_H=φ−dJ_H从H+5起，全部b及非diagonal读者t_rp+b=(−ρ_b^(1/p)[Z^(r−1)]r0+r[Z^r]K_H)^p。K_H−K0=[f2^pJ_H]，帽p(d2+H−1)−1，全部旧β/α边界按(31)保留；EH=1−S_H C后再D⁻¹吃完整first-C等式，不交换C/连接或偷删第一primitive。
+
+R1021两条原E54925/E8125 rank2来源已完整还原：uA=σ10y(X+4)、uB=σ10xy；原odd3算子Do给FA、(15/2)QB，完整degree30多项式及C3相位已付。全24字保sχ6/sχ10，真实whole比为(2/15)χ4·x/(X+4)。Π2,0∇³q=120uA、Π2,1∇uB=10q/3、∇uA=4Ψ+5Ψ00，与四阶65/61的det−81。QB完整四阶六项保三条非零质量补线；old部分准确(8/c*)Dδ[11888Φ*+(11860ω/18480)Ψ27462500]，可接R1022全precision同窗。新增必要行仅两raw canonical j=0，不向24字、连接或primitive传播零。
 
 ## 三、几何与固定最高循环
 
