@@ -166,3 +166,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### 两个 dyadic 块现已在同一个几何比例内
 
 实际(v_+,2/8/14)的逆η、3+√3范数、全部17向量与CM13逆根已锁；B′严格取同full54的17δT′5/9，保原绝对相位和Artin线。新三正真空与旧三条在同一个finite算子/共同cover下给跨全部六条的I_i B_lK_l0=I_l B_iK_i0；一K单位及原好整格范围才有同F单位、barF=−432。真正零质量组合的权斜率为(p−1)FΣb_iB_i(K_i′+K_i0Jβ_i′)，beta项完整保。R614全addition整窗进一步给该除p斜率的完整两系数式(27b)，没有新数学运行；原heat-flat仍D²S/68，不从CM质量零或六线比例取得canonical坏forcing。 后继转向让positive槽本身等于原ψ17的实际有限来源，保其零真空与第6槽；旧β27的单位真空不适用于该输入。原全六维补项及其beta费用不再是未指定接口。
+
+
+### 原ψ4权二的正确四元数端点也为零
+
+[完整权二证明](notes/2026-11-27-original-weight-two-psi4-local-obstruction-and-zero-toric-point.md)已付实际2/3 Hom、B6与全Rankin至少三阶零；CST GZ迫该χ全部toric点=0，故不再尝试从此零阶点取得非零。继续π4=AIψ4²、positive=ψ17的实际weight3双核：须保新λcan有限角色、degree102两个Gaussian平移、δ^-n和qδ整gauge，给坏J_S′迫同一真几何斜率零，再证明该斜率在无穷p非零。复n4锚、接口或rank0辅助真空不能代此最后费用。
