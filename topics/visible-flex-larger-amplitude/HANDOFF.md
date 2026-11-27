@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 00:31:37 UTC，真实pull/rebase至 `5f32be0b6e6f8e94490767704055d865423529ad`，双README相对`fe14c04db05cc232d633af31ee694cd902b87ad9`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
+最近规则核查：2026-11-27 00:47:35 UTC，真实pull/rebase至 `49ab50a5af34682581abc32d11de744bd5a1246d`，双README相对`680bd5df1454ff1961846894e3fc5cd771f1d6d4`无差异，继续遵守全部规矩。私库QUEUE接手已实际推送 `e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`；私库根README相对85fdf185无差异。
 
 科学计算仅本公开仓库Actions；执行偏差见[早前记录](notes/2026-11-20-public-actions-execution-correction.md)及[四次大JSON整读纠正](notes/2026-11-26-large-file-connector-read-correction.md)。root唯一分支写者；结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner，不入Git/Release/artifact；保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单文件<5MB、MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI。终端失联与恢复/云API普通快进记录保7774固定H；旧scratch迁移未确认，不冒恢复。
 
@@ -29,13 +29,13 @@
 
 旧deep/Haar/R690–695/误差链见固定H及results/notes，不迁证；01止77、旧03 stage7未知。
 
-[05实际17/18](notes/2026-11-26-run05-actual17-18-fixed-normal-height-initial-failure.md)：efe12015只改cd530原初H，m32完成29/第30失败、reporta89f22，原endpoint未复读，无场/Phi。八历史已消费；seed19的九真实前驱齐，完成阶段数量不冒度量改善。
+[05 actual17/18](notes/2026-11-26-run05-actual17-18-fixed-normal-height-initial-failure.md)单H字efe12015，m32完成29/30失败，无F/Phi；九真实前驱与全部失败责任保固定H，完成阶段数非度量改善。
 
 ## 已刊工具与未付目标
 
 [R709](results/R709-global-convex-mean-closure-without-contraction.md)完整凸均值正根/两角jet已证；[原固定seed九全源入口](notes/2026-11-26-fixed-supported-unit-reference-normal-SO3-entry.md)已排05，全部九历史/原全变量/m32保，未返首场；均值J不迁证normal Cu。
 
-[R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，QR49a1限234ac/7f未跑；全922胞/尾/浮点/隐式费用及同g真实精化未付，其他完整工具保固定交接/results。研究未完成。
+[R700](results/R700-integral-so3-full-sixjet-control.md)限固定M/正rho，旧QR49a1限234ac/7f未跑。[新场全时连续几何合同](notes/2026-11-27-new-envelope-full-phase-continuous-geometry-contract.md)明确原hΔ全六jet、同D+/K/支撑/握持共读：R248仅活动像归约，固定R661帽需同A的R650或全mixed pair；旧6077无平面证明不能迁。有限E/帽标量不冒完整装配或连续证书，全部真实费用/精化仍欠。
 
 [R710](results/R710-supported-unit-seed-complete-angular-jet-error-bounds.md)/[R713](results/R713-exact-smooth-triangle-moments-and-actual-fees.md)及[完整581fb总均值producer](notes/2026-11-26-accurate-supported-seed-total-mean-fee-producer.md)条件费用链已刊；[centered两完整fee源](notes/2026-11-26-R715-centred-seed-fee-source-adapters.md)ded2/7596未跑，[cached完整fee](notes/2026-11-26-R714-R715-cached-centred-seed-fee-source-adapters.md)a7f1/62cb严格绑定3803。实际全角/积分尾/三角/舍入/节点/normal与六jet费用未付，不把未跑plain当门。
 
