@@ -1,0 +1,1169 @@
+{
+  "schema": "visible-larger-retention37-eight-actual41-download-receipts-v1",
+  "date_utc": "2026-11-27",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "Prepared for root ordinary Git retention; this preparation does not delete files or update any reference.",
+  "authorization_scope": "Exactly the eight administrative compressed download/extraction receipts listed below. All scientific sources, original requests, parameters, inputs, and other results are retained.",
+  "fixed_restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+  "fixed_restore_tree": "c0f68111459789a8be58cd9377ba312eccf5a87f",
+  "object_count": 8,
+  "total_removed_file_bytes": 1663643,
+  "hash_scope": {
+    "receipt_gzip_sha256": "null means no existing whole SHA-256 was obtained from the bounded small records; not recomputed and not inferred.",
+    "raw_receipt_sha256": "null; no receipt JSON was decompressed or read.",
+    "git_blob": "Exact existing Git object identity from directory metadata at fixed_restore_commit.",
+    "source_sha256": "Computed only for complete small text source, workflow, request and explanatory note files actually fetched.",
+    "archive_sha256": "Original pinned ZIP identity from the complete adapter and historical workflow; distinct from receipt hashes."
+  },
+  "original_archive": {
+    "run_id": 43622149326,
+    "run_attempt": 1,
+    "job_id": 132530011605,
+    "source_commit": "0beffe5a963015a4063a8c53d4a92fec32205005",
+    "artifact_id": 14124209116,
+    "artifact_name": "visible-mainline-rawcell0steps-43622149326-1",
+    "expected_size": 349636774,
+    "expected_sha256": "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+    "canonical_metadata_endpoint": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14124209116",
+    "canonical_archive_endpoint": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14124209116/zip",
+    "current_remote_availability_checked": false,
+    "current_remote_availability_required_for_retention": false,
+    "source_of_pin": {
+      "role": "interface",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-pinned-actual41-artifact-fetch-interface.md",
+      "bytes": 3367,
+      "sha256": "49edc5c2bfc27928e2e32a9321595c888171d2ce023bf50834f1525c12a4fd76",
+      "git_blob": "d85ecd7d6547b861c541e9de49b05552d4368f3c",
+      "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142"
+    }
+  },
+  "complete_generation_sources": {
+    "adapter": {
+      "role": "adapter",
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+      "bytes": 6278,
+      "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+      "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+      "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142"
+    },
+    "kernel": {
+      "role": "kernel",
+      "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+      "bytes": 28006,
+      "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+      "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+      "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142"
+    }
+  },
+  "complete_fixed_parameters": {
+    "adapter_schema": "pinned-public-actions-rawcell0-step-artifact-fetch-v1",
+    "kernel_schema": "pinned-public-actions-artifact-fetch-v3",
+    "receipt_name": "_pinned_public_artifact_receipt.json",
+    "chunk_bytes": 1048576,
+    "maximum_metadata_bytes": 1048576,
+    "maximum_redirects": 8,
+    "request_timeout_seconds": 60,
+    "download_step_timeout_minutes": 15,
+    "workflow_python_version": "3.12.14",
+    "credential_transport": "GITHUB_TOKEN environment only; no command-line credentials",
+    "output": "fresh absolute nonsymlink child below RUNNER_TEMP; existing directory rejected",
+    "numerical_evaluation_by_downloader": false,
+    "source_only_in_memory_adapter_changes": [
+      "PIN",
+      "SCHEMA",
+      "public_metadata local adapter provenance"
+    ],
+    "fixed_sources_rechecked_at_all_eight_actual_source_commits": true
+  },
+  "same_kind_prior_retention": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-16-two-old54-download-receipts-retention.md",
+    "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+    "bytes": 5558,
+    "sha256": "e6483fe551b02dd77747249585e6bcb5e7eca5d5fb9574868b43f6db44cc8bb1",
+    "git_blob": "0bf4fe2d40a60b33a053ecb457941ca0a5661f41",
+    "scope": "Same kind of administrative download receipt. Its old54 hashes, removed paths and prior checks are not substituted for these actual41 files."
+  },
+  "recovery_semantics": {
+    "exact_original_bytes": "Restore each path from fixed_restore_commit or the recorded Git blob; this does not require an available Actions artifact.",
+    "regeneration": "The complete original request, workflow, adapter, kernel, publication source and argv remain at the recorded immutable source commits. If the original artifact is still available, its downloader can regenerate an administrative receipt after exact ZIP verification.",
+    "volatile_receipt_fields": "Actual download metadata, timestamps, run identity and absolute temporary paths can differ on a later download. Re-running is not promised to reproduce the historical receipt bytes; exact original bytes come from Git.",
+    "scientific_recomputation_required": false,
+    "additional_Actions_download_or_scan_required": false,
+    "retention_preflight_gate_added": false,
+    "this_preparation_read_receipt_payloads": false,
+    "this_preparation_read_or_decompressed_binary": false,
+    "this_preparation_executed_generator_or_publisher": false,
+    "this_preparation_modified_repository_files_or_refs": false
+  },
+  "objects": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43623850723-1-rawcell0band/actual41-artifact-fetch-receipt.json.gz",
+      "bytes": 207957,
+      "git_blob": "bd547f265d632f688b9d03bef3482eb137e95694",
+      "sha256": null,
+      "uncompressed_receipt_sha256": null,
+      "receipt_sha256_status": "Not supplied by the bounded small records consulted; compressed and uncompressed receipt bytes were not read.",
+      "exact_restore": {
+        "commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43623850723-1-rawcell0band/actual41-artifact-fetch-receipt.json.gz",
+        "git_blob": "bd547f265d632f688b9d03bef3482eb137e95694",
+        "bytes": 207957
+      },
+      "actual_run": {
+        "run_id": 43623850723,
+        "run_attempt": 1,
+        "head_sha": "34abbdf26804307a61fa4d18139c969c1cf9c445",
+        "created_at": "2026-11-14T17:56:59Z",
+        "run_started_at": "2026-11-14T17:56:59Z",
+        "status": "completed",
+        "conclusion": "success",
+        "workflow_path": ".github/workflows/visible-larger-public-mainline.yml",
+        "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43623850723"
+      },
+      "original_complete_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-mainline-request.json",
+        "bytes": 2616,
+        "sha256": "96b8e0bce17e99f30543d7d2a88f2e0c91549d22ef16c30a1f7bafc403359963",
+        "git_blob": "04a03b4a6343354d01774209af7fdf4f194b7c53",
+        "source_commit": "34abbdf26804307a61fa4d18139c969c1cf9c445",
+        "request_identifier": "20261114-public-large-core-mainline-42",
+        "receipt_lane": "rawcell0band",
+        "all_original_fields_retained_at_fixed_historical_source": true,
+        "actual_retained_request_identity": null
+      },
+      "complete_workflow_source": {
+        "path": ".github/workflows/visible-larger-public-mainline.yml",
+        "bytes": 96648,
+        "git_blob": "2e47fcdbe55baeea04556f156baa2c2f86e7844b",
+        "sha256": "ecf500e37c17e82240e72d0ae14d3883383bf814d55497fea1f7e8934045c878",
+        "source_commit": "34abbdf26804307a61fa4d18139c969c1cf9c445"
+      },
+      "exact_adapter_and_kernel_at_source_commit": {
+        "adapter": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "bytes": 6278,
+          "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+          "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+          "source_commit": "34abbdf26804307a61fa4d18139c969c1cf9c445"
+        },
+        "kernel": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+          "bytes": 28006,
+          "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+          "source_commit": "34abbdf26804307a61fa4d18139c969c1cf9c445"
+        },
+        "entire_bytes_equal_fixed_sources": true
+      },
+      "receipt_generation": {
+        "executable_argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "--run-id",
+          "43622149326",
+          "--artifact-id",
+          "14124209116",
+          "--artifact-name",
+          "visible-mainline-rawcell0steps-43622149326-1",
+          "--expected-size",
+          "349636774",
+          "--expected-sha256",
+          "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+          "--out",
+          "$RUNNER_TEMP/actual41-step-capture-input-43623850723-1"
+        ],
+        "variable_scope": {
+          "GITHUB_RUN_ID": "43623850723",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_SHA": "34abbdf26804307a61fa4d18139c969c1cf9c445",
+          "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+          "GITHUB_ACTIONS": "true",
+          "GITHUB_WORKSPACE": "actual checked-out repository path in that original Actions job",
+          "RUNNER_TEMP": "actual private temporary root in that original Actions job",
+          "GITHUB_TOKEN": "environment-only GitHub Actions token; no credential value retained"
+        },
+        "output_directory_template": "$RUNNER_TEMP/actual41-step-capture-input-43623850723-1",
+        "results_directory_template": "$RUNNER_TEMP/visible-mainline/rawcell0band",
+        "receipt_copy_argv_template": [
+          "cp",
+          "$RUNNER_TEMP/actual41-step-capture-input-43623850723-1/_pinned_public_artifact_receipt.json",
+          "$RUNNER_TEMP/visible-mainline/rawcell0band/actual41-artifact-fetch-receipt.json"
+        ],
+        "original_fetch_step": "      - name: Fetch the byte-pinned actual41 original-step public artifact\n        if: matrix.lane == 'rawcell0band'\n        timeout-minutes: 15\n        env:\n          GITHUB_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py\" \\\n            --run-id 43622149326 --artifact-id 14124209116 \\\n            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \\\n            --expected-size 349636774 \\\n            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \\\n            --out \"$RUNNER_TEMP/actual41-step-capture-input-${{ github.run_id }}-${{ github.run_attempt }}\"\n          cp \"$RUNNER_TEMP/actual41-step-capture-input-${{ github.run_id }}-${{ github.run_attempt }}/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual41-artifact-fetch-receipt.json\"\n",
+        "original_fetch_step_sha256": "df52cbb8e3c44228876e7beeb5ef9720e9b260d9ce664a045f1450354439eac2"
+      },
+      "publication": {
+        "complete_source": {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "bytes": 9803,
+          "sha256": "3774a67e8456229659f73da1a06fa3e2c70e3368778a6239a57d7f8f05f091a1",
+          "git_blob": "3f38c5cfe57a5a9abeeca1df0b76c592baa4f661",
+          "source_commit": "34abbdf26804307a61fa4d18139c969c1cf9c445"
+        },
+        "argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "--results",
+          "$RUNNER_TEMP/visible-mainline/rawcell0band",
+          "--lane",
+          "rawcell0band"
+        ],
+        "original_step": "      - name: Publish bounded outputs with ordinary rebase and push\n        if: always()\n        env:\n          GH_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py\" \\\n            --results \"$VISIBLE_OUT\" --lane \"${{ matrix.lane }}\"\n",
+        "original_step_sha256": "e54ee3012a4ae911cf8764d9a8b69d944a6a5a1199fae5413595ea1dc270ef7e",
+        "compression_call": "gzip.compress(src.read_bytes(), mtime=0)",
+        "triggering_rule": "src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log')",
+        "destination_rule": "append .gz; publish if compressed length < 5000000",
+        "historical_compressed_bytes_not_recreated_here": true
+      }
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/actual41-artifact-fetch-receipt.json.gz",
+      "bytes": 207954,
+      "git_blob": "844830a911ed7b5e60484f606b2e06f9725efbb2",
+      "sha256": null,
+      "uncompressed_receipt_sha256": null,
+      "receipt_sha256_status": "Not supplied by the bounded small records consulted; compressed and uncompressed receipt bytes were not read.",
+      "exact_restore": {
+        "commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/actual41-artifact-fetch-receipt.json.gz",
+        "git_blob": "844830a911ed7b5e60484f606b2e06f9725efbb2",
+        "bytes": 207954
+      },
+      "actual_run": {
+        "run_id": 43626121246,
+        "run_attempt": 1,
+        "head_sha": "5c6f45fcac65d96f6b64c8d97f842efcd280f342",
+        "created_at": "2026-11-14T18:21:12Z",
+        "run_started_at": "2026-11-14T18:21:12Z",
+        "status": "completed",
+        "conclusion": "success",
+        "workflow_path": ".github/workflows/visible-larger-public-mainline.yml",
+        "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43626121246"
+      },
+      "original_complete_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-mainline-request.json",
+        "bytes": 2158,
+        "sha256": "e4d4a535f34d0060b749a0ce84cfbe3bd49f30d6c609b00a640868a3bc1bcf63",
+        "git_blob": "3356ed11c5a8523b4856a7fe7743b58e0adf5807",
+        "source_commit": "5c6f45fcac65d96f6b64c8d97f842efcd280f342",
+        "request_identifier": "20261114-public-large-core-mainline-43",
+        "receipt_lane": "rawcell0gauge",
+        "all_original_fields_retained_at_fixed_historical_source": true,
+        "actual_retained_request_identity": null
+      },
+      "complete_workflow_source": {
+        "path": ".github/workflows/visible-larger-public-mainline.yml",
+        "bytes": 98735,
+        "git_blob": "32e35570c6e2712687374ec6345bda8701dced9e",
+        "sha256": "720af1bbcd1d65bf331dc665c52d644f0c4e172e7ba04fbce63e07286147c060",
+        "source_commit": "5c6f45fcac65d96f6b64c8d97f842efcd280f342"
+      },
+      "exact_adapter_and_kernel_at_source_commit": {
+        "adapter": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "bytes": 6278,
+          "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+          "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+          "source_commit": "5c6f45fcac65d96f6b64c8d97f842efcd280f342"
+        },
+        "kernel": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+          "bytes": 28006,
+          "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+          "source_commit": "5c6f45fcac65d96f6b64c8d97f842efcd280f342"
+        },
+        "entire_bytes_equal_fixed_sources": true
+      },
+      "receipt_generation": {
+        "executable_argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "--run-id",
+          "43622149326",
+          "--artifact-id",
+          "14124209116",
+          "--artifact-name",
+          "visible-mainline-rawcell0steps-43622149326-1",
+          "--expected-size",
+          "349636774",
+          "--expected-sha256",
+          "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+          "--out",
+          "$RUNNER_TEMP/actual41-step-capture-input-43626121246-1"
+        ],
+        "variable_scope": {
+          "GITHUB_RUN_ID": "43626121246",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_SHA": "5c6f45fcac65d96f6b64c8d97f842efcd280f342",
+          "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+          "GITHUB_ACTIONS": "true",
+          "GITHUB_WORKSPACE": "actual checked-out repository path in that original Actions job",
+          "RUNNER_TEMP": "actual private temporary root in that original Actions job",
+          "GITHUB_TOKEN": "environment-only GitHub Actions token; no credential value retained"
+        },
+        "output_directory_template": "$RUNNER_TEMP/actual41-step-capture-input-43626121246-1",
+        "results_directory_template": "$RUNNER_TEMP/visible-mainline/rawcell0gauge",
+        "receipt_copy_argv_template": [
+          "cp",
+          "$RUNNER_TEMP/actual41-step-capture-input-43626121246-1/_pinned_public_artifact_receipt.json",
+          "$RUNNER_TEMP/visible-mainline/rawcell0gauge/actual41-artifact-fetch-receipt.json"
+        ],
+        "original_fetch_step": "      - name: Fetch the byte-pinned actual41 original-step public artifact\n        if: matrix.lane == 'rawcell0band' || matrix.lane == 'rawcell0gauge'\n        timeout-minutes: 15\n        env:\n          GITHUB_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py\" \\\n            --run-id 43622149326 --artifact-id 14124209116 \\\n            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \\\n            --expected-size 349636774 \\\n            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \\\n            --out \"$RUNNER_TEMP/actual41-step-capture-input-${{ github.run_id }}-${{ github.run_attempt }}\"\n          cp \"$RUNNER_TEMP/actual41-step-capture-input-${{ github.run_id }}-${{ github.run_attempt }}/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual41-artifact-fetch-receipt.json\"\n",
+        "original_fetch_step_sha256": "c5905cff078545aea2d4527e29146e61c8ca13502f847b71f53d1b6f35104129"
+      },
+      "publication": {
+        "complete_source": {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "bytes": 9820,
+          "sha256": "9c9cce129b1404d0f34556af7653084dc155f66a043e45d693620b38691c6f9b",
+          "git_blob": "3e2392a498b82ddfc08cf44c3f202d2f248e12c0",
+          "source_commit": "5c6f45fcac65d96f6b64c8d97f842efcd280f342"
+        },
+        "argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "--results",
+          "$RUNNER_TEMP/visible-mainline/rawcell0gauge",
+          "--lane",
+          "rawcell0gauge"
+        ],
+        "original_step": "      - name: Publish bounded outputs with ordinary rebase and push\n        if: always()\n        env:\n          GH_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py\" \\\n            --results \"$VISIBLE_OUT\" --lane \"${{ matrix.lane }}\"\n",
+        "original_step_sha256": "e54ee3012a4ae911cf8764d9a8b69d944a6a5a1199fae5413595ea1dc270ef7e",
+        "compression_call": "gzip.compress(src.read_bytes(), mtime=0)",
+        "triggering_rule": "src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log')",
+        "destination_rule": "append .gz; publish if compressed length < 5000000",
+        "historical_compressed_bytes_not_recreated_here": true
+      }
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43627297724-1-receipts/actual41-artifact-fetch-receipt.json.gz",
+      "bytes": 207955,
+      "git_blob": "b3d8b6dbeea6e7c96305b99a6d2573c3924506d8",
+      "sha256": null,
+      "uncompressed_receipt_sha256": null,
+      "receipt_sha256_status": "Not supplied by the bounded small records consulted; compressed and uncompressed receipt bytes were not read.",
+      "exact_restore": {
+        "commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43627297724-1-receipts/actual41-artifact-fetch-receipt.json.gz",
+        "git_blob": "b3d8b6dbeea6e7c96305b99a6d2573c3924506d8",
+        "bytes": 207955
+      },
+      "actual_run": {
+        "run_id": 43627297724,
+        "run_attempt": 1,
+        "head_sha": "d07eeb32ec7e72f8982b0c8f3c9352e4a0e34e1f",
+        "created_at": "2026-11-14T18:33:52Z",
+        "run_started_at": "2026-11-14T18:33:52Z",
+        "status": "completed",
+        "conclusion": "success",
+        "workflow_path": ".github/workflows/visible-larger-public-receipts.yml",
+        "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43627297724"
+      },
+      "original_complete_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-receipt-request.json",
+        "bytes": 1210,
+        "sha256": "3e3903b1e10e9ac6d11fc63da0f607c54c15714c112498566b2eb666b0860106",
+        "git_blob": "205b885dbffeeb3aa2d83bedd47877d021e615f3",
+        "source_commit": "d07eeb32ec7e72f8982b0c8f3c9352e4a0e34e1f",
+        "request_identifier": "20261114-public-large-core-receipts-44",
+        "receipt_lane": "receipts",
+        "all_original_fields_retained_at_fixed_historical_source": true,
+        "actual_retained_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43627297724-1-receipts/receipt-read-intent.json",
+          "bytes": 1390,
+          "sha256": "4439812f2f0e8c97691ffc8f9e1a05f184ee5a778346581dccc42ef398aded5e",
+          "git_blob": "fce50b029e6643b50d86756ea0bebd22b0148750",
+          "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+          "complete_request_equals_historical_file": true
+        }
+      },
+      "complete_workflow_source": {
+        "path": ".github/workflows/visible-larger-public-receipts.yml",
+        "bytes": 5965,
+        "git_blob": "f64a0baa2d5d229049da789cc67856a76e622ede",
+        "sha256": "f9e5b0c33349b0b97ed9187e49150dc65a61362b56e2def50d9e311edd27cdc9",
+        "source_commit": "d07eeb32ec7e72f8982b0c8f3c9352e4a0e34e1f"
+      },
+      "exact_adapter_and_kernel_at_source_commit": {
+        "adapter": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "bytes": 6278,
+          "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+          "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+          "source_commit": "d07eeb32ec7e72f8982b0c8f3c9352e4a0e34e1f"
+        },
+        "kernel": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+          "bytes": 28006,
+          "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+          "source_commit": "d07eeb32ec7e72f8982b0c8f3c9352e4a0e34e1f"
+        },
+        "entire_bytes_equal_fixed_sources": true
+      },
+      "receipt_generation": {
+        "executable_argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "--run-id",
+          "43622149326",
+          "--artifact-id",
+          "14124209116",
+          "--artifact-name",
+          "visible-mainline-rawcell0steps-43622149326-1",
+          "--expected-size",
+          "349636774",
+          "--expected-sha256",
+          "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+          "--out",
+          "$RUNNER_TEMP/actual41-receipt-input-43627297724-1"
+        ],
+        "variable_scope": {
+          "GITHUB_RUN_ID": "43627297724",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_SHA": "d07eeb32ec7e72f8982b0c8f3c9352e4a0e34e1f",
+          "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+          "GITHUB_ACTIONS": "true",
+          "GITHUB_WORKSPACE": "actual checked-out repository path in that original Actions job",
+          "RUNNER_TEMP": "actual private temporary root in that original Actions job",
+          "GITHUB_TOKEN": "environment-only GitHub Actions token; no credential value retained"
+        },
+        "output_directory_template": "$RUNNER_TEMP/actual41-receipt-input-43627297724-1",
+        "results_directory_template": "$RUNNER_TEMP/visible-mainline/receipts",
+        "receipt_copy_argv_template": [
+          "cp",
+          "$RUNNER_TEMP/actual41-receipt-input-43627297724-1/_pinned_public_artifact_receipt.json",
+          "$RUNNER_TEMP/visible-mainline/receipts/actual41-artifact-fetch-receipt.json"
+        ],
+        "original_fetch_step": "      - name: Fetch the original actual41 artifact without rerunning its computation\n        id: capture41\n        if: steps.select.outputs.stage43fields == 'true'\n        timeout-minutes: 15\n        env:\n          GITHUB_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py\" \\\n            --run-id 43622149326 --artifact-id 14124209116 \\\n            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \\\n            --expected-size 349636774 \\\n            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \\\n            --out \"$RUNNER_TEMP/actual41-receipt-input-${{ github.run_id }}-${{ github.run_attempt }}\"\n          cp \"$RUNNER_TEMP/actual41-receipt-input-${{ github.run_id }}-${{ github.run_attempt }}/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual41-artifact-fetch-receipt.json\"\n",
+        "original_fetch_step_sha256": "abb3999f312cfcff9e8a7bbcaf505cec2b064a9234f84e7ba0ada24defc96cea"
+      },
+      "publication": {
+        "complete_source": {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "bytes": 9847,
+          "sha256": "7e16e26ddcb88064737f41588c67addfdabe971e1d05788496552c676b0d9d0a",
+          "git_blob": "67342064c4afae88cf40931e2a68d65294092c82",
+          "source_commit": "d07eeb32ec7e72f8982b0c8f3c9352e4a0e34e1f"
+        },
+        "argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "--results",
+          "$RUNNER_TEMP/visible-mainline/receipts",
+          "--lane",
+          "receipts"
+        ],
+        "original_step": "      - name: Publish bounded outputs with ordinary pull rebase and README checks\n        if: always()\n        env:\n          GH_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py\" --results \"$VISIBLE_OUT\" --lane receipts\n",
+        "original_step_sha256": "8e852737efc1b2bd76a49eefa646d609d9243e85e432eaae357c3532595e0cab",
+        "compression_call": "gzip.compress(src.read_bytes(), mtime=0)",
+        "triggering_rule": "src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log')",
+        "destination_rule": "append .gz; publish if compressed length < 5000000",
+        "historical_compressed_bytes_not_recreated_here": true
+      }
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43630351235-1-stage43probe/actual41-artifact-fetch-receipt.json.gz",
+      "bytes": 207954,
+      "git_blob": "ac7e0aaaf013f47202a5384e425785060c8deece",
+      "sha256": null,
+      "uncompressed_receipt_sha256": null,
+      "receipt_sha256_status": "Not supplied by the bounded small records consulted; compressed and uncompressed receipt bytes were not read.",
+      "exact_restore": {
+        "commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43630351235-1-stage43probe/actual41-artifact-fetch-receipt.json.gz",
+        "git_blob": "ac7e0aaaf013f47202a5384e425785060c8deece",
+        "bytes": 207954
+      },
+      "actual_run": {
+        "run_id": 43630351235,
+        "run_attempt": 1,
+        "head_sha": "c9c466f468d49e3f4699d0e0247109e83047bdb5",
+        "created_at": "2026-11-14T19:07:21Z",
+        "run_started_at": "2026-11-14T19:07:21Z",
+        "status": "completed",
+        "conclusion": "success",
+        "workflow_path": ".github/workflows/visible-larger-public-stage-probe.yml",
+        "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43630351235"
+      },
+      "original_complete_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-native-stage-probe-request.json",
+        "bytes": 2388,
+        "sha256": "1a4f637705aaa70f61e07e3c83220ce0bc7d861a3057b6b4ee4c8bfdb5755b0b",
+        "git_blob": "e3432ead351bdffa08682d324da7d82cd9bfdfcd",
+        "source_commit": "c9c466f468d49e3f4699d0e0247109e83047bdb5",
+        "request_identifier": 47,
+        "receipt_lane": "stage43probe",
+        "all_original_fields_retained_at_fixed_historical_source": true,
+        "actual_retained_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43630351235-1-stage43probe/stage-probe-request-identity.json",
+          "bytes": 4749,
+          "sha256": "f41c97dc817a783eb148b4fd7ef01b3cda913bc9874478c618c3e574a754b17f",
+          "git_blob": "bf2b25fdae1ee5c7ddd47940471fa4e0dd1c6fa9",
+          "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+          "complete_request_equals_historical_file": true
+        }
+      },
+      "complete_workflow_source": {
+        "path": ".github/workflows/visible-larger-public-stage-probe.yml",
+        "bytes": 17061,
+        "git_blob": "d8bdca474dcf92e7702cb0de05a3740811e9b296",
+        "sha256": "49ed712632ab65210c0c33c3aa336a1d77ae5d83d9732421e14705e36228295d",
+        "source_commit": "c9c466f468d49e3f4699d0e0247109e83047bdb5"
+      },
+      "exact_adapter_and_kernel_at_source_commit": {
+        "adapter": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "bytes": 6278,
+          "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+          "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+          "source_commit": "c9c466f468d49e3f4699d0e0247109e83047bdb5"
+        },
+        "kernel": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+          "bytes": 28006,
+          "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+          "source_commit": "c9c466f468d49e3f4699d0e0247109e83047bdb5"
+        },
+        "entire_bytes_equal_fixed_sources": true
+      },
+      "receipt_generation": {
+        "executable_argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "--run-id",
+          "43622149326",
+          "--artifact-id",
+          "14124209116",
+          "--artifact-name",
+          "visible-mainline-rawcell0steps-43622149326-1",
+          "--expected-size",
+          "349636774",
+          "--expected-sha256",
+          "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+          "--out",
+          "$RUNNER_TEMP/stage47-original41-43630351235-1"
+        ],
+        "variable_scope": {
+          "GITHUB_RUN_ID": "43630351235",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_SHA": "c9c466f468d49e3f4699d0e0247109e83047bdb5",
+          "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+          "GITHUB_ACTIONS": "true",
+          "GITHUB_WORKSPACE": "actual checked-out repository path in that original Actions job",
+          "RUNNER_TEMP": "actual private temporary root in that original Actions job",
+          "GITHUB_TOKEN": "environment-only GitHub Actions token; no credential value retained"
+        },
+        "output_directory_template": "$RUNNER_TEMP/stage47-original41-43630351235-1",
+        "results_directory_template": "$RUNNER_TEMP/visible-native-stage/stage43probe",
+        "receipt_copy_argv_template": [
+          "cp",
+          "$RUNNER_TEMP/stage47-original41-43630351235-1/_pinned_public_artifact_receipt.json",
+          "$RUNNER_TEMP/visible-native-stage/stage43probe/actual41-artifact-fetch-receipt.json"
+        ],
+        "original_fetch_step": "      - name: Fetch the unchanged actual41 complete original-step capture\n        timeout-minutes: 15\n        env:\n          GITHUB_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py\" \\\n            --run-id 43622149326 --artifact-id 14124209116 \\\n            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \\\n            --expected-size 349636774 \\\n            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \\\n            --out \"$VISIBLE_CAPTURE41\" \\\n            2>&1 | tee \"$VISIBLE_OUT/actual41-fetch.log\"\n          cp \"$VISIBLE_CAPTURE41/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual41-artifact-fetch-receipt.json\"\n",
+        "original_fetch_step_sha256": "d0d99d999c4305edda0541e6816dc70d10ea06a25186bb31fe1d450327e90bac"
+      },
+      "publication": {
+        "complete_source": {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "bytes": 10309,
+          "sha256": "26b505f023f92eb449b68db498e4f582ce66dc7c62414c3906fc2ea854ca30ed",
+          "git_blob": "728cdf6560fe4a66a449f60c148aebe42819596f",
+          "source_commit": "c9c466f468d49e3f4699d0e0247109e83047bdb5"
+        },
+        "argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "--results",
+          "$RUNNER_TEMP/visible-native-stage/stage43probe",
+          "--lane",
+          "stage43probe"
+        ],
+        "original_step": "      - name: Publish bounded results with ordinary rebase and README checks\n        if: always()\n        env:\n          GH_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py\" \\\n            --results \"$RUNNER_TEMP/visible-native-stage/stage43probe\" --lane stage43probe\n",
+        "original_step_sha256": "fffe5c8135d338d5822e388f372b96b6818805491de6471cb65e33b2f401b05b",
+        "compression_call": "gzip.compress(src.read_bytes(), mtime=0)",
+        "triggering_rule": "src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log')",
+        "destination_rule": "append .gz; publish if compressed length < 5000000",
+        "historical_compressed_bytes_not_recreated_here": true
+      }
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/actual41-artifact-fetch-receipt.json.gz",
+      "bytes": 207954,
+      "git_blob": "3d6f761933f94ddf83b5b60de6f7053ca283d1a2",
+      "sha256": null,
+      "uncompressed_receipt_sha256": null,
+      "receipt_sha256_status": "Not supplied by the bounded small records consulted; compressed and uncompressed receipt bytes were not read.",
+      "exact_restore": {
+        "commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/actual41-artifact-fetch-receipt.json.gz",
+        "git_blob": "3d6f761933f94ddf83b5b60de6f7053ca283d1a2",
+        "bytes": 207954
+      },
+      "actual_run": {
+        "run_id": 43634201913,
+        "run_attempt": 1,
+        "head_sha": "61831d6a76b2a06e0c22f7fe03aad87d1b69d39f",
+        "created_at": "2026-11-14T19:49:51Z",
+        "run_started_at": "2026-11-14T19:49:51Z",
+        "status": "completed",
+        "conclusion": "failure",
+        "workflow_path": ".github/workflows/visible-larger-public-direct-ld.yml",
+        "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43634201913"
+      },
+      "original_complete_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-native-direct-ld-request.json",
+        "bytes": 3754,
+        "sha256": "ea6f3448bd2779cd91bdfb028269b103803f6ea760fae28cf360db30f59434b9",
+        "git_blob": "3da7db99c596b5c2af8c103c7506c006ebbf1a6d",
+        "source_commit": "61831d6a76b2a06e0c22f7fe03aad87d1b69d39f",
+        "request_identifier": 52,
+        "receipt_lane": "directld",
+        "all_original_fields_retained_at_fixed_historical_source": true,
+        "actual_retained_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/direct-ld-request-identity.json",
+          "bytes": 7439,
+          "sha256": "a3306a9425727e807d68fa3c644e3ab682c0917872a1c599b49e8629ecf06847",
+          "git_blob": "e4942d47a1dbde535f9c3baa17be4a2aa977fff9",
+          "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+          "complete_request_equals_historical_file": true
+        }
+      },
+      "complete_workflow_source": {
+        "path": ".github/workflows/visible-larger-public-direct-ld.yml",
+        "bytes": 18765,
+        "git_blob": "0bf48ee205f208a3872f31aebc45733d4acb3bce",
+        "sha256": "9c63072fd0be022fd13fd408af48f8dddc9efd10db0ab668d277605e37d7ec6f",
+        "source_commit": "61831d6a76b2a06e0c22f7fe03aad87d1b69d39f"
+      },
+      "exact_adapter_and_kernel_at_source_commit": {
+        "adapter": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "bytes": 6278,
+          "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+          "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+          "source_commit": "61831d6a76b2a06e0c22f7fe03aad87d1b69d39f"
+        },
+        "kernel": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+          "bytes": 28006,
+          "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+          "source_commit": "61831d6a76b2a06e0c22f7fe03aad87d1b69d39f"
+        },
+        "entire_bytes_equal_fixed_sources": true
+      },
+      "receipt_generation": {
+        "executable_argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "--run-id",
+          "43622149326",
+          "--artifact-id",
+          "14124209116",
+          "--artifact-name",
+          "visible-mainline-rawcell0steps-43622149326-1",
+          "--expected-size",
+          "349636774",
+          "--expected-sha256",
+          "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+          "--out",
+          "$RUNNER_TEMP/direct52-original41-43634201913-1"
+        ],
+        "variable_scope": {
+          "GITHUB_RUN_ID": "43634201913",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_SHA": "61831d6a76b2a06e0c22f7fe03aad87d1b69d39f",
+          "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+          "GITHUB_ACTIONS": "true",
+          "GITHUB_WORKSPACE": "actual checked-out repository path in that original Actions job",
+          "RUNNER_TEMP": "actual private temporary root in that original Actions job",
+          "GITHUB_TOKEN": "environment-only GitHub Actions token; no credential value retained"
+        },
+        "output_directory_template": "$RUNNER_TEMP/direct52-original41-43634201913-1",
+        "results_directory_template": "$RUNNER_TEMP/visible-native-direct-ld/directld",
+        "receipt_copy_argv_template": [
+          "cp",
+          "$RUNNER_TEMP/direct52-original41-43634201913-1/_pinned_public_artifact_receipt.json",
+          "$RUNNER_TEMP/visible-native-direct-ld/directld/actual41-artifact-fetch-receipt.json"
+        ],
+        "original_fetch_step": "      - name: Fetch the unchanged actual41 complete original-step capture\n        timeout-minutes: 15\n        env:\n          GITHUB_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py\" \\\n            --run-id 43622149326 --artifact-id 14124209116 \\\n            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \\\n            --expected-size 349636774 \\\n            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \\\n            --out \"$VISIBLE_CAPTURE41\" \\\n            2>&1 | tee \"$VISIBLE_OUT/actual41-fetch.log\"\n          cp \"$VISIBLE_CAPTURE41/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual41-artifact-fetch-receipt.json\"\n",
+        "original_fetch_step_sha256": "d0d99d999c4305edda0541e6816dc70d10ea06a25186bb31fe1d450327e90bac"
+      },
+      "publication": {
+        "complete_source": {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "bytes": 10340,
+          "sha256": "699c696af338018deb97a53127cde1f9d9c743776b26670c69c3ae03dc7485df",
+          "git_blob": "ba01b39d68fa146602dc435a8314366076becd48",
+          "source_commit": "61831d6a76b2a06e0c22f7fe03aad87d1b69d39f"
+        },
+        "argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "--results",
+          "$RUNNER_TEMP/visible-native-direct-ld/directld",
+          "--lane",
+          "directld"
+        ],
+        "original_step": "      - name: Publish bounded results with ordinary rebase and README checks\n        if: always()\n        env:\n          GH_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py\" \\\n            --results \"$RUNNER_TEMP/visible-native-direct-ld/directld\" --lane directld\n",
+        "original_step_sha256": "c081e6c7eab8692ee3adf98a22c082a6d43bbcf24fc5f129f8a50de0f080d0e8",
+        "compression_call": "gzip.compress(src.read_bytes(), mtime=0)",
+        "triggering_rule": "src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log')",
+        "destination_rule": "append .gz; publish if compressed length < 5000000",
+        "historical_compressed_bytes_not_recreated_here": true
+      }
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/actual41-artifact-fetch-receipt.json.gz",
+      "bytes": 207955,
+      "git_blob": "c43064f0deb6cc61f94b4c7aae2c015b99f92ca1",
+      "sha256": null,
+      "uncompressed_receipt_sha256": null,
+      "receipt_sha256_status": "Not supplied by the bounded small records consulted; compressed and uncompressed receipt bytes were not read.",
+      "exact_restore": {
+        "commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/actual41-artifact-fetch-receipt.json.gz",
+        "git_blob": "c43064f0deb6cc61f94b4c7aae2c015b99f92ca1",
+        "bytes": 207955
+      },
+      "actual_run": {
+        "run_id": 43634889730,
+        "run_attempt": 1,
+        "head_sha": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8",
+        "created_at": "2026-11-14T19:57:40Z",
+        "run_started_at": "2026-11-14T19:57:40Z",
+        "status": "completed",
+        "conclusion": "failure",
+        "workflow_path": ".github/workflows/visible-larger-public-direct-ld.yml",
+        "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43634889730"
+      },
+      "original_complete_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-native-direct-ld-request.json",
+        "bytes": 4118,
+        "sha256": "1970636d2f8fdd443f0153edc7334274c9f65252811b673c500600a423761031",
+        "git_blob": "99c486b4f5a49127521bd2492cd469cb658b1076",
+        "source_commit": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8",
+        "request_identifier": 54,
+        "receipt_lane": "directld",
+        "all_original_fields_retained_at_fixed_historical_source": true,
+        "actual_retained_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/direct-ld-request-identity.json",
+          "bytes": 7809,
+          "sha256": "d8d5a0ed6ce97ab1f06547ebea892def70fd9d54ba91aa40bcea98b36b769d2b",
+          "git_blob": "80b8200b7850d158ab6e8759de5c16d9659c5628",
+          "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+          "complete_request_equals_historical_file": true
+        }
+      },
+      "complete_workflow_source": {
+        "path": ".github/workflows/visible-larger-public-direct-ld.yml",
+        "bytes": 18765,
+        "git_blob": "0bf48ee205f208a3872f31aebc45733d4acb3bce",
+        "sha256": "9c63072fd0be022fd13fd408af48f8dddc9efd10db0ab668d277605e37d7ec6f",
+        "source_commit": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8"
+      },
+      "exact_adapter_and_kernel_at_source_commit": {
+        "adapter": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "bytes": 6278,
+          "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+          "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+          "source_commit": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8"
+        },
+        "kernel": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+          "bytes": 28006,
+          "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+          "source_commit": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8"
+        },
+        "entire_bytes_equal_fixed_sources": true
+      },
+      "receipt_generation": {
+        "executable_argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "--run-id",
+          "43622149326",
+          "--artifact-id",
+          "14124209116",
+          "--artifact-name",
+          "visible-mainline-rawcell0steps-43622149326-1",
+          "--expected-size",
+          "349636774",
+          "--expected-sha256",
+          "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+          "--out",
+          "$RUNNER_TEMP/direct52-original41-43634889730-1"
+        ],
+        "variable_scope": {
+          "GITHUB_RUN_ID": "43634889730",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_SHA": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8",
+          "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+          "GITHUB_ACTIONS": "true",
+          "GITHUB_WORKSPACE": "actual checked-out repository path in that original Actions job",
+          "RUNNER_TEMP": "actual private temporary root in that original Actions job",
+          "GITHUB_TOKEN": "environment-only GitHub Actions token; no credential value retained"
+        },
+        "output_directory_template": "$RUNNER_TEMP/direct52-original41-43634889730-1",
+        "results_directory_template": "$RUNNER_TEMP/visible-native-direct-ld/directld",
+        "receipt_copy_argv_template": [
+          "cp",
+          "$RUNNER_TEMP/direct52-original41-43634889730-1/_pinned_public_artifact_receipt.json",
+          "$RUNNER_TEMP/visible-native-direct-ld/directld/actual41-artifact-fetch-receipt.json"
+        ],
+        "original_fetch_step": "      - name: Fetch the unchanged actual41 complete original-step capture\n        timeout-minutes: 15\n        env:\n          GITHUB_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py\" \\\n            --run-id 43622149326 --artifact-id 14124209116 \\\n            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \\\n            --expected-size 349636774 \\\n            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \\\n            --out \"$VISIBLE_CAPTURE41\" \\\n            2>&1 | tee \"$VISIBLE_OUT/actual41-fetch.log\"\n          cp \"$VISIBLE_CAPTURE41/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual41-artifact-fetch-receipt.json\"\n",
+        "original_fetch_step_sha256": "d0d99d999c4305edda0541e6816dc70d10ea06a25186bb31fe1d450327e90bac"
+      },
+      "publication": {
+        "complete_source": {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "bytes": 10340,
+          "sha256": "699c696af338018deb97a53127cde1f9d9c743776b26670c69c3ae03dc7485df",
+          "git_blob": "ba01b39d68fa146602dc435a8314366076becd48",
+          "source_commit": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8"
+        },
+        "argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "--results",
+          "$RUNNER_TEMP/visible-native-direct-ld/directld",
+          "--lane",
+          "directld"
+        ],
+        "original_step": "      - name: Publish bounded results with ordinary rebase and README checks\n        if: always()\n        env:\n          GH_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py\" \\\n            --results \"$RUNNER_TEMP/visible-native-direct-ld/directld\" --lane directld\n",
+        "original_step_sha256": "c081e6c7eab8692ee3adf98a22c082a6d43bbcf24fc5f129f8a50de0f080d0e8",
+        "compression_call": "gzip.compress(src.read_bytes(), mtime=0)",
+        "triggering_rule": "src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log')",
+        "destination_rule": "append .gz; publish if compressed length < 5000000",
+        "historical_compressed_bytes_not_recreated_here": true
+      }
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43636504089-1-directldtrial/actual41-artifact-fetch-receipt.json.gz",
+      "bytes": 207957,
+      "git_blob": "c864985ec75b6e360b563abe14f57e0738c6ca06",
+      "sha256": null,
+      "uncompressed_receipt_sha256": null,
+      "receipt_sha256_status": "Not supplied by the bounded small records consulted; compressed and uncompressed receipt bytes were not read.",
+      "exact_restore": {
+        "commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43636504089-1-directldtrial/actual41-artifact-fetch-receipt.json.gz",
+        "git_blob": "c864985ec75b6e360b563abe14f57e0738c6ca06",
+        "bytes": 207957
+      },
+      "actual_run": {
+        "run_id": 43636504089,
+        "run_attempt": 1,
+        "head_sha": "6b7e9846ab9062614618856d4d6772c847a303c2",
+        "created_at": "2026-11-14T20:15:16Z",
+        "run_started_at": "2026-11-14T20:15:16Z",
+        "status": "completed",
+        "conclusion": "failure",
+        "workflow_path": ".github/workflows/visible-larger-public-direct-ld-trial.yml",
+        "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43636504089"
+      },
+      "original_complete_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-native-direct-ld-trial-request.json",
+        "bytes": 5044,
+        "sha256": "52e88bc76f11ed206e7409d44fa0db0dc45f1c6933448a3873814759d0fc79c4",
+        "git_blob": "9d0d7f4faa77a269ef59a06387453dcbc8701b28",
+        "source_commit": "6b7e9846ab9062614618856d4d6772c847a303c2",
+        "request_identifier": 55,
+        "receipt_lane": "directldtrial",
+        "all_original_fields_retained_at_fixed_historical_source": true,
+        "actual_retained_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43636504089-1-directldtrial/direct-ld-request-identity.json",
+          "bytes": 8938,
+          "sha256": "471efd50db8fe0c941364ceee74d566a35ee35894764192f12507b130093aeb8",
+          "git_blob": "8d7d72d81433cd4dc7cebfd6b61fecd53b5e7ace",
+          "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+          "complete_request_equals_historical_file": true
+        }
+      },
+      "complete_workflow_source": {
+        "path": ".github/workflows/visible-larger-public-direct-ld-trial.yml",
+        "bytes": 17146,
+        "git_blob": "21ab4a26930d005559a2467576263cd1ed5b9c3e",
+        "sha256": "929bd093c1a3ba1043b6a8b1d0cf13c2b7a2e0d3caac9b27ef389a59015af2b6",
+        "source_commit": "6b7e9846ab9062614618856d4d6772c847a303c2"
+      },
+      "exact_adapter_and_kernel_at_source_commit": {
+        "adapter": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "bytes": 6278,
+          "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+          "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+          "source_commit": "6b7e9846ab9062614618856d4d6772c847a303c2"
+        },
+        "kernel": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+          "bytes": 28006,
+          "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+          "source_commit": "6b7e9846ab9062614618856d4d6772c847a303c2"
+        },
+        "entire_bytes_equal_fixed_sources": true
+      },
+      "receipt_generation": {
+        "executable_argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "--run-id",
+          "43622149326",
+          "--artifact-id",
+          "14124209116",
+          "--artifact-name",
+          "visible-mainline-rawcell0steps-43622149326-1",
+          "--expected-size",
+          "349636774",
+          "--expected-sha256",
+          "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+          "--out",
+          "$RUNNER_TEMP/direct55-original41-43636504089-1"
+        ],
+        "variable_scope": {
+          "GITHUB_RUN_ID": "43636504089",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_SHA": "6b7e9846ab9062614618856d4d6772c847a303c2",
+          "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+          "GITHUB_ACTIONS": "true",
+          "GITHUB_WORKSPACE": "actual checked-out repository path in that original Actions job",
+          "RUNNER_TEMP": "actual private temporary root in that original Actions job",
+          "GITHUB_TOKEN": "environment-only GitHub Actions token; no credential value retained"
+        },
+        "output_directory_template": "$RUNNER_TEMP/direct55-original41-43636504089-1",
+        "results_directory_template": "$RUNNER_TEMP/visible-native-direct-ld-trial/directldtrial",
+        "receipt_copy_argv_template": [
+          "cp",
+          "$RUNNER_TEMP/direct55-original41-43636504089-1/_pinned_public_artifact_receipt.json",
+          "$RUNNER_TEMP/visible-native-direct-ld-trial/directldtrial/actual41-artifact-fetch-receipt.json"
+        ],
+        "original_fetch_step": "      - name: Fetch the unchanged actual41 complete original-step capture\n        timeout-minutes: 15\n        env:\n          GITHUB_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py\" \\\n            --run-id 43622149326 --artifact-id 14124209116 \\\n            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \\\n            --expected-size 349636774 \\\n            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \\\n            --out \"$VISIBLE_CAPTURE41\" \\\n            2>&1 | tee \"$VISIBLE_OUT/actual41-fetch.log\"\n          cp \"$VISIBLE_CAPTURE41/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual41-artifact-fetch-receipt.json\"\n",
+        "original_fetch_step_sha256": "d0d99d999c4305edda0541e6816dc70d10ea06a25186bb31fe1d450327e90bac"
+      },
+      "publication": {
+        "complete_source": {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "bytes": 10357,
+          "sha256": "4c931136519a62bcfba6d79985fe55c41e8d1582bc1f391f7749b692ec85466e",
+          "git_blob": "8d5839c0d430d7fefc329dd7ec5091bd9106adae",
+          "source_commit": "6b7e9846ab9062614618856d4d6772c847a303c2"
+        },
+        "argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "--results",
+          "$RUNNER_TEMP/visible-native-direct-ld-trial/directldtrial",
+          "--lane",
+          "directldtrial"
+        ],
+        "original_step": "      - name: Publish bounded results with ordinary rebase and README checks\n        if: always()\n        env:\n          GH_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py\" \\\n            --results \"$RUNNER_TEMP/visible-native-direct-ld-trial/directldtrial\" --lane directldtrial\n",
+        "original_step_sha256": "32262620f2536a6466f8eb7862828b4e86217914d78f2d9870ddabc644981769",
+        "compression_call": "gzip.compress(src.read_bytes(), mtime=0)",
+        "triggering_rule": "src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log')",
+        "destination_rule": "append .gz; publish if compressed length < 5000000",
+        "historical_compressed_bytes_not_recreated_here": true
+      }
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual41-artifact-fetch-receipt.json.gz",
+      "bytes": 207957,
+      "git_blob": "4bf5dbba8cf25596fb613f996368c8208c6d90d8",
+      "sha256": null,
+      "uncompressed_receipt_sha256": null,
+      "receipt_sha256_status": "Not supplied by the bounded small records consulted; compressed and uncompressed receipt bytes were not read.",
+      "exact_restore": {
+        "commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+        "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual41-artifact-fetch-receipt.json.gz",
+        "git_blob": "4bf5dbba8cf25596fb613f996368c8208c6d90d8",
+        "bytes": 207957
+      },
+      "actual_run": {
+        "run_id": 43637356027,
+        "run_attempt": 1,
+        "head_sha": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8",
+        "created_at": "2026-11-14T20:24:47Z",
+        "run_started_at": "2026-11-14T20:24:47Z",
+        "status": "completed",
+        "conclusion": "failure",
+        "workflow_path": ".github/workflows/visible-larger-public-damped-chain.yml",
+        "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43637356027"
+      },
+      "original_complete_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/public-native-damped-chain-request.json",
+        "bytes": 5783,
+        "sha256": "30708e170f40a51b3796c20fe9923e5ce6589f758d388797aeaf21ee5684d48f",
+        "git_blob": "4cd347a886c023d9e85fe5b20a7589720b6c70f1",
+        "source_commit": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8",
+        "request_identifier": 57,
+        "receipt_lane": "dampedchain",
+        "all_original_fields_retained_at_fixed_historical_source": true,
+        "actual_retained_request_identity": {
+          "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/direct-ld-request-identity.json",
+          "bytes": 9879,
+          "sha256": "bce6b517c77b58b01e97b14629ade11630f697355810fd9c7969db4a83c04af0",
+          "git_blob": "1c57f55c8200be2c2e348910a840070effe051c5",
+          "restore_commit": "61ce5c1bbc94ee093d42087b85173b4ec3b0c142",
+          "complete_request_equals_historical_file": true
+        }
+      },
+      "complete_workflow_source": {
+        "path": ".github/workflows/visible-larger-public-damped-chain.yml",
+        "bytes": 19136,
+        "git_blob": "08d7e57aae5115ebd2f99d4476d4818436fb02fe",
+        "sha256": "38735293705b4ea156116732fad924d7a4c1c94cb9750e34bf393e2258c13f9b",
+        "source_commit": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8"
+      },
+      "exact_adapter_and_kernel_at_source_commit": {
+        "adapter": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "bytes": 6278,
+          "sha256": "328403614476954cddfdc9b7c764e27d668d44042f8da3efa63cb2e8076c5b79",
+          "git_blob": "b1635f04934c740ad07908a2da301ff7fa84f7d8",
+          "source_commit": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8"
+        },
+        "kernel": {
+          "path": "topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+          "bytes": 28006,
+          "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          "git_blob": "8ee390d0c1449a6a532d72158172af278f1c7cf3",
+          "source_commit": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8"
+        },
+        "entire_bytes_equal_fixed_sources": true
+      },
+      "receipt_generation": {
+        "executable_argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_rawcell0_steps.py",
+          "--run-id",
+          "43622149326",
+          "--artifact-id",
+          "14124209116",
+          "--artifact-name",
+          "visible-mainline-rawcell0steps-43622149326-1",
+          "--expected-size",
+          "349636774",
+          "--expected-sha256",
+          "356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8",
+          "--out",
+          "$RUNNER_TEMP/damped57-original41-43637356027-1"
+        ],
+        "variable_scope": {
+          "GITHUB_RUN_ID": "43637356027",
+          "GITHUB_RUN_ATTEMPT": "1",
+          "GITHUB_SHA": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8",
+          "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+          "GITHUB_ACTIONS": "true",
+          "GITHUB_WORKSPACE": "actual checked-out repository path in that original Actions job",
+          "RUNNER_TEMP": "actual private temporary root in that original Actions job",
+          "GITHUB_TOKEN": "environment-only GitHub Actions token; no credential value retained"
+        },
+        "output_directory_template": "$RUNNER_TEMP/damped57-original41-43637356027-1",
+        "results_directory_template": "$RUNNER_TEMP/visible-native-damped-chain/dampedchain",
+        "receipt_copy_argv_template": [
+          "cp",
+          "$RUNNER_TEMP/damped57-original41-43637356027-1/_pinned_public_artifact_receipt.json",
+          "$RUNNER_TEMP/visible-native-damped-chain/dampedchain/actual41-artifact-fetch-receipt.json"
+        ],
+        "original_fetch_step": "      - name: Fetch the unchanged actual41 complete original-step capture\n        timeout-minutes: 15\n        env:\n          GITHUB_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py\" \\\n            --run-id 43622149326 --artifact-id 14124209116 \\\n            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \\\n            --expected-size 349636774 \\\n            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \\\n            --out \"$VISIBLE_CAPTURE41\" \\\n            2>&1 | tee \"$VISIBLE_OUT/actual41-fetch.log\"\n          cp \"$VISIBLE_CAPTURE41/_pinned_public_artifact_receipt.json\" \"$VISIBLE_OUT/actual41-artifact-fetch-receipt.json\"\n",
+        "original_fetch_step_sha256": "d0d99d999c4305edda0541e6816dc70d10ea06a25186bb31fe1d450327e90bac"
+      },
+      "publication": {
+        "complete_source": {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "bytes": 10372,
+          "sha256": "5efa0d3ba3ac75bbab82cc6f2b3da3d92af7b0de40c9dc58343f79c466a218ac",
+          "git_blob": "d01a097e97fe82f946525f5d65ca2ff78b140339",
+          "source_commit": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8"
+        },
+        "argv_template": [
+          "python",
+          "-u",
+          "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/root_20261114_publish_actions.py",
+          "--results",
+          "$RUNNER_TEMP/visible-native-damped-chain/dampedchain",
+          "--lane",
+          "dampedchain"
+        ],
+        "original_step": "      - name: Publish bounded results with ordinary rebase and README checks\n        if: always()\n        env:\n          GH_TOKEN: ${{ github.token }}\n        run: |\n          python -u \"$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py\" \\\n            --results \"$RUNNER_TEMP/visible-native-damped-chain/dampedchain\" --lane dampedchain\n",
+        "original_step_sha256": "db814c15f0e4031ae8a3a8446e760cad92c96c3e6a76581da16b478ee53cd31b",
+        "compression_call": "gzip.compress(src.read_bytes(), mtime=0)",
+        "triggering_rule": "src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log')",
+        "destination_rule": "append .gz; publish if compressed length < 5000000",
+        "historical_compressed_bytes_not_recreated_here": true
+      }
+    }
+  ],
+  "delete_entries": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43623850723-1-rawcell0band/actual41-artifact-fetch-receipt.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/actual41-artifact-fetch-receipt.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43627297724-1-receipts/actual41-artifact-fetch-receipt.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43630351235-1-stage43probe/actual41-artifact-fetch-receipt.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/actual41-artifact-fetch-receipt.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43634889730-1-directld/actual41-artifact-fetch-receipt.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43636504089-1-directldtrial/actual41-artifact-fetch-receipt.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual41-artifact-fetch-receipt.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": null
+    }
+  ]
+}

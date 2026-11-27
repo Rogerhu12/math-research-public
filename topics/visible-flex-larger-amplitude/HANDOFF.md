@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`1340d243733c1693ac57aa04043b7b9194fd14ed`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`ee67190ac820ed589c1c355a9981d261c801968f`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -16,13 +16,11 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 03b/03/02/04/05/direct完整九history、06双分支42/43的地点/typed/保护/合并义务保固定H；06末仍非可行，28b/cfd未准入；07仅1–3返，cc0a场/typed/pure/费/M320未知；08终态见末块。R697/R702/R705不重做，未返不冒已读。
 
-[33–36旧raw保全](notes/2026-11-27-legacy-condensed-intents-retention36-readonly-review.md)及固定完整H中的各原说明，仅退登记派生输出；原源/全参数/请求/真结论、父warm/status正确字链均保。cf418只保证intent，其他依原链恢复；无大体读取，当前warm不改。
+[33–36旧raw保全](notes/2026-11-27-legacy-condensed-intents-retention36-readonly-review.md)及固定完整H中的各原说明，仅退登记派生输出；原源/全参数/请求/真结论、父warm/status正确字链均保。cf418只保证intent，其他依原链恢复；无大体读取，当前warm不改。 [37](notes/2026-11-27-actual41-eight-download-receipts-retention37.md)仅退八旧下载收据1663643B；完整来源/全部argv及61ce5c1历史blob保，receipt wholeSHA未知明列null，未读大体或重跑。
 
-## 09终态：七项完整未返回责任
+## 09终态与完整未返回责任
 
-[09实际输入](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)1–3真返0：ref2ab/modeld449/目标7c766/whole2f8、两5e373快照，1995尾叶/tolerance=false；历史2397仅载体。4/5失败无场，6/7政策键归因。
-[完整修复](notes/2026-11-27-run09-selected-stage-guard-repair-and-complete-retry.md)e89d/ff544/c188/aee22、58源/145+7argv/333+317selectors与原suffix保；1–7返、科学8未返；job已cancelled。94309B队列七完整待办：science/pure、均值剖面费、normal六jet、矩producer/R716consumer、连续Gram/K/support。near32非typed上限，13成员父/全E/无上限历史责任保。
-[09normal](notes/2026-11-27-run09-complete-normal-root-and-sixjet-fees.md)/[连续几何](notes/2026-11-27-run09-complete-continuous-gram-curvature-support.md)全体/原参数保32段、1024闭角盒、全径向/raw hΔ六jet、同g整算子范数/K/support；均未返。缺域global null，working字/外参数费未付；upper/formal D非闭面reach，09/10不直接迁费。
+[09终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)见末块；1–7真返，科学8 ff544、pure aee22及后续费未返，取消原因未知。94309B队列保原七pending：science/pure、mean/profile、normal六jet、moment producer/R716consumer、全连续Gram/K/support。输入ref2ab/modeld449/目标7c766/whole2f8、1995尾叶accuracy=false；旧2397只carrier。完整58源/145+7argv、333/317及13成员父/全E/无上限typed历史保原说明和b813672完整H。near32非typed上限，失败/未知不作空历史；09/10目标及费用不直接迁用。
 
 ## 闭面、全phase与非全等
 
