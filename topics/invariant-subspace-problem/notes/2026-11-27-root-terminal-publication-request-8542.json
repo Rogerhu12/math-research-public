@@ -1,19 +1,18 @@
 {
-  "message": "ISP R271: publish strict S2 original head source; first W reduced-cofactor norm input",
-  "parentCommit": "0eaa860726ab795d8522b051b5547d94c5b7aa19",
+  "message": "ISP R150: record complete Gram20 zero boundary and first exact F5 original retraction input",
+  "parentCommit": "48efc7d1a96c66fa21acd408c47cdab14773d0b0",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-one-pair-four-independent-s2-positive-head-source.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-one-pair-four-independent-s2-positive-head-boundary-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-value-C8-content-same-lambda-six-norm-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-value-C8-content-same-lambda-six-norm-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-w-value-content-six-norm.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-S2-positive-head-W-first-norm-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-S2-positive-head-W-first-norm-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-S2-positive-head-W-first-norm-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-last-block-complete-Gram-zero-return-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-P201-last-block-complete-original-Gram-values-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-H1-b-zero-316-scope-correction-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-F5-original-point-Dixon-pole-integral-retraction-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-F5-original-point-Dixon-pole-integral-retraction-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-f5-original-retraction.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-F5-original-retraction-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,6 +22,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-value-content-six-norm.yml"
+    "invariant-subspace-8542-phi-f5-original-retraction.yml"
   ]
 }
