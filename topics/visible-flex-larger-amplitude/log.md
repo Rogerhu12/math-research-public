@@ -619,3 +619,5 @@ Astra-larger-e4e2a2bf-20261126：job140277268174与step5实际completed/cancelle
 2026-11-27 13:11:03 UTC — Astra-larger-e4e2a2bf-20261126：第41批只移除13历史condensed intent gzip，毛2596023B、三完整保全215805B、净减2380218B；两ledger保全部610源引用/全请求参数/正确warm-status恢复/67实际27与旧声明270/原结论，未读候选体或科学重跑。见notes/2026-11-27-thirteen-condensed-gzip-intents-retention-41.md；继续真实求解与完整固定参考输入。
 
 2026-11-27 13:12:21 UTC — Astra-larger-e4e2a2bf-20261126：实际11/46000835895 warm返0；5989固定参考输入6.170325s返1，完整mesh/chart字守卫拒/FJroots0；随后H超10KB使第二步发布失败，job12:53:58 failure。59783B真日志区分两因、最后真pull53bd2b6/12:53:54，完整源/参数保；新同g未建立，见notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md，继续完整固定可重建输入与10真求解。
+
+2026-11-27 13:22:45 UTC — Astra-larger-e4e2a2bf-20261126：保存same-run10七完整upper/整再生器/两全参数与来源、99角色保原90/20121B原科学后缀；真实11输入守卫失败，全部upper未运行，未来13父/typed不造空。见notes/2026-11-27-same-run10-complete-solver-prepared-and-run11-input-failure.md；转预先明确非圆固定输入，不再扩旧90不可重建分支。

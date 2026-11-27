@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`e7cda931ef3078d13f0ebe0f400566a8e0377fa5`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`9458592347dbc9ab4a5909b592bfbd3666538836`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -48,6 +48,7 @@ R248仅活动像，固定p4须共同R650或全部mixed pairs；均值J≠normal 
 
 [11实际失败](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)：原561 warm真返0；5989固定输入6.170325s返1，完整mesh/chart-word守卫拒，F/J/roots0，report5149B/3a5506df。随后H≥10KB使终态发布失败；完整日志59783B已读、raw未入Git，非数学无解。尚无512/71f/081/e711重建或新场/费。完整原16argv/10outputs/36selectors与5aee/5989保[输入原文](notes/2026-11-27-same-run10-fixed-reference-cross-runner-reconstruction.md)。转可严格再生的完整固定输入；不松守卫、不把raw改名参数。
 
+[11未运行完整upper](notes/2026-11-27-same-run10-complete-solver-prepared-and-run11-input-failure.md)七体/完整构造/两全参数已刊，99角色保原90与原科学后缀；真实input失败，未排、不冒同g或完整父。
 继续10真实科学/pure与独立全域费用；完成闭面全phase/全像握持/共同A/R716、同问题实际mesh/频率/t精化和多t网格，不停在条件论证或job时间上。
 <!-- visible-larger-parallel-08:start -->
 [08终态](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)：45929088658/1、job140277268174真实cancelled（API08:24:27，观察08:25:18）；只1–10返，95559场/typed/pure未知，不猜取消因果。最后真实pull：2026-11-27 08:08:18 UTC→`812ff88bd83b5669770c0224269ee9dccfab7c9e`，双README无变。

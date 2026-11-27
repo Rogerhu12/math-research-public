@@ -118,3 +118,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [闭面全phase/grip](notes/2026-11-27-run10-closed-phase-grip-source-adapter.md)、[同点mesh/t](notes/2026-11-27-run10-complete-same-field-phase-meshes-and-refinement-inputs.md)完整体与全参数均刊未排；九角色/共同A/整像δhold/δE/真实精化仍欠，raw只runner。07/08/09全未知历史保，当前没有新场/费/精化真返；继续全部README目标。
 
 [11实际终态](notes/2026-11-27-run11-fixed-reference-word-mismatch-and-publication-failure.md)：warm返0，5989输入6.170325s返1/全mesh-chart字守卫拒，F/J/roots0；随后H超10KB发布失败。全输入源/16参数/10outputs/36selectors保原[完整说明](notes/2026-11-27-same-run10-fixed-reference-cross-runner-reconstruction.md)；原5aee/4e数学方法不松守卫，未重建同g，无后继场/费。转可重复完整固定输入或明确新目标，不能将raw改名参数或假同g；07–10全未知历史保。
+[同g prepared全源](notes/2026-11-27-same-run10-complete-solver-prepared-and-run11-input-failure.md)七upper/完整构造/两全参数保；11输入已失败，不执行为默认重试，不宣称重建成功。
