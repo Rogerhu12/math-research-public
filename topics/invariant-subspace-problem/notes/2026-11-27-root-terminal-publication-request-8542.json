@@ -1,15 +1,22 @@
 {
-  "message": "ISP: cover the entire W lambda three halves original fiber by three monic weight curves",
-  "parentCommit": "9b749875f8896e53d3c101ecd39fc1365bbfc864",
+  "message": "ISP: return the original exceptional Phi mean unit-six F26 curve and advance new original inputs",
+  "parentCommit": "17eda17024a8b1c566d096b64695cad64112f80c",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-lambda-three-halves-entire-original-three-curve-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-entire-original-three-curve-cover-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-three-halves-three-curves-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-W-three-halves-three-curves-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-original-mean-unit-six-F26-curve-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-F26-exact-input-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-general-rho-two-original-means-N1-input-8542.py",
+    ".github/workflows/invariant-subspace-phi-general-rho-two-original-means-n-one-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-Phi-zero-ell-one-whole-quartic-original-return-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-phi-zero-ell-one-quartic-original-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-lambda-three-halves-Ahat-zero-whole-original-QQ-return-8542.py",
+    ".github/workflows/invariant-subspace-w-lambda-three-halves-ahat-zero-original-qq-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Phi-F26-new-original-inputs-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-open-before-Phi-F26-new-original-inputs-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +25,9 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-phi-general-rho-two-original-means-n-one-8542.yml",
+    "invariant-subspace-equal-singleton-phi-zero-ell-one-quartic-original-8542.yml",
+    "invariant-subspace-w-lambda-three-halves-ahat-zero-original-qq-8542.yml"
+  ]
 }
