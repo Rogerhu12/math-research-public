@@ -46,7 +46,7 @@ R1113 §§8–9新增原B=D³−3UD−3V的完整联合简单谱、真实三Darb
 
 [R1113](results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)：原L=D²−2U在p维W上由全部Ψ零点的真实J_P对角化；零谱投影自动消失不证e单位。完整jet递推保−r(r−1)δ²J_(r−2)，e=0时K4是三项准确配对；原η_k=(16v²g0/(3δ))D_N(1)，g0为显式单位。ν及两指定读数非同时零继续，不能用完整Dixon反对称和替代。
 
-[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。
+[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原5H_p+(8a²/45)K_p=16G_(p−3)单位，H_p=0迫K_p=36/(aδ³)单位。§7已把K_p准确接到第二forced首项c₃：24c₃=−90G_(p−3)+(75/2)H_p+(2a³/3)V₂−(4a³/27)V₃+(a⁴/81)V₄，三个原低卷积完整保留；该角色仍须B_(p−5)good，非零/共纤维继续。
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)付两种CM的原Ψ=Z_<p^p+δT modT^(p²)，含原微分/CM角色/短ζ分母/负p极代换。原G单位现可作Ψ指定高系数，但不是短η_k/ν_k；真实三平移和Gaussian近p²下位卷积仍开。
 

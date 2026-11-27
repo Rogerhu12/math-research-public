@@ -45,8 +45,8 @@ W_{n-1}=90(-a)^{-k}G_{p-3}\ne0.
 \tag{1114.4}
 $$
 本文没有证明 $W_n$ 本身非零；不把 (1114.2) 改写成原 Gaussian
-斜率已经为单位。后一系数是否进入另一条原 forced 标签，
-仍须实际来源桥。
+斜率已经为单位。后一系数进入第二条原 forced 首项的完整公式见 §7；
+其中三个原低卷积仍须联合控制。
 
 ## 1. 同一个原参数与两个 Abel 积分
 
@@ -374,7 +374,7 @@ R1082 第一 forced 角色的原 coarse polynomial 已是仿射式：
 若要用失败支上的 $\mathcal K_p$，必须把它准确接到另一条
 原 forced 标签、实际高变分或其它已经授权的几何读数；
 所有 regularizer、Weil phase 和两条 Gaussian twist descent
-仍须保留。本文没有付这座后继桥。
+仍须保留。§7 给这座桥的完整公式，仍保三个待控制的原低卷积。
 
 本篇也不把 Gaussian $\mathcal H_p$ 或 $\mathcal K_p$ 换成
 O2 原 $r=2,8$ bare coefficient、原 $f_N/e$、短 $D^6$ 的
@@ -384,3 +384,143 @@ $\eta_k,\nu_k$ 或原 QC 最低 functional。
 来源：[R1082](R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)
 的 (1082.3)、(1082.21)、(1082.22)，以及本篇完整写出的原
 Gaussian 二挠加法律、$1+i$ 分布、形式残数和 Lagrange 公式。
+
+
+## 7. 相邻量进入第二个原 forced 首项的完整公式
+
+本节把 §6 留下的来源比较推进到准确的全项公式，不删去剩余卷积。
+仍取同一个原 $t,u,z,F,G$，另写
+$$
+R_0(z)=(1-z)^{-1/2},\qquad
+h=u^{-1}R_0(z)^{-1},\qquad
+A=\frac{u^3}{3}G(z).
+$$
+这里 $A$ 是 §1 的原 $S(t)$，而
+$$
+x=u^{-2},\quad y=-u^{-3}R_0^{-1},\quad
+\zeta=h-aA.
+\tag{1114.33}
+$$
+最后一式正是 (1114.13)，不是另选一个第二类 primitive。
+
+记 R1116 的同一最高安全 band 为
+$P_k(t,U)=\sum_s c_s t^{p-4-s}U^s$。
+由原完整 Appell 多项式，
+$$
+24c_3=[t^{p-7}]\mathcal C_4(\zeta;x,y,a),
+$$
+$$
+\mathcal C_4=\zeta^4-6x\zeta^2-8y\zeta-3x^2-\frac{12a}{5}.
+\tag{1114.34}
+$$
+此处仍保 sigma 分母给的 $-12a/5$。
+
+### 7.1 在原 $u$ 中的六项完整展开
+
+用 $h^2=x+au^2$、$y=-xh$ 展开 (1114.34)，准确得到
+$$
+\begin{aligned}
+\mathcal C_4={}&
+ \frac{8a}{5}+a^2u^4
+ -\frac{4a^2}{3}u^4R_0^{-1}G
+ +\frac{2a^3}{3}u^8G^2\\
+&-\frac{4a^3}{27}u^8R_0^{-1}G^3
+ +\frac{a^4}{81}u^{12}G^4.
+\end{aligned}
+\tag{1114.35}
+$$
+例如线性 $A$ 项是
+$-4ah^3A+4axhA=-4a^2u^2hA$；
+二次项是 $6a^2(h^2-x)A^2=6a^3u^2A^2$。
+常数部分为
+$h^4+2xh^2-3x^2-12a/5=8a/5+a^2u^4$。
+这逐项支付了全部符号及系数。
+
+令 $M=p-7$。在真实换元 $t=uF(z)$ 下，
+$dt=R_0(z)\,du$，所以形式残数给
+$$
+[t^M]\mathcal C_4(t)
+=[u^M]\mathcal C_4(u)F(z)^{-M-1}R_0(z)
+=[u^M]\mathcal C_4(u)F(z)^6R_0(z)\pmod p.
+\tag{1114.36}
+$$
+最后一步只在这次安全前缀上使用 $-M-1=6-p$。
+$\mathcal C_4(u)$ 是正规幂级数，$F^{-p}-1$ 首项至少为 $u^{4p}$；
+它不可能回流到 $M<p$。
+所有 $G$ 只读到 $j\le k-1$，未读取第一个 $p$ 分母。
+$t(T)$ 与原整 eigenparameter 的差仍在本次范围之外。
+
+常数部分的贡献恰为零：
+$$
+[u^M]F^6R_0
+=\left(1+\frac M7\right)[u^M]F^7=0\pmod p,
+$$
+这里用 $R_0=F+u\,dF/du$。
+$a^2u^4$ 项则由同一个残数换元和 (1114.23) 给
+$$
+a^2[u^{p-11}]F^6R_0
+=a^2[t^{p-7}]x^{-2}
+=30G_{p-3}.
+\tag{1114.37}
+$$
+
+定义三个明确的原低卷积
+$$
+\begin{aligned}
+\mathcal V_2&=[u^{p-15}]F(-au^4)^6R_0(-au^4)G(-au^4)^2,\\
+\mathcal V_3&=[u^{p-15}]F(-au^4)^6G(-au^4)^3,\\
+\mathcal V_4&=[u^{p-19}]F(-au^4)^6R_0(-au^4)G(-au^4)^4.
+\end{aligned}
+$$
+将 (1114.35) 全部代入，得到
+$$
+\boxed{
+24c_3=
+30G_{p-3}-\frac{4a^2}{3}\mathcal K_p
++\frac{2a^3}{3}\mathcal V_2-\frac{4a^3}{27}\mathcal V_3
++\frac{a^4}{81}\mathcal V_4.
+}
+\tag{1114.38}
+$$
+再仅用本篇已证 (1114.31) 消去 $\mathcal K_p$：
+$$
+\boxed{
+24c_3=
+-90G_{p-3}+\frac{75}{2}\mathcal H_p
++\frac{2a^3}{3}\mathcal V_2-\frac{4a^3}{27}\mathcal V_3
++\frac{a^4}{81}\mathcal V_4.
+}
+\tag{1114.39}
+$$
+特别在 $\mathcal H_p=0$ 支，已知单位项是
+$-90G_{p-3}$；其余三项仍必须共同结算，不能删去后宣称 $c_3$ 单位。
+
+### 7.2 原角色、尺度和仍未付的非零
+
+这个 $c_3$ 确实是第二 forced 角色
+$$
+R=p-5,\quad r=4,\quad \chi=\omega^{p-5},\quad
+d=p^2-6p-3
+$$
+的原 coarse 一阶读数。若该角色实际 Bernoulli-good，
+即 $p\nmid B_{p-5}$，R1116 (1116.20) 精确给
+$$
+[z_{\rm coarse}]
+ \bigl(c_{\chi,s}(z_{\rm coarse})-c_{\chi,s}(0)\bigr)
+=-\frac{6\,\beta_0^d\lambda_{\rm src}^{\,2}}
+        {b_\chi\delta^3}\,c_3.
+\tag{1114.40}
+$$
+这里 $\lambda_{\rm src}$ 是 R1071 的原节点尺度，
+不是 §2 的 CM 同源 $1+i$；真实 Weil 相位及两条 twist line
+仍按原公式共同运输。若该角色不 good，不能除以 $b_\chi$。
+
+该角色的完整 fine 指数还允许 $i=4$，所以其完整 coarse
+profile 一般为二次式；(1114.40) 只声明中心一阶的来源。
+本节给出了 $\mathcal K_p$ 到一个真正 forced 首项的完整比较，
+同时准确显示了必须继续控制的三个原卷积。
+它未证明 $c_3$ 非零、未排原全 good 首项共同零或完整标签重值。
+
+本节由 root 推导，o2_high_coefficient 独立逐项纸核。
+只消费 R1114 的同一安全 Lagrange 与 R1116 的原 Appell/角色尺度，
+无数学程序执行。
