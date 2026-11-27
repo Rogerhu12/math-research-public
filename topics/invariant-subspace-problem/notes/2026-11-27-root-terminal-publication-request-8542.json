@@ -1,17 +1,18 @@
 {
-  "message": "ISP: prove Y is an actual Gram unit and w is integral of degree at most six",
-  "parentCommit": "9e88ddb4355191ec4311515c92aab745cfde00b8",
+  "message": "ISP: run new original collision rows using one cleared Gram and monic ell",
+  "parentCommit": "f842fa698a905ddbcb910aa2184d8457f518997a",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-Gram-Y-unit-monic-w-degree-six-source-scope-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-five-plus-five-NameError-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-five-plus-five-NameError-and-Vbar-correction-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-five-plus-five-original-value-fixed-cofactors-Vbar-corrected-8542.py",
-    ".github/workflows/invariant-subspace-w-five-plus-five-original-cofactors-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-rank-one-centered-value-original-gram-helper-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-h-one-cleared-original-eight-values-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-monic-ell-original-unit-return-8542.py",
+    ".github/workflows/invariant-subspace-general-h-one-cleared-original-values-8542.yml",
+    ".github/workflows/invariant-subspace-phi-h-one-monic-ell-original-unit-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-h-one-cleared-original-inputs-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-cleared-collision-inputs-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +22,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-five-plus-five-original-cofactors-8542.yml"
+    "invariant-subspace-general-h-one-cleared-original-values-8542.yml",
+    "invariant-subspace-phi-h-one-monic-ell-original-unit-8542.yml"
   ]
 }
