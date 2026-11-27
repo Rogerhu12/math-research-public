@@ -1,0 +1,2649 @@
+{
+  "cubic_head": {
+    "canonicalSource": "notes/2026-11-27-unit211-general-ell-zero-original-cubic-head-atlas-8542.py",
+    "execution": {
+      "sourceSHA256": "7ea667adf43069f5190a2014178425abe471e7446228a743a92aa4c46de0784f",
+      "startedUTC": "2026-11-27T06:47:01.320962+00:00",
+      "elapsedSeconds": 0.3614487459999509,
+      "exitCode": 0,
+      "maxChildRSSKiB": 31336,
+      "stdoutBytes": 11927,
+      "stdoutSHA256": "0910955c9e9fb8ed86a0d64bc4163195799fd96ab7c4e264929bc4f761d2c7d5",
+      "stderr": "",
+      "runtime": "Python3.12.14/python-flint0.9.0",
+      "limits": "alarm60s/1GiB/one thread"
+    },
+    "actualEvidenceStages": [
+      {
+        "stage": "new_general_ell_zero_same_original_Gram",
+        "originalE0N0P1Verified": true,
+        "weightedOriginalNPThroughHAHBVerified": true,
+        "originalDistinctValueRetained": true,
+        "wholeWeightChartExcluded": false,
+        "seconds": 0.08554229499713983
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "E1",
+        "degrees": [
+          3,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 25,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08640492599806748
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBe",
+        "degrees": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 9,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08657747699908214
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBo",
+        "degrees": [
+          2,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 12,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08676923599705333
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "N1",
+        "degrees": [
+          5,
+          3,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 115,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.088442139000108
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_N",
+        "degrees": [
+          6,
+          6,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 469,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.09207618999789702
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_P",
+        "degrees": [
+          6,
+          6,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 420,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.09517746799974702
+      },
+      {
+        "stage": "new_general_ell_zero_paid_or_explicit_chart_four_original_rules",
+        "selectedColumns": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "quadraticHeadUnpaidFactorization": {
+          "content": "-2",
+          "factors": [],
+          "entireProductMultipliedBack": true
+        },
+        "chartGlobalAfterPreviouslyPaidUnits": true,
+        "all16InverseProductsOne": true,
+        "allFourOriginalTraceProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.1061674939992372
+      },
+      {
+        "stage": "new_general_ell_zero_original_cubic_overlap",
+        "index": 0,
+        "remainingMonomials": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "maxWeightNumeratorDegrees": [
+          5,
+          4
+        ],
+        "allOriginalSixTraceProductsVerified": true,
+        "allDenominatorsSupportedByExplicitChart": true,
+        "claimExcluded": false,
+        "seconds": 0.12598742899717763
+      },
+      {
+        "stage": "new_general_ell_zero_original_cubic_overlap",
+        "index": 1,
+        "remainingMonomials": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "maxWeightNumeratorDegrees": [
+          9,
+          7
+        ],
+        "allOriginalSixTraceProductsVerified": true,
+        "allDenominatorsSupportedByExplicitChart": true,
+        "claimExcluded": false,
+        "seconds": 0.17249528799584368
+      },
+      {
+        "stage": "new_general_ell_zero_original_cubic_overlap",
+        "index": 2,
+        "remainingMonomials": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "maxWeightNumeratorDegrees": [
+          5,
+          4
+        ],
+        "allOriginalSixTraceProductsVerified": true,
+        "allDenominatorsSupportedByExplicitChart": true,
+        "claimExcluded": false,
+        "seconds": 0.18383921799977543
+      },
+      {
+        "stage": "new_general_ell_zero_original_cubic_overlap",
+        "index": 3,
+        "remainingMonomials": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "maxWeightNumeratorDegrees": [
+          9,
+          7
+        ],
+        "allOriginalSixTraceProductsVerified": true,
+        "allDenominatorsSupportedByExplicitChart": true,
+        "claimExcluded": false,
+        "seconds": 0.22300057599932188
+      },
+      {
+        "stage": "new_general_ell_zero_full_cubic_head",
+        "rows": [
+          0,
+          1
+        ],
+        "numeratorDegrees": [
+          8,
+          7
+        ],
+        "numeratorTerms": 61,
+        "paidRemoved": [],
+        "unpaid": {
+          "content": "1/4",
+          "factors": [
+            {
+              "degrees": [
+                8,
+                7
+              ],
+              "totalDegree": 12,
+              "terms": 61,
+              "multiplicity": 1,
+              "sha256": "c8dc5cc1f15b98cd9cad7a6406650eab0ea95f15ba8801ba2b92cfbbb6fa9554",
+              "coefficients_u_Q": [
+                [
+                  8,
+                  4,
+                  "64"
+                ],
+                [
+                  8,
+                  3,
+                  "-192"
+                ],
+                [
+                  8,
+                  2,
+                  "192"
+                ],
+                [
+                  8,
+                  1,
+                  "-64"
+                ],
+                [
+                  7,
+                  5,
+                  "64"
+                ],
+                [
+                  7,
+                  4,
+                  "-768"
+                ],
+                [
+                  7,
+                  3,
+                  "1984"
+                ],
+                [
+                  7,
+                  2,
+                  "-2048"
+                ],
+                [
+                  7,
+                  1,
+                  "896"
+                ],
+                [
+                  7,
+                  0,
+                  "-128"
+                ],
+                [
+                  6,
+                  5,
+                  "-512"
+                ],
+                [
+                  6,
+                  4,
+                  "3904"
+                ],
+                [
+                  6,
+                  3,
+                  "-9280"
+                ],
+                [
+                  6,
+                  2,
+                  "9920"
+                ],
+                [
+                  6,
+                  1,
+                  "-5056"
+                ],
+                [
+                  6,
+                  0,
+                  "1024"
+                ],
+                [
+                  5,
+                  6,
+                  "-16"
+                ],
+                [
+                  5,
+                  5,
+                  "1872"
+                ],
+                [
+                  5,
+                  4,
+                  "-11392"
+                ],
+                [
+                  5,
+                  3,
+                  "25664"
+                ],
+                [
+                  5,
+                  2,
+                  "-28032"
+                ],
+                [
+                  5,
+                  1,
+                  "15360"
+                ],
+                [
+                  5,
+                  0,
+                  "-3456"
+                ],
+                [
+                  4,
+                  6,
+                  "108"
+                ],
+                [
+                  4,
+                  5,
+                  "-4080"
+                ],
+                [
+                  4,
+                  4,
+                  "21208"
+                ],
+                [
+                  4,
+                  3,
+                  "-45616"
+                ],
+                [
+                  4,
+                  2,
+                  "49824"
+                ],
+                [
+                  4,
+                  1,
+                  "-27840"
+                ],
+                [
+                  4,
+                  0,
+                  "6400"
+                ],
+                [
+                  3,
+                  6,
+                  "-292"
+                ],
+                [
+                  3,
+                  5,
+                  "5704"
+                ],
+                [
+                  3,
+                  4,
+                  "-25896"
+                ],
+                [
+                  3,
+                  3,
+                  "52864"
+                ],
+                [
+                  3,
+                  2,
+                  "-56448"
+                ],
+                [
+                  3,
+                  1,
+                  "31104"
+                ],
+                [
+                  3,
+                  0,
+                  "-7040"
+                ],
+                [
+                  2,
+                  7,
+                  "-1"
+                ],
+                [
+                  2,
+                  6,
+                  "406"
+                ],
+                [
+                  2,
+                  5,
+                  "-5076"
+                ],
+                [
+                  2,
+                  4,
+                  "20192"
+                ],
+                [
+                  2,
+                  3,
+                  "-38624"
+                ],
+                [
+                  2,
+                  2,
+                  "39552"
+                ],
+                [
+                  2,
+                  1,
+                  "-21056"
+                ],
+                [
+                  2,
+                  0,
+                  "4608"
+                ],
+                [
+                  1,
+                  7,
+                  "4"
+                ],
+                [
+                  1,
+                  6,
+                  "-300"
+                ],
+                [
+                  1,
+                  5,
+                  "2640"
+                ],
+                [
+                  1,
+                  4,
+                  "-9128"
+                ],
+                [
+                  1,
+                  3,
+                  "16128"
+                ],
+                [
+                  1,
+                  2,
+                  "-15616"
+                ],
+                [
+                  1,
+                  1,
+                  "7936"
+                ],
+                [
+                  1,
+                  0,
+                  "-1664"
+                ],
+                [
+                  0,
+                  7,
+                  "-4"
+                ],
+                [
+                  0,
+                  6,
+                  "96"
+                ],
+                [
+                  0,
+                  5,
+                  "-612"
+                ],
+                [
+                  0,
+                  4,
+                  "1816"
+                ],
+                [
+                  0,
+                  3,
+                  "-2928"
+                ],
+                [
+                  0,
+                  2,
+                  "2656"
+                ],
+                [
+                  0,
+                  1,
+                  "-1280"
+                ],
+                [
+                  0,
+                  0,
+                  "256"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "actualOriginalOverlapSources": true,
+        "allPaidProductsMultipliedBack": true,
+        "wholeWeightPlaneExcluded": false,
+        "seconds": 0.2282195279985899
+      },
+      {
+        "stage": "new_general_ell_zero_full_cubic_head",
+        "rows": [
+          0,
+          2
+        ],
+        "numeratorDegrees": [
+          3,
+          3
+        ],
+        "numeratorTerms": 12,
+        "paidRemoved": [
+          [
+            "u_minus_one",
+            2
+          ],
+          [
+            "Q",
+            1
+          ],
+          [
+            "Q_minus_one",
+            1
+          ]
+        ],
+        "unpaid": {
+          "content": "-4",
+          "factors": [
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 2,
+              "terms": 4,
+              "multiplicity": 1,
+              "sha256": "c77ca6ca84a310ca8275700a9f159e345f357ed7d8da7f6c017f540fe4f91df2",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  1,
+                  "2"
+                ],
+                [
+                  1,
+                  0,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "-3"
+                ],
+                [
+                  0,
+                  0,
+                  "2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "actualOriginalOverlapSources": true,
+        "allPaidProductsMultipliedBack": true,
+        "wholeWeightPlaneExcluded": false,
+        "seconds": 0.2308744129986735
+      },
+      {
+        "stage": "new_general_ell_zero_full_cubic_head",
+        "rows": [
+          0,
+          3
+        ],
+        "numeratorDegrees": [
+          8,
+          8
+        ],
+        "numeratorTerms": 66,
+        "paidRemoved": [
+          [
+            "Q_minus_one",
+            1
+          ]
+        ],
+        "unpaid": {
+          "content": "1/2",
+          "factors": [
+            {
+              "degrees": [
+                8,
+                7
+              ],
+              "totalDegree": 12,
+              "terms": 57,
+              "multiplicity": 1,
+              "sha256": "d54f336393232af8c82a04fc47255cf19db1391244b991176519f25c8fe04b9e",
+              "coefficients_u_Q": [
+                [
+                  8,
+                  4,
+                  "64"
+                ],
+                [
+                  8,
+                  3,
+                  "-192"
+                ],
+                [
+                  8,
+                  2,
+                  "192"
+                ],
+                [
+                  8,
+                  1,
+                  "-64"
+                ],
+                [
+                  7,
+                  4,
+                  "-512"
+                ],
+                [
+                  7,
+                  3,
+                  "1536"
+                ],
+                [
+                  7,
+                  2,
+                  "-1664"
+                ],
+                [
+                  7,
+                  1,
+                  "768"
+                ],
+                [
+                  7,
+                  0,
+                  "-128"
+                ],
+                [
+                  6,
+                  4,
+                  "1824"
+                ],
+                [
+                  6,
+                  3,
+                  "-5632"
+                ],
+                [
+                  6,
+                  2,
+                  "6624"
+                ],
+                [
+                  6,
+                  1,
+                  "-3584"
+                ],
+                [
+                  6,
+                  0,
+                  "768"
+                ],
+                [
+                  5,
+                  5,
+                  "32"
+                ],
+                [
+                  5,
+                  4,
+                  "-3952"
+                ],
+                [
+                  5,
+                  3,
+                  "12432"
+                ],
+                [
+                  5,
+                  2,
+                  "-15296"
+                ],
+                [
+                  5,
+                  1,
+                  "8704"
+                ],
+                [
+                  5,
+                  0,
+                  "-1920"
+                ],
+                [
+                  4,
+                  6,
+                  "4"
+                ],
+                [
+                  4,
+                  5,
+                  "-200"
+                ],
+                [
+                  4,
+                  4,
+                  "5824"
+                ],
+                [
+                  4,
+                  3,
+                  "-17728"
+                ],
+                [
+                  4,
+                  2,
+                  "21696"
+                ],
+                [
+                  4,
+                  1,
+                  "-12160"
+                ],
+                [
+                  4,
+                  0,
+                  "2560"
+                ],
+                [
+                  3,
+                  6,
+                  "-16"
+                ],
+                [
+                  3,
+                  5,
+                  "444"
+                ],
+                [
+                  3,
+                  4,
+                  "-5768"
+                ],
+                [
+                  3,
+                  3,
+                  "16096"
+                ],
+                [
+                  3,
+                  2,
+                  "-18816"
+                ],
+                [
+                  3,
+                  1,
+                  "9984"
+                ],
+                [
+                  3,
+                  0,
+                  "-1920"
+                ],
+                [
+                  2,
+                  7,
+                  "1"
+                ],
+                [
+                  2,
+                  6,
+                  "10"
+                ],
+                [
+                  2,
+                  5,
+                  "-396"
+                ],
+                [
+                  2,
+                  4,
+                  "3424"
+                ],
+                [
+                  2,
+                  3,
+                  "-8640"
+                ],
+                [
+                  2,
+                  2,
+                  "9440"
+                ],
+                [
+                  2,
+                  1,
+                  "-4608"
+                ],
+                [
+                  2,
+                  0,
+                  "768"
+                ],
+                [
+                  1,
+                  7,
+                  "-4"
+                ],
+                [
+                  1,
+                  6,
+                  "24"
+                ],
+                [
+                  1,
+                  5,
+                  "84"
+                ],
+                [
+                  1,
+                  4,
+                  "-952"
+                ],
+                [
+                  1,
+                  3,
+                  "2320"
+                ],
+                [
+                  1,
+                  2,
+                  "-2368"
+                ],
+                [
+                  1,
+                  1,
+                  "1024"
+                ],
+                [
+                  1,
+                  0,
+                  "-128"
+                ],
+                [
+                  0,
+                  7,
+                  "4"
+                ],
+                [
+                  0,
+                  6,
+                  "-24"
+                ],
+                [
+                  0,
+                  5,
+                  "36"
+                ],
+                [
+                  0,
+                  4,
+                  "48"
+                ],
+                [
+                  0,
+                  3,
+                  "-192"
+                ],
+                [
+                  0,
+                  2,
+                  "192"
+                ],
+                [
+                  0,
+                  1,
+                  "-64"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "actualOriginalOverlapSources": true,
+        "allPaidProductsMultipliedBack": true,
+        "wholeWeightPlaneExcluded": false,
+        "seconds": 0.23553687499952503
+      },
+      {
+        "stage": "new_general_ell_zero_full_cubic_head",
+        "rows": [
+          1,
+          2
+        ],
+        "numeratorDegrees": [
+          8,
+          7
+        ],
+        "numeratorTerms": 64,
+        "paidRemoved": [
+          [
+            "Q_minus_one",
+            1
+          ]
+        ],
+        "unpaid": {
+          "content": "-1/2",
+          "factors": [
+            {
+              "degrees": [
+                8,
+                6
+              ],
+              "totalDegree": 11,
+              "terms": 55,
+              "multiplicity": 1,
+              "sha256": "58442d0c87b4dbc0ef795785af496ac34921d9749cd6cdbd2eaec890d2aac104",
+              "coefficients_u_Q": [
+                [
+                  8,
+                  3,
+                  "64"
+                ],
+                [
+                  8,
+                  2,
+                  "-192"
+                ],
+                [
+                  8,
+                  1,
+                  "192"
+                ],
+                [
+                  8,
+                  0,
+                  "-64"
+                ],
+                [
+                  7,
+                  4,
+                  "128"
+                ],
+                [
+                  7,
+                  3,
+                  "-960"
+                ],
+                [
+                  7,
+                  2,
+                  "2048"
+                ],
+                [
+                  7,
+                  1,
+                  "-1728"
+                ],
+                [
+                  7,
+                  0,
+                  "512"
+                ],
+                [
+                  6,
+                  5,
+                  "64"
+                ],
+                [
+                  6,
+                  4,
+                  "-1184"
+                ],
+                [
+                  6,
+                  3,
+                  "5248"
+                ],
+                [
+                  6,
+                  2,
+                  "-8928"
+                ],
+                [
+                  6,
+                  1,
+                  "6528"
+                ],
+                [
+                  6,
+                  0,
+                  "-1728"
+                ],
+                [
+                  5,
+                  5,
+                  "-416"
+                ],
+                [
+                  5,
+                  4,
+                  "4384"
+                ],
+                [
+                  5,
+                  3,
+                  "-14624"
+                ],
+                [
+                  5,
+                  2,
+                  "20960"
+                ],
+                [
+                  5,
+                  1,
+                  "-13504"
+                ],
+                [
+                  5,
+                  0,
+                  "3200"
+                ],
+                [
+                  4,
+                  6,
+                  "8"
+                ],
+                [
+                  4,
+                  5,
+                  "1052"
+                ],
+                [
+                  4,
+                  4,
+                  "-8432"
+                ],
+                [
+                  4,
+                  3,
+                  "23264"
+                ],
+                [
+                  4,
+                  2,
+                  "-29008"
+                ],
+                [
+                  4,
+                  1,
+                  "16640"
+                ],
+                [
+                  4,
+                  0,
+                  "-3520"
+                ],
+                [
+                  3,
+                  6,
+                  "-44"
+                ],
+                [
+                  3,
+                  5,
+                  "-1272"
+                ],
+                [
+                  3,
+                  4,
+                  "8992"
+                ],
+                [
+                  3,
+                  3,
+                  "-21696"
+                ],
+                [
+                  3,
+                  2,
+                  "24064"
+                ],
+                [
+                  3,
+                  1,
+                  "-12352"
+                ],
+                [
+                  3,
+                  0,
+                  "2304"
+                ],
+                [
+                  2,
+                  6,
+                  "89"
+                ],
+                [
+                  2,
+                  5,
+                  "684"
+                ],
+                [
+                  2,
+                  4,
+                  "-5124"
+                ],
+                [
+                  2,
+                  3,
+                  "11392"
+                ],
+                [
+                  2,
+                  2,
+                  "-11456"
+                ],
+                [
+                  2,
+                  1,
+                  "5248"
+                ],
+                [
+                  2,
+                  0,
+                  "-832"
+                ],
+                [
+                  1,
+                  6,
+                  "-80"
+                ],
+                [
+                  1,
+                  5,
+                  "-56"
+                ],
+                [
+                  1,
+                  4,
+                  "1288"
+                ],
+                [
+                  1,
+                  3,
+                  "-2912"
+                ],
+                [
+                  1,
+                  2,
+                  "2720"
+                ],
+                [
+                  1,
+                  1,
+                  "-1088"
+                ],
+                [
+                  1,
+                  0,
+                  "128"
+                ],
+                [
+                  0,
+                  6,
+                  "28"
+                ],
+                [
+                  0,
+                  5,
+                  "-56"
+                ],
+                [
+                  0,
+                  4,
+                  "-52"
+                ],
+                [
+                  0,
+                  3,
+                  "224"
+                ],
+                [
+                  0,
+                  2,
+                  "-208"
+                ],
+                [
+                  0,
+                  1,
+                  "64"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "actualOriginalOverlapSources": true,
+        "allPaidProductsMultipliedBack": true,
+        "wholeWeightPlaneExcluded": false,
+        "seconds": 0.23964027399779297
+      },
+      {
+        "stage": "new_general_ell_zero_full_cubic_head",
+        "rows": [
+          1,
+          3
+        ],
+        "numeratorDegrees": [
+          8,
+          9
+        ],
+        "numeratorTerms": 74,
+        "paidRemoved": [
+          [
+            "Q_minus_one",
+            3
+          ]
+        ],
+        "unpaid": {
+          "content": "1",
+          "factors": [
+            {
+              "degrees": [
+                8,
+                6
+              ],
+              "totalDegree": 11,
+              "terms": 48,
+              "multiplicity": 1,
+              "sha256": "640f42714448e4329e6e1729511d25a281b3996ac449934807d0382334e4b2c2",
+              "coefficients_u_Q": [
+                [
+                  8,
+                  3,
+                  "64"
+                ],
+                [
+                  8,
+                  2,
+                  "-64"
+                ],
+                [
+                  8,
+                  1,
+                  "-64"
+                ],
+                [
+                  8,
+                  0,
+                  "64"
+                ],
+                [
+                  7,
+                  3,
+                  "-384"
+                ],
+                [
+                  7,
+                  2,
+                  "192"
+                ],
+                [
+                  7,
+                  1,
+                  "576"
+                ],
+                [
+                  7,
+                  0,
+                  "-384"
+                ],
+                [
+                  6,
+                  4,
+                  "64"
+                ],
+                [
+                  6,
+                  3,
+                  "704"
+                ],
+                [
+                  6,
+                  2,
+                  "320"
+                ],
+                [
+                  6,
+                  1,
+                  "-1984"
+                ],
+                [
+                  6,
+                  0,
+                  "960"
+                ],
+                [
+                  5,
+                  4,
+                  "-384"
+                ],
+                [
+                  5,
+                  3,
+                  "48"
+                ],
+                [
+                  5,
+                  2,
+                  "-2144"
+                ],
+                [
+                  5,
+                  1,
+                  "3520"
+                ],
+                [
+                  5,
+                  0,
+                  "-1280"
+                ],
+                [
+                  4,
+                  5,
+                  "12"
+                ],
+                [
+                  4,
+                  4,
+                  "864"
+                ],
+                [
+                  4,
+                  3,
+                  "-1744"
+                ],
+                [
+                  4,
+                  2,
+                  "3792"
+                ],
+                [
+                  4,
+                  1,
+                  "-3520"
+                ],
+                [
+                  4,
+                  0,
+                  "960"
+                ],
+                [
+                  3,
+                  5,
+                  "-60"
+                ],
+                [
+                  3,
+                  4,
+                  "-888"
+                ],
+                [
+                  3,
+                  3,
+                  "2336"
+                ],
+                [
+                  3,
+                  2,
+                  "-3264"
+                ],
+                [
+                  3,
+                  1,
+                  "1984"
+                ],
+                [
+                  3,
+                  0,
+                  "-384"
+                ],
+                [
+                  2,
+                  6,
+                  "1"
+                ],
+                [
+                  2,
+                  5,
+                  "100"
+                ],
+                [
+                  2,
+                  4,
+                  "388"
+                ],
+                [
+                  2,
+                  3,
+                  "-1312"
+                ],
+                [
+                  2,
+                  2,
+                  "1440"
+                ],
+                [
+                  2,
+                  1,
+                  "-576"
+                ],
+                [
+                  2,
+                  0,
+                  "64"
+                ],
+                [
+                  1,
+                  6,
+                  "-4"
+                ],
+                [
+                  1,
+                  5,
+                  "-60"
+                ],
+                [
+                  1,
+                  4,
+                  "-32"
+                ],
+                [
+                  1,
+                  3,
+                  "304"
+                ],
+                [
+                  1,
+                  2,
+                  "-288"
+                ],
+                [
+                  1,
+                  1,
+                  "64"
+                ],
+                [
+                  0,
+                  6,
+                  "4"
+                ],
+                [
+                  0,
+                  5,
+                  "8"
+                ],
+                [
+                  0,
+                  4,
+                  "-12"
+                ],
+                [
+                  0,
+                  3,
+                  "-16"
+                ],
+                [
+                  0,
+                  2,
+                  "16"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "actualOriginalOverlapSources": true,
+        "allPaidProductsMultipliedBack": true,
+        "wholeWeightPlaneExcluded": false,
+        "seconds": 0.24575158199877478
+      },
+      {
+        "stage": "new_general_ell_zero_full_cubic_head",
+        "rows": [
+          2,
+          3
+        ],
+        "numeratorDegrees": [
+          8,
+          8
+        ],
+        "numeratorTerms": 67,
+        "paidRemoved": [
+          [
+            "Q_minus_one",
+            2
+          ]
+        ],
+        "unpaid": {
+          "content": "1",
+          "factors": [
+            {
+              "degrees": [
+                8,
+                6
+              ],
+              "totalDegree": 11,
+              "terms": 50,
+              "multiplicity": 1,
+              "sha256": "4b55bd87bc37ee1fdbbbe663535e78ac82f83af6ae6b68e35eca7803c1881679",
+              "coefficients_u_Q": [
+                [
+                  8,
+                  3,
+                  "64"
+                ],
+                [
+                  8,
+                  2,
+                  "-192"
+                ],
+                [
+                  8,
+                  1,
+                  "192"
+                ],
+                [
+                  8,
+                  0,
+                  "-64"
+                ],
+                [
+                  7,
+                  4,
+                  "64"
+                ],
+                [
+                  7,
+                  3,
+                  "-704"
+                ],
+                [
+                  7,
+                  2,
+                  "1600"
+                ],
+                [
+                  7,
+                  1,
+                  "-1344"
+                ],
+                [
+                  7,
+                  0,
+                  "384"
+                ],
+                [
+                  6,
+                  4,
+                  "-448"
+                ],
+                [
+                  6,
+                  3,
+                  "2944"
+                ],
+                [
+                  6,
+                  2,
+                  "-5440"
+                ],
+                [
+                  6,
+                  1,
+                  "3904"
+                ],
+                [
+                  6,
+                  0,
+                  "-960"
+                ],
+                [
+                  5,
+                  5,
+                  "16"
+                ],
+                [
+                  5,
+                  4,
+                  "1216"
+                ],
+                [
+                  5,
+                  3,
+                  "-6256"
+                ],
+                [
+                  5,
+                  2,
+                  "9824"
+                ],
+                [
+                  5,
+                  1,
+                  "-6080"
+                ],
+                [
+                  5,
+                  0,
+                  "1280"
+                ],
+                [
+                  4,
+                  5,
+                  "-100"
+                ],
+                [
+                  4,
+                  4,
+                  "-1568"
+                ],
+                [
+                  4,
+                  3,
+                  "7376"
+                ],
+                [
+                  4,
+                  2,
+                  "-10192"
+                ],
+                [
+                  4,
+                  1,
+                  "5440"
+                ],
+                [
+                  4,
+                  0,
+                  "-960"
+                ],
+                [
+                  3,
+                  5,
+                  "236"
+                ],
+                [
+                  3,
+                  4,
+                  "888"
+                ],
+                [
+                  3,
+                  3,
+                  "-4832"
+                ],
+                [
+                  3,
+                  2,
+                  "6080"
+                ],
+                [
+                  3,
+                  1,
+                  "-2752"
+                ],
+                [
+                  3,
+                  0,
+                  "384"
+                ],
+                [
+                  2,
+                  6,
+                  "-1"
+                ],
+                [
+                  2,
+                  5,
+                  "-252"
+                ],
+                [
+                  2,
+                  4,
+                  "-68"
+                ],
+                [
+                  2,
+                  3,
+                  "1632"
+                ],
+                [
+                  2,
+                  2,
+                  "-1952"
+                ],
+                [
+                  2,
+                  1,
+                  "704"
+                ],
+                [
+                  2,
+                  0,
+                  "-64"
+                ],
+                [
+                  1,
+                  6,
+                  "4"
+                ],
+                [
+                  1,
+                  5,
+                  "108"
+                ],
+                [
+                  1,
+                  4,
+                  "-96"
+                ],
+                [
+                  1,
+                  3,
+                  "-240"
+                ],
+                [
+                  1,
+                  2,
+                  "288"
+                ],
+                [
+                  1,
+                  1,
+                  "-64"
+                ],
+                [
+                  0,
+                  6,
+                  "-4"
+                ],
+                [
+                  0,
+                  5,
+                  "-8"
+                ],
+                [
+                  0,
+                  4,
+                  "12"
+                ],
+                [
+                  0,
+                  3,
+                  "16"
+                ],
+                [
+                  0,
+                  2,
+                  "-16"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "actualOriginalOverlapSources": true,
+        "allPaidProductsMultipliedBack": true,
+        "wholeWeightPlaneExcluded": false,
+        "seconds": 0.2503932129984605
+      },
+      {
+        "stage": "new_general_ell_zero_cubic_atlas_complete",
+        "allSixMinorsFormed": true,
+        "allFourOriginalOverlapsMultipliedBack": true,
+        "originalSixRowSourceVerified": true,
+        "completeUnpaidNumeratorGCD": {
+          "content": "1",
+          "factors": [],
+          "entireProductMultipliedBack": true
+        },
+        "gcdNotUsedAsMultivariateEmptiness": true,
+        "sourceSHA256": "7ea667adf43069f5190a2014178425abe471e7446228a743a92aa4c46de0784f",
+        "peakRssKiB": 30480,
+        "ordinaryISPClaim": false,
+        "entireEllZeroExcluded": false,
+        "seconds": 0.25060488199960673
+      }
+    ]
+  },
+  "H3": {
+    "canonicalSource": "notes/2026-11-27-unit211-general-ell-zero-H3-whole-original-Macaulay-return-8542.py",
+    "execution": {
+      "sourceSHA256": "e770467ddb3ee20df29e22fe3531d40edfe65dca8b60b0f4f4d3cb92c6dcee3c",
+      "startedUTC": "2026-11-27T06:48:17.658609+00:00",
+      "elapsedSeconds": 1.2230135339996195,
+      "exitCode": 0,
+      "maxChildRSSKiB": 30448,
+      "stdoutBytes": 8097,
+      "stdoutSHA256": "565cd03c63317137264494e8db89c55a9df51692c30584de2fe907d57e40789d",
+      "stderr": "",
+      "runtime": "Python3.12.14/python-flint0.9.0",
+      "limits": "alarm120s/1GiB/one thread"
+    },
+    "actualEvidenceStages": [
+      {
+        "stage": "new_general_ell_zero_same_original_Gram",
+        "originalE0N0P1Verified": true,
+        "weightedOriginalNPThroughHAHBVerified": true,
+        "originalDistinctValueRetained": true,
+        "wholeWeightChartExcluded": false,
+        "seconds": 0.04433284800325055
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "E1",
+        "degrees": [
+          4,
+          0,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 16,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.044710918999044225
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBe",
+        "degrees": [
+          2,
+          0,
+          1,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 14,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.044888436001201626
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBo",
+        "degrees": [
+          3,
+          0,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 11,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.04505392599821789
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "N1",
+        "degrees": [
+          5,
+          0,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 33,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.045462431997293606
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_N",
+        "degrees": [
+          7,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 113,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.046502641002007294
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_P",
+        "degrees": [
+          7,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 101,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.04730230700079119
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_Macaulay4",
+        "rows": 48,
+        "columns": 35,
+        "originalSixRows": 6,
+        "all48OriginalMonomialProductsMultipliedBack": true,
+        "constantColumn": 34,
+        "inputSHA256": "977c2e045c4e89aec9cca9a7c21afc5062b856e65aff7c4e8f967916050e0348",
+        "G2Inverted": false,
+        "cubicMinorInverted": false,
+        "claimExcluded": false,
+        "seconds": 0.06062181800371036
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_numeric_row_selector_only",
+        "p": 1009,
+        "h": 7,
+        "selectedOriginalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "targetCount": 8,
+        "numericEmptinessNotInferred": true,
+        "seconds": 0.07149870399734937
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+        "originalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          40
+        ],
+        "lastOriginalRow": 40,
+        "fullDegree": 70,
+        "remainingDegree": 16,
+        "paidRemoved": [
+          [
+            "u",
+            11
+          ],
+          [
+            "u_minus_one",
+            31
+          ],
+          [
+            "parameter_den_2u_minus_three",
+            12
+          ]
+        ],
+        "exactBareissDivisionProducts": 13685,
+        "originalFixed35By35Determinant": true,
+        "determinantSHA256": "4383b682351b40702a20dd375aef654f28a9481bf0659e50ac7a4b74e334de18",
+        "remainingSHA256": "c28c4df2ac0007444870927d51cf2e4f690e7dee33c430fcbb80554efa9c957d",
+        "runningQQGCDDegree": 16,
+        "runningQQGCD": "(-999868386508800)*x^16 + 12829926306611200*x^15 + (-63151687291895808)*x^14 + 127561559483351040*x^13 + 57870578324865024*x^12 + (-891776111346712576)*x^11 + 2164323244105007104*x^10 + (-2789636790531653632)*x^9 + 2078242376224079872*x^8 + (-754081095682621440)*x^7 + (-70395088433315840)*x^6 + 200062590238326784*x^5 + (-85742332250423296)*x^4 + 16101622476177408*x^3 + (-1374200019288064)*x^2 + 48537425412096*x + (-558345748480)",
+        "claimExcluded": false,
+        "seconds": 0.2388315690041054
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+        "originalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          41
+        ],
+        "lastOriginalRow": 41,
+        "fullDegree": 70,
+        "remainingDegree": 16,
+        "paidRemoved": [
+          [
+            "u",
+            11
+          ],
+          [
+            "u_minus_one",
+            31
+          ],
+          [
+            "parameter_den_2u_minus_three",
+            12
+          ]
+        ],
+        "exactBareissDivisionProducts": 13685,
+        "originalFixed35By35Determinant": true,
+        "determinantSHA256": "3b27c061abb5a500274bb3b653d7078309adfe5246a07a1e57e40212ab2e09f5",
+        "remainingSHA256": "c1b28c5c1f161670a2ff1391cff835f4a873955c29b75cbdeda06de4337536d0",
+        "runningQQGCDDegree": 1,
+        "runningQQGCD": "x + (-2)",
+        "claimExcluded": false,
+        "seconds": 0.4091809809979168
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+        "originalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          42
+        ],
+        "lastOriginalRow": 42,
+        "fullDegree": 70,
+        "remainingDegree": 16,
+        "paidRemoved": [
+          [
+            "u",
+            11
+          ],
+          [
+            "u_minus_one",
+            31
+          ],
+          [
+            "parameter_den_2u_minus_three",
+            12
+          ]
+        ],
+        "exactBareissDivisionProducts": 13685,
+        "originalFixed35By35Determinant": true,
+        "determinantSHA256": "cfb417a2231c7d7669fc8055f0bf71b2f3c47b158cf72a2263b6cb625d874935",
+        "remainingSHA256": "5e97b703d8f631a3421bd34517aed9f1f19bae61a8ccf577b63a072153aead06",
+        "runningQQGCDDegree": 1,
+        "runningQQGCD": "x + (-2)",
+        "claimExcluded": false,
+        "seconds": 0.5785283290024381
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+        "originalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          43
+        ],
+        "lastOriginalRow": 43,
+        "fullDegree": 69,
+        "remainingDegree": 17,
+        "paidRemoved": [
+          [
+            "u",
+            10
+          ],
+          [
+            "u_minus_one",
+            31
+          ],
+          [
+            "parameter_den_2u_minus_three",
+            11
+          ]
+        ],
+        "exactBareissDivisionProducts": 13685,
+        "originalFixed35By35Determinant": true,
+        "determinantSHA256": "cb96096e539820e25863a27aa6e6a85e59bc14965c3f80949a3d9944d7a4e7e3",
+        "remainingSHA256": "fb748594da6027c711648eacd7fd3da63390a9a67fe7413ab78fa8d1caab78bd",
+        "runningQQGCDDegree": 1,
+        "runningQQGCD": "x + (-2)",
+        "claimExcluded": false,
+        "seconds": 0.7536143329998595
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+        "originalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          44
+        ],
+        "lastOriginalRow": 44,
+        "fullDegree": 70,
+        "remainingDegree": 18,
+        "paidRemoved": [
+          [
+            "u",
+            10
+          ],
+          [
+            "u_minus_one",
+            31
+          ],
+          [
+            "parameter_den_2u_minus_three",
+            11
+          ]
+        ],
+        "exactBareissDivisionProducts": 13685,
+        "originalFixed35By35Determinant": true,
+        "determinantSHA256": "295bea88c59c5a94dfe15e6549d3b645bc64b352e521af3c8a119773aa3bcd98",
+        "remainingSHA256": "fa1b8a1e16b514b08e7bb847ed4680b5a5e876f9126aba5c8cc6a4c237446756",
+        "runningQQGCDDegree": 1,
+        "runningQQGCD": "x + (-2)",
+        "claimExcluded": false,
+        "seconds": 0.9447074929994415
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+        "originalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          45
+        ],
+        "lastOriginalRow": 45,
+        "fullDegree": 71,
+        "remainingDegree": 19,
+        "paidRemoved": [
+          [
+            "u",
+            10
+          ],
+          [
+            "u_minus_one",
+            31
+          ],
+          [
+            "parameter_den_2u_minus_three",
+            11
+          ]
+        ],
+        "exactBareissDivisionProducts": 13685,
+        "originalFixed35By35Determinant": true,
+        "determinantSHA256": "06d449a8cee5cf3f62fef00c297a85c6882f505ee1c08f792ad3d426499b976d",
+        "remainingSHA256": "3432e8471de7e0afd0c3197f8d849f6ca33c95cb0581ab283d53cabe88a65efd",
+        "runningQQGCDDegree": 0,
+        "runningQQGCD": "1",
+        "claimExcluded": false,
+        "seconds": 1.1313136449971353
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_Macaulay_return_complete",
+        "sourceSHA256": "e770467ddb3ee20df29e22fe3531d40edfe65dca8b60b0f4f4d3cb92c6dcee3c",
+        "inputSHA256": "977c2e045c4e89aec9cca9a7c21afc5062b856e65aff7c4e8f967916050e0348",
+        "fullParameterBranchRationalization": "ell=0, H3, Q=2*(u-1)/(2*u-3)",
+        "allPhysicalUnitsCovered": true,
+        "onlyOriginalPaidFactorsDivided": true,
+        "QQBezoutProductsMultipliedBack": true,
+        "fullellZero_head_boundaryExcluded": true,
+        "determinantCount": 6,
+        "runningQQGCDDegree": 0,
+        "peakRssKiB": 29900,
+        "ordinaryISPClaim": false,
+        "seconds": 1.13278504399932
+      }
+    ]
+  }
+}

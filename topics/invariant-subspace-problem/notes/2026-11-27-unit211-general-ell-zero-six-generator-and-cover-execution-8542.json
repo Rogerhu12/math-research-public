@@ -1,0 +1,1524 @@
+{
+  "six_parameter": {
+    "canonicalSource": "notes/2026-11-27-unit211-general-ell-zero-six-generator-original-parameter-cofactors-8542.py",
+    "execution": {
+      "sourceSHA256": "63d6602aefdaf5613cf2635d1acaccdf70dec9169961d846a6e5e61d28e70549",
+      "startedUTC": "2026-11-27T06:51:12.192073+00:00",
+      "elapsedSeconds": 5.794282203001785,
+      "exitCode": 0,
+      "maxChildRSSKiB": 46792,
+      "stdoutBytes": 13514,
+      "stdoutSHA256": "ee5be4a19f5ff994215aa425e1b25fdd9e4136b6d836f049bc920cda4b3cdfe9",
+      "stderr": "",
+      "runtime": "Python3.12.14/python-flint0.9.0",
+      "limits": "alarm120s/1GiB/one thread"
+    },
+    "actualEvidenceStages": [
+      {
+        "stage": "new_general_ell_zero_same_original_Gram",
+        "originalE0N0P1Verified": true,
+        "weightedOriginalNPThroughHAHBVerified": true,
+        "originalDistinctValueRetained": true,
+        "wholeWeightChartExcluded": false,
+        "seconds": 0.0815004370015231
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "E1",
+        "degrees": [
+          3,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 25,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08211885000491748
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBe",
+        "degrees": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 9,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08229912200476974
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBo",
+        "degrees": [
+          2,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 12,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08253739100473467
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "N1",
+        "degrees": [
+          5,
+          3,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 115,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08368263900047168
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_N",
+        "degrees": [
+          6,
+          6,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 469,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08717977400374366
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_P",
+        "degrees": [
+          6,
+          6,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 420,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.09053331200266257
+      },
+      {
+        "stage": "new_general_ell_zero_paid_or_explicit_chart_four_original_rules",
+        "selectedColumns": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "quadraticHeadUnpaidFactorization": {
+          "content": "-2",
+          "factors": [],
+          "entireProductMultipliedBack": true
+        },
+        "chartGlobalAfterPreviouslyPaidUnits": true,
+        "all16InverseProductsOne": true,
+        "allFourOriginalTraceProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.1019480510003632
+      },
+      {
+        "stage": "new_general_ell_zero_original_cubic_overlap",
+        "index": 0,
+        "remainingMonomials": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "maxWeightNumeratorDegrees": [
+          5,
+          4
+        ],
+        "allOriginalSixTraceProductsVerified": true,
+        "allDenominatorsSupportedByExplicitChart": true,
+        "claimExcluded": false,
+        "seconds": 0.12026771499949973
+      },
+      {
+        "stage": "new_general_ell_zero_original_cubic_overlap",
+        "index": 1,
+        "remainingMonomials": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "maxWeightNumeratorDegrees": [
+          9,
+          7
+        ],
+        "allOriginalSixTraceProductsVerified": true,
+        "allDenominatorsSupportedByExplicitChart": true,
+        "claimExcluded": false,
+        "seconds": 0.16413082900544396
+      },
+      {
+        "stage": "new_general_ell_zero_original_cubic_overlap",
+        "index": 2,
+        "remainingMonomials": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "maxWeightNumeratorDegrees": [
+          5,
+          4
+        ],
+        "allOriginalSixTraceProductsVerified": true,
+        "allDenominatorsSupportedByExplicitChart": true,
+        "claimExcluded": false,
+        "seconds": 0.17461488300614292
+      },
+      {
+        "stage": "new_general_ell_zero_original_cubic_overlap",
+        "index": 3,
+        "remainingMonomials": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "maxWeightNumeratorDegrees": [
+          9,
+          7
+        ],
+        "allOriginalSixTraceProductsVerified": true,
+        "allDenominatorsSupportedByExplicitChart": true,
+        "claimExcluded": false,
+        "seconds": 0.21201907400245545
+      },
+      {
+        "stage": "new_general_ell_zero_six_original_monic_rules",
+        "selectedCubicRows": [
+          0,
+          2
+        ],
+        "explicitUnpaidChart": "none beyond already excluded whole branches and original units",
+        "allOriginalTraceAndLeadingProductsVerified": true,
+        "allLeadingZeroFibresRetained": true,
+        "freeModuleClaimed": false,
+        "claimExcluded": false,
+        "seconds": 0.22238550200563623
+      },
+      {
+        "stage": "new_general_ell_zero_original_six_monomial_multiplication",
+        "axis": 0,
+        "originalMonomialIdentities": 6,
+        "allOriginalTraceProductsVerified": true,
+        "allDenominatorsPaidOnExplicitChart": true,
+        "maxCoefficientNumeratorDegrees": [
+          7,
+          7
+        ],
+        "claimExcluded": false,
+        "seconds": 0.26045184200484073
+      },
+      {
+        "stage": "new_general_ell_zero_original_six_monomial_multiplication",
+        "axis": 1,
+        "originalMonomialIdentities": 6,
+        "allOriginalTraceProductsVerified": true,
+        "allDenominatorsPaidOnExplicitChart": true,
+        "maxCoefficientNumeratorDegrees": [
+          5,
+          4
+        ],
+        "claimExcluded": false,
+        "seconds": 0.2727857260033488
+      },
+      {
+        "stage": "new_general_ell_zero_original_six_monomial_multiplication",
+        "axis": 2,
+        "originalMonomialIdentities": 6,
+        "allOriginalTraceProductsVerified": true,
+        "allDenominatorsPaidOnExplicitChart": true,
+        "maxCoefficientNumeratorDegrees": [
+          7,
+          6
+        ],
+        "claimExcluded": false,
+        "seconds": 0.30262271300307475
+      },
+      {
+        "stage": "new_general_ell_zero_remaining_original_cubic_row",
+        "index": 1,
+        "allOriginalSixTraceProductsVerified": true,
+        "freeModuleNotAssumed": true,
+        "claimExcluded": false,
+        "seconds": 0.3362897580009303
+      },
+      {
+        "stage": "new_general_ell_zero_remaining_original_cubic_row",
+        "index": 3,
+        "allOriginalSixTraceProductsVerified": true,
+        "freeModuleNotAssumed": true,
+        "claimExcluded": false,
+        "seconds": 0.3666691430044011
+      },
+      {
+        "stage": "new_general_ell_zero_same_original_cubic_return",
+        "name": "NS",
+        "maxCoefficientNumeratorDegrees": [
+          17,
+          12
+        ],
+        "allOriginalTraceProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.5180876570011606
+      },
+      {
+        "stage": "new_general_ell_zero_same_original_cubic_return",
+        "name": "PS",
+        "maxCoefficientNumeratorDegrees": [
+          16,
+          12
+        ],
+        "allOriginalTraceProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.66575934800494
+      },
+      {
+        "stage": "new_general_ell_zero_cleared_original_six_column_row",
+        "label": "remaining_cubic_1",
+        "degrees": [
+          12,
+          10
+        ],
+        "terms": 658,
+        "paidRemoved": [],
+        "allOriginalProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.6702682290051598
+      },
+      {
+        "stage": "new_general_ell_zero_cleared_original_six_column_row",
+        "label": "remaining_cubic_3",
+        "degrees": [
+          12,
+          10
+        ],
+        "terms": 632,
+        "paidRemoved": [],
+        "allOriginalProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.6739797580012237
+      },
+      {
+        "stage": "new_general_ell_zero_cleared_original_six_column_row",
+        "label": "NS",
+        "degrees": [
+          17,
+          13
+        ],
+        "terms": 1080,
+        "paidRemoved": [],
+        "allOriginalProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.6828568990022177
+      },
+      {
+        "stage": "new_general_ell_zero_cleared_original_six_column_row",
+        "label": "PS",
+        "degrees": [
+          16,
+          13
+        ],
+        "terms": 1038,
+        "paidRemoved": [],
+        "allOriginalProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.6912850820008316
+      },
+      {
+        "stage": "new_general_ell_zero_additional_original_same_point_product",
+        "sourceRow": 0,
+        "axis": 0,
+        "degrees": [
+          17,
+          15
+        ],
+        "terms": 1358,
+        "allOriginalTraceAndPaidProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.7155762130059884
+      },
+      {
+        "stage": "new_general_ell_zero_additional_original_same_point_product",
+        "sourceRow": 0,
+        "axis": 1,
+        "degrees": [
+          16,
+          14
+        ],
+        "terms": 1207,
+        "allOriginalTraceAndPaidProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.7324663500039605
+      },
+      {
+        "stage": "new_general_ell_zero_additional_original_same_point_product",
+        "sourceRow": 0,
+        "axis": 2,
+        "degrees": [
+          19,
+          16
+        ],
+        "terms": 1622,
+        "allOriginalTraceAndPaidProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.756860166999104
+      },
+      {
+        "stage": "new_general_ell_zero_additional_original_same_point_product",
+        "sourceRow": 1,
+        "axis": 0,
+        "degrees": [
+          17,
+          15
+        ],
+        "terms": 1321,
+        "allOriginalTraceAndPaidProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.7804589530060184
+      },
+      {
+        "stage": "new_general_ell_zero_additional_original_same_point_product",
+        "sourceRow": 1,
+        "axis": 1,
+        "degrees": [
+          16,
+          14
+        ],
+        "terms": 1176,
+        "allOriginalTraceAndPaidProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.7974044540023897
+      },
+      {
+        "stage": "new_general_ell_zero_additional_original_same_point_product",
+        "sourceRow": 1,
+        "axis": 2,
+        "degrees": [
+          19,
+          16
+        ],
+        "terms": 1577,
+        "allOriginalTraceAndPaidProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.8230338650027988
+      },
+      {
+        "stage": "new_general_ell_zero_exact_parameter_fraction_free_pivot",
+        "position": 0,
+        "column": 0,
+        "selectedOriginalRow": 1,
+        "degrees": [
+          11,
+          9
+        ],
+        "terms": 97,
+        "allExactDivisionsMultipliedBack": true,
+        "claimExcluded": false,
+        "seconds": 0.8384260530001484
+      },
+      {
+        "stage": "new_general_ell_zero_exact_parameter_fraction_free_pivot",
+        "position": 1,
+        "column": 1,
+        "selectedOriginalRow": 0,
+        "degrees": [
+          22,
+          18
+        ],
+        "terms": 361,
+        "allExactDivisionsMultipliedBack": true,
+        "claimExcluded": false,
+        "seconds": 0.9505069779988844
+      },
+      {
+        "stage": "new_general_ell_zero_exact_parameter_fraction_free_pivot",
+        "position": 2,
+        "column": 2,
+        "selectedOriginalRow": 2,
+        "degrees": [
+          36,
+          27
+        ],
+        "terms": 816,
+        "allExactDivisionsMultipliedBack": true,
+        "claimExcluded": false,
+        "seconds": 1.3135834120039362
+      },
+      {
+        "stage": "new_general_ell_zero_exact_parameter_fraction_free_pivot",
+        "position": 3,
+        "column": 3,
+        "selectedOriginalRow": 3,
+        "degrees": [
+          50,
+          38
+        ],
+        "terms": 1573,
+        "allExactDivisionsMultipliedBack": true,
+        "claimExcluded": false,
+        "seconds": 2.1111882600016543
+      },
+      {
+        "stage": "new_general_ell_zero_exact_parameter_fraction_free_pivot",
+        "position": 4,
+        "column": 4,
+        "selectedOriginalRow": 8,
+        "degrees": [
+          66,
+          49
+        ],
+        "terms": 2626,
+        "allExactDivisionsMultipliedBack": true,
+        "claimExcluded": false,
+        "seconds": 3.179138678002346
+      },
+      {
+        "stage": "new_general_ell_zero_complete_original_parameter_cofactor",
+        "openChartExcluded": false,
+        "wholeEllZeroExcluded": false,
+        "rows": [
+          1,
+          0,
+          2,
+          3,
+          8,
+          5
+        ],
+        "labels": [
+          "remaining_cubic_3",
+          "remaining_cubic_1",
+          "NS",
+          "PS",
+          "remaining_cubic_3*y",
+          "remaining_cubic_1*y"
+        ],
+        "fullDegrees": [
+          79,
+          60
+        ],
+        "fullTerms": 3848,
+        "paidRemoved": [
+          [
+            "u",
+            3
+          ],
+          [
+            "u_minus_one",
+            17
+          ],
+          [
+            "Q",
+            6
+          ],
+          [
+            "Q_minus_one",
+            10
+          ],
+          [
+            "P02_weight",
+            2
+          ],
+          [
+            "paid_entire_H1",
+            9
+          ],
+          [
+            "paid_entire_H2",
+            8
+          ],
+          [
+            "paid_entire_H3",
+            6
+          ]
+        ],
+        "reducedDegrees": [
+          32,
+          19
+        ],
+        "reducedTerms": 498,
+        "reducedSHA256": "87d45d1b770fd8763475f7778d9662f01748696592461479fa1eee9dc3aea225",
+        "cofactorSHA256": "332bfa7a7b250e372a0ba69b72b2dec4b37b45d16a142c935d471d71fab4603d",
+        "allSixOriginalColumnProductsMultipliedBack": true,
+        "allPaidFactorsActuallyMultipliedBack": true,
+        "seconds": 4.402975893004623
+      },
+      {
+        "stage": "new_general_ell_zero_complete_original_parameter_cofactor",
+        "openChartExcluded": false,
+        "wholeEllZeroExcluded": false,
+        "rows": [
+          1,
+          0,
+          2,
+          3,
+          8,
+          7
+        ],
+        "labels": [
+          "remaining_cubic_3",
+          "remaining_cubic_1",
+          "NS",
+          "PS",
+          "remaining_cubic_3*y",
+          "remaining_cubic_3*x"
+        ],
+        "fullDegrees": [
+          81,
+          62
+        ],
+        "fullTerms": 4090,
+        "paidRemoved": [
+          [
+            "u",
+            3
+          ],
+          [
+            "u_minus_one",
+            13
+          ],
+          [
+            "Q",
+            5
+          ],
+          [
+            "Q_minus_one",
+            9
+          ],
+          [
+            "P02_weight",
+            2
+          ],
+          [
+            "paid_entire_H1",
+            8
+          ],
+          [
+            "paid_entire_H2",
+            8
+          ],
+          [
+            "paid_entire_H3",
+            5
+          ]
+        ],
+        "reducedDegrees": [
+          40,
+          25
+        ],
+        "reducedTerms": 812,
+        "reducedSHA256": "ce0b47689e05317e4c3c40707656d7eb66cca162b7ff575edc1030b5d2547d6f",
+        "cofactorSHA256": "45fc54348728a44335c9e3457a606fbf9a618faa19f2bff172a48e91610dbaf9",
+        "allSixOriginalColumnProductsMultipliedBack": true,
+        "allPaidFactorsActuallyMultipliedBack": true,
+        "seconds": 5.669712293005432
+      },
+      {
+        "stage": "new_general_ell_zero_parameter_cover_gcd",
+        "completeGCD": {
+          "content": "1",
+          "factors": [],
+          "entireProductMultipliedBack": true
+        },
+        "onlyFinitenessIfGCDOne": true,
+        "noMultivariateGcdEmptinessInference": true,
+        "seconds": 5.670220680003695
+      },
+      {
+        "stage": "new_general_ell_zero_original_six_generator_parameter_input_complete",
+        "explicitUnpaidChart": "none beyond already excluded whole branches and original units",
+        "basis": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "originalMultiplicationIdentities": 18,
+        "initialOriginalNecessaryRows": 4,
+        "totalOriginalNecessaryRows": 10,
+        "nonconstantRank": 5,
+        "completeParameterCofactors": [
+          {
+            "rows": [
+              1,
+              0,
+              2,
+              3,
+              8,
+              5
+            ],
+            "labels": [
+              "remaining_cubic_3",
+              "remaining_cubic_1",
+              "NS",
+              "PS",
+              "remaining_cubic_3*y",
+              "remaining_cubic_1*y"
+            ],
+            "fullDegrees": [
+              79,
+              60
+            ],
+            "fullTerms": 3848,
+            "paidRemoved": [
+              [
+                "u",
+                3
+              ],
+              [
+                "u_minus_one",
+                17
+              ],
+              [
+                "Q",
+                6
+              ],
+              [
+                "Q_minus_one",
+                10
+              ],
+              [
+                "P02_weight",
+                2
+              ],
+              [
+                "paid_entire_H1",
+                9
+              ],
+              [
+                "paid_entire_H2",
+                8
+              ],
+              [
+                "paid_entire_H3",
+                6
+              ]
+            ],
+            "reducedDegrees": [
+              32,
+              19
+            ],
+            "reducedTerms": 498,
+            "reducedSHA256": "87d45d1b770fd8763475f7778d9662f01748696592461479fa1eee9dc3aea225",
+            "cofactorSHA256": "332bfa7a7b250e372a0ba69b72b2dec4b37b45d16a142c935d471d71fab4603d",
+            "allSixOriginalColumnProductsMultipliedBack": true,
+            "allPaidFactorsActuallyMultipliedBack": true
+          },
+          {
+            "rows": [
+              1,
+              0,
+              2,
+              3,
+              8,
+              7
+            ],
+            "labels": [
+              "remaining_cubic_3",
+              "remaining_cubic_1",
+              "NS",
+              "PS",
+              "remaining_cubic_3*y",
+              "remaining_cubic_3*x"
+            ],
+            "fullDegrees": [
+              81,
+              62
+            ],
+            "fullTerms": 4090,
+            "paidRemoved": [
+              [
+                "u",
+                3
+              ],
+              [
+                "u_minus_one",
+                13
+              ],
+              [
+                "Q",
+                5
+              ],
+              [
+                "Q_minus_one",
+                9
+              ],
+              [
+                "P02_weight",
+                2
+              ],
+              [
+                "paid_entire_H1",
+                8
+              ],
+              [
+                "paid_entire_H2",
+                8
+              ],
+              [
+                "paid_entire_H3",
+                5
+              ]
+            ],
+            "reducedDegrees": [
+              40,
+              25
+            ],
+            "reducedTerms": 812,
+            "reducedSHA256": "ce0b47689e05317e4c3c40707656d7eb66cca162b7ff575edc1030b5d2547d6f",
+            "cofactorSHA256": "45fc54348728a44335c9e3457a606fbf9a618faa19f2bff172a48e91610dbaf9",
+            "allSixOriginalColumnProductsMultipliedBack": true,
+            "allPaidFactorsActuallyMultipliedBack": true
+          }
+        ],
+        "openChartExcluded": false,
+        "allUnpaidZeroFibresRetained": true,
+        "noMultivariateGcdEmptinessInference": true,
+        "freeModuleClaimed": false,
+        "sourceSHA256": "63d6602aefdaf5613cf2635d1acaccdf70dec9169961d846a6e5e61d28e70549",
+        "peakRssKiB": 46792,
+        "wholeEllZeroExcluded": false,
+        "ordinaryISPClaim": false,
+        "seconds": 5.671786863000307
+      }
+    ]
+  },
+  "QQ_projection": {
+    "canonicalSource": "notes/2026-11-27-unit211-general-ell-zero-complete-QQ-weight-projection-8542.py",
+    "execution": {
+      "sourceSHA256": "8d9036cd99dbcdbaf35b4b117e9035abcc8d31126bbd6f81d80a200c3c0c5fb3",
+      "startedUTC": "2026-11-27T06:53:58.317208+00:00",
+      "elapsedSeconds": 25.052014909997524,
+      "exitCode": 0,
+      "maxChildRSSKiB": 59884,
+      "stdoutBytes": 16022,
+      "stdoutSHA256": "b2967a00d909a7cbbe74d2a72c57db401f7709ab3d0b5b53031c42407a21848d",
+      "stderr": "",
+      "runtime": "Python3.12.14/python-flint0.9.0",
+      "limits": "alarm120s/1GiB/one thread"
+    },
+    "actualEvidenceStages": [
+      {
+        "stage": "new_general_ell_zero_complete_Q_projection_leading",
+        "curve": 0,
+        "Qdegree": 19,
+        "totalDegree": 39,
+        "leadingFactorization": {
+          "content": "1/256",
+          "factors": [
+            {
+              "degrees": [
+                8,
+                0
+              ],
+              "totalDegree": 8,
+              "terms": 9,
+              "multiplicity": 1,
+              "sha256": "61fd6d54ffa02edb816f0a3a0173bbec9b83c316fd89a851ae05d7849c419096",
+              "coefficients_u_Q": [
+                [
+                  8,
+                  0,
+                  "23417"
+                ],
+                [
+                  7,
+                  0,
+                  "-232275"
+                ],
+                [
+                  6,
+                  0,
+                  "896684"
+                ],
+                [
+                  5,
+                  0,
+                  "-1741382"
+                ],
+                [
+                  4,
+                  0,
+                  "1777416"
+                ],
+                [
+                  3,
+                  0,
+                  "-849176"
+                ],
+                [
+                  2,
+                  0,
+                  "68928"
+                ],
+                [
+                  1,
+                  0,
+                  "69504"
+                ],
+                [
+                  0,
+                  0,
+                  "-15360"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "noLeadingCoefficientInverted": true,
+        "seconds": 5.727380233001895
+      },
+      {
+        "stage": "new_general_ell_zero_complete_Q_projection_leading",
+        "curve": 1,
+        "Qdegree": 25,
+        "totalDegree": 50,
+        "leadingFactorization": {
+          "content": "1/4096",
+          "factors": [
+            {
+              "degrees": [
+                8,
+                0
+              ],
+              "totalDegree": 8,
+              "terms": 9,
+              "multiplicity": 1,
+              "sha256": "61fd6d54ffa02edb816f0a3a0173bbec9b83c316fd89a851ae05d7849c419096",
+              "coefficients_u_Q": [
+                [
+                  8,
+                  0,
+                  "23417"
+                ],
+                [
+                  7,
+                  0,
+                  "-232275"
+                ],
+                [
+                  6,
+                  0,
+                  "896684"
+                ],
+                [
+                  5,
+                  0,
+                  "-1741382"
+                ],
+                [
+                  4,
+                  0,
+                  "1777416"
+                ],
+                [
+                  3,
+                  0,
+                  "-849176"
+                ],
+                [
+                  2,
+                  0,
+                  "68928"
+                ],
+                [
+                  1,
+                  0,
+                  "69504"
+                ],
+                [
+                  0,
+                  0,
+                  "-15360"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                1,
+                0
+              ],
+              "totalDegree": 1,
+              "terms": 2,
+              "multiplicity": 2,
+              "sha256": "f5109d6661e17da654b68f27dcdf80a0d09e8e743b432a201bf6b307bb953b2c",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  0,
+                  "1"
+                ],
+                [
+                  0,
+                  0,
+                  "-2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "noLeadingCoefficientInverted": true,
+        "seconds": 5.728923620998103
+      },
+      {
+        "stage": "new_general_ell_zero_complete_Q_projection_started",
+        "fixedSylvesterOrder": 44,
+        "originalCofactors": true,
+        "allLeadingZeroFibresRetained": true,
+        "seconds": 5.728963000001386
+      },
+      {
+        "stage": "new_general_ell_zero_complete_Q_projection_completed",
+        "fixedSylvesterOrder": 44,
+        "fullDegree": 1146,
+        "fullTerms": 1072,
+        "fullSHA256": "cd6e77f5618c5196fb30527206e9d8e89234775b3143cea84499d4758722b7b9",
+        "paidRemoved": [
+          [
+            "u",
+            75
+          ],
+          [
+            "u_minus_one",
+            667
+          ]
+        ],
+        "remainingDegree": 404,
+        "remainingTerms": 405,
+        "remainingSHA256": "60a337da50d5abb3a7667b82ce0d74b53b40f4d9959bb3b3c6facceb786e6217",
+        "allPaidDivisionsMultipliedBack": true,
+        "allLeadingZeroFibresRetained": true,
+        "completeQQCoverageNotJustModular": true,
+        "originalFibresStillToReturn": true,
+        "seconds": 24.80782759500289
+      },
+      {
+        "stage": "new_general_ell_zero_complete_Q_projection_factorization",
+        "factorization": {
+          "content": "-18889465931478580854784",
+          "factors": [
+            {
+              "degrees": [
+                8,
+                0
+              ],
+              "totalDegree": 8,
+              "terms": 9,
+              "multiplicity": 1,
+              "sha256": "61fd6d54ffa02edb816f0a3a0173bbec9b83c316fd89a851ae05d7849c419096",
+              "coefficients_u_Q": [
+                [
+                  8,
+                  0,
+                  "23417"
+                ],
+                [
+                  7,
+                  0,
+                  "-232275"
+                ],
+                [
+                  6,
+                  0,
+                  "896684"
+                ],
+                [
+                  5,
+                  0,
+                  "-1741382"
+                ],
+                [
+                  4,
+                  0,
+                  "1777416"
+                ],
+                [
+                  3,
+                  0,
+                  "-849176"
+                ],
+                [
+                  2,
+                  0,
+                  "68928"
+                ],
+                [
+                  1,
+                  0,
+                  "69504"
+                ],
+                [
+                  0,
+                  0,
+                  "-15360"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                10,
+                0
+              ],
+              "totalDegree": 10,
+              "terms": 11,
+              "multiplicity": 1,
+              "sha256": "bb32e59a522760c7b4dab6b3647f85da1c6ef9d3c247a006bb431106202f5a05",
+              "coefficients_u_Q": [
+                [
+                  10,
+                  0,
+                  "2"
+                ],
+                [
+                  9,
+                  0,
+                  "47"
+                ],
+                [
+                  8,
+                  0,
+                  "-948"
+                ],
+                [
+                  7,
+                  0,
+                  "2731"
+                ],
+                [
+                  6,
+                  0,
+                  "2822"
+                ],
+                [
+                  5,
+                  0,
+                  "-13198"
+                ],
+                [
+                  4,
+                  0,
+                  "-1576"
+                ],
+                [
+                  3,
+                  0,
+                  "16432"
+                ],
+                [
+                  2,
+                  0,
+                  "2880"
+                ],
+                [
+                  1,
+                  0,
+                  "-9504"
+                ],
+                [
+                  0,
+                  0,
+                  "2688"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                14,
+                0
+              ],
+              "totalDegree": 14,
+              "terms": 15,
+              "multiplicity": 1,
+              "sha256": "3680bdd4c64d805acb96f57cba7b4920fd33bdadfc5270c11a6515ca6fd38f8a",
+              "coefficients_u_Q": [
+                [
+                  14,
+                  0,
+                  "3724800"
+                ],
+                [
+                  13,
+                  0,
+                  "-50703616"
+                ],
+                [
+                  12,
+                  0,
+                  "286425472"
+                ],
+                [
+                  11,
+                  0,
+                  "-877668416"
+                ],
+                [
+                  10,
+                  0,
+                  "1597344352"
+                ],
+                [
+                  9,
+                  0,
+                  "-1754215088"
+                ],
+                [
+                  8,
+                  0,
+                  "1083158808"
+                ],
+                [
+                  7,
+                  0,
+                  "-259061004"
+                ],
+                [
+                  6,
+                  0,
+                  "-47922388"
+                ],
+                [
+                  5,
+                  0,
+                  "-30419404"
+                ],
+                [
+                  4,
+                  0,
+                  "87482383"
+                ],
+                [
+                  3,
+                  0,
+                  "-47545690"
+                ],
+                [
+                  2,
+                  0,
+                  "9715815"
+                ],
+                [
+                  1,
+                  0,
+                  "-527344"
+                ],
+                [
+                  0,
+                  0,
+                  "10845"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                184,
+                0
+              ],
+              "totalDegree": 184,
+              "terms": 185,
+              "multiplicity": 1,
+              "sha256": "2d08fd207c2bfde748ff1b36326f15eed049c9339f7b0d8c1ca9e2d16902596a"
+            },
+            {
+              "degrees": [
+                184,
+                0
+              ],
+              "totalDegree": 184,
+              "terms": 185,
+              "multiplicity": 1,
+              "sha256": "8465d6fedda0ccd475f7bba776af9f275c15a329704ac16240b630c1e85e0f21"
+            },
+            {
+              "degrees": [
+                1,
+                0
+              ],
+              "totalDegree": 1,
+              "terms": 2,
+              "multiplicity": 2,
+              "sha256": "f5109d6661e17da654b68f27dcdf80a0d09e8e743b432a201bf6b307bb953b2c",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  0,
+                  "1"
+                ],
+                [
+                  0,
+                  0,
+                  "-2"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                1,
+                0
+              ],
+              "totalDegree": 1,
+              "terms": 2,
+              "multiplicity": 2,
+              "sha256": "b174dc6bbfce2322e4721ca4b9c03cb9bf631be0b7c871b50c2cf010c096be2f",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  0,
+                  "2"
+                ],
+                [
+                  0,
+                  0,
+                  "-1"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "entireFactorsRetained": true,
+        "originalFibresStillToReturn": true,
+        "seconds": 24.937922529999923
+      },
+      {
+        "stage": "new_general_ell_zero_complete_Q_projection_end",
+        "sourceSHA256": "8d9036cd99dbcdbaf35b4b117e9035abcc8d31126bbd6f81d80a200c3c0c5fb3",
+        "peakRssKiB": 59884,
+        "ordinaryISPClaim": false,
+        "entireEllZeroExcluded": false,
+        "seconds": 24.939215810998576
+      }
+    ]
+  }
+}

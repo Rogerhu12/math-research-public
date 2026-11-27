@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整个一般ell=0原支完整排除](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)：三整头曲线、1146次QQ完整投影余404的五非线性整因子及两整线全由原QQ/Gauss返回；一般LS余图可付ell，继续T0及其他未付面。
+
 - [Q边界85阶QQ投影准确冻结](notes/2026-11-27-unit211-Q1minusU-85-Sylvester-QQ-projection-frozen-8542.md)：120秒闹钟/SIGALRM、shell exit142，未出结式，精确总墙钟/RSS未记录；转新原同点输入。
 
 - [Q边界整G2零曲线排除](results/R150-appendix-unit211-Q1minusU-complete-G2-zero-exclusion.md)：完整有理化以两个小Bézout保原u首项零，原350/351次固定行列式余68/75次QQ Bézout1；全余边界现落有限3780权点。
