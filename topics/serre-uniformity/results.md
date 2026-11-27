@@ -320,3 +320,6 @@
 
 
 - **R1083（已证明）**：[原47辅助系数域与完整标量分支](results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md)：真实类型子域排283一次泛块；4513标量准确只在j1728，全部四twists给553粗点，八CM为六普通/二SS。整Hecke准则已由R1081认证；新aux标签/CM高度继续。
+
+
+- **R1084（已证明）**：[原Gaussian指定高单位与最大forced标签次数](results/R1084-original-Gaussian-high-unit-and-maximal-forced-label-degree.md)：全p3mod4的G_(7p−1)=−2a²/(315δ)单位，原最大forced角色coarse度恰(p−7)/4；good时global顶项单位，原两twists/phase齐备。第一斜率H_p和短η/ν仍开，无新扫描。

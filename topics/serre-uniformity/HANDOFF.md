@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：c171f3fd9aab8d9ad6644c88be3977b528d81067**（2026-11-27 12:04 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：75dc8c0927fca525f290118df12dde98f9ef9e5f**（2026-11-27 12:08 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；11:24再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -28,7 +28,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签全部相位/cusp规范齐备；§§9–10扩至完整实际V，同一primitive c可逆，两个边界角色实际缺席。全V辅助可见性精确已付，仍须同点共同像排除。
 
-[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p原Bernoulli单位角色有唯一global提升，无regular/Vandiver假设；类数/正交给实际good子模块维数Ω(p/logp)，每盘一候选。坏角色类群及辅助排除仍开。
+[R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p实际good角色global提升唯一、forced-good维数Ω(p/logp)，无regular/Vandiver；坏角色类群及aux排点仍开。
 
 [R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3模型、twisted Burnside及点数齐备；全部非零迹输入为五个Q-CM点约化。保potential-good/twist重合，迹零反射点继续。
 
@@ -40,7 +40,7 @@ R1062/64–67（[完整索引与原规范](results.md)）：原全cusp格/étale
 
 ## O1：原同一保留标签
 
-[R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原j0/1728真实T下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、slope+1、首负p极及最后加性carry全付；不代短η/ν或Gaussian高G单位。
+[R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)：原j0/1728真实T下Ψ=Z_<p^p+δT modT^(p²)，safe ζ、slope+1、首负p极及最后加性carry全付；不代短η/ν；Gaussian后继见R1082/84。
 
 [R1061](results/R1061-actual-genus-two-etale-cover-and-original-three-torsion-Petri-point.md)：原e≠0 iff S_n≠0、Φ²=[−1]*、对称J自伴已付。§21给e=−δ²η_k/(4v)、K₄=−δ³ν_k/(4v²)−2ve/δ²及原短D⁶完整双障碍；e=0时ν_k是指定有限二次和，非零仍开。 [R1076](results/R1076-original-primitive-cubic-and-sixth-power-obstructions.md)付同一T=−2vΨ³/δ³、η_j=j[z^j]T、ν_j=j[z^j]T²/40与完整短谱误差。R1077把新G单位准确搬为同一T²的加权2k次系数单位，尚未连接短k次双障碍。
 
@@ -57,6 +57,8 @@ R1012/16/17/20/25/27 的未经筛选完整 theta 分布、常平方一及全方�
 原h=6i+7须同一本原h使P_(h−1)(1/s)fi gj非零，i+j=N−1；原Norm/双CM权/相位和两个mask不删。R971 full-span、R1006全p G稳定已否；特定A/E4仍开，粗CM阶≤4不代零阶。R995–1002等已成输入只消费；R706旧5992 f_N/5991 g_N单位至200000（g零137147）不重算。全部原角色/例外/run保open和归档。
 
 [R1082](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)：原Gaussian d=p²−4p−1的G_d=H_p^p/(2δ)，H_p为完整短卷积=2∂G_(p−5)/5；两全局primitive/误差/原coarse斜率全付，H_p单位仍开。
+
+[R1084](results/R1084-original-Gaussian-high-unit-and-maximal-forced-label-degree.md)：全p3mod4原G_(7p−1)=−2a²/(315δ)单位，最大forced R=m+3的raw coarse度恰(p−7)/4；该角色good时global顶项单位，保两twists/原相位。H_p与短η/ν仍开。
 
 ## O2：原高近p值
 

@@ -41,7 +41,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：全V有限式/phase/两twists已付。R1075闭合原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse单位斜率；good条件仅留global圆单位坐标。原f_N/e及盘内/global排点仍开。
 
-[R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c标签含全部相位/实下降/cusp规范。§§9–10原unit格排两边界角色，同一primitive c对完整V可逆；精确可见 iff ord_pℓ奇且非p3mod4的(p−1)/2。safe prime仅ℓ1modp可见。低次平滑κ零确pth；同y/embedding/全局候选共同像排除仍开。
+[R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原ψ_c全相位/cusp规范及完整V已付，排两边界角色；aux可见 iff ord_pℓ奇且非p3mod4的(p−1)/2，safe prime须ℓ1modp。同点共同像及全局排除仍开。
 
 [R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p原Bernoulli-good角色p-only global→local同构，无regular/Vandiver假设；Herbrand与准确Kummer方向、类数/正交给good forced维数Ω(p/logp)，每原p盘唯一global候选。精确下界保结果；坏角色类群及aux同点排除仍开。
 
@@ -108,6 +108,8 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 [R1002](results/R1002-ten-step-theta-companion-and-four-free-CM-jets.md)：原十步Katz方程在五维CM jet上rank1，四个自由低jet及forced X12单位；原末列mark=79R0−96R1，局部方程容其为零。有限primitive、full权与6尺度均保；不能以局部自由模型冒actual global反例或用此方程代真实全局归一。
 
 [R1082](results/R1082-original-Gaussian-high-Hurwitz-and-complete-short-convolution.md)付原Gaussian近p²值：G_(p²−4p−1)=H_p^p/(2δ)，H_p=2G_(p−3)+Σ_{i+j=p−3}G_iG_j=(2/5)∂G_(p−5)。完整carry、下位卷积与第一forced coarse斜率均保原源；H_p非零仍开，不从低G单位或Hasse simple roots跳步。
+
+[R1084](results/R1084-original-Gaussian-high-unit-and-maximal-forced-label-degree.md)：原Gaussian指定G_(7p−1)=−2a²/(315δ)单位，最大forced角色raw coarse准确度(p−7)/4；good时global顶项单位。两twists/相位保原文；不付H_p第一斜率、短η/ν或高次标签注入。
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 

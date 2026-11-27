@@ -696,3 +696,8 @@ R1082纸证原Gaussian近p² Hurwitz系数降为完整短卷积H_p及真正heat�
 2026-11-27 12:04 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1083纸证原有限类型真系数子域、283一次泛块不可能性及4513全部scalar/普通CM输入；root亲读Mercuri–Schoof并与o2独核。
 保j1728全四twists/553粗点、j0全六twists/1点及23cusps；新4513标签继续，不重跑旧283或L′证书。H/open前态逐字归档。
+
+
+2026-11-27 12:08 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1084由同一原primitive的6p次系数严格读出G_(7p−1)=−2a²/(315δ)，原最大forced角色准确coarse次数及单位最高项已root/o2纸核。
+全部p²误差、Wilson/Lucas、κβ₀λ和两Gaussian twists保留；只条件于该角色good才读global坐标，H_p第一斜率及短η/ν继续。
