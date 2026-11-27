@@ -1,0 +1,663 @@
+{
+  "schema": "isp-Phi0-monic-six-original-value-return-receipt-v1",
+  "run_id": 45985974447,
+  "job_id": 140461582032,
+  "source_path": "topics/invariant-subspace-problem/notes/2026-11-27-unit211-general-Phi-zero-monic-six-actual-value-return-8542.py",
+  "execution": {
+    "elapsed_seconds": 69.226597096,
+    "max_child_rss_kib": 180608,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e4f22fb07d4f0c4ef5606fc82961976c2d4f9251",
+        "before": "e4f22fb07d4f0c4ef5606fc82961976c2d4f9251",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T10:54:23.602775+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45985974447",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e4f22fb07d4f0c4ef5606fc82961976c2d4f9251",
+    "source_exit_code": 0,
+    "source_git_blob": "ad01958e99ca84b00d03159dc2664fb4eddc88e1",
+    "source_sha256": "1218c370659ea487450279925224b57b2c729453d623fd6f086a962d3281963e",
+    "stdout_bytes": 8665,
+    "stdout_sha256": "509a5900d6aae64a6dd083d43c1c664f95eed1ef51a8513b3604e4325ba2e392",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "variables": [
+        "u",
+        "Q",
+        "lambda",
+        "T"
+      ],
+      "PhiExactlyZero": true,
+      "originalMomentRelation": {
+        "degrees": [
+          12,
+          6,
+          6,
+          6
+        ],
+        "terms": 910,
+        "sha256": "cfd6bdac70e117706212e5c767197bcdc85a3180274d308de6d9660da8cb87be"
+      },
+      "originalNumerators": {
+        "D": {
+          "degrees": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "terms": 13,
+          "sha256": "fb824bd153310d0745af8cb60b8897812dcb7c6756dd6c1577620dbec01ca9e2"
+        },
+        "sn": {
+          "degrees": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "terms": 19,
+          "sha256": "4f45bcd015283202539ca0bacc7611031bfa1b3b585ef9a5a30ba9b858676e58"
+        },
+        "zn": {
+          "degrees": [
+            0,
+            0,
+            4,
+            1
+          ],
+          "terms": 9,
+          "sha256": "8bbc99c49496d54fb15cf231928def24ced54de96400e174dde739a77cad4377"
+        },
+        "K": {
+          "degrees": [
+            4,
+            2,
+            3,
+            3
+          ],
+          "terms": 49,
+          "sha256": "2e72e35aca0f7dc5b080291b4177e8fcb9438a847e373baa5af584b8b9e8c8c5"
+        },
+        "Z": {
+          "degrees": [
+            3,
+            1,
+            3,
+            3
+          ],
+          "terms": 32,
+          "sha256": "4fa47d8978944a0134c9f1b76a76475358f64df521875625bff0862a7f8fd62d"
+        },
+        "Sn": {
+          "degrees": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "terms": 17,
+          "sha256": "7ebc59f229ef2c117e6c3478a6914af142c66a422ea156544156f698ad7df006"
+        },
+        "Pc": {
+          "degrees": [
+            5,
+            2,
+            1,
+            1
+          ],
+          "terms": 29,
+          "sha256": "9101dbbe2371a375099632e56004c6878418bd543b6b400c6fddf41be0fd9105"
+        },
+        "NF4": {
+          "degrees": [
+            6,
+            3,
+            6,
+            5
+          ],
+          "terms": 371,
+          "sha256": "661457c23ccc296ece274e56211f695b59cde426e89da4d033f08edcaf657afa"
+        },
+        "NC4": {
+          "degrees": [
+            8,
+            4,
+            7,
+            6
+          ],
+          "terms": 594,
+          "sha256": "5f5cac41af89edf6d078c53ad1d4a6ed978c533de533d6db26240a1f16869a2e"
+        }
+      },
+      "originalUnits": [
+        "u",
+        "u-1",
+        "Q",
+        "1-Q",
+        "ell",
+        "ell-u",
+        "M",
+        "P02",
+        "T0",
+        "J-Q",
+        "u+Q-1",
+        "lambda",
+        "D",
+        "S",
+        "zeta"
+      ],
+      "ordinaryISPClaim": false,
+      "stage": "original_Phi0_exact_weight_and_compact_numerator_input",
+      "seconds": 0.019398664000000565
+    },
+    {
+      "allMomentIdentities": true,
+      "originalP1": true,
+      "originalNVLine": true,
+      "geometricFactors": [
+        "D",
+        "P"
+      ],
+      "noNormInverse": true,
+      "statistics": {
+        "multiplications": 60,
+        "reductions": 71,
+        "polynomial_identity_coefficients": 451,
+        "external_coefficient_audits": 249,
+        "named_parameter_inverses": 13,
+        "geometric_inverse_checks": 0,
+        "rebase_checks": 0
+      },
+      "stage": "six_dimensional_original_moment_and_same_source_line_return",
+      "seconds": 0.10147805999999804
+    },
+    {
+      "name": "E1",
+      "poleOrders": [
+        0,
+        2
+      ],
+      "geometricAtoms": [
+        "D",
+        "Sn*Z"
+      ],
+      "before": {
+        "degrees": [
+          24,
+          14,
+          14,
+          5
+        ],
+        "terms": 14212,
+        "sha256": "31c8a83e01bc2cb73b9ab3a3f64c41b4d9f00f086b3f26210a5fe1536b7dbebb"
+      },
+      "after": {
+        "degrees": [
+          23,
+          13,
+          14,
+          5
+        ],
+        "terms": 12424,
+        "sha256": "3a383e4f07731856f10f81cfec0bfd30319d614b56da923fbbca109f4d4a996b"
+      },
+      "paidRemoved": [
+        [
+          "ell-u",
+          1
+        ]
+      ],
+      "denominator": {
+        "degrees": [
+          6,
+          12,
+          0,
+          0
+        ],
+        "terms": 43,
+        "sha256": "db8876f545ffa99dcbb966714fe1ce0b1b66f4db031cac2fc5741018c20704f3"
+      },
+      "TLeadingNotInverted": true,
+      "stage": "same_point_original_necessary_polynomial",
+      "seconds": 4.746936529999999
+    },
+    {
+      "name": "EB_even",
+      "poleOrders": [
+        0,
+        2
+      ],
+      "geometricAtoms": [
+        "D",
+        "Sn*Z"
+      ],
+      "before": {
+        "degrees": [
+          26,
+          16,
+          14,
+          5
+        ],
+        "terms": 17369,
+        "sha256": "3b7c0cb018b1c406b0fa6e0871479371b6c00271a44dd55cb12fdbc92934ded1"
+      },
+      "after": {
+        "degrees": [
+          25,
+          15,
+          14,
+          5
+        ],
+        "terms": 15393,
+        "sha256": "3930f26f0fa4dbb4aad341bc63f933d615799fc21e3104f43de9d3d69cbfe0d7"
+      },
+      "paidRemoved": [
+        [
+          "ell-u",
+          1
+        ]
+      ],
+      "denominator": {
+        "degrees": [
+          10,
+          14,
+          0,
+          0
+        ],
+        "terms": 79,
+        "sha256": "9d00730bba952f4b512c5063017ae44de196881640d0a7d3be2a5d629cae4035"
+      },
+      "TLeadingNotInverted": true,
+      "stage": "same_point_original_necessary_polynomial",
+      "seconds": 4.978931373000002
+    },
+    {
+      "name": "EB_odd",
+      "poleOrders": [
+        0,
+        2
+      ],
+      "geometricAtoms": [
+        "D",
+        "Sn*Z"
+      ],
+      "before": {
+        "degrees": [
+          26,
+          15,
+          14,
+          5
+        ],
+        "terms": 16326,
+        "sha256": "8c51e8a92824a74d42d5cdacbdf5e55ba5271d907520d30d77878203715358ec"
+      },
+      "after": {
+        "degrees": [
+          25,
+          14,
+          14,
+          5
+        ],
+        "terms": 14424,
+        "sha256": "b6b52e53e907f9b78e4b46993a84864ed421c097c300370a1e6a8c8fb8755dc8"
+      },
+      "paidRemoved": [
+        [
+          "ell-u",
+          1
+        ]
+      ],
+      "denominator": {
+        "degrees": [
+          10,
+          14,
+          0,
+          0
+        ],
+        "terms": 79,
+        "sha256": "9d00730bba952f4b512c5063017ae44de196881640d0a7d3be2a5d629cae4035"
+      },
+      "TLeadingNotInverted": true,
+      "stage": "same_point_original_necessary_polynomial",
+      "seconds": 5.195450770999997
+    },
+    {
+      "name": "N1",
+      "poleOrders": [
+        0,
+        2
+      ],
+      "geometricAtoms": [
+        "D",
+        "Sn*Z"
+      ],
+      "before": {
+        "degrees": [
+          25,
+          14,
+          14,
+          5
+        ],
+        "terms": 15266,
+        "sha256": "21f74a61c342257a038c7b5e03f355e91f54d49b1d6bea03958c8a5b039e10a7"
+      },
+      "after": {
+        "degrees": [
+          22,
+          12,
+          14,
+          5
+        ],
+        "terms": 11437,
+        "sha256": "2c81b5823821c59f62958f435249ad8f5b99daa4f4d763323e7e14cb7340200f"
+      },
+      "paidRemoved": [
+        [
+          "ell",
+          1
+        ],
+        [
+          "ell-u",
+          1
+        ]
+      ],
+      "denominator": {
+        "degrees": [
+          6,
+          12,
+          0,
+          0
+        ],
+        "terms": 43,
+        "sha256": "db8876f545ffa99dcbb966714fe1ce0b1b66f4db031cac2fc5741018c20704f3"
+      },
+      "TLeadingNotInverted": true,
+      "stage": "same_point_original_necessary_polynomial",
+      "seconds": 5.3850510779999965
+    },
+    {
+      "sameOriginalGram": true,
+      "statistics": {
+        "multiplications": 2471,
+        "reductions": 2482,
+        "polynomial_identity_coefficients": 15500,
+        "external_coefficient_audits": 6596,
+        "named_parameter_inverses": 13,
+        "geometric_inverse_checks": 0,
+        "rebase_checks": 0
+      },
+      "claimExcluded": false,
+      "stage": "original_means_and_N1_complete",
+      "seconds": 5.385231515000001
+    },
+    {
+      "publishedAtlasSource": "2026-11-27-unit211-generic-LS-Delta-zero-global-monic-value-quadratic-original-return-8542.py",
+      "exactOriginalIdentity": "Q*NV/2=NF*f+NT*t+NC-Q*f*HA/u^2",
+      "currentHAMomentZero": true,
+      "currentOriginalSecondLineZero": true,
+      "sameOriginalGram": true,
+      "fullOriginalNVZero": true,
+      "extraGenericAtlasExpansion": false,
+      "statistics": {
+        "multiplications": 2471,
+        "reductions": 2482,
+        "polynomial_identity_coefficients": 15500,
+        "external_coefficient_audits": 6596,
+        "named_parameter_inverses": 13,
+        "geometric_inverse_checks": 0,
+        "rebase_checks": 0
+      },
+      "stage": "full_original_NV_by_paid_atlas_and_actual_same_source_lines",
+      "seconds": 5.385255369999996
+    },
+    {
+      "name": "NB_even",
+      "poleOrders": [
+        2,
+        3
+      ],
+      "geometricAtoms": [
+        "D",
+        "Sn*Z"
+      ],
+      "before": {
+        "degrees": [
+          42,
+          25,
+          25,
+          5
+        ],
+        "terms": 86905,
+        "sha256": "7a37b3021bc3f10e58cfdd10fef126613b8147ae4e6b78601a7546e3fd98c602"
+      },
+      "after": {
+        "degrees": [
+          40,
+          23,
+          25,
+          5
+        ],
+        "terms": 74812,
+        "sha256": "69a9e0e7d107fb4c1365cde27669a0258b9ca3740e0b29d16f019765944299c6"
+      },
+      "paidRemoved": [
+        [
+          "ell-u",
+          2
+        ]
+      ],
+      "denominator": {
+        "degrees": [
+          12,
+          22,
+          0,
+          0
+        ],
+        "terms": 144,
+        "sha256": "e2d45282f935b9c9c9d19c4b8ed706b50c253723916ca1c7a8d2d3fa29ae75a8"
+      },
+      "TLeadingNotInverted": true,
+      "stage": "same_point_original_necessary_polynomial",
+      "seconds": 63.484910592999995
+    },
+    {
+      "name": "NB_odd",
+      "poleOrders": [
+        2,
+        3
+      ],
+      "geometricAtoms": [
+        "D",
+        "Sn*Z"
+      ],
+      "before": {
+        "degrees": [
+          41,
+          24,
+          25,
+          5
+        ],
+        "terms": 83837,
+        "sha256": "0769b81f2b9d83b135c45de46883f3e917d08097bc15818827075be158486292"
+      },
+      "after": {
+        "degrees": [
+          39,
+          22,
+          25,
+          5
+        ],
+        "terms": 71932,
+        "sha256": "4d35e82b16e0d9b096b78dc20d09e1be4b215aa8e357e7a4b15946cf778e5e61"
+      },
+      "paidRemoved": [
+        [
+          "ell-u",
+          2
+        ]
+      ],
+      "denominator": {
+        "degrees": [
+          12,
+          22,
+          0,
+          0
+        ],
+        "terms": 144,
+        "sha256": "e2d45282f935b9c9c9d19c4b8ed706b50c253723916ca1c7a8d2d3fa29ae75a8"
+      },
+      "TLeadingNotInverted": true,
+      "stage": "same_point_original_necessary_polynomial",
+      "seconds": 65.017027847
+    },
+    {
+      "name": "PB_even",
+      "poleOrders": [
+        3,
+        3
+      ],
+      "geometricAtoms": [
+        "D",
+        "Sn*Z"
+      ],
+      "before": {
+        "degrees": [
+          44,
+          27,
+          27,
+          5
+        ],
+        "terms": 108490,
+        "sha256": "481af57b2cb93f71ab3af01dd0201320bec2a79594be1a1bc6dcb01e105b49d7"
+      },
+      "after": {
+        "degrees": [
+          42,
+          25,
+          27,
+          5
+        ],
+        "terms": 94451,
+        "sha256": "e904a80a5c8123a63833b7c4313b1912435238cafc22785f7e941278ecd1d14c"
+      },
+      "paidRemoved": [
+        [
+          "ell-u",
+          2
+        ]
+      ],
+      "denominator": {
+        "degrees": [
+          12,
+          24,
+          0,
+          0
+        ],
+        "terms": 157,
+        "sha256": "7e91f59823e5ba1f75d1598795b165f5bd2b4d2912d1399fb6e9f64929ca888b"
+      },
+      "TLeadingNotInverted": true,
+      "stage": "same_point_original_necessary_polynomial",
+      "seconds": 67.152728277
+    },
+    {
+      "name": "PB_odd",
+      "poleOrders": [
+        3,
+        3
+      ],
+      "geometricAtoms": [
+        "D",
+        "Sn*Z"
+      ],
+      "before": {
+        "degrees": [
+          43,
+          26,
+          27,
+          5
+        ],
+        "terms": 104958,
+        "sha256": "ce2715a543744eae56b66e60e7a7b2588db6de7dd00c10ebc3ad8932cfcdab29"
+      },
+      "after": {
+        "degrees": [
+          41,
+          24,
+          27,
+          5
+        ],
+        "terms": 91124,
+        "sha256": "eb16dbaa92fcd5cc3e0fbab2c9ccb3db13bfd77f28a7c35394f601aaa6b5a53d"
+      },
+      "paidRemoved": [
+        [
+          "ell-u",
+          2
+        ]
+      ],
+      "denominator": {
+        "degrees": [
+          12,
+          24,
+          0,
+          0
+        ],
+        "terms": 157,
+        "sha256": "7e91f59823e5ba1f75d1598795b165f5bd2b4d2912d1399fb6e9f64929ca888b"
+      },
+      "TLeadingNotInverted": true,
+      "stage": "same_point_original_necessary_polynomial",
+      "seconds": 69.108704569
+    },
+    {
+      "sameSourceRecovery": [
+        "original moment line",
+        "original P1",
+        "original N(V)",
+        "original E0 and N0"
+      ],
+      "allOriginalMeanN1AndIndividualNP": true,
+      "originalRows": [
+        "E1",
+        "EB_even",
+        "EB_odd",
+        "N1",
+        "NB_even",
+        "NB_odd",
+        "PB_even",
+        "PB_odd"
+      ],
+      "statistics": {
+        "multiplications": 3635,
+        "reductions": 3646,
+        "polynomial_identity_coefficients": 23388,
+        "external_coefficient_audits": 9590,
+        "named_parameter_inverses": 13,
+        "geometric_inverse_checks": 0,
+        "rebase_checks": 0
+      },
+      "claimExcluded": false,
+      "ordinaryISPClaim": false,
+      "newUnpaidInversions": [],
+      "algebraicNormInversions": 0,
+      "stage": "complete_Phi0_full_original_value_input",
+      "seconds": 69.11746018699999
+    }
+  ],
+  "mathematical_scope": "Eight necessary original mean/N1/individual-NP polynomials with T degree at most five, reconstructed from the same original f,t,Gram and values. Not a Phi=0 exclusion.",
+  "claimExcluded": false
+}
