@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：fe1f880802853a8c649330658865693577d164eb**（2026-11-28 05:14 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：d77af47007eedbd4beb90a032390dc17ac45c316**（2026-11-28 05:33 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
-最近真实pull 2026-11-27 01:48 Asia/Taipei；05:06重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 06:06。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+最近真实pull 2026-11-27 01:48 Asia/Taipei；05:33重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 06:33。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-exact-Pade-top.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-banded-commutant.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p 与原算术 cochain
 
@@ -20,9 +20,7 @@ R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2�
 
 [R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数、Heis/class4 p⁵塔与Fourier交换已成；cusp须四moments，Norm仅M0；p⁷纤维积只保两极端四阶。原aux-c/跨line全部cross及ψ₂²保于open/前态；常Lie中心ω²非e₀整torsion。四阶proper/arithmetic继续。
 
-[R1136](results/R1136-original-forced-compact-Manin-sources.md)原两秩紧致源、J/transfer/θ² diamond、ordinary Hecke及rank1 exact p²/Fricke+ twist全成（保quadratic-St）；整away-p order、source unsmoothing不代全field关系。[R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)原除子/augmentation付全部n>3的S_n=(4/m²)V_n{Fχ,Fψ}，V_n=n⁴−n^(a+2)T_n+n^(2a+1)，两cross完整。[R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)明确F33低mixed门下付HS/base/Pic全部target公共核消去，原裸cup=指定Ψ(c)；值未零，四阶指定邻对在门外。
-
-[R1140](results/R1140-original-low-weight-Manin-source-reduction.md)原j1,k2：C¹=0、C²=(16δ²/21)C_Eis，实际Merel/det/apolar给λℓ=ℓ⁻²+ℓ³。无门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)，β_E=S_n/v_n，V_nβ₈0；B16/B_(p−15)单位才删β₈。§§10–12真实degree-p norm不反除p，trace-fixed付24常数，一次Galois/Cartan权u⁴v⁸，fixed-Weil n⁻⁴与两cross准确给β_E=16δ² V_n₀𝒯{W*G₄,G₈}/(21m²v₀)。§13已付该bare trace在原X_K的全部cusp tame，F33内cup=(4δ²/21)𝒯{W*G₄,G₈}，可去V投影；门外仍保compact I8差。实际标量不造F0。§14新付ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132；原Betti c=−Merelι*而C_Eis为c+。Bp−5门内C_Eis=λ_E[div(fχ1)/p]，λ_E允许零且未与cup常数混同。
+[R1136–40](results.md)原完整Manin源、J/transfer、Hecke/adjugate及两个cross已付；所有n裸比较S_n=(4/m²)V_n{Fχ,Fψ}。F33低mixed门才消整个target公共核；四阶原邻对在门外。R1140原j1,k2给C¹=0、C²=16δ²C_Eis/21，Tℓc_Eis=(ℓ⁻²+ℓ³)c_Eis，无条件β=β_E+β₈；B16/Bp−15单位才删β₈。真实degree-p norm、fixed-Weil重标、Fricke及p-isogeny两槽/全cusp tame均成；门内cup=4δ²𝒯{W*G₄,G₈}/21。原ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132；原Betti c=−Merelι*。旧条件性未知λ_E现由R1143完全替代。全部公式保原文及前态，不重做。
 
 [R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件p>37付同一source c_Eis=−2016δ²Pχ1≠0：BM整零周期格的compact reduction就是cuspidal p-torsion，ES唯一偶角色免去Bp−5门；全μ边界、负Abel、J e2=−e1、Sω²/p=1/189和原m尺度全付。仅source非零，Ψ(Pχ1)实际值与R1141/Pic/混合门均未取消。
 
@@ -36,10 +34,14 @@ R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2�
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原D₀/Λ rank3边界、U/B/C完整共轭及指定2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0已成；Λ非局部D、moving p极不可删。§2整差商/相对Cartier/碰撞值χ(−Q)=−d0/v给实际Padé：
 N=(p−5)/6，Q=H(−v²x)、P=−J(−v²x)/a0，
 QF−P的contact恰2N+1且首余项unit，F=₂F₁(1/3,1/2;4/3)=√(1−x)G_N。
-原e/K4双零 iff Q0=Q1=0，P亦含x²；约后deg≤N−2/contact2N−1。§2.5新付P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N unit，degP=N；不单独排二次缺陷。o1继续原相邻Hankel/Pearson/旁列。R1137§2.6新付原F²=(1−x)G_N²=D_N−g_N²x^(2N+1)，完整首carry保留，D/G各无重根且互素。实际norm余式Z非零deg≤N−1；e/K4双零则D q²−p²=x^(2N−1)W，W非零deg≤N−3，W0=2εp0不强称unit。实际三分支map指数全tame；余式排除仍开。
+原e/K4双零 iff Q0=Q1=0，P亦含x²；约后deg≤N−2/contact2N−1。§2.5新付P_N=−2(v²)^(2N+1)(2/3)_N/(7/6)_N unit，degP=N；不单独排二次缺陷。o1继续带第三类补偿的真实proper de Rham推前/PD格；不把有理dlog K平坦性或全Weyl模块代rank2格。R1137§2.6新付原F²=(1−x)G_N²=D_N−g_N²x^(2N+1)，完整首carry保留，D/G各无重根且互素。实际norm余式Z非零deg≤N−1；e/K4双零则D q²−p²=x^(2N−1)W，W非零deg≤N−3，W0=2εp0不强称unit。实际三分支map指数全tame；余式排除仍开。
 
 
 原Tate normal-FM的普通连接保HD_T及全部高极；固定Prym三同源φ=[−s]ψ、完整trace与Fermat矩已成，Ξ/Υ同一CM线，不能由完美性推e/K4非同时零。genus4 Y非hyperelliptic且e0 iff全βY0，单向引理不反用。R1113完整谱、R1130相邻δ、R1126六CM配对、R1060非CM ordinary及所有旧窗口只消费；R1134四输入十五Euler列fullrank及run/hash已成，不重跑。上述准确公式/links见open和前态。
+
+### 当前新增 Actions
+
+root 已准备原 H_N=(f_(i+j+1)) 的全部带宽1、2自伴随方程 H_NT=TᵗH_N；固定p=101,107,131,137，仅寻找保持实际核的算子，不重跑R1134。脚本 original_pade_banded_commutant.py、request/workflow 同名；[请求方法](notes/2026-11-28-original-Pade-banded-commutant-diagnostic.md)。run尚待触发/完成，不能先报结果。只允许公开Actions执行，300秒内部/360秒硬截止，不存输出数据；完成后读完整摘要与hash，立即登记并继续下一实际问题。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "task": "original_pade_banded_commutant",
+  "primes": [
+    101,
+    107,
+    131,
+    137
+  ],
+  "bandwidths": [
+    1,
+    2
+  ],
+  "max_seconds": 300,
+  "source_result": "R1137-sections-2-and-2.6",
+  "scope": "all matrices T with |row-column| <= bandwidth and H*T = transpose(T)*H"
+}
