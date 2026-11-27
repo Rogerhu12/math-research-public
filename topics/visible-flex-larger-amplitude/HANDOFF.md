@@ -4,7 +4,7 @@
 
 ## 规则和全部历史
 
-root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`0fca42f08642ede7e5f8ba1bbeb596ce7f9dc9ed`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`6e7fc7dc687960599e398087f9e1f574bdc2a738`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，完整结论即普通推；不强推，NFF真终端立即rebase循环。无终端时云普通HEAD保全合并，不冒pull。raw仅runner/scratch，不入Git/Release/artifact、不改名输入；保存完整源、全参数、run/hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB。令牌仅瞬时CLI。根12禁止独立审核/冻结/AST/fixture/重跑等新门，实际全数学与原完成条件不减。
 
@@ -32,7 +32,7 @@ root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 [R717完整证明](results/R717-fixed-fejer-seven-mode-chart-and-whole-image-bounds.md)：B=1/4、n=7预定有理Fejér曲率；七系数逐项RN-even64后作为**准确dyadic目标**，8…160为+0。理想有理图另付舍入差，ρ≥1/4−553·2^-53、完整Θ0严格单调/闭合/两反射及半转。初始X*=82967/60060、Y*=26399/60060只给设计尺度；当前157自由core改变后须重算，不能继承初始界。圈图和单cos不另开支线。
 
-[12完整启动](notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md)：maker89cc完整39375B + reference e717完整60335B、seed/base/Q及全部复现/参数已刊；首两步直接followups，无warm，完整6/26argv、4/7outputs、14/62selectors。新确定性J923/完整e640 scalar；固定2218整数叶、7377观测、全Gauss8和高度。queue finish=false，后继完整immutable科学/pure即接；尚无新输入/场/费用实际返回。controller12短H行保全长stage于索引/卷，不再使长id撑爆H。
+[12完整启动](notes/2026-11-27-run12-predetermined-fejer-complete-input-launch.md)：maker89cc完整39375B + reference e717完整60335B、seed/base/Q及全部复现/参数已刊；首两步直接followups，无warm，完整6/26argv、4/7outputs、14/62selectors。新确定性J923/完整e640 scalar；固定2218整数叶、7377观测、全Gauss8和高度。queue finish=false，后继完整immutable科学/pure即接；尚无新输入/场/费用实际返回。controller12短H行保全长stage于索引/卷，不再使长id撑爆H。 [九下层完整族](notes/2026-11-27-fixed-fejer-immutable-normal-lower-family.md)已刊，normal1aa64/packet1445全32阶段和52非改方法保；真实12/46011377225/1，job140547455454已执行，等待实际返回。
 
 旧known P0/G/typed及原affine/发现序全部保provenance；新g/new mesh中literal参数若重新解释必须明列reinterpreted、不得称同s/physicalpoint或迁旧值。J同不能冒网格同。原未知末点不造空，也不为跨新g另设前置门。完整新证书从新g支付全域义务。
 
