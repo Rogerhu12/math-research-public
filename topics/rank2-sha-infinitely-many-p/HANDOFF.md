@@ -53,7 +53,7 @@ v9/v10/v11全部终态及失败链见[终点链](notes/2026-11-27-artinian-v7-fi
 **[原Theta三变量V](notes/2026-11-27-original-three-variable-vector-field-prime-d-property.md)**新增全次数稳定素簇分类：仅三稳定超曲面t=0,1/Y=0，高余维在t=0或1，原点D-property常数1。实际J_s只modt^s但V稳定，1≤h<s的阶保持；minimal primary长度e<p才可令其根稳定。后继截断forest已付如下；不把R321 shifted/Euler再算新坏行。
 
 
-三变量V§8已补固定低degree通用Noetherian退出：固定M、L=d0+3M，minimal局部长度≤L³，p>L³才得稳定素分量并迫≤M次退出；不冒有效M或embedded长度。[完整正特征森林](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)现已付正规化枝/cap/有限流/288阶高degree退出及三层交循环。固定有限坏集外，原低轴 $\min(s,\operatorname{ord}P)\le D+D(D+A)+D(D+A)^2$，$A=3\max(M,288)$；只在 $H=s-13-r_c$ 超过此界排核，临界窗未排。同文§§11–14再付完整矩形/Segre/nef边界，另立 $M_\square,C$ 后得 $\mathcal B_V(a,b)=O_V((a+1)(b+1))$；原第一块真秩至少 $(9/[176(6C+1)]+o(1))H$。只在显示cutoff排核，未知常数全保；下一原第二/三块与首提升，第一块不能超过s行。
+三变量V§8已补固定低degree通用Noetherian退出：固定M、L=d0+3M，minimal局部长度≤L³，p>L³才得稳定素分量并迫≤M次退出；不冒有效M或embedded长度。[完整正特征森林](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)现已付正规化枝/cap/有限流/288阶高degree退出及三层交循环。固定有限坏集外，原低轴 $\min(s,\operatorname{ord}P)\le D+D(D+A)+D(D+A)^2$，$A=3\max(M,288)$；只在 $H=s-13-r_c$ 超过此界排核，临界窗未排。同文§§11–14给该方法的薄X二次推论，§15已核旧R467 Theta补充有更强显式二维接触界、R637有真实短三块满射范围，优先复用；二维指数不另计新推进。下一原二/三块与同一首提升，低轴单位秩不代全位行列式收益。
 
 ## 继续分工
 

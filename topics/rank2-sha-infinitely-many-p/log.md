@@ -307,3 +307,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 21:36:49 UTC：消费arithmetic矩形最终blob5157473269e6901aca314e3a9536760ec43af2bb，附原森林§§11–14。root手核平移导子全部Laurent支撑、低box清分母及首退出Leibniz、完整Segre嵌入的Hilbert限制、24/576常数、每层nef/实际边界交数和三项混合展开；另核原帽11N/34与真秩比例9/[176(6C+1)]，不越第一块行数。附节10306B/SHA256 ab377856f42760616edfb6433fda8448eeb7dab85dc69935f535fe16366ae7c8；合并note 27093B/SHA256 1ccb1f912f5867f5583b580be8fd737dca87c489b601bc02bca3ea1194280767。未知M□独立存在，全部p阈值/conductor/primitive返回条件保；无数学执行、无新增中央行。下一完整M二/三块与首提升，新共同因子仍按实际KS尺度审证；geometry改接S3150同一finite forcing，不重复Lamé或已付点投影。两库actual pull21:22/下一≤22:22，唯一v12继续。
+
+
+- 2026-11-27 21:40:37 UTC：根与arithmetic接完整厚矩阵时检出既有R467 Theta补充，root亲读blob3ecc71cb72b0d013fac23c9df9b58286680f5a96、R4678136ace及R6371de8052全文。旧文已付Theta同ODE的显式二维接触/全因子界及原短三块平方根整满射，因此立即在森林§15和H/open/results/index交叉校正范围；不把新方法的较弱二维推论计成新临界排核或预算改善。新完整note 28755B/SHA256 fe9437a688a96065342ccadd6696eebc0219574e0ee673e56bb7e9a64c7e23e0。三变量正特征cap/有限流/全交循环证明保持有效；继续实际E-moments二/三块和同一R/Xi，不重证旧界。新文献窄查亦命中已登记Banwait及Wu–Zhu范围，未重复登记新成果。无数学执行；两库actual pull21:22/下一≤22:22，唯一v12在21:39仍in_progress。

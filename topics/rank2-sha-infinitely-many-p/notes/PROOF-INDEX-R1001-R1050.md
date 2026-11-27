@@ -423,3 +423,6 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 ### 原薄X矩形的二次重数与第一块真秩（2026-11-27）
 
 [完整证明§§11–14](2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)。对原 $P(t,Y)$ 保无 $X$ 的实际薄度，平移到 $(t+1,X+1,Y)$ 的 torus 后以完整矩形单项式及 $(\mathbf P^1)^3$ 的真 Segre–Veronese 嵌入支付 Hilbert 下界；所有局部 cap/有限流均沿前文已付步骤。另设固定 Noetherian 常数 $M_\square$，保清 Laurent 分母的单位、边界交数和 $p>L_\square^3$。得 $U=a+C,W=b+C$ 时完整上界 $48UCW+8(UC+UW+CW)+4(U+C+W)=O_V((a+1)(b+1))$。代原帽 $a_N=\lfloor11N/34\rfloor,b=N$ 后，只在显式 cutoff 排必要低轴核；同一已付 primitive 低源子格给第一块真秩至少 $(9/[176(6C+1)]+o(1))H$。未知存在常数、conductor/原点费用、原二/三块和实际首提升全保，未称临界全列独立。
+
+
+- 原森林§15范围校正：已核对既有 [R467 Theta 补充](2026-11-14-r467-mixed-j-original-theta-extension.md)的显式 $a(6b-1)-2c+3$ 及全部因子界、R637 的真实短三块整满射范围。新森林§15明确优先复用这些旧结论；§§11–14的二维二次指数及低轴秩只是本次三变量方法的推论，不另计新的临界排核或主预算改善。继续的实质门是含 $X$ 的完整截断论证、原二/三块、同一 $R$ 及指定 forcing。
