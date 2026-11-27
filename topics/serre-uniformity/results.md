@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1126（已证明）**：[R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)付原X108六CM输入的全部十五对Raynaud配对，目标保十维；真实R/I/σ和p逆半线性准确给A/S/T三有限和及完整表。原S_n仍为gd/uv通道；六阶Pfaffian恒零且不含S，不能从此或非CM普通性推出S单位。后继沿真实gd=c²、uv=h²及primitive求高阶约束。
+
 - **R1125（已证明，固定47完整分类）**：[原X_ns^+(47)的全部有理点](results/R1125-original-full47-rational-point-classification.md)：恰八个已列有理CM点。原235盘与完整全局标签、283/4513同一点转移、全部非q项、73维原整格/高度、16个规范局部值及八盘全尾唯一性完整接合；不加整j、固定二次域或proper inertia假设。一般素数绝对一致性仍OPEN，继续open的下一未解分支。
 
 - **R1124（已证明，精确计算）**：[原两特殊CM盘完整关闭](results/R1124-certified-original-two-special-CM-disks.md)：run46000409994/job140510309243，117.687秒；0/141实际矩阵rank2、det294/3157、共同gcd=t且B unit，完整原4513盘各只余CM点。合R1122全部八盘内部唯一已成；固定47全局链随即接合，一般p继续。
