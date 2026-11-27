@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 12
     env:
       ISP_PIN: ${{ github.sha }}
-      ISP_FILE: 2026-11-27-unit211-generic-LS-W-J19-entire-F588-original-finite-Gauss-return-8542.py
+      ISP_FILE: 2026-11-27-unit211-generic-LS-W-J19-entire-F588-original-finite-Gauss-flint-api-corrected-8542.py
       OMP_NUM_THREADS: '1'
       OPENBLAS_NUM_THREADS: '1'
       MKL_NUM_THREADS: '1'
