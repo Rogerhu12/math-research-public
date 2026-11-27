@@ -581,3 +581,8 @@
 ### 2026-11-28 05:59 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1144对原j1,k2无条件给 proper 算术 A1∪A2=−8δ² A1∪ε4/11；真实有限矩、Tate transfer全部arith项、ram–ram cyclic cup、低权全HS检测及proper/S回填逐项支付。
 - 指定pair的β8现在无Bernoulli门消去；原SV端点 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，保原两factor2、Betti/ram-first符号及away6p已付Hecke范围。root/global/o2全文独审并亲读SV Lemma7.2.5；无数学执行，继续实际Heis p³及p-local标量、指定四阶与另两主线。H/open逐字前态归档，旧未知c的文字按准确新结论更新。
+
+
+### 2026-11-28 06:06 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1146从指定proper算术零杯积构造真实Heis p³覆盖：L3/L5/L8、连续cochain、全cusps/好素位、几何满群与连通一并支付；B8给base中心H¹/H²全零，local p中心一维，实际rational点的中心差必要零条件定义准确。
+- 原曲线centraltwists=J(K)[p]_(ω⁻⁷)，低mixed门通过R1132 r8另给cover唯一；不把无门cup零推为所有twists零、不以dimension宣排点。root/global全文独审，primary Cartan–Leray/local duality实读，无数学执行。H/open逐字归档并压缩已被新结论替代的旧入口；继续原p-local首项、指定四阶及另两条主线。

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原 proper 算术 Heisenberg 覆盖及中心（已证明，纸面）**：[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)无条件构造原修正pair的proper算术Heis p³：准确L3/L5/L8下降、连续dz=−a∪b、π1→étale H²单射、原几何独立→满Heis连通全部付；全cusps/ℓ≠p含2、3均étale。B8单位给H¹/H²(S0,L8)=0，每个全局abelian pair的提升唯一；local p中心恰一维，原点须满足实际覆盖纤维与唯一global提升的中心差为零。曲线上twists准确为J(K)[p]_(ω⁻⁷)，B16/Bp−15门内R1132 r8删全I8后cover也唯一；无门保此歧义。尚未算p-local实际函数/非零，class4和一般p同点排除继续。
+
 - **原有限矩与准确 proper 算术杯积（无条件已证明，纸面）**：[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术等式 A1∪A2=−8δ² A1∪ε4/11，故 A1∪(A2+8δ²ε4/11)=0。原有限矩的完整Tate transfer/arith项、ram–ram cyclic cup、低权全H²检测、polar三项、两次factor2及open→proper→S回填均已付；不反除p、不需Bp−5/F33。该pair实际β8=0且 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，消去旧未知标量/Pic lift障碍。R1142的未修正proper类非零与field像MW d=0/1二分仍保；一般pairs及四阶未完成。root继续修正pair的proper Heis p³、真实Q下降与连通；global继续p-local额外标量。
 
 - **R1145（已证明，有限精确计算）**：[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个原H_N带宽1、2完整系统均只有标量；p=101,107,131,137，run46071081257/job140747905385成功，全部核维1及单位子式已付。只排有限输入的三/五对角自伴随机制，不代e/K4非同时零；不重跑。

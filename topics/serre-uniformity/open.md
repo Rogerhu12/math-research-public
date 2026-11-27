@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-exact-proper-cup.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-proper-Heisenberg.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -30,28 +30,13 @@
 
 [原跨line弦单位](notes/2026-11-28-original-cross-line-chord-unit-equations.md)：i仅原E[p]索引，(P,aP,iP)给真实U+V=1。一次实际bar范数保全部θ相位/leading，两槽类为uχ(a)Fχ/m、vχ(a)Fχ/m；uχ=2[g(a+1)−g(a−1)]、g(t)=(t²−δ)^r−t^(2r)。低/高r根数付每actualχ都有2≤a≤m使uχunit；第二槽全ψ₂²保留、不除κ₂。不保证两χ共a或V槽unit。原Norm crossed Cor/四阶下降继续；泛配置双tame非零只作边界，不能传到实际椭圆。
 
-[R1136](results/R1136-original-forced-compact-Manin-sources.md)已付原两秩紧致源/J/transfer/θ² diamond、全basis regularity/Gysin及CRT/adjugate；rank1 exact p²/Fricke+ twist保quadratic-St，整away-p Hecke商和Φ方向准确。原I_(2j+2k+2)在明确低mixed门内可unsmooth，四阶非重复邻对在门外；完整旧公式在原文和前态，不重做。
+[R1136–40](results.md)原完整Manin来源、两种秩/J/transfer/Hecke与两个cross均已付。全部n>3,n≠p有 S_n=(4/m²)V_n{Fχ,Fψ}；F33门内付整个target unsmoothing，四阶原邻对未扩。原j1,k2有C¹=0、C²=16δ²C_Eis/21，β=β_E+β₈；p-isogeny两槽、真实degree-p norm与全cusp tame见R1140。原ε4=βχ2/(1−a⁻⁴)，v4=1/252，v8=1/132；旧窗口不重做。
 
-[R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)已付真实模p裸比较：辅助c除子及augmentation精确消全部base factor，Lχθ′=nq*Gχ−χ(n²)π*Gχ、T̃_nGχ=(n+χ(n²))Gχ；两个crossed norm由projection formula完整计算。全部n>3,n≠p均有S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}，左侧为R1136的独立+rank1真实紧致来源。未除κχ(n)、level p或splitting degree；不使用有理Siegel的1/p。source单位理想仍须与target公共核区分，未宣cup零/四阶cover成。
+[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件 c_Eis=−2016δ²Pχ1≠0，原BM整格/负Abel/全μ边界/J/原m尺度全部付。[R1141–42](results.md)在Bp−5单位时，原arith-proper I3块H²=O/p，实际MW Pic只能0或全；d0/1分别给constant cup的field像非零/零。原Bhat=A1∪βχ2非零且生成socle；d仍未定。
 
+[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术 A1∪A2=−8δ² A1∪ε4/11，故 A1∪(A2+8δ²ε4/11)=0。有限矩的完整Tate transfer/arith项、ram–ram cyclic cup、全H²检测、polar三项、两次factor2及proper/S回填均付，不反除p。指定pair实际β8=0且 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，已替代旧未知λ/c及该pair的F33门；不扩大一般pairs或将未修正proper类当零。
 
-[R1139](results/R1139-original-compact-target-unsmoothing-and-bare-cup.md)在明确F33低mixed Bernoulli门下消R1136 F53的实际target公共核：原p倍divisor给完整H¹ Kummer类与H² cup lift，所有cusp tame为pth；HS几何H²(2)是ω而非ω²，actual θ偶故只剩Jacobian与base两层。source单位E补为F=E+(1−E)V/v，v=n(n^a−n)(n^a−n²)可选unit，(F−1)²0⇒(2−F)F=1。恒等式保Pic/Br稳定商及整个紧致像，严格得到(4/m²){Fχ,Fψ}=Ψ(cχψ)。指定紧致源值尚未为零；原四阶非重复邻对不满足该门，不能扩大。
-
-[R1140](results/R1140-original-low-weight-Manin-source-reduction.md)对原j1,k2直接模p证明C¹=0、C²=(16δ²/21)C_Eis；实际J/apolar/三低权商及Merel完整Hecke给端点λℓ=ℓ⁻²+ℓ³。无Bernoulli门已有β=β_E+β₈，v_n=n⁻¹¹(n⁵−1)(n¹⁰−1)选unit，β_E=S_n/v_n而V_nβ₈0；两者均为真实compact像。此前用p∤B16 B_(p−15)删β₈；指定pair现见R1144的无门实际值。仍不造F0，一般pair与高cochains继续。
-
-R1140§§10–12再以真实degree-p norm（不除p）把端点写成p-isogeny两槽G₄/G₈；trace-fixed付24常数，原一次Galois/Cartan权为u⁴v⁸，fixed-Weil n⁻⁴与两cross给完整V_n。β_E=16δ² V_n₀𝒯{W*G₄,G₈}/(21m²v₀)；保V投影，不假bare trace proper。
-
-R1140§13已付bare 𝔟=𝒯{W*G₄,G₈}的generic-K proper lift：乘法核线ordA带p，其余p条线A同一ε4、ordB同一v8，完整Σ_b N(e1+b e2)²=0消全部tame；μp相位由Σt⁵付清。F33下{F1,F2}=(4δ²/21)𝔟，故结合R1141§2此门内𝔟亦自动有全S={p}支撑；无门时只付generic compact，V投影/公共核仍保。
-
-R1140§14已付原ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132，完整带权tame仍消；真Betti共轭c_*=-Merelι*，source保原N/J/Q下降。p∤Bp−5门内c_Eis=λ_E Pχ1于实际I3 socle，λ_E允许0，局部tame系数和全局cup常数不混同；继续算λ_E/指定cochain。
-
-[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件p>37付同一source c_Eis=−2016δ²Pχ1≠0：BM整零周期格的compact reduction就是cuspidal p-torsion，ES唯一偶角色免去Bp−5门；全μ边界、负Abel、J e2=−e1、Sω²/p=1/189和原m尺度全付。source非零已付；准确target值现见R1144，不保旧未知λ。
-
-[R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时付原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}，允许零。原torsor延拓全S={p}，Hecke闭包保支撑；BrS0/完整Pic商、MW可除项及DVR π支付真实socle提升。Q下降为ω5→V→ω10，B10单位删商H¹。此前再B16/B_(p−15)门仅给field杯积存在某c；R1144现无门给该pair的准确c及proper算术等式，高cover仍须构造。
-
-[R1142](results/R1142-original-proper-Eisenstein-cohomology-and-Picard-dichotomy.md)只需Bp−5单位，原V_r=(TπJ⊗ω7)/πʳ的H0/H2为0、H1=O/πʳ（真实π像/Nakayama已付）。cusp section杀Leray transgression、B8杀base，故proper H²_(θ,m3)=O/p；实际ξ=ω⁻⁷ MW无torsion，Pic部分只能0或全，rank d=0/1。原Bhat=κF1∪κε2非零并生成π-socle；其field像B12非零 iff d0，d1时为非零Pic类。未定d；指定原cup由R1144给准确socle值，其他proper块仍保。
-
-[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术等式 A1∪A2=−8δ² A1∪ε4/11，故 A1∪(A2+8δ²ε4/11)=0。原有限矩的完整Tate transfer/arith项、ram–ram cyclic cup、低权全H²检测、polar三项、两次factor2及open→proper→S回填均已付；不反除p、不需Bp−5/F33。该pair实际β8=0且 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，消去旧未知标量/Pic lift障碍。R1142的未修正proper类非零与field像MW d=0/1二分仍保；一般pairs及四阶未完成。root继续修正pair的proper Heis p³、真实Q下降与连通；global继续p-local额外标量。
+[R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)无条件构造原修正pair的proper算术Heis p³：准确L3/L5/L8下降、连续dz=−a∪b、π1→étale H²单射、原几何独立→满Heis连通全部付；全cusps/ℓ≠p含2、3均étale。B8单位给H¹/H²(S0,L8)=0，每个全局abelian pair的提升唯一；local p中心恰一维，原点须满足实际覆盖纤维与唯一global提升的中心差为零。曲线上twists准确为J(K)[p]_(ω⁻⁷)，B16/Bp−15门内R1132 r8删全I8后cover也唯一；无门保此歧义。尚未算p-local实际函数/非零，class4和一般p同点排除继续。
 
 ### 原完整X_ns^+(47)与旧整K₂输入：已完成，只消费
 
