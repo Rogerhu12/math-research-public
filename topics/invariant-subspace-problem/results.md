@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般等权完整824次QQ权覆盖](results/R150-appendix-unit211-equal-weights-complete-824-degree-original-weight-cover.md)：固定49阶原C/D结式保全部首项零，剥原m/m−1/2m−1后准确余(2m+1)F236F243；源4f3a8529实际6.815秒/exit0，三个整因子继续返回原NSPS/Dval，未声称空性。
+
 - [Q=1−u原四二次全头覆盖及真实商六生成元](results/R150-appendix-unit211-Q1minusU-original-four-quadratic-full-head-six-generators.md)：三组原minor覆盖全部余图；原Myz齐次分裂的所有方向排除，完整apolar证明三次头满秩，故每真实原商维数≤6。源08477fa3原Gram整实跑2.770秒；生成元不冒充独立基，乘法与原值返回继续。
 
 - [一般等权的剩余原权点有限及Gram六点界](results/R150-appendix-unit211-equal-weights-finite-original-weight-and-Gram-locus.md)：完整原cofactor曲线总次数30/32、QQ[m,Q] gcd1，最多960权点、每权点至多6个原Gram点；不把互素当单位理想。源1541f738，首次实际2.970秒/exit0，继续全部有限交点与Dval。

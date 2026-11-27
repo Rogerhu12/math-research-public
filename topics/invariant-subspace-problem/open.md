@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-half-weight-and-centered-physical-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-equal-weight-projection-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -49,9 +49,9 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 [H非零最高次全分类及整个二次权纤维返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-highest-weight-cover-and-quadratic-fiber-exclusion.md)现排所有对角/零坐标方向；其余只可能u=Q、ell=2−Q、Q²−12Q+8=0，再以独立有限原Gram的48×35原单位行排该整个纤维。因此仍可能含有限原解的其余W权参数，其四二次头无非零公共向量；不能将三个权条件任意一个单独付为单位。全部旧四生成元/Cramer大门冻结，续小原模块和全部未付头零面。
 
-**Q=1−u边界：** y1、H_Q0、u半、ell0及两条原y二次首项整支均已全闭，来源/实跑见[第二首项完整证明](results/R150-appendix-unit211-Q1minusU-second-mean-leading-branch-exclusion.md)与结果索引。新[整个T0=0即h=2](results/R150-appendix-unit211-Q1minusU-T0zero-complete-exclusion.md)由原共同g曲线的Dval0、六阶QQ完整二次覆盖和原NS十五阶Gauss全部排除；源整实跑2.277秒，不需额外s/2u−1。h=ell/u、mu=uh²−(h−1)²、s=h(1−omega)−1，剩余原y二次首项2s[(h−2)s+2mu]及h−2可逆。继续同一点原R/N1/NSPS/Dval，不当充分原解，不扩大到一般LS的T0。 [原四二次完整头覆盖与每商≤6](results/R150-appendix-unit211-Q1minusU-original-four-quadratic-full-head-six-generators.md)已付：三原4阶minor覆盖全余权图、Ry齐次头Myz的全部方向排除，apolar论证三次头全张成；源08477fa3实际2.770秒。续三图的同一原关系/NSPS/Dval，未声称18真乘法已构造。
+**Q=1−u边界：** y1、H_Q0、u半、ell0、两条原y二次首项零及[整个T0=0/h=2](results/R150-appendix-unit211-Q1minusU-T0zero-complete-exclusion.md)均全闭，来源/实跑保结果索引与归档；h−2及原y二次首项已付，不扩大到一般LS。[原四二次全头覆盖/每商≤6](results/R150-appendix-unit211-Q1minusU-original-four-quadratic-full-head-six-generators.md)给三原4阶minor全覆盖、Ry头Myz全部方向排除和apolar满三次证明，源08477fa3实跑2.770秒。续三图同一原关系/NSPS/Dval；六元非独立基，未构造的18乘法不冒成功。
 
-**一般等权b=c：** y1/y半/[y0](results/R150-appendix-unit211-equal-weights-zero-singleton-mean-exclusion.md)、A_m零及[整个T0零支](results/R150-appendix-unit211-equal-weights-T0-zero-complete-original-exclusion.md)已闭。现在可付J=2m+Q−2，独立x/y/t原四二次的x²/xy/xt/t²子式为−16m²(m−1)²J²；继续原cubic overlap及同点N/P。旧[首一值二次](results/R150-appendix-unit211-equal-weights-two-parameter-monic-value-quadratic.md)及[同v三一次余式/六投影](results/R150-appendix-unit211-equal-weights-same-value-linear-remainders-and-six-projections.md)范围不变，必须保全部一次首项零并返回Dval；v+1、alpha+beta已付。旧QQ 600秒未决门冻结，整个等权仍开。 [整个m=1/2权线](results/R150-appendix-unit211-equal-weights-half-weight-complete-exclusion.md)现由原首一z四次、同z三次、完整20/30次QQ投影和14/24次实际Bézout1排尽，故一般等权可付2m−1。 [全图剩余原权点有限](results/R150-appendix-unit211-equal-weights-finite-original-weight-and-Gram-locus.md)：两条全原常数列余子式总次数30/32，完整QQ[m,Q] gcd1，故至多960权点、每原Gram纤维≤6。新源1541f738实际2.970秒；三个非零余子式第三仅第二相反数。继续有限交点及原Dval，不以gcd1当空性。
+**一般等权b=c：** y1/y半/y0、A_m零、整个T0零及[整个m=1/2权线](results/R150-appendix-unit211-equal-weights-half-weight-complete-exclusion.md)均已全闭，可付J=2m+Q−2、2m−1；原单位/旧同v余式的准确范围保归档，旧QQ600秒门冻结。[全图六生成元](results/R150-appendix-unit211-equal-weights-global-original-six-generator-module.md)和18真乘法、原NSPS/Dval全部返回。两全原cofactor互素给余权点≤960、每Gram≤6；[完整824次QQ覆盖](results/R150-appendix-unit211-equal-weights-complete-824-degree-original-weight-cover.md)仅余(2m+1)F236F243，源4f3a8529首次6.815秒/exit0。继续三个整因子的原同点NSPS/Dval，不把有限性/必要结式当空性，不漏任何主元零纤维。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 
