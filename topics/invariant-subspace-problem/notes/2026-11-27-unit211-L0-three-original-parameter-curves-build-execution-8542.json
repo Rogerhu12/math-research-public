@@ -1,0 +1,220 @@
+{
+  "source": "2026-11-27-unit211-L0-three-original-parameter-curves-safe-slimgb-QQ-8542.py",
+  "sourceSha256": "478dfef580829ad42e5e11cde0747df3af4742ca1f5bf613df4c34757de0362d",
+  "sourceBytes": 21791,
+  "arguments": [
+    "--build-only"
+  ],
+  "actualExitCode": 0,
+  "wallSeconds": 68.48550445500223,
+  "peakRssKiB": 133448,
+  "stopReason": null,
+  "stdoutBytes": 18878,
+  "stdoutSha256": "0fc8488ef12735efea827474bf9ead84ac2724e2941c8d86400b14526fc89b49",
+  "limits": {
+    "sourceAlarmSeconds": 300,
+    "addressSpaceGiB": 8,
+    "externalHardSeconds": 310
+  },
+  "wholeL0Excluded": false,
+  "finalRecords": [
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 68.221922,
+      "name": "C39_53",
+      "profile": {
+        "degrees": [
+          0,
+          39,
+          53
+        ],
+        "sha256": "6057a487720992327d9e065ec6b7ef5e54896637f1c756a28391fd734737b50c",
+        "terms": 1843
+      },
+      "stage": "original_two_parameter_necessary_curve"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 68.225395,
+      "name": "X34_52",
+      "profile": {
+        "degrees": [
+          0,
+          34,
+          52
+        ],
+        "sha256": "519fe7c69a0cf7c05283aa66833331b64e7654bb6ec0daec606c49b2c2a02f68",
+        "terms": 1580
+      },
+      "stage": "original_two_parameter_necessary_curve"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 68.242376,
+      "name": "Y78_95",
+      "profile": {
+        "degrees": [
+          0,
+          78,
+          95
+        ],
+        "sha256": "c696ee10ac72763cbc2d9e01cd84cdda6bfd5116faa3262ddbf6f96490c54d33",
+        "terms": 6379
+      },
+      "stage": "original_two_parameter_necessary_curve"
+    },
+    {
+      "claimExcluded": false,
+      "elapsedSeconds": 68.242863,
+      "noUnpaidLeadingCoefficientInverted": true,
+      "stage": "original_two_parameter_paid_units",
+      "units": [
+        {
+          "name": "physical_1",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "sha256": "7f1b55b860590406f84f9394f4e73356902dad022a8cd6f43221086d3c70699e",
+            "terms": 1
+          }
+        },
+        {
+          "name": "physical_2",
+          "profile": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "sha256": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326",
+            "terms": 1
+          }
+        },
+        {
+          "name": "physical_3",
+          "profile": {
+            "degrees": [
+              0,
+              0,
+              1
+            ],
+            "sha256": "e2bb30214759d6a6f43d266ef5f89eca601fe1e4a2db3eac0133ec47d0b9d7c9",
+            "terms": 2
+          }
+        },
+        {
+          "name": "physical_4",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              1
+            ],
+            "sha256": "acea18d7968ee1f80a38e95218656552b0a58a015157adcdded28e50859a6ab4",
+            "terms": 3
+          }
+        },
+        {
+          "name": "physical_5",
+          "profile": {
+            "degrees": [
+              0,
+              3,
+              1
+            ],
+            "sha256": "b73613034f87bbb7cb556ce87dad868ab950096f7ef71c72ccb5f97fee34c5a3",
+            "terms": 6
+          }
+        },
+        {
+          "name": "physical_8",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              3
+            ],
+            "sha256": "5028e25f0aa6d70aa36402a4e49718578ff422ed6bb82c916fe55f18be82e1cb",
+            "terms": 5
+          }
+        },
+        {
+          "name": "W",
+          "profile": {
+            "degrees": [
+              0,
+              1,
+              2
+            ],
+            "sha256": "3c70aba7c1b6db5eaa3d986ffd34c7165dfb4d8d8c808313c1d65bf22c7e929a",
+            "terms": 5
+          }
+        },
+        {
+          "name": "G",
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              4
+            ],
+            "sha256": "9422bed84800d7ed6a6dcf1910e6c1baebf5c50b8c2c37324361824d269f8c84",
+            "terms": 37
+          }
+        },
+        {
+          "name": "K",
+          "profile": {
+            "degrees": [
+              0,
+              7,
+              12
+            ],
+            "sha256": "cb413e446bf3362f8feeba6f6ca1f62427a881eab70b95e6d1f917a8bd1cb546",
+            "terms": 85
+          }
+        },
+        {
+          "name": "V",
+          "profile": {
+            "degrees": [
+              0,
+              4,
+              6
+            ],
+            "sha256": "2cb9819af2ad4da973bc3abbf2f06d07f00cd1432f820fb534734ee0b24ca10e",
+            "terms": 27
+          }
+        }
+      ]
+    },
+    {
+      "auxiliaryVariables": [
+        "invPaid"
+      ],
+      "claimExcluded": false,
+      "elapsedSeconds": 68.254949,
+      "geometricVariables": [
+        "lam",
+        "w"
+      ],
+      "nonSaturationGenerators": 3,
+      "paidUnitCount": 10,
+      "scriptBytes": 595979,
+      "scriptSha256": "c0918f7705d703da4f4980f11dab7afa2b69acaa346c8291a710d314e33edaf1",
+      "smokeScriptSha256": "3c84db31a628c18e61154dad256b565bf31d774d852363682e9c972e607b7100",
+      "sourceSha256": "478dfef580829ad42e5e11cde0747df3af4742ca1f5bf613df4c34757de0362d",
+      "stage": "original_parameter_curves_QQ_input_built",
+      "variables": 3
+    },
+    {
+      "allOriginalIdentitiesAndTracesVerified": true,
+      "claimExcluded": false,
+      "elapsedSeconds": 68.25504,
+      "stage": "build_only_complete"
+    }
+  ]
+}

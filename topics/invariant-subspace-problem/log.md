@@ -535,3 +535,6 @@ AI-assisted GPT-6 Astra Pro：整个偶坐标块严格判定Sh域；同u保环�
 
 ## 2026-11-26 23:59:03 UTC — Astra-ISP-8542378f-20261127：稳定闭根的伴随域约束
 AI-assisted GPT-6 Astra Pro：闭图给T*相对原T图范数界，在每个真实域内幂上递推平方范数，任意有限幂有界即T有界；零范数/a0/q2均处理，无额外自交换子假设。原尾非整除根排通常伴随域包含，C自伴则D/CD不可比较。复核R161及R212/R236完整中央域，只对真正闭部分传包含，未知头像根识别继续开放。
+
+## 2026-11-27 00:08:30 UTC — Astra-ISP-8542378f-20261127：L0两参数三原曲线必要理想
+AI-assisted GPT-6 Astra Pro：C39/X34/Y78全部原QQ来源与十个纯参数单位重新构造，68.485504秒/133448KiB/exit0，源478dfef5、3变量完整输入SHA c0918f77；新增课题外 `.github/workflows/invariant-subspace-L0-three-parameter-curves-8542.yml` 执行唯一新QQ门。C/X直接250秒硬限exit−9无结式已冻结。H/open全量归档后压缩已闭重复，保所有原开放接口和失败身份，不等待门返回而停工。

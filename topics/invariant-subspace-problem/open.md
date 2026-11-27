@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-K-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-two-parameter-original-QQ-gates-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -16,11 +16,9 @@
 
 rank$H=4$ 的非单位局部块长度5、4、3已排；长度2单零的三种单位长度3补空间现在也全部排除。单位四重点加孤立零单点另已排。各正式证明见结果索引；除子型 $4+1$ 与 $3+2$ 的两种 rank4 缺陷放置因此全闭。
 
-rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单位2+1、三约化补空间证明与真实运行身份均保完整快照及结果索引，不重算。
-
 当前依次处理：
 
-1. 孤立零单点的单位长度4补空间只余 $2+1+1$ 与 $1+1+1+1$。单位单四重点、两个双点、[整个3+1](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)均已完全排除。单位211的零配对、零基点mean、相等/相反非零配对与整个P0零支亦已关闭；准确剩余可规范p=1、q≠0,±1、b+cq≠0、P0≠0，零孤立点mean现已全部排除，仅续非零mean，当前子图见下文。全部旧除法边界、原QQ来源及执行身份保[本次完整压缩前open](notes/2026-11-26-open-before-rank-three-double-single-degenerate-347c.md)与结果索引，不重算已闭门。
+1. 孤立零单点的单位长度4补空间只余 $2+1+1$ 与 $1+1+1+1$。单位单四重点、两个双点、[整个3+1](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-rank-four-branch-is-empty.md)均已完全排除。单位211的零配对、零基点mean、相等/相反非零配对与整个P0零支亦已关闭；准确剩余可规范p=1、q≠0,±1、b+cq≠0,1、P0≠0，零孤立点mean现已全部排除，仅续非零mean，当前子图见下文。全部旧除法边界、原QQ来源及执行身份保[本次完整压缩前open](notes/2026-11-26-open-before-rank-three-double-single-degenerate-347c.md)与结果索引，不重算已闭门。
 2. 全部 rank$H=5$，即 $L$ 为单位的七种长度五除子分拆。
 3. 内均值 $y\in W$ 与 ess$T_3=5,6$。V的低秩支撑不能自动代y/H/V共同支撑，完整梯度保留。V0的外像、ess4全部约化/重节点层及相关二次例外已先后关闭；[整个V0临界层的三个matched Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)覆盖ess5/6及Cat退化，完整I0准确幂指数3（平方非成员、七次来源均已付）。详细旧分支保[压缩前open](notes/2026-11-26-open-before-actual-variance-grid-347c.md)和结果索引，不重跑degree9。继续V≠0的内均值ess4、ess5/6及全Jacobian真正幂来源；V0证书不作全局同幂。
 
@@ -30,8 +28,6 @@ rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单
 
 [原第三矩的本质支撑等式](results/R150-appendix-rank-two-third-cumulant-outside-range-mean-essential-support-equality.md)已经独立证明：一般r=dim essV、y∉RanV且dim essT3>r+1时，y∈essT3并且essT3=span(y,RanH,RanV)。所以剩余rankV2、ess≥4分支处于第三矩内均值层，不能把y∉essT3的长度五外均值消元当作该层论证；仍须原完整梯度。
 
-
-[相反非零配对整支](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-opposite-base-pairings-exclusion.md)已闭：QQ359/838/1011结式的全部末纤维返回原M/S/c0，49.017732秒/exit0；所有异常图、完整Gram秩与原QQ来源见正文及既存快照，不重做。单位211仅续非零m、q≠0,±1、b+cq≠0、P0≠0。
 
 [整个rankH=rankV=2层的本质维数界](results/R150-appendix-rank-two-second-and-third-cumulants-have-essential-dimension-at-most-four.md)已完整升级为essT3≤4：最后Gaussian例外把C=−A,D=−B代回两个分别的原H值方程即得17F³0矛盾。全部约化/二jet/∞均已支付，不再研究旧有限Gram的物理曲面门；无需新计算。结合rankH≤1，rankV2的潜在ess5/6必须rankH≥3；当前接rankH3的ess6满支撑反设，ess4仍独立开放。
 
@@ -45,17 +41,11 @@ rankH4所有proper局部单零层（长度2–5）已闭，原双点单零的单
 
 **三约化H退化Gram/ess6的准确余层：** 原F0、V二jet、Hp非零、同相位、所有H∞、中心0/2均已全闭；完整相位至多18Gram降至12，QQ四纤维/全部U幂证据见[结果索引](results.md)与本次完整快照，不重做。中心0旧b34错误Eh退出0仍无效，正确变换K/L/Eh的证明才生效。c−6只有A7/9、ab637/5580首项零边界已闭，一般范数662.582秒仍未决。余H三源全有限、c≠0,2、V可∞；原Nfirst必要归约已证但4.447MB真Ke3实际280秒触4GiB，无单位身份。[新个别源与原N/最高一阶必要系统](results/R150-appendix-rank-three-reduced-degenerate-Gram-labelled-original-N-and-highest-first-reduction.md)保5个物理源、完整12次Gram常数域和全部嵌入，Π仅原物理单位及已闭c0/2；c−6/a3零面不删，正确交叉k留在完整最高导数。新实际run45831444045/job139948952361的原身份/域检查通过，Singular900秒到时未决，无单位身份，不重跑该展开；换低次原几何，归约不作排空。非退化H Gram独立开放。
 
-单位211整个P0零支及整个零孤立mean分支均已闭，全部原纤维、来源和运行身份保结果索引与[完整快照](notes/2026-11-27-open-before-general-root-domains-8542.md)。只续非零m/P0，不重做原高曲线或Gram秩二边界。
-
 rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左侧5/2与1矛盾；完整Hp0/有限及∞边界见结果索引和[此前完整快照](notes/2026-11-27-open-before-complete-K-8542.md)。只续H2+1、三值H和原ess4/5，不重做已闭层。
-
-单位211整个u1图已闭，完整QQ曲线/九次原商代数/13逆返回与run45804559912见结果索引和上述快照。只续u≠1，不能二次用共同缩放。
 
 **原U值图L0：** w0/w1、b+c0、W、P1双零、整个G/K/V均闭，完整来源保[结果索引](results.md)。余原同rho/t交点及全部P/N。新完整原门fae9a57e/run45909368752实际1200秒仅BEGIN/无单位，源冻结；X/Y大QQ、原cofactor末步、次数降行、H15直接投影亦未决冻结，原身份及准确回执保各正文。转原低次矩阵/关系，不用模5953替QQ保次数。
 
 **S0：** 全部已闭边界/原物理Gram/执行身份保结果索引和快照；只续Af非零、三值互异的Lt0一般图。一般LS非零与L0独立开放，不重算已闭门。
-
-rankH3二重加单点非零Hp整层ess≤5已闭，全部节点/零面与六真逆见结果索引及完整快照；只续Hp0四源有限层。
 
 **2+1型H、Hp0九次Gram仅余四源全有限的ess6层：** 全部H/V∞支已闭，来源与真逆保结果索引/归档。[完整重建](results/R150-appendix-rank-three-double-plus-single-zero-hp-finite-source-rational-reconstruction.md)保原12式及11/16全系数；[同Π上的低次原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-lowered-original-ideal-equivalence.md)已将d八次喷射换为二次，A/T为原商环强迫单位。mod1031/e700单位基只供方向，三种真Ke各900秒未决，最后八条恒等式及field/smoke通过但无单位身份；[同Π的C/G两条d一次式与原理想相等](results/R150-appendix-rank-three-double-plus-single-zero-hp-two-linear-original-ideal-equivalence.md)现已证明，不除两个新首项，仍保全部零纤维；真实I*C=1继续。[新增原N二阶及孤立点一阶降式](results/R150-appendix-rank-three-double-plus-single-zero-hp-original-N-Hermite-strengthening.md)保持同Π，d次数5/8，实际build核完整身份4.926643秒；新run45886748045数域/smoke已通过，完整1.465MB输入实际900秒未决，驱动905.464秒/RSS714476KiB，无I*C=1；不重跑此输入。三约化H与ess4/5仍开。
 
@@ -191,3 +181,6 @@ L0新[原8×8参数必要曲线](results/R150-appendix-essential-four-unit-two-p
 
 
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
+
+
+L0新[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)只含λ/w与一个饱和变量，C/X/Y均完整QQ原来源，10个单位全已付。源478dfef5 build68.485504秒/exit0；新专用QQ门须实际I*cert=1后才判空。C/X直接QQ投影250秒exit−9无返回也已冻结，不重跑。
