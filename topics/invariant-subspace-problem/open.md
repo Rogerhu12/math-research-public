@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-main-eight-weights-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-six-bit-special-full-S2-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -221,7 +221,7 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。
 
-**不同新输入继续：** W末low29原两四次、六位15维pair完整S2各只接唯一实际输出，外绿不代数学成功。新碰撞E交点的G2/C4两个原Q首项零图：完整小lambda域上直接读两E，先真u-gcd及全部头降次，再同一点四原Q返回，180秒/4GiB首次。新Phi主rho头直接特化保存P6/P9、固定≤15阶QQ结式，整H7零保留；其后仅在真实QQ覆盖已返时接新C71模Gauss，120秒/1GiB首次。
+[六位一特殊权的完整S2及精确trace反例](results/R271-appendix-six-site-one-special-weight-full-s2-and-sharp-trace-square-budget.md)：整个b=(√t,1⁵)保真实diag(t,3)伴随、完整上逆后压缩及双cross，K=0⊕κI4且κ<1/3、完整S2<I/2，两常数尖锐。t36同原119401行BigInt给TrK²=15659068550440000/53420910024270321>1/4，故一般六位统一quarter平方迹门准确冻结，不能改称原S2反例。原pair实际24.720906012秒/378284KiB/0仅EXACT_SCALAR_READY；一般六独立权S2改真正矩阵/谱预算，内部c4/c5与上S1仍开。原15特征/正分母小参数保存，13.5MB表不入库。
 
 
 
@@ -234,3 +234,5 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 例外Phi旧ffbdc准确g4=c²、无jet或QQ幂改进保[失败note](notes/2026-11-28-unit211-Phi-zero-exceptional-partial-phi-repeated-factor-8542.md)；例外整图已由独立P6闭，不再续局部入口。
 
 [主rho头的完整八权覆盖](results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md)：c3a074真0.503922414秒/51576KiB/0，P6/P9真实特化后的固定15阶QQ结式685，只剥原单位/保整H7零得首一543；新固定35阶C6/C71模1363与543完整gcd一次，局部整Gauss保全部首项退化，付H7补图≤1、整H7≤7。八仅计v及(u,Q,ell)，不并有序BC和lambda/T/z；整H7不能用只付补图的C6/C9，下一先真实QQ识别余一次并返回其整原纤维，H7另接完整原条件。三个准确小输入已存，所有已成结式不重算。
+
+Phi主rho头新−1/4原整纤维/余Gauss首次：d7514仅读已存C6/C9/C71/543/S1363，先真核H7(-1/4)与原单位；三原lambda QQ gcd及完整Bézout只有返lambda幂才付该整纤维，再准确剥543实有线性幂并与已存S做新Gauss。H7零全保、绝不用只付补图的P6/P9。120秒/1GiB，不重算结式。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [六位一特殊权完整S2与尖锐平方迹预算](results/R271-appendix-six-site-one-special-weight-full-s2-and-sharp-trace-square-budget.md)：全t>0原物理块给K<I/3、S2<I/2且尖锐；b=(6,1⁵)精确否定统一TrK²<1/4，普通六独立权S2仍开。
+
 - [Phi主rho头至多八个主权参数](results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md)：固定原15阶QQ/35阶模及局部整Gauss给H7补图≤1，完整H7≤7；只计v及(u,Q,ell)，原值纤维仍开。
 
 - [碰撞全部Q首项退化排除与有限五坐标](results/R150-appendix-unit211-collision-complete-Q-head-exclusion-and-finite-original-five-coordinates.md)：整G2/C4上两E真u组合返1/(u−1)^4；原Q6首一化，完整同(λ,u,Q,f,z)环境维数≤235170，原剩余方程继续。
