@@ -4,7 +4,7 @@
 
 ## 规则、目标与完整历史
 
-root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`cf102cd5434f5149949373988bcd97128a916aa4`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`4b2822f27581f55196416e5a2aa4c1a2475ef32b`，双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变；非pull。09/10真实pull及每次规则核查见末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环、不强推。每次pull核双README差异并立即遵新规，至少每小时记commit。raw只runner/scratch、不入Git/Release/artifact，不改名冒输入；完整小源、全部参数、run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先stat，不整读≥100KB。既有执行/终端/大文件偏差及令牌处理责任保固定历史；令牌只瞬时CLI。
 
@@ -18,15 +18,17 @@ root最后真实pull/rebase至`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 [33–36旧raw保全](notes/2026-11-27-legacy-condensed-intents-retention36-readonly-review.md)及固定完整H中的各原说明，仅退登记派生输出；原源/全参数/请求/真结论、父warm/status正确字链均保。cf418只保证intent，其他依原链恢复；无大体读取，当前warm不改。 [37](notes/2026-11-27-actual41-eight-download-receipts-retention37.md)仅退八旧下载收据1663643B；完整来源/全部argv及61ce5c1历史blob保，receipt wholeSHA未知明列null，未读大体或重跑。
 
+
+[39十四旧intent](notes/2026-11-27-standalone-optimization-intents-retention39.md)仅退1237451B独立派生记录；全原源/参数/原warm与status正确分支及1340d243原字恢复保，14 wholeSHA有来源；未读大体或重跑。
+
 ## 09终态与完整未返回责任
 
 [09终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)见末块；1–7真返，科学8 ff544、pure aee22及后续费未返，取消原因未知。94309B队列保原七pending：science/pure、mean/profile、normal六jet、moment producer/R716consumer、全连续Gram/K/support。输入ref2ab/modeld449/目标7c766/whole2f8、1995尾叶accuracy=false；旧2397只carrier。完整58源/145+7argv、333/317及13成员父/全E/无上限typed历史保原说明和b813672完整H。near32非typed上限，失败/未知不作空历史；09/10目标及费用不直接迁用。
 
 ## 闭面、全phase与非全等
 
-R248只归约活动像；固定p4须共同R650或全部mixed pairs。R709–715的均值J≠normal Cu、中央Fss≠K、全C1/m32/raw六jet/全E/typed责任保。共同β必须同场全cover、下半/缝/全活动、闭面取向与共同D+/K实付。
-[源实例e111](notes/2026-11-27-complete-normal-closed-phase-and-grip-source-interface-audit.md)保全raw端口、signed-u下半、Cartesian帽、Θ0共轭和共同Aβ。[09闭面全体](notes/2026-11-27-run09-complete-closed-phase-grip-and-beta-evidence.md)保原算法；[10闭面全体](notes/2026-11-27-run10-closed-phase-grip-source-adapter.md)70086B/f7a及全构造/8argv57读取项已刊未排。共同β/全目标leaf两帽/九角色/独立无标记τ0→既有R716§6均须实际全报告，单副件无效。R≥9/20、握持盘/四点det/.9≥.2D须真付；δhold无对齐且强.2必须另列，δE另付，无实值/准入。
-[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)一般Beff/完整m,Q/三相和§6原证明保；[10矩全体](notes/2026-11-27-run10-complete-R716-moments-and-final-closed-evidence.md)0aa/920、全构造/两ready已刊未排，sharedf79原字。12通道/全上下片与两帽/全32signed半转不删；原10/6argv仅加闭面report两词，33/47原读取项全保。实际δE须最终f7a主report＋同场全部几何/九角色复读＋正V/非零中心矩，孤立副件不算；不迁旧6077。无实际矩或界。
+R248只归约活动像；固定p4须共同R650或全部mixed pairs。R709–715的均值J≠normal Cu、中央Fss≠K及全C1/m32/raw六jet/全E/typed责任保。[源实例](notes/2026-11-27-complete-normal-closed-phase-and-grip-source-interface-audit.md)保raw端口/signed-u/Cartesian帽/Θ0共轭。[10闭面](notes/2026-11-27-run10-closed-phase-grip-source-adapter.md)f7a全体已刊未排；同场全部cover、共同β/九角色/独立无标记τ0→既有R716§6、完整下半/缝/两帽与D/K须实付。R≥9/20和固定握持盘/四点det/.9≥.2D真付，整像δhold无对齐且强.2另列。
+[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)原一般Beff/完整m,Q/三相与§6证明保；[10矩](notes/2026-11-27-run10-complete-R716-moments-and-final-closed-evidence.md)0aa/920全体已刊未排，12通道/全部上下片两帽/32signed半转保。δE含反射，须最终f7a主report与同场全几何/九角色复读、正V/非零中心矩；孤立副件不算，不迁旧6077，无实际矩或界。
 
 ## 固定目标实际精化
 
@@ -40,9 +42,8 @@ R248只归约活动像；固定p4须共同R650或全部mixed pairs。R709–715�
 
 ## 10实际输入与完整缓存求解
 
-[10完整输入](notes/2026-11-27-run10-actual-public-inputs-and-complete-carrier-freeze.md)1–4真返0：warm3df/node1fed/scalar aa7a/ref512/report35fd/carrier71f/model081；2218全尾、accuracy=false。目标e711/wholeb240、绑定84478/whole4ace、两b239快照和旧dc5/160词全保；fcd冻结/52fc整源正逆ASTcompile实际已过。2397只旧carrier，不迁same-g；350分钟/20000秒编排不缩科学预算。
-[10完整缓存入口](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)七新上体及九原下层/全构造/参数已刊；149/7argv、373/357及43progress完整。旧三真返step全queue另保；92609B当前queue保两原pending并追加[mean/profile费](notes/2026-11-27-run10-complete-reference-mean-profile-fee-adapter.md)，三全体/原32argv48selectors保，三步均未返。
-[10完整normal/geometry费](notes/2026-11-27-run10-complete-normal-and-continuous-geometry-fees.md)六全运行体222161B、全构造/两ready已刊；38/8原argv与36/44读取项保；全32段/整1024角胞/全径向/raw六jet及准确同g费用独立支付。shared29eed/e0原字，未排、无AST/科学或数值证书；只消费真实完整report/immutable同点，progress不作输入。
+[10实际输入](notes/2026-11-27-run10-actual-public-inputs-and-complete-carrier-freeze.md)1–4真返0：warm3df/node1fed/scalar aa7a/ref512/report35fd/carrier71f/model081、targete711/wholeb240与binding84478/whole4ace；2218尾accuracy=false，旧2397只carrier。两b239快照和160图词保，fcd冻结/52fc源重生实际已过。350分钟/20000秒只编排界。
+[10完整缓存](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)七上/九下源、149/7argv与373/357/43progress保；92609B queue三pending=科学5/pure/已排[mean-profile](notes/2026-11-27-run10-complete-reference-mean-profile-fee-adapter.md)，原三真返bootstrap另保。[normal/geometry](notes/2026-11-27-run10-complete-normal-and-continuous-geometry-fees.md)六全体与两ready已刊未排：全32段/1024角胞/全部径向/raw六jet/准确同g全算子范数/K/support保，shared29eed/e0原字；只消费真完整report/immutable同点，progress不是输入，未产费用证书。
 
 缓存只复用同链完整C，活动/未知transform旁路、每stage/final原重读，全部J链/几何保。11:28:35观察normal_chain_enter、point0088（原cd530/5a33后）：543964请求/返回、218955原算、325009命中、失败0；非接受点/指标/immutable证书。科学5和pure未返。07/08/09未知report/point/typed及后续完整合并责任保，10自身restart严格。
 
