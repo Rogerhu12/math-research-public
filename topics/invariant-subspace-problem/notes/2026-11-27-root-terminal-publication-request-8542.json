@@ -1,15 +1,13 @@
 {
-  "message": "ISP: exclude the complete H8 original fiber by an actual unit square",
-  "parentCommit": "c8ffb62b8527f6c1ee587e5ded8c0b9665037da2",
+  "message": "ISP: exclude every F24 norm-zero weight fiber in the original QQ system",
+  "parentCommit": "e9d7e62714a0ba1e7839b2bb02208e3026a15b31",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rank-one-value-H8-complete-original-fiber-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-H8-complete-original-fiber-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-H8-exact-local-and-remaining-Gauss-8542.py",
-    ".github/workflows/invariant-subspace-phi-h-eight-exact-local-remaining-gauss-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-D27-F24-entire-original-QQ-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-D27-F24-entire-original-QQ-exclusion-receipt-8542.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,7 +16,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-phi-h-eight-exact-local-remaining-gauss-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

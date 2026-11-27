@@ -1,0 +1,1094 @@
+{
+  "schema": "isp-actual-D27-F24-complete-original-QQ-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "blob": "470730642a78b50170d9e41133f2a25248cfabee",
+    "sha256": "bc99fe323eece54f2846c7fb42586b6904f42441460bbb0a885054217bf43044",
+    "bytes": 17376
+  },
+  "actualRun": 46006319836,
+  "actualJob": 140530267493,
+  "driver": {
+    "elapsed_seconds": 59.957078366000005,
+    "max_child_rss_kib": 54208,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9ea2f3ecd9c91af1b807b5667b263a3a91177f75",
+        "before": "9ea2f3ecd9c91af1b807b5667b263a3a91177f75",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T13:21:07.286180+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46006319836",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "9ea2f3ecd9c91af1b807b5667b263a3a91177f75",
+    "source_exit_code": 0,
+    "source_git_blob": "470730642a78b50170d9e41133f2a25248cfabee",
+    "source_sha256": "bc99fe323eece54f2846c7fb42586b6904f42441460bbb0a885054217bf43044",
+    "stdout_bytes": 30671,
+    "stdout_sha256": "1a899a64a1919bd149be29907f3e8150d4c52cf9b6648e1de8d516c460a6bf56",
+    "stop_reason": null
+  },
+  "exactInitialCover": {
+    "stage": "new_D27_complete_F24_original_norm_cover",
+    "coefficients": [
+      "-247726080",
+      "-2014543872",
+      "-6822617088",
+      "-13655546880",
+      "-23814188544",
+      "-50283347456",
+      "-103695105392",
+      "-164662978128",
+      "-193246082288",
+      "-170825955398",
+      "-116292014876",
+      "-61744374387",
+      "-25528735099",
+      "-16028609963/2",
+      "-7005455735/4",
+      "-1374825081/8",
+      "388340167/8",
+      "117528723/4",
+      "33047045/4",
+      "12520147/8",
+      "1697379/8",
+      "40969/2",
+      "5381/4",
+      "54",
+      "1"
+    ],
+    "QQDegree": 24,
+    "exactPartitionSourceSHA256": "21400b018185d10166cb6eedf441849e3fa4041259b29609f54b64f2e1bbe4a5",
+    "partitionRun": 46004204867,
+    "partitionJob": 140523158558,
+    "exactPartitionCompletedBeforeNativeCrash": true,
+    "allEightQQFactorsAndAllOriginalNormZeroFibersRetained": true,
+    "claimExcluded": false,
+    "seconds": 0.0003266619999990894
+  },
+  "actualCompleteResult": {
+    "stage": "new_D27_F24_all_original_QQ_norm_zero_fibers_return_complete",
+    "sourceSHA256": "bc99fe323eece54f2846c7fb42586b6904f42441460bbb0a885054217bf43044",
+    "entireInitialNormZeroFibers": [
+      [
+        "low_0",
+        [
+          "3",
+          "2"
+        ]
+      ],
+      [
+        "low_1",
+        [
+          "1",
+          "2"
+        ]
+      ],
+      [
+        "low_2",
+        [
+          "-4",
+          "1"
+        ]
+      ],
+      [
+        "low_3",
+        [
+          "3",
+          "1"
+        ]
+      ],
+      [
+        "low_4",
+        [
+          "28",
+          "80",
+          "54",
+          "13",
+          "1"
+        ]
+      ],
+      [
+        "low_5",
+        [
+          "192",
+          "144",
+          "60",
+          "14",
+          "1"
+        ]
+      ],
+      [
+        "low_6",
+        [
+          "40",
+          "111",
+          "104",
+          "49",
+          "14",
+          "2"
+        ]
+      ],
+      [
+        "low_7",
+        [
+          "256",
+          "-256",
+          "168",
+          "892",
+          "580",
+          "150",
+          "19",
+          "1"
+        ]
+      ]
+    ],
+    "completeActualSplits": [
+      {
+        "path": "low_0/0",
+        "eFactor": [
+          [
+            "1/2"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "eComplement": [
+          [
+            "-367/864"
+          ],
+          [
+            "-527/432"
+          ],
+          [
+            "-19/96"
+          ],
+          [
+            "15/8"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reason": "named already paid original weight 2e+1",
+        "paidUnitZeroOnFirstFactor": "2e+1",
+        "bothFactorsActuallyMultipliedBack": true,
+        "allOriginalFibersRetained": true
+      },
+      {
+        "path": "low_1/0",
+        "eFactor": [
+          [
+            "9/4"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "eComplement": [
+          [
+            "-2133/16"
+          ],
+          [
+            "-329/2"
+          ],
+          [
+            "-853/16"
+          ],
+          [
+            "-1/8"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reason": "named already paid original weight ell",
+        "paidUnitZeroOnFirstFactor": "ell",
+        "bothFactorsActuallyMultipliedBack": true,
+        "allOriginalFibersRetained": true
+      },
+      {
+        "path": "low_2/0",
+        "eFactor": [
+          [
+            "-5/2"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "eComplement": [
+          [
+            "81/8"
+          ],
+          [
+            "45/8"
+          ],
+          [
+            "-23/4"
+          ],
+          [
+            "7/2"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reason": "named already paid original weight H",
+        "paidUnitZeroOnFirstFactor": "H",
+        "bothFactorsActuallyMultipliedBack": true,
+        "allOriginalFibersRetained": true
+      },
+      {
+        "path": "low_3/0",
+        "eFactor": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "eComplement": [
+          [
+            "-1/432"
+          ],
+          [
+            "71/432"
+          ],
+          [
+            "23/24"
+          ],
+          [
+            "7/4"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reason": "named already paid original weight u",
+        "paidUnitZeroOnFirstFactor": "u",
+        "bothFactorsActuallyMultipliedBack": true,
+        "allOriginalFibersRetained": true
+      },
+      {
+        "path": "low_4/0",
+        "eFactor": [
+          [
+            "20/7",
+            "27/14",
+            "13/28",
+            "1/28"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "eComplement": [
+          [
+            "-165755/686",
+            "-70431/343",
+            "-147471/2744",
+            "-23621/5488"
+          ],
+          [
+            "-390177/1372",
+            "-331417/1372",
+            "-86675/1372",
+            "-27821/5488"
+          ],
+          [
+            "-17011/196",
+            "-7289/98",
+            "-7585/392",
+            "-153/98"
+          ],
+          [
+            "-6/7",
+            "-61/28",
+            "-13/28",
+            "-1/28"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reason": "named already paid original weight 1-Q",
+        "paidUnitZeroOnFirstFactor": "1-Q",
+        "bothFactorsActuallyMultipliedBack": true,
+        "allOriginalFibersRetained": true
+      },
+      {
+        "path": "low_5/0",
+        "eFactor": [
+          [],
+          [
+            "1"
+          ]
+        ],
+        "eComplement": [
+          [
+            "-83/48",
+            "19/64",
+            "157/384",
+            "9/256"
+          ],
+          [
+            "13/12",
+            "103/48",
+            "85/96",
+            "11/192"
+          ],
+          [
+            "6",
+            "23/8",
+            "11/16",
+            "1/32"
+          ],
+          [
+            "2",
+            "-1/4"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reason": "named already paid original weight e",
+        "paidUnitZeroOnFirstFactor": "e",
+        "bothFactorsActuallyMultipliedBack": true,
+        "allOriginalFibersRetained": true
+      },
+      {
+        "path": "low_6/0",
+        "eFactor": [
+          [
+            "43/5",
+            "99/10",
+            "49/10",
+            "7/5",
+            "1/5"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "eComplement": [
+          [
+            "-1394871/32000",
+            "-225553/4000",
+            "-951969/32000",
+            "-148807/16000",
+            "-23521/16000"
+          ],
+          [
+            "-149531/2000",
+            "-192589/2000",
+            "-101209/2000",
+            "-3913/250",
+            "-2431/1000"
+          ],
+          [
+            "-8731/200",
+            "-11239/200",
+            "-5809/200",
+            "-877/100",
+            "-131/100"
+          ],
+          [
+            "-33/5",
+            "-203/20",
+            "-49/10",
+            "-7/5",
+            "-1/5"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reason": "named already paid original weight P02",
+        "paidUnitZeroOnFirstFactor": "P02",
+        "bothFactorsActuallyMultipliedBack": true,
+        "allOriginalFibersRetained": true
+      },
+      {
+        "path": "low_7/0",
+        "eFactor": [
+          [
+            "-46191/17923",
+            "-9547/71692",
+            "595173/143384",
+            "409075/143384",
+            "214635/286768",
+            "54561/573536",
+            "2863/573536"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "eComplement": [
+          [
+            "-162481521/1147072",
+            "-377690123/1147072",
+            "-1315999475/4588288",
+            "-272122643/2294144",
+            "-57776621/2294144",
+            "-51776639/18353152",
+            "-2483591/18353152"
+          ],
+          [
+            "-23632139/143384",
+            "-74617037/286768",
+            "-44346637/286768",
+            "-26188209/573536",
+            "-8542637/1147072",
+            "-187669/286768",
+            "-27793/1147072"
+          ],
+          [
+            "-1820599/71692",
+            "15586779/143384",
+            "27824917/143384",
+            "30234249/286768",
+            "14611123/573536",
+            "111161/35846",
+            "90967/573536"
+          ],
+          [
+            "82037/17923",
+            "-2094/17923",
+            "-595173/143384",
+            "-409075/143384",
+            "-214635/286768",
+            "-54561/573536",
+            "-2863/573536"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reason": "named already paid original weight bc",
+        "paidUnitZeroOnFirstFactor": "bc",
+        "bothFactorsActuallyMultipliedBack": true,
+        "allOriginalFibersRetained": true
+      }
+    ],
+    "originalFiniteReturns": [
+      {
+        "path": "low_0/0/ea",
+        "kModulus": [
+          "3",
+          "2"
+        ],
+        "eModulus": [
+          [
+            "1/2"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "paidOriginalWeightIdenticallyZero": "2e+1",
+        "zeroFollowsActualGcdDivisionProduct": true,
+        "excluded": true
+      },
+      {
+        "path": "low_0/0/eb",
+        "kModulus": [
+          "3/2",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-367/864"
+          ],
+          [
+            "-527/432"
+          ],
+          [
+            "-19/96"
+          ],
+          [
+            "15/8"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "kDegree": 1,
+        "eDegree": 4,
+        "QQDimension": 4,
+        "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+        "originalRows": 48,
+        "columns": 35,
+        "rank": 35,
+        "DpowerReturned": 0,
+        "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+        "physicalDInverseUsed": false,
+        "onlyConstantUnitTarget": true,
+        "actualInverseProducts": 350,
+        "certificate": {
+          "bytes": 29817,
+          "sha256": "514106bf6f5029dd7de600034e42a7567fee6fb6ee703d8ecf34d16c788f8385"
+        },
+        "excluded": true,
+        "wallSeconds": 3.7196342560000026
+      },
+      {
+        "path": "low_1/0/ea",
+        "kModulus": [
+          "1",
+          "2"
+        ],
+        "eModulus": [
+          [
+            "9/4"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "paidOriginalWeightIdenticallyZero": "ell",
+        "zeroFollowsActualGcdDivisionProduct": true,
+        "excluded": true
+      },
+      {
+        "path": "low_1/0/eb",
+        "kModulus": [
+          "1/2",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-2133/16"
+          ],
+          [
+            "-329/2"
+          ],
+          [
+            "-853/16"
+          ],
+          [
+            "-1/8"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "kDegree": 1,
+        "eDegree": 4,
+        "QQDimension": 4,
+        "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+        "originalRows": 48,
+        "columns": 35,
+        "rank": 35,
+        "DpowerReturned": 0,
+        "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+        "physicalDInverseUsed": false,
+        "onlyConstantUnitTarget": true,
+        "actualInverseProducts": 347,
+        "certificate": {
+          "bytes": 36090,
+          "sha256": "324238b43ea6dce2b07ece6d2ddad956993660ddef8cbac74b13cab4976429a5"
+        },
+        "excluded": true,
+        "wallSeconds": 3.712442850000002
+      },
+      {
+        "path": "low_2/0/ea",
+        "kModulus": [
+          "-4",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-5/2"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "paidOriginalWeightIdenticallyZero": "H",
+        "zeroFollowsActualGcdDivisionProduct": true,
+        "excluded": true
+      },
+      {
+        "path": "low_2/0/eb",
+        "kModulus": [
+          "-4",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "81/8"
+          ],
+          [
+            "45/8"
+          ],
+          [
+            "-23/4"
+          ],
+          [
+            "7/2"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "kDegree": 1,
+        "eDegree": 4,
+        "QQDimension": 4,
+        "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+        "originalRows": 48,
+        "columns": 35,
+        "rank": 35,
+        "DpowerReturned": 0,
+        "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+        "physicalDInverseUsed": false,
+        "onlyConstantUnitTarget": true,
+        "actualInverseProducts": 350,
+        "certificate": {
+          "bytes": 32007,
+          "sha256": "d1e6c4a52831823547a3e9620673f654ce3bb9a688e0136759297d9b885da9a4"
+        },
+        "excluded": true,
+        "wallSeconds": 3.667529142999996
+      },
+      {
+        "path": "low_3/0/ea",
+        "kModulus": [
+          "3",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "paidOriginalWeightIdenticallyZero": "u",
+        "zeroFollowsActualGcdDivisionProduct": true,
+        "excluded": true
+      },
+      {
+        "path": "low_3/0/eb",
+        "kModulus": [
+          "3",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-1/432"
+          ],
+          [
+            "71/432"
+          ],
+          [
+            "23/24"
+          ],
+          [
+            "7/4"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "kDegree": 1,
+        "eDegree": 4,
+        "QQDimension": 4,
+        "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+        "originalRows": 48,
+        "columns": 35,
+        "rank": 35,
+        "DpowerReturned": 0,
+        "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+        "physicalDInverseUsed": false,
+        "onlyConstantUnitTarget": true,
+        "actualInverseProducts": 347,
+        "certificate": {
+          "bytes": 17632,
+          "sha256": "83fd1cd2ba8204aef0be5cb3a788387d7af2eafc939e30010e34018f8a44d199"
+        },
+        "excluded": true,
+        "wallSeconds": 3.371562659999995
+      },
+      {
+        "path": "low_4/0/ea",
+        "kModulus": [
+          "28",
+          "80",
+          "54",
+          "13",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "20/7",
+            "27/14",
+            "13/28",
+            "1/28"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "paidOriginalWeightIdenticallyZero": "1-Q",
+        "zeroFollowsActualGcdDivisionProduct": true,
+        "excluded": true
+      },
+      {
+        "path": "low_4/0/eb",
+        "kModulus": [
+          "28",
+          "80",
+          "54",
+          "13",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-165755/686",
+            "-70431/343",
+            "-147471/2744",
+            "-23621/5488"
+          ],
+          [
+            "-390177/1372",
+            "-331417/1372",
+            "-86675/1372",
+            "-27821/5488"
+          ],
+          [
+            "-17011/196",
+            "-7289/98",
+            "-7585/392",
+            "-153/98"
+          ],
+          [
+            "-6/7",
+            "-61/28",
+            "-13/28",
+            "-1/28"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "kDegree": 4,
+        "eDegree": 4,
+        "QQDimension": 16,
+        "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+        "originalRows": 48,
+        "columns": 35,
+        "rank": 35,
+        "DpowerReturned": 0,
+        "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+        "physicalDInverseUsed": false,
+        "onlyConstantUnitTarget": true,
+        "actualInverseProducts": 350,
+        "certificate": {
+          "bytes": 317508,
+          "sha256": "2b7f7da790b0ec28326bbffa273e59194943a4da218e1c07af0e7e22a19da689"
+        },
+        "excluded": true,
+        "wallSeconds": 8.525531241000003
+      },
+      {
+        "path": "low_5/0/ea",
+        "kModulus": [
+          "192",
+          "144",
+          "60",
+          "14",
+          "1"
+        ],
+        "eModulus": [
+          [],
+          [
+            "1"
+          ]
+        ],
+        "paidOriginalWeightIdenticallyZero": "e",
+        "zeroFollowsActualGcdDivisionProduct": true,
+        "excluded": true
+      },
+      {
+        "path": "low_5/0/eb",
+        "kModulus": [
+          "192",
+          "144",
+          "60",
+          "14",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-83/48",
+            "19/64",
+            "157/384",
+            "9/256"
+          ],
+          [
+            "13/12",
+            "103/48",
+            "85/96",
+            "11/192"
+          ],
+          [
+            "6",
+            "23/8",
+            "11/16",
+            "1/32"
+          ],
+          [
+            "2",
+            "-1/4"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "kDegree": 4,
+        "eDegree": 4,
+        "QQDimension": 16,
+        "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+        "originalRows": 48,
+        "columns": 35,
+        "rank": 35,
+        "DpowerReturned": 0,
+        "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+        "physicalDInverseUsed": false,
+        "onlyConstantUnitTarget": true,
+        "actualInverseProducts": 350,
+        "certificate": {
+          "bytes": 333236,
+          "sha256": "7b870f2cfedb976cbca6c1e9d6984ee587e38f067ff4b084fe39f027990e0871"
+        },
+        "excluded": true,
+        "wallSeconds": 9.138391937999998
+      },
+      {
+        "path": "low_6/0/ea",
+        "kModulus": [
+          "40",
+          "111",
+          "104",
+          "49",
+          "14",
+          "2"
+        ],
+        "eModulus": [
+          [
+            "43/5",
+            "99/10",
+            "49/10",
+            "7/5",
+            "1/5"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "paidOriginalWeightIdenticallyZero": "P02",
+        "zeroFollowsActualGcdDivisionProduct": true,
+        "excluded": true
+      },
+      {
+        "path": "low_6/0/eb",
+        "kModulus": [
+          "20",
+          "111/2",
+          "52",
+          "49/2",
+          "7",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-1394871/32000",
+            "-225553/4000",
+            "-951969/32000",
+            "-148807/16000",
+            "-23521/16000"
+          ],
+          [
+            "-149531/2000",
+            "-192589/2000",
+            "-101209/2000",
+            "-3913/250",
+            "-2431/1000"
+          ],
+          [
+            "-8731/200",
+            "-11239/200",
+            "-5809/200",
+            "-877/100",
+            "-131/100"
+          ],
+          [
+            "-33/5",
+            "-203/20",
+            "-49/10",
+            "-7/5",
+            "-1/5"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "kDegree": 5,
+        "eDegree": 4,
+        "QQDimension": 20,
+        "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+        "originalRows": 48,
+        "columns": 35,
+        "rank": 35,
+        "DpowerReturned": 0,
+        "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+        "physicalDInverseUsed": false,
+        "onlyConstantUnitTarget": true,
+        "actualInverseProducts": 350,
+        "certificate": {
+          "bytes": 530005,
+          "sha256": "f9cb4af29139234f2792bc6f857161fd16d6f86ca022af3ae025078660447cec"
+        },
+        "excluded": true,
+        "wallSeconds": 10.8101883
+      },
+      {
+        "path": "low_7/0/ea",
+        "kModulus": [
+          "256",
+          "-256",
+          "168",
+          "892",
+          "580",
+          "150",
+          "19",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-46191/17923",
+            "-9547/71692",
+            "595173/143384",
+            "409075/143384",
+            "214635/286768",
+            "54561/573536",
+            "2863/573536"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "paidOriginalWeightIdenticallyZero": "bc",
+        "zeroFollowsActualGcdDivisionProduct": true,
+        "excluded": true
+      },
+      {
+        "path": "low_7/0/eb",
+        "kModulus": [
+          "256",
+          "-256",
+          "168",
+          "892",
+          "580",
+          "150",
+          "19",
+          "1"
+        ],
+        "eModulus": [
+          [
+            "-162481521/1147072",
+            "-377690123/1147072",
+            "-1315999475/4588288",
+            "-272122643/2294144",
+            "-57776621/2294144",
+            "-51776639/18353152",
+            "-2483591/18353152"
+          ],
+          [
+            "-23632139/143384",
+            "-74617037/286768",
+            "-44346637/286768",
+            "-26188209/573536",
+            "-8542637/1147072",
+            "-187669/286768",
+            "-27793/1147072"
+          ],
+          [
+            "-1820599/71692",
+            "15586779/143384",
+            "27824917/143384",
+            "30234249/286768",
+            "14611123/573536",
+            "111161/35846",
+            "90967/573536"
+          ],
+          [
+            "82037/17923",
+            "-2094/17923",
+            "-595173/143384",
+            "-409075/143384",
+            "-214635/286768",
+            "-54561/573536",
+            "-2863/573536"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "kDegree": 7,
+        "eDegree": 4,
+        "QQDimension": 28,
+        "allOriginalE0N0P1MeanN1WeightedNPActuallyRebuilt": true,
+        "originalRows": 48,
+        "columns": 35,
+        "rank": 35,
+        "DpowerReturned": 0,
+        "allOriginalThirtyFiveColumnCombinationProductsActuallyVerified": true,
+        "physicalDInverseUsed": false,
+        "onlyConstantUnitTarget": true,
+        "actualInverseProducts": 350,
+        "certificate": {
+          "bytes": 1058984,
+          "sha256": "c5804ce9dda9e675272c5ad07a734aa2d2ad0307f3291ca89679c83f2eb6c8b9"
+        },
+        "excluded": true,
+        "wallSeconds": 16.719542653000005
+      }
+    ],
+    "allF24OriginalNormZeroFibersExcluded": true,
+    "allNonunitBranchesRetained": true,
+    "onlyOriginalConstantUnitOneAccepted": true,
+    "noPhysicalDInverseOrDOnlyReturn": true,
+    "noModularMembershipLift": true,
+    "wholeD27Excluded": false,
+    "claimExcluded": true,
+    "peakRssKiB": 54208,
+    "seconds": 59.877607005
+  },
+  "preExecutionCorrection": {
+    "unexecutedSourceSHA256": "85aa7cc1c31e53d153b6997bec44c6a445d71b9f6b72d8f452e54daf3bcfef1f",
+    "issue": "quintic coefficient assertion had range(5), omitting e^5",
+    "correctedBeforeFirstExecution": true,
+    "noInventedActualFailure": true
+  },
+  "scope": {
+    "entireF24Excluded": true,
+    "F782SeparatelyHandled": true,
+    "wholeD27NotClaimedByThisReceiptAlone": true,
+    "noPhysicalDOnlyCertificate": true
+  }
+}
