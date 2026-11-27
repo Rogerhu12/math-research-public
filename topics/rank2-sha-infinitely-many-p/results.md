@@ -127,3 +127,6 @@ Kriz7.20尚缺本题两个截面的共同连通延拓或真实flat/depletion交�
 
 
 - [正特征森林§15的旧结论范围核对](notes/2026-11-27-original-positive-characteristic-capped-forest-and-cubic-bound.md)：已核对既有 [R467 Theta 补充](notes/2026-11-14-r467-mixed-j-original-theta-extension.md)的显式 $a(6b-1)-2c+3$ 及全部因子界、R637 的真实短三块整满射范围。新森林§15明确优先复用这些旧结论；§§11–14的二维二次指数及低轴秩只是本次三变量方法的推论，不另计新的临界排核或主预算改善。继续的实质门是含 $X$ 的完整截断论证、原二/三块、同一 $R$ 及指定 forcing。
+
+
+- 固定正权非零审计已由公开run46073583710/job140756005342真付：$p=227,u=1$，原degree102负槽的 $[z^{51526}]$ 与原S的 $[z^{51528}]$ 均在固定辅助65537下非零；完整椭圆/两个指数身份全PASS，故原 $R_{{\rm can},227}(226)\ne0$。源38d4107ce0fa11b0fdf5c99a6df6596d6c3c32f5、脚本/hash和完整推论见[审计§6](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)。只付离散障碍的非零前提，不称目标p单位、augmentation或无穷p；实际toric比较继续待核。
