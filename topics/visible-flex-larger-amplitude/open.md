@@ -103,9 +103,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 此前本节与全部open原字29726B、SHA256 `45693fd5bd013a12e6da8027aedb2b3f002bd601525ed2dc019d5a218ee56f15`，完整保[原文归档](notes/2026-11-27-open-through-callable-third-failure.md)。§1–6的23359B前缀原字保持；此前各完整参数、原来源、失败、历史及未知责任不是删去，按归档及其原链接继续。
 
-当前固定g Fejer原全输入主线：M160/J923/N2048/32stage；13做N4096、14做M320、15做J1845、16原seed、17较宽seed、18完整meridian值复用/批角。它们是独立真实来源/模型/场，不能凭相同坐标hash移植结论。12已经官方cancelled、只两input0，无完整科学自然返回；潜在末场/history仍未知。
+当前固定g Fejer原全输入主线：M160/J923/N2048/32stage；13曾做N4096、14曾做M320、15做J1845、16原seed、17较宽seed、18完整meridian值复用/批角。它们是独立真实来源/模型/场，不能凭相同坐标hash移植结论。12已经官方cancelled、只两input0，无完整科学自然返回；潜在末场/history仍未知。13/14也已官方cancelled；13仅原六阶段返、14仅两input0，修后完整科学都未自然返回，所有未知及末真pull保[完整终态](notes/2026-11-27-runs13-14-actual-cancelled-without-complete-science.md)。
 
-17在真实21:01:36 current-geometry事件首接受恢复方向，924732、Phi4954.694898882501、Gram0.6374164670510035、正几何违反2.04762068147831>0；report/完整final/packet仍未返。16第四已登记2fa731开始、accepted0；第三880d几何/决定未捕获；各实际时刻与全source见[16数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)、[17事实](computations/run17-first-accepted-restoration-observation.json)。未公开分项不猜，进度不冒费输入。
+17在真实21:01:36 current-geometry事件首接受恢复方向，924732、Phi4954.694898882501、Gram0.6374164670510035、正几何违反2.04762068147831>0；report/完整final/packet仍未返。16第四2fa731统计Phi5551.476942430809/Gram.6480138184922606，几何/决定未返、accepted0；第三880d几何/决定未捕获；各实际时刻与全source见[16数学](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)、[17事实](computations/run17-first-accepted-restoration-observation.json)。17第二已观察trial b0468统计Phi4954.618769180181/Gram.6374150628738999，几何/接受未知。未公开分项不猜，进度不冒费输入。
 
 18前三科学均实际exit1，原三完整诊断均0；依次为frame完整wrapper身份遗漏、static function错误解包、geometry旧helper来源常量漏传。第三是根上层传播遗漏。现[完整producer修复/续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)及[完整交付](computations/fixed-fejer-meridian-producer-binding-repair-complete-delivery.json)保新10fa/8027/f600、准确input d892、geometry5730与全部137角色/18运行源。helper eaea/normal76185/packet c750/binder3ee原保；仅来源常量及必要pins，不改guard或数学。完整157/7 argv、458/445formal、48live和全部预算保，producer-bound新output完整科学已排原runner复用两真返input；pure全对象后接。新实际source commit/完整场/结果仍未知。
 
@@ -115,3 +115,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 
 当前[producer_R722完整核](computations/fixed-fejer-producer-bound-R722-mean-source-delivery.json)4fc252/7c66已刊。18实际e3d2eb/f600、model9ec211首统计Phi4954.71485872585、Gram.6374168330977955，accepted0、初几何未返；独立完整来源，不能因同17初数值代付新场费用。
+
+当前[producer_R722完整准确费](computations/fixed-fejer-meridian-producer-bound-R722-complete-accurate-fees-delivery.json)十件445941B已刊，完整后验validator、正常根六jet/连续Gram与曲率/八beta+径向桥接及原全部预算保；正常费complete不代连续branch，未实际支付。完整closed/R716/mesh已准备，按活动科学自然返回后次序接入。

@@ -173,3 +173,12 @@
 ## 2026-11-27：16第四个已登记试探点真实开始
 
 21:30:56.748636真实trial-start2fa731，21:32:39观察；source a8b0749a/ed810/PID3868和model8cc保持。current仍初点7e06、Phi5551.477153263786/Gram.6480138218929927/g11.17545381570094、accepted0。新试探统计/几何/决定尚缺，第三880d几何决定未捕获，不猜值或原因，也不再把第三写成仍pending。完整原索引/normal字段/None错误保[16持续数学记录](notes/2026-11-27-run16-initial-mathematics-and-point-bound-progress.md)。第四是已登记点数，不补未知算法历史；report未返，研究继续。
+
+
+## 2026-11-27：当前producer_R722全费用发布，13/14官方终态，16/17新试探统计
+
+[完整准确费用](notes/2026-11-27-producer-bound-R722-complete-normal-geometry-fees.md)十件445941B、四运行源c6f6/7892/6c57/c6b0，全部137科学来源、原完整参数与38/8argv、36/48selectors保持。真实旧R709 bool不伪造；完整R722 posterior域/partition/三残差、整圆/径向/32stage/六jet/全tail、周期来源及晚失败校验精确接当前10fa/8027/d892。此为完整源与配方，尚无本族actual fee；不在活动科学前塞减配或检查门。
+
+13官方21:37:47更新cancelled、14官方21:39:01 cancelled，当前科学均无自然返回。13仅原1–6（两个input0、原science/pure1、两个reader0），14只两input0；最终点、完整场、typed/history、restart仍未知。完整官方run/jobs/最后小索引与观察、返回分卷保[事实JSON](computations/run13-run14-official-terminal-complete-observations.json)，最后两个真pull槽原字保[终态说明](notes/2026-11-27-runs13-14-actual-cancelled-without-complete-science.md)。仅退已终态活动槽，未退原科学责任；官方未给原因，不由时长断言timeout。
+
+16第四2fa731于21:40:46.441720真实trial-statistics-returned，Phi5551.476942430809/Gram.6480138184922606，accepted0/current初点不变。17第二已观察trial b0468于21:34:19.138255返回Phi4954.618769180181/Gram.6374150628738999，accepted1/current924732不变。两新trial几何/决定均未观察，原模型/点/全部观察身份续各完整数学note；不是接受或连续证书。继续真实求解。
