@@ -354,3 +354,6 @@ R1049§12（80）–（88）：原Chow层严格图置换将全部η/Cor折为[L:
 
 
 - 原full54 [几何/Newton全精度交叉](2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)：固定weight3实际finite向量通过新旧χ比ν27⁶逐处接回旧beta真空；共同cover/34M²、Ω0h∞与全Newton尾付Jβ0=1。每个正权保C2=(p+1)p^w、KS与全cyclic p²得M_p(1−p⁻²)；Kriz局部H−2配对/R997水平规范/原54 η Cor逐项同fixed-base AJ。稠密n=(p²−1)u−2先消共同因子后得I_jB_lK_l=I_lB_jK_j；一K单位时全向量由同Fgeom单位相连，barFgeom=−[L:H]。保全部固定坏集、几何q0及无K单位时的准确弱结论，不提前判通常Sha。
+
+
+- [原canonical全D²/Newton](2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)：同Gaussian实际导数的三项系数重排给J_Q^[-2]=dv(dv−1)J_S、K′_Q0=−dJ′_S/p；尾为B_(h−2)，与有界PB4严格分开。原F=∇²S全部六列、P4/另一dyadic及68ζ∇S+(1156ζ²−34x)S保完整函数；每个U_e实际交换子返回−2δP4F/3但不删其费用。全Tate模p α_Sv(v−1)保h2/h3，R855真除p规范同号；K_j0的单位不代此一阶必要零关系。

@@ -31,13 +31,15 @@ R1049约93KB，原54/full9/η/Cor/degree34、Chern/Miller/PD同伦和FL全保；
 
 [固定weight5基](notes/2026-11-27-original-weight-five-toric-artin-basis-and-common-phase.md)与[未平方全源](notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)：原B_j=(17δ/9)T_j,5、三标签共同绝对号、全2/3/17与54/full9、degree102实际同源、G_j=B_jt⁴D_j(δZ/t)/(408δ)及Jtor=−B_jJ/(306δ)均保。固定weight3双核保cZW，两个Hermite槽(n,n+2)准确为δ3^n。新旧finite接合已补：χ比ν27⁶在3单位逐点1、唯一diag3共同−1；α1同、α2比ν27¹²；旧(4,0)才付新beta同一finite函数的真空，新(4,6)不当真空。coherent变量全保Ω0h∞。
 
-[同一signed全精度](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)：原34δ/18/30单位在HT(2,−1)的M+，A_j=F_p(c_j/a_j)K_j²。§§7–10已关闭同一K_*单位范围的绝对period：Δ等型pro-p二变量残余2−p/2p−1与valuation twist1−2p给每个整类的整Coleman原像；全KS/isogeny −p、未平均第一层p²−1迹与同ω/Tate格给m=p−1的exp*整界p⁻¹O。原EU由μ/18、m!、1+1/p取到−1，迫F_p为Tate单位。故v_pA_j(0)=2vpK_j(0)，hEU=u_pF_p(0)(c_j/a_j)K_j0²；同几何好范围EU首层非零⇔几何首层非零⇔Kbar非零。仍不冒两类全精度相等，固定c_j/γ好集与q0始终保留。
+[同一signed全精度](notes/2026-11-27-original-type-four-inert-signed-cross-comparison.md)已付A_j=F_p(c_j/a_j)K_j²。一K_*单位及固定常数好范围，先取Δ等型的双变量整base change/全Coleman原像；同Tate基、未平均p²−1 corestr、完整KS的−p及μ/18给m=p−1的exp*整界p⁻¹O，原EU恰取到−1，故F_p是Tate单位。因而v_pA_j0=2vpK_j0、K_j0≠0⇔EU实际loc非零，原几何好范围首层亦等价。无K单位时不套此结论，c_j好集/q0不删，全精度EU类与几何类不冒相等。
 
 [p²完整norm](notes/2026-11-27-original-inert-p-square-full-norm-and-endpoint-zero.md)保incoming完整剔除和0。[fixed-base向外全式](notes/2026-11-27-original-inert-fixed-base-p-square-depletion-and-fp-parameter.md)保原底曲线、全部cyclic p²级、全degree34→34p²修正图及Ω^[p]=d0*Ω−p⁻²λ*d2*Ω；proper AJ全和为(p²−1)I。
 
 **[原full54全精度交叉比较](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)已付**：新beta实际Schwartz共用固定Heisenberg cover，N=34M²、原Ω0h∞尺度及真空1；Jβ∈1+pO〈v〉、Jβ0=1。正权全KS/Hecke给C2H=(p+1)p^wH，完整fixed-base剔除因子M_p(1−p⁻²)非零；不从端点倒推。Kriz局部Γ(2,2) good邻域、原3/full9、全p² torus轨道和principal微分倍率逐项保；H−2由完整H-valued Coleman配对和R997水平规范识别。参数n=(p²−1)u−2、v=(p−1)u的稠密正整数先消所有共同factorial/period/p幂，才取u0，得I_j B_l K_l0=I_l B_j K_j0。至少一K单位且原好范围下I_j=Fgeom B_jK_j0、h_j=Fgeom(B_j/a_j)K_j0，Fgeom单位且barFgeom=−[L:H]。无K单位时只用cross式；不冒全局类等同或无穷非零。实际canonical必要零关系仍须继续。
 
-固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)与CM13/Frob²循环已付，故三K29单位；纯Newton不替代c_j好集/q0。原whole17提升已付：完整U_e²=−I、反交换、Pω秩17且E17 Heisenberg保持；ℓp=ℓpΠ4使三维PB4行零等价全17零functional。p≡2/5mod9全行非零等价三线全单位，仍未给跨p。同note§7已付原四元平均B=4(X+1)∂x²−96x²∂x+544x、全18列和PB4上1024·三列矩阵；它保dyadic块、B³保型四，但模11严格排与CM13同谱。原sigma共轭保ζ/p首分母及canonical的全低卷积，不免费产生中央零。
+固定p29唯一run46043135878/job140655635855/source346dd26f的完整PB4行(20,27,7,20,23,21)已付三K29单位，不代c_j/q0好范围。whole17 Heisenberg提升及p≡2/5mod9的三线循环全保；原四元平均B完整六列、三列及模11非同谱已付，不能以B³或单U_e免费传播canonical。
+
+**[原canonical二阶完整Newton](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)已付**：Q=D²S不是有界type4截面；完整三项卷积保Gaussian，J_Q^[-2]=d v(dv−1)J_S、K_Q=d(dv−1)J_S/p。其尾只直接继承B_(h−2)，已独立付整性/全部导数收敛。K_Q0恒0，真正坏条件是K′_Q0=−dJ′_S/p=0。同原全六列F=∇34²S分P4及另一dyadic块，D²S=F++F−+68ζ∇S+(1156ζ²−34x)S；完整端点/一阶两行与三U_e交换子皆保。模p K_Q=α_Sv(v−1)，h2、h3补偿不可删；继续同一一阶补源，不能把K_j0单位当canonical简单零。
 
 ## 主目标及其余原门
 

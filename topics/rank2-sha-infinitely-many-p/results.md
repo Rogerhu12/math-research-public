@@ -55,3 +55,8 @@
 ### 原 full54 几何/Newton 的全精度交叉式
 
 [完整证明](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)已从实际fixed-weight3双核和Kriz局部H-valued负二配对得到 I_j B_l K_l(0)=I_l B_j K_j(0)。新旧finite Schwartz/旧(4,0)真空与新(4,6)、Ω0h∞尺度、共同N=34M²及Jβ∈1+pO〈v〉全付。全部p²正权Hecke/KS和为M_p(1−p⁻²)，同原54/η/Cor的fixed-base AJ端点为(p²−1)I；只在稠密正整数权消共同因子，不插值裸p幂或factorial。至少一K单位时，原整格范围给I_j=Fgeom B_jK_j0，Fgeom为单位且模p=−[L:H]。三K全零时cross式不自判I，尚无跨p非零或原canonical forcing。
+
+
+### 原 canonical 二阶导数的真实 Newton 端点
+
+[完整恒等式](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)对实际Q=D²S保同一C=34cσ，三项全卷积给J_Q^[-2]=d v(dv−1)J_S、K_Q=d(dv−1)J_S/p；另付B_(h−2)尾，未把Q冒作有界type4。K_Q(0)恒零，canonical坏准确迫K′_Q(0)=−dJ′_S/p=0。原∇²S的六列、两dyadic块及全部ζ补偿同式保留；三translated行的新增P4恰在完整交换子内。模p K_Q=α_S v(v−1)由真实h2/h3合并，指定首除p行同R855。下一消费完整一阶补源，未闭canonical forcing。

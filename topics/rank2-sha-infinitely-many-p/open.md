@@ -136,3 +136,8 @@ p29/type4 note§7新增B=4(X+1)∂x²−96x²∂x+544x及全18列；它是原四
 ### 原 full54 几何与 Newton 的相对全精度已闭
 
 [新交叉式](notes/2026-11-27-original-inert-full54-geometric-newton-cross-identity.md)已经关闭此前所列“同一原Newton正则化”中的三标签相对比较：I_jB_lK_l0=I_lB_jK_j0。完整fixed-base正权因子、Kriz局部负二H-valued配对、水平规范、原54/η/Cor和实际beta的固定整模型/真空均保。只在至少一K单位及原好范围可写I_j=Fgeom B_jK_j0，Fgeom单位、barFgeom=−[L:H]；不把未知全精度Fgeom改成剩余值。下一是同一全有限读者的真正canonical坏零关系与跨p非零；不重复已付相对比较，不以HT(2,−1)几何类替代椭圆T_E。
+
+
+### canonical 的二阶 theta 导数已定位到真实一阶端点
+
+[原D²S完整Newton](notes/2026-11-27-original-canonical-second-derivative-newton-and-full-connection.md)给同一负二参数K_Q=d(dv−1)J_S/p，因此K_Q0恒零，坏canonical迫K′_Q0。准确需处理Σ_j u_jK′_j0+K′_-0+K′_R0，其中另一dyadic块和R=68ζ∇S+(1156ζ²−34x)S全部固定，尾B_(h−2)已付。模p K_Q=α_Sv(v−1)的h2/h3不能删；三dyadic译像不产生免费的PB4端点零。继续这份真正一阶关系，或另一个确由canonical坏迫出的相同有限读者；不重复以K_j0非零替主门。
