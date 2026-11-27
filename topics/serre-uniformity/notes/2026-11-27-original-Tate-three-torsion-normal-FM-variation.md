@@ -261,3 +261,204 @@ $$
 $e=D_R\Phi(U^m)(-Q)$、$K_4$ 及 $J_4$ 的全部三项 carry 仍按原定义保留。后继若用本式排 $e=K_4=0$，须另外证明这个具体 normal 算子与两指定 Picard 读数的真实关系。本文没有用特征零 heat、抽象秩二系统或一般 theta 非退化性代替该关系。
 
 全文为纸面证明；root/o1/o2独立逐式核查实际同源唯一性、全部核极项、相对Cartier标架与有限源边界；没有本地数学程序执行。
+
+
+## 6. 实际 $M_0$ 截面的移动除子与完整目标标架
+
+本节把 (N.12) 的高极修正识别为实际 FM 截面标架的变化；固定的目标曲线仍是 $E_0^{(p)}$。令
+$$
+c=\frac{\delta}{6v},\qquad N'=\mathcal O_{E_0^{(p)}}(O),
+$$
+并令 $s$ 是 $N'$ 的原规范截面，$\operatorname{div}(s)=O$。以下公式中的 $U,V,\Psi,\mathcal R$ 都在目标变量 $R$ 上读取。
+
+### 6.1 实际 Verschiebung 核的全局截面
+
+定义三个真实线丛截面
+$$
+\begin{aligned}
+S_\epsilon&=s^p(1+\epsilon c\mathcal R),\\
+X_\epsilon&=s^{2p}(U^p+\epsilon A^\sharp),\\
+Y_\epsilon&=s^{3p}(-V^p+\epsilon B^\sharp),\\
+A^\sharp&=A+2cU^p\mathcal R,\\
+B^\sharp&=B-3cV^p\mathcal R,
+\end{aligned}
+\tag{N.15}
+$$
+其中 $A,B$ 就是 (N.6)，没有另选同源或核相位。
+
+先付清这些式子的整性。原 $\mathcal R$ 的极阶为 $p-1$，所以 $S_\epsilon$ 是 $N'^p$ 的全局截面，并且仍沿 $O$ 消失。原 R1061/R1095 的完整式
+$$
+6\Phi(V)=2V^p+3U^p\Psi-\Psi^3
+$$
+和 $\Psi^2=U^p+2\delta\mathcal R$ 给
+$$
+A^\sharp
+=\frac{4\delta^2\mathcal R^2+6\Psi\Phi(V)}{6v}.
+\tag{N.16}
+$$
+由于 $\operatorname{pole}_O\Phi(V)\le p-2$，右边极阶至多 $2p-2$。故 $X_\epsilon$ 是 $N'^{2p}$ 的全局截面，而不是有未付清高极的形式表达式。
+
+将 (N.7) 与 (N.15) 合并，准确得到
+$$
+-2V^pB^\sharp
+=3U^{2p}A^\sharp+vU^p+6cv^2\mathcal R.
+\tag{N.17}
+$$
+$B^\sharp$ 是仿射坐标环中的函数；(N.17) 在 $O$ 又给极阶至多 $3p-2$。因此 $Y_\epsilon$ 同样是 $N'^{3p}$ 的真实全局截面。不能只用 (N.17) 除以 $V^p$ 后忽略二挠点；仿射正则性来自 (N.15) 本身。
+
+三个截面满足原加权 Weierstrass 方程
+$$
+Y_\epsilon^2
+=X_\epsilon^3+\epsilon vX_\epsilon S_\epsilon^4
++v^2S_\epsilon^6\pmod{\epsilon^2}.
+$$
+它们没有共同零点：特殊纤维上 $O$ 外 $S_0$ 非零，在 $O$ 则 $X_0,Y_0$ 的首值非零；由 Nakayama 引理，同一结论对 $A$ 成立。其仿射坐标比为
+$$
+\frac{X_\epsilon}{S_\epsilon^2}
+=U^p+\epsilon A,\qquad
+\frac{Y_\epsilon}{S_\epsilon^3}
+=-V^p+\epsilon B.
+$$
+由 §2 已证明的实际同源唯一性，这个全局映射就是 $\mathcal V_\epsilon$。所以
+$$
+\boxed{\operatorname{div}(S_\epsilon)=\mathcal V_\epsilon^*(O).}
+\tag{N.18}
+$$
+这里的除子包含真实的无穷小核重数。局部地，
+$S_\epsilon=u^p+\epsilon cu+\cdots$；这与
+$\mathcal V_\epsilon^*u=-u^p-\epsilon cu+\cdots$ 的同一零除子相符，不能将它缩成特殊纤维的 $pO$。
+
+### 6.2 原 $f=1$ FM 截面的准确除子
+
+沿原规范 Poincaré 变换，R1061 §16 的两条变换线在本相对族中仍由 degree-one twist 的 $H^1=0$ 给出。记其 Hom 线为 $\mathcal M_\epsilon$。同源相容和 $\widehat N\simeq N^{-1}$ 给
+$$
+\mathcal M_\epsilon
+\simeq\mathcal V_\epsilon^*\mathcal O_{E_\epsilon}(O)\otimes N'^{-1},
+\qquad \deg\mathcal M_\epsilon=p-1.
+\tag{N.19}
+$$
+设 $s_f^\epsilon$ 是实际 Cartier 映射
+$C_{\rm rel,\epsilon}\circ f$ 的 FM 截面；原比值正是
+$t_f^\epsilon=s_f^\epsilon/s_1^\epsilon$。
+
+实际 $s_1^\epsilon$ 的除子为
+$$
+\operatorname{div}(s_1^\epsilon)
+=\mathcal V_\epsilon^*(O)-(O).
+\tag{N.20}
+$$
+以下说明该等式在无穷小族中也有来源。把 (N.1) 先放回
+$K[[\epsilon]]$ 上的完整 Tate 族。由 (N.5)，一般纤维 ordinary，
+$\mathcal V$ 的非零核点有 $p-1$ 个。对任一这样的目标点 $R$，
+原源生成截面的 Miller 表达式在 $O$ 的零阶从 $p-1$ 增至 $p$。
+其 Cartier 输出仍全纯，但原 $u^{p-1}du$ 系数为零，所以
+$s_1(R)=0$。这给出 $p-1$ 个不同零点；(N.19) 的度数使它们恰为整个零除子。
+特殊纤维的 $s_1$ 是 R1061 已付的非零截面，故闭包中没有额外的整条特殊纤维因子。于是除子等式在整个族、特别在模 $\epsilon^2$ 中成立。这一步没有用普通纤维的集合核代替特殊纤维的非约化核。
+
+(N.18)–(N.20) 现在给出
+$\mathcal M_\epsilon\simeq N'^{p-1}$。为完全固定这一个同构的底域单位，
+在实际固定三挠点 $R=-Q$ 的纤维上作刚化：将 $s_1^\epsilon(-Q)$
+送到 $s^{p-1}(-Q)$。这是合法且唯一的，因为该点不在
+$\mathcal V_\epsilon^*(O)$，原 Miller 首项给 $t_1^\epsilon=1$。
+又 $\mathcal R(-Q)=0$，所以在这个明确的刚化下
+$$
+\boxed{
+s_1^\epsilon
+=s^{p-1}(1+\epsilon c\mathcal R).}
+\tag{N.21}
+$$
+本节不是假设先前任意的原点标架自动具有这个常数；它明确使用同一实际 $-Q$ 纤维来固定比较。
+
+因此，将真实截面以固定目标线 $N'^{p-1}$ 表示，其有理函数为
+$$
+\widehat t_f^\epsilon
+=(1+\epsilon c\mathcal R)t_f^\epsilon.
+$$
+对 §4 的偶源，由 (N.12) 准确得到
+$$
+\boxed{
+\widehat t_f^\epsilon
+=\Phi f+\frac{\epsilon}{6v}\Phi(\mathcal Nf).}
+\tag{N.22}
+$$
+两边现在都是固定 $L((p-1)O)$ 中的真实截面；被消掉的
+$\mathcal R\Phi f$ 是 (N.21) 已付的移动标架项，而非被忽略的高极余项。
+
+## 7. 完整 $J$ 的 normal heat 及全源矩阵
+
+### 7.1 同一个原 $J$ 核的实际变分
+
+令
+$$
+J_\epsilon(T,R)=(U_T^p-U_R)K_\epsilon(T,R),\qquad
+\widehat J_\epsilon=(1+\epsilon c\mathcal R_R)J_\epsilon.
+$$
+这里 $U_T^p-U_R$ 是固定的相对 Frobenius 分母；固定 $U_T$ 求 normal 导数时它不变。它同时消掉原核在 $F_\epsilon^{-1}R$ 的全部 $p$ 阶极。目标端的修正恰是刚在 (N.21) 付清的同一实际标架。
+
+由 (N.8)，再用完整的原双变量 Lamé 式
+$$
+(D_T^2-2\Psi_RD_T-2U_T+2\delta\mathcal R_R)J=0,
+$$
+得到
+$$
+\boxed{
+12v\,\left.\partial_\epsilon\widehat J_\epsilon\right|_0
+=\left(D_T^2-\frac{2U_T^2}{V_T}D_T\right)J.}
+\tag{N.23}
+$$
+准确代数是：先在 (N.8) 加上 $\delta\mathcal R_RJ$，
+再把 $\Psi_RD_TJ+U_TJ-\delta\mathcal R_RJ$ 换成
+$D_T^2J/2$。因此没有残留未定的底域标量，也没有删去原
+$\mathcal R$ 项后才认作 heat。
+
+$1/V_T$ 一项仍须保留：它记录固定 $U_T$ 而移动曲线时的坐标变化。
+(N.23) 是源曲线变形、目标曲线固定的实际公式，
+不是目标变量 $R$ 上的二阶或四阶 Picard 微分方程。
+
+### 7.2 自然奇源与整个 $V_0$ 的有限算子
+
+§4 先取了不随族变化的 $U$ 多项式。完整原源空间还包括
+$$
+f_\epsilon=V_\epsilon U^j,\qquad 0\le j\le m-2.
+$$
+这时固定 $U$ 有
+$$
+\dot f=\frac{vU^{j+1}}{2V}.
+$$
+因此 (N.11) 的右边必须另加
+$C_{\rm rel}(6v\dot f\,K\omega)/\omega'$。先保留这一项，再使用原完整 Lamé，
+所得源函数为
+$$
+\frac12D^2f+\frac{U^2}{V}Df+Uf+6v\dot f.
+$$
+所有表面的 $1/V$ 极准确相消；逐项得到
+$$
+\boxed{
+\mathcal N_{\rm full}(VU^j)
+=(2j+5)(j+2)VU^{j+1}
++2j(j-1)v^2VU^{j-2}.}
+\tag{N.24}
+$$
+在偶源上 $\mathcal N_{\rm full}$ 就是 §4 的 $\mathcal N$。
+当 $j=m-2$ 时，$2j+5=p$，故最高外溢项为零。
+于是它真正保持整个
+$$
+V_0=
+\operatorname{span}(1,U,\ldots,U^m)
+\oplus V\,\operatorname{span}(1,U,\ldots,U^{m-2}).
+$$
+对这个自然相对单项式标架，完整结论为
+$$
+\boxed{
+6v\,\dot t_f
+=\Phi(\mathcal N_{\rm full}f)-\delta\mathcal R\,\Phi f,\qquad
+6v\,\dot{\widehat t}_f=\Phi(\mathcal N_{\rm full}f).}
+\tag{N.25}
+$$
+若改用随模参数变化的纯极基 $q_r^\epsilon$，还必须加入其自身的系数变分；
+不能把 (N.24) 的单项式矩阵直接当作该移动基的矩阵。
+
+(N.21)–(N.25) 给出实际 normal 标架和完整有限源，不预设
+$\Phi\mathcal N_{\rm full}\Phi^{-1}$ 是某个低阶目标微分算子。
+尤其原 $e$ 和 $K_4$ 的 Picard jets 仍须按原 $J_1,J_4$ 的全部 carry 比较。
+本次新增各式由o1_theta给出，root逐式核全局截面极界、实际核除子、普通族闭包、−Q刚化、完整heat及奇源边界；均为纸面推导，没有执行数学程序或新的素数窗口。

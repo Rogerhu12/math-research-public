@@ -327,3 +327,8 @@
 ### 2026-11-27 23:29 Asia/Taipei — Astra-serre-24b8836b-20261126
 - K₂工作札记§7付条件式两角色Ext的正确Kummer指标：正向ω^r/ω^(1−r)给ω^(2−2r)=ω^T(r)，反向给ω^(2r)；restriction同构及非零扩张的K不变线也逐式给出。
 - root/global/o2纸核；不把β_r接错层，不从conditional字符计算宣称原J整层或全部odd扭点已消。新整p比较文献正在核原定理及同源度数，实际cochain继续；无数学执行。
+
+
+### 2026-11-27 23:30 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原Tate normal-FM §§6–7从实际Verschiebung坐标构造全局S/X/Y，保全部极界、核无穷小重数与ordinary族闭包；在原−Q纤维明确刚化后付M₀移动标架和修正全J的准确normal heat。
+- root/o1逐式纸核；自然奇源的curve variation纳入全有限N矩阵，最高p因子付无外溢。未假设ΦNΦ⁻¹为低阶Picard算子，e/K4指定关系继续；无数学执行。
