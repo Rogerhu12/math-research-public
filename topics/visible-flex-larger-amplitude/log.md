@@ -145,3 +145,12 @@
 ## 2026-11-27：真实18第二异常完整修复并继续原规模求解
 
 原同runner第二异常reader真实0，完整7163B日志确认static base function被错误访问__func__。新helper只在构造和身份复核两处正确解包static/bound callable，保原codefile全SHA与is比较；normal/packet及完整upper必要来源联动。全部137角色、18运行源、原120历史pair、157/7全部argv、458/445formal与48live齐全，数学及求解预算不变。完整callable-bound科学对象65309B已排，原两input不重建，下一实际返回未知，pure完整保留待自然返回接入。[完整说明](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)；[完整交付](computations/fixed-fejer-meridian-callable-binding-repair-complete-delivery.json)。源码旧父bf863与参数旧父36fb各自固定保；两个实际失败不改称数值失败，不增AST/fixture/审查门，不以修复收尾。
+
+
+## 2026-11-27：17首次实际接受、18第三实际失败及第50轮旧结果保全
+
+17原科学首次观察到accepted_directions=1、trial_accepted=true，真实current-geometry事件21:01:36.851094；同点924732、Phi4954.694898882501、Gram0.6374164670510035、正几何违反2.04762068147831>0。观察21:05:58不冒计算时刻；完整13件checkpoint/final/packet未读、report未返、连续证书未付。[完整实际事实](computations/run17-first-accepted-restoration-observation.json)及原数学note已全续。
+
+18 callable科学实际source512fcefd67eb0adba7b27e654cb51bacf82c2439、launcher d683，8.196651488s自然exit1，仅50558B command、report缺失。原完整science固定f2eb4，现仅退真返对象并排原5d25读取器读0007-8be405c2d4f2.log；16argv/45selector全保（精确对象计数更正旧scope44）。未猜内部异常，未重建输入或缩科学预算。[完整第三返回与读参](computations/resume-20261127-run18-callable-bound-actual-tracebacks-ready.json)；[持续完整说明](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)。
+
+第50轮19份旧derived JSON1246989B按固定60321451完整原字节恢复合同退下，新增7件193202B，净1053787B。完整11源/12输入/19argv/16份小报告全部非rows字段/3大体精确Git身份、实际失败及未知全保；三个旧producer/helper整SHA匹配原记录，原R12/当前科学/ports/Nelder不动。[完整保全说明](notes/2026-11-27-legacy-core-screen-flat-retention-50.md)。当前树逐对象再核，未整读大体/binary、未本地科学；研究继续。

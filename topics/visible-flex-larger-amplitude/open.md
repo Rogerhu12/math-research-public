@@ -118,4 +118,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 真实18 static/bound callable 修复后的完整续求
 
-[完整callable交付](computations/fixed-fejer-meridian-callable-binding-repair-complete-delivery.json)及[实际说明](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)：两次原异常读后，仅修实际两处解包并全量传播来源。当前d5db/0d6d/d683、input38ae；137角色与全部157/7参数/458/445formal/48live保留。新完整科学已排原runner，原input不重建，实际完整返回与场仍未知；pure全对象后接。所有R722/closed/R716/mesh须新来源显式绑定，费用与README义务继续，不能用旧族或修复成功替付。
+[完整callable交付](computations/fixed-fejer-meridian-callable-binding-repair-complete-delivery.json)及[实际说明](notes/2026-11-27-run18-complete-callable-binding-repair-and-continuation.md)：两次原异常读后，仅修实际两处解包并全量传播来源。当前d5db/0d6d/d683、input38ae；137角色与全部157/7参数/458/445formal/48live保留。新科学实际512f/d683又exit1、缺report；原5d25第三异常读取已排，内部原因未知，原input不重建；pure全对象保。所有R722/closed/R716/mesh须新来源显式绑定，费用与README义务继续，不能用旧族或修复成功替付。
+
+
+17首恢复方向已真实接受，g仍2.04762068147831>0、report未返；全时刻/来源/未知见[事实](computations/run17-first-accepted-restoration-observation.json)。[ret50完整保全](notes/2026-11-27-legacy-core-screen-flat-retention-50.md)净退1053787B，仅19旧派生结果，全原源/参数/失败恢复保。

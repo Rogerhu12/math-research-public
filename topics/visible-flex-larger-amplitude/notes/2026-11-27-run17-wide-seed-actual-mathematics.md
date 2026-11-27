@@ -400,3 +400,256 @@ current仍为初始7e06，Phi4954.71485872585、finite Gram0.6374168330977955、
 ```
 
 原完整求解器尚未自然返回，17的未知几何/typed/最终场持续保留；新缓存/批处理源与新observer并未替换这一活源。所有README完成指标仍未付。
+
+
+## 首次真实接受的恢复方向（公开观察21:05:58 UTC）
+
+原模型f2e417、源码36ef0794/driver8dc/launcher ed810保持。current-geometry-returned真实事件时间2026-11-27T21:01:36.851094+00:00；21:05:58是收集时间，不冒场计算时间。当前点、试探点及各自几何点均为 `9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2`。trial_accepted=true、accepted_directions=1；同点Phi4954.694898882501、有限Gram算子误差0.6374164670510035、完整有限几何正违反量 **2.04762068147831>0**。这是原恢复循环实际接受一方向，仍未达到可行约束。同点Phi/Gram原直接统计时间19:53:17.459610；未另行记录的acceptance和trial-geometry时刻留null。
+
+最新原状态为 accepted restoration checkpoint returned; final report not inferred。没有读取完整13成员checkpoint、required-angle snapshot、final bundle或report，不能从状态文字推断其实际文件可给准确fee/mesh消费。科学子步骤尚未自然返回，complete_report=false，stop_reason和exit未知；所有连续Gram/reach/闭帽/握持/含反射责任未付。normal scopes已闭/请求已返不是科学退出。
+
+[完整精确事实表](../computations/run17-first-accepted-restoration-observation.json)保存两次完整index身份、实际小progress双读一致身份、全选定标量、源/model/点/target各自身份及未知字段。根进程整读18148B index并核SHA256 a357026e9c44e194c7d13ae3022c1ba49fdc77e8476d0fc152ab7bdf25731d84，与表内完整observation逐字段相同。未重算科学或从异model移植结论。
+
+```json
+{
+  "schema": "actual-run17-first-observed-accepted-restoration-facts-v1",
+  "date": "2026-11-27",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "run_id": "46053911348",
+  "run_attempt": 1,
+  "job_id": 140691661221,
+  "run_head_sha": "7d0146332d4975fbd2d02b9d160c5f45c503a9b4",
+  "actual_step_id": "complete-fixed-fejer-wide-seed-first-20261127",
+  "actual_scientific_source_commit": "36ef07940921ccfa5eced7124dad275ddd91264d",
+  "actual_launcher_source_sha256": "ed81031fe1eb33684d35585e44022314c8a631821859376a200c874a2aa0e5fa",
+  "actual_driver_source_sha256": "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d",
+  "actual_mathematical_observer_source_sha256": "bff1e03ae12a08444cb9d9d572e439a9b40cf59e80a201cd500f95539ce9e391",
+  "actual_pid": 3823,
+  "complete_public_index": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46053911348-1.md",
+    "bytes": 18148,
+    "sha256": "a357026e9c44e194c7d13ae3022c1ba49fdc77e8476d0fc152ab7bdf25731d84",
+    "git_blob_sha": "25c6659961ce62e89e3543d0cee34204efdc965b"
+  },
+  "previous_complete_public_index": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46053911348-1.md",
+    "bytes": 18592,
+    "sha256": "ccb7c5f34be033dffc122124b2fb0e98cb4eb510f843c0c771332cecdf30acbb",
+    "git_blob_sha": "3cd05a3fd7a6cf1a3c5fc66eb58429078b5fe943"
+  },
+  "public_index_recorded_at_utc": "2026-11-27 21:05:59 UTC",
+  "latest_observation_at_utc": "2026-11-27T21:05:58Z",
+  "previous_observation_at_utc": "2026-11-27T20:50:50Z",
+  "timestamp_scope": {
+    "latest_mathematical_event": "current-geometry-returned",
+    "latest_mathematical_event_at_utc": "2026-11-27T21:01:36.851094+00:00",
+    "directly_timestamped_same_point_trial_statistics_event": "trial-statistics-returned",
+    "directly_timestamped_same_point_trial_statistics_at_utc": "2026-11-27T19:53:17.459610+00:00",
+    "latest_normal_event": "normal_chain_scope_closed",
+    "latest_normal_event_at_utc": "2026-11-27 20:59:33 UTC",
+    "initial_statistics_exact_event_time_not_in_these_indices": null,
+    "initial_geometry_exact_event_time_not_in_these_indices": null,
+    "separate_trial_geometry_exact_event_time_not_in_these_indices": null,
+    "separate_acceptance_exact_event_time_not_in_these_indices": null,
+    "acceptance_count_is_the_value_retained_in_latest_mathematical_event": true,
+    "collector_observation_time_not_relabelled_as_field_evaluation_time": true
+  },
+  "identities": {
+    "complete_normal_model_identity_sha256": "f2e417e9f6835bbc73fce71e18da20e132ca84246641da6572e8fa6ba66a8372",
+    "published_math_target_field": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+    "math_target_not_substituted_for_complete_fixed_target_definition_identity": true,
+    "initial_full_point_sha256": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "current_full_point_sha256": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+    "trial_full_point_sha256": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+    "current_geometry_full_point_sha256": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+    "all_current_and_trial_selected_point_fields_equal": true,
+    "working_observer_point_not_an_immutable_packet_identity": true
+  },
+  "actual_initial_fields": {
+    "Phi": 4954.71485872585,
+    "maximum_sampled_Gram_operator_error": 0.6374168330977955,
+    "positive_physical_geometry_violation": 2.0480426708394406,
+    "complete_finite_geometry_returned": true,
+    "geometry_point_sha256": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47"
+  },
+  "actual_current_fields": {
+    "Phi": 4954.694898882501,
+    "maximum_sampled_Gram_operator_error": 0.6374164670510035,
+    "positive_physical_geometry_violation": 2.04762068147831,
+    "complete_finite_geometry_returned": true,
+    "geometry_point_sha256": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+    "state_text": "accepted restoration checkpoint returned; final report not inferred"
+  },
+  "actual_trial_fields": {
+    "Phi": 4954.694898882501,
+    "maximum_sampled_Gram_operator_error": 0.6374164670510035,
+    "positive_physical_geometry_violation": 2.04762068147831,
+    "complete_finite_geometry_returned": true,
+    "geometry_point_sha256": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+    "accepted": true
+  },
+  "accepted_direction_count": 1,
+  "previous_published_accepted_direction_count": 0,
+  "initial_point_reset_or_cross_source_result_inferred": false,
+  "latest_normal_scalar_record": {
+    "phase": "normal_chain_scope_closed",
+    "at": "2026-11-27 20:59:33 UTC",
+    "point": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+    "stage": null,
+    "cached_angle_roots": 1447,
+    "closure_logical_requests": 534111,
+    "closure_logical_returns": 534111,
+    "closure_logical_failures": 0,
+    "closure_original_returns": 214031,
+    "closure_cache_hits": 320080,
+    "closure_forced_stage_rereads": 68160,
+    "closure_forced_endpoint_rereads": 2130,
+    "closure_scopes_started": 2130,
+    "closure_scopes_closed": 2130,
+    "closure_immutable_point_key_checks": 455290,
+    "closure_point_word_checks": 4260,
+    "closure_original_closure_seconds": 1697.552655114854,
+    "closure_binding_and_key_seconds": 155.15062585020326
+  },
+  "complete_raw_small_progress_identities": [
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json",
+      "bytes": 3391,
+      "sha256": "a5f24d775d572d35cc4a641e72a3bf1bb1e9fdcbef672121ca81f082b8e290d0",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "bytes": 7474,
+      "sha256": "4ad9c13a2ca06e3f4cfcde539ec0c421f0ef6e42647d9dac096d8285df781856",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "previous_complete_raw_small_progress_identities": [
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json",
+      "bytes": 3377,
+      "sha256": "aa8d62c8da0ab4212238fe7f006e3ea6e5b8d468ad1f54249e873f7645efa92f",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+      "bytes": 6466,
+      "sha256": "ce0ceefb18555feb7029db460d185a49720afcabd8cd880a4db5580136435dfa",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "complete_latest_actual_observation": {
+    "step_id": "complete-fixed-fejer-wide-seed-first-20261127",
+    "scientific_source_commit": "36ef07940921ccfa5eced7124dad275ddd91264d",
+    "scientific_source_sha256": "ed81031fe1eb33684d35585e44022314c8a631821859376a200c874a2aa0e5fa",
+    "pid": 3823,
+    "observations": {
+      "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json": {
+        "phase": "normal_chain_scope_closed",
+        "at": "2026-11-27 20:59:33 UTC",
+        "point": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+        "stage": null,
+        "cached_angle_roots": 1447,
+        "closure_logical_requests": 534111,
+        "closure_logical_returns": 534111,
+        "closure_logical_failures": 0,
+        "closure_original_returns": 214031,
+        "closure_cache_hits": 320080,
+        "closure_forced_stage_rereads": 68160,
+        "closure_forced_endpoint_rereads": 2130,
+        "closure_scopes_started": 2130,
+        "closure_scopes_closed": 2130,
+        "closure_immutable_point_key_checks": 455290,
+        "closure_point_word_checks": 4260,
+        "closure_original_closure_seconds": 1697.552655114854,
+        "closure_binding_and_key_seconds": 155.15062585020326
+      },
+      "fixed-fejer-wide-seed-first/actual-mathematical-progress.json": {
+        "math_at": "2026-11-27T21:01:36.851094+00:00",
+        "math_event": "current-geometry-returned",
+        "math_driver": "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d",
+        "math_model": "f2e417e9f6835bbc73fce71e18da20e132ca84246641da6572e8fa6ba66a8372",
+        "math_source": "bff1e03ae12a08444cb9d9d572e439a9b40cf59e80a201cd500f95539ce9e391",
+        "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+        "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+        "initial_Phi": 4954.71485872585,
+        "initial_Gram": 0.6374168330977955,
+        "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+        "initial_violation": 2.0480426708394406,
+        "initial_geometry_complete": true,
+        "current_point": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+        "current_Phi": 4954.694898882501,
+        "current_Gram": 0.6374164670510035,
+        "current_geometry_point": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+        "current_violation": 2.04762068147831,
+        "current_geometry_complete": true,
+        "current_state": "accepted restoration checkpoint returned; final report not inferred",
+        "trial_point": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+        "trial_Phi": 4954.694898882501,
+        "trial_Gram": 0.6374164670510035,
+        "trial_geometry_point": "9247328741fa943b6e4dc696b8a8b99317c2da569654f71f411bc011d61a3ba2",
+        "trial_violation": 2.04762068147831,
+        "trial_geometry_complete": true,
+        "trial_accepted": true,
+        "accepted_directions": 1,
+        "complete_report": false,
+        "stop_reason": null,
+        "observer_failures": 0
+      }
+    },
+    "complete_small_progress_file_identities": [
+      {
+        "path": "fixed-fejer-wide-seed-first/actual-normal-evaluation-progress.json",
+        "bytes": 3391,
+        "sha256": "a5f24d775d572d35cc4a641e72a3bf1bb1e9fdcbef672121ca81f082b8e290d0",
+        "two_complete_bounded_reads_agreed": true
+      },
+      {
+        "path": "fixed-fejer-wide-seed-first/actual-mathematical-progress.json",
+        "bytes": 7474,
+        "sha256": "4ad9c13a2ca06e3f4cfcde539ec0c421f0ef6e42647d9dac096d8285df781856",
+        "two_complete_bounded_reads_agreed": true
+      }
+    ],
+    "observation_errors": [],
+    "child_exit_code": null,
+    "child_natural_return_not_observed": true,
+    "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+    "observation_identity_sha256": "fe525bffc11c854b57194a6ebaf3c8261237c4e355261a3394048fb1aa906a62",
+    "observed_utc": "2026-11-27T21:05:58Z"
+  },
+  "returned_stage_inventory": {
+    "complete_part": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46053911348-1-part-001.md",
+      "bytes": 16606,
+      "git_blob_sha": "8935b464de5baf3caf7615d67f60ab5164a934e7",
+      "sha256": null,
+      "whole_sha_not_recomputed_in_this_observation_entry": true
+    },
+    "actually_published_returned_stages": [
+      1,
+      2
+    ],
+    "scientific_stage_natural_return_not_observed": true,
+    "API_status_at_2108_UTC": "in_progress",
+    "API_conclusion_at_2108_UTC": null
+  },
+  "unpaid_and_unknown": {
+    "complete_scientific_report_returned": false,
+    "complete_immutable_required_angle_snapshot_returned": false,
+    "actual_checkpoint_thirteen_members_read": false,
+    "actual_final_bundle_returned": false,
+    "actual_terminal_exit_code": null,
+    "actual_stop_reason": null,
+    "continuous_Gram_reach_grip_or_closed_certificate_proved": false,
+    "finite_positive_violation_is_not_feasible": true,
+    "first_accepted_restoration_is_not_problem_completion": true,
+    "recorded_checkpoint_state_not_substituted_for_actual_checkpoint_bytes": true,
+    "live_point_not_used_as_fee_or_mesh_input": true,
+    "new_F_J_root_or_geometry_calls_by_this_entry": 0,
+    "unknown_typed_history_not_declared_empty": true
+  }
+}
+```

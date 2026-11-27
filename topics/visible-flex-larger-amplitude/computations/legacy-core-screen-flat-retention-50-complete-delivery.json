@@ -1,0 +1,257 @@
+{
+  "schema": "legacy-core-screen-flat-retention-50-complete-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "prepared-complete-preservation-package-no-ref-no-delete-no-science",
+  "new_files": [
+    {
+      "path": "computations/retention50-original/alternative-flat-continuation.py",
+      "bytes": 6025,
+      "sha256": "bc2207eb6ba93b3f0475f72bd6481feb2c08be2451b77b6bd5d54ff92ec98b33",
+      "git_blob_sha": "34df3300cd071a6d9b9b701097a453d96e44eae3"
+    },
+    {
+      "path": "computations/retention50-original/alternative-outward-probe.py",
+      "bytes": 6798,
+      "sha256": "f0c2295f94a8c7f663e25f2f753c25c65109ba950147744b835bd0b1c0f53ec9",
+      "git_blob_sha": "6a5229761c2e30480dd9ea22ee9d8c61bb44b2bf"
+    },
+    {
+      "path": "computations/retention50-fast-original/alternative-flat-continuation.py",
+      "bytes": 6340,
+      "sha256": "f66950b336524e97d91a2cea447d515ddc3f5137dbbfad074effe2f913141131",
+      "git_blob_sha": "2e1049fac5a19cdbb2d22c11caf55a83b0c13171"
+    },
+    {
+      "path": "computations/legacy-derived-json-retention-50-source-and-recovery-registry.json",
+      "bytes": 81677,
+      "sha256": "d73656d96c9890d4a41a7f9746eccd8c95aa5e57f22226e629cccb175c2d91ca",
+      "git_blob_sha": "036ffb9d1c945d585fdb745113ae75d69f34f0cd"
+    },
+    {
+      "path": "computations/legacy-derived-json-retention-50-complete-parameters-and-results.json",
+      "bytes": 70369,
+      "sha256": "e0ffdf5f044e718ef7db82b1db677389519ace2bcd7a4a860aa0bba6078a1430",
+      "git_blob_sha": "a70a1c31ae6ca878636a182eb8b2abf5a0ee9983"
+    },
+    {
+      "path": "notes/2026-11-27-legacy-core-screen-flat-retention-50.md",
+      "bytes": 10781,
+      "sha256": "f614e0ed1b00bf5d15a3af0572ff01cc11b8d46b59ee72aff54fcf479cb8b878",
+      "git_blob_sha": "76f088b3aad09dcb100ad5b26a8064ea929c9a48"
+    }
+  ],
+  "manifest_path": "computations/legacy-core-screen-flat-retention-50-complete-delivery.json",
+  "exact_delete_entries": [
+    {
+      "path": "notes/geometric-core-screen-fast035-A041-m128.json",
+      "bytes": 95197,
+      "sha256": "c179c2696663dd18d36c714551c70c87f7e796bab25932afe7046a975571d37d",
+      "git_blob_sha": "b611dcaf18592c6227369b3a972e4a87551b3061",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/geometric-core-screen-fast035-m96.json",
+      "bytes": 95245,
+      "sha256": "521fb65cf4cbdc5068c5e1a0b6be697e1adee25139b4c43872980cd8563ba567",
+      "git_blob_sha": "1d1da8aacc2bdbdfdeb0e77926146cd81cf4ad8c",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/geometric-core-screen-hermite045-v025-s065-m64.json",
+      "bytes": 123985,
+      "sha256": null,
+      "git_blob_sha": "1c0add725c4abeb1d658d8f573342b5e421f1c9d",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/geometric-core-screen-hermite045-v03-s065-m64.json",
+      "bytes": 95010,
+      "sha256": "baf0a479d33be21b583f0c6b88c9af7bd3cb7003a9e6614a1a8e40f47bbb19e2",
+      "git_blob_sha": "6db5da094cca3dc6df2899af222d5e2cefe07b2e",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/geometric-core-screen-hermite045-v035-s065-m64.json",
+      "bytes": 95613,
+      "sha256": "fcf3a2b071c19ab01423a045cdbb621f6407d36d85a4a55ac2b669377bf3f2b3",
+      "git_blob_sha": "7a0a792522f0eb104d208e7a2dfe5f4625a5cb29",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/geometric-core-screen-hermite045-v04-s065-m128.json",
+      "bytes": 95376,
+      "sha256": "78a8d61893f9fd6f276ddf148a27db32152d34101152c8caf7bdfd9633b4742d",
+      "git_blob_sha": "38dc5ff72f01e374b08160e701d04658c14af0e0",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/geometric-core-screen-slow-m128.json",
+      "bytes": 123643,
+      "sha256": null,
+      "git_blob_sha": "291973abd7f2b1902cbf04e960f89e355ea52d2c",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/geometric-three-harmonic-core.json",
+      "bytes": 172553,
+      "sha256": null,
+      "git_blob_sha": "28f54c90870b6a0361103d79d5f93576f622f7ef",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-m128-width015.json",
+      "bytes": 38452,
+      "sha256": "d611d0a1f0e9d9149d066ebfa19d60dd20b8e28f69c4fa984db86fafd7255e6b",
+      "git_blob_sha": "96fb35ec8f00c8ce9c44881de96fed73de7ed5bc",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-m48-width015.json",
+      "bytes": 38510,
+      "sha256": "36e90021b6e08a6d5609b4645d533b7a2b37f1bc8428a320d45a6c4b1b9a5c3e",
+      "git_blob_sha": "becebcdb7894b7e97d9e71c3db05820cc369ba26",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-m72-width015.json",
+      "bytes": 38501,
+      "sha256": "4f10326bca26280148885f776d2b45c7f5b47ae122b0fa44eceb0b89ad8410ee",
+      "git_blob_sha": "873f9e2f3f7123a3fb36889b4c8fc655e1f38a68",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-m96-width008.json",
+      "bytes": 20279,
+      "sha256": "6abefa5cd74cfc2fdcbca0af10023cf31e1d3a61b91d442aabf278310f8634c8",
+      "git_blob_sha": "573f1177381e6f72fea0863fc4a9b9d23d019fe4",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-m96-width01.json",
+      "bytes": 20201,
+      "sha256": "c705f57a9fa800ff343c7e660a64e9cc78ec20de7c4cf141c89bf2d6d579aea2",
+      "git_blob_sha": "698b4d064fce90aea1dcc02bea51b7c60a948c4e",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-m96-width015.json",
+      "bytes": 20310,
+      "sha256": "66d5b74439ca2059137179ced068b8ce988346a51fadd71458fbf6742cd78782",
+      "git_blob_sha": "e7263c1dcae58d410854829bfb33e53f28f23d1f",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-m96-width02.json",
+      "bytes": 20182,
+      "sha256": "3c7b5547a2b5c22928ebc4566482d8f630127f910fec94be32a0933ecf83890e",
+      "git_blob_sha": "8870d99f10f6f65aea709b3641988e4727036489",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-m96-width03.json",
+      "bytes": 38628,
+      "sha256": "7d706c7acf783cb9c42cb0bce90f52d0affa4a22e5e1b7d87fbbb80d9ea2e34a",
+      "git_blob_sha": "1b5aa614dc5e207c44703391fbba821c9b478ec5",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-fast035-m96-width01.json",
+      "bytes": 38392,
+      "sha256": "d453995516a2a4b1a87cb4180cd267d634cb94cdea6122d6cc10d37494b80962",
+      "git_blob_sha": "6f96111f3e725f8bfb410103f0bc1b6cc5d3a8c6",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-fast035-m96-width015.json",
+      "bytes": 38657,
+      "sha256": "1b5f10238edbd6e8017dc36ba0cf2368342041419944173a233fa60f67fb1d09",
+      "git_blob_sha": "3551dd9d957b51555a4cd423d41e7dabb4f53bc5",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    },
+    {
+      "path": "notes/alternative-flat-fast035-m96-width02.json",
+      "bytes": 38255,
+      "sha256": "525ae751ea41063bd61e6cb346604ce985ddb753037e21b6f24a3cf3b8603551",
+      "git_blob_sha": "98254be967c05f12cc07eef925b0081198670e13",
+      "restore_commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74"
+    }
+  ],
+  "capacity": {
+    "candidate_count": 19,
+    "raw_bytes": 1246989,
+    "new_non_manifest_bytes": 181990,
+    "manifest_bytes": 11212,
+    "total_new_bytes": 193202,
+    "net_bytes_reclaimed_if_root_applies_exactly": 1053787,
+    "net_minimum_required": 1000000
+  },
+  "original_restore": {
+    "commit": "60321451c058c6a51da58c37ae5ec6f2d1145f74",
+    "all_candidate_objects_present_with_same_blob_and_bytes": true,
+    "current_metadata_equality": {
+      "commit": "fe1f880802853a8c649330658865693577d164eb",
+      "route": [
+        {
+          "name": "topics",
+          "sha": "dd843b79f6ad038d80477e2d4c12dd850e14db25"
+        },
+        {
+          "name": "visible-flex-larger-amplitude",
+          "sha": "8d05627b5cf5285a8109c7604892b8a858b55b3f"
+        },
+        {
+          "name": "notes",
+          "sha": "5db745d250ba03175e75896f32a8b27027323853"
+        }
+      ],
+      "notes_tree": "5db745d250ba03175e75896f32a8b27027323853",
+      "candidate_count": 19,
+      "all_same": true,
+      "metadata_only": true
+    },
+    "already_retired_inputs_restored_at_their_distinct_exact_prior_commits": true,
+    "original_bytes_not_replaced_by_future_recomputed_bytes": true
+  },
+  "completeness": {
+    "all_19_recomputation_argv_complete": true,
+    "all_source_and_required_helper_bodies_retained": true,
+    "three_original_source_bodies_recovered_to_actual_complete_SHA256": true,
+    "all_12_direct_or_inherited_inputs_preserved_by_complete_objects": true,
+    "actual_unknown_source_run_exit_or_versions_remain_unknown": true,
+    "actual_failed_width03_and_prior_M160_result_not_removed_from_record": true,
+    "no_arrays_hidden_as_new_parameters": true,
+    "no_large_or_binary_raw_body_read": true,
+    "selected_small_JSON_complete_reads": 16,
+    "selected_large_JSON_bodies_unread": 3,
+    "no_current_solver_inputs_pending_history_ports_or_Nelder_selected": true,
+    "formal_R12_and_all_proof_notes_retained": true,
+    "legacy_summary_glob_requires_complete_original_inputs_before_reuse": true
+  },
+  "reading_order": [
+    "notes/2026-11-27-legacy-core-screen-flat-retention-50.md",
+    "computations/legacy-derived-json-retention-50-source-and-recovery-registry.json",
+    "computations/legacy-derived-json-retention-50-complete-parameters-and-results.json",
+    "computations/retention50-original/alternative-flat-continuation.py",
+    "computations/retention50-original/alternative-outward-probe.py",
+    "computations/retention50-fast-original/alternative-flat-continuation.py"
+  ],
+  "inherited_retention49": {
+    "complete_delivery_path": "computations/legacy-derived-json-retention-49-complete-delivery.json",
+    "bytes": 4731,
+    "sha256": "983bd3d876cfb3a22325e9d062c0a53829912eb52cd9ca73518877d728c9ca30",
+    "git_blob_sha": "7d280f8812721e8badca8baebb247114d4a6e6cd",
+    "implementation_commit": "040be44782defc193edbbd5623fcda142f678feb",
+    "none_of_its_fourteen_retired_objects_counted_here": true
+  },
+  "publication_boundary": {
+    "only_root_may_publish_or_delete": true,
+    "all_new_objects_uploaded_unreferenced_only": true,
+    "refs_modified_by_solver": false,
+    "files_removed_by_solver": false,
+    "scientific_or_AST_execution": false,
+    "original_raw_uploaded_to_new_git_release_artifact": false,
+    "future_raw_recovery_and_recomputation_runner_only": true,
+    "no_extra_scientific_gate": true
+  }
+}
