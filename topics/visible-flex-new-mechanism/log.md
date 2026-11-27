@@ -143,3 +143,8 @@
 ## 2026-11-27｜当前同E响应空间到已证R579宏观核心的准确接口
 
 根全文审原7070B接口及补充到8163B的方向证明，独读实际core构造/线性方向/P1公式/position_state和原primitive、R579既有完整条件。τ只消核心缺口，当前首j2无自由列；真实弧长角下uΓ=ρ/R给同核心根，双反射保证原零均值primitive恰有ψ=φ+π/2、Y=Γ，支持点与strip方向相同。新增c2或硬总trace必须完整消元旧核心响应、保同E及2J/隐式链；大目标需随根中心同支盒继续。只给必要后继纸接口，未改正跑源、未计算新谱/根或借核心reach授全连接。
+
+
+## 2026-11-27｜B030从准确cc117/geometry当前库正常继续
+
+根全文审新59233B源对已跑56594的完整diff、10255B说明及workflow，独核50绑定/53sparse、20common逐项不变、原392448B FINAL逐字stdin及physical/geometry定义逐项等原stdout。正常for-outer至hard.EndSegment前含清理30035B与来源逐字同一，CURVATURE_MODEL_IDENTITY AST相同。只新入口准确q/g/e/817与fine1636及已合格1630/原H语义，移除已闭2561而不重源trial；原helper执行phase reset，未存J必要重建全费。gzip只更新真实已读规则metadata、stdin不变；原原子时钟与所有非线性门保持。无本地科学。

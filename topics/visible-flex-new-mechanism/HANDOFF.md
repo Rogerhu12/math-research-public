@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **18281c4037f06ea0b464a2d212ab5a39ae685908**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **952c45388a6fea44de3e9b78a0ce3c6134566b08**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git/四索引，每结论即推；科学仅公开Actions，本地仅纸证/源码/原日志解析。根12不重旧门；根15不存raw/可重算表，必要再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -27,7 +27,7 @@
 
 末geometry_restoration，准确g=.00011692915997574185、e=.010116929159975741；当前全库values已知，不重同q coarse确认。trust .45050811767578125/原后决策未做，pending两类0/无未闭局部峰。末raw5fc6与已拒trial5e199不替cc117；后者虽η低却原曲率余量违约。
 
-25完整J/1701块含outer20的21未闭块；新70coarse/22fine/23localize、native11更新/1语义reset全保，已知科学下界21840.621857510秒及早期未知账不删。83951B H/pending仍metric签名505f…，后继原helper见geometry语义须reset，不能跨目标用secant或冒完整workspace已存。root已独核原29097972B log/392448B FINAL/507607B末接受checkpoint、q/四库/准确g/H/账；正常cc117后继待全文审，true独占终态。
+25完整J/1701块含outer20的21未闭块；新70coarse/22fine/23localize、native11更新/1语义reset全保，已知科学下界21840.621857510秒及早期未知账不删。83951B H/pending仍metric签名505f…，后继原helper见geometry语义须reset，不能跨目标用secant或冒完整workspace已存。root已独核原29097972B log/392448B FINAL/507607B末接受checkpoint、q/四库/准确g/H/账；[正常cc117范围](notes/2026-11-27-r566-native-cc117-normal-scope-agent.md)已根审全文diff/50绑定/53sparse/20common及正常块字节相同；仅换真实入口，原门不变。本次push单触发，true独占终态。
 
 ## 5. 正常517近有限像余量，固定E持续高精度分拆
 
@@ -47,7 +47,7 @@
 
 [已审h活动行范围](notes/2026-11-27-r625-actual-interior-height-active-scope.md)保全L三次链，固定L才加实际阻挡点；正交N保全行/原惩罚与已知末增量。71绑定/12账、旧solve直接消费，trust明确.25重启；新accept令fine pending。[唯一原终态](notes/2026-11-27-r625-actual-interior-height-original-terminal.md)run45925875384/job140266919674/sourcead3953a3已02:02:37 UTC自然结束，根独核原stdout/FINAL/state；新37.991045793999994秒/2接受/13无方向。state750b3118…，3J/6全谱factor/44λ解；fine1153 ruling3.5799243916e13/真末.3097307126，未根。
 
-[已审原射线范围](notes/2026-11-27-r625-original-quadratic-ray-continuation-scope.md)先用完整Jd的t*=−r·Jd/||Jd||²，再直接min原trust/L/h上限；继承原活动集及dense.solve，不改W/惩罚/全部非线性门。76绑定/79sparse/18CLI/13账根核；新trust .09375/λ .07402737明确策略重启，原末1e12/5.5879e−9和13失败全留。1153已付fine同曲线复用、新接受重置；原Armijo不由负内积自动保证。此次push一次触发，full独占自然终态。
+[已审原射线范围](notes/2026-11-27-r625-original-quadratic-ray-continuation-scope.md)先用完整Jd的t*=−r·Jd/||Jd||²，再直接min原trust/L/h上限；继承原活动集及dense.solve，不改W/惩罚/全部非线性门。76绑定/79sparse/18CLI/13账根核；新trust .09375/λ .07402737明确策略重启，原末1e12/5.5879e−9和13失败全留。1153已付fine同曲线复用、新接受重置；原Armijo不由负内积自动保证。ray原run45929264941/job140277823907已02:37:11 UTC自然结束；2新接受后仍stall，原收据待根核，full唯一接收。
 
 此前原费用/失败链保收据；R619/620/624/625/626/[R627](results/R627-joint-terminal-threshold-on-the-true-tail-box.md)按原前提用。原19态/10参数、18块576微包、ε1/12000、全正势/两ruling/物理盒不变；129网须原配点门，pose/闭材料未付。
 

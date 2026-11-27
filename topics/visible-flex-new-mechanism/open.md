@@ -72,7 +72,7 @@ p阶段约2.5e−7未过不升级；目标p=.8/末η≤1e−7。同空间真停�
 
 末native checkpoint83951B SHA5194fe70…含3403packed LDL、82锚/梯度、23非零固定乘子；行函数签名505f8cbc仍metric语义。原helper到新geometry模型必须自动reset；完整原H/pending保留但不可跨目标消费，未存J/workspace必要重建全计费。25完整J/1701块含outer20的21未完块，不能授完整第26J。新native11固定乘子更新/9damped/5pending消费/8skip/1语义reset；0额外model value/J。
 
-新70coarse/22fine/23localize、29818新候选全闭/212450点目标/25callback/59缩步、全部oracle/compile/失败费用齐。已知科学下界21840.621857510秒，较早未知仍未知；不加总重叠分类时间。下一按真实cc117和准确恢复状态正常续算，原全部margin、物理、fine、nested与η目标保持；静态设计g仍变化，未授连续全时宏观族。
+新70coarse/22fine/23localize、29818新候选全闭/212450点目标/25callback/59缩步、全部oracle/compile/失败费用齐。已知科学下界21840.621857510秒，较早未知仍未知；不加总重叠分类时间。[已审cc117正常范围](notes/2026-11-27-r566-native-cc117-normal-scope-agent.md)只接真实入口，原正常loop/模型AST不变；50来源/53sparse/20common与唯一FINAL已根核。原全部margin、物理、fine、nested与η目标保持，本次push触发；静态设计g仍变化，未授连续全时宏观族。
 
 [固定圆参考与固定g接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)可锁59a4圆G*，但新δ/α/K不移旧值；锁全source/L/C/RC/.38/H/mean/轴与primitive，不能只给reference_q。p=.8时δ≥.62不能靠旧圆ρ=.06072；同g完整E*/a*与相位全t几何未付。R618的397 E*属不同目标，core a′=0排全域r=a偷换，旧59a4相位δhold/D<.006不授宏观。
 

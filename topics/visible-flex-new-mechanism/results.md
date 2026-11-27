@@ -459,3 +459,8 @@
 ### R618→R579：同固定E下真正宏观核心的总trace接口
 
 [准确接口](notes/2026-11-27-r618-current-fixed-E-to-r579-macro-core.md)辨明硬τ1并非幅度增长，当前P0,j2固定；R579周长2π(.85)与canonical相位/中心可直接匹配。完整uΓ/PΓ定义给真实目标，不冒有限谱已付。后继新增c2或硬总P0并保同E、全隐式/2J链及移动同支盒；连接/全域支持/跨片reach和同g精化仍未付。无新科学或完成声明。
+
+
+### B030：准确cc117正常恢复续接，不回放已闭局部峰
+
+[已审范围](notes/2026-11-27-r566-native-cc117-normal-scope-agent.md)绑定唯一原FINAL与准确当前g/e/q/817-1636库，保源1630资格及原已拒轨；全正常算法/common/模型身份不变。真实metric H/pending由原helper按新geometry语义重置，原25J/21partial及所有历史费用保留。新资格仅由真正新trial支付，未授固定g或连续族。
