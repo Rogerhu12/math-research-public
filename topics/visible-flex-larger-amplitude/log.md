@@ -502,3 +502,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 06:10 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [09完整实际输入解析场入口](notes/2026-11-27-run09-actual-public-reference-analytic-frame-complete-entry.md)：e3cb/84d4/4740七全源408293B，root真再生exit0/58源全核；145/7词仅四路径改、原281/265selector全保，原真返2/3对象全保后附完整science/pure。新目标2f8/7c766先核，原全部方程/m32/变量/typed保；已排无预填首场，继续真实求解。
+
+## 2026-11-27 06:31 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [09实际4/5与原日志诊断](notes/2026-11-27-run09-actual4-5-before-first-field-report.md)：science/pure真实exit1，仅command26382B、无首场report，未猜F/root/数值原因；原2–5完整对象及实际记录分三卷全保。5d25完整双trace读取器及两全参数步骤已排，root逐对象/AST核，先取真正inner后立即修完整入口继续。
