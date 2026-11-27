@@ -58,3 +58,6 @@
 
 
 2026-11-27 03:19:51 UTC / visible-exact-astra-fb31ed6-20261127：DWT同一target w直接输入发布：w_n=−(vi_n+t_n conjugate(vi_n))/(q_n−1)，真q/t/物理4/反射和raw192常数全保。其whole尾与alpha共有136|n||vi_n|上界，故完整ASR∞/L2 tail原球直接合法复用，不重tail/旧alpha reducer；新2048 w精确trial/两whole误差是首目标，BR必须新准入DWT不冒未执行BW。proof8859B/8ebeef3a…和pure4123B/c13018ef…已齐。UDRC21实际唯一45933303391/1、6ecc/03:17:28运行；TC1040/7724。open第8节与旧log按大小约束保6ecc immutable原件，义务不撤；继续完整差商、RHI及首BR入口。
+
+
+2026-11-27 03:24:23 UTC / visible-exact-astra-fb31ed6-20261127：RHI首次完整relative载体入口发布：7件proof/math/owner/worker/generator/manifest及.github/workflows/visible-exact-relative-nu-carriers.yml，为本题4新whole目标启动唯一push Actions。83current/51whole原NP输入、N2048全18分量/原2472cell；真phase/μ/ν²/moving mean与正交Duhamel全误差保，6signed/4joint/6true signed/2true profiles逐whole输出，反射仅证明相应均值零而不删18曲线。实际Q_b/F_b/Cθ仍独立，world height未冒已算。manifest49906B/66d1370dac299ea265959ca0531b0af41368ea3276e9faf51d8280a9e2d5461b，AST由真实CI在science前执行，不声称失联本地Python已跑。旧目标0重算，实际run号后读；容量纯metadata压缩入口同步准备。

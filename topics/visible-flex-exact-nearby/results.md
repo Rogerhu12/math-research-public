@@ -459,3 +459,6 @@
 
 
 - [DWT：同一target w的直接单位圆输入](results/R149-supplement-direct-target-w-from-complete-unit-disk-input.md)：原w=vi−alpha准确化为−(vi+t conjugate(vi))/(q−1)，真小除数/物理4/反射/零mean全保；2048新disk→exact trial/完整误差，原ASR全tail因共同136|n||vi_n|majorant合法复用，不执行旧tail或旧coho目标。首w两个whole误差和BR实际准入仍须执行，不冒未运行BW或fullphysical逆。
+
+
+- [RHI：完整relative参数frame/position载体](results/R147-supplement-certified-relative-parameter-frame-and-position-carriers.md)：首7件入口已齐，原NP整输入与83current/51whole，N2048全18component，原2472cell上的正交Duhamel/step残差/rounding/strip尾和RH真PDE误差全保；4新whole targets保6signed均值及全向量曲线/误差。真实Q_b/F_b/Cθ独立，反射三零均值不授绝对world行；唯一push首次科学，结果另记。
