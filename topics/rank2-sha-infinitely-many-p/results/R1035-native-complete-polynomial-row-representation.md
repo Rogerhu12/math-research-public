@@ -1,6 +1,6 @@
 # R1035 — 原完整多项式行的原生表示及全 R975 返回
 
-状态：表示与原算法的等价性手证完成；新增源码尚待公开编译验收，原几何对象的实际运行另行验收。没有新增几何 PASS。
+状态：表示与原算法的等价性手证完成，基础原生后端已通过真实公开编译验收。完整生产接线继续公开准备检查，原几何对象的实际运行另行验收。没有新增几何 PASS。
 
 ## 1. 处理的是已发生的整个分母像运算
 
@@ -187,7 +187,7 @@ preflight=false、禁网数学容器、只读源码和21000秒时间帽全部保
 |---|---:|---|
 | produce-original-native-row-artinian-shadow.py | 9280 | 4568461d1d77e5f72aeb26528193a48f4442aa575cb52086c21313c69ae8ba10 |
 | launch-original-native-row-artinian-shadow.py | 11214 | 740169518ace27fa8b567752584930752521f2780ed78a7471951d89338913c2 |
-| check-original-native-production-preparation.py | 7145 | ad6065121c7e13cae67d9dd38003e8a2460c89e546b2b77d91f8748044582374 |
+| check-original-native-production-preparation.py | 7206 | 8595fec07f44dda656edb40db41809999ccc85d61b32a4990eff43f74459be7b |
 | ci/original-native-row-artinian-shadow-request.json | 864 | 25c209ac9daf5a11f1b1cec7b87b86f9d1116d3a0923bebf174f14905471e140 |
 
 准备检查还固定当前未修改的工作流 SHA256
@@ -198,3 +198,9 @@ preflight=false、禁网数学容器、只读源码和21000秒时间帽全部保
 v9 ENTRY 仍为 None、完整矩阵调用记录为空、原 primary 构造器未改变。
 这些条件区分代码准备与实际数学验收；没有据此宣称
 四交、全厚 Norm、shadow 或无穷 p 已完成。
+
+### 7.1 小型检查的稀疏工作树读取修正
+
+首准备run45963764579/job140387453584/source d990f197a7d196e1400d7cbf997a4cf2c36b7ee8在08:11:35 UTC停止于工作流文件的FileNotFoundError。小型检查只检出本topic，工作流不在工作树；失败发生在Docker/Sage启动前，没有运行数学矩阵。完整日志9156字节，SHA256为9cf5f6269e0132481605fbbb0a03da0f499b2dff403a3f09f308fb5834481781。
+
+修正为对同一个checkout执行git show HEAD:.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml，直接读取该提交中的原文件，随后仍核完全相同的工作流SHA256。没有扩大稀疏检出、改动原workflow、放松pin或删除未激活检查。其余源码、两个原请求及数学代码不改；本节表格给修正后检查器身份。独立小型请求2026-11-27-0813-native-production-preparation-sparse继续公开验收。

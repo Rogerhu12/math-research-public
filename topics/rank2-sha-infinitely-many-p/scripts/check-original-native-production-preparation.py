@@ -54,7 +54,9 @@ def main():
                     schema="rank2-original-triangular-artinian-request/v11",
                     linear_algebra="r1035-complete-native-rows-projector-original-linear-fibers")
     assert request == expected
-    workflow = (ROOT/".github/workflows/rank2-sha-original-triangular-artinian-shadow.yml").read_bytes()
+    workflow = subprocess.check_output([
+        "git", "-C", str(ROOT), "show",
+        "HEAD:.github/workflows/rank2-sha-original-triangular-artinian-shadow.yml"])
     assert hashlib.sha256(workflow).hexdigest() == HEAVY_WORKFLOW_SHA256
     for name in ("original-native-row-artinian-shadow-request.json",
                  "launch-original-native-row-artinian-shadow.py",
