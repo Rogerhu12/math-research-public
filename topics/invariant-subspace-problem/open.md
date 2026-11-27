@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-general-JQ-two-charts-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-y-one-quartic-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -178,7 +178,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W整C9/u半及全图六生成已付，原有限纤维仍开。** 四S-free三次理想/通用头见[原结果](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-four-S-free-cubics-and-binary-head-resultant.md)，[实例实际头](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-actual-four-cubic-head-two-zero-loci.md)恰−2^21ΠD27²B239，B239双度15/22共239项（7.549秒/exit0）；两零面/NSPS保留。[整y1同点原恢复](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-original-same-point-parameter-return.md)已用mean/E1唯一给x=1+u−u/ell和t，并完整返回四参数式/物理D（6d871e02，0.786秒/exit0）；不付y−1。新d15791固定26/33 QQ投影将保首项零纤维，不重复旧错误/大门。
+**W全图六生成已付，D27/B239头零面及原NSPS仍开。** [整y1完整QQ四次覆盖](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-complete-QQ-quartic-cover.md)用固定26/33原结式得378/547次，只剥原已付k因子，67/134次余式真QQ Bézout后平方自由只余F4=k⁴+12k³+48k²+64k+32（d15791，3.846秒/exit0）。所有e首项零纤维保留；新34d05992在整个QQ[k]/F4返回同一e的原五行及物理D，不重跑两大结式；尚不付y−1。
 
 **[整个一般ell=0原支已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，一般余图可付ell。** 全三头曲线、1146次QQ覆盖全部未付因子及u2/u半整线已原返回；来源/失败身份保正文/快照，不重跑。继续一般T0=0与其它未付面。
 

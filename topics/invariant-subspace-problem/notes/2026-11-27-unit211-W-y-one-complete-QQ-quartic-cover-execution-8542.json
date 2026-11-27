@@ -1,0 +1,223 @@
+{
+  "schema": "isp-W-y-one-complete-QQ-F4-cover-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "proof": {
+    "blob": "00c8acef4d6b3b61a0736c7830d1f4d3ece3da66",
+    "bytes": 3999,
+    "sha256": "24b93512480f2c5d944c52f5dab6d959dfe1ad024fba292237783d5e7c8ce9bf"
+  },
+  "actual": {
+    "run": 45973280857,
+    "job": 140418698302,
+    "driver": {
+      "elapsed_seconds": 3.845929045999995,
+      "max_child_rss_kib": 52820,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "bff0683beaf873f0c810a89828d74ae48688b306",
+          "before": "bff0683beaf873f0c810a89828d74ae48688b306",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T09:23:31.654607+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45973280857",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "bff0683beaf873f0c810a89828d74ae48688b306",
+      "source_exit_code": 0,
+      "source_git_blob": "a1ab4def6fa0906d26f492bb3dc94313ec312229",
+      "source_sha256": "d15791c981788f6ef2aa1ebc9d9a770f2b4c97b6b1beb4fbe35883478a3e0e48",
+      "stdout_bytes": 24386,
+      "stdout_sha256": "7e3b3494067c0c841252efa85198bd4ff9d5eddf87dbf60717d64fad6c8ae8c6",
+      "stop_reason": null
+    },
+    "mathRecords": [
+      {
+        "stage": "new_W_y_one_complete_original_QQ_projection",
+        "secondOriginalRow": "N1",
+        "matrixOrder": 26,
+        "exactGenericEDegrees": [
+          12,
+          14
+        ],
+        "fixedSylvesterInputBytes": 4208,
+        "fixedSylvesterInputSHA256": "ee0d7bce73f45d76854a1c123a02b2e3f83a029457dfb0dd360f24ff11757bc6",
+        "rawProjectionDegree": 378,
+        "rawProjectionBytes": 37849,
+        "rawProjectionSHA256": "ef8b6b7721f16e60741a9715729f98e4d7402f154c17a04de5755b4ff2e4b448",
+        "paidKFactors": [
+          [
+            "k",
+            127
+          ],
+          [
+            "k_plus_two",
+            92
+          ],
+          [
+            "k_plus_four",
+            92
+          ]
+        ],
+        "remainingProjectionDegree": 67,
+        "remainingProjectionSHA256": "aa46b380f72a5e0d8a56f8a3e3748fab630910faa2e5de0d39c1cad140f8d9a3",
+        "remainingProjectionBytes": 2446,
+        "rawLeadingAt1009Unit": true,
+        "remainingLeadingAt1009Unit": true,
+        "exactRawCoefficientsOmitted": true,
+        "exactRemainingCoefficientsOmitted": false,
+        "allLeadingEZeroFibersCoveredByFixedMatrix": true,
+        "allExactDivisionProductsMultipliedBack": true,
+        "metrics": {
+          "exactDivisionCount": 5525,
+          "rowSwaps": 6,
+          "symbolicZeroColumn": null
+        },
+        "projectionSeconds": 0.7177400850000026,
+        "claimExcluded": false,
+        "seconds": 1.4110058889999948
+      },
+      {
+        "stage": "new_W_y_one_complete_original_QQ_projection",
+        "secondOriginalRow": "NS",
+        "matrixOrder": 33,
+        "exactGenericEDegrees": [
+          12,
+          21
+        ],
+        "fixedSylvesterInputBytes": 8008,
+        "fixedSylvesterInputSHA256": "45e3cc2795f0b42e330747bb1d782af9b4b6f54de622559b4f5cfd938d10f71d",
+        "rawProjectionDegree": 547,
+        "rawProjectionBytes": 86384,
+        "rawProjectionSHA256": "4c08fe316a567b4305a1e9e98ad1d4e0f993b7bf6b0ae8e6858fa9e894cbdb08",
+        "paidKFactors": [
+          [
+            "k",
+            166
+          ],
+          [
+            "k_plus_two",
+            125
+          ],
+          [
+            "k_plus_four",
+            122
+          ]
+        ],
+        "remainingProjectionDegree": 134,
+        "remainingProjectionSHA256": "c5f0be0f35d596d94200adf5110c67b5e0e10be1ce1512b3fed5adee54977f37",
+        "remainingProjectionBytes": 9655,
+        "rawLeadingAt1009Unit": true,
+        "remainingLeadingAt1009Unit": true,
+        "exactRawCoefficientsOmitted": true,
+        "exactRemainingCoefficientsOmitted": true,
+        "allLeadingEZeroFibersCoveredByFixedMatrix": true,
+        "allExactDivisionProductsMultipliedBack": true,
+        "metrics": {
+          "exactDivisionCount": 11440,
+          "rowSwaps": 6,
+          "symbolicZeroColumn": null
+        },
+        "projectionSeconds": 2.3111952379999963,
+        "claimExcluded": false,
+        "seconds": 3.7231348699999955
+      },
+      {
+        "stage": "new_W_y_one_complete_QQ_projection_Bezout",
+        "gcdDegree": 32,
+        "bothOriginalProjectionCombinationProductsVerified": true,
+        "certificateBytes": 468303,
+        "certificateSHA256": "80d3d1b42ec2cf9164c8c6b21c314914b159277084bf49b80b7d784ef86e72af",
+        "claimExcluded": false,
+        "seconds": 3.7621084689999975
+      },
+      {
+        "stage": "new_W_y_one_complete_original_remaining_k_cover",
+        "squareFreeDegree": 4,
+        "coefficientsBytes": 25,
+        "coefficientsSHA256": "5606e02dcfcb3ae15ed477f4888bdc81d001a0608fde797310fb0d87d5734574",
+        "reduction1009": [
+          32,
+          64,
+          48,
+          12,
+          1
+        ],
+        "leadingAt1009Unit": true,
+        "exactCoefficientsOmitted": false,
+        "factors": [
+          {
+            "index": 0,
+            "degree": 4,
+            "multiplicity": 1,
+            "coefficientsBytes": 25,
+            "sha256": "5606e02dcfcb3ae15ed477f4888bdc81d001a0608fde797310fb0d87d5734574",
+            "leadingAt1009Unit": true,
+            "reduction1009": [
+              32,
+              64,
+              48,
+              12,
+              1
+            ],
+            "exactCoefficientsOmitted": false,
+            "coefficients": [
+              "32",
+              "64",
+              "48",
+              "12",
+              "1"
+            ]
+          }
+        ],
+        "wholeQQFactorProductVerified": true,
+        "allFiniteAndLeadingEBranchesRetained": true,
+        "remainingOriginalSameKAndSameENPPAndPhysicalDStillRequired": true,
+        "coefficients": [
+          "32",
+          "64",
+          "48",
+          "12",
+          "1"
+        ],
+        "claimExcluded": false,
+        "seconds": 3.7625171219999913
+      },
+      {
+        "stage": "new_W_y_one_two_fixed_QQ_projection_gate_complete",
+        "sourceSHA256": "d15791c981788f6ef2aa1ebc9d9a770f2b4c97b6b1beb4fbe35883478a3e0e48",
+        "allOriginalMeanAndSamePointRecoveryVerified": true,
+        "rawFixedSylvesterMatrixOrders": [
+          26,
+          33
+        ],
+        "allLeadingEZeroFibersRetained": true,
+        "QQBezoutProductsActual": true,
+        "onlyPaidKFactorsRemoved": true,
+        "fullStratumExclusionClaim": false,
+        "claimExcluded": false,
+        "peakRssKiB": 52820,
+        "seconds": 3.7627412189999916
+      }
+    ]
+  },
+  "newFiniteReturnSource": {
+    "blob": "af8b28e110ada92ce9f05e6904c9025653de25d9",
+    "sha256": "34d0599256230a8cfb2b1a93d39c41878e86b6f6f9f55724afb808b136e429bd",
+    "bytes": 19925,
+    "executed": false,
+    "limits": {
+      "seconds": 180,
+      "addressSpaceGiB": 4
+    }
+  },
+  "allLeadingEFibersCovered": true,
+  "whole_y_oneExcluded": false,
+  "ordinaryISPComplete": false
+}
