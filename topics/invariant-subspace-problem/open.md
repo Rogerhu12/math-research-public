@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-c-half-and-new-inputs-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-directional-intertwiners-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -188,4 +188,4 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 **[Phi0/h1六QQ因子与首一1105原覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-six-QQ-factors-and-1105-original-cover.md)已付。** 11fc真9.181秒/63340KiB/exit0，六原phi精确QQ重数111/117/110/24/145/44、总840；原矩units/S非0及已闭c1/2支付六零纤维。余覆1105首一且1009保度，同原核重数付≤1105基点/2210含ell三元组。ca7同rho组合、415b真1105余式完整模Bezout已首次送出；模phi分裂时不能把旧gcd908直接除840冒称68。k1交换及剩余全部原候选继续。
 
-**[同一实际右逆的全部指数尺度](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)与[新平滑修正/实际核截断通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)已付。** 同Gλ:Xκ+λ→Xκ、Gⁿ费exp(Cn³)；G=R−C且C:H→所有Xκ、CPq高斯，C*有e^(28N²)矩。双侧孔壳给R*有限孔、R/G可闭、闭G值域闭。对f_n∈E∞→f∈M，RTf_n有界子列即f∈N；非零w∈W的原cut修复范数全序列→∞，固定有限孔测试趋0而同w配对→||w||²。同规范h=r−C*w，Sh∈H恰Sr∈H。原通量上界、Gamma、G保N及N=M均未付。
+**[同一全尺度右逆](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)、[平滑修正/实际cut通量](results/R271-appendix-same-right-inverse-smoothing-correction-and-actual-kernel-cut-flux.md)及[实际方向性交织/迹类Rosenblum解](results/R271-appendix-actual-directional-intertwiner-exclusion-and-trace-class-rosenblum-solutions.md)已付。** 同G迭代exp(Cn³)、G=R−C全H平滑、有限孔R*及G可闭/闭值域保留；原RTcut有界子列⇒N，非零W迫范数全序列∞而配对→||w||²。同G真空规范合原||Bⁿ||≤exp(−95n⁴/32)，付XT=BX⇒X0；实际K/L级数给TK−KB=f⊗y、TL_y=L_yB及L_y*e0=y。真实w∈W有L_w|M=e0⊗w、K_f,w|M=Gf⊗w；未给G保N、Gamma/Sr域费或W0。继续原有锚来源、通量上界与两范围核心。
