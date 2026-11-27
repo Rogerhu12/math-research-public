@@ -1,0 +1,426 @@
+{
+  "schema": "isp-Phi-four-original-quadratic-heads-complete-ten-weight-locus-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "records": [
+    {
+      "after": "78c4f3e168b06225abebfb0be29464db50413a69",
+      "before": "78c4f3e168b06225abebfb0be29464db50413a69",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T16:07:10.435362+00:00"
+    },
+    {
+      "sourceJSON": "2026-11-27-unit211-Phi-zero-monic-twelve-original-four-rows-and-heads-exact-input-8542.json",
+      "sourceJSONSha256": "e1263fa8c00162a0e9144163c7417d7f603206c235079cda7df92919264b7404",
+      "originalHeadHashes": [
+        "fd3c82df65ec85ccdd5d40ef1f93a115b5f34a0637073a1fbf3c83a0b6e0aa0d",
+        "4406b4db3ef1c44adf686960f9caafddf42a64afc6fe27fe73cd47ebc9c02e0e",
+        "db5b53eaf874f9d3b6924edafe79aa6e19080855dfd34a49da9cb8ee0cba9aa6",
+        "e69b7a64074b7596e43ca5a97060c5032ef63b4ca9870cc63900444d0d50309d"
+      ],
+      "degrees": [
+        [
+          6,
+          4
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          9,
+          5
+        ]
+      ],
+      "noOriginalRowsOrCofactorsRecomputed": true,
+      "stage": "new_exact_four_original_weight_heads_loaded",
+      "seconds": 0.003341016999996782
+    },
+    {
+      "rows": [
+        0,
+        1
+      ],
+      "fixedQDegrees": [
+        4,
+        6
+      ],
+      "matrixSize": 10,
+      "projection": {
+        "degree": 47,
+        "sha256": "a1c33f5d55c109624461686b32cbe4001241403e50d569a58c0bb703cb321224"
+      },
+      "everyExactDivisionMultipliedBack": true,
+      "allQLeadingZeroFibersRetained": true,
+      "stage": "new_fixed_original_head_Sylvester_Q_projection",
+      "seconds": 0.007272401999998124
+    },
+    {
+      "rows": [
+        0,
+        2
+      ],
+      "fixedQDegrees": [
+        4,
+        7
+      ],
+      "matrixSize": 11,
+      "projection": {
+        "degree": 58,
+        "sha256": "8a8f022fe1fa7b5f9a02fc9a9fb65d884924088984c28f731e6e8942d1e68def"
+      },
+      "everyExactDivisionMultipliedBack": true,
+      "allQLeadingZeroFibersRetained": true,
+      "stage": "new_fixed_original_head_Sylvester_Q_projection",
+      "seconds": 0.012375720999997952
+    },
+    {
+      "rows": [
+        0,
+        3
+      ],
+      "fixedQDegrees": [
+        4,
+        5
+      ],
+      "matrixSize": 9,
+      "projection": {
+        "degree": 41,
+        "sha256": "a57fab9f58f4f37611ecf9ab1bb44de22e7f8afb157dd2b77d3bad2abf9b9a34"
+      },
+      "everyExactDivisionMultipliedBack": true,
+      "allQLeadingZeroFibersRetained": true,
+      "stage": "new_fixed_original_head_Sylvester_Q_projection",
+      "seconds": 0.014404556000002344
+    },
+    {
+      "cover": {
+        "degree": 38,
+        "sha256": "2a938ab00a1874470397980e011987f8ac864e17c7257f6b05c90d8c819f375b",
+        "coefficientsAscending": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-34992/1447",
+          "709560/1447",
+          "-6899796/1447",
+          "42764301/1447",
+          "-3031095123/23152",
+          "20406663557/46304",
+          "-216746348763/185216",
+          "465269804149/185216",
+          "-821019319521/185216",
+          "1204734943427/185216",
+          "-740695152889/92608",
+          "766865639187/92608",
+          "-669991581929/92608",
+          "493912224957/92608",
+          "-612968148847/185216",
+          "318577234161/185216",
+          "-137575520749/185216",
+          "48783543711/185216",
+          "-3490595453/46304",
+          "786403001/46304",
+          "-67126095/23152",
+          "2040269/5788",
+          "-157377/5788",
+          "1"
+        ]
+      },
+      "irreducibleFactors": [
+        {
+          "polynomial": "x",
+          "multiplicity": 15,
+          "coefficientsAscending": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "polynomial": "23152*x^10 + (-293804)*x^9 + 1660962*x^8 + (-5509191)*x^7 + 11867209*x^6 + (-17333916)*x^5 + 17377608*x^4 + (-11812736)*x^3 + 5228032*x^2 + (-1373184)*x + 165888",
+          "multiplicity": 1,
+          "coefficientsAscending": [
+            "165888",
+            "-1373184",
+            "5228032",
+            "-11812736",
+            "17377608",
+            "-17333916",
+            "11867209",
+            "-5509191",
+            "1660962",
+            "-293804",
+            "23152"
+          ]
+        },
+        {
+          "polynomial": "2*x + (-3)",
+          "multiplicity": 3,
+          "coefficientsAscending": [
+            "-3",
+            "2"
+          ]
+        },
+        {
+          "polynomial": "x + (-1)",
+          "multiplicity": 10,
+          "coefficientsAscending": [
+            "-1",
+            "1"
+          ]
+        }
+      ],
+      "completeQQFactorProductReturned": true,
+      "stage": "new_exact_common_u_cover",
+      "seconds": 0.014819657000003872
+    },
+    {
+      "phi": "x",
+      "excluded": true,
+      "reason": "actual original u*(u-1) unit is identically zero",
+      "stage": "exact_u_fiber_is_original_unit_zero",
+      "seconds": 0.014939202999997292
+    },
+    {
+      "phi": "x^10 + (-73451/5788)*x^9 + 830481/11576*x^8 + (-5509191/23152)*x^7 + 11867209/23152*x^6 + (-4333479/5788)*x^5 + 2172201/2894*x^4 + (-738296/1447)*x^3 + 326752/1447*x^2 + (-85824/1447)*x + 10368/1447",
+      "phiCoefficientsAscending": [
+        "10368/1447",
+        "-85824/1447",
+        "326752/1447",
+        "-738296/1447",
+        "2172201/2894",
+        "-4333479/5788",
+        "11867209/23152",
+        "-5509191/23152",
+        "830481/11576",
+        "-73451/5788",
+        "1"
+      ],
+      "irreducibleUDegree": 10,
+      "originalFourSpecializedQDegrees": [
+        4,
+        6,
+        7,
+        5
+      ],
+      "actualFourHeadGcdQDegree": 1,
+      "fullFourHeadBezoutTagDegrees": [
+        4,
+        2,
+        -1,
+        -1
+      ],
+      "removedOnlyOriginalWeightUnitFactors": [],
+      "residualQDegree": 1,
+      "residualCoefficients": [
+        {
+          "degree": 9,
+          "sha256": "910089333db6026f9c236fdd8b55dc46f894b935ff2541d9dc007d51002887bf",
+          "coefficientsAscending": [
+            "688853332321865192/758196464449207",
+            "-5079841228745280213/758196464449207",
+            "205186052719442556005/9098357573390484",
+            "-1609146205266817926055/36393430293561936",
+            "286234827099735042961/5199061470508848",
+            "-13112769190600841959231/291147442348495488",
+            "7050254802090396814853/291147442348495488",
+            "-171779781472179611077/20796245882035392",
+            "118155338064806502553/72786860587123872",
+            "-849321634508788031/6065571715593656"
+          ]
+        },
+        {
+          "degree": 0,
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "coefficientsAscending": [
+            "1"
+          ]
+        }
+      ],
+      "excluded": false,
+      "stage": "new_exact_irreducible_u_fiber_four_head_original_unit_return",
+      "seconds": 0.023983141000002206
+    },
+    {
+      "phi": "x + (-3/2)",
+      "phiCoefficientsAscending": [
+        "-3/2",
+        "1"
+      ],
+      "irreducibleUDegree": 1,
+      "originalFourSpecializedQDegrees": [
+        4,
+        6,
+        6,
+        4
+      ],
+      "actualFourHeadGcdQDegree": 1,
+      "fullFourHeadBezoutTagDegrees": [
+        4,
+        2,
+        -1,
+        -1
+      ],
+      "removedOnlyOriginalWeightUnitFactors": [
+        {
+          "unit": "1-Q",
+          "removedQDegree": 1
+        }
+      ],
+      "residualQDegree": 0,
+      "residualCoefficients": [
+        {
+          "degree": 0,
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "coefficientsAscending": [
+            "1"
+          ]
+        }
+      ],
+      "excluded": true,
+      "stage": "new_exact_irreducible_u_fiber_four_head_original_unit_return",
+      "seconds": 0.025046957000000702
+    },
+    {
+      "phi": "x + (-1)",
+      "excluded": true,
+      "reason": "actual original u*(u-1) unit is identically zero",
+      "stage": "exact_u_fiber_is_original_unit_zero",
+      "seconds": 0.02508355000000506
+    },
+    {
+      "fixedProjectionCount": 3,
+      "commonUCoverDegree": 38,
+      "fiberCount": 4,
+      "survivingFibers": [
+        {
+          "phi": "x^10 + (-73451/5788)*x^9 + 830481/11576*x^8 + (-5509191/23152)*x^7 + 11867209/23152*x^6 + (-4333479/5788)*x^5 + 2172201/2894*x^4 + (-738296/1447)*x^3 + 326752/1447*x^2 + (-85824/1447)*x + 10368/1447",
+          "phiCoefficientsAscending": [
+            "10368/1447",
+            "-85824/1447",
+            "326752/1447",
+            "-738296/1447",
+            "2172201/2894",
+            "-4333479/5788",
+            "11867209/23152",
+            "-5509191/23152",
+            "830481/11576",
+            "-73451/5788",
+            "1"
+          ],
+          "irreducibleUDegree": 10,
+          "originalFourSpecializedQDegrees": [
+            4,
+            6,
+            7,
+            5
+          ],
+          "actualFourHeadGcdQDegree": 1,
+          "fullFourHeadBezoutTagDegrees": [
+            4,
+            2,
+            -1,
+            -1
+          ],
+          "removedOnlyOriginalWeightUnitFactors": [],
+          "residualQDegree": 1,
+          "residualCoefficients": [
+            {
+              "degree": 9,
+              "sha256": "910089333db6026f9c236fdd8b55dc46f894b935ff2541d9dc007d51002887bf",
+              "coefficientsAscending": [
+                "688853332321865192/758196464449207",
+                "-5079841228745280213/758196464449207",
+                "205186052719442556005/9098357573390484",
+                "-1609146205266817926055/36393430293561936",
+                "286234827099735042961/5199061470508848",
+                "-13112769190600841959231/291147442348495488",
+                "7050254802090396814853/291147442348495488",
+                "-171779781472179611077/20796245882035392",
+                "118155338064806502553/72786860587123872",
+                "-849321634508788031/6065571715593656"
+              ]
+            },
+            {
+              "degree": 0,
+              "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "coefficientsAscending": [
+                "1"
+              ]
+            }
+          ],
+          "excluded": false
+        }
+      ],
+      "commonHeadZeroFullyExcluded": false,
+      "globalThreeGeneratorHeadChartCover": false,
+      "allOriginalLeadingZeroFibersRetained": true,
+      "noLambdaOrValueNoncollisionConditionIntroduced": true,
+      "noOldOriginalCofactorRecomputed": true,
+      "noModularEmptinessInference": true,
+      "checks": {
+        "QQBareissExactDivisions": 874,
+        "QQGcdBezoutProducts": 2,
+        "fieldInverseQQBezoutProducts": 52,
+        "fieldPolynomialDivisionProducts": 37,
+        "fieldPolynomialGcdBezoutProducts": 15,
+        "unitFactorDivisionProducts": 1
+      },
+      "ordinaryISPClaim": false,
+      "stage": "complete_original_four_head_common_zero_QQ_return",
+      "seconds": 0.02509551800000054
+    },
+    {
+      "elapsed_seconds": 0.08538997000000847,
+      "max_child_rss_kib": 39056,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "78c4f3e168b06225abebfb0be29464db50413a69",
+          "before": "78c4f3e168b06225abebfb0be29464db50413a69",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T16:07:10.435362+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46030813504",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "78c4f3e168b06225abebfb0be29464db50413a69",
+      "source_exit_code": 0,
+      "source_git_blob": "855d8a533145c1f23983259818bd61686139aaf3",
+      "source_sha256": "8890e4b747a79b5fdee6f7268167f69ecd5fbc80e12bf6a537c410d430f36e05",
+      "stdout_bytes": 7554,
+      "stdout_sha256": "d0c3d73391a61e04f3b6b720ec327c5b509d04625d26195ef47b6e8cc132ef6b",
+      "stop_reason": null
+    }
+  ],
+  "exact_ten_weight_payload_git_blob": "b1c2fd74c6c081c0c8abfa6953356c45a5f903ad",
+  "exact_ten_weight_payload_sha256": "0181016263cc74ceee904cc5d9c29baf77e5541f2a6535e1c34dfd89a83a619f",
+  "global_three_generator_claim_without_exceptions": false,
+  "ten_weights_are_not_claimed_full_original_solutions": true,
+  "ordinary_isp_claim": false
+}

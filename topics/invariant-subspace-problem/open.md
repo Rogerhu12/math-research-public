@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-collision-entire-C2-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-ten-weight-head-locus-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -222,7 +222,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **一般Phi紧凑879首次失败冻结。** 实际run46022929932为120.067秒/816684KiB/内层−14 SIGALRM；最后只返回原P1/NV两线，无R2/W4或新必要曲线。准确源及[失败身份](notes/2026-11-27-unit211-Phi-zero-general-compact-two-means-SIGALRM-8542.md)保存；不加时重跑，改保自由z先用原N1首一二次。
 
-**[Phi零的十二列完整原四行与四个二次头图](results/R150-appendix-unit211-Phi-zero-monic-twelve-original-four-rows-and-quadratic-head-charts.md)。** 原N1首一z2/T6给真自由12环境；928真0.302秒/42188KiB/exit0返三均值和NV全部坐标，不逆D/SnZ。四原二次头只依赖u,Q，残度6/4、11/6、13/7、9/5，精确输入已保存；每个非零图的原商至多由1,T,z生成，共同头零仍保。新4e84只读小头作固定QQ消Q和完整u常数域返回，不重放旧原行/大cofactor。
+**[Phi四原二次头共同零的完整十权集合](results/R150-appendix-unit211-Phi-zero-four-original-quadratic-heads-complete-ten-weight-locus.md)。** 8890真0.085秒/39056KiB/0，固定QQ投影及所有u整纤维返回：u3/2仅Q1原单位排除；仅余不可约F10(u)和唯一Q=−a9(u)，十点的已付权单位均非零。精确输入保存，完整原值仍未解。其余至少一个头非零，每相应图≤3生成元；新100ce仅首头非零图由原mean/N1和真乘法歧义返回实际D，首头零整曲线保留，不全局倒头。
 
 **碰撞Delta零只余C4四lambda。** [完整QQ覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)的λ1/3与[整个C2](results/R150-appendix-unit211-equal-singleton-Delta-zero-entire-C2-lambda-exclusion.md)已原排空；74cf在Ψ4(u)=133u4−30u3−32u2−24u+16全部嵌入返回同λ,Q和八Gram，E1/EBe全K[f]单位，0.139秒/37736KiB/0。只续C4=[3/8,−3/2,3,−3,1]完整常数域；新5b2先付原Delta线性Q头，再返回Tnum及原三mean/N1全部u约束，不重跑578投影。
 
