@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-original-unramified-average.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-three-weight-manin-polynomial.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -26,13 +26,11 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125的rank≥2、全部finite/整�
 
 R1037–38两次完整378谱/原126回执已消费，30非零/90零、334fibers/390coords、22列/64回乘及degree20全角齐。E3969全部finite/Schwartz/Haar/Gaussian和通常全Sha桥已付；原p5严格圆盘/全尾给rank2及Sha[5∞]有限，仅此一p。全部模型/参数/run/hash见原文与归档，不重跑。
 
-R1040六轴Gram(126,3,6,2,9,14)/det756及真实6⁵平均保持。只投H/J/N的整源是39δΦ126Ξ0+G126Ξ1，JG(0)=−δ(1+λ)/28单位；坏Φ给完整companion-only中央/质量同一比例，Y/7的log7费用不删。5/90全核的DE5与D²E4保四输出分离两态，n仅共同单位因子。§14原G全bad/七挠gluing/Haar/平方已识别E15876 rank0参考，G无t^-6，不给JG′新零。
-
-§15原K条件矩U_K=(10δ/7)D126，完整odd9/JMJ/2/3/双7及正权平方识别E21609:y²=x³+147²，f126、level47628/root−。R1046唯一run46008071578/job140536202708/source60a44f52的完整L′严格正，原CM/Q Rubin定理和固定点(-12,141)付ΩI_D非零，双7分歧使它与三九阶点值代数线性独立。原角函数j(Y+tK)的j′(0)≠0；坏j(0)=0时全bounded尾给v(j(ξκⁿ))=n+ℓp，n>ℓp−bp。原坏条件仍不迫j(t)或角导数零，继续实际forcing；不重跑。
+R1040六轴Gram(126,3,6,2,9,14)、det756及全6⁵平均保持。只投H/J/N是39δΦ126Ξ0+G126Ξ1，JG(0)=−δ(1+λ)/28单位；Y/7的log7、四输出/全carry保齐。§14全G已识别E15876 rank0参考，未授权JG′零。§15原K条件矩U_K=(10δ/7)D126给E21609:y²=x³+147²、f126/level47628/root−。R1046唯一run46008071578/job140536202708/source60a44f52全L′>0，原CM/Q Rubin与PD=(-12,141)付ΩID非零；双7分歧使其与三九阶点值代数独立。故j(Y+tK)的一次项非零、坏j0时全尾v=n+ℓp；原坏条件不迫角值零，不重跑。
 
 R1042原H3/F81、93/2511与90/810全核保。§11全72支及degree372深核βB、B²1给所有中间环；原未旋转D1三对差v1，平均S/T未授权。§12整个至少双unit余域首Schur为b^-1{−h_p^-1(c_i−c_j)/p+h_p^-6Δα}，由完整质量零先付c_i∈pO及Hasse period；三坏需三个c_i/p同零，未排。§13真实cZp推前及完整质量零给全精度有限Hurwitz读数，误差H+1−floor(log_p(H+1))；所有core/Euler保真，只有H≤p−2可省deep，多Q非新坏行。继续实际有限余式。
 
-原norm25管12支M*≠0及A−S的dM*log〈r*〉全尾已付。R1047完整付H3的α2/25、全部2/δ/5、25维Weil、四角色r2/8/14/26、f25δ/root−、Haar/h/平方及actual C15点域。BDP2和Fuchs–Pham含常数1分离给整个S/T一次项非零，管内v=n+ℓp；不需四L′非零或Euler单位。Y_A−(7+4δ)H混合cut及所有其余unit扇区保持，继续全低卷积和完整补域forcing。
+原norm25全部12管及A−S的log〈r*〉全尾付清。R1047完整付H3 α2/25、2/δ/5、25维Weil四角色r2/8/14/26、f25δ/root−、Haar/Hermite/平方及实际C15点域。BDP2与Fuchs–Pham含常数1给原整个S/T一次项非零，无须新L′或Euler单位；全尾v=n+ℓp。混合Y_A cut、所有其它unit扇区及整余域仍保，继续forcing。
 
 R1044真R=K+ωA整推前消Ξ1，Ξ0回δ*(-xyσ5)；共同F3913/C1596的全四输出carry保三原未平均行，H/J/N平均另给纯Φ行。两个授权不能混，原全cut与补域(41)继续。
 
@@ -44,11 +42,13 @@ R1002只付Kβ，原AJ²=KνKβ的ν未付；完整54/27图、eta/Cor和所有�
 
 q5/q11全shadow倒6为零已付；q11唯一Q高22/3、D四挠、2D=P2、MW=(11/3)A2、NS−121/Br0，原两cover、Prym、半类和必要坐标/全部run/hash沿消费笔记与归档复用。R1041的AQ=−G阶16、4AQ=−P及完整Pell/厚点保持，不重算。
 
-R1039严格Prym=EL:y²=x³−12x+20、非挠边界、全双Norm/S4 sign已付。实cyclic24商j域/负Norm给无穷q≡−1mod24且EL超奇异、全Jac F²=−q。任意cyclicM只给−q模M平方，形式奇次Q≡−1modp不改变原η/Cor shadow被旧q+1杀；不能制造新p部。R1041全tame reciprocity给U(E+)²⁴∈Fq*，p|q+1的无权半交为p次幂；原逐CM权和最高λ仍须返回。
+R1039 Prym EL:y²=x³−12x+20、全双Norm/S4 sign、实cyclic24商及负Norm给无穷q≡−1mod24且全Jac F²=−q。更大M只给−q模M平方，形式奇次Q≡−1modp不改变原影子被q+1杀。R1041全tame reciprocity给U(E+)²⁴∈Fq*，p|q+1的无权半交为p次幂；全η/Cor/最高λ仍开。
 
 R1043原2-Vélu/full9、真实S′/S3左逆、canonical E4/I及η′=ηκ2全部保持。最高像−3Ω′1在O零4；原GL9/Cor给C_a=[L:K]B_a、J_j=6[L:H]Σζ9^(−l_ja)B_a，L0次数6^5。真实3-Vélu的F′*特征+δ和Picard同号；原基值非旧6挠，IV*只在三重好化下降后被3杀。§18两次二核倒序相消给Fr(d_t)=d_hq/t；原三完整J同一位全零时三个真实T_a全p整除，此前提尚不由Sha坏推出。同Fr−unit核degree q+1只p个除点，全p²需degree(q+1)²。
 
 §19原KS/Hasse简单零及Broumasμ全边界齐。§20从R=Dμ/A的一维全局空间得D_Bμ=c_q A、c_q≠0；ε及L(O)排局部q次幂，完整Hasse/PF给μ/δ=κ_q X P_q(X³)，P_q=Σ(-4)^j(5/6)_j(2/3)_j U^j/((j!)²(3j+1))。canonical接触恒3，有限ss仅1或2，两cusp ν单位，N_ord+2N_ss=q−5；无须新27桥。§21原对偶运输μ₁(φ̂P)=cφ^qμ₂，Φq严格交换原pull，完整三项给Φq(PQ)=3cQΩ′1、μ(cEPQ)=0和Σω^i c_i^q m_q(fιP_i)。PQ外系数≠固定CM纤维实际T_a的几何[ω]，全η/17/Cor与真正点群forcing仍开；目标p除点不自动提高接触。
+
+§22全三项相位/指数精确消分母，μPQ=cQ X′N_q(V′²)/V′^(2r−1)，唯一有限递推所有3k+1为q单位。N0≠0/N1=3，三IV*好化μ阶2、两cusp阶1；O值=−3cQ 2^(2r−1)P_q(−1/4)，若零则恰六阶。系数变形值不代实际T_a/p影子，继续三个原17标记。
 
 唯一q11 Manin run46018592834/job140572039981已给μ/δ=10X+3X⁴、Hasse=V(1−X³)，九有限ss接触1、O接触3、余ordinary零度6；全部pins/hash/必要函数在原消费笔记，禁止重跑。原mixed C4候选由Albanese排除。
 
