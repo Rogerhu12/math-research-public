@@ -1,17 +1,18 @@
 {
-  "message": "ISP: reduce the W S free ideal to four cubics and identify its binary head resultant",
-  "parentCommit": "59b851893eddd13e32262b2642aeda2306001d79",
+  "message": "ISP: recover the whole W y equals one Gram point from original equations",
+  "parentCommit": "4b104ff5f6ea450574441e0fd80a97470fc042b5",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-four-S-free-cubics-and-binary-head-resultant.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-four-cubic-universal-head-resultant-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-four-cubic-universal-head-resultant-output-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-four-cubic-universal-head-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-four-S-free-original-cubics-and-binary-head-8542.py",
-    ".github/workflows/invariant-subspace-w-four-s-free-cubics-binary-head-8542.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-original-same-point-parameter-return.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-y-one-original-recovery-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-y-one-two-fixed-QQ-original-projections-8542.py",
+    ".github/workflows/invariant-subspace-w-y-one-two-fixed-qq-projections-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-actual-D-fixed-66-Gauss-return-8542.py",
+    ".github/workflows/invariant-subspace-q-actual-d-fixed-66-gauss-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-whole-W-y-one-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +22,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-w-four-s-free-cubics-binary-head-8542.yml"
+    "invariant-subspace-w-y-one-two-fixed-qq-projections-8542.yml",
+    "invariant-subspace-q-actual-d-fixed-66-gauss-8542.yml"
   ]
 }
