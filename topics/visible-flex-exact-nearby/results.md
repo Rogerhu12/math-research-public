@@ -419,3 +419,10 @@
 - [CP：mean-exact中心附近统一正候选phase pivot](results/R147-supplement-uniform-positive-phase-pivot-near-the-mean-exact-centre.md)：16新比较已成；原NP wholetrial L²<32/N<132，RP530/150/2.16与SM付真正背景/ν/g转移；中心S>1/50，A³≤1e−7、ν距≤5e−12、C¹max g距≤1e−8全邻域1/60<S<3/50，常数phase保。仅PD.7候选，fullregular Schur仍待。publicc1724b90b8。
 
 - [RPT：完整principal return全角阶tame导数](results/R144-supplement-all-angular-principal-return-tame-derivatives.md)：18新有理比较全过；反向chronological field的实际transported label给原forward两ray P，root/mean/phase不重设。原低J=27/25与全Wiener commutator给K/R/D/A/F/H有理递推，H^n值/一二阶及余项方向至H^{n+3}、背景A^{n+2}一次，trueν²/fulltail/joins保。RP sharp低界不改，g/物理chart链及PD左归一线性行族/full inverse/收敛独立。
+
+- [OX：固定physical输出的真实边界微分与全角阶Hessian](results/R144-supplement-physical-output-boundary-differential-and-all-angular-Hessian.md)：source1d03e867/public584c4b15；8新有理比较已成。完整transport恒等式识别PX即DH固定physical输出真DF，非新小门；三行full Hn一二阶、mean/height/Robin/qk全保，moving-output另保Pφ(bh rφ)。
+
+- [LG：原强径向空间内的完整长段高度图](results/R144-supplement-all-angular-strong-long-height-graph-with-complete-means.md)：sourcea6dc7925/publicf66e3c9c；6新组合已成。原ℓ²(逐模C_t)中所有角阶值/一二阶，κ C1+c C2、两端真mean-height/mean slope/λ和真trace全保；单A^{n+2}，完整参数列<2^15。逐半径Hn composition不免费授rawφ strong module，另续实际e方向。
+
+- [PCT：完整moving-phase tame映射和PD当前左归一行](results/R144-supplement-all-angular-moving-phase-and-current-normalized-row.md)：15新有理比较已成。真实E值/一二阶/余项和当前DE/J行族背景一导所有Hn，方向H^{n+4}/H4、单B_{n+2}+G_{n+1}；独立固定g−Id的A2预算L，CP C1不冒高正则。七项Drow完整保ξ′a、δJ和E′a，mean/trueν/root/joins不删，非线性E不改E/J。显式Cn=Tn^32只低S/L与既成RPT常数入系数，fullregular inverse和physical secant仍待。
+
