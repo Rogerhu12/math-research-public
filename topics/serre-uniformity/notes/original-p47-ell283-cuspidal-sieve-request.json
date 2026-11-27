@@ -1,0 +1,42 @@
+{
+  "execution_id": "p47-ell283-original-same-point-v1",
+  "prime": 47,
+  "auxiliary_prime": 283,
+  "cartan_nonsquare": 5,
+  "smoothing_integer": 5,
+  "total_seconds": 600,
+  "reserve_seconds": 30,
+  "rules_last_read_commit": "051258bd5bde1fa0cc675150c325180d79cfa05e",
+  "certified_input_run": 45925829303,
+  "certified_input_job": 140266778118,
+  "certified_input_source": "91de38ca63948967904fc5a5a0d8f0a8717ca3ed",
+  "certified_character_sha256": "880799848773da716df2dd4b5db76c07fcc0027e281baff963aff0eeeaf82014",
+  "certified_coarse_points_sha256": "12025eb9c76692312c856360add6a4702cbe02ccaf51def477bafeaf5e06d1ee",
+  "known_cm_j": [
+    0,
+    1728,
+    -3375,
+    8000,
+    54000,
+    287496,
+    -12288000,
+    16581375
+  ],
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/scripts/original_p47_cuspidal_disks.py": "35a0035d4f238670309d19c9acec35b5f9610cf13f5676f96503c59048148f98",
+    "topics/serre-uniformity/scripts/original_p47_ell283_cuspidal_sieve.py": "b197913a1f03750b9b2837dbfa42116faec7e45fc8bcd414faf6fbf84825c5ee",
+    "topics/serre-uniformity/notes/2026-11-27-original-p47-ell283-cuspidal-sieve-method.md": "cd406f755768779a484e3aa965de685d49cf6056af6be7a90e20443b5dd3572c",
+    "topics/serre-uniformity/results/R9-cm-reduction-separation.md": "2c488ed7af03f3b715d2af326c2eaed9a120ccb16032fafac53409e6b1b500ce",
+    "topics/serre-uniformity/results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md": "fbcbc8a09c0c7cd8ce0ba4dba7b1d00a765006b4c9e120bfa7ccd667ff044d3c",
+    "topics/serre-uniformity/results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md": "471480dd01ef510b2ceef037cd90b626cee154958e4a212ae7cb6bcad933558f",
+    "topics/serre-uniformity/results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md": "a18fc3bb9b501f64e2bacf4298d2e367f438c2bb674a54c86f4b84f112d82ac9",
+    "topics/serre-uniformity/results/R1070-original-cuspidal-labels-by-division-polynomial-values.md": "f04e191f4728fa23ea364c4784a0438e8275bd45d0fdb82e7ceb61a5286f3825",
+    "topics/serre-uniformity/results/R1071-original-p-local-cuspidal-label-polynomials.md": "ada841540c475ca23c55a9c55a36d0162f26edea743acca312de3d75b3d2c95f",
+    "topics/serre-uniformity/results/R1072-certified-original-p47-cuspidal-disk-labels.md": "7acc862f66576e667a9c2ceb181b728c667365f24a05aeebe117316103ae2660",
+    "topics/serre-uniformity/results/R1073-original-split-auxiliary-cuspidal-sieve.md": "75b4c23e74c379e129800a6edfe515346e7d663a0288542bfd8fcd6e4fb680c6"
+  },
+  "scope": "Complete new ell283 same-point sieve of the certified original p47 candidates, including all twists, fixed necklaces, and cusps. Known CM first-lift input identification is independently checked. No disk-interior uniqueness claim.",
+  "storage": "Compact public stdout receipts and runner scratch only; no artifacts, Releases or committed reproducible arrays."
+}

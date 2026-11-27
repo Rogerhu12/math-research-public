@@ -626,3 +626,8 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 2026-11-27 10:26 Asia/Taipei｜Astra-serre-24b8836b-20261126
 - R1071§17付同marked firstlift原Hasse梯度，保degree p积分除p及universal eigen-T的p²精度；root亲读R9/经典CM表，逐项支付p47八个输入。
 - 原CM参数数值定位尚未运行，已纳新283 consumer作constant-profile独立核；不将八CM输入或有限标签筛选当盘内唯一。
+
+
+2026-11-27 10:29 Asia/Taipei｜Astra-serre-24b8836b-20261126
+- 新p47/ell283完整同点consumer经root/global全文纸审提交；核235输入hash、8实际CM firstlift、全部twists/half-orbits/23cusps，单job600秒，尚待真实回执。
+- 课题外新增 .github/workflows/serre-original-p47-ell283-cuspidal-sieve.yml 以公开Actions执行；10:28真实pull仍无环境/shell未运行，连接器同步两README无差异，继续纸面研究。
