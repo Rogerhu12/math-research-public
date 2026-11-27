@@ -116,3 +116,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R723](results/R723-directional-normal-flow-support-reach.md)方向支撑与全平行面排序已证，当前真实支撑/曲率仍未付；不能冒旧八角色通过。R718用标记面真实σ，R716独立无标记管、正V与非零中心不变量才给含反射δE。全部五t/三级空间时间频率与完整mesh仍须同g同参数实际运行。全13final才作same-source restart；immutable required-angle packet可为trial，不能冒accepted/final。raw仅runner/scratch，保完整源码/配方和真实身份。
 
 README未完成；时长、阶段、失败和输入困难均非终点；按open顺序继续真正求解。
+
+
+下一独立width-only输入选b/S=5/8、δ1/32、恢复mu.01，与19隔离比较宽度；完整准备中，未启动。[全源码分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保三b的准确支持/中央长度、mean域与未知λ排序：端层显式系数4/5、中央(3/2)λ比，不保证K改善。3/4合法但中央压缩更强；不凭粗R709失效拒输入。原小文件已存K/D/alpha，尚未live公开不得补值；完整空间witness与report保存时机、same-source restart不自动继承末阻尼的源码边界均保全文。
