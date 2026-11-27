@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-complete-general-equal-weight-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-general-ell-zero-head-boundaries-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -180,3 +180,4 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 [H非零原头atlas及低次cubic补图](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-nonzero-original-head-atlas.md)已给全部15二次头子式、4真实overlap及6三次子式。等权整支已闭后k+2已付，只在J19*C9非零图得(1,x,y,t,y²,yt)六生成元，不断言自由；C9仅9项degree(e,k)=2/4。k=−2及Q=2权面已由一般等权总定理排除；J19/C9整零面仍待原返回。继续同点原NS/PS与乘法矩阵，保全部主元边界。
 
+**一般ell=0新输入：** [整H1=2u+Q−2曲线](results/R150-appendix-unit211-general-ell-zero-entire-H1-exclusion.md)已由原48×35矩阵两个固定35阶行列式及完整QQ Bézout1排除。原六式从一般Gram直接专化，不假设W=0或Q=1−u。所选二次头余H2=uQ−2u−2Q+2及全部新三次头零纤维继续，未宣称整面为空。

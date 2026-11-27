@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [一般ell=0整H1二次头曲线排除](results/R150-appendix-unit211-general-ell-zero-entire-H1-exclusion.md)：原六式48×35固定矩阵，72/73次完整行列式剥原单位后9/10次QQ Bézout1，覆盖所有复点。
+
 - [原同源物理正则化与真实缺陷低孔能量](results/R271-appendix-actual-physical-source-regularization-and-defect-low-hole-energy.md)：任意实际最大图来源在临界正阻尼s≥s0具原共同核心，完整N/Y carry均已付；真实E输出低孔质量受e^(−198)/e^(−8)约束，零阻尼仍开。
 
 - [Q=1−u整ell=1/2权线排除](results/R150-appendix-unit211-Q1minusU-complete-ellHalf-exclusion.md)：原Dphys完整理想身份，唯一16次分母在整个QQ商代数中全96列乘回；本边界可付2ell−1。

@@ -1,0 +1,2362 @@
+{
+  "H1": {
+    "execution": {
+      "sourceSHA256": "9fdb2e991def1cf337ad9de961b696563e0f48b9a64dab1eeb23beaa30c66eae",
+      "branch": "H1",
+      "startedUTC": "2026-11-27T06:35:57.773303+00:00",
+      "elapsedSeconds": 0.616868039003748,
+      "exitCode": 0,
+      "maxChildRSSKiB": 30020,
+      "stdoutBytes": 4823,
+      "stdoutSHA256": "498c5d9b63f1e05923ef0c53306366450c9044876ca1b1bac39dd12dd3a02afe",
+      "stderr": "",
+      "runtime": "Python3.12.14/python-flint0.9.0",
+      "limits": "alarm120s/1GiB/one thread"
+    },
+    "actualStages": [
+      {
+        "stage": "new_general_ell_zero_same_original_Gram",
+        "originalE0N0P1Verified": true,
+        "weightedOriginalNPThroughHAHBVerified": true,
+        "originalDistinctValueRetained": true,
+        "wholeWeightChartExcluded": false,
+        "seconds": 0.07634186300128931
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "E1",
+        "degrees": [
+          3,
+          0,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 21,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.0766997030004859
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBe",
+        "degrees": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 10,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.07682514200132573
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBo",
+        "degrees": [
+          2,
+          0,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 11,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.07696234899776755
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "N1",
+        "degrees": [
+          3,
+          0,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 26,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.07728173000214156
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_N",
+        "degrees": [
+          6,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 94,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.07812867800384993
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_P",
+        "degrees": [
+          6,
+          0,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 86,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.0789178080012789
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_Macaulay4",
+        "rows": 48,
+        "columns": 35,
+        "originalSixRows": 6,
+        "all48OriginalMonomialProductsMultipliedBack": true,
+        "constantColumn": 34,
+        "inputSHA256": "95a078fe60e3edcb33ce5508e62bf1a62e1e2b698b4ae0181cca0e0fb612f443",
+        "G2Inverted": false,
+        "cubicMinorInverted": false,
+        "claimExcluded": false,
+        "seconds": 0.09411257800093153
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_numeric_row_selector_only",
+        "p": 1009,
+        "h": 7,
+        "selectedOriginalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          21,
+          19,
+          30,
+          23,
+          24,
+          31,
+          32,
+          33,
+          29,
+          34,
+          35,
+          36,
+          40,
+          41,
+          42
+        ],
+        "targetCount": 4,
+        "numericEmptinessNotInferred": true,
+        "seconds": 0.10389013699750649
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+        "originalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          21,
+          19,
+          30,
+          23,
+          24,
+          31,
+          32,
+          33,
+          29,
+          34,
+          35,
+          36,
+          40,
+          41,
+          42,
+          44
+        ],
+        "lastOriginalRow": 44,
+        "fullDegree": 72,
+        "remainingDegree": 9,
+        "paidRemoved": [
+          [
+            "u",
+            17
+          ],
+          [
+            "u_minus_one",
+            29
+          ],
+          [
+            "Q_minus_one_boundary",
+            17
+          ]
+        ],
+        "exactBareissDivisionProducts": 13685,
+        "originalFixed35By35Determinant": true,
+        "determinantSHA256": "f207c94d10fc2ebfcd41483b423fb4ba67622ef9b5ca8890495d6012768fae5e",
+        "remainingSHA256": "2e4d1926da046d91ed4cd212b97fd134b727c5457fcda5ce0be3985764d73696",
+        "runningQQGCDDegree": 9,
+        "runningQQGCD": "1572864*x^9 + 6160384*x^8 + (-3940352)*x^7 + (-78118912)*x^6 + 191827968*x^5 + (-181403648)*x^4 + 68497408*x^3 + (-1392640)*x^2 + (-3776512)*x + 278528",
+        "claimExcluded": false,
+        "seconds": 0.3228794030001154
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_QQ_Macaulay_determinant",
+        "originalRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          21,
+          19,
+          30,
+          23,
+          24,
+          31,
+          32,
+          33,
+          29,
+          34,
+          35,
+          36,
+          40,
+          41,
+          42,
+          45
+        ],
+        "lastOriginalRow": 45,
+        "fullDegree": 73,
+        "remainingDegree": 10,
+        "paidRemoved": [
+          [
+            "u",
+            17
+          ],
+          [
+            "u_minus_one",
+            29
+          ],
+          [
+            "Q_minus_one_boundary",
+            17
+          ]
+        ],
+        "exactBareissDivisionProducts": 13685,
+        "originalFixed35By35Determinant": true,
+        "determinantSHA256": "a41283732ad1375f4b3911393be490266442c2829a6be49fb9b49a03e99b35fa",
+        "remainingSHA256": "e084e60c2cb1ac74cd6610f3b0df7b1065f31fd542c29345f029dab67a566732",
+        "runningQQGCDDegree": 0,
+        "runningQQGCD": "1",
+        "claimExcluded": false,
+        "seconds": 0.48017289400013397
+      },
+      {
+        "stage": "new_whole_ellZero_head_boundary_original_Macaulay_return_complete",
+        "sourceSHA256": "9fdb2e991def1cf337ad9de961b696563e0f48b9a64dab1eeb23beaa30c66eae",
+        "inputSHA256": "95a078fe60e3edcb33ce5508e62bf1a62e1e2b698b4ae0181cca0e0fb612f443",
+        "fullParameterBranchRationalization": "ell=0, H1, Q=2-2*u",
+        "allPhysicalUnitsCovered": true,
+        "onlyOriginalPaidFactorsDivided": true,
+        "QQBezoutProductsMultipliedBack": true,
+        "fullellZero_head_boundaryExcluded": true,
+        "determinantCount": 2,
+        "runningQQGCDDegree": 0,
+        "peakRssKiB": 29180,
+        "ordinaryISPClaim": false,
+        "seconds": 0.4804279290037812
+      }
+    ]
+  },
+  "headAtlas": {
+    "execution": {
+      "sourceSHA256": "6e7d8506afb99bf4ecf6984d8ee5dbb7d5d60e364b14377f65acc095c2d2cfb8",
+      "startedUTC": "2026-11-27T06:25:53.837622+00:00",
+      "elapsedSeconds": 0.2659133689958253,
+      "exitCode": 0,
+      "maxChildRSSKiB": 30464,
+      "stdoutBytes": 16540,
+      "stdoutSHA256": "c695486a3a77905398df511d48b2c3bfaae62a04c71e6d6d2c5b2e26c5854bdd",
+      "stderr": "",
+      "runtime": "Python3.12.14/python-flint0.9.0",
+      "limits": "alarm60s/1GiB/one thread"
+    },
+    "actualStages": [
+      {
+        "stage": "new_general_ell_zero_same_original_Gram",
+        "originalE0N0P1Verified": true,
+        "weightedOriginalNPThroughHAHBVerified": true,
+        "originalDistinctValueRetained": true,
+        "wholeWeightChartExcluded": false,
+        "seconds": 0.08114895399921807
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "E1",
+        "degrees": [
+          3,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 25,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.0818153789950884
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBe",
+        "degrees": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 9,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08207512099761516
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "EBo",
+        "degrees": [
+          2,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 12,
+        "paidRemoved": [],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.082267049998336
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "N1",
+        "degrees": [
+          5,
+          3,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 115,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 2,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08342214299773332
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_N",
+        "degrees": [
+          6,
+          6,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 469,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.08737600599852158
+      },
+      {
+        "stage": "new_general_ell_zero_original_X_Gram_coordinates",
+        "name": "weighted_P",
+        "degrees": [
+          6,
+          6,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "terms": 420,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ]
+        ],
+        "totalDegreeXYt": 3,
+        "originalE0N0P1AndMeanReconstructionVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.09045680299459491
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fullDegrees": [
+          4,
+          5
+        ],
+        "fullTerms": 20,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ],
+          [
+            "Q_minus_one",
+            3
+          ]
+        ],
+        "unpaid": {
+          "content": "-8",
+          "factors": [
+            {
+              "degrees": [
+                3,
+                2
+              ],
+              "totalDegree": 4,
+              "terms": 8,
+              "multiplicity": 1,
+              "sha256": "1df766be0c1112068aeae47dfc5768f0d4e2f67db2f556126b63c8c59405969f",
+              "coefficients_u_Q": [
+                [
+                  3,
+                  1,
+                  "4"
+                ],
+                [
+                  3,
+                  0,
+                  "-4"
+                ],
+                [
+                  2,
+                  1,
+                  "-12"
+                ],
+                [
+                  2,
+                  0,
+                  "8"
+                ],
+                [
+                  1,
+                  2,
+                  "1"
+                ],
+                [
+                  1,
+                  1,
+                  "8"
+                ],
+                [
+                  1,
+                  0,
+                  "-4"
+                ],
+                [
+                  0,
+                  2,
+                  "-2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09406865199707681
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "fullDegrees": [
+          5,
+          4
+        ],
+        "fullTerms": 16,
+        "paidRemoved": [
+          [
+            "u",
+            2
+          ],
+          [
+            "Q_minus_one",
+            2
+          ]
+        ],
+        "unpaid": {
+          "content": "4",
+          "factors": [
+            {
+              "degrees": [
+                3,
+                2
+              ],
+              "totalDegree": 4,
+              "terms": 8,
+              "multiplicity": 1,
+              "sha256": "1df766be0c1112068aeae47dfc5768f0d4e2f67db2f556126b63c8c59405969f",
+              "coefficients_u_Q": [
+                [
+                  3,
+                  1,
+                  "4"
+                ],
+                [
+                  3,
+                  0,
+                  "-4"
+                ],
+                [
+                  2,
+                  1,
+                  "-12"
+                ],
+                [
+                  2,
+                  0,
+                  "8"
+                ],
+                [
+                  1,
+                  2,
+                  "1"
+                ],
+                [
+                  1,
+                  1,
+                  "8"
+                ],
+                [
+                  1,
+                  0,
+                  "-4"
+                ],
+                [
+                  0,
+                  2,
+                  "-2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09439264999673469
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "fullDegrees": [
+          4,
+          3
+        ],
+        "fullTerms": 11,
+        "paidRemoved": [
+          [
+            "u",
+            2
+          ],
+          [
+            "Q_minus_one",
+            1
+          ]
+        ],
+        "unpaid": {
+          "content": "-1",
+          "factors": [
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 1,
+              "terms": 3,
+              "multiplicity": 1,
+              "sha256": "edfb036f8b1a643e5b56c7ca6d46253cc81d2f88963c90698c75eeaa0ddda8ba",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  0,
+                  "2"
+                ],
+                [
+                  0,
+                  1,
+                  "1"
+                ],
+                [
+                  0,
+                  0,
+                  "-2"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 2,
+              "terms": 4,
+              "multiplicity": 1,
+              "sha256": "842c7148d0914ee017f211dcba5b0a99c95420cccdf94dd9ab195bfc6e661cd4",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  1,
+                  "1"
+                ],
+                [
+                  1,
+                  0,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "-2"
+                ],
+                [
+                  0,
+                  0,
+                  "2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09464474099513609
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "fullDegrees": [
+          4,
+          5
+        ],
+        "fullTerms": 20,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ],
+          [
+            "Q_minus_one",
+            3
+          ]
+        ],
+        "unpaid": {
+          "content": "-8",
+          "factors": [
+            {
+              "degrees": [
+                3,
+                2
+              ],
+              "totalDegree": 4,
+              "terms": 8,
+              "multiplicity": 1,
+              "sha256": "1df766be0c1112068aeae47dfc5768f0d4e2f67db2f556126b63c8c59405969f",
+              "coefficients_u_Q": [
+                [
+                  3,
+                  1,
+                  "4"
+                ],
+                [
+                  3,
+                  0,
+                  "-4"
+                ],
+                [
+                  2,
+                  1,
+                  "-12"
+                ],
+                [
+                  2,
+                  0,
+                  "8"
+                ],
+                [
+                  1,
+                  2,
+                  "1"
+                ],
+                [
+                  1,
+                  1,
+                  "8"
+                ],
+                [
+                  1,
+                  0,
+                  "-4"
+                ],
+                [
+                  0,
+                  2,
+                  "-2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09491749199514743
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "fullDegrees": [
+          4,
+          5
+        ],
+        "fullTerms": 21,
+        "paidRemoved": [
+          [
+            "u",
+            1
+          ],
+          [
+            "Q_minus_one",
+            2
+          ]
+        ],
+        "unpaid": {
+          "content": "-2",
+          "factors": [
+            {
+              "degrees": [
+                3,
+                3
+              ],
+              "totalDegree": 5,
+              "terms": 13,
+              "multiplicity": 1,
+              "sha256": "3f2fb0bafd58a88db9911b35fc1b2db20cf94255898e2e73bd0338e125256d71",
+              "coefficients_u_Q": [
+                [
+                  3,
+                  2,
+                  "8"
+                ],
+                [
+                  3,
+                  1,
+                  "-16"
+                ],
+                [
+                  3,
+                  0,
+                  "8"
+                ],
+                [
+                  2,
+                  2,
+                  "-26"
+                ],
+                [
+                  2,
+                  1,
+                  "44"
+                ],
+                [
+                  2,
+                  0,
+                  "-16"
+                ],
+                [
+                  1,
+                  3,
+                  "1"
+                ],
+                [
+                  1,
+                  2,
+                  "22"
+                ],
+                [
+                  1,
+                  1,
+                  "-32"
+                ],
+                [
+                  1,
+                  0,
+                  "8"
+                ],
+                [
+                  0,
+                  3,
+                  "-2"
+                ],
+                [
+                  0,
+                  2,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "4"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.0953913669945905
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "fullDegrees": [
+          5,
+          4
+        ],
+        "fullTerms": 18,
+        "paidRemoved": [
+          [
+            "u",
+            2
+          ],
+          [
+            "Q_minus_one",
+            2
+          ]
+        ],
+        "unpaid": {
+          "content": "1",
+          "factors": [
+            {
+              "degrees": [
+                3,
+                2
+              ],
+              "totalDegree": 4,
+              "terms": 10,
+              "multiplicity": 1,
+              "sha256": "5770341cc80fceaa10e7ebd2cb8cf7de61d17195e3264df9532487a57332b4cc",
+              "coefficients_u_Q": [
+                [
+                  3,
+                  1,
+                  "8"
+                ],
+                [
+                  3,
+                  0,
+                  "-8"
+                ],
+                [
+                  2,
+                  1,
+                  "-26"
+                ],
+                [
+                  2,
+                  0,
+                  "20"
+                ],
+                [
+                  1,
+                  2,
+                  "1"
+                ],
+                [
+                  1,
+                  1,
+                  "24"
+                ],
+                [
+                  1,
+                  0,
+                  "-16"
+                ],
+                [
+                  0,
+                  2,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "-6"
+                ],
+                [
+                  0,
+                  0,
+                  "4"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09566330699453829
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "zero": true,
+        "seconds": 0.09575767899514176
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "fullDegrees": [
+          4,
+          4
+        ],
+        "fullTerms": 14,
+        "paidRemoved": [
+          [
+            "u",
+            2
+          ],
+          [
+            "Q_minus_one",
+            2
+          ]
+        ],
+        "unpaid": {
+          "content": "1",
+          "factors": [
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 1,
+              "terms": 3,
+              "multiplicity": 1,
+              "sha256": "edfb036f8b1a643e5b56c7ca6d46253cc81d2f88963c90698c75eeaa0ddda8ba",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  0,
+                  "2"
+                ],
+                [
+                  0,
+                  1,
+                  "1"
+                ],
+                [
+                  0,
+                  0,
+                  "-2"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 2,
+              "terms": 4,
+              "multiplicity": 1,
+              "sha256": "842c7148d0914ee017f211dcba5b0a99c95420cccdf94dd9ab195bfc6e661cd4",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  1,
+                  "1"
+                ],
+                [
+                  1,
+                  0,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "-2"
+                ],
+                [
+                  0,
+                  0,
+                  "2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.0959913519982365
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "fullDegrees": [
+          5,
+          3
+        ],
+        "fullTerms": 11,
+        "paidRemoved": [
+          [
+            "u",
+            3
+          ],
+          [
+            "Q_minus_one",
+            1
+          ]
+        ],
+        "unpaid": {
+          "content": "-1/2",
+          "factors": [
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 1,
+              "terms": 3,
+              "multiplicity": 1,
+              "sha256": "edfb036f8b1a643e5b56c7ca6d46253cc81d2f88963c90698c75eeaa0ddda8ba",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  0,
+                  "2"
+                ],
+                [
+                  0,
+                  1,
+                  "1"
+                ],
+                [
+                  0,
+                  0,
+                  "-2"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 2,
+              "terms": 4,
+              "multiplicity": 1,
+              "sha256": "842c7148d0914ee017f211dcba5b0a99c95420cccdf94dd9ab195bfc6e661cd4",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  1,
+                  "1"
+                ],
+                [
+                  1,
+                  0,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "-2"
+                ],
+                [
+                  0,
+                  0,
+                  "2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09624524499668041
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "fullDegrees": [
+          4,
+          4
+        ],
+        "fullTerms": 14,
+        "paidRemoved": [
+          [
+            "u",
+            2
+          ],
+          [
+            "Q_minus_one",
+            2
+          ]
+        ],
+        "unpaid": {
+          "content": "1",
+          "factors": [
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 1,
+              "terms": 3,
+              "multiplicity": 1,
+              "sha256": "edfb036f8b1a643e5b56c7ca6d46253cc81d2f88963c90698c75eeaa0ddda8ba",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  0,
+                  "2"
+                ],
+                [
+                  0,
+                  1,
+                  "1"
+                ],
+                [
+                  0,
+                  0,
+                  "-2"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 2,
+              "terms": 4,
+              "multiplicity": 1,
+              "sha256": "842c7148d0914ee017f211dcba5b0a99c95420cccdf94dd9ab195bfc6e661cd4",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  1,
+                  "1"
+                ],
+                [
+                  1,
+                  0,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "-2"
+                ],
+                [
+                  0,
+                  0,
+                  "2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09649223799351603
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fullDegrees": [
+          5,
+          4
+        ],
+        "fullTerms": 16,
+        "paidRemoved": [
+          [
+            "u",
+            2
+          ],
+          [
+            "Q_minus_one",
+            2
+          ]
+        ],
+        "unpaid": {
+          "content": "4",
+          "factors": [
+            {
+              "degrees": [
+                3,
+                2
+              ],
+              "totalDegree": 4,
+              "terms": 8,
+              "multiplicity": 1,
+              "sha256": "1df766be0c1112068aeae47dfc5768f0d4e2f67db2f556126b63c8c59405969f",
+              "coefficients_u_Q": [
+                [
+                  3,
+                  1,
+                  "4"
+                ],
+                [
+                  3,
+                  0,
+                  "-4"
+                ],
+                [
+                  2,
+                  1,
+                  "-12"
+                ],
+                [
+                  2,
+                  0,
+                  "8"
+                ],
+                [
+                  1,
+                  2,
+                  "1"
+                ],
+                [
+                  1,
+                  1,
+                  "8"
+                ],
+                [
+                  1,
+                  0,
+                  "-4"
+                ],
+                [
+                  0,
+                  2,
+                  "-2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09678420799900778
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "fullDegrees": [
+          6,
+          4
+        ],
+        "fullTerms": 23,
+        "paidRemoved": [
+          [
+            "u",
+            2
+          ],
+          [
+            "Q_minus_one",
+            1
+          ]
+        ],
+        "unpaid": {
+          "content": "1",
+          "factors": [
+            {
+              "degrees": [
+                4,
+                3
+              ],
+              "totalDegree": 6,
+              "terms": 18,
+              "multiplicity": 1,
+              "sha256": "78345e374638573064a4950c89eaa6b745edaa9626526affcf44bbca9728dd72",
+              "coefficients_u_Q": [
+                [
+                  4,
+                  2,
+                  "8"
+                ],
+                [
+                  4,
+                  1,
+                  "-16"
+                ],
+                [
+                  4,
+                  0,
+                  "8"
+                ],
+                [
+                  3,
+                  2,
+                  "-32"
+                ],
+                [
+                  3,
+                  1,
+                  "64"
+                ],
+                [
+                  3,
+                  0,
+                  "-32"
+                ],
+                [
+                  2,
+                  3,
+                  "-2"
+                ],
+                [
+                  2,
+                  2,
+                  "54"
+                ],
+                [
+                  2,
+                  1,
+                  "-102"
+                ],
+                [
+                  2,
+                  0,
+                  "52"
+                ],
+                [
+                  1,
+                  3,
+                  "6"
+                ],
+                [
+                  1,
+                  2,
+                  "-47"
+                ],
+                [
+                  1,
+                  1,
+                  "80"
+                ],
+                [
+                  1,
+                  0,
+                  "-40"
+                ],
+                [
+                  0,
+                  3,
+                  "-4"
+                ],
+                [
+                  0,
+                  2,
+                  "18"
+                ],
+                [
+                  0,
+                  1,
+                  "-26"
+                ],
+                [
+                  0,
+                  0,
+                  "12"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.0978532709996216
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "fullDegrees": [
+          7,
+          3
+        ],
+        "fullTerms": 18,
+        "paidRemoved": [
+          [
+            "u",
+            3
+          ],
+          [
+            "u_minus_one",
+            1
+          ],
+          [
+            "Q_minus_one",
+            1
+          ]
+        ],
+        "unpaid": {
+          "content": "-1",
+          "factors": [
+            {
+              "degrees": [
+                3,
+                2
+              ],
+              "totalDegree": 4,
+              "terms": 10,
+              "multiplicity": 1,
+              "sha256": "0b63ea73a8b4cfedde8a7a723304b721deb7ae87870d4e1bf8c4e3c409d554f5",
+              "coefficients_u_Q": [
+                [
+                  3,
+                  1,
+                  "4"
+                ],
+                [
+                  3,
+                  0,
+                  "-4"
+                ],
+                [
+                  2,
+                  1,
+                  "-12"
+                ],
+                [
+                  2,
+                  0,
+                  "12"
+                ],
+                [
+                  1,
+                  2,
+                  "-1"
+                ],
+                [
+                  1,
+                  1,
+                  "14"
+                ],
+                [
+                  1,
+                  0,
+                  "-12"
+                ],
+                [
+                  0,
+                  2,
+                  "2"
+                ],
+                [
+                  0,
+                  1,
+                  "-6"
+                ],
+                [
+                  0,
+                  0,
+                  "4"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09823075999884168
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "fullDegrees": [
+          6,
+          4
+        ],
+        "fullTerms": 23,
+        "paidRemoved": [
+          [
+            "u",
+            2
+          ],
+          [
+            "Q_minus_one",
+            2
+          ]
+        ],
+        "unpaid": {
+          "content": "1",
+          "factors": [
+            {
+              "degrees": [
+                4,
+                2
+              ],
+              "totalDegree": 5,
+              "terms": 13,
+              "multiplicity": 1,
+              "sha256": "5429c21a077adb4d7df2bda78a59ceb749b99f401e8ce00f01c8664327e68c67",
+              "coefficients_u_Q": [
+                [
+                  4,
+                  1,
+                  "8"
+                ],
+                [
+                  4,
+                  0,
+                  "-8"
+                ],
+                [
+                  3,
+                  1,
+                  "-40"
+                ],
+                [
+                  3,
+                  0,
+                  "40"
+                ],
+                [
+                  2,
+                  2,
+                  "-2"
+                ],
+                [
+                  2,
+                  1,
+                  "78"
+                ],
+                [
+                  2,
+                  0,
+                  "-68"
+                ],
+                [
+                  1,
+                  2,
+                  "5"
+                ],
+                [
+                  1,
+                  1,
+                  "-64"
+                ],
+                [
+                  1,
+                  0,
+                  "48"
+                ],
+                [
+                  0,
+                  2,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "18"
+                ],
+                [
+                  0,
+                  0,
+                  "-12"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09854402299970388
+      },
+      {
+        "stage": "new_general_ell_zero_original_quadratic_head",
+        "columns": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "fullDegrees": [
+          5,
+          3
+        ],
+        "fullTerms": 11,
+        "paidRemoved": [
+          [
+            "u",
+            3
+          ],
+          [
+            "Q_minus_one",
+            1
+          ]
+        ],
+        "unpaid": {
+          "content": "1/2",
+          "factors": [
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 1,
+              "terms": 3,
+              "multiplicity": 1,
+              "sha256": "edfb036f8b1a643e5b56c7ca6d46253cc81d2f88963c90698c75eeaa0ddda8ba",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  0,
+                  "2"
+                ],
+                [
+                  0,
+                  1,
+                  "1"
+                ],
+                [
+                  0,
+                  0,
+                  "-2"
+                ]
+              ]
+            },
+            {
+              "degrees": [
+                1,
+                1
+              ],
+              "totalDegree": 2,
+              "terms": 4,
+              "multiplicity": 1,
+              "sha256": "842c7148d0914ee017f211dcba5b0a99c95420cccdf94dd9ab195bfc6e661cd4",
+              "coefficients_u_Q": [
+                [
+                  1,
+                  1,
+                  "1"
+                ],
+                [
+                  1,
+                  0,
+                  "-2"
+                ],
+                [
+                  0,
+                  1,
+                  "-2"
+                ],
+                [
+                  0,
+                  0,
+                  "2"
+                ]
+              ]
+            }
+          ],
+          "entireProductMultipliedBack": true
+        },
+        "allPaidProductsMultipliedBack": true,
+        "globalUnitOnWholeRemainingEllZeroChart": false,
+        "seconds": 0.09878502599895
+      },
+      {
+        "stage": "new_general_ell_zero_original_additional_structure",
+        "name": "Rt",
+        "fullDegrees": [
+          2,
+          1,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 11,
+        "quadraticCoefficients": [
+          {
+            "monomial": [
+              1,
+              1,
+              0
+            ],
+            "paidRemoved": [
+              [
+                "Q",
+                1
+              ]
+            ],
+            "unpaid": {
+              "content": "-4",
+              "factors": [],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              1,
+              0,
+              1
+            ],
+            "paidRemoved": [
+              [
+                "u",
+                1
+              ]
+            ],
+            "unpaid": {
+              "content": "-2",
+              "factors": [],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              0,
+              1,
+              1
+            ],
+            "paidRemoved": [
+              [
+                "u",
+                1
+              ]
+            ],
+            "unpaid": {
+              "content": "2",
+              "factors": [],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              0,
+              0,
+              2
+            ],
+            "paidRemoved": [
+              [
+                "u",
+                1
+              ]
+            ],
+            "unpaid": {
+              "content": "1",
+              "factors": [],
+              "entireProductMultipliedBack": true
+            }
+          }
+        ],
+        "originalRowInverseOrValueVerified": true,
+        "seconds": 0.09924621199752437
+      },
+      {
+        "stage": "new_general_ell_zero_original_additional_structure",
+        "name": "Ry",
+        "fullDegrees": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "terms": 9,
+        "quadraticCoefficients": [
+          {
+            "monomial": [
+              1,
+              1,
+              0
+            ],
+            "paidRemoved": [],
+            "unpaid": {
+              "content": "-2",
+              "factors": [],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              0,
+              2,
+              0
+            ],
+            "paidRemoved": [
+              [
+                "Q_minus_one",
+                1
+              ]
+            ],
+            "unpaid": {
+              "content": "-2",
+              "factors": [],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              0,
+              1,
+              1
+            ],
+            "paidRemoved": [
+              [
+                "u",
+                1
+              ]
+            ],
+            "unpaid": {
+              "content": "1",
+              "factors": [],
+              "entireProductMultipliedBack": true
+            }
+          }
+        ],
+        "originalRowInverseOrValueVerified": true,
+        "seconds": 0.09946536199277034
+      },
+      {
+        "stage": "new_general_ell_zero_original_additional_structure",
+        "name": "Dphysical",
+        "fullDegrees": [
+          4,
+          2,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "terms": 114,
+        "quadraticCoefficients": [
+          {
+            "monomial": [
+              2,
+              0,
+              0
+            ],
+            "paidRemoved": [
+              [
+                "u_minus_one",
+                2
+              ],
+              [
+                "Q_minus_one",
+                2
+              ]
+            ],
+            "unpaid": {
+              "content": "-1/4",
+              "factors": [],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              1,
+              1,
+              0
+            ],
+            "paidRemoved": [
+              [
+                "u_minus_one",
+                2
+              ],
+              [
+                "Q_minus_one",
+                2
+              ]
+            ],
+            "unpaid": {
+              "content": "1/2",
+              "factors": [
+                {
+                  "degrees": [
+                    1,
+                    0
+                  ],
+                  "totalDegree": 1,
+                  "terms": 2,
+                  "multiplicity": 1,
+                  "sha256": "b174dc6bbfce2322e4721ca4b9c03cb9bf631be0b7c871b50c2cf010c096be2f",
+                  "coefficients_u_Q": [
+                    [
+                      1,
+                      0,
+                      "2"
+                    ],
+                    [
+                      0,
+                      0,
+                      "-1"
+                    ]
+                  ]
+                }
+              ],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              1,
+              0,
+              1
+            ],
+            "paidRemoved": [
+              [
+                "u",
+                1
+              ],
+              [
+                "u_minus_one",
+                1
+              ],
+              [
+                "Q_minus_one",
+                1
+              ]
+            ],
+            "unpaid": {
+              "content": "-1/8",
+              "factors": [
+                {
+                  "degrees": [
+                    1,
+                    1
+                  ],
+                  "totalDegree": 1,
+                  "terms": 3,
+                  "multiplicity": 1,
+                  "sha256": "39e92ff8883590023d774bb0eac2733fd340631603e2b2a37b355d75b09e21ae",
+                  "coefficients_u_Q": [
+                    [
+                      1,
+                      0,
+                      "4"
+                    ],
+                    [
+                      0,
+                      1,
+                      "1"
+                    ],
+                    [
+                      0,
+                      0,
+                      "-4"
+                    ]
+                  ]
+                }
+              ],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              0,
+              2,
+              0
+            ],
+            "paidRemoved": [
+              [
+                "u_minus_one",
+                2
+              ],
+              [
+                "Q_minus_one",
+                2
+              ]
+            ],
+            "unpaid": {
+              "content": "-1/4",
+              "factors": [
+                {
+                  "degrees": [
+                    1,
+                    0
+                  ],
+                  "totalDegree": 1,
+                  "terms": 2,
+                  "multiplicity": 2,
+                  "sha256": "b174dc6bbfce2322e4721ca4b9c03cb9bf631be0b7c871b50c2cf010c096be2f",
+                  "coefficients_u_Q": [
+                    [
+                      1,
+                      0,
+                      "2"
+                    ],
+                    [
+                      0,
+                      0,
+                      "-1"
+                    ]
+                  ]
+                }
+              ],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              0,
+              1,
+              1
+            ],
+            "paidRemoved": [
+              [
+                "u",
+                1
+              ],
+              [
+                "u_minus_one",
+                1
+              ],
+              [
+                "Q_minus_one",
+                1
+              ]
+            ],
+            "unpaid": {
+              "content": "1/8",
+              "factors": [
+                {
+                  "degrees": [
+                    1,
+                    0
+                  ],
+                  "totalDegree": 1,
+                  "terms": 2,
+                  "multiplicity": 1,
+                  "sha256": "b174dc6bbfce2322e4721ca4b9c03cb9bf631be0b7c871b50c2cf010c096be2f",
+                  "coefficients_u_Q": [
+                    [
+                      1,
+                      0,
+                      "2"
+                    ],
+                    [
+                      0,
+                      0,
+                      "-1"
+                    ]
+                  ]
+                },
+                {
+                  "degrees": [
+                    1,
+                    1
+                  ],
+                  "totalDegree": 1,
+                  "terms": 3,
+                  "multiplicity": 1,
+                  "sha256": "39e92ff8883590023d774bb0eac2733fd340631603e2b2a37b355d75b09e21ae",
+                  "coefficients_u_Q": [
+                    [
+                      1,
+                      0,
+                      "4"
+                    ],
+                    [
+                      0,
+                      1,
+                      "1"
+                    ],
+                    [
+                      0,
+                      0,
+                      "-4"
+                    ]
+                  ]
+                }
+              ],
+              "entireProductMultipliedBack": true
+            }
+          },
+          {
+            "monomial": [
+              0,
+              0,
+              2
+            ],
+            "paidRemoved": [
+              [
+                "u",
+                2
+              ]
+            ],
+            "unpaid": {
+              "content": "-1/64",
+              "factors": [
+                {
+                  "degrees": [
+                    1,
+                    1
+                  ],
+                  "totalDegree": 1,
+                  "terms": 3,
+                  "multiplicity": 2,
+                  "sha256": "39e92ff8883590023d774bb0eac2733fd340631603e2b2a37b355d75b09e21ae",
+                  "coefficients_u_Q": [
+                    [
+                      1,
+                      0,
+                      "4"
+                    ],
+                    [
+                      0,
+                      1,
+                      "1"
+                    ],
+                    [
+                      0,
+                      0,
+                      "-4"
+                    ]
+                  ]
+                }
+              ],
+              "entireProductMultipliedBack": true
+            }
+          }
+        ],
+        "originalRowInverseOrValueVerified": true,
+        "seconds": 0.10230949199467432
+      },
+      {
+        "stage": "new_general_ell_zero_original_head_atlas_complete",
+        "noWOrQBoundaryAssumed": true,
+        "all15OriginalMinorsFormed": true,
+        "globalUnitFourQuadraticHeads": [],
+        "originalGramE0N0P1AndWeightedNPVerified": true,
+        "DphysicalMinusT2": true,
+        "sourceSHA256": "6e7d8506afb99bf4ecf6984d8ee5dbb7d5d60e364b14377f65acc095c2d2cfb8",
+        "peakRssKiB": 29824,
+        "entireEllZeroExcluded": false,
+        "ordinaryISPClaim": false,
+        "seconds": 0.10249350999947637
+      }
+    ]
+  }
+}
