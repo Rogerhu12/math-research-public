@@ -1,0 +1,71 @@
+{
+  "schema": "isp-Phi-exceptional-S-first-phi-common-divisor-lift-actual-inconsistent-v1",
+  "runId": 46049433900,
+  "jobId": 140676783879,
+  "records": [
+    {
+      "after": "0526ab6b035556abf0c9051e1a69c11afb6f6566",
+      "before": "6a249d1f6870908d5feb18dfcdb716f68ff53256",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T18:26:23.292148+00:00"
+    },
+    {
+      "rows": 32,
+      "unknowns": 16,
+      "augmentedColumns": 17,
+      "sameUnknown": "h in K[rho]/g4",
+      "actualEquations": [
+        "(F/g4)*h=E_F mod g4",
+        "(G/g4)*h=E_G mod g4"
+      ],
+      "trueQQOriginalPhiDivisionProducts": 59,
+      "old88And208MatricesNotRecomputed": true,
+      "noOriginalConstantValueReturnReplayed": true,
+      "stage": "new_actual_first_phi_error_common_divisor_lift_linear_input",
+      "seconds": 0.0887973649999978
+    },
+    {
+      "augmentedQQRank": 17,
+      "noFullDegreeFourCommonDivisorModuloPhiSquaredProduced": true,
+      "exactQQPhiEightNotClaimed": true,
+      "existing112BoundUnchanged": true,
+      "noInferenceAgainstPartialHigherOrderKernelLifts": true,
+      "ordinaryISPClaim": false,
+      "stage": "accurate_new_full_common_divisor_first_phi_lift_inconsistent",
+      "seconds": 0.08961072999999686
+    },
+    {
+      "elapsed_seconds": 0.1527207199999978,
+      "max_child_rss_kib": 39952,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "0526ab6b035556abf0c9051e1a69c11afb6f6566",
+          "before": "6a249d1f6870908d5feb18dfcdb716f68ff53256",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T18:26:23.292148+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46049433900",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "6a249d1f6870908d5feb18dfcdb716f68ff53256",
+      "source_exit_code": 0,
+      "source_git_blob": "a2bd84ccb8f16b8f6ee270d363a92ce3d5e161e5",
+      "source_sha256": "59d367f3e01d96b9a1e9cb2ce415a6304b1fbef62dfed9fd6f2842fa0df4dab6",
+      "stdout_bytes": 732,
+      "stdout_sha256": "3d30faa9a46dcdeef88b23d2005fc1242588e821f4256c18ba0b203d57cb649c",
+      "stop_reason": null
+    }
+  ],
+  "preciseConclusion": "full degree-four monic common-divisor lift modulo phi^2 inconsistent; partial higher kernel lifts unresolved; strict 112 bound unchanged"
+}
