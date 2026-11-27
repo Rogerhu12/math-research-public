@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [整个一般J=Q面完全排除及全图四二次头](͏results/R150-appendix-unit211-general-J-equals-Q-complete-original-exclusion.md)：H0与非线性全覆盖合两剩余有理线的原QQ Bézout1；全一般图可付J−Q、Pf和既定四二次头，三次一致性继续。
+
 - [整个W有限y=1的完整原系统排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-y-one-complete-original-exclusion.md)：全QQ四次覆盖上五原行组合恰u²，59个真逆与所有分母/单位返回完成；合法支付y−1，继续整个余W。
 
 - [一般J=Q严格Gauss排非线性候选、仅余两有理线和19权点](results/R150-appendix-unit211-general-J-equals-Q-strict-Gauss-two-rational-lines-and-19-weight-bound.md)：四新原余子式/固定投影经真实局部整首一锚，325次非线性全闭；两线分别≤3/16，接全部原D返回。

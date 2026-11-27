@@ -5,12 +5,12 @@
 ## 目标与规矩
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 1989297e5bb4149047b0284de33dca22bd2ba705（2026-11-27 09:38:27 UTC，Actions run45975359804实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45975359804-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 09:38:27 UTC/d1b4956882982011e3da343d15b0dcf4ddca1478，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 0a12e4d1cefc205421c15c71ff61163cdb658798（2026-11-27 09:42:19 UTC，Actions run45975885700实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/45975885700-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 09:42:19 UTC/7b554bb5a896abdee1f1470c7bd875c24726dc75，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `1989297e5bb4149047b0284de33dca22bd2ba705`（2026-11-27 09:38:08 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `0a12e4d1cefc205421c15c71ff61163cdb658798`（2026-11-27 09:41:59 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-green-two-coordinate-moments-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-entire-general-JQ-closure-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -33,7 +33,7 @@
 
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **一般T0=0全闭，可付T0。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
-- **一般J=Q整H0及325次非线性权覆盖全闭。** 四新原cofactor经实际1009局部整首一Gauss，348→278→138→19、非线性325→257→119→0（c082809a，11.608秒/exit0）。仅余u=1/2、2/3两整线，权点分别≤3/16；全降首项纤维保留。新c65802c3直接原48×35/物理D两线QQ返回待实际，线未付；旧642次投影不重跑。
+- **整个一般J=Q已闭，连T0付Pf=T0(J−Q)。** H0完整QQ2、642/348覆盖和325非线性严格Gauss合最后u半/u三分之二整线原48×35常数身份；16/28与14/23次QQ Bézout均1（c65802c3，4.375秒/exit0）。一般固定四二次头det=2u⁴Q(Q−1)³M²ell T0(J−Q)现全图单位；不自动推单项式序/六生成。直接接一般三次一致性，不再重跑JQ。
 
 ### rankH3原ess6
 
