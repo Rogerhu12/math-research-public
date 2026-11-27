@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Q=1−u 完整投影的精确2265次与三处重数](results/R150-appendix-unit211-Q1minusU-exact-2265-projection-and-three-multiplicities.md)：严格Hadamard/Cauchy整数界及233个不同已证素数付全特征零次数/重数，余1382次局部整首一投影；仍未排空边界。
+
 - [W 全三次头覆盖与整图六生成元](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-cubic-cover-and-global-six-generators.md)：实际6×4十五子式与初等对偶三次证明给全图主开覆盖、左逆存在及原商六生成/纤维长度≤6；保留所有有限原值返回，未判空。
 
 - [R12 解析理想像、同一循环闭包与强制来源发散](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)：已证明；原Haar同g的全部解析不变流形共享循环闭包，真闭理想的实际Sobolev来源逼近必范数发散。

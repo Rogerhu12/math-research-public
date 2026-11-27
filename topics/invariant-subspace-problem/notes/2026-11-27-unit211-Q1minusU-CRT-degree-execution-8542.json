@@ -1,0 +1,65 @@
+{
+  "schema": "isp-Qboundary-exact-CRT-complete-actual-receipt-v1",
+  "actions_run_id": 45964240198,
+  "actions_job_id": 140389007926,
+  "execution": {
+    "elapsed_seconds": 106.56773152599999,
+    "max_child_rss_kib": 66616,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e9d68ec2c50a28a66ddb1b70c87ee0d40a6c74d0",
+        "before": "e9d68ec2c50a28a66ddb1b70c87ee0d40a6c74d0",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T08:15:29.574877+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45964240198",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "e9d68ec2c50a28a66ddb1b70c87ee0d40a6c74d0",
+    "source_exit_code": 0,
+    "source_git_blob": "e49ffebeccbd6bb459ffa0c07a487428563ba196",
+    "source_sha256": "30e48b9ccaa13c7ad39e5daeb3d0385326b09def0d84cdd8c5ad62757445f657",
+    "stdout_bytes": 200524,
+    "stdout_sha256": "61e7cc8b9161226669e4e908da70e4ba92c1a3e312cbeddeed34163ebb248232",
+    "stop_reason": null
+  },
+  "final": {
+    "stage": "new_complete_original_QQ_degree_and_three_multiplicity_CRT_certificate",
+    "integerInputSHA256": "9947f70fdbf02c61f8deb427337f1e6038e6d531eb6291d81c4ac787ceea8ff9",
+    "exactQQDegree": 2265,
+    "exactQQMultiplicities": {
+      "h": 304,
+      "h_minus_one": 47,
+      "h_minus_two": 532
+    },
+    "remainingQQDegree": 1382,
+    "prime1009LeadingCoefficientIsUnit": true,
+    "monicLinearFactorsHaveExactQQDivisibility": true,
+    "distinctVerifiedPrimes": 233,
+    "newlyVerifiedPrimes": 233,
+    "priorVerifiedPrimeCount": 0,
+    "primeProductBits": 6947,
+    "boundSquaredBits": 13846,
+    "strictIntegerInequalityVerified": true,
+    "primeProductSHA256": "27aba0349386ef3fbc3a4ab333a1b9c8fa08f4508142270e58bb66911158d78c",
+    "sourceSHA256": "30e48b9ccaa13c7ad39e5daeb3d0385326b09def0d84cdd8c5ad62757445f657",
+    "sourceChain": [
+      "30e48b9ccaa13c7ad39e5daeb3d0385326b09def0d84cdd8c5ad62757445f657"
+    ],
+    "checkpoint": "/home/runner/work/_temp/isp-equal-six-source.checkpoint.json",
+    "peakRssKiB": 66336,
+    "completeQQResultantCoefficientsComputed": false,
+    "finiteOriginalCandidatesStillToReturn": true,
+    "wholeQBoundaryExcluded": false,
+    "ordinaryISPClaim": false,
+    "seconds": 106.484243539
+  },
+  "checkpoint_recovered_from_actual_complete_log": true
+}

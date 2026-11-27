@@ -1,0 +1,3303 @@
+{
+  "boundExponent": 29,
+  "boundSquaredBits": 13846,
+  "certificateType": "strict_integer_height_and_distinct_prime_zero_coefficients",
+  "clearingDenominators": [
+    "8388608",
+    "2097152"
+  ],
+  "completeQQResultantCoefficientsComputed": false,
+  "currentRunNewCount": 233,
+  "degreeTarget": 2265,
+  "elapsedSeconds": 106.37237531099998,
+  "integerInputSHA256": "9947f70fdbf02c61f8deb427337f1e6038e6d531eb6291d81c4ac787ceea8ff9",
+  "multiplicityTargets": [
+    304,
+    47,
+    532
+  ],
+  "primeProductBits": 6947,
+  "primeProductHex": "0x47c63453dcb0183b6668bdc4b2cfe80799328519133346db92a9c826d3aeca65baaff2e781256c45ed7056795ad4b9ff10e7bf0304543b5ba4c1991e23cee969d1e182f4cc8952e99284819ff2965aef0711440cd574dd7328aba6d10e70ea709943a1bd8422a831510831b14e210e55e3f2633b26ba17099547e68bb4c9e1662a69d4e45d6aacf564d2e827c004686774f72aa28168db46731dc28c4016917a7cd6fcfcdc795dde6cf9fcedc4aa38c8f1c90dc20cb20e78ee9e1d5bb6dc5c0f2364d1034535fcf26c2b9978f6722f089802400d28847340f302af837835e193316f6d3563944964372c8b742da41e95f56de67663dd09ce9f9d7b8f9d4a9815c1c152e606f64ff856ba3e6ad8398dee92d4065d9f7969117373eba5eb7b0a8d6b02f69380dac9c66d4bf2d27ac033a11c63b1e28eb60be9c6e71c373154eee2402948625b996f54de896db1426a51fd23002f015def46f58e82fb8923f3c42cf8f13b3880f5adf0febf69b1c7b126cb24b229e5abd914c6dfe8d10759ea223cd23a6e31fdf557a24bc9fc95405fe042925500f9da9c4c9bdf038c8341be700ec89fa3489dbc827c4a92f18e234b5957003eb3e6c5c7550c1a98ed520131dbd71732c1da2d523402089fd043a8b0ee6ed4841678eccc378092f6119a4ba4fb0fccab2e87b9a2eed97b90221b6c3dd5783aef8777741fea6eaf83faf0e1162d15096e68d3e49d39401824e7ed0695e2751c76bf1c4c0424a319319571d29dc529755fcee9f9a2b19ad410b7ce2d6642ba796566df489b3bef32c346b04434e6c9152cf3873c7c0dccb8196636e7415cb31e37e27ff13c18e6a277180e6df11333a8a571f5c0160201afa1b43b5a8dfd7528c2285c9c2603a9054553bd03f0fd55bd16b0d9a6076f989905d91fff85331e21bcbb937a5a3ff239c89dbbad4a0228edf3d5f5facc76ec95bdcf73c628787e82c8dcfd940a51322eef9e8d6e41247d7b6775df6cb7ca556dcb675e93070eb14c4bb8142d97b3f3d646f58bd53071c68523245bf80f13bba84426ce6271aba0ebf4d3646ceff6e1734531b125238f7dd17405d393ee637eda4e1549ba17c8d8403625272edb1acef93649556206e258b0b61f3ab42abc64a344159ee99e59547d58f9387e1701d9cc110c27ee3fa6863c0e00a90f2e30fbccde3146401d865cf1ff55d236955f8be9120334fb87cffcdef17abad",
+  "priorVerifiedPrimeCount": 0,
+  "skippedPrimes": [],
+  "sourceChain": [
+    "30e48b9ccaa13c7ad39e5daeb3d0385326b09def0d84cdd8c5ad62757445f657"
+  ],
+  "sourceSHA256": "30e48b9ccaa13c7ad39e5daeb3d0385326b09def0d84cdd8c5ad62757445f657",
+  "squaredRowBounds": [
+    "2333979311779071316814257412623925508221581754557474970334402329667193432",
+    "223593804070326661387214912131268677628974184172760602771171105439566208"
+  ],
+  "status": "proved",
+  "strictThresholdReached": true,
+  "symbolicFixedSylvesterOrder": 58,
+  "symbolicHDegreeUpperBound": 2465,
+  "symbolicUDegrees": [
+    29,
+    29
+  ],
+  "verifiedPrimeRows": [
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 177,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1009,
+      "resultantDegree": 2265,
+      "resultantSHA256": "4bbf2b06087aef3b0c83a2490806cef540f7c022ea657c18ecae1710b823793d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 231966340,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000007,
+      "resultantDegree": 2265,
+      "resultantSHA256": "988ea2efe7cb3818c5150edb41d75fdb0de9fefa3e4a72cd8e70bce728d817e3",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 636813348,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000009,
+      "resultantDegree": 2265,
+      "resultantSHA256": "380e5c0fd170e79cec97955ec750e4b05e395dc858a996fba4cdc49dfe7b60e4",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 996442457,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000021,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8b874e8b797b34b397e3f7b7dfdf02bb3e82c49b54f33874ad00d2d6bafcb716",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 288008550,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000033,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a45671e2907098302accc86ead1d3fca428b191118a94c63b287575a37a5ef65",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 726300961,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000087,
+      "resultantDegree": 2265,
+      "resultantSHA256": "78af2aa25e71d91c7c3b56537a74ea04b784aa30958a47c160c3878a62dc03c4",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 917050628,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000093,
+      "resultantDegree": 2265,
+      "resultantSHA256": "bf33ed3874f74dbb8622027aada6d0f8210b984d8ae6b87840a820f7f8a7f03c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 292926127,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000097,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8d5ef944fe62e7c522f277906b54e97ba35d08fb0df12501fddb7f8328a296ec",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 613767197,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000103,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a31b765f0fd3e1ff2d89c4d1b6fd994005af570792ffc7902a3003745446584c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 844654096,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000123,
+      "resultantDegree": 2265,
+      "resultantSHA256": "bd003315c992e59d178b1233daab48998fdef841ad02e3a6b46a5dfea555d323",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 308131118,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000181,
+      "resultantDegree": 2265,
+      "resultantSHA256": "35303d633e7e5df49d9f640d474b9ba2f34763efcbb0ebd98914bee9700b6df1",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 195925932,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000207,
+      "resultantDegree": 2265,
+      "resultantSHA256": "afc05cda2eac72e67c997b4c32dfd6fb8ac3766fca77aaaf3051e95315e258a6",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 114461303,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000223,
+      "resultantDegree": 2265,
+      "resultantSHA256": "19a39b167744bb21f9f075ad8f3732b0c555d7e0f0cca63f6174d6a0f49cc425",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 523164630,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000241,
+      "resultantDegree": 2265,
+      "resultantSHA256": "9b71e6a7d5120d6a1ed36b14b58b7d9cae7e9b38378579f28a089246d58865ec",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 774121813,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000271,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0f612082e1504948009fee9b7dcc6497cc205f3bc7d15b50e13c4e5a493b6f8c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 641972157,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000289,
+      "resultantDegree": 2265,
+      "resultantSHA256": "5e238cb284b52165335a3f109c69430e327905118f108a9ea1db42ac0dcaecc2",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 372219907,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000297,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8742dbaeeb935e09437b32325452f7286f8cd80330e7d252ed7cfb1169658a67",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 932105881,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000321,
+      "resultantDegree": 2265,
+      "resultantSHA256": "1f36f6e5ba1a3971e8ffdae97dd54ff429b2f54177619793f279355e19050a27",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 317418970,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000349,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a6fd8f2e139b081ace248759fd5adfb94c127f9c43b3702f30acd1dfb3a4ca87",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 572602752,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000363,
+      "resultantDegree": 2265,
+      "resultantSHA256": "928d027c3f7b3f55ebfa958446d34fa478755994755711dead6542b50df929d2",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 97595238,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000403,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0c04cf956fefa7cfaeef6201ae536d126f0225c3f087e382fac3221bd3ebc61d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 708766842,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000409,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f3f6f37e745b638f6c700c4ee442eafefcc18ef0fecf43f5cbd3a9b4ce49413d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 860645679,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000411,
+      "resultantDegree": 2265,
+      "resultantSHA256": "aad15e6c91d30a90f32faae97de402636d70b4edd447249d7fd3e363ec66f7fd",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 650029484,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000427,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6bb664ae1682b908e27497c98b1f1ff3922e0dced48f007c55a6619732be90d6",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 540003191,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000433,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a2375ab709d83e85192a544ff6e5ca92818754a7dd3764788fd29c0f26ec4d07",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 381920519,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000439,
+      "resultantDegree": 2265,
+      "resultantSHA256": "45bd9aac807f8a90acd17f1ff202b81e23bb881f626bae9394a338c15b6494e7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 370019680,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000447,
+      "resultantDegree": 2265,
+      "resultantSHA256": "aa5d0231dc78a3609c9c76c3a99d532f6a3b3dc1312e8876efe5dce7a142bcf4",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 754304505,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000453,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d9945f43e899d82aba712a0f381a90e25025f6d66278d11410d2f786a66b6c1c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 917120981,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000459,
+      "resultantDegree": 2265,
+      "resultantSHA256": "64873cfd916420eb60ecb41ac47d17d7b91fbcc4843a72e7254992b988b4c534",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 784739526,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000483,
+      "resultantDegree": 2265,
+      "resultantSHA256": "14086acf96ecf1f8561a76cbaf0ec6a0ce72576d3e94a46ee158cb074099885c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 88223246,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000513,
+      "resultantDegree": 2265,
+      "resultantSHA256": "61fd10c488441311d9d1f57b42eebb75b051b70d13a4073abad2b70e5b15cd08",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 583255372,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000531,
+      "resultantDegree": 2265,
+      "resultantSHA256": "557474920ffea456f8ed80a37d15bcfe8971acc3cd90972d51795b8dad87be7b",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 873877603,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000579,
+      "resultantDegree": 2265,
+      "resultantSHA256": "66a999faef9bdce84bc71e13c2f75429233df775140a66732a676597a2558df9",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 447702119,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000607,
+      "resultantDegree": 2265,
+      "resultantSHA256": "04caf97c38ac7f2b8d8dea8030edca8f29e30f4cc0099c1d51f98c0add8aee10",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 595490482,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000613,
+      "resultantDegree": 2265,
+      "resultantSHA256": "25c0a8cba2591245bb41096fc3bc93a9a9082b02672508678a026418038669f5",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 265467556,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000637,
+      "resultantDegree": 2265,
+      "resultantSHA256": "14ddbae7f7154a367dbdbfb862804cd366fc70cabccdba8861724bb45cb5238a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 151952357,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000663,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d05f648b58d63da308e1c0134b3b6909c2d2b6399263eafa3f6a68b8566b3a28",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 886119588,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000711,
+      "resultantDegree": 2265,
+      "resultantSHA256": "9f23a304729990c6de6295cfb417f65caa683fc7d0515fcb240c1b1f17843999",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 178739258,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000753,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c3d6d7663bade79290624245276072180090557c6b7e82c808b60802060c4e88",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 377289319,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000787,
+      "resultantDegree": 2265,
+      "resultantSHA256": "97ce44340c24d2fc078493268ecbb64d313f747a191d0369139dbc49ef94b3c7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 489903061,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000801,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a3c2aeecdd572d60b3e865c90db5eaf04cb68a56b1f976f29b542b7ce238b96a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 411719179,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000829,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b527dc70321d8f6c21128cc029f5092b693ad6de7748714fc061e536b967dcf9",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 659155965,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000861,
+      "resultantDegree": 2265,
+      "resultantSHA256": "12691faa64007a4753de12f3fdbbbefff053060f6e9ad805befd0d4c78cd6ae6",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 237477452,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000871,
+      "resultantDegree": 2265,
+      "resultantSHA256": "56240c625acb12798bf908e0fe2531d5f54c0ec6ba345bf6880db075b0036a37",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 67225790,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000891,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c9269957bae33b0280cd121e551a75f55024ce273b23115e48dc3673444bc51d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 645019883,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000901,
+      "resultantDegree": 2265,
+      "resultantSHA256": "77f4dd6760f610e792cab5fb25fcffe4d80da0e7800cd9268d73499bb50f4309",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 56662290,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000919,
+      "resultantDegree": 2265,
+      "resultantSHA256": "75c07d0bcb6fb5b15f17c7c2a5b64b2f0f5d6d985a1beb370f07d106eb09fbd0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 923934975,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000931,
+      "resultantDegree": 2265,
+      "resultantSHA256": "4561927a498abaab436f1f2ced70dd61bd171c27eb503cfd094e136fc49c0454",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 777716331,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000933,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b9cab2580e52c6244f21bdfb2f4582fb3ceed8492e612cfb3ad0bb003abd044e",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 371325363,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000000993,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2cde35ce0b365e1d076b74b80a863a7056726012d4d6adc9e39a6de70925e4ec",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 434509461,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001011,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6c1106278d65216b4afebeeaf661aa15df90f7bd2e47aae1b9e83425f7de9450",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 68320920,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001021,
+      "resultantDegree": 2265,
+      "resultantSHA256": "96d607b500a72c4a4779850f7eb521caa69b45bac8ce9efc66b3797d2eeb1124",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 279409280,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001053,
+      "resultantDegree": 2265,
+      "resultantSHA256": "31d1bf5e99cb6c9c462c0f52d2ed8e5ded49c07602139f6f5ad84d420e576b9a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 210297437,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001087,
+      "resultantDegree": 2265,
+      "resultantSHA256": "791037b1d3e5ba16acd8715bf4f0eb1383007064a00975e79881ca200cd19fc6",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 966044896,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001099,
+      "resultantDegree": 2265,
+      "resultantSHA256": "46a06c2477c32989493cec056a64c10fde83258e300d04825b87a06df847da61",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 686698579,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001137,
+      "resultantDegree": 2265,
+      "resultantSHA256": "97c3f9955a818e83e1c842cc4cccc1e757c4053a3469d4c07a421740aba23267",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 615499867,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001161,
+      "resultantDegree": 2265,
+      "resultantSHA256": "49d7583cc01db087d9e8542113865ba386e97e940913e3bdc717259aca29711a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 181115392,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001203,
+      "resultantDegree": 2265,
+      "resultantSHA256": "01e23cea37462b3786dd1026e366082a095e26c53498d74473f3d0a0da312ce7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 863412737,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001213,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d8b5e8291db22ca52bec0502edb6b050fe744b05223a0668958415300036612d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 968150408,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001237,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c0ad690c6276207ff9c9330b215b5e8ffa8e6d8668698b2de0e1b86da26b7fd4",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 290390160,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001263,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b6504b27bd446abac8eb0b5f1918374110a730b1273323c4e200ba94b4a6dfe4",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 533645690,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001269,
+      "resultantDegree": 2265,
+      "resultantSHA256": "ec2f037d06f8bba18e7afe6cc81c6dc0b4ca9bec5925028e7a9fbfa413024efa",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 658148231,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001273,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2ffcfdf58db7ed549016debaa87efcc28bae3bd4dffd4334a42991a2ca141bb9",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 190834149,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001279,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d72d59309ebcf5f82c9a45f2d52ac5d43bb513ea4bed36e783d9832f489a9690",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 417340907,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001311,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c15ade6830e9bfb6eda6093035a09b1875be0d84ab5b264d05b53c2913c4bd05",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 242412666,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001329,
+      "resultantDegree": 2265,
+      "resultantSHA256": "5744de024de4e56f92ddc564183fc582703d3a4031918fbdd57f6e461b26f0b7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 648216856,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001333,
+      "resultantDegree": 2265,
+      "resultantSHA256": "aabaa98edafab2747eef69e1f43a9acfccc047740e5da1ec29d355e4ed6cab36",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 227498661,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001351,
+      "resultantDegree": 2265,
+      "resultantSHA256": "cf37515a33a47c12f32f5d6822c10b17035d491c7157d454791067302de0063d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 49239841,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001371,
+      "resultantDegree": 2265,
+      "resultantSHA256": "cd45d82c2fc9816647aea4f91d7cdbab8e1d09aad026131ae576038e74ee8c92",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 219053919,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001393,
+      "resultantDegree": 2265,
+      "resultantSHA256": "134016e4e36ec72848e02936777cac4ba27af4b0d566411cb9b5b7dc4bf508c1",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 428120603,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001413,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8213f5c27faf69cdbbcfe43435f1844a7900099b6728ddbc0c04d2cfefa09c04",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 714999069,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001447,
+      "resultantDegree": 2265,
+      "resultantSHA256": "56248848ccbf8050a28e1ead300d17c562a27d2d21830c373b44f72f94b53a7a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 146950070,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001449,
+      "resultantDegree": 2265,
+      "resultantSHA256": "45b7ace32662a6eba1b5740e5c1e0d02d39f6ce5315fb5e6a167c36d2ad75674",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 651140533,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001491,
+      "resultantDegree": 2265,
+      "resultantSHA256": "796259dff363b2e6b3fcf6a4da39458d3bbde950b2b12096db234d89f745240f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 293320047,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001501,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0089fa1a4ef09bda0616eb64b009a6607b385707dd5129f273f1c8a5f0afc61a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 760021599,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001531,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8012609efe46ddb4a6a3ebec74be4f78eac62125f09b9a9a1160b1a0e94ef77a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 373898810,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001537,
+      "resultantDegree": 2265,
+      "resultantSHA256": "505023721d18fe569dfbfccd3d1e7fe3ae800e8c2a9e146a118f84c863ddc693",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 88631630,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001539,
+      "resultantDegree": 2265,
+      "resultantSHA256": "ddbf31d745818e217adb4245a2523f9223ccc0e36ae7031e1efd4538ad74af74",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 880966289,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001581,
+      "resultantDegree": 2265,
+      "resultantSHA256": "80baebeded8bfc3d1f8cb1095a3c8c48ff6c5ed354ee3ab4e74bd07dc513514b",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 28167849,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001617,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6b10d50c548a460cc7652bf401553b4328a9e01492798c44687c37e51423df31",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 240729717,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001621,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d1d6992fb2217e1f66845749f976278ee875d714035c2ab6ae6940e043736d45",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 165814478,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001633,
+      "resultantDegree": 2265,
+      "resultantSHA256": "422c7344681f07b130007b1c9f86ff3ded9209ed4f87f603c154d1b29fb234d8",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 294942261,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001647,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0ae1d0faeeabca071eb7c4c45ee6d3391bd7712ba2a0b19d6b4d6e3a3a2b4219",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 69987611,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001663,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b1566b9ee0dd4b5cc23cb96e05a158cf1f948619ead940510831208ecee2f8be",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 686807788,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001677,
+      "resultantDegree": 2265,
+      "resultantSHA256": "883b43a28a9dbc11cb3cbec7dc6f9d57a602c74f6f9dd96d47d58de4b87ce068",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 447536406,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001699,
+      "resultantDegree": 2265,
+      "resultantSHA256": "7036b9b5407c21491226ed7e8d2ee9a24de229246cacc2cc90f6ba2c7117b26b",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 435284166,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001759,
+      "resultantDegree": 2265,
+      "resultantSHA256": "29e828cc8cb6832acc208ac79cc16785df3fac22ef0c844ee8348244018393cd",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 461560035,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001773,
+      "resultantDegree": 2265,
+      "resultantSHA256": "4e617509223673b18dacd5f6a6bb2e507e8204227573d46113bec0401b5de866",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 331491690,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001789,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b1c0baca2be6d133bce9d27a03e02e412375b66a38c998ac3b9f5a93d6a8f6c3",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 568643944,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001791,
+      "resultantDegree": 2265,
+      "resultantSHA256": "bf94fe36c7bbe038a35913aac4c24be4df2a7bd546387de8dd1c696d1d87ec99",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 988399289,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001801,
+      "resultantDegree": 2265,
+      "resultantSHA256": "11cf9c767cd70acd2e97b38468a6e210b7bc45ffba06e0c9f1e58905620a55eb",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 653742076,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001803,
+      "resultantDegree": 2265,
+      "resultantSHA256": "89d44fafd678c26eec988c8ed1b97d47505d9785965e7a07c5130b44dc136bbd",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 364849981,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001819,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c2194b381eceb44bc5208a6d5090f650313590d1087c43fb388bb1884949f0b0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 777902957,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001857,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f4bd3d42cd7f5df34a1ad54b1ec688f608bbb51a3417dfe55d3e5ce7b036084e",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 699474805,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001887,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6d2cc2023b62ee46d06d807ead6160337c49854c812e4589b8349535fd1b899a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 618833136,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001917,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0c66afc762c10331747ee498923d0414e5a9b3ab1d3dfd67c24ecd43a36e7e1f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 27917233,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001927,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f3b64d63dc969ef7ebd69cf125db833e0c8c77a8db1d6361bb23c011ffebd7da",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 818677048,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001957,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c6011306ce436d73ea2b3cb0d181b907c69faa507ddf83eb5fa49b298676a449",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 978668046,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001963,
+      "resultantDegree": 2265,
+      "resultantSHA256": "e92e4a5e37a9f9a5b7d6ba6a7d81bbd99abf4fb5f6d5348e729f49ff76422993",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 384517629,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000001969,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f1596ee1af5bc72205709f6ba35db535cef9d5479b72403943cad5737598788a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 275768059,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002043,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2e14167b729084e177161ccd21e3606b26531d056b8597b816a61d66d85469c3",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 609896521,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002089,
+      "resultantDegree": 2265,
+      "resultantSHA256": "09de01aa3d3742bbade9ca1c979f06531b4811543a2af5ebcb7abaec96d58a36",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 260055189,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002103,
+      "resultantDegree": 2265,
+      "resultantSHA256": "47900988234976e6d49da9ea56c11bddbbcf4f2e1c94b3cb0fe1549476acd729",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 912709420,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002139,
+      "resultantDegree": 2265,
+      "resultantSHA256": "649f58dac47aa949d5c4f5a1456084b6a5bdc41a01f6c9d54f9de6706b2519b1",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 173297608,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002149,
+      "resultantDegree": 2265,
+      "resultantSHA256": "33accdf81621f3f88437df0827f9e2a0e1a472d579da2657c4984a331ffa3783",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 5211215,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002161,
+      "resultantDegree": 2265,
+      "resultantSHA256": "77b226df3b43766d2c0665f72d0cb9357555740a08ba39e8f9f6416111568877",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 545922274,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002173,
+      "resultantDegree": 2265,
+      "resultantSHA256": "05cc3ef56e04673b5acb8cf53ff830669d1ed6b795651d4767bf1c0b14905119",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 608554191,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002187,
+      "resultantDegree": 2265,
+      "resultantSHA256": "3cd00d161090d1044ec463f408edf12db3057c2fcf4e5ebbe0a55ca6180f67b7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 311254302,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002193,
+      "resultantDegree": 2265,
+      "resultantSHA256": "673916340ade8a1973291231059e12e157a1be2762209d758d2795b1388771c7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 526617494,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002233,
+      "resultantDegree": 2265,
+      "resultantSHA256": "1e490faa7b08d366c0536a76bda37cf8946bb452ac703674295236a444f84f66",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 325646204,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002239,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8010c9a628537cfb280e6f4e46019fccbc3e7c8fdac2774b97880d6f1636491f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 100252452,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002277,
+      "resultantDegree": 2265,
+      "resultantSHA256": "5918481e97a501245733d9a659d1dff3c178294c6aea6f75eb505de6961a5243",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 417255166,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002307,
+      "resultantDegree": 2265,
+      "resultantSHA256": "22aa4b53097040b51ca21a90d20b637d88d3b1e4017301bb1324601a89ceec6a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 768978192,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002359,
+      "resultantDegree": 2265,
+      "resultantSHA256": "be0eb59e3fe3ea9dfa17a6e7298bf92b9af0f423728c3f2174c595fff29acdb6",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 865910470,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002361,
+      "resultantDegree": 2265,
+      "resultantSHA256": "7804ed64e62bd35f99f0b58c1cf8f6a976e68a07ced9c75cb02cd597437214ae",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 824321210,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002431,
+      "resultantDegree": 2265,
+      "resultantSHA256": "30313910972ed65b2ee6f9c9f283629866546f6fcb6c98f4386053c40028010a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 780630967,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002449,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a500e747ff66b1d490355221a0d7b516695bf64d2def4c6292bd67443e361476",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 439677680,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002457,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b5b124f788c98cb14d0a9cff82d46b3b5166505918ec5ffa51e1792d9a686615",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 942352068,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002499,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d7c8d753524889e288ce34ea193708677f348e9bfaecf20ba57abc8fa16b0422",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 621495633,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002571,
+      "resultantDegree": 2265,
+      "resultantSHA256": "51e45dfa8d963fc15b882a0fe4ab1aff9c9731dfe646f365d1a45887341568dc",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 336081337,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002581,
+      "resultantDegree": 2265,
+      "resultantSHA256": "981a6927ff31aea54701bfea360c3cfbdc8d5a749aa6695e575ab241a45adea1",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 124181102,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002607,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a060627ec02f11a8397970cda4d0c8f5e8d8e706e5da2406ebe09a96b84e01c8",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 396802606,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002631,
+      "resultantDegree": 2265,
+      "resultantSHA256": "153c74158dbea4037b585a36b3f47be2903ec0304962b90a2ab005375cb40e87",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 408685391,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002637,
+      "resultantDegree": 2265,
+      "resultantSHA256": "30b3a4116e66d622b8d51f24829a533aed11d4a7269fdc388d21bd7621efa055",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 137825842,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002649,
+      "resultantDegree": 2265,
+      "resultantSHA256": "ce9d4f77a56804ef104870f4f5eeeb1786849954acd5837e519f9bba3eee26dc",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 958314181,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002667,
+      "resultantDegree": 2265,
+      "resultantSHA256": "ecea575921c9ee009f1a16e24b760d177edf8c4716926254047555fa20c8fed7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 146172167,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002727,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a5e7bbad57093d9d27f7631646a66083d3e55fa5084436a1f19723aa3b16e5d1",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 844640553,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002791,
+      "resultantDegree": 2265,
+      "resultantSHA256": "bd4601473236dbb30301867eec47672a5e52665a42782f40bc341fa21188d157",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 143951841,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002803,
+      "resultantDegree": 2265,
+      "resultantSHA256": "50c44e3811f96f4cec9d990b589a3675ef681bab9688d069aefc0d40623fb77b",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 62329752,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002821,
+      "resultantDegree": 2265,
+      "resultantSHA256": "4248790914754786b6ce5e2652e2a510a0b7e55bd75ee8734f05a08d16204854",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 805513329,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002823,
+      "resultantDegree": 2265,
+      "resultantSHA256": "9d84692f693942e9c0cc21c59fc22660ab2d69eda1b5c5dc3d49bdcc8d6e47b3",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 782534255,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002827,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8d548c829ebb4ef745e4b213b32afff6661839053670626acbe164be6d7c558c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 849619850,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002907,
+      "resultantDegree": 2265,
+      "resultantSHA256": "cdf954d15bdbfc5a3f515d9038863fa3499fb96663c4c5a835c6f715eb803bdd",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 949660113,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002937,
+      "resultantDegree": 2265,
+      "resultantSHA256": "3527b3c57c580134ae0b656aaa51a92487ec2bf9e5fc72516de3ddb8ac0b1e7b",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 809071633,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000002989,
+      "resultantDegree": 2265,
+      "resultantSHA256": "5954f9a59a20e71e4ae99f236ba4da602f5b139ad7d49a53ba7825595fe9df65",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 218476832,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003009,
+      "resultantDegree": 2265,
+      "resultantSHA256": "cec490e170bd91d8845e822ba4cca7e0fa95b99a7b59909e67f3634cb9459213",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 866039155,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003013,
+      "resultantDegree": 2265,
+      "resultantSHA256": "396134cb625a897931e3673dc1041acd474c295dcb3a2e94d899995ce2905712",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 476332160,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003051,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8b915873dfe16e7c6b65e162e29f30150dfffc758a73e6564a31ed8fadd7a103",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 998582523,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003057,
+      "resultantDegree": 2265,
+      "resultantSHA256": "1f4b8005cebfddec0baebdc22cc7e236d9d6741de611c17351e90e6a846db491",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 700652741,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003097,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8c5bfb0255fe85250b80ab23afa32d75dc283f16297c580f2a9e9f7bb4544ee8",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 34499046,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003111,
+      "resultantDegree": 2265,
+      "resultantSHA256": "639a1a7605240d4da9174f88d40211dd4967dbf6a2f131d33d71a70807e688c1",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 581282198,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003133,
+      "resultantDegree": 2265,
+      "resultantSHA256": "429580773b37416e217afbfde42fb09b0d29b9087c624b6191d5f214e88336a7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 569800341,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003153,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f7b93551250bb1402e527d07c23fcd943d995c4abee57885fb9ca34da1fa6181",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 994073997,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003157,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6effea26fd0df64aba92ac7023cf7cdff37d2b9b6aee4f2bb5d95c9d8c4cd9b0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 787575190,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003163,
+      "resultantDegree": 2265,
+      "resultantSHA256": "9e5a790de311fe5983a46dc6339ccaefcbf2918ed2363398835cb9a9fdad0bcc",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 650048211,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003211,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d96cc1c0c387422a56203e982bbc604c3ff6eb06129fc05bdfaee178b460354e",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 256001101,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003241,
+      "resultantDegree": 2265,
+      "resultantSHA256": "fd095a042b7d84d1fade654bed3c3e5b64fc198fdf3bca2077f54b4e6f107b24",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 114319194,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003247,
+      "resultantDegree": 2265,
+      "resultantSHA256": "5ae8a4629404056d83a77e88a7313af66a93fa930b91802d781dde8547130a72",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 168955482,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003253,
+      "resultantDegree": 2265,
+      "resultantSHA256": "170751d446ec82793c79456b5754487b55cb7793d5b90e663c647e112cfb2e65",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 344461827,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003267,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8be260285e8656e38061d64908dbb11d4a56d8e0e6d582894ad0b0092e61688a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 335366621,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003271,
+      "resultantDegree": 2265,
+      "resultantSHA256": "ebb505d239b36faf2d78940529bda70c22ab04160ba4284f99202671e48d9132",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 960802159,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003273,
+      "resultantDegree": 2265,
+      "resultantSHA256": "99ce3865a05918aed7e1776eace05edafa2e5e03a90f656e9408595a40d8018f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 396246735,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003283,
+      "resultantDegree": 2265,
+      "resultantSHA256": "4ec4ec4f8153423edcd9ee5a3ae95da44f5c2acab60ecd50e1bbad8156c619f7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 555151951,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003309,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f6e9782846db59c92f0e6079ebca5eb3d5927d628da145616c61a1d3369a5e39",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 153862362,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003337,
+      "resultantDegree": 2265,
+      "resultantSHA256": "af130a8e88475cc307f4b17a0ce4d2f902369f88f3802a642c18952f3848f65b",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 418930681,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003351,
+      "resultantDegree": 2265,
+      "resultantSHA256": "e5f8711b2fd4f63167bdb93e71a3119dd3f5035c22f2656b197160a153c0076a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 117586883,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003357,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2058633269200335db7a89d84055c3e4bcac39f6da3419cc757439fff3bb6337",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 439698869,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003373,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6bf80cae5981267ae9c21ca402da2690e9a979dd7e14c8450bee587842caf66c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 653726247,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003379,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c653d6d588adc8b97e74b3714e2c7e3dacd6bb585380baf295926b7d78e9d4f0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 169275469,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003397,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8bbda2fb4f73b7b33c1bda02165194f3e65550e3650b196a650fc0d454b65cee",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 414706962,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003469,
+      "resultantDegree": 2265,
+      "resultantSHA256": "424e5fc389ca0f5daf01b731d4955dd252aa2b03ea483b9549cd081358184e91",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 25401174,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003471,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f6175ae5cc69ad90d57b2b82d209d7349e878b419f67b4e9c69ec4fd2c690209",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 599193898,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003513,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8fc6fb85fbafb13242865a4415042dea22de9be7afe86b85b4bd8acd09c1570b",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 795873851,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003519,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b03346a02ee765790287192582fd54a207c1d44062c5b59c2f2f436283bfa0ee",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 851498495,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003559,
+      "resultantDegree": 2265,
+      "resultantSHA256": "db81fd671a0e6731e2752d28d2ef23ecd7eaf037be099f8899adb5fc41408fec",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 759206331,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003577,
+      "resultantDegree": 2265,
+      "resultantSHA256": "dfd2b9ec4176da540d517407475a004fd73fd93d95faf6ab207af300fd571f0a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 161380998,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003579,
+      "resultantDegree": 2265,
+      "resultantSHA256": "3f1663dabf37a2a1ff67723de1cd1da5590b878fae68a7e2689ea7245f54294a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 503381424,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003601,
+      "resultantDegree": 2265,
+      "resultantSHA256": "ed9cc2bcfbaa1818fb9385cfbe94c97a55cba37dfdd6c37c46434eabd14f2fc3",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 607561661,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003621,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f7de2ab3d0935d3e146aa66cd7e1ac8f05971ee226c56a33110a287b5a4ad473",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 85440061,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003643,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c90d110e51c2256b3c55e58a4b0bee2cddf4a2915d696092e56d15d1ff9bc939",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 189962888,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003651,
+      "resultantDegree": 2265,
+      "resultantSHA256": "471ee346f5dec4ce40568529e6a151769e91543f017969fc18861a00daf97973",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 710799712,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003663,
+      "resultantDegree": 2265,
+      "resultantSHA256": "df7d6d6fe14db5e40b644d06681382f21e0d16d1de03f3a9151c032a47b5785d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 858961060,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003679,
+      "resultantDegree": 2265,
+      "resultantSHA256": "e319d0c119339f8503057d32768a6cfd2f56f73eb823741b094cfec547af9cd5",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 54124401,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003709,
+      "resultantDegree": 2265,
+      "resultantSHA256": "72a48613ecae77766385829ed4d2fcf07f5bfd25951d190fc34e2828dac5a567",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 722921044,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003747,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6b843c34d175b619df981aee02cb760baf57e0dea75b0bca1a14f2a7f458c0b4",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 376870138,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003751,
+      "resultantDegree": 2265,
+      "resultantSHA256": "dc52ba4810f15f206d7c83d72cd3fe0bd9fb45c33d72c9661ccd25000ab1871d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 726197220,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003769,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d8b48b8f818e1102203eee2df4c695cae293ac3123640faa081b20fba0843b7e",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 648140914,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003777,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2ff43f0f77c8f3300b0c348402ef7da7f3146edf044e44d68887221eb8c6bbd7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 168848026,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003787,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8538af5153f737ad5e0815f601b546ce27e917b54d8ed545e604b795112c62f3",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 413831628,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003793,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c843b644a7c70fb3b5ed622085f03c92e11d936996eb95acfdb1b24c778bf9db",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 244237978,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003843,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2afdf49a2eb16fcc3c6033654be2d8a0a714c1e16082fc883b575d915b0463b0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 194348897,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003853,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c52b7a0fa80b0b4596d6f8fd44b8080fc8c2c216a60e4f7c046987bb184fa370",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 902116525,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003871,
+      "resultantDegree": 2265,
+      "resultantSHA256": "18f417a32a7c16ec3ebe9992c0387c442daf72b9697461d30345b4ed7799e627",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 953739390,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003889,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f87482e4a8d51b78764f40801cfd73ad9f6a4cb88343d860abbce90b07df4b04",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 434533185,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003891,
+      "resultantDegree": 2265,
+      "resultantSHA256": "59095a2fdc184bdce3f4ce493c26119ed2ea37b25546bb3ce68743e498eff22d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 954639956,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003909,
+      "resultantDegree": 2265,
+      "resultantSHA256": "339144176abb3a3c9aeb08bbed0d1f4e84b1500601d4efa30ad822a657ec978d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 484049249,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003919,
+      "resultantDegree": 2265,
+      "resultantSHA256": "1f088032e0928f719c538b24a0f5941c116d9059ac42b0c485110c74105843b0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 841627293,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003931,
+      "resultantDegree": 2265,
+      "resultantSHA256": "9eb2d4114f505284fbefb7c2a38d574bdb3452750d3f5bb2e51e1e9c40eca20c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 371518395,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003951,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2b7682071d6bc574a026cc0d10510307bec2dfd58ab2d22d1b7d992d52a2b144",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 321420406,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003957,
+      "resultantDegree": 2265,
+      "resultantSHA256": "9754be072580f0baca5b8473dcdf27487c19f6e01f6b53bf009d31221b0694b0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 349196874,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003967,
+      "resultantDegree": 2265,
+      "resultantSHA256": "9cefb320c9915684880289adf78a2ad67f421d9df646dd764fa95a25d66847e8",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 878392569,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003987,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d53bf1bcbc84b8a4abfb164b9ff4bd7ffe7f82cbb407187ad9fb251fcb5f95fa",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 497949539,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000003999,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0184c2ae470ce41b76b134211bfb035483fa71f16431cac0da440afcb96fb6df",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 442858891,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004023,
+      "resultantDegree": 2265,
+      "resultantSHA256": "bc71d136d618da8056df5d39223cc7c0d38171ddcabda158f37b765bcc68976f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 484372522,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004059,
+      "resultantDegree": 2265,
+      "resultantSHA256": "1cd1514a020300cc67b8b0a80797f18a9474aaa8a451d0798977f821699bf150",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 477120470,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004099,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0f39e18d93a73c9b1490d4838293e1d6706f431fec309d907d71123b6a967c0f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 7723533,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004119,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6d85a2f10dee0c6e20412b6a0d464bef4292db22f3214c73f1ad0478e9224dbf",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 799305906,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004123,
+      "resultantDegree": 2265,
+      "resultantSHA256": "255c3cc853f39a16ab33baf19ea480454207c87f75b4404b065cad0e253f0f57",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 813592967,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004207,
+      "resultantDegree": 2265,
+      "resultantSHA256": "4c6d9ad0f77c51d19a22be257c2acec58933beaf013f186b57de7c969dd9edf0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 695518096,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004233,
+      "resultantDegree": 2265,
+      "resultantSHA256": "5d4ff13b6bc97d4e1872155a62d2ad3175abfe54bddfb7e107ce045731df9e5f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 321448988,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004249,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b1988aaf8c66fb820beb4fd3cb92ae2b6422b1617a9d862262ac455bf0b834eb",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 903179560,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004251,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6e088bb4edcf359dcbdb8dc8ddc0aefe0652491eb2792d75272413c937f57632",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 642894120,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004263,
+      "resultantDegree": 2265,
+      "resultantSHA256": "df9b00676bb3c48e6336a652946e780b8da8b9776c6f6151fbe51219aee178af",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 835953316,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004321,
+      "resultantDegree": 2265,
+      "resultantSHA256": "f2c27724110fd27e6e8d0846826cbac4d0eae90f175b6dd54a434045d746902d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 136951532,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004329,
+      "resultantDegree": 2265,
+      "resultantSHA256": "76301f510a3591642e417232f5215cd0470557bcb6e38badc849f949b28f3192",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 634907017,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004381,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2e4eb9797d7d7dde6e52ca94c6831e657739bd929fbac23370be77cdd7a4c038",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 265943331,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004389,
+      "resultantDegree": 2265,
+      "resultantSHA256": "acd266168dae31dcd22c6b0287e9b9729a6953195d85d78e4b9ee3ef1a976690",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 812051123,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004437,
+      "resultantDegree": 2265,
+      "resultantSHA256": "c785fe0da70bfbf75b2b1512cd17f9d2bd912f997e166c5a1450104e82a24a8f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 964345171,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004449,
+      "resultantDegree": 2265,
+      "resultantSHA256": "76f672e99eef3a256eebf479a76f9f43d5b3bfdd8c4ce4ec780dd3ceff5e85a7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 870408729,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004459,
+      "resultantDegree": 2265,
+      "resultantSHA256": "523ad757ee0784c75b18fc20c0e4c26a9f8911bde7407cec69c288aa8a955d67",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 501169460,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004497,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8ca8209d1077588a431793a9a59785174a59203425a4d91c123d051426d2bbd5",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 452566310,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004507,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6e51dd1d1e6f2c80800dafdd30b8e018319bf1365cc7974a5aaf1c885557b07f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 202555410,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004519,
+      "resultantDegree": 2265,
+      "resultantSHA256": "54d7db695b780b4735c3bf7d52fa69a52d5e459d4a7072847b5de94878335049",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 866646729,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004539,
+      "resultantDegree": 2265,
+      "resultantSHA256": "b47fc77409b999524b837515b33c2c4278697b5d9c4b867867bc954de62ed2d8",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 679678719,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004567,
+      "resultantDegree": 2265,
+      "resultantSHA256": "25fb108d1d7a18a02259db9d22cd82c2875d19424fbd17800bf4388903a3270f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 647387507,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004569,
+      "resultantDegree": 2265,
+      "resultantSHA256": "d1b9f75b046a511acb7b7b730dbf8af7b2e0720073b01ac9e4e38a4755d24e8f",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 629806863,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004581,
+      "resultantDegree": 2265,
+      "resultantSHA256": "95181d69b7988163351dad3bc723c121bc709bd7761195f53052a418b66a900d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 554665597,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004609,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0c2bed485e799424ad337607af9075429feb2888dfbaceb752d3caa072c0ab8b",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 558073247,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004611,
+      "resultantDegree": 2265,
+      "resultantSHA256": "963a38a61c9f03f1245a28a12ca7f60b25a20c1ffbf317f0b1a600f86392559d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 427148180,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004627,
+      "resultantDegree": 2265,
+      "resultantSHA256": "26a81e3696240f0927eb102ffbd5cdd0dda30b3e1233c35f1264e11ea07abd9c",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 917022117,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004633,
+      "resultantDegree": 2265,
+      "resultantSHA256": "276c3b81ce12be3daaef9544c15a44d243afd06fd8270c98392d816280ff7bea",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 321753949,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004647,
+      "resultantDegree": 2265,
+      "resultantSHA256": "6eb7f8488ad75130d6dbd1989d08fea91c44ac6626ebe23483e546797a41ae13",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 468126386,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004693,
+      "resultantDegree": 2265,
+      "resultantSHA256": "ca2236e34e4fba069110eca3fabdb56fdcb7343140e72ac2aa26756f0e8e927a",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 916403112,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004699,
+      "resultantDegree": 2265,
+      "resultantSHA256": "5fd31c05c3ad4de569638c3dc3d91433e36edd19944bfa4ce43b204c6212c85d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 655599984,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004717,
+      "resultantDegree": 2265,
+      "resultantSHA256": "467b6aa15970cfde23c381ec579824736698269f9e84df4569ca426d3f277236",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 380950180,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004771,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0e24475e5641036cab5bd0a2a99e1dc5f363b78dde9d0a1eaa0e6105fa1adef7",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 116169755,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004777,
+      "resultantDegree": 2265,
+      "resultantSHA256": "beb021666295bbfb5ba14ce9c29f846145513c627e32157a23a6ffa08c552df0",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 790466519,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004783,
+      "resultantDegree": 2265,
+      "resultantSHA256": "06a1482c8296cef7c4acca97880c9447ddfb3e005069c6bb31fa25acd2cb4d54",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 737058697,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004791,
+      "resultantDegree": 2265,
+      "resultantSHA256": "8ce9fd28eceec248ced82706db873ce7b59844a280d7bebd86db6de19a49210d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 343337467,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004807,
+      "resultantDegree": 2265,
+      "resultantSHA256": "0dba5592aa94146726507322743c1ea392feb37243ae6d4024ebd2e76912d08d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 725318803,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004839,
+      "resultantDegree": 2265,
+      "resultantSHA256": "a67161b7231e18397472019f4491d1b4edc5622da03c77fabeee7f1d9831c62d",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 761317970,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004843,
+      "resultantDegree": 2265,
+      "resultantSHA256": "3a76df99fc302d565aec0e9a023b0ec0b9de4e66c90bf714b8c5b87205d49278",
+      "verified": true
+    },
+    {
+      "allPhiDivisionProductsMultipliedBack": true,
+      "bothOriginalUDegreesPreserved": true,
+      "leadingCoefficient": 258816778,
+      "multiplicities": [
+        304,
+        47,
+        532
+      ],
+      "prime": 1000004849,
+      "resultantDegree": 2265,
+      "resultantSHA256": "2b07bcf3f16b6ab3dc36a06bbe2266875890f0a4c62d6f491dee2bfe1bd53f11",
+      "verified": true
+    }
+  ]
+}

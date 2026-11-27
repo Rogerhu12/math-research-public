@@ -326,3 +326,9 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 完成并逐条推送W全三次头覆盖定理；唯一6×4实际run45963207622，0.979098241秒/48536KiB/exit0，源bdd57650，不重放。
 - 完整纸面dual-cubic引理与已付最高次分类给15主开覆盖、全图左逆存在及原商六生成；未计算全局Bézout系数，不付单个J19/F98，W仍开。
 - 课题外新增workflow只运行新centered三S线性源4da946c4一次，180秒/4GiB；原NSPS与δ零面全保留。
+
+2026-11-27 16:38 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 严格整数高度CRT定理付全：ZC=2^23 Ch、ZD=2^21 Dh，233不同素数P²>4B²；QQ度2265及h0/1/2重数304/47/532，原余式1382次。
+- 唯一实际run45964240198，106.567731526秒/66616KiB/exit0，源30e48b9c；保全checkpoint与小执行回执，旧QQ超时不改写成功。
+- 新Q原D闭合源aa7fafff单次120秒/1GiB；只取最终原恒等式分母，不删除中间Gaussian主元零面。
+- 前条W定理已真推23b086ab；dispatch因workflow名含大写未执行。本条按既有小写约束更名后单次执行新S源，未改变权限/重跑旧源；课题外workflow均记于此。

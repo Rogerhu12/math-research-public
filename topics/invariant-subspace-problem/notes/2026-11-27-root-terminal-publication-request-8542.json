@@ -1,16 +1,19 @@
 {
-  "message": "ISP: prove full W cubic chart cover and global six generators",
-  "parentCommit": "a85fa53ac05382cca38e87ee366f794f6232612e",
+  "message": "ISP: certify exact Q boundary resultant degree and multiplicities by integer height",
+  "parentCommit": "23b086ab16ee3e532ea19a27e4839909bb6bdd39",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-full-cubic-cover-and-global-six-generators.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-full-cubic-cover-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-generic-LS-W-centered-three-S-linear-original-elimination-8542.py",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Q1minusU-exact-2265-projection-and-three-multiplicities.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-CRT-complete-degree-checkpoint-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-CRT-degree-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-original-D-relation-closure-return-8542.py",
+    ".github/workflows/invariant-subspace-q1minusu-original-d-module-8542.yml",
     ".github/workflows/invariant-subspace-W-centered-three-S-linear-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-W-global-six-generators-8542.md",
+    ".github/workflows/invariant-subspace-w-centered-three-s-linear-8542.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-Q-CRT-degree-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +23,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-W-centered-three-S-linear-8542.yml"
+    "invariant-subspace-q1minusu-original-d-module-8542.yml",
+    "invariant-subspace-w-centered-three-s-linear-8542.yml"
   ]
 }
