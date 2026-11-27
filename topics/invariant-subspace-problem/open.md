@@ -235,6 +235,6 @@ G36完整[高1134](results/R150-appendix-unit211-W-G36-entire-high1134-original-
 
 [主rho头的完整八权覆盖](results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md)：c3a074真0.503922414秒/51576KiB/0，P6/P9真实特化后的固定15阶QQ结式685，只剥原单位/保整H7零得首一543；新固定35阶C6/C71模1363与543完整gcd一次，局部整Gauss保全部首项退化，付H7补图≤1、整H7≤7。八仅计v及(u,Q,ell)，不并有序BC和lambda/T/z；整H7不能用只付补图的C6/C9，下一先真实QQ识别余一次并返回其整原纤维，H7另接完整原条件。三个准确小输入已存，所有已成结式不重算。
 
-[Phi主图−1/4的真实lambda半返回](notes/2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-return-8542.md)：d751真0.095425016秒/37584KiB/0，实核H7=-169/512非零后，三原C6/C9/C71 QQ gcd恰lambda−1/2。543中v+1/4虽一次整除，整原值纤维尚未闭，准确未剥为必要cover、未执行余Gauss，八界不变。继续真(u,Q,ell,lambda)=(3/4,5/4,1/2,1/2)的全部原值条件，不能借例外权图同lambda半；H7仍另接完整原条件。
+[Phi主图整个−1/4原权纤维已闭](results/R150-appendix-unit211-Phi-zero-main-minus-quarter-entire-original-fiber-exclusion.md)：d751准确QQ gcd先付lambda半，新b99785实际75ms BigInt在同(u,Q,ell,lambda)=(3/4,5/4,1/2,1/2)构造全部原二次；60×28秩27，三个显式一次原R/W/O乘子直接返8890621787500(1/4−T²)，违反原D非零。N1最终乘子0，目标是D而非原1，全部T/z保留；不借另一例外图同lambda半。此前未剥543/未做余Gauss的note保准确历史。H7补图合成随后另登记，整H7仍只用完整原条件。
 
 碰撞剩E的不同新输入首次：直接读已存E177/18、E182/19全部四片，作固定原u度18/19的37阶QQ结式；只在实际返回后剥已付lambda/A/B/S及整闭J2/G2/C4、取SF lambda覆盖。全部u首项退化保在固定行列式，180秒/4GiB，精确新参数分片输出；未先宣新覆盖或整碰撞空，不重跑旧Q投影。

@@ -1,0 +1,268 @@
+{
+  "schema": "isp-fresh-V8-BigInt-original-identity-execution-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "source": {
+    "name": "2026-11-27-unit211-Phi-zero-main-minus-quarter-lambda-half-complete-original-identity-8542.js",
+    "blob": "b2ebdf7798b74ad64b8add54cca55628db74a1e8",
+    "sha256": "b99785d69378591ab962143981dde1c99cba256055fbfd3499c82688aecf879b",
+    "bytes": 8136
+  },
+  "executionKind": "fresh V8 Function(source + return result), exact BigInt rational arithmetic",
+  "actualReturn": {
+    "schema": "isp-Phi-main-minus-quarter-half-exact-original-identity-v1",
+    "date": "2026-11-28 Asia/Taipei",
+    "originalParameters": {
+      "u": "3/4",
+      "Q": "5/4",
+      "ell": "1/2",
+      "lambda": "1/2"
+    },
+    "variables": [
+      "T",
+      "z=Q*t"
+    ],
+    "physicalD": "1/4-T^2",
+    "actualF": "7/2+25*T/4",
+    "originalInput": "the complete compact original mean_R/mean_W/mean_O/N1, with f=-Pc/Pf",
+    "primitiveQuadratics": [
+      {
+        "name": "Rbar",
+        "originalScale": "256",
+        "polynomial": [
+          [
+            0,
+            0,
+            "625"
+          ],
+          [
+            0,
+            1,
+            "-860"
+          ],
+          [
+            0,
+            2,
+            "52"
+          ],
+          [
+            1,
+            0,
+            "6250"
+          ],
+          [
+            1,
+            1,
+            "-1800"
+          ],
+          [
+            2,
+            0,
+            "10000"
+          ]
+        ]
+      },
+      {
+        "name": "W4",
+        "originalScale": "2048",
+        "polynomial": [
+          [
+            0,
+            0,
+            "-9875"
+          ],
+          [
+            0,
+            1,
+            "4720"
+          ],
+          [
+            0,
+            2,
+            "-272"
+          ],
+          [
+            1,
+            0,
+            "-41000"
+          ],
+          [
+            1,
+            1,
+            "9200"
+          ],
+          [
+            2,
+            0,
+            "-42500"
+          ]
+        ]
+      },
+      {
+        "name": "Obar",
+        "originalScale": "512",
+        "polynomial": [
+          [
+            0,
+            0,
+            "-2750"
+          ],
+          [
+            0,
+            1,
+            "905"
+          ],
+          [
+            0,
+            2,
+            "-44"
+          ],
+          [
+            1,
+            0,
+            "-11125"
+          ],
+          [
+            1,
+            1,
+            "1750"
+          ],
+          [
+            2,
+            0,
+            "-11250"
+          ]
+        ]
+      },
+      {
+        "name": "N1",
+        "originalScale": "8192/5",
+        "polynomial": [
+          [
+            0,
+            0,
+            "-6175"
+          ],
+          [
+            0,
+            1,
+            "-40"
+          ],
+          [
+            0,
+            2,
+            "16"
+          ],
+          [
+            1,
+            0,
+            "-25100"
+          ],
+          [
+            1,
+            1,
+            "-80"
+          ],
+          [
+            2,
+            0,
+            "-25500"
+          ]
+        ]
+      }
+    ],
+    "macaulay": {
+      "degree": 6,
+      "rows": 60,
+      "columns": 28,
+      "actualRank": 27,
+      "allBasisRowProductsReturned": true
+    },
+    "attempts": [
+      {
+        "power": 0,
+        "returned": false
+      },
+      {
+        "power": 1,
+        "returned": true
+      }
+    ],
+    "identity": {
+      "power": 1,
+      "target": [
+        [
+          0,
+          0,
+          "1/4"
+        ],
+        [
+          2,
+          0,
+          "-1"
+        ]
+      ],
+      "primitiveOriginalMultipliers": [
+        [
+          [
+            0,
+            0,
+            "-1255697381/889062178750"
+          ],
+          [
+            0,
+            1,
+            "398181026/2222655446875"
+          ],
+          [
+            1,
+            0,
+            "-194361271/88906217875"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "-744650557/1778124357500"
+          ],
+          [
+            0,
+            1,
+            "16030493/467927462500"
+          ],
+          [
+            1,
+            0,
+            "-119584751/355624871500"
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            "1941553249/1778124357500"
+          ],
+          [
+            0,
+            1,
+            "-135991/2222655446875"
+          ],
+          [
+            1,
+            0,
+            "-119648841/177812435750"
+          ]
+        ],
+        []
+      ]
+    },
+    "originalConstantFiberExcluded": true,
+    "oldProjectionReplayed": false,
+    "wholeH7Excluded": false,
+    "wholePhiFaceExcluded": false,
+    "ordinaryISPClaim": false,
+    "elapsedMilliseconds": 75
+  },
+  "noActionsRunClaim": true,
+  "noMathematicalSourceReplayRequired": true
+}
