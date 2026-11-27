@@ -576,3 +576,8 @@
 ### 2026-11-28 05:36 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1145：原H_N的八个完整带宽1、2系统均只有标量，真实run46071081257/job140747905385成功；全核、单位子式和源/请求/输出hash完整核对。计算仅公开Actions，未本地执行。
 - 有限三/五对角机制已排，不推一般p或原双jet非零；不保存可重算输出。立即继续实际moment/算术cup、含第三类补偿的推前及Gaussian完整good余对。
+
+
+### 2026-11-28 05:59 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1144对原j1,k2无条件给 proper 算术 A1∪A2=−8δ² A1∪ε4/11；真实有限矩、Tate transfer全部arith项、ram–ram cyclic cup、低权全HS检测及proper/S回填逐项支付。
+- 指定pair的β8现在无Bernoulli门消去；原SV端点 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，保原两factor2、Betti/ram-first符号及away6p已付Hecke范围。root/global/o2全文独审并亲读SV Lemma7.2.5；无数学执行，继续实际Heis p³及p-local标量、指定四阶与另两主线。H/open逐字前态归档，旧未知c的文字按准确新结论更新。

@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：0a65f04328417c7489af4b909cbbba0e5d3030a2**（2026-11-28 05:36 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：5c51a4ca511e8da9cd4fb1ba7baafd54a7821105**（2026-11-28 05:59 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；05:33重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 06:33。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-banded-commutant.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-exact-proper-cup.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p 与原算术 cochain
 
@@ -20,14 +20,16 @@ R1131的原forced高偶r，在B_(4j+2)/B_(p−1−4j)单位门内锁真实rank2�
 
 [R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数、Heis/class4 p⁵塔与Fourier交换已成；cusp须四moments，Norm仅M0；p⁷纤维积只保两极端四阶。原aux-c/跨line全部cross及ψ₂²保于open/前态；常Lie中心ω²非e₀整torsion。四阶proper/arithmetic继续。
 
-[R1136–40](results.md)原完整Manin源、J/transfer、Hecke/adjugate及两个cross已付；所有n裸比较S_n=(4/m²)V_n{Fχ,Fψ}。F33低mixed门才消整个target公共核；四阶原邻对在门外。R1140原j1,k2给C¹=0、C²=16δ²C_Eis/21，Tℓc_Eis=(ℓ⁻²+ℓ³)c_Eis，无条件β=β_E+β₈；B16/Bp−15单位才删β₈。真实degree-p norm、fixed-Weil重标、Fricke及p-isogeny两槽/全cusp tame均成；门内cup=4δ²𝒯{W*G₄,G₈}/21。原ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132；原Betti c=−Merelι*。旧条件性未知λ_E现由R1143完全替代。全部公式保原文及前态，不重做。
+[R1136–40](results.md)原完整Manin源、J/transfer、Hecke/adjugate及两个cross已付；所有n裸比较S_n=(4/m²)V_n{Fχ,Fψ}。F33低mixed门才消整个target公共核；四阶原邻对在门外。R1140原j1,k2给C¹=0、C²=16δ²C_Eis/21，Tℓc_Eis=(ℓ⁻²+ℓ³)c_Eis，无条件β=β_E+β₈；此前靠B16/Bp−15单位删β₈，指定pair现由R1144无门消去。真实degree-p norm、fixed-Weil重标、Fricke及p-isogeny两槽/全cusp tame均成；门内cup=4δ²𝒯{W*G₄,G₈}/21。原ε4=βχ2/(1−a⁻⁴)、v4=1/252、v8=1/132；原Betti c=−Merelι*。旧条件性未知λ_E现由R1143完全替代。全部公式保原文及前态，不重做。
 
-[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件p>37付同一source c_Eis=−2016δ²Pχ1≠0：BM整零周期格的compact reduction就是cuspidal p-torsion，ES唯一偶角色免去Bp−5门；全μ边界、负Abel、J e2=−e1、Sω²/p=1/189和原m尺度全付。仅source非零，Ψ(Pχ1)实际值与R1141/Pic/混合门均未取消。
+[R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件p>37付同一source c_Eis=−2016δ²Pχ1≠0：BM整零周期格的compact reduction就是cuspidal p-torsion，ES唯一偶角色免去Bp−5门；全μ边界、负Abel、J e2=−e1、Sω²/p=1/189和原m尺度全付。source非零已成；原端点实际值现见R1144，不再保旧未知λ。
 
 [R1141](results/R1141-original-arithmetic-endpoint-and-circular-unit-cup.md)在p∤B_(p−5)时，原arith-compact θ=ω⁻⁶的整个I3像=span{Fχ1,βχ2}（允许零）。全S={p}延拓/Hecke闭包、BrS0、完整Pic商、DVR与MW可除项的真实socle提升均成；Q下降ω5→V→ω10，B10单位删商H¹。再B16/B_(p−15)门得∃c原cup{F1,F2/ε2^c}=0于fieldK₂/p；c未定，proper Pic H²障碍仍保。root继续该Pic结构，global继续实际p-isogeny常数/cochains。
 
-[R1142](results/R1142-original-proper-Eisenstein-cohomology-and-Picard-dichotomy.md)只需Bp−5单位，原V_r=(TπJ⊗ω7)/πʳ的H0/H2为0、H1=O/πʳ（真实π像/Nakayama已付）。cusp section杀Leray transgression、B8杀base，故proper H²_(θ,m3)=O/p；实际ξ=ω⁻⁷ MW无torsion，Pic部分只能0或全，rank d=0/1。原Bhat=κF1∪κε2非零并生成π-socle；其field像B12非零 iff d0，d1时为非零Pic类。未定d/c，不将原βhat放进socle，其他proper块仍保。
+[R1142](results/R1142-original-proper-Eisenstein-cohomology-and-Picard-dichotomy.md)只需Bp−5单位，原V_r=(TπJ⊗ω7)/πʳ的H0/H2为0、H1=O/πʳ（真实π像/Nakayama已付）。cusp section杀Leray transgression、B8杀base，故proper H²_(θ,m3)=O/p；实际ξ=ω⁻⁷ MW无torsion，Pic部分只能0或全，rank d=0/1。原Bhat=κF1∪κε2非零并生成π-socle；其field像B12非零 iff d0，d1时为非零Pic类。未定d；指定原cup由R1144付准确socle值，其他proper块仍保。
 
+
+[R1144](results/R1144-original-finite-moments-and-exact-proper-cup.md)无条件p>37付原proper算术等式 A1∪A2=−8δ² A1∪ε4/11，故 A1∪(A2+8δ²ε4/11)=0。原有限矩的完整Tate transfer/arith项、ram–ram cyclic cup、低权全H²检测、polar三项、两次factor2及open→proper→S回填均已付；不反除p、不需Bp−5/F33。该pair实际β8=0且 Ψ_E(Pχ1)={F1,ε4}/(132δ²)，消去旧未知标量/Pic lift障碍。R1142的未修正proper类非零与field像MW d=0/1二分仍保；一般pairs及四阶未完成。root继续修正pair的proper Heis p³、真实Q下降与连通；global继续p-local额外标量。
 
 ## O1：原 U^m 的两 jet 与精确 Padé
 
