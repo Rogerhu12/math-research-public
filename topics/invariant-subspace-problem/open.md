@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原 rho 二次头零（包含例外有序权图）已全闭，仅旧物理D≠0图付 Aρ，不传碰撞D0；旧主 C87/55/C71/29 不再处理。原四头共同十权已闭，使四个非零头图覆盖；第一头零仍是整 H1 曲线，其它头图/H0/个别NP继续。一般首头原P6度39/20/6、P9度73/41/9及λ头H19/11原必要身份保快照，不将必要式互素或有限图当作排空。
 
-H1仍仅旧物理D≠0图；C55九域/原h0及P201完整整约化保正文。[同Q原权商≤14、完整点≤504](results/R150-appendix-unit211-Phi-zero-H1-same-Q-fourteen-weight-cover-and-504-points.md)：755e真17.522670373秒/82976KiB/0，三固定λ结式的完整Q4元素乘全部权基，五矩阵rank各3d、余商各d，总14；无h/λ头/D逆或模饱和。八个旧完成块由norm∈原元素理想支付；余1,1,3,4,5五块均未闭，其实际完成权商是Oφ某商，通用非零时唯一Q，不认QQ线性因子。原同点恢复给≤14权对/252五坐标/504完整不同点，不把模商维当精确QQ长。续明确Q原关系与四原λ多项式的同λ理想，固定λ头须实际p单位；其它Phi/个别NP/b0的316开，旧Gaussian/∞门不重放。
+H1仍仅旧物理D≠0图；C55九域/原h0及P201完整整约化保正文。[同Q原权商≤14、完整点≤504](results/R150-appendix-unit211-Phi-zero-H1-same-Q-fourteen-weight-cover-and-504-points.md)：755e真17.522670373秒/82976KiB/0，三固定λ结式的完整Q4元素乘全部权基，五矩阵rank各3d、余商各d，总14；无h/λ头/D逆或模饱和。八个旧完成块由norm∈原元素理想支付；余1,1,3,4,5五块均未闭，其实际完成权商是Oφ某商，通用非零时唯一Q，不认QQ线性因子。原同点恢复给≤14权对/252五坐标/504完整不同点，不把模商维当精确QQ长。新1bd3首次120秒/1GiB从原3d单位子式返全部Q幂关系，再于Rφ=Oφ/J的真实商测四原λ多项式；只有固定6/6/9/10顶头非零才可构有限λ模型，模降阶不付QQ。余三元组界L仅×3/6；其它Phi/个别NP/b0的316开，旧Gaussian/∞门不重放。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
@@ -218,6 +218,6 @@ H1仍仅旧物理D≠0图；C55九域/原h0及P201完整整约化保正文。[�
 
 [全部普通限制的本质正序障碍](results/R12-appendix-all-invariant-restrictions-essential-hyponormal-obstruction.md)已排实际普通限制/解析函数/非零子商的任意相似加紧成为次正规等正序输入。新[交织方向与实际闭逆费用](results/R12-appendix-all-subquotients-hyponormal-intertwining-directions-and-closed-inverse-cost.md)证明全部实际A子商及非恒定解析芽到hyponormal、从cohyponormal的任意有界交织为零。反向移位到B有明确迹类拟亲和X_x；专对B=A_Q，每个非零移位不变L都满足closure(X_xL)=C_x，不能由此推出更小普通空间。实际闭逆Y_x单域保轨道，但同一来源放大至少exp((100/15)r⁴n⁴−105r³n³−O(n))。C_x真性、非正序紧扰动目标、真正特殊闭域和来源费用继续；不搬这些Haar子商结论到边界。
 
-[一对加四独立共同因子原S1三维块](results/R271-appendix-one-pair-four-independent-common-factor-three-source-s1-block.md)已付Δ1–3全部闭正权；29ce9真180秒未返Δ4、5/6未到，连续门冻。[新三叶companion剩余Schur谱](notes/2026-11-28-one-pair-four-independent-s1-three-leaf-companion-schur-8542.md)首次180秒/4GiB：S=D−C* A^-1 C相对原triangle正G的det(tG+S)/detG三系数，完整11/5物理层、全逆/两cubic桥/交叉项；distinct叶的diag(V,V)真同余消V²，碰撞凭原A>0/G>0无极点延拓。只三系数全闭才付完整S1；前三minor不重测，S2/六独立/同W费仍开。
+一对加四独立的**完整九维S1已证**：前三原主子式全域之后，[三叶companion谱来源](notes/2026-11-28-one-pair-four-independent-s1-three-leaf-companion-schur-8542.md)的首次run46080372041/job140777712507真实57.527394568秒/165024KiB/0；三个原Schur谱系数的15个闭域全系数非负且严格常数，完整原G/逆/cubic桥/交叉项保留，V²消去后碰撞由原连续谱覆盖。合star A>0和旧pair-singlet出生一给全九维S1。旧29ce9第四子式未返门仍冻，不重跑；续原S2、七位完整联合、六独立和同W真实费用。
 
 整K7已闭，全余W三原二次规则可用。[首一物理λ六次](results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md)无λ/D逆地返χ(λ)∈I4；4ab真10.431777978秒/161616KiB/0已成六系数、B6零，λ0/3/2无因子。[十五行精确原表示](results/R150-appendix-unit211-W-global-three-generators-exact-fifteen-original-relations.md)：G={C1,C2,rN1,rNS,rPS}连GMx/GMy一次严格稳定，双向循环模同构给全部六式商A[λ]^3/N；补原x/yNS与x/yPS四行，无free假设或新门。χ环境上可继续真实原关系。旧两λ6降≤5只沿已付I6^phys，h0/h1零面保留；12×12结果式真180秒无det已冻，续同点NP/NV。
