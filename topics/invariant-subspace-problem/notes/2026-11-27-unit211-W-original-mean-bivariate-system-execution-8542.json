@@ -1,0 +1,1521 @@
+{
+  "schema": "isp-W-whole-y-not-one-original-bivariate-system-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "proof": {
+    "blob": "9ebda1818fd5aa983043481440e3d448fadcbdc9",
+    "sha256": "de8471a74bdc77f65e1908342eee731f0e8ea2f2d275251370144ecace391225",
+    "bytes": 6115
+  },
+  "source": {
+    "blob": "58c1a8fea5fd6c09e1b4614a1fe4b91b9f8fb742",
+    "sha256": "27ad028d628b57855fe3b4587ead848f171e035a6128142745ecafc2d0fc3303",
+    "bytes": 17394
+  },
+  "actual": {
+    "run": 45975400648,
+    "job": 140425771362,
+    "driver": {
+      "elapsed_seconds": 2.4951369650000004,
+      "max_child_rss_kib": 65100,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "2429300e41a01286268c4eac04ac9fd061e2ae2f",
+          "before": "2429300e41a01286268c4eac04ac9fd061e2ae2f",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T09:38:48.582334+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "45975400648",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "2429300e41a01286268c4eac04ac9fd061e2ae2f",
+      "source_exit_code": 0,
+      "source_git_blob": "58c1a8fea5fd6c09e1b4614a1fe4b91b9f8fb742",
+      "source_sha256": "27ad028d628b57855fe3b4587ead848f171e035a6128142745ecafc2d0fc3303",
+      "stdout_bytes": 16271,
+      "stdout_sha256": "71837c224bcdaca571d320273c663d5f3d3994f9e84fea0d6796c5d718ebb354",
+      "stop_reason": null
+    },
+    "mathRecords": [
+      {
+        "stage": "new_W_y_not_one_complete_original_mean_reconstruction",
+        "coordinateDefinitions": {
+          "Y": "y-1",
+          "w": "(x-xstar)/(y-1)",
+          "x": "xstar+Y*w",
+          "y": "1+Y",
+          "t": "-meancombo(xstar+Y*w,1+Y,0)/(M*Y)"
+        },
+        "originalMeanTcoefficient": "M*(y-1)",
+        "exactYFactorCanceledBeforeAnyGeometricInverse": true,
+        "remainingDenominatorsAllPreviouslyPaid": true,
+        "newT_Bidegree_w_Y": [
+          1,
+          1
+        ],
+        "newTCoefficients": [
+          {
+            "w": 0,
+            "Y": 0,
+            "value": {
+              "numeratorDegrees": [
+                5,
+                7,
+                0,
+                0,
+                0
+              ],
+              "denominatorDegrees": [
+                5,
+                6,
+                0,
+                0,
+                0
+              ],
+              "numeratorTerms": 31,
+              "bytes": 675,
+              "sha256": "33a83e3348b4bb2eb27acfcf318ce8164bf30b995846461f4dd5c46de6cf952f",
+              "exactExpression": "2*e^5*k^4 + 4*e^5*k^3 - 2*e^4*k^5 - 11*e^4*k^4 - 26*e^4*k^3 - 24*e^4*k^2 + 3/4*e^3*k^6 + 27/4*e^3*k^5 + 28*e^3*k^4 + 63*e^3*k^3 + 80*e^3*k^2 + 48*e^3*k - 1/8*e^2*k^7 - 3/2*e^2*k^6 - 17/2*e^2*k^5 - 57/2*e^2*k^4 - 61*e^2*k^3 - 84*e^2*k^2 - 72*e^2*k - 32*e^2 + 1/8*e*k^6 + e*k^5 + 5/2*e*k^4 + e*k^3 - 4*e*k^2 - 4*e*k + 1/2*k^4 + 5*k^3 + 18*k^2 + 28*k + 16 / e^5*k^3 - 5/4*e^4*k^4 - 4*e^4*k^3 - 6*e^4*k^2 + 5/8*e^3*k^5 + 15/4*e^3*k^4 + 21/2*e^3*k^3 + 16*e^3*k^2 + 12*e^3*k - 1/8*e^2*k^6 - 7/8*e^2*k^5 - 11/4*e^2*k^4 - 13/2*e^2*k^3 - 13*e^2*k^2 - 16*e^2*k - 8*e^2 - 1/8*e*k^6 - 11/8*e*k^5 - 25/4*e*k^4 - 15*e*k^3 - 19*e*k^2 - 10*e*k + 1/8*k^5 + 3/2*k^4 + 7*k^3 + 16*k^2 + 18*k + 8"
+            }
+          },
+          {
+            "w": 0,
+            "Y": 1,
+            "value": {
+              "numeratorDegrees": [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "denominatorDegrees": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "numeratorTerms": 2,
+              "bytes": 17,
+              "sha256": "fbb3d548ddb3ce53abfb60cdc01ce95b52fc1e50cebea683bbca6fce6604f6b9",
+              "exactExpression": "2*e*k - 2 / e + 1"
+            }
+          },
+          {
+            "w": 1,
+            "Y": 0,
+            "value": {
+              "numeratorDegrees": [
+                4,
+                4,
+                0,
+                0,
+                0
+              ],
+              "denominatorDegrees": [
+                4,
+                4,
+                0,
+                0,
+                0
+              ],
+              "numeratorTerms": 9,
+              "bytes": 277,
+              "sha256": "465add3099f7cae1018fd0bd3a53841ef181e866f67d89fe6627e4b602500a54",
+              "exactExpression": "-2*e^4*k^2 + 3/2*e^3*k^3 + 6*e^3*k^2 + 8*e^3*k - 1/4*e^2*k^4 - 2*e^2*k^3 - 7*e^2*k^2 - 12*e^2*k - 8*e^2 / e^4*k^2 - 3/4*e^3*k^3 - 2*e^3*k^2 - 4*e^3*k + 1/4*e^2*k^4 + 5/4*e^2*k^3 + 3*e^2*k^2 + 4*e^2*k + 4*e^2 + 1/4*e*k^4 + 7/4*e*k^3 + 4*e*k^2 + 3*e*k - 1/4*k^3 - 2*k^2 - 5*k - 4"
+            }
+          },
+          {
+            "w": 1,
+            "Y": 1,
+            "value": {
+              "numeratorDegrees": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "denominatorDegrees": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "numeratorTerms": 1,
+              "bytes": 9,
+              "sha256": "a5f1156f9902e53f7e3b285e3b41e9ed33639a3691e0ecabd710396f97588159",
+              "exactExpression": "2 / e + 1"
+            }
+          }
+        ],
+        "compactWorkingFormulaVerified": true,
+        "chartAssumption": "y!=1; separate entire y=1 finite theorem is required for global use",
+        "D27AndB239NeverInverted": true,
+        "claimExcluded": false,
+        "seconds": 0.5517898669999965
+      },
+      {
+        "stage": "new_W_y_not_one_original_bivariate_row",
+        "name": "E1",
+        "summary": {
+          "numeratorDegrees": [
+            7,
+            10,
+            2,
+            2,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 334,
+          "bytes": 5396,
+          "sha256": "3fddb1ee96df395ebbf6dd919359c750bfcecbe91c5016d317c88ad5ebb27cdc"
+        },
+        "degrees_w_Y": [
+          2,
+          2
+        ],
+        "paidRemoved": [
+          [
+            "e",
+            1
+          ]
+        ],
+        "fullSamePointOriginalSubstitutionVerified": true,
+        "allPaidNormalizationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.5602826500000049
+      },
+      {
+        "stage": "new_W_y_not_one_original_bivariate_row",
+        "name": "EBe",
+        "summary": {
+          "numeratorDegrees": [
+            10,
+            14,
+            2,
+            2,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 746,
+          "bytes": 13726,
+          "sha256": "1b7bca80d686c4b4543cf1a001d57051f45521ad90ef905f52479e97a63e80db"
+        },
+        "degrees_w_Y": [
+          2,
+          2
+        ],
+        "paidRemoved": [
+          [
+            "e",
+            1
+          ]
+        ],
+        "fullSamePointOriginalSubstitutionVerified": true,
+        "allPaidNormalizationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.5739691309999984
+      },
+      {
+        "stage": "new_W_y_not_one_original_bivariate_row",
+        "name": "N1",
+        "summary": {
+          "numeratorDegrees": [
+            12,
+            18,
+            2,
+            2,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 1164,
+          "bytes": 23592,
+          "sha256": "aa840b94416349badc558e75f8cedc288799106a2dab8c54383c5e3dac9e8435"
+        },
+        "degrees_w_Y": [
+          2,
+          2
+        ],
+        "paidRemoved": [
+          [
+            "e",
+            2
+          ],
+          [
+            "u",
+            1
+          ]
+        ],
+        "fullSamePointOriginalSubstitutionVerified": true,
+        "allPaidNormalizationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.6061776370000018
+      },
+      {
+        "stage": "new_W_y_not_one_original_bivariate_row",
+        "name": "NS",
+        "summary": {
+          "numeratorDegrees": [
+            19,
+            25,
+            3,
+            3,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 4253,
+          "bytes": 105766,
+          "sha256": "354eb0c408728b4258aa36061f2a02c3f8a687cb376a23d83f09bb351037b1b3"
+        },
+        "degrees_w_Y": [
+          3,
+          3
+        ],
+        "paidRemoved": [],
+        "fullSamePointOriginalSubstitutionVerified": true,
+        "allPaidNormalizationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.7264953349999956
+      },
+      {
+        "stage": "new_W_y_not_one_original_bivariate_row",
+        "name": "PS",
+        "summary": {
+          "numeratorDegrees": [
+            23,
+            29,
+            3,
+            3,
+            0
+          ],
+          "denominatorDegrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 6252,
+          "bytes": 166797,
+          "sha256": "af84a0cbd5a2cf995912dd7b535b9c59b09c2d8f42a7fcdc90d375385b0c56fe"
+        },
+        "degrees_w_Y": [
+          3,
+          3
+        ],
+        "paidRemoved": [],
+        "fullSamePointOriginalSubstitutionVerified": true,
+        "allPaidNormalizationProductsVerified": true,
+        "claimExcluded": false,
+        "seconds": 0.8993878469999999
+      },
+      {
+        "stage": "new_W_y_not_one_original_D_unit_return",
+        "summary": {
+          "numeratorDegrees": [
+            11,
+            15,
+            2,
+            2,
+            0
+          ],
+          "denominatorDegrees": [
+            9,
+            15,
+            0,
+            0,
+            0
+          ],
+          "numeratorTerms": 890,
+          "bytes": 18525,
+          "sha256": "a495b02fa1fdd658aaa0037160eaf3d1fcc02c9f89694d2906e75902d5545af6"
+        },
+        "identity": "Dphysical+ell*HA/u^2=bc*(hU-kU)^2",
+        "sameNewCoordinates": true,
+        "unitStillRequired": true,
+        "claimExcluded": false,
+        "seconds": 0.9249380469999977
+      },
+      {
+        "stage": "new_W_y_not_one_original_parameter_w_constraint",
+        "name": "three_original_quadratic_coefficient_determinant",
+        "degrees_e_k_w": [
+          19,
+          26,
+          6
+        ],
+        "terms": 2043,
+        "sha256": "03ead359b4ef10233f22120e5b0e742e5375a25a70fd730b80b1e5ef3e7afdff",
+        "paidRemoved": [
+          [
+            "e",
+            1
+          ],
+          [
+            "distinct_p_q",
+            1
+          ],
+          [
+            "bc",
+            1
+          ],
+          [
+            "previous_complete_H_zero",
+            1
+          ],
+          [
+            "previous_general_ell_zero",
+            3
+          ]
+        ],
+        "rawLeadingDegrees": [
+          16,
+          23
+        ],
+        "leadingPaidRemoved": [
+          [
+            "e",
+            3
+          ],
+          [
+            "W_paid_leading",
+            1
+          ],
+          [
+            "previous_complete_H_zero",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            6
+          ],
+          [
+            "previous_general_equal_weights",
+            1
+          ]
+        ],
+        "remainingLeadingFactorization": {
+          "content": "16",
+          "factors": [
+            {
+              "degrees": [
+                4,
+                5
+              ],
+              "totalDegree": 7,
+              "terms": 19,
+              "multiplicity": 1,
+              "sha256": "0bbf49a5c500eb77710463e721cb1b1aad3dba14926d6868a898d586c3311f22",
+              "coefficients_e_k": [
+                [
+                  4,
+                  3,
+                  "16"
+                ],
+                [
+                  3,
+                  4,
+                  "-8"
+                ],
+                [
+                  3,
+                  3,
+                  "-16"
+                ],
+                [
+                  3,
+                  2,
+                  "-96"
+                ],
+                [
+                  2,
+                  5,
+                  "-1"
+                ],
+                [
+                  2,
+                  4,
+                  "-8"
+                ],
+                [
+                  2,
+                  3,
+                  "24"
+                ],
+                [
+                  2,
+                  2,
+                  "64"
+                ],
+                [
+                  2,
+                  1,
+                  "192"
+                ],
+                [
+                  1,
+                  5,
+                  "-2"
+                ],
+                [
+                  1,
+                  4,
+                  "-14"
+                ],
+                [
+                  1,
+                  3,
+                  "-12"
+                ],
+                [
+                  1,
+                  0,
+                  "-128"
+                ],
+                [
+                  0,
+                  5,
+                  "-1"
+                ],
+                [
+                  0,
+                  4,
+                  "-10"
+                ],
+                [
+                  0,
+                  3,
+                  "-40"
+                ],
+                [
+                  0,
+                  2,
+                  "-104"
+                ],
+                [
+                  0,
+                  1,
+                  "-160"
+                ],
+                [
+                  0,
+                  0,
+                  "-128"
+                ]
+              ],
+              "coefficientBytes": 225,
+              "coefficientSHA256": "9735261f8518c4d6bb72cf76244f1496db0c25a5db64ac10d4b7cedcbb15b350"
+            }
+          ],
+          "allFactorProductsMultipliedBack": true
+        },
+        "originalIdentity": "sum_i cofactor(i,constant)*normalized_original_row_i = determinant",
+        "allOriginalProductsMultipliedBack": true,
+        "allNewLeadingZeroFibersRetained": true,
+        "claimExcluded": false,
+        "seconds": 1.1001717070000012
+      },
+      {
+        "stage": "new_W_y_not_one_original_parameter_w_constraint",
+        "name": "fixed_quadratic_pair_E1_EBe",
+        "degrees_e_k_w": [
+          24,
+          31,
+          8
+        ],
+        "terms": 3705,
+        "sha256": "445772c983bbcfe943e16525d6390272cc571b977f69196a4bec74780c37c865",
+        "paidRemoved": [
+          [
+            "e",
+            2
+          ],
+          [
+            "distinct_p_q",
+            1
+          ],
+          [
+            "previous_complete_H_zero",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            4
+          ]
+        ],
+        "rawLeadingDegrees": [
+          20,
+          26
+        ],
+        "leadingPaidRemoved": [
+          [
+            "e",
+            4
+          ],
+          [
+            "W_paid_leading",
+            1
+          ],
+          [
+            "previous_complete_H_zero",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            8
+          ]
+        ],
+        "remainingLeadingFactorization": {
+          "content": "64",
+          "factors": [
+            {
+              "degrees": [
+                2,
+                2
+              ],
+              "totalDegree": 3,
+              "terms": 7,
+              "multiplicity": 1,
+              "sha256": "2fbdae57471ad72ef98a373f347478977f7c5014fd0d776d8298401ff94b4039",
+              "coefficients_e_k": [
+                [
+                  2,
+                  1,
+                  "4"
+                ],
+                [
+                  1,
+                  2,
+                  "-1"
+                ],
+                [
+                  1,
+                  1,
+                  "-4"
+                ],
+                [
+                  1,
+                  0,
+                  "-8"
+                ],
+                [
+                  0,
+                  2,
+                  "-1"
+                ],
+                [
+                  0,
+                  1,
+                  "-6"
+                ],
+                [
+                  0,
+                  0,
+                  "-8"
+                ]
+              ],
+              "coefficientBytes": 77,
+              "coefficientSHA256": "81d0a8e5d5a8d08b2808cd314f6938f43fd8a140190d614f2d74e6f577447a69"
+            },
+            {
+              "degrees": [
+                3,
+                3
+              ],
+              "totalDegree": 5,
+              "terms": 10,
+              "multiplicity": 1,
+              "sha256": "b58f6419519ffdee331a2ad1930532b32cc1199f8d64fe195391e578e5e6ae2b",
+              "coefficients_e_k": [
+                [
+                  3,
+                  2,
+                  "4"
+                ],
+                [
+                  2,
+                  3,
+                  "1"
+                ],
+                [
+                  2,
+                  2,
+                  "-4"
+                ],
+                [
+                  2,
+                  1,
+                  "-16"
+                ],
+                [
+                  1,
+                  3,
+                  "2"
+                ],
+                [
+                  1,
+                  0,
+                  "16"
+                ],
+                [
+                  0,
+                  3,
+                  "1"
+                ],
+                [
+                  0,
+                  2,
+                  "4"
+                ],
+                [
+                  0,
+                  1,
+                  "12"
+                ],
+                [
+                  0,
+                  0,
+                  "16"
+                ]
+              ],
+              "coefficientBytes": 107,
+              "coefficientSHA256": "5ee53ee6914496755176fb956c778869635c2ee59bd76b4dc385607d98f95822"
+            }
+          ],
+          "allFactorProductsMultipliedBack": true
+        },
+        "originalIdentity": "K1^2-K0*K2 = K0*(K0Y^2-K2)-(K0Y+K1)*(K0Y-K1), each parenthesis is an original pair combination",
+        "allOriginalProductsMultipliedBack": true,
+        "allNewLeadingZeroFibersRetained": true,
+        "claimExcluded": false,
+        "seconds": 1.2855948690000076
+      },
+      {
+        "stage": "new_W_y_not_one_original_parameter_w_constraint",
+        "name": "fixed_quadratic_pair_E1_N1",
+        "degrees_e_k_w": [
+          31,
+          44,
+          8
+        ],
+        "terms": 7166,
+        "sha256": "1bdcdbc2714e8555d3ad7518492c2123076e5fb05bf8dfc91d2a2382b3d2a57e",
+        "paidRemoved": [
+          [
+            "distinct_p_q",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            4
+          ]
+        ],
+        "rawLeadingDegrees": [
+          27,
+          38
+        ],
+        "leadingPaidRemoved": [
+          [
+            "e",
+            4
+          ],
+          [
+            "W_paid_leading",
+            1
+          ],
+          [
+            "previous_complete_H_zero",
+            4
+          ],
+          [
+            "previous_general_ell_zero",
+            8
+          ]
+        ],
+        "remainingLeadingFactorization": {
+          "content": "-32",
+          "factors": [
+            {
+              "degrees": [
+                3,
+                3
+              ],
+              "totalDegree": 5,
+              "terms": 11,
+              "multiplicity": 1,
+              "sha256": "2652a3e5555f1bf4db2925d38b445c3ca503d97846fb43ec2c7b5d687b7489d7",
+              "coefficients_e_k": [
+                [
+                  3,
+                  2,
+                  "4"
+                ],
+                [
+                  2,
+                  3,
+                  "-3"
+                ],
+                [
+                  2,
+                  2,
+                  "-12"
+                ],
+                [
+                  2,
+                  1,
+                  "-16"
+                ],
+                [
+                  1,
+                  2,
+                  "4"
+                ],
+                [
+                  1,
+                  1,
+                  "16"
+                ],
+                [
+                  1,
+                  0,
+                  "16"
+                ],
+                [
+                  0,
+                  3,
+                  "1"
+                ],
+                [
+                  0,
+                  2,
+                  "8"
+                ],
+                [
+                  0,
+                  1,
+                  "20"
+                ],
+                [
+                  0,
+                  0,
+                  "16"
+                ]
+              ],
+              "coefficientBytes": 120,
+              "coefficientSHA256": "e78050bafaab456c65a1bb53071d0e9ed7e5e040c2f1c1b4e5f2b1be3a7e543d"
+            },
+            {
+              "degrees": [
+                3,
+                5
+              ],
+              "totalDegree": 6,
+              "terms": 16,
+              "multiplicity": 1,
+              "sha256": "5f65fd439ab9465271ac8b78ac7db75b05e6d51b9786a911b77cddfc2bc87503",
+              "coefficients_e_k": [
+                [
+                  3,
+                  2,
+                  "8"
+                ],
+                [
+                  2,
+                  4,
+                  "-1"
+                ],
+                [
+                  2,
+                  3,
+                  "-12"
+                ],
+                [
+                  2,
+                  2,
+                  "-28"
+                ],
+                [
+                  2,
+                  1,
+                  "-32"
+                ],
+                [
+                  1,
+                  5,
+                  "1"
+                ],
+                [
+                  1,
+                  4,
+                  "12"
+                ],
+                [
+                  1,
+                  3,
+                  "52"
+                ],
+                [
+                  1,
+                  2,
+                  "110"
+                ],
+                [
+                  1,
+                  1,
+                  "104"
+                ],
+                [
+                  1,
+                  0,
+                  "32"
+                ],
+                [
+                  0,
+                  4,
+                  "-1"
+                ],
+                [
+                  0,
+                  3,
+                  "-12"
+                ],
+                [
+                  0,
+                  2,
+                  "-50"
+                ],
+                [
+                  0,
+                  1,
+                  "-92"
+                ],
+                [
+                  0,
+                  0,
+                  "-64"
+                ]
+              ],
+              "coefficientBytes": 184,
+              "coefficientSHA256": "091176d3f8564464464ae2d57595fe465a6f5c0b4788bb128629cd648f8fd2ea"
+            },
+            {
+              "degrees": [
+                4,
+                5
+              ],
+              "totalDegree": 7,
+              "terms": 20,
+              "multiplicity": 1,
+              "sha256": "6a12f9c665e2c06b46fb49f5720c2ffb9ca747f73423a6d73e5c6fbb6001cc03",
+              "coefficients_e_k": [
+                [
+                  4,
+                  3,
+                  "8"
+                ],
+                [
+                  3,
+                  4,
+                  "-2"
+                ],
+                [
+                  3,
+                  3,
+                  "4"
+                ],
+                [
+                  2,
+                  5,
+                  "1"
+                ],
+                [
+                  2,
+                  4,
+                  "-1"
+                ],
+                [
+                  2,
+                  3,
+                  "-36"
+                ],
+                [
+                  2,
+                  2,
+                  "-112"
+                ],
+                [
+                  2,
+                  1,
+                  "-96"
+                ],
+                [
+                  1,
+                  5,
+                  "2"
+                ],
+                [
+                  1,
+                  4,
+                  "14"
+                ],
+                [
+                  1,
+                  3,
+                  "36"
+                ],
+                [
+                  1,
+                  2,
+                  "72"
+                ],
+                [
+                  1,
+                  1,
+                  "144"
+                ],
+                [
+                  1,
+                  0,
+                  "128"
+                ],
+                [
+                  0,
+                  5,
+                  "1"
+                ],
+                [
+                  0,
+                  4,
+                  "11"
+                ],
+                [
+                  0,
+                  3,
+                  "52"
+                ],
+                [
+                  0,
+                  2,
+                  "140"
+                ],
+                [
+                  0,
+                  1,
+                  "208"
+                ],
+                [
+                  0,
+                  0,
+                  "128"
+                ]
+              ],
+              "coefficientBytes": 225,
+              "coefficientSHA256": "3f8278e536aaab01120aacb5f11003ec612b480d48a4744ede697defac48227a"
+            }
+          ],
+          "allFactorProductsMultipliedBack": true
+        },
+        "originalIdentity": "K1^2-K0*K2 = K0*(K0Y^2-K2)-(K0Y+K1)*(K0Y-K1), each parenthesis is an original pair combination",
+        "allOriginalProductsMultipliedBack": true,
+        "allNewLeadingZeroFibersRetained": true,
+        "claimExcluded": false,
+        "seconds": 1.7071800679999996
+      },
+      {
+        "stage": "new_W_y_not_one_original_parameter_w_constraint",
+        "name": "fixed_quadratic_pair_EBe_N1",
+        "degrees_e_k_w": [
+          31,
+          44,
+          8
+        ],
+        "terms": 7173,
+        "sha256": "113e4ee5d305d18e3a8ea855a9d3f61ccaa8ff37b60bce53081313eee0937ded",
+        "paidRemoved": [
+          [
+            "distinct_p_q",
+            2
+          ],
+          [
+            "bc",
+            2
+          ],
+          [
+            "previous_general_ell_zero",
+            4
+          ]
+        ],
+        "rawLeadingDegrees": [
+          27,
+          38
+        ],
+        "leadingPaidRemoved": [
+          [
+            "e",
+            4
+          ],
+          [
+            "W_paid_leading",
+            1
+          ],
+          [
+            "previous_complete_H_zero",
+            4
+          ],
+          [
+            "previous_general_ell_zero",
+            8
+          ]
+        ],
+        "remainingLeadingFactorization": {
+          "content": "4",
+          "factors": [
+            {
+              "degrees": [
+                4,
+                6
+              ],
+              "totalDegree": 7,
+              "terms": 22,
+              "multiplicity": 1,
+              "sha256": "0dc10d5c9e837c8e37b9bdf1fdd33966742157e360cb8fd77d7341f60f4f8d5f",
+              "coefficients_e_k": [
+                [
+                  4,
+                  3,
+                  "16"
+                ],
+                [
+                  3,
+                  4,
+                  "-12"
+                ],
+                [
+                  3,
+                  3,
+                  "-40"
+                ],
+                [
+                  3,
+                  2,
+                  "-64"
+                ],
+                [
+                  2,
+                  4,
+                  "-22"
+                ],
+                [
+                  2,
+                  3,
+                  "-136"
+                ],
+                [
+                  2,
+                  2,
+                  "-288"
+                ],
+                [
+                  2,
+                  1,
+                  "-192"
+                ],
+                [
+                  1,
+                  6,
+                  "1"
+                ],
+                [
+                  1,
+                  5,
+                  "18"
+                ],
+                [
+                  1,
+                  4,
+                  "120"
+                ],
+                [
+                  1,
+                  3,
+                  "416"
+                ],
+                [
+                  1,
+                  2,
+                  "848"
+                ],
+                [
+                  1,
+                  1,
+                  "992"
+                ],
+                [
+                  1,
+                  0,
+                  "512"
+                ],
+                [
+                  0,
+                  6,
+                  "1"
+                ],
+                [
+                  0,
+                  5,
+                  "18"
+                ],
+                [
+                  0,
+                  4,
+                  "130"
+                ],
+                [
+                  0,
+                  3,
+                  "488"
+                ],
+                [
+                  0,
+                  2,
+                  "1016"
+                ],
+                [
+                  0,
+                  1,
+                  "1120"
+                ],
+                [
+                  0,
+                  0,
+                  "512"
+                ]
+              ],
+              "coefficientBytes": 263,
+              "coefficientSHA256": "7122e22c432515d4f27425271321cf2dac93c8e94b8fee3437ec76dfb6a009e8"
+            },
+            {
+              "degrees": [
+                6,
+                7
+              ],
+              "totalDegree": 11,
+              "terms": 42,
+              "multiplicity": 1,
+              "sha256": "4fba863369952bd887c602d0c88f3d9dc4b7eceeb27071bb90b5838ed1279b2d",
+              "coefficients_e_k": [
+                [
+                  6,
+                  5,
+                  "32"
+                ],
+                [
+                  6,
+                  4,
+                  "32"
+                ],
+                [
+                  5,
+                  6,
+                  "-20"
+                ],
+                [
+                  5,
+                  5,
+                  "-104"
+                ],
+                [
+                  5,
+                  4,
+                  "-304"
+                ],
+                [
+                  5,
+                  3,
+                  "-256"
+                ],
+                [
+                  4,
+                  7,
+                  "1"
+                ],
+                [
+                  4,
+                  6,
+                  "8"
+                ],
+                [
+                  4,
+                  5,
+                  "68"
+                ],
+                [
+                  4,
+                  4,
+                  "328"
+                ],
+                [
+                  4,
+                  3,
+                  "864"
+                ],
+                [
+                  4,
+                  2,
+                  "768"
+                ],
+                [
+                  3,
+                  7,
+                  "-2"
+                ],
+                [
+                  3,
+                  6,
+                  "6"
+                ],
+                [
+                  3,
+                  5,
+                  "142"
+                ],
+                [
+                  3,
+                  4,
+                  "520"
+                ],
+                [
+                  3,
+                  3,
+                  "528"
+                ],
+                [
+                  3,
+                  2,
+                  "-576"
+                ],
+                [
+                  3,
+                  1,
+                  "-1024"
+                ],
+                [
+                  2,
+                  7,
+                  "-5"
+                ],
+                [
+                  2,
+                  6,
+                  "-44"
+                ],
+                [
+                  2,
+                  5,
+                  "-194"
+                ],
+                [
+                  2,
+                  4,
+                  "-676"
+                ],
+                [
+                  2,
+                  3,
+                  "-1728"
+                ],
+                [
+                  2,
+                  2,
+                  "-2336"
+                ],
+                [
+                  2,
+                  1,
+                  "-896"
+                ],
+                [
+                  2,
+                  0,
+                  "512"
+                ],
+                [
+                  1,
+                  7,
+                  "-2"
+                ],
+                [
+                  1,
+                  6,
+                  "-20"
+                ],
+                [
+                  1,
+                  5,
+                  "-90"
+                ],
+                [
+                  1,
+                  4,
+                  "-240"
+                ],
+                [
+                  1,
+                  3,
+                  "-280"
+                ],
+                [
+                  1,
+                  2,
+                  "352"
+                ],
+                [
+                  1,
+                  1,
+                  "1344"
+                ],
+                [
+                  1,
+                  0,
+                  "1024"
+                ],
+                [
+                  0,
+                  6,
+                  "2"
+                ],
+                [
+                  0,
+                  5,
+                  "26"
+                ],
+                [
+                  0,
+                  4,
+                  "148"
+                ],
+                [
+                  0,
+                  3,
+                  "488"
+                ],
+                [
+                  0,
+                  2,
+                  "976"
+                ],
+                [
+                  0,
+                  1,
+                  "1088"
+                ],
+                [
+                  0,
+                  0,
+                  "512"
+                ]
+              ],
+              "coefficientBytes": 508,
+              "coefficientSHA256": "20994a312bfa57bd5f78b6cb5e524df4561acb5649ba183f7d50905124a73da4"
+            }
+          ],
+          "allFactorProductsMultipliedBack": true
+        },
+        "originalIdentity": "K1^2-K0*K2 = K0*(K0Y^2-K2)-(K0Y+K1)*(K0Y-K1), each parenthesis is an original pair combination",
+        "allOriginalProductsMultipliedBack": true,
+        "allNewLeadingZeroFibersRetained": true,
+        "claimExcluded": false,
+        "seconds": 2.405622360999999
+      },
+      {
+        "stage": "new_W_y_not_one_full_mean_bivariate_system_complete",
+        "sourceSHA256": "27ad028d628b57855fe3b4587ead848f171e035a6128142745ecafc2d0fc3303",
+        "chartAssumption": "y!=1",
+        "allOriginalQuadraticsAndNSPSReturned": true,
+        "remainingGeometricVariables": [
+          "w",
+          "Y"
+        ],
+        "originalRowBidegreeBounds": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "allExplicitCofactorAndPairProductsVerified": true,
+        "noNewGeometricOrParameterLeadingInverse": true,
+        "D27AndB239WholeZeroFacesRetained": true,
+        "physicalDOriginalUnitRetained": true,
+        "newLeadingZeroFibersNotPaid": true,
+        "fullOriginalSystemExclusionClaim": false,
+        "claimExcluded": false,
+        "peakRssKiB": 65100,
+        "seconds": 2.406322935999995
+      }
+    ]
+  },
+  "nextSource": {
+    "blob": "ebae1e025e72e04fb18ec1c2188ecd4cf88a3a3f",
+    "sha256": "a5b1b6bf1d5ae10c9fc29bf588ea5612662adb47fddeb973b830db49ee134cea",
+    "bytes": 18836,
+    "executed": false,
+    "limits": {
+      "seconds": 180,
+      "addressSpaceGiB": 4
+    }
+  },
+  "entireRemainingWChart": true,
+  "selectedOriginalNecessarySystemEquivalence": true,
+  "fullOriginalValueSystemSufficiencyNotClaimed": true,
+  "allNewLeadingZeroFacesRetained": true,
+  "fullOriginalExclusion": false
+}
