@@ -84,3 +84,7 @@
 ## 2026-11-27 23:48:59 UTC — 21官方真实run/job
 
 95ae5c2399664bed1b9597611b7385cb4e8d6d5e启动实际46084442413/1，于23:47:39Z created/started；job140790598810。第一次官方query依赖安装in_progress，科学pending；完整原run/jobs全部字段附[全启动记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)，未冒已返科学或point。双README云核至`185679de628e5bee09652e5f8ec9beeff8ff247a`无变，非pull。
+
+## 2026-11-27 23:49:39 UTC — 19第二恢复试步的真实统计
+
+19第二b622于23:38:29.041545统计返Phi3824.6263877655356/Gram.6461163467955962；Phi降、Gram升，trial几何/接受未知。current仍d761b5/accepted1/g.9679630392005261，reportfalse；完整原math/错误与normal进度/小文件身份在全note，不借初g填新trial。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。双README云核至`d9bf1ece383641bcd182b3daf821d0f21de7879e`无变（非pull）。
