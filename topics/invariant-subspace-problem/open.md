@@ -178,11 +178,11 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**[W整个J19原权曲线已排空](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)。** 6815真19.050秒/80908KiB/exit0：F568全部32模因子上的完整e4原48×35满35列/原1，有限自由Z_(1009)模型秩2272及Nakayama严格付QQ。ff21真19.370秒/49564KiB/exit0：F20度2/2/3/5/8的五完整QQ因子，分别只排原V/d/P02/e/bc零e线，余e3维数6/6/9/15/24全部返1，Dpower皆0。当前原W权域可付J19，无额外D非0假设；旧4acc API失败冻结。新2698首次用原J19已付头构造A[y]三生成、六真乘法、七同点三列及≤6次cofactor，180秒4GiB待实际；继续D27/B239等未付权头、Y实际逆/w首一≤6显式系数；一般h=k≠1仍按自身原域独立开放。
+**[W整J19原权曲线已闭](results/R150-appendix-unit211-W-J19-entire-original-weight-curve-exclusion.md)，[全局原均值坐标与明确首一w6/12维环境](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)已付。** L的完整有限身份给A[x,y,t]/L=A[w,Y]，无y−1逆；D6的精确w6首项=−beta³detH，detH=已付因子×J19，故q_w6与原q_Y2定义自由12维环境，五原式商仍完整保留且未声称自由。2698新的A[y]三生成真17.044秒/183288KiB/exit0，六乘法/七原行/三个y6全部返回，待合并完整稿；继续真正原参数返回、D27/B239及Y逆。先前各权定理适用域保留，一般h=k(D0)不外推。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**[Delta0 h1/k1整λ半纤维排除及6219基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)已付。** λ半时NF=zeta T0、Phi−(J−Q)=2p²(ell−1)，故Delta=−p³(ell−1)T0/rho；等权与T0已闭，且本图D=bA≠0合法。G389只余J387双度306/81，合F49互素给≤6219基点/18657含ell投影，原t/兼容式/八行全保。[一般h=k(D0)完整原值及首一b4](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)已付：fdece真4.240秒/96500KiB/exit0，H=bcDelta、b4首项−64xi²rho⁴，旧2721漏清c失败冻结，不能外推旧D单位权结论。所有h=k权面/Delta零与非零图，以及其它E0/t头零继续开放。
+**[Delta0 h1/k1整λ半纤维排除及6219基点覆盖](results/R150-appendix-unit211-Delta-zero-h-one-lambda-half-exclusion-and-6219-cover.md)已付。** λ半时NF=zeta T0、Phi−(J−Q)=2p²(ell−1)，故Delta=−p³(ell−1)T0/rho；等权与T0已闭，且本图D=bA≠0合法。G389只余J387双度306/81，合F49互素给≤6219基点/18657含ell投影，原t/兼容式/八行全保。[一般h=k(D0)完整原值及首一b4](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)已付：fdece真4.240秒/96500KiB/exit0，H=bcDelta、b4首项−64xi²rho⁴，旧2721漏清c失败冻结，不能外推旧D单位权结论。新83ea首次原Delta/三均值完整QQ因式，180秒4GiB；所有h=k权面/Delta两图及其它E0/t头零继续开放。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 

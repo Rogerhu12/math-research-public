@@ -1,13 +1,15 @@
 {
-  "message": "ISP: prove six full QQ factors and true monic 1105 original Phi cover",
-  "parentCommit": "564d3259c1d090673697234ac808098f3e6cdab7",
+  "message": "ISP: prove global original W mean coordinates and explicit finite free twelve environment",
+  "parentCommit": "1751e7e61a9e6f8641ac513e85fc0d9b1c3960d1",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-rank-one-value-six-QQ-factors-and-1105-original-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-rank-one-value-six-QQ-factors-and-1105-original-cover-receipt-8542.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six-evidence-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-singleton-values-primitive-original-mean-and-Delta-factors-8542.py",
+    ".github/workflows/invariant-subspace-equal-singleton-primitive-factors-8542.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +18,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-equal-singleton-primitive-factors-8542.yml"
+  ]
 }

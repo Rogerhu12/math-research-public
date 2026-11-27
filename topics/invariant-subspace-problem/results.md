@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：余W全局原均值坐标与明确首一w6及12维环境](results/R150-appendix-unit211-W-global-polynomial-mean-coordinates-and-explicit-monic-w-six.md)：无y−1逆的全局环同构；原D6首项−beta³detH为已付单位，明确首一六次合原Y二次，保五原式商。
+
 - [R150：Phi0碰撞图六个真实QQ因子与首一1105原覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-six-QQ-factors-and-1105-original-cover.md)：11fc实际9.181秒/exit0，六项精确QQ重数合840，全部原零纤维已付；余1105保度、≤1105基点，未排空。
 
 - [R150：一般h=k非1碰撞的完整原Gram与Delta首一四次](results/R150-appendix-unit211-equal-singleton-values-full-original-Gram-and-Delta-quartic.md)：fdece实际4.240秒/exit0，正确H=bcDelta、两singleton同h²/h³原靶、全八行；b4首项−64xi²rho⁴，D0全部保留，未排空。
