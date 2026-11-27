@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：be3d3935ea1c4ac8f09c5f1da02d47222794b2a3**（2026-11-28 01:49 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：468c8a40bd07b72998cbb9199b7c95b2a6a72e57**（2026-11-28 01:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；01:47重试执行器仍报无可用环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 02:47。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -39,6 +39,8 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 真实三挠cover η=−z/w给Prym Y²=−(3x+ε)(x³+2v)、θ完整Hasse和rank2 Gauss；θ=θ′0·ε₂F₁(1/2,5/6;4/3;ε³/(54v))到k−1，保−3dx/Y、cup1/(9v)、period安全<p/共振p+1。全族Dε^p=HεDε、DεΨε=HεU−βε、加律M^p−HεM。§14保6v·dotR=δ/2−U²Ψ/V−S_(p−3)，S全二次和/常数；Ψε(Q)=(εH−ε^p)/6与二阶全付。
 
 §15固定Prym x³+3xr²+2v=0：Ξ=Ψ(u−ν)=d(xR/r)+3v(R/U)ωP，Υ=−3R²ωP，CΞ=3eωP′、CΥ=−3K4ωP′。proper高极p次自由项按CM权排，两类同ζ线，zero分别iff原读数zero。完整Fermat矩L0..k−1 units、Lk..2k−1=0，e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)。**原两和非同时零仍开**，不能用rank2完美性/moving三挠normal代fixed Picard；继续实际primitive/普通连接。
+
+[原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)自由，q=r²−x²,w=r³+3rx²给真实3-isogeny φ=(q/ρ²,w/2)到同一原E；φ*ωE=−3ρ⁻²ωP。有限Newton trace完整给A*=Tr(R/r²)/3、B*=TrR²/3，准确Cartier读e/v、K4；顶项分别3ρ⁻² U^(m−1)、U^(p−1)。proper类的φ*/φ*trace尺度已付，最高项/同源p单位不代原共同非零。
 
 [原Lamé续稿](notes/2026-11-27-original-lame-tridiagonal-short-flag-continuation.md)保短旗标/Green/全Newton矩阵/纯极Φ，e0零迫邻e单位不代K4。[R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)真实邻项只回旧δ单位，run46015627853仅消费。R1126六CM十五配对保A/S/T，Pfaffian不含S；R1060非CM ordinary不推S。旧素数窗口至500000已成，不重扫。
 

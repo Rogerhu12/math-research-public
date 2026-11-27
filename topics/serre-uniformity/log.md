@@ -442,3 +442,8 @@
 ### 2026-11-28 01:49 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原aux-c整Manin§7用O归一差函数R_a、ψc leading和第二K₃的全部共同零点残数，把完整c-torsion Cor转成原p点配置。精确𝒫=2c²{M_a,M_b}−2c⁴C_ab；两次{-1,h}经±点整消，d0由零行和消，排序仅剩二扭。
 - root/global/o2全文独审；原cross权与实际C_ab全保，未冒称任何单个cup零。H逐字归档并系统压缩，保完整来源入口；继续真Manin投影/配置关系及两个局部原源，无数学执行。
+
+
+### 2026-11-28 01:54 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原fixed-Prym三无穷点的自由阶三作用给实际quotient，目标经ρ³=2精确回原E，不仅比较j。root逐式付固定域/degree3、φ*ω=−3ρ⁻²ωP、完整Newton trace及原A*/B*的两Cartier读数；最高项分别单位3ρ⁻²与1。
+- o1独立纸核原模型、Fermat三根、微分/Frobenius trace标度和最高项。proper类经真实φ*/φ*trace识别；仍未把顶项单位或同源完美性当原e/K4非同时零。open逐字前态归档并压缩；无数学执行，继续有界primitive与三平移实际关系。

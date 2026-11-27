@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-fixed-Prym-marked-classes.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-Prym-three-isogeny.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -44,7 +44,9 @@ R1125 §10后到q²四首log已全维交叉核相容：run46025141482/job1405944
 
 ## O1：全p同一真实本原标签的临界非零
 
-[原Tate三挠normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–13已付实际Verschiebung/Miller、kerV、−Q刚化、全自然基及P/N连接/三平移；Vε²与最高偶补偿、全部相位/极界保原文。全V₀低阶目标共轭已排，指定Um仍开；全dot A已付，首normal×Picard一/四阶零，normal零阶unit。真实Prym商Y²=−(3x+ε)(x³+2v)给完整θ及Gauss–Manin，原θ是终止ε₂F₁(1/2,5/6;4/3;ε³/(54v))，一般period限<p jets/首共振p+1。真实Ψε保Dε^p=HεDε、DεΨε=HεU−βε、普通加律M^p−HεM；6v·dotΨ|U=−δU²/V，扣自然Vε变化后=PΨ。固定C的Picard离开三挠；原e/K4共同非零与高normal比较继续。 §§14–15又付Rε全S补偿/三挠ε^p及二阶边界；原固定Prym的Ξ、Υ准确读3e、−3K4，proper高极自由项按CM权固定，两类在同一CM线。完整L_j种子/递推使e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k项unit/后k项零；仍须原两和非同时零，继续有界primitive消元。
+[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–15保真实Miller/Verschiebung、kerV/−Q刚化及全部P/N连接/自然基补偿。首normal×Picard一/四阶零、normal零阶unit；全V₀低阶共轭已排，不排指定读数。真实三挠cover η=−z/w给Prym Y²=−(3x+ε)(x³+2v)、完整θ Hasse/Gauss，θ为终止ε₂F₁；period仅<p安全jets，首共振p+1。全族Ψε普通加律保−HM、Rε保完整S补偿/常数，三挠ε^p及二阶边界不删。§15固定同一Prym的Ξ/Υ准确读3e、−3K4，proper高极自由项按CM权固定，两类同一CM线。完整Fermat L_j递推给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k项unit/后k项零；moving三挠不代fixed Picard，原两和非同时零继续。
+
+[原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)自由，q=r²−x²,w=r³+3rx²给真实3-isogeny φ=(q/ρ²,w/2)到同一原E；φ*ωE=−3ρ⁻²ωP。有限Newton trace完整给A*=Tr(R/r²)/3、B*=TrR²/3，准确Cartier读e/v、K4；顶项分别3ρ⁻² U^(m−1)、U^(p−1)。proper类的φ*/φ*trace尺度已付，最高项/同源p单位不代原共同非零。
 
 [R1130](results/R1130-original-inverse-center-recurrence-and-adjacent-unit.md)：完整WZ及一阶解给原I_n递推与准确短Ramanujan和，原p=6m+5的截断m及PF最后强迫项全部保留。§6已完成真邻项桥：I_(n+2)来自(V−v)ν/(V+v)u的亚纯配对，完整相对Cartier/分部积分给I_(n+2)+I_n=3δ/4。因此旁单位只回旧C(Uω)，不再把它当独立K4入口；继续原三挠族变分及有边界的短和。run46015627853/job140561880424完整证书只消费。
 
