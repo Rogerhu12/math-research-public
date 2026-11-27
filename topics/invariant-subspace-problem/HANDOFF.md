@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** `48bf564ae3c7d45b48f3a05998ac0039b460b141`（2026-11-27 02:43:20 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。03:20:13接口读c5523b6e0a7582da73cbf516e92eaf3f4e99bb4e，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `d371525f6368df8c345fcffdefdf61f39e29c1b4`（2026-11-27 03:46:38 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `89a464233e4d50471eb795622a80ea05af09a43e`（2026-11-27 03:48:18 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-small-mean-branches-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -47,6 +47,8 @@
 - 同w=Ju的Sh∈H恰整个偶块h0在H；g0=H*(I+H*H)u，Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²有限恰g0在实际RanK*，W只付闭包像。N/Y正则化列的全Q_H费用与||u||²+||K(K*K+ε)^−1g0||²双侧比较，Γ/C2及输出逆权未付。
 - 全整数窗口给Σ||P≤n w||⁴/E_n≤4Aδ||w||²；E_n有限，非零W迫尾Σ1/E_n有限。真实W的倒数发散/平方根乘迭代log增长与Γ未付，旧κ阈值不重登记。
 - 五原坐标已排N/Y无条件联合图估计：||K h_q||/b_q分别趋1、sqrt2，(||T*h_q||+||Sh_q||)/b_q→0，C2/b_q→1；全Y逆保留。分离子列给有限来源联合图闭包中的h仍非C2且D*h/Kh各非H，输出在M⊥而非W。只续同W特殊正交性或更宽真实核心，不再一般最大/最小图自动付C2。
+
+- 新同源原dyadic边界费E_r：有界子列可经凸组合进实际图核心；任意最大图对若P_Wf≠0，liminf logE_r/r≥gamma_ex>5/3。E_r沿子列o(e^{gamma r}),gamma<gamma_ex即f∈I，但不自动给图核心。真正W的Gamma/费用上界仍开，未换其规范源。
 
 ## 原Haar未知普通M与闭域
 

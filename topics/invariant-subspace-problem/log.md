@@ -60,3 +60,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 2026-11-27 11:46 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 冻存新W0/H_W0有限六式QQ(i,w)迹门：四原二次返回后未决，控制器终止；协作60秒并非真实超时，完整墙钟/OS/RSS未暴露，未得到单位或覆盖。
 - 源 notes/2026-11-27-unit211-generic-LS-W-H-zero-Qiw-incomplete-probe-8542.js 只封装准确原输入再生与失败算法，自身未执行；输入d5442db8已成2.162秒。停止同门换序加限，改原多项式矩阵/结构输入；两README无变。
+
+
+2026-11-27 11:48 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 登记同一最大图对的弱核心充分条件和真正P_Wf的指数边界费下界：保两dyadic边界、全Y逆、同源投影与全部尾向量，未付Gamma或费用上界。
+- 较弱增长仅给f∈I，有界子列才付图核心；不把一般坏源移到W。压缩open保完整快照，修正W0四生成元页的块公式分隔符；两README无变。

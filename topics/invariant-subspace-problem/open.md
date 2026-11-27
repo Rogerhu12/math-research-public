@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-small-mean-branches-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-same-w-boundary-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -115,7 +115,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 **[原强尾公共中位尺度已付](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)（已证明）：** 完整物理相似条件数精确为阶乘比且≤4^R；保持孔级的同一primitive代数投影也付4^R。公共强权尺度全部转入原有限头，偶R≥d、奇1≤r≤m+R的完整MP上界含64^R及显式y幂/阶乘，因此强段对数是O(R)+(d+r)log(m+R)。下一可审更大多项式R，但必须分别支付原Galerkin源的统一高阶系数/邻域及原支持母窗；未从逆费用推出真实κ界。
 
-**[三位N头的高孔完整极点界](results/R271-appendix-three-bit-highest-carry-high-hole-principal-minor-residue-order.md)（已证明）：** 五短尾链以真正整数/有理重建证开齐全部新增秩，非正交翻孔形式与完整极点方程给q₋₁=O(s^(R/2−3))。原强权还有对所有0<s≤1的显式10^100·4^R(3+R/2)^16 s^(R/2−3)Z_R(s)，所有强段相似费用在前因子，Z_R是原完整高孔加权残差。run44724947207实际全核通过。下一仍须在实际s=e⁻¹⁰⁷⁰控制Z_R、最高t的余项，并处理一般m；不能把固定R渐近或单极点项当整个费用。
+**三位N头最高carry的高孔完整极点界已付**（原来源/常数/run见结果索引及本次快照）：保真实全核与完整物理相似，仍须在实际s=e⁻¹⁰⁷⁰控制原Z_R、最高t余项及一般m；固定R渐近或单极点不代全部费用。
 
 **[全部正远孔的移动整行与同源费用已付](results/R271-appendix-all-positive-far-hole-moving-coherent-rows-and-matched-source-cost.md)：** ω²=S(x+p−1)/(pSx)同时控制所有p≠q交叉，几何起点的Bessel常数仍Bλ；J≤2x仅27J平方逆权。原全部cut、Q/R/J门与同w/u保留，最优Γ²是真有限头全幂Gram的MP型。实际f−a_full给Γ²≤27μ1及正物理列合成界，但该源锚趋0；不能将此费移给有锚f、a−PkerC f、第二Green或真F0。继续同一有锚来源的实际最优费用与稳定范围端点。
 
@@ -123,7 +123,7 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 
 同W固定及慢增次数MP已付，k_m≤m/12保全−Cq_r反馈和同一母支持；仍未付k=h_m−1终列费用，不以近核列作kerT或closureBM。完整常数/来源见结果索引和最新快照。
 
-**[同一相容真空塔的固定基数负相关改进](results/R271-appendix-fixed-cardinality-negative-correlation-near-optimal-compatible-vacuum-towers.md)已证：** 完整物理范数J_r近最优范围由L=o(√x)扩至L=o(x^(2/3))，原相容性、同一forcing与完整Gram不变。平方损失O(L(L+logx)²/x²)；固定头误差O_m((logx)^(3/2)/x)，已付Chebyshev短核源界给x=ceil exp(9d⁴)模型窗。仍超原全局exp(O(d³))母窗；同w到真实短核的δ_L、carry/lift与稳定BM端点继续，不能以小C^(L+1)残量替真实核距离。
+**同一相容真空塔的固定基数负相关改进已付**：近最优窗L=o(x^(2/3))保原相容性/forcing/Gram，但模型x=ceil exp(9d⁴)仍超全局exp(O(d³))母窗；同w短核δ_L、carry/lift与稳定BM返回未付。准确来源和费用见结果索引/快照，不把小高次残量当真实核距离。
 
 **[整个实际M的占满前缀新指数率](results/R271-appendix-full-tensor-exponential-bound-and-improved-occupied-prefix-decay.md)已证：** 完整张量指数范数配合同一真实D_rg_r余项，r=ceil(log2n)给γ_ex>5/3和明确e^(−47n⁴)carry；优化率Γ_occ约1.723637，所有严格小于它的率对全M及固定最高k类成立。仍远低于真实α_q^-1除法图范数；继续W特殊来源/主理想闭图，未证N=M。
 
@@ -176,3 +176,6 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 
 [原五坐标联合图反例](results/R271-appendix-five-coordinate-actual-joint-graph-carry-countersequence.md)已对N/Y排除无条件用||T*h||+||Sh||控制carry/C2的估计。分离子列甚至给有限来源联合图逼近但h非C2，D*h/Kh各非H而完整输出在H；其输出明确属于M⊥，不属于非零W。继续同一W正交性、Γ、C2特殊来源或更宽真实核心，不再尝试已被反例排除的一般升级。
+
+
+[同一缺陷来源的指数边界下界与弱核心](results/R271-appendix-same-w-exponential-dyadic-boundary-cost-and-weak-core.md)现已证明：同一原最大图对若两笔真实dyadic边界费用E_r有有界子列，即可用凸组合进图核心；任意P_Wf≠0则liminf logE_r/r≥gamma_ex>5/3。较弱的沿子列E_r=o(e^{gamma r}),gamma<gamma_ex只保证输出f∈I，不偷换来源、不冒称图核心。仍需真实W的Gamma有限性及这些同源费用的实际上界，两道范围核心/N=M均未闭。
