@@ -8,8 +8,8 @@
 
 - 公开根/课题 README 已读至实际 pull --rebase 的1cf10ac7283dc40958604f5f981f1be0e477af80（07:12UTC），两README差异空；根blob282e86b03385d3b6245ce7100ae2e2af7b103c2d，课题blob2f3b3c9264fbba8189f85716e68f768830e921bc。每次pull立即只读新README差异、至少每小时同步、记SHA。
 - 两库部分克隆已做。私库QUEUE认领41fe885610073f478b2f5a752461ca56cfd43f09已推；最近实际pull06:47UTC至6139de54ac72f1c7af0508b88ce03efdbf0a5690，两README无变、QUEUE本会话进行中。
-- 07:20UTC本地执行再次失联；09:09两库实际pull重试均明确No usable execution environment。私库API至e0944037db11cf7b9acb79a25f41e13417fde492逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
-- 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。09:09公开API至ccb52315e1485916f867f7574c944b63dc40fac2，两README blob仍同07:12；最新父比较9文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
+- 07:20UTC本地执行再次失联；10:00:41两库实际pull重试均明确No usable execution environment。私库API至a4b6e65f3a7dbeb74fbdd0d99f6ba64ad1eb9afb逐两README核同06:47，QUEUE仍本会话进行中；不冒称实际pull。
+- 断连期间沿最新main API非force快进；每次检查README和本topic差异，遇新父重新比较/建commit。10:01公开API至a5d52ebc2852767aee2757b6d4d5799a0a0afe87，两README blob仍同07:12；最新父比较13文件，无本topic外部变化。恢复立刻补两库真实pull及README差异；令牌只命令行/进程，不落文件或API。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase、读差异、再推至成功，不强推。数学只用公开Actions。根规则15禁止存可重算输出；H<10KB、每MD<100KB。
 - [此次逐字归档](notes/2026-11-27-handoff-before-actual-degree126-return.md)及其完整历史链保全部旧式、回执、未付门和失联/同步史；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)为实际接续入口，不重做已登记结论。
 
@@ -19,7 +19,7 @@ v9 run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2
 
 原v10 run45956901945/job140365369016/source43c1a7bfd607ba57dcdb891a1ed5ea83b61b1157已于09:15:03UTC failure，根09:50完整消费。全log4056415B/SHA521e26eb54219ef9197599c787a6f365a1bda6136846d4b4d56622b65270ca48；7283秒时logger的elapsed_seconds重复关键字TypeError，exit1，并非超时或代数反例。此前原图/完整主除子阶段已返，但第一个residue kernel仅计算后未交回，四交/全Norm/shadow无PASS。
 
-R1035原生后端已真编译/准备成功（45962104875/140382113685、45964030236/140388320652），0旧数学实例。消费v10终态后，两处logger仅更名construction_elapsed_seconds并同步两外层pins；§8给完整当前hash。现同一workflow接唯一native v11，56源、两char0 pins、原29/2453/64/minimal、全门、禁网/21000s/360min/cancel=false均保；唯一native run45978097755/source8a19591199e83549df1709f35dc00976a40e2810已in_progress；全部终门仍待。
+R1035原生后端已真编译/准备成功（45962104875/140382113685、45964030236/140388320652），0旧数学实例。消费v10终态后，两处logger仅更名construction_elapsed_seconds并同步两外层pins；§8给完整当前hash。现同一workflow接唯一native v11，56源、两char0 pins、原29/2453/64/minimal、全门、禁网/21000s/360min/cancel=false均保；唯一native run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810已in_progress；全部终门仍待。
 
 ## 二、原中央实际门与最新完整输入
 
