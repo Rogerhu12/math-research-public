@@ -111,4 +111,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 2026-11-27：10真实输入上的完整缓存入口已准入
 
-七完整上体/九原字下层及全两步见[完整入口](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)。当前真实target e711/whole binding4ace/model081，前1–4实际0；新c3dc science与2efa pure排入10，149/7、373/357及43只读progress完整，旧三真返input step整queue另保。没有新场/费用/性能或精化返回。09 ff544已cancelled且末场未返，07/08/09未知末点/typed责任不删；各10费用须独立全source/point绑定，不能换标签迁09报告。闭面八证据、全phase共同A/整像δhold、δE与同g真实精化继续；完整旧open逐字保本段之前的固定提交。
+七上体/九原字下层及全参数见[10完整入口](notes/2026-11-27-run10-complete-detached-closure-cache-entry.md)：实际target e711/whole binding4ace/model081，1–4返0；c3dc科学5/2efa pure未返，149/7argv、373/357及43progress完整。[mean/profile](notes/2026-11-27-run10-complete-reference-mean-profile-fee-adapter.md)完整一步已排；[normal/连续geometry](notes/2026-11-27-run10-complete-normal-and-continuous-geometry-fees.md)六全体/两ready已刊未排，保全32段/1024角胞/全径向，38/8argv和36/44读取项。无新场/费/精化真返；09已cancelled、末点/typed未知，07/08/09全部责任保。各费用只读同点真实完整report/snapshot，不取progress或迁09值。闭面九角色、全phase共同A/整像δhold、δE、同g真实精化继续；旧open原字保固定提交。
