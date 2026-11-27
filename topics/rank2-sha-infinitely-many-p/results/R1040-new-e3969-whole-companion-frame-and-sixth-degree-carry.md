@@ -1,6 +1,6 @@
 # R1040 — E3969 真六轴的完整小伴随框架与单项六次 carry
 
-日期：2026-11-27。**状态：以下整框架、完整 H/J 纤维分解、单项六次返回、两个实际 whole 核、四输出 carry 及完整 K 主型三输出返回均已证明。** 来源是 R1038 §§10–14 已完全识别的固定 rank2 曲线 E3969。先保留另外三个伴随输出，再准确分离 K 主型；其余 mixed 条件及全部单位补域保持；本篇不宣称主问题已完成。
+日期：2026-11-27。**状态：以下整框架、完整 H/J 纤维分解、单项六次返回、两个实际 whole 核、四输出 carry、完整 K 主型返回及五伴随主型乘积均已证明。** 来源是 R1038 §§10–14 已完全识别的固定 rank2 曲线 E3969。先保留另外三个伴随输出，再准确分离 K 主型；其余 mixed 条件及全部单位补域保持；本篇不宣称主问题已完成。
 
 本篇使用原普通 ray。其 $\lambda,\kappa$ 不是惰性模型中同名的参数。新的 $C,F$ 也不是 R968 的旧共同平面；下文每个推前都明确保新的四个实际输出。
 
@@ -905,3 +905,308 @@ $M\mapsto M+u$。
 - [R968](R968-original-common-degree10-carry-and-positive-eighth-order-difference.md)：原普通 ray、whole even degree10 的绝对 $\chi_{10}$ 及保全输出的 carry 规则。
 
 本篇未运行新的数学数值计算。所有新显示恒等式均由原完整 sigma、有限维 theta 空间与已付 whole 核逐式证明；没有加入新的中央零或删除完整 mixed 补域。
+
+## 10. 真实 norm9/norm14 框架及五个伴随的完整乘积
+
+本节不再沿 M2142 提取已经为零的 old 来源。
+用原整数行改写 L/M 后，全部五个伴随的主型部分均可直接确定。
+所得是原六 sigma 的完整有限投影身份，不增加第一轴 Hecke projector。
+
+### 10.1 17 完全消失的原正交框架
+
+沿 §8 的 $U,V,Q$ 定义
+$$
+\boxed{
+\begin{aligned}
+A_9&=\frac{M+3L}{17}=V-Q
+ =(1,-\omega^2,-\omega,0,-\delta,-\delta),\\
+N_{14}&=\frac{M-14L}{17\delta}
+ =\frac{2U-2V-Q}{\delta}
+ =(0,-2,2,2,-1,-1).
+\end{aligned}}
+\tag{62}
+$$
+特别这两个都是原六输入的整数行；不是仅在形式分式域换坐标。
+完整反解是
+$$
+\boxed{L=A_9-\delta N_{14},\qquad M=14A_9+3\delta N_{14}.}
+\tag{63}
+$$
+由 $NU=6,NV=3,NQ=6$ 及三者正交，
+$$
+NA_9=9,\quad NN_{14}=14,\quad A_9\perp N_{14}.
+$$
+它们也与 $Y,H,K,J$ 全部正交。因此按顺序
+$(Y,H,K,J,A_9,N_{14})$ 的完整 Gram 和 determinant 为
+$$
+\boxed{
+\operatorname{Gram}=\operatorname{diag}(126,3,6,2,9,14),\qquad
+\det=756,\qquad N\det=2^4 3^6 7^2.}
+\tag{64}
+$$
+可从 (6) 的 determinant 先以 (62) 替换 L/M，
+再交换 A/J 两行直接核得其正号。
+所以新框架的真实整逆只删 $2,3,7$，没有17费用。
+
+$A_9$ 的模二非零原系数有五个，半特征是 standard odd；
+$N_{14}$ 只有最后两个模二非零，半特征是 standard even。
+两者都保全部原 Gaussian；正交性消掉的是确切交叉，而非只在原点的项。
+
+### 10.2 norm9 的整个主型 δ-new 线
+
+原逐坐标身份是
+$$
+\boxed{A_9-H=\delta(0,-\omega,\omega^2,0,-1,-1).}
+\tag{65}
+$$
+右侧除 $\delta$ 后范数为4，是 even。
+沿 (49) 的同一 $\epsilon$，
+$$
+\mathsf T_{A_9,u}\mathsf T_{H,-u}\mathcal B=\mathcal B
+\qquad(u\in\ker\delta).
+$$
+$A_9$ 的 $\delta$-下降目标 degree 为3，仍是 odd。
+故其真正 old projector 是
+$\frac13\sum_u\epsilon(u)^{-3}\mathsf T_{A_9,u}$。
+与 (51) 完全相同的完整加权和论证给
+$$
+\boxed{P_{\delta,A_9}\Pi_{H,+}\mathcal B=0.}
+\tag{66}
+$$
+后续 K/J/N 的正交投影都与此式交换。
+
+standard odd $\mathcal S_9$ 的主型空间准确为
+$$
+\sigma(z)^9y(z)\langle1,X(z)\rangle,\qquad X=x^3.
+$$
+其 old 主型线由
+$B_3(\delta z)=-y(z)\sigma(z)^9(X(z)-8b)$ 张成。
+真实 new 主型线则是
+$$
+\boxed{\Theta_9(z)=-y(z)\sigma(z)^9(X(z)+4b),\qquad \Theta_9(0)=1.}
+\tag{67}
+$$
+
+这里可直接支付其完整 weighted trace，不只检查有限几个矩。
+原 division 身份给
+$$
+\sigma(3z)=3x(z)(X(z)+4b)\sigma(z)^9,\qquad
+\Theta_9=-\frac{y}{3x}\sigma(3z).
+$$
+又
+$\sigma(3z)=[\delta]^*(-\sigma(\delta z))$；
+目标 degree3 为 odd，故恰带 (66) 的原 $\epsilon$。
+若 $S=(0,\sqrt b)$，则 $\ker\delta=\{O,S,-S\}$，原加法公式给
+$$
+x(P+S)=-\frac{2\sqrt b\,x(P)}{y(P)+\sqrt b},\qquad
+x(P-S)=\frac{2\sqrt b\,x(P)}{y(P)-\sqrt b},
+$$
+$$
+x(P)x(P+S)x(P-S)=-4b.
+$$
+对最后一式取原 $D=d/dz$ 的 logarithmic derivative，得到
+$\sum_{u\in\ker\delta}y(P+u)/x(P+u)=0$。
+将真正 pullback $\sigma(3z)$ 提出完整 weighted trace，
+即证 (67) 的整个 trace 为零。
+与 old 线独立，加上主型空间二维，严格得到 (67) 的单重性。
+$\Theta_9$ 本身无极；表示中的 $1/x$ 没有被当成任意来源上的无极算子。
+
+### 10.3 norm14 的真实二挠作用与唯一主型线
+
+两个原整数式为
+$$
+\boxed{
+N_{14}+J=2(0,-1,1,1,0,-1),\qquad
+N_{14}-J=2(0,-1,1,1,-1,0).}
+\tag{68}
+$$
+右侧两个 quotient 的范数都为4，是 even。
+因此对每个 $0\ne t\in E[2]$，完整六 sigma 原 lift 满足
+$$
+\mathsf T_{N_{14},t}\mathsf T_{J,t}\mathcal B=\mathcal B.
+$$
+$J$ 的 degree2 为 even，所以 $\mathsf T_{J,t}^{-1}=\mathsf T_{J,t}$。
+令 $\mathscr S_R=\sum_{0\ne t\in E[2]}\mathsf T_{R,t}$。
+这个完整三项和与对应的主型投影交换，不能将单独的 translate 这样交换。
+
+原 $E_b$ 的二挠点记为 $(e,0)$，$e^3=-b$。
+沿 R1021 §13 的实际 Weyl 规范，
+$$
+q_e^2=\frac{e^2(x-e)}{b\sqrt3},\qquad
+x(P+(e,0))=\frac{e(x+2e)}{x-e},
+$$
+其中 $\sqrt3>0$ 固定原复规范。
+于是
+$$
+\mathsf T_{J,e}(x\sigma^2)
+=-\frac{x+2e}{\sqrt3}\sigma^2,\qquad
+\boxed{\mathscr S_J\Theta=-\sqrt3\,\Theta.}
+\tag{69}
+$$
+这是整个原 degree2 空间中的实际主型特征，不只按二进维数择号。
+
+由 (68)、正交交换和完整三项和，得到
+$$
+\boxed{\mathscr S_{N_{14}}\Pi_{J,0}\mathcal B
+=-\sqrt3\,\Pi_{J,0}\mathcal B.}
+\tag{70}
+$$
+H/K/A 的投影仍与这条 N 方向的身份交换。
+
+$N_{14}$ 的主型空间准确为
+$\sigma^{14}\langle b^2x,bx^4,x^7\rangle$。
+在这个完整三列基中，原三项和的矩阵为
+$$
+\boxed{
+\mathscr S_{14}=\frac1{9\sqrt3}
+\begin{pmatrix}
+11&16&-448\\
+10&17&280\\
+-1&1&-1
+\end{pmatrix}.}
+\tag{71}
+$$
+这也可逐项手证，无需新数值运行：
+对 $j=0,1,2$，
+将
+$(1-t)^{6-3j}(1+2t)^{1+3j}$
+的 $t^0,t^3,t^6$ 三个系数分别记为 $1,a_j,b_j$。
+三组为
+$(1,10,-11),(1,-17,16),(1,280,448)$。
+在 $e^3=-b$ 上求三个 e 的和，仅这三槽存留；
+连同 $q_e^{14}$ 的准确符号即给 (71)。
+该矩阵的平方为 $3I$、迹为 $\sqrt3$，
+$-\sqrt3$ 特征线只有一维，向量恰为 $(16,-10,1)$。
+因此
+$$
+\boxed{
+\Theta_{14}(z)=\sigma(z)^{14}x(z)(X(z)-2b)(X(z)-8b),
+\qquad\Theta_{14}(0)=1}
+\tag{72}
+$$
+是 (70) 保留下来的唯一主型来源。
+没有从相同 theta degree 猜曲线，也没有给它新增算术中央零。
+
+### 10.4 整五个伴随的完整因子化
+
+对实际行 R 写 $\Pi_{R,0}$ 为其 $\mu_6$ 主型投影。
+在 H 上它等于已用的偶投影，因为 degree3 的整个偶子空间就是主型 $B_3$。
+全部五方向正交，故这些投影彼此交换。
+
+先用 (45) 的完整 H/K/J 因子；
+再用 (66)–(67) 的 A 主型单重性和
+(70)–(72) 的 N 主型单重性。
+每一步都对其余所有生成变量逐系数成立。
+五个因子在原点均为1，因此剩下的 Y 函数准确是原第一边际，
+没有留下待定的共同尺度：
+$$
+\boxed{
+\begin{aligned}
+&\Pi_{H,0}\Pi_{K,0}\Pi_{J,0}\Pi_{A_9,0}\Pi_{N_{14},0}
+ \mathcal B(y,h,k,j,a,n)\\
+&\quad =
+39\delta\,\Phi_{126,b}(y)\,
+ B_3(h)F_6^-(k)\Theta(j)\Theta_9(a)\Theta_{14}(n).
+\end{aligned}}
+\tag{73}
+$$
+这里 $F_6^-=(X-2b)\sigma^6$、$\Theta=x\sigma^2$，
+$\mathcal B$ 是原 $-\prod_{i=1}^6\sigma/84$ 在 (64) 的完整六变量返回。
+特别 (73) 没有在 Y 上另施一个算术 Hecke projector。
+第一轴仍是 R1038 的同一 E3969 来源及其同一 $\Omega_b$。
+
+记 $\mathcal F=(Y,H,K,J,A_9,N_{14})$ 为这个真实整框架。
+作为整个有界测度等式，(73) 准确为
+$$
+\boxed{
+\mathcal F_*\mathscr P\rho
+=39\delta\,\nu_{\Phi_{126,b}}\otimes
+\nu_{B_3}\otimes\nu_{F_6^-}\otimes\nu_\Theta
+ \otimes\nu_{\Theta_9}\otimes\nu_{\Theta_{14}}.}
+\tag{74}
+$$
+所有伴随都用同一个原普通单位周期 $\Omega$。
+新两个因子的有界整性亦沿 §8.3 直接提取：在完整投影式中对 Y 取第六矩，
+系数为 $39\delta\,6!\Omega^6$，在当前好位为单位；再对其余伴随取质量，
+分别得到 $\nu_{\Theta_9}$、$\nu_{\Theta_{14}}$。
+所以这里使用真实原整测度格，而不是仅由复 theta 身份猜测有界性。
+它是一个真实有限投影后的乘积；不是将中央泛函的乘积零当作规则。
+
+新两个因子的首项和完整六阶矩也可直接记录：
+$$
+\Theta_9=1+\frac{39b}{10}z^6+O(z^{12}),\qquad
+\Theta_{14}=1-\frac{164b}{15}z^6+O(z^{12}).
+$$
+所以五个伴随的实际六阶矩依次为
+$$
+\boxed{
+(216,-1728,-96,2808,-7872)\,b\Omega^6
+\quad\text{对应 }(H,K,J,A_9,N_{14}).}
+\tag{75}
+$$
+此处每个数字都包含 $6!$，没有将 Taylor 系数当成测度矩。
+这些常数的全部素因子小于211。
+
+### 10.5 可直接使用的原 mixed 测试范围
+
+(74) 的有限投影可完全写回原六输入，保单位域。
+对每个伴随行 R 及 $\zeta\in\mu_6$，令
+$$
+P_{R,\zeta}=I+(\zeta-1)\frac{\bar R^{\,t}R}{NR}.
+$$
+在当前所有好位它是原局部整自同构，
+准确将 R 输出乘 $\zeta$，固定 Y 和其他四伴随。
+因此
+$$
+\mathscr P^\dagger f(\xi)
+=\frac1{6^5}\sum_{\zeta_H,\zeta_K,\zeta_J,\zeta_A,\zeta_N\in\mu_6}
+ f(P_{H,\zeta_H}P_{K,\zeta_K}P_{J,\zeta_J}
+   P_{A_9,\zeta_A}P_{N_{14},\zeta_N}\xi).
+\tag{76}
+$$
+这是原物理线性变换的完整有限平均，不是 torsion 的物理加法替换。
+
+令 $\mathbf c=(H,K,J,A_9,N_{14})$，h 为其任意完整连续有界测试，
+可包含这些伴随之间任意 mixed 单位/depth 条件。
+记 $\mathscr A h$ 为 (76) 的准确平均，并置
+$$
+\Lambda_p(h)=
+\int h\,d(\nu_{B_3}\otimes\nu_{F_6^-}\otimes\nu_\Theta
+                   \otimes\nu_{\Theta_9}\otimes\nu_{\Theta_{14}}).
+$$
+由 (74)，整个原 Mellin 身份是
+$$
+\boxed{
+\int_{Y\ {\rm unit}}\langle Y\rangle^{dv}
+       \mathscr A h(\mathbf c)\,d\rho
+=39\delta\,J_{126,b}(v)\,\Lambda_p(h).}
+\tag{77}
+$$
+特别，若 h 本身对五个伴随分别乘 $\mu_6$ 不变，
+可以在 (77) 中直接用 h；不必再次平均。
+原质量 $J_{126,b}(0)=0$，所以固定归一 $Y/7$ 也不产生额外首导数项。
+原 E3969 的坏 Sha 假设因而真正迫使 (77) 的中央首导数为零，
+对这里每一个实际完整 h 都成立。
+
+R1042 的共同平面在新框架中的准确位置是
+$$
+\boxed{
+C=2\omega H,\qquad
+F=2K-\frac{5+\omega}{2}J
+ +2(1+\omega)A_9+\frac{1-\omega}{2}N_{14}.}
+\tag{78}
+$$
+各项的 Hermitian 范数依次为
+$24,21/2,36,21/2$，总数81，交叉全部为零。
+因此 R1042 的原 $\Gamma_n,Q_{n,p}$ 确只读这五个伴随，
+其 (76) 平均是明确的另一套完整测试，所有旋转后的单位域随同保留。
+(77) 支付这套平均的整个中央行；
+它不把未平均的原 cut 预认成相同。
+
+仍须准确保留剩余范围：
+原五深网格在这个框架中一般含 Y 与伴随的混合条件，
+它不能只因 (74) 被改成一个与 Y 无关的 h。
+R1042 的 $Y_S,Y_T$ 也读这些伴随，不能将它们的 logarithm
+替换为 $\log Y$ 后应用 (77)。
+后继可用的是 (74)、(76)–(78) 的完整测试转换与明确的五个实际因子，
+不是任意 mixed 中央零。

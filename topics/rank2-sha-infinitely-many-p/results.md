@@ -276,3 +276,6 @@
 
 
 - **R1041无权半交配对的完整结论**：[§20](results/R1041-original-four-point-spectral-cover-pell-unit-and-half-norm.md)。R1041§20完整支付原Pell U与ψ2的两个共享边界首项、全部T/−T/O支及闭点Norm，得准确恒等式(85)和U(E+)²⁴∈Fq*。故每个p≥5、p|q+1，无权完整指定半交值都是p次幂；原27逐CM标记/eta/Cor加权和未被消掉。
+
+
+- **R1040五伴随完整一维分解**：[§10](results/R1040-new-e3969-whole-companion-frame-and-sixth-degree-carry.md)。R1040§10以原整行A9=V−Q、N14=(2U−2V−Q)/δ替换L/M，Gram=(126,3,6,2,9,14)、有符号det756，17费用消失。原δ带权迹确定Θ9=−yσ9(X+4b)，真实二挠三项和的完整3×3矩阵确定Θ14=xσ14(X−2b)(X−8b)。五伴随principal投影严格等于39δ·Φ126⊗B3⊗F6−⊗Θ⊗Θ9⊗Θ14，原Y未新增Hecke投影。 全μ6物理平均、原F81位置、所有伴随mixed单位/depth测试的真实Mellin行均付；含Y的局部网格及YS/YT对数仍保。
