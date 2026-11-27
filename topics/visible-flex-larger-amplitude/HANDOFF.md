@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `8b53dcf7cccd8661dd9bf164ac93894146979b3e`（非pull）。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效、15:03:35重置后唯一复核仍失败，恢复即真pull。云核至 `36dead0075763cd92c41b3efe819a115c9c69f92`（非pull）。
 双README SHA256：581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新差异并立即遵守，至少每小时；活12–17通常每5分钟真pull，实际已读commit在末槽。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端立刻rebase重推，终端不可用则freshHEAD完整合并，不冒pull、不force。令牌仅瞬时CLI。[完整发布支持](computations/resume-20261127-root-publication-support.mjs)已刊。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。完整源/所有参数/真实run/whole输出身份保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不另设独立审查/冻结/AST/fixture/重跑门，不减原目标/预算。[旧log全文](log/2026-11-27-session-through-fejer-closed.md)96562B保。
@@ -24,7 +24,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 13 | 原1–6返，旧science/pure各1；修后科学未返 | [仅schema修复](notes/2026-11-27-actual13-N4096-base-schema-guard-repair.md)2cc/015f；[全费](notes/2026-11-27-N13-base-bound-complete-accurate-fee-successor.md)normal在排/geometry待位 |
 | 14 | 两输入0；fff9/b79c科学未返 | [全输入/旧失败](notes/2026-11-27-run13-entry-failure-and-run14-actual-reference.md)，normal在排/geometry及closed待位 |
 | 15 | 两输入0；97ae/4ea科学未返 | [全启动](notes/2026-11-27-run15-fixed-fejer-J1845-complete-independent-launch.md)，完整科学对在排 |
-| 17 | 46053911348/1真启动；input未返 | [同g宽seed完整启动](notes/2026-11-27-run17-same-target-broader-supported-seed-launch.md)仅b/S=1/4、profile_delta=1/32；原157/7全参数/32stage，先两全inputs再完整科学对 |
+| 17 | 46053911348/1两输入0；全科学已排 | [同g宽seed完整启动](notes/2026-11-27-run17-same-target-broader-supported-seed-launch.md)仅b/S=1/4、profile_delta=1/32；原157/7全参数/32stage，先两全inputs再完整科学对 |
 | 16 | 两输入0；a8b0749a/ed810/PID3868科学未返 | [启动/输入](notes/2026-11-27-run16-complete-own-point-mathematical-research-launch.md)，原科学对在排；[全费](notes/2026-11-27-stage-observed-fixed-fejer-complete-accurate-fees.md)待真返 |
 
 固定g/原参考、全部实际输入/独立输出、全变量/32normal、N/M/J的同根与收敛责任保open§7/各全note。
