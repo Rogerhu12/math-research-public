@@ -348,3 +348,6 @@
 
 
 - **R1042完整两unit一次项**：[§10](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§10从同一norm25双sigma严格得到整H3型五来源，给全部12支S/T归一差的一次项(77)，所有阶乘、Ω和原Euler分母齐。其代数部分A_p对原p>1296严格非零；负一部分ΩI3仍须原finite5点桥，未预认其与A_p不可抵消。 全有界尾及全部补域保持；不以局部首项代原中央非零。
+
+
+- **R1042全中间环与单unit扇区**：[§11](results/R1042-original-three-canonical-common-norm81-carry-and-positive-grid.md)。R1042§11对全部72支逐个支付degree372含中心二挠的完整dyadic核βB，B²=1，24整支与48半整支均保。真实D_m贡献β^(n+4m)A_{ζ,n−m mod2}(κ^m)给全部中间环的精确望远镜；原未旋转整D1每对差对所有n准确v=1，n>1的D1\Dn亦v=1，不能再用网格n阶项压掉补域。 真正至少双unit余域与各观察单位cut仍保留。

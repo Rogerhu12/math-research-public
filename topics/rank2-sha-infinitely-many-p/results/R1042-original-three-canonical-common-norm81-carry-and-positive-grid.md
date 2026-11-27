@@ -1316,3 +1316,219 @@ $(D_1\setminus D_n)$ 的原中间环；
 原坏条件也没有给未授权的 S/T 平均零行。
 本节新支付的是 (72) 的真实来源及 (77) 的完整有限首项，
 可以在有限点载体上继续接线，不将其冒作无穷 logarithm 的点投影。
+
+
+## 11. 中间环的完整 dyadic 核：精确两态返回和原一 unit 扇区
+
+本节支付 (55)–(56) 中的整个中间环。所有等式使用原六输入上的
+测度限制与推前，不以某个局部网格的首项替代其补域。
+原未旋转的三个观察还给一个更强的准确结论：整个
+$\mathcal D_1$ 的两中央差赋值为一，与 carry 深度 $n$ 无关。
+
+### 11.1 72 支的完整 degree372 核
+
+令 $\mathscr Z$ 为 (47) 的全部72个四元组。
+各支原行仍为 (45)–(46)，有
+$$
+D_\zeta{}_1=0,\quad ND_\zeta=93,\quad
+D_\zeta\overline E_\zeta^{\,t}
+=D_\zeta\overline Y_A^{\,t}=0 .
+\tag{82}
+$$
+这里后两个正交是完整行的身份。$Y_A$ 正交于全部五伴随；
+而 $F_\zeta\perp C$、$NF_\zeta=81$、$NC=12$ 和
+$r=81/12$ 给第一项。不能将 $D_\zeta$ 换成 (48) 的两个平均多项式行。
+
+各 $D_\zeta$ 的第2、3、4坐标在 $\mathcal O_K$，最后两个为
+$$
+\begin{aligned}
+d_5&=-\frac{5+\omega}{2}\zeta_J
+       -2(1+\omega)\delta\zeta_A-\frac{1-\omega}{2}\zeta_N,\\
+d_6&=\frac{5+\omega}{2}\zeta_J
+       -2(1+\omega)\delta\zeta_A-\frac{1-\omega}{2}\zeta_N .
+\end{aligned}
+$$
+所以 $D_\zeta$ 整当且仅当 $\zeta_J/\zeta_N=\pm1$；
+准确24支整、48支只有分母二。
+若记 $a_j=2d_j$，后48支中
+$$
+a_2,a_3,a_4\equiv0\pmod2,\qquad
+a_5\equiv a_6\equiv\omega^2(\zeta_J+\zeta_N)\ne0\pmod2.
+\tag{83}
+$$
+于是整支的第一轴为 standard odd degree93；
+对所有支共同沿第一生成变量作 $[2]$ 覆盖后，则为 standard even
+degree372，另一切输出全部保留。该覆盖在当前普通处为单位倍点，
+不改变深度或单位条件。
+
+原 ray 已有 $g_\pi\equiv3\bmod8$、$g_\pi\equiv1\bmod93$，故
+$g_\pi\equiv187\bmod744$。在完整 $\mathcal S_{372}$ 的 canonical
+Schrödinger 基 $e_j,\ j\in\mathbf Z/372$，原含中心二挠 lift 为
+$$
+\mathcal T_{(s+r\omega)/2}^{372}e_j
+=(-1)^{s(j+93r)}e_{j+186r}.
+$$
+置 $\epsilon(0)=1$、$\epsilon(t)=-1$ 对非零二挠，并定义
+$$
+P_\epsilon=\frac14\sum_{t\in E[2]}\epsilon(t)\mathcal T_t^{372},
+\qquad
+\mathsf B=2P_\epsilon-I.
+$$
+与 R551 §2 的全 Heisenberg 证明完全同一，直接得到
+$$
+\boxed{
+P_\epsilon=\frac14(I-\mathsf D)(I-\mathsf X),\quad
+\mathsf B e_j=-e_{187j},\quad
+\mathsf B^2=I .}
+\tag{84}
+$$
+这里 $\mathsf D e_j=(-1)^je_j$、$\mathsf X e_j=e_{j+186}$。
+$187^2\equiv1\bmod744$，所以该排列实现原 core 的完整 Heisenberg
+交织，中心相位也一致。$P_\epsilon$ 的像恰为
+$[2]^*\mathcal S_{93}^{\rm odd}$，维数93，$\mathsf B$ 在该像上为一。
+
+odd degree93 的 whole 核已由第2节的
+$\sigma(\delta\gamma_{31}z)$ 真实锚锁为 $\beta$。
+它与单位倍点 $[2]$ 交换，因而锁定整个 degree372 的
+**实际深核为 $\beta\mathsf B$**。
+若把外部 $\lambda$ 剥掉，原 core 是 $-\mathsf B$；
+不能漏掉这个负号。
+
+将 (84) 放回每个实际第一轴，记其完整联合算子为
+$\mathsf B_\zeta$。设
+$$
+P_{\zeta,t}
+=I+(t-1)\overline D_\zeta^{\,t}D_\zeta/93 .
+$$
+于是全部伴随保留的测度等式为
+$$
+\boxed{
+\rho|_{\{D_\zeta\in p^r\}}
+=\beta^r(P_{\zeta,\kappa^r})_*
+       \mathsf B_\zeta^r\rho,\qquad r\ge0.}
+\tag{85}
+$$
+对于24个整支，$\mathsf B_\zeta\rho=\rho$，可直接用原 odd93 核。
+其余48支不将 $\mathsf B_\zeta\rho$ 擅自认成 $\rho$。
+
+这些新来源是有界整测度，而非只在复 theta 空间中的符号。
+确切地，(85) 在 $r=1$ 给
+$\mathsf B_\zeta\rho
+=\beta^{-1}(P_{\zeta,\kappa^{-1}})_*
+(\rho|_{D_\zeta\in p})$。
+该逆只在所写深域使用，并将其送回原整格；
+$93$ 和 $\beta$ 是单位，所以测度范数不增。
+再用 (84) 得到整个两态 $(\rho,\mathsf B_\zeta\rho)$ 的返回。
+不需要新增数学运行或选择另一半周期相位。
+
+### 11.2 所有原中间环的准确返回
+
+在 (56) 中写
+$$
+D_\zeta=T_m d_\zeta,\quad
+E_\zeta=e_0x+T_m e_\zeta,\quad
+Y_A=7x+T_m Z_A,\qquad T_m=\kappa^m.
+$$
+$d_\zeta,e_\zeta,Z_A$ 仍是原五个深坐标的完整线性式。
+由 (82)，$x$、$e_\zeta$、$Z_A$ 被 $P_{\zeta,t}$ 逐个固定。
+因此剩余 $d_\zeta\in p^{n-m}$ 可用 (85) 取回，
+不会移动实际 Mellin 权或 E 的单位域。
+
+对 $\varepsilon=0,1$，定义一个真正的固定解析函数
+$$
+\mathcal A_{\zeta,\varepsilon}(T)
+=\frac d{h^6b\Omega^6}
+ \int_{x\ {\rm unit}}
+ \log\langle x+TZ_A/7\rangle
+ \sum_{k=0}^6
+ \frac{q_kd_\zeta^k(e_0x+Te_\zeta)^{6-k}}
+      {1+\lambda\kappa^{6-k}}\,
+ d(\mathsf B_\zeta^\varepsilon\rho).
+\tag{86}
+$$
+它在 $T\in p\mathcal O$ 解析；$p>1296$ 时所有自由系数是单位。
+原 period、Euler 分母和全部 J/N 相位一项未删。
+因来源有界，其 log 尾有与原 (28) 相同的次数分母界。
+但不假设 $\varepsilon=1$ 时的质量或常数项为零。
+
+令
+$I_{\zeta,m}^{(n)}=\int_{\mathcal D_m}L_Ah_n(C,F_\zeta)\,d\rho$。
+先取回原五个深输入，再用 (85)，得到
+$$
+\boxed{
+I_{\zeta,m}^{(n)}
+=\beta^{n+4m}
+ \mathcal A_{\zeta,\,(n-m\bmod2)}(\kappa^m),
+\qquad 1\le m\le n.}
+\tag{87}
+$$
+在 $m=n$ 时没有额外第一轴限制，正是原网格
+$\beta^{5n}\mathcal A_{\zeta,0}(\kappa^n)$。
+(87) 中的 $4m$ 来自 $5m+(n-m)$，不能把五个原深核与
+新的第一轴深核重复计数。
+
+因此全部相邻环带是
+$$
+\begin{aligned}
+\int_{\mathcal D_m\setminus\mathcal D_{m+1}}
+ L_Ah_n(C,F_\zeta)\,d\rho
+={}&\beta^{n+4m}
+ \mathcal A_{\zeta,n-m\bmod2}(\kappa^m)\\
+&-\beta^{n+4m+4}
+ \mathcal A_{\zeta,n-m-1\bmod2}(\kappa^{m+1}).
+\end{aligned}
+\tag{88}
+$$
+求这个有限和，整个中间环的返回准确为
+$$
+\boxed{
+\int_{\mathcal D_1\setminus\mathcal D_n}
+ L_A\overline h_n\,d\rho
+=\frac1{1296}\sum_{\zeta\in\mathscr Z}
+ \left\{
+ \beta^{n+4}\mathcal A_{\zeta,n-1\bmod2}(\kappa)
+ -\beta^{5n}\mathcal A_{\zeta,0}(\kappa^n)
+ \right\}.}
+\tag{89}
+$$
+整个 $\mathcal D_1$ 的贡献因而只含 $n$ 的奇偶来源和外部 $\beta^n$；
+无需把无限多个中间深度当作独立输入。
+这不是“中间环更深”的估计：第二项与 (52) 的原网格项
+**精确相消后**才得到完整单 unit 扇区。
+至少两个原输入为 unit 的真正余域仍存在。
+
+### 11.3 未旋转三观察：整个单 unit 扇区恰有一位
+
+对于原未旋转的 $D=F-C$，来源在 odd93 上，
+故 $\mathsf B\rho=\rho$。而 $D$ 还同时正交于 $Y_S,Y_T$。
+因此 (87) 对原 (28) 的三函数本身成立：
+$$
+\boxed{
+\int_{\mathcal D_m}L_i\widehat Q_{n,p}\,d\rho
+=\beta^{n+4m}\mathcal A_i(\kappa^m),
+\quad i=S,T,A,\quad 1\le m\le n .}
+\tag{90}
+$$
+限制与测试始终包括原 $\Gamma_n$；在该式左端用第4节的
+域外延零约定。
+
+(30)、(36) 和原完整 log 尾界给
+$v_p(\mathcal A_i(\kappa)-\mathcal A_j(\kappa))=1$。
+所以对所有 $n\ge1$，
+$$
+\boxed{
+v_p\!\left(\int_{\mathcal D_1}
+ (L_i-L_j)h_n\,d\rho\right)=1,\qquad i\ne j .}
+\tag{91}
+$$
+对 $n>1$，同一个中间环的未旋转差也恰有一位：
+其两个精确项分别有赋值 $1$、$n$，不可能相消。
+这是原 (38) 的真正补域消费，不是再次证明同一网格赋值。
+
+如果三条 canonical 中央同时为零，(42) 因而强迫整个
+$\Gamma_n\setminus\mathcal D_1$ 的相应差也具有准确赋值一，
+并等于 (90) 在 $m=1$ 的负数。
+该域包含全部其它 unit pattern 和真实相加 cut；
+本节没有由 (91) 给它赋零。
+第9–10节的两 unit 厚管只占其中一个部分，仍须与它们之外的
+完整余域联立。

@@ -12,7 +12,7 @@
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
-- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-norm25-linear-term.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-weighted-level-transport.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
+- 本次整理前的[完整交接](notes/2026-11-27-handoff-before-norm25-linear-term.md)逐字保原历史，向前链接所有旧归档；[open归档](notes/2026-11-27-open-before-norm25-complete-annuli.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)保完整参数/门/失败/回执，不重做已登记结论。
 
 ## 一、唯一原厚几何作业
 
@@ -34,7 +34,7 @@ R1040 §§1–13原六轴、Gram(126,3,6,2,9,14)/det756和所有δ-old零已付�
 
 F0两δ字run45991193171/job140479142693已全返，两个旧rank1投影零、primitive三维非零；完整C±/U±、三挠Miller/degree51 Gaussian与第三类边界在[两字笔记§§6–7](notes/2026-11-27-original-f0-two-delta-word-return.md)。真Φ=W51(U+C1−U−C2)/36，转置仍保x+y单位域，不能把裸负一非零代中央卷积。不重跑。
 
-R1042原H3/F81三canonical四输出、93/2511 odd与90/810 even全核、完整Q及原五深网格三对log差v=n已付。§8平均保1296真cut/72网格支，D1\Dn全递归和至少两unit部分均保。§9norm25 whole返回的12支质量M*非零，归一A−S首项dM*log〈r*〉、Nr*=291/763；全尾估值固定ℓp而非n。真实Y−(7+4δ)H混合条件不能删。§10整degree25条件源H3=432bσ25x(−35X³+84bX²+84b²X+208b³)，完整12支S/T一次项为A_p+B_pΩI3；A_p严格非零，finite5点载体待付。全尾保，余域不赋零。
+R1042共同H3/F81、93/2511 odd与90/810 even全核、四输出Q和原五深网格三对差v=n已付。§8平均保1296真cut/72网格支，D1\Dn全递归和至少两unit部分均保。§9norm25 whole返回的12支质量M*非零，归一A−S首项dM*log〈r*〉、Nr*=291/763；全尾估值固定ℓp而非n。真实Y−(7+4δ)H混合条件不能删。§10整degree25条件源H3=432bσ25x(−35X³+84bX²+84b²X+208b³)，完整12支S/T一次项为A_p+B_pΩI3；A_p严格非零，finite5点载体待付。§11 whole372核βB(B²1)准确支付全部中间环；原未旋转整D1两差v=1，n>1中间环亦v=1。网格n项已精确补回，继续至少双unit整补域。
 
 R1044真R=K+ωA推前消整个Ξ1；共同F3913/C1596给两odd whole β核，完整四输出carry保三原未平均行。H/J/N三角平均另给纯Φ126行；全cut(32)和补域(41)保齐，不混两种许可。
 
