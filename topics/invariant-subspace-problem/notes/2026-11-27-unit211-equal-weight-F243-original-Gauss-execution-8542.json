@@ -1,0 +1,241 @@
+{
+  "receipt": {
+    "schema": "isp-local-exact-execution-v1",
+    "sourcePath": "/workspace/scratch/8542378f2b73/math-research-public/topics/invariant-subspace-problem/notes/2026-11-27-unit211-equal-weight-large-factor-original-NP-Gauss-return-8542.py",
+    "sourceSHA256": "ae8dc73eaa338c60c83424b8ea96da55063ab826bc062e5232e40aefd50faa23",
+    "startedUTC": "2026-11-27T06:05:49.364319+00:00",
+    "elapsedSeconds": 14.573740553998505,
+    "exitCode": 0,
+    "maxChildRSSKiB": 50024,
+    "stdoutBytes": 29978,
+    "stdoutSHA256": "a5d9644a1a334f12aa9085f1882f0c2b226d4b5e24c1fd25da3ca9a6bd9619a4",
+    "stderr": "",
+    "runtime": "Python3.12.14/python-flint0.9.0",
+    "limits": "source alarm180s / address space4GiB / one thread"
+  },
+  "firstOriginalCofactor": {
+    "stage": "new_equal_weight_original_NP_product_cofactor",
+    "label": "NS*x",
+    "baseRows": [
+      0,
+      1,
+      5,
+      8,
+      2
+    ],
+    "fullDegrees": [
+      69,
+      62
+    ],
+    "paidRemoved": [
+      [
+        "m",
+        3
+      ],
+      [
+        "m_minus_one",
+        9
+      ],
+      [
+        "Q",
+        7
+      ],
+      [
+        "Q_minus_one",
+        2
+      ],
+      [
+        "paid_T0_J",
+        25
+      ],
+      [
+        "previous_complete_half_weight",
+        2
+      ]
+    ],
+    "reducedDegrees": [
+      30,
+      28
+    ],
+    "reducedTerms": 597,
+    "reducedSHA256": "e7ae9189ca70cad8c22f06929c575a271232a654313d3c0e5b2df5fc62df7f7b",
+    "allOriginalSixColumnProductsMultipliedBack": true,
+    "allOriginalSamePointTraceAndPaidProductsVerified": true,
+    "seconds": 10.213708269002382
+  },
+  "firstCompleteGaussReturn": {
+    "stage": "new_equal_weight_complete_QQ_factor_original_Gauss_return",
+    "label": "NS*x",
+    "prime": 1009,
+    "symbolicSylvesterOrder": 52,
+    "bothInputQDegreesPreservedModuloPrime": true,
+    "originalResultantModularDegree": 939,
+    "originalResultantSHA256": "38fe65c9a88d18ab92c28bb9066bddeead90bdde029e8fa49a79e4db34e34b97",
+    "factors": [
+      {
+        "completeQQFactorDegree": 1,
+        "preservedModularDegree": 1,
+        "remainingModularGcdDegree": 1,
+        "bezoutCoefficientDegrees": [
+          0,
+          -1
+        ],
+        "exactBezoutProductVerified": true,
+        "entireQQFactorExcludedByDegreePreservingGauss": false
+      },
+      {
+        "completeQQFactorDegree": 236,
+        "preservedModularDegree": 236,
+        "remainingModularGcdDegree": 236,
+        "bezoutCoefficientDegrees": [
+          0,
+          -1
+        ],
+        "exactBezoutProductVerified": true,
+        "entireQQFactorExcludedByDegreePreservingGauss": false
+      },
+      {
+        "completeQQFactorDegree": 243,
+        "preservedModularDegree": 243,
+        "remainingModularGcdDegree": 0,
+        "bezoutCoefficientDegrees": [
+          938,
+          242
+        ],
+        "exactBezoutProductVerified": true,
+        "entireQQFactorExcludedByDegreePreservingGauss": true
+      }
+    ],
+    "noComplexEmbeddingSelected": true,
+    "allOriginalPivotZeroFibresRetained": true,
+    "seconds": 10.3480658710032
+  },
+  "remainingOriginalRows": [
+    {
+      "label": "NS*y",
+      "prime": 1009,
+      "sylvesterOrder": 52,
+      "resultantDegree": 904,
+      "factorDegrees": [
+        [
+          1,
+          1
+        ],
+        [
+          236,
+          236
+        ],
+        [
+          243,
+          0
+        ]
+      ],
+      "allProductsVerified": true
+    },
+    {
+      "label": "NS*t",
+      "prime": 1009,
+      "sylvesterOrder": 52,
+      "resultantDegree": 939,
+      "factorDegrees": [
+        [
+          1,
+          1
+        ],
+        [
+          236,
+          236
+        ],
+        [
+          243,
+          0
+        ]
+      ],
+      "allProductsVerified": true
+    },
+    {
+      "label": "PS*x",
+      "prime": 1009,
+      "sylvesterOrder": 52,
+      "resultantDegree": 939,
+      "factorDegrees": [
+        [
+          1,
+          1
+        ],
+        [
+          236,
+          236
+        ],
+        [
+          243,
+          0
+        ]
+      ],
+      "allProductsVerified": true
+    },
+    {
+      "label": "PS*y",
+      "prime": 1009,
+      "sylvesterOrder": 52,
+      "resultantDegree": 928,
+      "factorDegrees": [
+        [
+          1,
+          1
+        ],
+        [
+          236,
+          236
+        ],
+        [
+          243,
+          0
+        ]
+      ],
+      "allProductsVerified": true
+    },
+    {
+      "label": "PS*t",
+      "prime": 1009,
+      "sylvesterOrder": 52,
+      "resultantDegree": 934,
+      "factorDegrees": [
+        [
+          1,
+          1
+        ],
+        [
+          236,
+          236
+        ],
+        [
+          243,
+          0
+        ]
+      ],
+      "allProductsVerified": true
+    }
+  ],
+  "final": {
+    "stage": "new_equal_weight_complete_large_factors_original_return_finished",
+    "prime": 1009,
+    "newOriginalSamePointRows": [
+      "NS*x",
+      "NS*y",
+      "NS*t",
+      "PS*x",
+      "PS*y",
+      "PS*t"
+    ],
+    "bothCompleteLargeQQFactorsExcluded": false,
+    "remainingCompleteQQFactorDegrees": [
+      1,
+      236
+    ],
+    "allBezoutProductsActuallyVerified": true,
+    "wholeEqualWeightExcluded": false,
+    "ordinaryISPClaim": false,
+    "seconds": 14.41336367400072
+  }
+}
