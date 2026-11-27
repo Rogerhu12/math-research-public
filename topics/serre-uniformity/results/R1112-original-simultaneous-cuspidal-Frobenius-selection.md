@@ -352,6 +352,127 @@ $p$-local 有限候选。本篇在这些条目连同 R1062、R1064–R1066、R10
 也不证明 (1112.21) 排除非 CM 候选。
 Serre 主目标和 O0 的统一共同像问题保持开放。
 
+## 8. 原 full47 的同时普通、全 Hecke 分裂及标签非退化素
+
+本节只消费已经认证的固定原输入，不搜索替代当前辅助素数。
+令 $p=47$，$X=X_{\rm ns}^+(47)$，$J=\operatorname{Jac}(X)$，
+并令 $\mathbb T\subset\operatorname{End}_{\mathbf Q}(J)$ 为原整数
+Hecke 代数。[R1080](R1080-certified-full-level47-Jacobian-rank.md)
+§§1–3 给出同一个完整新 Fricke 正号谱：
+$$
+A=\mathbb T\otimes\mathbf Q
+ =F_{16}\times F_{24}\times F_{33},\qquad
+[F_d:\mathbf Q]=d,\qquad \dim_{\mathbf Q}A=\dim J=73.
+\tag{1112.26}
+$$
+这里的下标表示三个实际系数域的次数，分别对应 R1080 固定分解
+中的因子 $8,10,11$；不是仅用局部有限类型猜出的系数子域。
+每个共轭新形式在原 Hodge 谱中出现一次。
+
+令 $\widetilde F_d$ 为 $F_d/\mathbf Q$ 的正规闭包。
+其 Galois 群忠实作用于 $d$ 个嵌入，故阶整除 $d!$。
+由于 $16,24,33<47$，三个正规闭包的次数都与 $47$ 互素。
+
+R1074 的八个原 $\mathbf Q$-有理 CM 点，其 endomorphism order
+分别属于以下四个虚二次域：
+$$
+M_{\rm CM}=\mathbf Q(i,\sqrt{-2},\sqrt{-3},\sqrt{-7}).
+\tag{1112.27}
+$$
+这个合成场是有限 $2$-扩张，因而次数与 $47$ 互素。
+定义明确的有限 Galois 场
+$$
+E=\mathbf Q(\zeta_{47})\,
+   \widetilde F_{16}\widetilde F_{24}\widetilde F_{33}M_{\rm CM}.
+\tag{1112.28}
+$$
+在 $K=\mathbf Q(\zeta_{47})$ 上，其次数整除上述正规闭包和
+$M_{\rm CM}$ 的次数乘积，所以
+$$
+47\nmid[E:K].
+\tag{1112.29}
+$$
+无须知道这些闭包的实际 Galois 群，也不假设它们彼此不交；
+这里只用每个阶与 $47$ 互素。
+
+[R1072](R1072-certified-original-p47-cuspidal-disk-labels.md)
+已在原相位和原函数基中认证
+$$
+W_{\rm good}=V=
+ \bigoplus_{R=26,28,\ldots,44}V_{\omega^R},\qquad d=10.
+\tag{1112.30}
+$$
+因此应用 §6，存在准确 Dirichlet 密度
+$$
+\boxed{\qquad
+\frac{(46/47)^{10}}{[E:\mathbf Q]}>0
+\qquad}
+\tag{1112.31}
+$$
+的有理素数 $q$，使 $q$ 在 $E$ 完全分裂，且全部十个原
+$B_{\chi,q}$ 同时非零。以下再删一个固定有限素集，不改变密度。
+
+第一，$q\equiv1\pmod{47}$，原全部 $23$ cusps 有理，
+且 (1112.20) 在整个原十维全局标签空间上为同构。
+R1072 的 $235$ 个不同实际候选在这些素数处保持不同。
+这只是不同全局候选之间的非合并；不称原全部
+$X(\mathbf F_q)$ 的标签映射自动单射。
+
+第二，删去八个已指定 CM 椭圆曲线模型的坏素数及其 CM order
+的 conductor 素数。由于 $q$ 分裂于 (1112.27) 的每个虚二次域，
+八个原 CM 点对应的椭圆曲线均普通约化。
+可以从实际 CM 作用直接核此结论：在 $q$-divisible group 上，
+$\mathcal O_{\rm CM}\otimes\mathbf Z_q=\mathbf Z_q\times\mathbf Z_q$
+的两个 idempotents 被主极化的 Rosati 对合交换，因而分出的
+两个因子高度相同、均为一；其总维数为一，
+因此一个因子乘法型、另一个 étale，正是普通约化。
+本节保留原 CM 点上的 canonical $47$-Cartan，
+不把任一普通椭圆曲线的某条新 necklace 代入。
+若需要八个特殊纤维点彼此不同，可另外删去八个互异整数
+$j$-值之差的素因子，仍只删有限集。
+
+第三，置
+$$
+\mathcal O_A=\mathcal O_{F_{16}}\times
+             \mathcal O_{F_{24}}\times\mathcal O_{F_{33}}.
+$$
+原 Hecke 特征值为代数整数，故
+$\mathbb T\subset\mathcal O_A$；由 (1112.26)，二者是同秩
+$73$ 的 $\mathbf Z$-格，指数有限。删去
+$[\mathcal O_A:\mathbb T]$ 和三个域判别式的素因子。
+在 $E$ 完全分裂便给出三个真正系数域的全部一次无分歧完成域，
+从而
+$$
+\boxed{\quad
+\mathbb T\otimes\mathbf Z_q
+ =\mathcal O_A\otimes\mathbf Z_q
+ \simeq\mathbf Z_q^{\,73}.
+\quad}
+\tag{1112.32}
+$$
+这是真实最大整 Hecke order 的陈述，不是把某个非极大 order
+的剩余线性角色冒作一次完整因子。
+
+在这些 $q\ne47$ 上，原 $J$ 的阿贝尔模型良好。
+整数 Hecke endomorphisms 延伸到模型，(1112.32) 的整 idempotents
+逐个作用于其 Hodge 和 Lie 格。每个格在泛纤维的各因子上秩一，
+且本身 $\mathbf Z_q$-无挠；故各因子是自由秩一的 $\mathbf Z_q$-模。
+于是 Hodge 与 Lie 格均为
+$\mathbb T\otimes\mathbf Z_q$ 上的自由秩一模。
+这也可按 R1083 §6 已付的原整格论证直接消费；
+没有使用 Chen 同源的未经验证整运输。
+
+所以，八个真实 CM 点的普通约化、完整原 Hecke 代数的
+$73$ 个一次整块，以及十个原圆单位的同时非零读数，
+可以由同一组正密度辅助素同时满足。这排除了这些已指定条件
+之间潜在的 Galois 冲突。
+
+本节不给最小这样的 $q$，不搜索或替换当前 $4513$，
+不保证 $q\nmid\#J(\mathbf F_q)$，不保证新的 CM 对数或高度为单位，
+也不将这些素数自动放进 §7 的有效有限筛选范围。
+当前 $4513$ 的已认证矩阵、对数、高度和正在进行的实际有限
+第三类微分计算保持其原来源；本节没有重跑其中任何输入。
+
 ## 来源与纸核
 
 - [R1062](R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：

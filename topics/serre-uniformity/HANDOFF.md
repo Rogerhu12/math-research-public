@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：f25f0a62fad0c6beb37d14d02c02ff57b7c3113f**（2026-11-27 18:37 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：afd0ad3b95dc22c1354b29a8bb56476b0215cdae**（2026-11-27 18:46 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；18:18再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -22,7 +22,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1062–71](results.md)：原全cusp/étale/p-only来源、所有角色/phase/twists和Ω(p/logp) good提升已付，无regular/Vandiver。有限像O(p^1.5logp)、有界惰性CM代表不推Q-CM；small-aux迹零与全局共同像仍开，单cusp无Runge。
 
-[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除。
+[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除。 §8还付原full47八CM普通、三实际Hecke域全split与十圆单位非零可同素满足；不付该素的高度/log单位。
 
 [R1074](results/R1074-certified-original-p47-eight-CM-disks.md)/[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)：原235盘只余八Q-CM标签，283全279和4513全5453标签均注入；4513 run45938730258付同CM转移。全scalar/twists/cusps/R36零项和坏47 whole-Cp tube支撑已付；八盘内部唯一仍开。
 
