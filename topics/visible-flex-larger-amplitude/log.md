@@ -515,3 +515,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 
 - [09精确修复完整重启](notes/2026-11-27-run09-selected-stage-guard-repair-and-complete-retry.md)：e89d/ff54/c188/aee2四独立源与7857再生器、2ea1全ready已排；root真再生/58源/原145+7参数、333+317selector全部核，数学suffix19574/d442不变，旧失败与2–7全归档保。原输入不重跑，新场待返。
 - 两条自己日志时间依实commit校正为06:29/06:36；辅助私库旧源取回被自动审批拒绝，未绕过或作为来源实核，改用公开已有源整理；主科学继续。
+
+## 2026-11-27 07:28:47 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [第30次公开生成清单整理](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)：23份当前清单1497444B移除；全部原非files值/23完整request/77源角色保，16写出块全字同。失联后重新读取全部公开原件；879普通push未确认、公开查询404，不冒已推；固定cf41802全恢复身份及旧缺payload边界保，主科学继续。
