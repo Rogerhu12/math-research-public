@@ -173,3 +173,5 @@
 - [R1016 §9](results/R1016-single-characteristic-zero-flat-trace-and-full-tate-depth.md)：单一特征零权的约化准确为两个Frobenius gauge及显式短余band；全部系数/端点Lucas退化/真实p-basis已付，原trace及Cartier全权保持。十三核在全部长前缀内逐点相消，没有新增canonical零；继续实际乘子强迫。
 
 - [R1015](results/R1015-original-thirteen-words-and-two-explicit-degree10-sources.md)：原两primitive来源的十三字逐条返回两个明确degree10函数σ¹⁰x²(X−8)与σ¹⁰(X+1)；完整Gauss/Weyl/χ6/χ10及所有Miller常数保留。实际乘子r=1/(4xx₂)、r(B)³=(5+3δ)/2048与全译像比值已付，所有g/h/P10/Z和乘积后Π保持；不赋新中央零，继续真正两约束强迫。
+
+- [R1017](results/R1017-explicit-characteristic-five-section-and-original-shadow-vanishing.md)：原q5截面给完整有理函数坐标，原恒等式/全部极/两坏分量付高度10/3；deck共轭独立直接证明该小素数Tate，整判别式排指数5，得到全部MW=(5/3)A2及F5高10固定生成元。实际公开run45929764445 PASS。原全部54图及所有Artin分支在5处落四个F25 j0纤维，评值6挠使倒6后shadow全零；继续一般q，未以新NS方向代原AJ非零。
