@@ -102,7 +102,7 @@ R984原规范循环Griffiths非零不付各p AJ；R988 level12 K3–E0²实现�
 
 ## O厚点. 唯一原完整执行
 
-原q5/q11全影子倒6零、q11完整NS/Br/MW和q11 Manin唯一run46018592834已付，不重跑。v11真时限终态沿原归档。[v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；这一个别名的保全部原门软件核验已于run46076504365真PASS，下一步核原primary同一完整平方的重复成本，不将时限退出作反例，不重复相同生产输入。
+原q5/q11全影子倒6零、q11完整NS/Br/MW和q11 Manin唯一run46018592834已付，不重跑。v11真时限终态沿原归档。[v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；这一个别名的保全部原门软件核验已于run46076504365真PASS，原primary局部平方重复的完整等价已证明，独立软件检查待回执；同时核原T/v标量完整理想的全厚支持返回，不将时限退出作反例，不重复相同生产输入。
 
 保原两char0 pins、全60源/29/2453/64/minimal及全部原几何门；即使有限影子通过，真正无穷p主门仍须另付。
 

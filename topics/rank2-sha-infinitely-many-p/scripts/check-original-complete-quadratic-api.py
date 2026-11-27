@@ -26,24 +26,29 @@ def _dispatch_fixed_request():
     kind = request.get("kind", default_kind)
     if kind == default_kind:
         return  # Keep the complete original API check below unchanged.
-    if kind != "original-native-captured-complete-return-software-check":
+    if kind == "original-native-captured-complete-return-software-check":
+        check_name = "check-original-native-return-binding.py"
+        binding_name = "original_native_complete_return_binding.py"
+        check_sha = "e706e6ff3ee7033907c3f2a817592fc0ccbac35f3f8037b14a528890a0d5a146"
+        binding_sha = "23f862035b668478bfafebdf95cf4d7f600d251243c3e47791fd4fec47c2c5bd"
+    elif kind == "original-current-idempotent-square-software-check":
+        check_name = "check-original-current-idempotent-square.py"
+        binding_name = "original_current_idempotent_square.py"
+        check_sha = "1ebafdeb5221cddd0d001e86b79874b0eb650d20b2c4881dcc87afffb6dd0e0e"
+        binding_sha = "4c01f72b41e503be862045c7b9e1b63b3a457c7c63282ee3bf5df9d0d7d2a410"
+    else:
         raise RuntimeError("Unknown fixed complete-quadratic API request kind.")
-
-    check_name = "check-original-native-return-binding.py"
-    binding_name = "original_native_complete_return_binding.py"
-    check_sha = "e706e6ff3ee7033907c3f2a817592fc0ccbac35f3f8037b14a528890a0d5a146"
-    binding_sha = "23f862035b668478bfafebdf95cf4d7f600d251243c3e47791fd4fec47c2c5bd"
     if (request.get("check_script") != "scripts/"+check_name or
             request.get("check_sha256") != check_sha or
             request.get("binding_script") != "scripts/"+binding_name or
             request.get("binding_sha256") != binding_sha):
-        raise RuntimeError("The fixed native-return check request or pins changed.")
+        raise RuntimeError("The fixed software-check request or pins changed.")
     verified = {}
     for name, expected in ((check_name, check_sha), (binding_name, binding_sha)):
         source = (here/name).read_bytes()
         actual = hashlib.sha256(source).hexdigest()
         if actual != expected:
-            raise RuntimeError("Fixed native-return software source changed: "+name)
+            raise RuntimeError("Fixed selected software source changed: "+name)
         ast.parse(source.decode("utf-8"), filename=str(here/name))
         verified[name] = actual
     print("RANK2_COMPLETE_QUADRATIC_API_SELECTOR "+json.dumps({
