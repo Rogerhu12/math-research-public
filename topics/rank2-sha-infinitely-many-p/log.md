@@ -247,3 +247,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 20:10 UTC：root亲读inverseβ′实际run46061560954/job140716799525/source5dc5780cc9c4835a54c615fcb3f723ccb00fdc78完整日志，20:08:41的COMPLETE确认三个全值均正。全1236理想、实性/Galois/坏Euler及无限尾<2^-180全部PASS；正式有理外包区间见输入note§6。source SHA c4386fbec87ba1b761698f9aa15435e55f930c63849129e0697186f473e5cfb8，stdout2738B/0e222982e71122e6cad674141e0cc2c2fa0b86b69881f2d803e708f5d4730433，joblog11730B/74d594c036a68ec670e767061c98a1cbef05ca2ffa89ac2c02858a963941ae73。只保源码/参数/run/hash与数学结论，未落输出缓存；不重算旧β。校正前条准备记录误写的20:13为真实20:08，request中的2013仅唯一标识；下一两库实际pull≤21:01。主门继续全六维实际因子及heat canonical必要联系。
+
+
+- 2026-11-27 20:14 UTC：root消费arithmetic半周期两端热运输blob a1fe5cfb858a673f1b4b31453ca84ff24d72edfb，手核τ/aτ全导数、原κ半特征、指数τ/2常数、势项及sigma frame零PR处的完整导数。发布canonical note§10，合并22555B/SHA256 b2972fb15e0cf0ffcd142332999f8175f09309bc0162b704a494de6c4574705e；(L2P)R_S真费用为−P4Q_S/(68σ34)，与heat-flat有限jet准确抵消。无数学执行，原canonical坏仍只CM斜率条件。H整理前全文9866B存before-six-line-heat-transport，完整旧归档链保；下一实际双库pull≤21:01。新inverseβ′三值已发布dec681be，跨六线原finite/绝对基独审继续。

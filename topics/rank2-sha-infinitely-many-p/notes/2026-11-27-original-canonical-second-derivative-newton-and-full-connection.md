@@ -529,3 +529,135 @@ $L_2J'_S$、$K_{\dot S}(0)$ 或 $\dot S$ 的中央另加零。
 式(32)的实际提升，或同时支付它与另一水平有限来源之间的
 $\mathcal H_{34}$ 差。式(35)已支付这一层的 Gaussian，
 却没有支付任何尚未证明的横向 canonical 消失。
+
+## 10. 原半周期投影的两端热运输及准确有限修正
+
+本节把上一节的 $Q_S$ 同时认作原有限投影的实际一阶变化。所有参数变化均在判别式不为零的一个单连通邻域上进行；先固定完整 level2 标签、原半特征和 R798 的 canonical lift，再作导数。这里使用的是 whole degree34 theta bundle，不在变形前后硬认同 CM 型四子空间。
+
+### 10.1 挠点、准周期与 lift 一起变化
+
+在 R855 的通用曲线上，令 $\tau$ 为一个非零半周期的实际解析 lift，置
+$$
+e=x(\tau),\qquad a_\tau=\zeta(\tau),\qquad
+(U_\tau F)(z)=
+\epsilon_\tau e^{-m a_\tau(z+\tau/2)}F(z+\tau).
+\tag{38}
+$$
+$\epsilon_\tau$ 是 R798 原 lift 的固定根单位；它由 CM 点的完整 multiplier 锚定，随后在所取邻域内保持同一分支。其导数为零。不能把这个常数换成另一半周期规范。特别在 $m=34$ 时，三个原 $U_\tau$ 的有限乘法关系继续给 R798 的同一个 $\mathcal H=(\sum U_\tau-I)/2$ 和两条 dyadic 特征。
+
+因 $y(\tau)=0$，由 R855(9)及 $Dy(\tau)=3e^2-g_2/4\ne0$，准确有
+$$
+L_2\tau=-a_\tau.
+$$
+再对 $\zeta(\tau)$ 作全导数，得到
+$$
+\boxed{
+L_2\tau=-a_\tau,\qquad
+L_2a_\tau=g_2\tau/12,\qquad
+L_2 e=2e^2-g_2/3 .
+}
+\tag{39}
+$$
+这里第二式的两项 $-\zeta(\tau)e$ 和
+$D\zeta(\tau)L_2\tau$ 正好相消。三式都在完整族上成立，不是仅在 CM 点冻结挠点。
+
+置
+$$
+H_m^\infty=\frac{D^2}{2m}+\frac{mg_2z^2}{24}.
+$$
+直接对(38)求导，并保留其平移参数和指数常数项，得
+$$
+\boxed{
+[L_2,U_\tau]=[H_m^\infty,U_\tau]
+=-a_\tau U_\tau D+
+\left(\frac{m a_\tau^2}{2}
+-\frac{mg_2\tau z}{12}
+-\frac{mg_2\tau^2}{24}\right)U_\tau .
+}
+\tag{40}
+$$
+右端的 $U_\tau D$ 表示先作 $D$ 再作完整 $U_\tau$。
+也可由 $DU_\tau=U_\tau(D-ma_\tau)$ 核其二阶部分；
+势项的差为 $mg_2(z^2-(z+\tau)^2)/24$，正好给余下两项。
+所以原 heat connection $L_2-H_m^\infty$ 与三个实际 lift 全部交换。
+
+### 10.2 回原有限有理格的矩阵式
+
+在 R855 的原有理基中写
+$$
+\mathcal H_m=L_2+B_m .
+$$
+其中 $L_2$ 只对基的系数作用，$B_m$ 是 R855(12)、(16) 给出的完整有限矩阵。用 $\sigma^m$ 共轭(40)，得到
+$$
+\mathcal H_m U_\tau^{\rm rat}=U_\tau^{\rm rat}\mathcal H_m.
+$$
+因而对同一 whole dyadic 幂等
+$$
+\mathsf P=\frac{\mathcal H-\omega^2}{\delta}
+$$
+有
+$$
+\boxed{
+L_2\mathsf P+[B_m,\mathsf P]=0 .
+}
+\tag{41}
+$$
+(41) 包含半周期标签、全部 theta multiplier 及其相位；
+不是把原 CM 点的一个常矩阵认成全族常矩阵。它在 $m=34$ 的 CM 型四部分正是既有 $P_4$，在 CM 型零的原 $R_S$ 上则有
+$\mathsf P R_S=0$。
+
+现在使用上一节的指定齐次提升。其有理基系数在 CM 点的
+$L_2$ 导数为零，而
+$$
+Q_S=-68\sigma^{34}B_{34}R_S.
+$$
+将(41)作用于 $R_S$ 后，得到完整的有限修正
+$$
+\boxed{
+(L_2\mathsf P)R_S
+=\mathsf P B_{34}R_S
+=-\frac1{68}P_4(Q_S/\sigma^{34}).
+}
+\tag{42}
+$$
+右边是式(34)的同一六列经 R798 的同一完整矩阵所得；
+没有一个尚待任意选择的横向分量。
+
+### 10.3 实际 heat-flat 来源与原齐次来源的区别
+
+设 $R_S^{\rm flat}$ 解同一有限连接
+$\mathcal H_{34}R_S^{\rm flat}=0$，且在 CM 点等于 $R_S$。
+只取这一双数层，存在性和唯一性就是完整有限线性方程。
+由(42)，准确有
+$$
+\boxed{
+\begin{aligned}
+L_2R_S^{\rm flat}|_{\rm CM}
+   &=Q_S/(68\sigma^{34}),\\
+L_2(\sigma^{34}R_S^{\rm flat})|_{\rm CM}
+   &=\dot S+Q_S/68=D^2S/68,\\
+L_2\bigl(\mathsf P\widetilde S\bigr)|_{\rm CM}
+   &=-P_4Q_S/68,\\
+L_2\bigl(\mathsf P S^{\rm flat}\bigr)|_{\rm CM}
+   &=0 .
+\end{aligned}
+}
+\tag{43}
+$$
+第三行的 $\mathsf P$ 按同一 sigma frame 作用于完整 theta 来源；因
+$\mathsf P S=0$，求导该零值时 frame 本身的额外项不再贡献，
+而有限矩阵导数仍正是(42)。第四行中，(42)与
+$\mathsf P L_2R_S^{\rm flat}=P_4(Q_S/\sigma^{34})/68$
+逐项相消。
+
+等价地，在未剥 sigma 的函数表示中，
+$0=(L_2\mathsf P)S+\mathsf P D^2S/68$；
+这时 $\mathsf P$ 在 $D^2S$ 上必须按(38)的完整平移延拓理解。
+$D^2S$ 不属于原有界 theta bundle，不能把这个延拓误认成只作用于六个有理基的常矩阵。
+
+因此 actual finite Schwartz 的横向 Jacobi jet 可以完整返回：
+它是 $\dot S+Q_S/68$，其 Newton 端点仍严格为式(37)除以68。
+对原 CM 点的 $J'_S(0)=0$ 并未作模量微分；
+(43)也未给 $\dot S$ 或 $P_4Q_S$ 增加算术中央零。
+凡接 full toric 双核，须沿(40)–(43)保留这一同源有限修正，
+并继续保留其 beta 槽的一阶费用。
