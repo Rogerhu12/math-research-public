@@ -1,0 +1,61 @@
+name: Serre terminal rule sync
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/terminal-rule-sync-request.json
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: serre-terminal-rule-sync
+  cancel-in-progress: false
+jobs:
+  pull-and-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Partial clone, real pull, and exact README diff
+        shell: bash
+        env:
+          TASK_SOURCE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          task_repo="$RUNNER_TEMP/serre-terminal-rule-sync"
+          git clone --filter=blob:none --depth=1 --no-checkout --single-branch --branch main https://github.com/Rogerhu12/math-research-public.git "$task_repo"
+          git -C "$task_repo" sparse-checkout init --no-cone
+          git -C "$task_repo" sparse-checkout set --no-cone /README.md /topics/serre-uniformity/README.md /topics/serre-uniformity/notes/terminal-rule-sync-request.json
+          git -C "$task_repo" checkout main
+          if ! git -C "$task_repo" cat-file -e "$TASK_SOURCE_SHA^{commit}"; then
+            git -C "$task_repo" fetch --filter=blob:none --depth=1 origin "$TASK_SOURCE_SHA"
+          fi
+          git -C "$task_repo" show "$TASK_SOURCE_SHA:topics/serre-uniformity/notes/terminal-rule-sync-request.json" > "$RUNNER_TEMP/serre-terminal-rule-request.json"
+          task_read_sha="$(python3 -c 'import json,os,re; d=json.load(open(os.path.join(os.environ["RUNNER_TEMP"],"serre-terminal-rule-request.json"))); s=d["last_read_rules_commit"]; assert re.fullmatch("[0-9a-f]{40}",s); assert d["session"]=="Astra-serre-24b8836b-20261126"; print(s)')"
+          if ! git -C "$task_repo" cat-file -e "$task_read_sha^{commit}"; then
+            git -C "$task_repo" fetch --filter=blob:none --depth=1 origin "$task_read_sha"
+          fi
+          git -C "$task_repo" pull --rebase origin main
+          git -C "$task_repo" diff --no-ext-diff "$task_read_sha" origin/main -- README.md topics/serre-uniformity/README.md
+          export TASK_READ_SHA="$task_read_sha"
+          export TASK_REPO_DIR="$task_repo"
+          python3 - <<'PY'
+          import datetime, hashlib, json, os, pathlib, subprocess
+          root = pathlib.Path(os.environ["TASK_REPO_DIR"])
+          paths = ["README.md", "topics/serre-uniformity/README.md"]
+          def git(*args):
+              return subprocess.check_output(["git", "-C", str(root), *args], text=True).strip()
+          payload = {
+              "schema": "serre-terminal-rule-sync-v1",
+              "session": "Astra-serre-24b8836b-20261126",
+              "completed_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "workflow_source": os.environ["TASK_SOURCE_SHA"],
+              "last_read_rules_commit": os.environ["TASK_READ_SHA"],
+              "pulled_head": git("rev-parse", "HEAD"),
+              "origin_main": git("rev-parse", "origin/main"),
+              "changed_rules": git("diff", "--name-only", os.environ["TASK_READ_SHA"], "origin/main", "--", *paths).splitlines(),
+              "rules_sha256": {p: hashlib.sha256((root / p).read_bytes()).hexdigest() for p in paths},
+              "partial_clone_filter": git("config", "remote.origin.partialclonefilter"),
+              "shallow": git("rev-parse", "--is-shallow-repository"),
+          }
+          assert payload["pulled_head"] == payload["origin_main"]
+          print("SERRE_TERMINAL_RULE_SYNC " + json.dumps(payload, ensure_ascii=False, sort_keys=True))
+          PY

@@ -596,3 +596,8 @@
 ### 2026-11-28 06:18 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 提前重试真实git pull --rebase；执行环境仍不可用，shell未启动。随后连接器同步main至244e7e0a7f64847b4dd656c725ebffec8e8aacf5，仅其他课题变化；根/本课题README及本课题diff均空，未重读未变规则。
 - 按根规则8继续expected_sha非force提交，未将连接器同步称作真实pull；下一真实尝试≤07:18。原canonical整moment Heis来源、固定Dixon端部多项式及Gaussian实际节点余类继续，无在途数学run。
+
+
+### 2026-11-28 06:21 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 为恢复用户要求的真实terminal pull，新增课题外 .github/workflows/serre-terminal-rule-sync.yml：本公开仓库匿名partial/shallow clone、只检出两README及请求、git pull --rebase后读上次规则提交的精确diff与哈希；无需任何令牌，permissions为空，超时10分钟，不上传artifact。
+- 当前仅已提交请求，未把它提前记作成功pull；研究继续，收到真实run后更新H的规则已读提交。该workflow只做仓库同步元数据，不执行数学程序、不复制其他课题数据。
