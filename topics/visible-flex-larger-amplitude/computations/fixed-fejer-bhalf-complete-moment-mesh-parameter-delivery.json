@@ -1,0 +1,1054 @@
+{
+  "schema": "complete-fixed-fejer-bhalf-moment-and-phase-mesh-parameter-delivery-v1",
+  "prepared_utc": "2026-11-27 22:28 UTC",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "three complete parameter plans and their full constructor prepared; no postprocessing execution",
+  "ownership": {
+    "solver": "all three complete R716 and mesh plans; metadata constructor",
+    "construction": "normal/geometry/closed plans, unchanged source-family reuse",
+    "root": "sole ref/queue/job writer"
+  },
+  "known_current_official_launch": {
+    "evidence": "root reported the official run/job/head/start at 2026-11-27 22:26 UTC; not inferred from the planned namespace",
+    "run_id": 46076669320,
+    "run_attempt": 1,
+    "job_id": 140765886020,
+    "head_sha": "543cfdf281c9bcd0f9b13197721b003a275c5967",
+    "started_at": "2026-11-27T22:26:37Z",
+    "observed_stage": "two necessary inputs preceding science; no current scientific point or result supplied",
+    "ready_files_locked_before_receiving_run_id_are_not_rehashed": true,
+    "actual_input_files": null,
+    "actual_reference_model_identity_sha256": null,
+    "actual_working_model_identity_sha256": null,
+    "actual_point_sha256": null,
+    "actual_snapshot_identity_sha256": null,
+    "actual_final_checkpoint_sha256": null,
+    "actual_fee_or_closed_or_moment_or_mesh_result": null
+  },
+  "complete_artifacts": [
+    {
+      "role": "R716",
+      "name": "fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+      "path": "computations/fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+      "bytes": 80089,
+      "sha256": "3b49bd1b12b6b5680fd63a6cd8a5e8c34633626c875044a50ba98b6b1174441a",
+      "git_blob_sha": "7d748fcb2ca892ce50c23d0153c198f99fc307db"
+    },
+    {
+      "role": "mesh_final",
+      "name": "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-ready.json",
+      "path": "computations/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-ready.json",
+      "bytes": 91284,
+      "sha256": "04456c30ae931cb8d10e2652c8ef51fcd5e6ad5bfe4141e129b7fb98a04bf9c9",
+      "git_blob_sha": "aafad01042d2a1412d070c2e302d762b3d0244c8"
+    },
+    {
+      "role": "mesh_packet",
+      "name": "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-ready.json",
+      "path": "computations/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-ready.json",
+      "bytes": 91233,
+      "sha256": "eeb88aede82e6d447472c22d884a91a1dec044d4078b15503e25c956e11ba2f4",
+      "git_blob_sha": "bb953c7250373eea6e263e19533282136622d5e3"
+    },
+    {
+      "role": "parameter_reproducer",
+      "name": "reproduce_fixed_fejer_bhalf_moment_mesh_parameters.mjs",
+      "path": "scripts/resume_20261126/reproduce_fixed_fejer_bhalf_moment_mesh_parameters.mjs",
+      "bytes": 19886,
+      "sha256": "8c4322be3317c7cc668d57944cb5558d6ce6641c60b85b62955fc6fd49f33530",
+      "git_blob_sha": "6ccaf5ac90fd95c92367f9d9fdf44debed734ab2"
+    },
+    {
+      "role": "implementation_note",
+      "name": "2026-11-27-fixed-fejer-bhalf-complete-moment-mesh-parameters.md",
+      "path": "notes/2026-11-27-fixed-fejer-bhalf-complete-moment-mesh-parameters.md",
+      "bytes": 17483,
+      "sha256": "bceba4da44f80d2a1dd2e3ca0ee18bb229f1ea4f847e9099708c8d5cf320ec74",
+      "git_blob_sha": "48ab633b3fd79e50495db63477faa45e448e9611"
+    }
+  ],
+  "manifest_path": "computations/fixed-fejer-bhalf-complete-moment-mesh-parameter-delivery.json",
+  "manifest_bytes": 55276,
+  "complete_artifact_count_including_manifest": 6,
+  "complete_artifact_bytes_excluding_manifest": 299975,
+  "complete_artifact_bytes_including_manifest": 355251,
+  "all_files_below_100000_bytes": true,
+  "scientific_runtime_files_added_or_rewritten": 0,
+  "scientific_input_arrays_added_to_git": 0,
+  "complete_current_scientific_parameter_files": [
+    {
+      "role": "current_complete_science_parameters",
+      "path": "computations/fixed-fejer-meridian-bhalf-science-complete-ready.json",
+      "bytes": 90652,
+      "sha256": "242dd96148ddee96cf829433a4f399e2a2bc052671a92905722c8de8110f2c67",
+      "git_blob_sha": "9c4c28ef3c5b189e094c65f51038fafeef48bc48"
+    },
+    {
+      "role": "current_complete_pure_parameters",
+      "path": "computations/fixed-fejer-meridian-bhalf-pure-complete-ready.json",
+      "bytes": 80254,
+      "sha256": "8a5f9ff71bc598f77b25c36aeaad833f048dc6b4d218de2df44fda92709e73b7",
+      "git_blob_sha": "202b6ca81c72c009c34c04094ef234db2e337328"
+    }
+  ],
+  "full_current_scientific_parameter_projection": {
+    "intended_runner_label": "parallel19",
+    "actual_run_id": null,
+    "actual_run_attempt": null,
+    "actual_source_commit": null,
+    "actual_input_files": null,
+    "actual_input_binding_sha256": null,
+    "actual_report_sha256": null,
+    "actual_model_identity_sha256": null,
+    "actual_point_sha256": null,
+    "actual_snapshot_identity_sha256": null,
+    "actual_final_checkpoint_sha256": null,
+    "complete_current_scientific_parameter_files": [
+      {
+        "role": "current_complete_science_parameters",
+        "path": "computations/fixed-fejer-meridian-bhalf-science-complete-ready.json",
+        "bytes": 90652,
+        "sha256": "242dd96148ddee96cf829433a4f399e2a2bc052671a92905722c8de8110f2c67",
+        "git_blob_sha": "9c4c28ef3c5b189e094c65f51038fafeef48bc48"
+      },
+      {
+        "role": "current_complete_pure_parameters",
+        "path": "computations/fixed-fejer-meridian-bhalf-pure-complete-ready.json",
+        "bytes": 80254,
+        "sha256": "8a5f9ff71bc598f77b25c36aeaad833f048dc6b4d218de2df44fda92709e73b7",
+        "git_blob_sha": "202b6ca81c72c009c34c04094ef234db2e337328"
+      }
+    ],
+    "complete_parent_scientific_parameter_file": {
+      "name": "fixed-fejer-meridian-producer-bound-science-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-producer-bound-science-complete-ready.json",
+      "bytes": 97806,
+      "sha256": "75fef2a2d4505cc0e35941f5b7d6b33c8565af7a925171c2f5f61fa203478018",
+      "git_blob_sha": "432a30604fd104dbfcb318c0fd57846010b1dfef"
+    },
+    "complete_parent_scientific_source_roles_location": "complete_original_scientific_parameter_source.original_complete_source_sha256_by_role in the whole parent mesh-ready file; all 137 pairs are unchanged",
+    "current_complete_scientific_script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_meridian_batched_actions.py",
+    "current_complete_scientific_argv": [
+      "--repo",
+      "{repo}",
+      "--reference-bundle",
+      "{work}/fixed-fejer-reference/reference.npz",
+      "--preparation-report",
+      "{work}/fixed-fejer-reference/report.json",
+      "--carrier",
+      "{work}/fixed-fejer-reference/observations.npz",
+      "--node-report",
+      "{work}/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+      "--scalar-input",
+      "{work}/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+      "--angles",
+      "2048",
+      "--stage-block",
+      "64",
+      "--angle-block",
+      "8",
+      "--integration-order",
+      "8",
+      "--norm-kind",
+      "jet-sum",
+      "--radial-norm-length",
+      ".05",
+      "--angular-transition",
+      "24",
+      "--torch-threads",
+      "4",
+      "--damping",
+      ".01",
+      "--directions",
+      "1",
+      "--maxiter",
+      "16",
+      "--restoration-directions",
+      "4",
+      "--restoration-damping",
+      ".01",
+      "--restoration-maxiter",
+      "64",
+      "--line-trials",
+      "15",
+      "--active-rows",
+      "192",
+      "--qp-atol",
+      "0",
+      "--qp-rtol",
+      "1e-6",
+      "--reach-ratio",
+      ".03",
+      "--reach-safety-factor",
+      ".992",
+      "--active-band",
+      ".025",
+      "--marked-diameter-budget",
+      "4.2",
+      "--witness-lower-budget",
+      ".9",
+      "--amplitude-height-floor",
+      "1.01",
+      "--spectral-p",
+      "4",
+      "--spectral-epsilon",
+      ".001",
+      "--spectral-scale",
+      ".05",
+      "--legacy-fraction",
+      ".5",
+      "--target",
+      "1e-9",
+      "--outdir",
+      "{work}/fixed-fejer-meridian-batched-bhalf-first",
+      "--panels",
+      "128",
+      "--endpoint-bubble-1-left",
+      "1/32",
+      "--endpoint-bubble-1-middle",
+      "1/4",
+      "--endpoint-bubble-1-right",
+      "15/32",
+      "--endpoint-bubble-2-left",
+      "17/32",
+      "--endpoint-bubble-2-middle",
+      "3/4",
+      "--endpoint-bubble-2-right",
+      "31/32",
+      "--endpoint-root-tolerance",
+      "2e-12",
+      "--endpoint-root-iterations",
+      "24",
+      "--endpoint-root-backtracks",
+      "18",
+      "--endpoint-root-armijo",
+      "1e-4",
+      "--moment-definition-sha256",
+      "05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e",
+      "--moment-input",
+      "{repo}/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json",
+      "--moment-input-sha256",
+      "df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c",
+      "--endpoint-control-radius",
+      "2",
+      "--gamma-left",
+      "1/16",
+      "--gamma-middle",
+      "1/8",
+      "--gamma-right",
+      "3/16",
+      "--moment-input-binding",
+      "supported-smooth-triangle-reference",
+      "--normal-stages",
+      "32",
+      "--seed-boundary-total-length",
+      "1/2",
+      "--seed-profile-delta",
+      "1/32",
+      "--seed-radial-quadrature-order",
+      "8",
+      "--seed-profile-quadrature-order",
+      "16",
+      "--seed-mean-maxiter",
+      "128",
+      "--seed-mean-tolerance",
+      "2e-12",
+      "--seed-mean-backtracks",
+      "24",
+      "--seed-mean-armijo",
+      "1e-4",
+      "--seed-scalar-iterations",
+      "64",
+      "--manifest",
+      "{work}/fixed-fejer-reference/locations.json",
+      "--material-envelope-binding",
+      "{work}/fixed-fejer-reference/material-envelope-carrier-binding.json",
+      "--envelope-near-active-rows",
+      "32",
+      "--independent-envelope-branch",
+      "--pending-parallel-envelope-run",
+      "45909290354/1",
+      "--pending-parallel-envelope-source",
+      "45909290354/1=cc0a07369a2d9ea5e22d261441420acb4e486a8c0d43f29f57e03378e82627b5",
+      "--pending-parallel-envelope-run",
+      "45929088658/1",
+      "--pending-parallel-envelope-source",
+      "45929088658/1=95559b0cd44e3bf521b01ca8fe35b515bf7aad5dc4dc6b008ab0d015b9211da9",
+      "--pending-parallel-envelope-run",
+      "45943410994/1",
+      "--pending-parallel-envelope-source",
+      "45943410994/1=ff5444af4c31869a1a4d7b87cb4912f2d025b8da5ee90922924c3542ff6f0dd5",
+      "--pending-parallel-envelope-run",
+      "45972294636/1",
+      "--pending-parallel-envelope-source",
+      "45972294636/1=c3dc77f40445eaf30ab743311dd97ea7d62a41be80db504fc778eccffa30e5d1",
+      "--pending-parallel-envelope-run",
+      "46011377225/1",
+      "--pending-parallel-envelope-source",
+      "46011377225/1=477499b17141d8ae22558156e8b85a4c01b7a40ff07b6b46f5827e20d11b9ccd"
+    ],
+    "scientific_argument_words": 157,
+    "original_complete_argv_difference": [
+      {
+        "index": 71,
+        "before": "{work}/fixed-fejer-meridian-batched-producer-bound",
+        "after": "{work}/fixed-fejer-meridian-batched-bhalf-first"
+      },
+      {
+        "index": 113,
+        "before": "1/4",
+        "after": "1/2"
+      }
+    ],
+    "actual_required_scientific_report": "{work}/fixed-fejer-meridian-batched-bhalf-first/report.json",
+    "actual_required_original_command": "{work}/fixed-fejer-meridian-batched-bhalf-first-command.json",
+    "actual_command_and_report_are_required_for_runtime_source_model_point_binding": true,
+    "current_fields_not_inherited_from_parent_run18": true,
+    "fixed_mathematical_metric_is_the_same_declared_Fejer_recipe": true,
+    "selected_initial_seed_boundary_total_relative_length": "1/2",
+    "selected_seed_profile_delta": "1/32",
+    "unchanged_solver_controls_rows_stages_budgets_and_stopping_rules": true,
+    "old_scientific_run_or_old_mutable_observation_not_a_current_field_input": true
+  },
+  "complete_scientific_runtime_source_role_count": 137,
+  "complete_scientific_runtime_file_count": 18,
+  "scientific_argv_words": 157,
+  "pure_argv_words": 7,
+  "complete_parent_packages": [
+    {
+      "role": "complete_delivery_manifest",
+      "name": "fixed-fejer-meridian-producer-R722-complete-R716-moment-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-producer-R722-complete-R716-moment-delivery.json",
+      "bytes": 98885,
+      "sha256": "868c8bcc5904fb93d1f1c88623fe775d9cc37018ed1f8ffb20a17dd7f0b3d8aa",
+      "git_blob_sha": "bbf55f78919ee8dc9224019e78823797ff548705",
+      "publication_commit": "bf5f7e9708e3438b3c4f0435e1c908b0f95f933a"
+    },
+    {
+      "name": "fixed-fejer-meridian-producer-bound-complete-same-field-phase-mesh-delivery.json",
+      "path": "computations/fixed-fejer-meridian-producer-bound-complete-same-field-phase-mesh-delivery.json",
+      "bytes": 79035,
+      "sha256": "501c43660718de650c7c6fcd519c9839c3fcff0a5b415987bd8200c134139a2c",
+      "git_blob_sha": "88caf74d063603eb01dd19a66bda110f5b194bae",
+      "publication_commit": "9356aa12459c861adf4ff9036d97ac5baa45c33e"
+    },
+    {
+      "path": "computations/fixed-fejer-meridian-producer-binding-repair-complete-delivery.json",
+      "bytes": 52830,
+      "sha256": "970b8f8bbb141fc7f1c4e5e42d6048497f0de58731e65918f3c4e4cf6aff008a",
+      "git_blob_sha": "45f14a52f824ca947a59bacf73ad123f17fddab9",
+      "publication_commit": "8c1251a01aa2a1893386b69d13ab1e0a5ae4aa38"
+    }
+  ],
+  "complete_reused_runtime_files": [
+    {
+      "sha256": "45ca7637ef76871b5729e762037e5a34307602e4b144990b0b0fa4d5cf3e1ed8",
+      "bytes": 70554,
+      "git_blob_sha": "8f36de4b8a4420e26eb07d4d4bf409d8eac6dda6",
+      "role": "producer",
+      "name": "fixed_fejer_meridian_batched_producer_R722_complete_closed_surface_moment_integrals.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_complete_closed_surface_moment_integrals.py"
+    },
+    {
+      "sha256": "d0fe262ba0208562ed5578a17b22847659a5e747b601441b65b2e73d50462e63",
+      "bytes": 46887,
+      "git_blob_sha": "03233ce1e49976cb31530df82852ef5154f28462",
+      "role": "consumer",
+      "name": "fixed_fejer_meridian_batched_producer_R722_r716_centred_volume_moment.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_r716_centred_volume_moment.py"
+    },
+    {
+      "name": "r716_closed_surface_moment_arithmetic.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r716_closed_surface_moment_arithmetic.py",
+      "bytes": 17397,
+      "sha256": "f79c69edc4686148ca0a1418a498ce0154492a842561542c6bbdb8d810563e9a",
+      "git_blob_sha": "e265b5b25932ac97dc173071e00c60a568e80cc5"
+    },
+    {
+      "kind": "complete_runtime_source",
+      "name": "fixed_fejer_meridian_batched_producer_bound_same_field_mesh_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_same_field_mesh_input.py",
+      "bytes": 73500,
+      "sha256": "2ef316b9075f14af66e1deda235c4df9319a0c29cfeddb10a40130712a12d76c",
+      "git_blob_sha": "62e4551908e43beb9684db85998a49ff81337d5e"
+    },
+    {
+      "kind": "complete_runtime_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_complete_phase_mesh_arithmetic.py",
+      "bytes": 39436,
+      "sha256": "80116a4bcfa2752274cece1148420cdce5c489faba3a8a7c0e92c0f6a8d058e4",
+      "git_blob_sha": "57c2c563785dab3a1148645225106ca5860e2e2f",
+      "name": "fixed_fejer_complete_phase_mesh_arithmetic.py"
+    },
+    {
+      "kind": "complete_runtime_source",
+      "name": "fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+      "bytes": 53829,
+      "sha256": "b3991da8585b553a6c3133da806fafa4903e2c01087634c18ee168e6718bc4d7",
+      "git_blob_sha": "e691ac03f470b3d5477525b8f8c38007741a8747"
+    },
+    {
+      "kind": "complete_runtime_source",
+      "name": "read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+      "bytes": 22184,
+      "sha256": "8197f77d1372710931ba6882c9fd88f035154a7082310bfdfa645865cde3e5c2",
+      "git_blob_sha": "16fb78089178ebd50a925239d179c40588fa90bd"
+    }
+  ],
+  "complete_reused_field_input": {
+    "name": "fixed_fejer_meridian_batched_normal_packet_accurate_field_input.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_normal_packet_accurate_field_input.py",
+    "bytes": 32969,
+    "sha256": "d892bedeadca4fe0689069ac7489a41c1d348311c2b84dad292bf48133e71cc7",
+    "git_blob_sha": "6a724fcd48a0d1da27b4762c9ac4ef6ac734cae4"
+  },
+  "complete_reused_fixed_reference_context": {
+    "name": "fixed_fejer_axisymmetric_reference.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+    "bytes": 60335,
+    "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+    "git_blob_sha": "8ad0794ebf0daab9a278c5ea1de784e93b64fd8c"
+  },
+  "complete_reused_fixed_input_binder": {
+    "name": "fixed_fejer_reference_input_binding.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_reference_input_binding.py",
+    "bytes": 25672,
+    "sha256": "3da43e82722dfb4548ff4e8b454d47ec2626ece76084c7801c0be5b8c989670f",
+    "git_blob_sha": "5eab3f96cb8b1bc245f4de33dc2041cf25d22094"
+  },
+  "complete_reused_closed_runtime": {
+    "name": "fixed_fejer_meridian_batched_producer_R722_closed_phase_grip_evidence.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_closed_phase_grip_evidence.py",
+    "bytes": 84576,
+    "sha256": "002eb1b91c99ea212255d14a4e929e876e09f34c38c78ffb7fc4f806b8799c5f",
+    "git_blob_sha": "5f3b42618cfab77eaa3297073d71657e8df78dac"
+  },
+  "complete_reused_closed_proof": {
+    "name": "2026-11-27-producer-R722-closed-phase-grip-r718-source-adapter.md",
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-producer-R722-closed-phase-grip-r718-source-adapter.md",
+    "bytes": 25302,
+    "sha256": "6c96766bd966611895c4a26ef25cf847ad4191873d5685a37644acd02d4793f5",
+    "git_blob_sha": "ff5116a3a91ff42e89c945cde02b274f8ac0965b"
+  },
+  "current_sibling_parameter_records_reported_by_owner": [
+    {
+      "role": "normal_R722",
+      "path": "computations/fixed-fejer-meridian-batched-bhalf-first-R722-complete-normal32-full-circle-sixjet-fees-ready.json",
+      "bytes": 49322,
+      "sha256": "14e6ac6d8e95721a8fc1ddf983c7d3c67258f9daa41d01fefab955491d74d39a",
+      "git_blob_sha": "bae2aeb057b0d1c58d6520038a3467bb4b2548b9"
+    },
+    {
+      "role": "continuous_geometry",
+      "path": "computations/fixed-fejer-meridian-batched-bhalf-first-R722-complete-continuous-gram-curvature-support-ready.json",
+      "bytes": 48299,
+      "sha256": "d43d408cb4612a8998256e4e0d85085bb4041f0abf7e47dc89e5dd6b3e0874cc",
+      "git_blob_sha": "bab97b529ea6e68d19fbd92335bd7064ef283202"
+    },
+    {
+      "role": "closed_phase",
+      "path": "computations/fixed-fejer-meridian-batched-bhalf-first-R722-closed-phase-grip-r718-ready.json",
+      "bytes": 74772,
+      "sha256": "6ea0e0482697134be32ef6ff080aea7007297116c2ad679a874087e61e3c972f",
+      "git_blob_sha": "f5392f425a12a8b219f517f235c368e29e66f7ff"
+    }
+  ],
+  "sibling_complete_delivery": {
+    "path": "computations/fixed-fejer-bhalf-R722-complete-post-parameter-delivery.json",
+    "bytes": 44101,
+    "sha256": "fc0c9d2eecced80287bdff4d21bd775a4cb8338b7622e4397d421a060321a812",
+    "git_blob_sha": "7a0378cc3ae91d59cebd8747be5ccd1d0b4b0382",
+    "record_scope": "complete owner-reported metadata; the three runner report paths were explicitly coordinated"
+  },
+  "all_postprocessing_paths": {
+    "normal": "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-normal-root-and-sixjet-fees-v1/report.json",
+    "geometry": "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-continuous-gram-curvature-support-v1/report.json",
+    "closed": "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-complete-closed-phase-grip-v1/report.json",
+    "closed_sidecar": "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-complete-closed-phase-grip-v1/R716-unmarked-outward-tube.json",
+    "moments": "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-r716-complete-moment-integrals/report.json",
+    "centred": "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-r716-complete-centred-moments/report.json",
+    "mesh_final": "{work}/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-v1/report.json",
+    "mesh_packet": "{work}/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-v1/report.json"
+  },
+  "planned_seed_parameters": {
+    "relative_boundary_total_length": "1/2",
+    "profile_delta": "1/32",
+    "boundary_each_end_relative_length": "1/8",
+    "central_combined_relative_length": "3/8",
+    "runtime_uses_whole_actual_report_seed_definition": true,
+    "fixed_mathematical_metric_changed": false,
+    "old_seed_or_field_or_root_or_fee_identity_inherited": false,
+    "R709_whole_interval_sufficient_conditions_paid_in_actual_execution_only": true,
+    "new_R722_branch_not_silently_added": true,
+    "explicit_current_reference_mean_theorem": "R722",
+    "original_R709_coarse_hypothesis_may_be_false_and_is_not_relabelled": true,
+    "actual_complete_posterior_mean_exists_in_this_delivery": null,
+    "each_central_relative_length": "3/16",
+    "exact_relative_central_intervals": [
+      [
+        "5/32",
+        "11/32"
+      ],
+      [
+        "21/32",
+        "27/32"
+      ]
+    ],
+    "length_scope": "Predeclared exact rational source definitions from the unchanged two-support seed; not evaluated floating-point carriers or an actual field.",
+    "actual_central_length_carrier_hex": null,
+    "actual_mean_branch": null,
+    "actual_point_sha256": null,
+    "no_new_R722_mathematical_branch_implemented_in_this_parameter_adapter": true
+  },
+  "exact_scientific_argument_differences": [
+    {
+      "index": 71,
+      "before": "{work}/fixed-fejer-meridian-batched-producer-bound",
+      "after": "{work}/fixed-fejer-meridian-batched-bhalf-first"
+    },
+    {
+      "index": 113,
+      "before": "1/4",
+      "after": "1/2"
+    }
+  ],
+  "whole_scientific_projection_equal_to_root_complete_current_argv": true,
+  "whole_current_script_equal_to_root_complete_current_script": true,
+  "postprocessing_numerical_budget_or_runtime_source_changes": false,
+  "original_complete_unknown_history_retained": true,
+  "complete_plans": [
+    {
+      "kind": "R716",
+      "complete_ready_file": {
+        "role": "R716",
+        "name": "fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "path": "computations/fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "bytes": 80089,
+        "sha256": "3b49bd1b12b6b5680fd63a6cd8a5e8c34633626c875044a50ba98b6b1174441a",
+        "git_blob_sha": "7d748fcb2ca892ce50c23d0153c198f99fc307db"
+      },
+      "whole_steps": [
+        {
+          "id": "actual-fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-whole-closed-flux-integrals-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_complete_closed_surface_moment_integrals.py",
+          "parent_bundle": "fixed-fejer-reference/reference.npz",
+          "complete_argv": [
+            "--repo",
+            "{repo}",
+            "--normal-fee-report",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-normal-root-and-sixjet-fees-v1/report.json",
+            "--outdir",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-r716-complete-moment-integrals",
+            "--seconds",
+            "600",
+            "--maximum-angle-blocks",
+            "0"
+          ],
+          "outputs": [
+            "fixed-fejer-meridian-batched-bhalf-first-R722-r716-complete-moment-integrals/report.json"
+          ],
+          "argument_words": 10,
+          "formal_summary_fields": 34,
+          "live_fields": 0,
+          "output_count": 1,
+          "formal_and_live_selectors_retained_in_whole_ready": true
+        },
+        {
+          "id": "actual-fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-centred-volume-moments-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_r716_centred_volume_moment.py",
+          "parent_bundle": "fixed-fejer-reference/reference.npz",
+          "complete_argv": [
+            "--repo",
+            "{repo}",
+            "--moment-report",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-r716-complete-moment-integrals/report.json",
+            "--output",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-r716-complete-centred-moments/report.json",
+            "--closed-phase-report",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-R722-complete-closed-phase-grip-v1/report.json"
+          ],
+          "outputs": [
+            "fixed-fejer-meridian-batched-bhalf-first-R722-r716-complete-centred-moments/report.json"
+          ],
+          "argument_words": 8,
+          "formal_summary_fields": 60,
+          "live_fields": 0,
+          "output_count": 1,
+          "formal_and_live_selectors_retained_in_whole_ready": true
+        }
+      ],
+      "complete_immediate_parameter_parent": {
+        "name": "fixed-fejer-meridian-batched-producer-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-producer-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "bytes": 55988,
+        "sha256": "93113ca87b4b2c3f921da1fb2934064ed08155d9b5144ab404916a57d302b90d",
+        "git_blob_sha": "e1628c1246bf8783055e16abe1053f6ecc0d23c7",
+        "fixed_publication_commit": "bf5f7e9708e3438b3c4f0435e1c908b0f95f933a"
+      },
+      "parameter_correspondence": [
+        {
+          "parent_step_id": "actual-fixed-fejer-meridian-batched-producer-R722-complete-R716-whole-closed-flux-integrals-20261127",
+          "current_step_id": "actual-fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-whole-closed-flux-integrals-20261127",
+          "counts": {
+            "argument_words": 10,
+            "formal_summary_fields": 34,
+            "live_fields": 0,
+            "output_count": 1
+          },
+          "script_unchanged": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_complete_closed_surface_moment_integrals.py",
+          "only_runner_namespace_step_id_and_current_scope_changed": true,
+          "current_scope_before": "Consume the complete actual producer-bound R722 normal/physical-sixjet report for one genuinely recorded immutable complete-required-angle packet point of driver10fa4e4e, reader8027ec35, normal76185 and packetc750. Rebind all137 scientific source roles, the fixed Fejer target, all six actual input files, the full33-node/32-stage chain, every planned full-circle cell, every original922 radial cell and all actual support/profile/control splits and scalar tail. Re-read complete original R722 posterior source/theorem attribution, all active integral leaves, all three total-equation residuals and the whole-angle posterior root-domain inequalities. Retain the genuine original R709 sufficient-condition flag as true or false. Integrate all12 original interval flux channels and retain each completed atomic block. Missing coverage, mean proof or branch association keeps full-domain moments null. The original600-second budget and maximum-angle-blocks0 remain. Reflection and both flat caps are retained; parametric flux alone does not certify an embedded outward body. No working F/J/root or accurate field oracle is called.",
+          "current_scope_after": "Consume the complete actual producer-bound R722 normal/physical-sixjet report for one genuinely recorded immutable complete-required-angle packet point of driver10fa4e4e, reader8027ec35, normal76185 and packetc750. Rebind all137 scientific source roles, the fixed Fejer target, all six actual input files, the full33-node/32-stage chain, every planned full-circle cell, every original922 radial cell and all actual support/profile/control splits and scalar tail. Re-read complete original R722 posterior source/theorem attribution, all active integral leaves, all three total-equation residuals and the whole-angle posterior root-domain inequalities. Retain the genuine original R709 sufficient-condition flag as true or false. Integrate all12 original interval flux channels and retain each completed atomic block. Missing coverage, mean proof or branch association keeps full-domain moments null. The original600-second budget and maximum-angle-blocks0 remain. Reflection and both flat caps are retained; parametric flux alone does not certify an embedded outward body. No working F/J/root or accurate field oracle is called.",
+          "all_full_argument_tokens_preserved_except_namespace": true,
+          "all_formal_and_live_selector_values_preserved": true
+        },
+        {
+          "parent_step_id": "actual-fixed-fejer-meridian-batched-producer-R722-complete-R716-centred-volume-moments-20261127",
+          "current_step_id": "actual-fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-centred-volume-moments-20261127",
+          "counts": {
+            "argument_words": 8,
+            "formal_summary_fields": 60,
+            "live_fields": 0,
+            "output_count": 1
+          },
+          "script_unchanged": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_r716_centred_volume_moment.py",
+          "only_runner_namespace_step_id_and_current_scope_changed": true,
+          "current_scope_before": "Read and rebind all complete same-point moment blocks/journals/sources. Replay all12 channels, lower/flat-cap contributions, exact p4 volume/first/mixed moments and the full general R716(2) centred tensors at physical t=0,1/2,1. The simpler B_eff formula requires the actual all32-stage signed half-turn inclusion. Independently consume the FINAL complete producer_R722 closed-phase main report and its exact recorded sidecar; recheck every source/input/output and complete point/model/snapshot/target/normal identity, then replay complete geometry, ports, every support cell, independent unmarked tube and all8 original beta evidence roles. A provisional or incomplete closed report discharges nothing. Only actual full-body interpretation, positive total volume and a separated centred invariant enable the R625/R716 E(3)-quotient lower bound. R722 mean existence and R718 holding distance do not provide volume/noncongruence conclusions. No working F/J/root or accurate field oracle, conditional reach or overall completion claim is added.",
+          "current_scope_after": "Read and rebind all complete same-point moment blocks/journals/sources. Replay all12 channels, lower/flat-cap contributions, exact p4 volume/first/mixed moments and the full general R716(2) centred tensors at physical t=0,1/2,1. The simpler B_eff formula requires the actual all32-stage signed half-turn inclusion. Independently consume the FINAL complete producer_R722 closed-phase main report and its exact recorded sidecar; recheck every source/input/output and complete point/model/snapshot/target/normal identity, then replay complete geometry, ports, every support cell, independent unmarked tube and all8 original beta evidence roles. A provisional or incomplete closed report discharges nothing. Only actual full-body interpretation, positive total volume and a separated centred invariant enable the R625/R716 E(3)-quotient lower bound. R722 mean existence and R718 holding distance do not provide volume/noncongruence conclusions. No working F/J/root or accurate field oracle, conditional reach or overall completion claim is added.",
+          "all_full_argument_tokens_preserved_except_namespace": true,
+          "all_formal_and_live_selector_values_preserved": true
+        }
+      ],
+      "actual_run_id": null,
+      "actual_input_identity": null,
+      "actual_model_identity": null,
+      "actual_point_identity": null,
+      "actual_snapshot_identity": null,
+      "actual_final_checkpoint_identity": null,
+      "executed": false
+    },
+    {
+      "kind": "mesh_final",
+      "complete_ready_file": {
+        "role": "mesh_final",
+        "name": "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-ready.json",
+        "path": "computations/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-ready.json",
+        "bytes": 91284,
+        "sha256": "04456c30ae931cb8d10e2652c8ef51fcd5e6ad5bfe4141e129b7fb98a04bf9c9",
+        "git_blob_sha": "aafad01042d2a1412d070c2e302d762b3d0244c8"
+      },
+      "whole_steps": [
+        {
+          "id": "complete-fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+          "parent_bundle": "fixed-fejer-reference/reference.npz",
+          "complete_argv": [
+            "--repo",
+            "{repo}",
+            "--report",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first/report.json",
+            "--command",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-command.json",
+            "--point-source",
+            "final",
+            "--outdir",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-v1",
+            "--levels",
+            "1:512:16,2:1024:32,4:2048:64",
+            "--times",
+            "0,1/4,1/2,3/4,1",
+            "--time-levels",
+            "4,8,16",
+            "--fixed-chart-iterations",
+            "64",
+            "--fixed-chart-tolerance",
+            "2e-12",
+            "--field-angle-block",
+            "8",
+            "--export-levels",
+            "all",
+            "--preview-radial-nodes",
+            "96",
+            "--preview-angles",
+            "128",
+            "--preview-cap-rings",
+            "32",
+            "--preview-byte-limit",
+            "5000000"
+          ],
+          "outputs": [
+            "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-v1/report.json",
+            "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-v1/scalar-summary.json"
+          ],
+          "argument_words": 32,
+          "formal_summary_fields": 110,
+          "live_fields": 48,
+          "output_count": 2,
+          "formal_and_live_selectors_retained_in_whole_ready": true
+        },
+        {
+          "id": "actual-fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+          "parent_bundle": "fixed-fejer-reference/reference.npz",
+          "complete_argv": [
+            "--repo",
+            "{repo}",
+            "--report",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-v1/report.json",
+            "--output",
+            "{work}/postprocess/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-v1-readout.json"
+          ],
+          "outputs": [
+            "postprocess/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-v1-readout.json"
+          ],
+          "argument_words": 6,
+          "formal_summary_fields": 58,
+          "live_fields": 0,
+          "output_count": 1,
+          "formal_and_live_selectors_retained_in_whole_ready": true
+        }
+      ],
+      "complete_immediate_parameter_parent": {
+        "name": "fixed-fejer-meridian-producer-bound-same-field-phase-mesh-final-ready.json",
+        "path": "computations/fixed-fejer-meridian-producer-bound-same-field-phase-mesh-final-ready.json",
+        "bytes": 75629,
+        "sha256": "11f5a92dbaf7a74fc5e029c76cac2c459a401bfb1ab70ac3a4064ce243efb152",
+        "git_blob_sha": "64e0976a17a9de8373ea1f226029792fd78c1d33",
+        "fixed_publication_commit": "9356aa12459c861adf4ff9036d97ac5baa45c33e"
+      },
+      "parameter_correspondence": [
+        {
+          "parent_step_id": "complete-fixed-fejer-meridian-batched-producer-bound-same-field-phase-mesh-final-20261127",
+          "current_step_id": "complete-fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-20261127",
+          "counts": {
+            "argument_words": 32,
+            "formal_summary_fields": 110,
+            "live_fields": 48,
+            "output_count": 2
+          },
+          "script_unchanged": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+          "only_runner_namespace_step_id_and_current_scope_changed": true,
+          "current_scope_before": "Consume only the actually returned complete fixed Fejer scientific report and its genuine full thirteen-member final checkpoint. Reconstruct all original free words, numerical policies and fixed reference, and use this one point for every complete closed mesh and physical time. A complete existing same-point immutable root snapshot is reused when present; missing final is an input failure and never a reset to initial or progress. The repaired producer-bound meridian-batched driver, reader, launcher and all137 scientific source roles are bound to the entire actual run18 command. The complete selected point, its fixed target and all source and input bytes are retained for every mesh and time; mutable progress is not a mesh input.",
+          "current_scope_after": "Consume only the actually returned complete fixed Fejer scientific report and its genuine full thirteen-member final checkpoint. Reconstruct all original free words, numerical policies and fixed reference, and use this one point for every complete closed mesh and physical time. A complete existing same-point immutable root snapshot is reused when present; missing final is an input failure and never a reset to initial or progress. The repaired producer-bound meridian-batched driver, reader, launcher and all137 scientific source roles are bound to the entire actual bhalf-first command. The complete selected point, its fixed target and all source and input bytes are retained for every mesh and time; mutable progress is not a mesh input.",
+          "all_full_argument_tokens_preserved_except_namespace": true,
+          "all_formal_and_live_selector_values_preserved": true
+        },
+        {
+          "parent_step_id": "actual-fixed-fejer-meridian-batched-producer-bound-same-field-phase-mesh-final-20261127",
+          "current_step_id": "actual-fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-20261127",
+          "counts": {
+            "argument_words": 6,
+            "formal_summary_fields": 58,
+            "live_fields": 0,
+            "output_count": 1
+          },
+          "script_unchanged": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+          "only_runner_namespace_step_id_and_current_scope_changed": true,
+          "current_scope_before": "Pure stdlib full source/report/point/NPY/PLY-byte reader, including the complete fixed Fejer six-input binding and optional exact same-snapshot final closed proof. It calls no field, root, chart or mesh and retains all incomplete status. Actual complete repaired run18 source and input identities are read; the pure reader performs no field, root or mesh calls.",
+          "current_scope_after": "Pure stdlib full source/report/point/NPY/PLY-byte reader, including the complete fixed Fejer six-input binding and optional exact same-snapshot final closed proof. It calls no field, root, chart or mesh and retains all incomplete status. Actual complete bhalf-first source and input identities are read; the pure reader performs no field, root or mesh calls.",
+          "all_full_argument_tokens_preserved_except_namespace": true,
+          "all_formal_and_live_selector_values_preserved": true
+        }
+      ],
+      "actual_run_id": null,
+      "actual_input_identity": null,
+      "actual_model_identity": null,
+      "actual_point_identity": null,
+      "actual_snapshot_identity": null,
+      "actual_final_checkpoint_identity": null,
+      "executed": false
+    },
+    {
+      "kind": "mesh_packet",
+      "complete_ready_file": {
+        "role": "mesh_packet",
+        "name": "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-ready.json",
+        "path": "computations/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-ready.json",
+        "bytes": 91233,
+        "sha256": "eeb88aede82e6d447472c22d884a91a1dec044d4078b15503e25c956e11ba2f4",
+        "git_blob_sha": "bb953c7250373eea6e263e19533282136622d5e3"
+      },
+      "whole_steps": [
+        {
+          "id": "complete-fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+          "parent_bundle": "fixed-fejer-reference/reference.npz",
+          "complete_argv": [
+            "--repo",
+            "{repo}",
+            "--report",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first/report.json",
+            "--command",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-command.json",
+            "--point-source",
+            "packet",
+            "--outdir",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-v1",
+            "--levels",
+            "1:512:16,2:1024:32,4:2048:64",
+            "--times",
+            "0,1/4,1/2,3/4,1",
+            "--time-levels",
+            "4,8,16",
+            "--fixed-chart-iterations",
+            "64",
+            "--fixed-chart-tolerance",
+            "2e-12",
+            "--field-angle-block",
+            "8",
+            "--export-levels",
+            "all",
+            "--preview-radial-nodes",
+            "96",
+            "--preview-angles",
+            "128",
+            "--preview-cap-rings",
+            "32",
+            "--preview-byte-limit",
+            "5000000"
+          ],
+          "outputs": [
+            "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-v1/report.json",
+            "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-v1/scalar-summary.json"
+          ],
+          "argument_words": 32,
+          "formal_summary_fields": 110,
+          "live_fields": 48,
+          "output_count": 2,
+          "formal_and_live_selectors_retained_in_whole_ready": true
+        },
+        {
+          "id": "actual-fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+          "parent_bundle": "fixed-fejer-reference/reference.npz",
+          "complete_argv": [
+            "--repo",
+            "{repo}",
+            "--report",
+            "{work}/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-v1/report.json",
+            "--output",
+            "{work}/postprocess/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-v1-readout.json"
+          ],
+          "outputs": [
+            "postprocess/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-v1-readout.json"
+          ],
+          "argument_words": 6,
+          "formal_summary_fields": 58,
+          "live_fields": 0,
+          "output_count": 1,
+          "formal_and_live_selectors_retained_in_whole_ready": true
+        }
+      ],
+      "complete_immediate_parameter_parent": {
+        "name": "fixed-fejer-meridian-producer-bound-same-field-phase-mesh-packet-ready.json",
+        "path": "computations/fixed-fejer-meridian-producer-bound-same-field-phase-mesh-packet-ready.json",
+        "bytes": 75602,
+        "sha256": "34c65ecad7ee9a2c2923ecbdd05801998b8b06ce27de5f94aba636286f372a50",
+        "git_blob_sha": "f0ce1777ab1410e8c7f19dd7ec4629b9e25b55d1",
+        "fixed_publication_commit": "9356aa12459c861adf4ff9036d97ac5baa45c33e"
+      },
+      "parameter_correspondence": [
+        {
+          "parent_step_id": "complete-fixed-fejer-meridian-batched-producer-bound-same-field-phase-mesh-packet-20261127",
+          "current_step_id": "complete-fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-20261127",
+          "counts": {
+            "argument_words": 32,
+            "formal_summary_fields": 110,
+            "live_fields": 48,
+            "output_count": 2
+          },
+          "script_unchanged": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+          "only_runner_namespace_step_id_and_current_scope_changed": true,
+          "current_scope_before": "Consume only a genuine complete required-angle immutable point snapshot in captured fixed Fejer scientific report bytes, selected explicitly or as the latest actual complete snapshot. Preserve every point word, every recorded angle and all 32 stage records. It can be a trial/cache point; no acceptance or final success is inferred. Missing snapshot is an input failure, never initial/progress substitution. The repaired producer-bound meridian-batched driver, reader, launcher and all137 scientific source roles are bound to the entire actual run18 command. The complete selected point, its fixed target and all source and input bytes are retained for every mesh and time; mutable progress is not a mesh input.",
+          "current_scope_after": "Consume only a genuine complete required-angle immutable point snapshot in captured fixed Fejer scientific report bytes, selected explicitly or as the latest actual complete snapshot. Preserve every point word, every recorded angle and all 32 stage records. It can be a trial/cache point; no acceptance or final success is inferred. Missing snapshot is an input failure, never initial/progress substitution. The repaired producer-bound meridian-batched driver, reader, launcher and all137 scientific source roles are bound to the entire actual bhalf-first command. The complete selected point, its fixed target and all source and input bytes are retained for every mesh and time; mutable progress is not a mesh input.",
+          "all_full_argument_tokens_preserved_except_namespace": true,
+          "all_formal_and_live_selector_values_preserved": true
+        },
+        {
+          "parent_step_id": "actual-fixed-fejer-meridian-batched-producer-bound-same-field-phase-mesh-packet-20261127",
+          "current_step_id": "actual-fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-20261127",
+          "counts": {
+            "argument_words": 6,
+            "formal_summary_fields": 58,
+            "live_fields": 0,
+            "output_count": 1
+          },
+          "script_unchanged": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+          "only_runner_namespace_step_id_and_current_scope_changed": true,
+          "current_scope_before": "Pure stdlib full source/report/point/NPY/PLY-byte reader, including the complete fixed Fejer six-input binding and optional exact same-snapshot final closed proof. It calls no field, root, chart or mesh and retains all incomplete status. Actual complete repaired run18 source and input identities are read; the pure reader performs no field, root or mesh calls.",
+          "current_scope_after": "Pure stdlib full source/report/point/NPY/PLY-byte reader, including the complete fixed Fejer six-input binding and optional exact same-snapshot final closed proof. It calls no field, root, chart or mesh and retains all incomplete status. Actual complete bhalf-first source and input identities are read; the pure reader performs no field, root or mesh calls.",
+          "all_full_argument_tokens_preserved_except_namespace": true,
+          "all_formal_and_live_selector_values_preserved": true
+        }
+      ],
+      "actual_run_id": null,
+      "actual_input_identity": null,
+      "actual_model_identity": null,
+      "actual_point_identity": null,
+      "actual_snapshot_identity": null,
+      "actual_final_checkpoint_identity": null,
+      "executed": false
+    }
+  ],
+  "complete_R716_scope": {
+    "all_twelve_channels": [
+      "V",
+      "mx",
+      "my",
+      "mz",
+      "Qxx",
+      "Qxy",
+      "Qxz",
+      "Qyy",
+      "Qyz",
+      "Qzz",
+      "A2_real",
+      "A2_imag"
+    ],
+    "original_radial_cells": 922,
+    "normal_stages": 32,
+    "normal_step_nodes": 33,
+    "complete_upstream_closed_phi_cells": 1024,
+    "actual_support_profile_control_splits_and_scalar_tail_retained": true,
+    "original_seconds": 600,
+    "maximum_angle_blocks": 0,
+    "general_three_phase_centroid_tensor_and_p4_retained": true,
+    "half_turn_requires_actual_complete_signed_root_inclusion": true,
+    "final_complete_closed_main_and_exact_recorded_sidecar_required_for_body_interpretation": true,
+    "partial_cover_or_proof_retains_null_full_domain_results": true,
+    "R722_or_R718_not_treated_as_R716_noncongruence_or_volume_evidence": true
+  },
+  "complete_mesh_scope": {
+    "levels": [
+      {
+        "radial_subdivisions_per_original_cell": 1,
+        "full_angles": 512,
+        "cap_rings": 16
+      },
+      {
+        "radial_subdivisions_per_original_cell": 2,
+        "full_angles": 1024,
+        "cap_rings": 32
+      },
+      {
+        "radial_subdivisions_per_original_cell": 4,
+        "full_angles": 2048,
+        "cap_rings": 64
+      }
+    ],
+    "exact_physical_times": [
+      "0",
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "complete_time_partition_counts": [
+      4,
+      8,
+      16
+    ],
+    "physical_phase": "R_(pi*t/2) U(s,Theta0^-1(Theta0(phi)-pi*t/2))",
+    "original_fixed_height_word_used_for_every_time": true,
+    "caps": "fixed Cartesian full p4 caps; shared exact-source boundary formula, every working projection discrepancy recorded",
+    "fixed_chart_iterations": 64,
+    "fixed_chart_working_tolerance": 2e-12,
+    "field_angle_block": 8,
+    "export_all_levels": true,
+    "scientific_mesh_coordinate_bits": 64,
+    "standalone_preview": {
+      "requested_radial_nodes": 96,
+      "full_angles": 128,
+      "cap_rings": 32,
+      "coordinate_bits": 32,
+      "strict_maximum_bytes": 5000000,
+      "rendering_only": true
+    },
+    "frequency_input": {
+      "original_M": 160,
+      "requested_M": 320,
+      "fixed_reference_M": 160,
+      "source_word_slice_routes": [
+        [
+          0,
+          161,
+          0
+        ],
+        [
+          161,
+          322,
+          321
+        ],
+        [
+          322,
+          482,
+          642
+        ]
+      ],
+      "new_frequency_solver_run_claimed": false
+    },
+    "numerical_operations_performed_by_pure_reader": 0
+  },
+  "complete_mesh_output_boundary": {
+    "all_sixjet_arrays_root_packets_full_meshes_and_previews_remain_on_runner": true,
+    "no_raw_mesh_or_array_in_git_or_release_or_artifact": true,
+    "public_outputs_only_actual_scalar_readouts_and_whole_file_identities": true,
+    "future_actual_output_sha256_not_prefilled": true,
+    "no_continuous_proof_prerequisite_added": true,
+    "strict_five_megabyte_limit_is_per_complete_rendering_preview": true,
+    "full_scientific_meshes_not_truncated_to_preview_limit": true
+  },
+  "strict_input_modes": {
+    "final": "genuine complete actual scientific report and all13 final checkpoint members",
+    "packet": "actual complete required-angle immutable snapshot captured from scientific report bytes; trial need not be accepted",
+    "mutable_progress_or_old_run_or_initial_reset_substitution_allowed": false,
+    "optional_closed_report_required_for_mesh_generation": false,
+    "same_one_complete_point_for_every_mesh_and_time": true
+  },
+  "historical_metadata_policy": {
+    "parent_complete_files_and_all_original_metadata_retained": true,
+    "original_run18_actual_inputs_and_mutable_failures_explicitly_historical": true,
+    "new_actual_reference_input_model_point_fee_ids_null": true,
+    "no_old_field_root_certificate_or_acceptance_inherited": true,
+    "previous_source_names_are_preserved_as_true_runtime_identities": true
+  },
+  "source_parameter_reconstruction": {
+    "source": {
+      "role": "parameter_reproducer",
+      "name": "reproduce_fixed_fejer_bhalf_moment_mesh_parameters.mjs",
+      "path": "scripts/resume_20261126/reproduce_fixed_fejer_bhalf_moment_mesh_parameters.mjs",
+      "bytes": 19886,
+      "sha256": "8c4322be3317c7cc668d57944cb5558d6ce6641c60b85b62955fc6fd49f33530",
+      "git_blob_sha": "6ccaf5ac90fd95c92367f9d9fdf44debed734ab2"
+    },
+    "complete_cli": [
+      "node",
+      "{repo}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_bhalf_moment_mesh_parameters.mjs",
+      "--repo",
+      "{repo}",
+      "--output-directory",
+      "{work}/fixed-fejer-bhalf-moment-mesh-parameter-reproduction"
+    ],
+    "complete_parent_files_read_as_text": true,
+    "exact_complete_file_hashes_and_generated_metadata_checked": true,
+    "scientific_Python_modules_imported": false,
+    "scientific_execution": false,
+    "AST_or_compile": false,
+    "benchmark_or_fixture": false,
+    "added_admission_step": false,
+    "refs_or_queues_or_jobs_written": false,
+    "parent_metadata_required_for_optional_source_construction_is_not_an_added_scientific_input": true
+  },
+  "no_claims": {
+    "actual_new_mean_root_or_field": false,
+    "actual_fee_or_closed_body": false,
+    "actual_moments_or_delta_E": false,
+    "actual_mesh_or_refinement_difference": false,
+    "actual_acceptance_or_natural_scientific_return": false,
+    "local_science_or_performance_measurement": false
+  },
+  "serialization": "complete UTF-8 JSON with two-space indentation and trailing newline; entire original plans retained, no body or selector elision"
+}

@@ -244,3 +244,8 @@
 ### 2026-11-27 22:47 UTC — 19 完整 normal/geometry/closed 后参数落地
 
 刊[完整总表](computations/fixed-fejer-bhalf-R722-complete-post-parameter-delivery.json)44101B/fc0c9d2e及三whole ready49322/48299/74772、小完整再生器65412、说明9995；choice11002先已刊，六新文件净291901B，原字choice不重复计容量。运行体c6f6/7892/6c57/c6b0/002eb全不变，每个38/8/8 argv、36/48/66 selectors和全900s/原预算保，只有argv3/5当前报告/outdir名字变化。6jets/32stage/全圆/全域mixed/上下标记帽/R650/allphase及主副件条件全保；本次没有执行科学或新增门。完整准备期null原保且总表独立接root实际完整science/pure/display身份，不能把未执行费用冒真证书。科学19仍独立运行，后参不插入科学前。
+
+
+### 2026-11-27 22:48 UTC — 19 完整 R716 与 mesh 参数落地
+
+刊[完整六件总表](computations/fixed-fejer-bhalf-complete-moment-mesh-parameter-delivery.json)55276B/cf5b407d；R71680089、mesh final91284、packet91233、完整再生器19886及说明17483共355251B。原45ca/d0fe/2ef3/b399/8197运行体字节全保，R71610/8argv34/60selectors600s且maxangleblocks0，mesh32/6argv110/58formal48live，所有15完整网格、5完整预览、三级空间/五t/时间4/8/16、final全13checkpoint或immutable packet条件原保。144角色137+7与全部旧五peer/未知history不省；当前完整科学投影精确接root157argv，仅bhalf科学输入/输出namespace有既定变化。纯准备没有获得任何实际closed/矩/mesh证书，全部raw只runner，最终模式与可能trial packet不互冒。
