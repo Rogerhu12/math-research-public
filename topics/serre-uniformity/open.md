@@ -8,7 +8,7 @@
 
 [R1063](results/R1063-original-Hecke-and-Hodge-graph-annihilator-family.md)：整Q/Hecke族全消原完整MW；本原U、满射U†给不除核范数的整族/真辛商。§10原r2 bare失败给adjugate及唯一Q前像。§12完整Cartier共振修正把最低值化为同一CM参数的相邻d,ell两列行列式；非零、Lagrangian及jet不落轨道仍开。§11排固定X108四维块的Hecke线性桥。 §13给f_N=h_d/(12A1)、11h_d−16h_(d−1)=−4A1²；f_N零则h_(d−1)单位，须继续原第二列比较。
 
-[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：规范Jhat与原Q的Cartier身份、Tλ/A两pth修正已付。§§8–12以P=qJhat迁完整D/Q/Q²最低到全部P根；q根、b0、∞无残数，P非齐次Gauss forcing不删。P根至多四重（四重仅可能r1/9）、实际L_D极阶≤9。完整Q²单系数为(-3)^d[r^(d−1)]W*/P²/(dA1)，每根最多七阶导数；非零仍开。
+[R1058](results/R1058-original-Cartier-resonance-and-complete-lowest-residue-source.md)：完整D/Q/Q²最低值迁到原P=qJhat全部根，准确为(-3)^d[r^(d−1)]W*/P²/(dA1)；P非齐次forcing不删，每根最多七阶jet。完整源/全部极点见原文，目标非零仍开。
 
 [R1056](results/R1056-original-kernel-lowest-CM-single-coefficient.md) 给全 $p=6N+5$ 原核的 $s=2,8$ 两列单系数；[R1055](results/R1055-original-complete-first-log-canonical-rational-primitive.md) 给完整 $v$ 的规范原函数。原尺度、所有极部与 $p$ 次幂歧义已付；不跨共振、不扩 bare 身份，单位仍开。
 
@@ -30,6 +30,8 @@ R1037/40原两行PD、source Fp²/Hermitian、Π²=−p、B整完美与Q=ε⁻²
 R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细角色、相位、尺度与C_*见各结果和逐字归档。p5仍先减Teich、只在好B上施e₁；实际paired块重数一，不是辅助Res的C²。未付的H_A/H_Z新支撑、指定CM横截值与完整高度继续保留。
 
 ## O0：全主目标覆盖（R1003恢复原范围）
+
+[R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：原forced角色标签准确为m/κχ·[∏ψ_c(P_z)^(−n_[Nz])]，κχ=c²−χ(c²)单位。Kato–Siegel平滑、原指数提升、二次范数、实下降及全部cusp leading已付，保same y/Weil pairing/ζ embedding，适用于2、3。R1069 good∩forced无regular条件仍有Ω(p/logp)角色；其它字符κ可能恒零，不扩范围。真实辅助共同像排除仍开。
 
 [R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全部p>37上，原Bernoulli单位角色χ=ω^r无regular/Vandiver假设地给p-only global→local同构。Herbrand及准确ωχ⁻¹ Kummer方向杀对应real类群；奇字符正交/相对类数给good forced维数≥⌊p/4⌋−1−⌊log_p(2p((p−1)(p−2)/(24p))^((p−1)/4))⌋，故Ω(p/logp)。该真实子覆盖每原p-disk仅一global候选，总数≤p·n_Qp(p)；其余坏角色类群及同标签辅助排除仍开。
 

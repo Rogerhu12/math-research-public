@@ -543,3 +543,7 @@ R1066 给全 $p>37$ 原最小正则模型每个 $\mathbf Q_p$ 模 $p$ 圆盘的�
 ### 2026-11-27 08:03 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1061§17原Miller核沿FP真实下降，完整曲面graph/vertical给互易乘积常数；原二挠点精确定为−1，root独立纸核。
 - 继续实际Cartier伴随与指定系数，不以核互易直接冒算子平方或端值单位；无数学执行。
+
+### 2026-11-27 08:11 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1070原forced标签的ψ_c实际乘积公式已由root/o2纸核，Scholl/Kato原文实读；保原指数、根单位norm、F下降与全部cusp leading。
+- 原2/3点可据此实际评价，good∩forced无regular假设；继续同标签辅助共同约束，不以接口代排除，无数学执行。

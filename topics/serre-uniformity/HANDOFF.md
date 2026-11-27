@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：0740a308ed2cad5bd134f51f1327c2a07b88ee52**（2026-11-27 08:03 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：888d23a7ef20cf333436d8ed7654f3c6b6871312**（2026-11-27 08:11 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；07:50再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -22,13 +22,15 @@ R1055/56原核两列与完整v规范原函数已付，全部尺度/p次幂修正
 
 R1052原完整source/target与CM参数/系数尺度均已付，最低C=2B(c,L_CM)；原全Q²单位/深盘仍开。
 
-[R1045](results/R1045-original-MW-annihilator-nonzero-reduction.md)/[R1046](results/R1046-original-p5-complete-CM-flag-and-MW-nonzero-reduction.md) 已付两行 $p>C_*$ 的全 MW 后 $M=1$；[R1047](results/R1047-original-MW-saturated-profile-and-common-zero-bound.md) 给饱和系数映射与公共零重数界。最低单位/非中心仍开，全部原盘/相位/整尾保原文。
+R1045/46已付两行p>C_*的完整MW后M1，R1047给饱和系数/公共零界；最低单位/非中心仍开，整尾与原相位保各原证明。
 
 R1035–40 的两行实际 PD、整 $B,Q$ 与全 MW 消去已付；$p5$ 仍先减 Teich，只在好部分施 $e_1$。R1026 支付 $C_*$ 后原负角色首 log 非零。R1010/11 给原非 CM 非挠块与实际半秩商；AST 不付整单位/统一半径，不搬变化 $X_d$。
 
 R1018–30原Fm/节点log/非约化运输已成，尺度保原文；H_A/H_Z新支撑仍开。
 
 ## O0：不能省略的全局覆盖
+
+[R1070](results/R1070-original-cuspidal-labels-by-division-polynomial-values.md)：forced原标签由实际ψ_c在p挠点的乘积准确给出，全部相位/实下降/cusp常数已付。含2、3及全p good∩forced；继续同标签排除。
 
 [R1069](results/R1069-all-prime-good-cuspidal-characters-and-unique-global-labels.md)：全p原Bernoulli单位角色有唯一global提升，无regular/Vandiver假设；类数/正交给实际good子模块维数Ω(p/logp)，每盘一候选。坏角色类群及辅助排除仍开。
 
