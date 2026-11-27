@@ -122,3 +122,5 @@
 - [R1140：原双角色的低权 Manin 来源归约](results/R1140-original-low-weight-Manin-source-reduction.md)：已证明j1,k2的rank1零及rank2的16δ²/21端点归约、原Hecke λ=ℓ⁻²+ℓ³；无条件β_E+β₈分解与明确混合门内裸cup的单一端点读数，未宣该值零。
 
 - R1137 §2（同文件）：已证明原moving p极给实际Gauss–Padé及精确单位首余项，原e/K4双零等价指定二次缺陷；排除该缺陷仍开。
+
+- R1135 §10（同文件）：已证明同原Gaussian coarse component两实际下降线的完整source/Weil/Kronecker/常数运输，Π′(z′)=Π(−z′)；既有低行纤维界现覆盖统一z∈Fp，Δ非零和剩余pair仍待付。

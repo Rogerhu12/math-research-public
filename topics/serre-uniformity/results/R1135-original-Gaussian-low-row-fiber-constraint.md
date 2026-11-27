@@ -12,7 +12,8 @@ degree-one 行组合，其斜率的单位性仍开放。
 
 这里的 $p\mid B_n$ 指 $p$ 整有理数 $B_n$ 为非单位。
 没有将 Bernoulli 非单位等同于 Gaussian Hurwitz 系数非单位。
-不声称两个 twist frame 合并后至多一个点对，也不声称原圆盘内点已排除。
+§10 进一步支付两种实际 twist 的公共规范，将纤维约束提升至同一原
+Gaussian coarse component 的全部下降支路；仍不声称原圆盘内点已排除。
 
 ## 1. 实际输入与完整低行
 
@@ -503,3 +504,188 @@ $\mathcal H_p(E_e)=-2e\,g_e$ 为单位，真实 CM 框架中的该列仍为零�
 后续仍须处理同一实际 good mask 下的原行列式或剩余点对，
 不把 (1135.27) 的旁读数替代它。
 本节为纯纸面推导，没有数学程序执行。
+
+
+## 10. 两种实际 Gaussian 下降线的完整归一化运输
+
+本节补齐 §2 保留的跨 frame 比较。结论只涉及同一个原
+Gaussian coarse component；不把不同 supersingular components
+或其它 level 标记合并。
+
+### 10.1 构造原另一 twist，而非假设给定 $\mathbf F_p$ 同构
+
+R1066 §4.3、R1071 §8 已把两条实际下降线固定为同一几何 fine 坐标中的
+$t_*^p=t_*$ 与 $t_*^p=-t_*$。这里
+$t_*=u_*/p$，$u_*=[T^p][p](T)$ 是 R1071 §17 的原 source 参数。
+取 $i^2=-1$，再取 $\alpha\in\mathbf F_{p^2}^{\times}$ 满足
+$$
+\alpha^p=i\alpha,\qquad
+\eta=\alpha^{p+1}\in\mathbf F_p^\times,\qquad
+\eta^2=-\alpha^4.
+\tag{1135.29}
+$$
+存在性由 norm-one 元 $i$ 的 Hilbert 90 给出。
+$\alpha^4\in\mathbf F_p^\times$ 且
+$(\alpha^4)^{(p-1)/2}=-1$，所以 $a'=\alpha^4a$
+是原 Gaussian reference 的另一实际 quartic twist。
+
+取 $\alpha,i$ 的不分歧 Teichmüller 提升，令
+$$
+\varphi:E_a\longrightarrow E_{a'},\qquad
+(x,y)\longmapsto(\alpha^2x,\alpha^3y).
+\tag{1135.30}
+$$
+这是实际不分歧二次扩张上的同构。
+其 Frobenius cocycle 在坐标上准确为
+$(x',y')\mapsto(-x',-iy')$，微分乘 $-i$；
+在 fine deformation tangent 上作用为 $-1$，
+所以它正实现上述第二条下降线。
+$\varphi$ 与原 $\mathbf Z_p[i]$ 作用相容，故运输同一个 canonical
+non-split Cartan；它也保留 Weil pairing。
+
+先取实际全标记 $P'_v=\varphi(P_v)$。
+两边使用同一个 $\varpi,\rho$ 及同一个实际 Weil root。
+原微分满足 $\varphi^*\omega'=\alpha^{-1}\omega$，
+于是运输原 universal formal-group eigenparameter 得
+$T'=\alpha^{-1}T$。
+在 R1071 使用的有限精度内，这正是同一 tangent 归一的实际坐标：
+CM 中心处两者与相应 logarithm 的差在 $T^{p^2}$；
+在 $p$-close deformation 上可能的 $p$ 倍整级数误差
+由 R1071 §§6、17 的原误差估计消去，不改变以下 source 或 profile。
+
+对 $[p]$ 级数作这个真实坐标改变，得到
+$$
+u_*'=\alpha^{p-1}u_*,\qquad
+t_*'=it_*,\qquad z'=(t_*')^2=-z,\quad z=t_*^2 .
+\tag{1135.31}
+$$
+这里 source 等式在所需模 $p^2$ 精度成立，
+$t_*$ 等式在模 $p$ 成立。
+特别 $t_*^p=-t_*$ 时 $(it_*)^p=it_*$，
+故第二条几何线正被运输成新 reference 的实际 $\mathbf F_p$ fine line。
+没有把复代数同构冒作一个原本未给定的 $\mathbf F_p$ marked 同构。
+
+### 10.2 微分、torsion source 和 Kummer 分母一起运输
+
+以下 $\gamma=\delta\lambda_{\rm src}\beta_0^{1-p}$
+仍指 (1135.2) 的 Kronecker gauge 尺度。
+为区别原 R1071 的 Weil 相位，另记
+$\gamma_W=(\zeta_p-1)/\varpi^{p+1}$。
+同标记运输保留 $\zeta_p$，所以
+$\gamma_W'=\gamma_W$、$b_{\omega^R}'=b_{\omega^R}$；
+不能把下面 $\gamma$ 的权变化套到 $\gamma_W$。
+从同一 full-level 展开
+$$
+T(P_v)=\varpi\beta_0(v+\lambda_{\rm src}\rho t_*v^p)+O(p\varpi)
+$$
+直接读出
+$$
+\beta_0'=\alpha^{-1}\beta_0,\qquad
+\lambda_{\rm src}'=\alpha^{1-p}\lambda_{\rm src}.
+$$
+另一方面，relative Cartier 与 (1135.30) 相容。
+因 $\varphi^*(x'\omega')=\alpha x\omega$ 而
+$\varphi^{(p)*}\omega'^{(p)}=\alpha^{-p}\omega^{(p)}$，
+其实际系数给 $\delta'=\alpha^{p+1}\delta=\eta\delta$。
+因此完整尺度为
+$$
+\boxed{\quad
+\gamma'=\eta\gamma,\qquad
+N_R'=\eta^{-1}N_R .
+\quad}
+\tag{1135.32}
+$$
+第二式使用
+$(\beta_0'^{\,p+1})^R\delta'^{\,R-1}
+=\eta^{-1}(\beta_0^{p+1})^R\delta^{R-1}$；
+两边实际 Weil root 相同，所以 $b_{\omega^R}$ 相同。
+
+若已有标记另差一个 Cartan 乘法 $b\in\mathbf F_{p^2}^\times$，
+则原 R1071 §14 的准确运输是
+$$
+\beta_0'=\alpha^{-1}b\beta_0,\quad
+\lambda_{\rm src}'=\alpha^{1-p}b^{p-1}\lambda_{\rm src},\quad
+b_{\omega^R}'=N(b)^R b_{\omega^R}.
+$$
+$\gamma'$ 中两个 $b$ 因子相消，而 $N_R'$ 中的
+$N(b)^R$ 与真实 Weil 相位分母相消，所以 (1135.32) 不变。
+这同时支付实际标记和固定 global Kummer basis，
+没有逐点任意重标标签。
+
+### 10.3 完整 centered 核和常数项的比较
+
+同一 homothety 的 characteristic-zero sigma 规范给
+$$
+\mathscr K_{a'}(T,U)=\alpha\,\mathscr K_a(\alpha T,\alpha U).
+$$
+在总次数 $p$ 的 centered 层上，因 $\alpha^{p+1}=\eta$，
+$$
+\boxed{\quad
+\mathcal A_R^{a'}(Z')=\eta\,
+        \mathcal A_R^a(Z'/\alpha^4).
+\quad}
+\tag{1135.33}
+$$
+这里完整 (1135.1) 中的所有 $h$ 以及 principal 都一起运输，
+没有只比较一个首项。其依据也可逐项看成
+$(w')^{2h}\alpha^{4(k+1-h)}
+=\alpha^{p+1}(w'/\alpha^2)^{2h}$。
+
+结合 $\gamma'^2=\eta^2\gamma^2=-\alpha^4\gamma^2$
+与 (1135.32)，得到实际标签的准确等式
+$$
+\boxed{\quad
+\Pi_R'(z')=\Pi_R(-z')
+\qquad(R\in\mathcal G_p).
+\quad}
+\tag{1135.34}
+$$
+原 $p$-整数 division product 也验证常数层没有遗漏：
+$\psi_c^{E_{a'}}(\varphi P)=\alpha^{c^2-1}\psi_c^{E_a}(P)$，
+而原 exponent 的总和为零。因此同标记的 $M_\chi$ 严格相等。
+若随后改 Cartan 标记，上一小节的实际 Weil 相位比较同样处理
+其固定 global basis。故 (1135.34) 不只是一个未知常数差意义下的断言。
+
+也可直接在 R1071 (1071.20) 的完整原 profile 上交叉核对。
+由同一 $\psi_c$ 的上述 homothety，
+其 regular factor 满足 $F_c'(T')=F_c(\alpha T')$，因而
+$A_d'=\alpha^dA_d$。再用
+$\beta_0'=\alpha^{-1}\beta_0$、$\lambda_{\rm src}'t_*'
+=\lambda_{\rm src}t_*$ 以及固定的 $b_{\omega^R}$，
+每个真实系数
+$\beta_0^d(\lambda_{\rm src}t_*)^iA_d$ 均逐项不变。
+这也包括 $i=0$ 的原常数项，并不要求把未知高核 band 约化。
+
+这些比较均在实际不分歧二次扩张完成。
+对原定义域上的 Kummer 类，restriction 后的等式亦可由
+restriction–corestriction 的次数 $2$ 下传，因为 $p$ 为奇数。
+无需引入新的点、改换原 cusp leading 归一或假设 full-level
+标记在 $\mathbf Q_p$ 上有理。
+
+### 10.4 对原共同纤维范围的精确提升
+
+第一条 fine line 的 $z=t_*^2$ 给 $\mathbf F_p$ 的平方值，
+第二条给非平方值；$z=0$ 是共同 CM 中心。
+(1135.34) 把两者准确放进同一个原多项式
+$\Pi_R(z)=N_R\mathcal A_R(\gamma^2z)$，
+定义在同一 coarse component 的全部 $z\in\mathbf F_p$ 上。
+
+因此 §2 在 $p\mid B_{p-7},B_{p-11}$ 下的 (1135.6)
+现在可同时用于两种实际下降线：
+该同一原 Gaussian coarse component 内的非对角共同纤维
+仍至多一个无序点对。两个根必须属于
+$\gamma^2\mathbf F_p$，并通过全部其余实际 good 行。
+**$S=0$ 和 $P=0$ 仍须保留**；
+不能因为某一条 fine line 的平方像不含某根，
+就把另一条 line 贡献的真实点删去。
+
+同样，在 §3 的实际分支中，
+$\Delta_{\rm low}\ne0$ 的 degree-one 组合会分离该 component
+全部 coarse 点，而不再只限单条 fine line。
+本节没有证明 $\Delta_{\rm low}$ 非零，
+没有合并不同 coarse components，也没有据此排除圆盘内全局有理点。
+
+
+o1 已按 R1071 §§2、6、8、12、14 与 R1116 §8 独核本节完整
+actual twist/source 运输；Weil 相位与 Kronecker gauge 分别标明。
+本节无数学程序执行。

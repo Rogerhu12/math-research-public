@@ -115,6 +115,8 @@ R964逆character控制h_(i+2)而非fi；R966原K0源及Π4∇²只消费，源�
 
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
+R1135§10已付同coarse component两实际twist的全部运输：α^p=iα，t*′=it*，z′=−z；δ′=ηδ，Kronecker γ′=ηγ、N_R′=η⁻¹N_R，而Weil γ_W/bχ保持。完整核及i0常数给Π′(z′)=Π(−z′)，两线统一为z∈Fp。低行唯一unordered pair/Δ分离范围因此覆盖两线；保S0/P0，不合并其他components，不宣Δunit。
+
 [R1095](results/R1095-original-theta-kernel-dual-Psi-normalization.md)：原完整J#可逆，B_J(Ψ,g)=ℓ_p(g)、B_J(Ψ,Ψ)=1；真三平移Gram=(1−δ/γ)²(1+2δ/γ)，最高偶边界c=δ。§8给原Fay全核及e/K4两配对；§9完整FSF保三极、正规常数与移位Miller项，且F(SΨ)=(V+v)(2vΨ−δU)/U²。指定非正交仍开。两个因子与原短η/ν仍开，未替换bare范数。
 
 
