@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **d90cf9b3722c58a70047e8e6a2acb8d7e85bf91b**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **18281c4037f06ea0b464a2d212ab5a39ae685908**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **3673eb091d9fa2f558e9bdfdfc443e478832367c**，2026-11-27 02:19:28 UTC空diff；下次不晚于03:15 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git/四索引，每结论即推；科学仅公开Actions，本地仅纸证/源码/原日志解析。根12不重旧门；根15不存raw/可重算表，必要再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -39,7 +39,7 @@
 
 [已审持续分拆范围](notes/2026-11-27-r618-actual397-persistent-split-scope.md)与[完整链纸证](notes/2026-11-27-r618-persistent-split-mean-chain.md)：实际jets先入Decimal，参考c与小ε始终分开，reference/whole-box/trial/连接K,Q,D,R/sr及真实位置同式消费；绝对坐标观察各1e−13，合计2e−13尚非认证。全1473列/1472自由/121600行、原950/1728半径、全口/真尾/core不改；51来源绑定，新policy先入身份，旧源冻结。原Jac仍binary64近似，所有partial/再生计费，不重旧门。新push run45923793283/job140260374411/source4e00e0fb，01:39:24 UTC启动。
 
-[同固定E角误差接口](notes/2026-11-27-r618-same-fixed-E-angular-transport.md)已证完整同根、离解微分、两primitive/alias与奇频尾传递。合同E∈[.99,1.01]仅真帽至口；源/ODE/舍入/全角全径向误差仍未付。两个标量根不授D=0、增长一致逆、非圆τ1解或宏观fixed-g族。
+[同固定E角误差接口](notes/2026-11-27-r618-same-fixed-E-angular-transport.md)保同根/全primitive/alias，七类源误差未付。 [宏观核心接口](notes/2026-11-27-r618-current-fixed-E-to-r579-macro-core.md)核当前τ只消缺口、P0首j2锁−3/85000；真正放大须新c2/硬总trace并保E*。R579周长R=.85、方向canonical准确匹配，条件ball1.05/strip.37/reach.063不能移给当前连接；需根中心同支盒继续和完整几何。正跑源冻结，先消费真终态。
 
 ## 6. 原十九态：实际高度约束2接受，修原二次预测过冲
 
