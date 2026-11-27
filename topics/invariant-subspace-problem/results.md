@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（R150，W0/H0原全部最高次方向排除）**：[原同z二次式与全参数单位](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-original-highest-degree-exclusion.md)：H0有理参数整曲线保全部复嵌入；完整原Gram尺度返回及4阶QQ(i,w)结式准确为已付单位，含X=Y/X0所有方向。源d39dc87c实际7.287秒、23分母返回；仅排射影最高次零点，H0有限点仍开，未支付H单位。
+
 - **已证明（R150，一般等权y=1整支排除）**：[同一原四次/三次QQ覆盖](results/R150-appendix-unit211-equal-weights-singleton-mean-y1-exclusion.md)：EBo迫x=m、E1唯一t；完整Res_Q次数26/37/41、实际组合给m⁴(m−1)^7(m−1/2)^3；末半权原两式Bézout迫Q1。纯V8原函数体0fdc1f60/c9cc105d实际29.274/39.034秒，不依赖Q=1−u或Delta/W，只续等权y≠1。
 
 - **已证明（R150，一般Q=1−u/y=1整支排除）**：[完整原QQ覆盖与末纤维](results/R150-appendix-unit211-Q1minusU-singleton-mean-y1-exclusion.md)：H≠0原69/102次覆盖及四个整域、H0原18/41次覆盖全部返回，唯一u1/3由N_H=−4/27及P_S=8/27矛盾；不依赖Delta/W。原子成功记录与自含重建源分开，整合源未执行不冒成功。

@@ -45,7 +45,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **原U值图L0 整支已闭：** [完整3352次覆盖、九因子1535次QQ整除及1817余项原Gauss排除](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)已合全部退化面。九因子QQ整除、完整S8/S5模Bézout及所有准确源/成功回执见正文；两整合signal9仍记失败，不作为排空门槛。旧投影/门/PRS全部冻结，不再重做L0，继续一般LS及其它open接口。
 
-**S0/Lt0整支已闭，一般LS继续：** 完整615次QQ覆盖已合全部退化面，不重跑旧门。一般LS的原P1双零整支、Delta0/W对ell首项零整支及W0整k=−1权线均已闭；原完整来源和全部运行见结果索引/快照。只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1，不付W本身。全域四值式等价首一二次/三一次；六参数式仅准确投影四值等式，四Gram子式仅必要。W0补图两mean商自由秩4，原余式返四列，五常数cofactor给必要x六次式，保未付H=4ek−k²−4k−8及全部首项零。继续原同点覆盖/值返回，W0/Delta0/一般图及算子桥仍开。
+**S0/Lt0整支已闭，一般LS继续：** 完整615次QQ覆盖已合全部退化面，不重跑旧门。一般LS的原P1双零整支、Delta0/W对ell首项零整支及W0整k=−1权线均已闭；原完整来源和全部运行见结果索引/快照。只分别付(Pf,Pt)非同时零、Delta0的Phi、W0的u(Q+2)−2及k+1，不付W本身。全域四值式等价首一二次/三一次；六参数式仅准确投影四值等式，四Gram子式仅必要。W0补图两mean商自由秩4，原余式返四列，五常数cofactor给必要x六次式，保未付H=4ek−k²−4k−8及全部首项零。[H=0权曲线的完整最高次系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-H-zero-original-highest-degree-exclusion.md)已由原二次式4阶QQ(i,w)结式/Bézout=1排空；只支付该曲线的无穷远覆盖，H0有限点仍开、H不可剥。继续原同点覆盖/值返回，W0/Delta0/一般图及算子桥仍开。
 
 **两个一般均值子支已全闭：** [Q=1−u边界的y=1](results/R150-appendix-unit211-Q1minusU-singleton-mean-y1-exclusion.md)由69/102及18/41次原QQ覆盖/全部小域返回结束；[一般b=c且y=1](results/R150-appendix-unit211-equal-weights-singleton-mean-y1-exclusion.md)由完整26/37/41次结式、14次QQ权覆盖和末半权原Bézout排尽。二者不互借Delta/W或额外单位，各只付自己的y−1。继续Q=1−u,y≠1以及一般等权y≠1，不能合称全LS已闭。
 

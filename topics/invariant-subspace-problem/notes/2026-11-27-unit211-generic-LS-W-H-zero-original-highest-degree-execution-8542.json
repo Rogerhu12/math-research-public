@@ -1,0 +1,79 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "sourceBytes": 16918,
+  "sourceSha256": "d39dc87cbfee0ea7f56e6bc0c44c0e49978128edb6a68d698bfdd5114e008d14",
+  "arithmetic": "Pure ECMAScript BigInt, exact QQ(i,w)",
+  "execution": "functions.exec V8 evaluated the exact standalone source expression; returned normally with every assertion passed",
+  "wallSeconds": 7.287,
+  "osExitCode": null,
+  "osExitCodeNote": "Not applicable: no operating-system process was created",
+  "maxRSSKiB": null,
+  "maxRSSNote": "Not exposed by this V8 execution API",
+  "configuredAlarmSeconds": null,
+  "configuredAddressSpaceLimit": null,
+  "certificateCanonicalJsonBytes": 9356,
+  "certificateCanonicalJsonSha256": "00e82fb80111239790f5e70c1fc6f0ae09b33bbdbbfc6b992efefc0c6f2290b3",
+  "resultCanonicalJsonSha256": "24e04f60e4b970a66603a3c6adfd468ce33bdf33423fe8d8e4ff1f0171d9e176",
+  "result": {
+    "stage": "new_H_curve_original_highest_degree_cover",
+    "arithmetic": "exact QQ(i,w), BigInt only",
+    "wallSeconds": 7.287,
+    "originalMeanLeadingIdentitiesMultipliedBack": true,
+    "completeOriginalGramScaleCoefficientCheck": true,
+    "fullOriginalN1ScaleCoefficientCheck": true,
+    "weightedOriginalNandPCubicScaleCoefficientChecks": true,
+    "actualFourByFourSylvesterCofactorBackProducts": true,
+    "actualOriginalTwoProjectionUnitBezout": true,
+    "N1OriginalDegree": 2,
+    "weightedOriginalNPCubicDegrees": [
+      3,
+      3
+    ],
+    "fullQuadraticResultantDegree": 30,
+    "denominatorDegree": 18,
+    "paidRemoved": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "remainingDegree": 0,
+    "remainingCoefficients": [
+      [
+        "1",
+        "0",
+        "2048"
+      ]
+    ],
+    "denominatorChecks": 23,
+    "entireHHighestProjectiveMeanN1SystemExcluded": true,
+    "allEqualXYAndXZeroDirectionsIncluded": true,
+    "claimWholeHExcluded": false
+  },
+  "fullResultantNumerator": "(w+2)^2*(w^2+4w+8)^10*(w^2+8w+8)^4/2048",
+  "fullResultantDenominatorFactorList": [
+    [
+      0,
+      10
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "unitCoefficientZDegrees": [
+    1,
+    1
+  ],
+  "claimScope": "Only the entire projective highest-degree mean/N1 system on W=0,H=0 is empty; finite H=0 solutions remain unexcluded.",
+  "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-H-zero-original-highest-degree-return-8542.js"
+}

@@ -40,3 +40,8 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - 完整排除一般b=c,y=1：原Gram四次/三次必要式，全QQ结式26/37/41与实际组合给14次权覆盖，唯一半权由显式原Bézout迫Q1矛盾。
 - 提交两个实际V8函数体、源SHA和小回执；29.274/39.034秒，未伪造进程/RSS。H/open压缩保快照；私库03:20接口读c5523b6e、规则/QUEUE正确，真实pull仍受环境不可用阻断。
 - 接口更新先后遇GitHub GraphQL错误/远端竞争；每次立即实读head并比对差异，均仅其他课题提交、两README无变，重基至最新head后非force循环推送。
+
+
+2026-11-27 11:31 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 登记W0/H0整权曲线的原mean/N1最高次射影排除：同z完整二次结式/Bézout=1，两个相等均值方向与X0全部覆盖；完整Gram尺度回乘实际7.287秒。
+- 源/回执分开保存，未暴露OS/RSS如实空置。H0有限原解仍开，不能剥H；两README无变化，连接器非force同步后继续原有限返回。
