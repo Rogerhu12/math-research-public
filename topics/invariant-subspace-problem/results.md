@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全W共同F恢复后的十二完整原三列行](results/R150-appendix-unit211-W-global-F-recovery-twelve-original-three-column-rows.md)：保qF(Fp)、个别NP与完整NV全原迹；两新参数必要式lambda9/13，所有头零仍开，继续更低原S一次组合。
+
 - [六位一特殊权完整S2与尖锐平方迹预算](results/R271-appendix-six-site-one-special-weight-full-s2-and-sharp-trace-square-budget.md)：全t>0原物理块给K<I/3、S2<I/2且尖锐；b=(6,1⁵)精确否定统一TrK²<1/4，普通六独立权S2仍开。
 
 - [Phi主rho头至多八个主权参数](results/R150-appendix-unit211-Phi-zero-main-rho-head-eight-weight-cover.md)：固定原15阶QQ/35阶模及局部整Gauss给H7补图≤1，完整H7≤7；只计v及(u,Q,ell)，原值纤维仍开。
