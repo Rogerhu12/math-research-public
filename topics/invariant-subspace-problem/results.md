@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [Phi判别式零权面的原PB有限2106覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-original-PB-finite-2106-cover.md)：每有序图两原曲线QQ互素/固定57阶给≤2106基点，各≤6T；模度2033差73未付，非整支排除。
+
 - [W整lambda=3/2的同值单一F18覆盖](results/R150-appendix-unit211-W-lambda-three-halves-same-value-single-F18-cover.md)：新原8列det只含k⁴d²F18，保所有首项零/交点，不借Ah排除；F18仍须原返回。
 
 - [h=k,Q=1−u整面32次lambda必要覆盖](results/R150-appendix-unit211-equal-singleton-Q1u-complete-lambda-cover.md)：两Δ图全原返回，全部C2/C6/C24；Delta0≤60原参数对，全部原有限Gram尚须返回。

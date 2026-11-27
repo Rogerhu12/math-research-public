@@ -8,9 +8,9 @@
 - **最近实际 pull / 已读规则提交：** 43ad5d872ae2a6c9e36edf96bafa31f5eea60e7b（2026-11-27 14:55:22 UTC，Actions run46020208767实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46020208767-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-27 14:55:22 UTC/61a0e761ad53c4740bd02071f4b52fd1915f4485，根README diff无变。公私均部分克隆blob:none。
 - **终端再次断开：** 约07:20 UTC起本地执行器不可用。按根规矩8/13小文本准备、公开Actions真实pull/rebase/push，非快进立即循环；旧故障与准确源保[说明](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)，未冒称本地恢复。
-- **终端断开后远端已读：** `43ad5d872ae2a6c9e36edf96bafa31f5eea60e7b`（2026-11-27 14:55:02 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `45783698d02186d3fbc2d3c3824f0a49ace0ac9a`（2026-11-27 14:56:39 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-W-single-F18-cover-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-Phi-exceptional-PB-finite-cover-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 ## R150 总图与当前一般支
 
@@ -34,7 +34,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头曲线、1146次QQ覆盖及404余因子/u2/u半均原返回；完整来源保总定理与归档，不加W/Q边界、不重放。
 - **旧D≠0图T0=0全闭，可付T0，不外推h=k。** F4/J4整原返回后QQ4原48×35返1（cd05afd9，0.625秒/exit0），不重放。一般头[0,2,3,4]=2u⁴Q(Q−1)³M²ell·T0(J−Q)。
 - **h=k整等权/T0零/J=Q/Phi0闭，付u−ell/T0/(J−Q)/Pf/Phi。** 新Q1−u两Δ图实际返回完整lambda覆盖C2,C6,C24（总32）；非0八式投影gcd=C2⁴C6⁹C24⁴，零图三原相容gcd=C6C24、真u二次头−4xi²故≤60(λ,u)对。7eaa真11.665秒/69768KiB，2298真0.101秒/40688KiB，均exit0；新fb8直接返2/6/24整常数代数K[u]原Gram（180秒4GiB，只构造前缀，不重做大投影），未排空。Delta0 h1/k1≤6219保留，所有旧失败/全原来源保归档。
-- **旧D≠0值图Phi0∩zn0闭，不传h=k。** rho头零主支必要C(d,lambda)174/55、偶降87/55；判别式零仅(1,1/2)及交换，原31/52曲线后，新78f真8.634秒/53168KiB/exit0用mean的T闭包/U6得完整QQ单因子F26，729项可恢复输入已存，未排空。ed0一般rho统一清Gram真102.023秒/905380KiB/SIGABRT，FLINT明确101202984分配失败，仅返两原线/公共content，mean/N1未返；原源/小失败冻结，不抬限重跑。642bad换真正PB原输入，A0保留。旧NB/cofactor不重放。
+- **旧D≠0Phi0∩zn0闭；rho头零主支必要C(d²,lambda)87/55仍开。** 判别式零仅(1,1/2)及交换，642bad新PB/U6得C31,50与F26真QQ互素；固定57阶最高度2106、每有序支≤2106不同基点、各≤6T值，未排空。模度2033仍缺73，cf39只读精确已存输入返原无穷远核，不重放det。ed0统一清Gram的明确内存SIGABRT/未返mean已冻，换小标量输入。
 
 ### rankH3原ess6
 

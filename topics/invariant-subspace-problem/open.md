@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-single-F18-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-Phi-exceptional-PB-finite-cover-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -176,7 +176,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 
 
-[低余孔C2](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)与[临界小指数矩准则](results/R271-appendix-critical-small-physical-exponential-moment-core.md)仅支付明确物理扇区/矩来源。实际E非零是否自动满足仍开，不从稠密或正则化极限补源费。
+[低余孔C2](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)与[临界小指数矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)仅支付明确物理扇区/矩来源。实际E非零是否自动满足仍开，不从稠密或正则化极限补源费。
 
 **W原图当前接口。** [整D27](results/R150-appendix-unit211-W-D27-entire-original-exclusion.md)已闭；[T4/F2八列原环境](results/R150-appendix-unit211-W-global-monic-four-two-eight-column-original-return.md)已返六行/16乘法。新[同头A143低组合](results/R150-appendix-unit211-W-three-original-quadratic-low-cofactors-and-two-generator-chart.md)补图由1,S生成，A143零面保两降次式及B146E849−2D422C372；不倒B146/D422。原qF、个别N/P仍须返回，环境自由不传原最终商。
 
@@ -198,7 +198,7 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[同G稀疏核注入的全H链](results/R271-appendix-sparse-kernel-injection-dense-backward-chain-and-global-trace-quasiaffinity.md)。** 一次高度选择保全κ三次增长，完整旧链误差及Π+GT望远镜支付全H稠密；ℒ_e0是B→T迹类拟亲和。真w仍秩一限制并灭N；新移级图闭包多值、不可闭，不能替代原闭G或付实际源费/N=M。
 
-**Phi例外PB新输入。** 642bad读取已存F26、用原PB偶奇/U6得新QQ核心及真实gcd，固定模结式配最高度对偶；只付实际返回范围，不重放78旧七det。
+**[Phi例外权原PB的2106有限覆盖](results/R150-appendix-unit211-Phi-zero-exceptional-original-PB-finite-2106-cover.md)。** 642bad真11.963秒/61048KiB/exit0，新PB偶奇/U6给C31,50（1632项）与已存F26真QQ互素。固定57阶QQ上界2106，逐lambda纤维Vandermonde右核及det消失阶计数给每个有序权图≤2106不同基点、每点≤6个原T；两个有序图不合并计2106。模1009真2033仍差73，QQ精确度/LC未付；cf39新输入只读两精确payload返无穷远原核，120秒1GiB，不重算原det/QQ或模结式。全部有限点尚须原返回。
 
 **Phi一般rho清Gram失败冻结。** ed0真102.023秒/905380KiB/SIGABRT，FLINT明确分配101202984字节失败；只返原两线及H0content，mean/N1未返。[准确失败](notes/2026-11-27-unit211-Phi-zero-general-rho-two-cleared-Gram-memory-failure-8542.md)及原源保留，不抬限重跑，换小原标量/显名分母输入。
 
