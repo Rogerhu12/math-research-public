@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `2d623859f645e94f5d8195be84157c38f6bdd08f`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `3d066e31db09f93ab7f14812e86500145483b7ab`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42，两README差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-second-cartier-primitive.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -55,7 +55,7 @@ R1014从实际degree1射影族/四Weil中心完整解消及自给period证明支
 
 R1017原q5截面在P=(3,1)有唯一极，原方程/局部分量给高10/3；deck独立及整指数排除付全MW=(5/3)A2、F5高10固定元与两Br0。真实run45929764445/job140279423830/source72b66100a3bd20ae115ba77a4d0c4b025232d3b9，stdout2444B/SHA27af604e…7b423d。全54评值6挠，倒6后shadow零，不重跑q5。准确坐标/完整证明见R1017和逐字归档。
 
-R1019原η_j((q))=1且H/K忠实cyclic18，所有好惰性q在H/K完全分裂；保真正Cor_L/H后全shadow落A(Fq²)⊗R并被q+1杀掉，ordinary p检测必q≡−1 mod6p。原反Frob截面trace0强制W=Mx+N，(19)/(20)精确保两个原Kummer类。真实α_qδ=F−1、δα_q=−F−1、α_q²=−(q+1)/3，C=δB(Fq)；D_q=Σ(C非零点−T)由H_q=(Y^d−1)/(Y+1)、X=Y^−d(Y+1)^(1−d)逐式给出，d=(q+1)/3。完整Hensel二/三阶约束在2d/3d维RR空间给原截面有限方程；一般q存在/54非零尚未证，不把核除子冒作截面。
+R1019原η_j((q))=1且H/K忠实cyclic18，所有好惰性q在H/K完全分裂；保真正Cor_L/H后全shadow落A(Fq²)⊗R并被q+1杀掉，ordinary p检测必q≡−1 mod6p。原反Frob截面trace0强制W=Mx+N，(19)/(20)精确保两个原Kummer类。真实α_qδ=F−1、δα_q=−F−1、α_q²=−(q+1)/3，C=δB(Fq)；D_q=Σ(C非零点−T)由H_q=(Y^d−1)/(Y+1)、X=Y^−d(Y+1)^(1−d)逐式给出，d=(q+1)/3。完整Hensel二/三阶约束在2d/3d维RR空间给原截面有限方程；一般q存在/54非零尚未证，不把核除子冒作截面。§7.1又付L=(Y+1)^(d−1)及fL³的完整恒等式，J2=(1+H)/L modH²、J3=(1+H+YH²)/L modH³；原D_BU=L、D_BH=[1+(1−2Y)H]/X。
 
 02:51UTC执行环境失联，本地R1017稿25f3ec26d未推；已由云端非强制快进提交2af1bac937f2b5ddcb0762dd7b2b34860854647b替代。恢复后立即实际pull --rebase，保已发布远端证明，不重复未推本地稿；API读不冒充实际pull。数学仅公开Actions，唯一v9继续。
 

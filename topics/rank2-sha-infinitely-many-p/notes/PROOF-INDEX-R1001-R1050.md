@@ -44,3 +44,5 @@
 - [R1019](../results/R1019-original-full-trace-and-inert-kernel-divisor.md)：原η在所有好惰性q主理想上等于1，完整Cor后shadow必被q+1杀掉，ordinary p检测需q≡−1 mod6p。反Frob三共线给两个准确原Kummer类；真实α_q²=−(q+1)/3及其核给H_q=(Y^d−1)/(Y+1)全部点。固定D_q的完整二/三阶Hensel消极点和无穷次数界给2d/3d维有限截面方程；q5准确回原极点，一般解及原54非零仍待。
 
 - [R1020](../results/R1020-original-long-window-single-primitive-and-second-cartier-removal.md)：原全部b及非diagonal的第二Cartier低窗只剩一个实际scalar，字符仅允许b≡5；原第一primitive帽≤p²+1。显示φ_H从H+5起将该scalar准确移入同一F/F^p类，给完整单primitive读取及新极帽；O留数/aZ/二挠β/第三层α全部有明确位置。统一EH后D⁻¹可消费完整四阶first-C等式，不交换C与连接，不把模p消层当全精度canonical非零。
+
+- [R1019 §7.1](../results/R1019-original-full-trace-and-inert-kernel-divisor.md)：原核多项式给fL³的完整特征q恒等式，原唯一Hensel根J2/J3有显式闭式，全部点的J1²H′=L/3及D_BU、D_BH准确；可直接消费完整RR约束，未把主部候选当实际截面。
