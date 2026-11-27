@@ -25,3 +25,9 @@ science/pure157/7 argv；原398/385全部正式selector保成408/395。live为no
 实际initial/current/trial Phi、Gram与完整screen g等待真返回。有限观测改善不等于全域operator norm、全t reach、closed whole-image Hausdorff或含反射δE证书。R248只活动像；p4帽/共同R650或全mixed pairs、准确六jet/根/积分/working误差、同场全域1e−6、真实精化到原容差、完整多t网格与严格存在缺口继续支付。
 
 raw数组、日志和网格只runner，不新增Git/Release/artifact。12/13/14/15已锁科学源和活步骤不改。[请求16](../computations/resume-20261127-actions-request-16.json)含完整来源身份、固定数学配方、恢复历史scalar的原commit/路径/wholeSHA与精确容量。
+
+## 7. 官方实际启动记录
+
+2026-11-27 16:52:10 UTC查询官方GitHub Actions：run **46037017666/1**，job **140634874993**；创建时间 **2026-11-27T16:50:50Z**，workflow head **897194e1b46073466989e9d8dfb52bcc4e1b8e3a**，`.github/workflows/visible-larger-20261127-parallel16.yml`。run与job为`in_progress`、conclusion为null。setup、checkout、Python设置与已记录依赖安装均success；原研究step5为`in_progress`。此状态只证研究阶段启动，不证明任一必要输入或科学子进程已自然返回。
+
+[官方run](https://github.com/Rogerhu12/math-research-public/actions/runs/46037017666)。实际输入、报告和数学值须从对应真实返回分卷分别读取，旧run输出不补本次缺值。
