@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全余W十三条原行、十二个真乘法和六列完整返回](results/R150-appendix-unit211-W-global-monic-three-two-thirteen-original-rows-six-columns.md)：个别两谱N/P与完整N4(DV)全部保留；116身份/102分母实际返回，不逆D或范数。
+
 - [h=k、Delta零的七lambda完整QQ覆盖与80基点界](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)：真578次QQ覆盖和独立N1的Gauss，完整153/345因子排除；余三整常数代数须返回。
 
 - [R150 unit211：全余W原首一T3/F2与六列环境](results/R150-appendix-unit211-W-global-monic-T-three-F-two-and-six-column-environment.md)：新头由整lambda3/2排除全付；原两四次等价q3加必留r2，原商不假自由。

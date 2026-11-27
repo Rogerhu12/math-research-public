@@ -1,0 +1,457 @@
+{
+  "schema": "isp-whole-W-full-original-thirteen-by-six-input-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-27",
+  "runId": 46026673785,
+  "jobId": 140599749465,
+  "sourcePath": "notes/2026-11-27-unit211-W-global-monic-T3-F2-full-original-six-column-return-8542.py",
+  "driver": {
+    "elapsed_seconds": 76.92059590199999,
+    "max_child_rss_kib": 410224,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "8e7f7de4f1c235230832bbe3c4797e30dacf9a64",
+        "before": "8e7f7de4f1c235230832bbe3c4797e30dacf9a64",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T15:38:31.683468+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46026673785",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8e7f7de4f1c235230832bbe3c4797e30dacf9a64",
+    "source_exit_code": 0,
+    "source_git_blob": "b36f8956d6bc4f5c906e64dcbe4f38d3c5946b9b",
+    "source_sha256": "394bb2ed7d65474e46a693c4eab6474e36841b65c4dc49c5b499317884713a68",
+    "stdout_bytes": 11877,
+    "stdout_sha256": "7c8cff627e86bdfcb3af0ffee83fd971cc5e366f63b6f52f7bfc75d36b0612fa",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "stage": "whole_W_new_actual_monic_T3_F2_input",
+      "originalConstructionPrefixSHA256": "82900ebefa655fb15cb2c54a5d83518723501ad5c74f7221792b091fc2d00fbf",
+      "fullTwoOriginalQuarticCombinationActuallyVerified": true,
+      "monicT3Leading": "8*M^2*u*Q*(3-2lambda)*ell^3*d*(2uQ-J)",
+      "allLeadingFactorsPreviouslyPaid": true,
+      "noA143OrB239Inverse": true,
+      "q3": {
+        "FSDegree": 3,
+        "monomials": 4,
+        "numeratorMaxDegrees": [
+          8,
+          9,
+          4
+        ],
+        "denominatorMaxDegrees": [
+          6,
+          9,
+          1
+        ],
+        "numeratorTerms": 705,
+        "bytes": 15572,
+        "sha256": "81818f82bfcf7c6076664995afc1ae242db2df678a54c81d5f6fe1d76cf54d95"
+      },
+      "qF": {
+        "FSDegree": 2,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          8,
+          11,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          4,
+          9,
+          0
+        ],
+        "numeratorTerms": 426,
+        "bytes": 8793,
+        "sha256": "ae3d82d74ae41a21c3e5cf26f690bc64d57d22105a413755645b7a7e97fc5b48"
+      },
+      "claimExcluded": false,
+      "seconds": 1.7136932150000028
+    },
+    {
+      "stage": "whole_W_six_column_true_multiplication_complete",
+      "variable": "F",
+      "allSixOriginalRuleProductsActuallyReturned": true,
+      "coefficientCertificate": {
+        "bytes": 224332,
+        "sha256": "b0fb6c046e9c7724528c417d18ad5fb2bec0adfb04bacd2e806e43654c3b2286"
+      },
+      "claimExcluded": false,
+      "seconds": 1.7840204590000006
+    },
+    {
+      "stage": "whole_W_six_column_true_multiplication_complete",
+      "variable": "S",
+      "allSixOriginalRuleProductsActuallyReturned": true,
+      "coefficientCertificate": {
+        "bytes": 31342,
+        "sha256": "914123b97fb8cd8211a1a72153da83ad02ac6d64fd57ed6dbfb532105572c206"
+      },
+      "claimExcluded": false,
+      "seconds": 1.794230092000003
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "E1",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          9,
+          11,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          4,
+          9,
+          0
+        ],
+        "numeratorTerms": 415,
+        "bytes": 8699,
+        "sha256": "fdbb03650066edc1d06cd96078ef82bec64b539f2f96d81a14f1d7432e4ac3e7"
+      },
+      "claimExcluded": false,
+      "seconds": 1.8010621180000008
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "EBe",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          12,
+          15,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          8,
+          13,
+          0
+        ],
+        "numeratorTerms": 844,
+        "bytes": 22046,
+        "sha256": "082fd3e49fe115959e89675af0bf02fae13705706e37c91078d6f9a33b761cbd"
+      },
+      "claimExcluded": false,
+      "seconds": 1.812720412000001
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "EBo",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          12,
+          15,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          9,
+          14,
+          0
+        ],
+        "numeratorTerms": 870,
+        "bytes": 23698,
+        "sha256": "7b4e18c835c90db252f280e9ac5c7f1db90a3a628bfe7fd77a77419dbed9250b"
+      },
+      "claimExcluded": false,
+      "seconds": 1.8256838180000017
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "N1",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 5,
+        "numeratorMaxDegrees": [
+          14,
+          15,
+          2
+        ],
+        "denominatorMaxDegrees": [
+          8,
+          13,
+          0
+        ],
+        "numeratorTerms": 853,
+        "bytes": 20308,
+        "sha256": "9b96e5b0a0420d9d4a80e92ed21cae94aabe493e946dfeeba9bef193bf1e49ce"
+      },
+      "claimExcluded": false,
+      "seconds": 1.8370716970000025
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "NS",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          22,
+          29,
+          4
+        ],
+        "denominatorMaxDegrees": [
+          15,
+          26,
+          1
+        ],
+        "numeratorTerms": 6367,
+        "bytes": 196539,
+        "sha256": "de4aaf63646ff980b902bf6dfd238aeaea8432bfc8d753015dde0f11ce4f1f0e"
+      },
+      "claimExcluded": false,
+      "seconds": 1.923017748000003
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "PS",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          22,
+          28,
+          4
+        ],
+        "denominatorMaxDegrees": [
+          15,
+          25,
+          1
+        ],
+        "numeratorTerms": 6099,
+        "bytes": 188506,
+        "sha256": "4d65a43d978cba5010024eb6d097d2573627f46bb720774fe7ec26256b8953ca"
+      },
+      "claimExcluded": false,
+      "seconds": 2.00801491
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "original_value_q4_remainder_r2",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 3,
+        "numeratorMaxDegrees": [
+          14,
+          16,
+          6
+        ],
+        "denominatorMaxDegrees": [
+          11,
+          16,
+          2
+        ],
+        "numeratorTerms": 3127,
+        "bytes": 83829,
+        "sha256": "71f7e3dfc8b2fc62118dcf2558a7e57d70406692050edc53c06b4a788682688a"
+      },
+      "claimExcluded": false,
+      "seconds": 2.047420510000002
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "original_same_value_second_third_moment_R6",
+      "normalForm": {
+        "FSDegree": 2,
+        "monomials": 3,
+        "numeratorMaxDegrees": [
+          28,
+          30,
+          10
+        ],
+        "denominatorMaxDegrees": [
+          20,
+          29,
+          4
+        ],
+        "numeratorTerms": 19429,
+        "bytes": 661124,
+        "sha256": "f34dab4c99d57a06c98c46d8be60aecb200848e738f389b8f81b00d305190616"
+      },
+      "claimExcluded": false,
+      "seconds": 2.3029876290000004
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "D_squared_individual_N_even",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          43,
+          54,
+          12
+        ],
+        "denominatorMaxDegrees": [
+          34,
+          51,
+          5
+        ],
+        "numeratorTerms": 100208,
+        "bytes": 4743578,
+        "sha256": "7c62ed17ad7dce6a0475a47dfb2736fbbbeb219f69f726dfe1b821d001a7a59f"
+      },
+      "claimExcluded": false,
+      "seconds": 12.072732192000004
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "D_squared_individual_N_odd",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          41,
+          51,
+          12
+        ],
+        "denominatorMaxDegrees": [
+          33,
+          49,
+          5
+        ],
+        "numeratorTerms": 90490,
+        "bytes": 4221262,
+        "sha256": "e3db92a747e065a62420e38fbc9ab77da6ea39cdd712968c28575e0c48cd6ccf"
+      },
+      "claimExcluded": false,
+      "seconds": 13.145226020000003
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "D_cubed_individual_P_even",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          57,
+          70,
+          16
+        ],
+        "denominatorMaxDegrees": [
+          46,
+          67,
+          7
+        ],
+        "numeratorTerms": 239987,
+        "bytes": 13869007,
+        "sha256": "e0943150b646775683ef369d97f64a09256f4659a637a05d73314fffddf9074f"
+      },
+      "claimExcluded": false,
+      "seconds": 56.026088185
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "D_cubed_individual_P_odd",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          59,
+          74,
+          16
+        ],
+        "denominatorMaxDegrees": [
+          49,
+          72,
+          7
+        ],
+        "numeratorTerms": 248597,
+        "bytes": 14682566,
+        "sha256": "6f610eb4fd533290dce7468a9e5aff90791e787f68e8d11bcccac3bf022c10b7"
+      },
+      "claimExcluded": false,
+      "seconds": 60.127223175000005
+    },
+    {
+      "stage": "whole_W_new_six_column_original_row_profile",
+      "name": "full_original_N4_D_times_Vval",
+      "normalForm": {
+        "FSDegree": 3,
+        "monomials": 6,
+        "numeratorMaxDegrees": [
+          30,
+          35,
+          11
+        ],
+        "denominatorMaxDegrees": [
+          24,
+          34,
+          4
+        ],
+        "numeratorTerms": 44712,
+        "bytes": 1678521,
+        "sha256": "e3d2099a367418a6248eeb17a823a1033b112aaf3176e545df56d99c32e8a4da"
+      },
+      "claimExcluded": false,
+      "seconds": 70.15344249399999
+    },
+    {
+      "stage": "whole_W_monic_T3_F2_full_original_six_column_input_complete",
+      "sourceSHA256": "394bb2ed7d65474e46a693c4eab6474e36841b65c4dc49c5b499317884713a68",
+      "scalarVariables": [
+        "e",
+        "k",
+        "lambda"
+      ],
+      "basis": [
+        "1",
+        "S",
+        "S^2",
+        "F",
+        "F*S",
+        "F*S^2"
+      ],
+      "originalRowLabels": [
+        "E1",
+        "EBe",
+        "EBo",
+        "N1",
+        "NS",
+        "PS",
+        "original_value_q4_remainder_r2",
+        "original_same_value_second_third_moment_R6",
+        "D_squared_individual_N_even",
+        "D_squared_individual_N_odd",
+        "D_cubed_individual_P_even",
+        "D_cubed_individual_P_odd",
+        "full_original_N4_D_times_Vval"
+      ],
+      "allThirteenNecessaryOriginalRowsActuallyReturned": true,
+      "allTwelveOriginalMultiplicationColumnsActuallyVerified": true,
+      "actualOriginalRuleRewriteProducts": 116,
+      "allFinalScalarDenominatorsActuallyPaid": true,
+      "checkedDistinctDenominators": 102,
+      "fullIndividualOriginalNPAndFullN4VRepresentedWithDPolynomialClearing": true,
+      "noPhysicalDOrAnyNormInverse": true,
+      "noA143OrB239Inverse": true,
+      "originalR2LeadingZeroFiberRetained": true,
+      "orderedMonicAmbientFreeOriginalPhysicalQuotientNotAssumedFree": true,
+      "coefficientCertificate": {
+        "bytes": 40399696,
+        "sha256": "b5403e7aad85f3c411769c75c3771ea3bc5dfcdf999e0cb99cbed0c6a4d8b4f9"
+      },
+      "largeRegenerableMatrixCachesWritten": false,
+      "noParameterCofactorYetComputed": true,
+      "wholeWExcluded": false,
+      "peakRssKiB": 410224,
+      "seconds": 76.80915758500001
+    }
+  ],
+  "allFullRowsActuallyReturned": true,
+  "wholeWExcluded": false,
+  "largeRegenerableCacheStored": false
+}

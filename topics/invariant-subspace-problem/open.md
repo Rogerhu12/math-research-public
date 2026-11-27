@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-collision-seven-lambda-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-W-thirteen-original-rows-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -226,4 +226,4 @@ D27泛型五次不可约与有限纤维范围保上述D27原单位条目及本�
 
 **[h=k、Delta零的完整七lambda覆盖](results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)。** cf0真QQ578覆盖与独立原N1固定投影给全模Bézout/g80，首一Gauss及同点核列界≤80不同(λ,u)。真QQ分解完整乘回；153、345两整因子排除，只余C4四次、C2二次及λ1/3，共七lambda，Q/Gram未排。2.522秒/85076KiB/exit0；所有u/Q头零保留，续三个完整常数代数的原返回。
 
-**[全余W的原首一T3/F2六列环境](results/R150-appendix-unit211-W-global-monic-T-three-F-two-and-six-column-environment.md)。** theta=8M²uQ(3−2lambda)ell³d(2uQ−J)全原已付，BigInt实际53ms核完整原组合；(q4,R4)=(q3,r2)准确等价，r2二次头保零。自由仅指首一塔，不传原最终商或D局部化。新394首返13原行/12乘法，保个别两谱D²N/D³P及完整N4(DV)，不逆D/范数，不重放旧8列门。
+**[全余W的十三条完整原行与真六列乘法](results/R150-appendix-unit211-W-global-monic-three-two-thirteen-original-rows-six-columns.md)。** 394真实76.921秒/410224KiB/exit0，12真乘法、116逐式身份、13原行完整返回；个别两谱D²N/D³P与完整N4(DV)均保，102种最终分母全付。T3/F2首一环境自由不传最终物理商或D局部化；r2二次头未付。新505仅构造纯T原r2/R6及其真乘法的三个固定3×3常数列cofactor，不重放40MB大原行证书，不逆D/范数。
