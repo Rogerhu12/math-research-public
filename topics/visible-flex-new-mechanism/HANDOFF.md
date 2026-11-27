@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **430eacecc59115ef2351316afb29ee3dbfac63bc**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **67ef1777c8910b9bfb7ccff27c1c9d832a5d373e**，2026-11-26 23:15:24 UTC空diff；下次不晚于2026-11-27 00:14 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **aabecce45de87a746454c6a609c062090fdd3fe7**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **724f5769d39c1f05826ed6c36792a5bb66da6aa0**，2026-11-27 00:01:47 UTC空diff；下次不晚于01:00 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -27,13 +27,13 @@
 
 actual694圈/1555峰/309work/1536角/trust.3003387451171875；新fine1390未获1388资格，pending双空，旧队列不再跑。21完整Jac/1164块+未闭4块、0自然后端返回；末更差05f被拒。已知链≥14729.212126063秒，未知仍未知。[正常56e8](notes/2026-11-27-r566-normal56e8-resume-implementation.md)run45909082053/job140212809662/source5cd6055b，23:08:06 UTC启动，待自然终态；新baseline不计metric接受。[真实secant协议](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)证原33首callback先于BFGS/32交换；旧H/λ未存，首次I，后用同冻结λ/同行函数的已付两J，phase/角语义变重置。[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布：原LDL82维/3403项，MODEM1已消费不再外补；首次I，后续native reset仍I，512KiB必要checkpoint不存完整J。下一真实终态接新driver。
 
-## 5. 完整S与真正固定E的增长模型
+## 5. 正常全S继续，actual397固定E首次硬τ1范围已发布
 
-[全S真实397](notes/2026-11-27-r613-normal337-sixty-step-terminal.md)run45899589237/job140181814100/source59ef89bf6；4520.668522229001秒/60接受/60Jac/205trials。真1130q JSON SHA **d76a590766b2323698053321ad84608f17f110c1711c105470d2b876b4920875**；397/amp1e−5/H.5188903877153482/damp1e−14。fineη2.216608039e−7，双实际位置2.216686200e−7/2.216825169e−7；2e−9未过，末步fraction.25仍接受，非stall。完整At/M增加和高频增长不隐藏；R615条件全角5.633883337e−7尚欠径向/ODE/舍入。
+[全S真实397](notes/2026-11-27-r613-normal337-sixty-step-terminal.md)run45899589237/job140181814100/source59ef89bf6；4520.668522229001秒/60接受/60Jac/205trials。1130q JSON SHA **d76a590766b2323698053321ad84608f17f110c1711c105470d2b876b4920875**，H.5188903877153482/amp1e−5/damp1e−14；fineη2.216608039e−7，双actual-position2.216686200e−7/2.216825169e−7，2e−9未过且非stall。At/M增长及R615条件全角界的原欠项都保留。
 
-[正常397续算](notes/2026-11-27-r613-actual397-normal-continuation-scope.md)run45909455678/job140214007842/source12e47b06，23:11:43 UTC启动；原950×256/1728×512/S奇1…127/完整QR-SVD/60步均不改。独立R618新路线冻结**这份397完整q/amp/H/原reconstruction**为唯一固定E，之后正常路径的新H/q不替换其目标。旧337/277及所有费用完整继承。
+[正常397](notes/2026-11-27-r613-actual397-normal-continuation-scope.md)run45909455678/job140214007842/source12e47b06，23:11:43 UTC启动，仍待自然终态；原950×256/1728×512/完整S/QR保持。独立[首固定E硬τ1范围](notes/2026-11-27-r618-actual397-first-fixed-E-response-scope.md)已审发布待原push：完整397定义唯一target **86da8c603f3d7ed9eb928481f0afe492f10bb209c94bf0ccaf8070c1aa1cd6c5**，以后normal H/q不替它。新响应1473维硬τ1，余1472列/全部121600行，J48/完整2J96、原1129非mean与全部原口、a1真全平尾/core P0俱保；20步/5400秒、1800留同场细读出，新LM1e−8明示不冒旧后端恢复。
 
-R617有限pre+post刚性不授有限误差下界。R618已付同完整E/同均值根/全2J核心ζ/τ链；[完整height与chain](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)62836B/87fdb14d与17855B/0668d1af已审发布，保1129旧非mean和真到rc全平非齐次尾。实际response/r/θ/meanθ/model、原唯一restore与真tail_anchor身份已补齐。S→η/导数jets只在同根/primitive alias付清后成立，[双直接位置读出](notes/2026-11-27-r618-same-fixed-metric-direct-position.md)已审发布，保所有原fine及双h；[稳定坐标与薄消费入口](notes/2026-11-27-r618-stable-coordinate-bound-scope-path.md)已审发布：同E在W≤1用λ/W>1用ζ，参考同支嵌套盒的浮点观察不冒全角界；源/政策建模前绑定，旧文件不变。首actual397固定τ1/a1、其余1472响应列完整求解。[全尾均值分支/帽口积分纸界与helper](notes/2026-11-27-r618-true-tail-mean-anchor-bounds.md)已审发布，旧germ/M/ODE误差不能默认0；[实际模型全系数anchor](notes/2026-11-27-r618-current-model-tail-anchor-producer.md)已审发布；七类源误差须显式登记，严格模式未付即拒、条件模式不赋零。
+[完整模型](notes/2026-11-27-r618-complete-growing-post-fixed-metric-model.md)与其已发全尾纸界/producer/双direct、[同支稳定坐标](notes/2026-11-27-r618-stable-coordinate-bound-scope-path.md)均已双审。全部真实source/response/model身份先绑定；条件帽锚的七类源误差未付不置零。新末态保全fine、D/V/L、双actual-position和真实帽锚body积分；旧R615改E闭合不能充fixedE证书。S→η尚欠同根/两primitive/alias和原M/ODE/舍入，严格存在与宏观门未付。R617仅排所述有限类，不授误差下界。
 
 ## 6. 原十九态：R625首终态与新规范坐标续算
 

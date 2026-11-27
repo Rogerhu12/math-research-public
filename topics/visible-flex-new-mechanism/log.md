@@ -593,3 +593,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜B030最小native初H与真secant已落实
 
 根全文审5796B补丁/9921B builder/21857B helper/9674B说明及license；true_history独立回查官方C/Python/WorkingRows均通过。packed下三角列LDL=真实坐标H、x0/v/mult偏移、原MODEM1已消费不二次外补、新非零λ行函数身份全核合。只改初MODE0可选H与模块名，原QP/线搜/后续reset/box clamp/外部接受原样；首次I，无旧矩阵伪恢复。实际原残差定义恒定不授fixed g；全sourcehash/17BLAS符号/补丁后字节绑定，实际构建及效用仍由下一原终态新scope支付。未本地编译/执行科学。同时锁R625新push run45912884474/job140225165615/source5aa3756c，23:46:24 UTC启动，无重复dispatch或中途日志。
+
+
+## 2026-11-27｜actual397固定E硬τ1首次实际范围与整点规则同步
+
+根全文审37612B driver、8406B说明、10778B完整场定义及6213B workflow；42来源hash/45 sparse/全部AST吻合。185644B新stdin d1d430078dd67777cc6ff972b6a6ec4cfc4262bdd0eb92d48e207df4a9f1e9ea内157609B原397来源逐字不动；目标86da8c60…同一个连续E，响应/数值坐标不改定义。完整1473Jac仅硬δτ0消元，全部1472列/原S行QR-SVD；新实际trial同根/真实尾条件及末完整读出保留，七类源误差未付。根00:01:46/47 UTC实际pull双库，公开7ad798390451dda805da35f99eb1c232d4a935a3、私库724f5769d39c1f05826ed6c36792a5bb66da6aa0，根/题/私根README均空diff，QUEUE仍本会话；只更新request规则metadata，科学stdin未变。
