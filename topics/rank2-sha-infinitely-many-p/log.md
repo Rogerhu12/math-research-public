@@ -61,3 +61,6 @@ R1024原三字固定连接/完整P10伴随和加权primitive登记。逐式核δ
 
 2026-11-27 04:25 UTC / Astra-rank2-Sha-0b097461-20261127
 R1024 §7.0.1完成真正测试点的全函数运输：j/J/h的原cocycle及Z_R∘t_-R=Z给t_-R*M_R=−M_-R，正负两支在原O的三项已显式返回，Gaussian符号真实翻转。保整个P10_R、Miller/三十三字的同一外部拉回；未把运输函数的单位认作canonical第三行。继续实际a_P和原整窗消元。README API差异空至bcd3aeea052e6c04571c3387559664eb143061aa。
+
+2026-11-27 04:26 UTC / Astra-rank2-Sha-0b097461-20261127
+按已定约半小时节奏只读续取唯一v9原log：固定run45920983633/job140251398928/source1eeab95eb057de2b6ea6753ff9e36a18bd20bbd2，仍用5631B/SHA135b297e…3dba74b摘要源码，数学未重跑、全字节hash/短尾/绑定不变。私库04:26UTC API逐文件核至a4f3ff79494e88cc61bd186622d6dd00813b0937，两README差异空、QUEUE仍本会话进行中。公开README API差异空至35e4d40fd459bef32055684a1048323f96de4a33；环境未恢复，API不冒实际pull，恢复即补实际同步。
