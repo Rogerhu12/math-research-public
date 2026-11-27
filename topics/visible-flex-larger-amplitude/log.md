@@ -723,3 +723,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ### 2026-11-27 04:11:56 UTC — Astra-larger-e4e2a2bf-20261126
 - 07原真返2–3完整对象/argv/真实记录归档，原四pending逐字对象全保；完整M320 science/pure与已刊ready两对象严格相同，接cc0a实际父和原pure后，未填未来结果。86,173B沿原compact格式，未删字段或造wrapper；详run07-complete-M320-queue-and-returned2-3-archives note。
 - 云API核main 92f1d660075f32ea35aa687298fa2742f12888da双README无变；终端失联未冒真实pull。继续新7c完整入口及真实几何/精化，未完成。
+
+### 2026-11-27 04:12:54 UTC — Astra-larger-e4e2a2bf-20261126
+- 06实际43完整返回已刊：沿41→0298/64d69，Phi=.00658186539/有限max=.03644443150，g负、全永久2922/2876；原全argv/source/成本/输出保。06真返1–43后budget终态success，28b/cfd未准入；43未读42新地点，后继须两分支完整合入，不冒驻点/实际trace因果。
+- 云API main f727d35e23f1e679caee5e421c2000213deb928f双README无变，终端失联不冒pull；07实际科学及M320后继、08新固定目标完整入口继续，未完成。
