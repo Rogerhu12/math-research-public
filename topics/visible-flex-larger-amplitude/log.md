@@ -197,3 +197,8 @@
 ## 2026-11-27：第51轮旧有限几何/LP派生结果完整保全
 
 [完整六件](computations/legacy-finite-geometry-retention-51-complete-delivery.json)344560B，按fresh树逐blob/bytes相同退17份旧derived JSON1899615B，净1555055B。固定恢复60321451c058c6a51da58c37ae5ec6f2d1145f74；54原源/71小record/187完整输入/18完整resource与argv/5整plan/56实际模型scalar全保。7大体仅原小manifest，完整旧19场315055B重构保；不读binary/大raw。旧4752B外部client仍未复得，不能拿8274B同名镜像替代；proxy原源版本、stale q095 slopes、部分六方向、未启动tail2、有限LP不可行及所有未知均保。源/参数/ports/Nelder/活输入和求解对象不动，原旧消费者需原路径整字恢复；本轮不产生科学结论。
+
+
+## 2026-11-27：producer_R722完整十二矩及含反射R716入口
+
+[六件完整交付](computations/fixed-fejer-meridian-producer-R722-complete-R716-moment-delivery.json)386778B，producer45ca7637/consumerd0fe262b。137源/18运行体与11准确输入角色、整个R722定理及完整validator保持；producer原25函数/consumer13函数完整原字，必要4绑定函数与2新来源函数明确。十二通道、完整反射与两帽/p4、一般三相位全重心补偿、半转真实前提和原准确算术均保。完整原10/8argv、34/60selectors、600秒/0角胞上限不缩。当前closed002eb最终主件/唯一无标记外管副件/实际正V及非零中心不变量分离仍须同场真付，不从R718或初统计推δE；全部未知保持，尚无实际矩或精化结果。
