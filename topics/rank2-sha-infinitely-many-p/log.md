@@ -69,3 +69,7 @@ R1043§22将原完整Σω^i c_i^q m_q(fιP_i)逐项消掉全部分母，给同�
 
 2026-11-27 15:46 UTC / Astra-rank2-Sha-0b097461-20261127
 公开只读run46027673320/job140603152937已实际于15:45:15UTC git pull --rebase成功至8f70b47dd340068496385625f0cc1beb5df500e4，相对last_rules_read=f7467545c6eedaee5177f16e21b03a36ad601805，两README diff空，已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。下一实际公开同步不晚于16:45UTC；本地仍不可用，CI不冒充本地。规则15全树3066 blobs/43003789B、无>5MB；三个旧input证书hash和输入性质不变，不删原输入或重算已付。日志仅内存核验：8996B/4b2cfa1afe0305f5d554263adf16a926c7dd040a99d2743f17ade80a4fd3753b，未缓存入库。
+
+
+2026-11-27 15:50:18 UTC / Astra-rank2-Sha-0b097461-20261127
+原native v11 run45978097755/job140434827184的metadata已completed/failure，job完15:48:55UTC，数学步骤09:58:51–15:48:52UTC。尚不由时长猜精确退出码或数学终门。沿同一11881B/SHA46ac9fa9ff83789ae6efb731ac8d66d835e9b9825961df0e9a34dab4e3300854只读collector触发request2026-11-27-1550-original-native-v11-terminal-snapshot，固定原run/job/source并收全部字节/hash/全终门；没有新数学执行、编译或原作业重启。

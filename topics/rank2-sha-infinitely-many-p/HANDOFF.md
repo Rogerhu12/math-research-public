@@ -18,7 +18,7 @@
 
 v9的21000s timeout与v10的7283秒logger TypeError都已完整消费。原run/job/source/hash、未到终门及两字段兼容修复在[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。不是代数反例，也不是四交/Norm/shadow PASS。
 
-唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810在原数学步骤；56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。14:45复读原log仍4203673B/f9ecdfbb…d193：12:38首positive/base0全厚612已返，尾12:39:11到base1 Hermite85/306；14:43API数学步骤仍在运行，无四交/Norm/shadow终门。不重编译/开副本。15:23只读collector run46024397441/job140591925091完整取同4203673B/f9ecdfbb…，23native/1primary，终门空；不据旧尾推定停顿，约15:49再收原终态。
+唯一native v11 run45978097755/job140434827184/source8a19591199e83549df1709f35dc00976a40e2810已于15:48:55UTC completed/failure，数学步骤09:58:51–15:48:52；精确原因/全终门待15:50原只读collector消费。原56源/两char0 pins、29/2453/64/minimal、全门、同pivot/全列/附列/生成元双向返回、源码只读/禁网/21000s/360min/cancel=false均保持。此前15:23全字节仅4203673B/f9ecdfbb…，23native/1primary（长612），尾12:39:11到base1 Hermite85/306。终态消费前不按旧快照猜结果，不重编译或开数学副本。
 
 ## 二、原算术输入与实际全域缺口
 
