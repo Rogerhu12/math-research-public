@@ -395,3 +395,6 @@
 
 
 - [R625完整行QR/SVD十次接受与fine盒终态](notes/2026-11-27-r625-dense-feasible-natural-final-agent.md)：**线性完整解已付，原根与本候选fine仍未合格**；新216.695643132秒、33完整QR/SVD、10接受/112真曲线盒拒绝。原ODE4.30927e13/stored十末0而coarse真末.26727、ruling3.41137e13；fine在shape/eta后失败，未有fine M/rho/ruling。最后真实state及全部失败/成本保存，后继同比缩h.9仅清墙，原四偶端缺陷按既有权重不变。
+
+
+- [R618同固定E的均值、连接和实际位置误差传递](notes/2026-11-27-r618-same-fixed-E-angular-transport.md)：**已证明声明真包围下的角向条件定理**；同一个目标E/e_r经两标量三角根与完整离解微分传至真实两primitive，复用R615有限算子/alias/奇频尾，内帽归一不失W²尺度。全部源误差、径向区间与当前场输入仍待付；两个标量唯一根不授D全角零、硬τ1根或README完成。
