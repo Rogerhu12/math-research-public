@@ -182,7 +182,7 @@ Deddens自伴MASA、全部可分重数有限成本投影、全2-adic平移距离
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
-**一般LS原三生成/两t六次头图18生成已付，0fc同D投影不缩小已冻结。** [一般Delta非0共同分母原恢复](results/R150-appendix-unit211-general-delta-nonzero-common-denominator-and-monic-T-six-original-reconstruction.md)给已付F6首项4ell²(1−Q)、E484项/T5和同点f/t，无Phi逆。新6a0362da以T≤5完整乘法及分列D/E幂返回原mean/N1、个别NP，180秒/4GiB待实际。E=0整图与旧六次首项零域继续保留。
+**[一般Delta非0完整原值六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)已付。** 6a0362da真72.253秒/460740KiB/exit0；原矩和两线唯一恢复f/t/Gram，八原mean/N1及两谱个别NP全回T≤5。保D/E原点单位、全部物理条件；不倒Phi、范数或未付首项。参数仍开，下一原两点值重建权重的小输入；E=0整图和旧t六次首项零域保留，0fc同D投影冻结。
 
 [Haar解析理想像](results/R12-appendix-analytic-ideal-rosenblum-images-and-forced-source-divergence.md)只给同g循环闭包，有限Sobolev来源球距g正、逼近源范数发散；[新非对称双幂的精确局部分类](results/R12-appendix-local-asymmetric-polynomial-orbits-and-actual-haar-source-exclusion.md)进一步排除原Haar所有非常数解析单位化及其伴随的非零多项式增长来源。完整同向量恒等式和局部有限阶分布证明已付；这些限制不涵盖紧扰动或负整数边界。Rosenblum实际零点/ideal来源、真实Green范围、非循环g及未知闭根域继续。
 

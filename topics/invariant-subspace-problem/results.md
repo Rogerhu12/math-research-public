@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：一般两线行列式非零图的完整原值六维返回](results/R150-appendix-unit211-general-delta-nonzero-monic-six-full-original-value-return.md)：八条原mean/N1及两谱个别N/P全部T≤5，真实72.253秒/exit0；原D/E分列几何幂、不倒Phi或范数，同点双向返回，未宣排空。
+
 - [R150：W 整余图原 D 清分母后的完整十条两列方程](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-original-D-cleared-two-generator-system.md)：原第三矩唯一恢复 s，保两矩、两谱个别 N/P 与六物理单位；实际43.084秒/exit0，不倒范数，全部旧首项零面保留。
 
 - [全余 W 十原值的完整四生成表示](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-native-full-value-four-generator-system.md)：原mean、第三矩、Delta/compat和个别NP两谱十行、八真乘法全实际返回；4.955秒/exit0，旧失败门冻结；续原D清分母的两列系统。
