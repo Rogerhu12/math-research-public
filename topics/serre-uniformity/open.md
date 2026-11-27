@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-local-QC.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-original-mixed-coefficient.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -34,17 +34,15 @@
 
 [R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，待CM首log与α回执才读实际行秩。
 
-[R1104](results/R1104-certified-original-level47-graded-RR-ring-and-degree167-pencil.md)：run45964526314/job140389923921，33.300秒，原L²至L⁵维262/429/596/763及全23 cusp核239/406/573/740已认证。前两section无共同零，原degree167可分pencil；836原cusp jets可供colon/Miller，实际α仍待读。
-
-[R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。全角/α/CM坐标继续。
-
-[R1106](results/R1106-certified-original-all73-angle-actions-and-two-generators.md)：run45969880122/job140407429635，66.005秒；CM76全73循环det1693，原23角实际坐标/全组合律/trace齐备。ZA=13R0+4R2、ZB=2R4−7R0在全部28块无共同零，生成整T；不代QC行秩。
+[R1104–06](results.md)已认证原L≤5/836jets与degree167可分pencil、八CM×16切向全unit及全部23角的真实73维作用；ZA/ZB生成整T。run45964526314/45968484065/45969880122，原source/hash、coarse/tag、FLINT隔离和id196普通25项链更正保索引及前态。只消费，整代数生成不代QC行秩。
 
 [有限Miller请求](notes/2026-11-27-full-p47-finite-third-kind-method.md)：原L≤5/836jet、真实closed支撑/八coarse ratio一阶、初始h f0/s、signed N链及终点正加均已付；首4例0/141×ZA/ZB，4核18000/120。只读新α，余12例随后续；q² CM坐标并行。
 
 [R1108](results/R1108-original-CM-first-log-mod-q2-and-finite-residue-algebra.md)：原q²首log residue-trace与末端强制归一已证；两pencil必须同时核。八CM归约四基本类；[q²方法](notes/2026-11-27-full-p47-modq2-CM-log-method.md)及四CM原源/KM/trace新请求已推，4核18000/120；新值待回执。
 
 ## O1：全p同一真实本原标签的临界非零
+
+[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。
 
 [R1079](results/R1079-original-CM-Psi-zeta-short-carry.md)付两种CM的原Ψ=Z_<p^p+δT modT^(p²)，含原微分/CM角色/短ζ分母/负p极代换。原G单位现可作Ψ指定高系数，但不是短η_k/ν_k；真实三平移和Gaussian近p²下位卷积仍开。
 

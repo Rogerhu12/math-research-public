@@ -1,5 +1,6 @@
 # 结论索引
 
+- **R1114（已证明）**：[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。
 - **R1112（已证明）**：[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)：原全部good圆单位同时非零的辅助素密度=(1−1/p)^d/(p−1)，split-K中>1/2；可附加真p互素Galois分裂条件，整个global标签localization同构。未付有效最小素或同点曲线像排除。 §8还付原full47八CM普通、三实际Hecke域全split与十圆单位非零可同素满足；不付该素的高度/log单位。
 - **R1111（已证明）**：[R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原r2规范p-block公因子恰M D (b³−1)^(2ε)，其中ε=1 iff原f_N=0；清除后真映射全部分歧已付，三CM指数ell+1−2ε。尚未排ε=1，不代bare范数。
 - **R1071（已证明）**：[R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：完整实际V各p盘标签=原ψ_c dlog有限多项式，所有高log、pole、full-source、Weil/circular尺度及coarse twists已付。§§11–15用同marked first lift模p²确定原eigen-T formal-log至N+1<p²，source u_*给λ=−1，有限Miller实际计算γ并支付跨SS相位，无reversion residue读A_d。Lucas将degree缩为min(R,p−R)，forced≤2j+1；顶项Cartier降阶及低A4/A6给精确generic非零来源。good角色有唯一global候选，一般p的有效aux共同像仍开；固定p47现由R1074限为八CM标签。 §16原j0首forced完整coarse斜率准确为β₀^(p(p−5))λ³G_(p−5)/(6bχ)，原κ相消及同源F⁷有限式已付，此Hurwitz单位已由R1075闭合，原f_N/e不随之闭合。 §17同marked first-lift的原t_*由Hasse梯度准确读出，并支付p47八个已知Q-CM输入及新旧profile整向量核验。

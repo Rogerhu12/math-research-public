@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：afd0ad3b95dc22c1354b29a8bb56476b0215cdae**（2026-11-27 18:46 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：e4f22fb07d4f0c4ef5606fc82961976c2d4f9251**（2026-11-27 18:54 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；18:18再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-global-Frobenius-selection.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[最新逐字前态](handoff-archive-2026-11-27-before-original-mixed-coefficient.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -30,13 +30,9 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1102](results/R1102-certified-original-level47-complete-first-global-height.md)：run45962228077/job140382522990，1838.859秒，全部73个原基高度齐备；28块全unit，Norm(κ/a)=2992，det(q⁻¹h)=3972 mod4513，原16个log系数已读。n1/143直接消费，只新算71值；不推八盘唯一。
 
-[R1104](results/R1104-certified-original-level47-graded-RR-ring-and-degree167-pencil.md)：run45964526314/job140389923921，33.300秒，原L²至L⁵维262/429/596/763及全23 cusp核239/406/573/740已认证。前两section无共同零，原degree167可分pencil；836原cusp jets可供colon/Miller，实际α仍待读。
+[R1104–06](results.md)已认证原L≤5/836jets与degree167可分pencil、八CM×16切向全unit及全部23角的真实73维作用；ZA/ZB生成整T。run45964526314/45968484065/45969880122，原source/hash、coarse/tag、FLINT隔离和id196普通25项链更正保索引及前态。只消费，整代数生成不代QC行秩。
 
 [R1103](results/R1103-original-CM-tangents-finite-field-third-kind-and-QC-first-jets.md)：原α、整尾t(B+At)及全部非q消失已证；[完整首行消费者](notes/2026-11-27-full-p47-QC-first-rows-method.md)已推，待CM首log与α回执才读实际行秩。
-
-[R1105](results/R1105-certified-original-eight-CM-tangents.md)：run45968484065/job140402824955，11.858秒，八CM×16原一次块切向全部unit；同原tag/Weil2/完整Reynolds及coarse尺度。v2隔离Sage/flint后成功；id196普通trace94仍测25条项链，真tag唯一。α/CM坐标继续。
-
-[R1106](results/R1106-certified-original-all73-angle-actions-and-two-generators.md)：run45969880122/job140407429635，66.005秒；CM76全73循环det1693，原23角实际坐标/全组合律/trace齐备。ZA=13R0+4R2、ZB=2R4−7R0在全部28块无共同零，生成整T；不代QC行秩。
 
 [有限Miller](notes/2026-11-27-full-p47-finite-third-kind-method.md) run45973334832/job140418866621：0/141×ZA/ZB首4例仍运行，18000/120；原closed支撑/ratio/signed N和终点已付，只读完整新α。余12例随后续。
 
@@ -65,6 +61,8 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 [R1109](results/R1109-original-Dixon-first-divided-Gross-Koblitz-layer.md)：原Dixon函数1−p的完整模p²/首除层已证；保全部三块λ1、Wilson/harmonic carry及原有理U0。与短η/ν的准确比较仍开。
 
 [R1111](results/R1111-original-p-block-common-factors-and-canonical-rational-map.md)：原r2规范p-block公因子恰M D (b³−1)^(2ε)，其中ε=1 iff原f_N=0；清除后真映射全部分歧已付，三CM指数ell+1−2ε。尚未排ε=1，不代bare范数。
+
+[R1114](results/R1114-original-Gaussian-adjacent-mixed-coefficient-unit.md)：原Gaussian W=F⁶G的相邻系数满足5W_n+4W_(n−1)=144a(−a)^−k/δ³单位；原尺度给5H_p+(8a²/45)K_p=16G_(p−3)，故H_p=0时K_p=36/(aδ³)单位。K_p为同源混合系数，至另一真实forced标签的桥仍开，未单证H_p单位。
 
 ## O2：原高近p值
 
