@@ -1,0 +1,993 @@
+{
+  "schema": "isp-W-J19-entire-quartic-original-Gram-success-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "driver": {
+    "elapsed_seconds": 0.8390514050000064,
+    "max_child_rss_kib": 39988,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "3cd1fe5367a6bd09b8ce1599557232d64ef1d758",
+        "before": "3cd1fe5367a6bd09b8ce1599557232d64ef1d758",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T11:27:59.800798+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "45990662128",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "3cd1fe5367a6bd09b8ce1599557232d64ef1d758",
+    "source_exit_code": 0,
+    "source_git_blob": "2e87eea78e69fe03e576e77457a3514560707a5c",
+    "source_sha256": "267e17cb7b139fa80c3267724c7583b9f528cd173c967ce6c6bda818f1837bc6",
+    "stdout_bytes": 12693,
+    "stdout_sha256": "f40ba2c1c6abfb73f64ecca9dbabbb0d4bf9bf77456b266f58852806cbdab992",
+    "stop_reason": null
+  },
+  "jobId": 140477369366,
+  "mathematicalRecords": [
+    {
+      "stage": "new_J19_entire_quartic_weight_algebra",
+      "relationLeading": "16*k^3, original paid unit",
+      "basis": [
+        "1",
+        "e",
+        "e^2",
+        "e^3"
+      ],
+      "allOriginalWeightAndWProductsActuallyVerified": true,
+      "noIrreducibilityAssumption": true,
+      "allNormZeroKFibersRetained": true,
+      "inverseCount": 3,
+      "claimExcluded": false,
+      "seconds": 0.009175044000002686
+    },
+    {
+      "stage": "new_J19_original_six_Gram_rows",
+      "originalE0N0P1AndRawN4P2DefinitionsActuallyRebuilt": true,
+      "bothWeightedNSPSDefinitionsFromSameOriginalGram": true,
+      "originalRows": [
+        {
+          "name": "E1",
+          "totalDegree": 2,
+          "monomials": 8,
+          "maxNumeratorKDegree": 13,
+          "maxDenominatorKDegree": 13
+        },
+        {
+          "name": "EBe",
+          "totalDegree": 2,
+          "monomials": 9,
+          "maxNumeratorKDegree": 8,
+          "maxDenominatorKDegree": 6
+        },
+        {
+          "name": "EBo",
+          "totalDegree": 2,
+          "monomials": 9,
+          "maxNumeratorKDegree": 10,
+          "maxDenominatorKDegree": 10
+        },
+        {
+          "name": "N1",
+          "totalDegree": 2,
+          "monomials": 10,
+          "maxNumeratorKDegree": 21,
+          "maxDenominatorKDegree": 19
+        },
+        {
+          "name": "NS",
+          "totalDegree": 3,
+          "monomials": 20,
+          "maxNumeratorKDegree": 34,
+          "maxDenominatorKDegree": 33
+        },
+        {
+          "name": "PS",
+          "totalDegree": 3,
+          "monomials": 20,
+          "maxNumeratorKDegree": 34,
+          "maxDenominatorKDegree": 33
+        }
+      ],
+      "allScalarNormZeroFibersRetained": true,
+      "claimExcluded": false,
+      "seconds": 0.6555571580000077
+    },
+    {
+      "stage": "new_J19_original_binary_heads_exactly_returned",
+      "headE1": "2(1-2ell)x^2+4bc*x*t",
+      "headEBe": "ell*(t^2-2*x*t)/2",
+      "headN1": "u*H1-4u*bc*HB/ell-4P02*lambda_h*(lambda-T)_h",
+      "fullOriginalCoefficientIdentitiesVerified": true,
+      "binaryHeadDeterminantExactlyZeroOnWholeQuartic": true,
+      "physicalHighestDirectionNotClaimedFiniteSolution": true,
+      "claimExcluded": false,
+      "seconds": 0.6643541859999971
+    },
+    {
+      "stage": "new_J19_complete_original_quartic_Gram_input",
+      "sourceSHA256": "267e17cb7b139fa80c3267724c7583b9f528cd173c967ce6c6bda818f1837bc6",
+      "baseParameter": "k",
+      "wholeQuarticEConstraint": true,
+      "allOriginalGramRowsReturned": true,
+      "all48MacaulayRowsActuallyMultipliedBack": true,
+      "monomialColumns": 35,
+      "matrixCertificateBytes": 426729,
+      "matrixCertificateSHA256": "5a8c265ccba5005f392ea9d681e6e389e482ab515022af7926452cf6c08d5562",
+      "genericScalarInverseCount": 10,
+      "scalarNormZeroCover": {
+        "degree": 15,
+        "bytes": 149,
+        "sha256": "e9f9d85b091ff5f721e21b156011486c5b9404b1fd84c5f2ffeef5f888b12686",
+        "reduction1009": [
+          98,
+          833,
+          521,
+          394,
+          407,
+          65,
+          313,
+          123,
+          273,
+          35,
+          210,
+          166,
+          931,
+          148,
+          21,
+          1
+        ],
+        "coefficients": [
+          "-131072",
+          "-1114112",
+          "-4028416",
+          "-8307712",
+          "-11113728",
+          "-10381536",
+          "-7079840",
+          "-3611088",
+          "-1385084",
+          "-392466",
+          "-77483",
+          "-8915",
+          "-78",
+          "148",
+          "21",
+          "1"
+        ]
+      },
+      "onlyOriginalKZeroRemoved": true,
+      "completeScalarNormZeroFibersStillRequireOriginalReturn": true,
+      "inverseReceipts": [
+        {
+          "index": 0,
+          "inputSHA256": "100b4a65d9a282969abd7c91e7f5ee34e0d8b120da423767a619fd2c021bd5ec",
+          "normNumerator": {
+            "degree": 9,
+            "bytes": 53,
+            "sha256": "08a9894d92a2a370ca844634f2ec98e5ba348cfa816c6f9b9b3fac9274d8537c",
+            "reduction1009": [
+              0,
+              0,
+              0,
+              0,
+              128,
+              176,
+              100,
+              29,
+              761,
+              757
+            ],
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "128",
+              "176",
+              "100",
+              "29",
+              "17/4",
+              "1/4"
+            ]
+          },
+          "normDenominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "reduction1009": [
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 6,
+            "bytes": 38,
+            "sha256": "ead053105ae38c9a4d488d4720622ce21f1d1da7af6473e7e25e983342866ab0",
+            "reduction1009": [
+              0,
+              512,
+              704,
+              400,
+              116,
+              17,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "512",
+              "704",
+              "400",
+              "116",
+              "17",
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 1,
+          "inputSHA256": "02d018fa0908c8997df19f626afbdb4e4962de11ba1bf93d3dbffb90c7a54509",
+          "normNumerator": {
+            "degree": 6,
+            "bytes": 48,
+            "sha256": "8bfef72fe9f18244f833eff8addb5ac0820e980a1b1cc58567c519c70581b4e5",
+            "reduction1009": [
+              1008,
+              1004,
+              1000,
+              749,
+              438,
+              756,
+              63
+            ],
+            "coefficients": [
+              "-1",
+              "-5",
+              "-9",
+              "-31/4",
+              "-55/16",
+              "-3/4",
+              "-1/16"
+            ]
+          },
+          "normDenominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "reduction1009": [
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 6,
+            "bytes": 37,
+            "sha256": "71c57bf99bb502cc6865d0873096833de24ec00015dc312bb70eb34edc884ca4",
+            "reduction1009": [
+              16,
+              80,
+              144,
+              124,
+              55,
+              12,
+              1
+            ],
+            "coefficients": [
+              "16",
+              "80",
+              "144",
+              "124",
+              "55",
+              "12",
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 2,
+          "inputSHA256": "e8086cb2379970a5c87dd15e15c0bee756e5ab5696aaddb153875b53ab134965",
+          "normNumerator": {
+            "degree": 0,
+            "bytes": 7,
+            "sha256": "44928603bf7fb1cfd4549dfcf76c562fb6561265cb8603954e52ffc5edd9f758",
+            "reduction1009": [
+              256
+            ],
+            "coefficients": [
+              "256"
+            ]
+          },
+          "normDenominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "reduction1009": [
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "reduction1009": [
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 3,
+          "inputSHA256": "29fdde7046cf78caf020f0cdfa1c1c7b34b0c644a66a56132ae243f2ed970f67",
+          "normNumerator": {
+            "degree": 0,
+            "bytes": 6,
+            "sha256": "3d2f323697bf5f150cb2c41dd9deb48e49b793e1be62c52d2f12d116a18e6ffa",
+            "reduction1009": [
+              16
+            ],
+            "coefficients": [
+              "16"
+            ]
+          },
+          "normDenominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "reduction1009": [
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "reduction1009": [
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 4,
+          "inputSHA256": "bcfc0c6e47fc1bb06c8517045f2db85819b93a4fcea5795ff222421b31d26fa3",
+          "normNumerator": {
+            "degree": 6,
+            "bytes": 44,
+            "sha256": "3eefd2b8175a4827a29e04711aba497acf71404cdbaa32b7e0c89d7f4d1b27f8",
+            "reduction1009": [
+              993,
+              929,
+              865,
+              885,
+              954,
+              997,
+              1008
+            ],
+            "coefficients": [
+              "-16",
+              "-80",
+              "-144",
+              "-124",
+              "-55",
+              "-12",
+              "-1"
+            ]
+          },
+          "normDenominator": {
+            "degree": 0,
+            "bytes": 5,
+            "sha256": "43de3a417d75f4818c5a553268b80ce3a5805109a3bbc6b605e9fb0b8f50b485",
+            "reduction1009": [
+              1
+            ],
+            "coefficients": [
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 6,
+            "bytes": 37,
+            "sha256": "71c57bf99bb502cc6865d0873096833de24ec00015dc312bb70eb34edc884ca4",
+            "reduction1009": [
+              16,
+              80,
+              144,
+              124,
+              55,
+              12,
+              1
+            ],
+            "coefficients": [
+              "16",
+              "80",
+              "144",
+              "124",
+              "55",
+              "12",
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 5,
+          "inputSHA256": "6ea17b833940bbb4903202249edf9733ab32e46b2e7fcc447369c1e91bc0acb6",
+          "normNumerator": {
+            "degree": 3,
+            "bytes": 20,
+            "sha256": "2c97137c9692724042ee775dcc18beb99b59ae55858a3876f1f4eaf5fe20dacc",
+            "reduction1009": [
+              32,
+              56,
+              28,
+              4
+            ],
+            "coefficients": [
+              "32",
+              "56",
+              "28",
+              "4"
+            ]
+          },
+          "normDenominator": {
+            "degree": 2,
+            "bytes": 13,
+            "sha256": "9a3f42696a4b4eda914f79988ba631be3c564e62690ac8c886eb5126db11ee7c",
+            "reduction1009": [
+              0,
+              0,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 4,
+            "bytes": 22,
+            "sha256": "b64bbc20e50fc3b4987f535788dc2e2cae013f1b23c84973d119e1fcb5c1071e",
+            "reduction1009": [
+              0,
+              8,
+              14,
+              7,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "8",
+              "14",
+              "7",
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 6,
+          "inputSHA256": "93d6dcc38766218d06cf9b5109fb5e3c23d2eb0b57880e7fa5d737eb257b4c84",
+          "normNumerator": {
+            "degree": 18,
+            "bytes": 183,
+            "sha256": "dae07081c7860d328843ff703649935d45966cc8d002ea17dcb965cf40d78a78",
+            "reduction1009": [
+              960,
+              257,
+              894,
+              439,
+              219,
+              359,
+              834,
+              982,
+              968,
+              313,
+              16,
+              369,
+              436,
+              723,
+              589,
+              99,
+              12,
+              646,
+              268
+            ],
+            "coefficients": [
+              "65536",
+              "499712",
+              "1714176",
+              "3577344",
+              "5155200",
+              "5498400",
+              "4527208",
+              "2953316",
+              "1548774",
+              "656163",
+              "447019/2",
+              "240609/4",
+              "49167/4",
+              "1732",
+              "3713/32",
+              "-727/64",
+              "-241/64",
+              "-25/64",
+              "-1/64"
+            ]
+          },
+          "normDenominator": {
+            "degree": 10,
+            "bytes": 45,
+            "sha256": "1b4b40bfe1bc4a590df60624bd985d6b1eb55e7061f309ca140bf435b223301a",
+            "reduction1009": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              8,
+              5,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "8",
+              "5",
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 19,
+            "bytes": 204,
+            "sha256": "61b7cd2ba9809a265183a49a2cd1bc6e9c6af2fa67fe88d520754907cd74aeb9",
+            "reduction1009": [
+              0,
+              218,
+              851,
+              521,
+              200,
+              198,
+              418,
+              613,
+              173,
+              476,
+              361,
+              368,
+              504,
+              744,
+              86,
+              311,
+              108,
+              287,
+              27,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "-8388608",
+              "-61865984",
+              "-204472320",
+              "-410517504",
+              "-569081856",
+              "-584220672",
+              "-463321088",
+              "-291234560",
+              "-147131904",
+              "-59983680",
+              "-19614592",
+              "-5044496",
+              "-975968",
+              "-127048",
+              "-6752",
+              "1117",
+              "287",
+              "27",
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 7,
+          "inputSHA256": "b9937a7e90083f98b6d97042ed8e888d27b3c8ae6fcbf1a89c585c6a32f8439d",
+          "normNumerator": {
+            "degree": 23,
+            "bytes": 295,
+            "sha256": "4fdc2ec8ffbefafe45bed57d2bfbbbda0718835900dd278471aa4faabb2f4bee",
+            "reduction1009": [
+              392,
+              452,
+              182,
+              126,
+              426,
+              854,
+              579,
+              16,
+              989,
+              362,
+              253,
+              218,
+              224,
+              909,
+              479,
+              540,
+              613,
+              315,
+              558,
+              749,
+              350,
+              439,
+              675,
+              740
+            ],
+            "coefficients": [
+              "-524288",
+              "-4653056",
+              "-19136512",
+              "-49172480",
+              "-89447424",
+              "-123393792",
+              "-134756416",
+              "-119869184",
+              "-88541788",
+              "-55010318",
+              "-28973182",
+              "-25964161/2",
+              "-19782567/4",
+              "-12747497/8",
+              "-3433831/8",
+              "-1513941/16",
+              "-524235/32",
+              "-259353/128",
+              "-31709/256",
+              "3061/256",
+              "4241/1024",
+              "531/1024",
+              "35/1024",
+              "1/1024"
+            ]
+          },
+          "normDenominator": {
+            "degree": 9,
+            "bytes": 41,
+            "sha256": "884224928416e8a4a178538634c44c92b33bae070a38eb9187ac812e8e778b79",
+            "reduction1009": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              8,
+              5,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "8",
+              "5",
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 25,
+            "bytes": 309,
+            "sha256": "e178d9251d532165d488b378a45cc627e7549355c1ee19e71b1a3bc99120c845",
+            "reduction1009": [
+              0,
+              0,
+              661,
+              530,
+              513,
+              348,
+              434,
+              346,
+              395,
+              589,
+              739,
+              755,
+              342,
+              699,
+              438,
+              479,
+              768,
+              742,
+              880,
+              995,
+              443,
+              704,
+              126,
+              597,
+              37,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "0",
+              "-1073741824",
+              "-9261023232",
+              "-36943429632",
+              "-92031418368",
+              "-162348924928",
+              "-217333104640",
+              "-230492209152",
+              "-199241269248",
+              "-143085969408",
+              "-86451542016",
+              "-44276588544",
+              "-19283275776",
+              "-7133861632",
+              "-2228596992",
+              "-580602048",
+              "-123248608",
+              "-20372848",
+              "-2350984",
+              "-115592",
+              "18866",
+              "5171",
+              "597",
+              "37",
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 8,
+          "inputSHA256": "6f1d7af69a815ec2d80c555cc1f056400e9aed227920fda12e248739182ebded",
+          "normNumerator": {
+            "degree": 18,
+            "bytes": 187,
+            "sha256": "bdb50ad22152066fd8a5a39153d3a00b8a8d636a1ebfe5cdc884236d8a612f48",
+            "reduction1009": [
+              225,
+              76,
+              178,
+              970,
+              477,
+              699,
+              227,
+              577,
+              353,
+              972,
+              256,
+              859,
+              922,
+              469,
+              343,
+              575,
+              192,
+              246,
+              252
+            ],
+            "coefficients": [
+              "1048576",
+              "7995392",
+              "27426816",
+              "57237504",
+              "82483200",
+              "87974400",
+              "72435328",
+              "47253056",
+              "24780384",
+              "10498608",
+              "3576152",
+              "962436",
+              "196668",
+              "27712",
+              "3713/2",
+              "-727/4",
+              "-241/4",
+              "-25/4",
+              "-1/4"
+            ]
+          },
+          "normDenominator": {
+            "degree": 10,
+            "bytes": 45,
+            "sha256": "1b4b40bfe1bc4a590df60624bd985d6b1eb55e7061f309ca140bf435b223301a",
+            "reduction1009": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              8,
+              5,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "8",
+              "5",
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 19,
+            "bytes": 204,
+            "sha256": "61b7cd2ba9809a265183a49a2cd1bc6e9c6af2fa67fe88d520754907cd74aeb9",
+            "reduction1009": [
+              0,
+              218,
+              851,
+              521,
+              200,
+              198,
+              418,
+              613,
+              173,
+              476,
+              361,
+              368,
+              504,
+              744,
+              86,
+              311,
+              108,
+              287,
+              27,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "-8388608",
+              "-61865984",
+              "-204472320",
+              "-410517504",
+              "-569081856",
+              "-584220672",
+              "-463321088",
+              "-291234560",
+              "-147131904",
+              "-59983680",
+              "-19614592",
+              "-5044496",
+              "-975968",
+              "-127048",
+              "-6752",
+              "1117",
+              "287",
+              "27",
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        },
+        {
+          "index": 9,
+          "inputSHA256": "6199f5e234ded6d201f84fda6665d52851536c43d72ecf9584a9d6081de02f32",
+          "normNumerator": {
+            "degree": 3,
+            "bytes": 27,
+            "sha256": "dd152071ff42310c3bbc09ee473b9bf248abb62990f8369063dea0a6778d2b39",
+            "reduction1009": [
+              1007,
+              501,
+              755,
+              252
+            ],
+            "coefficients": [
+              "-2",
+              "-7/2",
+              "-7/4",
+              "-1/4"
+            ]
+          },
+          "normDenominator": {
+            "degree": 3,
+            "bytes": 17,
+            "sha256": "af75be6591427994b79c5eea26702564c0ced0e18c95415c8c54d46617c7ab27",
+            "reduction1009": [
+              0,
+              8,
+              5,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "8",
+              "5",
+              "1"
+            ]
+          },
+          "outputDenominator": {
+            "degree": 6,
+            "bytes": 33,
+            "sha256": "2c8e3255fb521fe2dbba53e5cda902a874b6d31c259bdc8eeaa73d1c9799d2a9",
+            "reduction1009": [
+              0,
+              0,
+              32,
+              64,
+              42,
+              11,
+              1
+            ],
+            "coefficients": [
+              "0",
+              "0",
+              "32",
+              "64",
+              "42",
+              "11",
+              "1"
+            ]
+          },
+          "allFourInverseProductsActuallyOne": true,
+          "allScalarNormZeroFibersRetained": true
+        }
+      ],
+      "rankNotComputed": true,
+      "noParameterCofactorYet": true,
+      "noWholeJ19ExclusionClaim": true,
+      "claimExcluded": false,
+      "peakRssKiB": 39988,
+      "seconds": 0.760833636000001
+    }
+  ],
+  "allFiniteNormZeroFibersRetained": true,
+  "rankNotComputed": true,
+  "completeJ19ExclusionClaim": false,
+  "sourcePath": "notes/2026-11-27-unit211-generic-LS-W-J19-entire-quartic-original-Gram-input-8542.py"
+}

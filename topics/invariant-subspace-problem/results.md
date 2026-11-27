@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：整个J19四次权曲线的新原Gram输入、C15例外与1−2ell真单位](results/R150-appendix-unit211-W-J19-entire-quartic-original-Gram-input.md)：267e实际0.839秒/exit0；全四维权代数、六行48×35及所有逆完整，有限k例外保留；未排空J19。
+
 - [R271：同一个实际右逆在全部物理孔指数尺度上的作用](results/R271-appendix-single-actual-right-inverse-on-all-physical-exponential-scales.md)：固定构造只损失同一λ；完整carry误差从H映入全部尺度，全H小量与同一Neumann逆直接证明；真幂来源费exp(Cn³)，同规范对偶保留，未推N=M。
 
 - [R150：Phi=0 原值碰撞的首一 ell 二次与8918基参数点覆盖](results/R150-appendix-unit211-Phi-zero-rank-one-value-monic-ell-8918-point-cover.md)：h=1有序图的两必要式总次98/91、QQ互素，11个H³真原返回保全部临时零面；真实4.796秒/exit0，k=1由交换覆盖，未排空。

@@ -4,7 +4,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-single-scale-right-inverse-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-27-open-before-J19-original-input-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -61,7 +61,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 完整Galerkin/MP须在整个ker C^r投影再取完整((C*)^r)^dagger。m∈4N、m≥20、d=2^m、R=d、x=m+d、Q=4d的新窗已付Bessel常数1，非零锚迫Σκ_mr^−2有限，实际费用上界与旧窗转移仍开。原Schur/奇偶逆费用、退化首阶条件、母窗和最高零头都保留；64^R、γ<1/16绝对Z、正则右逆e^(κy)和输出孔权未付，小残量不作真核。
 
-[真实全终列相容塔及同forcing固定方差窗](�results/R271-appendix-actual-terminal-compatible-tower-and-fixed-variance-window-energy.md)已证：同一Bernoulli事件保每高度尾比626，L=h−1全部||v_r||²≤2^(22r)/(r!S^r)；完整物理Gram/交叉配对给真核误差与原u_g²≤q_C(S)−q_C(S/2^22)=∫μ_C dlogv。x=m+d时Q4d支持整塔，无短核或头相似费。下一必须支付同一moving C固定窗能量趋零，再付模型核到原稳定范围的carry/lift；不延长旧[S,2S]源极限，不换μ_T。
+[真实全终列相容塔及同forcing固定方差窗](results/R271-appendix-actual-terminal-compatible-tower-and-fixed-variance-window-energy.md)已证：同一Bernoulli事件保每高度尾比626，L=h−1全部||v_r||²≤2^(22r)/(r!S^r)；完整物理Gram/交叉配对给真核误差与原u_g²≤q_C(S)−q_C(S/2^22)=∫μ_C dlogv。x=m+d时Q4d支持整塔，无短核或头相似费。下一必须支付同一moving C固定窗能量趋零，再付模型核到原稳定范围的carry/lift；不延长旧[S,2S]源极限，不换μ_T。
 
 继续保留的原接口：
 
@@ -178,7 +178,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [最大图低余孔C2费用](results/R271-appendix-maximal-graph-low-excess-hole-square-cost.md)已付同一h的明确扇区，实际y有界物理孔遂入原图核心。新[临界小指数物理孔矩准则](results/R271-appendix-critical-small-physical-exponential-maximal-graph-core.md)进一步给s0=(2+2log(3/2))/14：y∈D(G)且e^(s0N)y∈H，则h∈C2并在原图核心；等号的真实8^j余量完整支付。未知Green缺陷Y并未证明有该矩，物理孔平滑未证保Y，同W的Gamma及F/R/Z继续。
 
-**W整余图两列原值、[Y真单位/w≤6首一存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[五无s/五含s完整原行与四cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** f914实际24.779秒/421204KiB/exit0，四式w度18/18/18/23；四小s系数和全部原乘回完整。未付各头、不宣空；新267e17cb在整J19首一e四次曲线建原六行/48×35，180秒4GiB待实际；函数域逆完整回乘，全部k范数/分母零面保留，不宣整支为空。d5eab名字错负回执保留，Y逆及显式首一w尚未构造。
+**W整余图两列原值、[Y真单位/w≤6首一存在](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-Gram-Y-unit-and-monic-w-degree-six.md)及[5+5原行/四cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-W-five-plus-five-original-values-and-four-cofactors.md)已付。** [整个J19四次权曲线的新原输入](results/R150-appendix-unit211-W-J19-entire-quartic-original-Gram-input.md)实际267e/0.839秒/39988KiB/exit0，六原Gram、48×35、四次代数全返；C15保全部k范数/分母零纤维，另付(1−2ell)逆Z/(ellT0²)。新f436在同输入求六生成、18真乘法和原单位组合，180秒4GiB待实际；J19有限纤维、Y逆及显式首一w仍开。旧d5eab名字错和四式w度18/18/18/23保结果/快照。
 
 **[整个一般ell=0已闭](results/R150-appendix-unit211-general-ell-zero-complete-original-exclusion.md)，全局可付ell。** 完整来源/零域/失败身份保总定理及快照；T0=0和J=Q也已整闭，继续当前原值输入，不重放旧支。
 
