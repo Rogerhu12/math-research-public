@@ -2,11 +2,11 @@
 
 维护：Astra-larger-e4e2a2bf-20261126（AI），接手Astra-larger-resume-24b2ab87-20261120。**未完成，持续工作；不以阶段、时长或某输入困难收尾。**
 
-本次缩短前完整状态保[199c全文](https://github.com/Rogerhu12/math-research-public/blob/199c53b1fb230f1c7fed4f94e3e1dbe5a62f9673/topics/visible-flex-larger-amplitude/HANDOFF.md)，未删原责任。
+本次缩短前完整状态保[5fc全文](https://github.com/Rogerhu12/math-research-public/blob/5fcddc1c8a2f55303df862c47d5c362c173aadaa/topics/visible-flex-larger-amplitude/HANDOFF.md)，含199c/8b6链，原责任不删。
 
 ## 规则和全部历史
 
-root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`a20c1446867982b8c85c89a4147c712d7160ac15`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
+root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21 UTC执行环境失联，恢复即真拉取。云核至`941c7f7713bf1c829ed67275993a24f4b222ebbf`（非pull），双README SHA `581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102` / `3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d`无变。每次真实pull后核差异、至少每小时一次；活10每次pull记末块。私库QUEUE进行中已推`e8b9eb054e26b3614e5a1b080c87b4ad35e74a47`。
 
 科学只本公开仓库Actions；root唯一ref写者，完整结论即普通推；不强推，NFF真终端立即rebase循环。无终端时云普通HEAD保全合并，不冒pull。raw仅runner/scratch，不入Git/Release/artifact、不改名输入；保存完整源、全参数、run/hash。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB。令牌仅瞬时CLI。根12禁止独立审核/冻结/AST/fixture/重跑等新门，实际全数学与原完成条件不减。
 
@@ -40,14 +40,13 @@ root最后真实pull/rebase：`eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21
 
 R248只活动像；固定p4需共同R650或全部mixed pairs。均值J≠normal Cu，中央Fss≠K。完整source/参数/全raw端口/signed-u/Cartesian帽/Θ0共轭保固定前H/open及[R716](results/R716-asymmetric-fixed-caps-and-centred-volume-moment.md)。共同正A不是变更g的仿射操作；全upper/lower/缝/两帽和各phase、全变量与准确六jet不可省。
 
-[新Fejér六准确源/两全参数](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)已刊未跑：normal1a915/geometryfcae/bridgeff77，全部1024角胞/32stage/径向/六jet，原38/8argv和36/44selectors全保，仅加4范数读数。[新完整closed d606](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)及8argv/57读数已刊未跑：全端口/反射/两帽/全phase/整像min/固定grip/共同R650与独立未标记外管保；新全矩与mesh/精化续接。10原全族仍保固定前H/open。原e711精化计划不能自动冒新Fejér同g精化。全13成员真final.npz/完整report、独立未标记外管、R716全V/m/Q/正V和非零BeffA2、共同全域β/support/K、整像Hausdorff和working字费用仍欠。
+[新Fejér六准确源/两全参数](notes/2026-11-27-fixed-fejer-complete-normal-sixjet-and-continuous-geometry-fees.md)已刊未跑：normal1a915/geometryfcae/bridgeff77，全部1024角胞/32stage/径向/六jet，原38/8argv和36/44selectors全保，仅加4范数读数。[新完整closed d606](notes/2026-11-27-fixed-fejer-closed-phase-grip-source-adapter.md)及8argv/57读数已刊未跑：全端口/反射/两帽/全phase/整像min/固定grip/共同R650与独立未标记外管保；[新完整全矩31a83/7cde](notes/2026-11-27-fixed-fejer-complete-R716-closed-flux-centred-moments.md)已刊未跑，10/8argv、原33/59读数全保各加math身份；全十二通道/三相/独立未标记外管/正V/非零矩仍须真付。mesh/精化接续。10原全族仍保固定前H/open。原e711精化计划不能自动冒新Fejér同g精化。全13成员真final.npz/完整report、独立未标记外管、R716全V/m/Q/正V和非零BeffA2、共同全域β/support/K、整像Hausdorff和working字费用仍欠。
 
 R717给整像目标全盒min（含z及两帽）和同完整leaf位置盒的D≤2max|F|；后者不把最宽core与最高帽虚拼。都是条件界/实现接口，未有数值。固定握持盘内点/diam.9条件已保，仍需真实D来付.2D；整像.2、含反射δE、全t reach、metric及真实精化未付。继续实际完整求解，不停在这些条件结果上。
 
 ## 历史运行和容量
 
-[08终态](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)：45929088658/1 cancelled，只1–10返，95559/typed/pure未知。最后真pull08:08:18→`812ff88bd83b5669770c0224269ee9dccfab7c9e`。
-[09终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)：45943410994/1 cancelled，只1–7返，ff544/aee/费未知；最后真pull10:36:31→`90a9e16ac40877b0b8674a1b8750b60e1cdeae95`。双README均无变，不猜取消因果。
+[08终态](notes/2026-11-27-run08-terminal-cancelled-with-unreturned-complete-field.md)45929088658/1只1–10返；[09终态](notes/2026-11-27-run09-terminal-cancelled-with-unreturned-complete-field.md)45943410994/1只1–7返，均cancelled；未返field/pure/typed/费用仍未知。最后真实pull、双README核验和全部原责任保两完整终态及5fc前H，不猜取消因果。
 
 [43保全](notes/2026-11-27-four-legacy-generated-records-retention-43.md)退4旧派生记录，原源/全参数/消费者/恢复链保，净约2MB。此前[42](notes/2026-11-27-three-coordinate-design-histories-retention-42.md)退3坐标轨迹、Nelder未删；41及33–40全ledger/正确warm-status/旧reader责任保固定前H。所有原字由已登记历史blob恢复，未读大体、未知SHA为null。
 
