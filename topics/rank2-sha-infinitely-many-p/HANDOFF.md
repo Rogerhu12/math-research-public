@@ -6,7 +6,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。固定有限曲线族联合无穷非零可用无限鸽巢；有限p、随p换曲线、条件桥、接口或单独投影非零不完成。
 
-- 公开根/课题 README 已读至 `e14f5fa7be195ee1bb1959f337e137346174c670`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
+- 公开根/课题 README 已读至 `eb8dff7a25c258e5c186c3f8a6952343fdd33f0e`（API差异空；最近确认实际pull为02:45UTC）；每次pull只读新差异，至少每小时同步并记SHA。
 - 两仓库已部分克隆。私库QUEUE接手提交41fe885610073f478b2f5a752461ca56cfd43f09已推；02:41UTC实际pull至b3d0029ecb318be56170fc764cad50ee2c7d4d42；04:26UTC API逐文件核至a4f3ff79494e88cc61bd186622d6dd00813b0937，两README逐文件差异空、QUEUE仍本会话进行中。令牌只进程认证。
 - root独占git/H/open/log/index；每条结论即推，非快进立即pull --rebase/读README差异/再推至成功，不强推。数学只用公开Actions；不存可重算输出。H<10KB、每MD<100KB。
 - [此次完整逐字归档](notes/2026-11-27-handoff-before-contiguous-curvature.md)及其历史链保全部旧式/回执/未解门；[open](open.md)、[results](results.md)、[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)及前卷为接续入口。
@@ -48,7 +48,7 @@ R1019原全η/忠实18次H及Cor后shadow被q+1杀，ordinary检测必q≡−1mo
 
 R1023原Hesse正反方程和B′≃B使B′→B准确为[δ]，deckρ为−T、F′φ=φ(−F)。实际αT=S3=(−1,ω²)，原cube类T拉回−S3、Yα=ℓ_-S3(−δGα)^3，不能自提升到同一三型。全[3]盖的两个立方根U/V已显式支付，ordered deck T:(U,ωV)、S3:(ωU,V)及常数无遗漏。继续该全盖的Frobenius图与全degree9/3迹，未构成Q或ordinary非零。
 
-R1027全q≥5的统一6Q(O_B)=0已付：同一图push纯实现δ、实际∞同源−δ、τ图pull及三挠修正均齐，独立Tate。只清原54图中b=O_B项，余有限CM fiber、P−转置/η/全Cor仍在。
+R1027全q≥5的统一6Q(O_B)=0已付：同一图push纯实现δ、实际∞同源−δ、τ图pull及三挠修正均齐，独立Tate。§7 full9真实图交换、c负号与Pic0对偶齐，54图成27对的正重数2，全η/Cor保。全部实际目标End=O34，O/B[2]特殊碰撞只在固定有限删集；一般有限CM评价仍待。
 
 
 02:51UTC执行环境失联，本地R1017稿25f3ec26d未推；已由云端非强制快进提交2af1bac937f2b5ddcb0762dd7b2b34860854647b替代。恢复后立即实际pull --rebase，保已发布远端证明，不重复未推本地稿；03:45UTC已到两仓下一小时，环境仍不可用，API读不冒充实际pull；恢复即补实际同步。数学仅公开Actions，唯一v9继续。

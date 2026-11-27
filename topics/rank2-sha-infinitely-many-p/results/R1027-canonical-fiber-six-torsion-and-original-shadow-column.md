@@ -329,3 +329,229 @@ $\operatorname{Cor}_{L/H}$ 全部保留并线性作用；没有删去非零项�
 结论(24)是整个几何 MW 的统一 canonical-fiber 限制。
 它不声称有限 CM fibers 的值也被6杀掉；原剩余54图求和、跨
 普通 p 的非零和局部比较仍须继续支付。
+
+
+## 7. 实际 Fricke 对应把54图配成27对，且两项相加
+
+本节在(28)的同一有限系数表达中工作，仍排除它的固定坏素数，
+并令辅助约化素数素于34。原54个核写成
+$C=C_2\oplus C_{17}$；每个 $\varphi_C:A\to S_{b_C}$ 都是
+R1006(20)的实际 degree34 商，携带原306级结构。
+
+### 7.1. 完整级结构上的交换图及唯一基 lift
+
+R991 的模群为
+$$
+ \Gamma=\left\{\begin{pmatrix}a&b\\3c&d\end{pmatrix}
+ \in\Gamma_1(3):b-c\equiv0\pmod3\right\}.
+$$
+令
+$$
+ D_3=\begin{pmatrix}0&-1\\3&0\end{pmatrix}.
+$$
+直接乘法给
+$$
+ D_3^{-1}\begin{pmatrix}a&b\\3c&d\end{pmatrix}D_3
+ =\begin{pmatrix}d&-c\\-3b&a\end{pmatrix}.
+ \tag{29}
+$$
+因此 $D_3$ 正规化这个**实际** $\Gamma$，且保持
+$b-c\bmod3$，不是只正规化一个忘掉该角色的 $\Gamma_0(3)$。
+同时 $D_3^2=-3$ 是中心元，所以它在模基上的平方为恒等。
+
+在 $X_1(3)$ 上，此对应就是对标记三挠子群取商再取对偶标号。
+实际 Vélu 商及式(8)的同构已给其参数
+$t'=1/27-t$。在原三重覆盖上，所有可能 lift 都是
+$$
+ (t,v)\longmapsto(1/27-t,\omega^r v),\qquad r=0,1,2.
+$$
+其平方把 $v$ 乘 $\omega^{2r}$。由(29)的中心平方，唯一允许的
+lift 是 $r=0$，即原 $\iota_B=[-1]$。这里同时付了 full9
+分量，不能任选另一个三次根。
+
+通用纤维上的 Fricke 同源与原 $F_b$ 有相同的核和靶。
+一般纤维的 $j$ 非常数，保零自同构只有 $\pm1$，故两者至多差
+一个在连通基上固定的整体符号。这个符号不影响下述交换图：
+在3处的同源与素于3的实际商逐项交换，若更换整体符号，图的
+左右两条3同源同时变号。最后以已付的实际
+$F_{O_B}=[-\delta]$ 固定规范。此论证没有把 $D_3$ 的列矩阵
+直接当作 row/adjugate 约定下的几何同源，因而不再翻一次号。
+
+源 $A$ 是 R1006 第3节的 canonical fiber，故得到准确的图
+$$
+ \boxed{
+ b_{\delta C}=-b_C,\qquad
+ F_{b_C}\circ\varphi_C
+   =\varphi_{\delta C}\circ[-\delta]_A.
+ }
+ \tag{30}
+$$
+可以直接看核来核(30)：$F_{b_C}$ 的核为
+$\varphi_C(A[\delta])$，而 $[-\delta]$ 把 $C$ 送到 $\delta C$；
+两边均为次数102的同源。完整级结构的相等来自(29)及上述
+素于3的商的自然性，而非仅由次数与同一个 $j$ 推出。
+在完整9级覆盖上同源图唯一；再下降至原 $\Gamma$ 保持该等式。
+约化后使用同一图及同一商，不另选一个同 $j$ 的模型。
+
+### 7.2. 核的27对与实际系数的负号
+
+在2处，$\delta=1+2\omega\equiv1\pmod2$，所以
+$\delta C_2=C_2$。在17处，$\delta^2=-3$ 是标量，而
+$-3$ 在 $\mathbf F_{17}$ 中不是平方。因此 $\delta$ 没有
+$\mathbf F_{17}$ 特征线，它在全部18个循环17子群上是无不动点
+的对合。于是全部54个核恰分成27对
+$$
+ \{C,\delta C\}.
+ \tag{31}
+$$
+
+R1006(18)使用 $C_{r,t}=\bar t C_{r,0}$ 及
+$c_{r,t}=\chi_{j,r}(t)^{-1}$，所以核乘 $\delta$ 对应标签乘
+$\bar\delta$；不能在一般角色下把这个共轭省略。
+这里 $\bar\delta=-\delta$ 与 $\delta$ 在
+$\mathbf F_{r^2}^{\times}/\mathbf F_r^\times$ 中相同。
+2处该类平凡；17处为唯一的 order2 类。原
+$l_j=-5,1,7$ 都是奇数，因此完整原角色在它上的值均为 $-1$。
+所以对三个原 $j$ 都有
+$$
+ \boxed{c_{\delta C}=-c_C.}
+ \tag{32}
+$$
+这用的是原 fixed coefficients，未对 $c_C$ 再作 Galois 或复共轭。
+
+### 7.3. Picard 拉回的对偶方向使评价也取负
+
+令 $D^+=(e_S^+)_*D$ 如(28)，并定义
+$$
+ u_C=\widehat\varphi_C(r_{b_C}(D^+)),\qquad
+ z_C=(e_A^-)_*u_C.
+ \tag{33}
+$$
+在 relative Picard 的 degree0 部分，旧垂直除子及基的线丛限制
+为零；原 $P=\pi_2^{\rm tr}$ 与完整 $e_S^+$ 的定义给
+$$
+ \widehat F_b\bigl(r_{-b}(D^+)\bigr)
+      =-\delta\,r_b(D^+).
+ \tag{34}
+$$
+具体地，R995 的 $f=PF^*P$ 在 $e_S^+$ 上等于 $-\delta$；
+将图 pull 限制到光滑纤维正是左边的对偶同源。
+夹入 $P$ 所减的旧 degree0 类只含垂直类及基的 Picard 类，
+不改变这个限制。也可由(15)的真实三挠修正得到同一 relative
+Picard 等式；在本节固定倒6系数中该三挠项准确为零。
+
+对(30)取对偶，注意 $[-\delta]^\vee=[\delta]$，得
+$$
+ \widehat\varphi_C\circ\widehat F_{b_C}
+   =[\delta]_A\circ\widehat\varphi_{\delta C}.
+$$
+与(34)合并便是
+$$
+ [\delta]_A u_{\delta C}=-\delta\,u_C.
+ \tag{35}
+$$
+
+最后必须明确原 $e_A^-$ 在点群中的实际作用。
+R995 定义 $g=[\delta]^*$，所以在
+$\operatorname{Pic}^0(A)=A$ 上，$g$ 作用为**对偶**同源
+$[-\delta]$。因此
+$$
+ (e_A^-)_*=\frac12(1-g/\delta)
+          =\frac12(1+[\delta]_A/\delta)
+ \quad\text{on }A\otimes R.
+ \tag{36}
+$$
+它选择 $[\delta]_A=+\delta$，不是负号。将(36)作用到(35)，
+再用 $3$ 可逆，准确得到
+$$
+ \boxed{z_{\delta C}=-z_C,\qquad
+ c_Cz_C+c_{\delta C}z_{\delta C}=2c_Cz_C.}
+ \tag{37}
+$$
+若漏掉 Picard 拉回中的对偶，会把这里的正重数2误写成零。
+
+### 7.4. 每个 Galois 共轭中均成立，原总迹完整保留
+
+取核对合(31)的任意代表集 $\mathcal R$，$|\mathcal R|=27$。
+每个 $\gamma\in\operatorname{Gal}(L/K)$ 都固定几何的 $\delta$、
+原 $F$、源 $A$ 及所有这些对应。对(30)先作真正的 $\gamma$
+共轭，再约化，故(34)–(37)逐个适用于
+$$
+ z_{\gamma,C}
+  =(e_A^-)_*\widehat{\gamma\varphi_C}
+       (r_{\gamma b_C}(D^+)).
+$$
+不需要 $\gamma$ 属于所选约化素位的分解群。系数始终固定，
+并且 $\gamma(\delta C)=\delta\,\gamma C$，所以原(28)准确成为
+$$
+ \boxed{
+ \mathcal S_D(Y_{j,0,R})
+ =\frac{2}{18}
+  \sum_{\gamma\in\operatorname{Gal}(L/K)}
+    \eta_j(\gamma|_H)^{-1}
+    \sum_{C\in\mathcal R}c_C\,
+       (e_A^-)_*\widehat{\gamma\varphi_C}
+           (r_{\gamma b_C}(D^+)).
+ }
+ \tag{38}
+$$
+所有 $\operatorname{Cor}_{L/H}$ 项、54图的真实重数及原有限角色
+都保留；唯一变化是用(37)逐对相加。它既不证明总和非零，也不
+将完整迹改成一个未经支付的分解群平均。
+
+### 7.5. 有限固定纤维的范围与实际剩余对象
+
+原基曲线的三个非零二挠点满足 $Y=-1/2$，故 $t=1/54$。
+从原不变量直接算
+$$
+ j(1/54)=54000.
+ \tag{39}
+$$
+这些点被 $\iota_B=[-1]$ 固定、被 $\tau_B$ 循环排列。
+在该实际纤维上 $F_b^*\omega_b=\delta\omega_b$，所以特征零
+中 $F_b$ 是已指定的 $[\delta]$，并按同一好模型约化。
+其特征零 CM 环恰为 $\mathbf Z[\delta]$：该环已包含在 End 中；
+若更大，只可能是 $\mathcal O_K$，但后者的 $j$ 为0，与(39)
+不同。此处的 $\omega=(\delta-1)/2$ 只在倒2的 End 中使用。
+式(15)于是给
+$$
+ 2Q(\tau_Bb)=([\delta]-1)Q(b)-\epsilon(Q)P_3(b).
+ \tag{40}
+$$
+倒6后这只是三个实际评价的 $\omega$ 关系，没有强迫它们为零。
+有限处的原微分无需 canonical fiber 的 $z'/z=-1$ 缩放，
+故不能把第4节的 $[-\delta]$ 纤维作用搬到这里。
+
+此外，这两种特殊纤维只影响原54图的一个**固定有限约化集**。
+证明如下。源 $A$ 的 CM 环是 $\mathcal O_K$。在
+$r=2,17$，该素数均 inert；一条循环 $r$ 核给局部格的一条
+$\mathbf F_r$ 直线。$\mathcal O_{K,r}$ 中保持这条线的元素，
+模 $r$ 恰为 $\mathbf F_r$，所以商格的乘子环是
+$\mathbf Z_r+r\mathcal O_{K,r}$。其它素数不变。因此每一个
+原 degree34 目标的特征零 End 都准确为
+$$
+ \mathcal O_{34}=\mathbf Z+34\mathcal O_K,\qquad
+ \operatorname{disc}(\mathcal O_{34})=-3468.
+ \tag{41}
+$$
+完整9级只细化标号，不改变这个 End 环。
+
+令 $H_{-3468}(J)\in\mathbf Z[J]$ 为该整环的环类 $j$ 多项式。
+其次数为18；由原 CM 类群的标准精确列也可直接数出：
+2、17处的核共有 $3\cdot18=54$ 个，除以
+$\mathcal O_K^\times/\{\pm1\}$ 的自由 order3 作用，恰为18。
+原54目标的 $j$ 均为这些根，每根按标号保留三次。
+不同特征零 CM 环不会有同一个 $j$，故固定整数
+$$
+ N_{\rm sp}=H_{-3468}(0)\,H_{-3468}(54000)
+ \quad\text{严格非零}.
+ \tag{42}
+$$
+除去原坏素数及 $N_{\rm sp}$ 的有限多个素因子后，全部实际目标
+及其 Galois 共轭的约化均不在 canonical fiber，也不在
+$B[2]\setminus\{O_B\}$。这里没有进行素数扫描，也不需要将可重算的
+环类多项式表存进仓库。
+
+所以(24)、(40)不能代替剩余一般有限 CM 纤维的评价。
+(38)保留的27对仍是真实需要计算的对象；跨普通 $p$ 的局部非零
+门槛未因这些对称关系而删除。
