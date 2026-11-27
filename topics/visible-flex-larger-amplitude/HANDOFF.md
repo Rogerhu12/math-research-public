@@ -46,7 +46,7 @@ root独占refs/queue及真实调度；solver监控12/15/16实际数学/自然返
 
 <!-- visible-larger-parallel-12:start -->
 Actions12：[run 46011377225/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46011377225)；[全阶段记录](notes/2026-11-27-public-actions-46011377225-1.md)。running；已返2，exit=未返。
-并行12规则核查：2026-11-27 18:05:55 UTC，真实pull至`73df15632e879167c4093bb79097fb788816c288`，双README无变化。
+并行12规则核查：2026-11-27 18:10:57 UTC，真实pull至`84ce7deeab4f2fe1017dd53ed4a74bc2047f3e4e`，双README无变化。
 <!-- visible-larger-parallel-12:end -->
 
 <!-- visible-larger-parallel-13:start -->
