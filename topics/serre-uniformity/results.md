@@ -335,3 +335,6 @@
 
 
 - **R1089（已证明，精确计算）**：[原full47辅助(B)及分量群](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)：#J mod283/4513=70/551，全73维新Tq认证；Bq保持实际整格且不改对数深度，已刊Φ47=Z/2⊕(Z/46)^3。run45941243499/job140315814260，21.249秒；具体CM/MW/高度单位仍开。
+
+
+- **R1088（已证明，精确计算）**：[原两principal对应与两CM整模](results/R1088-certified-principal-fixed-cycles-and-two-CM-integral-span.md)：新十一类和/十dim家族，全部12cusp characters上统一Z2/Z3二阶minor单位，真fixed类生成模=两原CM类生成模。run45941481763/job140316562143，3.990秒；只消系数相消，CM/高度单位未付。

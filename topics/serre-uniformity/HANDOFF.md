@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：80d676bd88b5f72bc0d8aec7f78ea54bbdfe472a**（2026-11-27 12:45 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：c133c0889b2fb4d9494420340a6d4787ddc2d6d9**（2026-11-27 12:51 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；12:23再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
-H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-CM-logarithm.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
+H<10KB、open尽量<30KB、每MD<100KB、topic<200MB；无可重算raw、不写根LOG。[本次逐字前态](handoff-archive-2026-11-27-before-principal-certificate.md)沿链保全部旧来源/run/hash；[open](open.md)、[索引](results.md)是完整入口。历史“R1003 norm3准备中”未交付，现R1003为范围纠错。
 
 ## 原高度来源与范围
 
@@ -18,11 +18,11 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 ## O0：不能省略的全局覆盖
 
-[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原47全部23个R_C，CM/23cusps完整fixed-cycle与迹、association composition已付；13R0+4R2迹零，[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)认证角代数rank23、TrZ²=336288；283无一维块，4513有16个真实Zℓ块及原Hodge/Lie自由rank1。run45936209617/job140299891342源48868923，仍缺MW/高度首项。
+[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：原full47无条件rank=dim=ρ_Q=73，全部16/24/33因子L′认证只消费。[R1081](results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md)给真整Hecke/Hodge，4513有16一次块；[R1089](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)run45941243499/job140315814260证#J mod283/4513=70/551，Bq整可逆，已刊Φ47指数46。CM首矩/MW深度/高度仍开。
 
-[R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296，原full47精确Fricke+因子16/24/33、全部73嵌入L′严格正，无条件rankJ=dimJ=ρ_Q=73。[R1089](results/R1089-certified-full-level47-auxiliary-Bq-and-component-groups.md)run45941243499/job140315814260证#J mod283/4513为70/551，Bq整可逆；已刊Φ47指数46。整MW/CM高度仍开，旧L′/B不重算。
+[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：原235盘只余8Q-CM盘，283全279标签图注入；whole Cp tube原Cartan支撑避让/raw坏47项零与R43同盘QC已付。[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)run45938730258/job140307865125给4513独立5453点=5453完整tags，八CM同点转移，保scalar553粗点/全twists/cusps及R36零坐标。盘内唯一仍开。
 
-[R1074](results/R1074-certified-original-p47-eight-CM-disks.md)：run45928658257/job140275928914，原235盘仅8Q-CM盘存活；283完整279标签/Burnside证全点注入。原47²（特殊4/3阶）及283同一点；整个Cp tube原Cartan支撑避让/raw坏47高度零、R43同盘QC坏项相同已付。盘内唯一仍开；全部pins/hash保原文。
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)/[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角K23×K48×K16、完整fixed-cycle与Zps类和已付。[R1088](results/R1088-certified-principal-fixed-cycles-and-two-CM-integral-span.md)run45941481763/job140316562143证两原Z2/Z3的双CM系数矩阵在全部4513 cusp块整可逆；实际d2,d3与u1728,u0生成同一T模，两组log共同深度相同。3.990秒；原CM值/高度单位仍开。
 
 [R1071](results/R1071-original-p-local-cuspidal-label-polynomials.md)：原全V有限多项式/phase/两twists/8CM梯度已付，degree≤min(R,p−R)。R1075原j0 G_(p−5)=−24B/(7β_Car⁵)及首forced coarse斜率单位；good仅用于global基，原f_N/e仍开。
 
@@ -36,11 +36,7 @@ R1062/64–67（[索引](results.md)）：原全cusp/étale/p-only覆盖允许�
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)：R1只剩完整N_ns(p)；p2/5mod9还需小惯性C³。R317还需整j、K=Q(√−3)、σ=1及二/三除法小域同时一致。完整惯性、非整j、变化K、σ非平凡及异小域大导子支路仍开。导子下界非上界；O1/O2或X₁新商即使单独完成也不等于Serre完成。
 
-[R1083](results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md)：真系数域K23/K48/K16独立排283一次泛块；4513全部scalar仅j1728，四twists全1081/25项链给553粗点，j0纤维1。八CM为六ordinary/二SS；[R1086](results/R1086-certified-original-p47-ell4513-same-CM-transfer.md)新run45938730258/job140307865125证5453点/tag全图注入，八原CM同点转移；60.839秒，保R36零坐标。原高度仍开。
-
 [R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
-
-[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角Q代数=K23×K48×K16；Zps=K5−K25整、无对角、degree/trace0，全部cusp块严格0，principal在283/4513为单位。完整23dZ=½F4Z u1728+⅔F3Z u0−2Zuy；新120秒CI已提交，读十维迹零家族在全部12cusp characters的双CM系数，CM类/高度单位仍开。
 
 ## O1：原同一保留标签
 

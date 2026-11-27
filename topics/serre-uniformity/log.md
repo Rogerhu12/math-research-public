@@ -736,3 +736,8 @@ R1087原两split共轭类差给真正Zps及整主/cusp分裂，原Q下降/23维f
 2026-11-27 12:45 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1089消费run45941243499/job140315814260 success，完整16/24/33三因子T283/T4513给#J余数70/551，Bq实际整可逆；数学21.248974477秒。
 root亲读EP2024 Prop3.2，原Φ47指数46给两素数的完整分量群条件；不推CM首矩或MW饱和。全部矩阵/多项式数组不留存，继续原fixed作用与Hodge来源。
+
+
+2026-11-27 12:51 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1088消费run45941481763/job140316562143 success：十一split类和、十dim原principal迹零家族，全部12cusp characters上同一Z2/Z3 minor非零，双CM矩阵在真T4513整可逆。
+实际d2,d3与原u1728,u0生成同一cusp T模，log共同深度相同；3.990293168秒，未付原CM首矩或高度值。H/open最新前态逐字归档并合并已成输入。
