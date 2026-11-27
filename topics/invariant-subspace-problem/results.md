@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- **已证明（R150，一般LS/W0原四生成元）**：[两原mean自由秩4与五常数cofactor](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-four-generator-algebra-and-original-minors.md)：全局k=-1排除后δ=e(k+1)/(ek-1)已付；通用两二次商双向矩阵/原迹，四条余式及五个x六次必要式保全部首项零和未付H因子，未排W0。ec17/f302实际0.747/2.085秒成功，后继探针执行状态未知。
+
+
+
 - **R150 原Delta0/W0的整个k=−1权线为空（2026-11-27，已证明）：** [同Gram六原式、完整12次QQ覆盖与原Hankel矛盾](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-generic-LS-Delta-zero-W-kminus1-exclusion.md)原48×35矩阵的两条常数cofactor完整70列回乘，128/128次QQ Bézout给73次覆盖；只剥物理单位后五整商代数全返，末4e²+5e+3域保(x−1/2)²非约化结构仍迫D=0。源43393adf实际3.740543秒/33156KiB/exit0，原加权N/P的HA/HB迹已付。只给W0的k+1单位，整W0仍开。
 
 - **R150 unit2+1+1 的整个原L0分支为空（2026-11-27，已证明）：** [原完整覆盖与九因子/1817余项返回](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-complete-original-cover-exclusion.md)原C/X结式精确3352次、首项1009单位；九个特征零幂总degree1535由同原输入的已完子证支付，36QQ Bézout保首一整性；其余1817次覆盖与原S8/S5完整一元投影的模Bézout1由Gauss排全根。余覆盖自含源6eb17f28实际74.373804秒/114492KiB/exit0。全部原退化面已合并，L0不再开放；两整合signal9仍准确保留失败身份，普通ISP未完成。
