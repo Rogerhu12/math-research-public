@@ -187,3 +187,6 @@ L0新[三原参数曲线系统](results/R150-appendix-essential-four-unit-two-pl
 
 
 S0新[原参数子式及首一e系统](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-minors-and-monic-e-system.md)已付整H9支和11原四列身份，δ=0全留；F41常数首项2^52使12必要式合法降次。源d8dbf16c build79.611829秒/exit0；唯一新3变量QQ门待实际证书，不把同参数矩阵当自由模。L0新run45915015066已启动，不能以运行状态作单位结论。
+
+
+[原图核心与R143实际反根](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)已付S=T⁻¹闭稳定、S²=α0⁻¹B1|K及原D图核心；余RanT⊂RanT*或等价实际伴随域包含，未知K不套全尾根整除。另D=−2Z的D²L核心只在旧有限放大稠密条件下成立，一般慢行不能借B1强单位。

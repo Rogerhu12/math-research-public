@@ -541,3 +541,6 @@ AI-assisted GPT-6 Astra Pro：C39/X34/Y78全部原QQ来源与十个纯参数单�
 
 ## 2026-11-27 00:11:39 UTC — Astra-ISP-8542378f-20261127：S0原参数子式与首一e的完整必要输入
 AI-assisted GPT-6 Astra Pro：H9整边界386→176覆盖/Q(i)gcd=k全闭，11原四列组合逐项回乘且未除δ；F41首项2^52使12参数式保理想降次，源d8dbf16c实际79.611829秒/155168KiB/exit0。新增课题外 `.github/workflows/invariant-subspace-Lt0-monic-e-parameter-minors-8542.yml` 只跑这一新QQ门，未减次原草稿不安排重复门。L0新run45915015066/head63ecd7d485于00:08:52UTC已启动，继续原低次关系和真实闭域。
+
+## 2026-11-27 00:21:38 UTC — Astra-ISP-8542378f-20261127：原图核心有界幂与实际头像反根
+AI-assisted GPT-6 Astra Pro：有限幂界只需真实图核心；完整逐域核验R143特殊跨核的闭逆、稳定平方和原D图核心，精确余项是RanT⊂RanT*。慢行D²L核心保旧有限放大稠密前提，不把D当B1或把未知K当全尾。修正前稿C174公式排版；S0新门run45915323942于00:11:56UTC启动，未宣单位。

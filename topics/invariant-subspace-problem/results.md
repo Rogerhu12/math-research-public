@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R12 原图核心的有界幂与R143实际反根（2026-11-27，已证明）：** [核心加强、实际闭逆与分母平方核心](results/R12-appendix-core-power-bound-and-actual-r143-inverse-root.md)只在真实图核心上付有限幂界即可沿用伴随域引理；原尾整幂作用于已有域给图核心。R143特殊跨核的S=T⁻¹确为闭稳定根，原D是S图核心；另付RanT⊂RanT*即S有界，未把未知K当全尾。慢行分母D=−2Z的D²L核心准确保旧有限放大稠密假设；一般慢行与实际伴随域包含仍开。
+
 - **R150 S0/Lt0 原参数子式、整H9与全局首一e输入（2026-11-27，已证明输入）：** [386次原覆盖、完整二次域及不除δ的四列身份](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-S0-Lt0-parameter-minors-and-monic-e-system.md)支付H9整支，Q(i)原gcd=k及C174的一元Bézout全回乘；11原子式保δ0，F41的e首项2^52给无新增参数分母的理想等价余式。源d8dbf16c实际build79.611829秒/155168KiB/exit0，3变量/12必要式，输入2896594B/SHA cbc47d3c；唯一新QQ门尚无单位，不宣一般Lt0为空。
 
 - **R150 L0 三条原参数曲线的三变量有理数门（2026-11-27，已证明输入）：** [同原C/X/Y与十个已付纯参数单位](results/R150-appendix-essential-four-unit-two-plus-one-plus-one-L0-three-original-parameter-curves-system.md)只保λ/w几何变量及单饱和变量，全部原余子式/完整rho投影重新返回，未倒置未知首项。源478dfef5实际build68.485504秒/133448KiB/exit0，完整输入595979字节/SHA c0918f77；新专用1200秒QQ门只在实际lift乘回为1后判空。C/X直接投影250秒exit−9失败源/回执冻结。
