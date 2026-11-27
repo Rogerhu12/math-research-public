@@ -21,3 +21,9 @@
 刊[完整六件总表](computations/fixed-fejer-bhalf-mu001-R722-complete-post-parameter-delivery.json)与[全说明](notes/2026-11-27-bhalf-mu001-R722-complete-post-parameters.md)。原c6f6/7892/6c57/c6b0/002eb完整源不变，仅20真实namespace与完整科学mu.001投影；38/8/8全argv、36/48/66原selectors及全部预算、normal32/1024整圆/922径向+cuts/六jet/尾/同点/唯一最终主副件与晚失败保。全部19原参数/来源metadata保whole父。没有实际费用/closed证书或新science/AST；未改运行中step。
 
 完整6件共269115B；双README云核至`622ea888f33e11232b0d2fc526ccaea5f2ba72e1`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-27 23:21:49 UTC — 20完整R716矩与同场mesh参数落地
+
+刊[完整六件总表](computations/fixed-fejer-bhalf-mu001-complete-moment-mesh-parameter-delivery.json)及[全说明](notes/2026-11-27-fixed-fejer-bhalf-mu001-complete-moment-mesh-parameters.md)。45ca/d0fe/2ef3/b399/8197全源不改；矩10/8词、34/60全读数、600s/maxangle0与全部十二矩/general三相/半转原条件；mesh32/6词、110/58formal/48live、15完整mesh/5预览、三空间级与5t及4/8/16时间分割完整保。全13final与immutable packet两mode严格区分，raw仅runner；当前157科学词mu.001/metric.01绑定、所有19 whole父/未知peer保。未排新数值步，无实际矩/mesh结果。
+
+完整6件共365806B；双README云核至`7d5835b7a22bbbf5505a805522a2be5eae4ab1f1`无变（非pull），实际controller真pull见H各槽。
