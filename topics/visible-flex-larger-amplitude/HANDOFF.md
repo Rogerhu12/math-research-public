@@ -14,7 +14,7 @@
 
 ## 完整历史与共同模型
 
-完整前交接及全部旧链保[d4d976固定H](https://github.com/Rogerhu12/math-research-public/blob/d4d976d67b701fdf83cec8f7ad8be2eeb9af54d8/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
+完整前交接及全部旧链保[052368固定H](https://github.com/Rogerhu12/math-research-public/blob/052368115dc00b57a76b0454d6417da02c594dda/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
 
 raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](notes/2026-11-27-legacy-R87-cell011-and-final-retention.md)、[26次](notes/2026-11-27-legacy-domain-manifests-retention.md)、[27次四输出清单](notes/2026-11-27-legacy-generated-manifests-retention-27.md)、[28次十domain](notes/2026-11-27-legacy-domain-manifests-retention-28.md)、[29次八snapshot](notes/2026-11-27-legacy-current576-snapshot-retention-29.md)、[30次23份condensed清单](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)；完整源/真参数/父输入/原结论/固定恢复全保，不造新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
@@ -42,9 +42,9 @@ R714全C1/m32、R715 raw hΔ六jet及全E/typed保。[08实际6–9](notes/2026-
 
 [同g精化合同](notes/2026-11-27-same-g-so3-normal-refinement-contract-and-entry-design.md)/[M320全体](notes/2026-11-27-M320-complete-frequency-refinement-cloud-reconstruction-v2.md)已刊13源/3再生器/两ready；6a9008/bc0c保原M160参考、三通道正确嵌入和全E/typed。[07实际排队及2–3全归档](notes/2026-11-27-run07-complete-M320-queue-and-returned2-3-archives.md)保原四pending，M320接cc0a真父/pure后。仅cc0a/91c非新7c；无精化真返，径向/N/连续同支仍欠。
 
-[原J3全源](notes/2026-11-27-complete-analytic-J3-packet-envelope-entry.md)及两ready保留，未准入的7817继承旧C1 literal遗漏已查明；[完整解析frame修后14体](notes/2026-11-27-complete-analytic-normal-frame-family-and-source-binding.md)755f/55af/a9f4保全部方程/变量/m32/J/J*，六控制/两角jet完整求导，root真再生及57源核。新完整C1守卫不删；09上层正在接实际目标，未冒首场/速度，07/08未知保。
+[原J3全源](notes/2026-11-27-complete-analytic-J3-packet-envelope-entry.md)/[解析frame14全体](notes/2026-11-27-complete-analytic-normal-frame-family-and-source-binding.md)保原方程/全部变量/m32/J/J*、六控制与两角jet证明，已真再生的57源核保原记录；未准入旧体C1及selected-key问题均保，不冒首场/速度。09完整修复见下，07/08未知保。
 
-[N4096解析7c完整入口](notes/2026-11-27-independent-chart-analytic-J3-N4096-complete-entry.md)修后17体/9构造体/三全ready，root真再生及64源核；固定N2048参考、全旧角字/地址/typed及13成员父迁移保。原90包保，均无真返；非径向/M精化，09须按真目标另适配。
+原90及[N7c全入口](notes/2026-11-27-independent-chart-analytic-J3-N4096-complete-entry.md)全源/失败边界保。[09真目标N4096](notes/2026-11-27-actual-public09-N4096-full-frame-packet-entry.md)已刊18运行体/9构造/三全ready；construction真再生18体，root31全文/75roles/全部参数与原suffix逐等核。固定N2048参考、所有旧角字/地址/typed及13成员父转移保；计划未准入、无N真返，非径向/M精化。
 
 [09输入](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)1–3真返0，整dc5/160词90同、目标7c766/绑定21a44，双5e373保；原4/5失败无场报告。[6/7原诊断](notes/2026-11-27-run09-actual6-7-adjacent-policy-key-failure.md)真返0，查实旧政策键。[完整修复](notes/2026-11-27-run09-selected-stage-guard-repair-and-complete-retry.md)e89d/ff54/c188/aee2四独立体、7857再生器及2ea1全ready已排；root真重建/58源、145+7参数/333+317selectors全等，原数学suffix不变。2–7全对象/返回归档，原输入不重跑；07/08未知保，未冒新场。
 

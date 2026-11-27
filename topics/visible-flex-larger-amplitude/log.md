@@ -519,3 +519,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 07:28:47 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [第30次公开生成清单整理](notes/2026-11-27-legacy-condensed-generated-manifests-retention-30.md)：23份当前清单1497444B移除；全部原非files值/23完整request/77源角色保，16写出块全字同。失联后重新读取全部公开原件；879普通push未确认、公开查询404，不冒已推；固定cf41802全恢复身份及旧缺payload边界保，主科学继续。
+
+## 2026-11-27 07:35:26 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [09真目标N4096完整入口](notes/2026-11-27-actual-public09-N4096-full-frame-packet-entry.md)：18运行体/9构造/三全ready已刊；construction实际18体再生保，root31全文/75roles、原145+7参数/333+317selectors及19574/d442全suffix逐等核。固定N2048参考、全角/全历史/13成员末点保，当前仅N4096；环境失联未冒root新再生，未准入/无科学精化读数，继续09实际场。
