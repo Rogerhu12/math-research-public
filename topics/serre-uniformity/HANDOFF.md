@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：41f79352b3f3fd31530a1df3516f00bd2587c81b**（2026-11-27 12:39 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：8f30d9cd6133a12f25fae6b05b2c07c7f053c061**（2026-11-27 12:42 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；12:23再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -40,7 +40,7 @@ R1062/64–67（[索引](results.md)）：原全cusp/étale/p-only覆盖允许�
 
 [R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
 
-[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角Q代数=K23×K48×K16；Zps=K5−K25整、无对角、degree/trace0，全部cusp块严格0，principal在283/4513为单位。完整23dZ=½F4Z u1728+⅔F3Z u0−2Zuy；下一新CI读实际cusp固定cycle系数，CM类/高度单位仍开。
+[R1087](results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md)：原角Q代数=K23×K48×K16；Zps=K5−K25整、无对角、degree/trace0，全部cusp块严格0，principal在283/4513为单位。完整23dZ=½F4Z u1728+⅔F3Z u0−2Zuy；新120秒CI已提交，读十维迹零家族在全部12cusp characters的双CM系数，CM类/高度单位仍开。
 
 ## O1：原同一保留标签
 

@@ -726,3 +726,8 @@ R1087原两split共轭类差给真正Zps及整主/cusp分裂，原Q下降/23维f
 2026-11-27 12:39 Asia/Taipei｜Astra-serre-24b8836b-20261126
 提交full47新T283/T4513完整(B)请求，root/global全文纸审；逐原16/24/33因子精确Pq(q+1)与Pq(1) modq，真假均合法回执，不重跑L′/旧H_t。
 课题外新增.github/workflows/serre-full-p47-auxiliary-Bq.yml，仅本课题公开Actions；Sage10.6同digest，600秒/reserve30。尚待实际回执。
+
+
+2026-11-27 12:42 Asia/Taipei｜Astra-serre-24b8836b-20261126
+提交新原principal fixed-action请求，root/o1全文纸审；完整PGL十一split类/十dim真迹零家族，消费旧composition哈希后读取全部12个4513 cusp characters的双CM系数与实际秩。
+课题外新增.github/workflows/serre-full-p47-principal-fixed-action.yml，预算120秒/reserve10；不重跑Gram/Hecke/L′，不预设行秩或CM值非零，完整数组不留存。

@@ -1,0 +1,52 @@
+name: Serre full p47 principal fixed action
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/full-p47-principal-fixed-action-request.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-full-p47-principal-fixed-action-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  original_principal_fixed_action:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/full_p47_principal_fixed_action.py
+            /topics/serre-uniformity/notes/2026-11-27-full-p47-principal-fixed-action-method.md
+            /topics/serre-uniformity/results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md
+            /topics/serre-uniformity/results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md
+            /topics/serre-uniformity/results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md
+            /topics/serre-uniformity/results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md
+            /topics/serre-uniformity/notes/full-p47-principal-fixed-action-request.json
+      - name: Pull pinned official SageMath 10.6 image
+        run: docker pull sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879
+      - name: Certify original principal fixed-cycle cusp coefficients
+        env:
+          SERRE_EXPECTED_REQUEST_SHA256: 'd44f69cb55d9343754c89ac857e2e422ce8ca4ddfb101e28922b7e6759018ae3'
+        run: |
+          timeout --signal=TERM --kill-after=30s 120s docker run --rm \
+            --mount "type=bind,source=${GITHUB_WORKSPACE},target=/work,readonly" \
+            --workdir /work \
+            -e GITHUB_ACTIONS -e GITHUB_REPOSITORY -e GITHUB_SHA \
+            -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -e SERRE_EXPECTED_REQUEST_SHA256 \
+            -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=1 -e OPENBLAS_NUM_THREADS=1 \
+            sagemath/sagemath@sha256:60dfb09e8d1399e127a0d7b62b45eef1044574bae397df51bb6ba38df5498879 \
+            sage -python topics/serre-uniformity/scripts/full_p47_principal_fixed_action.py

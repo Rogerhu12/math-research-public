@@ -1,0 +1,43 @@
+{
+  "execution_id": "full-p47-principal-fixed-action-v1",
+  "prime": 47,
+  "auxiliary_prime": 4513,
+  "sage_version": "10.6",
+  "total_seconds": 120,
+  "reserve_seconds": 10,
+  "generator_t_candidates": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "rules_last_read_commit": "1f0e3604a87d4b574c708ddcc0ab1b17852f09f1",
+  "certified_algebra_run": 45936209617,
+  "certified_algebra_job": 140299891342,
+  "certified_composition_sha256": "62e18e4507fb2fb1bfecd4438ac3bfc54c28c332d2bf6884c83b75e37dec57a6",
+  "certified_trace_sha256": "a1023cd15725ca809ab28958acab25290364b8f29f63eb16776105cba581a4f3",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/scripts/full_p47_principal_fixed_action.py": "82cf430f104f1d8f050eea78b8332ce2c799036508362a284c9cf574e20bddee",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-principal-fixed-action-method.md": "6b30858665126a173d4f4fdc03b063b7ad65dd7ade2a22def56f51d279387bd8",
+    "topics/serre-uniformity/results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md": "d75cca1b546326338099abe2cef94bd37da48897ae7dd7f0740dc34d19d8e867",
+    "topics/serre-uniformity/results/R1081-certified-original-level47-Cartan-trace-and-integral-Hecke-algebra.md": "5621cd99ef45d0077dee39a8d01d92b58a4ec1bba793a9c645a1285c52e13f43",
+    "topics/serre-uniformity/results/R1083-original-level47-auxiliary-Hecke-fields-and-scalar-fibers.md": "2be10465ee4c0264ddf8ff6b4693c44602428d836a739f7b81ecd7fbeaba9539",
+    "topics/serre-uniformity/results/R1087-original-principal-Cartan-ideal-and-cusp-annihilating-correspondence.md": "228188a8016088377020bb11e900e1a48ccd011baba7e2618863a112fd4a193d"
+  },
+  "scope": "New split class cycles and all principal trace-zero fixed-cycle cusp actions. Consume certified algebra; no repeated LDL, Hecke or L-prime computations.",
+  "storage": "Source, parameters, compact public receipts and hashes only; no reproducible raw arrays retained."
+}
