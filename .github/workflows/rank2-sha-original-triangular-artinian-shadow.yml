@@ -1,4 +1,4 @@
-name: Rank2 original shadow with complete quadratic returns
+name: Rank2 original shadow with complete scalar-base support
 on:
   push:
     branches: [main]
@@ -23,6 +23,12 @@ on:
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-complete-quadratic-shadow.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_complete_quadratic_returns.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_complete_quadratic_polynomials.pyx'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-scalar-filtration-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-scalar-filtration-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-scalar-filtration-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_native_complete_return_binding.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_current_idempotent_square.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_scalar_base_divisor_support.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -56,4 +62,4 @@ jobs:
           PYTHONDONTWRITEBYTECODE: '1'
         run: |
           set -euo pipefail
-          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-complete-quadratic-shadow.py
+          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-scalar-filtration-shadow.py

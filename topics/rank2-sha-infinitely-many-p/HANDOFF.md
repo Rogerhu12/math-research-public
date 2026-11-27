@@ -8,31 +8,27 @@
 
 root独占refs/H/open/log/index，每条结论即推；非快进立即实际pull --rebase、只读新README差异，再推到成功，不force。令牌只命令行/进程，不写文件/提交/API。数学执行只公开Actions，4CPU/16GB/6h。根规则15禁存可重算结果/日志/矩阵缓存；只保脚本、参数、run/hash和必要原输入。H<10KB，每MD<100KB，topic<200MB。
 
-本次整理前[完整交接](notes/2026-11-27-handoff-before-all-depth-recurrence-and-scalar-support.md)逐字保旧参数、门、失败和全部更早归档链；[open](open.md)、[results](results.md)、[R1051–1100索引](notes/PROOF-INDEX-R1051-R1100.md)给当前接续。[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)封卷，旧范围更正继续生效。不重做已登记结论。
+本次整理前[完整交接](notes/2026-11-27-handoff-before-scalar-filtration-production.md)逐字保旧参数、门、失败和全部更早归档链；[open](open.md)、[results](results.md)、[R1051–1100索引](notes/PROOF-INDEX-R1051-R1100.md)给当前接续。[R1001–1050索引](notes/PROOF-INDEX-R1001-R1050.md)封卷，旧范围更正继续生效。不重做已登记结论。
 
 ## 最新实际pull和已读规则
 
-只读CI run46075603971/job140775378967，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-27 22:56:56UTC实际部分clone/pull至8f205ac70af3fb7e796c55ad1273ce7ac2b5045c。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库22:57:02UTC实际至1f38188b52a53500f90ccde07cdf3c24b2c59b1f。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
-- 四README与22:55已读版本均相同，无新差异；请求旧基线3bd753e5/54fd1d82不冒充本次实际head。job日志14887B/hash d5e08b2e7d9e663fb6537843322c1e74240138f10ccb789a947d1a46628d776a，只记录不存日志。
-- 库存3142blob/44,225,777B、tree 618cc2148bd36d8bf6c274357d5c331f59fa9874，无>5MB，三旧gzip必要输入SHA不变。
-- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟23:56UTC再实际拉两库**。遇ref前进，发布器立即尝试本地pull；无环境则触发CI实际pull并返回，消费后继续推，不以API比较替pull。
-- 本地07:20失联，22:39重试仍无环境；末次本地公开07:12至1cf10ac。API、CI、本地分记。
+只读CI run46075603971/job140777453959，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-27 23:03:39UTC实际部分clone/pull至5d78ac456f7b88bbf6ec0dc51ce648a983a59c2c。根/课题已读README blobs分别282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库23:03:44UTC实际至307f2426c462581cbcbd96c76864738178bc07c1。根/课题已读blobs分别5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。
+- 四README与22:56/57已读版本相同，无新差异；旧请求基线3bd753e5/54fd1d82不冒充本次head。job日志14889B/hash bd3d75cbaceb0751cac3f516b6f7c1126ba2b2b6b39827074c46d634f0d9e3c3，只记录不保存。
+- 库存3142blob/44,239,931B，tree3ffbfa42a132c8c97ac83d6acfd06c0d4cc66522，无>5MB，三旧必要gzip SHA不变。
+- 每推前重运行最新成功只读job，消费实际两库pull/README差异后发布；**最迟2026-11-28 00:03UTC再实际拉两库**。ref前进立即试本地pull；无环境就CI实际pull，消费后继续推，不以API比较替pull。
+- 本地07:20失联，22:56重试仍无环境；末次本地公开07:12至1cf10ac。API、CI、本地分记。
 
 ## 当前原完整厚几何与真实软件证据
 
-[v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b在22:15:38UTC真实21000s超时，signal15/exit124。完整GET5694056B/12522行/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native、全部端点身份、六条全长612尖点与下一306块/Frobenius/第一maximal已返；四交、Norm、18×9无终回执。无重算collector，无新heavy在跑；不把此前缀充PASS，也不相同输入重跑。
+[v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：run46033409751/job140622660136/source048e20343a5f7ec65db9089d824d0635d6815b2b于22:15:38UTC真实21000s超时，signal15/exit124；完整5694056B日志/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。六条全612尖点及下一306块/Frobenius/maximal已返，四交/Norm/$18\times9$无终回执。旧全部参数/终态在逐字归档。
 
-全部原pins仍29/2453/64/minimal、两char0 pins、60源、Sage10.6镜像19995db6…、4CPU/16GB及所有原几何门；完整值和v11以前链在上述逐字归档及[终点链](notes/2026-11-27-artinian-v7-final-and-successor.md)。
+三项实际软件PASS已付：捕获native return别名run46076504365；当前幂等元平方复用run46077929103；原scalar全厚支撑run46079484704/job140774878749/source52ec703c，payload9916B/hash12109417a54201bac6a700c0795f2bd18b56577d26e458fc38452608cc96a16d。首次scalar矩阵.copy()失败及唯一copy.copy修正保[完整记录](notes/2026-11-27-original-scalar-support-software-and-production.md)。
 
-两项软件已真PASS，尚未进入新生产：
-1. native PREPARED复制旧globals后，module后置绑定未更新捕获remainder；只改该精确别名的完整核验run46076504365/job140765352826/source1ed1b466，payload hash c18c857406030194b1cc17556e56fd4f70a9ea83fba4eb6ca183bf79906bc8b4。原函数/code/其它globals及全receipt不变。
-2. [同商当前平方复用](notes/2026-11-27-original-idempotent-square-reuse-and-v12-profile.md)保循环不变式及所有原错误/门，$s$轮乘法 $1+3s\to1+2s$；run46077929103/job140769938354/source67341297，payload7850a80bb36541db06e3a26ae00821925706a0e8dd8a508b55e63516d3113547。实际projector动态调用closed._lift_idempotent，无第二捕获遗漏。
+[R1050](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)的全厚过滤保原非约化$d_i$与$md_i/f_i$，不是改做约化支撑。[v13接入](notes/2026-11-27-original-scalar-filtration-v13-production.md)整合上述三项，先native PREPARED、再修捕获别名、square/scalar绑定、最后导入triangular；所有模块和context对象身份检查保留。原60源码hash逐项不变，加5新源，原两char0 pins、29/2453/64/minimal/artinian及两图/四交/一般Norm/$18\times9$终门全保。
 
-[R1050](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)已证明全厚支撑的主要简化：必须核实际完整HNF为 $hI$；$\pi^mA$ 每local全长 $m\deg(\pi)d_i$，重数 $md_i/f_i$，其中 $d_i=\operatorname{rank}M_{e_i}$ 为整个非约化纤维维数。原T/v两图完整scalar identities给finite v同T负点重数−1/2、∞同原负重数。专用geometry只消费point+m，可用全滤过且保289等厚度；通用需完整localideal的接口不改，不填假HNF/projector字段。
-
-[原scalar专用软件](notes/2026-11-27-original-scalar-support-software-and-production.md)首次run46079094064/job140773624197真实失败于Sage通用矩阵没有.copy()，无PASS；仅改用标准copy.copy，helper c84656c7/check 3dd124a9及selector/request新hash已重提，第二次run46079484704/job140774878749/source52ec703c已真PASS，7夹具全坐标/厚长及两个拒绝门通过；payload9916B/hash12109417a54201bac6a700c0795f2bd18b56577d26e458fc38452608cc96a16d。新geometry需在triangular的from-import前绑定；每次独立session、原完整Frobenius/残域/maximal/registry、原∞边界和全标量HNF均保。生产旧projector“曾被实际使用”末门需准确换成实际full filtration回执，不可用夹具填记录或伪造旧PASS。新生产只能在此处等价性及软件核验已付后整合上述两项；所有四交/一般Norm/18×9终门保留。
+本提交请求唯一v13生产；尚无实际run/终态，提交后立即消费。projector旧方法使用断言明确换成实际通用projector或完整scalar过滤使用门，八条本次T/v全HNF/边界/厚长/残域回执必须逐条核验，不造通用full-local记录。原通用API、所有数学门和原pipeline不改；输出改真实新tag。最多4CPU/16GB/21000s，无矩阵或日志文件缓存。既有软件PASS不代表几何终门已过。
 
 ## 数学范围更正继续生效
 
@@ -56,4 +52,4 @@ $A=p^2-1,B=p-1$ 时，任意固定非零 $K,\zeta$ 的 $g(u)=K\zeta^u((Au)!/(Bu)
 
 ## 持续分工
 
-root审证、逐条推、实际两库pull与元数据；central完成原scalar专用全厚入口的软件及随后生产绑定；arithmetic全深真实核/Smith主项；geometry原二挠特殊值与同一原读者。子题完成即接open下一项，不因时长、阶段成果或输入不足收尾。
+root审证、逐条推、实际两库pull与元数据；central转同一原theta的真实flat/Amice及合法Newton reader；arithmetic全深真实核/Smith主项；geometry原17谱/Prym与同一有权读者。子题完成即接open下一项，不因时长、阶段成果或输入不足收尾。

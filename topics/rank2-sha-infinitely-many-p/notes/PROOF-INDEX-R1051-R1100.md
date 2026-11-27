@@ -25,3 +25,8 @@
 ### 原scalar软件的真实回执
 
 [完整范围§5](2026-11-27-original-scalar-support-software-and-production.md)：原scalar支撑第二次公开软件run46079484704/job140774878749/source52ec703c已真PASS，7个完整case及全部坐标/常数/厚长、同点复用和两拒绝门通过；payload9916B/hash12109417a54201bac6a700c0795f2bd18b56577d26e458fc38452608cc96a16d。第一copy接口失败保留，生产尚未启动，所有原数学终门待实际消费。
+
+
+## 原完整 v13 实现接续
+
+[v13原完整生产接入](2026-11-27-original-scalar-filtration-v13-production.md)：三项真实软件PASS后，保原60源和全部参数/数学终门，明确修正捕获别名、同商平方及原scalar支撑；八条本次实际filtration回执替原方法使用断言，通用full-local接口不变。新65源和workflow已逐项pin并请求唯一公开生产，实际run与终态待消费，不预付四交/Norm/$18\times9$。

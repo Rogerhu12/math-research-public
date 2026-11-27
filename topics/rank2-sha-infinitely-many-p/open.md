@@ -102,7 +102,7 @@ R984原规范循环Griffiths非零不付各p AJ；R988 level12 K3–E0²实现�
 
 ## O厚点. 唯一原完整执行
 
-原q5/q11全影子倒6零、q11完整NS/Br/MW和q11 Manin唯一run46018592834已付，不重跑。v11真时限终态沿原归档。[v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；这一个别名的保全部原门软件核验已于run46076504365真PASS，原primary局部平方重复已公开软件PASS（run46077929103）。[R1050：原标量厚纤维及T/v准确返回](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)（已证明）：完整自由代数中 $\pi^jA/\pi^{j+1}A\simeq A/\pi A$，故原 $\pi^mA$ 每个局部分量全长为 $m\deg(\pi)d_i$、重数为 $md_i/f_i$；$d_i$ 是整个非约化分量维数。原T/v在两图的完整scalar HNF逐式固定，finite v同T负点取有号重数−1/2，∞取同原重数。专用geometry支撑只消费point+m，因而可用全滤过回执保所有厚度而不重做其不消费的local projector；通用需完整ideal的接口不变。原四交/Norm/$18\times9$及主无穷$p$目标仍未付，软件实现待实际验证；不将时限退出作反例，不重复相同生产输入。
+原q5/q11全影子倒6零、q11完整NS/Br/MW和q11 Manin唯一run46018592834已付，不重跑。v11真时限终态沿原归档。[v12真终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)：原run46033409751于22:15:38被真实21000s门限中止，signal15/exit124；完整日志5694056B/hash80552d07f846435ca65e372cba161a4c0240e820abec053c3589d969239ce907已消费。30次完整native回返、六条612尖点分解及下一306块已返，四交/Norm/$18\times9$仍无终回执。源核查证明v12的后置module绑定没有更新先生成native函数的独立globals；这一个别名的保全部原门软件核验已于run46076504365真PASS，原primary局部平方重复已公开软件PASS（run46077929103）。[R1050：原标量厚纤维及T/v准确返回](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)（已证明）：完整自由代数中 $\pi^jA/\pi^{j+1}A\simeq A/\pi A$，故原 $\pi^mA$ 每个局部分量全长为 $m\deg(\pi)d_i$、重数为 $md_i/f_i$；$d_i$ 是整个非约化分量维数。原T/v在两图的完整scalar HNF逐式固定，finite v同T负点取有号重数−1/2，∞取同原重数。专用geometry支撑只消费point+m，因而可用全滤过回执保所有厚度而不重做其不消费的local projector；通用需完整ideal的接口不变。原四交/Norm/$18\times9$及主无穷$p$目标仍未付，软件实现已真PASS；不将时限退出作反例，不重复相同生产输入。
 
 保原两char0 pins、全60源/29/2453/64/minimal及全部原几何门；即使有限影子通过，真正无穷p主门仍须另付。
 
@@ -123,7 +123,7 @@ O4：原O格Q=δ^a εw需无穷ordinary p有a≤1；E17的a偶、E389的lengthSh
 - 原 $R1049$ 晶体整格、Manin/cochain、残余 toric 比较均保未知好范围及全54权；全局障碍不直接赋原加权 AJ 非零。具体全部公式、常数和失败链见本页开头逐字归档。
 - 唯一完整厚几何 v12 的真实21000s/exit124终态已消费；四交/Norm/18×9未返。捕获别名和同商局部平方软件均已真实通过；下一受核修改是R1050的原scalar支撑入口，保完整非约化纤维、maximal/registry及所有一般返回和几何门。有限终门也不替通常全 $\Sha$ 的真实无穷 $p$ 条件。
 
-root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(-1/4)$ 的准确二挠读数，central 实现已证明的原scalar全厚支撑并保生产所有终门，arithmetic 处理真正高前缀核中的同源节点 jets 和全部 Smith 主项。子问题完成即接下一项，主目标完成前持续研究。
+root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(-1/4)$ 的准确二挠读数，central 处理原theta的真实flat/Amice与合法Newton reader，arithmetic 处理真正高前缀核中的同源节点 jets 和全部 Smith 主项。子问题完成即接下一项，主目标完成前持续研究。
 
 
 ## 原全深矩阵的已付递推与下一未闭项（R1051）
@@ -133,14 +133,14 @@ root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(
 下一步使用上述完整 $C_{\rho,j,r}$ 和坏条件，在真正高前缀核/同一首提升中支付新增 Smith 主项。整个来源有许多节点并不能推出该核仍有同样节点；也不以高物理深度本身替代全局预算。
 
 
-原完整几何当前软件接续见[scalar全厚支撑核验](notes/2026-11-27-original-scalar-support-software-and-production.md)。这项检查待真实回执；不以静态审阅、夹具结果或方法计数替原所有终门。
+原完整几何当前软件接续见[scalar全厚支撑核验](notes/2026-11-27-original-scalar-support-software-and-production.md)。这项检查已获真实PASS；不以静态审阅、夹具结果或方法计数替原所有终门。
 
 
 ## 原Manin二挠特殊值的具体整数条件
 
 [原Manin二挠特殊值的完整Legendre返回](notes/2026-11-27-original-manin-two-torsion-legendre-boundary.md)已证明：同一原 $B$ 上 $U=-1/4$ 恰为三个非零二挠点，原Hasse严格等于 $\mathcal L_{2n+1}(V)$。次数 $<q$ 的原函数固定全部积分常数；Rodrigues完整边界给 $P_q(-1/4)=(-1)^n C_n/[3\cdot2^{2n+1}(2n+1)!]$，并准确返回原规范 $\mu_{\min}(P_Q)(O)=(-1)^{n+1}c_QC_n/(2n+1)!$。这里 $q=6n+5$ 是辅助特征；整数和 $C_n$ 的无穷模q非零仍开，所有17/η/Cor后继仍保，未以实正性或半单角色取消充作非零。
 
-下一步仅能消费这个同源整数条件或换入真正新几何输入；不能从全局Manin多项式非零直接推指定纤维非零。第一scalar软件检查真实失败于矩阵复制接口，最小修正已重提；未出现原几何反例或软件PASS。
+下一步仅能消费这个同源整数条件或换入真正新几何输入；不能从全局Manin多项式非零直接推指定纤维非零。第一scalar软件检查真实失败于矩阵复制接口，最小修正后第二次实际PASS；未出现原几何反例。
 
 
 ### 全深递推的真实首提升已付范围
@@ -151,3 +151,10 @@ root 继续审证、实际两库 pull 和逐条推送；geometry 处理原 $P_q(
 
 
 原scalar软件第二次执行已真实通过（run46079484704），完整来源和第一失败见[§§4–5](notes/2026-11-27-original-scalar-support-software-and-production.md)。继续处理真实生产导入顺序及8条实际filtration回执，不将软件PASS替原几何终门。
+
+
+## 原完整 v13 生产请求
+
+[v13原完整生产接入](notes/2026-11-27-original-scalar-filtration-v13-production.md)：三项真实软件PASS后，保原60源和全部参数/数学终门，明确修正捕获别名、同商平方及原scalar支撑；八条本次实际filtration回执替原方法使用断言，通用full-local接口不变。新65源和workflow已逐项pin并请求唯一公开生产，实际run与终态待消费，不预付四交/Norm/$18\times9$。
+
+本次只替换已证明且软件全核验的实现成本。必须实际完成原四交、一般 Artinian Norm、全部 $18\times9$ 和九对；若失败，只按真实错误修改，不重复相同输入，也不把 finite PASS 升格为无穷 $p$ 主结论。
