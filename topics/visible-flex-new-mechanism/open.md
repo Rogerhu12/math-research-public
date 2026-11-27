@@ -58,16 +58,17 @@ p阶段约2.5e−7未过不升级；目标p=.8/末η≤1e−7。同空间真停�
 
 [同一个固定E的角误差传递](notes/2026-11-27-r618-same-fixed-E-angular-transport.md)已给条件完整接口：冻结目标E/e_r误差先经同支均值与连接两标量三角系统进入x/z，再以完整离解微分传到两次primitive；原mean/output两网alias、有限系数舍入和全部奇频尾分别保留。内帽先用(y,ξ,λ,s_r/W)归一，不把单位量的ulp除以W²冒真误差。只在声明整个盒正性/导数/源误差真包围下给同目标η界；两标量根不意味着D全角零、硬τ1可解、增长一致逆或径向/全时证书。新原scope的真实已完成覆盖才能消费，当前入口失败不补造读出。
 
-## O2b-C：B030真实d191，原剩余238与新native历史
+## O2b-C：B030真实5659，恢复阶段与原剩余2561
 
-[normal56e8原终态](notes/2026-11-27-r566-normal56e8-original-terminal.md)：run45909082053/job140212809662/source5cd6055b；新2370.339514432秒，15metric/0restore。旧新1390baseline本段已付（不计接受），真81q **d1914e0ff7baa35be99012afdd7af12ed3dbfe3cd876298762b9cedd2aa2e3a8** 已完整1580×3072/1898峰，η.21585219167801023，物理/working V0。当前永久fine与保留资格同一1580/SHA ace4e97f3167657401810ae69d4c17422c324c4e0c09b9fd5acd347c09f0ff5b，不再重放其入口资格。
+[native原自然终态](notes/2026-11-27-r566-native-d191-natural-final-agent.md)：run45914886940/job140231615166/source797efdf0，新2370.546518149秒、4metric+1geometry restore；旧d191/238范围已执行，原1678已付峰复用、238补完，旧待候选未接受。末81q **56594ecb1d8d94cd8463359dc2e40b4a681be6a4588296d63ae3eda3a240c7f3**，完整1610×3072/9330已观察峰，η.20868474226441153/物理V0；当前与合格fine同SHA6c81065190712fac73136514a7caf7f7c7b41e59a74712602aa7f08bf1fe776b，无需重入口资格。
 
-实际789coarse/1763physical orbit/720work/1536角/trust.3003387451171875，pending11物理/15工作。末298f候选raw/fine/nested已付，1916峰完成1678剩238，已有ball/strip违反2.914e−7/6.817e−7；不以较小raw e或未闭峰冒接受。后继同q/fine/oracle只补原238，合并新证据；完整物理/mean/det/box/curvature/ball/strip/working/η和细网门不动。
+实际804coarse/1793物理orbit/277work/1536角，未应用提案0/0，trust.45050811767578125，phase geometry_restoration。已接受fine的原margin=.0004748151855263885；末原e=.010474815185526721，但coarse更新后的best_geo没单独输出。后继保准确e/fine margin，可用RN64加法逆像的完整区间保原比较，不能把e−.01写成恢复准确值；原candidate≤tol的restored分支不受此缺口影响。
 
-本段22原后端/22Jac/21交换，0自然返回，Jac602.598532248秒/1464块；再次由原callback时序证每段尚未学首BFGS。新[native初H/真secant实现](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审：旧H/λ未存首次I，后以真实已付J与同冻结λ/完整旧非零行更新，phase/model/FFT语义变重置。原MODEM1消费不再外部重复，后续reset仍I；新构建及全费用在原clock，旧科学源冻结。[具体d191/partial238新scope](notes/2026-11-27-r566-d191-native-curvature-partial238-scope.md)已审，原callback/全部原接受数学不变，6056B旧剩余消费块逐字复用；40源/768665B必要输入精确绑定，2400秒包含新native fetch/build/seed/全部实际优化。源以push触发原B030串行组，不改目标或以近似H冒物理证书。
+末候选53ed9的原coarse全2224960行、同1610×3072 fine和nested已付；fineη.20921002233215497/物理V0。原12013区间已9452、剩2561，同oracle18745e50…；已付前缀strip5.542782454e−9在原tol内，却未完成所有峰。只补原2561并合并已付9452，必要大输入gzip；原恢复判据允许eta不降，不能套此前metric-only partial238入口。所有物理/working/mean/det/box/曲率/球/strip/细网门不变。
 
-[此前partial391](notes/2026-11-27-r566-partial391-original-terminal.md)的1128补全/8metric+2恢复（含η升）、全部旧fine/拒绝/费用保留，旧队列已闭不重跑。完整已知链下界17099.551640495秒，未知仍未知；fixed g、全时宏观族未付。
+native已实际产生5次同冻结λ Powell更新（全阻尼），3skip/1phase语义reset/1原MODE−1消费，0额外模型value/J；10后端/11J/876块/388.11901701秒，0自然返回。完整checkpoint74980B SHA f499980ad5de37b29a7b80263978e07df31d012c41e5d01a1ac06f90119dfd4e保存3403packed LDL、82维锚/梯度及2非零λ。后继同helper恢复真实H/pending；若转metric语义变则原规则重置，不重复已消费secant。完整旧workspace/J未存，必要新构建与新方向全计费。
 
+此前normal56e8、partial391及全部旧fine/失败/费用仍保原收据链；原已知科学下界17099.551640495秒再加本次，未知仍未知。近似H和有限接受未授fixed g、完整全时宏观族或连续reach。
 
 [固定圆参考与固定g接口](notes/2026-11-27-r623-fixed-reference-and-fixed-metric-reuse.md)已核：59a4圆G*的完整ρ/D可用于近邻新q，但新δ/α/K不移旧值；锁全source/L/C/RC/.38/H/mean/轴及primitive规范，不能只给reference_q。该圆不依赖design.p或材料jets，p变化仍要支付新core界；p=.8时δ≥.62，不能继续用已知ρ=.06072旧圆门。相位族直接继承全t空间几何与同固定旋转g的误差，不另做时间网格。17mean固定不足以固定Ebar，最终须本线完整连续E*/a*位置误差接口；R618的397 E*是不同目标，core a′=0排全域r=a坐标偷换。旧59a4由已付C0直接得相位δhold/D<.006，不能作宏观完成。
 

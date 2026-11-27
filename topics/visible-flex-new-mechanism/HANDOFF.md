@@ -5,7 +5,7 @@
 
 ## 1. 授权、规则与继承
 
-公开本次实际pull且根/题README已读至 **2a067f0ae3f0e61b2df470f010839084dac6df1b**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
+公开本次实际pull且根/题README已读至 **922616ef53f3ca2297dfe531784c19081ee54813**；根/题规则相对继承0749a4cc仍为空差异。私库实际pull/根README已读至 **50c1c0039e5e9ff8c6979369a8059aad7efc3ddf**，2026-11-27 00:50:21 UTC空diff；下次不晚于01:45 UTC。QUEUE唯一仍本会话进行中，原认领09f8b8b54e。
 
 每次pull只读根/题README差异并记SHA，至少每小时；NFF/ref锁立即pull --rebase再推至成功。root独占git和四索引，每条结论即推；科学只公开Actions，本地只纸证/源码及原日志JSON/hash解析。根12不重放已付门；根15不存raw/可重算表，必要新场再生全计费。H<10KB/open<30KB/md<100KB；publisher活跃不改tracked。
 
@@ -23,13 +23,13 @@
 
 后继原334+5/339及全部16203永久fine，新增位置付原完整资格；p阶段2.5e−7未过，目标p=.8/末η≤1e−7不降。16mean q64:80及h96=.6986806496374112全变，旧59a4完整几何不转移。原normal311/较早全部失败与费用保收据链；mean g仍在设计，同g/参数/时间域精化未付。
 
-## 4. B030最新d191，接原238剩余峰与native曲率
+## 4. B030最新5659，恢复阶段保原H并补2561区间
 
-[normal56e8原终态](notes/2026-11-27-r566-normal56e8-original-terminal.md)run45909082053/job140212809662/source5cd6055b，23:48:08 UTC已结束；2370.339514432秒/15metric/0restore。真81q **d1914e0ff7baa35be99012afdd7af12ed3dbfe3cd876298762b9cedd2aa2e3a8**，1580×3072/1898峰η.21585219167801023、物理/working V0。当前与合格fine完全同SHA ace4e97f…，不重入口baseline；789圈/1763物理orbit/720work/1536角/trust.3003387451171875，pending11物理/15work。
+[native原终态](notes/2026-11-27-r566-native-d191-natural-final-agent.md)run45914886940/job140231615166/source797efdf0；00:47:39 UTC自然结束，新2370.546518149秒，4metric+1geometry restore。81q **56594ecb1d8d94cd8463359dc2e40b4a681be6a4588296d63ae3eda3a240c7f3**，1610×3072/9330峰η.20868474226441153/物理V0。当前/合格fine同SHA6c810651…，804coarse/1793物理orbit/277work/1536角，pending0，trust.45050811767578125。
 
-末298f raw非best：同1580 fullfine/nested已付、1916峰完成1678剩238，已见ball/strip违约2.91e−7/6.82e−7，未接受。按同q/fine/oracle补余238再合并真实证据；旧1678不重跑。22后端/22Jac/21交换，0自然返回、602.598532248秒Jac；均首callback早于BFGS。已知旧链加本次≥17099.551640495秒，未知仍未知。
+末phase **geometry_restoration**，exact e=.010474815185526721；已接受fine margin=.0004748151855263885，末coarse更新best_geo未直接输出，不能用float(e−.01)冒准确恢复。后继保原阶段判据，必要由准确加法舍入逆区间处理未知值；恢复≤tol分支不依赖它。待候选53ed9已付coarse/fine/nested、12013区间完成9452剩2561，已付峰前缀未构成完成资格。eta_grid.20921002233215497较高仍须按原恢复门判，不错用metric下降门；原9452不重放，必要大输入gzip。
 
-[原源码时序](notes/2026-11-27-r566-true-secant-restart-source-receipt.md)与[native初H/真secant](notes/2026-11-27-r566-native-initial-curvature-and-true-secant-implementation.md)已双审发布；旧未存H/λ不能恢复，首次I。新同冻结λ/同行函数两J、native MODEM1不二次消费、语义变重置、后续reset仍I。512KiB必要checkpoint不存完整J。[具体d191/238新scope](notes/2026-11-27-r566-d191-native-curvature-partial238-scope.md)run45914886940/job140231615166/source797efdf0，00:07:34 UTC启动；原callback/旧partial消费逐字不变，40源/768665B输入保原FINAL/1678峰；2400秒含构建，原全门/双轨不变。
+10backend/11J/876块，0自然返回；native真实5同冻结λ Powell更新、3skip、1phase reset、1 MODE−1消费，0额外模型/J。完整H checkpoint74980B SHA **f499980ad5de37b29a7b80263978e07df31d012c41e5d01a1ac06f90119dfd4e**，3403packed LDL及82锚/固定乘子梯度、2非零λ齐全，后继实际恢复；旧全workspace/J未存，语义变仍重置。构建1.260217609秒及所有新/失败费用包含总账，旧已知≥17099.551640495秒另保未知。宏观fixed-g族未付。
 
 ## 5. 正常全S继续，固定E硬τ1已见真实均值根失败
 

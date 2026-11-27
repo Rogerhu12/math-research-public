@@ -683,3 +683,8 @@ open原28316B全文按链接层级移入open-before-fixed-E-and-K-only归档，�
 ## 2026-11-27｜97q pending330的唯一原终态与真实4bd9
 
 根独立解析7572735B原stdout、522743B唯一FINAL、330743B唯一CHECKPOINT与116364B FIELD，核共有终态字段、实际0d材料/全部97q及fine网格binary64 SHA。14Jac=3/1/1/1/8、17fine=4新入口+13callback，1同网入口复用；当前8J/104块/36value不漏计。8metric+1restore，末raw c4b9原行不合格，fraction.5独立4bd9全fine后接受；末仍真实下降、0stall/OptimizeResult。新2408.826496151秒不裁成2400，所有原/新费用保留。mean16项+高度全变、旧59a4几何不转移；下一原334+5拟定339及所有16203永久fine，不重旧资格或套B030算法结论。
+
+
+## 2026-11-27｜B030 native原自然终态与真实恢复阶段
+
+根全文审14027B收据，独立核17839432B原stdout/909317B唯一FINAL/2083457B唯一PARTIAL、9452峰及2561队列规范hash、81q与fine身份。五实际接受的原checkpoint逐项核合，工作margin和物理V0分别保留；末e有记录而更新best_geo未直存，禁止float相减冒精确恢复。74980B checkpoint/3403packed LDL/82维锚/2非零λ与原QP身份均核合；5真secant/1MODE−1消费和新构建成本不漏。所有2370.546518149秒、partial及旧账保留。后继仅补2561，用原geometry-restoration门及真实H，不能借较低eta或重旧9452峰。
