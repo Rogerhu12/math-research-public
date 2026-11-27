@@ -149,3 +149,8 @@ R1040从原E3969六sigma给完整Gram=(126,3,6,51,2,2142)/det−12852δ；H/J全
 ### 原四点谱盖、Pell与指定半类
 
 R1041将原s0=0四点谱盖双向写成固定亏格二Q6，真实S4 incidence恒等式给同一Jac的F²=−q；Pell单位的完整Norm=cU²[Y/(Y+1)]^((q+1)/3)，常数亦平方，全部ODE和固定非零迹微分齐。原FQ全极与εprod=−δW/t准确分出两个三挠交，构造指定半类AQ∈EL(Fq)；新ss输入使(q+1)AQ=0，未声称AQ非零、已返s0=1或原27最高权非零。 后继必须在原W方向下分离两半并接原两quadric；(q+1)杀半类和纯第三类微分非零均不是最高AJ判据。R1039§9的q≡−1mod24可供真实边界下降使用。
+
+
+### 指定半Norm的实际新计算
+
+新增原q11指定半Norm实时consumer：绑定原Norm→lift→唯一Q三层真实run/job/source/hash，保δW∓t方向，以两2×4乘法呈示全部六minor的完整DVR/Fitting长度分开每个厚零；尤其保T9,Y8二重零。两半各degree12、各自Cantor和准确−3 twist返回原EL，输出AQ=kG的实际k而不预设非零。 公开请求2026-11-27-1048-original-q11-specified-half-norm；不得把旧完整Norm零类代替两半或重复旧截面搜索。实际结果返回后继续与原Prym固定边界和最高权比较。
