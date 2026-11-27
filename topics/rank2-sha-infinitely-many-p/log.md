@@ -107,3 +107,7 @@ run46031932492/job140617645118/source cf6a7d6a真PASS，完整原余式/坐标�
 ## 2026-11-27 16:22 UTC：R1049原惰性54图与晶体指数
 
 R1049全文已付原full9/GΓ局部下降、完整proper杯积p/(p+1)、新增NS的CM指数1/p、up本原性和实际W₂ cocycle障碍；原Ξ restriction与全η/Cor读数仍保，继续积分桥。根已读Besser2016及DR§3.3的真实i=P(F)规范，补明n2时Fil²H¹=0；没有新数学运行或替换固定循环。H先逐字归档保全部历史。
+
+## 2026-11-27 16:23 UTC：R1049完整Hodge层级
+
+R1049§3统一原S lift于H²_fp(S,2)，A用Besser(2.3)的唯一H¹_fp(A,0)，总n=2，O_A pullback自动零；因此(15)确在全H¹成立。原p/(p+1)、全部54图与Čech同伦不变，Chern twist1比较明确经forget 2→1。修正普通提交，未改写旧提交。

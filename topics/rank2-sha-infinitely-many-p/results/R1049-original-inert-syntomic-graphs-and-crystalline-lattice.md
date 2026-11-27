@@ -133,7 +133,7 @@ P_S(T)=1-\frac{T}{p^2},\qquad
 P_A(T)=1+\frac{T}{p}.
 \tag{11}
 $$
-(6)给 $P_S(F)[\Omega_S]=0$ 与 $P_A(F)[\omega_A]=0$。在原光滑模型的 functorial Čech–rigid/de Rham mapping fibre 中选 lift
+(6)给 $P_S(F)[\Omega_S]=0$ 与 $P_A(F)[\omega_A]=0$。在原光滑模型的 functorial Čech–rigid/de Rham mapping fibre 中，明确取 $H^2_{\rm fp}(S,2)$ 的 lift（因为 $\Omega_S\in\operatorname{Fil}^2$）
 $$
 \widetilde\Omega_S=(\Omega_S,\Xi_p),\qquad
 d\Xi_p=(1-p^{-2}F)\Omega_S.
@@ -167,7 +167,7 @@ $$
 
 严格说，此处有限多项式次数的 Hodge 参数是 $n=2$，而 $\operatorname{Fil}^2H^1_{\rm dR}(S_b)=0$；所以(15)的等式实际在整个 $H^1_{\rm dR}$ 中成立。写模 $\operatorname{Fil}^1$ 仅表示随后与全纯 $\omega_A$ 杯积时所需的商，不改变归一。
 
-取 $\omega_A$ 的 proper finite-polynomial lift $\widetilde\omega_A$，并用 $O_A^*\widetilde\omega_A=0$ 固定其唯一常数。它可由
+在曲线因子上取 $H^1_{\rm fp}(A,0)$ 的唯一 lift $\widetilde\omega_A$，使用 Besser 2016(2.3)的 $H^1_{\rm fp}(A,0)\simeq H^1_{\rm dR}(A)$。于是两因子的 Hodge 参数为 $2+0=2$，直接进入原 AJ 的测试次数。因 $H^1_{\rm fp}(\operatorname{Spec}W,0)=0$，$O_A^*\widetilde\omega_A=0$ 自动成立；无需另选一个常数。一个 cochain 代表仍可写成
 $$
 \widetilde\omega_A=(\omega_A,G_p),\qquad
 dG_p=(1+p^{-1}F)\omega_A
@@ -191,7 +191,7 @@ $$
 $\langle\xi_{b_i,p},\widehat\varphi_i^{\,*}\omega_A\rangle_{S_{b_i}}$。
 因此 degree34 及真实微分 multiplier 留在实际 pullback 中；没有把 $\varphi_i$ 错当成反向同源，也没有省去一个34因子。
 
-两项 Chow 修正的贡献确为零。对 $S_{b_i}\times O_A$，采用上面已固定的 $O_A^*\widetilde\omega_A=0$。对 $O_{b_i}\times A$，$\widetilde\Omega_S$ 向点的 degree2 proper finite-polynomial 限制为零。原系数34保留在修正图定义中；并非先丢修正项才算图。
+两项 Chow 修正的贡献确为零。对 $S_{b_i}\times O_A$，采用上述 $n=0$ lift 的 $O_A^*\widetilde\omega_A=0$。对 $O_{b_i}\times A$，$\widetilde\Omega_S$ 向点的 degree2 proper finite-polynomial 限制为零。原系数34保留在修正图定义中；并非先丢修正项才算图。
 
 ### 4.2 用完整卷积独立核归一和符号
 
@@ -420,7 +420,7 @@ D_B\mu(Q_p)=c_{Q_p}A_p,\qquad c_{Q_p}\ne0,
 $$
 以及两 cusp、canonical fiber 和有限 supersingular 点的准确接触阶。本篇(31)进一步支付了其新增除子在**原晶体整格**里的本原 CM 位置。但是，$\mu(Q_p)$ 是特征 $p$ 函数；$\Xi_p$ 是固定特征零 $\Omega_S$ 的含 Frobenius 同伦的 primitive。它们尚未被本文识别。
 
-可以将 $u_p\widetilde\Omega_S$ 称为 $c_1^{\rm cris}(D_p^+)$ 的一个 finite-polynomial lift；这只是一种精确的上同调 lift。其图限制满足
+可以将 $u_p\widetilde\Omega_S$ 称为 $c_1^{\rm cris}(D_p^+)$ 的一个 finite-polynomial lift；这只是一种精确的上同调 lift。这里先在 $H^2_{\rm fp}(S,2)$ 使用(31)已给的全纯 Chern 分量；与通常 twist1 的 Chern 类比较时使用自然的 $H^2_{\rm fp}(S,2)\to H^2_{\rm fp}(S,1)$。不把这条 forget 映射当作特殊纤维除子已经提升。其图限制满足
 $$
 \boldsymbol i^{-1}\!\left(
  u_p\widetilde\Omega_S|_{S_b}\right)
