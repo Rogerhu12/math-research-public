@@ -12,10 +12,10 @@ root独占git/H/open/log/index；每条结论即推。非快进立即实际pull 
 
 ## 实际同步与规则
 
-- 最新两库实际部分clone/pull --rebase：只读CI run46060706157/job140713972083，source50eff7e6aef263a9c7478b55a8cde0d224d04d9f。公开20:01:18UTC至50eff7e6aef263a9c7478b55a8cde0d224d04d9f，较420002f268f6978049cb9575a456630e6c363c5c两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库20:01:24UTC至c077273f1b19137c631bc2ad7fa0f6f9279d97f7，较e5971fbad30f1a658de11feffd69e0fd7ab9fcd5两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本行保持本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。MR_TOKEN只进程私库只读，私文不入公开log。
-- 本地07:20失联，20:00实际pull仍无环境；末次本地公开07:12的1cf10ac。CI、本地及API分记。**下一两库实际pull不迟于21:01UTC；当前已提前请求新一轮只读CI，待实际回执**；每次读两README新差异并即执行、记SHA。API比较不冒作pull。
-- 20:00两次ref暂时错误/main前进，实际本地pull失败后第三轮推7a3dd34；本轮CI已补拉成功。最新rule15为3106blob/43,651,017B、无>5MB；三旧gzip输入证书不变，完整回执hash在log，不存可重算日志。
+- 最新两库实际部分clone/pull --rebase：只读CI run46065793641/job140730654063，sourcef044013487035c28f2c3e21494edf0494453495d。公开20:45:38UTC至f044013487035c28f2c3e21494edf0494453495d，较50eff7e6aef263a9c7478b55a8cde0d224d04d9f两README无变；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库20:45:43UTC至bca09f7f22dd54e77e0a7f1d47f525fbb9b5eec1，较c077273f1b19137c631bc2ad7fa0f6f9279d97f7两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE仍a01613b400f6cce6d89d2df6e34c836d9758386f，本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。私文/凭据未入公开日志。
+- 本地07:20失联，20:45实际pull重试仍无环境；末次本地公开07:12的1cf10ac。CI/本地/API分别记。**下一两库实际pull不迟于21:45UTC**；每次只读两README新差异，立即照新规并记已读SHA。API比较不冒作pull。
+- 20:45请求推送遇GraphQL UNKNOWN/main前进，实际本地pull失败后第二轮CAS成功f044013；本轮CI补拉成功。规则15库存3115blob/43,791,938B、无>5MB，三旧gzip必要输入SHA不变；完整回执hash在log，不落可重算日志。
 
 ## 唯一原完整厚几何执行
 

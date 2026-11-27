@@ -268,3 +268,6 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 
 - 2026-11-27 20:45 UTC：按每小时规则提前请求两库实际部分clone/pull --rebase，比较基准公开50eff7e6aef263a9c7478b55a8cde0d224d04d9f、私库c077273f1b19137c631bc2ad7fa0f6f9279d97f7；等真实回执才登记新已读提交。既有只读workflow保持，不触发新数学作业；H整理前9866B逐字存before-new-canonical-geometric-comparison，完整条件/旧归档链保。唯一厚v12不重启，原目标继续。
+
+
+- 2026-11-27 20:46 UTC：root亲读最新实际CI run46065793641/job140730654063/sourcef044013487035c28f2c3e21494edf0494453495d全部14900B日志（SHA256 addd414495afdd0e9653e4b5ad11580cace369fffbd6a0cdfc24e0919697a724）。公开20:45:38实际pull至f0440134，较50eff7e6根/topic README无变；私库20:45:43实际pull至bca09f7f22dd54e77e0a7f1d47f525fbb9b5eec1，较c077273f两README无变。已读四blob完整SHA见H；QUEUE仍a01613b4，本会话进行中不变。规则15 tree7183d16797028cdd673d5cf909f0da65648136bf、3115blob/43,791,938B、无>5MB、三旧gzip必要输入同SHA。此前请求CAS遇GraphQL UNKNOWN并main前进，实际本地pull仍No usable execution environment，立即重比/重推第二轮成功；本CI已完成补拉。只留run/hash与结论，不落日志/输出。下一两库actual pull≤21:45UTC；重型v12在20:46仍in_progress，不重跑，理论继续。
