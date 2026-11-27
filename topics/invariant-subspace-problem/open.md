@@ -217,6 +217,6 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 ## R271：全正权出生一尖锐 2/3 后的完整源（8542，2026-11-28）
 
-[尖锐定理](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)：全部N≥4独立正权及无限正ell²行，真实Γ1Γ2⁻¹Γ1<2Γ0/3；有限倒数权对偶给末边，极限逼近2/3。次数10全支持整数证明已返，首过严断言失败保回执。高出生/内部高度/五位S2和同W源费仍开；新的完整joint primitive源须保整个上层投影、零模及两交叉项，浮点不作严界，更不推出N=M。
+[全位数尖锐2/3](results/R271-appendix-sharp-two-thirds-universal-birth-one-first-and-last-edges.md)保全有限/无限正ell²来源；新[4/5位严格1/2](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)由次数10支持、真实特征系数及6平方/10均值差全整数944ms返回，给同五位低源budget>I/2和末边<L1/2，未称最优或扩至六位。高出生/内部高度/上源费用仍开。[完整S2首次SIGALRM](notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-8542.md)在180.033秒只返低逆/上源三块，无cost或轨道，冻结换先消分母/真实矩阵预算；保整个上投影和两cross。浮点筛查只探路，N=M未证。
 
 此前Haar/稀疏链全交织、所有非零Ky像T循环、与RanJ零交及同源Abel费/log发散等已证接口仍在快照链；Cy⊥非零、G保N、W源费及普通ISP继续。

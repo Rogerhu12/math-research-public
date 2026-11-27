@@ -1,16 +1,21 @@
 {
-  "message": "ISP: freeze the exact psi D Euclid timeout and change to original linear rho input",
-  "parentCommit": "a0081343ef53d93301446a7be117f6e12bed17cb",
+  "message": "ISP: prove strict half bounds for four and five physical sites and retain the failed S2 input",
+  "parentCommit": "127df511e8b47d7e263eae5cc31397e8c28209a1",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-Phi-psiD-high-degree-rho-Euclid-SIGALRM-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Phi-zero-exceptional-psiD-original-linear-rho-cubic-four-by-two-input-8542.py",
-    ".github/workflows/invariant-subspace-phi-psid-original-linear-rho-cubic-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-psiD-new-linear-rho-input-8542.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-birth-one-half-four-five-certificate-8542.mjs",
+    "topics/invariant-subspace-problem/notes/2026-11-28-birth-one-half-four-five-certificate-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-five-bit-birth-two-S2-full-source-SIGALRM-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-primitive-joint-source-numeric-screen-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-primitive-joint-source-numeric-screen-8542.mjs",
+    "topics/invariant-subspace-problem/notes/2026-11-28-primitive-joint-source-numeric-screen-8542-primitive.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-primitive-joint-source-numeric-screen-8542-birth-one.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-four-five-site-half-bound-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,7 +24,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-phi-psid-original-linear-rho-cubic-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }

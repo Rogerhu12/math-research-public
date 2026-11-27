@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [四位五位全独立正权出生一严格1/2](results/R271-appendix-four-five-sites-birth-one-half-first-last-edges.md)：全部支持与真正特征系数整数944ms返回，首末边同常数；S2和六位不外推。
+
 - [Phi首头完整原F6三系数与D九次必要式](results/R150-appendix-unit211-Phi-zero-first-head-complete-original-F6-row-and-D-nine-necessary-equation.md)：a215真实10.754秒全MT递推/新三行BD，P9度73/41/9；保全部首头零及P6/P9共同纤维。
 
 - [h=k两QQ投影的完整共同曲线与剩余基点](results/R150-appendix-unit211-equal-singleton-two-original-QQ-projections-common-curves-and-finite-base-remainder.md)：J2/P25,3整曲线或两不可约剩余曲线交点，末类不同基点≤39195，全部Q纤维保留。
