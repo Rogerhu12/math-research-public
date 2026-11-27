@@ -587,3 +587,7 @@ AI-assisted GPT-6 Astra Pro：审原Gram重建、weighted N/P→HA/HB原迹、�
 - c4273fbc真run45992267399/job140482820609，173.568963518秒/340344KiB/inner0；整个Delta0碰撞图首一ell3、八值/八H³目标及648/3240全差系数实际返回，主元零全保。
 - 首原(C,ellC,ell²C)组合给F49(lambda,rho)=0，39/10次/440项/SHA8422cc37；其它七目标最高t次2/3/4，未排空或声称有限基点。只保存源/小receipt，不存大系数。
 - 新57dd0cb4只重建约4秒必要前缀，精确因式F49及原C公共参数因子，120秒1GiB；旧173秒八行大门不重放。本题新增workflow，H/open已完整快照后压缩已闭叙述，未闭接口保留。
+
+2026-11-27 19:47 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新c36f8f1e仅四个真QQ必要core的精确因式及全乘回，保全部因子对和固定rho阶；无结式/原单位删因子，120秒1GiB首次实际待回执。
+- 新增本题workflow，两小helper同SHA；ca53取消和旧8918已证明，不设重复全源审计门。公私pull及README差异/QUEUE由发布器实际核验。
