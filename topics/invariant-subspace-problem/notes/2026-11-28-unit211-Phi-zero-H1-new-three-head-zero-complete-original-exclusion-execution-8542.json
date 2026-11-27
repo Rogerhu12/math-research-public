@@ -1,0 +1,278 @@
+{
+  "schema": "isp-original-H1-head-zero-complete-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateAsiaTaipei": "2026-11-28",
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-original-three-head-paid-factor-and-zero-fibers-8542.py",
+    "blob": "e3cfca005d09d72437d4606b7547486de49bc10f",
+    "sha256": "41f0ff6e5148fc51f29421bdf56147bffc66cfa5b4826622ddd72685b26ec1bc"
+  },
+  "actualExecution": {
+    "elapsed_seconds": 0.4878427159999994,
+    "max_child_rss_kib": 41996,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "d3dff96c273a42c69e95bb036f11bb045517b68e",
+        "before": "28da8d75274a75b00e32cb50d86876c458442a19",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-27T21:42:56.438665+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46072049677",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "28da8d75274a75b00e32cb50d86876c458442a19",
+    "source_exit_code": 0,
+    "source_git_blob": "e3cfca005d09d72437d4606b7547486de49bc10f",
+    "source_sha256": "41f0ff6e5148fc51f29421bdf56147bffc66cfa5b4826622ddd72685b26ec1bc",
+    "stdout_bytes": 10516,
+    "stdout_sha256": "8853ff1d8a153ea96bbe0a6c9bc3e88329433e0907800d4b8ef5d0400d4e6277",
+    "stop_reason": null
+  },
+  "jobID": 140751072347,
+  "newExactHead": {
+    "paidOriginalUnitsRemoved": [
+      {
+        "unit": "u-1",
+        "power": 5
+      },
+      {
+        "unit": "Q",
+        "power": 3
+      },
+      {
+        "unit": "T0",
+        "power": 2
+      },
+      {
+        "unit": "ell_n",
+        "power": 1
+      }
+    ],
+    "completeFourCoordinatePolynomialProductReturned": true,
+    "residualQDegree": 3,
+    "residualCoefficientDegree": 11,
+    "residualIdentity": {
+      "geometryMonomials": 1,
+      "totalGeometryDegree": 0,
+      "maximumUCoefficientDegree": 11,
+      "bytes": 546,
+      "sha256": "19ed54730b0ad5ed9ac67759444e2b9bf1d0795d21d1a41597e337af821f635f"
+    },
+    "noUnpaidWeightFactorRemoved": true,
+    "originalHeadZeroStillRetained": true,
+    "stage": "new_H1_original_head_paid_factor_product",
+    "seconds": 0.23501702499999766
+  },
+  "newNormFactorization": {
+    "normIdentity": {
+      "degree": 41,
+      "bytes": 1464,
+      "sha256": "a2c1ac2a797e23e42ccf24748daee12fc1c67f869b98b7cbd8c6fde5a91a994d"
+    },
+    "completeQQFactorProductReturned": true,
+    "factors": [
+      {
+        "identity": {
+          "degree": 1,
+          "bytes": 9,
+          "sha256": "53d7f4a048bd0daee134c84d46a9de1de3d4c71942f740eb4f964d3fccbeecf3"
+        },
+        "multiplicity": 10
+      },
+      {
+        "identity": {
+          "degree": 1,
+          "bytes": 12,
+          "sha256": "0a014852d0f5941229c02d2427d94d6cc8cad5b944644f168bf7b141653a1279"
+        },
+        "multiplicity": 1
+      },
+      {
+        "identity": {
+          "degree": 1,
+          "bytes": 13,
+          "sha256": "8ee50d7068bc8301a4ef91d39f321039450018ad1b5e237b95d5dfc32e39637e"
+        },
+        "multiplicity": 1
+      },
+      {
+        "identity": {
+          "degree": 9,
+          "bytes": 138,
+          "sha256": "30a60a6e2188e060f610ae64e0df7543dec5cce437c7c355d5987bf5a8fb7e39"
+        },
+        "multiplicity": 1
+      },
+      {
+        "identity": {
+          "degree": 10,
+          "bytes": 155,
+          "sha256": "b4cdf1e081ad24397f36f78eafbe55023c2cf77d4aca6e6266560d648157e336"
+        },
+        "multiplicity": 1
+      },
+      {
+        "identity": {
+          "degree": 1,
+          "bytes": 12,
+          "sha256": "91f379e96baaf489126d0c887124c369bea6c5d28ea976b32a57d7371745ef72"
+        },
+        "multiplicity": 3
+      },
+      {
+        "identity": {
+          "degree": 1,
+          "bytes": 10,
+          "sha256": "285ffd711e3bc19d9be05a39c0e995ffb0c438891b622c32a07cc780a7668b59"
+        },
+        "multiplicity": 7
+      }
+    ],
+    "noEncodedOrSplitCoefficientPayload": true,
+    "allActualHeadZeroFactorsRetained": true,
+    "stage": "new_H1_actual_residual_head_QQ_norm_factorization",
+    "seconds": 0.23658678199999983
+  },
+  "actualQQHeadFibres": [
+    {
+      "phi": {
+        "degree": 9,
+        "bytes": 138,
+        "sha256": "30a60a6e2188e060f610ae64e0df7543dec5cce437c7c355d5987bf5a8fb7e39"
+      },
+      "originalG4HeadGcdDegree": 1,
+      "physicalGoodQDegree": 1,
+      "exactPaidUnitCuts": [],
+      "originalG4AndActualHeadBezoutAndAllDivisionProductsReturned": true,
+      "zeroPointSourceIsActualHeadNotOnlyItsNorm": true,
+      "stage": "new_H1_actual_head_zero_QQ_physical_model",
+      "seconds": 0.268520745
+    },
+    {
+      "phi": {
+        "degree": 10,
+        "bytes": 155,
+        "sha256": "b4cdf1e081ad24397f36f78eafbe55023c2cf77d4aca6e6266560d648157e336"
+      },
+      "originalG4HeadGcdDegree": 1,
+      "physicalGoodQDegree": 1,
+      "exactPaidUnitCuts": [],
+      "originalG4AndActualHeadBezoutAndAllDivisionProductsReturned": true,
+      "zeroPointSourceIsActualHeadNotOnlyItsNorm": true,
+      "stage": "new_H1_actual_head_zero_QQ_physical_model",
+      "seconds": 0.35372997799999695
+    }
+  ],
+  "actualNineReturn": {
+    "phi": {
+      "degree": 9,
+      "bytes": 138,
+      "sha256": "30a60a6e2188e060f610ae64e0df7543dec5cce437c7c355d5987bf5a8fb7e39"
+    },
+    "headZeroExcluded": true,
+    "eligibility": [
+      {
+        "prime": 1009,
+        "eligible": true
+      }
+    ],
+    "prime": 1009,
+    "finiteFreeRank": 54,
+    "actualOriginalRankHistory": [
+      {
+        "originalColumns": [
+          "remaining_W",
+          "T_times_remaining",
+          "actual_commutator_T"
+        ],
+        "rank": 54,
+        "ambientRank": 54,
+        "lambdaCoefficientDegree": 6
+      }
+    ],
+    "noPrimeChangedAfterOriginalIdealTest": true,
+    "conclusionScope": "actual h=0 fibre only, not every Q root of this u factor",
+    "stage": "new_H1_head_zero_factor_original_return",
+    "seconds": 0.328996661999998
+  },
+  "actualNineMatrix": {
+    "uFactorDegree": 9,
+    "prime": 1009,
+    "wholeFiniteFreeRank": 54,
+    "actualSelectedMatrixInverseProductReturned": true,
+    "noNormOrIndividualResidueRootLocalization": true,
+    "integralHeadsChosenBeforeCommonRootTests": true,
+    "characteristicZeroOriginalWholeWeightFactorExcluded": true,
+    "matrixIdentity": {
+      "bytes": 11508,
+      "sha256": "518e05f334886d19cd2a89a7474f9f42a1d561b1cc7ea97aad10fe77e0e815d7"
+    },
+    "coefficientMatrixPayloadTransmitted": false,
+    "stage": "new_nonlinear_H1_complete_finite_free_original_unit",
+    "seconds": 0.08132622599999806
+  },
+  "actualTenRetainedUnchanged": {
+    "phi": {
+      "degree": 10,
+      "bytes": 155,
+      "sha256": "b4cdf1e081ad24397f36f78eafbe55023c2cf77d4aca6e6266560d648157e336"
+    },
+    "headZeroExcluded": false,
+    "eligibility": [
+      {
+        "prime": 1009,
+        "eligible": false,
+        "reason": "no whole integral quadratic head is a unit"
+      },
+      {
+        "prime": 1013,
+        "eligible": false,
+        "reason": "integral original weight unit published Phi rho quadratic head"
+      },
+      {
+        "prime": 1019,
+        "eligible": false,
+        "reason": "no whole integral quadratic head is a unit"
+      },
+      {
+        "prime": 1021,
+        "eligible": false,
+        "reason": "no whole integral quadratic head is a unit"
+      },
+      {
+        "prime": 1031,
+        "eligible": false,
+        "reason": "no whole integral quadratic head is a unit"
+      }
+    ],
+    "reason": "no whole original lambda-six integral model in fixed eligibility primes",
+    "stage": "accurate_new_H1_head_zero_component_retained",
+    "seconds": 0.41532909499999704
+  },
+  "postExecutionMathematicalCombination": {
+    "publishedTenPolynomialExactMonicIdentity": {
+      "degree": 10,
+      "bytes": 155,
+      "sha256": "b4cdf1e081ad24397f36f78eafbe55023c2cf77d4aca6e6266560d648157e336",
+      "expected": "b4cdf1e081ad24397f36f78eafbe55023c2cf77d4aca6e6266560d648157e336",
+      "match": true,
+      "source": "published exact F10 coefficients, monic normalization, canonical JSON string coefficients"
+    },
+    "classification": "results/R150-appendix-unit211-Phi-zero-four-original-quadratic-heads-complete-ten-weight-locus.md",
+    "originalValueExclusion": "results/R150-appendix-unit211-Phi-zero-ten-common-head-weights-complete-original-value-exclusion.md",
+    "QFibreIdentity": "Old Q=-a9(u) makes all four original heads zero; paid invertible affine (T,z)->(T,v) and paid row factors preserve quadratic-head rank. Thus it is a common root of new g4,h; the actually returned QQ gcd has Q degree one, so the entire new phi10 fibre is exactly the old ten-weight fibre.",
+    "oldTenValueGateReplayed": false,
+    "allOriginalH1NewThreeHeadZeroFibresExcluded": true,
+    "rawInnerTenRetainedFlagRewritten": false
+  },
+  "P201DistinctWeightPairUpperBound": 804,
+  "ordinaryISPClaim": false,
+  "noCoefficientPayloadTransmitted": true
+}
