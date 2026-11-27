@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150一般H1六个非线性原极点全闭与804权对覆盖](results/R150-appendix-unit211-Phi-zero-H1-six-nonlinear-poles-complete-exclusion-and-804-cover.md)：7.029657647秒/0，全部六整原有限自由模型的原H乘法矩阵单位，付清52度；合三已闭整线，C55全部排空，只余P201与首一Q4，权对≤804，原值未完成。
+
 - [R150整H265头曲线的二三次结式及泛型唯一射影方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)：完整4阶=5阶结式和伪余式通用整数身份，H重数1给函数域唯一公共线性因子；有限例外、头零与无穷支全部保留，不等同有限原解。
 
 - [R271两对等权加两独立权全联合及七位五值首末边](results/R271-appendix-two-pairs-two-independent-full-joint-source-and-seven-site-edges.md)：20.882163528秒/0，全部七个原主子式正系数/W轴严格项，支付全9/5维S1/S2，进而七位完整14维首末；常数对新增权统一，未称全比率统一。
