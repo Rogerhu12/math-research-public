@@ -1,16 +1,16 @@
 {
-  "message": "ISP: prove dense ranges of every power inside the actual smooth-kernel core",
-  "parentCommit": "e161d9d4de0fbd868126e46523a8f4d6cad7a552",
+  "message": "ISP: rationalize the entire original K7 weight curve and both physical rho branches",
+  "parentCommit": "7f18381deb6fd7491615e80119a756df03ed953c",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-smooth-kernel-core-all-powers-dense-range.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-H1-six-homogeneous-lambda-leading-original-target-8542.py",
-    ".github/workflows/invariant-subspace-8542-phi-h1-six-homogeneous-lambda-heads.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-smooth-core-all-power-dense-range-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-smooth-core-all-power-dense-range-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-K7-rational-parameter-and-original-rho-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-K7-rational-parameter-and-rho-identities-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-K7-rational-parameter-and-rho-identities-8542-receipt.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-entire-K7-rational-parameter-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-entire-K7-rational-parameter-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,7 +19,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-h1-six-homogeneous-lambda-heads.yml"
-  ]
+  "dispatchWorkflows": []
 }
