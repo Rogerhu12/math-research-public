@@ -410,3 +410,6 @@ NS五件共129172B，owner71056B SHA18db439d5895e4232882940a57b7bd9457982383e1ac
 
 
 2026-11-27 00:47:41 UTC / visible-exact-astra-fb31ed6-20261127：RH proof/reader两件登记，26个新saved有理比较已过禁重。原Qδ及[0,9/50]同selected域，完整moving mean rank与短段正交Duhamel付relative position1.44/axialframe17/16；实际终端Q_b/F_b未置I/0。真实metric direct terms在同背景trial误差中才相消，signed列本身仍全保。NP完整误差转physicalheight给1.792904e−5||ζ||2+1.415847e−6||Cθ||2，coordinate term用已付uniform primitive/mean，不取径向L²免费trace；Cθ保真off-shell Fφ。WT已推49ab50a5af，两README无diff，高阶结果不代此低阶receiver。
+
+
+2026-11-27 00:49:56 UTC / visible-exact-astra-fb31ed6-20261127：登记FX两件，27新有理组合已全过不重。真正fixedφ long PDE完整拉回，保j−1函数参数/physicalmean primitive/两endpoint lifts/curvature逆/holonomy/两mean/height/Robin。实际Jacobi loop<.015991211、curvature差门<.212688447、even chart<.029727123、归一四参数<.247725209与二阶moment<100；无unknown L²复角composition。全signed Fourier Taylor核及原N±1/6/W权给allorder commutator，单raw端点A^{n+2}，最高边界反馈仍原QN .0025；physical source单位另付两height导/整数buffer。正侧whole closure继续。RH已推95b2228d7d，两README无diff。

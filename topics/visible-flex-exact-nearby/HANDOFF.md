@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 00:47:41 UTC。
+维护会话：visible-exact-astra-fb31ed6-20261127；更新：2026-11-27 00:49:56 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 已读规则、授权与接续
 
-2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至49ab50a5af34682581abc32d11de744bd5a1246d（相对12385db35无diff）；私库00:40:23 UTC pull根规则核至d1a0702dc42704c13c138c179a36b295668314fe，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
+2026-11-27（台北）已 partial+sparse clone 两仓库并 pull main，读根全部规矩、课题README、H/open、当前log及接续notes。公开根/topic规则已读至95b2228d7d1ae776c7d3363cf2384dd8d5b6edf1（相对12385db35无diff）；私库00:40:23 UTC pull根规则核至d1a0702dc42704c13c138c179a36b295668314fe，QUEUE接手已推594e561b05a758bd8c02840ca4fbf574cd707436。每次pull核两README差异、至少每小时一次，非FF立即rebase再推。令牌只CLI。无AGENTS。
 Actions计算；本地只证明/静态/metadata。规12不增审批复核、每结论推送；规15 topic≤200MB、H<10KB、禁可重建大数组。前H/open递归历史保全部记录，成功禁重。
 
 ## 同一对象与最终标准
@@ -31,7 +31,7 @@ geometry43584188751/26仅在同η0全core含帽物理C0≤1e−4、|δν|≤1e�
 
 SM全|δ|≤1e−10双端mean精确、改动仅[.05,.18]；SMR/STC/RTC完整residual/6143joins/true cut，negative incoming<.002029，RI内部Schur0。原η0 forward45778507038全7296/6143完成但C0/outermean false（row7147>1.00195589e−4、terminalmean约−.00766584024），只排中心，旧科学禁重。
 QN任意fulltail A³≤1e−6/outer≤1e−9付whole positive given-head七端口/mean/cross；QH真实H±2 DN/H7/6及positive H¹反馈<.803。NR同域strict/root Hs（−1≤s≤0）强/弱root到腰1192.764/2038.696；NT/RT全角阶单高背景，.005根窗H¹到腰5100D1+1.32e7D0+340S1+1.12e6S0，真density另<1.041。源/jumps/两mean保，无generic径向L² headtrace。
-[PT](results/R144-supplement-all-angular-positive-Cauchy-graph-with-one-high-background-factor.md)全角阶独立root/outer图单A^{n+5/3}，辅助中段只用旧H¹解；[DN](results/R144-supplement-all-angular-exterior-DN-tame-inverse-in-real-function-spaces.md)四真实rows/adjoints全阶、K^-1<1.001/单raw A^{n+1}，真正moving-angle全反馈由geo继续。
+[PT](results/R144-supplement-all-angular-positive-Cauchy-graph-with-one-high-background-factor.md)全角阶独立root/outer图单A^{n+5/3}，辅助中段只用旧H¹解；[DN](results/R144-supplement-all-angular-exterior-DN-tame-inverse-in-real-function-spaces.md)四真实rows/adjoints全阶、K^-1<1.001/单raw A^{n+1}，新[FX](results/R144-supplement-fixed-moving-angle-long-module-and-full-exterior-commutators.md)实际fixedφ完整long PDE/module/curvature逆<12、even chart<.03，真实raw外反射全角交换子已付，单端点A^{n+2}，最高真实反馈仍<.0025；geo正在直接闭合PT。
 TH whole raw/trueν Hessian与smoothing、UH全mean chart、DH三curvature行/独立height mixed10000、RP双ray/trueν²/未归一phase mixed400保。WH同world passive位置L²/physicalheight H−3 Hessian≤2^100保独立frame/position/waisttrace，未用Fφ=Ocφ删缺陷。新[WT](results/R144-supplement-all-angular-passive-world-height-tame-map.md)20新比较已成，所有H^n height值/一二阶/余项全付；方向至H^{n+3}、背景A^{n+2}/terminalH^{n+3}各一次，Cn=2^{200(n+12)}((n+12)!)^8。真实inverseΘ/两mean/fullmodes/off-shell Fφ保；cap图导数/full inverse与收敛待。
 更早source4/RW96/JC7、IR全99/DT同号/TM/TP/SDI/DC/DB/DG/IL、原cap/94链/NG/geometry及全部false/unknown保0c4原H/open与各proof，不撤scope或重算。
 
