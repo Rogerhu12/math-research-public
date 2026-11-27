@@ -7,7 +7,7 @@
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
 - **最近实际 pull / 已读规则提交：** `48bf564ae3c7d45b48f3a05998ac0039b460b141`（2026-11-27 02:43:20 UTC；本地部分克隆）；本次两 README diff 无变化。每次 pull 且至少每小时检查并更新本项。
 - 私库QUEUE仍本会话进行中；真实pull仍02:25:26 UTC/717fcc27ff28cb287f6011395b70136a58e3b4a8。04:16:38接口读92fbad0586f1abd8fac2171cd070585abc14c315，根README无变、QUEUE正确，不冒充pull。公私均部分克隆。
-- **终端断开后远端已读：** `addec8a90a5734659dbdeed45c1e360f550a1f0e`（2026-11-27 04:22:35 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
+- **终端断开后远端已读：** `fd5b82496c97e89724533a6258935fc938ecc096`（2026-11-27 04:28:08 UTC），两README blob无变；按根规矩8用小文本接口，未冒充pull，恢复即pull --rebase。02:51清理未启动；[新输入/准确故障状态](notes/2026-11-27-executor-outage-and-unpublished-small-input-checkpoint-8542.md)。非快进立即重基重推，无force，令牌仅CLI。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数/SHA/小回执，不留可重算大输出，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-27-handoff-before-original-Q-boundary-lines-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
@@ -30,7 +30,7 @@
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
 - W0补图两mean自由秩4及五常数cofactor保未付H_W=4ek−k²−4k−8。H_W0原最高次射影系统全闭；有限原六式现由已付二/三次首项生成(1,x,y,t,y²,yt)，不称自由。18真乘法身份、78次原六行cofactor剥已付49次因子给完整F29权覆盖；源00bbaf0b各组件已实成，打包未全跑。F29整纤维仍开、H不可剥；旧GB/新Cramer及闭包/多cofactor负门保notes，冻结不重跑。
 - **Q=1−u边界已闭y=1、H_Q=(2u−1)ell+u=0、u=1/2及ell=0四整支。** 原QQ覆盖/同根返回完整；H_Q0源50a9b96b实测1.430秒，u半158/170次严格CRT、104次保度Gauss和末原值排尽。ell0由原均值唯一x和Rt因式，完整v²+1纤维与20/40次QQ Bézout排尽，源7c231709实测2.322秒。原子/整合执行区别及全部来源保results；只续H_Q*ell*(y−1)*(2u−1)≠0。
-- **一般等权b=c已闭y1、y半及A_m零。** v=2y−1,z=(x−m)/(y−1)非零，kappa=dv²,omega=zv图恢复m。原mean二次alpha*v²+beta的首项有原单位身份。三原N/P现有完整原迹降为同v一次式；三子式/三范数准确投影四等式，保全部一次首项零和v−1。六双参数式未判空，物理Dval/同点返回仍须保留，源/闭支见results。
+- **一般等权b=c已闭y1、y半及A_m零。** v=2y−1,z=(x−m)/(y−1)非零，kappa=dv²,omega=zv图恢复m。原mean二次alpha*v²+beta的首项有原单位身份。三原N/P现有完整原迹降为同v一次式；三子式/三范数准确投影四等式，保全部一次首项零和v−1。六双参数式未判空，物理Dval/同点返回仍须保留，新原Dval输入的QQ liftstd任务已配置(600秒/4GiB)，run待实际收取；源/闭支见results/notes。
 
 ### rankH3原ess6
 
