@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：4a39069c1c71c2ab618522b4f6e879820441093d**（2026-11-28 04:14 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：8f615492c9ce7ca9d250429e008cb3734439eb40**（2026-11-28 04:15 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull 2026-11-27 01:48 Asia/Taipei；03:27重试仍无可用执行环境，shell未启动。按根规则8连接器同步、读diff、expected_sha非force提交，拒绝立即同步重基重推至成功；环境恢复立即pull --rebase。下一次真实尝试不晚于2026-11-28 04:27。令牌只CLI。数学程序仅本公开仓库Actions；本地/V8仅metadata/文本，不作数学计算。[此前偏差纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -24,7 +24,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1133](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)原half范数恢复Vχ；Heis与同Norm见证class4 p⁵塔已付，cusp仍须四moments。Fourier/λp交换同一Heis；纤维积p⁷只保两极端四阶，混合四阶零。常Lie中心读K₂/p的ω²，非e₀整torsion。原跨line弦线uχ槽各有可逆a，vχ保ψ₂²与全部cross；同z bar变{A,R}仍非零。[aux-c整Manin](notes/2026-11-28-original-auxiliary-c-torsion-Manin-correlation.md)保𝒫=2c²{M_a,M_b}−2c⁴C_ab与实际crossed Cor，不同于SV B_n。完整公式沿归档/open，四阶proper/arithmetic下降继续。
 
-[R1136](results/R1136-original-forced-compact-Manin-sources.md)原forced双权逐det消边界，J双对偶/两负号及p+1 transfer准确落原正商；独立和为2(p−1)eθ读数，rank1来自Γ1p、diamond θ²含quadratic例外。物理σℓ修正给I_(2j+2k+2)，四阶指定非重复邻对不落低混合消块门。§§11–13已付全basis regularity/Gysin、CRT陪集/adjugate与两σ相消；rank1精确θ⁻¹ twist到p²/Fricke+，含quadratic-St，away-p整order满射及真实Φ方向均成。低mixed门下有唯一source unsmoothing；实际像/四阶继续。
+[R1136](results/R1136-original-forced-compact-Manin-sources.md)原两秩紧致源/J/transfer/θ² diamond及ordinary Hecke全部付清；§§11–13付full-basis regularity/Gysin、CRT/adjugate、rank1 exact p²/Fricke+ twist（保quadratic-St）与整away-p order。物理σ修正给I_(2j+2k+2)，四阶指定邻对仍在低mixed门外。
 
 [R1138](results/R1138-original-integral-bare-cup-smoothing-comparison.md)原辅助c除子比较在augmentation后给Lχθ′=nq*Gχ−χ(n²)π*Gχ、T̃_nGχ=(n+χ(n²))Gχ，Gχ=2Fχ/m；完整四项Cor合并为S_n=(4/m²)(n⁴−n^(a+2)T_n+n^(2a+1)){Fχ,Fψ}。全部n>3,n≠p成立，不除κχ(n)/p/分裂度。左侧是R1136两秩的完整紧致读数；其紧致target公共核由R1139在低mixed门下消去，未宣杯积零。
 
@@ -38,6 +38,8 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 [原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)保原Miller/Verschiebung、kerV/−Q刚化、全自然基及P/N连接。§16真正普通Picard连接为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，保moving-zero的HD_T与全部高极；首normal旁列unit不代指定e/K4，p-curvature仅核尺度。
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)付D₀/Λ全部rank3端点、D⁴的δ⁴c_N及原U/B/C变换，指定φ满足2Λ³φ+3ΨΛ²φ+6Φ(V)φ+3δΨ=0；Λ非局部D，moving p极仍保，真实两jet消元继续。
+
+R1137§2现从同一原moving-p核付实际Padé：N=(p−5)/6，Q=H(−v²x)、P=−J(−v²x)/a0，QF−P恰在2N+1阶起且首系数unit，F=₂F₁(1/3,1/2;4/3)。e/K4双零 iff Q0=Q1=0，P也含x²，约去后deg≤N−2/contact2N−1。sqrt(1−x)不能删；继续排这个指定二次缺陷。
 
 [固定Prym三同源](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)付真实φ=[−s]ψ到同一E及全部trace尺度；Ξ、Υ读3e、−3K4而同在一个CM线，不由完美性推双非零。原genus4双cover的branch不被τ保持，Norm=U³+125v²/4非平方。[genus4全局Raynaud](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付e0 iff原非hyperelliptic Y全β0，不反用单向引理。
 

@@ -275,3 +275,239 @@ Miller 与第三类正规读数，以及 R1113 的实际 Lax 算子。
 o2_high_coefficient 已独立纸核 (T38)--(T41) 的原核展开、分部积分、
 两个端点常数及指定源的末项；root 已逐式核准本结果全部纯极端点、Lagrange 范围、B/C 核展开、相对第三类项与移动 p 极；o2_high_coefficient 亦完成候选全文核对。
 没有数学程序执行，未把任何新等价式称为指定两 jet 的非零证明。
+
+
+## 2. 移动 p 重极给出的原 Gauss--Padé 接口
+
+本节继续使用同一个 $\Phi$、$K$ 和指定 $f=U^m$。
+所得 Padé 对不是另选的形式近似：其两个多项式均是原变换的实际输出。
+所有 Cartier 均为相对、底域线性的版本；尤其下式的 $v$ 不取额外的 $p$ 次根。
+
+### 2.1. 一个在原碰撞点仍整的差商
+
+仍记
+$$
+a=U(R)^p,\quad b=V(R)^p,\quad A=-FR,\quad
+G(T,R)=U(T)^mK(T,R),\quad W=-Q.
+$$
+因 $v^p=-v$，在目标 $R=-Q$ 处恰有 $a=0,b=v,A=W$。
+原 chord 是
+$$
+h_A(T)=\frac{V(T)-b}{U(T)-a},\qquad
+h_W(T)=\frac{V(T)-v}{U(T)}.
+$$
+利用 $b^2-v^2=a^3$，将下式中表面的 $1/a$ 完整消去：
+$$
+\boxed{\quad
+q_A(T):=\frac{h_A(T)-h_W(T)}a
+=\frac{V(T)-v-a^2U(T)/(b+v)}
+       {U(T)(U(T)-a)} .
+\quad}
+\tag{T44}
+$$
+$b+v$ 在 $R=-Q$ 为 $2v$，因此这是真正的整参数表达。
+专化后
+$$
+q_W(T)=\frac{V(T)-v}{U(T)^2}.
+$$
+这里在 $W$ 的两条简单极合并为二阶极，不能分别丢弃其中一条。
+
+记
+$$
+\phi=\Phi(U^m),\qquad \phi_-=\Phi(U^{m-1}).
+$$
+由 (T43) 的准确对数导数与
+$h_A=h_W+a q_A$，有
+$$
+D_TG=(\Psi(R)+a q_A-v/U(T))G.
+$$
+相对 Cartier 杀掉这个 exact differential，故
+$$
+\boxed{\quad
+v\phi_-(R)-\Psi(R)\phi(R)=U(R)^p\,\chi(R),\qquad
+\chi(R)\omega_Z=
+C_{T,\mathrm{rel}}\!\left(G(T,R)q_A(T)\omega_T\right).
+\quad}
+\tag{T45}
+$$
+
+必须先核右边的极界。在一般 $R$，$q_A$ 在 $A,W$ 至多简单极，
+其 $O$ 处的 chord 主部已经相消；(T42) 中 $G$ 的零分别将它们抵消。
+显示分母 $U-a$ 的另一点由分子抵消，$U=0$ 的两点也由 $U^m$ 抵消。
+于是输入微分仅在 $P_R$ 有至多 $p$ 阶极。
+它只有一个极，留数为零；相对 Cartier 的输出至多有一个简单极，
+该极的留数又为零，所以输出全纯，确为 (T45) 的标量。
+
+此外，$q_A$ 的显示式和原核在 $R=-Q$、源 $O$ 的形式邻域内均整。
+在源 $O$ 处，$G=1+O(t_O)$，$q_A=O(t_O)$。
+读取该处 Cartier 输出的常数只用一个有限 Taylor 系数，
+其系数对目标 $R$ 仍整。因此 $\chi$ 在 $R=-Q$ 正则。
+这一步证明的是整个参数族的整性，不只是专化后另算出一个有限值。
+
+### 2.2. contact 的首余项是已经付清的原单位
+
+在 $R=-Q$，原 $G$ 恰为 $F_Q=U^mg_Q$。
+置
+$$
+d_0=\frac{C_{\mathrm{rel}}(UF_Q\omega)}{\omega'}
+=(2v)^{2k}\binom{3k-1}{2k}\ne0.
+$$
+这是原 normal 列的中列单位，也可不经变分直接核：
+$$
+UF_Q\omega=
+\left(\frac1{3U^2}\right)^p
+ (V-v)^{3k-1}(V+v)^{5k-1}\,dV.
+$$
+分子次数 $8k-2<2p-1$，只读 $V^{p-1}$。
+反转总次数后，所需系数变成
+$$
+v^{2k}[z^{2k}](1-z)^{3k-1}(1+z)^{5k-1}
+=(2v)^{2k}\binom{3k-1}{2k}.
+$$
+最后一步在次数 $2k<p$ 内使用 $(1+z)^p=1$；
+等价地展开 $(1+z)^{2k-1}((1-z)/(1+z))^{3k-1}$。
+二项式上、下阶都小于 $p$。
+
+为核全部符号，直接对原有理函数作两次 exact reduction：
+$$
+D(F_Q/U)=-(2V+v)F_Q/U^2,
+$$
+$$
+D(VF_Q/U)=UF_Q-(2v^2+vV)F_Q/U^2.
+$$
+相对 Cartier 后得到
+$$
+C_{\mathrm{rel}}(VF_Q\omega/U^2)
+=-\frac v2 C_{\mathrm{rel}}(F_Q\omega/U^2),
+$$
+$$
+d_0=\frac{3v^2}{2}\,
+ \frac{C_{\mathrm{rel}}(F_Q\omega/U^2)}{\omega'}.
+$$
+因此 (T45) 的碰撞值为
+$$
+\boxed{\quad
+\chi(-Q)=-\frac{3v}{2}\phi_{m-2}(-Q)
+=-\frac{d_0}{v}\ne0,\qquad
+\phi_{m-2}=\Phi(U^{m-2}).
+\quad}
+\tag{T46}
+$$
+这里只消费已付的 normal 旁列单位来确定误差首项，
+没有把它认成原 $e$ 或 $K_4$。
+
+### 2.3. 两个实际输出与精确 Padé 变量
+
+由原纯极基的 CM 角色和 $\Phi$ 对调，
+$$
+\phi(R)=U(R)H(X),\qquad
+\phi_-(R)=U(R)^2J(X),\qquad X=U(R)^3,
+$$
+$$
+\deg H,\deg J\le N,\qquad N=k-1.
+$$
+具体地，$U^m$ 的纯极索引为 $4\bmod6$，
+其像的索引为 $2\bmod6$；
+$U^{m-1}$ 的索引为 $2\bmod6$，其像的索引为 $4\bmod6$。
+这些给上述 degree 上界，不预先声称最高系数非零。
+
+写原 $\Psi=VU\,S(U^3)$，其中
+$$
+S(X)=\sum_{j=0}^{N}a_jX^j,\qquad
+a_0=\frac{\delta}{2v^2}\ne0,\qquad
+\frac{a_j}{a_{j-1}}=-\frac{6j-1}{v^2(6j+2)}.
+$$
+在 $R=-Q$ 的局部环，
+$V(R)=-v\sqrt{1+X/v^2}$，平方根常数为 $1$。
+(T45) 除以 $vU^2$ 给准确的高接触式
+$$
+J(X)+\sqrt{1+X/v^2}\,S(X)H(X)
+=X^{2N+1}\frac{\chi(R)}v.
+\tag{T47}
+$$
+因为 $p-2=3(2N+1)$，右边的指数没有舍入误差。
+左边只含 $X$，故这里 $\chi$ 的该局部展开也只含 $X$。
+
+现在固定
+$$
+x=-X/v^2,\qquad
+\mathsf Q(x)=H(-v^2x),\qquad
+\mathsf P(x)=-J(-v^2x)/a_0.
+$$
+定义实际代数形式级数
+$$
+F(x)=\sqrt{1-x}\,\frac{S(-v^2x)}{a_0}.
+$$
+原 $S$ 递推直接给
+$$
+6x(1-x)\frac{d}{dx}S(-v^2x)
+ +(2-5x)S(-v^2x)=2a_0,
+$$
+从而
+$$
+3xF'(x)+F(x)=(1-x)^{-1/2},\qquad F(0)=1.
+$$
+在本文所用的全部安全次数，精确地
+$$
+\frac{S(-v^2x)}{a_0}
+={}_2F_1(1,5/6;4/3;x),\qquad
+F(x)={}_2F_1(1/3,1/2;4/3;x)
+=\sum_j\frac{(1/2)_j}{j!(3j+1)}x^j.
+$$
+第一式在模 $p$ 中因 $5/6=-N$ 终止于 $N$。
+Gauss 分母 $4/3$ 的首共振在 $j=4N+3$，
+而本次最高读数仅为 $2N+1$。
+在首共振以后，本文仍以显示的平方根乘多项式定义 $F$，
+不冒称已约化整条 characteristic-zero 超几何级数。
+
+于是
+$$
+\boxed{\quad
+\mathsf QF-\mathsf P
+=\varepsilon_0 x^{2N+1}+O(x^{2N+2}),\qquad
+\varepsilon_0
+=-\frac{d_0(-v^2)^{2N+1}}{a_0v^2}\ne0,
+\quad \deg\mathsf P,\deg\mathsf Q\le N.
+\quad}
+\tag{T48}
+$$
+特别 contact 恰为 $2N+1$，不只是一个下界。
+$\mathsf Q\ne0$ 由原 $\Phi$ 可逆及 $U^m\ne0$ 保证。
+所有式子来自同一个原核；没有重新选择一个方便的 Padé 解。
+
+### 2.4. 原双零对应的准确缺陷
+
+R1061 的原四阶 Picard 计算给
+$$
+H(0)=-\frac{e}{2v},\qquad
+H'(0)=\frac{10ve+\delta^2K_4}{96v^4}.
+$$
+由于 $F(x)=1+x/8+O(x^2)$，(T48) 因而给
+$$
+\boxed{\begin{aligned}
+\mathsf Q(0)=\mathsf P(0)&=-\frac{e}{2v},\\
+[x]\mathsf Q&=-\frac{10ve+\delta^2K_4}{96v^2},\\
+[x]\mathsf P&=[x]\mathsf Q+\mathsf Q(0)/8.
+\end{aligned}}
+\tag{T49}
+$$
+因此原 $e=K_4=0$ 等价于 $\mathsf Q$ 的前两个系数全零；
+此时 $\mathsf P$ 也有同一个 $x^2$ 因子。约去这两个因子后，
+原实际多项式对满足
+$$
+\deg\widetilde{\mathsf P},\deg\widetilde{\mathsf Q}\le N-2,\qquad
+\widetilde{\mathsf Q}F-\widetilde{\mathsf P}
+=\varepsilon_0x^{2N-1}+O(x^{2N}),\qquad
+\widetilde{\mathsf Q}\ne0 .
+$$
+本节尚未排除这种特定退化。一般 characteristic-zero Padé 正常性、
+实积分的正性、以及上面首余项为单位，都不能单独排除它。
+尤其 $\sqrt{1-x}$ 是实际 $V/v$ 的一部分，不能删除后
+套用上参数为 $1$ 的另一条 Jacobi Padé 公式。
+
+来源与审计：原核与第三类框架来自 R1061、R1095；
+本节先用 (T42)--(T43) 保留移动 $p$ 重极，再完成相对 Cartier 的全极界。
+o2_high_coefficient 已独立纸核 (T44)--(T45) 的整差商、
+唯一源极与 Cartier 全纯性、碰撞处整性及 (T47)--(T49) 的
+原 Gauss 参数、degree 和缺陷含义。
+没有数学程序执行；指定非同时零仍为后继目标。

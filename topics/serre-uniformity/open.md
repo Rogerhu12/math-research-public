@@ -45,6 +45,8 @@
 
 ## O1：全p同一真实本原标签的临界非零
 
+[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)§2从原moving p重极给准确Gauss–Padé接口：整差商q_A=(h_A−h_-Q)/a支付碰撞与唯一p极，vφ_-−Ψφ=U^pχ，χ(−Q)=−d0/v为原旁列单位。Q(x)=H(−v²x)、P=−J(−v²x)/a0，N=(p−5)/6，QF−P的contact恰2N+1、首余项−d0(−v²)^(2N+1)/(a0v²)非零；F=√(1−x)·₂F₁(1,5/6;4/3)=₂F₁(1/3,1/2;4/3)于全部安全次数。e=K4=0 iff Q0=Q1=0，实际P/Q同除x²后deg≤N−2/contact2N−1。首余项unit、char0正常性/Jacobi正性均不单独排该有限特征缺陷；此为当前指定目标。
+
 [原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md) §§1–16保真实Miller/Verschiebung、kerV/−Q刚化及全部P/N连接/自然基补偿。首normal×Picard一/四阶零、normal零阶unit；全V₀低阶共轭已排，不排指定读数。真实三挠cover η=−z/w给Prym Y²=−(3x+ε)(x³+2v)、完整θ Hasse/Gauss，θ为终止ε₂F₁；period仅<p安全jets，首共振p+1。全族Ψε普通加律保−HM、Rε保完整S补偿/常数，三挠ε^p及二阶边界不删。§15固定同一Prym的Ξ/Υ准确读3e、−3K4，proper高极自由项按CM权固定，两类同一CM线。完整Fermat L_j递推给e=vΣr_iL_i、K4=Σr_ir_jL_(i+j+1)，前k项unit/后k项零；moving三挠不代fixed Picard，原两和非同时零继续。 §16普通全族连接完整为(D_R+h_Z)T̂[f]=T̂[(Ψε+H D_T)f]，实际M的div=V*O−pO、Hc=−DlogM、Q处c=−ε/6；全部moving-zero/高极输出保留。Aε^p−H^pAε=Ψε^p仅核尺度，仍须指定U^m的低jets。
 
 [原Prym三同源/trace](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)：τ(A,B)=(ζA,ζ²B)自由，q=r²−x²,w=r³+3rx²给真实3-isogeny φ=(q/ρ²,w/2)到同一原E；φ*ωE=−3ρ⁻²ωP。有限Newton trace完整给A*=Tr(R/r²)/3、B*=TrR²/3，准确Cartier读e/v、K4；顶项分别3ρ⁻² U^(m−1)、U^(p−1)。proper类的φ*/φ*trace尺度已付，最高项/同源p单位不代原共同非零。 §6真实ψ=(2v/(ρ²x),−svr/x)给φ=[−s]ψ；A³=2(V−v)、B³=2(V+v)，两者满足原L=D²−2U且Wronskian=−2ρ²v，原trace成为同一E的CM[-s] trace。§7原genus4双覆盖W²=x²+4r²不容τ提升，完整Norm=U³+125v²/4非平方，三条平移分支不能删。
