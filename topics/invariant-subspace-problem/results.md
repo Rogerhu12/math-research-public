@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：整个Delta0碰撞图首一ell三次、八原值/八原单位目标及F49必要曲线](results/R150-appendix-unit211-Delta-zero-h-one-monic-cubic-original-unit-and-degree-49-curve.md)：c427实际173.569秒/exit0，648次乘法3240个原差系数；F49独立t，其它七式保原t，全临时零纤维保留。
+
 - [R150：Phi0碰撞图原H³ell³目标的一次真实分母取消](results/R150-appendix-unit211-Phi-zero-rank-one-value-actual-ell-unit-target-cancellation.md)：ca53实际3.607秒/exit0，N1必要core总次数102→88；完整原两行身份支付，不倒Nm(ell)；旧8918上界不变。
 
 - [R150：整个J19四次权曲线的新原Gram输入、C15例外与1−2ell真单位](results/R150-appendix-unit211-W-J19-entire-quartic-original-Gram-input.md)：267e实际0.839秒/exit0；全四维权代数、六行48×35及所有逆完整，有限k例外保留；未排空J19。
