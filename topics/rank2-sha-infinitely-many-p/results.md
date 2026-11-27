@@ -366,3 +366,6 @@
 
 
 - **原q11完整Manin与接触的实际回执**：[证明及回执](notes/2026-11-27-original-q11-manin-and-supersingular-contacts.md)。原q11 Manin唯一consumer已完整返回：μ/δ=10X+3X⁴，短模型Hasse=V(1−X³)；全部有限9个Hasse点的十级完整Fitting均为单位，所以接触全为1。canonical O的ν阶为3/接触3，两cusp的μ阶1、ν阶0；其余ordinary零度6。总接触分布为九个1和一个3，所有点及重数都已消费。 run46018592834/job140572039981/sourceb593edd；不向一般q外推。
+
+
+- **原有理角的准确p级成本**：[完整证明](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)。原Y/K平面的有理等距g_n确将Y归一为Y+t_nK、t_n→0，但原split-p Schwartz在Y紧环面下的准确稳定子为1+p^n：完整共轭矩阵左下项估值−n+v_p(1−u)。故每n至少一个准确导子p^n的Schwartz角色非零；未分歧投影及其对真实角导数的影响必须支付。该结论仅限单个g_n向量，不排有限求和或后继theta消去新字。 固定t=1另有Y+K=2δ(−δ,−ω,−ω²,2,1,1)，完整乘积为2δ[2δ]^*(xyσ11)。全七挠trace的μ6相位保齐后质量非零，故其mass0内层不是该真实CM算子的本征线，未增加rank2 canonical授权。

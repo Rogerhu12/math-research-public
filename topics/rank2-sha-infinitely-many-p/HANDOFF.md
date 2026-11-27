@@ -56,4 +56,4 @@ R1043原2-Vélu/full9、S3左逆/真实S′、canonical E4/I及η′=ηκ2最高
 
 O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。O6需固定两点饱和λ的全核Np有限、真q_p=1于无穷p，原Tor及全p损不删。O7保同解内/闭盘、同Y余数、全Laurent/非恒Y权/全部216真管差，仍未迫原闭边界全零；跨parity R953和R954指定forcing成员性仍开，完整参数在open与逐字归档。旧外部强声称/负例保持，不重做已排方向。
 
-central负责同一三低卷积；arithmetic负责真实角源和全补域forcing；geometry负责原Manin/两标记与最高λ；root核接线、原作业、同步及逐条推送。主目标未完成，继续工作，不作阶段收尾。
+central负责同一三低卷积；arithmetic负责真实角源和全补域forcing；geometry负责原Manin/两标记与最高λ；root核接线、原作业、同步及逐条推送。原g_n趋零角的Schwartz稳定子恰1+p^n，含真p^n字；未分歧投影及后继消字须另付。固定norm11端点非CM本征，未新增授权。主目标未完成，持续工作。
