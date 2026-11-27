@@ -61,7 +61,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 完整Galerkin/MP须在整个ker C^r投影再取完整((C*)^r)^dagger。m∈4N、m≥20、d=2^m、R=d、x=m+d、Q=4d的新窗已付Bessel常数1，非零锚迫Σκ_mr^−2有限，实际费用上界与旧窗转移仍开。原Schur/奇偶逆费用、退化首阶条件、母窗和最高零头都保留；64^R、γ<1/16绝对Z、正则右逆e^(κy)和输出孔权未付，小残量不作真核。
 
-[全部远位硬化和重最小化](results/R271-appendix-complete-tail-hardening-common-auxiliary-mode-and-global-source-energy.md)已给同源两正项差与积分预算，普通端点为P_Mf；[完整Riordan/Fock源运输](results/R271-appendix-actual-riordan-complete-fock-source-transport-and-original-source-correction.md)也给同一物理列的强极限、全部混合头项和partial返回。仍须将同一端点放进closureBM，或付完整MP/真帽对ΔF的放大；全空间ε极限不能转进未知F0，正t核不作kerT。
+[真实全终列相容塔及同forcing固定方差窗](�results/R271-appendix-actual-terminal-compatible-tower-and-fixed-variance-window-energy.md)已证：同一Bernoulli事件保每高度尾比626，L=h−1全部||v_r||²≤2^(22r)/(r!S^r)；完整物理Gram/交叉配对给真核误差与原u_g²≤q_C(S)−q_C(S/2^22)=∫μ_C dlogv。x=m+d时Q4d支持整塔，无短核或头相似费。下一必须支付同一moving C固定窗能量趋零，再付模型核到原稳定范围的carry/lift；不延长旧[S,2S]源极限，不换μ_T。
 
 继续保留的原接口：
 

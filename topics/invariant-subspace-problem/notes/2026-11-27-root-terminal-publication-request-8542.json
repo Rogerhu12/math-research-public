@@ -1,19 +1,13 @@
 {
-  "message": "ISP: exclude three exact Q weight domains and start their new QQ divisor certificates",
-  "parentCommit": "908af77db0707346b54a943d53063d01e9d96430",
+  "message": "ISP: prove the actual terminal tower and same forcing fixed variance window bound",
+  "parentCommit": "68d75a1ff1ad9d56c3cb145e6cdb341bc0340562",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Q1minusU-three-exact-weight-domain-exclusions.md",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-three-exact-weight-domain-exclusions-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-new-phi-h-plus-one-native-QQ-divisor-certificate-8542.py",
-    ".github/workflows/invariant-subspace-q-native-qq-phi-h-plus-one-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-new-phi-h-minus-half-native-QQ-divisor-certificate-8542.py",
-    ".github/workflows/invariant-subspace-q-native-qq-phi-h-minus-half-8542.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-27-unit211-Q1minusU-new-phi-h-quadratic-native-QQ-divisor-certificate-8542.py",
-    ".github/workflows/invariant-subspace-q-native-qq-phi-h-quadratic-8542.yml",
+    "topics/invariant-subspace-problem/results/R271-appendix-actual-terminal-compatible-tower-and-fixed-variance-window-energy.md",
+    "topics/invariant-subspace-problem/notes/2026-11-27-handoff-before-real-terminal-tower-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,9 +16,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-q-native-qq-phi-h-plus-one-8542.yml",
-    "invariant-subspace-q-native-qq-phi-h-minus-half-8542.yml",
-    "invariant-subspace-q-native-qq-phi-h-quadratic-8542.yml"
-  ]
+  "dispatchWorkflows": []
 }
