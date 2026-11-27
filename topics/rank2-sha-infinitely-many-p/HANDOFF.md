@@ -53,7 +53,7 @@ R1027全q≥5 canonical fiber六挠；原图pushδ/∞同源−δ/τ pull及三�
 
 R1029原2挠C的f3/r2/Jac度3、Norm核与S3闭包F²=−q齐。R1031全惰性q≥5 Sel2=⟨gq⟩；仅Tate大q定位最短Q模2及twist Sha[2]=0。两quadric(19)/Norm/全坐标、稳定V/W theta R0/Fq下降全付；固定h/M与jW保gq^((q−1)/2)，Nm(h)=−2^7·3^10(r+a/2)/(r²X²)的两单零不当平方。仍须真实求覆盖点或27对。
 
-R1031§12–13将同一原Cδ双向化为(A³−1)(B³−1)=9，κ=[−1]下降无漏twist；两free三商给原C与Calt:c²=r⁶+34r³+1，Jac同源度81。Calt两个真Q椭圆商E+:y²=x³−219x+1654、E−:y²=x³+189x+702、同源度4，准确3/−1 twists和Vélu齐。E−有有理三挠(3,36)，每个ss q必inert且整个J(Cδ) F²=−q。已逐条消费Elkies1989已发表定理(Q有实嵌入)得无穷此类辅助q，可避任意固定有限集/Tate小q；不代ordinary p、q+1素因子无穷或原27非零。
+R1031§12–13将同一原Cδ双向化为(A³−1)(B³−1)=9，κ=[−1]下降无漏twist；两free三商给原C与Calt:c²=r⁶+34r³+1，Jac同源度81。Calt两个真Q椭圆商E+:y²=x³−219x+1654、E−:y²=x³+189x+702、同源度4，准确3/−1 twists和Vélu齐。E−有有理三挠(3,36)，每个ss q必inert且整个J(Cδ) F²=−q。已逐条消费Elkies1989已发表定理(Q有实嵌入)得无穷此类辅助q，可避任意固定有限集/Tate小q；§14实际swap商的九挠点及E−准确−3 twist再迫全ss辅助q≡−1mod9；不代ordinary p、q+1素因子无穷或原27非零。
 
 02:51–05:55执行环境失联及API快进全记录在逐字归档；05:57已补两仓实际pull，逐字重复未推提交保分支后skip。现用实际git，数学只公开Actions。
 
