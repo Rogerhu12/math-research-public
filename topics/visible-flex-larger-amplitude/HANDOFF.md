@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-27 05:36:48 UTC，真实pull/rebase至origin/main `142888472f216dffaaec606874b57a3642e472e6`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
+最近规则核查：2026-11-27 05:46:57 UTC，真实pull/rebase至origin/main `ed58d5899f35d6c2339d38277c4ef5024241f826`；双README整SHA581402/3c1c无变。恢复后各真实拉取完整commit保entry note§9。私库QUEUE接手已真推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。
 
 科学只本公开仓库Actions；root唯一ref写者，结论即普通推，NFF立即rebase循环，不强推。每次pull核双README差异并遵新规，至少每小时，记commit。raw只scratch/runner、不入Git/Release/artifact，不得改名冒输入；全小源/参数/run/SHA保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；读前stat、不整读≥100KB。已有执行/大文件/终端偏差全保4815339固定H及其notes；令牌仅瞬时CLI。
 
@@ -16,7 +16,7 @@
 
 完整前交接及全部旧链保[4815339固定H](https://github.com/Rogerhu12/math-research-public/blob/4815339aa6cde9296ba221edb380f30073b9a1e0/topics/visible-flex-larger-amplitude/HANDOFF.md)。全输入/失败/未知/原结论保notes/results/open/log。M160/J923/N2048/P7377、所有自由量/完整场/范数/判据不删；有限筛非连续、iteration_limit非驻点。
 
-raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](notes/2026-11-27-legacy-R87-cell011-and-final-retention.md)、[26次](notes/2026-11-27-legacy-domain-manifests-retention.md)、[27次四输出清单](notes/2026-11-27-legacy-generated-manifests-retention-27.md)；完整源/真参数/父输入/原结论/固定恢复全保，不造新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
+raw保留：[前24次](notes/2026-11-20-resume-raw-retention.md)、[25次R87](notes/2026-11-27-legacy-R87-cell011-and-final-retention.md)、[26次](notes/2026-11-27-legacy-domain-manifests-retention.md)、[27次四输出清单](notes/2026-11-27-legacy-generated-manifests-retention-27.md)、[28次十domain](notes/2026-11-27-legacy-domain-manifests-retention-28.md)；完整源/真参数/父输入/原结论/固定恢复全保，不造新值。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS；SO3 CPUtorch2.5.1/float64。原共同来源在[独立运行](notes/2026-11-26-independent-public-nonlinear-continuation.md)，[队列完整归档](notes/2026-11-26-complete-followup-parameter-archives.md)保全部旧参数；未返步骤不归档冒完成。
 
 ## 旧运行边界与06真实父链
 

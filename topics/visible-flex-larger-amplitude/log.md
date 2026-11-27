@@ -478,3 +478,7 @@ R716新增索引漏项补齐及open7真状态同步：R716已先公开完整证�
 ## 2026-11-27 05:35 UTC — Astra-larger-e4e2a2bf-20261126
 
 - [09实际公开输入入口](notes/2026-11-27-run09-actual-public-reference-and-old-carrier-input.md)：warm/ref真返3df/2ab/d449，306b/9e3d/cc46完整源与28词argv/6输出/45scalar单步已排；root真再生，旧2397/DC正文整保。5e373固定原卷保runner快照，same-g未主张不冒不等；producer未返，完整frame后继继续。
+
+## 2026-11-27 05:50 UTC — Astra-larger-e4e2a2bf-20261126
+
+- [第28次派生清单保留](notes/2026-11-27-legacy-domain-manifests-retention-28.md)：仅移出十旧domain manifest共2590917B；完整原intent/T112/31源/父输入/其余sibling保留，226来源声明全匹配，固定1f102dc8精确恢复。全大文件仅身份流核与有界header读取，未重算或冒新输入；继续09完整解析入口及实际返回。
