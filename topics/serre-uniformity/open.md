@@ -31,7 +31,7 @@ R1018–40的原完整Fm/两节点Dickson/PD及好BT整比较均已付，详细�
 
 ## O0：全主目标覆盖（R1003恢复原范围）
 
-[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原23个角对应全部fixed-cycle、degree/trace、composition与Rosati迹配对已纸证。Z=13R0+4R2是迹零actual cycle；未先验宣称endomorphism非零或指定残余θ(Z)=0。完整23项TrZ²待新公开CI。
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原23个角对应全部fixed-cycle、degree/trace、composition与Rosati迹配对已纸证。Z=13R0+4R2是迹零actual cycle；未先验宣称endomorphism非零或指定残余θ(Z)=0。新full-p47-Cartan-Hecke请求核完整TrZ²/Gram及283/4513整Hecke分块；不重算L′。
 
 [R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，完整Fricke+三因子16/24/33、73实嵌入严格L′>0，DLF Appendix Prop8给原全J rank=dim=ρ_Q=73。M256/512bits/严格尾、20.6657秒及全部hash保原文；不重跑，整MW/局部块/aux高度及盘内唯一仍开。
 

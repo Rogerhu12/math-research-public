@@ -1,0 +1,40 @@
+{
+  "execution_id": "full-p47-Cartan-Hecke-v1",
+  "prime": 47,
+  "sage_version": "10.6",
+  "auxiliary_primes": [
+    283,
+    4513
+  ],
+  "hecke_t_candidates": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "total_seconds": 600,
+  "reserve_seconds": 30,
+  "rules_last_read_commit": "ae3f609b3bede2b28dbbe42c68024e6ba2c3a762",
+  "source_sha256": {
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5",
+    "topics/serre-uniformity/scripts/full_p47_Cartan_Hecke_certificate.py": "522f41e56d17fe3aabea7167f6f1d2c8f006eadf7275dcd06c2dad45786552e2",
+    "topics/serre-uniformity/notes/2026-11-27-full-p47-Cartan-Hecke-method.md": "6e1f282cb0cec38a48f8cbedb12b3216268a860bac1b21a41646397ae4bd630f",
+    "topics/serre-uniformity/results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md": "d75cca1b546326338099abe2cef94bd37da48897ae7dd7f0740dc34d19d8e867",
+    "topics/serre-uniformity/results/R1080-certified-full-level47-Jacobian-rank.md": "072e98b53c1d94daf300251b453bfd044adfb65006fe7d1e3be0f512b14d13de"
+  },
+  "scope": "Actual original Cartan endomorphism trace form and full integral Hecke decomposition at 283 and 4513, no MW saturation or disk uniqueness.",
+  "storage": "Source, parameters, compact run receipts and hashes only."
+}

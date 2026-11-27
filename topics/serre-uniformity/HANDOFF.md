@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：bcf1e5ae43f24e6150de8878a85edb71efd60aab**（2026-11-27 11:37 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：5f3015de0d9588bf97aded99f98dbac78d4a739f**（2026-11-27 11:47 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；11:24再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -18,7 +18,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 ## O0：不能省略的全局覆盖
 
-[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原47全部23个R_C，CM/23cusps完整fixed-cycle与迹、association composition已付；13R0+4R2迹零，实际非零待完整trace-square有限式消费。
+[R1078](results/R1078-original-level47-Cartan-correspondences-and-fixed-cycles.md)：原47全部23个R_C，CM/23cusps完整fixed-cycle与迹、association composition已付；13R0+4R2迹零，实际非零待新full-p47-Cartan-Hecke请求消费；并核283/4513完整整Hecke分块，不重跑L′。
 
 [R1080](results/R1080-certified-full-level47-Jacobian-rank.md)：run45934421302/job140294236296源702f543e，精确Fricke+三因子16/24/33、全部73实嵌入L′严格正；无条件rankJ=dimJ=ρ_Q=73。原整MW/aux高度及盘内唯一仍开；20.6657秒、全部pins/hash保结果。
 

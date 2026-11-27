@@ -679,3 +679,7 @@ R1079纸证两种实际CM的Ψ–ζ modT^(p²)完整carry，保原slope+1与全�
 2026-11-27 11:38 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1080登记full47严格rank=73：run45934421302/job140294236296源702f543e，精确三因子16/24/33与全73嵌入L′>0；DLF已刊Appendix Prop8/Cor4给实际代数秩及ρ_Q。
 只存脚本/参数/哈希，20.6657秒。继续原角trace-square、good-prime整格与深盘高度，不把rank输入当点分类。
+
+2026-11-27 11:46 Asia/Taipei｜Astra-serre-24b8836b-20261126
+提交full47原23角Gram/TrZ²及283/4513完整整Hecke分解新请求；原1081 necklace验证composition，H=T2+tT3+t²T5的73次模ℓsquarefree支付最大整order。
+课题外新增.github/workflows/serre-full-p47-Cartan-Hecke.yml，仅执行本课题；数学600秒，原矩阵/数组不留存，不重跑L′或旧aux筛选。
