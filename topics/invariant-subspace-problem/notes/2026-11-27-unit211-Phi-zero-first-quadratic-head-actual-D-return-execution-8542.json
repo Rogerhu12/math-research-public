@@ -1,0 +1,374 @@
+{
+  "schema": "isp-Phi-first-quadratic-head-complete-actual-D-ideal-return-v1",
+  "date": "2026-11-27 Asia/Taipei",
+  "records": [
+    {
+      "after": "d144b463b611689a97727e9550cad261db7ea8a5",
+      "before": "d144b463b611689a97727e9550cad261db7ea8a5",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-27T16:18:20.155115+00:00"
+    },
+    {
+      "quadraticHeadNumerator": {
+        "degrees": [
+          26,
+          14,
+          0
+        ],
+        "terms": 223,
+        "sha256": "617adc04bfc0807da52ff2c9ce1808f1c66db40482bc7e2bf63fca37f5beeafe"
+      },
+      "quadraticHeadDenominator": {
+        "degrees": [
+          3,
+          8,
+          0
+        ],
+        "terms": 26,
+        "sha256": "5b9ca41cf577ae34127f3c4ae3707fcf7ad8ad5279745de2bc3191bce0e15550"
+      },
+      "variables": [
+        "T",
+        "z"
+      ],
+      "generators": [
+        "1",
+        "T",
+        "z"
+      ],
+      "allNineOriginalRuleCoefficientIdentitiesReturned": true,
+      "onlyOnFirstHeadNonzeroChart": true,
+      "firstHeadZeroCurveRetained": true,
+      "stage": "new_exact_three_generator_original_mean_chart",
+      "seconds": 0.0567646840000009
+    },
+    {
+      "rows": [
+        "original_N1",
+        "T_square_z_two_orders",
+        "T_z_square_two_orders"
+      ],
+      "actualExtraRowNumerators": [
+        [
+          {
+            "degrees": [
+              19,
+              9,
+              2
+            ],
+            "terms": 332,
+            "sha256": "f298eb3fde8876fe2d45b93dcb3974aaef00ea4fb057b2de4a6362a704345b76"
+          },
+          {
+            "degrees": [
+              17,
+              9,
+              1
+            ],
+            "terms": 194,
+            "sha256": "c59f4fe78eb915aa27a0e20a95a6f8df7eb272ffbee0f9cb5d1d766a21bb6caf"
+          },
+          {
+            "degrees": [
+              17,
+              8,
+              1
+            ],
+            "terms": 195,
+            "sha256": "f588a32054d50b6c6e2668250a7f57ca9bd20285756804f13664c5b80ba3e3c2"
+          }
+        ],
+        [
+          {
+            "degrees": [
+              25,
+              15,
+              3
+            ],
+            "terms": 929,
+            "sha256": "c0df88b82419bacb93b7ec12ee39a6585c67cdeaec1be33a277a58e12d1fdabc"
+          },
+          {
+            "degrees": [
+              21,
+              13,
+              2
+            ],
+            "terms": 542,
+            "sha256": "adf94c85fe26a3cb21b669e5d97ba4a8b846e406a3a8ba8c6744f5d94d9751d5"
+          },
+          {
+            "degrees": [
+              20,
+              12,
+              2
+            ],
+            "terms": 468,
+            "sha256": "ebba380e825c20869017b13ebd2513d6a4cde12a1855e9fbaa1d47e8e45dd841"
+          }
+        ],
+        [
+          {
+            "degrees": [
+              26,
+              17,
+              3
+            ],
+            "terms": 1046,
+            "sha256": "c284bc059282481bebefd3bbde665ab9130e9f0a7ff0631922f8e6497b249d82"
+          },
+          {
+            "degrees": [
+              22,
+              16,
+              2
+            ],
+            "terms": 619,
+            "sha256": "df4e1720cb7ff0fb2c9f14f93ed6ca14d6325c343bffc1eb553437b79b55c28e"
+          },
+          {
+            "degrees": [
+              21,
+              13,
+              2
+            ],
+            "terms": 542,
+            "sha256": "b06d1a9e1a9c07b3cc41f39b1aa63cfc03d8f09a49e49dafc243a3f9cb4d2788"
+          }
+        ]
+      ],
+      "target": "D=ell*A2-T^2",
+      "originalCoefficientDAGNotOnlyPointwiseNecessary": true,
+      "noUnprovedAssociativityUsed": true,
+      "stage": "new_fixed_original_N1_and_true_multiplication_ambiguity_DAG",
+      "seconds": 0.11587551799999574
+    },
+    {
+      "commonDenominator": {
+        "degrees": [
+          46,
+          29,
+          6
+        ],
+        "terms": 5148,
+        "sha256": "0e68b4735da98c0cc754ddc7f92672952a1948aa4bbb710eb641f0c4de786194"
+      },
+      "threeClearedOriginalRowMultipliers": [
+        {
+          "degrees": [
+            41,
+            25,
+            6
+          ],
+          "terms": 3977,
+          "sha256": "2e63a854a32ddd4d6afb038d70bdac1cf786b4f1af1494ea57ac298b62d38654"
+        },
+        {
+          "degrees": [
+            49,
+            28,
+            5
+          ],
+          "terms": 4397,
+          "sha256": "5ee11aa7ae275889256deeec52450db61903af0bad76c5ad2c60c54d60cad076"
+        },
+        {
+          "degrees": [
+            51,
+            26,
+            5
+          ],
+          "terms": 4573,
+          "sha256": "3dc7caded10cf8029a7e1b830de4804635d7ac29cc582d743ff85625547e72de"
+        }
+      ],
+      "allThreeFullOriginalCoefficientProductsReturned": true,
+      "temporaryCofactorHeadsNotDeclaredUnits": true,
+      "stage": "new_complete_same_original_D_target_common_denominator",
+      "seconds": 1.3718887569999936
+    },
+    {
+      "core": {
+        "degrees": [
+          39,
+          20,
+          6
+        ],
+        "terms": 3101,
+        "sha256": "d12d36de38995832f521156d012ce93b6160dc7b1d870903923051ac5da0bf15"
+      },
+      "strippedOnlyActualOriginalUnitsOrNamedHeadChart": [
+        [
+          "u-1",
+          {
+            "degrees": [
+              1,
+              0,
+              0
+            ],
+            "terms": 2,
+            "sha256": "9a6c3bb25d4f2643d47195a67fc3b54eb9ef17a90a76cc7776c7986c167902ef"
+          }
+        ],
+        [
+          "Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 1,
+            "sha256": "8dd8e357fda5db239496035d91428fda6f37a10b3ae3fa1e12ea5025cd5bc10b"
+          }
+        ],
+        [
+          "Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 1,
+            "sha256": "8dd8e357fda5db239496035d91428fda6f37a10b3ae3fa1e12ea5025cd5bc10b"
+          }
+        ],
+        [
+          "Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 1,
+            "sha256": "8dd8e357fda5db239496035d91428fda6f37a10b3ae3fa1e12ea5025cd5bc10b"
+          }
+        ],
+        [
+          "1-Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 2,
+            "sha256": "2c17fc2dd67ecdb4b916bfe4fd93b9e614d9be409236a15192ea37392beb427f"
+          }
+        ],
+        [
+          "1-Q",
+          {
+            "degrees": [
+              0,
+              1,
+              0
+            ],
+            "terms": 2,
+            "sha256": "2c17fc2dd67ecdb4b916bfe4fd93b9e614d9be409236a15192ea37392beb427f"
+          }
+        ],
+        [
+          "ell",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "29957ce1ed0f70d7ffdf2c2030d821271a4f6bcc94e8a37434578bfb846881ca"
+          }
+        ],
+        [
+          "ell",
+          {
+            "degrees": [
+              2,
+              1,
+              0
+            ],
+            "terms": 4,
+            "sha256": "29957ce1ed0f70d7ffdf2c2030d821271a4f6bcc94e8a37434578bfb846881ca"
+          }
+        ],
+        [
+          "T0",
+          {
+            "degrees": [
+              1,
+              1,
+              0
+            ],
+            "terms": 3,
+            "sha256": "b65f153af5fb44c485be4c5f7aaab4c9e9c8cbab35894597a4ad2335769ea7f2"
+          }
+        ],
+        [
+          "T0",
+          {
+            "degrees": [
+              1,
+              1,
+              0
+            ],
+            "terms": 3,
+            "sha256": "b65f153af5fb44c485be4c5f7aaab4c9e9c8cbab35894597a4ad2335769ea7f2"
+          }
+        ]
+      ],
+      "encoding": "base64+zlib+json",
+      "payloadSha256": "9e50cc2a30cf8500b7bef25f8e579334c2b46f8d896662759cdc0ec85f35542c",
+      "uncompressedBytes": 86039,
+      "data": "[saved in exact polynomial input JSON]",
+      "fullPayloadDecodeAndRebuildReturned": true,
+      "actualIdentity": "delta*D = polynomial combination of three actual original-ideal rows",
+      "firstHeadZeroCurveRetained": true,
+      "wholePhiFaceExcluded": false,
+      "entireHeadChartExcluded": false,
+      "noGeometricDOrSnZInverse": true,
+      "noNormInverse": true,
+      "noOldSixRowCofactorRecomputed": true,
+      "ordinaryISPClaim": false,
+      "stage": "complete_new_first_quadratic_head_chart_actual_D_necessary_polynomial",
+      "seconds": 1.4454429710000056
+    },
+    {
+      "elapsed_seconds": 1.510052182999999,
+      "max_child_rss_kib": 48712,
+      "ordinary_isp_claim": false,
+      "rules_reads": [
+        {
+          "after": "d144b463b611689a97727e9550cad261db7ea8a5",
+          "before": "d144b463b611689a97727e9550cad261db7ea8a5",
+          "rules_git_blobs": {
+            "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+            "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+          },
+          "rules_unchanged": true,
+          "utc": "2026-11-27T16:18:20.155115+00:00"
+        }
+      ],
+      "run_attempt": "1",
+      "run_id": "46032433800",
+      "schema": "isp-frozen-exact-actions-execution-v1",
+      "session": "Astra-ISP-8542378f-20261127",
+      "source_commit": "d144b463b611689a97727e9550cad261db7ea8a5",
+      "source_exit_code": 0,
+      "source_git_blob": "e6d789552dd958e63269ecb6e1f01e3605ff2eff",
+      "source_sha256": "100ce4dfb7380da1591cd453aae392e2dafcaaceb3a601c4500d07852841ecaf",
+      "stdout_bytes": 45741,
+      "stdout_sha256": "267eee48d5639bd131f51688fda3d6df03e331f75d2ba21cb39281dff87bdaff",
+      "stop_reason": null
+    }
+  ],
+  "first_head_zero_curve_retained": true,
+  "whole_Phi_face_excluded": false,
+  "ordinary_isp_claim": false
+}
