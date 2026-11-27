@@ -48,7 +48,7 @@ R1039原g二盖严格Prym≅EL:y²=x³−12x+20、r*r_*=1−ι、原边界D∞�
 
 R1041原四谱Q6/Pell/双Norm/指定半类/全部厚点均付，q11实际AQ=−G阶16；一般4AQ=−P、二分Norm=t³(1−27t)。§§17–20第二四度Φ/Miller修正J给4ηprim=Φ*dlogM+dlogJ，Cartier受a_q(EL)控制；全tame reciprocity给U(E+)²⁴∈Fq*，故p≥5,p|q+1的无权半交为p次幂。精确参数和回执见原文/前归档，不重算；原逐CM权、eta/Cor及最高λ仍开。
 
-R1043原2-Vélu/full9、canonical−3a_i、真实τ^iφ0[ω^i]与54→6×9已付。§§9–13再将全η/Cor按真实17平移吸入三列，给三完整shadow同零的准确DFT等价；S3加权来源有1/36左逆，并真下降到B′椭圆基、t=−Y′²/[27(2Y′+1)]的S′系数MW截面。全部标记/对偶在(59)齐，global本原性仍不判固定三列评价或ordinary非零。另[mixed C4候选](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)由Albanese三坏点障碍排除，不再追该映射。
+R1043原2-Vélu/full9/54→6×9及全η/Cor吸入三列C_a，DFT正逆齐；S3两权和有1/36左逆并降到t=−Y′²/[27(2Y′+1)]的S′系数MW截面，I18+I6+3IV*。§14准确canonical E4及I(x,y)=(a²x,−4y−2)，全9基/3处反角色/2处原顺序运输齐；逐γ cocycle强制η′=ηκ2，最高ψ27²ψ4(η′)^−1仍原λ。均在原L，不增加trace；固定三列值/ordinary非零仍开。原[mixed C4映射](notes/2026-11-27-mixed-c4-albanese-fiber-obstruction.md)已由Albanese障碍排除。
 
 ## 四、其它未闭门与分工
 
