@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：99b59ae066099cfb1a1798e622e495ea76e7bfc6**（2026-11-27 23:48 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：3e164b4c24cb814c9ccd8f42c182e526575b0502**（2026-11-27 23:48 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 22:55再试pull仍报无可用执行环境，shell未运行；按根规则8用连接器小文本同步、读差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；数学程序仅本公开仓库Actions，禁止本地/V8数学计算。root维护main/H/open/index/log，子研究独立稿，每条结论立即推；此前V8偏差及停用见[纠正记录](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -22,7 +22,7 @@ R1062–71保原全cusp、étale/p-only、全部角色与twists，无regular/Van
 
 [原K₂[p]全尖点规范](notes/2026-11-27-original-cuspidal-K2-torsion-and-odd-Jacobian-obstruction.md)：整未分歧K₂[p]/常数=μ_p⊗J(K)[p]，全cusp leading平均给Δ分裂；even规范残余为odd J(K)[p]。实际两维扩张若为0→ω^r→E→ω^(1−r)→0，Kummer radical是ω^(2−2r)=ω^T(r)，反向是ω^(2r)。整层/重数/指定圆单位及算术cup仍未付。
 
-[原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new部、原扩张类/极化尺度未付，不能将Ohta取N=p。
+[原整p Chen/Ohta归约](notes/2026-11-27-original-prime-p-Chen-isogeny-and-odd-torsion-reduction.md)：dSE原定理允许ℓ=p，真实Q同源 J₂⁺→J_ns×J₀(p) 次数与p互素，保整p挠点/全部Δ角色及离p Hecke；Ohta的arithmetic X₁(p)原定理消去 J₀(p)(K)[p∞]⁻，故原odd残余准确等于 J₂⁺(K)[p∞]⁻。平方层new部、原扩张类/极化尺度未付，不能将Ohta取N=p。 §7用Ling–Oesterlé原角色条件付Σ(p²)[p∞]=0，并固定w_(p²)在Shimura子群上为−1；不代非Shimura odd new消失。
 
 ### 原完整X_ns^+(47)：只消费；新旧来源交叉审计完成
 

@@ -155,3 +155,60 @@ $$
 - [O] Masami Ohta，*$\mu$-type subgroups of $J_1(N)$ and application to cyclotomic fields*，J. Math. Soc. Japan 72 (2020), 333–412，DOI [10.2969/jmsj/78327832](https://doi.org/10.2969/jmsj/78327832)。核读 [正式 PDF](https://www.jstage.jst.go.jp/article/jmath/72/2/72_333/_pdf)：Introduction 的 $\mu$-type 定义；印刷第 399–400 页（PDF 第 67–68 页）Definition 5.1.3、Theorems 5.1.4/5.1.7、以及 $N=1$ 仍在范围内的辅助层说明。
 
 本笔记无新数值计算。一般 $p$ 的实际 Eisenstein 整层、指定 Kummer 扩张类及后续非交换覆盖仍未完成。
+
+
+## 7. 平方层的 Shimura 子群没有 $p$-primary；其 Fricke 作用亦属负号
+
+本节只处理标准 Shimura 子群
+$$
+\Sigma(N)=\ker\bigl(J_0(N)\longrightarrow J_1(N)\bigr),
+                                                               \tag{13}
+$$
+即忘记 $\Gamma_1(N)$ 标记的原覆盖在 Picard 上的拉回核。它不是对 $J_0(N)$ 的全部乘法型或全部奇圆分扭点的定义。
+
+### 7.1 原角色描述直接排除 $\Sigma(p^2)[p^\infty]$
+
+Ling–Oesterlé [LO, Theorem 1，印刷第 172 页] 将 $\Sigma(N)(\mathbb C)$ 规范地嵌入
+$\operatorname{Hom}((\mathbb Z/N\mathbb Z)^\times,U(1))$，其像恰为满足下列消失条件的角色 $g$：
+$$
+g(d)=1\quad\text{若}\quad
+d=-1,\quad d^2+1=0,\quad d^2+d+1=0,\quad
+\text{或 }(d-1)^2=0\pmod N.                            \tag{14}
+$$
+这里最后一条必须保留。取 $N=p^2$，对每个 $a\in\mathbb Z/p\mathbb Z$，元素 $d=1+ap$ 满足 $(d-1)^2=0\bmod p^2$。它们组成 $(\mathbb Z/p^2\mathbb Z)^\times$ 的整个阶 $p$ 子群。故 (14) 中每个角色都通过
+$(\mathbb Z/p\mathbb Z)^\times$，其阶与 $p$ 互素。因此
+$$
+\Sigma(p^2)[p^\infty]=0.                              \tag{15}
+$$
+这是几何群本身的消失，因而在任何特征零扩域上均成立。
+
+原文 Corollary 1 后的 Example（印刷第 173 页）给出一致的精确核验：对奇素数 $p$ 及 $n\ge1$，$\Sigma(p^n)$ 是循环群，阶为
+$$
+p^{\,n-1-\lfloor n/2\rfloor}
+ \operatorname{num}\!\left(\frac{p-1}{12}\right).       \tag{16}
+$$
+令 $n=2$ 时 $p$ 的指数为零。式 (15) 不扩张成所有更高 $p$ 幂层的同一结论；例如 (16) 在 $n=3$ 时已有一个 $p$ 因子。
+
+### 7.2 原 Galois 角色与 Fricke 符号
+
+[LO, Theorem 2，印刷第 174 页；证明 §4.2，印刷第 192–193 页] 证明 $G_{\mathbb Q}$ 在 $\Sigma(N)$ 上按圆分角色作用。特别地，若某一层的 $\Sigma(N)[p]$ 非零，它的简单 $G_{\mathbb Q}$ 角色只可能是 $\omega$，而不能用它代表任意指定的奇角色 $\omega^{1-r}$。
+
+[LO, Theorem 3 及其 Corollary，印刷第 174–175 页；证明 §5] 还给出
+$$
+w_N|_{\Sigma(N)}=[-1].                                \tag{17}
+$$
+可直接在 (14) 的规范角色模型核对这个符号：$w_N$ 共轭 $\Gamma_0(N)/\Gamma_1(N)$ 时把剩余类 $d$ 换成 $d^{-1}$，因而在其角色对偶上把 $g$ 换成 $g^{-1}$，即加法记号的 $-g$。于是对奇素数 $p$，即使在其他层有 Shimura 的 $p$-primary，
+$$
+\frac{1+w_N}{2}\,\Sigma(N)[p^\infty]=0.                \tag{18}
+$$
+本题的 $N=p^2$ 已由更强的 (15) 排除整个 Shimura $p$-primary；(17)–(18) 则同时固定了其 Fricke 方向。
+
+### 7.3 对实际未解层的限度
+
+式 (15) 说明 §5 的 Fricke 正平方层奇扭点障碍不能来自这个 Shimura 子群。它也说明 (13) 的实际拉回在 $p$ 次幂扭点上没有核。这里没有从中推出该目标上的奇扭点消失：§4 的 Ohta 定理仍不能直接用于 level $p^2$。
+
+尤其本文没有证明 $J_0(p^2)$ 的全部 $\mu$-type 子群等于 $\Sigma(p^2)$，也没有将任意 $K$-有理奇扭点都放进 (13)。要关闭原障碍，仍须处理实际 Fricke 正 new Eisenstein 格及其可能的非 Shimura 奇子模；原 cuspidal even 子群、(15) 和 (18) 单独均不足以完成这一步。
+
+**本节原始来源。** [LO] San Ling、Joseph Oesterlé，*The Shimura subgroup of $J_0(N)$*，Astérisque 196–197 (1991), 171–203，DOI [10.24033/ast.75](https://doi.org/10.24033/ast.75)。已核 [SMF 正式节选](https://smf.emath.fr/sites/default/files/2026-10/Ling__sample.pdf) 的 Theorems 1–3、Corollary 1 及 prime-power Example；并核 [原文完整扫描](https://wstein.org/sage_summer/isotesting/Ling-Oesterle-The_Shimura_Subgroup_of_J0N.pdf) 的 §4.2 及 §5 证明。没有借用异于 $p$ 的辅助素数结论。
+
+§7复核：global_route核正式节选与完整扫描；root独立核读SMF节选Theorems 1–3、阶公式与Fricke Corollary，并复核(14)–(18)全部推导。
