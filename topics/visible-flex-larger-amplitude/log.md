@@ -94,3 +94,9 @@
 刊8件完整149117B，64,060B共享binding全157词/137角色/18runtime、8external/5CLI和四whole父全部metadata保；四原whole步normal38/36、geometry8/48、002ebclosed8/66、1782 R7238/77，只namespace/显式ID/scope变，runtime及所有预算、全角/径向/六jet/尾均不改。192bit/1024整圆/原900秒+百万叶等全部参数完整保。normal同outdir续必须第一次actual --repo绝对源路径/同科学report/snapshot；G须稳定whole normal与自身原source路径，R723每次fresh。旧八角色与新五方向角色、marked R718与独立unmarked R716不混。完整说明/再生器保，未执行科学/AST/fixture，未排post队列；真实run21已启动不代表费用已付。
 
 完整8件共149117B；双README云核至`7a80be9af8510a60ffce53defdf6595db3131f5c`无变（非pull），实际controller真pull见H各槽。
+
+## 2026-11-27 23:50:32 UTC — 21完整两类R716与原无附证mesh参数
+
+刊8件280504B（最大71214B），当前157/137/18/全部peer继承完整033bc绑定，四whole原父全部metadata/失败/未知保精确whole身份。legacy45ca10+8词/34+60项、R72345ca+3c0d10+8/34+65、两mesh32+6/110+58/48live全保；两个矩producer是同一whole step，只执行一次，8出现位置7唯一step。root21 c11b完整R7238/77已独立刊，不重复生产。两原mesh本来无optional闭面参数，未删对也未塞1782；15全mesh/5完整预览、三级空间/五t/4,8,16时间全保。normal/geometry/closed/独立unmarked管/正V/非零中心不变量责任均须真实同场完整输入。full snapshot和final13两模式分明，未来字段null是准备时历史状态，不否定后来真实21启动；原全source逐字不变，无科学/AST/fixture/新门，未排post队列。全部已刊后参可依实际返回整步承接。
+
+完整8件共280504B；双README云核至`0eaa860726ab795d8522b051b5547d94c5b7aa19`无变（非pull），实际controller真pull见H各槽。

@@ -1,0 +1,678 @@
+{
+  "schema": "fixed-fejer-bfiveeighths-complete-moment-mesh-parameter-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "prepared_utc": "2026-11-27T23:38:52Z",
+  "status": "complete-source-and-parameter-documents-prepared-not-executed-or-queued",
+  "current_namespace": "fixed-fejer-meridian-batched-bfiveeighths-first",
+  "runtime_sources_rewritten": [],
+  "refs_or_queues_modified": false,
+  "complete_current_normal_closed_scientific_binding": {
+    "name": "fixed-fejer-bfiveeighths-complete-normal-closed-parameter-binding.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bfiveeighths-complete-normal-closed-parameter-binding.json",
+    "bytes": 64060,
+    "sha256": "3b6e8e082746a1900b79a60772c0d92d3c9ed608d72951a21ba2175946b846c1",
+    "git_blob_sha": "033bc2427bd70d86a639c6c3a38b3314f3ebe5b5"
+  },
+  "complete_current_normal_closed_delivery": {
+    "name": "fixed-fejer-bfiveeighths-complete-normal-closed-parameter-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bfiveeighths-complete-normal-closed-parameter-delivery.json",
+    "bytes": 15287,
+    "sha256": "ea71cb88d6c8777f3b2a9579197bcc7113eb300d53314037722977378d68b7ca",
+    "git_blob_sha": "488d9a9489ec9dca349eb68ed94fe662d75e89c6"
+  },
+  "complete_current_science_parameter_file": {
+    "name": "fixed-fejer-meridian-bfiveeighths-science-complete-ready.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-bfiveeighths-science-complete-ready.json",
+    "bytes": 97307,
+    "sha256": "6838b79823f398d930982b2d10fd28baf5a6a2f60eb866403331bfd34eb67d9d",
+    "git_blob_sha": "6da95445b088f8593ff0f5fb14d76167b26a7a21"
+  },
+  "complete_current_pure_parameter_file": {
+    "name": "fixed-fejer-meridian-bfiveeighths-pure-complete-ready.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-bfiveeighths-pure-complete-ready.json",
+    "bytes": 86702,
+    "sha256": "b750fd865256366a5fcf6b020570a74c053ad853d4b34d0ff983ad3895388822",
+    "git_blob_sha": "5b2b58e75572b75ce499c8983adf3ba20278211b"
+  },
+  "complete_current_scientific_delivery": {
+    "name": "fixed-fejer-bfiveeighths-complete-parameter-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bfiveeighths-complete-parameter-delivery.json",
+    "bytes": 52529,
+    "sha256": "550ae5ff18b9022bed7ec000c9c63b5958701f632aea100f59f338da249c971e",
+    "git_blob_sha": "8125f12b1c6df083945afe30bb412577428b5b32"
+  },
+  "artifacts": [
+    {
+      "name": "fixed-fejer-bfiveeighths-complete-moment-mesh-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bfiveeighths-complete-moment-mesh-parameter-binding.json",
+      "bytes": 71214,
+      "sha256": "02589f547c2e9cffb3307e1a675f1a3d616925a694844e1ccbdcd9d18c982e99",
+      "git_blob_sha": "fceab004648c04dd5849cf71a125ff6e6db89c55"
+    },
+    {
+      "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+      "bytes": 18849,
+      "sha256": "c9d6a4a720a5447fa5b7bd1c0ea5c21a06353674da2fe698b8ba4fa8aa605518",
+      "git_blob_sha": "94afe89393e0b7d4f6fde3fa453171e55b8c99ab"
+    },
+    {
+      "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R723-complete-R716-moment-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R723-complete-R716-moment-ready.json",
+      "bytes": 19834,
+      "sha256": "470f9f0e328a3aa6d40bad81357f7321edec3b4057ec49ecf31b3082c951be5f",
+      "git_blob_sha": "655ffdd6468f70edce1eb1c3ddcbe0d9796fc296"
+    },
+    {
+      "name": "fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-ready.json",
+      "bytes": 28934,
+      "sha256": "4a305e8ae4b90886f88bbcaa18c25645e8145a83bd3def8c2b870e8795852f21",
+      "git_blob_sha": "6605aa4784b2ac9d32c639d343068ec916b94cbb"
+    },
+    {
+      "name": "fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-ready.json",
+      "bytes": 28936,
+      "sha256": "2569954a1496af914a29daa1a1d474e46a34d511b6f121197af0bfe6d410d1da",
+      "git_blob_sha": "f7f83d236437a2f562e5cc17be631bce9bed5342"
+    },
+    {
+      "name": "2026-11-27-fixed-fejer-bfiveeighths-complete-moment-mesh-parameters.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-fixed-fejer-bfiveeighths-complete-moment-mesh-parameters.md",
+      "bytes": 18774,
+      "sha256": "c4c63556c2483d02843dd32e8852ca6895b40ece19a17cd44d50101e4bf3565d",
+      "git_blob_sha": "b9cae6e71037a3752f1feedbd5aadc0ca4068018"
+    },
+    {
+      "name": "reproduce_fixed_fejer_bfiveeighths_moment_mesh_parameters.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_bfiveeighths_moment_mesh_parameters.mjs",
+      "bytes": 58452,
+      "sha256": "be3a520c1d23ae8a8349a7aa59d0093b027a24dd4af4d2e0a931d141e3a93c35",
+      "git_blob_sha": "e5bf15cf74ff3f566f6d5bd91c9d097a4dcbe5a8"
+    }
+  ],
+  "artifact_count_excluding_this_manifest": 7,
+  "artifact_bytes_excluding_this_manifest": 244993,
+  "largest_new_complete_file_bytes": 71214,
+  "all_complete_new_files_below_100000_bytes": true,
+  "exact_full_original_parameter_parents": {
+    "R716": {
+      "name": "fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bhalf-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+      "bytes": 80089,
+      "sha256": "3b49bd1b12b6b5680fd63a6cd8a5e8c34633626c875044a50ba98b6b1174441a",
+      "git_blob_sha": "7d748fcb2ca892ce50c23d0153c198f99fc307db",
+      "fixed_publication_commit": "2e093617aafb8738bb575f90fa2b84a7c5064e95"
+    },
+    "R723_R716": {
+      "name": "fixed-fejer-meridian-batched-bhalf-first-R723-complete-R716-moment-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bhalf-first-R723-complete-R716-moment-ready.json",
+      "bytes": 97718,
+      "sha256": "11667d388e2d71d7583891aac274cfe7ea71810b123f9262f4a8ed85e90986c3",
+      "git_blob_sha": "a5111bec896c7a83e598a9ea26f1372b80b309dc"
+    },
+    "mesh_final": {
+      "name": "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-final-ready.json",
+      "bytes": 91284,
+      "sha256": "04456c30ae931cb8d10e2652c8ef51fcd5e6ad5bfe4141e129b7fb98a04bf9c9",
+      "git_blob_sha": "aafad01042d2a1412d070c2e302d762b3d0244c8",
+      "fixed_publication_commit": "2e093617aafb8738bb575f90fa2b84a7c5064e95"
+    },
+    "mesh_packet": {
+      "name": "fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bhalf-first-same-field-phase-mesh-packet-ready.json",
+      "bytes": 91233,
+      "sha256": "eeb88aede82e6d447472c22d884a91a1dec044d4078b15503e25c956e11ba2f4",
+      "git_blob_sha": "bb953c7250373eea6e263e19533282136622d5e3",
+      "fixed_publication_commit": "2e093617aafb8738bb575f90fa2b84a7c5064e95"
+    },
+    "sharing_binding20": {
+      "name": "fixed-fejer-bhalf-mu001-R723-complete-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bhalf-mu001-R723-complete-parameter-binding.json",
+      "bytes": 27741,
+      "sha256": "fe5df0cee988753e710c1971fd7952fd1f8b465a58f004473d7310d228ce090b",
+      "git_blob_sha": "cd97924e283d44b3662083c12e2588aef3c3d306"
+    },
+    "sharing_delivery20": {
+      "name": "fixed-fejer-bhalf-mu001-R723-complete-post-parameter-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bhalf-mu001-R723-complete-post-parameter-delivery.json",
+      "bytes": 20363,
+      "sha256": "257b75cad290db8c1af0b68f67aa8c93e9c75adf495b6e218eadb3c7e9102698",
+      "git_blob_sha": "e8df2b573e3ccb310575a7b31699bc63701623b8"
+    },
+    "current_binding": {
+      "name": "fixed-fejer-bfiveeighths-complete-normal-closed-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bfiveeighths-complete-normal-closed-parameter-binding.json",
+      "bytes": 64060,
+      "sha256": "3b6e8e082746a1900b79a60772c0d92d3c9ed608d72951a21ba2175946b846c1",
+      "git_blob_sha": "033bc2427bd70d86a639c6c3a38b3314f3ebe5b5"
+    },
+    "current_post_delivery": {
+      "name": "fixed-fejer-bfiveeighths-complete-normal-closed-parameter-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bfiveeighths-complete-normal-closed-parameter-delivery.json",
+      "bytes": 15287,
+      "sha256": "ea71cb88d6c8777f3b2a9579197bcc7113eb300d53314037722977378d68b7ca",
+      "git_blob_sha": "488d9a9489ec9dca349eb68ed94fe662d75e89c6"
+    },
+    "current_science": {
+      "name": "fixed-fejer-meridian-bfiveeighths-science-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-bfiveeighths-science-complete-ready.json",
+      "bytes": 97307,
+      "sha256": "6838b79823f398d930982b2d10fd28baf5a6a2f60eb866403331bfd34eb67d9d",
+      "git_blob_sha": "6da95445b088f8593ff0f5fb14d76167b26a7a21"
+    },
+    "current_pure": {
+      "name": "fixed-fejer-meridian-bfiveeighths-pure-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-bfiveeighths-pure-complete-ready.json",
+      "bytes": 86702,
+      "sha256": "b750fd865256366a5fcf6b020570a74c053ad853d4b34d0ff983ad3895388822",
+      "git_blob_sha": "5b2b58e75572b75ce499c8983adf3ba20278211b"
+    },
+    "current_science_delivery": {
+      "name": "fixed-fejer-bfiveeighths-complete-parameter-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-bfiveeighths-complete-parameter-delivery.json",
+      "bytes": 52529,
+      "sha256": "550ae5ff18b9022bed7ec000c9c63b5958701f632aea100f59f338da249c971e",
+      "git_blob_sha": "8125f12b1c6df083945afe30bb412577428b5b32"
+    }
+  },
+  "complete_shared_runtime_files": [
+    {
+      "name": "fixed_fejer_meridian_batched_producer_R722_complete_closed_surface_moment_integrals.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_complete_closed_surface_moment_integrals.py",
+      "bytes": 70554,
+      "sha256": "45ca7637ef76871b5729e762037e5a34307602e4b144990b0b0fa4d5cf3e1ed8",
+      "git_blob_sha": "8f36de4b8a4420e26eb07d4d4bf409d8eac6dda6"
+    },
+    {
+      "name": "fixed_fejer_meridian_batched_producer_R722_r716_centred_volume_moment.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_r716_centred_volume_moment.py",
+      "bytes": 46887,
+      "sha256": "d0fe262ba0208562ed5578a17b22847659a5e747b601441b65b2e73d50462e63",
+      "git_blob_sha": "03233ce1e49976cb31530df82852ef5154f28462"
+    },
+    {
+      "name": "r716_closed_surface_moment_arithmetic.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r716_closed_surface_moment_arithmetic.py",
+      "bytes": 17397,
+      "sha256": "f79c69edc4686148ca0a1418a498ce0154492a842561542c6bbdb8d810563e9a",
+      "git_blob_sha": "e265b5b25932ac97dc173071e00c60a568e80cc5"
+    },
+    {
+      "name": "fixed_fejer_meridian_batched_producer_bound_same_field_mesh_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_same_field_mesh_input.py",
+      "bytes": 73500,
+      "sha256": "2ef316b9075f14af66e1deda235c4df9319a0c29cfeddb10a40130712a12d76c",
+      "git_blob_sha": "62e4551908e43beb9684db85998a49ff81337d5e"
+    },
+    {
+      "name": "fixed_fejer_complete_phase_mesh_arithmetic.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_complete_phase_mesh_arithmetic.py",
+      "bytes": 39436,
+      "sha256": "80116a4bcfa2752274cece1148420cdce5c489faba3a8a7c0e92c0f6a8d058e4",
+      "git_blob_sha": "57c2c563785dab3a1148645225106ca5860e2e2f"
+    },
+    {
+      "name": "fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+      "bytes": 53829,
+      "sha256": "b3991da8585b553a6c3133da806fafa4903e2c01087634c18ee168e6718bc4d7",
+      "git_blob_sha": "e691ac03f470b3d5477525b8f8c38007741a8747"
+    },
+    {
+      "name": "read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+      "bytes": 22184,
+      "sha256": "8197f77d1372710931ba6882c9fd88f035154a7082310bfdfa645865cde3e5c2",
+      "git_blob_sha": "16fb78089178ebd50a925239d179c40588fa90bd"
+    },
+    {
+      "name": "fixed_fejer_meridian_batched_producer_R722_closed_phase_grip_evidence.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_closed_phase_grip_evidence.py",
+      "bytes": 84576,
+      "sha256": "002eb1b91c99ea212255d14a4e929e876e09f34c38c78ffb7fc4f806b8799c5f",
+      "git_blob_sha": "5f3b42618cfab77eaa3297073d71657e8df78dac"
+    },
+    {
+      "name": "fixed_fejer_R723_directional_closed_phase_grip_evidence.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R723_directional_closed_phase_grip_evidence.py",
+      "bytes": 87670,
+      "sha256": "1782eebd539ae47367260008c00b6a3912fe1fec26d30c22a8f0a7329a0309dc",
+      "git_blob_sha": "94a33898b3b86646d207b3018d26069eaffd8797"
+    },
+    {
+      "name": "fixed_fejer_R723_compatible_r716_centred_volume_moment.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R723_compatible_r716_centred_volume_moment.py",
+      "bytes": 61706,
+      "sha256": "3c0d6cfd5280b7cb250b1a8ff2077c849a20f725169d0f667c74eb975c3c294b",
+      "git_blob_sha": "3ae6dd08dfcbb00002fa2482ec49cf7e56d86ea4"
+    }
+  ],
+  "current_scientific_source_role_count": 137,
+  "current_scientific_runtime_file_count": 18,
+  "science_argv_words": 157,
+  "science_formal_selector_pairs": 458,
+  "pure_argv_words": 7,
+  "pure_formal_selector_pairs": 445,
+  "science_live_selector_pairs": 48,
+  "full_137_and_18_records_are_in_the_exact_shared_current_binding_not_truncated_summaries": true,
+  "all_original120_source_pairs_and_all_supported_CLI_and_external_peer_responsibilities_retained": true,
+  "planned_seed_parameters": {
+    "relative_boundary_total_length": "5/8",
+    "profile_delta": "1/32",
+    "each_of_four_boundary_layers_relative_length": "5/32",
+    "combined_central_relative_length": "1/4",
+    "each_of_two_central_relative_length": "1/8",
+    "central_intervals_relative_to_S": [
+      [
+        "3/16",
+        "5/16"
+      ],
+      [
+        "11/16",
+        "13/16"
+      ]
+    ],
+    "input_domain_is_legal": true,
+    "definition_only_not_actual_floating_carriers": true,
+    "actual_mean_root_and_angular_jets_proved": false,
+    "metric_or_geometric_improvement_assumed": false
+  },
+  "planned_initial_damping": {
+    "metric": ".01",
+    "restoration": ".01",
+    "same_as_complete_run19_parent": true,
+    "run20_mu001_not_inherited": true
+  },
+  "current_post_plans": [
+    {
+      "role": "R716",
+      "complete_file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "bytes": 18849,
+        "sha256": "c9d6a4a720a5447fa5b7bd1c0ea5c21a06353674da2fe698b8ba4fa8aa605518",
+        "git_blob_sha": "94afe89393e0b7d4f6fde3fa453171e55b8c99ab"
+      },
+      "steps": [
+        {
+          "index": 0,
+          "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-whole-closed-flux-integrals-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_complete_closed_surface_moment_integrals.py",
+          "counts": {
+            "argv_words": 10,
+            "formal_selector_pairs": 34,
+            "live_selector_pairs": 0
+          },
+          "full_arguments_in_exact_file": true,
+          "all_output_selector_scope_cleanup_retention_and_parent_fields_preserved": true
+        },
+        {
+          "index": 1,
+          "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-centred-volume-moments-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_r716_centred_volume_moment.py",
+          "counts": {
+            "argv_words": 8,
+            "formal_selector_pairs": 60,
+            "live_selector_pairs": 0
+          },
+          "full_arguments_in_exact_file": true,
+          "all_output_selector_scope_cleanup_retention_and_parent_fields_preserved": true
+        }
+      ]
+    },
+    {
+      "role": "R723_R716",
+      "complete_file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R723-complete-R716-moment-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R723-complete-R716-moment-ready.json",
+        "bytes": 19834,
+        "sha256": "470f9f0e328a3aa6d40bad81357f7321edec3b4057ec49ecf31b3082c951be5f",
+        "git_blob_sha": "655ffdd6468f70edce1eb1c3ddcbe0d9796fc296"
+      },
+      "steps": [
+        {
+          "index": 0,
+          "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-whole-closed-flux-integrals-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_complete_closed_surface_moment_integrals.py",
+          "counts": {
+            "argv_words": 10,
+            "formal_selector_pairs": 34,
+            "live_selector_pairs": 0
+          },
+          "full_arguments_in_exact_file": true,
+          "all_output_selector_scope_cleanup_retention_and_parent_fields_preserved": true
+        },
+        {
+          "index": 1,
+          "id": "actual-fixed-fejer-bfiveeighths-R723-compatible-complete-R716-centred-volume-moments-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R723_compatible_r716_centred_volume_moment.py",
+          "counts": {
+            "argv_words": 8,
+            "formal_selector_pairs": 65,
+            "live_selector_pairs": 0
+          },
+          "full_arguments_in_exact_file": true,
+          "all_output_selector_scope_cleanup_retention_and_parent_fields_preserved": true
+        }
+      ]
+    },
+    {
+      "role": "mesh_final",
+      "complete_file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-ready.json",
+        "bytes": 28934,
+        "sha256": "4a305e8ae4b90886f88bbcaa18c25645e8145a83bd3def8c2b870e8795852f21",
+        "git_blob_sha": "6605aa4784b2ac9d32c639d343068ec916b94cbb"
+      },
+      "steps": [
+        {
+          "index": 0,
+          "id": "complete-fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+          "counts": {
+            "argv_words": 32,
+            "formal_selector_pairs": 110,
+            "live_selector_pairs": 48
+          },
+          "full_arguments_in_exact_file": true,
+          "all_output_selector_scope_cleanup_retention_and_parent_fields_preserved": true
+        },
+        {
+          "index": 1,
+          "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+          "counts": {
+            "argv_words": 6,
+            "formal_selector_pairs": 58,
+            "live_selector_pairs": 0
+          },
+          "full_arguments_in_exact_file": true,
+          "all_output_selector_scope_cleanup_retention_and_parent_fields_preserved": true
+        }
+      ]
+    },
+    {
+      "role": "mesh_packet",
+      "complete_file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-ready.json",
+        "bytes": 28936,
+        "sha256": "2569954a1496af914a29daa1a1d474e46a34d511b6f121197af0bfe6d410d1da",
+        "git_blob_sha": "f7f83d236437a2f562e5cc17be631bce9bed5342"
+      },
+      "steps": [
+        {
+          "index": 0,
+          "id": "complete-fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_bound_complete_same_field_phase_meshes.py",
+          "counts": {
+            "argv_words": 32,
+            "formal_selector_pairs": 110,
+            "live_selector_pairs": 48
+          },
+          "full_arguments_in_exact_file": true,
+          "all_output_selector_scope_cleanup_retention_and_parent_fields_preserved": true
+        },
+        {
+          "index": 1,
+          "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-20261127",
+          "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_meridian_batched_producer_bound_same_field_phase_mesh_report.py",
+          "counts": {
+            "argv_words": 6,
+            "formal_selector_pairs": 58,
+            "live_selector_pairs": 0
+          },
+          "full_arguments_in_exact_file": true,
+          "all_output_selector_scope_cleanup_retention_and_parent_fields_preserved": true
+        }
+      ]
+    }
+  ],
+  "common_producer": {
+    "source_sha256": "45ca7637ef76871b5729e762037e5a34307602e4b144990b0b0fa4d5cf3e1ed8",
+    "step_id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-whole-closed-flux-integrals-20261127",
+    "exact_same_complete_object_in_both_ready_files": true,
+    "exact_ready_occurrences": [
+      {
+        "file": {
+          "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+          "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+          "bytes": 18849,
+          "sha256": "c9d6a4a720a5447fa5b7bd1c0ea5c21a06353674da2fe698b8ba4fa8aa605518",
+          "git_blob_sha": "94afe89393e0b7d4f6fde3fa453171e55b8c99ab"
+        },
+        "step_index": 0
+      },
+      {
+        "file": {
+          "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R723-complete-R716-moment-ready.json",
+          "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R723-complete-R716-moment-ready.json",
+          "bytes": 19834,
+          "sha256": "470f9f0e328a3aa6d40bad81357f7321edec3b4057ec49ecf31b3082c951be5f",
+          "git_blob_sha": "655ffdd6468f70edce1eb1c3ddcbe0d9796fc296"
+        },
+        "step_index": 0
+      }
+    ],
+    "execution_count_if_both_consumers_are_requested": 1,
+    "seconds": 600,
+    "maximum_angle_blocks": 0
+  },
+  "unique_complete_step_locations": [
+    {
+      "file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "bytes": 18849,
+        "sha256": "c9d6a4a720a5447fa5b7bd1c0ea5c21a06353674da2fe698b8ba4fa8aa605518",
+        "git_blob_sha": "94afe89393e0b7d4f6fde3fa453171e55b8c99ab"
+      },
+      "step_index": 0,
+      "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-whole-closed-flux-integrals-20261127"
+    },
+    {
+      "file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-closed-flux-centred-moments-ready.json",
+        "bytes": 18849,
+        "sha256": "c9d6a4a720a5447fa5b7bd1c0ea5c21a06353674da2fe698b8ba4fa8aa605518",
+        "git_blob_sha": "94afe89393e0b7d4f6fde3fa453171e55b8c99ab"
+      },
+      "step_index": 1,
+      "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-R716-centred-volume-moments-20261127"
+    },
+    {
+      "file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R723-complete-R716-moment-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R723-complete-R716-moment-ready.json",
+        "bytes": 19834,
+        "sha256": "470f9f0e328a3aa6d40bad81357f7321edec3b4057ec49ecf31b3082c951be5f",
+        "git_blob_sha": "655ffdd6468f70edce1eb1c3ddcbe0d9796fc296"
+      },
+      "step_index": 1,
+      "id": "actual-fixed-fejer-bfiveeighths-R723-compatible-complete-R716-centred-volume-moments-20261127"
+    },
+    {
+      "file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-ready.json",
+        "bytes": 28934,
+        "sha256": "4a305e8ae4b90886f88bbcaa18c25645e8145a83bd3def8c2b870e8795852f21",
+        "git_blob_sha": "6605aa4784b2ac9d32c639d343068ec916b94cbb"
+      },
+      "step_index": 0,
+      "id": "complete-fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-20261127"
+    },
+    {
+      "file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-ready.json",
+        "bytes": 28934,
+        "sha256": "4a305e8ae4b90886f88bbcaa18c25645e8145a83bd3def8c2b870e8795852f21",
+        "git_blob_sha": "6605aa4784b2ac9d32c639d343068ec916b94cbb"
+      },
+      "step_index": 1,
+      "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-final-20261127"
+    },
+    {
+      "file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-ready.json",
+        "bytes": 28936,
+        "sha256": "2569954a1496af914a29daa1a1d474e46a34d511b6f121197af0bfe6d410d1da",
+        "git_blob_sha": "f7f83d236437a2f562e5cc17be631bce9bed5342"
+      },
+      "step_index": 0,
+      "id": "complete-fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-20261127"
+    },
+    {
+      "file": {
+        "name": "fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-ready.json",
+        "bytes": 28936,
+        "sha256": "2569954a1496af914a29daa1a1d474e46a34d511b6f121197af0bfe6d410d1da",
+        "git_blob_sha": "f7f83d236437a2f562e5cc17be631bce9bed5342"
+      },
+      "step_index": 1,
+      "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-same-field-phase-mesh-packet-20261127"
+    }
+  ],
+  "unique_step_count": 7,
+  "total_step_occurrences_in_all_ready_files": 8,
+  "R723_closed_dependency_is_root_owned_and_not_duplicated": {
+    "file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R723-directional-closed-phase-grip-ready.json",
+      "bytes": 10742,
+      "sha256": "28907d75504593294e6957536245c442dba6f48a46a417c41f866c8f66893af6",
+      "sha": "c11b75128bb501a2b772c1103c2aef72b0e8eb9e",
+      "git_blob_sha": "c11b75128bb501a2b772c1103c2aef72b0e8eb9e"
+    },
+    "id": "actual-fixed-fejer-bfiveeighths-R723-directional-whole-closed-phase-grip-first-20261127",
+    "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R723_directional_closed_phase_grip_evidence.py",
+    "args": [
+      "--repo",
+      "{repo}",
+      "--geometry-report",
+      "{work}/fixed-fejer-meridian-batched-bfiveeighths-first-R722-continuous-gram-curvature-support-v1/report.json",
+      "--outdir",
+      "{work}/fixed-fejer-meridian-batched-bfiveeighths-first-R723-directional-closed-phase-grip-v1",
+      "--support-chunk-rows",
+      "4096"
+    ],
+    "argument_count": 8,
+    "formal_selector_count": 77,
+    "all_original_step_fields_preserved": true
+  },
+  "original_002eb_closed_dependency_is_root_owned_and_not_duplicated": {
+    "file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R722-closed-phase-grip-r718-ready.json",
+      "bytes": 11677,
+      "sha256": "c6efd5a221411c0be120452618bed2b489a6fa71910f20f6e2730ca643859da3",
+      "sha": "e97921b8d74dc79b0e20f659becae35ffb720d0d",
+      "git_blob_sha": "e97921b8d74dc79b0e20f659becae35ffb720d0d"
+    },
+    "id": "actual-fixed-fejer-meridian-batched-bfiveeighths-first-R722-whole-closed-phase-grip-and-r718-first-20261127",
+    "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_meridian_batched_producer_R722_closed_phase_grip_evidence.py",
+    "args": [
+      "--repo",
+      "{repo}",
+      "--geometry-report",
+      "{work}/fixed-fejer-meridian-batched-bfiveeighths-first-R722-continuous-gram-curvature-support-v1/report.json",
+      "--outdir",
+      "{work}/fixed-fejer-meridian-batched-bfiveeighths-first-R722-complete-closed-phase-grip-v1",
+      "--support-chunk-rows",
+      "4096"
+    ],
+    "argument_count": 8,
+    "formal_selector_count": 66,
+    "all_original_step_fields_preserved": true
+  },
+  "runtime_dispatch_boundary": {
+    "common_producer": "45ca7637ef76871b5729e762037e5a34307602e4b144990b0b0fa4d5cf3e1ed8",
+    "legacy_consumer": "d0fe262ba0208562ed5578a17b22847659a5e747b601441b65b2e73d50462e63",
+    "R723_compatible_consumer": "3c0d6cfd5280b7cb250b1a8ff2077c849a20f725169d0f667c74eb975c3c294b",
+    "legacy_closed": "002eb1b91c99ea212255d14a4e929e876e09f34c38c78ffb7fc4f806b8799c5f",
+    "R723_closed": "1782eebd539ae47367260008c00b6a3912fe1fec26d30c22a8f0a7329a0309dc",
+    "original_mesh_input": "2ef316b9075f14af66e1deda235c4df9319a0c29cfeddb10a40130712a12d76c",
+    "no_R723_optional_report_inserted_into_original_mesh_source": true
+  },
+  "mesh_modes": {
+    "final_argv": 32,
+    "packet_argv": 32,
+    "pure_argv": 6,
+    "formal_fields": 110,
+    "pure_fields": 58,
+    "live_fields": 48,
+    "original_parent_argv_already_had_no_closed_phase_report_flag": true,
+    "no_pair_removed": true,
+    "all_spatial_levels": 3,
+    "all_physical_times": 5,
+    "complete_scientific_meshes": 15,
+    "complete_rendering_previews": 5,
+    "time_refinement": [
+      4,
+      8,
+      16
+    ],
+    "final_requires_real_complete_report_and_final13": true,
+    "packet_requires_real_complete_required_angle_snapshot": true,
+    "both_modes_use_one_same_field_for_all_meshes_and_times": true,
+    "mesh_samples_are_not_continuous_certificates": true
+  },
+  "metadata_storage_reuse": {
+    "whole_original_parent_top_level_and_nested_metadata_preserved_by_exact_file_references": true,
+    "complete_current_executable_step_objects_present_in_every_ready": true,
+    "original_scientific_or_post_numeric_parameters_or_domains_not_removed": true,
+    "current_137_source_registry_and_157_argv_are_bound_to_the_complete_current_root_file": true,
+    "template_run20_damping_or_actual_field_not_inherited": true
+  },
+  "future_actual": {
+    "run_id": null,
+    "run_attempt": null,
+    "actual_complete_reference_inputs": null,
+    "reference_report_sha256": null,
+    "input_binding_sha256": null,
+    "model_identity_sha256": null,
+    "full_point_sha256": null,
+    "snapshot_identity_sha256": null,
+    "final_thirteen_member_checkpoint_sha256": null,
+    "scientific_complete_report_sha256": null,
+    "complete_normal_fee_report_sha256": null,
+    "continuous_geometry_report_sha256": null,
+    "legacy_closed_main_report_sha256": null,
+    "R723_closed_main_report_sha256": null,
+    "unmarked_outward_tube_report_sha256": null,
+    "complete_moment_report_sha256": null,
+    "centred_invariant_or_delta_E": null,
+    "mesh_report_sha256": null,
+    "mesh_or_time_refinement_results": null
+  },
+  "full_text_reproduction": {
+    "complete_source": {
+      "name": "reproduce_fixed_fejer_bfiveeighths_moment_mesh_parameters.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_bfiveeighths_moment_mesh_parameters.mjs",
+      "bytes": 58452,
+      "sha256": "be3a520c1d23ae8a8349a7aa59d0093b027a24dd4af4d2e0a931d141e3a93c35",
+      "git_blob_sha": "e5bf15cf74ff3f566f6d5bd91c9d097a4dcbe5a8"
+    },
+    "invocation": [
+      "node",
+      "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_bfiveeighths_moment_mesh_parameters.mjs",
+      "--repo",
+      "<complete-repository>",
+      "--output-directory",
+      "<independent-document-output-directory>"
+    ],
+    "reads_only_complete_fixed_metadata_and_parameter_parents": true,
+    "no_scientific_module_AST_compile_fixture_benchmark_or_ref_queue_operation": true,
+    "not_added_as_a_solver_gate_or_queue_step": true,
+    "source_constructed_as_text_and_not_executed_in_this_session": true
+  },
+  "all_raw_arrays_packets_checkpoint_words_fees_and_meshes_remain_runner_only": true,
+  "actual_step_order_waits_for_real_input_completeness_not_future_hashes": true
+}
