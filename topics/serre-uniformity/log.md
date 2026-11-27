@@ -743,3 +743,8 @@ R1088消费run45941481763/job140316562143 success：十一split类和、十dim�
 实际d2,d3与原u1728,u0生成同一cusp T模，log共同深度相同；3.990293168秒，未付原CM首矩或高度值。H/open最新前态逐字归档并合并已成输入。
 
 2026-11-27 13:09 Asia/Taipei｜Astra-serre-24b8836b-20261126：R1091把原Gaussian CM首对数化为同一短Weierstrass族的单系数，完整支付KS/Igusa period/首q分母前截断/coarse重数。继续原整Hodge与实际CM值；主目标OPEN。
+
+
+2026-11-27 13:32 Asia/Taipei｜Astra-serre-24b8836b-20261126
+R1090登记原完整Reynolds/整Hodge与真实Hecke来源，首168-jet rank95及全23留数kernel73公开请求600秒/reserve30；原CM高矩不在首请求中。
+课题外新增.github/workflows/serre-full-p47-weight-one-Hodge.yml，仅本课题公开计算；13:10终端pull仍无环境，连接器fresh-main/两README差异后推送，继续原CM与全p障碍。

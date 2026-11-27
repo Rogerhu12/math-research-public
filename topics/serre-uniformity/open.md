@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-27-before-principal-certificate.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-27-before-integral-Hodge.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：已经付清的输入与准确剩余标量
 
@@ -45,21 +45,15 @@ R1018–40原Fm/两节点Dickson/PD/好BT整比较的完整尺度和C_*保原文
 
 [R1068](results/R1068-original-small-auxiliary-prime-necklace-point-inputs.md)：原2/3模型/Burnside点数与全部非零迹五Q-CM来源已付，保twist重合/potential-good；迹零反射点仍待消费。
 
-[R1067](results/R1067-original-cuspidal-labels-supported-only-at-p.md)：原全标签仅p支撑，保非整j/wild coarse；R1069无条件good角色唯一。
-
-[R1066](results/R1066-original-p-local-disks-and-bounded-CM-representatives.md)：每盘有D′≤4p^1.5/√3惰性CM代表，保实际GM/原π格/两twists，不推Q-CM。
-
-[R1065](results/R1065-original-p-local-cusp-label-compression.md)：原每p盘标签恒定，实际像≤p·n_Qp(p)=O(p^1.5logp)；精确有限读法见R1071。
-
-[R1064](results/R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)：真实Q-cover与cusp平方角色已付；regular cusp单一p^r次闭点，无Runge盈余。原可见商/Weil范围保留，精确visibility见R1070。
-
-[R1062](results/R1062-original-full-nonsplit-cuspidal-kummer-descent.md)：原完整cusp格与forced角色已付；全覆盖、原函数/相位由R1067–71消费，余下全局排除继续。
+[R1062–67](results.md)：原全cusp/étale/p-only覆盖允许非整j；每盘global标签恒定、像O(p^1.5logp)，有D′≤4p^1.5/√3惰性CM代表但不推Q-CM。全部wild/coarse/两twists与regular单cusp无Runge保原文和逐字归档；global共同像仍开。
 
 R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯性I_p=C³的结论**。R317的应用另外要求整j、K=Q(√−3)、σ=1，以及实际二除法域和三除法S3商域同时一致。完整惯性、非整j、变化K、σ非平凡及异小除法域的大导子支路，均未由当前CM证明链排除。原导子下界不是上界。O1/O2研究指定辅助源，不是完整剩余情形；真正全局高度也仍待证。逐条假设见[R1003](results/R1003-global-scope-and-remaining-branches.md)，后继不得省略此覆盖缺口。
 
 [R1085](results/R1085-original-ordinary-CM-Hecke-logarithm-and-Serre-Tate-moment.md)：q4513六ordinary CM点u_y=23y−C∞，q⁻¹log((q+1−Tq)u_y)(ω)≡23[t^(q−2)]fω(eᵗ)。原CM水平/全q+1根、完整Mahler尾项/下降/coarse重数全付；实际块值/单位与二SS来源仍开。
 
 [R1091](results/R1091-original-Gaussian-CM-logarithm-as-one-algebraic-coefficient.md)：原Gaussian q4513首对数=23/k(0)·[z^(q−1)]F k∫k/H²dz，完整Igusa period/KS正号/截断/粗重数已付；用原47挠点Hensel可读，实际值仍开。
+
+[R1090](results/R1090-original-weight-one-integral-Hodge-source.md)：完整原weight-one Reynolds族、168 jet整性、全23 cusp residue与真实Hecke坐标公式已证；首次600秒公开请求待核rank95/kernel73，不预设数值。后继用R1091读原CM首矩，实际值/高度仍开。
 
 ## O1：全p同一真实本原标签的临界非零
 
