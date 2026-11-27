@@ -404,3 +404,7 @@
 - 原unitary§14（43）–（59）：完整625项5-old迹在同一even theta基上，25列与旧列恰交5，给绝对1/5。全2/3/7 CRT及dyadic singlet真实负号使负支whole返回E5old P3 μ−=−R_K*ν/5，保K/A全类型；忘K为−39δΦ126/5。原Yunit双K缩放式及K/Y真实非零点对数系数齐，旧canonical坏确令相应首导数零；5-new全24wild与p-new paired字仍保，未给whole角来源中央零。[完整证明](notes/2026-11-27-original-y-k-rational-unitary-and-precise-p-level-words.md)。
 
 - R1049§9（43）–（52）：完整PD/Čech Chern c与Frob同伦b、原p+1 Miller平凡化t和degree0ℓ逐式满足dc=0、(F−p²)c=db、dt=Ic、(F−p²)t=Ib+dℓ。保Hodge限制IΩ=dζ后，n=[t−Ia−upζ]=up pξ/(p+1)，同原54/η/Cor给AJ=up⁻¹N、h=(p+1)a_j⁻¹N/(p up)。全局a及原ζ仍待实际求解；没有自由水平常数，未判h非零。
+
+- R1042§15（136）–（150）：原S=Θ¹⁷f(t)、T=Θ³⁶g(t)，真实Jacobian−19t；(S,T/S−1)有整逆。全Hasse反代两方向极帽a+b，读取i≤I+h、l≤J+h，原精度不损。所有D的总阶2D环境Taylor格整检测由binomial Vandermonde=19^{m(m+1)/2}直接给出，D≥p亦有效。原同一标量行仅给qS c10+qT c01及其方向导数；未免费给scalar→环境Schur左逆。
+
+- [原正支唯一四次迹](notes/2026-11-27-fixed-five-old-positive-trace.md)：完整四维trace T_b=−1/(60b)，原T17=−1/1020，待合并来源公式给m0/δ=1/42840、c+=−1/1530。唯一run46036879390/job140634410835真PASS，root另给完整60f多项式身份及Lagrange手证。完整5/p-new补项保持。

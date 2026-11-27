@@ -6,9 +6,9 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha[p∞] 有限。固定有限曲线族的联合无穷非零可用无限鸽巢；有限 p、随 p 换曲线、接口或孤立投影不完成。
 
-- 两库只读CI实际部分clone/pull --rebase已于16:03成功（run46030351581/job140612272176）。公开16:03:53UTC至0b7cc6c7adc861a523ae294a27aa6baa8f042a13，较8f70b47dd340068496385625f0cc1beb5df500e4两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库16:03:58UTC至1a736908abae2f32b917c67e432338790a1fe93d，较上次实际6139de54ac72f1c7af0508b88ce03efdbf0a5690两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。既有MR_TOKEN secret按根§13使用，正文/凭证不输出公开log。QUEUE844a9bd5e7d978c6d525bdb6e4681e990349113c仍本会话进行中，认领提交41fe885610073f478b2f5a752461ca56cfd43f09。
-- 本地07:20失联，最近重试两库仍无执行环境；本地末次公开pull07:12的1cf10ac。CI是真实pull，与本地/API分别记账，不混称。16:45再试本地两pull均无执行环境；已请求下一轮两库CI实际pull（基线0b7cc6c7/1a736908），待回执；最迟17:03UTC，两README变更立即读差异。
+- 两库只读CI实际部分clone/pull --rebase已于16:49–16:50成功（run46036879370/job140634411107）。公开16:49:55UTC至4e827843bcee23a6a7bebf78528b59a69871e0ab，较0b7cc6c7adc861a523ae294a27aa6baa8f042a13两README无差异；已读blob282e86b03385d3b6245ce7100ae2e2af7b103c2d / 2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库16:50:00UTC至857ff63a4f0dc989a1bcedbeed35e44357723dcd，较1a736908abae2f32b917c67e432338790a1fe93d两README无变；已读blob5ba164843b1f5802184178a82d786264404873a3 / 452d0127a4c3879807d70550d3eafd46c8fac642。QUEUE变为a01613b400f6cce6d89d2df6e34c836d9758386f，已亲读本行仍本会话进行中，认领提交41fe885610073f478b2f5a752461ca56cfd43f09；既有MR_TOKEN仅进程用于私库只读，私文不入公开log。
+- 本地07:20失联，16:45两库pull重试仍无执行环境；末次本地公开pull07:12的1cf10ac。CI是真实pull，与本地/API分记。下一轮两库实际pull不迟于17:49UTC，每次两README变化只读新差异。
 
 - 至少每小时重试同步，每次pull后只读新README差异并立刻执行，记实际读过SHA；断连沿最新main API非force快进，每次检查README及本topic外部变动。10:48ref失败已立即实际pull重试、重比新父后成功；不强推。
 - root独占git/H/open/log/index；每条结论立即推，拒绝时pull --rebase后重试至成功。令牌只命令行/进程，不进文件/提交/API。数学执行只在公开Actions；根规则15禁止存可重算输出或日志数据。H<10KB，每MD<100KB。
@@ -26,7 +26,7 @@ R959/R970–983固定E65/E65³/E260/E54925/E8125，rank≥2、全部finite/整�
 
 R1037–38全378谱/原126回执已消费，E3969 rank2且Sha[5∞]有限只此一p。R1040全六轴/6⁵平均的Ξ0+Ξ1、JG0单位与G=E15876 rank0参考保持。R1046唯一run46008071578已付D126的L′>0、PD=(-12,141)非挠、原CM/Q Rubin及双7点域分离：原K/Y一次角读数非零，全尾v=n+ℓp；canonical坏不迫角值零。模型、全run/hash和原Haar/Schwartz均见逐字归档及原文，不重跑。
 
-R1042原H3/F81全核保。§11全72支及degree372深核、βB/B²1给所有环带，S/T平均未授权。§12至少双unit余域首Schur由质量零先付c_i∈pO及完整Hasse周期；三坏需c_i/p同零，未排。§13真cZp推前给全精度有限Hurwitz读取，误差H+1−floor(log_p(H+1))，完整core/Euler保；多Q不增坏行。原三行6/18/30辅助13已真PASS：run46029180230/job140608285958/source dd0da200，v13det=3、det/13³mod169=123；raw39δ保。§14完整差商给所有正奇r的v13det=3+3v13r；新13³ray保全Euler，真实前缀前三秩跳≤1/3/5、原格Smith成本≤(18+o1)p。三方向非自由变量、全补域仍保，继续同一前缀消元。
+R1042原H3/F81全核保。§11全72支及degree372深核、βB/B²1给所有环带，S/T平均未授权。§12至少双unit余域首Schur由质量零先付c_i∈pO及完整Hasse周期；三坏需c_i/p同零，未排。§13真cZp推前给全精度有限Hurwitz读取，误差H+1−floor(log_p(H+1))，完整core/Euler保；多Q不增坏行。原三行6/18/30辅助13已真PASS：run46029180230/job140608285958/source dd0da200，v13det=3、det/13³mod169=123；raw39δ保。§14完整差商给所有正奇r的v13det=3+3v13r；新13³ray保全Euler，真实前缀前三秩跳≤1/3/5、原格Smith成本≤(18+o1)p。§15原17/36双源整blow-up逆保−19t Jacobian，Hasse两方向a+b极帽、所有D的2D整检测；只付环境格，scalar Schur/全补域仍保。
 
 R1047 norm25原12管、四角色/25维Weil、f25δ、Haar/Hermite/平方及实际C15点域全付。BDP2与含常数1的Fuchs–Pham给整个S/T一次项非零，无需新L′/Euler单位；全尾v=n+ℓp。混合Y_A cut、其它unit扇区及整余域未删。R1044真R=K+ωA全推前消Ξ1，F3913/C1596全四carry保三原未平均行；H/J/N平均另给纯Φ行，两授权不可混。
 
@@ -50,4 +50,4 @@ O4需原O格Q=δ^aεw于无穷ordinary p有a≤1；E17的a偶、E389的lengthSha
 
 central继续同一完整前缀/三低卷积；arithmetic继续角源全补域；geometry继续原inert-p Ξ真实限制；root处理完整作业/同步/逐条推。unitary §§10–13已付原g_n逆Gram/12odd Bell/固定坏处/F±六sigma及全部connected/étale球。§14新付完整625项5-old迹、25列交5给绝对1/5；2singlet/3 gluing/7实偶给 E5old P3 μ−=−R_K*ν/5，保K/A全部类型。忘K才是−39δΦ126/5，实际Yunit两个K缩放差全保；其K/Y非零为β^-nκ^-n(1−βκ)/(5d_n)·10δΩID/7。完整5-new 24wild与p-new反字符补项仍待，不以原canonical中央坏给它们零。主目标未完成，持续工作。
 
-F+旧系数已化为唯一degree4有理迹T17，c+=2T17/3；625→25及原−δ/7/5-kernel lift已手付，小public-check唯一请求已提交，待实际回执；未预记数值或非零。
+F+唯一四次迹run46036879390/job140634410835/source4e827843真PASS：T1=−1/60、T17=−1/1020，给候选公式c+=−1/1530；root另手给60f=Xq′(832−96X−204X²−5X³)+q(−960+80X+520X²+20X³)完整证书。原625→25/Theta lift完整正支证明接续中，不删任何全补项。

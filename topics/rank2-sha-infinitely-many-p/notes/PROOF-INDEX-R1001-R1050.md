@@ -273,3 +273,7 @@
 ### R1049§9 — 全Chern/Miller与唯一normal function
 
 同原PD embedding system且图投影严格保环境F；未造曲面全局Frob lift。c=(0,dlogg,−logδg)、b=−log(Fg/g^{p²})；c=upΩ+da给Ξ=up⁻¹((Fa−b)/p²−a)。N=p+1原Miller平凡化g^N=k_b/k_a modPD，H=N⁻¹log(g^Nk_a/k_b)、t=(N⁻¹dlogk,−H)、ℓ=N⁻¹log(Fk/k^{p²})逐式给dt=Ic、(F−p²)t=Ib+dℓ。真实IΩ=dζ必须同保，n=[t−Ia−upζ]=up p/(p+1)ξ；原全权N给h=(p+1)a_j⁻¹N/(p up)。所有choice用F−p²在原fiberH¹的−p(p+1)可逆及H¹S限制0消去。仍需全局a/ζ的实际值，不以special torsionlog0或Manin值替代。
+
+### R1042§15 — 17/36真实双源整反写
+
+Jacobian=Θ⁵²(17fg′−36f′g)=−19t+高阶，原(S,T)不étale；整blow-up(S,q−1)、q=T/S才有单位Jacobian19。全Hasse替换Θ极帽t^-h、t极帽t^{1−h}，两个方向h=a+b，输入i≤I+h,l≤J+h。原E_D用总阶2D全Taylor格整检测，所有D的binomial Vandermonde准确19^{m(m+1)/2}，无模p除阶乘。c10=(a1−36a0)/19,c01=(17a0−a1)/19；同§13原qS/qT给Z_H，Hasse后仍是原方向导数并保(a+1),(b+1)。原scalar Schur与完整前缀forcing未付。
