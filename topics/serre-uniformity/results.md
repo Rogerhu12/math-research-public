@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Hesse整Frobenius纤维与Schur谱（已证明）**：[原Dixon §§9–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付真实Hesse族的p维Frel纤维、f/g/e全基、三块D矩阵/全部边界和cyclicity，Dp=H(α)D、H=αh(α³)，h首一且h0=−(4/3)_ell/ell!单位。完整Schur Q的det=∏(1+(6j+1)w){λ^ell−w h(λw³)}；w0两原主块准确复原。normal读数为12tr(adj Q·A²)，spectral读数为tr(adj Q)，未互代；继续原e/K4双零，不能用整族光滑/全Jordan直接排。
+
 - **原相对Hodge截面与中央连接槽（已证明）**：[R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)以已刊Liu–Zhu/DLLZ从同一43维原整塔取得相对filtered algebraic connection，fine/stack下降与strict exact已付。Fil0W→O严格同构给唯一Hodge截面，右作用微分b(v_h,v)付款；在此frame连接差为(α,η;b(α,−))，Griffiths迫η=0及α_L5=0。保原Π0/2/4和λ∞的全部中央迭代式，未把零连接槽当中央函数恒定。α4/8实际E6/E10尺度、relative crystalline/整格及SS粗盘首jet继续，不用未刊普遍判据。
 
 - **原Gaussian导子的固定判别式实现（已证明）**：[R1135 §13](results/R1135-original-Gaussian-low-row-fiber-constraint.md)付原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。

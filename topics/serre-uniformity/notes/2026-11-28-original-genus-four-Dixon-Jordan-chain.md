@@ -587,3 +587,271 @@ Figure 3（印刷第 10 页）给出的 $\mathrm{sm}^2$、$\mathrm{sm}^3$
 两个生成式及 (J.24)–(J.25) 已由 o2_high_coefficient 独立纸核；
 原短谱参数与全部有限分母另由本文显示式逐项核定。
 无数学执行或新素数窗口。
+
+
+## 9. 实际 Hesse 族的完整 Frobenius 纤维
+
+以下新增参数 $\alpha$ 是曲线的模参数，不是 (J.24) 的谱变量，
+也不认作原 Picard 点参数。令 $R=K[[\alpha]]$，考虑原 Fermat 曲线的明确族
+$$
+\mathcal E_\alpha:\quad A^3+C^3-3\alpha AC=1,
+\qquad O_\alpha=(1,0),
+$$
+$$
+\mathscr D_\alpha A=C^2-\alpha A,\qquad
+\mathscr D_\alpha C=-A^2+\alpha C,\qquad
+\omega_\alpha=-\frac{dC}{A^2-\alpha C}.
+\tag{J.29}
+$$
+它在 $\alpha=0$ 回到 (J.19) 的同一 $A,C,D_0$；
+$\omega_\alpha$ 是与 $\mathscr D_\alpha$ 对偶的无零全纯微分。
+项目化三次曲线在 $\alpha=0$ 光滑，故在这个形式底上仍光滑。
+
+在 $O_\alpha$ 的实际相对 Frobenius 纤维取
+$$
+\mathcal B_\alpha
+ =R[A,C]/(A^3+C^3-3\alpha AC-1,\ A^p-1,\ C^p).
+$$
+这里 $A^p-1,C^p$ 正是目标点 $(1,0)$ 的相对 Frobenius 拉回。
+$A$ 在该环内由 $A(0)=1$ 唯一解出，因为对 $A$ 的偏导数在 $C=0$ 为 $3$。
+因此
+$$
+\mathcal B_\alpha\simeq R[C]/(C^p).
+$$
+特别这是长度恰为 $p$ 的实际纤维；没有另取一个抽象 nilpotent 模型。
+两个 $p$ 次方关系被 $\mathscr D_\alpha$ 保持，所以它诱导此纤维的 $R$-线性导子。
+
+置 $\ell=2k-1=2N+1$，故 $p=3\ell+2$。
+下列恰好 $p$ 个元素是完整自然基：
+$$
+f_j=AC^{3j},\quad g_j=A^2C^{3j+1}\quad(0\le j\le\ell),
+\qquad e_j=C^{3j+2}\quad(0\le j<\ell).
+\tag{J.30}
+$$
+证明是按 $C$ 次数排序：这些元素的最低项依次覆盖
+$C^0,C^1,\ldots,C^{p-1}$，系数均为一。
+换基矩阵为单位三角矩阵，故这在整个 $R$ 上成立。
+
+逐项微分并使用 $A^3=1-C^3+3\alpha AC$，得到完整三块矩阵
+$$
+\boxed{
+\begin{aligned}
+\mathscr D_\alpha f_j
+  &=(3j+1)e_j-3j e_{j-1}-(6j+1)\alpha f_j,\\
+\mathscr D_\alpha g_j
+  &=-(3j+1)f_j+(3j+3)f_{j+1}-(6j+4)\alpha g_j,\\
+\mathscr D_\alpha e_j
+  &=-(3j+2)g_j+(3j+2)\alpha e_j.
+\end{aligned}}
+\tag{J.31}
+$$
+第一、二行的范围为 $0\le j\le\ell$，第三行为 $0\le j<\ell$。
+所有边界采用实际关系
+$$
+e_{-1}=e_\ell=f_{\ell+1}=0.
+$$
+其中 $e_\ell=C^p=0$、$f_{\ell+1}=AC^{p+1}=0$，
+而 $e_{-1}$ 的系数在 $j=0$ 恰为零。
+尤其最高 $g_\ell$ 不能删除：
+$6\ell+4=2p$、$3\ell+1=p-1$ 给
+$\mathscr D_\alpha g_\ell=f_\ell$。
+这些项正是只保单个 $D_\alpha^3C$ 恒等式时容易遗漏的两端。
+
+### 9.1 限制幂、cyclicity 与准确 Hasse 多项式
+
+写
+$$
+\mathcal H(\alpha)
+ =[C^{p-1}](A(C,\alpha)^2-\alpha C)^{-1}.
+$$
+这是 $\omega_\alpha$ 在原相对 Frobenius 规范下的 Hasse 系数；
+系数在底环中按 $R$ 线性保留，不对 $\alpha$ 取 $p$ 次根。
+准确地，
+$$
+\boxed{
+\mathscr D_\alpha^p=\mathcal H(\alpha)\mathscr D_\alpha,
+\qquad
+\det(z-\mathscr D_\alpha)=z^p-\mathcal H(\alpha)z.
+}
+\tag{J.32}
+$$
+
+这里两步均可在本族自足验证。
+先取切向参数 $t=-C$，则 $\omega_\alpha=(1+\cdots)\,dt$。
+只积分次数低于 $p-1$ 的微分系数，所除整数为 $1,\ldots,p-1$，
+可将其变成
+$$
+\omega_\alpha=(1+\mathcal H(\alpha)t_1^{p-1}
+                  +O(t_1^p))\,dt_1.
+$$
+原 $t^{p-1}$ 系数保持不变；$p-1$ 为偶数，也与显示的 $C$ 系数相同。
+在特征 $p$，$\mathscr D_\alpha^p$ 是导子，
+且仍是此光滑椭圆族上的全局正则向量场，因而是
+$\mathscr D_\alpha$ 的一个底环标量倍。
+在 $O_\alpha$ 计算该标量时，
+$$
+\mathscr D_\alpha
+ =(1-\mathcal H(\alpha)t_1^{p-1}+O(t_1^p))\partial_{t_1}.
+$$
+$p$ 次作用于 $t_1$ 的常数项仅为
+$-\mathcal H(\alpha)(p-1)!=\mathcal H(\alpha)$。
+高阶项或两次非恒定系数都不能在这个次数预算内贡献常数。
+这证明第一式，也就是本族的原 Cartier/Hasse 规范。
+
+其次 $C^{p-1}$ 是整个 $\mathcal B_\alpha$ 上的 cyclic 向量：
+对 $0\le r<p$，
+$\mathscr D_\alpha^r C^{p-1}$ 的最低次数是 $p-1-r$，
+其系数是 $(-1)^r(p-1)\cdots(p-r)$，为 $R$ 中单位。
+这 $p$ 个向量仍构成单位三角基。
+所以最小多项式次数恰为 $p$，第一式直接给第二式；
+没有仅由 $D^p=HD$ 猜测特征多项式。
+
+$\mathcal H$ 的次数至多为 $p-1$，因为 (J.31) 的矩阵在 $\alpha$ 中为一次。
+变换 $(C,\alpha)\mapsto(\zeta C,\zeta^2\alpha)$ 保持 $A$ 与原关系，
+给 $\mathcal H(\zeta\alpha)=\zeta\mathcal H(\alpha)$。
+故存在唯一多项式 $\mathfrak h$ 使
+$$
+\mathcal H(\alpha)=\alpha\,\mathfrak h(\alpha^3),
+\qquad \deg\mathfrak h\le\ell.
+$$
+它在零点的一阶系数有完全明确的单位读数。
+固定 $C$，置 $a(C)=(1-C^3)^{1/3}$，
+隐函数微分给 $\partial_\alpha A|_0=C/a$，因此
+$$
+\partial_\alpha(A^2-\alpha C)^{-1}\big|_0=-C(1-C^3)^{-4/3}.
+$$
+于是
+$$
+\boxed{
+\mathfrak h(0)=\mathcal H'(0)
+   =-\frac{(4/3)_\ell}{\ell!}\ne0.
+}
+\tag{J.33}
+$$
+这里分子中的整数为 $4,7,\ldots,3\ell+1=p-1$，
+分母是 $3^\ell\ell!$，全部为单位。
+另外 (J.31) 的 $\alpha$ 对角系数为
+$$
+-(6j+1),\quad -(6j+4)\quad(0\le j\le\ell),
+\qquad 3j+2\quad(0\le j<\ell).
+$$
+它们恰好遍历 $\mathbf F_p$ 一次：
+前两列合成 $-(3n+1)$，$0\le n\le2\ell+1$；
+与第三列相交将迫 $0<j+n+1<p$ 被 $p$ 整除，不能发生。
+因此最高齐次部分为 $z^p-\alpha^{p-1}z$，
+$\mathfrak h$ 实际为首一、次数 $\ell$ 的多项式。
+
+## 10. 保留两端的完整 Schur 消元
+
+以下两个变量 $z,w$ 只用于这个有限矩阵的特征方程。
+在计算中令 $\alpha=zw$、$\lambda=z^3$；
+$w$ 不是原 Picard 参数，也不将它的导数认同于 $\lambda$ 导数。
+
+设一个左特征泛函在 $f_j,g_j,e_j$ 上的值为
+$F_j,G_j,E_j$。由 (J.31)，
+$$
+\begin{aligned}
+(z+(6j+1)\alpha)F_j&=(3j+1)E_j-3jE_{j-1},\\
+(z+(6j+4)\alpha)G_j&=-(3j+1)F_j+(3j+3)F_{j+1},\\
+(z-(3j+2)\alpha)E_j&=-(3j+2)G_j.
+\end{aligned}
+\tag{J.34}
+$$
+先在 $z$ 与显示线性因子可逆的环内消去全部 $F_j,G_j$。
+每个 $E_j$ 行乘以相应三个因子，得到 $\ell$ 阶三对角多项式矩阵
+$\mathcal Q(\lambda,w)$。令 $a=3j+2$，$0\le j<\ell$，则
+$$
+\begin{aligned}
+P_a(w)&=(1-aw)(1+2aw)(1+(2a-3)w)(1+(2a+3)w),\\
+\mathcal Q_{j,j}
+ &=\lambda P_a(w)-2a(a^2+1)-4a^2(a^2-2)w,\\
+\mathcal Q_{j,j-1}
+ &=a(a-1)(a-2)(1+(2a+3)w),\\
+\mathcal Q_{j,j+1}
+ &=a(a+1)(a+2)(1+(2a-3)w).
+\end{aligned}
+\tag{J.35}
+$$
+越过矩阵范围的两项按 (J.31) 的真实边界省去。
+这里没有把自然基的 $\alpha$ 变化冻结；
+(J.31) 已在移动曲线关系中先完整约化。
+
+在 $w=0$ 时，这正是 $\lambda I-T^{\mathsf t}$，
+其中 $T$ 的列约定是 (J.20) 中 $T C^a$ 的系数。
+转置来自左特征泛函的约定。
+故它的左右 $N$ 阶主块恢复 (J.20)、(J.22) 的
+$q_N,r_N$，各带先前已经固定的首项单位；
+并非另外挑选一组相似的 OPS。
+
+全行列式还可以精确消尽所有被乘入的因子：
+$$
+\boxed{
+\det\mathcal Q(\lambda,w)
+ =\left\{\prod_{j=1}^{\ell-1}(1+(6j+1)w)\right\}
+   \left\{\lambda^\ell-w\,\mathfrak h(\lambda w^3)\right\}.
+}
+\tag{J.36}
+$$
+为核定完整常数与两端，消去 $F,G$ 的原对角因子是
+$$
+z^{2(\ell+1)}
+ \prod_{j=0}^{\ell}(1+(6j+1)w)
+ \prod_{j=0}^{\ell}(1+(6j+4)w).
+$$
+每个 $E_j$ 行乘入的是
+$$
+z^2(1+(6j+4)w)(1+(6j+1)w)(1+(6j+7)w).
+$$
+最高 $G_\ell$ 的因子是 $z$，因为 $6\ell+4=2p$；
+不能将其删除。
+相除后恰剩
+$z^2/\prod_{j=1}^{\ell-1}(1+(6j+1)w)$。
+再代 (J.32)，并用
+$\mathcal H(zw)/z=w\mathfrak h(\lambda w^3)$，
+便是 (J.36)，没有另一个常数单位。
+两边本来都是多项式，故此身份从消元时的局部化环延拓至全部
+$(\lambda,w)$，包括 $(0,0)$。
+
+特别
+$$
+\det\mathcal Q(\lambda,0)=\lambda^\ell,\qquad
+\partial_w\det\mathcal Q(0,0)=-\mathfrak h(0)\ne0.
+$$
+后一单位属于这个完整 Hesse 变分行列式；
+它尚不是原 $r_N'(0)$。
+
+这个区别也能写成准确的有限矩阵式。
+令 $\mathcal A=\operatorname{diag}(3j+2)$，
+$\mathcal Q_0(\lambda)=\mathcal Q(\lambda,0)$。
+逐个比较 (J.35) 的三条对角线，得到
+$$
+\boxed{
+\partial_w\mathcal Q(\lambda,0)
+ =3\mathcal A\mathcal Q_0(\lambda)
+  -\mathcal Q_0(\lambda)\mathcal A
+  +3\lambda\mathcal A+12\mathcal A^2.
+}
+\tag{J.37}
+$$
+因为 $\mathcal A$ 对角，这个等式同样保持在每个明确的主块上。
+若一个主块在 $\lambda=0$ 的行列式为零，则其正常导数为
+$12\operatorname{tr}(\operatorname{adj}\mathcal Q_0(0)\mathcal A^2)$，
+而其谱导数为 $\operatorname{tr}(\operatorname{adj}\mathcal Q_0(0))$。
+两个带 $\mathcal Q_0$ 的项是按
+$\mathcal Q_0\operatorname{adj}\mathcal Q_0
+ =(\det\mathcal Q_0)I$ 消掉的，未删除任何边界。
+目前没有证明这两个指定读数可以相互替代，
+因此 (J.33)、(J.36) 的单位不被用于宣布 (J.25) 的双重零不可能。
+
+### 本次完整族的来源
+
+本节直接从原 Fermat 坐标的 (J.29) 建立实际相对 Frobenius 纤维、
+全部自然基、限制幂与消元行列式，不使用自由局部解代替原函数。
+Conrad 的博士论文
+[《Some Continued Fraction Expansions of Laplace Transforms of Elliptic Functions》](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1486463321623218&disposition=inline)
+§3.1、§3.5，(3.30)–(3.34)，给出了同一 Hesse/Dixon 族的
+完整 quasi-associated 系数；其中存在的 $\alpha$ 修正与本篇
+(J.34)–(J.35) 相符，但本篇所有矩阵、端点及 (J.36) 均已逐式证明。
+没有把原特殊纤维的 $D_0^3$ 主块直接沿族运输为一个不变子空间，
+也没有从完整矩阵的 cyclicity 推中间指定源的最小长度。
+本次为纯纸面推导与文献读取，无数学执行或新素数窗口。

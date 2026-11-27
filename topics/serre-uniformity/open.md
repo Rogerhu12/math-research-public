@@ -116,6 +116,9 @@ R971证明无限列数不足，**全p full-span已否**；R992只给filtered V�
 
 [原Dixon双谱生成式](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md) §§6–8进一步付原Fermat平移、D³=2vT、q_N/r_N两个实际主块与完整生成式；r_N(λ)=R1076的η_k(λ/3)。Γ=(2v)^(2k)下q_N(0)=δr_N(0)/(2Γ)，e0时q_N′(0)=δr_N′(0)/(2Γ)，r_N′(0)=ν_k/3。Lagrange反演将完整谱写成原Dixon逆函数σ_D的互倒平方根(σ_D/τ)^(±1/2)相邻系数，全部阶乘/逆级数低于p；指定两系数非同时零仍开，未从大块Jordan或特征零正性偷推。
 
+
+[原Dixon §§9–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付真实Hesse族的p维Frel纤维、f/g/e全基、三块D矩阵/全部边界和cyclicity，Dp=H(α)D、H=αh(α³)，h首一且h0=−(4/3)_ell/ell!单位。完整Schur Q的det=∏(1+(6j+1)w){λ^ell−w h(λw³)}；w0两原主块准确复原。normal读数为12tr(adj Q·A²)，spectral读数为tr(adj Q)，未互代；继续原e/K4双零，不能用整族光滑/全Jordan直接排。
+
 ## O2：完整原超奇异迹、真正CM packet及近顶unit系数
 
 [R1135 §13付](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。

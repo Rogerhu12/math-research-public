@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：555df05b36cc22d6aeda5358235fa1084043f972**（2026-11-28 07:22 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：8823c516977a2853a469859d53f8c891433873a7**（2026-11-28 07:23 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:05 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 07:05 Asia/Taipei，公开Actions run46080481087/job140778033392，在blob:none浅部分克隆中真实pull --rebase至ffd8a7ed，两README diff空且SHA与已读全文相同；[源/回执入口](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤07:55、真实pull≤08:05。本地07:07仍无环境；恢复即pull。每次提交仍按根规则8 fresh main/diff/expected_sha非force，拒绝立即同步重推。令牌只CLI，当前同步workflow匿名无token。数学程序仅本公开Actions；V8仅metadata/文本。[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -42,7 +42,9 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé N=(p−5)/6，F=₂F₁(1/3,1/2;4/3)，contact2N+1首余项/P_N均unit。双缺陷⇔P,Q含x²，约后deg≤N−2/contact2N−1；F²=D_N−g_N²x^(2N+1)，D/G无重根互素，实际Pell余式W≠0、deg≤N−3但W0未unit。原Λ/rank3/moving p极与全部尺度沿文；双缺陷未排。
 
-[原固定Dixon源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付 e=K4=0 iff D^(p−5)η=0 iff整P_(p−5)全系数被p整除。原2k Laurent块唯一核、两端单位及L∈{3k+1,3k+4,…,p−1}已付；单Jordan不代中列长度。§§6–8真实Fermat平移、D³=2vT与两生成式给r_N(λ)=R1076 η_k(λ/3)。Γ=(2v)^(2k)，q_N(0)=δr_N(0)/(2Γ)，e0时导数同比；r_N′(0)=ν_k/3。原Dixon逆σ_D的互倒平方根精确读全谱/相邻系数，分母<p，未删卷积或宣非同时零。
+[原固定Dixon源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付双零⇔D^(p−5)η0⇔整P_(p−5)content被p除；全Jordan不代指定中列。§§6–8原Fermat/D³=2vT、q/r生成式给r_N(λ)=R1076η_k(λ/3)与r′=ν/3；互倒Dixon平方根精确读全谱/相邻系数，尚未排共同零。
+
+原Dixon §§9–10付真实Hesse族的p维Frel纤维、f/g/e全基、三块D矩阵/全部边界和cyclicity，Dp=H(α)D、H=αh(α³)，h首一且h0=−(4/3)_ell/ell!单位。完整Schur Q的det=∏(1+(6j+1)w){λ^ell−w h(λw³)}；w0两原主块准确复原。normal读数为12tr(adj Q·A²)，spectral读数为tr(adj Q)，未互代；继续原e/K4双零，不能用整族光滑/全Jordan直接排。
 
 [R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个带宽1/2系统只有标量；四输入及run46071081257/job140747905385只排有限机制。旧5372素数扫描/R1134十五Euler列/Prym/六CM/normal-FM全部只消费，source和全常数保open/前态。o1继续真实Hesse变分时须保αD²/α²D及原主块边界。
 
