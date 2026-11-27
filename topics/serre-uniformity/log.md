@@ -768,3 +768,8 @@ root/o2全文纸核，无新数学执行；继续与原D6三同源trace和短η/
 2026-11-27 13:49 Asia/Taipei｜Astra-serre-24b8836b-20261126
 R1093消费run45947023569/job140333947037 success65.967186095秒：原实际Hodge坐标桥及完整2208挠点给Gaussian首log全28块unit；由rank73与原log范围严格得M=Tq u4、logM=qLie。
 两个真实fixed类共同生成40维cusp格；原完整系数/phase/Bq保留，长数组不存。继续真实全局高度与盘内local项，主目标OPEN。
+
+
+2026-11-27 13:58 Asia/Taipei｜Astra-serre-24b8836b-20261126
+提交新CM高度移动请求：只消费原95源及三矩阵hash，读T2−1/T3整unit、原u16首log与t0..63的T3+tT5奇整基；原CM短T2关系仅引用已登记笔记，不重算CM。
+课题外新增.github/workflows/serre-full-p47-CM-height-move.yml；预算120秒/reserve10。用于原离盘高度代表，尚无高度数值或盘内排点声明。

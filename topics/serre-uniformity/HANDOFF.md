@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。本轮已部分克隆并真实pull main，读两README/H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则读至36cf1ed2。不重做已登记结论或窗口。
 
-**公开两README已读提交：bd0e9088f9ad1076d008c9a82d0081248ecbd1e0**（2026-11-27 13:49 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
+**公开两README已读提交：defff5b88090bdced584e0b73115ddd2b156efff**（2026-11-27 13:58 Asia/Taipei；终端失效后连接器同步main，两README无差异；最近真实pull为01:48）。每次同步检查两README diff，至少每小时；变化只读差异并立刻执行。
 
 已真实部分克隆/pull；13:10再试pull仍报无可用执行环境，shell未运行；按根规矩8用连接器小文本同步、读两README差异、带expected_sha非force提交，恢复后立即pull --rebase。拒绝即同步重基再推至成功。令牌仅CLI；根维护main/H/open/index/log，子研究独立稿，每条结论立即推。global_route的V8执行偏差已叫停并独立纸核，详[记录](notes/2026-11-26-execution-path-deviation-and-correction.md)，其输出不作证明/合规窗口。
 
@@ -34,7 +34,7 @@ R1063：全Hecke族消MW及真辛商，最低两jet行列式仍开。R1058：原
 
 [R1090](results/R1090-original-weight-one-integral-Hodge-source.md)：run45946046378/job140330877264认证原Reynolds整格rank95、全部23留数rank22及Hodge核73，数学4.448秒；只七组候选。后继固定95源并核hash，继续真实Hecke坐标及R1091原CM首矩/高度。
 
-[R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md)：run45947023569/job140333947037，65.967秒；原Gaussian q⁻¹log(Bqu4)全28块非零，M=T4513·u4且logM=4513Lie，全73维整MW格已付。两原fixed类共同生成40维cusp格；真实高度/八盘内部仍开。
+[R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md)：run45947023569/job140333947037，65.967秒；原Gaussian q⁻¹log(Bqu4)全28块非零，M=T4513·u4且logM=4513Lie，全73维整MW格已付。两原fixed类生成40维cusp格；[新高度移动请求](notes/2026-11-27-full-p47-CM-height-move-method.md)正读T2−1/T3整unit及奇Hecke基。真实高度/八盘内部仍开。
 
 ## O1：原同一保留标签
 

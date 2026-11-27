@@ -53,7 +53,7 @@ R1只把全部异常缩为p>37的完整N_ns；**p≡2,5 mod9只是另加小惯�
 
 [R1090](results/R1090-original-weight-one-integral-Hodge-source.md)：run45946046378/job140330877264认证原Reynolds整格rank95、全部23留数rank22及Hodge核73，数学4.448秒；只七组候选。后继固定95源并核hash，继续真实Hecke坐标及R1091原CM首矩/高度。
 
-[R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md)：run45947023569/job140333947037，65.967秒；原Gaussian q⁻¹log(Bqu4)全28块非零，M=T4513·u4且logM=4513Lie，全73维整MW格已付。两原fixed类共同生成40维cusp格；真实高度/八盘内部仍开。
+[R1093](results/R1093-certified-original-Gaussian-CM-generator-and-full-MW-lattice.md)：run45947023569/job140333947037，65.967秒；原Gaussian q⁻¹log(Bqu4)全28块非零，M=T4513·u4且logM=4513Lie，全73维整MW格已付。两原fixed类生成40维cusp格；[新高度移动请求](notes/2026-11-27-full-p47-CM-height-move-method.md)正读T2−1/T3整unit及奇Hecke基。真实高度/八盘内部仍开。
 
 ## O1：全p同一真实本原标签的临界非零
 
