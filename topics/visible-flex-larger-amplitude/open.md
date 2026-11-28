@@ -107,7 +107,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [33](notes/2026-11-28-run33-section16-retry.md)46133839513：原138角色/预算，accepted0；八分2fba4ebf完整reachg1.1962609898472558拒；十六分1f0c5699原trial已启，统计/几何待；自然返后pure62854。
 [34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432：原139角色/预算，accepted0；半步reachg300537.3169553407拒；四分8d07925e统计Phi48094.211909104895/Gram1.54633199996496，完整几何待，原pure66120待自然返。
-[35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：原139角色/1,333,370 outer全自由，accepted0；四分reachg603.7537475106277拒；八分498c3dca统计Phi25454.409117283158/Gram.8883014413913999，几何待；自然返后pure74162。
+[35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：原139角色/1,333,370外变量全自由；八分498c3dca首真accepted1，完整reachg562.3886083228798/K4623.42793；Phi25454.4091173/Gram.88830144较初升，仍非final。原science继续，自然返才pure74162。
 
 33–35所有初值、角色、driver/model/点/预算及此前拒绝保各ownnote；trial非accepted/final，异model不借同坐标费用，science自然返后才原whole pure。
 

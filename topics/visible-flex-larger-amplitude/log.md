@@ -371,3 +371,7 @@ Astra-larger-e4e2a2bf-20261126：完整proof/两科学/控制/workflow刊行；�
 ## 2026-11-28 14:52:47 UTC — R759正K边界号禁阻与同初g配对负曲率轨中央运动
 
 Astra-larger-e4e2a2bf-20261126：完整C² Gauss/II定号反证排除R757旧七移相中央准确极限；新上下配对轨仅在负κ胞旋控，闭合/中央g/握精确，原两卷vv/sv及真L守恒。θ=.78/j2真实左平移>.74给对全初像距离>.739，完整双帽及缝二jet源同刊；负胞角行/全帽g/whole reach仍欠。43保原七并加三真入口、各家族独立完整精化。H仅压导航，70c7完整前态固定、旧科学/预算不变。 双README云核至`173df0027bfaad6b5e6fa200c317f37f5458195e`无变（非pull）。
+
+## 2026-11-28 14:56:16 UTC — 35原完整八分修复点首次真实接受，几何改善而Gram略升
+
+Astra-larger-e4e2a2bf-20261126：46137993293原PID3435在14:51:40Z返回首accepted checkpoint498c3dca，原全几何reach主违601.64212558→562.38860832；Phi25127.57→25454.41、Gram.8838253→.8883014略升，K4623.42793。完整原math字段/固定索引身份入ownnote；accepted_directions=1不冒final，原139角色/1,333,370全自由/全部预算继续，natural science尚未返、pure未启。 双README云核至`362fca822bb73308612e1ca832accf793ce04785`无变（非pull）。
