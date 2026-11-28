@@ -44,6 +44,8 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 
 R1062§8已付同一V_Q的actual even-product及第二盘全单位，原首Gaussian准确限制逐字项级weight半径≤p^(1−2τ)，仍比首wild指数边界小1/(p+1)；不能仅补k!扩大。下一只看完整Hall及原Norm17r参考先作全source相消；该边界不否定whole，也不声称同一exponential权参数直接到T=0。
 
+R1062§9现给正返回：真正j-zero CM除法及连续β把全sigma高尾的归一比值、同一S34/Theta2全部有理因子一起延为每个严格R<R_E盘的norm1单位/逆；Normβ≡17modp，未假定Normβ=17。R632/R635原p幂明确复用。此为physical形式比值的延拓，不能在挠点边界评价各sigma或移出Hall和；下一支付原Miller中心、β点标签、线性exponential与Γ，接R1067§18全p−1块算子，不将0块比值免费当乘法。
+
 [R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)现付真正原tame0 Hall角色和完整中心：Z_Q=Xi、严格LT全坐标、负二连接第五层误差、W_+=hat3W及原Haar d/p²全保。前五层准确是两原B卷积，首项d_-,p−1s_p+1；没有得到任一首系数的无穷单位。§8付原Newton五层；§10 L1–10以完整zeta连接与R618强尾扩大到全部p−1层。最高层修正为−(2γ_+/3)Acan(0)W^(p−2)，原bad使它和常数同时消失，余p−2阶除p jet未被赋零。首个非零jet给paired估值k/(p−1)，仍不自动给原单Hall严格门。§9现付完整non-p/h/Artin整列、十八原商的γ_i/17^(-3−n)、Norm/avatar对偶与全部外权导数，以及原c0/ell单位；其负二返回准确为p^-6Ω^-1×单位×两Hall。单图仍不免费分离；同一单Hall仍需v<2/(p−1)才排canonical坏，正Hall的全五层或有限非零并不完成无穷严格界。原period与actual LT测度/有限域返回正继续接同一斜率，普通disc固定不冒ST扭曲下降。
 
 [R1064](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)现付原book/dual-LT精确单位、全Galois方向及actual whole µ的全LT盘lift。完整Maass和log−E读者保留；有限F真正bounded字符函数的所有trace-dual坐标返测度；§10结合已发表Fourier等距消去最终different损，actual lift精确等距。§11已构造原单位测度的等距quadratic lift，付P10单位restriction、负一次/负二次低矩、完整Möbius及局部热作用范围；一般Dirac反例不排原actualsource。下一继续原fullMaass来源的全盘/ψ整性与准确下降；普通LT系数固定不是ST扭曲下降，去period完成矩候选若真LA分布反迫flat整分量零。Colović全文已核；本二次域无损返回由BSS加Berger等距已付。原Mahler前缀有明确affinoid精度。§12现付actual A(Q_E)的完整ψ核平均与原单位cut、负二/全log−E及Λ′的无损有界测试；它只用于已有原测度的Fourier像。§13保同一whole系数的F-Tate编码、数字和读者成本与完整斜率有限精度；ordinary H±不因此被认作原单Q提升，实际tensor/连接仍须支付。

@@ -828,3 +828,307 @@ $p$ 次根单位的 log 为0，且它本身不在该指数小盘的像中。
 不能由(G25)直接否定，也不能把两个不同来源的 Gaussian
 标量在求和前相除。本节不增加 canonical 零条件，不改原
 usual/flat 审计范围，继续保原 whole/old 和所有外权导数。
+
+
+## 9. 原 sigma 比值在整个严格椭圆盘内的单位延拓
+
+本节继续(G20)--(G27)。新实质是(G34)--(G39)：从原j-zero的
+prime-to-p CM除法恒等式证明连续到指定 $\beta$ 的整单位比较，
+再返回实际 $S_{34}/\Theta_2$ 的完整 physical 比值。
+仍取原 $E_0:y^2=x^3+1$、同一不变微分和同一
+$\sigma(z)=z+\cdots$，设
+$$
+ q=p^2,\qquad \Delta=q-1,\qquad d=p+1,\qquad
+ s=\frac1{p-1},\qquad R_E=p^{-1/\Delta}.
+$$
+这里 $p\equiv5\bmod6$，并排除本项目原固定坏集；
+以下可统一取 $p>211$。系数环为原非分歧
+$\mathcal O_L$，$L=\mathbf Q_{p^2}$。
+
+本节证明：若 $\beta\in\mathcal O_L^\times$ 是一个实际选定的
+$d$ 次根 $\beta^d=17$，则归一化的**特征零形式比值**
+$$
+ \frac{\beta^2}{z^{32}}\,
+       \frac{\sigma(z)^{34}}{\sigma(\beta z)^2}
+$$
+及其逆，在每个严格闭盘 $|z|\le R<R_E$ 上均为 norm $1$
+的解析单位。全部高 Gaussian 和 degree $\Delta$ 项都在证明中。
+不要求这两个 sigma 级数各自在该较大盘上收敛，也不将这个
+physical 比值认成 Hall 权函数的比。
+
+### 9.1 复用原 p 次幂边界：同一严格 LT 范数版本
+
+本小节复用[R632](R632-original-pth-power-formal-group-boundary-and-full-kummer-range.md)
+§§4--7及[R635](R635-all-original-powers-and-formal-logarithm-boundary.md)
+§§3--6的原 $p$ 幂结论。以下(G28)--(G33)只将既有全尾控制
+写成当前实际严格LT除法单位的迭代形式，显付后来
+$e/p\in\mathbf Z_p$ 所需的Gauss log界；
+不将 $p$ 次幂半径另计为新结果。
+
+使用
+[R1065](R1065-original-hall-katz-unit-measures-and-canonical-return.md)
+(W1)--(W3)的同一严格 LT 坐标，记
+$$
+ P(v)=[p]_G(v)=pv-v^q,\qquad z=z(v),\qquad
+ F(v)=\frac{\sigma(z(v))}{v}\in1+v^6L[[v]].
+ \tag{G28}
+$$
+$F$ 目前仅是形式级数。严格坐标与原 $\mu_6$ 作用相容，
+而 $z(v)=v+O(v^q)$。由同一实际除法函数
+$r_p=\sigma(pz)/\sigma(z)^q$，
+$$
+ r_p(v)=u_p(v)\frac{P(v)}{v^q},\qquad
+ F(P(v))=u_p(v)F(v)^q.
+ \tag{G29}
+$$
+这里 $u_p\in1+v\mathcal O_L[[v]]$ 是原(W3)的单位，
+不是重新选择的修正项。
+
+[R1061](R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)
+(C9)已证明 $r_p\bmod p=-1$，包括约化非零的证明。
+将(G29)约化，$P(v)\equiv-v^q$，严格得到
+$$
+ u_p(v)\equiv1\pmod p.
+$$
+因此下列形式对数具有**全系数**整性：
+$$
+ b(v):=-\frac{\log u_p(v)}p\in\mathcal O_L[[v]].
+$$
+其首次数至少为6。更精确地，
+$$
+ \boxed{\quad
+ b(v)\in p\,v^6\mathcal O_L[[v]]
+             +v^d\mathcal O_L[[v]].
+ \quad}
+ \tag{G30}
+$$
+证明低窗如下。置 $\ell=\log F$。因 $d<q$，
+$z(v)=v+O(v^q)$，且原 sigma 的首个非整对数系数是
+$c_\sigma z^d$，故 $\ell_n\in\mathcal O_L$ 对所有
+$0<n<d$ 成立。非零次数均是6的倍数。
+在这些次数上 $[\ell(P)]_n=p^n\ell_n$，于是
+$$
+ [\log u_p]_n=(p^n-p^2)\ell_n\in p^2\mathcal O_L.
+$$
+这给(G30)的低窗；其余全部次数的整性来自
+$u_p\in1+p\mathcal O_L[[v]]$，不是来自有限截断。
+从 $\log(1+pa)/p$ 的级数直接可见每项系数整。
+
+置 $\mathcal L=p\log F$。(G29)给
+$$
+ \mathcal L(v)-p^{-2}\mathcal L(P(v))=b(v).
+ \tag{G31}
+$$
+对 $r>1/\Delta$，在 $|v|\le p^{-r}$ 上
+$|P(v)|\le p^{-1}|v|$。
+(G30)遂给真正收敛的迭代解
+$$
+ \boxed{\quad
+ \mathcal L(v)=\sum_{j\ge0}p^{-2j}b(P^{\circ j}(v)),\qquad
+ v_{\rm Gauss,r}(\mathcal L)
+       \ge\min\{1+6r,dr\}>s.
+ \quad}
+ \tag{G32}
+$$
+具体地，第 $j$ 项的 Gauss 估值至少为
+$$
+ \min\{1+6r+4j,\ dr+(d-2)j\};
+$$
+故全尾一致趋于无穷。这个解确是原 $p\log F$：
+在 $v^6L[[v]]$ 中，(G31)的每个新系数的对角因子为
+$1-p^{n-2}$，$n\ge6$，均非零；因此形式解唯一。
+原 $\mu_6$ 型也排除了可能的 degree $2$ 齐次解。
+本处没有任意加入二次 Gaussian。
+
+(G32)支付了真正的 log/exp 界，故
+$$
+ \boxed{\quad
+ \mathcal E(v):=\exp\mathcal L(v)=F(v)^p
+ \quad}
+ \tag{G33}
+$$
+在每个严格 $R<R_E$ 闭盘上与逆均为 norm $1$ 的解析单位。
+等号首先是形式恒等式，右侧单个 $F$ 不被要求在此盘上收敛。
+而且对每个 $a\in\mathbf Z_p$，
+$\exp(a\mathcal L)$ 在同盘合法。
+这一幂只用 $a\in\mathbf Z_p$，不扩大成任意
+$\mathbf C_p$ 指数。
+
+### 9.2 从真正 CM 除法恒等式连续到 beta
+
+这一段锁定同一 j-zero sigma，不能从一般椭圆 sigma
+省略二次 exponential。
+
+先取 $\alpha\in\mathcal O_K$，满足
+$$
+ \alpha\equiv1\pmod{2\mathcal O_K},\qquad
+ p\nmid n_\alpha,\qquad n_\alpha=\alpha\bar\alpha.
+$$
+原 equianharmonic 格上的准周期满足
+$\eta(\alpha\lambda)=\bar\alpha\,\eta(\lambda)$。
+这可由 $\zeta(\omega z)=\omega^{-1}\zeta(z)$ 及
+准周期的整数线性直接得到。
+因此
+$$
+ r_\alpha(z):=\frac{\sigma(\alpha z)}
+                         {\sigma(z)^{n_\alpha}}
+$$
+在 $\Lambda$ 平移下的全部 exponential 相消。
+半特征也准确相消：
+$\alpha\lambda\equiv\lambda\bmod2\Lambda$，
+且 $n_\alpha$ 为奇数。
+所以 $r_\alpha$ 是原真正 CM 除法函数，
+其除子及原点刚性化为
+$$
+ \operatorname{div}(r_\alpha)
+       =[\alpha]^*(O)-n_\alpha(O),\qquad
+ r_\alpha(z)=\alpha z^{1-n_\alpha}(1+\cdots).
+$$
+特别没有另一个 $e^{c_\alpha z^2}$。
+
+在原好整模型上，$[\alpha]$ 为 prime-to-$p$ 同源；
+其非零核点不落在零截面的形式盘中。
+上式以首项 $\alpha$ 刚性化后，给
+$$
+ \frac{v^{n_\alpha-1}}{\alpha}\,r_\alpha(v)
+        \in1+v\mathcal O_L[[v]].
+$$
+这是同一整模型上的实际局部单位：除 $O$ 外的零极除子
+与形式零截面不相交，且首常数 $\alpha$ 为单位。
+由 $[\alpha]v=\alpha v+\cdots$，可重写为
+$$
+ \boxed{\quad
+ V_\alpha(v):=\frac{F([\alpha]v)}
+                         {F(v)^{n_\alpha}}
+       =\frac{\alpha v}{[\alpha]v}
+           \left(\frac{v^{n_\alpha-1}r_\alpha(v)}{\alpha}\right)
+       \in1+v\mathcal O_L[[v]].
+ \quad}
+ \tag{G34}
+$$
+
+现在给定任意 $\beta\in\mathcal O_L^\times$。
+由中国剩余定理可取上述 $\alpha$ 逼近 $\beta$；
+$\alpha\equiv1\bmod2$ 与任意给定的 $p$ 进精度相容。
+置 $\nu=N_{L/\mathbf Q_p}(\beta)\in\mathbf Z_p^\times$。
+则 $n_\alpha\to\nu$，且逐固定系数
+$[\alpha]v\to[\beta]v$。
+形式幂 $F(v)^{n_\alpha}$ 的每个系数仅含有限个
+$n_\alpha$ 的二项式多项式，故也逐系数趋于 $F(v)^\nu$。
+$\mathcal O_L$ 的闭性遂给
+$$
+ \boxed{\quad
+ V_\beta(v):=\frac{F([\beta]v)}{F(v)^\nu}
+        \in1+v\mathcal O_L[[v]],\qquad
+ F([\beta]v)=V_\beta(v)F(v)^\nu.
+ \quad}
+ \tag{G35}
+$$
+这里仍先是特征零形式恒等式。
+它没有把 $\beta$ 认作全局椭圆曲线同源。
+整单位 $V_\beta$ 及其逆在所有严格 $R<1$ 形式盘上解析，
+与(G33)的 log/exp 构造是两种不同的论证。
+本段甚至不需要对 $V_\beta$ 取非整数幂；若以后对普通
+$1+v\mathcal O_L[[v]]$ 取 $\mathbf Z_p$ 幂，应使用整
+binomial 级数，而不是无条件套用指数收敛界。
+
+### 9.3 全部 Gaussian 的实际比值
+
+指定 $\bar\beta\in\mathbf F_{p^2}^\times$，满足
+$\bar\beta^{p+1}=17$，再取该剩余类中唯一的 Hensel 根
+$\beta^d=17$。它存在于同一非分歧 $L$ 中。
+须区分
+$$
+ \beta^d=17,\qquad
+ \nu=\beta\bar\beta\equiv17\pmod p;
+$$
+一般 $\nu\ne17$。所需的是
+$$
+ e:=34-2\nu\in p\mathbf Z_p.
+ \tag{G36}
+$$
+于是 $e/p\in\mathbf Z_p$，恰是(G33)已支付的合法指数。
+
+在严格 $R<R_E$ 内，$z(v)/v$ 及其逆是 norm $1$
+的解析单位，并且 $z\leftrightarrow v$ 在相应盘上等距。
+这是原严格 LT 对数的
+$z=v+v^q/(p^q-p)+\cdots$ 及全部高尾的标准严格盘范围，
+亦见 [R663](R663-original-lubin-tate-residues-and-closed-boundary-equivalence.md)
+的同一坐标。将(G35)--(G36)代入，得到完整公式
+$$
+ \boxed{
+ \begin{aligned}
+ \mathcal R_\beta(z)
+ &:=\frac{\beta^2}{z^{32}}\,
+       \frac{\sigma(z)^{34}}{\sigma(\beta z)^2}\\
+ &=\left(\frac v{z(v)}\right)^{32}
+    \left(\frac{\beta v}{[\beta]v}\right)^2
+    V_\beta(v)^{-2}
+    \exp\!\left(\frac ep\,\mathcal L(v)\right).
+ \end{aligned}}
+ \tag{G37}
+$$
+右侧每个因子及逆均为 norm $1$。
+故 $\mathcal R_\beta$ 及 $\mathcal R_\beta^{-1}$
+确在每个严格 $R<R_E$ 闭盘上为 norm $1$ 解析单位。
+
+这个式子同时保留全部高尾。原首 $z^d$ Gaussian 在左边
+因 $\beta^d=17$ 准确相消；
+第二项的系数 $2a_2(17-17^p)$ 只是同一完整恒等式的一项，
+不被单独用来推函数半径。degree $\Delta$ 的对数项以及
+所有更高项由(G29)--(G33)一并控制。
+本节不声称在边界 $R=R_E$ 为 Tate 元。
+
+因为系数仍在非分歧 $L$，(G37)还给一个具体全系数界。
+若 $\mathcal R_\beta^{\pm1}=\sum_{n\ge0}r_n^\pm z^n$，
+则
+$$
+ \boxed{\qquad
+ v_p(r_n^\pm)\ge-\left\lfloor\frac n\Delta\right\rfloor .
+ \qquad}
+ \tag{G38}
+$$
+这是对所有严格半径取极限，再用整数值群所得，
+不是删除低阶或高阶项后的界。
+
+### 9.4 同一 canonical S 与 Theta2 的完整 physical 返回
+
+还可保原两条实际来源的所有固定有理因子。
+使用 [R1068](R1068-original-b18-katz-inverse-and-hall-coefficients.md)
+中的同一个
+$$
+ S_{34}(z)=\sigma(z)^{34}R_S(z),\qquad
+ R_S=\frac{x^2(X+1)(X-8)(7X^2-4X+16)}7,\quad X=x^3,
+$$
+其首项为 $z^6$；参考是原 $\Theta_2(z)=\sigma(z)^2x(z)$，
+质量为1。记
+$$
+ J_S(v)=v^{28}R_S(v),\qquad J_2(v)=v^2x(v).
+$$
+由实际多项式和同一整形式参数，
+$J_S,J_2\in1+v\mathcal O_L[[v]]$。
+故完整物理比值有
+$$
+ \boxed{
+ \frac{S_{34}(z)}{z^6\Theta_2(\beta z)}
+   =\left(\frac v{z(v)}\right)^6
+      \frac{J_S(v)}{J_2([\beta]v)}
+      V_\beta(v)^{-2}
+      \exp\!\left(\frac ep\,\mathcal L(v)\right).
+ }
+ \tag{G39}
+$$
+它及逆在每个严格 $R<R_E$ 闭盘上同样 norm $1$，
+并有(G38)的系数界。这里没有把
+$S_{34}$ 误作首 $z^2$ 的旧 Fold，也没有改变参考模型或
+删掉原 $R_S$ 多项式。
+
+(G37)--(G39)是原点 formal germs 的实际延拓。
+后续若应用于完整平移字，仍须运输各自原 Miller 中心、
+$Q\mapsto[\beta]Q$ 的标签、线性 exponential 和全部 $\Gamma$。
+即使逐字物理比值已经这样控制，也不能直接将它移出 Hall 总和。
+在权端，原共同 Gaussian 仍按 R1067 §18 的全部 $p-1$
+块算子及 carry 工作；没有把该算子偷换为第0块的乘法单位。
+
+本节全为实际原来源的纸笔证明，无数学执行，
+亦未据此宣称新的 Hall 低赋值或无穷多个 Sha 素数。

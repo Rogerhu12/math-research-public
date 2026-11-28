@@ -424,3 +424,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1067 §18：原共同 Gaussian 的全部权块返回
 
 [R1067](../results/R1067-original-first-wild-rubin-even-multiplicity.md)（67）–（72）在原norm-r目标及norm-17r参考上用β^(p+1)=17作准确physical尺度；[β]Q=[b]Q只重标原点集，不冒全局CM同源或Normβ=17。全部p−1权块的真实(p/Π)^m归一、17^ρ(17^(p−1))^t参考费用和carry全保，共同首Gaussian给收敛可逆算子T_γ，尾≥h(p−1−2/(p−1))，换Π的共轭及原0块独立性已证。它在全块中混合，不能在第0块的两个Hall比值里直接约消；尚未证明更大权半径或无穷p非零。
+
+
+### R1062 §9：实际 CM 比较与完整 physical 比值
+
+[R1062](../results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G34）–（G39）从原j-zero、同微分的真正prime-to-p CM除法恒等式出发，保准周期和半特征，以α≡1mod2逼近指定β，证明F([β]v)/F(v)^(Normβ)为整单位。β^(p+1)=17而Normβ只需≡17modp；借已付R632/R635原p幂及本坐标的严格log界，全部sigma高尾和原S34/Theta2有理因子给归一physical比值及逆在每个严格R<R_E盘norm1、全系数v≥−floor(n/Δ)。p次幂半径明确复用，不计新结论；不声称闭边界、两个sigma各自收敛或Hall权比值，下一运输原中心/linear/Γ与全权块读者。
