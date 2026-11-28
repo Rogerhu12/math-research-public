@@ -134,4 +134,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 容量与持续求解
 
-[ret67](computations/legacy-preparation-descriptions-retention-67-complete-delivery.json)11旧描述净277163B，4完整canonical/35全资源/精确原字恢复及失败保；[ret66](computations/legacy-large-generated-adapters-retention-66-complete-delivery.json)净570499B、[ret65](computations/legacy-generated-adapters-retention-65-complete-delivery.json)净2022421B；完整源参/失败/输入恢复/旧reader先恢复责任均保，旧全账见固定open。活输入/唯一状态/未闭来源不删。README未完成；时长、阶段、失败及输入困难非终点；新raw仅runner，继续真正求解。
+[ret68](computations/legacy-exact-derived-reports-retention-68-complete-delivery.json)五旧派生净272344B；全源参/74输入/原未付及R96六未刊边界保。[ret67](computations/legacy-preparation-descriptions-retention-67-complete-delivery.json)11旧描述净277163B，4完整canonical/35全资源/精确原字恢复及失败保；[ret66](computations/legacy-large-generated-adapters-retention-66-complete-delivery.json)净570499B、[ret65](computations/legacy-generated-adapters-retention-65-complete-delivery.json)净2022421B；完整源参/失败/输入恢复/旧reader先恢复责任均保，旧全账见固定open。活输入/唯一状态/未闭来源不删。README未完成；时长、阶段、失败及输入困难非终点；新raw仅runner，继续真正求解。
