@@ -53,7 +53,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R779/R782/R783完整已闭范围](results/INDEX-after-R770.md)：各原证明/源/条件原字保留，微幅下降、角解析夹持、四扇几何不冒全题完成。
 
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：初46182255429真实J幂错误exit1/零stage全保；最小修复后46182901571/PID2804于19:46:47Z真实启动，24输入ROOT全核，7粗已返，三族18stage/三末网原预算继续。
-<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 3b27d7fd109104755bd1cbba1e000a1119bec652
 
 [49/R774已闭完整结果及R784–786全部原证明](results/INDEX-after-R770.md)：所有原报告、点/源参/预算/真pull和范围未减；旧导航完整保[7e975前态](https://github.com/Rogerhu12/math-research-public/blob/7e9758e066a242d9d362cac388969c9941d68017/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
@@ -67,3 +66,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。
 <!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull e95d8a493a83ace47f468cab0ea678b59b3af61c
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 42607a4a31904286b41f54e49b72023285d512a7
+<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 910e570ce0b8690fa5665af69801172a92d2af7c
