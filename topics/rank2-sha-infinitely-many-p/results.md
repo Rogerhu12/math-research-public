@@ -468,3 +468,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §30：三整差商与完整原 Hecke 基的准确配对
 
 已证明：对目标和参考统一给(N₀^p,B^p,C^p)与U₀/U₁/U₂的完整带单位配对；原低两项准确对应杀前两基，参考首列非零，联合中央坏等价两真泛函同时杀整个三维空间。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §93：原全野层第二种积分及固定线联络曲率
+
+已证明：原全野挠值等于全部剩余盘上的第二种积分；固定倒数点的模p值准确等于原G格，且它是同一固定线联络的p曲率；普通分裂位由真实Kπ给全部点，包括p主分量。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

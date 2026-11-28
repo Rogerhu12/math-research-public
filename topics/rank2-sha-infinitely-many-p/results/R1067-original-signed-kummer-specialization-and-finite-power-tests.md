@@ -1481,3 +1481,54 @@ $$
 其两椭圆投影与本节相同。
 本节原标记的非挠性已有上述独立证明，
 且七进实际首格已逐项保留修正系数 $5$。
+
+## 93. 原全野挠层的第二种积分及倒数点格的固定线联络
+
+以下延续 §§74、84、86、90 的物理规范；$X(T)$ 为原代数完成 $\zeta$ 值，$\omega=dx/(2y)$，$D=\omega^{-1}d$。取
+$R(P,Q)=(y(P)-y(Q))/(x(P)-x(Q))$，先在一般位置写式，其余按亚纯延拓。
+
+令 $Y_0(s)$ 为先作形式合成的 $\zeta(\ell(s))$。由 §90，
+$Y_0=\mu\ell(s^p)/p+\mu Z(s)$，其中 $Z$ 除原点首极外系数全整，$\ell$ 在 $|s|<1$ 收敛。因此 $Y_0$ 在整个形式开盘亚纯，只有原点的一个简单极。对任意阶素于 $p$ 的挠点 $T\ne O$ 的剩余盘定义
+$$
+ Y_p(T+S)=X(T)+Y_0(s(S))+R(T,S). \tag{BI1}
+$$
+在 $S=O$，$Y_0$ 与 $R$ 的首极相消，取值 $X(T)$；其它分式奇点按可去奇点延拓。超奇异特殊纤维的每个几何点均有素于 $p$ 的有限阶，故有唯一同阶驯挠提升。(BI1)连同原盘 $Y_0$ 定义全部剩余盘上的局部解析值；此处不声称这是整个 proper 曲线上的单一刚性亚纯函数。必须区分形式合成后延拓的 $Y_0(s)$ 与先在一个点取 $\ell(s)$ 后代入原 $\zeta$；后者在非零形式挠点亦会先得到零，不能用于本式。
+
+原 $\zeta$ 加法定理在形式幂级数和收敛盘内给出
+$Y(P+Q)=Y(P)+Y(Q)+R(P,Q)$。跨剩余盘时用驯挠点的同一 $X(T+T')$ 公式及 $R$ 的二余循环恒等式。若 $T'=-T$，先平移一个一般辅助驯点避开极点，再用结合律消去。对非零形式 $p$ 幂挠点 $S$ 取 $m>1$、$m\equiv1\bmod\operatorname{ord}S$，形式乘法式
+$Y_0([m]S)-mY_0(S)=K_m(S)$ 给
+$Y_0(S)=K_m(S)/(1-m)=X(S)$，其中 $K_m=m^{-1}D\log\psi_m$。这是特征零等式，分母含 $p$ 也须完整保留。故(BI1)在 §74 每个原 $P_{t,w}$ 上准确等于 $X(P_{t,w})$，保留 $cP$、全部野层 $w$ 及全部驯权。
+
+对固定代数点 $A$，在坐标未分歧、约化非 $O$ 的超奇异好位，写 $A=T+S$，则 $s(S)\in p\mathcal O$。$Y_0(s)+R(T,S)$ 的常数为零；去掉首极后的有理部分系数整，而 §90 的其余项 $\ell(s^p)/p$ 在此小盘属 $p\mathcal O$。所以
+$$
+ Y_p(A)\bmod p=X(T)\bmod p=G(\bar A)^{1/p}. \tag{BI2}
+$$
+
+这一格也是固定代数线联络的 $p$ 曲率。对 $A=P^\vee$，在 $E_1-\{O,A\}$ 置
+$\theta_A=-R(Z,-A)\omega$、$\nabla_A=d-\theta_A$。其对数极点留数为整数，模 $p$ 与 $\theta_T$ 相同；§86 给
+$\mathcal C((X(T)-R(Z,-T))\omega)=(X(T)-R(Z,-T))\omega$。
+在原惰性位 $\mathcal C\omega=0$，于是
+$$
+ \mathcal C\theta_A-\theta_A=G(\bar A)^{1/p}\omega,\qquad
+ \boxed{\ \psi_{\nabla_A}(D)=G(\bar A)\ }. \tag{BI3}
+$$
+符号可直接检验：$(D-u)^p=D^p-u^p-D^{p-1}u$，且
+$(\mathcal C\theta(D))^p=\theta(D^p)-D^{p-1}(\theta(D))$；
+对 $\nabla=d-\theta$，$p$ 曲率正是
+$(\mathcal C\theta(D))^p-\theta(D)^p$。
+
+在每个普通分裂好素数处，取原 $E_1$ 的 CM Frobenius $\pi$，使 $[\pi]$ 在所选位约化为 $p$ 次坐标 Frobenius，$a_p\equiv\bar\pi\bmod\pi$。对所有 $\bar A\ne O$ 有
+$$
+ \psi_{\nabla_A}(D)=\overline{K_\pi}(\bar A). \tag{BI4}
+$$
+证明如下。$\mathcal C\theta_A-\theta_A$ 的简单留数相消，故全纯；沿 $D$ 取 $p$ 次幂后所得系数是 $\bar A$ 的有理函数，这也由有限次代数导子的定义可见。先取所有阶素于 $p$ 的挠点 $T$。固定其阶后选
+$m\equiv1\bmod\operatorname{ord}T$ 且 $m\not\equiv0,1\bmod p$，则
+$X(T)=K_m(T)/(1-m)$ 整，且与剩余 Frobenius 交换。因
+$\mathcal C\omega=a_p\omega$，
+$$
+ \psi(D)=X(T)^p-a_pX(T)
+ \equiv X(\pi T)-\bar\pi X(T)=K_\pi(T).
+$$
+这些剩余点 Zariski 稠密。$K_\pi$ 在特殊纤维泛点的赋值非负，否则可取一个不属于其首非零约化零集的驯挠点，与上述整性矛盾。其水平极只在 $E[\pi]$，全部约化至 $O$，所以约化正则于 $E-\{O\}$。有理函数恒等遂给(BI4)，包括 $\bar A$ 有非平凡 $p$ 主分量的情况；没有在模 $p$ 下除以这种点的阶。
+
+这里只识别原全层积分和固定单点曲率。未由(BI2)推出非零约化，也未把单点曲率替换原完整四槽中央。
