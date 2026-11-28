@@ -53,3 +53,7 @@ R716完整证明与独立recovered消费者已发表；共结真二jet、真实S
 ## 2026-11-28 15:55:44 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R728 原literal适配
 
 首run46162054661自然failure全账见独立记录；没有原场/J/试步。保完整39163B/SHA/结构与二进制身份，修复JSON首键假设，并在行政步即保已验证literal。数学设计/全部门不变，立刻以重绑请求继续。
+
+## 2026-11-28 16:01:53 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R695-terminal
+
+登记 R695 已自然结束的实际参数身份、全部继承费用、真实几何读数和未完状态，详见 notes/2026-11-28-r695-paid321-and-inflight118-natural-terminal.md。累计321仍未根；第118真实方向未接纳，全部费用保留。 本次仅已完成日志解析，无新科学。
