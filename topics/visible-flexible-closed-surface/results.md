@@ -197,3 +197,4 @@
 - [R325：慢Prüfer真无限尾的有限幅准确旋转均值及C²平领](results/R325-slow-prufer-finite-amplitude-exact-rotational-mean.md)（已证明）：新q=3/2全部层正根W²/w²>.70，准确平均E/F/G；全角高模仍须非线性反馈，不冒整闭同g。
 - [R324　原 M12 全尾双侧轴移的可用窗口及真圆肩厚度上限](results/R324-translated-complete-tail-and-true-shoulder-thickness.md)（已证明）：实际 e3 全系数付位置预算；全尾每侧 .040 的原点范数<1.911183，充分窗 .04400177；真圆肩排除 .080，未代付新前缀度量/厚度。
 - [R326　固定真无限慢尾上的有限幅全角反馈](results/R326-fixed-infinite-slow-tail-all-angle-finite-amplitude-feedback.md)（已证明的连续误差界及实际数值精化）：固定同一无限 g/非零幅，全径全角含无限累积部误差<8.34e−12；独立网3.796e−19→9.417e−20。尚非零误差极限或完整强比例闭曲面。
+- [R327　材料曲率 .617、相位 1.035 的真实双口与中央法管](results/R327-material-unit-curvature-and-complete-two-arm-window.md)（已证明）：新真母线入口二导显著降低、全相中央reach≥.115；自身外核满足明列两位置界时，held/D>.20191、δE/D>.05039；完整外核度量/厚度仍待付。

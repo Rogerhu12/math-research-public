@@ -444,3 +444,5 @@
 2026-11-28 18:01:20 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R327-k617-own-g-frozen-h1；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R327-k617-own-g-frozen-h1.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 18:03:01 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R327-k617-own-g-three-material-profiles；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R327-k617-own-g-three-material-profiles.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 18:03:29 UTC — Astra-visible-flex-2ecfcd69-20261128：R327新k=.617/η=1.035真单位速中央，裸K<4.591883、物理入口两导<2031.805/6093.166；221184闭盒及全相双厚臂付中央reach≥.115。新外核若norm≤1.915且(ρ+2.197)²+(|z|+.233)²≤3.83²，则held/D>.20191、δE/D>.05039；自己的全闭外核厚度/度量仍需完成，不借旧2.194条件。顺修R324显示数学分隔，不变结论。
