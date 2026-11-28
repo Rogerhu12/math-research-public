@@ -1,0 +1,483 @@
+{
+  "schema": "isp-entire-gamma-native-five-quadratic-original-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "source": {
+    "basename": "2026-11-28-unit211-W-gamma-native-five-quadratic-original-two-constants-8542.py",
+    "blob": "93cbfafe052a5961e5b5e297081aeb5acff57178",
+    "bytes": 10726,
+    "sha256": "508690f4d98bf6e4993316999bab0d6d3b9a19ca81bcd7e81939f663b9c3e1fe",
+    "commit": "7bf3f16bc523bca10b395570a1bb632916b8966c"
+  },
+  "execution": {
+    "job_id": "140890939469",
+    "elapsed_seconds": 16.373311528000016,
+    "max_child_rss_kib": 106000,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "ba9c766f01c2b90166a7f5c0b86c058e490f4a89",
+        "before": "7bf3f16bc523bca10b395570a1bb632916b8966c",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T06:23:18.593278+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46116343901",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7bf3f16bc523bca10b395570a1bb632916b8966c",
+    "source_exit_code": 0,
+    "source_git_blob": "93cbfafe052a5961e5b5e297081aeb5acff57178",
+    "source_sha256": "508690f4d98bf6e4993316999bab0d6d3b9a19ca81bcd7e81939f663b9c3e1fe",
+    "stdout_bytes": 8710,
+    "stdout_sha256": "ba13a1a8d40820ad2831ef08913b9b23fd738b690dc506628f7c8f434900b971",
+    "stop_reason": null
+  },
+  "scope": {
+    "exactOriginalI6FiveQuadraticEquality": true,
+    "noIndividualFHeadInverted": true,
+    "allUnpaidZeroFibersPreserved": true,
+    "twoNecessaryParameterScalars": true,
+    "wholeGammaExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "math": [
+    {
+      "stage": "new_gamma_native_original_Gram_context_identification",
+      "explicitEightToFourVariableContextEmbedding": true,
+      "allSameOriginalWeightsFMeanLambdaTAndGramReturned": true,
+      "actualNativeQuadraticAndCubicRuleHeadsPaid": true,
+      "noOldEighteenMultiplicationsOrCofactorTailExecuted": true,
+      "noMonicF2OrNineLiftScalarReplayed": true,
+      "seconds": 4.217599675999992
+    },
+    {
+      "stage": "new_gamma_true_native_quadratic_original_pullback",
+      "name": "NS",
+      "originalCubicIndex": 4,
+      "nativeTotalGeometricDegreeAtMostTwo": true,
+      "exactOriginalIdentity": "Qnative=original_cubic+sum(mean_tag_j*Qj)",
+      "originalCubicCoefficientIsOne": true,
+      "allThreeMeanSourceProductsReturned": true,
+      "sameOriginalFQuadraticProfile": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          39,
+          44,
+          4,
+          2
+        ],
+        "totalDegree": 68,
+        "terms": 17729,
+        "bytes": 583787,
+        "sha256": "2292d8390218f9abeecf0fa8b825528ab9d1aecd4a761fcf8de87376ba544530"
+      },
+      "denominator": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          32,
+          41,
+          2,
+          0
+        ],
+        "totalDegree": 62,
+        "terms": 2784,
+        "bytes": 83065,
+        "sha256": "eaeeefed5ee1cf6b3783b41d0b27664b3c6b95bf61df1f807838982991873a37"
+      },
+      "noIndividualFHeadInverted": true,
+      "noNewParameterOpen": true,
+      "seconds": 7.483045443000009
+    },
+    {
+      "stage": "new_gamma_true_native_quadratic_original_pullback",
+      "name": "PS",
+      "originalCubicIndex": 5,
+      "nativeTotalGeometricDegreeAtMostTwo": true,
+      "exactOriginalIdentity": "Qnative=original_cubic+sum(mean_tag_j*Qj)",
+      "originalCubicCoefficientIsOne": true,
+      "allThreeMeanSourceProductsReturned": true,
+      "sameOriginalFQuadraticProfile": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          39,
+          44,
+          4,
+          2
+        ],
+        "totalDegree": 68,
+        "terms": 17715,
+        "bytes": 581277,
+        "sha256": "4ddab9ceb55b8cade24b2dd6a09dc3b927e9a2ea3856a5db249efb93651be7d6"
+      },
+      "denominator": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          32,
+          41,
+          2,
+          0
+        ],
+        "totalDegree": 62,
+        "terms": 2784,
+        "bytes": 83065,
+        "sha256": "eaeeefed5ee1cf6b3783b41d0b27664b3c6b95bf61df1f807838982991873a37"
+      },
+      "noIndividualFHeadInverted": true,
+      "noNewParameterOpen": true,
+      "seconds": 10.708841395999997
+    },
+    {
+      "stage": "new_gamma_exact_five_quadratic_original_primitive_row",
+      "index": 0,
+      "name": "EW",
+      "originalProfile": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          16,
+          13,
+          4,
+          2
+        ],
+        "totalDegree": 26,
+        "terms": 2001,
+        "bytes": 40152,
+        "sha256": "faec482a0a75b81e1f406769b1d749b7008dd258d9bfa80844ae4af6e6ff6a11"
+      },
+      "onlyPaidParameterContentRemoved": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "completeOriginalUnitScalingReturned": true,
+      "seconds": 10.72651100600001
+    },
+    {
+      "stage": "new_gamma_exact_five_quadratic_original_primitive_row",
+      "index": 1,
+      "name": "EBo",
+      "originalProfile": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          17,
+          15,
+          4,
+          2
+        ],
+        "totalDegree": 29,
+        "terms": 2550,
+        "bytes": 52830,
+        "sha256": "93cdd5fde1827378234d6ed89bc83cfc26215dec8912cec86dc832a305f04339"
+      },
+      "onlyPaidParameterContentRemoved": [
+        [
+          "e",
+          1
+        ]
+      ],
+      "completeOriginalUnitScalingReturned": true,
+      "seconds": 10.74877082399999
+    },
+    {
+      "stage": "new_gamma_exact_five_quadratic_original_primitive_row",
+      "index": 2,
+      "name": "N1",
+      "originalProfile": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          19,
+          17,
+          4,
+          2
+        ],
+        "totalDegree": 32,
+        "terms": 3060,
+        "bytes": 66694,
+        "sha256": "9b41f77b2f86290b660f079d9c31204de004f789b97ae7072cf08c887745d32b"
+      },
+      "onlyPaidParameterContentRemoved": [
+        [
+          "e",
+          2
+        ]
+      ],
+      "completeOriginalUnitScalingReturned": true,
+      "seconds": 10.774705377999993
+    },
+    {
+      "stage": "new_gamma_exact_five_quadratic_original_primitive_row",
+      "index": 3,
+      "name": "nativeNS",
+      "originalProfile": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          39,
+          44,
+          4,
+          2
+        ],
+        "totalDegree": 68,
+        "terms": 17729,
+        "bytes": 590746,
+        "sha256": "004e9bb57b7928b8b5765ccdb59eb8aa6ec44c0cef56c842993f53d218b14f1d"
+      },
+      "onlyPaidParameterContentRemoved": [],
+      "completeOriginalUnitScalingReturned": true,
+      "seconds": 11.074999517000009
+    },
+    {
+      "stage": "new_gamma_exact_five_quadratic_original_primitive_row",
+      "index": 4,
+      "name": "nativePS",
+      "originalProfile": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          39,
+          44,
+          4,
+          2
+        ],
+        "totalDegree": 68,
+        "terms": 17715,
+        "bytes": 588009,
+        "sha256": "7e8b9b3badf5a1286b1a177fd77ea24724f38996a9c81ca6b6818285eec16afc"
+      },
+      "onlyPaidParameterContentRemoved": [],
+      "completeOriginalUnitScalingReturned": true,
+      "seconds": 11.369543066999995
+    },
+    {
+      "stage": "new_entire_gamma_exact_original_five_quadratic_system",
+      "rows": 5,
+      "columns": [
+        "1",
+        "f",
+        "f^2"
+      ],
+      "exactOriginalI6Equality": true,
+      "allUnpaidParameterAndHeadZeroFibersKept": true,
+      "noF2HeadInverse": true,
+      "noFrozenTenByTwoComputed": true,
+      "actualFAndSRowDegrees": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "seconds": 14.329351688000003
+    },
+    {
+      "stage": "new_gamma_native_quadratic_fixed_original_constant",
+      "rows": [
+        0,
+        1,
+        3
+      ],
+      "commonMultiplier": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          7,
+          6,
+          1,
+          0
+        ],
+        "totalDegree": 11,
+        "terms": 72,
+        "bytes": 1277,
+        "sha256": "17b614f3d6bcbfa279a2cfb0b7e4059da1ba525b5ea6b3bc49c5c6e1969c3b13"
+      },
+      "originalScalar": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          61,
+          64,
+          8,
+          0
+        ],
+        "totalDegree": 105,
+        "terms": 23161,
+        "bytes": 937363,
+        "sha256": "660a54c0ebcc98309d18ba6277dac095031671149235669063560663d207ca30"
+      },
+      "necessaryPrimitive": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          45,
+          49,
+          6,
+          0
+        ],
+        "totalDegree": 78,
+        "terms": 10623,
+        "bytes": 376216,
+        "sha256": "bdf2996192cafb3203b245484067f39c3b467098f0058feac239ae3b7dda25de"
+      },
+      "onlyPaidParameterRemoval": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          1
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "Q_minus_one",
+          1
+        ],
+        [
+          "Vbar",
+          1
+        ],
+        [
+          "M",
+          1
+        ],
+        [
+          "whole_H_old",
+          1
+        ],
+        [
+          "whole_ell_zero",
+          1
+        ],
+        [
+          "gamma_current_chart",
+          2
+        ]
+      ],
+      "completeThreeColumnAndOriginalPolynomialProductsReturned": true,
+      "allActualMultiplierCommonFactorZeroFibersPreserved": true,
+      "seconds": 15.320892006999998
+    },
+    {
+      "stage": "new_gamma_native_quadratic_fixed_original_constant",
+      "rows": [
+        0,
+        1,
+        4
+      ],
+      "commonMultiplier": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          7,
+          6,
+          1,
+          0
+        ],
+        "totalDegree": 11,
+        "terms": 72,
+        "bytes": 1277,
+        "sha256": "17b614f3d6bcbfa279a2cfb0b7e4059da1ba525b5ea6b3bc49c5c6e1969c3b13"
+      },
+      "originalScalar": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          61,
+          64,
+          8,
+          0
+        ],
+        "totalDegree": 105,
+        "terms": 23152,
+        "bytes": 933752,
+        "sha256": "61538af02a6bb7032ef7143893b27d2bf6db0297c25a9a9b231ae8f5b63561f9"
+      },
+      "necessaryPrimitive": {
+        "zero": false,
+        "degrees_e_k_s_f": [
+          45,
+          49,
+          6,
+          0
+        ],
+        "totalDegree": 78,
+        "terms": 10616,
+        "bytes": 374388,
+        "sha256": "66240c45570eb2c0a9b542ad21ee558d169f62cab2b2b9a72005484905b9a0b8"
+      },
+      "onlyPaidParameterRemoval": [
+        [
+          "e",
+          1
+        ],
+        [
+          "k",
+          1
+        ],
+        [
+          "u",
+          2
+        ],
+        [
+          "Q_minus_one",
+          1
+        ],
+        [
+          "Vbar",
+          1
+        ],
+        [
+          "M",
+          1
+        ],
+        [
+          "whole_H_old",
+          1
+        ],
+        [
+          "whole_ell_zero",
+          1
+        ],
+        [
+          "gamma_current_chart",
+          2
+        ]
+      ],
+      "completeThreeColumnAndOriginalPolynomialProductsReturned": true,
+      "allActualMultiplierCommonFactorZeroFibersPreserved": true,
+      "seconds": 16.319845359999988
+    },
+    {
+      "stage": "new_gamma_native_five_quadratic_two_scalars_finished",
+      "sourceSHA256": "508690f4d98bf6e4993316999bab0d6d3b9a19ca81bcd7e81939f663b9c3e1fe",
+      "exactOriginalI6FiveQuadraticEquality": true,
+      "actualPolynomialDivisionProducts": 6,
+      "actualOriginalIdentityProducts": 53,
+      "nativeDefinitionProductsAlreadyReturned": true,
+      "newNecessaryNonzeroScalars": 2,
+      "wholeGammaExcluded": false,
+      "noOldCompletedScalarOrFrozenDeterminantReplayed": true,
+      "noCoefficientOrMatrixCacheSaved": true,
+      "peakRSSKiB": 106000,
+      "ordinaryISPClaim": false,
+      "seconds": 16.320007032999996
+    }
+  ]
+}
