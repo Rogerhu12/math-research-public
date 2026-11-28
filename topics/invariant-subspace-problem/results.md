@@ -28,6 +28,8 @@
 
 ## 新增结论
 
+- [R150：W/b0 正e、k首值−2中心的正ell排除与整位移](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-positive-ell-exclusion-and-integral-center.md)：原b0/q2/R6完整覆盖λ所有估值，vℓ>0迫D/K同阶2vℓ但R6项阶4vℓ/6vℓ不合；得到v(k+2)≥ve。Z=(k+2)/e真整，余ell单位/极点未闭。独立纸证无新执行。
+
 - [R150：W/b0 整个负k射线的原q2/R6/完整N5排除](results/R150-appendix-unit211-W-b0-entire-negative-k-ray-original-q2-R6-N5-exclusion.md)：u非零的整μ和全部pole、u0的所有u+2/k首项相消均覆盖；U1/2 pole由N5首值−1，u0两中心由唯一极项/301非零排除。纸证无新执行，当前仅余三条权ray及内部/分母DVR边界。
 
 - [R150：正确Phi全权原首一t²、精确十列及第二NV头自由四元环境](results/R150-appendix-unit211-Phi-zero-corrected-whole-monic-t-quadratic-exact-ten-columns-and-four-generator-NV-head.md)：两真均值二次头在旧系数环上显示Bézout1，γO本身旧单位；原三mean与I6精确理想等式/四列和十列来源完整。第二NV头再叠原首一σ2，保全部重根和原剩余条件；纸证无新执行或排空。

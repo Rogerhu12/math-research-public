@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-first-W-positive-e-k-four-jets-2090-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-positive-e-k-minus-two-integrality-2095-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088与U0另3保。负e、正k整ray已闭；新[负k整ray原q2/R6/N5排除](results/R150-appendix-unit211-W-b0-entire-negative-k-ray-original-q2-R6-N5-exclusion.md)涵盖u非零整μ/全部极点，以及u0通过β=(u+2/k)/N保全部相消。余U1/2极点被N5首值−1排；u0的两个缩放中心分别有唯一极项与301矛盾。仅余(-1,1),(1,−1),(1,0)及(0,0)内部，所有已付分母的DVR边界仍开。正e已知k首值≠−2则λ非零且vλ≤0，极点仅k首值−2/4；单位λ与深中心继续。新[正e k4极点原局部输入](notes/2026-11-28-unit211-W-positive-e-k-four-pole-three-original-local-jets-8542-input.md)只计算完整q2/R6/N5四阶式，120秒/1GiB首次待返，不把截断当完整原方程。旧83e/695实际边界不改，未给整W原空性。
+W旧闭支/≤616824、b0≤23088与U0另3保。负e/正k/负k整ray已闭；仅余(-1,1),(1,−1),(1,0)与内部/已付分母DVR边界。新[正e k−2正ell排除与整位移](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-positive-ell-exclusion-and-integral-center.md)：完整原q2先排λpole，再迫D/ell²首值−4λbar²/9、K/ell²首值−λbar，R6阶4d/6d冲突；故v(k+2)≥ve，余Z=(k+2)/e整且ell单位或极点。k首值≠−2旧λ限制保；k4pole新三个完整原四阶式run46169312729真0.346877190秒/42804KiB/0全返，正在原切锥核，尚不计整射线关闭。旧执行边界不改，整W空性继续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
