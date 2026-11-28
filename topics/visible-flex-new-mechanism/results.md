@@ -479,3 +479,7 @@
 - [97q真实83b0与原369库继续](notes/2026-11-28-r582-actual83b0-original369-continuation.md)：保16256原fine与原四pending，6新中点须新资格；仅更新真实输入与完整成本，原求解/阶段门保持。
 
 - [B030 cc117→真实d59fa与剩余8635峰](notes/2026-11-28-r566-native-cc117-natural-terminal.md)：6接受、峰后η.1966187824；末309b8 trial只闭4465/13100，保持pending/准确g/restoration H并只补余项。数值观察，未完成。
+
+## R628：同一全平正背景的二、三双核与非零二阶端口
+
+[完整证明](results/R628-double-flat-kernel-and-nonzero-second-order-port.md)：同一真实尾对有限角模的稳定线、中心准确双谱与非退化调参、有限高层及平滑后的准确双核，以及完整二阶第一模倾斜β≠0。两帽都是真全平端；未授有限非线性等距环带或宏观几何，继续三矩兼容和双共振联合解。
