@@ -1,0 +1,142 @@
+{
+  "record_kind": "actual_R87_finite_parameter_solver_method_handoff",
+  "classification": "engineering_observation_not_mathematical_failure",
+  "original_command_record": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8-command.json",
+  "original_command_record_sha256": "90fd46334accdc31e701e1c0b2800f888ec656132f4f453a03ea35620948fde1",
+  "original_tolerance": 2e-07,
+  "original_stage_moved_from_765_to_812_before_handoff": true,
+  "original_actual_accepted_Newton_steps_at_765": [
+    {
+      "local_iteration": 0,
+      "alpha": 0.0001220703125
+    },
+    {
+      "local_iteration": 1,
+      "alpha": 7.62939453125e-06
+    }
+  ],
+  "whole_BVP_accepted": false,
+  "raw_or_audit_return_observed": false,
+  "original_arrays_and_all_immutable_checkpoints_preserved": true,
+  "actual_handoff_before_stop": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/handoff-before-stop.json",
+  "actual_handoff_before_stop_sha256": "4dc69ddef27cf0753d86ef4145605b99376848afe8a50d7da8cc0ab020326259",
+  "actual_run_snapshot": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/actual-run-before-interruption.json",
+  "actual_run_snapshot_sha256": "ba9e7b62fa7e858b78f6269e53042c3c24971292e39bb2a4e76f4502c0a4294a",
+  "preferred_unaccepted_restart": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/unaccepted-nodal-before-jac-0010.npz",
+  "preferred_unaccepted_restart_sha256": "a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861",
+  "preferred_shape": {
+    "nodes": 812,
+    "state_components": 25,
+    "parameters": 8,
+    "parameter_scales": 7
+  },
+  "checkpoints": [
+    {
+      "pointer": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8/latest-unaccepted-nodal-checkpoint.json",
+      "pointer_sha256": "82b53d71cc768ff97e56ed28289fa029a8f91c225085c320c69e9cf74ee10a33",
+      "raw": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8/unaccepted-nodal-before-jac-0010.npz",
+      "raw_sha256": "a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861",
+      "saved_raw": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/unaccepted-nodal-before-jac-0010.npz",
+      "metadata": {
+        "kind": "unaccepted_complete_nodal_restart",
+        "file": "unaccepted-nodal-before-jac-0010.npz",
+        "sha256": "a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861",
+        "nodes": 812,
+        "state_components": 25,
+        "parameters": 8,
+        "mesh_min_spacing": 3.472222222217214e-05,
+        "before_full_J_assembly": true,
+        "accepted_bvp": false,
+        "original_source_hashes": {
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v5.py": "03694026b0e650ade871b0d5ca4863f8f10375d63d39184ee76f6b40673fcf50",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/nodal_jac_checkpoint.py": "dce571f51710714c61b2d0c4513ffe6619b72318d07a5976c0090dd75deaf32f",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v4.py": "97110df100af6f411821861e6c8e53a7e05a1a38e61e128010b8405079d1dfba",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-lambda0-seed-20261128/initial.npz": "f368c3ad25af89f7ed518f3d81473be08ddcec888463ae2eff4a2bffb8f3116b",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json": "c11495a40741c25b8272d4e0f07af952d67e92452fa003eee35a2f7f62264b35",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json": "bf3233a3d686a8b04be011cd857477e5ec49bd8200be3aaa5b36fa3ffc1546fb",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-port8-20261128/port.json": "2936d369ab1f97d792cf2552d05307c3eadff24d5d82f748797a9cd55ded4575"
+        },
+        "checkpoint_ordinal": 10
+      }
+    },
+    {
+      "pointer": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8/latest-unaccepted-newton-nodal.json",
+      "pointer_sha256": "a7937c55a0bbe56b7ea1a40224db191b9db0e1d1921eeda1c4b46af9052823b5",
+      "raw": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8/unaccepted-nodal-after-newton-call0005-step0001.npz",
+      "raw_sha256": "e13909bf4981deae02e0024de06e58c3923f37815cb704085e63ce7257ee01c1",
+      "saved_raw": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/unaccepted-nodal-after-newton-call0005-step0001.npz",
+      "metadata": {
+        "kind": "unaccepted_complete_nodal_restart",
+        "file": "unaccepted-nodal-after-newton-call0005-step0001.npz",
+        "sha256": "e13909bf4981deae02e0024de06e58c3923f37815cb704085e63ce7257ee01c1",
+        "nodes": 765,
+        "state_components": 25,
+        "parameters": 8,
+        "checkpoint_ordinal": 10,
+        "original_Newton_call": 5,
+        "local_Newton_iteration": 1,
+        "local_factor_count": 2,
+        "original_accepted_steps": 10,
+        "alpha": 7.62939453125e-06,
+        "mesh_min_spacing": 5.992472934440718e-05,
+        "original_source_hashes": {
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_chord_checkpoint_driver.py": "a4128e1c8129eb6c66f1ce1af43a663bf13ea188ee43515481c413febdecbc77",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_budget_driver_v2.py": "bb654d72f04cc119633eaed94c8de93ba5935d39ea50a7f03c22c9346e589a47",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/accepted_newton_nodal_checkpoint.py": "11f14d4b105e2043a00180e222f30ee52ab4a8f4b1ff6aaec9920a7c03900755",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-restored-lambda0-seed-20261128/initial.npz": "f368c3ad25af89f7ed518f3d81473be08ddcec888463ae2eff4a2bffb8f3116b",
+          "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+        },
+        "original_Newton_step_accepted": true,
+        "before_full_J_assembly": false,
+        "after_original_accepted_tuple_assignment": true,
+        "raw_RMS_metric_and_physical_BC_still_unpaid": true,
+        "accepted_bvp": false,
+        "immutable_complete_checkpoint_and_atomic_latest_pointer": true,
+        "checkpoint_statistics": {
+          "checkpoints": 9,
+          "seconds": 0.05460108100010075,
+          "original_released_newton_source_sha256": "32e1a54f3f01d079a8fb40281d52cf23481a79389a1130a94f6c403a5a0681ff",
+          "executed_newton_source_sha256": "1a16685370b2cd3432a45066fce6496a1d3430d89ab4b661199bff599c81dd53",
+          "original_bytecode_identity_checked": true,
+          "all_original_arithmetic_statements_retained_in_original_order": true,
+          "extra_RHS_or_Jacobian_calls": 0,
+          "whole_BVP_acceptance_claimed": false
+        }
+      }
+    }
+  ],
+  "original_first_stop_guard": {
+    "signal_sent": false,
+    "reason": "The actual mesh had advanced to 812, so the stale fixed 765-node check refused the control action."
+  },
+  "actual_second_control_input": "TTY Control-C after the complete 812-node hash/shape checks passed",
+  "owned_tool_session": 81483,
+  "actual_tool_joined_exit_code": 1,
+  "afterward_tool_lookup": "Unknown process id 81483",
+  "owned_tool_session_ended": true,
+  "internal_child_returncode": null,
+  "internal_owner_cleanup_observed": false,
+  "internal_child_returncode_or_cleanup_not_reconstructed": true,
+  "observer_latest_remained_last_live_sample": true,
+  "mathematical_failure_inferred": false,
+  "resource_failure_inferred": false,
+  "method_change_reason": "Real seven-node support-parameter diagnostic identified original lambda0 finite-parameter physical perturbations around 2e-14; preserve the same equations and original delta FD while replacing only support columns with exact derivatives.",
+  "next_BVP_started_at_record_time": false,
+  "new_observer_preparation": {
+    "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/observe_owned_original_command_v3.py",
+    "source_sha256": "b1e97f98bd3a67cda169d9d4609b04f608a28daf21e61ddc716ce607731bb436",
+    "compile_exit_code": 0,
+    "help_exit_code": 0,
+    "termination_request_action": "terminate_owned_command",
+    "request_verified_inside_original_owner_loop": true,
+    "existing_owned_session_cleanup_is_called_before_normal_exit_4": true,
+    "owned_cleanup_implementation_changed": false,
+    "production_control_request_executed": false
+  },
+  "complete_surface": false
+}

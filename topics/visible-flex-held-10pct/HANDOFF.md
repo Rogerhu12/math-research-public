@@ -4,7 +4,7 @@
 
 ## 规则和来源
 
-- 最近实际pull后双README已读锚 `361e21f0ce77943a82f3f4ce56cc0a4a8bfd7279`（2026-11-28 18:14 UTC）。
+- 最近实际pull后双README已读锚 `43c2d3b4c98d50648ddb238c1fb346da890137ee`（2026-11-28 18:16 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `ddd3d4ed76e24b23c888e84b60385432a6fcf426`（FETCH_HEAD 2026-11-28 17:51 UTC），相对0e3cbe262双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟18:46 UTC再pull。
 - 每结论pull/核双README差异/推；NFF立即rebase循环成功，不force。根§12不另造审批/独立审查门；§15只源/参数/hash/小标量，所有再生数组留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/参数/时间域连通闭C²嵌入连续族；H内点/直径≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D、全metric≤1e−6、空间/频率/时间精化降到机器或求解容差；多个t小网格及严格存在差距。λ<1非准确圆弧H，换δ/profile/帽不是同g精化。完成后仍继续提高比例。
@@ -17,16 +17,16 @@
 旧视图最高全门接受λ=.128/M24：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。旧raw当前不可读。
 λ=.256的M24/M32/M40都只过BVP/RMS/BC、metric分别8.84140e−5/1.285843882e−6/1.248439224e−6未门；M40真952点/RMS9.69144e−7/mean1936/δ=.06810713649643507。M32→40平台是试更严径向tol的理由，不是误差原因证明。旧M48未有完整接受，89083真exit1原因未知。[M40恢复回执](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)不冒逐字旧JSON。
 
-恢复后70源、chart/port和415×25初猜完成，原SHA核同。严格λ0/M8/tol2e−7原TTY81483由415→656→741→765→812点；765曾接受1/8192、1/131072极小步，后来仍增网，不能称全程停在765。最新812完整未接受raw `a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861`。随后工具Ctrl-C真exit1/再次Unknown process id；内部child码和cleanup没有观测，不补造数学失败或清理成功。18:08:28 UTC已从该812完整状态真启动独立解析support同F求解；实际sidecar确认唯一support安装、原δFD和全部门保留，正在首完整J，尚无新接受。实际命令da8532b0…，旧工具内码仍未知。
+恢复后70源、chart/port和415×25初猜完成，原SHA核同。严格λ0/M8/tol2e−7原TTY81483由415→656→741→765→812点；765曾接受1/8192、1/131072极小步，后来仍增网，不能称全程停在765。最新812完整未接受raw `a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861`。[实际方法交接](notes/2026-11-28-design-r87-lambda0-fd-method-handoff.md)保随后工具Ctrl-C真exit1/再次Unknown process id；内部child码和cleanup没有观测，不补造数学失败或清理成功。18:08:28 UTC已从该812完整状态真启动独立解析support同F求解；实际sidecar确认唯一support安装、原δFD和全部门保留，正在首完整J，尚无新接受。实际命令da8532b0…，旧工具内码仍未知。
 
-[七节点δ诊断](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)：原ordinal9/765点snapshot e13909bf…；首构造器不适用λ0真exit1，v2真exit0。λ0 factory没有参数jet属性，故实际没有V5解析δ安装；原δ完整FD h2e−7对独立解析相对差3.33993e−9，全state/support/RHS逐位同，未接受新场。
-[全支持三jet修复](notes/2026-11-28-analytic-lambda0-support-analytic-repair.md)：原末support尺度1e−9使物理FD步2e−14，真实多列差分噪声显著。原核心固定材料坐标的F/Ft/Ftt参数链式导数完整，接原analytic_adaptive_core_jac保全部state/δFD/RHS/门；72组core三jet真实比较h1e−7最差相对3.97178e−9，低两RHS列强相消/截断误差如实保留，不冒高相对FD核。新 `zero_planar_support_analytic_driver.py` 043bae30…已compile/help并交design，冻结时未跑新BVP。诊断765与后继812角色分开；第二核报告实存但工具终态未恢复，不补造exit。
+[七节点δ诊断](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)：原ordinal9/765点snapshot e13909bf…；首入口真exit1、v2真exit0。λ0 factory没有参数jet属性，故实际没有V5解析δ安装；原δ完整FD h2e−7对独立解析相对差3.33993e−9，全state/support/RHS逐位同，未接受新场。
+[全支持三jet修复](notes/2026-11-28-analytic-lambda0-support-analytic-repair.md)：原末support尺度1e−9使物理FD步2e−14，真实多列差分噪声显著。原核心固定材料坐标的F/Ft/Ftt参数链式导数完整，接原analytic_adaptive_core_jac保全部state/δFD/RHS/门；72组core三jet实核、低两RHS列相消/截断限制原样保留。新 `zero_planar_support_analytic_driver.py` 043bae30…已compile/help并交design，冻结时未跑新BVP。诊断765与后继812角色分开；第二核报告实存但工具终态未恢复，不补造exit。
 
 [正式stage control v2](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)81153bdf…：真stage后nonce/outdir/scope停请求，先完活BVP并同步真锚；.256:32 mode-floor，真同family双锚用原完整两源升模割线，metric-only源仍单源lift。资源/信号工程退出不λ二分。全部原门保持，真锚一到接后继到λ1；原control1 afe8e548…也已保存。
 
 ## 2. 真λ1之后的完整耦合与闭面
 
-[QR完整DN八源](notes/2026-11-28-tail-lambda-one-complete-qr-resource-entry.md)保原native4/chord3/完整H/freshJ/heightJ/audit/8outer和全prefix CSR/QR。新KIND诚实，最终只绑saved physical-H、raw另列、mean取实际，不锁旧1168；八源与恢复前SHA相同，真λ.128负向在native前拒绝。没有正向λ1。
+[QR完整DN八源](notes/2026-11-28-tail-lambda-one-complete-qr-resource-entry.md)保原native4/chord3/完整H/freshJ/heightJ/audit/8outer和全prefix CSR/QR。新KIND诚实，最终只绑saved physical-H、raw另列、mean取实际，不锁旧1168；八源恢复前后SHA同，真λ.128负向在native前拒绝。没有正向λ1。
 [fresh全尾小块入口](notes/2026-11-28-tail-fresh-qr-complete-chunk-geometry-entry.md)从真final-H接原stage0、8段一块、全谱/同global mean/公共两jet/全部merge/index/连续门；不制造旧−9。递归I/O guard真实核同，无新尾。
 [final-H几何/活动矩七源](notes/2026-11-28-tail-qr-finalH-geometry-and-activity-entry.md)保原height primitive/placement、全部span/deep、真实cutwidth、全时4/5、完整活动矩；原15数学块核同。ReA3正负均可排零；含零不通过。未继承旧界或算新阳性。原complete_metric collector可用这些同场实际证书。
 

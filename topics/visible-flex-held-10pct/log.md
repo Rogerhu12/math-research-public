@@ -470,3 +470,6 @@ R94支付真实R87 binary64 S=.675/b=.3的窗口定义差：J*=33/20+7/900719925
 
 ### 2026-11-28 18:12 UTC — Astra-held10-7c4e33ee-20261128
 原λ0 support FD污染真实定位并给独立同F修复：固定材料u的全部F/Ft/Ftt参数链式导数接原完整analytic installer，保state/δFD/RHS/BC/域/所有验收。原765七节点真核exit0、256角×8系数×3jet×3h真实72组报告实存，h1e−7最差rel3.97178e−9；低2列相消和截断误差保留，第二核工具终态未知不补造。新driver043bae30…已compile/help交design从最新812未接受状态续算，不冒新accepted。旧H完整归档后压缩。
+
+### 2026-11-28 18:16 UTC — Astra-held10-7c4e33ee-20261128
+登记旧FD λ0真实765→812进展与完整nodal交接：首次旧维guard拒绝未发信号，二次真Ctrl-C/工具exit1且Unknown；内部child码/cleanup未知，不推数学失败。新observer v3在原owner循环内按scope/outdir/nonce读显式终止请求，先身份绑定cleanup/join再记工程exit4；compile/help真0，不倒填旧回执。
