@@ -1,0 +1,325 @@
+{
+  "kind": "root_complete_H96_P96_APHI_original_validator_admission_no_science_v1",
+  "files": [
+    {
+      "bytes": 12078,
+      "git_blob_sha": "000a5c4333ab04b5b43aa5b6f523e8d87b5ba750",
+      "path": "topics/visible-flex-exact-nearby/notes/strict_nu_phase_ci/run-45915169627-1/actual-strict-nu-phase.json",
+      "role": "APHI_actual",
+      "sha256": "0bedee9032270a0b0a24ed5af57bc7773a8a6f0b8d913e19cdc7593f877a163e"
+    },
+    {
+      "bytes": 32594,
+      "git_blob_sha": "84829a0af88c5d70cacd9826b740d34decb68f8c",
+      "path": "topics/visible-flex-exact-nearby/notes/strict_nu_phase_ci/run-45915169627-1/execution.json",
+      "role": "APHI_execution",
+      "sha256": "368d0048a8d6b5b89c940b5e026f3126f9f732fb09b6b8f2be94afdcf64c1694"
+    },
+    {
+      "bytes": 87800,
+      "git_blob_sha": "af01db9201212dcc36c5a78141a30c07b0fa34b1",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-27-strict-nu-phase-after-45914123725-inputs.json",
+      "role": "APHI_manifest",
+      "sha256": "6ca3b71339e0ece21f10f7474011b9632e47034f5848f0fbb8fc92053c3c0a5e"
+    },
+    {
+      "bytes": 25487,
+      "git_blob_sha": "d6cf64f09aee831c7e6e99ebbfc2beb7de40f34c",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_nu_phase_owner.py",
+      "role": "APHI_source",
+      "sha256": "b3a2ed142a4522afbeb8824aa8a9b19a871c2b38799d7d6dcf2f659ec74ba7ad"
+    },
+    {
+      "bytes": 11306,
+      "git_blob_sha": "8ab949779b21bf0023d64d3e986eacf0d155e6a8",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_nu_phase_public_worker.py",
+      "role": "APHI_validator",
+      "sha256": "32569d72195ed7640bd47d2d6e1690d299e1636fb93365dea4855e28432f0eef"
+    },
+    {
+      "bytes": 31652,
+      "git_blob_sha": "3d29b507b118813cc19d6cd4ed2a9e6b90484da8",
+      "path": "topics/visible-flex-exact-nearby/notes/finite_trial_height_after_728_ci/run-46135898111-1/actual-finite-trial-height.json",
+      "role": "H96_actual",
+      "sha256": "a49119d596956029d4b51179ed0e694878032a92facdab1e8fa083de83dd8fbe"
+    },
+    {
+      "bytes": 43566,
+      "git_blob_sha": "d7646855c7ceba43f5f868683c43f1f81880a462",
+      "path": "topics/visible-flex-exact-nearby/notes/finite_trial_height_after_728_ci/run-46135898111-1/execution.json",
+      "role": "H96_execution",
+      "sha256": "73d78ed9c25dd9fda3ade00d2e4694c2d0e7fadd2bc149a32f0b2cd980cb8699"
+    },
+    {
+      "bytes": 66236,
+      "git_blob_sha": "4b2ee61634a9f063122ce1634ca9177d5d219200",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-28-finite-trial-height-after-728-inputs.json",
+      "role": "H96_manifest",
+      "sha256": "e730fd1e12b72356c88aa7718f8baa4e5e5c083e66a60a6612d71028d281ef69"
+    },
+    {
+      "bytes": 61916,
+      "git_blob_sha": "2e42ce3998c2eda9ef550ad990e84a1d0f67a22b",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-28-finite-trial-height-complete-inputs.json",
+      "role": "H96_original_manifest",
+      "sha256": "60f1e7ca8d83f986d7020e786a0f1ed7dd1958634039c5bdb7c5952a28ea1483"
+    },
+    {
+      "bytes": 13221,
+      "git_blob_sha": "deb76307d67de8d90de52de4f2ef9f5f00f9959a",
+      "path": "topics/visible-flex-exact-nearby/notes/finite_trial_height_ci/run-46123190757-1/actual-finite-trial-height.json",
+      "role": "H96_parent_actual",
+      "sha256": "0f4b60c25adfaa626aa4569c5a5b8db5cc6a6cbb93ffc871e0264255f874b08c"
+    },
+    {
+      "bytes": 571,
+      "git_blob_sha": "7986c67e7b116b659840310115c4d608aaee0cd1",
+      "path": "topics/visible-flex-exact-nearby/notes/finite_trial_height_ci/consumed-target.json",
+      "role": "H96_parent_consumed",
+      "sha256": "15fbc017b39743c559aa9586605cbffea1e6b5bcd894fb491fb574613dfd16ae"
+    },
+    {
+      "bytes": 43464,
+      "git_blob_sha": "eedde8f5655544bc62a5fc5c514858e8fae4214e",
+      "path": "topics/visible-flex-exact-nearby/notes/finite_trial_height_ci/run-46123190757-1/execution.json",
+      "role": "H96_parent_execution",
+      "sha256": "c079f8091a3811d42a5be7971c0390390ed0af57b3afc3767e9b009d7fabcac3"
+    },
+    {
+      "bytes": 2112,
+      "git_blob_sha": "71787717a9a58933f311091d20261a61a7581252",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-20-reviewed-public-CI-rules.json",
+      "role": "H96_parent_rules",
+      "sha256": "26da0165d2a7ec5f968959332c9fd04aae7259059de2b56f41e76b49b61fc051"
+    },
+    {
+      "bytes": 588,
+      "git_blob_sha": "00c5ae8e5a4078ee7fc53dc6fc62135fec47eb8f",
+      "path": "topics/visible-flex-exact-nearby/notes/finite_trial_height_after_728_ci/consumed-target.json",
+      "role": "H96_resume_consumed",
+      "sha256": "eac4c55a027caa2a94821e778ac291b30ddb6205ffa621d581e4f4d3ad0db609"
+    },
+    {
+      "bytes": 6860,
+      "git_blob_sha": "4f53bcdef9110f3d71a82a6193803300405ef38a",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_height_resume_public_worker.py",
+      "role": "H96_resume_worker",
+      "sha256": "735b03dae67f035ca52464e5f4605c5b235479a1bbfedccfa095ff9164193b03"
+    },
+    {
+      "bytes": 10196,
+      "git_blob_sha": "57f3605fa879f8149abc5157fc5e8ec7afe1a0f1",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_height_resume_owner.py",
+      "role": "H96_source",
+      "sha256": "538e9198a2b04fcb75389aefe95422ab6df909be3efbfe4a412f54aeab288981"
+    },
+    {
+      "bytes": 14503,
+      "git_blob_sha": "ade29a2be12b61792938a4b7002bbeeed45c6754",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_height_public_worker.py",
+      "role": "H96_validator",
+      "sha256": "1f98010b06299e843bea939f4a14974aec50b0e0db970edae5b6b836a8e1e8fd"
+    },
+    {
+      "bytes": 15938,
+      "git_blob_sha": "dad9b822d4f5975fce0f1e61c4dac99344e1ffee",
+      "path": "topics/visible-flex-exact-nearby/results/R147-supplement-actual-height-pivot-and-complete-phase-mean-transfer.md",
+      "role": "HP_proof",
+      "sha256": "e0b7da23509342c748a1c1e8533b79c505bc1e4c1d4cf76dad43be79402177ea"
+    },
+    {
+      "bytes": 33896,
+      "git_blob_sha": "6944a086cd26426de683198959a8dad75342b082",
+      "path": "topics/visible-flex-exact-nearby/notes/finite_trial_phase_ci/run-45926971089-1/actual-finite-trial-phase.json",
+      "role": "P96_actual",
+      "sha256": "31a0d69b3fa53ada9ed73284c24fd49266fe9a4ad855ce1bc73548c478009a53"
+    },
+    {
+      "bytes": 29713,
+      "git_blob_sha": "293a5e74c4fd164715500e4184a9626355ee2047",
+      "path": "topics/visible-flex-exact-nearby/notes/finite_trial_phase_ci/run-45926971089-1/execution.json",
+      "role": "P96_execution",
+      "sha256": "e424d4210e5a98f75c185e339f076f23835e30bb5a5b6237583536310a6e13a3"
+    },
+    {
+      "bytes": 91986,
+      "git_blob_sha": "20631a3f17dcb3201efb5e88aaaa3ac42a4b5b22",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-27-finite-trial-phase-complete-inputs.json",
+      "role": "P96_manifest",
+      "sha256": "65ceded1a3b73651df08cb4320911d0c9796798581079c7982a46bca7f2374dd"
+    },
+    {
+      "bytes": 28052,
+      "git_blob_sha": "6c8128dc0961aafe6acbdf6611aef85569db315c",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_phase_owner.py",
+      "role": "P96_source",
+      "sha256": "5c1b87ee3e8cb1d353866e47b8ec07008457fdb7010418dd500886bfb3aae148"
+    },
+    {
+      "bytes": 13848,
+      "git_blob_sha": "22ff7f9b01d407ac84d2eadd556371f6a38ea4fe",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_phase_public_worker.py",
+      "role": "P96_validator",
+      "sha256": "a9b24b7b979d6701428255ffeffcfb67b0aad5a399519cfc2d8e192ade17ec4a"
+    },
+    {
+      "bytes": 12542,
+      "git_blob_sha": "a786174722aaf7cc465366ff474206bb62ac06c9",
+      "path": "topics/visible-flex-exact-nearby/results/R149-supplement-complete-phase-receiver-in-original-negative-source-windows.md",
+      "role": "PRN_proof",
+      "sha256": "976ae69725f086ae61ecce4b3488c40a64363006029f4c6a51da46d42541f942"
+    },
+    {
+      "bytes": 6942,
+      "git_blob_sha": "f14d58a4f16f36163393929dd1ad7bfa0e6db7b5",
+      "path": "topics/visible-flex-exact-nearby/scripts/make_pwa_height_phase_saved_manifest.py",
+      "role": "PWA_original_generator",
+      "sha256": "d38341f27b2884f4a1e87e05ee15d770a46e73aeace0dd4bf72978f106614229"
+    },
+    {
+      "bytes": 22767,
+      "git_blob_sha": "2601323c6e7fb50e052fd6617597e133b51a96b3",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_saved_owner.py",
+      "role": "PWA_original_owner",
+      "sha256": "5664d6ebc220cab75f14fdf4cb3faf60429a51f78a32029c5577fa7395a8e911"
+    },
+    {
+      "bytes": 7912,
+      "git_blob_sha": "46df0774707f20544541cbee66ef3c4b2aca2fed",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_after_728.py",
+      "role": "PWA_prior_728_bridge",
+      "sha256": "6706378a51b4b90fd1f01fa0e7e005b3fffbca3021c3da5aa3d4bd84d9153f82"
+    },
+    {
+      "bytes": 15237,
+      "git_blob_sha": "97ec26010a137a052335dc219158de592ac85bd2",
+      "path": "topics/visible-flex-exact-nearby/results/R147-supplement-physical-angle-cap-GW-and-small-vertical-world-anchors.md",
+      "role": "PWA_proof",
+      "sha256": "ecfb9eb7a6d504080b514b5e7c0712b71d2c513d33d2a25579beebddd53adc42"
+    },
+    {
+      "bytes": 27590,
+      "git_blob_sha": "371a6787b1cf409ae5758fdfdcee8ad627154bbf",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_chain_public_worker.py",
+      "role": "base_worker",
+      "sha256": "2b8cb4bedce8ce40d0d184ac03abf3aabd2d223aa7520c1984c046c977222cf0"
+    },
+    {
+      "bytes": 11775,
+      "git_blob_sha": "cfa32c67c8c379aece15b7d10267480a3bc55242",
+      "path": "topics/visible-flex-exact-nearby/results/R149-supplement-PWA-height-row-and-common-ratio-phase-consumer.md",
+      "role": "proof",
+      "sha256": "b063bf610e054fbbcad4748251f60a72f13578ded0934bbfce6faf88b9f417a9"
+    },
+    {
+      "bytes": 2649,
+      "git_blob_sha": "75db56f69489af8aea46fef47fdb9bafa721858e",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json",
+      "role": "reviewed_rules",
+      "sha256": "32fa03fbdb357d7d5a98b7115a24acc10f218705a1ecdef2e756ff73284098ce"
+    },
+    {
+      "bytes": 5788,
+      "git_blob_sha": "f3db6cd23c32470cb06a1e7d8befc941cac6baeb",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_saved_math.py",
+      "role": "saved_math",
+      "sha256": "a28ec5d560907539d079bc443172fc1120d7297ac1f4e06e60c1914259fda7f3"
+    },
+    {
+      "bytes": 5373,
+      "git_blob_sha": "0bae2d57750ad87ab99e80d276bf33a8dae5fe66",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_actual_runtime.py",
+      "role": "science",
+      "sha256": "a7782207f222c4fa693ac814b74a1c9afc26622d2de5ec3e06e9ebffd72e888f"
+    },
+    {
+      "bytes": 4357,
+      "git_blob_sha": "dadd17ade515b9fd5ec6fd3562b1f4024e91d722",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_saved_public_worker.py",
+      "role": "worker",
+      "sha256": "0588d7619be5aacfe9525eb15c5e3c732aa154a01a76930a2d7f9847d8a56fa9"
+    }
+  ],
+  "manifest_sha256": "192b231765159b17c9b33a34048f9839268ed93e26cb28a8f7e5550985b7cb2a",
+  "complete_parent_identities": {
+    "H96": {
+      "actual_checkout_commit": "aedee91309ed3c0c4f43f1c95ca933d3c4dcffdb",
+      "arithmetic_bits": 320,
+      "event_commit": "bdca0e6195d564d8edcb52e4a69ae54aa04dc907",
+      "kind": "R149_complete_original_finite_trial_height_rows_after_paid728_v1",
+      "manifest_sha256": "e730fd1e12b72356c88aa7718f8baa4e5e5c083e66a60a6612d71028d281ef69",
+      "run_attempt": "1",
+      "run_id": "46135898111",
+      "scalar_stage": "complete_original_finite_trial_height_rows_after_paid728",
+      "source_sha256": "538e9198a2b04fcb75389aefe95422ab6df909be3efbfe4a412f54aeab288981"
+    },
+    "P96": {
+      "actual_checkout_commit": "785b0a023bbecf9e5a4d9891ac5929ee858147ec",
+      "arithmetic_bits": 320,
+      "event_commit": "358eb35a722ecab882d1dbc339ffc2074723c7fa",
+      "kind": "R149_complete_original_finite_trial_phase_row_v1",
+      "manifest_sha256": "65ceded1a3b73651df08cb4320911d0c9796798581079c7982a46bca7f2374dd",
+      "run_attempt": "1",
+      "run_id": "45926971089",
+      "scalar_stage": "complete_original_finite_trial_phase_row",
+      "source_sha256": "5c1b87ee3e8cb1d353866e47b8ec07008457fdb7010418dd500886bfb3aae148"
+    },
+    "APHI": {
+      "actual_checkout_commit": "fa290437907326f752f76b6ec1a68b6186ed63f9",
+      "arithmetic_bits": 320,
+      "event_commit": "888d23a7ef20cf333436d8ed7654f3c6b6871312",
+      "kind": "R147_complete_strict_nu_nonlocal_phase_v1",
+      "manifest_sha256": "6ca3b71339e0ece21f10f7474011b9632e47034f5848f0fbb8fc92053c3c0a5e",
+      "run_attempt": "1",
+      "run_id": "45915169627",
+      "scalar_stage": "complete_strict_nu_nonlocal_phase",
+      "source_sha256": "b3a2ed142a4522afbeb8824aa8a9b19a871c2b38799d7d6dcf2f659ec74ba7ad"
+    }
+  },
+  "old_scientific_targets_recomputed": 0,
+  "new_PWA_scientific_targets_evaluated": 0,
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T13:24:16Z",
+        "conclusion": "success",
+        "head_sha": "bdca0e6195d564d8edcb52e4a69ae54aa04dc907",
+        "id": 140951005593,
+        "name": "joint-original96-height-rows-after-728",
+        "started_at": "2026-11-28T10:35:28Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "success",
+      "head_sha": "bdca0e6195d564d8edcb52e4a69ae54aa04dc907",
+      "id": 46135898111,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T10:35:26Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T13:24:16Z"
+    },
+    "jobs_API": {
+      "bytes": 2765,
+      "sha256": "f61b4a65ee9e6abb10c968d0acad14f0e97222cf10bf77f0af4c873b9eac5fa5"
+    },
+    "observed_at": "2026-11-28T13:33:06.864044+00:00",
+    "run_API": {
+      "bytes": 13300,
+      "sha256": "e1c02dcc58b1f4f0379bb6143c7d95574b97d3947477521b96bdf314f676d2cd"
+    }
+  },
+  "whole_log": {
+    "bytes": 179444,
+    "sha256": "c2f266774bb8572f136c30ebfc4e97f38905663f979645c9b58a647c79241156"
+  },
+  "whole_actual": {
+    "bytes": 31652,
+    "sha256": "a49119d596956029d4b51179ed0e694878032a92facdab1e8fa083de83dd8fbe"
+  },
+  "whole_execution": {
+    "bytes": 43566,
+    "sha256": "73d78ed9c25dd9fda3ade00d2e4694c2d0e7fadd2bc149a32f0b2cd980cb8699"
+  },
+  "entire_negative_or_closed_family_proved": false
+}
