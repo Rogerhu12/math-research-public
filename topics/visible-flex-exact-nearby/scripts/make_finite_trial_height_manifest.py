@@ -93,7 +93,12 @@ def build(root):
             and math.SIGNED_INDICES == owner.SIGNED_INDICES
             and math.GRID == 8192 and math.MAXIMUM_DEGREE == 3584,
             "all seven complete target definitions agree")
-    compile(worker.build_adapter(root), WORKER, "exec")
+    worker_tree = worker.build_adapter(root)
+    compile(worker_tree, WORKER, "exec")
+    worker_constants = {node.targets[0].id:node.value.value
+        for node in worker_tree.body if isinstance(node,ast.Assign)
+        and len(node.targets)==1 and isinstance(node.targets[0],ast.Name)
+        and isinstance(node.value,ast.Constant)}
     original, raw_original = carriers.load_original(root/owner.RHI_RESTORE)
     unused, tap_receipt = carriers.tapped_restore(original, raw_original, lambda *args:None)
     require(tap_receipt["passive_polynomial_cache_tap_count"] == 1
@@ -159,6 +164,9 @@ def build(root):
             "actual_cap_admissibility_or_remaining_Schur_proved":False,
             "topic_completion_proved":False}}
     raw = owner.canonical(manifest)
+    require(worker_constants.get("RESERVE") == manifest["operation"]["reserve_bytes"]
+            and worker_constants.get("LIMIT") == manifest["operation"]["topic_maximum_bytes"],
+            "the complete inherited executable capacity contract matches this manifest")
     require(len(raw) < 100000, "whole small immutable H96 manifest")
     sparse = sorted({"README.md",TOPIC+"/README.md",MANIFEST,*BOOTSTRAP,
                      *(item["path"] for item in files)})

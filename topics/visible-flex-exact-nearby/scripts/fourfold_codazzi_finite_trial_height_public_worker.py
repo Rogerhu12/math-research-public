@@ -1,6 +1,7 @@
 """H96 uses the frozen RHI public engine for seven new complete trial rows.
 
-Only names, complete seven-target validation and the report differ.  The
+Only names, the declared publication reserve, complete seven-target
+validation and the report differ.  The
 entire51 native input restoration, README pulls, capacity gate, consumed
 reservation, one child, actual failure publication and rebase loop remain.
 """
@@ -177,7 +178,17 @@ def build_adapter(root):
     strings = dict.fromkeys(REPLACEMENTS, 0)
     functions = {"validate_output":VALIDATOR, "final_files":REPORT}
     counts = dict.fromkeys(functions, 0); comparison = {"complete_record_counts":0}
+    budget = {"publication_reserve":0}
     class Adapter(ast.NodeTransformer):
+        def visit_Assign(self, node):
+            if (len(node.targets) == 1 and isinstance(node.targets[0], ast.Name)
+                    and node.targets[0].id == "RESERVE"):
+                require(isinstance(node.value, ast.Constant) and node.value.value == 120000,
+                        "the unchanged original RHI publication reserve assignment")
+                budget["publication_reserve"] += 1
+                return ast.copy_location(ast.Assign(targets=node.targets,
+                    value=ast.Constant(210000)), node)
+            return self.generic_visit(node)
         def visit_Constant(self, node):
             if isinstance(node.value,str) and node.value in REPLACEMENTS:
                 strings[node.value] += 1
@@ -196,8 +207,8 @@ def build_adapter(root):
                                                    mode="eval").body, node)
             return self.generic_visit(node)
     tree = Adapter().visit(tree)
-    require(all(value == 1 for group in (strings,counts,comparison) for value in group.values()),
-            "only exact new names, complete seven-target validator, report and target count change")
+    require(all(value == 1 for group in (strings,counts,comparison,budget) for value in group.values()),
+            "only exact new names, publication reserve, seven-target validator, report and target count change")
     tree.body[0].value = ast.Constant(__doc__)
     ast.fix_missing_locations(tree)
     return tree

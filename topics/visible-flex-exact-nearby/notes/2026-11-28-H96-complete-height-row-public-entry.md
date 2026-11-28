@@ -93,7 +93,7 @@ coordinate term、完整 waist Jacobian 变分及原 reference/actual-cap 费用
 `phase_input_plan` 展开分支，native 历史路径保持原名。九项新 Fraction
 比较由根代理首算一次全过，入口生成未重算它们。
 
-完整 [manifest](2026-11-28-finite-trial-height-complete-inputs.json) 为
+首发完整 [manifest（不可变提交）](https://github.com/Rogerhu12/math-research-public/blob/cba22d03038b41fd02bc6858b52b39f796492ed1/topics/visible-flex-exact-nearby/notes/2026-11-28-finite-trial-height-complete-inputs.json) 为
 `61916` bytes，whole SHA256
 `0bf3e4abe612c744cba56cfb2161528cb34171351414885d2761349e61a70073`，
 `114` current inputs + `51` historical inputs；`--check-only` 已通过。
@@ -105,3 +105,17 @@ execution 各至多 99000 bytes，整次 publication reserve 为 210000 bytes。
 
 实际新目标只在公开 Actions 运行。根代理在本条对应提交统一发布新workflow，首次push触发唯一运行；
 实际run及后继状态见HANDOFF，此文不宣称 actual 数值成功。
+
+## 07:47 UTC 执行入口恢复
+
+首次 run `46122740303/1` 在启动科学子进程之前，因继承 worker 的旧
+`RESERVE=120000` 与本 manifest 的 `reserve_bytes=210000` 不一致而失败。
+七个科学目标执行数为 0；没有旧成功目标可以重算，也未登记任何数值成功。
+确切 job、whole log SHA、原提交身份及入口修复见
+[完整的小恢复记录](2026-11-28-H96-publication-reserve-entry-recovery.md)。
+
+恢复后的 [current manifest](2026-11-28-finite-trial-height-complete-inputs.json)
+仍为 `61916` bytes、`114` current + `51` historical inputs，whole SHA256 为
+`60f1e7ca8d83f986d7020e786a0f1ed7dd1958634039c5bdb7c5952a28ea1483`。
+新 pin 只绑定公共入口、生成器及相应描述；原 proof、math、科学 owner、
+carrier recipe、输入科学对象、全部七目标及数值参数均未改变。
