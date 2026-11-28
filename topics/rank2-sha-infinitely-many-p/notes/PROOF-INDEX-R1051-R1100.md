@@ -392,3 +392,5 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ## R1068 — 原 B18、实际 Katz 整逆与完整 Hall 系数
 
 [全文](../results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)。B1–B15从原两个三挠完整词推出共同B18及准确低系数，canonical S34首6与Dold首2分明。B16–B23在同几何T用唯一对称order-p² lift支付中心乘法，A84逆真整且核角色非平凡，得到实际ψ0 dual。B24–B29返回全Hall同点三卷积和R1067(49)之p²行，保全部框架/连接和模型费用。B30–B33保全部d/6 Cartier角及首漏行−26329/105，不能由单位质量缩成标量。主strictHall及无穷p仍开。
+
+**R1067 §14.1 / R1068 范围收紧（2026-11-28）：**同一actual Hall中心及完整有限jet的F_H下降，连同L3/N11尾，已无条件给M1−M0∈p、Uq a_Δ−p a0∈p²。故exact0下a_Δ额外p不作whole源新增forcing；R1067原证明及R1068整逆/全角返回均有效，继续更深p²组合与含H0支。

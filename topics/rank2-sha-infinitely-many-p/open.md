@@ -72,6 +72,8 @@ R1067§§9–14进一步给physical首jet整界及同一actual整Hall源P_H：�
 
 [R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)现付原共同B18及D102/S34准确因子，canonical首6不混Dold首2。同一实际T的完整中心/唯一p² lift使A84真整逆落原ψ0 Katz范围，actual Hall a_m准确为102/84逆/16完整有限三卷积；R1067(49)直接成为该全和的p²条件，逆不能移出Hall。普通Cartier另有d/6个角，首漏行−26329/105不消；wholeGaussian/physical/old与E17框架全保。下一查同一实际卷积的非零高赋值含H0行，不把恒等式、单位质量或exactHall0条件当主非零证明。
 
+**R1067§14.1范围收紧：**实际M0/C、M1/C在首挠点的μ_d固定域，其值群1/(p−1)；旧L3/N11与完整Bell尾已无条件给M1−M0∈p，即Uq a_Δ−p a0∈p²。因此exactHall0下(49)和R1068(B25a)的额外p不是相对whole原来源新增forcing，不能拿它重复计收益。继续原p²组合、全部高角和非零高赋值含H0行的实际来源核算。
+
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 
 [R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已付全部物理行的数字折回、完整节点递推、同一 \(P/R\) 的全精度 \(j!C\) 厚核、Hasse–Hermite 等距 PD 代数及全部截断 Smith。回旧基线保准确 \(E(J)\) 损；普通厚理想范围一般至 \((p-3)/2\)，原 S/T 环至 \(p-2\)，不是免费到 \(p-1\)。首 Bockstein 须满足原低核和同一个 \(R\) 的像条件；canonical 的单一加权槽不是乘法理想，不能变成逐节点消失。

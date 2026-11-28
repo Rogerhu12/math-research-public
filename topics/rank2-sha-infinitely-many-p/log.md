@@ -450,3 +450,12 @@ root全文审B1–B33，手核B3四项首两列及B9–B15低项、theta lift唯
 推前actual双pull run46073965457/job140891966506：公开06:27:27UTC至3138f2d6564d66a92968cb963a904fad0dab5bd4，私库06:27:31UTC至746b56a6126c9f0dd32d23c5896f9a201fca5856。四README同blob；QUEUE新blob66e16341859db17a3997d920d85ff4962eab8036已逐差核，仅他题认领变化，本题行不变。日志14886B/hash8fec11ceaac13bd64fba50472269f76370c57e398e767574929de995e1667bf0，库存3204/45564635B/tree934410a117e076eeec117386830cebfe54d7625a，无>5MB，三旧必要gzip未变。v15最新06:26:35仍step4在算/日志BlobNotFound；未登记原数学终门。
 
 06:30:29UTC首次更新ref返回GitHub UNKNOWN错误；随后main明确无R1068文件，未冒称已推。立即本地pull --rebase仍无环境，已重跑actual双pull job140892722819：公开2026-11-28 06:30:37 UTC至7c4861e20075dbcaaf9d809c82256d46367541d0，私库2026-11-28 06:30:42 UTC至0d4ec2116a73a4163f0073ae8faec0d05186938a；四README不变，QUEUE新blob14d9c9be75a35d72b7d9170cbb5de41a11be6c7b只另题变化，本题行已核未变；库存同上，日志14889B/hashcce1c0502a35abaee126c3902f8a3a22d28c2fed260db7cc4ef61125869f9459。依新head继续非force重推。
+
+
+## 2026-11-28 06:36 UTC — 收紧原 Hall 低行的新增范围
+
+R1067追加§14.1完整手证：逐finite jet除原共同中心后在首挠点域，μ_d Hall平均落值群1/(p−1)的固定域。旧L3/N11及F_Q(Δ)全尾给v(M1−M0)≥6/Δ+η，离散提升已无条件迫M1−M0∈p和Uq a_Δ−p a0∈p²。故exactHall0下(49)虽正确，但相对本题actual源不是新的forcing；R1068(B25a)亦相同收紧，实际整逆与完整系数恒等仍有效。open/results/index/H同步明确，不重复计算术收益。
+
+root全文核共同中心、非p非分歧扩、cover/连接尾、F_H值群及θ^Δ模型运输；geometry独核真实jet下降。新增2501B/hashf3662193248f4382a13d284b464fe0260639575a200da0a0624a54b1c2df4d29；整R106743804B/hash14ac5bf59a755eb9912bdc17de52dfc9f45f36508f5e4f41dce1027e55b5fca5。下一只核更深p²组合和含H0主支，未得到无穷p；没有新增数学计算。
+
+actual双pull run46073965457/job140893900600：公开06:35:29UTC至e52a1f9d5f54d7711e5e1e8f7c9d44fd8a6381f1，私库06:35:33UTC至f867fd8420550c557c581ff964391414b86dae82；四README同blob，QUEUE85a452de45b35303c3be02f1e2c39b1bf67b117f只有他题行变化，本题认领已核不变。日志14886B/hash72d761d0afb81b6a6b745fd9bde2c7f2d32db9c1f897863d4b4671b61868022a；库存3205/45584891B/tree3480d251f2abff2ab6d7b12b8072a72fab42269c，三旧gzip不变。v15 root于06:36:31亲核step4 in_progress、日志BlobNotFound；无bindings或数学PASS。

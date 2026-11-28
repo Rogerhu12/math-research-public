@@ -1049,3 +1049,74 @@ Rubin 比较。原 exact Hall 零仍可以同时满足(47)、(49)；
   单凭排除精确零并不足以排除一个非零但高赋值的 Hall 值。
 
 以上全部是原对象上的手证；没有数学运行、扫描或新增自由坏行。
+
+
+### 14.1 实际 Hall 的域下降收紧了 (49) 的独立性
+
+式(49)正确，但对本篇实际来源，它还可由旧整 jet 和域下降直接
+得到，因此不能单独当作新增 forcing。
+
+先吸收 R696(15) 的原 Hall 相位。R1065(W7)、(W16)准确给
+$$
+ \widehat B_Q
+   =\mathscr C_{34,T}h(v_Q)^{34}R_S(Q)
+   =\mathscr C_{34,T}f_{34}(v_Q),
+ \qquad v_p(\widehat B_Q)=6/\Delta ,
+$$
+其中 $\mathscr C_{34,T}$ 是整个 norm-$r$ 轨道的同一个
+实际单位，未重新选择中心。令 $F_1$ 为首挠点域；固定非 $p$
+系数及 $\sqrt d$ 只需作非分歧基扩 $L_0/L$。
+严格 LT 描述给
+$$
+ \operatorname{Gal}(L_0F_1/L_0)=\mu_\Delta,\qquad
+ F_H=(L_0F_1)^{\mu_d},\qquad
+ v_p(F_H^\times)=\frac1{p-1}\mathbf Z .
+$$
+
+逐个 physical jet 除中心后只涉及
+$h(v_Q),Z_Q=\Xi(v_Q),x(Q),y(Q)$ 及其真实不变导数。
+其系数都在 $L_0$；$\sigma_\zeta$ 将完整 jet 送到
+$Q\mapsto[\zeta]Q$。W22 的全部
+$\alpha_{34,p}$ 系数也在 $L_0$，故返回到 Katz jet 仍交换。
+作原 $\mu_d$ 平均后，严格有
+$$
+ M_0/\mathscr C_{34,T},\quad M_1/\mathscr C_{34,T}\in F_H .
+$$
+这由完整中心和有限 jet 证明，不由一般 Katz 性质猜测。
+
+置 $u_Q=(p\,34Z_Q)^\Delta/p^p$。N11 取 $m=\Delta$，
+保 cover $p^\Delta$ 及正规化 $p^{-p}$，得到
+$$
+ \begin{aligned}
+ M_1-M_0
+ &=\frac1{\sqrt d}\sum_{N(v)=r}\widehat B_Q
+             \{u_Q\mathcal F_Q(\Delta)-1\}\\
+ &\quad-\boldsymbol\mu_H
+          \{u(\mathscr A_{34}(\Delta;X)-1)\}.
+ \end{aligned}
+$$
+L3、(40)给 $u_Q-1$ 的估值至少 $\eta$；
+R1062 的全 binomial 尾给
+$\mathcal F_Q(\Delta)-1\in\mathfrak m^{\ge\eta}$。
+最后一项由 N10、(38)在 $p^{p-2}\mathcal O_F$。
+所以
+$$
+ v_p(M_1-M_0)\ge6/\Delta+\eta
+     =1-\frac{p-5}{\Delta}
+     >1-\frac1{p-1}.
+$$
+除以实际单位中心后再用 $F_H$ 的离散值群，准确得到
+$$
+ \boxed{
+ M_1-M_0\in p\mathcal O_F,\qquad
+ U_q a_{\Delta,1}-p a_{0,1}\in p^2\mathcal O_F .
+ }                                                        \tag{52}
+$$
+它不要求 Hall 为零。结合(50)及 $\vartheta^\Delta\equiv1\pmod p$，
+同式无损运到原 $E_{17}$ frame。
+
+因此 Hall 精确零时的(48)、(49)，已由这个 actual 域下降和旧完整
+translated jet 强制。例(51)只说明一般整 $\psi=0$ 对偶没有此结论，
+不证明它相对于本题完整来源独立。真正额外的精度仍须检查
+(47)的 $p^2$ 组合或其含 $H_r(0)$ 的完整版本；
+不能把(52)再计为一条独立 canonical 坏条件。
