@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R734（已证明，可算宽公式）**：[同g双曲延拓、真实首片宽与法球](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md) — Gauss–Codazzi对角运输的和权角梯度消去两二次项，正值矩形足够跨真实quintic；合作区比较 $y=a/\sqrt{r^{-2}-a'^2}$。真首两knot给有理 $T_*$ 保证全角双侧等距嵌入带、$|II|\le5$ 与全部带内 $.16$ 球。$T_*$ 与415片实际前缀待公开运行；不替R733拼接宽，不代全域完成。
+
 - **R733（已证明，宽度存在）**：[准确非圆核心带与对全闭像法球](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md) — 从真实第一quintic构造全角解析等距带，log cutoff接 $.26$ 高柱、柱内双向 $.18$ 球；中央逐角重解 $S-L_{cap}-L_{core}(\varphi)$ 并保移动接口全部角/混合jet。原末带、双held、$D$、$\delta_E$ 保留；准确core collar每点对全闭像两向 $.126$ 球成立。正宽未数值包围，不是J923实跑输入；中央全域同g/余reach仍未付。
 
 - **R732（已证明，新参考）**：[圆肩末端、准确末带度量与完整闭参考](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md) — 保原核心/$S/R/H$；原末端 $u\le.001$ 三项Gram准确，$.14$ 圆肩接竖柱、中央独立正长度根，所有含帽点的有向/反向 $.126$ 法球及同端全部点对成立。$D\le4.2$、双held $>.91$、$\delta_E>0$、core jet为 $k_0\rho n$；原冻结R730亦有 $\delta_E>0$。中央Gram和中央/中央、中央/圆肩reach仍未付，不作34实际结果。

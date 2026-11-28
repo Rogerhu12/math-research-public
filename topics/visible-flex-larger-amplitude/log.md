@@ -517,3 +517,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:31:53 UTC — R733真实非圆核心准确度量与全像混合球
 
 完整18663B证明从实际第一quintic解非特征全角同g Cauchy系统，直接验证三Gram；log cutoff保持柱曲率<4.5，给柱全两向.18球、core对全像两向.126球。中央逐角Λ=S−Lcap−Lcore(φ)根和移动material接口全混合jets明确，保持完整闭C²/强held/D/δE与R732末带。core宽仅正存在，尚无数值包围，未把它当实际J923输入/全域解；已按真实FullHold Fraction语义核首系数严格2c2/w²=k0，无工作浮点coeff偷换。 双README云核至`12cd72d84df91a464d4d01faed764b1661af228f`无变（非pull）。
+
+## 2026-11-28 10:32:39 UTC — R734真实同g延拓与可算宽度公式
+
+完整15607B证明真Gauss–Codazzi对角运输、和权角导数消去双二次项、正值矩形下全角延拓；完整periodic frame重建无丢单值/平移，曲率界max(k²Umax,1/Umin)。合作区显式y=a/sqrt(r^-2−a'^2)，一般符号矩形ODE可续。首两个真knot/Fraction六系数给正有理T*，无条件付全角同g、|II|≤5、嵌入及全部带内.16球；415真片条件和T*尚未运行，由metric_prefix完整原source/输入公开执行，失败充分条件不作不可能。 双README云核至`d9d9cfd03974d8d928e1a9c7c51b3c3291c7229a`无变（非pull）。
