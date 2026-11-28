@@ -1,0 +1,176 @@
+{
+  "schema": "complete-R732-same-field-mesh-source-delivery-v1",
+  "prepared_utc": "2026-11-28",
+  "fixed_public_scientific_source": "fbc7b4af4e0e79439e5b763e8d6df74964c851c2",
+  "fixed_public_scientific_parameters": "c2ef6fdb3dbaf421be9a826576c38b13920a8458",
+  "fixed_public_accurate_kernel_normal_geometry": "f20ca93edac3636c0bd543031cfee848ef52a24c",
+  "direct_parent_identification": {
+    "current_main_checked": "c9d44d67a2e16a7163161148ce774ca022c0f02a",
+    "earlier_complete_tree_checked": "c2ef6fdb3dbaf421be9a826576c38b13920a8458",
+    "parents": [
+      {
+        "role": "mshinput",
+        "name": "fixed_fejer_R723_compatible_same_field_mesh_input.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R723_compatible_same_field_mesh_input.py",
+        "bytes": 95330,
+        "sha256": "6c678893db4cff3366a0836ee900e67aabd23b5267768369d6bfa41479197aa8",
+        "git_blob_sha": "fe0c0798c6a5ff50c140a0ad00e5e1b5b88e2530"
+      },
+      {
+        "role": "msh",
+        "name": "fixed_fejer_R723_compatible_same_field_phase_meshes.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R723_compatible_same_field_phase_meshes.py",
+        "bytes": 55097,
+        "sha256": "f2a46875aaa230f24cfcb92011997aa6b3fa7a7caf985701e02461229e0057f2",
+        "git_blob_sha": "be361ed47846be988c252aa049d1a57b68bfec47"
+      },
+      {
+        "role": "mshread",
+        "name": "read_fixed_fejer_R723_compatible_same_field_phase_mesh_report.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_R723_compatible_same_field_phase_mesh_report.py",
+        "bytes": 22349,
+        "sha256": "5d47382428fb551a5f6bbaa61fd56191922bc793963a0cbb6af45914c126d813",
+        "git_blob_sha": "6fb32e6f51c30796a3e558eca38cf96fd4be7c8f"
+      }
+    ]
+  },
+  "source_builder": {
+    "role": "complete reversible source build from three published complete R723 field, mesh and pure reader sources",
+    "name": "reproduce_R732_complete_same_field_mesh_sources.mjs",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_R732_complete_same_field_mesh_sources.mjs",
+    "bytes": 38841,
+    "sha256": "27498c163d0ac924e988be7a9c8e5a8d425212bc006629b83f1c52adf74a2af9",
+    "git_blob_sha": "5cab1f8adbc71b7584714c6637dacab5e44ff106"
+  },
+  "reversible_replacements_by_role": {
+    "meshinput": 25,
+    "mesh": 30,
+    "meshread": 3
+  },
+  "complete_runtime_sources": [
+    {
+      "role": "complete working mesh field reconstruction from actual immutable R732 normal/physical reference words",
+      "name": "fixed_fejer_R732_R723_same_field_mesh_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R732_R723_same_field_mesh_input.py",
+      "bytes": 98284,
+      "sha256": "c089600bcf03e727c7f37c4e7c20db57e2b59160b43c7782d1a8ef680b056de6",
+      "git_blob_sha": "a4dc8d58d2613ca9906ad194859fb69caa8f932c"
+    },
+    {
+      "role": "complete R732 working phase meshes with free-point held evidence, all public raw six-jets and complete original domain refinement",
+      "name": "fixed_fejer_R732_R723_same_field_phase_meshes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R732_R723_same_field_phase_meshes.py",
+      "bytes": 55092,
+      "sha256": "33863e6427077490c38c9f7624ee6ed09c6fd143990360a216784e64f9eb1444",
+      "git_blob_sha": "aab415a8699b6e9ea8b0383d5af6148dd979d8be"
+    },
+    {
+      "role": "complete pure mesh/point/immutable reference and optional closed same-field evidence reader",
+      "name": "read_fixed_fejer_R732_R723_same_field_phase_meshes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_R732_R723_same_field_phase_meshes.py",
+      "bytes": 25905,
+      "sha256": "f3586af539f1941b8b6903a8678d80cb2c087edaf07d0b19d429d1da77b12278",
+      "git_blob_sha": "1b46ad05ef7082408f85c02d4db91ea70bf982bf"
+    }
+  ],
+  "normal_build": {
+    "source_repository": "complete public Git checkout",
+    "output_repository": "the isolated Actions worktree",
+    "direction": "forward",
+    "complete_parent_and_result_bytes_sha256_git_blob_checked_in_both_directions": true,
+    "source_only_no_science_AST_fixture_or_supplementary_gate": true,
+    "all_raw_mathematical_values_and_artifacts_stay_on_runner": true
+  },
+  "previous_scientific_binding": {
+    "role": "complete_runtime_and_source_binding",
+    "name": "fixed-fejer-r732-R729-current-runtime-binding.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-current-runtime-binding.json",
+    "bytes": 66334,
+    "sha256": "425a1c0f484de848fdc66396623bc8e434b92bcfaf07216b49149a7324e7a195",
+    "git_blob_sha": "ba50a6fa07a086964c2c99c9fb2580c702427915"
+  },
+  "accurate_geometry_source_delivery": {
+    "role": "normal source delivery of complete four reconstructed R732 accurate runtimes with direct main parents, reversible complete source and guarded invocation",
+    "name": "R732-complete-accurate-normal-geometry-source-build.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/R732-complete-accurate-normal-geometry-source-build.json",
+    "bytes": 16526,
+    "sha256": "b03c891c19f6b5e2b1340cad01545ebcacdebbdf4009c39900bc264f3506d214",
+    "git_blob_sha": "c89bd454930f94cd7a8939da3a89c61dd8858c6e"
+  },
+  "accurate_input_source_delivery": {
+    "role": "complete selected immutable input and outward radial source manifest",
+    "name": "R732-selected-snapshot-accurate-input-and-radial-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/R732-selected-snapshot-accurate-input-and-radial-source-delivery.json",
+    "bytes": 5968,
+    "sha256": "8fdbe7c26457f00f0ae36e385f9bb5daf7fedc27a56dfc1bb9de088270ad72d0",
+    "git_blob_sha": "5e0099429f8fbb77895d57be4497244207302533"
+  },
+  "closed_and_raw_moment_source_delivery": {
+    "role": "whole corrected-field R650/R723 closed and R716 source delivery",
+    "name": "R732-complete-closed-phase-and-R716-flux-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/R732-complete-closed-phase-and-R716-flux-source-delivery.json",
+    "bytes": 12079,
+    "sha256": "913f02a8ccc24b3153f72ce96fdf4cb678456c3109a0ac63149c7b884872cbab",
+    "git_blob_sha": "5b40b98bb473da941faa3c30752072e1ebc77351"
+  },
+  "mesh": {
+    "role_count": 148,
+    "original_scientific_roles": 139,
+    "original_mesh_arithmetic_source_and_evidence_roles": 9,
+    "full_original_constructor": {
+      "driver": {
+        "role": "driver",
+        "name": "r732_R729_qp.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r732_R729_qp.py",
+        "bytes": 99575,
+        "sha256": "82fc9d2442094753a0fe32700cb748a3dd9be3e299d94017d03c6ad8cba92866",
+        "git_blob_sha": "2e4fb1e04173f0cecda62d1af47ed8cf46496df5"
+      },
+      "bytes": 8948,
+      "sha256": "ee3044163dd9c8d63645a25f5857162112f2e7ece0b4d2b6c4f65016277c4922",
+      "begin": "    preparation, reference_binding = actual_reference(args, paths)",
+      "exclusive_end": "    restart = seed_report = None",
+      "guards": [
+        "complete original main source file",
+        "same complete constructor substring and its SHA256",
+        "whole numerical environment and every full scientific role"
+      ]
+    },
+    "point_sources": [
+      "original final complete 13-member checkpoint, same point complete immutable snapshot",
+      "named original required-angle normal snapshot or report-save selected same outer point",
+      "When complete closed evidence is supplied, resolve its immutable snapshot and require same recorded full point and model, including in final checkpoint mode."
+    ],
+    "free_coordinates": 1333370,
+    "core": 157,
+    "SO3": 1333212,
+    "height": 1,
+    "original_modes": 160,
+    "material_nodes": 923,
+    "original_full_angles": 2048,
+    "original_normal_stages": 32,
+    "length_working_plan_members": 12,
+    "length_batch_members": 5,
+    "retains": [
+      "all 139 source roles and all 9 mesh roles",
+      "all original same-point normal controls, frames and available angular implicit matrices",
+      "all 922 original material cells, full angles and original phase times",
+      "whole quadrature plan including terminal and blend partitions and primitive prefixes",
+      "all selected scalar length roots, both angle derivatives, 923x3 ordered prefixes, 3x6x3 control jets",
+      "selected operator metadata, angular order, held reading, complete source records and material target",
+      "complete R650 eight-role and R723 independent closed evidence as optional same-point bindings",
+      "full original export levels and working mesh errors without extrapolating to a continuous proof"
+    ],
+    "existing_density_evidence": "The original root retained the density descriptor. Working inversion uses the saved complete controls and prefix. The unfurnished density array is never reported as read.",
+    "new_mesh_angles": "Use the same complete working reference solver and original normal stages. Reused snapshot roots keep their observed angular order.",
+    "accuracy_scope": "Working coordinates and jets only. Accurate derivatives, same-field local/global geometry, embedding, all phases, and twelve-moment consequences retain their distinct original evidence requirements."
+  },
+  "actual_mesh_run": null,
+  "actual_mesh_report": null,
+  "actual_scientific_model": null,
+  "actual_selected_point": null,
+  "actual_selected_snapshot": null,
+  "actual_mesh_bundle": null,
+  "continuous_metric_result": null,
+  "closed_certificate": null
+}
