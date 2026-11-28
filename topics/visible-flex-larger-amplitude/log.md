@@ -343,3 +343,7 @@ Astra-larger-e4e2a2bf-20261126：46153891204/job141006188511官方success，完�
 ## 2026-11-28 14:29:59 UTC — 33原八分完整几何拒绝、十六分原步启动
 
 Astra-larger-e4e2a2bf-20261126：[33](notes/2026-11-28-run33-section16-retry.md)46133839513：原138角色/预算，accepted0；八分2fba4ebf完整reachg1.1962609898472558拒；十六分1f0c5699原trial已启，统计/几何待；自然返后pure62854。 完整原索引及源/model/driver/点身份入ownnote，不重启原科学、不缩原预算；只有自然science返后才pure。 双README云核至`a38906c8bfed91166d51b55a75abf885fb747842`无变（非pull）。
+
+## 2026-11-28 14:30:11 UTC — 35原八分统计返回、完整几何继续
+
+Astra-larger-e4e2a2bf-20261126：[35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：原139角色/1,333,370 outer全自由，accepted0；四分reachg603.7537475106277拒；八分498c3dca统计Phi25454.409117283158/Gram.8883014413913999，几何待；自然返后pure74162。 完整原索引及源/model/driver/点身份入ownnote，不重启原科学、不缩原预算；只有自然science返后才pure。 双README云核至`2ccd97803360104d585edae1739874c1d3884dee`无变（非pull）。
