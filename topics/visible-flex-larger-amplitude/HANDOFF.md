@@ -56,6 +56,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
 
 [R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新g真圆三波闭球，准确初D<1.362；短/六个百分点径向平衡场全t reach≥1/24.45、held>.320、商距>.096，最坏Gram仍<.305仅改善>.013。自由整空间环三最坏圈全g/K<9.1，其余混合/轴向/整管须重付。
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 9f1a18a0e39001b8572f2bf0144c02c9649cc6e1
 <!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull d7592e2ce62d1884e16b3459ea9050422fead0f8
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 2f540a2253ab8847e2b3b2745ad8ec7835397d36
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull addb9bc658eeed8f2623fb20e722e37fc3f49572
