@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [同一正锥分母的定量全逆与逐个固定来源的严格超四次费](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)：新连续块qν=256ν²，原收缩强积/同强*单位/全旗重付；log||C^−rP||≤Kr⁴exp(300log(2+r)^(2/3))，每个非零平坦p完整log||C^−rp||/r⁴→∞，双log幂指数精确4。尚无分数根来源。
+
 - [全W原D双列取消、纯k覆盖与完整规范界616824](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)：a29实际13.166233637秒/0，整L0/H1980保，P′双度93/119，唯一原comm行完整Bezout1；固定303阶结式非零且k度≤51402，权交长≤51402，完整重数及有限原返回保留。
 
 - [Phi完整三阶核为零、精确789及整权模型](results/R150-appendix-unit211-Phi-zero-complete-third-kernel-zero-exact-degree-789-and-integral-weight-model.md)：890实际10.546223899秒/0，两层三阶项各零，整QQ/Q2/p1009同度789；不付其它物理头或排空。
