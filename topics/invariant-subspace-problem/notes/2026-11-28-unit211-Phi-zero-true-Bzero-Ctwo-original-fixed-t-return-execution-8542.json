@@ -1,0 +1,164 @@
+{
+  "schema": "isp-true-Phi-Bzero-C2-full-original-return-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "runtime": "pure V8 BigInt, fresh functions.exec",
+  "source_git_blob": "66c2730080419c1a6ad2d04150872f75b17b804b",
+  "source_sha256": "45dba5c56f6efdf075451489b043cec89d102edcf0ebd629768457cd2a7ce3fc",
+  "source_bytes": 18474,
+  "actual_completed": true,
+  "exit": "normal return",
+  "resource_boundary_ms": 120000,
+  "actual": {
+    "schema": "isp-true-Phi-Bzero-C2-original-fixed-t-return-v1",
+    "elapsedMilliseconds": 23103,
+    "integerProducts": 6552,
+    "fullIntegerDivisions": 738,
+    "phi": [
+      "2",
+      "-11",
+      "23"
+    ],
+    "exactLambdaHeadValue": [
+      "-1/4"
+    ],
+    "wholeZeroLambdaHeadFiberExcluded": true,
+    "allIntrinsicWeightUnitsReturned": true,
+    "exactOriginalLinearRecoveryReturned": true,
+    "originalRowDegrees": [
+      {
+        "name": "E1",
+        "t": 2,
+        "lambda": 4,
+        "clearedPower4lambda1": 2
+      },
+      {
+        "name": "EBe",
+        "t": 2,
+        "lambda": 4,
+        "clearedPower4lambda1": 2
+      },
+      {
+        "name": "EBo",
+        "t": 2,
+        "lambda": 4,
+        "clearedPower4lambda1": 2
+      },
+      {
+        "name": "N1",
+        "t": 1,
+        "lambda": 4,
+        "clearedPower4lambda1": 2
+      },
+      {
+        "name": "NS",
+        "t": 3,
+        "lambda": 6,
+        "clearedPower4lambda1": 3
+      },
+      {
+        "name": "PS",
+        "t": 3,
+        "lambda": 6,
+        "clearedPower4lambda1": 3
+      }
+    ],
+    "projections": [
+      {
+        "anchor": "N1",
+        "other": "E1",
+        "fixedTDegrees": [
+          1,
+          2
+        ],
+        "fixedSylvesterSize": 3,
+        "resultantLambdaDegree": 10,
+        "cumulativeGCDDegree": 10,
+        "completeKBezoutReturned": true
+      },
+      {
+        "anchor": "N1",
+        "other": "EBe",
+        "fixedTDegrees": [
+          1,
+          2
+        ],
+        "fixedSylvesterSize": 3,
+        "resultantLambdaDegree": 10,
+        "cumulativeGCDDegree": 2,
+        "completeKBezoutReturned": true
+      },
+      {
+        "anchor": "N1",
+        "other": "EBo",
+        "fixedTDegrees": [
+          1,
+          2
+        ],
+        "fixedSylvesterSize": 3,
+        "resultantLambdaDegree": 10,
+        "cumulativeGCDDegree": 2,
+        "completeKBezoutReturned": true
+      },
+      {
+        "anchor": "N1",
+        "other": "NS",
+        "fixedTDegrees": [
+          1,
+          3
+        ],
+        "fixedSylvesterSize": 4,
+        "resultantLambdaDegree": 15,
+        "cumulativeGCDDegree": 2,
+        "completeKBezoutReturned": true
+      },
+      {
+        "anchor": "N1",
+        "other": "PS",
+        "fixedTDegrees": [
+          1,
+          3
+        ],
+        "fixedSylvesterSize": 4,
+        "resultantLambdaDegree": 15,
+        "cumulativeGCDDegree": 2,
+        "completeKBezoutReturned": true
+      }
+    ],
+    "finalExactGCD": [
+      [
+        "1/16"
+      ],
+      [
+        "1/2"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "removedKnownUnits": [
+      {
+        "name": "4lambda+1",
+        "power": 2
+      }
+    ],
+    "exactRemainingPolynomial": [
+      [
+        "1/16"
+      ]
+    ],
+    "remainingLambdaDegree": 0,
+    "kProducts": 7318,
+    "kInverses": 45,
+    "lambdaProducts": 153,
+    "lambdaDivisions": 19,
+    "exactDeterminants": 5,
+    "allParameterEmbeddingsKept": true,
+    "noPhysicalDInverted": true,
+    "entireCExcluded": true,
+    "entireBExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "scope": "entire original C(x)=23x^2-11x+2 fiber on corrected Phi B=0",
+  "no_external_dependencies": true,
+  "no_old_gate_reexecution": true
+}

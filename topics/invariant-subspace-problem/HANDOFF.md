@@ -7,12 +7,12 @@
 - **数据规矩8/15：** 本会话可重算编码/分片已从main移除，只保源/定义/run/SHA及[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。旧输入仅终端临时读取，不重写历史。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** cac2e4f4a42a73445519d3b138d114aa8a8987d0（2026-11-28 05:48:49 UTC，Actions run46113739184实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46113739184-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 05:48:48 UTC/4b72276566c7384d4437c8c4676af4bda95c5799，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 560d5f3d390cdc1004e18e1a0ceb52b81132d963（2026-11-28 05:57:13 UTC，Actions run46114350961实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46114350961-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 05:57:13 UTC/bca390d5dbefb2c2f50cde797be296b09916fc78，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 约07:20 UTC起不可用，05:03复探仍未恢复；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
-- **终端断开后远端已读：** `25d72e678a9db6c42afcb4d932d485b856c63a1a`（2026-11-28 05:48:10 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `560d5f3d390cdc1004e18e1a0ceb52b81132d963`（2026-11-28 05:56:41 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Phi-Bzero-rational-formal-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Phi-Bzero-C2-whole-I6-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -37,7 +37,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，真三加四必要F保。** f33/bb534正确同点返回、Δ0全保，旧848/578/整Δ0撤回。新原t0均值+自由NP迫ell半，完整值矩迫λ半/h=k=w0，再原第五列秩排除；整当前碰撞可付t/z，无Phi/W/Pf或D非零借用。余t非零继续，未付有限/空。
-- **Phi错链撤回，真t0/A0全闭。** U^27三生成非自由；bf3实际120秒/−14冻。当前D非零付t/z/A；fd9六×二保B/G(18,10)。B真有理图x=Q/(4u−4)全覆盖；H3=11x³−18x²+6x−1、C2=23x²−11x+2补图精确六×二。a15c末JSON exit1，前置原断言全过，末次数未输出；原C2新返回继续。
+- **Phi错链撤回，真t0/A0全闭。** U^27三生成非自由；bf3真120秒/−14冻。当前D非零付t/z/A；fd9六×二保B/G(18,10)。整B有理图覆盖，C2=23x²−11x+2全QQ二次域原排空：23.103秒，五固定t结式gcd仅已付(λ+1/4)²。H3未倒；6cde首次全头胶合/完整I6十二×二120秒1GiB。a15c末JSON exit1不改记。
 
 ### rankH3原ess6
 
