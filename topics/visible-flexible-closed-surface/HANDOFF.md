@@ -47,13 +47,13 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-live-design --> [全87α设计20态](notes/2026-11-28-2ecf-all-alpha-actual-18-20.md)已0；[仅后缀36α支own5](notes/2026-11-28-2ecf-outer-radius-continuation-actual-02-05.md)：G11 metric .180270、κ26.860、held .672782；均为新g设计。
 
-<!-- 2ecf-live-frozen --> [冻结α10的M32 own3](notes/2026-11-28-2ecf-frozen-alpha10-M32-continuation-actual-02-03.md)：G11 metric .154677、κ36.753、held .610131；真实频率加密仍未收敛。
+<!-- 2ecf-live-frozen --> [H65固定设计3、六次损失own4](notes/2026-11-28-2ecf-h65-frozen-design-three-sextic-four-actual-steps.md)：G11 metric .148516/κ27.6019/held .654279；own3峰较低但曲率更差，均未过。
 
 <!-- 2ecf-live-fixed-prefix --> [H65+6615XYZ+36α设计own6](notes/2026-11-28-2ecf-h65-two-space-six-actual-metric-designs.md)：G11 metric .20002114/κ20.86819/held .65494609；新g设计非同g收敛。原g5292 own1已留档；新输入继续。
 
 <!-- 2ecf-target-curvature --> [R259](results/R259-accurate-whole-prefix-two-sided-reach.md)全前缀reach>.1013；[R263](results/R263-prolonged-accurate-affine-coast-and-prefix-reach.md)延长coast .07/.08仍≥.1013385/.099；[R264](results/R264-fixed-cut-excludes-preserved-coast-at-point081.md)原cut/S排硬保coast至.081。新后缀另付。
 
-准确R233/R232与literal G10源须分别绑定。R261已支付同g H65真实前缀误差及reach；strong正做H65+6615后缀XYZ+36α的新设计，exact支付准确连接器，m12转独立新输入。改变source/基底须新baseline，不借旧几何给变化后前缀。强全闭度量/非局部点对/收敛仍未完成。
+准确R233/R232与literal G10源须分别绑定。R261已支付同g H65真实前缀误差及reach；strong已记H65+6615后缀/36α设计，转gap=.92新源；exact做新极坐标位置，m12做新材料长度S，均各自基线。改变source/基底须新baseline，不借旧几何给变化后前缀。强全闭度量/非局部点对/收敛仍未完成。
 
 <!-- 2ecf-r258-floor --> [R258](results/R258-accurate-fixed-ramp-signed-radial-metric-floor.md)：准确强位置前缀原样固定的同g误差下界>6.98105e−8；后缀不能消除。
 
@@ -69,4 +69,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:38:44 UTC；已读公开 main `dc3861b72ab1f793aa5820d140f062b82c5c3a17`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:43:12 UTC；已读公开 main `e81f3866d777791a06047d0c4abbd1500ccaac38`，根/课题 README 逐差无变化。
