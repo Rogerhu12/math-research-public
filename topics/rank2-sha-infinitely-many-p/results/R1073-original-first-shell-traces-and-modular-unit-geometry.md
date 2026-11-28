@@ -1320,3 +1320,69 @@ $$
 全部原 $P_B$；$V^r$ 和有理微分的极阶随精度增长。
 这没有升到新的连通挠层，也没有丢弃高阶精度；无穷多个不同
 $p$ 存在这样一层仍须证明。
+
+## 34. 原倒数点全权积联络的限制幂与上对数密度
+
+固定§31(AN1)的一条原导子和角色，$\rho=\varepsilon_{17}$或$\varepsilon_B^{-1}$，故$\rho(u)=u$。对$\mu_6$轨代表$P_i$置
+\[
+ W_i=\rho(P_i)X(P_i)^2\lambda_i,\qquad
+ Q_i=(x(P_i)^{-1},y(P_i)/\lambda_i^3),\qquad
+ b_i=c(W_i)/c(W_1),
+\]
+其中$c$为固定复共轭。由(AN3)，$b_i$在$K$上线性无关、$b_1=1$，且每个$Q_i$非挠。以下结论保完整原权，不把单项非零替代全和。
+
+完整六轨联络读数是代表和六倍。相容平方根下
+$W_{uP}=u^{-2}W_P$、$Q_{uP}=[u^2]Q_P$及$c(W_{uP})=u^2c(W_P)$；
+同时运输底切向量、点和联络时
+$[u^2]^*\theta_{[u^2]Q}=\theta_Q$，由$\theta_Q=-R(Z,-Q)\omega$直接核对。另换平方根同时添加两负号，结果不变。算术Frobenius等于$c$的惰性位有$b_i^p=W_i/W_1\bmod p$。
+
+取$M/\mathbb Q$为含$K$、全部原标记、$Q_i,W_i$的有限正规域，$d=[M:K]$用其实际次数。以带平凡联络的$E_1$坐标将已有$b_i$补为$M/K$的一组基$e_1=1,\ldots,e_d$；原$Q_i$维持在相应坐标，其余坐标取$Q=0$。在$A=E_1^d$上取$\boxtimes_i L_{Q_i}$及其积联络。$L_Q$及联络沿R1067 §§93–94的$\theta_Q$规范，其非零纤维给一维$\mathbb G_m$扩张
+\[
+ 1\longrightarrow\mathbb G_m\longrightarrow\mathcal G\longrightarrow A\longrightarrow0.
+\]
+该联络正则、平移不变：第三类微分在复覆盖的水平解为指数线性函数乘$\sigma(z-q)/\sigma(z)$或其倒数，格乘子恒定，给次数零线的平移群律；函数式中的极零由线因子吸收。新增平凡坐标不改变原权的曲率。
+
+将$D_e=\sum_j e_jD_j$水平提升为$X$，置$\mathcal R=\operatorname{Res}_{M/\mathbb Q}\mathcal G$。$X$是$\operatorname{Lie}\mathcal R(\mathbb Q)$中的有理向量。恒等点的单一$\mathbb Q$形式叶在复处由同一$z\in\mathbb C$同时进入全部嵌入分量$\exp_{\sigma\mathcal G}(z\sigma X)$。
+
+除有限整坏位，记
+\[
+ J_p(Q)=
+ \begin{cases}
+ G(\bar Q),&p\text{惰性于 }K,\\
+ K_\pi(\bar Q),&p\text{普通},
+ \end{cases}
+\]
+采用R1067 §§93–94的原联络符号。每个$\sigma\in\operatorname{Gal}(M/\mathbb Q)$中，$X^{[p]}$与底限制幂的水平提升之垂直差为
+\[
+ V_{\sigma,p}=\sum_i \sigma(b_i)^pJ_p(\sigma Q_i\bmod p). \tag{AQ2}
+\]
+主丛生成元反取只使全式换号。证明是各底方向可交换及$p$曲率对切向量$p$线性；原$\pm1$对数留数始终留在各自线中。这里$b_i$是切向量的系数，没有把它们放进对数留数而漏掉$(b_i^p-b_i)\theta$项。
+
+底投影的复Zariski闭包维数恰为$d$。CM完全可约性把指数线在$E_1^n$中的闭包维数化为所有切向量坐标的$K$张成维数；全部$\sigma e_i$在$M$内，而一个指定嵌入中的$d$个坐标已是一整组$K$基。底闭包到此指定$E_1^d$的投影因此是同源。
+
+全叶闭包维数$D_Z\ge d+1$。否则全闭包到上述$E_1^d$满且同维，它在原$\mathcal G$中的像也同维、与$\mathbb G_m$交有限。这个像是到$E_1^d$同源的阿贝尔簇：有限核满代数群同态有限，因而像是完备的。相应同源将次数零类$(Q_i,0,\ldots,0)$拉回为零，与对偶同源核有限而$Q_i$非挠矛盾。
+
+同一复均匀化在有限积、限制标量及固定射影紧化后具有阶至多$2$。其有理坐标是有限个$\wp(ez),\wp'(ez),\exp(az),\sigma(ez-q)/\sigma(ez)$及倒数的有理组合。利用$\wp=-(\log\sigma)''$及导数，统一清分母得整函数齐次向量；sigma的格准周期、基本紧域有界和Cauchy导数界给每项
+$|F(z)|\le C\exp(C'(1+|z|)^2)$。共同零只使该向量在这些点为零，仍给拉回$\mathcal O(-1)$的非恒零全纯截面，满足Herblot定义5.1、5.5。参数域$\mathbb A^1(\mathbb C)$只有一个无穷点；被均匀化的恒等芽只有一个，剩余域次数为$1$。
+
+令$S$为惰性于$K$的有理素数与在$M$完全分裂的有理素数之并，去掉有限坏素数。在惰性位，底向量限制$p$幂为$0$。普通位各分量的底限制幂为
+$a_p\sum_j\sigma(e_j)^pD_j$；每个嵌入中的$e_1=1$迫使公共比例为$a_p$。整组基和$M/\mathbb Q$正规性使所有底坐标被逐$p$幂固定，当且仅当$p$在$M$完全分裂；只需另去有限分母及整基指数素数。因此整个有理线$p$闭必在$S$，且在$S$内恰当所有(AQ2)为零。Chebotarev及部分求和给$S$的自然密度和Herblot加权密度同为
+$\delta_S=1/2+1/(2d)$。
+
+以$\beta$为全线$p$闭素数的Herblot**下**密度；权为$\log p/(p-1)$，归一量$\psi_{\mathbb Q}(x)\sim\log x$。其命题3.6给$(1-\beta)$算术性：高度估计只用最终$\beta_x\ge\beta-\eta$，故适用于下极限。定理6.1对这个单一有理芽和阶$2$均匀化给
+\[
+ \frac1{1-\beta}\le\frac{2D_Z}{D_Z-1},
+ \qquad
+ \beta\le\frac12+\frac1{2(d+1)}.
+\]
+由于$p$闭素数集包含于$S$，得到
+\[
+ \limsup_{x\to\infty}\frac1{\log x}
+ \sum_{\substack{p\le x,\ p\in S\\
+                 \exists\sigma:\,V_{\sigma,p}\ne0}}
+       \frac{\log p}{p-1}
+ \ \ge\ \frac1{2d(d+1)}. \tag{AQ3}
+\]
+这是真正的原倒数点全权积联络非零曲率素数的正上对数密度。所用原典为M. Herblot，*Algebraic points on meromorphic curves*，引理3.4、定义3.5、命题3.6、定义5.1/5.5及定理6.1：[作者全文](https://webusers.imj-prg.fr/~mathilde.herblot/publi/SL.pdf)。
+
+(AQ3)保两种素型、真实代数权以及限制标量的全部分量。仅在另选惰性Frobenius为$c$且$\sigma=\mathrm{id}$时，(AQ2)才直接读原$\nu_{20}$中的$\sum_iW_iG(Q_i)/W_1$。其它Frobenius或$\sigma$不得替换成该格；普通原导数以及惰性(BD1)全部四项与此联络的连接仍未付，所以本节不宣称主目标完成。

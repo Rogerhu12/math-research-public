@@ -12,7 +12,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 16:37:19 UTC按根规则8小文本备用通道读公开main 0bb4329f9d60760da2100b7c91263c82fe3c6d82、私库main 8d0dc5828d347fd07698863ffc45d5e46a972c36；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE df853bcaea67ff884399fe6fc8aae681b34aed8f本题认领仍进行中。
+- 2026-11-28 16:49:28 UTC按根规则8小文本备用通道读公开main 68b306406088223f0e5064fc43bd39e69e1774d6、私库main 54adc7c75e3caa2cab1033d684fef3cfbfb398f2；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE df853bcaea67ff884399fe6fc8aae681b34aed8f本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 原两库均blob:none/depth1/sparse-index。为释放本会话磁盘，14:34逐文件SHA验证后将两.git移至/tmp/rank2-0b097461-public-git-metadata-20261128及/tmp/rank2-0b097461-private-git-metadata-20261128、保原路径symlink；其pack仍指向同名前缀public-git-pack/private-git-pack-20261128，四目标勿删。迁移后HEAD/status均同原值，释放57028608B；没有删他人文件。
 - 根规则8的备用通道只传<100KB文字；本次只归档原人类open/log/H研究记录与写证明，无数学本地执行或可重算CI日志入库。原topic库存约47.7MB，新增仍守全部大小限制。
@@ -44,7 +44,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 
 [原§§1–16](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)、[17起](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)保固定E65/E8125秩≥2、完整390角色/5/双13/原E1及两canonical二阶；旧模数/周期/精度见归档。pair方向ε_k(u)=u⁻¹。
 §§13–22真三级/216商/72环类、全端点log非零及实际标记已付；完整两正则积分仍可相消，裸µ3 log和为零。§§23–27真首圈全Gauss/负权、四位及参考精度、七乘法、原有理插值整数高度、两固定Lie列均保全部原源，现有高度不足中央无穷p。
-§28规范h=−μℓ(s^p)/p整化，三真实jet两次消去给准确读a₂模p的AK7三格。§29完整全局化为−U₂+(1+κ₀)L_q，真驯和杀L_q；E17/65/8125在共同6630水平的原泛函已接通。§30完整(N₀^p,B^p,C^p)=6(−ℓU₀,c_pℓU₁,c_p²ℓ(−U₂+(1+κ₀)L_q))含参考；两目标杀头两基，参考首列非零。§31原全驯X²√x权经六角全格主项界证K独立，正确方向的倒数张量及一型p进log非零；未代原G约化与其它混项。§32普通完整390源首矩模p²接真实有理微分与非零π挠点全迹，所有极/π因子已付；迹赋值恰一的无穷p门仍缺。§33所有k精度用同一非零E[π]轨与固定极支撑留数迹检出G′，不升连通层、完整P保留。联合无穷p非零仍缺。
+§28规范h=−μℓ(s^p)/p整化，三真实jet两次消去给准确读a₂模p的AK7三格。§29完整全局化为−U₂+(1+κ₀)L_q，真驯和杀L_q；E17/65/8125在共同6630水平的原泛函已接通。§30完整(N₀^p,B^p,C^p)=6(−ℓU₀,c_pℓU₁,c_p²ℓ(−U₂+(1+κ₀)L_q))含参考；两目标杀头两基，参考首列非零。§31原全驯X²√x权经六角全格主项界证K独立，正确方向的倒数张量及一型p进log非零；未代原G约化与其它混项。§32普通完整390源首矩模p²接真实有理微分与非零π挠点全迹，所有极/π因子已付；迹赋值恰一的无穷p门仍缺。§33所有k精度用同一非零E[π]轨与固定极支撑留数迹检出G′，不升连通层、完整P保留。§34真实全倒数权积联络经Res及Herblot付非零曲率素数正上对数密度≥1/[2d(d+1)]；只指定c-Frob/分量读原ν20，未代完整四槽。联合无穷p非零仍缺。
 
 ## 其它门、更正与接续
 

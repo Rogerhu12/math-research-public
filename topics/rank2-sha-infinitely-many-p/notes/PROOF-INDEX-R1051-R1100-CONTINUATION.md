@@ -245,3 +245,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §99：真实全域一次类与原二阶中央的准确等价
 
 已证明：原全域标准椭圆单位零次整消失并唯一整除U；借AH实际两条特征理想等式及真实非有限signed线，证明z₁非零当且仅当a₂非零。原局部二阶障碍准确为真实一次全域类与固定有理点一级Bockstein的紧支撑配对。 [同编号全文](../results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1073 §34：原全倒数权积联络的正上对数密度
+
+已证明：原全部倒数点与真实代数权构成一个限制标量的固定积联络；补齐实际 M/K 基只加平凡坐标。复叶闭包维至少 d+1、阶至多2，Herblot 下密度界给惰性或 M 全分裂素数中非零全分量曲率的上对数密度至少1/[2d(d+1)]。仅指定 c-Frobenius 的指定分量直接读原 ν20；未将这项替代原中央全和。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
