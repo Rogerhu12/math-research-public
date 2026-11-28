@@ -11,7 +11,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 ## 原实际计算
 
 [33](notes/2026-11-28-run33-section16-retry.md)46133839513：官方cancelled；末完整1f0c5699 accepted1 g.49660239，二轮全步25eef仅Phi/Gram返、几何未返；32阶段/pure62854未完成，原预算保留。
-[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：1/8点723e77d7 g4084.59459拒，1/16 d0c53aa7原步继续。139角色原预算，返后才pure66120。
+[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：官方cancelled；accepted0，1/8完整g4084.59459拒，1/16 d0c53aa7仅统计返/几何未知；139源/原预算/32stage/pure66120未完成状态保全。
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：1/8点498c首accepted1 g562.38861，Phi/Gram升；原二轮继续。139角色/1333370外变量，返后才pure74162。
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细，Gram8.04008→6.96819，原16区间继续。
 [41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：8区间7b56ad6c全33相，Gram.481521/K226.253，原16区间继续。
@@ -39,18 +39,15 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 33末真pull：2026-11-28 16:09:06 UTC `f0e56017df20980d7adaeb41cf67322aa506f316`，双README无变；官方取消及原末观察见ownnote。
 
-<!-- visible-larger-parallel-34:start -->
-Actions34：[run 46135301432/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46135301432)；[全阶段记录](notes/2026-11-28-public-actions-46135301432-1.md)。running；已返2，exit=未返。
-并行34规则核查：2026-11-28 16:25:20 UTC，真实pull至`1435d658d2ec821955607b9e70cc01777f740608`，双README无变化。
-<!-- visible-larger-parallel-34:end -->
+并行34规则核查：2026-11-28 16:25:20 UTC，真实pull至`1435d658d2ec821955607b9e70cc01777f740608`，双README无变化。 官方取消；末数学观察与全部缺项见ownnote。
 
 <!-- visible-larger-parallel-35:start -->
 Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46137993293)；[全阶段记录](notes/2026-11-28-public-actions-46137993293-1.md)。running；已返2，exit=未返。
 并行35规则核查：2026-11-28 16:32:31 UTC，真实pull至`54dc95dd0aee5e3309ca837a3e5db5ac70d428c7`，双README无变化。
 <!-- visible-larger-parallel-35:end -->
-<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
-<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 75f9f78c0987bc30614a7e3b32e151475d00e2ce
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 38359abc47eb2bb3cf96599e2f6a4556384d4716
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull dea7c81081fd9d5306401b5d7b33b1f0d9401168
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a77d7acefdaaaf7ef783f2056e99a45b3539f51e
+<!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
+<!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952

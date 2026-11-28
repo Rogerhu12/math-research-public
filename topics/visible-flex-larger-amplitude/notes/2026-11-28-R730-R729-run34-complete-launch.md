@@ -400,3 +400,21 @@ current仍原7e06e86e，accepted_directions=0、complete_report=false、child未
   "current_distance_plus_phi": 1.5707963267948966
 }
 ```
+
+## 八分步完整拒绝、十六分步未返及官方取消终态
+
+ROOT独立读取官方 [run46135301432/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46135301432)，已 completed/cancelled，updated_at=`2026-11-28T16:28:17Z`；job `140949157288` 同为cancelled。setup/checkout/Python/依赖安装成功，唯一科学步骤cancelled，post-Python skipped，其余清理/complete成功。原360分钟限制与经过时间相符，但未读到官方取消原因注释，不把相符当作确切诱因证明。
+
+最后实际索引固定提交 `f7de5493f1d2ae1953a9030092809bcc3e1b2716`，`topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46135301432-1.md`，52215B，SHA256 `71d8261f963bdf0c215c4592704314344f8b011defe7aa67e26117fb5b628acf`，Git blob `5d9cf3bfcff9bc7c21cd85496a819bc69381cc47`；该原件发布时刻为16:25:20 UTC，科学子进程PID3687尚未自然返回。原source `c3228e9dd8668d9e03467a886eaa80eed21bd0f3`、model `989fec338c43e17cff092c7ed4ad6291e42ab06396162d1c732e52e4664e567c`、driver `5253389e2a281b09e0e1ba4a56ba6062f33624c39838c650d869413541149867` 与此note既定作用域一致。
+
+在此前已登记全步、半步、四分拒绝之后，八分点
+`723e77d7d0d67f9c3b7da803e82fac36afc475d44a727a928e0aebc03a482938`
+确实返回完整几何并被原接受准则拒绝：g `4084.5945881310377`、最大族reach、Phi `44941.863855047406`、Gram `1.033990956714419`。这是完整拒绝，与下一点的缺项不同。
+
+原十六分步
+`d0c53aa73d2eca8c4f890fc74392cfdac6c64666785a52ebaeb057ca4164e3d0`
+在15:54:21.758406 UTC仅返回Phi `42341.74118961174`、Gram `.9498765976857332`；末观察 `trial_accepted=null`、完整几何未返。该点不能称已拒或已收敛。累计真实accepted_directions=0，current仍是原初点
+`7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47`，
+原Phi `37754.690332034064`、Gram `.9309657725734736`、g `4033.8205903217813`、K `33159.051287192604`。不因哈希同另一模型初值而借用其几何费用。
+
+完整索引仍为 `complete_report=false`、`stop_reason=null`、观察逻辑失败0；官方取消不补出原求解器的数学退出理由。原完整139源/同固定目标/各全部参数及拒绝保前节与索引；32阶段终报告、后继pure66120和原剩余预算尚未返回，不登记为数学失败。raw坐标及追加几何状态仅留原runner，没有依据小统计直接续原完整迭代的状态。当前不盲目重复相同360分钟回放，等价保持全域/原预算的真实效率修改另交付另运行；课题其余科学继续。

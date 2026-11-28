@@ -106,7 +106,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### 原实际任务
 
 [33](notes/2026-11-28-run33-section16-retry.md)46133839513：官方cancelled；末完整1f0c5699 accepted1 g.49660239，二轮全步25eef仅Phi/Gram返、几何未返；32阶段/pure62854未完成，原预算保留。
-[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：1/8点723e77d7 g4084.59459拒，1/16 d0c53aa7原步继续。139角色原预算，返后才pure66120。
+[34](notes/2026-11-28-R730-R729-run34-complete-launch.md)46135301432：官方cancelled；accepted0，1/8完整g4084.59459拒，1/16 d0c53aa7仅统计返/几何未知；139源/原预算/32stage/pure66120未完成状态保全。
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md)46137993293：1/8点498c首accepted1 g562.38861，Phi/Gram升；原二轮继续。139角色/1333370外变量，返后才pure74162。
 [40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗/两细，Gram8.04008→6.96819，原16区间继续。
 [41](notes/2026-11-28-run41-actual-refinements-and-closed-geometry.md)46151180968：8区间7b56ad6c全33相，Gram.481521/K226.253，原16区间继续。
