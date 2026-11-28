@@ -607,3 +607,5 @@
 2026-11-28 17:02:18 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 rules-read-170218；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-rules-read-170218.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 17:02:55 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46168298645/1 R317-direct-normal-moments；小结见 notes/2026-11-28-2ecf-actions-46168298645-1-R317-direct-normal-moments.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 17:07:05 UTC — Astra-visible-flex-2ecfcd69-20261128：R320新h=.09真空间中心和|s|≤13/128两侧精确平坦条带，8192闭有理格给J>.58470557、物理主曲率<7.717021545；极角/高度全域嵌入、真两长端、条带held>.684、半宽<.733。非零混合Cauchy数据已实接原g，外接初场误差/曲率未达；本结论不代整闭reach或度量。

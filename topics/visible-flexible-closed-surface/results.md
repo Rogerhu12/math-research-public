@@ -190,3 +190,4 @@
 - [R317](results/R317-adjacent-equal-curvature-ports-complete-central-and-closed-shape-bounds.md)（已证明）相邻同κ=.63真圆口，phase∈[0,1.15]中央reach≥.115、全时双臂距>.844；若实际新外核两条明列形状界通过，则D≤3.830、held/D>.21726、δE/D>.05432、diamH/D>.38108。
 - [R318](results/R318-three-arc-cauchy-inlet-physical-profiles-and-finite-radial-jets.md)（已证明）真实柱口的三次/五次单侧径向项强制N/k与ez/k²；两个真窄层的N·(N/k)uu>22640/16590。有限native逐径解析表示不能准确脱柱，但无统一误差下界、不排C²无限精化；新增物理列已给真实求解入口。
 - [R319](results/R319-adjacent-low-ports-0350-central-belt-with-true-cubic-return.md)（已证明）R317同实双臂配c=.350新真实中央，.235平带/.100分段三次回窗/.015原领；221184闭盒K<8.65、支撑>.58082，真实肩球δAr<.010，中央全reach≥.115。整形变见证沿同实R317，外场/g按新.350入口另付。
+- [R320：非平面闭中心、完整精确平坦条带及真实混合Cauchy数据](results/R320-nonplanar-closed-center-and-exact-flat-strip.md)（已证明）：全条嵌入、κ<7.717021545，条带held>.684；新外接闭面的误差与reach另付。
