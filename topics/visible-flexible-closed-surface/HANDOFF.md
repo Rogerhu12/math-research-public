@@ -42,7 +42,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-new-material-ports --> [ΔS .025真实端口及双轴全角场](notes/2026-11-28-2ecf-strong-new-length-R205-axis-fields.md)：半弯两轴可控，但真实二维G11 .305104/κ28.262，未闭合强目标。
 
-<!-- 2ecf-HF-xyz --> [原g钟化HF完整XYZ own4/4](notes/2026-11-28-2ecf-clocked-hf64-actual-new-6615-positions-four-steps.md)：G11 .149780/κ17.4969/held .645993；新位置不借原R270证书。
+<!-- 2ecf-HF-xyz --> [原g真实own3后两次双钟](notes/2026-11-28-2ecf-hf-xyz3-frozen-g-two-actual-double-chart-steps.md)：G11 .152624→.116619，物理图像保持、κ约17.36；真XYZ旧态全部保留。
 
 <!-- 2ecf-R271-components --> [R271](results/R271-gap092-three-complete-components-and-all-pairs-reach.md)、[R273新上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)：各自三分量全相位 reach≥.097；新空间映射保前缀、Jacobian>.23809，连接带仍待。
 
@@ -64,4 +64,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:47:50 UTC；已读公开 main `72f6257e5a4b22682917798b62eaa53cdc80aac7`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:49:13 UTC；已读公开 main `e1e113d6f00dba67cb3c38188cee399cc94292af`，根/课题 README 逐差无变化。
