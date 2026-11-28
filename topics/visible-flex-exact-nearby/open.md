@@ -167,4 +167,6 @@ PWA96完整7目标消费者(96,1,1,96,1,4,2)已成，直接重合原canonical/G/
 
 [CFC](results/R149-supplement-complete-normalized-TC-columns-and-finite-physical-interface.md)完整96列/forward+adjoint/mean/共ρ/physical sources的10目标接口已成；SC3、DCP18、H96及PWA96的全部actual/execution真实准入前没有manifest。原e96不放大重算；100×97表不是全方块。WBN/GBN完整后置目标实际成功，joint分别<.001118591和<.000163012，全部96exact centres/mean/各旧候选保，非fullSchur。
 
+[JWS](results/R133-supplement-joint-Wiener-contraction-and-small-complete-angular-inverse.md)已从原SJ联合Wiener界付全strict同J0<7/5、L2→H1<29/5、DJ>3/8；15新有理组合一次全过。新signed G核可直接读此整候选，完整负阶multipliers/真实phase/positive correction/root/mean仍独立支付。
+
 全Γ/γ低高准入、同态H1/fullmean/true residual0、core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps和最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。

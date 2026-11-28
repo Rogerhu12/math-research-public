@@ -272,3 +272,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 08:37:57 UTC / visible-exact-astra-b0d5a16-20261128：CFC七件锁组whole SHA核过，完整proof/entry已审阅；全96×2560/8192 signed运算、opposite2048+无限tail、SC原e96/PWA96共ρ/negative4/world2及mean关系保。10新目标只在SC3/DCP18/H96/PWA96完整actual和execution过后准入，未提前造manifest或执行科学目标。公开完整源码与证明，每项独立推送；100×97不是全square，high/ν/regular/normalizer/Robin欠项未消。TF46120139018于08:31:39终态failure，已转完整终态prefix诊断；当前TC/H96/DCP仍运行，成功自然目标禁止重复。H压缩前全文固定f5e9d32d0保存，旧义务与失败账不撤。
+
+
+2026-11-28 08:49:08 UTC / visible-exact-astra-b0d5a16-20261128：JWS新全strict角向逆已证：原SJ whole两分量S,D不拆散，UV≤D(S−D/4)/4、UVφ≤D²/16，完整L2余项<3.711826；全频P0L<21/25与4η−L>5/7给同J0<7/5，∂J<28/5、H1<29/5。原mean分母保相关得DJ>3/8、aJ及逆A0<5/2。两个whole原件身份核过，15项新Fraction首次通过，临时3674B/19843e50…；无旧producer/科学/恢复，新proof及reader登记。新signedG owner直接绑定新有理常数，不重新运行这15项；负阶窗与positiveBVP/fullSchur仍独立，不用新L2界冒充。

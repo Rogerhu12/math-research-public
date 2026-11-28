@@ -1,17 +1,17 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:38:20 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:51:54 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至a3e22d194f5ce177e678d838bfe6860ec4378b58；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至9b350a1bdb508d8fb98031ff7b4c81fc1d28daf1；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META10新160件仅去JSON字符串外ASCII空白，净956083B；whole receipt86645B/52fd82fa…，原6fd4325b3全保、科学0。本批推送前完整扫描后每次pull等价核changed/untracked与全160hash。META1–9全账见6fd4325b3完整H/原receipt，不重做。
 
 ## 同一对象与完整旧账
 
-[本次压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/f5e9d32d06a7d7d01fa89c79a5a1642f78f8bff3/topics/visible-flex-exact-nearby/HANDOFF.md)及其8cd255/842c/260ee/5c94/2b35/f73d等递归前页，保全部原球/SHA、失败unknown、域/指数/units/mean/ports与未付条件；压缩只索引，不撤义务，不重成功。完整结果见results.md/open.md和各proof。
+[本次压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/5c6d9e2c0e0c6e08113f391e47c212484cfefaca/topics/visible-flex-exact-nearby/HANDOFF.md)及其8cd255/842c/260ee/5c94/2b35/f73d等递归前页，保全部原球/SHA、失败unknown、域/指数/units/mean/ports与未付条件；压缩只索引，不撤义务，不重成功。完整结果见results.md/open.md和各proof。
 raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47；Zdef6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04。
 α=6890507429876859/9007199254740992，ν0=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904；真δ*隐式且|δ*|<9.368259853002e−11，不能替0/中点。
 最终须同一连通闭M、固定g、C²连续精确C²嵌入族；有内点H逐点固定、diamH≥.2D、held≥.05D、含反射δE>0、全族reach≥.03D。geometry43584188751/26须同η0全core+caps moving-state C0≤1e−4、|δν|≤1e−5及全部matching，才给held>.05075888242D、reach≥800D/25039、Hdiam≥360D/511、marker145..148。ν*/Γ*/η/metric一次冻结；purephase未加静态markers仅刚体。
@@ -19,9 +19,9 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 ## 实际入口和终态（各入口note/actual保存whole身份）
 
 - TC46117170011/1仅续原45928452441全2677/7724 accepted union后的5047缺格；连续1605/游标1605,3788,6000，原四数组/96列/真根/腰不动；当前partial不冒完成。
-- BNC46117248905全7成：192全observations、96exact signed centres/joint<.001383111、双mean保。actual70893B/2df0e900…、execution36848B/081c3c4b…，全238输入通过。必要carrier1、旧science0，旧零目标失败保；target投影不是Θ，见ABNC。
-- BGR46117818798全3成：9216signed Gram、新whole rowerror.096899708197959…；actual8635B/901e3855…、execution30664B/2a8018cd…，原validator过。BNC后继保全96中心/四旧整费/means正向重合，不相减；完整应用R149 ABGR。
-- BFP46118996598全19成：全512/2560/8192/Θ96列，actual40099B/5ab3a6ed…、execution31637B/0bcb393b…；δX≈3.61795987564e−5、原Θjoint≈.03165373429，303输入/原validator全过。全a/mean/PDE/flow/w/alias/globalΘ保；后置新consumer不重旧目标；完整应用R147 ABFP。
+- BNC46117248905全7成：192observations、96exact centres/joint<.001383111、双mean全保；238输入过。whole身份/费用见ABNC和5c6d9完整H。必要carrier1、旧science0；target投影不是Θ。
+- BGR46117818798全3成：9216signed Gram、whole rowerror.096899708197959…；完整actual/execution与原validator过，见ABGR。BNC后继只换整row费，四旧费/96centres/means保。
+- BFP46118996598全19成：全512/2560/8192/Θ96，δX≈3.61795987564e−5；303输入/原validator过，whole身份/全部误差/means见ABFP和5c6d9完整H。旧科学0，完整global后继WBN已成。
 - TF46120139018/1：真low193/1424格/4273全97/96枢轴与四whole maps在08:31:39终态failure；正在核已接受prefix及失败原因，未重跑；原η/repair/mean/真根/dr全保，manifest68583B/9bee97cd…（86/21）。仅当前未成cell可4→64细分，非fullDF/CFB。
 - WMT46122573619全14成：145输入/原UACT21 validator过，actual12593B/587ec4c2…、execution8924B/1b022e58…；完整global Θerror<6.957962，原850/finite.31698各scope保。完整96/8192/2048/4Grams/model1..2^20+无限tail均齐，旧science0；见WMA。
 - H96首次46122740303在science前RESERVE120000≠210000失败，0目标；wholelog218380B/3e8c0d84…和原manifest cba22d030/0bf3e4ab保。仅容量合同修复0ed00cf19，manifest61916B/60f1e7ca…（114/51），原7目标/数学不动；46123190757/1运行。全8192/原TC-RHI/C0无界频/waist G96/mean/actualworld保，9新有理比较不重；非truePDE修正。
@@ -43,6 +43,8 @@ PWA更强actual竖直锚已成：同物理角GW保e/E/P/jumps与末端角桥，a
 WBN run46125286420/1全1成、17whole准入/原validator过，joint<.001118591；96exact centres/means和旧全候选保，0旧science/0载体恢复。完整应用R147 WBN。
 
 GBN run46125342339/1全2成、18whole准入/原validator过，joint<.000163012；96exact centres/means和旧全候选保，0旧science/0载体恢复。完整应用R147 GBN。
+
+JWS已证全strict同J：用原联合S,D界得完整L2余项<3.711826、全频P0L<21/25，J0<7/5、∂J<28/5、L2→H1<29/5；原DJ>3/8、aJ及逆A0<5/2。15新Fraction首次全过，旧science/恢复0；完整SJ/原JI身份保，不能把J0贴到负阶窗或延长strict域。新signedG核直接消费。
 
 FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
 

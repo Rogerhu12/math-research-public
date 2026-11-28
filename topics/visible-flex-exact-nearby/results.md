@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [JWS：联合Wiener界与完整角向逆](results/R133-supplement-joint-Wiener-contraction-and-small-complete-angular-inverse.md)：同一whole strict实族保两分量联合S,D，完整L2余项<3.711826、全频真收缩<21/25，得J0<7/5、L2→H1<29/5及原DJ>3/8；全部primitive/mean/频率保。15新有理组合一次过，旧science/恢复0；负阶窗另付对应multipliers，不授positiveBVP/fullSchur。
+
 - [CFC：完整归一化TC有限列和物理接口](results/R149-supplement-complete-normalized-TC-columns-and-finite-physical-interface.md)：保全96列、2560/8192完整signed乘积、2048异号head及无限tail、SC原e96和PWA96共ρ；10个新自然目标的源码/准入已齐。只有SC3/DCP18/H96/PWA96全部真实成功才造manifest，当前0science；100×97观察表不冒作全方块，独立mean/ν/high/Robin义务仍在。
 
 - [GBN实际完整参数列后继](results/R147-supplement-actual-Gram-refined-target-nu-column.md)：run46125342339/1全部2目标成、全18输入和原validator过；同一96exact centres/means，新的joint error0.000163011451549838…，旧各整候选和费用保。仅换whole B row费，四旧费原样正加；仍是target读出。旧science/载体恢复0，非fullSchur。
