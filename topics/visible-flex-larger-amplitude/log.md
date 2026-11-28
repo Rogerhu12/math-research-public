@@ -511,3 +511,7 @@ ROOT从61完整父及9整编辑文独立重建111整JSON，3158155B每件bytes/S
 ## 2026-11-28 17:31:50 UTC — 47完整原半波链本机Horner值路径正常启动
 
 root17源与两ready独立逐字三身份同；原两输入整step、157/7科学词、575/564正式和64实时selectors逐项保留，140角色/1,333,370变量/32stage及全部原预算/强制复读不减。正常wrapper构建完整源后跑science/pure，非夹具。旧33官方仅证cancelled，已校正请求表述及两manifest身份。完整源参/审读/范围见notes/2026-11-28-run47-complete-native-horner-chain-launch.md；本次没有实际run/编译/新点/加速结论。 双README云核至`f771a5e4f828d977ff5477c341b843546ee12de2`无变（非pull）。
+
+## 2026-11-28 17:35:39 UTC — R771唯一正凸全经线及两支完整全场实际入口
+
+严格coercivity/B=0右导数/正Hessian得全角全相唯一根，整gvv/真实端点及两开领准确；同R764初g的.42目标族任意E3商距≥.0315，初reach.132。余两Gram/正相全管独立欠。四新源和五完整入口件ROOT全读；两支18源冻结、各3层可行角形变/连续guide/十一图全场及七相六中相原预算不减。现仅正常触发，无未来数值；完整proof/manifest/ownnote见续results索引。 双README云核至`8c4936f3ea7c1fd8caaee057fce69b783dd05475`无变（非pull）。

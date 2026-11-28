@@ -137,3 +137,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 闭连通C²嵌入/全t强C²、同固定g；D整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻整mesh；根§15完整源参/run/whole identities、raw留runner。先全标准，再提高三比值。
 
 [47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)：原33完整140角色/1,333,370变量/32stage，严格非求导Horner值路径；17源/两ready root逐字核同，原157/7词和全部复读/预算保留，正常入口启动，未来数值未返。
+
+[R771](notes/2026-11-28-R771-unique-convex-meridians-and-two-complete-launches.md)：同R764 g全经线唯一B>0凸根、全gvv/两端/固定领准确，.42整像δE≥.0315；两支各3层可行形变+十一图全场原预算启动，余g/正相管欠。
