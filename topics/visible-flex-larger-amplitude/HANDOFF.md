@@ -63,4 +63,4 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r734-publish-->R734 [完整补录](notes/r734-actual-Hermite-46139111288-1.json)；双README真pull `f0c64cfc0a6eb6e1378c0b42bc38070378fbdcd0`。
 <!--r738-publish-->R738 [415片](notes/r738-actual-gap-46139897443-1.json) 双README真pull a9c5431fa8eef03034309c5cad77f7accac022a0
 <!--run36-bent-disk-->36 [实测](notes/run36-bent-disk-46141466656-1.json) 双README真pull 04a84e37dd4e5046ea8e95b2d012a62fb6da4872
-<!--run37-bent-disk-arclength-->37 [实测](notes/run37-bent-disk-arclength-46142745238-1.json) 双README真pull 55813794a56e0d0f9b39fcad67dfdbbf6fc7c5b6
+<!--run37-bent-disk-arclength-->37 [实测](notes/run37-bent-disk-arclength-46142745238-1.json) 双README真pull af42edb841feb677ef8469e83b703f622f8704f7
