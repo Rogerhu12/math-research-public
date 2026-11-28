@@ -160,7 +160,7 @@ $$
 \|A_{N,t}\|\ge16N.
 \tag{11}
 $$
-每个 $A_{N,t}$ 属于 $\mathcal A=\overline{\mathbb C[I,C]}$，因而属于原物理 UHF 代数。这里直接使用 [R23](R23-strong-star-polynomials-and-tail-block-projections.md) §3、(3.3) 证明中的有限头截断 $C_L$ 及 $\|C-C_L\|=a_L\to0$；[R174](R174-last-column-boundary-state-and-negative-integer-shift.md) §1 也明确记录了这个 UHF 包含。原尾只需重编号。选共同有限前缀长度 $L_N$ 以及该前缀上的矩阵 $A^0_{N,t}$，使
+每个 $A_{N,t}$ 属于 $\mathcal A=\overline{\mathbb C[I,C]}$，因而属于原物理 UHF 代数。这里直接使用 [R9](R9-radial-odometer-and-nilpotent-approximants.md) §3、(3.3) 证明中的有限头截断 $C_L$ 及 $\|C-C_L\|=a_L\to0$；[R174](R174-last-column-boundary-state-and-negative-integer-shift.md) §1 也明确记录了这个 UHF 包含。原尾只需重编号。选共同有限前缀长度 $L_N$ 以及该前缀上的矩阵 $A^0_{N,t}$，使
 $$
 \|\widehat A_{N,t}-A_{N,t}\|
 \le\|A_{N,t}\|/16,\qquad
