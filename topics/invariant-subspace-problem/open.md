@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W原D显式有限覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)保P′e93/k119、非零k覆盖度≤51402，全权长≤51402/均值≤308412/七坐标≤616824，含头零/重数。新七行1616[首次触界](notes/2026-11-28-unit211-W-seven-row-e-module-first-timeout-8542.md)：180.086869690秒/781608KiB/−14，最后200约化仍无Popov基/商长/D目标或新cover；11083仅未完成pole记录。冻结，转整Lhalf二次原代数，不改序重跑。全有限原条件继续。
+[全W原D显式有限覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)保P′e93/k119、非零k覆盖度≤51402，全权长≤51402/均值≤308412/七坐标≤616824，含头零/重数。新七行1616[首次触界](notes/2026-11-28-unit211-W-seven-row-e-module-first-timeout-8542.md)：180.086869690秒/781608KiB/−14，最后200约化仍无Popov基/商长/D目标或新cover；11083仅未完成pole记录。冻结不重排。首派0c9整Lhalf二次域原D六行目标180秒/4GiB，仅最终已约系数分母给cover，Gauss保全部中间极点/分歧。全有限原条件继续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
