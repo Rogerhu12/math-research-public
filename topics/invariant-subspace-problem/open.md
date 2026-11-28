@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Haar-flat-curve-norm-separation-2270-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Haar-weighted-omega-square-curve-2275-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar I/F、closureF=I、同列强桥及每非零列本性保。全增生Pθ平方分子已排；同Y²=CP²必P⁴∈closureCA。B=closure(L C′)真收缩BAI、M(B)=C′等距保放大；L/CL/Pθ/RnPθ真Ω，∩C^kB给有限组整数逆共同图核；C逆非regular，平方源存在未付。新[旧等权全曲线与范数稠密主理想分离](results/R267-appendix-original-flat-curve-and-norm-dense-principal-ideal-separation.md)：同原Z的有界uν满足Luν单位、Fνuν→0，完整0/1/2翻位及UHF carry余项全付，得dist(L,G C′)≥1/M0>0，G=Q*/T(z)/P(z)/X(s)每固定参数。故这些旧分母在B上乘子像不稠密；全旗准亲和和共同幂仍真，不排平方分子或闭根。新加权块来源正研究真正Ω分母，普通格/一般flat平方来源继续。
+原Haar I/F、closureF=I、每非零列本性及同列强桥保。全Pθ平方分子已排；旧等权Q*/T/P/X每固定参数dist(L,G C′)≥1/M0，不能直接作B稠密乘子。B=closure(L C′)真BAI、M(B)=C′、L/CL/Pθ/RnPθ真Ω和整数逆共同图核保，C逆非regular。新[加权同Ω原二次曲线](results/R267-appendix-weighted-original-square-curve-in-one-norm-dense-denominator.md)采用j≥1加权原块，仍最低C²/γ偶，Σdν||(I−Fν)L||可和；准确尾L范数界及前缀C^e单位返真实B范数单位。固定v=QhatPθ及每非零u(s)=Xhat(s)Pθ均F∩Ω，||u(s)²−Cv²||≤常数|s|²，所有普通旗准亲和和原首位γ桥保。这里新v不同旧等权Q*和已排单Pθ；未得奇列一致界/强子列或实际平方源，普通格与一般flat继续。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088与U0另3保；六ray/内部u闭，e,k,u单位、ell整。整Vbar已由fbf84真0.160428316秒/0三完整原值返1及全部深中心/µpole补图排除。新[整个δ正阶排除及1009整单位](results/R150-appendix-unit211-W-b0-entire-delta-positive-exclusion-and-1009-integral-unit.md)b2a唯一run46180594208/job141089040156真10.529501826秒/38588KiB/0，原N5先消δ逆，原q头单位付µ整，同µ cross/Rnorm/Nnorm次数58/59/60，完整原返回S²⁴（终端分母1），七个S零支全部独立原纸证覆盖，得每个1009位置vδ0。当前e,k,u,δ,Vbar均单位，尚非全部原分母。root接ell深，只余Ast同时深U−5/4,k−1/2；原R先排Ast单位、原qT归一排µ/Tpole，完整N5/ell²正则式继续付有限中心。geometry接m深，M/其他分母与全W空性仍开。
+W旧闭支/≤616824、b0≤23088与U0另3保；六ray/内部u闭，e,k,u单位、ell整。整Vbar已由fbf84真0.160428316秒/0三完整原值返1及全部深中心/µpole补图排除。新[整个δ正阶排除及1009整单位](results/R150-appendix-unit211-W-b0-entire-delta-positive-exclusion-and-1009-integral-unit.md)b2a唯一run46180594208/job141089040156真10.529501826秒/38588KiB/0，原N5先消δ逆，原q头单位付µ整，同µ cross/Rnorm/Nnorm次数58/59/60，完整原返回S²⁴（终端分母1），七个S零支全部独立原纸证覆盖，得每个1009位置vδ0。当前e,k,u,δ,Vbar均单位，尚非全部原分母。root接ell深，只余Ast同时深U−5/4,k−1/2；原R先排Ast单位、原qT归一排µ/Tpole，完整N5/ell²正则式继续付有限中心。m深k−2纸迫唯一U29/49、µ−7/2，真E1头−8δ付f整；新e9ceaf四维全f/σ十原target1首次30秒/256MiB，全部根/重数保。Q2余图、M/其他分母与全W空性仍开。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 

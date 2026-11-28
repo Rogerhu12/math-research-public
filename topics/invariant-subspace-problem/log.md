@@ -86,3 +86,9 @@
 - 2265实际mainbbd8e588b2a94a0e5a4ea3ecf4e2a37f4a7f7442，run46181834093/job141092916204；19:34:24 UTC pull75c8812f6aca7d4c530a3ae72899e81ad8bee755两README无变，私库QUEUE继续进行中。
 - 新019c原全等权曲线范数分离：完整翻位正交界与UHF余项给||Zuν||有界/长块压零；准确dist(L,G C′)≥1/M0覆盖Q*/T/P/X全部固定参数。
 - 全旗quasi不自动给B的norm稠密乘子像；不撤原强族或排根。正向加权来源继续补真正Ω，root续ell深中心完整N5/ell²，m及Phi原小商并行。
+
+2026-11-29 03:41 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2270实际main1c27227da7f6d28ae5ae614065ccbcd020a3e778，run46182379326/job141094607099；19:40:44 UTC pullf4799f3f1749a0dcdba3a11faae4aa1a8f81d9a5两README无变，私库QUEUE进行中。
+- 新ea201加权同Ω二次曲线：仅j≥1收缩块完整L后误差可和，原前缀/尾费用付真实norm稠密乘子，v/u(s)∈F∩Ω及同固定Cv²范数近似，未得奇列界。
+- m深k−2新e9ceaf/4c73输入由原q/R迫唯一中心，真E1付f整，四维十原全根target1；30秒/256MiB固定首次派发。课题外仅新增本题workflow，未改其他课题。
+- root继续ell深原N5/ell²残式；geometry续Q2有限µ，Phi续五生成真作用，Haar续同Ω奇列费用；不重放旧门。
