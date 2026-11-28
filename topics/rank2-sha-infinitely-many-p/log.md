@@ -188,3 +188,13 @@ root从原完整mixed逐项证明§31：实际Mobius/半权生成函数校准全
 推送前实际本地双pull（本次发布第5次）：公开2026-11-28 09:58:13 UTC到c172cb36fed1c55470f259ee41ed4ead41fbdc6d，私库2026-11-28 09:58:20 UTC到9df74523d451282ebbfcf6f96d25f6dad7dfd428；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea，无>5MB。
 
 推送前实际本地双pull（本次发布第6次）：公开2026-11-28 09:58:31 UTC到2b3c3ec027d6174a79ddaf53f1c46ee96c5bd258，私库2026-11-28 09:58:38 UTC到8c1a44efde730be649aecf9aa513cb07bc9c43ba；四README同已读blob，QUEUE acf2388c85de8db9f0300ce420f5b5db4c7c4779本题行未变。公开基线3223/46203779B/tree6e8eb8cd40a6a6d9fced80e1947a8fd716a6b5ea，无>5MB。
+
+### 2026-11-28 10:06 UTC：R1067 实际整 Frobenius 及 v16 第一完整可见前缀
+
+root逐式手核central_ultra v2(F1–F16)，另核Q.Yan(2024)原文Remark2.5/Theorem2.6/(2.1),(2.2)/Remark2.7与étale变基，替除不适用于超奇异点的Katz ordinary附录引用。两归一行、Serre/Cartier和同一δ_R的真实高位与F16准确全迹已付；无数学数值运行。旧HANDOFF逐字归档再压缩，所有未闭门保留。
+
+09:59:36 UTC读v16/run46126639698/job140922574854的非终完整可见前缀至09:53:17.1519988Z：2101729B（首UTF-8 BOM及LF）/SHA256 e0e24b4565d45b59d8445515bba42820f6818d9898ab82429c2bbe8ebcea1f0e，共4458行/4163实际JSON记录。root独立读取并hash，与arithmetic_ultra一致，逐固定request核74源码及workflow完全同hash。host manifest 9656906262fe4310ee6e6c11af20904a0e344ffb98a689ca3abc5102d0134921、request 2f368eac7c35dbcc58d9e9508f75ab15b37074fb53389cd72d47421d77a6ce13；两原char0 PASS于08:37:45认证envelope b59c77ae691642aed2b8039b904e1280289eec879e16205b357b601fcc6cdb25，network none/source RO/token host。09:37:42两原endpoint maps整图全认证；已32全operator、36直接乘积，09:43:06及09:50:44各一条central T全306 graph，4operation-Hermite ideal已返。末为entire original infinity fiber的第74/306列，未出现所选4graph/4outer或最终PASS；step4仍in_progress。不保存日志文件，不启动并发heavy。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:07:51 UTC到df0c989652a0f243a1bae3cb37e116932455cc99，私库2026-11-28 10:08:03 UTC到b805d0423ed01678f1493c04439c4a12c7b3b62b；四README同已读blob，QUEUE 79c5c79d6881668feb645f82e00e2a566ffc4e7f本题行未变。公开基线3223/46221187B/treed646be61998594ac0166b02245c829de9a15f484，无>5MB。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:08:54 UTC到9b5f0ddc7050c06218c3fa21514fa38d24b16b41，私库2026-11-28 10:09:01 UTC到f31b7686c176a33311ef26bb40257ca5fe64cf23；四README同已读blob，QUEUE 79c5c79d6881668feb645f82e00e2a566ffc4e7f本题行未变。公开基线3223/46221187B/treed646be61998594ac0166b02245c829de9a15f484，无>5MB。

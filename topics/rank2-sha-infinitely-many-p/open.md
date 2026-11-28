@@ -209,3 +209,7 @@ R1067续证 §§29–30 从同一冻结水平质量给原η⁴Θ_fΘ_g固定权�
 R1067续证 §31 逐原冻结γ/δ与所有34×2标签，证明实际半权Rankin–Cohen括号的精确周期规范；二项身份给Q√−17、模2𝔭17的完整68余类调和theta源，不删非primitive项。临界N=(p+1)/2括号在指定CM点真被p²整除，首商准确返回原完整低half卷积；两Frobenius符号分别给D(Hfg)与H(fDg−gDf)。在(-17/p)=-1射线，逐α恒等式的全Fermat差norm给H_(p+1)=68DτΘ+68^pDτ^pΘ−p²Ξ，c_N恰含一p，故保RC Fourier输入至p³。异权q同余仍需原同权E2/Hasse/Spencer和CM除p比较，不直接推出canonical非零。
 
 [同编号完整证明](results/R1067-original-first-wild-rubin-native-euler-continuation.md)，(RC1)–(RC12)。下一消费完整Ξ与(140)/(145)–(146)的同一除p读者；保supersingular CM的Hasse零和全部异权/系数作用费用。
+
+### R1067 §32：实际 Frobenius 行、全局 Cartier 核与完整两位差
+
+[同编号完整续证](results/R1067-original-first-wild-rubin-native-euler-continuation.md)（F1）–（F16）从物理族整晶体给W=M⁻¹CM(t^p)及两归一底行，支付原EN/Ed全部p−2窗与首列除p精度；固定权三截面的两Serre类和真实微分迹准确返回原L_p/L_d，完整h与输出额外p保留。原参数E16的Cartier(ds/H²)=ds^(p)及指定Q_p付全局首层；在同一所缩étale图S=W22、G=W21/p及δ_R=(R^p−φ*R)/p为真实有限精度代数核，F13保p²微分误差，F15/F16保两/三位全部mixed并给准确trace。未把晶体非退化或固定类非零认成原共同分子非零。

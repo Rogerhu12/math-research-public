@@ -1792,3 +1792,354 @@ $$
 下一步继续把(RC12)的全余项与(140)、(145)--(146)
 的同一实际读者接合，争取原 canonical 的跨素数非零。
 本节所有式子为上述逐项证明；没有数学数值运行。
+
+## 32. 原完整权一读者的相对 Frobenius、Serre 对偶与全局 Cartier 返回
+
+沿用§§27--31的固定覆盖、原 CM 点和冻结的全部水平坐标。
+这里的 Frobenius 矩阵属于**物理椭圆曲线族**的相对一阶上同调；
+Serre 对偶及 Cartier 所在的曲线则是**参数曲线或其固定水平覆盖**。
+以下均为手证。取原好素数 $p>211$、$p\equiv5\bmod6$，$d=p+1$。
+
+### 32.1 族 Frobenius 的两条准确截断行
+
+在原参数曲线 $E_{16}$ 取实际代数参数及不变微分
+$$
+ t=-g_2/24,\qquad g_3=-4\sqrt{1-32t^3},\qquad
+ ds=J(t)dt,\qquad J(t)=(1-32t^3)^{-1/2}.
+$$
+一切平方根在原点取常数一。此处 $t$ 与原 $s$ 的一阶系数相同。
+在此光滑形式盘上，对目标盘坐标 $T$ 取 Frobenius 提升 $T\mapsto t^p$。
+有限 étale 水平覆盖上用原点及其相对 Frobenius 像所在的两个形式盘。
+在剩余域扩张时使用 **relative** 约定：目标为 Frobenius twist，
+将物理系统从 $\mathbf Z_p$ 标量扩张，以 $T\mapsto t^p$ 线性拉回目标坐标。
+若再用绝对半线性记法把目标认回原盘，输出系数须作相应的逆 Frobenius；
+并未把带水平结构的点假设为 $\mathbf F_p$ 有理。输入的
+$h=fg$（亦可 $h=f^2$）始终是源盘上的实际全函数。
+
+以§29的代数基 $e_0,e_1$ 写相对晶体 Frobenius
+$W(t):\varphi^*\mathcal E\to\mathcal E$，列为像。该矩阵为光滑
+proper 物理族的一阶 Gauss--Manin 晶体在这个提升上的矩阵；
+其系数是几何 Frobenius 在代数基中的 $p$ 进系数。
+记 $A,B$ 为(121)的解，$A',B'$ 一律对 $s$ 求导，作为 $t$ 的函数时
+代入 $s(t)$。Wronskian 与连接给
+$$
+ M(t)=\begin{pmatrix}A&A'\\B&B'\end{pmatrix},\quad
+ M(0)=I,\quad \det M=1,\qquad
+ W(t)=M(t)^{-1}C M(t^p),\quad
+ C=\begin{pmatrix}0&u\\-p/u&0\end{pmatrix}.
+ \tag{F1}
+$$
+确实，$M$ 把代数基坐标送到以原点为初值的水平坐标，
+从而 Frobenius 水平性给中间常矩阵 $W(0)$。这些物理周期形式解
+及 $t$ 均定义于 $\mathbf Q_p$，所以目标物理矩阵无需另换系数。
+在物理 $E_1:y^2=x^3+1$ 上，三次 CM 使两条特征线上的 Frobenius
+互换：若用有三次单位根的非分歧扩张，其系数 Frobenius 交换两个特征值。
+杯积乘 $p$ 给 $\det C=p$。原 de Rham 整格上，Frobenius 整且
+模 $p$ 杀 Hodge 线，因为相对 Frobenius 拉回正则微分为零；
+$e_0,e_1$ 为好整基（其杯积为单位）。故 $u\in\mathbf Z_p^\times$。
+这也证明族矩阵的首列模 $p$ 为零。这里所用的一般整比较见
+P. Berthelot, L. Breen, W. Messing, *Théorie de Dieudonné cristalline II*,
+LNM 930 (1982), Prop. 3.3.7 与 Th. 2.5.6（阿贝尔概形的反变
+Dieudonné 晶体即相对一阶晶体上同调）；提升上的 de Rham 比较见
+P. Berthelot, *Cohomologie cristalline des schémas de caractéristique
+$p>0$*, LNM 407 (1974), Cor. V.2.3.7。对本文的光滑有限型特殊纤维及
+其 $p$ 进平坦光滑提升，Q. Yan, *A local construction of zip period maps
+of Shimura varieties*, Rend. Sem. Mat. Univ. Padova **151** (2024),
+[pp. 219--223, Lemma 2.1(3),(4), Remark 2.5, Theorem 2.6,
+(2.1),(2.2), Remark 2.7](https://doi.org/10.4171/RSMUP/137)
+明确给出 étale 及完备盘变基、整水平 $F,V$、$FV=VF=p$、Hodge 线
+的 Frobenius pullback 等于 $F\bmod p$ 的核及抬升后过滤的比较。
+这些命题适用于这里的一般椭圆族。杯积的精确乘子也可用原主极化：
+相对 Frobenius 的对偶同源为 Verschiebung，故
+$\langle Fx,Fy\rangle=\langle x,VFy\rangle=p\langle x,y\rangle$。
+
+实际底行是
+$$
+ W_{21}=-uB B(t^p)-(p/u)A A(t^p),\qquad
+ W_{22}=-uB B'(t^p)-(p/u)A A'(t^p).
+$$
+其中 $A,B$ 不带复合者在 $t$ 处。由(125)，$B=t+O(t^4)$、
+$A=1+O(t^3)$、$A'=O(t^2)$、$B'=1+O(t^3)$。
+故 $W_{21}=-pA/u+O(t^{p+1})$、$W_{22}=-uB+O(t^{2p})$，
+这些是特征零的次数界。令
+$$
+ U(t)=W_{21}(t)/W_{21}(0),\quad
+ V(t)=W_{22}(t)/(t\,\partial_tW_{22}(0)),\quad R(t)=U(t)/V(t).
+ \tag{F2}
+$$
+三个常数项均为一。$W_{21}(0)=-p/u$、
+$\partial_tW_{22}(0)=-u$，所以 **两未知标量在各自归一行中消去**。
+$U=A+O(t^{p+1})$、$V=B/t+O(t^{2p-1})$。整性只需§27的有限窗；
+任一好整函数由 $t$ 代入。逆变量 $s(t)=\int J(t)dt$ 在所需
+$n\le p+2$ 范围整：可能的非单位分母 $n=p$ 与 $n\equiv1\bmod3$
+冲突。首列含一次 $p$，所以统一按原矩阵求三位归一行时，
+$W_{21},W_{21}(0)$ 保模 $p^4$、$W_{22},\partial_tW_{22}(0)$
+保模 $p^3$ 总是足够。
+
+$f,h$ 在 $P$ 至少三阶消失，于是下式皆为**准确系数相等**：
+$$
+ \begin{aligned}
+ E_N&=[t^N]fJ\,V^{-3/2}R^{p/2},\qquad
+ E_d=[t^d]fJ\, V^{-3/2}R^{p+1/2},\\
+ L_r(h)&:=\frac{\mathsf T_r^{(1)}h(P)}{r!}
+       =[t^r]hJ\,V^{-1}R^r,\qquad r=p,d.
+ \end{aligned}
+ \tag{F3}
+$$
+直接对(123)最后的留数换元，保留 $ds=Jdt$。三重零使 $V,U$ 最多
+读到 $d-3=p-2$，全在(F2)准确窗内。将(F3)代(128)--(130)即得原
+两条 Gaussian 读数及共同分子的相同三位/两位精度。
+$R^p=(1+(R-1))^p$ 使用全部
+$\binom{p}{j}(R-1)^j$，包括每个落在本窗且 $0<j<p$ 的项；
+此处不作仅两端的特征 $p$ 对称幂替换，(140)的 mixed 行仍完整适用。
+
+### 32.2 原固定权三截面上的两条 Serre 类及准确相对迹
+
+记 $X$ 为§29固定覆盖的光滑紧化，$L$ 为延至 cusps 的物理 Hodge 线。
+沿用杀全部原乘子的同一覆盖。在 $P$ 旁用 $e_0$ 作 $L$ 的基。
+由(135)及权三 cusp 条件，$\omega_h=h e_0 ds$ 延为
+$H^0(X,K_X\otimes L)$ 的截面：局部 cusp 参数中 $d\tau$ 有对数极，
+cusp form 的正阶已抵消此极。这是标准 $S_3\simeq H^0(K_X\otimes L)$
+的具体截面。其 $P$ 处的三重零给
+$\omega_h\in H^0(X,K_X\otimes L(-3P))$。
+令 $\operatorname{pp}_{>3,P}$ 保留 $t^{-4}$ 至最高极项；
+对 $L^{-1}(3P)$ 而言其余项都已正则。由单点主部的连接同态取两条类
+$$
+ \begin{aligned}
+ q_{d,p}&=\partial\operatorname{pp}_{>3,P}
+      \{t^{-p-2}U V^{-2}R^p e_0^\vee\},\\
+ q_{p,p}&=\partial\operatorname{pp}_{>3,P}
+      \{t^{-p-1}V^{-1}R^p e_0^\vee\}
+          \quad\in H^1(X,L^{-1}(3P)).
+ \end{aligned}
+ \tag{F4}
+$$
+连接号取 Serre 配对为正留数的约定。(F2)给同(137)实际主部相同的类；
+例如第一行只用至 $t^{p-2}$，不存在被隐藏的最后一格。
+于是 $\langle\omega_h,q_{r,p}\rangle=L_r(h)$ 精确成立。
+这将两条随 $p$ 主部放在固定维的 coherent 群，并指定其在
+**同一个** $\Phi_{f,g}$ 上的值；并未从§29的正范数推这些值非零。
+
+同一配对也有真实相对 Frobenius 迹。置
+$$
+ K_p(t)=t^{-2}V^{-2}R^p,\qquad \mathcal V(t)=pW(t)^{-1}.
+$$
+$K_p\omega_h$ 在 $P$ 正则且至少一阶消失。定义
+$\operatorname{Tr}_{t^p/T}(\sum a_nt^ndt)
+ =\sum_m a_{pm+p-1}T^m dT$；
+这是有限映射 $T=t^p$ 的微分迹，因为
+$dt=dT/(pt^{p-1})$ 且函数迹杀掉所有非 $p$ 的倍数次幂。
+在目标的代数基中有准确式
+$$
+ \boxed{
+ \left.\frac{\operatorname{Tr}_{t^p/T}
+       (\mathcal V(t) K_p(t)\,\omega_h)}{dT}\right|_{T=0}
+   =p C^{-1}\binom{L_d(h)}{L_p(h)}
+   =\binom{-u L_p(h)}{p L_d(h)/u}.}
+ \tag{F5}
+$$
+确实 $\mathcal V=p M(T)^{-1}C^{-1}M(t)$；
+目标框架可移出迹，在目标点为 $I$。源端 $M(t)e_0=(A,B)^t$，
+取 $t^{p-1}$ 及(F2)正给(F4)的两个留数。此证明也说明第二输出的
+额外 $p$ 不能在给定精度的 trace 中无成本除去。
+输入含指定局部函数 $K_p$，不是把固定类单独施加一次 Frobenius。
+若原水平系数在扩域，(F5)的有限映射用前述相对约定逐项作用于
+完整 $h$；不向每个 $\gamma_a,\delta_b$ 擅加固定性。
+
+### 32.3 超奇异处的真实首分母与全局有理 Cartier 核
+
+$H$ 准确是 R856(5) 的 Hasse 系数。模 $p$ 时，物理族的 Verschiebung
+在微分上给 $\mathcal V(e_0)=H e_0^{(p)}$：直接对
+$dx/(2y)=(x^3-g_2x/4-g_3/4)^{(p-1)/2} dx/(2y^p)$ 用相对
+Cartier 提取 $x^{p-1}$ 系数即可。在特征 $p$ 这与几何
+Verschiebung 对不变微分的拉回一致。由水平性、$\nabla e_0=e_1ds$
+和目标 pullback 基连接的导数模 $p$ 为零，
+$\mathcal V(e_1)=(DH)e_0^{(p)}$。在 $P$ 得 $-u\equiv C_0$。
+由(F1)底行第一项及整首列，取 $t^{p+1}$ 给
+$$
+ p[t^{p+1}]A\equiv-u^2\equiv-C_0^2\ne0\pmod p .
+ \tag{F6}
+$$
+这里 $BB(t^p)$ 的指定系数为一，$A(t^p)-1=O(t^{3p})$。
+所以(126)的首个可能分母在物理族的指定解中确实发生。
+它与低窗的整性相容。$B/t$ 至 $t^{p+1}$ 整且常数一，
+故 $p[t^p](A/B)\equiv-u^2$，由 $d(A/B)=-ds/B^2$ 得
+$$
+ [t^{p-1}]\,\frac{C_0^2 J}{H^2}
+   \equiv [t^{p-1}]\frac{J}{B^2}
+   \equiv C_0^2\pmod p .
+ \tag{F7}
+$$
+第一次替换确需 $B/t$ 到 $t^{p+1}$ 的模 $p$ 同余，
+由§30 (142)--(144)的全 $d$ 窗及上述整换参得到。
+
+在参数 $E_{16,\mathbf F_p}$ 上，从(F7)得到全局相对 Cartier 恒等式
+$$
+ \mathscr C(ds/H^2)=ds^{(p)}. \tag{F8}
+$$
+证明：$H$ 的唯一可能极是 $O$，其极阶至多 $(p-1)/2$，
+因 $g_2,g_3$ 极阶为 $2,3$，R856(5)中每个单项式的加权极阶
+都是 $3(p-1)/2-(p-1)$。$H(P)=0,(DH)(P)\ne0$ 使其非恒定。
+因此任何零的重数 $m<p$；模 $p$ 的 $D^2H+aH=0$ 与
+$ds$ 处处无零迫 $m=1$，否则最低项含非零 $m(m-1)$。
+在每个简单零，写 $H$ 本身为坐标，则
+$ds/H^2=H^{-2}(DH)^{-1}dH$，其留数为
+$-D^2H/(DH)^3$ 在此零处的值，因方程为零。
+相对 Cartier 杀掉各二极的极部，输出全局正则。
+属一曲线上其比例由 $P$ 的值确定，(F7)正给一。
+R79 的 Legendre 规范在另一参数上有相类公式；
+此处所用 $E_{16}$、不变 $ds$、原 $H$ 和 $C_0$ 均按本题模型确定。
+
+进一步在 $K=\mathbf F_p(E_{16})$ 中取 $t$ 为分离参数。
+$p$-基分解 $K=\bigoplus_{i=0}^{p-1}K^p t^i$ 及(F8)给唯一
+$Q_p\in\bigoplus_{i=1}^{p-1}K^p t^i$ 满足
+$$
+ dQ_p=ds/H^2-t^{p-1}J^p dt . \tag{F9}
+$$
+实际上相对 Cartier 把右侧第二项送到 $J^{(p)}dT$，
+故右差的 $t^{p-1}dt$ 分量为零；对剩余 $i=0,\ldots,p-2$
+逐项以 $t^{i+1}/(i+1)$ 积分即可。$P$ 旁 $Q_p$ 的 Laurent 展开
+没有 $t^{jp}$ 项，特别无常数项；由(F9)在此至多简极。
+$A/B$ 在 $t^{-1},\ldots,t^{p-1}$ 整，其常数项由三次型为零。
+在此截窗中 $d(A/B)=-ds/B^2\equiv -C_0^2 ds/H^2$，
+比导数只需到 $t^{p-2}dt$，此时(F9)最后一项还未参与。
+于是该整窗内 $A/B\equiv-C_0^2 Q_p\bmod p$。
+不要把这个同余扩大到 $t^p$，(F6)准确给出那一格的分母。
+
+由于 $(tA/B)^p\equiv1$ 在所需模 $p$ 的 $p-2$ 窗内，将(F4)的
+两个主部约化后可用**全球有理系数**替换为
+$$
+ \begin{aligned}
+ q_{p,p}:&\quad C_0\,t^{-p}/H,\\
+ q_{d,p}:&\quad -C_0^3\,t^{-p}Q_p/H .
+ \end{aligned}
+ \tag{F10}
+$$
+每行省写共同的 $e_0^\vee$，在 $P$ 仍只取 $>3$ 极阶再用连接同态，
+不把全局有理函数的所有极同时当成只在 $P$ 的主部。
+因此对原水平覆盖上的**整项** $h$ 有
+$$
+ \begin{aligned}
+ L_p(h)&\equiv C_0
+   \left.\mathscr C(h\,ds/H)/dT\right|_{P^{(p)}},\\
+ L_d(h)&\equiv -C_0^3
+   \left.\mathscr C(h Q_p\,ds/H)/dT\right|_{P^{(p)}}
+                                      \pmod p .
+ \end{aligned}
+ \tag{F11}
+$$
+这里把 $H,Q_p,ds$ 全部拉回原固定覆盖，
+relative Cartier 在各点有(F5)的模 $p$ 系数提取式；
+两输入在 $P$ 因 $h$ 三重零均正则。(F11)是原两个实际读者的
+全局有理 **mod $p$** 返回。(F3)--(F5)则在同一来源上保留
+准确的全部高位，不能拿(F10)的首层替代(F2)的更深矩阵系数。
+(F8)的非零没有消掉(F11)中的原 $h$，也不决定(130)的第二位。
+
+### 32.4 完整两位、三位读者的代数 Frobenius 差
+
+(F11)以外的精度也可在实际代数图上保留。先在参数曲线去掉
+$O,g_3=0,g_3=4$，留下包含所选 $P$ 的仿射开集。其方程仍为
+$g_3^2=16(1-32t^3)$，对 $t$ 是 étale 图。在其 $p$ 进完备环上
+$T\mapsto t^p$ 有确定的相对 Frobenius 提升：送目标 $g_3$ 至
+$$
+ g_3^p\left\{16(1-32t^{3p})/g_3^{2p}\right\}^{1/2}.
+$$
+花括号模 $p$ 为一，平方根取一模 $p$ 的支；
+在 $P$ 的限制正是原来 $T=t^p$ 的提升。所逆的函数模 $p$ 仍被送至单位，
+故此图上定义。由于原完整水平覆盖有限 étale，其到目标 Frobenius twist
+的相对 Frobenius 由形式 étale 性唯一提升至这些完备图。
+若只在源的系数域中书写，仍按§32.1的相对标量约定；
+下面的 $W,G,S,R$ 来自定义于 $\mathbf Z_p$ 的物理族。
+
+物理族在此图光滑 proper，原相对一阶晶体在提升上给整矩阵 $W$。
+$e_0,e_1$ 在图上作基，因杯积为单位且组成各纤维两维格的基。
+模 $p$ 的 Hodge 结论及 $\det W=p$ 给
+$$
+ S=W_{22},\qquad G=W_{21}/p,\qquad
+ S\equiv H,\quad W_{12}\equiv-DH\pmod p .                  \tag{F12}
+$$
+后两式也由 $\mathcal V=\operatorname{adj}W$ 及§32.3对两基的
+几何 Verschiebung 像得到。$S(P)=0$ 在特征零准确成立。
+本图 $t=0$ 只含所选分支，且 $(g_3-4)(g_3+4)=-512t^3$，
+故 $S\in t\widehat{\mathcal O}$。再在特殊纤维限制到 $H/t$ 为单位
+的开集；其值在 $P$ 为 $C_0\ne0$。相应完备图上 $S/t$ 为单位。
+因此(F2)的 $U=-uG, V=-S/(ut)$ 和
+$$
+             R=t u^2G/S
+$$
+都为这同一个图上的整 $p$ 进函数，$R(P)=1$，$V$ 可逆。
+它们在每个 $p^m$ 上由这个仿射代数环的实际元素给出：
+$p$ 进完备对模 $p^m$ 不改变原环的商。这里并不需要把
+$W$ 的特征零系数说成代数函数，亦未沿超奇异盘引入 ordinary splitting。
+
+真实底行还给一个含准确两位修正的原函数。
+由 $M'=M\left(\begin{smallmatrix}0&-a\\1&0\end{smallmatrix}\right)$
+（此处 $'=D$）及(F1)，令
+$c(t)=t^{p-1}J(t^p)/J(t)$，则
+$$
+ D W_{21}=-W_{11}+p c(t)W_{22},\qquad
+ D W_{22}=-W_{12}-p c(t)a(t^p)W_{21}.
+$$
+取商、用行列式并乘 $ds$ 给准确微分
+$$
+ d(G/S)=-\frac{ds}{S^2}
+       +t^{p-1}J(t^p)\big\{1+p^2 a(t^p)(G/S)^2\big\}dt .
+ \tag{F13}
+$$
+因此 $-G/S$ 以原几何 $S$ 给出(F9)的模 $p^2$ 微分提升，
+其未约的误差从所示 $p^2$ 项开始。模 $p$ 有 $G/H+Q_p\in K^p$，
+由同一物理 $W$ 决定该 $p$ 次幂项；并未从(F9)单独恢复它的全局值。
+(F13)按所示亚纯系数恒等地使用，在 $P$ 可取 Laurent 展开。
+
+定义这个实际函数的一次 Frobenius 差
+$$
+ \mathfrak d_p(R)=\frac{R^p-\varphi^*R}{p}.                 \tag{F14}
+$$
+因 $R$ 来自物理 $\mathbf Z_p$ 图，分子在全图可除以 $p$；
+故它是指定的整函数，在每个有限精度都是代数剩余类。
+$R(P)=1$ 保证在 $P$ 有 $\varphi^*R=1+O(t^p)$。
+于是 $R^p$ 的本次完整 $p-2$ 窗**准确等于**
+$1+p\mathfrak d_p(R)$ 的相同窗口。
+代入(F3)得
+$$
+ \begin{aligned}
+ E_N&\equiv [t^N] fJ V^{-3/2}
+   \left(1+\frac p2\mathfrak d_p(R)
+             -\frac{p^2}{8}\mathfrak d_p(R)^2\right)\pmod{p^3},\\
+ E_d&\equiv [t^d] fJ V^{-3/2}R^{1/2}
+   \left(1+p\mathfrak d_p(R)\right)\pmod{p^2}.
+ \end{aligned}                                                  \tag{F15}
+$$
+上式的平方根取原局部常数一分支；第二行括号在所需窗实际精确。
+这里是**同一个**几何 Frobenius 差而不是从两端模 $p$ 数据
+猜一组中项。即使 $R=1+X$，(F14)的分子仍保留
+$\sum_{i=1}^{p-1}\binom pi X^i$ 和真实 $X^p-\varphi^*X$。
+(F15)前行须保 $\mathfrak d_p(R)\bmod p^2$，
+后行须保 $\mathfrak d_p(R)\bmod p$，同时按各自模数保 $V$ 等前因子。
+
+最后，这个差直接给原 $h$ 的全局微分迹两层。
+写 $\mathcal T(\xi)=(\operatorname{Tr}_\varphi(\xi)/dT)(P^{(p)})$。
+此处 $\varphi$ 是上述完整水平图的相对提升。
+在模 $p$ 图上相对 Frobenius 有限平坦次数 $p$，其上述 $p$ 进提升
+亦有限局部自由：可局部提升特殊纤维的模基，用 $p$ 进完备性逐次生成；
+关系逐次除以 $p$，由 $p$ 平坦性及分离性得线性无关。
+在所选目标点的完备盘只有原源点的分支（特殊纤维相对 Frobenius
+为根式态射、且水平覆盖 étale），因此全局亚纯微分迹在此盘
+就是(F5)的系数迹。以下微分均在所取源点正则。
+从 $B\sim-S/u$、$A\sim-uG$ 的(F2)准确截窗，得到
+$$
+ \begin{aligned}
+ L_p(h)&=-u\big\{\mathcal T(h\,ds/S)
+                   +p\mathcal T(\mathfrak d_p(R)h\,ds/S)\big\},\\
+ L_d(h)&=-u^3\big\{\mathcal T(hG\,ds/S^2)
+                   +p\mathcal T(\mathfrak d_p(R)hG\,ds/S^2)\big\}.
+ \end{aligned}                                                   \tag{F16}
+$$
+具体地，留数最初在两行的括号中各有乘子 $R^p$；
+代(F14)，然后用迹的投影公式移出 $\varphi^*R$。
+目标值 $R(P^{(p)})=1$ 因物理函数及物理 $P$ 均从 $\mathbf Z_p$
+取得。整段只对源 $h$ 取完整 trace，没有让 $\varphi$ 固定任一
+$\gamma_a,\delta_b$。(F16)为准确等式；其模 $p^2$ 必须同时读第一项
+到两位和第二项到一位。这把原固定权三截面的两个 moving 配对的
+深层校正落到真正有限精度的代数 Frobenius 核上，
+但还未证明原 canonical 第二位在无穷素数非零。
