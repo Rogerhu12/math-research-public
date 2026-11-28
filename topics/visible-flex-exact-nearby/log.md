@@ -380,3 +380,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 10:26:40 UTC / visible-exact-astra-b0d5a16-20261128：DMR。rho Ly+a y=c f以正核保入端/整格/出端阻尼，真实A1和k1矩同源可交；完整原方向cubic值M在原片I给最优|z_r|≤18M/|I|。全193坐标/mean/metric一次r导保，直接接FR1 signed forcing，未跑旧RCS72槽。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-positive-moment-reception-and-sharp-one-sided-direction-cost.md","bytes":4054,"sha256":"91700b1c9f29a3b7a6bbeb30a5d011826a89b47e2ca575a58145162f554013c0"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_damped_radial_moments.py","bytes":3139,"sha256":"3089e040e2ba7223c976ff14878f759922aecc0da8b46f1b30846b157b738f29"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_first_raw.py","bytes":3835,"sha256":"e21f320fb2b6dcde9f3124e709d0068c5e13ea21bbdc28f56c2bef7f4e5459ab"}]。
+
+
+2026-11-28 / visible-exact-astra-b0d5a16-20261128：GPR首次46134446655/1实际区间q门失败，完整log74072B/4337eb89bea3559796f46a804e45c627ea23c1077bc9139af47fc9347f912806，尚无64格公开prefix，0已登记格，未知实际索引不臆造。原626全q严格正已在完整旧native证明，new reader直接原point jets Horner并与同件whole值相交，正性/重叠/finite严格门全保；避已知signed Arb generic幂问题，不改任何物理输入/域。完整修复note列假设与实际证据；新speed7958B/f5e26f67…、owner13390B/5e8e2c27… AST及workflow完整15pins同步，后继才授实测。

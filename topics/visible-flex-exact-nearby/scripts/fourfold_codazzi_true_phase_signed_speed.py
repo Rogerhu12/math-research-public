@@ -30,24 +30,28 @@ def coordinate_polys(v):
 
 
 def scalar_model(record):
-    p=list(map(Fraction,record["exact_centered_polynomial"]))
+    check(len(record["exact_centered_polynomial"])==8,"entire original degree-seven identity")
     nodes=[ball(x) for x in record["point_jets"]]
-    check(len(p)==8 and len(nodes)==7,"entire original degree-seven identity")
-    # Native point_jets[k] is the factorial-normalized Taylor coefficient.
-    return [exact(v) for v in p],nodes,ball(record["whole_final_derivative"])
+    last=ball(record["whole_final_derivative"])/factorial(7)
+    whole=ball(record["complete_true_value"])
+    check(len(nodes)==7 and all(v.is_finite() for v in (*nodes,last,whole)),
+          "all native factorial-normalized scalar coefficients and whole value")
+    return nodes,last,whole
 
 
 def restricted(model,x,order):
     """True normalized r derivative on a closed cell, with all signed terms."""
-    p,nodes,whole=model
-    v=arb(0)
-    for k in range(7,order-1,-1):
-        v=v*x+comb(k,order)*p[k]
-    # The Taylor expansion of the jth derivative has its own qualified tail.
-    for k in range(order,7):
-        v+=comb(k,order)*(nodes[k]-p[k])*x**(k-order)
-    v+=comb(7,order)*(whole/factorial(7)-p[7])*x**(7-order)
-    return v
+    check(0<=order<=7 and x.is_finite(),"qualified signed Taylor restriction")
+    nodes,last,whole=model
+    # For the order-j normalized derivative, the coefficient multiplying
+    # x^(7-j) uses f^(7)(xi)/7! over the original complete physical row.
+    v=last*comb(7,order)
+    for k in range(6,order-1,-1):
+        v=v*x+nodes[k]*comb(k,order)
+    check(v.is_finite(),"finite derivative on the entire signed subcell")
+    if order:return v
+    check(v.overlaps(whole),"same native whole and locally restricted scalar value")
+    return v.intersection(whole)
 
 
 class Inputs:
@@ -77,6 +81,7 @@ class Inputs:
         for (left,right),digest,row in rows:
             centre=Fraction(row["center"])
             data={k:scalar_model(row["models"][k]) for k in ("q","gamma","beta","s")}
+            check(data["q"][2].lower()>0,"native positive square root on its complete physical row")
             if (left,right) in compact:
                 t=compact[left,right]
                 check(Fraction(t["center"])==centre,"same compact Taylor origin")
@@ -108,8 +113,10 @@ class Inputs:
         xr=hull(l-centre,r-centre) if whole else exact(r-centre)
         xc=hull(l-self.nodes[k],r-self.nodes[k]) if whole else exact(r-self.nodes[k])
         pol=self.piece(k)
+        inward=[arb(1)]
+        for j in range(p):inward.append(inward[-1]*(-h))
         def scalar(n):
-            return Jet([(-h)**j*restricted(models[n],xr,j) for j in range(p+1)])
+            return Jet([inward[j]*restricted(models[n],xr,j) for j in range(p+1)])
         beta,gamma,q,s=[scalar(n) for n in ("beta","gamma","q","s")]
         def cubic(side):
             terms=[]
@@ -117,7 +124,7 @@ class Inputs:
                 v=LP()
                 for a in range(3,j-1,-1):
                     v=v*xc+pol[a][side]*comb(a,j)
-                terms.append(v*((-h)**j))
+                terms.append(v*inward[j])
             return Jet(terms)
         u=cubic(0);v=cubic(1)+s
         d=-(beta*(u*u-q*q*v*v).primitive())
@@ -126,7 +133,8 @@ class Inputs:
 
     def delta_speed(self,cell,raw):
         l,r,_,i=cell;u,v,beta,gamma,q=raw
-        check(q.lower()>0,"true negative nominal q on the entire physical cell")
+        check(q.is_finite() and q.lower()>0,
+              "true negative nominal q on the entire physical cell: "+str(q))
         if r<=CONTROL[0] or l>=CONTROL[1]:
             dk2=arb(0);wt=arb(0);wq=q
         else:

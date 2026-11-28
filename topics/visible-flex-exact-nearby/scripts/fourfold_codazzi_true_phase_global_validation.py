@@ -173,13 +173,25 @@ def run(args):
             h=canonical(head);first=LENGTH.pack(len(h))+h
             rawhash.update(first);f.write(first)
             for j,cell in enumerate(inputs.plan):
-                q,errors,starts,radial=advance(starts,errors,inputs.speeds(cell))
-                h=exact(cell[1]-cell[0])
-                for s,e in enumerate(errors[:2]):
-                    energy[s]=(energy[s]+h*(e[0]**2+e[1]**2)+(radial[s]**2)/h).upper()
-                b=polys_row(q,starts,errors)
-                if rowbytes is None:rowbytes=len(b)
-                check(len(b)==rowbytes,"uniform finite representation")
+                try:
+                    stage="true signed speed on the closed physical cell"
+                    speeds=inputs.speeds(cell)
+                    stage="two signed phase residuals and common gap"
+                    q,errors,starts,radial=advance(starts,errors,speeds)
+                    stage="physical H1 and dyadic row encoding"
+                    h=exact(cell[1]-cell[0])
+                    for s,e in enumerate(errors[:2]):
+                        energy[s]=(energy[s]+h*(e[0]**2+e[1]**2)+(radial[s]**2)/h).upper()
+                    b=polys_row(q,starts,errors)
+                    if rowbytes is None:rowbytes=len(b)
+                    check(len(b)==rowbytes,"uniform finite representation")
+                except Exception as exc:
+                    science.update(completed_cells=j,failed_cell=plan[j],failed_stage=stage,
+                                   error=str(exc),whole_prefix_uncompressed_sha256=rawhash.hexdigest(),
+                                   wall_seconds=time.monotonic()-beg)
+                    store(science)
+                    print("GPR_FAILED_CELL",canonical(science).decode().strip(),flush=True)
+                    raise
                 rawhash.update(b);f.write(b)
                 for s,errs in enumerate(errors):
                     maxima[s]=[max(x,y).upper() for x,y in zip(maxima[s],errs)]
