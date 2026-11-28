@@ -10,7 +10,7 @@
 
 2026-11-28 14:37 UTC终端确认 unavailable，上一笔OC本地commit未推入main；已从完整稿恢复。只读同步013ef8944af7ad4238550f54e3418d114ec5a2f1确认两README未变；不冒称pull。现用本公开Actions部分克隆、真实pull/rebase/push逐结论发布，非快进立即循环；令牌仅CLI。数学程序仍仅本公开Actions，本地/V8仅文本/metadata。真实pull时间以上方回执为准，每小时至少一次。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-high-packet-log.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-highest-complete-flag.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -52,15 +52,15 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 ## O4：原半秩商的有效首项与深盘
 
-[R1182–90](results.md)原半秩C/β的FP首项、全尾、CM高度、implicit系数、同C小q*及双向同源/挠点网格模型均已付，全部常数及真实格沿原文/逐字前态。原t=p³w、rU_r∈Λ，m≤2(g−n)+1；事前B_*及log截2N_*，N_*=B_*+floor(log_p M_X)。本原深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原形式倍数M_form=2p(p−1)，FP可取2p^s(p−1)，s_exp/δL不删。任意实际B⊂J有pΛ_sat⊂diΛ_B⊂Λ_sat、e_sat−1≤e_B≤e_sat；至多一p格损失不代指定jet单位。
+[R1182–90](results.md)原C/β的FP首项、全尾、CM高度、同C小q*及双向同源、挠点网格模型均付，真实格/常数沿原文及[本次逐字前态](handoff-archive-2026-11-28-before-highest-complete-flag.md)。原t=p³w、rU_r∈Λ；事前B_*与log截2N_*、N_*=B_*+floor(log_p M_X)，本原深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。M_form=2p(p−1)，FP倍数2p^s(p−1)保s_exp/δL；实际B⊂J有pΛ_sat⊂diΛ_B⊂Λ_sat及e_sat−1≤e_B≤e_sat，不代jet单位。
 
-[R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同一半秩C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E完全分裂。全部primitive r给真实槽，原Tate格由剩余支持互斥/Goursat整分裂；u=[F0:E]时Lie/Tate维数2u/4u。同β与原有理Abel首向量在每F0嵌入横截，未给单位；保PS_(r−1)碰撞及J/C的Hodge格区别，继续实际normal。
+[R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E全裂；全部primitive槽整分裂，u=[F0:E]时Lie/Tate维2u/4u。同β和原有理Abel首向量逐嵌入横截，未给单位。
 
-[R1193](results/R1193-original-highest-primitive-packet-and-simple-Cauchy-CM-jet.md)原p11mod12最高primitive r=m的τ_m+PS_(m−1)整角已付；负deck首中心唯一η=T_L db/(uA_p)，T_L(1)=(2A_p(1)/m)Σλ_sρ_sL_s/(1−s)。原CM首normal=2m，完整投影为κ_hi T_L(1)d(x^(g−1)y)；同p³盘除ε^m后整Tate轮廓degree≤(p−5)/6，packet顶系数非零。指定C/同β的楔及整尺度仍须实际比较。
+[R1193/R1195](results.md)原最高r=m为τ_m+PS_(m−1)整packet；负首中心η=T_L db/(uA_p)，T_L∈k[b³],deg<m−1，全部原λ/ρ/κ保留。完整有限角为各奇r的模p同余对乘积，另保二次St；pure型拼接恰im(U_r modp)、U_r=p e_cusp,r e_N，不能把packet单位传C。
 
-[R1195](results/R1195-original-full-integral-normalizer-corner-and-one-p-gluing.md)完整有限角准确为全部奇r的{(x,y)∈Zp²:x≡y modp}乘积，p1mod4另加二次St的一元角。各Er整，U_r=p e_cusp,r e_N满足U²=pU；任意真实稳定格的pure型拼接商恰im(U modp)，指数p^rank，单cusp投影整 iff U modp=0。原几何两行/PS碰撞保全，不把packet单位传给C。
+[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同P=(p−1)D0先整E_m投影后深m²−1，模π^(m²+1)的首列为原Picard核的m次Čech有限log；非约化Frob相容杀该层p-return。同q_C惯性交织保β；ψ^a全部gap已定，低a regular消去/全节点仍须运输。
 
-[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同原P=(p−1)D0先整E_m投影后深m²−1；模π^(m²+1)的首列恰由原相对Picard核的m次Čech有限log给出，分母全素于p。完整非约化Frob相容消去该packet首层p-return；同q_C的惯性交织保原β。ψ^a全部特殊尾gap已定，但低次regular消去/全节点仍须运输；指定C上与T_L(1)的楔未付。
+[R1197](results/R1197-original-highest-packet-complete-CM-coefficient-flag.md)原最高负packet的全部CM轮廓按从高到低准确等价于T_L(1)…T_L^(2g−2)(1)旗标，各对角为显示原单位；完整Dickson过滤付每层整角像一维，故低极部/全纯及高中心返回均处理。轮廓秩2g−1，核恰T=c(b³−1)^(2g−1)一维；未标为CM算术线，指定C/同β全图列及深盘仍开。
 
 ## 已成、禁止重做与其它入口
 

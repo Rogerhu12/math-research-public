@@ -619,3 +619,10 @@
 - 保G(b_lift)²、三个CM尾、全部低次数regular消去及正次节点尾；原同C/同β与CM列之楔仍待实际计算。root逐节核，o2核§§3–4，无数学程序执行；主目标仍OPEN，继续原gluing。
 - R1179 §13已真实推6ed0207852d58ce12676ad9de4b7b7b569f18ff7；run46156289944/job141013561845。该次第二pull实际父为1cc5d412cd77239178e31344c0fbd943eb9ab99d；单分支clone的origin/main仍记e8ec78fa，已亲自比较这两个提交，两README无变。publisher现改为每次pull立即读取FETCH_HEAD，修正记录及比较头；不重跑任何数学或已发布结论。
 - 本push规则：公开Actions真实pull至 6bde1e1a6acac355d970ed4ed3fb8bd68c4fb89f（2026-11-28T14:50:33.975063+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1197：原最高负packet每个所需normal层的完整有限角像一维；逐个Dickson因子/终端、同分支齐次代表及全树regular返回给全部CM系数旗标，秩2g−1，核恰T=c(b³−1)^(2g−1)。
+- 所有对角单位保原κ/ρ/λ及primitive阶乘；低极部、全纯自由项、中心非齐次与其它尾返回直到完整投影才处理。root纸核全证明，o2核全有限角，无数学程序；不把一维核标为CM算术因子，继续同β/指定C的全图Serre配对。
+- R1196已真实推5021f7eb33fbaa30e490e85a66155ed10efa9b82，run46156686406/job141014782047；本次H/open压缩前逐字归档before-highest-complete-flag，全部来源/边界保全。
+- 本push规则：待公开Actions实际pull回填。
