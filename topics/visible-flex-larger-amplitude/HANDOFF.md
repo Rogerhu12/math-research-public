@@ -64,5 +64,5 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46151602924-1.json) 双README真pull 845214fe52935e71a65a6fe5b4f08c4c474ded87
-<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 75e8c8fef3dd577a40b98d45f5058f6f17d8b1f6
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull e14d69d8fbc101270a48c094d457e4a63011348e
+<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull c1ea4dd71fa1e6e0749b62238edd057a51b855d2
