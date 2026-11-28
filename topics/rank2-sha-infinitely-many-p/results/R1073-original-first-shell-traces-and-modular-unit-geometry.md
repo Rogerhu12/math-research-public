@@ -1386,3 +1386,210 @@ $\delta_S=1/2+1/(2d)$。
 这是真正的原倒数点全权积联络非零曲率素数的正上对数密度。所用原典为M. Herblot，*Algebraic points on meromorphic curves*，引理3.4、定义3.5、命题3.6、定义5.1/5.5及定理6.1：[作者全文](https://webusers.imj-prg.fr/~mathilde.herblot/publi/SL.pdf)。
 
 (AQ3)保两种素型、真实代数权以及限制标量的全部分量。仅在另选惰性Frobenius为$c$且$\sigma=\mathrm{id}$时，(AQ2)才直接读原$\nu_{20}$中的$\sum_iW_iG(Q_i)/W_1$。其它Frobenius或$\sigma$不得替换成该格；普通原导数以及惰性(BD1)全部四项与此联络的连接仍未付，所以本节不宣称主目标完成。
+
+## 35. 相容的同点共轭权将全部曲率分量合成一个原全迹
+
+**已证明。** 本节使用§31已证的同一组原倒数点，
+但为积联络选择另一组明确的固定切向量权。
+不把旧(AQ2)的$c(W_i)$误作同点共轭角色。
+固定$\rho=\varepsilon_{17}$，$\rho(u)=u$，
+令完整原标记集为$\mathcal T$，并置
+$$
+ v_T=\overline{\rho(T)}\,X(T)^2\lambda_T,\qquad
+ Q_T=(x(T)^{-1},y(T)/\lambda_T^3),\qquad \lambda_T^2=x(T).
+                                                               \tag{AR1}
+$$
+取$\mu_6$轨代表$T_i$，令$b_i^0=v_{T_i}/v_{T_1}$。
+由(AN3)，这些$b_i^0$仍在$K$上线性无关，
+且每个$Q_{T_i}$仍为同一个已证非挠点：
+新权仅把原$X(T_i)^2\lambda_i$乘以非零$K$单位并共同归一。
+
+选一个含$K$、全部标记、规范$X$、平方根及新权的固定有限正规域
+$\mathscr M/\mathbf Q$，置$d=[\mathscr M:K]$。
+$S$仍为全部惰性于$K$的有理素数与在$\mathscr M$完全分裂的素数之并，
+去掉有限坏位。对每个$p\in S$，
+令$G_p=D^{p-2}x$为$E_1$上的实际曲率函数。
+§116已将普通处的$K_\pi$与此函数识别。
+
+定义**一个**完整、无平方根的剩余域数
+$$
+ \boxed{\qquad
+ \mathcal N_p
+   =-\sum_{T\in\mathcal T}
+        \overline{\rho(T)}^{\,p}X(T)^{2p}y(T)
+          \sum_{j=0}^{n-1}
+              \binom{-1/2}{j}x(T)^{3j},
+ \quad p=6n-1\ \text{或}\ 6n+1 .
+ \qquad}                                                       \tag{AR2}
+$$
+它保留全部原标记及真实Frobenius，未单挑一个轨代表的贡献。
+则
+$$
+ \boxed{\quad
+ \limsup_{x\to\infty}\frac1{\log x}
+   \sum_{\substack{p\le x,\ p\in S\\\mathcal N_p\ne0}}
+                \frac{\log p}{p-1}
+       \ge \frac1{2d(d+1)}>0 .
+ \quad}                                                        \tag{AR3}
+$$
+因此这一个完整原同点迹在无穷不同素数非零。
+尚未证明原通常全Sha坏条件迫$\mathcal N_p=0$；
+(AR3)本身仍不是主目标。
+
+### 35.1 真实μ₆相容性与平方根符号
+
+在每条六轨内选择相容平方根
+$\lambda_{uT}=u^{-1}\lambda_T$。
+规范二型坐标及曲线坐标给
+$$
+ X(uT)=u^{-1}X(T),\quad
+ v_{uT}=u^2v_T,\quad Q_{uT}=[u^2]Q_T .
+$$
+$G_p$的实际单位权是$u^{-p}$，故
+$$
+                   v_{uT}^{\,p}G_p(Q_{uT})
+                         =v_T^pG_p(Q_T).                      \tag{AR4}
+$$
+另换$\lambda_T$的符号，使$v_T$与$Q_T$同时换号；
+$G_p$奇且$p$奇，所以该乘积不变。
+因此下面的完整和准确等于代表和六倍，
+不依赖平方根的符号选择。
+
+这正是本节取同点$\bar\rho(T)$的理由。
+旧$W_T=\rho(T)X(T)^2\lambda_T$在六轨的权为$u^{-2}$；
+不能不改联络就把它当成(AR1)的$u^2$权。
+
+### 35.2 所有Galois分量的精确重标
+
+对$\sigma\in\operatorname{Gal}(\mathscr M/K)$，
+CM作用使全部原标记统一按$T_t\mapsto T_{a_\sigma t}$重标，
+其中$a_\sigma\in(\mathcal O_K/\mathfrak f)^\times$
+与$t$无关。$\rho$是同一有限乘法角色，
+故$\bar\rho(\sigma T)/\sigma\bar\rho(T)$为与$T$无关的六次单位。
+复共轭则保留原周期相位
+$cT_t=T_{\omega_K\bar t}$，以及
+$\rho(cT)=\omega_K c\rho(T)$；
+对$\bar\rho$的对应比值为$\bar\omega_K$。
+因此任意$\sigma$都有固定$\kappa_\sigma\in\mu_6$，
+使得在同时运输平方根后
+$$
+                        v_{\sigma T}
+                               =\kappa_\sigma\,\sigma(v_T).
+                                                               \tag{AR5}
+$$
+规范素于$p$的挠抬升由唯一性Galois等变，
+所以$X(\sigma T)=\sigma X(T)$。
+若运输后的平方根与预选者相差符号，
+$Q$和$v$也同时相差该符号，按(AR4)它在曲率乘积中消失。
+
+记
+$$
+                \mathcal S_p=\sum_{T\in\mathcal T}v_T^pG_p(Q_T).
+$$
+$G_p$在$\mathbf F_p$下降，全部$\sigma T$重排同一个完整标记集。
+对用$b_i^0$构造的积联络，
+其(AQ2)型全分量因而准确为
+$$
+ \boxed{\qquad
+ V_{\sigma,p}^0
+  =\frac{\kappa_\sigma^{-p}}
+          {6\,\sigma(v_{T_1})^p}\,\mathcal S_p .
+ \qquad}                                                       \tag{AR6}
+$$
+所有分母除去有限坏素数后都是单位。
+补齐$K$基所加的$Q=0$坐标曲率为零，故不影响此式。
+这一步不限制惰性Frobenius必须为指定的$c$；
+所有嵌入分量现在由一个完整数同时控制。
+
+### 35.3 两种素型的统一无根公式
+
+令
+$S_{n-1}(X)=\sum_{j=0}^{n-1}\binom{-1/2}{j}X^j$、
+$h=(p-1)/2$。
+对两种素型均有实际有理函数身份
+$$
+                 \lambda(P)G_p(Q(P))
+                     =-y(P)x(P)^{-h}S_{n-1}(x(P)^3).          \tag{AR7}
+$$
+可直接在原$E_1$核验。普通$p=6n+1$时
+$$
+ G_p=-y\sum_{j=0}^{n-1}
+            \binom{-1/2}{j}x^{\,3n-1-3j};
+$$
+惰性$p=6n-1$时，将指数$3n-1-3j$换为$3n-2-3j$。
+逐项求导，内部项由
+$j\binom{-1/2}{j}=-(j-\tfrac12)\binom{-1/2}{j-1}$相消。
+普通边界是
+$DG_p=-4\binom{-1/2}{n-1}x=a_p(E_1)x$：
+Hasse系数为$\binom{3n}{n}$，
+而模$p$有
+$\binom{3n}{n}/\binom{3n}{n-1}=(2n+1)/n=-4$。
+惰性边界是
+$DG_p=-2\binom{-1/2}{n-1}=c_p$，与§115的实际$c_p$相同。
+
+这些多项式与原$D^{p-2}x$只有$O$处至多$p$阶极，
+导数一致，故其差为$p$次方。
+该$p$次方根至多有$O$处简单极，只能为常数；
+两函数奇，故常数零。
+代入真正$Q(P)$即得(AR7)。
+
+现在$\lambda_T^{p-1}=x(T)^h$，
+所以
+$$
+ v_T^pG_p(Q_T)
+       =-\bar\rho(T)^pX(T)^{2p}y(T)S_{n-1}(x(T)^3).
+$$
+这逐项证明$\mathcal S_p=\mathcal N_p$。
+平方根、各自的Frobenius位及曲率都在同一个原点上；
+没有把有限乘法角色或$X(T)^p$换成未证的独立值。
+
+惰性时$\bar\rho(T)^p=\rho(T)$，
+规范挠提升给$X(T)^p=G_p(T)$，且(CC0)给
+$G_p(T)^2=2c_pL_{p-1}(T)+x(T)^p$。
+因此原判据也准确写为
+$$
+ \mathcal N_p
+    =\sum_T\rho(T)\,G_p(T)^2j_p(T),\qquad
+                   j_p=-yS_{n-1}(x^3),                       \tag{AR8}
+$$
+其被评价函数只在$O$有极，极阶至多$3p-2$。
+$j_p$保全部较低主部，不能擅换成单一$L_{p-2}$。
+普通且在$\mathscr M$完全分裂时，
+所有标记及规范$X$在$\mathbf F_p$，故
+$$
+             \mathcal N_p
+                =-\sum_T\bar\rho(T)X(T)^2y(T)S_{n-1}(x(T)^3).
+                                                               \tag{AR9}
+$$
+
+### 35.4 将已证密度论证应用于这一固定联络
+
+现在完全沿§34构造，但使用(AR1)的$b_i^0$。
+将它们补为$\mathscr M/K$的一组基，只添加平凡联络坐标；
+原非挠$Q_i$不变。
+基坐标的复Zariski闭包维数仍为$d$，
+全叶闭包维数仍至少$d+1$：
+若同维，其到$E_1^d$的同源会将非挠的次数零线类拉成零，
+与对偶同源核有限矛盾。
+sigma均匀化及固定指数线性因子仍给解析阶至多二。
+
+在惰性位底限制$p$幂为零；
+普通底线$p$闭仅发生在$\mathscr M$完全分裂位，
+因为归一基含$1$并张满整组$\mathscr M/K$基。
+因此全线$p$闭素数仍包含于同一个$S$。
+在$S$内，由(AR6)，它$p$闭当且仅当$\mathcal N_p=0$。
+§34引用的M. Herblot，
+*Algebraic points on meromorphic curves*，
+命题3.6及定理6.1
+（[作者全文](https://webusers.imj-prg.fr/~mathilde.herblot/publi/SL.pdf)）
+于是给相同的下密度上界
+$\beta\le1/2+1/(2(d+1))$。
+$S$的密度为$1/2+1/(2d)$，
+两者相减即得(AR3)。
+
+本节去掉了“必须分别取得AQ全部$\sigma$分量”
+和“必须只选指定$c$-Frobenius”的障碍，
+代价是明确使用新的同点共轭切向量权。
+剩余唯一算术接口是原全Sha坏条件到(AR8)、(AR9)的完整零；
+已有五槽、§117–119的整变形和双分布均须与这个完整数比较，
+不能由某个同点项非零或只在一个素型的部分子列非零替代。

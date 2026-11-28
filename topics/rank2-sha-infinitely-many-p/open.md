@@ -2,7 +2,7 @@
 
 会话：Astra-rank2-Sha-0b097461-20261127。主目标未完成，持续研究：固定E/Q且rank≥2，对无穷不同p证明通常全Sha[p∞]有限；固定有限族联合无穷可用鸽巢。
 
-[整理前完整open](notes/2026-11-28-open-before-single-native-residue.md)逐字保全部旧问题、原公式、已排路线及更早归档链。已登记结论不重做。当前精确状态见[HANDOFF](HANDOFF.md)、[results](results.md)和[索引续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)。
+[整理前完整open](notes/2026-11-28-open-before-galois-aligned-curvature.md)逐字保全部旧问题、原公式、已排路线及更早归档链。已登记结论不重做。当前精确状态见[HANDOFF](HANDOFF.md)、[results](results.md)和[索引续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)。
 
 ## O7：固定E17的真实全域类与跨素数不消失
 
@@ -12,244 +12,30 @@
 
 原Y_k=0⇔p^k|a₂及实际邻点dlog读者仍有效；不能用有限角色非零、单一乘子或曲率补偿非零替代完整目标。[新形式边界](notes/2026-11-28-five-row-reciprocal-character-obstruction.md)证明五槽乃至整个χ分量加Cartier/µ6仍不够推出AQ倒数读者为零，缺χ^(p+2)型；必须补原固定源的真实跨角色关系，而非再次形式联立。
 
+## 当前单量曲率桥：R1073 §35
+
+明确采用新固定同点权v_T=barρ(T)X(T)²λ_T，保原点、规范提升和原ρ。μ6相容及全Galois重标使全部曲率分量都是一个完整数的单位倍：
+N_p=−Σ_T barρ(T)^p X(T)^(2p)y(T)S_{n−1}(x(T)³)，p=6n±1。
+在S=全部惰性或固定正规M完全分裂的素数中，其非零素正upper-log密度≥1/[2d(d+1)]，d=[M:K]。
+惰性式准确为Σρ(T)G_p(T)²j_p(T)，j_p=−yS；该函数只在O有至多3p−2阶极。普通完全分裂式保barρ·X²·yS。剩余须从原完整Sha坏条件推出这一个完整数零；不用再各证σ，也不把旧cW权偷偷换成新权。
+§118已证明CG2的两项在真椭圆核逐点抵消，所以§117首条裸迹就是旧第五槽，不增加独立约束。§119真Belyi与反δ分布保全部父标记；相同1/x输入不代H与D−g的算子转换。
+
 ## O7固定有限族：E65/E8125
 
 [R1073 §§17起](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)保完整390水平、5和双13、原E1参考及两个canonical二阶。真实首端点加权log非零、Fermat反演和完整H±已经付出，但两正则积分仍可抵消。继续同一首圈/实际物理有理函数与全部原角色，不能给未运输伙伴独立bad条件。
 
 ## 原306图与1156格的真实生产
 
-[R1071](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md) §§17–21保完整G3/W8和四标量Bézout图。[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)已于17:02 UTC因实际X超过32000000格的显式软件预算失败，306配对行已核但完整X/H与终门未返回，不重跑。v18 run46147595142/job141050876340于17:03开始；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)source d61834ef33bbaf6b28b96c50999d71ad33e19c8c/run46154552030/job141008207171于14:25开始。18:55 UTC根取得v18真前缀2101845B（SHA及全部核验见v18 note），原85pins/F/P与23 RESULT摘要全核，central T两图10条全行回执及∞列82/306已显示；四交点/九pairs/终门仍未返回。v19于18:51仍step4且日志404；不得从前缀猜终态。两版无v17该总格门，保95pins/原F/P/四端点/九pairs与全部原门，等待实际输出并继续理论。
+[R1071](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md) §§17–21保完整G3/W8和四标量Bézout图。[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)已于17:02 UTC因实际X超过32000000格的显式软件预算失败，306配对行已核但完整X/H与终门未返回，不重跑。v18 run46147595142/job141050876340于17:03开始；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)source d61834ef33bbaf6b28b96c50999d71ad33e19c8c/run46154552030/job141008207171于14:25开始。18:55 UTC根取得v18真前缀2101845B（SHA及全部核验见v18 note），原85pins/F/P与23 RESULT摘要全核，central T两图10条全行回执及∞列82/306已显示；四交点/九pairs/终门仍未返回。根19:36复读两任务均仍step4，v19前次日志404；不得从前缀猜终态。两版无v17该总格门，保95pins/原F/P/四端点/九pairs与全部原门，等待实际输出并继续理论。
 
 ## 其它未闭门
 
 原O新来源、O4 ordinary、O6固定Np/q_p1、R1070全层、R1072矩、R1051 Smith/R1026–28全39/R1053B12/P10/R1055及R1068–69均按上述完整open归档继续；R1052原flat全零、旧normalizer2048及旧失败不重做。新独立结论另编号，同结论继续原R。
 
-## 新登记的同编号接续
+## 登记与原研究链
 
-### R1067 §79：原中央消去低二格，单个实际邻点微分系数读原二阶
+全部已证同编号接续见[索引续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)；本次整理前的逐条摘要及全部旧问题已逐字归档，链接保在本页开头。不重做已登记结论。算术研究中的真实移动端点、Witt列和非D-finite障碍尚不构成跨p非零证明；不得给完整原列套未经证明的共同指数分母帽。
 
-已证明：原驯中央L值消失使真实Robert列可由U₂表示，真实Norm仍落U₂并由Cartier消L₀；原一次Kummer矩为零及可逆分次乘子再消L₁。原a₂模p准确为−λ^(p−3)/(34ρ)倍同一邻点dlog的唯一L₂，不预断该系数非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+### R1073 §35：同点共轭权的唯一全迹与正上对数密度
 
-### R1073 §23：原固定曲线对的首圈负一权与四位完整椭圆Gauss和
-
-已证明：真实Fr预标、B₀水平作用与原参考首圈估值给Ab(ρ⁻¹−1)的同一比值；固定物理F7函数保全390/两13/5，完整p²−1个非零点筛出唯一模类。原中央坏必使同一Taylor模类前四p进位和为0 mod p⁴；尚未证无穷p违背。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §80：规范分歧常数与原Coleman全微分的实际方向迹
-
-已证明：同一严格LT参数给λ=h−h^p与ρ=72f₁(c²−c)(1−ω)/6。原邻点唯一L₂拉回正为原Robert全微分真实p方向迹的x^(3p(p²−1))系数；不同层微分、导数与截断界均由真实different支付。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §81：四个原标记Robert系数准确给出中央模p方向迹
-
-已证明：原LT加法的首非线性项与群律付σ_i/x到Y^(2p+1)；原中央与Cartier给B₀=B₁=0，低迹再给B_(p+1)=B₂。全3pb迹准确为−B_(2p+1)+2B_(p+2)−B₃−2B₂，不将任一槽非零当全和非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §82：原中央余数的固定导子Frobenius全点和
-
-已证明：真实未平滑第三类微分保完整17导子，CRT升至p²保全原LT窗口；全局留数定理把a₂准确化为固定E1特殊纤维上的完整加权同源逆像和，W以Frob³/Frob写出。其在E上的度仍随p，跨p非零尚缺。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §83：完整三维Hecke函数空间及原中央泛函
-
-已证明：Riemann–Roch主部与实际同源函数迹给完整三维特征空间，原17泛函杀头两基，第三基准确读a₂。全主部转置付U₀=−G^p、DU₁=x^q、D²U₂=2y^q及唯一A/B/C退根；未把空间非零当目标。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1073 §24：同一原首圈的全部负权与真实扭点导数
-
-已证明：同一p+1原核的真实移动jets给Ab(ρ^(−n−1)−1)；Lagrange准确付n=p^a−1参考赋值，仅两个驯权读a₂任意p进精度。首导数保全部tame与wild移动，H=−ζ−x²/y及完整ψ_p斜率给实际代数归一。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §84：原全部驯点的固定代数zeta值与CM等变窗
-
-已证明：原G的全局加法及CM除函数极部给G(T)=X(T)^p，逐点保原17而非只一个加权和；实际p根H的CM等变窗及两个低极阶函数由固定G/x/y准确表示。原B/C全驯贡献仍未付非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §85：完整Cartier校正与实际第二次Frobenius退根
-
-已证明：全局Gxω留数付c_p=−[s^(p−1)]x∈Fp×；LT微分模p²的Cartier及无限阶CM不变性把有限窗加强为DH=−x/c_p−s^(p−1)全盘等式。原A/B导数遂准确降到O(p)极阶，保κ_A及全原驯评价。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1073 §25：两条原Gauss行与全部扭点的真实代数导数
-
-已证明：原首圈前i个jets经整插值读a₂模p^i；固定极的完整部分分式与原Gauss–Manin连接给全部x/y/e移动，两个真实Gauss行准确读中央两位。原参考单位、p⁴尾界及真七乘法合并均保，尚未证完整分子无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §86：原完整驯微分的三个第一次 Cartier 像
-
-已证明：原三个Cartier像严格为固定标记核(BB1)，O点极及正则歧义由实际µ6权消除；(BB2)保留所有H混项，三条首许可系数准确给定，未推整体非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §87：原五个固定代数矩严格非零及共同 Frobenius 子列
-
-已证明：六单位主项与全六边形壳界严格证明M₁、M₂、Ψ₀/₁/₂非零；Chebotarev给同一无穷p子列上原A及B/C的准确补偿值(BC4)，三条第一Cartier首项在充分大原p非零。仍须排除完整第三分量抵消。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §88：原四项的第二次 Cartier 与完整源的真实下降
-
-已证明：κ_P为原对数微分，六个第二Cartier像逐点留数及O极严格确定；完整q-Frobenius须按t→−pt重标，得到原四槽(BD1)，只有一处需q+2p深窗，保所有H混项。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §89：原唯一深窗的整 ζ 规范与自由 Witt 项准确相消
-
-已证明：显式Z=uζ(ℓ)−ℓ(s^p)/p在n<pq全整，与H只差κs^p且κ∈Fp；必须同步替换每个Cartier乘子，四条原槽的κ项才准确相消，唯一深窗由(BE4)给出。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §90：原全盘准周期及每一位的显式二项式公式
-
-已证明：以单位阶乘块积连续性显式构造唯一μ∈Zp×、λ=0，给μ≡−b_(pn_r+σ₀)/b_n_r mod p^(2r+1)，完整证明全盘H=red(μ⁻¹ζ(ℓ)−ℓ(s^p)/p)，无未证外部输入。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1073 §26：原二次扭曲负权的有理节点与完整分母
-
-已证明：原负权全Hecke公式及共同二次p角色给真实有理节点(AI5)，普通有限差分读原a₂任意固定精度；逐项构造整数及单位参考，实际高度O(i²p log(ip²))不足以推出无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1073 §27：原中央两位的固定有理除点导数列
-
-已证明：全部原Gauss两行化为固定扭点的两条有理导数列(AJ2)，严格LT四窗及完整尾界给(AJ5)模p⁴；两单位参考与原λ/r保真读a₂模p²，仍需联合无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1073 §28：三条真实 jet 两次整消去，三格直接读原中央模 p
-
-已证明：用已证全盘μ选共同h=−μℓ(s^p)/p，使原e_A+h全整；三条真实jet精确消两次wild项，(AK7)三格之和以(AK8)非零单位读a₂模p，全部标记与两位分母损失保留。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1073 §29：两条固定曲线的原中央准确读同一个全局 U₂
-
-已证明：canonical整准周期直接把三格全局化，有限双留数与真实形式群前两项给K_p=−U₂+(1+κ₀)L_q；完整驯和准确杀L_q，三条原曲线在共同6630水平保源比较，尚缺联合无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §91：原两条高格及无隐式反演的完整有限二项式母量
-
-已证明：原κ_P的τ^(p+1)、τ^(2p)系数准确接固定标记和真实倒数点G(Q_P)；(BG7)–(BG9)给全原四项有限公式，共同μ剪切准确相消，实算可取μ′=−d_n而不需真μ第二位。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §92：全部原倒数点非挠及统一七进对数首格
-
-已证明：以5-Frobenius的≤50次方程和17惯性≥144共轭直接证明每个Q_P非挠；规范七进提升给真实单位首格−5v/(2λ⁵)，从而获得完整代数带权关系的必要检验，不代原中央。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1073 §30：三整差商与完整原 Hecke 基的准确配对
-
-已证明：对目标和参考统一给(N₀^p,B^p,C^p)与U₀/U₁/U₂的完整带单位配对；原低两项准确对应杀前两基，参考首列非零，联合中央坏等价两真泛函同时杀整个三维空间。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §93：原全野层第二种积分及固定线联络曲率
-
-已证明：原全野挠值等于全部剩余盘上的第二种积分；固定倒数点的模p值准确等于原G格，且它是同一固定线联络的p曲率；普通分裂位由真实Kπ给全部点，包括p主分量。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §94：固定双商两格恒等式与补偿项无穷素数非零
-
-已证明：固定属二双商给原两格在普通/惰性处的统一曲率公式；每个原倒数点的固定线联络借Bost可解结构群定理及已证非挠性，推出补偿项在无穷不同素数非零，但未限定分裂型或推出完整中央非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1073 §31：真实全驯倒数权的K独立性和非零张量
-
-已证明：用原导子的完整六角格和严格主项界，证明各μ₆轨代表的X(P)²√x(P)在K上线性无关；结合两椭圆投影的非挠性及正确原角色方向，给真实全驯倒数张量和其一型p进对数非零，保留完整中央尚有其它项的边界。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §95：原完整四槽的一元有理余式公式
-
-已证明：在原E₁上仅选一对真实标记，用有限奇喷流匹配和全局Cartier将完整BG9写成负二倍N rem D的顶次系数；保所有混项，显式分母次数≤6p²+12p+880，并区分一般分裂扩域与额外复共轭子列。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1067 §96：原完整倒数权的二型对数非代数性
-
-已证明：在实际非平凡加性扩张中确定第二种积分为代数切线基的群对数；用一般p进解析子群定理证明共轭K平衡张量映射单射，给真实全驯倒数权二型母量非代数及其精确惰性首格，未将超越性充当模p非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1073 §32：普通完整degree390原矩的有理微分与连通挠点全迹
-
-已证明：在同一普通来源上以V²的真实Miller式消尽sigma和形式对数尾，原ŝ_{p−1}模p²准确成为全局有理微分的O留数；付所有极及纯不可分约化迹整性，转为全部非零π挠点的一个未删项域迹。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §97：原普通完整除法式与所有权统一精度代数盖
-
-已证明：真实非单位π除法多项式给原完整ŝ_{p−1}模p²及全零除子乘子；π^N代数盖以Hurwitz整环同时控制所有权至p^{5N}，得到原G′的任意精度充要有限检验，不把有限值非零外推为中央非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
-
-### R1073 §33：普通原首导数的全精度同一挠层留数
-
-已证明：以真实V^r、完整原P及统一Hurwitz整性，将G′的每个p^k精度准确化为同一非零E[π]轨道留数迹模p^{2k}；整阶乘付清全截断，所有精度保持同一原曲线、极支撑与连通挠层。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §98：原Kummer类的无损反限制、Tate测试与真实全域障碍
-
-已证明：以−1提升的交换子只除2，精确从原Y_k恢复基域二阶类；固定代数点与显式星点给完整O值Tate读者，星点保持原p^k精度。全局互反证明非零候选不能来自任意固定有限分歧全局一阶类，后续必须保留派生障碍。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §99：真实全域一次类与原二阶中央的准确等价
-
-已证明：原全域标准椭圆单位零次整消失并唯一整除U；借AH实际两条特征理想等式及真实非有限signed线，证明z₁非零当且仅当a₂非零。原局部二阶障碍准确为真实一次全域类与固定有理点一级Bockstein的紧支撑配对。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1073 §34：原全倒数权积联络的正上对数密度
-
-已证明：原全部倒数点与真实代数权构成一个限制标量的固定积联络；补齐实际 M/K 基只加平凡坐标。复叶闭包维至少 d+1、阶至多2，Herblot 下密度界给惰性或 M 全分裂素数中非零全分量曲率的上对数密度至少1/[2d(d+1)]。仅指定 c-Frobenius 的指定分量直接读原 ν20；未将这项替代原中央全和。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
-
-### R1067 §100：固定103的原全域一次幂余数与独立参考素
-
-已证明：真实原103 Robert函数的全域一次权、平滑常数103²−103和全部整精度已核；在两点平面饱和后，先仅由原Mordell点除点扩张选择参考素，准确读出 z1=λpX′p 的 λp mod p^k。指定惰性有理素的真实共轭把完整两坐标化为一个范数一幂余数。目标余数对无穷p非平凡尚未证明。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §101：全部整精度的实际循环邻点与Tate校正
-
-已证明：每个原局部Kummer二次测试准确写在同一p+1条导子p的CM邻曲线；沿全部实主单位方向展开保所有Tate校正，并给导子p^d的实际范数。第二精度首校正有明确加权函数与全驯函数域非幂性，未把它替代指定点或全反圆和的非零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §102：严格模循环等价与原全域阶至多二的更弱充分门
-
-已证明：基域strict余秩准确为s−1，usual全Sha[p∞]有限等价于Xstr在(U)处循环。原根数及无条件p-parity给s偶，故原全域Z的U阶≤2已足够；z1=0,z2≠0允许局部a2=0。固定103全源的三行、全部p^k Kummer证书准确检测此门，全域H²未假定消失。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §103：原全域奇偶读者及完整χ野Jordan准确亏数
-
-已证明：原三阶截断的纯log奇偶两行保全部103/Tate权；预选惰性参考素分别保留原1与δ坐标。真实完整χ的野块长度精确为max(0,p^(j−1)−r_p)，µ零给r_p有限，尚不控制无穷p的r_p≤2。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §104：完整全域喷流降到固定Q有理函数及全阿贝尔短列表独立
-
-已证明：原周期相位、全f/p Tate权和Kato函数精确降为唯一固定M∈Q(E17)，二变量保完整平滑unit c²−c[g_c]。M对每个实际CM Frobenius严格范数相容，原十八邻支保留；任意固定短列表的M挠值对充分大惰性p在K^ab乘法模p独立，未偷换增长的完整角向和。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §105：原二变量det使全Sha无限迫全部混合二次全域行零
-
-已证明：JLK实际源行列式经基域usual/strict维数给极小R^s→R^(s−1)，真实Z的有符号极大子式在I^(s−1)。usual全Sha无限迫全部六个I³系数截断整零，每个p^k精度保全部源；分裂处用已证完整Ω定理保双p位。未把系数像零误写成I³H¹整除。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §106：真实全局六行零分离原微分五个野系数
-
-已证明：付六次扭转、原周期/CRT/Kato十二倍规范后，通常全Sha无限在每个惰性p迫任意野方向的原迹低窗零。随h^(p−1)的二/三次多项式分别给B₂、B₃、B_{p+1}、B_{p+2}、B_{2p+1}单独零；每个BD1行内全部H混项仍保留，尚不等价全曲率零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §107：六个原混合权生成空间的准确最小支撑
-
-已证明：自由原标号源的六个二次权及全部群环倍恰为a⁻¹P(x,y)的六维理想，最小支撑(p²−1)(p²−2p)，整数迹行是(p²−p)(p²−2p)。固定短列表独立不能仅凭这些形式倍排除六行同时零；实际M几何核未被错误限制。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §108：原M首野完整行经循环商及Miller互反降到全驯支撑
-
-已证明：每方向先对原p线真范数，线性/平方整权给次数(p²−1)/8及≤(p²−1)/4的实际Miller函数。Weil互反保原全f支撑；每条Fp线一个函数、原n^-2/n^-3角权及Teich(n)精确保留。div差为pD时即使D非主，完整驯评价仍真为L₂内p次幂。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §104附记：固定短列表全精度关系阶统一有界
-
-已证明：同一固定M、同一固定整数列表的原p^(k+1)挠值若有p^k次幂关系，系数向量的加法阶至多一个仅依列表的C_A，既不随p也不随k增长。使用完整原实挠轨、高度隙和孤立零极；未把全角向长和当固定支撑。[同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §109：普通两位真实范数与同一M的两个整系数
-
-已证明：完整étale范数恰给α^(j−1)[gα]^(j−1)(α[gα]−1)，在固定θ分裂列为单位。真实全Sha无限迫同一固定M的ordinary B₂、B₃分别零，检测在全原非分歧扩张后仍有效；两个不变对数公式保所有带分母补偿。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §110：原第二分离槽的固定通用扩张除幂迹
-
-已证明：原B′₂完整Cartier行等于固定E₁通用向量扩张上Θ(F₂)的全标记迹；ΘZ=−x^p为整曲线恒等，原ν₀₁标记项逐点精确抵消，全部带分母补偿和Frobenius根保留。尚未付该迹跨p非零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §111：同两个固定Kronecker函数的三条完整除幂迹
-
-已证明：原B′p+1、B′2p+1、B′₃分别精确等于F₂/F₃在同一固定通用扩张上的Ξ、Ξ²、Ξ²D^(p−1)全标记迹；阶乘模p³补偿和原ν₀₂逐点项全部支付，未把四条相关行当独立不消失。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
-
-### R1067 §112：原全域有限驯特化与固定有理序列的素数指标
-
-已证明：全部p>211惰性素数，真实系数I³提升在有限驯点特化为p³倍原完整Kummer单位。物理E₁₇严格LT及正确单位对数界给全Sha无限⇒m_p、m_{p²}、e_{p²}均被p整除，并给m_p/p+m_{p²+p−1}≡0。任一相应不整除即足够；跨p无穷非零仍缺。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §113：原第五深槽的真实椭圆核与第二整算子
-
-已证明：真实正合列E₁→E₁通用扩张→Ga保全部原挠提升；B′p+2的完整q窗恰为CC1全迹，Artin–Hasse第二整算子L支付深窗。全部五槽现有同一固定几何表达，但仍未推出跨p非抵消。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §112附记：当地自由模与三权CW的完整余秩界
-
-已证明：真正Φ的[-p]范数系统保原M、Tate twist、全部f层单位次数及平滑。当地H¹自由使h=s−1的真实系数消失成为I^h整除；三个完整CW权给通常全Sha余秩t≤min(v_p(m_p),v_p(m_{p²+p−1}),1+v_p(m_{p²}))。无穷p使这些赋值足够小仍缺。[同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §112.6：全域首项互反与三个CW权的额外一位
-
-已证明：I^h系数的真正全域提升给每个当地首齐次原像CW₁精确为零，完整ghost同余及外部系数Frobenius使三个整读者额外含p。通常全Sha余秩t≤min(v_p(m_p)−1,v_p(m_{p²+p−1})−1,v_p(m_{p²}))；rank2已关闭原m_p模p非零门，坏情形须p³/p³/p²整除。跨p高位不整除未付。[同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §114：十二个固定真扭点盘上的完整Kummer分布
-
-已证明：同一M的真实µ6投影在E₁[2δ]四轨的完整两变量Kummer和分别为原和的1、−1/3、−1/2、1/6，全部p^k精度及平滑/Tate权保留。真实Norm[2]/[δ]仅产生常数并被每个tame纤维杀，[-p]Norm严格相容；θ在真正Φ且σq重排已核。三个O/δ盘可用整个M，其余保投影。倒数跨角色桥仍待付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §115：真实δ平移与完整倒数曲率的固定短窗
-
-已证明：实际±δ点在通用扩张的群律给F₂/F₃与B=H−y/x的全迹身份；同一原εX²曲率和准确等于[v^((p−5)/6)]R_X(v)/sqrt(1+v)，R_X是固定原全标记有理函数。两个δ点留数、所有原权和符号已付；全Sha坏到该曲率的整算子桥及AQ全分量仍未付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §116：两固定Heisenberg联络的真曲率子式
-
-已证明：同一E₁上d+A₁、d+Aₓ保−dlogx/2及−ω/−xω；两型真p曲率满足Ψ₁₁₃Ψₓ₂₃−Ψₓ₁₃Ψ₁₂₃−x^p=g^pG。完整极、Cartier、µ6及ordinary Kπ识别已付。原M^-3由实际T_t的x平移乘积精确给出；该子式是二次式，未冒称整个联络p曲率消失。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §112.7：普通双位下降与两型共同的素数指标界
-
-已证明：同一物理M及固定m_p在普通a_p≠1时也有t=corank Sha≤v_p(m_p)−1。真实两位互反使当地类额外含I，完整étale范数保1−α⁻¹[gα]⁻¹；未分歧扩张可有p次数，以H¹_unr=0的Kummer限制单射下降。与惰性CB9合并，若主目标失败，则密度一素数均有m_p∈p³。跨p矛盾仍未付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §117：真实邻商两次变形分离原第五深槽
-
-已证明：保留模p²的Tate扭转与绝对p·z微分，原首野测试准确读到2pq边界；真循环邻商的两级参数和群型Gauss–Manin热方程保全部移动标记。由真实一次变形分别得裸h_{q+2p−2}U₂(e)=0及H^{p−1}L U₂(e)=0，两实际外嵌入选原barε/ε支。§118进一步证明第五槽其余两项在真椭圆核逐点抵消，首式恰同旧第五槽，不能计为独立约束；AQ全σ与跨p非零未付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §118：第五槽在真椭圆核上的全局简式
-
-已证明：真实ω=ds与[-1]s=−s给F(t,s)−t−s被(t+s)^p整除，低极阶的全部Hasse平移因而只有一个主部。CC0上逐点有(h_{p+1}F₂)^p=−2c h_{q+2p−2}Z，完整第五槽恰为裸h_{q+2p−2}F₂全迹。117首式与旧第五槽同一，未增加独立约束；全曲率及无穷p仍未付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
-
-### R1067 §119：原Belyi全Kummer源与三条反δ输入
-
-已证明：真2/δ推除子零给全部k=1,2,3的完整迹ℒ(OF_k)=−kℒ(O[Z^{k−1}Dlog(x³/y²)])，保所有算子次序与父标记。原M精确为h及1−h全乘积的−1、8次幂，第二投影真交换h与1−h；反δ二次差分显出带完整标记的Z^{k−1}/x。普通曲率J_p=−(D−y/x)^{p−2}(1/x)已逐极证明，算子/全迹转换仍缺。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+已证明：明确改用固定v_T=barρ(T)X(T)²λ_T；原K独立与Q非挠保持，μ6及Galois全轨重标使所有AQ分量为同一N_p的单位倍。两型统一N_p=−Σbarρ^p X^{2p}yS_{n−1}(x³)，惰性化Σρ G²j_p、ordinary完全分裂化Σbarρ X²j_p。此完整数在S上非零素正upper-log密度≥1/[2d(d+1)]，不用指定c-Frob。原fullSha坏⇒这个数零仍未证明。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。

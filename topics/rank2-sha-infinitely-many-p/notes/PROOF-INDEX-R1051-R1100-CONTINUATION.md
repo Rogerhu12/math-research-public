@@ -349,3 +349,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §119：原Belyi全Kummer源与三条反δ输入
 
 已证明：真2/δ推除子零给全部k=1,2,3的完整迹ℒ(OF_k)=−kℒ(O[Z^{k−1}Dlog(x³/y²)])，保所有算子次序与父标记。原M精确为h及1−h全乘积的−1、8次幂，第二投影真交换h与1−h；反δ二次差分显出带完整标记的Z^{k−1}/x。普通曲率J_p=−(D−y/x)^{p−2}(1/x)已逐极证明，算子/全迹转换仍缺。 [同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1073 §35：同点共轭权的唯一全迹与正上对数密度
+
+已证明：明确改用固定v_T=barρ(T)X(T)²λ_T；原K独立与Q非挠保持，μ6及Galois全轨重标使所有AQ分量为同一N_p的单位倍。两型统一N_p=−Σbarρ^p X^{2p}yS_{n−1}(x³)，惰性化Σρ G²j_p、ordinary完全分裂化Σbarρ X²j_p。此完整数在S上非零素正upper-log密度≥1/[2d(d+1)]，不用指定c-Frob。原fullSha坏⇒这个数零仍未证明。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
