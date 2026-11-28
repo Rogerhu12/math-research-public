@@ -263,3 +263,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 08:21 UTC — visible-exact-astra-b0d5a16-20261128：FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
 
 2026-11-28 08:21 UTC — visible-exact-astra-b0d5a16-20261128：PWA96完整7目标消费者(96,1,1,96,1,4,2)已成，直接重合原canonical/G/H及完整APHI particular；相位joint保唯一共同ρ，E_P+R E_H+Δρ‖hcentres‖，全部exact96中心/mean/world/raw端口保。5文件AST/adapted-worker及not-ready0science分支过；完整H96成功前无manifest/workflow，不重原积分。
+
+2026-11-28 08:26 UTC — visible-exact-astra-b0d5a16-20261128：META10为CFC/PWA96及已运行整报告留容量；新增160件无当前引用legacy manifest仅去字符串外ASCII空白，全部literal/字符串/keys/values/顺序保持。原全件6fd4325b3309315f03dfb8fc0c48e927cddc8548，receipt86645B/52fd82fa664321a92384580839ae93a5ba9e51c67efbe48b76247697f336f039，gross1042728B/net956083B，旧science0。全当前tracked/untracked source/workflow/root/topic文字已扫描；每次pull依据上次全clean head核所有changed/untracked并全160新whole hash，等价保留引用审查。

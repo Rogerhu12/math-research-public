@@ -1,17 +1,17 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:22:30 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:26:59 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至db3bab70d53ef3351bdcbc6f1bd43f7b82ac6b7e；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至0cb7569aeae5ef67f34a7de741e5e359a81d74b3；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
-topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META9无损128件净768859B、receipt69521B/97dacd0d…；原7588478671完整保、科学0，每次pull核新引用。META1–9全账见f6b405完整H/原receipt，不重做。
+topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META10新160件仅去JSON字符串外ASCII空白，净956083B；whole receipt86645B/52fd82fa…，原6fd4325b3全保、科学0。完整扫描后每次pull等价核changed/untracked与全160hash。META1–9全账见6fd4325b3完整H/原receipt，不重做。
 
 ## 同一对象与完整旧账
 
-[本次压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/f6b405ad489bd029ed6f8d602572d31d2f9b6507/topics/visible-flex-exact-nearby/HANDOFF.md)及其8cd255/842c/260ee/5c94/2b35/f73d等递归前页，保全部原球/SHA、失败unknown、域/指数/units/mean/ports与未付条件；压缩只索引，不撤义务，不重成功。完整结果见results.md/open.md和各proof。
+[本次压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/6fd4325b3309315f03dfb8fc0c48e927cddc8548/topics/visible-flex-exact-nearby/HANDOFF.md)及其8cd255/842c/260ee/5c94/2b35/f73d等递归前页，保全部原球/SHA、失败unknown、域/指数/units/mean/ports与未付条件；压缩只索引，不撤义务，不重成功。完整结果见results.md/open.md和各proof。
 raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47；Zdef6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04。
 α=6890507429876859/9007199254740992，ν0=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904；真δ*隐式且|δ*|<9.368259853002e−11，不能替0/中点。
 最终须同一连通闭M、固定g、C²连续精确C²嵌入族；有内点H逐点固定、diamH≥.2D、held≥.05D、含反射δE>0、全族reach≥.03D。geometry43584188751/26须同η0全core+caps moving-state C0≤1e−4、|δν|≤1e−5及全部matching，才给held>.05075888242D、reach≥800D/25039、Hdiam≥360D/511、marker145..148。ν*/Γ*/η/metric一次冻结；purephase未加静态markers仅刚体。
@@ -39,7 +39,7 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 
 DCP18 run46124617641/1于08:11:11启动（c1da88994f48c908055120f9f8a0de6e3e463d62）：BFP19全成功/原validator过，whole actual40099B/5ab3a6ed…、execution31637B/0bcb393b…；完整322输入269/53准入，manifest98658B/d85c0d55…。同真密度逆H−1/2、2560/8192/2048+无限异号tail、96signed/means及WMT整global候选保；仅新18目标，见DCP proof/入口note，actual尚待。
 
-LCW已成：原whole7722几何累计值给a0<.001314673/p0<.002603805/a1<.008949/b1<.028185；同NP height(-.025429,-.025171)/逆<39.73，H96新锚费.018681H+.003503042G，原数值/mean/world仍保。23新Fraction一次过，0旧science。
+LCW已成：原whole7722几何正累计值给较紧锚/NP高度/H96整槽，完整数值见proof及6fd4325b3完整H；23新Fraction一次过、0旧science，后PWA更强。
 
 PWA更强actual竖直锚已成：同物理角GW保e/E/P/jumps与末端角桥，a0<3.649e−6/p0<8.56e−6/a1<.000466/b1<.001417。H96锚费.00005185H+.000011056G；同NP height(-.025370374,-.025229626)/逆<39.64，弱四源94013/6651/3001/8852。42新Fraction一次过、0旧science；原λ/mean/world与未知core准入保。
 
