@@ -107,6 +107,61 @@
       "description": "真实同g加密：每个实际物理B样条单元增加独立径行，覆盖完整cut过渡门；旧父场先在该完整新网观察，Boehm准确包含后40→80单元和30→48角频，仅更改空间位置。"
     },
     {
+      "id": "R262-cut-h2-same-metric-complete-banded-newton",
+      "after": [
+        "R262-true-full-gate-frozen-h2"
+      ],
+      "script": "2ecf-r262-cut-same-metric-banded-direct-newton.py",
+      "sources": [
+        "2ecf-r262-cut-same-metric-banded-direct-newton.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--angular-source",
+        "{S}/2ecf-r262-cut-frozen-native-and-true-material-position.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--parent",
+        "{W}/full-cut/low35-h2.npz",
+        "--steps",
+        "5",
+        "--out",
+        "{W}/full-cut/low35-h2-direct.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/low35-h2-direct.json"
+      ],
+      "report": "{W}/full-cut/low35-h2-direct.json",
+      "fields": [
+        "entrySHA256",
+        "stateSHA256",
+        "parentSHA256",
+        "fieldSHA256",
+        "actualPositionVariables",
+        "actualMetricVariables",
+        "radialSpans",
+        "angularModes",
+        "lowerScalarDiagonals",
+        "normalAndRhsAgreement",
+        "initial",
+        "initialIndependent",
+        "accepted",
+        "attempts",
+        "final",
+        "secondaryAcceptanceGrid",
+        "initialFreshHoldout",
+        "independent"
+      ],
+      "description": "固定h2实际全部位置空间与同一g：按真实局部五次支撑完整组装JᵀJ及五邻块，带状Cholesky直接求实际阻尼Newton步；新的411角/全span径网对合并后的真实保存系数另作观察。实际主曲率与全谱目标进入接受，未将近似Krylov停滞直接判为物理障碍。"
+    },
+    {
       "id": "R262-actual-cut-h2-complete-shape-observer",
       "after": [
         "R262-true-full-gate-frozen-h2"
@@ -154,6 +209,57 @@
         "scope"
       ],
       "description": "本次真实h2整闭空间像观察：完整原前缀/原尾/平盘和真D3两厚臂，检查实际接缝及R312的三个充分形状量；这些有限观察不冒连续厚度或Hausdorff下界。"
+    },
+    {
+      "id": "R262-direct-cut-complete-shape-with-true-longer-arms",
+      "after": [
+        "R262-cut-h2-same-metric-complete-banded-newton"
+      ],
+      "script": "2ecf-three-arcs-actual-high-caps-complete-observer.py",
+      "sources": [
+        "2ecf-three-arcs-actual-high-caps-complete-observer.py",
+        "2ecf-threefold-035-longer-end-arm-belt.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--definition",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--state",
+        "{W}/full-cut/low35-h2-direct.npz",
+        "--belt",
+        "{S}/2ecf-threefold-035-longer-end-arm-belt.py",
+        "--arms",
+        "{S}/2ecf-r299-actual-thick-arms-and-tapered-central-belt-v3.py",
+        "--out",
+        "{W}/full-cut/direct-whole-long-arms.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/direct-whole-long-arms.json"
+      ],
+      "report": "{W}/full-cut/direct-whole-long-arms.json",
+      "fields": [
+        "stateSHA256",
+        "fieldSHA256",
+        "definitionSHA256",
+        "beltSHA256",
+        "low",
+        "sleeve",
+        "geometry",
+        "initialDiameter",
+        "otherDiameter",
+        "initialToOtherHeld",
+        "otherToInitialHeld",
+        "sampledHeldRatio",
+        "sampledHalfDiameterDifferenceRatio",
+        "sampledRequiredReach",
+        "scope"
+      ],
+      "description": "真实直接Newton末态与新低/高末直长度.98/.46的两厚臂组成全闭空间像；所有原尾与平盘、两真端口都来自同一输入，整D与双向握持是有限观察，连续R315条件另行支付。"
     },
     {
       "id": "R262-cumulative-true-shape-height-low35",
@@ -304,7 +410,7 @@
     {
       "id": "R312-actual-cut-h1-h2-continuous-whole-prefix-shapes",
       "after": [
-        "R262-true-full-gate-frozen-h2"
+        "R262-cut-h2-same-metric-complete-banded-newton"
       ],
       "script": "2ecf-r312-continuous-cut-correlated-shape-budgets.py",
       "sources": [
@@ -318,6 +424,7 @@
         "--states",
         "{W}/full-cut/low35-h1.npz",
         "{W}/full-cut/low35-h2.npz",
+        "{W}/full-cut/low35-h2-direct.npz",
         "--out",
         "{W}/full-cut/continuous-R312-h1-h2.json"
       ],
@@ -333,7 +440,10 @@
         "guards",
         "states"
       ],
-      "description": "同一实际cut h1/h2的完整连续位置覆盖，原2569Hermite物理单元与完整原W、新XYZ同角处理；晚段用真实逆材料角和签名内积锐化范数界。分别付每态自己的新前缀、原尾和三条R312充分条件；不消费尚未包含的第二真u位置层。"
+      "description": "同一实际cut h1/h2的完整连续位置覆盖，原2569Hermite物理单元与完整原W、新XYZ同角处理；晚段用真实逆材料角和签名内积锐化范数界。分别付每态自己的新前缀、原尾和三条R312充分条件；不消费尚未包含的第二真u位置层。 同一原.35外核另评新长末直臂(.98/.46)的明列形状充分条件；该支自身实体与证明独立登记。",
+      "requires": [
+        "{W}/full-cut/low35-h2-direct.npz"
+      ]
     },
     {
       "id": "R262-actual-cut-curvature-continuation-25",

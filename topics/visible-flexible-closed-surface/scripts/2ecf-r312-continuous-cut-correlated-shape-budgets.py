@@ -449,7 +449,17 @@ def parent_state(a,state,physical,common,raw,meta,bridge,kern,cache_pad):
     # The terminal flat disks lie below 1.823242 and inside radius .15; central C vanishes on tail.
     tail=[F(".60014")+old_xy,F("1.888068")+old_xy+old_z,F("1.824077")+old_z]
     tail_ok=tail[0]<F(".601") and tail[1]<F("1.889") and tail[2]<F("1.825")
-    return dict(schema="continuous-all-original-rings-and-true-threefold-arc-R312-spatial-bounds",
+    long_arm=None
+    if float(low)==.35:
+        rn=F("2.252");dn=F("3.830");rp=F("1.560");d=rn-arm
+        direct=((I(rn)+I(r)).square()+(I(F(".233"))+I(zabs)).square()).hi
+        transfer=(I(mixed)+2*I(d)*(I(r)+I(arm))+I(d).square()).hi
+        both=np.minimum(direct,transfer)
+        vals=[worst(t) for t in (r,sphere,both)]
+        checks=[rp,dn**2/4,dn**2]
+        long_arm=dict(physicalLowHighLastStraight=[.98,.46],limits=[str(v) for v in checks],positionBounds=vals,
+             allPositionBudgets=bool(tail_ok and all(F(row["upperExact"])<=limit for row,limit in zip(vals,checks))))
+    return dict(alternativeLong035TrueArms=long_arm,schema="continuous-all-original-rings-and-true-threefold-arc-R312-spatial-bounds",
        fieldSHA=field_hash,sharpFullLateCut=sharp,low=float(low),sleeve=float(c),sourceSHA=physical,centerDeltaUpper=str(arc),
        centerDeltaUpperDisplay=float(arc),allOriginalCells=len(mesh)-1,angularBoxesPerOriginalHalfPeriod=a.angles,
        rawCommonGeometrySourceBound=True,originalLearnedPositionBounds=[str(old_xy),str(old_z)],

@@ -121,7 +121,9 @@ def observe_ends(a,src,micro,definition,geo,arm,body):
             radiusMaximum=float(np.linalg.norm(position[:,:,:2],axis=-1).max()))
     radial=np.linalg.norm(position[:,:,:2],axis=-1)
     height=np.abs(position[:,:,2])
-    if a.low==.25:
+    if getattr(body,"PROFILE",None)=="longer-u035-real-arms":
+        initial_limit,radius_limit,arm_rad=3.830,1.560,2.252
+    elif a.low==.25:
         initial_limit,radius_limit,arm_rad=3.830,1.650,2.322
     else:
         initial_limit,radius_limit,arm_rad=3.788,1.510,2.157
@@ -214,7 +216,7 @@ def main(a):
     report=dict(schema="actual-R262-high-capped-two-phase-complete-shape-observer-v1",
       sourceSHA256=sha(__file__),stateSHA256=sha(a.state),fieldSHA256=src.source_sha,
       definitionSHA256=sha(a.definition),beltSHA256=sha(a.belt),armSourceSHA256=sha(a.arms),
-      comparisonSHA256=sha(a.comparison),anchor=a.anchor,low=a.low,sleeve=a.full_sleeve,
+      comparisonSHA256=sha(a.comparison),centralProfile=getattr(body,"PROFILE","R309-R311"),anchor=a.anchor,low=a.low,sleeve=a.full_sleeve,
       geometry=gr,initialPhase=.41,otherPhase=0.,holdingArm=1,
       initialDiameter=da,otherDiameter=db,initialToOtherHeld=ab,otherToInitialHeld=ba,
       sampledHeldRatio=max(ab["value"],ba["value"])/da["value"],
