@@ -9,13 +9,13 @@ import time
 
 from r726_closed_spinor_fourier import public
 from r734_true_dyadic_tail import I,D,ZERO,ONE
-from r755_harmonic_area_bounds import ab,ch,dot,matrix,positive,quadratic,selector,sh,sqroot,square
+from r755_harmonic_area_bounds import CAP_SIN,ab,ch,dot,matrix,positive,quadratic,selector,sh,sqroot,square
 
 CUTS=('.075','.085','.09','.145','.15','.205','.21','.22')
 SPLITS=(16,24,160,24,160,24,16)
 SOURCE='4a271c0f8df58456a66a71a59e003c5d887c07d54b8bb53290e7269625f3ff7e'
 CAL='bf12e73ac01668167581f3a4037d115a226984555ca1c80dc146ee7239f14b73'
-TILT=I('.27')
+TILT=CAP_SIN
 CT=sqroot(1-square(TILT))
 M=100*ONE/3
 
@@ -89,6 +89,10 @@ def recover(final,journal):
     if (len(units)!=receipt['retained_units'] or 'actual_64_positive_weights' not in units or
         {k for k in units if k.startswith('material_')}!={f'material_{i}' for i in range(sum(SPLITS))}):
         raise ValueError('incomplete original R755 material cover')
+    cap=receipt.get('actual_cap_identity')
+    if (not cap or units['actual_64_positive_weights'].get('actual_cap_identity')!=cap or
+        cap.get('all_tested_proper_rotations_sine_hull')!=TILT.bounds()):
+        raise ValueError('different frozen R755 proper-rotation interval or missing physical rim identity')
     edges=[]
     for lo,up,n in zip(CUTS,CUTS[1:],SPLITS):
         a,b=I(lo),I(up)
@@ -267,7 +271,7 @@ def main():
         R755_journal_sha256=args.journal_sha256,original_R738_cumulative_science=receipt['original_R738_cumulative_science'],
         original_R755_cumulative_unit_seconds=receipt['cumulative_unit_seconds'],old_material_integrals_repeated=0,
         old_J_or_ODE_repeated=0,actual_paid_radial_cells=len(cells),eta=eta.bounds(),curvature=curvature.bounds(),
-        source_read_and_prefix_seconds=read_seconds,poses=report,new_paid_units=paid.new,reused_paid_units=paid.old,
+        actual_cap_identity=receipt['actual_cap_identity'],source_read_and_prefix_seconds=read_seconds,poses=report,new_paid_units=paid.new,reused_paid_units=paid.old,
         new_inequality_unit_seconds=paid.new_seconds,paid_operator_identity=paid.identity,
         all_centers_excluded=report['all_centers_easiest']['excluded'],
         entire_rectangle_passes_this_necessary_gate=all(report[k]['all_directions_passed'] for k in ('rectangle_positive','rectangle_opposite')),
