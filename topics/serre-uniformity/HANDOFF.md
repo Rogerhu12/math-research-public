@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：0316baaf324d5e6d556df1db3d372d507ab32e8d**（2026-11-28T19:12:29.026809+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：3974ef95c971f0dbac2a41110a013a81d38e64db**（2026-11-28T19:16:09.988516+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
 旧repo路径消失后已重新真实部分克隆，终端可用；各次pull/readme检查和旧提交恢复沿逐字归档与log，不重演已推结论。继续既有公开Actions真实git发布。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
@@ -52,6 +52,8 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 [R1209](results/R1209-original-complete-RC-CM-contraction-and-endpoint-readout.md)一般S的完整首对数已付：same good target的t=vG/F=cξW^m给全CM混合normal γ_k=mcξ^(3k)e_(k−1)/(3τξd_k)。原RC低阶primitive使全部I(S)=0；Gauss误差严格为3F/(Q0Q)，SS regular收缩与三个CM analytic列逐项抵消，6/t极部和static顶项全保。完整V_m(S)=−8·2^mν e_n(S)/A1，其中E_S=−v²F³S/A1。对实际返回E_DT=−(tT/A)″，故e_n(DT)=−(m+1)(m+2)[t^(m+1)]T/A；原返回还乘−3γ²。不据此跳过指定C/whole MW或两deck整格比较。
 
 [R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原纯尖点首值已为unit：取实际高PS输入T₀=b²r^(n−1)，Ω₀=q(π^(e0−p)Ψ₀)的底是C(T₀)=−3γ²𝒟T₀。same CM period的二阶Lagrange给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²且互素，p≡2mod3迫分子全支非零。故完整V(C(T₀))=γ²2^mν·45343/(35840Q0²)为unit，V|ker𝔠本原；无需𝔠(T*)=0。不是指定简单商C或whole-MW法向单位，继续两deck实际格、Π/Φ/极化和全原CM jets。
+
+[R1211](results/R1211-original-whole-highest-character-projector-integrality.md)原q的整性现扩至整个最高σ权m²角色格Γ_all，含正/负/旧deck。R1202尾全normal消去不依deck；新增centre h=1·db/u在SS准确产生normal m、pole m的非零项，higher h只给低pole，故不能残留于UΩ modp。高PS中心分支沿原degree界同样排除，得Γ_all=qΓ_all⊕(1−q)Γ_all。正deck的πdb/u允许方向仍保，不能照搬负底单射；未宣整个R-Hodge/BT已split，继续同原Π/Φ/极化。
 
 ## 已成、禁止重做与其它入口
 

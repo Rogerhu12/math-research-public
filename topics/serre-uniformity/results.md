@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原最高惯性角色全部 deck 的尖点投影整性（已证明，R1211）**：[R1211](results/R1211-original-whole-highest-character-projector-integrality.md)原q的整性现扩至整个最高σ权m²角色格Γ_all，含正/负/旧deck。R1202尾全normal消去不依deck；新增centre h=1·db/u在SS准确产生normal m、pole m的非零项，higher h只给低pole，故不能残留于UΩ modp。高PS中心分支沿原degree界同样排除，得Γ_all=qΓ_all⊕(1−q)Γ_all。正deck的πdb/u允许方向仍保，不能照搬负底单射；未宣整个R-Hodge/BT已split，继续同原Π/Φ/极化。
+
 - **原最高纯尖点返回的全素数首对数单位（已证明，R1210）**：[R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原纯尖点首值已为unit：取实际高PS输入T₀=b²r^(n−1)，Ω₀=q(π^(e0−p)Ψ₀)的底是C(T₀)=−3γ²𝒟T₀。same CM period的二阶Lagrange给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²且互素，p≡2mod3迫分子全支非零。故完整V(C(T₀))=γ²2^mν·45343/(35840Q0²)为unit，V|ker𝔠本原；无需𝔠(T*)=0。不是指定简单商C或whole-MW法向单位，继续两deck实际格、Π/Φ/极化和全原CM jets。
 
 - **原全列 RC–CM 消去与完整端点读数（已证明，R1209）**：[R1209](results/R1209-original-complete-RC-CM-contraction-and-endpoint-readout.md)一般S的完整首对数已付：same good target的t=vG/F=cξW^m给全CM混合normal γ_k=mcξ^(3k)e_(k−1)/(3τξd_k)。原RC低阶primitive使全部I(S)=0；Gauss误差严格为3F/(Q0Q)，SS regular收缩与三个CM analytic列逐项抵消，6/t极部和static顶项全保。完整V_m(S)=−8·2^mν e_n(S)/A1，其中E_S=−v²F³S/A1。对实际返回E_DT=−(tT/A)″，故e_n(DT)=−(m+1)(m+2)[t^(m+1)]T/A；原返回还乘−3γ²。不据此跳过指定C/whole MW或两deck整格比较。
