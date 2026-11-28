@@ -441,3 +441,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 09:48:08 UTC — 根README新增§16：逐差异读取与立即应用
 
 提交前检查捕获根README从282e86b03385d3b6245ce7100ae2e2af7b103c2d变为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18；仅读取2587bdf40913e0fb90e0d4adc5bbf03c23bec0d9...bb51f8b60c8c5907662959bc45f62ca9cdb40ed3的README差异，唯一新增§16要求今后新派subagent显式model=gpt-6.2-astra、reasoning_effort=ultra，工具同时用fork_turns=none。已通知现有三代理按新派规则，不臆称能改写既有spawn；未新派。课题README bff8原字无变，数学目标/全域/预算/容量规则无变。用该唯一新增行重建新README核整blob/10649B/SHA256539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444一致，更新root发布/观察固定hash守卫并在H记已读commit。终端未恢复，云核非pull；活控制器真pull的已读commit仍按各槽保。RET95发布此前在变化检测处停止，现遵新规则继续，不跳过任何README检查。 双README云核至`3d0d2f69d7ae1fde97468c3903c371f653693620`无变（非pull）。
+
+## 2026-11-28 09:48:14 UTC — RET95 全部历史报告读回字段与失败边界原字保留
+
+140份完整旧有限报告/标量读回/历史字段清单和执行回执只删字符串外ASCII空白，所有数值字面/数组/字段/失败/未知/历史whole身份原字保。34份输入配方、恢复向量/精确raw重建等排除，35已紧凑不重写；不动request/workflow/现CLI输入或源码。82563B/e77af5874cffbb9d7cbcc2463405eb041b7607b7d001b83d3bb0700c54c3cb9c完整映射及6458B说明同刊，复用原3705B formatter；固定1584d5762c3ed81725a2d3cfb5e1d3f6e233af56原whole恢复供旧hash消费。原1935768B→1531506B，毛404262B、附件89021B、净315241B；无科学重算/删节。此前检测到根README§16而未写ref，已读新diff并记录H后恢复此次普通发布。 双README云核至`f57995b11d7b9e390d61a6f363cdf50bf5febc43`无变（非pull）。
