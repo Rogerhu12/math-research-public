@@ -128,6 +128,8 @@ R724–739全部证明/源参/实际失败保[索引](results.md)及固定全文
 
 [R743](results/R743-three-fixed-markers-rigid-quotient-and-centred-body-moment.md)全E(3)体矩/三标记整圆条件给δE正性；同旋转未标像机制δE≤hmax，37理想场δE/D≤1e−5，宏观held不等于宏观商距。实际全几何及Cx仍待付，强目标须继续改善商距。
 
+[R744](results/R744-closed-extruded-bent-disk-global-reach-and-curvature-gap.md)完整厚闭参考已付全相位reach≥.108、D<3.40/held≥.719/grip>.689/δE>0，完整六jet现刊；所有所列有限法图仍有贯穿平带Killing障碍，过渡环同g及真实精化未付。
+
 ### 准确费用、完整下游与未付标准
 
 [此前完整open](https://github.com/Rogerhu12/math-research-public/blob/5b13b91a1b3b8114f8f6e03d9407504057673970/topics/visible-flex-larger-amplitude/open.md)逐字保全部原参数/路径/费用/预算，R726–730准确包完整保护，R732准确13件及闭/矩/mesh下游14件全main，待35同点natural science/whole pure。139源/922cells/32stage/六jet、N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及全部预算不减。五t全mesh/全角与全时强C²/全远对reach及真正精化仍须支付。
