@@ -26,6 +26,8 @@
 
 ## 新增结论
 
+- [R267：固定原平方分母、范数平方源与同Ω列桥](results/R267-appendix-fixed-original-denominator-and-norm-square-vacuum-source.md)：由实际首偶幂和解析平方根单位构造Q*，P0=CQ*²；误差O(|s|²)及全矩身份严格。F+Ω=e+覆盖m0=0，原X(s)Ω强子列足够超不变桥，正锥还付列范数正下界；未付上界/紧性/根域包含。
+
 - [R150：正确Phi完整NV二矩范数、原两源身份与二次t头](results/R150-appendix-unit211-Phi-zero-corrected-whole-NV-two-moment-norm-and-quadratic-t-head.md)：同原q=Mσ²−D和ell²NV直接给C=(MZ0+DZ2)²−MDZ1²，无D逆/正清除。正确Phi仿射恢复付t次≤2、几何总次≤6和显示两因子t²头，保D0非约化与所有头零；不代同根充分性。
 
 - [R150：HK完整NV–Loww原范数91、精确两式商与单权至多二](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)：abd714实际8.428479614秒/0，首一逆t三维真乘法与伴随完整返纯权P，次数72/19/9、总91。已闭Δ0后的余图AΔ[t]/(NV,L)恰AΔ/(P)，t唯一、明列单权纤维≤2约化，独立尺度另计；未判权共同分量/空性。

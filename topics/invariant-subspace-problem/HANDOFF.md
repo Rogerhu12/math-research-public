@@ -7,12 +7,12 @@
 - **规矩8/15/16：** 只保源/定义/run/SHA；旧编码仅runner临时历史输入。[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。根README新规16已读fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d/99c5ad8，今后新派显式gpt-6.2-astra/ultra。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** ddbabd8988d682f7c1d257dc9c76ed7ac7ed1fc9（2026-11-28 16:02:03 UTC，Actions run46162941116实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46162941116-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 16:02:02 UTC/97d08b9e771e1ef75e64eb48093ac860cd1201cb，根README diff无变。公私均部分克隆blob:none。
-- **终端断开：** 2026-11-28 15:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。16:07再探，旧故障保归档。
-- **终端断开后远端已读：** 25a90e586551de5652dbe82f1518352bec104d9f（2026-11-28 16:01:40 UTC）；只读检查不冒称实际pull。
+- **最近实际 pull / 已读规则提交：** cce3f6b33819a93ce444e082b04e6d168999eb13（2026-11-28 16:15:17 UTC，Actions run46164121174实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46164121174-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 16:15:17 UTC/fe8fe31d331dbd752e73d187d5345288bd0d4466，根README diff无变。公私均部分克隆blob:none。
+- **终端断开：** 2026-11-28 16:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。17:07再探，旧故障保归档。
+- **终端断开后远端已读：** b2e539e90a46890006af9d1bd0ac0f32c255777c（2026-11-28 16:14:53 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-Phi-NVnorm-W-I11-2005-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-Haar-fixed-denominator-2010-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -68,6 +68,6 @@
 
 - 原A单射/稠密像/拟幂零/非紧，普通M未知。真迹类Ky全目标稠密、核Cy⊥；每个非零像对全T循环，所有proper闭T不变L拉回=Cy⊥，此族像交点零。Cy⊥非零未付；RanKy∩RanJ0及同源Abel平方费/log→∞已付，不外推W。D非闭/固定费非localizing/闭包R无紧及MASA门冻结，未知M额外代数保持开。
 - 同源累计log费Θ(n⁵)、全尾q|pk、M有限头非Fredholm/无尾模补或幂不变闭补已付；不分裂M开，全尾不传未知限制。全C强*密度/喷射/UHF零交不付入域；指定正循环f的PXf全柱无界/C1∩Cf0/无可闭已付，普通分母路线冻结。
-- **原Haar普通格/根：** I/F与closureF=I、原同PtΩ强列仍开；Pr全旗quasi，YN²=C DN/QN²强*、γ单列桥含m0=0保。P(z)entire/全旗quasi、奇X²→P0≠0，有限极点给平方零。新[完整无零因子交换子仍可本性](results/R12-appendix-zero-divisor-free-commutant-essential-square-curve-boundary.md)实际双边权移反检验已成，但其尾不全旗quasi；不外推原Haar本性已解。
+- **原Haar普通格/根：** I/F与closureF=I开，γ单列桥/全旗quasi保；P(z)entire、奇X²→P0、有限极点平方零及本性反检验保。新[固定原分母与Ω列](results/R267-appendix-fixed-original-denominator-and-norm-square-vacuum-source.md)付P0=CQ*²、||X(s)²−CQ*²||=O(s²)和||X(s)Ω||正下界；F+Ω=e+，该列强子列即原超不变桥。上界/紧性与本性仍开。
 - 真GR=RT+Q与全C自伴域可付P=RQ入域；q∤p的Q=FZR+KR第一阶整类已排，原q²结式/R171/Puiseux范围保档。真实gauge识别开。原第一正则器ell1时C∩UHF单位、非ell1全喷射平坦，不付另一分母的未知限制。
 - Haar解析循环闭包/真源费、同向量非对称双幂分类及解析单位多项式增长排除已付。非循环g、真实Green/紧扰动/负整数边界、未知域、同forcing/carry、子商损失及N=M开；全H稠密不传未知限制，正常态不代边界奇异态。
