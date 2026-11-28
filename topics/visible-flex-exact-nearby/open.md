@@ -145,23 +145,14 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行和后继
 
-本节更新前全部运行、完整球/SHA、失败unknown、参数/units/scope保[8cd255ec8完整open](https://github.com/Rogerhu12/math-research-public/blob/8cd255ec8cbaefdc19e5fb20bb017b3a5fb826f3/topics/visible-flex-exact-nearby/open.md)及递归658c等前页；第1–7节义务不撤，旧成功禁重。
+本节压缩前所有run、球/SHA、失败unknown、参数/域/mean/source/ports完整保[8a88b0710完整open](https://github.com/Rogerhu12/math-research-public/blob/8a88b07104e57da5994fdc2046ba366ad154ffd8/topics/visible-flex-exact-nearby/open.md)及递归前页。第1–7节义务不撤；旧成功不重；当前readSHA/运行全账见H。
 
-- SL45917913526/1与PS充分门均false，不推奇异。新[TF真实low193 flow](results/R149-supplement-true-low193-local-flow-and-direct-response.md)采用真变量矩阵Peano–Baker/1424格/4273完整97/96枢轴，另算真Green四source maps及原body+193atoms二类逆。首manifest68583B/9bee97cd…、86current/21history/12bound source已齐，待唯一run。对象仍原WVC hybrid，full-family η/repair/mean/真根保，非全DF或CFB。
-- TC2677唯一run46117170011/1消费原45928452441整2677/7724cells、连续1605及游标1605/3788/6000，只续5047缺格；同四whole arrays、matrix、waist均不重。见[续接入口](notes/2026-11-28-TC-complete2677-union-continuation.md)，positive/negative96全残差仍待。
-- UDRC21 45933303391/1全21成，[UACT](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)原Θ96坐标逆<12.588/ρ≈.799597509。TQ/kerΘ图已可用，lowerror≈.31698不能替global；WMA原全空间新候选<6.957962、原850.945862候选保，完整high/physical/mean/ν反馈与fullSchur待。
-- DWTB9 45935081577/1全9成，[DBRA](results/R149-supplement-actual-direct-target-w-and-complete-B-inverse-rows.md)完整w∞/w2/row费用均保。BNC旧45941963989历史路径失败、0新目标；[native-path入口](notes/2026-11-28-BNC-native-path-recovery.md)唯一46117248905/1仅修relative basename/后缀/兄弟目录，原7目标/全a相位/joint费不变。
-- [BGR3入口](notes/2026-11-28-BGR-first-actual-entry.md)唯一46117818798/1算新全9216 signed Gram/∞产品/whole rowerror。BNC完后只复制全部96centers和四旧整费，加新费完整求和，不从旧upper相减。[BFP19](notes/2026-11-28-full-target-nu-forward-first-entry.md)唯一46118996598/1已06:57:53启动，全512forward/2560image/8192pullback/真正Θ列，manifest96504B/363c2116…；global/flow/w/PDE/alias/means全保。
-- APHI仍只是NP严格particular；PP/CP全regular补偿/mean/raw E′a保。AP96 run45926971089/1全6成、joint96radius<.000227442，true_PDE_corrected_columns=false。[HP](results/R147-supplement-actual-height-pivot-and-complete-phase-mean-transfer.md)实际height-first比率(-1.543,-1.5208)、physical98误差<.001663，完整r◦/chart/world端口不删；非Θ或全Schur。root继续同一TC96的新完整height行，不能以phase行替代。
-- RHI45933988440/1全4、18relative carriers/2847cells已成，relative I/0非world锚。WMR prechild45941738781失败保，45942597362/1四目标已成；[AWH](results/R147-supplement-actual-complete-reference-world-height-and-anchor-budget.md)完整referenceν高度[-.0253702,-.0252298]和锚差.031082487a0+.006877446p0已付，varying P_b保。CW现在给真M R→L→b锚及固定exterior particular高度(-.02547,-.02513)，CG给全cap moving-state C0<9.9309e−5；真实core准入/匹配/其自身C0仍未授。
+- 原SL/PS充分门false，不推奇异。TF46120139018/1实际真low193 flow/1424cells/4273实际枢轴/四完整source maps运行；η/repair/mean/真根全保，非fullDF。
+- [TP](results/R149-supplement-true-flow-to-complete-positive-physical-chain.md)已证明TF到原58→224→32→PN56/CXN6的完整入口；full ΔAL/ΔC/GH/物理Robin与独立mean全付，必须新κB<1。TF完整成功前不生成未来manifest。signed RHS须whole-cell，right97仅一次Θ解权；norm maps和nodes不是signed解。原SC/JF接同schema，无重复入口。
+- TC46117170011/1仅续原2677/7724 whole accepted union后的5047缺格；96列、matrix、waist、四whole arrays不重。SC首次同一次原pure现保全root96 (d,z,e)供CFC，尚无SC actual。
+- UACT45933303391全21有限Θ96坐标逆<12.588/ρ≈.799597509，finite-only .31698非global。WMT46122573619全14实际新global<6.957962，原850候选保；全physical/high/两mean/ν/phase/height Schur未付。
+- BNC46117248905全7/192observations、96exact signed centres+joint<.001383111及双mean全保（ABNC）；它是target坐标，不是完整Θ列。BGR46117818798与BFP46118996598 Actions已success，尚待整actual/全部validator核验；后继只复制全96centres/means与各整费重新正向组合，不从旧upper相减。
+- AP96全6 finite trial phase joint<.000227442，非true PDE修正。H96首46122740303在science前reserve不符失败，0目标；容量修复后46123190757/1运行7新目标，全部TC/RHI/waist Jacobian/mean/world/C0误差保。完整actual后可用whole canonical/G/H及更强已证anchor重合，不重积分。
+- AWH全referenceν height[-.0253702,-.0252298]及anchor差.031082487a0+.006877446p0；CW给实际锚/固定exterior particular，CG cap moving C0<9.9309e−5。HP仅同NP height-first/physical98 joint<.001663，不授Θ/fullSchur。HN2真strict二阶source/弱二阶解/短height Hessian已付，不授全regular response和tame迭代。
 
-尾端A0/L²/C1/高阶范围及SCAP完整97反馈见第4、6节与H，所有wholehigh、γ、means、world与最终fixedmetric义务照旧。运行/规则readSHA/完整META8 receipt与前7批账见H；META8净753508B、科学0。继续全部实际门，完成前不收尾。
-
-
-2026-11-28 HN2已支付真strict second source与full弱二阶解、actual short height Hessian及HP mean/phase quotient导数；不删除full regular二阶response、一般moving cap二阶端口、全tame inverse/可求和迭代义务。见R147 HN2，首算57新exact组合，旧科学0。TF唯一run46120139018/1正运行，尚无success gate。
-
-WMT14完整新公式与run46122573619全14 actual已成，原global850完整候选保、新global<6.957962；BNC46117248905全7成、全96 target coordinates联合误差<.001383111，但不是完整Θ列，双mean与未付full512/infinite/coupling保。原SC/JF接受TP同schema全58/224/32之后仍须TC all7724。
-
-H96已完成原TC96 whole-height与消高phase的公式/完整公开入口（114/51、7新目标），九新有理比较一次全过。全RHI/TC carrier恢复只核旧whole SHA，新积分只在Actions；未知angular error用2/5。actual待run，truePDE修正、全physical高列及means/world ports未删；成功后可消费完整canonical/G/H按更强已证actual-anchor界重组合，不能重积分。
-
-ABNC已完整登记BNC46117248905/1全7；exact96 centres与单一joint radius是更强对象，显示零中心Arb球不能抹去signed中心。whole Θ/fullforward与两mean/phase/height/regular补偿仍待。
+全Γ/γ低高准入、同态H1/fullmean/true residual0、core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps和最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。
