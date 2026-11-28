@@ -14,6 +14,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi整个ell=1/2原分支排除](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-original-exclusion.md)：新吹胀兼容式完整回六原式C32z9，与旧不可约C20z的权因子互素，故z9∈I6。已付z单位排空整支，当前正确Phi/D≠0新付2ell−1；一般Phi及普通ISP仍开。
+
 - [R267：一个合法分离选择中的实际单真空列发散](results/R267-appendix-separated-choice-actual-vacuum-column-divergence.md)：真奇部、全1柱与未来张量尾同源保留，所有固定正有理t的||QNΩ||沿全切口趋∞，同时QN²仍强*趋单射稠值Zt。只排这个选择，保真正重叠/耦合单列路线。
 
 - [R267：同一实际QN的单真空列紧性与闭稳定根](results/R267-appendix-single-actual-denominator-column-compactness-and-stable-root.md)：只需QNΩ一个强子列，完整J移位矩付两列图单值/可闭及闭包自然平方域；m0≥1返回原候选普通不变格。该实际单列紧性仍未证明，不要求或声称QN全域一致界。

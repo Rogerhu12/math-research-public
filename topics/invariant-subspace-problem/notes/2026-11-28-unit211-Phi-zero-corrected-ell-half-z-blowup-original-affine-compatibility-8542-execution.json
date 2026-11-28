@@ -1,0 +1,243 @@
+{
+  "schema": "isp-exact-small-original-exclusion-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "status": "unique-first-mathematical-run-completed-exit-zero",
+  "task": "Entire correct Phi ell=1/2: original z-blowup affine compatibility and coprime C20/C32 exclusion",
+  "run": {
+    "run_id": "46143529198",
+    "job_id": "140974503932",
+    "attempt": "1",
+    "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46143529198",
+    "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46143529198/job/140974503932"
+  },
+  "source": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-ell-half-z-blowup-original-affine-compatibility-8542.py",
+    "git_blob": "f77b3eb1163c1606c4eddc4e7f4e8a8c3d920b2d",
+    "sha256": "965aa4db96787a17f8f1772929d80adf7e6e9a7ef91eb4643b89e9a63e150b32",
+    "commit": "3d476b57175e6ef3123f9bb17c9a31a83269bc14",
+    "bytes": 15438,
+    "input_blob": "bb4d17555b91ccef41c4fad34ab33f4756f4c344"
+  },
+  "dependency": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-ell-half-direct-raw-degree-three-z-certificate-8542.py",
+    "git_blob": "6ee987687964a48e1d4ffec6abf1230018de5263",
+    "sha256": "32e949c11469da6350c0403e2aead13d3558fce80f64b78021e3f1f65d87b15e",
+    "necessary_prefix_bytes": 6013,
+    "necessary_prefix_sha256": "17df64c95494142eaae3d137442d464bdc87d7f0d881ca41d0910d50b6abdba9",
+    "definition_only_before_old_matrix": true
+  },
+  "resource": {
+    "source_limit_seconds": 120,
+    "driver_limit_seconds": 135,
+    "address_space_limit_bytes": 1073741824,
+    "math_seconds": 0.7093712670000016,
+    "driver_seconds": 0.7765367710000035,
+    "math_max_rss_kib": 46892,
+    "driver_max_child_rss_kib": 48172,
+    "exit_code": 0
+  },
+  "rules_pull": {
+    "after": "6e60b15a479d3ca8af57153ffbd59d3c3283b79a",
+    "before": "3d476b57175e6ef3123f9bb17c9a31a83269bc14",
+    "rules_git_blobs": {
+      "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+      "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+    },
+    "rules_unchanged": true,
+    "utc": "2026-11-28T12:13:06.636309+00:00"
+  },
+  "stdout": {
+    "bytes": 9935,
+    "sha256": "c7a8ef2f486fbb50346a442818ca1734aae1c538714a1f888ca31a028676437a",
+    "coefficient_payload_not_copied": true
+  },
+  "geometry": {
+    "scope": "entire corrected Phi=0 distinct-singleton physical D!=0 chart at ell=1/2",
+    "Q": "4(u-1)(u-2)",
+    "epsilon": "lambda-1/2",
+    "tau": "T+1/2",
+    "new_coordinate": "r=tau/z",
+    "z": "Q*t; already paid by the entire correct t=0 exclusion",
+    "all_affine_head_zero_fibers_retained": true,
+    "N1_epsilon_squared_preserved": true
+  },
+  "compatibility": {
+    "three_affine_mean_returns": 3,
+    "ten_fixed_scalar_original_returns": true,
+    "affine_determinant_profile": {
+      "bytes": 2920,
+      "degrees_u_r_epsilon_z": [
+        27,
+        4,
+        0,
+        0
+      ],
+      "sha256": "9a2a3bfb198974008ec1347c9c34a0e6c5420860333578109c46830525198488",
+      "terms": 110,
+      "totalDegree": 31,
+      "zero": false
+    },
+    "first_N1_01_profile": {
+      "bytes": 8161,
+      "degrees_u_r_epsilon_z": [
+        42,
+        6,
+        0,
+        0
+      ],
+      "sha256": "d993d162460e543bbe564bb937a36c18a0731b7f1ec720183f7caa4194e0fc34",
+      "terms": 238,
+      "totalDegree": 48,
+      "zero": false
+    },
+    "actual_gcd_steps": [
+      {
+        "input_index": 0,
+        "label": "threeAffineMeans_fixed3",
+        "r_degree": 4,
+        "seconds": 0.5047679760000037
+      },
+      {
+        "input_index": 1,
+        "label": "N1_01",
+        "r_degree": 0,
+        "seconds": 0.6436798140000022
+      }
+    ],
+    "used_indices": [
+      0,
+      1
+    ]
+  },
+  "full_original_certificate": {
+    "allAffineRankDropsAndAllPureUZeroFibersRetained": true,
+    "cancelledSixFinalOriginalCommon": {
+      "bytes": 159,
+      "degrees_u_r_epsilon_z": [
+        7,
+        0,
+        0,
+        0
+      ],
+      "sha256": "bee0a49f985fba557ba4b6f6ddc05e846579fb56eb32fe544bd99ba4a2a8912c",
+      "terms": 8,
+      "totalDegree": 7,
+      "zero": false
+    },
+    "completeSixRawOriginalPolynomialReturned": true,
+    "exactClaim": "Cnew(u)*z^N belongs to the six original raw equations over only OLD paid coefficients",
+    "noNewGeometryInverse": true,
+    "onlyOldPaidFactorsRemoved": true,
+    "retainedCover": {
+      "bytes": 1224,
+      "degrees_u_r_epsilon_z": [
+        32,
+        0,
+        0,
+        0
+      ],
+      "sha256": "0ee79b10006189416882aeaacb606f0bd2e9be84ecf313380bdcac6a7271f424",
+      "terms": 33,
+      "totalDegree": 32,
+      "zero": false
+    },
+    "seconds": 0.7082729540000017,
+    "stage": "new_ell_half_blowup_six_raw_original_positive_z_cover",
+    "targetPositiveZpower": 9,
+    "usedScalarIndices": [
+      0,
+      1
+    ]
+  },
+  "new_complete_QQ_factors": {
+    "allUnclosedC20FibersRetained": false,
+    "completeFactorProductReturned": true,
+    "factors": [
+      {
+        "matchesPublishedC20": false,
+        "monicFactor": {
+          "bytes": 617,
+          "degrees_u_r_epsilon_z": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "sha256": "ed7347d97acf89b193df68495bc0f8232a90e6a2f36fd931cdd8d416e9bb295e",
+          "terms": 21,
+          "totalDegree": 20,
+          "zero": false
+        },
+        "multiplicity": 1
+      },
+      {
+        "matchesPublishedC20": false,
+        "monicFactor": {
+          "bytes": 139,
+          "degrees_u_r_epsilon_z": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "sha256": "d6ca505db7a8dfb48b5b22bbdfdfe73f51792f78e4bf371af7f484e69ee14765",
+          "terms": 7,
+          "totalDegree": 6,
+          "zero": false
+        },
+        "multiplicity": 2
+      }
+    ],
+    "noOldC20CoefficientPayloadOrOldTargetGateRegenerated": true,
+    "publishedC20IsQQIrreducibleOfDegree20": true,
+    "publishedC20MonicProfile": "01e360b988892d68755864adae1520933535e6c79faf79bb667f1eec33eeb3cb",
+    "seconds": 0.7091910689999992,
+    "stage": "new_ell_half_blowup_original_cover_complete_QQ_factors",
+    "wholePhysicalEllHalfExcludedByC20AndNewCover": true
+  },
+  "previous_C20": {
+    "run_id": "46141521771",
+    "job_id": "140968304419",
+    "proof_blob": "9e05d5dcff69f0a6a2f9916f61a062e0cf06551c",
+    "monic_profile_sha256": "01e360b988892d68755864adae1520933535e6c79faf79bb667f1eec33eeb3cb",
+    "degree": 20,
+    "QQ_irreducible": true,
+    "multiplicity": 1,
+    "identity": "C20(u)*z belongs to I6"
+  },
+  "rigorous_synthesis": {
+    "new_identity": "C32(u)*z^9 belongs to I6; only means and N1 used by the new Bezout",
+    "C32_factor_degrees_and_multiplicities": [
+      [
+        20,
+        1
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "new_degree_twenty_monic_distinct_from_old_C20": true,
+    "QQ_u_gcd_of_C20_C32": 1,
+    "coprimality_is_direct_consequence_of_complete_QQ_factorizations": true,
+    "new_gcd_execution_not_needed_or_run": true,
+    "unlocalized_consequence": "z^9 belongs to I6 over original paid coefficient ring",
+    "whole_physical_ell_half_excluded": true,
+    "new_physical_unit": "2*ell-1, only in the entire current corrected Phi=0,D!=0 original chart",
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "statistics": {
+    "newAffineReturns": 3,
+    "newExactProducts": 122,
+    "newFinalRawPolynomialReturns": 2,
+    "newFixedScalarOriginalReturns": 20,
+    "newHeadFreeReturns": 18,
+    "newRBezoutReturns": 9
+  },
+  "data_policy": {
+    "no_old_z_target_or_matrix_replayed": true,
+    "no_large_coefficients_or_encoded_chunks_saved": true
+  }
+}

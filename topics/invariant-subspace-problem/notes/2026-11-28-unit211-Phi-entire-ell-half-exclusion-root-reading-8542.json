@@ -1,0 +1,26 @@
+{
+  "session": "Astra-ISP-8542378f-20261127",
+  "utc": "2026-11-28 12:30 UTC",
+  "proof_blob": "1b86860739b609bd729d86a8c5925481c658c82f",
+  "receipt_blob": "a76b37dbba9e4a1f73843551c062c6b5607ddec7",
+  "complete_formal_read": true,
+  "actual_run_read": "46143529198/140974503932",
+  "original_z_power": 9,
+  "old_C20_irreducible": true,
+  "new_C32_factor_degrees": [
+    20,
+    6
+  ],
+  "new_C32_factor_multiplicities": [
+    1,
+    2
+  ],
+  "same_monic_normalization_and_four_index_encoding": true,
+  "normalization_primary_url": "https://python-flint.readthedocs.io/en/latest/fmpq_mpoly.html",
+  "normalization_primary_read": "python-flint 0.9.0 coefficient/coeffs/terms examples confirm decreasing monomial order; coefficient(0) is leading coefficient for the nonzero pure-u polynomial",
+  "new_gate_or_replay": false,
+  "consequence": "z^9 belongs to I6; physical z is already a unit; entire ell=1/2 excluded only in current corrected Phi,D!=0 chart",
+  "new_paid_factor": "2ell-1",
+  "general_Phi_closed": false,
+  "ordinary_ISP_complete": false
+}
