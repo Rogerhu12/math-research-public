@@ -1,0 +1,680 @@
+{
+  "schema": "isp-hk-four-individual-original-NP-scalar-receipt-v1",
+  "sourceFile": "2026-11-28-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns-8542.py",
+  "execution": {
+    "elapsed_seconds": 20.773897299000005,
+    "max_child_rss_kib": 191932,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "111f36cc51dd4471dea25782e8dc013580b59866",
+        "before": "7b9c9becb081552a8c55fd4d52f862eb804d713a",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T04:57:29.729980+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46109871971",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7b9c9becb081552a8c55fd4d52f862eb804d713a",
+    "source_exit_code": 0,
+    "source_git_blob": "bb534b16c2858c7cec98c5358ca105758e736e67",
+    "source_sha256": "00d513d603f862ef6b484176fe4d9da3b766e0047d46a87ec8f575622aa8ca14",
+    "stdout_bytes": 10553,
+    "stdout_sha256": "339342796274645455540cde2ed15824905bdea1eac8ffc973f05e6d7483b706",
+    "stop_reason": null
+  },
+  "job_id": 140870807802,
+  "successfulCoordinatePrefix": {
+    "bytes": 4540,
+    "sha256": "a56e54b840cc323675394f96484c99658cad9a8420933cd2f344fe2df0d76efc"
+  },
+  "records": [
+    {
+      "bothOriginalSingletonsRetained": true,
+      "correctOriginalJetProduct": true,
+      "fullRhoQuadraticRetained": true,
+      "noDeltaOrNVSlopeInverse": true,
+      "oldFiveRowCofactorsNotReplayed": true,
+      "originalValueMoments": [
+        1,
+        2,
+        3
+      ],
+      "originalZDegrees": {
+        "NBe": 3,
+        "NBo": 3,
+        "PBe": 3,
+        "PBo": 3
+      },
+      "sameGramE0N0P0P1AndFullNVReturned": true,
+      "seconds": 3.569603247,
+      "stage": "new_h_equals_k_complete_individual_original_value_rows"
+    },
+    {
+      "coefficients": [
+        {
+          "bytes": 9024,
+          "degrees_lambda_u_Q": [
+            24,
+            5,
+            4
+          ],
+          "sha256": "1e5dd86fe909da5824703d2e7e0c6ea99e6fedb47a6d69aa821c8163ed6afbf5",
+          "terms": 375,
+          "totalDegree": 31,
+          "zero": false
+        },
+        {
+          "bytes": 7648,
+          "degrees_lambda_u_Q": [
+            24,
+            6,
+            3
+          ],
+          "sha256": "20a0dbde293a28e105f651e192eb22b7db02289d877d5f851080ea3dc0a0b28b",
+          "terms": 318,
+          "totalDegree": 30,
+          "zero": false
+        }
+      ],
+      "entireSameOriginalRowReturned": true,
+      "name": "NV_original_affine",
+      "namedPhysicalRemoval": [],
+      "noUnknownWeightOrHeadInverse": true,
+      "originalZDegree": 1,
+      "seconds": 3.5753526060000027,
+      "stage": "new_individual_original_row_clearing"
+    },
+    {
+      "coefficients": [
+        {
+          "bytes": 519058,
+          "degrees_lambda_u_Q": [
+            79,
+            19,
+            15
+          ],
+          "sha256": "3becfa5a634aa9f806a1613c0539986107882ae4b225e86af9b246d6e5cc8716",
+          "terms": 10707,
+          "totalDegree": 104,
+          "zero": false
+        },
+        {
+          "bytes": 459889,
+          "degrees_lambda_u_Q": [
+            78,
+            18,
+            14
+          ],
+          "sha256": "5d86e928c96511d5ea6d650097dbfceafb97ea435882ffb211a7694cfd3c103d",
+          "terms": 9543,
+          "totalDegree": 101,
+          "zero": false
+        },
+        {
+          "bytes": 413023,
+          "degrees_lambda_u_Q": [
+            77,
+            18,
+            12
+          ],
+          "sha256": "28d645deef1d19ea44c4d3d9eb2d07c595199ce2110434139fabdeb9704c12d4",
+          "terms": 8633,
+          "totalDegree": 98,
+          "zero": false
+        },
+        {
+          "bytes": 354850,
+          "degrees_lambda_u_Q": [
+            76,
+            17,
+            11
+          ],
+          "sha256": "bcf468211f050e1e1559f9870ffa430a9ea1e7d4598d7ef307de0120e440f53d",
+          "terms": 7585,
+          "totalDegree": 95,
+          "zero": false
+        }
+      ],
+      "entireSameOriginalRowReturned": true,
+      "name": "NBe",
+      "namedPhysicalRemoval": [],
+      "noUnknownWeightOrHeadInverse": true,
+      "originalZDegree": 3,
+      "seconds": 4.335468302999999,
+      "stage": "new_individual_original_row_clearing"
+    },
+    {
+      "coefficients": [
+        {
+          "bytes": 315509,
+          "degrees_lambda_u_Q": [
+            69,
+            16,
+            13
+          ],
+          "sha256": "1cdd8bc1fdc698730f832b9fefbd80dc2ff3a991394fd308fb6b3f5c5c0bec64",
+          "terms": 7192,
+          "totalDegree": 91,
+          "zero": false
+        },
+        {
+          "bytes": 295703,
+          "degrees_lambda_u_Q": [
+            68,
+            17,
+            12
+          ],
+          "sha256": "d1f350c4445dfb3aae1765fd3fdbe18554ba8e3b05493b3b3368c038ecf89d77",
+          "terms": 6736,
+          "totalDegree": 89,
+          "zero": false
+        },
+        {
+          "bytes": 257880,
+          "degrees_lambda_u_Q": [
+            67,
+            16,
+            11
+          ],
+          "sha256": "56a63e5a7d1e916ffb4ee26d11037883e1f75b6770647157e7e5f241dc3234d5",
+          "terms": 5885,
+          "totalDegree": 86,
+          "zero": false
+        },
+        {
+          "bytes": 211634,
+          "degrees_lambda_u_Q": [
+            66,
+            15,
+            9
+          ],
+          "sha256": "9c450ea60cce52b4b7700d1fbcafcb9afca84da1736b85eb35f54c72e2822c2b",
+          "terms": 4977,
+          "totalDegree": 82,
+          "zero": false
+        }
+      ],
+      "entireSameOriginalRowReturned": true,
+      "name": "NBo",
+      "namedPhysicalRemoval": [],
+      "noUnknownWeightOrHeadInverse": true,
+      "originalZDegree": 3,
+      "seconds": 4.726820547999999,
+      "stage": "new_individual_original_row_clearing"
+    },
+    {
+      "coefficients": [
+        {
+          "bytes": 704138,
+          "degrees_lambda_u_Q": [
+            87,
+            21,
+            16
+          ],
+          "sha256": "c31785a14307072716990bcc8d22c016198746ed277280e104dc9eb4819b6540",
+          "terms": 13456,
+          "totalDegree": 114,
+          "zero": false
+        },
+        {
+          "bytes": 616527,
+          "degrees_lambda_u_Q": [
+            86,
+            20,
+            14
+          ],
+          "sha256": "65e29c7cda9e157f51eaab9637bb2f06565d5506c95a10938952f4b6c84edba3",
+          "terms": 11986,
+          "totalDegree": 111,
+          "zero": false
+        },
+        {
+          "bytes": 551773,
+          "degrees_lambda_u_Q": [
+            85,
+            19,
+            13
+          ],
+          "sha256": "5b1c3099e0f145865161a43e1c2a956bc5f8503eb9d5f22283945139b486d604",
+          "terms": 10730,
+          "totalDegree": 108,
+          "zero": false
+        },
+        {
+          "bytes": 489166,
+          "degrees_lambda_u_Q": [
+            84,
+            19,
+            12
+          ],
+          "sha256": "d9bce5727b2932a6a599f0c9adc43c4e92caf277fc918a112284d71915404554",
+          "terms": 9733,
+          "totalDegree": 105,
+          "zero": false
+        }
+      ],
+      "entireSameOriginalRowReturned": true,
+      "name": "PBe",
+      "namedPhysicalRemoval": [],
+      "noUnknownWeightOrHeadInverse": true,
+      "originalZDegree": 3,
+      "seconds": 5.809947743000002,
+      "stage": "new_individual_original_row_clearing"
+    },
+    {
+      "coefficients": [
+        {
+          "bytes": 427226,
+          "degrees_lambda_u_Q": [
+            75,
+            18,
+            15
+          ],
+          "sha256": "309c34e34e7c4d90760debc5c63224f80cd9cba8fdfdaf46e8ec7dd9e960e000",
+          "terms": 9167,
+          "totalDegree": 99,
+          "zero": false
+        },
+        {
+          "bytes": 379370,
+          "degrees_lambda_u_Q": [
+            74,
+            18,
+            13
+          ],
+          "sha256": "aebc6090e8835fc40c0379bbe14fb66ee63721bbb12cee028d89084299973107",
+          "terms": 8297,
+          "totalDegree": 96,
+          "zero": false
+        },
+        {
+          "bytes": 344255,
+          "degrees_lambda_u_Q": [
+            73,
+            18,
+            12
+          ],
+          "sha256": "2e0f45ef6a442ba9c11f14660cf3ead3e2839acf473de377384bdc4f02382d20",
+          "terms": 7514,
+          "totalDegree": 94,
+          "zero": false
+        },
+        {
+          "bytes": 288989,
+          "degrees_lambda_u_Q": [
+            72,
+            17,
+            10
+          ],
+          "sha256": "5988813a2eef1c466b2a2dd869e29c32f9d979e01467e1628a2d19e0b5e0ded0",
+          "terms": 6520,
+          "totalDegree": 91,
+          "zero": false
+        }
+      ],
+      "entireSameOriginalRowReturned": true,
+      "name": "PBo",
+      "namedPhysicalRemoval": [],
+      "noUnknownWeightOrHeadInverse": true,
+      "originalZDegree": 3,
+      "seconds": 6.452899796000004,
+      "stage": "new_individual_original_row_clearing"
+    },
+    {
+      "completeFourZColumnsReturned": true,
+      "entireDeltaZeroAndAllHeadZerosRetained": true,
+      "exactOriginalIdentity": "a^3*P(z)-R=(b+a*z)*H(z)",
+      "name": "NBe",
+      "noCommonZeroExclusionClaim": true,
+      "noSlopeInverse": true,
+      "originalScalar": {
+        "bytes": 4779904,
+        "degrees_lambda_u_Q": [
+          151,
+          37,
+          24
+        ],
+        "sha256": "21399f4c94aee80528295f4a509fe94849a05d01c03d413d9b85cda0172f58b8",
+        "terms": 58834,
+        "totalDegree": 194,
+        "zero": false
+      },
+      "physicalNecessaryCore": {
+        "bytes": 323136,
+        "degrees_lambda_u_Q": [
+          74,
+          19,
+          9
+        ],
+        "sha256": "ac6cc4d42183ca23e5b74e2755966680ea2c240564e3401fbe2d4c3b7b75efe8",
+        "terms": 7065,
+        "totalDegree": 93,
+        "zero": false
+      },
+      "physicalRemoval": [
+        [
+          "B",
+          1
+        ],
+        [
+          "Q",
+          3
+        ],
+        [
+          "1-Q",
+          3
+        ],
+        [
+          "Pf_coordinate",
+          3
+        ],
+        [
+          "M_equals_4bc_delta",
+          3
+        ],
+        [
+          "lambda_half_original_physical_rank",
+          2
+        ]
+      ],
+      "seconds": 10.076784578000002,
+      "stage": "new_individual_original_NV_cubic_scalar_return"
+    },
+    {
+      "factors": [
+        {
+          "bytes": 276283,
+          "degrees_lambda_u_Q": [
+            74,
+            19,
+            9
+          ],
+          "multiplicity": 1,
+          "sha256": "ad52502e8e3f79f6b014b882ef8b3af4df4c5d8fe00548782d647e7826c0d968",
+          "terms": 7065,
+          "totalDegree": 93,
+          "zero": false
+        }
+      ],
+      "name": "NBe",
+      "scalar": "1/36028797018963968",
+      "seconds": 10.1189477,
+      "stage": "new_individual_original_scalar_exact_factors",
+      "wholeProductReturned": true
+    },
+    {
+      "completeFourZColumnsReturned": true,
+      "entireDeltaZeroAndAllHeadZerosRetained": true,
+      "exactOriginalIdentity": "a^3*P(z)-R=(b+a*z)*H(z)",
+      "name": "NBo",
+      "noCommonZeroExclusionClaim": true,
+      "noSlopeInverse": true,
+      "originalScalar": {
+        "bytes": 3625611,
+        "degrees_lambda_u_Q": [
+          141,
+          34,
+          22
+        ],
+        "sha256": "569159f3641034d3c553ee2a4bae81db75b6c770081707407078f02a77e859fe",
+        "terms": 47601,
+        "totalDegree": 181,
+        "zero": false
+      },
+      "physicalNecessaryCore": {
+        "bytes": 256169,
+        "degrees_lambda_u_Q": [
+          70,
+          18,
+          8
+        ],
+        "sha256": "084daba973f0b2f4a65ae849d19a9be72e86d5ac93943a808924b077e22542ed",
+        "terms": 5907,
+        "totalDegree": 88,
+        "zero": false
+      },
+      "physicalRemoval": [
+        [
+          "B",
+          1
+        ],
+        [
+          "Q",
+          3
+        ],
+        [
+          "1-Q",
+          3
+        ],
+        [
+          "Pf_coordinate",
+          3
+        ],
+        [
+          "M_equals_4bc_delta",
+          3
+        ],
+        [
+          "lambda_half_original_physical_rank",
+          2
+        ]
+      ],
+      "seconds": 12.825587216000002,
+      "stage": "new_individual_original_NV_cubic_scalar_return"
+    },
+    {
+      "factors": [
+        {
+          "bytes": 219124,
+          "degrees_lambda_u_Q": [
+            70,
+            18,
+            8
+          ],
+          "multiplicity": 1,
+          "sha256": "25685003996a2cb08e6111f190e22199a2409b634124b9de86fd70b1e93c7c50",
+          "terms": 5907,
+          "totalDegree": 88,
+          "zero": false
+        }
+      ],
+      "name": "NBo",
+      "scalar": "1/2251799813685248",
+      "seconds": 12.859508740000003,
+      "stage": "new_individual_original_scalar_exact_factors",
+      "wholeProductReturned": true
+    },
+    {
+      "completeFourZColumnsReturned": true,
+      "entireDeltaZeroAndAllHeadZerosRetained": true,
+      "exactOriginalIdentity": "a^3*P(z)-R=(b+a*z)*H(z)",
+      "name": "PBe",
+      "noCommonZeroExclusionClaim": true,
+      "noSlopeInverse": true,
+      "originalScalar": {
+        "bytes": 5689902,
+        "degrees_lambda_u_Q": [
+          159,
+          39,
+          25
+        ],
+        "sha256": "9eac0cd607d97aa21c36b30a38c2614232181c7cd57ea6c70406b395924978e7",
+        "terms": 66902,
+        "totalDegree": 204,
+        "zero": false
+      },
+      "physicalNecessaryCore": {
+        "bytes": 479463,
+        "degrees_lambda_u_Q": [
+          85,
+          21,
+          10
+        ],
+        "sha256": "3fbd20c0e8798015e4c4664c5ab962c1fb005c2c02d00692f4a4e0a7a60fff59",
+        "terms": 9482,
+        "totalDegree": 106,
+        "zero": false
+      },
+      "physicalRemoval": [
+        [
+          "Q",
+          3
+        ],
+        [
+          "1-Q",
+          3
+        ],
+        [
+          "Pf_coordinate",
+          3
+        ],
+        [
+          "M_equals_4bc_delta",
+          3
+        ],
+        [
+          "lambda_half_original_physical_rank",
+          2
+        ]
+      ],
+      "seconds": 17.303041370000003,
+      "stage": "new_individual_original_NV_cubic_scalar_return"
+    },
+    {
+      "factors": [
+        {
+          "bytes": 407302,
+          "degrees_lambda_u_Q": [
+            85,
+            21,
+            10
+          ],
+          "multiplicity": 1,
+          "sha256": "b82bbcfdeb6b85e26bede985a4b3f1fe1b5e2a3eacacc0eeb2b9ea64edad7a3f",
+          "terms": 9482,
+          "totalDegree": 106,
+          "zero": false
+        }
+      ],
+      "name": "PBe",
+      "scalar": "1/9223372036854775808",
+      "seconds": 17.365304911000003,
+      "stage": "new_individual_original_scalar_exact_factors",
+      "wholeProductReturned": true
+    },
+    {
+      "completeFourZColumnsReturned": true,
+      "entireDeltaZeroAndAllHeadZerosRetained": true,
+      "exactOriginalIdentity": "a^3*P(z)-R=(b+a*z)*H(z)",
+      "name": "PBo",
+      "noCommonZeroExclusionClaim": true,
+      "noSlopeInverse": true,
+      "originalScalar": {
+        "bytes": 4269967,
+        "degrees_lambda_u_Q": [
+          147,
+          36,
+          24
+        ],
+        "sha256": "d0548b76ae8acb52446def334cad14d24b6de9e4e2a8876b5120cd035adcf004",
+        "terms": 54039,
+        "totalDegree": 189,
+        "zero": false
+      },
+      "physicalNecessaryCore": {
+        "bytes": 375392,
+        "degrees_lambda_u_Q": [
+          79,
+          20,
+          10
+        ],
+        "sha256": "5f68ed5598e1da2dcb63258bf54110bd32589bad7672db892fc159101819aeb2",
+        "terms": 7927,
+        "totalDegree": 99,
+        "zero": false
+      },
+      "physicalRemoval": [
+        [
+          "Q",
+          3
+        ],
+        [
+          "1-Q",
+          3
+        ],
+        [
+          "Pf_coordinate",
+          3
+        ],
+        [
+          "M_equals_4bc_delta",
+          3
+        ],
+        [
+          "lambda_half_original_physical_rank",
+          2
+        ]
+      ],
+      "seconds": 20.640728471000003,
+      "stage": "new_individual_original_NV_cubic_scalar_return"
+    },
+    {
+      "factors": [
+        {
+          "bytes": 324887,
+          "degrees_lambda_u_Q": [
+            79,
+            20,
+            10
+          ],
+          "multiplicity": 1,
+          "sha256": "deefd90fd6d10b1d6460a608e48ad0068427b7d0f0a9697b79cc1406ab073992",
+          "terms": 7927,
+          "totalDegree": 99,
+          "zero": false
+        }
+      ],
+      "name": "PBo",
+      "scalar": "1/864691128455135232",
+      "seconds": 20.692290532999998,
+      "stage": "new_individual_original_scalar_exact_factors",
+      "wholeProductReturned": true
+    },
+    {
+      "allDeltaZeroAndNewScalarZeroSetsRetained": true,
+      "completeNewOriginalRowCount": 4,
+      "completeNewScalarReturnCount": 4,
+      "exactPolynomialDivisionReturns": 354,
+      "namedCoordinateChart": [
+        "A",
+        "B",
+        "Q",
+        "1-Q",
+        "Pf"
+      ],
+      "noCoefficientCacheSaved": true,
+      "noOldWrongCompactSourceUsed": true,
+      "oldCorrectFiveRowCofactorAndFactorizationNotReexecuted": true,
+      "ordinaryISPClaim": false,
+      "originalChartExcluded": false,
+      "peakRSSKiB": 191932,
+      "physicalAssumptions": [
+        "bc!=0",
+        "P02!=0",
+        "nonzero isolated mean",
+        "old physical lambda half exclusion"
+      ],
+      "seconds": 20.692460456,
+      "sourceSHA256": "00d513d603f862ef6b484176fe4d9da3b766e0047d46a87ec8f575622aa8ca14",
+      "stage": "new_h_equals_k_individual_NP_NV_scalar_returns_finished"
+    }
+  ],
+  "ordinaryISPClaim": false
+}
