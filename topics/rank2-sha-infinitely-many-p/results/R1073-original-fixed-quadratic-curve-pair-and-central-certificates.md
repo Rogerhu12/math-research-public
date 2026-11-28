@@ -477,3 +477,68 @@ $$
 $$\boxed{u_C^{24}=D_{\delta C}^{\,3}/D_C,\qquad
        \sum_{C\in\mathcal C}\chi_b(C)^{-1}u_C=0.}\tag{Z5}$$
 第二式是原两条中央秩二零在(Z2)的原216个非零代数数上的取值。其各项在同源商的所有好约化处为单位（分母只须排固定有限集），并均在72类的纤维上常数。
+
+## 14. 全部72个真实单位及两条单位权一的单零
+
+沿(Z1)–(Z5)。$\mathcal C$ 为216条原开循环，$H=\mathcal C/\mu_3$ 有72个元素。各 $D_C,u_C$ 仅依赖 $\bar C\in H$。以下求和凡标 $\mathcal C$ 保留每一条物理循环，标 $H$ 才除3。
+
+### 包含非本原角色和平凡角色的完整 Epstein 和
+
+对 $\rho\in\widehat H$，令 $\lambda$ 为从 $\rho^{-1}$ 在其本原导子给出的有限理想角色，约定理想 $(a)$ 取剩余类 $a$ 的值。对 $\operatorname{Re}s>1$，
+$$
+ \sum_{C\in\mathcal C}\rho(C)^{-1} Z_{L_C}(s)
+ =6\cdot130^{2s}P_\rho(s)L(s,\lambda),\qquad
+ Z_L(s)=\sum_{z\in L\setminus0}|z|^{-2s}.\tag{U1}
+$$
+$P_\rho$ 仅在 $\rho$ 的局部单位角色平凡的地方有因子。惰性 $\ell=2,5$ 给 $1+\ell^{1-2s}$，分裂13 给 $1-(u+u^{-1})13^{-s}+13\cdot13^{-2s}$，其中 $u=\lambda(\pi_{13})$，共轭理想值 $u^{-1}$。验式时令 $a=130z$。在任一非平凡局部角色处 $a\equiv0\bmod\ell$ 即因该处全环面和而消去；在十三处任一单轴也不属于开放线。单位余类只在唯一射影线上。在平凡惰性处，非零余类权1，可被 $\ell$ 整除时权 $\ell+1$，故修正本原 Euler 为 $1+\ell\cdot\ell^{-2s}$。平凡分裂处按两个坐标皆非零、单零、双零计权 $1,0,12$，相应 Euler 乘子为
+$(1-u13^{-s})(1-u^{-1}13^{-s})+12\cdot13^{-2s}$。对所有有理主理想的 $\lambda$ 值都是1。六个全局单位给首因子6。各 $P_\rho(0)>0$，分裂13的候选值为 $14-2\operatorname{Re}(u)$。
+
+所需第一 Kronecker 极限公式的常数也可在此直接核对。记
+$E(\tau,s)=\sum' y^s/|m+n\tau|^{2s}$，$\tau=x+iy$。对 $m$ 作一维 Poisson 求和，零频前两项为
+$2\zeta(2s)y^s+2\sqrt\pi\,\Gamma(s-\tfrac12)\zeta(2s-1)y^{1-s}/\Gamma(s)$，
+其余是
+$$
+ \frac{8\pi^s\sqrt y}{\Gamma(s)}
+ \sum_{n,k\ge1}(k/n)^{s-1/2}\cos(2\pi knx)K_{s-1/2}(2\pi kny).
+$$
+利用 $K_{-1/2}(t)=\sqrt{\pi/(2t)}e^{-t}$ 得 $E(\tau,0)=-1$，导数为
+$-2\log(2\pi)-\log y+\pi y/3
+ -4\sum_{n\ge1}\log|1-e^{2\pi i n\tau}|$。
+因 $Z_{\beta(\mathbf Z+\mathbf Z\tau)}=(|\beta|^2y)^{-s}E$，且与 $dz$ 相容的鉴别式
+$\Delta(L)=(2\pi)^{12}\beta^{-12}\eta(\tau)^{24}$，有
+$$ Z_L(0)=-1,\qquad Z_L'(0)=-\tfrac16\log|\Delta(L)|.\tag{U2}$$
+原物理格多一个共同尺度 $\varpi_1$，(Z5)的 $D_C$ 是准确比值 $\Delta(L_C)/\Delta(\mathcal O_K)$，故此尺度全消。
+
+若 $\rho\ne1$，本原有限虚二次 Hecke $L(s,\lambda)$ 在0单零。其无穷因子为 $\Gamma(s)$，函数方程联到 $L(1,\bar\lambda)$；后者非零亦可由相应有限阿贝尔类域的 Dedekind zeta 分解推出：除平凡角色外各因子在1全纯，两个 Dedekind zeta 的单极留数非零。于是(U1),(U2)给
+$$\sum_{C\in\mathcal C}\rho(C)^{-1}\log|D_C|
+ =-36P_\rho(0)L'(0,\lambda)\ne0. \tag{U3}$$
+因 $C\mapsto\delta C$ 是 $H$ 的平移，(Z5)进一步给
+$$ \sum_C\rho(C)^{-1}\log|u_C|
+ =\frac{3\rho(\delta)-1}{24}\sum_C\rho(C)^{-1}\log|D_C|\ne0.\tag{U4}$$
+上述 $C$ 可同时取 $\mathcal C$ 或 $H$。$\delta^2=-3$ 是有理标量，故 $\rho(\delta)=\pm1$。
+
+若 $\rho=1$，(U1)为 $130^{2s}P_1(s)Z_{\mathcal O_K}(s)$，$P_1(0)=216$。由三项完整 Euler 乘子直接得到
+$$ 2\log130+P_1'(0)/P_1(0)
+   =\tfrac23\log2+\tfrac13\log5.$$
+其中分裂13项给 $-2\log13$，与尺度中的 $+2\log13$ 相消。微分(U1)并减去 $216Z'_{\mathcal O_K}(0)$，使用 $Z_{\mathcal O_K}(0)=-1$；再把216项除3及使用(Z5)，得
+$$
+ \prod_{C\in H}|D_C|=2^{288}5^{144},\qquad
+ \prod_{C\in H}|u_C|=2^{24}5^{12}=20^{12}.\tag{U5}
+$$
+
+### 从原环类的正则作用到每个好处的完整线性无关
+
+对固定 $\sigma\in G_K$，在有全 $\mathcal O_K$ 乘法的 $E_1$ 上，其 prime-to-characteristic Tate 作用是 $\mathcal O_\ell$ 单位。故 $\sigma$ 把 $D_C$ 移到 $D_{sC}$。对 $G_C(0)$ 尚有三级水平重标 $\alpha_3\mapsto\alpha_3s_3$；在(Z1)中重新编号，分子和 $f_3(0)$ 的常数同乘 $\epsilon_0(s_3)$，微分与系数都定义于 $K$，于是 $u_C^\sigma=u_{sC}$。所得对 $H$ 的平移遍取全群。确实任给模130单位 $a$，由 CRT 选非零 $\beta\equiv a\bmod130$ 且 $\beta\equiv1\bmod3$。理想 $(\beta)$ 与 $130\mathfrak f_1$ 互素，其 CM reciprocity 给各素于130 Frobenius 的乘积在130挠上由 $\psi_1((\beta))=\beta\epsilon_1(\beta)$ 作用（取相反 Artin 约定则为其逆）。$\epsilon_1(\beta)\in\mu_6$，在 $H$ 中消失。此处无需模2挠的 Galois 像满整个 $\mathbf F_4^\times$。
+
+记 $A=\langle u_C:C\in H\rangle$ 并除其有限挠子群，指数映射
+$\mathbf Q[H]\to A\otimes\mathbf Q$ 的核在纯标签平移下不变。扩标量到 $\mathbf C$ 后，核是正则表示中若干一维角色直和。若某角色线在核中，则经实际同态 $A\to\mathbf R,\ u\mapsto\log|u|$ 的线性延拓，其傅里叶和必须为零。每个非平凡模式已由(U3),(U4)排除，平凡模式由(U5)排除。因此72个单位模挠子群乘法独立。相同论证也适用于72个 $D_C$。
+
+在每个足够大的 $p$ 处及任意相容代数嵌入，全部 $u_C,D_C$ 是 $p$ 进单位。单位的 $p$ 进对数核为根单位，因此它们各自72个对数对 $\mathbf Q$ 线性无关。把每个单位取同一整数幂进入对数指数互逆的小圆盘，由 Brumer, *On the units of algebraic number fields*, Mathematika 14 (1967), 121–124, Theorem 1；同一命题可直接查阅 Fuchs–Pham [Theorem 2.1](https://web.math.pmf.unizg.hr/glasnik/51.2/51(2)-04.pdf)，得到
+$$\boxed{\{\log_p u_C:C\in H\}\ \text{对 }\overline{\mathbf Q}\ \text{线性无关。}}\tag{U6}$$
+$\log_pD_C$ 亦满足同一命题。在(p)好约化、$p\nmid 2\cdot3\cdot5\cdot13$ 处两同源的微分与鉴别式皆为单位，足以应用于本题所有允许惰性素数。
+
+对原两条 $\chi_b$，取同一实际单位权一行的局部参数
+$$ V_{b,p}(z)=\sum_{C\in H}\chi_b(C)^{-1}u_C\exp(z\log_pu_C) \tag{U7}$$
+在零的小邻域解析。它在相应剩余类的整次幂上等同原 $u_C$ 的幂和：取一个共同倍数 $M$ 消掉全部 Teichmüller 单位，整 $z=Mn$ 足够接近0时取得电荷 $1+Mn$。实际质量零 (Z5) 给 $V_{b,p}(0)=0$，而
+$$\boxed{ V'_{b,p}(0)=\sum_{C\in H}\chi_b(C)^{-1}u_C\log_p u_C\ne0. }\tag{U8}$$
+系数是给定嵌入下的非零代数数，故直接用(U6)。原电荷一在各自参数上都是单零。原 canonical 读数 (Q6),(R9) 对 $w^{(p+1)p^a}$ 水平变形取极限；(U8)已固定同一点、同一微分及原两角色，但其导数参数仍是单位幂。

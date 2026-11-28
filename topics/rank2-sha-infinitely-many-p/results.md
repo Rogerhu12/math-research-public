@@ -280,3 +280,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1073 §13：原三级祖源与216条实际同源
 
 两个固定390角色共用真三级祖源f3，全部216条循环130同源、七类parent取消与μ3的72类照保；f3在正确X(3)分量仅尖点零，24次幂恰为三级同源鉴别式比。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1073 §14：完整72单位独立性与原角色的单位权导数
+
+全Poisson/Kronecker常数、imprimitive 2/5/13因子及平凡质量给72个单位模挠乘法独立；Fuchs–Pham给所有好p的代数系数对数独立，原两个单位幂和均单零。水平canonical二阶仍须同一来源比较。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。

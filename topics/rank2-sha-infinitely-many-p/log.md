@@ -347,3 +347,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:37:00 UTC到55cd17edcf1b3f099235129ba830299f4a68c0d0，私库2026-11-28 13:36:57 UTC到1d53811d70daee2185f83971ab4ec66b02bb05d2；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47412100B/tree6a15aa1191402d79af90d61dbef19cd8c2693e52，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:37:12 UTC到8ff09ad4351d6abd24247dffe6e407e6520912d4，私库2026-11-28 13:37:08 UTC到27f9fa268ddbe49db6c4b77f1626054c226d9506；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47412100B/tree6a15aa1191402d79af90d61dbef19cd8c2693e52，无>5MB。
+
+## 2026-11-28 13:37:18 UTC：R1073 §14：完整72单位独立性与原角色的单位权导数
+
+根逐核原格Poisson、Z′(0)=−log|Δ|/6、所有有限Euler因子、平凡质量20¹²与CM真实正则作用；不预设mod2满像。实读Fuchs–Pham Th2.1这一p-adic Baker命题，72 p-unit对数先Q独立再Qbar独立；不把单位权导数移作水平Ab2。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:37:27 UTC到f681603b475c5555de825705fa5f6520d13cb610，私库2026-11-28 13:37:23 UTC到21da3a15916086e2c84434a7d51c40450e1304a0；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47420010B/tree23cbf2dd33657f455c7e3be282dedeef72a01bf4，无>5MB。
