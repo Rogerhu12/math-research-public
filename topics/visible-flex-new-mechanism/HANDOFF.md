@@ -14,6 +14,8 @@
 
 [R721](results/R721-global-flat-rulings-obstruct-the-symmetric-long-shoulder.md) 已证原完整平片在双脉冲和同片左右镜像下只能有水平非平母线，F=xA+B(v)。保原中央窄条实际刚姿则整中央主片固定，恢复 R713 的真短肩端切矛盾，λ≥.60、K≤10.4 不可行且任意σ无助。**R719 原镜像长肩 request/WF 未发布，不得触发这个已知不能全片延拓的输入。** R715/R704 的孤立小相位定理仍保留。
 
+[R720](results/R720-joint-source-normal-tube-of-four-shoulders-and-both-complete-crowns.md)已证完整源中央法管≥1/10.4与小相位全中央混合对≥.0961；辅助截止不授同g。[R722](results/R722-exact-range-of-signed-material-moments.md)已证两矩完整可达域、端根/目标积分范围和凸势根球；原有限求积总导数补项必须保留。
+
 R723 真去同片镜像与新长座仍在推进。[R724](results/R724-comoving-central-crowns-and-four-outer-pulses.md)已证新四外脉冲使中央四肩/两整冠全幅同g共平移，四真负领及所有已给件法弦≥1/10.4；参考D<3.004，宏观须真ρ/δ/e条件。余四外盘由反射只独立求一盘，R727继续三curl/真四边/全时几何；Gauss重数旧账不能搬。
 
 [R725](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md)已证闭纬圈实物二jet及联合全部(t,φ)的共同E精确区间/最优η；严格余量可选平端E后冻结。R680未改圆基仅调E仍η>.10。R726改非圆有限傅里叶输入继续，不借原小采样误差。
