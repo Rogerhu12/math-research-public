@@ -145,35 +145,8 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 最新实际推进与完整历史义务
 
-前页完整保存于[ASQ25R后整页](notes/2026-11-28-complete-open-preservation-through-ASQ25R.json)，其原提交d587c0c44d005e6c5296b3388335fcb3f14617e9及递归保存保留所有原球、失败、unknown、完整公式/分块和未付条件。上文1–7原24487字节逐字不变；本段只压缩进度索引，不撤数学义务，不重算已成目标。
+前页全文保在[本次完整保存](notes/2026-11-28-complete-open-preservation-before-GSI.json)，原提交fd0c3c2fd9a813710bbdae7ccf8f9380ec5a17bf；其所有旧球、失败/unknown、完整式与各原文件身份及递归历史全部有效。上文1–7原24487字节逐字不变，不撤任何数学义务。
 
-GDC真实续成第82格后下一格充分分母失败，转全两端MSS，不授full low193；GNF/GPM/PWA96R真实terminal success待整件逐scope消费。ASQ27R/ASQ25R/GXW真实在执行。GLW原656行宽上界false不等于奇异，继续原逐带物理输出接收；TCF等18全terminal后只补实际缺格；H96全2847、PWA同ρ七目标、DCP18全18保原误差与means。CFC仍需原SC3，SC仍需原全low maps。
+MSS全1424两端193与ASQ27R/ASQ25R实际计算继续；TCF全18终态后只补真缺。AGXW全2962完成但上界仍宽，不能把false门当奇异；AGRT两根状态精确匹配仅限同一配平试探的全体源。GNU有限nonlocal真强行已收到自然腰<.002848，∞输入/外域nonlocal/普通体响应与全正侧映射另付。H96/PWA/DCP实际完整后CFC仍缺原SC3。
 
-已登记GMI只付g2∞、AGJOR只付全1973外缝（576根接口另计一次），JCR/GDM/ASQ29局部新界只在原space/source/mean/端口限定内使用。必须闭合同对象全高低、独立means、ν/height/phase/normalizer/Robin、普通负域≤.005、实际D² tame、可求和迭代、同world frame、period/holonomy/caps，随后一次冻结并按README最终验收。总任务未完成，继续研究。
-
-
-GDM：原V/SV全15whole资格；N=I−uvᵀ/n²、真实分母保，L=N⁻¹C全n≥388有‖L‖<6/5、‖L−I‖<511n⁻⁴ᐟ³；21新Fraction根首次全过。完整两列γ、独立zero-root mean和δh真物理差保；B2项在同端Green恒等式精确消去，不能删free bulk/jump/mean，正侧Bi尚未付。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-GRT：以完整MF⁻¹MG而非仅Airy根迹作角依赖Lcal；同真D0/J/独立zero-root mean两状态差严格零，δh*=0只对同whole trial。n⁸ᐟ³(Lcal−L)保完整signed两矩阵/真实J0；19whole首次全角Wiener/复频square+23原cells导数0..4首发，真实有向门待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-ASQ29：原SP完整正变差加q0/qc精确log恒等式给真reverse<3.24；整mixed两mean传播→腰<40.72/joint<82.4。前J物理输出分频获high≤.126‖Lg‖H⁻²ᐟ³+80.58‖Ug‖H⁻⁵ᐟ³；每次完整传播/角变换/mean均保。GIC∞natural<.0146/common<.182/ASQhigh<.015；GLW全finite Ai<237/两列<454仍未闭，6whole20新比较只执行一次。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-AGDC：实际46144819361/1 failure，原81后第82格真分母>.2095498并完成；下一格充分分母下界约−3.13036，非奇异。actual74069B1aadbe23…/最终execution72930Ba2e0a2d9…全准入，原89packet/82history/83frame/248matrix whole全保；低193逆/四source未成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-MSS：全1425×193 square，97/96块，dyadic U/V/P/R/S与原两边界，11392局部block+4边界、完整signed产品后二端2850weighted rows统一θ<1才授逆；四source193/193/193/128的HS/op/triangle和signed真实残差全保。原89whole packets仅精确恢复，1335新缺格；120whole/21history首发，实际三target仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-AGPM：真46151659061/1全52×256=13312闭格/4contours16arcs成功，whole1278Bf7616d0d…；real B lower208.61567607679524且whole complex<276，九原transverse上界及3435857/3868281B私件双SHA保。真实partial cutoff/势非零translation不删，GTW新ordinary receiver接续。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-AGNF：真46150791569/1全1136组/16slab/97..2²⁰/two signs/两真列成功；2754B38ef9f41…与43whole全准入。两J/五mean/typed g1H⁻²ᐟ³+g2保，无额外J；原Ai natural .102516/common1.271201，双列 .202863/2.515496，非local/全∞/全inverse。新strict-cut可只组合原完整行。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-AGXW：真46151646115/1、job140999361779全2962新分片成功；1985B3adf3c33…保整件，strict自然253858721.08722228/mixed4410891605848.822，总4411145464569.909、共同54698203760666.87，5.5门false只是宽上界。原非零势平移/3056原行/14来源保；非局部/独立mean/端点另付。 完整同对象、全mean/ports及README最终义务不变，继续研究。
-
-AGRT：真46153751966/1 job141005762203 success；全23原件/真实复频/条宽1/512，整1730B1d268647…，Wiener差距>4.334280801198336，0..4阶修正最大<.009061，两小门真。仅同一完整Lcal(X)试探的两根状态严格相等；普通/非局部/跳/腰须配套，正侧独立误差与全逆仍待。 完整同对象、全mean/ports及README最终义务不变，继续研究。
-
-GNU：原GNF1136/16全行用完整g1H⁻²ᐟ³⊕独立mean的径向L1，真40.72腰口给Ai自然<.002848/common<.03532/有序high<.00291；双参考列<.005635/.06988/.00575。原两J、五mean、根shear保；8新Fraction已在环境失联前唯一执行，全三文件按原SHA逐字恢复，没有重跑。 完整同对象、全mean/ports及README最终义务不变，继续研究。
+GSI：真[0,cPW]两行H⁻¹源→归一腰<3.828、L²双行→真P97高腰<.01957，严格J:H⁻¹→L²<5.77/前J→高腰<.113。原576根缝与1973外缝全2549自然<8.42e−7/common<1.045e−5/有序high<8.60e−7；521同cubic切点零。保两mean/原子不乘体长，旧两表与已成Fraction不重算。 全高低、独立means、ν/height/phase/normalizer/Robin、普通负域≤.005、实际tame、可求和迭代、world/period/holonomy/caps和最终一次冻结全部继续。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GSI：真正严格源行和全部2549负侧接口费用](results/R149-supplement-true-strict-source-row-and-complete-negative-interface-fee.md)：真[0,cPW]两行H⁻¹源→归一腰<3.828、L²双行→真P97高腰<.01957，严格J:H⁻¹→L²<5.77/前J→高腰<.113。原576根缝与1973外缝全2549自然<8.42e−7/common<1.045e−5/有序high<8.60e−7；521同cubic切点零。保两mean/原子不乘体长，旧两表与已成Fraction不重算。
+
 - [GNU：全有限非局部和独立均值在真实截面的新费用](results/R149-supplement-actual-complete-finite-nonlocal-source-through-the-true-waist-cut.md)：原GNF1136/16全行用完整g1H⁻²ᐟ³⊕独立mean的径向L1，真40.72腰口给Ai自然<.002848/common<.03532/有序high<.00291；双参考列<.005635/.06988/.00575。原两J、五mean、根shear保；8新Fraction已在环境失联前唯一执行，全三文件按原SHA逐字恢复，没有重跑。
 
 - [AGRT：两真实物理根Cauchy状态的全角配平实际完成](results/R149-supplement-actual-complete-physical-root-Cauchy-matching.md)：真46153751966/1 job141005762203 success；全23原件/真实复频/条宽1/512，整1730B1d268647…，Wiener差距>4.334280801198336，0..4阶修正最大<.009061，两小门真。仅同一完整Lcal(X)试探的两根状态严格相等；普通/非局部/跳/腰须配套，正侧独立误差与全逆仍待。
