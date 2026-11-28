@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GTP：实际GG四源到原完整物理七端口](results/R149-supplement-Grassmann-source-maps-to-original-seven-ports.md)：同算子/physical S/97Θ/mean/四whole maps到原58→224→32的完整转接已证，真实κB及边界二块门各须执行；新kind/全actual/execution/97current/21history与九源严格准入。原TF失败不改标；实际GG成功前ready=false，PN56/CXN6仍须全部实际输入。
+
 - [TCF：真实终态缺格互斥续接与完整source聚合](results/R149-supplement-terminal-missing-cell-fleet-and-complete-source-aggregation.md)：只在TC真实terminal后从全accepted union严格补集分配完整cells，每格原96列/5窗/4whole数组保持。唯一局部优化是同一只读完整Fourier对象的Legendre memo；全prefix有序保存，所有7724覆盖才合成旧未完成source。API/父锁/assignment唯一标记、compact全execution均已实现；当前无新fleet/science。
 
 - [ASQ5：原cut上完整高到全输出费用](results/R149-supplement-actualsquare-coupled-high-cross-explicit-constants.md)：原J=2^4608令h=2^-44+2^-1337A+，保完整KP的finite-reference费k=h+2^-1194，Θ全范数<17.082。真实CFC块新增17.082kδX/(1−h)；A+≤2^1335/1330/1293分别足5.695/.135/2^-38倍δX，未假定pending A+已达门。
