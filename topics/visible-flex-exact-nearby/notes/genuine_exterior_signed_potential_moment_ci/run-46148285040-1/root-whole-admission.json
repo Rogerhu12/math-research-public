@@ -1,0 +1,46 @@
+{
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T13:11:20Z",
+        "conclusion": "success",
+        "head_sha": "2a697ce765bf0d56f8d8c3c4d850cdc1eac98d82",
+        "id": 140989029658,
+        "name": "finite-Laurent-receiver",
+        "started_at": "2026-11-28T13:10:32Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "success",
+      "head_sha": "2a697ce765bf0d56f8d8c3c4d850cdc1eac98d82",
+      "id": 46148285040,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T13:10:30Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T13:11:21Z"
+    },
+    "jobs_API": {
+      "bytes": 2794,
+      "sha256": "db733d6a98880e381b742644ee4a873f5edca5693c23405edbd42b0d1568f686"
+    },
+    "observed_at": "2026-11-28T13:20:36.365119+00:00",
+    "run_API": {
+      "bytes": 13334,
+      "sha256": "55e20dfe8400a2784cff6edcc674aca76acc374ee1d576d5507bad596e20a177"
+    }
+  },
+  "all_original_n_ge_388_and_infinite_band": true,
+  "byte_identical_final_markers": 2,
+  "full_physical_inverse_proved": false,
+  "kind": "root_entire_actual_GXM_admission_v1",
+  "scientific_targets_rerun": 0,
+  "whole_log_archive": {
+    "bytes": 78206,
+    "sha256": "7f85ffe421ab38790af4dc9e5fd5c1099c1a48c1ac739cb1221afc96f9ca3345"
+  },
+  "whole_scientific": {
+    "bytes": 1040,
+    "sha256": "4850a81ce5d1f47754fb6fefba62491c666aaef141376bcd3890ed522b4b2b3e"
+  }
+}
