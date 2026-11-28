@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-fourth-insertion.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-primitive-inertia-slots.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -12,7 +12,7 @@
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域及小惯性C³仍未全关。[R1128](results/R1128-all-prime-linear-good-cuspidal-rank.md)good≥floor(p/16)+3，forced Ω(p/logp)，原候选O(p^1.5logp)；惰性CM不推Q-CM。[R1112](results/R1112-original-simultaneous-cuspidal-Frobenius-selection.md)圆单位/导子/判别式已成，小aux仍太大。[R1115](results/R1115-original-cuspidal-nonintegral-j-branches-and-denominator-Frobenius.md)原abelian −1整支保留。
 
-[R1131–40](results.md)原DVR/Fricke/odd-K/整K₂/Manin/Hecke/p-norm全按原门；r2须Bp−3，radical β_(4j+2)非β_r，常Lie ω²不等e0整torsion。原class4须全四cusp矩，Norm仅M0；p⁷纤维积只保两极端四阶。S_n=(4/m²)V_n{Fχ,Fψ}及rank2端点16δ²/21沿文，不扩F33/一般pairs/四阶。完整cross/phase及全部条件见open/前态，禁止重做。
+[R1131–40](results.md)原DVR/Fricke/odd-K/整K₂/Manin/Hecke/p-norm仅按各原门；完整β角色、四cusp矩、cross/phase及保留范围逐字见最新归档，不扩一般pairs/四阶。
 
 [R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件c_Eis=−2016δ²Pχ1≠0。[R1141–42](results.md)Bp−5单位时原proper I3 H²=O/p，constant cup非零socle；MW d0/1对应field像非零/零，d未定。
 
@@ -28,7 +28,7 @@
 
 [R1148 §§10–11](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)以已刊Soulé/Kurihara付p>C_cyc=exp(9^(224·9⁴))的全global H¹L3/5/9分别由原γ3/5/9生成。全部pairs=(aγ3,bγ5)，Θ与Ξ共享γ5的实际p⁵群给[M:Q]=(p−1)p⁵；共同cusp排除恰κΘ0/κΞ非零，密度1/p²。未宣loc_p单位，Bp−3/5/9局部门仍保。
 
-R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)，故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ。全部中央值ℓ>p⁸时在affine上出现；共同cusp排除素ℓ>4D_p²（充分p⁸/144）仍有同一个affine点兼容全部labels并升Qℓ，D_p=g+p(p−1)(g−1)。继续小素真实值/p-local，不能再用大Chebotarev存在代affine空。
+R1148 §12付同一cover的中央character trace与全affine误差界；ℓ>p⁸时全部labels在同一affine点可实现。大Chebotarev素数仍不代affine空，完整界沿最新归档，继续小素真实值/p-local。
 
 ### 原整 filling、算术未平滑与连续矩来源
 
@@ -58,7 +58,7 @@ R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0�
 
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
-[R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD/SDR与raw/primed theta已付；全部carry、CM α、ρ/gauge、primitive尺度、exact/shear/Cor沿原文及逐字前态。
+[R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD/SDR及raw/primed theta已付；全部carry、CM α、ρ/gauge、primitive/exact/shear/Cor逐字沿前态保全。
 
 [R1174 §§1–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)原全SS Aut相容CM参考/μ6外ordinary及Π0/Π2 RHS、γp/PD已付。Qρ权(k−l)/[2(k+l+2)]，H=W−Q只跨对应CM基齐次；回参考保全部shear/Δ的e，V H=n^(2−ρ)Σtransport e。最高剪切零分类不强加actual X/Y，不宣H=0，原非零继续。
 
@@ -177,6 +177,8 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 [R1189 §§1–7](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)原双中心clutch至多二挠，全部p5mod6的2(p−1)D0在扩域F^m。全部原形式权w<pm，固定点一次[p]即跨到模pR零；真实norm后用素于p的唯一形式除法删e0。因此M_form=2p(p−1)将同D0及每个实际商像送原Qp形式核，R1182可取M=2p^s(p−1)。s_exp/δL、原格及指定jet仍保。
 
 [R1190](results/R1190-original-one-p-Neron-Lie-lattice-bound.md)原e0 tame半稳定扩域上，finite-flat formal核/真实ω商与VZ s=1给p余切包含；全n闭性、Smith及tame固定点下降得pΛ_sat⊂diΛ_B⊂Λ_sat，任意实际B⊂J均适用。环境形式深a+1的B点进入B深a；同β/Ω/首项有e_sat−1≤e_B≤e_sat。仅格损失至多1，未付指定jet或候选覆盖。
+
+[R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同一半秩C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E完全分裂。全部primitive r给真实槽，原Tate格由剩余支持互斥/Goursat整分裂；u=[F0:E]时Lie/Tate维数2u/4u。同β与原有理Abel首向量在每F0嵌入横截，未给单位；保PS_(r−1)碰撞及J/C的Hodge格区别，继续实际normal。
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 

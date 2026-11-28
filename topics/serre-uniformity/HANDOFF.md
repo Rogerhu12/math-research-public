@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f3e8cf7b68dd87f3ec51ebc6a2585df9bd3d2050**（2026-11-28 21:32 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：99b21d94acad01b4f3101fda9afde7acd3f74bdb**（2026-11-28 21:45 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤22:32。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
+本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤22:45。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-fourth-insertion.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-primitive-inertia-slots.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -62,11 +62,13 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1182–86](results.md)原半秩C/β的FP首项界及全尾已付，原t=p³w、rU_r∈Λ；m≤2(g−n)+1，预定B_*、N_*=B_*+floor(log_p M_X)及log截2N_*。本原深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原CM高度H_br、实际M/K/E_L、implicit分母D^(2r−1)/大小(64A²)^r及全部真实格见原文/逐字前态，不删模型尺度。
 
-[R1187–88](results.md)同一C的小实际q*=f(3−N)、K*=9R²+1及C↔B⊂J积次数≤(9R²)^(2n)已付，保原β/MW线。原J挠点网格与Plücker整坐标给实际B/商/端态图有限方程界；完整H0后处理付F_B与平衡Ω_B，不混Q-twist。原J模型/环境格和指定jet仍保，新p³ jets按实际商重算。
+[R1187–88](results.md)已付同C的小实际q*、双向同源次数、挠点网格模型/平衡Ω，保β/MW线及Q-twist。全部界沿原文/逐字前态；原J模型、环境格和按实际商重算的p³ jets仍保。
 
 [R1189 §§1–7](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)原双中心clutch至多二挠，全部p5mod6的2(p−1)D0在扩域F^m。全部原形式权w<pm，固定点一次[p]即跨到模pR零；真实norm后用素于p的唯一形式除法删e0。因此M_form=2p(p−1)将同D0及每个实际商像送原Qp形式核，R1182可取M=2p^s(p−1)。s_exp/δL、原格及指定jet仍保。
 
 [R1190](results/R1190-original-one-p-Neron-Lie-lattice-bound.md)原e0 tame半稳定扩域上，finite-flat formal核/真实ω商与VZ s=1给p余切包含；全n闭性、Smith及tame固定点下降得pΛ_sat⊂diΛ_B⊂Λ_sat，任意实际B⊂J均适用。环境形式深a+1的B点进入B深a；同β/Ω/首项有e_sat−1≤e_B≤e_sat。仅格损失至多1，未付指定jet或候选覆盖。
+
+[R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同一半秩C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E完全分裂。全部primitive r给真实槽，原Tate格由剩余支持互斥/Goursat整分裂；u=[F0:E]时Lie/Tate维数2u/4u。同β与原有理Abel首向量在每F0嵌入横截，未给单位；保PS_(r−1)碰撞及J/C的Hodge格区别，继续实际normal。
 
 ## 已成、禁止重做与其它入口
 

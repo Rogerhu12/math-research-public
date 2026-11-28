@@ -1,5 +1,7 @@
 # 结论索引
 
+- **同一半秩因子的全部真实primitive惯性槽（已证明）**：[R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同一半秩C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E完全分裂。全部primitive r给真实槽，原Tate格由剩余支持互斥/Goursat整分裂；u=[F0:E]时Lie/Tate维数2u/4u。同β与原有理Abel首向量在每F0嵌入横截，未给单位；保PS_(r−1)碰撞及J/C的Hodge格区别，继续实际normal。
+
 - **原Hermitian第四插入与完整端点块（已证明）**：[R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
 
 - **原实际子簇的一个p局部格界（已证明）**：[R1190](results/R1190-original-one-p-Neron-Lie-lattice-bound.md)原e0 tame半稳定扩域上，finite-flat formal核/真实ω商与VZ s=1给p余切包含；全n闭性、Smith及tame固定点下降得pΛ_sat⊂diΛ_B⊂Λ_sat，任意实际B⊂J均适用。环境形式深a+1的B点进入B深a；同β/Ω/首项有e_sat−1≤e_B≤e_sat。仅格损失至多1，未付指定jet或候选覆盖。
