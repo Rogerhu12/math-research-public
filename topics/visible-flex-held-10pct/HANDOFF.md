@@ -5,7 +5,7 @@
 ## 规则与来源
 
 - 最近实际pull后双README已读锚 `141333184d3c1f6ff10c4ea2b2103e3ccb9f96bb`（2026-11-28 14:19 UTC）。
-- 集成回退核main `1ce344ad17f5fb21b22de43912dabfd258e363cb`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
+- 集成回退核main `5431ddf6f617601e7797411ed7e76cd0892a5d28`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
 - 私库QUEUE认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；14:00:45UTC实际pull到 `6eec0d59e550d520d18917acaf7816a59f177bbb`，双README空diff，仍本会话进行中。15:00UTC终端不可用未能pull；集成实读私main `6bba30b9e9a9d0b8dffa1c4cae800206b096d7b6`，对14:00锚双README空diff，QUEUE仍本会话进行中。恢复即pull。
 - 根§12直接推进，不加审批；§13授权公开Actions；§15只存源/参数/hash/小结果，可再生数据不进Git/Release；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
 - [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)保全旧前沿、来源和失败。已登记结论不重做，必要丢失输入恢复不算新前沿。
@@ -22,7 +22,7 @@
 
 [完整CSR前置映射M16核](notes/2026-11-28-design-csr-prefactor-mmap-complete-m16.md)已证原J/方向/残差逐位同，仅存储执行。[v6 pre-J中断](notes/2026-11-28-design-factor-mmap-m48-prej-interruption.md)无J/solve，不归因OOM。v7全映射/v8仅CSR保原门、无新BVP；双路watcher已exit130，35次未启。
 
-新q=warp=.012：[λ0/M8](notes/2026-11-28-design-small-q012-lambda000-actual.md)真接受；λ.002的M8/M16原metric失败。[M24真实接受](notes/2026-11-28-design-small-q012-lambda002-m24-actual-fallback.md)：615节点/mean1168、metric1.407536802e−7，run21d676daa…/raw3bc1c050…。完整nodal ef8e0342…恢复后14:15:50UTC真0，RSS518732KiB。[续λ.004真−9](notes/2026-11-28-design-small-q012-lambda004-process-return-fallback.md)（14:21:24，父3，后代全收），factor1/solve6后无raw/RMS/metric；完整pre-J节点0fdf914d…保留。RHS16+每accepted chord节点保存仅备、未spawn。小q不作10%或同g精化，固定k仍有O(λ)强迫。
+新q=warp=.012：[λ0/M8](notes/2026-11-28-design-small-q012-lambda000-actual.md)真接受；λ.002的M8/M16原metric失败。[M24真实接受](notes/2026-11-28-design-small-q012-lambda002-m24-actual-fallback.md)：615节点/mean1168、metric1.407536802e−7，run21d676daa…/raw3bc1c050…。完整nodal ef8e0342…恢复后14:15:50UTC真0，RSS518732KiB。[续λ.004真−9](notes/2026-11-28-design-small-q012-lambda004-process-return-fallback.md)（14:21:24，父3，后代全收），factor1/solve6后无raw/RMS/metric；完整pre-J节点0fdf914d…保留。RHS16+每accepted chord节点保存仅备、未spawn。小q不作10%或同g精化。下一真实新输入为[宽窗b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)，保S=.5/k=.2/α=.45；真旧锚A<.1，只付新核心条件预算，未跑。新b下先取得两个λ锚，不能混b作λ割线。
 
 [Actions v3](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)和[显式冻结后继](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)已备；实际POST403缺actions=write、v3无run，不绕权限，继续本地。真λ1/M≤64后接[严格7a全DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)及[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，只用最终physical-H。
 

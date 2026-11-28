@@ -1,0 +1,322 @@
+{
+  "status": "exact_scalar_parameter_budget_only",
+  "source_commit": "6da577d085d4b8a6e22e3523e10752ad6f4ae42a",
+  "material_core_git_blob": "1c3b5f164be8d4680b8bcbaf5cee9176c90bde3a",
+  "reused_results": [
+    "R53 equations (3),(4)",
+    "R54 sections 2-5",
+    "R55 wide design box",
+    "R67"
+  ],
+  "source_run_sha256": "21d676daa274a14d2fc64af746f42fcafdaa3f85b6d06201e464d7b2a359924a",
+  "source_raw_sha256": "3bc1c050dd28c8b8e87bd5733bea18e7be70becd8da461b1640abd655e5e785c",
+  "physical_scalar_count": 24,
+  "recorded_binary_support_weighted_A": {
+    "numerator": "957705419425690683655983",
+    "denominator": "9671406556917033397649408",
+    "display": 0.09902441943573714
+  },
+  "strict_margin_to_one_tenth": {
+    "numerator": "47176181330063280544789",
+    "denominator": "48357032784585166988247040",
+    "display": 0.0009755805642628612
+  },
+  "target": {
+    "base_mode": 3,
+    "halfwidth": {
+      "numerator": "1",
+      "denominator": "2",
+      "display": 0.5
+    },
+    "transition": {
+      "numerator": "1",
+      "denominator": "2",
+      "display": 0.5
+    },
+    "target_curvature": {
+      "numerator": "1",
+      "denominator": "5",
+      "display": 0.2
+    },
+    "curvature_blend": 1
+  },
+  "comparisons": [
+    {
+      "A": {
+        "numerator": "1",
+        "denominator": "10",
+        "display": 0.1
+      },
+      "transition": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "beta_upper_strict": {
+        "numerator": "41",
+        "denominator": "30",
+        "display": 1.3666666666666667
+      },
+      "all_lambda_curvature_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "all_lambda_curvature_upper_strict": {
+        "numerator": "223",
+        "denominator": "90",
+        "display": 2.477777777777778
+      },
+      "strict_margin_below_12_point_3": {
+        "numerator": "442",
+        "denominator": "45",
+        "display": 9.822222222222223
+      }
+    },
+    {
+      "A": {
+        "numerator": "1",
+        "denominator": "10",
+        "display": 0.1
+      },
+      "transition": {
+        "numerator": "3",
+        "denominator": "10",
+        "display": 0.3
+      },
+      "beta_upper_strict": {
+        "numerator": "533",
+        "denominator": "315",
+        "display": 1.692063492063492
+      },
+      "all_lambda_curvature_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "all_lambda_curvature_upper_strict": {
+        "numerator": "883",
+        "denominator": "315",
+        "display": 2.803174603174603
+      },
+      "strict_margin_below_12_point_3": {
+        "numerator": "5983",
+        "denominator": "630",
+        "display": 9.496825396825397
+      }
+    },
+    {
+      "A": {
+        "numerator": "1",
+        "denominator": "10",
+        "display": 0.1
+      },
+      "transition": {
+        "numerator": "2",
+        "denominator": "5",
+        "display": 0.4
+      },
+      "beta_upper_strict": {
+        "numerator": "287",
+        "denominator": "135",
+        "display": 2.1259259259259258
+      },
+      "all_lambda_curvature_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "all_lambda_curvature_upper_strict": {
+        "numerator": "437",
+        "denominator": "135",
+        "display": 3.237037037037037
+      },
+      "strict_margin_below_12_point_3": {
+        "numerator": "2447",
+        "denominator": "270",
+        "display": 9.062962962962963
+      }
+    },
+    {
+      "A": {
+        "numerator": "1",
+        "denominator": "10",
+        "display": 0.1
+      },
+      "transition": {
+        "numerator": "1",
+        "denominator": "2",
+        "display": 0.5
+      },
+      "beta_upper_strict": {
+        "numerator": "41",
+        "denominator": "15",
+        "display": 2.7333333333333334
+      },
+      "all_lambda_curvature_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "all_lambda_curvature_upper_strict": {
+        "numerator": "173",
+        "denominator": "45",
+        "display": 3.8444444444444446
+      },
+      "strict_margin_below_12_point_3": {
+        "numerator": "761",
+        "denominator": "90",
+        "display": 8.455555555555556
+      }
+    },
+    {
+      "A": {
+        "numerator": "2",
+        "denominator": "3",
+        "display": 0.6666666666666666
+      },
+      "transition": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "beta_upper_strict": {
+        "numerator": "21",
+        "denominator": "5",
+        "display": 4.2
+      },
+      "all_lambda_curvature_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "all_lambda_curvature_upper_strict": {
+        "numerator": "36",
+        "denominator": "5",
+        "display": 7.2
+      },
+      "strict_margin_below_12_point_3": {
+        "numerator": "51",
+        "denominator": "10",
+        "display": 5.1
+      }
+    },
+    {
+      "A": {
+        "numerator": "2",
+        "denominator": "3",
+        "display": 0.6666666666666666
+      },
+      "transition": {
+        "numerator": "3",
+        "denominator": "10",
+        "display": 0.3
+      },
+      "beta_upper_strict": {
+        "numerator": "26",
+        "denominator": "5",
+        "display": 5.2
+      },
+      "all_lambda_curvature_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "all_lambda_curvature_upper_strict": {
+        "numerator": "41",
+        "denominator": "5",
+        "display": 8.2
+      },
+      "strict_margin_below_12_point_3": {
+        "numerator": "41",
+        "denominator": "10",
+        "display": 4.1
+      }
+    },
+    {
+      "A": {
+        "numerator": "2",
+        "denominator": "3",
+        "display": 0.6666666666666666
+      },
+      "transition": {
+        "numerator": "2",
+        "denominator": "5",
+        "display": 0.4
+      },
+      "beta_upper_strict": {
+        "numerator": "98",
+        "denominator": "15",
+        "display": 6.533333333333333
+      },
+      "all_lambda_curvature_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "all_lambda_curvature_upper_strict": {
+        "numerator": "143",
+        "denominator": "15",
+        "display": 9.533333333333333
+      },
+      "strict_margin_below_12_point_3": {
+        "numerator": "83",
+        "denominator": "30",
+        "display": 2.7666666666666666
+      }
+    },
+    {
+      "A": {
+        "numerator": "2",
+        "denominator": "3",
+        "display": 0.6666666666666666
+      },
+      "transition": {
+        "numerator": "1",
+        "denominator": "2",
+        "display": 0.5
+      },
+      "beta_upper_strict": {
+        "numerator": "42",
+        "denominator": "5",
+        "display": 8.4
+      },
+      "all_lambda_curvature_lower": {
+        "numerator": "1",
+        "denominator": "5",
+        "display": 0.2
+      },
+      "all_lambda_curvature_upper_strict": {
+        "numerator": "57",
+        "denominator": "5",
+        "display": 11.4
+      },
+      "strict_margin_below_12_point_3": {
+        "numerator": "9",
+        "denominator": "10",
+        "display": 0.9
+      }
+    }
+  ],
+  "W_first_derivative_bound_ratio_to_b_point2": {
+    "numerator": "2",
+    "denominator": "5",
+    "display": 0.4
+  },
+  "W_second_derivative_bound_ratio_to_b_point2": {
+    "numerator": "4",
+    "denominator": "25",
+    "display": 0.16
+  },
+  "kernel_is_degree9_C4_smoothstep": true,
+  "full_curvature_derivatives_do_not_scale_by_window_ratios_alone": true,
+  "R54_H_sweep_and_held_constants_changed": false,
+  "new_wide_transition_core_or_BVP_executed": false,
+  "original_input_exact_binary_scalars_only": true,
+  "future_Newton_controls_must_be_rechecked": true,
+  "completed_closed_surface": false,
+  "actual_execution_engine": "functions V8 with BigInt",
+  "actual_execution_scope": "The exact scalar function from the supplied MJS text was evaluated, replacing only console output with its returned report.",
+  "node_script_executed": false,
+  "local_executor_or_BVP_used": false
+}

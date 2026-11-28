@@ -8,6 +8,8 @@
 
 原v2/v3/v4失败链不原样重跑；v5以δ替首phase的metric-only输入不能晋级。R72兼容标量及实际δ/Robin响应仍可改变设计，入口基Gram可逆不替完整边值问题。λ<1没有准确圆弧保护H，δ/mean变化是设计而非固定g精化。
 
+新合法设计输入：[三重b=.5宽过渡](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)，S=.5/k=.2与原R54握持窗不变；条件完整support盒A≤2/3给全λ核心κ<11.4，真实小q锚A<.1。只有小标量BigInt已运行，新核心/BVP未启动。由真21d676/3bc1c05 raw作新宽窗λ.002初猜，同b下取.004第二锚后续原全λ/谱门；新g若最终全标准通过可选为终态，不强制回旧q/b。较高k候选先核R57等已登记传播/曲率障碍，不以核心数表替全图。
+
 ## 2. 完整非线性尾及共同接缝
 
 [原低模真实末态](notes/2026-11-28-tail-low-modes-actual-terminal.md)已达λ.002来源的M8 full-H；sample metric2.9133693236e−8、residual1.8949786217e−9，不含来源剩余16模。M8full→M16首请求收到失败包，具体字符串未知。新路线在较低幅度逐步升模或更细模式阶梯；最终必须原M24或最终λ1源的全部H，保原audit/完整J/native4/chord3及8outer。失败包checkpoint不作接受场。
