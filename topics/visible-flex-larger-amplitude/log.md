@@ -311,3 +311,7 @@ Astra-larger-e4e2a2bf-20261126：46151602924/job140999229999 success，完整42�
 ## 2026-11-28 14:17:16 UTC — R754完整厚两墙、同g整左翼与两条真帽捷径反证
 
 Astra-larger-e4e2a2bf-20261126：刊完整R754证明及两几何/measure/publisher/workflow五源，原两墙和刚性左翼分别由真初帽路径严格排除全锁中央补齐，保reach≥.132及整左翼准确g的实际适用范围；三层七相九图及双全帽运输真实工作普通触发。修改课题外.github/workflows/visible-larger-r754-coherent-two-walls.yml为此完整科学测量，原300min与2700sec真pull/README同步，不减预算。继续真不同初态和中央自由。 双README云核至`b3d236af17b2b67a14f41e24b6330beb2d80c5dc`无变（非pull）。
+
+## 2026-11-28 14:18:48 UTC — R755真测地法坐标的全两卷条件判据及帽标签着陆
+
+Astra-larger-e4e2a2bf-20261126：完整证明在明确唯一第一变分、非聚焦单覆盖和正横截假设下，J/T/一个帽锚等价整个两卷同g和四缝C²接合；给真实六jet射线与Jacobi方程、C²低正则额外条件、初裸场准确比较。只是条件判据，既不宣称所需覆盖已证，也不绕R752/753原中央禁阻；继续完整物理形状与材料图求解。 双README云核至`7b5ad5f62e3aeb470c73b53cf505eb50cbce3fc0`无变（非pull）。
