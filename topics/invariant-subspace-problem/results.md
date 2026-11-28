@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [同一双平坦来源的双圆相位与负逆级数忠实](results/R267-appendix-double-flat-two-torus-and-negative-inverse-source-faithfulness.md)：完整原高块/carry估计构造真实点范数T²作用，P/Q相位独立；Q不由旧来源任何非零有界分母表示，严格超出旧联合闭场。负P全Fourier抽取与临界C逆引理付双逆类全H忠实，整类平方来源不可能；未知旗整和quasi与一般场外根继续。
+
 - [W 的 t=0 原分支与整 V2=0 排除](results/R150-appendix-unit211-W-t-zero-mean-branches-and-V2-zero-complete-original-exclusion.md)：完整双二次原Gram返回三N/P线，真两列cofactor和S5A4+T3B6=2208给整支单位；余f=u/V2非零唯一几何与F7曲线保全。首次三同点固定e投影已准备，所有首项零保留。真Phi共同头首次整A/B已返回，小实际回执同步登记。
 
 - [一般 A1=t=0 的两条真实原 jet 身份](results/R150-appendix-unit211-original-bipartite-Gram-jets-force-value-discriminant-zero.md)：六自由参数完整原Gram，5ms/495整数乘法/三差返；N0/P1/N1与均值直接给T=−ell、A2=ell、D=0，无Phi/W/几何头逆。结合正确R2，D≠0归一图的整t=0只能f=u；D=0碰撞保留。
