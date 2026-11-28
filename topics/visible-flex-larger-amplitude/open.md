@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/91ecb6cb858ffafe71f09b21492061c3da8d1c62/topics/visible-flex-larger-amplitude/open.md)及23728/e1bf/a5e/70b78链；§1–6原字不动。全source/model/point/六族/原失败/typed与peer未知保各完整note，既有结论不重做。
+此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/67b6d2129a0d29de281a1296221bca6fc4b96eef/topics/visible-flex-larger-amplitude/open.md)及23728/e1bf/a5e/70b78链；§1–6原字不动。全source/model/point/六族/原失败/typed与peer未知保各完整note，既有结论不重做。
 
 ### 当前真实数值
 
@@ -110,7 +110,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | run及完整记录 | 最后实际返回边界 |
 |---|---|
 | [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled@02:05:35Z；原8已返保。末2b1c/accepted3/g2.0441496553824883，下一8fb0统计返、几何未知。 |
-| [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | 全波b1/2，两μ.01；currentb6a06/accepted2/g.9674426000792542，distplus仍正；下一b0f8开始。原拒绝/b90d未知保。 |
+| [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | 全波b1/2，两μ.01；currentb0f8/accepted3/g.9666075350730359，distplus仍正；下一trial未返。原拒绝/b90d未知保。 |
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；current0f4d/accepted1/g.9680716975090076，distplus仍正；下一b6cb Phi3824.9619403696915/Gram.6460452977630746，几何未知。 |
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；700e真实g2.5419057471738853拒，下一1b3b统计返。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2，两input0；model6f3ae32/初7e06/accepted0，Phi681.6517423825409/Gram.40616525311769985，reach.5305849371949052/distplus.11391238912344381仍正、余四负；trial97fbb Phi681.6511710299278/Gram.4061652579029476，几何/决定未知。 |

@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败和输入困难非终点。**
-此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/91ecb6cb858ffafe71f09b21492061c3da8d1c62/topics/visible-flex-larger-amplitude/HANDOFF.md)及其23728/a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
+此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/67b6d2129a0d29de281a1296221bca6fc4b96eef/topics/visible-flex-larger-amplitude/HANDOFF.md)及其23728/a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`17ed6ccae50001659c1bb8cf549075a538778f65`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`48db9f5c19584cd40974798db5a7ea0b96b22d5a`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -21,7 +21,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 |---|---|
 | 12–17 | 官方cancelled，原因不猜；全部已返/末真pull/未返科学保终态notes及旧H；17末e2c1ad7/accepted3仍不可行，未付高配精化。 |
 | 18=46062343475 | 官方cancelled@02:05:35Z；原8已返及未返science保18note。末2b1c/accepted3/g2.0441496553824883，下一8fb0统计返、几何未知。 |
-| 19=46076669320 | 两input0；currentb6a06/accepted2/g.9674426000792542，六族返仍不可行；下一b0f8开始，统计/几何未知。 |
+| 19=46076669320 | 两input0；currentb0f8/accepted3/g.9666075350730359，六族返仍不可行；下一trial/完整report未返。 |
 | 20=46079535427 | 两input0；current0f4d/accepted1/g.9680716975090076，六族返；下一b6cb统计返，几何/决定未知。 |
 | 21=46084442413 | 两input0；current初7e06/g2.541916739245917/accepted0；700e真g2.5419057471738853拒，下一1b3b统计返。 |
 | 22=46090913581 | 两input0；初7e06/g.5305849371949052/accepted0，六族返；trial97fbb统计返Phi681.6511710299278/Gram.4061652579029476，几何/决定未知；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
@@ -31,7 +31,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 新机制及完整后继
 
-[完整曲率导数缓存](computations/complete-curvature-pullback-cache-source-delivery.json)全/半波两源已刊；同次全key、64MiB纯数值dk复用，原全部行/转置保。未运行，不推试步几何加速。[25全11件](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊，137角色4对变/133保、19runtime；同22数值词，新位置observer及[完整64live传输](computations/complete-geometry-location-observation-and-transport-delivery.json)已刊，原48全保；完整参/启动正接。
+[25完整源](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊：137角色4对变/133保、19runtime，单次全key纯数值dk缓存；[位置64live](computations/complete-geometry-location-observation-and-transport-delivery.json)保原48。完整参数/启动正接，无实际hit/场/加速结论；全原描述保下引旧H。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数及位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解已完整发表。R725 ε1/8显式转向系数15/b→64/(7b)，高阶代价/存在条件保；不推wholeK/reach，完整新seed实施中。
 
