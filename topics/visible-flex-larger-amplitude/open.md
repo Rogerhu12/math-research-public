@@ -107,7 +107,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 17官方cancelled@00:53:34Z，科学未自然返；末current e2c1ad7/accepted3/g2.0441496554550835仍不可行，下一52bca仅开始；18 current2b1c/accepted3/g2.0441496553824883，完整六族已返仍不可行。全模型/点/源/Phi/Gram/六g/事件/未知及18前三失败保[17](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。
 
-[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) b/S1/2、δ1/32、两μ.01；两input0/model0abfbf，初reach.9684249942095058/distplus.005863061771032241，其余四负。首d761b5真接受/current该点/accepted1，Phi3825.0583176123996/Gram.6460503022350718/真reach.9679630392005261；第二b622真g.9817636973298995已拒，下一b90d统计返/几何未知。reportfalse。
+[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) b/S1/2、δ1/32、两μ.01；两input0/model0abfbf，初reach.9684249942095058/distplus.005863061771032241，其余四负。首d761b5真接受/current该点/accepted1，Phi3825.0583176123996/Gram.6460503022350718/真reach.9679630392005261；第二b622已拒；新增7af04真g.9691295883291671已拒，下一b6a06仅开始。中间b90d几何/决定未取，reportfalse。
 
 [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复μ.01→.001，metric.01及全部源参/预算保。两input0，sciencec592e434/f600/PID3277/model0abfbf；初Phi3825.0583894874153/Gram.6460503011117507/六g逐项等19。首345906真reach.9750099817855096已拒；下一d346在00:03:30.800085开始，00:11:35.553745统计返，几何/alpha未知，不推方向号。current仍初7e06/accepted0/reportfalse。
 

@@ -1233,3 +1233,125 @@ reach较初值下降且仍正；distance_plus较初值略升且仍正，余四�
   "observed_utc": "2026-11-28T00:13:24Z"
 }
 ```
+
+## 2026-11-28 01:18:48 UTC — 19新增真实拒绝点及下一试步开始
+
+原run46076669320/1、science36304a0df074fcacc324d9c8eda79a5620b6a897/f600/PID3240/model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add未变。01:13:47Z完整观察保留末已完成试步7af04a5e5747103612082704d368b3cbd584b7e49989e2375dc1563d02cb0782：Phi3824.9499945462044、Gram0.6460516172517726、真实最大违反0.9691295883291671、maximum_families=reach、accepted=false。此点与此前b622、b90d均不同；本次读到的末完成字段不提供b90d的几何/决定，旧b90d未知仍保留，不凭出现顺序补回溯alpha或方向序号。
+
+下一b6a0615856730517089d5656c8d3cd79eeef9255b81dd9d13189925d072c98d3于01:09:47.773025事件trial-start，统计/几何/接受均未返。current仍首个实际接受d761b5f4d54d681b81d3ad56297f2858b65022dd8416a783efda6a8afc7f10ec、accepted1，Phi3825.0583176123996、Gram0.6460503022350718、g0.9679630392005261，六族原样保下方。complete_report=false、子进程自然返回未观察，原科学预算继续；未把进度或current作准确费用输入。
+
+以下固定完整小索引身份与原active全对象只保原已返标量；缺值/错误原样，未取科学raw或另算场。
+
+```json
+{
+  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46076669320-1.md",
+  "bytes": 33787,
+  "sha256": "846c9fa7b6c734c6b85cdd1e7cdb3614bd62bbbd9d34e23d4ed8074bdc9a93d0",
+  "git_blob_sha": "8ab2962d667d78488ae3d2830ee8bd4595787fe4",
+  "fixed_commit": "7e40321a66fe496bbef13724faffb7a7801e106d"
+}
+```
+
+```json
+{
+  "step_id": "complete-fixed-fejer-meridian-batched-bhalf-first-20261127",
+  "scientific_source_commit": "36304a0df074fcacc324d9c8eda79a5620b6a897",
+  "scientific_source_sha256": "f600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506",
+  "pid": 3240,
+  "observations": {
+    "fixed-fejer-meridian-batched-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 01:13:43 UTC",
+      "point": "b6a0615856730517089d5656c8d3cd79eeef9255b81dd9d13189925d072c98d3",
+      "cached_angle_roots": 344,
+      "closure_original_returns": 165181,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-meridian-batched-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T01:09:47.773025+00:00",
+      "math_event": "trial-start",
+      "math_driver": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+      "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
+      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 3825.0583894874153,
+      "initial_Gram": 0.6460503011117507,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 0.9684249942095058,
+      "initial_geometry_complete": true,
+      "current_point": "d761b5f4d54d681b81d3ad56297f2858b65022dd8416a783efda6a8afc7f10ec",
+      "current_Phi": 3825.0583176123996,
+      "current_Gram": 0.6460503022350718,
+      "current_geometry_point": "d761b5f4d54d681b81d3ad56297f2858b65022dd8416a783efda6a8afc7f10ec",
+      "current_violation": 0.9679630392005261,
+      "current_geometry_complete": true,
+      "current_state": "accepted restoration checkpoint returned; final report not inferred",
+      "trial_point": "b6a0615856730517089d5656c8d3cd79eeef9255b81dd9d13189925d072c98d3",
+      "trial_accepted": null,
+      "accepted_directions": 1,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 0.9679630392005261,
+      "current_g_body_diameter": -0.03813552759796779,
+      "current_g_distance_plus": 0.005863064535577611,
+      "current_g_distance_minus": -3.0936337267043754,
+      "current_g_cap_diameter": -0.06715131493167947,
+      "current_g_height_floor": -1.0411715966765438,
+      "previous_completed_trial_point": "7af04a5e5747103612082704d368b3cbd584b7e49989e2375dc1563d02cb0782",
+      "previous_completed_trial_g": 0.9691295883291671,
+      "previous_completed_trial_accepted": false,
+      "previous_completed_trial_maximum_families": "reach",
+      "previous_completed_trial_Phi": 3824.9499945462044,
+      "previous_completed_trial_Gram": 0.6460516172517726
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-meridian-batched-bhalf-first/actual-normal-evaluation-progress.json",
+      "bytes": 3398,
+      "sha256": "9e04ef37c16364a2306b7eca7c93ae515d48b701842c76bac68994e57712eaac",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-meridian-batched-bhalf-first/actual-mathematical-progress.json",
+      "bytes": 10176,
+      "sha256": "9209020aa0e4101dbe07284780ff1cb1452defeb1fffe646429b3c87d0bf6d89",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-meridian-batched-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "0146bbe3fa1e67f77cf0b41d9755782c7d6d13cbfc786449ffb55643026df599",
+  "observed_utc": "2026-11-28T01:13:47Z"
+}
+```
