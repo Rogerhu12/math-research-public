@@ -472,3 +472,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1071 §19：原F短图及真实厚交四生成元
 
 原F极度324使G2维162、937系数，整个pencil秩774；高A/D真实Q=q²源已足。A与F的四个z_ij=x_i b_j²⁹−a_i n_j²⁹生成原完整交理想，Z总度9960，物理W244/1224paired rows，保原全N/D及outer。 [同编号全文](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)。
+
+### R1073 §13：原三级祖源与216条实际同源
+
+两个固定390角色共用真三级祖源f3，全部216条循环130同源、七类parent取消与μ3的72类照保；f3在正确X(3)分量仅尖点零，24次幂恰为三级同源鉴别式比。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。

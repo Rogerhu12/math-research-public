@@ -438,3 +438,42 @@ $$ Q_C^0(v^3)=\tfrac13\sum_{u\in\mu_3}F_C(u^2 v).\tag{Y5}$$
 $$ 6^{-(p+1)}c_{65}(p+1)=-3(J_{+,p}-J_{-,p}),\quad
 6^{-(p+1)}c_{8125}(p+1)=-3(J_{+,p}+J_{-,p})\pmod{p^3}.\tag{Y6}$$
 两个固定五商的死亡同时发生才会使这两个三位测试都为零。余下全部 $2,3$ 与双 $13$ 的原 $\epsilon_*$ 已在(Y1)中，不等价于随意把某条辅助5伙伴测度赋零。
+
+## 13. 原390级两个角色的三级祖源与216条实际循环同源
+
+令 $\epsilon_0:(\mathcal O_K/3)^\times\longrightarrow\mu_6$ 把六个单位余类提升为全局单位后取逆。此识别成立，因为模3的六个单位互异。原两条 $\epsilon_b$ 的三处分量正是 $\epsilon_0$（有限理想生成元方向）。写 $\epsilon_b=\epsilon_0\chi_b$，则 $\chi_b$ 的全部 2、5、双13分量仍取原表；它在有理局部标量上平凡，在对角 $\mu_6$ 上平凡，在三个局部射影环面上各非平凡。它是 $\mathrm{Pic}(\mathcal O_{130})$ 的有限角色，$\mathcal O_h=\mathbf Z+h\mathcal O_K$。$\psi_0((a))=a\epsilon_0(a)$ 是模3同余于1的唯一生成元；它正是 Fermat 曲线 $y^2+y=x^3$ 的 CM 角色（短模型 $E_{16}$，最小判别式 $-27$）。也可从其好于3外、椭圆曲线导子27所给 Hecke 导子范数9、模3六个单位全体和 Weil 权一确定。这里 $\psi_0$ 比较的是理想角色；随后的全部物理取值在原 $E_1$ 的微分上。
+
+在原带水平椭圆曲线 $(E',\alpha,\kappa)$ 上设
+$$
+ f_3(E',\alpha_3,\kappa)=\sum_{a\in(\mathcal O_K/3)^\times}
+       \epsilon_0(a)^{-1}F_{7,(E',\kappa)}(\alpha_3(a)). \tag{Z1}
+$$
+用 $[195],[130],[78],[30]$ 从 $\alpha_{390}$ 取得 $2,3,5,13$ 水平。CRT 写成 $r=195a_2+130a_3+78a_5+30a_{13}$；这四个有理系数在相应权下的值分别为1（三级 $130\equiv1$，其余三个取射影标量）。三套标签是
+$$
+\mathcal C=\mathbf F_4^\times/\mathbf F_2^\times
+ \ \times\ \mathbf F_{25}^\times/\mathbf F_5^\times
+ \ \times\ (\mathbf F_{13}^\times\times\mathbf F_{13}^\times)/
+                        \mathbf F_{13}^\times .
+$$
+十三处有12条线，不包括任一坐标轴。每个 $C$ 表示相应 $C_2\oplus C_5\oplus C_{13}\subset E'[130]$。记
+$$G_C=f_3(E'/C,q_C\alpha_3,\kappa_C),\qquad q_C^*\kappa_C=\kappa.$$
+在每个局部射影线内遍历所有非零向量；三处完整和等于全部核点和，减去各个真子积的和（容斥）。任何真子积均至少遗漏一处，该处 $\chi_b$ 非平凡，故加权总和消掉其全部父项。对全循环采用(P2)的原 $F_7$ 同源迹，得到
+$$\boxed{f_b=\sum_{C\in\mathcal C}\chi_b(C)^{-1}G_C.}\tag{Z2}$$
+无除130或归一化的射影迹。中央复格把 \(E_1\) 按其 CM 周期伸缩到 $\mathcal O_K$，商格为 $L_C=\mathcal O_K+\mathbf Z v_C/130$，$v_C$ 模130是单位。其乘子环为 $\mathcal O_{130}$，因为各 $\ell\mid130$ 处保持原线的 $\mathcal O_K$ 元素正是模 $\ell$ 的标量（十三的线两坐标皆非零）。任一乘子先必在 $\mathcal O_K$，由扩成最大序后格皆为 $(1/130)\mathcal O_K$ 得到。相似的两格亦因相同扩格只能差全局单位，故类数为 $3\cdot6\cdot12/3=72$。等价地，环类的标准理想正合列把 $\mathrm{Pic}(\mathcal O_{130})$ 识别为此局部环面除对角 $\mu_3$，因 $h_K=1$。在中央 $G_{aC}=G_C$ 对 $a\in\mu_6$ 成立：CM 同构、三级重标和微分的权恰相消。
+
+在原标记 $Q_3=\varpi_1/3$，六项都是单位轨道，$F_7(uQ)=u^{-1}F_7(Q)$ 及 $\epsilon_0(u)^{-1}=u$ 给出 $f_3(0)=6F_7(Q_3)$。$[7]Q_3=Q_3$，故 $F_7(Q_3)=6E_1^*(Q_3)$，其中 $E_1^*$ 是以原格取值的周期修正 Weierstrass zeta。倍点恒等式 $E_1^*(2Q)=2E_1^*(Q)+\wp''(Q)/(2\wp'(Q))$ 中 $2Q=-Q$。用 $\wp=x,\wp'=2y$ 且 $x^3=-4,y^2=-3$（$Q_3$ 是自由 $\mathcal O_K/3$ 生成元，非 $E[\delta]$），得到
+$$ f_3(0)=36E_1^*(Q_3)=-18x(Q_3)^2/y(Q_3),\qquad
+ f_3(0)^{24}=2^{56}3^{36}.\tag{Z3}$$
+
+在与原 $\alpha_3$ 相同 Weil 配对的 $X(3)$ 连通分量，$f_3$ 是全纯权一形式。确实 \(F_7=7E_1^*(P)-E_1^*(7P)\)，每条非零三级标记点上等于 $6E_1^*(P)$，这是权一 Eisenstein 级数，任何 cusp 的标准 Tate 展开无负幂。有效指数12、四个尖点宽皆3、无椭圆稳定子给 $X(3)$ 亏格0及 $\deg\omega=1$（$\Delta$ 权12）。标签乘 $\omega$ 的 deck 对称是 $\mathrm{PSL}_2(\mathbf F_3)$ 中非平凡幺幂阶3；由(Z1)重标为特征向量。它固定原 CM 点和唯一尖点 $c_0$，后者的乘法退化线是 $\mathbf F_3\delta,\ \delta=\sqrt{-3}$。在 $\mathbf P^1$ 的非恒等自同构至多两个固定点；(Z3)非零，故 $f_3$ 唯一零为 $c_0$，重数一。整个结论限原 Weil 配对分量；原130商和所有合法偶 $p^s$ 商的次数均模3为1，故实际使用点都在其中。
+
+置 $D_\delta=\alpha_3(\mathbf F_3\delta)$，并规定 $q_\delta^*\kappa_\delta=\kappa$。$f_3^{12}/\Delta$ 在 $c_0$ 阶9，在另三尖点阶$-3$。$X_0(3)$ 上实际商鉴别式比 $\Delta(E'/D_\delta,\kappa_\delta)/\Delta(E',\kappa)$ 在乘法核尖点阶2，在对面尖点阶$-2$，由 Tate 格或 $\Delta(3\tau)/\Delta(\tau)$ 的积展开及 Fricke 对称得到。拉回到 $X(3)$，$c_0$ 处指数3，其余处指数1。平方前一个单位与立方后一个单位除子一致，故比为常数。以 $E_1,\kappa=dx/(2y)$ 标定：$\Delta_E=-432$，$[\delta]$ 微分为 $\delta$，归一商鉴别式为 $\delta^{12}\Delta_E$。由(Z3)得
+$$
+ \boxed{f_3(E',\alpha_3,\kappa)^{24}
+ =2^{48}3^{12}\frac{\Delta(E'/D_\delta,\kappa_\delta)^3}{\Delta(E',\kappa)}.}\tag{Z4}
+$$
+
+令 $D_C=\Delta(E_1/C,\kappa_C)/\Delta_E$，$u_C=G_C(0)/f_3(0)$。$\delta:E_C\to E_{\delta C}$ 核为 $q_C(E_1[\delta])$，拉回 $\kappa_{\delta C}$ 为 $\delta\kappa_C$。在(Z4)除以原基点的值：
+$$\boxed{u_C^{24}=D_{\delta C}^{\,3}/D_C,\qquad
+       \sum_{C\in\mathcal C}\chi_b(C)^{-1}u_C=0.}\tag{Z5}$$
+第二式是原两条中央秩二零在(Z2)的原216个非零代数数上的取值。其各项在同源商的所有好约化处为单位（分母只须排固定有限集），并均在72类的纤维上常数。
