@@ -1,0 +1,741 @@
+{
+  "schema": "complete-independent-R730-R729-run34-public-launch-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "this_manifest_path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-run34-complete-launch-delivery.json",
+  "prepared_utc": "2026-11-28 09:56:46 UTC",
+  "request_id": "visible-larger-resume-20261128-34",
+  "parent_request_id": "visible-larger-resume-20261128-34",
+  "namespace": "fixed-fejer-r730-R729-first",
+  "files": [
+    {
+      "role": "controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel34_geometry_locations.py",
+      "bytes": 21888,
+      "sha256": "fd8eb12916adf8c3ab9b0519e65937b552ac5d8cab2f8b9b44b1877ee1852d64",
+      "git_blob_sha": "f37e3871908884474f9d739161246d201580e872"
+    },
+    {
+      "role": "workflow",
+      "path": ".github/workflows/visible-larger-20261128-parallel34.yml",
+      "bytes": 2218,
+      "sha256": "da4a51ac6feb594b8cf26fb90c63da9c66af2152c12798426a18a403a43b39a9",
+      "git_blob_sha": "bd4cec91925246e62d4826da800e6b94322d3642"
+    },
+    {
+      "role": "queue",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-34.json",
+      "bytes": 83441,
+      "sha256": "9020e55bde60fff31c3aee4d56cea1ca17a95402132a31474d9a7bba6e9d1a56",
+      "git_blob_sha": "e574ca05b4d5b2b321c60ae52507eeb015e297a6"
+    },
+    {
+      "role": "request",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-34.json",
+      "bytes": 37312,
+      "sha256": "2a256463d8a9e2d6b9ae31ded90a27035e83903e274d80849f7cab589a2813b0",
+      "git_blob_sha": "9de9b505f266e58fc03e743ceedbdc4b36dbaa0d"
+    },
+    {
+      "role": "lgen",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r730_R729_run34_launch.mjs",
+      "bytes": 22265,
+      "sha256": "3de3f9601dd115cef41be0c86e14607fb55aa396a43b89f23005d8d931d72c36",
+      "git_blob_sha": "b3c23a248851c3226c2b4485c305131c02dacb0e"
+    },
+    {
+      "role": "lnote",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-R730-R729-run34-complete-launch.md",
+      "bytes": 5260,
+      "sha256": "4525f22a3e15bb90717478499331d5f593e1e0cc7e7c708b9ff27e657542cf89",
+      "git_blob_sha": "06ff38d37dda022825d2e18e9e45a6506e8be028"
+    }
+  ],
+  "file_count_including_manifest": 7,
+  "total_other_file_bytes": 172384,
+  "publications": {
+    "source": "8fb792e78b0cb67e37177a4a590fd3424e279cb2",
+    "parameters": null,
+    "launch": null
+  },
+  "complete_source_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-source-delivery.json",
+    "bytes": 27059,
+    "sha256": "7be33312260e6af8e21862a046857330c7b4f704f938b854be97d1cb3d8d74de",
+    "git_blob_sha": "1bf08f8a79cfaf971accb7d10985e3289abcc8de"
+  },
+  "complete_source_binding": {
+    "role": "complete_runtime_and_source_binding",
+    "name": "fixed-fejer-r730-R729-current-runtime-binding.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+    "bytes": 61806,
+    "sha256": "f7eda4b71048b816288d8dc92a61db84def183861499117f93986258e86d62ce",
+    "git_blob_sha": "886a7bb94b171381f6df06890b3d4c745a7f750d"
+  },
+  "complete_parameters": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-delivery.json",
+    "bytes": 10643,
+    "sha256": "ac63c2fb4ef9fba1867dedd8cc3d42ed0e7ac2ca0856b1164b774bed9e43f528",
+    "git_blob_sha": "6d1bf823988ffd202639ea678062252bb8492449"
+  },
+  "complete_parameter_binding": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-binding.json",
+    "bytes": 36310,
+    "sha256": "b53af2212ab7e574afc7d65f6607594a64c6f32ce6ecbffe2901730cda9b8a91",
+    "git_blob_sha": "2bc4198d68ee3f605f9f4bedbafefd8e67d8d510"
+  },
+  "complete_science_ready": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-science-complete-ready.json",
+    "bytes": 80179,
+    "sha256": "e59560d83da7c287458ac24814b25fa22f3465f1df42c4729d9b283f80c124ca",
+    "git_blob_sha": "3521520ffc6ca45a52d21f56b83bd74df423969d"
+  },
+  "complete_pure_ready": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-pure-complete-ready.json",
+    "bytes": 69444,
+    "sha256": "9cfe04f62d8eb60d808c2ab0c7733f9a2d803a831c6c64de0378c4090dbe139f",
+    "git_blob_sha": "39a7df0497e21c90cf93dfe919d280d4e0572446"
+  },
+  "full_current_registry": {
+    "complete_file": {
+      "role": "complete_runtime_and_source_binding",
+      "name": "fixed-fejer-r730-R729-current-runtime-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+      "bytes": 61806,
+      "sha256": "f7eda4b71048b816288d8dc92a61db84def183861499117f93986258e86d62ce",
+      "git_blob_sha": "886a7bb94b171381f6df06890b3d4c745a7f750d"
+    },
+    "json_pointer": "/complete_source_role_registry",
+    "whole_file_required": true,
+    "complete_pairs": 139
+  },
+  "full_current_runtime": {
+    "complete_file": {
+      "role": "complete_runtime_and_source_binding",
+      "name": "fixed-fejer-r730-R729-current-runtime-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+      "bytes": 61806,
+      "sha256": "f7eda4b71048b816288d8dc92a61db84def183861499117f93986258e86d62ce",
+      "git_blob_sha": "886a7bb94b171381f6df06890b3d4c745a7f750d"
+    },
+    "json_pointer": "/current_complete_runtime_sources",
+    "whole_file_required": true,
+    "complete_files": 24
+  },
+  "complete_source_build_and_inner_entries": {
+    "whole_current_scientific_delivery": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-source-delivery.json",
+      "bytes": 27059,
+      "sha256": "7be33312260e6af8e21862a046857330c7b4f704f938b854be97d1cb3d8d74de",
+      "git_blob_sha": "1bf08f8a79cfaf971accb7d10985e3289abcc8de"
+    },
+    "whole_current_parameter_delivery": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-delivery.json",
+      "bytes": 10643,
+      "sha256": "ac63c2fb4ef9fba1867dedd8cc3d42ed0e7ac2ca0856b1164b774bed9e43f528",
+      "git_blob_sha": "6d1bf823988ffd202639ea678062252bb8492449"
+    },
+    "complete_input_sources": {
+      "maker": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+        "sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+        "bytes": 39375,
+        "git_blob_sha": "7b3e12203c15040e07c7dc9cc4f2c20c12d7d566"
+      },
+      "reference": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+        "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+        "bytes": 60335,
+        "git_blob_sha": "8ad0794ebf0daab9a278c5ea1de784e93b64fd8c"
+      }
+    },
+    "complete_normal_build": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-source-delivery.json",
+        "bytes": 27059,
+        "sha256": "7be33312260e6af8e21862a046857330c7b4f704f938b854be97d1cb3d8d74de",
+        "git_blob_sha": "1bf08f8a79cfaf971accb7d10985e3289abcc8de"
+      },
+      "json_pointer": "/normal_build_route",
+      "whole_file_required": true
+    },
+    "complete_scientific_registry": {
+      "complete_file": {
+        "role": "complete_runtime_and_source_binding",
+        "name": "fixed-fejer-r730-R729-current-runtime-binding.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+        "bytes": 61806,
+        "sha256": "f7eda4b71048b816288d8dc92a61db84def183861499117f93986258e86d62ce",
+        "git_blob_sha": "886a7bb94b171381f6df06890b3d4c745a7f750d"
+      },
+      "json_pointer": "/complete_source_role_registry",
+      "whole_file_required": true,
+      "complete_pairs": 139
+    },
+    "wrapper": {
+      "role": "source_build_wrapper",
+      "name": "build_and_launch_r730_R729_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/build_and_launch_r730_R729_actions.py",
+      "bytes": 7513,
+      "sha256": "b32f9642a61bd093fcc14ed7e44488e90ac8cbe3cd6fc0d3436da84f861bd401",
+      "git_blob_sha": "0040e34f71e9d3d36cb7aa9b6fd1e423a382b0ba"
+    },
+    "builder": {
+      "role": "complete_source_builder",
+      "name": "reproduce_r730_R729_complete_sources.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r730_R729_complete_sources.mjs",
+      "bytes": 95498,
+      "sha256": "652c637701322e37d95b61b5427fc61a6ee64299503726ed67ee35a700ae0c7c",
+      "git_blob_sha": "25153d99ea4a060e59021d301d21f8b1159f4700"
+    },
+    "original_inner_entries": {
+      "science": {
+        "role": "launcher",
+        "name": "launch_r730_R729_actions.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_r730_R729_actions.py",
+        "bytes": 22292,
+        "sha256": "212a7d02c3c23b085faa8d67409e1afeacda4c6b7c75d44ecc1d3ec0ab5f1f2a",
+        "git_blob_sha": "b2a3b803c207d1bbbdd61834f4dfc6d774659fe3"
+      },
+      "pure": {
+        "role": "reader",
+        "name": "read_r730_R729_report.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_r730_R729_report.py",
+        "bytes": 93252,
+        "sha256": "3a62a754a62c3e66686fb6ec7899c66897775fbe6646a812dd4b23f67f6da5ba",
+        "git_blob_sha": "e65a6d54882da1a226f5d8c9c5a0c0b8e83acb33"
+      }
+    },
+    "runner_reconstructs_all17_whole_files_before_entry": true,
+    "reference_and_physical_report_identity_known_only_after_actual_run": true
+  },
+  "full_canonical_counts": {
+    "science": {
+      "inner_argv": 157,
+      "wrapper_argv": 162,
+      "parent_formal": 575,
+      "new_R730_formal": 36,
+      "new_build_formal": 21,
+      "all_formal": 632,
+      "live": 64
+    },
+    "pure": {
+      "inner_argv": 7,
+      "wrapper_argv": 12,
+      "parent_formal": 564,
+      "new_R730_formal": 40,
+      "new_build_formal": 21,
+      "all_formal": 625,
+      "live": 0
+    }
+  },
+  "current_role_comparison": {
+    "parent_roles": 138,
+    "unchanged_complete_pairs": 120,
+    "replaced_pairs": 18,
+    "new_roles": [
+      "seed_length_kernel"
+    ],
+    "complete_changed_pairs_pointer": {
+      "file": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+      "json_pointer": "/current_role_comparison/changed_original_scientific_role_pairs"
+    },
+    "old_seed_mean": "Complete historical source pair retained; not imported by the new driver.",
+    "all_parent_history_whole_reference_preserved": true
+  },
+  "complete_original_budgets": {
+    "current_M": 160,
+    "current_J": 923,
+    "current_N": 2048,
+    "normal_stages": 32,
+    "normal_angle_block": 8,
+    "stage_block": 64,
+    "integration_order": 8,
+    "metric_directions": 1,
+    "metric_maxiter": 16,
+    "restoration_directions": 4,
+    "restoration_maxiter": 64,
+    "line_trials": 15,
+    "active_rows": 192,
+    "envelope_near_active_rows": 32,
+    "metric_damping": ".01",
+    "restoration_damping": ".01",
+    "seed_boundary_total_length": "1/2",
+    "seed_profile_delta": "1/32",
+    "all_remaining_numeric_words_tolerances_domains_variables_in_the_complete_step": true,
+    "no_smaller_problem_no_reduced_domain_no_reduced_budget": true
+  },
+  "all_64_live_selectors_retained": true,
+  "whole_initial_and_later_queue": {
+    "initial_steps": [
+      "prepare-complete-fixed-fejer-r690-inputs-20261127",
+      "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run34",
+      "complete-fixed-fejer-r730-R729-first-20261128"
+    ],
+    "initial_queue": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-34.json",
+      "bytes": 83441,
+      "sha256": "9020e55bde60fff31c3aee4d56cea1ca17a95402132a31474d9a7bba6e9d1a56",
+      "git_blob_sha": "e574ca05b4d5b2b321c60ae52507eeb015e297a6"
+    },
+    "initial_step_count": 3,
+    "initial_queue_bytes": 83441,
+    "pure_only_queue_bytes": 66120,
+    "pure_only_queue_sha256": "f2a82e05e2a49478d549f601ea1586a8fd124d3b1c62d4a0f214755eb0b7e0b1",
+    "pure_only_queue_git_blob": "ef48f2fd538851ea1271f95f56fa5f2b8117ad3a",
+    "all_four_step_queue_bytes": 149468,
+    "science_plus_pure_two_step_queue_bytes": 142869,
+    "active_queue_limit_bytes": 95000,
+    "deferred_complete_pure_step_ready": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-pure-complete-ready.json",
+      "bytes": 69444,
+      "sha256": "9cfe04f62d8eb60d808c2ab0c7733f9a2d803a831c6c64de0378c4090dbe139f",
+      "git_blob_sha": "39a7df0497e21c90cf93dfe919d280d4e0572446"
+    },
+    "after_actual_science_natural_return": "Replace the active request queue with the whole /steps/0 of the current pure-ready file under this same parent_request_id. Keep finish_when_done false for accurate postprocessing.",
+    "finish_when_done": false,
+    "numerical_parameters_or_original_summary_selectors_removed": false,
+    "complete_parent_capacity": {
+      "complete_file": {
+        "role": "request",
+        "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-32.json",
+        "bytes": 40137,
+        "sha256": "1d6ca2d776175ea9f5d79008c5a59317b5c68f85d83ffd3ab6aac3cb8ce94e92",
+        "git_blob_sha": "400edd6988db4ac714710a3091adc75d313ef25b"
+      },
+      "json_pointer": "/queue_capacity_policy",
+      "whole_file_required": true
+    }
+  },
+  "current_full_steps": [
+    {
+      "ordinal": 1,
+      "id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+      "args": 6
+    },
+    {
+      "ordinal": 2,
+      "id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run34",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "args": 26
+    },
+    {
+      "ordinal": 3,
+      "id": "complete-fixed-fejer-r730-R729-first-20261128",
+      "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/build_and_launch_r730_R729_actions.py",
+      "args": 162
+    }
+  ],
+  "whole_launch_parents": {
+    "manifest": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-R729-run32-complete-launch-delivery.json",
+      "bytes": 13656,
+      "sha256": "6b8b78ae8252174d513894415b908c4602db06b98bf188c8db50d008420c1bb9",
+      "git_blob_sha": "90b5f82413ae08c2e3fa8bf2cc98bb25e4d0a1cc"
+    },
+    "request": {
+      "role": "request",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-32.json",
+      "bytes": 40137,
+      "sha256": "1d6ca2d776175ea9f5d79008c5a59317b5c68f85d83ffd3ab6aac3cb8ce94e92",
+      "git_blob_sha": "400edd6988db4ac714710a3091adc75d313ef25b"
+    },
+    "queue": {
+      "role": "queue",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-32.json",
+      "bytes": 78678,
+      "sha256": "c913ea85839cddfb5cfd5a1fea3ca4cd864c04aff89b29b13f9ed6d4fd4f89b9",
+      "git_blob_sha": "294e50f0292b52270f33cb344f43f3c6ef14c425"
+    },
+    "controller": {
+      "role": "controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel32_geometry_locations.py",
+      "bytes": 21888,
+      "sha256": "3b64dc1d2a6e517ac06edf230d4647e7d8f9008ce2e7e664d702f40c3cea6290",
+      "git_blob_sha": "cbb8556396d455849430bb642fb25935d270643f"
+    },
+    "workflow": {
+      "role": "workflow",
+      "path": ".github/workflows/visible-larger-20261128-parallel32.yml",
+      "bytes": 2211,
+      "sha256": "77525a254c23d2ec0e038e4578b908736dada858ae5435fed70b8ed19fe7bbda",
+      "git_blob_sha": "925cbdc3edec3db0465c86784d09f55336f504c3"
+    },
+    "followup_transport": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py",
+      "bytes": 32763,
+      "sha256": "444f57b28c695fbcd0fbfc03237b8c7a56dedccc97a64873b7dae083de5dbb12",
+      "git_blob_sha": "4b72d0565d3f3fd797dd8bf45e48310cad8226d2",
+      "fixed_commit": "d82d43b4fa884be25be766043dad66bb7ce80c25"
+    }
+  },
+  "full_immediate_parent_request_keys": [
+    "schema",
+    "request_id",
+    "session",
+    "created_utc",
+    "bootstrap_mode",
+    "rules_read_commit",
+    "rules_sha256",
+    "followup_file",
+    "controller_budget_seconds",
+    "controller",
+    "followups",
+    "scope",
+    "mathematical_recipe",
+    "historical_scalar_parameter_source",
+    "complete_input_sources",
+    "source_and_parameter_scope",
+    "old_history_scope",
+    "workflow_timeout_minutes",
+    "budget_scope",
+    "future_actual_run_id",
+    "future_actual_input_hashes",
+    "future_actual_reference_identity_sha256",
+    "future_actual_field_point_sha256",
+    "scientific_completion_claimed",
+    "raw_outputs",
+    "current_refinement",
+    "complete_scientific_parameter_plan",
+    "queue_capacity_policy",
+    "complete_scientific_source_package",
+    "complete_unchanged_stage_source_package",
+    "complete_parameter_reproducer",
+    "external_unregistered_peer_obligations",
+    "external_peer_status",
+    "seed_and_mean_contract",
+    "complete_display_correspondence",
+    "original_complete_launch_request",
+    "all_original_launch_request_metadata_preserved_in_full",
+    "controller_source_identity_derivation",
+    "workflow_identity_derivation",
+    "complete_initial_input_step_origin",
+    "complete_current_parameter_delivery",
+    "complete_current_source_binding",
+    "complete_source_role_registry",
+    "complete_current_runtime_registry",
+    "complete_current_parameter_binding",
+    "complete_current_peer_responsibilities",
+    "complete_original_terminal_and_failure_histories",
+    "rules_read_method",
+    "source_preparation_proofs_are_not_run_results",
+    "local_scientific_AST_fixture_benchmark_or_admission_added",
+    "current_transport_contract",
+    "transport_window_extension",
+    "current_scientific_source_and_parameter_publications",
+    "current_complete_request_key_count",
+    "complete_immediate_original_run29_request",
+    "complete_original_run29_controller",
+    "complete_current_original_run29_failure",
+    "original_request_key_count",
+    "retry_scope",
+    "complete_current_launch_source_and_inputs",
+    "complete_launch_rules_records"
+  ],
+  "full_current_request_keys": [
+    "schema",
+    "request_id",
+    "session",
+    "created_utc",
+    "bootstrap_mode",
+    "rules_read_commit",
+    "rules_sha256",
+    "followup_file",
+    "controller_budget_seconds",
+    "controller",
+    "followups",
+    "scope",
+    "mathematical_recipe",
+    "historical_scalar_parameter_source",
+    "complete_input_sources",
+    "source_and_parameter_scope",
+    "old_history_scope",
+    "workflow_timeout_minutes",
+    "budget_scope",
+    "future_actual_run_id",
+    "future_actual_input_hashes",
+    "future_actual_reference_identity_sha256",
+    "future_actual_field_point_sha256",
+    "scientific_completion_claimed",
+    "raw_outputs",
+    "current_refinement",
+    "complete_scientific_parameter_plan",
+    "queue_capacity_policy",
+    "complete_scientific_source_package",
+    "complete_unchanged_stage_source_package",
+    "complete_parameter_reproducer",
+    "external_unregistered_peer_obligations",
+    "external_peer_status",
+    "seed_and_mean_contract",
+    "complete_display_correspondence",
+    "original_complete_launch_request",
+    "all_original_launch_request_metadata_preserved_in_full",
+    "controller_source_identity_derivation",
+    "workflow_identity_derivation",
+    "complete_initial_input_step_origin",
+    "complete_current_parameter_delivery",
+    "complete_current_source_binding",
+    "complete_source_role_registry",
+    "complete_current_runtime_registry",
+    "complete_current_parameter_binding",
+    "complete_current_peer_responsibilities",
+    "complete_original_terminal_and_failure_histories",
+    "rules_read_method",
+    "source_preparation_proofs_are_not_run_results",
+    "local_scientific_AST_fixture_benchmark_or_admission_added",
+    "current_transport_contract",
+    "transport_window_extension",
+    "current_scientific_source_and_parameter_publications",
+    "current_complete_request_key_count",
+    "complete_immediate_original_run29_request",
+    "complete_original_run29_controller",
+    "complete_current_original_run29_failure",
+    "original_request_key_count",
+    "retry_scope",
+    "complete_current_launch_source_and_inputs",
+    "complete_launch_rules_records",
+    "actual_future"
+  ],
+  "original_keys_removed": [],
+  "original_request_metadata_preserved": {
+    "complete_file": {
+      "role": "request",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-32.json",
+      "bytes": 40137,
+      "sha256": "1d6ca2d776175ea9f5d79008c5a59317b5c68f85d83ffd3ab6aac3cb8ce94e92",
+      "git_blob_sha": "400edd6988db4ac714710a3091adc75d313ef25b"
+    },
+    "json_pointer": "",
+    "whole_file_required": true,
+    "every_original_key_value_retained_as_historical_metadata": true
+  },
+  "controller_full_text_replacements": [
+    {
+      "from": "visible-larger-parallel-32:start",
+      "to": "visible-larger-parallel-34:start",
+      "count": 1
+    },
+    {
+      "from": "visible-larger-parallel-32:end",
+      "to": "visible-larger-parallel-34:end",
+      "count": 1
+    },
+    {
+      "from": "Actions32：",
+      "to": "Actions34：",
+      "count": 1
+    },
+    {
+      "from": "并行32规则核查",
+      "to": "并行34规则核查",
+      "count": 1
+    }
+  ],
+  "workflow_full_text_replacements": [
+    {
+      "from": "Visible larger amplitude R728 R729 common slack 20261128 32",
+      "to": "Visible larger amplitude R730 safe cone R729 common slack 20261128 34",
+      "count": 1
+    },
+    {
+      "from": "resume-20261128-actions-request-32.json",
+      "to": "resume-20261128-actions-request-34.json",
+      "count": 2
+    },
+    {
+      "from": "visible-larger-fixed-input-20261128-32",
+      "to": "visible-larger-fixed-input-20261128-34",
+      "count": 1
+    },
+    {
+      "from": "Construct the same fixed target and solve complete R728 with R729 common slack",
+      "to": "Reconstruct the fixed target and solve complete R730 with R729 common slack",
+      "count": 1
+    },
+    {
+      "from": "public_actions_controller_parallel32_geometry_locations.py",
+      "to": "public_actions_controller_parallel34_geometry_locations.py",
+      "count": 1
+    }
+  ],
+  "complete_input_origin": {
+    "whole_parent_queue": {
+      "role": "queue",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-32.json",
+      "bytes": 78678,
+      "sha256": "c913ea85839cddfb5cfd5a1fea3ca4cd864c04aff89b29b13f9ed6d4fd4f89b9",
+      "git_blob_sha": "294e50f0292b52270f33cb344f43f3c6ef14c425"
+    },
+    "complete_json_pointers": [
+      "/steps/0",
+      "/steps/1"
+    ],
+    "only_changed_word": {
+      "pointer": "/steps/1/id",
+      "from": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run32",
+      "to": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run34"
+    },
+    "both_original_input_steps_execute_in_this_runner": true
+  },
+  "complete_external_and_failure_histories": {
+    "whole_previous": {
+      "complete_file": {
+        "role": "request",
+        "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-32.json",
+        "bytes": 40137,
+        "sha256": "1d6ca2d776175ea9f5d79008c5a59317b5c68f85d83ffd3ab6aac3cb8ce94e92",
+        "git_blob_sha": "400edd6988db4ac714710a3091adc75d313ef25b"
+      },
+      "json_pointer": "/complete_original_terminal_and_failure_histories",
+      "whole_file_required": true
+    },
+    "whole_current_peer_and_parallel_history": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-binding.json",
+        "bytes": 36310,
+        "sha256": "b53af2212ab7e574afc7d65f6607594a64c6f32ce6ecbffe2901730cda9b8a91",
+        "git_blob_sha": "2bc4198d68ee3f605f9f4bedbafefd8e67d8d510"
+      },
+      "json_pointer": "/complete_peer_responsibility",
+      "whole_file_required": true
+    },
+    "original_run29_failure": {
+      "complete_file": {
+        "role": "request",
+        "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-32.json",
+        "bytes": 40137,
+        "sha256": "1d6ca2d776175ea9f5d79008c5a59317b5c68f85d83ffd3ab6aac3cb8ce94e92",
+        "git_blob_sha": "400edd6988db4ac714710a3091adc75d313ef25b"
+      },
+      "json_pointer": "/complete_current_original_run29_failure",
+      "whole_file_required": true
+    },
+    "other_family_terminal_state_inferred": false
+  },
+  "rules_read_commit": "56c35c4ca2d36e03831702cf1a4a1ba9ebb8efeb",
+  "checked_rules": [
+    {
+      "path": "README.md",
+      "bytes": 10649,
+      "sha256": "539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444",
+      "git_blob_sha": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+      "fixed_commit": "56c35c4ca2d36e03831702cf1a4a1ba9ebb8efeb"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/README.md",
+      "bytes": 2664,
+      "sha256": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d",
+      "git_blob_sha": "bff8aea253a9e6a7a4fac28d810ac454c5499fec",
+      "fixed_commit": "56c35c4ca2d36e03831702cf1a4a1ba9ebb8efeb"
+    }
+  ],
+  "transport": {
+    "mode": "followups_only",
+    "controller_budget_seconds": 21000,
+    "workflow_timeout_minutes": 360,
+    "publication_capacity_wait_seconds": 30,
+    "whole_transport": {
+      "complete_delivery": {
+        "path": "topics/visible-flex-larger-amplitude/computations/complete-geometry-location-observation-and-transport-delivery.json",
+        "bytes": 6029,
+        "sha256": "099219af952a3beef3e14ce50692bbd05a2e397d773c1a582a959d69de302156",
+        "sha": "e8a317b06cb1d6d6109cc1ffed67eef1028cc4b1",
+        "git_blob_sha": "e8a317b06cb1d6d6109cc1ffed67eef1028cc4b1"
+      },
+      "full_original48_selectors_retained": true,
+      "additional_existing_scalar_selectors": 0,
+      "complete_small_file_read_limit": 95000,
+      "compact_public_limit": 16384,
+      "pretty_progress_limit": 32768,
+      "whole_index_limit": 95000,
+      "missing_or_changing_progress_retains_original_errors": true,
+      "currently_running_controllers_unmodified": true,
+      "full_original64_selectors_retained": true,
+      "complete_publication_capacity_wait": {
+        "complete_current_controller": {
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel34_geometry_locations.py",
+          "bytes": 21888,
+          "sha256": "fd8eb12916adf8c3ab9b0519e65937b552ac5d8cab2f8b9b44b1877ee1852d64",
+          "git_blob_sha": "f37e3871908884474f9d739161246d201580e872"
+        },
+        "complete_parent_controller": {
+          "role": "controller",
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel32_geometry_locations.py",
+          "bytes": 21888,
+          "sha256": "3b64dc1d2a6e517ac06edf230d4647e7d8f9008ce2e7e664d702f40c3cea6290",
+          "git_blob_sha": "cbb8556396d455849430bb642fb25935d270643f"
+        },
+        "whole_original_logic_unchanged": true,
+        "topic_bytes_limit": 200000000,
+        "handoff_bytes_exclusive_limit": 10000,
+        "wait_seconds": 30,
+        "complete_records_retained": true,
+        "scientific_child_not_signalled_by_capacity_wait": true,
+        "complete_original_derivation": {
+          "complete_file": {
+            "role": "request",
+            "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-32.json",
+            "bytes": 40137,
+            "sha256": "1d6ca2d776175ea9f5d79008c5a59317b5c68f85d83ffd3ab6aac3cb8ce94e92",
+            "git_blob_sha": "400edd6988db4ac714710a3091adc75d313ef25b"
+          },
+          "json_pointer": "/current_transport_contract/complete_publication_capacity_wait",
+          "whole_file_required": true
+        }
+      }
+    }
+  },
+  "reproduction": {
+    "source": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r730_R729_run34_launch.mjs",
+      "bytes": 22265,
+      "sha256": "3de3f9601dd115cef41be0c86e14607fb55aa396a43b89f23005d8d931d72c36",
+      "git_blob_sha": "b3c23a248851c3226c2b4485c305131c02dacb0e"
+    },
+    "argv": [
+      "node",
+      "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r730_R729_run34_launch.mjs",
+      "--source-repository",
+      ".",
+      "--output-repository",
+      "/tmp/run34-launch"
+    ],
+    "outputs": [
+      "controller",
+      "workflow",
+      "queue",
+      "request"
+    ],
+    "pure_queue_format": "UTF-8 compact JSON + LF of {parent_request_id: request.request_id, finish_when_done:false, steps:pureReady.steps}",
+    "pure_only_next_queue": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-34.json",
+      "bytes": 66120,
+      "sha256": "f2a82e05e2a49478d549f601ea1586a8fd124d3b1c62d4a0f214755eb0b7e0b1",
+      "git_blob_sha": "ef48f2fd538851ea1271f95f56fa5f2b8117ad3a",
+      "future_same_request_only": true
+    }
+  },
+  "all_current_actual": {
+    "run_id": null,
+    "attempt": null,
+    "source_commit": null,
+    "model_identity_sha256": null,
+    "current_full_point_sha256": null,
+    "preparation_report": null,
+    "science_report": null,
+    "pure_readout": null,
+    "length_root_batch": null,
+    "normal_packet": null,
+    "normal_fee_report": null,
+    "geometry_report": null,
+    "closed_report": null,
+    "R716_report": null,
+    "mesh_report": null,
+    "build_receipt_sha256": null,
+    "accepted_field": null,
+    "certificate": null
+  },
+  "scientific_executions_during_parameter_construction": 0,
+  "claims_success": false
+}

@@ -509,3 +509,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:24:03 UTC — RET99保全27–33终态及全部完整源参恢复
 
 仅退六旧run的13已终态生成索引/卷473592B，固定5a8759全Git原件/整逻辑JSON块/完整值与错误身份均可还原；65当前源参/人写note守卫、4历史whole、7题外引用分列。完整95578B ledger、9866B说明及11625B总表净退356523B；28原science/pure0与新未返接续分层，33旧两input0/README异常有日志，其余五原因null。新33-retry request/queue/任何新输出均不退。 双README云核至`d69bf98e970ab21bae41136db737f98fecc8e2c8`无变（非pull）。
+
+## 2026-11-28 10:27:49 UTC — 34完整R730/R729公开实际启动请求
+
+34完整7件202915B（topic200697B）与已刊参数42f7/源码8fb792接通；三整step含两个原完整input及完整science，active/parent同visible-larger-resume-20261128-34，队83441B/9020e55bde60fff31c3aee4d56cea1ca17a95402132a31474d9a7bba6e9d1a56；正式632/625、64live、内157/7/外162/12以及全部原4/64/15/32stage/域/预算保留。新版双README已读56c35c，360minworkflow/350min预算/30秒容量原样；每step完整物化17源后走原guard。whole pure66120B只本次science自然返后排。题外新增.github/workflows/visible-larger-20261128-parallel34.yml为本课题公开计算；这是实际触发请求，run/source/model/point/新算法结果仍待自身返回，不把R731参考上界移给outer场。 双README云核至`80e5d0d4d701807013e6e0bad00ddb2f74bd31f5`无变（非pull）。

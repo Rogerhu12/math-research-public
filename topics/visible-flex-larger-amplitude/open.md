@@ -121,7 +121,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [33完整原运行](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md) run46130690181已failure09:38:59Z；64705B完整官方日志确证两个input0后，Publisher真pull遇根README新增§16而抛异常，science未启。其他run原因不从此借用。[新版规则重启](notes/2026-11-28-run33-section16-retry.md)现为run46133839513/job140944661119，research10:10:37Z启，active/parent均33-retry-section16；原28正半波物理/137源对+R729共138角色/21runtime，157/7词、575/564正式、64live及4/64/15全保。先原QP，只有原dependent两status才fallback，剩余64是全坐标扫非CG步。两input新runner重算；本次science自然返后才whole pure62854B。28 final不作33初值。
 
-[R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)已证真实S∈(2.37,2.38)、κ0=binary.2、η1/32、ξmax3/4、单宽脉冲k6的唯一长度根、全角两jet/逆弧长六jet、闭参考嵌入/全相位、安全锥双held与D≤4.2。仅径向unit，不代角向Gram、同固定g、reach或非全等。完整五物理源/接口11件已刊；正常build5件以全父源+209全patch在每个detached worktree物化17整源，139角色/24runtime和全部原守卫保。34完整参数已刊42f7，内部157/7、外162/12，632/625字段包含原575/564及64live和真实构建记录；启动包待刊，新actual仍未知。
+[R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)已证真实S∈(2.37,2.38)、κ0=binary.2、η1/32、ξmax3/4、单宽脉冲k6的唯一长度根、全角两jet/逆弧长六jet、闭参考嵌入/全相位、安全锥双held与D≤4.2。仅径向unit，不代角向Gram、同固定g、reach或非全等。完整五物理源/接口11件已刊；正常build5件以全父源+209全patch在每个detached worktree物化17整源，139角色/24runtime和全部原守卫保。34完整参数已刊42f7，内部157/7、外162/12，632/625字段包含原575/564及64live和真实构建记录；完整启动7件已刊、三step83441B；新actual待返。
 
 [R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)现已证：冻结R730参考有真实平帽法向弦，全部相位reach<.016、D>3.88；同点水平与帽相对高度各改≤.025仍reach<.0285。全平帽必要法球条件给末端领口的具体设计要求；不约束任意outer新场，不取消34完整求解。[R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)新参考已付全部帽混合/反向.126球、原末带Gram、core jet、D/双held/δE；中央Gram与中央/中央、中央/圆肩reach仍待付。新源/输入/费用独立，不改34。
 
