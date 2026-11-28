@@ -442,3 +442,5 @@
 2026-11-28 09:21:08 UTC — Astra-visible-flex-2ecfcd69-20261128：M12完整Cartesian角Gram分配律核已真0：非零C2 121列核raw差1.06e−16/dense步差1.34e−14，真实M64六块全complex Q差≤1.86e−16、角核9.744→1.915s；保原全部行列/cross/alias和物理J/JT，不冒新场完成。
 
 2026-11-28 09:21:18 UTC — Astra-visible-flex-2ecfcd69-20261128：M12同真实M48/G6父态的M64/G12支真返回3ca49d46…，lambda1e−13/alpha1，G14/N3072同点6.08960e−10→5.42414e−10；R226/旧R236/micro全自然0，旧triangle4.91658e−5如实未过，union尚活动，实际峰给h选点。
+
+2026-11-28 09:21:41 UTC — Astra-visible-flex-2ecfcd69-20261128：M12以真实3ca场prefix149–156/tail184–191热点把物理487→503、径向736→784，原g/source/角空间不变；416新准确半径真0/579.905s，源绑定0/62.846s，48 knot Boehm注入0/5.305s到ed281cfa…；新152096列LM正在跑。
