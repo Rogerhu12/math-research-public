@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：2ebeed378a69b4d27eed21625d9fa0ef2f0227d9**（2026-11-28T16:22:09.675690+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：f7de5493f1d2ae1953a9030092809bcc3e1b2716**（2026-11-28T16:33:17.556558+00:00；本终端真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-2026-11-28 14:37 UTC终端确认 unavailable，上一笔OC本地commit未推入main；已从完整稿恢复。只读同步013ef8944af7ad4238550f54e3418d114ec5a2f1确认两README未变；不冒称pull。现用本公开Actions部分克隆、真实pull/rebase/push逐结论发布，非快进立即循环；令牌仅CLI。数学程序仍仅本公开Actions，本地/V8仅文本/metadata。真实pull时间以上方回执为准，每小时至少一次。
+2026-11-28 14:37–16:22 UTC终端不可用期间，以公开Actions真实部分克隆/pull/rebase/push续写，完整回执在log。终端现已恢复；旧b0417d0保在原本地main，新分支从公开main续接，不重演已恢复结论。后续用终端git；数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
 root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-highest-kernel-pairing.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
@@ -60,7 +60,7 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像一维，γ_N与所有低a/high-normal交叉配对均显示；完整收缩严格消去opposite选择。对T*=(b³−1)^(2g−1)，三个支持支含node/flux首层贡献全零，同P完整V_m(T*)恰全SS有限和。相位现由R1200定标，实际值及指定C整运输仍开。
 
-[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Cartier–Weil/相对F一阶刚化给τ_s=B_s²、C_s²=γ²/B_s^(2p)，ν_s统一为ν=(-3)^L(2γ)^(m−1)。原有限算子P_m保全部reference权，V(T*)=−mc₀νΣP_m(T*)(s)/(r_s^(2g+1)A′_s²)；μ3全和仅留λ₁=−6b/r。全和/简单极部尚未取值；公开Actions请求仅探新p59/71/83此functional，不重旧窗口。
+[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Cartier–Weil/相对F一阶刚化给τ_s=B_s²、C_s²=γ²/B_s^(2p)，ν_s统一为ν=(-3)^L(2γ)^(m−1)。原有限算子P_m保全部reference权，V(T*)=−mc₀νΣP_m(T*)(s)/(r_s^(2g+1)A′_s²)；μ3全和仅留λ₁=−6b/r。新run46164785591/job141039795948给p59/71/83的V/ν=43/13/54；λ₁简单极部有27/33/39个非零，逐点消失路线已否，保完整trace继续。见[有限读数](notes/2026-11-28-highest-kernel-SS-contraction-and-simple-pole-obstruction.md)，不扩大扫描或升为全p。
 
 ## 已成、禁止重做与其它入口
 

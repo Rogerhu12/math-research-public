@@ -150,7 +150,7 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像一维，γ_N与所有低a/high-normal交叉配对均显示；完整收缩严格消去opposite选择。对T*=(b³−1)^(2g−1)，三个支持支含node/flux首层贡献全零，同P完整V_m(T*)恰全SS有限和。原逐点相位现由R1200锁为同一ν；全和unit及指定C整运输仍开。
 
-[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Igusa character的Poincaré一阶类经relative F固定ε，原η′的t′⁻¹ primitive锁τ=B²、C²=γ²/B^(2p)及全部SS的同一ν。完整reference收缩成为有限多项式算子P_m，degree≤3m−3；同T*全图值准确为−mc₀νΣP_m(s)/(r_s^(2g+1)A′_s²)。μ3完整轨道消去λ₀，仅留λ₁=−6b/r的P₁∈k[b³]。其SS简单极部零 iff rP₁′+mb²P₁≡0 modA；该条件及全和非零尚未证明。仅新p59/71/83的完整收缩请求已备，待实际run，不把有限值推成全p。
+[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Igusa character的Poincaré一阶类经relative F固定ε，原η′的t′⁻¹ primitive锁τ=B²、C²=γ²/B^(2p)及全部SS的同一ν。完整reference收缩成为有限多项式算子P_m，degree≤3m−3；同T*全图值准确为−mc₀νΣP_m(s)/(r_s^(2g+1)A′_s²)。μ3完整轨道消去λ₀，仅留λ₁=−6b/r的P₁∈k[b³]。其SS简单极部零 iff rP₁′+mb²P₁≡0 modA；新公开run46164785591在p59/71/83给27/33/39个非零简单极部，故逐点消失的全称路线已否。完整V/ν=43/13/54仅为有限证据，保全部simple改做原trace/求积；[运行与边界](notes/2026-11-28-highest-kernel-SS-contraction-and-simple-pole-obstruction.md)，不扩大扫描。
 
 ## O5：原固定 Y 的有效断点
 
