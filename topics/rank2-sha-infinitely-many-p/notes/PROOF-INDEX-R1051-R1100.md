@@ -479,3 +479,6 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1067 §§22–23：完整 native 窗口及 exact-norm 框架自动行
 
 [同编号续证](../results/R1067-original-first-wild-rubin-native-euler-continuation.md)（93）–（101）将所有k≤p的log测试按真实gauge截至δ_(p+3)，保最多一份1/p；严格LT逆代换给完整C_ji及vC≥i−2，j>p的三层阶乘与j=p分母均付。全部q-carry使所需R_T恰限0..p+2，由R1062 G85回同一H_a与两明确校正。再对实际整ψ0来源K_a(Pv)P_H逐项转置，含原商平方Aδ+Bδ²的全部交叉，证明首Fermat frame对Euler模p^(p+1)无条件自动变深。与Na=17下U常数合并后，真正剩余是式（99）的H_a全加法行；没有宣布该行自动或制造bad的新零。
+
+
+- [R1069](../results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)：R1069固定原H=S34,1/Θ2,4913、Q形式叶D1+D4913及两模型微分。Hasse受限p幂准确在inert或17平方处封闭，四类密度1/4；全叶几何稠密r=2，Herblot全部定义/假设给α=1/4最优饱和。完整分母两Θ零陪集与分子最多有限交，原H极计数17πR²/area(Λ)+O(R+logR)，增长阶2。目标inert/square类已自动p-闭合；高斯平衡不降原Smith或canonical成本，仍消费全H_a加法核。

@@ -95,3 +95,10 @@ root全读§13并亲读R716完整(3)–(4)、(15)–(16)、(24)–(30)和R639全
 root手核(95)由z(Pv)=pz(v)的全部系数、h≥2的高估值、j≤p+3的Lagrange精确C_ji及三层Legendre；i/j分母由整逆系数支付，不丢j=p。所有k≤p的log尾使用原整gauge，n≥p+4统一≥p+1；G50的k=l+t保所有q-carry、t≤p+3−i/l≤i−1。式(100)先整数完整Leibniz再合法germ，h≥2d全尾联合gauge；首P_*的各阶和(100a)全部商交叉逐项已核。只修独立数学定界并加前文/实际来源链接。续证9864B/hash03be2e90a3b3e4cff6e78fab98b326001c4ab1d21b3618d206efa9da7e9e81cf；原主文件加同编号续证链接后90596B/hashc1a61675cbbfc18a63b75d92ad88149e57ed627b1bde3bf5757d6278ea17fcbd。不把式(99)其余项判自动或计新forcing；central/geometry继续消费实际H_a，arithmetic正核固定√17叶精确算术成本。
 
 推前actual run46073965457/job140915025525：公开2026-11-28 08:05:50 UTC至59e990f2ce095c7669a65d2f2c61552bda61c2e8；私库2026-11-28 08:05:55 UTC至892361b6ada8a2ac53790a805647c7c6c53fefc0。四README与08:00同blob、QUEUE本题未变；日志14887B/hashc021ad7b7facbd5bf7a165b66090ce408031855193d0638d4a539721354b1128；库存3213/45925802B/tree979b2788d87b955a13a5d52e38876a0cab1060ee，无>5MB，三旧必要gzip不变。H记录actual heads/已读规则；唯一路径v15及两原char0输入不改。
+
+
+## 2026-11-28 08:20 UTC — R1069 固定形式叶与完整极成本
+
+R1069固定原H=S34,1/Θ2,4913、Q形式叶D1+D4913及两模型微分。Hasse受限p幂准确在inert或17平方处封闭，四类密度1/4；全叶几何稠密r=2，Herblot全部定义/假设给α=1/4最优饱和。完整分母两Θ零陪集与分子最多有限交，原H极计数17πR²/area(Λ)+O(R+logR)，增长阶2。目标inert/square类已自动p-闭合；高斯平衡不降原Smith或canonical成本，仍消费全H_a加法核。 root逐式审全部模型/规范、p-闭合密度、Herblot作者PDF Definitions2.4–2.5/3.5/5.1/5.4–5.5、Proposition3.6和Theorem6.1；修明sum_{v∉S}、C_{S,ε}及原整性p>211入口。无数学执行。完整前H逐字归档，未存可重算输出；主目标仍未完成，继续实际bad读者。
+
+推前actual双库pull：public 2026-11-28 08:14:04 UTC / f752d81523bd57f0d438432e8c090a439069a2b7；private 2026-11-28 08:14:09 UTC / 7e6bf60f0aee71393d78959a3b562d75d2119e63；run46073965457/job140917040567，四README同blob、QUEUE本题认领不变，实际log 14887B / d23476e40551dc9ba19a55bb7cd1f9b22beee9ad217e2f7f0fb26d10e265ced6。三旧必要gzip无变化，库存完整、无>5MB。

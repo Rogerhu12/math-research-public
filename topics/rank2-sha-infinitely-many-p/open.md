@@ -156,3 +156,8 @@ v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日�
 
 
 O厚点后继：[逐实际来源返回](notes/2026-11-28-original-streamed-denominator-return.md)已完成隔离源码和固定34源小请求，真实P=E MD、全H/全余数、每个W_i/X_i及原两ideal全保。三个大临时产品全部换为逐全部行断言，X本身的输出风险仍有实际guard；原F_y不改。该固定软件已真实PASS：run46121926002/job140908102059，34源、9全比较/15拒错/4真实端点+4outer/2F及scalar均核；结果1ae2efddbb3dec8f17a8a004266efcb8a939db6da1653bb6ae82bc4414f4f55a。仅软件仍不付rank306性能或原全几何门，后继生产必须另付新outer method身份和四outer回执。正在运行的v15保持原来源，收到实际终态才据结果决定生产后继。
+
+
+### 2026-11-28：固定形式叶的全局费用已付
+
+R1069固定原H=S34,1/Θ2,4913、Q形式叶D1+D4913及两模型微分。Hasse受限p幂准确在inert或17平方处封闭，四类密度1/4；全叶几何稠密r=2，Herblot全部定义/假设给α=1/4最优饱和。完整分母两Θ零陪集与分子最多有限交，原H极计数17πR²/area(Λ)+O(R+logR)，增长阶2。目标inert/square类已自动p-闭合；高斯平衡不降原Smith或canonical成本，仍消费全H_a加法核。 原bad所给B=A/T⁴的localized Euler正在同原Hall商上评价，须保x⁻⁴非交换连接；Pell作用须付整个H¹和所有实际极的边界。未将裸叶或自动曲率改记为canonical新增零行。
