@@ -346,3 +346,32 @@ The complete official run object and complete returned job wrapper are preserved
   }
 }
 ```
+
+## 2026-11-28 02:00:54 UTC — 23两个完整输入实际返回，恢复策略科学已进入
+
+公开run46094430214/1的两个原完整输入均自然退出0，无summary_errors/missing_outputs。maker实际源码提交6052304ae83420267b214237895a6e63074a953f、source89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60、用时6.306445668999999s；其完整report65339B/SHA256dd98d03aad7658acb84d8a82f755c160411091b1c6735f484492f17120f9ab93，physicalF/J/normal_roots均0。reference实际源码提交876172c2c18843706a453f487174f33bffd93a92、sourcee7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb、用时525.4031628839999s，完整report84966B/SHA256dc83c481a226ebded26398a52533127c59621f17099fbe0fd2a4fa9edbfee266；M160/J923/P7377/N2048、height1.947054437068418、2218叶、accuracy_reached=false、whole_tail=true。真实reference894879B/212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb、carrier205842B/84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e、material-binding35712B/1216680e6539508d0f050b1b2796c1cf13af781654087f29925000532a62d9a2；全部11输出、原完整命令、source/queue与cleanup身份逐项保原第1卷，未读取或迁移其科学raw。
+
+01:52:16Z原索引显示真正科学步骤complete-fixed-fejer-restoration-continuation-bhalf-first-20261128已运行：实际source commit b31c3422a7f8f86954977988c8386208301a2942、launcher SHA256 f2a9e38f62a3844b5d9ce8df9399f6702f37e6fc96c792d0dcb0bb61a80e1371、PID3652、child_exit_code=null。两个进度文件当时均尚不存在，完整FileNotFoundError保索引；actual model/point/Phi/Gram/geometry/accepted/策略降阻尼是否触发均未知。已刊9db39科学来源和预定策略不充实际返回，更不从22借点/报告或结论。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1-part-001.md",
+    "bytes": 16606,
+    "sha256": "b6fa5168eb72c36582d5ca18a44f8cb393173220f80340d4cb8cafc1d0361c57",
+    "git_blob_sha": "82b902ab2cfa5222c57560485fa5629f97665419",
+    "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
+    "bytes": 48158,
+    "sha256": "95ce978e602b1184d00581d28479909db606c2bde326b3b0dbbfbdb71e154f31",
+    "git_blob_sha": "b14cfb26f40917b55d769ad18f13aa4a9b1a5bc9",
+    "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

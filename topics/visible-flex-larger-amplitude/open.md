@@ -117,13 +117,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 22初场g/Phi/Gram较19低而distplus较大，仅是实际工作值比较，非wholeK/reach单调定理。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保未知排序；全部逐值保各完整note和上引旧open。
 
-以上全point/model/source/六族/事件时刻、缺值/失败保完整note及固定原索引。统计不代几何、current不代trial、相同坐标不代同场，未知alpha不推方向号。18–22均未自然返回完整科学report，不以进度接准确费。
+以上全point/model/source/六族/事件时刻、缺值/失败保完整note及固定原索引。统计不代几何、current不代trial、相同坐标不代同场，未知alpha不推方向号。18–23均未自然返回完整科学report，不以进度接准确费。
 
 ### 新机制与全部未付后继
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)已付半波准确配对均值/两角根、中央导数减半及全位置jet账，不推wholeK/D/reach。22全20源/6参数/[启动总表](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊，137角色/18runtime/17对改120同；六物理cuts与aux12均值分开，原Gauss/partial不变。初三步63721B；science+pure103752B/全四步110351B>95000，真自然返才整接纯步。原request计数标签解释保22note，旧字节不改。
 
-[恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)独立23：原19全波半宽/δ1/32/两初μ.01，137原对+policy=138/19runtime。原完整全步和自身模型/点/几何/预测达策略条件才降下一μ；失败×4/metric/顺序/预算保。[全19件](computations/fixed-fejer-restoration-continuation-bhalf-complete-launch-delivery.json)已刊，官方46094430214/1于01:42:05Z启动；两完整输入/新场/策略结果待读，不混22。
+[恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)独立23：原19全波半宽/δ1/32/两初μ.01，137原对+policy=138/19runtime。原完整全步和自身模型/点/几何/预测达策略条件才降下一μ；失败×4/metric/顺序/预算保。[全19件](computations/fixed-fejer-restoration-continuation-bhalf-complete-launch-delivery.json)已刊，官方46094430214/1于01:42:05Z启动；两完整输入实际0，scienceb31c/f2a9/PID3652已运行；新场/策略结果未返，不混22。
 
 旧19–21全部N/G/R723/R718/R716/mesh全源参已刊，路径/whole身份保旧open/H。22新准确N/G/R723的17件、P/U/mesh18件和23准确31件已保护待容量，分别绑定新完整来源；准备不冒费用已付。R723五新角色不能冒旧八通过；R718要同场markedσ，R716另要unmarked法管/正V/非零中心不变量给含反射δE。
 

@@ -250,3 +250,7 @@ HANDOFF及open仅当前§7重新编排，完整旧版固定a5e459d4afc7d52804f25
 ## 2026-11-28 02:00:28 UTC — 22首个观测试点统计返回，几何与接受仍未知
 
 22首97fbb实际统计01:43:47.960927返Phi681.6511710299278/Gram.4061652579029476；01:50:33原索引尚无trial几何/决定，current仍初7e06/accepted0/原六族，report未自然返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`d86fa31c26dea3110eaa91a9fec4941ab90f6edf`无变（非pull）。
+
+## 2026-11-28 02:00:54 UTC — 23两个完整输入实际返回，恢复策略科学已进入
+
+23两完整input自然0，reference525.4031628839999s；实际science b31c3422/f2a9/PID3652已进入，01:52:16尚无progress/model/point/策略结果。全部输入命令与11输出全身份固定保原卷，不以输入complete冒场或准确积分完成。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`6be9a09f5108fc248f8bd98b5420b29a5d65cfca`无变（非pull）。
