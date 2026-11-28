@@ -1,0 +1,153 @@
+{
+  "status": "independent_Actions_chain_prepared_not_dispatched",
+  "prepared_utc": "2026-11-28T12:10:20.891815+00:00",
+  "new_sources": [
+    {
+      "path": ".github/workflows/held10-design-mapped-20261128.yml",
+      "bytes": 3973,
+      "sha256": "505fb97f2ba4003e2f158f4116cc4513f80cd4fbf44b66c834c4fe4357d0ef26"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/ci/mapped-design-command.json",
+      "bytes": 363,
+      "sha256": "111f206a228ae2e01e48e66713f7113428c14929526466727b9d264efc1811d1"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_q_material_recovery.py",
+      "bytes": 8493,
+      "sha256": "caca8d79b07a50d68fa3696233b83908b05b0ca2c07688d2df93637078490990"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_fresh_design.py",
+      "bytes": 19342,
+      "sha256": "280d95c0a0b8fcdcbc9adea2f891e8d2b6b53e12d1d9c89be4b8cd58146a5248"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_terminal_worker.py",
+      "bytes": 17902,
+      "sha256": "5389ad643dabff07bca1567facb48d7b1a238cd3b8531598d50e4c6aaca9a9c5"
+    }
+  ],
+  "shared_frozen_sources": {
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_factor_mmap.py": "12c18e96f333b588c9e8ac8db423976d2210f36c705b40c467f144d9a06994eb",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_mapped_memory_budget.py": "fd1282f5d327fae130a7d1502a7d2af62b5a2574124f3388c3fa8f74d173141e",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/mapped_factor_cleanup.py": "9acd6130309bd5044940350080745f7212060a687a698cc30207552d10c5f4cb",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_factor_mmap_qr_driver.py": "4357db7a084cee8a2bc4d2c144dddf95ab182b31b7502531b3b2fb4f032b7e63",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_mapped_budget_driver.py": "c4026046ebc889c10931ad5fc873d0e71934caf4ff4c94ff40ee18d80a6d066e",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_qr_dispatch_v6.py": "27dc0b0a192d08901f4afb973a24b32656fd9bfbee9426d8c237f15de7b6608d"
+  },
+  "parent_read_only_HEAD_workflow_copies": {
+    "/workspace/scratch/7c4e33ee17de/held10-maintenance/workflow-source/held10-live-design.yml": "4c8a59a9a32e3c08dcbc8417dff02d7f351704f56a894ff2cbe0f79cde6062dd",
+    "/workspace/scratch/7c4e33ee17de/held10-maintenance/workflow-source/held10-live-material.yml": "83397fcd3ed64f31c7e76c428ebe53ccf9973b1765cc14eccaf6182614a51b28"
+  },
+  "required_dispatch_input": {
+    "read_rules_commit": "A full 40-hex commit actually reviewed by the root coordinator; no automatic fabricated anchor"
+  },
+  "actions_path": ".github/workflows/held10-design-mapped-20261128.yml",
+  "numerical_route": [
+    "same-runner static 70-source/physical-input setup",
+    "original q=.006,.012,.02,.03,.04 with V3 measured batches",
+    "q=.05/.06 complete q/warp secants under original gates",
+    "original lambda0 and .002 M8/M16/M24 with full lifts; M24 V5/directCSR/complete QR",
+    "original .004/.008/.016 starting at M32 with complete original lift and full mapped gates",
+    "original complete secant to .032",
+    "both-source full lift to .064/M40 when M40 is strictly larger; otherwise original complete same/left-lifted secant",
+    "both-source full lift to .128/M48 when M48 is strictly larger; otherwise original complete same/left-lifted secant",
+    "original gated .192,.256,.384,.512,.75,1 with spectral levels48,64,80,96,128 as actually needed"
+  ],
+  "source_recovery": {
+    "manifest": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/m3_source_recovery_manifest.json",
+    "manifest_sha256": "8e177f9cd0ab54d6db1d29baff4faad5ba5fda5f073c4743ab55d35dda73576e",
+    "files": 70,
+    "total_immutable_source_bytes": 537048,
+    "input_arrays_transferred": false
+  },
+  "numerical_scope": {
+    "old_accepted_frontier_through_lambda128_is_recovery": true,
+    "new_same_runner_fields_must_pay_every_original_gate": true,
+    "initializers_are_not_accepted_fields": true,
+    "original_model_and_acceptance_thresholds_changed": false,
+    "linear_arithmetic_and_delta_Jacobian_column_use_prior_verified_implementations": true,
+    "full_nonlinear_DN_and_closed_family_not_claimed": true,
+    "lambda_one_prefix_is_not_topic_completion": true
+  },
+  "execution_contract": {
+    "job_timeout_minutes": 350,
+    "worker_budget_minutes": 330,
+    "only_workflow_dispatch": true,
+    "all_mesh_memory_and_disk_guards_rechecked": true,
+    "only_verified_factor_only_mapping_enabled": true,
+    "old_J_and_QR_construction_peak_unchanged": true,
+    "launcher_requested_threads": 2,
+    "effective_library_threads_measured": false,
+    "original_modules_and_controllers_may_set_threads1": true,
+    "python_family": "3.12",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "new_runner_RAM_and_disk_observation_required_before_numerics": true
+  },
+  "publication_contract": {
+    "method": "terminal git add/commit/push, no Contents API write",
+    "unique_path": "topics/visible-flex-held-10pct/ci/mapped-design-results/run-${GITHUB_RUN_ID}-attempt-${GITHUB_RUN_ATTEMPT}.json",
+    "limit_bytes": 65536,
+    "immediate_new_conclusion_publication": true,
+    "rejected_push_immediate_pull_rebase_then_retry": true,
+    "force_push": false,
+    "arrays_to_repo_release_artifact": false,
+    "credentials_written_to_files": false,
+    "credential_environment_given_to_numerical_children": false,
+    "every_pull_compares_root_and_topic_README": true,
+    "rule_change_owned_process_group_paused_until_root_review_anchor_updates": true,
+    "rules_read_commit_in_published_record": true,
+    "existing_numeric_fields_kept_on_same_runner_for_followup_commands": true
+  },
+  "actual_pre_dispatch_checks": {
+    "three_new_scripts_compiled": true,
+    "three_help_exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "workflow_yaml_parsed": true,
+    "workflow_embedded_python_compiled": true,
+    "workflow_shell_blocks_bash_n_passed": true,
+    "request_JSON_parsed": true,
+    "q_original_main_sha256": "d8e4d600ed93cdc31854b0cb8d45ed0678fddffa20385bb861d70b088abebac1",
+    "q_adapted_main_sha256": "34fcd617da47ddf7eb5a5112ec5fc664d2e020354e17fb516aec3a76d51dbd2c",
+    "V6_bootstrap_original_marker_counts": [
+      1,
+      1,
+      1
+    ],
+    "V6_lifted_secant_original_marker_counts": [
+      1,
+      1,
+      1
+    ],
+    "real_existing_interruption_scalar_projection_bytes": 13628,
+    "real_unaccepted_nodal_hash_preserved": "e889dd15cc6ffa27be063df604ceae65b594d233d41f39dbd29dd69c99b41c7e",
+    "projection_BVP_started": false,
+    "projection_full_arrays_read": false,
+    "local_Git_used_by_child_agent": false,
+    "new_Actions_run_started": false
+  },
+  "independent_API_source_review": {
+    "reviewer": "analytic_construction",
+    "q_predictor_and_complete_lift_APIs_reviewed": true,
+    "strict_mode_increase_branch_fixed": true,
+    "no_claim_of_measured_effective_two_threads": true
+  },
+  "official_resource_sources": [
+    {
+      "url": "https://docs.github.com/en/actions/reference/runners/github-hosted-runners",
+      "consulted_date": "2026-11-28",
+      "relevant_facts": "Public ubuntu-latest: independent VM,4 CPUs,16 GB RAM,14 GB SSD; actual free resources must still be observed."
+    },
+    {
+      "url": "https://docs.github.com/en/actions/reference/limits",
+      "consulted_date": "2026-11-28",
+      "relevant_facts": "GitHub-hosted job execution maximum6 hours."
+    }
+  ],
+  "compute_or_math_success_inferred": false
+}

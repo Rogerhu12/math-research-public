@@ -244,3 +244,7 @@ root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层�
 ## 2026-11-28 12:31 UTC — 原几何逐文件保护门与实际89段中断
 
 原stage0的summary逐字节继承，原完整谱/mean/二jet不重算。Node/Python真写入口增加本次完整字节+128MiB门，UTF8与256字节实际核同；原exporter真−9前保89段1151..1063，未触盘门，原因未证。root核12直接绑定，analytic独立只读确认原写入口实际被包住、数学算法未改；后继用原小chunk接续。H已压缩并原文保留详细快照，已登记事实未删除。见 [记录](notes/2026-11-28-tail-geometry-stream-disk-gate.md)。
+
+## 2026-11-28 12:37 UTC — Actions 同runner必要输入恢复与原design连续链准备
+
+依根README§13授权新增课题外 `.github/workflows/held10-design-mapped-20261128.yml`，用于同runner恢复静态70源/完整q与材料输入，再按原全部门推进λ1；不上传数组或证书。q/warp真割线、直接M32 bootstrap及全两源M40/M48初猜均经root和analytic审原API/门，无新BVP/dispatch。此v1保持历史来源，后继v2固定数值树、v3补owned-session清理；实际只运行最新入口。见 [准备](notes/2026-11-28-design-actions-continuation-prepared.md)。

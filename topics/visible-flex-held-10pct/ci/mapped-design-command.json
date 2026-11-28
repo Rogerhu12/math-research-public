@@ -1,0 +1,13 @@
+{
+  "id": "held10-20261128-fresh-complete-design-01",
+  "read_rules_commit": null,
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_fresh_design.py",
+  "args": [
+    "--repo", "@REPO@",
+    "--work", "@WORK@",
+    "--outdir", "@WORK@/fresh-design"
+  ],
+  "diagnostics": [
+    {"path": "@WORK@/fresh-design/public-summary.json"}
+  ]
+}
