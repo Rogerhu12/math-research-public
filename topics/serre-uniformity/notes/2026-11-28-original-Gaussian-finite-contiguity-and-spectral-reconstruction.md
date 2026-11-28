@@ -558,3 +558,147 @@ $\mathcal A_{p-5}=-(d_1/G_{p-7})\mathcal A_4$；
 
 
 root 对候选 b39a977ce9f3a9f0af4bb20c4a81b16fa5d500e5 的 F.20–F.31 纸核：Newton 两个越界范围、principal 余核、两个 Hurwitz 反射因子、完整低行及消元均相容。o1_theta 同时核准 mask 与两种 Bernoulli 分支；无数学执行。低行的已证纤维结论另登记为 R1135。
+
+
+## 10. 被 Newton 商删除的完整 principal 系数
+
+本节确定 (F.23) 删除的整列及其全部低层贡献。
+仍只读原 centered 层 (F.2)，不读取未约化的 $P_{k+1}$。
+令 $Z=w^2$、$Z'=w'^2$、$Z\ne Z'$，并沿用 (F.19) 的
+$b_n=(Z^{n+1}-Z'^{n+1})/(Z-Z')$。在原完整对称空间中置
+$$
+\mathsf F_{Z,Z'}(X)
+=\frac{M_w(1,X)-M_{w'}(1,X)}{Z-Z'}
+=\sum_{h=1}^{k+1}\frac{b_{h-1}}{(2h)!}\mathsf B_h(X).
+\tag{F.32}
+$$
+记其本征展开中的 principal 系数为
+$C_{\mathrm{pr}}=[E_m]\mathsf F_{Z,Z'}$，$m=2k+1$。
+这个系数包括 $h\le k$ 的贡献；它一般不等于
+$b_k/(2k+2)!$。
+
+### 10.1 原 sigma 的反对角一阶读取
+
+以 $q$ 表示本小节的形式核变量，定义
+$$
+a_\ell=[q^{4\ell}]
+       \left(\frac{q}{\sigma(q)}\right)^2,\qquad 0\le\ell\le k,
+\qquad a_0=1.
+$$
+由 (F.15) 前的原 sigma 规范，
+$$
+\left(\frac{q}{\sigma(q)}\right)^2
+\equiv
+\exp\left(\sum_{j=1}^k\frac{G_{4j}}{2j}q^{4j}\right)
+\pmod{q^{4k+1}}.
+\tag{F.33}
+$$
+这里全部 $G$ 的权至多 $p-3$；指数展开最多用 $k!$，
+所以每个 $a_\ell$ 都由原安全输入唯一确定。
+
+在原特征零 lift 中置 $s=T+U$、$q=(T-U)/2$。
+sigma 的奇性给准确恒等式
+$$
+\mathscr K_w(T,U)
+=-\frac{\sigma(s)e^{\,w(s^2/4-q^2)}}
+        {\sigma(q+s/2)\sigma(q-s/2)}.
+$$
+因此在 $s=0$ 的一阶项是
+$-s e^{-wq^2}/\sigma(q)^2$。
+先取 centered 差，再读取总次数 $p$，所得一阶系数为
+$$
+-\mathcal B(w),\qquad
+\mathcal B(w)
+=[q^{p-1}]
+ \frac{\cosh(wq^2)-1}{\sigma(q)^2}.
+\tag{F.34}
+$$
+把指数换成 $\cosh$ 并未删除项：
+$q^{-2}(q/\sigma(q))^2$ 只含次数 $4\ell-2$，
+而 $p-1=4k+2$，所以所读的指数项必为偶数 $2h$。
+减一又排除了本来会涉及 $a_{k+1}$ 的常数层。
+因而 (F.34) 在约化前就只含 (F.33) 的安全系数。
+
+对 $r<m$，$E_r(X)$ 在 $X=-1$ 至少三重消失；
+而 $m$ 为奇数，$E_m'(-1)=(-1)^m=-1$。
+在 $T=q,\ U=-q+s$ 中，
+齐次 $p$ 次层的一阶 $s$ 系数是
+$q^{p-1}\partial_XM_w(1,-1)$。
+结合这两个负号，得到
+$$
+\boxed{
+C_{\mathrm{pr}}
+=\frac{\mathcal B(w)-\mathcal B(w')}{Z-Z'}
+=\sum_{h=1}^{k+1}
+ \frac{a_{k+1-h}\,b_{h-1}}{(2h)!}.}
+\tag{F.35}
+$$
+最后一个求和式来自
+$4\ell+4h-2=p-1$，即 $\ell=k+1-h$。
+它明确保留所有较低层的原卷积。
+
+还有一个独立的有限核对：在 (F.15) 中，
+$J_j(\xi)$ 的最高项是 $-\xi^{2j}/(2j)$。
+故 $H_\ell$ 的 $\xi^{2\ell}$ 系数恰为 $a_\ell$。
+又
+$$
+\mathsf B_h=(1+X)^p\xi^{2h-1}H_{k+1-h}(\xi)
+\quad(1\le h\le k),
+$$
+于是 $[E_m]\mathsf B_h=a_{k+1-h}$；
+$h=k+1$ 的原 principal 对应 $a_0=1$。
+这从 (F.15) 再次给出 (F.35)，没有添加新观测行。
+
+### 10.2 完整 principal 恰是受限 Euler 的边界
+
+暂不对 $Q_{\mathrm{grid}}$ 取商，把 (F.23) 的右侧视为多项式，
+记为 $\widehat{\mathscr E}(E_r)$。由于 $m$ 为奇数，
+$(p-2)!=1$ 在 $\mathbf F_p$ 中，且
+$1^2,\ldots,m^2$ 恰遍历全部非零平方、$m^2=1/4$，所以
+$$
+\begin{aligned}
+&R(R^2-1)(R^2-1/4)\,
+       \widehat{\mathscr E}(E_m)(R^2)\\
+&\qquad=
+\frac{(-1)^m}{(p-2)!}
+ R\prod_{a=1}^{m-1}(R^2-a^2)(R^2-1/4)
+=-(R^p-R).
+\end{aligned}
+\tag{F.36}
+$$
+特别 $\widehat{\mathscr E}(E_m)=-Q_{\mathrm{grid}}$。
+若 $\mathscr D_{S,P}$ 仍取 (F.24) 的最低次数代表，
+则完整差商在取商之前恰为
+$$
+\widehat{\mathscr E}(\mathsf F_{Z,Z'})
+=\mathscr D_{S,P}-C_{\mathrm{pr}}Q_{\mathrm{grid}}.
+\tag{F.37}
+$$
+这说明原 $h=k+1$ 列以及各 $h\le k$ 的最高本征分量，
+都通过同一个完整标量 (F.35) 被删除。
+
+与 [R1154 §12](../results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)
+的有限 Euler 算子比较，令 $\theta=T\partial_T$，把
+$R$ 代为 $1-\theta$。在 $\mathbf F_p[T]$ 上
+$\theta^p=\theta$，故
+$$
+(1-\theta)^p-(1-\theta)=0.
+\tag{F.38}
+$$
+于是 (F.37) 中的整项 $C_{\mathrm{pr}}Q_{\mathrm{grid}}$
+对该 Euler 读取恒为零。
+这是原商映射的准确核边界；它不是由实际 good 行同值推出的
+$C_{\mathrm{pr}}=0$，更不能改写成 $b_k=0$。
+同样，(F.38) 是这个 Euler 算子的受限幂恒等式，
+本文没有把它等同于原超奇异曲线不变导子的受限幂，
+也没有据此构造两个形式群之间的映射。
+
+本节新增的是可直接消费的原式 (F.35)–(F.37)：
+完整被删列由原安全 sigma 系数和同一二根递推给出，
+而它在有限 Euler 变换中的消失有精确的 $R^p-R$ 来源。
+实际 good mask、$S=0$ 与 $P=0$ 边界均保持 (F.19)/(F.24) 的范围。
+没有新增标签注入或共同纤维排除结论。
+
+o2_high_coefficient 纸推；o1_theta 已独立核准
+反对角 Jacobian、两个负号、全部低层卷积及 (F.36) 的单位因子。
+无数学程序执行。

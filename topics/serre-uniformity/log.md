@@ -786,3 +786,8 @@
 ### 2026-11-28 10:29 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1156 付原四线的 finite integral cochain、乘法根相位、全部一般位置/辅助域、闭点 Cor 与显式链同伦；归一 raw 完整根塔在全 noncusp 延伸，ordered 尺度和二次修正完整保留。root 全文纸核，并修 §2.2 的有限子群外平方注入假设为完整自由模中的有限见证，§3 明确反除2。
 - 目标 B_n 的实际 bilinear pushout、全 GL2/算术下降与原 z12 继续；未把固定函数根塔当整 moment 分布。H 前态逐字归档，完成即推，无数学程序执行。
+
+
+### 2026-11-28 10:32 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原 spectral §10付被 Newton 商删除的完整 principal：sigma 反对角一阶与本征最高项同给全部安全低卷积，完整差商 D−C_pr Q_grid 及 −(R^p−R) 核准确。root 核 Jacobian、两个负号、所有次数/单位和低层贡献，o1 独立纸核；旧1–9逐字保留后即推。
+- 不从 Euler 读取为零推 C_pr 或 b_k=0，也未构造不同形式群之间的映射；实际二根/首carry继续，无数学执行。

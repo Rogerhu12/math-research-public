@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：6d875ed9b6d8e4e18d964ccd1b406fe93f6e2609**（2026-11-28 10:29 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:54 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：d213b696c828d16c2fa96d4d334c58ab22800a3f**（2026-11-28 10:32 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:54 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 09:54:17 Asia/Taipei，Actions run46095394596/job140825442860，blob:none浅clone后真实pull --rebase至254139af；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤10:44、pull≤10:54。本地09:55仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -56,7 +56,7 @@ R1116及原重建的gauge/高尾/mask、h≥1逆与Newton商已成，h0不外推
 
 [R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两下降线Π′(z′)=Π(−z′)统一z∈Fp；actual-good代数A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d，d0/非平方分Fp点，非零平方余对须actual O_R(d)。原heat/Hasse/Katz、finiteGauss全部坏行/安全jet/余项付；Δ_low=8(3bc−td)/(4455rβ²)，Q⁶顶unit不代det，向量场闭性仍未付。原norm2/CM gauge/两twist与全尺度保文。
 
-R1154 §§1–12付同源Legendre/finite-log全部carry、三移位核与真实Newton算子。H_p0锁q=Qν，minor保Cν(q)+(3/8)Bp−3D2。新Actions run46094809839以p1019否定无条件Cν(Qν)=0，未满足q=Q；[回执](notes/2026-11-28-new-weighted-Legendre-probe.md)，不扩扫。§12付T E(T+1)+(T+1)E(T)=−2(T^p−T)；原D_(S,P)算子Z_D在全good相等时缺至T^(2k+4)、顶15Gp−3/8单位，前两项恰原H_p/Δ_low。缺项本身非矛盾；继续真实二根D与差分，保全部mask。
+R1154 §§1–12付同源Legendre/finite-log全部carry、三移位核与真实Newton算子。H_p0锁q=Qν，minor保Cν(q)+(3/8)Bp−3D2。新Actions run46094809839以p1019否定无条件Cν(Qν)=0，未满足q=Q；[回执](notes/2026-11-28-new-weighted-Legendre-probe.md)，不扩扫。§12付T E(T+1)+(T+1)E(T)=−2(T^p−T)；原D_(S,P)算子Z_D在全good相等时缺至T^(2k+4)、顶15Gp−3/8单位，前两项恰原H_p/Δ_low。缺项本身非矛盾。spectral §10付被删完整C_pr=Σa_(k+1−h)b_(h−1)/(2h)!，含全部低行；其Euler核恰−(R^p−R)，不推C_pr或b_k零。继续真实二根D与差分，保全部mask。
 
 ## 已成、禁止重做与其它入口
 

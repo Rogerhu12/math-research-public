@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原 Newton principal 的完整回收（已证明）**：[原 spectral §10](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)用原安全 sigma 系数给被删整列 C_pr 的全部低卷积；准确核为 −(R^p−R)。这明确了 finite Euler 读取的边界，不推出 C_pr 或 b_k 为零，实际共同纤维排除仍开。
+
 - **R1156（已证明）**：[原四线整上链、根相位与有限 transfer](results/R1156-original-four-line-integral-cochain-and-transfer.md)付指定三除子的实际整 primitive、全部有限辅助域及 Cor–res 链同伦；discriminant 归一后的 fixed-function raw 塔延伸全 noncusp。原 ordered 二次修正、全部相关项保留；目标 B_n 的指定 bilinear pushout/下降与原 z12 仍开。
 
 - **原Cartier–Serre三张量与e/S完整尺度（已证明）**：[原genus4 §11](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)。原六点全部pth主部给κ–Serre型对角−6r_ab，r_ab为明确单位阶乘；两个真正有限Thomae变换付全部九三元组的循环律，故同一Fermat三张量在Fp²交替。九mixed槽合为同一参数；原数值桥e=δS_n/(ρs)、S_n=−9ρ²A_orig准确，不除这些未知值。σ/Λ、mixed/123循环和原T仍未unit，未由Serre非退化或三形式推e/K4不能同零。

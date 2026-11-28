@@ -211,3 +211,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原 Cartier–Serre 三张量及 e/S 数值桥已付
 
 [原genus4 §11](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：原六点全部pth主部给κ–Serre型对角−6r_ab，r_ab为明确单位阶乘；两个真正有限Thomae变换付全部九三元组的循环律，故同一Fermat三张量在Fp²交替。九mixed槽合为同一参数；原数值桥e=δS_n/(ρs)、S_n=−9ρ²A_orig准确，不除这些未知值。σ/Λ、mixed/123循环和原T仍未unit，未由Serre非退化或三形式推e/K4不能同零。 后继只从同一高插入继续，不能假定一般Massey循环/Jacobi律。
+
+
+### 原 Newton 删除的完整 principal：准确回收但尚非零条件
+
+[原 spectral §10](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)付被删列 C_pr=Σ_(h=1)^(k+1) a_(k+1−h)b_(h−1)/(2h)!，a_l=[q^(4l)](q/σ(q))²，只用权≤p−3的原安全输入。反对角一阶和 H_l 最高项两种读取同源；它含每个低层贡献，不等于单独 b_k/(2k+2)!。完整 Newton 差商为 D_(S,P)−C_pr Q_grid；R(R²−1)(R²−1/4)乘该 principal 恰−(R^p−R)，代 R=1−θ 恒零。因此 Euler 缺项不给 C_pr=0，更不给 b_k=0；继续实际二根与原 elliptic carry，保全部 good mask、S=0/P=0 边界。
