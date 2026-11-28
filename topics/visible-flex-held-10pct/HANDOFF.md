@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `ae2f7ba9df4fd9fc0a876fb5e9a50e9b5e0619a2`（2026-11-28 06:32 UTC）。私库已认领并成功推 `e96d935de69d7e96381ba17732e6f92350654b2a`，根规则无变。
+- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `e393c09f28ada9ba296a9179626e066f9dfba7f8`（2026-11-28 06:39 UTC）。私库已认领并成功推 `e96d935de69d7e96381ba17732e6f92350654b2a`，根规则无变。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
@@ -18,8 +18,8 @@
 
 ## 当前实际工作
 
-- design_continuation：统一70源恢复至 `/workspace/scratch/7c4e33ee17de/held10-design-work`；优先使用已有跨M完整lift割线（原79ebe/519c源），解决高M资源后从实际最高锚向λ1推进。必要重生旧输入保原全门，不能计新结论。
-- tail_closure：共享同一恢复源与λ.002前缀；保原DN/chord3/native4、完整H/J/audit和8outer，改升模/幅度初猜路径，保留原worker的短失败字符串，避免原M8full→M16同样失败链。最终必须M24全H及联合前缀。
+- design_continuation：[新执行入口](notes/2026-11-28-design-lifted-secant-entry.md)已启动；70源/原chart/port恢复成功，q006原BVP正在必要再生，尚未获新前沿。统一70源恢复至 `/workspace/scratch/7c4e33ee17de/held10-design-work`；优先使用已有跨M完整lift割线（原79ebe/519c源），解决高M资源后从实际最高锚向λ1推进。必要重生旧输入保原全门，不能计新结论。
+- tail_closure：新 `scripts/resume_20261128/tail/mild_mode_tail_continue.py` 在half-H逐级升模，真实source门通过后才运行；M16可保接受包无损续M24。共享同一恢复源与λ.002前缀；保原DN/chord3/native4、完整H/J/audit和8outer，改升模/幅度初猜路径，保留原worker的短失败字符串，避免原M8full→M16同样失败链。最终必须M24全H及联合前缀。
 - analytic_construction：把R72端口/δ响应落实到实际设计预测，寻找降低λ推进代价的合法变量；入口基可逆不再当完整BVP可解。
 - root：全局几何/实际C²接缝与资源矩阵结构，更新H/open并即时推送，只有实际新图可用旧结构定理，不能搬旧数值常数。
 
