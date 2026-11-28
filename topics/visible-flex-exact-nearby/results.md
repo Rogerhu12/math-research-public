@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AASQ23：3073格双负侧有符号腰值与全Gram实际完成](results/R149-supplement-actual-two-complete-negative-signed-waists-and-wide-residual-balls.md)：实际46144609049/1全3073/2目标完成，193×2真腰、strict/root两完整2×2 signed Gram/288+1024尾/独立mean保。整actual11955B8532bb42…、execution24626Bc0669b2e…和37957696B原私trial全身份核；raw腰误差约39.71/24.74，不能由小trial中心授小真解。可接ASQ25；ASQ27新−f0路径独立继续。
+
 - [AGLW：656有向Laurent真终端接收全部实际完成](results/R149-supplement-actual-complete-signed-Laurent-terminal-receiver.md)：实际46146513475/1全656/16格/41带、双真列/两sign/完整strip余完成；Ai/全两列公共上界106774.34957034967/204457.18989563518，5.5充分门false。927原自然Ai列17192B/6a3c2d3a…保；整1830B/034c7d25…及6078229/22314269B私件SHA完整。上界非下界，原输入与非局部仍待。
 
 - [ASQ27：同固定仿射背景的真实负侧Newton体解](results/R149-supplement-fixed-affine-negative-Newton-trajectory-and-flat-quadrature.md)：新−f0强迫使用同η0完整affine、原65/193与独立mean，动态η(r)仍真−γΠv。3073原负格/真根bracket/全部接口上新连续8次dyadic trial；原几何22阶/24倍复盘、49节点正平测度积分+16倍全解析余，完整signed残差至160，selected差至288。原ASQ26同A*转移保。49whole/184+32/2原affine whole合同与五源全文核，首次实际入口待。

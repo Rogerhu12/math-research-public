@@ -1,0 +1,18 @@
+# R149 AASQ23. Actual two signed negative waists with both complete residual Grams
+
+**两个原定目标全部完成；误差球尚不足以证明小的真实解。** The first [ASQ23 run](https://github.com/Rogerhu12/math-research-public/actions/runs/46144609049), attempt 1, event `35c012f749d84448a64ddfa8ac15a34e3fa7cd20`, job `140977771867`, succeeded at 2026-11-28 13:13:04 UTC. The entire 3073-cell negative interval was computed down to the physical waist $r=0$, starting with zero data on the full original unknown-root bracket. All original interfaces have exact zero trial jumps. Both columns are retained in the original order: $-f_{\delta_*}$ and the ordinary parameter-proposal defect $s_{\delta_*}$.
+
+The [whole mathematical record](../notes/negative_signed_waists_ci/run-46144609049-1/negative-signed-waists.json) is 11955 bytes, SHA256 `8532bb42b36911da6a35ffffd7c81cf4136f7221bf3faa814cc96cdf4ce8d913`. The [complete execution](../notes/negative_signed_waists_ci/run-46144609049-1/execution.json) is 24626 bytes, SHA256 `c0669b2e8d27e23588011b47ef17b0654be2a38ff9f407c3d0dfaa706a359925`; it binds the whole 184-current/32-historical original admission, all 40 original row parts, the same repaired base and direction, and all original computational identities. The [root admission](../notes/negative_signed_waists_ci/run-46144609049-1/root-entire-terminal-admission.json) checks the complete actual run, job, both records and complete 164822-byte log ZIP with SHA256 `6b8737a0a0dc3a25badfd622805975848de15c88da2b19809fce1041eec9d96b`. Original scientific target calls remain zero.
+
+The complete private trial consists of all $3073\times4\times193\times2$ binary64 entries, 37957696 bytes, SHA256 `afb3929be731bdae018453199c1ab2b08831d6d24aa8ce9859b1c8b0519a2849`, with ordered chain `45e812393ced81f392a65efc9aba3ecb7e476f9cae36c204f21184ccf5b5fa21`. Its signed physical endpoint contains all 193 rows in both columns; its complete byte identity is `5fc84f8c8ccea3ef0c3b9de99d8f69caf14199dc6a1fa7761d0bd2a1933c78a3`. The independent even mean is row 96, between the 96 odd sine and 96 even cosine rows, in the normalized real basis.
+
+The actual `complete_suffix.grams` stores the full directed $2\times2$ strict and root Grams, including their signed off-diagonal entries. Every real column combination $t$ therefore retains the original simultaneous bound
+\[
+8.22\left(\sqrt c\sqrt{t^TG_St}
+ +6.531704\sqrt{1/200}\sqrt{t^TG_Rt}\right),
+\]
+using the interval/positive quadratic interpretation in [ASQ23](R149-supplement-two-signed-negative-waist-responses-and-common-Gram-remainder.md). The complete output residual includes all labels through 288 and the original 1024-point Fourier tail accounting.
+
+For the separate columns the exact stored raw-waist error uppers are the dyadics `0x1.3db3aa236cd8bp+5` and `0x1.8bd5f701925b0p+4`, respectively (approximately 39.71 and 24.74). The physical $x$, high $x$, $\Theta$, $T^{-1}\Theta$ and each independent mean have their separate exact error uppers in `new_records`. These are large rigorous enclosures. The very small signed trial centres cannot replace these error bounds. This result proves neither a small true negative Newton solution nor a small matched regular solution.
+
+The original signed-density and coordinate consumer ASQ25 can now receive these complete parent files. ASQ27 independently constructs the new fixed-affine base-source trajectory, while ASQ26 transfers it to the same selected operator with its explicitly paid fees. That new calculation does not replace or narrow any already stored ASQ23 ball without a new complete proof. All boundary, root, positive, height, mean, world and final-family obligations remain.

@@ -1,0 +1,50 @@
+{
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T13:13:04Z",
+        "conclusion": "success",
+        "head_sha": "35c012f749d84448a64ddfa8ac15a34e3fa7cd20",
+        "id": 140977771867,
+        "name": "signed-waists",
+        "started_at": "2026-11-28T12:25:48Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "success",
+      "head_sha": "35c012f749d84448a64ddfa8ac15a34e3fa7cd20",
+      "id": 46144609049,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T12:25:45Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T13:13:05Z"
+    },
+    "jobs_API": {
+      "bytes": 2741,
+      "sha256": "0410c9e4f27504935b27ddcecaa597cd1474e5c148aa570a0727db3f5ab3c193"
+    },
+    "observed_at": "2026-11-28T13:15:39.644149+00:00",
+    "run_API": {
+      "bytes": 13316,
+      "sha256": "64bb17523eb9a2ec1cbd2ec0a5292841b1f5fe7463d072594344e8609e6e51fc"
+    }
+  },
+  "all_193_signed_rows_two_columns_and_both_full_Grams": true,
+  "all_3073_cells_and_both_targets": true,
+  "kind": "root_actual_entire_negative_signed_waists_admission_v1",
+  "original_target_calls": 0,
+  "small_true_solution_proved": false,
+  "whole_execution": {
+    "bytes": 24626,
+    "sha256": "c0669b2e8d27e23588011b47ef17b0654be2a38ff9f407c3d0dfaa706a359925"
+  },
+  "whole_log_archive": {
+    "bytes": 164822,
+    "sha256": "6b8737a0a0dc3a25badfd622805975848de15c88da2b19809fce1041eec9d96b"
+  },
+  "whole_scientific": {
+    "bytes": 11955,
+    "sha256": "8532bb42b36911da6a35ffffd7c81cf4136f7221bf3faa814cc96cdf4ce8d913"
+  }
+}
