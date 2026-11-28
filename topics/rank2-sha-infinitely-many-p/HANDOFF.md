@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:17:29 UTC实际pull --rebase，读取main 388aec6f5a2fa8d1b71354136bfc98c3600f791f；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:17:20 UTC实际pull --rebase至7828795bdc6e31fe2e5417e524be9166f37fe58b；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:19:36 UTC实际pull --rebase，读取main cee7806452c79d516e8fa04e6a450569767db953；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:19:31 UTC实际pull --rebase至1fffbd2935d3f8dcaffb9a64140dfc9f0ebf1fb0；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3239/46598896B/tree8e143de377da91153217081583e234e9a9323aea；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3239/46603642B/treef4212ab33ae8e6a81b2204f688b6762c5d7feaa9；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -24,7 +24,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 两原F/P、端点归一、T/v正负与9scalar支撑实际完成。首A0有限denominator306整Popov给det度3670，完整quotient solve后转原fallback，11:06:54.1538954Z明报800万transcript系数预算耗尽，elapsed8954.748600139s；solver1/host1。不是OS OOM、137或deadline。零selected endpoint image/graph及outer/后续四交八scalar/Norm/九pairs/终门PASS；F_y仍旧attached。全部旧run/hash/pins见生产注及归档。
 
 [R1071完整算法](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)：原单右端D·W=qN、逐实际坐标完整Y核≤306列终止；全Laurent多项式部分X、低次残量及已造两ideal后全部X比较保留。原2256双极度、总度>4512，不以小例保证性能。
-[新软件实际PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113，7.582517183s；root/代理各核全log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309、32pins、8比较、2外门篡改、2预算拒绝、真二次底素/模块转置。真实四新源与3适配已入库，只有独立小workflow触发。原306生产未执行新方法。arithmetic_ultra备同heavy组v17完整部署于scratch，未启用；不可把不变前缀当已知卡点。
+[新软件实际PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113，7.582517183s；root/代理各核全log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309、32pins、8比较、2外门篡改、2预算拒绝、真二次底素/模块转置。真实四新源与3适配已入库。[v17生产](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)现接同heavy组：76pins/72原共享，两新wrapper及2已PASS helper，数学体唯一改IMPLEMENTATION名称且host反替换核原SHA。请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45；所有原输入/F/P及4CPU16GB21000s不变。此提交仅启动真实306新方法，实际run/job待返回，不预报PASS。
 
 ## 原共同两/三位：R1067
 

@@ -342,3 +342,13 @@ root逐式手核M1–M7：真实j1728对角/反对角矩阵及det p、H/H_Y/DH�
 root实际重取job140922574854 steps，完整读取4026180B终日志并核SHA52a8a7386e6ea0a5388503c0ad6fcd30a46a567d31806f7150b2bc3fe17d3fc0；8120 JSON协议记录全部解析，旧前缀逐字节一致。原T/v和9厚scalar支撑已完成，首A0 rank306 denominator完整Popov及3670维native商步骤后进入原回退，11:06:54.1538954Z在CompleteRowOperationStream.append实际超800万记录系数；solver1/host1，没有selected endpoint或后续全门PASS。明确不是OS OOM或timeout。完整来源/验算范围追加同生产注§11，无重跑、无保存可重算log。v17四部署文件静态核76pins/72原共享/全部原请求与F/P不变，host拼接76names精确相同；生产者唯一IMPLEMENTATION字符串改动，数学体逐字等于小软件PASS源。尚未因此宣告生产PASS。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:17:29 UTC到388aec6f5a2fa8d1b71354136bfc98c3600f791f，私库2026-11-28 11:17:20 UTC到7828795bdc6e31fe2e5417e524be9166f37fe58b；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3239/46598896B/tree8e143de377da91153217081583e234e9a9323aea，无>5MB。
+
+## 2026-11-28 11:18:52 UTC — v17 原306生产激活
+
+v16完整终态已实推9b1e51d48cec66caa41523a299ed7adb11bf2eb8（11:17:35 UTC）。root完整读host/workflow并对所有76实际源逐SHA、静态拼接names、原72共享及F/P与请求字段逐一核；唯一新生产数学差异是IMPLEMENTATION字符串，host反替换后逐字SHA等于已PASS候选。四部署文件及完整来源注已置原路径，同heavy concurrency、不取消、不增并发、同资源和全门。只以实际run/job/终日志断言结果。未加入T/v闭式或新几何捷径；无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:19:04 UTC到df4fbd04cc1378d98454cb523c5001b4978b816b，私库2026-11-28 11:18:59 UTC到ba1f34f4973f64170d234036e8ffa9b011c574aa；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3239/46603642B/treef4212ab33ae8e6a81b2204f688b6762c5d7feaa9，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:19:20 UTC到663cd631138a8c5ca86f5fc3f4fb97474ce6b7db，私库2026-11-28 11:19:14 UTC到8681d424fe8da3685d313adbad010f900dfd4da9；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3239/46603642B/treef4212ab33ae8e6a81b2204f688b6762c5d7feaa9，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 11:19:36 UTC到cee7806452c79d516e8fa04e6a450569767db953，私库2026-11-28 11:19:31 UTC到1fffbd2935d3f8dcaffb9a64140dfc9f0ebf1fb0；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3239/46603642B/treef4212ab33ae8e6a81b2204f688b6762c5d7feaa9，无>5MB。
