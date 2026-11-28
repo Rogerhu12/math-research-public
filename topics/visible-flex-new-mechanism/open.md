@@ -106,3 +106,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R755 首固定材料预算。** [完整向量面积/调和能量/真曲率消费](notes/2026-11-28-r755-first-actual-fixed-material-all-pose-budget.md)：原FINAL/64校准精确内联，424新径胞、C=0/原姿/四角全部矩阵及两姿全角曲率界，首300秒；不重旧RHS/J，真正违反才排源，通过必要门不授解。
 
 **R755 原固定材料已自然终态。** [整个中心矩形通过基本必要门](notes/2026-11-28-r755-original-material-whole-center-rectangle-natural-terminal.md)：run46176741814/job141077050686，543新胞/5.394724727秒；A/π≈[.05115435,.05128258]、L≈[1.27234741,1.27539840]。四角真主子式全正覆盖整个Cx/Cz矩形；curvature四方向未排但未授全向。原artifact15275746976与343534B/543行journal全部保留，R757只读原积分；不授等距场/族。
+
+**R757 首个全方向曲率预算已装订。** [原424材料积分的完整消费](notes/2026-11-28-r757-first-original-material-all-direction-budget.md)，eta=0/Mc=100/3，4姿与全方向真实区间；每姿首12盒、所有新单位持久保存，旧543行账本与FINAL SHA绑定，旧积分/RHS/J不重。通过必要门不授曲面或族。

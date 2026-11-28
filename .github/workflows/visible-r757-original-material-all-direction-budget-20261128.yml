@@ -1,0 +1,68 @@
+name: visible-flex original material all-direction curvature budget
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r757-original-material-all-direction-budget-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r757-original-material-all-direction-budget-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r757-original-material-all-direction-budget-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r757_near_metric_pose_budget.py
+            /topics/visible-flex-new-mechanism/scripts/r757_completed_material_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r734_completed_members_transport_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r755_harmonic_area_bounds.py
+            /topics/visible-flex-new-mechanism/scripts/r734_true_dyadic_tail.py
+            /topics/visible-flex-new-mechanism/scripts/r726_closed_spinor_fourier.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R757-curvature-enhanced-near-isometry-budget-for-every-center-and-direction.md
+            /topics/visible-flex-new-mechanism/results/R755-vector-area-harmonic-energy-and-all-pose-budget.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r757-first-original-material-all-direction-budget.md
+            /.github/workflows/visible-r757-original-material-all-direction-budget-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Restore the exact naturally completed material journal
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/r757_completed_material_transport_20261128.py
+          --request topics/visible-flex-new-mechanism/computations/request-r757-original-material-all-direction-budget-20261128.json
+      - name: Pull current rules and consume every material cell in the new inequality
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r757-original-material-all-direction-budget-20261128.json
+          --lane actual-all-direction-budget
+      - name: Preserve every newly paid physical direction and full sphere box
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r757-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: r757-paid-state/
+          retention-days: 30
+          if-no-files-found: error
