@@ -1809,3 +1809,251 @@ $$
 Serre dual residue pairing 与这个指定主部联系起来。
 本节不以全纯 Cartier 恒零排原值，也不以第三类表示存在宣原值非零。
 全 actual good mask 和两 twist 的既定范围保持不变；无数学执行。
+
+
+## 16. 原 forcing 的安全局部 moments 与指定 minor
+
+本节把 (1135.76) 的两个原 forcing 直接送到
+$\mathscr W(T_{\rm G})=3024\Delta_{\rm low}$。
+结果只使用同一 Hasse 函数的局部 jet、$\mathcal E_8,\mathcal E_{10}$，
+继而消去第二个 forcing；没有以未定的 $F_*,G_*$ 低 jet 作为新输入。
+所得二阶行列式仍须证明非零。
+
+### 16.1. 指定点的有限伴随解
+
+固定 §15 的 $\mathbf F_p$ 有理点 $T_{\rm G}$，记
+$$
+u=\mathsf A,\qquad
+\beta_{\rm G}=\beta(T_{\rm G})=-\delta\in\mathbf F_p^\times,
+\qquad
+\partial=\beta(u)\frac d{du},\qquad
+\mathcal B=u^2\beta(u)\frac d{du}.
+$$
+这里的 $u$ 是 Hasse 局部参数，不是 (1135.74) 的 Tate 缩放量。
+在固定判别式曲线上，$\mathsf A$ 关于 $Y$ 为奇，故
+$a(u),\beta(u)$ 为偶、$b(u)$ 为奇。
+由 $\partial\beta=(a/3)\mathsf A$ 得
+$$
+\beta(u)=\beta_{\rm G}
+ +\frac{a_{\rm G}}{6\beta_{\rm G}}u^2+O(u^4).
+$$
+
+定义一个只有安全分母的有限多项式
+$$
+\boxed{\quad
+\ell(u)=1-\beta_{\rm G}
+ \sum_{\substack{2\le n\le p-1\\ n\ {\rm even}}}
+ \frac{[u^n]\beta(u)^{-1}}{n-1}\,u^n,
+\qquad
+\xi=\frac{u}{\ell(u)}.
+\quad}
+\tag{1135.82}
+$$
+所有 $n-1$ 均非零模 $p$。直接逐项求导给
+$$
+\ell-u\ell'
+=\frac{\beta_{\rm G}}{\beta(u)}+O(u^{p+1}),\qquad
+\mathcal B\xi
+=\beta_{\rm G}\xi^2+O(\xi^{p+3}),\qquad
+\ell_2=[u^2]\ell=\frac{a_{\rm G}}{6\beta_{\rm G}^2}.
+\tag{1135.83}
+$$
+等价地，$-\ell/(\beta_{\rm G}u)$ 是
+$\omega_\Delta/\mathsf A^2$ 在该点的有限第二类原函数，
+只在上述安全 jet 内使用。
+将 $\ell$ 看成曲线上的局部函数，还满足
+$\partial^2\ell=(a/3)\ell\bmod u^{p-1}$，
+初值为 $\ell(T_{\rm G})=1,\partial\ell(T_{\rm G})=0$。
+这来自 $\partial^2\mathsf A=(a/3)\mathsf A$ 及
+$\partial(-\ell/(\beta_{\rm G}u))=u^{-2}+O(u^{p-1})$；
+没有在首个 $p$ 共振处另取一个无限原函数。
+
+这些输入都由原 Hasse 多项式确定。具体可用
+$$
+\mathsf A(a,b)=
+\sum_{\substack{i+j+l=m\\3i+j=p-1}}
+ \frac{m!}{i!\,j!\,l!}\,a^j b^l,\qquad m=\frac{p-1}{2}.
+\tag{1135.84}
+$$
+它是原 $[x^{p-1}](x^3+ax+b)^m$，与已固定的
+$E_{p-1}\bmod p$ 有相同 Tate 规范。
+在 $4a^3+27b^2=4a_{\rm G}^3$ 上，
+$(du/db)(T_{\rm G})=-3\beta_{\rm G}/(4a_{\rm G}^2)$ 为单位，
+故 $a(u),b(u)$ 的每个所需系数均由单位 Jacobian 的隐函数递推唯一给出。
+(1135.84) 的全部阶乘小于 $p$，这里不需任何新的数学执行。
+
+### 16.2. 原共振低 jet 的完整读取
+
+对 $r=7,9$ 写
+$$
+f_r=G_{p-r},\qquad N=p-r-1,\qquad
+S_r(u)=u^{r+1}\mathcal E_{r+1}(u).
+$$
+$S_r$ 的零阶至少为 $r+1$。
+以 (1135.83) 将 $\mathcal B$ 改写为 $\xi$ 导子：
+主部是 $\beta_{\rm G}\xi^2d/d\xi$，误差的导子系数在
+$\xi^{p+3}$ 中。$N$ 次作用中，只要用到一次误差，
+总零阶至少为
+$(r+1)+(N-1)+(p+2)=2p+1$。因此
+$$
+\mathcal B^N S_r
+=\beta_{\rm G}^N
+ \left(\xi^2\frac d{d\xi}\right)^N S_r
+ \pmod{\xi^{2p+1}}.
+\tag{1135.85}
+$$
+该估计没有把经过指数 $p$ 时的导数消去删掉；
+它们仍由主算子的实际升阶乘精确处理。
+
+(1135.76) 的无分母形式给
+$$
+\frac{2}{(p-r-1)!}\mathcal B^N S_r
+=u^{2p-r}f_r-u^p f_r^p.
+$$
+对 $0\le j<r$ 读取指数 $2p-r+j$，该指数严格在 $p$ 与 $2p$ 之间。
+第二项 $(uf_r)^p$ 因而不贡献。
+第一项则准确读取
+$[\xi^j](\xi/u)^r f_r$，因为
+$(u/\xi)^{2p}=1+O(\xi^{2p})$。
+另一方面，主导子的来源指数为 $p+1+j$，其升阶乘满足
+$$
+(p+1+j)_N
+=\frac{(-1)^j}{j!\,(r-j)!}\quad\bmod p.
+$$
+这里 $r$ 为奇，Wilson 给
+$2/(p-r-1)!=2r!$，
+且 $\beta_{\rm G}^N=\beta_{\rm G}^{-r}$。
+所以整个 $p$ 次常数已经准确避开，而非人为设为零。
+
+为把结果写成次数小于 $p$ 的有限系数，置
+$$
+\boxed{\quad
+J_{r,j}=
+[u^{p-r+j}]
+ \frac{\mathcal E_{r+1}(u)}{\beta(u)}\,\ell(u)^j,
+\qquad 0\le j<r.
+\quad}
+\tag{1135.86}
+$$
+由 $\xi=u/\ell(u)$ 的 Lagrange 系数公式，
+$$
+\begin{aligned}
+[\xi^{p+1+j}]\,u^{r+1}\mathcal E_{r+1}(u)
+&=\frac1{j+1}[u^{p-r+j}]
+ \bigl((r+1)\mathcal E_{r+1}
+                 +u\mathcal E_{r+1}'\bigr)\ell^{j+1}\\
+&=\beta_{\rm G}J_{r,j}.
+\end{aligned}
+$$
+第一步只读次数 $p-r+j\le p-1$，故可把
+$\ell^{p+1+j}$ 换成 $\ell^{j+1}$。
+第二步对 $u$ 作一次系数分部积分，使用
+$r+1+(p-r+j)=p+j+1$ 及 (1135.83)。
+由此得到原低 jet 的完整式
+$$
+\boxed{\quad
+T_{r,j}:=[\xi^j]\left(\frac{\xi}{u}\right)^r f_r
+=2(-1)^j\binom rj\,\beta_{\rm G}^{\,1-r}J_{r,j},
+\qquad 0\le j<r.
+\quad}
+\tag{1135.87}
+$$
+这正读取 (1135.69) 的共振范围中的实际 jets。
+它依赖全局原 forcing 与已归一的 Frobenius 常数式，
+并不是仅从局部齐次方程消掉自由初值。
+
+### 16.3. 原 $\mathscr W$ 中曲率项的准确抵消
+
+在 $u$ 参数下写
+$$
+F_*=f_0+f_2u^2+O(u^4),\qquad
+G_*=g_1u+g_3u^3+O(u^5).
+$$
+由 $\partial=\beta(u)d/du$、$K_*=\partial G_*$ 直接得到
+$$
+\mathscr W(T_{\rm G})
+=\beta_{\rm G}^3(6f_0g_3-8f_2g_1)
+ +\frac{4a_{\rm G}\beta_{\rm G}}3f_0g_1.
+$$
+而 (1135.82) 给
+$$
+T_{7,0}=f_0,\quad T_{7,2}=f_2-7\ell_2f_0,\qquad
+T_{9,1}=g_1,\quad T_{9,3}=g_3-8\ell_2g_1.
+$$
+代入 $\ell_2=a_{\rm G}/(6\beta_{\rm G}^2)$，
+三个曲率贡献的系数是 $48-56+8=0$。故
+$$
+\boxed{\begin{aligned}
+\mathscr W(T_{\rm G})
+ &=2\beta_{\rm G}^3
+       (3T_{7,0}T_{9,3}-4T_{7,2}T_{9,1})\\
+ &=2016\beta_{\rm G}^{-11}
+       (3J_{7,2}J_{9,1}-J_{7,0}J_{9,3}),\\
+\Delta_{\rm low}
+ &=\frac{2}{3\beta_{\rm G}^{11}}
+       (3J_{7,2}J_{9,1}-J_{7,0}J_{9,3}).
+\end{aligned}}
+\tag{1135.88}
+$$
+这与 (1135.81) 是同一个指定 Gaussian 值。
+右边所需的四个系数指标分别为
+$p-7,p-5,p-8,p-6$；因此实际上只需
+$a(u),b(u),\beta(u),\ell(u)$ 至多 $p-5$ 阶。
+(1135.82) 的较长安全定义只是为了统一证明，
+没有越过首个 $p$ 分母或另加高阶 carry。
+
+### 16.4. 两个 forcing 合并为同一个原 $\mathcal E_8$ 来源
+
+(1135.67) 与原 $\partial a=6b$ 给精确关系
+$$
+\mathcal E_{10}=\frac{30}{11}\partial\mathcal E_8
+              =\frac{30}{11}\beta(u)\mathcal E_8'(u).
+$$
+置
+$$
+\mathcal M_1=[u^{p-7}]\mathcal E_8(u)\ell(u),\qquad
+\mathcal M_3=[u^{p-5}]\mathcal E_8(u)\ell(u)^3.
+$$
+一次实际系数分部积分给
+$$
+J_{9,1}=\frac{30}{11}
+       \bigl(\beta_{\rm G}J_{7,0}-8\mathcal M_1\bigr),\qquad
+J_{9,3}=\frac{30}{11}
+       \bigl(3\beta_{\rm G}J_{7,2}-8\mathcal M_3\bigr).
+\tag{1135.89}
+$$
+因此第二个 forcing 完整消去，得到
+$$
+\boxed{\quad
+\Delta_{\rm low}
+=\frac{160}{11\beta_{\rm G}^{11}}
+ \left(J_{7,0}\mathcal M_3-3J_{7,2}\mathcal M_1\right).
+\quad}
+\tag{1135.90}
+$$
+所有项均来自同一个原
+$\mathcal E_8=24a(u)^2/5$ 与 (1135.82) 的有限伴随解。
+在固定曲线坐标中还可写
+$$
+\frac{\mathcal E_8(u)}{\beta(u)}\,du
+=\mathcal E_8\omega_\Delta=\frac9{10}\,dY,
+$$
+因为 $\mathcal E_8=27X^2/10$、$\partial Y=3X^2$；
+所以 (1135.86) 也是真正同一曲线上的有限微分 moments。
+
+原反射 (1135.4) 和 (1135.87) 的 $j=0$ 准确核定一个端点：
+$$
+\boxed{\quad
+J_{7,0}=\frac{\beta_{\rm G}^6}{2}F_*(T_{\rm G})
+       =\frac{24a_{\rm G}^2}{5\beta_{\rm G}}
+       =\frac{\mathcal E_8(T_{\rm G})}{\beta_{\rm G}}
+       \ne0.
+\quad}
+\tag{1135.91}
+$$
+这不使 (1135.90) 的行列式自动非零。
+本节的新增结论是把指定原 minor 变为四个安全 moments，
+并以两个实际 forcing 的导数关系消去第二来源；
+未把非零端点、伴随解存在或原高阶方程唯一性代成 determinant 单位。
+原 good mask、节点 $S=0,P=0$ 及同一 coarse component 的两 twist
+继续保持既定范围。本节无数学程序执行。

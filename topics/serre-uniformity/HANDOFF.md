@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：70b78e5c3733fd3eb7ef0bb1ac1b836146a4f149**（2026-11-28 08:26 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：dbd5355de3997e292284568b044407f7e684aa84**（2026-11-28 08:27 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 07:49:56 Asia/Taipei，Actions run46084622951/job140791187426，blob:none浅clone真实pull --rebase至c6fc7f50，两README diff空、SHA相同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤08:39、pull≤08:49。本地08:01仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -60,9 +60,11 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 同文§12付3024Δ_low=(F∂²K−4K∂²F+aFK)(a,0)，原bad Bp−7支q阶1/2首系数unit，Gaussian取值仍开。
 
-R1135 §13付原固定Δ曲线Y²=X³−Δ/27、∂X=2Y/∂Y=3X²；p11mod12导子p次零，p7mod12为明确Hasse单位×∂。bad Bp−7时原F/G/K/W极阶全准确，W最高系数−315/−243，指定Gaussian零⇔b²整除全权W。A_b/A_aa与F/G的准确cusp差已写出；Hasse值unit不能代真实K/W。继续原Cartier/forcing与实际good mask。
+R1135 §13付原固定Δ曲线Y²=X³−Δ/27及∂/Hasse导子；bad Bp−7时W准确极界与最高系数−315/−243，指定Gaussian零⇔b²整除全权W。Hasse unit不代W(TG)。
 
-R1135 §§14–15付原G/K primitive、C_rel(ω/A²)=ω′、B^p=A^(2p)B及r7/9完整Katz forcing的全局有界唯一；1…r共振仍在。Π0(f/A^r)=(f/A)^p，逆B指数p−r−1。Wω的Cartier恒零不能测Gaussian值；指定XiG=½dlog(X−rG)满足WXiG=W(TG)XiG+dJ，故C(WXiG)=W(TG)XiG′且原值=−ResO，值仍未unit。
+R1135 §§14–15付原Katz forcing/有界唯一、Π0(f/A^r)=(f/A)^p及逆B指数p−r−1。Wω Cartier恒0；指定XiG=½dlog(X−rG)给C(WXiG)=W(TG)XiG′，值非零未付。
+
+R1135 §16用u=Hasse、有限伴随ℓ及ξ=u/ℓ，把原forcing准确读为T_rj=2(−1)^j binom(r,j)β_G^(1−r)J_rj，首误差≥2p+1。曲率全消后Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)，只原E8与≤p−5 jet；J70单位不代det，继续该真实四moment。
 
 ## 已成、禁止重做与其它入口
 

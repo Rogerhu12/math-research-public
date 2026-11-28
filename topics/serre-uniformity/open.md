@@ -142,7 +142,7 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 
 ### R1135 §14：原有界解与 Cartier forcing
 
-同一固定Δ曲线上原G=YQ(X)给实际有界P，G=∂P、K=∂²P，两者乘ω的Cartier为零。完整W=∂(F∂K−K∂F)−3K(∂²−a/3)F，乘积类不能拆。准确Hasse尺度给C_rel(ω/A²)=ω′及B=A²∂、B^p=A^(2p)B。r=7,9原Katz方程B^r(G_(p−r)/A^r)=2/(p−r−1)!·(A^(r+1)ℰ_(r+1)−ℰ_(r+1)^p)在L((p−r)O/2)有唯一有界解；全局唯一不消局部1…r共振。原(∂²+35a/3)F的q首项2F1非零，明确区别Hasse旁解。继续同一W(aG,0)/good-mask，不由nonzero forcing推指定值。
+R1135 §14的完整有界primitive、同尺度Cartier与Katz forcing保原结果及归档；B^p=A^(2p)B、逆算子/原U_p常数在§15付，局部共振低jets现由§16的同源安全moment读取。原forcing首项单位与Hasse旁解仍不能代W(TG)非零。
 
 ### 原 Fermat6 完整 Raynaud 张量
 
@@ -162,7 +162,7 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 
 ### R1135 §15：原 Frobenius 常数与指定 Gaussian 主部
 
-[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原 Π0=1−A^(−2p)B^(p−1) 满足 Π0(f_r/A^r)=(f_r/A)^p，来自同一固定Δ Tate尺度及原U_p=1；逆B准确指数p−r−1，完整forcing保留。Wω的角色和pole<p迫Cartier恒零，不能再拿它求Gaussian值；Fω的真实coefficient functional已给。指定TG的XiG=½dlog(X−rG)有residues(1,−1)，WXiG=W(TG)XiG+dJ的全部分母<p，故C(WXiG)=W(TG)XiG′且W(TG)=−ResO(WXiG)。下一步实际forcing/Serre dual pairing须读取该值；第三类检测存在不代单位，actual-good mask及两twist范围不变。
+R1135 §15付原U_p=1的Π0(f/A^r)=(f/A)^p与准确逆B指数p−r−1。Wω的Cartier恒零不能测Gaussian值；指定XiG=½dlog(X−rG)给WXiG=W(TG)XiG+dJ、C(WXiG)=W(TG)XiG′及W(TG)=−ResO。该原值现由§16安全moment读取，仍须证明单位。
 
 
 ### R1151：实际全局 Frobenius subtraction 与退化分支
@@ -170,3 +170,8 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 [R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付所有p>37的H¹(Qp,Heis)↔Fp³ finiteFL坐标全双射；p>Ccyc的全部global像准确(rx,sy,zxy)，其中(r,s,z)来自同一Θ，s=T0=u5modp。r/s为零时使用原文七行完整条件，不能除去或以单quadric代替。rs非零的真实中央差为h−zab/(rs)，通用八次系数a3b5(3rs/8−z)。Gaussian/cubic最高项分别16δ³c_g⁶(rs z12−z x4y8)、16δ³c_g⁶(rs z12−z λA*y7/6)；需证明这些同源组合而非raw z12单位。全局CM点给常数项0，有限根完整分类；cubic r0的单位首槽仅迫u∈p²Zp，不付whole盘。继续指定Θ/F0值、深盘与其余全范围。
 
 R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β_CM t；coarse T*=β_CM^eT，e2/3。两CM β显式binomial unit，Gaussian β_CM=−δ_Car而非Cartan δ；这是底参数运输，不是旧Kummer读数到FL坐标的单位标定。继续同源中央组合。
+
+
+### R1135 §16：原 Gaussian forcing 的单来源安全行列式
+
+[R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)在u=Hasse参数构造有限伴随ℓ、ξ=u/ℓ，Bξ=β_Gξ²+O(ξ^(p+3))；B^(p−r−1)首误差≥2p+1，完整原Frobenius常数避开后，原共振jets准确为T_rj=2(−1)^j binom(r,j)β_G^(1−r)J_rj。曲率与E10=(30/11)∂E8完整消去，Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)，J_rj=[u^(p−r+j)]E_(r+1)ℓ^j/β，M1/M3=[u^(p−7/p−5)]E8ℓ/ℓ³。只需≤p−5 Hasse伴随jet，J70=E8(TG)/β_G单位；指定det仍未unit。继续此实际单E8 moment关系，旧good mask/两twist/节点全保。

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian forcing到指定moment行列式（已证明）**：[R1135 §16](results/R1135-original-Gaussian-low-row-fiber-constraint.md)安全伴随ℓ完整支付原共振低jets、Frobenius常数避让和曲率消去；Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)仅用原E8及≤p−5 jet。端点单位已核，指定det非零继续。
+
 - **原CM参数精确运输（已证明）**：[R1149 §17](results/R1149-original-relative-Hodge-section-and-central-connection.md)通用有限恒等式∂H=β与原p² first-lift给t*=β_CM t、T*=β_CM^eT；两CM明确单位与Gaussian β_CM=−δ_Car全保。未把参数桥代替Kummer/FL读数标定。
 
 - **R1151（已证明）**：[原finite Frobenius全局减法](results/R1151-original-finite-Frobenius-global-subtraction.md)原local Heis的finiteFL坐标全双射、全global像(rx,sy,zxy)与零局部化七分支已付。实际障碍rs h−zab及Gaussian/cubic最高中央组合完整；有限数字不代whole盘，原Θ/F0值与深盘仍开。
