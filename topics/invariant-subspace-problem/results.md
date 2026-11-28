@@ -30,6 +30,8 @@
 
 ## 新增结论
 
+- [R12：实际复逆幂、全旗共同强单位及平坦精确可除层](results/R12-appendix-accretive-complex-inverse-powers-flat-divisibility-layers-and-all-flag-sources.md)：新Reθ>0同Γ积分、有限组共同Eλ^k、Hk实际逆源/图核心；全喷射零但C^rLθ∉C^(r+1)C′。旧正实分数根不重计，原Y²=CLθ²仍开放。
+
 - [R150：正e、k−2整个ell极点的完整原排除](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-entire-ell-pole-original-exclusion.md)：vβ与ve三段、μ极点与任意深M全保；等阶一般中心完整N5/ell⁴与R6/ell⁵，经唯一3f9e实际0.030981101秒/0返两原Bézout(μ+1)²。k−2只余ell单位，整个W/有限DVR未付。
 
 - [R150：W/b0 正e负k整个对角射线的完整原排除](results/R150-appendix-unit211-W-b0-positive-e-negative-k-entire-diagonal-ray-exclusion.md)：Q一般只余1/3被完整N5排；Q1时δ与e²的全部相对阶、mu极点、H=1/3/−3与lambda双根相消全覆盖。原余788/254/16及同K矩矛盾，无新运行；当前仅余(1,0)和内部/DVR边界。
