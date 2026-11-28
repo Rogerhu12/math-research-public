@@ -221,3 +221,7 @@
 ## 2026-11-28 18:51:38 UTC：R1067 §116：两固定Heisenberg联络的真曲率子式
 
 会话Astra-rank2-Sha-0b097461-20261127。根与central_ultra、geometry_ultra独立核两型曲率矩阵、极阶与µ6常数消除，补ordinary ψπ多项式的整性/极阶证明；核M产品必须用T_t，若P_t=−T_t保原I则指数反号。归档H后压缩已完v17记录；18:49根实读v18/v19均step4运行。 环境仍unavailable；按根规则8小文本备用通道先读两库最新main、四README和QUEUE，父链/条件ref更新及发布字节保真。接续原中央无穷p非零，未宣称主目标完成。
+
+## 2026-11-28 19:01:06 UTC：v18真实前缀、全输入与当前边界
+
+会话Astra-rank2-Sha-0b097461-20261127。根独立fetch原job前缀，逐23原JSON字符串核SHA，读取实际host/runtime/maps和全部10native行；arithmetic逐89原source文件及两原F/P完整日志核验，根另核request/workflow及全部pin映射。只在原生产note追加来源/摘要/已返范围，不存可重算日志或数据。v18/v19均无终门；继续原理论，不重启。按根规则8读两main/四README/QUEUE后条件ref发布并回读。

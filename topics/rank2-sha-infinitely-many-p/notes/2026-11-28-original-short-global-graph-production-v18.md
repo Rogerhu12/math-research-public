@@ -63,3 +63,66 @@ The successful activation source is `702f361f1cf4725a870a1740a34688e75b2bc469`, 
 v17在2026-11-28 17:02 UTC终止后，本run已经进入执行，实际job为 **141050876340**。根随后独立读到steps 1–3均success、第4步in_progress；此前pending记录是历史状态，不能继续当成当前状态。曾尝试查询取消接口但取消POST没有执行，本run从未被记为已取消。本次未修改或重启该run。
 
 固定source仍为`702f361f1cf4725a870a1740a34688e75b2bc469`。启动状态不替代85源认证、两份F/P输入、实际端点、post-ideal或终态PASS。v17的明确32,000,000输出系数门及已完成范围见[终态记录](2026-11-28-original-adaptive-scalar-graph-production-v17.md#6-实际终态完整回执和输出门)。
+
+## 7. 首次可读的真实生产前缀：18:55 UTC
+
+2026-11-28 18:49 UTC根实读本job仍在第4步；arithmetic_ultra于18:51:45 UTC读到同一运行状态。根18:55再次独立取得的日志是一个**运行中前缀**，不是终态：
+
+- 实际run **46147595142**，job **141050876340**，attempt 1，source **702f361f1cf4725a870a1740a34688e75b2bc469**。
+- 原始UTF-8前缀 **2101845 bytes**，SHA256 **44bed570a70c56bc720eb10eaa5ae72e5254cabd27cd7b6984701a69a90dd6a8**。
+- 共13个单次RESULT及10个native-row RESULT。根逐个取原JSON字符串核紧随SHA，23对全部一致；按出现顺序把23个64位摘要各加LF，所得1495 bytes的SHA256为 **c2b796837286e2d1e43423818ad67d50a5ccde45ea7bc6d9a9416d3a3dfb6fc6**。
+
+按根规则15不保存可重算原日志、源码映射或矩阵，只记真实输入、范围与摘要。
+
+### 实际输入和执行约束
+
+arithmetic_ultra按该source逐一读取89个Git文件，所有字节摘要都与实际host记录相同。根另从该source取回request和workflow，核全部85个basename pins与host的89路径映射；六个short模块与原软件PASS的相同来源也保留。
+
+| 已核对象 | 字节 | SHA256 |
+|---|---:|---|
+| 实际request | 10607 | 877a744d4f75aca19ff6e8834b9e71d4d35c46e3029c9961f00d29719105c44c |
+| 实际workflow | 6222 | a1981d8dcc5122aa7ccb0f1d096aba2de7d853efe90310f5f18c3bc47cdb3e6f |
+| 89路径摘要映射，按ASCII键序compact JSON | 13269 | d081a926fccdb2700b6707709b9801a55f1d26ad26d9efc2bca173a32589f601 |
+| request的85个basename摘要映射，同规范 | 9125 | 1b727896247964aaefde9d74322530c1251502387eda74275b3143d6c867228b |
+| 真实runtime RESULT | 508 | b8fe46a2c1f4cd885f7a20952f8dcb0921ce66cd0b2bee4f567bb9f2c41b1926 |
+| 真实source/bindings RESULT | 12907 | 4231f8369ccabd42407fcd4571a38704fd8447df2f238d3acf1af7ebf312ca9d |
+
+runtime的MKL/OMP/OpenBLAS线程值从4/4/1准确改为4/4/4；
+NumPy未预载，四项credential-presence检查全部false。
+host记录的镜像仍为前述固定Sage10.6 digest，
+network none、source read-only及原4CPU/16GiB/21000秒/360分钟范围未改。
+
+原F输入为run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed，
+原P输入为run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd。
+arithmetic_ultra此次重新取得两完整旧日志：
+F为58730B/713dc9376db902365468c7455de566d23bcd1d7ca6f445df378e56b5fcb490eb，
+P为71851B/bb102259c78e82156062be27a83de20fe31f355e58e21e32a032072971a511b7；
+其原RESULT分别为5544B/5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f
+和8849B/d3371b55fbdbf8999f2ed6da76cc004a78eba733ff5e7977bce4149e4ecb8915，
+与request、host参数及实际reader一致。
+实际PASS envelope SHA256为
+b59c77ae691642aed2b8039b904e1280289eec879e16205b357b601fcc6cdb25。
+
+### 已返回的范围与尚未返回的门
+
+原maps RESULT为64779B/
+5afb4e3744c122d4fd3165fe267414280ff29e3f8f6376dd62489e5caf414066；
+它保level3468、归一化模rank306、七个原椭圆方程、原W/constant reflection、
+全部根及2+3+3+3次幂、RP次序与Artin置换的区别、两个原图的完整分式。
+该记录的complete_intersections_computed和original_shadow_computed均为false。
+
+10条native-row回执只覆盖同一个central T在两个图的
+denominator operator image、complete denominator projection、all paired numerators、
+complete zero ideal和complete pole ideal，各五条；
+两组均对全部306行、全部原附列核双向包含。
+这不是两个待求short/G13物理端点的最终回执。
+
+前缀最后一条时间为2026-11-28T18:46:11.0681376Z，
+是whole first Hermite column extracted：
+整个原infinity fibre贡献已显示82/306列，pivot degree 2，
+remaining determinant degree448，证明的全局界1837，实际已见最大左次数612。
+这是该截流前缀的末条，不据此断言运行在该处停滞。
+
+当前前缀没有返回四个完整有效交点、其厚局部范数、18×9全Artin读数、
+九个真实pair或终态PASS。因此不宣称原shadow或主课题完成，不重启本run。
+同次v19仍step4且日志404；继续其原运行并推进理论。

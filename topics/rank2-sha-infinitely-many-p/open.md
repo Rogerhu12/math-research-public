@@ -18,7 +18,7 @@
 
 ## 原306图与1156格的真实生产
 
-[R1071](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md) §§17–21保完整G3/W8和四标量Bézout图。[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)已于17:02 UTC因实际X超过32000000格的显式软件预算失败，306配对行已核但完整X/H与终门未返回，不重跑。v18 run46147595142/job141050876340于17:03开始；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)source d61834ef33bbaf6b28b96c50999d71ad33e19c8c/run46154552030/job141008207171于14:25开始。18:49 UTC根实际读取两job均step4运行，最近18:34两完整日志仍404；不得从旧前缀猜终态。两版无v17该总格门，保95pins/原F/P/四端点/九pairs与全部原门，等待实际输出并继续理论。
+[R1071](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md) §§17–21保完整G3/W8和四标量Bézout图。[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)已于17:02 UTC因实际X超过32000000格的显式软件预算失败，306配对行已核但完整X/H与终门未返回，不重跑。v18 run46147595142/job141050876340于17:03开始；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)source d61834ef33bbaf6b28b96c50999d71ad33e19c8c/run46154552030/job141008207171于14:25开始。18:55 UTC根取得v18真前缀2101845B（SHA及全部核验见v18 note），原85pins/F/P与23 RESULT摘要全核，central T两图10条全行回执及∞列82/306已显示；四交点/九pairs/终门仍未返回。v19于18:51仍step4且日志404；不得从前缀猜终态。两版无v17该总格门，保95pins/原F/P/四端点/九pairs与全部原门，等待实际输出并继续理论。
 
 ## 其它未闭门
 

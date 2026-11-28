@@ -592,3 +592,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §116：两固定Heisenberg联络的真曲率子式
 
 已证明：同一E₁上d+A₁、d+Aₓ保−dlogx/2及−ω/−xω；两型真p曲率满足Ψ₁₁₃Ψₓ₂₃−Ψₓ₁₃Ψ₁₂₃−x^p=g^pG。完整极、Cartier、µ6及ordinary Kπ识别已付。原M^-3由实际T_t的x平移乘积精确给出；该子式是二次式，未冒称整个联络p曲率消失。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1071/v18：实际运行中前缀已独立取得
+
+根18:55取得2101845B真实前缀，核13单次及10native RESULT原串摘要；原85pins/89文件、F/P、实际runtime均已核。仅central T两图原全行及∞列82/306已回，完整四交/九pairs/终门仍缺。[实际回执](notes/2026-11-28-original-short-global-graph-production-v18.md)。
