@@ -143,3 +143,41 @@ $$65 f_1(0)(d\log\rho)^2[T^2]\mathcal A_b
  =-\int_0^1(A_b(s)-sL_b^{\rm end})\Theta
   +\int_0^1(B_b(s)-sL_b^{\rm end})\Theta .\tag{AD6}$$
 (AD5)使两个被积函数分别正则。有限代数点的原端项已被直接证明非零，同时也证明包含移动权 $dh_C$ 的整项在首端确实不能删除；(AD6)中两次正则积分的差尚未因此决定。
+
+## 22. 母三同源的绝对三级相位与完整二阶积分的真实反演
+
+在原全九级分量把 $\alpha_9(a)=[a]Q_9$ 固定得和 $\alpha_3$ 相容。对母 $\delta$ 同源，目标的实际三级标记可标为
+$$ a\longmapsto q_\delta\alpha_9(\bar\delta a)\qquad(a\in\mathcal O_K/3). \tag{AE1}$$
+改变 $a$ 一个 $3b$ 时所差点在 $D_\delta$。在原中央 $[\delta][\bar\delta]=[3]$ 给出原 $\alpha_3$，故该有限 étale 三级标记在整个连通分量是同构。目标的根基线是对偶三级核，因为在中央对应 $E_1[\delta]$。因此在 $X_0(3)$ 上此三级商正给 Atkin–Lehner 反演。坐标 $1-\lambda^3$ 的零、极是其两个尖点，在上述固定 CM 点取1，所以该反演把 $1-\lambda^3$ 送其倒数。
+
+由(AC3)和原母同源微分，$r_C$ 可在 $E_C=E_v/C$ 本身写成
+$$ r_C=\delta^{-1}\,
+ \frac{ f_3(E_C/D_\delta,q_\delta\alpha_{9,C}(\bar\delta\,\cdot),\kappa_{C,\delta})}
+ {f_3(E_C,\alpha_{3,C},\kappa_C)} .\tag{AE2}$$
+这是给定的全九级分量上的模函数。对 $N_C=130$，取 $\alpha_{9,C}=q_C\alpha_9\circ[4]$，因为 $130\cdot4^2\equiv1\bmod9$，此标记与源在同一 Weil 分量。$4\equiv1\bmod3$ 使目标分母的三级标记不变，而 $q_\delta\alpha_{9,C}(3\bar\delta a)=0$ 使分子的实际三级标记也不变。对 $N_C=1$ 用原 $\alpha_9$。在这个连通 $X(9)$ 分量，(AC3)给 $e=(1-\lambda^3)/r^3\in\mu_8$，所以 $e$ 为常数，代原 $E_1$ 时 $\lambda=0,r=1$。因此确有
+$$ \beta_C=1,\qquad\mu_C=r_C=\mathcal F_{\delta C}(-w)/\mathcal F_C(w)
+ \qquad( N_C=1,130 ).\tag{AE3}$$
+在(AC4),(AD1)的 $K_C$ 因而正是 $2592N_C/\delta$。
+
+因 $(1-\lambda_{\delta C}(-w)^3)=(1-\lambda_C^3)^{-1}$，且 $r_{\delta C}(-w)=r_C^{-1}$，所以 $\lambda_{\delta C}(-w)=-\zeta\lambda_C/\mu_C$，$\zeta\in\mu_3$。Fermat 微分在 $(X,Y)\mapsto(-\zeta X/Y,1/Y)$ 下乘 $-\zeta$，而在(AC4)两源交换、$w\mapsto-w$ 后原微分仅乘 $-1$；因此 $\zeta=1$。得到真正的同一反演
+$$ P_{\delta C}(-w)=(-\lambda_C/\mu_C,1/\mu_C),\quad
+ j_{\delta C}(-w)=-j_C(w),\quad
+ h_{\delta C}(-w)=-\mu_C(w)h_C(w). \tag{AE4}$$
+椭圆曲线的原点平移在差点中相消。首圈母三级同源给 $Y\mapsto -Y$：其在 $w$ 上为负，在 $Y=0$ 的解支由(W1),(W2)唯一，然后沿原稍大闭盘延拓。故每个径向全和都保持这个变换；不能在单个奇层核上擅设符号。
+
+令 $\varepsilon_b=\chi_b(\delta)$，两条原曲线各为 $-1,+1$。在(AD5)两项中保留原 $\chi_b(C)^{-1}$，用(AE4)把相互成对的 $C,\delta C$ 合并，正好可以将 $h_C$ 换为
+$$ H_{C,\varepsilon_b}=\tfrac12(1+\varepsilon_b\mu_C)\,h_C,\qquad
+ dH_{C,\varepsilon_b}
+ =\tfrac12\left((1+\varepsilon_b\mu_C)\,dh_C+
+                    \varepsilon_b h_C\,d\mu_C\right). \tag{AE5}$$
+第一项为径向全和 $\sum_C\chi_b^{-1}K_C H_{C,\varepsilon_b}j_C$，第二项为 $\sum\int\sum_C\chi_b^{-1}K_C j_C\,dH_{C,\varepsilon_b}$。代回(AD6)仍完全相等，特别两项在首端点各自的非零值不改变。后式最后的 $d\mu_C$ 来自真实移动的三级商。
+
+这一反演也给固定商坐标
+$$ X_0=\lambda_C/(1-\mu_C),\quad Z=(1+\mu_C)/(1-\mu_C),\quad
+  3Z^2=4X_0^3-1,\qquad (X_0,Z)\longmapsto(X_0,-Z). \tag{AE6}$$
+由 $d\mu=-\lambda^2 d\lambda/\mu^2$ 微分 $X_0$ 得 $dX_0/d\lambda=-Z/\mu^2$，故
+$$ d\lambda_C/\mu_C^2=-dX_0/Z. \tag{AE7}$$
+置 $b_C=w\mathcal F_C$, $\mathcal G=b_C(1-\mu_C)$；$\mathcal G$ 在整 $(C,w)$ 反演下不变。于是
+$$ H_{C,+}=\frac{3Z}{2(X_0^3-1)\mathcal G},\qquad
+ H_{C,-}=\frac{3}{2(X_0^3-1)\mathcal G}.\tag{AE8}$$
+直接代入 $b_C=(Z+1)\mathcal G/2$ 和 $Z^2-1=4(X_0^3-1)/3$ 即可。由此正号积分 $H_{C,+}dj_C$ 的椭圆平方根 $Z$ 消去，负号留下一个 $1/Z$。两者都保留同一移动的 Hesse 水平周期 $\mathcal G$，(AD6)所需两整积分的比较仍待支付。

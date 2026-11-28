@@ -479,3 +479,15 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 根核L/Φ未分歧Frobenius[−p]与ε(−p)=1、导子34δ各剩余单位群指数仅2/3因子及整corestriction下降；一般η原始模pˢ、精确CRT τ(f)/(ε(M)η(f))和剩余乘子单位，逐层真实范数保全部非原始角色。域正规表示的每条特征线各一次只给域基，不声称整基或中央非零。整理前9654B H逐字归档，参数/回执不删除。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:06:16 UTC到d428424e8b9410cfa4ca50c2882e9487887420b7，私库2026-11-28 14:06:11 UTC到91dcf270137574d3a42f0d088cb920150a6abdec；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47636104B/treec21dbba82e2660e6755d19bbaf6cec41b491cb91，无>5MB。
+
+## 2026-11-28 14:06:22 UTC：R1073 §22：真实全九标记付绝对相位与两原权反演
+
+根逐项核qδ α9(barδ·)对a模3良定、中央δbarδ=3及130·4²≡1mod9且两实际三级标记不变；连通X9给常数相位1。核Atkin–Lehner坐标倒数、微分相位−1、径向全Y↦−Y及两χ权配对，直接手推3Z²=4X³−1、dλ/μ²=−dX/Z和H±；变动dμ与共同周期G未删，未宣称两b中央联动。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:06:30 UTC到a68e8d40968ef43864f3febe6bec2d541254fc0b，私库2026-11-28 14:06:26 UTC到91dcf270137574d3a42f0d088cb920150a6abdec；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47650621B/tree401447b33ffcf8b58762c7dbbab542c4999cd3ec，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:06:44 UTC到0082b6ddfc7b1ea2c7a631a02bd2012442416b70，私库2026-11-28 14:06:40 UTC到ee45933e62109e84b5948ebd627ad0c144e46acf；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47650621B/tree401447b33ffcf8b58762c7dbbab542c4999cd3ec，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 14:06:56 UTC到a48fed2d4e889dac6c5bf706553ebbd23fc06f74，私库2026-11-28 14:06:52 UTC到dd3e2469f77055fb0bc584da4089b1aef4cc2853；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47650621B/tree401447b33ffcf8b58762c7dbbab542c4999cd3ec，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 14:07:11 UTC到5a79778af13eed02b18636db30ac6b2a58ba4a14，私库2026-11-28 14:07:06 UTC到721fc92d5e1bec81f365321849a90bbefe3a2510；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47650621B/tree401447b33ffcf8b58762c7dbbab542c4999cd3ec，无>5MB。

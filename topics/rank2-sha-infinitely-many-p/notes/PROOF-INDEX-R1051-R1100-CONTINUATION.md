@@ -89,3 +89,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §73：实际整列的全双变量有限角色及域正规基
 
 原完整d_j以ε(−p)=1下降至Φ_j，任意圆分/反圆分有限角色均由真实primitive Gauss与整范数相容给非零；其完整G_j轨道构成Φ_j的τ型域正规基。未给整数环行列式单位，也未将所有有限角色非零移作中央Tate谱特化。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1073 §22：真实全九标记付绝对相位与两原权反演
+
+母δ商的实际三级标记经全9同Weil分量确定β_C=1；原Fermat反演准确为(−λ/μ,1/μ)，全部差点log反号。原两角色给H±=(1±μ)h/2及真实额外±h·dμ，固定商3Z²=4X³−1保同一变动水平周期，未产生额外canonical坏行。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
