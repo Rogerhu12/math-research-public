@@ -425,3 +425,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:25:52 UTC — RET93 全部旧数值结果的原字面、数组与失败保留
 
 198个<100KB完整旧JSON已逐全文读；165个明确非活数值结果仅删字符串外ASCII空白，26已紧凑不动，7可能输入/控制/系数recipe（含rms-mesh节点计划）明确保原。所有数值字面、全部数组/字段/字符串/失败/未知/历史SHA逐token原字，文件没有删除。87772B/27e9d384f9cdc7baec2cd6bcb06a1d5c6c9ea6f03c75ef59b163f4fb95fe0438完整映射及4816B说明同刊，固定f020f0a86ce3bce9d15f3cc1ab10edf45f3b2c13全Git恢复供旧whole-hash消费；活source/input/port/parent91/request/queue不动。毛832640B、附件92588B、净740052B；非新科学输出、未重算/删原producer。 双README云核至`2d77ce96c3c6c5e69a742a46f7bc7e74b5771f94`无变（非pull）。
+
+## 2026-11-28 09:28:16 UTC — 28真实脚本前缀故障的完整六层参数出处修正
+
+science/pure ready、binding、完整再生器、原note及总表六同路径完整更正308729B；四运行体原字不变。两step唯一执行字段变化是script加37字节topics/visible-flex-larger-amplitude/，原142/7参数词、587/568正式、64live、全部parent/scope/预算保；整个队列与已实际修复的74418/63205B一致。总表35238B/eefb80cd14b0827d45c5cff0174b8918faad55f0f40d8acb2432ffc1742f9989/blob3ca696c812bfd7c053e6e82ed844feed61c549ee；旧bc3c原错误包、f891修复与原note16963B全部原字保在后继20279B说明及固定历史。新科学已在原28的source689954e129445ed4fa54ba0bfa41a5d103173ee5/PID14760启动（09:19:38Z自身索引），尚无新math/model/point返回，不借父数字。33原两ready已完整topic前缀，不修改；R730后续同实际接口。 双README云核至`05062c2eae77cb3ef01da45165e2bba7c5886bee`无变（非pull）。

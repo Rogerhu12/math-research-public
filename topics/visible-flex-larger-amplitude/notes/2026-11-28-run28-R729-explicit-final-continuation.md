@@ -101,3 +101,23 @@ R729原核2dfe85c4…保持原字。原QP先运行并保完整report；只对两
 此次只把science完整script改为topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_run28_R729_actions.py；其余142个参数词、587正式/64live、完整scope/parent/outputs/cleanup/cache与finishfalse全部保。新整个队列74418B/SHA256065274258571ceb8821556880ad9cafe7905b8c1f699c7b15d67c5681df416fb/blobe48dbad5b0be71cfdf98285e66ab1d0a5e852e2d，原错误队列74381B/SHA2563d161b59f79d1c650d462fea4021c5b615f4d0f321563a9ccd38820657c7518d/blobc22ab7f3362261d76b19a1b6f8eecf06ac74ce15在bc3c完整保。原ID/step ID保持，因原queue整体拒绝未记为实际科学attempt。
 
 下一whole pure对应script同样加完整前缀，63205B/SHA256477e7a1ed6ee1b78ec69634955df168e28f3d91f977c1c369d265f0b03ccb1ed；完整7参数词/568字段全保，仍只在真实science自然返回后排。源代码和计算预算完全不变。参数ready/binding/再生器/交付表的相同修正由完整后继表续记，旧版本作为实际错误父保留，未把修复声明冒新运行成功。
+
+## 9. 2026-11-28 完整参数与文字恢复的路径修正终表
+
+上面 §1–8 是首次准备时的原记录，连同根于 09:19:13 UTC 追加的实际拒绝与队列修复全文，均逐字保留。其旧参数文件身份、原队列字节数和当时未出版标签仅作为该时点历史；本节给出修后当前完整参数出处，不将控制器拒绝记作科学计算失败。
+
+原四运行体和共享纯读 helper 已由 bc3c666d081fcc8213910c3cc0eb92d7367e44a6 出版，字节完全不变。根在 f891be9b43ae881d26a1c3dbe2e836aff00406d2 只为两队列补上课题前缀；本次把同一修正贯穿 ready、binding、完整再生器与总表。两 step 的唯一变化是 `/steps/0/script` 新增 37 字节 `topics/visible-flex-larger-amplitude/`，没有修改 args、scope、outputs、cleanup、summary、progress_summary、step ID 或 parent ID。科学仍 142 词 / 587 formal / 64 live，纯读仍 7 词 / 568 formal。单步队列分别为 74418 B 与 63205 B，均保完整对象。
+
+当前脚本路径为：
+
+- science：`topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_run28_R729_actions.py`。
+- pure：`topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_run28_R729_report.py`。
+
+- binding：`topics/visible-flex-larger-amplitude/computations/run28-R729-explicit-final-complete-binding.json`，75204 B / SHA256 3849cd8710b4709ec8b5b2d80a81c6ee9d8e9213c460300c5859b7779d60be4c / Git blob a5daf1566e96b25298205e5e40728d9c2ddc2da5。
+- science：`topics/visible-flex-larger-amplitude/computations/run28-R729-explicit-final-science-complete-ready.json`，77280 B / SHA256 bb652ea758fe707441ff1e73b7d40c6c26d75a226e5c036c92cdc30cf1da7e63 / Git blob be2b245fecd32b45d29fc65f32a2f063120e7114。
+- pure：`topics/visible-flex-larger-amplitude/computations/run28-R729-explicit-final-pure-complete-ready.json`，66061 B / SHA256 2070ca359113c779263c69b41ef507cff5c18407cd5fa11eddbc22f0736ab2cf / Git blob 2514e788f5e971bdfc00b5147e24e9ec738128a1。
+- 完整文字再生器：`topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_run28_R729_explicit_final_continuation.mjs`，34667 B / SHA256 fb166954b4069bd7f49952fb0bc2839775aeaed13b2269e30f06ac44ea13cef6 / Git blob c3eaa4b8ce62d8d3e3aa746dfe2f45b7f275af07。
+
+新的 binding `/post_publication_script_path_correction` 全部保留原 10 件交付总表、旧 binding、两原 ready、旧再生器与说明的准确 whole 记录，连同正式出版提交、原守卫身份、完整已观察错误 note 和根的真实队列修复提交。新 ready 以 whole record + JSON pointer 引用该记录；没有裁掉旧参数或 peer 责任。新再生器在相同四完整父源和完整 33 参数上采用这一精确脚本路径，四运行体整段补丁原样。
+
+已完整读 33 的 science blob 8631722f6367d98f4515adce383f49226f69c3cd 和 pure blob 86116e5b0605b3fc5d24cf8b998695bf65939401：其 `/steps/0/script` 原本已有完整 topic 前缀，因此 33 不需要这项修正，原 157/7 词不动。R730 后续计划也将采用完整 repo 相对路径。这是对已发生接口错误的直接修复，没有更改控制器守卫，没有新增数值、AST、fixture、benchmark 或审核前门；修后科学启动、父场读取和新结果仍须等真实 Actions 返回。
