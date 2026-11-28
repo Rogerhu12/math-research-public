@@ -1,0 +1,557 @@
+{
+  "schema": "complete-R730-R729-scientific-family-and-normal-source-build-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "this_manifest_path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-source-delivery.json",
+  "prepared_utc": "2026-11-28T09:39:17Z",
+  "status": "Complete protected source, interfaces, exact text build and recovery; no R730 scientific execution is claimed.",
+  "current_source_publication": null,
+  "current_run_id": null,
+  "normal_build_route": {
+    "required_new_main_files_excluding_this_manifest": [
+      {
+        "role": "complete_runtime_and_source_binding",
+        "name": "fixed-fejer-r730-R729-current-runtime-binding.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+        "bytes": 61806,
+        "sha256": "f7eda4b71048b816288d8dc92a61db84def183861499117f93986258e86d62ce",
+        "git_blob_sha": "886a7bb94b171381f6df06890b3d4c745a7f750d"
+      },
+      {
+        "role": "complete_source_builder",
+        "name": "reproduce_r730_R729_complete_sources.mjs",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r730_R729_complete_sources.mjs",
+        "bytes": 95498,
+        "sha256": "652c637701322e37d95b61b5427fc61a6ee64299503726ed67ee35a700ae0c7c",
+        "git_blob_sha": "25153d99ea4a060e59021d301d21f8b1159f4700"
+      },
+      {
+        "role": "source_build_wrapper",
+        "name": "build_and_launch_r730_R729_actions.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/build_and_launch_r730_R729_actions.py",
+        "bytes": 7513,
+        "sha256": "b32f9642a61bd093fcc14ed7e44488e90ac8cbe3cd6fc0d3436da84f861bd401",
+        "git_blob_sha": "0040e34f71e9d3d36cb7aa9b6fd1e423a382b0ba"
+      },
+      {
+        "role": "complete_source_and_build_contract",
+        "name": "2026-11-28-R730-R729-complete-family-and-source-build.md",
+        "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-R730-R729-complete-family-and-source-build.md",
+        "bytes": 25929,
+        "sha256": "5ee59b26c8c5461dd5f1a8c15b7dd4eaba763013a42b3f6e3d37a23c11bf8b11",
+        "git_blob_sha": "f275cfb6ccf0428fb5a95d4b0526e6686a003375"
+      }
+    ],
+    "new_main_file_count_including_this_manifest": 5,
+    "required_new_main_bytes_excluding_this_manifest": 190746,
+    "generated_full_runtime_files": [
+      {
+        "role": "closure_values",
+        "name": "r730_closure_values.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_closure_values.py",
+        "bytes": 61779,
+        "sha256": "d43d9c34c95d9d49fdb231253d9a9c596de2fa4d46b11792dbd4f646ea86a9f7",
+        "git_blob_sha": "f627203aa6bedfe5ca95c0e5f74f2413a141a752"
+      },
+      {
+        "role": "analytic_J3",
+        "name": "r730_analytic_stage.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_analytic_stage.py",
+        "bytes": 27982,
+        "sha256": "6e0493ca4a00e66bd9b290af0dc6d913f0f9e13261a206993fb596a2a02087a0",
+        "git_blob_sha": "e5391049653bf92130e1b0017495a80bb92f5f81"
+      },
+      {
+        "role": "analytic_frame",
+        "name": "r730_analytic_frame.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_analytic_frame.py",
+        "bytes": 68750,
+        "sha256": "77bdef1ebc934754b02653324e310867a3bc2d57af9583e65442d031f53632a3",
+        "git_blob_sha": "e9dbec38365cb04aeea06a9eb6e805606561e31d"
+      },
+      {
+        "role": "detached_meridian_values",
+        "name": "r730_meridian_values.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_meridian_values.py",
+        "bytes": 52306,
+        "sha256": "382e53321377ab962bc27864b1c6610016b196aa6492f7425875b4c8bbaea7e4",
+        "git_blob_sha": "246305cc1c7b08dc48b805a257248391304eda4b"
+      },
+      {
+        "role": "frame_C1",
+        "name": "r730_frame_c1.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_frame_c1.py",
+        "bytes": 55173,
+        "sha256": "31eae4076a9ca40cecceb0e70afde1a252466404dcaf980a22626693346e66c4",
+        "git_blob_sha": "f6f3ef4713e4e0e812e76b02b40ce654d6d0e40d"
+      },
+      {
+        "role": "stage_matrices",
+        "name": "r730_stage_matrices.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_stage_matrices.py",
+        "bytes": 61280,
+        "sha256": "b261d870c5087e3caee915d5391ec453bcab2705a566d17a2e8b2f92d3b47c83",
+        "git_blob_sha": "2b59152f92d950ab49cb229a309c7c2360b8282b"
+      },
+      {
+        "role": "adjacent_matrices",
+        "name": "r730_adjacent_matrices.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_adjacent_matrices.py",
+        "bytes": 36766,
+        "sha256": "cc9fc378213ba09b003b96e6fb89ae772a3995c06c39aa88cb2e366d99d219d6",
+        "git_blob_sha": "55dc168cb975908b40e3dec6b4458cbf8dd82bab"
+      },
+      {
+        "role": "endpoint",
+        "name": "r730_normal_lift.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_normal_lift.py",
+        "bytes": 96293,
+        "sha256": "94c4cc8a871bf1db493ee1cc50908ca48d78cac78fc8e7bc8c29a1decea0a6d3",
+        "git_blob_sha": "022ccff5c3a8112cb33e3a4877a534a4954e07aa"
+      },
+      {
+        "role": "root_packets",
+        "name": "r730_root_packets.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_root_packets.py",
+        "bytes": 77916,
+        "sha256": "b22da89436235bf80081957bd26aae890565e20eb7d2d1cbb8caaaccf50f5599",
+        "git_blob_sha": "0e2af5632ac860abe4ba135a1650e53ba0bc8c17"
+      },
+      {
+        "role": "geometry_selector",
+        "name": "fullclosed_point_inequalities_v2_r730_curvature_cache.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullclosed_point_inequalities_v2_r730_curvature_cache.py",
+        "bytes": 35982,
+        "sha256": "57dad737fba1937c7e269a05f07ec5ed1af32cf49dd864b6e3163187bac1fe07",
+        "git_blob_sha": "164fc5cd1c212a5c17153884dd09e731ba7f2247"
+      },
+      {
+        "role": "analytic_J3_binding",
+        "name": "r730_source_binding.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_source_binding.py",
+        "bytes": 59127,
+        "sha256": "71e0027952cdc4e00a46d3710a0c01003c798edcf4bdf7382a03b8eccabd7917",
+        "git_blob_sha": "69c20da906e6bb756b54520fda7978de3a3ef808"
+      },
+      {
+        "role": "geometry",
+        "name": "r730_geometry.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_geometry.py",
+        "bytes": 88586,
+        "sha256": "72bb5fb77656a22ee855ba7a8c03ca9c30e2bbed9e918d570a63012d080e644f",
+        "git_blob_sha": "6c82c985320c82bc4012275d270484b329019b0e"
+      },
+      {
+        "role": "batched_geometry_binding",
+        "name": "r730_geometry_binding.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_geometry_binding.py",
+        "bytes": 20474,
+        "sha256": "6a6b0bca3eba3488c23b58e39cd2517a3f5afe65349b0c3e617611b32e9269ad",
+        "git_blob_sha": "ce7c33e1be1bdad22bc23022623139766de0f8ed"
+      },
+      {
+        "role": "envelope_transfer",
+        "name": "r730_memory_transfer.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_memory_transfer.py",
+        "bytes": 79003,
+        "sha256": "21139492579e269566959e655bbbbf1d1c99beeefd107e9ec9837bd71f0b6dab",
+        "git_blob_sha": "32231f823190ab37a38bf90ffd2313e803d6facd"
+      },
+      {
+        "role": "driver",
+        "name": "r730_R729_qp.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r730_R729_qp.py",
+        "bytes": 99571,
+        "sha256": "5253389e2a281b09e0e1ba4a56ba6062f33624c39838c650d869413541149867",
+        "git_blob_sha": "fe7eea076e8b7b9d1a5bc590f47cb023fac68bbc"
+      },
+      {
+        "role": "reader",
+        "name": "read_r730_R729_report.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_r730_R729_report.py",
+        "bytes": 93252,
+        "sha256": "3a62a754a62c3e66686fb6ec7899c66897775fbe6646a812dd4b23f67f6da5ba",
+        "git_blob_sha": "e65a6d54882da1a226f5d8c9c5a0c0b8e83acb33"
+      },
+      {
+        "role": "launcher",
+        "name": "launch_r730_R729_actions.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_r730_R729_actions.py",
+        "bytes": 22292,
+        "sha256": "212a7d02c3c23b085faa8d67409e1afeacda4c6b7c75d44ecc1d3ec0ab5f1f2a",
+        "git_blob_sha": "b2a3b803c207d1bbbdd61834f4dfc6d774659fe3"
+      }
+    ],
+    "generated_full_runtime_count": 17,
+    "generated_full_runtime_bytes": 1036532,
+    "generated_runtime_files_are_full_real_Python_files": true,
+    "generated_bodies_altered_to_enable_build": false,
+    "ordinary_build_source": "Seventeen complete published parent files plus209 complete literal source replacements; full input/output identities are in the complete MJS DATA. No fragment is executed.",
+    "wrapper_entry_script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/build_and_launch_r730_R729_actions.py",
+    "wrapper_argument_prefix_science": [
+      "--entry",
+      "science",
+      "--build-record",
+      "{work}/r730-science-source-build.json",
+      "--"
+    ],
+    "wrapper_argument_prefix_pure": [
+      "--entry",
+      "pure",
+      "--build-record",
+      "{work}/r730-pure-source-build.json",
+      "--"
+    ],
+    "complete_inner_argument_vector": "The subsequent parameter package must append the full original157 scientific or7 pure words, in original order, after the five wrapper words.",
+    "inner_argument_counts": {
+      "science": 157,
+      "pure": 7
+    },
+    "wrapper_argument_counts": {
+      "science": 162,
+      "pure": 12
+    },
+    "each_detached_worktree_builds_complete_current_files": true,
+    "old_scientific_entry_file_guard_inspect_and_SHA_checks_unchanged": true,
+    "source_commit_scope": "Actual checkout commit containing the complete build source and complete parents; generated paths are separately recorded and are not claimed tracked at that HEAD.",
+    "build_provenance_separate_from_scientific_role_registry": true,
+    "actual_build_receipt_includes": [
+      "full wrapper argv",
+      "unmodified full inner argv",
+      "complete inner command",
+      "Python and Node versions",
+      "checkout/run identifiers",
+      "all17 full parent/output records",
+      "complete builder result",
+      "actual child return code"
+    ],
+    "no_network_source_dependency": true,
+    "no_fragment_execution": true,
+    "no_new_scientific_test_or_gate": true,
+    "duplicate_tracked_runtime_storage_saved_before_common_metadata": 933521,
+    "direct_source_publication_alternative": "The same17 complete protected Git blobs can instead be published unchanged. The current scientific identities are the same."
+  },
+  "whole_current_runtime_and_role_registry": {
+    "role": "complete_runtime_and_source_binding",
+    "name": "fixed-fejer-r730-R729-current-runtime-binding.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+    "bytes": 61806,
+    "sha256": "f7eda4b71048b816288d8dc92a61db84def183861499117f93986258e86d62ce",
+    "git_blob_sha": "886a7bb94b171381f6df06890b3d4c745a7f750d",
+    "current_runtime_JSON_pointer": "/current_complete_runtime_sources",
+    "full_role_registry_JSON_pointer": "/complete_source_role_registry",
+    "complete_parent_history_JSON_pointer": "/frozen_history"
+  },
+  "current_runtime_count": 24,
+  "current_runtime_bytes": 1272651,
+  "current_scientific_role_count": 139,
+  "complete_other_artifact_count": 21,
+  "complete_file_count_including_this_manifest": 22,
+  "complete_other_artifact_bytes": 1227278,
+  "current_role_comparison": {
+    "parent_roles": 138,
+    "unchanged_complete_pairs": 120,
+    "replaced_pairs": 18,
+    "new_roles": [
+      "seed_length_kernel"
+    ],
+    "complete_changed_pairs_pointer": {
+      "file": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+      "json_pointer": "/current_role_comparison/changed_original_scientific_role_pairs"
+    },
+    "old_seed_mean": "Complete historical source pair retained; not imported by the new driver.",
+    "all_parent_history_whole_reference_preserved": true
+  },
+  "five_physical_sources_already_published": {
+    "roles": [
+      "seed_length_kernel",
+      "seed_reference",
+      "meridian",
+      "new_moment_input",
+      "reference_calibration"
+    ],
+    "complete_records_JSON_pointer": {
+      "file": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+      "json_pointer": "/current_complete_runtime_sources"
+    },
+    "minimal_delivery": {
+      "name": "R730-safe-cone-minimal-reference-complete-source-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/R730-safe-cone-minimal-reference-complete-source-delivery.json",
+      "bytes": 9725,
+      "sha256": "8f59f54e5cffe473c88ae91b2847c763e3a58512ca195bdecf322419ea7e432d",
+      "git_blob_sha": "1dc015fc0e7039be74be60810cd1036bf3184d4c",
+      "role": "complete two-runtime source delivery and honest necessary successor contract",
+      "publication": "0e8cc5ef5f901ccb504357aa41619f5742da862b"
+    },
+    "base_Q_calibration_delivery": {
+      "path": "topics/visible-flex-larger-amplitude/computations/R730-complete-base-Q-calibration-source-delivery.json",
+      "bytes": 13595,
+      "sha256": "3b9b7b9be86aa42215994c17721df6ebd68b42a0992aff2bd78eb338bda6966d",
+      "git_blob_sha": "141b18e1cb08e83cd0da9d78a886e7fa7ff00084",
+      "publication": "547b0839e0ee477f1ff95f0b9aa7598e77bff829"
+    }
+  },
+  "complete_computational_parent": {
+    "publication": "6c07ca019af58f0102a40a00c63027948ee0332a",
+    "selection": "root explicitly selected actual complete 32 R729 common-slack; separate from new R730 physical seed",
+    "source_manifest": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-R729-common-slack-complete-source-delivery.json",
+      "bytes": 11813,
+      "sha256": "e66e28a9c038a311612a9090cab902b4d4690b5430ca38d4dec2b85fead298c9",
+      "git_blob_sha": "eb1e21d6c3abb0a5ef581982e0f0bcf380d2175f"
+    },
+    "runtime_binding": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-R729-common-slack-current-runtime-binding.json",
+      "bytes": 50082,
+      "sha256": "dfd6c5de398fe33fcc44bb4c4d0bb3ddcbf72069ce0432836ff3d42c794c4af5",
+      "git_blob_sha": "ffc501b19d28899f3e0e0d92b4613f747768d594"
+    },
+    "driver_sha256": "501313cc50c2a877f98318193a8878242ec13c2f8a0664740a4ea8c47eb4baa7",
+    "original_QP_then_original_dependent_failure_allrow_fallback_and_all_budgets_retained": true
+  },
+  "shared_current_runtime": [
+    {
+      "role": "scalar_progress",
+      "name": "fixed_fejer_complete_geometry_location_progress.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_complete_geometry_location_progress.py",
+      "bytes": 42637,
+      "sha256": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "git_blob_sha": "bad0be021443e7fa7a8fbfe4ee473f3e05ccadad",
+      "shared_previously_published": true
+    },
+    {
+      "role": "common_slack_dual_recovery",
+      "name": "fixed_fejer_R729_common_slack_dual_recovery.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R729_common_slack_dual_recovery.py",
+      "bytes": 54333,
+      "sha256": "2dfe85c432d91f561a5f9d413f02cbc7d939edab2ea896e7fe4b3f810bc41863",
+      "git_blob_sha": "2877ba8d6503974b6aa84621997bdc051f523929"
+    }
+  ],
+  "complete_R730_proof": {
+    "name": "R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md",
+    "path": "topics/visible-flex-larger-amplitude/results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md",
+    "bytes": 40604,
+    "sha256": "362062d7b90d67e050130266d1c355f267fd97a4e604c5d657178efcdd35c7b8",
+    "git_blob_sha": "41407fa22c569fad73a848ab603b885601066228",
+    "role": "complete R730 proof with explicit fixed-input single-pulse existence",
+    "publication": "3a38882e887dae0688835ccd9b1b41c7eb6d24c6"
+  },
+  "complete_R729_proof": {
+    "path": "topics/visible-flex-larger-amplitude/results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md",
+    "bytes": 16220,
+    "sha256": "d6104084c6a96651e478ab4c0b7f25124ca5859ae03e49fdb4d3a35c9264c87a",
+    "git_blob_sha": "a66c19196b798957a6f905c23e47b2b500b60dd8",
+    "publication": "f687c963cbc899e211a3d083c12b2f1b7e322d4d"
+  },
+  "complete_source_reproduction": {
+    "recipe": {
+      "role": "complete_source_builder",
+      "name": "reproduce_r730_R729_complete_sources.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r730_R729_complete_sources.mjs",
+      "bytes": 95498,
+      "sha256": "652c637701322e37d95b61b5427fc61a6ee64299503726ed67ee35a700ae0c7c",
+      "git_blob_sha": "25153d99ea4a060e59021d301d21f8b1159f4700"
+    },
+    "wrapper": {
+      "role": "source_build_wrapper",
+      "name": "build_and_launch_r730_R729_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/build_and_launch_r730_R729_actions.py",
+      "bytes": 7513,
+      "sha256": "b32f9642a61bd093fcc14ed7e44488e90ac8cbe3cd6fc0d3436da84f861bd401",
+      "git_blob_sha": "0040e34f71e9d3d36cb7aa9b6fd1e423a382b0ba"
+    },
+    "complete_parent_source_records_pointer": {
+      "file": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-current-runtime-binding.json",
+      "json_pointer": "/complete_parent_sources_for_generated_files"
+    },
+    "complete_replacement_count": 209,
+    "all17_complete_forward_and_inverse_texts_equal_their_whole_source_records": true,
+    "exact_inverse_positions_required": true,
+    "character_offset_convention": "ECMAScript UTF-16 character positions in sequential complete file texts, not UTF-8 byte positions.",
+    "no_source_math_reduction": true,
+    "no_python_AST_compile_fixture_or_science_executed": true,
+    "exact_recovery": "Fetch a listed complete generated blob by Git SHA, or run the complete forward recipe from the exact complete main parents; inverse mode recovers exact whole parent sources. Neither procedure uses numerical raw outputs.",
+    "complete_wholetext_accounting": {
+      "closure_values": {
+        "parent_bytes": 61779,
+        "current_bytes": 61779,
+        "patch_count": 2,
+        "parent_sha256": "1e431ab2d3a3786a0c72945d60bdb9c604ff308545a92cd226503962369959b5",
+        "current_sha256": "d43d9c34c95d9d49fdb231253d9a9c596de2fa4d46b11792dbd4f646ea86a9f7",
+        "complete_forward_and_inverse_equal": true
+      },
+      "analytic_J3": {
+        "parent_bytes": 27982,
+        "current_bytes": 27982,
+        "patch_count": 3,
+        "parent_sha256": "62d605649b912833706a1ed1c079b0457235da2cdd83245010c3bd38802a076a",
+        "current_sha256": "6e0493ca4a00e66bd9b290af0dc6d913f0f9e13261a206993fb596a2a02087a0",
+        "complete_forward_and_inverse_equal": true
+      },
+      "analytic_frame": {
+        "parent_bytes": 68750,
+        "current_bytes": 68750,
+        "patch_count": 3,
+        "parent_sha256": "fbb7e8911f9b0de8deac1fcc01fb21d7d9964d74a31e17ebf0225fc90ac90b89",
+        "current_sha256": "77bdef1ebc934754b02653324e310867a3bc2d57af9583e65442d031f53632a3",
+        "complete_forward_and_inverse_equal": true
+      },
+      "detached_meridian_values": {
+        "parent_bytes": 52306,
+        "current_bytes": 52306,
+        "patch_count": 3,
+        "parent_sha256": "2af2d12fbfda3baacbf589812df99db1c6a3cec36b6fcb5d2c321f3c6dbe074c",
+        "current_sha256": "382e53321377ab962bc27864b1c6610016b196aa6492f7425875b4c8bbaea7e4",
+        "complete_forward_and_inverse_equal": true
+      },
+      "frame_C1": {
+        "parent_bytes": 55173,
+        "current_bytes": 55173,
+        "patch_count": 4,
+        "parent_sha256": "1e8187ffac17a28af8232811e0ec67740ab242024a586f43c7ae5e8992eafde8",
+        "current_sha256": "31eae4076a9ca40cecceb0e70afde1a252466404dcaf980a22626693346e66c4",
+        "complete_forward_and_inverse_equal": true
+      },
+      "stage_matrices": {
+        "parent_bytes": 61280,
+        "current_bytes": 61280,
+        "patch_count": 3,
+        "parent_sha256": "a65bd04924d6a99ae1622923a4b3b424009ffc777ee5b0c43b37cf2bfb3ee1cb",
+        "current_sha256": "b261d870c5087e3caee915d5391ec453bcab2705a566d17a2e8b2f92d3b47c83",
+        "complete_forward_and_inverse_equal": true
+      },
+      "adjacent_matrices": {
+        "parent_bytes": 36766,
+        "current_bytes": 36766,
+        "patch_count": 4,
+        "parent_sha256": "dceab1cd9723ce7e6340a6aff7193417282fb0910c329e8a92a14ac0bdd06c9c",
+        "current_sha256": "cc9fc378213ba09b003b96e6fb89ae772a3995c06c39aa88cb2e366d99d219d6",
+        "complete_forward_and_inverse_equal": true
+      },
+      "endpoint": {
+        "parent_bytes": 96366,
+        "current_bytes": 96293,
+        "patch_count": 29,
+        "parent_sha256": "df08d84d5876eac3f7ca62d0be877afc8e0036ab9ef2d67634c100524c2a52ec",
+        "current_sha256": "94c4cc8a871bf1db493ee1cc50908ca48d78cac78fc8e7bc8c29a1decea0a6d3",
+        "complete_forward_and_inverse_equal": true
+      },
+      "root_packets": {
+        "parent_bytes": 77239,
+        "current_bytes": 77916,
+        "patch_count": 1,
+        "parent_sha256": "63ded95631a12d4d6397964d999d62b87e1795a933f995205fc7452817877e62",
+        "current_sha256": "b22da89436235bf80081957bd26aae890565e20eb7d2d1cbb8caaaccf50f5599",
+        "complete_forward_and_inverse_equal": true
+      },
+      "geometry_selector": {
+        "parent_bytes": 35982,
+        "current_bytes": 35982,
+        "patch_count": 2,
+        "parent_sha256": "41434111390b3125c0e4383a6d200f2789049c5fc7283dbce5422a98dbdbfa75",
+        "current_sha256": "57dad737fba1937c7e269a05f07ec5ed1af32cf49dd864b6e3163187bac1fe07",
+        "complete_forward_and_inverse_equal": true
+      },
+      "analytic_J3_binding": {
+        "parent_bytes": 54405,
+        "current_bytes": 59127,
+        "patch_count": 22,
+        "parent_sha256": "8ed9c977019ffe0674268dbd173b4550a22d5f342112b4a02a33f538597e465a",
+        "current_sha256": "71e0027952cdc4e00a46d3710a0c01003c798edcf4bdf7382a03b8eccabd7917",
+        "complete_forward_and_inverse_equal": true
+      },
+      "geometry": {
+        "parent_bytes": 88452,
+        "current_bytes": 88586,
+        "patch_count": 32,
+        "parent_sha256": "bd176ef337575a88f1666479f27d94d503d7d776771ec3e444705e0aea0528ee",
+        "current_sha256": "72bb5fb77656a22ee855ba7a8c03ca9c30e2bbed9e918d570a63012d080e644f",
+        "complete_forward_and_inverse_equal": true
+      },
+      "batched_geometry_binding": {
+        "parent_bytes": 20534,
+        "current_bytes": 20474,
+        "patch_count": 9,
+        "parent_sha256": "0c62a85bcfc844f2b30806cc69e7e7fca4a31794b6ebf13ede444e789b607f75",
+        "current_sha256": "6a6b0bca3eba3488c23b58e39cd2517a3f5afe65349b0c3e617611b32e9269ad",
+        "complete_forward_and_inverse_equal": true
+      },
+      "envelope_transfer": {
+        "parent_bytes": 79039,
+        "current_bytes": 79003,
+        "patch_count": 5,
+        "parent_sha256": "239db4733431c6a5e92b2cb32196a7620680dd957d7e2aa8161de20551663c1a",
+        "current_sha256": "21139492579e269566959e655bbbbf1d1c99beeefd107e9ec9837bd71f0b6dab",
+        "complete_forward_and_inverse_equal": true
+      },
+      "driver": {
+        "parent_bytes": 99884,
+        "current_bytes": 99571,
+        "patch_count": 34,
+        "parent_sha256": "501313cc50c2a877f98318193a8878242ec13c2f8a0664740a4ea8c47eb4baa7",
+        "current_sha256": "5253389e2a281b09e0e1ba4a56ba6062f33624c39838c650d869413541149867",
+        "complete_forward_and_inverse_equal": true
+      },
+      "reader": {
+        "parent_bytes": 93371,
+        "current_bytes": 93252,
+        "patch_count": 41,
+        "parent_sha256": "1464b894cfe2ab2731ab82add4098b759af1ef266730a97e623b0945fda73e9b",
+        "current_sha256": "3a62a754a62c3e66686fb6ec7899c66897775fbe6646a812dd4b23f67f6da5ba",
+        "complete_forward_and_inverse_equal": true
+      },
+      "launcher": {
+        "parent_bytes": 22359,
+        "current_bytes": 22292,
+        "patch_count": 12,
+        "parent_sha256": "da440c59c6fbd798b0dc1711a274e5480de9a8ecb1e71d1382976180ea3bd7f3",
+        "current_sha256": "212a7d02c3c23b085faa8d67409e1afeacda4c6b7c75d44ecc1d3ec0ab5f1f2a",
+        "complete_forward_and_inverse_equal": true
+      }
+    }
+  },
+  "actual_interface": {
+    "report_schema": "complete-fixed-fejer-r730-R729-SO3-QP-v1",
+    "pure_schema": "actual-fixed-fejer-r730-R729-SO3-readout-v1",
+    "normal_schema": "complete-fixed-fejer-r730-detached-meridian-normal-layer-v1",
+    "complete_new_raw_keys": [
+      "safe_cone_seed_definition",
+      "safe_cone_seed_identity_sha256",
+      "safe_cone_seed_binding",
+      "R730_legacy_shape_CLI_unused"
+    ],
+    "immutable_seed_metadata": "Whole operator_metadata_snapshot JSON -> base_complete_metadata -> fixed_safe_cone_unit_seed -> length_root_batch_records",
+    "new_pure_seed_diagnostics": "seed_diagnostics retains the complete actual provider length/inverse record, including full batches and partial failures",
+    "actual_saved_length_objects": [
+      "roots[].complete_working_root",
+      "scalar_root_and_jets",
+      "complete_fixed_xi_length_jets",
+      "complete_prefixes",
+      "complete_control_jets"
+    ],
+    "old_twelve_mean_arrays_inherited": false,
+    "original157_argument_positions": "All remain in the later complete parameter package; two old shape options are explicit unused transport values for new global R730. Seven actual working-budget options remain used.",
+    "original_QP_first_then_R729_trigger_and_full_outer_acceptance_retained": true,
+    "no_global_phase_certificate_inferred_from_working_build": true,
+    "accurate_post_worktrees": "Must also materialize the complete current sources before strict source/inspect consumption. Existing old R727 mean-based readers do not automatically accept this family."
+  },
+  "future_actual": {
+    "run_id": null,
+    "source_commit": null,
+    "model_identity_sha256": null,
+    "current_full_point_sha256": null,
+    "scientific_report": null,
+    "pure_readout": null,
+    "length_root_batch": null,
+    "normal_packet": null,
+    "normal_fee_report": null,
+    "geometry_report": null,
+    "closed_report": null,
+    "R716_report": null,
+    "mesh_report": null
+  },
+  "frozen_parent_failures_and_unknown_history_preserved": true,
+  "refs_queues_jobs_modified": false,
+  "preparation_is_not_scientific_success": true
+}

@@ -445,3 +445,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 09:48:14 UTC — RET95 全部历史报告读回字段与失败边界原字保留
 
 140份完整旧有限报告/标量读回/历史字段清单和执行回执只删字符串外ASCII空白，所有数值字面/数组/字段/失败/未知/历史whole身份原字保。34份输入配方、恢复向量/精确raw重建等排除，35已紧凑不重写；不动request/workflow/现CLI输入或源码。82563B/e77af5874cffbb9d7cbcc2463405eb041b7607b7d001b83d3bb0700c54c3cb9c完整映射及6458B说明同刊，复用原3705B formatter；固定1584d5762c3ed81725a2d3cfb5e1d3f6e233af56原whole恢复供旧hash消费。原1935768B→1531506B，毛404262B、附件89021B、净315241B；无科学重算/删节。此前检测到根README§16而未写ref，已读新diff并记录H后恢复此次普通发布。 双README云核至`f57995b11d7b9e390d61a6f363cdf50bf5febc43`无变（非pull）。
+
+## 2026-11-28 09:51:44 UTC — R730完整139角色源码族与正常源码构建入口
+
+完整五件217805B刊入：139角色/24runtime全binding61806B、全部17父子身份和209全patch的完整MJS95498B、wrapper7513B、完整说明25929B及总表27059B/7be33312260e6af8e21862a046857330c7b4f704f938b854be97d1cb3d8d74de/blob1bf08f8a79cfaf971accb7d10985e3289abcc8de。17生成runtime1036532B完整体均已有protected blob，正常build每个detached worktree从全部已刊父源逐字生成真实整文件再执行，不执行片段/不网络取缺源，不冒这些路径已Git tracked。原file SHA/inspect/normal/typed/source/同源重启守卫全保；build来源和版本、外/内argv、完整父子身份/返回码单记。内层157/7词和原4/64/15/32stage/域/变量/接受规则不减，wrapper仅前置5词为162/12；旧shape2CLI明确legacy_unused，7预算真用新LengthParameters，旧mean12数组/证书不复用。相对32恰120原pair不变/18替换/加length kernel，旧138完整历史保；准确工作误差未付。源码构建是实际入口工作，不是新增测试门，未执行本包Python/AST/科学。已按新§16显式gpt-6.2-astra/ultra/forknone派r730_launch接34全参数和启动，geometry继续准确费用。 双README云核至`56c35c4ca2d36e03831702cf1a4a1ba9ebb8efeb`无变（非pull）。

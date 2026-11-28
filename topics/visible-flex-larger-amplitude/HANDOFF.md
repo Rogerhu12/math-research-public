@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，08:49:21Z此次仍exec-server缺失，恢复即pull。前次探测完整保旧H。云核至`f57995b11d7b9e390d61a6f363cdf50bf5febc43`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。活27–29/31–33控制器通常5分钟真pull，末槽记已读commit。 根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：今后新派subagent显式model=gpt-6.2-astra、reasoning_effort=ultra（fork_turns=none）；已通知三既有代理，数学目标/预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，08:49:21Z此次仍exec-server缺失，恢复即pull。前次探测完整保旧H。云核至`56c35c4ca2d36e03831702cf1a4a1ba9ebb8efeb`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。活27–29/31–33控制器通常5分钟真pull，末槽记已读commit。 根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：今后新派subagent显式model=gpt-6.2-astra、reasoning_effort=ultra（fork_turns=none）；已通知三既有代理，数学目标/预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格缺口明示，继续加强比例。
@@ -23,7 +23,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 R724–728完整证明/源参保results；R728真实w含高度项，最终seed4件a907已刊，不据条件距离冒全K/reach。R729完整全行对偶/可行恢复/gap已证，32实际采用归因尚未返回。
 33正半波R729三包21件925632B全main3ff579；[本次完整记录](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)保全。真实run46130690181/job140934949073，research09:30:05Z启；queue80264，actual输入/科学source/model等待自身返回。保原28物理/137源字，加同一shared kernel为138角色/21runtime；原157/7、458/445、64live、4/64/15全保，575/564诊断。先原QP再dependent两status fallback，remaining64为全扫非CG advances；28 final不当33初值，run/model/point无actual。
-[R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)完整proof已main3a388：真实S∈(2.37,2.38)、κ0=binary.2，η1/32、ξmax3/4、单宽脉冲k6。全角左右长度严格跨S、唯一正根/两角逆弧长六jet、闭参考嵌入/全相位、安全锥双held及D≤4.2已证。**unit径向不代角向Gram、同固定g、reach或非全等。** 新length核/provider5件130462B现全刊；base/Q/calibration6件已刊，solver接其余lower/upper并用已刊32 R729完整算法；旧mean12数组/证书不继，工作误差及全normal/32stage真重算。
+[R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)完整proof已main3a388：真实S∈(2.37,2.38)、κ0=binary.2，η1/32、ξmax3/4、单宽脉冲k6。全角左右长度严格跨S、唯一正根/两角逆弧长六jet、闭参考嵌入/全相位、安全锥双held及D≤4.2已证。**unit径向不代角向Gram、同固定g、reach或非全等。** 五物理源及再生/接口11件已刊；[完整R730/R729源码构建5件](computations/fixed-fejer-r730-R729-complete-source-delivery.json)现刊217805B，139角色/24runtime。每个science/pure worktree以全父源+209全patch先物化17整文件，再执行原157/7科学词（wrapper162/12）；全部原file/SHA/inspect守卫保。按新§16显式派r730_launch准备34全参数/启动；旧mean12数组/证书不继，实际新场与全费用未返。
 
 ## 准确后继与容量
 

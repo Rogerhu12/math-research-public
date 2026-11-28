@@ -122,7 +122,7 @@ R724–727完整证明及原条件/准确费用保results。[R728](results/R728-
 [R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)证全行对偶收敛/可行slack恢复/gap。[32完整启动](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)源8/参数6/launch7全main。真实46125006601两输入0；science20911541/PID3496自身初geometry返model78717/7e06/accepted0，六族/K保自身whole note；1ec676首trial仅统计，几何/接受/R729归因未知，不借31。138角色/24runtime、575/564诊断，原参数与预算不变；active/parent同32、queue78678，自然返后pure61349。
 33正半波R729三包21件925632B全main3ff579，真实run46130690181/job140934949073、research09:30:05Z启，三整步queue80264；28原物理/137源对保留，加shared kernel为138角色/21runtime；原157/7、458/445、64live、4/64/15和全部61request字段保，575/564新读数。先原QP后dependent阻挡fallback，remaining64完整扫不是CG advances；本次run/model/point尚无actual，28 final不作33初值。
 
-[R730完整新参考](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)：真实S∈(2.37,2.38)、κ0=binary.2；η1/32、ξmax3/4、单宽脉冲[1−(2t−1)^12]^7。全角左右长度严格跨S，唯一正根/两角链/逆弧长六jet、参考全闭嵌入/全相位与安全锥距离、D≤4.2已有完整证明。只有径向unit得到；角向Gram/同固定g/reach/非全等仍未付。geometry继续length kernel/provider、base/Q/calibration及真正新normal接口；不伪造旧mean12数组或套旧证书。
+[R730完整新参考](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)：真实S∈(2.37,2.38)、κ0=binary.2；η1/32、ξmax3/4、单宽脉冲[1−(2t−1)^12]^7。全角左右长度严格跨S，唯一正根/两角链/逆弧长六jet、参考全闭嵌入/全相位与安全锥距离、D≤4.2已有完整证明。只有径向unit得到；角向Gram/同固定g/reach/非全等仍未付。五物理源/接口已刊；完整139角色/24runtime构建配方现刊，全部父源+209全patch在每次worktree物化17整文件再跑原science/pure，原guard不改，34参数/launch继续准备。旧mean12数组/证书不继。
 
 ### 准确后继与完成责任
 
