@@ -1,0 +1,171 @@
+{
+  "schema": "isp-exact-small-original-return-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "status": "actual-source-completed-exit-zero",
+  "date": "2026-11-28",
+  "task": "Correct Phi entire ell=1/2: direct raw 20-coordinate 18-column original z certificate",
+  "run": {
+    "run_id": "46141521771",
+    "job_id": "140968304419",
+    "attempt": "1",
+    "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46141521771",
+    "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46141521771/job/140968304419"
+  },
+  "source": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-ell-half-direct-raw-degree-three-z-certificate-8542.py",
+    "git_blob": "6ee987687964a48e1d4ffec6abf1230018de5263",
+    "sha256": "32e949c11469da6350c0403e2aead13d3558fce80f64b78021e3f1f65d87b15e",
+    "commit": "1d259ac3f394c6288c770b8dd1bac733358cd418",
+    "bytes": 13431,
+    "dependency_count": 0,
+    "input_blob": "6d662274a422f8130571f45fb9cd5f1533c48f69"
+  },
+  "resource": {
+    "source_limit_seconds": 120,
+    "driver_limit_seconds": 135,
+    "address_space_limit_bytes": 1073741824,
+    "math_seconds": 0.8639188010000005,
+    "driver_seconds": 0.9388615470000019,
+    "math_max_rss_kib": 39984,
+    "driver_max_child_rss_kib": 40544,
+    "exit_code": 0
+  },
+  "rules_pull": {
+    "after": "4a01d17a28a5f2397674999692752ad6839b4966",
+    "before": "1d259ac3f394c6288c770b8dd1bac733358cd418",
+    "rules_git_blobs": {
+      "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+      "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+    },
+    "rules_unchanged": true,
+    "utc": "2026-11-28T11:47:41.810192+00:00"
+  },
+  "stdout": {
+    "bytes": 8124,
+    "sha256": "951f7f8fd2321c3b9b208f310c6cc0843f8b8f74da91d43e23f863898d13d83c",
+    "coefficients_not_copied": true
+  },
+  "original_definition": {
+    "coordinates": [
+      "u",
+      "epsilon=lambda-1/2",
+      "tau=T+1/2",
+      "z=Q*t"
+    ],
+    "ell": "1/2",
+    "Q": "4(u-1)(u-2)",
+    "raw_names": [
+      "E1",
+      "EBe",
+      "EBo",
+      "N1",
+      "NS",
+      "PS"
+    ],
+    "container": "all ordinary monomials epsilon^a tau^b z^c with a+b+c<=3; not a quotient algebra",
+    "columns": "first four raw quadrics times 1,epsilon,tau,z and two raw cubics",
+    "original_paid_support": "u*(u-1)*(u-2)*(1-Q)*(2*u-1)*(2*(u-1)^2-3)"
+  },
+  "fixed_matrix": {
+    "allOriginalDegreeThreeMonomialsRetained": true,
+    "containerOnlyNotAQuotientAlgebra": true,
+    "noPriorGcdOrThirtyColumnProofGate": true,
+    "originalColumns": 18,
+    "originalIdenticallyZeroRows": [
+      0,
+      1
+    ],
+    "rankOverQQofU": 18,
+    "rows": 20,
+    "seconds": 0.8068808750000009,
+    "stage": "new_ell_half_direct_fixed_polynomial_container_return",
+    "targetConsistent": true
+  },
+  "final_denominator_lcm": {
+    "bytes": 871,
+    "degrees_u_epsilon_tau_z": [
+      26,
+      0,
+      0,
+      0
+    ],
+    "sha256": "f161edba1f417befd7aca7ab135d4c79ffa31de1c101e14055a0bed029c8cadf",
+    "terms": 27,
+    "totalDegree": 26,
+    "zero": false
+  },
+  "retained_cover": {
+    "bytes": 639,
+    "degrees_u_epsilon_tau_z": [
+      20,
+      0,
+      0,
+      0
+    ],
+    "sha256": "01e360b988892d68755864adae1520933535e6c79faf79bb667f1eec33eeb3cb",
+    "terms": 21,
+    "totalDegree": 20,
+    "zero": false
+  },
+  "factorization": {
+    "allEntireConstantFieldsRetained": true,
+    "completeFactorProductReturned": true,
+    "factors": [
+      {
+        "factor": {
+          "bytes": 564,
+          "degrees_u_epsilon_tau_z": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "sha256": "9034b6927e4b9097da053a88284bf004a5f0771c3339efdf14a4562af2b9bb5c",
+          "terms": 21,
+          "totalDegree": 20,
+          "zero": false
+        },
+        "multiplicity": 1
+      }
+    ],
+    "noAdditionalExclusion": true,
+    "seconds": 0.8637348180000011,
+    "stage": "new_ell_half_new_direct_cover_QQ_factors",
+    "coefficient_payload_saved": false
+  },
+  "certificate": {
+    "target": "z",
+    "claim": "C20(u)*z belongs to the six raw original equations I6 over the original paid coefficient ring",
+    "clearing_exponent": 1,
+    "full_matrix_coordinates": 20,
+    "full_raw_polynomial_coordinates": 20,
+    "final_original_multipliers": 6,
+    "final_denominator_products": 6,
+    "all_final_raw_multipliers_combined_before_denominator_lcm": true,
+    "all_unpaid_pure_u_fibers_retained": true,
+    "no_new_geometry_inverse": true,
+    "no_prior_gcd_thirty_columns_C114_or_old_proof_gate_replayed": true
+  },
+  "statistics": {
+    "exactPolynomialDivisionProducts": 2333,
+    "newBareissPolynomialProducts": 2280,
+    "newFinalDenominatorProducts": 6,
+    "newFullMatrixTargetCoordinates": 20,
+    "newRawPolynomialTargetCoordinates": 20
+  },
+  "consequence": {
+    "different_weight_pairs_at_most": 20,
+    "weight_pair_coordinates": [
+      "u",
+      "Q"
+    ],
+    "all_C20_lambda_and_original_value_fibers_retained": true,
+    "whole_physical_ell_half_excluded": false,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "data_policy": {
+    "no_coefficient_payloads_or_encoded_chunks_saved": true,
+    "exact_parameter_definition": "immutable source and fixed matrix construction; profile SHA only"
+  }
+}

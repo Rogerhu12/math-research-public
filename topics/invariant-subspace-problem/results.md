@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi整ell-half直接原z证书与20权覆盖](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-direct-original-z-and-20-weight-cover.md)：唯一首次0.938861547秒/0，raw20×18秩18，完整六乘子给一次C20z∈I6；QQ单一20次因子，至多20权对。整个C20值纤维保留，未给完整点数或整支排空。
+
 - [R267：全部切口的实际平方收缩与无条件强*平方极限](results/R267-appendix-all-cut-square-contractions-and-unconditional-strong-square-limit.md)：真实整数尾给R_NM²=L_NM且||L_NM||≤1，整个QN²序列及两侧正能量无条件强*收敛；原有限旗商保持。未付QN自身一致界、强子列或闭根。
 
 - [R150：整个b0实际同h恢复、原D关系与三个纯权条件](results/R150-appendix-unit211-W-b0-actual-same-head-recovery-three-original-weight-conditions.md)：10.652680686秒/0，h47余34未付、C_D50非零及三原核78/80/87全部返回；h开图精确原商、h=0全J5/I11保，无新全支点界或排空。

@@ -1,0 +1,66 @@
+{
+  "schema": "isp-root-actual-result-reading-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourceBlob": "6ee987687964a48e1d4ffec6abf1230018de5263",
+  "formalSourceBlob": "9e05d5dcff69f0a6a2f9916f61a062e0cf06551c",
+  "actualRun": 46141521771,
+  "actualJob": 140968304419,
+  "receipt": {
+    "elapsed_seconds": 0.9388615470000019,
+    "max_child_rss_kib": 40544,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "4a01d17a28a5f2397674999692752ad6839b4966",
+        "before": "1d259ac3f394c6288c770b8dd1bac733358cd418",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:47:41.810192+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46141521771",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "1d259ac3f394c6288c770b8dd1bac733358cd418",
+    "source_exit_code": 0,
+    "source_git_blob": "6ee987687964a48e1d4ffec6abf1230018de5263",
+    "source_sha256": "32e949c11469da6350c0403e2aead13d3558fce80f64b78021e3f1f65d87b15e",
+    "stdout_bytes": 8124,
+    "stdout_sha256": "951f7f8fd2321c3b9b208f310c6cc0843f8b8f74da91d43e23f863898d13d83c",
+    "stop_reason": null
+  },
+  "rootReadFullFormal": true,
+  "rootRecheckedTerminalClearingSource": true,
+  "completeOriginalIdentity": "sum_i final_i F_i = C20(u) z over the ring of previously paid u units",
+  "terminalLCMDegree": 26,
+  "retainedCoverDegree": 20,
+  "coverClearingExponent": 1,
+  "fullRawAndMatrixCoordinates": [
+    20,
+    20
+  ],
+  "finalMultiplierDenominatorDegrees": [
+    5,
+    5,
+    5,
+    6,
+    4,
+    4
+  ],
+  "allOfThoseDenominatorsPreviouslyPaid": true,
+  "QQFactorDegreesAndMultiplicities": [
+    [
+      20,
+      1
+    ]
+  ],
+  "sourceAddition": "Define A2 and B3 explicitly after equation (11).",
+  "differentWeightPairsAtMost": 20,
+  "allC20ValueFibersRetained": true,
+  "wholeEllHalfExcluded": false,
+  "ordinaryISPClaim": false
+}

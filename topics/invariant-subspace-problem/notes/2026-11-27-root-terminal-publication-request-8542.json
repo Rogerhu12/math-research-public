@@ -1,15 +1,20 @@
 {
-  "message": "ISP: prove all-cut square contractions and unconditional strong-star square limit",
-  "parentCommit": "2a48266cf44ccb600cde0ade79e5eed0b8ac58da",
+  "message": "ISP: reduce entire Phi ell-half cover to 20 and first original b0 C2 Loww input",
+  "parentCommit": "8a5c7fdcb37b9a31b6e7f4bb92961d8c688af507",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R267-appendix-all-cut-square-contractions-and-unconditional-strong-square-limit.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-Haar-all-cut-square-limit-root-reading-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Haar-all-cut-square-limit-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Haar-all-cut-square-limit-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-direct-original-z-and-20-weight-cover.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-direct-raw-degree-three-z-certificate-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-direct-raw-degree-three-z-certificate-8542-root-reading.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-cross-C2-complete-Loww-same-lambda-seven-source-projections-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-cross-C2-complete-Loww-same-lambda-seven-source-projections-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-cross-C2-complete-Loww-same-lambda-seven-source-projections-8542-root-static-reading.json",
+    ".github/workflows/invariant-subspace-8542-w-b0-c2-loww.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-C20-first-W-C2-Loww-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-C20-first-W-C2-Loww-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +23,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-b0-c2-loww.yml"
+  ]
 }
