@@ -432,3 +432,5 @@
 2026-11-28 09:05:59 UTC — Astra-visible-flex-2ecfcd69-20261128：强支新normal实际设计第3/4步自然0/95.222与125.932s，完整normal8.05e−15/1.44e−14；R14².640524→.133123，G11κ51.856→99.062非单调，target |K|42.586/43.038，held guide违差继续明示，设计own4/4。
 
 2026-11-28 09:20:04 UTC — Astra-visible-flex-2ecfcd69-20261128：原背景depth4旧36profile逐值保留，按原参数/积分/source绑定仅补n4–7共36个新profile，自然0/117.709s；depth8完整72profile SHA9f208c79…，不冒原cuff闭合或whole metric。
+
+2026-11-28 09:20:20 UTC — Astra-visible-flex-2ecfcd69-20261128：强支原固定g G10第5/6真步自然0，R14² .148125→.115328；G11 metric .446814→.331046、κ197.425→131.052，full normal 2.47e−14/1.10e−14，own6/6；完整原行及独立观察保持，未成连续解。
