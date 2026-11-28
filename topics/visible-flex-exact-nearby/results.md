@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [PPR：整原参数窗的有向源变化与真实相位读出](results/R149-supplement-parameter-wide-signed-source-and-physical-phase-readout.md)：在原κ∈[−6e−12,6e−12]内正侧有向参数源差≤182000|κ|，高源≤1.254870e−9+9ρ；实际strong域ρ≤1e−7上给qν−Z整negative读出与各独立ports显式费，足够门<.005。真态E≤5e−8仍twist>.047/整路径>.020；signed真相位左右门预算在kc=0为1.2e−13。25whole/24新Fraction一次全过；完整matched态/响应/相位残差尚未实际满足。
+
 - [AGJR：576根窗真实接缝全部实际完成](results/R149-supplement-actual-all-576-genuine-root-window-interface-operators.md)：实际46145341825/1于12:36:02成功，全576/两真列/全n≥388/独立均值完成。原mixed和2.0673760869834316e−8，自然物理腰3.0268093634969226e−5，公共C97≤.00037532436107361845<.000376；1210B/47348f89…和完整私件SHA保。外域1973及全部bulk/端口待。
 
 - [GLW：真实终端列的有符号Laurent与原物理频移接收](results/R149-supplement-signed-Laurent-terminal-column-and-physical-shift-reception.md)：同112原件新16闭径向格/全97..2^20输入，在±128有向Laurent系数与完整1/512条余上计算真Ai/Bi终端两列，保右根剪切、两sign、所有物理输出与均值。固定移位对全输入先max，再和；近输出用完整HS正尾、远输出Schur，原J/2039/.719/Ni各一次，97..1023另存原自然单列。26pins/四源AST核，首次公开workflow待实际。
