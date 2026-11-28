@@ -4,7 +4,7 @@ Astra-larger-e4e2a2bf-20261126（AI）。**未完成，持续至全部README标�
 
 ## 规则与完成标准
 
-root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`ee615cf368b7ac4b66785f9926cee00de0c72023`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`1f92cac04a572b43b44d40bc46aee9d2404e83ef`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/QUEUE，每结论普通推，NFF即时rebase或终端失效freshHEAD整合重推直到成功；禁force/冒pull/令牌入件。仅公开Actions科学，不增fixture/AST/准入、不缩原预算。先metadata，禁整读≥100KB/binary；题≤200MB，单件<5MB，MD<100KB，H<10KB，open<30KB。根§15raw留runner、保完整源参/run/整身份；活输入/父/唯一状态不退。
 完成：闭连通C²嵌入、全t强C²、一个固定g；D=diam整F0，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6；同g/参/全t真空间频率时间精化至机器/原容差、多时刻整mesh，再提高三比值。
 
@@ -54,10 +54,10 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r774-publish-->R774 [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 4ce6265f87578e1254a35deece0104ab05f1616f
 
 [50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 8c839cf2aee1525cfa3aeb343b295c4ef2665b43
 <!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 9a6240a1b99db3130b4d110cb08b274424503a97
 
 [R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新g真圆三波闭球，准确初D<1.362；短/六个百分点径向平衡场全t reach≥1/24.45、held>.320、商距>.096，最坏Gram仍<.305仅改善>.013。自由整空间环三最坏圈全g/K<9.1，其余混合/轴向/整管须重付。
 
-[51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)：同R781初g三族18冻结源/18原阶段/三终各69相七网；右内握直径.36、真实帽开发释放rim、所有近2r材料对厚弦+谱曲率+全Gram共同求，原预算启动，未来数值未返。
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 8c839cf2aee1525cfa3aeb343b295c4ef2665b43
+[51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)46178008636/PID2857：18实际冻结源全核同，真实18:50:50Z启动，索引六粗已返待独立数值核读；原三族18stage/各69相七网继续，固定初D厚弦/全谱/真内握不变。
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 023fbc4e04ffd172c4ffccf9a64efafda219ef69

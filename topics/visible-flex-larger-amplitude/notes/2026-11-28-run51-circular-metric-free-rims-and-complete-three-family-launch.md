@@ -36,3 +36,10 @@ CG160/rtol.0002、damping.0015、9原线搜；基于真实物理Jacobian的每�
 Python3.12.14/NumPy2.3.5/SciPy1.17.0，公共4CPU/16GB、原workflow360min、科学无新局部时限。18冻结科学源加四原公共git控制；完整三索引observer沿用48已审控制，每2700秒真实pull/rebase/check双README，即使无新科学标量也立即整note/H发布，逐次UTC/commit均保存。NFF即时整合再推；任何规则差异先读即遵守。ROOT本地终端在本次明确环境重置后pwd仍不可用，云读取如实标记非pull，公共runner真实pull不冒记为ROOT。
 
 当前严格边界：只参考圆场的全管/商距已证；改动端帽、空间圈、拟合三族的完整全g、全时reach/嵌入、同固定参数真实精化到原容差尚待实际与证明。原49/50/43/44/45/47/R774计算预算不因这个新输入而中止。
+
+
+## 真实启动与十八冻结输入绑定
+
+[公共46178008636/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46178008636)，job141080992753，真实触发/冻结源`a1ada65fca2f77740f7021e4337c6a2840f211e7`；科学PID2857于2026-11-28T18:50:50Z启动。ROOT取[固定017762完整运行索引](https://github.com/Rogerhu12/math-research-public/blob/017762358be60c8aa86f41e53c732e4e3c3484f3/topics/visible-flex-larger-amplitude/notes/run51-circular-free-ring-46178008636-1.json)，19693B/SHA256`489b1e7bef87f0e236e78992d9174d19a1e27ccb1bb73d4261bdb6247e6ead81`/Git`d2598b5b02b7daf34131fcb7187dd98a571f40b1`，三身份核同；18 actual_frozen_inputs的bytes/SHA/Git逐项与已刊原request一致。该实际控制器已索引六完整粗阶段，summary9568B/SHA256`4b7983459de95238a93eb6d0b0216c2ef5c2f66aaeb3ea40505b97c05b7e4501`；这里尚未逐份核那六stage的数值，不能只据控制索引写精度或几何结论。terminal=false、child无返回值，原18阶段和三完整终网继续。
+
+本次索引真实双README pull为18:52:41Z、`6bd4b72b95d7ca1dc82c82887b4408f375d8d0c9`。ROOT云核不是该pull。后续实际阶段与源/参数及各真物理点必须对应后独立登记。
