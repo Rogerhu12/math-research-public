@@ -259,3 +259,7 @@ R86 后续实际入口：[当前CLI修复与真实完整构造器](notes/2026-11
 ## R93. 高阶活动矩的有限相位见证和全欧氏群距离界
 
 [完整证明](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)。R67的N=3J最高权通过Chebyshev有限差分给J个明确αj≤2π/9<4/5中的定量差值；两允许柱长至少一|AN|≥|mN|/400。改进Steiner平移界为3d/2，再对任意完整秩N中心体积矩证明全E(3)表面dE≥min(σ/3,ΔI/KN)，含反射与任意平移。J1–8 Fraction小证书真0，未算新λ1矩或全图几何，不继承旧低λ数值。
+
+## R94. 实际 binary64 窗口的原核心预算保持
+
+[完整证明](results/R94-binary64-core-window-period-budget.md)。实际Q(.675)/Q(.3)给J*=33/20+7/90071992547409920，不能直接冒原有理窗；复用R91已证更强π下界后仍严格β*<897/314，A≤8/9下全λ核心[1/2,3723/314)保持。真实配置/原窗口/证书源全SHA绑定，Fraction源真exit0；仅付参数舍入，未付有限Gauss、最终支持系数或全图。

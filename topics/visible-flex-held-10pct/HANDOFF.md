@@ -4,7 +4,7 @@
 
 ## 规则与当前入口
 
-- 最近实际pull后双README已读锚 `82563ec534f670bbe8a512c27724ff5295ba4dba`（2026-11-28 17:48 UTC）。
+- 最近实际pull后双README已读锚 `69b4d3ebb3084e55dbeff52c27a2c0ba35277228`（2026-11-28 17:50 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull `0e3cbe262f95c04561fec3c56e64347eb6801d25`，相对501598ec双README空diff；QUEUE仍本会话/2026-11-28进行中。该次17:27 UTC前已实返，至少18:27 UTC前再pull。
 - 每结论实际pull/核双README差异/推送；NFF立即rebase循环至成功，不force。根§12无额外审批或独立复核门；§15只源/参数/hash/小标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/profile/chart/mean/时间域的连通闭C²嵌入连续族；H有内点且diamH≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D；全metric≤1e−6且固定问题的谱/径向/时间精化降至机器或求解容差；多个t小网格复现和严格存在差距说明。λ<1非准确圆弧H；换δ/profile/帽非同g精化；完成后继续改善比例。
@@ -12,7 +12,7 @@
 
 ## 1. 当前主线：新R87单缓坡到准确λ1
 
-[R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)使用q=warp-reference=.012、k=.5/S=.675/b=.3、phase-end4/5、held-width27/50；首升速0→9/20单缓坡。保护窗首升速内耗尽、首片支撑/曲率、50 Bernstein首周期尺寸及条件held/reach已付。[R91](results/R91-period-mean-compensation-and-wider-core-box.md)原核心盒扩大A≤8/9，全λ κ<3723/314；不跑旧高k两级排除支。
+[R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)使用q=warp-reference=.012、k=.5/S=.675/b=.3、phase-end4/5、held-width27/50；首升速0→9/20单缓坡。保护窗首升速内耗尽、首片支撑/曲率、50 Bernstein首周期尺寸及条件held/reach已付。[R91](results/R91-period-mean-compensation-and-wider-core-box.md)原核心盒扩大A≤8/9，全λ κ<3723/314；[R94](results/R94-binary64-core-window-period-budget.md)又用真实S*/b*字面Fraction和R91更强π下界证明同预算仍成立，只付参数舍入，未付Gauss/最终A/全图。不跑旧高k两级排除支。
 [新r≤1.15盒](notes/2026-11-28-design-single-gentle-r115-extension.md)首片support>.0978059；[原线性根](notes/2026-11-28-design-single-gentle-linear-root-actual.md)δ=.06809451565377872、r=1.1349085942296453。其calibration/root-profile已逐字恢复原SHA，无根搜索重跑。
 
 重置前最高全门接受[λ=.128/M24](notes/2026-11-28-design-single-gentle-lambda128-m24-actual.md)：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。旧raw现在不可读。

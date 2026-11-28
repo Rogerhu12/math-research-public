@@ -14,6 +14,8 @@
 
 [新R87 λ=.256/M40实返](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)仅metric1.24844e−6未门，M48未知。M32→40平台支持从同一新profile收紧径向tol2e−7，保原全部门；最高原真接受仍λ=.128/M24。
 
+[R94真实窗舍入后果](results/R94-binary64-core-window-period-budget.md)已付实际binary64 S/b下原R91核心预算；最终完整支持A≤8/9、Gauss与材料角求值误差仍须单独核，不用理论真实积分替代有限实现。
+
 ## 2. 完整非线性尾及共同接缝
 
 [原低模真实末态](notes/2026-11-28-tail-low-modes-actual-terminal.md)已达λ.002来源的M8 full-H；sample metric2.9133693236e−8、residual1.8949786217e−9，不含来源剩余16模。M8full→M16首请求收到失败包，具体字符串未知。新路线在较低幅度逐步升模或更细模式阶梯；最终必须原M24或最终λ1源的全部H，保原audit/完整J/native4/chord3及8outer。失败包checkpoint不作接受场。

@@ -1,0 +1,83 @@
+{
+  "scope": "R94 exact consequence for actual binary64 R87 window; no field or Jacobian recomputation",
+  "actual_terminal": {
+    "exec_chunk": "0d052f",
+    "exit_code": 0
+  },
+  "actual_output": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r94-literal-binary-window-20261128/record.json",
+    "sha256": "fe2d342242f66727cc9a6990d403d974a2a4e0046e09c810112ca9f4f44e3845"
+  },
+  "actual_record": {
+    "schema": "R94-literal-binary64-window-core-mean-consequence-v1",
+    "status": "proved_exact_binary64_parameter_substitution",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/certify_binary_r87_core_window.py",
+      "sha256": "08ed8d2a55c9709075dcb9fdec7f39353d43aa16879919dd47e664ea997eeec4"
+    },
+    "source_configuration": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_single_gentle_k050_lambda0.json",
+      "sha256": "c11495a40741c25b8272d4e0f07af952d67e92452fa003eee35a2f7f62264b35"
+    },
+    "source_configuration_homotopy": 0,
+    "inherited_R91_record": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-analytic-core-mean-compensation-box.json",
+      "sha256": "76264ad9149551fa40dc826097b40cf56bfccde2495ab19a762c70b57224a42a"
+    },
+    "inherited_R91_source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/certify_core_mean_compensation_box.py",
+      "sha256": "8278c20e4a06596133361f620954e7382682ce5734eda685b4619fe2e7d2780a"
+    },
+    "unchanged_exact_core_source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py",
+      "sha256": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20"
+    },
+    "premise": "The R53 exact true-integral core, curvature_blend=1, weighted support sum A<=8/9; only S,b,k are interpreted as their actual source binary64 rationals",
+    "actual_parameters_exact": {
+      "halfwidth": "3039929748475085/4503599627370496",
+      "transition": "5404319552844595/18014398509481984",
+      "target_curvature": "1/2"
+    },
+    "true_integral_window_exact": "29723757540645275/18014398509481984",
+    "retained_pi_lower_strict": "1231847548/392109375",
+    "true_period_lower_strict": "2463695096/1176328125",
+    "exact_mean_compensation_upper_strict": "53799078554659079331441553/18834186578917211700582178",
+    "retained_compensation_upper_strict": "897/314",
+    "full_homotopy_interval": [
+      "0",
+      "1"
+    ],
+    "retained_weighted_support_sum_upper": "8/9",
+    "retained_full_core_curvature_interval": [
+      "1/2",
+      "3723/314"
+    ],
+    "upper_endpoint_is_strict": true,
+    "exact_margins": {
+      "S_minus_27_over_40": "1/22517998136852480",
+      "b_minus_3_over_10": "-1/90071992547409920",
+      "J_minus_33_over_20": "7/90071992547409920",
+      "actual_window_fit": "1529920101480042498778357/21190843621661736960000000",
+      "actual_compensation_denominator": "9417093289458605850291089/21190843621661736960000000",
+      "old_beta_ceiling_minus_new_upper": "338673781446996337391506/1478483646445001118495700973",
+      "full_core_ceiling_minus_new_upper": "338673781446996337391506/1478483646445001118495700973",
+      "original_support_curvature_above_k": "1/34",
+      "complete_core_curvature_budget": "348/785"
+    },
+    "finite_Gauss_core_error_certified": false,
+    "actual_support_coefficients_validated": false,
+    "actual_lambda_one_field_produced": false,
+    "new_BVP_or_tail_solve_executed": false,
+    "original_numerical_source_or_gates_changed": false,
+    "whole_surface_geometry_or_metric_certified": false,
+    "readme_completion_claimed": false
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/certify_binary_r87_core_window.py",
+    "sha256": "08ed8d2a55c9709075dcb9fdec7f39353d43aa16879919dd47e664ea997eeec4"
+  },
+  "proof": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/results/R94-binary64-core-window-period-budget.md",
+    "sha256": "672de151c32d575515e50d7a1634cea3a9cda8ff9af9ad0966aed522abae0c5e"
+  }
+}
