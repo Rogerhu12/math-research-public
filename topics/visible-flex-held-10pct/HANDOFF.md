@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `2bf01d8ff1e024cbe14242c2d361a9547cc5fddb`（2026-11-28 06:44 UTC）。私库已认领并成功推 `e96d935de69d7e96381ba17732e6f92350654b2a`，根规则无变。
+- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `e06feddb99c31d31ce56d87670dced0cc45aca33`（2026-11-28 06:53 UTC）。私库已认领并成功推 `e96d935de69d7e96381ba17732e6f92350654b2a`，根规则无变。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
@@ -14,7 +14,7 @@
 
 1. **原R53 δ-design完整割线已到λ=.128/M48。** [真实末投影提取](notes/2026-11-28-design-previous-frontier.json)，原run45821850836，source a0151c8df0c893d8d7dab9b6a02c5ad28db9fcfa。晚返.08/.096/M40全门过；.128/M40只有metric1.2405088e−6未门，原完整lift后.128/M48全门过：1219点、RMS9.19597442076e−7、metric1.59049982984e−7、BC4.14243638022e−13、δ=.06412830439644338、mean2320；run518163de/raw26f89213/physicalf802804a。后.256域异常、.192 MemoryError无raw；worker截止attempt011未知。不能继续把.064当最高锚，也不能把资源异常称不存在。原直接链最高晚返.044/M32，仅属另一分支。
 2. **真实低模尾已full-H，但仍只有M8。** [原run45849403133终态](notes/2026-11-28-tail-low-modes-actual-terminal.md)：来自λ.002/M24原631点前缀，M8/N128暖因子.25/.5/.75/.9/1全原门过；full factor1 residual1.8949786217e−9、sample metric2.9133693236e−8、formalK8.38502633、normalizedFullDefect.0003086785，packet52f92191。随后M16/N256收到worker failed包97fd2b60；具体字符串未发布，不归因为已知某一域错误。M24 full-H/J未执行。
-3. **v2/v3/v4固定g暖链已结束且失败，不重跑。** v5首.004/M24、.003/M24只metric未门；M32在splu MemoryError。旧低q续入的真实末态还须核；原.002接受锚与metric-only未接受seed严格分开。所有旧细节见继承H/原notes，不晋级失败场。
+3. **v2/v3/v4固定g暖链已结束且失败，不重跑。** v5首.004/M24、.003/M24只metric未门；M32在splu MemoryError。[旧v5续入末态已补读](notes/2026-11-28-v5-previous-terminal.md)：.003/M32 RMS.00100269失败、.0025/M24 metric4.43225e−6未门、.0025/M32 RMS.00411025失败，真接受仍.002；原.002接受锚与metric-only未接受seed严格分开。所有旧细节见继承H/原notes，不晋级失败场。
 
 ## 当前实际工作
 
