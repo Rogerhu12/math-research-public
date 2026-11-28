@@ -24,6 +24,8 @@
 
 ## 新增结论
 
+- [R150：W/b0三原最低项与两个谱估值限制](results/R150-appendix-unit211-W-b0-original-initial-ideals-and-two-lambda-valuation-restrictions.md)：83e077唯一0.275701719秒/0；六方向全部22个非零λ估值cell及λ0，原三源精确返回。(-1,0)迫λ非零且vλ=0，(0,-1)迫λ非零且vλ≤0；六ray均没有新整排，有限DVR原模型仍开。
+
 - [R150：一般fixed-(λ,T)/Pf图的原首一三次与三生成推论](results/R150-appendix-unit211-general-fixed-spectrum-Pf-chart-original-monic-t-three-corollary.md)：四原最高系数保完整幂零给单位，任意纯参数weighted N/P目标下原商由1,t,t²生成；真实目标以原U矩明列，无h=k、Δ、Φ或2ell−1假设，Pf=0及权空间继续开放。
 
 - [R150：正确h=k整ell=1/2原支完整关闭](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)：41453唯一7.864830096秒/0，短Cramer三次识别原g12=h3⁴，完整六维常数域内同Q八原返(QδMΔ)^4；全四重幂零提升与独立Δ0/λhalf闭支合成整支，当前碰撞余图可付2ell−1。

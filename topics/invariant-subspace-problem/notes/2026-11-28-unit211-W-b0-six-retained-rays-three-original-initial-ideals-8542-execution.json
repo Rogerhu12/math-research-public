@@ -1,0 +1,1749 @@
+{
+  "schema": "isp-original-initial-boundary-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-28",
+  "result": {
+    "scope": "correct entire W/b0 chart",
+    "fixedPrime": 1009,
+    "conclusions": [
+      "v(e)<0 and v(k)=0 imply lambda nonzero with v(lambda)=0",
+      "v(e)=0 and v(k)<0 imply lambda nonzero with v(lambda)<=0"
+    ],
+    "wholeNewRaysExcluded": 0,
+    "nonzeroLambdaCells": 22,
+    "nonzeroLambdaCellsExcluded": 3,
+    "lambdaZeroBranchesExcluded": 2,
+    "finiteDVRModelClaim": false,
+    "ordinaryISPClaim": false
+  },
+  "source": {
+    "basename": "2026-11-28-unit211-W-b0-six-retained-rays-three-original-initial-ideals-8542.py",
+    "blob": "83e0779c74d39affde14d8b42681454ccacf324a",
+    "bytes": 14167,
+    "sha256": "137fa27bb6bfcdc6bd0a3bf9663b86e0e7390d388aa6715cd19c33ae6d696dc0",
+    "budgetSeconds": 120,
+    "memoryGiB": 1,
+    "outerSeconds": 135
+  },
+  "execution": {
+    "elapsed_seconds": 0.2757017190000042,
+    "max_child_rss_kib": 42604,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "ce5225d5dcd81b6752f8831368ffce3d7c464b05",
+        "before": "8e9e0c09bd7dab5aead36586cb388fdbd3432654",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T14:55:30.379273+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46157115224",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "8e9e0c09bd7dab5aead36586cb388fdbd3432654",
+    "source_exit_code": 0,
+    "source_git_blob": "83e0779c74d39affde14d8b42681454ccacf324a",
+    "source_sha256": "137fa27bb6bfcdc6bd0a3bf9663b86e0e7390d388aa6715cd19c33ae6d696dc0",
+    "stdout_bytes": 52345,
+    "stdout_sha256": "2d66cd2edd8fce1a428debd77ce5d653791f5aa4f131eca3acb6ffd293bf9906",
+    "stop_reason": null
+  },
+  "jobURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46157115224/job/141016111136",
+  "noCoefficientPayloadOrCacheSaved": true,
+  "retainedCellsDoNotAssertOriginalPointExistence": true,
+  "noOldWeightScalarOrFaceGCDTargetReexecuted": true,
+  "actualRecordCount": 42,
+  "allRecordsActuallyRead": true,
+  "mathRecordSummaries": [
+    {
+      "allRationalCoefficientsPIntegral": true,
+      "exactOriginalInputSHA256": [
+        "88bf8a85f29cbe0aa6c11c63d322e08f95777247596dc82858df9047c4d54ed8",
+        "92840a3ef63d3a606929f43dd88e7eb5d02a5f27407ac6fe3dfddaec531e4421",
+        "d3f1f160783983353e5ba1029c55edd80c2430d9ffbb88e0b19019c6f05cb706"
+      ],
+      "fixedPrime": 1009,
+      "lambdaZeroWillBeHandledSeparately": true,
+      "noOldWeightScalarOrFaceGCDGateExecuted": true,
+      "parameterPrefixBytes": 6749,
+      "parameterPrefixSHA256": "53a8d55ef6bcc8dd0eb233ef387420f5e2d40c04c0418ff493d82aa605b1eef9",
+      "seconds": 0.044054113999997924,
+      "sixPreviouslyRetainedRays": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "stage": "new_original_boundary_inputs_defined"
+    },
+    {
+      "allRationalRatiosCovered": true,
+      "lambdaValuationRatioCells": [
+        {
+          "hi": "0",
+          "kind": "open interval",
+          "lo": null,
+          "representative": "-1"
+        },
+        {
+          "hi": null,
+          "kind": "open interval",
+          "lo": "0",
+          "representative": "1"
+        },
+        {
+          "kind": "point",
+          "representative": "0",
+          "value": "0"
+        }
+      ],
+      "lambdaZeroSeparate": true,
+      "ray": [
+        -1,
+        0
+      ],
+      "seconds": 0.04551470599999874,
+      "stage": "new_original_initial_ray_partition"
+    },
+    {
+      "cell": 0,
+      "excluded": true,
+      "originalInitialProfiles": [
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 5,
+            "lambdaDegree": 0,
+            "rDegree": 0,
+            "sha256": "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02"
+          },
+          "minimum": "-9",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            6,
+            2
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 5,
+            "lambdaDegree": 0,
+            "rDegree": 0,
+            "sha256": "043f347c2cdc0d8ce70c38775d24e556c0290acf6d0c87a3a52aa85471cb8d02"
+          },
+          "minimum": "-19",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            10,
+            6
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 9,
+            "lambdaDegree": 0,
+            "rDegree": 2,
+            "sha256": "2275454d272d0f4f68d16b07a290ff368d9e0276733ebdf3da9df23608183030"
+          },
+          "minimum": "-20",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            10,
+            5
+          ]
+        }
+      ],
+      "partition": {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": null,
+        "representative": "-1"
+      },
+      "ray": [
+        -1,
+        0
+      ],
+      "reason": "actual initial monomial unit",
+      "seconds": 0.05207498300000424,
+      "sourceIndex": 0,
+      "stage": "new_three_original_initial_cell_result"
+    },
+    {
+      "cell": 1,
+      "excluded": true,
+      "originalInitialProfiles": [
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 7,
+            "lambdaDegree": 0,
+            "rDegree": 0,
+            "sha256": "6e9fdcb4db16df77fd5c8ce57814d550a6ced6cb10cf4df1efae8efe30659350"
+          },
+          "minimum": "-7",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            6,
+            0
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 7,
+            "lambdaDegree": 0,
+            "rDegree": 0,
+            "sha256": "2d7278ac805f154f2e20543719f00c6a204f949239322efa77328a767dd88ef3"
+          },
+          "minimum": "-13",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            10,
+            0
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 18,
+            "lambdaDegree": 0,
+            "rDegree": 3,
+            "sha256": "7a6a613c4c9886d941388902bbdc05fd52f902788636e0d7d8aa0532c2204223"
+          },
+          "minimum": "-15",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            9,
+            0
+          ]
+        }
+      ],
+      "partition": {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "representative": "1"
+      },
+      "ray": [
+        -1,
+        0
+      ],
+      "reason": "actual initial monomial unit",
+      "seconds": 0.05882286599999986,
+      "sourceIndex": 0,
+      "stage": "new_three_original_initial_cell_result"
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.06656500400000454,
+      "ray": [
+        -1,
+        0
+      ],
+      "cell": 2,
+      "partition": {
+        "kind": "point",
+        "representative": "0",
+        "value": "0"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 2,
+        "degree": -1,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "terms": 0
+      },
+      "completeThreeSourceReturn": false,
+      "nonzeroFixedScalarCount": 0,
+      "originalInitialSHA256": [
+        "6ed283fd579c6db9865a9baa0aa1ea780bb3d981903bf138002b09c8bb02b49f",
+        "08b140edbd396a9ace3375ba8384f50b861495cba4138a71f624e28419d0ab28",
+        "1f661aea530ca56263e23228d4d76d77a184cbd0fbdbaa9488fcf2eff57b99df"
+      ],
+      "returnedMultiplierSHA256": [],
+      "clearingRMonomial": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      }
+    },
+    {
+      "excluded": true,
+      "originalInitialProfiles": [
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 7,
+            "lambdaDegree": 0,
+            "rDegree": 0,
+            "sha256": "6e9fdcb4db16df77fd5c8ce57814d550a6ced6cb10cf4df1efae8efe30659350"
+          },
+          "minimum": "-7",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            6,
+            0
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 7,
+            "lambdaDegree": 0,
+            "rDegree": 0,
+            "sha256": "2d7278ac805f154f2e20543719f00c6a204f949239322efa77328a767dd88ef3"
+          },
+          "minimum": "-13",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            10,
+            0
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 18,
+            "lambdaDegree": 0,
+            "rDegree": 3,
+            "sha256": "7a6a613c4c9886d941388902bbdc05fd52f902788636e0d7d8aa0532c2204223"
+          },
+          "minimum": "-15",
+          "normalizedCoordinate": "e",
+          "remainingCoordinate": "k",
+          "removedTorusMonomial": [
+            9,
+            0
+          ]
+        }
+      ],
+      "ray": [
+        -1,
+        0
+      ],
+      "reason": "actual initial monomial unit",
+      "seconds": 0.06817153300000456,
+      "sourceIndex": 0,
+      "stage": "new_original_lambda_exactly_zero_boundary_result"
+    },
+    {
+      "cellCount": 3,
+      "excludedCellCount": 2,
+      "lambdaExactlyZeroExcluded": true,
+      "ray": [
+        -1,
+        0
+      ],
+      "seconds": 0.0682075380000029,
+      "stage": "new_original_initial_entire_ray_result",
+      "wholeRetainedRayNowExcluded": false
+    },
+    {
+      "allRationalRatiosCovered": true,
+      "lambdaValuationRatioCells": [
+        {
+          "hi": "-1",
+          "kind": "open interval",
+          "lo": null,
+          "representative": "-2"
+        },
+        {
+          "hi": "0",
+          "kind": "open interval",
+          "lo": "-1",
+          "representative": "-1/2"
+        },
+        {
+          "hi": null,
+          "kind": "open interval",
+          "lo": "0",
+          "representative": "1"
+        },
+        {
+          "kind": "point",
+          "representative": "-1",
+          "value": "-1"
+        },
+        {
+          "kind": "point",
+          "representative": "0",
+          "value": "0"
+        }
+      ],
+      "lambdaZeroSeparate": true,
+      "ray": [
+        -1,
+        1
+      ],
+      "seconds": 0.06963756900000106,
+      "stage": "new_original_initial_ray_partition"
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.07626156199999912,
+      "ray": [
+        -1,
+        1
+      ],
+      "cell": 0,
+      "partition": {
+        "hi": "-1",
+        "kind": "open interval",
+        "lo": null,
+        "representative": "-2"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 10,
+        "degree": 2,
+        "sha256": "b8272fbc0c0b146211937eb98d95df2789c59e05459412289f1e835fd9474a5b",
+        "terms": 3
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "4273fe8917f661d4bdd88a887e83ee99e4eeb3065fb0f0f3ee9f87cfc9df0348",
+        "cb67db08f1d465975432b5db8625811a2cd4ed7e1be1f3dbcb674d6e6ba10243",
+        "ab2260a2feb1c67df560ae1bdef1248df468cff17d478feb92e84e8260eeba66"
+      ],
+      "returnedMultiplierSHA256": [
+        "f37dc6dc14040e37bce5101aa9cd34cdb4055c72051f5074aab0a69e8f7d2fd9",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "ae1d53d40a1acce79648549176b7f9d750507080daffbe59f5cd4e832135edd4",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.08308967500000364,
+      "ray": [
+        -1,
+        1
+      ],
+      "cell": 1,
+      "partition": {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": "-1",
+        "representative": "-1/2"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 10,
+        "degree": 2,
+        "sha256": "b8272fbc0c0b146211937eb98d95df2789c59e05459412289f1e835fd9474a5b",
+        "terms": 3
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "4273fe8917f661d4bdd88a887e83ee99e4eeb3065fb0f0f3ee9f87cfc9df0348",
+        "cb67db08f1d465975432b5db8625811a2cd4ed7e1be1f3dbcb674d6e6ba10243",
+        "d64089dcffe55af5f1be10a881019a8511441bfd2b1b7a845a52398e40f1843d"
+      ],
+      "returnedMultiplierSHA256": [
+        "68626ad891bed4db5e284b76e2eff4cd1cd55ddbe1b19c612c75501b7d1020e6",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "d050a2d97eab24249a8a8df9d88df1c3a379ed6b028a8d294821d7845ab279be",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.08971785500000351,
+      "ray": [
+        -1,
+        1
+      ],
+      "cell": 2,
+      "partition": {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "representative": "1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 10,
+        "degree": 2,
+        "sha256": "b8272fbc0c0b146211937eb98d95df2789c59e05459412289f1e835fd9474a5b",
+        "terms": 3
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "25fe2519b83eb081ed08238c4cec7d5eca2370e14add66ae658d1e9aee2446a0",
+        "f562567ec1171cbbf6b0a9fbd2544f426a1697b03e32354dc9642a231bdab217",
+        "42e526ce8162b1e71145ea9ee792d8257bdf3ba5b17727001c2ec617936ce5ef"
+      ],
+      "returnedMultiplierSHA256": [
+        "f34fe81c1d3c47536d6d63d7248457917870768c0c4870899e1696faad0e6f13",
+        "0f5d959b0835eaf91edba7a48d37803c6b6f89f4a3335576abdb059b15514cc7",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "3411e41e6d81737a94f4881004b5bc33a556afc7a2b7b4c4ddce594964a4efdf",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.09646466000000231,
+      "ray": [
+        -1,
+        1
+      ],
+      "cell": 3,
+      "partition": {
+        "kind": "point",
+        "representative": "-1",
+        "value": "-1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 10,
+        "degree": 2,
+        "sha256": "b8272fbc0c0b146211937eb98d95df2789c59e05459412289f1e835fd9474a5b",
+        "terms": 3
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 2,
+      "originalInitialSHA256": [
+        "4273fe8917f661d4bdd88a887e83ee99e4eeb3065fb0f0f3ee9f87cfc9df0348",
+        "cb67db08f1d465975432b5db8625811a2cd4ed7e1be1f3dbcb674d6e6ba10243",
+        "700fac02e5fa8eb81c0d1ddae249632298d8cb2e5466b76854d184dbb3324136"
+      ],
+      "returnedMultiplierSHA256": [
+        "fcd05840630cd00f2028a67b07528dea08f0d1712f8e55b8bfa16725cd8c5d40",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "167bda09d46b43b7ea5e9e41283d63c2b8ee27b719074e6715646355b5f95c0b",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.10473609900000014,
+      "ray": [
+        -1,
+        1
+      ],
+      "cell": 4,
+      "partition": {
+        "kind": "point",
+        "representative": "0",
+        "value": "0"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 87,
+        "degree": 21,
+        "sha256": "50498ddfd9ee4e408c5ded44f5876d72be744e0afd29f6571e9363e42e7fa32a",
+        "terms": 22
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 2,
+      "originalInitialSHA256": [
+        "b3db6a6e9f3d7ee4a63fd59a7dee500c7dd69fc6b810373a13dc3b71257d56d2",
+        "d4e3d89bd77e3ad68838bfc07dfcfec865654692f03b3712a008bbcbdc2b2483",
+        "9651c49c29be3f1d1ea01264fce90e85153ff106472ec545f7fc52d80e19d4ef"
+      ],
+      "returnedMultiplierSHA256": [
+        "2265bd9a0d39e73f23d84ba414475e63c50bc2b86b1a581e9f73407abf6b9317",
+        "c8ab926bad34f86fb8ff7dc130d02a3f82591e8403c944b21e8f1073660ed41d",
+        "675682dc3525095b5f95cb6862c55d4ca6943b1f7d415a6dda707bb19701d12c"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "0c80bf122ad15dd2b6434f9950411676665b8292894636cbc409660a92c96ff3",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_original_lambda_exactly_zero_boundary_result",
+      "seconds": 0.10651380200000204,
+      "ray": [
+        -1,
+        1
+      ],
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 10,
+        "degree": 2,
+        "sha256": "b8272fbc0c0b146211937eb98d95df2789c59e05459412289f1e835fd9474a5b",
+        "terms": 3
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "25fe2519b83eb081ed08238c4cec7d5eca2370e14add66ae658d1e9aee2446a0",
+        "f562567ec1171cbbf6b0a9fbd2544f426a1697b03e32354dc9642a231bdab217",
+        "42e526ce8162b1e71145ea9ee792d8257bdf3ba5b17727001c2ec617936ce5ef"
+      ],
+      "returnedMultiplierSHA256": [
+        "f34fe81c1d3c47536d6d63d7248457917870768c0c4870899e1696faad0e6f13",
+        "0f5d959b0835eaf91edba7a48d37803c6b6f89f4a3335576abdb059b15514cc7",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "3411e41e6d81737a94f4881004b5bc33a556afc7a2b7b4c4ddce594964a4efdf",
+        "terms": 1
+      }
+    },
+    {
+      "cellCount": 5,
+      "excludedCellCount": 0,
+      "lambdaExactlyZeroExcluded": false,
+      "ray": [
+        -1,
+        1
+      ],
+      "seconds": 0.10655404700000304,
+      "stage": "new_original_initial_entire_ray_result",
+      "wholeRetainedRayNowExcluded": false
+    },
+    {
+      "allRationalRatiosCovered": true,
+      "lambdaValuationRatioCells": [
+        {
+          "hi": "0",
+          "kind": "open interval",
+          "lo": null,
+          "representative": "-1"
+        },
+        {
+          "hi": null,
+          "kind": "open interval",
+          "lo": "0",
+          "representative": "1"
+        },
+        {
+          "kind": "point",
+          "representative": "0",
+          "value": "0"
+        }
+      ],
+      "lambdaZeroSeparate": true,
+      "ray": [
+        0,
+        -1
+      ],
+      "seconds": 0.10815992700000265,
+      "stage": "new_original_initial_ray_partition"
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.11456739300000152,
+      "ray": [
+        0,
+        -1
+      ],
+      "cell": 0,
+      "partition": {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": null,
+        "representative": "-1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 7,
+        "degree": 1,
+        "sha256": "70e2d76d72084b8b6abe4a1a9fe18c79443def2a49ad3ce5d36fedb438b02af8",
+        "terms": 2
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "db0809863beb82be9939e518c8d5ec72adf7d48f282b111f573d80bb381313c5",
+        "12652e68c9a5b734cd91da8a643410193e88bcb6fdc2e440e9b8d698778a5e64",
+        "3645487d354a1bf0dd89768af290152970a2f4f6c2b228c8485bf4e7d348e1d0"
+      ],
+      "returnedMultiplierSHA256": [
+        "b947375b0bfeccd848cf93fe0c215cfa8c36d112764eb94fda671c37087d6b95",
+        "361196216a0375a4b01b6a11591f24c38e6304130e3ed47698f090ddd7b2c835",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "12c374123cf81e25d6ad848de8648f1f8e74462c0373c181b2eef91f8ee7449a",
+        "terms": 1
+      }
+    },
+    {
+      "actualCommon": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "cell": 1,
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "6d8c2eee56c8ae1181a0aa86608c03890323fdd0713d9ee40eb9e4f6fc46e53c",
+        "terms": 1
+      },
+      "completeThreeSourceReturn": true,
+      "excluded": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialProfiles": [
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 15,
+            "lambdaDegree": 0,
+            "rDegree": 2,
+            "sha256": "5b028ea8b5dac3d927880deb96f900ffbf5ce84f957842746e03ee9a84521f07"
+          },
+          "minimum": "-9",
+          "normalizedCoordinate": "k",
+          "remainingCoordinate": "e",
+          "removedTorusMonomial": [
+            2,
+            0
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 26,
+            "lambdaDegree": 0,
+            "rDegree": 5,
+            "sha256": "649dd03c2e6df34c5efae9531559994b2b1ffab1055b4ac13d7b714cf6d19683"
+          },
+          "minimum": "-15",
+          "normalizedCoordinate": "k",
+          "remainingCoordinate": "e",
+          "removedTorusMonomial": [
+            3,
+            0
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 35,
+            "lambdaDegree": 0,
+            "rDegree": 7,
+            "sha256": "bdcc97194bdd79efe9921a1cb4c2766f851e59c567ef14d0f8c4d037bc552f38"
+          },
+          "minimum": "-18",
+          "normalizedCoordinate": "k",
+          "remainingCoordinate": "e",
+          "removedTorusMonomial": [
+            2,
+            0
+          ]
+        }
+      ],
+      "partition": {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "representative": "1"
+      },
+      "ray": [
+        0,
+        -1
+      ],
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "returnedOriginalMultiplierProfiles": [
+        {
+          "bytes": 23,
+          "lambdaDegree": 0,
+          "rDegree": 4,
+          "sha256": "d37a1e055fc1c7be2be2cee5c7db559c5ebf50ec2f5ff254b44b32772a7f7ad7"
+        },
+        {
+          "bytes": 11,
+          "lambdaDegree": 0,
+          "rDegree": 1,
+          "sha256": "e693e8af9840d1aa5e856c4add39e0e698aa642fa617dfdb78af7c2059ea0682"
+        },
+        {
+          "bytes": 2,
+          "lambdaDegree": -1,
+          "rDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "seconds": 0.12147579700000222,
+      "stage": "new_three_original_initial_cell_result"
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.1312163429999984,
+      "ray": [
+        0,
+        -1
+      ],
+      "cell": 2,
+      "partition": {
+        "kind": "point",
+        "representative": "0",
+        "value": "0"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 62,
+        "degree": 15,
+        "sha256": "c965dbb6d507f96de35ea1566b352c535801ebf97279be271e59af3bf58059de",
+        "terms": 16
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "25ad5cb6a8f8cef9d589639dd3d4bc65b9c4c5a0927b90beda6c4ca79631f19b",
+        "4b2e50941f07826979780172969d3c85aff7a8263a22f50521f509c43e0a2994",
+        "2ed56fe9cf0980dfc256d518355a9fcb9b21c2cc6c441fd4e6aca36fe3702653"
+      ],
+      "returnedMultiplierSHA256": [
+        "4b63447b40b47e92e950b9d7d4ec30a7fb068888684c4c7b828195ad8d846439",
+        "bd354fa56616135558156f8f7c093260a9cc584e119b2031de779f0a8ece4b92",
+        "10ed30fec6a9aca98de1e876ff28f2aab13ec15b19893aa89efdf17c122d4b0b"
+      ],
+      "clearingRMonomial": {
+        "bytes": 31,
+        "degree": 13,
+        "sha256": "aeae7c9a5589736d109dff16a926f362f6c6bba92f1a66dd8f72fd136f0f14b4",
+        "terms": 1
+      }
+    },
+    {
+      "actualCommon": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      },
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "6d8c2eee56c8ae1181a0aa86608c03890323fdd0713d9ee40eb9e4f6fc46e53c",
+        "terms": 1
+      },
+      "completeThreeSourceReturn": true,
+      "excluded": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialProfiles": [
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 15,
+            "lambdaDegree": 0,
+            "rDegree": 2,
+            "sha256": "5b028ea8b5dac3d927880deb96f900ffbf5ce84f957842746e03ee9a84521f07"
+          },
+          "minimum": "-9",
+          "normalizedCoordinate": "k",
+          "remainingCoordinate": "e",
+          "removedTorusMonomial": [
+            2,
+            0
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 26,
+            "lambdaDegree": 0,
+            "rDegree": 5,
+            "sha256": "649dd03c2e6df34c5efae9531559994b2b1ffab1055b4ac13d7b714cf6d19683"
+          },
+          "minimum": "-15",
+          "normalizedCoordinate": "k",
+          "remainingCoordinate": "e",
+          "removedTorusMonomial": [
+            3,
+            0
+          ]
+        },
+        {
+          "hasPUnitOnMinimumFace": true,
+          "initialPolynomial": {
+            "bytes": 35,
+            "lambdaDegree": 0,
+            "rDegree": 7,
+            "sha256": "bdcc97194bdd79efe9921a1cb4c2766f851e59c567ef14d0f8c4d037bc552f38"
+          },
+          "minimum": "-18",
+          "normalizedCoordinate": "k",
+          "remainingCoordinate": "e",
+          "removedTorusMonomial": [
+            2,
+            0
+          ]
+        }
+      ],
+      "ray": [
+        0,
+        -1
+      ],
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "returnedOriginalMultiplierProfiles": [
+        {
+          "bytes": 23,
+          "lambdaDegree": 0,
+          "rDegree": 4,
+          "sha256": "d37a1e055fc1c7be2be2cee5c7db559c5ebf50ec2f5ff254b44b32772a7f7ad7"
+        },
+        {
+          "bytes": 11,
+          "lambdaDegree": 0,
+          "rDegree": 1,
+          "sha256": "e693e8af9840d1aa5e856c4add39e0e698aa642fa617dfdb78af7c2059ea0682"
+        },
+        {
+          "bytes": 2,
+          "lambdaDegree": -1,
+          "rDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ],
+      "seconds": 0.13302188899999834,
+      "stage": "new_original_lambda_exactly_zero_boundary_result"
+    },
+    {
+      "cellCount": 3,
+      "excludedCellCount": 1,
+      "lambdaExactlyZeroExcluded": true,
+      "ray": [
+        0,
+        -1
+      ],
+      "seconds": 0.13305841600000434,
+      "stage": "new_original_initial_entire_ray_result",
+      "wholeRetainedRayNowExcluded": false
+    },
+    {
+      "allRationalRatiosCovered": true,
+      "lambdaValuationRatioCells": [
+        {
+          "hi": "0",
+          "kind": "open interval",
+          "lo": null,
+          "representative": "-1"
+        },
+        {
+          "hi": null,
+          "kind": "open interval",
+          "lo": "0",
+          "representative": "1"
+        },
+        {
+          "kind": "point",
+          "representative": "0",
+          "value": "0"
+        }
+      ],
+      "lambdaZeroSeparate": true,
+      "ray": [
+        0,
+        1
+      ],
+      "seconds": 0.1344868489999982,
+      "stage": "new_original_initial_ray_partition"
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.14084091099999796,
+      "ray": [
+        0,
+        1
+      ],
+      "cell": 0,
+      "partition": {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": null,
+        "representative": "-1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 5,
+        "degree": 1,
+        "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea",
+        "terms": 2
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "bc1ab314a94c21e1c41c4d0fb0a9be0f1c202d42a917c75ba77e44daee7146c9",
+        "228f334142f3788b53e813804dbc0da7bc837493471e0149221815fd282cb92b",
+        "20c033170a1af3499c4cac19b474abf47e34bbb8a680e21b33414136fef1d525"
+      ],
+      "returnedMultiplierSHA256": [
+        "3f600cfa54e91fe0e12dadc5ca047954662c3973af58822143af2e717b9ede13",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "7e94e1277a7c59d01d0ba535352f529dccc69c8fb30948fabe3c3677d800ce90",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.1474149420000046,
+      "ray": [
+        0,
+        1
+      ],
+      "cell": 1,
+      "partition": {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "representative": "1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 5,
+        "degree": 1,
+        "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea",
+        "terms": 2
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "294480614046c225dd146d4e0a864bdce5ed5dcb402b297b817676071d40bf61",
+        "4115749f0a863eee43d7e643fc96b5761ca97e2928cad96cb3be0ad6772015fb",
+        "086c7786dd0b29feebe1ee91f0bf97d524d3c70f345ac2c7883d340e673c55b7"
+      ],
+      "returnedMultiplierSHA256": [
+        "915c415173932103b186abce0d6841aa5775eeb47f96b5dcb53101ef73c3ed0a",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "572bafc36b7dce6cd311f31e27486e0ff415a155afd6d624ef37a81c24fabdcf",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.15538966799999798,
+      "ray": [
+        0,
+        1
+      ],
+      "cell": 2,
+      "partition": {
+        "kind": "point",
+        "representative": "0",
+        "value": "0"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 2,
+        "degree": -1,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "terms": 0
+      },
+      "completeThreeSourceReturn": false,
+      "nonzeroFixedScalarCount": 0,
+      "originalInitialSHA256": [
+        "46ec049a52581f518d8ca0c8b4fbcb55a68d4ba9e76c7d3d020fa61061a2e0c0",
+        "e1e4a59d205f5e7b9b20bc72a83094369c008b21cc874733964e62b6b9351260",
+        "b0e7cd59d9cbce58cc6c62edb3e5ebe51725d1a90e1c05d69c17a48881a75c29"
+      ],
+      "returnedMultiplierSHA256": [],
+      "clearingRMonomial": {
+        "bytes": 3,
+        "degree": 0,
+        "sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_original_lambda_exactly_zero_boundary_result",
+      "seconds": 0.15727939800000001,
+      "ray": [
+        0,
+        1
+      ],
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 5,
+        "degree": 1,
+        "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea",
+        "terms": 2
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "294480614046c225dd146d4e0a864bdce5ed5dcb402b297b817676071d40bf61",
+        "4115749f0a863eee43d7e643fc96b5761ca97e2928cad96cb3be0ad6772015fb",
+        "086c7786dd0b29feebe1ee91f0bf97d524d3c70f345ac2c7883d340e673c55b7"
+      ],
+      "returnedMultiplierSHA256": [
+        "915c415173932103b186abce0d6841aa5775eeb47f96b5dcb53101ef73c3ed0a",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "572bafc36b7dce6cd311f31e27486e0ff415a155afd6d624ef37a81c24fabdcf",
+        "terms": 1
+      }
+    },
+    {
+      "cellCount": 3,
+      "excludedCellCount": 0,
+      "lambdaExactlyZeroExcluded": false,
+      "ray": [
+        0,
+        1
+      ],
+      "seconds": 0.15735433900000118,
+      "stage": "new_original_initial_entire_ray_result",
+      "wholeRetainedRayNowExcluded": false
+    },
+    {
+      "allRationalRatiosCovered": true,
+      "lambdaValuationRatioCells": [
+        {
+          "hi": "0",
+          "kind": "open interval",
+          "lo": null,
+          "representative": "-1"
+        },
+        {
+          "hi": "1",
+          "kind": "open interval",
+          "lo": "0",
+          "representative": "1/2"
+        },
+        {
+          "hi": null,
+          "kind": "open interval",
+          "lo": "1",
+          "representative": "2"
+        },
+        {
+          "kind": "point",
+          "representative": "0",
+          "value": "0"
+        },
+        {
+          "kind": "point",
+          "representative": "1",
+          "value": "1"
+        }
+      ],
+      "lambdaZeroSeparate": true,
+      "ray": [
+        1,
+        -1
+      ],
+      "seconds": 0.15848683899999827,
+      "stage": "new_original_initial_ray_partition"
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.16477216799999894,
+      "ray": [
+        1,
+        -1
+      ],
+      "cell": 0,
+      "partition": {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": null,
+        "representative": "-1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 8,
+        "degree": 1,
+        "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+        "terms": 2
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "13d63b159fb259a63f932bb3597d6294cadfd0f3d84ca076727b17eca0642652",
+        "41fcffdf4e931cb1ece909d3505548676c980778854a451dbbdeec1fc3e898f2",
+        "d80e91c2d13d760e47744bba146fc55135fb7f5b80d2dbf808bf25f116e976bb"
+      ],
+      "returnedMultiplierSHA256": [
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "36a9516a1b2b22973971c15e6f7b18f911ba9ee675c4f87682434f8798d2f6d9"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "8997079222a8fe280d4cb9d4717009d22676c4e8a4a7ea35f2537bc1a19e9555",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.17103793000000422,
+      "ray": [
+        1,
+        -1
+      ],
+      "cell": 1,
+      "partition": {
+        "hi": "1",
+        "kind": "open interval",
+        "lo": "0",
+        "representative": "1/2"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 8,
+        "degree": 1,
+        "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+        "terms": 2
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "6278c11ed622356293da1705da60d4bb663e87fa71368e3ffa0383d32ee9628d",
+        "7619d8c62a4b1e76caa9ebe33e66d238366acd1a2d2995d2f20957c54252b649",
+        "546255fdd007c0ef0193424cfd60e75423a42db3ed9e5ad623e0d56a441e9877"
+      ],
+      "returnedMultiplierSHA256": [
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "99158a446d48a20669949b9db98a8029460512cb82162d4bc686dcb9ca0f4e4d"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "fe82bcff852291347997f4e6eabbee5ba028f3bb0e577ee033463849fc25fa40",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.17724413300000208,
+      "ray": [
+        1,
+        -1
+      ],
+      "cell": 2,
+      "partition": {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "1",
+        "representative": "2"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 8,
+        "degree": 1,
+        "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+        "terms": 2
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "8614a6cabffb641e039f24b0547e235d1736351ad463b19672e75752bfef92c1",
+        "3b34c991a08a9a5f860498ef82a9b7f5a80c005117c65769d46eb0f41467607f",
+        "158f436dbac0cf76f6843bdc8197114ea4270437ed07230e9e8ddadc960da33c"
+      ],
+      "returnedMultiplierSHA256": [
+        "510d3ead692b346ca27286ee81632eacd646a934e2b5061e577d84471fab4a62",
+        "f9cf99d918d29568519b125ad0a6ba166e82f5f35d4f2fd09aa6ff10d86d638a",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "89c1f224985c1269fdb30d2981bcb81cb97d20d51799fdd803733052bec6fc45",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.18405596400000235,
+      "ray": [
+        1,
+        -1
+      ],
+      "cell": 3,
+      "partition": {
+        "kind": "point",
+        "representative": "0",
+        "value": "0"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 22,
+        "degree": 5,
+        "sha256": "ef7e3aa2cbf19de6db133924c864d5794ea12dea9478477b4e81c771a233298b",
+        "terms": 6
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 2,
+      "originalInitialSHA256": [
+        "34b1dd190dab4c0c01b61ab58c80b2667c349a3602dc2f9613cacd370f9ef34c",
+        "6d6e11ab47f0af3545b7bd48042456c3337f14f9e6dcbc1e960971bcc2379dcf",
+        "1b870f55367100ea766d2904f2f575daf472c42d4d01916f1efac59d0a2ddb67"
+      ],
+      "returnedMultiplierSHA256": [
+        "13a731af6f03c6ca6acfef86fdd94ff232433535d781c50ae7ab08cc7103d262",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "dada93ccefbfa381b293a327e328cc465d4674cd58630e74ab5f282663eb1a3e"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "7ab6100237fda90ed1e5f4039a33bcbf7c44068c5e37b3bd9c6f533e5b31fb44",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.19042382800000013,
+      "ray": [
+        1,
+        -1
+      ],
+      "cell": 4,
+      "partition": {
+        "kind": "point",
+        "representative": "1",
+        "value": "1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 15,
+        "degree": 3,
+        "sha256": "94da6657ece238dae7c0b658620dd4ec5ae09f035d2b896ee7b75e68c2a93fbc",
+        "terms": 4
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 2,
+      "originalInitialSHA256": [
+        "0185915fb9dbc2b328bdb7b982612163136925a26e04df1b40eaf458c1dec9ef",
+        "38261ca3b484e953552b7f164b75e7c20c7cfdd40618a323fe9b02e418fbd04e",
+        "0cea30c2e85ec4f814a38f035f9c70e73cb6c86e44e26074e9d5f5e710531ceb"
+      ],
+      "returnedMultiplierSHA256": [
+        "796e2fae0f5e03d3d0fe1ce1468b222d9e2f7b7767bdee27455a0ba621d8d51d",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "e3176ba5a638e5f50e8b2f90aa9ab5b45cdd29020e40ecf337d61b9e6bf6023d"
+      ],
+      "clearingRMonomial": {
+        "bytes": 11,
+        "degree": 3,
+        "sha256": "1d2464eb276f5b06169d09949d1ece8de7bcac1bcd297538ba735bcc0a7d347e",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_original_lambda_exactly_zero_boundary_result",
+      "seconds": 0.19174755699999935,
+      "ray": [
+        1,
+        -1
+      ],
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 8,
+        "degree": 1,
+        "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+        "terms": 2
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "8614a6cabffb641e039f24b0547e235d1736351ad463b19672e75752bfef92c1",
+        "3b34c991a08a9a5f860498ef82a9b7f5a80c005117c65769d46eb0f41467607f",
+        "158f436dbac0cf76f6843bdc8197114ea4270437ed07230e9e8ddadc960da33c"
+      ],
+      "returnedMultiplierSHA256": [
+        "510d3ead692b346ca27286ee81632eacd646a934e2b5061e577d84471fab4a62",
+        "f9cf99d918d29568519b125ad0a6ba166e82f5f35d4f2fd09aa6ff10d86d638a",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "89c1f224985c1269fdb30d2981bcb81cb97d20d51799fdd803733052bec6fc45",
+        "terms": 1
+      }
+    },
+    {
+      "cellCount": 5,
+      "excludedCellCount": 0,
+      "lambdaExactlyZeroExcluded": false,
+      "ray": [
+        1,
+        -1
+      ],
+      "seconds": 0.19177962799999904,
+      "stage": "new_original_initial_entire_ray_result",
+      "wholeRetainedRayNowExcluded": false
+    },
+    {
+      "allRationalRatiosCovered": true,
+      "lambdaValuationRatioCells": [
+        {
+          "hi": "0",
+          "kind": "open interval",
+          "lo": null,
+          "representative": "-1"
+        },
+        {
+          "hi": null,
+          "kind": "open interval",
+          "lo": "0",
+          "representative": "1"
+        },
+        {
+          "kind": "point",
+          "representative": "0",
+          "value": "0"
+        }
+      ],
+      "lambdaZeroSeparate": true,
+      "ray": [
+        1,
+        0
+      ],
+      "seconds": 0.19278077300000263,
+      "stage": "new_original_initial_ray_partition"
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.19907942700000092,
+      "ray": [
+        1,
+        0
+      ],
+      "cell": 0,
+      "partition": {
+        "hi": "0",
+        "kind": "open interval",
+        "lo": null,
+        "representative": "-1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 27,
+        "degree": 7,
+        "sha256": "f3e49a498d5401e4b1dc101cc217cce39098954d819fa825856f8265b7f21d85",
+        "terms": 8
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "e80d759971c3cc0f38a5a7dfd550a950267d3e9f3881ee375cdc74295b4944a4",
+        "6e02fd294039c41ca920cdfe9cae0c9fe18144ea975e7e1ffb33cc2c05b810eb",
+        "f43762dcb59b90da6214b30a15b692871a495596808bb657957632a3d8a2da16"
+      ],
+      "returnedMultiplierSHA256": [
+        "ca65be95d00581ff1ef13ac7a410f875245bef66ba8d65ac2ea0abc088dccb42",
+        "4ca7088a3926bd518109e1ddf768c612b364e023c661d39510935ca70ea479e9",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "b3f0649332b3e97b263a91b413911fae594bb0ad4cddddaff7e637839c471f30",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.2052417680000005,
+      "ray": [
+        1,
+        0
+      ],
+      "cell": 1,
+      "partition": {
+        "hi": null,
+        "kind": "open interval",
+        "lo": "0",
+        "representative": "1"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 18,
+        "degree": 5,
+        "sha256": "5b86999941ee4b45ee3c4adbc69f844af9c7c0503a14538f1490191605b73f4c",
+        "terms": 6
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "1335c6b4b8ff1e349ff2418c84bf36b5abea74eeaf59639b75f1f6c2ee39d7a6",
+        "0c6c865d99d3cc75144cb6492f037d118f1d661da87b4450393c45fa0a35fd83",
+        "9a4604dcf9a976bb6bbc89ecd35c0283924188cd19e4b0d73aef81a8482cdacd"
+      ],
+      "returnedMultiplierSHA256": [
+        "dce9ef425ec5e0da82d250e4726dbf02eb7bb624b730c97acb547c391825f384",
+        "1d2222ea93cbd3492b02ec77f493274b903e243d0d0c76dc998d39292822d398",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "bf92712bb694b993fbe05220a74d7459473e3a3fc1dfb112e28d6fe18c5ac3be",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_three_original_initial_cell_result",
+      "seconds": 0.21569107199999848,
+      "ray": [
+        1,
+        0
+      ],
+      "cell": 2,
+      "partition": {
+        "kind": "point",
+        "representative": "0",
+        "value": "0"
+      },
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 211,
+        "degree": 54,
+        "sha256": "b294994a87ee18ae7321c556fa7a8aaf9b8f88cdc47d5e951898955334f1a232",
+        "terms": 55
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "e3db4d80c5100440de464d12758a683bc8ae83b191926009d1fb76f3af1b4f0e",
+        "c5127269bc73cce02507cf498cdbbabb8eb74c0ceafb71699702acad8f7fc0e6",
+        "34ffe1773817ab671f4d54ab4a9855d69cbf8d1e2105d00261c930b02e9d379a"
+      ],
+      "returnedMultiplierSHA256": [
+        "7b1589baac079acb059b3accbef64a472844f709e1666e56c0540c163ebbfcdd",
+        "bd38505396815ef49d53f17d2b015f2c69135bca65d714dcc44adcb97da3606d",
+        "5f120ee34aefcf90cc5136e2aee570cef5512eb7f550eac3a11cf2aed29140df"
+      ],
+      "clearingRMonomial": {
+        "bytes": 41,
+        "degree": 18,
+        "sha256": "67a5374fdc3752f2590f08f32b72bf9bcd5e9e982a1cd55131caf11dcf301bd9",
+        "terms": 1
+      }
+    },
+    {
+      "stage": "new_original_lambda_exactly_zero_boundary_result",
+      "seconds": 0.21700481700000296,
+      "ray": [
+        1,
+        0
+      ],
+      "excluded": false,
+      "reason": "fixed initial cofactors and whole r Bezout",
+      "actualCommon": {
+        "bytes": 18,
+        "degree": 5,
+        "sha256": "5b86999941ee4b45ee3c4adbc69f844af9c7c0503a14538f1490191605b73f4c",
+        "terms": 6
+      },
+      "completeThreeSourceReturn": true,
+      "nonzeroFixedScalarCount": 3,
+      "originalInitialSHA256": [
+        "1335c6b4b8ff1e349ff2418c84bf36b5abea74eeaf59639b75f1f6c2ee39d7a6",
+        "0c6c865d99d3cc75144cb6492f037d118f1d661da87b4450393c45fa0a35fd83",
+        "9a4604dcf9a976bb6bbc89ecd35c0283924188cd19e4b0d73aef81a8482cdacd"
+      ],
+      "returnedMultiplierSHA256": [
+        "dce9ef425ec5e0da82d250e4726dbf02eb7bb624b730c97acb547c391825f384",
+        "1d2222ea93cbd3492b02ec77f493274b903e243d0d0c76dc998d39292822d398",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      ],
+      "clearingRMonomial": {
+        "bytes": 5,
+        "degree": 0,
+        "sha256": "bf92712bb694b993fbe05220a74d7459473e3a3fc1dfb112e28d6fe18c5ac3be",
+        "terms": 1
+      }
+    },
+    {
+      "cellCount": 3,
+      "excludedCellCount": 0,
+      "lambdaExactlyZeroExcluded": false,
+      "ray": [
+        1,
+        0
+      ],
+      "seconds": 0.21703764000000092,
+      "stage": "new_original_initial_entire_ray_result",
+      "wholeRetainedRayNowExcluded": false
+    },
+    {
+      "allSixPreviouslyRetainedRaysExcluded": false,
+      "fixedPrime": 1009,
+      "noCoefficientPayloadSaved": true,
+      "noFiniteDVRModelClaim": true,
+      "noOldScalarCurveOrFaceGCDGateReplayed": true,
+      "noOriginalPointExistenceClaimFromRetainedCells": true,
+      "noPaidDenominatorIntegralityClaim": true,
+      "noWholeWOrB0ExclusionClaim": true,
+      "ordinaryISPClaim": false,
+      "peakRSSKiB": 42128,
+      "results": [
+        {
+          "cellCount": 3,
+          "excludedCellCount": 2,
+          "lambdaExactlyZeroExcluded": true,
+          "ray": [
+            -1,
+            0
+          ],
+          "wholeRetainedRayNowExcluded": false
+        },
+        {
+          "cellCount": 5,
+          "excludedCellCount": 0,
+          "lambdaExactlyZeroExcluded": false,
+          "ray": [
+            -1,
+            1
+          ],
+          "wholeRetainedRayNowExcluded": false
+        },
+        {
+          "cellCount": 3,
+          "excludedCellCount": 1,
+          "lambdaExactlyZeroExcluded": true,
+          "ray": [
+            0,
+            -1
+          ],
+          "wholeRetainedRayNowExcluded": false
+        },
+        {
+          "cellCount": 3,
+          "excludedCellCount": 0,
+          "lambdaExactlyZeroExcluded": false,
+          "ray": [
+            0,
+            1
+          ],
+          "wholeRetainedRayNowExcluded": false
+        },
+        {
+          "cellCount": 5,
+          "excludedCellCount": 0,
+          "lambdaExactlyZeroExcluded": false,
+          "ray": [
+            1,
+            -1
+          ],
+          "wholeRetainedRayNowExcluded": false
+        },
+        {
+          "cellCount": 3,
+          "excludedCellCount": 0,
+          "lambdaExactlyZeroExcluded": false,
+          "ray": [
+            1,
+            0
+          ],
+          "wholeRetainedRayNowExcluded": false
+        }
+      ],
+      "seconds": 0.21715527300000304,
+      "sourceSHA256": "137fa27bb6bfcdc6bd0a3bf9663b86e0e7390d388aa6715cd19c33ae6d696dc0",
+      "stage": "new_three_original_initial_boundary_input_finished",
+      "statistics": {
+        "initialFacesWithUnitCoefficient": 84,
+        "newBareissExactProducts": 3867,
+        "newEuclideanProducts": 142,
+        "newFinalThreeSourceReturns": 26,
+        "newFullInitialCofactorReturns": 12,
+        "retainedNonunitInitialFaces": 0
+      }
+    }
+  ]
+}
