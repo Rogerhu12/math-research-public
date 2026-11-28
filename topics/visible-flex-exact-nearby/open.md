@@ -309,3 +309,6 @@ GRQ-R：真实首次46138256969/1在第一个日志成员名选择失败，0恢�
 
 
 AWSS：实际46136409179/1两目标success，7728全闭格/61chunk/577×2含原均值的145219356B载体整index429fe4b9…；完整三个围窗signed内积保所有球。root独立原ZIP/terminal API、19新+184旧current逐字节及32历史descriptor准入，0数值重算；待同一GG与全部自由物理边界接收。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+SAR：对真实WSS全两列在原GG1424格按两条有序递推构造signed particular，保root/cut/outer完整双列和三真实2×2 Gram，另加全部193自由边界。已知high与right97通过min(g_J L*,c_J+g_J d_C)同一源图接收；cut以局部H1真迹付费。必要WSS恢复全61chunks/index而不重算旧polarization；GG尚未成功，未运行新解。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
