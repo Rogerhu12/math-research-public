@@ -119,7 +119,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 初7e06/accepted0/reachg.006249035762618371/distplus.13346402986277572；7722d/adf3c9拒，5a9e64四分之一步仅统计。 |
 | [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | a7ff7c/accepted1/reachg.7008605078876107/distplus.08419920552570004；939ea仅统计。 |
 | [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | model61c654；0927d/accepted2/reachg.5237169415657044/distplus.11392286053783374；e1476仅统计。 |
-| [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | 46112781312双输入0；modeld3d295/初7e06/Phi584.1837411149863/Gram.41789030951309936；distance_plus .1399812067124947唯一正最大、reachg−.03483574522714061；bc818首试仅统计。 |
+| [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | 46112781312/modeld3d295；bc818/accepted1/Phi584.8125864670693/Gram.4179453237576573；distance_plus .13820228685007474唯一正最大、reachg−.03475313540129943；ba2b alpha1仅自身统计。 |
 
 25 [完整同源续跑6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)已实际启，原137/19科学源字不变；完整父report c1be、13final de44、全typed13保。140/7、458/445、64live，新4/64/15预算、两μ显式.01；science整队58022B，真实自然返后整pure46891B，原active ID不变。22官方cancelled且科学未自然返；23–24/26–29完整科学report未返；各整pure已准备，原全字/步不裁。
 原29容量失败及parent更正完整保；真重试同ID visible-larger-resume-20261128-29-retry1，science返后整pure46915B。46111548660只是只读日志诊断，不是科学重试。360min/21000s原预算不变。

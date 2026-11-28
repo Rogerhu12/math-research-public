@@ -181,3 +181,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:07:13 UTC — 25同源续跑自身初几何及b4d1试点统计实返
 
 25 restart-01真实初a28ae六族/K已返，最大reachg.5225620087197518，新accepted0；b4d1试点alpha1自己的Phi681.6450177984617/Gram.40616533565287705已返，几何/接受/报告未返。原父4次不冒新计数、完整64字段与所有原观测错误保固定索引。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`c1492cdc920b26a7c7eca16c370b7cd260de7ef1`无变（非pull）。
+
+## 2026-11-28 07:07:32 UTC — 29真重试实际接受bc818；下一ba2b仅统计
+
+29真重试实际bc818 accepted1，Phi584.8125864670693/Gram.4179453237576573，distance_plus .13820228685007474唯一正最大、reachg−.03475313540129943。下一ba2b alpha1仅自己的639.0000028432506/.4228270554378207统计，geometry/acceptance/report未返；全六族/K/位置/原错误/请求保，不借当前几何冒试点。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`be0934bab97cad4c80a34e10f87377c931c61f51`无变（非pull）。
