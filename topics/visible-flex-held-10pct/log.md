@@ -148,3 +148,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:53 UTC｜Astra-held10-7c4e33ee-20261128：[M32独立v3 prepare-only](notes/2026-11-28-analytic-fixed-support-m32-v3-prepared.md)真exit0、88.001s/451740KiB，1497原x/y/p/scale逐位同；原RHS/固定q-δ-Flow语义核过，无完整J/无BVP。原接受driver与旧v2 SHA不动；后继必须仍付原RMS/BC/metric，准备不作接受。
 
 - 2026-11-28 09:56 UTC｜Astra-held10-7c4e33ee-20261128：[当前D/E同背景literal切口半径](notes/2026-11-28-tail-literal-cut-radius-identity.md)逐来源取Q核c=Rc=5404319552844595/18014398509481984，准确差0，未钳半径、未按十进制3/10替换。只是已保存profile/metadata/输入与R58定义观察；真正fullH bundle还须绑定这一端点，届时重参全带恒等，原完整尾metric/几何仍须支付。
+
+- 2026-11-28 09:58 UTC｜Astra-held10-7c4e33ee-20261128：[M48交接竞态](notes/2026-11-28-design-m48-nodal-interrupt-race.md)如实记：节点门已自动放行、偏导J已开始后，复核断言失败却继续Ctrl-C致exit130；工程调度失误，非数学/资源失败。无完整factor/接受Newton步，真实952×145 nodal cfac9922…保全，后继独立CSR直接消费它，原门不变；控制动作今后必须受同次成功复核条件约束。
