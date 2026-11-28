@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **a612f1c80532bce766d6b0cffb9abcb28549e3ec**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
+公开最近实际pull/双README差异检查至 **a53aaa2608a713a41de664b192a40c252130cf3a**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -30,6 +30,8 @@
 [新等价背景消去范围](notes/2026-11-28-r618-centered-actual-response-scope.md)已实现并本次push触发，源response19519575和完整旧费用直接继承；同根Newton需实际两端符号，点值背景/离解D项全部保留。实际run **46117718197** / job **140895158286** / source19de4da3，2026-11-28 06:40:49 UTC启动。
 
 R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g极限空间。τ1只修核心兼容，当前j2仍锁；宏观须[真实R579核心接口](notes/2026-11-27-r618-current-fixed-E-to-r579-macro-core.md)，amp1e−5不授幅度。
+
+[硬总trace与凸核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已证：保1449自由列，以A/B从属lift准确固定全部P0=P、P1=T(P)，释放原缺j2但不让优化抹掉指定核心；当前τ1态可函数恒等嵌回。由当前凸核心到R579的同周长支撑插值给完整固定目标Pμ及导数，仍同E；正在接入六jets/mean/全位置/tail，未求宏观连接根。
 
 ## C：B030真实d59fa及309b8的剩余8635括号
 

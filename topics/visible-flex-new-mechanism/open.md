@@ -29,6 +29,8 @@
 
 真正宏观放大按[同E→R579核心接口](notes/2026-11-27-r618-current-fixed-E-to-r579-macro-core.md)：现τ只消兼容缺口，P0,j2仍锁−3/85000，须新增真实j2或硬总trace并保同E/全隐式链。R579真周长2π(.85)、canonical方向和ball1.05/strip.37/reach.063只是条件预算；连接、全域支持、跨片reach及固定g精化未付。
 
+[硬总trace完整消元及核心同周长路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已给可实施公式：保旧/compact/tail共1449自由列，A(P−P0*−B0x)+B(T(P)−P1*−B1x)固定真正总端量；新增j2是从属控制。当前τ1接受态准确嵌回，先完成六jets/Jacobian/mean/tail/位置消费，再沿支撑Minkowski插值得到的同一Pμ小步求连接。有限谱精化评价同一完整路径，不能每层换宏观目标；未有全连接根或全空间一致逆。
+
 ## O2b-C：B030真实d59fa与剩余8635峰
 
 [cc117原自然终态](notes/2026-11-28-r566-native-cc117-natural-terminal.md)：run45930250772/job140280968908/sourcee553b6fb，2370.3419954749997秒，5metric+1restore、18J/1320块、48coarse/15fine/14完整localizer。真实d59fa5cf…在1672×3072及2467已闭峰上η.1966187824246114、物理V0。
