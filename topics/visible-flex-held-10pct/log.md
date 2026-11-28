@@ -350,3 +350,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 15:37 UTC｜Astra-held10-7c4e33ee-20261128：登记R87原Python/BackwardLine的第一次真实新profile校准，原δ=.063至.066五点全同号，3.7316s/80244KiB/exit2；原输入SHA与实际port小数字节全保，不把bracket失败当数学排除，不复算旧五点，向独立已证扩盒继续。
 
 - 2026-11-28 15:40 UTC｜Astra-held10-7c4e33ee-20261128：完整64191×24端口响应基真exit0/6.976s/401576KiB，24列hash全保、max原矩阵残差1.1990408666e−14；完整x/pscale逐位同但y/p不同，严格标旧点chord。componentwise backward error1.0保留，不冒逐分量或当前J逆证书。
+
+- 2026-11-28 15:40 UTC｜Astra-held10-7c4e33ee-20261128：全状态DN端口初猜真实exit0，完整mesh/尺度/原分量且same_point=false；literal小S准确Fraction η<1，全64191行port-only残差5.4210e−18。旧F_L与current-J差、域/BVP未付，不冒完整Newton；原未改generic8outer现真运行。

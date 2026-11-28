@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-- 最近实际pull后双README已读锚 `41ca55be2e0a6cd894d6e3b825a6f112f4080928`（2026-11-28 15:40 UTC）。
+- 最近实际pull后双README已读锚 `e9ffb993a37d27352f5838c2e3ef9e5a1a2f32ac`（2026-11-28 15:41 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 ac231f1fc05ed4a813f2fba7af825ddb0ae2658c，双README空diff，QUEUE仍本会话进行中。
 - 集成回退核main `4b1ede76d70345ccc2badeb8584014acc962ebee`；断线时只传小文本，不是假称本地pull。恢复后的实际pull已收齐所有回退提交。
 - 根§12直接推进，不加审批；§15只存源/参数/hash/小结果，不存可再生数据；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论先pull核规则再push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
@@ -48,7 +48,7 @@
 
 fixed actual-DN五源及Cartesian/continuous/closed/mesh四reader已恢复本地，尚未推/未取得真实λ1；不能换标签伪过7a。
 [R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)付原完整64191维Robin→真实DN的rank≤24更新、fixed-g 25维联合块和8outer精确非线性剩余；[补充](results/R85-supplement-complete-residual-and-small-block-validation.md)给真实完整回代误差和literal小块验证。
-[完整24列V真返](notes/2026-11-28-analytic-complete-terminal-response-basis-actual.md)原CSR1814497d…全64191行/24列，session5290/exit0，6.976s/401576KiB；max完整残差1.19905e−14，componentwise error1.0保留。c9旧J与4f5 raw的全部879点x/23维pscale逐位同，y/p不同，只能旧点chord。端口小块与完整初猜真返另录；不称当前J或全DN严格逆。
+[完整24列V真返](notes/2026-11-28-analytic-complete-terminal-response-basis-actual.md)原CSR1814497d…全64191行/24列，session5290/exit0，6.976s/401576KiB；max完整残差1.19905e−14，componentwise error1.0保留。c9旧J与4f5 raw的全部879点x/23维pscale逐位同，y/p不同，只能旧点chord。[完整端口初猜真返](notes/2026-11-28-analytic-boundary-dn-initializer-actual.md)小24块残差2.1684e−19、全64191行port-forcing残差5.4210e−18，candidate δ=.06413464148574244；literal小S的Fraction逆对象明确，旧F_L4.3983e−11/current-J差/非线性域仍欠。原generic8outer于15:33真启动、首mesh已返，最终physical-H待录；未把新初猜注入旧wrapper。
 
 ## 4. 资源与继续
 

@@ -1,0 +1,170 @@
+{
+  "status": "actual_unaccepted_boundary_DN_initializer_returned",
+  "tool_session": 41557,
+  "actual_tool_terminal_exit_code": 0,
+  "reported_elapsed_seconds": 0.9980866010009777,
+  "report_path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-boundary-dn-initializer-20261128-a/initializer.json",
+  "report_sha256": "4221fb99169ecbd936b9f78604340e6ecdb12be6d4fb117208e58211d782842b",
+  "actual_report": {
+    "scope": "A complete, unaccepted boundary-only DN initializer from the R85 response basis.\n\nThe saved old matrix may be a frozen chord matrix.  All original unknowns are\nupdated in the exactly shared computational grid and parameter units.  This\nis not a complete Newton step: the whole source F_L remains an explicit debt.\nNo physical RHS, native solve, BVP, metric or physical-H audit is performed.\n",
+    "status": "unaccepted_complete_boundary_only_initializer_ready",
+    "entry": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_boundary_dn_initializer.py",
+      "sha256": "726dc2123f24be7ad9735bbac813307fffdea5d7fa2fd019cb07992e03f3cdb8"
+    },
+    "BVP_solved": false,
+    "native_tail_solve": false,
+    "physical_RHS_evaluated": false,
+    "original_full_domain_checked": false,
+    "original_RMS_gate_passed": false,
+    "metric_gate_passed": false,
+    "physical_H_audited": false,
+    "accepted_field": false,
+    "fixed_metric_refinement": false,
+    "complete_Newton_step": false,
+    "complete_surface": false,
+    "coordinate_identity": {
+      "complete_computational_mesh_bytes_identical": true,
+      "complete_parameter_scale_bytes_identical": true,
+      "state_order": "All [R0,R1..RM,T1..TM,Z1..ZM] at each original t, then all p",
+      "parameter_zero_meaning": "original additive physical delta increment",
+      "same_point": false,
+      "same_literal_profile_chart_core_port_definitions": true,
+      "same_gauge_warp_and_original_mean_rule": true,
+      "source_mean_nodes": 1168,
+      "computational_chart_definition_bound_by_same_original_command_and_input_hashes": true,
+      "chart_parameter_at_evaluation_point_identical": false,
+      "physical_s_at_two_points_claimed_equal": false,
+      "old_matrix_delta": 0.06413464061798288,
+      "target_source_delta": 0.06413464112662924,
+      "matrix_role": "old_point_complete_frozen_chord_matrix"
+    },
+    "tail_binding": {
+      "prior_proof": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda002-actual-dn-memo-preflight-20261128/memo-proof.json",
+        "sha256": "6ac65c5d969fa7d3db2ff999021e5c083df047e7492c0489abfec64affcde20b"
+      },
+      "source_packet": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+        "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+      },
+      "complete_H_bytes_identical": true,
+      "height_J_count": 1776,
+      "complete_unknown_count": 55344,
+      "original_full_H_J_audit_proof_rechecked_read_only": true,
+      "fresh_native_solve_performed": false,
+      "trace_role": "raw H for an unaccepted initializer",
+      "final_physical_H_not_substituted": true
+    },
+    "prelaunch_estimate": {
+      "available_memory_bytes": 8282021888,
+      "minimum_available_bytes": 805306368,
+      "disk_free_bytes": 696807424,
+      "estimated_gate_not_a_guarantee": true,
+      "full_factor_not_constructed": true,
+      "automatic_wait_or_spawn_used": false
+    },
+    "linear_step": {
+      "equation": "(I + G C Vhat)t = g(H0); DeltaZ = -step_scale Vhat t",
+      "step_scale": 1.0,
+      "complete_Newton_step": false,
+      "small_terminal_residual_max": 2.168404344971009e-19,
+      "complete_boundary_forcing_matrix_residual_max": 5.421010862427522e-18,
+      "complete_boundary_forcing_matrix_residual_l2": 5.4562160204914695e-18,
+      "column_residual_amplification_estimate": 5.560969789714492e-19,
+      "undamped_source_forcing_max": 0.001094205905656563,
+      "remaining_damped_forcing_max": 0.0,
+      "original_F_L_has_not_been_set_to_zero": true,
+      "historical_same_source_full_F_L_observation": {
+        "evidence": {
+          "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-analytic-material-tangent-observed.json",
+          "sha256": "ca7960d4f01cb4727a716cbfe1c7f6b0fc66fec8fd1838713c611d27edf8add8"
+        },
+        "maximum": 4.3983177284010555e-11,
+        "current_process_reevaluation_performed": false,
+        "numerical_observation_not_interval_bound": true
+      },
+      "current_point_internal_J_minus_old_J_unpaid": true,
+      "all_original_state_and_parameter_corrections_retained": true
+    },
+    "literal_small_matrix_certificate": {
+      "object": "Only the supplied literal rounded small terminal-forcing matrix",
+      "exact_rational_residual": {
+        "numerator": "47292539898420990998017299522355",
+        "denominator": "91343852333181432387730302044767688728495783936"
+      },
+      "less_than_one": true,
+      "full_original_J_inverse_certified": false,
+      "current_physical_derivative_certified": false,
+      "complete_response_errors_enclosed": false,
+      "inverse_norm_inf_upper": {
+        "numerator": "395243814376435050072374603131883721978202292224",
+        "denominator": "91343852333181385095190403623776690711196261581"
+      },
+      "condition_inf_upper": {
+        "numerator": "1442040957308860178464742031179417159771653505024",
+        "denominator": "91343852333181385095190403623776690711196261581"
+      }
+    },
+    "trial": {
+      "additive_delta_parameter": -9.683578437790119e-06,
+      "original_candidate_delta": 0.06413464148574244,
+      "maximum_absolute_state_correction": 1.9412805751382563e-05,
+      "maximum_absolute_normalized_parameter_correction": 0.00023605065823612047,
+      "physical_g_unchanged_claimed": false,
+      "original_model_domain_unpaid": true
+    },
+    "result": {
+      "initial_raw": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-boundary-dn-initializer-20261128-a/initial.npz",
+      "initial_raw_sha256": "02718e5c95e9850eb0eef033cb6ce32de9246eeb22e6f092760df975734f3636"
+    },
+    "inputs": {
+      "basis_report": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-basis.json",
+        "sha256": "e066c3d1a1d509d0955eedd1427fb1849018930b42faeef5b8b2e5b2af2940f7"
+      },
+      "source_run": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+        "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+      },
+      "source_raw": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/inner-00.npz",
+        "sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616"
+      },
+      "source_physical": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/physical.npz",
+        "sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0"
+      },
+      "matrix": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-direct-csr-m24-20261128/actual_direct_csr.npz",
+        "sha256": "1814497d5cb4d5159b3f90eb52be4ff276cf281cb4a05cc29547b2b4a179265c"
+      },
+      "matrix_input": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/lambda002_m24_jac_input.npz",
+        "sha256": "c9c4906fb944a82d59f752d74332157dc564b841d269148de20206d937a4edde"
+      },
+      "old_full_H_packet": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+        "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+      },
+      "original_definition_sources": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+      },
+      "original_definition_inputs": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_profile_linear_root.json": "3f4042ffe0666bf8ba5b09dca3d056f9b0604b8e4ab3367e537d924bb7b0cfcc",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/m24-linear-port.json": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+        "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/complete_lift_to_m24/initial.npz": "c9c4906fb944a82d59f752d74332157dc564b841d269148de20206d937a4edde",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/multistage_wide_circle_lambda0p002.json": "5ed9c06fd52c2162304560722f71751287c81497cd15967820e1f223c7283223"
+      }
+    },
+    "elapsed_seconds": 0.9980866010009777
+  },
+  "executed_original_generic_outer_uses_this_initializer": false,
+  "scientific_arrays_committed": false
+}
