@@ -1,0 +1,58 @@
+name: visible-flex true nonanalytic dyadic collar interval ports
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r734-true-dyadic-tail-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r734-true-dyadic-tail-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r734-true-dyadic-tail-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r734_true_dyadic_tail.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md
+            /topics/visible-flex-new-mechanism/results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md
+            /topics/visible-flex-new-mechanism/results/R731-piecewise-analytic-flat-rim-rotational-metric-rigidity.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r734-true-dyadic-tail-scope.md
+            /.github/workflows/visible-r734-true-dyadic-tail-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and run the bound physical input
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r734-true-dyadic-tail-20261128.json
+          --lane actual-dyadic-ports
+      - name: Preserve the original paid state and exact next operation
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r734-true-dyadic-tail-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/r734-paid-tail/
+          retention-days: 30
+          if-no-files-found: error

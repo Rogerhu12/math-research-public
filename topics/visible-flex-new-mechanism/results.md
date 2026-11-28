@@ -41,3 +41,5 @@
 - [R705 自然终态：四工作相位、七独立相位及已付矩阵](notes/2026-11-28-r705-four-work-seven-independent-and-paid-normal-natural-terminal.md)。11相位源与末几何均未过；140×140真normal存在，α索引4未完。
 
 - [R714 自然终态：原4261队列已闭与真实outer52状态](notes/2026-11-28-r714-4261-resolved-and-actual-outer52-natural-terminal.md)。原4261已全闭；保留cb8b…81q，outer52的2039需求不能借2031资格。
+
+**R734.** [真实二进非解析平领与衰减半频方向](results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md)：确切w上固定j≥2有唯一真实稳定线，完整Cartesian零应变和C²两jet拼帽；原固定g有限q残差O(q²)。[首公开区间工单](notes/2026-11-28-r734-true-dyadic-tail-scope.md)为两边j2/3完整实际胞；非线性闭壳及j1帽倾仍未授。
