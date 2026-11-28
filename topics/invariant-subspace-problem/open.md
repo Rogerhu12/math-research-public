@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-positive-e-k-minus-two-integrality-2095-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-k-four-original-tangent-exclusion-2100-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088与U0另3保。负e/正k/负k整ray已闭；仅余(-1,1),(1,−1),(1,0)与内部/已付分母DVR边界。新[正e k−2正ell排除与整位移](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-positive-ell-exclusion-and-integral-center.md)：完整原q2先排λpole，再迫D/ell²首值−4λbar²/9、K/ell²首值−λbar，R6阶4d/6d冲突；故v(k+2)≥ve，余Z=(k+2)/e整且ell单位或极点。k首值≠−2旧λ限制保；k4pole新三个完整原四阶式run46169312729真0.346877190秒/42804KiB/0全返，正在原切锥核，尚不计整射线关闭。旧执行边界不改，整W空性继续。
+W旧闭支/≤616824、b0≤23088与U0另3保。负e/正k/负k三ray闭；仅余(-1,1),(1,−1),(1,0)及内部/已付分母DVR边界。新[正e k4全部pole的原切锥排除](results/R150-appendix-unit211-W-b0-positive-e-k-four-pole-complete-original-tangent-cone-exclusion.md)dbe928唯一0.346877190秒/42804KiB/0，全原q2/R6/N5四阶及完整余项返；二次头两线经215/576/487矛盾只共同原点，取最小赋值坐标覆盖所有比例。故k首值≠−2时λ必单位。k−2已排vℓ>0、Z=(k+2)/e真整，ell单位/极点及所有λ保留。所有旧执行边界不改，整W空性继续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 

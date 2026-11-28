@@ -26,7 +26,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-before-W-e-one-DM-exclusion-2050-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-28-results-before-W-k-four-original-tangent-exclusion-2100-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：W/b0 正e、k首值4的全部lambda极点由完整原切锥排除](results/R150-appendix-unit211-W-b0-positive-e-k-four-pole-complete-original-tangent-cone-exclusion.md)：唯一0.346877190秒/0返回三个原四阶式及完整余项；二次q分两线，R/N余215/576/487于1009非零，共同切锥仅0。最小赋值坐标与≥三阶余项付全部更深中心；故正e且k首值≠−2时λ必为单位。整ray仍开。
 
 - [R150：W/b0 正e、k首值−2中心的正ell排除与整位移](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-positive-ell-exclusion-and-integral-center.md)：原b0/q2/R6完整覆盖λ所有估值，vℓ>0迫D/K同阶2vℓ但R6项阶4vℓ/6vℓ不合；得到v(k+2)≥ve。Z=(k+2)/e真整，余ell单位/极点未闭。独立纸证无新执行。
 
@@ -87,19 +91,3 @@
 - [R150：正确Phi完整Vlow的第二非零纯权支持与公共曲线双次界](results/R150-appendix-unit211-Phi-zero-corrected-complete-Vlow-second-weight-support-and-common-curve-bidegrees.md)：079cc唯一3.530707191秒/0，新固定G14非零/总度≤730；F双次402/222、G的Q371和u642..643。两条完整模切片与保度通过整闭局部Gauss环严格给QQ公共gcd双次≤41/68，公共曲线及孤立交点继续保留。
 
 - [R150：正确Phi原N1最高极化单位与完整I6全权十三生成](results/R150-appendix-unit211-Phi-zero-corrected-original-N1-highest-unit-and-whole-I6-thirteen-generators.md)：完整六项极化在已控幂零商中为零，原N1校正−4s⁴/P02为单位；不加R6即排全部最高方向。(2,2,3)与固定21行degree5满射给原I6的13个指定单项式全权生成，物理局部化与原权曲线仍保范围。
-
-- [R12：首位符号、实际平方分式零因子与单前向列直接超不变桥](results/R12-appendix-first-bit-gauge-zero-divisors-and-single-forward-column-hyperinvariants.md)：V²=CP²给两个非零有界零因子；原连续J对称形式使An²→C与一条首位本征强列直接返回同尾超不变空间，实际PtΩ源经有界单位准确归约，含m0=0。全尾乘积余项有范数bN/4界；实际列紧性仍开。
-
-- [R150：正确h=k整ellhalf的五原Q目标与完整六次u支持](results/R150-appendix-unit211-hk-ell-half-original-five-Q-cofactors-and-entire-sextic-u-cover.md)：首次6.111232795秒/0，真dual八行和五固定Sylvester全回，整K2[u]g12最终回八原式；正QQ范数是不可约六次四重。仅必要u覆盖，所有Q纤维与重数保，不宣整ellhalf排空。
-
-- [R150：正确h=k全Pf固定谱图的原首一t三次与三生成](results/R150-appendix-unit211-hk-whole-fixed-spectrum-original-monic-t-three-and-three-generators.md)：完整N0/P1仿射消去f/V，真均值与Loww四个最高系数在整权环生成单位，显示幂零提升后由(J−Q)/4得到矛盾；原理想含首一t³，1,t,t²全权生成，无新ellhalf/Δ/Φ/D逆。各权纤维长度≤3，权支撑与物理空性仍开。
-
-- [R150：正确Phi全部最高方向排除与全权二十二生成](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-unit-ideal-and-twenty-two-generators.md)：真均值/完整Loww/R6的最高系统在整权环保幂零排空；(2,2,6)正则序列和固定45行degree8满射给未几何局部化必要代数22个指定单项式全权生成，旧392例外全部纳入。原值空性和权曲线仍开。
-
-- [R150：正确Phi最高D2与λ1的整环单位](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-D2-original-unit-ideal.md)：真三均值与R6最高图中，通过λ1⁸/T1⁸和有限幂零理想给整环单位结论；不倒物理D或原λ，不宣最高图或原图已空。
-
-- [R150：正确Phi的完整Vlow普通均值迹与两条原t八次](results/R150-appendix-unit211-Phi-zero-corrected-t-complete-Vlow-original-mean-trace-and-two-octics.md)：dec774唯一3.755020568秒/0，全部Z三系数给真Vlow总5；十八步普通降次全返r=(5,4,4)及三mean迹。两新三原cofactor全返t8总71/75，所有新头与旧斜率/H28零面保，无全权排空。
-
-- [R150：W/b0固定1009的三条已排赋值方向及六条保留边界](results/R150-appendix-unit211-W-b0-three-excluded-1009-Newton-directions-and-six-retained-boundaries.md)：949603唯一3.014292秒/0，全部系数p整/顶点p单位，九共同Newton边完整Bézout。排(-2,1),(-1,-1),(-1,2)；非零赋值向量只可能其余六射线，未证存在或全整性/原排空。
-
-- [R150：正确Phi三个真实头的例外权支持至多392](results/R150-appendix-unit211-Phi-zero-corrected-three-heads-392-exceptional-weights.md)：新H28 QQ不可约总28与旧corrected overlap头H14非零总14，纸证互素/复零维交/Bézout392；三头同零只可能在该有限交，外部有18生成模型。只收紧例外权支持，全部几何纤维与独立尺度保，无新执行。
