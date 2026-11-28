@@ -1,0 +1,210 @@
+{
+  "actual_preparations": {
+    "a": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/storage-reclamation-preparation-20261128-a/actual-terminal.json",
+      "record": {
+        "Jacobian_or_BVP_executed": false,
+        "actual_tool_chunk": "4f9be9",
+        "actual_tool_exit_code": 1,
+        "cause_in_source": "inspect.getsource method was textwrap.dedent-ed by four spaces, while exact source anchors and inserted hook retained those four spaces",
+        "compile_exit_code": 0,
+        "exception": "RuntimeError: The original one-array-at-a-time mapper changed",
+        "fixed_source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v2.py",
+        "fixed_source_sha256": "abba44f46e4a5b547a04276b90d59aa19792b5f22fedf8c957d57cd008b313af",
+        "help_exit_code": 1,
+        "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation.py",
+        "source_modified_in_place": false,
+        "source_sha256": "310874d19c77cc74b8e82e4a2d96898dd705aea1e4b785446f245d38e3b39c40",
+        "status": "actual_help_import_failed_before_numerical_execution"
+      },
+      "sha256": "63f225326034266712e5cb4393c3f0c09433057754d1dbb1b358694d0891ab8d"
+    },
+    "b": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/storage-reclamation-preparation-20261128-b/preparation.json",
+      "record": {
+        "Jacobian_or_BVP_executed": false,
+        "commands": [
+          {
+            "argv": [
+              "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+              "-m",
+              "py_compile",
+              "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v2.py"
+            ],
+            "exit_code": 0,
+            "seconds": 0.10095622199878562,
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "argv": [
+              "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+              "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v2.py",
+              "--help"
+            ],
+            "exit_code": 0,
+            "seconds": 0.67144960800033,
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout_sha256": "dff6da0e8bd909f3053bb72df84d4a819c76bc185a91af3c974ff639d4d14e17"
+          },
+          {
+            "argv": [
+              "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+              "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v2.py",
+              "--describe"
+            ],
+            "exit_code": 0,
+            "seconds": 0.5572519550005381,
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout_sha256": "ae4110b05fbd144b6207f1af636eadc54673d78cc6ddcf6ec10165b8294ff23e"
+          }
+        ],
+        "contract": {
+          "CSR_mapper_with_post_del_callback_sha256": "b708e7d8a6390f4d69e2c6ec77148beb1fd9936427258a51b0dc307f05314a06",
+          "durable_observation_relative_path": "storage-reclamation.jsonl",
+          "extra_journal_bound_not_a_matrix_or_scientific_checkpoint": true,
+          "factor_mapper_with_post_del_callback_sha256": "0dc51681a6af47845de4a2a6116c63a190e06c0fd03db31acfec8cce31d4e0e0",
+          "large_J_or_BVP_executed": false,
+          "original_CSR_mapper_constructor_sha256": "87f0c23cb284c7712e6c121bc81e407a84968c8386bb6340e27e914d81039f97",
+          "original_QR_constructor_unchanged": true,
+          "original_dependency_hashes": {
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/actual_process_memory_limits.py": "1e208cfbcf58ff9c9dd9e794b4426eb8c1767d707bcfc0fcf6e78cc734071114",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_csr_prefactor_mmap.py": "213957953e7f98be6b3a598a67feb4454120b9abded9fdda0423ee5fe5358b99",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_factor_mmap.py": "12c18e96f333b588c9e8ac8db423976d2210f36c705b40c467f144d9a06994eb"
+          },
+          "original_factor_mapper_constructor_sha256": "54562e86193af4666cd6a33c1235a081e7ca2acfca53fece56219bc4b40bcabc",
+          "original_solve_method_identical": true,
+          "positive_reclamation_measurement": false,
+          "posix_file_cache_advice_available": true,
+          "prepared_storage_entry_only": true,
+          "resource_gates_must_be_kept_by_the_caller": true,
+          "scope": "Additional reclamation around the unchanged complete CSR/QR algorithms.\n\nThe original mapper already replaces each persistent array separately. This\nentry does not claim to remove an old-array list that never existed. It adds\nallocator collection before each original mapping phase, collection after\n16 MiB of original arrays have actually been replaced, and file-cache advice\nafter the original flush and mapped-page advice. All original bytes, shapes,\norders, copy checks, CSR entries, QR arithmetic and residual checks remain.\n\nPOSIX_FADV_DONTNEED is advice, not evidence that a cgroup charge has fallen.\nThe small durable journal records the actual process and readable cgroup\nobservations; inaccessible cgroup files remain unknown. No cause is assigned\nto any prior killed process. Construction peaks and original resource gates\nstill apply. This module does not run a BVP or construct a test matrix.\n",
+          "top_level_constructor_code_object_identical": true
+        },
+        "factor_mapping_executed": false,
+        "large_arrays_created": false,
+        "maximum_children_RSS_KiB": 48976,
+        "seconds": 1.3299310809998133,
+        "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v2.py",
+        "source_sha256": "abba44f46e4a5b547a04276b90d59aa19792b5f22fedf8c957d57cd008b313af",
+        "status": "source_compile_help_and_contract_only"
+      },
+      "sha256": "0d7726c9f4e593c611cb5b3ac50077be3085eee4fe080b8379a9566247fdc5cf"
+    },
+    "c": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/storage-reclamation-preparation-20261128-c/preparation.json",
+      "record": {
+        "Jacobian_or_BVP_executed": false,
+        "commands": [
+          {
+            "argv": [
+              "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+              "-m",
+              "py_compile",
+              "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v3.py"
+            ],
+            "exit_code": 0,
+            "seconds": 0.09282898400124395,
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "argv": [
+              "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+              "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v3.py",
+              "--help"
+            ],
+            "exit_code": 0,
+            "seconds": 0.6872727670015593,
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout_sha256": "e7e0b97bfe845824f19fce54459d8f97bf1a038359dfc4190d2f988a969eb79c"
+          },
+          {
+            "argv": [
+              "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+              "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v3.py",
+              "--describe"
+            ],
+            "exit_code": 0,
+            "seconds": 0.6334192449994589,
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout_sha256": "81fa0714776267e6cecbc87361503224c154c682e90f2ddc0397f6ac5333fbed"
+          }
+        ],
+        "contract": {
+          "CSR_mapper_with_post_del_callback_sha256": "b708e7d8a6390f4d69e2c6ec77148beb1fd9936427258a51b0dc307f05314a06",
+          "durable_observation_relative_path": "mapped-factor-storage-reclamation.jsonl",
+          "extra_journal_bound_not_a_matrix_or_scientific_checkpoint": true,
+          "factor_mapper_with_post_del_callback_sha256": "0dc51681a6af47845de4a2a6116c63a190e06c0fd03db31acfec8cce31d4e0e0",
+          "large_J_or_BVP_executed": false,
+          "original_CSR_mapper_constructor_sha256": "87f0c23cb284c7712e6c121bc81e407a84968c8386bb6340e27e914d81039f97",
+          "original_QR_constructor_unchanged": true,
+          "original_dependency_hashes": {
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/actual_process_memory_limits.py": "1e208cfbcf58ff9c9dd9e794b4426eb8c1767d707bcfc0fcf6e78cc734071114",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_csr_prefactor_mmap.py": "213957953e7f98be6b3a598a67feb4454120b9abded9fdda0423ee5fe5358b99",
+            "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_factor_mmap.py": "12c18e96f333b588c9e8ac8db423976d2210f36c705b40c467f144d9a06994eb"
+          },
+          "original_factor_mapper_constructor_sha256": "54562e86193af4666cd6a33c1235a081e7ca2acfca53fece56219bc4b40bcabc",
+          "original_solve_method_identical": true,
+          "positive_reclamation_measurement": false,
+          "posix_file_cache_advice_available": true,
+          "prepared_storage_entry_only": true,
+          "resource_gates_must_be_kept_by_the_caller": true,
+          "scope": "Additional reclamation around the unchanged complete CSR/QR algorithms.\n\nThe original mapper already replaces each persistent array separately. This\nentry does not claim to remove an old-array list that never existed. It adds\nallocator collection before each original mapping phase, collection after\n16 MiB of original arrays have actually been replaced, and file-cache advice\nafter the original flush and mapped-page advice. All original bytes, shapes,\norders, copy checks, CSR entries, QR arithmetic and residual checks remain.\n\nPOSIX_FADV_DONTNEED is advice, not evidence that a cgroup charge has fallen.\nThe small durable journal records the actual process and readable cgroup\nobservations; inaccessible cgroup files remain unknown. No cause is assigned\nto any prior killed process. Construction peaks and original resource gates\nstill apply. This module does not run a BVP or construct a test matrix.\n",
+          "top_level_constructor_code_object_identical": true
+        },
+        "factor_mapping_executed": false,
+        "large_arrays_created": false,
+        "maximum_children_RSS_KiB": 48972,
+        "only_v2_change": "write observation journal beside, not inside, the strictly owned backing-store directory; update described relative filename",
+        "original_cleanup_not_modified": true,
+        "previous_source_sha256": "abba44f46e4a5b547a04276b90d59aa19792b5f22fedf8c957d57cd008b313af",
+        "seconds": 1.413794845000666,
+        "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v3.py",
+        "source_sha256": "2dac1ddb506c7065c8f53c29e407b53ca797a298c2cc59dbb274b95cbfdf9f06",
+        "status": "source_compile_help_and_contract_only"
+      },
+      "sha256": "87e910e704389eab84a6a337f2f838f5cfd59a7aebff5563f60f0bd012884f0c"
+    }
+  },
+  "factor_or_Jacobian_or_BVP_executed_by_this_preparation": false,
+  "journal_inside_cleanup_backing_directory": false,
+  "journal_relative_to_actual_outdir": "mapped-factor-storage-reclamation.jsonl",
+  "original_cleanup_unchanged": true,
+  "original_complete_matrices_directions_or_gates_changed": false,
+  "positive_memory_reclamation_claim": false,
+  "prior_kill_cause_known": false,
+  "readonly_filesystem_observation_from_root": {
+    "options": "rw,nosuid,nodev,relatime",
+    "source": "/dev/vdb",
+    "target": "/workspace",
+    "tool_chunk": "bc28c2",
+    "type": "ext4"
+  },
+  "source_files": [
+    {
+      "bytes": 12665,
+      "path": "scripts/resume_20261128/analytic/complete_mapped_storage_reclamation.py",
+      "sha256": "310874d19c77cc74b8e82e4a2d96898dd705aea1e4b785446f245d38e3b39c40"
+    },
+    {
+      "bytes": 12653,
+      "path": "scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v2.py",
+      "sha256": "abba44f46e4a5b547a04276b90d59aa19792b5f22fedf8c957d57cd008b313af"
+    },
+    {
+      "bytes": 12684,
+      "path": "scripts/resume_20261128/analytic/complete_mapped_storage_reclamation_v3.py",
+      "sha256": "2dac1ddb506c7065c8f53c29e407b53ca797a298c2cc59dbb274b95cbfdf9f06"
+    }
+  ],
+  "source_phase_fact": "The factor-only backing is allocated only after the original complete QR constructor and complete array-layout enumeration return. The existing mapper already replaces individual arrays and retains no original-array list.",
+  "status": "prepared_explicit_complete_storage_reclamation_branch_only",
+  "system_references": [
+    "https://man7.org/linux/man-pages/man2/madvise.2.html",
+    "https://man7.org/linux/man-pages/man2/posix_fadvise.2.html",
+    "https://docs.kernel.org/admin-guide/cgroup-v2.html"
+  ]
+}

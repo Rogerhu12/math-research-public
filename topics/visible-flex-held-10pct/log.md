@@ -33,3 +33,7 @@
 
 [完整入口](notes/2026-11-28-analytic-complete-prefix-c2-entry.md)复用真实同g pair gate，消费各场真实角三阶表、全rep/lift/chart两jet及cut完整outward系数；全部Fraction共同分区先相减再Bernstein，保全mode union/mean/中心修补，并付真实Δe与同物理θ逆图混合两jet。每格fsync，完整精确覆盖及源/hash不变才发有限pair结论；cut metric unresolved不会被改成通过，也不妨碍其完整合法系数用于本项差界。mapped主线只支持真own1→own2，不把mapped anchor冒入旧匿名provider。原pair gate有限core初始化成本明确，无新BVP/J/native/mean积分。最终源compile/help真0/0.710s/23040KiB、11条真实依赖SHA一致；本条没有实际fixed pair或数值C²返回。原pure helper与旧准备记录SHA均保留。
 
+## 2026-11-28 — 原完整 QR 算术不变的逐数组存储回收分支
+
+[实际源码定位及v3入口](notes/2026-11-28-analytic-complete-storage-reclamation-preparation.md)确认原mapper本就逐数组替换，不存在保留所有旧ndarray的layout。新分支仅在原QR返回、mapper前和每16MiB已替换/原del后调用原trim；原flush/MADV成功后同自有文件/同页对齐区间给fadvise。顶层constructor同code object/solve同方法，完整CSR/QR/全部原门不动，逻辑字节不作RAM信用。root只读findmnt实见/workspace为ext4。初版compile0/help因缩进1、v2准备全0后只读发现journal违反旧cleanup根目录合同、v3仅移journal到同级且准备全0/1.414s/48972KiB；三版原字节均保留，原cleanup不放宽。没有J/因子/新BVP、cgroup下降或终止原因结论。H同步唯一55513无J诊断及已返明显未收敛RMS，不把它冒接受；真实新布局续算待其结束后由design原样接97ec。
+
