@@ -1,16 +1,16 @@
 {
-  "message": "ISP R150: first exact seven-row e module for the original W D target",
-  "parentCommit": "633a15ef786ade1f8fb9506faf9d6ef6c1f57731",
+  "message": "ISP R150: first true QQ transverse u-zero order of the original Phi729 matrix",
+  "parentCommit": "be1550feba6dd36a62fef59cf78184dd2944635c",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-seven-row-e-module-original-D-first-pure-k-cover-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-seven-row-e-module-original-D-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-w-seven-row-d-module.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-seven-row-original-D-module-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-seven-row-original-D-module-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-u-zero-extraction-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-local-u-zero-extraction-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-u-zero-extraction.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-u0-true-QQ-order-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-u0-true-QQ-order-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-seven-row-d-module.yml"
+    "invariant-subspace-8542-phi-u-zero-extraction.yml"
   ]
 }
