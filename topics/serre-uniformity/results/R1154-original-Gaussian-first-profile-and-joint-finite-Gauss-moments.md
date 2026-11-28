@@ -1772,3 +1772,201 @@ $\tau=0,\pm1,\pm\nu$ 的退化边界；
 (1154.70)–(1154.71) 的原 weighted 读取和
 (1154.72)–(1154.73) 保退化项的阶数递推。
 全节为纸面证明，无数学程序执行。
+
+
+## 15. 原射影坐标中的完整有限 Ramanujan 系统
+
+本节直接使用原 $P=\mathsf P_\nu$、$V=V_\nu$ 和四个 weighted moments；
+不先经过变化次数的 Newton/Jacobi 族。
+仍在
+$$
+\mathcal A=\mathbf F_p[w]/(w^p),\quad
+q=1-w^2,\quad \mathcal D=q\,d/dw,\quad
+\mathcal L_\nu=\mathcal D^2+\lambda q
+$$
+中工作，其中
+$$
+a=P'(0)\ne0,\qquad
+\lambda=\nu(\nu+1)=-\frac5{36}\quad\text{于 }\mathbf F_p.
+$$
+最后一式由原 $\nu=\lfloor p/6\rfloor$ 的两个终止支分别得到。
+原边界 (1154.57) 给
+$\mathcal L_\nu P=0$、$\mathcal L_\nu V=a w^{p-1}$，
+且 $P(0)=0,V(0)=a^{-1}$。
+
+### 15.1. 真正原 companion 的射影参数
+
+对 Wronskian 微分，得
+$$
+\mathcal D(P\mathcal DV-V\mathcal DP)
+=P\mathcal L_\nu V-V\mathcal L_\nu P
+=aP w^{p-1}=0.
+$$
+$\ker(\mathcal D:\mathcal A\to\mathcal A)=\mathbf F_p$，
+在零处读取常数便得
+$$
+P\mathcal DV-V\mathcal DP=-1.
+$$
+因此置
+$$
+f=aV,\qquad g=P/a,\qquad
+\xi=\frac gf=\frac{P}{a^2V}
+$$
+时，有完整有限身份
+$$
+\boxed{
+f(0)=1,\qquad \xi=w+O(w^3),\qquad
+\mathcal D\xi=f^{-2},\qquad
+\frac d{d\xi}=f^2\mathcal D.}
+\tag{1154.74}
+$$
+$f$ 为单位，$\xi$ 生成同一个有限代数；
+所以上式实际给
+$\mathcal A=\mathbf F_p[\xi]/(\xi^p)$，
+而不是在原解之外选择另一个 companion。
+未归一化参数 $P/V$ 恰为 $a^2\xi$。
+
+原留数读取在这个坐标中的全部 Jacobian 是
+$$
+\boxed{\qquad
+\mathscr R(H)=[\xi^{p-1}]\,H(w(\xi))\,f(w(\xi))^2
+\qquad(H\in\mathcal A).}
+\tag{1154.75}
+$$
+为核最高一项，可在正规幂级数中任选上述有理 $\xi(w)$ 的实际展开，
+其反函数满足 $w(\xi)=\xi(1+O(\xi^2))$。
+特征 $p$ 下
+$w(\xi)^{-p}=\xi^{-p}+O(\xi^p)$，
+而 (1154.74) 给 $dw/q=f^2d\xi$ 模 $\xi^p$。
+将这些代入
+$\mathscr R(H)=\operatorname{Res}_{w=0}w^{-p}H\,dw/q$，
+所有省略项均不影响留数，准确给 (1154.75)。
+因此没有遗失一个 $a$、一个 Frobenius 常数或最高 cutoff。
+
+### 15.2. 三个实际函数及首个 $p$ 边界
+
+把下面三个函数视为 $\xi$ 的有限多项式：
+$$
+\mathcal E_4=f^4,\qquad
+\mathcal E_6=-wf^6,\qquad
+\mathcal E_2=f^2\left(6\frac{\mathcal Df}{f}-w\right).
+$$
+其初值为
+$(\mathcal E_2,\mathcal E_4,\mathcal E_6)(0)=(0,1,0)$。
+以 prime 表示 $d/d\xi$，则
+$$
+\boxed{\begin{aligned}
+\mathcal E_2'
+ &=\frac{\mathcal E_2^2-\mathcal E_4}{6}
+       +6a^2\xi^{p-1},\\
+\mathcal E_4'
+ &=\frac23(\mathcal E_2\mathcal E_4-\mathcal E_6),\\
+\mathcal E_6'
+ &=\mathcal E_2\mathcal E_6-\mathcal E_4^2 .
+\end{aligned}}
+\tag{1154.76}
+$$
+这是同一原有限解的封闭系统；
+第一行显示的最高项是方程的一部分。
+
+具体地，令 $r=\mathcal Df/f$。
+原 $\mathcal L_\nu f=a^2w^{p-1}$ 给
+$$
+\mathcal Dr=-\lambda q-r^2+\frac{a^2w^{p-1}}f.
+$$
+利用 (1154.74) 逐项微分，
+$$
+\mathcal E_2'
+=f^4\{6r^2-2wr-(6\lambda+1)q\}
+   +6a^2 f^3w^{p-1}.
+$$
+$6\lambda+1=1/6$，且
+$f^3w^{p-1}=\xi^{p-1}$ 在 $\mathcal A$ 中成立，
+故得到第一行。
+另两行分别是
+$4rf^6$ 和 $-f^8(q+6wr)$ 的同一改写。
+这也逐项确认了边界的正号和系数 $6a^2$。
+
+同一系统保留实际判别式
+$$
+\boxed{
+\mathcal D_{\rm ell}:=\mathcal E_4^3-\mathcal E_6^2
+=qf^{12}\in\mathcal A^\times,\qquad
+\mathcal D_{\rm ell}'=2\mathcal E_2\mathcal D_{\rm ell},
+\qquad \mathcal D_{\rm ell}(0)=1.}
+\tag{1154.77}
+$$
+此处下标仅区别原导子 $\mathcal D$。
+从第一行读取最高次数还给一个准确单位：
+$$
+\boxed{
+[\xi^{p-1}](\mathcal E_2^2-\mathcal E_4)=-36a^2\ne0.}
+\tag{1154.78}
+$$
+理由是任何次数小于 $p$ 的多项式，其导数的
+$\xi^{p-1}$ 系数为零。
+若把 (1154.76) 换成没有边界的特征零形式，
+反而会错误得到该单位为零。
+
+### 15.3. 同一系统中的全部原 weighted 读数
+
+将 $P=a\xi f$、$V=f/a$ 直接代入 (1154.75)，
+原 §10 的四个读数成为
+$$
+\boxed{\begin{aligned}
+\mathsf h
+ &=-[\xi^{p-4}]\mathcal E_6,\\
+\mathbf B_\nu
+ &=a^2[\xi^{p-5}]\mathcal E_4^2,\\
+\mathbf U_\nu
+ &=-a^6[\xi^{p-8}](\mathcal E_4\mathcal E_6),\\
+\mathbf V_\nu
+ &=-a^2[\xi^{p-6}](\mathcal E_4\mathcal E_6).
+\end{aligned}}
+\tag{1154.79}
+$$
+例如第一个原输入是
+$wP^3V=a^2w\xi^3f^4$；
+留数 Jacobian 再乘 $f^2$，恰给
+$a^2[\xi^{p-4}]wf^6$。
+其余三项分别给 $f^8$ 和同一个 $wf^{10}$，
+所以原 $P^4,wP^7,wP^5V^3$ 权重均完整保留。
+
+为显示真正原 minor，暂记
+$$
+b=[\xi^{p-5}]\mathcal E_4^2,\quad
+u=[\xi^{p-8}](\mathcal E_4\mathcal E_6),\quad
+v=[\xi^{p-6}](\mathcal E_4\mathcal E_6).
+$$
+由 (1154.37) 准确得到
+$$
+\boxed{\begin{aligned}
+3\mathbf B_\nu\mathbf U_\nu-\mathbf V_\nu
+ &=a^2(v-3a^6bu),\\
+\mathcal H_p
+ &=\frac{4\varepsilon_r}{63\beta_{\rm G}}
+          [\xi^{p-4}]\mathcal E_6,\\
+\Delta_{\rm low}
+ &=\frac{4}{13365\,r\beta_{\rm G}^2a^6}
+          (v-3a^6bu).
+\end{aligned}}
+\tag{1154.80}
+$$
+特别，两个相邻高阶读取 $u,v$ 来自同一个
+$\mathcal E_4\mathcal E_6$，并非不同自由解。
+若原首标签 $\mathcal H_p=0$，
+从 (1154.76) 第三行读取 $\xi^{p-5}$，只可先推出
+$$
+[\xi^{p-5}]\mathcal E_4^2
+=[\xi^{p-5}](\mathcal E_2\mathcal E_6).
+$$
+这条等式仍保留同一系数读取。
+
+本节已给原 weighted moments 的封闭微分来源及其完整首 $p$ 强迫。
+要排除实际共同纤维，尚须证明
+$[\xi^{p-4}]\mathcal E_6=0$ 时
+$v-3a^6bu\ne0$，或消费其它真正可用的 good 行。
+(1154.78) 是不同的最高读取，不能直接拿它代替这个指定组合。
+(1154.74) 的有限参数也没有被认成真实 $E[p]$ 的整形式群参数。
+全节由原同一个 $P,V$ 纸面推导；
+o2_high_coefficient 独立核全部 Jacobian、边界及四个尺度，无数学程序执行。

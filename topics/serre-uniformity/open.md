@@ -131,6 +131,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1154 §14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)支付Darboux的完整被截边界：Eν=[Tν,w^p]/p mod(p,w^p)为A/(wν)至w^(p−ν)A的同构，单位对角显式；TνAτ=(−1)^νν!Fντ−(τ−τ^p)EνAτ，故ν!Vν=TνLp+Eν1。全双权边界为有限前ν jet和，原B/U/V保一次项；eν²0不消两个已读取标量的6b∂u∂。固定ν的τ±1/±2递推已清分母保全部退化点，X²=−x；原good-mask不因此封闭，变化r−1仍不当固定ν，实际二根排除继续。
 
+[R1154 §15](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)直接给原ξ=P/(a²V)、f=aV，Dξ=f⁻²和R(H)=[ξ^(p−1)]Hf²。E4=f⁴、E6=−wf⁶、E2=f²(6Df/f−w)满足完整有限Ramanujan：E2′=(E2²−E4)/6+6a²ξ^(p−1)，E4′=2(E2E4−E6)/3、E6′=E2E6−E4²；判别式qf12单位。原h=−[ξp−4]E6，B=a²b、U=−a⁶u、V=−a²v，其中b=[ξp−5]E4²，u/v为同E4E6的p−8/p−6系数。因此真joint为[ξp−4]E6=0及v−3a⁶bu=0；首式只先给b=[ξp−5]E2E6。最高强迫[ξp−1](E2²−E4)=−36a²unit并未代这个minor，继续实际共同零；本坐标未冒真实Ep整参数。
+
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
 完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。

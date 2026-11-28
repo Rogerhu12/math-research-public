@@ -145,3 +145,8 @@
 ### 2026-11-28 12:36 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原quadric续篇付实际三次有界primitive、完整4ve/Wilson修正及K4的原有序mixed槽。root亲核R1061 §19、三个单位三角矩阵、relative/absolute全部相位和Leibniz；o2独核主要式，完成即推。
 - H前态逐字归档后压缩入口；原双零及第六层b6继续，未以norm顶unit或旁矩代指定非零，无数学程序执行。
+
+
+### 2026-11-28 12:37 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1154 §15付原P/V射影参数、准确留数Jacobian和含首p源的有限Ramanujan系统；全部原weighted系数及minor尺度直接导出。root纸推，o2逐项核边界、初值和全部a因子，完整即推。
+- 原首标签与minor共同零继续，最高强迫unit不代指定低组合，有限参数不冒真实Ep整形式坐标；无数学程序执行。

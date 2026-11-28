@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原加权Legendre的射影坐标与有限Ramanujan系统（已证明）**：[R1154 §15](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原P/V给实际留数Jacobian与三函数封闭系统，首p强迫6a²完整保留；原四moments成为E6、E4²、同E4E6的指定相邻系数。最高强迫unit不替代原minor，实际共同零继续。
+
 - **原K4的有界三次primitive与有序mixed槽（已证明）**：[quadric续篇](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)实际A=D³I给a3=−δ⁴a−5/4，保完整e修正后a3=2ρδK4/b0−4vα；准确识别原P³P12ω32及对换槽、P²W的Cartier值。全部pth相位和亚纯项保留，第六层b6仍另有来源，未宣共同零排除。
 
 - **原全CM形式来源的共同Frobenius与整jet（已证明）**：[R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)同一个ψ同时保全部参数边界，四种corner的三槽在取jet前整；N<p有限式保原常数carry、五项和有序半平方。实际Ep理想/FL比较仍须支付，具体PD normal项说明仅p误差不能被随意删。

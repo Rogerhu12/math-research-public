@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：ca9c1f5e73b70211461300c0a869727aeadc046c**（2026-11-28 12:36 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:04 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：6eed218ccd2d58f447c164d01732f6f8d176c9a0**（2026-11-28 12:37 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:04 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:04:54 Asia/Taipei，Actions run46105825986/job140858219823，blob:none浅clone后真实pull --rebase至18cf41b7；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:54、pull≤13:04。本地12:04仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -48,7 +48,9 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两下降线Π′(z′)=Π(−z′)统一z∈Fp；actual-good代数A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d，d0/非平方分Fp点，非零平方余对须actual O_R(d)。原heat/Hasse/Katz、finiteGauss全部坏行/安全jet/余项付；Δ_low=8(3bc−td)/(4455rβ²)，Q⁶顶unit不代det，向量场闭性仍未付。原norm2/CM gauge/两twist与全尺度保文。
 
-R1154 §§1–14付同源Legendre/finite-log全部carry、三移位核与真实Newton算子。H_p0锁q=Qν，minor保Cν(q)+(3/8)Bp−3D2。新Actions run46094809839以p1019否定无条件Cν(Qν)=0，未满足q=Q；[回执](notes/2026-11-28-new-weighted-Legendre-probe.md)，不扩扫。§12付T E(T+1)+(T+1)E(T)=−2(T^p−T)；原D_(S,P)算子Z_D在全good相等时缺至T^(2k+4)、顶15Gp−3/8单位，前两项恰原H_p/Δ_low。缺项本身非矛盾。spectral §10付被删完整C_pr=Σa_(k+1−h)b_(h−1)/(2h)!，含全部低行；其Euler核恰−(R^p−R)，不推C_pr或b_k零。§11完整首p边界g_p=−3D(1)/4−C_pr/2；g1单位使g(2atanh x)首有p分母，不能当整形式群坐标。§13–14付Jacobi首p边界/Green核、全部加权M_j，Darboux Eν为前ν至最高ν jet同构；Vν=(TνLp+Eν1)/ν!及原weighted一次项全保。固定ν阶数递推保τ0/±1；未付变化r−1的intertwiner/good-mask闭性，继续真实二根。
+[R1154 §§1–15](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)同源Legendre/finite-log全carry、Newton边界、Jacobi Green/最高jet和Darboux全部weighted补项均付，详细式见open。原H_p0锁q=Qν，minor保Cν(q)+(3/8)Bp−3D2；新p1019探针否定无条件Cν(Qν)0但q≠Q，不扩扫。原good差商长零带/顶unit不代矛盾，固定ν与变化r−1仍无真实intertwiner。
+
+§15直接用原ξ=P/(a²V)、f=aV付留数Jacobian f²及完整有限Ramanujan系统：E2′=(E2²−E4)/6+6a²ξ^(p−1)，E4′=2(E2E4−E6)/3，E6′=E2E6−E4²。原h=−[ξp−4]E6，B=a²[ξp−5]E4²、U=−a⁶[ξp−8]E4E6、V=−a²[ξp−6]E4E6；共同零继续，不以最高强迫−36a²单位代minor。spectral §10–11完整C_pr/Euler核与首p分母沿文，不冒整形式群。
 
 ## 已成、禁止重做与其它入口
 
