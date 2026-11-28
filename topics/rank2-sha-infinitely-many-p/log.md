@@ -253,3 +253,11 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 根手核两个三项式展开、falling-factorial递推、j<k全部分母p单位、三个节点的p³余项、目标零质量截窗及参数v中Cartier的完整p−1槽；S6指数余项未删。原无穷p非零仍未证。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:21:09 UTC到da5f2a79af66fc6702df9c7e2b64ba1e123eb35a，私库2026-11-28 13:21:04 UTC到f99371cb915febc87fdfc8ed228b967859b13fe6；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47301575B/tree113f4bf8065b94784fe23fb6472b791cfd253f6e，无>5MB。
+
+## 2026-11-28 13:21:14 UTC：R1073 §12：两个真实五同源类的原三位拆分
+
+根核CRT的ε*(5)=−1与ξ(78)=1、全部六个真实循环的父项消去、两μ3轨道/δ符号、同一水平P/Q系数及两个独立三位窗。父源不满足所猜(1,0)角色，未移植E13 rank1输入。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:21:22 UTC到c07fba60b6ff9b2e00135b8bb8e2d66d97788d1b，私库2026-11-28 13:21:18 UTC到20cd788d437fec83a4111a41e17a400e90d5c959；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47307716B/treed3ed49fe748191d7b8c926c95c921c848a703db2，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:21:37 UTC到dfcc662cc7c3cdc8c892133acac0f04d0577bda7，私库2026-11-28 13:21:33 UTC到e62b83fb1c524ff23c85c4fad5de43c08b2a8492；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47307716B/treed3ed49fe748191d7b8c926c95c921c848a703db2，无>5MB。
