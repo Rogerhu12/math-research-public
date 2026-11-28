@@ -20,7 +20,7 @@
 
 R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.05278322；角向暖续的更小采样峰不宣称全部连续界单调。R226/R230/R234支付完整 source/真 cuff/六jets及全时几何；R236保局部尺度和平方 Fourier 抵消，但仍未用 source-cross-Gram 抵消。R235已证明原第三径向迹 jump 对 C4修正的限制，只排当前更光滑有限空间的准确等距，不排C2极限；局部消跳尚未进入生产场。
 
-**实际下一步**：本轮 M12代理已在独立scratch启动原 h487再生（旧 /tmp/visible-flex-6a65e705 不存在），原 prefix SHA 已核；再生不计新改善。新方向为完整 Gram 带状 LM、H2步正则，保持原 g/端口和原目标试步，降低离散误差同时控制连续二阶量；root推进局部连续几何预算，exact代理推进原源节点C2兼容空间。结果未返回前不报告新场/新接受。新 [H2直接LM接口](notes/2026-11-28-2ecf-m12-h2-direct-interface.md)已完成77非零列/2304全行实际有限核：H2矩阵相对差1.10e−15、带状/稠密物理方向差1.60e−14、正则normal1.48e−15；不冒研究场收敛。
+**实际下一步**：本轮 M12代理已在独立scratch启动原 h487再生（旧 /tmp/visible-flex-6a65e705 不存在），原 prefix SHA 已核；再生不计新改善。新方向为完整 Gram 带状 LM、H2步正则，保持原 g/端口和原目标试步，降低离散误差同时控制连续二阶量；root已证明并实现[R249局部材料二jet预算](results/R249-local-material-two-jet-continuous-budget.md)，完整Fourier合并角反参分子后作整数区间包界；真实研究场消费待返。exact代理推进原源节点C2兼容空间。结果未返回前不报告新场/新接受。新 [H2直接LM接口](notes/2026-11-28-2ecf-m12-h2-direct-interface.md)已完成77非零列/2304全行实际有限核：H2矩阵相对差1.10e−15、带状/稠密物理方向差1.60e−14、正则normal1.48e−15；不冒研究场收敛。
 
 ## 强幅度：polar v2 与完整前缀
 
@@ -40,4 +40,4 @@ R246给完整二阶端口的条件C2正高度连接；R247只排固定rho/N31高
 - root唯一写main；三个代理只写同级scratch。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；输入/运行工作在同级 m12-work、exact-work、strong-work、root-work。任何可重算完整输出不进Git/Release，只源码/配方/实际结论/哈希。
 - 每条结论完成即commit、真实pull/rebase、核双README、普通push；非快进或并发ref竞争立即再pull/rebase循环，不force、不改已发表历史。不写根LOG；H<10KB、单MD<100KB，open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 06:43:15 UTC；已读公开 main `c763f51793ee59150d8770cfc6ea76c4f925de7b`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 06:45:16 UTC；已读公开 main `eb0925e9b2cdf34b473dac791c6a1839807e0772`，根/课题 README 逐差无变化。
