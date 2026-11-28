@@ -21,3 +21,7 @@
 ### R1073 §14：完整72单位独立性与原角色的单位权导数
 
 全Poisson/Kronecker常数、imprimitive 2/5/13因子及平凡质量给72个单位模挠乘法独立；Fuchs–Pham给所有好p的代数系数对数独立，原两个单位幂和均单零。水平canonical二阶仍须同一来源比较。 [同编号全文](../results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1073 §15：首层完整端点的原水平二次积分
+
+原PF经真实Tate坐标Y/(1+κY^d)给所有阶系数和完整B_j(k)；全尾估计付二阶极限，65 f1(0)(d logρ)² Ab2恰为保全部d端点的二次积分。两端正则只在完整平均后成立。 [同编号全文](../results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。

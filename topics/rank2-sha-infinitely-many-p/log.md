@@ -353,3 +353,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 根逐核原格Poisson、Z′(0)=−log|Δ|/6、所有有限Euler因子、平凡质量20¹²与CM真实正则作用；不预设mod2满像。实读Fuchs–Pham Th2.1这一p-adic Baker命题，72 p-unit对数先Q独立再Qbar独立；不把单位权导数移作水平Ab2。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:37:27 UTC到f681603b475c5555de825705fa5f6520d13cb610，私库2026-11-28 13:37:23 UTC到21da3a15916086e2c84434a7d51c40450e1304a0；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47420010B/tree23cbf2dd33657f455c7e3be282dedeef72a01bf4，无>5MB。
+
+## 2026-11-28 13:37:31 UTC：R1073 §15：首层完整端点的原水平二次积分
+
+根手核Lagrange、精确B_j的p估值及二阶所有调和项、远尾j²界和d因子，完整平均后才取消两端极；实读Wewers Th3.2/Cor4.7及Gross–Hopkins等变period，对应真实首p同源准canonical点，保持全部水平重标。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:37:39 UTC到374015c11c5ced2c88f77daa4efe088426c9a9da，私库2026-11-28 13:37:35 UTC到fd1e12807e4d81554782c657b66f6e92edae75f6；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47428594B/tree0ef3bf20d95634af47c679113eacc4a2fb4035ae，无>5MB。

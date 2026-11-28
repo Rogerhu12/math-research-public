@@ -542,3 +542,49 @@ $$ V_{b,p}(z)=\sum_{C\in H}\chi_b(C)^{-1}u_C\exp(z\log_pu_C) \tag{U7}$$
 在零的小邻域解析。它在相应剩余类的整次幂上等同原 $u_C$ 的幂和：取一个共同倍数 $M$ 消掉全部 Teichmüller 单位，整 $z=Mn$ 足够接近0时取得电荷 $1+Mn$。实际质量零 (Z5) 给 $V_{b,p}(0)=0$，而
 $$\boxed{ V'_{b,p}(0)=\sum_{C\in H}\chi_b(C)^{-1}u_C\log_p u_C\ne0. }\tag{U8}$$
 系数是给定嵌入下的非零代数数，故直接用(U6)。原电荷一在各自参数上都是单零。原 canonical 读数 (Q6),(R9) 对 $w^{(p+1)p^a}$ 水平变形取极限；(U8)已固定同一点、同一微分及原两角色，但其导数参数仍是单位幂。
+
+## 15. 原中央二阶的完整首层端点与过收敛二次积分
+
+设 $d=p+1$，$\pi^d=p$，$\kappa=p[v^d]P\in\mathbf Z_p^\times$。沿(R1)–(R8)，设 $H(X)=P(\pi X)/Q(\pi X)$。由(R5)的线性余量 $P(\pi X),Q(\pi X)$ 在某个严格大于1的闭盘收敛，在单位盘 $Q\equiv1$、$H\equiv1+\kappa X^d$ 模极大理想。每一原 $g=f_1,f_{65},f_{8125}$ 或(Z2)的单支 $G_C$ 在 $v$ 开单位盘整有界，故 $g(\pi X)$ 同样过收敛。
+
+令 $Y(X)$ 是下式中模极大理想等于 $X$ 的解：
+$$ YH(X)=X(1+\kappa Y^d). \tag{W1}$$
+在 $Y=X$ 处误差范数小于1，偏导 $H-d\kappa XY^{d-1}$ 约化为1。Tate 代数的 Hensel 迭代给唯一所需解。它及逆 $X(Y)$ 均过收敛：在半径 $R>1$ 足够接近1仍有原误差小于1、导数减1小于1，所有高阶导出系数在 $R\downarrow1$ 时有界，取一个固定小于1的收缩球作 Newton 迭代即可。同样对 $Y=X+\varepsilon(X)$ 其中 $\|\varepsilon\|_1<1$ 迭代反解，并在较小的 $R>1$ 保收缩。$Y(0)=0,Y'(0)=1$。于是精确有
+$$ \frac{6w}{\pi}=\frac{Y}{1+\kappa Y^d},\qquad
+ G_g(Y)=\frac{X(Y)}Y Q(\pi X(Y))g(\pi X(Y))(1-p\kappa Y^d).\tag{W2}$$
+$G_g$ 是过收敛函数，$G_g(0)=g(0)$。把实际 $c_g(n)=[w^n]P(v)g(v)$ 写成形式留数：$P(\pi X)=(X/Y)(1+\kappa Y^d)Q(\pi X)$，且 $d\log(Y/(1+\kappa Y^d))=(1-p\kappa Y^d)dY/[Y(1+\kappa Y^d)]$。因子严格相消，得
+$$ (\pi/6)^n c_g(n)=[Y^n]G_g(Y)(1+\kappa Y^d)^n,\qquad
+ G_g(Y)\,\frac{dY}{Y}=\frac{27g(v)}{(4v^3+27)Q(v)}\,\frac{dv}{v}.\tag{W3}$$
+第二式由(R4)的 Wronskian 得到。
+
+取 $k=p^a,n=dk$，将(W3)除以 $\kappa^k\binom{dk}k$，记结果为 $S_g(k)$。置 $g_j=\kappa^{-j}[Y^{dj}]G_g$，$H_j=\sum_{h=1}^j1/h,\ H_0=0$。有
+$$ S_g(k)=\sum_{j=0}^k g_j B_j(k),\qquad
+ B_j(k)=\frac{\binom{dk}{k-j}}{\binom{dk}k}
+       =\frac{\prod_{h=0}^{j-1}(k-h)}{\prod_{h=1}^j(pk+h)}.\tag{W4}$$
+$j=0$ 给1。沿此固定数列 $k\to0$（$p$ 进），
+$$ S_g(k)=g(0)+k\,s_1(g)+k^2s_2(g)+o(k^2),$$
+$$ s_1(g)=\sum_{j\ge1}\frac{(-1)^{j-1}g_j}j,\qquad
+ s_2(g)=\sum_{j\ge1}\frac{(-1)^j g_j}j(H_{j-1}+pH_j).\tag{W5}$$
+具体控制如下。$1\le j\le k$ 时 $v_p(pk+h)=v_p(h)$ 且 $h<j\le k$ 时 $v_p(k-h)=v_p(h)$，所以 $v_p(B_j(k))=a-v_p(j)$。把 $B_j(k)$ 写为 $(-1)^{j-1}(k/j)$ 乘
+$\prod_{h<j}(1-k/h)\prod_{h\le j}(1+pk/h)^{-1}$（第一积从1起）。乘积减1的赋值至少 $a-\lfloor\log_p j\rfloor$，因每个因子与1之差至少此赋值、每个因子为单位。故减去一次项再除 $k^2$ 的大小至多 $p^{v_p(j)+\lfloor\log_pj\rfloor}$。对固定 $j$ 逐因子展开，极限为(W5)二次系数。$g_j$ 指数衰减，故可支配收敛；对 $j>k$ 被补上的一次项除 $k^2$ 的尾也趋零，因为 $p^a=k<j$（通常绝对值意义）且指数衰减胜过多项式。相同估计先给一次极限。这里无需每个 $B_j(z)$ 的极点都避开同一 $p$ 进权盘。
+
+(Q5)的规范比在同一数列给 $S_b(k)=65\,\mathcal A_b(\rho^{dk}-1) S_1(k)$。$S_1(k)\to f_1(0)$，而 $\mathcal A_b\in T^2\mathcal O[[T]]$，故原两目标准确满足
+$$f_b(0)=s_1(f_b)=0,\qquad
+ \boxed{65 f_1(0)(d\log_p\rho)^2[T^2]\mathcal A_b=s_2(f_b).}\tag{W6}$$
+特别，(Z2)每个目标单支变形从头保留在 $G_g(Y)$ 中。单支标准化零阶确为 $G_C(0)=u_C f_3(0)$。
+
+令 $F_g(s)=\sum_{j\ge0}(-1)^jg_j s^j$，这是 $G_g(Y)$ 在 $Y^d=-s/\kappa$ 上的全 $d$ 项平均，过收敛。对 $g=f_b$，取
+$$ I_g(s)=\int_0^s F_g(t)\frac{dt}{t}.\tag{W7}$$
+$F_g(0)=0$，且(W5),(W6)给 $I_g(0)=I_g(1)=0$。用逐项恒等式 $\int_0^1(1-s^j)ds/(1-s)=H_j$，以及 $H_{j-1}+pH_j=dH_j-1/j$，得
+$$ \boxed{
+ 65 f_1(0)(d\log_p\rho)^2[T^2]\mathcal A_b
+   =-\int_0^1 I_g(s)\left(\frac{ds}{s}+d\,\frac{ds}{1-s}\right).}\tag{W8}$$
+积分是过收敛函数的原函数差。在0与1的表面极点均因完整的 $I_g$ 消除。证明也可先写 $d\int_0^1 (I_g(1)-I_g(s))ds/(1-s)-\int_0^1 I_g(s)ds/s$，两次积分的逐项式都收敛。设 $s=-\kappa Y^d$，则括号中的微分为 $d\cdot d\log(Y/(1+\kappa Y^d))$。而 $I_g(1)$ 正是(W3)的原微分从0到 $Y^d=-1/\kappa$ 所有根的原函数值的完整和。消去 $s=1$ 的极点只在该全和上进行；各单支没有被赋零。
+
+### 首个圆周上所有端点的原同源解释
+
+这些端点在 $v$ 盘恰是 $P(v)=0$ 且 $v_p(v)=1/d$ 的 $d$ 个简单零。由(W1)和 $Q(\pi X)$ 无零即得；亦可由(R5)直接 Hensel 逐根。现取原 $E_1[p]$ 上任一循环线 $D$，在 $E_D=E_1/D$ 上用 $q_D$ 特殊纤维的相对 Frobenius 给 $E_D$ 的特殊标记。若以原全水平参数 $v$ 表示，先在 $E_1[390]$ 的标签上复合该 Frobenius 的逆，使约化的水平结构回到原标记。这个操作只给变形盘选坐标；实际(W3),(W8)的 $g$ 始终以原盘固定水平运算，不能不经重标就用奇层未归一的单个 $F_{b,D}$ 替换 $g(v_D)$。
+
+此商 Tate 格为 $\mathcal O_{K_p}+p^{-1}u\mathbf Z_p$，乘子环 $\mathbf Z_p+p\mathcal O_{K_p}$，是 Gross 准典提升的第一层。Wewers, *Canonical and quasi-canonical liftings*, Th. 3.2、Cor. 4.7，证明该层的通用形变模量是全分歧度 $[\mathcal O_{K_p}^\times:(\mathbf Z_p+p\mathcal O_{K_p})^\times]=p+1$ 扩张的 uniformizer。换为当前整光滑参数 $v$ 不改赋值：线性系数为单位，常数属于 $pW$，其余项赋值更大。Gross–Hopkins 的等变刚性周期映射把通用 Hodge 线映到特殊纤维等晶体的射影线；在本首闭盘它具体由 $(P(v):vQ(v)/6)$ 给出，因为(R2)的水平基解逐项收敛且 Wronskian 可逆。两种标记下 $q_D$ 在等晶体上是特殊 $\mathrm{Fr}$，它满足 $\mathrm{Fr}\,t=\bar t\,\mathrm{Fr}$ 对 $t\in K$；故其拉回交换 $e_0$、$e_1$ 两轴。又 $q_D^*$ 把目标 Hodge 线映回原 Hodge 线 $\langle e_0\rangle$，于是目标线为 $\langle e_1\rangle$，即 $P(v_D)=0$。这些 $d$ 个点彼此不同：若带上述全水平标记的商同构，复格超格 $\mathcal O_K+p^{-1}u\mathbf Z$ 扩到最大序都为 $p^{-1}\mathcal O_K$，相似只能为全局单位；在公共 prime-to-$p$ 水平上该单位还须恒等，只能为1，故两核相同。由首圈零的数目已尽，这给全部端点的几何识别。
+
+原文 https://smf.emath.fr/download/pdf/42655 （Wewers, Cor. 4.7）；https://arxiv.org/abs/math/9401220 （Gross–Hopkins, §1）。
