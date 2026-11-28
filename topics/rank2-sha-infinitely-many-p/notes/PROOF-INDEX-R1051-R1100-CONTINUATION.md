@@ -237,3 +237,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §33：普通原首导数的全精度同一挠层留数
 
 已证明：以真实V^r、完整原P及统一Hurwitz整性，将G′的每个p^k精度准确化为同一非零E[π]轨道留数迹模p^{2k}；整阶乘付清全截断，所有精度保持同一原曲线、极支撑与连通挠层。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §98：原Kummer类的无损反限制、Tate测试与真实全域障碍
+
+已证明：以−1提升的交换子只除2，精确从原Y_k恢复基域二阶类；固定代数点与显式星点给完整O值Tate读者，星点保持原p^k精度。全局互反证明非零候选不能来自任意固定有限分歧全局一阶类，后续必须保留派生障碍。 [同编号全文](../results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。

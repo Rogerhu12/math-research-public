@@ -12,7 +12,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 16:28:32 UTC按根规则8小文本备用通道读公开main a99f073abf070f35cc130935953016a991d58498、私库main 65a7a9e424576a6a392f0c0451814535059c4220；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE df853bcaea67ff884399fe6fc8aae681b34aed8f本题认领仍进行中。
+- 2026-11-28 16:33:36 UTC按根规则8小文本备用通道读公开main 1a140eaaa8f60d192562cb1ec9b0c5d92396d083、私库main 0f87b6e88b1c1a807e9d7a9b60684a7785e7652f；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE df853bcaea67ff884399fe6fc8aae681b34aed8f本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 原两库均blob:none/depth1/sparse-index。为释放本会话磁盘，14:34逐文件SHA验证后将两.git移至/tmp/rank2-0b097461-public-git-metadata-20261128及/tmp/rank2-0b097461-private-git-metadata-20261128、保原路径symlink；其pack仍指向同名前缀public-git-pack/private-git-pack-20261128，四目标勿删。迁移后HEAD/status均同原值，释放57028608B；没有删他人文件。
 - 根规则8的备用通道只传<100KB文字；本次只归档原人类open/log/H研究记录与写证明，无数学本地执行或可重算CI日志入库。原topic库存约47.7MB，新增仍守全部大小限制。
@@ -29,11 +29,11 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 
 ## 原两/三位与三个实际目标：R1067
 
-[§§74–97原证](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)已96170B，后续开同号新卷；索引/归档保§§1–73及全部旧参数，登记不重做。固定E17秩2；p>211、p≡5mod6、(17/p)=1，β=√17在Zp。E17方向ψ₁₇((a))=a/ε₁₇(a)、ε₁₇(u)=u。
+[§§74–97原证](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)已96170B；[§98起](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)续原证明，索引/归档保§§1–73及全部旧参数，登记不重做。固定E17秩2；p>211、p≡5mod6、(17/p)=1，β=√17在Zp。E17方向ψ₁₇((a))=a/ε₁₇(a)、ε₁₇(u)=u。
 §§74–79原CW/周期给d^ac=6fH^ac A_pξ₁、坏T³自动T⁴、原Y_k=0⇔p^k|a₂。任何k非零已足够，目标是a₂∈Qp非零，无需强求模p单位。
 §§80–90保全部原标记的四槽BD1与三维Hecke U₀/U₁/U₂；真泛函杀前两基，DU₁=x^q、D²U₂=2y^q、G(T)=X(T)^p、DH=−x/c_p−s^(p−1)。完整Cartier核与一般q-Frob重标t→−pt已付；五固定矩非零不代全和。唯一μ二项式构造及H=red(μ⁻¹ζ(ℓ)−ℓ(s^p)/p)全盘自证，同步剪切准确相消。
 §§91–95两原τ高格接倒数点；全四槽有限母式可取μ′=−d_n。全部倒数点非挠/七进单位首格已付。全野挠值接第二种积分，固定线联络曲率在惰性为G、普通为Kπ；固定双商+Bost付单补偿项无穷p非零，分裂型与全和不付。完整四槽又是原E₁上一元N rem D顶次系数，degD≤6p²+12p+880；一般须取完整标记有限分裂域。
-§96实际Ga扩张/一般AST付原全倒数权的二型母量非代数，首格准确ΣW_tG(Q_t)，超越不代模p非零。§97普通全源由π除法式付模p²，π^N代数盖对所有权同时给p^{5N}除幂误差及G′任意精度充要测试。完整第三评价未付。
+§96实际Ga扩张/一般AST付原全倒数权的二型母量非代数，首格准确ΣW_tG(Q_t)，超越不代模p非零。§97普通全源由π除法式付模p²，π^N代数盖对所有权同时给p^{5N}除幂误差及G′任意精度充要测试。§98交换子只除2从Y_k无损恢复基域类，星点Tate配对保原p^k；非零类有真实全域一阶提升障碍，不能转成其它坏位单项。完整第三评价未付。
 
 ## 原中央与完整全层：R1070/R1072
 
