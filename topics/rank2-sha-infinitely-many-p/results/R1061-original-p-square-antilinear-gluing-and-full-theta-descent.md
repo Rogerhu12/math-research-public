@@ -1088,3 +1088,368 @@ mixed-heat 形式。尚未把它识别为一个已规范的全球 Green 函数�
 也未由 theta-null、genus2 不分裂或某个单字非零推出
 canonical $J'(0)$ 非零。真正后继仍须在(B10)、(B15)--(B22)
 的整个原来源、全部权和原坏条件之间建立同一读者的关系。
+
+
+## 16. 原 division field 内的完整 translated jet
+
+本节接§§7--9，并使用 C 标签以免与前面的 B 标签混淆。
+所有式子均为同一原 theta 来源的特征零恒等式；
+先给全阶 jet，再付其真实 $p$ 进费用。
+没有将某个单独 translated section 预先赋为 canonical 零。
+
+仍写 $r_p=\sigma(pz)/\sigma(z)^{p^2}$、$D=d/dz$。
+对非零 $Q\in E_0[p]$ 取§7指定的 lift $q$，令
+$$
+ Z_Q=\zeta(q)-\eta_Q .
+$$
+这个差有不含未定 quasi-period 的精确代数表达：
+$$
+ \boxed{
+ Z_Q=-\frac{D^2r_p(Q)}{2p^2Dr_p(Q)}.
+ }
+ \tag{C1}
+$$
+证明如下。把 $z=q+\varepsilon$ 代入
+$\sigma(pz)=r_p(z)\sigma(z)^{p^2}$。
+左边在 $\varepsilon=0$ 为 simple zero；由
+$pq\in\Lambda$ 的原准周期，其二阶/一阶导数比是
+$2p\eta(pq)$。右边相同比为
+$D^2r_p(Q)/Dr_p(Q)+2p^2\zeta(q)$。
+用 $\eta_Q=\eta(pq)/p$ 即得(C1)。
+这在当前有限扩域内直接确定 $Z_Q$，
+没有在 $p$ 挠点代入原点的 sigma 或 zeta 级数。
+
+设当前真正代数 section 为
+$s_N(z)=\sigma(z)^N R_N(x(z),y(z))$。
+$N=102$ 时 $R_N$ 是原(2)的两条三挠词完整相加后的
+$R_{102}$，或已登记参考源的对应多项式；
+$N=34$ 时是原 $S,H_3,H_5$ 的对应多项式。
+实际 raw 幅度仍乘在这些 section 上。
+引入一个**独立形式变量** $Z$，定义
+$$
+ \mathcal D=
+ 2y\frac{\partial}{\partial x}
+ +3x^2\frac{\partial}{\partial y}
+ -x\frac{\partial}{\partial Z},
+ \qquad
+ A_{N,0}=R_N,\qquad
+ A_{N,m+1}=(\mathcal D+NZ)A_{N,m}.
+ \tag{C2}
+$$
+此导子保持 $y^2=x^3+1$。例如
+$$
+ \begin{aligned}
+ A_{N,1}&=DR_N+NZR_N,\\
+ A_{N,2}&=D^2R_N+2NZDR_N+(N^2Z^2-Nx)R_N .
+ \end{aligned}
+ \tag{C3}
+$$
+必须先在这个多项式/有理函数环中作(C2)，然后代
+$(x(Q),y(Q),Z_Q)$。
+不能先把 $Z$ 换成(C1)的有理函数再作 $D$；
+也不能在 $E[p]$ 的 reduced 坐标代数内擅自定义这个 $D$。
+沿当前平移的 local germ，$\eta_Q$ 是固定常数，
+所以真正的关系是 $D(\zeta-\eta_Q)=-x$；
+这正是(C2)的最后一项。
+
+令 $T\in E[p^2]$ 满足 $pT=Q$，
+并使用原(12)/(R1054(59))指定的 theta lift。
+记 $b_{N,\widetilde Q}$ 为该实际 lift 在(28)中的常数，
+也就是其中心分量乘 $c_Q^N$。
+这个记号不重新选择 $N$ 次根；它保留原 finite Weyl 的中心。
+对相同原 sigma 刚性化的 symmetric lift，恰有
+$b_{N,\widetilde Q}=c_Q^N$。
+其它原 lift 相差一个 $\mu_{p^2}$ 分量，已由(59)确定。
+因为 $N=34,102$ 均为偶数，(29)进一步给
+$$
+ b_{N,\widetilde Q}^{\,p^2}
+       =\left(\frac p{Dr_p(Q)}\right)^N,
+ \qquad
+ v_p(b_{N,\widetilde Q})=\frac N{p^2-1}.
+ \tag{C4}
+$$
+
+从(28)或直接对
+$e^{-N\eta_Q(pz'+q/2)}s_N(pz'+q)$ 求导，得到所有 $m\ge0$ 的
+完整覆盖 jet：
+$$
+ \boxed{
+ D_{z'}^m\bigl(\mathsf W_T[p]^*s_N\bigr)(0)
+   =p^m b_{N,\widetilde Q}
+        A_{N,m}(x(Q),y(Q),Z_Q).
+ }
+ \tag{C5}
+$$
+这里的 $p^m$ 是实际 $z=pz'$。
+原 Gaussian/Weyl multiplier 的所有高阶费用恰在
+$NZ$ 和 $DZ=-x$ 中；(C5)不是只保最高导数项的近似。
+若改回物理参数 $z$，右侧只去掉这一个 $p^m$。
+Taylor 系数还须除 $m!$，不可与导数混同。
+
+## 17. Z_Q 的准确整费用
+
+写
+$$
+ \Delta_p=p^2-1,\quad d=p+1,\quad
+ c_\sigma=[z^d]\log(\sigma(z)/z),\quad
+ \kappa_\sigma=pc_\sigma\in\mathcal O^\times .
+$$
+[R301](R301-jzero-inert-analytic-half-factor-and-exact-first-denominator.md)
+(5)、(6)、(10)--(13)使用完全相同的 $E_0,\sigma,D$，已付
+$$
+ \kappa_\sigma\bmod p
+  =-(-1)^{(p+1)/6}4^{-(p+1)/6}
+       \binom{(p+1)/3}{(p+1)/6}\ne0.
+ \tag{C6}
+$$
+它不是本篇重新取的一份单位。
+本节用原 good formal 参数
+$w=x^{-1/2}=z+\cdots$，即 R301(6)的参数；
+它与§8的 $-x/y$ 整可逆。
+准确有
+$$
+ Dw=\sqrt{1+w^6},\qquad
+ L(w)=z
+ =\sum_{j\ge0}
+ \frac{(-1)^j\binom{2j}{j}}{4^j(6j+1)}w^{6j+1}.
+ \tag{C7}
+$$
+
+先证明一个全整性事实。
+把(30)在 $w$ 参数中写成
+$$
+ r_p(w)=U(w)\frac{[p](w)}{w^{p^2}},
+       \qquad U(w)\in\mathcal O[[w]]^\times,\quad U(0)=1 .
+ \tag{C8}
+$$
+$j=0$ 惰性约化有 $\operatorname{Fr}_p^2=[-p]$：
+因为 $p\equiv2\pmod3$，$x\mapsto x^3$ 置换 $\mathbf F_p$，
+原曲线的点数角色和为0，故 $a_p=0$，Frobenius 满足这个二次式。
+所以
+$[p](w)\equiv-w^{p^2}\pmod p$。
+$r_p$ 的约化是非零常数：
+它不能为零，因为§8的 Weierstrass 论证已经证明
+$t^{p^2-1}r_p$ 有单位系数；若其非零约化有一个有限零点，
+在该 smooth 点的严格 henselian formal-disc 中必提升出
+$r_p$ 的零点，给一个不约化到 $O$ 的特征零 $p$ 挠点，
+与 supersingular $E[p]$ 连通矛盾。
+而 $r_p$ 仅在 $O$ 有极，故没有其它可能。
+在(C8)约化并用 $U(0)=1$，于是准确有
+$$
+ r_p\bmod p=-1,\qquad U(w)\equiv1\pmod p.
+ \tag{C9}
+$$
+
+还可锁住 $U-1$ 的第一份非 $p^2$ 系数。
+仅作为特征零**形式恒等式**置
+$$
+ E(w)=\frac{\sigma(L(w))}{w}.
+$$
+由定义直接得到
+$$
+ U(w)=\frac{E([p](w))}{E(w)^{p^2}}.
+ \tag{C10}
+$$
+以下只读到 degree $d$，不在挠点评价 $E$。
+R301 的原低窗及(C7)表明
+$[w^j]\log E(w)$ 在 $0<j<d$ 时整；
+其 $d$ 次系数为 $c_\sigma$ 加一个整元素。
+说明如下：$L(w)=w+\cdots$ 的所需窗口整可逆；
+$\log(L(w)/w)$ 在此窗整，且
+$\log(\sigma(L(w))/L(w))$ 的首个非整系数恰是
+$c_\sigma w^d$。所有非零次数均为6的倍数，低窗内涉及的
+指数/对数分母小于 $p$，没有另一个 $p$ 损失。
+
+$[p](w)$ 在 degree $<p^2$ 的系数都被 $p$ 整除，
+而 $\log E$ 的首次数至少6。因此(C10)在 degree $\le d$ 给
+$$
+ \boxed{
+ [w^j](U-1)\in p^2\mathcal O\quad(0<j<d),\qquad
+ \frac{[w^d]U}{p}\equiv-\kappa_\sigma\pmod p .
+ }
+ \tag{C11}
+$$
+具体地，$\log E([p](w))$ 在这一窗被 $p^2$ 整除；
+$-p^2\log E(w)$ 的 $d$ 次项是 $-p^2c_\sigma$ 加 $p^2$ 整项。
+从 $\log U$ 返回 $U$ 的非线性项在该窗也被 $p^2$ 整除。
+(C9)同时控制全部更高系数，不只控制这个前缀。
+
+在非零 $Q\in E[p]$，(C7)有
+$D^2[p](w)(Q)=0$：
+$D[p](w)=p\sqrt{1+[p](w)^6}$，再求导并代 $[p](w_Q)=0$。
+对(C8)在 $Q$ 取两次导数，与(C1)合并，严格得到
+$$
+ Z_Q=D\log w(Q)-p^{-2}D\log U(Q).
+ \tag{C12}
+$$
+这里 $U$ 是整单位，故此评价在 $w_Q$ 的 formal disc 内合法。
+
+所有 $w_Q$ 都满足 $v_p(w_Q)=1/\Delta_p$。
+(C11)的 $d$ 次项在 $p^{-2}D\log U(Q)$ 中估值为
+$-1+p/\Delta_p$，其系数为单位。
+更低次数的项估值至少 $-1/\Delta_p$；
+由(C9)，更高次数的项估值至少
+$-1+(j-1)/\Delta_p$，严格较大。
+在 $U^{-1}$ 与 $Dw$ 中乘入非恒项也只提高估值。
+所以第一项不会与任何高尾抵消，得到
+$$
+ \boxed{
+ v_p(Z_Q)=-1+\frac p{\Delta_p},\qquad
+ \frac{pZ_Q}{w_Q^p}\equiv d\kappa_\sigma
+                    \equiv\kappa_\sigma\pmod{\mathfrak m}.
+ }
+ \tag{C13}
+$$
+剩余域可以包含全部 actual division-field 数据；$\mathfrak m$
+是其 valuation ring 的极大理想。
+本证明完全通过整 $U$ 和有限形式系数进行，没有用
+$\zeta(q)$ 在临界点的原点级数收敛。
+
+## 18. 所有阶的严格支配与每个原 translated source 的真实半径
+
+假定原固定 $R_N$ 的系数在该位整，且
+$s_N(z)=a_0z^a+\cdots$、$a_0\in\mathcal O^\times$。
+对本篇三条归一负源 $a=4,N=102$；
+原 canonical 正源 $S$ 的 $N=34,a=6$，首系数为1。
+参考 $H_3,H_5$ 有原已付的非零中央质量，所以它们须按
+$a=0$ 和其真实质量处理，并在需要本节准确估值时保持该质量
+在当前位为单位的条件；不能把它们的 $z^6$ 系数冒作首项。
+实际 raw 的固定外幅度另按其已付值乘入；若某个其它 transported
+线性组合不满足此首项条件，只使用(C5)，不免费套本节等式。
+
+写
+$$
+ A_{N,m}=\sum_{b=0}^m R_{m,b}(x,y)Z^b.
+$$
+由(C2)归纳，$R_{m,b}$ 的 Laurent 系数整，且
+$$
+ \operatorname{pole}_O R_{m,b}\le N-a+m-b,\qquad
+ R_{m,m}=N^mR_N .
+ \tag{C14}
+$$
+确切地，$D$ 在 good 参数中加至多一个 pole，
+$-x\partial_Z$ 减一个 $Z$ 幂并加至多两个 pole，
+$NZ$ 加一个 $Z$ 幂而不改 pole；三项都保持(C14)。
+全程仅有整数微分系数，没有除 $m!$，所以任意大的 $m$
+也不产生未记分母。
+
+令 $\tau_p=p/\Delta_p$。最高 $Z^m$ 项的估值为
+$-(N-a)/\Delta_p+m(-1+\tau_p)$。
+由(C13)--(C14)，每个 $b<m$ 项与它的估值差至少
+$$
+ (m-b)\left(1-\tau_p-\frac1{\Delta_p}\right)
+   =(m-b)\left(1-\frac1{p-1}\right)>0 .
+ \tag{C15}
+$$
+因为 $p\nmid N$，最高系数 $N^m a_0$ 仍为单位。
+因此所有 $m\ge0$ 都有准确等式
+$$
+ \boxed{
+ \begin{aligned}
+ v_p\bigl(A_{N,m}(Q,Z_Q)\bigr)
+   &=-\frac{N-a}{\Delta_p}+m(-1+\tau_p),\\
+ v_p\!\left(D_{z'}^m
+      (\mathsf W_T[p]^*s_N)(0)\right)
+   &=\frac a{\Delta_p}+m\tau_p .
+ \end{aligned}}
+ \tag{C16}
+$$
+这次确实为每个非零 translated source 单独支付了费用，
+不是从 whole theta 有界性倒推。
+
+Taylor 系数是(C16)第二行再减 $v_p(m!)$。
+由 Legendre 公式，在闭 Lie 盘 $v_p(z')\ge r$ 上的第 $m$ 项
+准确加权估值为
+$$
+ \frac a{\Delta_p}
+ +m\left(r-\frac1{\Delta_p}\right)
+ +\frac{s_p(m)}{p-1},
+ \tag{C17}
+$$
+$s_p(m)$ 为 $p$ 进数字和。
+故严格 $r>1/\Delta_p$ 时该 series 属于 Tate algebra，
+并且常数项严格支配全部非恒项：除其实际常数后的 series
+及逆均为 norm1。没有重选原 theta 常数。
+在边界 $r=1/\Delta_p$，沿 $m=p^e$ 的加权估值恒为
+$a/\Delta_p+1/(p-1)$，所以不为 Tate，也不能在边界直接代入该
+Lie series。其精确半径仍须与物理 $z=pz'$、
+coherent 变量及 R1060 原 period 全部运输后再使用。
+整代数 section 在形式参数中的正则性不消掉这个 Lie 边界。
+
+## 19. 全部 Q、原中心和完整有限临界读者
+
+定义 $\mathcal J_{r,s}$ 为(13)返回**原物理两变量**
+$z_-,z_+$ 后的 $(r,s)$ 阶导数。
+取每个 $Q\in E[p]$ 的一个原相容 lift $T$；
+正侧使用同一个图 lift $\gamma_{102,p}T$。
+令
+$$
+ \mathfrak b_p(Q)=
+ b_{102,\widetilde Q}\,
+ b_{34,\widetilde{\gamma_{102,p}Q}} .
+$$
+单个 $b$ 保留原中心；两个乘积在改变相容 lift 时不变，
+这是(12)--(13)的同一个 cocycle 消去。
+以 $d_{-,r}=D^rs_-(0)$、$d_{+,s}=D^ss_+(0)$ 记原未平移 jet，
+则准确有
+$$
+ \boxed{
+ \begin{aligned}
+ \mathcal J_{r,s}=\frac1{p^2}\biggl\{
+  d_{-,r}d_{+,s}
+  +\sum_{\substack{Q\in E[p]\\Q\ne O}}
+    \mathfrak b_p(Q)\,
+    A_{102,r}(Q,Z_Q)\,
+    A_{34,s}(\gamma_{102,p}Q,
+                     Z_{\gamma_{102,p}Q})
+                 \biggr\}.
+ \end{aligned}}
+ \tag{C18}
+$$
+$Q=O$ 不使用(C1)或(C13)，它是式中单独保留的原 seed。
+$p^{-2}$ 是阶 $p^4$ 群的真实平均及阶 $p^2$ old 稳定子给出的
+那个系数。原 bad 输入还须按 R1054 保留 $-w_0$；
+在整个 R1052 所指定的投影之外不能删除它。
+
+(C18)在每个真实 finite/$h$ 字上先按 R1054 Egorov 运输；
+原 $R_N$、Miller lift、$\gamma$ 和变量矩阵一起运输。
+回到 native coherent $(Z,W)$ 时，要施原
+$z_-=\Omega_0h_HT_-/\delta$、$z_+=\Omega_0h_HT_+$，
+$T_\pm=-ib(Z,W)$、实际 arch/代数 period 改写及整 $h$ 积分。
+这些都是已指定的线性操作。
+所以把(C18)代入 R1060 的完整有限转置合法，
+但不能将 $\mathcal J_{r,s}/(r!s!)$ 未经这些操作就改名为
+该处的 $h_{r,s}$。尤其不得删去那里的冻结外权及其导数。
+
+(C18)是有限 division-field 表达：
+$Z_Q$ 用原 $r_p',r_p''$，
+$A_{N,m}$ 用(C2)，全部中心常数用(C4)及原 lift。
+在有限计算中可先生成(C2)再在各点或其 finite étale 代数中评价。
+若以该代数实现，不可在中途约去 torsion 理想后继续求 $D$，
+因为 $D(r_p)$ 在这些点不为0；要保整个相应 jet 或先作完(C2)。
+
+还给出具体精度账本。对本篇 canonical $k=1$ 的 $a_-=4,a_+=6$ 规范原源，
+每个非零 $Q$ summand 在乘 $p^{-2}$ 后的估值准确为
+$$
+ -2+\frac{10}{\Delta_p}
+       +(r+s)(-1+\tau_p).
+ \tag{C19}
+$$
+它们的和只可能提高估值，不能据单项精度断言全和非零。
+$Q=O$ 的真实估值另由 $d_{-,r}d_{+,s}/p^2$ 给出。
+若已付 R1060 的某个有限 reader 行是
+$\sum a_{r,s}\mathcal J_{r,s}$，要达到绝对 $p^H$，
+各未乘 $p^{-2}$ 的完整产品保到
+$H+2-v_p(a_{r,s})$ 的绝对精度即够；
+原 period、Artin/Cor 和有限 $h$ 权已包含于其实际行系数。
+有限求和的项数不另产生一个分母。
+这给真正全部连接项的有限精度来源，不是新设另一条 reader。
+
+原 canonical 坏条件只能作用在其已授权的原整 Newton 行。
+即使原 $[p]$ seed 已由 R1060 的 exact pullback
+运输该坏条件，(C18)中全部非零 $Q$ 的译像和仍必须按同一
+有限行处理。本文没有把它们逐项赋零，也没有从(C13)、(C16)
+的单项非零推出该完整线性和非零。
+
+本附节是原精确乘法、整形式群和全阶递推的纸面证明；
+没有数学执行，也没有另开任何作业。

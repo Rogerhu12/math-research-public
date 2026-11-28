@@ -200,3 +200,10 @@ R1061从同一inverse Jacobi与原周期格给实际反CM图γ34=ω·conj，原�
 R1061§§11–15把实际反线性图的全部level34来源反写到两条确切conductor-p²椭圆曲线的level68 theta：保positive[-1]、period基变及全部34²列/两parity和精确逆。两真实3词的point/characteristic及Miller全幅度明确；实际principal根的二挠characteristicβ0=(1/2,1/2)和level34对角号也付，degree4 pullback线丛不是仅数值相认。原全h混合、冻结χ与log、完整有限系数转置保留；mixed heat沿实际degree3同源族，仍只作原unit chart/完整连接运输，不冒全球Green或canonical非零。
 
 [完整证明](../results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，B1–B22、B5a/B10a。
+
+
+### R1061 §§16–19：全部平移项的整估值与有限 reader 精度
+
+R1061§§16–19把每个真实translated source的全阶jet写进原division field：Z_Q=−r_p″/(2p²r_p′)、独立Z变量的全导子递推及所有中心/Q0均保。由原R301首sigma分母与整U≡1modp，精确得vZ_Q=−1+p/(p²−1)，没有在挠点代原点sigma/zeta级数。全m最高Z项严格支配，故每原归一源cover导数估值a/(p²−1)+mp/(p²−1)，各自真实Lie半径及边界不Tate已付。全p²和/物理参数返回及finite reader精度明确，单项非零不替完整投影或原canonical行非零。
+
+[完整证明](../results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，C1–C19。

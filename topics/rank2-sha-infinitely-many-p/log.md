@@ -159,3 +159,12 @@ root逐式核两primitive quadratic equations/CMorder、两真循环p²同源、
 
 
 本条首次ref更新02:46:16UTC返GraphQL错误；attempt 5d515c16d0ab8ec68145215b907d1757b87b65b5与actual main 7e527749e2bac983d21846051d560f7c36c694de比较为diverged，未误报成功。立即尝试本地git pull --rebase仍无环境，继以readonly job140839069050实际双pull：公开2026-11-28 02:46:24 UTC至7e527749e2bac983d21846051d560f7c36c694de，私库2026-11-28 02:46:29 UTC至879963dcb3939d6af2555a7615111c7b4be89180。四README与02:43已读版相同，QUEUE/认领及库存tree5c215ec9d38c63a0088fc14c65ca126d7c895474不变。重拉日志14887B/hash1f6ba549912aa1c84cd6d266c24f3134eb17916a46da2673bb57bb965104315a；据新actual main继续非force推送。
+
+
+## 2026-11-28 02:49:37 UTC：原 Miller 场的全部 jet、整首项与每译源半径
+
+R1061§§16–19把每个真实translated source的全阶jet写进原division field：Z_Q=−r_p″/(2p²r_p′)、独立Z变量的全导子递推及所有中心/Q0均保。由原R301首sigma分母与整U≡1modp，精确得vZ_Q=−1+p/(p²−1)，没有在挠点代原点sigma/zeta级数。全m最高Z项严格支配，故每原归一源cover导数估值a/(p²−1)+mp/(p²−1)，各自真实Lie半径及边界不Tate已付。全p²和/物理参数返回及finite reader精度明确，单项非零不替完整投影或原canonical行非零。
+
+root独核sigma乘法的二阶/一阶比、C2各导子和不能在torsion商中先求D的范围，直接读R301(5)–(13)核同一参数与首分母。核U的Weierstrass整性、Frob²=−p、低d窗及全部高尾比较，all-m整Laurent pole归纳、两p幂、Legendre准确数字和及Q0/全和精度。新增一句原点数和为0的自含理由。全纸证，无数学执行；主无限p目标未完成。
+
+R1061 §§11–15已重试成功推送ca48f4c54411365d8e78c84df1a60aaff89e36d2。推前actual readonly run46075603971/job140839502128：公开2026-11-28 02:48:12 UTC至466d9607a54fcf5e3c76d53d3ea484398608e2a0；私库2026-11-28 02:48:18 UTC至47633f7ed43dd611dda140007bf755eac9f946c3。四README与02:46已读版相同，QUEUE/认领未变；日志14894B/hashc0600ace8f93c11da70dbfa6e25710bbd2b7469da67defccc78eaa422a93ecb1，库存3171/44777200B/tree252a9e651da4f639adc85d951324aee05515b7c6，无>5MB，三旧必要gzip未变。
