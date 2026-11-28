@@ -97,3 +97,7 @@
 ### R1073 §29：两条固定曲线的原中央准确读同一个全局 U₂
 
 已证明：canonical整准周期直接把三格全局化，有限双留数与真实形式群前两项给K_p=−U₂+(1+κ₀)L_q；完整驯和准确杀L_q，三条原曲线在共同6630水平保源比较，尚缺联合无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §91：原两条高格及无隐式反演的完整有限二项式母量
+
+已证明：原κ_P的τ^(p+1)、τ^(2p)系数准确接固定标记和真实倒数点G(Q_P)；(BG7)–(BG9)给全原四项有限公式，共同μ剪切准确相消，实算可取μ′=−d_n而不需真μ第二位。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

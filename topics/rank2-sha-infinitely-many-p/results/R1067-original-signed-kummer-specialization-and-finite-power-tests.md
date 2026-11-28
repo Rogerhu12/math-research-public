@@ -1174,3 +1174,193 @@ $p$ 根缺陷。相减得正规奇级数，
 [原文](https://arxiv.org/pdf/2403.02592)。
 本节对原曲线的存在、唯一、坐标运输及全盘(BF2)已给出上述显式证明。
 这些全盘恒等式仍不单独推出原完整 $a_2$ 的非零。
+
+## 91. 原标记核的两条高格及完整四项的有限二项式公式
+
+**已证明。** 沿§§86–90的原角色、标记及严格LT切线，
+记 $q=p^2,\ p=6n-1,\ c=c_p\in\mathbb F_p^\times$。
+本节 $c$ 仅指 $DG$，参考乘法仍为 $[103]$。
+在 $C:v^2=\lambda^6+1$ 上，
+$\pi(\lambda,v)=(\lambda^2,v)$；
+在 $v/\lambda^3\to-1$ 的无穷点取
+$\tau=1/\lambda=x^{-1/2}\sim s$。
+置 $\gamma=(1+\tau^6)^{1/2}$，根的常数为一，则
+$x=\tau^{-2},\ y=-\gamma\tau^{-3},\ \omega=d\tau/\gamma$。
+对每个实际 $P=P_t=-T_t$，
+记 $a=x(P),b=y(P),X_P=X(P)$。
+原含留数的微分准确为
+$$
+ \kappa_P=
+ \left\{\frac1{\tau(1-a\tau^2)}
+ +\frac{X_P-b\tau^2/(1-a\tau^2)}{\gamma}\right\}d\tau. \tag{BG1}
+$$
+这是 $K_P=X_P-(y(Q)+b)/(x(Q)-a)$ 乘原 $\omega$；
+原 $17$ 部分保证 $ab\ne0$。
+
+令 $d_j=\binom{-1/2}{j}$，
+$S_m(v)=\sum_{j=0}^m d_jv^j$。
+在特殊纤维有全局恒等式
+$$
+ G=-yx^{(p-3)/2}S_{n-1}(x^{-3}),\qquad
+ d_{n-1}=-c/2,\quad d_n=-c. \tag{BG2}
+$$
+仅 $O$ 为极、奇性、六单位权及首项 $s^{-p}$
+给 $G=y\sum_{k=0}^{n-1}a_kx^{3k+1}$，$a_{n-1}=-1$。
+由
+$D(yx^{3k+1})=(6k+5)x^{3k+3}+(6k+2)x^{3k}$
+及 $DG=c$，有 $2a_0=c$，
+在 $k=n-1-j$ 有
+$a_{k-1}/a_k=-(j+1/2)/(j+1)$。
+这是倒序的 $d_j$ 递推，再用 $6n=1\bmod p$ 即得(BG2)。
+每个标记点因此满足
+$S_{n-1}(a^{-3})=-X_P^p/(ba^{(p-3)/2})$。
+
+同一格还有
+$$
+ \sum_{j=0}^{n-1}\frac{d_jv^j}{6j+1}
+       =\frac{(1+v)S_{n-1}(v)^2-1}{2cv^n}. \tag{BG3}
+$$
+分子次数小于 $p$，前 $n$ 项由二项式平方相消；
+其导数为
+$(2n-1)d_{n-1}v^{n-1}S_{n-1}
+ =(c/3)v^{n-1}S_{n-1}$。
+逐项积分得到(BG3)，没有被 $p$ 除的分母。
+在 $v=a^{-3}$，右边为
+$(X_P^{2p}-a^p)/(2ca^{(p-1)/2})$。
+
+取 $h=(p-1)/2=3n-1$，
+$\lambda_P^2=a$，$Q_P=(a^{-1},b/\lambda_P^3)\in E_1$。
+两条真正标记系数为
+$$
+ [\tau^{p+1}](\kappa_P/d\tau)=aX_P^p-cX_P,\qquad
+ [\tau^{2p}](\kappa_P/d\tau)=-b^pa^{-h}-\lambda_PG(Q_P). \tag{BG4}
+$$
+第一格由(BG1)后两项给
+$d_nX_P-ba^hS_{n-1}(a^{-3})$。
+第二格仅最后一项贡献，等于
+$-ba^{p-1}S_{2n-1}(a^{-3})$。
+模 $p$ 有 $d_j=\binom hj$，反射 $j\mapsto h-j$ 给
+$S_{2n-1}(v)=(1+v)^h-v^hS_{n-1}(v^{-1})$。
+用 $b^2=a^3+1$，再于 $Q_P$ 使用(BG2)，得到第二式。
+改 $\lambda_P$ 的号同时将 $Q_P$ 换成 $-Q_P$，乘积不变。
+可把§87有限Galois域扩大到含全部 $\lambda_P$ 及共轭；
+同一Chebotarev论证仍给无穷多选定Frobenius为复共轭的素位。
+此时 $X_P^p=\bar X_P,\ a^h=\bar\lambda_P/\lambda_P$。
+(BG4)的 $G(Q_P)$ 保持原特殊纤维取值，不套用原挠点固定性。
+下节给每个 $Q_P$ 的独立非挠证明。
+
+返回原严格坐标，用§90的 $\mu$。
+真实特征零函数为
+$$
+ z(\tau)=\ell(s)=\sum_{j\ge0}\frac{d_j\tau^{6j+1}}{6j+1},\qquad
+ \zeta(z(\tau))=\tau^{-1}
+       -\sum_{j\ge1}\frac{d_j\tau^{6j-1}}{6j-1}. \tag{BG5}
+$$
+它们由 $dz=d\tau/\gamma$、$d\zeta=-\tau^{-2}d\tau/\gamma$
+积分，首项和奇性固定常数。
+$H=c^{-1}\tau^{-1}+O(\tau^5)$ 给出实际有理函数
+$$
+ w=g-(c\tau^p)^{-1}
+   =\frac{\gamma S_{n-1}(\tau^6)-1}{c\tau^p}
+   =s+O(\tau^{5p}),\qquad dw=\omega. \tag{BG6}
+$$
+所以(BD1)末端四个
+$R_m=\operatorname{Res}_O s^{-m}(\cdot)$，
+$m=2p+1,p+2,3,2$，
+可统一改用 $\operatorname{Res}_{\tau=0}w^{-m}(\cdot)$。
+被测形式在此至多低阶极，
+$w/s-1=O(\tau^{5p-1})$ 对每项均不影响留数。
+$C\to E_1$ 在所选无穷点非分歧，原留数没有额外倍数。
+
+取 $D_*=q+2p+4$，定义
+$$
+ \chi=-\frac{\mu^{-1}d_n+1}{p}\bmod p,\qquad
+ h_0=c^{-1}\tau^{-1}
+   -c^{-1}\sum_{j=1}^{n-1}\frac{d_j\tau^{6j-1}}{6j-1}
+   +\chi\tau^p,\qquad s_0=g-h_0^p. \tag{BG7}
+$$
+(BG2)保证 $\chi$ 的商整。
+在 $\tau^p$ 格，$\ell(s^p)/p$ 只有 $\tau^p/p$；
+此前各格由(BG5)，下一可能格至少 $p+6$。
+故
+$H=h_0+O(\tau^{p+6})$，
+$s_0=s+O(\tau^{q+6p})$，其负次项准确相消。
+任取 $s_0$ 至 $D_*$ 的系数整提升 $\widetilde s_0$。
+两个模 $p$ 同余的整级数之 $p$ 次幂模 $p^2$ 同余，故
+$$
+ H_*=\operatorname{red}\left[
+ \mu^{-1}\left(\tau^{-1}
+ -\!\!\sum_{1\le6j-1\le D_*}\frac{d_j\tau^{6j-1}}{6j-1}\right)
+       -\frac{\widetilde s_0^{\,p}}p
+ \right]_{\le D_*}
+        =H\bmod\tau^{D_*+1}. \tag{BG8}
+$$
+整性来自§90的原规范，
+$\ell(s^p)-s^p$ 的次数至少 $pq>D_*$。
+范围内 $v_p(6j-1)\le1$，
+因为 $q\equiv1\bmod6$ 而 $5q>D_*$。
+因此除 $p$ 整的二项式
+$d_j=(-1)^j\binom{2j}{j}/4^j$ 运算及固定标记值以外，
+(BG7)–(BG8)至多需 $\mu\bmod p^2$。
+每个有 $p$ 分母的项先合并其模 $p^2$ 分子再除 $p$。
+
+令
+$R_m^w\eta=\operatorname{Res}_{\tau=0}(w^{-m}\eta)$，
+$\mathcal C_\tau(\sum e_i\tau^i d\tau)
+ =\sum e_{p(j+1)-1}^{1/p}\tau^j d\tau$。
+以(BG1)逐点合成§§86、88原 $\nu_r,\nu_{ij}$：
+$$
+ \nu_r=-c^{-r}\sum\bar\varepsilon X_P^r\kappa_P,\qquad
+ \nu_{ij}=-c^{-i-j}\sum\varepsilon X_P^i(X_P^j)^{1/p}\kappa_P
+                 +\delta_{i1}\delta_{j1}k_0\omega .
+$$
+在选定复共轭子列，$(X_P^j)^{1/p}=\bar X_P^j$。
+完整(BD1)准确变为
+$$
+\begin{aligned}
+ &-R_{2p+1}^w(\nu_{20}-2H_*\nu_{10}+H_*^2\nu_{00})\\
+ &+2R_{p+2}^w(\nu_{11}-H_*\nu_{01}
+                         -\mathcal C_\tau(s_0H_*\nu_0))\\
+ &-R_3^w(\nu_{02}-2\mathcal C_\tau(H_*\nu_1)
+                         +\mathcal C_\tau(H_*^2\nu_0))\\
+ &-2R_2^w(\nu_{01}-\mathcal C_\tau(H_*\nu_0)).
+\end{aligned} \tag{BG9}
+$$
+$k_0\omega$ 的读数为零，因为 $dw=\omega$。
+最深项至多使用源次数
+$p(p+2)-1=q+2p-1$，其余Cartier源至多 $3p-1$。
+直接两项及 $H_*$ 的单极都在所留四格余量内。
+这给同一原加权标量的完整有限公式，
+不需高阶隐式参数反演。
+
+### 完整母量可免取 μ 的第二位
+
+(BG7)–(BG9)实算还能把 $\mu$ 换成 $\mu'=-d_n$，
+于是 $\chi'=0$。
+更一般，任意 $\mu'\in\mathbb Z_p^\times$、
+$\mu'\equiv c\bmod p$ 均给同一完整(BG9)。
+令
+$r=c(\mu'^{-1}-\mu^{-1})/p\bmod p\in\mathbb F_p$。
+由(BG2),(BG7)，
+$h_0'-h_0=r\tau^p$、
+$s_0'=s-rs^q\bmod\tau^{D_*+1}$。
+§90整性在此窗给 $p\zeta(z(\tau))\equiv\mu s^p\bmod p$。
+用 $\widetilde s-\widetilde r\widetilde s^q$ 作新整提升；
+其 $p$ 次幂除 $p$ 的差在本窗仅为
+$-rs^{q+p-1}$，下一项次数至少
+$2q+p-2>D_*$。
+所以(BG8)变为
+$H_*'=H+rs^p+rs^{q+p-1}$ 至所需精度。
+
+后一个高项仅能在深项贡献
+$-2rR_{p+2}\mathcal C(s^{q+p}\nu_0)
+=-2rR_1\nu_{00}=0$，
+因 $\nu_{00}=\nu,\ \nu(O)=0$。
+余下是同步剪切
+$H\mapsto H+rs^p,\ s\mapsto s-rs^q$，
+正是§89已经逐槽证明不改完整四项的
+$\kappa=-r$ 情形；末端读数参数不变。
+故显式提升 $-d_n$ 给准确的整截断母量。
+单个 $H_*'$ 则与真 $H$ 按上述差式区分，
+并非宣称它们各个系数相等。
+上述全部式子仍未证明无穷多个 $p$ 上的完整(BG9)非零。
