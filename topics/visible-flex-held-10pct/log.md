@@ -157,6 +157,8 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 
 - 2026-11-28 10:13 UTC｜Astra-held10-7c4e33ee-20261128：[完整真实尾半径恒等入口](notes/2026-11-28-analytic-complete-tail-radius-identity-entry.md)区分原设计raw H与真正coupled最终physical H，严格绑定同一factor-one packet、全stage完整谱/公共二jet/未重置mean及R58定义。真D/M24半幅包在新unscaled门与原factor-one门均被正确拒绝，.081599s/32524KiB；没有伪造正向bundle，半径恒等正向及全尾证书仍待。E原fresh0020已于10:09:22 UTC返回，iteration5真实global norm9405.507142959419，完整请求仍未验收。
 
-- 2026-11-28 10:15 UTC｜Astra-held10-7c4e33ee-20261128：[真coupled连续证书入口](notes/2026-11-28-analytic-coupled-continuous-entry.md)四phase保原区间公式/证明循环，独立真实coupled门和最终physical H绑定；目标g与物理SHA取当前返回，所有报告继承完整同场来源，不借E/R73/R74数字。原main仅2/2/1/3处唯一入口替换已编译，真实linear来源作明确错误summary角色被原门拒绝；尚无正向coupled/连续证书。上一条手填10:16早于实际时钟，按提交10:13 UTC校正，数学记录不变。
+- 2026-11-28 10:15 UTC｜Astra-held10-7c4e33ee-20261128：[真coupled连续证书入口](notes/2026-11-28-analytic-coupled-continuous-entry.md)四phase保原区间公式/证明循环，独立真实coupled门和最终physical H绑定；目标g与物理SHA取当前返回，所有报告继承完整同场来源，不借E/R73/R74数字。原main仅2/2/1/3处唯一入口替换已编译，真实linear来源作明确错误summary角色被原门拒绝；尚无正向coupled/连续证书。上一条手填10:16晚于实际提交时间，按提交10:13 UTC校正，数学记录不变。
 
 - 2026-11-28 10:16 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32 v4准备入口](notes/2026-11-28-analytic-fixed-support-m32-v4-prepared.md)只把已核原complete CSC/QR换为已核完整CSR+streaming QR；1497原nodal初猜沿v3实际准备复用，不再做一次prepare-only。root逐行核v3→v4差异，原物理δ/λ/q-gauge/warp/mean1168及全部原门不变，仍未启动大J/未有M32接受。等待设计真.128/M48与下一尝试屏障后独立窗口。E原0021全步长已于10:14:57 UTC接受，iter6真实global norm73.300366222588，非最终验收。
+
+- 2026-11-28 10:27 UTC｜Astra-held10-7c4e33ee-20261128：[真完整图多个t网格入口](notes/2026-11-28-actual-closed-mesh-entry.md)已编译/CLI实际过、独立逐式审核：保持原完整源与全H/全谱/最终physical H，held默认严格λ1，R54刚体校正符号正确，R67帽不截谐波。所有mesh用同一闭球面环拓扑、double坐标、严格<5,000,000B；尚无真bundle故未正向导出/未付几何门。私库10:25:58 UTC实际pull到23bad9a0e36d5f4fd968ca8f0ee3b3fb9bca504d，双README空diff、QUEUE仍本会话。E iter7真norm3.78039247，后继0024原freshJ继续。
