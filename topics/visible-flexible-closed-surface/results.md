@@ -177,3 +177,4 @@
 - [R305：两张紧凑 p32 真闭像的全角强形变比例](results/R305-compact-stadium-full-angle-closed-image-amplitude-bounds.md)（已证明）：192/396 两个实际场分别 held/D>.2149993/.2091312、δE/D>.0511992/.0508668，完整 D≤3.1644；嵌入、reach、同g容差仍另付。
 - [R306：同一紧凑192真闭核的连续浸入与主曲率](results/R306-compact-p32-192-continuous-immersion-and-principal-curvature.md)（已证明）：全时 C² 浸入、|κ|<10.306，32392严格叶覆盖全部材料；非局部reach和完整固定帽另付。
 - [R307：同一紧凑192场的整闭全时reach及强几何](results/R307-compact-p32-192-full-closed-surface-reach-and-strong-geometry.md)（已证明）：完整点对1698662访问/未决0、整帽后reach≥.097，reach/D>.03065352、held/D>.2149993、δE/D>.0511992；原g误差仍.1654。
+- [R304：真实C3双厚臂整闭族的全时reach与两项强形变](results/R304-C3-thick-closed-family-complete-reach-and-strong-shape.md)（已证明）：同cf81f6真H65，reach/D>.0307237、held/D>.2083874、δE/D>.0555961、diamH/D>.3740288；全部非局部和真实入口已付，固定径向g误差>.85。

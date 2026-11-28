@@ -44,7 +44,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-r302 --> [R302](results/R302-two-true-bent-thick-arms-and-the-whole-tapered-central-belt.md) 两实体厚臂、轴向回原中央及真实边口已证全时 reach≥.115、严格同g；新整高臂可点点固定且 diamH>1.25。完整外关闭段的度量、厚度与全像比例另付。
 
-<!-- 2ecf-r303 --> [R303](results/R303-two-oblique-rigid-attachments-on-a-complete-short-phase-surface.md) 真M383/H65的整闭嵌入、完整固定帽和两个薄附件，两强形变比>.20936/.08039；该薄件 reach<1/320、关闭段同g误差>2.5，继续用R302厚件及真实XYZ求解。
+<!-- 2ecf-r303 --> [R304](results/R304-C3-thick-closed-family-complete-reach-and-strong-shape.md)真cf81f6 H65宽C3整闭全时嵌入，reach≥.115、D<3.743027、held/D>.2083874、δE/D>.0555961、diamH/D>.3740288，run46160322325已绑定全部真入口与全角局部；同径向g误差>.85。旧R303薄件结论保留。
 
 ## 工作位置与接续
 
@@ -58,7 +58,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:30:28 UTC；已读公开 main `a8bb8583083f13d9aaafb0366447b8e5911acc45`，根/课题 README 逐差无变化。
 
-执行器失联后的 API 规则读取：公开 `a698e5089bbbc48529eace999430d61907e1ec32` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
+执行器失联后的 API 规则读取：公开 `e6f50fabddf98ff09cd4bd349b16556b13fded35` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
 
-<!-- 2ecf-actions-launch --> run46157156458原R262恢复继续；run46158716329完整真实大相位/联合初相试验均未达。新true-geometric-input任务修769模入口整数分块并重新绑定宽C3法管；同时从原中央数据做D3三弧全角比较，随后用原R262真前缀替换中央高度。
+<!-- 2ecf-actions-launch --> run46157156458原R262恢复继续；run46158716329完整真实大相位/联合初相试验均未达。run46160322325真实H65全局部成功并已合R304；同run原R262中央对新D3低曲率.25/.35的全幅位差仅.029855/.027959，继续完整前缀同g求解。
 <!-- 2ecf-actions-rules --> Actions run 46160322325/1：真实 pull/rebase 2026-11-28 15:33:00 UTC；公开已读 84e75e64d3f20c230691db17e0330c6b00bab983，根/课题 README 无变化。 私库真实 pull 2026-11-28 15:32:25 UTC、已读 e959619aa3db8ea65ecffb65fa1c828ef6650f3b，私根无变化。
