@@ -526,3 +526,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:38:45 UTC — 20下一完整试步统计实际返回
 
 20下一a6b304仅统计Phi3824.946159242409/Gram.6460490804199277；当前e70a/accepted3原六族，至04:33:10无下一几何或接受、child未自然返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`fb040ecd50a76ddefcba46ff23606af3ca3fd8dd`无变（非pull）。
+
+## 2026-11-28 04:38:50 UTC — 26首完整恢复试步统计返回
+
+26首7722d恢复试步仅统计Phi619.4536488690911/Gram.419078836233375、alpha1；当前初7e06/accepted0，至04:31:21geometry/接受未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`50b7752cee2d129f81e74eeecf164c4e18480206`无变（非pull）。
