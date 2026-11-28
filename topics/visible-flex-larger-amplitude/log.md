@@ -29,3 +29,7 @@
 ## 2026-11-28 05:43:46 UTC — 21官方取消及最后完整实际边界
 
 21官方completed/cancelled@05:37:58Z/job140790598810，研究step05:37:53Z取消；取消原因未知，不由350min相近或29容量故障猜因。最后05:34:24索引仅两输入返回，科学report/自然退出未知；当前初7e06/accepted0/Phi3233.3855489912225/Gram.6568825757487662/g2.541916739245917。359c4仅新统计3233.3855488826853/.6568825758300012，几何未返。原95194B说明不改，[完整终态](notes/2026-11-28-run21-official-cancellation-and-last-complete-observation.md)保全部官方对象/全进度/固定原身份及末真pull槽；只移已终态21槽。双README云核至`d694399b6058b02ef1f34343583bd1e9c9edf079`无变（非pull）。
+
+## 2026-11-28 05:44:35 UTC — ret73三完整有限模式诊断保源退役
+
+完整三件38569B保13源/原9模块loader、3完整config逐对象相等、真实steps512/mode2/far48和三幅度.0002/.00015/.00008；只移三旧generated JSON100378B，净61809B。[完整交付](computations/legacy-finite-mode-refinement-retention-73-complete-delivery.json)与[完整说明](notes/2026-11-28-legacy-finite-mode-refinement-retention-73.md)。固定bdcf84039b32d5c9071cd256fdf9e1635b963a97精确原字恢复；无外部数值状态输入、无大体/二进制读。旧OSargv/runtime/resource/exit/self SHA未知仍null；不同配置不同g不冒same-g精化，有限形式曲率/投影非nonlinear闭面证，原RET42/更强目标失败保。源参/活输入/port/证明不删，数组不编码，不加科学门。双README云核至`3a359573466749d3af8684b157338f1443831c15`无变（非pull）。

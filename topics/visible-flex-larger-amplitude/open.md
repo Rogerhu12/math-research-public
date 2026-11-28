@@ -134,4 +134,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 容量与持续求解
 
-[ret72](computations/legacy-finite-tail-curvature-retention-72-complete-delivery.json)及Hermite/71–65完整源参/结论失败/输入恢复保全；旧reader先恢复exact原路径。此前全部措辞保[ee53固定open](https://github.com/Rogerhu12/math-research-public/blob/ee53a577c6e06ec326a04877d6a6f3cc141bff35/topics/visible-flex-larger-amplitude/open.md)。活输入/唯一状态/未闭来源不删。README未完成，持续真正求解；新raw仅runner。
+[ret73](computations/legacy-finite-mode-refinement-retention-73-complete-delivery.json)及72/Hermite/71–65完整源参/结论失败/输入恢复保全；旧reader先恢复exact原路径。此前全部措辞保[ee53固定open](https://github.com/Rogerhu12/math-research-public/blob/ee53a577c6e06ec326a04877d6a6f3cc141bff35/topics/visible-flex-larger-amplitude/open.md)。活输入/唯一状态/未闭来源不删。README未完成，持续真正求解；新raw仅runner。
