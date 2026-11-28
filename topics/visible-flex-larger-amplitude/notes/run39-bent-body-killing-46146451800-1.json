@@ -166,26 +166,39 @@
   "child_pid": 2774,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 8,
-    "utc": "2026-11-28T12:49:37Z",
+    "ordinal": 9,
+    "utc": "2026-11-28T12:50:17Z",
     "original": {
       "event": "stage",
-      "stage": 7,
+      "stage": 8,
       "source": "horizontal-original",
-      "Killing": 14.903288919198987,
-      "K": 11.715248298367328,
+      "Killing": 21.6571433136751,
+      "K": 10.86379831621259,
       "base_gram": null,
-      "point_sha256": "f9aacb6774baa75dde72861fc02983570b7a798a28f7ab77f0a9bc9d5231690e"
+      "point_sha256": "363a8e2f35140c0cf101d5efd276b5de7bb62c9d31b3944f0cc3c12da5633fee"
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run39-bent-body-killing-46146451800-1/field/summary.json",
-      "bytes": 41418,
-      "sha256": "e70b8536f74aaf2c9766519083dfef451cdf01cb5e97bfa44c7358b5f25a3784"
+      "bytes": 47413,
+      "sha256": "21368dcaa897a169c34f93d23a5f3148034a82c9461451df90ca97419645e18f"
     },
     "complete_small_json": {
-      "elapsed_seconds": 81.194830411,
+      "elapsed_seconds": 101.58861140799999,
+      "frozen_target": {
+        "definition": "One complete selected unmarked physical pullback tensor in the original fixed material atlas, exact chart/geometry formulas and recorded physical polynomial coefficients. Same top marker graph metric on its fixed domain; no per-radius re-fit, no Haar quadrature or target interpolation.",
+        "degree": 7,
+        "open_cost": "A full-group invariance of the frozen source is not presumed. Fixed refinement charges both its base tensor mismatch and the actual material Lie derivative of the candidate metric for finite-time control.",
+        "source_design": {
+          "field_width": 0.16,
+          "gap": 0,
+          "geometry": "equal",
+          "id": "equal-unmodified"
+        },
+        "source_physical_sha256": "a4dd5cf469cb8545c5dd0d070e28268a4c300e0bad307e703ee41a0d510aa872",
+        "source_stage": 6
+      },
       "imports": {
         "bent_body_ambient.py": "80476f120f0c45b60ef11fbc9b8e953216ab6e55d8f85fc3a737acbf356316a3",
         "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
@@ -195,12 +208,12 @@
         "r745_equal_meridian_jacobi_two_jets.py": "cb21501efc9a146f72a3b3aa349e148591a4499f820d29a0c85e054d9b672a0a"
       },
       "in_progress": {
-        "call": 34,
-        "cost": 12.500040487624451,
-        "design": "horizontal-original",
-        "material_sha256": "182a236ae8eba1cda096d4189d80abd210da548f3b5e10aed4fb79189a705eb8",
-        "physical_sha256": "70aa01d7877f345911bb176c95a7e261e3c3296a86caf7af7f0118eb68802696",
-        "stage": 8
+        "call": 1,
+        "cost": 8.809458151607387,
+        "design": "equal-unmodified",
+        "material_sha256": "fef02787fb22c81b2980ea5f102549134318ee105717dd87def357f8dbe849e9",
+        "physical_sha256": "68c6647797a969423a2d1a1fb31f2d50e62b70490ce0693b4173c700eb2d1758",
+        "stage": 9
       },
       "numpy": "2.3.5",
       "params_sha256": "6a3264161732a9e18ae7b3347344ef51a268292864d02b5b1f10e16894bc0eec",
@@ -2160,6 +2173,255 @@
             },
             "rms_Killing": 2.16813329779059
           }
+        },
+        {
+          "adjoint_abs": 2.498001805406602e-16,
+          "check": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 5.017610576153,
+              "coordinate_2": -0.7724666666666667,
+              "physical_grid_index": 6844,
+              "side": "lower_profile",
+              "value": 21.6571433136751
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 5.5930155540114,
+              "coordinate_2": 0.05671533443128294,
+              "physical_grid_index": 12374,
+              "side": "lower_profile",
+              "value": 10.86379831621259
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -0.8,
+              "physical_grid_index": 6,
+              "side": "upper_profile",
+              "value": 0.024203203961939222
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 17459,
+              "side": "upper_profile",
+              "value": 5473.29164073031
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 17459,
+              "side": "upper_profile",
+              "value": 6.926920018307781e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 6.4789684090838,
+              "coordinate_2": 0.7608666666666667,
+              "physical_grid_index": 8419,
+              "side": "lower_profile",
+              "value": 0.057786276626864086
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 5.017610576153,
+                  "coordinate_2": -0.7724666666666667,
+                  "physical_grid_index": 6844,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 21.6571433136751,
+                "max_abs_principal": 10.075055493732496
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 0.6335370773606,
+                  "coordinate_2": 1.0,
+                  "physical_grid_index": 16982,
+                  "side": "upper_profile"
+                },
+                "max_Killing": 2.1413539238947634,
+                "max_abs_principal": 1.6917085217577617
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 5.3130155540114,
+                  "coordinate_2": 0.0005,
+                  "physical_grid_index": 12209,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 7.456148181475884,
+                "max_abs_principal": 10.86379831621259
+              }
+            },
+            "rms_Killing": 2.0058791244194722
+          },
+          "configuration": {
+            "check": [
+              91,
+              31,
+              16,
+              13
+            ],
+            "field_degree": 10,
+            "field_iterations": 400,
+            "id": "actual-body-design-2",
+            "inner": 85,
+            "metric_weight": 0,
+            "nfev": 52,
+            "regularizer": 1e-05,
+            "shape_degree": 7,
+            "train": [
+              59,
+              19,
+              10,
+              9
+            ]
+          },
+          "design": {
+            "field_width": 0.16,
+            "gap": 0,
+            "geometry": "horizontal",
+            "id": "horizontal-original"
+          },
+          "finite_diff_relative": 4.626306033803614e-06,
+          "kind": "free_actual_shape_and_vector",
+          "linear_material": {
+            "passes": [
+              {
+                "code": 7,
+                "condition_estimate": 20.896703102079545,
+                "iterations": 400,
+                "max_current_op": 18.008206910146292,
+                "normal_residual": 0.0029645435597859676,
+                "residual": 4.623866379558361
+              },
+              {
+                "code": 7,
+                "condition_estimate": 278.0003272306492,
+                "iterations": 400,
+                "max_current_op": 12.544445042552077,
+                "normal_residual": 0.003062618733189484,
+                "residual": 7.593616636254426
+              },
+              {
+                "code": 7,
+                "condition_estimate": 182.18438228475793,
+                "iterations": 400,
+                "max_current_op": 9.784697316876578,
+                "normal_residual": 0.0031077143411875822,
+                "residual": 8.60051667163862
+              }
+            ]
+          },
+          "material_count": 216,
+          "material_sha256": "3e0c9097e0d8ce3ba1b87d566d40f2fba7bfd34b02195e0846d1325545792e79",
+          "nfev": 52,
+          "njev": 43,
+          "npz_bytes": 3046,
+          "npz_sha256": "3a64338a7f86bf0a34ae1a3221ef85b489720cd0a4e29e22d0e9a7f9216b3cd4",
+          "optimality": 0.7175168899824329,
+          "physical_count": 100,
+          "physical_sha256": "c4ed6bd82203b37d5257fe5334b33d748878c9e8cb480ed7b37ddc2438e5cc45",
+          "point_sha256": "363a8e2f35140c0cf101d5efd276b5de7bb62c9d31b3944f0cc3c12da5633fee",
+          "previous_material_sha256": "601e12e8983e85860f65b67d0fdc770712063a062d3ab942f5541410800f28be",
+          "previous_physical_sha256": "6246041e6f0dedbd3d21e8319cb837a886768d9758845dd457acf6fa4e5f21c0",
+          "score": 5.318500528736622,
+          "solver_cost": 12.46871509441743,
+          "solver_status": 0,
+          "stage": 8,
+          "train": {
+            "max_Killing": {
+              "chart": "cylinder",
+              "coordinate_1": 5.1830155540114,
+              "coordinate_2": -0.8888888888888888,
+              "physical_grid_index": 2928,
+              "side": "lower_profile",
+              "value": 9.784697316876553
+            },
+            "max_abs_principal": {
+              "chart": "end+",
+              "coordinate_1": 1.4235528577702,
+              "coordinate_2": 0.05671533443128294,
+              "physical_grid_index": 4263,
+              "side": "upper_profile",
+              "value": 10.902858363224631
+            },
+            "max_displacement_from_thick_source": {
+              "chart": "cylinder",
+              "coordinate_1": 0.0,
+              "coordinate_2": -0.8,
+              "physical_grid_index": 4,
+              "side": "upper_profile",
+              "value": 0.024203203961939222
+            },
+            "max_material_chart_speed": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 7164,
+              "side": "upper_profile",
+              "value": 5473.29164073031
+            },
+            "min_area_any_regular_chart": {
+              "chart": "cap+",
+              "coordinate_1": 2.2571193300256,
+              "coordinate_2": 0.009,
+              "physical_grid_index": 7164,
+              "side": "upper_profile",
+              "value": 6.926920018307781e-05
+            },
+            "min_support": {
+              "chart": "cylinder",
+              "coordinate_1": 0.8304058336993,
+              "coordinate_2": -0.96,
+              "physical_grid_index": 548,
+              "side": "upper_profile",
+              "value": 0.0931858232120453
+            },
+            "parts": {
+              "cylinder": {
+                "Killing_arg": {
+                  "chart": "cylinder",
+                  "coordinate_1": 5.1830155540114,
+                  "coordinate_2": -0.8888888888888888,
+                  "physical_grid_index": 2928,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 9.784697316876553,
+                "max_abs_principal": 9.702669944363597
+              },
+              "flat_caps": {
+                "Killing_arg": {
+                  "chart": "cap+",
+                  "coordinate_1": 6.5246172647803,
+                  "coordinate_2": 0.875,
+                  "physical_grid_index": 7752,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 2.1337003282501064,
+                "max_abs_principal": 1.6887639899313207
+              },
+              "rolled_heads": {
+                "Killing_arg": {
+                  "chart": "end+",
+                  "coordinate_1": 5.3383232166384,
+                  "coordinate_2": 0.018905111477094314,
+                  "physical_grid_index": 5073,
+                  "side": "lower_profile"
+                },
+                "max_Killing": 7.259031774844394,
+                "max_abs_principal": 10.902858363224631
+              }
+            },
+            "rms_Killing": 1.9340200375820242
+          }
         }
       ]
     }
@@ -2192,6 +2454,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:48:36Z",
-  "observed_utc": "2026-11-28T12:49:58Z",
-  "original_scalar_line_count": 8
+  "observed_utc": "2026-11-28T12:50:26Z",
+  "original_scalar_line_count": 9
 }
