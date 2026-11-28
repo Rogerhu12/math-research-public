@@ -551,3 +551,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1067 §20：完整平方内的首连接已自动变深
 
 [R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)（80）–（82）真正评价§19的一部分：完整Bell高导数界与原H16/H23的目标质量≥1/(p−1)，使首连接在U(G34/G2)²的整个Euler读者中自动落入p^(p+1)。不是赋γ34B34=γ2B2，也不需要bad。当前精度可回同一U(M34/M2)²、M_N=µ_H,N(u^s)；其bare Katz/Frobenius和真实模型单位仍须评价，未将整个Euler行判为自动或制造新增forcing。
+
+
+### 逐实际来源同 MD 软件真实 PASS
+
+[完整回执](notes/2026-11-28-original-streamed-denominator-return.md#12-actual-complete-public-software-pass)：source4560405bdc2c3e546551f6866d79c5eb1a9919c5/run46121926002/job140908102059，结果1ae2efddbb3dec8f17a8a004266efcb8a939db6da1653bb6ae82bc4414f4f55a。34源全核，9全比较/15拒错、4真实software engine+4post-ideal outer、2原F_y及scalar兼容均通过，9.888秒。实际X预算拒绝也准确返回；仅软件，不是原306几何/性能或最终数学PASS，v15未改。
