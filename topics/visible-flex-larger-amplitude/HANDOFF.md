@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`902a00f37bcd4f1a447625c5c2b7ee901d3ed854`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`c124850fdf6cd230fac2db8fb854d29b9b404c99`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -18,7 +18,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 [35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，source2c8739ed/PID3435/model726006。初7e06/accepted0，完整reachg601.642125582291/K4938.754785337882；首全步5f0a784统计Phi6298065.183785643/Gram11.226395028133968，几何待。139角色/24runtime、1,333,370 outer全自由、713/719+64live及原预算保；自然返才pure74162。
 
 [36实际](notes/2026-11-28-run36-bent-disk-complete-launch.md)：46141466656/job140968124228自然RC0，八阶段全返；同冻结数值g的独立Gram .8454746923566958→2.17427627577303、K57.85981285612486，未达标。
-[37完整](notes/2026-11-28-run37-arclength-complete-launch.md)：46142745238/job140972094276自然RC0，原36必要重生八阶段及04/05整点身份一致，新弧长角八阶段全返；末两固定g验证Gram .917120251188229→.670383394669527、K9979.338755307148→2631.2958394，未达标；[原完整终态](notes/run37-bent-disk-arclength-46142745238-1.json)保全部点/NPZ/三相，ownnote随即续记。
+[37完整](notes/2026-11-28-run37-arclength-complete-launch.md)：46142745238/job140972094276自然RC0，原36必要重生八阶段及04/05整点身份一致，新弧长角八阶段全返；末两固定g验证Gram .917120251188229→.670383394669527、K9979.338755307148→2631.2958394，未达标；[原完整终态](notes/run37-bent-disk-arclength-46142745238-1.json)和ownnote保全部点/NPZ/三相。
 [38完整新求解](notes/2026-11-28-run38-free-radial-Killing-complete-launch.md)：原实际六jet十起点、自由径向X、两条F/X交替、精确Haar定义的一次冻结目标及两精化，8完整源参92568B现刊触发。冻结fixed.cx与基保持；换基X只诊断。独立积分/完整同g/全几何/强时间与精化仍待付，实际run/PID/数值待查。
 
 ## 数学范围与完整输入

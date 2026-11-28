@@ -171,3 +171,7 @@ alpha1试探点b36a1d76718f3a4679bd75fb6cf879ad8b7f7b702253b3b5a28328b25300e1e3�
 ## 2026-11-28 12:35:00 UTC — 35 初始完整几何与首全步实际统计返回
 
 source2c8739ed、PID3435、model726006在原7e06返回完整初始几何，reachg601.642125582291，K4938.754785337882，Dpoint lower4.067382378593245，最坏cell0/u.16939530676686776/phi1.4971652489763858/branch1/s.00021174413345858472；其余五族和所有完整字段原样列下。alpha1试探点5f0a7844ae793e2ab676df827283410ed300d1db6dcbbe850fd734946a7bfedb于12:12:03Z实际统计Phi6298065.183785643/Gram11.226395028133968；其完整几何/接受仍未返，accepted0，当前仍初始点。自然science返才whole pure74162，139角色/24runtime及全部原预算不减。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-R732-R729-run35-complete-launch.md)。双README云核至`902a00f37bcd4f1a447625c5c2b7ee901d3ed854`无变（非pull）。
+
+## 2026-11-28 12:35:41 UTC — 37 全部八新阶段自然结束与同目标两格实际失败
+
+46142745238/1、job140972094276官方success，新PID2840真实自然RC0，全八阶段933.389s；两固定g独立Gram .917120251188229→.670383394669527、K9979.338755307148→2631.295839389866，未达标。完整外层50458B/3f617daca5e28b3d2bc1fb7f36f187f95ce7e916a9676d702b8c54e0c91977d8，内层20763B/60ae3ce8d75864db1af54ce82aa6dea9ae5a42acf86ebcdce1fce0fde4daae5f；原父重生/NPZ身份/冻结g/三相全部保存。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run37-arclength-complete-launch.md)。双README云核至`c124850fdf6cd230fac2db8fb854d29b9b404c99`无变（非pull）。
