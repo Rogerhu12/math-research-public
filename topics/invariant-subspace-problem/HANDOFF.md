@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** 66ef83afa4b3269e8369abc0d56312ec2999bdf3（2026-11-28 18:53:23 UTC，Actions run46178231845实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46178231845-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 18:53:22 UTC/4e174037329862001a074bee3513dc9515cedd51，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 18:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。19:07再探，旧故障保归档。
-- **终端断开后远端已读：** 90cbff0d736d68cce070f5e5ad92ebf484116d6a（2026-11-28 18:52:54 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 7aa0611f94ba4d1546f18393f28803c4505fde61（2026-11-28 19:00:20 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-29-HANDOFF-before-Haar-actual-tail-norm-quotient-2210-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-29-HANDOFF-before-W-ell-integrality-Vbar-chart-2215-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -32,7 +32,7 @@
 - S0/Lt0全闭：615次QQ覆盖与全部退化面；9d0c真163.601秒/0，源/回执/旧失败保总定理与归档。
 - 一般LS保(Pf,Pt)非同时零、Δ0的Φ，四值二次/三一次、六投影/四Gram仅必要。自由f/t低NP/jet原身份已成、η余项全保；新9自由变量原N4三个ell缩放短式全返，6ms/359乘/9零差，无mean/W/Phi假设或逆。原失败保档。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
-- **W旧闭支/≤616824、b0≤23088保。** 新[整正e射线/e,k,u单位](results/R150-appendix-unit211-W-b0-entire-positive-e-ray-exclusion-and-e-k-u-integral-units.md)4208真0.089001207秒/0，末两singleton明确单位，合全部k中心及旧五ray/穷尽Newton，所有1009位置ve=vk=vu0。内部u支已闭；δ0由geometry、Vbar0由root续，其他分母DVR未付。
+- **W旧闭支/≤616824、b0≤23088保。** 六ray/内部u已闭，所有1009位置e,k,u单位。新[全ell整/Vbar有限图](results/R150-appendix-unit211-W-b0-global-ell-integrality-and-Vbar-positive-finite-weight-chart.md)原q/R不需δ逆排全部ellpole；Vbar正阶仅U1/2,k−4,z=(2u−1)/Vbar整、L3/4+z，L0/1/4/1/2/7/4全闭。M两中心及一般µ待付；δ图并行。
 - **Q=1−u整个原图已闭，全局付u+Q−1。** 全QQ/模根/三整域返回、准确源和冻结失败保总证及归档。
 - **旧D≠0值图等权b=c全闭，仅该图付ell−u；W另付k+2/Q−2。** 824次覆盖及末m半QQ单位保总定理/归档，旧600秒门不重放。
 
