@@ -1,0 +1,86 @@
+{
+  "status": "actual_fixed_support_M32_recovery_process_exit137_without_solver_return",
+  "tool_session": 15071,
+  "observed_exit_code": 137,
+  "signal_interpretation": "SIGKILL-style shell exit; no kernel PID attribution or cause available",
+  "kernel_cause_proved": false,
+  "oom_kill_cumulative_observed_after_exit": 6,
+  "oom_counter_immediate_prelaunch_baseline_available": false,
+  "run": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v2/run.json",
+  "run_sha256": "a0d3de2ecf4cfa6ced8100e99d9ef16089b219f0a2200b766cf725d1ab9841a8",
+  "retained_run_status": "running_original_fixed_support_BVP",
+  "retained_solver_success": false,
+  "retained_candidate_pass": false,
+  "actual_solve_invoked": true,
+  "complete_solver_raw_available": false,
+  "physical_export_available": false,
+  "metric_audit_completed": false,
+  "accepted_source_promoted": false,
+  "latest_complete_nodal_checkpoint": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v2/last-nodal-jac-input.npz",
+    "sha256": "5a28d53fb0bb8e8921574fec93ac82f0c11e133715ad525908c634fec4123af0",
+    "metadata_path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v2/last-nodal-jac-input.json",
+    "metadata_sha256": "d85216d0c3f3d69f66ef353c158a263d4bcb824e59fe575b6e75d885ccd63f87",
+    "shapes": {
+      "x": [
+        1497
+      ],
+      "y": [
+        97,
+        1497
+      ],
+      "p": [
+        32
+      ],
+      "pscale": [
+        31
+      ]
+    },
+    "finite": true,
+    "domain_endpoints": [
+      0.0,
+      1.0
+    ],
+    "status": "unaccepted_complete_nodal_before_original_J",
+    "accepted_bvp": false,
+    "not_a_midpoint_file": true,
+    "q_actual": 0.060000491077815986,
+    "p0": 8.184596772498105e-06
+  },
+  "completed_factors": 3,
+  "full_linear_solve_calls": 14,
+  "last_completed_full_J_equations": 145241,
+  "last_completed_full_J_nodes": 1497,
+  "maximum_observed_rss_kib": 2756464,
+  "maximum_original_matrix_residual_max": 9.419072547916824e-19,
+  "maximum_original_matrix_residual_relative_l2": 7.301044464760901e-11,
+  "actual_gate_released_seconds": 1197.0419663460007,
+  "last_original_event": {
+    "event": "jacobian_return",
+    "elapsed": 2174.1855299729996,
+    "count": 8
+  },
+  "last_full_nodal_checkpoint_seconds": 2131.7814631150004,
+  "last_completed_adaptive_mesh_report": {
+    "nodes": 1273,
+    "rms_display_only": "6.55e-7",
+    "boundary_display_only": "7.70e-12",
+    "nodes_added": 224,
+    "next_nodes": 1497,
+    "passed_tolerance": false
+  },
+  "where_interrupted": "After the next same-grid nodal and midpoint Jacobian returns, before a new complete_J_factor_start record.",
+  "source_hashes": "756f55e7d4dc691cad0597c1ecee18a26d292d8676d46aca3342c4f765ff077e",
+  "released_old_factor": {
+    "original_function_sha256": "7ce5a560d939023931a9e43cc4f81b9dc5bce36e7f3997b4ffd8bed030f5b7fc",
+    "executed_function_sha256": "336b4ec775b820ac4130784af9c83f7eaa1a10d7b315f1cc6dbc601aa11213b7",
+    "release_precedes_complete_J_construction": true,
+    "original_nonlinear_algorithm_changed": false
+  },
+  "raw_event_files": {
+    "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v2/events.jsonl": "924bb5d1733b164817526093dc8e151a6d792ff24e67aca9055b615a29713ca8",
+    "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v2/literal-adapter-events.jsonl": "9eeae1bcdc694313077ee67e2822713e87991626f5b67b51c0220146df18665f"
+  },
+  "complete_surface": false,
+  "next_recovery": "Use the saved complete real nodal t,y,p,pscale as an explicitly unaccepted same-g initializer. No midpoint-grid inference is needed this time."
+}

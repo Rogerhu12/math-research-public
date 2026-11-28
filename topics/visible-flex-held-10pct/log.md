@@ -122,3 +122,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:10 UTC｜Astra-held10-7c4e33ee-20261128：[严格完整响应复用预检](notes/2026-11-28-tail-exact-response-memo-preflight.md)真核E与后继完整config/native来源，仅两执行路径可不同；当前未完E被明确拒绝，未重算或正向复用。完整H/J/audit字节一致才复用原包并独立标注，否则原client。真coupled适配保actual-tail flags及最终physical H独立绑定；其入口逐字节迁到独立v3，v2恢复已绑定cut合同源，见[迁移记录](notes/2026-11-28-tail-exact-response-memo-migration.json)。新入口尚无全H/outer/闭图接受。
 
 - 2026-11-28 09:13 UTC｜Astra-held10-7c4e33ee-20261128：[完整cut区间入口](notes/2026-11-28-new-prefix-cut-interval-entry.md)保全部频率/实数R58 chart factors/零模和三jet，只在同图未改区域继承经精确cover核对的R73/R74。新strip同时核metric和有理123/10几何门。独立75位7080个构造数据包含检查真过，源码载入/返回SHA同；未有真实fullH bundle/构造器正向证书，不能算闭图完成。
+
+- 2026-11-28 09:27 UTC｜Astra-held10-7c4e33ee-20261128：[E第二个cached-J方向](notes/2026-11-28-tail-fullheight-rejected-chord-direction.md)十次完整原回溯均拒，真实可恢复merit下界全部高于16689.07937基点，末次16713.51569；累计state native2170.627s。node0未保存，诚实记下界而非全norm。E未改源/未中断，自然进入0014完整freshJ；前条已独立推送，本条补H/log登记，不判全H失败。
+
+- 2026-11-28 09:29 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32恢复v2再次exit137](notes/2026-11-28-analytic-fixed-support-m32-recovery-interrupted.md)，3完整QR/14solve、1497节点仍无最后RMS/raw/physical/audit；峰2756464KiB，具体终止原因未证。完整1497×97节点状态/p32/pscale31保留SHA5a28d53f…，未接受；后继保真nodal，不重做中点推断，先完成低临时全CSC装配验证。
