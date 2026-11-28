@@ -28,7 +28,25 @@ def main():
         if key not in req['source_sha256']:
             root=Path(os.environ['GITHUB_WORKSPACE']);key=p.resolve().relative_to(root.resolve()).as_posix()
         return file_bytes(p,req['source_sha256'][key])
-    bind=json.loads(bound(z.r735_bind));oldcfg=json.loads(bound(z.r735_geometry));bound(z.geometry)
+    runtime=(Path(os.environ['RUNNER_TEMP'])/'r735-completed-donor-binding.json').resolve()
+    if Path(z.r735_bind).resolve()==runtime:
+        bind=json.loads(runtime.read_bytes());expected=req['completed_r735']
+        keys=('source_run','source_job','source_head','source_run_conclusion','artifact','zip_bytes','zip_sha256',
+              'journal_member','terminal_sha256','terminal_bytes')
+        if any(k not in bind or bind[k]!=expected[k] for k in keys):
+            raise ValueError('Transported donor differs from the exact completed source requested.')
+        if (bind.get('member_zip_verified') is not True or
+                Path(bind['journal_member']).name!='central.jsonl' or Path(bind['journal_member']).is_absolute()
+                or '..' in Path(bind['journal_member']).parts):
+            raise ValueError('A member verified inside the bound original ZIP is required.')
+        if Path(z.r735_journal).stat().st_size!=bind['journal_bytes'] or Path(z.r735_final).stat().st_size!=bind['terminal_bytes']:
+            raise ValueError('Incorrect exact donor member length.')
+        for name,digest in bind['donor_source_sha256'].items():
+            dep='topics/visible-flex-new-mechanism/scripts/'+name
+            if req['source_sha256'].get(dep)!=digest:raise ValueError('Donor and current scientific source bytes differ.')
+    else:
+        bind=json.loads(bound(z.r735_bind))
+    oldcfg=json.loads(bound(z.r735_geometry));bound(z.geometry)
     if bind['source_run_conclusion']!='success' or not bind['source_run'] or not bind['source_job'] or not bind['source_head']:
         raise ValueError('Natural donor metadata required.')
     # The workflow verifies donor job, immutable archive metadata, actual ZIP bytes, member names and literal hashes.
