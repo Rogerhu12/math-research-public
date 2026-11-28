@@ -1,14 +1,19 @@
 {
-  "message": "ISP R150: first entire Lhalf quadratic original D final-denominator input",
-  "parentCommit": "40bd07d199925d5cfb11d7f14a6272cb9e9e7d84",
+  "message": "ISP R150: true Phi u-minus-one thirtieth factor and rank695; first T0 and ell transverses",
+  "parentCommit": "4160b24ebc4a77bd4f3f556a0ebd77b44f472a7d",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-Lhalf-quadratic-original-D-final-denominator-return-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-Lhalf-quadratic-original-D-final-denominator-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-w-lhalf-quadratic-d.yml",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-u-minus-one-thirtieth-factor-695-model-and-frozen-memory-boundary.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-u-one-extraction-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-T-zero-extraction-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-T-zero-extraction-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-t-zero-extraction.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-ell-zero-extraction-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-local-ell-zero-extraction-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-ell-zero-extraction.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,6 +23,7 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-lhalf-quadratic-d.yml"
+    "invariant-subspace-8542-phi-t-zero-extraction.yml",
+    "invariant-subspace-8542-phi-ell-zero-extraction.yml"
   ]
 }
