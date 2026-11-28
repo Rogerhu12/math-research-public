@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **187f37188cf454254bf2f1690f30d2690bcb55e4**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **28df630f1fb36ca491158e763e3dd87bba3a6a15**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -52,13 +52,11 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 [实际宏观延续](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)run **46123435005** / source5761da2f，07:55:49启动。完整J48/64/96、全部原行列，同J两RHS预测/求根、自动μ→1；fine及真Y双差分保留，已付fine复用。18000秒含1800末预留，每55分实际public pull查规则并恢复同source；主会话继续私库每小时pull。设计E可变，工作η1e−7/宏观fine2e−9只是阶段门；取得候选后冻结g精化，有限P误差/完整几何待付。
 
-## F：真实双核端口与非线性构造
+## F：双核端口已得到准确非线性局部族
 
-[R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)已付曲率矩/固定投影、自由帽0/1逆及双模归一。
+[R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)给真平双尾；[R639](results/R639-rational-morse-uniform-gap-and-double-kernel.md)以有理谱/统一左质量界清额外整数零模，保双核和同角阶参考逆。[R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)给w²准确边界零；[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)run46123270834/source95b8760b、22.9984961秒严格球1/3<参考β0<3/8，转某有限真平背景β>1/4。
 
-[R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)已付真平双尾/紧支持控制。[R639](results/R639-rational-morse-uniform-gap-and-double-kernel.md)用有理谱量子、常势和统一左质量界清全部额外零模；同一真平背景给零角阶参考逆、双核及β>1/4。[R642](results/R642-rotated-tail-reference-inverse.md)以n^(9/4)频带、真λ归一正图、真实帽lifts得同一倾角参考逆；q势只作用全平body，有限帽列像compact。实际状态逆/非线性由R644继续。
-[R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)证w²端口为准确边界零。
-[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)run **46123270834** / job140912173442/source95b8760b，22.998496100000004秒严格球PASS：1/3<参考β0<3/8；尺度/heads/完整buffer统治收敛给某有限真平背景β>1/4。仍只是二阶系数，有限角/完整非线性嵌入/宏观reach未付。
+[R642](results/R642-rotated-tail-reference-inverse.md)以n^(9/4)频带、真λ正图、实际帽lifts给同一倾角参考。[R644](results/R644-nonlinear-double-kernel-annulus-with-tilted-cap.md)已完成真实状态/type/circle/双核与固定两矩的coupled逆，Hamilton准确二次误差身份给非零小q等距环带；内帽θ=βq²+O(q³)，固定一个q后相位族同g、外帽固定，整像dH≥aβq²/4>0。所有尾的Q/D共同邻域与真帽姿态已证。**无有效q0/宏观角/reach比例**；下一继续低矮有限profile、有限角与完整闭面几何，不以局部非零收尾。
 
 ## G：全时几何
 

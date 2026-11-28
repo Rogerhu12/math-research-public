@@ -188,3 +188,7 @@ R33给相位族，真实旋转不变g及两开平帽使H固定、全时几何继
 ## B030真实55be与1906未完峰的公开续接
 
 [实际范围](notes/2026-11-28-r566-55be-partial1906-resume-scope.md)以相同q/oracle/原括号只续43015466的1906项，复用904前缀及已付coarse/1810fine/nested；必要重建仍计费。完整资格之后按原η/几何/物理门结算，实际e单调抬升不冒成η改善，真实trust后决策才执行，2/8 pending及82维H/23乘子保留。原正常outer的AST与6482完全相同；原20参数不改，63源码绑定，必要1131859B源输入压缩保存。未有新数值接受。
+
+## R644：真实双核端口的准确非线性环带及同g相位族
+
+[完整证明](results/R644-nonlinear-double-kernel-annulus-with-tilted-cap.md)把固定两曲率矩、真实帽lifts、双profile核控制、全整数circle及状态/type校正放入同一低阶邻域；控制平滑和非对角参考交换子给完整coupled右逆，准确二次误差身份满足Hamilton原定理。得到真实小q嵌入，帽倾角βq²+O(q³)、β>1/4；选定q冻结g后相位族外帽固定，整个像的Hausdorff位移≥aβq²/4>0。真尾Q/D的单一supremum及帽developing仿射规范已支付，非形式端口。仍无有效q0和宏观位移/reach比例，有限角和低矮输入继续。
