@@ -105,3 +105,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:16:07 UTC — 29新Slerp模型完整初几何与首试统计真实返回
 
 29初7e06完整六族：distance_plus .1399812067124947为唯一正最大，reachg−.03483574522714061，K7.764559816020585/Dlower4.109115766390888/cell891/u.03376524289842403/phiπ/2/branch1/s2.2617758886350425。bc818首试alpha1仅Phi584.8125864670693/Gram.4179453237576573，几何/接受未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`d7842271194c9285c8eba2cd06185e8d7d5c5b6c`无变（非pull）。
+
+## 2026-11-28 06:16:13 UTC — 25完整同源续跑实际启动
+
+25原runner实际启动restart-01/source f250c578/PID12394，原launcher804bb61c不变。06:13:51Z两progress尚无，原两个FileNotFoundError保；未冒成功读入、接受或新结果。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`ec3beea6e262f1db9ed399fa7bace8ec61dd1433`无变（非pull）。

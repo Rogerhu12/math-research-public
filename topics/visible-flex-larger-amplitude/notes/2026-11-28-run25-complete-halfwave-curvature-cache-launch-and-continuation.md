@@ -998,3 +998,45 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 06:16:13 UTC — 25完整同源续跑实际启动
+
+原run46099929359/1的完整restart-01 science已被原controller实际领取，执行source f250c57887597755b6aa9cc67afa7e1da9c8959f，原launcher SHA804bb61c不变，PID12394。首次06:13:51Z观察尚无两份progress，两个FileNotFoundError完整保留；这属于早期未生成文件，不据此宣布失败或确认已经成功装入父场。新的初统计、typed实际读取、final和接受结果全部仍未知。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01-20261128",
+  "scientific_source_commit": "f250c57887597755b6aa9cc67afa7e1da9c8959f",
+  "scientific_source_sha256": "804bb61c3d26f4116dc486feb735afd73eb733a85399a7908525e40187ca2ffe",
+  "pid": 12394,
+  "observed_utc": "2026-11-28T06:13:51Z",
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "mathematical_observation": null,
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json",
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-normal-evaluation-progress.json'"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json",
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46099929359-1/research/fixed-fejer-paired-halfwave-dk-cache-bhalf-restart-01/actual-mathematical-progress.json'"
+    }
+  ]
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 35927,
+    "sha256": "96fc519207cb49037f83a3b17e1d7d676d2211f6db86656678d7321474d10db5",
+    "git_blob_sha": "7833b98bfb99f3f25e36247c9a9f29a27b919c08",
+    "fixed_commit": "fec2ee37e0befe693af53f92b3b12bf91b83305f",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
