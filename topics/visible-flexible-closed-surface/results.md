@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R270：实际带全部物理修正的 HF64 后缀全域嵌入](results/R270-corrected-physical-HF64-complete-suffix-embedding.md)（2026-11-28）：909312 个连续闭盒支付准确端口和全部材料角，径向材料钟保持该图像。
+
 - [R267：新 gap .92 真实整前缀度量与全部近点](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)（2026-11-28）：全部64物理格/真端口/上下闭环带，相对度量<5e−10、曲率<7.6、含边界reach≥5/38；新后缀点对另付。
 
 - [R269：HF64 实际圈的九点有理相似变换障碍](results/R269-actual-ringwise-similarity-and-angular-clock-obstruction.md)（2026-11-28）：8列秩8、增广秩9；任意逐圈相似/角重参的必要微分残差≥1.7718527881，未称C⁰度量下界。

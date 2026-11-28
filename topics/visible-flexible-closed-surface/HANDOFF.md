@@ -60,7 +60,7 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-r261-prefix --> [R261](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)：强同g物理H65前缀全域低于2e−9，自身整带reach>.1013；接真实后缀。
 
-<!-- 2ecf-r265-polar --> [HF64真位置](notes/2026-11-28-2ecf-strong-accurate-hermite-fourier-position-with-literal-W.md)经[保向径钟](notes/2026-11-28-2ecf-strong-hf-true-radial-material-clock.md)同g独立G11 .14343→.12051、图像保持；真实6615 XYZ形状继续。
+<!-- 2ecf-r265-polar --> [R270完整HF64后缀](results/R270-corrected-physical-HF64-complete-suffix-embedding.md)909312闭盒严格嵌入；[径钟](notes/2026-11-28-2ecf-strong-hf-true-radial-material-clock.md)保持图像、G11 .12051；真实XYZ/跨片全闭核继续。
 
 <!-- 2ecf-r266-ray --> [R266](results/R266-accurate-polar-ray-metric-and-radius-variation.md)：原侧射线单调高度时径向TV缺口>.19574768；已有XYZ通过高度转向绕开此前提，仍未全域等距。
 
@@ -70,4 +70,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix及全部18552原尾已完，按完整实际场修正一ulp材料图接口后合成；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:17:54 UTC；已读公开 main `9b1e51d48cec66caa41523a299ed7adb11bf2eb8`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:18:05 UTC；已读公开 main `51f8be8bb153e1e1c5673dff49afc2fb4e647977`，根/课题 README 逐差无变化。
