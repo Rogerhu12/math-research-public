@@ -390,31 +390,31 @@
   "child_pid": 2840,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 10,
-    "utc": "2026-11-28T12:06:32Z",
+    "ordinal": 18,
+    "utc": "2026-11-28T12:07:00Z",
     "original": {
       "event": "arc_objective",
       "call": 16,
-      "norm": 0.05207066511648098,
-      "angle_residual": 0.1336356508137435
+      "norm": 0.047124531231441856,
+      "angle_residual": 0.1492708022037179
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/field/summary.json",
-      "bytes": 4361,
-      "sha256": "330a0613172afdc8b2cdd2aebf9edcbf6ec99769237c4f65d80c5bb343aaea97"
+      "bytes": 6360,
+      "sha256": "3122ea3aaa992c4261556f420f112f53351845a1f35eaae96105ddac2df4b260"
     },
     "complete_small_json": {
-      "elapsed_seconds": 27.799819879999973,
+      "elapsed_seconds": 54.97708590000002,
       "ellipse_source_sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
       "in_progress": {
         "call": 1,
-        "cost": 0.17873499086352349,
-        "design": "tilt32-parent04",
+        "cost": 0.3300750391338303,
+        "design": "tilt38-native",
         "layer": "arc-design-1",
-        "stage": 1,
-        "x_sha256": "baa71c2d5d3e52717a7f85bd1542fd9386a75037482171c7e1c38b54d1ad8581"
+        "stage": 2,
+        "x_sha256": "5a95c72bfe2ce9e1039613d39293c0cc996113038b46cd41ed8ec30ec2663594"
       },
       "numpy": "2.3.5",
       "params_sha256": "9e73017361a5a94f2919857ce8487acece2270128db32c718f95274253ec5e9c",
@@ -530,6 +530,74 @@
             "p0_relative_max": 0.0
           },
           "x_sha256": "44920082dcfb6c43f26393c26622b5ab5e698b376018dda7d7814fd356ce8c6d"
+        },
+        {
+          "adjoint_abs": 4.336808689942018e-19,
+          "check": {
+            "K_sample_max": 610.5287939222801,
+            "arclength_cross_speed_max": 0.179310622337777,
+            "gauged_max_relative": 0.6585608552862932,
+            "gauged_rms": 0.06642496316725546,
+            "min_angular_speed": 0.0837369470016904,
+            "min_projected_speed_squared": 0.011123967292332842,
+            "min_signed_equator_height": 0.0,
+            "normal_speed_angular_scatter_max": 0.6938551056023234,
+            "origin_radius_sample_max": 1.3938531750071053,
+            "original_coordinate_gram_max": 9.099650465742602,
+            "p0_relative_max": 0.0
+          },
+          "coefficient_count": 202,
+          "configuration": {
+            "angular": 96,
+            "check_angular": 384,
+            "check_radial": 61,
+            "id": "arc-design-1",
+            "lsmr_iterations": 100,
+            "max_evaluations": 90,
+            "mode": 10,
+            "radial": 25,
+            "regularizer": 8e-06,
+            "spans": 6
+          },
+          "cost": 0.0007793897044592274,
+          "design": {
+            "angle": 0.32,
+            "equator_radius": 0.96,
+            "height": 0.34,
+            "id": "tilt32-parent04",
+            "length": 1.02,
+            "parent_stage": 4,
+            "seed": "parent"
+          },
+          "elapsed": 27.161723799999947,
+          "exact_disk_support_formula_float": 0.09615223689149766,
+          "exact_unmarked_disk_K_bound_formula_float": 6.904599238658886,
+          "finite_difference_relative": 2.0754516409071414e-09,
+          "frozen_target_source_x_sha256": null,
+          "minimum_support": 0.03235795223050464,
+          "nfev": 90,
+          "njev": 74,
+          "optimality": 0.0005779049271059899,
+          "sample_witness_to_upper_shoulder": 0.8035948192656933,
+          "score": 16.476338678677685,
+          "solver_status": 0,
+          "source_x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949",
+          "stage": 1,
+          "start_x_sha256": "baa71c2d5d3e52717a7f85bd1542fd9386a75037482171c7e1c38b54d1ad8581",
+          "train": {
+            "K_sample_max": 46.84129423586518,
+            "arclength_cross_speed_max": 0.1740227983353782,
+            "gauged_max_relative": 0.14216865215602792,
+            "gauged_rms": 0.039208132505260514,
+            "min_angular_speed": 0.08532639884157178,
+            "min_projected_speed_squared": 0.1730184808717524,
+            "min_signed_equator_height": 0.0,
+            "normal_speed_angular_scatter_max": 0.6938702645636656,
+            "origin_radius_sample_max": 1.3880318993091727,
+            "original_coordinate_gram_max": 9.015008673072938,
+            "p0_relative_max": 0.0
+          },
+          "x_sha256": "f7b88942d01a056bf07fc143c56dd5b0f7e1ca3a068b60fb2eed69653ada8f14"
         }
       ]
     }
@@ -562,6 +630,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:06:00Z",
-  "observed_utc": "2026-11-28T12:06:35Z",
-  "original_scalar_line_count": 10
+  "observed_utc": "2026-11-28T12:07:03Z",
+  "original_scalar_line_count": 18
 }
