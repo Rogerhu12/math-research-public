@@ -1,0 +1,126 @@
+{
+  "schema": "held10-actual-m24-mild-tail-return-v1",
+  "observed_utc": "2026-11-28T08:23:36.236916+00:00",
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "source_raw": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/inner-00.npz",
+    "sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616"
+  },
+  "source_physical": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/physical.npz",
+    "sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0"
+  },
+  "source_homotopy": 0.002,
+  "source_modes": 24,
+  "actual_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/summary.json",
+    "sha256": "471df667394555cf0cb72213004de6a6a3d5df43dbc85b2244f47ec7bdf83648"
+  },
+  "accepted_stage": {
+    "modes": 24,
+    "quadrature": 512,
+    "factor": 0.5,
+    "full_height_at_current_modes": false,
+    "original_full_height": false,
+    "requested_jacobian": false,
+    "requested_audit": true,
+    "client_returned": true,
+    "packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/tail_0001.json.gz",
+      "sha256": "1cb9a3ae6a0aa943fa8f305e0ce52b7028650210244e942df2794aa0b970b306"
+    },
+    "native_manifest": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-source/native-manifest.json",
+      "sha256": "9a7c500020f2717fb0b8503d2b36847cc5ee84c169973aae354922df25536c21"
+    },
+    "height": {
+      "count": 24,
+      "nonzero_count": 24,
+      "l1": 8.211195395193664e-05,
+      "linf": 8.085711839447946e-05,
+      "f64le_sha256": "fa4c3b7ea3c0e2906eb226c0d911034a4162db439245f544dde10d6ce9a42205"
+    },
+    "converged": true,
+    "failed": false,
+    "residual": 3.1311279019737547e-10,
+    "audit": {
+      "fullD": 1.3101121745755608e-13,
+      "normalizedFullDefect": 2.8965849358832123e-12,
+      "minLeading": 0.8200817658726144,
+      "minD": 0.9995941334989235,
+      "formalCurvature": 8.14804569738494,
+      "maxPhysicalPV": 0.00016154923195029375,
+      "actualMetric": 8.22003569336475e-15,
+      "holonomy": 2.2628220488102617e-18
+    },
+    "last_original_iteration": {
+      "iteration": 1,
+      "norm": 3.1311279019737547e-10,
+      "minA": 0.82008176477665,
+      "minD": 0.9995941251715877,
+      "correctionsOnJacobian": 0,
+      "chordMaxCorrections": 3
+    },
+    "checkpoint": {
+      "modes": 24,
+      "spacing": 3,
+      "physical_depth": 8,
+      "shooting_parts": 16,
+      "stage_count": 1152,
+      "state_rows": 1153
+    },
+    "original_finite_response_passed": true
+  },
+  "original_native": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+    "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+  },
+  "native_workers": 2,
+  "post_acceptance_execution_barrier": {
+    "record": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/fullheight-handoff-barrier.json",
+      "sha256": "ae7ac93338a85b02fa161b7b966bc7b07d9b9f5f4abf7dd593318f67246eab0f"
+    },
+    "next_native_call": 4,
+    "blocked_successor_factor": 0.625,
+    "original_native_equations_started": false,
+    "failed_packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/tail_0002.json.gz",
+      "sha256": "1d8fbdbad41558cedfa27fc89ad6773a53cfe7bff9ba8debe9e8744351567539"
+    },
+    "failure_message": "Error: EEXIST: file already exists, open '/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs/0004-jac-input.bin'",
+    "mathematical_failure_asserted": false
+  },
+  "actual_fullheight_successor": {
+    "output": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a",
+    "observed_status": "original_full_height_request_running",
+    "current_attempt": {
+      "index": 1,
+      "base_factor": 0.5,
+      "target_factor": 1.0,
+      "source_accepted_packet": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/tail_0001.json.gz",
+        "sha256": "1cb9a3ae6a0aa943fa8f305e0ce52b7028650210244e942df2794aa0b970b306"
+      },
+      "predictor_summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/predictor/summary.json",
+        "sha256": "7742e40c48cb0cf88780ef6c9da1ee0c1d12c4219e87f5f751fa8ace9c7dda64"
+      },
+      "requested_jacobian": true,
+      "requested_audit": true,
+      "native_manifest": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/native-manifest.json",
+        "sha256": "ca2331a3b6d586d0dd248bdf30b3714597e143bbf308bb0d457ddadb8735e7eb"
+      },
+      "worker_trace": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/worker-trace.jsonl"
+    },
+    "accepted": false
+  },
+  "original_full_height_returned": false,
+  "actual_prefix_tail_coupling": false,
+  "fixed_metric_refinement": false,
+  "complete_surface": false
+}

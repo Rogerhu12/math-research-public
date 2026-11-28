@@ -533,3 +533,7 @@ M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.3410
 ### 2026-11-28 08:21 UTC — Astra-held10-7c4e33ee-20261128
 完整新割线的.064/M32原BVP真收敛（951点/RMS9.95911e−7/BC6.96e−17），但metric1.04985546e−6未过原1e−6门；完整物理场仅作初猜，原控制器自动升M40，见design-secant-lambda064-m32-metric-gate。
 同时明确前条六jet比较属于原physical函数/mean真primitive，非R73最终新Cartesian均值图的层间比较。继续实际M40/完整fullH/同g精化和新图连续metric，不把任何初猜登记为接受。
+
+### 2026-11-28 08:25 UTC — Astra-held10-7c4e33ee-20261128
+新M24/N512/.5真完整接受：1153×48未知，原residual3.13113e−10、audit8.22004e−15；包1cb9a3ae6a…，见tail-m24-mild-return。末J与接受状态逐位绑定，尚非输出heightJ/fullH。
+仅原.625后继在native前EEXIST完成安全交接；唯一E入口已真从末J全状态切线直试fullH/J/audit，失败才二分，未重跑/.5。继续全H、原8outer、λ1和同一新图连续metric。

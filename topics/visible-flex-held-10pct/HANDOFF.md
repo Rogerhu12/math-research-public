@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `049872c8e2020ea438de9d25c4248316f0baa770`（2026-11-28 08:21 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；08:02 UTC再次pull到 `5ebe514c233484e8a9dc90764705e38f1a1d3d73`，根规则空diff且QUEUE仍本会话。
+- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `9910862b6df38654003e653bb7a02e9421d9d29d`（2026-11-28 08:25 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；08:02 UTC再次pull到 `5ebe514c233484e8a9dc90764705e38f1a1d3d73`，根规则空diff且QUEUE仍本会话。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
@@ -19,12 +19,12 @@
 ## 当前实际工作
 
 - design_continuation：统一work `/workspace/scratch/7c4e33ee17de/held10-design-work`，q060/真.002/M24已恢复。[bootstrap真实交接](notes/2026-11-28-design-bootstrap-to-secant-actual.json)：.004/.008/.016/M32原全门；旧-u拦截遗漏使bootstrap实际走原portable，现仅修未来再生，不改旧返回。新 `design-secant-corecache-qr-20261128` [真.032/M32](notes/2026-11-28-design-secant-lambda032-m32.json)：947点/RMS9.83650e−7/metric6.69488e−7/mean1552，实际V4 memo717hit/9miss、全门。[.064/M32仅metric未门](notes/2026-11-28-design-secant-lambda064-m32-metric-gate.json)：951点/RMS9.95911e−7/BC6.96e−17，但metric1.04986e−6；原控制器已完整升M40，不把收敛初猜晋级。完整跨M割线后继到λ1，M≥40完整QR。仍是旧.128以内必要再生；不重算旧接受q/λ。
-- tail_closure：新 `scripts/resume_20261128/tail/mild_mode_tail_continue.py` 已消费本次真.002/M24源，M8/.25和/.5已真接受（residual3.15757e−10/3.13113e−10）；新M12/N192残差后audit要求2幂失败，见[真实原因与修正](notes/2026-11-28-tail-m12-audit-grid-correction.md)，[M12/N256/.5已真接受](notes/2026-11-28-tail-m12-halfheight-accepted.md)：residual4.73745e−10、audit7.54953e−14；b末FileExists是计划M16资源屏障、未启动方程。[M16/N256/.5又真接受](notes/2026-11-28-tail-m16-mild-return.md)：residual1.03140e−9、audit3.34103e−15；现d/native2从真M16续完整M24/N512的.5→fullH，原核未改。中间N改≥16M的最小2幂，完整M24仍源N512。共享同一恢复源与λ.002前缀；保原DN/chord3/native4、完整H/J/audit和8outer，改升模/幅度初猜路径，保留原worker的短失败字符串，避免原M8full→M16同样失败链。最终必须M24全H及联合前缀；新 `tail/couple_actual_prefix_streamed.py` 保原fullH/J/8outer并用V2分块32，待真fullH包后执行。
+- tail_closure：统一新λ.002/M24/879点源，从低幅逐模保原DN/chord3/native2完整未知/保护/audit。新M12/N192仅原audit的2幂要求失败，已据[真实原因](notes/2026-11-28-tail-m12-audit-grid-correction.md)改N256；[M12](notes/2026-11-28-tail-m12-halfheight-accepted.md)、[M16](notes/2026-11-28-tail-m16-mild-return.md)的f=.5均真接受。现[**M24/N512/.5亦完整接受**](notes/2026-11-28-tail-m24-mild-return.md)：1153×48未知，residual3.13113e−10/audit8.22004e−15，包1cb9a3ae6a…。末freshJ输入与接受场逐位同；输出heightJ尚未请求。D的后继.625在native前EEXIST是计划交接、不是数学失败。E=`tail-adaptive-fullheight-20261128-a`已真从M24末J全未知切线直试fullH/J/audit，失败才二分；未重复/.5。真fullH后立即执行 `tail/couple_actual_prefix_streamed.py` 的原8outer/V2分块32，最终须与完整前缀联合；新闭图及固定g门仍待。
 - analytic_construction：[真M24完整λ/logq响应](notes/2026-11-28-analytic-material-lambda-tangent-and-q-schur.md)已运行：64191维同一原J/因子，解析Fλ与完整FD差3.2314e−10，dδ/dλ=−3.92049e−5；δ替logq的完整Schur=2.469619216e−5，两h相对差4.055e−7，原线性残差≤8.36e−16。非区间逆证书；λ004预测仅初猜。[首个原support fixed=True精化已真过](notes/2026-11-28-analytic-original-fixed-support-actual-refinement.md)：同λ/δ/g/mean1168/nt768，M24 tol2e−7，879→1032点，RMS1.99629e−7、metric6.53252e−7、physicalBC1.886e−18。[完整C²差诊断](notes/2026-11-28-analytic-fixed-support-complete-c2-comparisons.md)已返：3294截面双角网格，Fss差2.65435e−4不称Cauchy。现同g M32/nt1024精化，区别fullDN闭图收敛。
 - root：[R67有理三重帽](notes/2026-11-28-r67-rational-marker-implementation.md)经75位导数核过；闭图reader保完整R53 lift及声明的新均值，待fullH，中心柱总长≤.01。完整块QR在真M8/M16/M24原J对照方向已核，最高64191维rel9.502e−13、162.6MB因子（[记录](notes/2026-11-28-block-qr-actual-m16.md)）；同一核心已用于fixed-g实际BVP，不是无限维逆证书。新闭图不搬旧数值常数。
 
 - **R73新图连续几何已付**：[新879点场的945节点Cartesian图](results/R73-new-common-cartesian-prefix-continuous-geometry.md)，944×1024全角闭盒零未决：support>.6445、norm<1.1901、area>.2974、准确|κ|≤123/10。直接包围最终rep+完整真实R53 lift；最终/中间均值非同一函数，二阶减源primitive仍1.32332e−4。未附尾/cut，连续metric尚欠；不能继承旧R62。root接同图连续metric与实际闭图预算。
-- [完整尾切向初猜](notes/2026-11-28-tail-full-state-tangent-predictor.md)在真M16末次fresh全J实核：1153×32未知全部保留，原线性backward-error5.53e−28；仅未接受f1初猜。M24/.5首J实耗529.224s，仍原求解；等真audit包后独立自适应入口直试fullH/J，失败才二分，不重复预设暖幅，不改活源或接受门。
+- [完整尾切向初猜](notes/2026-11-28-tail-full-state-tangent-predictor.md)在真M16末次fresh全J实核：1153×32未知全部保留，原线性backward-error5.53e−28；仅未接受f1初猜。M24真末J已接fullH原求解；首次/末次native实耗527.832s/801.900s，不再用早期外推估计。初猜仍不等于新接受。
 
 ## 已证工具和不得重复的工作
 
