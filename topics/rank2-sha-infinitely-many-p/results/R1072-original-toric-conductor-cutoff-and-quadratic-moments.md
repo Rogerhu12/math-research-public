@@ -292,3 +292,30 @@ $2,c_p,\Theta_1^-(0), b, V_a(0),\mathscr E_2(0)$ 均为单位。若中央非零�
 $$v_p(2[T^2]\Theta_{17}^-)=2r,\qquad
 i_{\rm first}=2r+1.$$
 其中 $i_{\rm first}$ 是有限判据 $p^{2i-1}\nmid M_i$ 首次成立的层。事实上 $(-1)^ip^{1-i}M_i$ 模 $p^i$ 正是显示平方的值，若 $i\le2r$ 则全为零，$i>2r$ 时其赋值恰为 $2r$。若 $j_{34}=0$，所有原 $M_i$ 均满足前述整除。故偶数 $i$ 永远不能是该判据的首次检出层。这也保留即使 $m_2(p)=0$，原特征零中央仍可能在以后的奇数层首次检出。
+
+## 10. 原二次矩的单一四维调和形式
+
+取 $p>211$ 为允许的惰性好素数，$d=p+1$，$m_2(p)=\sum_{t\in\mathbf F_p}t^2 A_{1,t}$。整行结论已给 $m_2(p)\ne0$ 等价于 $\lambda_p=2$，并足以给原曲线通常全 $\Sha[p^\infty]$ 有限。以下把同一个 $m_2$ 返回无变层级的 holomorphic 尖点形式的一次 Hecke 系数，逐项保 $2,3,17$ 的原函数。
+
+沿用 R736(1)–(12)、(23)–(30) 的 $\mathcal O=\mathcal O_K+\mathcal O_K j$。写 $\beta=a+bj$，$Q=N(a)+N(b)$，令 $c(a,b)=f_{\rm int}(\bar\beta\cdot1)$ 在 $(Q,102)=1$ 时按原坏位作用读，其他余类取零。原 (11)–(12) 表明这是模 $102\mathcal O_K^2$ 的固定函数，且乘任一与 $102$ 互素的有理整数保持 $c$，因为该数在各坏位均为中央单位。原 $Q=p^2$ 的全壳均被保留。取 $\mathbf Z_{p^2}$ 的 Teichmüller 单位 $t$ 满足 $t^{p+1}=N(t)=-1$；这是原 (23) 的允许 splitting。在乘 torus 中改变 splitting 只平移每个原标签同一常数。原零次矩等于0，原一次矩 $\sum u A_{1,u}=0\bmod p$ 在非零首层由已证 $\lambda_p\ge2$ 和二项式展开给出，在零层每个整行都是0。因此二次矩在此选择下准确不变。
+
+对 $Q=p^2$ 的 primitive $\beta$，$a,b$ 均为 $p$ 单位（$K_p$ 未分歧二次，若一个被 $p$ 整除则另一个亦然）。在 $\mathcal O_K/p^2$ 中每个像坐标 $\alpha=a z+bt\bar z$ 都满足
+$$\alpha=\frac{a}{\bar b\bar t}\bar\alpha,$$
+因为 $N(a)=-N(b)$、$N(t)=-1$。取一 primitive 坐标，置 $v=\alpha/\bar\alpha$。对 norm-one 元 $v$，$q_p(v)=(v^{d}-1)/p$ 且 $\bar q_p(v)=-q_p(v)\bmod p$。原 (28) 的同态给 $2\ell_p(\alpha)=\ell_p(v)$，而 $v^d=-a^d/\bar b^d\bmod p^2$。因此
+$$\ell_p(\alpha)=\frac{34}{\delta}\frac{a^d+\bar b^d}{p\bar b^d}\pmod p.$$
+取 $z=a,w=\bar b$、$M=p-3$、$L=4p-4$。令 $F=z^d+w^d$、$P=(w\bar w)^M F^2$；它是四实变量的齐次 $L$ 次多项式。由于 $\bar b^d\equiv N(b)\bmod p$，平方后的逆分母恰由 $N(b)^{p-3}$ 给出。$F\equiv Q\equiv0\bmod p$ 在壳上成立。于是
+$$m_2(p)=\frac{(34/\delta)^2}{36p^2}\sum_{Q=p^2}c(a,b)P(a,\bar b)\pmod p.$$
+非 primitive 的 $\beta=p\epsilon$ 上 $P$ 至少含 $p^L$，故此式允许取整个壳；分母 $36=12\cdot3$ 保持。
+
+令 $\Delta=4(\partial_z\partial_{\bar z}+\partial_w\partial_{\bar w})$，$Q=|z|^2+|w|^2$。标准四维调和投影在此为
+$$H_p=\sum_{j=0}^{M}\frac{(-1)^j (L-j)!}{4^j j!L!}\,Q^j\Delta^jP.$$
+确实 $P$ 的反全纯次数为 $M$，其后 Laplace 幂为零；对 $U$ 齐次 $L-2j$，有 $\Delta(Q^jU)=Q^j\Delta U+4j(L-j+1)Q^{j-1}U$，相邻项相消给 $\Delta H_p=0$。在 $j\le M$ 的全部分母 $j!L!/(L-j)!$ 中只有末 $j=M$ 的最后因子 $L-j+1=3p$ 含一次 $p$，从而 $pH_p$ 是 $p$ 整系数多项式。$F^2$ 全纯使 $\Delta P$ 的所有项至少含一个 $F$。在 $Q=p^2$ 壳上第一修正项 $Q\Delta P$ 含 $p^3$；$j\ge2$ 的项即使末位分母除 $p$ 仍含 $p^{2j-1}$。因此对每个真实格点
+$$H_p(a,\bar b)=P(a,\bar b)\pmod {p^3}.$$
+
+定义单一形式
+$$f_p^{\rm harm}(\tau)=\sum_{(a,b)\in\mathcal O_K^2} c(a,b) H_p(a,\bar b) e^{2\pi i Q(a,b)\tau}.$$
+它属于权 $L+2=4p-2$ 的 $S_{4p-2}(\Gamma_0(3\cdot102^2))$，nebentypus 平凡。具体取偶整格 $\Lambda=102\mathcal O_K^2$ 配 $Q$，其对偶为 $(102\delta)^{-1}\mathcal O_K^2$，故有限判别群 level 是 $3\cdot102^2$，Gram 行列式是 $9\cdot102^8$。$\Lambda^\sharp/\Lambda$ 各旁类加同一齐次调和多项式的 theta 在生成元 $S,T$ 上按 Weil 表示变换：$T$ 乘 $e^{2\pi iQ(h)}$，$S$ 的有限 Fourier 变换由 Poisson 公式和调和 Gaussian Fourier 恒等式给出权 $2+L$（$L\equiv0\bmod4$）。每一旁类在无穷尖点常数均为0，因为 $H_p(0)=0$，故向量在所有 cusp 均无常数。对 $\Gamma_0(3\cdot102^2)$，有限 Weil 表示仅按右下单位乘旁类并乘 $e^{\pm 2\pi ibdQ(h)}$ 与判别 character；见 [Strömberg, *Weil representations associated to finite quadratic modules*, Lem. 5.13，结合 Def. 5.10](https://arxiv.org/pdf/1108.0202)。所用 $h\in\mathcal O_K^2/\Lambda$ 有 $Q(h)\in\mathbb Z$，秩四 square determinant 给平凡 character，$c$ 正在右下单位的乘法下保持。由此得到前述 scalar 尖点形式。以上 level 是明确统一的上界，无需声称最小。
+
+$[q] f_p^{\rm harm}=0$，因为所有 $Q=1$ 是原全局单位，原 $f_{\rm int}(1)=0$。对 $p$ 未分歧的经典算子 $T_p$，$[q]T_p^2 f=[q^{p^2}]f+p^{4p-3}[q]f$，故这里下一项准确为零，得到
+$$\boxed{\quad m_2(p)=\frac{(34/\delta)^2}{36p^2}\,[q]T_p^2 f_p^{\rm harm}\pmod p.\quad}$$
+等价地，可对 $p f_p^{\rm harm}$ 取系数模 $p^4$ 再除 $p^3$。固定辅助层级、原完整 $c$ 和该 Hecke 算子已给出真实单一权源；不同素数的 $H_p$ 次数仍然变化，尚未由此得其规范二次矩对无穷 $p$ 非零。

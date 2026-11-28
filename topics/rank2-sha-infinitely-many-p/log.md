@@ -458,3 +458,9 @@ root全文手核691866单行界、各投影自己的补纤维、K下三角/实�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:01:39 UTC到a01b1d288dde0fc0e1c54938c58730e24eedffc1，私库2026-11-28 12:01:29 UTC到eb1520c6826021195d00501ff544cd8e331dfabf；四README同已读blob，QUEUE e58af89f749cd79e35c2c318fec6847d7ad53e8a本题行未变。公开基线3246/46822273B/tree3a26a223a8a13afcab1f5364771854af4011e047，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:01:59 UTC到08f67f67cf965dad5dcd367043322f7ae8943029，私库2026-11-28 12:01:50 UTC到d6785a525fa525ebd05e21ec7638e1ba18ecd127；四README同已读blob，QUEUE e58af89f749cd79e35c2c318fec6847d7ad53e8a本题行未变。公开基线3246/46822273B/tree3a26a223a8a13afcab1f5364771854af4011e047，无>5MB。
+
+## 2026-11-28 12:02:44 UTC — R1072 原完整调和theta
+
+root亲读R736全部像线/坏位/原(28)–(30)，手核v^d和ℓ符号、12·3、调和投影递推、唯一3p分母与全壳模p³、非primitive整除及[q]原单位零。亲读StrömbergΓ0实际Lemma5.13/Def5.10，将候选误指5.6改为准确出处；逐格判别level/平方行列式/全c中央不变及所有cusps零常数已核。R1071 §11已实推d65ae2bb7437d80d5d4d838a91e71bcb694fdeaf（12:02:05 UTC），一次非FF立即双pull/rebase，四README不变，私库QUEUE他题变化而本题认领未变。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:04:17 UTC到d51748e02f17a5793ca949d41e3f9a1a09c9acef，私库2026-11-28 12:04:07 UTC到b8431187253174ecceedc8d7067e0e33011c65a6；四README同已读blob，QUEUE e58af89f749cd79e35c2c318fec6847d7ad53e8a本题行未变。公开基线3246/46835938B/tree3e4eaf0ffd0a8b442262c1f4f6d14614e9ec1a44，无>5MB。

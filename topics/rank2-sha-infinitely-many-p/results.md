@@ -128,3 +128,7 @@ Moore行列式恒定及全根幂和准确解出原Paley两径向块的全部Z阶
 ### R1071 §11：完整多链返回接口与逐行驻留界
 
 亲读原完整列Popov、全厚商乘t、δ=0尾、素域admission及真实坐标回代，给各原域的多链全关系和HNF双包含。原任一负源canonical行的全部X至多691866个原域系数；反向独立用零除子。不可变内表示与post-ideal实际两理想各自解出整条X，逐多项式比较并重验全N/D，不以摘要或低次残量代全等式。仅静态接口与证明，未新增软件/生产PASS。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
+
+### R1072 §10：原中央首矩的完整调和theta来源
+
+R736真实模p²像线与(28)的符号给原二次矩的整格点多项式，四维全调和投影在整个Q=p²壳保模p³。得到固定层级3·102²、权4p−2的真实尖点形式f_harm，m2=(34/δ)²[q]T_p²f_harm/(36p²) modp；全部2/3/17、12·3重数和非primitive点均保。需要读p f_harm模p⁴，单纯模p约化不付该矩非零。 [完整证明](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
