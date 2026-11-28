@@ -20,6 +20,8 @@
 
 ## 新增结论
 
+- [R267：单前向列紧性与原稳定闭根](results/R267-appendix-single-forward-column-compactness-and-original-stable-root.md)：同一A_n∈C′、A_n²强趋C及循环p上A_np一强子列，给真实两列闭图、DomS²=DomS、S²=C及Sp=f；RanS含循环Cp，m0≥1返原普通M。适用YN PtΩ及CW_nPtΩ，实际紧性未付；不需p∈RanS、不倒推逆列。
+
 - [R150：正确Phi斜率补图的中心化与完整NSPS三次两列](results/R150-appendix-unit211-Phi-zero-corrected-t-slope-centering-and-original-NSPS-cubic-pairs.md)：ω=Z+At+B不增分母，使f,V对t仿射；qω两系数t≤2。先按真三均值降完整NSPS，再一次仿射换基，给两列各t≤3与精确I6十行；固定二阶scalar≤6但尚不预报非零。H6/H8整零保，纸证无新执行。
 
 - [R150：独立P判别式、同Q唯一约化与2394维Artin包络](results/R150-appendix-unit211-hk-independent-P-discriminant-unique-reduced-Q-and-2394-Artin-envelope.md)：首次0.053066027秒/0，新112次判别式QQ因子最高31，故两个谱域的P可分；原四阶Q结式的旧支持全为DVR单位，Smith一阶赋值给同Q gcd恰一次。必要权基≤399约化，比值/Gram包络≤2394，另添U0≤7182；未计算显式u/Q或原八z，未判空。
