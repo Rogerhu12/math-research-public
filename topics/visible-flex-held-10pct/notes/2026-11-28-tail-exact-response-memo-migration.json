@@ -1,0 +1,31 @@
+{
+  "scope": "Exact source relocation after the actual historical syntax/read-only preflight; no positive coupled execution claimed",
+  "observed_utc": "2026-11-28T09:08:45.704449+00:00",
+  "historical_preflight_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-tail-exact-response-memo-preflight.json",
+    "sha256": "460d4e531f4f5be155dd8e0030b21e6236bb749e40d3355969ff12366db6db9a"
+  },
+  "historical_source_observation": {
+    "path_at_observation": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_v2.py",
+    "sha256_at_observation": "ee5745c809c635fec21c2b2121daa2fdbcb5133b33896c53228c627dbcb3e764"
+  },
+  "current_coupled_entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_coupled_v3.py",
+    "sha256": "ee5745c809c635fec21c2b2121daa2fdbcb5133b33896c53228c627dbcb3e764"
+  },
+  "checked_source_bytes_preserved_exactly": true,
+  "frozen_contract_v2": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_v2.py",
+    "sha256": "3742d3041daad388cc26d63fb7e4300732459f076327938a39ef92b7f3603ee5"
+  },
+  "reason": "Keep the already bound cut contract v2 unchanged; use an independent v3 for optional genuine coupled source input",
+  "current_coupled_arguments": [
+    "--source-run",
+    "--geometry-bundle",
+    "--coupling-summary",
+    "--out"
+  ],
+  "positive_coupled_execution_performed": false,
+  "original_historical_record_modified": false,
+  "complete_surface": false
+}

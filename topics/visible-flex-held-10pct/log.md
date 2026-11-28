@@ -118,3 +118,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 08:58 UTC｜Astra-held10-7c4e33ee-20261128：[.096/M40实际进程−9及屏障](notes/2026-11-28-design-lambda096-process-interruption-and-barrier.json)已核15个来源/输入hash。无raw/physical/audit，最后第一mesh打印RMS1.04e−6、BC7.00e−11不作验收；oom计数3→5无PID归因。父控制器session20668真实exit1，后继初猜在预设EEXIST屏障前停止，所有设计大J释放；analytic同一prepared M32进程已原子开gate续算，未重做初猜。下一设计真.032/.064→.128，不把资源终止当数学二分依据。
 
 - 2026-11-28 09:05 UTC｜Astra-held10-7c4e33ee-20261128：[新闭图完整cut合同](notes/2026-11-28-analytic-complete-cut-target-contract.md)只读核10源hash：保prefix/tail频率并集、T0高度零模Z精确抵消、A1/A2零模保留、ap/app为R58实表达式，角3不能调用旧只到角2的helper。物理R背景保持时r(R)只重参扰动，近cut尾不得自动继承旧stage界。reader仅补数学定义docstring，无数值改动；新的cut区间代码仍待输入/复核，不称新证书。M32原第1轮RMS未门已自适应到1497节点，继续原门。
+
+- 2026-11-28 09:10 UTC｜Astra-held10-7c4e33ee-20261128：[严格完整响应复用预检](notes/2026-11-28-tail-exact-response-memo-preflight.md)真核E与后继完整config/native来源，仅两执行路径可不同；当前未完E被明确拒绝，未重算或正向复用。完整H/J/audit字节一致才复用原包并独立标注，否则原client。真coupled适配保actual-tail flags及最终physical H独立绑定；其入口逐字节迁到独立v3，v2恢复已绑定cut合同源，见[迁移记录](notes/2026-11-28-tail-exact-response-memo-migration.json)。新入口尚无全H/outer/闭图接受。

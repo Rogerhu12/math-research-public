@@ -1,0 +1,109 @@
+{
+  "scope": "Read-only compatibility and real unfinished-source rejection; no accepted full-height response and no positive memoized execution claimed",
+  "observed_utc": "2026-11-28T09:06:42.786646+00:00",
+  "source_files": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/verified_tail_response_memo.py",
+      "sha256": "182a92de0ab3a213ab1010b24ba78c8312933c691b4071e1bf01af6486f1179c"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/prefix_resource_tail_memo_driver.py",
+      "sha256": "fc0903931b32e5a5b691f50e633a46b21caae59fa5dfbf34de87125351f57f88"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/couple_actual_prefix_memoized.py",
+      "sha256": "112d1a86953db8e66fa8112b38dd66083bdd5cfb7d3f0359da3e1bada75d9998"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_coupled_prefix.py",
+      "sha256": "fe58e89451e22a241f5209221ec90a3aece29f46693b753d148035f578286767"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_closed_map_v2.py",
+      "sha256": "ee5745c809c635fec21c2b2121daa2fdbcb5133b33896c53228c627dbcb3e764"
+    }
+  ],
+  "syntax_compiled_without_execution": true,
+  "e_summary_observed": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-memo-preflight-20261128-a/e-summary-observed.json",
+    "sha256": "a95fd8fdcd5f6e4acf512d44fe17a36284e622486b6044c37c9e3da565249ea1"
+  },
+  "live_e_summary_observed_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/summary.json",
+  "actual_unfinished_source_rejection": "ValueError('Only a genuinely returned complete original full-height response is reusable')",
+  "positive_reuse_executed": false,
+  "new_native_solve_invoked": false,
+  "base_settings": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/m24-tail-settings.json",
+    "sha256": "37bc9073d2dba1d110b165b5febbb054d1dd1a8ca09ec23b86e2d76c39f08f46"
+  },
+  "actual_e_settings": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/tail-settings.json",
+    "sha256": "ca6e0f71f5212371701ab78337e3d56fff739bc96f0eebcbcfdf96085464dc23"
+  },
+  "base_settings_differences": {},
+  "e_extra_config": {
+    "chordMaxCorrections": 3,
+    "traceFile": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/worker-trace.jsonl",
+    "initialCheckpoint": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/predictor/unaccepted-full-state-predictor.json.gz"
+  },
+  "source_native_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/native-manifest.json",
+    "sha256": "ca2331a3b6d586d0dd248bdf30b3714597e143bbf308bb0d457ddadb8735e7eb"
+  },
+  "successor_native_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-tail24/native-manifest.json",
+    "sha256": "c1ddc4fee28a7d5c157a771a1276a0c57def8ab9483936725482ab191cfaed53"
+  },
+  "fixed_scope_identical": true,
+  "runtime_libraries_identical": true,
+  "native_worker_counts": [
+    2,
+    2
+  ],
+  "native_file_hashes_identical": {
+    "executable": true,
+    "cpp": true,
+    "header": true,
+    "parallel_wrapper": true,
+    "parallel_plan": true
+  },
+  "owned_source_differences": [
+    {
+      "relative_path": "scripts/native_batch_adapter.mjs",
+      "old": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/native_batch_adapter.mjs",
+        "sha256": "d11ed12fa66ce9321f8ba770aa0daa118cdad9032a84cc99c3a0d208299e9a14"
+      },
+      "current": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-tail24/scripts/native_batch_adapter.mjs",
+        "sha256": "e73aeeac14a6dad2d19b1119e89b4cef53efc814033f655a0688e63770ab27dc"
+      },
+      "exact_complete_source_root_byte_relocation": true
+    }
+  ],
+  "memo_contract": {
+    "complete_height_f64le_bytes_bound": true,
+    "all_numeric_and_mathematical_config_identical": true,
+    "only_excluded_config_keys": [
+      "traceFile",
+      "initialCheckpoint"
+    ],
+    "current_initializer_is_exact_accepted_packet": true,
+    "original_full_states_and_fresh_native_J_required": true,
+    "original_complete_height_J_and_audit_required": true,
+    "source_packet_bytes_unchanged": true,
+    "reuse_explicit_in_separate_sidecar": true,
+    "different_requests_delegate_to_unchanged_original_client": true,
+    "old_non_audit_client_cache_retained": true
+  },
+  "coupled_map_adapter": {
+    "positive_execution_performed": false,
+    "actual_tail_flags_retained": true,
+    "physical_endpoint_height_separately_bound": true,
+    "original_raw_height_not_relabelled": true,
+    "prefix_mean_definition_unchanged": "Source angular count and GL6, then declared shared-Hermite finite mean",
+    "continuous_seam_or_geometry_claimed": false
+  },
+  "live_E_or_old_outer_wrapper_modified": false,
+  "complete_surface": false
+}
