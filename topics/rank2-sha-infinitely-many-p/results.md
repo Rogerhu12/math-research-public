@@ -504,3 +504,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §98：原Kummer类的无损反限制、Tate测试与真实全域障碍
 
 已证明：以−1提升的交换子只除2，精确从原Y_k恢复基域二阶类；固定代数点与显式星点给完整O值Tate读者，星点保持原p^k精度。全局互反证明非零候选不能来自任意固定有限分歧全局一阶类，后续必须保留派生障碍。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §99：真实全域一次类与原二阶中央的准确等价
+
+已证明：原全域标准椭圆单位零次整消失并唯一整除U；借AH实际两条特征理想等式及真实非有限signed线，证明z₁非零当且仅当a₂非零。原局部二阶障碍准确为真实一次全域类与固定有理点一级Bockstein的紧支撑配对。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
