@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R255：两角任意共同SPD目标的锐误差](results/R255-sharp-two-angle-invariant-target-metric-floor.md)（2026-11-28）：最优为(L−1)/(L+1)，两第一形式的算术均值取到；多角给必要下界，保共同坐标变换。五实际场G11全部角对仍有.12以上浮点见证，不排改变位置或角重标。
+
 - [R254：固定位置场任意目标半径的锐metric下界](results/R254-sharp-fixed-field-warp-radius-floor.md)（2026-11-28）：SPD第一基本形式下准确求inf半径的谱误差，给共同半径全角六个仿射可行条件；实际四场有限见证显示单改半径不足，须移动位置场，不排联动构造。
 
 - [R253：分区源二阶量与全时法向转移](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)（2026-11-28）：完整前缀/尾分别支付p与CX4461/26，准确切口超集覆盖和原全局法管条件保持；两实际场0/11.321、15.961s。首H2 reach/D>.03114912，后继C2场>.03114830，全部握持/嵌入/非全等保持；不改g/场，不代付metric或#5。
