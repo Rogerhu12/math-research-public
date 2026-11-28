@@ -31,6 +31,8 @@
 
 [硬总trace完整消元及核心同周长路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已给可实施公式：保旧/compact/tail共1449自由列，A(P−P0*−B0x)+B(T(P)−P1*−B1x)固定真正总端量；新增j2是从属控制。当前τ1接受态准确嵌回，先完成六jets/Jacobian/mean/tail/位置消费，再沿支撑Minkowski插值得到的同一Pμ小步求连接。有限谱精化评价同一完整路径，不能每层换宏观目标；未有全连接根或全空间一致逆。
 
+[实际新模型及消费者](notes/2026-11-28-r618-hard-total-trace-actual-model.md)已实现：首同P用原接受态六jets直接评价；完整1449列及外部P方向同根链；禁用1449零向量的旧tau0捷径；真尾以A=B=0支持恒等式消费原producer并保原误差。自然终态入口只取run46117718197的actual_response，不取pending。源码尚未实算，无新请求；先依据真实终态attainer和余量选下一范围。
+
 ## O2b-C：B030真实d59fa，以已知违反推进原库交换
 
 [cc117原自然终态](notes/2026-11-28-r566-native-cc117-natural-terminal.md)：run45930250772/job140280968908/sourcee553b6fb，2370.3419954749997秒，5metric+1restore、18J/1320块、48coarse/15fine/14完整localizer。真实d59fa5cf…在1672×3072及2467已闭峰上η.1966187824246114、物理V0。

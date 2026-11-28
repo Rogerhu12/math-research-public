@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **53cf8f53637bf0f61b589834d663c79cdd95b321**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
+公开最近实际pull/双README差异检查至 **36984cbf0908be89c4351048826894e3aeaf132f**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **eee45dcdd703758b02cefa93418fc977263d4e44**，根README无变化；QUEUE认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突已保留对方条目后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -31,7 +31,7 @@
 
 R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g极限空间。τ1只修核心兼容，当前j2仍锁；宏观须[真实R579核心接口](notes/2026-11-27-r618-current-fixed-E-to-r579-macro-core.md)，amp1e−5不授幅度。
 
-[硬总trace与凸核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已证：保1449自由列，以A/B从属lift准确固定全部P0=P、P1=T(P)，释放原缺j2但不让优化抹掉指定核心；当前τ1态可函数恒等嵌回。由当前凸核心到R579的同周长支撑插值给完整固定目标Pμ及导数，仍同E；正在接入六jets/mean/全位置/tail，未求宏观连接根。
+[硬总trace与凸核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)已证：保1449自由列，以A/B从属lift准确固定全部P0=P、P1=T(P)，释放原缺j2但不让优化抹掉指定核心；当前τ1态可函数恒等嵌回。同周长支撑插值给固定目标Pμ及导数，仍同E。[实际模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)已接六jets/完整J/mean/全位置/tail及真实centered终态入口；尚未执行，未选新μ。先消费自然终态再选下一实算输入，不填造接受态或宏观根。
 
 ## C：B030真实d59fa，以已付违反拒绝309b8后续进
 
@@ -39,7 +39,7 @@ R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g�
 
 真实保留 **d59fa5cf…**，已合格1672×3072峰η **.1966187824246114**/物理V0；当前840coarse/1682fine/1882物理/380work、pending各1，旧1672资格不转。准确g **5.42723195661168e−5**、e **.010054272319566116**、trust **.45050811767578125**、geometry phase。H签名20757…已为restoration，非旧metric505f；恢复成功转metric时按原语义reset。
 
-末trial **309b8dbc…**已付4465峰内的curvature_plus=4.805549391305973e−6超过e0+1e−8，已足以否定原接受门。[新已知违反早退](notes/2026-11-28-r566-native-d59fa-known-violation-scope.md)直接拒绝，保d59fa应用两pending；**8635余队列保留为未执行**，不再花费、不标已闭。outer16实际0接受且有pending，原trust后决策应保持.45050811767578125。后续新trial仍需全部原完整门；未来交换序列可与穷尽余队列不同。完整输入/H/准确margin/费用保留，新request由本次push触发。此静态设计未授固定g或宏观闭族。
+末trial **309b8dbc…**已付4465峰内的curvature_plus=4.805549391305973e−6超过e0+1e−8，已足以否定原接受门。[新已知违反早退](notes/2026-11-28-r566-native-d59fa-known-violation-scope.md)直接拒绝，保d59fa应用两pending；**8635余队列保留为未执行**，不再花费、不标已闭。outer16实际0接受且有pending，原trust后决策应保持.45050811767578125。后续新trial仍需全部原完整门；未来交换序列可与穷尽余队列不同。完整输入/H/准确margin/费用保留；实际run **46119106791** / source41cf3c8f，06:59:35 UTC启动。此静态设计未授固定g或宏观闭族。
 
 ## D：十九态BVP真实dde0，统一求解权重
 

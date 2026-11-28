@@ -491,3 +491,7 @@
 ## B030后继：已付违反拒绝末trial并继续真实d59fa
 
 [新范围](notes/2026-11-28-r566-native-d59fa-known-violation-scope.md)：原已闭峰4.80555e−6超过trial的e0+1e−8，故无需补剩余8635便能拒绝；保完整未执行队列和费用，应用两pending后回原完整接受循环，末outer的原trust决策保持不变。此为明确新策略，不冒旧partial循环逐步重演。
+
+## R618后继：硬总trace真实源码与完整消费者
+
+[实现范围](notes/2026-11-28-r618-hard-total-trace-actual-model.md)给独立模型、1449列完整Jacobian与外部P方向、真尾支持恒等转移、mean积分/direct位置消费者及当前centered自然终态入口。首函数直接保原接受态；已实现而未执行，暂无新数值资格或宏观根。
