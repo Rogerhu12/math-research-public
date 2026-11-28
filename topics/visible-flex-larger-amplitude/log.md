@@ -130,3 +130,7 @@ R723可选mesh完整9件386293B：新input95330/6c6788、entry55097/f2a468、pur
 ## 2026-11-28 00:17:39 UTC — 21初完整有限六族几何返回；22改以19半宽作对照
 
 21初完整六g真实返回：reach2.541916739245917/body−.036200119916736107/distplus−.05389631415885021/distminus−3.0936337267043594/cap−.06715131487906445/height−1.0411715967426867；current7e06、accepted0、reportfalse。5/8对19半宽的reach变差但distplus改善，故新22选择完整19 b1/2对照只换成对半波机制，预算不减。K/D各值/全连续费用不补。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`cacc660b166c1606c54c68acf18dd3cd6b0a5ba1`无变（非pull）。
+
+## 2026-11-28 00:17:56 UTC — 19第二试点真几何拒绝及下一试点统计
+
+19第二b622真g=.9817636973298995、reach最大、accepted=false；currentd761仍g=.9679630392005261/accepted1。下一b90d在00:10:54.391913统计返Phi3824.8419061258187/Gram.6460565438436483，几何/alpha未知，reportfalse。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)。双README云核至`f8366b8e37673edf6082da945f8010567416e57b`无变（非pull）。
