@@ -120,6 +120,8 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 [R1194 §§9.10–9.11](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽统一为c_na_n/c_nh_n，e点值桥不微分。两准确Saalschütz moments、完整两条二次分母伴随及端点付HA.14–16。原有限Cauchy伴随f的极点全在求和格外，右端D零及左端B双零均保；完整u_N尾给Ag=−4u_N/9−𝒰/2+𝒰/[3(n+4/3)]。故e0时同一个原w(−1/2)=K C_N I(MZ)/(16u_N)，K₄=−3δ²Γ K C_N I(MZ)/(32v₀²u_N)，外因子全unit。I只在deg≤2N定义；Z的真实三阶强迫ζ₀/27和M的四阶伴随不同，首共振2N+1未略。共同零准确剩M(1)=I(MZ)=0，继续实际Green/contiguous余项；不以强迫或Dixon导数unit冒认配对非零。
 
+[原Hahn双WZ公开请求](notes/2026-11-28-original-hahn-companion-double-wz-method.md)固定literal-N双和W_N，HC.21给w(−1/2)=−K W_N/12；换s,t三角坐标后全边界已付。仅在QQ(N)[s,t]求阶1–4的exact证书，最大210×246，两份独立恒等校验后才作固定小N转录审计；不扫prime/拟合。预算3600/90秒，完整source/request/method pins见请求。本提交推main后自动启动；尚无实际运行回执，原双零仍开。
+
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
 [R1179 §14](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，付全部奇3≤s≤p−2、s≠m₀=(p−1)/2的总p层系数c_s=βE_(s−1)Bp−s/(2sC^(s−1))；不除高Sym阶乘/Euler。真实smoothing恰在m₀失效，principal保留。完整Z_p=T⁻¹∂_U^[3](TU K_p)含principal/16及−βTU^(p−3)/3+βU^(p−2)/6两carry。原高forced行c_sΔc_s=0；低偶R=p−s仍乘(1−B_(p+1−2R)^(p−1))，缺席行及跨次数Fay未删，完整mask共同纤维继续。

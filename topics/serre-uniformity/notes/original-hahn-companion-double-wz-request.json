@@ -1,0 +1,40 @@
+{
+  "request_id": "serre-original-hahn-companion-double-wz-v1",
+  "source_sha256": "96578c5f0d91743935d2a1110cfd343fc82b5eb3d6871dfd943e0ac3296aa8e1",
+  "method_path": "topics/serre-uniformity/notes/2026-11-28-original-hahn-companion-double-wz-method.md",
+  "method_sha256": "8a657fb629f0df1030f50a4c204408f0108d827c23aff8e5a16e1bf536144cab",
+  "readme_sha256": {
+    "README.md": "539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444",
+    "topics/serre-uniformity/README.md": "6ce1403bd2d2587bb9cca70bd0095a1264b1167fe2c4b62f0652ae671e6277a5"
+  },
+  "mathematical_source": {
+    "commit": "f4ea26f17ac3c96baecc29e1ebb1d172731a9e03",
+    "path": "topics/serre-uniformity/results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md",
+    "formulas": [
+      "HC.21",
+      "HA.8",
+      "HA.22"
+    ],
+    "original_source_bridge": "w(-1/2)=-K*W_N/12 modulo p=6N+5; N>=6 in the original prime range.",
+    "literal_N_definition": "W_N=sum_{r+s<=N} (2/3)_r(1/6)_r(1/2)_r/((4/3)_r(r!)^2) * (-N+r)_s s! (2/3)_s/((r+4/3)_s(3/2)_s(5/3)_s)"
+  },
+  "max_order": 4,
+  "degree_s_offset": 1,
+  "degree_t_offset": 3,
+  "maximum_matrix_rows": 210,
+  "maximum_matrix_columns": 246,
+  "boundary_audit_N": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "budget_seconds": 3600,
+  "reserve_seconds": 90,
+  "max_certificate_bytes": 60000,
+  "computation_kind": "exact symbolic QQ(N)[s,t] telescoper; no sequence fitting or prime window",
+  "execution": "public GitHub Actions only; no local mathematical execution or compilation",
+  "conclusion_scope": "exact rational recurrence and 6N+5 vanishing orders if a certificate is found; no claim of original e/K4 nonvanishing",
+  "output_storage": "small certificate in job log plus canonical SHA256; no artifacts or repository data"
+}

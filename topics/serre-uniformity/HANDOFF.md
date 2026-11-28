@@ -6,17 +6,17 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：ccc731c16771d4c894a0ffcd093cbff30549e77b**（2026-11-28T19:29:11.303739+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：1c27227da7f6d28ae5ae614065ccbcd020a3e778**（2026-11-28T19:41:01Z；本地真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-旧repo路径消失后已重新真实部分克隆，终端可用；各次pull/readme检查和旧提交恢复沿逐字归档与log，不重演已推结论。继续既有公开Actions真实git发布。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
+旧repo路径消失后已重新真实部分克隆，终端可用；各次pull/readme检查和旧提交恢复沿逐字归档与log，不重演已推结论。本次新workflow通过用户已授权CLI真实git发布；既有Actions发布路径边界保持。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-quadratic-return.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Hahn-double-WZ.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域/小惯性C³未全关。R1128 good≥floor(p/16)+3、forced Ω(p/logp)、候选O(p^1.5logp)；惰性CM不推Q-CM，小aux仍大，原abelian−1整支保留。
 
-[R1131–81](results.md)原class4/proper杯积/Heis p³、ordered/BCH、全SS CM参考、Brandt单位理想、43 Frob有限重建及绝对LT/CM全p^n norm已付；准确β/mask/σ/shear/carry/exact/Cor与λ∞沿[open](open.md)/逐字前态，不重做。R1177 physical=−synt，中心b(S,S)−H、c=η，最低−λ∞S_Xs；R1174回原CM参考必须保actual/ref剪切差。R1175–76完整有限算法未执行。R1180全奇r≤p−2给F_r=γ^(r−1)ℓ_(p−r)、原γ_r=(r−1)!Bp−r/r，U_E=γ_E²、η★=1含坏支。R1181真实CM I∞全norm/端点塔已付，不外推非CM有限I。原Har(1,3,4)、七坏支/深盘、一般共轭路径及指定非零继续。
+[R1131–81](results.md)原class4/proper杯积/Heis p³、ordered/BCH、SS CM参考、Brandt单位理想、43 Frob与绝对LT/CM全norm已付；全部β/mask/σ/shear/carry/exact/Cor、λ∞及具体常数沿[open](open.md)/逐字前态，不重做。R1177 physical=−synt，原参考剪切差不删；R1175–76算法未执行。R1180–81全奇矩及真实CM全norm已付，不外推有限I。Har(1,3,4)、七坏支、共轭路径和指定非零继续。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
@@ -24,9 +24,11 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [原genus4/quadric §§1–11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原双jet、六映射/p次补偿、D⁶J=B、准确b₆与第7Picard jet、Green锁及同T三极norm已付；norm非零不代b₆/两jet非零。[R1183/R1192](results.md)全Hermitian张量及第四插入五端点块已付，e0后原K₄指定C₄a仍开；全Hodge非退化不代限制槽。全部相位/端点和旧公式沿逐字前态，不重跑窗口。
 
-[R1194 §§1–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原全左半Hahn无权范数单位；实际短和带1/(3j+2)。Lw=−v/a、w0=0，q_j′=w(a_j)−w(2)v(a_j)，双零iff P(1/4)=Q(1/4)=0。真实Casoratian/半步分解/全格点空间导数及HC.21–35终止4F3已付；t_r=(2m−1)F_m′(0)/(24m)保全部调和余项，普通second-kind不代原w。全公式沿逐字前态，不重做。
+[R1194 §§1–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原全Hahn无权范数unit不代真实加权短谱；actual companion Lw=−v/a、w0=0，双零iff P(1/4)=Q(1/4)=0。HC.21–35的终止4F3、谱导数完整调和余项、Casoratian和半步源沿原文/逐字前态保留，普通second-kind不代原w，不重做旧窗口。
 
 [R1194 §§9.10–9.11](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽统一为c_na_n/c_nh_n，e点值桥不微分。两准确Saalschütz moments、完整两条二次分母伴随及端点付HA.14–16。原有限Cauchy伴随f的极点全在求和格外，右端D零及左端B双零均保；完整u_N尾给Ag=−4u_N/9−𝒰/2+𝒰/[3(n+4/3)]。故e0时同一个原w(−1/2)=K C_N I(MZ)/(16u_N)，K₄=−3δ²Γ K C_N I(MZ)/(32v₀²u_N)，外因子全unit。I只在deg≤2N定义；Z的真实三阶强迫ζ₀/27和M的四阶伴随不同，首共振2N+1未略。共同零准确剩M(1)=I(MZ)=0，继续实际Green/contiguous余项；不以强迫或Dixon导数unit冒认配对非零。
+
+[原Hahn双WZ公开请求](notes/2026-11-28-original-hahn-companion-double-wz-method.md)固定literal-N双和W_N，HC.21给w(−1/2)=−K W_N/12；换s,t三角坐标后全边界已付。仅在QQ(N)[s,t]求阶1–4的exact证书，最大210×246，两份独立恒等校验后才作固定小N转录审计；不扫prime/拟合。预算3600/90秒，完整source/request/method pins见请求。本提交推main后自动启动；尚无实际运行回执，原双零仍开。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
