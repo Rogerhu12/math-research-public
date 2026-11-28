@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **fc75ba6eac68f5bbbcbad76c7c82e050a8267a97**；根16新增条款已读。私库实际pull **2026-11-28 12:06:31 UTC** 至 **7562d82212a67e6513786b36fa7c9f9fda351b17**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **fc1925cf7d04e61f2b8ee438d79e25eebe6097f7**；根16新增条款已读。私库实际pull **2026-11-28 12:06:31 UTC** 至 **7562d82212a67e6513786b36fa7c9f9fda351b17**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -54,6 +54,6 @@ R637/R642/R644/R652双核/全频gap仍欠宏观q；R652/R657已付ODE/几何不�
 
 [R676](results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md)真有限弯盘及整圈非平同g领；反射闭桥须终圈Bτ=m=0、净∫K=2π、单侧嵌入和全法管/支撑。
 
-[R681](results/R681-two-rigid-positive-crowns-and-one-reflected-window.md)两真实刚性正帽+双平度量弯带+四负领，固定近帽，远帽纯平移Δ支撑>1.01，外件D≤3.15/开握持.80。剩余镜像四边窗保全部真位置/二jet；全点同g与全闭reach未付。总曲率预算不代逐方向Gauss重数，[R684](results/R684-directional-gauss-degree-and-two-solid-window-crowns.md)已逐方向补实际±.96球心/.11刚冠、>.105真锥口和帽肩，每半窗负领至多一次；全外件D<3.15/支撑>1.01。R686/R688解实际环窗、周期与两实锚，法管不预授。[R682](results/R682-same-sign-elliptic-moving-disk-and-exact-positive-turning-cap-bridge.md)真实同g有边盘D<2.49/hold.52/dH>.85/reach>.099及正桥已付，闭合仍欠2π与周期；真实外件二jet和三矩输入不代点态g。[R685](results/R685-small-unit-pose-strain-with-exact-moment-and-diverging-bending-cost.md)已证小应变+准确矩仍可二基发散；新3152全列硬矩/二基费用/实际−.001至−.004同g修正与双网全壳，旧五矩阵不重跑。
+[R681](results/R681-two-rigid-positive-crowns-and-one-reflected-window.md)两真实刚性正帽+双平度量弯带+四负领，固定近帽，远帽纯平移Δ支撑>1.01，外件D≤3.15/开握持.80。剩余镜像四边窗保全部真位置/二jet；全点同g与全闭reach未付。总曲率预算不代逐方向Gauss重数，[R684](results/R684-directional-gauss-degree-and-two-solid-window-crowns.md)已逐方向补实际±.96球心/.11刚冠、>.105真锥口和帽肩，每半窗负领至多一次；全外件D<3.15/支撑>1.01。R686/R688解实际环窗、周期与两实锚，法管不预授。[R682](results/R682-same-sign-elliptic-moving-disk-and-exact-positive-turning-cap-bridge.md)真实同g有边盘D<2.49/hold.52/dH>.85/reach>.099及正桥已付，闭合仍欠2π与周期；真实外件二jet和三矩输入不代点态g。[R685](results/R685-small-unit-pose-strain-with-exact-moment-and-diverging-bending-cost.md)已证小应变+准确矩仍可二基发散；[真末态](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/12全步，3152列q−.004/η4.45883e−5/κ29.0581；R691从此同g加密继续，五旧响应/四硬矩/三角站不重跑，站间连续族未付。
 
 R640比例不借别输入，旧59a4资格不转新q；R33只授真旋转固定g相位且δE可0。完整同g全时、真实多t网格、存在差距等门均仍未完成，继续实际新输入。
