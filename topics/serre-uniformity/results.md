@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原canonical quadric的完整椭圆二次源（已证明）**：[原genus4 §15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)实际P12/P32给二阶强迫系统、B=UT(U³)全部系数及乘积norm的唯一U^p边界；准确Cartier前五个mixed层只回原e，第六层保b6。系数顶项unit未冒作原第四jet非零。
+
 - **六个原123 primitive的完整椭圆函数式（已证明）**：[原genus4 §14](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)锁定全部映射、各模型δ与p次补偿，实际极点和角色消除残余pth歧义；mixed消去只在已付e/K4双零及指定层成立，完整Leibniz/114项不删。
 
 - **原三个中心的显式整算术 cochain tower（已证明）**：[R1160 §8](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)原单位residue、复共轭修正和整Newton反差分同时构造全部p^r三中心，严格与约化相容；保21(1+p⁴)/11，识别原canonical 43格。一般Frob路径及F0数值继续，Cartan I不擅自提升。

@@ -2256,3 +2256,210 @@ C(P^rP_i\omega_j)+C(P^rP_j\omega_i)
 =-rC(P^{r-1}P_iP_jh_*),
 $$
 不能将它预先替换为一个高阶 Jacobi 关系。
+
+## 15. 原 canonical quadric 的完整椭圆二次源
+
+本节使用原 $U=U_{\rm old},V=V_{\rm old}$，
+$\omega=dU/(2V)=-b_0h_*$，
+以及 $P=P_{2,2}=-\Psi/(b_0\delta)$。
+原微分的确切二次关系为
+$\omega_{1,2}\omega_{3,2}=h_*^2$。
+置
+$$
+\mathcal A=xP_{1,2}+x^{-1}P_{3,2},\qquad
+\mathcal B=xP_{1,2}-x^{-1}P_{3,2},\qquad
+\mathcal W=P_{1,2}P_{3,2}-P^2.
+\tag{G4.92}
+$$
+这些函数全部下降到同一个原 $E$，并有下述全函数关系，
+不只是 $Q$ 处的局部 jet。
+
+### 15.1. 真实的二阶强迫系统和全部系数
+
+记 $D=d/\omega$。因为
+$D\log x=v/U$、$DP_{1,2}=-1/(b_0x)$、
+$DP_{3,2}=-x/b_0$，直接微分给出
+$$
+\boxed{
+D\mathcal A=-\frac2{b_0}+\frac{v}{U}\mathcal B,\qquad
+D\mathcal B=\frac{v}{U}\mathcal A,\qquad
+D\mathcal W=-\frac{\mathcal A-2P}{b_0}.}
+\tag{G4.93}
+$$
+右端的 $-2/b_0$ 是原 primitive 的归一，不可删除。
+
+令 $n=2k-1$，并写
+$$
+R_a(t)=\sum_{i=0}^{n}
+ \frac{(-1)^i\binom ni}{a+6i}t^i,\quad a=1,2,3.
+$$
+则 $P_{a,2}=x^a y^{-2p}R_a(x^6)$。
+使用 $6n\equiv-4\bmod p$ 及 $n$ 为奇数，逐项有
+$t^nR_a(1/t)=R_{4-a}(t)$。
+又
+$$
+x^2y^{-2p}=\frac{b_0^2U}{4(1-t)^n},\qquad
+t=\frac{V-v}{V+v}.
+$$
+所以 $\mathcal A$ 为 $U$ 乘一个至多 $n$ 次的奇 $V$ 多项式，
+$\mathcal B$ 为 $U$ 乘一个至多 $n-1=2N$ 次的偶 $V$ 多项式。
+特别
+$$
+\mathcal B=U\,T(U^3),\qquad
+T(X)=\sum_{j=0}^{N}t_jX^j,\qquad
+\mathcal A=\frac{2UV}{v}\frac{d\mathcal B}{dU}.
+$$
+把它们代入 (G4.93)，得到准确的有理源方程
+$$
+\boxed{
+36X^2(X+v^2)T''
+ +6X(13X+10v^2)T'
+ +(10X+3v^2)T=-\frac{2v}{b_0}.}
+\tag{G4.94}
+$$
+比较各次项给
+$$
+\boxed{
+t_0=-\frac2{3b_0v}=\frac{b_0^2}{6},\qquad
+\frac{t_j}{t_{j-1}}
+=-\frac{2(3j-2)(6j-1)}
+ {3v^2(6j+1)(2j+1)}
+\quad(1\le j\le N).}
+\tag{G4.95}
+$$
+这些 $t_j$ 都在 $\mathbf F_p^\times$。
+最高项的终止因子是 $6N+5=p$；
+其余实际分子、分母全为单位。
+故 $\deg T=N$、$\mathcal B$ 在 $O$ 处的极阶准确为 $p-3$。
+这里证明的是源多项式各系数非零，尚未证明它的 Cartier 读数非零。
+
+### 15.2. 原两 primitive 的完整 norm 与 $p$ 次边界
+
+令 $\mathcal F=P_{1,2}P_{3,2}$。由 (G4.92)–(G4.93)，
+$$
+\mathcal F=\frac{\mathcal A^2-\mathcal B^2}{4}
+=\frac{U^2(U^3+v^2)}{v^2}
+       \left(\frac{d\mathcal B}{dU}\right)^2-\frac{\mathcal B^2}{4}
+\in\mathbf F_p[U],
+$$
+以及
+$d\mathcal F/dU=-U(d\mathcal B/dU)/(b_0v)$。
+保留导数看不到的 $p$ 次项，准确积分为
+$$
+\boxed{
+\begin{aligned}
+\frac{U^2(U^3+v^2)}{v^2}
+ \left(\frac{d\mathcal B}{dU}\right)^2-\frac{\mathcal B^2}{4}
+&=C_0U^p-\frac1{b_0v}
+ \sum_{j=0}^{N}\frac{(3j+1)t_j}{3j+2}U^{3j+2},\\
+C_0&=\frac{(3N+1)^2t_N^2}{v^2}\in\mathbf F_p^\times.
+\end{aligned}}
+\tag{G4.96}
+$$
+常数项由 $U=0$ 处 $\mathcal F=0$ 固定；
+最高项则由 $\mathcal A^2/4$ 读取，$\mathcal B^2/4$ 的次数小于 $p$。
+所有分母 $3j+2\le m$ 均为单位。
+
+若仍写原 $\Psi=VU\sum_{j=0}^{N}a_jU^{3j}$，
+则由 $\Psi^2=U^p+2\delta\mathcal R$、$D\mathcal R=\Psi$，
+$$
+\mathcal R=\sum_{j=0}^{N}\frac{a_j}{2(3j+2)}U^{3j+2}.
+$$
+故 (G4.96) 也锁定了原 canonical quadric 的全部误差：
+$$
+\boxed{
+\mathcal W=
+ \left(C_0-\frac1{b_0^2\delta^2}\right)U^p
+-\sum_{j=0}^{N}
+ \frac{(3j+1)t_j/(b_0v)+a_j/(b_0^2\delta)}
+      {3j+2}U^{3j+2}.}
+\tag{G4.97}
+$$
+这不是将 $\Phi$ 或 Cartier 当成乘法。
+(G4.97) 是两个具体 primitive 乘积在原函数域中的精确身份；
+特别不能因只计算导数而漏掉它的 $U^p$ 项。
+
+### 15.3. 原 $e$ 读数与前五个混合层
+
+由原配对直接有
+$C(\mathcal A h_*)=0$、
+$C(\mathcal B h_*)=2\beta(\omega_{1,2},\omega_{3,2})$。
+(G4.64)–(G4.69) 的完整循环尺度给
+$\beta(\omega_{1,2},\omega_{3,2})
+=-\rho c^n e\,h_*/\delta$。
+再用 $h_*=-\omega/b_0$ 及 $b_0^p=-b_0$，
+得到
+$$
+\boxed{
+C_{\rm rel}(\mathcal B\omega)=\alpha\omega',
+\qquad
+\alpha=\frac{2\rho c^n e}{\delta}
+       =-\frac{2\rho e}{b_0\delta}
+       =-\frac{2S_n}{b_0s}\in\mathbf F_p.}
+\tag{G4.98}
+$$
+这是同一个原 $e$，不是一个仅有相同零集的新规范。
+虽然 (G4.95) 中每一系数都是单位，
+(G4.98) 的有限 Cartier 和仍可能抵消。
+
+低混合层可以完整支付，但它们并不产生独立于 $e$ 的非零输入：
+$$
+\boxed{
+\begin{aligned}
+C_{\rm rel}(\Psi\mathcal B\omega)&=0,\\
+C_{\rm rel}(\Psi^2\mathcal B\omega)&=-\alpha U'\omega',\\
+C_{\rm rel}(\Psi^3\mathcal B\omega)&=2\alpha V'\omega',\\
+C_{\rm rel}(\Psi^4\mathcal B\omega)&=-3\alpha(U')^2\omega',\\
+C_{\rm rel}(\Psi^5\mathcal B\omega)&=4\alpha U'V'\omega',\\
+C_{\rm rel}(\Psi^6\mathcal B\omega)
+ &=\{-5\alpha(U')^3+\mathfrak b_6\}\omega',
+ \qquad\mathfrak b_6\in\mathbf F_p.
+\end{aligned}}
+\tag{G4.99}
+$$
+为证明这些式子，在 $O$ 处取定义于 $\mathbf F_p$ 的
+$\mu_6$ 本征形式参数 $\tau$，使 $d\tau=\omega$。
+它存在是因为 $C(\omega)=0$，可对局部级数逐项积分，
+再按阶六角色投影；首项固定为 $\tau=-U/V+\cdots$。
+于是
+$$
+U=\tau^{-2}+O(\tau^4),\quad
+V=-\tau^{-3}+O(\tau^3),\quad
+\Psi=\tau^{-p}+\delta\tau+O(\tau^{5p}).
+$$
+最后一个精度直接由 $d\Psi=\delta\,d\tau$ 及 $\mu_6$ 角色得到：
+导数为零的剩余项是 $\tau^{jp}$，
+首个允许的正指数是 $5p$。
+记 $\mathcal B=\sum b_j\tau^j$。
+(G4.98) 给 $b_{p-1}=\alpha$；
+而 $\Psi\mathcal B\omega$ 只有 $O$ 一个极，
+故留数定理给
+$$
+b_{p-1}+\delta b_{-2}=0.
+$$
+对于 $2\le r\le6$，Cartier 输出的最高允许极项
+由输入 $\tau^{-(r-1)p-1}d\tau$ 读取。
+只有 $\Psi^r$ 中的 $\tau^{-rp}$ 和
+$r\delta\tau^{-(r-1)p+1}$ 两项可能贡献，
+因此该系数是
+$b_{p-1}+r\delta b_{-2}=(1-r)\alpha$。
+其余项的指数严格超出这个读取范围。
+
+最后，输入只有 $O$ 处至多 $(r+1)p-3$ 阶极，
+所以输出只有 $O$ 处至多 $r+1$ 阶极。
+完整 $\mu_6$ 角色及上述极界在 $r=1,\ldots,5$ 时分别
+只允许 $0,U',V',(U')^2,U'V'$；
+$V'$ 的首项为 $-\tau'^{-3}$，给出显示的两个正号。
+在 $r=6$ 时恰允许 $1,(U')^3$，因此只余显示的
+$\mathfrak b_6$，没有把它删成零。
+所有源和系数均在 $\mathbf F_p$ 上，故此局部 absolute 读取
+与 (G4.99) 的 relative 标架一致。
+
+(G4.89)–(G4.99) 给出六条真实 elliptic primitive、
+混合补偿的合法消去条件，以及原二次 canonical 关系的完整强迫源和 norm。
+它们没有证明 $\Lambda_p$、$\sigma_p$ 或 $\mathfrak b_6$ 非零，
+也没有将 $\mathfrak b_6$ 与原 $K_4$ 等同。
+特别，(G4.99) 的前五层在 $e=0$ 时全消失，
+所以不能把其中一个旁读数冒作尚未支付的 Picard 第四 jet。
+全部为纸面函数恒等式、极界、留数及有限系数比较，
+未执行数学程序或新增有限素数窗口。

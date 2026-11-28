@@ -91,6 +91,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [同文 §14](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)现给六个123方向的全部实际椭圆映射及原P_ab的精确函数式：两项无p次补偿，另四项保(V/U)^p或(U²/V)^p及各模型δ/符号；以实际极点和μ3角色排除残余pth函数。只有e=K4=0且123方向第0…4层，原已付Cartier消失才允许在C(P^rP_iω_j)和C(P^(r−1)P_iP_jh*)中删除这些补偿；完整Leibniz右端仍保，114的Λ和高层亚纯项不删。此为后续真实mixed源输入，不是共同零排除。
 
+[同文 §15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已将原ω12ω32=h*²的两个primitive组合降至同一旧E：A=xP12+x⁻¹P32、B=xP12−x⁻¹P32，DA=−2/b0+vB/U、DB=vA/U。B=UT(U³)各t_j明确且unit，F=P12P32=U²(U³+v²)(B′)²/v²−B²/4=C0U^p−Σ(3j+1)t_jU^(3j+2)/{b0v(3j+2)}，C0单位；W=F−P²全函数亦锁。原Cartier读数C_rel(Bω)=αω′，α=2ρc^(2k−1)e/δ；Ψ^rB的r1…5层只给0、−αU′、2αV′、−3αU′²、4αU′V′，r6为−5αU′³+b6。顶项unit和前五层不排e0；新b6尚未与原K4比较，继续该真实二次源，不混同旁矩。
+
 全部45槽中的κ–Serre型对角−6r_ab为单位，有限Thomae付全三张量Fp²交替、九mixed合一；e=δS_n/(ρs)、S_n=−9ρ²A_orig准确。σ来自三114循环，Λ来自同E* H_*²及原Padé D_N的有限functional，二者均未unit。e=K4=0仍恰222+123七维第0…4层消失/原q两jet共零；继续实际Leibniz、指定短源/有界primitive，不以perfectness、覆盖同构、全Jordan或旁列单位排除。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
