@@ -30,7 +30,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-target-curvature --> [R267](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)新gap.92前缀；[R281](results/R281-positive-support-central-cylinder-at-full-gap.md)正解析中央；[R283](results/R283-nonelliptic-accurate-rulings-global-reach.md)两新Γ95母线环带全域reach，p32原长≥.222，完整拼接仍另付。
 
-<!-- 2ecf-live-g10 --> [真实三维乘子消去端位修补，密积分闭合<7e−13；原g的实际187→575方向控制后独立metric .270077→.264335、κ12.96745→11.92883、held .64469→.63905。](notes/2026-11-28-2ecf-unit-material-actual-three-direction-closure-and-fixed-metric-refinement.md)
+<!-- 2ecf-live-g10 --> [后段11个正log半径随真实单位方向共同设计g，再冻结该SHA加密到961个方向控制，G11 .2048365/11.7731/.639418→.2011013/11.64145/.637572。](notes/2026-11-28-2ecf-material-implicit-port-eleven-radius-design-and-actual-fixed-target.md)
 
 <!-- 2ecf-HF-both-material-clocks --> [936真实新径](notes/2026-11-28-2ecf-strong-hf-new936-genuine-refined-grid.md)原完整行加成7227136行，14820位置独立最佳 .08128793/κ18.07564/held .65901；旧HF场未满足精度/厚度。
 
@@ -58,4 +58,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:39:48 UTC；已读公开 main `244d7fcc7c0cbd2a693542c84ac4e469fc3dcde6`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:40:00 UTC；已读公开 main `b7ff84587aa09aafcaf57832d3633af89e2372b9`，根/课题 README 逐差无变化。
