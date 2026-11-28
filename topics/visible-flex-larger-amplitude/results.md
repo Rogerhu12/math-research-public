@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R747（已证明，共同初g的全闭offset弧长运输与端层费用）**：[真实环弧长材料规范](results/R747-offset-ring-arclength-transport-and-the-physical-end-cost.md) — Ω_d(s)=s−dΘ(s)严格可逆，在两完整端环准确付ss行，sv/vv误差由唯一转角差Θ(S)−Θ(s)−θ完全表出；真圆握持面连帽内领全同g。全cap无极中心atlas与旧R746共t=0物理场/固定g，二者每t完整像相同；reach≥.107等几何保。平行平面切片不能续接曲→直入口，全锁柱C⁴续接有Gauss阶次矛盾；C² v^(5/2)给三行leading真补偿但不冒完整非线性或固定宽度。两端/帽及中央实际物理自由继续求解。
+
 - **R746（已证明，圆柱握持、全周期平移与真实活动端盖）**：[圆握持及物理自由闭端](results/R746-circular-grip-periodic-translation-and-physically-free-closed-ends.md) — 真实相位0…π/2、D0<3.40、全相位diam<3.403/reach≥.107、整像held≥1.521、固定握持diam≥1.40；整个周期中央柱严格同g，材料生成元为全局常平移，避开平带旋转monodromy。两端和两帽均真实变形，无标记也由严格实体体积差得0<δE≤.0012。原命名cap在一真点已有Gram误差>1e−3，完整端g三行未付；三物理自由接口可动全端与接缝，40继续真全t求解。
 
 - **R745（已证明，等长极子午与完整横向Jacobi返回）**：[厚闭球的真等长倾镜与物理Jacobi走廊](results/R745-equal-polar-meridians-and-full-Jacobi-return-on-a-thick-sphere.md) — 真平滑转角方程在γ∈(.47,.50)有唯一根；完整厚闭参考全相位D<3.45、held≥.717、单一固定上握持diam≥.75、reach≥.108，0<δE≤.002。贯穿|y|<1的真实曲率修正精确给带标t=0参考的同长极子午与整个4ℓ周期横Jacobi值/导数，三固定标记支撑严格离开该测地线。过渡环和完整端/盖的二维同g、Killing与真精化仍待解，不能用一维返回冒完整柔性族。

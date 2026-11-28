@@ -111,11 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [34完整](notes/2026-11-28-R730-R729-run34-complete-launch.md)：46135301432/job140949157288，source c3228e9d/PID3687/model989fec。初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736，完整reachg4033.8205903217813/K33159.051287192604；首全步b36a1d已返Phi94493.88817291798/Gram6.837434750273205，完整几何待。139角色/24runtime/全原预算保，自然返才pure66120。
 [35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，source2c8739ed/PID3435/model726006。初7e06/accepted0，完整reachg601.642125582291/K4938.754785337882；首全步5f0a784完整reachg1735.2651699360226拒；半步65983a0已启，统计/几何待。139角色/24runtime、1,333,370 outer全自由、713/719+64live及原预算保；自然返才pure74162。
 
-[36实际](notes/2026-11-28-run36-bent-disk-complete-launch.md)：46141466656/job140968124228自然RC0，八阶段全返；同冻结数值g的独立Gram .8454746923566958→2.17427627577303、K57.85981285612486，未达标。
-[37完整](notes/2026-11-28-run37-arclength-complete-launch.md)：46142745238/job140972094276自然RC0，原36必要重生八阶段及04/05整点身份一致，新弧长角八阶段全返；末两固定g验证Gram .917120251188229→.670383394669527、K9979.338755307148→2631.2958394，未达标；[原完整终态](notes/run37-bent-disk-arclength-46142745238-1.json)和ownnote保全部点/NPZ/三相。
-[38完整实际](notes/2026-11-28-run38-free-radial-Killing-complete-launch.md)：46145189191/job140979589435、PID2553自然RC0，16阶段全返418.3603s；固定g两格Gram4.6303873878771675→9.607780255855785，独立密cache4.734943041299708→9.64107391752367，明确恶化。原冻结X efc19d83不变，换基X仅诊断；两cache差2.4072370923562953，完整同g/全几何/精化未付。继续R744/745全域F/X。
-
-[R742右柄全实际](notes/2026-11-28-R742-right-handles-complete-launch.md)：46145500268/job140980544503成功，8设计×原3格全返。右区峰改善但全峰移至中区，右.42时32/44全峰1341.7930148178439/1163.1151317212843；E⊥角差增大。均有限样本，不付全reach/同g，完整原数值和source保note。
+[36](notes/2026-11-28-run36-bent-disk-complete-launch.md)、[37](notes/2026-11-28-run37-arclength-complete-launch.md)、[38](notes/2026-11-28-run38-free-radial-Killing-complete-launch.md)原全部阶段均自然RC0，未达标；同g两层独立Gram分别 .8454746923566958→2.17427627577303、.917120251188229→.670383394669527、4.6303873878771675→9.607780255855785。38独立密cache4.734943041299708→9.64107391752367，冻结X未改。[R742右柄8×3实际](notes/2026-11-28-R742-right-handles-complete-launch.md)右峰改善而完整峰仍1341.7930148178439/1163.1151317212843。全部源参/原预算/运行点/NPZ/六相/失败未知由各完整note与[缩短前H](https://github.com/Rogerhu12/math-research-public/blob/c7d3402fcc76a2e64b34332b1ff7a874aeb2095c/topics/visible-flex-larger-amplitude/HANDOFF.md)、[缩短前open](https://github.com/Rogerhu12/math-research-public/blob/c7d3402fcc76a2e64b34332b1ff7a874aeb2095c/topics/visible-flex-larger-amplitude/open.md)逐字保全，不重做。
 
 [39完整实际](notes/2026-11-28-run39-whole-closed-body-Killing-complete-launch.md)：46146451800/job140983460924自然RC0，全11阶段518.2182s；冻结stage6同g，后两层Gram .15001922660375772→.04840454829227062，Lie17.288336414547743→21.826287727566044，K11.050084361299477，未付全时同g。全部原点/预算/返回保note，39b继续真实轨线与切图。
 
@@ -128,6 +124,8 @@ R724–743全部明确范围与实际失败保[结果索引](results.md)及固�
 
 
 [R746](results/R746-circular-grip-periodic-translation-and-physically-free-closed-ends.md)绕y圆握持与全周期平移：D0<3.40、全t reach≥.107/held≥1.521/grip≥1.40，无标记真体积差得0<δE≤.0012。完整柱同g，两端/盖真实可变但命名cap Gram>1e−3；40继续真全t，完整source现刊。
+
+[R747](results/R747-offset-ring-arclength-transport-and-the-physical-end-cost.md)新Ω_d材料规范与原R746共初g/全闭图，真端ss行准确、另两行由转角差显式给出；整圆握端含帽领全同g。全锁柱在曲→直入口无C⁴等距续接，C²的v^(5/2)三行leading可解；非圆端全非线性仍需真正物理自由。完整源现刊。
 
 ### 完整准确下游与完成责任
 
