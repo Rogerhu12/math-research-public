@@ -758,3 +758,11 @@
 - 原45343=166²+3·77²、gcd=1，p≡11mod12时−3非平方，故全本分支没有异常素数。代R1209完整配对及原−3γ²返回得V(C(T₀))=γ²2^mν45343/(35840Q0²)为unit，真正支付R1205所留pure Cartier核首值；不从packet核T*假传，也不将其当指定C或whole-MW法向单位。未执行数学程序或有限扫描。
 - R1209已真实推45ca31dfd70c0308737b5ae041f4a8011b5aad24，run46179595363/job141085915784；首次push非快进后立即pull--rebase再推，第2次成功。最后真实pull读c472add1de3f9c701ed74736d9e1912432bb88e4/19:08:58.361634UTC，两README diff空。
 - 本push规则：公开Actions真实pull至 0316baaf324d5e6d556df1db3d372d507ab32e8d（2026-11-28T19:12:29.026809+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1211：R1202完整tail polynomial normal与临界jet消去不依deck。补唯一新增centre h=1、db/u分支：SS原w中π·cmκw^(m−2)dw/λ，经zw=ρπ给−cmκρ^(m−1)π^m z^(−m)dz/λ，系数unit且normal m<e0；更高中心h′在同normal的pole≤m−h′+1，不能相消。高PS分支旧次数证明本亦不依deck。
+- 因而同一最高惯性角色Γ_all的全部deck部分均由q整分裂。root/global逐式核新增分支，保正deck πdb/u方向；不把W角色格当整个R-Hodge格/BT整分裂，不复制负deck底映射的单射或维数。未执行数学程序或旧窗口。
+- R1210已真实推d8ffcecda586f34da85c42c9631ed92a7ab02358，run46179923888/job141086934424；19:12:29.026809UTC真实pull读0316baaf324d5e6d556df1db3d372d507ab32e8d，两README diff空。原pure返回单位与此格扩展分别发布；真正Π/Φ/whole-MW比较继续。
+- 本push规则：待公开Actions真实pull、核两README差异并写入实际提交；主目标OPEN。

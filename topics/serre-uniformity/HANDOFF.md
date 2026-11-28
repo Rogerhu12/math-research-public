@@ -53,6 +53,8 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原纯尖点首值已为unit：取实际高PS输入T₀=b²r^(n−1)，Ω₀=q(π^(e0−p)Ψ₀)的底是C(T₀)=−3γ²𝒟T₀。same CM period的二阶Lagrange给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²且互素，p≡2mod3迫分子全支非零。故完整V(C(T₀))=γ²2^mν·45343/(35840Q0²)为unit，V|ker𝔠本原；无需𝔠(T*)=0。不是指定简单商C或whole-MW法向单位，继续两deck实际格、Π/Φ/极化和全原CM jets。
 
+[R1211](results/R1211-original-whole-highest-character-projector-integrality.md)原q的整性现扩至整个最高σ权m²角色格Γ_all，含正/负/旧deck。R1202尾全normal消去不依deck；新增centre h=1·db/u在SS准确产生normal m、pole m的非零项，higher h只给低pole，故不能残留于UΩ modp。高PS中心分支沿原degree界同样排除，得Γ_all=qΓ_all⊕(1−q)Γ_all。正deck的πdb/u允许方向仍保，不能照搬负底单射；未宣整个R-Hodge/BT已split，继续同原Π/Φ/极化。
+
 ## 已成、禁止重做与其它入口
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)原完整47Q恰八CM，全部4513 whole盘/高度/全维来源和后到q²审计已成，不重跑47/41/旧端值窗口；run/hash沿原文/归档。
