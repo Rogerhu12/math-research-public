@@ -73,3 +73,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1073 §19：整个三级同源胚芽与原首层乘法范数
 
 真实δ同源给w↦−w及完整24次幂鉴别式比，(3S−I)在各阶可逆；所有p商Δ乘积为p¹²Δ^(p+1)，对四实际Δ比消常数后付全部首层u_C范数，72真log由同圈完整迹恢复。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1073 §20：固定Fermat混积微分及真端点差非挠
+
+原Hesse标记/三级Δ比给λ³+μ³=1，唯一β∈μ8及绝对2592N/(δβ)将每个真实混积积分等于E16点log。原130点及每个首端点差皆非挠；各点非零未代原指定角色的完整二阶。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。

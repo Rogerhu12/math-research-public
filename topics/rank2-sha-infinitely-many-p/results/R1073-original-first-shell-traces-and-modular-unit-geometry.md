@@ -46,3 +46,38 @@ $$ \prod_i d_C(v_i(w))=d_{M^{-1}C}(w)^d,\qquad d=p+1.\tag{AB3}$$
 其中 $w=0$ 取完整首圈。对分子也可完全不比较三级标记的逆：由(Z4)直接相除，任一原分量上 $u_C^{24}$ 是 $\Delta(E/C/D_\delta)/\Delta(E/D_\delta)$ 的三次方除以 $\Delta(E/C)/\Delta(E)$，四个微分全自源归一。$M$ 保持三级根基线 $\mathbf F_3\delta$，因为 $M$ 为可逆半线性，乘单位及共轭都保存该线。于是在全部 $p$ 商上分别对四个实际鉴别式用(AB2)，共同的 $p^{12}$ 全消，源的130线改为 $M^{-1}C$，而三级核仍为 $D_\delta$。最后才在原分量源上用(Z4)把该比认回 $u_{M^{-1}C}^{24}$。等价地，$(C,w)\mapsto(\delta C,-w)$ 交换整套$p$线且 $M^{-1}\delta C=\delta M^{-1}C$，因为 $\bar\delta=-\delta$。准确得到
 $$ \boxed{\prod_i u_C(v_i(w))^{24}=u_{M^{-1}C}(w)^{24d}.} \tag{AB4}$$
 等式始终在预标后目标的原 Weil 分量使用 $f_3$；跨分量使用的是鉴别式的(AB2)。中心取 $p$ 进对数即 $\sum_i\log_p u_C(v_i)=d\log_p u_{M^{-1}C}(0)$，所以(U6)的全部独立72个对数也由同一第一层的真单位迹恢复。
+
+## 20. 固定Fermat曲线的真实混积微分与非挠首端点
+
+沿(AB1)并允许 $C=0$ 表示原源。对 $C\ne0$ 置 $N_C=130$，$N_0=1$。给原 $X(3)$ 分量选 Hesse 坐标 $\lambda$，令原 $f_3$ 唯一零尖点 $c_0=\infty$，与它同为三级幺幂 deck 不动点的原 CM 点为0，其余三尖点为 $\mu_3$。剩余三重旋转以下精确定标。该坐标的遗忘映射是
+$$ j(\lambda)=27\,\frac{\lambda^3(\lambda^3+8)^3}{(\lambda^3-1)^3}.\tag{AC1}$$
+例如 Hesse 三次 $x^3+y^3+z^3-3\lambda xyz=0$ 的九个恒定 flex 给全三级标记，四个退化点即上述四尖点；换 Weierstrass 方程系数可取 $-27\lambda(\lambda^3+8),54(\lambda^6-20\lambda^3-8)$，代标准 $j$ 即(AC1)。利用 deck 把选定的尖点转到无穷，固定该尖点的幺幂的另一个不动点对应0。该 Hesse 公式亦见 [Hesse pencil 的显式 Weierstrass 模型](https://doi.org/10.1016/j.jaca.2026.100043)；亦见 Artebani–Dolgachev [§2，(6)–(8)](https://sites.lsa.umich.edu/idolga-new/wp-content/uploads/sites/1467/2024/08/hesse09.pdf)。
+
+原 $j(E_v)=1728\cdot4v^3/(4v^3+27)$ 与 $w=v/6+\cdots$ 给 $(d\lambda/dw)(0)^3=-4$，故可唯一选择 $\mu_3$ 旋转使此导数为原 $x(Q_3)$。这时(Z3)的 $f_3(0)^2=432x(Q_3)$。权二的 Kodaira–Spencer 像在 $X(3)$ 上为对数微分；$f_3^2$ 的零部为 $2[c_0]$，故对应通常亚纯微分的除子为 $[c_0]-\sum_{a\in\mu_3}[a]$，即 $d\lambda/(1-\lambda^3)$ 的除子。在一个水平基中 $\mathrm{KS}(\kappa^2)$ 为 $h^2\,dw$ 乘该基同一固定 cup 常数。在中央用刚定的导数与(Z3)标定比例；在 $C$ 商上拉回时 cup 要乘 $N_C$，而归一 $\kappa_C$ 拉回等于源微分。由此逐支准确得到
+$$ \mathcal F_C(w)^2dw=432N_C\,\frac{d\lambda_C}{1-\lambda_C^3},
+ \qquad \lambda_C=\lambda(E_v/C,q_C\alpha_3).\tag{AC2}$$
+换言之 $\langle\omega_C,\nabla\omega_C\rangle$ 拉回为源值除 $N_C$，而 $\mathcal F_C^2dw=P^2G_C^2dw$，故右侧确为乘 $N_C$。单支平方原函数等于 $-144N_C\sum_{a\in\mu_3}a\log(\lambda_C-a)$，按同一基点取差。
+
+写 $r_C=\mathcal F_{\delta C}(-w)/\mathcal F_C(w)$。由真正母三级同源的微分，
+$$ \frac{\mathcal D_C(w)}{\mathcal D_{\delta C}(-w)}
+ =\delta^{12}\frac{\Delta(E_v/C,\kappa_C)}
+ {\Delta((E_v/C)/D_\delta,\kappa_{C,\delta})}
+ =(1-\lambda_C^3)^2.\tag{AC3}$$
+最后一步作用在单个普适三级曲线上：左边此模函数在 $c_0$ 有六阶极，在其余三尖点各有二阶零，且在原 $E_1$ 中取1，所以与右边完全相等。交换(AB1)的两侧标签给 $r_C^{24}=(1-\lambda_C^3)^8$。因此整个胚芽中 $e_C=(1-\lambda_C^3)/r_C^3$ 是由中央值确定的常数、属于 $\mu_8$；令 $\beta_C=e_C^3$，这是 $\mu_8$ 中使 $\beta_C^3=e_C$ 的唯一选择。置 $\mu_C=\beta_C r_C$，则
+$$ \lambda_C^3+\mu_C^3=1,\qquad
+ \mathcal F_C(w)\mathcal F_{\delta C}(-w)\,dw
+ =432N_C\beta_C^{-1}\frac{d\lambda_C}{\mu_C^2}. \tag{AC4}$$
+在首个闭盘内 $\mu_C$ 也可直接按 $\mu_C^3=1-\lambda_C^3$ 及其中央值整 étale 延拓；所有商皆非尖点且好约化，右侧在整个剩余盘是单位。故(AC4)在 $w=\infty$ 的首圈端点也以 $v$ 的正则微分解释。
+
+Fermat 曲线 $\mathcal E:X^3+Y^3=1$ 以 $[1:-1:0]$ 为原点。先取 $x=12/(X+Y),\,y=36(X-Y)/(X+Y)$ 得 $y^2=x^3-432$；再取 $x'=x/\delta^2,\ y'=y/\delta^3$，因 $\delta^6=-27$ 得 $E_{16}:y'^2=x'^3+16$，是 $K$ 上的同构。它将 $\omega_{16}=dx'/(2y')$ 拉回为 $\delta\,dX/(6Y^2)$。因此(AC4)右侧为 $2592N_C(\delta\beta_C)^{-1}\omega_{16}$ 的拉回。$E_{16}$ 与 $y^2+y=x^3$ 由 $x'=4x,\ y'=8y+4$ 同构；其 CM Hecke 角色为(Z1)的 $\psi_0$。也可直接查 $E_{16}[3]\subset E_{16}(K)$（三挠的 $x=0$ 或 $x^3=-64$），故每个好主理想的 Frobenius 生成元模3为1，而该生成元唯一。特别 $n>0,\ n\equiv1\bmod6$ 时 $\psi_0((n))=n$。
+
+### 原216标签与实际首圈端点的非挠
+
+记 $P_C=(\lambda_C(0),\mu_C(0))\in\mathcal E(\overline K)$。对 $\gcd(n,130)=1,\ n\equiv1\bmod6$，主理想 $(n)$ 的 Artin 作用固定该点。事实上在 $E_1$ 的3挠上 $\psi_1((n))=n$ 为1，而在所有130射影线上为标量；所以固定 $\lambda_C(0)$。在原环类单位 $u_{\delta C}/u_C=r_C(0)$ 中亦固定。其作用在 $\mu_8$ 上为 $n^2\equiv1\bmod8$，故固定 $\beta_C$。若 $P_C$ 为 $m$ 挠，进一步选 $(n,m)=1$，$E_{16}$ 的 CM 角色给 $(n-1)P_C=0$。用 CRT 使任何 $\ell\ge5$ 的指定 $\ell\mid m$ 上 $n\bmod\ell$ 非0非1；使 $v_2(n-1)=1$ 或 $v_3(n-1)=1$；均可保持其余互素条件。故 $m\mid6$。但 $K(E_{16}[6])/K$ 在5与13不分歧，而 (AC1) 的 $j(E_1/C)\in K(P_C)$ 生成130环类域；原 $\mathrm{Pic}(\mathcal O_{130})$ 的局部5、13环面像具有非平凡惯性（最大序类数1，对角 $\mu_3$ 在2环面上已自由，故5和13因子仍分别嵌入）。于是对所有 $N_C=130$ 均得到 $P_C$ 非挠。
+
+对(W8)任一端点 $v_D$ 令 $P_{C,D}=(\lambda_C(v_D),\mu_C(v_D))$。它与 $P_C$ 同约化。前者的 $j$ 来自 $E_1/(D\oplus M^{-1}C)$ 的乘子环 $\mathcal O_{130p}$，后者为 $\mathcal O_{130}$，故两点不同。若差为 $m$ 挠，对额外素于 $130pm$ 的上述主理想 $(n)$，两点的 $\lambda$ 坐标均由其固定：原 $q_D$ 及130核在有理标量下不动，Fr 重标是固定的标签矩阵，3挠不动。因 $\mu_3\subset K$，三个相同 Artin 作用至少固定两点的 $\mu$ 坐标（可在整个阿贝尔 torsion compositum 及所需代数闭包取 lift；$\lambda$ 固定且 $\mu^3=1-\lambda^3$ 已足）。故 $m\mid n^3-1$。对各 $\ell\ge5$ 取非零模 $\ell$ 的 $n$ 使 $n^3\ne1$，总可兼顾其余互素条件。$m$ 于是素于 $p$，而同约化两点之差不可能是非零 prime-to-$p$ 挠点。由此
+$$\boxed{
+ \int_{0}^{v_D}\mathcal F_C(w)\mathcal F_{\delta C}(-w)\,dw
+ =\frac{2592N_C}{\delta\beta_C}\,
+   \log_{E_{16}}\!\left(P_{C,D}-P_C\right)\ne0.} \tag{AC5}$$
+等式中把 Fermat 点经上式送 $E_{16}$，以 $\omega_{16}$ 的正式对数取值。两点落在同一剩余盘，故普通原函数差等于该正式对数。这里所有非挠断言均逐个实际 $C,D$；固定 $\chi_b$ 的代数线性组合和(W8)的完整权一二重积分尚需另证。

@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；公共pack已逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
-- 公开2026-11-28 13:56:58 UTC实际pull --rebase，读取main b5cc649dd1c8e5ac3951db17a176cf85ffbaed1f；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 13:56:55 UTC实际pull --rebase至5b08921816c99f3bd69e963256cd0bbe61ff459f；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 13:58:25 UTC实际pull --rebase，读取main 238f7c447764a8401f02a860b3106f270a733074；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 13:58:21 UTC实际pull --rebase至48c21ac99af8a23b5b85a4896457d4f34c95e9ed；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3285/47600665B/treeeee9e2a475b4a7e9dba35826119ca3a6f6af112a；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -38,7 +38,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 固定曲线对：R1073
 
-[R1073](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)固定E65/E8125秩≥2、完整390角色/5/双13/同E1参考。§§1–6真实P±和全Lagrange/正整数全层，范数大小界仍不足；三原G_k全p核迹、整Katz/所有有限角色保平凡及奇层。§§7–12完整Volkenborn误差、Morava盘、PF/Hasse三位及78父源；父源未赋rank1。§§13–14同一三级祖源/216同源/72环类，正确Weil分量的24次幂鉴别式比及72单位乘法独立，两个单位权导非零但未等于水平Ab2。§15真首层全端点/过收敛二次积分准确读65f1(0)(dlogρ)²Ab2；奇分支先作Frobenius重标。§16τ=u²/130，真正目标首导非零，完整二阶保T2、logτ·T1、log²质量三项，尚待原中央非零。§17原Fr预标的外端全Hecke迹杀全部正dj次数，零次中央仍待付。§18相反Weil分量原f3/f_b/G_C全零，未经重标奇层逐商真零；参考不混用。§19真δ整胚芽和四Δ完整p范数恢复72单位log首层迹，保M⁻¹C及原分量。
+[R1073](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)固定E65/E8125秩≥2、完整390角色/5/双13/同E1参考。§§1–6真实P±和全Lagrange/正整数全层，范数大小界仍不足；三原G_k全p核迹、整Katz/所有有限角色保平凡及奇层。§§7–12完整Volkenborn误差、Morava盘、PF/Hasse三位及78父源；父源未赋rank1。§§13–14同一三级祖源/216同源/72环类，正确Weil分量的24次幂鉴别式比及72单位乘法独立，两个单位权导非零但未等于水平Ab2。§15真首层全端点/过收敛二次积分准确读65f1(0)(dlogρ)²Ab2；奇分支先作Frobenius重标。§16τ=u²/130，真正目标首导非零，完整二阶保T2、logτ·T1、log²质量三项，尚待原中央非零。§17原Fr预标的外端全Hecke迹杀全部正dj次数，零次中央仍待付。§18相反Weil分量原f3/f_b/G_C全零，未经重标奇层逐商真零；参考不混用。§19真δ整胚芽和四Δ完整p范数恢复72单位log首层迹，保M⁻¹C及原分量。§20原混积等于固定E16的2592N/(δβ)点log，每个首端点差非挠；仍保原χ权及变动积分。
 
 ## 其它门、更正与接续
 

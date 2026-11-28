@@ -441,3 +441,19 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 根核δ不在模3逆用、水平轴δ/barδ和δ^36、S²=1；Tate全q乘积付p¹²，先对四个真实鉴别式取范数，再在原分量源认回u，避免在相反零分量除f3。全部标记M⁻¹C与barδ=−δ按射影标量处理。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:56:58 UTC到b5cc649dd1c8e5ac3951db17a176cf85ffbaed1f，私库2026-11-28 13:56:55 UTC到5b08921816c99f3bd69e963256cd0bbe61ff459f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47600665B/treeeee9e2a475b4a7e9dba35826119ca3a6f6af112a，无>5MB。
+
+## 2026-11-28 13:57:04 UTC：R1073 §20：固定Fermat混积微分及真端点差非挠
+
+根手核Hesse j、λ′³=−4及f3²=432x、KS的degree130 cup方向、δ¹²Δ比全尖点除子、唯一β∈μ8和Fermat到E16微分。Artin(n)迫中央挠阶|6并以5/13环类惯性矛盾；首端点差以Artin(n)^3排p挠、同约化排余挠。未将逐点非挠传到指定χ的裸全迹。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:57:12 UTC到67e48c9f3f9027455395ea0c962a381ebf9a91a4，私库2026-11-28 13:57:09 UTC到35db57a3f254db1ef23d9541cc1e9194e2119d9e；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:57:29 UTC到9e577e4e27e0b4b9d7a8ce29542d05147c23c54f，私库2026-11-28 13:57:20 UTC到b1fd75eeeed2e8b8d4c577ebc925a8aa48d297f8；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:57:44 UTC到cda8f5a272a3b801b341ff2234f5d0443f7ad390，私库2026-11-28 13:57:40 UTC到68bfb0617b369e357c01d03f7281ad2a68d10989；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 13:57:59 UTC到16cb07de9a2008f4945f863396ac4d5a2c4312a8，私库2026-11-28 13:57:54 UTC到564f3030a821f0dc922eb6cc3b04110ce681b359；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7，无>5MB。
+
+推送前实际本地双pull（本次发布第5次）：公开2026-11-28 13:58:12 UTC到321a3a3e40aaee68f7ef737bc0c1b978acfc7910，私库2026-11-28 13:58:08 UTC到a3745ef7d3d41a5733ef6b27aabbe0537a15209d；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7，无>5MB。
+
+推送前实际本地双pull（本次发布第6次）：公开2026-11-28 13:58:25 UTC到238f7c447764a8401f02a860b3106f270a733074，私库2026-11-28 13:58:21 UTC到48c21ac99af8a23b5b85a4896457d4f34c95e9ed；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47606291B/tree3eedd48df70f7bd1f75fa1c27c390e0aacf30ad7，无>5MB。
