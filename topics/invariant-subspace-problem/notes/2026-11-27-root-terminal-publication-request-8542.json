@@ -1,18 +1,17 @@
 {
-  "message": "ISP: publish complete original HK norm and exact Delta-open two-source recovery",
-  "parentCommit": "bd06c3e4b2b59af29717c19a1aea3412a6d4da33",
+  "message": "ISP: prove full original Phi NV two-moment norm; first W eleven-row initial targets",
+  "parentCommit": "25a90e586551de5652dbe82f1518352bec104d9f",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-complex-symmetric-and-operator-range-literature-scope-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-hk-NV-Loww91-2000-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-hk-NV-Loww91-2000-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-through-hk-NV-Loww91-2000-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-through-hk-NV-Loww91-2000-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-whole-NV-two-moment-norm-and-quadratic-t-head.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-negative-e-full-I11-original-initial-two-positive-targets-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-negative-e-full-I11-original-initial-two-positive-targets-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-w-full-i11-positive-initial-targets.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-NVnorm-W-I11-2005-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-NVnorm-W-I11-2005-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-full-i11-positive-initial-targets.yml"
+  ]
 }
