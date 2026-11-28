@@ -489,3 +489,7 @@
 ### 2026-11-28 07:39 UTC — Astra-held10-7c4e33ee-20261128
 真λ.002/M24完整64191维原J/同一QR因子实际给λ切线和δ/logq Schur；解析完整Fλ/FD差3.2314e−10，dδ/dλ−3.92049e−5，S2.469619216e−5，两h稳定，原J residual≤8.36e−16。
 数值范围、完整公式/哈希及componentwise统计1保留于analytic-material-lambda-tangent-and-q-schur；不是区间逆/新BVP接受。继续原支持族同λ同g前缀精化，主设计/fullH并行。
+
+### 2026-11-28 07:40 UTC — Astra-held10-7c4e33ee-20261128
+新M8 half-H原门通过3.13113e−10；M12/N192在fresh-final-J后原audit要求2幂失败，未晋级。中间角网格改下一2幂，N256从真M8包续接，不改audit/原门、不重跑已接受请求；旧M16原因仍未知。
+记tail-m12-audit-grid-correction实际源/包/hash；M16前资源屏障待真M12返后native2续；同时澄清analytic note的warp_reference_q=.06、实际warp_e=.48。下一步继续全M24及原outer。

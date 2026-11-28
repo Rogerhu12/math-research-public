@@ -1,0 +1,248 @@
+{
+  "status": "original_audit_radix2_precondition_failure_identified_and_new_valid_grid_started",
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "actual_source_modes": 24,
+  "actual_source_homotopy": 0.002,
+  "accepted_m8_responses": [
+    {
+      "modes": 8,
+      "quadrature": 128,
+      "factor": 0.25,
+      "full_height_at_current_modes": false,
+      "original_full_height": false,
+      "requested_jacobian": false,
+      "requested_audit": true,
+      "client_returned": true,
+      "packet": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m08/tail_0001.json.gz",
+        "sha256": "2d78a9389e7b58a7f173ab84b6a337cdd1f0d4804434a698f00f98f744681a61"
+      },
+      "native_manifest": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m08/native-source/native-manifest.json",
+        "sha256": "4e2c84def778f72c817b321482247b77c3f754bc9c6621e7362ac47c91cc0720"
+      },
+      "height": {
+        "count": 8,
+        "nonzero_count": 8,
+        "l1": 4.073179788880813e-05,
+        "linf": 4.042855919723973e-05,
+        "f64le_sha256": "f162243a9de4ff34375c957c6f1b09e1f7deccaf63cce01a0e598666732af9d5"
+      },
+      "converged": true,
+      "failed": false,
+      "residual": 3.157564301931084e-10,
+      "audit": {
+        "fullD": 2.727474021526158e-10,
+        "normalizedFullDefect": 1.5170205084461573e-09,
+        "minLeading": 0.9109817799679348,
+        "minD": 0.9998014643641212,
+        "formalCurvature": 8.046307246291821,
+        "maxPhysicalPV": 8.083648473874042e-05,
+        "actualMetric": 4.1522439998399924e-14,
+        "holonomy": 3.2070784965415947e-19
+      },
+      "last_original_iteration": {
+        "iteration": 5,
+        "norm": 3.157564301931084e-10,
+        "minA": 0.910980267923749,
+        "minD": 0.9998014602902983,
+        "correctionsOnJacobian": 0,
+        "chordMaxCorrections": 3
+      },
+      "checkpoint": {
+        "modes": 8,
+        "spacing": 3,
+        "physical_depth": 8,
+        "shooting_parts": 16,
+        "stage_count": 1152,
+        "state_rows": 1153
+      },
+      "original_finite_response_passed": true
+    },
+    {
+      "modes": 8,
+      "quadrature": 128,
+      "factor": 0.5,
+      "full_height_at_current_modes": false,
+      "original_full_height": false,
+      "requested_jacobian": false,
+      "requested_audit": true,
+      "client_returned": true,
+      "packet": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m08/tail_0002.json.gz",
+        "sha256": "107204057a828d019ab7694c006163b6f658bfe398d6e456dc3c2d5add10aa94"
+      },
+      "native_manifest": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m08/native-source/native-manifest.json",
+        "sha256": "4e2c84def778f72c817b321482247b77c3f754bc9c6621e7362ac47c91cc0720"
+      },
+      "height": {
+        "count": 8,
+        "nonzero_count": 8,
+        "l1": 8.211195394821122e-05,
+        "linf": 8.085711839447946e-05,
+        "f64le_sha256": "54ddc01b4b1ad35b09500f214e41a6889dc63f1347a3bf58358fe9146c9cc55d"
+      },
+      "converged": true,
+      "failed": false,
+      "residual": 3.1311279019737547e-10,
+      "audit": {
+        "fullD": 1.709086844232561e-07,
+        "normalizedFullDefect": 7.295917305201663e-07,
+        "minLeading": 0.8200806391195371,
+        "minD": 0.9995941334991411,
+        "formalCurvature": 8.148045686184961,
+        "maxPhysicalPV": 0.00016154923194312986,
+        "actualMetric": 2.5119240021606882e-11,
+        "holonomy": 2.2663425294972873e-18
+      },
+      "last_original_iteration": {
+        "iteration": 6,
+        "norm": 3.1311279019737547e-10,
+        "minA": 0.8200806380228836,
+        "minD": 0.9995941251718053,
+        "correctionsOnJacobian": 0,
+        "chordMaxCorrections": 3
+      },
+      "checkpoint": {
+        "modes": 8,
+        "spacing": 3,
+        "physical_depth": 8,
+        "shooting_parts": 16,
+        "stage_count": 1152,
+        "state_rows": 1153
+      },
+      "original_finite_response_passed": true
+    }
+  ],
+  "unaccepted_m12_response": {
+    "modes": 12,
+    "quadrature": 192,
+    "factor": 0.5,
+    "full_height_at_current_modes": false,
+    "original_full_height": false,
+    "requested_jacobian": false,
+    "requested_audit": true,
+    "client_returned": false,
+    "packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m12/tail_0001.json.gz",
+      "sha256": "1b74f0adaa9a62dac24e636e333f22a32ccd3feed1b9376a46d1c64af8294f25"
+    },
+    "native_manifest": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m12/native-source/native-manifest.json",
+      "sha256": "859d54f17d687ca0416dceda55c9f210b948638eee4f3a03f44d03bfa239e7bb"
+    },
+    "height": {
+      "count": 12,
+      "nonzero_count": 12,
+      "l1": 8.211195395193303e-05,
+      "linf": 8.085711839447946e-05,
+      "f64le_sha256": "a702f21fe7132a1e96422b652cf95dbad94a14d4cf9237104ba3ee302268c092"
+    },
+    "converged": null,
+    "failed": true,
+    "residual": null,
+    "failure_message": "Error: power-of-two angular grid required",
+    "failed_last_original_iteration": {
+      "iteration": 2,
+      "norm": 9.474893129591036e-10,
+      "minA": 0.8200817826294743,
+      "minD": 0.9995941251715881,
+      "correctionsOnJacobian": 0,
+      "chordMaxCorrections": 3
+    },
+    "checkpoint": {
+      "modes": 12,
+      "spacing": 3,
+      "physical_depth": 8,
+      "shooting_parts": 16,
+      "stage_count": 1152,
+      "state_rows": 1153
+    }
+  },
+  "old_controller_sha256": "3279657333320ed03c66514262dc247f31cbdaa8cbea93ae9b238b470d846a23",
+  "unchanged_original_audit_source_sha256": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+  "failure_guard": "const n=re.length;if((n&(n-1))!==0)throw Error('power-of-two angular grid required');",
+  "interpretation": "Native/Newton trace reached residual tolerance, but original audit did not return. No M12 acceptance; this is a configuration precondition failure, not evidence about the prior historical M16 worker failure.",
+  "new_controller_sha256": "9bc7e9d9c00547efb6a9e7c78823acfdf997a8e72f626f112c31bc5eb56aefda",
+  "new_continuation": {
+    "resolutions": [
+      [
+        8,
+        128
+      ],
+      [
+        12,
+        256
+      ],
+      [
+        16,
+        256
+      ],
+      [
+        24,
+        512
+      ]
+    ],
+    "initial_factors": [
+      0.25,
+      0.5
+    ],
+    "intermediate_factors": [
+      0.5
+    ],
+    "final_factors": [
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      0.9375,
+      1.0
+    ],
+    "intermediate_quadrature_rule": "Smallest power of two at least 16*M; original audit FFT requirement",
+    "original_full_height_factor": 1.0,
+    "previous_full_amplitude_jump_repeated": false
+  },
+  "actual_resume_binding": {
+    "summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/summary.json",
+      "sha256": "8958682e9a66d21ff93a17c9f65f6c3b02e02c7de8c98deee13c4aeac6b17c20"
+    },
+    "accepted_packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m08/tail_0002.json.gz",
+      "sha256": "107204057a828d019ab7694c006163b6f658bfe398d6e456dc3c2d5add10aa94"
+    },
+    "modes": 8,
+    "factor": 0.5,
+    "accepted_response_recomputed": false
+  },
+  "new_run_status_at_recording": "original_low_mode_tail_running",
+  "new_native_workers": 4,
+  "new_request": {
+    "modes": 12,
+    "quadrature": 256,
+    "factor": 0.5,
+    "original_full_height": false,
+    "requested_jacobian": false,
+    "requested_audit": true,
+    "height": {
+      "count": 12,
+      "nonzero_count": 12,
+      "l1": 8.211195395193303e-05,
+      "linf": 8.085711839447946e-05,
+      "f64le_sha256": "a702f21fe7132a1e96422b652cf95dbad94a14d4cf9237104ba3ee302268c092"
+    }
+  },
+  "source_M24_quadrature_unchanged": 512,
+  "failed_N192_request_repeated": false,
+  "accepted_M8_requests_recomputed": false,
+  "M12_accepted": false,
+  "M16_accepted": false,
+  "full_H_returned": false,
+  "closed_surface": false,
+  "old_failed_packet_preserved": true,
+  "large_arrays_in_git": false
+}

@@ -145,7 +145,8 @@ def main():
         if (digest(baseline_path) != port['source']['config_sha256']
                 or any(key in baseline for key in RUNTIME_KEYS)
                 or baseline['modes'] != full_M or baseline['spacing'] != 3
-                or baseline['quadrature'] <= 12*full_M):
+                or baseline['quadrature'] <= 12*full_M
+                or int(baseline['quadrature']) & (int(baseline['quadrature'])-1)):
             raise ValueError('Use the unchanged full-dimension baseline config bound by the actual source port')
         H = np.asarray(record['raw_return']['candidate_H'], dtype=float)
         if H.shape != (full_M,) or not np.all(np.isfinite(H)):
@@ -273,10 +274,16 @@ def main():
             # if the first new request fails. It remains explicitly inherited.
             state['stages'].append(dict(last, inherited_from_summary=ref(old_path)))
             save()
-        resolutions = [(M, (int(baseline['quadrature']) if M == full_M else 16*M))
+        # The ORIGINAL actual-metric audit uses a radix-2 FFT. M12 with N192
+        # reached its Newton residual gate but then failed that unchanged audit
+        # precondition. Use the next power of two at intermediate dimensions;
+        # retain the exact source-bound baseline N at the full dimension.
+        resolutions = [(M, (int(baseline['quadrature']) if M == full_M
+                            else 1 << (16*M-1).bit_length()))
                        for M in DEFAULT_MODES if M <= full_M]
         state['continuation'] = dict(resolutions=resolutions, initial_factors=INITIAL_FACTORS,
             intermediate_factors=[.5], final_factors=final_factors,
+            intermediate_quadrature_rule='Smallest power of two at least 16*M; original audit FFT requirement',
             original_full_height_factor=1., previous_full_amplitude_jump_repeated=False)
         save()
         for M, N in resolutions:

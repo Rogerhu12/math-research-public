@@ -1,7 +1,8 @@
 # 真实 R53 M24：完整 λ 列、同一原 J 切线与 δ/logq Schur
 
 本次在真实接受的原 R53 `lambda002_m24` 场上执行完整有限线性化。
-源为 $\lambda=.002$、M24、879节点、gauge/warp=.06、实际 mean1168，
+源为 $\lambda=.002$、M24、879节点、gauge q=.06、warp_reference_q=.06
+（实际 warp_e=.48）、实际 mean1168，
 实际 $\delta=.06413464112662924$。它已通过全部原线性 Robin 前缀门。
 这不是新非线性尾、固定 g 精化、$\lambda=1$ 或闭面接受。
 
@@ -117,7 +118,8 @@ $$J_{\mathrm{design}}Z_\lambda=-F_\lambda.$$
 ## 同一因子的 δ ↔ logq 完整兼容标量
 
 这次只令实际支撑主系数
-$q_a=q_{\mathrm{source}}e^\eta$。固定 gauge=.06、warp=.06、原 $p$、
+$q_a=q_{\mathrm{source}}e^\eta$。固定 gauge q=.06、warp_reference_q=.06
+（实际 warp_e=.48）、原 $p$、
 所有高阶**实际物理**支撑系数、$\delta$ 及完整 $g$，以相同的两个步长差分
 整个 $F$，得到 $v_q=\partial_\eta F$。
 它不是把原 $p_0$ 偷换成 $\eta$，也不是只换 core key 而沿用旧 lift。
