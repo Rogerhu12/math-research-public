@@ -92,3 +92,5 @@ R33给相位族，真实旋转不变g及两开平帽使H固定、全时几何继
 [原369自然终态](notes/2026-11-28-r582-original369-natural-terminal.md)run46117791268已完：新增2386.166259383秒、3metric+1restore、11完整J/18fine。真实e781在同0d材料16280×3072上η3.3430671025073394e−5、物理与working违反0；p.181未过阶段门。末raw97q同e781但98维epigraph须原准确提升后才接受。当前379、pending4拟383，trust2/metric且非stall，继续原库；所有祖先/新费用保留，旧reach不移交。
 
 [R630首次实际数值输入](notes/2026-11-28-r630-morse-actual-port-and-finite-radius-scope.md)按新source/request发布：50位全线参考β的8/12截断，四个独立右root小ν分支实际半径/正区action。有限分支β只为未闭中心贡献；真尾/完整余项和最终径向转换需另付，不移R628旧β。
+
+[真实e781→原383入口](notes/2026-11-28-r582-e781-original383-continuation.md)已实现并由push触发，新增中点各自取得资格；只存真正后继所需q/网格/费用，不复制可重算完整FINAL。旧98维raw epigraph与已接受97q区分保持；阶段门与原求解不变。
