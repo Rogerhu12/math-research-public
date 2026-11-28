@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-two-heads-434-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-F99-first-u-gcd-frozen-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保；旧848/578撤回。全碰撞Pf八原源独立付，Δ0再给ΦNF=SξPf。[正确4788界](results/R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)独立排C1/C2/C4，旧错R/cofactor冻；只余F99/F300各一次。ad00首次180秒4GiB保整个K99，同u、同Q及完整原八z式；旧P仅runner临时历史，非单位保整块，不倒物理D。F300与Δ非零全开，未预记F99排空。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保；旧848/578撤回。全碰撞Pf八原源独立付，Δ0再给ΦNF=SξPf；正确4788界独立排C1/C2/C4、只余F99/F300各一次。[ad00首试冻结](notes/2026-11-28-unit211-h-equals-k-F99-first-u-gcd-time-boundary-8542.md)180.077303773秒118780KiB/−14，仅已成参数及原P单式三次返，非联合gcd。P/M共同u、同Q/八原z均未返；不增限/换序/包装重跑。整个F99/F300及Δ非零保，继续真正新原输入。
 
 ### W：全原均值、H198两生成图与完整值条件
 
