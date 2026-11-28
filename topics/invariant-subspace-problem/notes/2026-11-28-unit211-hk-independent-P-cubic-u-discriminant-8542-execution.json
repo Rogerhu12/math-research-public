@@ -1,0 +1,187 @@
+{
+  "schema": "isp-hk-independent-P-discriminant-first-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46148191389,
+  "job_id": 140988760078,
+  "driver": {
+    "elapsed_seconds": 0.05306602699999985,
+    "max_child_rss_kib": 40312,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "6545eba205aceeee824a2eefffc627f8174e066f",
+        "before": "7f594b9ccd82a222446622f44bf55ad41330520c",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T13:09:42.960604+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46148191389",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "7f594b9ccd82a222446622f44bf55ad41330520c",
+    "source_exit_code": 0,
+    "source_git_blob": "164e42bad2d09a5738f5f18cdc59f2414ec80d92",
+    "source_sha256": "70b3cea6a303f2105e2cc448498d60387319389b6f04d8587adf6819cdea14f4",
+    "stdout_bytes": 2855,
+    "stdout_sha256": "ada1e71665c9cf7464aa426f73feeaa059984aaee10f1a3fb087ada1b233fad1",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "originalP_SHA256": "8af7c105334af350ef5047ee49cf27a5aadbfa204a11b64f9b7f7b8a352dd49c",
+      "originalPBytes": 2496,
+      "coefficientOrder": [
+        "one",
+        "u",
+        "u^2",
+        "u^3"
+      ],
+      "coefficients": [
+        {
+          "degree": 27,
+          "terms": 28,
+          "bytes": 401,
+          "sha256": "bbb4cf46d9c78ee11972a827cee6315b1bd99c6de94a2b1844af062af17af782"
+        },
+        {
+          "degree": 28,
+          "terms": 29,
+          "bytes": 439,
+          "sha256": "6d5adcb35bc35efe2aaa2c59e7dc44e15003a032a657f10b7453836d19ca2a06"
+        },
+        {
+          "degree": 28,
+          "terms": 29,
+          "bytes": 457,
+          "sha256": "d0bc43cefc0f251d3abc2a94cb2a2ec9ae05e34fa2f2c4f93b8808c52157105b"
+        },
+        {
+          "degree": 28,
+          "terms": 29,
+          "bytes": 437,
+          "sha256": "d5939b9fa10418d497aea173c55af04aeb3eb72a84b8d2400d6e916f8a9aa1eb"
+        }
+      ],
+      "completeCoefficientReassemblyReturned": true,
+      "noOldProjectionOrFactorGateExecuted": true,
+      "stage": "new_independent_P_cubic_u_coefficient_definition",
+      "seconds": 0.0010457489999993186
+    },
+    {
+      "definition": "18abcd-4b^3d+b^2c^2-4ac^3-27a^2d^2",
+      "inputCoefficientOrder": "a*u^3+b*u^2+c*u+d",
+      "discriminant": {
+        "degree": 112,
+        "terms": 112,
+        "bytes": 5377,
+        "sha256": "ab1807e14cee700b778c64a146c202f5c1617f7863f3675c97754bc014e61326"
+      },
+      "discriminantNonzero": true,
+      "spectralF99AndF300NotReconstructed": true,
+      "noJointUOrQGcdExecuted": true,
+      "stage": "new_independent_P_exact_cubic_u_discriminant",
+      "seconds": 0.0016797749999994949
+    },
+    {
+      "constant": "1/12116574790945106558976",
+      "factors": [
+        {
+          "multiplicity": 1,
+          "factor": {
+            "degree": 1,
+            "terms": 1,
+            "bytes": 9,
+            "sha256": "53d7f4a048bd0daee134c84d46a9de1de3d4c71942f740eb4f964d3fccbeecf3"
+          }
+        },
+        {
+          "multiplicity": 1,
+          "factor": {
+            "degree": 31,
+            "terms": 32,
+            "bytes": 382,
+            "sha256": "5085e6531c3565baebd8cb653576daecd56c9d7ba88687b4f81fba53cde1287c"
+          }
+        },
+        {
+          "multiplicity": 2,
+          "factor": {
+            "degree": 1,
+            "terms": 2,
+            "bytes": 10,
+            "sha256": "1e532a5952d159b9db2f494f1ccb8115c6a4076818c2aedead7150da17f15982"
+          }
+        },
+        {
+          "multiplicity": 2,
+          "factor": {
+            "degree": 19,
+            "terms": 20,
+            "bytes": 169,
+            "sha256": "0c9c681adccc960a7e9f6c097b7e8bf3576827d64d45cf9cb64029a8d0b4b235"
+          }
+        },
+        {
+          "multiplicity": 4,
+          "factor": {
+            "degree": 1,
+            "terms": 2,
+            "bytes": 10,
+            "sha256": "1fa1f30d60b5195a920cd9a68370231ccdd314c1cf5245eb80f5bb78541a427e"
+          }
+        },
+        {
+          "multiplicity": 4,
+          "factor": {
+            "degree": 2,
+            "terms": 3,
+            "bytes": 14,
+            "sha256": "76c6537baea2267477ffc856f1865cc27d5c76cab43f750c63a88cbbdccbf3ab"
+          }
+        },
+        {
+          "multiplicity": 14,
+          "factor": {
+            "degree": 2,
+            "terms": 3,
+            "bytes": 14,
+            "sha256": "5e8ee6f750b38f2c3698e1aefc7ced1482ccb207059d152c37393a670eb1dc81"
+          }
+        }
+      ],
+      "fullExactProductReturned": true,
+      "allIrreducibleFactorDegreesBelow99": true,
+      "nonvanishingOnBothExistingIrreducibleSpectralFieldsProvedByDegree": true,
+      "noChosenComplexRootOrFinitePrimeUsed": true,
+      "fullOriginalGeometryNotExecuted": true,
+      "wholeCollisionExcluded": false,
+      "stage": "new_independent_P_discriminant_complete_QQ_factorization",
+      "seconds": 0.0027786260000013385
+    },
+    {
+      "sourceSHA256": "70b3cea6a303f2105e2cc448498d60387319389b6f04d8587adf6819cdea14f4",
+      "peakRSSKiB": 36544,
+      "noCoefficientPayloadOrCacheSaved": true,
+      "ordinaryISPClaim": false,
+      "stage": "new_independent_P_discriminant_input_finished",
+      "seconds": 0.0028631489999995097
+    }
+  ],
+  "mathematical_scope": {
+    "new_discriminant_degree": 112,
+    "largest_QQ_irreducible_factor_degree": 31,
+    "P_separable_over_both_existing_spectral_fields": true,
+    "explicit_u_or_Q_coefficients_computed": false,
+    "old_joint_gcd_or_eight_z_gate_executed": false,
+    "same_Q_unique_reduced_proof": "new paper combines exact discriminant with old original fixed-four resultant and Smith valuation one",
+    "coordinate_Artin_envelope_bound": 2394,
+    "with_independent_U0_bound": 7182,
+    "whole_hk_excluded": false,
+    "ordinary_ISP_claim": false
+  }
+}

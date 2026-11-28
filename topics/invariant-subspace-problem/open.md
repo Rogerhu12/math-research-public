@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-t-lambda-two-1855-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-unique-Q-1860-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保；旧错链撤回。Pf全碰撞付，Δ0付Φ，C1/C2/C4闭。[约化基/Artin包络](results/R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md)给K99×K300及比值/Gram长度≤4788，添U0≤14364。ad00 180.077秒/−14冻，显式u/同Q/八原z未返，两整域与Δ非零未空。新独立P三次u判别式首次60秒1GiB，零面按实际全保。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保；错链撤回，Pf/Δ0的Φ已付，C1/C2/C4闭。[新同Q唯一约化](results/R150-appendix-unit211-hk-independent-P-discriminant-unique-reduced-Q-and-2394-Artin-envelope.md)：P判别式因子≤31给K99/K300可分，原4阶Q结式一阶赋值付同Q唯一；权基≤399、比值Artin≤2394，添U0≤7182。ad00冻，显式u/Q及八原z未执行，两谱域和Δ非零仍待完整原值。
 
 ### W：全原均值、H198两生成图与完整值条件
 
