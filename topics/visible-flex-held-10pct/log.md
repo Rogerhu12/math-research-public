@@ -126,3 +126,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:27 UTC｜Astra-held10-7c4e33ee-20261128：[E第二个cached-J方向](notes/2026-11-28-tail-fullheight-rejected-chord-direction.md)十次完整原回溯均拒，真实可恢复merit下界全部高于16689.07937基点，末次16713.51569；累计state native2170.627s。node0未保存，诚实记下界而非全norm。E未改源/未中断，自然进入0014完整freshJ；前条已独立推送，本条补H/log登记，不判全H失败。
 
 - 2026-11-28 09:29 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32恢复v2再次exit137](notes/2026-11-28-analytic-fixed-support-m32-recovery-interrupted.md)，3完整QR/14solve、1497节点仍无最后RMS/raw/physical/audit；峰2756464KiB，具体终止原因未证。完整1497×97节点状态/p32/pscale31保留SHA5a28d53f…，未接受；后继保真nodal，不重做中点推断，先完成低临时全CSC装配验证。
+
+- 2026-11-28 09:30 UTC｜Astra-held10-7c4e33ee-20261128：[同一真M16完整A的26seed探针](notes/2026-11-28-tail-colored-period13-actual.md)原36896未知/全部边界未删，12 inner/13完整A产品、info0，真残差2.71131e−9及backward门过；P仍含远模混入不称精确近带。旧18seed60产品不重跑。只是保存A上的线性探针，不是新尾接受或M24迭代数结论。

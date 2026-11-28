@@ -1,0 +1,118 @@
+{
+  "scope": "One actual complete M16 shooting matrix probe: 26 colored directions form only an approximate preconditioner; no nonlinear or native JVP acceptance",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_tail_colored_period.py",
+    "sha256": "93ffa8d1453c92651009eb1e80e82f2379f8553011dceb4decaacad4f822e21c"
+  },
+  "actual_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/colored-period13-preconditioner-m16-20261128-a/summary.json",
+    "sha256": "738d1587652cf8979b5d7de04a3b533ffc906ea0dfb1d2cacd4a5f7f36faa0e6"
+  },
+  "previous_18_seed_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/colored-preconditioner-m16-refine-20261128-a/summary.json",
+    "sha256": "34f9d51b668aaa5cde5a4036d18429f279d1af318828290efb94bb0cf33ba868"
+  },
+  "same_actual_native_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+    "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+  },
+  "same_accepted_source_packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/tail_0001.json.gz",
+    "sha256": "07981819451ea4d2f48c69f39f7d5c43d3039899915c7c9d5e62fd8bbcda05c3"
+  },
+  "same_predictor_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+    "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+  },
+  "same_actual_full_A_rhs_and_all_boundary_rows": true,
+  "new_26_seed_result": {
+    "M": 16,
+    "stages": 1152,
+    "unknowns": 36896,
+    "bandwidth": 4,
+    "colors_per_field": 13,
+    "full_seed_directions": 26,
+    "maximum_column_count_per_color": 2,
+    "maximum_alias_error_from_exact_band": 311.68632635721997,
+    "maximum_alias_relative_to_maximum_exact_band_entry": 4.656365434323367e-09,
+    "P_nnz": 608304,
+    "LU_nnz": 1532479,
+    "factor_seconds": 0.10558998700071243,
+    "gmres_seconds": 0.1400679560010758,
+    "gmres_info": 0,
+    "inner_iterations": 12,
+    "initial_longdouble_residual_linf": 2.711305789129243e-09,
+    "true_residual_refinement_rows": [],
+    "overall_true_rhs_relative_gate_passed": true,
+    "all_actual_matrix_products": 13,
+    "rtol": 1e-08,
+    "restart": 40,
+    "max_restart_cycles": 3,
+    "final_original_longdouble_residual_linf": 2.711305789129243e-09,
+    "relative_rhs_residual_linf": 2.711305789129243e-09,
+    "original_normwise_backward_error": 1.414095033519429e-27,
+    "original_backward_error_gate_passed": true,
+    "actual_A_all_entries_retained": true,
+    "all_boundary_rows_retained": true,
+    "resource_peak_self_maxrss_kib": 197164
+  },
+  "prior_18_seed_result": {
+    "M": 16,
+    "stages": 1152,
+    "unknowns": 36896,
+    "bandwidth": 4,
+    "colors_per_field": 9,
+    "full_seed_directions": 18,
+    "maximum_column_count_per_color": 2,
+    "maximum_alias_error_from_exact_band": 100607.14568552769,
+    "maximum_alias_relative_to_maximum_exact_band_entry": 1.5029970710974527e-06,
+    "P_nnz": 608304,
+    "LU_nnz": 1530975,
+    "factor_seconds": 0.17708509499971115,
+    "gmres_seconds": 0.6808577069996318,
+    "gmres_info": 3,
+    "inner_iterations": 43,
+    "initial_longdouble_residual_linf": 2.5911277038460615e-07,
+    "true_residual_refinement_rows": [
+      {
+        "refinement": 1,
+        "rhs_linf": 2.5911277038460615e-07,
+        "gmres_info": 0,
+        "inner_iterations": 13,
+        "full_A_products": 14,
+        "wall_seconds": 0.2253997719999461,
+        "final_true_residual_linf": 1.2972921089349382e-09,
+        "residual_history_first": [
+          0.026571687285214227,
+          0.005871049994015976,
+          0.0023122075978213343
+        ],
+        "residual_history_last": [
+          2.3980376222051264e-07,
+          3.0549557371172405e-08,
+          3.097293024061583e-09
+        ]
+      }
+    ],
+    "overall_true_rhs_relative_gate_passed": true,
+    "all_actual_matrix_products": 60,
+    "rtol": 1e-08,
+    "restart": 40,
+    "max_restart_cycles": 3,
+    "final_original_longdouble_residual_linf": 1.2972921089349382e-09,
+    "relative_rhs_residual_linf": 1.2972921089349382e-09,
+    "original_normwise_backward_error": 6.7660915844464775e-28,
+    "original_backward_error_gate_passed": true,
+    "actual_A_all_entries_retained": true,
+    "all_boundary_rows_retained": true,
+    "resource_peak_self_maxrss_kib": 197120
+  },
+  "near_band_unchanged": 4,
+  "full_A_not_truncated": true,
+  "far_color_alias_in_P_retained_and_measured": true,
+  "P_is_exact_J_band_claimed": false,
+  "new_native_J_evaluations": 0,
+  "M24_or_higher_iteration_count_not_established": true,
+  "production_changed": false,
+  "complete_surface": false
+}
