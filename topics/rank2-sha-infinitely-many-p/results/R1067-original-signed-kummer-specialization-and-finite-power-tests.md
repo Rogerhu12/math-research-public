@@ -966,3 +966,104 @@ $$
  34f_1(1-\omega_K)a_2=(h-h^p)^{p-3}\operatorname{Res}_O V_2\nu.
 $$
 这仍是原完整二阶量；本节不给四项的总和非零。
+
+## 89. 唯一深窗的特征零 ζ 规范与自由 Witt 项的全源相消
+
+**已证明。** 写 $x_{\rm cl}(z)=\wp(z)$ 为原特征零曲线的Laurent级数，
+$\zeta'(z)=-x_{\rm cl}(z),\ \zeta=z^{-1}+\cdots$，取
+$$
+ u=-1/[z^{p-1}]x_{\rm cl}(z)\in\mathbb Z_p^\times,\qquad
+ Z(s)=u\zeta(\ell(s))-\ell(s^p)/p. \tag{BE1}
+$$
+这里 $Z$ 是本节新定义的规范函数，不是此前几何分支的坐标。
+R301(12)与(BA1)给 $u\bmod p=c_p^{-1}$；$\ell$ 仍是原严格LT对数。
+到次数 $<pq$，$Z$ 的Laurent系数全整，且
+$$
+ H(s)=\overline{Z}(s)+\kappa s^p+O(s^{pq}),\qquad\kappa\in\mathbb F_p.
+ \tag{BE2}
+$$
+本模型的 $\kappa\in\mathbb F_p$ 来自真实下降：
+$E_1$ 的原参数及 $[\pi]s=-ps+s^q$ 均定义在 $\mathbb Z_p$，
+二者导数一的严格LT同构由唯一性被未分歧Frobenius固定。
+$G=L_p$ 由其主部及奇性同样下降，且 $u,\zeta,\ell$ 属原有理基。
+
+对奇且素于 $p$ 的 $\alpha\in\mathcal O_K$，令 $f_\alpha=[\alpha]s$；
+$f_{\bar\alpha}$ 是其系数Frobenius。Witt商
+$$
+ Q_\alpha=\frac{f_\alpha(s)^p-f_{\bar\alpha}(s^p)}p
+ \quad\hbox{整，且}\quad
+ \overline Q_\alpha^{\,p}=f_\alpha(s)-\alpha s\pmod p. \tag{BE3}
+$$
+横杠 $\overline Q_\alpha$ 在此表示约化。
+由 $[\pi]f_\alpha=f_\alpha([\pi]s)$ 及 $f_\alpha'\equiv\alpha\bmod p$，
+模 $p^2$ 有
+$f_\alpha(s)^q-pf_\alpha(s)\equiv f_\alpha(s^q)-p\alpha s$。
+又 $f_\alpha(s)^q\equiv f_{\bar\alpha}(s^p)^p\bmod p^2$，
+故取商后得
+$Q_{\bar\alpha}(s^p)\equiv f_\alpha(s)-\alpha s
+\equiv Q_\alpha(s)^p\bmod p$，证(BE3)。
+
+$\ell'$ 整，且两个内参数相差 $pQ_\alpha$，所以
+$$
+ \frac{\ell(f_\alpha(s)^p)-\ell(f_{\bar\alpha}(s^p))}{p}
+       \equiv\overline Q_\alpha\pmod p
+$$
+并且全级数整。严格地，Taylor第 $j\ge2$ 阶的系数至少被
+$p^j/j$ 整除，除 $p$ 后仍为零模 $p$。
+因 $\ell(f_{\bar\alpha}(s^p))=\bar\alpha\ell(s^p)$，由
+特征零 $\zeta(\alpha z)-\bar\alpha\zeta(z)=K_\alpha$ 得
+$Z(f_\alpha)-\bar\alpha Z$ 全整，约化为
+$c_p^{-1}K_\alpha-\overline Q_\alpha$。
+
+$Z$ 首主部 $u/s$ 整，导数
+$-u x_{\rm cl}(\ell(s))\ell'(s)-s^{p-1}\ell'(s^p)$ 全整：
+$x_{\rm cl}(\ell(s))$ 是原严格形式参数中的代数坐标。
+若在 $0\le n<pq$ 有第一个非整系数，则 $p\mid n$；
+前段的换元取遍模 $p$ 的 $\mathbb F_q^\times$，
+比较 $s^n$ 强迫 $n\equiv p\bmod b$。
+这两个条件在此范围唯一可能 $n=p$。
+$\ell(s)=s+O(s^q)$，而(BE1)的 $s^p$ 系数为
+$-u[z^{p-1}]x_{\rm cl}/p-1/p=0$，矛盾。
+
+比较 $\overline Z$ 与 $H$，(BA1)给两导数相同；
+(BE3)与(AZ2)的 $p$ 根给相同CM换元缺陷。
+在此窗对各Teich类取奇 $\alpha\equiv a\bmod p^2$，
+则 $f_\alpha(s)=as+O(s^{q^2})\bmod p$。
+两个条件排除所有次数，仅 $s^p$ 可留，证(BE2)。
+
+在(BD1)内将每一个 $H$ 换为 $\overline Z$，
+同时将Cartier乘子的每个显式 $s$ 换成
+$w=g-\overline Z^p$，特别包括 $\mathcal C(sH\nu_0)$ 之 $s$。
+末端 $R_N$ 仍用实际 $s$。
+这个完整规范表达式仍等于原 $\operatorname{Res}_O V_2\nu$。
+证明如下。由(BE2)，
+$w=s+\kappa s^q+O(s^{p^2q})$；任取更高尾延拓不影响所需范围。
+还原两次Cartier前各项为
+$\operatorname{Res}_O s^{-p^2N}s^{pr+e}\nu$，
+现在分子改为 $w^{pr+e}$。
+四个 $pr+e=2p,p+1,2,1$，令 $Y=s^b$，
+相应多出因子
+$(1+\kappa Y)^{2p},(1+\kappa Y)^{p+1},(1+\kappa Y)^2,1+\kappa Y$。
+记 $B'_j=\operatorname{Res}_O s^{-(jb+1)}\nu$，
+原 $j$ 依次 $2p+1,p+2,3,2$，系数 $-1,2,-1,-2$。
+由于 $\kappa^p=\kappa$，新增部分依次为
+$$
+\begin{aligned}
+ &-2\kappa B'_{p+1}-\kappa^2B'_1,\\
+ &2\kappa B'_{p+1}+2\kappa B'_2+2\kappa^2B'_1,\\
+ &-2\kappa B'_2-\kappa^2B'_1,\qquad -2\kappa B'_1 .
+\end{aligned}
+$$
+合计 $-2\kappa B'_1$；而
+$B'_1=R_q\nu=0$ 由 $\mathcal C^2\nu=\nu$ 及 $\nu(O)=0$ 得到。
+故规范替代准确，未单独丢弃任何自由项或混项。
+
+所需唯一深窗明确由
+$$
+ Z(s)=u\zeta(s)-u\ell_qs^q x_{\rm cl}(s)-s^p/p
+                    +O(s^{2q-3}),\qquad
+ \ell_q=1/(\pi-\pi^q),\quad\pi=-p                         \tag{BE4}
+$$
+给出，因为 $q+2p<2q-3$。
+这里整性针对完整组合，没有孤立假设 $\zeta$ 的各个系数整，
+也没有用规范化替换原canonical量。

@@ -432,3 +432,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §88：原四项的第二次 Cartier 与完整源的真实下降
 
 已证明：κ_P为原对数微分，六个第二Cartier像逐点留数及O极严格确定；完整q-Frobenius须按t→−pt重标，得到原四槽(BD1)，只有一处需q+2p深窗，保所有H混项。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §89：原唯一深窗的整 ζ 规范与自由 Witt 项准确相消
+
+已证明：显式Z=uζ(ℓ)−ℓ(s^p)/p在n<pq全整，与H只差κs^p且κ∈Fp；必须同步替换每个Cartier乘子，四条原槽的κ项才准确相消，唯一深窗由(BE4)给出。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
