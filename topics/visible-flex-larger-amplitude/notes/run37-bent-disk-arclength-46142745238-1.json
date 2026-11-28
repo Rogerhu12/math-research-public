@@ -132,7 +132,7 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T12:03:19Z",
-  "phase": "reproducing-complete-36-input",
+  "phase": "complete-original-inputs-returned",
   "terminal": false,
   "child_started": false,
   "parent_reproduction": {
@@ -157,10 +157,235 @@
       "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/full-36-replay"
     ],
     "started_utc": "2026-11-28T12:03:28Z",
-    "child_returncode": null,
-    "required_original_points_reproduced": false,
-    "stage_reproduction": [],
-    "complete_original_budget_and_domain": true
+    "child_returncode": 0,
+    "required_original_points_reproduced": true,
+    "stage_reproduction": [
+      {
+        "ordinal": 4,
+        "complete_original_file": {
+          "path": "/home/runner/work/_temp/run36-bent-disk-46141466656-1/field/stage-04.npz",
+          "bytes": 2662,
+          "sha256": "902b45b725e439eae5fc843a500cf7e18eaa0443665850e53a604c1879d9d1f9"
+        },
+        "complete_replayed_file": {
+          "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/full-36-replay/stage-04.npz",
+          "bytes": 2662,
+          "sha256": "902b45b725e439eae5fc843a500cf7e18eaa0443665850e53a604c1879d9d1f9"
+        },
+        "original_x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949",
+        "actual_x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949",
+        "actual_shape": [
+          266
+        ],
+        "actual_dtype": "float64",
+        "original_nfev": 90,
+        "replayed_nfev": 90,
+        "actual_complete_file_and_coefficient_words_match": true
+      },
+      {
+        "ordinal": 5,
+        "complete_original_file": {
+          "path": "/home/runner/work/_temp/run36-bent-disk-46141466656-1/field/stage-05.npz",
+          "bytes": 3462,
+          "sha256": "f719582f0c12a4f1eca9d7689cd6ddb873520d5ce69ec147883bda46fe055d8e"
+        },
+        "complete_replayed_file": {
+          "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/full-36-replay/stage-05.npz",
+          "bytes": 3462,
+          "sha256": "f719582f0c12a4f1eca9d7689cd6ddb873520d5ce69ec147883bda46fe055d8e"
+        },
+        "original_x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17",
+        "actual_x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17",
+        "actual_shape": [
+          366
+        ],
+        "actual_dtype": "float64",
+        "original_nfev": 53,
+        "replayed_nfev": 53,
+        "actual_complete_file_and_coefficient_words_match": true
+      }
+    ],
+    "complete_original_budget_and_domain": true,
+    "returned_utc": "2026-11-28T12:05:56Z",
+    "replay_log": {
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/complete-parent-replay-stdout-stderr.log",
+      "bytes": 7325,
+      "sha256": "9a43155bf0e14bf6abb346702d9c9b9f6f8281b7e03c7ccf75c925c741afc986"
+    },
+    "whole_replay_summary": {
+      "path": "/home/runner/work/_temp/run37-bent-disk-arclength-46142745238-1/full-36-replay/summary.json",
+      "bytes": 19067,
+      "sha256": "cd3215e18eec3a8a844238383ebb034483e60e0774169857aa905327fb26cb5f"
+    },
+    "replay_observation": {
+      "status": "completed_finite_design_and_two_fixed_target_resolutions",
+      "elapsed_seconds": 138.787080701,
+      "selected_design": "tilt44-geometric",
+      "selected_coarse_stage": 2,
+      "last_stage": 7,
+      "stages": [
+        {
+          "stage": 0,
+          "design": {
+            "angle": 0,
+            "equator_radius": 0.93,
+            "fillet_shift": 0.085,
+            "height": 0.17,
+            "id": "horizontal-geometric",
+            "length": 1.16,
+            "radial_power": 78,
+            "seed": "geometric"
+          },
+          "nfev": 65,
+          "njev": 52,
+          "x_shape": [
+            86
+          ],
+          "x_sha256": "8fe0aae14db700ff61f91fdbd1348de4962b91feecd62a6bf6cef0e480a165ef",
+          "fixed_angular_target_sha256": null
+        },
+        {
+          "stage": 1,
+          "design": {
+            "angle": 0.32,
+            "equator_radius": 0.97,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt32-geometric",
+            "length": 1.08,
+            "radial_power": 70,
+            "seed": "geometric"
+          },
+          "nfev": 39,
+          "njev": 31,
+          "x_shape": [
+            86
+          ],
+          "x_sha256": "f20971ef9324f014348eb14167b37f8c9c6b4fa184446e34346bef60410a4ce4",
+          "fixed_angular_target_sha256": null
+        },
+        {
+          "stage": 2,
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "nfev": 37,
+          "njev": 30,
+          "x_shape": [
+            86
+          ],
+          "x_sha256": "746df2e45fbe73f53ee5eaeac98998da0021c949a23e61ff35bcbc739fe1819a",
+          "fixed_angular_target_sha256": null
+        },
+        {
+          "stage": 3,
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.9,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-Hermite",
+            "length": 1.12,
+            "radial_power": 70,
+            "seed": "hermite"
+          },
+          "nfev": 42,
+          "njev": 41,
+          "x_shape": [
+            86
+          ],
+          "x_sha256": "ef060953175e8a5f8b187e2c71a3bf9664ce3d98eb4024eb8dcc372a8cc500d6",
+          "fixed_angular_target_sha256": null
+        },
+        {
+          "stage": 4,
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "nfev": 90,
+          "njev": 79,
+          "x_shape": [
+            266
+          ],
+          "x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949",
+          "fixed_angular_target_sha256": null
+        },
+        {
+          "stage": 5,
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "nfev": 53,
+          "njev": 50,
+          "x_shape": [
+            366
+          ],
+          "x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17",
+          "fixed_angular_target_sha256": null
+        },
+        {
+          "stage": 6,
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "nfev": 87,
+          "njev": 79,
+          "x_shape": [
+            416
+          ],
+          "x_sha256": "49ceed91cea6a6234cb527cea67bc84cfc7d5cc39128639c81b5187579f53536",
+          "fixed_angular_target_sha256": "36f695b3ca7574625285b092be3fb18dd01634c279fcbade086c3283234728ef"
+        },
+        {
+          "stage": 7,
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "nfev": 110,
+          "njev": 101,
+          "x_shape": [
+            1012
+          ],
+          "x_sha256": "f0fc7ab6fdbfeeaf18090b9a27bad1c1fee88bf5fbdb586492ce73a8337eda2c",
+          "fixed_angular_target_sha256": "36f695b3ca7574625285b092be3fb18dd01634c279fcbade086c3283234728ef"
+        }
+      ]
+    }
   },
   "child_pid": null,
   "child_returncode": null,
