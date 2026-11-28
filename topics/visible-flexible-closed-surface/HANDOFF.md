@@ -55,7 +55,7 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-live-fixed-prefix --> [H65原g新5292后缀own1](notes/2026-11-28-2ecf-physical-ramp-h65-composed-suffix-first-actual.md)：G11 metric .254296、κ21.156、held .705973。原17-node 5292own12及局部h6615own1分别留档；新h+后缀36α设计继续。
 
-<!-- 2ecf-target-curvature --> [R259](results/R259-accurate-whole-prefix-two-sided-reach.md)：准确R233/R232全prefix含边界reach>.1013、全部有序双侧法球已证；R257嵌入与R256局部界保留。新后缀/改动场另付。
+<!-- 2ecf-target-curvature --> [R259](results/R259-accurate-whole-prefix-two-sided-reach.md)全前缀reach>.1013；[R263](results/R263-prolonged-accurate-affine-coast-and-prefix-reach.md)延长coast .07/.08仍≥.1013385/.099；[R264](results/R264-fixed-cut-excludes-preserved-coast-at-point081.md)原cut/S排硬保coast至.081。新后缀另付。
 
 准确R233/R232与literal G10源须分别绑定。R261已支付同g H65真实前缀误差及reach；strong正做H65+6615后缀XYZ+36α的新设计，exact支付准确连接器，m12转独立新输入。改变source/基底须新baseline，不借旧几何给变化后前缀。强全闭度量/非局部点对/收敛仍未完成。
 
@@ -70,4 +70,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:34:16 UTC；已读公开 main `2af851171a40ba8923e874c4dc0004927b68585c`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:34:28 UTC；已读公开 main `c25f724ad9c36db717b2e6c6528b59682d6a08a9`，根/课题 README 逐差无变化。

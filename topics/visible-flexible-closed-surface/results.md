@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R264：固定原 cut 排除保持准确 coast 至 .081](results/R264-fixed-cut-excludes-preserved-coast-at-point081.md)（2026-11-28）：精确单位速经线、曲率 ≤1/.097 的必要余长缺口 >.00012322；不排新 S 或新端口。
+
 - [R263：准确仿射 coast 延长及完整前缀 reach](results/R263-prolonged-accurate-affine-coast-and-prefix-reach.md)（2026-11-28）：整段 0.. .24 正则，延长 .07/.08 的整前缀 reach ≥.1013385/.099；与原非仿射后缀目标分开。
 
 - [R261：强前缀同 g 两次真实物理加密与整带 reach](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)（2026-11-28）：H17→H33→H65 两次 U_新<L_旧；H65 完整全域低于2e−9，两新环带均reach>.1013，准确Γ95两端迹、微小二进切点过渡均付。后缀/整闭另算。
