@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 12:14:39 UTC实际pull --rebase，读取main a271f8a165261cd2499705bd830d75395343aa05；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 12:14:35 UTC实际pull --rebase至7ae947e44e53b6fa1f699bbbaffa7ae24174af74；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 12:17:43 UTC实际pull --rebase，读取main ea7ae440f80357bb771158b8481c095fa1d7553a；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:17:38 UTC实际pull --rebase至88286fee8f0086f48c3aabe8a337a6a6bfeac000；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3248/46866146B/tree471acf6578b44214e98a970ede7a30f1a0f933b6；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3249/46875312B/tree30e23e5940fe5c58fb2b4e691cfb78440d0fae3b；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -45,7 +45,7 @@ J(η^(du)−1)=17^-1(17/a^d)^u Jp/J0p，保全部权germ与原参考。旧普通
 
 ## 固定曲线对：R1073
 
-[R1073](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)固定E65/E8125原角色按(Na/5)成对，同一E1参考给A_b=L_bν/L_1ν；P±保全部390导子/5/双13。全奇层Lagrange余式D_i,±整且≡P±,2 modp^i，某i/e有vpD<i恰至少一条固定曲线原中央非零；联合无穷检出仍待证。
+[R1073](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)固定E65/E8125原角色按(Na/5)成对，同一E1参考给A_b=L_bν/L_1ν；P±保全部390导子/5/双13。全奇层Lagrange余式D_i,±整且≡P±,2 modp^i，某i/e有vpD<i恰至少一条固定曲线原中央非零；联合无穷检出仍待证。§3真CM实下降给θ_bA_b,2∈Zp，(5/p)=−1时P±,2估值皆为两原曲线的最小值，加号单支足够；Yang实非负不代p进非零。
 
 ## 更正、其它门与主前沿
 

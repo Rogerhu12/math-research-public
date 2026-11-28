@@ -340,3 +340,7 @@ R736真实模p²像线与(28)的符号给原二次矩的整格点多项式，四
 ### R1073 §§1–2：固定E65/E8125原类配对及有限中央证书
 
 固定E65与E8125=5³E65的原Hecke角色差是(Na/5)，实际390导子及5/双13 uniformizer值全部保留。同一原E1单位类精确给A_b(tν)=L_bν/L_1ν，两个真实范数支P±=(A65±A8125)/2。完整奇层Lagrange整余式D_i,±≡[T²]P± modp^i，因此两固定曲线至少一条原中央非零恰某有限证书vp(D)<i；若无穷p检出，固定二元族可用鸽巢。未证明该无穷检出。 [完整证明](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1073 §3：原CM实下降与单一范数支无抵消
+
+原Kronecker完整余类和、CM Galois标量和参考5/双13原Euler给w_b=θ_bL_bν/L_1ν的准确实旋分下降；θ_bA_b的系数共轭等于原倒数T作用。质量/一次项已为零，故u_b=θ_bA_b,2在Z_p。于(5/p)=−1的惰性素数，两个原范数支的中央估值均恰等于min(vA65,2,vA8125,2)，排除配对抵消；单一加号有限证书足以检测该固定二元族。Yang实非负仍不代中央p进非零。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。

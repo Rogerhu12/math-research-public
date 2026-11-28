@@ -25,3 +25,11 @@ root逐式核原模p^s像线/整整数标签、完整坏位Schwartz系数、十�
 root亲读R959原(62)、R981§6.2及BKO出版Prop3.1/Def3.13，按χ=ν^-1核完整Galois和、共轭理想、coLie θ^-1和Betti周期方向；参考5与双13 Euler保全。逐式核真正norm二次角色、两个原整类和完整Weierstrass余式精度，有限检出不冒充无穷p结论。上一全层oldform结论已实推80523f7c6f18bf372aa959035ea209d73c44a7b2（12:13:43 UTC），四README未变。无本地数学执行。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:14:39 UTC到a271f8a165261cd2499705bd830d75395343aa05，私库2026-11-28 12:14:35 UTC到7ae947e44e53b6fa1f699bbbaffa7ae24174af74；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3248/46866146B/tree471acf6578b44214e98a970ede7a30f1a0f933b6，无>5MB。
+
+## 2026-11-28 12:17:14 UTC — R1073 原CM Galois下降与二次配对无抵消
+
+root核完整Kronecker余类和的共轭/周期方向、Mζ−ζ(Mz)在真挠点的Laurent常数、严格原参数无二次常数漂移、CM Frobenius与有限像Chebotarev、原参考Euler恢复乘法方向。亲读Yang Th0.1的实际限制条件后只用复非负；局部非分歧/全分歧交与原T倒数作用给中央Zp下降，5非平方则首项不相消。R1073首两节已实推f3852aa6f853a735beee78e6160409c2f1849bdb（12:14:45 UTC），四README未变。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:17:29 UTC到1e43da19c2da4c5d3e129de8b491eb125e6a7d2e，私库2026-11-28 12:17:20 UTC到120dc2ff5ac371efc0146be5dda976ca982d1c60；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3249/46875312B/tree30e23e5940fe5c58fb2b4e691cfb78440d0fae3b，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:17:43 UTC到ea7ae440f80357bb771158b8481c095fa1d7553a，私库2026-11-28 12:17:38 UTC到88286fee8f0086f48c3aabe8a337a6a6bfeac000；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3249/46875312B/tree30e23e5940fe5c58fb2b4e691cfb78440d0fae3b，无>5MB。
