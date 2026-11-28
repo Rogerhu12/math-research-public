@@ -235,3 +235,14 @@ geometry成J1–10，arith独核；root全读R614及原psi4单参数Newton，逐
 
 推前actual readonly run46075603971/job140852266652：公开2026-11-28 03:39:41 UTC至e37f1aa01136e8aaa89f630be1828d360ea0e5f0；私库2026-11-28 03:39:48 UTC至5d31a7323309f2034338718783a1d6baf441b418。四README与03:33已读版相同，QUEUE/认领未变；日志14887B/hashc4eaa89df835773217209a2a299ab891ea9f6b5f4f33dc9d83fb60e6b42d323d，库存3177blobs/44925740B/tree965c57f8824a19a9be0e9b072a5fdbfb3123f6dc，无>5MB、三旧必要gzip不变。
 R1063 H1–27已推9a93627d89785d084b1be2d61335dcd02d8e0fed；其上一log标题误写03:40，本次按实际工具时刻更正03:38。I稿正在将“逐图”索引准确改为完整非p/Artin输出整列，不先登记旧措辞。
+
+
+## 2026-11-28 03:59 UTC：原全 Hall 输出、十八商微分及完整外权返回
+
+R1063§9以准确b=68r及原tame0 projector得到p^-2 Haar对偶两线；全局wild角色方向、完整非p/十七/full2/full9/Artin输出及两3词均保。全部十八商的实际格/微分给共同γ_A与17^(-3−n)，direct-push及actual Tate frame逐项对照；principal代表的Norm/avatar与对偶权连同导数相消，完整列可作原未平方seesaw。原raw幅度代数化后c0、ell±在p>211为单位，实际负二值准确为p^-6Ω_A^-1乘单位及两个Hall，全斜率含logU*和全部外权。原同变量Rubin门仍要求单Hall v<2/(p−1)；整列非零或五层存在不自动满足此界。
+
+central成I1–22与固定坏素数短证，arith独核direct-push/actual-frame和代表对偶方向；root逐读全I及新增I12d，核实际十八格、17幂不重计、ell乘积、原Norm/avatar导数相消，并直接读R290§7原紧体积比6。Gaussian/raw代数性严格经I15后使用，完整seesaw只作用全输出整列，不拆给单图。全纸证，无新数学执行。
+
+推前actual readonly run46075603971/job140854726300：公开2026-11-28 03:49:58 UTC至a0a6398fc3c2b422b41f09d89333ba146fded941；私库2026-11-28 03:50:03 UTC至5897f3d0bcd5376df98e9493b3db877600f47e6e。四README与03:39已读版完全相同，QUEUE/认领未变；日志14893B/hash0483cdef4d0b45d48a422b51456b2c078c877fa0e2cdd55315fcca6bf66056a2，库存3177blobs/44934908B/treea8e4c723b52403cde530b56bdcbbe7baa4dbdf23，无>5MB、三旧必要gzip不变。本地03:44:37再试实际pull --rebase仍无环境，未用API读取冒实际pull。
+
+R1063 J已推ec0060c5352bf7ec3ac6419edd4506df9b9eac3b。旧H逐字归档notes/2026-11-28-handoff-before-full-hall-source-return.md，9836B/hash3150a4f52c0fe51afde4774b911b02b6fc4bdb6b27eb2bbb54ab1494a10b55e0。v13 03:46:36实际仍in_progress，日志4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、末222/306不变；未返数学终门，不由GET相同断停滞。后继直接继续原单Hall严格估值及actual LT period/measure与全斜率。

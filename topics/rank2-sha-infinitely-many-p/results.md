@@ -364,3 +364,10 @@ R1063在原E0与严格LT坐标中证明Z_Q=Xi(w_Q)及6p/(p²−1)误差；实际
 R1063§8把同一个五层Hall卷积精确返回原K_-·J_S/(pu)的有限除p jet。R614整窗及完整高尾支付至四阶导数除p，全部Ec高完成给明确整单位U5，charge比γ_-/γ_+=3与qδ对数均保；原canonical坏只迫Acan(0)=0，不给其它四项零。若五层有首非零，其实际W根估值准确可读，但尚未证明首非零存在，也不提高单Hall严格门。
 
 [完整证明](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)，J1–J10。
+
+
+### R1063 §9：完整 Hall 来源、十八商周期和全部权导数
+
+R1063§9以准确b=68r及原tame0 projector得到p^-2 Haar对偶两线；全局wild角色方向、完整非p/十七/full2/full9/Artin输出及两3词均保。全部十八商的实际格/微分给共同γ_A与17^(-3−n)，direct-push及actual Tate frame逐项对照；principal代表的Norm/avatar与对偶权连同导数相消，完整列可作原未平方seesaw。原raw幅度代数化后c0、ell±在p>211为单位，实际负二值准确为p^-6Ω_A^-1乘单位及两个Hall，全斜率含logU*和全部外权。原同变量Rubin门仍要求单Hall v<2/(p−1)；整列非零或五层存在不自动满足此界。
+
+[完整证明](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)，I1–I22。

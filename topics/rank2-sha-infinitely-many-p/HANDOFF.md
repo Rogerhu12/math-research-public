@@ -6,23 +6,23 @@
 
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线、条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库；非快进立即pull --rebase、读README差异再推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h。规则15禁存可重算日志/数据/矩阵，仅脚本/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB、无>5MB/拆块。规则8独立结论入results/R编号；规则12不设冻结或额外复核门。
-[本次整理前完整H](notes/2026-11-28-handoff-before-full-tame-zero-hall.md)逐字保参数/失败/全部归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧更正继续有效，不重做已登记结论。
+[本次整理前完整H](notes/2026-11-28-handoff-before-full-hall-source-return.md)逐字保参数/失败/全部归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧更正继续有效，不重做已登记结论。
 
 ## 实际pull、已读规则和认领
 
-readonly run46075603971/job140852266652，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 03:39:41 UTC实际partial clone/pull至e37f1aa01136e8aaa89f630be1828d360ea0e5f0。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 03:39:48 UTC实际至5d31a7323309f2034338718783a1d6baf441b418。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与03:33已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
-- 日志14887B/SHA256 c4eaa89df835773217209a2a299ab891ea9f6b5f4f33dc9d83fb60e6b42d323d；完整库存3177blobs/44925740B，tree965c57f8824a19a9be0e9b072a5fdbfb3123f6dc，无>5MB，三旧必要gzip不变。
-- 每推前新实际pull；最迟2026-11-28 04:39UTC再拉两库。非FF本地pull无环境时用CI实际pull、核新差异后继续，不force，API比较不冒pull。
-- 本地07:20失联；02:46 ref竞争后pull --rebase仍无环境，末本地07:12至1cf10ac。API/CI/本地分记。
+readonly run46075603971/job140854726300，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 03:49:58 UTC实际partial clone/pull至a0a6398fc3c2b422b41f09d89333ba146fded941。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 03:50:03 UTC实际至5897f3d0bcd5376df98e9493b3db877600f47e6e。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与03:39已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
+- 日志14893B/SHA256 0483cdef4d0b45d48a422b51456b2c078c877fa0e2cdd55315fcca6bf66056a2；完整库存3177blobs/44934908B，treea8e4c723b52403cde530b56bdcbbe7baa4dbdf23，无>5MB，三旧必要gzip不变。
+- 每推前新实际pull；最迟2026-11-28 04:49UTC再拉两库。非FF本地pull无环境时用CI实际pull、核新差异后继续，不force，API比较不冒pull。
+- 本地07:20失联；本次03:44:37实际pull --rebase仍无环境，末本地07:12至1cf10ac。API/CI/本地分记。
 
 ## 唯一原完整厚几何v13
 
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)真实21000s/signal15/exit124；六612及下一306/Frob/maximal已返，四交/Norm/18×9未返。[三项软件PASS](notes/2026-11-27-original-scalar-support-software-and-production.md)不代数学终门。
 [v13](notes/2026-11-27-original-scalar-filtration-v13-production.md)保60旧源码+5新、两char0 pins、29/2453/64/minimal/artinian与全部终门；PREPARED/捕获别名/同商平方/scalar/triangular及R1050非约化d_i/md_i/f_i全保。
-**run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816**，23:09:29UTC创建，最新03:21:48实际in_progress。03:21日志GET仍与00:37/01:03/01:25/02:01/02:30/02:57同为4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，尾00:18:25到positive scalar base-prime1第222/306列；四种binding已核。八条scalar全HNF/厚长/残域/边界、四交、一般Norm、18×9、九对/all-requested未返。不据相同GET断停滞；4CPU/16GB/21000s，不开第二heavy、不存可重算输出。
+**run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816**，23:09:29UTC创建，最新03:46:36实际in_progress。03:46日志GET仍与00:37/01:03/01:25/02:01/02:30/02:57/03:21同为4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，尾00:18:25到positive scalar base-prime1第222/306列；四种binding已核。八条scalar全HNF/厚长/残域/边界、四交、一般Norm、18×9、九对/all-requested未返。不据相同GET断停滞；4CPU/16GB/21000s，不开第二heavy、不存可重算输出。
 
 ## 原p²全来源与完整临界读者
 
@@ -36,13 +36,11 @@ readonly run46075603971/job140852266652，source e5309ee152260aa4aef389c7d5d68ba
 
 ## 原全部 jet、Galois 与正在接续的读者
 
-R1061 C1–19付原division-field Z_Q=−r″/(2p²r′)、全jet和整U首d槽：vZ_Q=−1+p/(p²−1)。全m最高Z项严格支配，cover导数exact a/(p²−1)+mp/(p²−1)，严格Lie盘及边界不Tate/全Q精度均付。
-D1–8付γ102的Norm(g)=3与全graded字符和；指定D−⊗S的cover(p−7,p−5)槽v=−12/(p+1)、形式P2非零，但critical tame−2首层全消。
-E1–20付两层Eisenstein/F2、给定点唯一symmetric lift、physical Gal反向作用和ζp^(51lN(u))真野角色，完整代数H-trace=p^-1old。实际t=a/idèle a^-1、Ω/ρ/C、χ^(ℓ+2)/−logχ与正权tensor抵消全保；whole reader续由下列F支付。
-F1–14现以GalK=[ρ−(a²)⊗1]K与原h/graded代数化付实际marked身份；裸scalar为j⁻¹，归一whole H-trace=(p⁻²−1)旧germ及全log/Maass导数。非平凡Norm-b是实际critical covector；原冻结λ/λ′由有限Fourier全返回，单未平均字含全部b。R1054(41)后t=c文字同步正为raw c⁻³/j c³。完整T_orig与原R716 Hall/Iwasawa接续见R1063，不赋新字canonical零。
+R1061 C/D付同一Z_Q全jet、严格半径和指定(p−7,p−5)槽非零；critical tame−2最低层全消。E/F付actual F2/symmetric lift、原野字符ζp^(51lN(u))和marked whole Galois接合，归一H-trace=(p⁻²−1)旧germ及全部导数；原冻结λ/λ′由有限Fourier全返回，单未平均字含全部b。R1054(41)后t=c文字已正为raw c⁻³/j c³。全部精确式与反例在本次逐字H归档和原R中，不重做。
 [R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)G1–19现付同一NZ_Q去指数的Bell全极帽、二项式Tate单位及F(−2)、两槽先合ρ/Ω/p的单位底数、共同Teich/全部根单位子列及全斜率。指定Norm纤维的endpoint真非零，v保c0/ell和−4+(10−p)/(p²−1)；只在已付G18实际graded字才接whole，未付保原有限转置。原R716还须tame0；同变量Rubin给bad J′=0⇒vHall≥2/(p−1)，有限非零不足。
 R1062 P1–11由完整Tate自然性给σΩ=cΩ、σR(j)=c⁻¹exp(2(j+2)logc)R(j)，非零raw值迫全部raw jets在有限F上线性独立；准确Ω(R′−logU*R)∈F，canonical去period后不自动非零。whole µ另付σm=c³T_((c²−1)C)D_(c²)m，actualσA才供全盘，非任意形式Möbius测度。
-[R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)H1–27付实际tame0/χ_r两侧、全部绝对中心、Z_Q=Xi(w_Q)和误差6p/(p²−1)、负二Hall五层及W_+=hat3W。严格Haar对偶给d/p²，负侧p²准确抵消；首卷积d_-,p−1·s_p+1，非无穷单位证书。J1–10现付五层到原Newton有限除p jet，完整Ec整卷积/charge3/δ整对数均保；bad只杀Acan常数，不杀余四层。central I逐整列full finite/γ返回正在修索引，单图不分解；arith查带period的真实LT下降。
+[R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)H1–27付实际tame0/χ_r两侧、全部绝对中心、Z_Q=Xi(w_Q)和误差6p/(p²−1)、负二Hall五层及W_+=hat3W。严格Haar对偶给d/p²，负侧p²准确抵消；首卷积d_-,p−1·s_p+1，非无穷单位证书。J1–10现付五层到原Newton有限除p jet，完整Ec整卷积/charge3/δ整对数均保；bad只杀Acan常数，不杀余四层。I1–22现付整列non-p/h/Artin返回、实际十八商γ及17^(-3−n)、compact↔ideal的Norm/avatar与导数，原c0/ell单位。B_r(−2)=p^-6Ω_A^-1×单位×H_-H_+；full斜率保logU*与所有λ′，单图仍不分解。I22同一个Rubin整基给严格单Hall门；尚未付无穷p上界。
+R1064正在写原HT/Weil配对与dual-LT period的精确单位比较、actual整OL测度输入及有限F/L所有trace-dual坐标的范数；geometry核同源quadratic测度及完整Maass流。普通LT disc的Galois固定不等ST character variety twisted descent，不能偷换应用新有界测度定理。
 
 [连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)优先：literal通常剔除阶乘数列不能连接非零连续族，旧full54/六线/ψ4连续cross与共同F单位仍条件化。p227/u1辅助65537只char0非零、非227单位；不重算。direct proper/晶体残余/R1049 signed桥各保原范围，不删outward。
 

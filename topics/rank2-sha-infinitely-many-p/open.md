@@ -42,7 +42,7 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 
 [R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)进一步付每个实际平移源的全m二项式Tate族、两槽全部非单位费用相消后的单位底数、共同合法子列及精确负二值/斜率。指定Norm纤维的seed endpoint真非零；此输入只能在已付actual graded返回的字使用，未付部分保原T_orig及R1060有限Newton。真正R716 Hall还需负侧tame0，不能以Norm纤维非零略去它。§7现给实际period半线性作用及raw全部jets独立，但canonical读者须消费准确Ω(R′−logU*R)；若完整临界值为零，此法不排canonical斜率零。whole bare µ的Galois作用另保完整Maass三角T_((c²−1)C)D_(c²)，不能仅以LT线缩放替换它。
 
-[R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)现付真正原tame0 Hall角色和完整中心：Z_Q=Xi、严格LT全坐标、负二连接第五层误差、W_+=hat3W及原Haar d/p²全保。前五层准确是两原B卷积，首项d_-,p−1s_p+1；没有得到任一首系数的无穷单位。§8现付原Newton五层有限除p jet、完整Ec单位及δ整对数；bad只杀Acan常数，余四项未知。下一接完整non-p/h/γ_i与positive seesaw的整列；单图不免费分离，同一单Hall仍需v<2/(p−1)才排canonical坏。
+[R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)现付真正原tame0 Hall角色和完整中心：Z_Q=Xi、严格LT全坐标、负二连接第五层误差、W_+=hat3W及原Haar d/p²全保。前五层准确是两原B卷积，首项d_-,p−1s_p+1；没有得到任一首系数的无穷单位。§8现付原Newton五层有限除p jet、完整Ec单位及δ整对数；bad只杀Acan常数，余四项未知。§9现付完整non-p/h/Artin整列、十八原商的γ_i/17^(-3−n)、Norm/avatar对偶与全部外权导数，以及原c0/ell单位；其负二返回准确为p^-6Ω^-1×单位×两Hall。单图仍不免费分离；同一单Hall仍需v<2/(p−1)才排canonical坏，正Hall的全五层或有限非零并不完成无穷严格界。原period与actual LT测度/有限域返回正继续接同一斜率，普通disc固定不冒ST扭曲下降。
 
 **下一实质门：**给这个完整转置后的h/finite投影、新增ramified covectors及A16全部权导数到原固定canonical斜率的实际未平均关系。有限图的值不代导数；局部单位矩阵可逆不付该关系，也不套AI全局Heegner定理。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。R1059已用同源正权式与真实flat逼近比较负二全germ，§8再给整个有限读数的实际图身份；原avatar/Teich/旧项均保。不能由群阶相同认分支，也不将p^n当解析函数。
 
@@ -112,7 +112,7 @@ R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。
 
 [v13生产](notes/2026-11-27-original-scalar-filtration-v13-production.md)为唯一heavy：
-run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新03:21:48实际查询仍为in_progress；03:21再次GET与00:37、01:03、01:25、02:01、02:30及02:57相同的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
+run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新03:46:36实际查询仍为in_progress；03:46再次GET与00:37、01:03、01:25、02:01、02:30、02:57及03:21相同的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
 
 旧q5/q11全影子倒6零、q11完整NS/Br/MW和Manin回执已付，不重复输入。即便有限完整影子成功，仍须解决主无穷p非零。
 

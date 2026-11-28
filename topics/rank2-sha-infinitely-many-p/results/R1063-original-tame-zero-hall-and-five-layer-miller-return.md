@@ -2,7 +2,7 @@
 
 日期：2026-11-28。会话：Astra-rank2-Sha-0b097461-20261127。
 
-**状态：本篇支付同一实际 Hall 角色、Miller 中心、严格 LT 坐标和负二连接高项的五层返回。正源保持原 canonical $S$，负源保持两个三挠 Weyl 词完整相加的 $D_{102}$。这里的 tame-zero 输出是为对准 R716 原 Hall covector 而明确施加的新操作；不声称它已经包含在 R1061(C18) 的未投影来源内。整个 non-$p$/$h$/Artin 来源到这两条来源的接合另须逐字保留，不能由本篇的单字式替代。**
+**状态：本篇支付同一实际 Hall 角色、Miller 中心、严格 LT 坐标和负二连接高项的五层返回。正源保持原 canonical $S$，负源保持两个三挠 Weyl 词完整相加的 $D_{102}$。这里的 tame-zero 输出是为对准 R716 原 Hall covector 而明确施加的新操作；不声称它已经包含在 R1061(C18) 的未投影来源内。§9现另付整个 non-$p$/$h$/Artin 输出整列、原十八商微分及全外权到两 Hall 来源的准确接合；单图仍不得由单字式替代。**
 
 本篇不证明下面两个首系数中的任何一个在无穷多个 $p$ 上为单位，也不把一个 paired 读数直接命名为原 Iwasawa 值或通常全 Sha 的判据。
 
@@ -653,3 +653,752 @@ $5/(p-1)<1$，所以不能发生同估值的抵消。
 这没有证明那五项必有一项非零。
 它也不提高 R716 的单 Hall 严格阈值；
 首位置 $k\ge1$ 仍可能与原坏中央阶相容。
+
+## 9. 原 Hall 输出、同源两槽及同一 Rubin 幂级数的精确门
+
+2026-11-28。本文沿 R1054、R1059、R1060、R1061(F)、
+R1062 和 R716 的同一来源。I 标签保持本节的独立索引。
+
+**范围。** 本文支付一个确切的新有限输出：从原非零 Norm 纤维
+再作原 tame-zero Hall 投影，保全部非 p 来源、两条三挠词、
+actual CM 微分、Haar、外权及其导数。它不是把原未投影
+reader 改名。最后给同一整 Rubin 系数的必要估值门；
+没有由 Hall 非零直接推出原 canonical 导数非零。
+
+### 9.1. 从原 Norm 纤维到唯一的原 Hall 线
+
+令 d=p+1，p>211 为当前原惰性好素数。
+保持 R716 的 additive character，尤其
+\[
+ \zeta_p=e_p^{-1},\qquad
+ \chi_r(1+p\delta l)=e_p^{34rl},\qquad r\in\mathbf F_p^\times .
+ \tag{I1}
+\]
+\(\chi_r\) 在 Teichmüller 子群和有理单位上平凡。
+记 \(T_2=(\mathcal O_K/p^2)^1\)，\(T_1=\ker(T_2\to T_2\bmod p)\)。
+
+R716 的实际正模型中，
+\[
+ e_v=W_+\bigl((x+y)/3,-51(x-y)\bigr)v_0,\quad v=x+y\omega,
+\]
+且 physical CM \(g\) 对应 R1054 的 \(M(\bar g)\)。
+因此原 physical Hall 特征 \(\chi_r^{-1}\)，在 R1054 的
+\(M\)-标号中，正线是 \(\chi_r\)、负对偶线是
+\(\vartheta_r=\chi_r^{-1}\)；这里不再作一次共轭。
+
+原 physical Galois 字给
+\[
+ \zeta_p^{51lN(u)}
+ =e_p^{-68lr}=\chi_r(1+p\delta l)^{-2},
+ \qquad N(u)=4r/3 .
+\]
+所以 F8 的准确 Norm 参数为 \(b=68r\)，不是 \(34r\)。
+在此 Norm 字后施加
+\[
+ P_{\mathrm{tame},0}^{-}
+   =\frac1d\sum_{\tau\in\mu_d}
+           \rho_-(\tau)\otimes1
+ \tag{I2}
+\]
+才得到 R716 的原 Hall 输出。
+(I2) 是额外明确的有限算子；它没有被默认加入 F8 或原 frozen
+reader。
+
+取 \(a_l\) 为 E15 的实际 Cayley lift，并对每个
+\(\tau\in\mu_d\) 取 Teichmüller lift \(t_\tau\) 满足
+\(t_\tau/\bar t_\tau=\tau\)。
+这些 lift 存在于原非分裂二次域的单位群中。
+不能只取范数一平方根：其平方只覆盖半个 tame torus。
+令 \(t_{\tau,l}=t_\tau a_l\)。
+在已锁定的共同 weight component 上，真实 Hall germ 是
+\[
+ \boxed{
+ {\cal H}_{i,r}(j)=
+ \frac1{pd}\sum_{\tau,l}
+       \zeta_p^{-68rl}\,
+       j_{t_{\tau,l}}(j)\,
+       M_{A_{i,t_{\tau,l}}}(j).
+ }
+ \tag{I3}
+\]
+\(A_{i,t}\) 是原实际 bounded source，不是形式换元所造的测度；
+\(j_t(j)=N(t)^{-j}\bar t^{\,3+2j}\)，
+\(\kappa_t=N(t)\)、\(\Omega_t=\Omega/\bar t\) 仍按 R1054/R1059。
+Teich lift 的 \(j_t'\) 为零，但其根单位值不能删；
+wild 部分 \(j_t'/j_t=-\log(t/\bar t)\) 全留。
+于是(I3)在实际值和斜率上正是(I2)作用于 F8--F11，
+而不只是正整数形式恒等式。
+
+R716 以自对偶 Haar 给
+\[
+ \varphi_{+,r}
+   =d^{-1/2}\sum_{N(v)=r}\chi_r(v)e_v,\qquad
+ \|\varphi_{+,r}\|=1.
+\]
+负向量 \(\varphi_{-,r}\) 定义为原负模型中的准确 Haar 对偶；
+这里同时固定所有 Weyl 中心相位，不能再任选一个本征向量。
+R1054 的完整 coevaluation 是
+\[
+ K=p^{-2}(1\otimes\rho_+(t_0)){\cal C}_{\mathrm{Haar}},
+ \qquad t_0=(1+\delta)/2 .
+\]
+因为 \(\chi_r(t_0)=1\)，且原旧 \(v_0\otimes v_0\) 被非平凡
+wild 投影杀掉，得到
+\[
+ \boxed{
+ (P^-_{\vartheta_r}\otimes1)
+       (K-v_0\otimes v_0)
+       =p^{-2}\varphi_{-,r}\otimes\varphi_{+,r}.
+ }
+ \tag{I4}
+\]
+若各 Hall 和改用 \(d^{-1}\) 平均，(I4)前因子相应为
+\(d/p^2\)。\(p^{-1}\) 是 counting-coevaluation 规范的数，
+不是本式的 Haar 数。
+
+### 9.2. 同一个完整 source，以及全局外权的方向
+
+现在先取目标 \(k=1\)，即原 \(S_{34}\)/\(\psi_{17}\)；
+\(k=3,5\) 同理保各自原十七向量，不能混作一个角色。
+置 \(\eta_k=\psi_k/\psi_4\)、\(\mu=\nu_0\)。
+原实际两个 norm-one characters 的 Hilbert90 拉回是
+\[
+ \widetilde\alpha_{1,k,n}
+   =\eta_k^{-1}\nu_4^{-(2n+1)}\nu_0,\qquad
+ \widetilde\alpha_{2,k,n}
+   =\eta_k\nu_4^{2n+5}\nu_0 .
+ \tag{I5}
+\]
+R716(32)以类数一的紧代表定义了全局 \(\eta_r\)，其 Hilbert90
+拉回记为 \(\nu_r=\widetilde\eta_r\)。
+\(\eta_r\) 在无穷和所有非 p 有限紧子群上平凡；在 p 处为
+\(\chi_r\)。\(\nu_r\) 的 p 分量是 \(\chi_r^2\)，恰有导子
+\(p^2\)、阶 p。非 p 好分裂处可有非平凡未分歧值，不能把整个
+分量误称平凡。
+
+真正 Hall 双槽使用
+\[
+ \alpha_{1,k,n}^{(r)}=\alpha_{1,k,n}\eta_r^{-1},
+ \qquad
+ \alpha_{2,k,n}^{(r)}=\alpha_{2,k,n}\eta_r .
+ \tag{I6}
+\]
+两者乘积不变，所以 binary input 仍是同一 \(\nu_4^2\) 来源。
+正槽的 physical eigenvalue 是 \(\chi_r^{-1}\)，其 theta 积分
+乘 \(\eta_r\)，与 R716(30)--(33)的方向一致。
+负槽使用准确对偶，未把负 Hermitian 线换成另一条正线。
+
+若旧全局 toric character 为 \(\xi_{k,n}\)，则
+\[
+ \boxed{
+ \xi_{k,n}^{(r)}=\xi_{k,n}\nu_r^{-1},\qquad
+ \lambda_{i}^{(r)}(\mathfrak a,n)
+   =\lambda_i(\mathfrak a,n)\nu_r(\mathfrak a)^{-1}.
+ }
+ \tag{I7}
+\]
+沿原 \(a_p=t^{-1}\) 的 marked convention，新增局部权为
+\(\nu_r(t)\)，准确等于
+\(\vartheta_r(t/\bar t)^{-1}\)。
+这核对了(I3)与全局 toric 权的同一方向。
+不能把(I7)的好分裂未分歧值从 Artin/Cor 重标中删除。
+
+在完整 source 端，输入 \(h_p\) 是两输出的 diagonal action，
+与(I2)、(I4)交换；非 p 算子在其他张量因子。
+原 \(h_\infty\) 积分仍是完整的差2槽投影。
+对固定 \((n,n+2)\) 槽，(I5)--(I6)正是其真实无穷角色；
+没有在低 Maass 槽提前换成第 n 槽的输出角色。
+
+由 \(h_K=1\)，范数一 idèle 可乘全局范数一主元，使有限分量
+全为单位，两个选择差 \(\mu_6\)。\(\eta_r\) 在 \(\mu_6\) 及非 p 的有限紧单位群上平凡，
+故这一重排不改无穷/非 p Schwartz，也不产生新的 Satake
+归一。原 full2、full9、十七 projector、两三挠词和 fixed
+Artin/Cor 均原样保留。原未平方 seesaw 的紧双积分可逐项交换；
+(I4)于是变成两个指定 Hall rank-one theta lifts 的乘积。
+这一步只对实际(I7)的输出 covector成立；不能拿它去替原
+frozen \(\Lambda(-2)\)、\(\Lambda'(-2)\) 的所有低槽。
+
+### 9.3. 固定 Hall 来源的真正正整数支
+
+正槽的原代数 Hecke character 为
+\[
+ \eta_k\psi_4^{2n+5}\nu_r=\psi_k^{2n+5}\nu_r
+       \quad(n\equiv4\bmod6).
+\]
+若再令 \(n+2\equiv0\bmod p\)，则
+\[
+ \boxed{
+ \psi_k^{2n+5}\nu_r=(\psi_k\nu_r)^{2n+5}.
+ }
+ \tag{I8}
+\]
+因此此共同合法子列确实使用一个固定 Hall finite vector，
+不是每个 n 重新选择一个向量。
+
+可以取 \(n=-2+Dp^\ell\)，其中 prime-to-p 的 D 同时倍于18、
+原所有有限/Teich 周期，并在必要时扩大 \(\ell\)。
+若 \(\lambda_k=\psi_4^4/\psi_k\)，则此支上负槽的共轭正权因子
+同样可写成
+\[
+ \eta_k\psi_4^{2n+1}\nu_r
+   =(\lambda_k\nu_r^{-1})^{(2n+1)/3}.
+ \tag{I9}
+\]
+这里 \(n\equiv-2\bmod18\) 及
+\((2n+1)/3\equiv-1\bmod p\) 同时保持。
+(I9)只是完整角色与 Hermite 支的身份，不把负二槽称为普通
+Taylor 系数。
+
+原 compact 代表和 prime-to-p ideal 代表中，(I7)的所有随 n
+改变的有限因子都是已经指定的 p-adic 单位幂。
+原 \(j_t,\kappa_t\) 也如此。
+故在 R1059 同一个足够小的 weight component 上它们有真实
+解析延拓。全部 factorial、\(p^{2n}\)、book period 均仍在
+R1054/R1060 的实际 slot normalization 中；本节不加入
+Whittaker Gamma，也不使用已撤回的 usual/flat cross。
+
+### 9.4. 原非 p raw 幅度和实际微分，不另选 period
+
+原 degree102 负来源及正34来源使用同一个十七向量。
+在 \(b=1\) 模型，已付 raw 比为
+\[
+ \frac{s_{-,k}}{s_{+,k}}
+   =\frac{r_k}{2^{1/3}(1+\sqrt3)},\qquad
+ (r_1,r_3,r_5)=(-7,624,1224),
+ \tag{I10}
+\]
+负 coherent 变量是 \(\Omega_0 h_\infty T/\delta\)，正为
+\(\Omega_0 h_\infty T\)，其中
+\[
+ h_\infty=\frac{\sqrt{51\sqrt3}}{204\pi i},\qquad
+ b_H=\frac{2(\omega-1)}{\sqrt{51\sqrt3}} .
+\]
+两三挠 Weyl 词及其 Gaussian 始终包含在负102函数中，
+未把普通三盖 trace 当作这两个有权词。
+
+为与 R716 的同一 \(E_{17}\) 比较，取原实
+\(\vartheta^6=17\)、\(\Omega_{\mathbf R}=\Omega_0/\vartheta\)。
+两个首项规范准确给
+\[
+ S_{17}(z)=\vartheta^{-6}S_1(\vartheta z),\qquad
+ D_{102,17}(z)=\vartheta^{-4}D_{102,1}(\vartheta z).
+\]
+因此在相同 raw Fourier 函数下
+\[
+ s_{+,17}=C,\qquad
+ \boxed{
+ s_{-,17}
+   =-\frac{7\vartheta^{-2}C}{2^{1/3}(1+\sqrt3)} .
+ }
+ \tag{I11}
+\]
+这里 C 正是 R716(17)--(18)、(23)、(31)的原有符号幅度；
+没有重新开平方选相位。
+
+还须区别 binary source period 和 rank-one 输出 period。
+原新图已经固定 \(A=A_4:y^2=x^3+4\)、\(\omega_A=dx/(2y)\)，
+以及全部十八个规范商
+\(\lambda_C:A\to A_C=A/C\)，其微分为
+\(\lambda_C^*\omega_C=\omega_A\)。
+这正是新图文稿§5(20)、§6.1的实际输入，不另找同度同源。
+
+写 \(t_4=2^{1/3}>0\)、\(u=\vartheta/t_4\)，
+\(\lambda_A=\Omega_0/(t_4\delta)\)。
+取这条原曲线的标准格
+\(\lambda_A(\mathbf Z+\omega\mathbf Z)\)。
+全部商格和相应实际 classical matrices 是
+\[
+\begin{array}{c|c|c|c}
+ C&\alpha_C&\tau_C&g_C\\ \hline
+ C_\infty&1/17&17\omega&
+       \left(\begin{smallmatrix}17&0\\0&1\end{smallmatrix}\right)\\
+ C_a\ (a=0,\ldots,16)&1&(\omega+a)/17&
+       \left(\begin{smallmatrix}1&a\\0&17\end{smallmatrix}\right).
+\end{array}
+\]
+具体地 \(\Lambda_C=\lambda_A\alpha_C
+(\mathbf Z+\tau_C\mathbf Z)\)，
+\(2\pi i\gamma_C=\lambda_A\alpha_C\)。
+原双同源后再作真实 homothety
+\[
+ \iota:A_4\longrightarrow E_{17},\qquad
+ (x,y)\longmapsto(u^2x,u^3y),\qquad
+ \iota^*\omega_{17}=u^{-1}\omega_A
+\]
+给 \(\phi_C=\iota\widehat\lambda_C\)，
+其实际解析倍率 \(a_C=17\alpha_C\)，实际微分倍率
+\(c_C=17u^{-1}\)。所以
+\[
+ \boxed{
+ \Gamma_C=\frac{\Omega_{\mathbf R}}{2\pi i\gamma_C}
+          =\delta\frac{c_C}{a_C}
+          =\frac{\delta u^{-1}}{\alpha_C},
+ \quad
+ \Gamma_A=\delta u^{-1}.
+ }
+ \tag{I12}
+\]
+十七条 \(\Gamma_C=\Gamma_A\)，另一路为
+\(17\Gamma_A\)。这些是明确代数数，p>211 时均为单位。
+原 full2/full9 换基和 sign 不改变曲线及微分；其实际 finite
+source phase仍随原 word 保留。若为读取另一个 classical
+component而改格基，则按该实际矩阵同时变 \(\gamma_C\) 和
+slash multiplier，不能只改其中一个。
+
+这一表还支付全部升权的共同 frame，而非只支付首项。
+若 \(g_C=\left(\begin{smallmatrix}a&b\\c&d\end{smallmatrix}\right)\)，
+逐项有
+\[
+ \frac{\gamma_C}{c\omega+d}=\frac{\gamma_A}{17}.
+\]
+令 \(B_C\) 表示该实际 n=0 classical word已经给出的
+完整幅度：
+\((T_C f)(\tau)=B_C(c\tau+d)^{-3}f(g_C\tau)\)。
+\(B_C\) 包含原 normalized slash 的 determinant、有限
+Weil/level相位；这是既定 operator 的 n=0 数据，不重新
+定标一个本征向量。
+Maaß covariance给所有 n 的同一恒等式
+\[
+ \begin{split}
+ \delta_3^n(T_Cf)(\omega)
+ &=B_C\,17^n(c\omega+d)^{-3-2n}
+                         \delta_3^nf(\tau_C)\\
+ &=B_C\,\gamma_A^{3+2n}\,17^{-3-n}
+                    (\mathcal D_3^nf)(A_C,\omega_C).
+ \end{split}
+ \tag{I12a}
+\]
+第二行先在复数域的同一微分比较中成立，再只对代数 CM
+系数作原 p-adic embedding。
+因此完整十八项回到同一个 \(\gamma_A\)。
+没有在单图上套两个 rank-one 函数的分离公式。
+
+p-adic side也可逐项核同一个因子。
+临时使用真实 direct-push Tate frame
+\(\alpha_C^{\rm d}=\lambda_{C,*}\alpha_A\)。
+R1059(A0a)--(A0c)及 Poincaré 配对准确给
+\[
+ \lambda_C^*e_{C,j}^{\rm d}=17e_{A,j},\qquad
+ \kappa_C^{\rm d}=17\kappa_A,\qquad
+ \Omega_C^{\rm d}=\Omega_A/17.
+\]
+于是
+\[
+ R_{C,n}^{\rm d}
+ =p^{2n}\kappa_A^n\Omega_A^{3+2n}
+       17^{-3-n}(\mathcal D_3^nf)(A_C,\omega_C).
+ \tag{I12b}
+\]
+(I12a)与(I12b)正是同一个 source 的 common-frame比较。
+其中 \(17^n\)、\(17^{-3-n}\) 已包含原17 word；
+绝不能再向 I16 的 \(a^n=(17/2)^n\) 另乘一次 \(17^n\)。
+
+若原实际 Tate frame是
+\(\alpha_C^{\rm act}=\alpha_C^{\rm d}h_C\)，
+保这个原已给矩阵 \(h_C\in{\rm GL}_2(\mathbf Z_p)\)及其
+对有限来源的实际作用。令
+\[
+ J_{h_C}(y)=\frac{\det h_C}
+       {(h_C)_{11}+(h_C)_{21}\widehat z(y)},\qquad
+ {\mathfrak j}_{h_C}(n;y)
+       =(\det h_C)^{-n}J_{h_C}(y)^{3+2n}.
+\]
+这是同一个 tensor pullback；实际 source与level也同时运输，
+不是用标量去替换另一个函数。
+完整 point-word于是以
+\({\mathfrak j}_{h_C}R^{\rm act}_{C,n}=R^{\rm d}_{C,n}\)
+返回(I12b)。多段 word依原次序取 cocycle，\(J\)在各段
+实际点评价，不能把不同点的因子随意交换。
+在原惰性 CM 点的余域，\(\widehat z\notin\mathbf F_p\)，
+故这些 unit matrices的实际分母均为单位。
+
+为把上述步骤与原外权连起来，令 \(b_{k,i}^{\rm orig}\)
+表示原完整非 p 有限项：十八核权、full2/full9、
+先 \(Q_\tau/e_A^-\) 后 sign、\(1/2\)、\(1/6\)、
+全部 Artin/Cor、以及原紧商测度的既定系数。
+逐项展开矩阵时保全部列。
+在 direct-push参考 frame，(I12a)--(I12b)使该项的
+正权系数准确为 \(b_{k,i}^{\rm orig}B_i\)，不另添随 n
+变化的标量。
+回 actual frame并加 Hall 时，真正系数为
+\[
+ \boxed{
+ \Lambda^{(r)}_{k;i,t}(j)=
+ b_{k,i}^{\rm orig}B_i\,
+ \nu_r(\mathfrak a_{i,t})^{-1}\,
+ {\mathfrak j}_{h_i}(j;y_i)\,
+ {\mathfrak j}_{t}(j;y_{i,t}),
+ }
+ \tag{I12c}
+\]
+其中 p torus 的原 \(1/[p(p+1)]\) 测度按(I3)只出现一次。
+(I3)的 \(\zeta_p^{-68rl}\) 已是此处 \(\nu_r(\mathfrak a)^{-1}\)
+的 p 分量，不能在(I12c)以外再乘一次。
+\(\mathfrak a_{i,t}\) 是原实际 idèle，不另造代表；
+若采用新的 prime-to-p integral代表，principal scalar及
+微分必须同时乘回。
+这里采用原 compact norm-one代表，必须明确其与 integral-ideal
+写法的全部 Norm/avatar费用。若原 prime-to-p ideal为
+\(\mathfrak a=(\beta)\)，改用 \(\beta^{-1}\mathfrak a\) 的紧
+代表时，p 标记为 \(t=\beta\)。
+令 \(R_{\rm int},R_{\rm cmp}\) 分别为这两个表示中同一完整
+toric tensor的裸标量，\(\ell_{\rm int},\ell_{\rm cmp}\) 为
+其真正对偶 covector。R1054 已锁的 right-action和原全局
+character在 \(K^\times\) 平凡，逐项给
+\[
+ \begin{split}
+ R_{\rm cmp}(j)&=
+     {\mathfrak j}_\beta(j)^{-1}R_{\rm int}(j),
+       &{\mathfrak j}_\beta(j)^{-1}
+          &=N(\beta)^j\bar\beta^{-3-2j},\\
+ \ell_{\rm cmp}(j)&=
+     {\mathfrak j}_\beta(j)\ell_{\rm int}(j),
+       &{\mathfrak j}_\beta(j)
+          &=N(\beta)^{-j}\bar\beta^{3+2j}.
+ \end{split}
+ \tag{I12d}
+\]
+两行是反变的一对，不能把第一行称为对偶权的变换。
+若紧表示中的非 p Fourier/projector系数为 b，则原 ideal
+表示中 \(\ell_{\rm int}={\mathfrak j}_\beta^{-1}b\)；
+返回紧表示时恰乘 \(\mathfrak j_\beta\)。
+这正支付 integral-ideal公式中的 \(N(\mathfrak a)^j\)及
+全部 Hodge/avatar，而不是只保孤立的 AI
+\(\iota(\mathfrak a_p)^{-1}\) 项。
+无穷 weight、CM微分和全局 principal reciprocity同时在
+(I12d)内；不能只改一个 p 分量而不改非 p/无穷相位。
+
+原 source的每个紧 norm-one代表满足 Norm=1。
+在当前固定合法分量，全部非 p有限角色值也固定，所以该
+表示中的 \(b_{k,i}^{\rm orig}B_i\) 确为 n=0常数。
+若坚持使用 integral代表，则必须把(I12d)两行完整保回。
+两导数的
+\(\log N(\beta)-2\log\bar\beta\)及其相反数准确抵消。
+因此(I12c)中没有再悬空一项未列的
+\(N(\mathfrak a)^j\)或 avatar导数。
+这并不授权丢掉另一个非 seesaw读者额外指定的解析外权：
+若添加 \(w_i(j)\)，左边必须乘 \(w_i\)，求导保 \(w_i'\)，
+而 I16 的单乘积式不能未经重新计算就继续使用。
+
+(I12c)是同一原 finite word的展开，不是任取可用的权。
+其导数完整包括
+\[
+ -\log\det h_i+2\log J_{h_i}
+       -\log N(t)+2\log\bar t
+\]
+这些就是当前 compact seesaw covector的全部 weight导数；
+若采用 integral代表，(I12d)还要求把两项相消显示出来，
+不能在已回紧表示后再次重计。
+(I12c)逐项仍保持原完整有限矩阵的次序。
+
+仅在完成这份全非 p/Artin输出以后，才调用原未平方
+seesaw给出的 rank-one finite函数。
+此时 binary source共同 period是 \(\gamma_A\)，即(I12)的
+\(\Gamma_A=\delta u^{-1}\)，而不是某一路商点的 \(\Gamma_C\)。
+原 \(-\delta f_4(\tau/6)\) 的实际 component transport仍带
+\(-6\delta\) 与 \(Z/\sqrt6,W/\sqrt6\)；
+在原§33 frame，结合
+\(h_\infty(-ib_H)=(1-\omega)/(102\pi)\)，得到
+\[
+ \boxed{
+ \ell_-=-\frac{i(\omega-1)\Gamma_A}{51\sqrt6\,\delta},
+ \qquad
+ \ell_+=-\frac{i(\omega-1)\Gamma_A}{51\sqrt6}.
+ }
+ \tag{I13}
+\]
+特别
+\(\ell_-\ell_+=\delta\omega/(2\cdot51^2u^2)\)，
+是明确的 p 单位。未完成实际 arch/component运输的单图
+仍用 R1060 的完整 \(\mathfrak T_i\)，不得提前套(I13)。
+
+共同幅度由同一全 raw 函数固定：它是原 Gaussian/Fourier
+常数 \(C_a\)、原紧 torus测度因子，以及
+\[
+ (-6\delta)\,\frac{s_{-,17}s_{+,17}}{\gamma_A}
+ \tag{I14}
+\]
+的乘积。
+\(C_a\) 就是原双核(33)的 Gaussian integral常数；若以
+其显示的 \(dx\,dy\) 规范写，它为
+\(1/[a\sqrt{\sqrt3-3i}\sqrt{\sqrt3+i}]\)，两根取原收敛
+Gaussian的支，其他已固定 Weil因子仍随原算子。
+各紧 quotient volume用原 Haar；改概率 projector时必须
+在左右两边各按同一个原体积乘回，不能重计。
+这里已经直接代数的是 Gaussian/Fourier常数及原 Haar volumes，
+它们的坏 p 只来自原固定分母/范数；raw 幅度
+\(s_{-,17}s_{+,17}/\gamma_A\) 的代数性另由下面(I15)支付。
+没有引入一个来源外 Gamma。
+完整有限 projector的幅度也已经包含原 Fourier
+\(s_{-,17},s_{+,17}\)，不在(I14)再加一次 \(1/18\) 或
+十七投影的范数。
+
+(I14)的代数化可直接检查。R716给
+\[
+ C_{17}^{(0)}C^2=48940416\,\Omega_{\mathbf R},\qquad
+ C_{17}^{(0)}=
+ \frac{\pi\sqrt{102\sqrt3}}
+      {153\sqrt3(3+\sqrt3)(17-\sqrt{17})},
+\]
+所以
+\[
+ \frac{C^2}{\gamma_A}
+ =\frac{48940416\,(2\pi i)\Gamma_A}{C_{17}^{(0)}}
+ \in\overline{\mathbf Q}.
+ \tag{I15}
+\]
+原 quotient volumes、Gaussian/Haar常数和(I11)、(I15)
+全部保留后，记得到的固定幅度为 \(c_0\)。
+只有这些整槽系数完成代数化后才作
+\(\overline{\mathbf Q}\to\mathbf C_p\)嵌入。
+没有把复 period本身嵌入 \(\mathbf C_p\)。
+
+#### 9.4a. 同一共同幅度的固定坏素数
+
+(I14)的 \(c_0\) 不是逐 \(p\) 重选的幅度。保留原测度后，
+其共同 quotient-volume 因子只来自原紧商的 \(\mu _6\)；
+R290 §7 给紧体积乘积除以商体积准确为6。
+原有限 Fourier、full2/full9/17 和正交 projector 的测度
+分别只引入2、3、17的幂及其平方根。
+新增 \(p\) 处的 Haar 费用已全部显列在(I3)、(I4)、(I16)，
+不再计入 \(c_0\)。
+
+因此可直接核固定系数的整性，而不把 raw theta-null称为单位：
+\[
+ 48940416=2^7\,3^3\,7^2\,17^2,\qquad
+ N_{\mathbf Q(\sqrt3)/\mathbf Q}(3+\sqrt3)=6,\qquad
+ N_{\mathbf Q(\sqrt{17})/\mathbf Q}(17-\sqrt{17})=2^4\,17.
+\]
+(I12)的 \(\Gamma_A=\delta\,2^{1/3}/17^{1/6}\) 及(I11)的
+canonical 比值 \(-7\vartheta^{-2}/[2^{1/3}(1+\sqrt3)]\)
+均是仅在2、3、7、17处可能非单位的代数数；
+这里 \(N(1+\sqrt3)=-2\)。
+(I14) Gaussian根下的
+\(\sqrt3-3i,\sqrt3+i\) 与其复共轭之积分别为12与4，
+而 \(a=17/2\)，故该准确 Gaussian幅度也只涉及同一固定坏集。
+结合(I15)，真正代数化的 \(C^2/\gamma_A\) 和 \(c_0\)
+均是所用固定系数域中、在
+\(\mathbf Z[1/(2\cdot3\cdot7\cdot17)]\) 上的整单位。
+结论不涉及单独的复周期在 \(p\) 进域中的像。
+
+当前 \(p>211\)，所以
+\[
+ v_p(c_0)=v_p(\ell_-)=v_p(\ell_+)=0.
+\]
+(I18)的全部显式非单位费用因而为
+\[
+ {\cal B}_r(-2)
+ =p^{-6}\Omega_A^{-1}
+   \frac{c_0}{(17/2)^2\kappa_A^2\ell_-^2}\,
+   H_{-,r}^{[-2]}H_{+,r}^{[0]},
+ \qquad
+ \frac{c_0}{(17/2)^2\kappa_A^2\ell_-^2}\in
+       \mathcal O_{\mathbf C_p}^{\times}.
+\]
+这里使用原基准 \(\kappa_A=1\)；换原实际 frame仍按(I12b)–(I12c)
+运输。这个单位账本不声明两个 Hall 因子的估值，更不推出(I22)
+所需的严格上界。
+
+### 9.5. 全 Hall 正权有限返回与临界 germ
+
+用 \(B_{-,v},A_{-,v}=102Z_{Q_{-,v}}\) 和
+\(B_{+,w},A_{+,w}=34Z_{Q_{+,w}}\) 表示 R1062 的实际
+translated data，包含原 Miller 中心和三挠词。
+正点可按 R716 写成
+\(Q_{+,w}=\Omega_{\rm CM}w/p\)、\(N(w)=r\)。
+对应负点的 Norm 是 \(r/3\)，所以
+\(102(r/3)=34r\)；不能在负102坐标仍直接用同一个 r。
+
+令 \(\epsilon^-_v,\epsilon^+_w\) 为(I4)这两个确切 Haar 向量
+中未含显示的 \(d^{-1/2}\) 的字系数。正系数是 R716 的 \(\chi_r(w)\)，负系数由准确
+对偶给定，所有 root cocycles保留。
+定义此处 \({\cal B}_r(j)\) 为**完成全原非 p/十七/两sign/
+Artin输出的整列**，即原全部 actual source之和
+\(\sum_{i,t}\Lambda^{(r)}_{1;i,t}(j)M_{A_{i,t}}(j)\)，
+系数准确使用(I12c)及(I3)的一次 Haar。
+它不是十八个单图中的任一个。其正整数返回为
+\[
+ \boxed{
+ {\cal B}_r(n)=
+ \frac{c_0}{p^2}\Omega_A^3\rho_A^n
+ \ell_-^{\,n}\ell_+^{\,n+2}
+ \left\{\frac1{\sqrt d}\sum_v
+ \epsilon^-_v B_{-,v}A_{-,v}^{\,n}{\cal F}_{-,v}(n)\right\}
+ \left\{\frac1{\sqrt d}\sum_w
+ \epsilon^+_w B_{+,w}A_{+,w}^{\,n+2}{\cal F}_{+,w}(n+2)\right\}.
+ }
+ \tag{I16}
+\]
+这里 \(\rho_A=(17/2)p^2\kappa_A\Omega_A^2\)。
+(I16)是(I4)--(I9)的未平方 seesaw 后，再逐字代入 G7；
+不是将某个任意 seed 当成整个 \(\mathfrak T_{\rm orig}\)。
+
+两求和是独立的 Hall 轨道。R1062 G1--G14 的两槽 Leibniz
+与估值证明对每一对非零点原样成立；并不调用其中仅适用于
+反线性图 Norm 纤维的 G17 非零结论。
+所有 finite words为实际 finite sums，全部高阶系数仍保留。
+
+取固定非零参考点 \(v_*,w_*\)，置
+\[
+ U_*=\rho_A\ell_-\ell_+
+                A_{-,v_*}A_{+,w_*}.
+\]
+这才是真正单位；不能分别插值两个非单位 \(A_\pm\)。
+各 \(A_{-,v}/A_{-,v_*}\)、\(A_{+,w}/A_{+,w_*}\) 也为单位。
+共同选 R1062 G12 的 Teich/深主单位分量，定义
+\[
+ \begin{split}
+ N(j)&=\frac1{\sqrt d}\sum_v\epsilon^-_vB_{-,v}
+  \left(\frac{A_{-,v}}{A_{-,v_*}}\right)^{[-2]}(j)
+           {\cal F}_{-,v}(j),\\
+ P(j+2)&=\frac1{\sqrt d}\sum_w\epsilon^+_wB_{+,w}
+  \exp\!\left((j+2)\log\frac{A_{+,w}}{A_{+,w_*}}\right)
+           {\cal F}_{+,w}(j+2).
+ \end{split}
+\]
+所有根单位在共同合法子列上按原整数基点固定。
+由(I3)的实际 bounded 来源、R1059 的全 Maass 一致尾以及
+(I7)的解析外权，原正整数逼近给真正的 germ 恒等式
+\[
+ \boxed{
+ {\cal B}_r(j)=
+ \frac{c_0}{p^2}\Omega_A^3
+   (\ell_+A_{+,w_*})^2
+   U_*^{[-2]}(j)\,N(j)P(j+2).
+ }
+ \tag{I17}
+\]
+没有从一列非连续 usual 值制造 p-adic 函数。
+(I17)左端始终是同一 full Hall covector的实际 Amice/Maass
+极限，而非给右端另起一个名字。
+
+特别记
+\[
+ H_{-,r}^{[-2]}=
+  \frac1{\sqrt d}\sum_v\epsilon^-_v
+        B_{-,v}A_{-,v}^{-2}{\cal F}_{-,v}(-2),\qquad
+ H_{+,r}^{[0]}=
+  \frac1{\sqrt d}\sum_w\epsilon^+_w B_{+,w}.
+\]
+则
+\[
+ \boxed{
+ {\cal B}_r(-2)=
+ \frac{c_0\Omega_A^3}
+      {p^2\rho_A^2\ell_-^2}\,
+ H_{-,r}^{[-2]}H_{+,r}^{[0]} .
+ }
+ \tag{I18}
+\]
+负二保全部 \({\cal F}_{-,v}(-2)\)，正槽准确是原 translated
+theta value。按 R716(23)、(31)的同一 Heisenberg/lattice
+规范，目标正槽为
+\[
+ \boxed{H_{+,r}^{[0]}=\mathscr S_p(r)/\sqrt{p+1}.}
+ \tag{I19}
+\]
+raw 幅度 C 已在 \(c_0\) 中，不能在(I19)再乘一次 C。
+
+斜率由(I17)真正求导。它含 \(N'P+NP'\) 和
+\((\log U_*)NP\)；原 full output weights的导数必须
+同时按(I7)、(I12c)保留。在左端写回原输入时就是
+\[
+ \sum_{i,t}\{\Lambda_{1;i,t}^{(r)\prime}(-2)M_{A_{i,t}}(-2)
+              +\Lambda_{1;i,t}^{(r)}(-2)M_{A_{i,t}}'(-2)\}.
+ \tag{I20}
+\]
+因 \(\nu_r\) 在选定分量是有限固定角色，其导数为零；
+(I12c)的 \(\mathfrak j_{h_i}'\)、\(\mathfrak j_t'\) 全部保留。
+采用非紧代表时，(I12d)的 Norm/Hodge两项也须先完整运输再相消。
+这些费用已由同一恒等式进入(I17)，不能再删一次，也不能在
+右端额外重计一次。任何另添的 \(w_i(j)\) 必须按(I12d)后的
+明确范围重算，不把它无声吞入常数。
+
+### 9.6. tame-zero为何删掉已知最低层
+
+在原 canonical seed 中，负来源首阶4、正来源首阶6。
+正整数槽为 \((n,n+2)\)。
+对 physical tame \(a\in\mu_{p+1}\)，两个各自的最低 residue
+权同为
+\[
+ a^{4-n},\qquad a^{6-(n+2)}=a^{4-n}.
+\]
+在临界合法分量 \(n\equiv-2\bmod(p+1)\)，二者均为 \(a^6\)。
+当前 \(p+1>6\)，所以各自 tame-zero 平均为零。
+原反向 paired graph中这两个权可相消，因此 R1062 G17的
+Norm 纤维值可非零；(I2)以后已不保持这种相关求和。
+这就是 G17不能直接证明(I19)非零或为单位的具体原因。
+R1063的全 Miller--Hall 后继层正是需要读取的实际余项，
+而不是给更多独立 canonical 零行。
+
+### 9.7. 同一个整 Rubin 系数给出的严格门
+
+最后保持 R716 和原 first-wild Rubin 笔记的整基。
+令
+\[
+ A_p(T)\in\mathcal O_{K_p}[[T]],\qquad \mu(A_p)=0,
+ \qquad e=\operatorname{ord}_{u=0}J_p(u).
+\]
+原比较已付
+\[
+ \operatorname{ord}_{T=0}A_p=2e,\qquad
+ v_p([T^{2e}]A_p)=2v_p([u^e]J_p)-2e .
+\]
+对本节同一个 \(\nu_r=\widetilde\eta_r\)，取
+\(t_{\nu_r}=\nu_r(\gamma)-1\)。原 R716 的完整平方及 Rubin
+integral-basis 比较给
+\[
+ \boxed{
+ v_p A_p(t_{\nu_r})
+       =2v_p\mathcal T_{34,T_r},
+ \qquad
+ v_p(t_{\nu_r})=\frac1{p-1}.
+ }
+ \tag{I21}
+\]
+原 Hall trace \(\mathcal T_{34,T_r}\) 与
+\(\mathscr S_p(r)\) 的准确 root phase是单位；
+二者估值相同。这里不是另一个正则化函数或另选的 Iwasawa
+变量。
+
+整系数逐项估值立即给
+\[
+ v_p\mathcal T_{34,T_r}\ge\frac e{p-1}.
+\]
+因此
+\[
+ \boxed{
+ J_p'(0)=0\ \Longrightarrow\
+ v_p\mathcal T_{34,T_r}\ge\frac2{p-1}
+ \quad\hbox{对所有原 }r\ne0 .
+ }
+ \tag{I22}
+\]
+反过来，只要某个原 r 被证明满足严格界
+\(v_p\mathcal T_{34,T_r}<2/(p-1)\)，就排除原 canonical 坏条件。
+若精确为 \(1/(p-1)\)，则 \(A_p\) 的二次系数为单位，
+且原 \(J_p'\) 的估值为1。
+这比“Hall 非零”强；后者本身不足以排除四阶中央零。
+
+若 first-wild Hall 值为零，原精确同变量身份给
+\(\Phi_p(1+T)\mid A_p(T)\)；
+再有 \(J_p'=0\) 时原 \(\lambda_p\ge p+3\)。
+现有 \(\mu=0\) 并不排这个范围。
+故(I16)--(I20)支付的是同一来源的真实 Hall 两槽和全部临界
+费用，(I22)支付的是主门所需的准确数值目标；本文没有声称
+所需严格上界已经由最低 Norm 层得到。
+
+### 原始依赖
+
+- R716，原 wild 全局 theta period 与准确中央 L 值，特别(23)--(36)。
+- 原 first-wild Rubin note：
+  notes/2026-11-15-original-first-wild-rubin-factor-and-central-order.md。
+- 原 psi4 source：
+  notes/2026-11-27-original-psi4-canonical-positive-slot-and-degree102-negative-source.md，
+  §§7、10--11 的完整 raw 幅度。
+- 原 unsquared source：
+  notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md，
+  §§10--11 的正常序及未平方 seesaw；未使用该文已条件化的旧 usual/flat 应用。
+- R1054 §§8--10；R1059 全临界 germ；R1060 全有限转置与实际 graded 比较。
+- R1061 §§21--22(E/F)；R1062 G1--G14；
+  R1063 原 Miller--Hall 精确根与五层归一。
