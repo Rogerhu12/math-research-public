@@ -1,0 +1,334 @@
+{
+  "schema": "isp-Phi-monic-six-eighteen-original-columns-actual-receipt-v1",
+  "date": "2026-11-28 Asia/Taipei",
+  "run_id": 46094285813,
+  "job_id": 140821988747,
+  "execution": {
+    "elapsed_seconds": 10.557245754999997,
+    "max_child_rss_kib": 56048,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "34317fb5bf7fe6938026eb1bcbf28388ce1e0a60",
+        "before": "9103dc4b40366ad04d4a810e5ebf5fe57a76042d",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T01:40:41.257231+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46094285813",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "9103dc4b40366ad04d4a810e5ebf5fe57a76042d",
+    "source_exit_code": 0,
+    "source_git_blob": "304eddb8c431333418faa81ef3c9ec14d2e2fcbc",
+    "source_sha256": "f62613154879f17f529c7f441b34eede870606f89e714cd1b7e6dc4c6357a401",
+    "stdout_bytes": 6258,
+    "stdout_sha256": "8dca045190b00bb34d6b3120fafd63c8d728748c18f6e93d39541c67513afbf5",
+    "stop_reason": null
+  },
+  "definition": {
+    "actualOriginalSeedLabels": [
+      "original_N1",
+      "original_TTz_ambiguity",
+      "original_Tzz_ambiguity",
+      "original_NS",
+      "original_PS",
+      "original_R6",
+      "original_Nlow",
+      "original_Plow",
+      "entire_original_N4V_low"
+    ],
+    "originalDAGOperations": 3662,
+    "seedLambdaDegrees": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        6,
+        5,
+        5
+      ],
+      [
+        5,
+        4,
+        4
+      ],
+      [
+        5,
+        4,
+        4
+      ],
+      [
+        5,
+        4,
+        4
+      ]
+    ],
+    "actualC6": {
+      "degrees": [
+        53,
+        27,
+        6,
+        0,
+        0
+      ],
+      "totalDegree": 58,
+      "terms": 5716,
+      "bytes": 230174,
+      "sha256": "f4ce16cd647975b8a431dabd5006289b475402096c92a2fb1c12897c4afd033c"
+    },
+    "trueC6Leading": {
+      "degrees": [
+        48,
+        26,
+        0,
+        0,
+        0
+      ],
+      "totalDegree": 52,
+      "terms": 742,
+      "bytes": 28647,
+      "sha256": "f047ea501bc24863c7104b6ca60cdf58836819e6c959fec42edea1d2ffd358d6"
+    },
+    "formalBasis": "component i=0,1,2 then lambda power j=0,...,5; index 6*i+j",
+    "coefficientGammaFactorCount": 30,
+    "coefficientGammaFactorIdentitySHA256": "48b1110e7f19a8651968151fc14fdd04dfd54191fb34d2a041ec3d4f26a0a69d",
+    "formalGammaTotalDegree": 970,
+    "formalGammaBidegree": [
+      820,
+      544
+    ],
+    "noSlopeFactorAddedToCoefficientRing": true,
+    "noFormalThreeDimensionalCommutativityAssumed": true,
+    "seedDenominatorExponentAtMost": 2,
+    "lambdaActionDenominatorExponentAtMost": 1,
+    "TorZActionDenominatorExponentAtMost": 3,
+    "stage": "new_bounded_lambda_eighteen_original_definition",
+    "seconds": 9.705367355999996
+  },
+  "actualSelection": {
+    "prime": 1009,
+    "point": [
+      3,
+      2
+    ],
+    "candidateColumnsProcessed": 25,
+    "selectedOriginalColumnDAG": [
+      {
+        "index": 0,
+        "seed": "original_N1",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 0
+      },
+      {
+        "index": 1,
+        "seed": "original_TTz_ambiguity",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 1
+      },
+      {
+        "index": 2,
+        "seed": "original_Tzz_ambiguity",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 2
+      },
+      {
+        "index": 3,
+        "seed": "original_NS",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 3
+      },
+      {
+        "index": 4,
+        "seed": "original_PS",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 6
+      },
+      {
+        "index": 5,
+        "seed": "original_R6",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 4
+      },
+      {
+        "index": 6,
+        "seed": "original_Nlow",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 5
+      },
+      {
+        "index": 7,
+        "seed": "original_Plow",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 7
+      },
+      {
+        "index": 8,
+        "seed": "entire_original_N4V_low",
+        "parent": null,
+        "action": null,
+        "depth": 0,
+        "selectionPivot": 8
+      },
+      {
+        "index": 9,
+        "seed": null,
+        "parent": 0,
+        "action": "lambda",
+        "depth": 1,
+        "selectionPivot": 9
+      },
+      {
+        "index": 10,
+        "seed": null,
+        "parent": 0,
+        "action": "T",
+        "depth": 1,
+        "selectionPivot": 10
+      },
+      {
+        "index": 11,
+        "seed": null,
+        "parent": 0,
+        "action": "z",
+        "depth": 1,
+        "selectionPivot": 12
+      },
+      {
+        "index": 12,
+        "seed": null,
+        "parent": 1,
+        "action": "lambda",
+        "depth": 1,
+        "selectionPivot": 11
+      },
+      {
+        "index": 13,
+        "seed": null,
+        "parent": 1,
+        "action": "T",
+        "depth": 1,
+        "selectionPivot": 13
+      },
+      {
+        "index": 14,
+        "seed": null,
+        "parent": 1,
+        "action": "z",
+        "depth": 1,
+        "selectionPivot": 14
+      },
+      {
+        "index": 15,
+        "seed": null,
+        "parent": 3,
+        "action": "lambda",
+        "depth": 1,
+        "selectionPivot": 15
+      },
+      {
+        "index": 16,
+        "seed": null,
+        "parent": 3,
+        "action": "T",
+        "depth": 1,
+        "selectionPivot": 16
+      },
+      {
+        "index": 17,
+        "seed": null,
+        "parent": 5,
+        "action": "lambda",
+        "depth": 1,
+        "selectionPivot": 17
+      }
+    ]
+  },
+  "actualReturn": {
+    "prime": 1009,
+    "point": [
+      3,
+      2
+    ],
+    "rank": 18,
+    "fullSelectedMatrixTimesActualInverseReturned": true,
+    "fullClearedMatrixTimesActualInverseReturned": true,
+    "maxActionDepth": 1,
+    "commonDenominatorPower": 5,
+    "GammaDefinition": "product of distinct actual input coefficient denominators and lc_lambda(C6)",
+    "GammaFactorIdentitySHA256": "48b1110e7f19a8651968151fc14fdd04dfd54191fb34d2a041ec3d4f26a0a69d",
+    "GammaFactorCount": 30,
+    "GammaTotalDegree": 970,
+    "GammaBidegree": [
+      820,
+      544
+    ],
+    "exactWeightPolynomialDefinition": "F(u,Q)=det(Gamma^(2+3*maxActionDepth)*L_original_DAG)",
+    "originalAdjugateIdentity": "B*adj(B)*e0=F*e0, each B column in original I10",
+    "nonzeroPolynomialProvedByActualGoodSpecialization": true,
+    "coefficientMatrixSpecializationSHA256": "f10b97e63245f4d9c2506bf81127ea17c944237ebe81cfeec3381a3a62745ea8",
+    "entireOriginalHeadH42ZeroBranchRetained": true,
+    "entireNewWeightCurveFZeroRetained": true,
+    "noQQDeterminantExpansionOrLargeEliminationExecuted": true,
+    "noClaimThatModularRankMakesWholeOriginalPhiEmpty": true,
+    "noRecomputableMatrixOrPolynomialPayloadSaved": true,
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false,
+    "peakRSSKiB": 55664,
+    "stage": "new_original_eighteen_column_nonzero_pure_weight_support",
+    "seconds": 10.507813497,
+    "selectedOriginalColumnDAGRef": "actualSelection.selectedOriginalColumnDAG"
+  },
+  "claims": {
+    "nonzero_QQ_pure_weight_F": true,
+    "F_original_I10_source": true,
+    "whole_H42_zero_retained": true,
+    "whole_F_zero_retained": true,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "payload_policy": "Only source identities, original DAG definition, ranks and small receipts; no recomputable matrix or coefficient payload."
+}
