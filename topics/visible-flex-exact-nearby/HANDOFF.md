@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 09:46:48 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 09:47:00 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至6517a4b168bcdf5f44b84bd0b64907f57942a238；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至ede146a4a9899f74b54d9c1aa00bdf3222018431（09:41 pull，只读新增#15）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至b726d15e84398d390598c29022f0f87659b0d617；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至ede146a4a9899f74b54d9c1aa00bdf3222018431（09:41 pull，只读新增#15）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META11新200件无当前引用旧manifest只去字符串外空白，净1180728B；原05b945b8f/receipt94784B SHAec28724d…保所有literal/whole身份，科学0。META1–10完整账/receipt保旧H，禁重做；本批每pull核changed/untracked+全200新hash，承接此前全reference scan。
 
@@ -28,17 +28,11 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 
 ## 真实成功与已付组件
 
-全部原成功、false/unknown、实际whole SHA、原球及欠项保存在[压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/b2992a2d4813a449945fcdc7ee4c61f8e062a934/topics/visible-flex-exact-nearby/HANDOFF.md)与其递归历史；本压缩不改结论，不准旧目标重算。BNC7/BGR3/BFP19/WMT14/WBN1/GBN2完整实际均已准入，各proof/results给全身份。
+全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/b726d15e84398d390598c29022f0f87659b0d617/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
 
-- WBN46125286420全1/17whole：原96exact centres/mean与各整费保，joint<.001118591；GBN46125342339全2/18whole：原96exact centres/mean保，joint<.000163012。二者full actual/execution和原validator均过、0science/恢复；非full Schur。
-- LCW23新有理组合、PWA42新组合均已一次过。PWA较强actual anchors a0<3.649e−6/p0<8.56e−6/a1<.000466/b1<.001417；H96费.00005185H+.000011056G，同NP height(-.025370374,-.025229626)/逆<39.64，弱四源94013/6651/3001/8852。λ/mean/world/raw e/E/P/jumps和未知core条件保，旧积分0。
-- JWS全strict同J已证：joint S,D保相关，L2余项<3.711826、全频P0L<21/25，J0<7/5、∂J<28/5、H1<29/5，DJ>3/8、aJ±A0<5/2。15新有理组合一次过，wholeSJ/JI保；负阶窗须对应全multipliers，不延长strict域。RCS直接消费原proof。
-- FWT同true cut/fullmean：low96先完整Wiener逆角，γ≤.065|δ|+4cL+hH/16；实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足γA0门。19新有理组合一次过；旧385cL门、fullcollar/true residual0/H8193和未知cL/ZS/ZL保，未赋假值。
 - GDG全负域新deformed determinant已证：利用原whole piecewise根半径1/50的1300rows/1079seams与ω沿common drift正增，势支撑严格落此真实域；ΔV/D>1−1e−7、全[0,r*] ΔV>1/720，root B entrysum<21/10、whole B−Hinv<1/70000。18新Fraction一次全过，8whole原件/原success bindings核过；oldscience/恢复0。proof及reader已登记，非全received high响应。
 
-- ADCP：18真实目标和322whole准入已成；finite joint<.000559991、true Θν<.001177993，96signed/双mean/2560/8192/2048+无限tail全保。完整actual/exec/公式见独立ADCP proof，0旧science。
-
-- CRW：真标签组合/共同漂移ω正源、wave四槽与所有signed forcing等式完成；6阶F需8阶标签、共同流保9阶，完整proof/jet/forcing源码已推；全域实际高响应仍欠。
+- GCS：独立真实cut seed首入口已发：原76whole/2606796B、70stage字节全核；2048中心与整角格、phase9/p8/R4支6阶。全gzip读回+SHA，小receipt进joblog，root提取整件；无native方向恢复，未授全负域响应。
 
 ## 后继和完整尾部义务
 

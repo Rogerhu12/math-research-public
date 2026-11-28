@@ -162,3 +162,6 @@ ADCP：run46124617641/1全部18目标成功；322整输入、原validator和原a
 
 
 CRW：同一真实切面标签由原流组合律恢复；ω沿共同漂移正源积分，完整B=D²−b²∂φ²的有符号四槽链式公式保θ、ε、两方向，F的6阶角导只需真实标签至8阶、整方案仍保至9阶。原positive/root/mean/jumps接口保，未授全域数值响应。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GCS：76个whole输入/2606796B完整准入；原70 Taylor整件和16场majorant保。2048中心+2048整角格、phase至9/p至8/四支ratio至6阶，全部有限系数桶DFT及整Taylor余项保，big carrier只private。独立首次workflow不依赖direction数组或SkylakeX，尚未预报数值门。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

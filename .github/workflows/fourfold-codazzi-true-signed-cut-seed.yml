@@ -1,0 +1,67 @@
+name: R149 true signed root labels and amplitude at the strict cut
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fourfold-codazzi-true-signed-cut-seed.yml'
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-exact-signed-root-cut-seed-20261128
+  cancel-in-progress: false
+jobs:
+  complete-physical-cut:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 180
+    steps:
+      - name: Install repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_root_input.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_owner.py
+            /topics/visible-flex-exact-nearby/results/R149-supplement-whole-signed-root-seed-at-the-physical-strict-cut.md
+      - name: Check whole sources and install the original ball runtime
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sha256sum -c - <<'CHECK'
+          9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b  scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+          c23734e005a9bd80941aebeb6b23858aecc0d5d2715ffcc02fcc5ac889a6b129  scripts/fourfold_codazzi_true_characteristic_root_input.py
+          935b84c00ac651c3a9bd099dcd25575de8a4da19bb54c285da97e3560724ceb3  scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+          1ce2c645aef08121289b90442c079f836266ec51dfb289a54540e5b07f339bd3  scripts/fourfold_codazzi_true_characteristic_seed_owner.py
+          9ad6b9d423c3a71e17949a1d0403642d3e171ab29c36373f09f38597c331f497  results/R149-supplement-whole-signed-root-seed-at-the-physical-strict-cut.md
+          CHECK
+          python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Compute true root labels and all four signed ratio jets at c
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_owner.py \
+            --repo "$GITHUB_WORKSPACE" --private "$RUNNER_TEMP/true-cut-seed" \
+            --receipt "$RUNNER_TEMP/true-cut-seed-receipt.json"
+          python - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          path=Path(os.environ["RUNNER_TEMP"])/"true-cut-seed-receipt.json"
+          payload=path.read_bytes()
+          if len(payload)>=100000:
+              raise ValueError("private carrier must never be published")
+          print("GCS_WHOLE_SMALL_RECEIPT_SHA256",hashlib.sha256(payload).hexdigest(),len(payload))
+          print("GCS_WHOLE_SMALL_RECEIPT",payload.decode().strip())
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as summary:
+              d=json.loads(payload)
+              summary.write("True signed cut seed complete. Private carrier SHA-256 `"+d["private_whole_sha256"]+"`.\n")
+          PY
