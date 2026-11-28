@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ11R：真实零目标列表类型失败后的整件接续](notes/2026-11-28-ASQ11-whole-gate-list-successor.md)：原46136643646/1在首metadata列表vs整数门失败、尚无新分组；新首add/attempt1严绑原terminal/job/event和完整198234B日志，唯一AST条件改核11个完整passed对象，全部native/公式/原SHA不变。新actual例外仍待。
+
 - [AHD：全Airy两行相关与完整Darboux非零尾](results/R149-supplement-full-Airy-matrix-correlation-and-integrated-Darboux-source.md)：负轴同s的两Airy行保相关，π行模积≤2/√3；真cutoff积分给两向Uext<1.03及n(Uext−Id)<11。全Darboux H（含t> L非零尾）L1<851000，保S Z(T)−1次序后完整S J∞<2^20/n²，两列/两符号/原非零root剪切均保。
 
 - [ASQ11：原正i模型全整数primitive费用和真实例外首算](results/R149-supplement-positive-i-model-primitive-fees-on-all-original-indices.md)：原完整CYA 927项给97..1023的IG<.573；完整1502候选中正i至多372例外外全域IG≤1.28，无穷尾由同原整数Q模4/5且非零norm距>5给IG<.6。保原96与全部真例外/physical边界；新public首入口只整读旧198079B native后作新分组和有理费用，不重旧候选/Cayley。

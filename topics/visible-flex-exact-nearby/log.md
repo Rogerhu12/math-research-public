@@ -141,3 +141,6 @@
 
 
 2026-11-28 10:53:55 UTC / visible-exact-astra-b0d5a16-20261128：META12。为真实TCF缺域fleet和现运行GG/H96R/WSS完整小结论保容量，新200件旧manifest仅字符串外JSON空白格式化，原完整commit f9ff5a8685fad08bf1fce295a17325fc51ce2625；全200原bytes/SHA/blob、literal/字符串escape/键序/数组与JSON语义逐项保持。完整receipt 94763B/SHA256 c36b2ed8c8e94212bd62450c2964ef3538c54025089a15db63df073b1e09a849，毛省1264084B、净省1169321B；完整当前tracked/untracked源码/manifest/README引用扫描无冲突，旧科学0/数组0。每pull继续只读两README差异，按全scan后的等价增量检查全部改变和新草稿引用。
+
+
+2026-11-28 10:56:06 UTC / visible-exact-astra-b0d5a16-20261128：ASQ11R。原46136643646/1在首metadata列表vs整数门失败、尚无新分组；新首add/attempt1严绑原terminal/job/event和完整198234B日志，唯一AST条件改核11个完整passed对象，全部native/公式/原SHA不变。新actual例外仍待。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/notes/2026-11-28-ASQ11-whole-gate-list-successor.md","bytes":1648,"sha256":"0a5727aa2f72c74749e79c9c897e251009eff096709becc97cd51d4f66d0ff77"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_positive_i_after_gate_list.py","bytes":5263,"sha256":"e74ea3951ad6b9800751140f6da3d01184f8824d7e087432b45db399de4b8ae4"},{"path":".github/workflows/visible-exact-original-positive-i-after-gate-list.yml","bytes":2105,"sha256":"5b45fe599020575fee94d6ba8d77ecb151834b0f4573a4dfbef0812595d381c5"}]。
