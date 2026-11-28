@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ18R：原两组物理 signed96 列的首次接收入口](results/R149-supplement-original-signed-physical-column-receivers-from-ASQ18.md)：原UACT/WMA/BFP/DCP/WBN五组15whole和完整原receipts核过；两组不同96中心、两mean和原512 reference保，仅把.26放入原正项，新两个精确有理目标首次公开入口；0旧科学/0数组恢复。
+
 - [GFW：带号真输运的首自由波与相关势消去](results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md)：原两条真实输运给A0w1只需ratio的q+1角导，不数值求r导；保真三阶一侧几何、原A2/A3接缝跳。完整G.7先有符号合成使独立V_T消去，留下B/B′/B″真负长尾、左E12及全部界面；尚未给全域数值。
 
 - [ASQ19：固定旋转附近的真几何系数与移动实模型 jets](results/R149-supplement-fixed-rotation-geometric-coefficient-and-moving-real-model-jets.md)：真实radial intrinsic/full angular u,v及有限部分scalar ξ=−V/2，给强piecewise Banach邻域中真几何jet与moving实基。原g*<1.28在|ξ−ξ*|≤1/32时全g<4/3、weighted费×≤25/24；真实a旋转/commutators和每阶损失保，不能外推未付PDE余项。
