@@ -64,10 +64,10 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 <!-- 2ecf-live-frozen --> [冻结α10的M32 own3](notes/2026-11-28-2ecf-frozen-alpha10-M32-continuation-actual-02-03.md)：G11 metric .154677、κ36.753、held .610131；真实频率加密仍未收敛。
 
-<!-- 2ecf-live-fixed-prefix --> [固定整个prefix新5292列构造](notes/2026-11-28-2ecf-position-prefix-locked-actual-01-02.md)own2/2，G11 metric .545034、κ23.722、held .711310；全部原行/guide不删，完整前缀固有误差不得冒机器容差。
+<!-- 2ecf-live-fixed-prefix --> [固定整个prefix的5292列own6](notes/2026-11-28-2ecf-position-prefix-locked-continuation-actual-03-06.md)：G11 metric .250905、κ20.903、held .709325；原行/guide全保留，prefix固有误差待处理。
 
 ## 工作位置
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:59:23 UTC；已读公开 main `3f32f953b786190441173e040e7a85b920b6456e`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:59:36 UTC；已读公开 main `0821f5e3644182baa7ce83ad5cc91da4b588b96f`，根/课题 README 逐差无变化。
