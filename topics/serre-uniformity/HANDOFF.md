@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：2e21028f0a096b2ee4c910e942f2dd9bcb62daa3**（2026-11-28 13:41 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：db6f0511dc15b8ea3bf0624dd81e0ca4199fa42f**（2026-11-28 13:47 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 13:36:52 Asia/Taipei，Actions run46112877438/job140880105085，blob:none浅clone后真实pull --rebase至30e8ea86；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤14:26、pull≤14:36。本地13:36仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -28,7 +28,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1156–60](results.md)原四线整raw、真正SV三项、全部GL2/rank1下降、highest Gcorr与crossed J_n均已付；完整函数/根相位及27项沿open/逐字前态。实际算术B_n由C2/C3、复共轭和两transvection Newton反差分给dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n；n2/n5覆盖p>37，全部p^r三中心严格兼容，保21(1+p⁴)/11。原n2全SS七行坏参数阶1/(p²−1)及共同CM形式源已付。一般Frob须实际b(q⁻¹T′q)，Cartan I仅modp、原F0未读。
 
-[R1163](results/R1163-original-highest-moment-integral-syntomic-comparison.md)新增原系数的精确finite integral syntomic比较：E^d的signed整projector选Sym^dTpE(t)，Tsuji2000已刊smallweight给Hq syn≅et(q≤t)。d4/8,t1与d12,t2覆盖原交换H1及最高中心H2；externalproduct准确Π0无额外factorial/binomial。保ordered gauge全部交叉项，既定最高primitive的syn gauge类及全层兼容已识别；仍须原theta/Miller同源代表至适配FL frame，未把存在类冒PD系数表。
+[R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)原系数的exact integral syntomic比较已覆盖完整43格：Tsuji2000小权+E^d signed整projector给Hq(q≤t)；三中心统一放E12/Sn14，pair antisym准确Π0/2/4无组合数。实际Poincaré类−c1(P)/2由∆*degree−2锁Weil coeval1，四份补原λ∞xγ5，全部weight14。原完整primitive groupoid及全塔兼容已识别，ordered所有交叉项/有限H0全保；继续theta/Miller同根代表至适配FL frame及normal表，未冒F0数值。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

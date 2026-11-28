@@ -59,7 +59,7 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 同文§12固定实际整形式ψz=z^p，完整carry ε=ε0−u0L给hψ=h0+b0L−u0L²/{2(1−u0)}−u0L³/{6(1−u0)²}；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50单位。未指定ε0=0，未把ψ专化当分歧torsion的field Frobenius。此单块仍须经过真实weighted/Cor/moment。
 
-[R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)扩到原坏参数：w=u^p,d=1−w，κ=max(v_p(w),v_p(d))≤1/3时，Li_r†=ℓr/d−r p wℓ_(r+1)/d² modpO_L；实际v=w+pε的运输保两个log二次项及中央pε³(1−3w)/(6w²d²)。全部Eulerian/Taylor尾已界；非整坐标仅为坐标误差，后续乘法/Cor必须提高精度。任意深near0若同一实际提升v=w(1+pα)，则整三槽为(−α,(wα−ℓ1)/d,−ℓ2/d−wα²/(2d))。近1/∞用完整Coleman S/J身份及同一第二输入；不能任意选各项ψ。原n2参数的实际阶/leading单位和full-level SS共同log-smooth提升仍须逐项支付，未当field Frobenius或F0数值。
+[R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)扩到原坏参数：w=u^p,d=1−w，κ=max(v_p(w),v_p(d))≤1/3时，Li_r†=ℓr/d−r p wℓ_(r+1)/d² modpO_L；实际v=w+pε的运输保两个log二次项及中央pε³(1−3w)/(6w²d²)。全部Eulerian/Taylor尾已界；非整坐标仅为坐标误差，后续乘法/Cor必须提高精度。任意深near0若同一实际提升v=w(1+pα)，则整三槽为(−α,(wα−ℓ1)/d,−ℓ2/d−wα²/(2d))。近1/∞用完整Coleman S/J身份及同一第二输入；不能任意选各项ψ。原n2实际阶已由R1157 §12支付；真实Ep/PD格比较继续。
 
 [R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已为原CM的全部形式参数给一个共同ψ：R=O_F[[z]]，σ作用coeff、z→z^p；R1157的u/1−u=z^m unit使所有边界同时保留，完整Rψ三槽先证明整。N<p时，good-unit用L=log(u/c),M=log((1−u)/(1−c))得h=h_c+b_cL+∫M dL；near0 t=z^m a的三槽为(A,−L1,−L2)，A=−κ(a0)+log(a/a0)，near1/∞用实际S/J给完整乘积/半平方。边界∞仍可有κ²/2，不删原constant carry；同五配置关系整地约化。只付源形式jet，未把完整moment或实际torsion高nilpotents截在12。ψ不保Ep理想；简单g=z^(p²−1)−p已有ψ(g^r/r!)/p^r|g0≡(−1)^r/r!，所以不能只见p误差便删。真实根塔/log/crystalline与FL比较继续。
 
@@ -75,7 +75,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)新增已整函数至上述normal输入的完整算法。真实tame projector选j≡−w mod e；f=Σz^jF_j(z^e)，扭点读F_j(p)，m_jr=F_j^(r)(p)=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)。modp^(i−r+1)只需r≤k≤i及c_(j+ke) modp^(i−k+1)；R∩Fil^aS=g^aR准确要求低normal系数等于零。若已在原FL适配frame中，1155.102的阶乘相消，读Σ_(b,j<p)(−1)^(i−w_b)σ(c_(b,j+(i−w_b)e))ϖ^(pj)F_b，全向量零 iff这些coeff全零。最多真实函数degree28e+p−1；coefficient jet十二不删这些高block，已是Frobenius矩阵的Rψ不再逐槽施φ。原frame/中央gauge识别继续。
 
-[R1163](results/R1163-original-highest-moment-integral-syntomic-comparison.md)已付**原系数的精确有限整syntomic比较**。在E^d用每因子(1−[-1])/2及(1/d!)Σsgn(σ)σ*，实际Koszul号消后选ordinary Sym^dTpE(t)于cohom degree d、Tate weight d+t。Tsuji2000 Th5.1及§2的原log period map给C_syn[d]→RΓ(G_L,Sym^dH_n(t))的Hq同构q≤t，保完整惯性及residue-Frob。原(4,1)/(8,1)覆盖H0/H1，(12,2)覆盖H0/H1/H2；最高externalproduct的5+9=14严格在范围内，准确Π0、无额外binomial。故已指定原h0的syntomic gauge类有唯一原像，ordered变换h′=h+as−rb+dt−r ds及全p^n相容均保。此不把所有primitive代表判为相同，也不假分歧域有限H0为零。现在继续原theta/Miller同根代表、原适配FL frame及1155/1162的normal表；低Π2/4 contraction未因最高product比较被自动宣付，F0/z12未算。
+[R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)已付**完整原43格的有限整syntomic比较**。实际E^d odd/signed projector选ordinary Sym^dTpE(t)，Tsuji2000 Th5.1/§2给Hq syn≅et(q≤t)，保完整惯性/residue-Frob。全部中心改用E12/Sn14的分开pair projectors，q0/1/2同时覆盖；r0/2/4个指定交叉对的normalized antisym准确给Π_r(v4w8)=e(v,w)^r v^(4−r)w^(8−r)，无组合数，三个projector不必正交。实际P=O(∆−axes)的−c1syn(P)/2由∆*degree−2锁Weil coeval1；四份补入原λ∞xγ5，weight5+5+4=14，Tate/constants全保。原完整primitive groupoid与整syn模型等价，固定原étale identification后的lift fibre contractible，全p^n严格相容，ordered gauge全部交叉项/有限H0保留。现在继续实际theta/Miller根线代表、原adapted FL frame及1155/1162 normal表；不把唯一gauge类冒唯一cochain或PD矩阵，F0/z12未读。
 
 ## O1：原两 jet 的实际临界非零
 

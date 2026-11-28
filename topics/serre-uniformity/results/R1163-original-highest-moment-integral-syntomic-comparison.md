@@ -1,4 +1,4 @@
-# R1163 — 原最高矩与指定 primitive 的整 syntomic 比较
+# R1163 — 原全部矩系数与指定 primitive 的整 syntomic 比较
 
 日期：2026-11-28（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126。
 
@@ -7,6 +7,8 @@
 比较准确转成原对称幂系数的比较。所得范围足以运输原两条
 abelian cochains、它们的最高 ordered cup，以及
 R1158–1160 已指定的最高中央 primitive 的完整 gauge 类。
+§§8–10 进一步以实际 paired projectors 和 Poincaré coevaluation，
+支付全部三个中央槽、常数补项及原完整四十三格的同一比较。
 
 这里的新输入是**有限整 syntomic complex 与原 étale complex
 之间的实际比较**，不只是 rational associatedness。
@@ -357,3 +359,288 @@ signed projector、Tate shift、cohomology cutoff、
 的比较由本文逐式证明。
 没有使用 ordinary 假设、未刊系数比较或一个有 \(p\)-分母的
 averaging projector。全部为纸面证明，无数学程序执行。
+
+
+## 8. 全三个中央槽在同一十二因子模型中的整实现
+
+原低两个 contraction 可以保留在同一
+\(\mathcal E^{12}\)、syntomic weight \(14\) 中实现。
+这样无需先把一个高 degree 的整 Gysin map 当作已知输入。
+
+在十二因子的 odd summand 上，定义 ordinary permutation
+\[
+\widetilde\sigma=\operatorname{sgn}(\sigma)\sigma^* .
+\tag{1163.15}
+\]
+它在 \(H^1(E)^{\otimes12}\) 上就是不带 Koszul 号的
+通常 tensor permutation。以下全部 projector 都以这个
+\(\widetilde\sigma\) 构造，连同原 \(o_{12}\) 作用于 actual complexes。
+
+对 \(r=0,2,4\)，置 \(m=12-2r\)。
+先排列十二个位置，使前 \(2r\) 个按序成为 \(r\) 对，
+其余 \(m\) 个为剩余位置。定义
+\[
+P_r=
+ \left(\prod_{a=1}^{r}
+       \frac{1-\widetilde{(2a-1,\;2a)}}2\right)
+ \left(\frac1{m!}
+       \sum_{\sigma\in S_{\{2r+1,\ldots,12\}}}
+               \widetilde\sigma\right)o_{12}.
+\tag{1163.16}
+\]
+这些因子作用于互不相交的位置，故 \(P_r\) 为整 idempotent。
+\(r=0\) 时就是 \(\epsilon_{12}\)。
+
+其 geometric cohomology 仍只在 degree \(12\)，且为
+\[
+(\bigwedge^2 H^1(E))^{\otimes r}
+       \otimes\operatorname{Sym}^{m}H^1(E).
+\]
+加总 Tate twist \(14\)，再用原 Weil pairing，
+准确得到
+\[
+(\bigwedge^2H_n)^{\otimes r}
+       \otimes\operatorname{Sym}^{m}H_n(2)
+ \simeq \operatorname{Sym}^{12-2r}H_n(r+2)=:Z_{r,n}.
+\tag{1163.17}
+\]
+定义
+\[
+C_{Z_r,n}^{\mathrm{syn}}
+ :=P_rR\Gamma(\mathcal Y_{12},\mathcal S_n(14))[12].
+\tag{1163.18}
+\]
+由 §3 的同一 cone 论证，
+\[
+\boxed{\quad
+H^q(C_{Z_r,n}^{\mathrm{syn}})
+ \xrightarrow{\sim}H^q(G_L,Z_{r,n})
+ \quad(q=0,1,2),\qquad r=0,2,4.
+\quad}
+\tag{1163.19}
+\]
+这里 \(r=2,4\) 的模型与 (1163.7) 的较少因子模型不同；
+本节只使用它已经准确覆盖的 degrees \(0,1,2\)。
+不需要宣称这两个不同 integral complexes 在全部 degrees 上相同。
+
+对原 \(\operatorname{Sym}^4H_n\otimes
+\operatorname{Sym}^8H_n\)，先作 §4 的 external product；
+将第一块的前 \(r\) 个位置与第二块的前 \(r\) 个位置
+依序交叉配对，使用 (1163.15) 的 actual signed permutation
+送到 (1163.16) 的 pair positions，最后施 \(P_r\)。
+在 pure powers \(v^4\otimes w^8\) 上，每个 pair 的投影是
+\[
+\frac{v\otimes w-w\otimes v}{2}.
+\]
+由 normalized alternating-tensor 与 exterior-power 的同构，
+它正对应 \(v\wedge w\)，不是 \((v\wedge w)/2\)。
+其余位置的 normalized symmetrization 对应
+\(v^{4-r}w^{8-r}\)。因此得到的 coefficient map 为
+\[
+\boxed{\quad
+v^4\otimes w^8\longmapsto
+ \langle v,w\rangle^r\,v^{4-r}w^{8-r},
+\quad}
+\tag{1163.20}
+\]
+恰为原 \(\Pi_r\)，三个 \(r=0,2,4\) 同时成立。
+因 pure powers 的 polarization 所需 factorial 都是单位，
+这在整个原 tensor coefficient 上确定同一个 map。
+没有再乘选取 cross-pairs 的组合数，也没有将原
+normalized polarization 换成未归一的 transvectant。
+
+## 9. 常数槽的真实 Poincaré coevaluation 及负二分之一
+
+还需实现原
+\[
+\lambda_\infty x\otimes t',
+\qquad
+\lambda_\infty=\frac{21}{11}(1+p^4),
+\]
+从 \(\operatorname{Sym}^4H_n(1)\otimes\mathbb Z/p^n(5)\)
+到 \(Z_{4,n}=\operatorname{Sym}^4H_n(6)\) 的项。
+为了把它也放进 (1163.18)，使用实际整 Poincaré line bundle
+\[
+\mathcal P=
+\mathcal O_{\mathcal E\times\mathcal E}
+       (\Delta-\mathcal E\times O-O\times\mathcal E),
+\tag{1163.21}
+\]
+连同两坐标轴上的原 rigidifications。
+
+Tsuji (2.6) 的 symbol map 施于此 line bundle 的实际
+transition units，给其整 syntomic Chern class
+\[
+c_{1,\mathrm{syn}}(\mathcal P)
+ \in H^2(\mathcal Y_2,\mathcal S_n(1)).
+\tag{1163.22}
+\]
+具体地，取将 \(\mathcal P\) 平凡化的整 open cover；
+其 transition units 是 Čech degree 一的数据，
+symbol map 将它们送到 internal degree 一，所得 total
+degree 二的类就是 (1163.22)。
+三重交上的乘法恒等与 symbol 的加法结构保证它闭合，
+改变 trivializations 只给同一个实际 coboundary。
+Proposition 2.11 使其 period image 等于原 étale Chern class。
+这里不要求一个任意 ramified raw rational function 本身为整单位。
+
+令
+\[
+Q_\wedge=\frac{1+\operatorname{swap}^*}{2}\,o_2,\qquad
+\eta=-\frac12Q_\wedge\,c_{1,\mathrm{syn}}(\mathcal P).
+\tag{1163.23}
+\]
+几何 swap 在两个 degree-one factors 上是 ordinary swap 的负号，
+故 \(Q_\wedge\) 选的正是 \(\bigwedge^2H^1(E)\)。
+下面校准 (1163.23) 的完整符号和 \(2\)。
+
+取 \(a,b\in H^1(E_{\bar L},\mathbb Z/p^n)\)，使原
+cup–trace 满足 \(\operatorname{tr}(a\cup b)=1\)。
+mixed part 的 diagonal class 为
+\[
+c_1(\mathcal P)=b\otimes a-a\otimes b.
+\tag{1163.24}
+\]
+这可直接用 diagonal correspondence 的 identity action 验证；
+也可不选基核准系数：
+\(\Delta^*\mathcal O(\Delta)\) 是 \(T_{\mathcal E/\mathcal O_L}\)，
+其 fibre degree 为零；两坐标轴各在 diagonal 上切出 \(O\)。
+所以
+\[
+\deg\Delta^*\mathcal P=-2.
+\]
+由此，diagonal cup 后的 trace 在 (1163.24) 上为 \(-2\)。
+故 (1163.23) 的 étale image 正为
+\[
+\frac{a\otimes b-b\otimes a}{2},
+\]
+其 exterior/cup contraction 是 \(+1\)。
+
+沿 (1163.5) 的原 first-slot Weil identification，
+这一 unit 正是
+\[
+\mathbb Z/p^n
+ \xrightarrow{\ \eta_{\mathrm{et}}\ }
+ \bigwedge^2H^1(E)(1),
+\tag{1163.25}
+\]
+即原 Weil coevaluation；没有任意 CM period。
+若写 \(u\mapsto b\otimes\tau_1\)、
+\(v\mapsto-a\otimes\tau_1\)，
+\(\langle u,v\rangle=\tau_1\)，可再逐基核出同一个正号。
+
+取四份 (1163.23) 的 external product，占据
+(1163.16) 的前八个 pair positions；
+把原 \(x\) 的四个 factor 放在最后四位。
+再与原 Tate-five complex 的 element 相乘，得到
+\[
+C_{4,1,n}^{\mathrm{syn}}
+ \mathbin{\otimes^{\mathbf L}}C_{0,5,n}^{\mathrm{syn}}
+ \longrightarrow C_{Z_4,n}^{\mathrm{syn}}.
+\tag{1163.26}
+\]
+四份 Chern classes 总 cohomological degree 为八、
+总 syntomic weight 为四；
+与原两项的 weights \(5,5\) 相加恰为 \(14\)，
+degree shifts \(4,0,8\) 相加恰为十二。
+每个 pair 的 contraction 为 \(+1\)，所以 (1163.26)
+的 coefficient map 精确为 \(x\otimes t\mapsto x t\)。
+最后乘原 \(\lambda_\infty\)，得到原 bilinear law 的最后一项。
+特别负号只在必要的 \(-1/2\) coevaluation 中出现四次，
+没有为此修改原 \(\lambda_\infty\)、\(\gamma_5\) 或 Tate frame。
+
+(1163.22) 的 Chern class 位于 degree 二、weight 一，
+超出 (1163.9) 在零因子时的一阶满射范围；
+本节没有据该满射制造它。
+它由实际 line bundle 和实际 integral symbol map直接构造，
+比较只用于识别其既有 étale image。
+
+
+## 10. 原完整四十三格的同一 finite integral primitive 比较
+
+现在取三个**分开的目标 complexes**
+\[
+C_{Z,n}^{\mathrm{syn}}=
+ C_{Z_0,n}^{\mathrm{syn}}\oplus
+ C_{Z_2,n}^{\mathrm{syn}}\oplus
+ C_{Z_4,n}^{\mathrm{syn}},
+\]
+以及
+\[
+C_{V,n}^{\mathrm{syn}}=
+ C_{4,1,n}^{\mathrm{syn}}\oplus
+ C_{8,1,n}^{\mathrm{syn}}\oplus
+ C_{0,5,n}^{\mathrm{syn}}.
+\tag{1163.27}
+\]
+三个 \(P_r\) 不必在同一个十二因子 cohomology 中互相正交；
+(1163.27) 是各个实际 direct summands 的外部 direct sum，
+不是未经证明的一个 projector 分解。
+
+(1163.20)、(1163.26) 给原全部 bilinear map
+\[
+\mathfrak b((x,y,t),(x',y',t'))=
+\left(\Pi_0(x,y'),\Pi_2(x,y'),
+      \Pi_4(x,y')+\lambda_\infty x t'\right)
+\tag{1163.28}
+\]
+的 integral syntomic realization。
+period maps 与其完全相容，三项与原 R1147 的 Tate twists、
+normalization 和 order 都相同。
+
+对原 actual cochains \(a,b,c\) 及中央 \(h_0,h_2,h_4\)，
+方程为
+\[
+dh_0=-\Pi_0(ab),\qquad
+dh_2=-\Pi_2(ab),\qquad
+dh_4=-\Pi_4(ab)-\lambda_\infty ac.
+\tag{1163.29}
+\]
+\(a,b,c\) 都闭合。对零次 gauge \(r,s,u\)，三交换槽
+变成 \(a+dr,b+ds,c+du\)；中央的完整变换为
+\[
+\begin{aligned}
+h_j'&=h_j+\Pi_j(as-rb-r\,ds)+dt_j,
+                  &&j=0,2,\\
+h_4'&=h_4+\Pi_4(as-rb-r\,ds)
+             +\lambda_\infty(au-rc-r\,du)+dt_4.
+\end{aligned}
+\tag{1163.30}
+\]
+微分逐项给原 (1163.29) 的 transformed equations。
+这里既没有删除 constant Tate-five 槽，也没有只保 highest bracket。
+
+三个交换系数的 \(H^0,H^1\) 比较同构，三个中心的
+\(H^0,H^1,H^2\) 比较同构。因此 §5 的同一 obstruction、
+difference 和 automorphism 论证适用于 (1163.28)：
+\[
+\boxed{\quad
+\text{原完整 finite Heisenberg primitive groupoid
+与其上述 integral syntomic realization 相等价。}
+\quad}
+\tag{1163.31}
+\]
+固定 R1147、R1158–1160 的原整塔及指定 étale identification 后，
+其 homotopy fibre contractible。
+全部 \(\eta\)、projectors、period maps 和 bilinear maps
+来自同一整构造，故 (1163.31) 与所有 \(p^n\) reductions 相容。
+由 §6 得原全 tower 的同一结论。
+
+经 R1147 (1147.46) 的 faithful affine representation，
+这正是秩 \(1+15+27=43\) 的原 flagged object 的
+finite integral syntomic 比较。回未分歧底时，其 étale
+lattice 正是先前恢复的原 Fontaine–Laffaille 格；
+没有使用分歧底上的虚假未分歧 FL 等价。
+
+至此，§4 当时只处理最高 product 的范围已由 §§8–10
+扩大到原 \(\Pi_2,\Pi_4,\lambda_\infty\) 全部项。
+尚未替代的输入仍是 §7 的实际 theta/Miller representative、
+同根/中央 homotopies 在原 adapted frame 中的矩阵，
+以及 R1155–1162 的 finite normal coefficients。
+(1163.31) 不把这些未知系数设为零或设为单位。
+
+本节新增的 scalar source 只有实际 Poincaré line bundle；
+它的 syntomic Chern class由已亲读的 Tsuji (2.6) 和
+Proposition 2.11 构造并校准。所有 projector、coevaluation
+的 \(-1/2\)、三中心尺度及 ordered gauge 公式均在上文自证。
+全部为纸面证明，无数学程序执行。
