@@ -70,3 +70,9 @@
 - Φ十八原列正式即推：真实25候选选18列，最大深1，Γ^5清真实分母及h源极点；B adj(B)e0=F e0给旧权环完整I10来源，p1009,(3,2)实际矩阵/清矩阵×逆只证该F非零。全F/H42零支继续，不存矩阵载荷。
 - W完整1164结果正式即推：七模primary真单位、两重一次primary各剩余域秩10；对各局部Artin余商再对A用Nakayama，严格给A≤8生成、QQ(k)原商≤8、规范全坐标≤16。只泛型环境界，不能当全W有限点或空。
 - Haar原有限头吸收正式即推：真实head/tail所有carry与下一头Hadamard保全；任意正负根的临界Sylvester差公式及根图主角完全对应。δ/μ近1既不证明角不可和也不证明可和，续实际pair图/无限相容。
+
+2026-11-28 09:55 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- Haar新完整实际来源结论即推：任意有限头根对应antipodal-transversal Fourier列，特殊full-spark自含奇偶证明及全minor Norm下界；原权中位带N⁴/L压过N²logN费用，Sperner无原子给全分支Π弱I/2及任意移动强图0。作者Full spark frames定理9已查原PDF，未用黑箱省费用。
+- 新b642首派120秒/1GiB：22原列未降λ、仅旧权LCM/常数整化，真QQ u度Hungarian对偶/固定Q2最高矩阵及模Bareiss；旧18选择与大QQdet不复放，首项若消掉只记未付保度。
+- 新765d首派180秒/4GiB：只两个既有剩余linear² primary的24维264原列及真商/原几何作用，七成功块不跑。新完整长度只给有限Nakayama界，QQ ellhalf族仍需另付；绝不模D幂升QQ。
+- 新增.github/workflows/invariant-subspace-8542-phi-unlowered22-degree.yml及invariant-subspace-8542-w-two-residual-quotients.yml均为本题必要首次执行；全部权零支/有限点和普通ISP仍开。

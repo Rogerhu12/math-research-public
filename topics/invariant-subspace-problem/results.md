@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R12：全部真实Haar有限头平方根图的半弱极限与强图零](results/R12-appendix-all-finite-haar-head-root-graphs-half-weak-limit-and-strong-zero.md)：任意分支Π_L WOT→I/2，所有随动强图向量只趋0，含完整有限吸收直和根/任意高度子列；全Fourier子式奇偶/Norm和原balance中位预算已付。转其它真实闭域，不外推一般原根不存在。
+
 - [R150：十八个原关系列与全Phi非零纯权必要行列式](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)：304e真10.557245755秒/0；9种子及9真实倍的深1来源，Γ^5清系数及h极点，adj恒等式给F∈I10，实际模满秩只证同F非零；整F/H42曲线继续。
 
 - [R150：完整P164原整模型七单位块、两整余块与泛型长度≤8](results/R150-appendix-unit211-W-P164-integral-original-model-seven-units-and-generic-length-eight.md)：18ac真11.524541746秒/0，全部重数/原132列保；两次有限Nakayama给A≤8生成、QQ(k)长≤8，规范全坐标≤16。未全返1或付权零维。
