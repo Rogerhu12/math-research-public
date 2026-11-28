@@ -1,18 +1,14 @@
 {
-  "message": "ISP: publish actual Phi t N1 two-slope model; start new P discriminant",
-  "parentCommit": "a38135aea53800ecf8dd1a31119cc08c02b683f1",
+  "message": "ISP: prove whole b0 original t-parameter monic lambda quadratic",
+  "parentCommit": "cf1f39cfadf7a3ee6d0711f406c5bf9d3541dd50",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-t-parameter-N1-two-slope-curves-and-six-by-two-model.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-t-parameter-original-N1-slope-model-8542-execution.json",
-    ".github/workflows/invariant-subspace-8542-hk-p-discriminant.yml",
-    ".github/workflows/invariant-subspace-8542-hk-P-discriminant.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-root-publication-1845-dispatch-boundary-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-t-N1-formal-1850-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-t-N1-formal-1850-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-b0-original-t-parameter-monic-lambda-two-and-exact-I4.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-t-lambda-two-1855-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-t-lambda-two-1855-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-hk-p-discriminant.yml"
-  ]
+  "dispatchWorkflows": []
 }
