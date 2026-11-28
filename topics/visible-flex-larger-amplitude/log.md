@@ -205,3 +205,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:18:34 UTC — 24真实接受086003为第三点，完整科学报告尚未返
 
 同source0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5/PID3575/模型9e2d7ded，0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07已真实accepted=true，接受数3。07:06:13.280684Z自身current-geometry返回，Phi886.6498827366873/Gram.4729659923630599，reachg=.6114243730497866、distance_plus=.06086507728771828；其余六族完整保下方。原ff7dc8/f725身份及拒绝不覆盖。当前仍明显不可行，complete_report=false；没有由第3点补第4点或最终13文件。原alpha未投影保未知。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。双README云核至`229c3ccf8a0428e9dec03d31d9a2c320efc49d66`无变（非pull）。
+
+## 2026-11-28 07:19:01 UTC — 26四分之一步5a9e实际拒绝；八分之一步4e4d仅统计
+
+同source12b76b81c33069a5b657c8d1c75af0b34a97b71d/PID3811/model4a7e828，alpha=.25的5a9e647879990569881de1ee64dc6c7636ab096c0dc6b9acd5cac0917b854d51已真实拒绝，最大reach g=2.1657936243197677。当前仍初7e06、accepted0，六族/K/位置保下方。下一4e4d06f713063b927677d8da0ae539875131f51161a36ebab5dd66259edcc9ff为restoration alpha=.125，07:11:46.270713Z返回自身Phi592.7645608955047/Gram.4166270367722804；自己的几何/接受未返。原全步和半步拒绝完整保，不以缩线步代已恢复。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`3dcff079710fb10e1838bce6853d2c224c5bbae2`无变（非pull）。
