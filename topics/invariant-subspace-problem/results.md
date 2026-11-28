@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Phi 两原支持互素及至多1634个有限性例外权点](results/R150-appendix-unit211-Phi-zero-coprime-original-highest-supports-and-1634-exceptional-weights.md)：47aaa真QQ gcd1/总86×19；两模型补集每权≤21，整个交点集及原个别值仍留，非全权有限。
+
 - [R150：W的完整15×2原表示及两条本原λ六次式](results/R150-appendix-unit211-W-H198-complement-exact-fifteen-two-columns-and-two-primitive-sextics.md)：ecf383真14.074930164秒/0，全部同点NS/PS关系及两乘子内容取消返；头和整H198零留。
 
 - [R150：Phi整D2=0最高方向的五权支持](results/R150-appendix-unit211-Phi-zero-highest-D2-zero-five-weight-support.md)：原F6迫ell半/t1，整Q曲线上四原二次式准确C16身份及QQ分解付≤5权对；全部s纤维继续。

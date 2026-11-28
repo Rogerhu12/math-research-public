@@ -109,3 +109,8 @@
 - 两条新结论即推：W ecf383完整15×2/两λ本原C6规范证明与小回执；Phi321647真0.120667964秒/39880KiB/0，原D2=0整支缩ell半/t1，四原最高式C16清回/剩C6=F4·F1²，候选权对≤5，未判五纤维空。
 - 整H198/P164新原整模型 b9d649 首次180秒/4GiB，固定p1009/k3，先全QQ矩阵及H系数p整/H本原，再6阶模det和真实余式；双计时钳原截止。旧6aadb未执行；只更正资源接口，数学目标未变。
 - 必要新工作流 .github/workflows/invariant-subspace-8542-w-h198-native-integral.yml；公私实际pull/README差异与进行中QUEUE持续记录。普通ISP未完成，继续原个别值、余权支和原Haar桥。
+
+2026-11-28 08:42 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新结论：47aaa唯一实际1.218746428秒/49176KiB/0，C*与原P6头H19完整QQ互素，两有限环境共同失效权集≤1634；其余每权必要环境≤21。范围精确证明与小回执即推。
+- 两个真正新Phi输入首次：297a59三对固定二次cofactor及QQ[u]原Bézout/已付整头，60秒/1GiB；e79738斜率补图完整I4等于首一二次加3线性余式、六行两列及3小原目标，120秒/1GiB。对应两个 .github/workflows/invariant-subspace-8542-phi-d2-weight-unit.yml、invariant-subspace-8542-phi-slope-six-two.yml 为必要题外改动。
+- 1055原发布46088511758仅公共pull超时180秒，未派数学；同prepared commit重走终端46089033333已成功push73d062e…，两README无变、QUEUE已真核。H198唯一数学46089073211真11.840896530秒/0付不整除与4100/24600/49200长度，正式稿续推，未判空。
