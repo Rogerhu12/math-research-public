@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:19:36 UTC实际pull --rebase，读取main cee7806452c79d516e8fa04e6a450569767db953；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:19:31 UTC实际pull --rebase至1fffbd2935d3f8dcaffb9a64140dfc9f0ebf1fb0；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:20:45 UTC实际pull --rebase，读取main 26f96b5e55016631bce704edb1f49a16a421181e；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:20:39 UTC实际pull --rebase至60af52d2d7dc6e412c2702a73b1ec9c5a366e8e1；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3239/46603642B/treef4212ab33ae8e6a81b2204f688b6762c5d7feaa9；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3243/46665686B/treef2f9aa17dde1af70779028638c48d687b2a925a6；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -24,14 +24,14 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 两原F/P、端点归一、T/v正负与9scalar支撑实际完成。首A0有限denominator306整Popov给det度3670，完整quotient solve后转原fallback，11:06:54.1538954Z明报800万transcript系数预算耗尽，elapsed8954.748600139s；solver1/host1。不是OS OOM、137或deadline。零selected endpoint image/graph及outer/后续四交八scalar/Norm/九pairs/终门PASS；F_y仍旧attached。全部旧run/hash/pins见生产注及归档。
 
 [R1071完整算法](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)：原单右端D·W=qN、逐实际坐标完整Y核≤306列终止；全Laurent多项式部分X、低次残量及已造两ideal后全部X比较保留。原2256双极度、总度>4512，不以小例保证性能。
-[新软件实际PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113，7.582517183s；root/代理各核全log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309、32pins、8比较、2外门篡改、2预算拒绝、真二次底素/模块转置。真实四新源与3适配已入库。[v17生产](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)现接同heavy组：76pins/72原共享，两新wrapper及2已PASS helper，数学体唯一改IMPLEMENTATION名称且host反替换核原SHA。请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45；所有原输入/F/P及4CPU16GB21000s不变。此提交仅启动真实306新方法，实际run/job待返回，不预报PASS。
+[新软件实际PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113，7.582517183s；root/代理各核全log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309、32pins、8比较、2外门篡改、2预算拒绝、真二次底素/模块转置。真实四新源与3适配已入库。[v17生产](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)现接同heavy组：76pins/72原共享，两新wrapper及2已PASS helper，数学体唯一改IMPLEMENTATION名称且host反替换核原SHA。请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45；所有原输入/F/P及4CPU16GB21000s不变。实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44 UTC创建；11:20:00读image pull中，数学步待执行。无PASS。
 
 ## 原共同两/三位：R1067
 
 [R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)保两Kato图/ν/physical/参考单位，ord A=2ord H；exactHall0给Φp²及λ增量，bad独T⁴，域下降自动。
 [§§16–36续证](results/R1067-original-first-wild-rubin-native-euler-continuation.md)：native仅返j₁∈p²、j₁j₂∈p⁵。实际g1=a_pEN/p、g2=(pb_pEd−γa_pEN)/p²，EN三位/Ed两位、全mixed/Bockstein/Hasse和两槽保留。固定权三parabolic类非零不代高槽；完整68余类RC/Q√−17三位及同权成本不删。W=M⁻¹CM(t^p)、首列除p与Cartier(ds/H²)=ds^(p)给真实全局核。单trace一阶kγa_pEN−pb_pEd，B/t短前缀后全尾p²；共同第二位必加−3a_pI_p/γ。两固定3F2及固定四盖把Ip还原同一fJb^(−5/2)的x^(p−1)读数，指定完整H¹一维纯边界。
-[§§37–43全文](results/R1067-original-first-wild-fixed-geometric-tail.md)：两节点b⁴=−18定向Frob给p²υ；常系数曲面对数比较、原相对H¹及g特征唯一零初值给T=W P5(xp)−p²υPe。7p全A共振/下一双分母准确消去。固定level3 log晶体拉回下降、两lift/Taylor和proper无扭使T/p²全V整（再删固定有限坏素数）。第二分量M=x^(16−e)L_e Π/(1−w)^p，degΠ≤p−1，由单branch完整主部唯一恢复。
-§43已逐原j1728实际初列/det p/H与DH给全低p horizontal Z；完整两项Qc和Qc²、e11额外Y^p奇偶、384/9216常数付全Π。M6准确回原Ip、M7回k=1/2共同第二位，EN0仍三位/Ed0两位。端点Π(1)非零不代canonical，跨p非零待证。下一原A全两位归一与S三位全图拼接。
+[§§37–45全文](results/R1067-original-first-wild-fixed-geometric-tail.md)：两节点b⁴=−18定向Frob给p²υ；常系数曲面对数比较、原相对H¹及g特征唯一零初值给T=W P5(xp)−p²υPe。7p全A共振/下一双分母准确消去。固定level3 log晶体拉回下降、两lift/Taylor和proper无扭使T/p²全V整（再删固定有限坏素数）。第二分量M=x^(16−e)L_e Π/(1−w)^p，degΠ≤p−1，由单branch完整主部唯一恢复。
+§43已逐原j1728实际初列/det p/H与DH给全低p horizontal Z；完整两项Qc和Qc²、e11额外Y^p奇偶、384/9216常数付全Π。M6准确回原Ip、M7回k=1/2共同第二位，EN0仍三位/Ed0两位。端点Π(1)非零不代canonical，跨p非零待证。§§44–45已付Gφ全局负Y主部、任意CM第二位λ在归一比消去、S−8p²x^pM全图拼接；N5给原EN三位/Ed两位完整f有理核，N6回两canonical。Paley邻点及实际标记继续研究，跨p非零未证。
 
 ## 原中央、全层及 Rubin 整平方：R1070
 

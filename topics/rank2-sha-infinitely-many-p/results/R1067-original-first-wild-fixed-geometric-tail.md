@@ -728,3 +728,170 @@ $$
 第二条取 $k=1$ 并乘 $-\gamma^{-2}$。
 (M5)与(M7)读取不同系数组合；(M7)的明确幂和尚未证明在
 无穷原素数上非零。
+
+## 44. 原 $A$ 归一行的全局两位由一个分歧主部决定
+
+在§§41--43的固定好模型上保留 $U_*,V,\phi,\psi$，记
+$G_i=(W_i)_{21}/p,\ S_i=(W_i)_{22}$。
+为免混淆，本节 $S_i$ 是矩阵条目；§41的整原函数仍写
+$T_i/p^2$，其模 $p$ 第二分量记 $M_i$，其中 $M_\phi=M_p$。
+所有矩阵均在原物理基 $e_0,e_1$ 中读。
+
+在 $V$ 两 cusp 的框架是 $u_0=xe_0,\ u_1=e_1/x$。
+$\phi^*u_0=x^p\phi^*e_0$ 和 Hodge 首列整除 $p$ 给
+$x^{p+1}G_\phi$ 在两 cusp 都正则。物理 $g$ 的同质因子
+$\lambda_g=\zeta_{12}^4$ 给
+$G_\phi(\zeta_{12}x,Y)=\lambda_g^{-(p+1)}G_\phi(x,Y)=G_\phi(x,Y)$，
+因为 $3\mid p+1$。故每个有限模 $p^r$ 的 $G_\phi$ 下降到
+$Y$ 直线，唯一有可能出现的极在 $Y=0$，在 $Y=\infty$ 有零。
+具体说，在 $Y\ne0$ 的有限图取 $\mu_{12}$ 不变元，
+它是 $(\mathcal O/p^r)[Y,Y^{-1}]$，因为 $x^{12}=(1-Y^2)/32$。
+其限制至两 cusp 的零阶排掉所有非负 $Y$ 次幂，包括常数。
+故整个 $G_\phi\bmod p^r$ 就是在任一 $x=x_0,Y=0$ 点所取的
+严格负 $Y$ 幂 principal part，降维和去常数均真实成立。
+
+在该分歧处，按§43的 $J_*=-1/(48x^8)$ 把物理首列的换提升
+Taylor 到两位。记 $\delta=\phi Y-\psi Y$，置
+$$
+ X_1=\frac{\delta}{p}\psi^*J_*+
+             \frac{\delta^2}{2p}\psi^*(\partial_Y J_*).
+$$
+$\nabla_{\partial_Y} e_0=J_* e_1$，
+$\nabla_{\partial_Y}^2 e_0=J_*' e_1-a_{\rm GM}J_*^2 e_0$。
+最后一项另由 $W_\psi e_0\in p\mathcal E$ 提供一位；
+阶数 $n\ge3$ 的 Taylor 项在除 $p$ 后仍整除 $p^2$。所以
+$$
+             G_\phi-G_\psi\equiv X_1 S_\psi\pmod{p^2}.
+                                                               \tag{N1}
+$$
+所用 Laurent 系数全显式：
+$$
+ \frac{\delta}{p}\equiv
+ \frac{Q_1}2(Y^p-Y^{-p})-
+   \frac{pQ_1^2}{8}(Y^{-3p}+3Y^p)\pmod{p^2},\quad
+ \psi^*J_*=-x^{-8p}Q^{2/3}/48 .
+$$
+$J_*'=-Y/(1152x^{20})$ 也在全分歧盘整。
+因此 $X_1\bmod p$ 的极至多 $p$，$X_1\bmod p^2$ 的极至多 $3p$。
+
+只需一个 $Y^{<p}$ 的两位单位提升，且其在物理 CM 本征线上的
+第二位自由度从答案精确消失。取任一单位
+$\Lambda$ 提升 $e=5$ 的 $H(x_0,0)$ 或 $e=11$ 的 $-DH(x_0,0)$。
+用(M1)的同一矩阵，在 $(\mathcal O/p^2)[Y]/Y^p$ 的次数
+$<p$ 多项式上解其递推（微分方程仅到 $Y^{p-1}$），
+初值取 $(0,\Lambda)^t$ 或 $(\Lambda,0)^t$；记第二分量为 $Z^*$。
+该列对应 $W_\psi e_1$，与(M1)--(M3)的除后首列不同。
+证明是
+$\nabla W_\psi e_1=-(\psi^*a_{\rm GM})W_\psi e_0\,\psi^*ds
+ \in p^2\mathcal E\otimes\Omega^1$；在 CM 点两种初列的方向由
+(M2)的同一 $i$ 作用固定。故存在常数 $\lambda\equiv1\bmod p$，
+使 $Z^*=\lambda S_\psi\bmod(p^2,Y^p)$。全图仍有
+$S_\psi\bmod p=H$。在所选分歧盘用特征零物理 Hasse 多项式作提升，
+置
+$$
+ S^*(Y)=H(x(Y),Y)+[Z^*(Y)-H(x(Y),Y)]_{Y^{<p}},\qquad
+ {\cal L}_p(Y)=\operatorname{pp}_{Y=0}(X_1 S^*(Y))\pmod{p^2}.
+$$
+$S^*-\lambda S_\psi$ 在整盘处处为 $p$ 倍，且其 $Y^{<p}$ 窗
+模 $p^2$ 为零。由于 $X_1$ 的首位极至多 $p$，第二位极至多
+$3p$ 而后者已乘 $p$，这些误差不改变严格负幂。
+$G_\psi$ 在该点正则；用(N1)及前述降维唯一性即有
+$$
+ {\cal L}_p=\lambda G_\phi\pmod{p^2},\qquad
+ U=\frac{G_\phi}{G_\phi(P_0)}
+   \equiv U_{\rm br}(Y):=\frac{{\cal L}_p(Y)}{{\cal L}_p(1)}
+                                       \pmod{p^2}.             \tag{N2}
+$$
+$G_\phi(P_0)=-1/u$ 是真正单位。因此没有未支付的 $j=1728$
+第二位本征值，所选 $\Lambda$ 对归一比无影响。
+在原 $N,d$ 两个读者的低窗，(F2)给 $U=A$。
+$E_N$ 中 $U$ 的指数为 $p/2$：两单位模 $p^2$ 相同且
+常数一，取该幂模 $p^3$ 也相同；$E_d$ 所需则只是模 $p^2$。
+所以(N2)已经付足两条 canonical 在原 $A$ 因子所需的全部精度。
+
+## 45. 原 $S=W_{22}$ 三位的 cusp 前缀与分歧尾恰好拼回
+
+$\nabla_{\partial_Y}e_1=c e_0$，其中
+$c=-a_{\rm GM}J_*=-1/(24x^4)$。与(M4)原受迫 $E_-=a_YdY$
+的标量 $a_Y/e_0=-1/(192x^5)$ 比较，恰有
+$c=8x(a_Y/e_0)$。在两提升间 Taylor 到 $p^3$，首项
+$\delta(\psi^*c)W_\psi e_0$ 有两位，二阶
+$\delta^2\psi^*(c' e_0+cJ_*e_1)/2$ 经 $W_\psi$ 后只有
+$e_1$ 项可在第二位存活，三阶及以上消去。因此
+$$
+ \frac{S_\phi-S_\psi}{p^2}
+ \equiv D_Y c^p \overline{G_\psi}
+      +\tfrac12 D_Y^2(cJ_*)^p H
+   =8 x^p(M_\phi-M_\psi)\pmod p .                            \tag{N3}
+$$
+右式恰是(L4)的两个真正换提升项同乘 $8x^p$，
+没有额外的 Riccati 常数或自由选支。
+故模 $p^3$ 的标量
+$$
+ S_\phi-8p^2 x^p M_\phi
+$$
+在交上等于 $S_\psi-8p^2x^pM_\psi$；$p^2M_i\bmod p^3$
+为约化截面乘 $p^2$ 的规范意义。右端在 $U_*$ 全有限图正则，
+左端在两个 cusp 有至多 $p-1$ 阶极：矩阵条目来自
+$\phi^*u_1=x^{-p}\phi^*e_1$ 及 $x^{1-p} S_\phi$ 正则，
+原函数项则来自(L5)的 $M_\phi$ 至少一阶零。
+
+在有限图的全局正规函数环内，$g$ 的相对拉回给
+$S_\phi(\zeta_{12}x)=\zeta_{12}^{4(p-1)}S_\phi(x)
+=\zeta_{12}^{4}S_\phi(x)$，相同的特征也适用于
+$x^p M_\phi$，因为 $p+16-e\equiv4\bmod12$。
+$h$ 给 $S_\phi$ 标量特征 $i^{p-1}$，即 $e=5$ 偶、
+$e=11$ 奇。于是上述合成的全局函数**整除** $t=x^4$，
+其商形如 $L_e(w)Q_m(w)$。除 $x^4$ 后在两 cusp
+极阶至多 $p-5$，即 $6d_e+12\deg Q_m\le p-5$，
+所以 $\deg Q_m\le m$。这些次数界也适用于模 $p^3$ 的整模型：
+在自由表示 $A(x)+YB(x)$ 中两个方向的首项由两个 cusp 的界
+同时限制，固定特征又只留下其中一个方向。
+
+在 $P_0$ 的特征零低窗 $S_\phi=-uB+O(t^{2p})$。
+(L5)又使 $x^{p-4}M_\phi$ 从 $x^{p+12-e}=32^{-(m+1)}w^{m+1}$
+阶起。因此前 $m+1$ 个 $w$ 系数准确为 $-u L_eP_m$
+的同一前缀；$L_e$ 常数一，所以逐系数确定 $Q_m=-uP_m$。
+这得**全 $V$ 上的矩阵等式**
+$$
+ \boxed{\displaystyle
+ S_\phi\equiv -u\,t\,L_e(w)P_m(w)+8p^2 x^p M_\phi
+                                     \pmod{p^3}.}             \tag{N4}
+$$
+作为规范检验，读 $S_\phi/t$ 的 $w^{m+1}$；
+(K3)低窗给 $M_\phi=(4\upsilon_p/D_e)x^{16-e}L_e Z_e$。
+(G7)同一系数给
+$-u k_p32^{m+1}=32\upsilon_p/D_e\bmod p$。
+因此(N4)的拼接首格不能再独立选择另一单位。
+(N4)的多项式前缀保留(G8)的三位；全部非多项式校正由原
+$M_\phi$ 的分歧主部给出。
+
+令 $V_{\rm br}=
+ L_eP_m-(8p^2/u)x^{p-4}M_\phi\bmod p^3$。
+分数 $1/u$ 只在 $p^2$ 项中需要，取(F6)前的
+$u\equiv-C_0\bmod p$ 即足。
+由(M4)它是原固定分歧点的可写有理函数，且常数一。
+由(N2),(N4)于原低窗分别归一 $U,V$，(F3)的完整输入现在为
+$$
+ \begin{aligned}
+ \mathcal A_{N,p}&=
+  [t^N]fJ\,U_{\rm br}^{p/2} V_{\rm br}^{-(p+3)/2}\pmod {p^3},\\
+ \mathcal A_{d,p}&=
+  [t^d]fJ\,U_{\rm br}^{p+1/2} V_{\rm br}^{-p-2}\pmod {p^2}.
+ \end{aligned}                                                \tag{N5}
+$$
+两有理核均取常数一的正规幂；$x^{p-4}M_\phi$ 的 $x$ 次幂
+属 $12\mathbf Z$，在所选 $P_0$ 盘内是 $w=32t^3$ 的函数。
+原 $f$ 三重零使矩阵替换从未越过(F2)准确低窗。
+在 $g_{1,p}\in p$ 时取任意同精度代表，原两条共同分子为
+$$
+ \frac{\mathcal U_1(\Xi_{k,p})}{p^2}
+ \equiv k\gamma\mathsf a_p \frac{\mathcal A_{N,p}}{p^2}
+       -\mathsf b_p\frac{\mathcal A_{d,p}}p
+                                      \pmod p,\qquad k=1,2 .  \tag{N6}
+$$
+这里先以(N5)在所指精度整合，再在已有整性下除。
+与(M7)相比，(N5)还把前缀中的 $A$ 与原 $S$ 的三位分别
+完全还原到实际分歧主部及付清的 cusp 多项式。原水平 $f$、
+$\mathsf a_p,\mathsf b_p,\gamma$ 及(G4)的两种符号均照旧。
+(N6)所需的跨素数非零性仍待证明。

@@ -107,3 +107,14 @@ Only the actual terminal public run may establish its production outcome.
 Neither this activation nor the small software PASS establishes the
 original finite-prime geometric gate, and neither would by itself finish
 the topic's infinitely-many-primes theorem.
+
+## 4. Actual startup identity
+
+The activation commit is `84917b3eab61681c70cf8f01112139eb0b6288df`.
+The actual push run is [46139352999](https://github.com/Rogerhu12/math-research-public/actions/runs/46139352999),
+job `140961628765`, attempt 1, created at `2026-11-28T11:19:44Z`.
+The root fetched both run and job metadata independently. At the
+`2026-11-28 11:20:00 UTC` checkpoint, checkout succeeded and the pinned
+image pull was in progress; the mathematical authentication step had not
+yet started. Actual source authentication and acceptance remain to be read
+from this run. No production PASS is inferred from its startup.

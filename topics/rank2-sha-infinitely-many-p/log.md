@@ -352,3 +352,9 @@ v16完整终态已实推9b1e51d48cec66caa41523a299ed7adb11bf2eb8（11:17:35 UTC�
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:19:20 UTC到663cd631138a8c5ca86f5fc3f4fb97474ce6b7db，私库2026-11-28 11:19:14 UTC到8681d424fe8da3685d313adbad010f900dfd4da9；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3239/46603642B/treef4212ab33ae8e6a81b2204f688b6762c5d7feaa9，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 11:19:36 UTC到cee7806452c79d516e8fa04e6a450569767db953，私库2026-11-28 11:19:31 UTC到1fffbd2935d3f8dcaffb9a64140dfc9f0ebf1fb0；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3239/46603642B/treef4212ab33ae8e6a81b2204f688b6762c5d7feaa9，无>5MB。
+
+## 2026-11-28 11:20:33 UTC — R1067 §§44–45 全两/三位与v17启动身份
+
+root逐式手核N1–N6：原g下降、两cusp去常数、Taylor首列p位、X1两级极与λ消去、8x受迫项、两cusp同时次数界与−uP_m低窗、三位正规幂精度。保全原f与两canonical；无非零断言。v17已实推84917b3eab61681c70cf8f01112139eb0b6288df（11:19:42 UTC），两次非FF均立即双pull/rebase后第三次成功，四README未变。root亲取run46139352999/job140961628765实际11:19:44创建及11:20:00 image pull状态；来源注§4/H已记。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:20:45 UTC到26f96b5e55016631bce704edb1f49a16a421181e，私库2026-11-28 11:20:39 UTC到60af52d2d7dc6e412c2702a73b1ec9c5a366e8e1；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3243/46665686B/treef2f9aa17dde1af70779028638c48d687b2a925a6，无>5MB。
