@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-all-SS-CM-readout.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-global-finite-reconstruction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -34,29 +34,25 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1156–60](results.md)原同根raw/SV全noncusp及GL2/rank1下降、crossed J_n给Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。R1160原C2/C3 lifts、λ=−β(c)/2、transvection Newton给dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n；n2除43/127、两例n5，全p^r三中心及v_d∞/λ∞均保。完整ordered/crossed/arith式沿原文；B_n一般conjugating-path局部读数仍开。
 
-R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0−n²Σ Sym¹²(ψ_C⁻¹)Z0(E/C)，ordered/BCH同式；ψ_i⁻¹在原dR基为ω_i↦ω/2、η_i↦η−e_iω/2，exact项保至比较。不是v_n单点乘法；一般B_n/原F0仍须实际读，三中心λ∞不删。
+R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0−n²Σ Sym¹²(ψ_C⁻¹)Z0(E/C)，ordered/BCH同式；ψ_i⁻¹在原dR基为ω_i↦ω/2、η_i↦η−e_iω/2，exact项保至比较。不是v_n单点乘法；一般B_n显式值仍继续，原F0另有R1175有限算法，λ∞不删。
 
-[R1147 §§17–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)进一步付真正连续all-vector moment与原primitive最高整塔的同源运输。Λ°是模商lim Rr[E[p^r]]/Rr[0]，非环商；原根过渡y_Q=∏_(pP=Q)x_P^p给固定norm来源，无有限标签任意TpE提升。全部非零点Tate orbit计g而非φ(g)，故Mprim_d=(1−p^d)Mtilde_d，d4/8/12；原I_d(e|N)给唯一零次ρ，完整ordered二次修正保留。群尺度(a,b,a;ab,ab,ab)，a=1−p⁴,b=1−p⁸，将λ0=21/11认回λ∞。原S/U的Z[1/6]恒等式在全部p^r点成立，含非primitive/非自由rank1；逐层实际完成Gcorr和normquotient后，H0/H1Zr0才给唯一相容中心。R1159/60整cochains及n2/n5未平滑识别原最高Sym12TpE(2)塔。它不是raw各槽任意四线分解逐项兼容的断言。
+[R1147 §§17–20](results/R1147-original-canonical-moment-Heisenberg-lift.md)真实连续all-vector/primitive塔、Λ°模商与norm过渡、Mprim_d=(1−p^d)Mtilde_d、完整ρ/群尺度/二次gauge及全p^r S/U已付。D12整log-exp jet秩90，mom_d=d!pr_d、双槽i!j!，所有GL2/同源/过渡保留。详细公式及scope逐字在本次前态，不把fixed raw分解任意兼容或finite标签lift冒成TpE map。
 
-**仍须继续**：该实际连续对象的period、同根/中央gauge、PD pullback及有限moment/逆极限必须在原43格所需精度比较；R1155.87的normal carry未消。R1160的一般q仍要实际读取b(q⁻¹T′q)，不能由Tate路径、复共轭短字或H¹唯一性补数。当前是原F0 z12/低中央系数及完整深盘，非再次构造抽象lift。
+**当前继续**：原period/格/同根gauge与PD比较已付；R1155.87高carry完整保留。R1160一般共轭路径的显式读数仍可作符号路线，原F0全部槽已有R1175独立有限算法；实际目标组合非零、global subtraction及完整深盘仍未付，不再重造抽象lift。
 
 [R1157 §§10–12](results/R1157-original-integral-SV-Manin-triangle-filling.md)原n2来源已全付：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²；27项权6/−2/2及−1/256，κ4/κ8单位，v2仅43/127例外。真实两切线/并发三线及全根相位沿原文。三次闭点T0约化阶p²−p+1，使全部Ep差leading单射；七行(u,1−u)坏阶皆1/(p²−1)，全部R†浅域适用。CM时Q=[α]P给共同z形式源，ψz=z^p不保Ep理想。完整constant/五项gauge和高normal项沿[本次逐字前态](open-archive-2026-11-28-before-pointed-Miller.md)；一般Frob/原F0继续，不重作这些分解。
 
-[R1147 §20](results/R1147-original-canonical-moment-Heisenberg-lift.md)原连续moment有限整jet、D12秩90、全GL2/Galois/同源log-exp及各层过渡已付；mom_d=d!pr_d，原双槽需i!j!而非12!，原Λ°模商与实际pointed源全保。完整式沿原文，不能从单层finite permutation rational map虚构TpE箭头。
+### 原完整 Frobenius 的有限读取与实际非零门
 
-### 原实际 finite Frobenius 与尚待原 F0 中央读数
+[R1175](results/R1175-original-global-connection-finite-Frobenius-reconstruction.md)原最低residue杀ΔT=c，H0杀其余差，连接+pureΦ唯一锁全部43 Frob。全几何Teich点整格给vΦ≥−14/vΦ⁻¹≥0；KT给p¹⁴Φ模p^m极阶D(m)=2pm+6(p+1)。有限线性候选树保真分支、linearD保dagger，目标精度singleton必有限出现；pure输入由−1 fibre矩阵+同算法取得。全部中央/γ5无外部未知位，good未分歧点可终止读任意精度；尚未运行，非零/global减法/whole盘继续。
 
 [R1149–50](results.md)付同一原43塔的关联连接和真正相对 Frobenius：u=pt 下完整整 Taylor、有限 q_t、λ/binomial 及 CM β 底参数全部保留。a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，h8=3a3b5/8；Gaussian粗次数1/2/3、cubic1/1/2。不能将首数字零当 whole 盘零。
 
 [R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付H¹(Qp,Heis)↔Fp³。R1152 §§1–13付原Θ的绝对三槽 r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25，其中βi=B_(p−i)、J=Har_p(1,3,4)。真正障碍rs h−zab；r/s为零时原七支仍保。Gaussian最高为(256/25)δ³c_g⁶{5β3β5 z12−3(J+2β3β5)x4y8}，cubic将后项改成(J+2β3β5)λA*y7/2。未付这些同源组合及所有深盘。
 
-[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付实际U_E=4δc_g,★²β★²(γ_E/γ★)²及U/U²完整Kummer→FL尺度。a=U_E Q1(β_Et)、b=U_E²Q2(β_Et)+8δ²s/11；Gaussian x4/y8与cubic y7都已准确校准。Fp generic SS存在仅用于p>C_SS，需global基时取max(C_SS,C_cyc)。η★=U★γ★⁻²只在β3好、或p4k3且β5好时=1；两β坏不外推。主要未知是同一F0 z12及较低中央项。
+[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付实际U_E=4δc_g,★²β★²(γ_E/γ★)²及U/U²完整Kummer→FL尺度。a=U_E Q1(β_Et)、b=U_E²Q2(β_Et)+8δ²s/11；Gaussian x4/y8与cubic y7都已准确校准。Fp generic SS存在仅用于p>C_SS，需global基时取max(C_SS,C_cyc)。η★=U★γ★⁻²只在β3好、或p4k3且β5好时=1；两β坏不外推。同一F0全槽现可由R1175有限读取；指定同源组合非零仍未付。
 
-[R1155 §§1–12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原raw D的rev/BK、完整finite Li和两输入ε carry、S3/五项/ordered与BCH全项已付；Gaussian单块的h12−(L3/L1)h4及b8单位不代原weighted F0。全部nilpotents/原系数见原文和本次逐字归档，不重做；分歧输入只称fibres间运输。
-
-[R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)扩到原坏参数：w=u^p,d=1−w，κ=max(v_p(w),v_p(d))≤1/3时，Li_r†=ℓr/d−r p wℓ_(r+1)/d² modpO_L；实际v=w+pε的运输保两个log二次项及中央pε³(1−3w)/(6w²d²)。全部Eulerian/Taylor尾已界；非整坐标仅为坐标误差，后续乘法/Cor必须提高精度。任意深near0若同一实际提升v=w(1+pα)，则整三槽为(−α,(wα−ℓ1)/d,−ℓ2/d−wα²/(2d))。近1/∞用完整Coleman S/J身份及同一第二输入；不能任意选各项ψ。原n2实际阶已由R1157 §12支付；真实Ep/PD格比较继续。
-
-[R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原CM全部参数共享ψσ,z→z^p；u/1−u=z^m unit四类corner的Rψ在取jet前整，good/near0/near1/∞全部constant、log乘积、半平方和五项carry保留。只付源形式jet，实际Ep理想不被ψ保持；ψ(g^r/r!)/p^r在g0仍留(−1)^r/r!，完整式沿原文/本次逐字归档。不能用十二次coefficient jet替function高block，原PD/43格读取继续。
+[R1155 §§1–14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)同一个raw D的rev/BK、finite Li、两输入ε carry、完整S3/五项/ordered/BCH与全部bad-corner范围已付。固定CM共同ψ下ordinary β、所有高normal/Frobenius carry、原系数与精度界沿原文及逐字前态保全；不以coefficient jet12替function block，不造ramified场Frob。Gaussian单块单位不代指定weighted原组合。
 
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
@@ -76,11 +72,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；同源整比较已由R1163–66给出，按实际normal与中央gauge继续读值。
 
-[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)全部有限分歧L/坏u的原whole Bst比较已付，G_st=(logu,log(1−u),−Li₂u)，N²/半平方保留，不以Bdr单位冒Bst单位、不造OL场Frob。原43整frame现由R1163–66支付，实际中央按R1168读，完整旧式/来源沿逐字前态。
-
-[R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)真实LT的完整PD窗口已付：e=p²−1,g=z^e−p，唯一z^jγ_r基；全r≥p尾严格控制。适配FL基e_b权w_b及F_b=p⁻w_bφe_b时，ev p⁻iφx模p只留r=i−w_b、j<p，系数(−1)^r/r!·σ(a_bjr)ϖ^(pj)F_b；全向量零iff这些a全0。43格/二次tensor的normal界14/28，原tensor/角色χ→χp相容。raw rational dilog的同源整frame/gauge现由R1166支付，R985高carry不删；完整证明/公式沿原文及本次逐字归档。
-
-[R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)原tame projector及e-block给m_jr=F_j^(r)(p)=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)；所需precision k≤i、p^(i−k+1)，滤过交R∩Fil^aS=g^aR精确。若同一适配frame，窗口阶乘消为(−1)^(i−w_b)σc_(j+(i−w_b)e)；最高实际degree28e+p−1，不能用coefficient jet12替代。同源frame已付，继续原中央实际值，不对已成Frob矩阵再施φ。
+[R1155 §§15–16、R1162](results.md)原whole Bst/43整frame、真实LT的全部PD窗口、角色χ→χ^p、高γp尾与normal14/28均付；原e-block m_jr=F_j^(r)(p)、r!与各层所需precision沿原文及逐字前态保全。actual最高function阶28e+p−1不降成coefficient12；全部模型/σ/PD pullback仍保。
 
 ### 原第二中央分量的实际完整读数
 

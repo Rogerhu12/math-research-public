@@ -6,21 +6,21 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：4d492a6a4caffa5b967f33ca2f4c2cc7c3ead9c9**（2026-11-28 17:55 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:55 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：f9895278481bc26d2ed2270320eec1145f92f94f**（2026-11-28 17:58 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:55 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 17:55:09 Asia/Taipei，Actions run46132674481/job140941081619，blob:none浅clone后真实pull --rebase至d3e8e84a且与origin/main相同；两README diff空、全文hash已核，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤18:45、pull≤18:55。本地17:54仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-all-SS-CM-readout.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-global-finite-reconstruction.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域/小惯性C³未全关。R1128 good≥floor(p/16)+3、forced Ω(p/logp)、候选O(p^1.5logp)，不以惰性CM推Q-CM；R1112小aux仍大。R1115原abelian−1整支保留。
 
-[R1131–46](results.md)原class4全cusp/phase、D(α)完整算术五项、原Eisenstein单位、proper修正杯积与proper Heis p³均沿[逐字前态](handoff-archive-2026-11-28-before-canonical-primitive-alignment.md)保全。Cor逐陪集乘积不变成Norm乘积；未修正非零socle、MW d0/1、twists=J(K)[p]ω⁻⁷及B16门未撤。R1156–60现付真正raw/最高矩来源及实际算术未平滑；一般Frob仍待读。
+[R1131–46](results.md)原class4全cusp/phase、D(α)五项、Eis单位、proper修正杯积/Heis p³已付；完整式/source沿逐字前态。Cor不变Norm乘积；未修正socle、MW d0/1、twists=J(K)[p]ω⁻⁷与B16门全保。
 
-[R1147 §§1–20](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment/proper Heis/43格FL及noncusp已付。实际norm根塔给Mprim_d=(1−p^d)Mtilde_d，原ρ及中央二次gauge保留；全p^r S/U、Gcorr/n2/n5识别最高整塔。§20 Λ°≅I，D12的整log/exp jet秩90，原mom_d=d!pr_d，双槽i!j!，全部GL2/过渡相容。仅finite coefficient，不删raw period/高function jets；完整式沿open/原文。
+[R1147 §§1–20](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment/proper Heis/43格FL及noncusp已付。Mprim_d=(1−p^d)Mtilde_d，原ρ/二次gauge保留；全p^r S/U/Gcorr/norm识别最高整塔。Λ°≅I、D12整jet秩90、mom_d=d!pr_d与双槽i!j!已付；仅finite coefficient，不删raw高function jets，完整全GL2/过渡式沿原文。
 
-[R1148–53](results.md)原cusp/global基、relative Hodge/Frob、finiteFL尺度全沿open/逐字前态。Ccyc=exp(9^(224·9⁴))；大aux affine实际存在，不代空集。β3/β5及J=Har(1,3,4)给真障碍rs h−zab，七退化支、最高同源组合、U/U²尺度/β底参数全保；两β坏不外推η★=1，原F0/完整深盘继续。
+[R1148–53](results.md)原global基/有限尺度已付；Ccyc=exp(9^(224·9⁴))，大aux affine实际存在不代空集。真障碍rs h−zab含β3/β5及J=Har(1,3,4)；七退化支、最高同源组合、U/U²及β底参数全保，两β坏不外推η★=1。
 
 [R1155–68](results.md)原whole Bst/43格、Miller/CM periods、PD normal/两开集SDR与raw/primed theta已付；高carry、fixed CM α、原ρ/gauge、primitive尺度、exact/shear/同陪集Cor全沿原文及逐字前态保留，不重列未付。
 
@@ -34,11 +34,13 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1170 §§1–10](results/R1170-original-supersingular-Brandt-common-kernel.md)实际SS晶体格Bℓ=ℓ^dTℓ保归一；整Hecke序提升及半稳定惯性界给Π0/Π2/Π4三族余有限单位理想。原Z一般有s¹⁴提升差；须按R1171的同abelian仿射差使用，保一般SS与实际辅助族的独立RHS读取，不能直接令Z=0。
 
-[R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
+[R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4保Tate n⁻⁴和正λ∞XT′；n2 corrected κ=(1+p⁴)31²/128、v2=3·11·31²/2¹¹单位。完整J含额外Tate crossed项，B/未平滑及V4真实功能式全付；裸Y⁴无S/U filling。最低端点的符号源仍继续，原F0另由R1175有限读。
 
 [R1171 §§1–13](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及quotient模p²首位给三槽完整仿射方程；最低BCH保−λ∞ΔX T/2。共同辅助族ℓ⁶≠1 mod p保原分裂域p-unit与k4单位，允许ℓ>p；Cayley–Hamilton补trace，三受限族均为单位理想。一般SS abelian现由R1173支付，n2最高/Π2 corr由R1174支付；足够辅助族corr及最低cyclotomic独立值仍待实读。
 
 [R1173](results/R1173-original-abelian-moment-reconstruction-from-Brandt-affine-equations.md)BM02完整分类排权6/10 p-new的惯性1⊕ω^(d+1)，故Wℓ,d=(ℓ+ℓ⁻ᵈ)−Tℓ^(d)在同μ6外族生成单位理想。原Norm与有限Δ给W A=D，D只用coefficient crystal、实际quotient modp²位置及同源，正号/σ/shear全保；有限重建终止，未实际运行。T_i=24B_(p−5)/5由原weight-five abelian比较独立付所有p>37；中央corr读值及原全局/whole盘排除仍开。
+
+[R1175](results/R1175-original-global-connection-finite-Frobenius-reconstruction.md)原最低residue杀ΔT=c，H0杀其余差，连接+pureΦ唯一锁全部43 Frob。全几何Teich点整格给vΦ≥−14/vΦ⁻¹≥0；KT给p¹⁴Φ模p^m极阶D(m)=2pm+6(p+1)。有限线性候选树保真分支、linearD保dagger，目标精度singleton必有限出现；pure输入由−1 fibre矩阵+同算法取得。全部中央/γ5无外部未知位，good未分歧点可终止读任意精度；尚未运行，非零/global减法/whole盘继续。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
