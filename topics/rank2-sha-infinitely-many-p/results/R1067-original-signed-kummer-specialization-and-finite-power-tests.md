@@ -739,3 +739,47 @@ $$\begin{aligned}
 \end{aligned}\tag{BA2}$$
 确实 $x^ps^{p-1}$ 唯一主部为 $s^{-(p+1)}$，
 $y^ps^{p-1}$ 唯一主部为 $-s^{-(2p+1)}$。首式主部相同只差常数；次式全奇，差常数为零。这些真实 $O(p)$ 极阶函数仍须在完整原17驯泛函内评价。
+
+## 86. 原完整驯微分的三个第一次 Cartier 像
+
+**已证明。** 沿用 §§82–85 的原 $E_1$、全部原 $f$ 挠标记、$\nu,g,H,c_p$。对非零原始 $f$ 挠点 $P$ 定义全局有理微分
+$\kappa_P(Q)=K_P(Q)\omega(Q)$，其中
+$$
+ K_P(Q)=X(P)-\frac{y(Q)-y(-P)}{x(Q)-x(-P)} .
+$$
+特征零的完成 $\zeta$ 加法式给 $K_P(Q)=X(Q)-X(Q-P)$；这里任意点的 $X$ 只在此加法式指完成 $\zeta$，约化后始终使用上面的有理式。其在 $O,P$ 的简单留数依次 $+1,-1$，原点首项 $s^{-1}+X(P)$。
+沿(AX1)，$\nu=-\sum_t\varepsilon(t)\kappa_{-T_t}$，其中
+$\sum_t\varepsilon(t)X(-T_t)=0$ 由原中央 $L$ 零。
+令 $\mathcal C$ 为 $E_1$ 的绝对 Cartier。对 $r=0,1,2$ 有
+$$
+ \nu_r:=\mathcal C(g^r\nu)=
+  -c_p^{-r}\sum_t\bar\varepsilon(t)X(-T_t)^r\,\kappa_{-T_t}.       \tag{BB1}
+$$
+在各实际 $-T_t$，Cartier 将简单留数
+$\varepsilon(t)g(-T_t)^r$ 取 $p$ 根。由(AZ3)与
+$c_p\in\mathbf F_p$ 正是右边的留数。在 $O$，$\nu$ 正则而
+$g$ 极阶 $p$。$r=0$ 时 Cartier 仍正则；$r=1,2$ 最多产生
+$r$ 阶极点，由局部挑取 $s^{pj-1}ds$ 后变为 $s^{j-1}ds$ 可见。
+$\mu_6$ 满足 $[u]^*\nu=u\nu,\ [u]^*g=ug$，因为
+$\varepsilon(u)=u$；Cartier 后权为 $u^{-(r+1)}$。$r=1$ 时
+这不许简单极的平凡权；$r=2$ 时不许简单极的平凡权或双极的
+$u^{-1}$ 权。右端在 $O$ 的可能简单留数亦消失，因为
+$\sum_t\bar\varepsilon(t)X(-T_t)^r$ 在 $t\mapsto ut$ 时的权为
+$u^{-1-r}\ne1$。两边差全局正则，而 $\omega$ 权 $u$ 与
+$u^{-(r+1)}$ 在 $r=0,1,2$ 都不同，所以差为零。
+
+在原点完整形式域内，$s=g-H^p$ 给
+$$
+ \mathcal C(s^r\nu)=
+ \sum_{j=0}^r(-1)^j\binom rj H^j\nu_{r-j}.                        \tag{BB2}
+$$
+这是实际全源，保留每一驯标记及所有混合 $H$ 项。
+在第二次 Cartier 之前，所用三个全局系数均已只涉及固定代数
+驯点及其原 $X$ 值。从斜率式及原严格坐标在这些低次与不变对数一致，
+$$
+ K_P=s^{-1}+X(P)+x(P)s-y(P)s^2+x(P)^2s^3-x(P)y(P)s^4+O(s^5).
+$$
+故(BB1)的首许可幂分别为 $s^{4-r}ds$，其系数准确是
+$\sum\bar\varepsilon xy,\ -c_p^{-1}\sum\bar\varepsilon Xx^2,\
+c_p^{-2}\sum\bar\varepsilon X^2y$，每个点均为 $-T_t$。
+本节未把这些首许可系数的非零、或其余混合 $H$ 项的总和非零作为已证结论。

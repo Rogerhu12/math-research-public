@@ -420,3 +420,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §25：两条原Gauss行与全部扭点的真实代数导数
 
 已证明：原首圈前i个jets经整插值读a₂模p^i；固定极的完整部分分式与原Gauss–Manin连接给全部x/y/e移动，两个真实Gauss行准确读中央两位。原参考单位、p⁴尾界及真七乘法合并均保，尚未证完整分子无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §86：原完整驯微分的三个第一次 Cartier 像
+
+已证明：原三个Cartier像严格为固定标记核(BB1)，O点极及正则歧义由实际µ6权消除；(BB2)保留所有H混项，三条首许可系数准确给定，未推整体非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
