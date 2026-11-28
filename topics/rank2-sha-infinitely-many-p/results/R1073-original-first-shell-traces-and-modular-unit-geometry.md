@@ -378,3 +378,171 @@ $$ \mathscr L_{k,n}=6\lambda_{k,p}
 $n=0,1$ 的两行分别为 $6\sum e$ 和 $-6\sum(y+xe)$，保留全部原权、点与相位。每个 $e$ 是通用向量扩张的唯一扭提升；其加法由 zeta 加法给
 $$ e(P+Q)=e(P)+e(Q)+\frac{y(P)-y(Q)}{x(P)-x(Q)}.$$
 (AH3)可直接作用于这些真正复合点，结合原(R3)的 $P,w$ 得全部高阶。以上仍未证明(AH6)的原分子在无穷多个 $p$ 上非零。
+
+## 26. 同一有理二次扭曲的原负权、固定数域及普通分母
+
+**已证明。** 沿(AF)–(AH)全部原标记。记
+$A=\operatorname{area}(\Lambda_1)/\pi,\ \Lambda_1=\varpi_1\mathcal O_K$；
+这里面积分母的 $\pi$ 指圆周率。取 $Q_*=Q_p=\varpi_1/p$。
+对 $j=n+1$ 且 $d\nmid j$，定义完整primitive Hecke角色
+$$
+ \Psi_{k,n}((\alpha))=\alpha^{2n+1}\epsilon_k(\bar\alpha)
+                 [\alpha\bmod p]_{\rm T}^{(p-1)j}. \tag{AI1}
+$$
+在全局单位上有限两因子乘积为 $u^{1-2j}$，恰与无穷部抵消。
+原 $c_1=6,c_b=390$ 各自的坏支撑全保留，$p$ 处非平凡。
+
+由(AH8)原Betti扭标记及 $\eta=x\omega$ 周期为 $-\bar\lambda/A$，
+除 $P(v)$ 后的格和点为
+$\Lambda-w\bar\Lambda/A,\ T-w\bar T/A$。
+在Hecke正则化的绝对收敛域对归一格每项取 $w$ 系数，在 $w=0$
+导数系数为 $(1+s)_n/n!$ 乘
+$A^{-n}\overline{T+\lambda}^n/
+((T+\lambda)^{n+1}|T+\lambda|^{2s})$。
+取 $s=0$ 解析延拓，该系数为一；角次数 $2n+1$ 非零，无平凡极。
+这也给Kronecker Laurent–Taylor对角式的本次取系数。
+CRT $r=pa+c_kh$ 的 $\epsilon_k(p)=-1,\ \xi(c_k)=1$，
+(AH8)的 $7-1$ 和六个理想生成元全部保留，故
+$$
+ \mathscr L_{k,n}=-36c_kp\,\lambda_{k,p}A^{-n}
+        \frac{\bar\varpi_1^n}{\varpi_1^{n+1}}L(n+1,\Psi_{k,n}). \tag{AI2}
+$$
+理想求和初得共轭角色，取共轭理想即显示的 $\Psi_{k,n}$。
+同(AG3)给
+$$
+ \mathcal A_b(\rho^{-j}-1)=\frac{\lambda_{b,p}}{\lambda_{1,p}}
+                 \frac{L(j,\Psi_{b,j-1})}{L(j,\Psi_{1,j-1})} \tag{AI3}
+$$
+于每个已证非零的参考；$c_b/c_1=65$ 已相消。
+$j=1$ 是实际非平凡驯 $p+1$ 阶首圈，
+$j=p^a$ 的全部层仅用互逆两条驯角色。
+
+置 $g=(p+1)/2,\ j_m=(2m+1)g$。
+(AI1)的 $p$ 角色恰为
+$\chi_{p^*}(\mathfrak a)=(N\mathfrak a/p)$，
+$p^*=(-1)^{(p-1)/2}p$。因为 $3\mid j_m$、
+$\epsilon_k(\bar\alpha)=\epsilon_k(\alpha)^{-1}$，
+$$
+ \Psi_{k,j_m-1}=(\psi_k\chi_{p^*})^{2j_m-1}. \tag{AI4}
+$$
+$m=0$ 是 $L((p+1)/2,\psi_k^p\chi_{p^*})$。
+对固定 $0\le m<i,\ p>2i+3$，
+(AG4)中的 $j_m/d=m+1/2$ 前两 $p$ 进位为 $g+m,g-1$，
+$j_m-1$ 的两位为 $g+m-1,m$。
+Lucas给二项为单位，$j_m$ 亦为单位，
+所以实际参考估值为 $j_m/d-(j_m-1)$。
+$p$ 进上标的Lucas式可先用正整近似上标再取极限。
+
+对 $\sigma\in G_K$ 令 $s$ 为其在 $E_1[c_kp]$ 的兼容CM标量。
+经(AH8)两个指数换元 $(a,h)\mapsto(sa,sh)$，得到
+$$
+ \frac{\sigma(\mathscr L_{k,n}/\lambda_{k,p})}
+      {\mathscr L_{k,n}/\lambda_{k,p}}
+       =\epsilon_k(\bar s)(Ns/p),
+$$
+为零时读作乘法等式。
+由(J),(Q3)的原Hecke descent，
+$\epsilon_1(s)=1$ 且
+$\epsilon_b(s)/\epsilon_1(s)=\theta_b/(\sigma\theta_b)$，
+所以这次反 $\epsilon$ 的真正因子是 $\sigma\theta_k/\theta_k$。
+Weil配对给 $Ns$ 为 $\sigma$ 的模 $p$ 圆分作用，
+故 $(Ns/p)=\sigma(\sqrt{p^*})/\sqrt{p^*}$。
+取正实 $\tau_p$：$p^*>0$ 时取 $\sqrt p$，
+$p^*<0$ 时取 $\sqrt{3p}$；
+后者等于某符号的 $\delta\sqrt{p^*}$，
+$\delta=\sqrt{-3}\in K$。两者给同一 $G_K$ 特征。
+置 $\kappa_n=(1-\omega)(-\omega)^n$。
+由 $\varpi_1=\Omega_{\mathbb R,1}/(1-\omega)$，
+$\bar\varpi_1^n/\varpi_1^{n+1}=\kappa_n/\Omega_{\mathbb R,1}$。
+理想共轭给显示的中心 $L$ 值为实，因而
+$$
+\begin{aligned}
+ D_{k,p,m}&=\frac{\mathscr L_{k,j_m-1}}
+  {\lambda_{k,p}\theta_k\tau_p\kappa_{j_m-1}}\in\mathbb Q,\\
+ R_{b,p,m}&=\theta_b^{-1}
+  \frac{L(j_m,(\psi_b\chi_{p^*})^{2j_m-1})}
+       {L(j_m,(\psi_1\chi_{p^*})^{2j_m-1})}
+   =\frac{D_{b,p,m}}{65D_{1,p,m}}\in\mathbb Q .
+\end{aligned} \tag{AI5}
+$$
+$\lambda_k$ 由 $M^{-1}$ 实际标记决定。
+
+令 $u=-g\log_p\rho$，
+$F(x)=\mathcal A_b(\exp(ux)-1)/x^2$，
+$F(0)=u^2[T^2]\mathcal A_b$。若 $a_k=[T^k]\mathcal A_b$，则
+$$
+ [x^s]F=\frac{u^{s+2}}{(s+2)!}
+       \sum_{k=2}^{s+2}k!\left\{\!{s+2\atop k}\!\right\}a_k .
+$$
+$p>2i+3$ 时，全部 $s\ge i$ 的估值至少 $i+2$：
+$s+2<p$ 时直接可见；其余用
+$v_p(N!)\le(N-1)/(p-1)$。
+对固定节点 $x_m=2m+1$ 取普通Lagrange权
+$b_m=\prod_{0\le h<i,\ h\ne m}(-x_h)/(x_m-x_h)$，
+它们都是 $p$ 单位。由(AI3),(AI5)，同一个真实中央有普通有理近似
+$$
+ \sum_{m=0}^{i-1}\frac{b_mR_{b,p,m}}{(2m+1)^2}
+ \equiv\frac{\lambda_{1,p}}{\theta_b\lambda_{b,p}}
+     (g\log_p\rho)^2[T^2]\mathcal A_b\pmod{p^{i+2}} . \tag{AI6}
+$$
+固定 $i$ 时全部 $p$ 驯角色、权、导子如(AI4)。
+
+### 逐项分母与实际高度
+
+在一个固定数域取良约化模型。对
+$T=[h]Q_p+[a]Q_c$，其在每个有限处的prime-to-该处部分非零，
+故 $x_T,y_T$ 乘固定数后全整。
+又 $e(T)=e(R)+e(A)+(y_R-y_A)/(x_R-x_A)$，
+$A=[a]Q_c,\ R=[h]Q_p$。
+在 $\ell\ne p$ 的好模型上，$R$ 为非零prime-to-$\ell$ étale挠点，
+$\psi_p$ 的零简单；原全除函数
+$-D^2\psi_p/(2p^2D\psi_p)$ 给 $e(R)$ 的整性。
+等价地，(AH8)的通用向量扩张上 $p$ 可逆，
+$R$ 的唯一 $p$ 挠提升在整模型内。
+$R$ 约化阶为 $p$，$A$ 的阶除 $c$，故不会相等或互为负；
+加法分母不增加这些好素位的代价。
+
+在 $p$ 处，(AG8)及 $v_p(t_R)=1/(p^2-1)$ 给
+$v_p(e(R))>-1$：各阶 $H$ 用其显式积分，
+首个 $p^a$ 分母的最小次数至少 $p^a$；
+$a\ge2$ 时该次数为 $5p^a$（$a$ 偶）或 $p^a$（$a$ 奇）。
+$x_R^2/y_R$ 估值为 $-1/(p^2-1)$，加法剩余项至多此极。
+因此有固定 $C$ 使 $Cp\,e(T)$ 全整。
+
+令 $\partial=\partial_w=(2/9)D_vP^2\partial_v$，
+添 $U$ 为 $\eta$ 沿 $e_0$ 的系数。
+由(R2),(AH3)，$\partial$ 在
+$\mathbb Z[1/6][v,P,U,x,y,e]$ 上为一个固定多项式导子，
+例如
+$\partial P=P^2(U-2v^2P/9)$，
+$\partial U=P^2(vP/3+2v^2U/9)$。
+$\partial^n(Pe)$ 总度数为 $O(n)$；
+$n\ge1$ 时 $e$ 次数至多 $n$，因为首步至多一，
+其后每步至多加一。
+中央 $[w^n]Pe=\partial^n(Pe)|_0/n!$，
+故扩大一次固定 $C$，
+$C^{n+1}p^n n!\mathscr L_{k,n}$ 均为代数整数。
+对固定有限的两目标和参考取同一个 $C$。
+结合(AI5)及准确参考估值，$n=j_m-1$、
+$v_p(n!)=m$，可以使
+$$
+ I_{k,p,m}=C^{n+1}p^{n-m}\frac{n!}{p^m}D_{k,p,m}\in\mathbb Z,
+ \qquad p\nmid I_{1,p,m},\qquad
+ R_{b,p,m}=\frac{I_{b,p,m}}{65I_{1,p,m}} . \tag{AI7}
+$$
+$p$ 外只额外除固定 $\lambda,\theta,\kappa_n$ 及 $\tau_p$；
+后者除 $p$ 外最多在 $3$ 处有固定代价。
+$p$ 处由(AG3),(AG4)得 $v_p(D_1)=m-n$，目标至少此值，
+所以显示的整数确实 $p$ 整，参考是单位。
+
+在任一固定小复 $w$ 盘，归一格形状共紧；
+非零 $cp$ 挠标记距格至少固定 $1/(cp)$ 的倍数。
+$\mathcal E_1^*(T)$ 的唯一极为格点简单极，故一致 $O(p)$。
+所有 $h,a$ 共 $O(p^2)$ 项，Cauchy给
+$|\mathscr L_{k,n}|\le C^{n+1}p^3$。
+所以
+$\log^+|I_{k,p,m}|=O((n+1)\log(np)+\log p)$，
+(AI6)全 $i$ 项的普通共分母对数有
+$O(i^2p\log(ip^2))$ 界。
+此界超过要比较的 $(i+2)\log p$；
+本节未由有理性、实性或这个高度界推出无穷 $p$ 的中央非零。

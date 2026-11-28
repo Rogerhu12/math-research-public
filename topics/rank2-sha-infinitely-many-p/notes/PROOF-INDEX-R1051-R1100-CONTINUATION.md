@@ -177,3 +177,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §90：原全盘准周期及每一位的显式二项式公式
 
 已证明：以单位阶乘块积连续性显式构造唯一μ∈Zp×、λ=0，给μ≡−b_(pn_r+σ₀)/b_n_r mod p^(2r+1)，完整证明全盘H=red(μ⁻¹ζ(ℓ)−ℓ(s^p)/p)，无未证外部输入。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1073 §26：原二次扭曲负权的有理节点与完整分母
+
+已证明：原负权全Hecke公式及共同二次p角色给真实有理节点(AI5)，普通有限差分读原a₂任意固定精度；逐项构造整数及单位参考，实际高度O(i²p log(ip²))不足以推出无穷p非零。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
