@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGIC：全部无穷原输入局部源的实际完成](results/R149-supplement-actual-complete-infinite-genuine-local-collar-source.md)：实际46144088993/1四完整径向格、128角格、全n≥4194308/两真列/两sign完成。D=.09184711485636493、自然腰=.5259830156066113、公共C97=6.52218939352198、ASQ=.5354448409890977；原5.5门false，全部1774B/d4be3220…和private完整SHA保。
+
 - [AGLC：局部有限带完整实算与两个false门](results/R149-supplement-actual-complete-finite-local-collar-receiver-and-false-gates.md)：实际46143574106/1全60自然行完成；97..2^20/128角格/四径向格/两真列均保。D=8330545.46837212、公共C97=591563440.8444782，D<.01及C97<5.5两充分门false；完整2042B/c6456d0c…及私15MB/21MB身份保。更紧频移接收待，未授全逆。
 
 - [GDC：有向历史误差与完整正侧Grassmann逆](results/R149-supplement-signed-chronological-Grassmann-defect-and-verified-spectral-complements.md)：逐真实物理格先合并全部有符号Fréchet历史再取范数，PSD补矩阵以定向Gram证明谱界；严格新分母作用于真实BEP。先整件恢复原89packet/82frame/245matrix，再单独保存原失败第82格的新判定，继而1424双向图/1425节点/四全源映射。109whole+21历史、完整proof和执行源核过；原GG失败保，三新实际目标待。
