@@ -1,19 +1,19 @@
 {
-  "message": "ISP: prove true Phi fu common weight curve and stage symmetric collision u=1",
-  "parentCommit": "e5a152715c5297282697c6b40b72c2ef1cb4f4ca",
+  "message": "ISP: prove global W alpha chi polynomial coordinates and stage original ten by two",
+  "parentCommit": "c81a76206aa5627989fd1763cc7ff3639e457fe4",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-fu-single-y-common-weight-curve.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-single-y-original-scalar-cofactors-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-symmetric-u-one-original-Q-projections-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-symmetric-u-one-original-Q-projections-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-symmetric-u-one-original-source-review-8542.json",
-    ".github/workflows/invariant-subspace-8542-hk-symmetric-u-one-original-q.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-fu-curve-hk-uone-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-fu-curve-hk-uone-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-global-original-alpha-chi-polynomial-coordinates.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-alpha-chi-polynomial-coordinate-identities-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-alpha-chi-polynomial-coordinate-identities-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-full-original-ten-by-two-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-full-original-ten-by-two-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-original-sources-review-8542.json",
+    ".github/workflows/invariant-subspace-8542-w-alpha-chi-original-ten-by-two.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-alpha-chi-coordinates-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,6 +23,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-hk-symmetric-u-one-original-q.yml"
+    "invariant-subspace-8542-w-alpha-chi-original-ten-by-two.yml"
   ]
 }
