@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** fa37637f9cf03d3aa001763b3aa4abb6ea7e8c50（2026-11-28 12:40:27 UTC，Actions run46145807659实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46145807659-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 12:40:25 UTC/ef474109faf08ea1fa3f0469eacfa65b7dfb9483，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 12:03 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。13:03再探，旧故障保归档。
-- **终端断开后远端已读：** b7ff84587aa09aafcaf57832d3633af89e2372b9（2026-11-28 12:40:05 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 19f6af89334740755cfdfa8f9bbc7180541d96a0（2026-11-28 12:43:09 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-first-Phi-NPV5-whole-leading-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Phi-whole-t-three-means-lambda3-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -37,7 +37,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，真Pf全域已核。** 八原源付Pf，Δ0再付Φ；C1/C2/C4真Gram闭，旧错R/cofactor冻。正确17阶只余F99/F300各一次，≤399基点、整个Δ0≤4788不同规范点。ad00整K99首试180.077秒118780KiB/−14冻结，仅参数及单P三次返；P/M联合u-gcd、同Q/原八z均未返。F99/F300与Δ非零全保，换真新输入。
-- **Phi错链撤回，真t0/A0/B0/fu/α0及整ell=1/2全闭。** 错链/bf3/d825冻，d0χ6/8/8保。真I6十五×三；头权≤434、F权度≤444及原恢复给规范维≤1，05c1四行/两λ10保。[整ellhalf正式证](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-original-exclusion.md)：6ee不可约C20z和f77原C32z9，QQ首一新20×6²异于C20，互素得z9∈I6、全支空；当前Phi付2ell−1。新6a1整NPV五次最高矩阵首次120秒1GiB待返，仅真9乘子返回后给C开图13生成，C0全留。
+- **Phi错链撤回，真t0/A0/B0/fu/α0及整ellhalf闭。** 错链/bf3/d825冻；I6/F444/头434及原恢复规范维≤1，05c1两λ10保。C20z/C32z9互素付2ell−1。新整t参数：原三均值(f²,fV,V²)头=32uQ(2ell−1)/M²全单位，(λ,T)仿射头−Pf/P02²；权[t]上1,f,V三生成，原λ首一3且总(λ,t)度≤3。6a1首次1.894秒/0返整NPV最高C77，C开图13生成、C0保；转t原N1。
 
 ### rankH3原ess6
 

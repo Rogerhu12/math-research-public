@@ -14,6 +14,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi全t参数的三均值三生成与原λ首一三次](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-parameter-three-mean-generators-and-monic-lambda-cubic.md)：新付2ell−1使(f²,fV,V²)真头32uQ(2ell−1)/M²全域可逆；双向仿射变换后原均值商在权[t]上由1,f,V生成，λ的真实动作给总(λ,t)度≤3的首一三次。全图未空。
+
 - [R267：实际复相位因子、有限修改不变性与对数支符号](results/R267-appendix-complex-phase-factors-finite-changes-and-log-branch-signs.md)：复收缩保有理半群/全旗/平方强*接口；有限真实因子修改仅乘固定有界可逆Ht，任意log支修改仅给有理character与±号。两类修改均不改变单列紧性；真正无限协调相位仍开。
 
 - [R150：W/b0交叉头五次权覆盖与G开图精确I4](results/R150-appendix-unit211-W-b0-cross-zero-five-weight-cover-and-G-open-exact-I4.md)：三条原B1给G=(4u+5)(6u−1)(20u³−4u²−20u+9)/480及完整来源；detG变换给(f+g,P0,Craw,C3)。三个整零域与全部值条件保留，不宣称b0空。
