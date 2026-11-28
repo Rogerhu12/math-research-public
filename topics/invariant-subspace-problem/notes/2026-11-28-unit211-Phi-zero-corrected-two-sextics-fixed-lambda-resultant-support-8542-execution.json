@@ -1,0 +1,337 @@
+{
+  "schema": "isp-reviewed-first-execution-records-v1",
+  "jobURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46135498427/job/140949785183",
+  "execution": {
+    "elapsed_seconds": 2.4701421870000004,
+    "max_child_rss_kib": 47144,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "0c059c08cadb206abdd50843c6c7edc7a61309cf",
+        "before": "0c059c08cadb206abdd50843c6c7edc7a61309cf",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T10:30:42.810444+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46135498427",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "0c059c08cadb206abdd50843c6c7edc7a61309cf",
+    "source_exit_code": 0,
+    "source_git_blob": "ed0fc44e741f2482f4593b31ab22fa4f773cc241",
+    "source_sha256": "39631a64da054107209d296765b755e2fe25a685f5734cb5607165dd39100b7b",
+    "stdout_bytes": 3319,
+    "stdout_sha256": "b3378b1c92e0188808fefb28ba6e8032f824bf2da76083ea34f2c84c5c425783",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "actualConstantScalingCoefficientReturns": 5545,
+      "noOldActionOverlapFifteenRowCofactorOrHeadGCDGateExecuted": true,
+      "noPhysicalDOrItsNormInverse": true,
+      "omittedOldTopLevelProofStatements": [
+        [
+          27,
+          "Assert"
+        ],
+        [
+          29,
+          "Assert"
+        ],
+        [
+          31,
+          "Assert"
+        ],
+        [
+          111,
+          "Assign"
+        ],
+        [
+          114,
+          "For"
+        ],
+        [
+          116,
+          "For"
+        ],
+        [
+          127,
+          "For"
+        ],
+        [
+          134,
+          "Assert"
+        ],
+        [
+          138,
+          "Assign"
+        ],
+        [
+          140,
+          "Assign"
+        ],
+        [
+          140,
+          "Assign"
+        ],
+        [
+          141,
+          "For"
+        ],
+        [
+          152,
+          "Assign"
+        ],
+        [
+          152,
+          "Assign"
+        ],
+        [
+          153,
+          "For"
+        ],
+        [
+          161,
+          "Expr"
+        ],
+        [
+          258,
+          "Assert"
+        ],
+        [
+          260,
+          "For"
+        ],
+        [
+          261,
+          "Expr"
+        ],
+        [
+          269,
+          "Assert"
+        ],
+        [
+          271,
+          "For"
+        ],
+        [
+          272,
+          "Expr"
+        ]
+      ],
+      "onlyNonzeroRationalConstantScalingsUsed": true,
+      "originalLambdaDegrees": [
+        6,
+        6
+      ],
+      "originalNecessaryPrefixBytes": 12067,
+      "originalTotalDegrees": [
+        47,
+        33
+      ],
+      "primitiveIntegerModels": [
+        {
+          "degrees": [
+            42,
+            22,
+            6,
+            0,
+            0
+          ],
+          "sha256": "d172174636dda727467a93a1d6da37da03866ca55855b07a8fbc9802773a5542",
+          "terms": 3721,
+          "totalDegree": 47
+        },
+        {
+          "degrees": [
+            30,
+            15,
+            6,
+            0,
+            0
+          ],
+          "sha256": "9c05da084849cf0885d038b5d0ce9a878faf84d619964cccb47f19c06ed3f6da",
+          "terms": 1824,
+          "totalDegree": 33
+        }
+      ],
+      "seconds": 2.386962124,
+      "stage": "new_fixed_lambda_original_input_definitions_ready",
+      "twoOriginalCoreSHA256": [
+        "fcf79be98410a2eea2ebdb588b441b8f4aceb20acb4704a96ee34fc0012d01d5",
+        "2407107501f1790a288ecabd75f14f92c7602859bfc033727b76312675f91014"
+      ]
+    },
+    {
+      "allLambdaLeadingZeroFibersKept": true,
+      "allNonzeroEntryBoundsReturned": 84,
+      "columnDegreeWeights": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10,
+        -11
+      ],
+      "eligiblePointChecks": [
+        {
+          "eligible": true,
+          "originalPaidProduct": 286,
+          "point": [
+            2,
+            2
+          ],
+          "twoActualFixedTopCoefficients": [
+            373,
+            417
+          ]
+        }
+      ],
+      "fixedOriginalLambdaDegrees": [
+        6,
+        6
+      ],
+      "noPostIdealTestPointOrPrimeChange": true,
+      "noQQDeterminantExpansion": true,
+      "predeterminedPointList": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "predeterminedPrime": 1009,
+      "rowDegreeWeights": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "seconds": 2.392814123000001,
+      "selectedPoint": [
+        2,
+        2
+      ],
+      "shape": [
+        12,
+        12
+      ],
+      "stage": "new_fixed_lambda_sylvester_whole_definition_and_degree_bound",
+      "totalPureWeightDegreeUpperBound": 444
+    },
+    {
+      "actualSameLambdaMonicGCD": [
+        1
+      ],
+      "all434CommonHeadWeightFibersRetained": true,
+      "allOriginalLambdaLeadingZeroFibersRetained": true,
+      "completeOriginalLambdaBezoutReturned": true,
+      "determinantTotalPureWeightDegreeAtMost": 444,
+      "exactModularDivisionProducts": 7,
+      "firstBezoutMultiplier": [
+        668,
+        885,
+        287,
+        254,
+        865,
+        354
+      ],
+      "firstOriginalLambdaPolynomial": [
+        540,
+        334,
+        205,
+        195,
+        349,
+        462,
+        373
+      ],
+      "fixed12SylvesterDeterminant": 256,
+      "fixed12WholeTransformationCoordinatesReturned": 144,
+      "modularEliminationPivots": 12,
+      "newQQPureWeightDeterminantProvedNonzero": true,
+      "noGlobalEmptyOrExactQQDegreeInference": true,
+      "ordinaryISPClaim": false,
+      "originalWholePhiExcluded": false,
+      "originalWholeWeightNecessityUsesFixedAdjugate": true,
+      "point": [
+        2,
+        2
+      ],
+      "prime": 1009,
+      "secondBezoutMultiplier": [
+        163,
+        390,
+        555,
+        980,
+        166,
+        206
+      ],
+      "secondOriginalLambdaPolynomial": [
+        814,
+        629,
+        872,
+        28,
+        726,
+        610,
+        417
+      ],
+      "seconds": 2.4263396559999997,
+      "stage": "new_original_fixed_lambda_same_point_return"
+    },
+    {
+      "noCoefficientPayloadSaved": true,
+      "noExpandedQQDeterminantComputed": true,
+      "noOldProofGateReplayed": true,
+      "peakRSSKiB": 47144,
+      "seconds": 2.426502838000001,
+      "sourceSHA256": "39631a64da054107209d296765b755e2fe25a685f5734cb5607165dd39100b7b",
+      "stage": "new_fixed_lambda_pure_weight_support_first_input_finished"
+    }
+  ]
+}
