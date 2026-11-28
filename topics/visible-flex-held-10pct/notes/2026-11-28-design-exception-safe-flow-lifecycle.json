@@ -1,0 +1,181 @@
+{
+  "scope": "Check one actual small original block and unreachable-Flow lifecycle.\n\nUses the saved true M16 original J input, without constructing its full J or\napplying a Newton step.  Both batch paths must return bitwise identical RHS,\nstate columns, and all parameter columns.  An explicitly perturbed unaccepted\nfield then exercises the original Frenet exception; it is a resource probe,\nnot an actual solver event or a new mathematical failure.\n",
+  "status": "actual_small_block_and_exception_lifecycle_check_passed",
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m16/run.json",
+  "source_run_sha256": "2b9e2fe6f6d1ca7b6b0143a915dd257cd9f9ecc3c2a71f7f08bb18a5dfe1bed4",
+  "snapshot": "/workspace/scratch/7c4e33ee17de/held10-linear-work/lambda002_m16_jac_input.npz",
+  "snapshot_sha256": "e75f89f7aa39f43bc607b9b7654dbc2712dc134cdbdeae16303e1aea092ae620",
+  "source_dimensions": {
+    "n": 49,
+    "nodes": 879,
+    "parameters": 16
+  },
+  "sampled_source_indices": [
+    0,
+    146,
+    292,
+    439,
+    585,
+    731,
+    878
+  ],
+  "comparisons": [
+    {
+      "radial_block": 8,
+      "sampled_nodes": 7,
+      "RHS_bitwise": true,
+      "complete_state_columns_bitwise": true,
+      "complete_parameter_columns_bitwise": true
+    },
+    {
+      "radial_block": 4,
+      "sampled_nodes": 7,
+      "RHS_bitwise": true,
+      "complete_state_columns_bitwise": true,
+      "complete_parameter_columns_bitwise": true
+    }
+  ],
+  "lifecycle_probe": {
+    "automatic_cyclic_gc_disabled_during_probe": true,
+    "artificially_raised_exception": false,
+    "deliberately_perturbed_unaccepted_field": true,
+    "trial_parameter_changes": {
+      "additive_delta": 1e-08,
+      "first_scaled_support": 0.0001
+    },
+    "trial_last_height_component_increment": 10000.0,
+    "exception_is_actual_original_domain_guard": true,
+    "old_flow_and_core_retained_without_collection": {
+      "flow": true,
+      "core": true
+    },
+    "old_flow_and_core_released_by_finally_collection": {
+      "flow": true,
+      "core": true
+    },
+    "exception_type_and_message_identical": true,
+    "original_exception": {
+      "type": "builtins.FloatingPointError",
+      "message": "Adaptive Frenet domain failure: -8.441739114629744e+19"
+    },
+    "successor_exception": {
+      "type": "builtins.FloatingPointError",
+      "message": "Adaptive Frenet domain failure: -8.441739114629744e+19"
+    },
+    "no_actual_solver_domain_event_inferred": true
+  },
+  "lifecycle_statistics": {
+    "rhs_calls": 3,
+    "jacobian_calls": 2,
+    "rhs_blocks": 4,
+    "jacobian_blocks": 3,
+    "collections": 7,
+    "collected_objects": 247,
+    "collection_seconds": 0.2996104390003893,
+    "exception_blocks": 1,
+    "exception_types": {
+      "builtins.FloatingPointError": 1
+    },
+    "maximum_rss_kib": 159180,
+    "successful_and_exceptional_short_calls_collected": true,
+    "live_caches_cleared": false,
+    "original_exceptions_suppressed": false,
+    "original_numerical_calls_or_arithmetic_changed": false
+  },
+  "exception_release_events": [
+    {
+      "event": "original_radial_exception_after_collection",
+      "kind": "rhs",
+      "original_exception": {
+        "type": "builtins.FloatingPointError",
+        "message": "Adaptive Frenet domain failure: -8.441739114629744e+19"
+      },
+      "current_rss_before_collection_bytes": 108646400,
+      "current_rss_after_collection_bytes": 108646400,
+      "collected_objects": 17,
+      "collection_seconds": 0.018878826000218396,
+      "exception_propagated_unchanged": true
+    }
+  ],
+  "fourier_cache": {
+    "hits": 0,
+    "misses": 1,
+    "key_seconds": 0.0004833049988519633,
+    "build_seconds": 0.17052968700045312,
+    "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+    "full_basis_and_frequency_bytes_bound": true,
+    "live_flow_or_physical_response_cached": false,
+    "shared_diagnostic_dictionary": false
+  },
+  "core_memo": {
+    "enabled": true,
+    "hits": 0,
+    "misses": 3,
+    "context_changes": 0,
+    "bypasses": 0,
+    "evictions": 0,
+    "context_key_seconds": 0.0010589260018605273,
+    "original_evaluate_seconds": 1.4249557530001766,
+    "copy_seconds": 0.0004986169988114852,
+    "max_entries_per_core": 2,
+    "max_bytes_per_core": 134217728,
+    "peak_cached_bytes_one_core": 3276800,
+    "peak_entry_bytes": 2621440,
+    "original_evaluator_sha256": "336a769065ff8e15d74a5c85e9c9bbd0046e0604ad49b61199a2ce5cb6760711",
+    "complete_instance_state_bound": true,
+    "complete_theta_bytes_bound": true,
+    "original_output_cache_side_effects_restored": true,
+    "returned_arrays_are_independent_writable_copies": true,
+    "quadrature_or_model_changed": false
+  },
+  "analytical_delta": {
+    "calls": 6,
+    "seconds": 0.4207337519983412,
+    "original_function_sha256": "6b9e028b36f3fcd57c5b0e7eb6acfec1564899bea9ca0e49e8b9f678583b0507",
+    "executed_function_sha256": "8a8b800799cc557992e882c907b98488bcd9bb20bb0d0495ede5afec0c31e052",
+    "replaced_column": "additive_delta_only",
+    "all_state_and_support_columns_retained": true,
+    "original_residuals_boundaries_and_gates_changed": false,
+    "numerical_parameter_derivative_changed": true,
+    "analytical_column_source_sha256": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03"
+  },
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_exception_safe_radial_batches.py": "870e5686515e05faa545c69f75b276225e32e89a504e27f473f9335ad39581d2",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/exception_safe_radial_batches.py": "2d2b413a46a23882341a4d5cac7ce2bc2c44c8444129d322d898288597c2c7a7",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/streamed_release_prefix_driver.py": "ae07d899554725cdeaec7fb1d79816895c410e1bc582c6eb3ba15b3afa1a950b"
+  },
+  "full_J_assembled": false,
+  "BVP_steps_applied": 0,
+  "accepted_field_produced": false,
+  "original_numerical_gates_changed": false,
+  "maximum_rss_kib": 159180,
+  "seconds": 5.192331322999962,
+  "actual_comparison_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-exception-lifecycle-m16-20261128/comparison.json",
+  "actual_comparison_file_sha256": "36600a046419b3d7e17c2aee8ec22c084023501d26d358f058bf642f75f9e38f",
+  "process_interruption_attributed_to_this_gap": false,
+  "original_automatic_GC_was_disabled_only_for_probe": true,
+  "future_runtime_automatic_GC_remains_unchanged": true,
+  "read_only_source_review": {
+    "support_BVP_flow_and_core": "Single-entry slots; actual Flow retains bound MethodType self cycles; old Flow exact_lift_core can keep the old core and its memo alive until cyclic collection.",
+    "existing_radial_batching": "Only the successful multi-block paths call gc.collect(); the len(t)<=block fast return and any exception skip that explicit collection.",
+    "core_memo": "Per core at most two entries and 128MiB retained bytes; no global core/parameter map. Miss clones before byte admission/eviction, and hits return writable copies; this can add bounded transient storage, but does not itself retain an unbounded p history.",
+    "actual_main_core_angle_lengths": "Exact core lift and parameter jets use one angular vector N=1536 at M48; inlet uses max(2048,64M)=3072, not block_count*N. These entries are about 5.25/10.5MiB each by array dimensions, so the memo over-limit clone branch is not shown to be the active M48 cause.",
+    "fourier_templates": "Strong dictionary keyed by dimensions and complete basis/even bytes, not physical parameters; values are two CSR tables and scalar metadata, without Flow/core/frame backreferences.",
+    "exceptions_and_factor": "Original domain handling records strings/counts, not exception instances. Existing acyclic QR wrapper and stale-factor release remain unchanged; no new factor cycle was found.",
+    "scope": "Lifecycle gap is source-supported and reproduced by the explicit small probe. It does not establish why the real M48 child received signal 9."
+  },
+  "reviewed_source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/streamed_release_prefix_driver.py": "ae07d899554725cdeaec7fb1d79816895c410e1bc582c6eb3ba15b3afa1a950b",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/notes/fixed_metric_mode3_bvp.py": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+  }
+}
