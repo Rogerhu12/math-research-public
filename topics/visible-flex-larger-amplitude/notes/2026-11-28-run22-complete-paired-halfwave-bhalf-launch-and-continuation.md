@@ -963,3 +963,233 @@ Phi=681.6511710299278、max_relative_Gram=0.4061652579029476。六族全返：re
   }
 ]
 ```
+
+## 2026-11-28 07:05:57 UTC — 22官方取消及完整末次观察；真实运行边界保留
+
+官方 jobs 原响应现为 `completed/cancelled`：run46090913581/attempt1、job140811337445，从01:00:50Z至06:51:08Z；research step 在06:51:03Z为cancelled。取消原因未返回，不能由350分钟预算或墙钟推断。最后完整控制器观察仍是06:48:45Z、科学子进程尚未自然返回；两必要输入0不等于科学完成。当前 accepted3 的 b34824、Phi681.6470516175362、Gram.40616529581758637、reach g.5235597907246015及distance_plus .11392305204890485仍不可行。480be试点只有自身Phi681.6450227773521/Gram.40616533555531326，自己的几何、接受结果、最终report/final/typed未知；不得借25的相同两数补本run。
+
+原完整pure准备46723B继续保留，但本次没有观察到自然科学返回，故不把它标成已执行、也不向已终态runner假排新步骤。新的输入方向继续31完整R728反号构造，原22所有失败和未知保留。
+
+### 官方完整jobs对象
+
+```json
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 140811337445,
+      "run_id": 46090913581,
+      "workflow_name": "Visible larger amplitude complete paired half-wave supported seed 20261128 22",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46090913581",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVt5L2s8AAAAgyQJ-5Q",
+      "head_sha": "18081452c5181d958bb5432c4045c067bf1d1caa",
+      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140811337445",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46090913581/job/140811337445",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-11-28T01:00:48Z",
+      "started_at": "2026-11-28T01:00:50Z",
+      "completed_at": "2026-11-28T06:51:08Z",
+      "name": "Construct the same fixed target and solve the complete paired half-wave seed",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-28T01:00:51Z",
+          "completed_at": "2026-11-28T01:00:51Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-28T01:00:51Z",
+          "completed_at": "2026-11-28T01:01:00Z"
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-28T01:01:00Z",
+          "completed_at": "2026-11-28T01:01:06Z"
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-28T01:01:06Z",
+          "completed_at": "2026-11-28T01:01:34Z"
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "number": 5,
+          "started_at": "2026-11-28T01:01:34Z",
+          "completed_at": "2026-11-28T06:51:03Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2026-11-28T06:51:03Z",
+          "completed_at": "2026-11-28T06:51:03Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-11-28T06:51:03Z",
+          "completed_at": "2026-11-28T06:51:04Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-11-28T06:51:04Z",
+          "completed_at": "2026-11-28T06:51:04Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140811337445",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000012443,
+      "runner_name": "GitHub Actions 1000012443",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}
+```
+
+### 完整末次只读观察（不是final）
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-bhalf-first-20261127",
+  "scientific_source_commit": "c6517a030888df2bf0ca51efade67b7693102785",
+  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
+  "pid": 3541,
+  "observations": {
+    "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 06:48:40 UTC",
+      "point": "480be58574d985b3f714bc2567d92adcf3e7b46366248d1722c9665afd814938",
+      "cached_angle_roots": 985,
+      "closure_original_returns": 173143,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T06:14:02.197446+00:00",
+      "math_event": "trial-statistics-returned",
+      "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
+      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 681.6517423825409,
+      "initial_Gram": 0.40616525311769985,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 0.5305849371949052,
+      "initial_geometry_complete": true,
+      "current_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+      "current_Phi": 681.6470516175362,
+      "current_Gram": 0.40616529581758637,
+      "current_geometry_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+      "current_violation": 0.5235597907246015,
+      "current_geometry_complete": true,
+      "current_state": "accepted restoration checkpoint returned; final report not inferred",
+      "trial_point": "480be58574d985b3f714bc2567d92adcf3e7b46366248d1722c9665afd814938",
+      "trial_Phi": 681.6450227773521,
+      "trial_Gram": 0.40616533555531326,
+      "trial_accepted": null,
+      "accepted_directions": 3,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 0.5235597907246015,
+      "current_g_body_diameter": -0.038136386569002756,
+      "current_g_distance_plus": 0.11392305204890485,
+      "current_g_distance_minus": -3.093633727173847,
+      "current_g_cap_diameter": -0.06715168866958865,
+      "current_g_height_floor": -1.0411711268457509,
+      "previous_completed_trial_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+      "previous_completed_trial_g": 0.5235597907246015,
+      "previous_completed_trial_accepted": true,
+      "previous_completed_trial_maximum_families": "reach",
+      "previous_completed_trial_Phi": 681.6470516175362,
+      "previous_completed_trial_Gram": 0.40616529581758637
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json",
+      "bytes": 3394,
+      "sha256": "43f3569ef7cfac647bc058fae7faed2b390f775e7031c7880e3374cd68eb5ea5",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "bytes": 11086,
+      "sha256": "121ec3d331b290b545e827c48d5bcf5e25370245f9274ba97180871d9ec420a1",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "cfff83698d5c1d60b51ddf3bd2bb69f87dcdfaa8f3a25f432887015eab781338",
+  "observed_utc": "2026-11-28T06:48:45Z"
+}
+```
+
+### 移出活动区的原规则同步槽
+
+<!-- visible-larger-parallel-22:start -->
+Actions22：[run 46090913581/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46090913581)；[全阶段记录](notes/2026-11-28-public-actions-46090913581-1.md)。running；已返2，exit=未返。
+并行22规则核查：2026-11-28 06:48:47 UTC，真实pull至`9b0b665ccf080e7528ad9d711ab0344b29c15082`，双README无变化。
+<!-- visible-larger-parallel-22:end -->
+
+06:47实际执行环境重置后唯一终端探测失败（No usable execution environment）；07:05收到新的environment context后再次实际探测仍失败（exec-server: No such file or directory）。这两次均没有git pull；root末真实pull仍eda95d51e82b126439d51d42185a880e6ddad3e9，当前按新HEAD云核双README及普通非强制整合，恢复终端即真pull。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
+    "bytes": 48488,
+    "sha256": "166ceb9968626627b7544ec9b0499ca3b2ceec4828ff3f38f14506ce2a29fa24",
+    "git_blob_sha": "dc76b7e5c140bb054f2ac0bda5aa518ac69738ff",
+    "fixed_commit": "52c90c05f4974a1f50d4ed358634c04a01a627b6",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

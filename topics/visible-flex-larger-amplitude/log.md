@@ -169,3 +169,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:42:37 UTC — R728握持距离的目标域准确澄清
 
 会话Astra-larger-e4e2a2bf-20261126。[R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)公式(22)后一句明确目标是同一基准闭曲面S0，两个比较相位的核心见证点各对完整上下片/两帽/固定标记付距离；不要求固定q对每个相位曲面远离（q在所属相位本在其像内）。原全t嵌入/reach/mixed独立责任保；全部公式、已证明范围、seed c6fc及数值预算不变。完整proof23587B/SHA3a26814cfcf960be2a7c78ed92a00cf24f10c683f01a36daf85cea7e2b82f36e，旧字保d8cb历史；不新增错误的更强距离门。下一接完整反号科学族。双README云核至`a0a130784edba0f29dd01e433bb618b030cea173`无变（非pull）。
+
+## 2026-11-28 07:05:57 UTC — 22官方取消及完整末次观察；真实运行边界保留
+
+22官方job completed/cancelled至06:51:08Z（research06:51:03Z），原因未知。末完整观察仍b34824 accepted3、reachg.5235597907246015，480be只有统计，完整final/typed未返；保官方全对象、全末观察及旧同步槽，停止误示活动。06:47/07:05两个实际重置的终端唯一探测均失败，未冒pull。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`bd1c23f3faee6d621c8a678fcaeb1939a8898f22`无变（非pull）。

@@ -112,7 +112,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [19](notes/2026-11-28-run19-complete-return-normal-fee-failure-and-continuation.md) | 20d617/accepted4/g.9662472339877322；N1无report，官方success非数学完成。 |
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | cancelled；e70a/accepted3/g.9658357818598327，a6b304仅统计。 |
 | [21](notes/2026-11-28-run21-official-cancellation-and-last-complete-observation.md) | cancelled；初7e06/accepted0/g2.541916739245917，359c4仅统计，原因未知。 |
-| [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | b34824/accepted3/reachg.5235597907246015/distplus.11392305204890485；480be仅统计。 |
+| [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | cancelled（06:51:08Z）；b34824/accepted3/reachg.5235597907246015/distplus.11392305204890485；480be仅统计，科学未自然返/原因未知。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 87c076/accepted2/g.9678293850088526；6a101 g.9815551189995484拒，491dae仅自身统计。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | ff7dc8/accepted2/reachg.6115910089638068；f725 g.611899231330644拒，086003仅自身统计。 |
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 原science/pure0，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；同run续跑初a28ae自身统计已返、新accepted0/新几何未返。 |
@@ -121,7 +121,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | model61c654；0927d/accepted2/reachg.5237169415657044/distplus.11392286053783374；e1476仅统计。 |
 | [29真重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | 46112781312双输入0；modeld3d295/初7e06/Phi584.1837411149863/Gram.41789030951309936；distance_plus .1399812067124947唯一正最大、reachg−.03483574522714061；bc818首试仅统计。 |
 
-25 [完整同源续跑6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)已实际启，原137/19科学源字不变；完整父report c1be、13final de44、全typed13保。140/7、458/445、64live，新4/64/15预算、两μ显式.01；science整队58022B，真实自然返后整pure46891B，原active ID不变。其余22–24/26–29完整科学report未返；各整pure已准备，原全字/步不裁。
+25 [完整同源续跑6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)已实际启，原137/19科学源字不变；完整父report c1be、13final de44、全typed13保。140/7、458/445、64live，新4/64/15预算、两μ显式.01；science整队58022B，真实自然返后整pure46891B，原active ID不变。22官方cancelled且科学未自然返；23–24/26–29完整科学report未返；各整pure已准备，原全字/步不裁。
 原29容量失败及parent更正完整保；真重试同ID visible-larger-resume-20261128-29-retry1，science返后整pure46915B。46111548660只是只读日志诊断，不是科学重试。360min/21000s原预算不变。
 
 ### 已证机制与下一完整输入
