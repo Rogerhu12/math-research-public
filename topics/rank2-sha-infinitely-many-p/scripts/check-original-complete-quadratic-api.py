@@ -66,6 +66,11 @@ def _dispatch_fixed_request():
         binding_name = "original_streamed_denominator_return.py"
         check_sha = "ef03e1cddcfb760d1e0175b9f38e481515b729d0119ba3a464c8b18ad995f927"
         binding_sha = "e315b6a330df38d370657d1db68a4b3a6ebe161509d92d9b239e6da8c89b542f"
+    elif kind == "original-adaptive-scalar-graph-software-check":
+        check_name = "check-original-adaptive-scalar-graph.py"
+        binding_name = "original_adaptive_scalar_graph.py"
+        check_sha = "61b44d0b58e15db3c2e692b43ce5cd5a32efea54b651e1a2035d3ec88a6b6b92"
+        binding_sha = "b6e5c9a2ad61a9314bac08b0ce221f15076feabd70a7d5b51c86688519df7ede"
     else:
         raise RuntimeError("Unknown fixed complete-quadratic API request kind.")
     if (request.get("check_script") != "scripts/"+check_name or
@@ -81,6 +86,26 @@ def _dispatch_fixed_request():
             raise RuntimeError("Fixed selected software source changed: "+name)
         ast.parse(source.decode("utf-8"), filename=str(here/name))
         verified[name] = actual
+    if kind == "original-adaptive-scalar-graph-software-check":
+        pins = request["source_sha256"]
+        manifest = hashlib.sha256(json.dumps(
+            pins, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+        if (manifest != "8457723b6818e2329ad7912cefdc2604292cd605ca106f0c6f6d69faef6638d6" or request["source_manifest_sha256"] != manifest or
+                request["source_files"] != sorted(pins)):
+            raise RuntimeError("The fixed adaptive software source manifest changed.")
+        for name, expected in pins.items():
+            if Path(name).name != name:
+                raise RuntimeError("Invalid adaptive software source basename.")
+            source = (here/name).read_bytes()
+            actual = hashlib.sha256(source).hexdigest()
+            if actual != expected:
+                raise RuntimeError("Adaptive software source changed: "+name)
+            if name.endswith(".py"):
+                ast.parse(source, filename=str(here/name))
+            verified[name] = actual
+        if any(verified[name] != sha for name, sha in
+               ((check_name, check_sha), (binding_name, binding_sha))):
+            raise RuntimeError("Adaptive selector and complete source manifest disagree.")
     print("RANK2_COMPLETE_QUADRATIC_API_SELECTOR "+json.dumps({
         "kind": kind,
         "request_id": request["request_id"],
@@ -91,6 +116,50 @@ def _dispatch_fixed_request():
         "original_default_check_retained": True,
         "no_production_request_or_mathematical_input_changed": True,
     }, sort_keys=True, separators=(",", ":")), flush=True)
+    if kind == "original-adaptive-scalar-graph-software-check":
+        from contextlib import redirect_stdout
+        from io import StringIO
+        import time
+        started = time.monotonic()
+        output = StringIO()
+        try:
+            with redirect_stdout(output):
+                runpy.run_path(str(here/check_name), run_name="__main__")
+        finally:
+            print(output.getvalue(), end="", flush=True)
+        lines = output.getvalue().splitlines()
+        def one_record(tag):
+            matches = [line[len(tag)+1:] for line in lines if line.startswith(tag+" ")]
+            if len(matches) != 1:
+                raise RuntimeError("Expected exactly one original software record: "+tag)
+            return matches[0]
+        raw = one_record("RANK2_ADAPTIVE_SCALAR_GRAPH_SOFTWARE_RESULT")
+        actual_hash = hashlib.sha256(raw.encode()).hexdigest()
+        if one_record("RANK2_ADAPTIVE_SCALAR_GRAPH_SOFTWARE_SHA256") != actual_hash:
+            raise RuntimeError("The complete original fixture payload hash changed.")
+        result = json.loads(raw)
+        if (result["kind"] != "small_adaptive_graph_software_only" or
+                result["comparisons"] != 8 or len(result["refinements_by_case"]) != 8 or
+                result["actual_post_ideal_polynomial_part_tamper_rejections"] != 2 or
+                result["actual_final_X_budget_rejections_before_any_new_audit"] != 2 or
+                result["nonlinear_good_place_and_true_transpose"] is not True or
+                result["original_geometry_claimed"] is not False):
+            raise RuntimeError("The complete adaptive software fixtures did not return.")
+        envelope = dict(kind=kind, status="PASS", source=os.environ["RANK2_SOURCE_SHA"],
+            run_id=os.environ["RANK2_RUN_ID"], run_attempt=os.environ["RANK2_RUN_ATTEMPT"],
+            root_readme_blob=os.environ["RANK2_ROOT_README_SHA"],
+            topic_readme_blob=os.environ["RANK2_TOPIC_README_SHA"],
+            image=os.environ["RANK2_IMAGE"], request_sha256=hashlib.sha256(request_bytes).hexdigest(),
+            selector_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+            source_file_sha256=verified, source_manifest_sha256=manifest,
+            fixture_result=result, fixture_result_sha256=actual_hash,
+            elapsed_seconds=time.monotonic()-started, software_budget_seconds=420,
+            original_geometry_executed=False, heavy_producer_executed=False)
+        payload = json.dumps(envelope, sort_keys=True, separators=(",", ":"))
+        print("RANK2_ADAPTIVE_SCALAR_GRAPH_PUBLIC_RESULT "+payload, flush=True)
+        print("RANK2_ADAPTIVE_SCALAR_GRAPH_PUBLIC_SHA256 "+
+              hashlib.sha256(payload.encode()).hexdigest(), flush=True)
+        raise SystemExit(0)
     runpy.run_path(str(here/check_name), run_name="__main__")
     raise SystemExit(0)
 

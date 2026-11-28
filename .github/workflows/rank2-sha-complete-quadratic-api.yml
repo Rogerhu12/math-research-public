@@ -42,7 +42,7 @@ jobs:
           git diff --exit-code HEAD -- README.md topics/rank2-sha-infinitely-many-p/README.md topics/rank2-sha-infinitely-many-p/scripts topics/rank2-sha-infinitely-many-p/ci .github/workflows/rank2-sha-complete-quadratic-api.yml
           ROOT_README_SHA=$(git rev-parse HEAD:README.md)
           TOPIC_README_SHA=$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)
-          timeout --kill-after=15s 420s docker run --rm --init --network none \
+          timeout --kill-after=15s 420s docker run --rm --init --network none --cpus=4 --memory=16g --memory-swap=16g \
             -e GITHUB_ACTIONS=true \
             -e GITHUB_REPOSITORY=Rogerhu12/math-research-public \
             -e RANK2_SOURCE_SHA="$GITHUB_SHA" \
@@ -51,7 +51,7 @@ jobs:
             -e RANK2_ROOT_README_SHA="$ROOT_README_SHA" \
             -e RANK2_TOPIC_README_SHA="$TOPIC_README_SHA" \
             -e RANK2_IMAGE=sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb \
-            -e PYTHONDONTWRITEBYTECODE=1 -e PYTHONUNBUFFERED=1 -e OMP_NUM_THREADS=4 \
+            -e PYTHONDONTWRITEBYTECODE=1 -e PYTHONUNBUFFERED=1 -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 \
             -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
             --entrypoint /usr/bin/sage \
             sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb \

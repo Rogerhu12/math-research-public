@@ -300,3 +300,11 @@ root完整复核全部绝对period稿：Klein共线2Λ准周期、剩余阶|8、
 root逐行手核K1–K6，核固定光滑proper对、负Leray边项、两I12边界、字符唯一零初值、实际相对GM/Frobenius及7p/11p+4完整超几何系数消去。已实读Shiho Th2.4.4(1)/相关推论与Étesse Th3.4.4原文，后者链接更正为可读numdam正文；无未证半权系数比较。证明和三处索引同编号续写，明确固定有限坏素数删除与全图p²整尚待补。H接近10KB，先逐字归档为notes/2026-11-28-handoff-before-global-tail-primitive.md后压缩，全部旧来源回执及更正保于归档链。未运行任何本地数学。v16仍唯一heavy，独立小软件待固定pins核实后触发。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:52:21 UTC到9cd94be991f2769dad97bb0f493df9d921887ae4，私库2026-11-28 10:52:13 UTC到2ac4ff60f97f4948433b0d56ae7fc289c44181d1；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3231/46443023B/treeee840f12089591e2aac46366d91e77c6d13e9b44，无>5MB。
+
+## 2026-11-28 10:54 UTC — 原单右端坐标图的独立小型软件请求
+
+root全读4新源码及3适配，逐实际文件核32源/manifest、AST、工作流bash语法和全部push路径；只有既有complete-quadratic-api被selector/request匹配。已保真实非线性底素、原模块转置、全部Laurent返回与已造ideal后外门，固定8比较/2篡改/2预算拒绝。新候选producer在软件里仅hash/AST，不执行几何输入；420秒、4CPU/16GB独立小任务，现有v16 heavy不改不重跑。完整参数、逐新源hash与验收写notes/2026-11-28-original-adaptive-scalar-graph-software.md；尚无本新软件数值PASS。H逐字归档后缩短历史叙述，实际前沿及原边界均保留。本地只文本/语法/hash，无数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:56:11 UTC到5b0ab004f24f62b74d37587de6dbb2259a72419e，私库2026-11-28 10:56:00 UTC到1deefbac79c3a5dce0b52d84b6152025b36d828b；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3232/46466765B/treee73130b2384569f3af636d9fb2a89d594227277d，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 10:56:36 UTC到740865deb9a3e1e1b18f0a9fd3fede4510fb01b7，私库2026-11-28 10:56:26 UTC到00d80ff883c8c7bba0fba7905ac9cb08b49dd7fe；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3232/46466765B/treee73130b2384569f3af636d9fb2a89d594227277d，无>5MB。

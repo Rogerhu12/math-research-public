@@ -6,20 +6,20 @@
 
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线或条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库；非FF立即pull --rebase、读README差异再推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h。规则15禁存可重算日志/数据/矩阵，只留脚本/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则8独立结论入results/R编号；规则12不设冻结或额外复核门。公开16/私库15：子代理显式model=gpt-6.2-astra、effort=ultra；09:47起三条线均已按此接续。
-[整理前完整H](notes/2026-11-28-handoff-before-global-tail-primitive.md)逐字保留所有旧参数、边界、回执、更正与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
+[整理前完整H](notes/2026-11-28-handoff-before-adaptive-software.md)逐字保留所有旧参数、边界、回执、更正与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:52:21 UTC实际pull --rebase，读取main 9cd94be991f2769dad97bb0f493df9d921887ae4；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:52:13 UTC实际pull --rebase至2ac4ff60f97f4948433b0d56ae7fc289c44181d1；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 10:56:36 UTC实际pull --rebase，读取main 740865deb9a3e1e1b18f0a9fd3fede4510fb01b7；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 10:56:26 UTC实际pull --rebase至00d80ff883c8c7bba0fba7905ac9cb08b49dd7fe；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3231/46443023B/treeee840f12089591e2aac46366d91e77c6d13e9b44；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3232/46466765B/treee73130b2384569f3af636d9fb2a89d594227277d；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
 
-[v15终态/v16来源](notes/2026-11-28-original-streamed-shadow-production-v16.md)保全部旧参数/74pins/验收。v15 run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962已failure，首306 HNF开始未返回，08:24:51 solver137；不判OOM或timeout。完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56及9支持/11primary/24residue/44operator保于上链。
+[生产全文](notes/2026-11-28-original-streamed-shadow-production-v16.md)和H归档保全部参数/74pins/旧运行回执。v15已failure，首306 HNF未返回、solver137；不判OOM或timeout。旧char0 PASS、完整log哈希与来源均保于上链。
 
 **v16唯一运行：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，08:36:48 UTC创建。**09:59:36 UTC所读完整可见前缀2101729B/SHA256 e0e24b4565d45b59d8445515bba42820f6818d9898ab82429c2bbe8ebcea1f0e，末09:53:17.1519988Z；step4仍in_progress，非终日志、无最终PASS。root与arithmetic_ultra独立核全74源与固定request，08:37:45两原char0 PASS/envelope b59c77ae691642aed2b8039b904e1280289eec879e16205b357b601fcc6cdb25认证。09:37:42原两端点maps全归一认证；已有32 full operators、36直接乘积、两chart的central T完整306 graph及4operation-Hermite ideal。末在entire infinity fiber第74/306列，未宣告该fiber、4选定graph、4outer或后门完成。
 
@@ -42,11 +42,11 @@ R1052只杀原未改动whole flat与外权导数；旧full54/六线/ψ4共同F�
 
 ## 原厚点的新完整算法
 
-[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)已手证真实D·W=qN单右端及逐原坐标Y核，失败原残量经LU定真不整列，≤306列终止；全H源行及原X返回才完图。各列σ的完整Laurent窗保全多项式部分，余量deg<degM_D的低次核必须连同全X比较；可选双向HNF/流式X,T有实际多项式两包含，不冒v16 transcript。原2256射影极度给分子权与分母同时≤2256，Dixon总度>4512充分。全四内/四外、旧F_y、4交/8scalar/Norm/终门保持；没有速度或实际PASS声明。arithmetic_ultra已备4源码及3软件适配文件；root已静态核读，下一核固定32pins后用独立420秒公开小型检查。未有新方法实际PASS，不并发heavy。
+[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)完整证明原单右端D·W=qN、逐原坐标Y核≤306列终止、全Laurent窗/多项式部分X和低次残量返回；原2256双极度、总度>4512，所有全内外门及旧F_y保留。
+[独立小软件来源](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：4新源码加3适配已核32pins/manifest8457723b6818e2329ad7912cefdc2604292cd605ca106f0c6f6d69faef6638d6；仅公开420秒、4CPU/16GB小fixture，独立concurrency。实际push匹配只有complete-quadratic-api工作流，不触发heavy。待真实8比较/2外门篡改/2预算拒绝/真二次底素转置全日志；尚无软件或306生产PASS。
 
 ## 其它实际门与接续
 
-[R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)真实δ三同源Rδ及全极、lift/λε=λ∨/完整Δ/负二shift均付；全部角不能由bad赋零。§§15–18有a³=−(u+1),b³=−(u−1),ab=t、Lamé1/Wr2/全deck与D=C U0+B1 U1，两整L102乘积首4为16/49、33/49；未给两项各自bad，有限子系统p曲率本已零。
-[R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)原固定√17形式叶几何稠密r2，p闭密度3/4，Herblotα1/4最优饱和。Pell全H¹±36/32、原even两维固定、两极boundary仅一维；斜极与Smith/j!C全保，不增canonical零。
+[R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)原δ三同源/完整负二读者及Lamé1、a³/b³、全deck支付，但bad未给各角独零；[R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)固定√17叶几何稠密r2、p闭密度3/4与Herblotα1/4饱和、Pell全H¹±36/32及even两维固定，均不增加canonical零。详细常数及旧边界保于上链。
 
 原五固定曲线及E3969的rank≥2/通常全Sha桥已付；**联合无穷p原canonical J′非零仍为主缺口**。R1051 Smith预算、R1026/28全39支末窗、R1053 B12/P10连接、R1055五伙伴、unitary Hecke、signed范围依open与归档保留。O4 ordinary a≤1无穷p、O6固定Np有限/q_p=1、O7同Y全边界仍未闭；不重做已登记首窗。三新代理central_ultra/geometry_ultra/arithmetic_ultra分别推进完整来源的全局Frob读者、norm1实际轨道trace与原j、原306厚点全输入生产。达到README完整标准才收尾。
