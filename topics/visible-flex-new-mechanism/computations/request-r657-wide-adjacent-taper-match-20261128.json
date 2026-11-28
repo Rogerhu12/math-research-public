@@ -1,0 +1,68 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "python-flint": "0.9.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r657-wide-adjacent-taper-match-v1",
+  "public_rules_read_commit": "757107007c415abf7ad94c7042fd1d6ef5423338",
+  "private_rules_read_commit": "2bea2888397db073ec71e3aec8e59e51c4b90d83",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r657_wide_adjacent_taper_match_20261128.py",
+  "workflow": ".github/workflows/visible-r657-wide-adjacent-taper-match-20261128.yml",
+  "common_parameters": {
+    "max_seconds": 780
+  },
+  "lanes": {
+    "wide-adjacent-match": {}
+  },
+  "scope": {
+    "previous_R652_run_preserved": 46132827514,
+    "old_R652_ODE_repetitions": 0,
+    "certified_neck_m": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "finite_match_selection": "smallest up to three with rigorous G>7/22",
+    "new_geometries_per_selected_m": 36,
+    "physical_outer_radius": "11/50",
+    "physical_inner_minimum": "7/100",
+    "physical_reach_requirement": "3/100",
+    "relative_tilt_sine_minimum": "9/25",
+    "certified_finite_flat_N": false,
+    "nonlinear_solved": false,
+    "README_completion_claim": false,
+    "intrinsic_gaussian_reach_necessary_test": true,
+    "oblique_clairaut_momenta_over_inner_radius": [
+      "0",
+      "1/2",
+      "3/4"
+    ]
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r657_wide_adjacent_taper_match_20261128.py": "d0a2be03400f09f512eb3219ece332c78330cd9646bcb1653626c74699979841",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/scripts/r652_true_taper_excited_match_20261128.py": "51314c195f721e604629fcc32c0f9bc1fb6c85b0279b72bd485e4e4f66ebcfc4",
+    "topics/visible-flex-new-mechanism/results/R655-offset-rigid-cap-and-thick-inner-hold.md": "ad7d3e97b237272d2a943e0f34b40551eb389242b6d1a46b77b2fc2fbcffa9af",
+    "topics/visible-flex-new-mechanism/results/R657-sharp-inner-radius-and-wide-adjacent-morse-kernels.md": "48511f3e9ff8787eb4b9978c8cb299ee2404505b14c5eb3f50ba637de4871acf",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r652-taper-matching-natural-terminal.md": "0302a859f1a866fe1aa45c33fec1e0623a0a1b1a89b9c1f6a30d3b4bf4b1d57a",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r657-wide-adjacent-taper-matching-scope.md": "161a3eb3e22f820df82e7c043f6dc4d534140594bed50b5342c086a1095c18f8",
+    ".github/workflows/visible-r657-wide-adjacent-taper-match-20261128.yml": "24803b0c63c92ec849d8ea421ff685cebd84b8700f0ae27f3c84849200a0039c"
+  }
+}
