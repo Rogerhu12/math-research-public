@@ -70,6 +70,8 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 
 R1067§§9–14进一步给physical首jet整界及同一actual整Hall源P_H：先保任意原M/cover/连接，再准确除b_M，log全尾给2M1−M2/2和3M1−3M2/2+M3/3。exactHall0⇒[v^(p²−1)]P_H∈p²；bad联合exact0才给三矩行≥2+1/(p−1)。一般ψ0/质量零不自动有额外p，原明确反例已付；模型frame(50)保θ^(Δ−6)及p^Δ H0项。仍需实际源矛盾或由bad可消费的非零高赋值支关系，不能把此行冒作裸S系数或新增自由坏条件。
 
+[R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)现付原共同B18及D102/S34准确因子，canonical首6不混Dold首2。同一实际T的完整中心/唯一p² lift使A84真整逆落原ψ0 Katz范围，actual Hall a_m准确为102/84逆/16完整有限三卷积；R1067(49)直接成为该全和的p²条件，逆不能移出Hall。普通Cartier另有d/6个角，首漏行−26329/105不消；wholeGaussian/physical/old与E17框架全保。下一查同一实际卷积的非零高赋值含H0行，不把恒等式、单位质量或exactHall0条件当主非零证明。
+
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 
 [R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已付全部物理行的数字折回、完整节点递推、同一 \(P/R\) 的全精度 \(j!C\) 厚核、Hasse–Hermite 等距 PD 代数及全部截断 Smith。回旧基线保准确 \(E(J)\) 损；普通厚理想范围一般至 \((p-3)/2\)，原 S/T 环至 \(p-2\)，不是免费到 \(p-1\)。首 Bockstein 须满足原低核和同一个 \(R\) 的像条件；canonical 的单一加权槽不是乘法理想，不能变成逐节点消失。

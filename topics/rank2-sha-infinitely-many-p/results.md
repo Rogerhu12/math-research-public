@@ -494,3 +494,5 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 - [R1067：原第一 wild Rubin 零点的偶重数](results/R1067-original-first-wild-rubin-even-multiplicity.md)（已证明）：同一有限ν_r=χ_r²、N2参考Norm17r及全部Miller/Hermite来源给准确ord_(tν) A_p=2ord_0 H_r。含p²的Kato两图保同Artin线、1/p投影、Gauss、CM-pair/Tate与全部阶乘，先取比后相消；真实坐标导数估值保留，未恢复literal-usual连续性。exact Hall0迫Φp²及λ≥2e+2(p−1)，与中央bad同时成立才给λ≥2p+2；单个中央坏条件不迫Hall0，跨p严格非零仍开。
 
 - [R1067 §§9–14：原第一 wild 的首 physical jet 与完整 Hall 低行](results/R1067-original-first-wild-rubin-even-multiplicity.md)：精确零下a_(p²−1)∈p²及三完整Hurwitz矩约束；实际整tensor、floor费用、全部cover/模型frame和一般ψ0反例均付。bad单独不获此行。
+
+- [R1068：原 B18 共同因子、实际 Katz 整逆与同一 Hall 有限系数](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)：同几何T的完整102/84逆/16字保所有中心，准确返R1067新a_Δ行；全Cartier相邻角与−26329/105均保，未由此取得单位或无穷p。
