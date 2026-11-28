@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：3ac4ec92cfa162051eb2674cfa3f6d0dfb6ec88c**（2026-11-28 15:09 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:01 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：16cbef8790b20cb9d8b11ee2149c3978c60c97d0**（2026-11-28 15:18 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:01 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 15:01:56 Asia/Taipei，Actions run46119282678/job140899977242，blob:none浅clone后真实pull --rebase至fa034088且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤15:51、pull≤16:01。本地15:01仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -55,7 +55,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)真实Legendre/finite-log/Jacobi全部weighted边界、四低jet和3/8 Bernoulli项均付。原ξ=P/(a²V)、forcing6a²、Hasse负号及自足Xp按open/原文；p1019仅否无条件旁零，不扩扫。端点unit不代原v−3a⁶bu，joint继续。
 
-[R1161 §§1–10](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全actual-good行保Bol/Wilson、原P/V/Q_s及N_R/η/κ；共同纤维恰全部T_s(η²)相等。§§8–9已付δP^p、原Cartier、2p读取/finite-log误差及四低jet。§10原Sym^s connection的p-curvature−N_s给唯一核P^s；实际逆S_s H_s=P^(s−2)Q_s−Q_s(0)a⁻ˢw^(p−1−s)保低偶cokernel。原centered系数与指定低jets单位三角，最高Q_s(0)不删；相邻ladder只运输实际源，未证明下行或mask闭合。继续真正跨行/两点分离和joint。
+[R1161 §§1–11](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全原Bol/Wilson、P/V/Q_s、Cartier/finite-log及唯一有限逆已付；低偶Q_s(0)余核与全部尺度保留。§11真正一阶J_s保持同c点值，所有actual-good行升为同权(p−1)²的F_s=A^(s−2)θ^(p−1−s)G_(2s)，Hecke值ℓ⁻ˢ+ℓ^(s−1)。原两点差等价[τ^(m−1)]C_s/(1−Sτ+P_pairτ²)=0全good；Z=−η²/(12a_G)，尺度已消。继续此真实共同源/两点余核；全局Hecke稳定不代Gaussian jet核稳定或非零。
 
 
 ## 已成、禁止重做与其它入口

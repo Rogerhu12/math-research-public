@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian全部行的同权Hecke源与两点余核（已证明）**：[R1161 §11](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)真实一阶运输保同一c点值，全部actual-good行进入权(p−1)²的明确Hecke特征形式；原差完整缩为同一二阶Cauchy分母的指定系数，Z=−η²/(12a_G)消尽临时尺度。保持原mask和Gaussian单点jet核的未付稳定性，继续实际余核排除。
+
 - **原第一层CM挠点的完整PD系数（已证明）**：[R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)实际first-slot系数恰−b_E z^p(1+γp)ω−zgη。原Miller translation norm与同时计入O/P的外环留数锁标量/符号，完整CM尾界排除p²危险项；所有d4/8/12 pure powers的normal系数明确，继续原theta/中央同陪集实际读取。
 
 - **原第一层theta moment的实际tame迹输入（已证明）**：[R1166 §§9–13](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)严格整trace保无log/base-log两槽不同e因子，与全部F/Q和ordered修正交换。原系数的tame trace-zero使theta leading项在完整矩后消失；d4/8实际输入锁为W⁻¹=−1/(z³y(P(z)))，原k_d(2)和全部normal块保留，无新根或平均。

@@ -137,11 +137,11 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1154 §§15–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原ξ=P/(a²V)、f=aV给R(H)=[ξp−1]Hf²和完整有限Ramanujan，E2′保6a²ξp−1。四moment准确为h=−[ξp−4]E6、B=a²[ξp−5]E4²、U=−a⁶[ξp−8]E4E6、V=−a²[ξp−6]E4E6；minor=a²(v−3a⁶bu)。Sym¹/²/³唯一多项式逆保全部forcing，四权归四低jet；同Legendre无穷分支仅消无权m3的q项，m3=M30−3Bp−3/8，所以h0下真joint为Bp−3=8(M30+r3−3BνUν)/3，未反除D2。§17带符号A(1,−w)=−P、Aγ=−aξ、Bγ=−a(6+ξE2)；自足Xp=A²X+ACZ/6+C²∂H/6先保H^p再以整数权排除，其流读取a²(6∂H+kξ+ξ²∂ξ)保临界零。全部展开及端点单位沿原文/逐字归档，不替原joint。
 
-[R1161 §§1–10](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全原actual-good行已送同一Pν/Vν，Bol/Wilson及η/N_R/κ尺度全付；原差为N_R·2^sδ(2s−1)!/s!乘R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。仅even幂，完整共同纤维 iff全部actual T_s(η²)相等；s2只在原行出现时用。
+[R1161 §§1–11](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全原actual-good Bol/Wilson及P/V/Q_s、η/N_R/κ尺度均付；原差为N_R·2^sδ(2s−1)!/s!乘R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。Cartier、指定2p读取/finite-log误差与四原低jet沿§§8–9，H7截断和joint的3/8项不删。
 
-§§8–9由α=dw/q−d(W/P)锁δP^p=P^(2p)δP；真实θ-cycle给C_rel(P^(2s−2)Q_s dw/q)=Q_s(w′)dw′/q′。每行−a⁻²[w^(2p)]δP^(p−1)(P^(2s)Q_sZη^s)只在该读取严格消finite-log error；原四逆低j<r的2p+j读式保P^r u^p不入低jet，H7真实截断及joint的3/8项不删。
+§10实际S_s核Fp P^s，adjoint号(−1)^(s+1)；opposite-parity唯一逆的源为P^(s−2)Q_s−Q_s(0)a⁻ˢw^(p−1−s)，低偶cokernel全保。原centered系数是低jets的单位三角、最高Q_s(0)仍在；这不代mask闭合。
 
-§10全Sym^s有限connection的p-curvature恰−N_s，核Fp P^s、adjoint号(−1)^(s+1)。原唯一opposite-parity逆S_s H_s=P^(s−2)Q_s−Q_s(0)J_s，J_s=a⁻ˢw^(p−1−s)，低偶cokernel不能略。实际M_s=(−1)^(s+1)R(H_s S_s(V+cP)^s)+Q_s(0)a⁻ˢ[w^s](V+cP)^s/q。centered c^i偶数2≤i<s的首读为+(i+1)s!a^(2i+2−s)H_(s−i−1)，其余只低同parity jets；最高Q_s(0)全保。S_(s+2)P²=L_sS_s及adjoint已付，但L_s作用真实source，未认作下一Q_(s+2)。待付仍是同一mask实际两点差至少一项非零，单位三角与restricted power不代闭合或joint。
+§11真一阶J_j=−PD−(j+2)DP给J_j*Y_c^(j+1)=−(j+1)Y_c^j，同c点值可升至p−1。共同源F_s=A^(s−2)θ^(p−1−s)G_(2s)皆权W=(p−1)²，q系数2n⁻ˢσ_(2s−1)(n)/(2s−1)!（p|n为0），非零且Tℓ特征ℓ⁻ˢ+ℓ^(s−1)=ℓ⁻¹(ℓ^R+ℓ^(1−R))。只取actual-good s构成真实Hecke稳定源，未补mask。原有限Gaussian flow得偶C_s(τ)，τ=ξ²，m=(p−1)/2，Z=a⁴κ²η²=−η²/(12a_G)。完整原差恰−N_Rδ(2s−1)!(Z−Z′)[τ^(m−1)]C_s/(1−(Z+Z′)τ+ZZ′τ²)。故不同允许点共同纤维恰全部good的该余核0，S=0/ZZ′=0与两twist保留。s2 affine单位仍须原出现条件。待付是此余核真正不可能，或真实作用其上的操作；全局Hecke稳定不使Gaussian单点jet核自动稳定，不能横向微分点值。
 
 
 ## O3：固定低权 cohomology 与原 Igusa 投影

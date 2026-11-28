@@ -1087,3 +1087,253 @@ $P^sQ_{s+2}-Q_{s+2}(0)J_{s+2}$。
 低偶行的准确一维障碍和 centered 系数的完整单位三角读取。
 后继仍须处理这些指定逆之间的真正关系，或直接证明原两点差非零。
 全部为纸面推导，无数学程序执行。
+
+
+## 11. 保原点值的一阶运输、同权 Hecke 源与共同二阶分母
+
+本节把 §10 的相邻对称幂关系细化成保持同一个 $c=\kappa\eta$
+的点值身份。全部实际行由此进入一个确定的同权模形式空间，
+其 Hecke 特征值正是原角色的特征值除以 $\ell$。
+最后的两点条件保留完整 mask；没有把 Gaussian 单点 jet 理想
+预先宣称为 Hecke 稳定。
+
+### 11.1. 跨奇偶行的实际一阶关系
+
+仍在 $\mathcal A=\mathbf F_p[w]/(w^p)$ 中，定义
+$$
+\mathscr J_j=-P D-(j+2)DP,\qquad
+\mathscr J_j^*=P D-(j+1)DP .
+$$
+这里 $DP$ 表示乘以该函数，adjoint 使用原 $\mathscr R$。
+由 (1161.31)，对 $Y_c=V+cP$ 和 $j+1<p$ 准确有
+$$
+\boxed{\qquad
+\mathscr J_j^*(Y_c^{j+1})
+ =(j+1)Y_c^j(PDY_c-Y_cDP)
+ =-(j+1)Y_c^j .
+\qquad}
+\tag{1161.43}
+$$
+函数域中的额外项含 $P^2w^{p-1}$，在这里的实际
+$\mathcal A$ 中确为零；没有将它从更高 jet 的恒等式中删除。
+因此对任意实际源 $T\in\mathcal A$，
+$$
+\mathscr R((\mathscr J_jT)Y_c^{j+1})
+ =-(j+1)\mathscr R(TY_c^j).
+$$
+并且 $\mathscr J_{j+1}\mathscr J_j=\mathscr L_j$，
+故 (1161.42) 的点值版本为
+$$
+\mathscr R((\mathscr L_jT)Y_c^{j+2})
+ =(j+1)(j+2)\mathscr R(TY_c^j).
+\tag{1161.44}
+$$
+这些是对原 $c$ 的多项式身份，不是对两个相等点值横向微分。
+
+对原 $T_s=P^{s-2}Q_s$，(1161.24) 的同一 Katz 导子给
+$$
+\mathscr J_sT_s=2P^{s-2}
+      (\mathscr TG_{2s})\big|_{(1,-w)}.
+$$
+继续到第 $j=s+n$ 行时，实际模形式权模 $p$ 为
+$2s+n=s+j$，恰好是微分 $P^{s-2}$ 后的完整 $DP$ 系数。
+所以可逐项迭代为
+$$
+\boxed{
+\mathscr J_{S-1}\cdots\mathscr J_sT_s
+ =2^{S-s}P^{s-2}
+        (\mathscr T^{S-s}G_{2s})\big|_{(1,-w)}
+\quad(s\le S\le p-1),
+}
+\tag{1161.45}
+$$
+其 moment 为
+$(-1)^{S-s}S!/s!$ 乘原 $\mathfrak M_s(c)$。
+本式没有在迭代中把权误写成 $2j$。
+
+### 11.2. 全部原角色进入同一个真实 Hecke 源
+
+用标准 $E_4,E_6$ 多项式记原 $G_{2s}$，
+并定义全局模形式
+$$
+\boxed{\qquad
+\mathcal F_s=A^{s-2}\mathscr T^{p-1-s}G_{2s},
+\qquad \operatorname{wt}(\mathcal F_s)=(p-1)^2 .
+\qquad}
+\tag{1161.46}
+$$
+这里 $A=E_{p-1}$ 是同一个 Hasse 多项式；
+权的计算是
+$$
+(s-2)(p-1)+2s+(p-1-s)(p+1)=(p-1)^2.
+$$
+所有 $2\le s\le(p-3)/2$ 均用这一权，不是混权 $q$ 展开比较。
+
+在 Tate 参数 $q_{\rm T}$ 上，$\mathcal F_s$ 的常数项为零，
+而对 $n\ge1$，
+$$
+[q_{\rm T}^n]\mathcal F_s=
+ \frac{2}{(2s-1)!}\,
+ n^{p-1-s}\sigma_{2s-1}(n).
+\tag{1161.47}
+$$
+当 $p\mid n$ 时右边为零；
+当 $p\nmid n$ 时，幂可准确写成 $n^{-s}$。
+因此它是一个非零的 mod-$p$ cusp form，
+其 $q_{\rm T}^1$ 系数为单位。
+这里没有反除 $B_{2s}$。
+
+对每个素数 $\ell\ne p$，使用权 $(p-1)^2$
+的标准 Hecke 系数式，
+$\ell^{(p-1)^2-1}\equiv\ell^{-1}\bmod p$，
+以及原 Eisenstein divisor-sum 恒等式，得到
+$$
+\boxed{\qquad
+T_\ell\mathcal F_s
+ =(\ell^{-s}+\ell^{s-1})\mathcal F_s
+ =\ell^{-1}(\ell^R+\ell^{1-R})\mathcal F_s .
+\qquad}
+\tag{1161.48}
+$$
+最后一式对 (1161.2) 的两种实际 $R$ 都成立：
+低偶行 $R=s$，高偶行 $R=p-s\equiv1-s\pmod{p-1}$。
+证明也可逐 Fourier 系数写成
+$T_\ell\mathscr T^nG_{2s}
+ =\ell^n(1+\ell^{2s-1})\mathscr T^nG_{2s}$；
+整数权以 (1161.46) 统一后，§2 的固定权展开原则支付
+模形式等式，而不只支付一份形式级数。
+
+所以
+$\mathscr U_{\rm good}=\operatorname{span}_{\mathbf F_p}
+ \{\mathcal F_s:s\in\mathcal S_{\rm good}\}$
+是真实、同权、away-$p$ Hecke 稳定的源空间。
+此处的指标仍严格是原实际出现且 good 的集合；
+(1161.46) 对其他 $s$ 的存在不把它们添加为观测。
+(1161.48) 只锁定显示的标准特征值，
+不额外识别一个尚未给出的整 Jacobian 格或局部 Hecke 算子。
+
+### 11.3. 同一个 Cauchy 核准确读回全部原行
+
+在 (1161.45) 取 $S=p-1$。
+由于 $A(1,-w)=-P$、$(p-1)!=-1$、
+$2^{p-1-s}=2^{-s}$ 和 $Y_c^p=a^{-1}$ 于 $\mathcal A[c]$，
+所有符号和阶乘合并后给
+$$
+\boxed{\qquad
+\mathfrak M_s(c)
+ =-\frac{s!}{2^s a}\,
+      \mathscr R\!\left(
+        \frac{\mathcal F_s(1,-w)}{V+cP}\right).
+\qquad}
+\tag{1161.49}
+$$
+$V+cP$ 在原点常数为 $a^{-1}$，所以这里是真正的单位逆。
+没有对 $c$ 假设 $c^p=c$；$P^p=0$ 已使其贡献消失。
+
+再用原 $f=aV$、$\xi=P/(af)$。
+本坐标满足 $\xi=w+O(w^3)$、
+$dw/(1-w^2)=f^2d\xi$，且 $f^p=1$ 于 $\mathcal A$。
+同权性以及 $(p-1)^2\equiv1\pmod p$ 准确给
+$$
+f\,\mathcal F_s(1,-w)
+ =\mathcal F_s(f^4,-wf^6)
+ =:\widehat{\mathcal F}_s(\xi)\pmod{\xi^p}.
+$$
+所以 (1161.49) 变成
+$$
+\boxed{\qquad
+\mathfrak M_s(c)
+ =-\frac{s!}{2^s}
+     [\xi^{p-1}]
+      \frac{\widehat{\mathcal F}_s(\xi)}
+           {1+a^2c\xi}.
+\qquad}
+\tag{1161.50}
+$$
+这里的 $f^4,-wf^6$ 正是 R1154 §§15、17 的原有限
+$E_4,E_6$，不延伸未付的无限 flow。
+
+权 $(p-1)^2$ 为四的倍数，故
+$\mathcal F_s(1,-w)$ 为偶多项式；
+$f$ 偶、$\xi$ 奇使 $\widehat{\mathcal F}_s$ 也为偶。
+令
+$$
+m=(p-1)/2,\qquad \tau=\xi^2,\qquad
+\widehat{\mathcal F}_s(\xi)=\mathcal C_s(\tau)
+ \quad\bmod \xi^p,\qquad \deg\mathcal C_s\le m .
+$$
+将 $c=\kappa\eta$ 代回，并用 (1161.14)，定义原 coarse
+坐标的一个明确单位缩放
+$$
+Z=a^4c^2=a^4\kappa^2\eta^2
+   =-\frac{\eta^2}{12a_{\rm G}} .
+$$
+因此新的显示尺度中 $a_\nu$ 和临时第四根均消去。
+由偶性，(1161.50) 准确等价于
+$$
+\boxed{\qquad
+\mathcal M_s(\eta)
+ =-\frac{s!}{2^s}
+       [\tau^m]\frac{\mathcal C_s(\tau)}{1-Z\tau}.
+\qquad}
+\tag{1161.51}
+$$
+所有 $\mathcal C_s$ 都来自 (1161.46) 的同一权空间；
+并非为每条行重新选择任意的反序多项式。
+
+### 11.4. 保全部 mask 的两点余核
+
+对同一原 coarse component 中的两个允许点，
+记相应缩放为 $Z,Z'$，并令
+$$
+S=Z+Z',\qquad P_{\rm pair}=ZZ'.
+$$
+若 $Z\ne Z'$，则
+$$
+\frac1{1-Z\tau}-\frac1{1-Z'\tau}
+ =\frac{(Z-Z')\tau}
+        {1-S\tau+P_{\rm pair}\tau^2}.
+$$
+代入 (1161.16) 与 (1161.51) 后，
+原完整归一的行差为
+$$
+\boxed{
+\Pi_R(t_*^2)-\Pi_R(t_*'^2)
+ =-N_R\delta(2s-1)!(Z-Z')\,
+ [\tau^{m-1}]
+ \frac{\mathcal C_s(\tau)}
+      {1-S\tau+P_{\rm pair}\tau^2}.
+}
+\tag{1161.52}
+$$
+因所示外部因子均为单位，原共同纤维准确等价于
+$$
+\boxed{\qquad
+[\tau^{m-1}]
+ \frac{\mathcal C_s(\tau)}
+      {1-S\tau+P_{\rm pair}\tau^2}=0
+ \quad\hbox{对全部 }s\in\mathcal S_{\rm good}.
+\qquad}
+\tag{1161.53}
+$$
+本式保 $S=0$、$P_{\rm pair}=0$，也保 R1135 §10 的两个
+twists；没有将其他原 coarse components 合并。
+$\mathcal C_s$ 的 $\tau^m$ 项是本次差值未读取的真正常数层，
+不能据此将它设为零。
+
+例如原 $s=2$ 的 centered slope 是 $c^2/720$，
+故这里准确有
+$[\tau^{m-1}]\mathcal C_2=-1/(360a^4)$，
+更低项为零。
+这只在原 $s=2$ 实际出现时给 affine 单位行，
+不绕过 R1127 的 Bernoulli 条件。
+
+(1161.48) 支付的是全局同权源的真实 Hecke 稳定。
+它并未证明映射
+$\mathcal F_s\mapsto\mathcal C_s$ 的 Gaussian 单点 jet 核
+为 Hecke 稳定，也未证明 Hecke 对应仅移动这两个 coarse 点。
+因此不能由该全局稳定性直接推出原节点代数的 Euler 稳定。
+本节的新共同源和二阶分母保留了这条准确边界；
+后继仍须证明 (1161.53) 对不同允许点不可能同时成立，
+或付清一个真正作用于此余核的操作。
+全部为纸面推导，无数学程序执行。
