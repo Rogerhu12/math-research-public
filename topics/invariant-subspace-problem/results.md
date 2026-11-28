@@ -36,6 +36,8 @@
 
 ## 新增结论
 
+- [R150/W b0：整个ell正阶排除及1009整单位](results/R150-appendix-unit211-W-b0-entire-ell-positive-exclusion-and-1009-integral-unit.md)：完整N5显式ell²正则因子支付全极点/T零支，唯一有限中心由57f37首执行两固定scalar及三原Bézout返1关闭；e,k,u,δ,Vbar,ell当前均为单位，不自动支付其他分母或全W空性。
+
 - [R150/W b0：m正阶、k=-2整个原支排除](results/R150-appendix-unit211-W-b0-internal-m-positive-k-minus-two-entire-original-exclusion.md)：原q/R唯一中心U29/49,µ−7/2，真E1单位f²头付整性；唯一e9ce四维40列后完整普通十源返1，实际仅E1/EB非零乘子，全部谱根重数保，不关闭Q2余图。
 
 - [R150/W b0：ell正阶仅余唯一有限T单位中心及完整N5二阶归一](results/R150-appendix-unit211-W-b0-ell-positive-unique-centre-poles-and-zero-T-exclusion.md)：原q/R排Ast单位及全部µ/T极点，完整N5=2ell²H原展开排T零支，唯一U−5/4,k−1/2且T/µ/A2皆单位；首次两固定完整原消元输入已定义，不预记剩余有限图空。
