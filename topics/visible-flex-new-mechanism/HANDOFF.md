@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **bb6a07098016d9c9483c51600473b469589299ea**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -26,7 +26,7 @@ R648/R650/R649/R653全尾、三jet、离解曲率及C²接缝只消费现成对�
 
 [真实终态/后继](notes/2026-11-28-r566-0449-working2048-continuation.md)run46134971089/sourcec1df49b7：1951.916826632秒/9接受0449014a/p.8，1888×3072fineη.18840244/g0；16J/1818块/14fine与全部费用保链。945coarse/2111physical/1018working+70待工作行；原1024容量停在新backend之前，无该轮J/信赖决策，当前完整库值已付，确切标量行数未打印不借旧943值。
 
-后继只改工作容量2048，从真trust.45050811767578125、原小H/24待乘子先交换70行，保全部原物理/接受/fine。原生大数组未存；小H仅启发式，旧430关停未知费用、f2dda224.668秒和历史8635未执行brackets均保持。仅必要632147B续接输入入库，raw/重复旧费用用run/hash/原request；仍变量g/远未达门。
+后继只改1024→2048，真trust.45050811767578125/原小H/24待乘子先交换70行，保全部原物理/接受/fine。632147B必要输入，旧430未知费用/历史8635队列等保原绑定链；小H非原生大数组恢复，仍变量g。
 
 ## D：原完整BVP与四端新输入
 
@@ -42,7 +42,7 @@ R636 run46134531757 1581.672363659秒/45新接受至3c2e5846，无pending；680�
 
 ## E：真实宏观b7e0／R631
 
-[真实51接受及原路径后继](notes/2026-11-28-r631-b7e0-macro-continuation.md)run46133637169/sourcedf0c9896，源6673.02691023秒、μ0/J48、b7e0720e/η2.48671e−5；52J/51QR旧费和未存末J保留。当前复用P/Pdot及λ1e−14，1451→1707→2219全列/全部μ/全部fine，不重旧51步。R640的R.8/ε.05/球1.032/reach.062只能在R646同一实际μ1 P全域2e−5过门后用；仍设计E，需冻结同g精化。
+[真实51接受及原路径后继](notes/2026-11-28-r631-b7e0-macro-continuation.md)run46133637169/sourcedf0c9896，源6673.02691023秒、μ0/J48、b7e0720e/η2.48671e−5；52J/51QR旧费和未存末J保留。当前复用P/Pdot及λ1e−14，保全部列/μ/fine，不重旧51步。R640的R.8/ε.05/球1.032/reach.062只能在R646同一实际μ1 P全域2e−5过门后用；仍设计E，需冻结同g精化。
 
 ## F：真实有限角、厚闭几何和固定g
 
@@ -50,7 +50,7 @@ R636 run46134531757 1581.672363659秒/45新接受至3c2e5846，无pending；680�
 
 [R659真终态](notes/2026-11-28-r659-finite-angle-actual-terminal.md)147.440342538秒/144接受/810参数，fineη.01698539/κ117.45498，无冻结。[R669后继](notes/2026-11-28-r669-actual-finite-tilt-reach-continuation-scope.md)sourcefe88c51b从真810/trust.001004653续全列QR/SVD，加入两κ/双法向/R665实际中心长度，不加径向spans。fine≤1e−6且同态物理过门才冻513角E，继续同g精化/1025参考/独立径角读出；有限网不授连续。
 
-[R665](results/R665-end-tangent-and-length-cost-for-finite-tilt.md)排除精确1.01倍裸弦超额；R659种子独立母线余长不代二维相容。[R667](results/R667-actual-thick-finite-tilt-family-and-sharp-remaining-metric-error.md)真厚宏观C²闭族/两个准确同g端点已付；中间最优共同误差>.05、中点g经线过短。不得冻结此g；[R671](results/R671-saturated-material-meridian-and-discrete-twist-of-the-exact-endpoint-metric.md)进一步排除其端g的任何同刚接圈连续路径：两饱和直线/Gauss迫内帽仅±θ。R673真实新余长端g与R675完整端点应变准备中。
+[R665](results/R665-end-tangent-and-length-cost-for-finite-tilt.md)排除精确1.01倍裸弦超额；R659种子独立母线余长不代二维相容。[R667](results/R667-actual-thick-finite-tilt-family-and-sharp-remaining-metric-error.md)真厚宏观C²闭族/两个准确同g端点已付；中间最优共同误差>.05、中点g经线过短。不得冻结此g；[R671](results/R671-saturated-material-meridian-and-discrete-twist-of-the-exact-endpoint-metric.md)进一步排除其端g的任何同刚接圈连续路径：两饱和直线/Gauss迫内帽仅±θ。[R673](results/R673-thick-bowed-tilted-endpoint-metric-with-strict-intrinsic-chord-slack.md)新弓形端g+已消所有跨圈饱和弦，双端准确同g、整条参考路径κ<32.3/厚度/握持/整像保持；中间仍不等距。R675正求单位内帽转角的全部Cartesian应变。
 
 ## G：局部输入与真正整帽仍欠
 
@@ -58,4 +58,4 @@ R637/R642/R644/R652准确双核/全频gap/小q族未付有效q0或宏观半径�
 
 [R660](results/R660-positive-four-end-diameter-and-thin-active-band-projection.md)仅排除R598原双侧固定窄带完成类：真R651 D>7.5、全时reach门下dH≤.4，不能.3D；新q须重付D。[R661](results/R661-constant-perimeter-moving-wing-annulus-and-disk-boundary.md)真同g活动环带D<16/reach≥.54/全像≥5.25/固定开片>4，但两圆盘仍须整圈二jets/每帽∫K=2π/全跨件法管；[R664](results/R664-convex-moving-rim-common-negative-curvature-cap-collar.md)已有真实同g负K整圈领/统一C²法管，但中心闭盘仍未付；[R666](results/R666-rotational-disk-reach-repair-and-real-second-rim-mode.md)排除旧窄过渡帽，给实际厚闭参考及另一cosh/球参考的正则二模线性场；[R670](results/R670-fixed-flat-grip-reach-and-two-exact-closed-endpoints.md)已给真固定开盘/闭参考reach≥.16a、D<4.9a和准确同g的F±εY双端；小幅非宏观、无连续路径，平盘单profile旋相另受四谐波障碍。
 
-R645/R649–653条件闭法管/三jet/接缝仍要实际同候选源误差和正collar宽度；R640的比例预算不借别候选。R33仅真旋转固定g全时phase/开盘/δE可0；旧59a4资格不转新q。全帽/连接/所有t嵌入/reach/握持/整像、同g机器或求解容差精化及完整多t网格全部须真付。
+R645/R649–653仍须同候选源误差/全域正collar和全部跨件法管；R640比例不借别输入、旧59a4资格不转新q。R33只授真旋转固定g相位和δE可0。所有未付同g全时/多t网格/存在门见open及完整档案。
