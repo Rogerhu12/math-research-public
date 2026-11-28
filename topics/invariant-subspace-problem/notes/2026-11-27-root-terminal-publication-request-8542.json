@@ -1,21 +1,18 @@
 {
-  "message": "ISP R150: prove whole Phi sextic source and the local P164 model; start new exact head relations",
-  "parentCommit": "d938a1c015e3e5b6201ee858f8b3e550dbf58597",
+  "message": "ISP: prove Phi three-head coprimality and the true Walsh graph-angle trace-class source",
+  "parentCommit": "8c49d8b87bd2b7b323815e8f9768fb96790af159",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-three-multiplier-regular-extension-8542-execution.json",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-centered-original-NSPS-sixth-scalar-content-and-true-leading-support.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-native-P164-integral-specialization-no-vertical-component-and-local-weight-model.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-native-P164-integral-slice-vertical-content-actual-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-NSPS-head-exact-H19-highest-relations-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-NSPS-head-exact-H19-highest-relations-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-phi-whole-head-relations.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-whole-Phi-source-and-P164-local-model-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-whole-Phi-source-and-P164-local-model-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-whole-three-heads-coprimality-and-798-sixth-head-exceptional-weights.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-NSPS-head-exact-H19-highest-relations-execution-8542.json",
+    "topics/invariant-subspace-problem/results/R12-appendix-actual-walsh-graph-coordinates-and-small-trace-class-angle-solution.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-three-heads-and-Walsh-angle-source-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-three-heads-and-Walsh-angle-source-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-three-heads-and-Walsh-angle-source-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-three-heads-and-Walsh-angle-source-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,7 +21,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-whole-head-relations.yml"
-  ]
+  "dispatchWorkflows": []
 }

@@ -2,9 +2,13 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-whole-D2-exclusion-and-W-H198-length-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-three-heads-and-Walsh-angle-source-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [R150：Phi 三真实头互素及至多798个六次头例外权对](results/R150-appendix-unit211-Phi-zero-whole-three-heads-coprimality-and-798-sixth-head-exceptional-weights.md)：5883真3.881622428秒/0，H42/H19与C*的QQ互素和H42完整QQ不可约返回；例外外每权≤18，Δ补图≤12。未判共同零纤维为空。
+
+- [R12：Walsh真闭图坐标及同carry的小迹类角度解](results/R12-appendix-actual-walsh-graph-coordinates-and-small-trace-class-angle-solution.md)：全Julia四块与原前缀迹范数来源给唯一BY−YA=−HKG，全部根分支共同界√(2a0)+40e^−1070；临界低块及非线性同源费用仍开，不去掉缺陷因子。
 
 - [R150：整个 Phi 的原 NS/PS 六次标量及三乘子正则延拓](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)：24ec真2.343511191秒/0，最后N1乘子分母仅Q，C6完整覆盖Δ0；H42补图每权≤18，额外Δ补图≤12，整首项零仍留。
 
@@ -65,25 +69,3 @@
 - [H1同Q原权商≤14、完整规范点≤504](results/R150-appendix-unit211-Phi-zero-H1-same-Q-fourteen-weight-cover-and-504-points.md)：保全部五块的Q4和三原λ结式元素，真实秩均3d；有限整矩阵给通用维数上界，14/252/504不同点界。五块均未全闭，原同λ继续。
 
 - [全余W三生成元：十五行精确原关系表示](results/R150-appendix-unit211-W-global-three-generators-exact-fifteen-original-relations.md)：四个二次矩阵缺陷字面落两comm行，一次15行闭包严格稳定；双向循环模同构精确等于同一六式商，不仅必要环境。同时记录首一λ6实际六系数成功。
-
-- [全余W：原四均值理想的首一物理λ六次](results/R150-appendix-unit211-W-global-original-physical-lambda-monic-six.md)：同一六生成元乘法与adj给χ(λ)∈I4，无自由基底/轴矩阵交换/几何D逆；旧两个λ6在已付物理局部化中可无新逆降≤5。显式系数新源首次构建。
-
-- [一对等权加四独立：共同因子三维原S1严格正](results/R271-appendix-one-pair-four-independent-common-factor-three-source-s1-block.md)：原Δ2/3五域全部返回，合已付Δ1得最大单组共同因子的三维块A>0；连续门180秒未返Δ4，完整S1/S2仍开，剩余原Schur结构另续。
-
-- [真实整P201与三原范数交至14次、完整点≤2016](results/R150-appendix-unit211-Phi-zero-H1-integral-P201-original-norm-14-cover-and-2016-points.md)：固定原结式复合Bézout及整首一gcd提升，权对≤56、五坐标≤1008；八个实际完成块排除，余五完整块1/1/3/4/5，不识别QQ因子。
-
-- [全余W十一条原物理λ关系、两个六次必要式与计算边界](results/R150-appendix-unit211-W-physical-lambda-eleven-original-rows-two-sextics-and-projection-boundary.md)：完整原六项迹、全部同点乘法和两cofactor已返；未付两权内容及所有首项零面保留。固定12阶结果式真180秒仅两步，无完整det，冻结换输入。
-
-- [H1余P201：整性、完整平方自由约化与十三整块](results/R150-appendix-unit211-Phi-zero-H1-P201-integral-squarefree-complete-modular-reduction.md)：原Dixon模逆的实际极点支持恰201次，付旧首一P201在1009整及完整约化；十三块仅在p进完备化，不识别QQ因子、不排空原点。
-
-- [一对等权加四独立：首原S1子式全正权域](results/R271-appendix-one-pair-four-independent-first-s1-minor-all-positive-weights.md)：余第四域六平方和全乘回、第五域全非负，合前三域覆盖全部有序正权及碰撞边界；仅首子式，后五及S2仍开。
-
-- [整K7原图全闭；固定三均值头在全部余W可逆](results/R150-appendix-unit211-W-entire-K7-complete-original-exclusion-and-global-three-generators.md)：9418真0.299187631秒/0，整QQ三次原48×35 rank33返D，与已付原C3²合成D²∈I6，物理D单位排整K及幂零层；未执行181×84。全余W在权[λ]上由1,x,y生成，固定权/λ原纤维长≤3，不宣D局部化全局有限。
-
-- [光滑核全部固定幂的实际伴随近右逆与有界交织本质范数](results/R271-appendix-smooth-kernel-all-power-adjoint-return-and-essential-intertwiners.md)：同G固定多位修复付归一化$S_j\to0$强及$S_jS_j^*\to I$强，全部K∞的实际伴随近原像范数≤输入、弱零；H/K∞任意$B^r$不变商同。至任意实际边界$B^r$子商的交织norm=essnorm及有限矩形放大，紧交织零；未知M紧交换子仅杀K∞，不付K∞=M或未归一原像费。
-
-- [一对等权加四独立权：首原S1子式在有序x2≥1的三个完整闭域严格正](results/R271-appendix-one-pair-four-independent-first-s1-minor-three-closed-chambers.md)：a316真2.441294980秒/0；全部物理逆与原交叉项保，三齐次分子全非负且常数严格正，全部重权边界保。仅首子式；第四域六负项为配方未闭、第五未算，完整S1/S2仍开。
-
-- [整K7原理想三次平方；完整规范scheme长≤72、不同点≤36](results/R150-appendix-unit211-W-entire-K7-original-cubic-square-cover-and-finite-environment.md)：85bc真148.81632278秒/0，16原行和两个固定常数余子式经QQ Bézout完整返$(m^3-4m^2-6m+18)^2$；全部临时主元零保，六原迹实际乘回。三整共轭纤维尚待原值返回，未排整个K或W。
-
-- [Phi/H1 原理想全局首一六次；每权长≤18、完整规范不同点≤28944](results/R150-appendix-unit211-Phi-zero-H1-global-original-monic-six-and-finite-normalized-points.md)：74b真0.998030146秒/0；六cofactor属于同一原理想，Q4 adj/norm与QQ Bézout共同C95全因子已付。1,T,v三生成付18；804权对付五坐标14472，完整Gram/HAHB唯一恢复后仅rho两根付28944，非全局scheme长，不排空。
