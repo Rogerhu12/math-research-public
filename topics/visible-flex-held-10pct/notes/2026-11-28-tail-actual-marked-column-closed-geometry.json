@@ -1,0 +1,74 @@
+{
+  "status": "actual_complete_marked_column_closed_C2_geometry_certified",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/closed_map_marker_cylinder_geometry.py",
+    "sha256": "2aebf619d8e835d060c0897fc82446473dbd88fd32836dc5b66ce36f73cf3b7e"
+  },
+  "actual_query": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/actual-closed-width012-marker-cylinder-20261128/closed-map-query.json",
+    "sha256": "877e68d97868524ed3cde4bca1090fbe8a4a207370e7b6c761da2b5963378cab"
+  },
+  "cut_prefix": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b/summary.json",
+    "sha256": "39ac427fb4cfcfcd0803cf3f49af1d0c631e9e665067e8ca586cbff942a4a97c"
+  },
+  "absolute_tail_placement": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-actual-placement-20261128-a/summary.json",
+    "sha256": "b001a374546aaad59ed3167a12d6ae2233e91f0429e70b421235f1ee53c24d2e"
+  },
+  "complete_original_tail_certificate": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-certificates-001/summary.json",
+    "sha256": "824fc92ebdd98f1ff04a311a2aaeaf525291f8e2ba4a7efbd103166f963b44ee"
+  },
+  "absolute_height": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-actual-placement-20261128-a/absolute-height.json",
+    "sha256": "7c015155273dcd4cb05eab3f53b2aae2469f2254f26e14fc2661e5b7e1b1baf0"
+  },
+  "geometry_bundle": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+  },
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "finite_stage_count": 1152,
+  "literal_span_count": 18460,
+  "cut_width_exact": "1080863910568919/9007199254740992",
+  "cylinder_half_length_exact_binary": "5764607523034235/2305843009213693952",
+  "cylinder_total_length_exact_binary": "5764607523034235/1152921504606846976",
+  "cylinder_total_length_equals_rational_one_over_200": false,
+  "marker_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/universal_threefold_marker.py",
+    "sha256": "06c97cc20934e08b217dfa04891145e61e1f926c35a8a1c88eee05cd1c8c1060"
+  },
+  "phase_chart_exact_rho_lower": "4683743612465315/9007199254740992",
+  "cap_height_after_column_exact_interval": [
+    "515025517766074683339/590295810358705651712",
+    "515025517782317318091/590295810358705651712"
+  ],
+  "reach_ratio_above_three_percent": true,
+  "actual_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/closed-marker-column-geometry-20261128-a/summary.json",
+    "sha256": "57480474eab2110d41053fee5ada0f02548dbb1b9e2fbaf56b9a16ce9fea742c"
+  },
+  "actual_exit_code": 0,
+  "observed_command_wall_seconds": 0.266352396,
+  "all_phase_C2_geometry_proved": true,
+  "continuous_metric_proved": false,
+  "delta_E_proved": false,
+  "lambda_one_held_arc_proved": false,
+  "fixed_problem_refinement_proved": false,
+  "README_completion": false,
+  "whole_radius_upper": 1.1925083405194168,
+  "whole_diameter_upper": 2.3850166810388336,
+  "whole_principal_curvature_upper": 12.3,
+  "cap_curvature_upper": 0.0252,
+  "whole_support_lower": 0.6420099883604928,
+  "whole_reach_lower": 0.08130081300813008,
+  "reach_over_initial_diameter_lower": 0.03408815278085106,
+  "cap_support_lower": 0.8724855378786665,
+  "canonical_marker_radius_exact": "900719925474099/36028797018963968",
+  "canonical_marker_amplitude_exact": "4722366482869643/75557863725914323419136",
+  "marker_first_moment_divided_by_pi_exact": "2799680927722250842524733234942527057312709978992242043386525692379821875833040918202561857/642179612477220023251029850684584343423038196967118714646524875028338405304775746259605194870835192235294720"
+}

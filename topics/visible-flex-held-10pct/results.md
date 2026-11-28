@@ -207,3 +207,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R81. 实际完整尾的第三活动通量界
 
 [完整证明](results/R81-actual-complete-tail-third-activity-flux-bound.md)。同R79/R80原λ.002/M24完整1152段、18460 spans、deep和双平盘，真实投影单射与高度/半径界给两个反射尾的复第三通量绝对值≤.0053322091642946075；未加柱/帽，供同场前缀与字面总柱长合成，不重算原几何。
+
+## R82. 实际标记闭族的全时嵌入与 reach
+
+[完整证明](results/R82-actual-marked-closed-family-all-time-geometry.md)。同R79/R80真实.12 cut/raw-H图加入query字面半柱长.0025和正R67全谐波帽，完整C²闭族全相位嵌入，D≤2.3850166810388336、support≥.6420099883604928、K≤123/10、reach≥10/123，reach/D>.03408815。原图/参数/均值未换，完整metric、δE、λ1握持及同g精化继续。
