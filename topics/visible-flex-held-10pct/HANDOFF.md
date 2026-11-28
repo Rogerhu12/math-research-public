@@ -5,10 +5,10 @@
 ## 规则与来源
 
 - 最近实际pull后双README已读锚 `141333184d3c1f6ff10c4ea2b2103e3ccb9f96bb`（2026-11-28 14:19 UTC）。
-- 集成回退核main `161c8f24ce692dac5079702bd9716a36005c610e`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
-- 私库QUEUE认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；14:00:45UTC实际pull到 `6eec0d59e550d520d18917acaf7816a59f177bbb`，双README空diff，仍本会话进行中。公/私库至少每小时pull，每次对已读锚核双README差异并立即遵守，H记录SHA。
+- 集成回退核main `3f43531308e02001e3160d873567108a1419bdbe`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
+- 私库QUEUE认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；14:00:45UTC实际pull到 `6eec0d59e550d520d18917acaf7816a59f177bbb`，双README空diff，仍本会话进行中。15:00UTC终端不可用未能pull；集成实读私main `6bba30b9e9a9d0b8dffa1c4cae800206b096d7b6`，对14:00锚双README空diff，QUEUE仍本会话进行中。恢复即pull。
 - 根§12直接推进，不加审批；§13授权公开Actions；§15只存源/参数/hash/小结果，可再生数据不进Git/Release；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
-- [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[早期详细快照](notes/2026-11-28-handoff-details-before-compact.md)保全旧前沿、来源和失败。已登记结论不重做，必要丢失输入恢复不算新前沿。
+- [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)保全旧前沿、来源和失败。已登记结论不重做，必要丢失输入恢复不算新前沿。
 
 ## 完成标准不降格
 
@@ -16,7 +16,7 @@
 
 ## 1. 设计到真实 λ1
 
-旧最高[λ.128/M48](notes/2026-11-28-design-previous-frontier.json)仍为run45821850836/sourcea0151c8…：1219点、metric1.59050e−7、δ.06412830439644338、mean2320。旧.128/M40谱门失败、.256域失败、.192 MemoryError无raw、attempt011未知，均不重登记。
+[旧最高λ.128/M48](notes/2026-11-28-design-previous-frontier.json)仍为run45821850836/sourcea0151c8…，metric1.59050e−7/mean2320。旧.128/M40谱败、.256域败、.192 MemoryError和attempt011未知均保原记录，不重做。
 
 本地必要恢复：[.032/M32](notes/2026-11-28-design-secant-lambda032-m32.json)及[.064/M40](notes/2026-11-28-design-secant-lambda064-m40-qr.json)，后者run05e9ad77…、952点、metric2.747920195e−7。本地.128未接受；完整952×145/p48/scale47检查点e889dd15…保留，不能降格或任意删节点。
 
@@ -42,7 +42,7 @@
 
 [正柱/帽真查询](notes/2026-11-28-actual-width012-cylinder-marker-query.md)TTY95236/child0，中央柱比较实际执行，采样差只作诊断。[R82全时闭图几何](results/R82-actual-marked-closed-family-all-time-geometry.md)已证同query字面half=.0025、canonical正帽的C²连续嵌入闭族：D≤2.3850166810388336、support≥.6420099883604928、K≤123/10、reach≥10/123、reach/D>.03408815。实际总ell是binary(.0025)的2倍，非精确1/200；仍无λ1握持/同g精化，metric另付，δE见R83。
 
-[R83](results/R83-actual-closed-third-activity-and-euclidean-separation.md)同.12全965叶第三矩真返（438.449s/242188KiB），接[R81](results/R81-actual-complete-tail-third-activity-flux-bound.md)整尾与字面总ell，Re A3∈[.1392755359019308,.15002395770094334]。正B3/R67最高频率给R82实际闭族δE>0，含反射，未称指定端点/数值δE下界。两个已执行入口从工具全文恢复且SHA同1c2c30a8…/46b2a1f6…。最终coupled须独立绑candidate_H；generic8outer轻watcher57014真exit1/ENOSPC，从未native/J/子启动，无最终physical-H。
+[R83](results/R83-actual-closed-third-activity-and-euclidean-separation.md)同.12全965叶第三矩真返（438.449s/242188KiB），接[R81](results/R81-actual-complete-tail-third-activity-flux-bound.md)整尾与字面总ell，Re A3∈[.1392755359019308,.15002395770094334]。正B3/R67付δE>0；[R84](results/R84-actual-endpoint-third-tensor-separation.md)完整镜面/三重对称消去低权，真BigInt给I3(0)−I3(9/20)>7e−19，指定端点全E(3)不全等；不是Hausdorff数值界。两个已执行入口从工具全文恢复且SHA同1c2c30a8…/46b2a1f6…。最终coupled须独立绑candidate_H；generic8outer轻watcher57014真exit1/ENOSPC，从未native/J/子启动，无最终physical-H。
 
 ## 3. 同一 g 精化
 

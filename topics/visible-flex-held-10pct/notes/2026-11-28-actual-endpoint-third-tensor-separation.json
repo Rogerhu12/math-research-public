@@ -1,0 +1,81 @@
+{
+  "session": "Astra-held10-7c4e33ee-20261128",
+  "date_UTC": "2026-11-28",
+  "mathematical_result": "Same actual R82/R83 closed family: I3(0)-I3(9/20)>7/10^19, hence the specified endpoints are inequivalent under full E(3)",
+  "derivation": "R84 full exact reflection chain and C3/z-reflection rank-three tensor identity; R83 actual moment interval; pi>3 and exact cosine Taylor bound",
+  "source_sha256": "f23439e4bd82bc070565e129fe2494ab93ee49d2542521e9eaee6595c1186024",
+  "source_bytes": 5064,
+  "input_record_sha256": "d435200a5a1a8361cda6c05c7d4ba0a049391fd58cb809a9c96c8d54e7e9661f",
+  "input_record_git_blob_sha": "1a32a44a7adea45f2d4eda2d9840f9488e0b9344",
+  "execution": "Actually evaluated in functions V8 with BigInt on the retrieved immutable public R83 record",
+  "result": {
+    "status": "exact_rational_endpoint_tensor_consequence_passed",
+    "scope": "Same R82/R83 lambda002 raw-H field; R84 reflection proof required",
+    "source_record_commit": "4cbd74a0b22de4345fee878d9e06de97dd14c102",
+    "source_record_path": "topics/visible-flex-held-10pct/notes/2026-11-28-actual-closed-third-activity-and-separation.json",
+    "bindings": {
+      "source_run": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+      "packet": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c",
+      "bundle": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98",
+      "mean": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9",
+      "query": "877e68d97868524ed3cde4bca1090fbe8a4a207370e7b6c761da2b5963378cab",
+      "geometry": "57480474eab2110d41053fee5ada0f02548dbb1b9e2fbaf56b9a16ce9fea742c",
+      "combine": "f109408b33c9726fcdc22efeed555c4889edcd8bc96c3cd1ad526fe6833d0676"
+    },
+    "exact": {
+      "activity_lower": "12988150193023875934487852507089141927517228409392844081963950699339358547958261737466206747055779847224557585563982859873281307433161049294998910557559232846228568682398650780391985846379936090472847381177144409538145766966694640209886396313234568286509954061289877146751138455295835124343119530426123618006908089881119461527658836953893674227640477340208013638147749628547860970789524109/93255072464193015774050153333182206425992749735509675055659246659616328214673308270189665397921624696188097661030357829810796753584978245576933563186868794035800200404127414298127722812967788612237716408107300708456775347242034370647984012404566812213921846012388001023704212601853170217809374493742632464549731270940139068399217981979047303938747335792836234630403897566579100391812628480",
+      "coarse_activity_lower": "139/1000",
+      "endpoint_alpha": "9/20",
+      "three_alpha": "27/20",
+      "one_minus_cos_lower": "989253/1280000",
+      "cap_moment_over_pi": "2799680927722250842524733234942527057312709978992242043386525692379821875833040918202561857/642179612477220023251029850684584343423038196967118714646524875028338405304775746259605194870835192235294720",
+      "cap_moment_strict_lower": "8399042783166752527574199704827581171938129936976726130159577077139465627499122754607685571/642179612477220023251029850684584343423038196967118714646524875028338405304775746259605194870835192235294720",
+      "tensor_norm_squared_drop_strict_lower": "1154920179582272261904290009503372082834580208781621178366986542218511242865654165848584431609416357/1643979807941683259522636417752535919162977784235823909495103680072546317580225910424589298869338092122354483200000000",
+      "requested_drop_lower": "7/10000000000000000000",
+      "positive_gap": "201870801908885753830298685380709932641394522292209068379588191783633816381642019109957148480453736052337/80272451559652502906378731335573042927879774620889839330815609378542300663096968282450649358854399029411840000000000000000000"
+    },
+    "hypotheses_from_R84_not_numerically_inferred": [
+      "Exact same-map y-reflection at alpha=0 makes A3 real",
+      "C3 symmetry and z-reflection remove all rank-three lower weights",
+      "I3(alpha)=abs(A3*exp(3i*alpha)+B3)^2/4"
+    ],
+    "endpoint_noncongruence_including_reflections": true,
+    "numerical_Hausdorff_lower_bound_claimed": false,
+    "whole_metric_claimed": false,
+    "README_completion_claimed": false
+  },
+  "source_path": "topics/visible-flex-held-10pct/scripts/resume_20261128/tail/endpoint_tensor_exact_certificate.mjs",
+  "source_blob_sha": "5e02447c03faee69a8eee13f24d68e4d6ca91d5e",
+  "source_inspection_commit": "4cbd74a0b22de4345fee878d9e06de97dd14c102",
+  "source_dependencies_sha256": {
+    "scripts/resume_transfer/material_flattened_support_core.py": "1d655f2bdad53e1d320c1115a9873abe399a9b7ba930722c415d02dedb9b1f20",
+    "scripts/resume_20261126/warm_phase_validated_core.py": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+    "scripts/resume_m3/r53_validated_material_core.py": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+    "scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+    "scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "scripts/finite_closure/m3_m8_closed_map/phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+    "scripts/finite_closure/m3_m8_closed_map/closed_m3_map.py": "1444b817abe0d77410f8c9e9b35b0ea14aa5f182767fd2de3d57527a46e51ba1",
+    "scripts/resume_20261128/tail/actual_closed_map_v2.py": "3742d3041daad388cc26d63fb7e4300732459f076327938a39ef92b7f3603ee5",
+    "scripts/resume_20261128/tail/universal_threefold_marker.py": "06c97cc20934e08b217dfa04891145e61e1f926c35a8a1c88eee05cd1c8c1060"
+  },
+  "independent_review": {
+    "reviewer": "analytic_construction",
+    "scope": "C3/z/y-reflection hypotheses imply the full tensor identity; exact 1/2 coefficient and trigonometric fraction checked; full source reflection chain separately read by tail_closure",
+    "new_numerical_run": false
+  },
+  "notes": {
+    "floating_source_core_origin_is_not_used_as_proof": true,
+    "all_declared_finite_coefficients_are_real_literal_inputs": true,
+    "no_old_integrals_recomputed": true,
+    "actual_executor_available": false,
+    "tail_metric_successor_session": 79580,
+    "tail_metric_last_confirmed_complete_stages": 61,
+    "tail_metric_after_environment_loss": "unknown",
+    "quantitative_Hausdorff_bound_claimed": false,
+    "lambda_one_or_held_claimed": false,
+    "fixed_problem_refinement_claimed": false,
+    "README_completion_claimed": false
+  },
+  "publication_format_only_change": "Root converted math delimiters to the repository-required $ and $$; no mathematical or numerical source changed.",
+  "published_proof_sha256": "2b83296d9d8db957df0848fdc9e211828112dd5c22c4d6f9342d28f37f9f916c"
+}

@@ -216,6 +216,10 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 
 [完整证明](results/R83-actual-closed-third-activity-and-euclidean-separation.md)。同R82 .12 cut闭族完整965叶前缀矩、R81整尾通量及真实字面柱长合成Re A3∈[.1392755359019308,.15002395770094334]；正canonical B3/R67最高频率判据给实际δE>0，含反射。没有混用λ.064或预报指定端点；准确λ1、整尾metric与固定g收敛继续。
 
+## R84. 实际指定端点的完整三阶张量分离
+
+[完整证明](results/R84-actual-endpoint-third-tensor-separation.md)。同R82/R83图的准确y反射令A3实；C3与z反射消去全部三阶低权，故I3=|A3 e^{3iα}+B3|²/4。已执行BigInt证书给I3(0)−I3(9/20)>7e−19，指定端点含反射不全等；该数不是Hausdorff距离界。
+
 ## R85. 原完整Robin到真实DN与固定g的精确更新
 
 [完整证明](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)。明确64191维原系统的全部末端行/高度列，真实DN为rank≤24更新；同点同gauge/chart的fixed-g列替换合成25维块与χN修正。原8outer非线性剩余有准确全向量公式；旧点J只作frozen chord，所有新小块和方向未实测，不宣称BVP或完成。
