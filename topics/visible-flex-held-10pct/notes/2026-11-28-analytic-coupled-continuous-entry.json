@@ -1,0 +1,164 @@
+{
+  "status": "compiled_explicit_coupled_entry_and_rejected_real_linear_wrong_role_input",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py",
+    "sha256": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae"
+  },
+  "compile_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/coupled-continuous-adapter-compiled-20261128.json",
+    "sha256": "4dc907de200719292dce44d61439f4df979af0177db811baaba8db40f23ddc16",
+    "report": {
+      "status": "explicit_coupled_continuous_entry_compiled_only",
+      "source": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py",
+        "sha256": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae"
+      },
+      "reviewed_base_sha256": {
+        "cartesian_prefix_interval_geometry.py": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc",
+        "cartesian_prefix_metric_tables.py": "ab8c9fb208cfa984c80768144545c9e558682eefa23169364eed9cb7986b82ba",
+        "cartesian_prefix_metric.py": "935dc0ec201161396e11d25ace0de29e456e2c713618b1469cb78d1cea004ab3",
+        "cartesian_prefix_cut_metric.py": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7",
+        "cartesian_prefix_metric_target.py": "a8bb9135d8ad56a0589db3c5d582a91cc85a8c4b1fd5a5632264cccf53d7ca77",
+        "cartesian_prefix_curvature_rounding.py": "e094c1440e487fdd72137e7e20519b98c43addd4a6d5ead82e05fda88f3dbed5"
+      },
+      "phase_compile": [
+        {
+          "adapter": {
+            "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py",
+            "sha256": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae"
+          },
+          "phase": "geometry",
+          "reused_proof_loop_source": {
+            "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_interval_geometry.py",
+            "sha256": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc"
+          },
+          "original_main_sha256": "0a971df15a6b4792d4d19602eac5a7da34d8add7b38caeb8d21a138bc182cce5",
+          "executed_main_sha256": "60f3e6f3578338e4f709c39318f67d2fa46a74d7f87b1616bd5586cb81ebf8f5",
+          "explicit_entry_replacements": {
+            "record, prefix = load_actual_prefix(args.source_run)": "record, prefix = coupled_load_prefix(args.source_run)",
+            "record['physical_sha256']": "coupled_current_physical_sha()"
+          },
+          "interval_formula_methods_modified": false,
+          "accepted_original_replaced": false
+        },
+        {
+          "adapter": {
+            "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py",
+            "sha256": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae"
+          },
+          "phase": "tables",
+          "reused_proof_loop_source": {
+            "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_tables.py",
+            "sha256": "ab8c9fb208cfa984c80768144545c9e558682eefa23169364eed9cb7986b82ba"
+          },
+          "original_main_sha256": "da017065e5df8cfc80a6cdf57ecf6cc7ab6f8cbba858d5804b0ea7ca079ca4e4",
+          "executed_main_sha256": "c6b9843cb4410349eba7265ecd8c550be71060457cf449e9010d5e02265f103e",
+          "explicit_entry_replacements": {
+            "record, prefix = load_actual_prefix(args.source_run)": "record, prefix = coupled_load_prefix(args.source_run)",
+            "record['physical_sha256']": "coupled_current_physical_sha()"
+          },
+          "interval_formula_methods_modified": false,
+          "accepted_original_replaced": false
+        },
+        {
+          "adapter": {
+            "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py",
+            "sha256": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae"
+          },
+          "phase": "metric",
+          "reused_proof_loop_source": {
+            "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric.py",
+            "sha256": "935dc0ec201161396e11d25ace0de29e456e2c713618b1469cb78d1cea004ab3"
+          },
+          "original_main_sha256": "edb04dcdfee2e37afe6f8c074366771c92286758ac8a68c8b56c32a681aaa8b8",
+          "executed_main_sha256": "bc510cee3237bb1ed7737ab92477e7efea77397ebab69c97a948d395beae089c",
+          "explicit_entry_replacements": {
+            "verifier=NewMetric(a.tables)": "verifier=coupled_new_metric(a.tables)"
+          },
+          "interval_formula_methods_modified": false,
+          "accepted_original_replaced": false
+        },
+        {
+          "adapter": {
+            "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py",
+            "sha256": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae"
+          },
+          "phase": "cut",
+          "reused_proof_loop_source": {
+            "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric.py",
+            "sha256": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7"
+          },
+          "original_main_sha256": "2ab5f6849c6ef795fd01ca2a072a68fd55c238ff0351e1e3991c5f39a283e056",
+          "executed_main_sha256": "4b70cade93dae96e3a0a7b1ebbda9628055f1e4b5075e931949c8ab02eb219e3",
+          "explicit_entry_replacements": {
+            "verifier=CutMetric(args.tables,args.geometry_bundle,out,args.cut_width)": "verifier=coupled_cut_metric(args.tables,args.geometry_bundle,out,args.cut_width)",
+            "old_metric=inherit_metric(verifier,args.base_metric,target)": "old_metric=coupled_inherit_metric(verifier,args.base_metric,target)",
+            "old_geometry=inherit_geometry(verifier,args.base_geometry,args.base_curvature)": "old_geometry=coupled_inherit_geometry(verifier,args.base_geometry,args.base_curvature)"
+          },
+          "interval_formula_methods_modified": false,
+          "accepted_original_replaced": false
+        }
+      ],
+      "negative_source_check_executed": false,
+      "positive_actual_coupled_return_available": false,
+      "actual_prefix_constructed": false,
+      "geometry_certificate_run": false,
+      "metric_certificate_run": false,
+      "mathematical_interval_methods_changed": false,
+      "accepted_original_replaced": false,
+      "no_hypothetical_input_files_created": true,
+      "maximum_rss_kib": 66228
+    }
+  },
+  "actual_negative_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/coupled-continuous-reject-linear-20261128/preflight.json",
+    "sha256": "0230176d5a38d9bbe5a86a25f940d90bab0c52b3e5db716a7524bca49c706f57",
+    "report": {
+      "status": "actual_coupled_source_gate_rejected",
+      "metric_certified": false,
+      "geometry_certified": false,
+      "full_height_binding_verified": false,
+      "new_prefix_geometry_constructed": false,
+      "nonlinear_solves_executed": 0,
+      "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+      "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+      "requested_coupling_summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+        "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+      },
+      "complete_surface": false,
+      "error": "ValueError('Only a genuinely accepted, execution-bound actual coupled return is allowed')",
+      "seconds": 0.0010805380006786436,
+      "maximum_rss_kib": 66236,
+      "source_sha256": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae",
+      "coupled_adapter_schema": "actual-coupled-Cartesian-continuous-entry-v1",
+      "coupled_phase": "preflight",
+      "requested_source_kind": "actual_coupled_final_physical_height",
+      "source_run_relabelled_or_rewritten": false,
+      "accepted_original_replaced": false,
+      "old_other_field_bounds_reused": false,
+      "coupled_adapter_sources": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_coupled_prefix.py": "fe58e89451e22a241f5209221ec90a3aece29f46693b753d148035f578286767",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/verify_complete_tail_radius_identity.py": "4c775e4333d789d5481531316d02e02a974212997eb6c14b2d9f99f7f7281116"
+      },
+      "coupled_execution_adapter": null,
+      "actual_coupled_source_verified": false,
+      "source_kind": null,
+      "source_hashes": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_coupled_prefix.py": "fe58e89451e22a241f5209221ec90a3aece29f46693b753d148035f578286767",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/verify_complete_tail_radius_identity.py": "4c775e4333d789d5481531316d02e02a974212997eb6c14b2d9f99f7f7281116"
+      }
+    }
+  },
+  "actual_negative_process_exit_code": 1,
+  "negative_input_role": "The same genuine original linear lambda=.002/M24 run was deliberately passed as source and as an invalid coupling-summary role. No summary was fabricated or relabelled.",
+  "no_real_coupled_summary_available": true,
+  "positive_coupled_acceptance_verified": false,
+  "new_field_geometry_or_metric_certified": false,
+  "no_full_height_packet_or_geometry_bundle_fabricated": true,
+  "next_actual_use_requires_real_original_eight_outer_return_and_its_final_physical_endpoint_packet": true
+}

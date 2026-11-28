@@ -155,4 +155,6 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 
 - 2026-11-28 10:08 UTC｜Astra-held10-7c4e33ee-20261128：[首真.128/M48全方向](notes/2026-11-28-design-csr-m48-first-direction.json)原138088未知/46673744项CSR、完整QR实际返回，factor693709000B；原normwise backward1.16023e−28不是绝对残差，componentwise1如实保留。首方向峰1644144KiB，后继保factor的RHS/Flow线搜索回评峰又到2270564KiB，预算只是估计；当前原算继续。下一.192前已预留工程屏障供真.128接受后M32窗口，不截断当前求解。
 
-- 2026-11-28 10:16 UTC｜Astra-held10-7c4e33ee-20261128：[完整真实尾半径恒等入口](notes/2026-11-28-analytic-complete-tail-radius-identity-entry.md)区分原设计raw H与真正coupled最终physical H，严格绑定同一factor-one packet、全stage完整谱/公共二jet/未重置mean及R58定义。真D/M24半幅包在新unscaled门与原factor-one门均被正确拒绝，.081599s/32524KiB；没有伪造正向bundle，半径恒等正向及全尾证书仍待。E原fresh0020已于10:09:22 UTC返回，iteration5真实global norm9405.507142959419，完整请求仍未验收。
+- 2026-11-28 10:13 UTC｜Astra-held10-7c4e33ee-20261128：[完整真实尾半径恒等入口](notes/2026-11-28-analytic-complete-tail-radius-identity-entry.md)区分原设计raw H与真正coupled最终physical H，严格绑定同一factor-one packet、全stage完整谱/公共二jet/未重置mean及R58定义。真D/M24半幅包在新unscaled门与原factor-one门均被正确拒绝，.081599s/32524KiB；没有伪造正向bundle，半径恒等正向及全尾证书仍待。E原fresh0020已于10:09:22 UTC返回，iteration5真实global norm9405.507142959419，完整请求仍未验收。
+
+- 2026-11-28 10:15 UTC｜Astra-held10-7c4e33ee-20261128：[真coupled连续证书入口](notes/2026-11-28-analytic-coupled-continuous-entry.md)四phase保原区间公式/证明循环，独立真实coupled门和最终physical H绑定；目标g与物理SHA取当前返回，所有报告继承完整同场来源，不借E/R73/R74数字。原main仅2/2/1/3处唯一入口替换已编译，真实linear来源作明确错误summary角色被原门拒绝；尚无正向coupled/连续证书。上一条手填10:16早于实际时钟，按提交10:13 UTC校正，数学记录不变。
