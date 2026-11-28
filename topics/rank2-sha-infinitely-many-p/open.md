@@ -4,9 +4,13 @@
 
 [整理前完整open](notes/2026-11-28-open-before-single-native-residue.md)逐字保全部旧问题、原公式、已排路线及更早归档链。已登记结论不重做。当前精确状态见[HANDOFF](HANDOFF.md)、[results](results.md)和[索引续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)。
 
-## O7：固定E17的原中央非零
+## O7：固定E17的真实全域类与跨素数不消失
 
-[R1067 §§74起](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)保完整Tate张量、原绝对周期、全驯角色及实际signed控制。原Y_k=0当且仅当p^k整除a₂；首测试准确落实际循环邻曲线Norm上的Z^(p−3)y。§§78–79的同一秩零参考及真实different使原a₂由一个实际dlog系数读出。下一步处理这个**完整原系数**跨p非零，不能把所有有限角色非零、单个乘子单位、辅助曲线值或全迹某一项非零当作目标。
+[R1067 §§98–111](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)及[§112起](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)保原完整Tate源。较弱充分门已经是原全域阶A_Z≤2或真实二变量六个混合二次jet至少一项非零；不必坚持a₂模p单位。全Sha无限迫六jet每k整零，并在全部好惰性p迫原五个分离槽同时零。普通固定θ分裂列保两p位完整范数，M的两个整系数亦须零。
+
+同一M∈Q(E17)给固定有理数列A(z)=log M(P_E(z))=Σm_n z^n、m₁=0。§112已付真实I³系数提升、有限驯点特化、全部Teich精度、物理LT与分歧对数损失。全Sha无限必须有m_p,m_{p²},e_{p²}∈pZp及m_p/p+m_{p²+p−1}≡0；优先证明无穷不同p违反至少一条。§§110–113也已将五槽全写在同一固定通用向量扩张，但固定表达本身不保证非零。
+
+原Y_k=0⇔p^k|a₂及实际邻点dlog读者仍有效；不能用有限角色非零、单一乘子或曲率补偿非零替代完整目标。[新形式边界](notes/2026-11-28-five-row-reciprocal-character-obstruction.md)证明五槽乃至整个χ分量加Cartier/µ6仍不够推出AQ倒数读者为零，缺χ^(p+2)型；必须补原固定源的真实跨角色关系，而非再次形式联立。
 
 ## O7固定有限族：E65/E8125
 
@@ -14,7 +18,7 @@
 
 ## 原306图与1156格的真实生产
 
-[R1071](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md) §§17–21保完整G3/W8和四标量Bézout图。v19 source d61834ef33bbaf6b28b96c50999d71ad33e19c8c/run46154552030/job141008207171已实际进入计算；尚无可见完整日志、四端点/九pairs/终门PASS。v17继续；v18 pending且未取消。[v19记录](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)保95pins/原F/P/全部真实门，不重复旧已登记软件计算。
+[R1071](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md) §§17–21保完整G3/W8和四标量Bézout图。[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)已于17:02 UTC因实际X超过32000000格的显式软件预算失败，306配对行已核但完整X/H与终门未返回，不重跑。v18 run46147595142/job141050876340于17:03开始；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)source d61834ef33bbaf6b28b96c50999d71ad33e19c8c/run46154552030/job141008207171于14:25开始。17:58 UTC实际读取均step4运行，两个完整日志仍404；不得从旧前缀猜终态。两版无v17该总格门，保95pins/原F/P/四端点/九pairs与全部原门，等待实际输出并继续理论。
 
 ## 其它未闭门
 
