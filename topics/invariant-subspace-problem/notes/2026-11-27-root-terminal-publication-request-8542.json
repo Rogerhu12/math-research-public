@@ -1,18 +1,14 @@
 {
-  "message": "ISP: exclude whole symmetric h k u=1 original fiber and stage B terminal multipliers",
-  "parentCommit": "e4fed97202d6ebb424e0800bac920dfaa5539299",
+  "message": "ISP: align symmetric u one documents with root formula rules and clarify prior review",
+  "parentCommit": "b3da110afc8651c2b0559136f3d8f93e76ec8c53",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
     "topics/invariant-subspace-problem/results/R150-appendix-unit211-h-equals-k-entire-symmetric-u-one-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-symmetric-u-one-original-Q-projections-8542.md",
     "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-symmetric-u-one-original-Q-projections-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-terminal-original-multiplier-cancellation-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-terminal-original-multiplier-cancellation-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-Bzero-terminal-original-multiplier-source-review-8542.json",
-    ".github/workflows/invariant-subspace-8542-phi-bzero-terminal-original-multipliers.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-hk-uone-complete-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +17,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-bzero-terminal-original-multipliers.yml"
-  ]
+  "dispatchWorkflows": []
 }

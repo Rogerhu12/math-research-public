@@ -7,10 +7,10 @@
 - **数据规矩8/15：** 本会话可重算编码/分片已从main移除，只保源/定义/run/SHA及[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。旧输入仅终端临时读取，不重写历史。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 1e2226f38a5b66453010e670b52f9ccf6508db8e（2026-11-28 06:44:30 UTC，Actions run46117967274实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46117967274-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 06:44:29 UTC/37446bbda8c0c67aa61986029ca66ad5b0c4f7cd，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** d8432bcc81b785c654abea51621c802dcc2df174（2026-11-28 06:55:37 UTC，Actions run46118797514实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46118797514-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 06:55:36 UTC/ba6d0818208edcc771ac796c93ec436a2d4a0e63，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 约07:20 UTC起不可用，06:03复探仍未恢复；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
-- **终端断开后远端已读：** `e4fed97202d6ebb424e0800bac920dfaa5539299`（2026-11-28 06:43:54 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `b3da110afc8651c2b0559136f3d8f93e76ec8c53`（2026-11-28 06:54:59 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
 - 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-hk-uone-complete-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
