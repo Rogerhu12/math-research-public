@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **06e86c15bb8b1ca8089cae4bcb51eb483083acbe**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **f706df857101c505d0761b261354e08950d09e6f**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
@@ -12,7 +12,7 @@
 
 **R748 已启动 run46176200567。** head **1a1355d1e88dc75a7bbc7437c34ce1abe149525c**，request SHA **e0d73f1984c1be1695b243aea255cd9b31938f274cc40f1e2bacffaf955e5bc1**。[同一E完整单高度](notes/2026-11-28-r748-first-complete-single-height-fixed-material.md)，93/191/409全列/全部TSQR-SVD，2400秒；原1882q真实转移，两帽/三Gram/完整旋角位移与两轴长。共享原包外补运23base+3校准，1,439,017B；不重已付键。规范深帽估计未含原IEEE/Gauss/OLD相接误差，整体连续资格仍false。
 
-**R745 已启动 run46174255201。** head **a319f91b17bdd347e627e92184c482023f3f9128**。[首厚三肩双谷](notes/2026-11-28-r745-first-bound-thick-two-valley-input.md)，2200秒，实际双列/SVD、共同零包围和完整有号β，旧R734/R735/R738胞按键复用。尚无本次自然终态，不读活日志。
+**R745 厚双谷原终态已登记。** [7接纳/32全2×2/242732新区间单位](notes/2026-11-28-r745-thick-two-valley-paid242732-natural-terminal.md)，run46174255201/job141069279288，1321.976574898秒；中心Wronskian约3.57e−15但true_two_valley_box=null，有限beta≈5.855e16未证全尾。原pending=null、原RHS342033和全部242732胞不重，R759改真半段射影/Krawczyk传播。
 
 **R750 已启动 run46174873079。** head **c8c285fee6c7317c8d14749b71d25e703fef1802**。[固定R743同g的两真边环带](notes/2026-11-28-r750-first-true-two-edge-annulus-scope.md)，327/1368全列、完整三curl及真实相对位置，2400秒；给定件全部弦/法球/Dref纸证已成，未知环带原场与全连续门仍开。原Pss/Gauss有限读数不授连续资格。
 
