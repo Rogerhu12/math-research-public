@@ -89,6 +89,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 三个114方向完整读数为C(P²λj)=Λλj、C(P³λj)=3BjΛλj、C(P⁴λj)=6Λ(Bj²+r1²Rj²)λj；第0/1层零。高层通常亚纯，不能删。无条件A9=−4c^(2k−2)K4/δ²、A3=4c^(2k−2)K4/δ²+8vc^(2k−2)e/δ⁴；K4∈Fp而e^p=−e。原两个谱jet准确满足q0=δr0/(2Γ)、q′0+2v²q0/(3δ³)=δr′0/(2Γ)，Γ=(2v)^(2k)，不再需要先假e0；不是整个谱的指数gauge。
 
+[同文 §14](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)现给六个123方向的全部实际椭圆映射及原P_ab的精确函数式：两项无p次补偿，另四项保(V/U)^p或(U²/V)^p及各模型δ/符号；以实际极点和μ3角色排除残余pth函数。只有e=K4=0且123方向第0…4层，原已付Cartier消失才允许在C(P^rP_iω_j)和C(P^(r−1)P_iP_jh*)中删除这些补偿；完整Leibniz右端仍保，114的Λ和高层亚纯项不删。此为后续真实mixed源输入，不是共同零排除。
+
 全部45槽中的κ–Serre型对角−6r_ab为单位，有限Thomae付全三张量Fp²交替、九mixed合一；e=δS_n/(ρs)、S_n=−9ρ²A_orig准确。σ来自三114循环，Λ来自同E* H_*²及原Padé D_N的有限functional，二者均未unit。e=K4=0仍恰222+123七维第0…4层消失/原q两jet共零；继续实际Leibniz、指定短源/有界primitive，不以perfectness、覆盖同构、全Jordan或旁列单位排除。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维

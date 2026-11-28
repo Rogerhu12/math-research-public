@@ -2117,3 +2117,142 @@ $p$ 次修正和不附 $e=0$ 前提的第四层身份。
 全部为纸面函数恒等式、有限极界及既有相对 Cartier 来源的精确比较。
 
 本节 root 逐式核准下降、唯一极界与零点常数，重读 R1061 §§19.4、21.5 和 R1076.13，核定全部 relative/absolute 符号、三条亚纯补偿及一阶谱标架。o2 独核无条件第四层尺度；没有数学程序执行。
+
+
+## 14. 六个 $123$ 槽的椭圆 primitive 与全部 $p$ 次补偿
+
+本节只锁定原 (G4.15) 的函数 $P_{a,b}$，不换用一个任意的 primitive。
+对 $\epsilon\in\{1,-1\}$ 记
+$$
+E_\epsilon:\quad V_\epsilon^2=U_\epsilon^3+\epsilon,\qquad
+\omega_\epsilon=\frac{dU_\epsilon}{2V_\epsilon}.
+$$
+在每条曲线上取与 §13 同一首项规范的
+$$
+\Psi_\epsilon=V_\epsilon U_\epsilon
+ \sum_{j=0}^{N}a_{\epsilon,j}U_\epsilon^{3j},\qquad
+a_{\epsilon,N}=-1,\qquad
+d\Psi_\epsilon=\delta_\epsilon\omega_\epsilon.
+$$
+其递推是
+$$
+\frac{a_{\epsilon,j}}{a_{\epsilon,j-1}}
+=-\frac{6j-1}{\epsilon(6j+2)},\qquad
+\delta_\epsilon=2\epsilon a_{\epsilon,0}\in\mathbf F_p^\times.
+$$
+所有实际出现的分子、分母均小于 $p$ 且非零；
+特别 $\delta_{-1}=(-1)^k\delta_1$。这里的 $\delta_\epsilon$
+与原 $E:V^2=U^3+v^2$ 的 $\delta$ 分别按各自模型保留。
+
+### 14.1. 六个实际映射及微分标架
+
+以下每行都是同一 $Z:x^6+y^6=1$ 上的可分映射。
+表中最后一栏表示 $\pi_{a,b}^*\omega_\epsilon$，
+并非重新归一原 $\omega_{a,b}$。
+$$
+\begin{array}{c|c|c|c|c}
+(a,b)&\epsilon&U_\epsilon&V_\epsilon&
+\pi_{a,b}^*\omega_\epsilon\\ \hline
+(1,2)&1&y^2/x^2&x^{-3}&-\omega_{1,2}\\
+(2,1)&1&x^2/y^2&y^{-3}&\omega_{2,1}\\
+(1,3)&-1&x^{-2}&y^3/x^3&-\omega_{1,3}\\
+(3,1)&-1&y^{-2}&x^3/y^3&\omega_{3,1}\\
+(2,3)&1&-x^2&y^3&-\omega_{2,3}\\
+(3,2)&1&-y^2&x^3&\omega_{3,2}.
+\end{array}
+\tag{G4.88}
+$$
+曲线方程和六个微分号都由 $y^5dy=-x^5dx$ 直接给出。
+
+将相应行的 $\Psi_\epsilon,\delta_\epsilon,U_\epsilon,V_\epsilon$
+拉回到 $Z$。完整的函数身份为
+$$
+\boxed{
+\begin{array}{c|c}
+(a,b)&P_{a,b}\\ \hline
+(1,2)&-\delta_1^{-1}\{\Psi_1+(V_1/U_1)^p\}\\
+(2,1)&\delta_1^{-1}\Psi_1\\
+(1,3)&-\delta_{-1}^{-1}\{\Psi_{-1}+(U_{-1}^2/V_{-1})^p\}\\
+(3,1)&\delta_{-1}^{-1}\Psi_{-1}\\
+(2,3)&-\delta_1^{-1}\{\Psi_1+(U_1^2/V_1)^p\}\\
+(3,2)&\delta_1^{-1}\{\Psi_1+(V_1/U_1)^p\}.
+\end{array}}
+\tag{G4.89}
+$$
+同名 $\Psi_1$ 在不同行总是经该行的实际映射拉回，
+不能把六个映射当成同一个点参数。
+
+### 14.2. 这里没有未说明的 $p$ 次函数
+
+先核原 $P_{a,b}$ 确实下降到表中椭圆函数域。例如
+$P_{1,2}=x y^{-2p}R_{1,2}(x^6)$，代 $y^2=U_1x^2$ 后，
+$x$ 的幂为 $1-2p+6j$，总是三的倍数，故可用 $V_1=x^{-3}$ 表示。
+其余五行同样直接用原显示多项式改写。
+因而两个同导数函数之差的 $p$ 次根也在对应的一变量椭圆函数域中。
+
+对于 $(2,1),(3,1)$，原函数只有 $O$ 处至多 $p$ 阶极。
+差的 $p$ 次根属于 $L(O)=K$；在 $U_\epsilon=0$ 处，
+原函数和 $\Psi_\epsilon$ 都为零，所以常数为零。
+
+对于 $(1,2),(3,2)$，原极点是 $Q_\pm=(0,\pm1)$。
+在 $O$ 处，以 $t=-U_1/V_1$ 为首项参数，
+$V_1/U_1=-t^{-1}$，其 $p$ 次幂精确抵消 $\Psi_1$ 的负 $p$ 主部。
+和的导数是正则微分，剩余极界又小于 $p$，故 $O$ 处没有其他负项。
+于是差的 $p$ 次根属于
+$$
+L(Q_++Q_-)=\langle1,U_1^{-1}\rangle.
+$$
+这个空间对 $V_1\mapsto-V_1$ 全为偶，而原函数及 (G4.89) 右端都为奇；
+差因此为零。
+
+对于 $(1,3),(2,3)$，原极点是三个非零二挠点 $T_i$。
+$U_\epsilon^2/V_\epsilon=-t^{-1}+O(t)$，
+所以同样精确消去 $O$ 处的唯一负 $p$ 主部。
+这次差的 $p$ 次根属于
+$$
+L(T_1+T_2+T_3)
+=\langle1,V_\epsilon^{-1},U_\epsilon/V_\epsilon\rangle.
+$$
+在 $U_\epsilon\mapsto\zeta U_\epsilon$ 下，这三项的 $p$ 次幂
+只有角色 $1,\zeta^2$，而待比较的两个函数都具有角色 $\zeta$。
+故差仍严格为零。这些论证使用实际极点和角色，未仅凭两曲线的 $j$ 值锁定 primitive。
+
+### 14.3. 混合高插入中哪些补偿可以消去
+
+统一写 (G4.89) 为
+$$
+P_i=\varepsilon_i\delta_i^{-1}(\Pi_i+L_i^p),
+\qquad \varepsilon_i\in\{1,-1\},
+$$
+其中 $\Pi_i=\pi_i^*\Psi_\epsilon$，
+$L_i$ 是表中 $0,V_\epsilon/U_\epsilon,U_\epsilon^2/V_\epsilon$ 中的实际函数。
+对任意有理微分 $\omega_j$，absolute Cartier 的准确展开为
+$$
+\boxed{
+C(P^rP_i\omega_j)
+=\frac{\varepsilon_i}{\delta_i}
+ \{C(P^r\Pi_i\omega_j)+L_iC(P^r\omega_j)\}.}
+\tag{G4.90}
+$$
+特别，只有在原 $e=K_4=0$、$j$ 属于六个 $123$ 槽、
+且 $0\le r\le4$ 时，§7 与 §13 已付的消失才允许删除第二项。
+在 $114$ 槽，这个删除通常不合法：例如第二层保有 (G4.84) 的 $\Lambda_p$。
+
+同一双零假设下，对于两个 $123$ 槽 $i,j$ 和 $1\le r\le4$，
+$$
+\boxed{
+C(P^{r-1}P_iP_jh_*)
+=\frac{\varepsilon_i\varepsilon_j}{\delta_i\delta_j}
+ C(P^{r-1}\Pi_i\Pi_jh_*).}
+\tag{G4.91}
+$$
+确实，$d(P^rP_i)$ 给
+$C(P^{r-1}P_i h_*)=-C(P^r\omega_i)/r=0$，
+而 $C(P^{r-1}h_*)=0$；所以展开两个 $p$ 次补偿后全部交叉项都准确消失。
+这些是有理微分的身份，不附加高插入输出全纯的结论。
+后续 Leibniz 比较仍须保留
+$$
+C(P^rP_i\omega_j)+C(P^rP_j\omega_i)
+=-rC(P^{r-1}P_iP_jh_*),
+$$
+不能将它预先替换为一个高阶 Jacobi 关系。
