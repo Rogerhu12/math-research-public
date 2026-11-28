@@ -166,27 +166,27 @@
   "child_pid": 2553,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 14,
-    "utc": "2026-11-28T12:37:32Z",
+    "ordinal": 15,
+    "utc": "2026-11-28T12:39:05Z",
     "original": {
       "event": "stage",
-      "stage": 13,
-      "kind": "alternate_shape_and_material",
+      "stage": 14,
+      "kind": "same_frozen_Haar_shape",
       "design": "tilt44",
-      "relative_Killing": 1883.942037507727,
-      "frozen_gram": null,
-      "curvature": 10224032.570169672,
-      "support": -1.019840242417692
+      "relative_Killing": 7770.524401537529,
+      "frozen_gram": 4.6303873878771675,
+      "curvature": 22134636.41700951,
+      "support": -0.9420234882584296
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/summary.json",
-      "bytes": 32256,
-      "sha256": "4041c4c3071c5934a274f6dff6be66cfddc1813869daedf82975bafbcea6b81c"
+      "bytes": 34792,
+      "sha256": "1cff85d7683455da898d5e4117fa5adf4b457ca23c60abc7ee1df1e907783b0e"
     },
     "complete_small_json": {
-      "elapsed_seconds": 271.20845439299995,
+      "elapsed_seconds": 362.15198353899996,
       "frozen_source_npz_sha256": "89d69811a64d3b2a7ff560d5d06b8dd59b3ee45403662d6e4bb0dfc3382d81a3",
       "frozen_target": {
         "action": "Both fixed stages use the circle action of this same original shape basis and recorded preperiod vector. A transferred stage vector is used only for reporting the material Killing residual.",
@@ -249,10 +249,10 @@
       },
       "in_progress": {
         "call": 1,
-        "cost": 42.11281039111137,
+        "cost": 31.757983349938222,
         "kind": "frozen_Haar",
-        "shape_sha256": "9d0fdf8a428fd2580c4e0daf38ffe642607ecebb1b82ac8a0ef5c635c310bbe1",
-        "stage": 14
+        "shape_sha256": "d314f55c2b1e06828e8e77b1225490fde70dec3f433798e7aa74e71495c295de",
+        "stage": 15
       },
       "numpy": "2.3.5",
       "orbit_integration_attempts": [
@@ -1666,6 +1666,115 @@
             "support_min": -0.5557595217932655,
             "upper_height_min": -6.293169492056803e-17
           }
+        },
+        {
+          "adjoint_abs": 1.354472090042691e-14,
+          "check": {
+            "Killing_op_max": 7770.524401537529,
+            "Killing_rms": 52.06379250301435,
+            "area_min": 0.0003543507687211725,
+            "check_shape": [
+              165,
+              480
+            ],
+            "clock_min_sample": 0.5032589630400411,
+            "frozen_gram_max": 4.6303873878771675,
+            "frozen_gram_rms": 0.5267159542943542,
+            "max_abs_principal": 22134636.41700951,
+            "opposite_witness_to_upper": 0.8035948352431393,
+            "origin_radius": 1.2914019360096793,
+            "support_min": -0.9420234882584296,
+            "upper_height_min": -9.935874544866068e-17
+          },
+          "configuration": {
+            "angular": 144,
+            "check_angular": 480,
+            "check_radial": [
+              31,
+              109,
+              27
+            ],
+            "field_iterations": 0,
+            "id": "fixed-Haar-1",
+            "lsmr": 155,
+            "max_feval": 82,
+            "mode": 15,
+            "radial": [
+              17,
+              49,
+              13
+            ],
+            "regularizer": 2e-06,
+            "spans": [
+              5,
+              14,
+              4
+            ]
+          },
+          "cost": 0.16936903120819807,
+          "design": {
+            "extra": 0.58,
+            "id": "tilt44",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.44,
+              "height": 0.37,
+              "join": 0.006,
+              "left_handle": 0,
+              "shift": 0.19
+            }
+          },
+          "directional_fd_relative": 0.00025064596051589157,
+          "field_count": 729,
+          "field_sha256": "f435e693f134d4d8e5674b34cb8556d1b1379f65d0279f1295f6229c81439c11",
+          "frozen_action_source_field_sha256": "efc19d83394fecb4d2cd2bc68c178db385196bc807b2c51cb070c2f96387b65b",
+          "independent_same_target": {
+            "Killing_op_max": 7770.524401537529,
+            "Killing_rms": 52.06379250301435,
+            "area_min": 0.0003543507687211725,
+            "check_shape": [
+              165,
+              480
+            ],
+            "clock_min_sample": 0.5032589630400411,
+            "frozen_gram_max": 4.734943041299708,
+            "frozen_gram_rms": 0.5354968970901659,
+            "max_abs_principal": 22134636.41700951,
+            "opposite_witness_to_upper": 0.8035948352431393,
+            "origin_radius": 1.2914019360096793,
+            "support_min": -0.9420234882584296,
+            "upper_height_min": -9.935874544866068e-17
+          },
+          "kind": "same_frozen_Haar_shape",
+          "nfev": 69,
+          "njev": 45,
+          "npz_bytes": 15158,
+          "npz_sha256": "be3348eef87731d3939a067898ed71a10a7f1bfcdddc1fb57833b0db9a62d2d2",
+          "optimality": 15.261179057331933,
+          "point_sha256": "1865f1dd31607063944bcf16b3331508dc0a54015c8c225b672f4ea1d4166dc6",
+          "score": 36.663770788768,
+          "shape_count": 1096,
+          "shape_sha256": "af5c23a370c1603321b8deb11f77980954349fcedc9e4594d21f923286165c69",
+          "solver_status": 4,
+          "stage": 14,
+          "train": {
+            "Killing_op_max": 1410611.0558687625,
+            "Killing_rms": 13396.19598062629,
+            "area_min": 1.5652669592813432e-06,
+            "check_shape": [
+              77,
+              144
+            ],
+            "clock_min_sample": 0.5037754627668396,
+            "frozen_gram_max": 4.9575686832522,
+            "frozen_gram_rms": 0.527682035944209,
+            "max_abs_principal": 22147706227.788506,
+            "opposite_witness_to_upper": 0.8035925198331333,
+            "origin_radius": 1.2914026650836825,
+            "support_min": -0.24891595418833368,
+            "upper_height_min": -8.11121345477864e-17
+          },
+          "transferred_diagnostic_field_sha256": "f435e693f134d4d8e5674b34cb8556d1b1379f65d0279f1295f6229c81439c11"
         }
       ]
     }
@@ -1698,6 +1807,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:33:02Z",
-  "observed_utc": "2026-11-28T12:37:34Z",
-  "original_scalar_line_count": 14
+  "observed_utc": "2026-11-28T12:39:05Z",
+  "original_scalar_line_count": 15
 }
