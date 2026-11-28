@@ -142,4 +142,6 @@ R779/R782/R783完整限定与原证明见[后续索引](results/INDEX-after-R770
 
 [53/R790](notes/2026-11-28-run53-original-shared-rim-budget-with-R790-transport.md)：27源保44完整原22源/五粗两族各4/8/16共11stage及双全末网；同12物理jet加4逆坐标、原精度/全恢复，真实加速和点待返；44/45不动。
 
-[R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54三维自由port可修。
+[R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54保三维自由port，未称收敛。
+
+[54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。

@@ -45,3 +45,5 @@
 - [R790](R790-twelve-physical-jets-and-transported-inverse-collar-coordinates.md) / [53完整启动](../notes/2026-11-28-run53-original-shared-rim-budget-with-R790-transport.md)：同R761物理12材料jet加4逆坐标，原精度分组控制/原Newton与全flow恢复；保44原22源、五粗两族各4/8/16共11阶段/双全末网。改浮点路径不预称加速，44/45原工作不动。
 
 - [R791](R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)及[全九图六jet](../scripts/resume_20261126/r791_prebent_lever_waist_two_jets.py)：真实新初弯.10→.65、长腰两头闭球，整reach≥.104、D<3.22、握径≥.648、全像held>.652、含反射商距>0。仅真实腰纵向g欠<.096，初K双符号胞保持；真1e−6修复必须移动至少一腰口>.015。非圆空间全场后续仍待付。
+
+- [54完整三族全场](../notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16源、九粗+各4/8/16共18stage，R791同g七全角纵向矩和两自由真腰口入实际Gram/应力/厚度目标。固定右条与左真实见证保宏运动，其余拟合几何另付；三个最终完整同点网预算不减。

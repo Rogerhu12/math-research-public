@@ -1,0 +1,603 @@
+{
+  "schema": "visible-larger-run54-prebent-waist-stress-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "run_number": 54,
+  "source_branch": "main",
+  "scientific_mode": "Fit the actual R791 pre-bent waist geometry on its one fixed phase-zero metric. Train the hard-head, released-rim and spatial-ring families independently on the full nine-chart material surface. Retain the actual pre-bent spine, both flares, both rounded ends, both cap disks, the true right cap strip and left witness. Each family visits all original stages.",
+  "full_candidate_solution_or_accurate_certificate_assumed": false,
+  "scientific_inputs": {
+    "script": {
+      "role": "script",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_prebent_waist_phase.py",
+      "name": "bent_prebent_waist_phase.py",
+      "bytes": 15396,
+      "sha256": "56f524b63f6799db75aae54c143c019c8d2c72acf82b78e9db9431fad049664b",
+      "git_blob_sha": "54147059a6b17567f3f7444e056c307e0dbc13f3"
+    },
+    "waist_fields": {
+      "role": "waist_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_prebent_waist_fields.py",
+      "name": "bent_prebent_waist_fields.py",
+      "bytes": 7879,
+      "sha256": "6e825f59a1ec0ee9a4a181a0de584ff1c6d5bf7a3640444dfd6d65da5db93a1e",
+      "git_blob_sha": "b40eb7f1675a4b7cdd813aacff404548bb2f2c68"
+    },
+    "normal_system": {
+      "role": "normal_system",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_prebent_waist_normal.py",
+      "name": "bent_prebent_waist_normal.py",
+      "bytes": 10881,
+      "sha256": "a2f14d9b52cc42877cff8223350075dc457869472acd3f053861c54efa35a2f5",
+      "git_blob_sha": "12fb2b3923b993adb5845fe555db389ead2e8bac"
+    },
+    "stress_system": {
+      "role": "stress_system",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_prebent_waist_stress.py",
+      "name": "bent_prebent_waist_stress.py",
+      "bytes": 6449,
+      "sha256": "60e37feffd1af8d5ee25cdfc6a066411b9eaaf0e51e6bd767844c462ddc2e242",
+      "git_blob_sha": "3c41072c8a47f5838bb72132d87b336c49292d60"
+    },
+    "parameters": {
+      "role": "parameters",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-prebent-waist-phase-design-v1.json",
+      "name": "bent-prebent-waist-phase-design-v1.json",
+      "bytes": 8716,
+      "sha256": "2720cb9fc4dd5b318dc33e647c1aeb1d978ae2e1bb781e7ffaf3c021d8f925e9",
+      "git_blob_sha": "6d87f6ab7a1103d4ee5ca89eb03d924b79b7e307"
+    },
+    "geometry_source": {
+      "role": "geometry_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r791_prebent_lever_waist_two_jets.py",
+      "name": "r791_prebent_lever_waist_two_jets.py",
+      "bytes": 3940,
+      "sha256": "7d697799356f10fd68e8e0d0b99c55ea7f78eb49131c6ea7af6bbfb2730b852f",
+      "git_blob_sha": "c2bd713970b9fd4aee9c37f6ce39b3a67019d10a"
+    },
+    "r783": {
+      "role": "r783",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r783_four_developable_cap_flaps.py",
+      "name": "r783_four_developable_cap_flaps.py",
+      "bytes": 5866,
+      "sha256": "c89fbdea0dd140bc75d386282ef36414df8d11b5d0168ab33fcf4a523f58c4d3",
+      "git_blob_sha": "ffe32554c7db13a5d2d1d5f9cc8c9e8db18f4601"
+    },
+    "r781": {
+      "role": "r781",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r781_round_three_lobe_spatial_rings.py",
+      "name": "r781_round_three_lobe_spatial_rings.py",
+      "bytes": 6106,
+      "sha256": "a674cad49accc18e542a64e12aeb9337b0265f1f20444d0273f20efe3a274cd0",
+      "git_blob_sha": "9eb10ee6c200e95e1b9b6a2b438d84a40518ae8b"
+    },
+    "r740": {
+      "role": "r740",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "name": "r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    "r742": {
+      "role": "r742",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "name": "r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    "r767_profile": {
+      "role": "r767_profile",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_negative_track_profile.py",
+      "name": "r767_negative_track_profile.py",
+      "bytes": 4051,
+      "sha256": "c990caa58fd70ab2c533d512ef9f96d4de7c5e6a200f3b1eb0d471267472256f",
+      "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+    },
+    "r767_cap": {
+      "role": "r767_cap",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r767_preloaded_cap_atlas.py",
+      "name": "r767_preloaded_cap_atlas.py",
+      "bytes": 4615,
+      "sha256": "2e108b7e533875da65e01abfc670c0e354801985c249646f33b3d2df2fcd80fe",
+      "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+    },
+    "bridge_system": {
+      "role": "bridge_system",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_preloaded_bridge_system.py",
+      "name": "bent_preloaded_bridge_system.py",
+      "bytes": 5861,
+      "sha256": "507c6a8036b9a86b32b3477a0b7f7622382f134239f47d82a5758f598b1d23ba",
+      "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+    },
+    "export_source": {
+      "role": "export_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r772_terminal.py",
+      "name": "closed_body_mesh_r772_terminal.py",
+      "bytes": 9174,
+      "sha256": "367ffae0ab86f6c50b5428c80849db9b96d1fe99243962d4c8def06cdc01d4ad",
+      "git_blob_sha": "326b282c15bf8146524299d47edd60527e3d65e8"
+    },
+    "terminal_mesh": {
+      "role": "terminal_mesh",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_terminal.py",
+      "name": "closed_body_mesh_terminal.py",
+      "bytes": 16874,
+      "sha256": "fca64a1a1b16822b39f7c4bc12bb559f394eb88f81da932fbaa13c161914d197",
+      "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+    },
+    "mesh_geometry": {
+      "role": "mesh_geometry",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_geometry.py",
+      "name": "closed_body_mesh_geometry.py",
+      "bytes": 8315,
+      "sha256": "eadff92d30352db738e8642f3fcad051661d6a48a3628c22101a58967f1b0050",
+      "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+    }
+  },
+  "source_commit": "the actual workflow triggering Git commit, retained in its immutable detached scientific worktree",
+  "original_arguments": [
+    "--params",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-prebent-waist-phase-design-v1.json",
+    "--geometry-source",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r791_prebent_lever_waist_two_jets.py",
+    "--export-source",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_r772_terminal.py",
+    "--out",
+    "{runner_temp}/run54-prebent-waist-{run}-{attempt}/field"
+  ],
+  "scientific_budget_source": "The complete R791 three-family parameter file and the original full Run54 physical solver.",
+  "scientific_protocol": "Nine complete initial solves, three per family. Select the lowest actual finite score within each family. Carry all three through independent 4, 8 and 16 time-interval refinements. Each stage uses all its original chart rows, angle and moment measurements, current ordered normal pairs, far material bounds, true nonlinear line searches and signed full-space Ritz proposals. Export the three selected final fields at the union of the 65 validation and extra .15, .35, pi/3 phases and the seven full mesh phases on the same runner.",
+  "canonical_point_words": "Each closed point commits to the physical design, ordered dictionary, little-endian float64 coefficient/time arrays, shape, scientific source hashes, the R791 fixed metric, physical world map, order 20 target dictionary and finite Bessel expansion as encoded by the primary source.",
+  "runner": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+  "python": "3.12.14",
+  "dependencies": [
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ],
+  "scientific_environment": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numeric_environment_parent": {
+    "path": ".github/workflows/visible-larger-public-small-core-full3-trust.yml",
+    "bytes": 13971,
+    "git_blob_sha": "e846d64025a9661ab8bf1449f26c7c8325af94b2",
+    "sha256": "5280636f0f773af4132792cbf699b2a26a10077522050a4a9f4a473b37333424"
+  },
+  "observe_period_seconds": 8,
+  "minimum_publish_retry_seconds": 20,
+  "live_scalar_publish_period_seconds": 120,
+  "readme_pull_period_seconds": 2700,
+  "public_remote_topic_bytes_limit": 200000000,
+  "action_job_timeout_minutes": 360,
+  "no_child_wallclock_cutoff_added_by_launcher": true,
+  "control_only": {
+    "supervisor": {
+      "role": "Complete Run54 three-index public controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_prebent_waist_search.py",
+      "name": "observe_bent_prebent_waist_search.py",
+      "bytes": 1485,
+      "sha256": "3a8624deb5ed6cae5dc18ee1671a8cac3a225f627a85bd76525addd56c3d6d11",
+      "git_blob_sha": "72f99d3bd3d49e901f890eeddb3a025e5ee5a6bc"
+    },
+    "workflow": {
+      "role": "Complete public Run54 prebent waist workflow",
+      "path": ".github/workflows/visible-larger-run54-prebent-waist.yml",
+      "name": "visible-larger-run54-prebent-waist.yml",
+      "bytes": 4233,
+      "sha256": "8121839039c05c3e365e77d9c19a899ef68a0a2208c53352c0557a8184a6aab1",
+      "git_blob_sha": "7debf26501f29b3130d058c5d6f7194c40d37a7d"
+    },
+    "original_public_git_helpers": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      }
+    ],
+    "shared_run36_control_functions": {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    },
+    "shared_full_publish_supervisor": {
+      "role": "Run48 complete independent observer with immediate checked-pull note and handoff publication",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_run48_readme_publications.py",
+      "name": "observe_run48_readme_publications.py",
+      "bytes": 18248,
+      "sha256": "747f42206a5d8540229869f5b3e5855fe24416eddaf688fa2c0096d2288a10c3",
+      "git_blob_sha": "856eebd00bb1905274bf02996fd71ca3a183f62e"
+    }
+  },
+  "attempt_note_prefix": "run54-prebent-waist",
+  "handoff_marker": "<!--run54-prebent-waist-->",
+  "actual_observation_schema": "visible-larger-run54-actual-prebent-waist-v1",
+  "scientific_path_arguments": [
+    [
+      "--geometry-source",
+      "geometry_source"
+    ],
+    [
+      "--export-source",
+      "export_source"
+    ]
+  ],
+  "direct_input_lineage": {
+    "domain": "New single R791 phase-zero pre-bent material sphere, with the original .10-radian spine. On the waist in (s,theta) it is diagonal with g_ss=(1-.11*k0(s)*cos(theta))^2, g_theta_theta=.11^2, together with both full flares, two soft ends, two cap disks and every original material seam. Training, control, all refinements and phase checks retain this same tensor, material and time interval.",
+    "reference": "All nine initial and all bent R791 charts; all metric rows exact apart from the relative axial waist row <.096. Named reference full signed normal tube radius .104; caps planes .10 to .65. Added trial fields receive independent checks.",
+    "geometry_identity": {
+      "role": "geometry_source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r791_prebent_lever_waist_two_jets.py",
+      "name": "r791_prebent_lever_waist_two_jets.py",
+      "bytes": 3940,
+      "sha256": "7d697799356f10fd68e8e0d0b99c55ea7f78eb49131c6ea7af6bbfb2730b852f",
+      "git_blob_sha": "c2bd713970b9fd4aee9c37f6ce39b3a67019d10a"
+    },
+    "actual_ancestors": "R783 contributes its actual developed flap primitive and imports R781. R791 supplies the physical pre-bent centerline, radius, full caps and true material seam map. Each of the three independent winners continues only on this runner.",
+    "frozen_inputs": [
+      {
+        "name": "bent_prebent_waist_phase.py",
+        "git_blob_sha": "54147059a6b17567f3f7444e056c307e0dbc13f3"
+      },
+      {
+        "name": "bent_prebent_waist_fields.py",
+        "git_blob_sha": "b40eb7f1675a4b7cdd813aacff404548bb2f2c68"
+      },
+      {
+        "name": "bent_prebent_waist_normal.py",
+        "git_blob_sha": "12fb2b3923b993adb5845fe555db389ead2e8bac"
+      },
+      {
+        "name": "bent_prebent_waist_stress.py",
+        "git_blob_sha": "3c41072c8a47f5838bb72132d87b336c49292d60"
+      },
+      {
+        "name": "bent-prebent-waist-phase-design-v1.json",
+        "git_blob_sha": "6d87f6ab7a1103d4ee5ca89eb03d924b79b7e307"
+      },
+      {
+        "name": "r791_prebent_lever_waist_two_jets.py",
+        "git_blob_sha": "c2bd713970b9fd4aee9c37f6ce39b3a67019d10a"
+      },
+      {
+        "name": "r783_four_developable_cap_flaps.py",
+        "git_blob_sha": "ffe32554c7db13a5d2d1d5f9cc8c9e8db18f4601"
+      },
+      {
+        "name": "r781_round_three_lobe_spatial_rings.py",
+        "git_blob_sha": "9eb10ee6c200e95e1b9b6a2b438d84a40518ae8b"
+      },
+      {
+        "name": "r740_rolled_disk_seed.py",
+        "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+      },
+      {
+        "name": "r742_tilted_disk_two_jets.py",
+        "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+      },
+      {
+        "name": "r767_negative_track_profile.py",
+        "git_blob_sha": "b907e29524214c2ff6e952691225905b8de034b0"
+      },
+      {
+        "name": "r767_preloaded_cap_atlas.py",
+        "git_blob_sha": "0864bee97ae9bcaeab5215ab4f1a8a67ac47b1d5"
+      },
+      {
+        "name": "bent_preloaded_bridge_system.py",
+        "git_blob_sha": "bd32e670fcc15c8dee95d4ff846d18053dacbe8a"
+      },
+      {
+        "name": "closed_body_mesh_r772_terminal.py",
+        "git_blob_sha": "326b282c15bf8146524299d47edd60527e3d65e8"
+      },
+      {
+        "name": "closed_body_mesh_terminal.py",
+        "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+      },
+      {
+        "name": "closed_body_mesh_geometry.py",
+        "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+      }
+    ]
+  },
+  "scientific_parameter_summary": {
+    "schema": "r791-prebent-lever-waist-phase-v1",
+    "fixed_metric": "New single R791 phase-zero pre-bent material sphere, with the original .10-radian spine. On the waist in (s,theta) it is diagonal with g_ss=(1-.11*k0(s)*cos(theta))^2, g_theta_theta=.11^2, together with both full flares, two soft ends, two cap disks and every original material seam. Training, control, all refinements and phase checks retain this same tensor, material and time interval.",
+    "defining_order": 20,
+    "geometry": {
+      "R791": "7d697799356f10fd68e8e0d0b99c55ea7f78eb49131c6ea7af6bbfb2730b852f",
+      "original_angle": 0.1,
+      "terminal_angle": 0.65,
+      "waist_radius": 0.11,
+      "waist_length": 1.4,
+      "full_radius": 0.43,
+      "end_fillet": 0.105,
+      "spatial_label_interval": [
+        -0.85,
+        1.95
+      ],
+      "initial_D_proved_open_interval": [
+        2.99,
+        3.22
+      ],
+      "named_reference": "All nine initial and all bent R791 charts; all metric rows exact apart from the relative axial waist row <.096. Named reference full signed normal tube radius .104; caps planes .10 to .65. Added trial fields receive independent checks.",
+      "retained_motion": "The fixed right strip |local X|<=.035 in a disk of radius >=.324 retains the two signed Z limits, diameter >=.648. The left witness (local X,Z)=(-(R-db),0) remains at prescribed pose in each candidate and has actual terminal X<-1.248 versus all initial X>-.596.",
+      "normal_target": "Principal and ordered-normal rows use the sufficient stronger design radius .03*3.22=.0966. The far-material necessary bound uses the lower .03*2.99=.0897; it is necessary for the literal .03D. Exact D is not replaced by the upper bound, and each mesh measures a sampled D independently.",
+      "field": "An m-fold spatial tangent cos(lambda cos(m theta+twist))T+sin(lambda cos(m theta+twist)) e_spine, its mean-zero periodic primitive through 12 Bessel angular terms, and a true first-harmonic axial material slip. Additional actual Cartesian corrections include each waist station, both ends and common material ports. Broad cap developments have independent movable rim patches, with the stated grasp and witness held.",
+      "quadrature": "Working base and target use the published per-stage quadratures. All material basis columns use defining order 20, as does every final physical evaluation. Zero phase has zero variable coefficients."
+    },
+    "families": {
+      "hard_heads": [
+        [
+          "original-curved-waist",
+          {
+            "grip": "two-caps",
+            "slip": 0,
+            "ring": 0,
+            "m": 2,
+            "twist": 0,
+            "flap": 0,
+            "seed": []
+          }
+        ],
+        [
+          "port-slip",
+          {
+            "grip": "two-caps",
+            "slip": 0.45,
+            "ring": 0,
+            "m": 2,
+            "twist": 0,
+            "flap": 0,
+            "seed": []
+          }
+        ],
+        [
+          "developed-ports",
+          {
+            "grip": "two-caps",
+            "slip": 0.25,
+            "ring": 0.1,
+            "m": 2,
+            "twist": 0.25,
+            "flap": 0.045,
+            "seed": []
+          }
+        ]
+      ],
+      "free_rims": [
+        [
+          "free-all-ports",
+          {
+            "grip": "witness-and-strip",
+            "slip": 0,
+            "ring": 0,
+            "m": 2,
+            "twist": 0,
+            "flap": 0.05,
+            "seed": []
+          }
+        ],
+        [
+          "first-harmonic-slip",
+          {
+            "grip": "witness-and-strip",
+            "slip": 0.65,
+            "ring": 0,
+            "m": 2,
+            "twist": 0,
+            "flap": 0.085,
+            "seed": []
+          }
+        ],
+        [
+          "cross-waist-station",
+          {
+            "grip": "witness-and-strip",
+            "slip": 0.25,
+            "ring": 0.13,
+            "m": 3,
+            "twist": 0.6,
+            "flap": 0.055,
+            "seed": [
+              [
+                [
+                  "station",
+                  3,
+                  2,
+                  1
+                ],
+                2,
+                0.0025
+              ]
+            ]
+          }
+        ]
+      ],
+      "spatial_rings": [
+        [
+          "twofold-medium",
+          {
+            "grip": "left-cap",
+            "slip": 0.1,
+            "ring": 0.2,
+            "m": 2,
+            "twist": 0,
+            "flap": 0.08,
+            "seed": []
+          }
+        ],
+        [
+          "twofold-twisted",
+          {
+            "grip": "witness-and-strip",
+            "slip": 0.35,
+            "ring": 0.26,
+            "m": 2,
+            "twist": 1.2,
+            "flap": 0.065,
+            "seed": []
+          }
+        ],
+        [
+          "threefold-twisted",
+          {
+            "grip": "witness-and-strip",
+            "slip": 0.35,
+            "ring": 0.24,
+            "m": 3,
+            "twist": -1.05,
+            "flap": 0.065,
+            "seed": []
+          }
+        ]
+      ]
+    },
+    "solver": {
+      "area_floor": 0.7,
+      "area_weight": 3,
+      "curvature_bound": 10.35,
+      "curvature_weight": 0.024,
+      "jac_chunk": 32,
+      "damping": 0.0015,
+      "cg_tol": 0.0002,
+      "cg_max": 160,
+      "step_displacement": 0.03,
+      "step_tangent": 0.2,
+      "line_trials": 9,
+      "pair_weight": 0.5,
+      "worst_pairs": 144,
+      "distinct_material_distance": 0.025,
+      "chord_smoothing": 0.0004,
+      "radius": 0.0966,
+      "neighbor_ranks": [
+        2,
+        4,
+        7,
+        10,
+        16,
+        24,
+        36,
+        50,
+        70,
+        96
+      ],
+      "principal_weight": 0.035,
+      "gram_peak_count": 96,
+      "gram_peak_weight": 0.65,
+      "metric_allowance": 0.000001,
+      "metric_reach_pair_count": 160,
+      "metric_reach_pair_weight": 1.4,
+      "stress_krylov_per_operator": 5,
+      "stress_line_scales": [
+        1,
+        0.5,
+        0.125
+      ],
+      "proved_initial_D_lower": 2.99,
+      "waist_moment_weight": 1.4
+    },
+    "coarse": {
+      "level": 0,
+      "ns": 24,
+      "nv": 14,
+      "time_intervals": 2,
+      "order": 8,
+      "iterations": 5,
+      "check_ns": 33,
+      "check_nv": 19,
+      "check_order": 12,
+      "check_phases": 7
+    },
+    "refine": [
+      {
+        "level": 1,
+        "ns": 28,
+        "nv": 20,
+        "time_intervals": 4,
+        "order": 10,
+        "iterations": 7,
+        "check_ns": 37,
+        "check_nv": 25,
+        "check_order": 14,
+        "check_phases": 17
+      },
+      {
+        "level": 2,
+        "ns": 38,
+        "nv": 28,
+        "time_intervals": 8,
+        "order": 12,
+        "iterations": 8,
+        "check_ns": 49,
+        "check_nv": 35,
+        "check_order": 16,
+        "check_phases": 33
+      },
+      {
+        "level": 3,
+        "ns": 50,
+        "nv": 38,
+        "time_intervals": 16,
+        "order": 16,
+        "iterations": 9,
+        "check_ns": 65,
+        "check_nv": 47,
+        "check_order": 20,
+        "check_phases": 65
+      }
+    ],
+    "limits": [
+      "All nine coarse candidates execute. Each of the three physical families selects independently and receives the full four-, eight-, and sixteen-interval joint refinement and final same-runner 65-phase plus additional phases and union of seven complete closed meshes. The original full physical Gauss-Newton step and its backtracking are retained beside the signed second-order Gram trials.",
+      "Moment rows are full material-angle integrals of the signed normalized longitudinal Gram error at all actual waist stations, evaluated by cyclic trapezoid weights on the actual angular labels. The constant plus first, second and third cosine/sine rows enter the nonlinear loss, its true physical Jacobian and the signed compressive second variation. Each independent check records each mode maximum and its real station. Whole relative Gram, signed near-normal pairs, distant material chord, curvature, area and all cap/transition charts remain present.",
+      "The working physical displacement is linear in its new coefficients after the finite named field is formed. Complete top-point Gram and all added moment stresses are included in a deterministic full-time Ritz model. Auxiliary nonsmooth constraint Hessians are omitted, and both candidate signs are judged by the original nonlinear full objective and true physical position/tangent trust restrictions.",
+      "All 3 families retain a certified actual material terminal witness and a pointwise fixed right strip. This does not certify embeddedness, the quotient distance or reach after free corrections. Fixed normal cost uses a stronger initial-diameter upper-bound target, while the intrinsic far-material row is necessary for the actual reach requirement. Samples and original analytic facts are distinguished throughout.",
+      "The initial metric already has positive and negative Gauss curvature cells on the actual bent shoulder. A smaller held field, a rigid far head, finite closed sampling or the absence of numerical intersections alone do not solve the full metric condition. Each full NPZ and PLY stays on the defining runner."
+    ]
+  },
+  "output_contract": {
+    "scientific_summary": "Publish the original summary, 18 separate complete stage returns, and the three independent closed-geometry-index.json reports from the root, free-rims/ and spatial-rings/ directories.",
+    "raw_fields": "Raw coefficient states and 21 independently addressed PLY.GZ meshes on complete return stay on the scientific runner. The three public geometry indices identify their own fields, phases, mesh identities and errors.",
+    "public_attempt": "notes/run54-prebent-waist-<run>-<attempt>.json and its compact original scientific documents. The observer pulls main and reads both READMEs before every ordinary report and on each 45-minute idle interval. Each successful publication records the actual fetched commit in the handoff and the complete pull observations since the preceding publication in its attempt note.",
+    "interpretation": "The stated R791 analytic tube and diameter bounds apply to the named reference. Finite trained points return their own measured Gram, curvature, waist harmonics, self-pair reach bounds, held witnesses, full meshes and recorded failures. Their own global reach and convergence require separate evidence."
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "source_commit": null,
+    "actual_model": null,
+    "fixed_initial_metric": null,
+    "physical_point": null,
+    "hard_heads_point": null,
+    "free_rims_point": null,
+    "spatial_rings_point": null,
+    "per_phase_gram": null,
+    "per_phase_meshes": null,
+    "curvature": null,
+    "held": null,
+    "diameter": null,
+    "reach": null,
+    "strict_certificate": null
+  }
+}

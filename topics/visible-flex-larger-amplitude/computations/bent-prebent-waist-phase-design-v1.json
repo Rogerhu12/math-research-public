@@ -1,0 +1,255 @@
+{
+  "schema": "r791-prebent-lever-waist-phase-v1",
+  "fixed_metric": "New single R791 phase-zero pre-bent material sphere, with the original .10-radian spine. On the waist in (s,theta) it is diagonal with g_ss=(1-.11*k0(s)*cos(theta))^2, g_theta_theta=.11^2, together with both full flares, two soft ends, two cap disks and every original material seam. Training, control, all refinements and phase checks retain this same tensor, material and time interval.",
+  "defining_order": 20,
+  "geometry": {
+    "R791": "7d697799356f10fd68e8e0d0b99c55ea7f78eb49131c6ea7af6bbfb2730b852f",
+    "original_angle": 0.1,
+    "terminal_angle": 0.65,
+    "waist_radius": 0.11,
+    "waist_length": 1.4,
+    "full_radius": 0.43,
+    "end_fillet": 0.105,
+    "spatial_label_interval": [
+      -0.85,
+      1.95
+    ],
+    "initial_D_proved_open_interval": [
+      2.99,
+      3.22
+    ],
+    "named_reference": "All nine initial and all bent R791 charts; all metric rows exact apart from the relative axial waist row <.096. Named reference full signed normal tube radius .104; caps planes .10 to .65. Added trial fields receive independent checks.",
+    "retained_motion": "The fixed right strip |local X|<=.035 in a disk of radius >=.324 retains the two signed Z limits, diameter >=.648. The left witness (local X,Z)=(-(R-db),0) remains at prescribed pose in each candidate and has actual terminal X<-1.248 versus all initial X>-.596.",
+    "normal_target": "Principal and ordered-normal rows use the sufficient stronger design radius .03*3.22=.0966. The far-material necessary bound uses the lower .03*2.99=.0897; it is necessary for the literal .03D. Exact D is not replaced by the upper bound, and each mesh measures a sampled D independently.",
+    "field": "An m-fold spatial tangent cos(lambda cos(m theta+twist))T+sin(lambda cos(m theta+twist)) e_spine, its mean-zero periodic primitive through 12 Bessel angular terms, and a true first-harmonic axial material slip. Additional actual Cartesian corrections include each waist station, both ends and common material ports. Broad cap developments have independent movable rim patches, with the stated grasp and witness held.",
+    "quadrature": "Working base and target use the published per-stage quadratures. All material basis columns use defining order 20, as does every final physical evaluation. Zero phase has zero variable coefficients."
+  },
+  "families": {
+    "hard_heads": [
+      [
+        "original-curved-waist",
+        {
+          "grip": "two-caps",
+          "slip": 0,
+          "ring": 0,
+          "m": 2,
+          "twist": 0,
+          "flap": 0,
+          "seed": []
+        }
+      ],
+      [
+        "port-slip",
+        {
+          "grip": "two-caps",
+          "slip": 0.45,
+          "ring": 0,
+          "m": 2,
+          "twist": 0,
+          "flap": 0,
+          "seed": []
+        }
+      ],
+      [
+        "developed-ports",
+        {
+          "grip": "two-caps",
+          "slip": 0.25,
+          "ring": 0.1,
+          "m": 2,
+          "twist": 0.25,
+          "flap": 0.045,
+          "seed": []
+        }
+      ]
+    ],
+    "free_rims": [
+      [
+        "free-all-ports",
+        {
+          "grip": "witness-and-strip",
+          "slip": 0,
+          "ring": 0,
+          "m": 2,
+          "twist": 0,
+          "flap": 0.05,
+          "seed": []
+        }
+      ],
+      [
+        "first-harmonic-slip",
+        {
+          "grip": "witness-and-strip",
+          "slip": 0.65,
+          "ring": 0,
+          "m": 2,
+          "twist": 0,
+          "flap": 0.085,
+          "seed": []
+        }
+      ],
+      [
+        "cross-waist-station",
+        {
+          "grip": "witness-and-strip",
+          "slip": 0.25,
+          "ring": 0.13,
+          "m": 3,
+          "twist": 0.6,
+          "flap": 0.055,
+          "seed": [
+            [
+              [
+                "station",
+                3,
+                2,
+                1
+              ],
+              2,
+              0.0025
+            ]
+          ]
+        }
+      ]
+    ],
+    "spatial_rings": [
+      [
+        "twofold-medium",
+        {
+          "grip": "left-cap",
+          "slip": 0.1,
+          "ring": 0.2,
+          "m": 2,
+          "twist": 0,
+          "flap": 0.08,
+          "seed": []
+        }
+      ],
+      [
+        "twofold-twisted",
+        {
+          "grip": "witness-and-strip",
+          "slip": 0.35,
+          "ring": 0.26,
+          "m": 2,
+          "twist": 1.2,
+          "flap": 0.065,
+          "seed": []
+        }
+      ],
+      [
+        "threefold-twisted",
+        {
+          "grip": "witness-and-strip",
+          "slip": 0.35,
+          "ring": 0.24,
+          "m": 3,
+          "twist": -1.05,
+          "flap": 0.065,
+          "seed": []
+        }
+      ]
+    ]
+  },
+  "solver": {
+    "area_floor": 0.7,
+    "area_weight": 3,
+    "curvature_bound": 10.35,
+    "curvature_weight": 0.024,
+    "jac_chunk": 32,
+    "damping": 0.0015,
+    "cg_tol": 0.0002,
+    "cg_max": 160,
+    "step_displacement": 0.03,
+    "step_tangent": 0.2,
+    "line_trials": 9,
+    "pair_weight": 0.5,
+    "worst_pairs": 144,
+    "distinct_material_distance": 0.025,
+    "chord_smoothing": 0.0004,
+    "radius": 0.0966,
+    "neighbor_ranks": [
+      2,
+      4,
+      7,
+      10,
+      16,
+      24,
+      36,
+      50,
+      70,
+      96
+    ],
+    "principal_weight": 0.035,
+    "gram_peak_count": 96,
+    "gram_peak_weight": 0.65,
+    "metric_allowance": 0.000001,
+    "metric_reach_pair_count": 160,
+    "metric_reach_pair_weight": 1.4,
+    "stress_krylov_per_operator": 5,
+    "stress_line_scales": [
+      1,
+      0.5,
+      0.125
+    ],
+    "proved_initial_D_lower": 2.99,
+    "waist_moment_weight": 1.4
+  },
+  "coarse": {
+    "level": 0,
+    "ns": 24,
+    "nv": 14,
+    "time_intervals": 2,
+    "order": 8,
+    "iterations": 5,
+    "check_ns": 33,
+    "check_nv": 19,
+    "check_order": 12,
+    "check_phases": 7
+  },
+  "refine": [
+    {
+      "level": 1,
+      "ns": 28,
+      "nv": 20,
+      "time_intervals": 4,
+      "order": 10,
+      "iterations": 7,
+      "check_ns": 37,
+      "check_nv": 25,
+      "check_order": 14,
+      "check_phases": 17
+    },
+    {
+      "level": 2,
+      "ns": 38,
+      "nv": 28,
+      "time_intervals": 8,
+      "order": 12,
+      "iterations": 8,
+      "check_ns": 49,
+      "check_nv": 35,
+      "check_order": 16,
+      "check_phases": 33
+    },
+    {
+      "level": 3,
+      "ns": 50,
+      "nv": 38,
+      "time_intervals": 16,
+      "order": 16,
+      "iterations": 9,
+      "check_ns": 65,
+      "check_nv": 47,
+      "check_order": 20,
+      "check_phases": 65
+    }
+  ],
+  "limits": [
+    "All nine coarse candidates execute. Each of the three physical families selects independently and receives the full four-, eight-, and sixteen-interval joint refinement and final same-runner 65-phase plus additional phases and union of seven complete closed meshes. The original full physical Gauss-Newton step and its backtracking are retained beside the signed second-order Gram trials.",
+    "Moment rows are full material-angle integrals of the signed normalized longitudinal Gram error at all actual waist stations, evaluated by cyclic trapezoid weights on the actual angular labels. The constant plus first, second and third cosine/sine rows enter the nonlinear loss, its true physical Jacobian and the signed compressive second variation. Each independent check records each mode maximum and its real station. Whole relative Gram, signed near-normal pairs, distant material chord, curvature, area and all cap/transition charts remain present.",
+    "The working physical displacement is linear in its new coefficients after the finite named field is formed. Complete top-point Gram and all added moment stresses are included in a deterministic full-time Ritz model. Auxiliary nonsmooth constraint Hessians are omitted, and both candidate signs are judged by the original nonlinear full objective and true physical position/tangent trust restrictions.",
+    "All 3 families retain a certified actual material terminal witness and a pointwise fixed right strip. This does not certify embeddedness, the quotient distance or reach after free corrections. Fixed normal cost uses a stronger initial-diameter upper-bound target, while the intrinsic far-material row is necessary for the actual reach requirement. Samples and original analytic facts are distinguished throughout.",
+    "The initial metric already has positive and negative Gauss curvature cells on the actual bent shoulder. A smaller held field, a rigid far head, finite closed sampling or the absence of numerical intersections alone do not solve the full metric condition. Each full NPZ and PLY stays on the defining runner."
+  ]
+}
