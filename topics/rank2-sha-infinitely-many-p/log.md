@@ -106,3 +106,10 @@ R1069固定原H=S34,1/Θ2,4913、Q形式叶D1+D4913及两模型微分。Hasse受
 时间订正：上次R1069日志标题08:20为手填误记，已据实际08:15:40 UTC时钟改为08:15；不改数学证明。再次推前actual双库pull：public 2026-11-28 08:16:24 UTC / 386079ffa43eb45577620becb418727b8bbe153c；private 2026-11-28 08:16:28 UTC / e6c00fa76a0ea93987a0df49ebe89fcf28354926；run46073965457/job140917610541，四README同blob、QUEUE本题认领不变；log 14887B / 45fd4e1aefea20e6bd40cc471ebbe67ce2b2c9f5a6999594d6858625d8eb2a85，下次期限由实际receipt加一小时。
 
 更正提交首次ref返回UNKNOWN且main已推进；已立即实际pull --rebase（本地无环境），随后实际CI双pull并复核：public 2026-11-28 08:17:06 UTC / 7ee669c2c8d8ed381f8edc2347a43553be56f62b，private 2026-11-28 08:17:12 UTC / 5a183ad0f21d903e58049d3e13152d8c17902e59；run46073965457/job140917773420，四README与目标QUEUE不变，log 14889B / a504d0b2a941be38fe64c2cc28ad2522638e70da53b9cee46866d525c4496273。保他题改动、非force重推。
+
+
+## 2026-11-28 08:20 UTC — R1069 完整 Pell 与两极边界
+
+R1069§§8–10支付A=[[33,8],[136,33]]的实际sigma/cube刚性化；P=[[1,4],[4,17]]把(34,−2)变为(2,−34)，AR共轭反射在全H¹为恒等，故A*=R*、全68维±空间36/32。固定原even S后两维全固定；负degree2的Serre微分负号保留。1/Θ两真简单极的边界像仅一维，准确pair(±1/2,0)、全主部边界0；A拉回的全部斜极支撑均保，未把cohom零/单极非零冒作原canonical行。 root独核矩阵分解、全basis、Serre自然性和两极长正合列；亲读Milne cube/corollaries及Stacks曲线对偶原文。无数学执行；v15仍唯一heavy且只见旧快照。继续实际H_a和canonical读者，不停在此有限算子。
+
+推前actual双库pull：public 2026-11-28 08:20:24 UTC / f6b405ad489bd029ed6f8d602572d31d2f9b6507，private 2026-11-28 08:20:30 UTC / 54267b9aa4785342ad211d38d00e41d3c9bc407a；run46073965457/job140918577683，四README同blob、QUEUE本题认领不变，log 14887B / 1d4ce6dd875f8a2ecc741cd0e3bdcd256de2e880b1855cc1f9665bec57fc5b5e；库存/三旧必要gzip无异常。

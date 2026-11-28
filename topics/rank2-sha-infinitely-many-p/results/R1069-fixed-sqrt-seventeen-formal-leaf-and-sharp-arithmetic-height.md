@@ -1,8 +1,8 @@
-# R1069 — 固定 √17 形式叶的准确 1/4 算术高度与完整 theta 极成本
+# R1069 — 固定 √17 形式叶、准确算术高度与完整 Pell 作用
 
 日期：2026-11-28 UTC。会话：Astra-rank2-Sha-0b097461-20261127。
 
-**以下固定来源、形式叶、全部好素数的 p-闭合分类、准确 1/4-arithmetic 饱和界及完整复极点成本已证明。** 本篇不给原 canonical 泛函增加零行，也不把这里的高度系数替换成原饱和矩阵的 Smith 增益。主目标仍未完成。
+**以下固定来源、形式叶、全部好素数的 p-闭合分类、准确 1/4-arithmetic 饱和界、完整复极点成本，以及实际 Pell 自同构在全部上同调和两极边界上的作用已证明。** 本篇不给原 canonical 泛函增加零行，也不把这里的高度系数替换成原饱和矩阵的 Smith 增益。主目标仍未完成。
 
 [R1062 §13](R1062-original-translated-miller-jets-and-critical-weight-germs.md) 已在原整 CM 形式群、实际 symmetric lift 和完整 Hall 权下支付范数恰为 17 的规范。其固定平方根特化产生本文的同一个有理物理级数。本文处理这个特化的全局形式叶和高度，保留分母的全部真实零点。
 
@@ -358,3 +358,262 @@ $\sum_p g_{p,D}\log p$ 与 $3M_D\log D$ 的主预算。
   Theorem 6.1。本文只取这些原定理的精确方向，并逐项验证输入。
 
 本篇没有执行新的数学计算，没有创建扫描、缓存或可重算数值产物。
+
+## 8. 固定 Pell 自同构与不定线丛的绝对刚性化
+
+本节把上一节的第二曲线经 $j_a^{-1}$ 拉回，工作在
+$X=E_1\times E_1$ 上。所有矩阵按点的列向量作用；其作用在上同调上
+一律是拉回，故复合次序反向。设
+$$
+ L_n=\mathcal O_{E_1}(nO),\qquad
+ \mathcal L=L_{34}\boxtimes L_{-2},\qquad
+ Q=\begin{pmatrix}34&0\\0&-2\end{pmatrix}.
+ \tag{22}
+$$
+给 $L_n$ 取原 sigma 框架及原点刚性化。特别，偶数 $n$ 的反演
+线性化在原点纤维上为 $+1$。下文所有线丛同构也要求在原点纤维上
+为恒等；不允许事后乘一个未指定的标量。
+
+取真实整数自同构
+$$
+ A=\begin{pmatrix}33&8\\136&33\end{pmatrix},\quad
+ R=\begin{pmatrix}-1&0\\0&1\end{pmatrix},\quad
+ P=\begin{pmatrix}1&4\\4&17\end{pmatrix},\quad
+ B=AR=\begin{pmatrix}-33&8\\-136&33\end{pmatrix}.
+ \tag{23}
+$$
+其准确关系是
+$$
+ \begin{gathered}
+ \det A=\det P=1,\qquad A\equiv I\pmod2,\qquad
+ A^tQA=Q,\qquad R^tQR=Q,\\
+ P^tQP=\begin{pmatrix}2&0\\0&-34\end{pmatrix},\qquad
+ B=PRP^{-1},\qquad B^2=R^2=I,\qquad A=BR.
+ \end{gathered}
+ \tag{24}
+$$
+例如 $P$ 的两个对角系数分别为
+$34-2\cdot16=2$、$34\cdot16-2\cdot289=-34$，
+交叉系数为 $34\cdot4-2\cdot4\cdot17=0$。
+所以这是整自同构上的准确分解，不是只在有理 Néron--Severi 群中
+保持一个形式。
+
+由带刚性化的 cube 分解，
+$$
+ A^*\mathcal L\simeq\mathcal L,\qquad
+ R^*\mathcal L\simeq\mathcal L,\qquad
+ P^*\mathcal L\simeq L_2\boxtimes L_{-34}.
+ \tag{25}
+$$
+此处可以直接检查没有遗漏 degree-zero 或二挠线丛。令
+$\lambda=(\lambda_1,\lambda_2)^t\in\Lambda^2$，使用原
+$\sigma(z+\lambda)=\epsilon(\lambda)
+ \exp(\eta_\lambda(z+\lambda/2))\sigma(z)$。
+因(22)两个次数均偶，乘子中的半特征恰为1；其剩余部分为
+$$
+ j^Q_\lambda(z)=
+ \exp\!\left(\eta_\lambda^t Q(z+\lambda/2)\right).
+ \tag{26}
+$$
+整数矩阵 $M$ 满足 $\eta_{M\lambda}=M\eta_\lambda$，从而
+$j^Q_{M\lambda}(Mz)=j^{M^tQM}_\lambda(z)$。
+对 $M=A,R,P$ 逐一用(24)，就是(25)的实际 sigma 框架同构。
+该同构在覆盖空间的纤维上取常数1，因此在原点刚性化上也为1。
+
+代数方面，同一结论由对称线丛的 cube 恒等式给出；刚性化使同构
+唯一，因为 $X$ 上的全局可逆函数只有常数。两个复合若诱导同一
+整数矩阵，所得线丛同构在原点也相同，故严格相等。这样(24)在
+上同调中的运算没有剩余 Weil 标量、根单位或可任选的符号。
+一般 cube 恒等式可见 J.S. Milne，
+[Abelian Varieties，I.§5，Theorem 5.1、Corollaries 5.3--5.4](https://www.jmilne.org/math/CourseNotes/AV.pdf)；
+这里的矩阵和乘子检查同时给出了本例的绝对规范。
+
+原形式叶在 $X$ 中为 $(z,az)$，且
+$$
+ A\binom{z}{az}
+  =\binom{\varepsilon z}{a\varepsilon z},\qquad
+ \varepsilon=33+8a,\qquad
+ (33+8a)(33-8a)=1.
+ \tag{27}
+$$
+因此 $A$ 是保原叶的真实代数自同构。这个结论本身只运输同一
+亚纯线丛截面；尚不声称 $H(\varepsilon z)=H(z)$，也不改变§6的
+全部极点成本。
+
+## 9. 全部 68 维上同调上的 Pell 算子
+
+椭圆曲线的 Riemann--Roch、Serre 对偶和 Künneth 给
+$$
+ \begin{aligned}
+ H^0(X,\mathcal L)&=H^2(X,\mathcal L)=0,\\
+ H^1(X,\mathcal L)
+   &=H^0(E_1,L_{34})\otimes H^1(E_1,L_{-2}),\\
+ \dim H^1(X,\mathcal L)&=34\cdot2=68.
+ \end{aligned}
+ \tag{28}
+$$
+这是同一个不定线丛的全部上同调，不是丢去某个角型后的子商。
+
+在(25)的 $P$ 坐标中，
+$$
+ H^1(X,P^*\mathcal L)
+   =H^0(E_1,L_2)\otimes H^1(E_1,L_{-34}).
+$$
+矩阵 $R$ 只反演第一个因子。原
+$H^0(E_1,L_2)=\langle\sigma^2,x\sigma^2\rangle$
+的两个截面都为偶，且所用线性化已经在原点取 $+1$，故此处
+$R^*$ 在全部张量积上为恒等。由 $B=PRP^{-1}$ 和拉回次序，
+再用 $A=BR$，得到完整算子身份
+$$
+ \boxed{
+ B^*=I,\qquad
+ A^*=R^*
+   =([-1]^*|H^0(E_1,L_{34}))\otimes
+                      I_{H^1(E_1,L_{-2})}.
+ }
+ \tag{29}
+$$
+证明使用的是实际整矩阵 $P$ 的拉回及(25)的刚性化同构；
+没有只从有限 Heisenberg 上的共轭作用猜一个未定标量。
+
+原 $L_{34}$ 的显式偶、奇基可取
+$$
+ \begin{aligned}
+ H^0(L_{34})^+
+   &=\langle \sigma^{34}x^j:0\le j\le17\rangle,\\
+ H^0(L_{34})^-
+   &=\langle \sigma^{34}yx^j:0\le j\le15\rangle.
+ \end{aligned}
+ \tag{30}
+$$
+极阶分别为 $2j$、$3+2j$，均不超过34，且总数为34，故已是全基。
+于是
+$$
+ \boxed{
+ (A^*)^2=I,\qquad
+ \dim H^1(\mathcal L)^{A=+1}=36,\qquad
+ \dim H^1(\mathcal L)^{A=-1}=32.
+ }
+ \tag{31}
+$$
+特别，原 $S=S_{34,1}$ 是(30)的偶截面，所以
+$$
+ A^*(S\otimes\eta)=S\otimes\eta
+ \quad\text{对每个 }\eta\in H^1(E_1,L_{-2}).
+ \tag{32}
+$$
+固定这一个 $S$ 后的子空间准确为两维。式(32)不表示已经把原
+canonical 读者认成其中任一向量或对偶。
+
+必须另核负次数中的 Serre 符号。对偶配对是
+$$
+ H^1(L_{-2})\times
+ H^0(L_2\otimes\omega_{E_1})\longrightarrow k.
+$$
+$\sigma^2$ 与 $x\sigma^2$ 为偶，但 $[-1]^*\omega_1=-\omega_1$。
+故 $[-1]^*$ 在右侧两个基上均为 $-1$，Serre 配对的自然性迫
+$$
+ [-1]^*|H^1(L_{-2})=-I,\qquad
+ [-1]_X^*|H^1(\mathcal L)=-R^*.
+ \tag{33}
+$$
+不能漏掉微分的负号，把负 degree-two 因子也写成偶。
+这不改变(29)：证明 $B^*=I$ 时，反演作用在 $P$ 坐标的
+正 degree-two 因子，负 degree-34 因子保持不动。
+所用曲线对偶的函子性和自然配对可见
+[Stacks Project，53.4，Lemmas 53.4.1--53.4.2、Remark 53.4.3](https://stacks.math.columbia.edu/tag/0E31)。
+
+## 10. 两个真实简单极的完整边界及其一维方向
+
+令
+$$
+ \Theta=\Theta_{2,1}=x\sigma^2,\qquad
+ Q_\pm=(0,\pm1),\qquad D=Q_++Q_-,\qquad M=L_{-2}.
+$$
+$\Theta$ 的两个零都是简单的。乘 $\Theta$ 给准确的整层序列
+$$
+ 0\longrightarrow M
+   \xrightarrow{\ \Theta\ }\mathcal O_{E_1}
+   \longrightarrow\mathcal O_D\longrightarrow0.
+ \tag{34}
+$$
+等价地，$M(D)\simeq\mathcal O_{E_1}$，其唯一全局截面在原
+$M$ 框架中就是 $1/\Theta$。因此
+$$
+ 0\longrightarrow k
+   \xrightarrow{c\mapsto(c,c)} k^2
+   \xrightarrow{\partial_D}H^1(M)
+   \longrightarrow H^1(\mathcal O_{E_1})
+   \longrightarrow0.
+ \tag{35}
+$$
+这里 $H^1(M)$ 为两维，最后一项为一维，所以两个简单极的
+边界像只有一维。设
+$$
+ \eta_+=\partial_D(1,0),\qquad
+ \eta_-=\partial_D(0,1).
+$$
+准确地，
+$$
+ \boxed{
+ \eta_-=-\eta_+,\qquad \eta_+\ne0,\qquad
+ \partial_D(1,1)=0.
+ }
+ \tag{36}
+$$
+$\mathcal O_D$ 中的坐标是经乘 $\Theta$ 定义的主部坐标；
+它已保两个不同零点处的真实局部导数，并非把两个 Laurent
+留数都擅自设为1。
+
+还可固定这个一维像的绝对方向。取 Serre 配对为局部留数和，
+$e_0=\sigma^2$、$e_1=x\sigma^2=\Theta$。在 $Q_+$ 附近，
+$x$ 是参数且 $\omega_1=dx/(2y)$，于是
+$$
+ \begin{aligned}
+ \langle\eta_+,e_0\omega_1\rangle
+    &=\operatorname{Res}_{Q_+}\frac{\omega_1}{x}=\frac12,\\
+ \langle\eta_+,e_1\omega_1\rangle
+    &=\operatorname{Res}_{Q_+}\omega_1=0.
+ \end{aligned}
+ \tag{37}
+$$
+$Q_-$ 处两个值为 $(-1/2,0)$，与(36)一致。
+这也独立证明 $\eta_+\ne0$。
+而 $H^1(M)\to H^1(\mathcal O)$ 的对偶是
+$\omega_1\mapsto\Theta\omega_1$，所以另一个上同调方向必须在
+$e_1\omega_1$ 上非零；它不在这两个简单极的边界像中。
+
+在乘积 $X$ 上张量原 $S$，完整两极主部与单极主部分别给
+$$
+ \begin{aligned}
+ \partial_{D_X}(S,S)&=0,\\
+ \partial_{D_X}(S,0)&=S\otimes\eta_+,\\
+ \partial_{D_X}(0,S)&=-S\otimes\eta_+,
+ \qquad D_X=E_1\times D.
+ \end{aligned}
+ \tag{38}
+$$
+原 $S(z_1)/\Theta(z_2)$ 是全局亚纯截面，其全部主部正是第一行。
+该零是层上同调长正合列的边界零，不是原 $J'_S$、Hall 全和
+或带外权有限读者的新零式。
+
+对单极类应用(32)，确有 $A^*(S\otimes\eta_+)=S\otimes\eta_+$。
+但 $A$ 不保持原两个垂直极因子，其真实拉回支撑为
+$$
+ A^{-1}D_X
+   =\{(P_1,P_2):[136]P_1+[33]P_2=Q_+\}
+       \ \cup\
+     \{(P_1,P_2):[136]P_1+[33]P_2=Q_-\}.
+ \tag{39}
+$$
+边界的自然性比较的是这两套全部支撑、全部局部主部和(25)的
+同一线丛同构。不能只保一支的名称，或在原垂直两极上省去这次运输。
+
+本节支付了原固定来源可进入的完整有限 cohom 算子：
+所有 $A^n$ 仅给(29)的两种作用，而在(32)的指定两维子空间中
+全部给恒等。它不会自动产生新的独立线性行。
+若要将该实际恒等接到原 canonical 必要条件，仍须证明同一个
+带原有限角色、参考因子、单位域及外权的读者，确实通过上述
+上同调类并遵守(39)的全运输。目前没有把这项比较冒作已付。
+特别，既不把(38)第一行当 canonical 零，也不把其中一个非零
+单极类替换成原完整来源。

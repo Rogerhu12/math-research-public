@@ -482,3 +482,6 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 
 
 - [R1069](../results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)：R1069固定原H=S34,1/Θ2,4913、Q形式叶D1+D4913及两模型微分。Hasse受限p幂准确在inert或17平方处封闭，四类密度1/4；全叶几何稠密r=2，Herblot全部定义/假设给α=1/4最优饱和。完整分母两Θ零陪集与分子最多有限交，原H极计数17πR²/area(Λ)+O(R+logR)，增长阶2。目标inert/square类已自动p-闭合；高斯平衡不降原Smith或canonical成本，仍消费全H_a加法核。
+
+
+- R1069§§8–10：R1069§§8–10支付A=[[33,8],[136,33]]的实际sigma/cube刚性化；P=[[1,4],[4,17]]把(34,−2)变为(2,−34)，AR共轭反射在全H¹为恒等，故A*=R*、全68维±空间36/32。固定原even S后两维全固定；负degree2的Serre微分负号保留。1/Θ两真简单极的边界像仅一维，准确pair(±1/2,0)、全主部边界0；A拉回的全部斜极支撑均保，未把cohom零/单极非零冒作原canonical行。

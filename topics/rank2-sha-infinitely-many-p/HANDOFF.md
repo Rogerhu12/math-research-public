@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140917773420，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 08:17:06 UTC实际partial clone/pull至7ee669c2c8d8ed381f8edc2347a43553be56f62b；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 08:17:12 UTC至5a183ad0f21d903e58049d3e13152d8c17902e59；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与08:16同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
-- 日志14889B/hasha504d0b2a941be38fe64c2cc28ad2522638e70da53b9cee46866d525c4496273；库存3216/45967918B/tree4be455fb8b28e7b96d62c8010a3465cad3d42c8c；无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟09:17UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
+readonly run46073965457/job140918577683，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 08:20:24 UTC实际partial clone/pull至f6b405ad489bd029ed6f8d602572d31d2f9b6507；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 08:20:30 UTC至54267b9aa4785342ad211d38d00e41d3c9bc407a；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与08:17同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
+- 日志14887B/hash1d4ce6dd875f8a2ecc741cd0e3bdcd256de2e880b1855cc1f9665bec57fc5b5e；库存3216/45968901B/tree3490e4f3d4f3754731a9c1ac426e68c52330f55b；无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟09:20UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
 - 本地自11月27日07:20失联，最近11月28日08:16实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## v13 终态、软件 v2 与实际 v15
@@ -47,7 +47,7 @@ R1062–66完整证明由[open](open.md)及本卷索引直达，旧范围不变�
 
 [续证§§22–23](results/R1067-original-first-wild-rubin-native-euler-continuation.md)全p阶log窗n≤p+3、native核k≤p+2及真ℓ1/三层阶乘已付；原K_a全frame在当前完整平方Euler内自动深。余项是同一H_a全加法行(99)，保持全参考商、λε=λ′、old/native carry。central正消费bad所给B=A/T⁴的同Euler，须保x⁻⁴非交换连接和实际全source；尚无新forcing。
 
-[R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)固定H=S34,1/Θ2,4913及原Q形式叶V=D1+D4913已核。几何闭包r=2；受限p幂准确在inert或(17/p)=+1封闭，密度3/4。Herblot原定义/全部假设给准确最优α=1/4（ρ=2饱和）；全Θ极N∞=17πR²/area(Λ)+O(R+logR)，不因34−2a²=0消失。目标inert/square类本已p-闭合，非bad收益；不是R310同曲线H3商，不替原Smith/全j!C预算。arithmetic继续Pell整自同构的真实H¹与两极边界。
+[R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)固定H=S34,1/Θ2,4913及原Q形式叶V=D1+D4913已核。几何闭包r=2；受限p幂准确在inert或(17/p)=+1封闭，密度3/4。Herblot原定义/全部假设给准确最优α=1/4（ρ=2饱和）；全Θ极N∞=17πR²/area(Λ)+O(R+logR)，不因34−2a²=0消失。目标inert/square类本已p-闭合，非bad收益；不是R310同曲线H3商，不替原Smith/全j!C预算。§§8–10已付Pell整A的全H¹：A*=第一因子反演、±维36/32；原even S两维上恒等。全两极boundary仅一维pair(±1/2,0)，完整主部boundary0，全部斜极运输保留；这不是canonical零。继续同H_a实际central/wild读者。
 
 [R1068](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)付D102=B18C84/S34=B18C16、同点theta中心乘法和真实A84逆ψ0 dual；完整三卷积、d/6 Cartier全角与−26329/105保留。a_Δ额外p属旧actual域下降，不计forcing；逆不能移出Hall。全部连接/模型/old沿原文。
 
