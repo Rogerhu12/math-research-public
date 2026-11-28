@@ -1,0 +1,126 @@
+{
+  "schema": "isp-true-Phi-fu-u-three-half-full-original-return-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "runtime": "pure V8 BigInt, fresh functions.exec",
+  "source_git_blob": "18741baf2d1fc6201c467ed93dc41610677fab58",
+  "source_sha256": "d5e620d83fe6d682f2b02b4aa19b18f72e5860e8dd725d4314b747dd5e682199",
+  "source_bytes": 13286,
+  "actual_completed": true,
+  "exit": "normal return",
+  "resource_boundary_ms": 120000,
+  "actual": {
+    "schema": "isp-true-Phi-fu-whole-u-three-half-original-return-v1",
+    "elapsedMilliseconds": 72,
+    "integerProducts": 5659,
+    "fullIntegerDivisions": 379,
+    "checks": 12,
+    "actualOriginalParameter": "u=f=3/2, lambda=(2Q-5)/(4(2Q+1)), T=-3/4",
+    "originalRows": [
+      {
+        "name": "EBe",
+        "tDegree": 2,
+        "QDegree": 3,
+        "tRemoved": 0,
+        "originalPaidContent": []
+      },
+      {
+        "name": "EBo",
+        "tDegree": 2,
+        "QDegree": 0,
+        "tRemoved": 0,
+        "originalPaidContent": [
+          {
+            "name": "2Q+1",
+            "power": 1
+          }
+        ]
+      },
+      {
+        "name": "N1",
+        "tDegree": 2,
+        "QDegree": 4,
+        "tRemoved": 0,
+        "originalPaidContent": []
+      },
+      {
+        "name": "NS",
+        "tDegree": 3,
+        "QDegree": 5,
+        "tRemoved": 0,
+        "originalPaidContent": []
+      },
+      {
+        "name": "PS",
+        "tDegree": 3,
+        "QDegree": 5,
+        "tRemoved": 0,
+        "originalPaidContent": []
+      }
+    ],
+    "fixedProjections": [
+      {
+        "anchor": "N1",
+        "other": "EBe",
+        "fixedTDegrees": [
+          2,
+          2
+        ],
+        "fixedSize": 4,
+        "resultantQDegree": 12,
+        "cumulativeGCDDegree": 12,
+        "remainingDegree": 8,
+        "completeQQBezoutReturned": true
+      },
+      {
+        "anchor": "N1",
+        "other": "EBo",
+        "fixedTDegrees": [
+          2,
+          2
+        ],
+        "fixedSize": 4,
+        "resultantQDegree": 8,
+        "cumulativeGCDDegree": 4,
+        "remainingDegree": 0,
+        "completeQQBezoutReturned": true
+      }
+    ],
+    "exactGCD": [
+      "0",
+      "0",
+      "1",
+      "-2",
+      "1"
+    ],
+    "finalPaidRemovals": [
+      {
+        "name": "Q",
+        "power": 2
+      },
+      {
+        "name": "1-Q",
+        "power": 2
+      }
+    ],
+    "remaining": [
+      "1"
+    ],
+    "remainingDegree": 0,
+    "fixedSylvesterFullDivisions": 28,
+    "rationalStatistics": {
+      "arithmetic": 27023,
+      "products": 778,
+      "divisions": 107
+    },
+    "everyQLeadingAndFiniteTRootKept": true,
+    "noPhysicalDInverted": true,
+    "wholeFuHalfHeadExcluded": true,
+    "wholeFuExcluded": false,
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "scope": "entire u=f=3/2 fiber on corrected Phi, intrinsic original units and D!=0; no assertion for general f=u or Phi",
+  "paper_short_proof": "Direct original singleton means give EBo=-(2Q+1)(t-2)^2/[16Q(1-Q)] and EBe(t=2)=-Q/2; the frozen executed source independently used the complete raw Gram and fixed QQ Sylvesters, and did not replay this display as a new gate.",
+  "no_external_dependencies": true,
+  "no_old_gate_reexecution": true
+}

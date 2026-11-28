@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Haar-maximal-essential-distance-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-fu-u-three-half-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [正确Phi的fu整个u=3/2原分支排除](results/R150-appendix-unit211-Phi-zero-fu-entire-u-three-half-original-exclusion.md)：真均值差恢复λ/T，两singleton原均值给EBo∝(t−2)²、EBe(t2)=−Q/2；完整复原点矛盾。72ms独立原Gram/固定QQ Sylvester返回仅Q²(1−Q)²；只fu图付2u−3，不称一般fu或Phi排空。
 
 - [全部原Walsh根图与任意普通不变投影的最大本质距离](results/R12-appendix-walsh-root-maximal-essential-distance-and-no-bounded-angle.md)：真实固定宽pattern及中位旗两次极限独立支付[P,U_jF_j]，直接D²展开构造距离1和±1弱零列。所有块根分支/固定有限吸收同；固定Julia完整Riccati没有任何有界解，原场外闭根仍开。
 
@@ -67,5 +69,3 @@
 - [R150：W 整Lhalf完整原理想排除](results/R150-appendix-unit211-W-entire-Lhalf-complete-original-exclusion.md)：F101完整QQ五因子及重数全回，正确原七行四整模型12/12/204/816满射、双逆/原D目标返回；一整因子被已付C9排除。当前物理D≠0图可付L与2ell−1。原链与十三单位均确认正确vm，无compact错误依赖；余W继续。
 
 - **优先更正／撤回原题推论：** [unit211二重点平方错误、真实R2与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。旧compact E1误用d1²；新七变量原乘法20ms/11零差付真R2。沿错误Rbar的Phi首头/H1/三生成/H42/C5/583等原必要性与排除撤回，45篇已加警示；旧定义矩阵实际记录保留。等单值compact后继亦隔离，正确W链及十三原单位/Haar/R271不受此错。
-
-- [R150 附录：原M整曲线恰十四阶与完整583整权模型](results/R150-appendix-unit211-Phi-zero-original-M-exact-fourteenth-factor-and-complete-583-model.md)：双向有理参数/真实横截面、原22矩阵三核轮次付Mn¹⁴ QQ整除，原模上界付恰14。合此前真因子得完整583/LC564；参数零与全部坏块保，u1/T/ell冻结门不续跑。
