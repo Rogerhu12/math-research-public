@@ -135,4 +135,4 @@ R724–729源/证明和R726–730全部准确包/下游完整保护，路径、�
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)保持：N原repo/canonical/outdir；N变则G新目录、whole最终report；R723/mesh fresh、P同canonical整块、U同wholeN、packet全report、restart同runner13final/typed。全部角/径向/32stage/两帽/尾/mixed/allphase/晚失败、R718 marked/R716 unmarked、五t/15science+5preview及三级空间/频率/时间真精化仍待付。
 
-RET83–100F完整来源、参数及whole重建保各ledger和固定Git；不删活输入、唯一状态或未闭来源，raw只runner，旧hash读者恢复该次whole。继续求解。
+RET83–100G完整来源、参数及whole重建保各ledger和固定Git；不删活输入、唯一状态或未闭来源，raw只runner，旧hash读者恢复该次whole。继续求解。
