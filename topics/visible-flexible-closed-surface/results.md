@@ -176,3 +176,4 @@
 - [R220：同一M12 g的非圆精确affine参考及连续Green域](results/R220-m12-exact-affine-reference-and-continuous-green-domain.md)：准确有理Hermite/Fourier截面及准确弧长归一，8192全角dyadic区间实跑证D>.8288、U_t>.7893、非零κ∈(.5725,2.6961)及R218真实Green常数；完整端迹未接，非闭图完成。
 - [R305：两张紧凑 p32 真闭像的全角强形变比例](results/R305-compact-stadium-full-angle-closed-image-amplitude-bounds.md)（已证明）：192/396 两个实际场分别 held/D>.2149993/.2091312、δE/D>.0511992/.0508668，完整 D≤3.1644；嵌入、reach、同g容差仍另付。
 - [R306：同一紧凑192真闭核的连续浸入与主曲率](results/R306-compact-p32-192-continuous-immersion-and-principal-curvature.md)（已证明）：全时 C² 浸入、|κ|<10.306，32392严格叶覆盖全部材料；非局部reach和完整固定帽另付。
+- [R307：同一紧凑192场的整闭全时reach及强几何](results/R307-compact-p32-192-full-closed-surface-reach-and-strong-geometry.md)（已证明）：完整点对1698662访问/未决0、整帽后reach≥.097，reach/D>.03065352、held/D>.2149993、δE/D>.0511992；原g误差仍.1654。

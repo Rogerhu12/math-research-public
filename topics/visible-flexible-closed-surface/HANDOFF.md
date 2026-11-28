@@ -34,7 +34,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 真cuff前缀勘误、全尾组成、旧HF严格曲率失败、R274/R276及全记录见[本批前H](notes/2026-11-28-2ecf-handoff-before-strong-actual-coasts.md)。旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
-<!-- 2ecf-live-stadium --> [R305](results/R305-compact-stadium-full-angle-closed-image-amplitude-bounds.md) 新紧凑p32实192/396两场完整有向角盖：D≤3.1644、held/D>.2149993/.2091312、δE/D>.0511992/.0508668，固定H大。[R306](results/R306-compact-p32-192-continuous-immersion-and-principal-curvature.md)同192核全时浸入及|κ|<10.306已付。实际同g独立metric .1648029→.1477752，非局部/容差待付；源码解析种子重生，不保存数组。旧R301 V38/V39恢复60d6d3c/a8069be留档。
+<!-- 2ecf-live-stadium --> [R305](results/R305-compact-stadium-full-angle-closed-image-amplitude-bounds.md)/[R306](results/R306-compact-p32-192-continuous-immersion-and-principal-curvature.md)/[R307](results/R307-compact-p32-192-full-closed-surface-reach-and-strong-geometry.md)：同实192紧凑p32整闭全时嵌入，reach≥.097、D≤3.1644，两强形变>.2149993/.0511992及固定H大已全付。原g误差.1654；同g396/720有限峰.1477752/.1310143，后改位置不借192证书。解析种子重生，数组不入库；旧R301 V38/V39留档。
 
 <!-- 2ecf-R290 --> [R290](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)排除两个原场；[R292](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)再排除升高.08但保旧帽的场，reach/D<47/2800。非局部核与帽点对都须支付。
 
@@ -58,7 +58,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:30:28 UTC；已读公开 main `a8bb8583083f13d9aaafb0366447b8e5911acc45`，根/课题 README 逐差无变化。
 
-执行器失联后的 API 规则读取：公开 `e946379f4d2a387ac017c84bc613c3ca47552e6b` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
+执行器失联后的 API 规则读取：公开 `cdc233b02d97b730e99b4d03601cd3d0d70ac146` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
 
 <!-- 2ecf-actions-launch --> run46157156458原R262恢复继续；run46158716329完整真实大相位/联合初相试验均未达。新true-geometric-input任务修769模入口整数分块并重新绑定宽C3法管；同时从原中央数据做D3三弧全角比较，随后用原R262真前缀替换中央高度。
 <!-- 2ecf-actions-rules --> Actions run 46160322325/1：真实 pull/rebase 2026-11-28 15:33:00 UTC；公开已读 84e75e64d3f20c230691db17e0330c6b00bab983，根/课题 README 无变化。 私库真实 pull 2026-11-28 15:32:25 UTC、已读 e959619aa3db8ea65ecffb65fa1c828ef6650f3b，私根无变化。
