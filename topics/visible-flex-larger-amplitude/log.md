@@ -405,3 +405,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:16:53 UTC — RET92 完整历史reader回执的全token空白整理
 
 32份旧actual64–99 identity/reader/static回执完整保留原数值、失败、未知、full-factor未导出边界和全部内部历史SHA，仅删字符串外空白。完整映射18805B/10dab8fbd40498e6aef9a6df753d6a504f382dc3c0bf682c5f2622a93c11fc3a、说明2406B，复用RET91原3705B再生器；固定9c32ec31ec8bf8c61da0774a37e4cfdda48de791 whole恢复，旧hash语义保。毛151018B、净129807B，不替换活输入/源码、不删除任何原字段或参数。 双README云核至`af228d204c729958237b225a36af0082a704d2d1`无变（非pull）。
+
+## 2026-11-28 09:16:59 UTC — R730完整基座、Q与冻结参考校准的真实来源分支
+
+六完整件162777B同刊：base40854B/b9c787340021b5736f2796f2b84a1c25cb4b0ce96333eb98f543b1e8923ce267、literal Q37575B/4e72d300388372ae9fa43ba1795be9ad3ed17805a45fd0c407c4f16ed4aa4d1b、calibration11895B/7650bbd18c856d70164a8b76eab22d63231d401cff91bf63f8b0bd5019b010fd及完整可逆再生46442B、接口12416B、总表13595B/3b9b7b9be86aa42215994c17721df6ebd68b42a0992aff2bd78eb338bda6966d/blob141b18e1cb08e83cd0da9d78a886e7fa7ff00084。完整五物理源与31数学父、32 R729算法父明确，不改名冒同一物理。Q保18 literal/两泡/12完整定义字段与原provenance，严格验证真实length-definition；base全field/J/J*/norm原后段保，ctor/model真适配；校准必须新算working primitive残差，不继旧Slerp/半波数组或证书。未执行本包科学/AST；solver继续所有endpoint/packet/lower/upper，geometry独立推进真实长度/反弧长准确费用。 双README云核至`ba54f9c6d2fc2c4bd7bf5bd6f00d2fa5f4782661`无变（非pull）。
