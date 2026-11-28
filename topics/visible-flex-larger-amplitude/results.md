@@ -370,3 +370,5 @@
 
 - [R694：SO3完整带符号积分与六jet误差代数](results/R694-so3-low-order-signed-quadrature-error-algebra.md) — 任意符号partial权及非零质量的准确Peano常数、准确宽度/节点/全部算术费用、无需父Fsss的全mixed-jet Lipschitz、全幅度SO3指数导数、隐式core材料弧长误差与完整hDelta/谱Gram传播均已证。完整Fraction核30ae已刊；输入连续包围须同场另付，未运行、不冒新证书，也不改已刊求解器。
 - [R695：零闭合差分支的双bubble校正与统一隐式导数](results/R695-so3-zero-closure-bubble-uniform-IFT.md) — 完整证明单bubble秩亏、双bubble定量满秩、显式固定端轴右逆、不带指数损失的严格收缩球及周期/反射/C²闭合；保全core/H/omega的三角9×9隐式J/J*。实际IFT条件未验，无科学运行或非圆存在声明；完整零Δ源接续真实输入。
+
+- [R725：固定宽度三片端层、均值扰动与真实曲率分解](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md) — 完整证明C³接合、端层显式转向项和两均值根扰动/位置账、完整shape operator秩一分解；固定b且ε1/8将该项系数15/b降至64/(7b)，保留高阶代价及全部存在条件，不推wholeK/reach单调改善，新seed正在实施。
