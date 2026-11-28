@@ -11,3 +11,7 @@
 ## 2026-11-28 10:46:51 UTC — 33 retry实际初场及首个恢复trial
 
 本次两input0，science bffd5bbf/PID3463/model61c654、7e06/accepted0；Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052。K12.32709940409259、Dpoint4.117175466515689、cell885/u.8306046932331322/φπ2/branch1/s2.1573631007205925。首trial291f394仅开始。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run33-section16-retry.md)。双README云核至`0f3363acd7fe23b40daa4ffde3a5f3e7f7055cc6`无变（非pull）。
+
+## 2026-11-28 10:47:52 UTC — 34实际两输入返回与独立R730 science开始
+
+34自身两input0、完整R730/R729 science已开始source c3228e9d/PID3687；官方job140949157288仍in_progress/null。两个进度文件当时未生成，完整FileNotFoundError保存，未声称新model/几何/求解成功。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-R730-R729-run34-complete-launch.md)。双README云核至`545123bb733c2ee79ed9ad679c625a7720c4880f`无变（非pull）。

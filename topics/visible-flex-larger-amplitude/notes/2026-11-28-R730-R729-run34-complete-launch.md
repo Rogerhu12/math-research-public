@@ -23,3 +23,56 @@ node topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r730
 ```
 
 The command verifies pinned source inputs and reconstructs the complete controller, workflow, initial queue and request under the output repository. The pure-only queue can be produced by serializing `{parent_request_id: request.request_id, finish_when_done: false, steps: pureReady.steps}` as compact UTF-8 JSON with one LF. Its SHA-256 is `f2a82e05e2a49478d549f601ea1586a8fd124d3b1c62d4a0f214755eb0b7e0b1`. This queue is reserved for the same request after its genuine science return. The two complete input steps execute in the actual workflow, and prior run outputs serve only as historical references. The topic README completion criteria still require a connected closed family, full-time embeddedness and reach, both amplitude tests, the stated metric accuracy on the entire surface, refinement at fixed data, and reproducible meshes.
+
+## 2026-11-28 10:47:52 UTC — 34实际两输入返回与独立R730 science开始
+
+官方run46135301432/1（触发main a78a33b1226af6833ec518f94fe46104492ceaa4，创建10:27:57Z）、job140949157288正在执行。两完整原输入自然返回0；自身science source c3228e9dd8668d9e03467a886eaa80eed21bd0f3、PID3687已开始，wrapper SHA256 b32f9642a61bd093fcc14ed7e44488e90ac8cbe3cd6fc0d3436da84f861bd401。10:37:59Z观察尚无两项进度文件，下面完整错误按原样保留；model/point/全场/正常费用仍未知。R731冻结参考的障碍不代当前outer场结果，R732新参考不混入34。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-r730-R729-first-20261128",
+  "scientific_source_commit": "c3228e9dd8668d9e03467a886eaa80eed21bd0f3",
+  "scientific_source_sha256": "b32f9642a61bd093fcc14ed7e44488e90ac8cbe3cd6fc0d3436da84f861bd401",
+  "pid": 3687,
+  "observations": {},
+  "complete_small_progress_file_identities": [],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-r730-R729-first/actual-normal-evaluation-progress.json",
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46135301432-1/research/fixed-fejer-r730-R729-first/actual-normal-evaluation-progress.json'"
+    },
+    {
+      "report": "fixed-fejer-r730-R729-first/actual-mathematical-progress.json",
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/_temp/visible-larger-research-46135301432-1/research/fixed-fejer-r730-R729-first/actual-mathematical-progress.json'"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "a2166fffc455e927ddfcf13c68165139daa64a9b5141f6889f93f33d8f3c8644",
+  "observed_utc": "2026-11-28T10:37:59Z"
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46135301432-1.md",
+    "bytes": 47184,
+    "sha256": "6ba8b57bf84d77a4d3e3062a90ea6e0e79f3fd3760c036cf9ba1bd430a3bba79",
+    "git_blob_sha": "6710fd94d01c9d6bb9f92294c85d2150cc0efc14",
+    "fixed_commit": "f8f98158b141106bd27cf05a6949555b463b29df",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46135301432-1-part-001.md",
+    "bytes": 16606,
+    "sha256": "c17e5c47d6e1e7c1681e620f40b3df51fca80834fb52eb046581c0ea5c789b8a",
+    "git_blob_sha": "ba24d3438df44e9ba958d8c9caed68d6de94dfea",
+    "fixed_commit": "f8f98158b141106bd27cf05a6949555b463b29df",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
