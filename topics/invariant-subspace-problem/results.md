@@ -1,5 +1,7 @@
 # 已得结果
 
+**R150计数范围（2026-11-28）：** 各点数/长度限于明列的比值与Gram坐标；原p归一不同时固定U0。独立U0³=−P0须另添三次，未列物理矩阵轨道不计。见[完整尺度说明](results/R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md) §6。
+
 > **优先更正（2026-11-28）：** 旧 compact 二重点均值平方错误已确认。凡沿错误 R2/Rbar 的原必要性、有限性或排除声明，以[更正与撤回范围](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)为准；旧矩阵运行记录不能继续充当原题证明。
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
@@ -12,7 +14,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-index-before-Haar-vacuum-divergence-first-W-B1-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-28-results-index-before-hk-Artin-scope-first-W-three-fields-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：h=k/Δ0的约化399维权基与4788维Artin包络](results/R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md)：固定17行列式单赋值、P的u³头λ度≤28给必要基代数K99×K300；Q²头度8为整域单位，倒z三次/ρ二次给含重数长度≤4788。仅明列比值/Gram坐标，独立U0另添三次≤14364；两域尚未排空。
 
 - [R150：正确Phi全t参数的三均值三生成与原λ首一三次](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-parameter-three-mean-generators-and-monic-lambda-cubic.md)：新付2ell−1使(f²,fV,V²)真头32uQ(2ell−1)/M²全域可逆；双向仿射变换后原均值商在权[t]上由1,f,V生成，λ的真实动作给总(λ,t)度≤3的首一三次。全图未空。
 
@@ -73,13 +79,3 @@
 - [R150：正确 Φ 的整个 α=0 原支排除](results/R150-appendix-unit211-Phi-zero-true-entire-alpha-zero-original-exclusion.md)：0.433170338秒/0，U42完整1/1/6三QQ域同Q gcd为4/4/1，全部整除原已付单位；12/24重数经幂零提升保全，当前物理D非零图可支付α。
 
 - [R150：正确整个 Φ 的精确十五列 I6 与两原六次](results/R150-appendix-unit211-Phi-zero-corrected-whole-original-I6-fifteen-by-three-and-two-sextics.md)：2.910171339秒/0；完整NSPS、两个原overlap与四动作缺陷给准确商同构，两六次原cofactor保全部头零；任一头开图上的原必要代数十八生成。
-
-- [R150：整个 W b0 的两原曲线、5772 权长度与 46176 完整不同点](results/R150-appendix-unit211-W-entire-b0-two-original-curves-5772-weights-46176-normalized-points.md)：5.531909013秒/0，新C74/D78完整QQ互素；原q2系数的单位组合保全部首项退化，同f首一二次和唯一值恢复给完整点界，仍未逐个排空。
-
-- [R267：同一真实平坦分母的相容有界有理根与原平方近似](results/R267-appendix-coherent-bounded-rational-roots-of-one-flat-common-denominator.md)：完整carry正收缩尾积构造PrPs=Pr+s；全部有限原旗quasi。YN²=C DN、DN收缩强*I由移动参数预算付清；同Pt的YN Pt尚欠一致范数和真实强极限。
-
-- [R150：W 全图显式首一 f² 与原 I4／I6 两列模](results/R150-appendix-unit211-W-lambda-T-f-global-monic-f-two-and-exact-I4-I6.md)：由两真正singleton均值给纯权单位头；E1保持独立，I4六行/I6十行完整同f呈示，pair与norm只作必要式。新纯权B头及六标量首次执行，无旧门重放。
-
-- [R150：真正 α=0 的原规范范数与 U42、378 权对覆盖](results/R150-appendix-unit211-Phi-zero-true-alpha-zero-original-norm-Q42-and-378-weights.md)：0.381504878秒/0；同一原范数的五个Q系数有Bézout1，固定17/20阶投影给U42，得到378不同权对及1512完整规范点，未称排空或方案长度。
-
-- [R150：W 纯值 T 四／五阶的完整同 λ 因式覆盖](results/R150-appendix-unit211-W-pure-value-T-four-five-complete-factor-cover.md)：42.858974253秒/0，两个原组合经全乘子内容消去、完整QQ因式乘回，保F2=0或F14=G13=0；唯一另因子2e+1已由旧JQ排除，未把F2认成b0。
