@@ -792,3 +792,22 @@ root无可用executor，实际重置后唯一探测失败的最新记录为04:17
   }
 ]
 ```
+
+## 2026-11-28 06:00:57 UTC — 28下一完整试点的统计返回
+
+0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98于05:43:43.871609Z只返回统计Phi681.6473711639321/Gram.40616528955370923；实际alpha1/restoration。当前仍11e66/accepted1/g.5294703284893127，至05:47:32新trial几何/接受/report未返。不从25或22里相同统计、相近坐标回填本run的接受结果；本源/model61c654身份独立保。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1.md",
+    "bytes": 41007,
+    "sha256": "77e31909018cd3e9788a2ffa26bac75b76ca8dc03afc9dcbd8e60275176f78ca",
+    "git_blob_sha": "dc5a8f76ad4c45f2eacc1973df05514fafb4535a",
+    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
