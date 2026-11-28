@@ -1,0 +1,153 @@
+{
+  "schema": "isp-W-scaled-entire-V-six-return-qT4-two-column-time-boundary-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-28",
+  "runId": 46121350733,
+  "jobId": 140906380882,
+  "driver": {
+    "elapsed_seconds": 180.03192772,
+    "max_child_rss_kib": 290824,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "4562d8c809f3ced3a5e8668928702e1b47bb50b3",
+        "before": "ebfa29f5ace357092d4c69329028afb9741c9e02",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T07:28:37.853631+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46121350733",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "ebfa29f5ace357092d4c69329028afb9741c9e02",
+    "source_exit_code": -14,
+    "source_git_blob": "2d72202d0ea06794237b67555bf5045755259c39",
+    "source_sha256": "c786f55735449210bddef16efc68b4a715f3b3a48e203f85e35bdce5509ea1ef",
+    "stdout_bytes": 4075,
+    "stdout_sha256": "4aab0973dc4d0d206a38de006b0e41599c53bc50997ef2c66df4e030d42cbf50",
+    "stop_reason": null
+  },
+  "completedActualNativeBases": [
+    {
+      "stage": "new_scaled_complete_V_actual_original_base",
+      "name": "scaled_Z0_full_N4V0",
+      "originalSourceNode": 15,
+      "fullOriginalMeanSourceIdentityReturned": true,
+      "oldNativeDenominatorWhitelistPassedUnchanged": true,
+      "coefficientDefinition": {
+        "bytes": 174541,
+        "sha256": "749bc4d76c634b368b43049609c3b9dd60a65bc42416279764533c0131750d9f"
+      },
+      "seconds": 19.618355419000004
+    },
+    {
+      "stage": "new_scaled_complete_V_actual_original_base",
+      "name": "scaled_Z1_full_N4polar",
+      "originalSourceNode": 16,
+      "fullOriginalMeanSourceIdentityReturned": true,
+      "oldNativeDenominatorWhitelistPassedUnchanged": true,
+      "coefficientDefinition": {
+        "bytes": 27698,
+        "sha256": "1ab7a4a984bce13a8d54356f38e8cd7697620df3ca86d9ccbb1fad0df750b65c"
+      },
+      "seconds": 19.712706086000004
+    },
+    {
+      "stage": "new_scaled_complete_V_actual_original_base",
+      "name": "scaled_Z2_full_N4V1",
+      "originalSourceNode": 17,
+      "fullOriginalMeanSourceIdentityReturned": true,
+      "oldNativeDenominatorWhitelistPassedUnchanged": true,
+      "coefficientDefinition": {
+        "bytes": 4176,
+        "sha256": "9579bc01b898cf95128d9abed9bb43a828f62ef797ff942b63f5141908dc97a2"
+      },
+      "seconds": 19.721735763999995
+    }
+  ],
+  "completedEntireVlowSix": {
+    "stage": "new_scaled_V_pure_weight_six_generator_source",
+    "name": "entire_Vlow",
+    "originalDAGNode": 44,
+    "sourceDAGOperations": 45,
+    "coefficientDefinition": {
+      "bytes": 1412526,
+      "sha256": "bc0e991753015a3d7e4c8c8faeda0b2d4702f38606f4f7df322b9c9b5ed0d681"
+    },
+    "actualSource": "full original mean base traces plus twelve actual lambda/T actions",
+    "noGeometryDenominator": true,
+    "noExpandedLargeTraceClaim": true,
+    "seconds": 31.252761979999995
+  },
+  "completedOriginalEllSquaredRecovery": {
+    "stage": "new_scaled_entire_V_original_six_return",
+    "threeScaledFullN4OriginalTracesReturned": true,
+    "allSixEllSquaredRecoveryProductsReturned": true,
+    "fullOriginalN4VNotAComponentOrPhiMultiple": true,
+    "oldReducerWhitelistUnchanged": true,
+    "noDInverseOrGeometryHeadInverse": true,
+    "seconds": 31.252815879000003
+  },
+  "completedQT4TwoColumn": {
+    "stage": "new_scaled_V_alpha_chi_linear_return",
+    "name": "qT4_input_to_new_pair",
+    "nativeOriginalSourceNode": 14,
+    "nativeFirstThenSingleCoordinateSubstitution": true,
+    "fullMonicSquareShortDivisionAndBothScalingProductsReturned": true,
+    "columns": [
+      {
+        "zero": false,
+        "degrees_e_k_chi_alpha": [
+          92,
+          99,
+          7,
+          0
+        ],
+        "totalDegree": 152,
+        "terms": 43136,
+        "bytes": 2359198,
+        "sha256": "46c95024ed386570e48187d053959012ffc5c68c53fbcd1f4677285ca09ff7e7"
+      },
+      {
+        "zero": false,
+        "degrees_e_k_chi_alpha": [
+          88,
+          98,
+          8,
+          0
+        ],
+        "totalDegree": 149,
+        "terms": 45851,
+        "bytes": 2474649,
+        "sha256": "fb44b99f444d4ddeffb19e0812c18bfa5e2efb7ee28828e4051da658bef28dc6"
+      }
+    ],
+    "onlyPaidWeightContentRemoved": [],
+    "alphaMultipleDefinedByExistingExactMonicMultiplication": true,
+    "alphaMultipleCoefficientsNotExpandedHere": true,
+    "seconds": 104.342457268
+  },
+  "lastCompletedCheckpoint": "new_scaled_V_alpha_chi_linear_return/qT4_input_to_new_pair",
+  "unreturned": [
+    "entire_Vlow alpha-chi linear row",
+    "two-value interface completion marker",
+    "qT4/Vlow common actual multiplier and scalar",
+    "new parameter projection"
+  ],
+  "preciseInterruptionWithinUnreturnedBlock": "not logged; no claim",
+  "resourceLimitSeconds": 180,
+  "addressLimitGiB": 4,
+  "oldNativeWhitelistChanged": false,
+  "nativeVlowOriginalDAGComplete": true,
+  "entireVlowTwoColumnComplete": false,
+  "anyNewPairComplete": false,
+  "wholeWExcluded": false,
+  "normOrOldTargetsRepeated": false,
+  "coefficientPayloadSaved": false,
+  "frozenTail": "Vlow alpha-chi transport and qT4/Vlow pair; no restart or larger budget"
+}

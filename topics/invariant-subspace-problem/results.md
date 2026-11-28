@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：完整Vlow原六列/qT4首次二列的准确边界](results/R150-appendix-unit211-W-scaled-entire-V-native-six-and-qT4-first-linear-boundary.md)：三缩放原N4全迹、六个ell²恢复及完整Vlow六列31.252762秒返；qT4二列104.342457秒返。唯一180.031928秒/−14，Vlow二列/pair未返整尾冻，不能写整体成功。
+
 - [R150：正确Phi图的整个f=u原值全排除](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)：新四完整QQ因子保全嵌入与Q/v重数，原N1/NS/PS全理想矩阵4×12、12×36、12×36、54×162逐项返回1；3.829887秒/0。合C17与整u2闭合，当前正确Phi/D非零可付f−u；B34/40与一般斜率仍开。
 
 - [R150：正确fu的整个u=2原值排除](results/R150-appendix-unit211-Phi-zero-true-fu-entire-u-two-original-low-unit-exclusion.md)：真odd与t单位迫t4，N0保Psi误差，完整Lowλ+4EBe=−2Q²/[(1−Q)(Q−2)]给原单位矛盾；新1ms/250整数乘/四身份。C17余1/2/3/9四整因子、≤45权对/360完整规范不同点。
