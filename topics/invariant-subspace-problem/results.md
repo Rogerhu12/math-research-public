@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R12：自然移动高位有限平方根的强图聚点仅为零](results/R12-appendix-moving-high-bit-finite-square-roots-have-zero-strong-graph-limit.md)：任意非零复尺度、输入与输出同时强收敛时均为零；平方范数趋原 A 仍不提供实际闭根，不排其它非局部来源。
+
 - [R12：全部原 Haar 普通不变格的共同坐标旗与闭稳定根](results/R12-appendix-all-ordinary-invariant-common-coordinate-flags-and-stable-closed-roots.md)：真子商闭图与原旗反构造、有限尾穷尽、gauge 和非闭及全尾标量乘合根排除；未构造实际根，普通 ISP 仍开放。
 
 - [R150：全 W 真正 λ 本原八次与六范数准确边界](results/R150-appendix-unit211-W-original-primitive-lambda-eight-and-first-norm-boundary.md)：原共乘子全部三列消去、权内容全已付，P8 本身属于原 I8；首一余式与六列完成，范数及 cofactor 未返回，不据此宣权排除。
