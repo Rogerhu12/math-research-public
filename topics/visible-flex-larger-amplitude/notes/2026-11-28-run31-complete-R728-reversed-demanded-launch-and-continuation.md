@@ -335,3 +335,26 @@ request46194B / SHAce643515f5d0458f440d10f89b390f656e44ea4fcdef6acb14796093be761
   }
 ]
 ```
+
+## 2026-11-28 09:21:57 UTC — 31首恢复全步真实接受与完整六族
+
+固定f020f0a86ce3bce9d15f3cc1ab10edf45f3b2c13完整索引observed09:04:57Z，本次source dfbbc306245b99e0e84400c55697aebe584bb22b/PID4131、driver549ca0f7cd038abc278a5ec20580f79609bae8328ba090e15a41e19133d8b3ee、model78717b20b1fa33db5ccc018be03ee6c9d93a0b89615fdfd25d1049492c0fce40。
+
+首restoration alpha1点337dc8a3bc00ffadf43eea6a420d1063fba528de19c2c03aa08345169730384a在09:02:58.057979Z真实几何完成并accepted=true，current已同该点、accepted_directions=1；Phi14106.362105626435/Gram.8223753558623952。全六族reach.7621406738864105、body−.04189769472043836、distance_plus−.09518118442522905、distance_minus−3.0402377944190384、cap−.06715131464556945、height−1.041171597036216；max=reach。K14.229668650197532/D_point_lower4.109115766051376，热点cell510/u.5/phi1.3008157081270237/branch0/s=null；distance_plus_phi=π/2。未从上一cell509或32填位置，未知s保持null。
+
+初始7e06的原值及全来源仍保原完整索引；本次只是接受一个仍不可行的恢复方向，Gram没有达到1e−6。complete_report=false、stop_reason=null、observer_failures0；未得到整科学final/typed，不提前用future pure作为已执行证据。保持whole pure46851原准备与全部原4/64/15/全域参数，自然science返后同31 ID接续。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46122200592-1.md",
+    "bytes": 52510,
+    "sha256": "2c843d921373d41700359e42b1c76928a34d17e8c9a2b31a9cfba5f9ae0ff348",
+    "git_blob_sha": "d603de9a6d053b730b75f3af35ea68bb1a2c9b08",
+    "fixed_commit": "f020f0a86ce3bce9d15f3cc1ab10edf45f3b2c13",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

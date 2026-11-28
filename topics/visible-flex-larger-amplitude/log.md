@@ -413,3 +413,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:19:13 UTC — 28实际队列路径拒绝与保持守卫的完整前缀修复
 
 官方索引09:13:43Z在科学前报告Step script must be a Python file inside the declared topic；原ready遗漏topic前缀。只给science script加topics/visible-flex-larger-amplitude/，完整queue74418B/065274258571ceb8821556880ad9cafe7905b8c1f699c7b15d67c5681df416fb，原142参数词、587/64读数、完整parent/scope/输出/预算一律不动，原helper守卫不改。下一whole pure同样完整修正为63205B但未排入，保持自然返后才接。全部原错误/原包/旧队列和完整索引固定身份保本次同名note新增段；六既存阶段0不冒新的第7阶段成功。 双README云核至`1d99782d5e98dee105d3fc946241f91971045e70`无变（非pull）。
+
+## 2026-11-28 09:21:57 UTC — 31首恢复全步真实接受与完整六族
+
+31首restoration全步337dc在09:02:58Z真实接受，accepted1/Gram.8223753558623952/reachg.7621406738864105；全六族与新cell510/u.5/phi1.3008157081270237/未知s保本次证据。仍未自然科学返，不提前排whole pure或宣称可行。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`a5d4dcfa84b1ccbb0c6da21444e0420941c841ac`无变（非pull）。
