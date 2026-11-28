@@ -1,0 +1,193 @@
+{
+  "schema": "prepared-complete-mapped-qr-actual-dn-entry-v1",
+  "scope": "Actual source preparation and read-only validation of previously returned original mapped design traces. No new native, BVP, factorization, full DN or lambda-one solve was run.",
+  "utc": "2026-11-28T19:10:17.598783+00:00",
+  "sources": {
+    "prefix_actual_dn_mapped_qr_driver.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/prefix_actual_dn_mapped_qr_driver.py",
+      "sha256": "f2353b1269bb6746cd66b70de8485880fd80a76dc6499e1f495fec750ce85d3f"
+    },
+    "continue_original_actual_dn_mapped_qr.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/continue_original_actual_dn_mapped_qr.py",
+      "sha256": "5de346ed200632dc0631ca04b8a2eb2cab795624e00d11e7c1fb8a4ba3298381"
+    },
+    "mapped_qr_actual_coupled_prefix.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/mapped_qr_actual_coupled_prefix.py",
+      "sha256": "9b7d4c749af3e3583529d356f5eaa501a1988a46c823a2d3647b33c7d906d265"
+    },
+    "run_lambda_one_actual_dn_mapped_qr.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/run_lambda_one_actual_dn_mapped_qr.py",
+      "sha256": "4d5ac0e53fbfec6a7b7990fea9005f87759227af3c3613cb7336b0c31987e729"
+    }
+  },
+  "compile": {
+    "prefix_actual_dn_mapped_qr_driver.py": true,
+    "continue_original_actual_dn_mapped_qr.py": true,
+    "mapped_qr_actual_coupled_prefix.py": true,
+    "run_lambda_one_actual_dn_mapped_qr.py": true
+  },
+  "help": [
+    {
+      "source": "prefix_actual_dn_mapped_qr_driver.py",
+      "actual_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/prefix_actual_dn_mapped_qr_driver.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.6233339929995054,
+      "output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/mapped-qr-actual-dn-entry-20261128/prefix_actual_dn_mapped_qr_driver.py.help.txt",
+        "sha256": "b3224c1cb0999b2cf2f96360fdaa5fe0572662d2dbd0451a86217233f08cda9e"
+      }
+    },
+    {
+      "source": "continue_original_actual_dn_mapped_qr.py",
+      "actual_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/continue_original_actual_dn_mapped_qr.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.07162137900013477,
+      "output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/mapped-qr-actual-dn-entry-20261128/continue_original_actual_dn_mapped_qr.py.help.txt",
+        "sha256": "37174a6a3485e7e5b2e28f216fc2b893665e630c3be7eb05eae74eeaec04affb"
+      }
+    },
+    {
+      "source": "run_lambda_one_actual_dn_mapped_qr.py",
+      "actual_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/run_lambda_one_actual_dn_mapped_qr.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.05228309099948092,
+      "output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-tail-preparation/mapped-qr-actual-dn-entry-20261128/run_lambda_one_actual_dn_mapped_qr.py.help.txt",
+        "sha256": "168a4fd8be8bf2d97ebd07baa19dc68b8b569aecc167d960dd04bd47301ca030"
+      }
+    }
+  ],
+  "complete_surface": false,
+  "new_actual_DN_executed": false,
+  "new_lambda_one_field_claimed": false,
+  "new_positive_reader_execution_claimed": false,
+  "legacy_source_unchanged": {
+    "prefix_actual_dn_qr_driver.py": "a589e67328c456b85c08f00097f7b6e37327c0625f6d6b5e1085c36d3aad2333",
+    "continue_original_actual_dn_qr.py": "d716cbf3d6c82c1bbe83675218efc7016a6f42c3ec67adb63e03187cefa5fafa",
+    "qr_actual_coupled_prefix.py": "17cf2884fa337ef3a72d23064d2d68dc45973e97ff6722e09fa850fd317bc98a",
+    "run_lambda_one_actual_dn_qr.py": "91dfd5909432ed914b0d9e8a20181c56ca16dac205a308f4d5b468b61049469e"
+  },
+  "API": {
+    "coordinator_schema": "original-lambda-one-native4-chord3-outer8-prefix-mapped-qr-v1",
+    "source_kind": "actual_lambda_one_mapped_qr_chord_final_physical_height",
+    "wrapper_schema": "original-actual-dn-complete-prefix-mapped-qr-execution-v1",
+    "accepted_coupled": "(source_run, coupling_summary)",
+    "load_coupled_prefix": "(source_run, coupling_summary, *, side_modes=None, center_width=0.04)",
+    "coordinator_pin": "5de346ed200632dc0631ca04b8a2eb2cab795624e00d11e7c1fb8a4ba3298381",
+    "bound_resource_sources": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/prefix_actual_dn_mapped_qr_driver.py": "f2353b1269bb6746cd66b70de8485880fd80a76dc6499e1f495fec750ce85d3f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_prefactor_qr_driver.py": "939abb3d741a7b124f94092b23ede9cfd5837e4d2976e5385ee545c3868ac716",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/prefix_block_qr_driver_v3.py": "1ab3b18a9ee531b661227373fd1dd5e019df8f3ed9e13c511a9d47b1cc32a4d3",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/streamed_release_prefix_driver.py": "ae07d899554725cdeaec7fb1d79816895c410e1bc582c6eb3ba15b3afa1a950b",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_mapped_chord_checkpoint_driver.py": "0ea037f2f8a0fffc437075b89eb7d8bcfd4e57a3e9f01dae3293b8807fb3a139",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/accepted_newton_nodal_checkpoint.py": "11f14d4b105e2043a00180e222f30ee52ab4a8f4b1ff6aaec9920a7c03900755",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_prefactor_budget_driver.py": "b2345772eb154fdbacccfc0d13e9430c2cd5294c122660dccec18fd16a7d9383",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_prefactor_memory_budget.py": "aaf7f4810b73c3dff8272bed4939e3d2ab572d253b2bfea77ad9a6df408a9701",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_mapped_memory_budget.py": "fd1282f5d327fae130a7d1502a7d2af62b5a2574124f3388c3fa8f74d173141e",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_csr_memory_budget_v2.py": "caed800bbd912fccea3f669755be2bc00e5fb5ffecca56091c475bf2ca99961d",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_csr_memory_budget.py": "92054e63aaa598383cf80d5209027f80370ad398a31510509765b283908fd2c1",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_csr_prefactor_mmap.py": "213957953e7f98be6b3a598a67feb4454120b9abded9fdda0423ee5fe5358b99",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_factor_mmap.py": "12c18e96f333b588c9e8ac8db423976d2210f36c705b40c467f144d9a06994eb",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/literal_design_nodal_restart.py": "881d6de294bed27939e525795bd99eb1806c759ae9b30acd4a4b0329e278bc05",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/exception_safe_radial_batches.py": "2d2b413a46a23882341a4d5cac7ce2bc2c44c8444129d322d898288597c2c7a7",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csr_assembly_driver.py": "c74394153c0741e469eb55f360dff29e6ea8c0ad9752a431166e6d4fe2647ea4",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/direct_csr_collocation.py": "91c3df497777f96d762d4b41c9fdc40c038e8905413650b6bc3c7cd8f64f33da",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v5.py": "03694026b0e650ade871b0d5ca4863f8f10375d63d39184ee76f6b40673fcf50",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/nodal_jac_checkpoint.py": "dce571f51710714c61b2d0c4513ffe6619b72318d07a5976c0090dd75deaf32f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v4.py": "97110df100af6f411821861e6c8e53a7e05a1a38e61e128010b8405079d1dfba",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v2.py": "26e5ff89f368ba4b7c7524c3ea02895f61c9af96bd7e173d2bb0686ed2411d72",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver.py": "f405cba45336ba3a6fc65cb6f6bafea192353d46bec0e3697132549ebe5d44fd"
+    }
+  },
+  "real_returned_design_trace": {
+    "scope": "The old true .032/M24 trace, not a return of this new DN wrapper. All original full numerical states remain untouched.",
+    "run": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128/run.json",
+      "sha256": "903b4abfbec686308820cd69700a0be104d763af8fa010aae2cd1e2a3c854490"
+    },
+    "mapped_trace": {
+      "complete_factors": 2,
+      "recorded_mapped_solve_returns": 4,
+      "complete_CSR_before_QR_and_all_factors_mapped": true,
+      "source_trace": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128-csr-prefactor-mapped.jsonl",
+        "sha256": "919991376d2d0772bc34f6c232b9e7d4dfe5d32c64dfba50ff942d4bd4d2ee4d"
+      },
+      "original_math_or_gates_changed": false
+    },
+    "prefactor_trace": {
+      "lifecycle": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128/prefactor-storage-and-flow-lifecycle.json",
+        "sha256": "bb2d1ece70596a7bc66b026ed17f4020eb3727d693af22008c223263f3837acd"
+      },
+      "accepted_pre_J_storage_gates": 2,
+      "complete_CSR_before_QR_and_all_factors_mapped": true,
+      "original_math_or_gates_changed": false
+    },
+    "original_QR_trace": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128-block-qr.jsonl",
+      "sha256": "eee016bf7143cb09c70abc70fbb6f02e8749d298a2f7bb15795774dd1fd27919"
+    },
+    "prefactor_budget_trace": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128-prefactor-nodal-budget.jsonl",
+      "sha256": "968929bf6a7e9ad60090e49a8e5b995667a73f350cc675b0ea65f0329ca340fd"
+    },
+    "original_factor_return_count": 2,
+    "original_solve_return_count": 4
+  },
+  "unchanged_scientific_blocks": [
+    {
+      "label": "native4, complete scope, chord3, warmup and original portable command",
+      "start_marker": "        invoke('prepare_actual_native4'",
+      "end_marker": "        executed=(",
+      "bytes": 2970,
+      "sha256": "2f17d37caa8752ad169bcb5b51e7dd3f0e0f3a6d143d1f22d86c15f1f5cf0144",
+      "exact_bytes_equal": true
+    },
+    {
+      "label": "final original physical-height packet, native audit, original accepted result",
+      "start_marker": "        for key in ('physical_profile','physical_tail_parameters','physical_tail_cut',",
+      "end_marker": "    except Exception as error:",
+      "bytes": 3824,
+      "sha256": "8888e95b4c36af43a1b24ff8a31e8d865a61e9f561aba433b8b8ef608b9a13e7",
+      "exact_bytes_equal": true
+    },
+    {
+      "label": "entire native/config/original gates, complete raw/physical/H/J/mean/packet reader",
+      "start_marker": "    native_ref = summary['native']['manifest']",
+      "end_marker": "    provenance = dict(",
+      "bytes": 10634,
+      "sha256": "6cfc74ec85d95acf47281c1eb15441afdc7a3ce8b5cf6f80a0c03f7732580dc8",
+      "exact_bytes_equal": true
+    },
+    {
+      "label": "literal same-mean Cartesian prefix construction",
+      "start_marker": "def load_coupled_prefix(",
+      "end_marker": "\n    return record, prefix, binding",
+      "bytes": 601,
+      "sha256": "dc8bc16e37cc596d135dcdd5ac4740c6875ed725ed8a817fda177c3ee4b6630f",
+      "exact_bytes_equal": true
+    }
+  ],
+  "passed": true
+}

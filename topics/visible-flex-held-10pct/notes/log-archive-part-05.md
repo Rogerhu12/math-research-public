@@ -1,0 +1,539 @@
+# 工作日志
+
+较早完整原文见[归档04](notes/log-archive-part-04.md)，其中保留归档01/02/03链接；旧条目没有删改。拼接身份见[校验04](notes/log-archive-part-04-integrity.json)。
+
+- 2026-11-28 06:32 UTC｜Astra-held10-7c4e33ee-20261128：两仓partial clone/pull并读规则，私库QUEUE接手推e96d935；根/题规则初锚b0865cd9。恢复CI晚返：原design已λ.128/M48全门、低模尾M8已full-H而M16失败原因未知；不计本次新求解。旧H/open完整保留并压缩现行接续，继续统一源恢复、跨M设计和全模尾。
+
+- 2026-11-28 06:39 UTC｜Astra-held10-7c4e33ee-20261128：原70源和chart/port按hash恢复成功，新跨M完整割线入口已实际启动必要再生；原初始全节点RHS增加分块，所有原门保留。新尾路径half-H升M再全幅且可从原接受包续，不重复原M8full→M16失败；当前仍等待真实M24源，无新闭族。
+
+- 2026-11-28 06:40 UTC｜Astra-held10-7c4e33ee-20261128：R72原旋转线性模型的完整桥/Robin响应实算∂δR3=−326.45133895549、伴随积分−.17490536231904，两算法相对差2.35e−11、中心FD相对差≤1.55e−9；保原GL64桥定义。不称有限幅Schur或新BVP，继续原设计与完整λ切线初猜。
+
+- 2026-11-28 06:43 UTC｜Astra-held10-7c4e33ee-20261128：完整配点矩阵块QR消元实现，保所有节点/参数/BC并逐层列置换回代；真实M8/418节点、10458维方向与SuperLU在两次原J残差修正后相对差1.4245e−14、原线性残差6.437e−19。未实施BVP步；继续高M输入与实际设计，componentwise齐次行比值1如实保留。
+
+- 2026-11-28 06:53 UTC｜Astra-held10-7c4e33ee-20261128：补读原v5低q续入完整终态，.003/M32与.0025/M32分别RMS.00100269/.00411025未门，.0025/M24仅metric4.43225e−6未门；最后接受仍.002。已保存原ci source SHA，清除H待返描述，主线继续R53，不重跑该失败链。
+
+- 2026-11-28 06:54 UTC｜Astra-held10-7c4e33ee-20261128：同真实M8/598节点实测原整批、split8、只读CSR缓存冷/暖及block64的RHS/dy/dp逐位相同；新v3按M选分块，observer实际导入/help已过。q006原门恢复，等q012真实接受后无损进入快速后继；q020原子屏障为主动交接，非数学失败。QR备用驱动仅CLI检查未实跑，原活源未改。
+
+- 2026-11-28 07:04 UTC｜Astra-held10-7c4e33ee-20261128：q012自然全门返回，快入口从真raw接q020亦全门过（606点/RMS9.90273e−7/metric1.92236e−8、64.03秒）；完整SHA和原门记录已存。旧q020屏障主动停、竞态q012快照副线exit130无raw，均非数学失败。两旧Actions artifact列表实际为空，继续必要恢复，不计新λ前沿。
+
+- 2026-11-28 07:11 UTC｜Astra-held10-7c4e33ee-20261128：R67三重全谐波帽直接用有理闭式实现，无谱截断；ε以精确有理上界向下取float，Cartesian两jet经75位独立微分/旋转协变核，最大尺度误差1.6263e−15。新闭图入口不再调用旧二重帽，限全柱长≤.01；完整R53/源mean/真实fullH绑定的两reader尚待实际全尾，不当完成。
+
+- 2026-11-28 07:13 UTC｜Astra-held10-7c4e33ee-20261128：完整原q/warp割线实际恢复q050/q060，均879点、2全Newton步/零拒，metric7.91039e−8/4.09076e−7、27.43/28.39秒；全部原门与实际hash已核。首次联合近重复2.78e−17节点只在未接受预测中，修正后保全部右源节点，旧预测未求解。直接从真q060进原正λ/M24恢复，不称新λ或同g精化。私库07:12再pull efd9017，README无变且QUEUE正确。
+
+- 2026-11-28 07:20 UTC｜Astra-held10-7c4e33ee-20261128：真实M16/879节点、43087未知的完整QR与SuperLU方向相对差6.44046e−14，原J残差1.06667e−20；QR因子73.4MB、全核峰RSS456684KiB。快照未接受，原M16最终metric未门仅升模源；无BVP步。M24冻结原Jac正用缓存分块完成同一核对，待实返后接高M资源调度。
+
+- 2026-11-28 07:24 UTC｜Astra-held10-7c4e33ee-20261128：新.002/M24真全门恢复（879点/metric6.53479e−7/RMS9.88440e−7/BC5.75991e−15），run1ad16826；fullH尾已启动。真实M24原J的QR/LU方向差9.50196e−13、原残差2.34639e−21，因子162.6MB；由此接独立M≥40 QR调度，所有原门保留。M8/M16 metric未门身份明确，不将恢复计新λ。
+
+### 2026-11-28 07:31 UTC — Astra-held10-7c4e33ee-20261128
+新879节点真λ.002/M24前缀的完整R53/公共Cartesian C²图首次实际运行；1890×1168采样metric5.51004e−7、K8.90689、support.661154、norm1.18574，中心两jet实现误差≤2.67e−15。
+新均值与原primitive二阶差1.32332e−4明确记录，未继承R62连续界；见notes/2026-11-28-tail-prefix-c2-first-actual.md及小标量JSON。下一步继续真实设计/fullH并适配同一新图的连续范围。
+
+### 2026-11-28 07:37 UTC — Astra-held10-7c4e33ee-20261128
+补正新图均值诊断：初次读中间mean_spline，现直接取最终Cartesian两jet零模，二阶减source仍1.32331214434e−4；最终/中间35点差≤5.78e−15但不声称函数恒等。图定义类逐字未变，未重复全图采样；见tail-prefix-final-mean小记录。继续同一最终图连续几何及原fullH/设计链。
+
+### 2026-11-28 07:39 UTC — Astra-held10-7c4e33ee-20261128
+真λ.002/M24完整64191维原J/同一QR因子实际给λ切线和δ/logq Schur；解析完整Fλ/FD差3.2314e−10，dδ/dλ−3.92049e−5，S2.469619216e−5，两h稳定，原J residual≤8.36e−16。
+数值范围、完整公式/哈希及componentwise统计1保留于analytic-material-lambda-tangent-and-q-schur；不是区间逆/新BVP接受。继续原支持族同λ同g前缀精化，主设计/fullH并行。
+
+### 2026-11-28 07:40 UTC — Astra-held10-7c4e33ee-20261128
+新M8 half-H原门通过3.13113e−10；M12/N192在fresh-final-J后原audit要求2幂失败，未晋级。中间角网格改下一2幂，N256从真M8包续接，不改audit/原门、不重跑已接受请求；旧M16原因仍未知。
+记tail-m12-audit-grid-correction实际源/包/hash；M16前资源屏障待真M12返后native2续；同时澄清analytic note的warp_reference_q=.06、实际warp_e=.48。下一步继续全M24及原outer。
+
+### 2026-11-28 07:50 UTC — Astra-held10-7c4e33ee-20261128
+新M12/N256/.5真原门接受，residual4.73745e−10、audit7.54953e−14；随后M16目录屏障是资源交接，不是失败场。c/native2已从真M12续M16，见tail-m12-halfheight-accepted实际包/源记录。
+设计必要再生真返.004/.008/M32，metric7.67071e−7/8.11508e−7，现.016；尚未超原.128。压缩H至当前入口并保旧结论链接，继续完整M24/fullH/outer与λ1。
+
+### 2026-11-28 07:52 UTC — Astra-held10-7c4e33ee-20261128
+原R53同输入积分memo真实M32/32全径向节点RHS/dy/dp冷/热均逐位一致；隔离写入核过，峰RSS376012KiB，原6.664s/热1.357s。完整core状态/θ字节绑定、返回可写副本、原积分/门不变，见design-core-evaluate-memo。
+V4→QR真实944点初域probe过但未求BVP；只取消未启动旧QR waiter，后继在design-secant-corecache-qr-20261128待真.016，原bootstrap未动。继续λ1/完整fullH，不把缓存算接受场。
+
+### 2026-11-28 07:57 UTC — Astra-held10-7c4e33ee-20261128
+R73登记：新最终Cartesian C²前缀/短桥944×1024全角闭盒共966656盒零未决，support>.6445、norm<1.1901、area>.2974；原PSD余量及精确有理后处理给K≤123/10。
+完整true-core/中心修补/公共Hermite直接包围，不搬旧R62；实际数据及source/hash见new-prefix-continuous-geometry。独立再生定义数组逐位同、108点jet分量包围内；未付连续metric/附尾/λ1/固定g，继续这些实问题。
+
+### 2026-11-28 08:02 UTC — Astra-held10-7c4e33ee-20261128
+M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.34102811e−15；真包0798181945…，见tail-m16-mild-return实际小记录。
+已无损启动d/native2原核M24/N512的.5→1及最终fullH/J，不设阶段终点；M16半幅不是完整M24或原outer。继续真实fullH、共同g精化及最终C²闭图。
+
+### 2026-11-28 08:03 UTC — Astra-held10-7c4e33ee-20261128
+首个原R53 support固定g径向精化真全门通过：同λ.002/δ.06413464112662924/profile/port/mean1168/nt768，M24 tol2e−7，879→1032点，RMS1.99629e−7、metric6.53252e−7、physicalBC1.886e−18；见analytic-original-fixed-support-actual-refinement。
+诚实新kind保原literal chart与全部源节点，原qlog列已核、完整QR未截列；未算fullDN闭图收敛。已续同g M32/nt1024与完整六jet差；08:02私库pull5ebe514，README空diff/QUEUE认领未变。
+
+### 2026-11-28 08:05 UTC — Astra-held10-7c4e33ee-20261128
+原native六处二幂除法候选的真实state/J/非计时诊断均逐字节同，V1全1152段6064216字节亦同；但配对CPU V1慢19.5%、V2慢10.5%，不接原M24。见tail-native-pow2-projection-comparison及独立复现脚本，候选大数组/二进制不入库。
+停止无收益微优化；活D仍原核，转完整H切向初猜/原J复用及后续完整shooting方向结构，保最后真实fullH/J/audit。
+
+### 2026-11-28 08:09 UTC — Astra-held10-7c4e33ee-20261128
+原bootstrap真过.016/M32后无损接新完整割线，.032/M32又真全门（947点/metric6.69488e−7）；实际V4 cache717hit/9miss，现.064。详见design-bootstrap-to-secant-actual及design-secant-lambda032-m32。
+纠正旧执行provenance：python -u使旧bootstrap未被资源wrapper拦截，实际原portable，数学返回不变；只修已停恢复入口供未来再生，不重复已接受场。尚未超原.128，不称fixedg或闭图。
+
+### 2026-11-28 08:09 UTC — Astra-held10-7c4e33ee-20261128
+真design锚→同g fixedM24的完整六组Cartesian jets比较已返：3294截面、N1024/2048、同mean1168真原函数；位置差9.73e−8而Fss差2.65435e−4，明确不是Cauchy或连续误差上界。
+见analytic-fixed-support-complete-c2-comparisons/逐字JSON/原compare窄适配；Gauss6→12只观察差，memo本次0hit不称提速。继续同g M32谱精化及后续全图问题。
+
+### 2026-11-28 08:13 UTC — Astra-held10-7c4e33ee-20261128
+真M16接受包末次全J与1153行状态逐位绑定，用完整36896未知原线性系统生成f1未接受初猜，normwise5.53e−28、componentwise1.05e−16；见tail-full-state-tangent-predictor。
+四个独立入口保原fullH/J/audit，计划在真M24/.5包后直试fullH，失败才二分。活M24首全J实际529.224s，仍原验收中；不是新尾接受，继续完整尾/outer/λ1和同图连续metric。
+
+### 2026-11-28 08:21 UTC — Astra-held10-7c4e33ee-20261128
+完整新割线的.064/M32原BVP真收敛（951点/RMS9.95911e−7/BC6.96e−17），但metric1.04985546e−6未过原1e−6门；完整物理场仅作初猜，原控制器自动升M40，见design-secant-lambda064-m32-metric-gate。
+同时明确前条六jet比较属于原physical函数/mean真primitive，非R73最终新Cartesian均值图的层间比较。继续实际M40/完整fullH/同g精化和新图连续metric，不把任何初猜登记为接受。
+
+### 2026-11-28 08:25 UTC — Astra-held10-7c4e33ee-20261128
+新M24/N512/.5真完整接受：1153×48未知，原residual3.13113e−10、audit8.22004e−15；包1cb9a3ae6a…，见tail-m24-mild-return。末J与接受状态逐位绑定，尚非输出heightJ/fullH。
+仅原.625后继在native前EEXIST完成安全交接；唯一E入口已真从末J全状态切线直试fullH/J/audit，失败才二分，未重跑/.5。继续全H、原8outer、λ1和同一新图连续metric。
+
+### 2026-11-28 08:29 UTC — Astra-held10-7c4e33ee-20261128
+同g M32首进程实际exit137，未返raw/physical/audit，不能晋级；最后原J123513维/1273节点，RSS3330564KiB。仅保存1272内部midpoint的全97state/32p，非完整nodal返回；OOM原因未证，见analytic-fixed-support-m32-interrupted。
+已保全部实记录，继续从同g完整未接受Hermite初猜和旧factor释放策略恢复，另存nodal检查点；不重新求已接受M24，不把进程中断当数学失败。
+
+### 2026-11-28 08:30 UTC — Astra-held10-7c4e33ee-20261128
+完整moving-chart解析δ列真实核过879节点/73分量和64191行collocation含全部midpoint依赖/BC；两h相对差5.05e−10/9.75e−10、BC差0，原RHS/残差恢复逐位同，见analytic-complete-delta-column。
+保原GL64半径移动节点导数、完整lift和convection；1.384s RHS/4.181s完整列，仅独立数值核验，未改活链，非区间逆或新BVP。继续实际λ1/M24全H和同g恢复。
+
+### 2026-11-28 08:43 UTC — Astra-held10-7c4e33ee-20261128
+R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467径向叶/503分裂×1536扇区角格，全角等价6759936盒。连续metric上界9.899331346061255e−7，准确有理预算99/1e8严格通过；789.252s，见new-prefix-continuous-metric。
+独立源审查核完整angular3/真core/中心/目标和Taylor+角插值；准确叶覆盖无缺口。未附尾/cut，无λ1或闭族完成；继续真实fullH、原outer、λ1和同g恢复。
+
+- 2026-11-28 08:49 UTC｜Astra-held10-7c4e33ee-20261128：λ.064/M32仅metric未门后完整升M40，原全门真过952节点、RMS9.959101731e−7、metric2.747920195e−7、physicalBC5.323651948e−13；δ.06413190791686303、mean1936，真实完整QR两因子、峰2718448KiB，所有16个输入/源/run hash已核。见[完整实际记录](notes/2026-11-28-design-secant-lambda064-m40-qr.json)。这是旧λ.128以内必要再生，非同g精化/闭图完成。私库08:48 pull到da37aafe414c2ec340d9686d8cfdb89ebd7217c3，README空diff，QUEUE仍本会话；日志按字节归档04守大小规则。
+
+- 2026-11-28 08:51 UTC｜Astra-held10-7c4e33ee-20261128：修复原QR日志包装 result→apply→result 环，独立v2保原数值核心。真M16/43087维原J上原/包装方向逐位同、原线性残差1.06667e−20，禁用循环GC后旧factor即时释放；不把此结构归因为已发生的-9/137。见[记录](notes/2026-11-28-block-qr-acyclic-actual-m16.md)。私库pull时间按实际reflog校正为08:48:44 UTC。
+
+- 2026-11-28 08:53 UTC｜Astra-held10-7c4e33ee-20261128：[M32恢复初猜](notes/2026-11-28-analytic-fixed-support-m32-recovery-initializer.md)真保97状态/32参数/原1032已接受节点，1272中点推得1273节点仅未接受初猜；原BC6.08024e−6未门。独立v2实际prepared后停资源gate，旧已绑定入口原字节恢复，未作新BVP接受。
+
+- 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[λ.128/M40完整割线进程](notes/2026-11-28-design-lambda128-process-interruption.json)在第一完整QR方向返回后child−9，无raw/physical/audit；终止原因未知，不能判数学失败。旧控制器已自动分到.096，活算保持，其下一次启动前有显式目录屏障。独立后继不会用信号/MemoryError作λ二分。
+
+- 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[真M40解析δ适配](notes/2026-11-28-design-analytical-delta-adapter-m40.json)16真实节点全121×161列：RHS/dy/其余参数列逐位同，δ列相对FD差7.866e−10；[V5完整加载](notes/2026-11-28-design-v5-loader-probe-m40.json)952节点初始域真过、22.56s/510832KiB，无BVP/J/factor。新入口保完整nodal快照和资源退出，未来显式选择独立无环QR v2；不称新Newton已通过。
+
+- 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[完整literal方向方程](notes/2026-11-28-tail-literal-jvp-structure.md)保δL0与全部K+2分量。[真M16/36896未知预条件实测](notes/2026-11-28-tail-gmres-preconditioner-actual.md)：零背景块原native5段核数值差0，但完整系统200步停滞；实际±4模带P且完整A不删项14步info0，真实LD残差5.73164e−9。P依赖已付完整J，不称新native或非线性接受。
+
+- 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[18完整着色方向P](notes/2026-11-28-tail-colored-preconditioner-actual.md)明确保远同色混入，仅P近似，完整A及全部边界不变。前两次info3/真实残差不门原样保留；一轮完整真残差纠正后1.29729210893e−9、backward6.7661e−28，总60次完整A。仅原保存J代数探针，非新native/非线性尾。
+
+- 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[全尾高模边界只读审查](notes/2026-11-28-tail-native-high-mode-boundary-audit.md)定位C++/wire/活periodic及relative的M≤64守卫，完整维数实为动态。未来独立扩展须保九blob几何缓存和新真实manifest；M80完整wire240454744B不等于峰RAM。未改production、未求高M尾。
+
+- 2026-11-28 08:55 UTC｜Astra-held10-7c4e33ee-20261128：[缓存native完整方向五真段](notes/2026-11-28-tail-cached-native-directions-actual.md)中原fullJ/state与production字节同；80位缓存复用不再root。单方向逐项尺度差≤2.53e−18；18色/单位列部分极小交叉项严格相对门失败，首次exit1及all_strict=false完整保留。当前M16的18色+60matvec未有整求解提速实证，生产链不变。
+
+- 2026-11-28 08:55 UTC｜Astra-held10-7c4e33ee-20261128：复核[旧v5原加性δ入口](notes/2026-11-26-v5-original-delta-phase-design-entry.md)，H的旧链标题改为warm/phase并明确v2–v4固定δ、v5 fixed=False释放δ设计；避免把设计返回误作同g精化。旧.003/.0025失败与接受锚不变，不重新跑已登记低λ输入。
+
+- 2026-11-28 08:58 UTC｜Astra-held10-7c4e33ee-20261128：[.096/M40实际进程−9及屏障](notes/2026-11-28-design-lambda096-process-interruption-and-barrier.json)已核15个来源/输入hash。无raw/physical/audit，最后第一mesh打印RMS1.04e−6、BC7.00e−11不作验收；oom计数3→5无PID归因。父控制器session20668真实exit1，后继初猜在预设EEXIST屏障前停止，所有设计大J释放；analytic同一prepared M32进程已原子开gate续算，未重做初猜。下一设计真.032/.064→.128，不把资源终止当数学二分依据。
+
+- 2026-11-28 09:05 UTC｜Astra-held10-7c4e33ee-20261128：[新闭图完整cut合同](notes/2026-11-28-analytic-complete-cut-target-contract.md)只读核10源hash：保prefix/tail频率并集、T0高度零模Z精确抵消、A1/A2零模保留、ap/app为R58实表达式，角3不能调用旧只到角2的helper。物理R背景保持时r(R)只重参扰动，近cut尾不得自动继承旧stage界。reader仅补数学定义docstring，无数值改动；新的cut区间代码仍待输入/复核，不称新证书。M32原第1轮RMS未门已自适应到1497节点，继续原门。
+
+- 2026-11-28 09:10 UTC｜Astra-held10-7c4e33ee-20261128：[严格完整响应复用预检](notes/2026-11-28-tail-exact-response-memo-preflight.md)真核E与后继完整config/native来源，仅两执行路径可不同；当前未完E被明确拒绝，未重算或正向复用。完整H/J/audit字节一致才复用原包并独立标注，否则原client。真coupled适配保actual-tail flags及最终physical H独立绑定；其入口逐字节迁到独立v3，v2恢复已绑定cut合同源，见[迁移记录](notes/2026-11-28-tail-exact-response-memo-migration.json)。新入口尚无全H/outer/闭图接受。
+
+- 2026-11-28 09:13 UTC｜Astra-held10-7c4e33ee-20261128：[完整cut区间入口](notes/2026-11-28-new-prefix-cut-interval-entry.md)保全部频率/实数R58 chart factors/零模和三jet，只在同图未改区域继承经精确cover核对的R73/R74。新strip同时核metric和有理123/10几何门。独立75位7080个构造数据包含检查真过，源码载入/返回SHA同；未有真实fullH bundle/构造器正向证书，不能算闭图完成。
+
+- 2026-11-28 09:27 UTC｜Astra-held10-7c4e33ee-20261128：[E第二个cached-J方向](notes/2026-11-28-tail-fullheight-rejected-chord-direction.md)十次完整原回溯均拒，真实可恢复merit下界全部高于16689.07937基点，末次16713.51569；累计state native2170.627s。node0未保存，诚实记下界而非全norm。E未改源/未中断，自然进入0014完整freshJ；前条已独立推送，本条补H/log登记，不判全H失败。
+
+- 2026-11-28 09:29 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32恢复v2再次exit137](notes/2026-11-28-analytic-fixed-support-m32-recovery-interrupted.md)，3完整QR/14solve、1497节点仍无最后RMS/raw/physical/audit；峰2756464KiB，具体终止原因未证。完整1497×97节点状态/p32/pscale31保留SHA5a28d53f…，未接受；后继保真nodal，不重做中点推断，先完成低临时全CSC装配验证。
+
+- 2026-11-28 09:30 UTC｜Astra-held10-7c4e33ee-20261128：[同一真M16完整A的26seed探针](notes/2026-11-28-tail-colored-period13-actual.md)原36896未知/全部边界未删，12 inner/13完整A产品、info0，真残差2.71131e−9及backward门过；P仍含远模混入不称精确近带。旧18seed60产品不重跑。只是保存A上的线性探针，不是新尾接受或M24迭代数结论。
+
+- 2026-11-28 09:31 UTC｜Astra-held10-7c4e33ee-20261128：[26seed候选在真M24三段的实测成本](notes/2026-11-28-tail-cached-period13-m24-cost.md)为原fullJ的1.597985倍，峰67596KiB；13完整单向仅为成本输入，不声称实际M24 GMRES步数。原fullJ/state重放字节同，方向严格逐分量门仍未全过如实保留；当前无收益，优化停止并保持生产链原样，E原freshJ继续。
+
+- 2026-11-28 09:33 UTC｜Astra-held10-7c4e33ee-20261128：[近cut真实R58背景界](notes/2026-11-28-nearcut-true-background-bounds.md)实际512外向source盒，4完整相邻片严格覆盖[.3−literal.02,.3]；W<.109、W1<361、W2<3217025708（w_R连续的一侧/a.e.导数），40.602s。归一化原证明复用、未采样缓存替换，源分割准确无隙；完整报告d93273ca…，尚非实际尾重参metric证书。
+
+- 2026-11-28 09:36 UTC｜Astra-held10-7c4e33ee-20261128：[R75逆图背景差](results/R75-inverse-radius-background-only-tail-transfer.md)逐式复核完成，原证明/背景/kernel/reader全部SHA吻合；只在真实旧域J使用完整V，物理g拉回比单独支付，K坐标不变不额外放大。w_R一侧/a.e.界经连续分片绝对连续给Lipschitz；512盒真背景输入已付。尚待实际fullH完整旧尾证书/cut误差代入，无闭族接受。
+
+- 2026-11-28 09:38 UTC｜Astra-held10-7c4e33ee-20261128：[完整原CSC低临时装配](notes/2026-11-28-design-complete-csc-assembly-bitwise.md)真64191维/10912470项与原及历史保存矩阵 data/indices/indptr 逐位同，连NPZ SHA亦同28abf787…；原prepare_sys实际安装及dp_middle原位副作用核同。66.19s/810204KiB是对照峰，非M48生产峰保证；所有列/边界/显式零保留，原门不变。
+
+- 2026-11-28 09:41 UTC｜Astra-held10-7c4e33ee-20261128：公共实际pull到ca8909e6b21d2ac6a5e373887dda5d01d0ede954后只读根README新增§16差异（题README无变），今后spawn显式gpt-6.2-astra/ultra；所有活代理已通知，已有计算不中断。私库09:38实际pull到9c43b937fc9b5776c3f997bcbf6d3f84ddc823cf，同条差异已读，QUEUE仍本会话进行中；H锚改称已读锚以免把真实变更写成空diff。
+
+- 2026-11-28 09:44 UTC｜Astra-held10-7c4e33ee-20261128：[完整QR逐行诊断](notes/2026-11-28-block-qr-streamed-diagnostics-actual-m16.md)真43087维原J上方向/完整backward分母/inf norm/全部stats逐位同，_apply/_solve源同，保原真残差与纠正门；M16少常驻55523204B，独立v2核心及v3 wrapper不改旧源。私库最近pull时间按真实reflog校正为09:40:12 UTC（此前记录09:38是手填时间偏差），SHA和已读新规不变。
+
+- 2026-11-28 09:45 UTC｜Astra-held10-7c4e33ee-20261128：[真1497节点M32初猜恢复](notes/2026-11-28-analytic-fixed-support-m32-nodal-initializer.md)已返回，x/y/p/pscale导入-保存-重读逐位同，原节点/chart breaks未变；只以原RHS构造Hermite，BC7.40405e−9仅诊断，无J/无Newton/未接受。22.444s/393172KiB；新独立driver准备后续原门，M24仍唯一fixed-g接受锚。
+
+- 2026-11-28 09:47 UTC｜Astra-held10-7c4e33ee-20261128：[两真源完整M48割线](notes/2026-11-28-analytic-both-source-m48-secant.md)已实际生成952×145状态/p48，λ.032/.064各自先保完整core lift升阶再全未知割线，β2；不以失败进程作接受锚。原参考六jet检查各102×4640，仅初猜；δ预测.06412892684644424、initial SHA36ffb0fa…，目标mean2320仍须原BVP/metric支付。跳过旧已知.128/M40谱门失败，直接恢复M48。
+
+- 2026-11-28 09:53 UTC｜Astra-held10-7c4e33ee-20261128：[M32独立v3 prepare-only](notes/2026-11-28-analytic-fixed-support-m32-v3-prepared.md)真exit0、88.001s/451740KiB，1497原x/y/p/scale逐位同；原RHS/固定q-δ-Flow语义核过，无完整J/无BVP。原接受driver与旧v2 SHA不动；后继必须仍付原RMS/BC/metric，准备不作接受。
+
+- 2026-11-28 09:56 UTC｜Astra-held10-7c4e33ee-20261128：[当前D/E同背景literal切口半径](notes/2026-11-28-tail-literal-cut-radius-identity.md)逐来源取Q核c=Rc=5404319552844595/18014398509481984，准确差0，未钳半径、未按十进制3/10替换。只是已保存profile/metadata/输入与R58定义观察；真正fullH bundle还须绑定这一端点，届时重参全带恒等，原完整尾metric/几何仍须支付。
+
+- 2026-11-28 09:58 UTC｜Astra-held10-7c4e33ee-20261128：[M48交接竞态](notes/2026-11-28-design-m48-nodal-interrupt-race.md)如实记：节点门已自动放行、偏导J已开始后，复核断言失败却继续Ctrl-C致exit130；工程调度失误，非数学/资源失败。无完整factor/接受Newton步，真实952×145 nodal cfac9922…保全，后继独立CSR直接消费它，原门不变；控制动作今后必须受同次成功复核条件约束。
+
+- 2026-11-28 10:02 UTC｜Astra-held10-7c4e33ee-20261128：[完整直接CSR+共享QR](notes/2026-11-28-design-complete-csr-assembly-qr-bitwise.md)真M24全J及历史矩阵逐位同，原prepare_sys与dp_middle副作用同，完整QR方向/stats同，原残差2.34639e−21；66.49s/803424KiB。新M48入口逐字面恢复真nodal cfac9922…，原域真过并放行首J；后继原线搜索/所有验收继续，不改物理问题。
+
+- 2026-11-28 10:08 UTC｜Astra-held10-7c4e33ee-20261128：[首真.128/M48全方向](notes/2026-11-28-design-csr-m48-first-direction.json)原138088未知/46673744项CSR、完整QR实际返回，factor693709000B；原normwise backward1.16023e−28不是绝对残差，componentwise1如实保留。首方向峰1644144KiB，后继保factor的RHS/Flow线搜索回评峰又到2270564KiB，预算只是估计；当前原算继续。下一.192前已预留工程屏障供真.128接受后M32窗口，不截断当前求解。
+
+- 2026-11-28 10:13 UTC｜Astra-held10-7c4e33ee-20261128：[完整真实尾半径恒等入口](notes/2026-11-28-analytic-complete-tail-radius-identity-entry.md)区分原设计raw H与真正coupled最终physical H，严格绑定同一factor-one packet、全stage完整谱/公共二jet/未重置mean及R58定义。真D/M24半幅包在新unscaled门与原factor-one门均被正确拒绝，.081599s/32524KiB；没有伪造正向bundle，半径恒等正向及全尾证书仍待。E原fresh0020已于10:09:22 UTC返回，iteration5真实global norm9405.507142959419，完整请求仍未验收。
+
+- 2026-11-28 10:15 UTC｜Astra-held10-7c4e33ee-20261128：[真coupled连续证书入口](notes/2026-11-28-analytic-coupled-continuous-entry.md)四phase保原区间公式/证明循环，独立真实coupled门和最终physical H绑定；目标g与物理SHA取当前返回，所有报告继承完整同场来源，不借E/R73/R74数字。原main仅2/2/1/3处唯一入口替换已编译，真实linear来源作明确错误summary角色被原门拒绝；尚无正向coupled/连续证书。上一条手填10:16晚于实际提交时间，按提交10:13 UTC校正，数学记录不变。
+
+- 2026-11-28 10:16 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32 v4准备入口](notes/2026-11-28-analytic-fixed-support-m32-v4-prepared.md)只把已核原complete CSC/QR换为已核完整CSR+streaming QR；1497原nodal初猜沿v3实际准备复用，不再做一次prepare-only。root逐行核v3→v4差异，原物理δ/λ/q-gauge/warp/mean1168及全部原门不变，仍未启动大J/未有M32接受。等待设计真.128/M48与下一尝试屏障后独立窗口。E原0021全步长已于10:14:57 UTC接受，iter6真实global norm73.300366222588，非最终验收。
+
+- 2026-11-28 10:27 UTC｜Astra-held10-7c4e33ee-20261128：[真完整图多个t网格入口](notes/2026-11-28-actual-closed-mesh-entry.md)已编译/CLI实际过、独立逐式审核：保持原完整源与全H/全谱/最终physical H，held默认严格λ1，R54刚体校正符号正确，R67帽不截谐波。所有mesh用同一闭球面环拓扑、double坐标、严格<5,000,000B；尚无真bundle故未正向导出/未付几何门。私库10:25:58 UTC实际pull到23bad9a0e36d5f4fd968ca8f0ee3b3fb9bca504d，双README空diff、QUEUE仍本会话。E iter7真norm3.78039247，后继0024原freshJ继续。
+
+- 2026-11-28 10:29 UTC｜Astra-held10-7c4e33ee-20261128：修正网格入口说明中写入字符串把 LaTeX alpha 转为控制字符的排版错误；公式恢复正常源文本，执行源码 SHA/数学定义/已完成检查均未改变。
+
+- 2026-11-28 10:36 UTC｜Astra-held10-7c4e33ee-20261128：[M48完整CSR路线实际中断](notes/2026-11-28-design-csr-m48-process-interruption.json)已核21个真实源/输入SHA：parent exit3、child−9，四完整J/QR返回后原回评中断，未有raw/physical/audit/RMS；全局OOM计数9无本进程归因。末952×145 nodal e889dd15…、δ.06412830429882212仅未接受状态，不能以接近旧标量替代验收。没有λ二分，后继从该真节点续。M32v4已获释放窗口真启动，原1497初猜与固定g不变。root另在10:30启动真.064/M40完整连续geometry，未返、不搬R73数字。
+
+- 2026-11-28 10:38 UTC｜Astra-held10-7c4e33ee-20261128：[实际binary核心曲率预算](notes/2026-11-28-analytic-binary-core-curvature-held-budget.md)以k=3602879701896397/18014398509481984代入已证R54公式，完全Fraction核Hdiam>.5397、整像held>.2953；配条件D≤2.69004/reach≥10/123，三比例仍严格过原门。没有把k冒作准确1/5，没有重证R54/R67，更无真λ1输入/完成声明。M32v4发生日志字段seconds冲突exit1，无factor/方向；独立v5仅修日志并继续同1497原状态。
+
+- 2026-11-28 10:42 UTC｜Astra-held10-7c4e33ee-20261128：[R76真λ.064/M40新图连续几何](results/R76-lambda064-cartesian-prefix-continuous-geometry.md)完整1017×1024盒真返、零失败，support>.6237、radius<1.1903、area>.2975；同场有理后处理支付12.3浮点阈值差并得准确K≤123/10，正PSD余量已保存。全部9源码与真实run/physical/定义数组hash核同，456.276s；未附尾/cut、未给新连续metric或λ1。下一步继续该图连续metric和主设计/全尾。
+
+- 2026-11-28 10:48 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32 v4真实日志异常与v5续算](notes/2026-11-28-analytic-fixed-support-m32-v4-log-error-v5-resume.md)核完11个唯一不可变来源/hash：v4两组原节点/中点J已返，但CSR日志seconds键冲突在factor前exit1；不是数学失败。新v5仅将完整assembly字段嵌套，真实已存M48日志回放通过；1497原nodal/固定g/mean1168/所有门不动，首完整145241维CSR与原QR方向已真返，仍待BVP/RMS/metric终态。E iter10原全局norm3.78995725e−9，仍略高于原门，完整最终J/audit未省。
+
+- 2026-11-28 10:50 UTC｜Astra-held10-7c4e33ee-20261128：[原异常路径Flow生命周期修复](notes/2026-11-28-design-exception-safe-flow-lifecycle.md)实核15个不变源/输入SHA：真M16七节点两种batch路径RHS/全部dy/dp逐位同；明确未接受扰动触发原Frenet守卫，禁自动GC的weakref探针复现旧Flow/core滞留，finally收集后释放且异常type/message同。5.192s/159180KiB，无全J/BVP步；不能归因实际−9。旧源冻结，后继M48仍须原节点状态/全部门。
+
+- 2026-11-28 10:54 UTC｜Astra-held10-7c4e33ee-20261128：[M48 ordinal4完整恢复链与全阶段预算](notes/2026-11-28-design-csr-nodal-recovery-phase-budget.md)已核17个不变源/输入SHA，两级run/raw/journal/literal来源链实际过；真952×145 e889dd15…为新输入，旧割线仅来源。预算新增完整CSR/QR持有时原线搜索/核心评估重叠，参考总量2464.95MiB另留512MiB，非峰保证/−9原因。新入口编译/help已过，无额外J或BVP；M32v5真实child−9后窗口已转设计。前条手填时间改按真实提交10:50 UTC，数学记录不变。
+
+- 2026-11-28 10:58 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32 v5真实signal9终态](notes/2026-11-28-analytic-fixed-support-m32-v5-signal9.md)实际child−9/638.239s、两完整CSR/QR/六solve，无外层RMS/raw/physical/audit；6个不可变来源SHA已核。更新后1497真nodal dedd80ae…保全，最大原J残差1.84717e−18不替验收；fixed=True实际持同一个Flow，不搬design垃圾环为原因。另仅将逐字节同的冻结历史M24 J/直接CSC硬链去重，双路径与SHA28abf787…不变、实际释放82255872B，未删证据或触碰活E。真.064三jet角表已返并核十组定义数组同R76，连续metric真启动。
+
+- 2026-11-28 11:07 UTC｜Astra-held10-7c4e33ee-20261128：[M48 ordinal4真恢复并放行首J](notes/2026-11-28-design-lifecycle-m48-actual-entry.json)实核27个冻结源/输入及3个真实日志行SHA：新首nodal整NPZ仍e889dd15…，原初始域107.179s过；资源门真实wait0/15/30后在MemAvailable3127.40MiB满足需新增2796.24MiB时放行，非降低门。session63285原完整J继续，下次secant/transfer屏障保留；尚无RMS/raw/接受。root另查真.064连续metric首cell失败仅在角余项，正在独立角格细化。
+
+- 2026-11-28 11:15 UTC｜Astra-held10-7c4e33ee-20261128：[M48生命周期后继真实中断](notes/2026-11-28-design-lifecycle-m48-process-interruption.json)核23个不可变源/输入：完整46673744项CSR及首QR已返，首solve尚无返回即child−9，最大可得RSS1641524KiB不冒称终止峰；没有新线搜索、raw/RMS或接受。真旧ordinal4整nodal e889dd15…仍保，原资源门确曾通过；全局OOM计数10→12无PID对应，不作数学失败或已证原因。停止同内存布局盲重试，转完整CSR/QR磁盘映射实核。私库11:14:29 UTC实际pull到465ccb337713bcd3c53c6c14abe4cdd13b30ba18，双README空diff、QUEUE仍本会话。
+
+- 2026-11-28 11:18 UTC｜Astra-held10-7c4e33ee-20261128：[固定g同分组finally核](notes/2026-11-28-analytic-fixed-support-exception-safe-batches.md)核11个不可变SHA，root另从真实输出NPZ逐字节比较RHS/全部dy/dp（含signed zero）一致。首次7→3/3/1分组断言失败及后继实测差均保留：dy max2.32831e−9、相对5.69538e−15，不能声称改batch逐位同。fixed=True只有一活Flow，本检查两finally收0对象，非signal9原因证明；无全J/BVP。
+
+- 2026-11-28 11:20 UTC｜Astra-held10-7c4e33ee-20261128：[固定g最新dedd节点原RHS恢复](notes/2026-11-28-analytic-fixed-support-updated-nodal-recovery.md)真exit0/18.228s/387708KiB，无J。root核14个不可变绑定及完整x/y/p/pscale原字节，1497全节点不变，新initial SHA8c4305b8…；原64分组RHS仅定义Hermite导数，BC7.25804e−9只是初猜诊断。真实v5父247/child−9及完整接受M24来源链保真，不冒作旧exit137或新接受；后继资源入口等待映射存储。
+
+- 2026-11-28 11:22 UTC｜Astra-held10-7c4e33ee-20261128：[真单ULP完整未接受初猜](notes/2026-11-28-tail-one-ulp-initializer.md)从真实0027保55295个下游分量，node86/Pi12上调准确2^-43；node0明示新定义，不冒称旧数据。只重算唯一受影响stage85原native 0.927923s；其余1151段全部输入/header/源/runtime字节同后复用原输出。root独立审原Engine/VFConfig/CLI及66传递绑定；完整55344行原norm3.65237709e−10已含node0/H/deep，尚无原完整freshJ/heightJ/audit或接受包。旧E后来真实Node−9、主exit1，无自动归因，后继继续原worker全门。
+
+## 2026-11-28 11:28 UTC — 同一 λ=.064 场的实际角表细化
+
+原1536角格连续metric首cell因角包络未证，实际3072格细化已返回155.069s；全盒和旧点逐位继承，仅1536新点原算，十一组定义数组同图。原完整metric继续运行，尚无接受结论。见 [记录](notes/2026-11-28-lambda064-same-field-angular-refinement.md)。
+
+## 2026-11-28 11:30 UTC — 原 E 工程退出后实际启动完整 ULP 恢复
+
+原 E worker 真−9，未出接受包，原因未知；新TTY19975已用唯一完整ULP初猜发出原freshJ/heightJ/audit请求，新旧config仅checkpoint/trace路径不同，实际wire下游55296分量逐位同。root核13个直接不可变绑定；全部验收仍待实际返回。见 [记录](notes/2026-11-28-tail-E-engineering-exit-and-ulp-restart.md)。
+
+## 2026-11-28 11:32 UTC — 完整 QR factor-only 映射真 M16 等价核过
+
+同已存43087维完整J的一次实际比较，解方向/每个后向分母/完整原J残差数组/CSR hash/全部原统计逐位同，原残差1.06667e−20。3514数组全部映射，GC禁用即释放；实测RSS223657984→112631808B，7.080s，构造峰不降。root完整读源并核7个直接绑定，不额外重复测试。见 [记录](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)。
+
+## 2026-11-28 11:34 UTC — 固定 g v6 完整预算仅准备，RAM 后继未启动
+
+原64/32批、1497点最新8c43完整初猜、全部原方程/门保持。逐mesh pre-J与有因子原RHS/solve预算源及8唯一原入口替换编译已核；没有实际模型/J/BVP，RAM路径明确不启动，改由独立已核factor-only存储后继。root读源并核12个输入/依赖绑定。见 [记录](notes/2026-11-28-analytic-fixed-support-v6-updated-nodal-budget-prepared.md)。
+
+## 2026-11-28 11:39 UTC — 真 M24/N512 fullH 原完整响应返回
+
+原iteration0 freshJ、全部1152段/55344未知、1776项heightJ及audit实际返；residual3.652377088977401e−10，packet81f6eb0f…，全state/J hash与audit全字段经root核。13个直接绑定通过；normalizedFullDefect1.96429e−5不隐藏、不充连续证书。继续全谱几何/原耦合，λ1与闭图未完成。见 [记录](notes/2026-11-28-tail-actual-complete-fullH.md)。
+
+## 2026-11-28 11:45 UTC — 同图三阶活动矩的完整连续入口
+
+已审原field闭包保全部mean/core/center/可选cut，D2三jet支付径向中点与周期角梯形的连续误差；完整域重新合并，不能把cut条带当整前缀。独立原/真coupled门，R6/R67不重证；准备记录不冒称积分，实际.064/M40/N3072积分随后已启动session95838，返回结果另记。见 [说明](notes/2026-11-28-analytic-cartesian-third-activity-moment-entry.md)。
+
+## 2026-11-28 11:53 UTC — 原 .064 连续 metric 真137，1328已付叶保全
+
+实际session50156工具返回137/Killed，原因未证，不作数学失败。实际JSONL比周期summary多24叶；1328全叶正长/精确相邻/全界<99/1e8已核，仅覆盖到1.2738附近而非末端。后继只续未付DFS，不重算。见 [记录](notes/2026-11-28-lambda064-metric-interruption.md)。
+
+## 2026-11-28 11:57 UTC — 真 λ=.064 核的指定三阶矩严格正
+
+同真实M40/mean1936/完整3072角表，Re m3实区间[.19624607888949328,.19624855710066977]；严格有理98123/500000<m3<196249/1000000，经root exact Fraction及24源/输入绑定复核。核的完整连续积分已返，不冒充全前缀或δE；同一父prefix积分随后工程−9，最后640格累计将独立续算。见 [结论](notes/2026-11-28-analytic-lambda064-core-third-moment-positive.md)。
+
+## 2026-11-28 12:06 UTC — R77：同一 .064 场完整连续 metric 真完成
+
+精确继承1328旧叶，原enclose只续107次、2split/105新叶，92.332s返回1433完整叶；全角/全phase上界精确<98773/1e11<99/1e8。root复核全叶Fraction单覆、旧前缀字节、11源hash及R76同图绑定；全前缀/桥已付，尾/cut/闭图/λ1未付。见 [R77](results/R77-lambda064-same-cartesian-prefix-continuous-metric.md)。
+
+## 2026-11-28 12:19 UTC — 新真 fullH 首段完整有限谱连续界
+
+原stage0流水线真实13.757s返回，170 planar+25 height全谱，metric上界3.59999724518074e−8、K上界8.177308001953627，两原门通过。root复核23个源/输入/输出SHA；证书仅stage0，完整尾/闭图仍欠。179636KiB是真child rusage，失覆的/proc sampler不能作总峰界。全尾分批保既付段继续。私库12:11:39UTC实际pull至df5208252bd9dd6cfb6445da7423aecd77f63142，双README空diff、QUEUE仍本会话。见 [记录](notes/2026-11-28-tail-actual-fullH-stage0.md)。
+
+## 2026-11-28 12:21 UTC — M48 完整因子映射恢复合同已审，实际未启动
+
+root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层真来源不变，factor-only保完整原CSR/QR、原方向和验收。只有真实页释放成功才给冷RHS预算；RssAnon信用不含可回收映射页，实际磁盘预分配、逐mesh门和joined-child唯一临时backing清理均保留。本地盘不够1198.68MiB而未启动，不重试匿名布局。见 [准备](notes/2026-11-28-design-mapped-recovery-preparation.md)。
+
+## 2026-11-28 12:26 UTC — 冷旧 E 的完整科学字节无损归档
+
+60份真已终止native二进制逐份完整解压/SHA/原stat核同后才替换，原485211696B→gzip324179721B，实释160993280B。新F与当前流水线不依赖被归档旧根；源/JSON/config/checkpoint均未改。后继29input的XOR格式另记，不用旧gzip路径冒作现存。源、实际终态与完整journal SHA经root核；见 [记录](notes/2026-11-28-tail-frozen-native-lossless-gzip.md)。
+
+## 2026-11-28 12:28 UTC — 旧 E input 的独立 XOR 字节归档实际完成
+
+29份旧input以永久独立static-template为base，逐份落盘后解码并与完整原字节/SHA核同；新ready manifest持久后才移除旧gzip。210929851B旧gzip→13681701B delta，实释197226496B。root核5个直接绑定，analytic独立只读审恢复/原子记录和根范围；新F与旧output均未改。原journal保持历史，输入须改用新manifest的明确恢复入口。见 [记录](notes/2026-11-28-tail-lossless-xor-storage.md)。
+
+## 2026-11-28 12:31 UTC — 原几何逐文件保护门与实际89段中断
+
+原stage0的summary逐字节继承，原完整谱/mean/二jet不重算。Node/Python真写入口增加本次完整字节+128MiB门，UTF8与256字节实际核同；原exporter真−9前保89段1151..1063，未触盘门，原因未证。root核12直接绑定，analytic独立只读确认原写入口实际被包住、数学算法未改；后继用原小chunk接续。H已压缩并原文保留详细快照，已登记事实未删除。见 [记录](notes/2026-11-28-tail-geometry-stream-disk-gate.md)。
+
+## 2026-11-28 12:37 UTC — Actions 同runner必要输入恢复与原design连续链准备
+
+依根README§13授权新增课题外 `.github/workflows/held10-design-mapped-20261128.yml`，用于同runner恢复静态70源/完整q与材料输入，再按原全部门推进λ1；不上传数组或证书。q/warp真割线、直接M32 bootstrap及全两源M40/M48初猜均经root和analytic审原API/门，无新BVP/dispatch。此v1保持历史来源，后继v2固定数值树、v3补owned-session清理；实际只运行最新入口。见 [准备](notes/2026-11-28-design-actions-continuation-prepared.md)。
+
+## 2026-11-28 12:41 UTC — 固定数值源码与控制pull分离
+
+新增课题外v2 workflow及对应worker/request/薄setup入口，因活数值代码不能随control main pull而混用新旧来源。真实pull后独立detached稀疏树绑定commit/tree和全部已检出文件SHA；全部setup/动态import/cwd/@REPO@均固定，控制树只核规则/读请求/terminal发布。root与analytic完整只读审过，无BVP/dispatch，旧v1未改。实际下一生命周期版接续此源隔离。见 [记录](notes/2026-11-28-design-actions-frozen-v2-prepared.md)。
+
+## 2026-11-28 12:43 UTC — 真实owned session身份保持至全部后代清理
+
+新增课题外v3 workflow对应worker及helper，修正v2先poll/reap后丢失孙进程身份的实际失败支路；WNOWAIT保leader PID/start/SID/UID，先对原PGID/同SID已核pidfd清理，再wait/reap。一次明确人工生命周期小核真exit0：正常分支无信号，故意孤儿新PGID/忽略TERM经TERM→KILL清除后保leader原退出7；不称数学事件。root完整审helper与v3差异；数值方程/冻结树/原门不变，尚未dispatch。见 [记录](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)。
+
+## 2026-11-28 12:49 UTC — 真λ1原7a返回的独立来源/几何/mesh/活动矩接线
+
+原7a支持M≤64、真实动态mean与完整fullH/J/audit/8outer；其真实字段不同于memo loader，不能改标签。root逐行审新接受合同并对照原7a执行/来源/physical绑定，另审5个几何/半径/闭图/mesh/积分差异；保原代数、全模、原尾/heldframe/拓扑/大小门。最终physical-H是唯一尾输入，raw H不能替代；六源只准备、无真λ1输入或新增数值测试。真正fixed-g actual-DN仍需独立模型/原门，不以design外迭代冒充。见 [来源入口](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)与 [mesh/矩接线](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)。
+
+## 2026-11-28 12:53 UTC — 同runner明确新冻结后继，保既有实际场与原来源
+
+真正7a固定g actual-DN后继需要新模型代码，首次冻结树不能静默变更。独立followup helper随首冻加入，未来v3唯一新request在旧session结束后明确给40hex源码/已读规则锚；独立公开partial clone，不触旧树，实核main/所选源双README空diff、detached完整文件manifest，原work全保。ORIGINAL_REPO与SOURCE_REPO显式区分，旧run不重标；原v3所有规则/会话/发布门不变。root读完整源及合同，只编译/CLI检查，无Git/BVP试运行。见 [准备](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)。
+
+### 2026-11-28 13:07 UTC — Astra-held10-7c4e33ee-20261128
+R78登记：同λ.064/M40/mean1936的1035格完整前缀三阶活动矩真返，严格1571879/10^7<A3p<1572603/10^7。640格真实累计+336个durable叶+59个本次叶精确接齐，原/core不重算；root47项来源和395行Fraction核验过。仅付前缀与两短柱候选，同场尾/cut、整闭图δE和λ1继续。私库13:05:52真pull daa55359，双README空diff、QUEUE保持本会话。
+
+发布更正：此前R78写出遇共享盘ENOSPC只留下0字节新文件；批命令缺失败即停导致发布器误续跑，形成82c217115的错误author/subject。已独立核该提交仅改本题HANDOFF一行规则锚，原a4aad5097及其它课题内容仍在历史中；不重写已推历史。本次明确补正记录，发布器现强制pull前后恰有一个本会话作者的未推提交，命令失败即停，防止再误amend。远端v3 POST403明确需actions=write，本workflow无run；没有改触发方式绕权限。
+
+### 2026-11-28 13:10 UTC — Astra-held10-7c4e33ee-20261128
+实际全1152段raw-H尾的半径恒等独立校验真exit0/14.684s，完整谱/同global mean/所有两jet及canonical index逐字核同。c与physical Rc精确同为5404319552844595/18014398509481984，所以r(R)=R、r′=1、r″=0；不是有限采样推理。root核同批26个实际来源/结果引用SHA。该结论仅同λ.002/factor1原raw-H场，不搬旧尾metric、不称8outer或完整闭族，继续全尾与cut。
+
+### 2026-11-28 13:18 UTC — Astra-held10-7c4e33ee-20261128
+原raw-H尾完整1152段共享C²定义已返回：全170平面/25高度模、18432 spans、1153边界及1151相邻两jet/原global mean全核。保stage0和105个已付段原字节，新1046段仅新增；177正常/2部分−9子过程保真实终态。SHA-bound sidecar列181组件/179真实anchor，补明原merge_maps旧construction文字的实际分批来源，不覆写原bundle。root26实际引用SHA核过；全尾连续界与8outer继续，有限定义不作完成。
+
+### 2026-11-28 13:22 UTC — Astra-held10-7c4e33ee-20261128
+同原raw-H场的.04/.01两个具体cut图已由真实点区间排除：归一Gram对角A分别严格>2.16109676798e−6及9.25717501942e−6，精确有理数核>1e−6；不把未证上界误作反例。原.04连续exit0但未证；点查询37durable行后的最后零判别式sqrt异常exit1如实留存，v2用已知平方和非负范围合法相交后仅执行新.01输入。已转.12新cut设计，135点返后正在付全连续门；g/H/mean/全谱不变，不降低目标。
+
+### 2026-11-28 13:28 UTC — Astra-held10-7c4e33ee-20261128
+真实w(R) Taylor与完整原Fourier合并证明已付stage16/24全部32 spans，向外max1.39307877051e−8/8.64304022735e−9，场/mean/H/g不变。原常数W特化四项exact fractions同；analytic独审链式w_RR、cusp一侧hull、锚误差及积分余项通过。v1未内联的selected-stage门对两实际输入另执行原完整验证并绑定原证书；root44引用/32叶精确单覆和有理门核过。通用v2另补门，不改活源。更正此前完整bundle摘要：实际28段有原exporter已有额外驻点，sum(nodes−1)=18460而非18432；源/所有实际校验未变。M48 13:13真启后13:23又−9，无新接受；.12cut首加载−9零叶，fresh资源门后正接续。
+
+### 2026-11-28 13:33 UTC — Astra-held10-7c4e33ee-20261128
+R79登记：同λ.002/M24/mean1168原raw-H场，width=.12的新cut82叶精确全覆，接同图R73/R74未改补集；full prefix metric≤1168706763786513/1180591620717411303424<99/1e8，support>.6445/radius<1.19001/K≤123/10。首加载−9零叶2.924s真留；fresh资源门后原冻结数学源父/子0、47.829s，未重算接受叶。root原source/SHA/补集与cut精确并集/每叶门及有理峰核过。只付这个实际修补前缀，尾placement/整闭图/λ1/固定g收敛继续。
+
+### 2026-11-28 13:50 UTC — Astra-held10-7c4e33ee-20261128
+完整CSR前置映射实际M16的43087维原矩阵逐位核通过：完整方向/分母/J残差/消零后三数组/原stats同，双store生命周期实测立即释放，6.256s/208540KiB；不算新BVP。M48 v6真实记录补齐：启动门先过，但30次pre-J门全拒，child−9前未执行J/QR/solve/Newton，e889原完整nodal保留，具体终止原因未知。继续CSR前置新执行路与λ1，不以资源失败排除数学支。
+
+### 2026-11-28 13:51 UTC — Astra-held10-7c4e33ee-20261128
+原1152段/18460 spans完整尾几何真实终态exit2，执行完成但原allocation未全过：metric已过17644、816上界待补；Kmax10.017503096且仅stage82内门10未过。真deep metric≤1.462e−29/K≤8.00001，原公共两jet接自身深盘与全尾平面投影单射已证。记录保原false，不作实际误差下界；同场Taylor只补原未付span，16/24既有32叶不重算。
+
+### 2026-11-28 13:54 UTC — Astra-held10-7c4e33ee-20261128
+R80登记：实际1152段/18460 spans+deep+平盘全尾绝对radius≤.9204371195066212、support≥.7710414327607057、K≤10.017503096013616；同R79 .12cut原点/全mean，真pole区间已绑定，ell=marker=0，TTY42675真实exit0。保stage82原K<10 false，原几何/背景积分零重算；全尾metric/帽柱/λ1继续。同时补全results索引漏列的R76–R79，只补导航，不重做旧结论。
+
+### 2026-11-28 13:57 UTC — Astra-held10-7c4e33ee-20261128
+实际.12 cut/ell.0025/正R67全谐波帽查询已真child0，28.316s/252480KiB；完整H/1152段索引同，42尾点有限。中央柱六jet比较确实执行，max2.731e−15，cut max5.290e−16，仅诊断不当连续证书；canonical marker为正，旧独立marker_strength=0未禁用它。保早期零柱查询/JSON longdouble失败链与纯显示修复；继续帽柱整图界及λ1。
+
+### 2026-11-28 14:05 UTC — Astra-held10-7c4e33ee-20261128
+完整CSR+factor的v7与仅CSR/匿名factor的v8执行入口已备，原同场e889四层来源全保、全方程/原门不改；v7估计RAM2129550892/disk1825948803B，v8RAM2617489608/disk1105909089B，均是预算不是已运行。唯一watcher真实exit130，35次未启任何BVP，已转低q新路径；没有资源失败的数学外推。私库14:00:45真pull6eec0d59，双README空diff/认领保持；H压缩保实际来源与新活进程。
+
+### 2026-11-28 14:11 UTC — Astra-held10-7c4e33ee-20261128
+q=warp=.012的原λ0 material exact-lift入口真exit0/31.732s，603点/M8、RMS9.79328e−7、metric1.13318e−8、physicalBC1.45060e−16，完整原门及源raw/physical已核。只取得新的合法小q材料种子，不算正λ或闭族；正λbootstrap已真运行。低q背景较弱，但固定k=.2引入独立O(λ)强迫，不能据O(q²)预称全λ低M。
+
+### 2026-11-28 14:12 UTC — Astra-held10-7c4e33ee-20261128
+小q012首正λ.002/M8真终态：原BVP收敛603→605点/RMS9.974585291e−7/BC1.16549e−18，5全步零拒，但metric8.201613463e−6>1e−6，原门未接受；2完整QR/131.987s/153972KiB。控制器保完整lift同λ升M，不降门，不以工程故障λ二分。该真实低M尝试被排除，续M16及后继。
+
+### 2026-11-28 14:12 UTC — Astra-held10-7c4e33ee-20261128
+同小q012 λ.002/M16真终态：615点/RMS9.97460053e−7，原metric2.06188220114e−6>1e−6，2完整QR/108.252s/284452KiB；不是接受场。完整原lift同λ自动升M24继续，没有降低门。当前尚未减少λ.002最低M，但实际615点少于q060旧879点，后续资源/谱收益仅看实算，不预判。
+
+### 2026-11-28 14:17 UTC — Astra-held10-7c4e33ee-20261128
+R81登记：实际同λ.002/.12图两个反射尾含1152段/18460 spans、deep和双平盘，投影真单射、r*≤.3001775548434044/Z≤.8701647193200611，完整复第三活动通量绝对值≤.0053322091642946075。只复用同场已付几何/高度，π取22/7有理上界，ell移位项与帽另列、不重算原积分。root同场修补前缀965格亦已实际返，现按真实字面柱长合成；全metric/λ1继续。
+
+### 2026-11-28 14:19 UTC — Astra-held10-7c4e33ee-20261128
+R82登记：同.12真实闭图、字面binary half=.0025、正R67全谐波帽，完整Cartesian接缝/逆角图二阶相消准确成立，全相位C²嵌入与C²时间连续；D≤2.3850166810388336/support≥.6420099883604928/K≤123/10，reach≥10/123及reach/D>.03408815。只复用同R79/R80与R23/R54/R67界，0.266s标量传递，无重原盒/积分；总ell与1/200区分，metric/δE/准确λ1和固定g收敛继续。
+
+### 2026-11-28 14:42:40 UTC — Astra-held10-7c4e33ee-20261128
+R83登记：同.12修补前缀完整965叶/1536角盒真实父子0、438.449s/242188KiB；接R81整尾及R82字面柱长，Re A3∈[.1392755359019308,.15002395770094334]，正帽/R67给完整E(3) δE>0。全部同源且未重原积分。执行环境随后unavailable，本地新发布未返，按根§8集成仅传小文本；两实际入口从断线前全文恢复且原SHA相同。尾79580最后61段、此后未知；设计无活子，DN watcher真exit1/ENOSPC且从未子启动。继续λ1/全metric/同g，不以环境故障宣称完成。
+
+### 2026-11-28 14:53:37 UTC — Astra-held10-7c4e33ee-20261128
+R85登记原完整Robin→真DN的准确rank≤M更新及fixed-g的25维联合兼容块，明确完整未知、缩放、gauge/physical q区别、字面chart合同和旧点J限制；8outer全残差剩余可直接由真实响应作差。纯代数证明与已读原源码，没有新J/BVP或χN数值；继续实际全端口方向/原门。终端仍unavailable，按§8小文本回退。
+
+### 2026-11-28 14:54:20 UTC — Astra-held10-7c4e33ee-20261128
+真实q=.012/λ=.002/M24接受补记：615节点、metric1.407536802e−7/RMS9.974606331e−7/physicalBC1.94201e−15，14:15:50UTC真exit0、80.272s、kernel峰518732KiB，run21d676daa…/raw3bc1c050…及完整原argv已保。断线后明确转录为新fallback记录，原JSON全文/未打印SHA不伪造；原M8/M16不重跑，无闭族或λ1声明。继续设计与原全DN。
+
+### 2026-11-28 14:55:15 UTC — Astra-held10-7c4e33ee-20261128
+真实q=.012/λ=.004/M24工程终态补记：原资源门自然通过后完整QR factor1/solve6，child−9/父3且14:21:24UTC所有后代真join，kernel峰524404KiB；无raw/RMS/metric，不归因OOM或512MiB配额。完整615×73 pre-J节点0fdf914d…保留；新RHS16/逐accepted-step保存后继从未spawn。fallback仅转录已实际返回的命令/hash/标量，继续新宽窗输入与λ1，不作数学排除。
+
+### 2026-11-28 15:00:34 UTC — Astra-held10-7c4e33ee-20261128
+R84登记同实际闭图的完整y/C3/z对称性与三阶全张量计数，准确指定端点I3差>7e−19，含反射不全等；已在functions V8对真实R83小记录作BigInt验证，没有重积分，未把张量差冒充Hausdorff数值界。私库14:59:55UTC因终端unavailable只能集成读main6bba30b9…；对14:00实际pull锚双README无变化、QUEUE仍本会话。继续λ1、全metric与同g精化。
+
+### 2026-11-28 15:01:43 UTC — Astra-held10-7c4e33ee-20261128
+保全实际尾metric storage_v3源b627b46f…（21213B，同真实运行逐字SHA）；原95938真exit130/491证据核同，79580真实复用60段及60/0后继续，最后确认61完整段，断线后状态未知。仅小写入合同为16MiB+实际长度，原geometry128MiB和metric1e−6门未改；原叶/数组未上传。新笔记明确是转录，不冒原673b9365字节；待环境恢复先读取真终态再接未付区间。
+
+### 2026-11-28 15:02:05 UTC — Astra-held10-7c4e33ee-20261128
+新三重b=.5物理设计的条件域已付：S=.5/k=.2不变，完整support A≤2/3给全λ核心κ<11.4；真q012锚的24个binary标量BigInt精确给A=.0990244194…<.1，对应κ<173/45。原R54握持扫窗/比例条件保留，完整BVP/闭图仍未跑；源为C4窗、β增长与R65端点核不忽略。配置/真实标量脚本已保存，先同b两λ锚再割线，旧b结果不冒新接受或同g精化。
+
+### 2026-11-28 15:10:34 UTC — Astra-held10-7c4e33ee-20261128
+R85补充已付完整回代残差恒等、逐列误差放大及literal小块有理逆验证合同；不由小块条件数猜完整微分逆。独立冷CSR逐列V入口仅准备，锁同c9c快照/64191全行，每列原J回代和fsync，无Flow/新J/尾；尚未compile/help/执行，旧wq也未保存不冒用。同步将R85展示公式改为双美元、数学不改；旧H全文保快照，压缩现H。
+
+- 2026-11-28 15:26 UTC｜Astra-held10-7c4e33ee-20261128：环境恢复后两库实际pull至public2c12a08a…/privateac231f1f…，双README空diff、QUEUE仍进行中；登记R86完整真圆盘新Fraction标记，原全几何预算不增、端点I3差准确51200倍且>3.59e−14，BigInt已真返回/Python未跑。旧79580返回码未知，持久记录确认62完整stage，从62继续；原apply_patch528实际写失败，无未登记成功文件。
+
+- 2026-11-28 15:28 UTC｜Astra-held10-7c4e33ee-20261128：登记较高k旧两级profile的真实有理筛除，k=.4/.5具体点的经向曲率平方>2500/9且传播仍在保护窗内；k=.45引用已登记R57，不重算。范围严格为原R5/C³经典支，转向R87新物理轮廓；上一恢复日志时间依实际进程校正为15:26。
+
+- 2026-11-28 15:32 UTC｜Astra-held10-7c4e33ee-20261128：登记R87真正更换首升速的六段单缓坡profile及全部准确标量预算；50 Bernstein盒、首圆片曲率与传播窗、条件H/held/reach都实际BigInt通过。保持原求解源/门，新Python校准首真扫未括根，继续新参数盒；同步修正文档数学定界符及对应实际proof hash，未改变旧数学结论。
+
+- 2026-11-28 15:33 UTC｜Astra-held10-7c4e33ee-20261128：登记R88完整证明：Steiner点控制任意平移，正支撑径向图控制真实体积对称差，给|ΔI3|≤16640d并含全部O(3)。原R84端点dE>4e−23、R86新盘>2e−18；准确Fraction源核同实际R82/R84/R86来源后真exit0，输出87f61048…，不重积分/配准/BVP，不把下界当实际幅度；继续真实λ1与全度量。
+
+- 2026-11-28 15:37 UTC｜Astra-held10-7c4e33ee-20261128：登记R87原Python/BackwardLine的第一次真实新profile校准，原δ=.063至.066五点全同号，3.7316s/80244KiB/exit2；原输入SHA与实际port小数字节全保，不把bracket失败当数学排除，不复算旧五点，向独立已证扩盒继续。
+
+- 2026-11-28 15:40 UTC｜Astra-held10-7c4e33ee-20261128：完整64191×24端口响应基真exit0/6.976s/401576KiB，24列hash全保、max原矩阵残差1.1990408666e−14；完整x/pscale逐位同但y/p不同，严格标旧点chord。componentwise backward error1.0保留，不冒逐分量或当前J逆证书。
+
+- 2026-11-28 15:40 UTC｜Astra-held10-7c4e33ee-20261128：全状态DN端口初猜真实exit0，完整mesh/尺度/原分量且same_point=false；literal小S准确Fraction η<1，全64191行port-only残差5.4210e−18。旧F_L与current-J差、域/BVP未付，不冒完整Newton；原未改generic8outer现真运行。
+
+- 2026-11-28 15:42 UTC｜Astra-held10-7c4e33ee-20261128：R87新输入独立扩到r≤23/20：实际50 Bernstein盒最小平方余量479382179005741/28656180000000000，改用完整上升高度界给支撑29733/304000>.087。旧盒/源码不改，不机械放宽标签；新root输入可在此范围继续。
+
+- 2026-11-28 15:42 UTC｜Astra-held10-7c4e33ee-20261128：原Python/BackwardLine新profile线性校准真exit0/4.4948s/81792KiB，δ=.06809451565377872、r=1.1349085942296453，core_z/core_R=−5.2781e−13；旧五点SHA缓存复用，只算新点。根在新已证盒内，尚非非圆BVP接受，接真实新profile λ0。
+
+- 2026-11-28 15:42 UTC｜Astra-held10-7c4e33ee-20261128：已存完整CSR→原CSC NPZ实际逐字重建82,251,436B，归档SHA及ZIP元数据全同；先持久manifest再释放两已核hardlink，真释放82,251,776B。原CSR SHA复核不变，未重组J/删除唯一raw/为演示再写大件；可逆存储，不是新数学计算。
+
+- 2026-11-28 15:43 UTC｜Astra-held10-7c4e33ee-20261128：旧79580返回码仍null，恢复实读62完整stage与526旧proof文件hash；独立v4保全部ancestor及leaf身份，从62继续原Taylor，发布快照86完整阶段。原time缺失exit127和seed顺序门exit1保留；修正CLI后47300真执行，不重算已付段，collector仅恢复源码未收总成功。
+
+- 2026-11-28 15:48 UTC｜Astra-held10-7c4e33ee-20261128：真实恢复并发布断线前完整fixed-actual-DN五源及其必要memory-budget依赖，原全部SHA核同；只有既有compile/help、零λ1/新模型/BVP返回。压缩H保全旧快照，并修正R87公式换行的纯排版字符和对应proof blob，数学不变。
+
+- 2026-11-28 15:49 UTC｜Astra-held10-7c4e33ee-20261128：发布原full-DN fixed-g新KIND的四个真实reader源，完整Cartesian/连续界/闭图/多t mesh消费最终physical-H。原源码SHA和依赖核同，仅旧compile/help、未有真λ1或自身KIND正返回；不改标签套旧场。
+
+- 2026-11-28 15:57 UTC｜Astra-held10-7c4e33ee-20261128：R86当前复现入口前向只修print/json flush位置，数学类AST实核同；session97179真实exit0，完整1152段node index原SHA同。R89旧首末行exit1与有效已写报告保留，新独立CLI真实exit0；未重算BVP/native/连续界，不改旧记录历史。
+
+- 2026-11-28 15:57 UTC｜Astra-held10-7c4e33ee-20261128：R89九叶完整准确Bernstein给单位帽1/15、4/5、17/2导数界，实际Fraction新ε为R86的35倍，原全图D/support/reach保持；原活动场不变，端点全E3 dE>7e−17。准确标量exit0和真实完整构造器exit0/原node SHA同；首CLI输出exit1诚实保留，独立正确CLI现可复现，不称整尾metric或λ1完成。
+
+- 2026-11-28 16:15 UTC｜Astra-held10-7c4e33ee-20261128：保全原accepted-Newton完整节点checkpoint及真实自有进程/cgroup/rlimit观察源；旧q012后继准备历史未倒改，新R87实际运行另逐条登记。原方程/全部变量/线搜索/RMS/metric门不变；私库本轮已实际pull到6c4bb67a…，双README无diff、QUEUE仍本会话进行中。
+
+- 2026-11-28 16:15 UTC｜Astra-held10-7c4e33ee-20261128：新R87 profile λ0/M8真全门exit0，580节点、RMS9.752325126e−7、metric2.159654640e−8、BC1.454e−16、mean512；δ=.06809573111069138，run601f7af1…/raw9ffcdaba…。原BackwardLine完整25状态初猜与实际输入源齐全，未称λ1或同g精化。
+
+- 2026-11-28 16:15 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.002/M8的RMS/BC过而metric2.674362813e−6>1e−6，真实未接受；完整raw仅供原升模初猜，不把谱门失败改成数学排除或λ二分。
+
+- 2026-11-28 16:16 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.002/M16真全门接受，580点、RMS9.873798726e−7、metric5.659974913e−8、BC4.5619e−14、mean784；run41350a33…/raw2ddf3fd9…。原完整lift六jet/全部状态与原接受门保留，继续同family正λ。
+
+- 2026-11-28 16:16 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.004/M16真全门接受，581点、RMS9.989113785e−7、metric1.038237326e−7，76.5818s/312236KiB；完整原source/raw/physical绑定见小记录，没有把设计阶段当同g精化。
+
+- 2026-11-28 16:17 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.008/M16真原全门接受，86.47s/5个原接受步/313256KiB；同时保全只读原run/raw/physical并用原accepted_original的记录源，不做J/BVP重跑，后续完整割线只取真实同family锚。
+
+- 2026-11-28 16:18 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.016/M16真全门接受，589点、RMS9.946888602e−7、metric3.240190382e−7、BC6.5126e−17、δ=.06809609467967725，134.11684s/11原接受步。原链之后的自有未来log屏障导致FileExists工程退出、.032未spawn；不作数学失败，已以真.008/.016全状态割线无重算续接。
+
+- 2026-11-28 16:18 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.032/M16真实metric1.653930529e−6未门，RMS/BC已过，596点/4全步；不误接受，完整节点和原cubic仅按原lift作M24初猜，保持同λ/同family。
+
+- 2026-11-28 16:19 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.032/M24真全门接受，596点、metric1.751917005e−7、RMS9.844208006e−7、BC6.9175e−15、mean1168、δ=.06809650472554993；run7b69996a…/raw20f0c993…，92.1855s/590796KiB，原2全步零拒。
+
+- 2026-11-28 16:19 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.064/M24真全门接受，612点、metric1.344900678e−7、RMS9.881570807e−7、BC2.5474e−19、mean1168、δ=.06809746515753923；run3c456ca9…/rawb368075c…，163.7143s/613732KiB。原跨M完整割线已真实接.128；无λ1或最终fixed-g声明。
+
+- 2026-11-28 16:36 UTC｜Astra-held10-7c4e33ee-20261128：R90真闭合原完整曲面全部相位metric≤9.97128585114805e−7。17644旧成功spans直接复用，816缺项由817同图Taylor叶补清，3122文件核同；v4/collector/R89传递真实exit0，原未知79580与K<10 false/audit保留。全几何与R89定量分离仍原范围，不称λ1/held10%/fixed-g完成。
+
+- 2026-11-28 16:38 UTC｜Astra-held10-7c4e33ee-20261128：R91完整准确证明已付：原扇区总曲率给β<897/314，R87核心支持盒从A≤2/3扩为8/9，全部λ曲率<3723/314且余348/785。原窗口/数值源码/实际接受门不变，Fraction入口真exit0，未重算字段或冒充完整曲面预算。
+
+- 2026-11-28 16:39 UTC｜Astra-held10-7c4e33ee-20261128：新R87同family λ.128/M24真原全门接受，642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、δ=.06809994441452687；run7f8bfa03…，208.065s/597644KiB。全部原状态/均值/来源保持，继续λ后继，不作fixed-g精化。
+
+- 2026-11-28 16:39 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.256/M24真实848点BVP/RMS/BC通过、metric8.841396910e−5未过，481.975s/690168KiB；run81bfd18c…、全raw5e6fe410…保留。原链真exit2 requires_more_modes，保.128接受锚；原场直接完整升M32，不重复M24或误作λ失败。
+
+- 2026-11-28 16:39 UTC｜Astra-held10-7c4e33ee-20261128：发布已闭metric-only场的窄升模续接源ff5b646b…：逐项核最后失败场/真接受锚/完整family/SHA后接原exact-lift，全部数学门与RAM门不变，增加真实256MiB盘余量。准备记录仅compile/help；其后89083已真实开始.256/M32，完整初猜与原Newton活算，尚无新接受。
+
+- 2026-11-28 16:40 UTC｜Astra-held10-7c4e33ee-20261128：完整q列、24V及固定δ的25维DN块真exit0/93.415s/444564KiB；原全部879/73/24变量保持，终端q列准确0，混合点χN=2.47108106147e−5。保F_L的完整仿射残差1.362e−18，literal行缩放小逆有Fraction证书；旧J/current-point差与物理尾非线性不冒付。
+
+- 2026-11-28 16:40 UTC｜Astra-held10-7c4e33ee-20261128：新固定δ/q_aux全64191方向的真实非线性prefix回评exit0/15.906s/252500KiB，原879节点域全部过；完整prefix+仿射DN残差.0010942→1.3981e−6，但RMS1.12325e−6/BC/物理终端均未门。未接受全状态初猜保留，未请求新native/新J或替换原generic；继续完整修正。
+
+- 2026-11-28 16:43 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.256/M32实际850点，RMS9.932427255e−7/物理BC2.6144e−19、mean1552；metric1.285843882e−6仍未门，419.998s/1145472KiB。完整场及6全步保留，原链已无重算升M40。私库再次实际pull至501598ec…，根/题README空diff、QUEUE认领保持。
+
+- 2026-11-28 16:44 UTC｜Astra-held10-7c4e33ee-20261128：完整冷尾证据五项无损存储真省数据block115298304B、manifest另占2420736B：E完整output XOR、同SHA node-index hardlink、angular返回永久gzip、两组2616已完proof JSON gzip。全部先完整恢复逐字节/SHA核同；stage94真写回restore也exit0。原科学输入、summary/map/mean/当前F全保，R90再核前依note完整restore，不重算证明。
+
+- 2026-11-28 16:44 UTC｜Astra-held10-7c4e33ee-20261128：旧q.06/M16验证J冷缓存实际释放37130240B，原完整节点/源/构造命令/残差/哈希全保，manifest先fsync。gzip近等长未留；明确可再生缓存删除而非已证逐字重建，不删当前M24 CSR/V/raw/fullH或活算输入。
+
+- 2026-11-28 16:44 UTC｜Astra-held10-7c4e33ee-20261128：两部分克隆真实sparse-index压缩后，仅已发布公库promisor pack作完整逐字SHA迁移到/tmp标准alternate，真释397721600B；manifest先写、全部loose/refs/index/worktree保留，实际后继pull/push正常。恢复方法明确，未触碰别人空间或科研输入，tmpfs占用纳入原真实RAM门。
+
+- 2026-11-28 16:52 UTC｜Astra-held10-7c4e33ee-20261128：原f6完整固定δ弦迭代3839真exit0/87.919s/602716KiB：1全步零拒，BC4.8714e−9、物理BC9.7428e−11、metric6.5390e−7过；只有867格RMS1.001564e−6未门。未接受，保完整原变量/q_aux，独立更严内圈已从真实返回续算；没有新J/native或改原最终门。
+
+- 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：发现并落实R87完整时间域接口：旧export硬编码9/20且握持guard只认旧k.2；新增显式Fraction phase-end/held-width和同一圆弧公式，R87准确4/5、27/50恢复13/100至67/100扫窗。原两类source门/fullH/全谱/拓扑/5MB保留，四源compile与两help真实0；无假场、网格或完成声明。
+
+- 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：保全断线前已准备的fixed-g v7完整factor-only映射及独有child清理源：旧1497节点/M32/mean1168初猜与方程未改，分阶段预算保匿名CSR/完整热solve，映射字节不作RSS信用。仅既有compile/声明替换，未执行模型/J/BVP或重复M16验证。
+
+- 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：保全断线前独立v8页释放提示检查及once launcher：成功原solve后必须观察helper已完成DONTNEED提示才进入相应预算，原solve异常不覆盖。原数值main逐字同v7，仅已做准备，未宣称v7实际失败或v8新BVP返回。
+
+- 2026-11-28 16:54 UTC｜Astra-held10-7c4e33ee-20261128：补存旧profile小q=.012/λ.002/M24的既有真实14:15返回：615点、RMS9.974606331e−7、metric1.407536802e−7、BC1.942e−15、真child0/518732KiB。只是已登记字段的小来源档案，不重算；原当时回q.06计划与现R87可选新g区分。
+
+- 2026-11-28 16:54 UTC｜Astra-held10-7c4e33ee-20261128：补存旧profile λ.004实际14:21中断：原资源门后factor1/solve6，child−9、controller3、kernel峰524404KiB且所有自有进程已join；无原raw/RMS/metric接受。615×73全pre-J状态保留，不把工程中断当数学失败或据末日志猜OOM。
+
+### 2026-11-28 17:27 UTC（恢复回执补记） — Astra-held10-7c4e33ee-20261128
+工作区视图改变后，旧scratch数组不可读；generic80294真exit1为observer ENOSPC且子码未知，design89083真exit1原因未知，未伪造新场。两库重新真partial/sparse恢复，公开7b9c693、私库0e3cbe262，双README相对各前锚均空diff，QUEUE仍本会话进行中。唯一新tail草稿先保留再逐字恢复；已推源/小记录恢复，原H完整归档。继续新R87严格容差与真λ1/DN/fixed-g，必要输入再生非新数学结论；见workspace-view-reset-and-recovery及generic终态回执。
+
+### 2026-11-28 17:28 UTC — Astra-held10-7c4e33ee-20261128
+补登旧R87 λ=.256/M40实际返回：952点、RMS9.691444491e−7、BC5.89278e−11、mean1936、δ=.06810713649643507；metric1.248439224e−6未门，未接受。M32→M40的metric平台与δ仅差1.94e−10给更严径向tol2e−7的实际理由，不称严格归因。原raw/physical/小JSON遗失，恢复文件保当时已读SHA并明示非逐字恢复，runSHA未知不补造；M48后继无接受，89083真exit1原因未知。继续R87必要输入恢复与严格tol完整设计，见M40 recovered-observation两件。上一恢复条的人工时间标签17:29更正为17:27补记，实际两库pull回执内容不变。
+
+### 2026-11-28 17:30 UTC — Astra-held10-7c4e33ee-20261128
+发布真实λ1完整QR-DN八源：原native4/chord3/全部H与freshJ/heightJ/audit/8outer不变，完整前缀CSR/QR/V5接线、实际argv/sidecar、最终physical-H与raw分列、真实mean和R87显式相位合同完整。八源与重置前SHA逐一相等，恢复后compile/7次help或import真0；此前真λ.128负向在native前拒绝的实际历史保留，不伪造已失原小报告字节。未有正向λ1/新尾/闭面，继续真设计；见tail-lambda-one-complete-qr-resource-entry两件。
+
+### 2026-11-28 17:31 UTC — Astra-held10-7c4e33ee-20261128
+发布fresh QR final-physical-H完整尾小块入口：原stage0后从内向外默认8段，真实全部谱/同global mean/每条公共两jet/全merge/index及原连续门不变，去掉旧输入专属raw-H/−9前提。两源compile/help真0，Python→Python→Node递归写门I/O probe真0、两256B输出逐字同；仅执行组织检查，无新尾/闭图。真终态未知不补造，已保存完整段可续、原失败不改。新R87静态输入恢复已完，λ0/M8/tol2e−7真实TTY81483继续。
+
+### 2026-11-28 17:33 UTC — Astra-held10-7c4e33ee-20261128
+R92完整径向弦延伸正式登记：S/T全方阵保全部新增未知/子行/参数/BC，准确可逆身份、逆范数、左右完整残差与单右端不增及舍入额外项已证明。真实旧仿射v3只二分867号cell，880点/64264维原RMS9.710495420e−7、BC9.48179e−12、metric6.538974810e−7全过，实际17784 exit0；只付仿射前缀，真新native未启动。回执来源/旧hash明确，当前无旧数组/未推源，未冒复原或当前J逆；继续新R87真λ1与完整固定g。
+
+### 2026-11-28 17:35 UTC — Astra-held10-7c4e33ee-20261128
+R87必要输入恢复真55603 exit0/300.152s：70源/原chart/port全SHA核同，公开记录内完整两calibration/root-profile逐字恢复，无新根搜索；M8 port真导出、未接受415×25初猜逐字恢复，λ0/M8/tol2e−7已于17:30:22真启81483。独立正式stage controller afe8e548…仅compile/help真过，新增nonce/outdir/scope匹配、真实stage后停止与bootstrap锚同步，原数学/验收不改，未用于新阶段。只属必要恢复与执行合同，见design-r87-input-recovery-and-formal-control。
+
+### 2026-11-28 17:36 UTC — Astra-held10-7c4e33ee-20261128
+发布QR真实λ1/full-DN首锚后的原support固定g九源，新KIND/QR provider身份明确，固定δ/profile/字面chart/gauge/warp/mean、全部支持未知与最终physical-H/原native4和8outer门保留。九源compile与CLI真0，原九源SHA未动；发现并实修新mesh继承旧9/20/k.2握持guard的问题，现显式phase-end4/5/held-width27/50且保完整拓扑/谱/5MB。仍无正向λ1/BVP/native，不把准备当精化完成；见analytic-qr-anchor-fixed-actual-source-entry。
+
+### 2026-11-28 17:40 UTC — Astra-held10-7c4e33ee-20261128
+原native/bootstrap必要恢复已真完成：g++14.2按原全部flags编译exit0/3.432s，新125248B核SHA1b47ed47…不冒旧二进制；periodic/chord/native24三个原installer全0，refs与prefix Python等价实际核过。新recovery-setup诚实组合design恢复与本次实际安装，未声称整条旧setup重跑；无native flow/BVP/旧1152证书。真实λ1到来后coordinator按其实际M/N另建native4，见tail-native-bootstrap-after-reset。
+
+### 2026-11-28 17:43 UTC — Astra-held10-7c4e33ee-20261128
+R93正式证明R67任意N=3J活动矩的有限相位见证：xj=1−3j/(2J),αj=acos(xj)/3<4/5，Chebyshev最高系数/有限差分给cJ；两柱长至少一|AN|≥|mN|/400。全E(3)平移控制改进3d/2，任意秩中心张量给min(σ/3,ΔI/KN)真实表面下界。最初粗3d小证书后同步改进代码/证明并真实重跑J1–8 Fraction全通过，当前输出f2229261…。无新λ1矩/几何，所有完整前提明列；H压缩前全文归档。数值主线仍严格λ0恢复后续λ1，不停在此条件引理。
+
+### 2026-11-28 17:47 UTC — Astra-held10-7c4e33ee-20261128
+发布新QR final physical-H绝对placement/全时几何/完整三阶活动矩七源，修复原raw-H/旧source和width=.12/phase9/20专属输入限制，保同场真实正cutwidth、完整谱/mean/两jet及原连续门。原15数学块逐字/AST核同、七源compile/help真0；新组合只在Re A3完整区间正或负严格排零才据R67给非恒定性，不预报指定端点。全部新场几何/矩/δE仍须实算，旧R82/R90数字不传；见tail-qr-finalH-geometry-and-activity-entry。
+
+### 2026-11-28 17:50 UTC — Astra-held10-7c4e33ee-20261128
+R94支付真实R87 binary64 S=.675/b=.3的窗口定义差：J*=33/20+7/90071992547409920，复用R91既有更强π下界得beta_hat=53799078554659079331441553/18834186578917211700582178<897/314，A≤8/9下全部λ原核心曲率预算保持。新独立Fraction源真0/0d052f，绑定真实c11495a4…配置与原窗口/证书，不重算场；Gauss、最终支持系数与全曲面仍未付。
+
+### 2026-11-28 17:53 UTC — Astra-held10-7c4e33ee-20261128
+独立正式controller v2准备已发布：.256:32模式下限避免已知M24失败，真两锚升模才调用原both_source完整lift/割线，未接受metric-only源仍原单源；显式停止合同不改，真实ENOSPC/MemoryError/信号按工程状态、不入数学λ二分。仅compile/help，无新BVP。活λ0/tol2e−7到765点出现极小回溯，真实7节点差分诊断并行；已确认λ0原分支未安装V5解析δ列，不先归因。见design-r87-continuous-mode-floor-preparation。
+
+### 2026-11-28 18:01 UTC — Astra-held10-7c4e33ee-20261128
+新R87 λ0真实ordinal9/765点的七节点完整δ列已核：首入口不适用λ0真exit1且未评列，独立v2真exit0/4.7916s/79340KiB。原factory无参数jet属性，因此实际未装V5解析δ；原δ列逐位等于h2e−7完整FD，对独立解析δ相对差3.33993e−9，state/support/RHS逐位保持。只给真实诊断，不把未接受快照升成解；原支持FD物理步约2e−14另行核查。四源/记录SHA冻结，旧H完整归档后压缩。
+
+### 2026-11-28 18:06 UTC — Astra-held10-7c4e33ee-20261128
+发布新QR fixed-g两场完整尾C²来源入口d62f0265…：右真fixed、左同fixed或其真QR锚，原bootstrap重构完整literal g并逐字核同；各自final physical-H/native/runtime/mean/全谱/两jet保留，精确共同半径分割和比较2242B主循环逐字原实现。绝对高度付各自defining零模与全cut mean，不平移、不锁旧1168；真实pipeline汇总与原certifier分别核源。仅compile/help真0，尚无真pair、新数值界或Cauchy结论。
+
+### 2026-11-28 18:09 UTC — Astra-held10-7c4e33ee-20261128
+发布真实QR fixed完整场时间精化诊断入口231a6726…：同源/同完整g/全谱/均值/physical-H/固定相位域及站点，线性时间样条作用全空间两jet，直接算插值族的目标相对metric与原有限场误差下限，不把只增采样点说成收敛。仅compile/help真0，无真实阳性或连续证书。主线旧λ0实际已812点后工具Ctrl-C/exit1，内部child码/cleanup未知；保全最新未接受状态继续同F解析support。
+
+### 2026-11-28 18:12 UTC — Astra-held10-7c4e33ee-20261128
+原λ0 support FD污染真实定位并给独立同F修复：固定材料u的全部F/Ft/Ftt参数链式导数接原完整analytic installer，保state/δFD/RHS/BC/域/所有验收。原765七节点真核exit0、256角×8系数×3jet×3h真实72组报告实存，h1e−7最差rel3.97178e−9；低2列相消和截断误差保留，第二核工具终态未知不补造。新driver043bae30…已compile/help交design从最新812未接受状态续算，不冒新accepted。旧H完整归档后压缩。
+
+### 2026-11-28 18:16 UTC — Astra-held10-7c4e33ee-20261128
+登记旧FD λ0真实765→812进展与完整nodal交接：首次旧维guard拒绝未发信号，二次真Ctrl-C/工具exit1且Unknown；内部child码/cleanup未知，不推数学失败。新observer v3在原owner循环内按scope/outdir/nonce读显式终止请求，先身份绑定cleanup/join再记工程exit4；compile/help真0，不倒填旧回执。
+
+### 2026-11-28 18:16 UTC — Astra-held10-7c4e33ee-20261128
+新λ0/M8/N256/q=.012/tol2e−7于18:08:28.322222 UTC真启动，812全部x/Y/p/pscale逐位恢复、原域/exact-lift门通过；实际唯一support解析安装、原δFD及全部原门保持。初启动回执session ID未留存但真实owner连续采样存在，未重复派发；之后root只读已增到892点ordinal2/8a19268f…，暂无raw/audit接受。
+
+### 2026-11-28 18:16 UTC — Astra-held10-7c4e33ee-20261128
+首真实QR锚→同M严格fixed-g直接launcher a417bb3a…完成：真内层fullDN源门、同M port/baseline/native/mean/final physical-H，只复制3执行键；tol严格更小、BC不放宽。run exec进已有owner，不添监管孤儿。compile/help真0，真实λ0停止前run作为错误角色resolve真exit1且无child/native/J/BVP；仍无阳性锚。
+
+### 2026-11-28 18:16 UTC — Astra-held10-7c4e33ee-20261128
+新fixed-QR完整tail producer 8cb073f0…完成：先own accepted_fixed再同原树chunk factory/原pipeline/Node exporter/guard，实际runtime.traceFile定位本次native-runs。完整stage0/mean链/全谱/全部共享两jet/全段与deep collar、128MiB写门保持，旧设计入口不改。compile/help实0，无真fixed输入或新geometry阳性。
+
+### 2026-11-28 18:29 UTC — Astra-held10-7c4e33ee-20261128
+R95已正式发布9a1bf6a7…并补齐日志/open与短H：原λ.128/M24全部字面系数，分部积分成正权逆函数平均，65真逆点有向区间及完整二阶余项；实际exit0/0.7892s/35316KiB，原GL12/24格beta小核心重建逐位同，真误差<9.207e−5且代数曲率<11.85678<12.3。未重算旧raw/J/BVP/尾，只付归一化标量，不冒完整位置导数或λ1；真新.002/M16活算已在原strict门内推进。
+
+### 2026-11-28 18:35 UTC — Astra-held10-7c4e33ee-20261128
+原812/892完整未接受状态各一次同F/collocation/Hermite/RMS窄核真exit0/14.377s/72944KiB，无J/BVP；RMS5.4314e−7→5.5153e−7且超tol格80→157，p逐位同，共点Y仅2.07e−25差。保最新1049完整场后18:21:38原owner匹配请求真join child−15/工程exit4/剩余0；未称λ0无解。私库实际pull4f63189c…双README空diff/QUEUE认领保持，H记录新锚。
+
+### 2026-11-28 18:35 UTC — Astra-held10-7c4e33ee-20261128
+真实两最坏格窄核exit0/0.09493s/72844KiB：原RMS精确复现，扩展Hermite/同原RHS只改残差≤7.01e−16。主要误差为首径向/切向/高度模，pscale不是RHS归一除数；最近真实profile break距格>18倍，内部.05分支亦远。仅否定此数据的两具体解释，不改活源、不组J或推不可能，正λ链继续。
+
+### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
+独立未接受lift复用原embed/lift_weights，原1049全部节点/三块Y/参数M8→M16，同λ0参考三jet差≤3.55e−16/rho差0，真exit0/13.80s；无原PPoly不冒完整meridian两jet同一。原port16真导出且合同核同。18:26:24原.002/M16/N512从该未接受场真实启动，全tol/BC/metric/域门与正λ解析Jac/CSR/QR保持，旧accepted源门不改。
+
+### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
+较严原.002/M16真实全门恢复：1051点/RMS1.994973875e−7/metric4.979823887e−8/physicalBC1.9891e−19/mean784，4全步零拒、两mesh，TTY44020/child真0且剩余0，175.22s/406104KiB。run754987d8…、raw/physical完整SHA核同，componentwise线性残差1.0保留。18:31:00唯一连续链73924真起，M24起/.256≥32，直续.032至1；低λ恢复不冒超过历史.128新前沿。
+
+### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
+登记现成真实final-H完整认证依赖：一次fullH与同场prefix tables/全bundle/全部mean，两类source各用自己入口；原逐段成功span复用，仅补真实metric未付项，再原placement/fullgeometry/metric/活动矩。全角协变付全phase，t精化诊断另做；own fixed不可重贴anchor标签。无新数值或重复框架。
+
+### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
+R96完整二维精确证明：单位完整有理三重帽||Hessian||op≤23/10（原17/2），BI±H的4主子式由8完整矩形/15检查/7二分的正整数Bernstein支付；原点/盘边界完整C²极限已证。主true0/0.150s/12672KiB，独立有理微分与6512系数/全覆盖核真0；最初缺/usr/bin/time的127未启数学。无新帽参数/g、无新δE/闭图阳性，改进幅度仅未来新设计。
+
+### 2026-11-28 18:39 UTC — Astra-held10-7c4e33ee-20261128
+新真实.002/M16完整真积分core已原oracle实际返回：accepted_original/raw/physical全门重核，零phase特化/真实2π/3/完整系数不改源身份；276扇区格 κ∈[.9114460783,1.1088736703]，真β∈[1.7622656090333364,1.7622656090336268]、闭合归一化虚部含0，源finiteβ误差≤665/4503599627370496。TTY40407真0/40.746s/37640KiB，无prefix mean/J/BVP/native；只当前core，不付较大λ/整图或有限程序各实角导数。
+
+### 2026-11-28 18:49 UTC — Astra-held10-7c4e33ee-20261128
+R87字面柱长预算严格补齐：原map半长float(.005)的全长略大于1/100，按真实Fraction加直径成本并扣平移支撑；七个精确余量真exit0，H/D>.20013076、held/D>.10108673、reach/D>.03022290仍条件成立，R93两长活动因子>1/400。未搬实际全图前提或选择新g。主线.032匿名路径child−9后已从真实第5全步完整1051状态同λ启动映射恢复65581，全原门保留。
+
+## 2026-11-28 — λ=.032 工程中断后接完整映射存储
+
+[真实中断及完整映射恢复记录](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)冻结原73924 child−9/owner真join/剩余0；原因未知，无数学排除。五个全Newton步的完整checkpoint逐位续入新65581，独立小入口只委托已审完整CSR/QR映射预算，所有方程、列、tol2e−7/原门保留，构造与热solve峰仍实计。源码/compile/help/真实启动记录齐。该启动记录未冒终态；其后真实接受另立回执。HANDOFF已更新唯一实际续线14227及当前真.032锚。
+
+## 2026-11-28 — 严格 λ=.032/M24 映射恢复通过全部原门
+
+[真接受小回执](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)：真实65581/owner/child exit0且remaining0，284.566627306s、内核HWM641884KiB；1051→1103点，两全Newton步/零拒，RMS1.976399889414676e−7、metric1.7039525431334293e−7、physicalBC2.0598401321214251e−19、mean1168、δ.06809650528094668。原accepted_original/prefix_gate/finite checks/full initializer及来源、raw、physical均真实核过；run903b4abf…、raw eff45f58…、physical201024ef…。完整QR两factor/四solve，两store清页真成功，componentwise error=1如实保留，非逆证。真join后仅本owner的mapped cleanup，removed=[]因终结器已释放。source/previous为真.032与真.002，唯一14227在18:51:16.998 UTC已继续.064→1，.256 floor32，tol2e−7/全部原门不变。本条为必要恢复，历史λ.128前沿未被称为新进展；记录器v2随真实回执入库，不作compile-only结论。
+
+## 2026-11-28 — own fixed 连续前缀的实际函数接线
+
+[接线实核](notes/2026-11-28-analytic-qr-fixed-continuous-runtime-contract.md)真实导入自身fixed reader/metric/cut，6个原区间源SHA相同、4个proof main编译成功，cut/metric方法Python对象同一性通过，tool10058/841fa0真exit0；未执行这些main/未给假source。明确真geometry之后原binary64→123/10曲率舍入和同cutwidth依赖，原完整g/profile/mean/谱/最终physical-H均保留。无新科学阳性或额外验收门。
+
+## 2026-11-28 — own fixed QR 完整半径、placement、定义与全几何入口
+
+[新四阶段最小入口](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)独立适配真实accepted_fixed来源，原placement main及高度后缀、QR几何width→reach完整标量段原字节保持；实际source/g/profile/mean/packet/physical-H/cut/node index均绑自己，不假贴anchor标签。定义使用实际完整图与默认r=a/2帽，未改g。原complete metric collector可直接收真实同场完整metric。新源compile及四CLI help真exit0，原数学段实编译；未执行科学输入、未造新阳性、未重算旧field。
+
+## 2026-11-28 — 严格 λ=.064/M24 完整映射输入恢复
+
+[真实回执](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)：14227的attempt000已通过原accepted_original全部门，1134点/RMS1.9779458545532175e−7/metric1.284368451621618e−7/physicalBC2.6538521277607947e−19/mean1168/δ.06809746571178646。四全步/零拒/两完整QR，314.883s、664340KiB；run696a79d1…、raw b5945fee…、physical af16685f…源/hash实核。较严tol2e−7、全映射与原方程/列/BC/metric均保留；这是历史已达λ的必要恢复，非新前沿。控制器已自动接attempt001 λ.128，未为报告停算。
+
+## 2026-11-28 — own fixed QR 完整三阶活动矩来源接线
+
+[独立三阶段入口](notes/2026-11-28-tail-own-fixed-qr-third-activity-entry.md)消费自身accepted_fixed/fullg/final-H，保原全部prefix/cut/mean/lift、durable逐叶积分、完整尾/deep/双盘flux及exact Fraction合并。ell按实际binary64半长准确加倍，相位由真whole geometry取4/5；Re活动区间任一符号排零才可用原R67，含零真实保留。未改帽/来源标签/既有数学main；源码compile、三help、两个生成main编译真0，无正输入/新矩值/全等结论。
+
+## 2026-11-28 — 严格 λ=.128/M24 已恢复历史接受前沿
+
+[真实回执](notes/2026-11-28-design-single-gentle-r87-strict-lambda128-mapped-input-recovery-actual.md)：1185点/RMS1.9949890856595675e−7/metric6.362597622681736e−7/physicalBC2.0279039207175011e−19/mean1168/δ.06809994455035266；八全步/零拒/三完整QR，502.007s、699648KiB。原accepted_original完整源/raw/physical/参数/门全部实际核过，run683d916f…、raw18d8b852…、physicalfc41587a…。仅必要恢复历史前沿，不冒新λ或完整非线性DN。控制器随后在.256 BVP启动前遇同M两源进入旧严格跨M helper的ValueError，14227真join child1/剩余0；正在窄修复并用现真.064/.128及已导出M32继续，无数学失败判断。
