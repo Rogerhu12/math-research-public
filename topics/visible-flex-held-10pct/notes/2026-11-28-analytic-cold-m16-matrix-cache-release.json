@@ -1,0 +1,87 @@
+{
+  "actual_tool_session": 93300,
+  "actual_tool_terminal_exit_code": 0,
+  "manifest_path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/cold-m16-verification-J-cache-release-20261128-a/manifest.json",
+  "manifest_sha256": "cdd3fdf37b2e4606191906d05c74f072d5fb3fe3ac07ac268a33f774ecff0827",
+  "manifest": {
+    "status": "actual_cold_M16_verification_J_cache_released",
+    "original_cache": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/actual_jacobian.npz",
+      "sha256": "a9d655651b6170f1eb8097fe61606dc7a89b40fd181b042ef8e1af305fad4bef",
+      "bytes": 37127402
+    },
+    "original_allocated_bytes": 37130240,
+    "source_summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/summary.json",
+      "sha256": "3a44c9d73bfdf408a5bd77f729adeb5383c7e3e0941996d0ea6f679456640fba",
+      "bytes": 3289
+    },
+    "original_construction_record": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/problem-construction/run.json",
+      "sha256": "4c397aef7b85f3e1b9e750506c9f65b16fc58a26f93f279001bee84a9bc879ee",
+      "bytes": 11972
+    },
+    "retained_full_source_and_nodal_input": [
+      {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m16/run.json",
+        "sha256": "2b9e2fe6f6d1ca7b6b0143a915dd257cd9f9ecc3c2a71f7f08bb18a5dfe1bed4",
+        "bytes": 20397
+      },
+      {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/lambda002_m16_jac_input.npz",
+        "sha256": "e75f89f7aa39f43bc607b9b7654dbc2712dc134cdbdeae16303e1aea092ae620",
+        "bytes": 229437
+      }
+    ],
+    "regenerator_source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/check_block_qr.py",
+      "sha256": "3dcac440fa61c6299a71d0bcd868800e743e1b36643a56b5c607ee634ef01bed",
+      "bytes": 6821
+    },
+    "original_factor_source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr.py",
+      "sha256": "ad93895f46ca1acfca45a1e43245513d7d4bbedc43c3526c764584ffc2ce9bb5",
+      "bytes": 10740
+    },
+    "original_residual_retained": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m16-check/actual_residual.npy",
+      "sha256": "5adf39dd101f6adcd8ec57e7a89337bd6ce034e124fca887a2c3cfd22fafe423",
+      "bytes": 344824
+    },
+    "current_M24_CSR_V_raw_and_generic_inputs_protected": true,
+    "new_current_point_J_or_BVP_executed": false,
+    "predecessor_matrix_not_a_unique_scientific_state": true,
+    "all_original_source_and_input_hashes_rechecked": true,
+    "actual_regeneration_performed": false,
+    "byte_identical_matrix_regeneration_not_claimed_without_actual_hash_check": true,
+    "created_unix": 1795882019.1345997,
+    "regeneration_argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/check_block_qr.py",
+      "--source-run",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m16/run.json",
+      "--snapshot",
+      "/workspace/scratch/7c4e33ee17de/held10-linear-work/lambda002_m16_jac_input.npz",
+      "--outdir",
+      "/workspace/scratch/7c4e33ee17de/held10-maintenance/cold-m16-verification-J-cache-release-20261128-a/regenerated-original-M16-J"
+    ],
+    "one_actual_lossless_gzip_probe": {
+      "original_bytes": 37127402,
+      "gzip_bytes": 36080727,
+      "saved_bytes": 1046675,
+      "level": 6,
+      "mtime": 0,
+      "lossless": true,
+      "source_already_compressed_npz": true
+    },
+    "retained_lossless_archive": null,
+    "compression_not_saved_reason": "Single gzip probe saves less than 1 MiB; complete source/nodal input/command/hash retained for this obsolete verification matrix",
+    "original_name_absent": true,
+    "current_original_M24_CSR_sha256": "1814497d5cb4d5159b3f90eb52be4ff276cf281cb4a05cc29547b2b4a179265c",
+    "max_rss_KiB": 117312,
+    "fresh_disk_free_bytes": 274649088,
+    "python": "3.12.14"
+  },
+  "scope": "Authorized obsolete verification-J cache release; not a claim of an experimentally byte-identical matrix regeneration",
+  "gzip_probe_is_only_an_encoding_size_probe_not_a_saved_restore_archive": true
+}
