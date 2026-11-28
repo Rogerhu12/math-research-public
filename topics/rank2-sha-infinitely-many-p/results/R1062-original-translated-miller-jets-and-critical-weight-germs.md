@@ -636,3 +636,195 @@ bounded 算子。若用 LT 角色盘上的真实 \([\kappa]\) 来运输
 不能只移植其中 \(D_\kappa\) 一项。
 
 本节所有结论均为同一原来源的纸笔推导，无新增数学执行。
+
+
+
+## 8. 同一 translated 余项的实际 even-product 半径障碍
+
+本节回答(G4)的未除幂 Bell 界能否仅靠改用 ordinary Taylor
+系数而扩大到所需权盘的问题。结论针对每个原 translated
+来源本身；不把它推广成完整 Hall 和或原参考比值的否定。
+
+继续取原惰性 $p>211$，置
+$$
+ d=p+1,\qquad \Delta=p^2-1,\qquad
+ \tau=\frac p\Delta,\qquad
+ \tau_2=\frac{2p-1}{p\Delta},\qquad
+ R_\sigma=p^{-\tau},\quad R_2=p^{-\tau_2}.
+$$
+原 $N=34,102$ 以及 R1067 的真实 $N=2$ 参考均满足
+$p\nmid2N$。在共同 $E_1$ 模型写
+$s_N=\sigma^N R_N$，其原点阶依次为 $6,4,0$；
+$R_N$ 的唯一极在 $O$，其首 Laurent 系数是当前位的单位。
+模型 $E_{17}$ 的既定物理单位伸缩不改变以下半径或估值。
+
+### 8.1 全 Miller 规范下的实际 sigma 加法
+
+固定一个原非零 $p$ 挠点 $Q$。使用(G2)的原正规化：
+$$
+ V_Q(z)=\frac{R_N(Q+z)}{R_N(Q)}
+ \exp\left[-N\sum_{r\ge2}
+       \frac{D^{r-2}x(Q)}{r!}z^r\right],
+ \qquad V_Q(0)=1 .
+ \tag{G20}
+$$
+这里 $Q+z$ 是沿原不变微分的形式加法；
+$B_{N,Q}$、原中心和实际 $A_Q=NZ_Q$ 仍在(G1)中，
+没有通过(G20)重选其中任一相位。
+
+原 sigma 加法给准确的 even-product：
+$$
+ \boxed{
+ V_Q(z)V_Q(-z)
+  =\{\sigma(z)^2(x(z)-x(Q))\}^{N}
+       \frac{R_N(Q+z)R_N(Q-z)}{R_N(Q)^2}.
+ }
+ \tag{G21}
+$$
+可在特征零的原 sigma 规范中先使用
+$\sigma(Q+z)\sigma(Q-z)/\sigma(Q)^2
+ =\sigma(z)^2(x(z)-x(Q))$，再比较同一有限代数 jets。
+也可对(G21)取形式 logarithmic derivative，用原 zeta 加法
+及常数项1直接验证。因此(G21)是(G20)的形式恒等式，
+没有在首挠点代入不收敛的裸 sigma 级数。
+
+置原指定
+$$
+ c_\sigma=[z^d]\log(\sigma/z),\qquad
+ U_\sigma(z)=(\sigma(z)/z)\exp(-c_\sigma z^d).
+$$
+由 R301 的绝对 Hasse 规范，
+$v_p(c_\sigma)=-1$。式(G21)成为
+$$
+ \begin{aligned}
+ V_Q(z)V_Q(-z)&=\exp(2Nc_\sigma z^d)\,J_Q(z),\\
+ J_Q(z)&=U_\sigma(z)^{2N}
+       \{z^2(x(z)-x(Q))\}^{N}
+       \frac{R_N(Q+z)R_N(Q-z)}{R_N(Q)^2},
+ \qquad J_Q(0)=1 .
+ \end{aligned}
+ \tag{G22}
+$$
+该因子分解保持原 $Q$、$N$、全部极点和物理微分。
+
+### 8.2 余因子的真实第二盘与逆
+
+[R618](R618-original-second-gaussian-exact-radius-and-newton-tail.md)
+§§4--5证明：$U_\sigma$ 在每个严格 $R<R_2$ 的闭 Lie 盘
+上是范数1的可逆解析函数；$z^2x(z)$ 及其逆在闭 $R_2$
+上已经是范数1的 Tate 元。这里用的是完整原
+$U_\sigma$，不只保第一项。
+
+还须检查(G22)的除点相关因子。严格整参数给
+$|v_Q|=p^{-1/\Delta}$，而 $R_2<|v_Q|$。
+由 $z^2x(z)$ 的单位性，原 $w(z)=x(z)^{-1/2}$ 满足
+$|w(z)|\le R$；$w$ 到严格 $v$ 的整可逆换元遂给
+$|v(z)|\le R$。因此在每个 $R<R_2$ 上，真实整形式群加法满足
+$$
+ |v(Q\pm z)-v_Q|\le R<|v_Q|.
+$$
+在原形式邻域内，$R_N(v)=v^{-(N-a)}U_N(v)$，
+其中 $a=\operatorname{ord}_0s_N$，
+$U_N\in\mathcal O[[v]]^\times$ 的常数为单位。
+故 $R_N(Q\pm z)/R_N(Q)$ 是同一闭盘上的可逆解析单位，
+两个方向的范数均为1。这里没有删除 $R_N$ 的极：
+盘的严格大小正是避免其原点极的理由。
+
+同样
+$z^2(x(z)-x(Q))=z^2x(z)-x(Q)z^2$。
+由于 $|x(Q)z^2|<1$，它及其逆也为范数1的 Tate 元。
+由此完整地得到
+$$
+ \boxed{
+ J_Q,J_Q^{-1}\text{ 在每个 }R<R_2
+ \text{ 的闭盘为范数1的 Tate 元。}
+ }
+ \tag{G23}
+$$
+特别，它们在某个严格大于 $R_\sigma$ 的闭盘上都解析可逆。
+
+### 8.3 首个不能删掉的 even Gaussian
+
+因为 $v_p(2Nc_\sigma)=-1$，Gaussian 的第 $dk$ 项满足
+$$
+ v_p((2Nc_\sigma)^k/k!)+dk\tau
+      =\frac{s_p(k)}{p-1}.
+$$
+于是 $\exp(2Nc_\sigma z^d)$ 的精确收敛半径为
+$R_\sigma$；取 $k=p^h$ 时右边恒为 $1/(p-1)$，
+所以它在临界闭盘不是 Tate 元。
+结合(G23)，得到
+$$
+ \boxed{
+ R\bigl(V_Q(z)V_Q(-z)\bigr)=R_\sigma,\qquad
+ V_Q(z)V_Q(-z)\notin\mathbf C_p\langle z/R_\sigma\rangle .
+ }
+ \tag{G24}
+$$
+两个 $V_Q(\pm z)$ 有相同的幂级数半径。因此
+$$
+ \boxed{
+ R(V_Q)\le R_\sigma,\qquad
+ V_Q\notin\mathbf C_p\langle z/R_\sigma\rangle .
+ }
+ \tag{G25}
+$$
+这里只需这个上界；没有由乘积的精确半径反推单个因子的
+半径也一定相等。
+
+首个实际 even 阻项还可直接定位。$J_Q$ 为偶函数。
+选 $\tau_2<r<1/d$；则 $p^{-r}<R_2$，且(G23)给其
+普通系数下界 $-nr$。在 $[z^d]\log J_Q$ 中，因偶性，
+log 的乘积指标至多为 $d/2<p$，所有这些分母是单位。
+所以该系数的估值至少 $-dr>-1$。而
+$$
+ [z^d]\log\{V_Q(z)V_Q(-z)\}
+       =2Nc_\sigma+[z^d]\log J_Q
+$$
+准确有估值 $-1$。这锁定的是同一实际曲率的
+$z^{p+1}$ 项；不是给任意 bounded 输入举一个反例。
+
+### 8.4 对原 Newton 权级数的准确限制
+
+写 $V_Q(z)=\sum_{k\ge0}v_{Q,k}z^k$。
+原(G4)的同一 Newton 级数为
+$$
+ \mathcal F_Q(m)
+    =\sum_{k\ge0}\binom mk
+                 \frac{k!\,v_{Q,k}}{A_Q^k}
+    =\sum_{k\ge0}(m)_k\,\frac{v_{Q,k}}{A_Q^k},
+ \qquad A_Q=NZ_Q,\quad v_p(A_Q)=\tau-1 .
+ \tag{G26}
+$$
+对任意 $|m|>1$，每个因子满足 $|m-j|=|m|$，
+所以第 $k$ 项的范数准确等于
+$|v_{Q,k}|(|m|/|A_Q|)^k$。因此这一**原项级展开**
+的径向收敛界就是 $|A_Q|R(V_Q)$，从而
+$$
+ \boxed{
+ |A_Q|R(V_Q)\le p^{\,1-2\tau}
+            <p^{\,1-1/(p-1)},\qquad
+ \left(1-\frac1{p-1}\right)-(1-2\tau)
+                  =\frac1{p+1}.
+ }
+ \tag{G27}
+$$
+在右边第一个上界的边界，(G25)同样排除原项级收敛。
+这明确保留了 $k!$：不是再用粗 Bell 界，
+也不是把 $(m)_k$ 误当在大权盘上有额外的阶乘缩小。
+它不排除某个函数通过另一实际公式作解析延拓。
+
+尺度 $p^{1-1/(p-1)}$ 的意义须准确限定：
+当 $v_p(\log q_{\rm ac})=1$ 时，它是
+$x(m)=\nu_r(\gamma)\exp(m\log q_{\rm ac})-1$
+的指数收敛边界及首 wild 字符距离所对应的必要尺度。
+不能说存在同一解析 $m$ 直接把该点送到 $T=0$；
+$p$ 次根单位的 log 为0，且它本身不在该指数小盘的像中。
+
+(G27)证明仅加强每个原 $V_Q$ 的 ordinary Taylor 半径不足以
+完成这一扩大。原完整 Hall 有权和、$N=2$ 的 Norm-$17r$
+参考及 $G_{34}/G_2$ 在全来源组合后仍可能发生新的相消。
+那必须对原中心、两份 Gaussian、全部连接和固定有限权逐项证明，
+不能由(G25)直接否定，也不能把两个不同来源的 Gaussian
+标量在求和前相除。本节不增加 canonical 零条件，不改原
+usual/flat 审计范围，继续保原 whole/old 和所有外权导数。

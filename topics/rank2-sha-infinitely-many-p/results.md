@@ -516,3 +516,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1067 §§16–17：实际 CM-pair 单位族与完整含质量比较
 
 [原文](results/R1067-original-first-wild-rubin-even-multiplicity.md)（59）–（66）由原Kato两图定义比较标量，a/s/b在代数CM线上逐项相消，保有限θχ±/Artin；非p288下降在每个embedding的固定单位幂和primitive minor给真实解析ε及全部归一j阶导数p^j界。补M的非分歧residue周期，不用Hall非零取比。raw G的physical p幂全消后，A(x)=U(G34/G2,17r)²，U保6κ0/17²和θ^-4；原整A=T^(2e)B给完整含H0/参考导数门。最低阶若由同源自动满足则不增forcing；bad不等exactHall0，主无穷非零仍开。
+
+
+### R1062 §8：原 translated 余项的实际 Gaussian 半径
+
+[R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G20）–（G27）用同一sigma加法证明V_Q(z)V_Q(−z)=exp(2Ncσz^(p+1))J_Q，完整J_Q及逆在原第二盘严格内部为范数一单位；全部R_N(Q±z)和原点极已核。因v(cσ)=−1，even-product准确有旧第一Gaussian半径且闭边界非Tate，原V_Q不能更大。对|m|>1直接保(m)_k的准确范数，原Newton项级半径≤p^(1−2τ)，与指数边界差1/(p+1)。这排逐字Taylor加强的办法，不排whole Hall或Norm17r参考全源相消，也不声称同一m可直接到中央T=0。

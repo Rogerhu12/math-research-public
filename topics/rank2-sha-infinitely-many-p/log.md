@@ -487,3 +487,10 @@ actual双pull run46073965457/job140897168980：公开2026-11-28 06:49:25 UTC至7
 R1067追加§§16–17（59）–（66），由原两条CM-pair基向量图而非Hall值商定义ε_m。root核LLZ2.24–2.28的a→de Rham s→complex b→同b逆，不假a=b、不把Cp映入C；先用代数临界向量再取两既定嵌入。原G0阶288的nonp下降每embedding均保指定单位线性幂/固定矩阵，合法正权primitive minor经modp恒定延至0，M补θ^-4等全部residue。p²/1/p投影/Artin/Gamma先保后同消；raw G的共同physical p幂消得精确U=(6κ0/17²)(θ^-4)^(Mt)ε及U^(j)/b_M^j∈p^j。原A整除T^(2e)给含H0、参考Norm17r所有导数的必要门；没有把自动低阶包装新forcing或造exactHall0。整文63484B/hash443f33eca16c3c4dfac38db5b0152bae306751c8a28273ad113c8d9fd76d6da9；追加14089B/hash5da990b0552eb8ad03d4cdba4ce167a1da9f97dc188424b9d9f12496230a9286。纯手证，无新增数学运行。
 
 推前actual双pull run46073965457/job140899268384：公开2026-11-28 06:58:45 UTC至63ef4198fdb9a16db85f3fb14608b812ad495cee，私库2026-11-28 06:58:50 UTC至f87491e21cb37dd27bcf478b09d6652bcfd7456f；四README与上次同blob，QUEUE本题行不变，三旧gzip未变。日志14887B/hashb7fd7e68d07555831ee962f11d1cec4caeb4711d4fe5a9f99c28d71da7e81281，库存3208/45670401B/tree389835e293c2219f0e7ee530cf42b85694ac8121。v15最近06:58:24仍step4/日志BlobNotFound，尚无原终门。已推§15 a8e438d08d8a716d2d11e2aaf8cebb8c84775ea5；下一共同Gaussian的真实全块shift，不在单字上改善已付精确半径。
+
+
+## 2026-11-28 07:06 UTC — 原 translated 单字的真实半径阻项
+
+R1062追加§8（G20）–（G27）：原sigma加法保全部中心/物理微分，even-product严格分成exp(2Ncσ z^d)和J_Q。root直接核R618 §§1–5第二盘、x参数及全Uσ可逆性，逐除点R_N(Q±z)由盘小于|v_Q|保持单位；未在裸sigma不收敛点求值。Gaussian临界digitsum及首even log z^d项给真实半径上界；大权(m)_k精确范数保k!，项级界p^(1−2τ)不足指数边界，差1/(p+1)。尺度只作必要边界，不称同m可到T=0；whole/参考实际相消继续。整R1062 30853B/hash2ff01c7c6880c6bbb11d95ef422fc9813e9d176653b9e7703a481cb0a7a5edcb，追加6543B/hash7daeecff730a202c8cdd8641eb034962d77695791d8f6a7c9f480d70d28a3511。纯手证无数学运行，非重复generic反例。
+
+actual双pull run46073965457/job140900732212：公开2026-11-28 07:04:52 UTC至52c90c05f4974a1f50d4ed358634c04a01a627b6，私库2026-11-28 07:04:56 UTC至574bd78dfd484baafe13f4476c5d0c14fb45f817。四README/QUEUE/三旧gzip同blob，认领不变；日志14887B/hash2d76dbc17c9277d0c577e2601c273f6a8bfc3437f9793e8a82ecd4f462d0cf66，库存3208/45688001B/tree56dab45cf8aaa5662bc52052a4daab004f88a820。原CM相对单位证明已推36f8a1e0d7075affdeeb65f268c62e693b7c2757。v15仍唯一heavy；新generic-U adapter未启动，因δ3670时全C/U可能超既有预算，改查逐行实际W返回及canonical X本身费用，不改数学图或声称改basis已解决。

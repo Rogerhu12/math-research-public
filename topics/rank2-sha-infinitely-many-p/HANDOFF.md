@@ -10,19 +10,20 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140899268384，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 06:58:45 UTC实际partial clone/pull至63ef4198fdb9a16db85f3fb14608b812ad495cee；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 06:58:50 UTC至f87491e21cb37dd27bcf478b09d6652bcfd7456f；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与06:49同blob；QUEUE85a452de45b35303c3be02f1e2c39b1bf67b117f，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
-- 日志14887B/hashb7fd7e68d07555831ee962f11d1cec4caeb4711d4fe5a9f99c28d71da7e81281；库存3208/45670401B/tree389835e293c2219f0e7ee530cf42b85694ac8121；无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟07:58UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
+readonly run46073965457/job140900732212，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 07:04:52 UTC实际partial clone/pull至52c90c05f4974a1f50d4ed358634c04a01a627b6；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 07:04:56 UTC至574bd78dfd484baafe13f4476c5d0c14fb45f817；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与06:58同blob；QUEUE85a452de45b35303c3be02f1e2c39b1bf67b117f，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
+- 日志14887B/hash2d76dbc17c9277d0c577e2601c273f6a8bfc3437f9793e8a82ecd4f462d0cf66；库存3208/45688001B/tree56dab45cf8aaa5662bc52052a4daab004f88a820；无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟08:04UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
 - 本地自11月27日07:20失联，最近11月28日06:30:29实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## v13 终态、软件 v2 与实际 v15
 
 [完整终态](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)：v13 run46080875647/job140779301767于05:00:05UTC达到21000秒，signal15/exit124。完整终日志6357618B及hash见记录；九scalar厚纤维、108尖点/54分支已返；A0 MD306/d16/det3670重置Hermite末189/306，四交/Norm/18×9等未返。
 [R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)scalar-primary v2真PASS：run46109939554/job140871011216；完整source/结果hash/六对照/五拒绝/旧七组与真实projector见该文，仅软件。
-[同一分母软件与生产](notes/2026-11-28-original-whole-denominator-software-and-production.md)：v1 immutable失败；v2真PASS：sourcee7518e7735b37bd213bab71158dfc4ca306c72aa/run46112089371/job140877645107，结果5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa；七完整图/十拒绝/原F/scalar均过，非原几何或rank306性能。helper22771B/0a1b6232348067cf9deb49498d97f9d32a0213dc3ef12d882d83ae35f00df5c4；U·MD=H/全余数、原Y/CH/XMD全保，仅A0/A1各finite/∞，F_y真实旧attached不动。
+[同一分母软件/生产](notes/2026-11-28-original-whole-denominator-software-and-production.md)：v1 immutable失败；v2 run46112089371/job140877645107真PASS，七完整图/十拒绝/原F/scalar均过，完整source/hash见原文。仅A0/A1各finite/∞用H/U/CH/XMD，F_y真实旧attached不动；非原几何或306性能。
+
 **唯一heavy v15已实际建立：run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962，05:35:43UTC创建；06:58:24UTC仍原完整计算step4 in_progress，日志接口BlobNotFound，未登记bindings或数学PASS。**69源保65旧pins/两char0/29/2453/64/minimal/artinian及全原门；producer9b1d3486cb5f12f332329f92b4ff5c4eb4d899dadf9289a1d70d3b3fc56a0f64。final强核四图/八scalar真实使用；4CPU/16GB/21000秒不变。arithmetic继续只读监控。
 
 [原行运算返回](notes/2026-11-28-original-row-operation-right-return.md)run46115906757/job140889570559真PASS，九全比较/十三拒绝及实际Bezout/native均过。
@@ -33,7 +34,7 @@ readonly run46073965457/job140899268384，source3bd753e5d0f0cd071d0ba615c9774695
 R1052只杀原未改动whole flat及外权导数。R1054–61保全p²/旧项/中心/Haar/period/fullh/负权合法极限，原通常阶乘cross不连续更正优先；旧full54/六线/ψ4共同F单位仍条件化，proper/signed等只保原范围。[完整审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)和归档保所有精确式；不重做已登记零分支。
 
 R1062–66完整证明由[open](open.md)及本卷索引直达，旧范围不变：
-- R1062付同NZ_Q全部Bell/physical/合法权germ；指定Norm seed非零和raw jets独立不排canonical Ω(R′−logU*R)=0。
+- R1062付同NZ_Q全部Bell/physical/合法权germ；指定Norm seed非零和raw jets独立不排canonical Ω(R′−logU*R)=0。 §8现付actual V_Q even-product=exp(2Ncσz^d)J，J在第二盘可逆；原项级权半径≤p^(1−2τ)，较指数边界少1/(p+1)。单字扩大被实际首Gaussian阻住；whole Hall/Norm17参考相消另做。
 - R1063原χ/全部中心/zeta/fullh及p−1层全保；末修正−(2γ_+/3)Acan(0)W^(p−2)随bad消，余jets不赋零。full18/nonp/Artin/17^-2/Haar/period返B_r(−2)=p^-6Ω^-1单位×H_-H_+；strict单Hall<2/(p−1)仍开。
 - R1064同Ωϖ=λ_GY、全Gal、actual Cartier-dual等距；ST扭曲非ordinary固定。quadratic/deepP10/heat/ψ单位cut只保已证范围，Henc非H(logGv)，数字和读者不加Smith。
 - R1065两原Katz primitive dual及p²新字整ψ0/full kernel character/coset图已付；高6q/4q单位不代低矩。strict仍vµ_+(c1^(p+1))=2；负type4质量0及正高共振、wholeold/physical/Haar/模型保留。
