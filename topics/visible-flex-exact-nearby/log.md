@@ -311,3 +311,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 09:55:47 UTC / visible-exact-astra-b0d5a16-20261128：ASQ2。同真selected尾部fB=FB wγ，完整切迹微分T=FB Vγ P⊥DCQ；whole函数图行消元为A+BT与f−Be，全部source/world读出同回代。joined界面只有一个共同λ，span为输出或独立兼容条件；不能将旧97-row小费冒成任意WOB逆。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actualsquare-selected-far-graph-and-height-span.md","bytes":6446,"sha256":"24a5a0634c692e6f732aa2fd237fd1b451b188ef54a5cf821b0ea726bbfeacb1"}]。
+
+
+2026-11-28 09:56:13 UTC / visible-exact-astra-b0d5a16-20261128：ASQ3。在实际Qδ*,g=H⁻¹处完整E=E′=0，原regular式独立a；全nonmean a在graph空间D_Ra∈H^(s+1)用全Fourier逆恢复，保17倍单导损失、phase mean和真实external sources。非线性normalizer的DN·R不因E=0而消；off-base项另付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actualsquare-raw-conjugacy-recovery-at-selected-base.md","bytes":4713,"sha256":"7fcfc17283c421c792dbacdfaa8fe73f6768fa9e7ff4d29e667b9b7799920a3c"}]。

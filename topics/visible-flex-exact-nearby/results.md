@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ3：真正selected基点的全raw共轭恢复](results/R149-supplement-actualsquare-raw-conjugacy-recovery-at-selected-base.md)：在实际Qδ*,g=H⁻¹处完整E=E′=0，原regular式独立a；全nonmean a在graph空间D_Ra∈H^(s+1)用全Fourier逆恢复，保17倍单导损失、phase mean和真实external sources。非线性normalizer的DN·R不因E=0而消；off-base项另付。
+
 - [ASQ2：真实selected far graph和单一高度原点](results/R149-supplement-actualsquare-selected-far-graph-and-height-span.md)：同真selected尾部fB=FB wγ，完整切迹微分T=FB Vγ P⊥DCQ；whole函数图行消元为A+BT与f−Be，全部source/world读出同回代。joined界面只有一个共同λ，span为输出或独立兼容条件；不能将旧97-row小费冒成任意WOB逆。
 
 - [ASQ1：相位表述的振幅输出与唯一世界高度列](results/R149-supplement-actualsquare-phase-amplitude-and-single-world-height.md)：原phase realization将waist amplitude作为输出；WOB已消费完整97/96/mean边界。严格particular两scalar列(cP,0;cH,1)可精确消，剩余D−dH−(r−dcH)P/cP。实际有限槽J+97与完整nonmean phase保；CFC100×97并非方阵，high吸收后须另核pivot。
