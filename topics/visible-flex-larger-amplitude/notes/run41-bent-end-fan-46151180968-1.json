@@ -256,40 +256,56 @@
   "child_pid": 2553,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 12,
-    "utc": "2026-11-28T13:50:27Z",
+    "ordinal": 15,
+    "utc": "2026-11-28T13:51:41Z",
     "original": {
       "event": "stage",
-      "stage": 3,
-      "point": "15537e0fcb7969d4f4a48f81f0dccb3958bc8d14ef9a0a48d92f15504791bf7a",
-      "score": 19.713261018729078,
-      "gram": 0.5255541408830331,
-      "K": 266.9027055347551,
-      "support": 0.029269422273374007
+      "stage": 4,
+      "point": "333220e4f96cb1dde37e121bf0a1e3b97b121f6db022eabb081b2433afdc5e1b",
+      "score": 26.648129096451086,
+      "gram": 0.38983100248880337,
+      "K": 362.9413119802532,
+      "support": 0.031248648895983444
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run41-bent-end-fan-46151180968-1/field/summary.json",
-      "bytes": 20352,
-      "sha256": "caa2de39efb2aaff8faf4f4d4244b8cca9e0d62e939d391a5c53a8cb7c9159e3"
+      "bytes": 25226,
+      "sha256": "166c615a6e9c35674d6b9b5f8da5522e231264a1ad589bd2a4277eee4a073672"
     },
     "complete_small_json": {
-      "elapsed_seconds": 289.02408468799996,
+      "elapsed_seconds": 363.26620878,
       "in_progress": {
         "call": 1,
-        "cost": 0.9333653341134364,
-        "design": "plateau-shortened-cap",
+        "cost": 0.013744746912497987,
+        "design": "omega-shortened-cap",
         "knot_index": 1,
-        "phase": 0.7853981633974483,
-        "point_sha256": "60760d8e2a33da90f45a7cfcca85ab8461d3fd9beb6c6d804800ab53bcb42925",
-        "stage": 4
+        "phase": 0.39269908169872414,
+        "point_sha256": "42f4ffa52d9d9b2559e520ca90ee4dda0642f288c68acfeb1fed290f24386c3f",
+        "stage": 5
       },
       "numpy": "2.3.5",
       "params_sha256": "836cb24a757f7d4b494dd65f9358b916713da3e30c9efbc394d9e96f504a8aac",
       "schema": "hard-central-caps-delayed-end/v1",
       "scipy": "1.17.0",
       "scope": "Actual finite phase geometry and Gram estimates on complete spatial chart grids and independent time refinements. Continuous exact isometry, tube bounds for corrected fields, and convergence require separate evidence.",
+      "selected_coarse_design": {
+        "cap_y": -0.15,
+        "id": "omega-shortened-cap",
+        "lower_cubic": 0.003,
+        "method": "arc",
+        "middle": 5.960464477539063e-08,
+        "upper_cubic": 0.006
+      },
+      "selected_design": {
+        "cap_y": -0.15,
+        "id": "omega-shortened-cap",
+        "lower_cubic": 0.003,
+        "method": "arc",
+        "middle": 5.960464477539063e-08,
+        "upper_cubic": 0.006
+      },
       "source_sha256": "0dc5bab5445f2a0eb0cfe1387c2accd42bdf5a9d99396f4b6421384cf786ab97",
       "sources": {
         "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
@@ -1481,6 +1497,300 @@
             ]
           },
           "zero_phase_sixjet_difference": 0.0
+        },
+        {
+          "all_time_check": {
+            "K": {
+              "chart": "end+",
+              "index": 8587,
+              "phase": 1.5707963267948966,
+              "u": 4.7425155540114,
+              "v": 0.6829508078036884,
+              "value": 362.9413119802532
+            },
+            "area_min": {
+              "chart": "cap+",
+              "index": 18549,
+              "phase": 1.1780972450961724,
+              "u": 2.2571193300256,
+              "v": 0.007,
+              "value": 5.270056866716956e-05
+            },
+            "gram": {
+              "chart": "end+",
+              "index": 9015,
+              "phase": 1.5707963267948966,
+              "u": 5.2155155540114,
+              "v": 0.5859872891121083,
+              "value": 0.38983100248880337
+            },
+            "max_physical_correction": {
+              "chart": "end+",
+              "index": 4175,
+              "phase": 1.1780972450961724,
+              "u": 0.0240405067756,
+              "v": 0.9238762893473831,
+              "value": 0.29949138672271164
+            },
+            "support": {
+              "chart": "end-",
+              "index": 11714,
+              "phase": 1.5707963267948966,
+              "u": 0.8355344063741,
+              "v": 0.10352122891616068,
+              "value": 0.031248648895983444
+            }
+          },
+          "check_phase_columns": [
+            "phase",
+            "max_gram",
+            "rms_gram",
+            "max_abs_principal",
+            "min_support"
+          ],
+          "check_phases": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              9.259259259259263,
+              0.1337907860455484
+            ],
+            [
+              0.39269908169872414,
+              0.19334401593282796,
+              0.04525879965464225,
+              93.179065855374,
+              0.10505746382896995
+            ],
+            [
+              0.7853981633974483,
+              0.2563379693546698,
+              0.050816942052686234,
+              183.3337653154548,
+              0.06141554265919766
+            ],
+            [
+              1.1780972450961724,
+              0.327416758962783,
+              0.07478983228888085,
+              268.56417720987065,
+              0.03648179497387366
+            ],
+            [
+              1.5707963267948966,
+              0.38983100248880337,
+              0.10214759954284468,
+              362.9413119802532,
+              0.031248648895983444
+            ]
+          ],
+          "coefficient_count_per_phase": 451,
+          "configuration": {
+            "check": [
+              69,
+              21,
+              15,
+              13
+            ],
+            "extra_check": false,
+            "id": "all-five-coarse",
+            "inner": 85,
+            "intervals": 2,
+            "max_nfev": 52,
+            "mesh": [
+              27,
+              11,
+              8,
+              7
+            ],
+            "radial_degree": 2,
+            "regularizer": 7e-06,
+            "roll_modes": 3,
+            "turn_degree": 2
+          },
+          "design": {
+            "cap_y": -0.22,
+            "id": "plateau-shortened-cap",
+            "lower_cubic": -0.005,
+            "method": "plateau",
+            "middle": -5.960464477539063e-08,
+            "upper_cubic": 0.008
+          },
+          "direct_source_sixjet_comparison_at_last_phase": [
+            [
+              "cylinder",
+              2.220446049250313e-16
+            ],
+            [
+              "end+",
+              8.881784197001252e-16
+            ],
+            [
+              "end-",
+              1.7763568394002505e-15
+            ],
+            [
+              "cap+",
+              2.220446049250313e-16
+            ],
+            [
+              "cap-",
+              2.220446049250313e-16
+            ],
+            [
+              "cap-cartesian+",
+              1.1102230246251565e-16
+            ],
+            [
+              "cap-cartesian-",
+              1.1102230246251565e-16
+            ]
+          ],
+          "knots": [
+            {
+              "adjoint_abs": 1.0408340855860843e-17,
+              "cost": 0.025604074826869893,
+              "directional_fd_relative": 2.8632451615448855e-07,
+              "index": 1,
+              "nfev": 52,
+              "njev": 50,
+              "optimality": 0.0010155732243747133,
+              "phase": 0.7853981633974483,
+              "point_sha256": "842051c598e3e912cf46d2272c4fad54aaf96f43c099627b47c88d6547784bfe",
+              "status": 0,
+              "train_gram": 0.25399480933333596
+            },
+            {
+              "adjoint_abs": 4.163336342344337e-17,
+              "cost": 0.10616321067067618,
+              "directional_fd_relative": 2.0565552305330817e-07,
+              "index": 2,
+              "nfev": 52,
+              "njev": 52,
+              "optimality": 0.00047562382660195377,
+              "phase": 1.5707963267948966,
+              "point_sha256": "99c093f18039844ed38bd3578188deb3769fe492e2a0e31b8b146de7e94c3799",
+              "status": 0,
+              "train_gram": 0.38361400336607665
+            }
+          ],
+          "maximum_seam_sixjet_jumps": [
+            [
+              0.0,
+              2.2737367544323206e-13
+            ],
+            [
+              0.0,
+              2.2737367544323206e-13
+            ]
+          ],
+          "npz_bytes": 11370,
+          "npz_sha256": "a7bc6f58fc3f04f56fbe3ed3472bae4343d227f6d2ea75c864d54b2ab80b59b2",
+          "point_sha256": "333220e4f96cb1dde37e121bf0a1e3b97b121f6db022eabb081b2433afdc5e1b",
+          "previous_point_sha256": null,
+          "score": 26.648129096451086,
+          "shape": [
+            3,
+            451
+          ],
+          "stage": 4,
+          "terminal_hard_coordinates": [
+            -5.945026363854308e-07,
+            -0.040085727248137026,
+            0.008139496091914729,
+            -0.27859605607026183,
+            0.014118932106197855,
+            -0.008937095357173713,
+            0.31557432267036656,
+            -0.05495359364165716,
+            0.1700045500150475,
+            0.0014411327795891742,
+            0.04011738470843607,
+            0.5998074506349926,
+            -0.056677358421397754,
+            0.06112288437941063,
+            0.16982714615188854,
+            -0.0023365641889176833,
+            0.04000094744254927,
+            -0.6018872559253946,
+            -0.05609039830900757
+          ],
+          "terminal_physical_control": {
+            "middle": -5.960489282121985e-08,
+            "minus": [
+              -0.004223510329722156,
+              -0.001072422890942572,
+              0.019857482891474237
+            ],
+            "minus_pose": [
+              0.05188984753377902,
+              0.1429811247309261,
+              -0.0019860759462328134,
+              0.013992869183784553,
+              0.03156310274724855,
+              -0.01961107736935494
+            ],
+            "plus": [
+              0.03487820043304676,
+              0.000976717961482014,
+              -0.01765433808035221
+            ],
+            "plus_pose": [
+              -0.04666359096309975,
+              0.14312764684769813,
+              0.0012249620146245394,
+              0.014033556898792533,
+              -0.03208061135576787,
+              -0.019815861674311163
+            ]
+          },
+          "time_data_sha256": "0d7d31e13447bbb5b53f61053604003afd523dffb09d2a496ecca66fd551327a",
+          "worst_gram_by_chart": {
+            "cap+": [
+              6.687643974923032e-13,
+              0.39269908169872414,
+              4.7420155540114,
+              0.6141666666666665
+            ],
+            "cap-": [
+              7.223274094521071e-13,
+              1.1780972450961724,
+              4.7425155540114,
+              0.035
+            ],
+            "cap-cartesian+": [
+              5.554823589718879e-16,
+              1.1780972450961724,
+              0.607,
+              0.001
+            ],
+            "cap-cartesian-": [
+              4.442849184248125e-16,
+              1.1780972450961724,
+              0.607,
+              0.001
+            ],
+            "cylinder": [
+              4.440892098500625e-16,
+              0.7853981633974483,
+              0.0199998810064,
+              0.27269
+            ],
+            "end+": [
+              0.38983100248880337,
+              1.5707963267948966,
+              5.2155155540114,
+              0.5859872891121083
+            ],
+            "end-": [
+              0.38911278453960724,
+              1.5707963267948966,
+              5.2155155540114,
+              0.5859872891121083
+            ]
+          },
+          "zero_phase_sixjet_difference": 0.0
         }
       ],
       "target": "One R752 phase-zero unmarked physical pullback, Y=.37/e=.81/angular cutoff 1/1024, on every point with t in [0,pi/2]. Fixed across all designs/refinements."
@@ -1514,6 +1824,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:45:38Z",
-  "observed_utc": "2026-11-28T13:50:33Z",
-  "original_scalar_line_count": 12
+  "observed_utc": "2026-11-28T13:51:48Z",
+  "original_scalar_line_count": 15
 }
