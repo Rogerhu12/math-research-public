@@ -104,7 +104,8 @@ SPARSE
         with:
           python-version: '3.12.14'
       - name: Install fixed directed arithmetic and chart proposal runtime
-        run: python -m pip install --only-binary=:all: python-flint==0.9.0 numpy==2.3.5
+        run: >-
+          python -m pip install --only-binary=:all: python-flint==0.9.0 numpy==2.3.5
       - name: Certify full low193 inverse and four source maps
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
