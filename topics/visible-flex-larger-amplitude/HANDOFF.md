@@ -58,6 +58,6 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46171090151)；[全阶段记录](notes/2026-11-28-public-actions-46171090151-1.md)。completed；已返1，exit=0。
 并行47规则核查：2026-11-28 17:34:35 UTC，真实pull至`17d65821e45b1a947e24b244907bd7d58c526063`，双README无变化。
 <!-- visible-larger-parallel-47:end -->
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 00301fa6e4ee3494538ef39b4bfa3f574670fd34
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull efe710dad3771a060298c18e79879acd00e76d8c
 <!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull ebd6fb99d537edc6500baf8ccd33bc53cab63d01
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a15f8e5a4ea91517f1a4d6300c110c001a53f66f
