@@ -44,4 +44,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 9a6240a1b99db3130b4d110cb08b274424503a97
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull da33e08b58370e867111486ce66219290632870d
 <!--r774-publish-->R774 [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 4b0c2b0fa772c18af608fd976064656930fbe63e
-<!--r777-publish-->R777 [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 3587f542e24db36cf6f8decd6891ccb7d3612027
+<!--r777-publish-->R777 [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 08ce1c922d5b3b391f57897cc70de0a86d227438
