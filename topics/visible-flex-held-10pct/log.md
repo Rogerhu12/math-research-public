@@ -13,3 +13,7 @@
 ## 2026-11-28 — R97 同物理材料角的完整前缀/切口C²条件证明
 
 [R97完整证明](results/R97-complete-prefix-c2-in-common-physical-material-angle.md)用同一真实积分定义的核心与有限Cartesian两jet，准确保留全Fourier/mean/lift/中心/完整cut；先付support逆角差、共同beta归一化抵消和固定三重中心，再付真实e(s)重Hermite差及同物理θ的全部逆角图混合二jet。原全角表和准确共径向Bernstein输入给六项全域差，不以相同ψ或自由刚体配准代替。式(19)另给有限GL点查询到真实场的误差传播，不假称返回jet为有限位置函数导数。纯Fraction源、完整note/JSON及8项SymPy真零回执齐；design只读逐式核(4)/(6)/(7)/(9)，无新数值/J。尚无真实fixed pair上界，不宣称Cauchy/等距极限/完成。
+
+## 2026-11-28 — 同M两源合同与完整六jet分块的真实恢复
+
+[两次工程终态及当前真启动](notes/2026-11-28-design-r87-two-source-lift-engineering-handoffs.md)精确保留14227同M合同exit1、73980左完整lift接受后右worker−9/空stderr且owner真join，皆未启.256；不归因或数学排除。独立helper v2补同M原合同，v3仅把原参考几何16节点批改2、保全原样本/3104角/六jet/1e−7门，经源/hash核复用已完成左包。右lift真0/9.273s/544460KiB/最大差3.44214e−15，完整β2割线1185×97初猜eebe2267…；80642自19:15:28.413 UTC真进.256/M32原BVP，原metric observer恰一次装在实际模块，只读原audit数组、不重算旧audit/J。五新源及全部真实小回执入库，未知−9不改成OOM。另19:19:02 UTC私库实际pull到5d146903e36f71c8137ab5137195d1f3d90055d7，双README空diff、QUEUE仍本会话进行中；H已登记。
