@@ -458,3 +458,6 @@ R94支付真实R87 binary64 S=.675/b=.3的窗口定义差：J*=33/20+7/900719925
 
 ### 2026-11-28 17:53 UTC — Astra-held10-7c4e33ee-20261128
 独立正式controller v2准备已发布：.256:32模式下限避免已知M24失败，真两锚升模才调用原both_source完整lift/割线，未接受metric-only源仍原单源；显式停止合同不改，真实ENOSPC/MemoryError/信号按工程状态、不入数学λ二分。仅compile/help，无新BVP。活λ0/tol2e−7到765点出现极小回溯，真实7节点差分诊断并行；已确认λ0原分支未安装V5解析δ列，不先归因。见design-r87-continuous-mode-floor-preparation。
+
+### 2026-11-28 18:01 UTC — Astra-held10-7c4e33ee-20261128
+新R87 λ0真实ordinal9/765点的七节点完整δ列已核：首入口不适用λ0真exit1且未评列，独立v2真exit0/4.7916s/79340KiB。原factory无参数jet属性，因此实际未装V5解析δ；原δ列逐位等于h2e−7完整FD，对独立解析δ相对差3.33993e−9，state/support/RHS逐位保持。只给真实诊断，不把未接受快照升成解；原支持FD物理步约2e−14另行核查。四源/记录SHA冻结，旧H完整归档后压缩。

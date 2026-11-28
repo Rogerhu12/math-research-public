@@ -1,0 +1,277 @@
+{
+  "scope": "Actual unaccepted new-R87 lambda-zero complete-seven-node delta diagnostic; no solver acceptance",
+  "failed_entry": {
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_unaccepted_design_delta_nodes.py",
+      "sha256": "c7bbeed6efef33bad1e72191769b35afb918624873e2bcd8c6fccc6f8281ae18"
+    },
+    "session": 42974,
+    "terminal_chunk": "33ddf5",
+    "exit_code": 1,
+    "error": "AttributeError: 'function' object has no attribute 'jet_parameter_derivatives'",
+    "numeric_column_evaluated": false,
+    "original_run_observed_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8/run.json",
+    "source_run_snapshot": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r87-real-unaccepted-delta-check-20261128-a/source-run-snapshot.json",
+      "sha256": "ba9e7b62fa7e858b78f6269e53042c3c24971292e39bb2a4e76f4502c0a4294a"
+    },
+    "metadata_snapshot": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r87-real-unaccepted-delta-check-20261128-a/checkpoint-metadata-snapshot.json",
+      "sha256": "5f20b129e3e4c3c304a699846e9c63244cf3dd93ac6b520c9ae53327b299f2be"
+    }
+  },
+  "successful_entry": {
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_unaccepted_design_delta_nodes_v2.py",
+      "sha256": "e2f40bb254913f5731dd3ab7a792a2442bfaf857f538a9918f5e4e4556e37fce"
+    },
+    "session": 94929,
+    "terminal_chunk": "b67a44",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r87-real-unaccepted-delta-check-20261128-b/comparison.json",
+      "sha256": "54527662425a2df6a4935db0e9a1dc8ee90bf2e852f910060b564adddcd955b1"
+    }
+  },
+  "actual_record": {
+    "status": "real_unaccepted_complete_node_delta_comparison_returned",
+    "scope": "Compare the actual lambda-zero/positive-lambda delta path on real nodal data.\n\nThis is explicitly a diagnostic of a saved current equation state. It does\nnot pass accepted_original, alter a run label, invoke a BVP/native solve or\nassemble a complete collocation matrix. Every state/support column at the\nselected actual nodes is retained in the original-vs-V5 comparison.\n",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_unaccepted_design_delta_nodes_v2.py",
+      "sha256": "e2f40bb254913f5731dd3ab7a792a2442bfaf857f538a9918f5e4e4556e37fce"
+    },
+    "source_run_observed": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r87-real-unaccepted-delta-check-20261128-a/source-run-snapshot.json",
+      "sha256": "ba9e7b62fa7e858b78f6269e53042c3c24971292e39bb2a4e76f4502c0a4294a"
+    },
+    "source_run_snapshot": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r87-real-unaccepted-delta-check-20261128-b/source-run-snapshot.json",
+      "sha256": "ba9e7b62fa7e858b78f6269e53042c3c24971292e39bb2a4e76f4502c0a4294a"
+    },
+    "checkpoint_metadata_observed": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8/latest-unaccepted-nodal-checkpoint.json",
+      "sha256": "5f20b129e3e4c3c304a699846e9c63244cf3dd93ac6b520c9ae53327b299f2be"
+    },
+    "checkpoint_metadata_snapshot": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r87-real-unaccepted-delta-check-20261128-b/checkpoint-metadata-snapshot.json",
+      "sha256": "5f20b129e3e4c3c304a699846e9c63244cf3dd93ac6b520c9ae53327b299f2be"
+    },
+    "checkpoint": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-recovery-20261128/lambda000_m8/unaccepted-nodal-before-jac-0009.npz",
+      "sha256": "e13909bf4981deae02e0024de06e58c3923f37815cb704085e63ce7257ee01c1"
+    },
+    "checkpoint_ordinal": 9,
+    "source_role": "genuine_unaccepted_before-full-J_complete_nodal_snapshot",
+    "original_parameter_J_branch": {
+      "core_factory_has_jet_parameter_derivatives": false,
+      "original_analytic_core_parameter_install_called": false,
+      "live_V5_delta_install_called": false,
+      "actual_original_branch": "original full finite-difference parameter fallback",
+      "no_missing_factory_attribute_fabricated": true
+    },
+    "analytic_column_is_independent_diagnostic": true,
+    "source_is_accepted_original": false,
+    "nodes": 765,
+    "evaluated_nodes": 7,
+    "selected_actual_node_indices": [
+      0,
+      127,
+      255,
+      382,
+      509,
+      637,
+      764
+    ],
+    "state_components": 25,
+    "modes": 8,
+    "angular": 256,
+    "original_core_settings": {
+      "homotopy": 0,
+      "curvature_blend": 1,
+      "halfwidth": 0.675,
+      "transition": 0.3,
+      "target_curvature": 0.5,
+      "quadrature_order": 12,
+      "integration_cells": 64,
+      "transition_cells": 24
+    },
+    "original_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "held10_multistage_flat_v1",
+      "cycles": 1,
+      "delta": 0.06809451565377872,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4,
+        "peak_fraction": 0.2
+      },
+      "multistage_flat": {
+        "reference_delta": "3/50",
+        "eta": "1/20",
+        "up": [
+          [
+            "0",
+            "9/20",
+            "10/57"
+          ],
+          [
+            "9/20",
+            "9/20",
+            "1/855"
+          ],
+          [
+            "9/20",
+            "0",
+            "4/45"
+          ]
+        ],
+        "down": [
+          [
+            "0",
+            "-1/2",
+            "2/25"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "1/25"
+          ],
+          [
+            "-1/2",
+            "0",
+            "2/25"
+          ]
+        ]
+      }
+    },
+    "original_gauge_q": 0.012,
+    "original_warp_reference": 0.012,
+    "original_gates": {
+      "tol": 2e-07,
+      "bc_tol": 1e-07,
+      "physical_bc_tol": 2e-09,
+      "max_nodes": 6000,
+      "original_outer_budget": 8
+    },
+    "physical_delta": 0.06809573171284733,
+    "original_centered_delta_vs_analytic": {
+      "maximum_absolute": 1.799069529392905e-07,
+      "relative_l2": 3.3399286415337597e-09,
+      "maximum_location": [
+        18,
+        5
+      ],
+      "second_l2": 81.95435256820512
+    },
+    "finite_differences": [
+      {
+        "step": 1e-06,
+        "maximum_absolute": 3.8047490612691966e-08,
+        "relative_l2": 6.928985587931628e-10,
+        "maximum_location": [
+          21,
+          5
+        ],
+        "second_l2": 81.95435256410974,
+        "source_node_at_maximum": 637
+      },
+      {
+        "step": 2e-07,
+        "maximum_absolute": 1.799069529392905e-07,
+        "relative_l2": 3.3399286415337597e-09,
+        "maximum_location": [
+          18,
+          5
+        ],
+        "second_l2": 81.95435256820512,
+        "source_node_at_maximum": 637
+      },
+      {
+        "step": 5e-08,
+        "maximum_absolute": 8.471738317440748e-07,
+        "relative_l2": 1.6321856071931404e-08,
+        "maximum_location": [
+          21,
+          5
+        ],
+        "second_l2": 81.9543525652264,
+        "source_node_at_maximum": 637
+      }
+    ],
+    "unchanged_component_checks": {
+      "original_state_columns_bitwise_equal": true,
+      "original_all_support_columns_bitwise_equal": true,
+      "original_RHS_after_V5_install_bitwise_equal": true,
+      "original_base_RHS_restored_bitwise": true,
+      "original_full_parameter_J_restored_bitwise": true
+    },
+    "complete_selected_columns": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/r87-real-unaccepted-delta-check-20261128-b/selected-complete-columns.npz",
+      "sha256": "ea1fb1a1916597727ea1320ed826d4d124d1b32baf25ec6e765d6289a328ff22"
+    },
+    "fourier_assembly_cache": {
+      "hits": 1,
+      "misses": 1,
+      "key_seconds": 0.0004484320002120512,
+      "build_seconds": 0.05359958600001846,
+      "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+      "full_basis_and_frequency_bytes_bound": true,
+      "live_flow_or_physical_response_cached": false,
+      "shared_diagnostic_dictionary": false
+    },
+    "core_evaluate_memo": {
+      "enabled": true,
+      "hits": 0,
+      "misses": 0,
+      "context_changes": 0,
+      "bypasses": 0,
+      "evictions": 0,
+      "context_key_seconds": 0.0,
+      "original_evaluate_seconds": 0.0,
+      "copy_seconds": 0.0,
+      "max_entries_per_core": 4,
+      "max_bytes_per_core": 134217728,
+      "peak_cached_bytes_one_core": 0,
+      "peak_entry_bytes": 0,
+      "original_evaluator_sha256": "336a769065ff8e15d74a5c85e9c9bbd0046e0604ad49b61199a2ce5cb6760711",
+      "complete_instance_state_bound": true,
+      "complete_theta_bytes_bound": true,
+      "original_output_cache_side_effects_restored": true,
+      "returned_arrays_are_independent_writable_copies": true,
+      "quadrature_or_model_changed": false
+    },
+    "V5_adapter": {
+      "installed": false,
+      "reason": "The original lambda-zero factory has no parameter-jet attribute; V5 installer is never called"
+    },
+    "source_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_unaccepted_design_delta_nodes_v2.py": "e2f40bb254913f5731dd3ab7a792a2442bfaf857f538a9918f5e4e4556e37fce",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8"
+    },
+    "elapsed_seconds": 4.79160274700007,
+    "maximum_rss_KiB": 79340,
+    "current_live_source_or_equations_changed": false,
+    "large_collocation_J_assembled": false,
+    "BVP_or_native_solve_invoked": false,
+    "interval_derivative_certificate": false,
+    "nonlinear_convergence_proved": false
+  },
+  "scientific_arrays_added_to_repository": false,
+  "live_solver_changed": false,
+  "stored_column_identity_check": {
+    "exec_chunk": "710961",
+    "exit_code": 0,
+    "production_delta_equal_actual_h_2e_minus7_bitwise": true,
+    "max_difference": 0.0,
+    "new_RHS_evaluation": false
+  },
+  "legacy_report_key_clarification": "For lambda zero original_RHS_after_V5_install_bitwise_equal compares the unchanged fallback branch; original_parameter_J_branch and V5_adapter explicitly record that no V5 analytic installation occurred."
+}

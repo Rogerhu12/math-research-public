@@ -4,11 +4,11 @@
 
 ## 规则与当前入口
 
-- 最近实际pull后双README已读锚 `8205da8138dcd3ab4635d870a0c627286a8cd5bf`（2026-11-28 17:54 UTC）。
-- 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull `0e3cbe262f95c04561fec3c56e64347eb6801d25`，相对501598ec双README空diff；QUEUE仍本会话/2026-11-28进行中。该次17:27 UTC前已实返，至少18:27 UTC前再pull。
+- 最近实际pull后双README已读锚 `c10300cc29e60b0c0b43bf67f9003d64189af0b0`（2026-11-28 18:02 UTC）。
+- 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `ddd3d4ed76e24b23c888e84b60385432a6fcf426`（FETCH_HEAD 2026-11-28 17:51 UTC），相对0e3cbe262双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟18:46 UTC再pull。
 - 每结论实际pull/核双README差异/推送；NFF立即rebase循环至成功，不force。根§12无额外审批或独立复核门；§15只源/参数/hash/小标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/profile/chart/mean/时间域的连通闭C²嵌入连续族；H有内点且diamH≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D；全metric≤1e−6且固定问题的谱/径向/时间精化降至机器或求解容差；多个t小网格复现和严格存在差距说明。λ<1非准确圆弧H；换δ/profile/帽非同g精化；完成后继续改善比例。
-- 完整历史：[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[R90后H](notes/2026-11-28-handoff-after-r90-before-new-frontier.md)、[视图变化前H](notes/2026-11-28-handoff-before-workspace-view-reset.md)、[当前压缩前H](notes/2026-11-28-handoff-after-qr-entry-recovery.md)。不重做已登记结论；必要输入再生不计新结果。
+- 完整历史：[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[R90后H](notes/2026-11-28-handoff-after-r90-before-new-frontier.md)、[视图变化前H](notes/2026-11-28-handoff-before-workspace-view-reset.md)、[QR入口前H](notes/2026-11-28-handoff-after-qr-entry-recovery.md)、[λ0支持诊断前H](notes/2026-11-28-handoff-before-lambda0-support-recovery.md)。不重做已登记结论；必要输入再生不计新结果。
 
 ## 1. 当前主线：新R87单缓坡到准确λ1
 
@@ -18,7 +18,7 @@
 重置前最高全门接受[λ=.128/M24](notes/2026-11-28-design-single-gentle-lambda128-m24-actual.md)：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。旧raw现在不可读。
 λ=.256/M24和M32分别metric8.84140e−5、1.28584e−6未门；[M40恢复实返](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)952点/RMS9.69144e−7/BC5.89278e−11/mean1936/δ=.06810713649643507，但metric1.248439224e−6仍未接受。M32→40平台仅给试严格径向tol的理由。旧M48无完整raw，原89083真exit1原因未知，不称数学失败。
 
-[必要输入及正式控制](notes/2026-11-28-design-r87-input-recovery-and-formal-control.md)已真完成70源/port/chart/初猜恢复；原全部hash核同，初猜415×25仍未接受。新λ0/M8/tol2e−7于17:30:22 UTC真启动TTY81483，最新765点出现原accepted步长1/8192→1/131072，未读到终态；analytic用真实7节点核原δ差分。λ0没有factory.jet_parameter_derivatives，原portable并未安装V5解析δ列，不能先归因解析列。[后继v2正式控制](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)81153bdf…已compile/help：.256:32明确mode-floor、真双锚升模用原完整两源lift；metric-only源仍原单源lift，ENOSPC/MemoryError/信号独立工程退出不λ二分。保全部门，真锚到来即继续λ1。controller afe8e548…已compile/help，真实stage后nonce/outdir/scope停请求、锚同步、活child先完成；工程exit4独立于数学失败。
+[必要输入及正式控制](notes/2026-11-28-design-r87-input-recovery-and-formal-control.md)已真完成70源/port/chart/初猜恢复；原全部hash核同，初猜415×25仍未接受。新λ0/M8/tol2e−7于17:30:22 UTC真启动TTY81483，最新765点出现原accepted步长1/8192→1/131072，未读到终态；[七节点δ真核](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)已返回：首诊断构造器不适用λ0真exit1，v2真exit0/4.792s；原λ0无V5解析δ安装，独立δ解析对原h2e−7 FD相对差3.33993e−9，全state/support/RHS逐位同。未组装全J或接受新场；末support尺度1e−9使原FD物理步约2e−14，另行核原support导数。[后继v2正式控制](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)81153bdf…已compile/help：.256:32明确mode-floor、真双锚升模用原完整两源lift；metric-only源仍原单源lift，ENOSPC/MemoryError/信号独立工程退出不λ二分。保全部门，真锚到来即继续λ1。controller afe8e548…已compile/help，真实stage后nonce/outdir/scope停请求、锚同步、活child先完成；工程exit4独立于数学失败。
 
 ## 2. 真λ1后的完整DN、几何与固定g入口
 
@@ -30,11 +30,8 @@
 
 ## 3. 原低λ成果与有限弦理论：不可冒新场
 
-旧879点λ.002/q=.06来源run1ad16826…/physicalb9a61ae8…，fullH packet81f6eb0f…真实1152段/55344未知、完整1776 heightJ，原audit normalizedFullDefect1.964293876e−5保留。C² bundle3b312be5…/mean161eec0d…定义18460 spans及完整共享两jet。
-[R90](results/R90-complete-closed-all-phase-metric.md)全域/全相位metric≤9.97128585114805e−7：17644旧成功加816补项/817叶、3122文件核同；v4/collector真exit0，原79580码未知与stage82 K<10 false不改。R79–R82原width=.12 cut/完整尾/柱/帽付D≤2.3850166810、support≥.6420099884、K≤12.3、reach≥10/123；[R89](results/R89-sharp-marker-bernstein-and-unchanged-geometry.md)新固定帽全E(3) dE>7e−17。不是准确λ1/最终coupled-H；旧大数组当前丢失，不重算原1152段。
-
-[R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)及补充给原64191维rank24端口/25固定g联合块和完整回代；全V/q列已真实返回，旧J与accepted raw的x/pscale同、y/p异，只可作混合点chord，不能当当前J逆。
-[R92](results/R92-complete-refined-chord-space-and-residual.md)已证完整细网格Bfine=T⁻¹diag(B,I)S，保全部新状态/子行/参数/BC；左右近似逆残差≤dmaxε/ε、单右端∞回代不增、浮点预算另列。旧实际v3只二分867号cell→880点/64264维，真17784 exit0：RMS9.7104954196e−7、BC9.48179e−12、metric6.5389748102e−7全过；q_aux=.0600009068，固定δ=.06413464112662924。只是仿射DN前缀，新native从未启动，旧数组/未推源不可读；[重录回执](notes/2026-11-28-analytic-fixed-q-affine-chord-refined-return-recovered.json)不冒逐字恢复。
+旧λ.002/q=.06的raw-H全图由[R90](results/R90-complete-closed-all-phase-metric.md)付全相位metric≤9.97128585114805e−7；R82全几何、[R89](results/R89-sharp-marker-bernstein-and-unchanged-geometry.md)新固定帽full-E(3) dE>7e−17已付。原audit normalizedFullDefect1.964293876e−5/原未知79580/K<10 false均保留；不是准确λ1或final-H，旧数组现在不可读，不重算1152尾段。全来源和旧J/V/25维DN实际回代见上方归档。
+[R92](results/R92-complete-refined-chord-space-and-residual.md)给全维Bfine=T⁻¹diag(B,I)S，左右近似逆残差≤dmaxε/ε、单右端∞回代不增、浮点预算另列。旧实际v3仅二分867格到880点/64264维，17784真exit0/RMS9.7104954196e−7/BC9.48179e−12/metric6.5389748102e−7；固定δ=.06413464112662924、q_aux=.0600009068。只是仿射DN前缀，新native从未启动；旧数组/未推源不可读，恢复回执非逐字原JSON。
 
 [R93](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)给R67任意N=3J高阶矩的有限明确相位αj=acos(1−3j/(2J))/3≤2π/9<4/5，最大不变量差≥cJ|AN BN|，两柱长至少一|AN|≥|mN|/400。全E(3)平移界改进3d/2，任意秩张量给min(σ/3,ΔI/KN)表面距离下界；J1–8准确小证书真exit0。没有新λ1矩/几何；R87全图前提仍须实付。
 
