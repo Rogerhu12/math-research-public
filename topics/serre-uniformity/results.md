@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Hahn半步分解与真实取消参数导数（已证明，R1194 §§9.7–9.9）**：[R1194 §§9.7–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)已付同原L的半步分解T₂T₁、短核/全格点核及全长Saalschütz空间导数单位；该导数未冒认谱导数。实际t_r=(2m−1)F_m′(0)/(24m)来自先终止后微分，Whipple后取消参数的调和余项完整保留；HC.34–35给同一个原w(-1/2)的加权导数/有限三角源。继续全部余项与边界到4D_N′(1)+(4/3)D_N(1)的实际箭头，指定双零仍未排。
+
 - **原最高packet完整普通尾配对与CM核首log（已证明）**：[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像一维，γ_N与所有低a/high-normal交叉配对均显示；完整收缩严格消去opposite选择。对T*=(b³−1)^(2g−1)，三个支持支含node/flux首层贡献全零，同P完整V_m(T*)恰全SS有限和。原ν_s∈μ_m仍保，未宣同相位或该和unit；继续求实际值及指定C整运输。
 
 - **原普通商全部周期jet与有限log输入（已证明）**：[R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary商在全部a≤m的G²有限log输入由同target晶体/opposite/周期ODE及Lagrange反演明确给出；b0的第五/七槽为−13θ₀⁵/40、−149θ₀⁷/1680单位，最高槽回原Q_p有限系数。原θ/分支与低a交叉保全；节点unit不代同β全列或指定C首类unit。

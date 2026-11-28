@@ -116,6 +116,8 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 [R1194 §9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原谱导数准确为q_j′(0)=w(a_j)−w(2)v(a_j)，唯一偶w满足Lw=−v/a且w(0)=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真正Casoratian源−v²/a及完整非齐次Wilson–Newton逆式已付；HC.21–24以自足望远镜给两条终止balanced4F3。普通second-kind源不同，未据此宣互素。
 
+[R1194 §§9.7–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)已付同原L的半步分解T₂T₁、短核/全格点核及全长Saalschütz空间导数单位；该导数未冒认谱导数。实际t_r=(2m−1)F_m′(0)/(24m)来自先终止后微分，Whipple后取消参数的调和余项完整保留；HC.34–35给同一个原w(-1/2)的加权导数/有限三角源。继续全部余项与边界到4D_N′(1)+(4/3)D_N(1)的实际箭头，指定双零仍未排。
+
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
 [R1179 §13](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)全奇3≤s≤(p−3)/2有M_s(0)=−E_(s−1)(s−1)!Bp−s/[2^(s+1)(2s−1)!C^(s−1)]；完整aux norm/FL/Appell敏感度/未归一Bol已付，Euler不假unit，bad仅c0零。当前用f_s(0)·(f_s(η)−f_s(η′))=0保全部原奇行，继续同一Fay p-band对角及真实p极边界，不添mask。

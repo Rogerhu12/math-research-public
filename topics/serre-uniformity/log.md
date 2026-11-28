@@ -640,3 +640,9 @@
 - 对原CM轮廓核T*，三支持尾此前全层零，补足node同源单位/flux后centre–node frame一致，其余相对Picard过渡在1+I，故全支首层贡献零；同P完整V_m(T*)为全SS有限和。原ν_s∈μ_m明确保留，未宣unit；root/global逐式纸核，无数学程序，继续实际值/同C。
 - R1198已真实推6f91bdf14d9bb787f5b2da3029bf017126def258，run46159675499/job141023972103。H/open/近100KB索引压缩前逐字存before-highest-kernel-pairing，旧链接在同目录保持有效；所有来源/边界保全。
 - 本push规则：公开Actions真实pull至 5af7522d65eacccca5d6f69f04d19497c03f9cc3（2026-11-28T15:49:53.327932+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1194 §§9.7–9.9：原算子半步分解和全格点空间导数已付；实际非齐次companion系数准确接到终止4F3参数导数，Whipple后的完整调和余项及原标记值三角边界均保留。指定双零和旧Dixon单位桥接仍开，继续同一源。
+- root逐式纸核HC.25–35并亲读Rahman1981印刷页920式2.4–2.5；无数学程序。R1199已真实推f859aba50bc796b203689e1f4ed30ad7949ead95，run46161885851/job141030799356；最高核全图值继续从Cartier–Weil绝对相位和SS有限和求解。
+- 本push规则：待本公开Actions真实pull并检查两README后填写；主目标OPEN。

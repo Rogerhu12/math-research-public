@@ -34,7 +34,7 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 [R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
 
-[R1194 §§1–9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原Hahn全左半无权范数为−ℓ!/[2(M+1)(M!)²]单位，但指定短和仍带1/(3j+2)。实际谱导数q_j′=w(a_j)−w(2)v(a_j)，Lw=−v/a、w0=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真实Casoratian源−v²/a及HC.21–24终止balanced4F3已付；普通second-kind源不同，指定互素仍开。
+[R1194 §§1–9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原Hahn全左半无权范数为−ℓ!/[2(M+1)(M!)²]单位，但指定短和仍带1/(3j+2)。实际谱导数q_j′=w(a_j)−w(2)v(a_j)，Lw=−v/a、w0=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真实Casoratian源−v²/a及HC.21–24终止balanced4F3已付；普通second-kind源不同，指定互素仍开。 §§9.7–9.9已付原L=T₂T₁、全格点空间导数单位及真实t_r=(2m−1)F_m′(0)/(24m)；取消参数后完整调和余项仍在，HC.34–35准确回原w标记值，尚未桥接旧Dixon单位。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
