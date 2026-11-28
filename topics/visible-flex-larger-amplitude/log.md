@@ -89,3 +89,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:04:00 UTC — 25完整pure实际返回与同源终点续跑边界
 
 25 pure实际0/313.30434169100045s/sourceab4649d4/reader82a5，readout8554125/f8578678仅runner；445读数实返423+原errors22。同a28ae/de44final不可行，metric0/restoration4、μ实际.01但后继不隐继；wholepacket outer/cache一致、19绑定/10capture/0fail，无crosspoint回填。正做同source/model/完整13final+typed续跑，不借run13标签或摘要重建状态。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`aa552b5a20bfd7aa0541725be3fa90814688a341`无变（非pull）。
+
+## 2026-11-28 06:05:20 UTC — q090九旧响应/预算/warm诊断完整保源退役
+
+[完整三件](computations/legacy-q090-response-warm-diagnostics-complete-delivery.json)108255B保34本topic+28外源whole身份、28原binary/raw/tangent精确恢复、9实际完整argv/资源和全部consumer；只移九旧generated JSON305008B，净196753B。[完整说明](notes/2026-11-28-q090-response-warm-diagnostics-retirement.md)。原151211B大体未读，已有SHA来自实际run-state/consumer；binary未知SHA留null，输入从原2cf540固定恢复而非当前快照。旧869只是source label非public restore commit，真实922382全source逐身份匹配，不冒未取的4752client；finite-port实际闭包不用该client。六warm都inspection_only/nonlinear_solution=false；原c6held失败、两个有限QR响应非新解和原选择责任保。全部source/config/port/profile/checkpoint/directions及当前Fejer输入保，无数组编码/新数值门。双README云核至`6f4fd2fff1483886d9e1130d2b04eeffc195aa36`无变（非pull）。

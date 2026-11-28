@@ -137,4 +137,4 @@ normal.complete不代全连续branch，mean J不代Cu。全32stage/1024整圆/92
 
 ### 容量与持续研究
 
-[ret74](computations/legacy-duplicate-scalar-profiles-retention-74-complete-delivery.json)、Hermite及73–65完整源参/原结论失败/固定Git恢复保。旧whole reader先恢复exact原路径，活输入/唯一状态/未闭来源不删；新raw只runner。完成标准未满足，持续真正求解。
+[q090完整账](computations/legacy-q090-response-warm-diagnostics-complete-delivery.json)、ret74/Hermite及73–65完整源参/原结论失败/固定Git恢复保。旧whole reader先恢复exact原路径，活输入/唯一状态/未闭来源不删；新raw只runner。完成标准未满足，持续真正求解。
