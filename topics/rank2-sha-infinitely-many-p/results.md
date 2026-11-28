@@ -300,3 +300,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1071 §20：同一G3的标量pencil与全W8回原图
 
 原(1,u)全域生成O(F)，H¹(F)=0给W3=W2+uW2；每端八个完整2449系数W8返回加原标量t³u即得W12。九文件独立软件源已固定，40pins及真实原owner均静核，尚无1156/306运行结果。 [同编号全文](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)。
+
+### R1071 §20：同一原G3独立软件实际PASS
+
+R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d54ac95787b、run46151076917/job140997639248，40实际源与五完整回执由根/代理独立核；真实level4格/两域四HNF/三重极/全部拒绝通过，1156及306原生产未执行。 [完整回执记录](notes/2026-11-28-original-descended-g3-pencil-software.md)。

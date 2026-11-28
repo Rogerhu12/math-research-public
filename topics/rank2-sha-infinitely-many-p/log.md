@@ -379,3 +379,13 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 根手核(1,u)的所有几何点及厚极阶、完整pencil正合列与H¹(F)=0、W2/W3同一recipe的高精度延长、t⁶W2的原W8完整2449窗和t³u多项式。九个最终文件、40实际源、AST/JSON/YAML/bash逐字核；仅独立小软件工作流，原heavy路径无匹配，15+1及pending的并发仍低于20。完整H原样归档后压缩，所有旧结论及回执保留。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:43:57 UTC到c4d25c8b967b9b1523501bc60b595578ad2be333，私库2026-11-28 13:43:48 UTC到16d6a3d952d77d0d948b409d4fa3b052c362163f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47448581B/treeaf2fc5021c1006209616d8c72a8abb79956f6dba，无>5MB。
+
+## 2026-11-28 13:50:51 UTC：R1071 原G3独立软件实际PASS
+
+R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d54ac95787b、run46151076917/job140997639248，40实际源与五完整回执由根/代理独立核；真实level4格/两域四HNF/三重极/全部拒绝通过，1156及306原生产未执行。 根读取实际Git HEAD的40blob，五对JSON/SHA、完整attach/checker、docker同id/exit0和Sage后无凭据/NumPy及线程恢复均独立重核；未存完整可重算输出。v17日志前缀停更不可推成底层长时间停止。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:51:05 UTC到07f0575ef116a10852b678693ac28da0070d7329，私库2026-11-28 13:50:56 UTC到b7983ddd583e746555b12c2dbf1c39c45f770f92；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47547893B/tree467b15592178a03c4dc0d1e1a95ebdb701a3ecb9，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:51:21 UTC到a7e3a8a714443a9d3566dd80e6df7c73ae1fc1cc，私库2026-11-28 13:51:14 UTC到b7983ddd583e746555b12c2dbf1c39c45f770f92；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47547893B/tree467b15592178a03c4dc0d1e1a95ebdb701a3ecb9，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:51:34 UTC到63b47d5c21d211475cb3cc3f1bff5d0c71e9ca4a，私库2026-11-28 13:51:30 UTC到b7983ddd583e746555b12c2dbf1c39c45f770f92；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47547893B/tree467b15592178a03c4dc0d1e1a95ebdb701a3ecb9，无>5MB。

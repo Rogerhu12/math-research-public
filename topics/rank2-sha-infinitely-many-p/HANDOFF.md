@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；公共pack已逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
-- 公开2026-11-28 13:43:57 UTC实际pull --rebase，读取main c4d25c8b967b9b1523501bc60b595578ad2be333；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 13:43:48 UTC实际pull --rebase至16d6a3d952d77d0d948b409d4fa3b052c362163f；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 13:51:34 UTC实际pull --rebase，读取main 63b47d5c21d211475cb3cc3f1bff5d0c71e9ca4a；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 13:51:30 UTC实际pull --rebase至b7983ddd583e746555b12c2dbf1c39c45f770f92；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3274/47448581B/treeaf2fc5021c1006209616d8c72a8abb79956f6dba；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3284/47547893B/tree467b15592178a03c4dc0d1e1a95ebdb701a3ecb9；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -24,7 +24,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)source84917b3eab61681c70cf8f01112139eb0b6288df/run46139352999/job140961628765。根13:00首次取得同代理前缀2101953B/SHA30dfd00a545a3308f9360603c86a6c85b0eb050269b26b0f11e43fb3dadebd6f，至12:47:08.5388279Z；80实际文件/76请求pins、F/P同次独立读者及22RESULT/SHA均核。真T两图10HNF后正在完整∞纤维86/306；尚无A端点/四outer/后门PASS。固定29/shadow/artinian/2453/batch64/minimal/preflightfalse/4CPU16GB21000s/Sage10.6禁网只读不变。
 [短图软件](notes/2026-11-28-original-short-global-graph-software.md)source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713实际PASS9.166759972s；43pins、8+14全图及全部拒绝、真二次域/π²/δ0尾由根/代理各核，原失败边界保留，不代306生产。
 [v18](notes/2026-11-28-original-short-global-graph-production-v18.md)source702f361f1cf4725a870a1740a34688e75b2bc469/run46147595142，13:02:18创建，13:03读pending/零job，同heavy group不取消v17。85pins及六个同软件模块逐字接回原端点/两图/后理想全X及既有全部下游；独立host核Sage后实际线程/无凭据。尚无新85pins/F/P实际运行或生产PASS。
-[R1071 §§1–16](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)及[§17起](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)保原全N/D、LaurentX及post-ideal双理想完整X。旧G13维1164/总厚度21、原域完整多链；两端有限负2255/正2256/U1，反图负2253/正2256/U3，历史paired帽18/20。A4/V4给Z1156属127、原九点同降、四交39840→9960；旧T/v和18×9分块未自动四次方。§17同q/−4log frame、真G3维228/1483项、972乘积秩840，全两截面回612paired rows；原Artin0/2的高A/B2095项已付。§18三正规化总缺864及真étale四盖；§19原F G2维162/937项和四真实minor厚交，物理W244待执行。四理想待实际返回。§20用真W3=W2+uW2及每端八个全W8返回；[独立G3软件](notes/2026-11-28-original-descended-g3-pencil-software.md)40pins已部署，待实际run，不代生产。
+[R1071 §§1–16](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)及[§17起](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)保原全N/D、LaurentX及post-ideal双理想完整X。旧G13维1164/总厚度21、原域完整多链；两端有限负2255/正2256/U1，反图负2253/正2256/U3，历史paired帽18/20。A4/V4给Z1156属127、原九点同降、四交39840→9960；旧T/v和18×9分块未自动四次方。§17同q/−4log frame、真G3维228/1483项、972乘积秩840，全两截面回612paired rows；原Artin0/2的高A/B2095项已付。§18三正规化总缺864及真étale四盖；§19原F G2维162/937项和四真实minor厚交，物理W244待执行。四理想待实际返回。§20用真W3=W2+uW2及每端八个全W8返回；[独立G3软件](notes/2026-11-28-original-descended-g3-pencil-software.md)40pins实际PASS：source c5ac865e508ff7e4f6ead488e8ce8d54ac95787b/run46151076917/job140997639248，4.774745981s；根/代理全log 61834B/74bcf2b05078a2bac3fd5688b5b228b719669b1937f3e78752b4823369d2d863及完整attach均核，不代1156/306。
 
 ## 原两/三位与三个实际目标：R1067
 
