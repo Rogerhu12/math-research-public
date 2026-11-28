@@ -468,3 +468,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1071 §18：三个正规化修正与全厚étale拉回
 
 四次基变只在三处289对3重支非正规，真局部整基1,w,w²付各288缺陷，总864；截断前付289额外单位阶。原X为X′沿[2]的真étale四盖，保所有厚度和闭点次数，不套旧partition逐项四次方。 [同编号全文](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)。
+
+### R1071 §19：原F短图及真实厚交四生成元
+
+原F极度324使G2维162、937系数，整个pencil秩774；高A/D真实Q=q²源已足。A与F的四个z_ij=x_i b_j²⁹−a_i n_j²⁹生成原完整交理想，Z总度9960，物理W244/1224paired rows，保原全N/D及outer。 [同编号全文](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md)。
