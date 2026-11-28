@@ -61,3 +61,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §71：完整驯导子及原Rubin Δ型的非零Kummer
 
 全f标记加实际τ⁻¹Δ型，在平凡wild M=p和原首wild M=p²均有无条件非零Kummer对数；完整原始ρ及Gauss/CRT c_M=τ(f)/ε(M)全付。有限Δ型未冒充整个T⁻¹或Coates–Wiles空间导数。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1073 §17：真实外端首层全Hecke迹
+
+源先按原Fr预标，保每支P(v)后得原权一整邻域迹；完整μd平均/Lagrange使一、二次原函数外端全部正dj系数为零。零次项正是所求原二阶，尚未由此杀或检出。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。

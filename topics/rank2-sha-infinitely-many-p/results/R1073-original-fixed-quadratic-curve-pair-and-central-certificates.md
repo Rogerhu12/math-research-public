@@ -620,3 +620,7 @@ $$\boxed{
  \left(T_{2,C}+d l_C T_{1,C}
        +\tfrac12(d l_C)^2 f_3(0)\right).}\tag{V6}$$
 右边是全部目标二阶、水平一阶与移动规范以及中心二次对数。对每条曲线，删去目标变化将已经破坏(V5)。其二阶的剩余结论仍由(W8)的同一真实定端点积分决定。
+
+## 同一R1073的后续证明
+
+§17起见[真实首层迹与模单位几何](R1073-original-first-shell-traces-and-modular-unit-geometry.md)。保持同一两个原角色与canonical二阶。

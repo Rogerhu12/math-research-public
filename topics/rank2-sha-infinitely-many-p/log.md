@@ -419,3 +419,13 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 根实读BKO§2.1.1的真实U*=(lim U⊗T⁻¹)^Δ及(2.1)，核M=p时ε(p)不能省、ρ|μ6=1及真导子fM，复对偶模barF=F的全Gauss。各σhat真p-unit和原D_t主单位的有限对数式配Baker转移，未将有限tame投影代完整主单位扭转。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:55:49 UTC到fb6faaca61a25842b8363468e9fd7f21a1aba7ac，私库2026-11-28 13:55:44 UTC到308b7ab6ceb3eab9b886ff7ab39df5a2a00f6a37；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47583557B/tree6400026b68d68eb0b0baff61c518315a28ac93dc，无>5MB。
+
+## 2026-11-28 13:55:54 UTC：R1073 §17：真实外端首层全Hecke迹
+
+根逐分支核反对角crystalline轴及真实q_D水平，先非零z再解析延拓；完整平均后径向方程(1−t)^d=xt、dlogξ及Lagrange指数j−1全部核。只推出原外端正次数，不把待求积分常数改成零。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:56:04 UTC到6eb60310ba818f7f83224568dedfaec2fcc25cb2，私库2026-11-28 13:55:58 UTC到7f57ef516e0f53ed3f6e0fdb208f959bf3785bd5；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47590948B/tree0778b460a65466acd001177bf77f3aae7289d7a0，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:56:18 UTC到2cce8429732875c68ed39efa604cdbcb3ca6e80c，私库2026-11-28 13:56:15 UTC到2e53cc8ee5bdab081fca4ccd7f4431223ee3319e；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47590948B/tree0778b460a65466acd001177bf77f3aae7289d7a0，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:56:32 UTC到9209403b519b8b2b221f99f7f21df8b52a1685c0，私库2026-11-28 13:56:27 UTC到76507f5935f3c2f6ba62d26cefd93a3bc7ae1b3a；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47590948B/tree0778b460a65466acd001177bf77f3aae7289d7a0，无>5MB。
