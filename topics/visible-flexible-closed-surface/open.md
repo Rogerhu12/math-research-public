@@ -18,6 +18,14 @@
 
 [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)已在同一个明确的H65/HF64+原W/R205核及两R210固定帽上，证明整闭C2连续相位族的嵌入和两强形状比例：D≤3.076641236、held/D>.2137、含反射δE/D>.0532。当前该场的度量误差及reach没有同时过门。原g新XYZ、双材料钟和新g各自改变了位置或目标，不能自动继承该完整几何证书。后续同一场必须同时支付余下两项及固定g真实加密。
 
+## 当前新增输入与已排清的限制
+
+[R273](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md) 的真实上弯尾与长喉在原凸帽位置不动时，已给三分量的全部几何及保前缀的全空间微分同胚。新完整连接带的实际位置与度量仍继续；现有有限 LM、端口 lifting 和整角径线各按自己的真输入登记。
+
+[R274](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md) 的整圈最优目标和两个真实场的严格剪切见证证明，只自由调径向长度/角半径不能消除当前约 .1 的误差。继续改变完整位置及真实二维材料识别；同 g 的 6615 位置空间已经实际扩充至 14820，新旧独立观察继续分开，不把训练峰当连续证书。
+
+[R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md) 已给准确混合 K 圆参考及全闭 reach，但 [R276](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md) 已证明它的有限阶抛物圈和真实平尾仍导致正则 gap 一阶退化。非零有限试验分别保留，当前进一步从 R262 的真实非圆近等距场更换输入继续；这不重做原基解组成，也不把原 reach 和精度借给新幅度。
+
 ## 2. 强目标最终必须同时具备
 
 1. 一个实际完整闭C2位置族，同一目标g及全域全时误差；完整中央、两端端口、全部尾、cuff和固定帽。

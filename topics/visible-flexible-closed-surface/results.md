@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R276：有限阶抛物圈的有界一阶唯一性](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md)（2026-11-28）：允许内部角主曲率变号，真实 R275 圆点仍有 gap 一阶退化；不排有限幅或非可微分支。
+
 - [R275：混合 Gaussian 曲率的准确圆种子与整闭 reach](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)（2026-11-28）：真双端完整零幅面；核 reach≥1/7.37，真实固定帽整闭 reach≥.097；作为非圆继续的起点。
 
 - [R274：整紧环共同SPD最优由至多四角、对角最优由至多三角实现；后者化为单变量凸log(U/L)。三角解析例严格超过所有R255两角下界。](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md)（2026-11-28）。

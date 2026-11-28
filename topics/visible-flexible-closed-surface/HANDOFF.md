@@ -54,7 +54,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-R274 --> [R274全角目标](results/R274-all-angle-invariant-metric-centre-and-diagonal-reduction.md)；[实际双钟/75步XYZ严格见证](notes/2026-11-28-2ecf-strong-HF-exact-diagonal-shear-floor.md)对任意共同对角g误差>.09811/.08359，须改变位置或角识别。
 
-<!-- 2ecf-r275-round --> [R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)：新混合 Gaussian 精确圆参考有真实双端与整闭 reach，圆相位平凡；非圆继续的实际误差单列。
+<!-- 2ecf-r275-round --> [R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)准确混合K圆面有整闭reach；[R276](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md)证明其有限阶零点仍迫正则 gap 一阶导数为零，继续实际非圆源。
 
 ## 工作位置与接续
 
@@ -64,4 +64,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:49:13 UTC；已读公开 main `e1e113d6f00dba67cb3c38188cee399cc94292af`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:53:44 UTC；已读公开 main `16ed9f64f2f35bcce4d07287fac1356684848920`，根/课题 README 逐差无变化。
