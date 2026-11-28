@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-entire-B-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-strict-flat-ideals-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar同P/双Q/费用、median/carry/TS与[整数迹](results/R12-appendix-actual-walsh-graph-domain-integer-traces-sampling-and-single-boundary-chain.md)、[Abel](results/R12-appendix-actual-graph-trace-abel-continuous-quasiaffinities.md)保。新[完整二进平方来源](results/R12-appendix-explicit-dyadic-square-divisibility-and-new-closed-stable-commuting-domain.md)给W²=C²Z且W/Z均非C C′；L=C⁻¹W的真稠闭域稳定，L²=Z|D，RanC图核心、C_E各幂内部稠值。此D不含于旧Walsh域，且因含RanC由完整喷射排作原根域。继续同flat P的真实V²=CP²及普通不变格桥。
+原Haar同P/双Q/费用、median/carry/TS、整数迹/Abel及[二进平方](results/R12-appendix-explicit-dyadic-square-divisibility-and-new-closed-stable-commuting-domain.md)保；L=C⁻¹W域含RanC，不能作原根域。[新严格理想比较](results/R12-appendix-strict-flat-jet-and-common-power-ideals-and-actual-inverse-topology.md)给实际全幂F严格小于闭flat I，CF=F且F非范数闭；全部真实整数逆费用给完整非范数化Fréchet代数。closureF是否I仍开，不由平坦或整数可除推出半次幂；继续同flat P的V²=CP²与普通格。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。

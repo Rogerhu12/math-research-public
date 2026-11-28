@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** d6149fb7d84bdb3611d6615f99bec74837e111a2（2026-11-28 09:13:35 UTC，Actions run46129417997实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46129417997-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 09:13:34 UTC/814a3e12ab2480076aa23b16cca730a05937c29f，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 09:05 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。10:05再探，旧故障保归档。
-- **终端断开后远端已读：** a6c74a411b991758c0393190234cc8b2b3f7a3a0（2026-11-28 09:13:01 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 328c71f7c15e66bec205162e014e9c60be09fe21（2026-11-28 09:18:20 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Phi-entire-B-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-Haar-strict-flat-ideals-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -66,6 +66,6 @@
 
 - 原A单射/稠密像/拟幂零/非紧，普通M未知。真迹类Ky全目标稠密、核Cy⊥；每个非零像对全T循环，所有proper闭T不变L拉回=Cy⊥，此族像交点零。Cy⊥非零未付；RanKy∩RanJ0及同源Abel平方费/log→∞已付，不外推W。D非闭/固定费非localizing/闭包R无紧及MASA门冻结，未知M额外代数保持开。
 - 同源累计log费Θ(n⁵)、全尾q|pk、M有限头非Fredholm/无尾模补或幂不变闭补已付；不分裂M开，全尾不传未知限制。全C强*密度/喷射/UHF零交不付入域；指定正循环f的PXf全柱无界/C1∩Cf0/无可闭已付，普通分母路线冻结。
-- **原Haar普通格/根：** 旧同P/双Q/费用、median/carry/TS、整数迹/边界链及Abel图闭包H²保。新完整二进双和W²=C²Z，W/Z均非C C′；L=C⁻¹W真稠闭稳定、L²=Z|D，RanC图核心。该D不含于旧Walsh域，且含RanC由喷射排作原根域；同flat P的V²=CP²/普通格仍开。
+- **原Haar普通格/根：** 同P/双Q/费用、median/carry/TS、整数迹与Abel保。完整二进W²=C²Z给真稠闭稳定L=C⁻¹W，但域含RanC不作原根域。新全jet理想I闭且CⁿI严格非闭；实际全幂F⊊I、CF=F，F非范数闭，整数逆费用给完整非范数化Fréchet代数。closureF=I未付；同flat P的V²=CP²仍开。
 - 真GR=RT+Q与全C自伴域可付P=RQ入域；q∤p的Q=FZR+KR第一阶整类已排，原q²结式/R171/Puiseux范围保档。真实gauge识别开。原第一正则器ell1时C∩UHF单位、非ell1全喷射平坦，不付另一分母的未知限制。
 - Haar解析循环闭包/真源费、同向量非对称双幂分类及解析单位多项式增长排除已付。非循环g、真实Green/紧扰动/负整数边界、未知域、同forcing/carry、子商损失及N=M开；全H稠密不传未知限制，正常态不代边界奇异态。
