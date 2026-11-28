@@ -65,5 +65,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R773](results/R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)：同R772 g无标记刚横环仅整刚；任意平行平面环不能轴退，连续平移分离亦刚。真轴退.30需sup|IIxe|>.31；不排一般非分离变圈。
 
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。
-<!--run48-coherent-shear-->48 [实测](notes/run48-coherent-shear-46172365283-1.json) 双README真pull 6ad9f9132c197496df8f9ee8759c57cef4c72b2c
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull d09dafc9106ba02b6d6f47a9f2be699f56f29cf4
+<!--run48-coherent-shear-->48 [实测](notes/run48-coherent-shear-46172365283-1.json) 双README真pull 6f01c6656728ab83f5b4b1c4081abf3f887cec79
