@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：b70f4044ba43bd298d3cb64b40098490bc2e7f06**（2026-11-28 11:18 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 10:37 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：cfa368552b16eddb5de403dc87f1b035e80275fa**（2026-11-28 11:22 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
-最近真实pull：2026-11-28 10:37:46 Asia/Taipei，Actions run46098990909/job140836880275，blob:none浅clone后真实pull --rebase至eb042184；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤11:27、pull≤11:37。本地10:37仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+最近真实pull：2026-11-28 11:19:13 Asia/Taipei，Actions run46102253397/job140847085965，blob:none浅clone后真实pull --rebase至10f20b88；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:09、pull≤12:19。本地11:18仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
 root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-canonical-primitive-alignment.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
