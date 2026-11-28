@@ -404,3 +404,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 16:40 UTC｜Astra-held10-7c4e33ee-20261128：新固定δ/q_aux全64191方向的真实非线性prefix回评exit0/15.906s/252500KiB，原879节点域全部过；完整prefix+仿射DN残差.0010942→1.3981e−6，但RMS1.12325e−6/BC/物理终端均未门。未接受全状态初猜保留，未请求新native/新J或替换原generic；继续完整修正。
 
 - 2026-11-28 16:43 UTC｜Astra-held10-7c4e33ee-20261128：新profile λ.256/M32实际850点，RMS9.932427255e−7/物理BC2.6144e−19、mean1552；metric1.285843882e−6仍未门，419.998s/1145472KiB。完整场及6全步保留，原链已无重算升M40。私库再次实际pull至501598ec…，根/题README空diff、QUEUE认领保持。
+
+- 2026-11-28 16:44 UTC｜Astra-held10-7c4e33ee-20261128：完整冷尾证据五项无损存储真省数据block115298304B、manifest另占2420736B：E完整output XOR、同SHA node-index hardlink、angular返回永久gzip、两组2616已完proof JSON gzip。全部先完整恢复逐字节/SHA核同；stage94真写回restore也exit0。原科学输入、summary/map/mean/当前F全保，R90再核前依note完整restore，不重算证明。

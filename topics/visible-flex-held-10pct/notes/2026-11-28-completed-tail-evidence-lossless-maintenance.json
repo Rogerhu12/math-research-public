@@ -1,0 +1,119 @@
+{
+  "status": "completed_cold_scientific_evidence_lossless_storage_and_exact_path_recovery_record",
+  "observed_UTC": "2026-11-28T16:37:09.135148+00:00",
+  "entries": [
+    {
+      "operation": "old_E_complete_outputs",
+      "manifest_or_journal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/old-E-complete-output-xor-20261128-a/manifest.json",
+        "sha256": "7cb34e18d7c54efd47acab5e9a12caaad777b1f8e651ec4b3942b9740616e9a4",
+        "bytes": 5410,
+        "allocated_bytes": 8192
+      },
+      "actual_data_block_bytes_saved": 7016448
+    },
+    {
+      "operation": "frozen_equal_node_indices",
+      "manifest_or_journal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/frozen-complete-node-index-hardlinks-20261128.json",
+        "sha256": "cf62ba1fc713812b8465d8ba5e2c8d6620855b7c0d9617bb3c47f832c91146d2",
+        "bytes": 2855,
+        "allocated_bytes": 4096
+      },
+      "actual_data_block_bytes_saved": 6062080
+    },
+    {
+      "operation": "returned_angular_table",
+      "manifest_or_journal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/returned-lambda002-angular-table-to-existing-archive-20261128.json",
+        "sha256": "ef313b761ae77ae1a3d8773d0eed8a824dcb595a8184899d876d721935c71ca5",
+        "bytes": 1189,
+        "allocated_bytes": 4096
+      },
+      "actual_data_block_bytes_saved": 32968704
+    },
+    {
+      "operation": "original_metric_proofs",
+      "manifest_or_journal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/completed-original-metric-proofs-gzip-20261128-a/manifest.json",
+        "sha256": "54d5d879844356ede8638c6f2596be6b456c29020a7c3c48856b0111bdd3b42d",
+        "bytes": 1049003,
+        "allocated_bytes": 1052672
+      },
+      "actual_data_block_bytes_saved": 52690944
+    },
+    {
+      "operation": "completed_v4_metric_proofs",
+      "manifest_or_journal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/completed-v4-metric-proofs-gzip-20261128-a/manifest.json",
+        "sha256": "747b1b0f35bb001393074b6ac96cc498128582b3604d8ac56a91f4685f701e54",
+        "bytes": 1350976,
+        "allocated_bytes": 1351680
+      },
+      "actual_data_block_bytes_saved": 16560128
+    }
+  ],
+  "total_actual_data_block_bytes_saved": 115298304,
+  "new_manifest_and_journal_allocated_bytes": 2420736,
+  "savings_exclude_shared_df_external_changes_Git_cache_moves_or_other_agents_cache_releases": true,
+  "old_E_output_archive_actual_session_id": 53960,
+  "old_E_output_archive_actual_returncode": 0,
+  "old_E_output_count": 3,
+  "old_E_independent_permanent_complete_output_base": {
+    "codec": "gzip_of_complete_raw_native_output",
+    "depends_on_delta": false,
+    "original_relative_path": "0024-jac-output.bin",
+    "archive": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0024-jac-output.bin.lossless.gz",
+      "sha256": "842b249c2294865afcc0652e65886dc09bda14d18a9962558e5e833ff53df8bc"
+    },
+    "original_bytes": 22662232,
+    "original_sha256": "c4c17e1d0d06687167f001690075a5e18c02f9a92c41612bcc1650876c4b44d9"
+  },
+  "frozen_equal_index_paths_deduplicated": 5,
+  "frozen_equal_index_original_paths_and_full_bytes_preserved": true,
+  "restored_angular_full_original_bytes": 32968314,
+  "angular_existing_permanent_archive": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/cold-prefix-angular-gzip-20261128/02-complete-angular-table.npz.gz",
+    "sha256": "060405ad08961f90cee0851bf87c8e0080a7e33e4b6058cc6e1131bd72bb1cf6"
+  },
+  "original_metric_archive_actual_session_id": 64592,
+  "original_metric_archive_actual_returncode": 0,
+  "original_metric_proof_JSON_count": 1151,
+  "completed_v4_archive_actual_session_id": 27400,
+  "completed_v4_archive_actual_returncode": 0,
+  "completed_v4_JSON_count": 1465,
+  "every_new_archive_fully_streamed_back_before_original_unlink": true,
+  "every_complete_original_byte_and_SHA_preserved": true,
+  "restore_full_closed_metric_collector_requires_both_proof_manifests_first": true,
+  "summaries_contracts_maps_entire_mean_fullbundle_indices_F_and_memo_inputs_left_in_place": true,
+  "frozen_index_hardlinks_are_permanent_readonly_evidence": true,
+  "mathematical_proof_or_native_integration_recomputed": false,
+  "scientific_arrays_or_archives_uploaded_to_Git": false,
+  "source_files": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/lossless_native_output_xor_archive.py",
+      "sha256": "7473959a4bb9dcc204a39512bc36ce45a4f3e731a6a0915c7555aa62363a3165",
+      "bytes": 10656,
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/lossless_completed_metric_proofs.py",
+      "sha256": "a109beeebaab967ad3eb69bf8beaf49718bd5b4215c1e7b6b8891623f000e29b",
+      "bytes": 9752,
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/lossless_cold_angular_gzip.py",
+      "sha256": "e246ed86accb4eaac4d2ed7fd61f4754c46e8a345be8962702b5df1e1a071156",
+      "bytes": 10119,
+      "allocated_bytes": 12288
+    }
+  ],
+  "current_disk_free_observation_only": 494772224,
+  "actual_restore_entrypoint_check": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/tail-evidence-actual-restore-entrypoint-check-20261128.json",
+    "sha256": "10a1a0cbc6a01771221754c59cd4d7136feef52100f20272b1455de96fa36d89",
+    "bytes": 2147
+  }
+}

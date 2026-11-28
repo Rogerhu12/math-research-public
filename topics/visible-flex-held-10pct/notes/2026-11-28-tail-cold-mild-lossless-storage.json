@@ -1,0 +1,170 @@
+{
+  "schema": "held10-tail-five-cold-roots-lossless-storage-result-v1",
+  "status": "actual_complete_lossless_archive",
+  "actual_exec_session": 89041,
+  "actual_exit_code": 0,
+  "summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/summary.json",
+    "sha256": "fe3f00eb72833a545d689a5cfc3c409d5a10fb939b87e5fb101db34af18950a4"
+  },
+  "plan": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-plan-20261128.json",
+    "sha256": "0f7fbd904934d0b9160a792f05e14d671a98ed3a0a1550c29fb3a74feea47fff"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/lossless_frozen_raw_inputs_v2.py",
+    "sha256": "1001ca6e45e2cf00551281dc08dc8d69b86ff945c39306bb42a3ca7c65239261"
+  },
+  "prior_wait_only_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/lossless_frozen_raw_inputs.py",
+    "sha256": "8c0720d0c48d84792c7f056d691eb0681fed4742f5b621536922853d3b8c7ac9"
+  },
+  "prior_wait_only_stop": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor-20261128/engineering-stop.json",
+    "sha256": "29fdd7452e7ef5e6c2567e198ea0806c8533fe8f95958d8ae3e4ef88e57a2565"
+  },
+  "codec_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/lossless_native_xor_archive.py",
+    "sha256": "e7670ca4cb96486f843d6c1bc51ff4e08e62ac9443ccbb021ef75f11dc4714c5"
+  },
+  "roots": [
+    {
+      "source_root": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m08/native-runs",
+      "manifest": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-00/manifest.json",
+        "sha256": "403b18355540a1728fd02df036469a9012491a0b0c61a0574b6317486c7f21e1"
+      },
+      "input_count": 18,
+      "original_bytes": 132028948,
+      "archive_bytes": 6688194,
+      "allocated_bytes_saved": 125308928,
+      "permanent_base": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-00/base-static-template.bin.gz",
+        "sha256": "fc9bd97328fee0b5f60718d05954428058ba0ac1f1e5936fd21eae28b5617319"
+      },
+      "terminal_summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/summary.json",
+        "sha256": "8958682e9a66d21ff93a17c9f65f6c3b02e02c7de8c98deee13c4aeac6b17c20"
+      },
+      "excluded_inputs": []
+    },
+    {
+      "source_root": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/m12/native-runs",
+      "manifest": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-01/manifest.json",
+        "sha256": "1ee14b9c5d8cd7598a37ddfb42e01f95fff3d774f698f7b3b082015be42107d0"
+      },
+      "input_count": 4,
+      "original_bytes": 41181580,
+      "archive_bytes": 5425401,
+      "allocated_bytes_saved": 35753984,
+      "permanent_base": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-01/base-static-template.bin.gz",
+        "sha256": "cea6337c67ad869a9887a8ba2a7010c998cf8264a29cbda1ea4925e41c6be85d"
+      },
+      "terminal_summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-a/summary.json",
+        "sha256": "8958682e9a66d21ff93a17c9f65f6c3b02e02c7de8c98deee13c4aeac6b17c20"
+      },
+      "excluded_inputs": []
+    },
+    {
+      "source_root": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/m12/native-runs",
+      "manifest": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-02/manifest.json",
+        "sha256": "2dee9e7f99bf1fa418bde5e556ea81da42e29086b74955599ee28593a61c1e51"
+      },
+      "input_count": 5,
+      "original_bytes": 49648296,
+      "archive_bytes": 5678680,
+      "allocated_bytes_saved": 43982848,
+      "permanent_base": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-02/base-static-template.bin.gz",
+        "sha256": "8c83255429acfee3cd886de6fb4680f1ef3193747dc679ebf099b6e594bad662"
+      },
+      "terminal_summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/summary.json",
+        "sha256": "4f2371cec4a3cce0a71c43766de079de2ec99442da37b2b6c69a772e1e84813e"
+      },
+      "excluded_inputs": []
+    },
+    {
+      "source_root": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs",
+      "manifest": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-03/manifest.json",
+        "sha256": "35a25e722fac11bc1d17cc03964f238b83671f713eab615fe21bc874c5e312e9"
+      },
+      "input_count": 3,
+      "original_bytes": 38332528,
+      "archive_bytes": 6180185,
+      "allocated_bytes_saved": 32149504,
+      "permanent_base": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-03/base-static-template.bin.gz",
+        "sha256": "238eb4b5701f82ba18ec2980ae3356693927afc0806b5f102dfd96d2a7018676"
+      },
+      "terminal_summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/summary.json",
+        "sha256": "1121f6778aec4ad2e40c5474c310654cbd72fd67367f3c751e300ee9b51960e7"
+      },
+      "excluded_inputs": []
+    },
+    {
+      "source_root": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs",
+      "manifest": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-04/manifest.json",
+        "sha256": "9a265061c3bdb3048b1fd8da934c764f0b00f0e1a0f72c24ddc44ed08a0c8d95"
+      },
+      "input_count": 3,
+      "original_bytes": 49201264,
+      "archive_bytes": 8220030,
+      "allocated_bytes_saved": 40984576,
+      "permanent_base": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/five-cold-native-inputs-xor64-20261128/root-04/base-static-template.bin.gz",
+        "sha256": "cb3291ca166f03cf9beeded1597594eca76180fe4039a9c4f11edcdf9d9010e7"
+      },
+      "terminal_summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/summary.json",
+        "sha256": "471df667394555cf0cb72213004de6a6a3d5df43dbc85b2244f47ec7bdf83648"
+      },
+      "excluded_inputs": [
+        {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs/0004-jac-input.bin",
+          "kind": "directory",
+          "reason": "not_a_complete_regular_input_file"
+        }
+      ]
+    }
+  ],
+  "total_inputs": 33,
+  "total_independent_bases": 5,
+  "total_original_bytes": 310392616,
+  "total_archive_bytes": 32192490,
+  "allocated_bytes_saved": 278179840,
+  "completion_free_bytes": 529186816,
+  "maintenance_reserve_bytes": 67108864,
+  "unchanged_live_geometry_reserve_bytes": 134217728,
+  "write_budget": "actual libz.compressBound(full original length) + 32 bytes + 64 MiB + 2 MiB metadata",
+  "all_complete_original_bytes_restored_and_sha_checked_before_unlink": true,
+  "all_outputs_json_packets_unchanged": true,
+  "current_F_and_geometry_sources_unchanged": true,
+  "large_payloads_in_git": false,
+  "new_mathematical_claim": false,
+  "independent_post_unlink_restore_cli_checks": [
+    {
+      "root": "root-04",
+      "relative_path": "static-template.bin",
+      "bytes": 12300316,
+      "sha256": "929ae5d4fbc3bcfc5a1441d7759e4bb52b46cb49ad23fd9f2feac1648d91a671",
+      "verify_only": true,
+      "actual_exit_code": 0
+    },
+    {
+      "root": "root-04",
+      "relative_path": "0003-jac-input.bin",
+      "bytes": 12300316,
+      "sha256": "7d4bf2b049626b7e0d181349fdcfe3f061ac77cf2ae37f79f5afe85feddca628",
+      "verify_only": true,
+      "actual_exit_code": 0
+    }
+  ]
+}

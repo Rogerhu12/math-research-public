@@ -1,0 +1,28 @@
+{
+  "scope": "Lossless storage of three completed cold prefix angular tables and actual restoration of the lambda .002 table; no numerical field change",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/lossless_cold_angular_gzip.py",
+    "sha256": "e246ed86accb4eaac4d2ed7fd61f4754c46e8a345be8962702b5df1e1a071156"
+  },
+  "archive_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/cold-prefix-angular-gzip-20261128/manifest.json",
+    "sha256": "c69612d2901ba6255b7c9c201b784809c1a98df39103cabff04346e021e916e9"
+  },
+  "actual_restoration_observation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/cold-prefix-angular-gzip-20261128/restoration-observation.json",
+    "sha256": "f88b951ac6e05622c10aa84975c3a1494a8f5c153bc0f05a4848717a23154307"
+  },
+  "archive_process_returncode": 0,
+  "original_total_bytes": 160172910,
+  "archive_total_bytes": 96495304,
+  "initial_allocated_bytes_released": 63668224,
+  "current_net_allocated_payload_released": 30699520,
+  "lambda002_table_original_present": true,
+  "lambda064_table_originals_present": false,
+  "all_archives_present": true,
+  "all_original_bytes_exactly_restorable": true,
+  "full_archive_roundtrip_hash_checks": 3,
+  "lambda002_actual_restore_full_hash_checked": true,
+  "old_manifests_changed": false,
+  "exact_defining_jets_or_live_tail_changed": false
+}

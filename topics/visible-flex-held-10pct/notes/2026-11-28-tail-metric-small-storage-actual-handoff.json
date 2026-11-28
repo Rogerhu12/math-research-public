@@ -1,0 +1,61 @@
+{
+  "scope": "Actual engineered write-wait handoff; unchanged continuous tail metric mathematics",
+  "old_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-storage-handoff-20261128-a/terminal.json",
+    "sha256": "16660c299e4dc3e8e3ac64d0f0802780dc6bcfeb042693bb90a4e1a371543b76"
+  },
+  "actual_new_start": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-storage-handoff-20261128-a/successor-actual-start.json",
+    "sha256": "329488114329e926c3072f911a72696da7b5c223d98159b9cd04f48ccb24614f"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_storage_v3.py",
+    "sha256": "b627b46fe8e75bb1672bb6d2de0a7e2e7d3d3c99e799d7fa22d01c9ccbae4e55"
+  },
+  "old_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_v2.py",
+    "sha256": "ad10604269a322d33f26f5e9e926d68d06b6ca8f836437ecf0ed585384abd115"
+  },
+  "old_exec_session": 95938,
+  "old_returncode": 130,
+  "new_exec_session": 79580,
+  "new_status_at_record": "actual unpaid stage60/span1 passed",
+  "preserved_durable_proof_files": 491,
+  "old_completed_stages_preserved_and_reused": 60,
+  "old_reserve_bytes": 134217728,
+  "new_small_proof_reserve_bytes": 16777216,
+  "first_new_span_metric_upper": 1.9278740223136813e-07,
+  "old_artifacts_or_sources_modified": false,
+  "complete_tail_metric_claimed": false,
+  "original_actual_argv": [
+    "python",
+    "-u",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_storage_v3.py",
+    "--geometry-bundle",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "--constants",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-constants.json",
+    "--normalization-certificate",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-normalization-reuse.json",
+    "--original-certificate-dir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001",
+    "--original-certificate-dir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001",
+    "--reuse-taylor-summary",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-span15-20261128-a/summary.json",
+    "--reuse-taylor-summary",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-spans0-14-20261128-a/summary.json",
+    "--reuse-taylor-summary",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage16-all-20261128-a/summary.json",
+    "--max-depth",
+    "3",
+    "--quadratic-mode-cutoff",
+    "12",
+    "--disk-reserve-mib",
+    "16",
+    "--inherit-v2-terminal",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-metric-storage-handoff-20261128-a/terminal.json",
+    "--outdir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-complete-metric-supplement-20261128-b"
+  ]
+}
