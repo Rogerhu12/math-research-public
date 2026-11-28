@@ -166,27 +166,27 @@
   "child_pid": 2553,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 15,
-    "utc": "2026-11-28T12:39:05Z",
+    "ordinal": 16,
+    "utc": "2026-11-28T12:39:59Z",
     "original": {
       "event": "stage",
-      "stage": 14,
+      "stage": 15,
       "kind": "same_frozen_Haar_shape",
       "design": "tilt44",
-      "relative_Killing": 7770.524401537529,
-      "frozen_gram": 4.6303873878771675,
-      "curvature": 22134636.41700951,
-      "support": -0.9420234882584296
+      "relative_Killing": 85001.16825742641,
+      "frozen_gram": 9.607780255855785,
+      "curvature": 18951840837.03279,
+      "support": -0.9726544515609259
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run38-bent-disk-killing-46145189191-1/field/summary.json",
-      "bytes": 34792,
-      "sha256": "1cff85d7683455da898d5e4117fa5adf4b457ca23c60abc7ee1df1e907783b0e"
+      "bytes": 39564,
+      "sha256": "fbf438fbd31c3ef1f1a08ea8f229e5dc69b8639b3767911adf924de71ce5748a"
     },
     "complete_small_json": {
-      "elapsed_seconds": 362.15198353899996,
+      "elapsed_seconds": 418.36027598699997,
       "frozen_source_npz_sha256": "89d69811a64d3b2a7ff560d5d06b8dd59b3ee45403662d6e4bb0dfc3382d81a3",
       "frozen_target": {
         "action": "Both fixed stages use the circle action of this same original shape basis and recorded preperiod vector. A transferred stage vector is used only for reporting the material Killing residual.",
@@ -246,13 +246,6 @@
         "source_field_before_cache_rescale_sha256": "efc19d83394fecb4d2cd2bc68c178db385196bc807b2c51cb070c2f96387b65b",
         "source_field_sha256": "efc19d83394fecb4d2cd2bc68c178db385196bc807b2c51cb070c2f96387b65b",
         "source_shape_sha256": "84350e3bf3b8c2573ddfc99ea7fbd8534f90d6648f00ef85d03bd858f9743561"
-      },
-      "in_progress": {
-        "call": 1,
-        "cost": 31.757983349938222,
-        "kind": "frozen_Haar",
-        "shape_sha256": "d314f55c2b1e06828e8e77b1225490fde70dec3f433798e7aa74e71495c295de",
-        "stage": 15
       },
       "numpy": "2.3.5",
       "orbit_integration_attempts": [
@@ -1646,6 +1639,32 @@
           "npz_sha256": "89d69811a64d3b2a7ff560d5d06b8dd59b3ee45403662d6e4bb0dfc3382d81a3",
           "optimality": 22.632199905005237,
           "point_sha256": "33e446cd02c76409f10b9b5911ffacbb358bd2f390e4aed4fe97019b18959171",
+          "sampled_entire_phases": [
+            {
+              "center_witness": 0.004999999999999893,
+              "diameter": 2.202837768173485,
+              "held": 0.0,
+              "ordered_inverse_ball": 9042.978489917818,
+              "phase": 0.0,
+              "point_count": 2534
+            },
+            {
+              "center_witness": 0.4704414073164541,
+              "diameter": 2.202837768173485,
+              "held": 0.6556422451277139,
+              "ordered_inverse_ball": 9042.978489917818,
+              "phase": 1.5707963267948966,
+              "point_count": 2534
+            },
+            {
+              "center_witness": 0.5974697916097655,
+              "diameter": 2.202837768173485,
+              "held": 0.6164800941550517,
+              "ordered_inverse_ball": 9042.978489917818,
+              "phase": 3.141592653589793,
+              "point_count": 2534
+            }
+          ],
           "score": 33.38609785408723,
           "shape_count": 850,
           "shape_sha256": "84350e3bf3b8c2573ddfc99ea7fbd8534f90d6648f00ef85d03bd858f9743561",
@@ -1665,6 +1684,12 @@
             "origin_radius": 1.2914022951855175,
             "support_min": -0.5557595217932655,
             "upper_height_min": -6.293169492056803e-17
+          },
+          "volume_moments": {
+            "fixed_marker_first_moment_x": -4.1783182292744206e-10,
+            "marked_central_second_moment_pi_difference": 1.4399683410802832e-11,
+            "signed_unmarked_first_moment_x": -0.0212472198768775,
+            "signed_unmarked_volume": 2.466099849136752
           }
         },
         {
@@ -1752,6 +1777,32 @@
           "npz_sha256": "be3348eef87731d3939a067898ed71a10a7f1bfcdddc1fb57833b0db9a62d2d2",
           "optimality": 15.261179057331933,
           "point_sha256": "1865f1dd31607063944bcf16b3331508dc0a54015c8c225b672f4ea1d4166dc6",
+          "sampled_entire_phases": [
+            {
+              "center_witness": 0.004999999999999893,
+              "diameter": 2.220128784473113,
+              "held": 0.0,
+              "ordered_inverse_ball": 33591.47395206963,
+              "phase": 0.0,
+              "point_count": 2534
+            },
+            {
+              "center_witness": 0.47069391183428566,
+              "diameter": 2.220128784473113,
+              "held": 0.6551203074997326,
+              "ordered_inverse_ball": 33591.47395206963,
+              "phase": 1.5707963267948966,
+              "point_count": 2534
+            },
+            {
+              "center_witness": 0.5974697916097655,
+              "diameter": 2.220128784473113,
+              "held": 0.6170133293190968,
+              "ordered_inverse_ball": 33591.47395206963,
+              "phase": 3.141592653589793,
+              "point_count": 2534
+            }
+          ],
           "score": 36.663770788768,
           "shape_count": 1096,
           "shape_sha256": "af5c23a370c1603321b8deb11f77980954349fcedc9e4594d21f923286165c69",
@@ -1774,9 +1825,157 @@
             "support_min": -0.24891595418833368,
             "upper_height_min": -8.11121345477864e-17
           },
-          "transferred_diagnostic_field_sha256": "f435e693f134d4d8e5674b34cb8556d1b1379f65d0279f1295f6229c81439c11"
+          "transferred_diagnostic_field_sha256": "f435e693f134d4d8e5674b34cb8556d1b1379f65d0279f1295f6229c81439c11",
+          "volume_moments": {
+            "fixed_marker_first_moment_x": -4.1783182292744206e-10,
+            "marked_central_second_moment_pi_difference": -8.62447503730372e-11,
+            "signed_unmarked_first_moment_x": 0.12824501313809444,
+            "signed_unmarked_volume": 2.4852455526130064
+          }
+        },
+        {
+          "adjoint_abs": 3.552713678800501e-15,
+          "check": {
+            "Killing_op_max": 85001.16825742641,
+            "Killing_rms": 303.2193967886608,
+            "area_min": 0.00013148639553890655,
+            "check_shape": [
+              205,
+              576
+            ],
+            "clock_min_sample": 0.5033365762726365,
+            "frozen_gram_max": 9.607780255855785,
+            "frozen_gram_rms": 0.5611082405971355,
+            "max_abs_principal": 18951840837.03279,
+            "opposite_witness_to_upper": 0.8035941277577867,
+            "origin_radius": 1.2914052739599309,
+            "support_min": -0.9726544515609259,
+            "upper_height_min": -1.0275498299328488e-16
+          },
+          "configuration": {
+            "angular": 176,
+            "check_angular": 576,
+            "check_radial": [
+              39,
+              137,
+              31
+            ],
+            "field_iterations": 0,
+            "id": "fixed-Haar-2",
+            "lsmr": 180,
+            "max_feval": 98,
+            "mode": 20,
+            "radial": [
+              21,
+              61,
+              15
+            ],
+            "regularizer": 9e-07,
+            "spans": [
+              7,
+              18,
+              5
+            ]
+          },
+          "cost": 0.23779781548223256,
+          "design": {
+            "extra": 0.58,
+            "id": "tilt44",
+            "parameters": {
+              "end_height": 0.006,
+              "gamma": 0.44,
+              "height": 0.37,
+              "join": 0.006,
+              "left_handle": 0,
+              "shift": 0.19
+            }
+          },
+          "directional_fd_relative": 1.222179812128246e-10,
+          "field_count": 1251,
+          "field_sha256": "2eb0a612e97d028e78f962f68b65206abeed8278e7e3dd9071284b415c2bd3cd",
+          "frozen_action_source_field_sha256": "efc19d83394fecb4d2cd2bc68c178db385196bc807b2c51cb070c2f96387b65b",
+          "independent_same_target": {
+            "Killing_op_max": 85001.16825742641,
+            "Killing_rms": 303.2193967886608,
+            "area_min": 0.00013148639553890655,
+            "check_shape": [
+              205,
+              576
+            ],
+            "clock_min_sample": 0.5033365762726365,
+            "frozen_gram_max": 9.64107391752367,
+            "frozen_gram_rms": 0.5620308205317127,
+            "max_abs_principal": 18951840837.03279,
+            "opposite_witness_to_upper": 0.8035941277577867,
+            "origin_radius": 1.2914052739599309,
+            "support_min": -0.9726544515609259,
+            "upper_height_min": -1.0275498299328488e-16
+          },
+          "kind": "same_frozen_Haar_shape",
+          "nfev": 38,
+          "njev": 19,
+          "npz_bytes": 25606,
+          "npz_sha256": "e44566d57fa438a23bb76704aadb3fe6422f31fa7a1223cb412c3f0187818901",
+          "optimality": 77.49361324279116,
+          "point_sha256": "ac718a4b36763898980660b666133fb8794ebe5dabb16522e14d5e0e4f1131af",
+          "sampled_entire_phases": [
+            {
+              "center_witness": 0.004999999999999893,
+              "diameter": 2.219498727364315,
+              "held": 0.0,
+              "ordered_inverse_ball": 429448.04619797954,
+              "phase": 0.0,
+              "point_count": 2534
+            },
+            {
+              "center_witness": 0.4707309741211738,
+              "diameter": 2.2194987273643156,
+              "held": 0.6549415799481877,
+              "ordered_inverse_ball": 429448.04619797954,
+              "phase": 1.5707963267948966,
+              "point_count": 2534
+            },
+            {
+              "center_witness": 0.5974697916097655,
+              "diameter": 2.219498727364315,
+              "held": 0.6168336320454637,
+              "ordered_inverse_ball": 429448.04619797954,
+              "phase": 3.141592653589793,
+              "point_count": 2534
+            }
+          ],
+          "score": 50.04065154519229,
+          "shape_count": 1880,
+          "shape_sha256": "b577db5c39d2fcbd727cc5c4f46fa5adb9846b850d70ca8f2eece0459246bea8",
+          "solver_status": 3,
+          "stage": 15,
+          "train": {
+            "Killing_op_max": 2996457.413779499,
+            "Killing_rms": 32775.29453381792,
+            "area_min": 1.038209312203329e-06,
+            "check_shape": [
+              95,
+              176
+            ],
+            "clock_min_sample": 0.5033925043043155,
+            "frozen_gram_max": 8.438092175626856,
+            "frozen_gram_rms": 0.5583642689989924,
+            "max_abs_principal": 29585795382.2134,
+            "opposite_witness_to_upper": 0.8035925198331333,
+            "origin_radius": 1.2914057840731517,
+            "support_min": -0.9363593970690769,
+            "upper_height_min": -8.311563731929959e-17
+          },
+          "transferred_diagnostic_field_sha256": "2eb0a612e97d028e78f962f68b65206abeed8278e7e3dd9071284b415c2bd3cd",
+          "volume_moments": {
+            "fixed_marker_first_moment_x": -4.1783182292744206e-10,
+            "marked_central_second_moment_pi_difference": -8.288574953726026e-11,
+            "signed_unmarked_first_moment_x": 0.12277163756170746,
+            "signed_unmarked_volume": 2.4755954043543267
+          }
         }
-      ]
+      ],
+      "status": "completed_full_finite_Killing_Haar_and_two_fixed_refinements"
     }
   },
   "whole_runner_field_files": null,
@@ -1807,6 +2006,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T12:33:02Z",
-  "observed_utc": "2026-11-28T12:39:05Z",
-  "original_scalar_line_count": 15
+  "observed_utc": "2026-11-28T12:40:05Z",
+  "original_scalar_line_count": 16
 }
