@@ -1,0 +1,77 @@
+{
+  "reserve_seconds": 30,
+  "seed_K": 6,
+  "tail_depths": [
+    7,
+    8,
+    9
+  ],
+  "radial_splits": [
+    1,
+    1,
+    2
+  ],
+  "radial_orders": [
+    2,
+    4,
+    5
+  ],
+  "angles": [
+    32,
+    48,
+    72
+  ],
+  "stages": [
+    {
+      "spans": 8,
+      "K": 6,
+      "iterations": 10
+    },
+    {
+      "spans": 16,
+      "K": 8,
+      "iterations": 12
+    },
+    {
+      "spans": 32,
+      "K": 10,
+      "iterations": 14
+    }
+  ],
+  "initial_trust": 0.002,
+  "retarget_trust": 0.0008,
+  "max_trust": 0.035,
+  "column_block": 6,
+  "tsqr_radial_block": 40,
+  "trials": 9,
+  "fd_tolerance": 0.0003,
+  "prolong_gate": 0.000002,
+  "peak_scale": 0.25,
+  "darboux_weight": 0.025,
+  "rotation_weight": 0.08,
+  "curl_weight": 0.18,
+  "geometry_weight": 4,
+  "cone_guard": 0.08,
+  "axis_guard": 0.3,
+  "barrier_scale": 0.004,
+  "s_guard": 0.5,
+  "s_floor": 0.2,
+  "length_angles": 256,
+  "length_weight": 3,
+  "axis_weight": 1.4,
+  "endpoint_weight": 0.45,
+  "goal": 0.000001,
+  "rim_tolerance": 2e-9,
+  "integration_gate": 0.000002,
+  "initial_seed_amplitudes": [
+    1,
+    0.875,
+    0.75,
+    0.625,
+    0.5,
+    0.375,
+    0.25,
+    0.125,
+    0.0625
+  ]
+}
