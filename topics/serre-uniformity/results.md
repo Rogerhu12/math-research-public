@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原CM全部精度范数与完整全局端点塔（已证明）**：[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM primitive全p^n范数含(1+p²)/(1+p⁴)；十二次Gaussian为−61(1+p⁶)γ7/2、cubic为−7(1+p⁶)γ7。整Teich群环/真实ray norm不除p-group，Δ角色付restriction单射。仅真实CM I∞作高层map，b修正保1+p⁴；global labels为x∞=(1+p²)x0、y∞=(1+p⁴)y0，Gaussian(x0,y0)=(δ̂/4,87δ̂²/44)、cubic=(2δ̂/9,160δ̂²/99)。无挠塔杀全部坏位中央惯性，完整fibre=[x∞,y∞]Θ∞含坏支；cubic最低全Z4可读，非CM有限I不外推whole盘。
+
 - **原局部Kummer与Frobenius的绝对单位（已证明）**：[R1180](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)原同一ζ/严格LT根给正H0代表−γz^(p+1)g(1+Γp)，全部log尾、真实trace/e及两次合法PD gauge给synt=−γ^(2j)c、physical=+γ^(2j)c。独立local测试类校准F_j=γ^(2j)ℓ_j(j1/2)，故U_E=γ_E²、η★=1全部坏支，不需generic SS或β非零；保原σγ=−γ与Miller相位。
 
 - **原Gaussian两个中间矩的准确Bernoulli值（已证明，R1179 §11）**：[R1179 §§1–11](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原fullpoint CM norm给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；ray norm/全regulator/根单位核保全。结合R1177准确得J_p=−4βBp−3/C²、K_p=[v^(p−5)]C6=360βBp−5/C⁴，C²=−4cω²；全部p>37含零支。remaining good支H_p0则heat二阶unit；不替low c2或增mask行，原joint继续。

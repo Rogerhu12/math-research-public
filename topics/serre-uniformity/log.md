@@ -490,3 +490,8 @@
 ### 2026-11-28 19:19 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1180以原ζ严格LT根、positive H0的完整Γp尾、明确normalized Cor测试类与两次合法PD gauge证明F_j=γ^(2j)ℓ_j，j1/2不依赖Bernoulli非零；U_E=γ_E²、η★=1解除旧双坏分支的独立校准缺口。
 - 正文加入strict h的整系数递推自证，原H0/tensor/trace/e/σ和R1177号全部保留；R1152/53顶部标新准确范围。全文纸证完成即推，无数学程序；全p^n CM实际norm及原joint继续。
+
+
+### 2026-11-28 19:21 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1181证明原CM primitive全p^n moment范数的准确Euler因子1+p²/1+p⁴，并付M12的−61(1+p⁶)/2与−7(1+p⁶)；全字符regulator先降至整Teich群环，真实norm不除p-group，Δ角色另付高层restriction单射。
+- 原λ∞使高层b修正含1+p⁴；真实CM endomorphism提供所指定I∞，无挠塔杀所有ℓ≠p中央惯性，得完整global fibre=[x∞,y∞]Θ∞。H/open因容量保存前态后压缩；不提升非CM有限标签，全文完成即推，无数学程序执行。

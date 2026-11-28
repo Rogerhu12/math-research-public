@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-CM-norm-sign-dictionary.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-CM-norm-tower.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -70,7 +70,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 R1168 的原d4/8高Hurwitz公式、normal收缩与原中央有序gauge完整保在原文及[本次前态](open-archive-2026-11-28-before-CM-norm-sign-dictionary.md)。按R1177称S=R_V(yv)，实际AΦ=−S；H=R_Z(yh−b(yv,R)+b(φR,S))，中心Z=b(S,S)−H。高系数本值、滤过gauge/唯一Hodge截面不改；原27terms、同a Cor、未平滑及rs h−zab的实际非零仍继续。
 
-[R1178](results/R1178-original-cubic-CM-norm-and-global-CM-endpoints.md)原cubic全点范数给q_ζ²M4=−γ3/3、q_ζ⁴M8=γ5。原half及+8δ²γ5/11全保，两CM全局labels为Gaussian(δ/4,87δ²/44)、cubic(2δ/9,160δ²/99)。完整fibre=[x,y]Θ，实际端点(rx,sy,zxy)含全部坏支；最低q²Z4由两个高中心及该端点准确读出，cubic此投影确定整个Z4。全部p>37，不用Ccyc或β非零；原whole盘/全局排除继续。
+[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM primitive全p^n范数含(1+p²)/(1+p⁴)；十二次Gaussian为−61(1+p⁶)γ7/2、cubic为−7(1+p⁶)γ7。整Teich群环/真实ray norm不除p-group，Δ角色付restriction单射。仅真实CM I∞作高层map，b修正保1+p⁴；global labels为x∞=(1+p²)x0、y∞=(1+p⁴)y0，Gaussian(x0,y0)=(δ̂/4,87δ̂²/44)、cubic=(2δ̂/9,160δ̂²/99)。无挠塔杀全部坏位中央惯性，完整fibre=[x∞,y∞]Θ∞含坏支；cubic最低全Z4可读，非CM有限I不外推whole盘。
 
 [R1180](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)原同一ζ/严格LT根给正H0代表−γz^(p+1)g(1+Γp)，全部log尾、真实trace/e及两次合法PD gauge给synt=−γ^(2j)c、physical=+γ^(2j)c。独立local测试类校准F_j=γ^(2j)ℓ_j(j1/2)，故U_E=γ_E²、η★=1全部坏支，不需generic SS或β非零；保原σγ=−γ与Miller相位。
 
