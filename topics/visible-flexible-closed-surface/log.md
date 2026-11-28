@@ -444,3 +444,5 @@
 2026-11-28 09:21:18 UTC — Astra-visible-flex-2ecfcd69-20261128：M12同真实M48/G6父态的M64/G12支真返回3ca49d46…，lambda1e−13/alpha1，G14/N3072同点6.08960e−10→5.42414e−10；R226/旧R236/micro全自然0，旧triangle4.91658e−5如实未过，union尚活动，实际峰给h选点。
 
 2026-11-28 09:21:41 UTC — Astra-visible-flex-2ecfcd69-20261128：M12以真实3ca场prefix149–156/tail184–191热点把物理487→503、径向736→784，原g/source/角空间不变；416新准确半径真0/579.905s，源绑定0/62.846s，48 knot Boehm注入0/5.305s到ed281cfa…；新152096列LM正在跑。
+
+2026-11-28 09:26:53 UTC — Astra-visible-flex-2ecfcd69-20261128：M12 M64/G12全部7阶段现自然0、driver exit0/finished=true；10730径向祖先union/N3072实际暖068…峰6.0895984e−10→保存3ca…峰5.4241440e−10，最后观察0/562.647s，旧triangle仍未过且不借其他场证书；真实h503继续。
