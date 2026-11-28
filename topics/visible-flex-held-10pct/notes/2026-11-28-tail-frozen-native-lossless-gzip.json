@@ -1,0 +1,28 @@
+{
+  "status": "complete_frozen_native_lossless_archival",
+  "source_root": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs",
+  "worker_exit": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/tail_worker_exit.json",
+    "sha256": "bc688c28e122aaf22b92a80fd4b799043c2eebb2900802c18625f605e8ecb795"
+  },
+  "complete_source_bytes_preserved": true,
+  "current_mathematical_inputs_archived": false,
+  "current_pipeline_dependencies_confirmed_external_to_this_root": true,
+  "minimum_bytes": 262144,
+  "total_original_bytes": 485211696,
+  "total_archived_bytes": 324179721,
+  "allocated_bytes_saved": 160993280,
+  "actual_journal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/lossless-old-E-native-20261128.json",
+    "sha256": "a4405ab7757b245eb5056e21a3b42489505e417ef4ab6baea608dfd1eddffe92"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/archive_frozen_native.py",
+    "sha256": "cca02b8a073286582bf5e9f385f645d20d1085931831b272d2b5a318d973465d"
+  },
+  "binary_files": 60,
+  "all_archives_fully_decompressed_before_original_removal": true,
+  "large_data_in_git": false,
+  "complete_surface": false,
+  "subsequent_input_storage": "29 complete input gzip files were subsequently losslessly re-encoded as XOR+gzip; use the separate XOR manifest for those inputs, original journal for the others."
+}

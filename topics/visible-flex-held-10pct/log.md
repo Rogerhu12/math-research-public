@@ -232,3 +232,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 ## 2026-11-28 12:21 UTC — M48 完整因子映射恢复合同已审，实际未启动
 
 root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层真来源不变，factor-only保完整原CSR/QR、原方向和验收。只有真实页释放成功才给冷RHS预算；RssAnon信用不含可回收映射页，实际磁盘预分配、逐mesh门和joined-child唯一临时backing清理均保留。本地盘不够1198.68MiB而未启动，不重试匿名布局。见 [准备](notes/2026-11-28-design-mapped-recovery-preparation.md)。
+
+## 2026-11-28 12:26 UTC — 冷旧 E 的完整科学字节无损归档
+
+60份真已终止native二进制逐份完整解压/SHA/原stat核同后才替换，原485211696B→gzip324179721B，实释160993280B。新F与当前流水线不依赖被归档旧根；源/JSON/config/checkpoint均未改。后继29input的XOR格式另记，不用旧gzip路径冒作现存。源、实际终态与完整journal SHA经root核；见 [记录](notes/2026-11-28-tail-frozen-native-lossless-gzip.md)。
