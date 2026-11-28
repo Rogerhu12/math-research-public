@@ -175,3 +175,7 @@ source2c8739ed、PID3435、model726006在原7e06返回完整初始几何，reach
 ## 2026-11-28 12:35:41 UTC — 37 全部八新阶段自然结束与同目标两格实际失败
 
 46142745238/1、job140972094276官方success，新PID2840真实自然RC0，全八阶段933.389s；两固定g独立Gram .917120251188229→.670383394669527、K9979.338755307148→2631.295839389866，未达标。完整外层50458B/3f617daca5e28b3d2bc1fb7f36f187f95ce7e916a9676d702b8c54e0c91977d8，内层20763B/60ae3ce8d75864db1af54ce82aa6dea9ae5a42acf86ebcdce1fce0fde4daae5f；原父重生/NPZ身份/冻结g/三相全部保存。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run37-arclength-complete-launch.md)。双README云核至`c124850fdf6cd230fac2db8fb854d29b9b404c99`无变（非pull）。
+
+## 2026-11-28 12:36:19 UTC — R742 右物理柄八完整设计及原三层实际扫描启动
+
+三件完整新源9601B与ownnote已刊触发，原全三层/全部A-B-柱及右分界角真六jet，既不动原R742结论也不借38不同右窗的费用。修正后5939B原publisher现main保留；新实际值/run待查。open准确续费段完整旧文固定5b13b91...保全，不删科学source/parameters/raw identity或失败未知。 双README云核至`88b43113458077ed85e2a5565e492c7fc3cdf052`无变（非pull）。

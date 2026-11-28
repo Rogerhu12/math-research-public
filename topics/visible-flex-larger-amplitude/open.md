@@ -130,8 +130,8 @@ R724–739全部证明/源参/实际失败保[索引](results.md)及固定全文
 
 ### 准确费用、完整下游与未付标准
 
-R726/R727核心9件已刊，R728准确N/G14及下游24、R730准确包完整保护，原路径/父源/预算保固定全文。R732[准确四包13件382903B](computations/R732-complete-accurate-normal-geometry-parameter-delivery.json)及[闭/十二矩/packet/final mesh完整14件](computations/R732-complete-closed-moment-mesh-parameter-and-entry-delivery.json)全main，139源/922cells/32stage/六jet、N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及全部预算保持；待35自然science与whole pure的同点费用。
+[此前完整open](https://github.com/Rogerhu12/math-research-public/blob/5b13b91a1b3b8114f8f6e03d9407504057673970/topics/visible-flex-larger-amplitude/open.md)逐字保全部原参数/路径/费用/预算，R726–730准确包完整保护，R732准确13件及闭/矩/mesh下游14件全main，待35同点natural science/whole pure。139源/922cells/32stage/六jet、N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及全部预算不减。五t全mesh/全角与全时强C²/全远对reach及真正精化仍须支付。
 
-[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N原repo/canonical/outdir，N变则G新目录，所有whole最终report；R723/mesh fresh、P同canonical整块、U同wholeN、packet全report、restart同runner13final/typed。全角/径向/32stage/两帽/尾/mixed/allphase/晚失败、R718 marked/R716 unmarked、五t/15science+5preview及三级空间/频率/时间真精化仍待付。
+[R742右柄完整新扫描](notes/2026-11-28-R742-right-handles-complete-launch.md)：两倾镜×右0/.18/.30/.42、左.14共8设计，原三格/全域实际六jet，右窗.70/.30与38不同。三件全源触发独立Actions，真实费用待查。
 
 全部分支都必须实际满足同固定g、C²闭嵌入/强C²时间、wholeD、.2D held/grip、全时.03D reach、含反射δE>0、同参数/t域加密至机器/原容差，并给多个<5MB全mesh。更强held、Euclidean商及reach比例继续改善。RET83–100G保全部完整来源/重建/固定Git，不退活输入/唯一状态/未闭来源；raw只runner/scratch。
