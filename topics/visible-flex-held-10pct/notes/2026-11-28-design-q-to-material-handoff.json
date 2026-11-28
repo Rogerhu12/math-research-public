@@ -1,0 +1,77 @@
+{
+  "scope": "Execution handoff only; q numerical conclusions and their actual full gates are recorded in the analytic q-warp full-state secant note. This is required regeneration of earlier attained inputs, not a new lambda frontier or a completed surface.",
+  "previous_fast_chain": {
+    "summary": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-recovery-fast-20261128/summary.json",
+    "summary_sha256": "84d929314de0cf0bdab99f6ad44ec0fe61317b3c024d1939f725a045792ad40b",
+    "terminal_status": "declared_stage_failed",
+    "terminal_error": "RuntimeError('q050_linear_m8 returned 1')",
+    "q050_barrier": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-recovery-fast-20261128/q050_linear_m8/handoff-barrier.json",
+    "barrier_sha256": "2e98b6fd7d1ea416f4352cdbdee90654fa7bc2ba28461993ec8d852ec5bee448",
+    "barrier": {
+      "reason": "Intentional transition after genuine q040 to complete-state q/warp secant initialization for q050; no q050 solve started here and no existing output was overwritten.",
+      "not_a_mathematical_failure": true
+    },
+    "classification": "Intentional output-directory handoff barrier before original q050 equation entry; not a mathematical failure."
+  },
+  "actual_q060_source": {
+    "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/q-warp-secant-20261128/q060/run.json",
+    "run_sha256": "face006fcf739f46f897f0e17c06e7d1e7bf503f3f0e8019333e8963dcdd05b9",
+    "raw_sha256": "1ad1d7960422f7c7a7a81cc8d5761181e1755cdaa2b2adb30e2100b6a5e55f0f",
+    "physical_sha256": "be363a6fc24fd7b3af9db6ef271f7957c5648023d08b4d2f0e9fb46446c39f4f",
+    "checkpoint_sha256": "a275bd4f0dd7e6f62e7e3f856f969198d2527ac1b7a54a9b9f622684465d2037",
+    "original_prefix_gate_verified": true,
+    "source_port": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-recovery-20261128/m8-linear-port.json"
+  },
+  "material_recovery_entry": {
+    "outdir": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128",
+    "execution_begin": {
+      "event": "resumed_execution_begin",
+      "original_main_sha256": "d8e4d600ed93cdc31854b0cb8d45ed0678fddffa20385bb861d70b088abebac1",
+      "executed_main_sha256": "21ae01785eeaeae7cc18cae8722636ffb7a4e95462bc4a38dabf7a4ff23161df",
+      "source_hashes": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/resume_q_recovery.py": "033e6176c12474d9d60496ecfb232552fa74682ac699b36d1c345688f800ba98",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/lowq_prefix_recovery_secant_design.py": "8eb09e79242a3d4af6d84de6cd0149227ef9eda7a4e3c7d50aec889a7b54594b",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v3.py": "abedbcb1496daad013522364bce10b0398610de1c64546a873a2f3388afcfc7e",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_lifted_secant_v2.py": "02cbec53ba1a5d09c1ea66c9091e6b3070a3529e14f82341f25075df15ed3a9b",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_bootstrap_design_v2.py": "6e7deb066ff9f45ddb2f921cf851f5a991aa8e165f24cababdfdbe0dfac4d808",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v2.py": "26e5ff89f368ba4b7c7524c3ea02895f61c9af96bd7e173d2bb0686ed2411d72",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver.py": "f405cba45336ba3a6fc65cb6f6bafea192353d46bec0e3697132549ebe5d44fd",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6"
+      },
+      "source": {
+        "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/q-warp-secant-20261128/q060/run.json",
+        "source_run_sha256": "face006fcf739f46f897f0e17c06e7d1e7bf503f3f0e8019333e8963dcdd05b9",
+        "checkpoint_sha256": "a275bd4f0dd7e6f62e7e3f856f969198d2527ac1b7a54a9b9f622684465d2037",
+        "raw_sha256": "1ad1d7960422f7c7a7a81cc8d5761181e1755cdaa2b2adb30e2100b6a5e55f0f",
+        "accepted_q": 0.06,
+        "earlier_q_recomputed": false,
+        "old_stage_parameters_preserved": true
+      },
+      "remaining_q": [],
+      "existing_port_sha256": {
+        "24": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b",
+        "8": "cf590201aca4d7d67e968d7cb3ba88022467eccb0769b4e8b3ef4b6d0f57390d",
+        "16": "090c652caaa2411a200328f206aa94c782c8f085c85b6c64980bf6f6066acc30"
+      },
+      "original_equations_changed": false,
+      "original_acceptance_gates_changed": false
+    },
+    "remaining_q": [],
+    "earlier_q_recomputed": false,
+    "stages": "Original lambda0 exact-lift M8; positive lambda .002 M8 followed by complete lifts to M16/M24; original .004/.008/.016 design bootstrap; original complete-cross-mode secant continuation to larger lambda. Every original declared BVP, domain, BC and metric gate is retained.",
+    "status_at_capture": "running; no material-stage success implied"
+  },
+  "numerical_results_note": "notes/2026-11-28-analytic-q-warp-full-state-secant.md",
+  "wrapper_sources": {
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/resume_q_recovery.py": "033e6176c12474d9d60496ecfb232552fa74682ac699b36d1c345688f800ba98",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v3.py": "abedbcb1496daad013522364bce10b0398610de1c64546a873a2f3388afcfc7e",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v2.py": "26e5ff89f368ba4b7c7524c3ea02895f61c9af96bd7e173d2bb0686ed2411d72",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver.py": "f405cba45336ba3a6fc65cb6f6bafea192353d46bec0e3697132549ebe5d44fd",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_lifted_secant_v2.py": "02cbec53ba1a5d09c1ea66c9091e6b3070a3529e14f82341f25075df15ed3a9b",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_bootstrap_design_v2.py": "6e7deb066ff9f45ddb2f921cf851f5a991aa8e165f24cababdfdbe0dfac4d808"
+  },
+  "complete_surface": false,
+  "fixed_metric_refinement": false,
+  "nonlinear_tail_paid": false
+}

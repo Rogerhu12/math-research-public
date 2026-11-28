@@ -1,0 +1,171 @@
+{
+  "scope": "Actual positive-lambda input recovery and execution handoff; earlier old-run lambda .128/M48 remains the recorded mathematical frontier. These regenerated fields do not establish a new frontier, complete nonlinear DN, closure, exact protected arcs or a completed surface.",
+  "runs": [
+    {
+      "name": "lambda0_exact_lift_m8",
+      "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda0_exact_lift_m8/run.json",
+      "run_sha256": "b66081ceccb78d0f5e6225165e4411259768aea970f02338cb7b7ec4de507861",
+      "homotopy": 0.0,
+      "modes": 8,
+      "nodes": 879,
+      "seconds": 50.43075361900037,
+      "solver_success": true,
+      "original_finite_checks": {
+        "tolerances": true,
+        "solver": true,
+        "rms": true,
+        "physical_bc": true,
+        "solver_and_boundary_pass": true
+      },
+      "complete_saved_initializer": true,
+      "original_prefix_gate": true,
+      "rms": 9.85236289452613e-07,
+      "metric_l1": 5.349072610134592e-07,
+      "physical_bc_max": 1.4714547516245864e-16,
+      "audit_samples_psi": 512,
+      "actual_delta": 0.06413471910904202,
+      "raw_sha256": "122b0dd6eb2800da2932482f8d87ddfcb943ed5b2ceee0b7eb24f93a87e95dcc",
+      "physical_sha256": "26c3baa79aa50aac05ab0b9dc0656f5be8a3719ec96486bc6c0c5d6a6b18ff79",
+      "domain_newton_stats": {
+        "calls": 1,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 1,
+        "no_step": 0,
+        "minimum_alpha": 1.0
+      },
+      "role": "accepted original finite prefix"
+    },
+    {
+      "name": "lambda002_m8_transfer_initializer",
+      "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m8_transfer_initializer/run.json",
+      "run_sha256": "57a9326a482361cc47cb32c9c829700399d87e0bded9fe36f6325ab1cdf5d558",
+      "homotopy": 0.002,
+      "modes": 8,
+      "nodes": 879,
+      "seconds": 47.672861741999895,
+      "solver_success": true,
+      "original_finite_checks": {
+        "tolerances": true,
+        "solver": true,
+        "rms": true,
+        "physical_bc": true,
+        "solver_and_boundary_pass": true
+      },
+      "complete_saved_initializer": true,
+      "original_prefix_gate": false,
+      "rms": 9.884408408605205e-07,
+      "metric_l1": 3.1932166176360275e-05,
+      "physical_bc_max": 1.734909581142037e-12,
+      "audit_samples_psi": 512,
+      "actual_delta": 0.0641346327706116,
+      "raw_sha256": "83fb3e38fa0eafc13209e3bec9853f160736835e868e857a6996a5e48ac9ed71",
+      "physical_sha256": "619cdec77dc4428a777cdddf18adc7bcc7333068714058241a093fde24994dc3",
+      "domain_newton_stats": {
+        "calls": 1,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 3,
+        "no_step": 0,
+        "minimum_alpha": 1.0
+      },
+      "role": "converged complete initializer for original mode raise; metric gate did not pass"
+    },
+    {
+      "name": "lambda002_m16",
+      "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m16/run.json",
+      "run_sha256": "2b9e2fe6f6d1ca7b6b0143a915dd257cd9f9ecc3c2a71f7f08bb18a5dfe1bed4",
+      "homotopy": 0.002,
+      "modes": 16,
+      "nodes": 879,
+      "seconds": 75.36356858099998,
+      "solver_success": true,
+      "original_finite_checks": {
+        "tolerances": true,
+        "solver": true,
+        "rms": true,
+        "physical_bc": true,
+        "solver_and_boundary_pass": true
+      },
+      "complete_saved_initializer": true,
+      "original_prefix_gate": false,
+      "rms": 9.884397760429185e-07,
+      "metric_l1": 4.279923286084162e-06,
+      "physical_bc_max": 6.307225836749615e-14,
+      "audit_samples_psi": 784,
+      "actual_delta": 0.06413464061798288,
+      "raw_sha256": "32f9670291251a77da30eb8bf9b8908ccf3fdfd41f5d3dab7fc61b176c4137ce",
+      "physical_sha256": "04cc97401b8d5829fa2428c0fbfddc486b8b42439d5cbc2176897596fd987fdf",
+      "domain_newton_stats": {
+        "calls": 1,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 2,
+        "no_step": 0,
+        "minimum_alpha": 1.0
+      },
+      "role": "converged complete initializer for original mode raise; metric gate did not pass"
+    },
+    {
+      "name": "lambda002_m24",
+      "run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+      "run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+      "homotopy": 0.002,
+      "modes": 24,
+      "nodes": 879,
+      "seconds": 209.35429058399995,
+      "solver_success": true,
+      "original_finite_checks": {
+        "tolerances": true,
+        "solver": true,
+        "rms": true,
+        "physical_bc": true,
+        "solver_and_boundary_pass": true
+      },
+      "complete_saved_initializer": true,
+      "original_prefix_gate": true,
+      "rms": 9.884396258035657e-07,
+      "metric_l1": 6.534787765754473e-07,
+      "physical_bc_max": 5.759910329420531e-15,
+      "audit_samples_psi": 1168,
+      "actual_delta": 0.06413464112662924,
+      "raw_sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616",
+      "physical_sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0",
+      "domain_newton_stats": {
+        "calls": 1,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 2,
+        "no_step": 0,
+        "minimum_alpha": 1.0
+      },
+      "role": "accepted original finite prefix"
+    }
+  ],
+  "tail_handoff": {
+    "legacy_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-recovery-20261128/lambda002_m24",
+    "resolved_actual_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24",
+    "legacy_is_symlink": true,
+    "only_after_all_original_gates_verified": true,
+    "field_copied_or_source_identity_relabelled": false
+  },
+  "future_secant_execution_handoff": {
+    "barrier": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/secant-material-design/dispatch-handoff-barrier.json",
+    "barrier_sha256": "b181f31cec32521bb73e6393502d8b21e91cae7723cecbc56d57e4dc01f4bece",
+    "barrier_is_math_failure": false,
+    "old_bootstrap_running_unchanged": true,
+    "new_entry_source": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/resume_design_qr_from_bootstrap.py",
+    "new_entry_sha256": "574ca4f19bc6258ef7d015d0797e95311124df954798556e7a0852f699c08579",
+    "dispatcher_source": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_qr_dispatch.py",
+    "dispatcher_sha256": "edf1acfc5d5d289443133892e0f27521c43ca8af57853e8a3c7ee3720ee606c0",
+    "new_outdir": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-qr-20261128",
+    "status_at_capture": "waiting for original .016 bootstrap full acceptance; no new secant stage implied",
+    "qr_dispatch_min_M": 40,
+    "qr_radial_block": 8,
+    "original_equations_and_all_gates_preserved": true,
+    "linear_arithmetic_changed_at_QR_stages": true
+  },
+  "complete_surface": false,
+  "full_nonlinear_tail_paid": false,
+  "fixed_metric_refinement": false
+}
