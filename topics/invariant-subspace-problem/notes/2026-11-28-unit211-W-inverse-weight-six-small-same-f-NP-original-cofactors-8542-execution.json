@@ -1,0 +1,415 @@
+{
+  "schema": "isp-completed-original-cofactor-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-28",
+  "mathematicalScope": "whole currently paid W, distinct singleton values and original physical D!=0; T free; no b0 constraint",
+  "source": {
+    "basename": "2026-11-28-unit211-W-inverse-weight-six-small-same-f-NP-original-cofactors-8542.py",
+    "gitBlob": "cf6d6f1e31c6c324ac9eea2a5ec179fe70530df0",
+    "sha256": "758d461e6ce8869e3ff08fc395403f98cce27a1322329e793b21b1bdfb80e131",
+    "bytes": 15990
+  },
+  "execution": {
+    "elapsed_seconds": 7.487228075000001,
+    "max_child_rss_kib": 57880,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+        "before": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:27:37.043913+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46139963439",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+    "source_exit_code": 0,
+    "source_git_blob": "cf6d6f1e31c6c324ac9eea2a5ec179fe70530df0",
+    "source_sha256": "758d461e6ce8869e3ff08fc395403f98cce27a1322329e793b21b1bdfb80e131",
+    "stdout_bytes": 21509,
+    "stdout_sha256": "9e555d1751d64f29b34e5cc891c4d0df6578a99b52c7aa0e634c8d493ad8f0b9",
+    "stop_reason": null
+  },
+  "jobID": 140963504244,
+  "jobURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46139963439/job/140963504244",
+  "inputReady": {
+    "trueIndependentE1": true,
+    "weightCoordinates": [
+      "u",
+      "nu=beta/u"
+    ],
+    "allForwardInverseWeightIdentitiesReturned": true,
+    "originalPureWeightP02CompactIdentityReturned": true,
+    "oldG36DefinitionSHAAndFullNewWeightPullbackReturned": true,
+    "TIsFreeAndBzeroNotImposed": true,
+    "nuPlusTwoOrAstarNeverInverted": true,
+    "rawOriginalNSPSProfiles": [
+      {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          17,
+          17,
+          3,
+          3,
+          3
+        ],
+        "totalDegree": 26,
+        "terms": 3985,
+        "bytes": 92723,
+        "sha256": "e700f165925e95b02c9ca43673fa252551edf0cf6849b3d8d7e998939c9b6834"
+      },
+      {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          18,
+          17,
+          3,
+          3,
+          3
+        ],
+        "totalDegree": 27,
+        "terms": 3887,
+        "bytes": 92063,
+        "sha256": "c72b957cb23c42420f4751e99f1de346c465d82d9d2e706be67825a8dcb89ace"
+      }
+    ],
+    "oldSixNormPairsAndGHeadMatrixAndFullI11NotRun": true,
+    "noGOrInverseRawHeadConstructed": true,
+    "stage": "new_same_f_small_NP_input_definitions_ready",
+    "seconds": 0.820355321000001
+  },
+  "newRawNPDivisionDefinitions": [
+    {
+      "label": "NS",
+      "constantRemainder": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          22,
+          26,
+          3,
+          3,
+          0
+        ],
+        "totalDegree": 35,
+        "terms": 4373,
+        "bytes": 117487,
+        "sha256": "33f39ec137ab30b262504eeaa5e49c0ec1f8330a0a268cdec734f10fbfe22f32"
+      },
+      "linearRemainder": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          19,
+          23,
+          2,
+          2,
+          0
+        ],
+        "totalDegree": 30,
+        "terms": 2093,
+        "bytes": 53320,
+        "sha256": "bc0a29eee112787e4db162b3e6d621752ea8dfd864d6294139c94160092f9517"
+      },
+      "originalDivisionWholeProductReturned": true,
+      "stage": "new_raw_NP_monic_F_remainder_definitions",
+      "seconds": 1.0578683180000006
+    },
+    {
+      "label": "PS",
+      "constantRemainder": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          23,
+          25,
+          3,
+          3,
+          0
+        ],
+        "totalDegree": 36,
+        "terms": 4408,
+        "bytes": 118412,
+        "sha256": "e6145c6675436973addb71c9cefb5599d810ba8b719578a3a577bc3f42192a7b"
+      },
+      "linearRemainder": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          20,
+          22,
+          2,
+          2,
+          0
+        ],
+        "totalDegree": 30,
+        "terms": 2086,
+        "bytes": 53358,
+        "sha256": "520b54a285fe88bca02e6eda375a230f296913d52545c7cd230487467acc866f"
+      },
+      "originalDivisionWholeProductReturned": true,
+      "stage": "new_raw_NP_monic_F_remainder_definitions",
+      "seconds": 4.0889447059999995
+    }
+  ],
+  "completedCofactors": [
+    {
+      "name": "NS_row_1",
+      "polynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          26,
+          29,
+          4,
+          4,
+          0
+        ],
+        "totalDegree": 40,
+        "terms": 8413,
+        "bytes": 249204,
+        "sha256": "4e392e6a191193cad5a7871d6c95c67e2f586db92dd3685e964d0cecb6695040"
+      },
+      "geometryDegree": 4,
+      "actualSixMultiplierCommon": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 19,
+        "sha256": "64426f35213a1812266815322a671aa52af1671606ee292703b9a6766995c22d"
+      },
+      "onlyOldPaidWeightSupportRemoved": [],
+      "allSixOriginalCoefficientsAndEveryFCoefficientReturned": true,
+      "noUnpaidEquationOrHeadDivided": true,
+      "completeCommonContentZeroLocusRetained": true,
+      "seconds": 1.913176055000001
+    },
+    {
+      "name": "NS_row_2",
+      "polynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          29,
+          32,
+          4,
+          4,
+          0
+        ],
+        "totalDegree": 44,
+        "terms": 10385,
+        "bytes": 319341,
+        "sha256": "b921150d0eeb7933265332951fed70665de70e60340b5ca6cf626d49ea75fcf3"
+      },
+      "geometryDegree": 4,
+      "actualSixMultiplierCommon": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 19,
+        "sha256": "64426f35213a1812266815322a671aa52af1671606ee292703b9a6766995c22d"
+      },
+      "onlyOldPaidWeightSupportRemoved": [],
+      "allSixOriginalCoefficientsAndEveryFCoefficientReturned": true,
+      "noUnpaidEquationOrHeadDivided": true,
+      "completeCommonContentZeroLocusRetained": true,
+      "seconds": 2.8277528389999986
+    },
+    {
+      "name": "NS_row_3",
+      "polynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          29,
+          34,
+          4,
+          4,
+          0
+        ],
+        "totalDegree": 45,
+        "terms": 10955,
+        "bytes": 338478,
+        "sha256": "f4b24dbc9ab2ec78f0e67c90c0219fac3188a9d981af169e02deeccec8d8f46d"
+      },
+      "geometryDegree": 4,
+      "actualSixMultiplierCommon": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 19,
+        "sha256": "64426f35213a1812266815322a671aa52af1671606ee292703b9a6766995c22d"
+      },
+      "onlyOldPaidWeightSupportRemoved": [
+        {
+          "paidSupport": "original_u",
+          "gcdLayers": 1
+        }
+      ],
+      "allSixOriginalCoefficientsAndEveryFCoefficientReturned": true,
+      "noUnpaidEquationOrHeadDivided": true,
+      "completeCommonContentZeroLocusRetained": true,
+      "seconds": 3.856313125
+    },
+    {
+      "name": "PS_row_1",
+      "polynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          27,
+          28,
+          4,
+          4,
+          0
+        ],
+        "totalDegree": 41,
+        "terms": 8477,
+        "bytes": 249612,
+        "sha256": "b816c118e7844e940051070f947d0493e3fa005a3d7ef9b69e68e3103a64f2fd"
+      },
+      "geometryDegree": 4,
+      "actualSixMultiplierCommon": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 19,
+        "sha256": "64426f35213a1812266815322a671aa52af1671606ee292703b9a6766995c22d"
+      },
+      "onlyOldPaidWeightSupportRemoved": [],
+      "allSixOriginalCoefficientsAndEveryFCoefficientReturned": true,
+      "noUnpaidEquationOrHeadDivided": true,
+      "completeCommonContentZeroLocusRetained": true,
+      "seconds": 4.958166917999996
+    },
+    {
+      "name": "PS_row_2",
+      "polynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          30,
+          31,
+          4,
+          4,
+          0
+        ],
+        "totalDegree": 45,
+        "terms": 10438,
+        "bytes": 318945,
+        "sha256": "58038b0c579c04f057318057e3c91d51cd161b7afbc7c140bd67646f4abfe14d"
+      },
+      "geometryDegree": 4,
+      "actualSixMultiplierCommon": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 19,
+        "sha256": "64426f35213a1812266815322a671aa52af1671606ee292703b9a6766995c22d"
+      },
+      "onlyOldPaidWeightSupportRemoved": [],
+      "allSixOriginalCoefficientsAndEveryFCoefficientReturned": true,
+      "noUnpaidEquationOrHeadDivided": true,
+      "completeCommonContentZeroLocusRetained": true,
+      "seconds": 5.870949967000001
+    },
+    {
+      "name": "PS_row_3",
+      "polynomial": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          30,
+          33,
+          4,
+          4,
+          0
+        ],
+        "totalDegree": 46,
+        "terms": 11070,
+        "bytes": 343682,
+        "sha256": "ca310bc75b45d941e7d35a6ae9e243cb7f0abf15b5317574ea5a161cfecb0e21"
+      },
+      "geometryDegree": 4,
+      "actualSixMultiplierCommon": {
+        "zero": false,
+        "degrees_u_nu_lambda_T_f": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 0,
+        "terms": 1,
+        "bytes": 19,
+        "sha256": "64426f35213a1812266815322a671aa52af1671606ee292703b9a6766995c22d"
+      },
+      "onlyOldPaidWeightSupportRemoved": [
+        {
+          "paidSupport": "original_u",
+          "gcdLayers": 1
+        }
+      ],
+      "allSixOriginalCoefficientsAndEveryFCoefficientReturned": true,
+      "noUnpaidEquationOrHeadDivided": true,
+      "completeCommonContentZeroLocusRetained": true,
+      "seconds": 6.903865727000003
+    }
+  ],
+  "final": {
+    "exactPublishedI4SixScalarsRetained": true,
+    "exactI6UsesPublishedPureWeightUnitCombinationOfThreeB": true,
+    "originalIdentity": "sum(v_i H_Fi)=A_F-g B_F; H_Fi=B_i P_F-B_F P_i",
+    "distinctPaidWeightDenominators": 53,
+    "statistics": {
+      "exactPolynomialDivisionProducts": 605,
+      "originalFCoefficientReturns": 0,
+      "paidSupportProducts": 497,
+      "fourSourceContentCancellations": 0,
+      "sameFNormIdentities": 0,
+      "newNPMonicDivisionProducts": 4,
+      "newOriginalSixSourceReturns": 18,
+      "newOriginalFCoefficientReturns": 18,
+      "newSixMultiplierCommonCancellations": 6
+    },
+    "mathSeconds": 7.4100403050000025,
+    "entireOriginalI11ConditionsStillRetained": true,
+    "noNewWeightProjectionOrEmptyConclusion": true,
+    "noNewNormalizedPointBound": true,
+    "noOldProofGateReplayed": true,
+    "noLargeCoefficientCacheWritten": true
+  }
+}
