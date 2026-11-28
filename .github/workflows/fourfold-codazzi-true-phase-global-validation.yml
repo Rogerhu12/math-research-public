@@ -1,0 +1,95 @@
+name: Genuine whole physical phase and H1
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-true-phase-global-validation.yml
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-exact-true-phase-global-validation-20261128
+  cancel-in-progress: false
+jobs:
+  full-domain-validation:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 355
+    steps:
+      - name: Install public read-only repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_root_input.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_residual_transport.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_signed_speed.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_circle_validation.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_global_validation.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+            /topics/visible-flex-exact-nearby/results/R149-supplement-regularized-action-moments-and-full-circle-phase-residual.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-small-true-root-label-H1-on-the-complete-physical-root-patch.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-true-ray-speeds-from-the-saved-complete-direction-envelopes.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-continuous-two-ray-comparison-and-integrated-physical-H1-error.md
+      - name: Verify the entire original and new sources
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sha256sum -c - <<'CHECK'
+          9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b  scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+          c23734e005a9bd80941aebeb6b23858aecc0d5d2715ffcc02fcc5ac889a6b129  scripts/fourfold_codazzi_true_characteristic_root_input.py
+          935b84c00ac651c3a9bd099dcd25575de8a4da19bb54c285da97e3560724ceb3  scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+          1ce2c645aef08121289b90442c079f836266ec51dfb289a54540e5b07f339bd3  scripts/fourfold_codazzi_true_characteristic_seed_owner.py
+          15e0ab8809dbf8642031d17a670635405e92dd1ae0e96a8a5074de5f5a8b337d  scripts/fourfold_codazzi_true_characteristic_residual_transport.py
+          217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718  scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+          474955e7fd52c9a6b25c949bf652d7d0a6c8a8cf774f92f2a8e3ccd063d2567c  scripts/fourfold_codazzi_true_phase_original_inputs.py
+          3417006b5630e992a7c824c9bc51f4c59351c0bc06e25e12986cb42fbc38029d  scripts/fourfold_codazzi_true_phase_signed_speed.py
+          91da00f44705b73a21222df7cf3f52d949a6eba0e4d9413f177328a7160c0a7e  scripts/fourfold_codazzi_true_phase_circle_validation.py
+          05b01a18226a5a819f74ae7d76e12bd1a57e21703ebeb06df8c722414c3203c2  scripts/fourfold_codazzi_true_phase_global_validation.py
+          f6e5f9fe938d897c2b57d3d34e42391455fc6cea9804576d4dcc90b2021a8351  notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+          f898c29758919de82b8f36b5ca2bf7d000f8fea631cfcdda723372e03c8b0fa9  results/R149-supplement-regularized-action-moments-and-full-circle-phase-residual.md
+          7b71709859aff2352e1fa867c497f70e8aef7df604049af3bf661e1c292e7c78  results/R149-supplement-small-true-root-label-H1-on-the-complete-physical-root-patch.md
+          ccae8ce0b69bb4ac54659b74ee56dcb4ede4666249e7e6b3fb1367e6838de522  results/R149-supplement-true-ray-speeds-from-the-saved-complete-direction-envelopes.md
+          185cd804a571aced38a232260a96db40009fb2d63a391e11f0fff52410f75289  results/R149-supplement-continuous-two-ray-comparison-and-integrated-physical-H1-error.md
+          CHECK
+          python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0
+      - name: Validate both true phase rays and common gap from root to waist
+        env:
+          GCS_RUN: "46132087372"
+          GCS_SHA: "9af56c23e91a021f0463aa01b68ea93916ba11d374ecd7323ce4c4b51b3da9ba"
+          GCS_BYTES: "11131542"
+          OPENBLAS_NUM_THREADS: 1
+          OMP_NUM_THREADS: 1
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_global_validation.py --repo "$GITHUB_WORKSPACE" --private "$RUNNER_TEMP/gpr" --receipt "$RUNNER_TEMP/gpr-receipt.json" --seed-run "$GCS_RUN" --seed-sha "$GCS_SHA" --seed-bytes "$GCS_BYTES"
+      - name: Preserve complete small receipt or last whole numerical prefix in log
+        if: always()
+        run: |
+          python - <<'PYEND'
+          import os,json,hashlib
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"gpr-receipt.json"
+          if p.exists():
+              body=p.read_bytes()
+              if len(body)>=100000: raise ValueError("only the small full receipt is public")
+              data=json.loads(body)
+              print("GPR_FINAL_SMALL_OR_PREFIX",len(body),hashlib.sha256(body).hexdigest(),body.decode().strip())
+              with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as f:
+                  print("Completed original strict cells",data["completed_cells"],"of",data["radial_cells"],file=f)
+                  if data["complete"]:
+                      print("Whole quantitative gates",data["quantitative_gates"],file=f)
+          PYEND

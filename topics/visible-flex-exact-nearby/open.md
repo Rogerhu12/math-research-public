@@ -204,3 +204,6 @@ GSV：176原whole/10624293B、169germ/626scalar格/220compact模型，全193原�
 
 
 RPH1：原root holomorphic完整majorant推出真实根片|P−phi|<1/4000000、|Pphi−1|≤1/93750、归一化angle H1<1/90000；原root零值和完整真实短片保，不延拓到未付严格全域。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GPR：GPR首次完整新目标：真实GCS whole11131542B/9af56c23…；176原整输入，全部原径向缝/两射线/共同gap，连续piecewise Hermitian dyadic comparison，原角圆周全residual+9jets及真实spacetime H1；140MBprivate整件读回，未预报数值门。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

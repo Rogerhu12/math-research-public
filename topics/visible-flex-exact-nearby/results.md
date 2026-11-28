@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GPR：两真射线完整连续比较与时空H1首入口](results/R149-supplement-continuous-two-ray-comparison-and-integrated-physical-H1-error.md)：GPR首次完整新目标：真实GCS whole11131542B/9af56c23…；176原整输入，全部原径向缝/两射线/共同gap，连续piecewise Hermitian dyadic comparison，原角圆周全residual+9jets及真实spacetime H1；140MBprivate整件读回，未预报数值门。
+
 - [RPH1：真实根片完整标签H1](results/R149-supplement-small-true-root-label-H1-on-the-complete-physical-root-patch.md)：原root holomorphic完整majorant推出真实根片|P−phi|<1/4000000、|Pphi−1|≤1/93750、归一化angle H1<1/90000；原root零值和完整真实短片保，不延拓到未付严格全域。
 
 - [GSV：193原方向包络下的真实全格有符号射线速度](results/R149-supplement-true-ray-speeds-from-the-saved-complete-direction-envelopes.md)：176原whole/10624293B、169germ/626scalar格/220compact模型，全193原方向坐标含mean；用gamma_delta q_delta=gamma sqrt(q²−delta T w′)保小差，全signed mode卷积。只对名义cubic求r导，真实速度扰动仅按whole值传播；无BLAS数组依赖。
