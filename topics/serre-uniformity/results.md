@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1155（已证明）**：[R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原D到标准Heis的rev方向，良好单位actual rational fibre晶体性，未分歧BK=(logu,log(1−u),−Li2)。通用u^p→u Frobenius中央=−Li2†，强mod pO_L读−ℓ2,p(u)/(1−u^p)，保分歧nilpotents；原U_a(P)/W确为unit。Qp同点Frob另含乘积修正；仍须原filling/transfer/运输到F0 z12，不套ramified FL。
+
 - **原单位方程的完整算术五项式（已证明）**：[R1133 §11](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)付原D(α)同根路径的完整算术五项cochain：h=χ̃2+ab、h−ab/2=−li2、dh=−a∪b，五项交替和=ρ1−ξρ1−η。bar Cor逐陪集乘积全保，不变成两个Norm之积。原四线/Manin组合在全M拼接与额外内点中心惯性仍须付；继续实际局部dilog/Frobenius读数，未套小开集H¹0。
 
 - **原114第二插入的同一椭圆/Padé来源（已证明）**：[原genus4 §9](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree6/2两商、唯一极p−2奇原函数及完整pth补偿给Λ=4^(N−1)[x^N](1−x)^−1/2D_N；保首共振/全部Cartier尺度。Λ单位、18 cross与原双缺陷仍开。

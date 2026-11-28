@@ -153,3 +153,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原 D(α) 的整五项 cochain
 
 [R1133 §11](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)付原D(α)同根路径的完整算术五项cochain：h=χ̃2+ab、h−ab/2=−li2、dh=−a∪b，五项交替和=ρ1−ξρ1−η。bar Cor逐陪集乘积全保，不变成两个Norm之积。原四线/Manin组合在全M拼接与额外内点中心惯性仍须付；继续实际局部dilog/Frobenius读数，未套小开集H¹0。
+
+
+### 原 primitive 的有限 dilogarithm Frobenius
+
+[R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原D到标准Heis的rev方向，良好单位actual rational fibre晶体性，未分歧BK=(logu,log(1−u),−Li2)。通用u^p→u Frobenius中央=−Li2†，强mod pO_L读−ℓ2,p(u)/(1−u^p)，保分歧nilpotents；原U_a(P)/W确为unit。Qp同点Frob另含乘积修正；仍须原filling/transfer/运输到F0 z12，不套ramified FL。

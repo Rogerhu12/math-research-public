@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：5df68013fb2df4b9ab145b48c4601c2d47e77ed4**（2026-11-28 09:30 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:10 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：dc5e616fe5b958c0e9ec03f1a3bf04f0ce9c9b94**（2026-11-28 09:41 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:10 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 09:10:35 Asia/Taipei，Actions run46091738995/job140813986118，blob:none浅clone真实pull --rebase至fba6b41d，两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤10:00、pull≤10:10。本地09:10仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-original-five-term-cochain.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-primitive-dilog-Frobenius.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -38,11 +38,13 @@ R1149 §§11–16付u=pt整Taylor、真实finite q_t/λ/binomial及F0三槽：a=
 
 R1148 §§10–11以已刊Soulé/Kurihara付p>C_cyc=exp(9^(224·9⁴))的原γ3/5/9全global基；Θ/Ξ共享γ5的p⁵群、共同cusp判据及密度1/p²全保，局部Bp−3/5/9不据此删。
 
-R1148 §12付rank-p character计数及ℓ>4D_p²的共同affine lift，D_p=g+p(p−1)(g−1)。大Chebotarev存在不能代affine空；完整界/source沿open，继续小素实际值/p-local。
+R1148 §12的实际character界/共同affine lift已付；大Chebotarev不代affine空，继续小素/p-local。
 
-R1152 §§1–13付原Θ∞/MT(Z)/正向Frobenius、全尾估值及完整有限读数。β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)；实际c3/c5=−2(1−p²)/−24(1−p⁴)，故r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25，无good假设；七分支全保。rs非零κ=6/5+3J/(5β3β5)。原F0最高组合/深盘仍开；R1153的U★γ★⁻²在β3好或p4k3且β5好时恰1，两β坏不外推。
+R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)，r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25。原c3/c5、七退化支/完整中央减法沿文。rs非零κ=6/5+3J/(5β3β5)，原F0最高组合与深盘仍开。
 
-[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付原raw Q1/Q2到finiteFL的完整比较：U_E=4δc_g,★²β★²·a_E²，a_E为实际Miller比；a=U_E Q1(β_Et)，b=U_E²Q2(β_Et)+ks。无需Bernoulli-good，读全q_t可见x2..4/y4..8及Gaussian x4/y8、cubic y7。generic Fp SS校准由Deuring/Heilbronn给独立C_SS，全部global范围取max(C_SS,C_cyc)。r=(2/3)U★γ★⁻²β3，s=(24/5)U★²γ★⁻⁴β5。中央z12仍未付，不把被q_t恒杀的其它X/Y项称已读。
+[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付原Q1/Q2→finiteFL的U/U²、实际Miller phase、全部可见x2..4/y4..8及Gaussian x4/y8、cubic y7。generic Fp SS存在范围取max(C_SS,C_cyc)，全尺度/β参数沿文；U★γ★⁻²仅β3好或p4k3且β5好时恰1，两β坏不外推，z12仍开。
+
+[R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原D到标准Heis的rev方向，良好单位actual rational fibre晶体性，未分歧BK=(logu,log(1−u),−Li2)。通用u^p→u Frobenius中央=−Li2†，强mod pO_L读−ℓ2,p(u)/(1−u^p)，保分歧nilpotents；原U_a(P)/W确为unit。Qp同点Frob另含乘积修正；仍须原filling/transfer/运输到F0 z12，不套ramified FL。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
