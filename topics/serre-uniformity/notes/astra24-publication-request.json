@@ -1,35 +1,47 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-r1198-20261128",
-  "request_id": "r1198-actual-ordinary-period-jets-20261128",
-  "message": "serre: prove all actual ordinary quotient period jets and finite log source",
-  "last_read_rules_commit": "cb370d0ddcbcad946a8c64f8283cdc345bb147b2",
+  "source_branch": "serre-astra24-publish-r1199-20261128",
+  "request_id": "r1199-complete-generic-pairing-and-kernel-log-20261128",
+  "message": "serre: prove complete generic pairing and exact highest-kernel MW column",
+  "last_read_rules_commit": "aa1a38971ff461e54428b9898eadf4e9d09e5689",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "c38c4ca36666999c47cb7389c97936b0df041212",
+  "previous_request_git_blob": "4e7b84b39237b0f2702353cd900682e2f226e998",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md",
+      "path": "topics/serre-uniformity/results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md",
+      "previous_git_blob": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-highest-kernel-pairing.md",
+      "previous_git_blob": null
+    },
+    {
+      "path": "topics/serre-uniformity/open-archive-2026-11-28-before-highest-kernel-pairing.md",
+      "previous_git_blob": null
+    },
+    {
+      "path": "topics/serre-uniformity/results-index-archive-2026-11-28-before-highest-kernel-pairing.md",
       "previous_git_blob": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "9d7ed672e9afe34728764c35255ccdd8cc579b4b"
+      "previous_git_blob": "a911641f97c2e15b9bb0cc22ad389e4dff54cb86"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "388f1a2a6396963b8fe811133ff737be38bb7816"
+      "previous_git_blob": "5e72c7840da49558179944f57e30bab9228a3d5a"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "49578c15048e163fe760f5cb730bec9bf60f3758"
+      "previous_git_blob": "8ec832a29884e31f10823ef8ea882cd0dc121f5e"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "f98d368eada8c149f7e46b77d6236e1ab5e9f58b"
+      "previous_git_blob": "7cebcd81ada064c6f591960f0e71cc8abe3f47a0"
     }
   ]
 }
