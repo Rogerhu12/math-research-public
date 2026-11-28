@@ -424,3 +424,130 @@ $$
 本三节只纸读并延伸 R1157–R1159 的精确来源，未执行新的数学计算。
 
 root 新增逐读 R1157 §§1–6、R1158 §§5、7 及 R1147 §8，核全部实际反除、同根归一与标记下降；修正了不需要且原文未给的 c<p 小界。Cayley–Hamilton 的 h/gh/gh² 取值与行列式补全已逐式核准。
+
+
+## 13. 最低槽的完整仿射化与三槽共同辅助素数族
+
+### 13.1 最低 BCH 平移必须保留原 Tate-five 项
+
+现在使用 [R1172](R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md) 已付的完整最低群律
+$$
+\mathfrak b_4((X,Y,T),(X',Y',T'))
+=\Pi_4(X,Y')+\lambda_\infty XT',
+\qquad \lambda_\infty=\frac{21}{11}(1+p^4).
+\tag{1171.29}
+$$
+本节的 $\lambda_\infty$ 沿同一整塔定义，读取模 $p$ 时才约化。参考点与增量仍是 (1171.10)–(1171.12)，特别 $\Delta T=0$。
+
+从原右乘 $F_i\Delta_i(\xi)$ 直接得
+$$
+c^{\rm ord}_{4,i}(\xi)
+ =\Pi_4(X_i,\Delta Y_i)+\Delta Z_{4,i}.
+\tag{1171.30}
+$$
+这里没有 $\lambda_\infty X_i\Delta T$，因为 $\Delta T=0$。但最低 BCH 坐标的定义是
+$$
+W_4=Z_4-\frac12\{\Pi_4(X,Y)+\lambda_\infty XT\}.
+$$
+所以准确的平移为
+$$
+\boxed{\begin{aligned}
+c^{\rm BCH}_{4,i}(\xi)
+={}&\Delta Z_{4,i}
+-\frac12\Pi_4(\Delta X_i,\Delta Y_i)\\
+&+\frac12\{\Pi_4(X_i,\Delta Y_i)
+             -\Pi_4(\Delta X_i,Y_i)\}
+-\frac{\lambda_\infty}{2}\Delta X_i\,T_i .
+\end{aligned}}
+\tag{1171.31}
+$$
+最后一项来自改变后的 $X$ 与未改变的 $T_i$，不能由 $\Delta T=0$ 删去。两式均只含原 abelian 参考值、已知 coefficient crystal 及有限增量；没有 $Z_{4,i}$。因此 (1171.15) 的同 abelian 中央差论证对第三槽也成立。
+
+参考自同构、实际 quotient 模 $p^2$ 标记及 underlying coefficient 运输完全沿 §§2、5。R1172 (1172.24) 使用的是已含 Tate 修正的 correlation，故其商曲线项前准确为 $\ell^{-2}$。于是
+$$
+\begin{aligned}
+R_{\ell,4,i}
+={}&Z_{{\rm corr},\ell,4}(\mathcal E_i)
++\ell^{-2}\sum_{|C|=\ell}
+ \operatorname{Sym}^4(\psi_C^{-1})
+ c_{4,j(C)}(\xi_{i,C}),\\
+\bigl((\ell^4+\ell^{-11})-\ell^{-2}T_\ell^{(4)}\bigr)
+ \mathbf Z_4
+={}&\mathbf R_{\ell,4}.
+\end{aligned}
+\tag{1171.32}
+$$
+有序或 BCH 坐标须整式统一使用。这里的 $Z_{{\rm corr},\ell,4}$ 始终是 R1172 (1172.9)、(1172.18) 的完整 corrected 对象，不是裸 $\Pi_4$ 的 raw 双和。
+
+### 13.2 一个同时满足全部整来源条件的无限族
+
+令
+$$
+\boxed{\quad
+\mathscr A_p^{(6)}
+=\{\ell>3\text{ 为素数}:\ \ell\ne p,\ 
+          \ell^6\not\equiv1\pmod p\}.
+\quad}
+\tag{1171.33}
+$$
+仍可删去任意固定有限集合 $\Sigma$，其中包含 §10 原辅助素数 $c$。这个族包含无穷多个素数；例如 primitive residue class 经 Dirichlet 定理给出。此处不要求 $\ell<p$，也不给最小可用素数界。
+
+由于 $\{\pm1\}\subset\mu_6(\mathbb F_p)$，
+$\mathscr A_p^{(6)}\subset\mathscr A_p$。所以 §10 的实际 division-field、四线 splitting、同根 Cor/res、完整 S/U、induced descent 和两个最高槽来源全部有效。此外
+$$
+k_4(\ell)=\ell^2-\ell^{-4}
+         =\ell^{-4}(\ell^6-1)\in\mathbb Z_p^\times .
+\tag{1171.34}
+$$
+故 R1172 (1172.8) 的
+$\kappa_\ell=\lambda_\infty v_{\ell,4}/k_4(\ell)$ 是原整标量，其 product/Norm kernel 逆像和完整 Tate 群态射也有效。
+
+为明确大辅助素数的范围，R1172 §§2–4 的其余步骤只用实际 prime-to-$p$ 同源、指定 theta Norm 点、原基域 $\gamma_5$ 的单位倍，以及原 $R,L,K,\eta_4$ 的有限陪集式。它们不要求 $\ell<p$；相关 splitting degree 的唯一反除已由 (1171.25) 支付。最低 corrected cup 的指定算术 primitive
+$$
+h_{{\rm corr},4}
+=-\mathcal B_{4,6}(\Omega_{{\rm corr},4})
+$$
+沿 R1172 (1172.19)–(1172.20) 构造，不除 $v_{\ell,4}$。所以 $v_{\ell,4}$ 对某个 $\ell$ 约化为零也不影响该 torsor 和 (1171.32)。若另外使用除 $v_{\ell,4}$ 的未平滑公式，仍可按 R1172 取 $n=2$；本节没有把该反除强加到 (1171.33) 的所有素数。
+
+相同地，本节不要求 $k_8(\ell)$ 为单位；原两个 raw 槽的群 map 使用它作乘数，并未反除。三槽因此确可共用 (1171.33)，无须为每槽另选互不相容的根规范。
+
+### 13.3 去掉全部六次单位根仍足以补全 Galois 迹
+
+把 §11 的 trace 引理中的 $\{\pm1\}$ 换成子群
+$$
+H=\mu_6(\mathbb F_p)=\{x\in\mathbb F_p^\times:x^6=1\}.
+$$
+设两连续二维残表示具有同一 determinant，且 trace 在所有 $\omega(g)\notin H$ 上相同。取 $\omega(h)=a$ 为 primitive element。因为 $p-1>12$，$a,a^2$ 都不在 $H$。若 $\omega(g)\in H$，则 $h,gh,gh^2$ 的 cyclotomic 值均不在 $H$；这是子群条件，而不是对三个无关素数同时作分布假设。对两表示同用 (1171.27)，相同且非零的 $\det(h)$ 唯一补回 $t(g)$。故全部 Galois 元素的 trace 相同。
+
+在各自真实有限无挠 Hecke order 中，假设相应受限算子理想为真理想。沿 §11 的 characteristic-zero 分支和共同有限 Galois quotient，Chebotarev 先在 $\omega(g)\notin H$ 上给 trace，再由上一段补到全部 $G_{\mathbb Q}$。三个残余目标及其标准 determinant 是
+$$
+\begin{array}{c|c|c|c}
+\rho&d_\rho&\text{假想残余半单表示}&\det\\ \hline
+0&12&\omega^{14}\oplus\omega^{-1}&\omega^{13}\\
+2&8&\omega^{12}\oplus\omega^{-3}&\omega^9\\
+4&4&\omega^{10}\oplus\omega^{-5}&\omega^5 .
+\end{array}
+\tag{1171.35}
+$$
+前两行由 R1170 §§4–6 排除，第三行由其 §10 的 weight-$6$ 半稳定惯性界排除。所有比较使用同一 cyclotomic 约定及实际 $B_\ell=\ell^{d_\rho}T_\ell^{(d_\rho)}$，没有把最低 Tate 因子改进一个未知 twist。
+
+因此，对任意固定有限 $\Sigma$，都有
+$$
+\boxed{\quad
+\bigl(V_{\ell,\rho}:\ell\in\mathscr A_p^{(6)}\setminus\Sigma\bigr)=1,
+\qquad
+V_{\ell,\rho}=(\ell^4+\ell^{-11})
+-\ell^{\,2-\rho}T_\ell^{(12-2\rho)},
+\quad \rho=0,2,4 .
+\quad}
+\tag{1171.36}
+$$
+各单位理想均在对应的真实受限 Hecke order 中。各取一个有限证书，再取三个素数集合的并，便得到同一有限辅助集合同时支持三槽的重建。无需声称三个不同系数格的证书系数相同。
+
+### 13.4 已得的三槽结构与仍须读取的最低输入
+
+给定同一原 $(X_i,Y_i,T_i)$，三槽现在均满足 §§6、13.1 的实际仿射方程，并能在同一个原来源可用的辅助族中用单位理想比较候选差。所有第一 $p$ 位、$\sigma$、actual quotient shear、lowest Tate term 都保留。
+
+这不把 R1172 已构造的 $h_{{\rm corr},4}$ 自动认作已读出的局部 Frobenius 值。其独立算术构造包含原 $\mathcal B_{4,6}$ 的实际共轭路径；在这些值或另一个同源局部读取尚未给出之前，(1171.32) 的最低右端仍是待读输入。特别不能把 R1168 对最高相关项的读取挪作这个含 $\lambda_\infty$ 的 corrected 对象，也不能由三槽共同核为零推出它们的值为零。
+
+本节新增的是三槽共同来源、最低槽完整仿射修正及同一受限素数族的单位理想。未执行数学程序，未预支原中央非零性或一般 $p$ 的排点结论。

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原三槽共同辅助族与最低仿射平移（已证明）**：[R1171 §13](results/R1171-original-affine-supersingular-Frobenius-reduction.md)最低BCH平移保−λ∞ΔX T/2，actual corrected correlation给第三仿射式。共同族ℓ⁶≠1 mod p同时支付全部原来源、k4单位及三Hecke单位理想；允许vℓ,4为零且不误作反除，μ6外迹由Cayley–Hamilton补全。仍须独立读取一般SS右端与最低cyclotomic源。
+
 - **原同源源的足够辅助素数族（已证明）**：[R1171 §§10–12](results/R1171-original-affine-supersingular-Frobenius-reduction.md)ℓ≢±1 mod p使原GL₂(Fℓ)分裂域仍p-unit，完整triangle/S/U/compatible roots可用于ℓ>p。Cayley–Hamilton的h/gh/gh²补全缺失trace，故最高/Π2受限族仍有真实Hecke单位理想；固定原c只需删ℓ=c，无须c<p。关闭辅助来源范围，仍保所有一般SS RHS的独立读取。
 
 - **原最低Π4算子的超奇异共同核（已证明）**：[R1170 §10](results/R1170-original-supersingular-Brandt-common-kernel.md)接R1172真实Tate n⁻⁴后Vℓ,4=(ℓ⁴+ℓ⁻¹¹)−ℓ⁻²Tℓ^(4)=ℓ⁻⁶(ℓ¹⁰+ℓ⁻⁵−Bℓ)。实际权6 p-new整序及半稳定惯性[0,5]排ω¹⁰⊕ω⁻⁵，余有限族生成单位理想；三个原中央归一均齐，不代各自actual RHS局部读值。

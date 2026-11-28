@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：fea593b3674bf21527970ca897cfa683b854aa08**（2026-11-28 17:03 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：7d9df60a56d62cb30c7edf3c3eabe42c5a282e7b**（2026-11-28 17:08 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 16:27:06 Asia/Taipei，Actions run46125850781/job140920159380，blob:none浅clone后真实pull --rebase至887df1e0且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤17:17、pull≤17:27。本地16:26仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -38,7 +38,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
 
-[R1171 §§1–12](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及真实quotient模p²首位将同abelian中央差化为有限SS仿射方程。辅助族ℓ≢±1 mod p保原raw分裂域p-unit，全部S/U/根/Norm可延至ℓ>p；Cayley–Hamilton补全trace，前两槽该受限族仍生成单位理想。未付的是一般SS abelian/corr独立读值和实际有限重建输入，不能循环定义RHS。
+[R1171 §§1–13](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及quotient模p²首位给三槽完整仿射方程；最低BCH保−λ∞ΔX T/2。共同辅助族ℓ⁶≠1 mod p保原分裂域p-unit与k4单位，允许ℓ>p；Cayley–Hamilton补trace，三受限族均为单位理想。一般SS abelian/corr独立读值及最低cyclotomic输入仍待付，不循环定义RHS。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
