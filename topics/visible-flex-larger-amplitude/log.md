@@ -125,3 +125,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:16:33 UTC — 28第二个完整恢复步实际接受
 
 28 0927d本run真实accepted2，Phi681.6473711639321/Gram.40616528955370923，reachg.5237169415657044/distplus.11392286053783374，完整六族仍不可行。K12.271500016996072/Dlower4.117173775187578/cell885/u.9662347571015759/phiπ/2/branch1/s=null；report未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`38461005daf79092fc656b7ef62a0c6f41ecaa2a`无变（非pull）。
+
+## 2026-11-28 06:17:36 UTC — RET76旧q122八列合并报告完整保源退存
+
+[完整三件](computations/legacy-eight-control-assembly-retention-76-complete-delivery.json)47112B，准确复用RET75完整46/28源与109输入账，另保全原r2 plan、两resource、真实14.5K merger/7.5K identity bridge、20原向量与2真combined数组的603214恢复。只移100552B旧generated assembled-r2，whole SHA来自保留原21723B清单，未读大体；净53440B。固定7757ea4d325e8534124fa76596b2bbd82f348b91原path可精确恢复。r1失败/后r2成功、不重算旧六列、缺half forcing/组合half检查、线性非新解全部保；真实warm/BVP消费者必须先恢复whole报告，摘要不替其输入。q126 first3/6缺原resolved-plan仍保，不猜参数；无输入/source/config/数组删除。双README云核至`ec47fa7c243e3c7b80feb4484b208110fdcd9339`无变（非pull）。
