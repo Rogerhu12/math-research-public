@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AHD：全Airy两行相关与完整Darboux非零尾](results/R149-supplement-full-Airy-matrix-correlation-and-integrated-Darboux-source.md)：负轴同s的两Airy行保相关，π行模积≤2/√3；真cutoff积分给两向Uext<1.03及n(Uext−Id)<11。全Darboux H（含t> L非零尾）L1<851000，保S Z(T)−1次序后完整S J∞<2^20/n²，两列/两符号/原非零root剪切均保。
+
 - [ASQ11：原正i模型全整数primitive费用和真实例外首算](results/R149-supplement-positive-i-model-primitive-fees-on-all-original-indices.md)：原完整CYA 927项给97..1023的IG<.573；完整1502候选中正i至多372例外外全域IG≤1.28，无穷尾由同原整数Q模4/5且非零norm距>5给IG<.6。保原96与全部真例外/physical边界；新public首入口只整读旧198079B native后作新分组和有理费用，不重旧候选/Cayley。
 
 - [BPF：全负区真逆矩阵变形的物理全频算子界](results/R149-supplement-whole-genuine-inverse-deformation-on-the-physical-Fourier-space.md)：原whole势支撑与真实ρ²角导给Tφ<7e−7；共同物理T水平集积分及完整矩阵几何级数给全频n²(B−Hinv) L2算子<1/4500、普通dr L2<1/315000、L1<1/22500000。physical n≥262144的H−4/3→L2费<1/18000000，均值/低泄漏全保；其余Airy/反馈不赋同数。
