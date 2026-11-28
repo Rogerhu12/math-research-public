@@ -1,5 +1,9 @@
 # 结论索引
 
+**当前优先审计：** R1199 §6 从centre普通开平凡化直接延到CM node的步骤可能漏掉模π单位g₀；affine H¹(IO)=0只保证提升既定模I frame，不保证这个node frame与之相容。正按原G(b_lift)²/x^(ma)和twister核g₀及全图补项。核清前只消费R1201的SS有限和单位，不消费其等于完整V_m(T*)的接口；R1202–07的独立格/返回/原函数/截面结论不受此待核影响。
+
+- **原 CM 截面在完整非约化尾上的锁点（已证明）**：[R1207](results/R1207-original-CM-section-on-the-nonreduced-constant-tail.md)原c₁的CM μ₃在实际p基中为原C_ns矩阵；连同原H₆六标记运输和framing，其组合固定整CM截面。R1021的精确eigen参数/模p线性作用给(I−ζ)(α,β)=0，两个特征值差为unit，迫一个Cartan坐标在整个O/(p)精确0。因此V=0、U=±c/2，原三个支持CM截面全模p锁在Q，原H_k(c_ξ)=0。此为包含nilpotents的锁点；twister/node/G(b_lift)²与完整Čech仍须合并，不恢复撤回的CM秩零商。
+
 - **原 PS 返回的显示原函数与完整 p 阶主部（已证明）**：[R1206](results/R1206-original-PS-return-explicit-primitive-and-p-poles.md)同一原函数域显式原函数f_T=(r/u)(T/A)′满足df_T=𝒟T db/(uA)，原返回η_CT=−3γ²df_T。SS在实际W=u/τ中完整负主部为−r_s^(2n+3)A′_sT_s W^−p/τ^p−m𝒟T(s)W^−1/(τA′_s)；两个项均保。CM处ord≥2n+1、全部∞正则消失，deckζ²。exactness不删除p阶极点，不替全图有限log或三个支持尾；继续同源period与CM末列。
 
 - **原先 Tate 收缩的全奇列与完整 Serre 对角（已证明，R1179 §14）**：[R1179 §14](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)先作原q_i²低阶Weil收缩再取纯Tate幂，付全部奇3≤s≤p−2、s≠m₀=(p−1)/2的总p层系数c_s=βE_(s−1)Bp−s/(2sC^(s−1))；不除高Sym阶乘/Euler。真实smoothing恰在m₀失效，principal保留。完整Z_p=T⁻¹∂_U^[3](TU K_p)含principal/16及−βTU^(p−3)/3+βU^(p−2)/6两carry。原高forced行c_sΔc_s=0；低偶R=p−s仍乘(1−B_(p+1−2R)^(p−1))，缺席行及跨次数Fay未删，完整mask共同纤维继续。
