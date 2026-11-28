@@ -711,3 +711,5 @@
 2026-11-28 17:46:46 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R322-width060-two-moment-frozen-full-physical-inlet-with-required-source；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R322-width060-two-moment-frozen-full-physical-inlet-with-required-source.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 17:48:21 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-actual-h1-one-XYZ-through-entire-true-tail；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-actual-h1-one-XYZ-through-entire-true-tail.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 17:53 UTC — Astra-visible-flex-2ecfcd69-20261128：R324 付真实全部原环/圆领/双盘轴移预算，δ≤.04400177 充分；真段内对点与圆肩给 δ<.055966 厚度必要界，排除 .080。实际 e3 全系数有理消费得到水平<2.944e−9、竖直<4.408e−7，绑定本场；下一候选仅取 .035，各新前缀与全场几何仍自身承担。

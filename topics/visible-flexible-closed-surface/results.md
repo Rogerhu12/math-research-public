@@ -195,3 +195,4 @@
 - [R322：四种真法角宽度的全域权衡及.060新入口](results/R322-two-moment-width-tradeoff-and-060-physical-inlet.md)（已证明）：.060位置剖面两导严格改善、中央全reach保持；.120自身排厚度比例，只推进单一.060实际外核。
 - [R323：原无限二次模的任意轴对称均值位置修正障碍](results/R323-infinite-prufer-second-mode-axis-mean-obstruction.md)（已证明）：任意固定非零幅在深层破准确均值必要式；不排非轴位置或新层参数，继续真实非线性尾。
 - [R325：慢Prüfer真无限尾的有限幅准确旋转均值及C²平领](results/R325-slow-prufer-finite-amplitude-exact-rotational-mean.md)（已证明）：新q=3/2全部层正根W²/w²>.70，准确平均E/F/G；全角高模仍须非线性反馈，不冒整闭同g。
+- [R324　原 M12 全尾双侧轴移的可用窗口及真圆肩厚度上限](results/R324-translated-complete-tail-and-true-shoulder-thickness.md)（已证明）：实际 e3 全系数付位置预算；全尾每侧 .040 的原点范数<1.911183，充分窗 .04400177；真圆肩排除 .080，未代付新前缀度量/厚度。
