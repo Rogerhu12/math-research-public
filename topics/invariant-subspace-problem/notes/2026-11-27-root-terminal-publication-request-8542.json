@@ -1,16 +1,16 @@
 {
-  "message": "ISP R150: true T14 ell21 factors and rank639; first individual NP full V highest input",
-  "parentCommit": "3faba88eda2f6f1249c2507e0060bbc5f7d8aa84",
+  "message": "ISP R267: exact same-P power cost and Neumann budget; first entire Phi M transverse",
+  "parentCommit": "16dc9dbcdc99fcc2e84b192d1be48a9a2a0328c1",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-T-and-ell-partial-original-orders-complete-639-model-and-frozen-boundaries.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-T-ell-partial-orders-639-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-individual-NP-full-V-highest-five-source-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-individual-NP-full-V-highest-five-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-phi-individual-highest-five.yml",
+    "topics/invariant-subspace-problem/results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-whole-M-rational-transverse-extraction-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-reduced-original-matrix-whole-M-rational-transverse-extraction-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-m-transverse-extraction.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-individual-highest-five-first-actual-receipt-8542.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,6 +20,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-individual-highest-five.yml"
+    "invariant-subspace-8542-phi-m-transverse-extraction.yml"
   ]
 }

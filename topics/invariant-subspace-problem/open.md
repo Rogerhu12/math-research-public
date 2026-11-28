@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar全旗、Walsh/Julia/pair、有限头根图WOT半/强图仅0、同P最大根/核心/P⁺紧支配结论保正文与快照。[定量同P](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)付逆log=r^(4+o1)及逐向量严格超r⁴；[快速整逆场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)付全旗quasi/真正最大图核心/闭包场/同循环空间，忠实性排该族平方根。[新正序comm必零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)对全C^r及任意有界T成立，半交换锥精确=正交换锥，不搬无格Q。继续场外Y²=CP²与未知闭域；旧AT/AM-compact门不重开。
+原Haar全旗/有限头图/同P最大根与真核心/P⁺紧支配保正文及快照。[定量同P](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)付逆log=r^(4+o1)及严格超r⁴；[整逆场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)付全旗quasi/最大核心/忠实闭包场，无该族根。[同P精确幂与Neumann预算](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)给log(-log||P^n||)/n^1.5→log16/48及解析逆对数任意1+ε；下界保同尾同柱，未知Q只继承上界。[正序comm零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)保全幂任意T，无格Q不外推。联合来源忠实性另证，继续场外Y²=CP²；旧AT/AM门不重开。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -198,7 +198,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及维数≤1成。[原四因子与完整639](results/R150-appendix-unit211-Phi-zero-T-and-ell-partial-original-orders-complete-639-model-and-frozen-boundaries.md)：u⁴、(u−1)^30、φT^14、φell^21均真QQ，LC636；u1/T/ell三门分别内存/计时失败已冻，余9/2/每根4及全部坏块保。0965全系数180秒未返1已冻，整λ纤维开。首派8a072原个别NP/完整V五次最高8来源，120秒/1GiB，真实极化与最终权cover全零纤维保，不预称成功。整H42权≤23268、三头同零≤798的λ纤维、物理D0/余最高支继续。
+[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及维数≤1成。[原四因子与完整639](results/R150-appendix-unit211-Phi-zero-T-and-ell-partial-original-orders-complete-639-model-and-frozen-boundaries.md)：u⁴、(u−1)^30、φT^14、φell^21均真QQ，LC636；u1/T/ell三门分别内存/计时失败已冻，余9/2/每根4及全部坏块保。0965全系数180秒未返1已冻，整λ纤维开。8a实际5.532177389秒/0：原NP/完整V5三个来源已rank3，最终C5补图λ15/15生成，零集全保。首派cbf整M有理横截面120秒/1GiB，原参数逆/primitive曲线与真实横截面保全部纤维，模14仅上界。整H42权≤23268、三头同零≤798的λ纤维、物理D0/余最高支继续。
 
 [整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
