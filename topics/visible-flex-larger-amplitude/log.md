@@ -449,3 +449,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 09:51:44 UTC — R730完整139角色源码族与正常源码构建入口
 
 完整五件217805B刊入：139角色/24runtime全binding61806B、全部17父子身份和209全patch的完整MJS95498B、wrapper7513B、完整说明25929B及总表27059B/7be33312260e6af8e21862a046857330c7b4f704f938b854be97d1cb3d8d74de/blob1bf08f8a79cfaf971accb7d10985e3289abcc8de。17生成runtime1036532B完整体均已有protected blob，正常build每个detached worktree从全部已刊父源逐字生成真实整文件再执行，不执行片段/不网络取缺源，不冒这些路径已Git tracked。原file SHA/inspect/normal/typed/source/同源重启守卫全保；build来源和版本、外/内argv、完整父子身份/返回码单记。内层157/7词和原4/64/15/32stage/域/变量/接受规则不减，wrapper仅前置5词为162/12；旧shape2CLI明确legacy_unused，7预算真用新LengthParameters，旧mean12数组/证书不复用。相对32恰120原pair不变/18替换/加length kernel，旧138完整历史保；准确工作误差未付。源码构建是实际入口工作，不是新增测试门，未执行本包Python/AST/科学。已按新§16显式gpt-6.2-astra/ultra/forknone派r730_launch接34全参数和启动，geometry继续准确费用。 双README云核至`56c35c4ca2d36e03831702cf1a4a1ba9ebb8efeb`无变（非pull）。
+
+## 2026-11-28 09:53:37 UTC — RET96 完整来源回执与已返元数据全token整理
+
+35份完整历史回执/来源描述与已返元数据只删字符串外空白：22旧note来源/身份/有限probe回执，另7 source-view与6已返/终态元数据。所有数值/代码字符串/参数token/失败未知保原；无request/queue/workflow/science runtime/活输入变。两个按完整逻辑类别分开的全映射12721B/ae0c68059975fe533987a761c295661a3573ec27ad78618d28a443b30d66db45、8662B/f72c6fe8898e9310ddeea9c841e76a45e978c5ad5b63d3955e07d9c626230066及4926B说明、2310B总表同刊，固定1584d5762c3ed81725a2d3cfb5e1d3f6e233af56完整恢复，复用两完整formatter不复制源。毛104085B、附件28619B、净75466B，无文件删除或数据拆分。 双README云核至`fec4e7da1a71f582b3e79d2d074aabc5d27962af`无变（非pull）。
