@@ -77,3 +77,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:00:45 UTC — 23后续完整试步拒绝及新试点开始
 
 23 6a101完整g.9815551189995484/最大reach拒；当前87c076/accepted2/g.9678293850088526。491dae仅开始，原6a101统计不绑新trial，alpha/方向号未知。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`916dddfb8f8e40fa0e993abaeef9888267da33e4`无变（非pull）。
+
+## 2026-11-28 06:00:50 UTC — 27第一个半步恢复实际接受及完整六族
+
+27 a7ff7c半步真实accepted1，Phi748.4181748662621/Gram.48764641077933163，reachg.7008605078876107/distplus.08419920552570004。K13.718888932685733/Dlower4.1132109074671765/cell466/u.38069040695840156/phi1.4296700943094176/branch0/s=null；完整report未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`b984f622eb6a6a4f2b87a8667d2f050c769b7a01`无变（非pull）。
