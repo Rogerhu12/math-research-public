@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `da1bb34e02edc1e3d99575607b2aaf0c8fb4b33e`（2026-11-28 18:36 UTC）。
+- 最近实际pull后双README已读锚 `c5d43d992684702f56c80b2b24a32d630313db2d`（2026-11-28 18:36 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -13,7 +13,7 @@
 
 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)：q=warp=.012、k=.5/S=.675/b=.3、phase-end4/5、held-width27/50，首升速0→9/20单缓坡。原线性根δ=.06809451565377872/r=1.1349085942296453、calibration/root-profile已按原SHA恢复，不重搜根或重走旧高k排除支。
 
-**当前真正接受锚：恢复后严格λ=.002/M16**，1051点、RMS1.994973874801693e−7、metric4.979823887209015e−8、physicalBC1.989107513471194e−19、mean784。4全步/零拒，175.22s、406104KiB；TTY44020真exit0，原accepted_original/prefix_gate及全部raw/physical/source实际核过。run SHA `754987d85ec08772adcfb216bb4c2f3599b1ebe83c08ccad842e7c68c110b782`，out `held10-design-work/R87-strict-recovery-20261128/lambda002_m16-from-unaccepted`。
+**当前真正接受锚：** [恢复后严格λ=.002/M16](notes/2026-11-28-design-r87-strict-positive-seed-and-continuous-recovery.md)，1051点、RMS1.994973874801693e−7、metric4.979823887209015e−8、physicalBC1.989107513471194e−19、mean784。4全步/零拒，175.22s、406104KiB；TTY44020真exit0，原accepted_original/prefix_gate及全部raw/physical/source实际核过。run SHA `754987d85ec08772adcfb216bb4c2f3599b1ebe83c08ccad842e7c68c110b782`，out `held10-design-work/R87-strict-recovery-20261128/lambda002_m16-from-unaccepted`。
 
 **当前唯一活链：TTY73924，18:31:00.193098 UTC**；out `held10-design-work/R87-strict-material-continuation-20261128`，command SHA0092e026a10b60f5e799962c28d8a9478fca875c30bee0ef7392863f78cd8fc7。真锚后接.032/.064/.128/.256/.512/.75/1，M24起，.256最低M32，真双源全场升模割线、原tol2e−7及全部门、-u输出、正式stop协议均保留。design直接接后继，不等发布。
 

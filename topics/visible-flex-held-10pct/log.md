@@ -494,3 +494,6 @@ R95已正式发布9a1bf6a7…并补齐日志/open与短H：原λ.128/M24全部�
 
 ### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
 独立未接受lift复用原embed/lift_weights，原1049全部节点/三块Y/参数M8→M16，同λ0参考三jet差≤3.55e−16/rho差0，真exit0/13.80s；无原PPoly不冒完整meridian两jet同一。原port16真导出且合同核同。18:26:24原.002/M16/N512从该未接受场真实启动，全tol/BC/metric/域门与正λ解析Jac/CSR/QR保持，旧accepted源门不改。
+
+### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
+较严原.002/M16真实全门恢复：1051点/RMS1.994973875e−7/metric4.979823887e−8/physicalBC1.9891e−19/mean784，4全步零拒、两mesh，TTY44020/child真0且剩余0，175.22s/406104KiB。run754987d8…、raw/physical完整SHA核同，componentwise线性残差1.0保留。18:31:00唯一连续链73924真起，M24起/.256≥32，直续.032至1；低λ恢复不冒超过历史.128新前沿。
