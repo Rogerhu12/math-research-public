@@ -1,10 +1,10 @@
 # HANDOFF — Astra-held10-7c4e33ee-20261128
 
-**进行中，未完成：没有满足全部10%标准的真实闭族。** 接Astra-held10-06bbeb39-20261126，不能以阶段/时长/输入不足停。root独占Git/H/open/log/results；design推进真λ1，tail全DN/尾/几何，analytic核心/固定g。完整历史见[上一压缩档](notes/2026-11-28-handoff-before-complete-mapped-dn.md)及其链接，不重算已登记结论。
+**进行中，未完成：没有满足全部10%标准的真实闭族。** 接Astra-held10-06bbeb39-20261126，不能以阶段/时长/输入不足停。root独占Git/H/open/log/results；design推进真λ1，tail全DN/尾/几何，analytic核心/固定g。完整历史见[上一完整交接](notes/2026-11-28-handoff-before-post-qr-storage.md)及其链接，不重算已登记结论。
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `0c62a68981e607b2b77f35265f14cd472c7793b8`（2026-11-28 19:35 UTC）。
+- 最近实际pull后双README已读锚 `c8bc104484bd879b43603b17e1a212f6103f0ad2`（2026-11-28 19:37 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `5d146903e36f71c8137ab5137195d1f3d90055d7`（2026-11-28T19:19:02.099311+00:00），相对4f63189c1e7d双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟20:15 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -22,18 +22,16 @@
 
 ## 3. 已完成恢复诊断（不重做）
 
-详[上一交接](notes/2026-11-28-handoff-before-mapped-positive-restoration.md)及所链各真实回执。旧λ0 FD765→812，工具81483 exit1但内部码/cleanup未知；解析support修复后812→892→1049，RMS未降，owner真join child−15/exit4/剩余0，均未接受。δ诊断、完整support三jet、原RMS、最坏格精度均已付；最坏格排除RHS浮点/断点假设，非无解证明。完整未接受M8→16保1049全部节点/三块Y/参数，原accepted门未改，真.002/M16接受后已接当前.032。正式stage-control/observer v3继续；工程负码不λ二分。
+旧λ0解析support/δ/RMS/最坏格均已付，RHS舍入/断点假设已排、原λ0未接受；完整M8→16保全部节点后真.002接受再接当前锚。旧数值/终态详上一交接，不重做。
+[.256完整状态恢复](notes/2026-11-28-design-r87-lambda256-interruption-and-allocator-recovery.md)冻结80642终态及77523真启动；[trim真实终态](notes/2026-11-28-design-r87-lambda256-trimmed-recovery-actual-terminal.md)保原QR constructor已返的文件生命周期证据、实际trim、真join后两owned目录清理与97ec同SHA。只释放空闲页，全部原门不改；无BVP接受/原因证明。
 
 ## 4. 真λ1后的执行链
 
-[同场顺序](notes/2026-11-28-tail-qr-final-field-certificate-execution-order.md)：一次完整定义/原成功span复用，全角覆盖全phase；无假阳性。
-
-- [全映射actual-DN](notes/2026-11-28-tail-mapped-qr-actual-dn-entry.md)：独立真实mapped kind/4源，原native4/chord3/8outer/完整J/H/audit/所有数值门不改；CSR-before-QR与全因子实映射，两store实际清页。真终态controller result.run→内层summary；最终只绑physical-H、mean取实值。无真λ1阳性，旧匿名QR源保留。
-- [固定g模型](notes/2026-11-28-analytic-qr-anchor-fixed-actual-source-entry.md)/[首launcher](notes/2026-11-28-analytic-first-qr-fixed-g-launcher.md)：完整原支持族/fixed=True未知空间、δ/g/profile/chart/warp/mean/native背景均冻结；首次同M更严tol/BC不松。旧准备源的执行分支有后继明确版本，未迁移科学阳性。
-- [fixed完整预映射版本](notes/2026-11-28-qr-fixed-complete-prefactor-resource-and-provider.md)：显式prefactor(8/8/双store)与旧factor-only(64/32)区分；真mapped/旧QR anchor各自reader，fixed科学模型/8outer/所有门不改。完整残差诊断后再次清双store；全部预算实计。旧准备SHA保历史，无真实fixed阳性迁移。
-- [own fixed全尾](notes/2026-11-28-tail-qr-fixed-complete-chunk-source-entry.md)/[全尾C²](notes/2026-11-28-tail-qr-fixed-complete-c2-source-entry.md)：自身完整packet/source/全谱/mean/共同半径分割/两jet，绝对高度来自defining零模+全mean；有限pair非Cauchy。mapped anchor后先真own1→own2，不套旧anchor连续provider。
-- [fixed连续接线](notes/2026-11-28-analytic-qr-fixed-continuous-runtime-contract.md)：geometry→原123/10舍入→tables/metric/cut，同实际width；[own全几何](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)接radius/placement/definition/完整width→reach及原complete metric；[活动矩](notes/2026-11-28-tail-own-fixed-qr-third-activity-entry.md)保全prefix/cut/整尾flux/字面柱长/准确合并。原数学段不改，仅准备无阳性。
-- [时间插值](notes/2026-11-28-qr-fixed-actual-time-refinement-entry.md)作用同源全空间两jet，有限数值误差/底线不冒连续界；[显式mesh](notes/2026-11-28-explicit-full-phase-mesh-entry.md)用4/5与27/50、k.5/S.675、实际全模，若干t各<5MB只存再生命令/hash。帽默认r=a/2；另选帽须先完整合同贯穿map/metric/geometry/activity/mesh/time并冻结g。
+[同场执行顺序](notes/2026-11-28-tail-qr-final-field-certificate-execution-order.md)及上一完整交接逐项链接全部准备源/原SHA；没有新λ1/own fixed阳性。
+- [全映射actual-DN](notes/2026-11-28-tail-mapped-qr-actual-dn-entry.md)：独立mapped kind/schema/reader，保原native4/chord3/8outer、所有未知/J/H/数值门；完整CSR-before-QR及全factor/双store实清。真正controller result.run→内层summary，最终只绑physical-H与实际mean，不冒旧匿名kind。
+- [固定g显式资源/来源版本](notes/2026-11-28-qr-fixed-complete-prefactor-resource-and-provider.md)：prefactor8/8/双store与旧factor-only64/32分开；step/owner/acceptance/launcher同argv和源SHA。冻结完整δ/g/profile/chart/warp/mean/native背景及原未知空间，完整残差诊断后再次清页。科学模型/8outer/原门不改。真mapped anchor后先own fixed1→own fixed2，不能套旧anchor连续provider。
+- [own全几何](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)→原123/10舍入→真tables/metric/cut，使用同一实际width；[完整活动矩](notes/2026-11-28-tail-own-fixed-qr-third-activity-entry.md)保全prefix/cut/尾flux/字面柱长及准确合并。全尾/全prefix C²分别消费真实own pair，有限差非Cauchy。
+- [时间数值入口](notes/2026-11-28-qr-fixed-actual-time-refinement-entry.md)与[完整mesh](notes/2026-11-28-explicit-full-phase-mesh-entry.md)保4/5、27/50、k.5/S.675、全模、sameg；CubicSpline诊断不是R98连续证书。帽默认r=a/2；改帽必须贯穿map/metric/geometry/activity/mesh/time后冻结。数组/多t网格只存scratch及再生命令/hash。
 
 ## 5. 已付严格结论与剩余责任
 

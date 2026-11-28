@@ -23,3 +23,9 @@
 
 当前77523已真child−9/owner247/剩余0；完整CSR与原QR constructor已返而factor转存未完。H同步真实终态及完整97ec恢复点，资源与首次未接受场诊断继续。
 
+## 2026-11-28 — 完整 λ=.256/M32 状态的两次真实工程终态
+
+[原中止与独立trim入口](notes/2026-11-28-design-r87-lambda256-interruption-and-allocator-recovery.md)保存80642的原两次接受步和完整97ec状态；[77523实际终态](notes/2026-11-28-design-r87-lambda256-trimmed-recovery-actual-terminal.md)真实child−9/owner247/remaining0。pre-J释放空闲页确使匿名137035776→87875584B；完整CSR返回，398401536B因子backing的存在说明原QR constructor已返回，随后转存未完。未到完整factor_return/solve/新Newton/RMS/metric。实际峰794052KiB不能同不同相位的旧峰比较为总峰改进。真join后只清本次两owned映射目录，保文件尺寸/layout SHA和全部原状态。两个独立新源仅在preJ预算/完整solve前后调用既有gc/malloc_trim；compile/help真0，所有未知/原门保持。无OOM定因、无数学失败或同布局自动重启；继续精确存储改进及该未接受状态首次原audit诊断。
+
+本条前完整H逐字归档于[交接档](notes/2026-11-28-handoff-before-post-qr-storage.md)，SHA256 `8249d29389166839f1e5c92d352968605fe64408b06c59474373c3b0eda486e8`；新H保核心恢复点及后继入口，未删除历史。
+
