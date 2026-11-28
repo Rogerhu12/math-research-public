@@ -34,7 +34,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 真cuff前缀勘误、全尾组成、旧HF严格曲率失败、R274/R276及全记录见[本批前H](notes/2026-11-28-2ecf-handoff-before-strong-actual-coasts.md)。旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
-<!-- 2ecf-live-stadium --> [p32 较短双窗接合的真实错移峰](notes/2026-11-28-2ecf-stadium-short-rejoin-independent-curvature.md)，上半新缝后 .005055 处独立曲率 28.69501。
+<!-- 2ecf-live-stadium --> [p32 真实长母线后六次全行正规步](notes/2026-11-28-2ecf-stadium-broad-ruling-complete-normal.md)，原成本降低但独立谱及曲率变差。
 
 <!-- 2ecf-r285-loop --> [R285](results/R285-elliptic-meridian-loops-close-the-true-infinite-second-mode.md) 支付真实全尾到中央的非刚性二次模闭合。回路总高可调，小幅真实图误差为正二次量，消去该项及强尺寸指标仍待。
 
@@ -52,4 +52,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:16:43 UTC；已读公开 main `7b580db50176a7db0e270865c130f941d391b12b`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:16:55 UTC；已读公开 main `c93958dd7589d3873cc3d2e48b595313ce0460ce`，根/课题 README 逐差无变化。
