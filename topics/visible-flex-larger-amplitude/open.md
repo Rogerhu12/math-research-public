@@ -121,7 +121,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 新机制与未付后继
 
-[完整dk缓存源](computations/complete-curvature-pullback-cache-source-delivery.json)两variant已刊，同完整key/纯数值/64MiB；原全行保，尚无hit或加速实际结果，不改变trial几何。[25全11件](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊：137角色4对改/133原对保，19runtime（原18加显式selector）；driver/reader完整主体保，新增位置observer。完整参数/启动继续，实际结果仍空。
+[完整dk缓存源](computations/complete-curvature-pullback-cache-source-delivery.json)两variant已刊，同完整key/纯数值/64MiB；原全行保，尚无hit或加速实际结果，不改变trial几何。[25全11件](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊：137角色4对改/133原对保，19runtime（原18加显式selector）；driver/reader完整主体保，新增位置observer。[完整新传输](computations/complete-geometry-location-observation-and-transport-delivery.json)原48live全保+16真实标量/共64，未缩科学预算；完整参数/启动继续，实际结果仍空。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波准确均值/两角根/中央导数与位置jet账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/全部接合/两根扰动/真实shape分解已证。ε1/8把显式转向系数15/b降至64/(7b)，高阶代价与存在假设保；不推wholeK/reach，新seed正实施。
 

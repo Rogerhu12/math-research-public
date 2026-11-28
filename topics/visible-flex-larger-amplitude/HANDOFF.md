@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`92b0e9f378b962ada3a740cda3234889794ae1cd`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`17ed6ccae50001659c1bb8cf549075a538778f65`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -31,7 +31,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 新机制及完整后继
 
-[完整曲率导数缓存](computations/complete-curvature-pullback-cache-source-delivery.json)全/半波两源已刊；同次全key、64MiB纯数值dk复用，原全部行/转置保。未运行，不推试步几何加速。[25全11件](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊，137角色4对变/133保、19runtime；同22数值词，新位置observer，完整参/启动正接。
+[完整曲率导数缓存](computations/complete-curvature-pullback-cache-source-delivery.json)全/半波两源已刊；同次全key、64MiB纯数值dk复用，原全部行/转置保。未运行，不推试步几何加速。[25全11件](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊，137角色4对变/133保、19runtime；同22数值词，新位置observer及[完整64live传输](computations/complete-geometry-location-observation-and-transport-delivery.json)已刊，原48全保；完整参/启动正接。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数及位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解已完整发表。R725 ε1/8显式转向系数15/b→64/(7b)，高阶代价/存在条件保；不推wholeK/reach，完整新seed实施中。
 

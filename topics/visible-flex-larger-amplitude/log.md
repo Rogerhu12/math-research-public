@@ -314,3 +314,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:34:11 UTC — 25半波缓存及位置观测完整源家族
 
 [全11件535032B](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊（共享selector计一次）；137科学pair只4对改/133原对保，19runtime为原18加真实selector。driver7883d9/launcher804bb6/reader82a5c5，新observer4b63；完整原科学主体/历史/全域/预算保。pure在原小binder消费每个真实方向自身point的完整缓存记录，无新独立准入流程；25同22半宽/δ/μ，完整参和新64字段transport正接，未启动或假定模型点值。双README云核至`92b0e9f378b962ada3a740cda3234889794ae1cd`无变（非pull）。
+
+## 2026-11-28 02:35:54 UTC — 完整位置observer与25独立64字段传输
+
+[六完整件119281B](computations/complete-geometry-location-observation-and-transport-delivery.json)含已刊observer；新followups32763/controller19995/再生器11449/说明6408/总表6029已刊。原48配对全保+16实际标量，缺位置不推断；原normal捕获16k保，新own32k、compact16k/pretty32k、queue/index95k保。全部原控制流/预算/真实pull/NFF逻辑不改，现活19–24不动，无新scientific/AST/fixture准入。尚无25真实场或位置。双README云核至`17ed6ccae50001659c1bb8cf549075a538778f65`无变（非pull）。

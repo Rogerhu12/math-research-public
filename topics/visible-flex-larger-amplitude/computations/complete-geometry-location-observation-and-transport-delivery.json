@@ -1,0 +1,143 @@
+{
+  "schema": "complete-geometry-location-observation-and-transport-delivery-v1",
+  "date": "2026-11-28",
+  "session": "Astra-larger-e4e2a2bf-20261126",
+  "source_text_preparation_only": true,
+  "scientific_execution": false,
+  "artifacts": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_complete_geometry_location_progress.py",
+      "bytes": 42637,
+      "sha256": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+      "sha": "bad0be021443e7fa7a8fbfe4ee473f3e05ccadad",
+      "git_blob_sha": "bad0be021443e7fa7a8fbfe4ee473f3e05ccadad"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py",
+      "bytes": 32763,
+      "sha256": "444f57b28c695fbcd0fbfc03237b8c7a56dedccc97a64873b7dae083de5dbb12",
+      "sha": "4b72d0565d3f3fd797dd8bf45e48310cad8226d2",
+      "git_blob_sha": "4b72d0565d3f3fd797dd8bf45e48310cad8226d2"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel25_geometry_locations.py",
+      "bytes": 19995,
+      "sha256": "4bbac0cd1bb116205b4f94b8bc544e102bd522af9abb697327a8eb9b6f984562",
+      "sha": "e792c8368fc4e0a4a50d693f9a836b44ae662f34",
+      "git_blob_sha": "e792c8368fc4e0a4a50d693f9a836b44ae662f34"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_complete_geometry_location_observation.mjs",
+      "bytes": 11449,
+      "sha256": "a8d8e8d036bc741dd37a39168e140c6882468cdaa1accbce456afb6626fa9813",
+      "sha": "a7f333cf3fa75d874140687a1b037a4d9d42b6d2",
+      "git_blob_sha": "a7f333cf3fa75d874140687a1b037a4d9d42b6d2"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-complete-geometry-location-observation-and-transport.md",
+      "bytes": 6408,
+      "sha256": "21372e2cb0b52079e8bab3703dbeea27c3eb1ccfe86a2d3800e5f7e147a25dbe",
+      "sha": "c0ffc8670a257477d83b7f14567530fe7e1051d3",
+      "git_blob_sha": "c0ffc8670a257477d83b7f14567530fe7e1051d3"
+    }
+  ],
+  "complete_parents": {
+    "observer": {
+      "name": "fixed_fejer_complete_geometry_trial_progress.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_complete_geometry_trial_progress.py",
+      "bytes": 39500,
+      "sha256": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+      "git_blob_sha": "8173d3576958dc5c476466dd4c5012c5ed81b0c1"
+    },
+    "followups": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_active_progress.py",
+      "bytes": 32762,
+      "sha256": "046f0d7b8d27df95f5249438fdaf435b00c482b009fa8956f27dbdc662a6b314",
+      "git_blob_sha": "d2c8ef87878d57525cfef04cfc401da7a9f30d6d"
+    },
+    "controller": {
+      "bytes": 19984,
+      "sha": "c1d51b6ad5e86e41c2afa826968581b41c2d485c",
+      "sha256": "289fa6ad3d93ac4257509e31a79459ef25608379efb0ac67dcce84d76f8e8796",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel24_compact_metadata.py"
+    }
+  },
+  "exact_text_change_counts": {
+    "observer": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "followups": [
+      1,
+      1,
+      1
+    ],
+    "controller": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "source_transformations_in_complete_reproducer": true,
+  "all_original48_label_to_path_pairs_retained": true,
+  "additional16_label_to_path_pairs": {
+    "current_K": "current_geometry.maximum_absolute_principal_curvature",
+    "current_D_point_lower": "current_geometry.diameter_point_lower",
+    "current_K_cell": "current_geometry.returned_locations.curvature.cell",
+    "current_K_u": "current_geometry.returned_locations.curvature.u",
+    "current_K_phi": "current_geometry.returned_locations.curvature.phi",
+    "current_K_branch": "current_geometry.returned_locations.curvature.branch",
+    "current_K_s": "current_geometry.returned_locations.curvature.s",
+    "trial_K": "latest_trial_geometry.maximum_absolute_principal_curvature",
+    "trial_K_cell": "latest_trial_geometry.returned_locations.curvature.cell",
+    "trial_K_u": "latest_trial_geometry.returned_locations.curvature.u",
+    "trial_K_phi": "latest_trial_geometry.returned_locations.curvature.phi",
+    "trial_K_branch": "latest_trial_geometry.returned_locations.curvature.branch",
+    "trial_K_s": "latest_trial_geometry.returned_locations.curvature.s",
+    "trial_alpha": "latest_trial.alpha",
+    "trial_phase": "latest_trial.phase",
+    "current_distance_plus_phi": "current_geometry.returned_locations.amplitude.distance_plus.location.phi"
+  },
+  "total_live_fields": 64,
+  "original_progress_source_file_limit": 95000,
+  "new_compact_public_limit": 16384,
+  "new_pretty_controller_progress_limit": 32768,
+  "original_controller_index_limit": 95000,
+  "original_normal_capture_limit": 16384,
+  "new_own_observer_limit": 32768,
+  "scientific_fields_arrays_root_or_point_operations_added": 0,
+  "independent_review_replay_fixture_AST_or_benchmark_gate_added": false,
+  "only_new_independent_run_uses_new_transport": true,
+  "all_active_controller_files_unchanged": true,
+  "current_science_argv_words": 157,
+  "current_pure_argv_words": 7,
+  "original_formal_science_fields": 458,
+  "original_formal_pure_fields": 445,
+  "future_actual": {
+    "run": null,
+    "model": null,
+    "point": null,
+    "curvature": null,
+    "location": null,
+    "trial_alpha": null,
+    "accepted": null
+  },
+  "root_entry_source_delivery": {
+    "bytes": 30196,
+    "sha": "421977ba260ad7b31215c268ecd17f0c8314fc80",
+    "sha256": "4679db9388bf966a353f07a3a95af138bc80542e1e10a3d8151909e8572c8e10",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json",
+    "publication_commit": "06c3cefad4f173dd53018d67175e70a228dfcf91"
+  }
+}
