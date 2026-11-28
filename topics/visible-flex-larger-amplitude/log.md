@@ -422,3 +422,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:46:04 UTC — 21第四真实拒绝与下一统计
 
 21上一5f731真实g2.541913991322188拒绝；下一379965只返Phi3233.3855485375534/Gram.6568825760949264，几何未知；当前仍初7e06/accepted0/g2.541916739245917。原三项缺值保。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`34b75a46de17eeb6cfdc3ebe99c3137b404fb9d5`无变（非pull）。
+
+## 2026-11-28 03:46:50 UTC — 22下一完整试步统计实际返回
+
+22下一e906e仅统计Phi681.6473711639321/Gram.40616528955370923，至03:41:38几何未知，原97fbb/accepted1六族仍保；三原缺值不补。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`0a8e4be1a04c20b9776b8c46495f84bb119d7689`无变（非pull）。
