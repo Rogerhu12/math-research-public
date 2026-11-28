@@ -328,3 +328,7 @@ Moore行列式恒定及全根幂和准确解出原Paley两径向块的全部Z阶
 ### R1072 §10：原中央首矩的完整调和theta来源
 
 R736真实模p²像线与(28)的符号给原二次矩的整格点多项式，四维全调和投影在整个Q=p²壳保模p³。得到固定层级3·102²、权4p−2的真实尖点形式f_harm，m2=(34/δ)²[q]T_p²f_harm/(36p²) modp；全部2/3/17、12·3重数和非primitive点均保。需要读p f_harm模p⁴，单纯模p约化不付该矩非零。 [完整证明](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
+
+### R1072 §§11–12：固定权六首影与完整权二Hecke线
+
+原完整调和theta的p倍模p约化准确为−θ^(p−3)F6，固定权六F6保全部坏位且不预设非零。更强地p^-2T_p²f_harm在p整，全q展开模p落原E17权二新形式线，标量为36(δ/34)²m2；复合范数全部右ideals、非cyclic局部格、BT深二祖先与原X^-消失均保。本征线不强迫标量非零，仍须无穷p原矩检出。 [同编号全文](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。

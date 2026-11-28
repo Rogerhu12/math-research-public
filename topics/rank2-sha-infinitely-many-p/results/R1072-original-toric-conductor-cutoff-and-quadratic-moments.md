@@ -319,3 +319,39 @@ $$f_p^{\rm harm}(\tau)=\sum_{(a,b)\in\mathcal O_K^2} c(a,b) H_p(a,\bar b) e^{2\p
 $[q] f_p^{\rm harm}=0$，因为所有 $Q=1$ 是原全局单位，原 $f_{\rm int}(1)=0$。对 $p$ 未分歧的经典算子 $T_p$，$[q]T_p^2 f=[q^{p^2}]f+p^{4p-3}[q]f$，故这里下一项准确为零，得到
 $$\boxed{\quad m_2(p)=\frac{(34/\delta)^2}{36p^2}\,[q]T_p^2 f_p^{\rm harm}\pmod p.\quad}$$
 等价地，可对 $p f_p^{\rm harm}$ 取系数模 $p^4$ 再除 $p^3$。固定辅助层级、原完整 $c$ 和该 Hecke 算子已给出真实单一权源；不同素数的 $H_p$ 次数仍然变化，尚未由此得其规范二次矩对无穷 $p$ 非零。
+
+## 11. 同一纯调和 theta 的固定权六首层
+
+沿用上节 $d=p+1$, $M=p-3$, $L=4p-4$、$Q$、$f_p^{\rm harm}$、$H_p$、原完整坏位函数 $c$。在 $pH_p$ 的模 $p$ 约化中，唯有末项 $j=M$ 留下。因 $P=w^M\bar w^M(z^d+w^d)^2$，有
+$$ \frac{\Delta^M P}{4^M M!}
+ =\partial_w^M\{w^M(z^d+w^d)^2\}
+ =M!\left(z^{2d}+2\binom{M+d}M z^dw^d
+              +\binom{M+2d}M w^{2d}\right).$$
+$[L]_M=L(L-1)\cdots(L-M+1)$ 满足 $[L]_M/p\equiv3(p-4)!$；$M$ 为偶数，故 $(-1)^MpM!/[L]_M\equiv-1$。Lucas 同余使上述两组合数分别等于 $-2,1$ 模 $p$。于是对每一原格点 $z^d\equiv N(a),w^d\equiv N(b)\bmod p$ 给
+$$p f_p^{\rm harm}\equiv-\theta^{p-3}F_6\pmod p,\qquad
+F_6=\sum_{a,b}c(a,b)(N(a)^2-4N(a)N(b)+N(b)^2)q^{Q(a,b)},\qquad
+\theta=q\frac d{dq}.$$
+权六的括号调和，因为 $\Delta |z|^4=16|z|^2$、$\Delta(|z|^2|w|^2)=4Q$。这是同一固定 $\Gamma_0(3\cdot102^2)$、平凡 character 的固定权六尖点形式。此身份无需假设 $F_6$ 非零。
+
+## 12. 两次 Hecke 的整体除幂与固定原权二线
+
+令 $f_{E_{17}}=\sum_{n\ge1}a_nq^n$ 为原规范权二新形式，$a_1=1$。上节的 $[q]$ 源实际上有全部系数的精确下降
+$$ \boxed{\quad p^{-2}T_p^2 f_p^{\rm harm}\text{ 在 }p\text{ 整},\qquad
+ p^{-2}T_p^2 f_p^{\rm harm}\equiv
+ 36(\delta/34)^2\,m_2(p)\ f_{E_{17}}\pmod p .\quad}$$
+同余是完整 $q$ 展开；两权 $4p-2,2$ 相差 $4(p-1)$，也可在共同权用第四次 Hasse 不变量表述。
+
+先保全部壳 $Q=p^2 n$。若 $p\mid\beta$ 则 $P$、$H_p$ 对该格点的值都含 $p^{L-1}$，包括调和投影末项一次分母。若 $p\nmid\beta$ 则 $a,b$ 均为 $p$ 单位，模 $p^2$ 的 $\beta$ 像是 primitive line。先前证明只用 $Q\equiv0\bmod p^2$；故在所有这些壳上 $H_p\equiv P\bmod p^3$，且
+$$ p^{-2}H_p(\beta)\equiv (\delta/34)^2\ell_p(\operatorname{im}M_p(\beta))^2\pmod p .$$
+这里 $\ell_p$ 恒指任一 primitive 像向量的原 digit。若 $(n,102)>1$ 则 $c=0$；原曲线在 $2,3,17$ 均为 additive reduction，故对应 $a_n=0$。以下写 $n=p^a m$、$(m,102p)=1$。
+
+R736(19) 的理想计数适用于复合 $m$：在每个好 $\ell^b\Vert m$ 取所有指数 $\ell^b$ 的局部子格，含非 cyclic 的，得 $T_{\ell^b}$；链计数给 $T_\ell T_{\ell^b}=T_{\ell^{b+1}}+\ell T_{\ell^{b-1}}$。异素数独立。由于原右 ideal 类数为一，范数 $m$ 生成元模十二个右单位正是这些 ideals；返回坏位的作用为 $\bar\beta$。所以其全和除以12对原 $f_{\rm int}$ 在每个点作用为 $a_m$。在范数 $p^{a+2}m$ 的全部 ideals 中，先沿 $p$ 取其唯一 $p$-primary 超 ideal（在其它素点等于整环），再在其生成元右侧取范数 $m$ 的后因子。两操作互逆，且后因子在 $p$ 可逆，不改变模 $p^2$ 的像线。因此 $m$ 端作用准确乘 $a_m$，十二重仅在最后从 ideals 还原 generators 一次。
+
+$\beta$ 在 $p$ primitive 等价于其在 Bruhat–Tits 树上由根出发为长 $a+2$ 的无回退路径（Smith 指数为 $0,a+2$）。其模 $p^2$ 像线只依第一段长二的 ancestor。固定此线的深二点 $x$，上一点为 $x'$。对沿其后续的 $a$ 步无回退分支的原端点 $f_{\rm int}$ 总和记 $U_a$。原好点 Hecke 本征值 $a_p=0$ 给 $U_0=f_{\rm int}(x)$、$U_1=-f_{\rm int}(x')$、$U_{a+1}=-pU_{a-1}$ 对 $a\ge1$：对每个深 $a$ 点使用完整邻点和为零，回退端点按上一层的 $p$ 个子点恰计 $p$ 次。$x'$ 是从原深零一步的点，其 reduced norm 在 $3$ 的类为 $p\equiv-1\bmod3$，故落 $X^-$，R736(15) 给 $f_{\rm int}(x')=0$。于是
+$$U_a=a_{p^a} f_{\rm int}(x),\qquad
+a_{p^{2h}}=(-p)^h,\quad a_{p^{2h+1}}=0.$$
+把所有深二 ancestor 连同原 $\ell_p^2$ 加回并乘 $a_m$，由 R736(30)（$36=12\cdot3$）及前一节的分子公式，有
+$$p^{-2}[q^{p^2 n}]f_p^{\rm harm}\equiv
+ 36(\delta/34)^2 m_2(p) a_n\pmod p.$$
+
+最后，标量好素 $T_p$ 的 $q$ 展开给 $[q^n]T_p^2 f-[q^{p^2n}]f$ 为 $p^{4p-3}$ 乘整系数组合的 $f$ 系数（若 $p\mid n$ 包含相应额外项）。所有 $f=f_p^{\rm harm}$ 的系数均在 $p^{-1}\mathcal O$，故除 $p^2$ 后此差仍被 $p$ 整除，证明全式。原标量 $m_2(p)$ 由全部原标签决定；固定本征线身份允许标量本身为零，尚未给无穷 $p$ 的非零。

@@ -7,22 +7,22 @@
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线、条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库，至少每小时；非FF立刻pull --rebase、检查根/课题README差异并记H后再推，循环成功不force。令牌只命令行/进程，不入文件/提交/API。
 数学仅公开Actions，4CPU/16GB/6h；根13最多20并发。本会话唯一heavy及独立420秒小软件。规则15禁存可重算日志/数据/矩阵，只留源/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB，无>5MB/新拆块。规则8独立新R、同结论续同号；规则12不设冻结或额外复核门。公开16/私库15规定子代理显式gpt-6.2-astra/ultra；09:47已全部照办。
-[整理前完整H](notes/2026-11-28-handoff-before-central-layer-certificate.md)逐字保存旧参数、回执、更正及归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧结论与更正不重做、不撤回。
+[整理前完整H](notes/2026-11-28-handoff-before-fixed-weight-and-curve-pair.md)逐字保存旧参数、回执、更正及归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧结论与更正不重做、不撤回。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 12:04:17 UTC实际pull --rebase，读取main d51748e02f17a5793ca949d41e3f9a1a09c9acef；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 12:04:07 UTC实际pull --rebase至b8431187253174ecceedc8d7067e0e33011c65a6；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 12:12:25 UTC实际pull --rebase，读取main 30825717090089e0c3bbcf7637d9c5b66269294b；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:12:20 UTC实际pull --rebase至c7fbe5617593a6222e457afbef28395fbdb392c9；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE e58af89f749cd79e35c2c318fec6847d7ad53e8a，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3246/46835938B/tree3e4eaf0ffd0a8b442262c1f4f6d14614e9ec1a44；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3246/46843358B/tree8bf0dfdab6d619a9ae4600026ddb3cff1a7022f1；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
 
 [v16完整终态](notes/2026-11-28-original-streamed-shadow-production-v16.md)：run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，11:06:54.1538954Z真实800万transcript系数耗尽，solver/host1；不是OS OOM/137/deadline。两F/P、T/v正负及9scalar完成；A0两Popov det3670后fallback失败，零selected完整图/outer或后门PASS。全log4026180B/SHA52a8a7386e6ea0a5388503c0ad6fcd30a46a567d31806f7150b2bc3fe17d3fc0及8120记录/所有pins保来源注，F_y仍旧attached。
 
-[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原D·W=qN、完整逐坐标Y核≤306列终止；全部Laurent多项式X/低残量/已造ideal后的完整X外门。原双极度2256、重建总度>4512。§9真实A0有限U=1、P∞∈{1,2}、全球公共零长1416；真实LRU单j键/单调δ给单对象驻留窗口≤1251846，不界整X/RSS。 §10原两图G13=H0(13P∞−P)维1164，306低权行ρ≤13/Σρ3120；反图领先满秩付全s饱和。一个原D单位厚纤维总度21即足唯一恢复全图；RR维数可独立核实际返回，§11完整多链/δ0尾/原二次域与post-ideal双解全X接口已静审，单条X≤691866系数；反向用自身零除子。未有新软件/生产PASS。
+[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原单RHS与完整LaurentX、post-ideal全X外门；极度2256/重建>4512。§9真A0有限U=1/P∞∈{1,2}/公共零长1416，单j键LRU窗≤1251846。§10–11全G13维1164、306行ρ≤13/Σρ3120，厚纤维总度21唯一返回两图及全部s饱和；完整多链保δ0尾/原二次域/双理想outer，一条X≤691866系数。仅静审，尚无新软件/306生产PASS。
 [软件PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113；7.582517183s，log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309。root/代理各核32pins/8比较/2外门篡改/2预算拒绝/真二次底素及转置；不代306生产。
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44创建；11:30:17 root读1–3 success/4 in_progress，完整log未可读。76pins/72旧共享，数学体仅IMPLEMENTATION名变且host核原SHA；请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45，29/shadow/artinian/2453/batch64/minimal/preflightfalse、4CPU16GB21000s、Sage10.6/networknone/source只读/token仅host；两F/P及原四图/四交/八scalar/Norm18×9/九pairs/终门全留。尚无本次实际pins/F/P日志或PASS，不改部署。
 
@@ -40,6 +40,8 @@ J(η^(du)−1)=17^-1(17/a^d)^u Jp/J0p，保全部权germ与原参考。旧普通
 ## 原全导子量化：R1072
 
 [R1072](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)§1已付原完整Mellin primitive差、同一X、六条单位/δ短线、相对范数与二维格一致误差；D=φ(p+1)/2，i≥(1/2+ε)D整段所有原twists非零。未分歧同层传播返A/B34无旋分根，未决定中央或首层。§§2–4已付原全层偶数小行、非零P_i严格v<1、Th3.12/4.14–15原周期和v(P_i)=v(A_p)+S_i/D_i；P_i非零恰λ<D_i−S_i，零层初始段。原首层λ=2恰Σu²A_1,u modp非零，足以通常全Sha有限。原有限域插值与Weil弧界再给√p节省，未证所需无穷p非零。 §5把真实primitive分裂素方向相位保为角色，短同步子群的tame注入限秩、Poisson推前正下界及全长尾，给i≥100logp/loglogp整段非零与log(1+λ)≪(logp)²/loglogp。 §6更以截断分裂Euler算子、粗方向同向乘积注入和全长尾，给所有i≥1000原整层非零及λ_p<p^1999；主证明不借µ/λ。 §§7–9原signed Artin给Θ17²=C*Θ1² A Aι、Θ1单位；BT全层M_i=Σu²A_i,u准确满足(−1)^i p^(1−i)M_i≡2Θ17,2 modp^i。因此原J′非零恰某有限i不被p^(2i−1)整除；中央赋值2r且首次检出i=2r+1。所有i都未检出才等价中央坏，不把有限矩/全行混同。 §10原Q=p²全壳调和theta给m2=(34/δ)²[q]T_p²f/(36p²) modp，固定层3·102²、权4p−2，需p f模p⁴；不从固定层或模p影子赋非零。
+
+§§11–12同一源的模p首影为−θ^(p−3)F6，F6固定权六；完整p^-2T_p²f_harm整且模p为36(δ/34)²m2·原E17权二新形式。全范数ideal/非primitive/BT祖先与坏位均保；本征线允许该标量为零。
 
 ## 更正、其它门与主前沿
 
