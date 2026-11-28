@@ -28,7 +28,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-live-g10 --> [真实R286第一/第二像G11 κ1554.63与33.0894；直接对第二像全部六jets及14行求导，冻结g独立280步后G11 .457854/18.0953/.662734。](notes/2026-11-28-2ecf-true-spatial-image-metric-and-curvature-actual-frozen-steps.md)
 
-<!-- 2ecf-R271-components --> [R273上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)、[R282回折双控尾](results/R282-returning-developed-ports-with-independent-terminal-tangent-and-height.md)中央/两尾/固定帽三分量全时reach≥.097，仍缺两个连接带。
+<!-- 2ecf-R271-components --> [R288](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)长短两真端方向独立、完整三分量reach≥.097；R273/R282旧尾仍可用。两完整连接的新metric/法管均另付。
 
 <!-- 2ecf-r278-Minkowski --> [二次模实位置和原生深曲率](notes/2026-11-28-2ecf-short-m2-curvature-updates-and-full-amplitude-centers.md) 将 1/8 场的独立 κ17.05→9.81；.25、.34 纳入全深表，p32 真实相同宽差 .68 的新中央落盘，全部强比例仍待。
 
@@ -52,4 +52,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:58:19 UTC；已读公开 main `46bce65a28e4813fed2e7006772dd6d61522cfbe`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:08:04 UTC；已读公开 main `5374a6817d9761fbea489d44803e4728ddc22d0b`，根/课题 README 逐差无变化。
