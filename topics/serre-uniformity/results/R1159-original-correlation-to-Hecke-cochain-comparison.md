@@ -2,7 +2,7 @@
 
 日期：2026-11-28（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126；root。
 
-**已证明以下连续上链身份，尚未将平滑算子在上链层逆掉。**
+**已证明以下连续上链身份。后继 R1160 已实际构造本篇末节的 B_n，解开最高矩的平滑；Frobenius 数值读取继续。**
 本篇把 [R1158](R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)
 已经构造的真实 correlation torsor 接到原未平滑两个 moment。
 所有 crossed projection-formula 修正、单矩的根相位和
@@ -323,3 +323,8 @@ $$
 - R1147：原 moment、degree-$12$ residue 及 universal cohomology。
 - (1159.3)–(1159.19) 由 root 在相同右陪集约定下逐式纸推。
   无数学程序执行；未增添素数扫描。
+
+
+### 后继 B_n 已实际构造
+
+[R1160](R1160-original-explicit-arithmetic-descent-and-unsmoothing.md) 用本篇给定 ζ_n=(V_n−v_n)Ω 构造真实算术 B_n：两个有限阶 geometric lifts、复共轭的唯一标量及两个 transvection 的有限反差分给完整连续 section。因此 (1159.19) 现已实现，n2/n5 选择覆盖全部 p>37；一般 Frobenius 的第二条 conjugating-path 数值仍单独待付，不将这次下降写成已知 F0。

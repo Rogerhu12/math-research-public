@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：cfa368552b16eddb5de403dc87f1b035e80275fa**（2026-11-28 11:22 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：aca611dcad3d9b505b29bbf41dd7574e03db3967**（2026-11-28 11:37 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 11:19:13 Asia/Taipei，Actions run46102253397/job140847085965，blob:none浅clone后真实pull --rebase至10f20b88；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:09、pull≤12:19。本地11:18仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-canonical-primitive-alignment.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-arithmetic-unsmoothing.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -20,15 +20,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment塔/proper Heis/未分歧43格FL已付。§16同原quotient的真正整generic塔在全noncusp延伸并唯一识别；单层/rational不代输入，Cartan I仅modp。
 
-[R1149–50](results.md)原43塔Hodge截面、E6/E10连接、Tate a5=u5与horizontal/log Frob下降锁同塔；整u=pt Taylor、finite q_t/λ/binomial及CM β尺度沿文。Gaussian/cubic粗次数1/2/3、1/1/2，首斜率unit不代whole盘；中央F0仍开。
-
-[R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)实际finiteFL H¹↔Fp³；p>Ccyc全global像(rx,sy,zxy)、七退化支保文。真障碍rs h−zab，Gaussian/cubic顶分别16δ³c_g⁶(rs z12−z x4y8)、16δ³c_g⁶(rs z12−z λA*y7/6)。首数字0不代whole盘。
-
-[R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)原Ξ5,9;14 cusp/奇项/六次label及abelian−1整支保全。已刊Soulé/Kurihara付p>Ccyc=exp(9^(224·9⁴))原γ3/5/9全global基；共享γ5的p⁵群/密度1/p²及大Chebotarev affine真实存在沿文，不代局部单位或空集。
-
-R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)，r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25。原c3/c5、七退化支/完整中央减法沿文。rs非零κ=6/5+3J/(5β3β5)，原F0最高组合与深盘仍开。
-
-[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付原Q1/Q2→finiteFL的U/U²、实际Miller phase、全部可见x2..4/y4..8及Gaussian x4/y8、cubic y7。generic Fp SS存在范围取max(C_SS,C_cyc)，全尺度/β参数沿文；U★γ★⁻²仅β3好或p4k3且β5好时恰1，两β坏不外推，z12仍开。
+[R1148–53](results.md)原cusp/全global基、relative Hodge/log Frob和finiteFL减法均保于[open](open.md)及逐字前态：Ccyc=exp(9^(224·9⁴))，大Chebotarev affine真实存在，不代空集。β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)给r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25；真障碍rs h−zab，七退化支全保。Gaussian/cubic最高同源组合、U/U²实际Miller/FL尺度、β底参数和所有nilpotents沿原文；两β都坏不外推η★=1，首数字0不代whole盘，F0中央与全深盘仍开。
 
 [R1155 §§1–12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D/rev/BK、强mod pO_L有限dilog及SS单位已付。§8 v=u^p+pε完整右运输保h=−ℓ2/(1−u^p)−ε²/{2u^p(1−u^p)}；§9全S3。§10同一五点配置的五个ε由两个base误差实际生成，Σalt h=e_Ce_D/(CD)、Σalt BCH=0，保全部carry/nilpotents。任意分歧仅fibres间运输；未分歧v=σu才actual同点。§11原Gaussian U_a的有限椭圆坐标jet给h12−(L3/L1)h4=−2A³s(s−1)(s−4)/125单位；只属单primitive relative Frob，不删torsion高nilpotents。§12选定整形式ψz=z^p时ε=ε0−u0L，hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50单位；ψ不代分歧torsion的σ。原filling/Cor/moment与F0 z12继续。
 
@@ -38,7 +30,9 @@ R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp�
 
 [R1158](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)最高Sym12 smoothed Gcorr已成：真实even单位共同商、S/U权、Weil restriction与全ordered bracket保rank1/correlation/算术下降。X_d=k_d(n)M_d、X′_C,d=nM_d^C−n⁻dM_d；根ρ和中央gauge全给，完整M的H¹Z0后唯一。n2的κ4/κ8在p>37全unit，未以此反除中央primitive。
 
-[R1159](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)付两条crossed projection公式的实际L/R、单矩norm根相位ηd及完整J_n；Ωcorr=V_nΩ+dJ_n，hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。cohom scalar v=n⁻¹¹(n−1)(n¹⁴−1)，n2时=3·43·127/2¹¹；仍须实际dB=(V−v)Ω，才h0=(hV+B)/v，不用存在性代读数。
+[R1159](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)付全部crossed L/R、norm根ηd和J_n；Ωcorr=V_nΩ+dJ_n，hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。后继R1160已构造实际B_n并解开平滑；仍须原Frob路径数值。
+
+[R1160](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)实付算术B_n：ζ=(V−v)Ω的C2/C3有限阶lift固定几何section，复共轭λ=−β(c)/2、原12M12及两个transvection的有限Newton反差分固定全部算术修正。dB=ζ，h0=(hV+B)/v是真原未平滑最高lift；n2除43/127、两例用n5，覆盖全p>37。一般Frob仍须读同一有限Galois/Belyi quotient中的b(q⁻¹T′q)，未当F0已知；不能把该剩余路径换名当非零。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

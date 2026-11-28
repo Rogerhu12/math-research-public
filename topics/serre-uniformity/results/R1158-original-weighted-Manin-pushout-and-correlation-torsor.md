@@ -467,3 +467,8 @@ $\Pi_0(X_{n,4}\cup X_{n,8})
 - o2_high_coefficient 已纸核 (1158.9)、S/U 的 ordered 槽、
   零标签的系数消去、完整 common-quotient bracket 及
   all-vector 尺度。无新数学程序执行。
+
+
+### 后继实际未平滑接口
+
+R1159 已给全部 crossed transfer / 根相位的一次修正 J_n；[R1160](R1160-original-explicit-arithmetic-descent-and-unsmoothing.md) 进一步由原算术群构造 dB_n=(V_n−v_n)Ω。因此最高原未平滑 primitive 现为 (hV+B_n)/v_n，n2/n5 覆盖所有 p>37。一般 Frobenius 的实际 conjugating-path 读取及原 F0 数值仍须继续，不能将该已成的上链程序当作数值已知。

@@ -37,13 +37,15 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1158](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)现已把原S/U多项式权接成最高Sym12的真实Gcorr群态射：共同even单位W、Weil restriction/对角拉回、全ordered bracket与rank-one标记全保，未除cover degree。quotient原矩比较、根ρ及中央gauge已实际支付，完整M上的H¹Z0给唯一correlation lift。
 
-**当前准确门**：从含各n-isogeny moment的smoothed correlation对象抽取原未平滑G0；须实际arith Hecke链同伦或等价torsor比较，不能把H²中的单位直接除一次primitive。继续同源norm、全部carry/Cor与F0 z12；raw或单primitive局部单位仍不代weighted中央非零。
+**当前准确门**：R1159–1160现已从含各n-isogeny moment的smoothed对象给出原未平滑G0的实际一次primitive。后继必须读取该原source的一般Frobenius conjugating path及其crystalline/FL中央值；不是再证抽象lift存在。全部carry/Cor与真实减法继续，单primitive单位仍不代weighted中央非零。
 
 [R1159](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)已把这一步拆到实际一次上链：R_c,b(g)=Σc_t(g)⊗g v_tg、L_a,d(g)=−Σu_t⊗d_t(g)，两个crossed projection差各为dR/dL。单矩ηd=n⁻¹(τd+ρd−Corρ′d−n⁻dUd)来自原norm根相位，Ta_d=(n+n⁻d)a_d+dηd。J_n=n⁻⁷Π(η4∪b+R)+n⁻³Π(−a∪η8+L)−n⁻¹²ΠK；Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，完整V_n=(n⁴+n⁻¹¹)−n²T_n。
 
-当前还缺实际B_n满足dB_n=(V_n−v_n)Ω，其中v_n=n⁻¹¹(n−1)(n¹⁴−1)；取得它才有h0=(hV+B_n)/v_n。固定n5在p>5¹⁴−1时scalar单位，不等于已经完成此上链接口。H¹唯一性和quasi-isomorphism不代实际B_n或原F0读取。
+[R1160](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)已给B_n=𝓑((V_n−v_n)Ω)的实际连续构造：C2/C3两个有阶lift唯一延长几何section；算术缺陷β由原Tate residue读取，λ=−β(c)/2，t=−12M12|N⊗λ；两transvection上的有限Newton反差分给唯一v_q。全section的乘法缺陷在M^N=0，遂dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n。n2覆盖p>37除43/127，两例取n5的5¹⁴模值36/19，故全p>37接口已付。
 
-[R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)已把原source扩到n=2并锁定全部常数：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²，4θ₂=[Θ]、4θ′₂,Ci=[Θ_i]。原K3三函数式仅27项，权为6/−2/2、总系数−1/256，字面norm/平移关系及全部根相位均保。R1158与R1159直接适用；κ4=63/16、κ8=1023/256在p>37均unit，v2=3·43·127/2¹¹仅p43/127例外。它简化实际source与交换商，尚未构造dB₂=(V₂−v₂)Ω；SS四线坏参数不删。
+R1160中一般q的b(q⁻¹T′q)仍要从同一实际有限Galois/Belyi quotient读取；Tate方向T的χ共轭已知，另一条路径不能据短字复共轭或cohom唯一性补数。当前是该真实Frob读取、与R1150原Hodge/整格的运输及F0 z12/低中央系数，不能把明确上链程序冒称数值已算。
+
+[R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)已把原source扩到n=2并锁定全部常数：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²，4θ₂=[Θ]、4θ′₂,Ci=[Θ_i]。原K3三函数式仅27项，权为6/−2/2、总系数−1/256，字面norm/平移关系及全部根相位均保。R1158与R1159直接适用；κ4=63/16、κ8=1023/256在p>37均unit，v2=3·43·127/2¹¹仅p43/127例外。它简化实际source与交换商；dB₂=(V₂−v₂)Ω现由R1160构造，SS四线坏参数和一般Frob路径读数仍不删。
 
 ### 原实际 finite Frobenius 与尚待原 F0 中央读数
 
