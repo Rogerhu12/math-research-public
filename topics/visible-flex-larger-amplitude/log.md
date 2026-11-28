@@ -217,3 +217,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:19:15 UTC — 28真实接受e1476为第三点；a28ae自己的试点统计
 
 同sourceb1a8554a9d88dc176f7295eab4bed9f73f65e3f2/PID3331/model61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7，e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf已真实accepted=true，接受数3，Phi681.6470516175361/Gram.40616529581758637/reachg=.5235597907246015/distplus=.11392305204890485；六族/K/位置完整如下。下一a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf为alpha1，07:07:13.120587Z仅自己的Phi681.6450227773521/Gram.40616533555531326返回；其几何/接受/完整报告未返。这个坐标名和两统计与25原final相同，但模型/源码不同，不能继承25几何或接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`739092969d672b677efb7ffce9e2257baee10ac5`无变（非pull）。
+
+## 2026-11-28 07:19:32 UTC — 29的ba2b实际reach拒绝；半步4b4c仅开始
+
+29 ba2b全步真实几何最大reachg22.107165815378092且拒绝；当前bc818/accepted1不变。07:08:52Z新4b4c半步只trial-start，无自己统计/几何。原全对象、全部错误和未知保，未据clock或旧点补值。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`f3d75f64e0b1c7f745eee5f6934bf5c9e6039253`无变（非pull）。
