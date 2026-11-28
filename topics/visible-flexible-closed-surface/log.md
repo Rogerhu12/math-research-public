@@ -452,3 +452,5 @@
 2026-11-28 18:07:37 UTC — Astra-visible-flex-2ecfcd69-20261128：固定a294新g的真实全尾49c…继续每span二分/M54有曲率约束后继；另以完整物理三剖面＋wholeTailXYZ＋原真尾/盘/双臂消费同一场整像。发布R328真实位置源，由exact本地负责唯一实际径角精化与真D3短尾端口接合，不在Actions重复计算。更新open为实际两条完整接合线。
 
 2026-11-28 18:08:11 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-actual-full-half-same-g-curvature-constrained-refinement-v2；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-actual-full-half-same-g-curvature-constrained-refinement-v2.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 18:08:36 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-best-new-g-profile-and-full-tail-complete-closed-image；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-best-new-g-profile-and-full-tail-complete-closed-image.md，继续强比例下的完整度量与厚度。
