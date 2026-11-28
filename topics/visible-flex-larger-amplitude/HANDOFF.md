@@ -56,5 +56,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R778](results/R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)：同R776 g全闭C²近等距族，误差≤2(16000/n)+(16000/n)²；真曲率>100n且reach趋零，不能充厚等距解。完整二jet支持低频真实修正继续。
 <!--r774-publish-->R774 [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 4ce6265f87578e1254a35deece0104ab05f1616f
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a4a033e6ac015e4287b887498d4ec23e05f99875
 <!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 318b83c70bed5d294b98b749bf456c6c2b7176d1
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull d4558cac9fcfbde6e4ba1ad04332e9dc8a954bc4
