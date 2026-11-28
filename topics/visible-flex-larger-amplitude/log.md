@@ -189,3 +189,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:08:06 UTC — R728 完整seed再生器及最终4件总表
 
 已刊完整证明最终23587B/3a268/c70f（edef5755）与seed53384B/c6fc/111435（d8cb4767）的最终整包补齐：Node逐项10处whole文本正反再生7937B/e4ef058b及完整总表19374B/7ce94a，共新增27311B；四件104282B。父R726整文件、原共享mean及18方法接口全保，真实中央极性固定−1，源/值/模型不冒旧场。总表标明当前来源和未来actual null；不继承旧准确根、geometry、normal或完成。见[完整总表](computations/fixed-fejer-R728-reversed-halfwave-complete-seed-delivery.json)。完整31全族/参数另包待刊跑，非以seed替全部运行体。双README云核至`413b1acefec0eba365ac9ae1b4e25289dd900253`无变（非pull）。
+
+## 2026-11-28 07:13:40 UTC — R729 全行 common-slack 对偶及可行恢复证明
+
+新增完整[R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)16278B/88ff7f/73102。沿用R683已证全行KKT，新增严格同号slack列β>0给非负正象限二次强制有界、紧level set、无限准确循环坐标收敛和唯一原始极限；逐全部行slack恢复、可行原始上界/合法对偶下界/gap与H范数误差、正行缩放对应、完整列流式构造均完整证明。真实动机只归25首恢复QP：2advance、dependent_blocker_at_zero_step、Pg .529460169023458、tol5.305849371949155e−7，原213+1行；阻挡行/原因未知不补、4次全QP状态不臆推。明确原μ²增广范数、外层原全几何/预算保；有限64轮和浮点证书未付，不混31或活子进程。双README云核至`f9105800aa194202fd36e9b083a43281c87ce084`无变（非pull）。

@@ -378,3 +378,5 @@
 - **R727（已证明，非急角后验正根）**：[对称端层配对与完整候选残差](results/R727-symmetric-spherical-boundary-posterior-root-without-acute-cap.md) — 全层反射对称给任意θ*<π的切向m=(b/2)cos(θ*/2)>0、L=(b/2)θ*/sinθ*；球冠残差/幅度严格余量证明内部唯一正根、后验半径/位置、完整三维逆与C²参数接合。用Lη而非未证弦长界，无急角或|K|>b要求；实际全积分/角域/支归因及其他几何完成责任未付，不新增执行门。
 
 - **R728（已证明，条件反号距离恒等式）**：[两完整半波的反号、前缀位置与见证距离](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md) — 保完整球面均值/选定根，证明F±=C±Aw、全部六jet、两见证距离差4A·w·(q−C)及半径差；给两中央段符号常量与φ=π/2任意正乘子根的平面性，不借旧全局唯一。完整负首段seed已刊；高度项、全域两见证、normal/Gram/K/reach与全等仍须真实求解，不宣称新场已可行。
+
+- **R729（已证明，完整公共slack QP）**：[全行对偶强制有界、循环收敛与可行恢复](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md) — 接R683原全行KKT；同号slack列给正象限紧level set，允许Gram奇异且不删行，证明准确全循环坐标收敛、原全行可行slack恢复、primal/dual gap及原范数误差界。源于25首恢复QP仅2 advances即dependent blocker且Pg远超容差的真实返回；新算法尚未运行，不冒64轮保证或非线性可行，不改变31。

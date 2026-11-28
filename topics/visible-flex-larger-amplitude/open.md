@@ -131,6 +131,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)与完整负首段seed已刊：同准确均值、F±=C±Aw、六jet和两见证精确差；轴上任意正乘子根必平面，真实er投影含高度竞争。距离热点s未返回，不借K热点补。全screen/normal/Gram/K/reach及不全等仍未证。
 下一新算例优先R728反号+完整按需算术，29原模型继续；30完整准备保全、其准备publication=null真实，不另重复物理基线。最终全部运行必需源与完整历史必须实际可取；全变量/域/原预算和正式/实时读数不减。
 
+[R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)给公共slack同号列下的全行对偶紧level set/循环收敛/可行恢复，接R683不重做。25首QP2advance即阻挡且Pg远超tol；新算法另族落实，不混31。
+
 ### 准确后继与持续研究
 
 [准确核心9件](computations/fixed-fejer-r726-R727-complete-accurate-mean-core-delivery.json)395065B已刊，保无限Slerp尾、真根E1/E2三整积分、固定H0/独立profile与w、全radial cuts。R726/R727 normal/leaf/G11件及闭相位/矩/mesh23件完整保护待刊；实际准确费用未付，R728需真实新source/符号适配。
