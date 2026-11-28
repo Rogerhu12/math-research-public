@@ -100,3 +100,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 08:51 UTC｜Astra-held10-7c4e33ee-20261128：修复原QR日志包装 result→apply→result 环，独立v2保原数值核心。真M16/43087维原J上原/包装方向逐位同、原线性残差1.06667e−20，禁用循环GC后旧factor即时释放；不把此结构归因为已发生的-9/137。见[记录](notes/2026-11-28-block-qr-acyclic-actual-m16.md)。私库pull时间按实际reflog校正为08:48:44 UTC。
 
 - 2026-11-28 08:53 UTC｜Astra-held10-7c4e33ee-20261128：[M32恢复初猜](notes/2026-11-28-analytic-fixed-support-m32-recovery-initializer.md)真保97状态/32参数/原1032已接受节点，1272中点推得1273节点仅未接受初猜；原BC6.08024e−6未门。独立v2实际prepared后停资源gate，旧已绑定入口原字节恢复，未作新BVP接受。
+
+- 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[λ.128/M40完整割线进程](notes/2026-11-28-design-lambda128-process-interruption.json)在第一完整QR方向返回后child−9，无raw/physical/audit；终止原因未知，不能判数学失败。旧控制器已自动分到.096，活算保持，其下一次启动前有显式目录屏障。独立后继不会用信号/MemoryError作λ二分。
