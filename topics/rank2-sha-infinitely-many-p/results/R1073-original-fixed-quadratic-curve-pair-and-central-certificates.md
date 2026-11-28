@@ -284,3 +284,45 @@ $$ \Phi_t(u_C)=u_{tC},\quad t a_{tC}=a_C d_t(u_C),\quad
 $$\boxed{P_\Delta f_b=65\,\mathcal A_b(\mathcal T_\eta-I)P_\Delta f_1
 \quad\text{在 }W[[u]],\quad b=65,8125.}\tag{P9}$$
 它比较同一原全模形式来源及同一 $\Gamma$ 的有界函数。R1065/R1066 的 Hall–Katz 第一挠层负二测试没有这个同源变形盘恒等式。此前物理 $E_1$ 盘中沿有理单位的 Volkenborn 算子含 $z h_b$；在(P9)有理单位从循环子群的定义已整除，所余 $p+1$ 是同源轨道而本来可逆，故无需该误差。
+
+## 9. 同一个固定 de Rham 来源在任意中央精度的准确系数
+
+保留(P9)。在特征零的原模曲线中央形式邻域工作；这些操作仅作逐 Taylor 系数比较。记 $e_0,e_1$ 为通用 $H^1_{\rm dR}$ 中水平延拓的中央向量 $\omega_E,x\omega_E$。在 $y^2=x^3+1$ 上二者的 CM 特征是 $t,\bar t$：先对六根单位验不变微分与第二类微分，再由 $K$ 作用及局部连续性延到 $\mathcal O_{K_p}$。GM 常微分方程在特征零形式盘上有唯一水平解。写实际 Hodge 线的任一框架
+$$ \Omega=h(u)(e_0+w(u)e_1),\qquad h(0)=1,w(0)=0.\tag{Q1}$$
+Kodaira–Spencer 同构给 $w'(0)\ne0$，故 $w$ 是特征零**中央形式**参数。对权一形式定义中央数列
+$$ c_k(n)=[w^n]h(u) f_k(u).\tag{Q2}$$
+这里 $f_k(u)$ 是用 $\Omega$ 评价的(P1)，所以 $h f_k$ 与临时框架无关。也可完全在固定数域上构造(Q1),(Q2)：在 $y^2=x^3+v x+1$ 的中央光滑族延拓全水平结构，有限 étale 性使标记唯一；$v$ 是带水平结构的中央局部参数（在带标记椭圆曲线形变中 $a_4$ 的变化与保 $a_6=1$ 的微分尺度独立）。代数 GM 连接及上述初值供同一 $w,e_0,e_1$。故所有 $c_k(n)$ 属固定数域、无 $p$ 参数。沿(J)的 Galois 作用，水平结构在整个中央形式邻域由其中央标记唯一决定；$e_0,e_1$ 初值有理且水平延拓自然。逐同样的 $a$ 重标给
+$$ \theta_k c_k(n)/(1-\omega)\in\mathbf Q\qquad(n\ge0).\tag{Q3}$$
+
+通用 $p$-可除群同态对其滤过有理 Dieudonné 晶体作用保连接；在椭圆曲线的 Serre–Tate 形式族上这是通用椭圆曲线的带 Hodge 线的 $H^1_{\rm dR}$（可具体用通用向量扩张）。相容性仅在中央完成后、特征零逐阶使用。具体可参 Gross–Hopkins, *The rigid analytic period mapping, Lubin–Tate space and stable homotopy theory*, §1，变形空间上有理周期映射的等变性、étale性及通用向量扩张的构造；这里直接用两条水平解写出的局部式。由水平性及原点处 $[t]$，有 $U_t^*e_0=t e_0$、$U_t^*e_1=\bar t e_1$（两式左边先在 $\Phi_t(u)$ 取基）。比较(P7),(Q1)，得到准确方向和框架
+$$ w(\Phi_t(u))=(t/\bar t)w(u),\qquad
+ d_t(u)/t=h(\Phi_t(u))/h(u).\tag{Q4}$$
+所以(P9)已在整盘确立以后，才在这个形式参数内取系数，得
+$$\boxed{c_b(n)=65\mathcal A_b(\rho^n-1)c_1(n)\qquad((p+1)\mid n),\quad
+  \rho=\eta/\bar\eta.}\tag{Q5}$$
+因 $t/\bar t$ 在 $\mu_{p^2-1}$ 上的像阶为 $p+1$，全 tame 投影恰取这些次数。对 $n$ 次系数可先在 (P9) 中用 $\mathcal A_b$ 的多项式截断，再按此前严格盘收敛取极限；这给标量特化 $\mathcal A_b(\rho^n-1)$，完全无需把 (Q1) 的形式参数延到准典点。$\eta$ 映至原 $\Gamma$ 的拓扑生成元且有理方向已除，故 $v_p(\rho-1)=1$。
+
+### 全部所需同余类都有无限多个真实非零参考项
+
+对任意 $6\mid N$ 与 $6\mid r$，在 $n\equiv r\pmod N$ 有无穷个正 $n$ 满足 $c_1(n)\ne0$。下面支付这个无需假定中央泰勒序列所有项非零的断言。
+
+在复嵌入中 $w$ 正比于 $w_0=(\tau-\tau_0)/(\tau-\bar\tau_0)$，$\tau_0\in K\cap\mathfrak H$ 为原 CM 点。事实上在常 Betti 基中 Hodge 线由 $(1,\tau)$ 参数，$e_0,e_1$ 分别沿 $\tau_0,\bar\tau_0$ 的线，故解其线性分式关系即得此式。权一形式的同一 $h f_k$ 在 $w_0$ 里是固定非零常数乘 $\mathcal F_k(w_0)=f_k^{\rm an}(\tau(w_0))/(1-w_0)$（常 Betti 基中沿 $e_0$ 的分量正比于 $\tau-\bar\tau_0$）。故两种变量的非零指标相同。(P1)确是 holomorphic 权一 Eisenstein 的有限和：$F_7(Q)=7E_1^*(Q)-E_1^*([7]Q)$，代入逐一非零固定挠点即为 Hecke 正则化的权一 Eisenstein，参 Khuri-Makdisi, *Moduli interpretation of Eisenstein series*, §2 (2.1)–(2.7)；固定有理 slash 拉回后仍为有限同余级 Eisenstein。后一点也可在绝对收敛正则化域将有理变换后的子格分成一固定倍格的有限余类，再在同一 Hecke 参数解析延拓。
+
+先作 $\mu_6$ 旋转的全平均 $\mathcal F^{[6]}=6^{-1}\sum_{t\in\mu_6}\mathcal F_1(t w_0)$，它在零等于 $\mathcal F_1(0)\ne0$。这些旋转对应 $\mathrm{PGL}_2^+(\mathbf Q)$ 中固定 $\tau_0$ 的有理矩阵：对每个 $t\in\mu_6\subset K^1$ 取 $a\in K^\times$ 使 $a/\bar a=t$，在 $1,\tau_0$ 格基中为有理乘法矩阵。$t w_0$ 这一变换的权一 slash 与上述横截面间只差固定非零常数。故 $\mathcal F^{[6]}$ 是一个非零权一 Eisenstein 形式的圆盘表示，有某个有理尖点常数非零。为核后一句，在共同小同余群上把这些 Hecke 正则化格和同逐尖点原始向量的 Eisenstein 家族比较（缩放公因子产生 Dirichlet 系数）。在绝对收敛域与任一 cusp form 的 Petersson 配对展开首行，其常数 Fourier 项零，遂在解析延拓后仍为零；残数或有限 Laurent 系数也为零。各有限组合因而与 cusp 空间正交。若各尖点常数全零，该非零 holomorphic 形式自己为 cusp，和自身配对严格正，矛盾。
+
+选上述一个有理尖点 $r_0$，用圆盘边界点 $z_0=w_0(r_0)$ 表示。它在 $K$ 且 $|z_0|=1$。沿 $w_0=\lambda z_0,\ \lambda\uparrow1$，有 $(1-\lambda)\mathcal F^{[6]}(\lambda z_0)$ 趋于非零常数，由该尖点的 Fourier 常数及权一变换律直接得到；可取同余群等价的有限有理尖点避开 $\infty$。反之对 $\xi\in\mu_N\setminus\mu_6$，$\xi z_0\notin K$（$K$ 中全部单位根即 $\mu_6$），不能是任何有理尖点的边界像。对这些边界点的有限实横坐标 $x$，
+$ (1-\lambda)\mathcal F_1(\lambda\xi z_0)\to0$。确实设 $z=x'+iy\to x$，圆盘径向给 $y\asymp1-\lambda$。选 $A=\left(\begin{smallmatrix}*&*\\ c&d\end{smallmatrix}\right)\in\mathrm{SL}_2(\mathbf Z)$ 将 $z$ 送经典基本域。有限个 slash 形式在该域都一致有界（在每尖点 holomorphic），故 $y|f_1^{\rm an}(z)|\le C y/|cz+d|$；大 $|c|$ 上此界至多 $C/|c|$，固定有界 $|c|$ 时因 $x$ 无理，$|cx'+d|$ 一致远离零。两步取极限即结论。
+
+于是 $N^{-1}\sum_{\xi\in\mu_N}\xi^{-r}\mathcal F_1(\xi w_0)$ 在此径向仍有非零简单极型增长：$r$ 是6的倍数保证六个有理旋转的权皆一，所有其他项经 $1-\lambda$ 后消失。该全平均不为多项式，其 Taylor 展开恰选所求同余类，证明无限非零。
+
+### 固定代数来源的中央二阶准确读者
+
+给每个 $a\ge0$，可取 $n_a>0$ 为 $(p+1)p^a$ 的倍数且 $c_1(n_a)\ne0$。置 $t_a=\rho^{n_a}-1$，$v_p(t_a)=1+v_p(n_a)\ge a+1$。由于真 $\mathcal A_b\in T^2\mathcal O_{K_p}[[T]]$，(Q5)给
+$$\boxed{\frac{c_b(n_a)}{65 c_1(n_a)t_a^2}\in\mathcal O_{K_p},\qquad
+ \frac{c_b(n_a)}{65 c_1(n_a)t_a^2}\equiv[T^2]\mathcal A_b\pmod{p^{1+v_p(n_a)}}.}\tag{Q6}$$
+这同时给 $[T^2]$ 的真正无误差极限；各 $a$ 只需一个真实非零参考系数。更可强制准确 $v_p(n_a)=a$：在 $N=(p+1)p^{a+1}$ 的同余类 $r=(p+1)p^a$ 应用刚证结论即可。若两中央均坏，原整平方阶偶性使每个 $\mathcal A_b\in T^4\mathcal O[[T]]$，故全部这些固定的有理比满足
+$$ v_p\left(\theta_b c_b(n)/(65 c_1(n))\right)\ge4(1+v_p(n))
+ \quad((p+1)\mid n,\ c_1(n)\ne0).\tag{Q7}$$
+反向若对某一所述 $n,b$ 严格小于这一下界，则该固定 $p$ 已有原 $[T^2]\mathcal A_b\ne0$。这里只付了真实全部精度及跨 $p$ 统一候选的固定代数来源，尚未找到使(Q7)违背的无穷多个不同 $p$。
+
+原文：Gross–Hopkins, Bull. Amer. Math. Soc. 30 (1994), 76–86, https://arxiv.org/abs/math/9401220 ；Khuri-Makdisi, *Moduli interpretation of Eisenstein series*, §2, https://arxiv.org/abs/0903.1439 。

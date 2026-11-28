@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 13:18:50 UTC实际pull --rebase，读取main 7cf4bf58d218b5b4897240f1168b204ade258853；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 13:18:46 UTC实际pull --rebase至ad4b1fec3d05fe2c4cb8570e449ca630fc653494；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 13:19:35 UTC实际pull --rebase，读取main e5849ade5d09d8351bd94aefa866c0ca2073f150；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 13:19:31 UTC实际pull --rebase至6ccc0ed4f0da89023ab43434f4d8550ca91b6bce；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3271/47273075B/tree60a3e1a34b8ad67fa69b0c717ca18b37cdaf6cf8；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3271/47283748B/tree3bcd663c4c9d2ce8ef8884518e6ff708b5bb4bcb；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -40,7 +40,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 固定曲线对：R1073
 
 [R1073](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)固定E65/E8125秩≥2，完整390导子/5/双13及同一E1原A_b全保。§§1–4角色比(Na/5)、P±配对和全部Lagrange；θ_bA_b,2∈Zp，(5/p)=−1时P±两估值同为原最小值，无抵消。S=T²/(1+T)读有理范数；正性不代p非零。§5同参考U和七乘法统一D给正整数I_bi≡−DU0u_bmodp^i；Ni=5I65²−I8125²最终非零，vpNi<2i恰检出，现|Ni|≤Cp^(20i)不足。§6三个固定G_k全p核迹/整Katz/所有有限角色给D_b,s=65A_bD_1,s，保平凡项与反号奇层。
-§7全盘Volkenborn差=log_E·h，h整/ψh=−h；原全权等式保全部N M_(N−1)h，首阶逼近不代二阶。§8同一有界Morava盘有PΔf_b=65A_b(Tη−1)PΔf1；T来自p-divisible群，非全球自同构。
+§7全盘Volkenborn差=log_E·h，h整/ψh=−h；原全权等式保全部N M_(N−1)h，首阶逼近不代二阶。§8同一有界Morava盘有PΔf_b=65A_b(Tη−1)PΔf1；T来自p-divisible群，非全球自同构。§9固定dR系数c_b(n)=65A_b(ρ^n−1)c1(n)，两坏迫逐权四阶整除。
 
 ## 其它门、更正与接续
 

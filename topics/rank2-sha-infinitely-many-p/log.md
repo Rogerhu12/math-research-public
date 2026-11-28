@@ -223,3 +223,13 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:18:37 UTC到3d9c5c20834e4c3321352f6fc3737fb085138772，私库2026-11-28 13:18:33 UTC到77c45b7d15168b10dc06cd863356d7f231700b7a；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47273075B/tree60a3e1a34b8ad67fa69b0c717ca18b37cdaf6cf8，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:18:50 UTC到7cf4bf58d218b5b4897240f1168b204ade258853，私库2026-11-28 13:18:46 UTC到ad4b1fec3d05fe2c4cb8570e449ca630fc653494；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47273075B/tree60a3e1a34b8ad67fa69b0c717ca18b37cdaf6cf8，无>5MB。
+
+## 2026-11-28 13:18:56 UTC：R1073 §9：固定dR系数的任意精度原中央读者
+
+根逐审原Ev水平框、Gross–Hopkins的两个CM特征、同一形式中心dR系数身份及原t_n²精度；Khuri–Makdisi原§2支持真权一Eisenstein来源，参考同余类非零证明不取未经付费的非CM点代入。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:19:07 UTC到49e5b216aed4a3da04ad8cf66e20458d8c03c12a，私库2026-11-28 13:19:00 UTC到be5c6c1d7ec639d34608b0be4e62d64e1b5c391c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47283748B/tree3bcd663c4c9d2ce8ef8884518e6ff708b5bb4bcb，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:19:20 UTC到89d33546c3a7382e1fda4252fd6152bb05e82bda，私库2026-11-28 13:19:16 UTC到be5c6c1d7ec639d34608b0be4e62d64e1b5c391c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47283748B/tree3bcd663c4c9d2ce8ef8884518e6ff708b5bb4bcb，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:19:35 UTC到e5849ade5d09d8351bd94aefa866c0ca2073f150，私库2026-11-28 13:19:31 UTC到6ccc0ed4f0da89023ab43434f4d8550ca91b6bce；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47283748B/tree3bcd663c4c9d2ce8ef8884518e6ff708b5bb4bcb，无>5MB。
