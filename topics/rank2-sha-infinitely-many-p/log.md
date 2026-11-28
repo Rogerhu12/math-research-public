@@ -430,3 +430,12 @@ root全文读helper/check/proof，复核逆序右乘两列必须同时用旧列�
 推前actual双pull run46073965457/job140890223770：公开06:20:11UTC至d8ee444ce20dc29418a4ad653c5aaa3422183730，私库06:20:15UTC至4a18e1db7a65fa8dbf730826a073a6174e21193b；四README/QUEUE/三旧必要gzip未变，日志14887B/hashaf881ff40e582f1731c3e2bd21140a4c63a8eb5b1652f83edceeafa1cd67989e，库存3203/45531678B/treeb9cc7826e0a5ff2a9eef3ac7eca645ca3a7ca997，无>5MB。v15于06:19:37仍step4在算/日志BlobNotFound，不登记bindings或数学终门。
 
 下一继续同原Popov完整商及真实content恢复实现；数学仍推进原Hall低系数的真实整格和同T三因子返回。主目标未完成，继续。
+
+
+## 2026-11-28 06:25 UTC — R1067 首 physical jet 与实际 Hall 低行
+
+同一R1067追加§§9–14：原wild首系数赋值准确为2f+(e−f)/(p−1)+½vB；保原M全部有限角色、真实cover及physical p^-m，先除b_M后才作全log尾截断。actual µ_H/P_H的整tensor只保持整数p格，exactHall0⇒2M1−M2/2∈p²及M1∈p，准确返a_(p²−1)∈p²；另加bad给三矩行≥2+1/(p−1)。原模型frame全部θ/p^Δ项保留，ψ0质量零反例说明不能从fractional pointwise估值偷得该行。没有把exactHall0或裸S系数赋给bad。
+
+root全文核首系数/Φ′、log全部尾、M2/M3的Lie与ordinary差别、E17/E1 frame；仅依根规则调整新增段公式定界符。整R106741303B/hash14498626782e44e9114ed90e0a799675d2339a517dc26b869295982eee22e62e，追加17415B/hash6190800f511fb9b741b7f1e32d67649c105d24f6f2dfcf1371f1eb0304a9a061。旧H9934B/hashb227e43d0d22c46ede663979e44cb0b77426744fa4f44eb55a6b6f636e487c7b归档；纯手证，没有新数学运行。主目标继续，转非零高赋值支和原同T三因子有限读者。
+
+actual双pull run46073965457/job140891104706：公开06:23:48UTC至4adb8b48e52abdb93e6493849e41e70714c4839e，私库06:23:54UTC至1cd1e4be5492b4a8267c6921973b88e6886d6c18。四README/QUEUE及旧三gzip未变；日志14894B/hash8763ec921c172e59b313d22962cf5231b1af4f306ef3fe1109ea9b0035e9dc80，库存3203/45534724B/tree01eb305c29ae7ccf437b1f28134885eaa785f805，无>5MB。原row-return软件PASS已推7f1461be61218bf028a8efc9a1f1660692d9a9a6；v15仍唯一heavy，未记数学终门。

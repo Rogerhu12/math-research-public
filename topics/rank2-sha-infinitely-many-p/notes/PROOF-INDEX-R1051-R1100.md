@@ -386,3 +386,5 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ## R1067 — 原第一 wild 零点的精确偶重数
 
 [R1067](../results/R1067-original-first-wild-rubin-even-multiplicity.md)（已证明）在原E17/参考E1、同ν_r及全部有限角色中，构造完整Hall权germ并证明ord_(tν)A_p=2ord_0H_r。参考N2必须取Norm17r，原中心和physical导数均保。Kato含p² CM-pair、Artin projector 1/p、Gauss、m!及两处p^-1先留后在同源比值中相消；没有引入未付的解析单位。actualHall=0给Φp²，完整T^(2e)同留，故λ≥2e+2(p−1)；bad加actualHall0才有λ≥2p+2，主无穷非零未闭。
+
+- **R1067 §§9–14（2026-11-28）**：首系数准确值v(h_f/M^f)=2f+(e−f)/(p−1)+½vB；同一个P_H、整Katz读者、log尾和真实除b_M给exactHall0⇒a_(q−1)∈p²。保M2/M3完整Lie矩和E17/E1原frame，反例仅证明非一般ψ0质量零推论；未取得bad⇒exactHall0或无穷p。详见[原文](../results/R1067-original-first-wild-rubin-even-multiplicity.md)。

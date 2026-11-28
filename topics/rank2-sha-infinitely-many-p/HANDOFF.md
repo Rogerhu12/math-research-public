@@ -6,16 +6,16 @@
 
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线或条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库；非FF立即pull --rebase、读README差异再推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h。规则15禁存可重算日志/数据/矩阵，只留脚本/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则8独立结论入results/R编号；规则12不设冻结或额外复核门。
-[整理前完整H](notes/2026-11-28-handoff-before-first-wild-multiplicity.md)逐字保存全部旧参数、结论边界、失败与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
+[整理前完整H](notes/2026-11-28-handoff-before-first-wild-low-rows.md)逐字保存全部旧参数、结论边界、失败与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140890223770，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 06:20:11 UTC实际partial clone/pull至d8ee444ce20dc29418a4ad653c5aaa3422183730；已读根/课题blobs为282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 06:20:15 UTC至4a18e1db7a65fa8dbf730826a073a6174e21193b；已读根/课题blobs为5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与06:13同blob；QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc仍本会话进行中，认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以request baseline替代。
-- 日志14887B/hashaf881ff40e582f1731c3e2bd21140a4c63a8eb5b1652f83edceeafa1cd67989e；库存3203/45531678B/treeb9cc7826e0a5ff2a9eef3ac7eca645ca3a7ca997，无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟07:20UTC拉两库；非FF实际pull --rebase/读差异/重推。旧第50attempt startup_failure不算pull，现run同workflow。
+readonly run46073965457/job140891104706，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 06:23:48 UTC实际partial clone/pull至4adb8b48e52abdb93e6493849e41e70714c4839e；已读根/课题blobs为282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 06:23:54 UTC至1cd1e4be5492b4a8267c6921973b88e6886d6c18；已读根/课题blobs为5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与06:20同blob；QUEUE0960ae68e078bae51fd8e95fc2839c7028ffa6fc仍本会话进行中，认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以request baseline替代。
+- 日志14894B/hash8763ec921c172e59b313d22962cf5231b1af4f306ef3fe1109ea9b0035e9dc80；库存3203/45534724B/tree01eb305c29ae7ccf437b1f28134885eaa785f805，无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟07:23UTC拉两库；非FF实际pull --rebase/读差异/重推。旧第50attempt startup_failure不算pull，现run同workflow。
 - 本地自11月27日07:20失联，最近11月28日04:28:58实际pull仍无环境，06:02只读探测仍无可用环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## v13 终态、软件 v2 与实际 v15
@@ -35,17 +35,15 @@ R1052只杀原未改动whole flat及外权导数。R1054–61保全p²/旧项/�
 [R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)H/J/I付原tame0/χ、全部绝对Miller中心、Z_Q=Xi(w_Q)/误差6p/Δ、负二Hall五层/W+=hat3W、原d/p² Haar、原Newton除p全jet/Ec卷积/charge3。§10 L1–10已付全部p−1层：完整zeta/h连接及末层修正−(2γ_+/3)Acan(0)W^(p−2)保留，R618强盘付h≥2p−1全尾；bad只消常数/末修正，不赋余jet零。全部十八商γ/17^(-3−n)、nonp/fullh/Artin、compact↔ideal Norm/avatar及导数已返回；B_r(−2)=p^-6Ω^-1×单位×H_-H_+，全斜率保logU*与所有Λ′。I22严格门仍须vHall<2/(p−1)于无穷p。
 [R1064](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)保同一Ωϖ=λ_GY/全Gal、actual Cartier-dual与有限F的LT全盘等距；ST twisted不等ordinary固定，finite固定Qp线的ordinary finiteF像只能常数。quadratic lift、低矩、deep P10及一般heat反例只按实际来源范围；ψ核平均就是原p-cut。负二/log−E测试及全Λ′无损；Henc真F-Tate不等H(logGv)，真实数字和成本不加Smith。
 
-[R1065](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)K/T/W：
-- 原H±的g=p(1−φψ)f整、唯一primitive Katz dual；全q核迹只需p，完成标量扩张付非有理除点。gQ−g0=pfQ，正质量保高共振、负type4质量0；五层µ(c_k)/p返原系数。严格Hall门等价vµ_+(c1^(p+1))=2，仍须无穷p。
-- I18a/K20a–b明确E17→E0的17^-2，或c0^(0)=ϑ^-10c0、L±=ϑell±；原局部K20不改。所有period/中心/Haar不得以p单位为由漏掉。
-- T1–20付原整完成tensor、β0=612ωκ_A^-1ϖ²、Gaussian测试单位和mixed D_G heat，真gauge的floor费用及双units支撑全保。T19–20返回whole B_r(j)/斜率，logU*在µ_F外；mixed heat不直接冒coherent乘法。
-- W1–26付原[p]框架B(0)=1整单位、实际Miller整lift及中心、所有核角色。各真正p²新字直接为整ψ0 dual、norm1，正6q/负4q系数单位；标准degree-Nq框架保B加权迹。W22完整connection/physical p^-m、old/new与(p^-2−1)旧项、对偶coset图ξ+=−M^-Tξ−、全部h及原负二/Λ′全保。q^-1有限投影只在有理化格。
-[R1066](results/R1066-original-katz-negative-weight-and-full-gaussian-return.md)N1–19现付实际c_q锁c1^Δ/p^p主单位、完整逆connection的1+p^(p−2)统一Tate界；同一合法正权序列保p^(-p p^h)/physical p²，准确返回Miller负二/斜率和各新字裸逆矩非零。Z1–22在原完成整tensor的Cp扩张付全移位gauge、共同分支及coherent S_-C/完整Maass S_C的绝对收敛双卷积逆；不是E(t)+E(-t)=0。Z21a明辨ordinary新族与原already-Maass germ，保old/Haar/17^-2/fullh/全部Λ′及实际flat极限。主严格Hall门仍开；central查保持临界分量的c_q完整算子，geometry查D102/S34同源关系；不重复单字非零、P10重述或旧窗。
+[R1065](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)K/T/W给原H±真正整primitive Katz dual、全q核迹一个p、17^-2模型运输和整完成tensor。严格门仍为vµ_+(c1^(p+1))=2；负type4质量0、正质量高共振及全中心/Haar保留。实际p²新Weyl字在[p]框架B(0)=1中为整ψ0 dual，完整核character与coset图ξ+=−M^-Tξ−、physical p^-m及old/Haar/Λ′全返；高6q/4q单位不代低矩。β0=612ωκ^-1ϖ²的Fourier mixed heat不同于coherent乘法。
+[R1066](results/R1066-original-katz-negative-weight-and-full-gaussian-return.md)N1–19锁u=c1^Δ/p^p主单位及完整连接1+p^(p−2)，合法共同权支、p^(-pp^h)与physical p²准确返回Miller负二/全斜率。Z1–22在原完成tensor付S_C S_-C全移位双卷积，不是两E逐项相消；Z21a保原already-Maass、old/Haar/17^-2/fullh/Λ′。fractional点值只按floor转整gauge，不能对一般dual无损积分。单字inverse非零不传给Hall，原strict及跨p非零仍开。
 
 ## 原第一 wild 零点的新结论
 
 [R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)已推4e3efd54784b27f9e02cc6ec27129a62b3e6259c：证明同一原A_p在tν=ν_r(γ)−1的零阶等于两倍完整Hall权germ的零阶。N2参考用Norm17r保同χ_r²；原中心/physical导数/两m!及p^-1全留。同有限ν的Kato两图保1/p投影、Gauss、含p² CM-pair同源费用后取比相消；不是literal-usual连续性。真实坐标导数估值a+1保留，以t=p^h比较斜率，不假设未知解析单位。
 因此exact Hall=0⇒Φp(1+T)²整除A_p，λ≥2e+2(p−1)；bad与exactHall0同时成立才给λ≥2p+2。bad单独仅T⁴，不迫wild零；原strict Hall <2/(p−1)与跨p非零仍开。central继续实际λ/长窗到低行；geometry继续共同B18的完整Cartier/Hall返回，不把formal质量一作whole Katz卷积逆。
+
+R1067§§9–14现付首physical-weight系数v(h_f/M^f)=2f+(e−f)/(p−1)+½vB(tν)。同一真实P_H/µ_H保全部lift/χ/中心及E17→E1框架；先除真实b_M再截log。exactHall0⇒2M1−M2/2∈p²、M1∈p，故a_(q−1)∈p²；另加bad才给三矩行估值≥2+1/(p−1)。M2/M3仍全Lie导数，不代ordinary高系数。ψ0整且质量零的反例v^(2Δ)−pv^Δ说明额外p不属通用整性；但该行仍来自原Rubin因子，未与actual源矛盾。bad不迫exactHall0；下一追非零高赋值支的实际比较单位及同T三因子返回，不能继续免费增加坏行。
 
 ## 其它原门与继续方向
 

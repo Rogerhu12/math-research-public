@@ -68,6 +68,8 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 
 [R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)现付同一个原第一wild点的偶重数：ord_(tν)A_p=2ord_0H_r，N2/Norm17r参考为单位；全部finiteν、Miller中心、physical导数、Gauss/1/p与含p² CM-pair费用保后相消。exactHall0才迫Φp²及λ≥2e+2(p−1)；中央bad联合该精确零才给λ≥2p+2。下一继续真实λ/低jet约束；不从中央bad、高赋值或Katz整性造wild零。
 
+R1067§§9–14进一步给physical首jet整界及同一actual整Hall源P_H：先保任意原M/cover/连接，再准确除b_M，log全尾给2M1−M2/2和3M1−3M2/2+M3/3。exactHall0⇒[v^(p²−1)]P_H∈p²；bad联合exact0才给三矩行≥2+1/(p−1)。一般ψ0/质量零不自动有额外p，原明确反例已付；模型frame(50)保θ^(Δ−6)及p^Δ H0项。仍需实际源矛盾或由bad可消费的非零高赋值支关系，不能把此行冒作裸S系数或新增自由坏条件。
+
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 
 [R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已付全部物理行的数字折回、完整节点递推、同一 \(P/R\) 的全精度 \(j!C\) 厚核、Hasse–Hermite 等距 PD 代数及全部截断 Smith。回旧基线保准确 \(E(J)\) 损；普通厚理想范围一般至 \((p-3)/2\)，原 S/T 环至 \(p-2\)，不是免费到 \(p-1\)。首 Bockstein 须满足原低核和同一个 \(R\) 的像条件；canonical 的单一加权槽不是乘法理想，不能变成逐节点消失。

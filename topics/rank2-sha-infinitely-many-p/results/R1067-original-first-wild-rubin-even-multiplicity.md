@@ -574,3 +574,478 @@ Hall 必等于零”。本篇没有证明 \(\lambda_p<2p+2\)、没有证明
    normalized translated jets 与共同合法权子列。
 
 本篇没有新增数值运行、素数扫描或输出数据文件。
+
+
+## 9. 首非零 physical-weight 系数的准确赋值
+
+继续(25)的原步长 $M=\Delta e_1p^a$，不重新缩小有限角色的
+合法权支。令
+$$
+ \mathcal H_{34,r}(t)=h_f t^f+O(t^{f+1}),\qquad h_f\ne0,
+ \qquad
+ \mathcal A_p(T)=c_{2f,r}(T-t_r)^{2f}
+                         +O((T-t_r)^{2f+1}).
+$$
+这里 $f$ 可以为0。由(29)、(30)，在充分大的 $h$ 上，
+两边的首项分别严格支配；比较除了 $h$ 的系数以外的常数，
+准确得到
+$$
+ \boxed{v_p(c_{2f,r})
+             =2v_p(h_f)-2f(a+1).}                       \tag{32}
+$$
+这个等式只使用已证的逐点赋值身份，不假设两边的比值已经
+延拓成解析单位。
+
+按(9)写
+$$
+ \mathcal A_p(T)=T^{2e}\Phi_p(1+T)^{2f}B(T),
+ \qquad B\in\mathcal O[[T]],\quad B(t_r)\ne0 .
+$$
+因 $t_r$ 的重数恰为 $2f$，严格有
+$$
+ \begin{aligned}
+ c_{2f,r}
+  &=t_r^{2e}\bigl(\Phi_p(1+T)'|_{T=t_r}\bigr)^{2f}B(t_r),\\
+ v_p(t_r)&=\frac1{p-1},\qquad
+ v_p\bigl(\Phi_p(1+T)'|_{t_r}\bigr)
+                  =1-\frac1{p-1}.
+ \end{aligned}                                           \tag{33}
+$$
+最后一式来自
+$\Phi_p(1+T)=((1+T)^p-1)/T$，在 $t_r\ne0$ 处直接微分；
+没有以 cyclotomic 投影代替这个实际因子。
+
+将(33)代入(32)，得
+$$
+ \boxed{
+ \begin{aligned}
+ v_p(h_f)
+   &=f(a+2)+\frac{e-f}{p-1}+\frac12v_pB(t_r),\\
+ v_p(h_f/M^f)
+   &=2f+\frac{e-f}{p-1}+\frac12v_pB(t_r)
+     \ \ge\ 2f+\frac{e-f}{p-1}.
+ \end{aligned}}                                           \tag{34}
+$$
+第二行是原 physical weight $m=Mt$ 下的首非零系数。
+它没有多赚 $v_p(M)$。由于 $B$ 整且 $t_r$ 在极大理想中，
+这里使用的 $v_pB(t_r)\ge0$ 由同一整除式保证。
+
+改变(25)的 $A_{34,*}$ 只会把 $\mathcal H$ 乘一个常数项为1
+的单位指数；零阶和首非零系数不变。式(34)因而不是任选参考点
+造成的估值。$f=0$ 时，它复现原中央阶对第一 wild 值的下界；
+以下的新低行只在原 Hall **精确为零**、即 $f\ge1$ 时使用。
+
+## 10. 同一个原 Hall 来源的整 Katz 对偶
+
+### 10.1 模型与所有实际 lift
+
+后面的严格 LT 坐标在 $E_1$ 上。先按已付的实际模型同构作
+$$
+ S_{17}(z)=\vartheta^{-6}S_1(\vartheta z),\qquad
+ Q^{(1)}=\vartheta Q^{(17)},\qquad
+ Z_{Q^{(17)}}^{(17)}=\vartheta Z_{Q^{(1)}}^{(1)} .
+$$
+整个 Miller 指数、half-character 和 $p^2$ lift 随同构运输，
+所以 physical $m$ 阶导数乘 $\vartheta^{m-6}$。
+取相应的 $A_*$ 后，定义
+$$
+ H_r(t):=\vartheta^6\mathcal H_{34,r}(t).
+                                                               \tag{35}
+$$
+这是同一个 Hall germ 在 $E_1$ 上的表示；$\vartheta$ 为单位，
+所以(32)–(34)的估值不改变。这里不把两个模型的 strict LT
+参数直接认成线性缩放；先运输几何 section，再使用 $E_1$
+已经固定的严格坐标。
+
+对(14)的每个实际 $v\bmod p$、$N(v)=r$，取其原完整 lift
+$T(v)$。令 $\widehat A_v$ 是完整字
+$\chi_r(v)e_v^{(34)}$ 在 R1065(W5)的
+$[p]^*e_{34}$ 框架中的系数，令
+$\widehat{\boldsymbol\mu}_v$ 为对应的 R1065(W13) 对偶。
+如果采用 W16 中已经吸收该 wild 相位的 Hall lifts，
+$\widehat A_v=A_{34,T(v)}$，不得再乘一次 $\chi_r(v)$。
+若采用未加权的(12) lifts，就同时把函数和测度乘
+$\chi_r(v)$。两种记法给相同的完整字。
+
+实际点 $Q(v)=pT(v)\ne O$。W4、W7、W10逐字保留
+$B_{34,p}$、原中心 $\mathscr C_{34,T(v)}$ 和完整核 character；
+由 W8、W11、W13，
+$$
+ \begin{gathered}
+ \widehat A_v\in\mathcal O_F[[v]],\qquad
+ \psi\widehat A_v=0,\qquad
+ \|\widehat{\boldsymbol\mu}_v\|\le1,\\
+ \boldsymbol\mu_H
+       :=\frac1{\sqrt d}\sum_{N(v)=r}
+                         \widehat{\boldsymbol\mu}_v,\qquad
+ P_H(v):=\mathcal K^*\boldsymbol\mu_H
+       =\frac1{\sqrt d}\sum_{N(v)=r}\widehat A_v(v)
+       =\sum_{n\ge0}a_n v^n .
+ \end{gathered}                                             \tag{36}
+$$
+左端有限指标 $v\bmod p$ 与右端形式参数 $v$ 分别按其原用途
+读取。所有中心根、字符、$\vartheta$ 及 $\sqrt d$ 放在同一个
+有限 $F/L$ 中。它们为单位，$p\nmid d$，故有限和(36)仍整、
+范数至多1，并支撑在 $\mathbb T^\times$。
+特别
+$$
+ P_H\in\mathcal O_F[[v]],\qquad
+ \psi P_H=0,\qquad
+ \boldsymbol\mu_H(1)=P_H(0)=H_r(0),\qquad
+ \boldsymbol\mu_H(c_n)=a_n .                                \tag{37}
+$$
+这是原单 Hall 的 $d^{-1/2}$ 归一；没有插入双来源 coevaluation
+的 $p^{-2}$ Haar，也没有将旧 $\mu_+$ 政名为(36)。
+
+### 10.2 整格与取值精度
+
+准确的测试空间仍是
+$$
+ \mathscr C^\times
+   =C^0_{\mathrm{Gal}}(\mathbb T^\times,\mathcal O_{\mathbf C_p}),
+ \qquad X=c_1,\qquad \tau=\frac p{q-1},\quad q=p^2.
+$$
+$\boldsymbol\mu_H$ 是
+$\operatorname{Hom}_{\mathcal O}(\mathscr C^\times,\mathcal O_F)$
+中的整泛函。它的完成标量扩张定义在
+$\mathcal O_F\widehat\otimes_{\mathcal O}\mathscr C^\times$，
+再有理化；取值由 $a\otimes c\mapsto a\boldsymbol\mu_H(c)$
+和连续性给出。进一步扩到 $\mathcal O_{\mathbf C_p}$ 也使用
+这个完成 tensor，不改成任意连续标量函数上的普通测度。
+
+下文只使用可逐项检查的整数格蕴含
+$$
+ b\in p^k
+       (\mathcal O_F\widehat\otimes_{\mathcal O}\mathscr C^\times)
+ \quad\Longrightarrow\quad
+ (\boldsymbol\mu_H)_F(b)\in p^k\mathcal O_F,\qquad k\in\mathbf Z .
+                                                               \tag{38}
+$$
+Cp 扩张后的同一式取值在 $p^k\mathcal O_{\mathbf C_p}$。
+实际计算中使用的测试系数在 $F$，其收敛和仍在完备的 $F$
+中，所以最终各个 $a_n$、矩与 germ 系数具有同一个实际赋值。
+
+特别，不从 pointwise $v_p(b(\xi))\ge\epsilon$、$0<\epsilon<1$
+推断 $v_p\boldsymbol\mu_H(b)\ge\epsilon$。
+原整格的 gauge 只给 $\lfloor\epsilon\rfloor=0$。
+完整 primitive coset character 并不自动改善这个范数。
+(38)正是后面截断使用的全部连续性，而非一个无损的
+fractional pointwise 积分定理。
+
+## 11. 所有 cover 与连接费用之后的同源 germ
+
+令
+$$
+ u=\frac{X^\Delta}{p^p},\qquad
+ U_q=\frac{q!}{p^{p+1}}\equiv1\pmod p,\qquad
+ b_M=M/\Delta=e_1p^a .
+$$
+R1066(N3)–(N5)是实际 universal character 的系数身份：
+$$
+ \begin{gathered}
+ u=\frac{U_q}{1-p^\Delta}+pU_q\frac{c_q}{X},\qquad
+ u,u^{-1}\in\mathscr C^\times,\\
+ (u-1)^k\in p^{\lfloor k(1-\tau)\rfloor}\mathscr C^\times,\qquad
+ u^t\in\mathscr C^\times\langle t\rangle .
+ \end{gathered}                                             \tag{39}
+$$
+没有遗漏一个可自由选择的 dual-period Teichmüller 常数。
+由于 $1-\tau<1$，(39)在 $k=1$ 时只给整性，不给一个 $p$。
+
+写 $A_Q=34Z_Q$，$A_*=A_{Q_*}$，并定义实际 point 尺度
+$$
+ u_*=\frac{(pA_*)^\Delta}{p^p}.
+$$
+R1063(L3)给
+$Z_Q=(\kappa_*/p)v_Q^p(1+\epsilon_Q)$，
+$v_p(\epsilon_Q)\ge\eta=1-1/(p-1)$，
+$\kappa_*\in\mathcal O_L^\times$，$v_Q^\Delta=p$。
+因此
+$$
+ \frac{(pA_Q)^\Delta}{p^p}
+       =(34\kappa_*)^\Delta(1+\epsilon_Q)^\Delta
+              \in1+\mathfrak m_F^{\ge\eta}.                \tag{40}
+$$
+这里 $(34\kappa_*)^\Delta\in1+p\mathcal O_L$，由非分歧域的
+剩余群阶恰为 $\Delta$ 得出。由于 $\eta>1/(p-1)$，
+$u_*^{b_Mt}$ 及各实际 ratio 的幂都在整个闭 $t$ 单位盘解析。
+无需为此改动已选 $M$。
+
+保持 R1066(N7)–(N10)的全部连接：
+$$
+ \mathscr A_{34}(j;X)
+   =\sum_{s\ge0}(j)_s b_{34,s}(p/X)^s
+   \in1+p^{p-2}\mathscr C^\times\langle j\rangle .
+$$
+任意固定阶 $j$ 导数有相同的 $p^{p-2}$ 界。
+在每个非负整数 $m$，N11准确说
+$$
+ \widehat{\boldsymbol\mu}_v
+       (X^m\mathscr A_{34}(m;X))
+ =p^m\,\chi_r(v)B_{34,Q(v)}
+                       A_{Q(v)}^m\mathcal F_{34,Q(v)}(m),
+$$
+其中相位已吸收时不再单写右边的 $\chi_r(v)$。
+这里 $p^m$ 是实际 cover 导数的费用。
+原 physical Hall 导数是整个右边乘 $p^{-m}$。
+
+现在取 $m=Mk=\Delta b_Mk$，先乘确切的
+$p^{-p b_Mk}$，然后作(36)的完整有限和。得到
+$$
+ \boxed{
+ H_r(t)=u_*^{-b_Mt}\,
+   \boldsymbol\mu_H
+       \bigl(u^{b_Mt}\mathscr A_{34}(Mt;X)\bigr).
+ }                                                          \tag{41}
+$$
+先在所有非负整数 $t=k$ 得到本式，因为
+$$
+ (pA_*)^{Mk}p^{-p b_Mk}
+       =u_*^{b_Mk}
+$$
+且(26)已经除去 $A_*^{Mk}$。
+两边均为闭单位盘 Tate germ，故由这些整数点的稠密性得到(41)。
+这保留了全部 cover $p^m$、physical $p^{-m}$ 和
+$p^{-p b_Mk}$，没有插值一个未经归一的非单位幂。
+
+在(41)中先精确求导，再除实际 $b_M$，得
+$$
+ \boxed{
+ \dot H_r:=\frac{H_r'(0)}{b_M}
+   =\boldsymbol\mu_H(\log u)
+     +\Delta\boldsymbol\mu_H(\partial_j\mathscr A_{34}(0;X))
+     -(\log u_*)H_r(0).
+ }                                                          \tag{42}
+$$
+当 $p\mid b_M$ 时，这仍是等式：先在全式中提出共同的
+$b_M$，然后才作下面的精度截断。没有把一个模 $p^k$
+近似式直接除 $b_M$。最后一个尺度项只在
+$H_r(0)=0$ 时消失。完整连接没有被设为1。
+
+式(34)与 $\Delta\in\mathcal O^\times$ 给
+$$
+ \begin{array}{ll}
+ H_r(0)=0
+   &\Longrightarrow\quad v_p(\dot H_r)\ge2,\\[2mm]
+ H_r(0)=0,\quad J_p'(0)=0
+   &\Longrightarrow\quad
+          v_p(\dot H_r)\ge2+\dfrac1{p-1}.
+ \end{array}                                                \tag{43}
+$$
+若 $f=1$，这就是(34)的 physical-weight 首系数；
+若 $f\ge2$，左边导数严格为0。没有从常数项的高赋值
+代替这里的精确零条件。
+
+## 12. 三个完整 Hurwitz 矩与有限低行
+
+定义同一实际整对偶的正规化 Lie 矩
+$$
+ M_k:=\boldsymbol\mu_H(u^k)
+       =p^{-pk}D^{k\Delta}P_H(0)\in\mathcal O_F,
+       \qquad k\ge0,\qquad D=d/dz .
+                                                               \tag{44}
+$$
+后一个等式来自原 character
+$\mathbf t_\xi(v)=\exp(X(\xi)z(v))$ 的
+$D^m\mathbf t_\xi(0)=X(\xi)^m$，不是 ordinary $v$ 导数。
+对每个有限阶，双方都是原 Katz 系数的有限恒等式；
+不存在在未知半径上无穷次微分的交换。
+(44)本身包含真实的 $p^{pk}$ 可除性。
+$M_0=H_r(0)$。
+
+### 12.1 对数尾的全范围界
+
+第 $k$ 个对数项由(39)属于
+$$
+ \frac{(u-1)^k}{k}
+       \in p^{E_k}\mathscr C^\times,\qquad
+ E_k=\lfloor k(1-\tau)\rfloor-v_p(k).
+$$
+对 $1\le k<p$，有 $0<k\tau<1$，所以 $E_k=k-1$。
+对 $k\ge p$，函数
+$x(1-\tau)-1-\log_p x$ 在 $x\ge p$ 严格递增；
+在 $x=p$ 的值为 $p-3-1/\Delta$。
+因此整数 $E_k\ge p-3$。这同时证明全部无穷尾趋于无穷。
+特别
+$$
+ \boxed{
+ \begin{aligned}
+ \log u&\equiv(u-1)-\frac{(u-1)^2}{2}
+                                  \pmod{p^2\mathscr C^\times},\\
+ \log u&\equiv(u-1)-\frac{(u-1)^2}{2}
+                    +\frac{(u-1)^3}{3}
+                                  \pmod{p^3\mathscr C^\times}.
+ \end{aligned}}                                             \tag{45}
+$$
+这证明了所有 $k\ge3$、分别 $k\ge4$ 的尾，而不仅检查有限
+几个项。p 可整除的 $k$ 已由 $v_p(k)$ 明确计入。
+
+### 12.2 原 Hall 精确零下的真实有限行
+
+现在只假设 $H_r(0)=0$。由(42)，point 尺度项准确为0，
+连接导数在 $p^{p-2}\mathcal O_F\subset p^3\mathcal O_F$。
+以(38)对(45)取值，得到
+$$
+ \boxed{
+ \begin{aligned}
+ \dot H_r&\equiv2M_1-\frac12M_2\pmod{p^2\mathcal O_F},\\
+ \dot H_r&\equiv3M_1-\frac32M_2+\frac13M_3
+                                           \pmod{p^3\mathcal O_F}.
+ \end{aligned}}                                             \tag{46}
+$$
+所有 $M_k$ 都来自(36)的同一份完整 Hall 来源，不能分别选择。
+特别 $M_2,M_3$ 仍读取 $D^{2\Delta}$、$D^{3\Delta}$；
+超过 $q-1$ 后，不把它们换成 $ (2\Delta)!a_{2\Delta}$、
+$(3\Delta)!a_{3\Delta}$。
+
+结合(43)，得到可直接检查的原低行
+$$
+ \boxed{
+ \begin{aligned}
+ H_r(0)=0
+   &\Longrightarrow\quad
+        2M_1-\frac12M_2\in p^2\mathcal O_F,\\
+ H_r(0)=0,\quad J_p'(0)=0
+   &\Longrightarrow\quad
+ v_p\!\left(3M_1-\frac32M_2+\frac13M_3\right)
+                         \ge2+\frac1{p-1}.
+ \end{aligned}}                                             \tag{47}
+$$
+第二行的截断误差在 $p^3$，而显示的门严格小于3；
+所以这个分数估值来自已证 Rubin 首 jet，不来自
+fractional pointwise 范数的无证保持。
+
+此外，(39)在 $k=2$ 给
+$$
+ M_2-2M_1=\boldsymbol\mu_H((u-1)^2)\in p\mathcal O_F.
+$$
+把它代入(47)第一行，严格得
+$$
+ \boxed{H_r(0)=0\quad\Longrightarrow\quad M_1\in p\mathcal O_F.}
+                                                               \tag{48}
+$$
+这是原 forced 中央阶 $e\ge1$ 已经足够推出的条件；
+不需要另假 $J_p'(0)=0$。
+
+## 13. 原 p²-new Hall 的第 q−1 系数
+
+此处终于可以改成一个 ordinary 系数，因为
+$z(v)=v+O(v^q)$，且 $\Delta=q-1<q$。逆式也在同一窗为
+$v=z+O(z^q)$。因此
+$$
+ D^\Delta P_H(0)=\Delta!\,a_\Delta,\qquad
+ v_p(\Delta!)=p-1,\qquad
+ U_q=\frac{\Delta!}{p^{p-1}},
+$$
+并由(44)得到
+$$
+ M_1=\frac{U_q}{p}a_{q-1},\qquad U_q\in\mathbf Z_p^\times.
+$$
+于是(48)准确成为
+$$
+ \boxed{
+ \mathcal T_{34,T_r}=0
+ \quad\Longrightarrow\quad
+ [v^{p^2-1}]P_H(v)\in p^2\mathcal O_F .
+ }                                                          \tag{49}
+$$
+一般整 $\psi=0$ 来源由 $u\in\mathscr C^\times$ 只给
+$a_{q-1}\in p\mathcal O_F$；(49)多出一个 $p$。
+
+$P_H$ 的定义必须保留(36)：
+它是原 norm-$r$ Hall 的全部 $p^2$ Weyl 字在实际
+$[p]^*e_{34}$ 框架中的整和，先完成原 $\vartheta$ 同构。
+它不是裸 $f_{34}=h^{34}R_S$，不是单个 $Q$ 的函数，
+也不是 K8 的人工 depletion。特别不能把(49)直接写成
+原 $s_{p^2-1}\in p^2$。
+这一行是有限的：每个 $[v^{q-1}]\widehat A_v$ 只取其完整
+$q-1$ 阶实际 Miller/框架 jet，再按同一 Hall 权求和。
+若实际证明 $a_{q-1}/p$ 是单位，就能排除这一原 Hall 的精确零；
+本篇尚未给出该单位证明。
+
+
+
+若需要在原 $E_{17}$ 的 native pullback frame 直接读取同一系数，
+其全部模型费用也可显示。记两个严格参数为 $v_1,v_{17}$。
+因为 $z_1=\vartheta z_{17}$ 且各自
+$z_b(v_b)=v_b+O(v_b^q)$，原整同构给
+$$
+ v_1(v_{17})=\vartheta v_{17}+O(v_{17}^q).
+$$
+[R660](R660-original-torus-coordinate-and-boundary-resonance-ideal.md)
+(3)定义 $F_{\rm c}=\Pi_0\log(\sigma/z)$。
+$\Pi_0$ 与标量 $\vartheta$ 逐项交换，所以
+$E_{{\rm c},17}(z)=E_{{\rm c},1}(\vartheta z)$ 是完整恒等式。
+由 $h=\sigma(v/z)E_{\rm c}^{-1}$ 及
+$e_{34}=h^{-34}\sigma^{34}$，得到真正的整框架比
+$$
+ \frac{j^*e_{34,1}}{e_{34,17}}
+   =\left(\frac{\vartheta v_{17}}{v_1(v_{17})}\right)^{34}
+   =1+r_\vartheta v_{17}^{\Delta}+O(v_{17}^q),
+ \qquad r_\vartheta\in\mathcal O_F .
+$$
+在 $[p]$ 拉回框架中必须先代入
+$P(v_{17})=pv_{17}-v_{17}^q$；其第 $\Delta$ 项因此多
+$p^\Delta$。原 section 本身还有(35)的
+$\vartheta^{-6}$。于是
+$$
+ \boxed{
+ a_{\Delta,17}
+   =\vartheta^{\Delta-6}a_{\Delta,1}
+       +\vartheta^{-6}r_\vartheta p^\Delta P_{H,1}(0).
+ }                                                          \tag{50}
+$$
+$r_\vartheta$ 是显示的实际框架系数，不宣称它必为单位。
+原 Hall 精确为零时第二项严格为0；即便只读模 $p^2$，
+它也深于当前精度。因此(49)在两个原模型中完全相容。
+norm-$r$ 轨道不因这次模型同构变成 norm-$17r$；
+后者仅属于(11)的 degree 2 参考。
+
+## 14. 这条低行的独立性和主目标范围
+
+(49)不是一般 Katz 整性、$\psi=0$ 和质量零的形式推论。
+在同一个严格群 $P(v)=pv-v^q$ 上取
+$$
+ F(v)=v^{2\Delta}-pv^\Delta .
+$$
+令 $v_1,\ldots,v_q$ 为
+$v^q-pv+Y=0$ 的根。完整 Newton sums 给
+$$
+ \sum_i v_i^\Delta=(q-1)p,\qquad
+ \sum_i v_i^{q-2}=0,\qquad
+ \sum_i v_i^{2\Delta}=(q-1)p^2.
+$$
+归一 $\psi$ 是该全迹除以 $q=p^2$，故
+$$
+ \boxed{
+ \psi(v^\Delta)=\frac{q-1}{p},\qquad
+ \psi(v^{2\Delta})=q-1,\qquad
+ F\in\mathcal O[[v]],\quad \psi F=0,\quad F(0)=0,\quad
+ [v^\Delta]F=-p\notin p^2\mathcal O .
+ }                                                          \tag{51}
+$$
+这也给一个实际整 Katz 单位对偶。其
+$M_0=0,\ M_1=-U_q$ 为单位，与(39)完全相容：
+$u-1$ 的 pointwise 估值至少 $1-\tau$，但其整格 gauge
+只有0，泛函不必保持这个分数下界。
+因此不能用“单位支撑”或“测度整”偷证(48)。
+
+另一方面，本篇没有证明(49)与原完整 Rubin 因子在逻辑上
+独立。(49)正是(31)–(34)经过同一个实际 reader 的后果。
+例(51)只排除通用 Katz 性质自动给出(49)，不声称它具有原
+$2,3,17$ Schwartz、Hall character、canonical $S$ 或
+Rubin 比较。原 exact Hall 零仍可以同时满足(47)、(49)；
+迄今没有它们与 actual 完整有限系数的矛盾。
+
+这些结果给下一次实质使用留下明确门：
+
+- 原精确 Hall 零必须同时满足(47)的同源低矩行和(49)的
+  完整 $q-1$ 阶系数可除性；
+- 核这些行时必须使用同一个 $P_H$，保全部 lift、中心、
+  $B_{34,p}$ 和连接，不能把其中的系数当自由变量；
+- 若要由此排除原 canonical 坏条件，还须另证该坏条件真的
+  落入精确 Hall 零的情形，或回到原
+  $v_p\mathcal T_{34,T_r}<2/(p-1)$ 的 strict Hall 门。
+  单凭排除精确零并不足以排除一个非零但高赋值的 Hall 值。
+
+以上全部是原对象上的手证；没有数学运行、扫描或新增自由坏行。
