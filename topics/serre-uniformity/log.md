@@ -766,3 +766,8 @@
 ### 2026-11-28 10:01 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1155 §8付改变Frob lift的精确右运输及强mod p全尾：ordered中央ε²项、BCH εℓ1项均保，未分歧σ给actual同点/Qp Fermat quotient读数。root从同一KZ导出nr双和，o1独立核符号/尾界；旧1–7逐字保留后即推。
 - 分歧任意v仍仅fibres间运输，原filling/Cor/moment及z12继续；无数学程序执行。
+
+
+### 2026-11-28 10:04 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1155 §9付同一有限Frob的S3参数动作：完整ε carry、ordered/BCH中央二次修正及任意nilpotent底。root用有限多项式导数再读0/1端点，补齐导数看不见的U^p项；旧1–8逐字保留后即推。
+- 下一步实际五项配置的Frob glue及原moment；无数学执行，未扩未分歧比较范围。

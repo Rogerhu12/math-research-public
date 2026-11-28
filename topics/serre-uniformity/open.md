@@ -188,3 +188,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原 Frobenius 改提升的实际运输已付
 
 [R1155 §8](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)：原u^p到v=u^p+pε的右侧运输已付全尾；中央必须保−ε²/{2u^p(1−u^p)}，BCH槽对应−εℓ1/{2u^p(1−u^p)}。未分歧v=σ_Fu给actual同点Frobenius；Qp三槽为q_p(u)、q_p(1−u)、−ℓ2(ū)/(1−ū)−ū q_p(u)²/{2(1−ū)}。任意分歧域仅为fibres间运输，强mod p、nilpotents和v−u^p∈p条件全保，未代原z12。 继续原四线组合中的实际提升、全部corestriction及同一moment格。
+
+
+### 原有限 Frobenius 的全参数对称已付
+
+[R1155 §9](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)：同一原D的有限Frob对u↦1−u、u↦1/u满足(a,b,h)↦(b,a,ab−h)、(−a,b−a,−h+a²/2)；提升误差分别为ℓ1(u)−ε、−ε/u^(2p)。证明完整保l1²+2u^p l2(u)+2(1−u^p)l2(1−u)=0的Frobenius项，适用于含nilpotents的任意Fp代数，不止有限域点。 原weighted transfer/四线接合继续。

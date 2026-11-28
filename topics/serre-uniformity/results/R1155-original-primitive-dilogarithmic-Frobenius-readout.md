@@ -551,3 +551,97 @@ $F_0$ 的 $z_{12}$ 仍按 §7 继续。
 本节为纸面推导；root 固定乘法方向并核全尾估值，
 o1_theta 独立核 (1155.21)–(1155.26) 的中央导数、
 $n r$ 分母及全部符号。没有数学程序执行。
+
+
+## 9. 同一有限 Frobenius 的完整六种参数变换
+
+本节在任意 $\mathbf F_p$-代数 $A$ 上工作，允许 $A$ 含 nilpotents；
+仍设 $p>3$，并要求 $u,1-u$ 为单位。把 (1155.25) 的有限
+矩阵写成 $\mathcal R(u,\varepsilon)$。
+以下证明它对两个实际变换 $u\mapsto1-u$、$u\mapsto u^{-1}$
+的完整相容性，保留原 ordered 中央坐标。
+
+### 9.1. 所需有限多项式身份
+
+令 $l_r(U)=\ell_{r,p}(U)\bmod p$。整数二项式及指标反转给
+$$
+l_1(1-U)=l_1(U),\qquad
+l_r(U)=(-1)^r U^p l_r(U^{-1})\quad(r=1,2).
+\tag{1155.30}
+$$
+第一式可直接从 §8.3 的
+$(1-U^p-(1-U)^p)/p$ 约化得到；第二式将 $j$ 换成 $p-j$，
+所以是在 $\mathbf F_p[U,U^{-1}]$ 中的身份。
+
+还需要保留 Frobenius 幂的二次身份：
+$$
+\boxed{\quad
+l_1(U)^2+2U^p l_2(U)
+       +2(1-U^p)l_2(1-U)=0
+       \quad\text{于 }\mathbf F_p[U].
+\quad}
+\tag{1155.31}
+$$
+这里没有把 $U^p$ 换成 $U$。
+证明如下。$l_2'=l_1/U$，
+$l_1'=(1-U^{p-1})/(1-U)$；
+配上 (1155.30)，显示左边的导数为零。
+最高的 $U^{2p-1}$ 项相消，故次数至多 $2p-2$，
+于是该多项式只可能为 $a+bU^p$。
+$U=0,1$ 的值都为零，因为
+$\sum_{j=1}^{p-1}j^{-1}=\sum_{j=1}^{p-1}j^{-2}=0$。
+因此 $a=b=0$，包括导数检测不到的 $U^p$ 项也已支付。
+
+### 9.2. 提升误差的实际变换
+
+若 $\varepsilon$ 来自 §8 的实际
+$v=u^p+p\varepsilon$，则补参数与逆参数的原像分别为
+$1-v$ 与 $v^{-1}$，而不是另选的两个提升。
+约模 $p$，它们的提升误差准确为
+$$
+\boxed{\quad
+S:(u,\varepsilon)\longmapsto
+       (1-u,l_1(u)-\varepsilon),\qquad
+J:(u,\varepsilon)\longmapsto
+       (u^{-1},-\varepsilon/u^{2p}).
+\quad}
+\tag{1155.32}
+$$
+第一式消费
+$1-u^p-(1-u)^p=p\,C_p(u)$、$C_p\bmod p=l_1$；
+第二式使用实际 $v^{-1}-u^{-p}=-p\varepsilon/(u^pv)$。
+因此两式保留了全部 Frobenius carry，不是仅在 residue points 上验证。
+
+令 $\mathcal R(u,\varepsilon)=\mathcal H(a,b,h)$，
+将 (1155.30)–(1155.32) 代入 (1155.25)，得到
+$$
+\boxed{\begin{aligned}
+\mathcal R(1-u,l_1(u)-\varepsilon)
+   &=\mathcal H(b,a,ab-h),\\
+\mathcal R(u^{-1},-\varepsilon/u^{2p})
+   &=\mathcal H(-a,b-a,-h+a^2/2).
+\end{aligned}}
+\tag{1155.33}
+$$
+例如第一行的中央差乘 $u^p(1-u^p)$ 后，恰是
+$-(1-u^p)l_2(1-u)-u^p l_2(u)-l_1(u)^2/2$；
+(1155.31) 将它完整消去。
+第二行只需两条反转式；它的 $a^2/2$ 不能省去。
+
+在 BCH 中央坐标 $k=h-ab/2$ 下，这两个群自同构分别为
+$$
+S:(a,b,k)\mapsto(b,a,-k),\qquad
+J:(a,b,k)\mapsto(-a,b-a,-k).
+$$
+它们满足 $S^2=J^2=(SJ)^3=1$，
+所以 (1155.33) 给全部六种 Möbius 参数变换的同一有限读取。
+第一行正是 R1133 (1133.67) 交换两个原 Kummer 槽并反转中心的
+群映射；本节在 Frobenius realization 中明确保留其提升误差，
+没有从 cup 的反对称性猜一个中央符号。
+
+这些都是任意上述 $A$ 上的有理多项式身份。
+特别在分歧 $\mathcal O_L/p\mathcal O_L$ 上仍全成立；
+只验证 $\mathbf F_p$-值点会遗漏的 nilpotent 项没有被删除。
+本节没有扩大 §8.3 未分歧算术比较的范围，
+也没有用参数六重对称性替代原 weighted trace 的跨轨道项。
+全部为纸面推导，无数学程序执行。
