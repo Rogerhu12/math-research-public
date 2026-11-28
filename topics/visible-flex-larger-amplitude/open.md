@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 |---|---|
 | [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | 官方cancelled@02:05:35Z；原8已返保。末2b1c/accepted3/g2.0441496553824883；下一8fb0真实统计返，几何/决定未返，无完整report。 |
 | [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)，全波b1/2/两μ.01 | model0abfbf/currentb6a06/accepted2/reach.9674426000792542，distplus仍正；下一b0f8仅开始。原拒绝与b90d未知保note。 |
-| [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)，仅恢复μ.001 | 初7e06/accepted0/g.9684249942095058；345906及d346拒，后者g.970243177977179；下一0f4d统计已返，几何未知。 |
+| [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)，恢复μ.001 | current0f4d/accepted1/g.9680716975090076，reach/distplus仍正；下一b6cb真Phi3824.9619403696915/Gram.6460452977630746，几何未知。 |
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)，仅b5/8 | model9387/初7e06/accepted0/reach2.541916739245917，余五负；首df8d真g2.541904432457273已拒，下一700e仅开始。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)，半波b1/2 | 46090913581/1/job140811337445，01:00:48Z启动/两input0；c6517a/6fd57/PID3541/model6f3ae32/初7e06/Phi681.6517423825409/Gram.40616525311769985；reach.5305849371949052/distplus.11391238912344381仍正，余四负，accepted0/reportfalse；trial97fbb真实Phi681.6511710299278/Gram.4061652579029476，几何/决定未返。 |
 

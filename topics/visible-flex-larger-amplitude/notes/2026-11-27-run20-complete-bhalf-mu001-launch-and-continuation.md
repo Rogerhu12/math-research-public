@@ -1045,3 +1045,24 @@ run46079535427/1仍原c592e434ac19b1659c179ab6929ed592f104f362/f600/PID3277、mo
   "observed_utc": "2026-11-28T01:15:49Z"
 }
 ```
+
+## 2026-11-28 02:08:28 UTC — 20首次真实接受及下一试点统计返回
+
+同sciencec592e434ac19b1659c179ab6929ed592f104f362/PID3277、driver10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f、model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add。0f4d216ea4bf3c105af76b11b85e87204cd5758888fba506b3f4f6cbd0a2d871现已真实accepted/current，accepted_directions=1，Phi3824.9895336084514、Gram.646051041919538，完整六族返回：reach+.9680716975090076、body_diameter−.03813557789762323、distance_plus+.005865705781869512、distance_minus−3.0936337267190757、cap_diameter−.06715136554632728、height_floor−1.0411715330482163；最大reach仍正。原345906/d346已拒事实保全；精确接受时刻/alpha/方向号未知。
+
+下一trial b6cb9da866ea696379a5c2e63090f69b080ff09345a6cb7d62dd1cb461efe28d于01:59:52.178099+00:00真实返回统计Phi3824.9619403696915/Gram.6460452977630746。02:01:22Z原索引尚无该试点geometry/accepted，current仍0f4d，complete_report=false、child_exit_code=null。不同run和mu的局部进度不作为全局改善或连续证书。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46079535427-1.md",
+    "bytes": 50570,
+    "sha256": "83964ff302131c03d9dc0aabfd7fcce9898db49688551da04b5273596f285be0",
+    "git_blob_sha": "b11aff2cd42e4086809e2d1f6d4299a948634f94",
+    "fixed_commit": "dbbcd99a1c6c15f25224f57424985d8ac2ccf01c",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
