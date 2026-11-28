@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md) 46148644102/job140990119811：五粗全返，主已expanded中央自由；固定g前两细化ba153412/cce19ff7的Gram8.040081916241995→6.968190732291204，K2815.83797→2087.58016，未达标；原16时间区间层继续，不缩预算。
 
-[R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：46150384106/job140995509084原3×7×9全返，小扇区贯穿双端帽Gram约8e−14；全帽误差8809.79仍未付。原帽K工作370.7886/247.3521与graph界冲突，追加同场Cartesian/SVD测量现触发；原值全保。
+[R751原峰矛盾](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：原46150384106全3×7×9返回，小扇区Gram约8e−14而全帽8809.79；原K370.7886/247.3521保留。追加46151602924的42帽返回3.9124/2.6101、graph/SVD相合却未重现原峰；原入口全raw与调用顺序复算现触发，差异未解。
 
 R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g，真空间中央与双独立fan帽各自全同g；全|a|≤2⁻²¹所有中央弦付闭距必要条件。命名小场D0<3.49/reach≥.107/grip≥.72/held>1.521/δE>0，不冒大control几何；双全卷仍欠，41真解。全部旧界及失败范围保[此前H](https://github.com/Rogerhu12/math-research-public/blob/6e6bc85a6888b3331288f19cda8a517709525b48/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
