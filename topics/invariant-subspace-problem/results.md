@@ -14,6 +14,8 @@
 
 ## 新增结论
 
+- [R150：W/b0交叉头五次权覆盖与G开图精确I4](results/R150-appendix-unit211-W-b0-cross-zero-five-weight-cover-and-G-open-exact-I4.md)：三条原B1给G=(4u+5)(6u−1)(20u³−4u²−20u+9)/480及完整来源；detG变换给(f+g,P0,Craw,C3)。三个整零域与全部值条件保留，不宣称b0空。
+
 - [R150：正确Phi整个ell=1/2原分支排除](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-original-exclusion.md)：新吹胀兼容式完整回六原式C32z9，与旧不可约C20z的权因子互素，故z9∈I6。已付z单位排空整支，当前正确Phi/D≠0新付2ell−1；一般Phi及普通ISP仍开。
 
 - [R267：一个合法分离选择中的实际单真空列发散](results/R267-appendix-separated-choice-actual-vacuum-column-divergence.md)：真奇部、全1柱与未来张量尾同源保留，所有固定正有理t的||QNΩ||沿全切口趋∞，同时QN²仍强*趋单射稠值Zt。只排这个选择，保真正重叠/耦合单列路线。

@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-entire-ell-half-exclusion-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-b0-cross-G5-original-presentation-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保；I4/I6/I11及原核保。新[b0完整Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)：权长度≤5772、χ6有限环境与q2单位系数组合经Nakayama给λ两生成，f唯一/ρ二次/末Artin局部化，完整规范长度≤23088。1898同h余34未付、CD50/三核78/80/87及h0保。10ab PRS冻；[436389实际原C2/Loww](results/R150-appendix-unit211-W-b0-original-C2-Loww-quartic-weight-142-and-projection-boundary.md)全返C2λ2/Lowwλ4及七源权核142；cross整零=(三B1)。180.072328987秒267776KiB/−14冻，第二C2-Loww无checkpoint。681三B1/cross0新源首次120秒1GiB，只三原头unit或完整u覆盖；未付因子整域保，非b0整空。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保；I4/I6/I11原核保。[b0完整Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)≤23088，χ6有限环境/q2单位系数/Nakayama/末Artin局部化保。1898同h余34/CD50/三核及h0保；10ab/436389冻结，436原C2/Loww与F142保。新[交叉头五次覆盖](results/R150-appendix-unit211-W-b0-cross-zero-five-weight-cover-and-G-open-exact-I4.md)681真返G=ΣwB1，G=(4u+5)(6u−1)(20u³−4u²−20u+9)/480；cross0三个整域均保。G开图精确I4=(f+g,P0,Craw,C3)，补图完整保，非b0整空。接三整域的真原低次输入。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
