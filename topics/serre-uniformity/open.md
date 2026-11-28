@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-syntomic-comparison.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-pointed-Miller.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -39,11 +39,7 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 **仍须继续**：该实际连续对象的period、同根/中央gauge、PD pullback及有限moment/逆极限必须在原43格所需精度比较；R1155.87的normal carry未消。R1160的一般q仍要实际读取b(q⁻¹T′q)，不能由Tate路径、复共轭短字或H¹唯一性补数。当前是原F0 z12/低中央系数及完整深盘，非再次构造抽象lift。
 
-[R1157 §10](results/R1157-original-integral-SV-Manin-triangle-filling.md)已把原source扩到n=2并锁定全部常数：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²，4θ₂=[Θ]、4θ′₂,Ci=[Θ_i]。原K3三函数式仅27项，权为6/−2/2、总系数−1/256，字面norm/平移关系及全部根相位均保。R1158与R1159直接适用；κ4=63/16、κ8=1023/256在p>37均unit，v2=3·43·127/2¹¹仅p43/127例外。它简化实际source与交换商；dB₂=(V₂−v₂)Ω现由R1160构造，SS四线坏参数和一般Frob路径读数仍不删。
-
-[R1157 §11](results/R1157-original-integral-SV-Manin-triangle-filling.md)进一步将27项变成真实两切线比，选非零T0∈E[5]使第三交点3T0−2Bj与全部Bj+E[2]分离，涵盖所有rank1。准确常数Ri(T0−Bj)保留；真三线并发时用−Σord(g)[u]，化为参考线∩E的三个Bloch值，度数/Weil关系的实际根修正仍保。good SS时切线系数与这些常数整、参考线可选横截整线；modp才并发或同线的坏参数仍未删。改动已固定global filling须保原root/五项gauge，不能借单个局部H¹消失。
-
-[R1157 §12](results/R1157-original-integral-SV-Manin-triangle-filling.md)已支付原Qp-good-SS二同源四线的全部坏参数阶：选约化exact orderM=p²−p+1的T0，其Fp²共轭三点共线，取实际三次闭点提升；无需加入E[M]，x(3T0)∉Fp²。原Ep各非零参数/差同阶1/(p²−1)、leading比在Fp²；三label determinant的一次项不能消，全同label为Vandermonde×unit阶3。全部线值、α_i和七行(u,1−u)精确阶表保重数/常数，每坏项经S/J有精确阶1/(p²−1)，故全部R†(u)=R_{u^p}(u)落§13浅域，ε=0首p修正仍保。没有取v=u，也没有构造同一真实Ep Frobenius。CM时Q=[α]P覆盖全部rank2，可给整形式源u/1−u=z^j unit；z→z^p一般不保Ep理想，FL/moment比较继续。更换旧E5分解仍保原有限根/五项gauge，非局部唯一性。
+[R1157 §§10–12](results/R1157-original-integral-SV-Manin-triangle-filling.md)原n2来源已全付：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²；27项权6/−2/2及−1/256，κ4/κ8单位，v2仅43/127例外。真实两切线/并发三线及全根相位沿原文。三次闭点T0约化阶p²−p+1，使全部Ep差leading单射；七行(u,1−u)坏阶皆1/(p²−1)，全部R†浅域适用。CM时Q=[α]P给共同z形式源，ψz=z^p不保Ep理想。完整constant/五项gauge和高normal项沿[本次逐字前态](open-archive-2026-11-28-before-pointed-Miller.md)；一般Frob/原F0继续，不重作这些分解。
 
 [R1147 §20](results/R1147-original-canonical-moment-Heisenberg-lift.md)自足有限化实际连续moment系数：Λr°→Ir由[P]↦[P]−[0]，binom(p^r,j)对1≤j≤D<p被p^r整除，故Ar/Ir^(D+1)=Rr[X,Y]/(X,Y)^(D+1)。截断log/exp给全GL2/Galois/同源等变J_D,r≅⊕_(d=1)^D Sym^dH_r；原mom_d=d!pr_d exp，原S/U双槽必须分别乘i!j!而非再乘12!。D12秩90，过渡严格兼容到TpE及原未分歧有限FL系数。这不来自有限标记permutation的rational moment map，也未将单层raw dilog式自动升为连续中央period；仍继续同一原源的PD/43格实际比较。
 
@@ -64,6 +60,8 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 [R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已为原CM的全部形式参数给一个共同ψ：R=O_F[[z]]，σ作用coeff、z→z^p；R1157的u/1−u=z^m unit使所有边界同时保留，完整Rψ三槽先证明整。N<p时，good-unit用L=log(u/c),M=log((1−u)/(1−c))得h=h_c+b_cL+∫M dL；near0 t=z^m a的三槽为(A,−L1,−L2)，A=−κ(a0)+log(a/a0)，near1/∞用实际S/J给完整乘积/半平方。边界∞仍可有κ²/2，不删原constant carry；同五配置关系整地约化。只付源形式jet，未把完整moment或实际torsion高nilpotents截在12。ψ不保Ep理想；简单g=z^(p²−1)−p已有ψ(g^r/r!)/p^r|g0≡(−1)^r/r!，所以不能只见p误差便删。真实根塔/log/crystalline与FL比较继续。
 
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
+
+[R1164](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)已给原系数的实际pointed Miller/整line代表。第一槽χP=e(P,−)由[N]的finite-flat pushout识别到L_P=O(P−O)的rigidified N平凡化；generic根取X^N=f_P⁻¹、X/t^ε→1，Silverman g leading为1/(Nt)。真实chord bPQ及Bp(P)锁加法/全p塔根等式，原其它根ρ及有序tensor同伦完整保留。整Čech数据u_j=gij^N u_i、a_i^N=u_i⁻¹；裸Miller函数不冒整unit。prime-to-p φ的实际cφ及norm原点消掉底Kummer歧义，原P^d scalar product与closed-point Cor准确给Mtilde，无额外d!或平均。原theta norm与coefficient chord是两种独立过渡；分歧Cor只按已给étale/比较运输，未冒未写出的PD trace。继续该实际输入的PD–Čech代表、适配frame和normal/F0读取。
 
 ### 原完整 47：已完成，只消费
 
