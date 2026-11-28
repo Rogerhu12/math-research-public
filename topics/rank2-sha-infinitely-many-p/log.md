@@ -275,3 +275,13 @@ R1064§11由原µ×按两平方根反对称构造真实quadratic测度ν，并�
 geometry全稿由root逐式核：平方根分支抵消、(u²)_*(u³ν)全连续测试、P10单位限制的统一M+2R尾、L与R_c的次序、全部低矩及一般反例P_h的整值性/统一中心矩尾。root将Q标签改G，明确实际deep principal norm-one子群，even测试用固定annulus收敛而不称幂零，并加强两个范数为等距。上一篇R1064§10已推cf5135d9d4dbf91ac148643e4b68fc1c90e5989c。无新数学执行。
 
 本次推前实际双pull run46073965457/job140861317190：公开2026-11-28 04:17:16 UTC至6c1d322308dd982625246fb8ffc1b5d3a3f49acf；私库2026-11-28 04:17:21 UTC至78f648d224355c03dece776e9829fb734b2de7d2。四README与04:13已读版相同，QUEUE本会话认领未变。日志14887B/hash13a1586e42c435613f687e8584a38708387b4b2d5554bd559639327614c83eb9；完整库存3180blobs/45021861B/treeb8acf188a5f012e47a0b8e54356b39fd48a8ffc6，无>5MB，三旧必要gzip不变。后继继续actual ψ原单位cut与原H±的真实Katz返回；主无穷p门仍开。
+
+
+## 2026-11-28 04:25 UTC：原 H± 的真正 Katz 测度及严格单 Hall 矩门
+
+R1065对原H34/H102用实际[p]v=pv−v^(p²)和完整Newton迹证明ψf=A0+(p²−1)A_(p²−1)/p；只乘p即得整g=p(1−φψ)f及唯一primitive Galois–Katz测度。完整标量扩张支付非有理除点测试，g(Q)−g(0)=pf(Q)精确返回同一Hall；正质量为全高共振和，负type4质量准确零，原wild中心和d/p² Haar不删。实际负二系数F_Q(−2)/(102Z_Q)²及whole全部外权另保。前五层µ(c_k)/p模p逐项返原系数，严格单Hall门等价原µ_+(c1^(p+1))估值恰2；这是同source的明确矩门，未证明无穷p命中。
+
+central写K1–K29，root全文核完整有限自由迹、p而非p²清分母、μ6型/质量、非等变torsion点的完成标量扩张、负二测试与两独立Hall、原c1的k!和p除数；补记省略F下标仍指标量扩张，不将其当原Galois-equivariant函数。root已亲读Berger Theorem A原规范。末门只把已知严格Hall条件准确落在同一实际Katz测度；不冒新非零。纸笔证明，无数学执行。
+
+推前actual readonly run46073965457/job140862811868：公开2026-11-28 04:23:27 UTC至b9b3992909f05f4b633fd63c2ffbc940da8ba348；私库2026-11-28 04:23:32 UTC至469d1bec5f623c1d58cd3468180d6641bb95eae1。四README与04:17已读版相同，QUEUE本会话进行中未变。日志14887B/hash535e8217ad833005630e9aee78ca84d914b2dd5fb7b07dae59f1488ed6c9a6c1；库存3180blobs/45036164B/tree0402dcb31e09ddac5b3f25e72e206cd2642b2853，无>5MB、三旧必要gzip不变。R1064§11已推a3f656aa12d8f340a77799c7930f5d33270ecc83；本次逐字归档旧H至notes/2026-11-28-handoff-before-actual-hall-katz-return.md，9493B/hash1de8e326f7a6a64f883d0f50f5cf5cd77bcdb325697b1656667d3d750fcfcb94，压缩旧R梗概但全部归档链/未闭门保留。
+v13 04:23:19仍in_progress；04:24:01日志GET仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、末222/306，无数学终门。根查R700/R707已给固定分母/3/4高度界，R714/R717/R721/R723已给原Cartier和高度二窗；不重复这些输入。继续真正全tensor、原负二/斜率的bounded测试和未完成heavy终门。

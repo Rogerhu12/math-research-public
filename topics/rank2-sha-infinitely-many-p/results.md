@@ -392,3 +392,10 @@ R1064§10将有限F的全trace-dual存在性与Berger已发表的Fourier限制�
 R1064§11由原µ×按两平方根反对称构造真实quadratic测度ν，并由(u²)_*(u³ν)=µ×证明精确等距；原dual LT Fourier亦等距，全部odd Laurent低矩及一次项保留。原固定finiteF的deep principal norm-one P10经统一尾界严格返回单位restriction，热算子L=(∂²−u⁻¹∂−3u⁻²)/4保ν(u)=m_-1和ν(u^-1)=m_-2，完成后一次矩准确为m_-1−Cm_-2。完整Möbius生成式和局部LA_N热作用条件明确；合法整值多项式证明一般Dirac输入的全heat完成不必bounded。该反例不满足本题actual Galois来源，只排除从vC=2免费接全测度的步骤。
 
 [完整证明](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)，G1–G16；完整实际source的heat bounded门继续，不由一般反例宣称原来源不可能。
+
+
+## R1065 — 原 Hall 来源的整 Katz 单位测度与同一 canonical 读数
+
+R1065对原H34/H102用实际[p]v=pv−v^(p²)和完整Newton迹证明ψf=A0+(p²−1)A_(p²−1)/p；只乘p即得整g=p(1−φψ)f及唯一primitive Galois–Katz测度。完整标量扩张支付非有理除点测试，g(Q)−g(0)=pf(Q)精确返回同一Hall；正质量为全高共振和，负type4质量准确零，原wild中心和d/p² Haar不删。实际负二系数F_Q(−2)/(102Z_Q)²及whole全部外权另保。前五层µ(c_k)/p模p逐项返原系数，严格单Hall门等价原µ_+(c1^(p+1))估值恰2；这是同source的明确矩门，未证明无穷p命中。
+
+[完整证明](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)，K1–K29；两次Cartier只在原p依赖形式盘使用，原Zp flat测度与本Galois dual不混同。
