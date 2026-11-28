@@ -891,3 +891,123 @@ $$
 且 $17+n^2\to0$。直接取(AE5)已经支付的系数极限即得(AF1)，
 没有剩下任何依赖 $p$ 的根选择。范数相容的是原纯调和截面，
 原秩二 Euler 读者仍保(AD7)的参考逆因子。
+
+## 65. 十七挠平移的范数相容全局单位和三个原目标的有限 Heisenberg 展开
+
+在(AD1)的射线给每个 $T\in E_1[17]$ 取物理复格的 lift
+$z_T$；置 $\eta_T=\eta_{17z_T}/17$，$\eta_0=z_0=0$。
+对 degree $e$ 的物理截面 $V$ 记
+$$
+ V_T(z)=e^{-e\eta_T(z+z_T/2)}V(z+z_T),\qquad v_T=V_T(0).
+                                                                  \tag{AG1}
+$$
+记 $S=S_1$。对 $T\ne0$ 写 $s_T=S_T(0)$、$g_T=G_T(0)$，
+均为非零代数数，在 $\{2,3,7,17\}$ 外为单位。
+事实上把(AE2)用于 $U=T$、$n\equiv1\bmod34$，得到
+$\widehat\sigma(T)^2=e^{-\eta_Tz_T}\sigma(z_T)^2$ 的正整数幂
+是除法值的比；对每个所验剩余特征可取相应整数均与之互素。
+现在 $s_T=\widehat\sigma(T)^{34}P(x(T))$，
+$g_T=\widehat\sigma(T)^2x(T)$；R297 §6 的全零除子与非零
+十七挠点在各好纤维不相遇。$G_T/G$ 的十七次幂是椭圆函数，
+因其周期相位是十七次单位根，其代数除子及原点代数首项给
+代数性。$S_T/S$ 本身为椭圆函数，同理得代数。于是两个局部
+截面的正规 Taylor 系数都在固定数域内；改变 lift 只改有限相位。
+
+在所选 $p$ 位记 Teichmüller 部分为 $\omega_p$，置
+$$
+ \epsilon_{T,p}=\omega_p(g_T)^{-17}\ (T\ne0),\quad
+ \epsilon_{0,p}=1,\qquad U_{T,p}(z)=3024\epsilon_{T,p} S_T(z)G(\xi z).
+                                                                  \tag{AG2}
+$$
+$T\ne0$ 的分量在整个原形式盘为整单位，$U_{0,p}=3024K$。
+全部满足
+$$
+ \prod_{V\in E_1[p]}U_{T,p}(t\oplus V)=U_{T,p}([p]t).           \tag{AG3}
+$$
+对任意 $p$ 幂阶形式点 $Q$，$U_{T,p}(Q)$ 是代数
+$\{2,3,7,17,p\}$-unit，唯一例外为 $(T,Q)=(0,0)$ 的真实零。
+
+证明。在(AD5)取 $n\to\xi$，始终令 $n$ 为 $17$ 及所有
+$\omega_p(g_T)$ 的阶的公倍数。这些整数均与 $p$ 互素。于是
+$nT=0$，准周期公式按全部指数给
+$$
+ R_n(T+z)=\frac{S_T(z)G(nz)}{G_T(z)^{17+n^2}},\qquad
+ R_n(T)=s_Tg_T^{-17-n^2}.                                       \tag{AG4}
+$$
+分子线性项为 $34\eta_Tz+2n^2\eta_Tz$，与分母的
+$2(17+n^2)\eta_Tz$ 相消，半常数项也同消。
+$G_T/g_T$ 常数一，其 $17+n^2$ 次幂逐系数趋一；
+$g_T^{-17-n^2}$ 则趋 $\epsilon_{T,p}$。
+每个 $R_n(T+z(t))$ 在此形式盘都是整单位。具体用(AD5)的
+整射影乘法横坐标分子 $\phi_n=\psi_n^2 x([n]\cdot)$，
+$[n]T=O$ 故该分子在 $T$ 的特殊纤维为单位，因为
+$p\nmid n$ 且在非零 $n$ 挠点 $\psi_n$ 简单消失、
+$x([n]\cdot)$ 有准确二阶极。$x(T),P(x(T))$ 同样是单位。
+因此逐系数收敛在每个严格内闭盘上一致。由(AF3)，
+$c_{p,n}\to3024^{1-p^2}$；又 $pT=T$，取相同有限纤维
+乘积的极限即得(AG3)。
+
+当 $Q,T$ 均非零，$T+Q$ 的阶为 $M=17\operatorname{ord}(Q)$。
+沿子序列固定 $n\equiv m\bmod{2M}$，并保持上面的 Teich 阶
+条件；$[m](T+Q)=[m]Q\ne0$。(AE2)–(AE4)适用于 $T+Q$：
+$t(T+Q)^2=1/x(T+Q)$ 为代数数。在所选 $p$ 位，$R_m(T+Q)$、
+$R_{m+2M}(T+Q)$ 均为单位，此处二者在(AG4)的整性只需
+$17\mid m$、$p\nmid m$，不需 Teich 阶条件。因此(AE3)所用
+幂底数也是单位。$S,p$ 外 $T+Q,[m]Q$ 的约化阶分别为
+$M,\operatorname{ord}(Q)$，与 R297 的原零极不相交。所需
+全局根代数性与单位性由相同正整数次幂等式得出。$Q=0,T\ne0$
+则直接用 $3024\epsilon_{T,p}s_T$，$T=0$ 已由(AE1)覆盖。
+
+沿用§52真实 $V_2\otimes V_{17}$ 标记，写
+$S=b\otimes v$，$H_i=b\otimes v_i$；共同整体物理常数在
+两者同样纳入 $v,v_i$。具体在 $n\bmod34\leftrightarrow
+(n\bmod2,n\bmod17)$ 的原 CRT 基中，三类物理系数逐项为
+$$
+ \begin{array}{ll}
+ S: & CD\,b_{n\bmod2}\,e_{17}^{2n^2} f_{17}(3n),\\
+ H_j\ (j\ne\infty): &-CD\, e'_j b_{n\bmod2}\,e_{17}^{j n^2},\\
+ H_\infty: &CD\sqrt{17}\,b_{n\bmod2}\,\mathbf1_{17\mid n}.
+ \end{array}
+$$
+最后一式用 $17\mid n$ 时 $n/17$ 与 $n$ 同奇偶。
+这里 $b=(1,t_2e_8^{-1}),C,D,I,e'_j$ 均为(S1),(S2)的原常数。
+所以这些向量在同一个 $b\otimes\mathbf C^{17}$ 中。
+十七挠点在二次有限 Heisenberg 商上的像为零，实际位移保
+$b$，其可能的共同标量计入 $D_T$。让 $D_T$ 为(AG1)的十七有限
+Heisenberg 平移在 $V_{17}$ 上的酉矩阵，即实际 theta 标记
+中的移位/相位矩阵。它们是代数的；改变 lift 的单位根随
+$D_T,S_T$ 同时改变。固定代数系数及准确展开为
+$$
+ a_{i,T}=\frac{(D_Tv)^*v_i}{17v^*v},\quad
+ H_i=\sum_{T\in E[17]}a_{i,T} S_T,\quad
+ H_iG(\xi z)={1\over3024}\sum_Ta_{i,T}\epsilon_{T,p}^{-1}U_{T,p}.
+                                                                  \tag{AG5}
+$$
+因为 $\sum_TD_Tvv^*D_T^*$ 与不可约的十七 Heisenberg 表示交换，
+取迹知它是 $17v^*v$ 倍恒等。全部 $17^2$ 项均保留；在零点
+准确复得 $3024B_i=\sum_Ta_{i,T}\epsilon_{T,p}^{-1}U_{T,p}(0)$。
+
+在 $C_i=2c_i$ 的各自规范中，完整读数为
+$$
+ \sum_i\mathcal I_i'(0)
+ ={1\over3024}\sum_{i,T}a_{i,T}\epsilon_{T,p}^{-1}
+ \sum_{h\ge1}(-1)^{h-1}(h-1)!C_i^{-h}
+   [z^{dh}]\frac{e^{-C_i z^d}U_{T,p}(z)}{G(\xi z)} .            \tag{AG6}
+$$
+固定 $S_T/\sigma^{34}$ 是至多 $34(O)$ 极的代数椭圆函数，
+可在 $x,y$ 基中有限展开。除固定有限坏集后系数整；在
+R301 的 $R=p^{-1/(2p)}$ 原盘，$t/z,z/t$ 范数一，
+$e^{-34cz^d}S_T$ 由相同 sigma 余项界有界。又
+$C_i-34c=2e_i\in\mathcal O$，更换 Gaussian 仍有界，故
+$h$ 向有正线性赋值增长，允许有限求和通过完整导数读者。
+输入现在是实际 $17p^r$ 层全局单位的有限组 Coleman 级数。
+(AG6)取这些级数本身并乘原参考倒数，尚须将其权导连接至
+有限代数对数或直接证明原完整中央的跨素数非零。
+
+最后，取相容的 $z_{-T}=-z_T$，令 $\epsilon_{-T,p}=\epsilon_{T,p}$。
+因 $S,G$ 偶，准确有 $U_{-T,p}(-z)=U_{T,p}(z)$。对于
+$T\ne0$，形式对数各自在原点除以其非零常数项再取。若将
+$T,-T$ 以相同系数相加后取这两份局部对数的和，则它是偶函数，
+所有奇数 Coates--Wiles 矩都为零。原 R303 的 Hecke 幂
+$2m+1$ 是奇数，这一朴素偶对数投影不能替代原标准 Rubin 类。
+(AG5),(AG6)用的是带真实权的截面本身。

@@ -313,3 +313,11 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:26:01 UTC到7b6a399a4e2753d4703b509926afc9c2ea78556b，私库2026-11-28 13:25:57 UTC到32a08b3c88857da01f24a9344a4be6ff42306bbe；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47358856B/treef77317901a9ab1472eb4ac624398d6adfd440c04，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:26:15 UTC到08d6fd685fe7a70483e6463e1f5c462000fa8129，私库2026-11-28 13:26:10 UTC到9df264eb718830d17466a79c1a8fef6bde08a2c3；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47358856B/treef77317901a9ab1472eb4ac624398d6adfd440c04，无>5MB。
+
+## 2026-11-28 13:26:21 UTC：R1067 §65：17挠全局单位与三目标完整Heisenberg读者
+
+根核实际移位指数、n为17及Teich阶倍数的统一逼近、pT=T与全局S,p-unit；特核O(34)的两个17维copies问题，原S1/S2逐系数CRT将全部源固定在同一个b因子，故只在真17维用Schur。AG6保完整原权导与奇偶边界。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:26:31 UTC到df1578f1cf7cadf0d3b24b9454c540bc742c4759，私库2026-11-28 13:26:26 UTC到30eaedbd5bc36d3ac39c2446ef74e988c7d0f676；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47364113B/tree156e0eccdd063d4eabff3c14803db2c2d4f1f167，无>5MB。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:31:48 UTC到ff4c67b7a91bb99121c44d68b5016d71e0531b7e，私库2026-11-28 13:31:38 UTC到cfd20cc40f1ef1ce070cc8bf18036ba84eb34724；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47364113B/tree156e0eccdd063d4eabff3c14803db2c2d4f1f167，无>5MB。

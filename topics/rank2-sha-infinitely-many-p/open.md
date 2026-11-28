@@ -456,3 +456,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §64：原范数相容级数的固定有理标量3024
 
 原二倍除子、三挠加法及完整S1因子给Mσ=432^(−1/12)、MG=3^(−1/2)、MSMG=1/3024。准确c_p=3024^(1−p²)，所以同一3024K在原LT塔严格范数相容，无须扩标量。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §65：17挠全局单位与三目标完整Heisenberg读者
+
+实际17平移保Teich相位、共同3024及全部17p^r全局单位；原CRT证明S与九H在同一b⊗V17，完整289项回各目标。原三个C_i及参考逆因子照保；偶对数奇矩为零，不能替代原Rubin类。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
