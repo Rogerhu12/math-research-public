@@ -109,3 +109,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:16:13 UTC — 25完整同源续跑实际启动
 
 25原runner实际启动restart-01/source f250c578/PID12394，原launcher804bb61c不变。06:13:51Z两progress尚无，原两个FileNotFoundError保；未冒成功读入、接受或新结果。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`ec3beea6e262f1db9ed399fa7bace8ec61dd1433`无变（非pull）。
+
+## 2026-11-28 06:16:18 UTC — 23新试点491dae自己的完整统计返回
+
+23新491dae自己的Phi3824.8418400694645/Gram.6460565739889155已返；当前仍87c076/accepted2/g.9678293850088526，491dae几何与接受未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`e4c97d3d04708c4cafb419900ed67d5065ea8084`无变（非pull）。
