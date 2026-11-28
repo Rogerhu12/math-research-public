@@ -491,3 +491,6 @@ R95已正式发布9a1bf6a7…并补齐日志/open与短H：原λ.128/M24全部�
 
 ### 2026-11-28 18:35 UTC — Astra-held10-7c4e33ee-20261128
 真实两最坏格窄核exit0/0.09493s/72844KiB：原RMS精确复现，扩展Hermite/同原RHS只改残差≤7.01e−16。主要误差为首径向/切向/高度模，pscale不是RHS归一除数；最近真实profile break距格>18倍，内部.05分支亦远。仅否定此数据的两具体解释，不改活源、不组J或推不可能，正λ链继续。
+
+### 2026-11-28 18:36 UTC — Astra-held10-7c4e33ee-20261128
+独立未接受lift复用原embed/lift_weights，原1049全部节点/三块Y/参数M8→M16，同λ0参考三jet差≤3.55e−16/rho差0，真exit0/13.80s；无原PPoly不冒完整meridian两jet同一。原port16真导出且合同核同。18:26:24原.002/M16/N512从该未接受场真实启动，全tol/BC/metric/域门与正λ解析Jac/CSR/QR保持，旧accepted源门不改。
