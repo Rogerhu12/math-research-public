@@ -1,43 +1,39 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-r1200-20261128",
-  "request_id": "r1200-canonical-Igusa-Weil-phase-rational-kernel-operator-20261128",
-  "message": "serre: fix canonical Igusa-Weil phase and complete rational highest-kernel operator",
-  "last_read_rules_commit": "d7d544d4b8eb6403cf880938986f26f667a7a8f1",
+  "source_branch": "serre-astra24-publish-r1202-20261128",
+  "request_id": "r1202-actual-highest-character-pure-cuspidal-integrality-20261128",
+  "message": "serre: prove integral pure-cuspidal projection on the actual highest-character lattice",
+  "last_read_rules_commit": "75cf27eb8c911316365740986b92a715281ee8c6",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "35f3b442078bcf9977994618bbd2d9bccdb78083",
+  "previous_request_git_blob": "aaa15b845f616388d4ffa0bd6fc057a7b9e22b82",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md",
+      "path": "topics/serre-uniformity/results/R1202-original-highest-character-cuspidal-projection-integrality.md",
       "previous_git_blob": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/original_highest_kernel_contraction.py",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-pure-cuspidal-integrality.md",
       "previous_git_blob": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/current-exact-research-request.json",
-      "previous_git_blob": "102830e62c1f2fc5f445850339291cb0e496993f"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "548895b3d0c5dbf939d00d57b1ca24768b6e9b30"
+      "previous_git_blob": "8fa03f9d17615d970e0778376daa127fe3f4abf1"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "2a63e608fb8dfc310e016758c7cbd50bf96b0b7b"
+      "previous_git_blob": "b2353b72e32c78f721525deae2d00fb534b8ba3f"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "a29f917a01c18def5e100887ba0cba82afa0b2c9"
+      "previous_git_blob": "fb75d86f8db76e71512936048afe7e8407e1a0b4"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "99451aaaf222ac65c9e3c0b93181fc7678f5a52d"
+      "previous_git_blob": "1dd78ef6aac42c4dd02f4c999441037706827910"
     }
   ]
 }

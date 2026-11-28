@@ -154,6 +154,8 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1201](results/R1201-original-highest-packet-kernel-log-unit.md)原最高packet的完整CM核已全称求值：n=2g−1、m=6g−1时V_m(T*)=32m c_m⁰ν/binom(m,n)²为原尺度单位。原Jacobi求积权常数1、CM端点H(1)=32及有限RC多项式原函数给余积分严格0；保全部simple极部。当前必须算U_m=p e_cusp,m e_N的真实混合格/指定C两列；PS权(m+1)²可能经π^−p回到m²，不能删这一p拼接。
 
+[R1202](results/R1202-original-highest-character-cuspidal-projection-integrality.md)原每个实际负deck、最高权整Ω满足U_mΩ∈pΛ，故qΩ整且同惯性W格Γ由q整分裂。原M_N全部0≤N≤p的Ubar消去已付，临界两份W由极化jet的实际直和处理，中心π^(e0−p)返回由全SS节点排掉。仍须保实际Ω：同底lift差π^(e0−p)Ψ_high经q可返回π^−pUΨ，不可先定义A(L)或将R1201单位传C。当前继续实际PS的n=p Frobenius/Cartier源及q后两列。
+
 ## O5：原固定 Y 的有效断点
 
 R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)沿链，不重算。R907原四artifact真404，producer_inputs_pending；不能据摘要重造数组。五目标128→672、E2176九NormΦ/两端格仍需原 producer。未付 real Rcal I_Z³、YP/FM128/634、508主部rank507、P1 c/a、原σ/cY、活跃eη、d/N、nonp/Poincaré/splitting。R870的16ni/1959位d*须合法好约化非零；YL1=0非rank0、UE=dY+2period、End⁰G=F、torus≥g+1、μ3qφ*=0均不删Y。

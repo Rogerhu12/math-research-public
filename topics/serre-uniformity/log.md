@@ -666,3 +666,10 @@
 - root逐式核Gauss常数、全部指数/参考factorial、finite-period运输及两端点次数；未新增数学运行，不把有限数据充证明。继续实际U_m混合格/指定C两列，保可能π^−p的PS返回和R1195的一p拼接；主目标仍OPEN。
 - 新有限探查与失败路线记录已真实推36384f6262c13c3a6704fe91dfe9faffd6f113cf；两次非快进均立即pull --rebase后继续，第三次成功。
 - 本push规则：终端真实pull至 75cf27eb8c911316365740986b92a715281ee8c6（2026-11-28T16:46:06.435187+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1202：原最高权负deck每个实际整微分的单尖点投影仍整；原全normal M_N在0≤N≤p的Ubar全部零，临界两层以极化jet真实直和支付，再以全部SS节点排唯一可能中心返回。原同角色W格Γ整分裂，但投影后的generic首向量仍需读取。
+- root逐节核完整Dickson/terminal、jet kernel和代表单位、generic/CM全极界及global centre排除；保同底lift差经π^−pUΨ返回，未将packet单位传给C。o2独核有限jet，均无数学运行。
+- R1201已真实推209d8fe32a5151468eb46ab3ba7b1673a58bfa5c，非快进/锁ref失败均立即pull --rebase后第三次成功。终端于17:10 UTC前再次报exec-server缺失，沿已存在公开Actions真实git流程续推；不把API读取冒称pull。H压缩前逐字归档before-pure-cuspidal-integrality。
+- 本push规则：由本次公开Actions真实pull后更新提交及两README差异；主目标OPEN，继续实际PS临界Frobenius/Cartier源。

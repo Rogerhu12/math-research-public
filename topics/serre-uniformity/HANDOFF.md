@@ -8,9 +8,9 @@
 
 **公开两README已读提交：75cf27eb8c911316365740986b92a715281ee8c6**（2026-11-28T16:46:06.435187+00:00；本终端真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-2026-11-28 14:37–16:22 UTC终端不可用期间，以公开Actions真实部分克隆/pull/rebase/push续写，完整回执在log。终端现已恢复；旧b0417d0保在原本地main，新分支从公开main续接，不重演已恢复结论。后续用终端git；数学程序仅公开Actions，本地/V8只做文本/git/metadata。
+终端16:22 UTC恢复并完成两次真实推送，17:10 UTC前再次报exec-server缺失；暂沿既有公开Actions真实部分克隆/pull/rebase/push。旧b0417d0保在原本地main，续接分支不重演已推内容。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-highest-kernel-pairing.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-pure-cuspidal-integrality.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -52,17 +52,13 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1193/R1195](results.md)原最高r=m为τ_m+PS_(m−1)整packet；负首中心η=T_L db/(uA_p)，T_L∈k[b³],deg<m−1，全部原λ/ρ/κ保留。完整有限角为各奇r的模p同余对乘积，另保二次St；pure型拼接恰im(U_r modp)、U_r=p e_cusp,r e_N，不能把packet单位传C。
 
-[R1196](results/R1196-original-highest-packet-Picard-log-and-finite-Cech-source.md)同P=(p−1)D0先整E_m投影后深m²−1，模π^(m²+1)的首列为原Picard核的m次Čech有限log；非约化Frob相容杀该层p-return。同q_C惯性交织保β；ψ^a全部gap及后继R1199的低a regular/全节点运输均已付。
-
-[R1197](results/R1197-original-highest-packet-complete-CM-coefficient-flag.md)原最高负packet的全部CM轮廓按从高到低准确等价于T_L(1)…T_L^(2g−2)(1)旗标，各对角为显示原单位；完整Dickson过滤付每层整角像一维，故低极部/全纯及高中心返回均处理。轮廓秩2g−1，核恰T=c(b³−1)^(2g−1)一维；未标为CM算术线，指定C/同β全图列及深盘仍开。
-
-[R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary全部a≤m的G²有限log由同target晶体/opposite/周期ODE及Lagrange反演给出，θ/分支/低a交叉全保；第五/七槽及最高Q_p系数沿原文，后继全配对已由R1199–1201支付。
-
-[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal的整角一维像及全部交叉配对已付，完整收缩消opposite；T*三个CM支含node/flux首层全零，全图值恰全SS和。其相位/全和已由R1200–1201支付，指定C仍须运输。
+[R1196–99](results.md)同P先整E_m投影后以m次原Čech有限log读π^(m²+1)，非约化Frob相容杀该层p-return。全部generic normal及低a/high-normal交叉由完整Dickson角锁定，收缩消opposite；CM全旗标秩2g−1、核T*=−r^(2g−1)，该核三CM支含node/flux首贡献全零，同P全值准确为全SS和。各原θ/ρ/κ、target晶体、参考factorial及全盘尾界沿原文/逐字前态保全。
 
 [R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Cartier–Weil/相对F一阶刚化给τ=B²、C²=γ²/B^(2p)，ν_s统一为ν=(-3)^L(2γ)^(m−1)。完整有理算子及μ3消λ₀保reference尺度。新[有限读数](notes/2026-11-28-highest-kernel-SS-contraction-and-simple-pole-obstruction.md)已否SS逐点simple零路线，不扩大扫描；其全和现由R1201纸证。
 
 [R1201](results/R1201-original-highest-packet-kernel-log-unit.md)原最高packet的完整CM核已全称求值：n=2g−1、m=6g−1时V_m(T*)=32m c_m⁰ν/binom(m,n)²为原尺度单位。原Jacobi求积权常数1、CM端点H(1)=32及有限RC多项式原函数给余积分严格0；保全部simple极部。当前必须算U_m=p e_cusp,m e_N的真实混合格/指定C两列；PS权(m+1)²可能经π^−p回到m²，不能删这一p拼接。
+
+[R1202](results/R1202-original-highest-character-cuspidal-projection-integrality.md)原每个实际负deck、最高权整Ω满足U_mΩ∈pΛ，故qΩ整且同惯性W格Γ由q整分裂。原M_N全部0≤N≤p的Ubar消去已付，临界两份W由极化jet的实际直和处理，中心π^(e0−p)返回由全SS节点排掉。仍须保实际Ω：同底lift差π^(e0−p)Ψ_high经q可返回π^−pUΨ，不可先定义A(L)或将R1201单位传C。当前继续实际PS的n=p Frobenius/Cartier源及q后两列。
 
 ## 已成、禁止重做与其它入口
 
