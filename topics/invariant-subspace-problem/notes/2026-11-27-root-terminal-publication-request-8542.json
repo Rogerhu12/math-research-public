@@ -1,19 +1,24 @@
 {
-  "message": "ISP: publish exact QQ support extraction and first full-original W boundary input",
-  "parentCommit": "e946379f4d2a387ac017c84bc613c3ca47552e6b",
+  "message": "ISP: publish corrected HK curve envelope; repair original norm serialization; first Phi Q-primary row inputs",
+  "parentCommit": "10aa832ced2f1211aac320b104a208f770c001c3",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-exact-paid-matrix-extraction-and-common-curve-bidegrees-five-fifty-one.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-QQ-paid-entry-minimum-assignment-two-supports-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-negative-e-full-I6-q2-original-initial-t-valuation-8542.py",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-hk-corrected-weight-curve-envelope-8184-and-relative-six-generators.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542-first-JSON-failure.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542-first-JSON-failure.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-original-initial-ideals-and-two-lambda-valuation-restrictions.md",
     "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-negative-e-full-I6-q2-original-initial-t-valuation-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-1528-8542.json",
-    ".github/workflows/invariant-subspace-8542-w-full-i6-negative-e-initial.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-paid-supports-1975-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-paid-supports-1975-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-QQ-Q-primary-unimodular-row-extraction-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-QQ-Q-primary-unimodular-row-extraction-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-phi-q-primary-unimodular-f.yml",
+    ".github/workflows/invariant-subspace-8542-phi-q-primary-unimodular-g.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-hk-dimension-and-Q-primary-1980-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-hk-dimension-and-Q-primary-1980-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,6 +28,8 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-full-i6-negative-e-initial.yml"
+    "invariant-subspace-8542-hk-nv-loww-inverse-t-norm.yml",
+    "invariant-subspace-8542-phi-q-primary-unimodular-f.yml",
+    "invariant-subspace-8542-phi-q-primary-unimodular-g.yml"
   ]
 }

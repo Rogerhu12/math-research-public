@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-paid-supports-1975-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-dimension-and-Q-primary-1980-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[整h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)、[整ellhalf](results/R150-appendix-unit211-hk-entire-ell-half-complete-original-exclusion.md)及一般Pf三生成保。e9bd30[完整NV–Loww输入](notes/2026-11-28-unit211-hk-full-NV-Loww-inverse-t-monic-three-original-norm-8542-input.md)run46159596374真2.457205909秒/61528KiB/exit1：首个Norm profile遇fmpz JSON序列化错误，只有同t/逆t正式checkpoint；范数次数及完整两源尾尚未返。仅修int序列化继续同一未完成输入/原预算；不作资源冻结或新数学目标，旧dc888两投影仍冻。
+[整h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)、整ellhalf及一般Pf三生成保。新[权像维数≤1、8184包络与相对6生成](results/R150-appendix-unit211-hk-corrected-weight-curve-envelope-8184-and-relative-six-generators.md)由已成NBe/NBo两个不同QQ不可约核及monic t³得：复基变换保正则列，次数93×88仅包络；单权纤维≤6含ρ，不称全局局部化有限/有限点数。abd714仅两处int修e9bd JSON错误，同原NV–Loww尾续180秒4GiB；run46159596374真2.457205909秒/exit1历史保，不称资源冻结/新目标，未预报Norm。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088及U0另3、同h/Loww/cb71/2f7fd保，旧资源失败冻。949603三方向排除、83e077六ray/两个λ估值限制已刊。新[完整I6+q2的(-1,0)边界](notes/2026-11-28-unit211-W-b0-negative-e-full-I6-q2-original-initial-t-valuation-8542-input.md)b33c1首次180秒4GiB已派：沿已成λ非零/vλ0，覆盖所有有理t估值和t0，固定原Laurent行算法只完整7源单位才排cell。其余五ray不变，无有限DVR模型或W空性。
+W旧闭支/≤616824、b0≤23088及U0另3、同h/Loww/cb71/2f7fd保。949603三方向排除、83e077六ray/两个λ估值限制已刊。b33c1[完整I6+q2的(-1,0)边界](notes/2026-11-28-unit211-W-b0-negative-e-full-I6-q2-original-initial-t-valuation-8542-input.md)run46160462146/job141026414218真1.768919617秒/48736KiB/0：全部五t估值cell和t0均未返单位，155新7源返回但不判点存在，ray未闭。继续新原值/局部来源，其他五ray及有限DVR原模型仍开。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0≤23088及U0另3、同h/Loww/cb71/2f7fd保，旧资源
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-[正确Phi全权10生成/每权≤9](results/R150-appendix-unit211-Phi-zero-corrected-whole-I6-ten-generators-and-fiber-length-nine.md)及旧13/22保。[QQ原矩阵精除与gcd双次≤5/51](results/R150-appendix-unit211-Phi-zero-corrected-exact-paid-matrix-extraction-and-common-curve-bidegrees-five-fifty-one.md)b0ef31唯一14.598634407秒/0现刊；F总≤409/双次368,206，G总≤633/u593..594,Q302。未证明QQ公共曲线存在或不存在，曲线外孤立点也保。接Q=0真QQ[u] unimodular新行来源，不重旧匹配/双轴。
+[正确Phi全权10生成/每权≤9](results/R150-appendix-unit211-Phi-zero-corrected-whole-I6-ten-generators-and-fiber-length-nine.md)、[QQ精除及gcd双次≤5/51](results/R150-appendix-unit211-Phi-zero-corrected-exact-paid-matrix-extraction-and-common-curve-bidegrees-five-fifty-one.md)保。新[f6ffe1全QQ[u]幺模Q主分量](notes/2026-11-28-unit211-Phi-zero-corrected-QQ-Q-primary-unimodular-row-extraction-8542-input.md)固定F/G各首次120秒1GiB：每双行det1/全逆返回，整零行才精除Q，满秩才精确赋值；先验≤41/40，所有u零面保，不重旧匹配/双轴。公共曲线、孤立交点与原空性均开。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
