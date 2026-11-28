@@ -416,3 +416,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：发现并落实R87完整时间域接口：旧export硬编码9/20且握持guard只认旧k.2；新增显式Fraction phase-end/held-width和同一圆弧公式，R87准确4/5、27/50恢复13/100至67/100扫窗。原两类source门/fullH/全谱/拓扑/5MB保留，四源compile与两help真实0；无假场、网格或完成声明。
 
 - 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：保全断线前已准备的fixed-g v7完整factor-only映射及独有child清理源：旧1497节点/M32/mean1168初猜与方程未改，分阶段预算保匿名CSR/完整热solve，映射字节不作RSS信用。仅既有compile/声明替换，未执行模型/J/BVP或重复M16验证。
+
+- 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：保全断线前独立v8页释放提示检查及once launcher：成功原solve后必须观察helper已完成DONTNEED提示才进入相应预算，原solve异常不覆盖。原数值main逐字同v7，仅已做准备，未宣称v7实际失败或v8新BVP返回。
