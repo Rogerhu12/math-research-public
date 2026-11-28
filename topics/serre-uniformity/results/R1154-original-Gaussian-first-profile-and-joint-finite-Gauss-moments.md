@@ -817,3 +817,230 @@ $\operatorname{Har}_p(1,3,4)$，也没有计算原 $F_0$ 的 $z_{12}$。
 若要联立，仍须给出两种原来源间的准确 cochain、period 或 Frobenius 比较；
 仅因两者都可写成有限 harmonic 和不足以识别。
 本节全部是同一原 forcing 的纸面变换，无数学程序执行。
+
+
+## 11. 完整 finite-log 移位与原 Bernoulli 条件
+
+本节把 (1154.37) 中三次 finite logarithm 的全权重保留。
+新增的无权端点是原 $\mathrm B_{p-3}$，不是一个另行选取的单位；
+随后给出它在指定 minor 中的准确权重及全部剩余项。
+这里 $\mathrm B_j$ 专指普通 Bernoulli 数，避免与
+$\mathbf B_\nu$ 混同。
+
+置
+$$
+M=\frac{p-1}{2},\qquad q=q_p(2),\qquad L=\mathcal L_p.
+$$
+以下所有等式先在 $\mathbf F_p$ 中读取；$q$ 仍由 (1154.36)
+规定，不能作为自由参数选择。
+
+### 11.1. 三次有限对数的完整端点
+
+先有
+$$
+\boxed{\quad
+\mathscr R(L^2)=0,\qquad
+[w^{p-2}]\frac{L^3}{1-w^2}=\frac38\mathrm B_{p-3}.
+\quad}
+\tag{1154.39}
+$$
+第一式由
+$(L^3)'=3L^2(1-w^{p-1})/(1-w^2)$
+读取 $w^{p-1}$ 得到。左边该项为零；
+右边多出的项至少从 $w^{p+1}$ 开始。
+
+为自足证明第二式，定义有限的参数多项式
+$$
+E(T)=[w^{p-1}]
+ \sum_{j=0}^{p-1}\frac{(2TL(w))^j}{j!}.
+$$
+这次所有阶乘都是单位。对 $1\le a\le p-1$，
+在严格低于 $w^p$ 的前缀中，有
+$$
+E(a)=[w^{p-1}](1+w)^a(1-w)^{-a}
+    =[w^{p-1}](1+w)^a(1-w)^{p-a}
+    =2a(-1)^{a+1}.
+$$
+最后一个等式读取次数 $p$ 多项式的次高项；
+未把模 $p$ 的指数参数当成一个无限特征零指数。
+因为 $\deg E\le p-1$，有限域幂和准确给
+$$
+[T^4]E=-2\sum_{a=1}^{p-1}(-1)^{a+1}a^{p-4}
+       =\frac12\sum_{b=1}^M b^{p-4}.
+$$
+令 $n=p-3$。Bernoulli 多项式的有限幂和与倍分式给
+$$
+\sum_{b=1}^M b^{p-4}
+ =\frac{\mathrm B_n(1/2)-\mathrm B_n}{n}
+ =\frac{(2^{1-n}-2)\mathrm B_n}{n}
+ =-2\mathrm B_{p-3}\pmod p.
+$$
+这里 $n<p-1$，全部有关 Bernoulli 系数及分母在 $p$ 处整。
+因此 $[T^4]E=-\mathrm B_{p-3}$。
+另一方面，
+$$
+[T^4]E=\frac23[w^{p-1}]L^4,\qquad
+[w^{p-2}]\frac{L^3}{1-w^2}
+ =-\frac14[w^{p-1}]L^4.
+$$
+第二式来自 $(L^4)'$；此处 finite-log carry 还未到所读次数。
+两式合并即 (1154.39)。
+
+### 11.2. 每个实际移位的三个核
+
+对 $0\le s\le M$，定义
+$$
+\begin{aligned}
+o_s&=\sum_{i=0}^{s-1}\frac1{2i+1},&
+K_s&=\sum_{i=0}^{s-1}\frac{H_i}{2i+1},\\
+A_s&=\sum_{i=1}^{s}\frac{o_i}{i},&
+J_s&=\sum_{i=1}^{s}\frac{K_i}{i}.
+\end{aligned}
+$$
+空和为零。所有分母严格小于 $p$。
+直接保留每个 coefficient 的真实范围，有
+$$
+\boxed{\begin{aligned}
+\mathscr R(w^{2s+1}L)
+ &=q+\frac{H_s}{2}
+ &&(0\le s\le M-1),\\
+\mathscr R(w^{2s}L^2)
+ &=2q\,o_s+K_s
+ &&(0\le s\le M-1),\\
+\mathscr R(w^{2s+1}L^3)
+ &=\frac38\mathrm B_{p-3}
+      +3qA_s+\frac32J_s
+ &&(0\le s\le M-2).
+\end{aligned}}
+\tag{1154.40}
+$$
+在各自上界以外，左边严格为零。
+下面的加权和一律按这些界截断，不把右边未经说明地继续使用。
+
+第一行就是 (1154.35) 的逐系数证明。
+第二行可由完整端点 $\mathscr R(L^2)=0$ 倒读：
+$$
+[w^{2i}]L^2=\frac{o_i}{i}\qquad(1\le i\le M).
+$$
+去掉最后 $s$ 项时，写 $i=M-j$；
+有 $o_{M-j}=q+H_j/2$、$1/(M-j)=-2/(2j+1)$。
+所以被去掉的尾项为
+$-(2q+H_j)/(2j+1)$，给第二行的两个正号。
+
+第三行使用
+$$
+[w^{2i-1}]L^3=\frac{3A_{i-1}}{2i-1}.
+$$
+在最后 $s$ 项中写 $i=M-j$；
+第二行已经给
+$A_{M-j-1}=2q\,o_{j+1}+K_{j+1}$，
+而 $2i-1=-2(j+1)$。
+从 (1154.39) 减去这段尾项，准确得到第三行。
+上述证明也说明：无权端点的 $\mathrm B_{p-3}$ 不可直接代替
+一个有 $w^{2s+1}$ 的实际读取。
+
+### 11.3. 保全部 $P_\nu$ 权的原 minor
+
+为使展开可以逐项消费，对任意偶多项式
+$A(w)=\sum a_s w^{2s}$ 定义以下有限线性泛函：
+$$
+\begin{aligned}
+\mathfrak t(A)&=\sum_{s=0}^{M}a_s,&
+\mathfrak d_i(A)&=\sum_{s=0}^{M-i}a_s\quad(i=1,2),\\
+\mathfrak h_1(A)&=\sum_{s=0}^{M-1}a_sH_s,&
+\mathfrak o_1(A)&=\sum_{s=0}^{M-1}a_so_s,\\
+\mathfrak k_1(A)&=\sum_{s=0}^{M-1}a_sK_s,&
+\mathfrak a_2(A)&=\sum_{s=0}^{M-2}a_sA_s,\\
+\mathfrak j_2(A)&=\sum_{s=0}^{M-2}a_sJ_s.&&
+\end{aligned}
+\tag{1154.41}
+$$
+缺少的多项式系数按零处理；尤其高于所列界的
+$P_\nu^8$ 项没有被改成在 $w=1$ 的值。
+
+本小节简写
+$$
+P=\mathsf P_\nu,\qquad W=\mathsf W_{\nu-1},
+\qquad V=W-PL.
+$$
+$P^5W/w$ 是真实偶多项式，因为 $w\mid P$。
+定义完全固定的数
+$$
+\begin{aligned}
+B_0&=H_\nu^2-\mathfrak h_1(P^5W/w)+\mathfrak k_1(P^6),\\
+B_1&=-2H_\nu+2\mathfrak o_1(P^6),\\
+U_0&=\mathfrak t(wP^7W)-\frac12\mathfrak h_1(P^8),\\
+D_1&=\mathfrak d_1(P^8),\qquad D_2=\mathfrak d_2(P^8),\\
+V_0&=\mathfrak t(wP^5W^3)-\frac32\mathfrak h_1(P^6W^2)
+       +3\mathfrak k_1(wP^7W)-\frac32\mathfrak j_2(P^8),\\
+V_1&=-3\mathfrak d_1(P^6W^2)
+       +6\mathfrak o_1(wP^7W)-3\mathfrak a_2(P^8).
+\end{aligned}
+\tag{1154.42}
+$$
+这些是有限 Legendre 与 harmonic 数据；定义本身不宣称任何一项为单位。
+
+完整乘积展开及 (1154.40) 给
+$$
+\boxed{\begin{aligned}
+\mathbf B_\nu&=B_0+B_1q,\\
+\mathbf U_\nu&=U_0-D_1q,\\
+\mathbf V_\nu&=V_0+V_1q-\frac38\mathrm B_{p-3}D_2.
+\end{aligned}}
+\tag{1154.43}
+$$
+例如最后一式逐项使用
+$$
+wP^5V^3
+=wP^5W^3-3wP^6W^2L
+ +3wP^7WL^2-wP^8L^3.
+$$
+后三项正对应 (1154.40) 的三个不同范围。
+第一式还用到
+$\deg(P^4W^2)\le6\nu-2\le p-3$、
+$\deg(P^5W/w)\le p-3$，所以它们没有高端截断：
+$$
+\mathfrak t(P^4W^2)=H_\nu^2,\qquad
+\mathfrak d_1(P^5W/w)=H_\nu.
+$$
+与此相反，$P^8$ 的次数通常超过 $p-1$，
+因而 $D_1,D_2$ 必须保持所定义的部分和。
+
+### 11.4. 首标签为零后的真正 Bernoulli 方程
+
+置
+$$
+Q_\nu=H_\nu-\frac12\mathfrak h_1(P^4),\qquad
+\mathfrak C_\nu(T)
+=3(B_0+B_1T)(U_0-D_1T)-V_0-V_1T.
+$$
+因为 $2\nu<M$，$Q_\nu$ 恰是 (1154.36) 中的完整加权和，
+而 $\mathfrak C_\nu$ 的次数至多二。
+(1154.37)、(1154.43) 准确成为
+$$
+\boxed{\quad
+\Delta_{\rm low}
+=\frac{4}{13365\,r\beta_{\rm G}^2a_\nu^8}
+ \left(\mathfrak C_\nu(q)
+       +\frac38\mathrm B_{p-3}D_2\right).
+\quad}
+\tag{1154.44}
+$$
+因此在 §6 指定的实际 good-row 分支中，
+原非对角共同纤维同时满足
+$$
+\boxed{\quad
+q_p(2)=Q_\nu,\qquad
+\mathfrak C_\nu(Q_\nu)
+       +\frac38\mathrm B_{p-3}D_2=0.
+\quad}
+\tag{1154.45}
+$$
+这是与原 $\mathrm B_{p-3}$ mask 的真实同源联系；
+它没有用 R1152 的另一个 harmonic 来源替换任何标量。
+在正在考虑的余支，$\mathrm B_{p-3}$ 本身是单位，
+但 (1154.45) 仍保留整个 $\mathfrak C_\nu(Q_\nu)$ 和 $D_2$。
+目前没有证明前者为零或后者为单位。
+若 $D_2=0$，第二式就是 $\mathfrak C_\nu(Q_\nu)=0$；
+若 $D_2\ne0$，才可除以这个真实部分和。
+本篇不以无权的 (1154.39) 声称已经排除原余对。

@@ -158,3 +158,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原 primitive 的有限 dilogarithm Frobenius
 
 [R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原D到标准Heis的rev方向，良好单位actual rational fibre晶体性，未分歧BK=(logu,log(1−u),−Li2)。通用u^p→u Frobenius中央=−Li2†，强mod pO_L读−ℓ2,p(u)/(1−u^p)，保分歧nilpotents；原U_a(P)/W确为unit。Qp同点Frob另含乘积修正；仍须原filling/transfer/运输到F0 z12，不套ramified FL。
+
+
+### 原有限对数与 Bernoulli mask 的准确加权关系
+
+[R1154 §11](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)新增完整三次finite-log端点(3/8)Bp−3与三个移位核；指定Pν⁴/⁶/⁸权重和真实截断全部保留。实际H_p0使q_p(2)=Qν，minor0精确为Cν(Qν)+(3/8)Bp−3D2=0，D2只为Pν⁸至(p−5)/2的部分和。Cν(Qν)消失/D2单位仍待付；原good β3单位不能单独排除此式，继续同一Legendre ODE的联合消去。

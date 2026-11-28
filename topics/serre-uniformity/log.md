@@ -730,3 +730,7 @@
 ### 2026-11-28 09:41 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1155付原根cochain与标准Heis的路径rev三箭头、BK中央负dilog、同点Frob乘积修正及通用u^p→u的完整class-two矩阵。全尾整估值给强mod pO_L的有限Li1/Li2 rational读数，原SS torsion单位的真实residue亦付。
 - 明确未分歧算术比较和分歧通用函数求值范围；nilpotent/transfer/原z12仍保，继续指定中央计算。H逐字归档，纸面推导，无数学执行。
+
+### 2026-11-28 09:42 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1154 §11付原三次finite-log的Bernoulli端点及三个带真实范围的shifted kernels；完整指定Legendre权重得到Cν(q)+(3/8)Bp−3D2。root核有限插值/Faulhaber、所有尾项索引与原三矩展开，旧1–10逐字保留后即推。
+- Cν(Qν)与D2的真实关系仍开，不把无权Bp−3单位当指定minor单位；继续联合消去，无数学执行。
