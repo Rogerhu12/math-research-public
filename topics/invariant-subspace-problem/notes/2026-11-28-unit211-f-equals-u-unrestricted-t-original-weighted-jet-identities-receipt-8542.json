@@ -1,0 +1,133 @@
+{
+  "schema": "isp-fu-unrestricted-t-complete-original-weighted-jet-identities-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date_utc": "2026-11-28",
+  "runtime": "functions.exec V8 BigInt exact polynomial arithmetic",
+  "source": {
+    "name": "2026-11-28-unit211-f-equals-u-unrestricted-t-original-weighted-jet-identities-8542.js",
+    "blob": "25fa5ff6bfc9bc68978a57ee37fd21f1b3f7c8d5",
+    "bytes": 7094,
+    "sha256": "d53451f6350c755c015402122336fe6b2c0f7287c839167e3685de33a72d6bbe"
+  },
+  "actual": {
+    "schema": "isp-fu-unrestricted-t-original-weighted-jet-corrections-v1",
+    "variables": [
+      "b",
+      "c",
+      "p",
+      "q",
+      "X",
+      "Y",
+      "t"
+    ],
+    "elapsed_milliseconds": 11,
+    "integerPolynomialProducts": 910,
+    "checks": [
+      {
+        "name": "same_full_Gram_f_equals_u",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "weighted_N_all_free_t_original_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "weighted_P_all_free_t_original_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "first_jet_all_free_t_original_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "second_jet_all_free_t_original_identity",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "first_compact_correction_no_division",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "second_compact_correction_no_division",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "first_low_original_combination",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "second_low_original_combination",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "first_value_target_is_twice_n_w",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "second_value_target_is_twice_lambda_g",
+        "fullIntegerPolynomialDifferenceZero": true
+      }
+    ],
+    "originalCorrectionTerms": {
+      "CN": 17,
+      "CP": 22,
+      "CJ": 20,
+      "PhiGen": 10,
+      "Kw": 22,
+      "Kl": 26
+    },
+    "originalF2Exactly2u": true,
+    "trueDualGermProduct": true,
+    "allTIncludingZeroRetained": true,
+    "noPhiOrWAssumption": true,
+    "noDivisionByTOrAnyGeometricHead": true,
+    "normalizedConsequenceAfterOriginalMeansAndValues": [
+      "2*P02*(2*lambda-1)*w=bc*t*Kw",
+      "2*P02*lambda*(2*ell-1)=bc*t*Kl"
+    ],
+    "noNewEmptyBranchClaim": true,
+    "ordinaryISPClaim": false
+  },
+  "earlierNewCorrectionProbe": {
+    "source": {
+      "blob": "6979d7440c1c3219f6b7dccba53b2876c9202ae2",
+      "bytes": 4692,
+      "sha256": "6624d31877c32f0409bc1fe1b078d2068396b21f97e30ee8cbf8ff226571c253"
+    },
+    "elapsed_milliseconds": 9,
+    "integerPolynomialProducts": 757,
+    "allFourBctDivisionProductsReturned": true,
+    "coreTerms": {
+      "NW": 17,
+      "twoPW": 22,
+      "firstJet": 10,
+      "secondJet": 20
+    }
+  },
+  "supersededCompactDraft": {
+    "source": {
+      "blob": "56086639fd601bc3608f996d74bebe8516d2ec46",
+      "bytes": 7108,
+      "sha256": "2999ca464599255f3091c194ca72c43734224cfc9aea6193a53ecd41ac70182b"
+    },
+    "name": "2026-11-28-unit211-fu-free-t-compact-draft-wrong-P02-coefficient-failure-8542.js",
+    "actual_exception": "Error: second_low_original_combination: 24 nonzero terms",
+    "elapsed_milliseconds": null,
+    "integerPolynomialProducts": null,
+    "last_completed_scope": "full four raw correction identities, both compact correction definitions and first low original combination; second low combination did not return",
+    "cause": "Second low combination used (1-3ell)*P02 instead of the exact (ell-1)*P02. The same erroneous value coefficient was removed before that later assertion could execute.",
+    "correction": "Derive combined row as sum of first low row and second jet row: its P02 coefficient is -a=ell-1. Correct final source returns all eleven differences.",
+    "notPublishedAsMathematicalResult": true,
+    "noOldSourceOrReceiptChanged": true
+  },
+  "scope": {
+    "fEqualsU": true,
+    "tUnrestricted": true,
+    "sevenFreeGramVariables": true,
+    "correctDualSquare": true,
+    "noPhiOrWAssumption": true,
+    "noGeometricHeadInverse": true,
+    "wholeWExcludedByThisIdentity": false,
+    "ordinaryISPClaim": false
+  }
+}
