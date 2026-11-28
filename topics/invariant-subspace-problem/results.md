@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-true-weighted-NP-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-entire-tzero-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [正确原 Phi 图整个 t=0 排除](results/R150-appendix-unit211-Phi-zero-true-entire-tzero-original-exclusion.md)：两原因子、完整NP半权分解、既有非零孤立mean与显式二次/四次Bézout1合成，仅当前D≠0图付t,z。新一元源10ms/49全除返；旧bf3门冻结。真实N1斜率和六行两列表示首次派发，整AB零和斜率零均保留。
 
 - [原 t=0、f=u 完整 weighted N/P 两值分支](results/R150-appendix-unit211-original-tzero-fu-weighted-NP-value-branches.md)：六自由变量真Gram，7ms/734乘/五全零返；完整原组合得(2λ−1)w=0、λ(2ell−1)=0，不除λ或半值头。首次派发全新W f=u/t非零及h=k四个别N/P原输入，旧门不重做。
 
@@ -67,5 +69,3 @@
 - [R267：保持函数正锥的全部幂共同分母及其紧支配边界](results/R267-appendix-positivity-preserving-common-powers-and-no-compact-domination.md)：真实非零正锥强积、全部有界整数逆及同一强单位；高位comm预算排非零紧lattice支配，实际平方分子仍开。
 
 - [R150：Phi 完整二阶核秩2及790次数上界](results/R150-appendix-unit211-Phi-zero-second-kernel-Schur-rank-two-and-degree-upper-bound-790.md)：含完整逆修正的3阶新矩阵付第十二阶消失；789≤deg_u≤790，未付原模点保度。
-
-- [R150：完整QQ双数原族、泛型D返回与整个当前W有限支撑](results/R150-appendix-unit211-W-generic-original-dual-family-D-return-and-finite-physical-support.md)：真四维满射合独立≤4给同构；物理泛型空合无竖线/H198有限，付完整规范原商有限，全部有限原候选仍开。
