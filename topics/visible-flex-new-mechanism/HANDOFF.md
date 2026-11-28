@@ -28,6 +28,8 @@
 
 A/R707、B030/R714 的原完整细扫、角定位队列、真实保留点与不同未接纳试点必须分清；不清空旧缺失前缀债。BVP 的十端/ODE/ruling 绝对门和全历史不降；R695/R702 保已付方向与区间未闭前沿。R711、R643 必须原固定 g；R631 仍是 μ0 的变 E 设计而非宏观同g相位。R705 有真已付140×140 normal 与实际 q；源相位几何已失败，不单独重复失败资格。逐项详细终态条目随接收记录写入，旧工单的全部费用在原 literal 及旧交接保持。
 
+[R731](results/R731-piecewise-analytic-flat-rim-rotational-metric-rigidity.md) 已证平外圈旋转g的有限分段实解析准确等距场必同轴，内倾帽不可能；非零首径jet的C∞解也仅在外领同轴。未给任意C²/非解析极限排除或统一正误差地板，R728真实有限误差与同g自然精化继续。
+
 ## 环境恢复后找到的未发布稿件
 
 原 R716 源码 **11413B / 487928256cdc0bffd2aef6b5259dbb546e54dc604e4779032ba3ec4e5837f869** 与论文 **11942B / 69c2306febe4c9818fbeb705c16cc3a2584345d9651fe65895e3d071b6ab0b51** 均已重新读到字节身份；与已发表的独立 recovered 源码不同，不互相冒充。碰撞原稿先保存到仓库外再 pull，未删。现 [R716 论文](results/R716-canonical-shared-Hermite-traces-and-global-paid-strip-Hessians.md) 和 recovered 消费者仍为条件性规范共结/全条带 Hessian、未执行，世界零阶保 h*−h_bin。

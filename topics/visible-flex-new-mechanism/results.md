@@ -23,3 +23,5 @@
 - [R729：第一共移外盘源的真实端弦障碍](results/R729-a-true-outer-disc-end-chord-obstructs-the-first-comoving-source.md)：完整路径给相对度量误差下界>.023；原请求未执行，换源继续。
 
 - [R723：非镜像整主片、真实增座及全壳直径](results/R723-asymmetric-ruled-plates-and-full-shell-diameter-of-genuinely-longer-seats.md)：解除旧镜像母线障碍，实际新g与参考宏观已明确；未知窗和完整reach未解。
+
+- [R731：有限分段解析旋转度量的平端刚性](results/R731-piecewise-analytic-flat-rim-rotational-metric-rigidity.md)：准确倾帽终点不在有限解析族内；不排任意C²极限，不取消真实同g精化。
