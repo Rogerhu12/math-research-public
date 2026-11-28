@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 已终态实际计算
 
-[截至RET100E的完整终态表和全部链接](https://github.com/Rogerhu12/math-research-public/blob/dd3eff70a36443229b76901467d4ccd5091c3d42/topics/visible-flex-larger-amplitude/open.md)保19–32每次自身源/模型/点/六族/K/原预算、失败及未知；各完整own note仍在。19science/pure0、N1无report；20–26cancelled；27/28/29/31/32failure。其他run原因不从33借用。25原accepted4、restart0；26/29/31 accepted1，27 accepted3，32 accepted0，末trial统计不冒final。26/27/29/31/32无自然final/typed，whole pure未执行。28原science/pure0而新R729 continuation仅started；其whole final/源比较合同不证明未返新场。旧失败自身日志现已实际读取，待逐条登记。
+[截至RET100E的完整终态表和全部链接](https://github.com/Rogerhu12/math-research-public/blob/dd3eff70a36443229b76901467d4ccd5091c3d42/topics/visible-flex-larger-amplitude/open.md)保19–32每次自身源/模型/点/六族/K/原预算、失败及未知；各完整own note仍在。19science/pure0、N1无report；20–26cancelled；27/28/29/31/32failure。其他run原因不从33借用。25原accepted4、restart0；26/29/31 accepted1，27 accepted3，32 accepted0，末trial统计不冒final。26/27/29/31/32无自然final/typed，whole pure未执行。28原science/pure0而新R729 continuation仅started；其whole final/源比较合同不证明未返新场。[五旧run自身日志归因](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)现已逐条确认真实pull后的README核查异常；未返科学结果保持未知。
 
 完整[S/core-law90项](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已返，13summary旧错保留；异source/model不借同坐标结果。
 

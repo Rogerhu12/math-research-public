@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，10:06实际重置后pwd仍exec-server缺失，10:21独立CUA helper也无可用程序，恢复即pull。前次探测完整保旧H。云核至`3deee59a97590d5b1e1a0380b43f120a9292de86`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。旧27–29/31–33官方failure；33新run46133839513已启，按已读新规恢复真实pull。 根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：今后新派subagent显式model=gpt-6.2-astra、reasoning_effort=ultra（fork_turns=none）；已通知三既有代理，数学目标/预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，10:06实际重置后pwd仍exec-server缺失，10:21独立CUA helper也无可用程序，恢复即pull。前次探测完整保旧H。云核至`7c3899bcbabea140dbd9dc82142ccc597e6e126b`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。旧27–29/31–33官方failure；33新run46133839513已启，按已读新规恢复真实pull。 根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：今后新派subagent显式model=gpt-6.2-astra、reasoning_effort=ultra（fork_turns=none）；已通知三既有代理，数学目标/预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格缺口明示，继续加强比例。
@@ -13,8 +13,8 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 ## 实际状态及立即续接
 
 [open§7](open.md)各完整note保全source/model/point/六族/K、命令、typed、错误及完整原预算。attempt1；自然science返回才排whole pure；trial不代accepted/final，异source/model不借同坐标结果。
-19–32既往运行及所有自身源/模型/点/六族/K/预算/未知，完整保旧H和open各whole note；本地只压索引，未删历史。19science/pure0、N1无report；20–26官方cancelled原因未知。25原accepted4，restart新accepted0、四分拒/八分仅统计；26accepted1、下一步仅开始。27/29/31/32官方failure，无自然final，pure未执行：27 accepted3、半步仅统计；29 retry accepted1、十六分拒/三十二分仅统计；31 accepted1、第二全步仅统计；32 accepted0、首trial仅统计且R729归因未知。其他run原因不借33。
-28原science/pure0、a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518仍不可行；pure423值/22错、首QP2advance/dependent-zero。[原标量90/90](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已返，13summary原错保留。28→R729完整10件及helper已main：137旧源/13final/typed/整个model真读相等，142/7、587/568、64live与4/64/15保。新source689954/PID14760已启，model/点/报告未返；job failure09:40:01Z原因待日志。31三包39、32三包21全main；32不借31同模型的点结果。
+19–32既往运行及所有自身源/模型/点/六族/K/预算/未知，完整保旧H和open各whole note；本地只压索引，未删历史。19science/pure0、N1无report；20–26官方cancelled原因未知。25原accepted4，restart新accepted0、四分拒/八分仅统计；26accepted1、下一步仅开始。27/29/31/32官方failure，无自然final，pure未执行：27 accepted3、半步仅统计；29 retry accepted1、十六分拒/三十二分仅统计；31 accepted1、第二全步仅统计；32 accepted0、首trial仅统计且R729归因未知。[五旧run自身完整日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)现已分别确认：27/28/29retry/31/32均在真pull后README核查抛异常而退出1，非自然科学final；不是借33归因。
+28原science/pure0、a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518仍不可行；pure423值/22错、首QP2advance/dependent-zero。[原标量90/90](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已返，13summary原错保留。28→R729完整10件及helper已main：137旧源/13final/typed/整个model真读相等，142/7、587/568、64live与4/64/15保。新source689954/PID14760已启，model/点/报告未返；job failure09:40:01Z现由自身日志确认README核查异常。31三包39、32三包21全main；32不借31同模型的点结果。
 
 ## 新构造、修复及未付责任
 

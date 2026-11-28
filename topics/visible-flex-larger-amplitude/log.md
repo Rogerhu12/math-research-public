@@ -51,3 +51,7 @@
 ## 2026-11-28 11:07:29 UTC — RET100F：早期原selector及闭合queue副本完整再生
 
 四旧run01 selector档47项完整原step.summary与run10旧已返整queue副本皆由五独立固定原queue逐字重现，原metadata/envelope及完整身份保；5旧生成档145034B退库，3整再生源20203B，净124831B。六批合计净1561811B（不计H/log追加），没有改原请求/队列/科学程序或任何真实字段。 双README云核至`3deee59a97590d5b1e1a0380b43f120a9292de86`无变（非pull）。
+
+## 2026-11-28 11:07:36 UTC — 27/28/29retry/31/32各自日志确认真实退出原因
+
+公开诊断46137684288自然success；五份自身完整官方日志313125–852323B仅runner，全部完整trace与whole身份已刊，均由自身Publisher.sync发现README变化抛RuntimeError/exit1。H/open补正当时未知原因，不把控制器失败当科学final、不补任何accepted/typed。诊断真pull已读commit逐项保新note。 双README云核至`7c3899bcbabea140dbd9dc82142ccc597e6e126b`无变（非pull）。
