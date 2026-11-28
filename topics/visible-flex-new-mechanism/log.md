@@ -203,3 +203,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 ## 2026-11-28 19:09:41 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R750原两边环带自然终态
 
 **R750 原两边环带9步已自然终态。** [17全J/17010列与独立窄区大峰](notes/2026-11-28-r750-paid9-complete-two-edge-annulus-natural-terminal.md)，run46174873079/job141071182352，2233.840172885秒；只0fit，.4验证绝对curl47358、metric26045、曲率98988，原next forced_sleeve保持。536ray核/27470位移/459位置J与全部7.1GB原artifact15276188258保留；四原文已206接收，R760改真宽三矩场并显式补两网切缘。
+
+## 2026-11-28 19:26:17 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R754原4步准确保留于父工件403
+
+**R754 首轮HTTP403已保全原4步。** [7全J/8556列及准确next](notes/2026-11-28-r754-first-paid4-exact-stop-at-original-artifact-403.md)，run46179020787/job141084139107自然failure但upload成功；625.551765814秒、4接纳，0/.002/.008三条完成，非零curl .216365/.866831仍未fit。下一phase .02/iteration0，active_operation=null。原artifact15277750701/2793862555B与全部费用已绑定；不回放三相位，科学前预接收R746父ZIP及本轮checkpoint，保持原cbe3599a…身份接续。
