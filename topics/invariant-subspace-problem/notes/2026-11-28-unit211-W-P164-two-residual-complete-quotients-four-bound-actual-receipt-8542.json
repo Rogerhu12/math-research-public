@@ -1,0 +1,286 @@
+{
+  "schema": "isp-two-residual-primary-full-original-quotients-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-28",
+  "run_id": 46095544001,
+  "job_id": 140825925809,
+  "driver": {
+    "elapsed_seconds": 18.421982810999992,
+    "max_child_rss_kib": 126108,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e47b2dddffbbf95b12e932e701fd71709459eccf",
+        "before": "855fe684b5f41e93a49a3e733afd56373c85e041",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T01:56:07.523775+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46095544001",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "855fe684b5f41e93a49a3e733afd56373c85e041",
+    "source_exit_code": 0,
+    "source_git_blob": "765d0d953a5519dfbce992f43d3ea3a166862a1a",
+    "source_sha256": "f1255a3fbb76fc5d44bbd64262e6a2d7a60b7ab32aad0d6ba98eddc9fce0bf90",
+    "stdout_bytes": 12313,
+    "stdout_sha256": "bbe6e2bf6cde6163a6f931037e6b18ae5208ce4cde4c6094629155a12613bc78",
+    "stop_reason": null
+  },
+  "actualSourceFinalSeconds": 18.330439650000017,
+  "budget": {
+    "seconds": 180,
+    "addressSpaceGiB": 4
+  },
+  "fixedPrime": 1009,
+  "fixedK": 3,
+  "originalI11": "E1,EBe,EBo,N1,NS,PS,qT4,R6,Nlow,Plow,Vlow",
+  "fullModelRanks": {
+    "weight": 97,
+    "lambda": 6,
+    "z": 2,
+    "AfreeEnvironment": 1164
+  },
+  "oldSevenUnitBlocksReplayed": false,
+  "completeOriginal132ColumnDefinition": {
+    "bytes": 599448,
+    "sha256": "5b3c4d986b673f6a6a30733145793233861a9b305eba6d25b82ad5fd4b1340d7"
+  },
+  "residuals": [
+    {
+      "index": 2,
+      "weightPrimary": {
+        "degree": 2,
+        "bytes": 11,
+        "sha256": "670ed5ccec5b8c8268b91c1451a8a60da80dd295ad7c3b7746b4fd9db0223c7f"
+      },
+      "ambientFpDimension": 24,
+      "originalColumnCount": 264,
+      "rank": 22,
+      "cokernelFpDimension": 2,
+      "freeCoordinateIndices": [
+        21,
+        23
+      ],
+      "unitCoordinates": [
+        186,
+        616
+      ],
+      "allSelectedOriginalColumnProductsAndAll264ProjectionsReturned": true,
+      "allCoordinateActionsCommute": true,
+      "annihilatorDiagnostics": [
+        {
+          "name": "ell_minus_half",
+          "firstZeroPower": 1,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 86,
+            "sha256": "9a32c41f53df2a21e117f15e36ce7112c6b29e3b68a6ba82de5b505102fd0c7e"
+          }
+        },
+        {
+          "name": "lambda_minus_half",
+          "firstZeroPower": 2,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 89,
+            "sha256": "b0e2f3ca6b1d418095601ff02a3f72397ae2c89f59607a37df63c0032d6225f3"
+          }
+        },
+        {
+          "name": "T_plus_half",
+          "firstZeroPower": 1,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 88,
+            "sha256": "c5b9711b6f079e22163a67fe2aaef081275baceb8ca13884a21e9057d6cb8554"
+          }
+        },
+        {
+          "name": "D",
+          "firstZeroPower": 1,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 88,
+            "sha256": "d69ab09acae4d4ea2f63ff6fec7843dc4c6c910297a1198e031c7a9372a32aad"
+          }
+        },
+        {
+          "name": "Kmoment",
+          "firstZeroPower": 1,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 87,
+            "sha256": "e449438d5ed7b58a6e0ac4ef35d687ce130f2bd1b09e2ceb7fe4eef161ac9d35"
+          }
+        }
+      ],
+      "fullOriginalColumnDefinition": {
+        "bytes": 25228,
+        "sha256": "80c5ba5fb09052820a4105aa9b745cafd27d9ae9f892dfdb87be84b9cefa413a"
+      },
+      "allElevenOriginalGeometryActionsActuallyClosed": true,
+      "geometryActionNames": [
+        "e",
+        "lambda",
+        "Z",
+        "T",
+        "D",
+        "Kmoment",
+        "ell",
+        "f",
+        "x",
+        "y",
+        "t"
+      ],
+      "lambdaAction": {
+        "axis": "lambda",
+        "allOriginalRelationImagesActuallyReturned": true,
+        "relationMembershipWitness": {
+          "bytes": 1145,
+          "sha256": "41705aba98e788433b3da02402908a9081652f10a1e4b3efebdff11c2238707f"
+        },
+        "quotientMatrix": {
+          "bytes": 15,
+          "sha256": "914d4565adc0d3e602c92389c4d04fc66207142054529859a4569d3622d81262"
+        },
+        "characteristicCoefficientsAscending": [
+          757,
+          1008,
+          1
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "weightPrimary": {
+        "degree": 2,
+        "bytes": 11,
+        "sha256": "06d9bd800e8ed0d30a465eb1671251d2d0adf9e6fc79aa96f4b2d595b3b504e3"
+      },
+      "ambientFpDimension": 24,
+      "originalColumnCount": 264,
+      "rank": 22,
+      "cokernelFpDimension": 2,
+      "freeCoordinateIndices": [
+        21,
+        23
+      ],
+      "unitCoordinates": [
+        784,
+        386
+      ],
+      "allSelectedOriginalColumnProductsAndAll264ProjectionsReturned": true,
+      "allCoordinateActionsCommute": true,
+      "annihilatorDiagnostics": [
+        {
+          "name": "ell_minus_half",
+          "firstZeroPower": 1,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 84,
+            "sha256": "29b85d6767409d2016157e7cebe08be2b349dde45794e7999220a6cefeb06d17"
+          }
+        },
+        {
+          "name": "lambda_minus_half",
+          "firstZeroPower": 2,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 89,
+            "sha256": "e1fcc8d45140242882aa6d68b31d9ceee99ee600f17b271870556258825c89e5"
+          }
+        },
+        {
+          "name": "T_plus_half",
+          "firstZeroPower": 1,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 86,
+            "sha256": "eb7ae3eb3ab329a1db42a3b266d7cf98f31412b267bce9ff9fd4ff539dd1e889"
+          }
+        },
+        {
+          "name": "D",
+          "firstZeroPower": 1,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 89,
+            "sha256": "998cf6d45c5eb8a03c72f294bdd389f44f9731863130f8ec894cfb731ae9e558"
+          }
+        },
+        {
+          "name": "Kmoment",
+          "firstZeroPower": 1,
+          "original264ColumnIdentityReturned": true,
+          "witness": {
+            "bytes": 87,
+            "sha256": "14717eb7fe2ace3c0608da2d6a6ea2e083cdb896d23a8f0628399567a0cf40c7"
+          }
+        }
+      ],
+      "fullOriginalColumnDefinition": {
+        "bytes": 25202,
+        "sha256": "4f071149a4adb07e775b02b235ae462492f0f1243edffbb5efac727a1f00fa70"
+      },
+      "allElevenOriginalGeometryActionsActuallyClosed": true,
+      "geometryActionNames": [
+        "e",
+        "lambda",
+        "Z",
+        "T",
+        "D",
+        "Kmoment",
+        "ell",
+        "f",
+        "x",
+        "y",
+        "t"
+      ],
+      "lambdaAction": {
+        "axis": "lambda",
+        "allOriginalRelationImagesActuallyReturned": true,
+        "relationMembershipWitness": {
+          "bytes": 1142,
+          "sha256": "9c3f76f10b15d4b006574a65fcda68eba0797d38e0b4b48bf27897e4df8ccc49"
+        },
+        "quotientMatrix": {
+          "bytes": 15,
+          "sha256": "914d4565adc0d3e602c92389c4d04fc66207142054529859a4569d3622d81262"
+        },
+        "characteristicCoefficientsAscending": [
+          757,
+          1008,
+          1
+        ]
+      }
+    }
+  ],
+  "conclusions": {
+    "fullSpecialFiberLength": 4,
+    "finiteALocalModuleGeneratorsAtMost": 4,
+    "QQkOriginalI11DimensionAtMost": 4,
+    "QQkPhysicalNormalizedEnvironmentAtMost": 8,
+    "modEachQuotientIsDualNumbers": true,
+    "modLambdaMinusHalfFirstPowerNonzero": true,
+    "modLambdaMinusHalfSquaredZero": true,
+    "QQDOrEllHalfIdentityInferred": false,
+    "QQGenericEmptiness": false,
+    "wholeWExclusion": false
+  },
+  "source": {
+    "basename": "2026-11-28-unit211-W-P164-two-residual-primary-full-quotients-and-geometry-8542.py",
+    "gitBlob": "765d0d953a5519dfbce992f43d3ea3a166862a1a",
+    "sha256": "f1255a3fbb76fc5d44bbd64262e6a2d7a60b7ab32aad0d6ba98eddc9fce0bf90",
+    "bytes": 10415,
+    "necessaryOldPrefixBytes": 14553,
+    "necessaryOldPrefixSHA256": "1eccc0f8803017cec318b633ae172fb0001ca946cd74dda1278331ce481a7ab8"
+  },
+  "noCoefficientCacheEncodedOrSplitPayload": true,
+  "ordinaryISPClaim": false
+}

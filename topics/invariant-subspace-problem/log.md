@@ -76,3 +76,9 @@
 - 新b642首派120秒/1GiB：22原列未降λ、仅旧权LCM/常数整化，真QQ u度Hungarian对偶/固定Q2最高矩阵及模Bareiss；旧18选择与大QQdet不复放，首项若消掉只记未付保度。
 - 新765d首派180秒/4GiB：只两个既有剩余linear² primary的24维264原列及真商/原几何作用，七成功块不跑。新完整长度只给有限Nakayama界，QQ ellhalf族仍需另付；绝不模D幂升QQ。
 - 新增.github/workflows/invariant-subspace-8542-phi-unlowered22-degree.yml及invariant-subspace-8542-w-two-residual-quotients.yml均为本题必要首次执行；全部权零支/有限点和普通ISP仍开。
+
+2026-11-28 10:04 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- W新完整余商正式即推：七旧成功块不重放，仅两平方primary完整24×264回乘/投影及全部原几何理想闭包；实际整长2+2、模双数，各λ偏差非零平方0。有限A模块给QQ(k)≤4，原规范≤8；QQ D身份待真双数族。
+- Phi22原来源与真实差额正式即推：全部逐列旧权LCM原返回、QQ Hungarian对偶上界802；固定模Q2 determinant789/LC790/u3值980、3311整除乘回。不能把13阶消失当QQ已付；续同原最高矩阵秩。
+- 十八列文加入无需新计算的严格≤1维推论：权支撑在非零F曲线，E外未几何局部化原代数有限、E内有限C[λ]模；D开集不增维。没有错误声称几何局部化后仍对原基有限。
+- 只读完整topic树124887693字节/9641文件，无MD达到100KB，未删其它会话历史数据；根/课题规则仍按每次真实pull读取差异，普通ISP未完成。
