@@ -1,0 +1,20 @@
+{
+  "radii": [0.075, 0.22],
+  "ramp": 0.032,
+  "height": 0.0036,
+  "sine": 0.36,
+  "spaces": [
+    ["base", [2, 4, 2], 4, 7],
+    ["nested", [4, 8, 4], 8, 8],
+    ["joint", [8, 16, 8], 12, 8],
+    ["angular_from_joint", [8, 16, 8], 16, 8],
+    ["radial_from_joint", [16, 32, 16], 12, 9]
+  ],
+  "fine_order": 15,
+  "fine_angles": 157,
+  "moment_order": 24,
+  "first_order_gate": 0.0003,
+  "moment_gate": 0.01,
+  "predictor_angle_increment": -0.004,
+  "reserve_seconds": 60
+}

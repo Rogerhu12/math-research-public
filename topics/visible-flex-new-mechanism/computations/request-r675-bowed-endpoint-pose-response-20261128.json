@@ -1,0 +1,55 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "private_rules_read_commit": "7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773",
+  "schema": "r675-bowed-endpoint-pose-response-v1",
+  "public_rules_read_commit": "8d51cbfee6cc6be03277f6bf730b90482cb5d80c",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r675_bowed_endpoint_pose_response_20261128.py",
+  "workflow": ".github/workflows/visible-r675-bowed-endpoint-pose-response-20261128.yml",
+  "common_parameters": {
+    "max_seconds": 780,
+    "geometry": "topics/visible-flex-new-mechanism/computations/r675-bowed-endpoint-pose-response-20261128.json"
+  },
+  "lanes": {
+    "bowed-endpoint-pose": {}
+  },
+  "scope": {
+    "actual_fixed_positive_endpoint": true,
+    "unit_inner_y_rotation_radians": 1,
+    "free_symmetric_inner_translations": 2,
+    "all_original_cartesian_columns": true,
+    "complete_singular_values": true,
+    "old_R659_R669_replay": false,
+    "nonlinear_path_solved": false,
+    "README_completion_claim": false,
+    "component_target": "positive endpoint local response for a non-reflected target",
+    "reflected_endpoint_path_excluded_by_R679": true
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r675_bowed_endpoint_pose_response_20261128.py": "3064d56c589e7c93f5d90f1b9de63f19c706080b8615ac2c2dd4de53998b641b",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r675-bowed-endpoint-pose-response-20261128.json": "33c7d24fa7f0eed83f0fb0573dc0022b818eeceb4e6bce0c47e90c7fdf6d0081",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r675-bowed-endpoint-pose-response-scope.md": "b9c00908f075642e8c41eb9a290727489b2aa5c419b1504c11b7a19aed4e3a2c",
+    "topics/visible-flex-new-mechanism/results/R675-central-bending-moment-for-an-infinitesimal-bowed-endpoint-tilt.md": "69ee4dec02311f3993af5bed83429b7d7eeff6dbfdead8ca76c95623d72889c4",
+    "topics/visible-flex-new-mechanism/results/R673-thick-bowed-tilted-endpoint-metric-with-strict-intrinsic-chord-slack.md": "b3dc7828897bb4b57c04ee44662ba53dd64835b5c85f2369b1725bb59ffdfb2c",
+    "topics/visible-flex-new-mechanism/results/R671-saturated-material-meridian-and-discrete-twist-of-the-exact-endpoint-metric.md": "bbe6b74e4dc99bae8ebcceca5bd60e4775244cc49d65a540674c4af3091a26e2",
+    "topics/visible-flex-new-mechanism/results/R667-actual-thick-finite-tilt-family-and-sharp-remaining-metric-error.md": "7eff8683b540b8b71c054113e3de028b0c871e115a9871b1925a5e84770e1ab2",
+    ".github/workflows/visible-r675-bowed-endpoint-pose-response-20261128.yml": "89d4f491339bd7f88d638834d24de25c0feb45d022eb2a0fe4e6fa189a18733f"
+  }
+}
