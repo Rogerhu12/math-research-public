@@ -1246,3 +1246,24 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 08:26:07 UTC — 25同源restart半步拒绝，四分之一步仅统计
+
+真实46099929359/1的restart-01仍为sourcef250c57887597755b6aa9cc67afa7e1da9c8959f/PID12394，driver7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910/model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef不变。至08:19:52Z，半步cf44132cc4986996cb5c7a460fef7991270a1c0b325b2a519d1c1dbcfd5ecfa8自身geometry返，最大reachg.5225607841725328且accepted=false；Phi681.6450202879079/Gram.40616533560409585。并未从g变小猜原外层拒绝条件。
+
+当前仍原父a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf、新accepted0，Phi681.6450227773521/Gram.40616533555531326，六族、K、D与位置由本次whole索引逐项保留，原accepted4不冒restart计数。下一alpha.25点596a530c788e88ccb94ecbdd0f16d4df3bd349d9fd460ac3516b55173cef2e90在07:57:41.631270只返自身Phi681.6450215326289/Gram.4061653355797046；geometry/接受未知。原整4/64/15预算和全source/param/report/typed责任继续，science尚未自然返回。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 41189,
+    "sha256": "87b70ea97abd1374100f5ce4028fa0680a6ba6977bbc0c16cd1f84b01d09815e",
+    "git_blob_sha": "97380cc6b159c1baff187a5172ab1a9065fae786",
+    "fixed_commit": "81ab3893dbff4e248adc6c3e97ebd928a03c196e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
