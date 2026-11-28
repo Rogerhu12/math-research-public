@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [PWAH96R：真实高度接续的整父链接收](results/R149-supplement-PWA-height-phase-admission-of-the-whole728-successor.md)：PWA原全部7目标和完整math/3套validator保；只在新H96全成功、真实source/manifest/run/consumed、原载体和父terminal链全过后造入口。当前prepare真实ready=false；不冒充原run成功，不重算原PWA目标。
+
 - [H96R：实际728格之后全部96列高度接续首入口](results/R149-supplement-complete-height-continuation-after-the-paid728-prefix.md)：父run真failure/child−9、原728全96 signed积分球及adjoint费用完整继承；只算2119缺格，原7final目标/两mean/8192角格/physical坐标保。123current/51history与原三类whole载体、实际terminal API及独立互斥全绑；首次on-push入口已发，数值待回。
 
 - [DMR：真实正阻尼矩与同一cubic尖单侧导数费](results/R149-supplement-positive-moment-reception-and-sharp-one-sided-direction-cost.md)：rho Ly+a y=c f以正核保入端/整格/出端阻尼，真实A1和k1矩同源可交；完整原方向cubic值M在原片I给最优|z_r|≤18M/|I|。全193坐标/mean/metric一次r导保，直接接FR1 signed forcing，未跑旧RCS72槽。

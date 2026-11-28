@@ -237,3 +237,6 @@ DMR：rho Ly+a y=c f以正核保入端/整格/出端阻尼，真实A1和k1矩同
 
 
 H96R：父run真failure/child−9、原728全96 signed积分球及adjoint费用完整继承；只算2119缺格，原7final目标/两mean/8192角格/physical坐标保。123current/51history与原三类whole载体、实际terminal API及独立互斥全绑；首次on-push入口已发，数值待回。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+PWAH96R：PWA原全部7目标和完整math/3套validator保；只在新H96全成功、真实source/manifest/run/consumed、原载体和父terminal链全过后造入口。当前prepare真实ready=false；不冒充原run成功，不重算原PWA目标。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
