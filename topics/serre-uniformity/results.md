@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原114交叉项的同源完整读取（已证明）**：[原genus4 §10](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)。原Fermat6 §10已付剩余十八cross中的三条114×114：实际degree3 genus4商、两椭圆primitive、全部相位、同一E*的两极Cartier递推和终止balanced4F3均明确。其系数σ未unit，未与原e/K4或Λ混同；剩余十五cross及双零排除继续。
+
 - **原兼容整塔的全水平延伸（已证明）**：[R1147 §16](results/R1147-original-canonical-moment-Heisenberg-lift.md)付真正兼容generic integral G∞-tower的水平补点：原quotient已延伸使每个内点惯性落Z∞，G_k等变性给H⁰(k,Z∞(−1))；weight−14在无挠整格上迫零，逐层正规化/stack descent唯一，再用原universal H¹Z_n0识别P∞。不要求各层删点有有限共同并集；单层finite或rational lift不足。指定四线/Manin的实际兼容整cochain仍须构造，不把本准则称作该输入已成。
 
 - **R1155（已证明）**：[R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原D到标准Heis的rev方向，良好单位actual rational fibre晶体性，未分歧BK=(logu,log(1−u),−Li2)。通用u^p→u Frobenius中央=−Li2†，强mod pO_L读−ℓ2,p(u)/(1−u^p)，保分歧nilpotents；原U_a(P)/W确为unit。Qp同点Frob另含乘积修正；仍须原filling/transfer/运输到F0 z12，不套ramified FL。

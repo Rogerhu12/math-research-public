@@ -173,3 +173,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 新加权探针的准确否定边界
 
 [实际回执](notes/2026-11-28-new-weighted-Legendre-probe.md)：公开Actions run46094809839/job140823622844在新1000<p<1100窗口成功。p1019的Cν(Qν)=828非零，故不再追无条件Cν(Qν)=0；同时q=724≠Qν=928，原H_p0前提未满足，条件联合排除仍OPEN。七个D2非零不代一般证明，不扩扫；继续原actual-good Newton余核与finite-log差分。
+
+
+### 原114交叉项已完成，余十五槽继续
+
+[原genus4 §10](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：原Fermat6 §10已付剩余十八cross中的三条114×114：实际degree3 genus4商、两椭圆primitive、全部相位、同一E*的两极Cartier递推和终止balanced4F3均明确。其系数σ未unit，未与原e/K4或Λ混同；剩余十五cross及双零排除继续。

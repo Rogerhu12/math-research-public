@@ -1105,3 +1105,239 @@ $$
 也没有消去 §6 的十八个一阶 cross 配对。
 即使假设原 $e=K_4=0$，R1137 (T54) 的有界 Pell 余式仍须保留；
 (G4.50) 本身没有将其变成矛盾。本节为纯纸面证明，无数学程序执行。
+
+
+## 10. 剩余 $114$ 交叉项的实际两椭圆来源与同一 $E_*$ 归约
+
+本节只处理 §6 尚保留的三个 $114\times114$ 槽。
+它们来自另一个明确的 genus 四中间商；本节不把这个商等同于原 $Y$，
+也不把其配对系数认成原 $e$。
+所有 $p=6k-1\ge41$、$N=k-1$、$m=3k-1$ 的规范继续不变。
+
+### 10.1. 原 Fermat 曲线的实际 degree 三商
+
+在 $Z$ 中置
+$$
+r=xy,\qquad a=x^3+y^3,\qquad b=x^3-y^3.
+$$
+它们给出光滑射影正规化
+$$
+\mathcal X:\quad
+a^2=1+2r^3,\qquad b^2=1-2r^3,\qquad
+W=ab=2x^6-1.
+\tag{G4.53}
+$$
+$Z\to\mathcal X$ 是 $(x,y)\mapsto(\zeta x,\zeta^{-1}y)$ 的实际
+degree 三商，其中 $\zeta^3=1$。
+由 $x^3=(a+b)/2$、$y^3=(a-b)/2$ 和 $xy=r$，函数域的次数确为三。
+非平凡 deck 元素在 Fermat 射影曲线上没有不动点：
+其三个齐次特征值互异，而 Fermat 曲线不含坐标顶点。
+所以 $g(\mathcal X)=4$。
+这与 §9 的 degree 六商 $Z\to C_*$ 分开；
+$\mathcal X\to C_*$ 由 $(a,b)\mapsto(-a,-b)$ 给出，次数为二。
+
+两条实际椭圆商及其微分为
+$$
+E_+:\ a^2=1+2r^3,\quad \theta_+=\frac{dr}{a},
+\qquad
+E_-:\ b^2=1-2r^3,\quad \theta_-=\frac{dr}{b}.
+$$
+这里微分恰按显示式取值，不能另补或删除因子二。
+由 (G4.42)，在 $\mathcal X$ 及其向 $Z$ 的拉回中有
+$$
+\alpha=\omega_{1,1}=-\frac{dr}{ab},\qquad
+\omega_{4,1}=-\frac{\theta_++\theta_-}{2},\qquad
+\omega_{1,4}=\frac{\theta_+-\theta_-}{2},\qquad
+h_*=r\alpha=\omega_{2,2}.
+\tag{G4.54}
+$$
+这四条微分组成 $\mathcal X$ 的完整正则微分基。
+也可从 (G4.16) 直接读取：$\omega_{i,j}$ 中 $i-j\equiv0\bmod3$ 的四个字符
+恰是这四条，故没有遗漏第五条微分。
+所有拉回都是可分的，因此原 Cartier 和 $\beta$ 的读取可在此商上完成。
+
+### 10.2. 两条完整椭圆 primitive 与原交叉系数
+
+定义次数 $N$ 的多项式
+$$
+S_+(T)=\sum_{j=0}^N s_jT^j,\qquad
+s_0=1,\qquad
+\frac{s_j}{s_{j-1}}=-\frac{6j-1}{3j+1}.
+$$
+所有分子、分母在所用范围均为单位。
+两条完整有理 primitive 是
+$$
+I_+=arS_+(r^3),\qquad
+I_-=brS_+(-r^3),\qquad
+dI_+=\theta_+,\quad dI_-=\theta_-.
+\tag{G4.55}
+$$
+例如，对 $D_+=a\,d/dr$，
+$$
+D_+(arS_+(r^3))
+=(1+5T)S_+(T)+3T(1+2T)S_+'(T)=1.
+$$
+次数 $1,\ldots,N$ 的项由递推消失；
+最后次数 $N+1$ 的系数为 $(6N+5)s_N=ps_N=0$。
+在 $T\mapsto-T$ 下，同一计算给负号模型的第二式。
+所以这些是整个函数域中的 primitive，不只是低阶展开。
+
+记原交叉系数为
+$$
+\beta_Z(\omega_{4,1},\omega_{1,4})=\sigma_p\omega_{1,1}.
+$$
+(G4.54)、交替性和 (G4.55) 给
+$$
+\beta(\theta_+,\theta_-)
+=C\left(r(1+2r^3)S_+(r^3)\frac{dr}{W}\right),
+$$
+
+$$
+\boxed{\quad
+\sigma_p=-\frac12\,\mathcal L_p,\qquad
+\mathcal L_p=[r^{p-1}]\,
+r(1+2r^3)S_+(r^3)(1-4r^6)^m .
+\quad}
+\tag{G4.56}
+$$
+此处 $\mathcal L_p$ 仅是本节的多项式系数，不是有限对数。
+为核完整 Cartier 读取，先抽出 $W^{-p}$。
+分子只有 $1\bmod3$ 次幂，最高次数为 $21k-5<4p-1$。
+能被 Cartier 读取的指数 $jp-1$ 必有 $j\equiv1\bmod3$；
+所以唯一可能的指数就是 $p-1$。
+输出为 $\mathcal L_p\,dr/W=-\mathcal L_p\alpha$；
+再乘 (G4.54) 的 $1/2$ 即得 (G4.56)。
+未省略第二个可能极点，也没有用同一个 $j$-不变量替代拉回尺度。
+所有显示系数在 $\mathbf F_p$，相对版本仅将目标微分改成加撇号的微分。
+
+其余两个 $114$ 槽可连同精确相位一起给出：
+$$
+\boxed{\quad
+\beta(\omega_{1,4},\omega_{1,1})
+=(-1)^k\sigma_p\,\omega_{4,1},\qquad
+\beta(\omega_{1,1},\omega_{4,1})
+=(-1)^k\sigma_p\,\omega_{1,4}.
+\quad}
+\tag{G4.57}
+$$
+首先 $(x,y)\mapsto(y,x)$ 把 $\omega_{a,b}$ 送到 $-\omega_{b,a}$，
+故这两槽的系数相同。
+再取 $\varepsilon^6=-1$，使用实际自动同构
+$(x,y)\mapsto(x^{-1},\varepsilon y/x)$。
+它把 $\omega_{a,b}$ 送到
+$\varepsilon^b\omega_{6-a-b,b}$。
+absolute Cartier 的输入标量必须取 $p$ 次根，
+所以所求第二系数是
+$-\varepsilon^{\,1-5/p}\sigma_p=(-1)^k\sigma_p$：
+因为 $\varepsilon^{12}=1$、$p^{-1}\equiv p\bmod12$，
+且 $1-5p=6(1-5k)$。
+这一步保留了扩域相位；最终系数下降到 $\mathbf F_p$。
+由 (G4.19)，$h_*$ 与其它三基的槽全为零。
+因此 $\mathcal X$ 的完整全局 $\beta$ 为零恰等于 $\sigma_p=0$；
+这不是原 $Y$ 的 $e=0$ 判据。
+
+### 10.3. 真正下降到 §9 的同一椭圆曲线
+
+现在使用 (G4.43) 的同一映射
+$$
+z=r^{-2},\qquad w=Wr^{-3},\qquad
+E_*:\ w^2=z^3-4,\qquad
+\pi_*^*\omega_*=-dr/W.
+$$
+记复合映射 $\mathcal X\to C_*\to E_*$ 为 $\pi_{\mathcal X}$。
+置 $A(T)=(1+2T)S_+(T)$，并约定 $s_{N+1}=0$。
+对 $1\le j\le N+1$，包括最末项在内，
+$$
+A_j=s_j+2s_{j-1}=\frac{3s_{j-1}}{3j+1}.
+$$
+完整的 exact 项
+$d(I_+I_-)=I_+\theta_-+I_-\theta_+$
+使交叉 Cartier 输入可换成其反对称部分，而非只删一个多项式的偶项。
+因此
+$$
+\beta(\theta_+,\theta_-)
+=-\pi_{\mathcal X}^*
+ \left(\sum_{\ell=0}^{\lfloor N/2\rfloor}
+ A_{2\ell+1}\,
+ C_{E_*}\!\left(z^{-3\ell-2}\omega_*\right)\right),
+\qquad
+A_{2\ell+1}=\frac{3s_{2\ell}}{6\ell+4}.
+\tag{G4.58}
+$$
+这次两个源极点正是 $z=0,w=\pm2\sqrt{-1}$。
+每个输入的极阶为 $3\ell+2<p$；
+因 $\omega_*$ 在 $z=0$ 的展开只有 $z^{3j}dz$，
+这些极点都无留数。
+下面的 exact 归约将完整给出其 Cartier 输出，不遗留一个待定的全纯项。
+
+令
+$$
+\Psi_*=wz\,R_*(z^3),\qquad
+R_*(T)=\sum_{j=0}^N a_jT^j,\qquad
+a_N=-1,\qquad
+\frac{a_j}{a_{j-1}}=\frac{6j-1}{8(3j+1)}.
+$$
+对 $D_*=2w\,d/dz$ 有
+$d\Psi_*=\delta_*\omega_*$，其中 $\delta_*=-8a_0$ 是单位。
+同一规范下
+$$
+C_{E_*}(z\omega_*)=-\delta_*\omega_*.
+$$
+这里也可完全用有限系数验证符号：
+Cartier 的系数为
+$\binom{3N+2}{2N+1}(-4)^{N+1}$，
+而
+$\delta_*=8\,4^N(4/3)_N/(5/6)_N$。
+模 $p=6N+5$，
+$(5/6)_N=(-1)^NN!$，
+$(4/3)_N=(3N+2)!/(2N+2)!$；
+两系数之比恰为 $-1$。
+
+对每个实际 $\ell$，全函数域中的 exact 微分是
+$$
+d(wz^{-3\ell-1})
+=\left((1-6\ell)z^{-3\ell+1}
+       +8(3\ell+1)z^{-3\ell-2}\right)\omega_*.
+$$
+先取 $\ell=0$，再逐项递推，得到完整相对 Cartier 式
+$$
+\boxed{\quad
+C_{\rm rel}\!\left(z^{-3\ell-2}\omega_*\right)
+=\frac{\delta_*}{8}\,
+   4^{-\ell}\frac{(5/6)_\ell}{(4/3)_\ell}\,
+   \omega_*'.
+\quad}
+\tag{G4.59}
+$$
+所有分母 $3\ell+1$ 均非零，底项正是
+$d(w/z)=(z+8z^{-2})\omega_*$。
+故这个递推同时支付全纯系数和全部极点，没有仅从局部主部猜常数。
+
+代回 (G4.58)，并用
+$s_{2\ell}=4^\ell(5/6)_{2\ell}/(4/3)_{2\ell}$ 及 duplication，
+得到另一条原交叉系数的完全有限式：
+$$
+\boxed{\quad
+\sigma_p=-\frac{3\delta_*}{64}
+\sum_{\ell=0}^{\lfloor N/2\rfloor}
+ \frac{(5/12)_\ell(11/12)_\ell(5/6)_\ell}
+      {(7/6)_\ell(4/3)_\ell(5/3)_\ell}.
+\quad}
+\tag{G4.60}
+$$
+这就是上参数另有 $1$、与 $\ell!$ 抵消的 terminating balanced
+$ {}_4F_3(1)$。
+当 $p\equiv5\bmod12$ 时，上参数 $5/12$ 使它在 $N/2$ 终止；
+当 $p\equiv11\bmod12$ 时，上参数 $11/12$ 使它在 $(N-1)/2$ 终止。
+所用所有下参数与递推分母都是单位。
+这里没有从逐项单位推出整个和非零。
+
+(G4.48) 与 (G4.58)–(G4.60) 现在确实使用同一 $E_*$、同一
+$\omega_*$ 及同一原 Fermat 商：
+前者读取 $H_*^2\omega_*$ 的 $z'\omega_*'$ 系数，
+后者读取所列两极微分的 $\omega_*'$ 系数。
+这明确支付了剩余十八 cross 中的三个 $114\times114$ 槽，
+但两个输入、两个输出系数并不相同。
+本节未证明 $\sigma_p$ 或 $\Lambda_p$ 非零，
+也未把它们等同于原 $e,K_4$，或由此排除 R1137 的双缺陷。
+全部为实际函数域与有限 Cartier 指数的纸面计算，无数学程序执行。
