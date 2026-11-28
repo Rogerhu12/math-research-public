@@ -1,0 +1,63 @@
+{
+  "status": "actual_complete_same_field_lambda064_prefix_metric_certified",
+  "actual_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-resumed-20261128/summary.json",
+    "sha256": "ddd494b1ecb0d093e95670d5167546868d918a61de37bb170675e47bd9f8ef7d"
+  },
+  "actual_full_leaves": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-resumed-20261128/complete-leaves.jsonl",
+    "sha256": "6300cbeb2a33cf371a74a04c3a7f750fbe0867e8bab25eb07dbeb8c972f72b49"
+  },
+  "observed_parent_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-resumed-20261128-process.json",
+    "sha256": "46298b07ba05f56bc514305fa21534f8580a2b6a2501c9ead9c69ff6c441601a"
+  },
+  "resume_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/resume_cartesian_prefix_metric.py",
+    "sha256": "6c36a9ff8bd1be65d14477b30de9d6dc305280a675c9df08053e24b50b6f1414"
+  },
+  "resume_preparation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-resume-preparation-20261128/prepared.json",
+    "sha256": "1a43fc9bc4f4179e6f02319e0999a6c41449dcf08c456f6b27f7025bfe7041a8"
+  },
+  "original_partial_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128/actual-terminal.json",
+    "sha256": "26e9d57f59bb6193e6e5ba240e3411b158cc57192a52a90ea62921afc93892f6"
+  },
+  "inherited_original_leaves": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128/complete-leaves.jsonl",
+    "sha256": "6171046a7861ee2c815f557864004d72bad2765294643eb5d91e294ebec3894d"
+  },
+  "inherited_all_1328_lines_bitwise": true,
+  "all_1433_leaves_exact_contiguous_single_cover": true,
+  "complete_radial_range_exact": [
+    "0",
+    "3209374592944335/2251799813685248"
+  ],
+  "all_angles_and_all_phase_prefix_metric": true,
+  "actual_peak_binary64_exact": "2332209712029271/2361183241434822606848",
+  "actual_peak_display": 9.877292329976282e-07,
+  "strict_rational_upper": "98773/100000000000",
+  "original_strict_gate": "99/100000000",
+  "source_run_sha256": "05e9ad770c7f55f3738fad0f7ed5e3525cb98e1edbb40363a3a6f78b4f4d3711",
+  "same_field_R76_geometry_binding": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-20261128/same-field-geometry-binding.json",
+    "sha256": "76d768da6bf5c4823151e7dd1d4b0c753ad2c04a58dfcb59f087892e0e32e0f4"
+  },
+  "all_ten_geometry_defining_arrays_same": true,
+  "full_core_center_and_final_finite_mean": true,
+  "modes": 40,
+  "homotopy": 0.064,
+  "mean_nodes": 1936,
+  "radial_leaves": 1433,
+  "new_enclosure_attempts": 107,
+  "new_accepted_leaves": 105,
+  "new_splits": 2,
+  "seconds_for_only_unpaid_remainder": 92.33166815499862,
+  "observed_maximum_RSS_KiB": 536996,
+  "all_recorded_sources_hash_checked": 11,
+  "cut_or_tail_included": false,
+  "whole_surface": false,
+  "lambda_one_reached": false,
+  "fixed_metric_refinement_proved": false
+}

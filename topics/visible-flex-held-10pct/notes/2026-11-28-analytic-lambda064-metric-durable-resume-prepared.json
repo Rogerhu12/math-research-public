@@ -1,0 +1,69 @@
+{
+  "status": "original_metric_exit137_durable_leaf_frontier_prepared_only",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/resume_cartesian_prefix_metric.py",
+    "sha256": "6c36a9ff8bd1be65d14477b30de9d6dc305280a675c9df08053e24b50b6f1414"
+  },
+  "preparation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-resume-preparation-20261128/prepared.json",
+    "sha256": "1a43fc9bc4f4179e6f02319e0999a6c41449dcf08c456f6b27f7025bfe7041a8"
+  },
+  "actual_preparation_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-resume-preparation-20261128-process.json",
+    "sha256": "90aeb62cb1d733ba602e63ef2156849d460e07bd86cc77523a75eb509fc4523f"
+  },
+  "original_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128/actual-terminal.json",
+    "sha256": "26e9d57f59bb6193e6e5ba240e3411b158cc57192a52a90ea62921afc93892f6"
+  },
+  "original_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128/summary.json",
+    "sha256": "14e3b1736b890fbc2a378de101eb63f1155ad72926788812c9c65ff1cf38fbe5"
+  },
+  "original_leaves": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128/complete-leaves.jsonl",
+    "sha256": "6171046a7861ee2c815f557864004d72bad2765294643eb5d91e294ebec3894d"
+  },
+  "complete_durable_leaves": 1328,
+  "exact_covered_prefix": [
+    "0",
+    "2868408156789879/2251799813685248"
+  ],
+  "remaining_frontier_cells": 103,
+  "inherited_accumulated": {
+    "accepted": 1328,
+    "peak": 9.877292329976282e-07,
+    "radius_lower": 0.4511027083648171,
+    "rho_lower": 0.5199999999999991,
+    "peak_interval": [
+      0.16744554433134648,
+      0.16863310138334184
+    ],
+    "peak_details": {
+      "radius_lower": 1.0345072066582792,
+      "rho_lower": 0.7195937976663728,
+      "point_operator": 1.9257960061746306e-07,
+      "radial_first": 0.00012216855864078592,
+      "radial_second": 3.073448254732678,
+      "angular_second": 3.11183493344926,
+      "radial_taylor_upper": 8.069280076731005e-07,
+      "angular_interpolation_upper": 1.8080122532452757e-07
+    }
+  },
+  "minimum_subdivision_splits_implied_by_durable_leaves": 396,
+  "reconstructed_traversal_events": 1724,
+  "original_last_reported_counters": {
+    "accepted": 1304,
+    "splits": 396,
+    "attempts": 1700,
+    "seconds": 1516.2896142380014
+  },
+  "trailing_incomplete_fragment_bytes": 0,
+  "original_enclose_calls": 0,
+  "original_model_loaded": false,
+  "original_accepted_leaves_to_recompute": 0,
+  "full_J_assembled": false,
+  "metric_certified": false,
+  "whole_surface": false,
+  "specific_kill_cause_established": false
+}

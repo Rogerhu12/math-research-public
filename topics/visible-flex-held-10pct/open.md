@@ -12,9 +12,9 @@
 
 [原低模真实末态](notes/2026-11-28-tail-low-modes-actual-terminal.md)已达λ.002来源的M8 full-H；sample metric2.9133693236e−8、residual1.8949786217e−9，不含来源剩余16模。M8full→M16首请求收到失败包，具体字符串未知。新路线在较低幅度逐步升模或更细模式阶梯；最终必须原M24或最终λ1源的全部H，保原audit/完整J/native4/chord3及8outer。失败包checkpoint不作接受场。
 
-本次新源已通过完整M24/N512/f=.5原门和audit（[实际记录](notes/2026-11-28-tail-m24-mild-return.md)），已从其真正末次完整J生成全未知初猜直试fullH/J；半幅不是本题完整尾，原8outer和共同接缝继续待付。
+本次新879点源的[完整M24/N512/f=1原响应已返](notes/2026-11-28-tail-actual-complete-fullH.md)：1152段/55344未知、freshJ及1776项heightJ/audit齐，residual3.65238e−10。原audit normalizedFullDefect1.96429e−5如实保留，不能替代连续证书。当前正补全同一场全部有限谱、全段连续几何、原8outer及公共接缝；已有fullH并不等于完整闭图。
 
-两侧须同一完整g、真实primitive、字面源mean、完整高度非零模与零模。R12/R14已证明精确高度二jet+度量一jet的Cartesian接缝机制；实际仍须同一两jet，不能用小残差、单侧formalRR或不同mean代替。R58–R62旧λ.002场连续界、旧.25尾cell7/deep及若干stage不重铺；新场单独付连续界。本次R73已付新879点源的最终Cartesian前缀/短桥连续几何（support>.6445、norm<1.1901、K≤12.3）；R74又付同图全连续metric<99/1e8，准确三重协变覆盖全角/全相位；附尾/cut后的新图仍须自己的连续界。
+两侧须同一完整g、真实primitive、字面源mean、完整高度非零模与零模。R12/R14已证明精确高度二jet+度量一jet的Cartesian接缝机制；实际仍须同一两jet，不能用小残差、单侧formalRR或不同mean代替。R58–R62旧λ.002场连续界、旧.25尾cell7/deep及若干stage不重铺；新场单独付连续界。本次R73已付新879点源的最终Cartesian前缀/短桥连续几何（support>.6445、norm<1.1901、K≤12.3）；R74又付同图全连续metric<99/1e8，准确三重协变覆盖全角/全相位；更高真设计λ=.064/M40的R76几何与[R77同图完整连续metric](results/R77-lambda064-same-cartesian-prefix-continuous-metric.md)也已付，后者1433叶×3072扇区角格、全角/全phase严格<99/1e8；全部定义身份已核。附尾/cut后的新图仍须自己的连续界。
 
 ## 3. 同一完整问题的精化
 
