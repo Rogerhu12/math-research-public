@@ -376,3 +376,5 @@
 - **R726（已证明，球面端层与条件正根）**：[显式转向、强单调均值及球冠存在](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md) — 最短球面弧将固定b端层显式转向2tan(θ/2)换为θ；急角完整均值强单调m≥b/4且b非扩张。完整球冠余量支付存在、唯一正根、全三维逆/两角jet与跨机制扰动/位置账。新机制未运行，不继承旧凸势/校准，不推wholeK/reach；25/26机制保持各自原义。
 
 - **R727（已证明，非急角后验正根）**：[对称端层配对与完整候选残差](results/R727-symmetric-spherical-boundary-posterior-root-without-acute-cap.md) — 全层反射对称给任意θ*<π的切向m=(b/2)cos(θ*/2)>0、L=(b/2)θ*/sinθ*；球冠残差/幅度严格余量证明内部唯一正根、后验半径/位置、完整三维逆与C²参数接合。用Lη而非未证弦长界，无急角或|K|>b要求；实际全积分/角域/支归因及其他几何完成责任未付，不新增执行门。
+
+- **R728（已证明，条件反号距离恒等式）**：[两完整半波的反号、前缀位置与见证距离](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md) — 保完整球面均值/选定根，证明F±=C±Aw、全部六jet、两见证距离差4A·w·(q−C)及半径差；给两中央段符号常量与φ=π/2任意正乘子根的平面性，不借旧全局唯一。完整负首段seed已刊；高度项、全域两见证、normal/Gram/K/reach与全等仍须真实求解，不宣称新场已可行。

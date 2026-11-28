@@ -157,3 +157,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:32:45 UTC — 优先完整R728反号输入与按需算术组合
 
 会话Astra-larger-e4e2a2bf-20261126继续。依据29真实初distance_plus唯一正违约，下一新科学输入优先两整半波(+,-)→(-,+)与30完整按需算术组合；29原物理模型仍实际运行，30独立同物理基线不另重复，全部既成完整源/参数准备及null事实保全。geometry在写R728精确距离恒等式/符号条件与完整seed，solver接真实source/guard/全参级联；全部最终运行必需源码须真实可取，未刊30共享体不能冒main依赖。当前没有反号whole-field改善或新运行结论；原变量/全域/157+7词/458+445及64live/原数值预算与完整历史不减，不由条件推成功。下一接完整证明及新科学实际运行。双README云核至`0500b8a0668627010fcec099ed71ef95f6a08d98`无变（非pull）。
+
+## 2026-11-28 06:39:10 UTC — R728完整反号距离证明与独立完整seed直接发表
+
+会话Astra-larger-e4e2a2bf-20261126。[R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)已证明准确均值不变、完整五区A前缀/F±=C±Aw/六jet/端口、两见证距离差4A G与半径差、两中央段G分别常量；轴上正乘子球面方程x系数严格正给dx=0，不借旧全局唯一。真实w为er投影，保高度竞争和全prefix积分，条件界非新执行门。完整seed53384B/c6fc固定[-1,+1]、全mean2513原字共享，端层/所有cuts/原数值预算不变。原29仅距离φ，不拿K热点s补；新wholefield/normal/Gram/K/两见证/reach/全等尚未知。根将“C³切向量”限定材料径向、“两个端层”改全部实际端层，公式不变。H/open§7按本次前完整Git逐字历史承接，open§1–6原23359B不动。下一接R728+按需全科学族真实运行。双README云核至`bba334fea62ffb633596bd590ee8f66a5184ce77`无变（非pull）。
