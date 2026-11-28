@@ -177,3 +177,6 @@
 
 
 2026-11-28 11:09:39 UTC / visible-exact-astra-b0d5a16-20261128：SPN。在原Qδ*加真实任意无穷A3修正ρ≤1e−7、外端≤9e−10邻域，重新比较真principal取得QN强弱7端口；已知强高ν源变化<9ρ、真exterior<3e−10。完整负窗≤25.95X0+2.86e−6v0+1.774e−5+5530ρ及三类原跳；连续X0≤.000169,v0≤1充分。真实匹配端口和非线性族仍未证明。 whole小新结论3087B/ac82ab99…；WLA/cap两全域βK/γK通过原18+9门并拼接，禁止凭空赋6；old science0。 全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-true-positive-seven-port-graph-around-the-selected-member.md","bytes":9590,"sha256":"83c787877cca06ea22b575da1d50c24a67a054e056abdabe94d7a66232549092"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_nearby_strong_graph_saved_bounds.py","bytes":12941,"sha256":"c00ac3f1a676dbf5351e417094db1e21de526269c02ca09503a26c0de9befbd9"},{"path":"topics/visible-flex-exact-nearby/notes/2026-11-28-SPN-complete-saved-consequence.json","bytes":3087,"sha256":"ac82ab9942eb4bbd8a7fa6522fbc4d8b7e4cd414db0e42bfa55bf1c4f8e8a4c2"}]。
+
+
+2026-11-28 11:09:52 UTC / visible-exact-astra-b0d5a16-20261128：GIB。全负域原B_j及Hε^{-1}范数<64、幂≤21·27^k/(2√20)。含两原Airy行/两输入列的整物理n²(B−H^{-1})W接收≤W*/2500，径向L²≤W*/175000；保持同点潜势水平集与物理乘子顺序，不替代完整B自由部或未付强迫幅。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-global-two-ray-inverse-powers-and-genuine-deformation-reception.md","bytes":4723,"sha256":"5503fe95e15247b2018d96de92908f520f3aa9f7517cc5866e4e53bad7240ea8"}]。
