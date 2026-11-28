@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原第二中央Π2的完整raw源与实际Frobenius（已证明）**：[R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)degree8 S/U恒等式乘原Weil²构造同根correlation；原nonlinear SDR后完整BCH/ordered读数由R1168同核B_kl经实际Π2给出。isogeny额外n⁻²使V_n,2=(n⁴+n⁻¹¹)−T_n^(8)，n2的v_n,2仅含3/5/7/13；完整crossed/arith未平滑已接上，但局部B_n及最低Π4/λ仍保。
+
 - **原Gaussian首个高矩与H_p的精确身份（已证明）**：[高窗 §8](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原二次primitive与安全v^(2p)读取给G_(3p−1)=−a/(6β)单位，全部三section合并及真实Jacobian给G_(p²−4p−1)=−H_p/(2β)。这准确读取R1168的η⁴槽，H_p=0支上该槽确零；其余槽与原joint条件继续。
 
 - **原Gaussian carry与实际Ψ的函数桥（已证明）**：[两位carry §7](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整finite-beta消二扭极，锁βL=−Ψ−(x²/y)^p；换回log明确损失极点精度，只在<p²−p−1读得G_pr=G_r及指定pG_(pr+1)。原R1168指数一般不在这两类，完整sections和高pole余项保留。

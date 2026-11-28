@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-ambient-PD-comparison.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-second-central-reading.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -29,7 +29,6 @@
 [R1148 §§10–11](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)以已刊Soulé/Kurihara付p>C_cyc=exp(9^(224·9⁴))的全global H¹L3/5/9分别由原γ3/5/9生成。全部pairs=(aγ3,bγ5)，Θ与Ξ共享γ5的实际p⁵群给[M:Q]=(p−1)p⁵；共同cusp排除恰κΘ0/κΞ非零，密度1/p²。未宣loc_p单位，Bp−3/5/9局部门仍保。
 
 R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)，故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ。全部中央值ℓ>p⁸时在affine上出现；共同cusp排除素ℓ>4D_p²（充分p⁸/144）仍有同一个affine点兼容全部labels并升Qℓ，D_p=g+p(p−1)(g−1)。继续小素真实值/p-local，不能再用大Chebotarev存在代affine空。
-
 
 ### 原整 filling、算术未平滑与连续矩来源
 
@@ -61,11 +60,7 @@ R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0�
 
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
-[R1163–R1166](results.md)原完整43格的finite integral syntomic比较、E^d signed及E12 paired projectors、Poincaré coeval−1/2、同一λ∞槽和全primitive groupoid均已付。R1164第一槽Weil inverse-Miller、刚化line、chord/层间同根、SS actual frames及全PD cocycle保全；R1165–66给原ω/xω residue SDR、actual U Newton/V Hensel/p-small I、ambient geometric normal/Čech完整SDR、F/Q及ordered T h−H。不能再把这些source/模型接口列作未付。完整公式保于[本次逐字前态](open-archive-2026-11-28-before-unramified-coefficient-reading.md)及各原文。
-
-R1166 §§9–13原tame trace与全部F/Q/ordered比较已付：S_L=⊕z^jS_F，ψτ交换、N_z=eN_u；无log槽e·第0块、log槽第0块，同coset乘积保留。Tr x^[d]=0后才消theta leading；原d4/8输入V₂=−1/(z³y)，来源¼[Δ/(16y⁴)]无新根，normal与高层gauge沿原文。
-
-R1166 §§14–18已付原Steinberg整β=Li₂†+AB₀+J、全部normal carry及共同log三坏角，h_R=AB−β、Z=𝔟(A,A)−H且λ∞为正。完整有限精度/whole universal同根/固定CM整数α和[1+α]端点均沿原文与逐字前态；不得删线性carry或替换Teich形式。
+[R1155、R1162–67](results.md)原whole Bst/S3/五项/坏角、actual43格整比较、pointed Miller/全塔/SS frames、ambient/两开集residue SDR与F/Q/ordered全已付。tame trace无log槽e·第0块、log槽第0块，Tr x^[d]=0后才消theta leading；原xP=−b_E z^p(1+γp)ω−zgη及pure powers由Miller外环O/P两residue锁定。PD只读r=i−w_b、j<p，43格/二次界14/28；β=Li₂†+AB₀+J、h_R=AB−β、通用Z=𝔟(A,A)−H和λ正号保全。原高carry、固定CM整数α/[1+α]、same-coset与全部原根保留；这些source/frame接口不得重列未付，完整式沿原文/逐字前态。
 
 R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n从k+1起、J0=0及a=N_u y。最高corr完整nonlinear SDR给BCH=−R_ZJ；R1168 §§8–9已继续实读全部所需J：设B_kl=A4,k A8,l−Σ_iA′i,4,k A′i,8,l，则BCH=Σ(k−l)B_kl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换系数(k+1)/(k+l+2)。所有rank1/rank2、原根/同陪集Cor保留；不再有未定U读数，未宣单位。继续原未平滑J_n/B_n与Π2/4。
 
@@ -88,6 +83,12 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 [R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)真实LT的完整PD窗口已付：e=p²−1,g=z^e−p，唯一z^jγ_r基；全r≥p尾严格控制。适配FL基e_b权w_b及F_b=p⁻w_bφe_b时，ev p⁻iφx模p只留r=i−w_b、j<p，系数(−1)^r/r!·σ(a_bjr)ϖ^(pj)F_b；全向量零iff这些a全0。43格/二次tensor的normal界14/28，原tensor/角色χ→χp相容。raw rational dilog的同源整frame/gauge现由R1166支付，R985高carry不删；完整证明/公式沿原文及本次逐字归档。
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)原tame projector及e-block给m_jr=F_j^(r)(p)=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)；所需precision k≤i、p^(i−k+1)，滤过交R∩Fil^aS=g^aR精确。若同一适配frame，窗口阶乘消为(−1)^(i−w_b)σc_(j+(i−w_b)e)；最高实际degree28e+p−1，不能用coefficient jet12替代。同源frame已付，继续原中央实际值，不对已成Frob矩阵再施φ。
+
+### 原第二中央分量的实际完整读数
+
+[R1169](results/R1169-original-second-central-correlation-and-Frobenius.md)原Π2有完整degree8 S/U填充：Q8=R·XY(X−Y)(X²−XY+Y²)，A=f/2−Q8/28、B=Q8/42，再乘原Weil²。最高corr双线性权原样用于Π2(Uk,Ul)，actual normal q=k+l+2、J0=0；全部输入即R1168 B_kl。原isogeny中心n⁻²Sym⁸ψ⁻¹，故Zcorr=(n⁴+n⁻¹¹)Z2−ΣSym⁸ψ⁻¹Z2(E/C)；v_n,2=n⁻¹¹(n³−1)(n¹²−1)，n2对全p>37单位。实际h2=(hCorr+J_n,2+B_n,2)/v，未把算术局部值设零；Π4/λ与原F0继续。
+
+原raw第二中心及其全部matrix系数已付，不能重列为source缺口。实际未平滑仍有J_n,2/B_n,2的同源局部读取；Π4最低中心保λ∞ a4γ5，尚未由此完成。
 
 ## O1：原两 jet 的实际临界非零
 
@@ -154,7 +155,6 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 §11实际J_j=−PD−(j+2)DP保持同c点值，全部good源F_s=A^(s−2)θ^(p−1−s)G_(2s)同权(p−1)²且Hecke特征ℓ⁻ˢ+ℓ^(s−1)，不补mask。原有限Gaussian flow的偶C_s(τ)，τ=ξ²,m=(p−1)/2，Z=−η²/(12a_G)；完整差−N_Rδ(2s−1)!(Z−Z′)[τ^(m−1)]C_s/(1−(Z+Z′)τ+ZZ′τ²)。S=0、ZZ′=0和两twist全保，s2 affine仍需出现条件。全局稳定不使Gaussian jet核自动稳定。
 
 §12同权companion θ^(p+1−2s)g_(2s)=A^(p+1−2s)θg_(p+1−2s)给r_s=F_s/A^(p−1)=2θ^(s−1)g_(p+1−2s)/((2s−1)!A^s)。其SS极≤s、cusp首q单位，最高极系数含实际g_m不能当Bernoulli常数。未归一Hecke trace恰ℓ^R+ℓ^(1−R)。原两点差=N_Rδ(2s−1)!Res_(w0) r_s dlog(Y_c/Y_c′)，完整finite-log Wronskian仅在此留数删误差。全局sum_(Pα0)res =T_s(c′)−T_s(c)，T_s为全部Y根的实际r_s trace；∞已由degree排，w±1项0，其它SS留数不能删。待付同一actual-good集合的指定Gaussian余核不可能，或真实保该余核的操作。
-
 
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
