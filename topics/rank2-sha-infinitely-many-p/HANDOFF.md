@@ -6,15 +6,15 @@
 
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线或条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库；非FF立即pull --rebase、读README差异再推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h。规则15禁存可重算日志/数据/矩阵，只留脚本/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则8独立结论入results/R编号；规则12不设冻结或额外复核门。公开16/私库15：子代理显式model=gpt-6.2-astra、effort=ultra；09:47起三条线均已按此接续。
-[整理前完整H](notes/2026-11-28-handoff-before-global-frobenius-return.md)逐字保留所有旧参数、边界、回执、更正与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
+[整理前完整H](notes/2026-11-28-handoff-before-original-common-trace.md)逐字保留所有旧参数、边界、回执、更正与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:18:36 UTC实际pull --rebase，读取main eb0d6e0f7c11801e9c8588f84d4193f660d6ea37；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:18:43 UTC实际pull --rebase至45979a1378c4ff23bb7e294d38074ef338f483a1；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 10:20:30 UTC实际pull --rebase，读取main 42dd5bdd71dddddb3ad2ac0cea76bd4bf111e779；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 10:20:20 UTC实际pull --rebase至a6fa9e65592f20383ecf4d32695a479d8628e2a5；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3227/46324361B/treefa5b10e4f6ec7cd2c966fe804c3aa0cdc3c8e216；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -29,16 +29,14 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 R1052只杀原未改动whole flat与外权导数；旧full54/六线/ψ4共同F等的连续几何身份仍按[审计更正](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)条件化，普通阶乘cross不连续结论优先。全部精确费用、旧更正及归档不撤回。
 
-R1062真CM除法/finite-flat极限、Na=17全比值及specified lift付Cβ(Q)=K_a(Q)、λε=λ′；原完整字=εF2(a u)H_a(v(u)⊕Q)，H_a∈v6O[[v]]；完整Δ carry/native连接及Fermat首p+2两修正保留，不把H_a移出和。R1063–66原负type4、全Haar/period/old/fullh、inverse负二全部Gaussian/shift/PD与单位费用保持；单字、Norm纤维、首高共振非零均不代完整Hall。详见归档及open。
+R1062–66的全部原source/CM除法/Na=17规范、fullh/old/period/Haar/负二/Δ carry与连续性更正完整保于归档、open及本卷索引。原字=εF2(a u)H_a(v(u)⊕Q)，H_a∈v6O[[v]]，不移出Hall和；单字或Norm纤维非零不代全和。
 
-[R1067主证明](results/R1067-original-first-wild-rubin-even-multiplicity.md)保同ν_r的两Kato图、真实tame/wild/physical/参考17单位；ord A=2ord H。exactHall0才给Φp²/λ增量，bad独仅T⁴，不制造exact0。原域下降两矩行已自动，非新forcing。
-[同编号续证](results/R1067-original-first-wild-rubin-native-euler-continuation.md)§§16–26原A(q_ac^{du}−1)=C₀17^{−(p−1)u}(J/J₀)²及semi-linear共轭完整；localized A/T⁴所有r仍只给j₁∈p²且j₁j₂∈p⁵，同原g₁/g₂。原H_a全加法行(99)与canonical第二位跨p为实际缺口。
-
-§§27–28从同一冻结水平质量付Riccati两读数E_N/E_d：g1=a_pE_N/p，g2=(pb_pE_d−γa_pE_N)/p²。三重零保证只用d−3整窗，E_N保模p³、E_d保模p²；坏后的两槽2γX−Y及Y−γX未分别赋零。全mixed返权一A·fg及完整残数。
-§§29–30实际η⁴Θ_fΘ_g的固定权三parabolic类非零已由真实GM常数/Petersson/Stokes付；相邻p/d行仍含ζ^p与B^-2。全mixed(140)保e_m下一位、所有p·B和中项；原Hasse frame V的受迫方程及55/12首项不代目标高槽。全部ℓ/V二次混合保至p³。
-§31(RC1–12)付原34×2全部余类的Q√−17调和theta与完整周期规范。临界括号真p²整；两ray分别D(Hfg)/HWr。inert−17逐α完整Fermat差norm给H_d=68DΘ+68^pD^pΘ−p²Ξ，c_N真含1p；异权q同余仍不能在H(P)=0处免费除p取值。
-
-**§32(F1–F16)新付实际Frobenius返回。**物理族整晶体矩阵W=M⁻¹CM(t^p)，C=[[0,u],[-p/u,0]]，两归一底行U=A、V=B/t在原p−2窗准确；首列除p的精度费保留。完整h=fg/f²配同一固定权三截面的两Serre类；真实微分迹回(-uL_p,pL_d/u)，第二输出不免费除p。原E16上C(ds/H²)=ds^(p)，唯一p基原函数Q_p给L_p/L_d的完整h·Cartier核，非另一个F0。真实S=W22、G=W21/p在所缩étale代数图模任意p^m均代数，d(G/S)=−ds/S²+t^(p−1)J(t^p)(1+p²a(t^p)(G/S)²)dt。δ_R=(R^p−φ*R)/p整且保全部mixed；EN须δ到p²和−p²δ²/8，Ed须δ到p，F16为同完整h的准确全局trace。没有从固定类非零或Frob行可逆偷换canonical无穷p非零；继续原f共同分子的一阶trace及真实高位。
+[R1067主证明](results/R1067-original-first-wild-rubin-even-multiplicity.md)保原两Kato图/ν_r/中心/physical与参考单位；ord A=2ord H。exactHall0才给Φp²和λ增量，bad独T⁴。原域下降已自动，不重复加forcing。
+[同编号续证](results/R1067-original-first-wild-rubin-native-euler-continuation.md)§§16–26完整native及localized仍只回j₁∈p²、j₁j₂∈p⁵；原H_a全加法行与canonical第二位跨p为实缺口。
+§§27–30同一冻结水平质量的Riccati E_N/E_d给g1=a_pE_N/p、g2=(pb_pE_d−γa_pE_N)/p²；完整三重零只读p−2窗，E_N须三位、E_d两位。两位2γX−Y及Y−γX不分别赋零。原固定权三类非零、全mixed/Bockstein/Hasse frame的整精度与55/12首项均已付，仍不推目标高槽。
+§31原完整68余类/RC真p²整、Q√−17两ray和全Fermat差norm付三位q源；异权q同余在H(P)=0处不能免费取值。
+§32(F1–F16)用物理整晶体W=M⁻¹CM(t^p)归一两底行U=A,V=B/t，保首列除p费用。原h的Serre类/真实trace回(-uL_p,pL_d/u)；E16上Cartier(ds/H²)=ds^(p)及Q_p付完整全局首层。S=W22,G=W21/p的真实微分和δ_R=(R^p−φ*R)/p付全局两/三位代数核；EN保δ²，Ed保δ，F16完整h准确返回。
+**§§33–34(G1–G10)原f本身的同一一阶迹现已付。**固定分歧二盖z²=t直接提升Z=z^p，全水平覆盖及实际多项式平方根窗保原f。单trace一阶恰kγa_pE_N−pb_pE_d,k=1,2，不经fg反推。原B/t在p=12m+e的同一超几何，e=5/11短前缀后全尾恰p²；Ed两位可删，EN三位须保−3p²I_p/2。原共同第二位准确校正−3a_p I_p/γ，前缀及尾未分别赋非零。下一把该全尾作为固定受迫GM来源及完整cusp边界消费，仍保实际f。
 
 ## O7 同一原点与边界的新整模型
 

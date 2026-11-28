@@ -226,3 +226,11 @@ R1070已实际推96bfa0133246ba54360fd5c47236672dc8737397；一次非FF后立即
 推送前实际本地双pull（本次发布第6次）：公开2026-11-28 10:18:13 UTC到3ea24240a2d528ab4e71a6c0c5ce7fcd5782a76c，私库2026-11-28 10:18:20 UTC到fee0fb75f66ddbb2aaf99c0f601bdf873c30ce03；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。
 
 推送前实际本地双pull（本次发布第7次）：公开2026-11-28 10:18:36 UTC到eb0d6e0f7c11801e9c8588f84d4193f660d6ea37，私库2026-11-28 10:18:43 UTC到45979a1378c4ff23bb7e294d38074ef338f483a1；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。
+
+### 2026-11-28 10:19 UTC：R1067 原f的完整一阶trace及第三位尾
+
+root逐式手核central_ultra(G1)–(G10)：固定二盖自身smooth Frobenius不误当étale拉回，随后完整水平覆盖才作étale提升；两多项式根窗、奇偶性、projection formula准确给同原f的两分子。超几何初值/Euler变换及唯一p因子给全p²尾，EN/Ed的不同精度和完整前缀均保，修两处TeX漏斜线。没有数学执行。HANDOFF近10KB，当前9617B逐字归档后压缩旧细式为精确索引，全部旧范围仍有效。
+
+R1071已实际推43aa0f78e8c495e74fa84e16aaed8c5a661b4fa9，六次非FF均立即实际双pull/rebase后再推，第七次成功；四README无变化。后续双pull先私后公以缩短公开pull至push之间的并发窗口，两库实际拉取、四README检查及每次非FF循环不变。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:20:30 UTC到42dd5bdd71dddddb3ad2ac0cea76bd4bf111e779，私库2026-11-28 10:20:20 UTC到a6fa9e65592f20383ecf4d32695a479d8628e2a5；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3227/46324361B/treefa5b10e4f6ec7cd2c966fe804c3aa0cdc3c8e216，无>5MB。
