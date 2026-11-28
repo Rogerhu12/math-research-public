@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GLW：真实终端列的有符号Laurent与原物理频移接收](results/R149-supplement-signed-Laurent-terminal-column-and-physical-shift-reception.md)：同112原件新16闭径向格/全97..2^20输入，在±128有向Laurent系数与完整1/512条余上计算真Ai/Bi终端两列，保右根剪切、两sign、所有物理输出与均值。固定移位对全输入先max，再和；近输出用完整HS正尾、远输出Schur，原J/2039/.719/Ni各一次，97..1023另存原自然单列。26pins/四源AST核，首次公开workflow待实际。
+
 - [GIV：原无穷整源两Airy行共同18/25改进](results/R149-supplement-actual-sharpened-infinite-source-from-both-Airy-root-values.md)：正Laplace与两个根值精确证明全两行幅共同<18/25；GIC原四格每项同乘且开平方合后仍只乘一次。原实际整无穷D<.0661300、自然腰<.378708、公共C97<4.6960、ASQ<.38553，10新Fraction全过，0旧格重算；完整局部之外仍待。
 
 - [ASQ24：真实Sobolev相位选择及规范光滑族](results/R149-supplement-physical-Sobolev-rotation-selection-and-normalized-smooth-family.md)：在原|δ*+k|<1e−10内，|k|≤6e−12，实际实态差E≤5e−14给唯一|k|≤114E；整regular路径斜率≤.005且E(0)≤2e−14给唯一|k|≤260E(0)。原R31 7whole和40新有理比较一次保，真实twist>.048、路径>.021；Yoccoz/Benhenda及真差商给规范C2连续和smooth参数。实际regular路径/强范数/值与tame仍须付。

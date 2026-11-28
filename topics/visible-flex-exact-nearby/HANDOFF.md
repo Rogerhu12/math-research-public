@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 12:41:39 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 12:48:49 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至a89c003a3a535e16976d7d7bed0a005de853ca45；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至926f12ff7af74e935a3c8d2a08a2288594ecb142（11:52:18 UTC pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至4e7c32d3af61136a65750e9761e3ab08b73b00fd；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至3405429418c5f6d4380e71e64ee8057b0d6b8539（12:46:56 UTC pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META14新200未引用legacy JSON只删字符串外空白，净1213006B，原19f16ba8e6/receipt94830B SHA ad194569…保完整literal与身份；META1–13原receipt全保且禁重。每pull核所有new hash及changed/untracked引用，继承完整reference scan。
 
@@ -18,12 +18,12 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 
 ## 当前实际执行与失败
 
-- 新GDC46144819361/1 event1a91ec19410f…于12:28:20开始；ASQ23负侧signed腰值46144609049/1 event35c012f749d8…于12:25:45开始。两实际运行，完整新目标待。
+- 新GDC46144819361/1 event1a91ec19410f…于12:28:20开始；ASQ23负侧signed腰值46144609049/1 event35c012f749d8…于12:25:45开始。12:46两实际仍运行，完整新目标待。
 
 - GG46135063788/1（event60016291d42e）11:46:57真实failure；原81恢复后新left81格完成，第82格strict centred Grassmann denominator失败，right/source/2whole目标均0；完整actual61622B/183e1b22…、execution68240B/f3de409e…与89packet/81scalar journal保；真实245matrix/36669520B index9fd5ef…、82frame/12283518B indexbb0c8719…和89packet/185822772B indexa64b3428…均有完整恢复SHA，GDC在原centres上作新有向cocycle。新193维Householder joint-2、1424全节点/97与96边界/两mean/四source共方差。98current/21history与原81三whole SHA核过，4单线程workers。此前三个科学前失败及所有载体/规则修复身份完整保在[GRQ首发前H](https://github.com/Rogerhu12/math-research-public/blob/7445e773c297c47168b2f2e26832121a55718ff2/topics/visible-flex-exact-nearby/HANDOFF.md)；0旧目标重算，原CPU/容量/whole SHA门保，尚无2/2成功。
 
-- TC46117170011/1：11:16:03真实failure，父child−9因新README#16门；原whole终态3612/7724 accepted、连续1952，完整matrix仍唯一成功。TCF只补严格4112缺格，18互斥×最多6并行，原96列/四whole数组/全部源窗不变。实际TCF46140528952/1：12:25 API assignment5 success、4在CPU门science0失败、6进行/10排队，全部终态后仅补真缺格。
-- H96原46123190757/1于09:54:03因新README#16实际中断child−9，完整728/2847格与全部96 signed积分/adjoint费已按原SHA公开。H96R只续[728,2847)，123whole/51history、原三类载体同SHA/真实父terminal/独立consumed绑定，7final targets尚0；接续run46135898111/1于10:35:26开始，12:25仍实际进行；真成功后PWAH96R立即接收。
+- TC46117170011/1：11:16:03真实failure，父child−9因新README#16门；原whole终态3612/7724 accepted、连续1952，完整matrix仍唯一成功。TCF只补严格4112缺格，18互斥×最多6并行，原96列/四whole数组/全部源窗不变。实际TCF46140528952/1：12:46 API assignment2/5/6 success、4在CPU门science0失败、6进行/8排队，全部终态后仅补真缺格。
+- H96原46123190757/1于09:54:03因新README#16实际中断child−9，完整728/2847格与全部96 signed积分/adjoint费已按原SHA公开。H96R只续[728,2847)，123whole/51history、原三类载体同SHA/真实父terminal/独立consumed绑定，7final targets尚0；接续run46135898111/1于10:35:26开始，12:46仍实际进行；真成功后PWAH96R立即接收。
 
 - DCP18 run46124617641/1全18已实际成功，322whole/原validator/原admit_complete_inputs全部通过；actual26046B/2f90550a…、execution30740B/5ceba0c5…；完整应用见ADCP，旧science0。
 - TF46120139018/1于08:31:39真实failure，数学4669.906695433s非timeout。left0..80通过，index81在4→8→16→32→64 cuts仍failed；right/node/maps与两whole目标均未成，不推真实奇异。actual57359B/5f1b15db…、execution63045B/2dbb23e3…，86输入/完整ledger核过。原314059632B packed、4955126B canonical、842453B gzip三whole SHA必要恢复合同已推a4ee9d41e但未执行；不能凭指数续算。新正交Householder联合球图表另推进，保193/97/full source，具体见TF诊断note。
@@ -37,11 +37,11 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 
 ## 真实成功与已付组件
 
-全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/18a4d39be1e73f6a249fe6c20cc51cd4ab8c486c/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
+全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/7ff92f2cc81a59b1e8a0eeedf057de71031d7cc0/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
 
 - GDG全负域新deformed determinant已证：利用原whole piecewise根半径1/50的1300rows/1079seams与ω沿common drift正增，势支撑严格落此真实域；ΔV/D>1−1e−7、全[0,r*] ΔV>1/720，root B entrysum<21/10、whole B−Hinv<1/70000。18新Fraction一次全过，8whole原件/原success bindings核过；oldscience/恢复0。proof及reader已登记，非全received high响应。
 
-- GIV：原GIC同一整无穷源以两Airy行共同18/25解析收紧，C97<4.6960/ASQ<.38553；10新精确比较根核，未复算旧四格，有限带和全域余项待。
+- GLW：完整真终端有向Laurent/频移接收首次入口已推；16径向格与全97..2^20、两列/两sign/全余及97..1023单列同算；26pins全文核，实际待。GLC/GIC原结果未改，非局部/均值/正端仍待。
 
 ## 后继和完整尾部义务
 
