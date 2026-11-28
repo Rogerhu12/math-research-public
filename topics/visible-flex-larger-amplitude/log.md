@@ -590,3 +590,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:14:27 UTC — 26首个完整试步拒绝与半步统计
 
 26首7722d完整几何g11.693809750211372/最大族reach并拒；当前仍初7e06 accepted0/g.13346402986277572。adf3c9 alpha.5仅统计Phi603.8744855612043/Gram.41767252591822757，无新几何。 不以最大违约补未返回trial细项，不以新试点开始冒接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`52ddaec592d6e09c078bd579aa0dcaba9dff20ca`无变（非pull）。
+
+## 2026-11-28 05:14:33 UTC — 27首个完整试步拒绝与半步开始
+
+27首16dfec完整g.7022992022145564/最大reach并拒；当前初7e06 accepted0/g.701239028437362。a7ff7c alpha.5刚开始，统计/几何未知。 不以最大违约补未返回trial细项，不以新试点开始冒接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`942719ef351c1157875a7f653f9f1cdb260c175c`无变（非pull）。
