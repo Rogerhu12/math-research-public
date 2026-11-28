@@ -336,4 +336,8 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 
 ## 2026-11-28 08:34:23 UTC — 28原runner读取完整既有scalar metadata
 
-28原science/pure均0且官方job仍in_progress，完整源码与单只读queue原ID同步刊。用原maker完整read_preparation读取既有完整输入report，输出完整FullHold S/origin/initial_law与来源；不做新积分/F/J/normal/求解，不把原FullHold R冒R690 R。完整14参数词、原report whole绑定、实际源及原pure历史身份保[28完整note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。尚无新读出结果；为R730补实际长度条件，不设科学准入门。 双README云核至`b217b6991590203291572dfd646ade2861fd5ec9`无变（非pull）。
+28原science/pure均0且官方job仍in_progress，完整源码与单只读queue原ID同步刊。用原maker完整read_preparation读取既有完整输入report，输出完整FullHold S/origin/initial_law与来源；不做新积分/F/J/normal/求解，不把原FullHold R冒R690 R。完整12参数词、原report whole绑定、实际源及原pure历史身份保[28完整note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。尚无新读出结果；为R730补实际长度条件，不设科学准入门。 双README云核至`b217b6991590203291572dfd646ade2861fd5ec9`无变（非pull）。
+
+## 2026-11-28 08:35:13 UTC — RET85：15–18九份终态笔记完整保留原叙述与真实异常
+
+[RET85完整交付及64块对应表](computations/terminal-run15-18-narrative-retention-85-complete-delivery.json)保九份终态人写笔记全部非JSON原字，包括数值表、公式、三份真实traceback、来源/参数、失败因果和时间顺序；重复嵌入对象改为固定1b64c4a7e8b3c09ae6231fdd604659ca492f3ae4完整旧文精确引用，原whole/逐块身份及完整逆文本构造均保。原495247B→177969B，加构造器19662和总表42240，净回收255376B（不含日志）。九路径继续存在，科学source/参数/raw和三个19/21独立终态证据原字不动。前条metadata读出命令实际是12参数词，已按完整队列纠正文字计数，队列/源未改。 双README云核至`8b7513934e6ca212fa6dce00c8efed46acdaed09`无变（非pull）。
