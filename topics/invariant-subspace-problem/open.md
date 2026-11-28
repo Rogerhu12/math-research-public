@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-corrected-hk-physical-cofactors-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-F12-whole-fields-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k正确五行/三物理条件](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)：f33真3.386197837秒/0，完整三cofactor/212整除；Z39=−4B⁴bcδ和347c λ半物理排除付三必要F。仅ABQδPf，保Δ0及其它未付零；旧Q6/235170/u2不沿用，完整原单点值和物理列继续。
+[h=k正确五行/三物理条件](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)：f33真3.386197837秒/0，完整三cofactor/212整除；Z39=−4B⁴bcδ和347c λ半物理排除付三必要F。仅ABQδPf，保Δ0及其它未付零；旧Q6/235170/u2不沿用，旧848/578/整Δ0已依赖补撤，C_i直接原条件返回保；完整原值继续。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W原D覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)权长≤51402/规范≤616824含重数；1616Popov冻。[整Lhalf](results/R150-appendix-unit211-W-entire-Lhalf-complete-original-exclusion.md)五F101全原七行/D返回闭，当前图付L/2ell−1，13原单位追到真vm。[整t0/V2zero](results/R150-appendix-unit211-W-t-zero-mean-branches-and-V2-zero-complete-original-exclusion.md)真Gram0.565秒/两列Bézout2208闭；余f=u/V2非零唯一w及F7权曲线。首次d8eb三同点N1/NS/PS固定e投影180秒/4GiB，保完整头零；全W仍开。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)规范≤616824；1616Popov冻，整Lhalf闭。[t0/V2zero](results/R150-appendix-unit211-W-t-zero-mean-branches-and-V2-zero-complete-original-exclusion.md)原两列Bézout2208闭。[t0余F12](results/R150-appendix-unit211-W-t-zero-original-F12-complete-parameter-cover.md)完整三固定e投影给两个二次的2/4重数，权≤28不同点/必要长≤84，未排空。首派fe702两整QQ域原e/Bézout及实际paid幂目标，180秒/4GiB，只再生原行前缀；幂零全留。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 

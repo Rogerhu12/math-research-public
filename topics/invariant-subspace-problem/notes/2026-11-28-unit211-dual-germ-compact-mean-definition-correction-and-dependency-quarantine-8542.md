@@ -145,3 +145,15 @@ $$
 L0 完整覆盖源 blob `64fbf4c19e5d20377e46bc52c023a915f36e5c24` 与 S0/Lt0 低不变量源 blob `1363e56ca7367ea990fadffbaff5f27f7c497f4a` 已静态读到正确 `vm(d,d)`；这确认原输入定义，不替尚未追完的全部后继来源背书。其它 Phi、等单值紧凑三列及全部派生单位继续按确切依赖分类，未确认独立来源之前不得沿用受影响的闭合标签。
 
 下一步从上节真正的 $\overline R_{\mathrm{true}}$ 和完整原 Gram 重建小头与原关系。旧 first-head 单位、旧三生成元、583/H42/$C_5^*$ 不得作为该新来源的假设。该更正本身没有完成 ISP，也没有完成 unit211 的排空。
+
+## 6. h=k、Delta=0 的续查补正
+
+继续追踪原消费者，明确补正以下三页：
+
+- [R150-appendix-unit211-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover](../results/R150-appendix-unit211-equal-singleton-Delta-zero-two-QQ-curves-848-base-cover.md)：本页第二条曲线 M 使用错误 compact R2 的 RWO cofactor，原必要性和 848 基点界撤回。独立 Delta/Tnum 相容及其投影只能按自身原范围保留；不能用旧 M 支付有限性。
+- [R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover](../results/R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)：本页 578 次/80 界/七个 lambda 的完整覆盖使用错误 compact R2 的 RWO、RWN1 cofactor，原覆盖与计数撤回。定义矩阵、准确运行和因式记录保留，不再支持整个原 Delta=0 的候选表。
+- [R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion](../results/R150-appendix-unit211-equal-singleton-entire-Delta-zero-exclusion.md)：本页整个 Delta=0 排除依赖已撤回的 578 次/七个 lambda 覆盖，因此全支排除撤回。固定 C1、C2、C4 条件下直接来自正确 Gram 的返回只按各自条件保留；不能合成全 Delta=0 排空。
+
+这条依赖确为旧 compact RWO/RWN1，不能因最后固定常数域使用了正确 vm 就补回缺失的全参数覆盖。当前 h=k 的整个 Delta=0 仍保留；直接原 Delta/Tnum 与已经逐个完成的条件纤维不重做。新[正确五原行和三物理条件](../results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)没有倒 Delta，可继续作为新输入。
+
+已独立重读前会话 S0 等值 lambda-half 的正文与 blob 0f6fbabe15135c7408a8649fad551eab9b80039a，原 vm 和第五列物理秩证明正确，故这一物理点排除直接保留。它不提供裸多项式单位证书。
