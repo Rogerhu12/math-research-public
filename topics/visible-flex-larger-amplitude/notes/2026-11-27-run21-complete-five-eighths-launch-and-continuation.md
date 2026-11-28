@@ -1559,3 +1559,85 @@ maker步骤真实returncode=0，总6.160448841999994秒，实际source bce727d65
   }
 ]
 ```
+
+## 2026-11-28 03:46:04 UTC — 21第四真实拒绝与下一统计
+
+实际索引03:38:37Z。上一5f731a046420ae60f207f8e6ff55b7aa0f8b84552f7b3a6ac9c80baa9a67bdc9真实几何g2.541913991322188、accepted=false；其Phi3233.3855480813995/Gram.6568825764431082原值保。下一379965d33e179e8babd5b6c11967331c4564723f4f48ae0d29c8ea8b7a93b579于03:31:30.349401仅统计返回，Phi3233.3855485375534/Gram.6568825760949264；几何与接受未知，原三项NoneType缺值不补0。初7e06/accepted0/g2.541916739245917不变。完整报告未返，不由g小幅变化推方向号、可行或转移历史。
+
+```json
+{
+  "mathematical": {
+    "math_at": "2026-11-28T03:31:30.349401+00:00",
+    "math_event": "trial-statistics-returned",
+    "math_driver": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+    "math_model": "9387a145b382e2afc2eaca4f68f7370b91697008e0720e1d8202d22bf878fd63",
+    "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+    "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+    "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "initial_Phi": 3233.3855489912225,
+    "initial_Gram": 0.6568825757487662,
+    "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "initial_violation": 2.541916739245917,
+    "initial_geometry_complete": true,
+    "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "current_Phi": 3233.3855489912225,
+    "current_Gram": 0.6568825757487662,
+    "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+    "current_violation": 2.541916739245917,
+    "current_geometry_complete": true,
+    "current_state": "initial statistics returned; no accepted direction",
+    "trial_point": "379965d33e179e8babd5b6c11967331c4564723f4f48ae0d29c8ea8b7a93b579",
+    "trial_Phi": 3233.3855485375534,
+    "trial_Gram": 0.6568825760949264,
+    "trial_accepted": null,
+    "accepted_directions": 0,
+    "complete_report": false,
+    "stop_reason": null,
+    "observer_failures": 0,
+    "current_g_reach": 2.541916739245917,
+    "current_g_body_diameter": -0.036200119916736107,
+    "current_g_distance_plus": -0.05389631415885021,
+    "current_g_distance_minus": -3.0936337267043594,
+    "current_g_cap_diameter": -0.06715131487906445,
+    "current_g_height_floor": -1.0411715967426867,
+    "previous_completed_trial_point": "5f731a046420ae60f207f8e6ff55b7aa0f8b84552f7b3a6ac9c80baa9a67bdc9",
+    "previous_completed_trial_g": 2.541913991322188,
+    "previous_completed_trial_accepted": false,
+    "previous_completed_trial_maximum_families": "reach",
+    "previous_completed_trial_Phi": 3233.3855480813995,
+    "previous_completed_trial_Gram": 0.6568825764431082
+  },
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ]
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46084442413-1.md",
+    "bytes": 57855,
+    "sha256": "ac343fae000fad1033f51de38e644471c865571ac0c5e1a80035c7543b033c02",
+    "git_blob_sha": "c80cf143270119864181c6170899eaf2d98da837",
+    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

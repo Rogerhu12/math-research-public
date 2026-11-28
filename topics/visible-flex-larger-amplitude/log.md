@@ -418,3 +418,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:45:47 UTC — 20第三真实恢复接受及六族
 
 20实际e70a第三接受，Phi3824.9508918379306/Gram.6460501386747761/reach.9658357818598327、distplus.005867170745044947仍正。六族与03:41:07原数学对象/03:42:35索引全保，report未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`d854e9c2fbe289e9353e354fcfcbab162d2d8d69`无变（非pull）。
+
+## 2026-11-28 03:46:04 UTC — 21第四真实拒绝与下一统计
+
+21上一5f731真实g2.541913991322188拒绝；下一379965只返Phi3233.3855485375534/Gram.6568825760949264，几何未知；当前仍初7e06/accepted0/g2.541916739245917。原三项缺值保。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`34b75a46de17eeb6cfdc3ebe99c3137b404fb9d5`无变（非pull）。
