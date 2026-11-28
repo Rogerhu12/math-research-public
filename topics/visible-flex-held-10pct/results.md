@@ -223,3 +223,5 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R85. 原完整Robin到真实DN与固定g的精确更新
 
 [完整证明](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)。明确64191维原系统的全部末端行/高度列，真实DN为rank≤24更新；同点同gauge/chart的fixed-g列替换合成25维块与χN修正。原8outer非线性剩余有准确全向量公式；旧点J只作frozen chord，所有新小块和方向未实测，不宣称BVP或完成。
+
+R85补充：[原完整回代误差及小块验证](results/R85-supplement-complete-residual-and-small-block-validation.md)给准确残差rz−RV·G·h−UG·rS、逐列放大预算和24/25维literal小矩阵逆合同；真微分DN误差半径仍欠。[冷完整CSR响应入口](notes/2026-11-28-analytic-complete-terminal-response-basis-entry.md)只准备，无加载/J/尾/新方向。

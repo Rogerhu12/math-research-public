@@ -6,11 +6,11 @@
 
 原 `db6f-prefix-coupled.py::TailMixin.terminal/bc_jac` 使用
 
-$
+$$
  H=\sigma q_gY_z(1),\qquad
  T_N=W^{-1}\{q_g f_z-P(H)/\sqrt{E_c}\}.
 \tag{1}
-$
+$$
 
 这里 $P(H)$ 是同一个真实有限尾的全部 M 个非均值 slope，$W=\operatorname{diag}(\mathrm{bcweights})$。原全部 $(3M+2)M$ 个 heightJetJacobian 条目仍由真实请求返回；终端 BC 只读取其中前 M 行 $L=D_HP$，这不授权删掉其余两jet/mean 行或 audit。
 
@@ -31,34 +31,34 @@ $Z=(\operatorname{vec}_F Y,p)\in\mathbb R^N$，$N=nK+M$。
 
 令 $U:\mathbb R^M\to\mathbb R^N$ 把向量注入最后 M 条终端行；令
 
-$
+$$
  C Z=\sigma q_gY_z(1).
-$
+$$
 
 C 只取最后一个节点的全部 M 个高度分量，对所有参数列恒为零。它不是投影到首模，也没有省去其余状态。
 
 原线性 Robin 残差记为 $F_L(Z)$，其终端为
 $W^{-1}(q_g f_z-DH/\sqrt{E_c})$。定义
 
-$
+$$
  g(H)=-\frac1{\sqrt{E_c}}W^{-1}\{P(H)-DH\},\qquad
  G(H)=-\frac1{\sqrt{E_c}}W^{-1}\{L(H)-D\}.
 \tag{2}
-$
+$$
 
 因为两问题的完整内部方程和入口完全相同，直接相减得
 
-$
+$$
  \boxed{F_N(Z)=F_L(Z)+U g(CZ).}
 \tag{3}
-$
+$$
 
 因此，同点导数满足
 
-$
+$$
  \boxed{J_N(Z)=J_L(Z)+U G(CZ)C.}
 \tag{4}
-$
+$$
 
 这是当前原系统 rank 至多 M 的更新。所有 $\delta$ 对完整场、moving chart、core lift 的影响仍在 $J_L$ 的原参数列中。
 
@@ -70,21 +70,21 @@ $
 
 假设同点完整 $J_L$ 可逆，设
 
-$
+$$
  V=J_L^{-1}U,\qquad A=CV,\qquad S=I_M+AG.
 \tag{5}
-$
+$$
 
 则 $J_N$ 可逆当且仅当 S 可逆，且
 $\det J_N/\det J_L=\det S$。
 
 给定任意完整右端 b，先作一次原完整解 $z=J_L^{-1}b$，再解
 
-$
+$$
  h=S^{-1}Cz,\qquad
  \boxed{\Delta Z=z-VGh.}
 \tag{6}
-$
+$$
 
 证明：由 $(I+AG)h=Cz$ 得 $C\Delta Z=Cz-AGh=h$；再代回
 $J_L\Delta Z+UGC\Delta Z=b-UGh+UGh=b$。
@@ -92,20 +92,20 @@ $J_L\Delta Z+UGC\Delta Z=b-UGh+UGh=b$。
 
 Newton 右端必须是 $b=-F_N(Z)$。即使原 source 已接受，也不能省掉 $F_L(Z)$ 的全部非零残差。写 $z_L=-J_L^{-1}F_L(Z)$，则
 
-$
+$$
  h=(I+AG)^{-1}\{Cz_L-A g(H)\},\qquad
  \Delta Z=z_L-V\{g(H)+Gh\}.
 \tag{7}
-$
+$$
 
 这给首个全 DN 方向的全部 Y、$\delta$ 及所有 support 参数，未冻结其中任何一项。
 
 V 可以一次逐列算出；M24 时有 1,540,584 个 binary64，12,324,672 字节。这个数只计算 V 本身，不包括原矩阵、完整因子、求解工作区或 native 尾。后续在同一冻结基逆上的端口切线变化只改变 G 和 M 维小块；不需重新组装大矩阵。不过每次仍必须回算完整原矩阵残差
 
-$
+$$
  J_L\Delta Z+UGC\Delta Z-b
 \tag{8}
-$
+$$
 
 并检查原非线性残差与域，不能用小块残差代替。
 
@@ -113,10 +113,10 @@ $
 
 若现成矩阵 $J_0$ 来自另一个真实点 $Z_0$，而当前 packet 在 H=CZ，则
 
-$
+$$
  B_0=J_0+U G(H)C
 \tag{9}
-$
+$$
 
 仍能用 (5)--(8) 精确求解这个**声明的矩阵**，但它一般不是当前点的完整 Newton 导数。当前 Jacobian 与它的差是内部/入口/线性端口原导数差 $J_L(Z)-J_0$，以及原数值导数误差；这些不会因低秩更新而消失。
 
@@ -132,54 +132,54 @@ $
 现在另加更强的同点合同：固定 g 模型逐字保留原 gauge、实际 chart、所有高支撑物理列、mean 与完整 core lift；只把原加性 $\delta$ 未知替为
 $\eta=\log(q_a/q_{\rm seed})$。在匹配的两个切空间中，令 e 为原第一个参数坐标向量，$v_\delta=J_Le$，$v_q=\partial_\eta F_L$ 为完整新列。由于 gauge $q_g$ 固定，且 cut 高度是 (1) 的原表示，
 
-$
+$$
  Ce=0,\qquad \partial_\eta H\big|_{Y,p_{j>0}}=0.
 \tag{10}
-$
+$$
 
 这只是直接偏导；解分支上的 H 当然可以通过 Y 改变。由第1节，G 本身没有额外的直接 $\eta$ 或 $\delta$ 物理尾项。因此真 DN 后的固定 g 矩阵为
 
-$
+$$
  J_{q,N}=J_L+UGC+(v_q-v_\delta)e^{\mathsf T}.
 \tag{11}
-$
+$$
 
 令 $w=J_L^{-1}v_q$。将 (11) 写成两个块的低秩更新，得到准确的 $(M+1)$ 维矩阵
 
-$
+$$
  \boxed{\mathcal S=
  \begin{pmatrix}
  I_M+GA & GCw\\
  e^{\mathsf T}V & e^{\mathsf T}w
  \end{pmatrix}.}
 \tag{12}
-$
+$$
 
 确实 $J_L^{-1}(v_q-v_\delta)=w-e$，而 $Ce=0$；右下角是
 $1+e^{\mathsf T}(w-e)=e^{\mathsf T}w$，没有漏掉常数项。给定完整 $J_L$ 可逆，$J_{q,N}$ 可逆当且仅当 $\mathcal S$ 可逆，行列式之比也为 $\det\mathcal S$。在 M24 它是25维，不是只保留一个首模的近似。
 
 若第3节 S 可逆，可先更新真 DN，再换列。设
 
-$
+$$
  w_N=w-VG(I+AG)^{-1}Cw.
-$
+$$
 
 那么真 DN 后的准确 fixed-g 兼容标量是
 
-$
+$$
  \boxed{\chi_N=e^{\mathsf T}w_N
  =\chi_L-e^{\mathsf T}VG(I+AG)^{-1}Cw,\qquad
  \chi_L=e^{\mathsf T}w.}
 \tag{13}
-$
+$$
 
 并有
 
-$
+$$
  \frac{\det J_{q,N}}{\det J_N}=\chi_N,\qquad
  \frac{\det J_{q,N}}{\det J_L}=\det(I+AG)\chi_N.
 \tag{14}
-$
+$$
 
 这是此前原 Robin $\delta/\log q$ 标量的完整 DN 修正。已登记的
 $\chi_L\approx2.4696192160526124\cdot10^{-5}$ 仅是旧真实 Robin 点上的数值观测，不是本条新的 $\chi_N$，也不是区间逆证明。没有实际计算 (13) 的修正前，不能从旧非零数值推出 fixed-g 真 DN 可逆。
@@ -187,12 +187,12 @@ $\chi_L\approx2.4696192160526124\cdot10^{-5}$ 仅是旧真实 Robin 点上的数
 同一更新也能给固定 g 的 $\lambda$ 切线。若完整 $v_\lambda=\partial_\lambda F$ 的 cut 直接项确实为零，并且
 $z_{\lambda,N}=-J_N^{-1}v_\lambda$，则
 
-$
+$$
  z_{\lambda,q,N}
  =z_{\lambda,N}
  -(w_N-e)\frac{e^{\mathsf T}z_{\lambda,N}}{\chi_N}.
 \tag{15}
-$
+$$
 
 代入 (11) 即证。输出第一个参数分量现在是 $\dot\eta$，不是物理 $\dot\delta$；g 仍固定。此式不能在 $\chi_N=0$ 时使用，也不保证该切线能越过原曲率/域门或连续到 $\lambda=1$。
 
@@ -201,22 +201,22 @@ $
 原 `AffineTailForInnerBVP` 在 H0 使用
 $P_{\rm aff}(H)=P(H_0)+L(H_0)(H-H_0)$，只供内步。设原内步实际返回 Z1，H1=CZ1，记其完整仿射残差为 $F_{\rm aff}(Z_1)$。直接用 (3) 相减：
 
-$
+$$
  \boxed{
  F_N(Z_1)-F_{\rm aff}(Z_1)
  =-\frac1{\sqrt{E_c}}UW^{-1}
  [P(H_1)-P(H_0)-L(H_0)(H_1-H_0)] .}
 \tag{16}
-$
+$$
 
 内部、入口和全部参数残差仍是原内步的真实值，不能因为 solver_success 就把它们设为零。
 
 若精确有限 DN 在整条高度线段上二次可微，则括号为
 
-$
+$$
  \int_0^1(1-t)D^2P(H_0+t\Delta H)[\Delta H,\Delta H]\,dt.
 \tag{17}
-$
+$$
 
 这说明原 outer 在适当逆界下为什么可有二次剩余；本条没有给整段 Hessian 界。只有两个端点 Jacobian 不能认证中间上界。实际原调用已经取得 P(H1) 时，(16) 的完整向量可直接评价，无需假造 Hessian 常数或将 affine response 当真实 nonlinear response。
 
@@ -227,11 +227,11 @@ $
 上述简式依赖第1节已核的冻结合同。更一般地令
 $B=E^{-1/2}W^{-1}$，$\Delta P=P(H,\xi)-DH$，则
 
-$
+$$
  dg=-(dB)\Delta P
  -B\{(P_H-D)dH+P_\xi d\xi-(dD)H\}.
 \tag{18}
-$
+$$
 
 例如将 physical q 与 gauge q 混成同一未知，会在
 $dH=\sigma q_g\,dY_z+\sigma Y_z\,dq_g$ 中出现额外项；改变 cut、角图或尾参数也要保留其全部项。这时仍可写全末端行更新 $J_N=J_L+U\,D_Zg$，rank 至多 M，但不能再无条件写 $D_Zg=GC$ 或 $Ce=0$，也不能沿用 (12)--(15) 的简式。

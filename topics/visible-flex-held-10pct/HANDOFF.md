@@ -5,7 +5,7 @@
 ## 规则与来源
 
 - 最近实际pull后双README已读锚 `141333184d3c1f6ff10c4ea2b2103e3ccb9f96bb`（2026-11-28 14:19 UTC）。
-- 集成回退核main `5431ddf6f617601e7797411ed7e76cd0892a5d28`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
+- 集成回退核main `4b1ede76d70345ccc2badeb8584014acc962ebee`，双README blob与实pull锚同；不是本地pull。终端恢复即pull/rebase核规则。
 - 私库QUEUE认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；14:00:45UTC实际pull到 `6eec0d59e550d520d18917acaf7816a59f177bbb`，双README空diff，仍本会话进行中。15:00UTC终端不可用未能pull；集成实读私main `6bba30b9e9a9d0b8dffa1c4cae800206b096d7b6`，对14:00锚双README空diff，QUEUE仍本会话进行中。恢复即pull。
 - 根§12直接推进，不加审批；§13授权公开Actions；§15只存源/参数/hash/小结果，可再生数据不进Git/Release；§16新spawn显式gpt-6.2-astra/ultra/forknone。每结论push，NFF立即rebase重推至成功，不force，令牌仅CLI。H<10KB、单MD<100KB、题目录<200MB。
 - [接手核对](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)保全旧前沿、来源和失败。已登记结论不重做，必要丢失输入恢复不算新前沿。
@@ -16,11 +16,7 @@
 
 ## 1. 设计到真实 λ1
 
-[旧最高λ.128/M48](notes/2026-11-28-design-previous-frontier.json)仍为run45821850836/sourcea0151c8…，metric1.59050e−7/mean2320。旧.128/M40谱败、.256域败、.192 MemoryError和attempt011未知均保原记录，不重做。
-
-本地必要恢复：[.032/M32](notes/2026-11-28-design-secant-lambda032-m32.json)及[.064/M40](notes/2026-11-28-design-secant-lambda064-m40-qr.json)，后者run05e9ad77…、952点、metric2.747920195e−7。本地.128未接受；完整952×145/p48/scale47检查点e889dd15…保留，不能降格或任意删节点。
-
-[完整CSR前置映射M16核](notes/2026-11-28-design-csr-prefactor-mmap-complete-m16.md)已证原J/方向/残差逐位同，仅存储执行。[v6 pre-J中断](notes/2026-11-28-design-factor-mmap-m48-prej-interruption.md)无J/solve，不归因OOM。v7全映射/v8仅CSR保原门、无新BVP；双路watcher已exit130，35次未启。
+[历史λ.128/M48](notes/2026-11-28-design-previous-frontier.json)是旧run45821850836/sourcea0151c8…，不是本地接受。当前q=.06本地只恢复到λ.064/M40/run05e9ad77…；M48全952×145 nodal e889dd15…保留，几路映射执行均未取得新BVP。旧成功/失败、精确来源和存储细节见[压缩前H](notes/2026-11-28-handoff-before-new-profile.md)，不重做。
 
 新q=warp=.012：[λ0/M8](notes/2026-11-28-design-small-q012-lambda000-actual.md)真接受；λ.002的M8/M16原metric失败。[M24真实接受](notes/2026-11-28-design-small-q012-lambda002-m24-actual-fallback.md)：615节点/mean1168、metric1.407536802e−7，run21d676daa…/raw3bc1c050…。完整nodal ef8e0342…恢复后14:15:50UTC真0，RSS518732KiB。[续λ.004真−9](notes/2026-11-28-design-small-q012-lambda004-process-return-fallback.md)（14:21:24，父3，后代全收），factor1/solve6后无raw/RMS/metric；完整pre-J节点0fdf914d…保留。RHS16+每accepted chord节点保存仅备、未spawn。小q不作10%或同g精化。下一真实新输入为[宽窗b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)，保S=.5/k=.2/α=.45；真旧锚A<.1，只付新核心条件预算，未跑。新b下先取得两个λ锚，不能混b作λ割线。
 
@@ -50,7 +46,7 @@
 
 真正fixed actual-DN五源已备：唯一真实7a λ1首锚、固定最终δ/profile/chart/gauge/mean/时间、原support未知与完整H/J/audit/8outer；origin/source两冻结树分别绑定，无实际λ1输入。自有KIND的Cartesian/continuous/closed/mesh四reader亦已备；九源仅本地落盘未推，无λ1实输入，不改标签伪过旧7a。
 
-[R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)已付完整原Robin→真DN的rank≤M更新、25维fixed-g联合块及8outer精确剩余。旧J c9c4906f…与accepted raw4f503380…未核同点，只能frozen chord；gauge q与physical q严格区分。小S/χN/方向均未实测，不充作λ1或逆证书。
+[R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)已付完整原Robin→真DN的rank≤M更新、25维fixed-g联合块及8outer精确剩余。旧J c9c4906f…与accepted raw4f503380…未核同点，只能frozen chord；gauge q与physical q严格区分。[全残差补充](results/R85-supplement-complete-residual-and-small-block-validation.md)给逐列回代放大与小块字面逆合同；冷CSR逐列V源仅备未跑。S/χN/方向未实测，不充逆证书。
 
 ## 4. 已付范围
 
