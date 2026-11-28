@@ -72,3 +72,8 @@
 - cea506完整正式稿即推：原三均值/N1双向理想、I6十行、五完整新值和I11二十行均实际返回；两cofactor只从实际两乘子取消共同因子，全零纤维留。C11=(76,106,11)、C10=(80,110,10)，不误称本原或首一。
 - 新3bbbb唯一首次120秒/1GiB：完整NS/PS原定义必要前缀、无新逆中心化后λ≤3，单个新cofactor、共乘子取消、全部三原列回乘及真实λ内容/头。全部未付头/内容零面留；新.github/workflows/invariant-subspace-8542-phi-centered-nsps.yml为本题必要运行改动。
 - 01:06:51 UTC本地终端复探仍报No usable execution environment is available；继续实际Actions部分克隆/pull --rebase/push，两README差异及QUEUE都按实际回执核，不宣本地恢复。
+
+2026-11-28 09:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 新完整结论即推：NSPS的真实原C6双权53/27、λ6、5716项，λ内容1，真头剥旧单位余H42总42/540项；不把两个多项式乘子误作整斜率零已经覆盖。完整证明/小回执保存。
+- 两个不同的新原目标首派：24ec同一实际三个原乘子逐个仅剥旧Phi单位，120秒/1GiB，真正则才覆盖Δ0；e4bcc原P164保195=98+97的固定整切片及三QQ一元竖线内容，180秒/4GiB，不作多元模空性提升或新结果式。
+- 相应两个.github/workflows/invariant-subspace-8542-phi-whole-nsps-source.yml及invariant-subspace-8542-w-p164-components.yml为本题首派必要改动；没有增加旧大门复核或恢复已冻结计算。

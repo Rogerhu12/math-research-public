@@ -1,0 +1,125 @@
+{
+  "schema": "isp-Phi-centered-original-NSPS-sixth-scalar-v1",
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "run": 46091530208,
+  "job": 140813324185,
+  "execution": {
+    "elapsed_seconds": 3.2420418140000002,
+    "max_child_rss_kib": 51128,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "67da4dbfe318d18b1bf92b4d37f803e456885fa5",
+        "before": "d32b9f0a053a399d7cb24aeb03797ba74d474139",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T01:08:11.005732+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46091530208",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "d32b9f0a053a399d7cb24aeb03797ba74d474139",
+    "source_exit_code": 0,
+    "source_git_blob": "3bbbb6d1b6942ee2efb7be07b191bbe07ce1850b",
+    "source_sha256": "baaac1d2cb05437b6c771856aea8991692cad5ff62276e6bce12584d15da8ca6",
+    "stdout_bytes": 9455,
+    "stdout_sha256": "7ab4d8220e924c6303c865d99f5b8577dbbe8fbd33c0f9d2799e692637bdc36b",
+    "stop_reason": null
+  },
+  "source": "notes/2026-11-28-unit211-Phi-zero-centered-original-NSPS-cofactor-content-and-leading-support-8542.py",
+  "commonActualMultiplier": {
+    "degrees": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "totalDegree": 0,
+    "terms": 1,
+    "bytes": 18,
+    "sha256": "d5950a0ab29dd38b3e9c96acebe0fc84a071526db0c2f25fb5391cfd2b0141d9"
+  },
+  "exactOriginalScalar": {
+    "degrees": [
+      53,
+      27,
+      6,
+      0,
+      0
+    ],
+    "totalDegree": 58,
+    "terms": 5716,
+    "bytes": 230174,
+    "sha256": "f4ce16cd647975b8a431dabd5006289b475402096c92a2fb1c12897c4afd033c"
+  },
+  "lambdaContent": {
+    "degrees": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "totalDegree": 0,
+    "terms": 1,
+    "bytes": 18,
+    "sha256": "d5950a0ab29dd38b3e9c96acebe0fc84a071526db0c2f25fb5391cfd2b0141d9"
+  },
+  "trueLeadingCoefficient": {
+    "degrees": [
+      48,
+      26,
+      0,
+      0,
+      0
+    ],
+    "totalDegree": 52,
+    "terms": 742,
+    "bytes": 28647,
+    "sha256": "f047ea501bc24863c7104b6ca60cdf58836819e6c959fec42edea1d2ffd358d6"
+  },
+  "unpaidLeadingSupport": {
+    "degrees": [
+      39,
+      22,
+      0,
+      0,
+      0
+    ],
+    "totalDegree": 42,
+    "terms": 540,
+    "bytes": 19451,
+    "sha256": "1988b732b97dfdded9386c97d261774e6cc4d7e8db659f211faa54961c67a8e7"
+  },
+  "leadingRemovedOnlyPaidWeights": [
+    {
+      "unit": "u",
+      "passes": 1
+    },
+    {
+      "unit": "u-1",
+      "passes": 2
+    },
+    {
+      "unit": "Q",
+      "passes": 1
+    },
+    {
+      "unit": "ell",
+      "passes": 3
+    }
+  ],
+  "allTwoColumnAndThreeCoordinateReturns": true,
+  "originalDAGNodes": 1536,
+  "newWholeSlopeZeroExtensionProved": false,
+  "fixedWeightNecessaryLengthAtMost12OnlyOnSlopeAndHeadNonzero": true,
+  "wholePhiExcluded": false,
+  "ordinaryISPClaim": false
+}
