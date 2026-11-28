@@ -37,3 +37,7 @@
 ## 2026-11-28 05:46:27 UTC — 重试队列实际生效与新runner第一个完整输入返回
 
 修正queue99b0b5c4已被同run46112781312实际加载；maker sourcec736b49a自然0/5.849011372999996s，报告65321/21d5d149，F/J/normal0。05:43:24索引只为输入1完成，第二输入/science未观察。上段手录05:44有误，实际Git ab5f0d62 committer时间05:42:39Z；完整原错误和时间更正保留。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`cf678eac1f7c63118f1eb3a7a8ae4178e3d90f2e`无变（非pull）。
+
+## 2026-11-28 05:46:52 UTC — 23后续试步的实际统计返回
+
+23 6a101d6仅新统计Phi3824.6264079942416/Gram0.6461163646720337；当前仍87c076/accepted2/g.9678293850088526，至05:34:13Z新几何/接受/完整report未返。alpha未知不推。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`25278e10a39ec1b589c597de1858151d49a525b3`无变（非pull）。
