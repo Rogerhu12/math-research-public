@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150 unit211：正确Phi的fu单y原恢复与Ψ(6,3)曲线](results/R150-appendix-unit211-Phi-zero-true-fu-single-y-common-weight-curve.md)：自由t完整R身份和原Gram五行，三个实际3/4/4阶cofactor分别Ψ/4、9Ψ/64、Ψ/64。Ψ对Q首一3，只给每u至多3Q，全部权曲线/整y纤维保；b8cfe真.207064155秒/40804KiB/0。
+
 - [R150 unit211：正确整B的C315原理想二十二次幂覆盖](results/R150-appendix-unit211-Phi-zero-true-Bzero-C315-original-ideal-weight-cover.md)：全十二原两列模经97节点/95消去，泛型行度(0,0)；实际24可达节点清344次分母得C^22∈I6、degC315。至多315权点，所有原λ/f/t纤维保，不称整B空。780d真1.547025334秒/43412KiB/0。
 
 - [R150 unit211：全W/γ原native NS/PS二次拉回与精确五行](results/R150-appendix-unit211-W-gamma-native-five-quadratic-original-two-constants.md)：六原均值规则只作必要定义，NS/PS各以原来源系数1拉回；五行均f二次/s四次，双向I6。两新必要核deg(e,k,s)=(45,49,6)，所有乘子共同因子零面保。93cb首次16.373311528秒/106000KiB/0；未排空W。
