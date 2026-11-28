@@ -27,3 +27,31 @@ ROOT另从原80928B science及70074B pure整件重建新93038B、77713B整件，
 本条发布时未观测未来run/job/PID、编译器/二进制、当前model/point、数学报告、完整science/pure或加速比。所有actual字段继续为null；之后只登记真实回报。全目标仍欠整个同g闭壳、全时嵌入/法管、商距离和实际精化，不能因编译/runner成功宣告研究完成。
 
 来源路径校注：原参数历史元信息含双重topic前缀的delivery字符串，原字面保留。当前真实完整父件位于 `topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-R729-bhalf-complete-parameter-delivery.json`，16430B/Git `0c4c502566125f92e7872ad8029cafcab533134d`；新source delivery及正常builder使用这个实际单前缀路径，ROOT发布保留检查亦针对真实完整父件。该历史路径拼写不作为不存在的新科学输入。
+
+
+## 真实初几何与首试探统计（截至原完整观察2026-11-28T18:48:56Z）
+
+[官方run46171090151/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46171090151)、job141059443197实际in_progress，科学源`5538870311afb814eb332f2926b8c82eee1930e2`、真PID3601；未自然返回。两原输入准备步骤完整exit0，分卷18548B/Git`495692df64cd75bf7923e327d63ca10eeb4c0e74`/SHA256`88eec3a50359eaf06bf26929537b339bcc7697e457ab313e325d5d0ee2860220`，完整inputs/outputs/metrics和empty missing/error已读。原2218叶准备accuracy_reached=false，whole_tail=true/unresolved_tail_dropped=false，不能以输入准备成功充全科学准确。
+
+ROOT完整读取[初几何固定观察](https://github.com/Rogerhu12/math-research-public/blob/36e38cbe03f3cb2b24ea600601a33766e5e9f5d5/topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46171090151-1.md)29820B/SHA256`9072c8530a90d3e9494aa689e350f6350bea277dea2c24320bd206e5a350b6b6`/Git`098006e53b9f651ef9dedca118541f41d1a69a6f`，以及[18:48完整固定观察](https://github.com/Rogerhu12/math-research-public/blob/90cbff0d736d68cce070f5e5ad92ebf484116d6a/topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46171090151-1.md)28731B/SHA256`eea1f1db7ab2e228c0ca96371882e1bceec19cb186e9ca83724fd05b86ceb781`/Git`33438f63da68ef403a639c0f181c0073780418a0`；长度和双hash均核同。中间18:13:35Z版28728B/Git`0ee619835f47f3ff2a1ef48129a522c15b58b7ff`同样全读，三个不同观察不能合成一个不存在的新统计时刻。
+
+新实际model `02b815f1fc471afe0bd4699471c96ef3bc2adbdf66a061903b18798004f089d6`，driver `c005f212047fd63bd458136dddb8944062e4320b19a1070f4c0e919b55b586ba`，数学source `4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94`、target `957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9`。原33 model是`61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7`、driver`a359ab4907b22719b01ed5a6de65e61859d313c68d4a4d3b4fe0e0822d7effd3`；两运行数学source/target相同但model/driver身份不同，完整包不同。
+
+17:56:52.447061Z初完整几何实际返回，真点`7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47`，Phi681.6517423825408、relative Gram.4061652531176999、initial_geometry_complete=true、最大正物理g=.5305849371949052。ROOT与[原33原报告](2026-11-28-run33-section16-retry.md)核同的是这个完整点及这些已返回标量，不宣称两完整数据逐bit一致或整个算法等价。
+
+|初完整几何项|真实数值|
+|---|---:|
+|reach g|.5305849371949052|
+|body diameter g|−.03813552733778258|
+|distance plus g|.11391238912344381|
+|distance minus g|−3.0936337267043594|
+|cap diameter g|−.06715131487906445|
+|height floor g|−1.0411715967426867|
+|maximum absolute principal|12.32709940409259|
+|body diameter point lower|4.117175466515689|
+
+实际最坏K地址cell885/u.8306046932331322/phiπ/2/branch1/s2.1573631007205925。首restoration α1真trial`291f3943db2d5de24f7911923412fb8013b0d3cc739c09a0b5f6038a183151ad`，18:13:22.525168Z统计返回Phi731.1417800730309/Gram.4097559009463338；截至18:48:56Z其完整几何与trial_accepted仍未返回、accepted_directions=0、complete_report=false。原33已拒绝这个旧run的同名trial、后已接受另一半步的结论，不能借来填新47的尚未返回字段。
+
+native实际built：C源`6dbfbe17c4e535dce61500d9c8da72a088bb377bfba21985f5ef5415cb4e3933`、Python绑定`cfe09c087fd06bdccaf8e35118f87af885cae31603a7884489a1eb9bdf7a54bf`，原系数buffer`2346ea2b127eec428c09de2f80fbb7a15b032ffec0a6dee36ddad5c260e4c185`；gcc15.2.0 Ubuntu15.2.0-16ubuntu1/x86_64-linux-gnu，完整编译器哈希`864711037b900acdb7a449cf48d912cefa935b527fb60c767ccb956779e66136`。真实.so15584B/SHA256`26ef7aabf14bafc5503be4f7b968fa8635a22fb09c0aa5ca94b5cc839ac50ac1`。初完整几何时611原native calls/1,769,900,704 Horner updates；18:48:54Z整个原进程累计27930 calls/80,552,573,152 updates、47701原closure返回/0逻辑失败，whole-original-fallback0，rounding0/MXCSR8098。次数和一个观察窗口不证明整体加速；native_scientific_speedup_measured=false保原。
+
+原observer的缺compile_error键和尚无trial geometry/last completed trial等TypeError完整保在上述原观察，未删除或补值；built状态不被缺省error键误称编译失败，未返试探不被误称数学拒绝。当前全部原140角色、完整源/参数/32stage/原变量和自然science后pure预算继续；本次只登记已发生的真实结果。

@@ -4,7 +4,7 @@ Astra-larger-e4e2a2bf-20261126（AI）。**未完成，持续至全部README标�
 
 ## 规则与完成标准
 
-root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`90cbff0d736d68cce070f5e5ad92ebf484116d6a`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`ee615cf368b7ac4b66785f9926cee00de0c72023`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/QUEUE，每结论普通推，NFF即时rebase或终端失效freshHEAD整合重推直到成功；禁force/冒pull/令牌入件。仅公开Actions科学，不增fixture/AST/准入、不缩原预算。先metadata，禁整读≥100KB/binary；题≤200MB，单件<5MB，MD<100KB，H<10KB，open<30KB。根§15raw留runner、保完整源参/run/整身份；活输入/父/唯一状态不退。
 完成：闭连通C²嵌入、全t强C²、一个固定g；D=diam整F0，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6；同g/参/全t真空间频率时间精化至机器/原容差、多时刻整mesh，再提高三比值。
 
@@ -14,7 +14,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
-[47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)：原33完整140角色/1,333,370变量/32stage，严格非求导Horner值路径；17源/两ready root逐字核同，原157/7词和全部复读/预算保留，正常入口启动，未来数值未返。
+[47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)46171090151/PID3601：初点7e06全几何g.53058494与原33已报标量核同；首291f394统计Phi731.14178/Gram.4097559，18:48Z几何未返/接受0。native真实built非整体加速证，原140角色/32stage全预算继续。
 
 40/48/R769/R771完整终态均已独立登记；原预算自然结束不等于数学达标。
 
@@ -46,6 +46,7 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 9b4a79010958b3a28c84d8386ef0b9764f14f7d6
 
 [R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
 
@@ -53,11 +54,10 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r774-publish-->R774 [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 4ce6265f87578e1254a35deece0104ab05f1616f
 
 [50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull e4872f70fcdfbe43bc9f50070523ef25277dd529
+<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 9a6240a1b99db3130b4d110cb08b274424503a97
 
 [R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新g真圆三波闭球，准确初D<1.362；短/六个百分点径向平衡场全t reach≥1/24.45、held>.320、商距>.096，最坏Gram仍<.305仅改善>.013。自由整空间环三最坏圈全g/K<9.1，其余混合/轴向/整管须重付。
 
 [51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)：同R781初g三族18冻结源/18原阶段/三终各69相七网；右内握直径.36、真实帽开发释放rim、所有近2r材料对厚弦+谱曲率+全Gram共同求，原预算启动，未来数值未返。
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull e4872f70fcdfbe43bc9f50070523ef25277dd529
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull f596a654321f62c65e8c153170099c5813f851fb
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 9b4a79010958b3a28c84d8386ef0b9764f14f7d6
-<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 9a6240a1b99db3130b4d110cb08b274424503a97
