@@ -1,17 +1,17 @@
 {
-  "message": "ISP: prove entire Phi ell-half original z return and 114-weight cover",
-  "parentCommit": "4fc6d56752eb0c9dda579a934d6c31f2e53b66b1",
+  "message": "ISP: first simultaneous b0 four by five original same-head D target",
+  "parentCommit": "3be99670442c33098a3ab983d0765a392da8de3c",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-positive-z-and-114-weight-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-entire-ell-half-original-positive-targets-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-entire-ell-half-original-positive-targets-8542-formal-root-review.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-1133-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-ell-half-z-C114-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-ell-half-z-C114-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-simultaneous-four-by-five-same-head-original-D-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-simultaneous-four-by-five-same-head-original-D-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-simultaneous-four-by-five-same-head-original-D-8542-root-review.json",
+    ".github/workflows/invariant-subspace-8542-w-b0-same-head-d.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-first-W-b0-same-head-D-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-W-b0-same-head-D-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,5 +20,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-b0-same-head-d.yml"
+  ]
 }

@@ -1,0 +1,24 @@
+{
+  "sourceBlob": "1898abba431faf62aca343cc2122e48b45d0599d",
+  "sourceSHA256": "313957129f4b54195253caf973ca1fdb93faaa59adb0027c1c9924c2d2faf3bd",
+  "inputBlob": "c4494afb326cb23f71ecb4c1fd4ed9a328e0404d",
+  "entireSourceAndInputRead": true,
+  "independentPeerReview": "stable_kernel_return",
+  "staticReviewOnly": true,
+  "notExecutedYet": true,
+  "checks": [
+    "Correct true dual Gram and q2 definitions produce four simultaneous rows in 1,lambda,f,lambda^2,lambda*f, with monic qf retained",
+    "Only entire b0 uses nu+2 via already paid Astar; whole coordinate inverses and original G36 compact pullback retain old units",
+    "Sixteen adjugate minors have correct transpose indices; both left and right identities check all32 coordinates",
+    "All twenty actual original-five-source multipliers share one denominator and one common cancellation, preserving a single h",
+    "Every H row is returned to all five originals and its f coefficients; h and all four K final denominators independently paid",
+    "Both B*H=h*F and L*(h,K)=0 retained as whole original polynomial identities",
+    "Direct h*D-C_D uses positive original D; emptiness only if actual C_D=0 and h entirely old paid",
+    "All three Veronese and monic-qf compatibility source tags match the published formal identities term by term",
+    "h identically zero, h with unpaid support and paid h are distinct branches; full h=0 fibers and I11 retained",
+    "New pure weight scalars cancel only complete five-source common multipliers and return the full original combination again",
+    "No old six projection, frozen PRS, factor or pure-u cover gate replay; no predeclared h/S/D result",
+    "Fixed180second4GiB single first run; actual mathematical return required even when Actions succeeds"
+  ],
+  "ordinaryISPClaim": false
+}
