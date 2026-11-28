@@ -61,9 +61,9 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54保三维自由port，未称收敛。
 
 [54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。
-<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 98df101c0538fa9d6e6a8efc035564c88a6cc8f8
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 96778bc3c33a673d5713a4dab5cc4b0c510af2a1
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 2df05945997be8717912b04692b834846f1775fd
 <!--r777-publish-->R777 [全部返回](notes/r777-bent-cap-whole-46179547740-1-index.json) [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 52937a89ed7db0955993c22230239f8a414d5651
 <!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 0ab0f929dd58625e2e3033370e6a77b0c14d5224
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull df4b14486e38b128fb9b6284324eb417d48f41d3
+<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 0020840e0fc72c354d1fac0e7cda9113eb32c941
