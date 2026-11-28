@@ -1,56 +1,53 @@
 # 交接：可见且有厚度的闭曲面等距弯曲
 
-维护会话：**Astra-visible-flex-2ecfcd69-20261128**。**进行中，未达到 README 完成标准。**
+维护会话：**Astra-visible-flex-2ecfcd69-20261128**。**进行中，未达到 README 完成标准；不停在阶段报告。**
 
-## 当前目标与已经核实的事实
+## 目标与已读规则
 
-须给连通闭 C2 嵌入连续族、同一 g、固定握持开区域；按整个曲面直径 D，held/D≥.05、含反射 δE>0、全部时刻 reach/D≥.03、全域全时 metric≤1e−6，并在固定几何/g/相位范围上真实加密到机器或求解容差。基础完成后继续强比例。有限样本、线性正规残差和迭代到限均不能替代第5条。
+须连通闭C2嵌入连续族、同一g、点点固定的有内H，按全闭面直径D：diamH/D≥.2、held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，并在固定几何/g/相位范围上真正加密到机器/求解容差。基础完成后继续held/D≥.2、δE/D≥.05。样本峰、正则normal、小核和到限迭代均不替代#5。
 
-本轮部分 clone 后真实 pull main；完整读根/课题 README、旧 H/open，按索引读 log、相关 notes/results。前 H 写的三个“未返回”任务已在 11月26日结束，实际终态已提交；见下表。旧 H/open 原文保留在 `notes/2026-11-28-2ecf-{handoff-inherited-20261126,open-inherited-history}.md`，不重做旧结论。
+本轮部分clone后真实pull，已完整读根/题README、旧H/open并依索引读log/相关notes/results。根/题完整读于公开`3138f2d6564d66a92968cb963a904fad0dab5bd4`；私根完整读于`db8c308d5df4b018c12e225e2267064403f20208`。私库QUEUE认领已推`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`。私库最近真实pull 2026-11-28 07:29:34 UTC，已读`671f1f91b2894f0f1e49705c436f64eaa9db71a1`根差无变化、认领仍在。
 
-## 原 M12 同 g 主线：终态已经回读
+每次literal pull立刻看根/题README差、至少每小时；只读新差并即时遵守、记本H。拒推立刻pull--rebase再推循环，不能force或改已发表历史。每完整结论一推。root独占main，代理只写同级scratch。只源码/参数/小结论/哈希入Git；完整可重算数组、报告、STL不入Git/Release。不写根LOG。H<10KB、单MD<100KB、open保持短。
 
-| 实际 run | 最后采样 metric 峰 | R236 连续 metric 上界显示值 | reach/D 证界显示值 | 结论 |
-|---|---:|---:|---:|---|
-| 45847254548，h487/M48/H1 | 9.579519792696489e−10 | 8.201358125879053e−7 | .03106835940186961 | 连续有限几何仍过；LSMR800/stop7，#5未完 |
-| 45851669566，h487/M48/fullH | 7.694340653078073e−10 | 5.500688665693512e−5 | .009634780235305833 | 现有连续 metric/reach 证界不达标 |
-| 45857469750，h509/M48/fullH | 7.642643034727867e−10 | 5.403706987507220e−5 | .009621380439135546 | 现有连续 metric/reach 证界不达标 |
+## 不重做的继承事实
 
-三者都实际自然结束、1步接受、LSMR800/stop7。后两者的界失守不等于证明曲面真实 reach 不足；也不能因样本较好继承旧几何合格。三份原小摘要在 notes/2026-11-26-6a65-m12-{angular-warm,full-normal,h509}-ci-<run>-1.md，完整原数据依根15不入库，按脚本重生。H1场 SHA `23bf890f6bf91ed495384f77e1f6be70826655a22ddf77e3a2afc1c8059f5474`；原 h487基态 SHA `eb626e92a31df6041ccbd03c13afce00d93c12e7ffa52a672dce6ce5ac8075bd`。
+原CI45847254548、45851669566、45857469750均已于11月26日自然结束；不是待返。三者LSMR800/stop7均未完成#5，H1-M48连续metric8.20136e−7/reach>.03106835，两个fullH的旧连续证界失守但不证明实际曲面失败。原摘要和SHA见接手note/三CI原note；旧H/open原文在 `notes/2026-11-28-2ecf-{handoff-inherited-20261126,open-inherited-history}.md`。
 
-R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.05278322；角向暖续的更小采样峰不宣称全部连续界单调。R226/R230/R234支付完整 source/真 cuff/六jets及全时几何；R236保局部尺度和平方 Fourier 抵消，但仍未用 source-cross-Gram 抵消。R235已证明原第三径向迹 jump 对 C4修正的限制，只排当前更光滑有限空间的准确等距，不排C2极限；局部消跳尚未进入生产场。
+旧临时盘不存在，原h487完整source/query已经按原配方恢复。恢复不算优化。[旧无缓存重演/等待器](notes/2026-11-28-2ecf-m12-obsolete-replay-cancelled.md)已被新场取代，实际取消130；六输入阶段保留，旧完整field没保存，不因finished=false重演。
 
-**真实源和数值消费者**：旧临时盘不存在，已按原配方重生source/query；恢复不计新改善。[已被取代的旧重演/等待器](notes/2026-11-28-2ecf-m12-obsolete-replay-cancelled.md)实际取消130，无完整旧field；六阶段输入保留，新求解继续。[完整H2/C2消费者](notes/2026-11-28-2ecf-m12-c2-h2-direct-consumer.md)支付全Gram、重结点及准确Boehm保存误差，原g不变。[角缓存v2](notes/2026-11-28-2ecf-m12-angular-cache-numeric-key.md)逐值/signbit相同，54次padding变体与原源字节一致；[固定源packet/真暖union](notes/2026-11-28-2ecf-m12-fixed-source-packet-cache-and-true-union.md)保全部六jet字节、读回独立数组及实际初始场，不能混零源before。
+## M12原固定g：当前真实场与缺口
 
-原 g 的两个完整实际 H2 场已分别有连续有限门槛证书，均未完成 #5：
+原源始终X+C；中央/真cuff/有限尾/深collar/全部帽都须支付。新直接步是完整Gram/H2增量LM，H2只约束增量，不改原目标。[C2消费者](notes/2026-11-28-2ecf-m12-c2-h2-direct-consumer.md)读完整重复结点及准确Boehm保存六jet误差。角缓存v2与[packet/真暖union](notes/2026-11-28-2ecf-m12-fixed-source-packet-cache-and-true-union.md)保原值与原字节、返回独立数组；before必须实际暖场。
 
-| 场 | 独立 G8 峰 | 自身全域 metric 上界 | 自身 R253 reach/D | held/D |
+| 已存真实场 | 真独立采样峰 | 自身全域metric | 自身全时reach/D | held/D |
 |---|---:|---:|---:|---:|
-| 零起点 M32 首场，47628列 | 8.26045815e−10 | R252 9.999199636e−7 | >.03114912 | >.05278319 |
-| C2富集第二场，72128列 | 8.05757388e−10 | [完整第二场](notes/2026-11-28-2ecf-m12-c2-second-full-cross-gram.md) 9.976475574e−7 | >.03114830 | >.05278314 |
+| M32零态首H2，47628列 | 8.26045815e−10 | R252≤9.999199636e−7 | R253>.03114912 | >.05278319 |
+| C2第二场，72128列 | 8.05757388e−10 | ≤9.976475574e−7 | R253>.03114830 | >.05278314 |
+| M48第三场，107456列 | N1536 6.07253082e−10 | 新局部cross已返≤9.963039080e−7，说明待推 | R249实际运行 | 未借旧场 |
 
-首场field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`；第二场field `201de8909dc707c7d91749d812585233d49120c076468e9f2aebe97271114aed`。两场各自 R226/R236、准确 Bernstein/Fourier 全覆盖与全时 R249/R253 法管/嵌入/固定H/含反射非全等均已实付，没有互借系数。原三角 metric 界及粗 reach 界保留原失守字段，不代表真实几何失败。[首场六阶段](notes/2026-11-28-2ecf-m12-h2-first-actual-field.md)及[C2实际步/角谱](notes/2026-11-28-2ecf-m12-first-c2-actual-step-and-spectrum.md)有真实两微窗/所有祖先；未正则 normal 相对1.0065e−4/.001416均不是收敛。
+首场field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`；第二 `201de8909dc707c7d91749d812585233d49120c076468e9f2aebe97271114aed`；第三 `6aafee941eefdada991efa93316f89f9ddbdcd57f05c8bf33a51d19fe74e3d61`。各自身证书不互借，旧三角界失守字段保留。见[首实场](notes/2026-11-28-2ecf-m12-h2-first-actual-field.md)、[C2实步/角谱](notes/2026-11-28-2ecf-m12-first-c2-actual-step-and-spectrum.md)、[第二场完整cross](notes/2026-11-28-2ecf-m12-c2-second-full-cross-gram.md)。前两场未正则normal相对1.0065e−4/.001416，仍不能叫收敛。
 
-[R249](results/R249-local-material-two-jet-continuous-budget.md)/[R251](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)保材料二jet局部抵消；[R252](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)保source-cross-Gram，第二场487元/684子片/447.013s真0；[R253](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)对前缀/尾分别支付CX。M48/N768实步已返独立N1536峰6.07253082e−10，完整后验正在实际消费；[G12/G14真源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)已987.291s自然0，新增8554准确查询、真独立/祖先union10730点；同场后继已开始，未改变487物理片或736径向列。角频与实际物理空间加密、原g/完整相位区间及真实源必须保持，有限观察和较小正规残差不替代#5。两个连续合格场[三时刻完整闭网格](notes/2026-11-28-2ecf-m12-two-certified-fields-complete-closed-meshes.md)均实际自然0，每份44714顶点/89424面，完整帽/真cuff/固定H和同场证书绑定；原STL只留scratch。
+[R249](results/R249-local-material-two-jet-continuous-budget.md)/[R251](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)支付材料二jet抵消；[R252](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)支付完整source-cross-Gram；[R253](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)用自身前缀/尾p分别乘CX。两合格场[三时刻完整闭网格](notes/2026-11-28-2ecf-m12-two-certified-fields-complete-closed-meshes.md)均真0，每份44714顶点/89424面，完整真cuff/帽/固定H；有限网格不替代连续证明或#5。
 
-[R250](results/R250-full-finite-tail-smooth-source-regularization.md)已完整准确规整18552原span/18551源内缝，所有原节点Q两jet零。加到指定已发表R245场后metric<8.211857e−7、reach/D>.03109258、held/D>.05278322与含反射非全等保持；Qss<.0006474256，不是新Newton接受或#5。[准确Q查询/独立源消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)已实际完成5177查询/204窗/88非零行；合成最高新增Qss误差<2.313e−20，原端口/546诊断保持。新X+C+Q源身份独立，连续几何须显式加Q，不能静默替换活动X+C。
+**当前实际工作**：M48 R236已返4.21217e−5三角上界；新局部cross用自身R226有效l1保底+每片准确R236 p/完整路径w_r，487→488子片，369.533s真0，待说明发布。root的同M48 R249完整二jet仍在跑，随后做R253区域几何。[G12/G14源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)8554新准确查询真0，独立/祖先union10730点，原g不变；其实际LM在612.993s被系统终止−9，无完整新field，正查内存并改流式驻留后从同暖场继续。M64已准备但不照旧内存配置盲启动；须继续真角频和真物理h加密，G12仅积分不能冒h收敛。
 
-## 强幅度：完整前缀的真实漏峰与加密
+[R250](results/R250-full-finite-tail-smooth-source-regularization.md)已准确规整全部18551有限尾内缝，原节点两jet零；指定R245场+Q的连续几何仍过。[准确Q查询消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)5177半径/204窗/88非零行真0，新增Qss误差<2.313e−20。新X+C+Q源独立身份，当前各非线性场未用Q，不能静默替换。R235只排过光滑有限修正的准确等距，不排C2极限。
 
-前会话polar v2最后为5292列第11态，原97节点metric .63576/κ32.995并非连续界。本轮重生原gap105/v045源、target-zero和11态，原master/target SHA相同，恢复不计新改善。R248全前缀空间真实扩到12789列，保旧场/全部原行；205节点自身基线发现metric1.57258/κ4050.87/σ.2034，见[实际准备](notes/2026-11-28-2ecf-polar-full-prefix-warm-hidden-peaks.md)。prepared `e8803bd9fd40c5e1edb298af42ed3b78585ebb02914e4aee26cf75a79daf8a03`。
+## 强幅度：密训练、真正独立观察与新g设计
 
-两个旧稀G2支实际自然结束后封存，课题继续：[暖1–20/零1–10及32父态独立对照](notes/2026-11-28-2ecf-polar-g2-final-steps-independent-sweep-and-dense-input.md)有全部SHA。暖20训练κ13.9534但第三观察κ69268.25/σ.121675；零10第三κ3631.67。第三236径点×256半格真角及[极值原位检查](notes/2026-11-28-2ecf-polar-independent-third-observer-reveals-prefix-peaks.md)证实源重取样差0，Xs抵消/大Xss的漏峰真实。旧有限成本下降不等于连续几何。G3候选成本最低暖3，只供G10自己的新基线重选。
+完整前缀空间12789列=87×147，prepared `e8803bd9fd40c5e1edb298af42ed3b78585ebb02914e4aee26cf75a79daf8a03`。旧稀G2暖20/零10都自然结束并封存；[全32父态对照](notes/2026-11-28-2ecf-polar-g2-final-steps-independent-sweep-and-dense-input.md)表明漏峰严重：暖20训练κ13.95但第三观察κ69268/σ.1217，零10第三κ3632。[极值原位检查](notes/2026-11-28-2ecf-polar-independent-third-observer-reveals-prefix-peaks.md)重取源差0、独立基本形式同峰；不是缓存假象。G3成本最低暖3，仅供新G10自身基线重选。
 
-新G10保全部旧205/第三236径点及各span G10，合958径点；G11另用新径点/错移角。两者旧源计算实际碰内层2e−13与外层5e−14精度门冲突而exit1，分别只恢复665/753、433/540正式行。外层门不放宽，新的独立consumer收紧内层、对原位返回根用longdouble G16/G32审计后逐行补算；原失败记录保留，不能把未返prepared或基线说成完成。G3径点加入训练后不再称独立径向观察。
+新G10保旧205/第三236及每span G10共958径点，128/192两角组；G11用668径点/256真半格角。G10旧补源1294.517s exit1，只恢复665正式行；[内外反解门冲突及原位修复](notes/2026-11-28-2ecf-polar-G10-source-failure-and-primitive-audited-recovery.md)保持外层5e−14，仅失败行收紧内层2e−15，并在实际返回根用longdouble G16/G32独立审计；其数学源/g不变、consumer身份单列。G10r training已完整自然0/352.484s，原205字节保持；192组仍实际生成，未冒prepared完成。
 
-[全物理span的W两/三jet预算](notes/2026-11-28-2ecf-polar-continuous-correction-bernstein-budgets.md)已实际付暖3/20的全部系数及准确端迹，只W不冒总曲率。R246是完整端口有条件连接；R247只排固定rho/N31高度子族，不排完整XYZ。被释放前缀已改变，R233原背景证书不借给修正场。[完整XYZ+87维log-radius设计](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)的小核全导数/正规跨块实测通过；它明确改变g，生产接受尚无，固定g G10支继续。强目标held/D≥.2、δE/D≥.05及全时reach仍未完成。
+G11旧源1730.641s exit1，同类冲突，只恢复433正式行、余107重算；新G11 consumer独立冻结，保原物理点/角与全部旧共享行，逐行journal，当前正在补算。G3径点纳入G10后不再冒新模型径向独立观察。R233原背景界不借给变化后的前缀；每个新场完整几何重付。
 
-## 文献、同步与复现
+[完整XYZ+87个log-radius设计](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)小核128列/18480全14行真0，完整J/JT/全部正规跨块核对通过。生产12876列接受仍0；alpha移动明确改变g，找到候选后必须冻结最终alpha再付固定g加密。原固定g G10支并行继续，不互借成本/收敛。强比例和全时reach仍未完成。
 
-2026-11-28回查Hu *Smooth isometric bending of a closed sphere*，Hexagon2611.00534仍v1（11月16日）；小幅周期闭族未提供本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不能自动当连续弯曲。范围及恢复命令见接手note，不重复已登记障碍。
+## 工作位置与文献
 
-根/题README完整读于公开`3138f2d6564d66a92968cb963a904fad0dab5bd4`，私库根于`db8c308d5df4b018c12e225e2267064403f20208`；私库QUEUE本会话认领已推`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`。私库最近真实pull 2026-11-28 07:29:34 UTC，已读`671f1f91b2894f0f1e49705c436f64eaa9db71a1`根README逐差无变化、QUEUE认领仍在。每次literal pull立刻看双README差、至少每小时；非快进/ref竞争立即pull--rebase再推循环，不force、不改已发表历史。
+公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；代理工作分别 `m12-work`、`exact-work`、`strong-work`，root只在 `root-work` 做临时原始输出。各入口和公开note给完整重生参数/身份，临时盘丢失时按已登记输入重生、不称新结论。
 
-root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
+11月28日已回查Hu的Hexagon2611.00534仍v1：小幅周期闭族未给本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不自动给连续弯曲；不重复旧已登记障碍。子问题完成就接open下一项，不能以条件工具、有限几何或运行耗时收尾。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:44:57 UTC；已读公开 main `0cc097e0e3e434dfe7606bb17cba4e4f3559402e`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:47:54 UTC；已读公开 main `b211fcf021fe6e9dbc3a4a514a00f2906b3eaf57`，根/课题 README 逐差无变化。
