@@ -20,7 +20,7 @@
 
 R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.05278322；角向暖续的更小采样峰不宣称全部连续界单调。R226/R230/R234支付完整 source/真 cuff/六jets及全时几何；R236保局部尺度和平方 Fourier 抵消，但仍未用 source-cross-Gram 抵消。R235已证明原第三径向迹 jump 对 C4修正的限制，只排当前更光滑有限空间的准确等距，不排C2极限；局部消跳尚未进入生产场。
 
-**本轮实际工作**：旧 `/tmp/visible-flex-6a65e705` 不存在，已按原配方重生全部source/query；恢复不计新改善。完整Gram/H2增量LM与[C2消费者](notes/2026-11-28-2ecf-m12-c2-h2-direct-consumer.md)已发表，小型非零全行核及真实72128列H2数值SPD均已执行；C2 adapter必须读完整重结点和准确Boehm转移receipt，支付保存六jet误差，不能只改JSON标签。原[角缓存](notes/2026-11-28-2ecf-m12-angular-source-cache-and-cold-restart.md)逐值与原实现相同；未缓存cold已主动取消130，无场/接受，随后同零态新运行。[缓存v2](notes/2026-11-28-2ecf-m12-angular-cache-numeric-key.md)排除longdouble padding，以准确数值及signbit匹配，54次实际padding变体全同值/保存字节，C2实跑只建2组；原首场不回写。
+**真实源和数值消费者**：旧临时盘不存在，已按原配方重生source/query；恢复不计新改善。[完整H2/C2消费者](notes/2026-11-28-2ecf-m12-c2-h2-direct-consumer.md)支付全Gram、重结点及准确Boehm保存误差，原g不变。[角缓存v2](notes/2026-11-28-2ecf-m12-angular-cache-numeric-key.md)逐值/signbit相同，54次padding变体与原源字节一致；[固定源packet/真暖union](notes/2026-11-28-2ecf-m12-fixed-source-packet-cache-and-true-union.md)保全部六jet字节、读回独立数组及实际初始场，不能混零源before。
 
 原 g 的两个完整实际 H2 场已分别有连续有限门槛证书，均未完成 #5：
 
@@ -53,4 +53,4 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:41:18 UTC；已读公开 main `9c1de0ea8cdebea43a58cf920ae708468d1dd989`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:42:37 UTC；已读公开 main `ee126fd9f759da399884b000c25342d48d25f42b`，根/课题 README 逐差无变化。
