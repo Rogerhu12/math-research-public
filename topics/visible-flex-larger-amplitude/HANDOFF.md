@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`2f352316248e46ee0c854edf310bfff20a791905`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`df9f08defd7b1ce07160bcee5960d87e263177dc`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
 
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
@@ -49,7 +49,7 @@ R724–728完整证明/源参保results；R728真实w含高度项，最终seed4�
 
 R726/R727核心9件25d72已刊；旧准确N/G与下游全部完整保护，R728 N/G14及下游24的全路径/源参/身份保open§7和固定旧H；尚无actual费用。
 
-R732准确13件382903B现main：[完整N/G参数及四包](computations/R732-complete-accurate-normal-geometry-parameter-delivery.json)。独立圆肩/中央逆弧长、immutable选点、全139源/922cells/32stage/六jet，N38/52、G8/22及900秒/1Mleaf/192bit原预算保；仅待35自然science及whole pure后的同点实际费用。
+R732准确13件382903B现main：[完整N/G参数及四包](computations/R732-complete-accurate-normal-geometry-parameter-delivery.json)。独立圆肩/中央逆弧长、immutable选点、全139源/922cells/32stage/六jet，N38/52、G8/22及900秒/1Mleaf/192bit原预算保；闭/flux/mesh及7原步骤的完整14件下游源参亦main；均待35自然science/whole pure后的同点实际费用。
 
 <!-- visible-larger-parallel-33:start -->
 Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。running；已返2，exit=未返。

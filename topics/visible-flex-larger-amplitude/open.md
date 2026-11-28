@@ -131,7 +131,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 准确费用与完整下游
 
-R724–729源/证明和R726–730全部准确包/下游完整保护，路径、父源、预算与条件在固定全文，尚无实际费用。R732[准确四包13件382903B](computations/R732-complete-accurate-normal-geometry-parameter-delivery.json)现main，独立圆肩/中央核、immutable选点、全139源/922cells/32stage/六jet；N38/52、G8/22和原900秒/1Mleaf/192bit等预算全保。待35自然science与whole pure的同点；参考角jet不代实际Gram，normal.complete不代连续branch。
+R724–729源/证明和R726–730全部准确包/下游完整保护，路径、父源、预算与条件在固定全文，尚无实际费用。R732[准确四包13件382903B](computations/R732-complete-accurate-normal-geometry-parameter-delivery.json)现main，独立圆肩/中央核、immutable选点、全139源/922cells/32stage/六jet；N38/52、G8/22和原900秒/1Mleaf/192bit等预算全保。完整[闭/十二矩/packet与final mesh源参14件](computations/R732-complete-closed-moment-mesh-parameter-and-entry-delivery.json)亦main，7原步骤全预算保。待35自然science与whole pure的同点；参考角jet不代实际Gram，normal.complete不代连续branch。
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)保持：N原repo/canonical/outdir；N变则G新目录、whole最终report；R723/mesh fresh、P同canonical整块、U同wholeN、packet全report、restart同runner13final/typed。全部角/径向/32stage/两帽/尾/mixed/allphase/晚失败、R718 marked/R716 unmarked、五t/15science+5preview及三级空间/频率/时间真精化仍待付。
 

@@ -95,3 +95,7 @@
 ## 2026-11-28 11:36:30 UTC — R732同点完整mesh构造、证据快照选择与纯读源
 
 最终替代2件48562B现刊：38841B源码再生器/SHA256 27498c163d0ac924e988be7a9c8e5a8d425212bc006629b83f1c52adf74a2af9，9721B完整manifest/30309a65fac95f71d5f5d13fda7f5f14d4ce989d3f3ca1e654d6bf7511af315b（早期44772B包未刊且不作为现行依赖）。3完整运行源98284/55092/25905B，25+30+3全文双向patch；实际原35 driver构造段8948B/ee3044163dd9c8d63645a25f5857162112f2e7ece0b4d2b6c4f65016277c4922逐字同源。保139+9角色、1,333,370变量、M160/J923/N2048/32stage、12完整length plan成员及5成员batch。给闭面证据时用其可核完整immutable snapshot且point/model逐字同；final仍齐13成员并同点，packet不借mutable最新缓存。无闭面证据分支与显式snapshot全保，原levels/phase/frequency/export/working误差全部保；无已运行mesh/准确连续几何声明。 双README云核至`2f352316248e46ee0c854edf310bfff20a791905`无变（非pull）。
+
+## 2026-11-28 11:38:06 UTC — R732完整闭相位/十二矩/两类mesh的正常入口与七原步骤参数
+
+8件159901B现刊，manifest16996B/SHA256 283f5b18f21cbcd3eebeb4d27e989b2857727858bf161157973abf965210a23a；含11284B正常source build入口、9642B全参数再生器、20847B完整绑定与4 ready13013/19980/34087/34052B。当前manifest确绑已刊最新9721B mesh包（其SH30309a...），未借早版。按17科学+4准确+4闭/矩+(3mesh)完整正常materialization后执行原entry一次，不加科学前置。七条inner argv8、10/8、34/6、34/6逐字原合同保，outer13、15/13、39/11、39/11；原selectors77、34/65、118/66加48live、118/66加48live全部保，完整build字段额外而未替原路径。原4096row chunk、十二通量600秒/0 blocks（不截圆）、五t/全levels/频率/导出/预览与独立mesh纯读保；无闭面证据分支仍完整。N/G→closed→flux/invariant→packet/final取各自whole同point快照链，N重写须重新G/newclosed/newmesh。全部14闭/矩/mesh源参已main，所有actual仍null；35科学未自然返回，不排提前pure或下游。 双README云核至`df9f08defd7b1ce07160bcee5960d87e263177dc`无变（非pull）。

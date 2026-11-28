@@ -1,0 +1,345 @@
+{
+  "schema": "complete-R732-closed-moment-mesh-parameter-and-action-entry-delivery-v1",
+  "namespace": "fixed-fejer-r732-R729-first",
+  "prepared_utc": "2026-11-28",
+  "complete_files": [
+    {
+      "role": "normal source materialization and original direct closed, flux, centred-moment, mesh and pure reader entries",
+      "name": "build_and_launch_R732_closed_moment_mesh_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/build_and_launch_R732_closed_moment_mesh_actions.py",
+      "bytes": 11284,
+      "sha256": "feeed8979d6efb317c631055a2b8a56ff61ed087876e983e5458b32838c15205",
+      "git_blob_sha": "6bcceb9dcb99c7a4eaf846f74eb83f5e96b27a5d"
+    },
+    {
+      "role": "complete downstream original scopes, evidence, source build and parameter binding",
+      "name": "fixed-fejer-R732-closed-moment-mesh-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-closed-moment-mesh-parameter-binding.json",
+      "bytes": 20847,
+      "sha256": "9a36801a6faef7f333cea18d1c346d0881586751c1048675506c5f080a69a086",
+      "git_blob_sha": "7e05765d7629100cb6191801a8e9d351b5ba1c18"
+    },
+    {
+      "role": "complete four ready file parameter reproducer using all seven original postprocessing steps and exact historic inputs",
+      "name": "reproduce_R732_closed_moment_mesh_parameters.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_R732_closed_moment_mesh_parameters.mjs",
+      "bytes": 9642,
+      "sha256": "dd1fa5b0cf57fd611ba73839aa5eea2926452ff31a460e29926f45084c7c95fa",
+      "git_blob_sha": "0e810a674c902bf58f0083b3c500aae646a82431"
+    },
+    {
+      "role": "complete R732 closed direct and normal build argv, domain, selectors and outputs",
+      "name": "fixed-fejer-R732-R723-closed-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-R723-closed-complete-ready.json",
+      "bytes": 13013,
+      "sha256": "8884939673464d9304bcfbdd46a3e99a964905e960dddb93b6ad2538cb989b6b",
+      "git_blob_sha": "c983acb3579d6e18e31d3201a2248e4bb0a83a98"
+    },
+    {
+      "role": "complete R732 moment direct and normal build argv, domain, selectors and outputs",
+      "name": "fixed-fejer-R732-R723-moment-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-R723-moment-complete-ready.json",
+      "bytes": 19980,
+      "sha256": "afe80efb22492d951829d9236bb8ab87a23b5e36c7cebdcb466964e66a62e340",
+      "git_blob_sha": "5c059b9981e7f23799990998a6b56f5c9d015aab"
+    },
+    {
+      "role": "complete R732 packet direct and normal build argv, domain, selectors and outputs",
+      "name": "fixed-fejer-R732-R723-packet-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-R723-packet-complete-ready.json",
+      "bytes": 34087,
+      "sha256": "1e23909d6b56c9369f8fc0908152de6a5d71cba1679296ecbd716ba9a6d92f82",
+      "git_blob_sha": "9c2409dcf536814d4891bd2be2653335d0a40ba2"
+    },
+    {
+      "role": "complete R732 final direct and normal build argv, domain, selectors and outputs",
+      "name": "fixed-fejer-R732-R723-final-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-R723-final-complete-ready.json",
+      "bytes": 34052,
+      "sha256": "ff96de79282f9311efe0ee5efa6d56a1929d26de9478569ee74e1322930a03fa",
+      "git_blob_sha": "e6426070ed0e8bf819f37fbcd6e1a9546fe5acc4"
+    }
+  ],
+  "whole_parameter_reproducer": {
+    "role": "complete four ready file parameter reproducer using all seven original postprocessing steps and exact historic inputs",
+    "name": "reproduce_R732_closed_moment_mesh_parameters.mjs",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_R732_closed_moment_mesh_parameters.mjs",
+    "bytes": 9642,
+    "sha256": "dd1fa5b0cf57fd611ba73839aa5eea2926452ff31a460e29926f45084c7c95fa",
+    "git_blob_sha": "0e810a674c902bf58f0083b3c500aae646a82431"
+  },
+  "complete_parent_ready_records": {
+    "closed": {
+      "role": "whole original closed parameter ready",
+      "name": "fixed-fejer-meridian-batched-bhalf-mu001-first-R723-directional-closed-phase-grip-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bhalf-mu001-first-R723-directional-closed-phase-grip-ready.json",
+      "bytes": 11483,
+      "sha256": "b027d255f244b311d6763b316238d93995d8688e9ff5b1f0d6277e22d0094fc5",
+      "git_blob_sha": "518ee8bfd7c2142ee187bb4fd37ecbd90cf9f32f"
+    },
+    "moment": {
+      "role": "whole original moment parameter ready",
+      "name": "fixed-fejer-meridian-batched-bhalf-mu001-first-R723-complete-R716-moment-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bhalf-mu001-first-R723-complete-R716-moment-ready.json",
+      "bytes": 15645,
+      "sha256": "0ccb05e741eea9d33488e891e532728b9a8cd071e8a43f21b8d16c8fdff0ffa0",
+      "git_blob_sha": "8385a3e2abb4ebd1963ebf26ccdd9db4af65209d"
+    },
+    "packet": {
+      "role": "whole original packet parameter ready",
+      "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R723-compatible-same-field-phase-mesh-packet-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R723-compatible-same-field-phase-mesh-packet-ready.json",
+      "bytes": 27890,
+      "sha256": "5fb84176c8b1c3a6b97d88932164ec6a5539474e0d5861c275a30b5f8c7f8212",
+      "git_blob_sha": "9cdb5e824487a10a508e097588fb8e8a88d4c104"
+    },
+    "final": {
+      "role": "whole original final parameter ready",
+      "name": "fixed-fejer-meridian-batched-bfiveeighths-first-R723-compatible-same-field-phase-mesh-final-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bfiveeighths-first-R723-compatible-same-field-phase-mesh-final-ready.json",
+      "bytes": 27895,
+      "sha256": "5033551b02fb1e816f0b89a2c78a02c1f9b00217a12d127e03fe9d2948089c13",
+      "git_blob_sha": "77338564a8c4591ba0ffec5a96a6ea805be9d5dd"
+    }
+  },
+  "parent_fixed_commit": "c9d44d67a2e16a7163161148ce774ca022c0f02a",
+  "current_scientific_source_publication": "fbc7b4af4e0e79439e5b763e8d6df74964c851c2",
+  "current_scientific_parameter_publication": "c2ef6fdb3dbaf421be9a826576c38b13920a8458",
+  "current_accurate_source_and_parameters_publication": "f20ca93edac3636c0bd543031cfee848ef52a24c",
+  "complete_closed_and_mesh_source_deliveries": [
+    {
+      "role": "whole corrected-field R650/R723 closed and R716 source delivery",
+      "name": "R732-complete-closed-phase-and-R716-flux-source-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/R732-complete-closed-phase-and-R716-flux-source-delivery.json",
+      "bytes": 12079,
+      "sha256": "913f02a8ccc24b3153f72ce96fdf4cb678456c3109a0ac63149c7b884872cbab",
+      "git_blob_sha": "5b40b98bb473da941faa3c30752072e1ebc77351"
+    },
+    {
+      "role": "complete three-role physical mesh and pure reader source delivery",
+      "name": "R732-complete-same-field-mesh-source-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/R732-complete-same-field-mesh-source-delivery.json",
+      "bytes": 9721,
+      "sha256": "30309a65fac95f71d5f5d13fda7f5f14d4ce989d3f3ca1e654d6bf7511af315b",
+      "git_blob_sha": "f6e624bc55ae4b9a171e9da811b80275765b2381"
+    }
+  ],
+  "full_original_and_current_steps": {
+    "closed": {
+      "ready": {
+        "role": "complete R732 closed direct and normal build argv, domain, selectors and outputs",
+        "name": "fixed-fejer-R732-R723-closed-complete-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-R723-closed-complete-ready.json",
+        "bytes": 13013,
+        "sha256": "8884939673464d9304bcfbdd46a3e99a964905e960dddb93b6ad2538cb989b6b",
+        "git_blob_sha": "c983acb3579d6e18e31d3201a2248e4bb0a83a98"
+      },
+      "old_inner_and_current_inner_word_counts": [
+        8
+      ],
+      "original_formal_selectors": [
+        77
+      ],
+      "original_live_selectors": [
+        0
+      ],
+      "current_formal_and_live_selectors": [
+        {
+          "formal": 108,
+          "live": 0
+        }
+      ],
+      "current_outer_wrapper_argument_counts": [
+        13
+      ],
+      "complete_original_parent_bundle_and_output_names_and_whole_actual_target_arguments_in_ready": true
+    },
+    "moment": {
+      "ready": {
+        "role": "complete R732 moment direct and normal build argv, domain, selectors and outputs",
+        "name": "fixed-fejer-R732-R723-moment-complete-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-R723-moment-complete-ready.json",
+        "bytes": 19980,
+        "sha256": "afe80efb22492d951829d9236bb8ab87a23b5e36c7cebdcb466964e66a62e340",
+        "git_blob_sha": "5c059b9981e7f23799990998a6b56f5c9d015aab"
+      },
+      "old_inner_and_current_inner_word_counts": [
+        10,
+        8
+      ],
+      "original_formal_selectors": [
+        34,
+        65
+      ],
+      "original_live_selectors": [
+        0,
+        0
+      ],
+      "current_formal_and_live_selectors": [
+        {
+          "formal": 65,
+          "live": 0
+        },
+        {
+          "formal": 96,
+          "live": 0
+        }
+      ],
+      "current_outer_wrapper_argument_counts": [
+        15,
+        13
+      ],
+      "complete_original_parent_bundle_and_output_names_and_whole_actual_target_arguments_in_ready": true
+    },
+    "packet": {
+      "ready": {
+        "role": "complete R732 packet direct and normal build argv, domain, selectors and outputs",
+        "name": "fixed-fejer-R732-R723-packet-complete-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-R723-packet-complete-ready.json",
+        "bytes": 34087,
+        "sha256": "1e23909d6b56c9369f8fc0908152de6a5d71cba1679296ecbd716ba9a6d92f82",
+        "git_blob_sha": "9c2409dcf536814d4891bd2be2653335d0a40ba2"
+      },
+      "old_inner_and_current_inner_word_counts": [
+        34,
+        6
+      ],
+      "original_formal_selectors": [
+        118,
+        66
+      ],
+      "original_live_selectors": [
+        48,
+        0
+      ],
+      "current_formal_and_live_selectors": [
+        {
+          "formal": 154,
+          "live": 48
+        },
+        {
+          "formal": 102,
+          "live": 0
+        }
+      ],
+      "current_outer_wrapper_argument_counts": [
+        39,
+        11
+      ],
+      "complete_original_parent_bundle_and_output_names_and_whole_actual_target_arguments_in_ready": true
+    },
+    "final": {
+      "ready": {
+        "role": "complete R732 final direct and normal build argv, domain, selectors and outputs",
+        "name": "fixed-fejer-R732-R723-final-complete-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-R732-R723-final-complete-ready.json",
+        "bytes": 34052,
+        "sha256": "ff96de79282f9311efe0ee5efa6d56a1929d26de9478569ee74e1322930a03fa",
+        "git_blob_sha": "e6426070ed0e8bf819f37fbcd6e1a9546fe5acc4"
+      },
+      "old_inner_and_current_inner_word_counts": [
+        34,
+        6
+      ],
+      "original_formal_selectors": [
+        118,
+        66
+      ],
+      "original_live_selectors": [
+        48,
+        0
+      ],
+      "current_formal_and_live_selectors": [
+        {
+          "formal": 154,
+          "live": 48
+        },
+        {
+          "formal": 102,
+          "live": 0
+        }
+      ],
+      "current_outer_wrapper_argument_counts": [
+        39,
+        11
+      ],
+      "complete_original_parent_bundle_and_output_names_and_whole_actual_target_arguments_in_ready": true
+    }
+  },
+  "public_actions_execution": {
+    "scientific_platform": "public Rogerhu12/math-research-public GitHub Actions",
+    "runner": "4 cores, 16 GB RAM",
+    "complete_direct_targets": {
+      "closed": {
+        "role": "complete original R723 directional flow/reach and all-phase marked/unmarked source for the actual R732 whole field",
+        "name": "fixed_fejer_R732_R723_directional_closed_phase_grip_evidence.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R732_R723_directional_closed_phase_grip_evidence.py",
+        "bytes": 87597,
+        "sha256": "524c65ae8b34439ad8a746528442fa201ebd9fae835d4b7b064df3e308280a61",
+        "git_blob_sha": "dd75f954d8af9ce49be6173f6fb2730265490e12"
+      },
+      "flux": {
+        "role": "full R716 twelve flux channels, all original blocks and source-specific half-turn stage pairing using the complete accurate R732 leaf reader",
+        "name": "fixed_fejer_R732_complete_closed_surface_moment_integrals.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R732_complete_closed_surface_moment_integrals.py",
+        "bytes": 33236,
+        "sha256": "dc0310f65768a10b761217cfc091a16f02fb14bfec952254bf553c7c5a2b9c6a",
+        "git_blob_sha": "db7dee05ef76ecd3ab436be50a53b60b79209996"
+      },
+      "moment": {
+        "role": "complete R716 centred quotient with all original R650 or strict R723 main/sidecar, same-field twelve channels and signed half-turn evidence",
+        "name": "fixed_fejer_R732_R723_compatible_r716_centred_volume_moment.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R732_R723_compatible_r716_centred_volume_moment.py",
+        "bytes": 61926,
+        "sha256": "0d57a0f6b081e7d4166d262b6497dbb560b1ca02fcff0947c0bc2204879809a8",
+        "git_blob_sha": "7e4c697ff068b836c1406ed0f843caca455ac9da"
+      },
+      "mesh": {
+        "role": "complete R732 working phase meshes with free-point held evidence, all public raw six-jets and complete original domain refinement",
+        "name": "fixed_fejer_R732_R723_same_field_phase_meshes.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R732_R723_same_field_phase_meshes.py",
+        "bytes": 55092,
+        "sha256": "33863e6427077490c38c9f7624ee6ed09c6fd143990360a216784e64f9eb1444",
+        "git_blob_sha": "aab415a8699b6e9ea8b0383d5af6148dd979d8be"
+      },
+      "mesh_read": {
+        "role": "complete pure mesh/point/immutable reference and optional closed same-field evidence reader",
+        "name": "read_fixed_fejer_R732_R723_same_field_phase_meshes.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_R732_R723_same_field_phase_meshes.py",
+        "bytes": 25905,
+        "sha256": "f3586af539f1941b8b6903a8678d80cb2c087edaf07d0b19d429d1da77b12278",
+        "git_blob_sha": "1b46ad05ef7082408f85c02d4db91ea70bf982bf"
+      }
+    },
+    "source_reconstruction": "Use actual checkout and materialize the complete working R730/R732 scientific family, then complete R732 accurate family, then the complete closed/flux family. The mesh entry and pure reader also build all three full mesh sources. Every source builder retains full original parent/result identities and reversible whole replacements.",
+    "original_exception_behavior": "The downstream parent entries are direct Python invocations with their original result, progress and exception behavior. The wrapper returns the actual child exit code and adds a separate full source-materialization record.",
+    "original_scientific_target_argv_and_budgets_unchanged": true,
+    "no_AST_fixture_or_scientific_preflight": true,
+    "original_registration_and_source_guards_preserved": true
+  },
+  "point_identity_chain": [
+    "normal fee selects report-hook snapshot or a specifically named immutable original snapshot",
+    "geometry consumes complete same-point normal report",
+    "closed consumes complete same-point geometry and rechecks normal, fixed scalar, evidence and model",
+    "flux consumes same-point normal report; centred invariant rechecks flux and optional closed original point/normal/target",
+    "packet and final meshes use the supplied final closed evidence snapshot; final also requires its 13-member complete original checkpoint at the same point",
+    "without optional closed evidence the named packet or actual current report hook identifies the input; no mutable cache or recent progress supplies missing data"
+  ],
+  "all_fees_pending": {
+    "downstream_actions_run_id": null,
+    "scientific_report": null,
+    "current_model": null,
+    "current_full_point": null,
+    "selected_immutable_snapshot": null,
+    "selected_operator_metadata": null,
+    "normal_fee": null,
+    "geometry_fee": null,
+    "closed_reach": null,
+    "volume_and_all_twelve_moments": null,
+    "centred_invariant": null,
+    "mesh": null,
+    "mesh_word_error_or_continuous_certificate": null
+  },
+  "raw_runner_arrays_and_meshes_committed": false,
+  "actual_downstream_execution_claimed": false
+}
