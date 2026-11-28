@@ -95,3 +95,26 @@ The command verifies pinned source inputs and reconstructs the complete controll
   }
 ]
 ```
+
+## 2026-11-28 11:59:56 UTC — 34自身初点全几何返回及首恢复全步启动
+
+本run 46135301432/1、job140949157288 的science仍为 c3228e9dd8668d9e03467a886eaa80eed21bd0f3/PID3687，driver5253389e2a281b09e0e1ba4a56ba6062f33624c39838c650d869413541149867/model989fec338c43e17cff092c7ed4ad6291e42ab06396162d1c732e52e4664e567c。自身初点/当前点7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，accepted_directions仍0，初统计Phi37754.690332034064/Gram.9309657725734736不变。
+
+初点完整几何现实际返回：positive physical g=4033.8205903217813；六族 reach4033.8205903217813，body_diameter−.06649819116034072，distance_plus−.09518118442527368，distance_minus−2.1086637486767317，cap_diameter−.06715131487906445，height_floor−1.0411715967426867。完整报告的K样本/指标33159.051287192604，D_point_lower4.056019330766351，曲率位置cell919/u.6193095930415985/phi1.4542137869155878/branch1；s字段null，不能补造。此为该实际R730模型自己的全几何费用，不移用R731参考界，也不排除其自由outer的后继改善。
+
+11:49:23.206539+00:00首恢复trial alpha1、点b36a1d76718f3a4679bd75fb6cf879ad8b7f7b702253b3b5a28328b25300e1e3已开始。11:53:28仍正常normal_chain_enter，160 cached roots/22220 original closure returns/0 logical failures；该trial统计、全几何与accepted尚未返回。原全部预算/变量/角点/观察标签保，不把数值进度当final，也不改自然science返后whole pure66120的顺序。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46135301432-1.md",
+    "bytes": 53483,
+    "sha256": "ba96cd7ef10eba1d9d6afa0c2e70e9e948312c8ed92c66f0ee21060cb3eef3fa",
+    "git_blob_sha": "da9129dd21aa7567bab5a92a5b0bd724376baa21",
+    "fixed_commit": "6552609ae10573a8c3dd46a6b4599c583d3bc329",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
