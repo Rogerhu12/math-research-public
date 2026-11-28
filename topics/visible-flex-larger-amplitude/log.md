@@ -594,3 +594,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:14:33 UTC — 27首个完整试步拒绝与半步开始
 
 27首16dfec完整g.7022992022145564/最大reach并拒；当前初7e06 accepted0/g.701239028437362。a7ff7c alpha.5刚开始，统计/几何未知。 不以最大违约补未返回trial细项，不以新试点开始冒接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`942719ef351c1157875a7f653f9f1cdb260c175c`无变（非pull）。
+
+## 2026-11-28 05:18:44 UTC — 29官方失败终态与现有原job日志读取
+
+29官方completed/failure@05:08:49Z、job140871777584研究step05:08:47Z失败；已返只有maker0/5.783396263s/source14fa94b/报告65322/7e17ee19。第二输入与科学未返，不把阶段exit0冒全run成功，实际原因尚未知。[本轮全记录](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)保完整官方run/jobs/固定原分卷索引/末真pull槽。新增题内完整7331B日志metadata脚本及题外.github/workflows/visible-larger-run29-failure-evidence.yml1018B，用公开Actions读取已完成原job日志来修CI，非数学重跑/新gate；whole raw log仅runner，完整异常与整体身份才返。仅移已官方终态29槽，研究继续。双README云核至`922382c228b1c8449cf3119a1cd5447185dc512b`无变（非pull）。

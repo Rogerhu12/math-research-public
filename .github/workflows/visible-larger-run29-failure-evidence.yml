@@ -1,0 +1,34 @@
+name: Read original run29 job failure evidence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/scripts/resume_20261126/recover_public_run29_failure_metadata.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-larger-original-run29-failure-evidence
+  cancel-in-progress: false
+
+jobs:
+  read_existing_failure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout: |
+            topics/visible-flex-larger-amplitude
+      - name: Read existing official log and publish bounded execution evidence
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/recover_public_run29_failure_metadata.py
