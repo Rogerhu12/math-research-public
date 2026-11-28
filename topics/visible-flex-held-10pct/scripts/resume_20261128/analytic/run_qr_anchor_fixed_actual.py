@@ -58,7 +58,7 @@ def resolve(args, out):
     summary_ref = model.ref(summary_path)
     summary = model.load(summary_path)
     # An outer launcher's summary or a design/linear run is not this schema.
-    if (summary.get('schema') != INNER_SCHEMA
+    if (summary.get('schema') not in {value[0] for value in model.ANCHOR_VARIANTS.values()}
             or summary.get('status') != 'original_finite_true_dn_gates_passed'
             or summary.get('result', {}).get('accepted') is not True
             or not isinstance(summary.get('result', {}).get('run'), str)):
@@ -126,13 +126,14 @@ def resolve(args, out):
         '--tol',str(gates['tol']),'--bc-tol',str(gates['bc_tol']),
         '--physical-bc-tol',str(gates['physical_bc_tol']),
         '--radial-refine',str(args.radial_refine),'--max-nodes',str(args.max_nodes),
-        '--verbose',str(args.verbose)]
+        '--verbose',str(args.verbose),'--resource-mode',args.resource_mode]
     sources = [Path(__file__),OWNER,HERE/'qr_fixed_support_actual_model.py',
         HERE/'qr_fixed_support_actual_step.py',HERE/'qr_fixed_support_actual_acceptance.py',
-        HERE/'qr_fixed_support_actual_resources.py',model.checked(context['anchor_gate'])]
+        HERE/('qr_fixed_support_actual_prefactor_resources.py' if args.resource_mode == 'prefactor'
+              else 'qr_fixed_support_actual_resources.py'),model.checked(context['anchor_gate'])]
     result = dict(schema='first-fixed-g-from-actual-QR-inner-return-resolution-v1',
-        source=model.ref(__file__),actual_inner_summary=summary_ref,
-        actual_source_role=context['role'],required_anchor_source_kind=model.ANCHOR_SOURCE_KIND,
+        source=model.ref(__file__),actual_inner_summary=summary_ref,resource_mode=args.resource_mode,
+        actual_source_role=context['role'],required_anchor_source_kind=context['anchor_source_kind'],
         complete_anchor_gate_provenance=context['complete_anchor_gate_provenance'],
         source_run=model.ref(run),raw=context['raw'],physical=context['physical'],
         final_physical_height_binding=context['final_height_binding'],
@@ -171,6 +172,8 @@ def main():
     parser.add_argument('--radial-refine',type=int,default=1)
     parser.add_argument('--max-nodes',type=int,default=6000)
     parser.add_argument('--verbose',type=int,default=2)
+    parser.add_argument('--resource-mode',choices=('factor-only','prefactor'),default='prefactor',
+        help='Explicit complete storage path for the actual fixed solve')
     owner = parser.add_mutually_exclusive_group(required=True)
     owner.add_argument('--own-child-session',action='store_true')
     owner.add_argument('--inherit-owned-session',action='store_true')

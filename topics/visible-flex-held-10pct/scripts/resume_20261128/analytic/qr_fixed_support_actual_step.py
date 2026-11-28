@@ -77,7 +77,13 @@ def main():
     parser.add_argument('--max-nodes',type=int,default=6000)
     parser.add_argument('--verbose',type=int,default=2)
     parser.add_argument('--prepare-only',action='store_true')
+    parser.add_argument('--resource-mode',choices=('factor-only','prefactor'),default='factor-only',
+        help='Explicit execution storage; both choices retain the complete original equations and gates')
     args = parser.parse_args()
+    execution_resources = resources
+    if args.resource_mode == 'prefactor':
+        execution_resources = module('_fixed_actual_complete_prefactor_resources',
+            HERE/'qr_fixed_support_actual_prefactor_resources.py')
     repo,work,out = args.repo.resolve(),args.work.resolve(),args.outdir.resolve()
     source_path,native = args.source_run.resolve(),args.native_source.resolve()
     if repo != HERE.parents[4]:
@@ -97,7 +103,7 @@ def main():
     lock,done = threading.RLock(),threading.Event()
     tail = monitor = None
     record = dict(schema='original-r53-fixed-support-qr-anchor-actual-dn-run-v1',scope=__doc__,
-        model_kind=model.KIND,anchor_source_kind=model.ANCHOR_SOURCE_KIND,
+        model_kind=model.KIND,anchor_source_kind=None,resource_mode=args.resource_mode,
         repository=str(repo),command=[sys.executable,*sys.argv],
         command_kind='Python application argv with interpreter flags recorded separately',
         actual_interpreter_argv=list(sys.orig_argv),
@@ -138,6 +144,7 @@ def main():
         context = model.accepted_input(source_path,repo=repo,origin_repo=args.origin_repo,
                                        coupling_summary=args.coupling_summary)
         source = context['record']
+        record['anchor_source_kind'] = context['anchor_source_kind']
         gates = dict(tol=args.tol,bc_tol=args.bc_tol,physical_bc_tol=args.physical_bc_tol,
             max_nodes=args.max_nodes,tail_solve_tolerance=2e-9,original_outer_budget=8,
             metric_component_fft=1e-6,metric_sample_operator=1e-6)
@@ -198,7 +205,7 @@ def main():
             scripts/'resume_m3/actual_m3_metric_model.py',scripts/'resume_m3/audit_full_relative_metric.py',
             scripts/'resume_20261126/continue_original_actual_dn_chord.py',
             manifest_path,args.base_tail_config,args.tail_config,args.port]
-        record.update(source_hashes={**source['source_hashes'],**resources.sources(),
+        record.update(source_hashes={**source['source_hashes'],**execution_resources.sources(),
                 **{str(p.resolve()):sha(p) for p in paths}},
             native_manifest=ref(manifest_path),native_workers=manifest['execution_provider']['workers'],
             tail_resolution={k:cfg[k] for k in ('modes','quadrature','steps','depth','shootingParts')},
@@ -321,7 +328,7 @@ def main():
             obj.tail = coupler.AffineTailForInnerBVP(H,response,obj.M)
             try:
                 gc.collect()
-                sol = resources.solve(obj,x,y,par,outdir=out,record=record,event=event,gates=gates,verbose=args.verbose)
+                sol = execution_resources.solve(obj,x,y,par,outdir=out,record=record,event=event,gates=gates,verbose=args.verbose)
             finally:
                 obj.tail = tail
             raw_file = out/f'inner-{outer:02d}.npz'

@@ -35,11 +35,11 @@ REVIEWED = {
     HERE/'geometry_recursive_write_guard.py':
         '3a3f864be6047953e26c7a54bea352a294c12a5217cc8104a67547bf0ad34fa4',
     ANALYTIC/'qr_fixed_actual_cartesian_prefix.py':
-        'e66f8cb57de54f4c62b84f36b6f9983ef7866cd19d959d0ff9eaa13ad856ac77',
+        '3e341d44b6c4a3976b266f7791e5a542447e39a3bfe6260bd7a6a92779224a0b',
     ANALYTIC/'qr_fixed_support_actual_model.py':
-        'c85a7affd7e35328bf708510cb2440b6d530f8a259a85f01f8a8f99691db9b88',
+        'bc3989e0433f0342ab4ccaef49dcaafd2b4d6feb85ed7c0f61934b3f997d5372',
     ANALYTIC/'qr_fixed_support_actual_acceptance.py':
-        '045960847c115a4d28126bea63b3237a9b429f760c67ead506a59aff1c996c3e',
+        'b6c1c5a323ffd98a2e8a62f03860b6328c13eaccec33d770d8d8156eaf2776bc',
 }
 ORIGINAL_SHA = 'c165678d912761163ef29cfca1eb9c4dfc4bbf3102de6a00b228ca537f727615'
 

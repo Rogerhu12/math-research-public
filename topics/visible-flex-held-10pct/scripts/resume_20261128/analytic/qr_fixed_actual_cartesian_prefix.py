@@ -103,7 +103,7 @@ def accepted_fixed(source_run):
         physical=physical_ref, height_reference=binding_ref,
         source_mean_nodes=record['mean_nodes'])
     provenance = dict(source_kind=SOURCE_KIND, model_kind=model.KIND,
-        actual_anchor_source_kind=model.ANCHOR_SOURCE_KIND,
+        actual_anchor_source_kind=record['fixed_problem']['anchor_source_kind'],
         actual_QR_anchor_provenance=copy.deepcopy(record['fixed_problem']['complete_anchor_gate_provenance']),
         source_run=ref(source_run), physical=physical_ref,
         actual_predecessor=copy.deepcopy(record['actual_source']),

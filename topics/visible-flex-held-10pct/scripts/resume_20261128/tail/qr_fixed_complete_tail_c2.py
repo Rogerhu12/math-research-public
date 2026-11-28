@@ -54,11 +54,11 @@ REVIEWED = {
     'resume_20261128/tail/qr_coupled_prefix_continuous.py':
         'ef56ab160c7ebf2a16a8fe33901dad2da426d1d8ae71853b645300a53aee0b5c',
     'resume_20261128/analytic/qr_fixed_actual_cartesian_prefix.py':
-        'e66f8cb57de54f4c62b84f36b6f9983ef7866cd19d959d0ff9eaa13ad856ac77',
+        '3e341d44b6c4a3976b266f7791e5a542447e39a3bfe6260bd7a6a92779224a0b',
     'resume_20261128/analytic/qr_fixed_support_actual_model.py':
-        'c85a7affd7e35328bf708510cb2440b6d530f8a259a85f01f8a8f99691db9b88',
+        'bc3989e0433f0342ab4ccaef49dcaafd2b4d6feb85ed7c0f61934b3f997d5372',
     'resume_20261128/analytic/qr_fixed_support_actual_acceptance.py':
-        '045960847c115a4d28126bea63b3237a9b429f760c67ead506a59aff1c996c3e',
+        'b6c1c5a323ffd98a2e8a62f03860b6328c13eaccec33d770d8d8156eaf2776bc',
     'resume_20261128/analytic/qr_fixed_actual_prefix_continuous.py':
         'eb5ceef73221e761bf8de9d80e0e60454c2db19e794909a09f6859bcc157e323',
     'resume_20261128/geometry/cartesian_prefix_metric_tables.py':
@@ -201,6 +201,8 @@ def accepted_pair(args):
             raise ValueError('A complete real anchor raw/physical/H/port identity changed')
         view = read(checked_path(anchor_context['final_height_binding']))
         provenance = anchor_context['complete_anchor_gate_provenance']
+        if problem['anchor_source_kind'] != ANCHOR_SOURCE_KIND:
+            raise ValueError('This original anchor continuous provider requires its original QR source; use two genuine own fixed returns for the mapped-QR refinement pair')
         api = module('_qr_tail_pair_anchor_continuous', reviewed(origin_scripts,
             'resume_20261128/tail/qr_coupled_prefix_continuous.py'))
         context = api.CoupledContext(args.left_coupling_summary, 'complete-tail-C2-pair')

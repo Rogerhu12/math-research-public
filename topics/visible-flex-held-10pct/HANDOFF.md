@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `65fca4763a9431817cd34337f3dd806961c20fb9`（2026-11-28 19:16 UTC）。
+- 最近实际pull后双README已读锚 `52e6d5f4d851410ebbe66ad9acb6876506b0218e`（2026-11-28 19:18 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -15,7 +15,7 @@
 
 **当前真正接受锚：[λ=.128/M24](notes/2026-11-28-design-single-gentle-r87-strict-lambda128-mapped-input-recovery-actual.md)**，1185点/RMS1.9949890856595675e−7/metric6.362597622681736e−7/physicalBC2.0279039207175011e−19/mean1168/δ.06809994455035266。8全步/零拒、502.007s/699648KiB；全部原门及全来源/raw/physical/hash实核。run683d916f31de1406defc42fd7630efdc127aaf093e529ed7ab8b2030c1ec7d9c，out `held10-design-work/R87-strict-mapped-material-continuation-20261128/attempt-001`。已恢复历史前沿，非新λ进展；[.064](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)/[.032](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)前驱保留。
 
-**当前唯一执行：TTY80642，19:15:28.413 UTC**，out `held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128`，command c8e78bcf…。从真.128/.064及已有port32接.256/.512/.75/1。14227因同M旧入口合同真exit1/remaining0，73980修复后左完整lift已真过并保存，右大批几何参考worker−9而真实join；原因未知，皆未启.256 BVP。当前v3 helper将原reference_geometry_check径向batch16→2、保全部N/六jet/1e−7门，并经源/hash核后复用已过左包6cea6e62…，不重算。BVP仍全映射/RHS8/tol2e−7/全部原门；现成metric observer仅读原唯一audit数组，尚未出.256结果。
+**当前唯一执行：TTY80642，19:15:28.413 UTC**，out `held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128`，command c8e78bcf…。从真.128/.064及已有port32接.256/.512/.75/1。14227因同M旧入口合同真exit1/remaining0，73980修复后左完整lift已真过并保存，右大批几何参考worker−9而真实join；原因未知，皆未启.256 BVP。当前v3 helper将原reference_geometry_check径向batch16→2、保全部N/六jet/1e−7门，并经源/hash核后复用已过左包6cea6e62…，不重算。BVP仍全映射/RHS8/tol2e−7/全部原门；右lift已真exit0，101径向×3104角全部六jet误差3.44214e−15；真1185×97初猜eebe2267…已进入.256/M32 BVP。现成metric observer恰一次安装，仅读原唯一audit数组，尚未出.256结果。
 [.032工程终态与完整映射源](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)：原73924 child−9且真join，原因未知；已保存5全步的完整1051×73/p24 checkpoint904db0f9…并由65581原样续算。真join后才清自有映射；未λ二分、未重算5步、未改方程/门。
 
 旧视图最高真接受λ=.128/M24（run7f8bfa03…，metric6.3560e−7、mean1168）raw已不可读；当时λ=.256/M24/M32/M40的metric分别8.8414e−5/1.28584e−6/1.24844e−6未门，M40有952点/RMS9.69144e−7。旧M48无接受、89083真exit1原因未知。[M40小回执](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)不冒旧JSON逐字恢复；这些只是历史，不用旧场替代当前锚。
@@ -30,6 +30,7 @@
 
 - [全映射actual-DN](notes/2026-11-28-tail-mapped-qr-actual-dn-entry.md)：独立真实mapped kind/4源，原native4/chord3/8outer/完整J/H/audit/所有数值门不改；CSR-before-QR与全因子实映射，两store实际清页。真终态controller result.run→内层summary；最终只绑physical-H、mean取实值。无真λ1阳性，旧匿名QR源保留。
 - [固定g模型](notes/2026-11-28-analytic-qr-anchor-fixed-actual-source-entry.md)/[首launcher](notes/2026-11-28-analytic-first-qr-fixed-g-launcher.md)：完整原支持族/fixed=True未知空间、δ/g/profile/chart/warp/mean/native背景均冻结；首次同M更严tol/BC不松。旧准备源的执行分支有后继明确版本，未迁移科学阳性。
+- [fixed完整预映射版本](notes/2026-11-28-qr-fixed-complete-prefactor-resource-and-provider.md)：显式prefactor(8/8/双store)与旧factor-only(64/32)区分；真mapped/旧QR anchor各自reader，fixed科学模型/8outer/所有门不改。完整残差诊断后再次清双store；全部预算实计。旧准备SHA保历史，无真实fixed阳性迁移。
 - [own fixed全尾](notes/2026-11-28-tail-qr-fixed-complete-chunk-source-entry.md)/[全尾C²](notes/2026-11-28-tail-qr-fixed-complete-c2-source-entry.md)：自身完整packet/source/全谱/mean/共同半径分割/两jet，绝对高度来自defining零模+全mean；有限pair非Cauchy。mapped anchor后先真own1→own2，不套旧anchor连续provider。
 - [fixed连续接线](notes/2026-11-28-analytic-qr-fixed-continuous-runtime-contract.md)：geometry→原123/10舍入→tables/metric/cut，同实际width；[own全几何](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)接radius/placement/definition/完整width→reach及原complete metric；[活动矩](notes/2026-11-28-tail-own-fixed-qr-third-activity-entry.md)保全prefix/cut/整尾flux/字面柱长/准确合并。原数学段不改，仅准备无阳性。
 - [时间插值](notes/2026-11-28-qr-fixed-actual-time-refinement-entry.md)作用同源全空间两jet，有限数值误差/底线不冒连续界；[显式mesh](notes/2026-11-28-explicit-full-phase-mesh-entry.md)用4/5与27/50、k.5/S.675、实际全模，若干t各<5MB只存再生命令/hash。帽默认r=a/2；另选帽须先完整合同贯穿map/metric/geometry/activity/mesh/time并冻结g。

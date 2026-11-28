@@ -25,6 +25,12 @@ KIND = 'original_r53_literal_fixed_metric_qr_anchor_actual_dn_v1'
 PARAMETER_ZERO = 'log(q_actual/q_seed)'
 RUNTIME_CONFIG_KEYS = ('traceFile', 'chordMaxCorrections', 'initialCheckpoint')
 ANCHOR_SOURCE_KIND = 'actual_lambda_one_qr_chord_final_physical_height'
+MAPPED_ANCHOR_SOURCE_KIND = 'actual_lambda_one_mapped_qr_chord_final_physical_height'
+ANCHOR_VARIANTS = {
+    ANCHOR_SOURCE_KIND:('original-lambda-one-native4-chord3-outer8-prefix-qr-v1',
+                        'qr_actual_coupled_prefix.py'),
+    MAPPED_ANCHOR_SOURCE_KIND:('original-lambda-one-native4-chord3-outer8-prefix-mapped-qr-v1',
+                               'mapped_qr_actual_coupled_prefix.py')}
 REVIEWED_NUMERICAL_SOURCES = {'chord_fixed_support_actual_model.py': '5f5fde082660b02f164a0b8932bed09ca6fa9ecb212d4928768fc8210d8d82a0', 'chord_fixed_support_actual_step.py': 'a4b21f9fb08c1756b274ceeaa2c89b877ecebfa3bcd64627ebd7940cb5025359', 'chord_fixed_support_actual_acceptance.py': '23501290001a0a01f5aefc0a32772a0a357f87cb86e27f8b1143fd2592e7c93f', 'chord_fixed_support_actual_resources.py': 'c19093a00ddff270337dff47cfcd2c5c1ed426eed79d65eb083dfbc66651db15', 'run_chord_fixed_support_actual_once.py': '23b7ded6ad7791cb032ab0363c4b2e4bceb2be8beb3670cfc4c59289ef641374'}
 
 
@@ -82,11 +88,22 @@ def reviewed_source_paths():
     return paths
 
 
-def original_gate(origin_repo):
-    """Load the old frozen tree's gate, never reinterpret its absolute paths."""
+def anchor_kind_from_summary(summary):
+    kinds = [kind for kind,(schema,filename) in ANCHOR_VARIANTS.items()
+             if summary.get('schema') == schema]
+    if len(kinds) != 1:
+        raise ValueError('Require an explicit genuine original QR or complete mapped-QR inner source schema')
+    return kinds[0]
+
+
+def original_gate(origin_repo, anchor_kind=ANCHOR_SOURCE_KIND):
+    """Load the explicitly chosen true source gate without changing its record."""
     origin_repo = Path(origin_repo).resolve()
-    path = origin_repo/'topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_actual_coupled_prefix.py'
-    if sha(path) != sha(HERE.parent/'tail/qr_actual_coupled_prefix.py'):
+    if anchor_kind not in ANCHOR_VARIANTS:
+        raise ValueError('Unknown actual complete-prefix-QR source kind')
+    filename = ANCHOR_VARIANTS[anchor_kind][1]
+    path = origin_repo/'topics/visible-flex-held-10pct/scripts/resume_20261128/tail'/filename
+    if sha(path) != sha(HERE.parent/'tail'/filename):
         raise ValueError('The explicitly selected original-tree complete-prefix-QR gate needs a separate review')
     gate = module('_qr_fixed_support_actual_anchor_gate', path)
     if Path(gate.SCRIPTS).resolve() != origin_repo/'topics/visible-flex-held-10pct/scripts':
@@ -117,12 +134,15 @@ def accepted_input(path, *, repo, origin_repo=None, coupling_summary=None, seen=
             base_tail_settings=ref(record['base_tail_settings']),
             port=ref(record['linear_port_path']), mean_nodes=record['mean_nodes'],
             original_repository=record['fixed_problem']['original_repository'],
-            gates=copy.deepcopy(record['gates']))
+            gates=copy.deepcopy(record['gates']),
+            anchor_source_kind=record['fixed_problem']['anchor_source_kind'])
     if record.get('model_kind') is not None or origin_repo is None or coupling_summary is None:
         raise ValueError('The first source requires explicit old frozen --origin-repo and actual --coupling-summary')
-    gate, gate_path = original_gate(origin_repo)
+    summary = load(coupling_summary)
+    anchor_kind = anchor_kind_from_summary(summary)
+    gate, gate_path = original_gate(origin_repo,anchor_kind)
     accepted, physical, binding, provenance = gate.accepted_coupled(path, coupling_summary)
-    if provenance.get('source_kind') != ANCHOR_SOURCE_KIND:
+    if provenance.get('source_kind') != anchor_kind:
         raise ValueError('The actual anchor must retain its independent complete-prefix-QR provenance')
     del physical
     summary = load(coupling_summary)
@@ -138,7 +158,8 @@ def accepted_input(path, *, repo, origin_repo=None, coupling_summary=None, seen=
         port=copy.deepcopy(summary['input']['port']),
         mean_nodes=binding['source_mean_nodes'], original_repository=str(Path(origin_repo).resolve()),
         coupling_summary=ref(coupling_summary), anchor_gate=ref(gate_path),
-        complete_anchor_gate_provenance=provenance, gates=copy.deepcopy(accepted['gates']))
+        complete_anchor_gate_provenance=provenance, gates=copy.deepcopy(accepted['gates']),
+        anchor_source_kind=anchor_kind)
 
 
 def chart_record(obj):
@@ -190,7 +211,7 @@ def first_fixed_problem(context, design, anchor, signature, raw):
     if not np.all(design.bcweights == norm):
         raise ValueError('The original boundary normalization changed')
     return dict(original_repository=context['original_repository'],
-        anchor_source_kind=ANCHOR_SOURCE_KIND,
+        anchor_source_kind=context['anchor_source_kind'],
         complete_anchor_gate_provenance=copy.deepcopy(context['complete_anchor_gate_provenance']),
         actual_anchor=ref(context['path']), coupling_summary=context['coupling_summary'],
         original_anchor_gate=context['anchor_gate'],
@@ -334,8 +355,9 @@ def prepare(context, target, *, radial_refine=1):
 
 def validate_refinement_definition(record, context):
     problem = record['fixed_problem']
-    if (problem.get('anchor_source_kind') != ANCHOR_SOURCE_KIND
-            or problem.get('complete_anchor_gate_provenance', {}).get('source_kind') != ANCHOR_SOURCE_KIND):
+    if (problem.get('anchor_source_kind') not in ANCHOR_VARIANTS
+            or problem.get('anchor_source_kind') != context['anchor_source_kind']
+            or problem.get('complete_anchor_gate_provenance', {}).get('source_kind') != problem['anchor_source_kind']):
         raise ValueError('The fixed complete problem lost its real QR anchor identity')
     parent = context['record']
     if (record.get('model_kind') != KIND or record.get('fixed_metric') is not True

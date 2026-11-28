@@ -24,6 +24,7 @@ DESIGN = HERE.parent/'design'
 sys.path.insert(0,str(DESIGN))
 from owned_process_session import OwnedProcessSession, process_identity
 from mapped_factor_cleanup import cleanup_joined_child
+from mapped_complete_storage_cleanup import cleanup_joined_child as cleanup_complete_joined_child
 
 
 def sha(path):
@@ -56,11 +57,20 @@ def main():
     if (work not in out.parents or out.exists() or args.process_record.exists() or args.console.exists()
             or work not in args.process_record.resolve().parents or work not in args.console.resolve().parents):
         raise ValueError('Use fresh child output and terminal records within the owned outside-repo work tree')
+    if values.count('--resource-mode') > 1:
+        raise ValueError('Select one explicit complete resource execution')
+    resource_mode = option('--resource-mode') if '--resource-mode' in values else 'factor-only'
+    if resource_mode not in ('factor-only','prefactor'):
+        raise ValueError('Unknown actual fixed resource execution')
+    cleanup = cleanup_complete_joined_child if resource_mode == 'prefactor' else cleanup_joined_child
+    resource_name = ('qr_fixed_support_actual_prefactor_resources.py' if resource_mode == 'prefactor'
+                     else 'qr_fixed_support_actual_resources.py')
+    cleanup_name = 'mapped_complete_storage_cleanup.py' if resource_mode == 'prefactor' else 'mapped_factor_cleanup.py'
     entry = HERE/'qr_fixed_support_actual_step.py'
     command = [sys.executable,'-u',str(entry),*values]
     sources = [Path(__file__),entry,HERE/'qr_fixed_support_actual_model.py',
-        HERE/'qr_fixed_support_actual_acceptance.py',HERE/'qr_fixed_support_actual_resources.py',
-        DESIGN/'owned_process_session.py',DESIGN/'mapped_factor_cleanup.py']
+        HERE/'qr_fixed_support_actual_acceptance.py',HERE/resource_name,
+        DESIGN/'owned_process_session.py',DESIGN/cleanup_name]
     inherited = None
     if os.environ.get('GITHUB_ACTIONS') == 'true' and not args.inherit_owned_session:
         raise ValueError('Under CI v3 explicitly inherit its owned session; do not create an escaping nested session')
@@ -70,6 +80,7 @@ def main():
                 or inherited['pgid'] != inherited['sid'] or inherited['uid'] != os.getuid()):
             raise ValueError('An existing outer-owned session leader is required')
     record = dict(status='starting_one_original_support_actual_fixed_DN_child',argv=command,
+        resource_mode=resource_mode,
         source_hashes={str(p.resolve()):sha(p) for p in sources},output=str(out),
         console=str(args.console.resolve()),actual_child_terminal_observed=False,
         inherited_outer_owned_session=inherited,
@@ -116,7 +127,7 @@ def main():
         maximum_child_rss_kib=resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss)
     write(args.process_record,record)
     try:
-        record['joined_child_mapped_storage_cleanup'] = cleanup_joined_child(
+        record['joined_child_mapped_storage_cleanup'] = cleanup(
             out,code,child_return_observed=True,entry_sha256=sha(entry))
     except Exception as error:
         record['joined_child_mapped_storage_cleanup_error'] = repr(error)

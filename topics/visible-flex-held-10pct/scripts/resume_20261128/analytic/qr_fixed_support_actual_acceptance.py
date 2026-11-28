@@ -134,7 +134,7 @@ def accepted_actual_input(path,*,repo=None,seen=None):
             ('actual_source_final_physical_height_binding',parent['final_height_binding'])):
         if record[key] != wanted:
             raise ValueError('The complete actual predecessor role changed: '+key)
-    for key,problem_key in (('frozen_profile','frozen_profile'),('gauge_q','gauge_q'),
+    for key,problem_key in (('anchor_source_kind','anchor_source_kind'),('frozen_profile','frozen_profile'),('gauge_q','gauge_q'),
             ('warp_reference','warp_reference_q'),('mean_nodes','mean_nodes'),
             ('bc_normalization','bc_normalization'),('physical_tail_parameters','physical_tail_parameters'),
             ('physical_tail_cut','physical_tail_cut'),('angular_chart','angular_chart'),('core_settings','core_settings')):
@@ -161,8 +161,19 @@ def accepted_actual_input(path,*,repo=None,seen=None):
         raise ValueError('The full returned metric, finite mean or BC normalization left its actual anchor')
     source_repo = Path(record['repository']).resolve()
     local_scripts = source_repo/'topics/visible-flex-held-10pct/scripts/resume_20261128/analytic'
+    resource_mode = record.get('resource_mode','factor-only')
+    resource_files = {
+        'factor-only':'qr_fixed_support_actual_resources.py',
+        'prefactor':'qr_fixed_support_actual_prefactor_resources.py'}
+    if resource_mode not in resource_files:
+        raise ValueError('Unknown explicit fixed actual resource execution')
+    resource_option_count = record['command'].count('--resource-mode')
+    if (resource_option_count not in (0,1)
+            or (resource_option_count == 0 and resource_mode != 'factor-only')
+            or (resource_option_count == 1 and model.option(record,'--resource-mode') != resource_mode)):
+        raise ValueError('The resource choice must match the genuine complete solver argv')
     required_files = ('qr_fixed_support_actual_step.py','qr_fixed_support_actual_model.py',
-                      'qr_fixed_support_actual_acceptance.py','qr_fixed_support_actual_resources.py')
+                      'qr_fixed_support_actual_acceptance.py',resource_files[resource_mode])
     for filename,digest in record['source_hashes'].items():
         if sha(filename) != digest:
             raise ValueError('An actual numerical source/input changed: '+filename)
@@ -306,13 +317,23 @@ def accepted_actual_input(path,*,repo=None,seen=None):
     if any(ready['parameters'].get(k) != v for k,v in problem['physical_tail_parameters'].items()):
         raise ValueError('The original actual worker ready parameters changed')
     resource = record['resource_execution']
-    if (resource['rhs_block'] != 64 or resource['jacobian_block'] != 32
+    expected_rhs,expected_jac,expected_storage = {
+        'factor-only':(64,32,'complete_factor_only_mmap'),
+        'prefactor':(8,8,'complete_CSR_before_QR_and_all_factors_after_QR')}[resource_mode]
+    if (resource['rhs_block'] != expected_rhs or resource['jacobian_block'] != expected_jac
             or resource['matrix_format'] != 'complete_CSR'
-            or resource['storage'] != 'complete_factor_only_mmap'
+            or resource['storage'] != expected_storage
             or resource['gates_relaxed'] is not False
             or resource['original_complete_QR_arithmetic_unchanged'] is not True
             or resource['mapped_logical_bytes_are_not_RSS_credit'] is not True):
         raise ValueError('The declared complete original linear solve/resource contract changed')
+    if resource_mode == 'prefactor':
+        actual_resources = module('_accepted_fixed_complete_prefactor_resources',
+            local_scripts/resource_files[resource_mode])
+        if (resource['source_hashes'] != actual_resources.sources()
+                or resource.get('both_store_clean_page_release_required_before_nonlinear') is not True
+                or resource.get('original_complete_matrix_residual_diagnostic_retained') is not True):
+            raise ValueError('The complete prefactor execution lost its real full-source or two-store contract')
     for filename,digest in resource['source_hashes'].items():
         if sha(filename) != digest:
             raise ValueError('A bound full-matrix resource component changed')
