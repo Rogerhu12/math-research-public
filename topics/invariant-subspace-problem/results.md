@@ -20,6 +20,8 @@
 
 ## 新增结论
 
+- [R150：整个W/b0的原t完整I6、十四行加强与两条同点标量](results/R150-appendix-unit211-W-b0-t-parameter-complete-I6-q2-two-original-scalars.md)：2f7fd唯一4.932428614秒/0，全I6十二/J7十四行与七原来源直接返回。新S3的(u,ν,t)度30/34/3、总49，S4为47/53/4、总76；实际共同乘子仅纯u，所有新头零保，无新权投影或排空主张。
+
 - [R150：正确Phi中心NSPS的实际十行呈示与非零t六次式](results/R150-appendix-unit211-Phi-zero-corrected-centered-t-original-NSPS-ten-by-two-and-sextic.md)：5ebffd唯一2.776731405秒/0，完整NSPS普通均值来源、中心qω及两行/倍数全返。C6的(u,Q,t)度36/23/6、总44，t头总38未付；头补图必要代数12生成。H6/H8与头0全保，六原终端乘子尚未返回，未外推全图。
 
 - [R267：单前向列紧性与原稳定闭根](results/R267-appendix-single-forward-column-compactness-and-original-stable-root.md)：同一A_n∈C′、A_n²强趋C及循环p上A_np一强子列，给真实两列闭图、DomS²=DomS、S²=C及Sp=f；RanS含循环Cp，m0≥1返原普通M。适用YN PtΩ及CW_nPtΩ，实际紧性未付；不需p∈RanS、不倒推逆列。
