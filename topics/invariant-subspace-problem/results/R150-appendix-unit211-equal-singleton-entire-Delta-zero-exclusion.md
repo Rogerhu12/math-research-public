@@ -1,12 +1,12 @@
-# R150：h=k 碰撞的整个 Delta=0 分支排空
+# R150：h=k、Delta=0 的整个条件 C4 原纤维排除（旧全支排空撤回）
 
 > **2026-11-28 依赖更正：** 本页整个 Delta=0 排除依赖已撤回的 578 次/七个 lambda 覆盖，因此全支排除撤回。固定 C1、C2、C4 条件下直接来自正确 Gram 的返回只按各自条件保留；不能合成全 Delta=0 排空。 参见[原定义与依赖隔离](../notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。
 
 会话：Astra-ISP-8542378f-20261127。日期：2026-11-28（Asia/Taipei）。
 
-**结论。** 在原 unit211 非零孤立均值图中，整个 h=k、Delta=0 分支没有原解。最后剩余的四次 lambda 纤维已在完整十二维常数代数上返回全部八条原 Gram 条件；同一个自由 f 下，原 E1 与 EBe 的完整多项式 Bézout 组合为 1。
+**当前保留结论。** 在原 unit211 非零孤立均值图中，附加 C4(lambda)=0 的整个 h=k、Delta=0 条件纤维没有原解。该完整十二维常数代数已返回全部八条真原 Gram 条件；同一个自由 f 下，原 E1 与 EBe 的完整多项式 Bézout 组合为1。
 
-这只关闭所述碰撞的 Delta 零面。h=k、Delta 非零、h=1/k=1 的其余有限候选及其他 R150/R271 接口仍继续；普通复可分无限维 Hilbert ISP 尚未完成。
+这只关闭附加 C4 条件；不关闭整个 Delta 零面。当前正确剩余覆盖见[三个小因子及4788界](R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)。h=k、Delta 非零及其他 R150/R271 接口仍继续；普通复可分无限维 Hilbert ISP 尚未完成。
 
 ## 1. 完整参数覆盖与此前已经关闭的纤维
 
@@ -17,19 +17,17 @@ A=2\lambda^2-2\lambda+1,\quad B=4\lambda^3-6\lambda^2+3\lambda-1,\quad
 $$
 这里 A、B 是已付原单位；h=k=1 的原退化情形此前已经排除。
 
-此前整等权、T0=0、J=Q、Phi=0、Q=1-u 等碰撞原面都已独立关闭。余下 Delta 零面由
-[完整七个 lambda 的 QQ 覆盖](R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)
-准确落入
+[完整 Pf 静审](../notes/2026-11-28-unit211-h-equals-k-Pf-true-original-static-audit-8542.md)已独立支付整个当前碰撞图的 Pf；在 Delta=0 上，Phi·NF=S·xi·Pf 又直接支付 Phi。旧578次/七 lambda 全覆盖撤回，下面三个条件不得宣称穷尽 Delta 零原点：
 $$
 C_1=\lambda-\tfrac13,\qquad
 C_2=\lambda^2-\lambda+\tfrac13,\qquad
 C_4=\lambda^4-3\lambda^3+3\lambda^2-\tfrac32\lambda+\tfrac38.
 $$
-该覆盖源于完整首一 QQ 578 次投影及独立原 N1 的全 Gauss 返回；其余两整个 QQ 因子已排除，没有从模因子猜 QQ 覆盖。
+本页仅处理附加 C4 条件的整个原纤维。
 
 整个 C1 由[唯一有理原基点及自由 f Gram](R150-appendix-unit211-equal-singleton-Delta-zero-entire-lambda-one-third-exclusion.md)排空。
 整个 C2 由[完整四次 u 常数域及原八 Gram](R150-appendix-unit211-equal-singleton-Delta-zero-entire-C2-lambda-exclusion.md)排空。
-本次只处理最后的完整 C4，不重跑这些已登记输入。
+本次只处理附加条件 C4 的整个纤维，不重跑这些已登记输入。
 
 ## 2. 最后完整常数代数，不选择嵌入
 
@@ -123,7 +121,7 @@ $$
 43717a736effeedad28bec7de3b3ca0c5c05736ef129d4ba87850423c307f762。
 按仓库规则只保留源、精确输入和小回执，不另存可重算的完整系数证书。
 
-将本节 C4 排除与第一节的 C1、C2 整纤维排除和完整覆盖合并，得到整个原 h=k、Delta=0 排空。此前有理 u cofactor 的 120 秒超时仍按失败保留并冻结；本次没有重放或延长那个门。
+本节仅得整个 C4 条件排除；C1/C2/C4 不能由旧错误覆盖合成全支排空。与正确十七阶覆盖合并后只剩 F99/F300，并给4788个规范点上界，见上述新整合页。此前有理 u cofactor 的120秒超时仍保留并冻结；没有重放或延长该门。
 
 ## 5. 实际执行身份
 

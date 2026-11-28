@@ -2,11 +2,11 @@
 
 会话：Astra-ISP-8542378f-20261127。日期：2026-11-27（Asia/Taipei）。
 
-**结论。** 在既定原 h=k、Delta=0 域，整个lambda=1/3纤维为空。结合[完整七lambda覆盖](R150-appendix-unit211-equal-singleton-Delta-zero-seven-lambda-complete-QQ-cover.md)，只余C4和C2的全部六个lambda值及其原权/Gram纤维。本页不处理Delta非零，也不宣称整个h=k关闭。
+**结论。** 在既定原 h=k、Delta=0 域，整个lambda=1/3纤维为空。此结论只带附加条件 lambda=1/3；旧七 lambda 全覆盖已撤回，不能由本页宣称只余六个 lambda。与新的正确覆盖合并见[三个小因子及4788界](R150-appendix-unit211-h-equals-k-corrected-small-factor-exclusions-and-4788-points.md)。本页不处理Delta非零，也不宣称整个h=k关闭。
 
 ## 1. 两条原相容式只留一个权点
 
-沿用[原U值图](R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)与碰撞图的准确记号。整个T0零、J=Q、Phi零及等权支已独立排除；Q、u-1也是原单位。lambda=1/3时
+沿用[原U值图](R150-appendix-essential-four-unit-two-plus-one-plus-one-original-U-value-atlas.md)与碰撞图的准确记号。[完整 Pf 静审](../notes/2026-11-28-unit211-h-equals-k-Pf-true-original-static-audit-8542.md)支付整个碰撞图的 T0、J−Q 及等权互补；Q、u−1、S、xi 是原单位。在本页 Delta=0 上，准确原关系 Phi·NF=S·xi·Pf 直接支付 Phi、NF；不需要借一般碰撞 Phi 零排除。lambda=1/3时
 $$
 \ell=\frac{125}{196},\quad T=-\frac{25}{42},\quad
 \xi=-\frac{14}{15},\quad w=-\frac1{14},\quad
@@ -65,7 +65,7 @@ EBe/EBo、NBe/NBo、PBe/PBo来自原两个共轭行的偶奇系数，且r非零�
 
 实际全多项式扩展Euclid已经返回
 $$a(f)E1(f)+b(f)EBe(f)=1,$$
-其中a、b都是一次有理多项式。完整八原行和两个Bézout标签仅1927字节，全部精确系数保存在本次小回执中；两项完整乘回为常数1。
+其中a、b都是一次有理多项式。完整八原行和两个Bézout标签的可再生证书为1927字节；两项完整乘回为常数1。当前仅保原源、定义和小回执，不另存可重算系数载荷。
 
 因此原E1=EBe=0没有任何复f解；其余原条件无法恢复被排除的点。结合第1节整相容纤维覆盖，整个lambda=1/3、Delta零的h=k原纤维为空。
 
@@ -89,4 +89,4 @@ stdout4127字节，SHA256
 
 真实pull为2026-11-27 15:56:00.010854 UTC，读到bc8bbd0e280183b25f698b83f820c7d4f69ea4d5，两README未变。该源只构造新单点原Gram，没有重跑此前578次覆盖或Q=1-u投影。
 
-剩余C4、C2整常数代数继续返回。普通复Hilbert ISP未完成。
+当前整个 Delta 零图还须处理正确覆盖中的 F99、F300；本页只保 C1 条件排除。普通复Hilbert ISP未完成。
