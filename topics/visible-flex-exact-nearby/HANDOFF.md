@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 14:45:34 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 14:49:26 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至e8ec78fa56c8d8e0e08e115844d940d7cf952bed；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库最后终端pull bcf9df3bf87a3304257e2621d5e1e39f3aaae460（13:45:20 UTC）；14:37 API核至a1ea9352be9cfdf32e217d18e3a149d1d2308fa6，README无差异/原#15已执行；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓原partial+sparse，无AGENTS；14:34终端因diskfull后unavailable，按根#8以GitHub小文本接口接续，令牌不落文件或接口。
+公开根/topic规则核至70c7bb25ceb03427b33906b60d2227160a730700；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库最后终端pull bcf9df3bf87a3304257e2621d5e1e39f3aaae460（13:45:20 UTC）；2026-11-28 14:49:25 UTC API核至30ba0eb2848bc893a6c5ad670f693cff9e1d354b，README无差异/原#15已执行；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓原partial+sparse，无AGENTS；14:34终端因diskfull后unavailable，按根#8以GitHub小文本接口接续，令牌不落文件或接口。
 每结论立即发布；终端恢复后仍先pull/NFF即rebase循环。当前只小UTF8，取最新父提交核两README、非强制快进；冲突取新head重建直至成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META14新200未引用legacy JSON只删字符串外空白，净1213006B，原19f16ba8e6/receipt94830B SHA ad194569…保完整literal与身份；META1–13原receipt全保且禁重。每pull核所有new hash及changed/untracked引用，继承完整reference scan。
 
@@ -37,8 +37,10 @@ SREG/SRH同selection E4224连续/E4000<2^-49999998，exact prioris64..2204/sourc
 必须实际完成：正侧low193/58→224→32→PN56/CXN6；TC全列/physical signed square/cross；全high PH⁻¹PKQ/PU/Pg/Pf、ν/两mean/phase/height/normalizer/Robin全部Schur（96不是原2^4608有限补）；同态H1/fullmean/true residual0/core C0；NG/γA0/H8193、qν−Z全负窗ordinary L²≤.005；第四Robin/腰/真phase；完整D² tame/可求和增广迭代；全B/C/Cmean、height/span/holonomy/位置周期/同world frame/腰反射/两regular caps；随后一次冻结并验最终族。
 两库新规已落实：三个接续代理全部显式model=gpt-6.2-astra、reasoning_effort=ultra，原实例完整接续后退出；actual_inverse_ultra真phase/amplitude/uniformG，alternative_route_ultra TCF/actualsquare/精确phase/tame，cap_world_ultra真GG/whole source/Newton/ν；root全逆接口/实际准入/逐结论推送。持续做完。
 
-环境与未推原稿的[完整接续记录](notes/2026-11-28-runtime-unavailable-small-text-continuation.md)：GIP本地41ef0f5f2f未推，GIF/ASQ28原入口未注册；原稿只whole SHA相同才恢复，旧数学不重跑。
+环境与未推原稿的[完整接续记录](notes/2026-11-28-runtime-unavailable-small-text-continuation.md)：GIP本地41ef0f5f2f未推，GIF/ASQ28原入口未注册；GNU已逐字恢复并登记，禁止重放旧batch36。原稿只whole SHA相同才恢复，旧数学不重跑。
 
 - AGXW：真46151646115/1、job140999361779全2962新分片成功；1985B3adf3c33…保整件，strict自然253858721.08722228/mixed4410891605848.822，总4411145464569.909、共同54698203760666.87，5.5门false只是宽上界。原非零势平移/3056原行/14来源保；非局部/独立mean/端点另付。
 
 - AGRT：真46153751966/1 job141005762203 success；全23原件/真实复频/条宽1/512，整1730B1d268647…，Wiener差距>4.334280801198336，0..4阶修正最大<.009061，两小门真。仅同一完整Lcal(X)试探的两根状态严格相等；普通/非局部/跳/腰须配套，正侧独立误差与全逆仍待。
+
+- GNU：原GNF1136/16全行用完整g1H⁻²ᐟ³⊕独立mean的径向L1，真40.72腰口给Ai自然<.002848/common<.03532/有序high<.00291；双参考列<.005635/.06988/.00575。原两J、五mean、根shear保；8新Fraction已在环境失联前唯一执行，全三文件按原SHA逐字恢复，没有重跑。
