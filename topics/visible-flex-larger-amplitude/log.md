@@ -85,3 +85,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:00:57 UTC — 28下一完整试点的统计返回
 
 28下一0927d仅统计Phi681.6473711639321/Gram.40616528955370923、alpha1；当前11e66/accepted1/g.5294703284893127，新几何/接受未返，不跨run继结果。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`4969cfa0b12514b1466b4b916e5e877f26d95d48`无变（非pull）。
+
+## 2026-11-28 06:04:00 UTC — 25完整pure实际返回与同源终点续跑边界
+
+25 pure实际0/313.30434169100045s/sourceab4649d4/reader82a5，readout8554125/f8578678仅runner；445读数实返423+原errors22。同a28ae/de44final不可行，metric0/restoration4、μ实际.01但后继不隐继；wholepacket outer/cache一致、19绑定/10capture/0fail，无crosspoint回填。正做同source/model/完整13final+typed续跑，不借run13标签或摘要重建状态。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`aa552b5a20bfd7aa0541725be3fa90814688a341`无变（非pull）。

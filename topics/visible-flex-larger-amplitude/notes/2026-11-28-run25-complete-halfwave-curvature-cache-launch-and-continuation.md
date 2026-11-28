@@ -938,3 +938,63 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 06:04:00 UTC — 25完整pure实际返回与同源终点续跑边界
+
+同run46099929359/1的原完整pure reader自然returncode0，313.30434169100045s，实际source ab4649d49a97db72889d513ba51b77448f6eff07/reader82a5c50f3006090398a054a1db12a607169bb1b074c25a00fae15ce447b704da；完整readout8554125B/f85786788a9a5a56279eaec742e8e1c851efe3a6e72e7f6a442855a788c617a1只留runner，未取其大体。445 formal读数实返423，原summary_errors 22完整保（空metric方向、prior和未有的旧字段，不填0或真假）。
+
+实际final仍a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf，whole bundle de44d265d795c4c4686dbc0fcf2273c06219644611b61c9fe2d7ab4b24bb7b1f；metric accepted0/restoration4，Phi681.6450227773521/Gram.40616533555531326/g.5225620087197518，final_geometry_passed=false。原32stage/1496点读完整、endpoint residual9.19870628444204e-14不代全域证。
+
+实际final_mu=0.01；后继不因记录了它便偷偷继承，必须按原完整CLI/同源重启合同明确处理。完整typed memory数量与hash、全原参数/源码均从whole原报告按原reader再读，非从本摘要重建。最终packet outer/cache均匹配同全point，latest_capture_completed=true；19 bound snapshots、10 captures/0fail，cross_point_backfill=false；这不替代后继准确均值/branch/闭面条件。
+
+下一真实输入将是同一runner的完整原报告与13成员final。已刊run13 restart不能直接换名字冒25 source/model；当前25源码原分支已确认允许完整同source的不可行final继续，完整参数接续由独立来源说明给出。此刻仅保实际pure结果，不宣称尚未启动的新步骤已执行。
+
+```json
+{
+  "pure_returncode": 0,
+  "pure_seconds": 313.30434169100045,
+  "actual_pure_outputs": [
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46099929359-1/research/postprocess/fixed-fejer-paired-halfwave-dk-cache-bhalf-first-readout.json",
+      "sha256": "f85786788a9a5a56279eaec742e8e1c851efe3a6e72e7f6a442855a788c617a1",
+      "bytes": 8554125
+    }
+  ],
+  "actual_report": "c1be23826229f3df572ac3df64e25f2c4f65d0c5c8ec816436c9d3249fc221b4",
+  "actual_driver": "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910",
+  "actual_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+  "actual_target": "d492e4ad97245a8474f1a73a8787aac2fc5691b1f928d0b8ea72224cabd55160",
+  "actual_final_bundle": "de44d265d795c4c4686dbc0fcf2273c06219644611b61c9fe2d7ab4b24bb7b1f",
+  "actual_final_mu": 0.01,
+  "actual_envelope_typed_memory": 13,
+  "actual_envelope_typed_memory_hash": "b0f7d5a2346b27ada6e6619877da8d2c3ad05ab1f6345dfd00405356d3f86ed3",
+  "actual_packet_outer": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+  "actual_packet_cache": "a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf",
+  "actual_packet_complete": true,
+  "actual_cross_point_backfill": false,
+  "actual_stop": "declared_restoration_budget; actual_violation_remains_and_is_not_accepted"
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 34351,
+    "sha256": "174d1323c2684b5f788f066040739c6c18a7723c85ac27bd56e7c1a5e4d5eadd",
+    "git_blob_sha": "52bf00e80345b8c7713a70eda4512e76e4344126",
+    "fixed_commit": "4969cfa0b12514b1466b4b916e5e877f26d95d48",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1-part-002.md",
+    "bytes": 33046,
+    "sha256": "b58b50d80400b671df9aa22b993e54ea9e7bed29b3d6052961ebe37dacbf3064",
+    "git_blob_sha": "9614c809d95c25d757c0406b9f168cb6094541f1",
+    "fixed_commit": "4969cfa0b12514b1466b4b916e5e877f26d95d48",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

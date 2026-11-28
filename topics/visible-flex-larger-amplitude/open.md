@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 真实数值与继续入口
 
-固定Fejer g/M160/J923/N2048/32stage；全157/7词、458/445formal，25起64live保原48；原全部变量/域/预算保。12–18取消原因未知；19 science/pure0、N1无report/原因未知，完整异常入口已刊。20/21官方取消也不冒已知原因；25科学自然0，原完整pure现接续；其余22–24/26–29整科学report未返。
+固定Fejer g/M160/J923/N2048/32stage；全157/7词、458/445formal，25起64live保原48；原全部变量/域/预算保。12–18取消原因未知；19 science/pure0、N1无report/原因未知，完整异常入口已刊。20/21官方取消也不冒已知原因；25 science/pure自然0，同源final正续；其余22–24/26–29整科学report未返。
 
 | 全记录 | 当前真实边界 |
 |---|---|
@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | b34824/accepted3/reachg.5235597907246015/distplus.11392305204890485；report未返。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 87c076/accepted2/g.9678293850088526；6a101完整g.9815551189995484拒，491dae刚起。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | ff7dc8/accepted2/reachg.6115910089638068；f725c仅统计。 |
-| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | science0/9668.217378869s，a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518；whole report51804983B/c1be2382；原pure同runner接续。 |
+| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | science/pure0，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；同源whole final正接续。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 初7e06/accepted0/reachg.006249035762618371/distplus.13346402986277572；7722d拒，adf3c9半步仅统计。 |
 | [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | a7ff7c/accepted1/reachg.7008605078876107/distplus.08419920552570004；K13.718888932685733/s=null。 |
 | [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | model61c654；11e66/accepted1/reachg.5294703284893127/distplus.11391376026366629；K12.318076128726846/s=null；0927d仅统计。 |
