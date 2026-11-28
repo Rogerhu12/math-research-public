@@ -59,5 +59,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 并行47规则核查：2026-11-28 17:43:24 UTC，真实pull至`bb4ec7232fd1d512d31fc5286e222dd0680b5c64`，双README无变化。
 <!-- visible-larger-parallel-47:end -->
 <!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull c91033f022b69f0d022a7955951346d8717bb0c2
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 0cb5edd3139c62e8b556022d36fbd2d0ceea5aba
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 86c51faeeb0cf15e5eae3737d8f5fdc0598592bd
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull f949e13a98bd56669999a03dd9cf86debe124414
