@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar全旗/有限头图/同P最大根与真核心/P⁺紧支配保正文及快照。[逆费用](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)为r^(4+o1)且逐平坦p超r⁴；[旧整逆场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)无根。[同P幂费](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)双log/n^1.5→log16/48、解析逆对数任意1+ε，未知Q仅上界。[联合解析场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)以L^q Jensen及真实同P逆付全旗quasi/最大图核心/忠实性；P超越旧场、e^P非旧场(P)，该联合场仍无根。[全幂正序comm零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)不外推无格Q。续场外复Y²=CP²，旧AT/AM门不重开。
+原Haar全旗/有限头图/同P最大根及真核心/P⁺紧支配保正文。[逆费](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)为r^(4+o1)且逐平坦p超r⁴；[同P幂费](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)双log/n^1.5→log16/48，未知Q仅上界。[正P联合场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)全旗quasi/真核心/忠实，P超越旧场且联合场无根。[新双平坦Q](results/R267-appendix-same-flat-denominator-all-inverse-powers-and-double-flat-source.md)由原收缩强积给全部C^-aP^-bQ、全旗强单位和同源双逆卷积；F_P真含于F_C，Q幂双log/n^1.5→∞。真实目标B_(zF²−1)=0未解，未称新类忠实或根已成。[正序comm零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)不外推无格商；旧AT/AM门不重开。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-首派自含f62真四二次头，120秒/1GiB，仅QδPf坐标图；全部24原系数/四极大子式/分母返回，不用旧H1、m、u+Q−1或2ell−3逆。若四头全零只报rank≤2，保所有零面；不重播错误旧门。W正确原链和十三单位均已静态核实，Haar/R271不依赖此处代数。
+f62真0.091190541秒/0，24原系数及四个非零极大头全部返回，59精确除法/全部因式乘回；共同Mn²ellnum³仅content，剩头零面全保，泛型rank3不升全图。仅QδPf坐标图，无旧H1、m、u+Q−1或2ell−3逆；继续真实共同头零与原值，不重播错误门。W正确原链和十三单位均已静态核实，Haar/R271不依赖此处代数。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
