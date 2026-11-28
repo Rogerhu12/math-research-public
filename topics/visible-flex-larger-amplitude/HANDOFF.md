@@ -37,7 +37,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c0bbc76844845379771d5e5700340909084d9100
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 037dd68058082560eeccb1409da06b49b7fe8fe3
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 882f8450190e3d75529d1c8ffcb64c91f48167d7
 
 <!--r777-publish-->R777 [全部返回](notes/r777-bent-cap-whole-46179547740-1-index.json) [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 52937a89ed7db0955993c22230239f8a414d5651
@@ -67,3 +66,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。
 <!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 35fa370691418583a610b2917854ba6e2372bbd5
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull c363ea39253a403f736186902a499f207fc44f8c
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull fcdf93fa5f04ace4960ef23805a4427185c1d839
