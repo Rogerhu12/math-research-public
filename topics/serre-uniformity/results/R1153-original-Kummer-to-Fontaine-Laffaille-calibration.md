@@ -1,5 +1,7 @@
 # R1153：原 Kummer 多项式与有限 Fontaine–Laffaille 坐标的精确校准
 
+> **局部校准补全，[R1180](R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)。** 原同一 ζ 的严格 LT 与独立局部测试类现证明 F_j=γ^(2j)ℓ_j（j=1,2），从而 U_E=γ_E²、η★=1 对全部分支成立，包括两个 Bernoulli 局部值同时为零；不需 generic SS 校准点。本文原条件性检测保持为旧证明，校准限制由该新自足论证解除；全局生成性及其它范围不改。
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126；global_route。
 
 **已证明，纸面。** 对任何具有一个非特殊 $\mathbf F_p$-有理超奇异点的素数 $p>37$，本篇把 R1071 的同一原 Kummer leading 多项式与 R1147–R1151 的同一有限 Fontaine–Laffaille 两槽完全对齐。第一槽的实际比较单位是

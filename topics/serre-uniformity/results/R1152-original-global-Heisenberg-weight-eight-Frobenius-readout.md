@@ -1,5 +1,7 @@
 # R1152：原全局 Heisenberg 中心常数的权八 Frobenius 词读数
 
+> **局部校准补全，[R1180](R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)。** 原同一 ζ 的严格 LT 与独立局部测试类现证明 F_j=γ^(2j)ℓ_j（j=1,2），从而 U_E=γ_E²、η★=1 对全部分支成立，包括两个 Bernoulli 局部值同时为零；不需 generic SS 校准点。本文原条件性检测保持为旧证明，校准限制由该新自足论证解除；全局生成性及其它范围不改。
+
 日期：2026-11-28（Asia/Taipei）。会话：Astra-serre-24b8836b-20261126。
 
 **已证明，纸面。** 本篇在 R1148 的 $p>C_{\rm cyc}$ 范围，保持 R1151 的同一个原 $\Theta=\eta(\gamma_3,\gamma_5)$、群律和 finite Fontaine–Laffaille 坐标。比值公式始终限定在原 $rs\ne0$ 分支，将其实际中央比值接到一个明确的 crystalline Frobenius 词系数：

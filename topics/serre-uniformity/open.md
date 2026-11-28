@@ -52,7 +52,7 @@ R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0�
 
 [R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付H¹(Qp,Heis)↔Fp³。R1152 §§1–13付原Θ的绝对三槽 r=2β3/3、s=24β5/5、z=48(J+2β3β5)/25，其中βi=B_(p−i)、J=Har_p(1,3,4)。真正障碍rs h−zab；r/s为零时原七支仍保。Gaussian最高为(256/25)δ³c_g⁶{5β3β5 z12−3(J+2β3β5)x4y8}，cubic将后项改成(J+2β3β5)λA*y7/2。未付这些同源组合及所有深盘。
 
-[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付实际U_E=4δc_g,★²β★²(γ_E/γ★)²及U/U²完整Kummer→FL尺度。a=U_E Q1(β_Et)、b=U_E²Q2(β_Et)+8δ²s/11；Gaussian x4/y8与cubic y7都已准确校准。Fp generic SS存在仅用于p>C_SS，需global基时取max(C_SS,C_cyc)。η★=U★γ★⁻²只在β3好、或p4k3且β5好时=1；两β坏不外推。同一F0全槽现可由R1175有限读取；指定同源组合非零仍未付。
+[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付实际U_E=4δc_g,★²β★²(γ_E/γ★)²及U/U²完整Kummer→FL尺度。a=U_E Q1(β_Et)、b=U_E²Q2(β_Et)+8δ²s/11；Gaussian x4/y8与cubic y7都已准确校准。Fp generic SS存在仅用于p>C_SS，需global基时取max(C_SS,C_cyc)。η★=U★γ★⁻²现在由R1180的独立local测试类在全部分支准确等于1；不再有双β坏的校准缺口。同一F0全槽现可由R1175有限读取；指定同源组合非零仍未付。
 
 [R1155 §§1–14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)同一个raw D的rev/BK、finite Li、两输入ε carry、完整S3/五项/ordered/BCH与全部bad-corner范围已付。固定CM共同ψ下ordinary β、所有高normal/Frobenius carry、原系数与精度界沿原文及逐字前态保全；不以coefficient jet12替function block，不造ramified场Frob。Gaussian单块单位不代指定weighted原组合。
 
@@ -71,6 +71,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 R1168 的原d4/8高Hurwitz公式、normal收缩与原中央有序gauge完整保在原文及[本次前态](open-archive-2026-11-28-before-CM-norm-sign-dictionary.md)。按R1177称S=R_V(yv)，实际AΦ=−S；H=R_Z(yh−b(yv,R)+b(φR,S))，中心Z=b(S,S)−H。高系数本值、滤过gauge/唯一Hodge截面不改；原27terms、同a Cor、未平滑及rs h−zab的实际非零仍继续。
 
 [R1178](results/R1178-original-cubic-CM-norm-and-global-CM-endpoints.md)原cubic全点范数给q_ζ²M4=−γ3/3、q_ζ⁴M8=γ5。原half及+8δ²γ5/11全保，两CM全局labels为Gaussian(δ/4,87δ²/44)、cubic(2δ/9,160δ²/99)。完整fibre=[x,y]Θ，实际端点(rx,sy,zxy)含全部坏支；最低q²Z4由两个高中心及该端点准确读出，cubic此投影确定整个Z4。全部p>37，不用Ccyc或β非零；原whole盘/全局排除继续。
+
+[R1180](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)原同一ζ/严格LT根给正H0代表−γz^(p+1)g(1+Γp)，全部log尾、真实trace/e及两次合法PD gauge给synt=−γ^(2j)c、physical=+γ^(2j)c。独立local测试类校准F_j=γ^(2j)ℓ_j(j1/2)，故U_E=γ_E²、η★=1全部坏支，不需generic SS或β非零；保原σγ=−γ与Miller相位。
 
 ### 原完整 47：已完成，只消费
 
