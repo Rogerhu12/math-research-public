@@ -1,0 +1,213 @@
+{
+  "schema": "physical-geodesic-normal-closed-shape-search/v1",
+  "source_sha256": {
+    "r748_developable_axial_caps.py": "947245856229ddeb95b83c763403e86bdd867c63b63b6013929d2e2a13a87b46",
+    "r747_offset_arclength_closed_two_jets.py": "09b29cd06eec6887bf8f103f104cdd9ca598b691c3e7503fa2220dbafc71e3ac",
+    "r746_axial_translation_closed_two_jets.py": "e5ab4d4a0921cb83c7eefc485147883d6dcea92ff9df6f3f3da8604440f174ef",
+    "r744_extruded_closed_two_jets.py": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+    "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+    "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+    "bent_end_phase_fields.py": "5305a955f3f5a0f37a3097388b025889584ce2033fe82bcab0140ab8330b31ba",
+    "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+    "r753_rectifying_cylinder_and_cap_fans.py": "8115dea654acb925db30357e675db07879dcedfecfe3c4f4fb0c5d0539217a81",
+    "r752_delayed_turn_closed_two_jets.py": "762717cc9bd895893b9538683a588217d2f8fc4f236f997a3120880acbe161c6",
+    "bent_hard_end_fields.py": "af0422bc6ed3e8823594b955550ef980c665d1b24e5330a46a595c19c5b333ba",
+    "bent_end_phase.py": "0b2ce5d260bdc4160b972d7b36cc0567660c6bbc18d56eb722265e6f0b04b701",
+    "bent_fermi_shoot.py": "a519f608e85af861f127a82cda83598f597b1d3aec2d4821ccafd5d9b0e5976a",
+    "bent_fermi_reconstruct.py": "a229a2cbe57ac6e81849e7cf8e09c5f7f1a1e56ee7086b838ab394b17a350a71"
+  },
+  "export_sha256": "fca64a1a1b16822b39f7c4bc12bb559f394eb88f81da932fbaa13c161914d197",
+  "export_geometry_sha256": "eadff92d30352db738e8642f3fcad051661d6a48a3628c22101a58967f1b0050",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "jax": "0.7.1",
+    "jaxlib": "0.7.1",
+    "jax_enable_x64": true
+  },
+  "designs": [
+    {
+      "id": "legacy-free-pose",
+      "method": "legacy",
+      "middle": 0,
+      "upper_cubic": 0.000001,
+      "lower_cubic": 0,
+      "cap_y": 0
+    },
+    {
+      "id": "omega-free-pose",
+      "method": "arc",
+      "middle": 0,
+      "upper_cubic": 0.000001,
+      "lower_cubic": 0,
+      "cap_y": 0
+    },
+    {
+      "id": "plateau-free-pose",
+      "method": "plateau",
+      "middle": 0,
+      "upper_cubic": 0.000001,
+      "lower_cubic": 0,
+      "cap_y": 0
+    },
+    {
+      "id": "omega-shortened-cap",
+      "method": "arc",
+      "middle": 5.960464477539063e-8,
+      "upper_cubic": 0.006,
+      "lower_cubic": 0.003,
+      "cap_y": -0.15
+    },
+    {
+      "id": "plateau-shortened-cap",
+      "method": "plateau",
+      "middle": -5.960464477539063e-8,
+      "upper_cubic": 0.008,
+      "lower_cubic": -0.005,
+      "cap_y": -0.22
+    }
+  ],
+  "physics": {
+    "shape": "Full nineteen admitted central and cap parameters, both complete independent three-vector annular fields and the two endpoint fractional powers.",
+    "hard_difference": 0.00004,
+    "slope_guard": 7,
+    "acceleration_guard": 135,
+    "jacobi_guard": 20,
+    "bend_weight": 2,
+    "support_goal": 0.105,
+    "support_weight": 16,
+    "area_weight": 5,
+    "curvature_cap": 9.5,
+    "geometry_peak_weight": 0.35,
+    "angular_peak_weight": 0.24,
+    "length_weight": 4,
+    "landing_weight": 2.4,
+    "jacobi_derivative_weight": 0.09,
+    "curvature_density_weight": 0.035,
+    "map_ridge": 3e-8
+  },
+  "mesh_times": [
+    0,
+    0.2617993877991494,
+    0.5235987755982988,
+    0.7853981633974483,
+    1.0471975511965976,
+    1.3089969389957472,
+    1.5707963267948966
+  ],
+  "coarse": {
+    "id": "five-physical-rolldown-starts",
+    "mesh": [
+      27,
+      11,
+      8,
+      7
+    ],
+    "check": [
+      69,
+      21,
+      15,
+      13
+    ],
+    "intervals": 2,
+    "extra_check": false,
+    "radial_degree": 2,
+    "turn_degree": 2,
+    "roll_modes": 3,
+    "regularizer": 0.000007,
+    "maxiter": 52,
+    "rays": 23,
+    "check_rays": 59,
+    "steps": 72,
+    "check_steps": 143,
+    "map_fourier": 3,
+    "map_radial": 3
+  },
+  "refinements": [
+    {
+      "id": "frozen-domain-1",
+      "mesh": [
+        35,
+        13,
+        10,
+        9
+      ],
+      "check": [
+        77,
+        25,
+        17,
+        15
+      ],
+      "intervals": 4,
+      "extra_check": true,
+      "radial_degree": 4,
+      "turn_degree": 3,
+      "roll_modes": 5,
+      "regularizer": 0.000004,
+      "maxiter": 64,
+      "rays": 39,
+      "check_rays": 81,
+      "steps": 104,
+      "check_steps": 207,
+      "map_fourier": 5,
+      "map_radial": 5
+    },
+    {
+      "id": "frozen-domain-2",
+      "mesh": [
+        49,
+        17,
+        12,
+        11
+      ],
+      "check": [
+        103,
+        33,
+        21,
+        19
+      ],
+      "intervals": 8,
+      "extra_check": true,
+      "radial_degree": 6,
+      "turn_degree": 5,
+      "roll_modes": 7,
+      "regularizer": 0.000002,
+      "maxiter": 76,
+      "rays": 57,
+      "check_rays": 111,
+      "steps": 144,
+      "check_steps": 287,
+      "map_fourier": 7,
+      "map_radial": 7
+    },
+    {
+      "id": "frozen-domain-3",
+      "mesh": [
+        65,
+        21,
+        16,
+        14
+      ],
+      "check": [
+        127,
+        41,
+        27,
+        23
+      ],
+      "intervals": 16,
+      "extra_check": true,
+      "radial_degree": 9,
+      "turn_degree": 7,
+      "roll_modes": 9,
+      "regularizer": 0.000001,
+      "maxiter": 92,
+      "rays": 79,
+      "check_rays": 149,
+      "steps": 200,
+      "check_steps": 399,
+      "map_fourier": 10,
+      "map_radial": 9
+    }
+  ]
+}

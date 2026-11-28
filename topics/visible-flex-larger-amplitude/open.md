@@ -99,41 +99,34 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 课题上次104清理后168796207B；未知旧JSON未全分类，不声称已完成所有存储责任。HANDOFF<10000B，各Markdown<100KB；此open通过同目录逐字检查点保全旧内容。源码、完整证明和实际结论按授权直接发表，不新增fixture、审批或六/九jet机器门。
 
-## 7. 当前实际闭面求解与未付标准
+## 7. 当前完整物理求解与未付标准
 
-本节改写前[完整状态](https://github.com/Rogerhu12/math-research-public/blob/c11e0a47491ac945e65cc3c7e24a5ea6a6e16955/topics/visible-flex-larger-amplitude/open.md)逐字保全部旧源参/预算/点/费用/失败未知与旧链；§1–6原23359B不动。课题未完成，持续实际求解，阶段、时长、失败和现输入不足都不是停点。下面仅导航，完整ownnote/proof不减。
+本节改写前[完整open](https://github.com/Rogerhu12/math-research-public/blob/f1f8160c84153fdda31720beed1a09ddc9358a15/topics/visible-flex-larger-amplitude/open.md)逐字保全部原状态、源参、预算、失败未知与旧链；§1–6原23359B不动。课题未完成，做完子问题继续换输入/方向，不等阶段回报。
 
-### 活求解和原实际证据
+### 原实际任务持续
 
 [33](notes/2026-11-28-run33-section16-retry.md) 46133839513：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。
-
 [34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432：原139角色/预算，accepted0；半步reachg300537.3169553407拒；四分8d07925e统计Phi48094.211909104895/Gram1.54633199996496，完整几何待，原pure66120待自然返。
-
 [35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293：原139角色/1,333,370 outer全自由，accepted0；四分af5eac51完整reachg603.7537475106277拒；八分498c3dca原trial已启，统计/几何待，pure74162待自然返。
 
-[39b全实际](notes/2026-11-28-run39b-actual-material-flow-complete-launch.md)：46148134174/job140988582395自然RC0，11重生点全异，实际新冻结b02763f0，原39flow未知；本次6/9/10共74点×2容差全t/J返回0失败，Gram峰2150.246171967102/336.21278829858846/1245.8329312709147，未达标。
+33–35所有初值、角色、driver/model/点/预算及此前拒绝保各ownnote；trial非accepted/final，异model不借同坐标费用，science自然返后才原whole pure。
 
-[40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md) 46148644102/job140990119811：五粗全返，主已expanded中央自由；固定g前两细化ba153412/cce19ff7的Gram8.040081916241995→6.968190732291204，K2815.83797→2087.58016，未达标；原16时间区间层继续，不缩预算。
+[40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102：五粗全返，expanded中央自由；固定g两细ba153412/cce19ff7 Gram8.040081916241995→6.968190732291204，K2815.83797→2087.58016；原16时间区间继续，未达标。
+[41](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md)46151180968：五粗全返，选15537e0f omega-shortened-cap Gram.5255541408830331/K266.9027055；中央/帽约1e−13、四缝二jet≤2.274e−13，双卷未付。原4/8/16区间继续；新返回逐条登记。
+[R751](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：原46150384106全3×7×9返，小扇区Gram约8e−14，全帽8809.79。原K370.7886/247.3521保留；46151602924完整42帽新测3.9124/2.6101未重现原峰；46153716771原入口全raw已运行，实际逐条入note，不借低峰SVD冒原高峰。
 
-[R751原峰矛盾](notes/2026-11-28-R751-cap-forensics-and-original-raw-replay.md)：原46150384106全3×7×9返回，小扇区Gram约8e−14而全帽8809.79；原K370.7886/247.3521保留。追加46151602924的42帽返回3.9124/2.6101、graph/SVD相合却未重现原峰；原入口全raw与调用顺序复算现触发，差异未解。
+[42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)：完整18输入/10新件，真测地Jacobi的物理优化+两材料图重建，五粗及同g4/8/16精化、原52/64/76/92预算；同runner末原点65相并七全网真实几何。普通触发，实际未返；R756原中央禁阻仍有效，另换43初g。
 
-R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g，真空间中央与双独立fan帽各自全同g；全|a|≤2⁻²¹所有中央弦付闭距必要条件。命名小场D0<3.49/reach≥.107/grip≥.72/held>1.521/δE>0，不冒大control几何；双全卷仍欠，41真解。全部旧界及失败范围保[此前H](https://github.com/Rogerhu12/math-research-public/blob/6e6bc85a6888b3331288f19cda8a517709525b48/topics/visible-flex-larger-amplitude/HANDOFF.md)。
+### 当前数学方向
+
+R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g付所有中央弦的闭距必要条件，空间中央柱与双完整fan帽各自全同g；命名小场reach≥.107/D0<3.49/grip.72/held>1.521/δE>0。**R756现证明规定中央仍有完整平材料矩形母线障碍，必要弦条件不够；41/42不能因换规范宣称解障。**
+[R754](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)：整闭reach≥.132/D0<4.01/grip1.4/held>1.09/δE>0，修正整左翼和双帽对应x≤0同g；原两墙/刚左翼各违真帽捷径。全3层×7相×9图及双全帽运输原工作46153891204持续。
+[R755](results/R755-geodesic-normal-continuation-and-fixed-cap-landing.md)：在真实测地唯一C¹变分、非聚焦单覆盖与正横截条件下，两整卷同g等价全J=1−dκ0、全T=L及一帽锚，付四缝二jet；不冒存在或C²自动流正则。
+[R756](results/R756-flat-ruling-cap-obstruction-and-preloaded-exact-returning-rolls.md)：C²平片非零II的直母线合法全续，排除旧直中央变弯后仅修双端帽，并特化R752/753单端。独立预载g精确付整活动右墙两整roll/双帽领，完整九图续接已给，但两原平帽继续强制冲突；该准确分支全reach未证。后继须真改初帽曲率或释放端Cauchy，不能只缩扇区/改标签。
 
 
-[41新g全时联合](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md) 46151180968/job140997950457/PID2553：五粗全返，选15537e0f omega-shortened-cap，Gram.5255541408830331/K266.9027055；中央/两帽约1e−13、四缝二jet≤2.274e−13，余双卷未付。原4/8/16区间精化继续。
+### 保留的全部责任
 
-19–32原终态及README异常、36–39各全部原阶段自然返回和未付费用，均保[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/c11e0a47491ac945e65cc3c7e24a5ea6a6e16955/topics/visible-flex-larger-amplitude/HANDOFF.md)、原独立日志与各ownnote。39的原11点没有实际flow；39b重生11点全异，三组全148轨线是新冻结b02763f0的真实结果，不混借旧39。
+19–32原终态、36–39全部阶段/原39未访flow与39b重生不同点，R724–750条件和失败范围，全部保固定旧open/H及各完整proof/note，已登记不重做。R732全13+14件/139源/922cells/32stage、N38/52G8/22、900sec/1Mleaf/192bit及7步预算不减，35自然science返后才原完整pure。RET100H/100I完整复现退出旧生成文本，活输入/唯一状态/未闭来源保。
 
-[R754](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)：完整两墙/刚性左翼同初g0，reach≥.132/D0<4.01/grip1.4/held>1.09/δE>0；修正整左翼与双帽对应x≤0全同g。原左肩和修正右弓分别违真帽捷径，两种全锁中央均不可补齐；两支原3层×7相×9图实际测量触发，继续改中央/初g。
-
-[R755](results/R755-geodesic-normal-continuation-and-fixed-cap-landing.md)：在真测地唯一C¹变分、非聚焦单覆盖、正横截条件下，两整卷同g等价全J=1−dκ0、全T=L及一个帽标签锚；付四缝二jet，不冒存在或C²自动流正则。42求真实形状及三行材料重建，仍受原中央几何障碍。
-
-R756已证明[完整C²母线禁阻](results/R756-flat-ruling-cap-obstruction-and-preloaded-exact-returning-rolls.md)：原平材料矩形在规定中央弯曲后被迫直母线贯穿真roll/帽，给R752/753单端长度>2.08的矛盾；R752所有中央弦必要条件仍正确却不足。独立预载g可准确付整活动右墙的双整roll与双帽领，完整九图C²续接源已刊，但这两个准确领仍不能只修原平帽补齐；准确续接全reach未证。继续改真实初帽曲率或释放端Cauchy，不把任何局部付清当全g。
-
-### 数学输入与整域责任
-
-R724–750完整结论见[结果索引](results.md)与逐条proof/note，全部原范围保此前固定全文。R738同g厚浸入不冒整片厚嵌入；R744–748的全厚闭参考和局部准确中央/帽不代二维全g；R749–750的非线性CK正宽与26片极小明确宽不付全周期、曲入口或完整端帽。R741自由Killing/Haar仍需原全部条件，R743微小商距不冒宏观。已登记结论不重做。
-
-R726–730准确包、R732完整13+14件全部保留：139源/922cells/32stage/全六jet/N38/52/G8/22、900秒/1Mleaf/192bit、原7步完整预算不减。待35自然science及whole pure同点实际返回；未到其原入口时不另造成功。原source/model异同、正常/异常终态、全部raw和point合同在原完整记录中保持。
-
-最终须闭连通C²嵌入/全t强C²、同固定g、D为整个初像直径，固定有内点H且diam≥.2D、整像未对齐held≥.2D、全t reach≥.03D、含反射δE>0及完整relative metric算子≤1e−6；同g/参数/全时间域真正空间、频率、时间细化到机器/原容差，并交多个<5MB全闭mesh。先付全标准，再继续提高三个比值；补不出则换输入和方向继续。RET83–100I完整逐字复现与固定Git保全部退出生成件；不退活源/唯一原始状态/未闭来源，科学raw仅runner/scratch。
+最终须闭连通C²嵌入/全t强C²、同固定g，D为整初像直径，固定有内点H且diam≥.2D、整像无对齐held≥.2D、全t reach≥.03D、含反射δE>0、全relative metric算子≤1e−6；同g/参数/全t真实空间频率时间精化到机器/原容差，多时刻整mesh<5MB（根§15源参/run/SHA存储优先）。先付全标准再提高三个比值；所有未付持续求解。
