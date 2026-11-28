@@ -902,3 +902,46 @@ root无可用executor，实际重置后唯一探测失败的最新记录为04:17
   }
 ]
 ```
+
+## 2026-11-28 06:30:17 UTC — 28第三个候选点e1476的自身统计返回
+
+新试点e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf、alpha1/restoration，自身Phi681.6470516175361、Gram.40616529581758637已返；该试点几何/接受未返。当前仍0927d/accepted2，不把旧latest_trial_geometry或别run的近同统计绑定本试点。候选点序号不是已付方向数。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-demanded-bhalf-first-20261128",
+  "scientific_source_commit": "b1a8554a9d88dc176f7295eab4bed9f73f65e3f2",
+  "scientific_source_sha256": "2a94d33f37356be25fbed93b79b85b4664490b464d7d5fb5acb3edb13db3e22b",
+  "pid": 3331,
+  "observed_utc": "2026-11-28T06:27:47Z",
+  "new_actual_observation": {
+    "math_at": "2026-11-28T06:25:51.178021+00:00",
+    "math_event": "trial-statistics-returned",
+    "trial_point": "e147626c4470a4004eec1acee74bdd30e1f33fb387462616f343396e9ce7dddf",
+    "trial_Phi": 681.6470516175361,
+    "trial_Gram": 0.40616529581758637,
+    "trial_alpha": 1,
+    "trial_phase": "restoration",
+    "trial_accepted": null,
+    "accepted_directions": 2,
+    "current_point": "0927d5de39c70ca7f35d91c15d4603cf3d8fb9d97757b0f172e4d5b72f095d98",
+    "complete_report": false
+  },
+  "all_other_fields_and_errors": "Preserved in the entire original immutable evidence file below; no stale trial object is rebound."
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1.md",
+    "bytes": 41010,
+    "sha256": "9dc2f04db9a34123bd157b20a868249925f9839d409e6642fad3584aaf442f26",
+    "git_blob_sha": "33bfe847f4ebbffe79ead0607cd48d0e78052d99",
+    "fixed_commit": "405ab36831ff0c73112428b55debed613c5352e8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

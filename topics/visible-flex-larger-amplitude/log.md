@@ -149,3 +149,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:30:12 UTC — 27下一完整试点939ea的自身统计返回
 
 27 939ea alpha1仅Phi748.4181748571943/Gram.48764641101863465；当前a7ff7c/accepted1，几何/接受未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`de417098a06ab6052e2bf62dd3463ed8b43058e6`无变（非pull）。
+
+## 2026-11-28 06:30:17 UTC — 28第三个候选点e1476的自身统计返回
+
+28 e1476 alpha1仅Phi681.6470516175361/Gram.40616529581758637，当前0927d/accepted2不变；本试点几何/接受未知。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`bf0d7391d911f09c7147c93c0e02b2312670edcb`无变（非pull）。
