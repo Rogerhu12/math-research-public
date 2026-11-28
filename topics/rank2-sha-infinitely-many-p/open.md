@@ -24,7 +24,9 @@ g_1^*((p\delta)^nA)
 \(p^{-2}\zeta_{p^2}^{(51/2)(A^2-4AB+B^2)}\)
 分成 \(p^{-2}v_0\otimes v_0\) 及全部 wild 逆角色对；旧新混合块为零。每条局部块非零，全局 Hermite/六根/tame 投影仍可能消零。有限环投影保 \(1/[p(p+1)]\)，不能称整幂等元；新 \(p\)-torus 不算入原 full54。
 
-**下一实质门：**把这些实际新块的同一 flat 测度、CM 轨道权和 canonical/指定 proper 端点逐式相接。central 正沿 Andreatta–Iovita 的 marked differential、实际同源拉回和 exact-\(p^2\) avatar 比较；固定 classical \(k=3\) 要核 one-variable 的 conductor 条件，不能误套 two-variable 的 \(n\ge3\) 范围，也不能将 primitive 定理套未分歧角色。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。下一可用同源正权恒等式与R1056的真实flat逼近比较负端点，但须精确保原AI avatar、Teich分量和完整旧项；不能由群阶相同认分支，也不将p^n当解析函数。
+R1054§9现付完整finite intertwiner与真实核/class方向、Tate determinant/cup/KS、三个微分、准确旧项差和全部p+1单位矩阵的正权向量。非平凡wild全和消旧不赋原坏条件给新增ramified字；投回第二输出旧线则新字消失。原惰性2/full9不自动满足AI全局Heegner假设；这里只用同一prime-to-p full-level cover的局部GM/marked构造，classical k=3的局部半径允许p²，不能套two-variable n≥3或直接套全局Thm7.1。
+
+**下一实质门：**从这些正权恒等式作有界Amice的真实全临界germ比较，并给新ramified covectors与原固定canonical斜率的实际未平均关系。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。下一可用同源正权恒等式与R1056的真实flat逼近比较负端点，但须精确保原AI avatar、Teich分量和完整旧项；不能由群阶相同认分支，也不将p^n当解析函数。
 
 [R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)提供真正可用的同源读者：临界值是单位 inverse-square 矩，斜率保 log、全部 Maass 修正和外权导数；正 KS/正杯积 Bol 与 R997 一致。直接整 Newton 的值读者用至 \(pH-1\) 阶，斜率用 \(O(p(H+\log_p(H+1)+1))\) 阶及准确额外精度；旧 Stirling 路径另付 \(v_p(N!)\)。R1054 的负端点仍是原 Coleman 的 \(p^{-6}\) 真 \(Q\) 平均，不是已经识别的 CM 图 trace。
 
@@ -90,7 +92,7 @@ R984 Griffiths非零不付逐p AJ；R988 K3–E0²和R990 CM17图零范围保留
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。
 
 [v13生产](notes/2026-11-27-original-scalar-filtration-v13-production.md)为唯一heavy：
-run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新01:02UTC为in_progress；00:37消费的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
+run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新01:02UTC为in_progress；01:03再次GET与00:37相同的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
 
 旧q5/q11全影子倒6零、q11完整NS/Br/MW和Manin回执已付，不重复输入。即便有限完整影子成功，仍须解决主无穷p非零。
 

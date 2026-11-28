@@ -42,3 +42,12 @@ R1053§§8–11付真正十三维四jet修改、原全39维B12长十二修改及
 根全文核两段新增证明，直接读R887§14(63)–(64)与§15原P_m全极；核rα首项αz^-38、完整投影两列的36核点单零、39字符配对及全部曲率特征值极支撑。没有数学执行，未给新算术零行。旧H9559B/hash5935a82da57c1e2d7df265cc991406eddd3fdab7f27bc2e63cb74a4672fd2fb1逐字归档并更新接续；central/arith真实cup与AI marked比较继续。
 
 推前actual readonly run46075603971/job140807603861：公开00:47:16UTC至637fc22a3d9b67f62d9fd3546028d443ec869b98，私库00:47:20UTC至d8eb4efddbfb8b388b11a723745886c9143682d3。四README与00:38已读blobs完全相同，QUEUE仍0960ae68e078bae51fd8e95fc2839c7028ffa6fc，本行本会话进行中。日志14886B/hashcdbc6358f8b7e0cf7ec24265a5dc0b04a6a8b991dc48a2fae4e3fd0279d77bf9；库存3164/44,526,966B/tree0d2c457c788980811ba749a4ba15b2e7fcae551a，无>5MB，三旧必要gzip不变。本地00:48仍无环境。唯一v13于01:02实际in_progress，尚无新增数学终回执。
+
+
+## 2026-11-28 01:05 UTC：R1054真实CM marked正权向量
+
+R1054§9把第一输出字逐式接到真实CM类：Chan行矩阵Pg_t^TP/h=bar t给t/bar t，整球固定绝对scalar；实际核tC0对应idèle t^-1。真Tate基的det/degree、极化cup/KS与三个微分全部保，g2²基准无额外p幂。逐点正权式保(1−p^-2)旧项；非平凡wild整和准确消旧，全部p+1 tame分量由真实单位矩阵相接。只用共同tame cover的局部GM/marked评价，AI全局Heegner条件另保；未赋原canonical坏条件给新ramified字。
+
+根逐式核矩阵转置与两个中心、原整球标量、实际循环核、AI§3.4 class方向与§2.2 avatar、Remark5.5微分；直接读作者2018§2.4完整Tate基定义，独立以Poincaré同源相容性核cup比。将第一层格的保持写成明确identity准同源图，保Teich群与所有实际lifts。根查AI§2.1/2.4发现tame Heegner假设不能直接用于原惰性2/full9，已限定为同一full-level cover的局部构造，不删原来源。无数学执行，原p²矩阵和全部tame/Artin/Cor保持。
+
+推前实际双库pull run46075603971/job140812030101：公开01:03:22UTC至bca6f4ff115df513de2732f73feabcc077c09da3，私库01:03:27UTC至8d52b68c258ab158ead99e9db42ea456ffd5f69a。四README blobs与00:47已读版相同，QUEUE仍0960ae68e078bae51fd8e95fc2839c7028ffa6fc及本会话进行中。日志14894B/hashd0fffe09946b07084cac017aa298b1f536fd039988adfbdbc56d06765aaea630；库存3165/44,550,667B/treea5bf85f00e70b7c81e5c18951d3d057732842760，无>5MB，三旧必要gzip不变。唯一v13于01:03取得日志与00:37逐字相同，未冒新增终门。

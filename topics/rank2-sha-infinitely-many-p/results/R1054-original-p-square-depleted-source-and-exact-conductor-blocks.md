@@ -531,3 +531,455 @@ $$
 真正需要的后继是把(23)的原解析根平均与(27)的实际有限
 reciprocity/Heisenberg 作用接合；本节只把这项接合的所有输入
 锁为明确的 exact-conductor-$p^2$ 双字，旧字符部分已严格消去。
+
+
+## 9. 第一输出字、实际 CM 类与同一正权向量
+
+本节把(29)的第一输出投影落实到真实 CM 标记及其微分。
+使用 AI2024 的局部 Gauss--Manin/VBMS、marked differential
+和 CM splitting 规范，不预认其全局 $L_p$ 定理的 tame-level
+假设已经满足。原 $w_0$ 的 tame level 含惰性2及原 full9，
+不能直接满足 $ \mathcal O_K/\mathfrak N\simeq\mathbf Z/N $
+的 Heegner 条件。全部局部构造在保原 full2/full9 的共同
+prime-to-$p$ full-level 有限 étale 模空间上拉回；通用椭圆曲线、
+GM连接、极化KS、canonical subgroup 与 marked torsor 均随之
+拉回。整数权的本节恒等式因而可在那里逐点使用，不需要丢掉
+原 tame 向量，也不需要声称存在符合 AI 全局假设的新 $L_p$。
+
+它不借局部 Hom 的维数猜一个 toric scalar，也不把这些新
+exact-$p^2$ 读者命名为原未分歧 canonical $J'$。
+临界解析延拓及斜率另按同一实际有界来源处理；这里首先证明
+全部非负整数权的精确向量式。
+
+### 9.1 列、行和原换极化的完整共轭
+
+沿原双 Hermite 来源的(13a)--(13c)，以列记原 split plane：
+$e_+=(\omega,1)^T$、$e_-=(\bar\omega,1)^T$，
+$v_{\rm col}=u e_++v e_-$。取
+$t=A+B\delta=a+b\omega$，其中 $a=A+B,b=2B$，
+并保留 R1058 的真实 book 矩阵。令
+$$
+ P=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
+ g_t=\begin{pmatrix}A+B&2B\\-2B&A-B\end{pmatrix},
+ \qquad
+ g_{\rm col}=Pg_tP
+ =\begin{pmatrix}a-b&-b\\b&a\end{pmatrix}.
+ \tag{32}
+$$
+于是 $g_{\rm col}e_+=t e_+$、$g_{\rm col}e_-=\bar t e_-$。
+这也真来自原未缩放列：若
+$\tau'=\omega/34$，
+$$
+ D=\operatorname{diag}(2,1/17),\qquad
+ g_{\tau'}=\begin{pmatrix}a-b&-b/34\\34b&a\end{pmatrix},
+ \qquad Dg_{\tau'}D^{-1}=g_{\rm col}.
+$$
+它正是原(13a)的坐标变换；(13c)的固定 $[\omega]$ 换极化
+与该 CM torus 交换。原 $a=17/2$、加性角色、Haar 及完整
+2/3/17 相位均未更换。
+
+Chan 的(6.12)、(7.1)使用行向量及右作用
+$v\mapsto h^{-1}vg$。因此这里必须取
+$$
+ v_{\rm Ch}=v_{\rm col}^{\,T},\qquad
+ g_{\rm Ch}=g_{\rm col}^{\,T}=Pg_t^{\,T}P,\qquad h=\bar t .
+ \tag{33}
+$$
+不是将列矩阵原封不动用于右作用。严格有
+$$
+ h^{-1}v_{\rm Ch}g_{\rm Ch}
+   =(t/\bar t)u\,e_+^{\,T}+v\,e_-^{\,T}.
+ \tag{34}
+$$
+这也与 book 的整 Möbius 式相容。令 $\tau=-z$，则
+$$
+ -M_{g_t}(z)=
+ \frac{(A-B)\tau-2B}{2B\tau+A+B};
+$$
+右边正是行 $(\tau,1)g_{\rm Ch}$ 的坐标比。
+原 $z_0=-\omega$ 遂对应同一个 $\tau_0=\omega$，
+不是只在一个点比较两个特征值。
+
+在当前好 $p$，$h$ 是单位，Chan 的 $L(h)$ 之体积因子为1，
+原 splitting 与 binary source character 在这些单位上均不分歧。
+完整换极化因而给
+$$
+ \boxed{\;
+ \mathcal W_a\,\omega_\psi(\bar t,g_{\rm Ch})\,
+      \mathcal W_a^{-1}
+       =\rho_-(t/\bar t)\otimes1 .
+ \;}
+ \tag{35}
+$$
+本式的标量不是自由选取的。两边在完整 Heisenberg 群上的共轭
+相同，故只可能相差常数；原整球在两边都固定，且
+$\mathcal W_a$ 将它送到非零的 $v_0\otimes v_0$，
+从而该常数严格为1。原球及 $p$ 球均被 $h$ 的单位重标保持，
+故(35)适用于实际 $K$ 和通常剔除的整个矩阵(20)。
+
+记
+$$
+ \mathcal C_2=
+ \mathcal O_{K_p}^{\times}/
+ \bigl(\mathbf Z_p^{\times}(1+p^2\mathcal O_{K_p})\bigr).
+$$
+Hilbert90 给
+$\mathcal C_2\simeq T_2,\ [t]\mapsto t/\bar t$。
+所以(29)的第一输出字正是对真实模 $p^2$ CM 标记作
+$$
+ \frac1{p(p+1)}
+ \sum_{[t]\in\mathcal C_2}
+       \theta(t/\bar t)^{-1}\,\omega_\psi(\bar t,g_{\rm Ch}) .
+ \tag{36}
+$$
+全部 $p(p+1)$ 项及分母保持；没有将 $p$ 因子称为单位。
+
+### 9.2 实际循环核和 AI 类的方向
+
+R1058§6已从原 right action 核定
+$g_2^2$ 的核为 $\langle\alpha_1\bmod p^2\rangle$。
+先作 $g_t$ 再作 $g_2^2$，实际核为
+$$
+ C_t=\left\langle
+ (A+B)\alpha_1-2B\alpha_2\bmod p^2
+ \right\rangle=tC_0 .
+ \tag{37}
+$$
+在同一 rational Tate 空间中，目标格是
+$T(E)+p^{-2}\mathbf Z_p(t\alpha_1)$。
+AI2024§3.4 规定 $a*E$ 的格为 $a^{-1}T(E)$，
+故本式对应的局部 idèle 是
+$a_{t,p}=t^{-1}$。这里的逆号已经由格计算确定。
+
+若用 prime-to-$p$ integral ideal 代表该类，必须同时保留其
+principal scalar、微分与全部 tame level 的改变。
+不能把某个方便代表的矩阵重新叫作 $g_t$ 后省掉该 scalar。
+下面在固定 rational isocrystal 与实际 CM 准同源中写交换图，
+避免这一歧义。
+
+### 9.3 真正的 determinant frame；为何 p² 基准没有多一个 p 幂
+
+先核本篇(14)与 AI 的内在 CM 导数确为同一规范。
+原 right action 的 Tate 基定义是
+$$
+ \alpha'=(\check\phi_*)^{-1}\alpha\,p^\ell g
+         =d^{-1}\phi_*\alpha\,p^\ell g,\qquad d=\deg\phi .
+ \tag{38}
+$$
+这里 $p^\ell g$ 是原定义选定的整矩阵。
+使用 $\check\phi_*\phi_*=d$ 与 Weil pairing 的同源相容性，
+两基的 pairing 比严格为
+$$
+ \frac{p^{2\ell}\det g}{d}.
+ \tag{39}
+$$
+这可直接从作者2018原稿印页18、(27)之前的基定义推出，
+无需把(27)的示意图对任意 determinant 单位作额外解释。
+
+对单位 $g_t$，$d=1,\ell=0$，(39)为 $N(t)$。
+对 $g_2^2=\operatorname{diag}(1,p^2)$，
+$d=p^2,\ell=0$，则
+$\alpha'=(q_C\alpha_1/p^2,q_C\alpha_2)$，(39)严格为1。
+因此在原基及其真正 $g_2^2$ 商上，Tate pairing 归一相同；
+不能把单位换基的 $N(t)$ 误换成这里的 $p^2$。
+
+为把(39)直接带入 de Rham 账本，令 $e_i$ 为 $\alpha_i$ 经主极化与 Tate 比较所得的水平向量。
+由 $\check\phi_*\alpha'=\alpha p^\ell g$，
+$\phi^*e_i'=\sum_j(p^\ell g)_{ji}e_j$。
+Poincaré 相容性给
+$\langle\phi^*e'_1,\phi^*e'_2\rangle=d\langle e'_1,e'_2\rangle$，
+左边是 $p^{2\ell}\det(g)\langle e_1,e_2\rangle$，再次得到(39)。
+原基的绝对正号及 pairing 一取已经固定的
+[R1056(16)](R1056-original-flat-amice-critical-slope-and-bol-primitive.md)，不另重选规范。
+
+更明确地，以原 book 正号基的 pairing 为1，记一般标记的
+pairing 单位为 $\kappa_\alpha$。极化给出的内在 KS 满足
+$$
+ \operatorname{KS}_{\rm pol}(\omega_{\rm can}^{\,2})
+       =\kappa_\alpha\,dz_{\rm dR}.
+$$
+这是由 $\omega_{\rm can}=-z e_1+e_2$ 直接计算
+$\langle\omega_{\rm can},\nabla\omega_{\rm can}\rangle
+=\kappa_\alpha dz$ 得到的。
+内在 KS 逆每次因而比 book 的 $dz$ reader 多 $\kappa_\alpha^{-1}$。
+$\kappa_\alpha$ 是水平的，故逐次应用同一个 Gauss--Manin
+连接与 CM splitting，得到
+$$
+ \theta(\delta_3^nF_0)(y_\alpha)
+   =\kappa_\alpha^n\,
+      \Omega_\alpha^{3+2n}
+      (\mathcal D_3^nw_0)(E,\omega_E).
+ \tag{40}
+$$
+$\mathcal D$ 在这里指通用椭圆曲线按极化 KS 定义的内在代数
+Maass 算子。因 $(g_2^2)$ 不改 $\kappa_\alpha=1$，
+(40)严格支付本篇(14)的内在解释，而非以等式定义一个新的
+$r_n^{\rm alg}$。若另用有限层某个余切参数作 trivialization，
+仍须连同其真实 frame 比例运输；本段没有把书中(5.75)的
+另一个参数常数擅设为1。
+
+改为 $yg_t$ 后，
+$\Omega_{0,t}=\Omega_0/\bar t$、$\kappa_{\alpha g_t}=N(t)$。
+令 $w=3+2n$，book 的完整 raised tensor 因子为
+$$
+ j_t(n)=N(t)^{-n}\bar t^{\,w}
+       =\bar t^{\,3+n}t^{-n}.
+ \tag{41}
+$$
+因此在全部正权中，完整 pullback 中的三项准确相消：
+$N(t)^{-n}\bar t^w\cdot N(t)^n\cdot
+(\Omega_0/\bar t)^w=\Omega_0^w$。
+原 spherical 来源给独立核对
+$\delta^nF_0(yg_t)=N(t)^n\bar t^{-w}\delta^nF_0(y)$。
+特别 $t=c\in\mathbf Z_p^\times$ 时，raw 因子是 $c^3$，
+scalar 费用是 $c^{-3}$；两者相消后才下降到 $\mathcal C_2$。
+裸 $j_t(n)$ 本身不是该商的 character。
+
+### 9.4 三个微分及同第一层的真实常数
+
+固定第一层 $C_1=C_t[p]$，写
+$q_C=q_C'\circ q_1$，其中
+$q_1:E_0\to E_1$、$q_C':E_1\to E_C$。
+严格区分：
+
+1. 好整 Néron 微分 $\omega_C$，
+   $q_C^*\omega_C=c_C\omega_0$；
+2. basic AI 微分 $\omega_{2,C}$，由同一 marked dlog lift
+   $\omega_{1,C_1}$ 唯一规定
+   $(q_C')^*\omega_{2,C}=\omega_{1,C_1}$；
+3. 按 AI2024 Remark5.5 公式运输的实际 idelic 标记微分
+   $\omega_{a_t}= \iota_p(a_{t,p})^{-1}\omega_{2,a_t}$。
+
+取 AI 的原嵌入，写 $\iota_p(t)=t$。
+在固定 $C_1$ 的野轨道上，$t$ 的野部分属于
+$\mathcal O_p^\times$，因此保持同一个第一层 conductor-$p$ 格。
+这不是说线性乘法 $[t]$ 等于恒等。固定该 block 的一条
+$C_{\rm ref}$，在实际准同源范畴取
+$\phi_{C,\rm ref}=q_C'(q_{\rm ref}')^{-1}$。
+其 degree 为1，且严格有
+$\phi_{C,\rm ref}q_{\rm ref}'=q_C'$；
+此交换图在共同 $E_1$ 上的箭头是身份，而不是 $[t]$。
+这正是固定 rational isocrystal 后的 CM 变格运输。
+拉回微分是单射，因此
+$\phi_{C,\rm ref}^*\omega_{2,C}=\omega_{2,C_{\rm ref}}$，
+未加 $a_{t,p}$ 标记的 $\omega_{2,a_t}$ 正是上面的
+$\omega_{2,C}$。
+由此，真实 idelic 标记在此坐标中为
+$$
+ \omega_{a_t}=t\,\omega_{2,C},\qquad
+ q_C^*\omega_{2,C}=d_{C_1}\omega_0,\qquad
+ u_{C_1}:=\Omega_0d_{C_1}.
+ \tag{42}
+$$
+换 integral ideal 代表时，principal scalar 必须同时作用于
+该交换图与微分；(42)的整个式子不改变。
+
+(42)是一个 block 内的准确等式。对不同 $C_1$，
+$\omega_{1,C_1}$ 及 $d_{C_1}$ 可以不同，下面保留全部 $p+1$ 个
+实际值，不把它们合成一个猜测的 common period。
+
+AI2024 Proposition5.9 给
+$\omega_{2,C}=\Omega_{AI,C}\omega_C$，
+$v_p(\Omega_{AI,C})=1/(p(p^2-1))$；
+本篇(11)给 $v_p(c_C)=1/p$。
+于是
+$$
+ d_{C_1}=\Omega_{AI,C}c_C,\qquad
+ v_p(d_{C_1})=\frac p{p^2-1},\qquad
+ u_{C_1}\in\mathcal O_{\mathbf C_p}^{\times}.
+ \tag{43}
+$$
+该单位结论不把 $\Omega_{AI,C}$ 本身当成单位。
+
+### 9.5 同一来源的逐点正权等式
+
+记
+$$
+ A_n(a_t)=
+  \delta_3^n(w_0^{[p]})(E_C,\omega_{a_t}),
+ \qquad w_0^{[p]}=w_0-p^2V^2w_0,
+ \qquad R_{0,n}=p^{2n}\theta(\delta_3^nF_0)(y).
+ \tag{44}
+$$
+$V$ 是 AI Appendix A 的实际 $V_H=\phi^*/p$；
+所以 $\mathcal D^nV^2=p^{2n}V^2\mathcal D^n$。
+在 canonical conductor-$p^2$ 点，它的第二次 incoming 返回是
+$(E_0,q_C^*\omega_{a_t})$。因此这里没有以外向图代替 AI 的
+incoming 操作。
+
+用 $\mathfrak R_{\rm new,n}(t)$ 表示本篇(9)第二项在
+$yg_t$ 上，按(41)完整拉回到原基后的 scalar。
+同样记
+$\mathfrak R_{\rm bad,n}(t)
+ =\mathfrak R_{\rm new,n}(t)-R_{0,n}$。
+由(40)--(43)逐项得到
+$$
+ \mathfrak R_{\rm new,n}(t)
+ =p^{-4}(c_C\Omega_0)^w
+       (\mathcal D_3^nw_0)(E_C,\omega_C),
+ \tag{45}
+$$
+以及真正的逐点比较
+$$
+ \boxed{
+ p^{-4}u_{C_1}^{\,w}t^{\,w}A_n(a_t)
+  =\mathfrak R_{\rm new,n}(t)-p^{-2}R_{0,n}
+  =\mathfrak R_{\rm bad,n}(t)+(1-p^{-2})R_{0,n}.
+ }
+ \tag{46}
+$$
+为独立核旧项，$q_C^*\omega_{a_t}=td_{C_1}\omega_0$，
+所以 AI 旧项乘左边外因子后为
+$$
+ p^{-4}(\Omega_0d_{C_1}t)^w
+    p^{2n+2}(td_{C_1})^{-w}
+       (\mathcal D_3^nw_0)(E_0,\omega_0)
+   =p^{-2}R_{0,n}.
+$$
+这同时锁定 $p^{-2}$ 和通常剔除的负号。
+逐点绝不能把 $A_n$ 直接等同 $\mathfrak R_{\rm bad,n}$。
+
+### 9.6 Avatar、中心与 exact-p² 角色
+
+若一个局部 $\theta$ 能同原固定 tame 类型、$\mu_6$ 与当前
+无穷分量组成全局 Hecke character，则对应的 $p$ 处有限部分为
+$$
+ \chi_{{\rm fin},p}
+    =\theta^{-1}\circ(t\mapsto t/\bar t),\qquad
+ \operatorname{type}(\chi)=(3+n,-n),\qquad
+ \chi_n=\chi N_K^n .
+ \tag{47}
+$$
+于是由 $a_{t,p}=t^{-1}$ 和 AI§2.2 的 avatar 定义，
+$$
+ \widehat\chi_n(a_t)^{-1}
+       =\theta(t/\bar t)^{-1}t^{\,3+2n}.
+ \tag{48}
+$$
+这是与(46)实际匹配的权。book 的 $\bar t^{3+n}t^{-n}$
+并没有被共轭成 $t^{3+n}\bar t^{-n}$：前者已经在(41)连同
+Tate determinant frame 与 $\Omega_{0,t}$ 完整消费，(48)中
+的 $t^w$ 来自另一项，即 Remark5.5 的标记微分。
+
+对 $t=c\in\mathbf Z_p^\times$，Hilbert90 和有限 Weil 行动均为1；
+在(48)中出现的 $c^w$ 与 $A_n(a_c)$ 的微分缩放 $c^{-w}$
+严格抵消。这与(41)的 $c^3c^{-3}=1$ 是同一个来源的两种
+trivialization，故整个 covector 真正降商。
+同理，深单位改代表时，avatar、marked differential 和系数运输
+必须一起变化，整个值不变。
+
+(47)仅在实际 global-units 条件通过时称为全局 Hecke character。
+局部每个 $\theta$ 的存在不保证它与原 full2/full9、$\mu_6$
+和 infinity component 相容。未作该全局投影前，下面只是完整的
+marked CM-evaluation covectors；公式仍逐点成立。
+即使上述 global-units 条件通过，也不能据此调用 AI 的全局
+$L_p$ 或 Theorem7.1：还须支付该定理的 Heegner tame-moduli、
+$(c,N)=1$、实际形式及完整有限来源条件。
+本题原惰性2/full9向量没有在这里被改成另一份 Heegner level。
+
+### 9.7 野块旧项准确消去；全部 tame 向量保留
+
+固定非平凡 $\vartheta\in\widehat T_1$，取一个延拓
+$\theta_0\in\widehat T_2$。使用未分歧扩张的实际 Teichmüller
+子群 $\mathcal T=\mu_{p+1}\subset T_2$，故
+$T_2=\mathcal T\times T_1$。取 $\tau\in\mathcal T$ 和
+$v\in T_1$，选实际 Hilbert90 lifts
+$t_{\tau,v}=t_\tau s_v$，其中 $t_\tau/\bar t_\tau=\tau$，
+$s_v\in1+p\mathcal O_{K_p}$ 为 norm-one 的 lift，且
+$s_v/\bar s_v\equiv v\bmod p^2$。
+不用假设 $\tau\mapsto t_\tau$ 是群截面；
+在有限群中严格有
+$\theta_0(\tau v)=\theta_0(\tau)\vartheta(v)$。
+每个 $\tau$ 正对应一个 $C_1$。
+定义原有限 reader
+$$
+ \mathfrak T_{\theta,n}
+  =\frac1{p(p+1)}
+      \sum_{[t]\in\mathcal C_2}
+          \theta(t/\bar t)^{-1}\mathfrak R_{\rm bad,n}(t),
+ \qquad \theta|_{T_1}=\vartheta .
+ \tag{49}
+$$
+根据(35)--(36)，这是第一输出 $K_\theta$ 的同一整体来源读数，
+包含其相伴的第二输出字；并非先把任一输出单独赋零。
+
+$R_{0,n}$ 是原 spherical 向量的完整 pullback，故在该局部轨道
+为常数。由于 $\sum_{v\in T_1}\vartheta(v)^{-1}=0$，
+(46)中的整个旧项在(49)准确为0。因此对所有整数 $n\ge0$，
+$$
+ \boxed{
+ \mathfrak T_{\theta,n}
+  =\frac{p^{-4}}{p(p+1)}
+     \sum_{\tau,v}
+       \theta(\tau v)^{-1}
+       u_\tau^{\,3+2n} t_{\tau,v}^{\,3+2n}
+       A_n(a_{\tau,v}).
+ }
+ \tag{50}
+$$
+此处不需要把单个旧点值称为 flat 零。
+若另带原 toric 外权，须先组成其同一 full-avatar 和，
+或将该权留在(50)的整个输入里；不能将仅局部未加权的正交
+偷移到一个任意加权和。
+
+把实际野和记为
+$$
+ L_{\tau,n}=\frac1p
+   \sum_{v\in T_1}\vartheta(v)^{-1}
+      t_{\tau,v}^{\,3+2n}A_n(a_{\tau,v}).
+$$
+令 $\psi$ 跑遍 $\widehat{\mathcal T}$，并令
+$\mathcal F_{\psi,\tau}=(p+1)^{-1}
+\theta_0(\tau)^{-1}\psi(\tau)^{-1}$。
+取 $\mathfrak A_n=\mathcal F(L_{\tau,n})_\tau$，
+则(50)为完整 $p+1$ 维矩阵式
+$$
+ \boxed{
+ (\mathfrak T_{\theta_0\psi,n})_\psi
+   =p^{-4}\,
+     \mathcal F\operatorname{diag}
+          (u_\tau^{\,3+2n})_\tau\mathcal F^{-1}
+          \mathfrak A_n .
+ }
+ \tag{51}
+$$
+所有 $1/p$ 都仍保留在 $L_{\tau,n}$ 中；
+只有 $p+1$ 是单位。因为全部 $u_\tau$ 为单位，
+(51)中除显示的 $p^{-4}$ 外的矩阵及其逆均为整单位矩阵。
+这不给单条 $\theta$ 一个臆定的共同 scalar，也不由局部矩阵
+满秩推出经过原 global projector 后的每个分量非零。
+
+### 9.8 已完成范围及后继输入
+
+本节新付的是(35)的完整 finite intertwiner、(37)的 class 方向、
+(38)--(41)的真实 cup/KS 账本、(46)的逐点旧项费用和(50)--(51)
+的精确正权向量。原 $p^4$ finite matrix、两输出字、所有 tame
+projectors、Artin/Cor 和完整源均保留。
+
+在临界端点使用(51)时，必须选择固定 residue/Teichmüller
+分量，并以实际有限单位 $u_\tau$ 和所有 outer weights 支付同一
+局部解析延拓；斜率还含 $2\log\langle u_\tau\rangle$、
+外权导数及全部 Maass correction。不能仅由正整数同式任意
+改造一个解析插值。R1058已付的 root-average 互绕可保这些完整
+finite 字的行动，但没有将 root rotation 认成 CM 图。
+
+当前固定曲线的 canonical 坏条件尚未给(49)的新增 ramified
+toric covectors 为零。对完整 $p$-torus 再取 trivial average
+只回(24)的旧分支，不能用这一平均重造 imprimitive norm 非零。
+本节不声称得到课题的最终 forcing。
+
+本节使用的原文位置：Chan,
+*Period identities of CM forms on quaternion algebras*,
+§6.4(6.12)、§7(7.1)；
+Kriz 作者2018原稿 §2.4 的真实 Tate 基定义及书版
+§7.3(7.13)、(7.19)的完整 tensor/KS 规范；
+AI2024 §3.4、§5.1--5.3（尤其 Remark5.5）、Proposition5.9
+及 Appendix A。
+固定 classical $k=3$ 时，Definition4.24 的局部整数
+$n_k(p)=2$；相应 GM/VBMS 估计在上述同一 tame étale cover
+上的拉回保持，故没有使用 two-variable
+$n_{\rm univ}\ge3$ 的不同半径断言。
+这只支付局部输入的 conductor/半径门；
+Definition5.7 的全局求和和 Theorem7.1 的 Heegner 条件仍另保。
+
+原文链接：[Chan §6–7](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A307E84FB65A00F04D142EEAB168B2EE/S2050509420000213a.pdf/period_identities_of_cm_forms_on_quaternion_algebras.pdf)、[Kriz 2018 §2.4](https://arxiv.org/pdf/1805.03605)、[AI2024](https://ems.press/content/serial-article-files/48931)。原双 Hermite 固定坐标与全 tame 来源见[来源证明](../notes/2026-11-27-original-unsquared-toric-theta-source-and-newton-pullback.md)。

@@ -116,3 +116,10 @@ R1055附录把E3969实际Φ126写成同一A24·H102，付原五伙伴全式、�
 R1053§§8–11付真正十三维四jet修改、原全39维B12长十二修改及完整canonical首行到同一P10的39字符配对。实际Gα=rα^10·P2^195/(P10∘α)的全除子、二挠三次极帽和非齐次连接费用均保。原source390与target10的p曲率极支撑不相同，排除任何免费scalar CM/Miller交织，且相应水平Hom为零；这不产生新canonical零或终端非零。
 
 [完整证明](../results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)。输入为原R1037/R1038全投影、R887同一有理p基及R1028原P10；无新数学运行。后继回同M/R实际Schur，不以几何修改长度给native终端非零。
+
+
+### R1054 §9：真实CM类、内在KS与全正权向量
+
+R1054§9把第一输出字逐式接到真实CM类：Chan行矩阵Pg_t^TP/h=bar t给t/bar t，整球固定绝对scalar；实际核tC0对应idèle t^-1。真Tate基的det/degree、极化cup/KS与三个微分全部保，g2²基准无额外p幂。逐点正权式保(1−p^-2)旧项；非平凡wild整和准确消旧，全部p+1 tame分量由真实单位矩阵相接。只用共同tame cover的局部GM/marked评价，AI全局Heegner条件另保；未赋原canonical坏条件给新ramified字。
+
+[完整证明](../results/R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)，tags32–51。后继须用同源有界Amice极限付负二全germ，并补原canonical坏条件到新增ramified读者的关系；局部矩阵可逆不替此授权。
