@@ -24,6 +24,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi公共因子总次数至多45与Q精除的条件收紧](results/R150-appendix-unit211-Phi-zero-corrected-common-factor-total-degree-forty-five-and-Q-extraction-refinement.md)：非零多项式deg−deg_u对乘法可加；既有u次≤5和G总≤633/u≥593给总次、Q次≤45及纯Q内容≤40。已返回Q^a/Q^b身份后得5+min(41−a,40−b)，未返回指数取0，不预记公共曲线有无。
+
 - [R12：无零因子完整交换子仍允许本性平方曲线](results/R12-appendix-zero-divisor-free-commutant-essential-square-curve-boundary.md)：双边紧拟幂零权移的全部交换子由矩阵递推严格证明交换且无零因子；P(z)=T³+zT²与奇X²=P(s²)每参数准亲和、全J对称及γ关系齐备，X仍有无穷负Laurent项。其超不变尾不满足原全旗准亲和，不当作原Haar结论。
 
 - [R150：正确h=k权像维数至多一、8184曲线包络与相对六生成](results/R150-appendix-unit211-hk-corrected-weight-curve-envelope-8184-and-relative-six-generators.md)：旧两个完整原N/P不可约核总次数93/88且不伴随，平坦复扩张保正则列；一般Pf首一t³再添ρ²=δ给固定权长度≤6。包络可空，不作有限点数或全局几何局部化有限性。
