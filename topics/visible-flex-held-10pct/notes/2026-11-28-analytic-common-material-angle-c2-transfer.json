@@ -1,0 +1,75 @@
+{
+  "schema": "same_material_theta_C2_conditional_proof_and_pure_bounds_v1",
+  "status": "complete_conditional_proof_and_pure_source_prepared",
+  "date_UTC": "2026-11-28",
+  "scope": "Complete true-integral Cartesian prefix/cut pair; explicit different shared-Hermite angular chart pullback. No genuine fixed pair has been executed.",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/prefix_physical_theta_c2_bounds.py",
+    "sha256": "f45298d263a09cca3b015b8f61fdfed2033167180867d667574cdd018cae560c"
+  },
+  "proof": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-analytic-common-material-angle-c2-transfer.md",
+    "sha256": "d46f7fe512a5010d76d2152f683857bcbda1fcbb6f1c8fb18424cf88d61240a5"
+  },
+  "symbolic_actual_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/prefix-physical-theta-symbolic-20261128-a/identities.json",
+    "sha256": "bee90c0f3c4a9d7f9d0fa8307c63d6d842628d9e8399e72ff4687522db686243"
+  },
+  "symbolic_actual_result": {
+    "schema": "symbolic_same_material_angle_identity_check_v1",
+    "status": "all_symbolic_identities_and_cli_help_passed",
+    "symbolic_checks": {
+      "implicit_s": true,
+      "implicit_theta": true,
+      "psi_ss": true,
+      "psi_s_theta": true,
+      "psi_theta_s": true,
+      "psi_theta_theta": true,
+      "phase_kernel_nonnegative_gap_factorization": true,
+      "original_material_curvature_second_derivative": true
+    },
+    "sympy_version": "1.14.0",
+    "no_actual_source_loaded": true,
+    "no_pair_numerical_bound_claimed": true,
+    "no_BVP_or_J_or_tail": true,
+    "helper": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/prefix_physical_theta_c2_bounds.py",
+      "sha256": "f45298d263a09cca3b015b8f61fdfed2033167180867d667574cdd018cae560c"
+    },
+    "entry_unfrozen_at_check": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_complete_prefix_c2.py",
+      "sha256": "6d604dd65982c8c4b4905817ef857100f82f38120b631b4c39c18d5acd4c82fe"
+    },
+    "compiled_paths": [
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/prefix_physical_theta_c2_bounds.py",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_complete_prefix_c2.py"
+    ],
+    "help_returncode": 0,
+    "help_stderr": "",
+    "seconds": 0.7458136029999878,
+    "maximum_rss_kib": 52556
+  },
+  "independent_read_review": {
+    "reviewer": "design_continuation",
+    "kind": "read-only formula/source comparison",
+    "source_sha256": "f45298d263a09cca3b015b8f61fdfed2033167180867d667574cdd018cae560c",
+    "reviewed": [
+      "normal inverse same-u difference",
+      "complete delta-kappa0uu 4/6/15 terms",
+      "shared-beta/partial-window phase kernel mass at most 1+lambda",
+      "threefold fixed-center 44/35 position transfer"
+    ],
+    "numerical_solve_performed": false
+  },
+  "complete_cli_currently_frozen": false,
+  "actual_fixed_pair_available": false,
+  "finite_pair_bound_executed": false,
+  "C2_convergence_proved": false,
+  "whole_surface_completed": false,
+  "true_integral_core_is_defining_map": true,
+  "finite_Gauss_position_derivatives_assumed_equal_to_supplied_jets": false,
+  "numerical_core_query_error_paid": false,
+  "exact_query_error_propagation_formula_in_proof": true,
+  "arrays_or_J_created": false,
+  "low_lambda_recalculation": false
+}

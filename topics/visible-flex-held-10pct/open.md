@@ -42,6 +42,8 @@
 
 [新QR fixed完整尾C²入口](notes/2026-11-28-tail-qr-fixed-complete-c2-source-entry.md)已保完整同g及各自physical-H/真实均值、全部共同半径细分和原严格比较；须用真锚/真fixed pair实际支付，尚无新比较上界。
 
+[R97](results/R97-complete-prefix-c2-in-common-physical-material-angle.md)已付同一物理材料角的全prefix/cut有限对传递，包含真核心、全模/mean和逆chart混合两jet；实际同g pair及其完整真实tables/cut数据仍须计算，有限差不能冒Cauchy或精确存在。
+
 至少给固定问题的频率、径向和时间精化，完整度量误差持续下降到机器或求解容差，不能用设计λ/δ变化冒充。R63/R69及actual-tail-C²比较器只给结构/有限差，不自动给C² Cauchy或精确解存在。对严格存在还有完整可求和/逆界责任；数值完成须按README说明此差距。
 
 ## 4. 完整闭面与全时比例
