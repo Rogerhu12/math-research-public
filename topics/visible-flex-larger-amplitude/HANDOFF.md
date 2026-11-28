@@ -37,7 +37,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c0bbc76844845379771d5e5700340909084d9100
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull c363ea39253a403f736186902a499f207fc44f8c
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 882f8450190e3d75529d1c8ffcb64c91f48167d7
 
 <!--r777-publish-->R777 [全部返回](notes/r777-bent-cap-whole-46179547740-1-index.json) [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 52937a89ed7db0955993c22230239f8a414d5651
@@ -67,3 +66,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull b395bd32f13c2748d84ba6e8a245ec5749e62de2
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 78e2c12cc7fb886fefc2fd1373f28e737e1bf19f
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 387f9f704ac44f814321f004f4127169efc926f6
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull be2b35c6c1aa4b2671d45fd7431ac011cb9c73f7
