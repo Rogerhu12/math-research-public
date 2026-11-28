@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原三个primed矩与最高相关项的三同源闭式（已证明）**：[R1168 §§10–11](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)直接读原V′_i给A′i,dk=c_dk(2σG_m(E/C_i)−2⁻dG_m(E))，全部quotient微分归一、σ和高权整性由实际短模型支付。B_kl化为c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}，最高corr不再留未知raw项；仍保原未平滑及数值非零门。
+
 - **原correlation到同源Frobenius的实际功能方程（已证明）**：[R1159 §5](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)给定Norm点先取product群的kerL逆像，再由完整ordered恒等式pushout，得到Zcorr=(n⁴+n⁻¹¹)Z0−n²ΣSym¹²(ψ_C⁻¹)Z0(E/C)，BCH同式。原根/crossed修正由实际图实现，二同源η的exact项与shear完整保留；未把V_n改成单点v_n，B_n局部读取继续。
 
 - **原Fermat全部交换补偿与交叉quadric源（已证明）**：[quadric续篇 §9](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)十个原P_ab的交换保精确p次补偿，真实114输入的Cartier单位被锁定；非reciprocal quadric有完整扭曲微分及原源读数。共同零后仍留114项，未以两个123槽的消失删掉该余项。

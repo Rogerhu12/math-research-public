@@ -43,7 +43,7 @@ R1159 §5实际Norm点的kerL逆像及完整群map现给Zcorr=(n⁴+n⁻¹¹)Z0�
 
 [R1157 §§10–12](results/R1157-original-integral-SV-Manin-triangle-filling.md)原n2来源已全付：Θ=Δ/(16y⁴)、R_i=−(x−e_i)²/K_i、Θ_i=ΘR_i²；27项权6/−2/2及−1/256，κ4/κ8单位，v2仅43/127例外。真实两切线/并发三线及全根相位沿原文。三次闭点T0约化阶p²−p+1，使全部Ep差leading单射；七行(u,1−u)坏阶皆1/(p²−1)，全部R†浅域适用。CM时Q=[α]P给共同z形式源，ψz=z^p不保Ep理想。完整constant/五项gauge和高normal项沿[本次逐字前态](open-archive-2026-11-28-before-pointed-Miller.md)；一般Frob/原F0继续，不重作这些分解。
 
-[R1147 §20](results/R1147-original-canonical-moment-Heisenberg-lift.md)自足有限化实际连续moment系数：Λr°→Ir由[P]↦[P]−[0]，binom(p^r,j)对1≤j≤D<p被p^r整除，故Ar/Ir^(D+1)=Rr[X,Y]/(X,Y)^(D+1)。截断log/exp给全GL2/Galois/同源等变J_D,r≅⊕_(d=1)^D Sym^dH_r；原mom_d=d!pr_d exp，原S/U双槽必须分别乘i!j!而非再乘12!。D12秩90，过渡严格兼容到TpE及原未分歧有限FL系数。这不来自有限标记permutation的rational moment map，也未将单层raw dilog式自动升为连续中央period；仍继续同一原源的PD/43格实际比较。
+[R1147 §20](results/R1147-original-canonical-moment-Heisenberg-lift.md)原连续moment有限整jet、D12秩90、全GL2/Galois/同源log-exp及各层过渡已付；mom_d=d!pr_d，原双槽需i!j!而非12!，原Λ°模商与实际pointed源全保。完整式沿原文，不能从单层finite permutation rational map虚构TpE箭头。
 
 ### 原实际 finite Frobenius 与尚待原 F0 中央读数
 
@@ -71,7 +71,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原第一层完整xP=−b_E z^p(1+γp)ω−zgη，b_E为原Cartier unit。原Miller外环residue−c1−p/t(P)=p(E(P)−1/t(P))锁κ=−b_E；包含p²危险项的CM完整尾已付。pure powers的j=pd−(p−1)k、normal hp+k、系数(−1)^d d!b_E^(d−k)ξ^j/(d−k−h)!全给，无额外moment d!。
 
-[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原六种(d,t)的cone有完整SDR到常数M_d/p[-1]；q=t+k，只读normal0/q，高γhp由T保留后消。H0/H2=0及全部常数方程/σ/阶乘见原文，不能再列作接口缺口。
+[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原全部cone的SDR/H0=H2=0已付，只读normal0/t+k。§§10–11原V′_i直接给c_dk=binom(d,k)b_E^k/(k+1)、m_dk=p²−1−pd+(p−1)k，A=(4−2⁻d)cG_m，A′i=c(2σG_m(E/C_i)−2⁻dG_m)；商用实际Vélu ω_i且σ保留，不套同CM基。ΣA′=A，故B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}。全部高G整性、original/primed尺度及原最高corr加权值已成，未宣单位；原未平滑和Π2/4继续。
 
 [原Gaussian两位carry](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)将R1168全部p²高G准确降为≤12项、degree≤5的p-section及≤h低读数；唯一carry=2a/b_E、首不整边界pF_(e/4)=−1。完整R/F/S与中间G_(3p−1)保留，不外推旧低权反射或宣非零。
 

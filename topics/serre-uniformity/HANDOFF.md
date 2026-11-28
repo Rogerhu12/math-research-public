@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：bcddb199607aea6afcc91b25142d3022987adbbc**（2026-11-28 16:02 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：8a88b07104e57da5994fdc2046ba366ad154ffd8**（2026-11-28 16:07 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 15:44:08 Asia/Taipei，Actions run46122538838/job140909965508，blob:none浅clone后真实pull --rebase至e8cff12e且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤16:34、pull≤16:44。本地15:43仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -34,7 +34,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原xP=−b_E z^p(1+γp)ω−zgη及d4/8/12完整pure-power normal表已付；同Miller外环O/P两residue锁κ=−b_E，CM尾排p²危险项，无未定单位/额外d!。
 
-[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原43格cone有完整SDR到常数H1，只读normal0/t+k，高γhp经T保留后消。原M_d(d4/8)=Σbinom(d,k)b_E^k G_(p²−1−pd+(p−1)k)/(k+1)·ω^kη^(d−k)，Gaussian偶k/cubic指定k，平滑因子实消。通用中央先H=R_Z(yh−𝔟(yv,T)+𝔟(φT,A))再Z=𝔟(A,A)−H，保λ∞/Π0/2/4。最高corr值现如上；继续primed实际系数、原未平滑及全局减法，不能把任一G_m未证单位化。
+[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)完整SDR/原M_d/中央ordered gauge均付。§§10–11直接读原V′_i：c_dk=binom(d,k)b_E^k/(k+1)、m=p²−1−pd+(p−1)k，A_dk=(4−2⁻d)c_dkG_m，A′i,dk=c_dk(2σG_m(E/C_i)−2⁻dG_m)。quotient用原Vélu微分归一，非套同CM基；ΣA′=A。B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ_iσG_i,mσG_i,n}，同核不拆。高G整性已付，继续原未平滑/Π2/4/全局减法，未宣单位。
 
 
 [原Gaussian两位carry](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)将R1168全部p²高G准确降为≤12项、degree≤5的p-section及≤h低读数；唯一carry=2a/b_E、首不整边界pF_(e/4)=−1。完整R/F/S与中间G_(3p−1)保留，不外推旧低权反射或宣非零。

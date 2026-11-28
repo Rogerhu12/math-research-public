@@ -703,7 +703,8 @@ $2$-同源核、同根相位及同陪集 Cor 都已经包括在
 
 实际剩余输入只是 (1168.35) 中已指定的 abelian
 矩系数；unprimed 值由 (1168.25) 乘回 $k_d(2)$ 给出。
-后继可直接读取 primed theta 的同一个 $V'_i$。
+下文 §§10–11 继续给 primed theta 的同一个 $V'_i$
+及其全部实际系数。
 本节没有证明这些实际双线性组合是单位。
 
 这里的群仍为 R1158 的 raw correlation 群。
@@ -718,6 +719,240 @@ R1160 的算术 $B_n/v_n$ 并未被这个局部读取删除。
 上述 normal 微分读取、全部 factorial 与 BCH/ordered
 符号已逐式纸推，并经 global_route 独立核准；
 无数学程序执行。
+
+
+## 10. 三个实际 primed 矩的 Hurwitz 系数闭式
+
+本节把 (1168.35) 的每个 primed 输入也写成同一原微分
+归一的实际 Hurwitz 系数。商曲线不必仍具有 cubic
+或 Gaussian 的特殊短方程；本节不把 (1168.25) 的 CM
+反对角矩阵直接套给商曲线。
+
+### 10.1. 原二同源的准确短模型与共同参数
+
+写原曲线为
+$$
+E:\ y^2=x^3+Ax+B,\qquad
+A_i=(e_i,0),\qquad K_i=3e_i^2+A.
+$$
+所有 $e_i$ 在原未分歧二次底中，$K_i$ 为单位。
+二扭点加法直接给
+$$
+x(P+A_i)=e_i+\frac{K_i}{x(P)-e_i}.
+$$
+于是实际 quotient $E_i=E/C_i$ 可使用
+$$
+\begin{aligned}
+X_i&=x+x(P+A_i)-e_i=x+\frac{K_i}{x-e_i},\\
+Y_i&=y\left(1-\frac{K_i}{(x-e_i)^2}\right),\\
+E_i:\quad Y_i^2&=X_i^3+(A-5K_i)X_i+(B-7e_iK_i).
+\end{aligned}
+\tag{1168.45}
+$$
+最后的方程由 $x^3+Ax+B=(x-e_i)((x-e_i)^2+
+3e_i(x-e_i)+K_i)$ 代入直接展开得到。
+$X_i,Y_i$ 在 $P\mapsto P+A_i$ 下不变，
+$X_i$ 在原两点各有二阶极，故此图准确是原 degree-two
+quotient。其微分满足
+$$
+\psi_i^*\omega_i=\omega,\qquad
+\omega_i=dX_i/(2Y_i).
+$$
+$K_i$ 与 $9e_i^2-4K_i=(e_j-e_k)^2$ 均为单位，
+显示的 quotient 判别式
+$256K_i(9e_i^2-4K_i)^2$ 也为单位。
+
+在共同参数 $v=\int\omega$ 中，
+$\psi_i^*\int\omega_i=v$，原点常数均取零。
+$X_i(v)$ 的首项为 $v^{-2}$ 且无常数项，所以
+$$
+X_i(v)=v^{-2}+
+ \sum_{\substack{m\ge4\\m\ {\rm even}}}
+       (m-1)G_m(E_i,\omega_i)v^{m-2}.
+\tag{1168.46}
+$$
+这里 $G_m(E_i,\omega_i)$ 是 (1168.45) 那一个具体
+短模型的 Hurwitz 系数，不是一个另选的 isogenous
+CM period。
+
+### 10.2. 原 $V'_i$ 的每个所需系数
+
+为简写，令
+$$
+x(P(v)+A_i)
+ =\sum_{\substack{m\ge2\\m\ {\rm even}}}
+          (m-1)H_{i,m}v^{m-2},
+\qquad H_{i,2}=e_i.
+$$
+(1168.45)–(1168.46) 直接给
+$$
+G_m(E_i,\omega_i)=G_m(E,\omega)+H_{i,m}
+\qquad(m\ge4).
+\tag{1168.47}
+$$
+再置 $r_i=y/(x-e_i)$。实际微分为
+$$
+\frac{dr_i}{dv}=x-x(P+A_i).
+$$
+$r_i$ 是奇函数，首项 $-v^{-1}$，
+所以在特征零准确有
+$$
+r_i=-v^{-1}
+ +\sum_{\substack{m\ge2\\m\ {\rm even}}}
+       (G_m(E,\omega)-H_{i,m})v^{m-1},
+\qquad G_2(E,\omega)=0.
+$$
+另一方面，原 R1166 的
+$V'_i=z^2(x-e_i)V_2$ 给
+$$
+\frac d{dv}\log\!\left(-\frac{x(v)-e_i}{v\,y(v)}\right)
+ =\frac d{dv}\log\!\left(-\frac1{v^3y(v)}\right)
+       +\frac2v+2r_i .
+$$
+使用 (1168.22)、(1168.47)，并按
+$v/z=1+O(z^e)$ 换回原严格 LT 坐标，得
+$$
+\boxed{
+[z^m]\log V'_i(z)
+ =\frac{2^mG_m(E,\omega)-2G_m(E_i,\omega_i)}{m}
+ \qquad(4\le m<e,\ m\ {\rm even}).
+}
+\tag{1168.48}
+$$
+这是原函数的系数恒等式；没有换掉 $\theta'_{2,C_i}$
+或给它添加一个常数原函数。
+
+对本篇所需 $m=m_k$，$p\nmid m(m-1)$。
+(1168.45) 的 $X_i(z)$ 是整 Laurent series；
+$v/z=1+O(z^e)$ 保持 $z^{m-2}$ 系数，
+故 $(m-1)G_m(E_i,\omega_i)$ 整，
+进而 $G_m(E_i,\omega_i)\in\mathcal O_F$。
+同理 $H_{i,m}$ 也整。
+所以 (1168.48) 在需要的高权处可以合法约模 $p$，
+没有援引一个未经证明的高权 $p$ 整性。
+
+### 10.3. 实际 raw primed 常数
+
+为固定所有尺度，置
+$$
+c_{d,k}=\frac{\binom dk}{k+1}b_E^k,\qquad
+m_{d,k}=p^2-1-pd+(p-1)k.
+$$
+(1168.25) 乘回原 $k_d(2)$，给
+$$
+\mathcal A_{d,k}
+ =(4-2^{-d})c_{d,k}G_{m_{d,k}}(E,\omega).
+$$
+对 primed 槽直接用同一 normal 读取，
+但不除原 $k_d(2)$，得到
+$$
+\mathcal A'_{i,d,k}
+ =\binom dk\,b_E^k\,
+     \sigma([z^{m_{d,k}}]\log V'_i).
+$$
+此处 $p\nmid m_{d,k}$，故原
+$p^{-1}\log((V'_i)^p/\psi V'_i)$ 的
+$\psi$ 项不贡献这个系数。
+将 (1168.48)、$m_{d,k}\equiv-(k+1)\bmod p$ 和
+$2^{m_{d,k}}\equiv2^{-d}\bmod p$ 代入，准确得到
+$$
+\boxed{
+\begin{aligned}
+\mathcal A_{d,k}
+  &=(4-2^{-d})c_{d,k}G_{m_{d,k}}(E,\omega),\\
+\mathcal A'_{i,d,k}
+  &=c_{d,k}
+    \left(2\sigma G_{m_{d,k}}(E_i,\omega_i)
+                   -2^{-d}G_{m_{d,k}}(E,\omega)\right),
+\qquad d=4,8.
+\end{aligned}}
+\tag{1168.49}
+$$
+保留 $\sigma$ 是必需的：$e_i$ 及商曲线未必定义在
+$\mathbb Q_p$，而原 $G_m(E,\omega)\in\mathbb Z_p$。
+整个式子的输出仍在原 $E$ 的
+$\omega^k\eta^{d-k}$ 基中。
+
+这里使用的是 primed theta 在原形式盘上的直接读取。
+若改由商曲线的 whole moment 运输，必须同时带
+R1159 (1159.30)–(1159.31) 的 exact 项及
+$\omega_i\mapsto\omega/2$、
+$\eta_i\mapsto\eta-e_i\omega/2$；
+本式没有把那个实际 coefficient map 误当成恒等。
+
+## 11. 同核相关项的完全显式三同源式
+
+三个实际单位在原环中恰满足
+$$
+\prod_{i=1}^3V'_i
+ =-\frac{\prod_i(x-e_i)}{z^3y^3}
+ =-\frac1{z^3y}=V_2.
+$$
+这也核准原 theta Norm 的全部 leading：
+$\prod_iK_i=-\Delta/16$，从而
+$\prod_i\Delta/(16K_i^2)=\Delta/16$，
+三个 $[z]$ 恰合成原 $3[z]$。
+该等式按已给定的实际 Norm morphism 进入唯一 Hodge
+frame；不将另一套 Galois 根相位擅自设为零。
+
+同一乘积身份用 $v$ 代 $z$ 也严格成立。
+因此由 §10.2 的特征零微分式，得到
+$$
+\sum_{i=1}^3G_m(E_i,\omega_i)
+ =(2+2^m)G_m(E,\omega)\qquad(m\ge4,\ m\ {\rm even}).
+$$
+在 (1168.49) 所需的整系数处，得到
+$$
+\boxed{
+\sum_{i=1}^3\sigma G_{m_{d,k}}(E_i,\omega_i)
+ =(2+2^{-d})G_{m_{d,k}}(E,\omega),\qquad
+\sum_i\mathcal A'_{i,d,k}=\mathcal A_{d,k}.
+}
+\tag{1168.50}
+$$
+这里只核准同一个已登记 Norm 在新系数公式中的值，
+不以两个独立 Norm 代替同核乘积。
+
+具体令
+$$
+m=m_{4,k},\qquad n=m_{8,l},\qquad
+G_m=G_m(E,\omega),\qquad
+G_{i,m}=G_m(E_i,\omega_i).
+$$
+把 (1168.49) 逐项代入 (1168.35)，
+再用 (1168.50) 仅消去两个一次 trace，得
+$$
+\boxed{
+B_{k,l}
+ =c_{4,k}c_{8,l}
+ \left\{(2^4+2^{-11})G_mG_n
+       -4\sum_{i=1}^3
+                 \sigma(G_{i,m})\sigma(G_{i,n})\right\}.
+}
+\tag{1168.51}
+$$
+完整 scalar 核准是：若 $a=2^{-4}$、$b=2^{-8}$，
+则原项为
+$$
+(4-a)(4-b)+2b(2+a)+2a(2+b)-3ab
+ =16+2ab=2^4+2^{-11}.
+$$
+原 primed 两个因子仍使用同一个 $i$。
+也可由 (1168.50) 写为
+$B_{k,l}=\sum_{i\ne j}\mathcal A'_{i,4,k}
+\mathcal A'_{j,8,l}$，但不将它错误地置零。
+
+(1168.36)–(1168.37) 与 (1168.51) 现在给完整
+最高相关 Frobenius 的指定有限系数式，
+其输入只含原曲线及三个具体 (1168.45) 的 Hurwitz 系数。
+其中 $2^4+2^{-11}$、$4$ 与 R1159 的实际
+$\mathcal V_2$ 功能方程相同。
+这没有将跨同源的 $\mathcal V_2$ 改成单点 $v_2$，
+也没有证明显示的三同源相关和非零。
+原未平滑、其余中心和全局排点继续沿既有实际源推进。
+
+以上 quotient 方程、原单位微分、全部高权整性及
+同核 scalar 均由正文逐式证明，无数学程序执行。
 
 ## 已登记来源与执行
 
