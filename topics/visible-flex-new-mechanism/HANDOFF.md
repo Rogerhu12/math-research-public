@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **67e48c9f3f9027455395ea0c962a381ebf9a91a4**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **f1620819ea3dcee86fd990837b65adccda906e4c**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入；全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -28,9 +28,9 @@ R648–R653/R658/R663/R668/R672的七来源真C²/三jet/正collar/分母/法管
 
 原盒/18块576微包/全正势/全历史不减，ODE/ruling/history1e−7、十端1e−8不降；merit非根，根后period/十三规范/frame/闭pose/C²/宏观仍欠。
 
-[R695](results/R695-actual204-early-height-and-original-full-history.md)真204态78e9a6e接run46141630439新2641.642765771秒/96接受0拒；97J/182因子未存只重建必要原J。trust2/λ1e−14/1e−4高度面、144步5400/240，所有原锚/树/96步/fine已付；ruling6.49375e13/十端.93937未根。[R636真119](notes/2026-11-28-r636-real119-early-velocity.md)run46145970226续全υ极值.01内向面，原trust.01171875/λ42434.912506；源48接受2566.050392547秒、无pending/十端.161649/ruling1.43366e14未根，全部原锚/算子/资格/fine保留。
+[R695](results/R695-actual204-early-height-and-original-full-history.md)真204态78e9a6e、新2641.642765771秒/96接受；97J/182未存因子保费，144步5400/240，ruling6.49375e13/十端.93937未根。[R636真119](notes/2026-11-28-r636-real119-early-velocity.md)run46145970226续真υ极值.01内向面；源48接受2566.050392547秒，trust.01171875/λ42434.912506、全部原锚/树/fine继承，6600/240；未根。
 
-[R694](results/R694-actual-paid-velocity-and-value-only-original-armijo.md)接真115源098392/未采用a486；run46145957656新67.402319857秒/0接受，80+25υ叶已闭，诊断KeyError前未打印Armijo。必要源J重建收费，候选用全原零列值判舍入位移Armijo并先打印；接受后原J与值态一致。保trust.0625/λ1e−6/原绝对门，源ruling1.29707e14未根，旧根/树/fine与两未存J费用不消。
+[R710](results/R710-actual149-and-the-unclosed-original-bracket-height.md)接R694新1166.047256997秒/34接受/69方向/572实域拒，总149/f8512fb6。十端.07943465、ruling1.34842e14未根。另1未闭trial迭37/reg1/b8：原左控制−.1高度11叶已闭，93路径未付且P未积分。仅续真余支，原值/必要J的舍入位移Armijo判；原资格/fine复用。新增真括区h/P全列方向，trust.01171875/λ.037037，96步6600/240，全旧费/原门保留。
 
 [R702](results/R702-actual44-aligned-four-ends-and-height-witness.md)接run46142896607新2801.821217363秒/44接受8d0fd67b；真对齐工作/细十端5.52e−17/6.16e−17，ruling5.087e14/ODE1.526e17未根。91合格/23违界/411未闭真键和22025闭叶复用，前b6已由b7接受取代；首固定k片真h驻点行/192位点球+原五场树深64，保原15片网/完整四τ隐式/正势/全部门，72步6600/420。45旧J未存必要重建，原回缩/fine不重；R654旧493未闭/所有费用沿链留。R656无科学。
 
