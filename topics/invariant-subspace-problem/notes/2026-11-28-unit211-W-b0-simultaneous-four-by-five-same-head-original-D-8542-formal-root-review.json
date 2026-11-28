@@ -1,0 +1,107 @@
+{
+  "runId": 46140669502,
+  "jobId": 140965655310,
+  "entireActualLogRead": true,
+  "receipt": {
+    "elapsed_seconds": 10.65268068600001,
+    "max_child_rss_kib": 81764,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "2f352316248e46ee0c854edf310bfff20a791905",
+        "before": "d4f22f04af0ba57d4735cca0f3e68ecc59e018d6",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:36:33.612241+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46140669502",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "d4f22f04af0ba57d4735cca0f3e68ecc59e018d6",
+    "source_exit_code": 0,
+    "source_git_blob": "1898abba431faf62aca343cc2122e48b45d0599d",
+    "source_sha256": "313957129f4b54195253caf973ca1fdb93faaa59adb0027c1c9924c2d2faf3bd",
+    "stdout_bytes": 8299,
+    "stdout_sha256": "764f85b1acc22644914360c05abb7d5dc7ab51e1d5f4c265a6b1e4af63e69ebf",
+    "stop_reason": null
+  },
+  "completedStages": [
+    {
+      "stage": "new_b0_simultaneous_original_four_by_five_ready",
+      "seconds": 0.5163081670000054
+    },
+    {
+      "stage": "new_b0_same_head_four_complete_original_recovery_rows",
+      "seconds": 1.4671708179999996
+    },
+    {
+      "stage": "new_b0_direct_entire_original_D_recovery_relation",
+      "seconds": 1.5318789829999986
+    },
+    {
+      "stage": "new_b0_simultaneous_complete_original_pure_weight_scalar",
+      "seconds": 3.432765024999995,
+      "label": "lambda_square_compatibility"
+    },
+    {
+      "stage": "new_b0_simultaneous_complete_original_pure_weight_scalar",
+      "seconds": 5.9571907229999965,
+      "label": "lambda_f_compatibility"
+    },
+    {
+      "stage": "new_b0_simultaneous_complete_original_pure_weight_scalar",
+      "seconds": 10.562334598000007,
+      "label": "same_f_monic_quadratic_compatibility"
+    },
+    {
+      "stage": "new_b0_simultaneous_four_by_five_original_target_finished",
+      "seconds": 10.567500124000006
+    }
+  ],
+  "results": {
+    "rawHeadDegree": 74,
+    "normalizedHeadDegree": 47,
+    "remainingUnpaidHeadDegree": 34,
+    "headIsAlreadyPaid": false,
+    "CDIsIdenticallyZero": false,
+    "CDDegree": 50,
+    "pureWeightDegrees": [
+      78,
+      80,
+      87
+    ],
+    "wholeB0Excluded": false,
+    "hOpenHasUniqueLambdaAndF": true,
+    "hZeroKeepsAllJ5AndI11": true,
+    "noNewPointBound": true,
+    "noOldProjectionOrPRSReplayed": true
+  },
+  "statistics": {
+    "exactPolynomialDivisionProducts": 384,
+    "originalFCoefficientReturns": 0,
+    "paidSupportProducts": 239,
+    "newOriginalFiveRowReturns": 4,
+    "newOriginalFiveSourceCoordinates": 29,
+    "newAdjugateCoordinates": 32,
+    "newCommonTwentyMultiplierProducts": 4,
+    "newPureWeightOriginalReturns": 3
+  },
+  "formalPaperPending": false,
+  "ordinaryISPClaim": false,
+  "paperBlob": "0280ce5edd17bc5d12ee95cdce6009f4d37482c2",
+  "receiptBlob": "36c4985dc777b54bd0f32beb827aa2705326948b",
+  "entireFormalPaperAndReceiptRead": true,
+  "formalChecks": [
+    "All actual degree/term/byte/SHA profiles and seven checkpoints match original run",
+    "Common cancellation of all20 multipliers gives same polynomial h and four K, all with constant final denominators",
+    "h remains unpaid with residual total degree34; C_D is nonzero total degree50 and is not treated as a D-zero identity",
+    "All three primitive pure weight kernels have complete original five-source returns and retain common zero and head-zero loci",
+    "Exact h-open ideal quotient and its primitive-kernel replacement have both containments; h=0 retains allJ5/I11",
+    "No factorization,new u cover,new global point bound or whole-b0 exclusion asserted"
+  ]
+}
