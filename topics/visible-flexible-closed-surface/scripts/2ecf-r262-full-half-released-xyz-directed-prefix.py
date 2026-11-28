@@ -140,7 +140,7 @@ def main():
         metric=B.extract_bezier(normalized(metkn),fra(np.column_stack((qv,wv))))
     with np.load(a.whole_state,allow_pickle=False) as z:
         sourceSHA='86833bbafd7715c924916f48f3c8b3325cb8a4008d7b7a95398b9e5546621841'
-        if set(z.files)!={'sourceSHA','parentSHA','fieldSHA','unitKnots','wholeTailXYZ','modes','c','actualCommonCut','actualCuffCoordinate'}:
+        if set(z.files)-{'solverSHA','wallSHA'}!={'sourceSHA','parentSHA','fieldSHA','unitKnots','wholeTailXYZ','modes','c','actualCommonCut','actualCuffCoordinate'}:
             raise ValueError('Unknown complete released field layout')
         if str(z['parentSHA'])!=sha(a.state) or str(z['fieldSHA'])!=sha(field) or str(z['sourceSHA'])!=sourceSHA:
             raise ValueError('Different actual parent, reconstructed field or complete XYZ source')

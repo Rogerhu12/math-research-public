@@ -83,7 +83,7 @@ def main():
                 raise ValueError('Another prefix or common-cut source')
             phS,phT,phc=map(ff,(st['S'],st['T'],st['fullSleeve']));c=F(str(float(st['fullSleeve'])))
         with np.load(a.state,allow_pickle=False) as st:
-            if set(st.files)!={'sourceSHA','parentSHA','fieldSHA','unitKnots','wholeTailXYZ','modes','c','actualCommonCut','actualCuffCoordinate'}:raise ValueError('Unknown new correction channels')
+            if set(st.files)-{'solverSHA','wallSHA'}!={'sourceSHA','parentSHA','fieldSHA','unitKnots','wholeTailXYZ','modes','c','actualCommonCut','actualCuffCoordinate'}:raise ValueError('Unknown new correction channels')
             if str(st['sourceSHA'])!=generator or str(st['parentSHA'])!=sha(a.parent) or str(st['fieldSHA'])!=sha(wp):raise ValueError('Unbound whole-half correction')
             if [ff(st[n]) for n in ('actualCommonCut','actualCuffCoordinate','c')]!=[phS,phT,phc]:raise ValueError('Different physical knots or seam')
             kn=list(map(ff,st['unitKnots']));m=int(st['modes']);x=st['wholeTailXYZ'].copy()
