@@ -1,35 +1,43 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-explicit-PS-primitive-20261128",
-  "request_id": "r1206-original-PS-explicit-primitive-20261128",
-  "message": "serre: construct original PS-return primitive with complete supersingular p-poles",
-  "last_read_rules_commit": "7a9fc83cfc7171089c6e39a56e587301371d8038",
+  "source_branch": "serre-astra24-publish-CM-section-lock-20261128",
+  "request_id": "r1207-original-CM-nonreduced-section-20261128",
+  "message": "serre: lock the actual CM section on the complete nonreduced constant tail",
+  "last_read_rules_commit": "a00f5001f868d9fb7eb751f9d9508cba82d32b60",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "c509b6ab7b6de3905f8dd38cc68f6dc2a548eed2",
+  "previous_request_git_blob": "490b1cf4e192ed23542e6ef5941f957e17486f6f",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1206-original-PS-return-explicit-primitive-and-p-poles.md",
+      "path": "topics/serre-uniformity/results/R1207-original-CM-section-on-the-nonreduced-constant-tail.md",
+      "previous_git_blob": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-CM-section-lock.md",
+      "previous_git_blob": null
+    },
+    {
+      "path": "topics/serre-uniformity/open-archive-2026-11-28-before-CM-section-lock.md",
       "previous_git_blob": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "de2b0276c896165e80daf7c515fdd3de9bdbf380"
+      "previous_git_blob": "6f5b7afea38939bc4774178a2e31ae3feb575ade"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "713dd568108ee3d0d4d8566b3f098cceea43391e"
+      "previous_git_blob": "42b8e4b1d349748032cbe2a4f2aadb551787f991"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "a9c5732f6f551b5dc65f6bd55cdc4e917a438d3d"
+      "previous_git_blob": "810e14485c83d756788a41c658cca7b6c7719e18"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "58bc83dca418d4d1b43c87654fbfdad110663a76"
+      "previous_git_blob": "4e7719259310b558883eabce2177e51a52231c62"
     }
   ]
 }

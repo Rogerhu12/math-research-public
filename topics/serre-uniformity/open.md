@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-highest-kernel-pairing.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-CM-section-lock.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -156,15 +156,17 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 
 [R1201](results/R1201-original-highest-packet-kernel-log-unit.md)原最高packet的完整CM核已全称求值：n=2g−1、m=6g−1时V_m(T*)=32m c_m⁰ν/binom(m,n)²为原尺度单位。原Jacobi求积权常数1、CM端点H(1)=32及有限RC多项式原函数给余积分严格0；保全部simple极部。当前必须算U_m=p e_cusp,m e_N的真实混合格/指定C两列；PS权(m+1)²可能经π^−p回到m²，不能删这一p拼接。
 
-[R1202](results/R1202-original-highest-character-cuspidal-projection-integrality.md)原每个实际负deck、最高权整Ω满足U_mΩ∈pΛ，故qΩ整且同惯性W格Γ由q整分裂。原M_N全部0≤N≤p的Ubar消去已付，临界两份W由极化jet的实际直和处理，中心π^(e0−p)返回由全SS节点排掉。仍须保实际Ω：同底lift差π^(e0−p)Ψ_high经q可返回π^−pUΨ，不可先定义A(L)或将R1201单位传C。当前继续实际PS的n=p Frobenius/Cartier源及q后两列。
-
-[R1203](results/R1203-original-PS-critical-transvectant-and-cuspidal-operator.md)原临界有限模 M=Sym^(3p−1)det^(m−1) 上，Ubar=−iq₂/4；普通二阶transvectant不除2!，Frobenius回嵌i(H)=(X^pY−XY^p)²H。完整rank-one群和锁常数−1/4，原N固定基(F₀,F₁)的矩阵为[[1/4,1/8],[−1/2,−1/4]]，非零秩一且平方零。实际PS的n=p系数与此模的几何识别正在逐项读取，不以极阶/同型替来源；指定C两列及whole MW仍开。
+[R1202–1203](results.md)原最高负deck实际整Ω满足UΩ∈pΛ，qΓ整分裂；全normal/临界jet/centre已付。PS临界Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N固定矩阵[[1/4,1/8],[−1/2,−1/4]]秩一平方零，完整framing与群和常数保全。同底lift经π^−pU可改变generic底；其真实返回已由R1204读取，不先定义lift独立A(L)。
 
 [R1204](results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md)原PS中心 Ψ=uT db/(rA)、T∈b²k[b³] 的真实π^−pU返回已读：T_ret=−3γ²(rT″−4b²T′−9bT/4)。完整framing定det，原第p层最高pole由β=[W^(p−1)]Ψ/dW给出，余极部经R1203真被杀；Cartier换参及原τ/B/C²相位全保。此n→n+1二对角映射注入，像恰ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠(1)为显示单位。原qΓ负格秩=n+λ，实际特征零multiplicity已由R1205核为n、λ=0；𝔠(T*)未宣单位，不将packet值传C/whole MW。
 
 [R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原首值目标准确V_m|ker𝔠；若𝔠(T*)=0可由同底lift独立传原单位，否则不能把T*当纯底。指定C与whole MW仍开。
 
 [R1206](results/R1206-original-PS-return-explicit-primitive-and-p-poles.md)同一原函数域显式原函数f_T=(r/u)(T/A)′满足df_T=𝒟T db/(uA)，原返回η_CT=−3γ²df_T。SS在实际W=u/τ中完整负主部为−r_s^(2n+3)A′_sT_s W^−p/τ^p−m𝒟T(s)W^−1/(τA′_s)；两个项均保。CM处ord≥2n+1、全部∞正则消失，deckζ²。exactness不删除p阶极点，不替全图有限log或三个支持尾；继续同源period与CM末列。
+
+[R1207](results/R1207-original-CM-section-on-the-nonreduced-constant-tail.md)原c₁的CM μ₃在实际p基中为原C_ns矩阵；连同原H₆六标记运输和framing，其组合固定整CM截面。R1021的精确eigen参数/模p线性作用给(I−ζ)(α,β)=0，两个特征值差为unit，迫一个Cartan坐标在整个O/(p)精确0。因此V=0、U=±c/2，原三个支持CM截面全模p锁在Q，原H_k(c_ξ)=0。此为包含nilpotents的锁点；twister/node/G(b_lift)²与完整Čech仍须合并，不恢复撤回的CM秩零商。
+
+**当前优先审计：** R1199 §6 从centre普通开平凡化直接延到CM node的步骤可能漏掉模π单位g₀；affine H¹(IO)=0只保证提升既定模I frame，不保证这个node frame与之相容。正按原G(b_lift)²/x^(ma)和twister核g₀及全图补项。核清前只消费R1201的SS有限和单位，不消费其等于完整V_m(T*)的接口；R1202–07的独立格/返回/原函数/截面结论不受此待核影响。
 
 ## O5：原固定 Y 的有效断点
 

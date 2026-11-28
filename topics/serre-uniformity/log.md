@@ -716,3 +716,12 @@
 - SS实际W=u/τ中全部主部明确为p阶与简单两项；CM阶≥2n+1、∞O(b^−1)、自然deckζ²。root与global独立核所有系数和端点，未运行数学程序。保p阶主部和原全图Čech，不以exactness冒称首log为零；原period/CM完整收缩继续。
 - 本地18:09:17UTC真实pull至609ec0e56433fd6b386f6af23511682c9dc007b3，两README差异空。R1179 §14已真实推35d97f3e1905e86ec2726a435935c33d3aa5e399，run46174377945/job141069651932，18:10:44UTC再次真实pull读7a9fc83cfc7171089c6e39a56e587301371d8038，两README diff空。
 - 本push规则：公开Actions真实pull至 9d6faab238a9ab366af0a85f22702593f9c5cd5d（2026-11-28T18:12:36.085712+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1207：由原c₁标准CM Cartan标记和六层保留的μ₃，构造实际六换标/p-level/framing组合稳定子。R1021全模p线性eigen方程迫一个Cartan坐标本身为零，包含全部nilpotents；原CM section于是V=0、U=±c/2，三个支持支与H_k(actual section)=0均支付。
+- root/global分别重读R376现行几何段与R1021全非约化证明，保右作用正逆只交换两特征线；没有使用R575撤回的秩零商。实际twister、G(b_lift)²及全图配对继续，未因exact dH或锁点而删除边界。无数学执行。
+- R1206已真实推6d6bcd44f2629737bb9a06b3c3d9eedc73d4cdb2，run46174555545/job141070204172，18:12:36UTC真实pull读9d6faab238a9ab366af0a85f22702593f9c5cd5d；本地18:18:39UTC真实pull读a00f5001f868d9fb7eb751f9d9508cba82d32b60，两次README diff均空。原R1206本地稿与已推文件逐字cmp一致。
+- H/open压缩前分别逐字归档before-CM-section-lock，合并的旧R1202–03入口仍保完整原证明，不重做旧窗口。
+- 同步登记新审计窄门：R1199 §6的centre/node模I平凡化兼容尚需显式核g₀；暂只消费R1201的SS和unit，不消费完整V接口。没有先宣数值错误，也不将该待核扩散到独立R1202–07。继续原frame/twister计算。
+- 本push规则：待本公开Actions真实pull立即核两README并写入实际FETCH_HEAD；主目标OPEN。
