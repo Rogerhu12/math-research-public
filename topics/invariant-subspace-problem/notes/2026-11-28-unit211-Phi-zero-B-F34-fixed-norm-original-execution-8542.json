@@ -1,0 +1,249 @@
+{
+  "schema": "isp-original-fixed-norm-proof-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "job_id": 140919303032,
+  "driver": {
+    "elapsed_seconds": 5.722861424999991,
+    "max_child_rss_kib": 51060,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "85e32a6c96a40c236c915030017a0972b06493ed",
+        "before": "85e32a6c96a40c236c915030017a0972b06493ed",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T08:23:27.809249+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46125571211",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "85e32a6c96a40c236c915030017a0972b06493ed",
+    "source_exit_code": 0,
+    "source_git_blob": "f7aa6e677ca3d4e2a59c146f0c35e7ec4fdc6cc9",
+    "source_sha256": "c6e8acc0e71c119fd76f8213f2934daacc8ec728cb44b5a51f8541413e3a6eef",
+    "stdout_bytes": 4644,
+    "stdout_sha256": "5b34dab63aba321baa4a4a14d397d245904a53342489cdfea3db66212738e07c",
+    "stop_reason": null
+  },
+  "constant_factor": {
+    "degree": 34,
+    "sha256": "b593d2770a0337dcaf2f4908e51cfc9feb3c5890ce21e5c3c6c1707ff98187ff"
+  },
+  "source_basename": "2026-11-28-unit211-Phi-zero-true-Bzero-large-fixed-original-norms-8542.py",
+  "environment": {
+    "ISP_B_FACTOR_DEGREE": "34"
+  },
+  "limits": {
+    "source_seconds": 120,
+    "source_memory_bytes": 1073741824,
+    "driver_seconds": 135
+  },
+  "actual_stages": [
+    {
+      "constantDegree": 34,
+      "existingMonicLambdaSix": {
+        "coefficientBytes": 30479,
+        "constantDegree": 34,
+        "lambdaDegree": 6,
+        "sha256": "f2d41bd0b2b1623745f9e0fd69a0cb488650f07bcd264a3f18b4a63bf8188b0c"
+      },
+      "monicOmegaCoefficientDegrees": [
+        2,
+        1,
+        0
+      ],
+      "necessaryPrefixSHA256": "a922242b457a02320499c8157642aa920ac930001bace88d4ce59b1ed5f90201",
+      "noCoefficientPayloadPrinted": true,
+      "oldFullSourceSHA256": "a44a8fc4ca4842d97c4d94215250e8399f5988407c3971bdc68ffe96b3b77a48",
+      "oldI6FullRationalMatrixNotExecuted": true,
+      "oldSixPairGCDAndOriginalReturnNotExecuted": true,
+      "originalFourRowDegrees": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "seconds": 0.34073125400001913,
+      "stage": "new_B_fixed_norm_original_input"
+    },
+    {
+      "allThreeOmegaCoordinatesReturned": true,
+      "constantDegree": 34,
+      "fixedSylvesterIdentity": true,
+      "norm": {
+        "coefficientBytes": 25372,
+        "constantDegree": 34,
+        "lambdaDegree": 8,
+        "sha256": "11820bfaca5965e3b6703fec8c8b4edf0bd82fcc71c22af4213791572fb2dc52"
+      },
+      "originalLinearHeadZeroKept": true,
+      "originalRow": 0,
+      "remainderDegree": 5,
+      "seconds": 0.354666543999997,
+      "stage": "new_B_original_fixed_two_plus_one_norm"
+    },
+    {
+      "allThreeOmegaCoordinatesReturned": true,
+      "constantDegree": 34,
+      "fixedSylvesterIdentity": true,
+      "norm": {
+        "coefficientBytes": 25991,
+        "constantDegree": 34,
+        "lambdaDegree": 8,
+        "sha256": "74d3014f6c2cd6a7a7e0aaae6178d720ebdf9979c38e5b5c2657208bf3e85821"
+      },
+      "originalLinearHeadZeroKept": true,
+      "originalRow": 1,
+      "remainderDegree": 5,
+      "seconds": 0.36849793999999747,
+      "stage": "new_B_original_fixed_two_plus_one_norm"
+    },
+    {
+      "allThreeOmegaCoordinatesReturned": true,
+      "constantDegree": 34,
+      "fixedSylvesterIdentity": true,
+      "norm": {
+        "coefficientBytes": 27013,
+        "constantDegree": 34,
+        "lambdaDegree": 8,
+        "sha256": "27f8ca27e53dfb7b8c09f826a596177840680be72ec9cab7b8db07267b13a69d"
+      },
+      "originalLinearHeadZeroKept": true,
+      "originalRow": 2,
+      "remainderDegree": 5,
+      "seconds": 0.3822860410000146,
+      "stage": "new_B_original_fixed_two_plus_one_norm"
+    },
+    {
+      "allThreeOmegaCoordinatesReturned": true,
+      "constantDegree": 34,
+      "fixedSylvesterIdentity": true,
+      "norm": {
+        "coefficientBytes": 18669,
+        "constantDegree": 34,
+        "lambdaDegree": 6,
+        "sha256": "83815a2ea2b8d5c56285e3cd3811db48feeae70261dc7bac623a0a9178d0f077"
+      },
+      "originalLinearHeadZeroKept": true,
+      "originalRow": 3,
+      "remainderDegree": 5,
+      "seconds": 0.38931758100000025,
+      "stage": "new_B_original_fixed_two_plus_one_norm"
+    },
+    {
+      "completeScalarBezoutReturned": true,
+      "constantDegree": 34,
+      "monicGCDDegree": 1,
+      "seconds": 5.29715072800002,
+      "stage": "new_B_original_norm_common_ideal_checkpoint",
+      "throughOriginalRow": 0
+    },
+    {
+      "completeScalarBezoutReturned": true,
+      "constantDegree": 34,
+      "monicGCDDegree": 1,
+      "seconds": 5.337737835000013,
+      "stage": "new_B_original_norm_common_ideal_checkpoint",
+      "throughOriginalRow": 1
+    },
+    {
+      "completeScalarBezoutReturned": true,
+      "constantDegree": 34,
+      "monicGCDDegree": 1,
+      "seconds": 5.3790227120000225,
+      "stage": "new_B_original_norm_common_ideal_checkpoint",
+      "throughOriginalRow": 2
+    },
+    {
+      "completeScalarBezoutReturned": true,
+      "constantDegree": 34,
+      "monicGCDDegree": 0,
+      "seconds": 5.501976119000005,
+      "stage": "new_B_original_norm_common_ideal_checkpoint",
+      "throughOriginalRow": 3
+    },
+    {
+      "actualFinalRelation": {
+        "coefficientBytes": 139,
+        "constantDegree": 34,
+        "lambdaDegree": 0,
+        "sha256": "0483b3c0a7eda60693ff701ec021a45ca6041f96217e7c4cbbb124911a23e9b0"
+      },
+      "allComplexConstantEmbeddingsKept": true,
+      "allRemainingLambdaAndOmegaMultiplicityKept": true,
+      "completeThreeCoordinateOriginalI4IdentityReturned": true,
+      "constantDegree": 34,
+      "fullNecessaryQQEnvironmentDimension": 0,
+      "newFixedNormIdentityCoordinates": 15,
+      "newMonicNecessaryLambdaDegree": 0,
+      "newNorms": [
+        {
+          "coefficientBytes": 25372,
+          "constantDegree": 34,
+          "lambdaDegree": 8,
+          "sha256": "11820bfaca5965e3b6703fec8c8b4edf0bd82fcc71c22af4213791572fb2dc52"
+        },
+        {
+          "coefficientBytes": 25991,
+          "constantDegree": 34,
+          "lambdaDegree": 8,
+          "sha256": "74d3014f6c2cd6a7a7e0aaae6178d720ebdf9979c38e5b5c2657208bf3e85821"
+        },
+        {
+          "coefficientBytes": 27013,
+          "constantDegree": 34,
+          "lambdaDegree": 8,
+          "sha256": "27f8ca27e53dfb7b8c09f826a596177840680be72ec9cab7b8db07267b13a69d"
+        },
+        {
+          "coefficientBytes": 18669,
+          "constantDegree": 34,
+          "lambdaDegree": 6,
+          "sha256": "83815a2ea2b8d5c56285e3cd3811db48feeae70261dc7bac623a0a9178d0f077"
+        }
+      ],
+      "noDOrLambdaOrTOrNormInverse": true,
+      "noOriginalI6MatrixOrPositiveTargetExecuted": true,
+      "oldLambdaDegree": 6,
+      "ordinaryISPClaim": false,
+      "originalLinearHeadZeroFibersKept": true,
+      "otherConstantFactorNotTested": true,
+      "seconds": 5.694431214000019,
+      "sourceSHA256": "c6e8acc0e71c119fd76f8213f2934daacc8ec728cb44b5a51f8541413e3a6eef",
+      "stage": "new_B_fixed_original_norm_complete_result",
+      "wholeBExcluded": false,
+      "wholeFactorExcluded": true,
+      "wholePhiExcluded": false
+    }
+  ],
+  "conclusions": {
+    "whole_F34_excluded": true,
+    "remaining_B_weight_pairs_at_most": 40,
+    "whole_B_excluded": false,
+    "whole_Phi_excluded": false
+  },
+  "prior_memory_gate": {
+    "run_id": 46124520657,
+    "source_exit_code": -6,
+    "kept_frozen": true,
+    "not_reexecuted": true
+  },
+  "coefficient_payload_saved": false
+}

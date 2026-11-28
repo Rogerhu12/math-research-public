@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确 B 曲线的整个 F34 原范数排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-entire-F34-fixed-original-norm-exclusion.md)：四固定原norm为λ8/8/8/6，完整K34逐次gcd1/1/1/0，最终15坐标原I4返1；5.722861425秒/0，无几何单位逆。B只余F40至多40权对，旧408矩阵门仍冻结。
+
 - [h=k 整个 Pf 的正确原链静审](notes/2026-11-28-unit211-h-equals-k-Pf-true-original-static-audit-8542.md)：核四直接真vm源及四源完整等权前置链，F96后续四常数域不可省。恢复既有T0(J−Q)单位，使正确5640界覆盖整个当前Δ0；没有执行或恢复旧错误全覆盖。
 
 - [R12：完整二进双和平方可除与新的闭稳定交换域](results/R12-appendix-explicit-dyadic-square-divisibility-and-new-closed-stable-commuting-domain.md)：原范数双和准确给W²=C²Z，完整喷射排W,Z∈C C′；L=C⁻¹W最大自然域真稠闭稳定，平方Z、RanC图核心。此域包含RanC也被精确排作原根域，不误把Z换成C。
