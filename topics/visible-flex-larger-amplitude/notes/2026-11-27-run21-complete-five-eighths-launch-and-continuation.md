@@ -704,3 +704,406 @@ maker步骤真实returncode=0，总6.160448841999994秒，实际source bce727d65
 ```
 
 
+
+## 2026-11-28 00:11:49 UTC — 21两完整输入真0及新model初统计返回
+
+第二完整参考构造自然返回0，用时519.771413671秒（报告内部515.729490529秒），实际source commit 185679de628e5bee09652e5f8ec9beeff8ff247a。原report=84966B/6e4e88ff609cfe606e013e6631cb6e93327b7b9f11f497491b4019b8fb8ed2ba；全部原命令、七输出身份、输入绑定和cleanup/缺件数组保下面第二步骤全对象。M160/J923/P7377/N2048、height1.947054437068418；原2218叶complete=true但accuracy_reached=false、whole_tail=true，无丢尾或新证书。仅原二输入完成，不代科学完成。
+
+科学实际00102534c51acf39f0e6f27bc34d37db3bebd6ec/f600/PID3644，model=9387a145b382e2afc2eaca4f68f7370b91697008e0720e1d8202d22bf878fd63；初点7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47于2026-11-27T23:59:49.654114+00:00原统计返回Phi=3233.3855489912225、Gram=0.6568825757487662。初有限几何/六族g/K/D尚未返回；accepted0/reportfalse，不从别的width/model填值。以下whole part身份后只追加尚未登记的第二原步骤，第一原步骤已经在前节完整保留。
+
+```json
+{
+  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46084442413-1-part-001.md",
+  "bytes": 16602,
+  "sha256": "99d55bedb730b8e764848c5717206e7e99be5145e971c2b3f906fad91760b24c",
+  "git_blob_sha": "a983cf74fdb10219c9c53f434dfcf10a1e7a6f80",
+  "fixed_commit": "920546134cd72cab133165c2be7a5380204dabd9"
+}
+```
+
+```json
+{
+  "name": "followup:prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run21",
+  "state": "completed",
+  "returncode": 0,
+  "seconds": 519.771413671,
+  "scope": "Necessary complete reference construction for the one predeclared Fejer RN-even64 chart and complete original R690 scalar. Consume all real fixed-input products from the independent formula maker, preserve all 923 exact nodes, 7377 positive observations and every eight-Gauss/reference scalar jet. The scalar integer table uses a predeclared 2218-leaf rule; H is the original complete normalized-c Gauss seed and remains free. Reinterpret the full ordered eleven-payload historical literals explicitly on the new target and mesh, without claiming same physical s/point or inheriting unknown old history, field values, certificates, or completion. This is necessary input construction, not a scientific fixture or proof.",
+  "metrics": {
+    "fixed-fejer-reference/report.json": {
+      "schema": "R690-fixed-fejer-axisymmetric-SO3-preparation-v1",
+      "source": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+      "source_commit": "185679de628e5bee09652e5f8ec9beeff8ff247a",
+      "complete": true,
+      "seconds": 515.729490529,
+      "reference_model": "ea64e2fe5e272648195128d53521705cc266d82f7d2636bd7201b90fcf172fac",
+      "fixed_scalar": "d492e4ad97245a8474f1a73a8787aac2fc5691b1f928d0b8ea72224cabd55160",
+      "scalar_parameters": "e640aec831df350fa69740650b723a7d2d55676ca64ffb5ddabbacb3ab7d6dfa",
+      "mathematical_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "full_target": "50df37b6b832dcdd53d05c54138e62e43df6b14df68d946a7b8a7b8227f58319",
+      "fixed_recipe": "5e1c65204a45ae97b64d845f7fe7277ffedd57c758939cc82df068b2f104ce4a",
+      "model_chart": "af8ab672f847163fe02999df70a031cd5e4a495ed89c788ad0dffc8786651103",
+      "model_mesh": "ca4b5c626e0e5cf1687c40c25a68a76c4e8fbde391bd8c853399400c784dddfc",
+      "core0": "0x1.c000000000000p-2",
+      "core1": "-0x1.3333333333333p-4",
+      "core2": "0x1.b6db6db6db6dbp-6",
+      "M": 160,
+      "J": 923,
+      "P": 7377,
+      "N": 2048,
+      "height": 1.947054437068418,
+      "reference": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
+      "carrier": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
+      "nodes": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+      "scalar": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+      "fixed_input": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+      "input_preparation": "a052a2ea0e07f10e67d93eb4e7b5b1138659fe9127a91b3b0d822d527c03b7ea",
+      "locations": "65e87a579c561408a22a2a5990517a6dd0bce354651a960e2f9ab9bb01b89bef",
+      "location_provenance": "8436f76476f6eb8d927745e37de0689adde56cd6c81eb2a60d36f3825415ff8d",
+      "target_file": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
+      "leaf_target": 2218,
+      "actual_leaves": 2218,
+      "accuracy_reached": false,
+      "integral_width_exact": "20705780131163723599438290019541571913013106551525357578680931811765776678181/14411518807585587200000000000000000000000000000000000000000000000000000000000000000000000",
+      "whole_tail": true,
+      "unresolved_tail_dropped": false,
+      "clock_selects_leaves": false,
+      "old_warm_not_required": true,
+      "old_surface_used": false,
+      "old_directions_replayed": false,
+      "old_certificates_inherited": false,
+      "physical_field_read": false,
+      "new_field_still_required": true,
+      "run": "46084442413",
+      "attempt": "1"
+    },
+    "fixed-fejer-reference/material-envelope-carrier-binding.json": {
+      "schema": "complete-fixed-fejer-actual-reference-binding-v1",
+      "source": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+      "source_commit": "185679de628e5bee09652e5f8ec9beeff8ff247a",
+      "run": "46084442413",
+      "attempt": "1",
+      "mathematical_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "full_reference_definition": "50df37b6b832dcdd53d05c54138e62e43df6b14df68d946a7b8a7b8227f58319",
+      "reference": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
+      "preparation": "6e4e88ff609cfe606e013e6631cb6e93327b7b9f11f497491b4019b8fb8ed2ba",
+      "carrier": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
+      "fixed_input": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+      "nodes": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+      "scalar": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+      "target_file": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
+      "history": "8436f76476f6eb8d927745e37de0689adde56cd6c81eb2a60d36f3825415ff8d",
+      "all_six_actual": true,
+      "old_values_or_unknown_history_inherited": false
+    }
+  },
+  "outputs": [
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-reference/report.json",
+      "sha256": "6e4e88ff609cfe606e013e6631cb6e93327b7b9f11f497491b4019b8fb8ed2ba",
+      "bytes": 84966
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-reference/reference.npz",
+      "sha256": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
+      "bytes": 894879
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-reference/observations.npz",
+      "sha256": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
+      "bytes": 205842
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-reference/locations.json",
+      "sha256": "65e87a579c561408a22a2a5990517a6dd0bce354651a960e2f9ab9bb01b89bef",
+      "bytes": 106771
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-reference/supplied-location-provenance.json",
+      "sha256": "8436f76476f6eb8d927745e37de0689adde56cd6c81eb2a60d36f3825415ff8d",
+      "bytes": 223955
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-reference/fixed-target-definition.json",
+      "sha256": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
+      "bytes": 30919
+    },
+    {
+      "path": "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json",
+      "sha256": "9e8e8ea20684c75db7df9705545bb4d0cb7e61019ecf5c169a17862cfd5e9f22",
+      "bytes": 35712
+    }
+  ],
+  "input_files": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "commit": "185679de628e5bee09652e5f8ec9beeff8ff247a",
+      "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb"
+    },
+    {
+      "role": "followup_queue",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-21.json",
+      "path_commit": "95ae5c2399664bed1b9597611b7385cb4e8d6d5e",
+      "checkout_commit": "bce727d650913286f0710e28736afecd599cb9d1",
+      "sha256": "c83981e0ed294593207c780a863f9328d120103929cbd58f58810e42f3af9d6c"
+    }
+  ],
+  "source_commit": "185679de628e5bee09652e5f8ec9beeff8ff247a",
+  "source_sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/followup-sources/0002-32be9120e18b-185679de628e/topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+    "--repo",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/followup-sources/0002-32be9120e18b-185679de628e",
+    "--fixed-input",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
+    "--fixed-input-report",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs/report.json",
+    "--node-report",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+    "--scalar-input",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+    "--manifest",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/followup-sources/0002-32be9120e18b-185679de628e/topics/visible-flex-larger-amplitude/scripts/resume_20261120/a04_historical_location_seeds.json",
+    "--outdir",
+    "/home/runner/work/_temp/visible-larger-research-46084442413-1/research/fixed-fejer-reference",
+    "--angles",
+    "2048",
+    "--seed-integration-order",
+    "8",
+    "--panels",
+    "128",
+    "--scalar-leaf-count",
+    "2218",
+    "--scalar-integral-tolerance",
+    "1e-18",
+    "--scalar-tail-cutoff",
+    "1/8"
+  ],
+  "cleanup_generated": {
+    "deleted": {
+      "record_count": 0,
+      "recorded_bytes": 0,
+      "records_with_bytes": 0,
+      "listed_file_count": 0,
+      "records_with_file_lists": 0,
+      "canonical_metadata_bytes": 2,
+      "canonical_metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "canonicalization": "UTF-8 JSON; ensure_ascii=False; sort_keys=True; separators=(',',':'); allow_nan=False",
+      "detail_scope": "Complete original entries remain in runner status.json and followup-journal.json; recorded_bytes sums only explicit bytes fields; listed_file_count counts only explicit files lists"
+    },
+    "skipped": {
+      "record_count": 0,
+      "recorded_bytes": 0,
+      "records_with_bytes": 0,
+      "listed_file_count": 0,
+      "records_with_file_lists": 0,
+      "canonical_metadata_bytes": 2,
+      "canonical_metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "canonicalization": "UTF-8 JSON; ensure_ascii=False; sort_keys=True; separators=(',',':'); allow_nan=False",
+      "detail_scope": "Complete original entries remain in runner status.json and followup-journal.json; recorded_bytes sums only explicit bytes fields; listed_file_count counts only explicit files lists"
+    },
+    "scope": "Only explicit patterns, newly generated regular caches and an already returned child; never parent/input/output files"
+  },
+  "step_id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run21",
+  "summary_errors": [],
+  "missing_outputs": []
+}
+```
+
+以下为固定提交完整小索引的身份和原active全对象；仅读取已有标量，先metadata再全小正文，未取科学raw或另算场。缺值保原错误，真实source/点/事件按原对象不混同。
+
+```json
+{
+  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46084442413-1.md",
+  "bytes": 61814,
+  "sha256": "372255048ffb853d16ce84d8d6ec9bc8336aa6eb80b56b87d0bb8fbcb38ca6b4",
+  "git_blob_sha": "427ad0d78e580b41c8f0d955dfd83a265d6c31ac",
+  "fixed_commit": "920546134cd72cab133165c2be7a5380204dabd9"
+}
+```
+
+```json
+{
+  "step_id": "complete-fixed-fejer-meridian-batched-bfiveeighths-first-20261127",
+  "scientific_source_commit": "00102534c51acf39f0e6f27bc34d37db3bebd6ec",
+  "scientific_source_sha256": "f600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506",
+  "pid": 3644,
+  "observations": {
+    "fixed-fejer-meridian-batched-bfiveeighths-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 00:02:41 UTC",
+      "point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "cached_angle_roots": 537,
+      "closure_original_returns": 4658,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-27T23:59:49.654114+00:00",
+      "math_event": "initial-statistics-returned",
+      "math_driver": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+      "math_model": "9387a145b382e2afc2eaca4f68f7370b91697008e0720e1d8202d22bf878fd63",
+      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 3233.3855489912225,
+      "initial_Gram": 0.6568825757487662,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 3233.3855489912225,
+      "current_Gram": 0.6568825757487662,
+      "current_state": "initial statistics returned; no accepted direction",
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-normal-evaluation-progress.json",
+      "bytes": 3295,
+      "sha256": "e8dfc2caba116df0e699cec39ca3c0507d5de78084e5c8e35b5136d3e5dbc7c6",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "bytes": 3529,
+      "sha256": "ab5eb623d3743c46ef2389333a7112d4f3d5b0c991883156ad099b06f6f404ae",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "latest_trial.accepted",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.reach",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.body_diameter",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.distance_plus",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.distance_minus",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.cap_diameter",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.height_floor",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.actual_positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.accepted",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.geometry.maximum_physical_families",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bfiveeighths-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "5f2190a91b9625ca5bbe515d7c777008ce60e3df617d518a127effecb661e946",
+  "observed_utc": "2026-11-28T00:02:42Z"
+}
+```

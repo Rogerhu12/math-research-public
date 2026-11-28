@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 同固定g、M160/J923/N2048/32stage；12–16官方cancelled的全已返输入/诊断、末真pull与未返回科学责任保各完整终态note，不冒最终场或支付N4096/M320/J1845精化。
 
-17 current b0468/accepted2/g2.0460148700803895；18 current7d0d/accepted1/g2.0476206814786773，均真实restoration接受且有限违反仍正。17/18新的trial开始不代接受；精确各model/point/source/Phi/Gram/全部观察和18前三失败保[17全事实](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18完整续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。
+17 current b0468/accepted2/g2.0460148700803895；18 current4a822/accepted2/g2.0460148700322605，均真实restoration接受且有限违反仍正。17/18新的trial开始不代接受；精确各model/point/source/Phi/Gram/全部观察和18前三失败保[17全事实](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18完整续求](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。
 
 [19完整续求](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)为b/S1/2、δ1/32；真两input0，model0abfbf，初Phi3825.0583894874153/Gram.6460503011117507，reach+.9684249942095058/distplus+.005863061771032241、余四负。首restoration d761b5真实接受，current该点/accepted1，Phi3825.0583176123996/Gram.6460503022350718；真reach+.9679630392005261/distplus+.005863064535577611、余四负，六值与原观察保全note，reportfalse。
 
@@ -128,4 +128,4 @@ README未完成；时长、阶段、失败和输入困难均非终点；按open�
 
 容量续求：ret54完整18旧生成对象已逐项退树、净1113720B；源/请求/全spec与数值输入不退，旧读者须恢复完整原字，详[全部保全账](computations/legacy-native-generated-metadata-retention-54-complete-delivery.json)。同一批将完整21启动/后参接上，不计数学完成。
 
-21完整启动已提交：[全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同g只width1/2→5/8；原两完整输入+157词科学整步，全部source/预算/责任保全；官方46084442413/1、job140790598810已真启动，maker实际0，第二参考/科学尚未返。科学/pure全包超95KB，真正返回后整步接pure，无删字段。
+21完整启动已提交：[全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同g只width1/2→5/8；原两完整输入+157词科学整步，全部source/预算/责任保全；官方46084442413/1、job140790598810已真启动，两input实际0；科学001025/f600/PID3644/model9387初7e06统计返Phi3233.3855489912225/Gram.6568825757487662，初几何/六g未知，accepted0/reportfalse。科学/pure全包超95KB，真正返回后整步接pure，无删字段。

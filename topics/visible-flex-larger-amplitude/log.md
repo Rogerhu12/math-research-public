@@ -112,3 +112,7 @@
 ## 2026-11-28 00:11:20 UTC — 20首试点完整有限几何拒绝；下一试点尚未返回
 
 20原48live实际保首345906完整有限g=.9750099817855096、reach最大、accepted=false；current初点g=.9684249942095058/accepted0不变。下一d34614于00:03:30.800085开始，统计/几何/alpha未知，不能推第二方向；较小恢复μ在此首试点没有改善几何。科学未自然返回、reportfalse。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`8f7dc258e27c0aa47865ead41e5a36c90fbda367`无变（非pull）。
+
+## 2026-11-28 00:11:49 UTC — 21两完整输入真0及新model初统计返回
+
+21第二原参考真0/519.771413671s，报告84966B/6e4e88ff…；M160/J923/P7377/N2048，原全2218叶保准确性未达与全尾。科学001025/f600/PID3644/model9387，初7e06于23:59:49.654114统计返Phi3233.3855489912225/Gram.6568825757487662；初几何/六g/K/D未知、accepted0/reportfalse。完整原第二步骤及所有输入输出命令、原48live全对象原字保note。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`c90162a6fd4848015b4d7d2972f85e13af0492a5`无变（非pull）。
