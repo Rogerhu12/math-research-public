@@ -188,3 +188,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 同一原三平移 C 的完整 V4 覆盖已识别
 
 [原genus4 §12](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付同一𝓧上的三个真实平方根、乘积2iv、degree4及完整分支，原 Z→Y→C→E 指定映射恰对应新基点 P−Q。原ω_E/R三标架的 β 系数为 b0σ/√γ，全部absolute Cartier相位保留；三个 anti-invariant λ_j 由 z=A_j²、w=D_X A_j 接到同一个 E*:w²=z³−4，真实primitive是 §10.3 的 Ψ_* 拉回（不混§9的 H_*）。继续完整 pth 修正后的高插入与原e/K4；覆盖识别及σ的有限式均不代任何非零。
+
+
+### 原 Gaussian 单个 primitive 的中央单位组合
+
+[R1155 §11](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)在原E:y²=x³+A x及原U_a上给完整relative Frobenius模z¹⁶读取。z仅为安全有限阶整elliptic坐标，s=a²，L1=3As/5，L2/L3由原x([a]P)函数完整展开；准确h12−(L3/L1)h4=−2A³s(s−1)(s−4)/125为单位，b8=−2A²(s−1)(s−4)/25也为单位。有限log的三次项、第二槽的实际linear cancellation均保。后继要将这些真实blocks接入R1156–1157的指定加权filling；该单block单位不排weighted/Cor抵消，不代F0 z12，也不把实际torsion的高nilpotent项或完整formal-log=0忽略。

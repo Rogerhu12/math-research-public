@@ -843,3 +843,208 @@ $\operatorname{Cor}(CD)$ 一样不能拆成两个 Norm 的乘积。
 也不将任意 $\xi',\eta'$ 解释为分歧域上的 field Frobenius。
 原 $F_0$ 的 $z_{12}$ 仍待同一 filling 完成后读取。
 全部为纸面证明，无数学程序执行。
+
+
+## 11. 原 Gaussian 单个单位方程的中央第十二 jet 与单位组合
+
+本节给 §6 的同一个 $U_a(P)$ 一个可直接用于后继 filling 的有限
+中央读取。这里的变量是椭圆曲线原点处的**有限阶整坐标**，
+不是 R1149 的模曲线变形参数，也不是把实际非零 $p$-torsion
+点的完整 formal logarithm 当成非零坐标。
+结论是原单个 primitive 的 relative Frobenius jet；
+加权矩、全部 Cor 及目标 $F_0$ 的比较仍须继续。
+
+### 11.1. 原 formal-group 坐标的安全范围
+
+设 $p>37$，原 Gaussian 模型为
+$$
+E:\ y^2=x^3+A x,\qquad A\in\mathcal O_F^\times,\qquad
+\omega=\frac{dx}{2y}.
+$$
+取原整参数 $t=-x/y$，仅在有限阶取
+$$
+z(t)=\int_0^t\omega\pmod{t^{21}},\qquad z=t+O(t^5).
+\tag{1155.51}
+$$
+此处积分只除以 $1,\ldots,20$，均为 $p$ 单位。
+因此 $z$ 是整的可逆坐标 jet，且
+$z([a]t)=a z(t)\pmod{t^{21}}$。
+它来自特征零 formal-logarithm 身份的这个安全有限前缀；
+没有在实际 torsion 点上将完整 logarithm 截断为 (1155.51)。
+
+由 $x'^2=4x^3+4Ax$、$x''=6x^2+2A$ 以及原 leading $x=z^{-2}+\cdots$，
+逐项得到
+$$
+x(z)=z^{-2}-\frac A5z^2+\frac{A^2}{75}z^6
+                  -\frac{2A^3}{4875}z^{10}+O(z^{14}).
+\tag{1155.52}
+$$
+Gaussian 自动同构使指数皆为 $2\bmod4$；
+三个系数分别由
+$2c_1=12c_1+2A$、
+$30c_2=12c_2+6c_1^2$、
+$90c_3=12c_3+12c_1c_2$
+给出。有限坐标的 $O(z^{21})$ 误差作用于 $x$ 后至少为
+$O(z^{18})$，故不影响以下模 $z^{16}$ 的单位比值。
+
+保持 §6 的同一整数 $3\le a\le(p-1)/2$，置
+$$
+s=a^2,\qquad u_0=\frac{s-4}{4(s-1)}\in\mathbf F_p\setminus\{0,1\}.
+$$
+在本节所有有限式中 $A$ 也约模 $p$，并定义
+$$
+U(z)=\frac{x([a]P)-x([2]P)}{x([a]P)-x(P)}
+     \in(\mathcal O_F/p)[[z]]/(z^{16}).
+\tag{1155.53}
+$$
+这是原 $U_a$ 的实际函数 jet；分子、分母乘 $z^2$ 后
+leading 均为单位。因而 $U$、$1-U$ 都是所需的单位。
+
+为保全部系数，对 $b=1,2$ 记 $t_b=b^2$。原差值准确为
+$$
+\begin{aligned}
+x([a]P)-x([b]P)
+={}&z^{-2}(a^{-2}-b^{-2})
+\left(1+\frac{A s t_b}{5}z^4
+-\frac{A^2s t_b(s^2+s t_b+t_b^2)}{75}z^8\right.\\
+&\left.\hspace{22mm}
++\frac{2A^3s t_b
+ (s^4+s^3t_b+s^2t_b^2+s t_b^3+t_b^4)}{4875}z^{12}
++O(z^{16})\right).
+\end{aligned}
+\tag{1155.54}
+$$
+令 $\mathcal L(z)=\log(U(z)/u_0)$，log 只按幂零元作有限展开。
+由 (1155.54) 的 $t_b=4$ 与 $t_b=1$ 两项相减，
+$$
+\mathcal L=L_1z^4+L_2z^8+L_3z^{12}\pmod{z^{16}},
+\tag{1155.55}
+$$
+其中
+$$
+\boxed{\begin{aligned}
+L_1&=\frac{3As}{5},\\
+L_2&=-\frac{A^2s(2s^2+25s+42)}{50},\\
+L_3&=\frac{A^3s(2s^4+75s^3+588s^2+1275s+682)}{1625}.
+\end{aligned}}
+\tag{1155.56}
+$$
+例如对一般 $t_b$，log 的 $z^{12}$ 系数为
+$$
+A^3\left(
+\frac{2s t_b(s^4+s^3t_b+s^2t_b^2+s t_b^3+t_b^4)}{4875}
++\frac{s^2t_b^2(s+t_b)^2}{375}\right);
+$$
+因此 (1155.56) 保留了 log 的全部乘积修正。
+
+### 11.2. 同一有限 polylogarithm 的完整三阶展开
+
+现在只在上述幂零商中工作。因 $p>37$，
+$$
+U(z)^p=u_0,\qquad 1-U(z)^p=1-u_0.
+$$
+设 $\ell_r=\ell_{r,p}$，$U=u_0e^{\mathcal L}$。
+有限多项式的导数恒等式给
+$$
+\frac{d}{d\mathcal L}\ell_2(U)=\ell_1(U),\qquad
+\frac{d}{d\mathcal L}\ell_1(U)
+=\frac{U-U^p}{1-U}=\frac{U-u_0}{1-U}.
+\tag{1155.57}
+$$
+所读阶数小于 $p$，积分常数由 $\mathcal L=0$ 固定，故
+$$
+\begin{aligned}
+\ell_1(U)
+ &=\ell_1(u_0)+
+   \frac{u_0}{2(1-u_0)}\mathcal L^2+
+   \frac{u_0(1+u_0)}{6(1-u_0)^2}\mathcal L^3
+   \pmod{\mathcal L^4},\\
+\ell_2(U)
+ &=\ell_2(u_0)+\ell_1(u_0)\mathcal L+
+   \frac{u_0}{6(1-u_0)}\mathcal L^3
+   \pmod{\mathcal L^4}.
+\end{aligned}
+\tag{1155.58}
+$$
+特别第二式没有 $\mathcal L^2$ 项，但必须保留显示的三次项。
+同样可以先用准确有限 log 身份
+$$
+\ell_1(U)-\ell_1(u_0)
+=-u_0\log(U/u_0)
+ -(1-u_0)\log\bigl((1-U)/(1-u_0)\bigr)
+$$
+在此低阶商中核对第一式。
+这解释了为何下面的第二 Frobenius 槽不是 raw $\log(1-U)$。
+
+将 §5 的同一 relative Frobenius 记为
+$$
+R^\dagger(U(z))=(0,b(z),h(z)).
+$$
+其完整低阶值为
+$$
+\boxed{\begin{aligned}
+b(z)&=-\frac{\ell_1(u_0)}{1-u_0}
+-\frac{u_0}{2(1-u_0)^2}\mathcal L^2
+-\frac{u_0(1+u_0)}{6(1-u_0)^3}\mathcal L^3,\\
+h(z)&=-\frac{\ell_2(u_0)}{1-u_0}
+-\frac{\ell_1(u_0)}{1-u_0}\mathcal L
+-\frac{u_0}{6(1-u_0)^2}\mathcal L^3
+\qquad\bmod z^{16}.
+\end{aligned}}
+\tag{1155.59}
+$$
+第一槽准确为零，所以这里 ordered 与 BCH 中央相同。
+本节没有把任意 $v$ 的运输误差 $\varepsilon$ 设为零；
+所读的正是已指定的 $v=U(z)^p$ relative Frobenius。
+
+### 11.3. 一个不依赖有限 logarithm 值的单位组合
+
+记 $h_j=[z^j]h(z)$、$b_j=[z^j]b(z)$。由 (1155.59)，
+$$
+h_4=-\frac{\ell_1(u_0)}{1-u_0}L_1,\qquad
+h_8=-\frac{\ell_1(u_0)}{1-u_0}L_2,\qquad
+h_{12}=-\frac{\ell_1(u_0)}{1-u_0}L_3
+       -\frac{u_0L_1^3}{6(1-u_0)^2}.
+\tag{1155.60}
+$$
+$L_1$ 是单位，而直接代入 $u_0,L_1$ 得
+$$
+\boxed{\quad
+h_{12}-\frac{L_3}{L_1}h_4
+=-\frac{2A^3s(s-1)(s-4)}{125}\ \in(\mathcal O_F/p)^\times.
+\quad}
+\tag{1155.61}
+$$
+这里
+$$
+\frac{L_3}{L_1}
+=\frac{A^2(2s^4+75s^3+588s^2+1275s+682)}{975}
+$$
+也只含已付单位分母。
+所以原单个 primitive 的两个指定中央 jet 不可能同时为零：
+若 $\ell_1(u_0)=0$，则 $h_{12}$ 本身为所示单位；
+否则 $h_4$ 已为单位。
+
+作为同一 finite Frobenius 的完整第二槽读取，
+$$
+\boxed{\quad
+b_4=0,\qquad
+b_8=-\frac{2A^2(s-1)(s-4)}{25},\qquad
+b_{12}=\frac{4A^3(s-1)(s-4)(s+5)^2}{375}.
+\quad}
+\tag{1155.62}
+$$
+$b_8$ 恒为单位，$b_{12}$ 不宣恒为单位。
+这两个值使用 (1155.59) 的实际第二槽，未删除一个 raw-log 线性项后
+再称其为原 Kummer 槽。
+
+(1155.61) 是一个已经付清的原 primitive 局部输入。
+原 R1156–1157 filling 的加权和、同陪集 Cor、运输误差及
+moment contraction 仍可能产生真实抵消；本式没有排除那些抵消，
+没有把 $z$ 换成模曲线的 $t$，也没有宣称已付 $F_0$ 的 $z_{12}$。
+实际 torsion 点的 $\mathcal O_L/p$ 中，高于 $z^{12}$ 的幂零项
+也不能仅凭本节的 jet 计算删除。
+
+root 纸推；o2_high_coefficient 独立核准 (1155.54)–(1155.56)
+全部系数、中央单位组合和第二槽两个系数。
+全部为原函数的有限代数推导，无数学程序执行。
