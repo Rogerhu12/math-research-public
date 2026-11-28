@@ -1,0 +1,82 @@
+{
+  "schema": "held10-actual-complete-fullH-tail-bundle-result-v1",
+  "status": "actual_complete_1152_stage_common_C2_definition",
+  "geometry_bundle": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+  },
+  "assembly_observation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/complete-map-assembly-observation.json",
+    "sha256": "319086f04a628d76dfc453ecdb3be91e3246df98bbcadada999f64049c72fb80"
+  },
+  "full_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/manifest.json",
+    "sha256": "caec301d987f868a5f1f1e3bea1c3c60744d618a046971df1ccab6d7409ae3c1"
+  },
+  "canonical_node_index": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/canonical-boundary-node-index.json",
+    "sha256": "e9cb47aef29e77e2c2e5af2a335e942c8933ae2a952b31fed37883ab25e0911b"
+  },
+  "accepted_packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+    "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+  },
+  "source_design_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "source_homotopy": 0.002,
+  "modes": 24,
+  "quadrature": 512,
+  "source_height_role": "full raw_return.candidate_H at factor 1; not final coupled physical H",
+  "factor": 1,
+  "planar_degree": 254,
+  "planar_mode_count": 170,
+  "height_mode_count": 25,
+  "finite_stage_count": 1152,
+  "finite_radial_spans": 18432,
+  "unique_boundary_nodes": 1153,
+  "full_neighbor_two_jet_checks": 1151,
+  "original_entire_mean_chain": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/original-native-mean-chain.json",
+    "sha256": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9"
+  },
+  "immutable_original_stage0_preserved": true,
+  "inherited_remaining_stages": 105,
+  "new_actual_exported_stages": 1046,
+  "original_component_manifests": 181,
+  "actual_additional_anchor_input_files": 179,
+  "successful_new_original_children": 177,
+  "partial_new_children": [
+    {
+      "terminal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-chunk-0019-001/actual-chunk-terminal.json",
+        "sha256": "e9dd375dc814582728a4ccfe5a7c8c4bccc7ac8fa3bfeaad2ed00f39cf1d6b70"
+      },
+      "actual_returncode": -9,
+      "retained_stage_count": 10,
+      "retained_stage_range": [
+        749,
+        758
+      ]
+    },
+    {
+      "terminal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-chunk-0047-001/actual-chunk-terminal.json",
+        "sha256": "4e836ee238bdcf97eb076bb71ec9c4481a320a793c7eb738a5d56006f1614f09"
+      },
+      "actual_returncode": -9,
+      "retained_stage_count": 7,
+      "retained_stage_range": [
+        526,
+        532
+      ]
+    }
+  ],
+  "maximum_observed_cumulative_child_rss_KiB": 366128,
+  "old_stages_recomputed": 0,
+  "live_original_certifier_continues": true,
+  "whole_tail_continuous_metric_gate_claimed": false,
+  "complete_closed_surface_claimed": false,
+  "large_payloads_in_git": false
+}

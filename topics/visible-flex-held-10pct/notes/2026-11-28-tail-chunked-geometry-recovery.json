@@ -1,0 +1,75 @@
+{
+  "status": "actual_original_geometry_chunks_continue_without_repeating_registered_stages",
+  "observed_utc": "2026-11-28T12:07:22.201790+00:00",
+  "original_large_export_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-all-20261128-a/summary.json",
+    "sha256": "9460c72486cb68fe727f7f5a5b7437b7b59c2773bb247df353a195b343bae7a1"
+  },
+  "original_partial_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-all-20261128-a/steps/remaining-export-001/manifest.json",
+    "sha256": "99a3ff3bebf8031ec1b62a96d6ed1fa51907b056d8ee7cafeaaa626a7eae7a0f"
+  },
+  "original_large_export_child_returncode": -9,
+  "original_preserved_stage_count": 89,
+  "original_preserved_stage_range": [
+    1063,
+    1151
+  ],
+  "first_chunk_controller_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-a/summary.json",
+    "sha256": "8851dfbf4df325ec7aa4ddb6c265614c86d28c35581f5f20749c4397b031853d"
+  },
+  "first_chunk_original_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-a/steps/remaining-chunk-0001-001/manifest.json",
+    "sha256": "56a5fdd0fca9c2f4d3ed89494e79f59372eaf77c5d40440c8b661d42941c41e3"
+  },
+  "first_chunk_original_child_returncode": 0,
+  "first_chunk_preserved_stage_range": [
+    1047,
+    1062
+  ],
+  "first_chunk_controller_error": "'dict' object has no attribute 'getrusage'",
+  "first_chunk_controller_error_mathematical": false,
+  "recovery_v2_execution": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/chunk-execution.json",
+    "sha256": "2139e2bc26f51f7ee4689578489758cdb2a01654723f76274c5c1c28ec7c2d8c"
+  },
+  "recovered_105_stage_inventory": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/preserved-partial-stage-inventory.json",
+    "sha256": "9bbc7be4b72e3d0703bf5389c84b8c2ba24b4e1623bca76cfbbf02e8f2f8093f"
+  },
+  "recovered_inventory_source_split": {
+    "original_killed_child": 89,
+    "original_completed_first_chunk": 16
+  },
+  "v2_first_actual_chunk_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-chunk-0001-001/actual-chunk-terminal.json",
+    "sha256": "0ccf14bd2287fe0e224e650fa343b24739e96e2eeda0fcc42a083e7f8ad262ee"
+  },
+  "v2_first_actual_chunk_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-chunk-0001-001/manifest.json",
+    "sha256": "79b2e0ca2aefec7e48f505318638f243b289e71012dc4e9302d8ae6f58b9b16d"
+  },
+  "v2_first_actual_chunk_range": [
+    1031,
+    1046
+  ],
+  "v2_first_actual_chunk_original_child_returncode": 0,
+  "v2_first_actual_chunk_seconds": 14.764439438000002,
+  "observed_cumulative_child_maxrss_KiB": 343660,
+  "actual_progress_snapshot": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/recovery-observation.json",
+    "sha256": "0c7dd385d8c39fc006e86053ea1c45838a6bbc80617410493726372596252ba8"
+  },
+  "actual_stored_stages_at_snapshot": 201,
+  "original_registered_stages_recomputed": 0,
+  "original_stage0_recomputed": false,
+  "global_mean_and_all_spectral_modes_unchanged": true,
+  "all_retained_adjacent_nodes_checked_as_exact_literal_two_jets": true,
+  "live_exec_session": 43666,
+  "node_heap_MiB": 512,
+  "max_chunk_stages": 16,
+  "disk_reserve_bytes": 134217728,
+  "complete_bundle_returned": false,
+  "complete_surface": false
+}

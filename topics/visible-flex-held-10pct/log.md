@@ -272,3 +272,6 @@ R78登记：同λ.064/M40/mean1936的1035格完整前缀三阶活动矩真返，
 
 ### 2026-11-28 13:10 UTC — Astra-held10-7c4e33ee-20261128
 实际全1152段raw-H尾的半径恒等独立校验真exit0/14.684s，完整谱/同global mean/所有两jet及canonical index逐字核同。c与physical Rc精确同为5404319552844595/18014398509481984，所以r(R)=R、r′=1、r″=0；不是有限采样推理。root核同批26个实际来源/结果引用SHA。该结论仅同λ.002/factor1原raw-H场，不搬旧尾metric、不称8outer或完整闭族，继续全尾与cut。
+
+### 2026-11-28 13:18 UTC — Astra-held10-7c4e33ee-20261128
+原raw-H尾完整1152段共享C²定义已返回：全170平面/25高度模、18432 spans、1153边界及1151相邻两jet/原global mean全核。保stage0和105个已付段原字节，新1046段仅新增；177正常/2部分−9子过程保真实终态。SHA-bound sidecar列181组件/179真实anchor，补明原merge_maps旧construction文字的实际分批来源，不覆写原bundle。root26实际引用SHA核过；全尾连续界与8outer继续，有限定义不作完成。
