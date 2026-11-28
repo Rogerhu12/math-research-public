@@ -1,0 +1,141 @@
+{
+  "schema": "complete-R732-rounded-end-physical-reference-source-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "complete working physical sources only",
+  "proof": {
+    "role": "proof",
+    "name": "R732-rounded-cap-exact-terminal-metric-and-full-reference.md",
+    "path": "topics/visible-flex-larger-amplitude/results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md",
+    "bytes": 16954,
+    "sha256": "02db235b89acd0d950f91fc798b72792d843b096393dc9cf42f451556b5d4ec8",
+    "git_blob_sha": "de541c2281f62cde0b90812d11e5bb22e57127fa",
+    "publication": "65fb49c80fbbd8f14e22464c6927ab2df57de312"
+  },
+  "complete_artifacts": [
+    {
+      "role": "seed_length_kernel",
+      "name": "fixed_fejer_R732_rounded_end_length_kernel.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R732_rounded_end_length_kernel.py",
+      "bytes": 32972,
+      "sha256": "032b6c68570c75a849daa2a5a335a9546cf31e1c3c0ad8a7ee4eb0dee3cb0420",
+      "git_blob_sha": "5ca4a5e8a705d0dfea265c29b5798b0625d3db9b"
+    },
+    {
+      "role": "seed_reference",
+      "name": "fixed_fejer_R732_rounded_end_arclength_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R732_rounded_end_arclength_reference.py",
+      "bytes": 27960,
+      "sha256": "831447a2d50b54029abcf6cd6d441bca7239771b1fd405463db55e1da7646116",
+      "git_blob_sha": "c16a42c760b113473b4d325cc82b90c4e1177588"
+    },
+    {
+      "role": "physical_interface",
+      "name": "2026-11-28-R732-rounded-end-physical-source-and-six-jet-interfaces.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-R732-rounded-end-physical-source-and-six-jet-interfaces.md",
+      "bytes": 6228,
+      "sha256": "df8b03deaee0afa3d46f922dd5ea128f7766f8e4b8281d50ad1d6c5d4a83a8cc",
+      "git_blob_sha": "c52755f4a36d470d45eca3a13bf3eb5bc34821ea"
+    }
+  ],
+  "original_sources": [
+    {
+      "name": "fixed_fejer_R730_safe_cone_length_kernel.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R730_safe_cone_length_kernel.py",
+      "bytes": 23326,
+      "sha256": "87be2efa7381f50bd419c0d91a3b0c5b1a762f9f1eb7d1f2f7a053f8bc93cfc2",
+      "git_blob_sha": "25d57b4a93ac0b85ff6c46c010720fb060575f20",
+      "role": "complete scalar length and inverse-arclength two-angle kernel"
+    },
+    {
+      "name": "fixed_fejer_R730_safe_cone_arclength_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R730_safe_cone_arclength_reference.py",
+      "bytes": 25499,
+      "sha256": "53ebce095394a833d95a65b834ae889b4cb9554e06ef839fcb626bddcb8864b8",
+      "git_blob_sha": "4e10ffae2f584a2143d47349e454d7a1e3971c7b",
+      "role": "complete original-context-bound R730 unit-meridian provider"
+    },
+    {
+      "name": "fixed_fejer_axisymmetric_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "bytes": 60335,
+      "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+      "git_blob_sha": "8ad0794ebf0daab9a278c5ea1de784e93b64fd8c",
+      "role": "unchanged complete fixed input context"
+    },
+    {
+      "name": "2026-11-17-parallel-model-full-hold-oracle.py",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-full-hold-oracle.py",
+      "bytes": 11694,
+      "sha256": "a1ed8fa5d2186f400ea50a1d609574ec6996e59317a57638a6820a59cf0e7670",
+      "git_blob_sha": "c52508fb931e8381a0f53cdd9991ef65427cedd7",
+      "role": "unchanged exact physical scalar and core kappa0"
+    }
+  ],
+  "source_origin": "whole R730 physical texts; R732 terminal and central actual physical implemention committed as complete named source files",
+  "physical_interface": {
+    "class": "RoundedEndUnitMeridianJet",
+    "tangent_entry": "evaluate(cells,local,phi)",
+    "six_jet_entry": "evaluate_six_jets(cells,local,phi)",
+    "tangent_roles": [
+      "T0",
+      "T0_s",
+      "T0_phi",
+      "T0_phiphi"
+    ],
+    "position_roles": [
+      "F",
+      "F_s",
+      "F_phi",
+      "F_ss",
+      "F_sphi",
+      "F_phiphi"
+    ],
+    "central_material_length": "S-L",
+    "terminal_coordinate": "u=(1-a)*S-b for original s=a*S+b",
+    "tail_formula": "complete R690 (3),(6) at original out/kp through 2b, no turn cutoff",
+    "working_ratio": "working total central length/(S-L)",
+    "new_outer_rotation_constraints": 0
+  },
+  "working_parameters": {
+    "handle_length": "1/512",
+    "maximum_contraction": "3/4",
+    "pulse_flatness": 6,
+    "radial_quadrature_order": 8,
+    "profile_quadrature_order": 16,
+    "actual_full_cell_order": 16,
+    "mean_maxiter": 128,
+    "mean_tolerance": 2e-12,
+    "scalar_iterations": 64,
+    "mean_backtracks": 24,
+    "mean_armijo": 0.0001,
+    "full_reference_node_count": 923,
+    "full_reference_cell_count": 922,
+    "outer_integration_and_normal32_separate": true,
+    "b": "1/1000",
+    "d": "7/50",
+    "h_T": "13/50"
+  },
+  "scope": {
+    "paid_proof": "R732 accurate reference only",
+    "open_reference": [
+      "remaining Gram",
+      "central/central reach",
+      "central/rounded-active reach"
+    ],
+    "actual_outer": "all fixed-target, geometry, closure, refinement and delivery costs remain",
+    "selected_snapshot_only": true
+  },
+  "actual": {
+    "run_id": null,
+    "attempt": null,
+    "source_commit": null,
+    "model_identity": null,
+    "full_point": null,
+    "terminal_integrals": null,
+    "length_roots": null,
+    "normal": null,
+    "geometry": null
+  },
+  "local_science_AST_fixture_or_compile": false
+}

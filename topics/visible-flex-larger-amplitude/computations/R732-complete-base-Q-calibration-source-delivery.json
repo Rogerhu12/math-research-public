@@ -1,0 +1,98 @@
+{
+  "schema": "complete-R732-base-Q-calibration-source-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "complete three working sources for new physical seed",
+  "complete_artifacts": [
+    {
+      "role": "meridian",
+      "name": "fixed_fejer_r732_meridian_operator.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r732_meridian_operator.py",
+      "bytes": 40838,
+      "sha256": "dbaf58889c3a1ece8489f11eda4e4106c907ff69b43a32b57ebda8f5cdf20222",
+      "git_blob_sha": "133a68d3c6f87f6e256d0b829de712e1c9f25927"
+    },
+    {
+      "role": "new_moment_input",
+      "name": "fixed_fejer_r732_literal_zero_moment_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r732_literal_zero_moment_input.py",
+      "bytes": 40140,
+      "sha256": "146afb7d6cb97a90f95b5232d5779dc4adda9c5b7147990171d9853aff26db07",
+      "git_blob_sha": "098e89f1f936be9c6ac4f9774751bd63a94bd6bd"
+    },
+    {
+      "role": "reference_calibration",
+      "name": "fixed_fejer_r732_reference_calibration.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r732_reference_calibration.py",
+      "bytes": 11895,
+      "sha256": "9a9ba9546a360e8f5188436b45ec529d9d985d0d723ff4f8195186a9cbe5c2b0",
+      "git_blob_sha": "351f985a8960d7cb213d8d89f75eb41e5783bbfb"
+    }
+  ],
+  "physical_source_delivery": {
+    "role": "manifest",
+    "name": "R732-rounded-end-physical-reference-complete-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/R732-rounded-end-physical-reference-complete-source-delivery.json",
+    "bytes": 5728,
+    "sha256": "dc6d1cd219ef024554b67af00a1906a995c1080a8e4f949d8ce25e637321fe43",
+    "git_blob_sha": "62f424335dec5a2e7ef3e26c5e68deafdbf0fda8"
+  },
+  "parents": [
+    {
+      "name": "fixed_fejer_r730_meridian_operator.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r730_meridian_operator.py",
+      "bytes": 40854,
+      "sha256": "b9c787340021b5736f2796f2b84a1c25cb4b0ce96333eb98f543b1e8923ce267",
+      "git_blob_sha": "9dc7e423afe81a5f115f2dd60ad97fdff86d79a0",
+      "role": "complete R730 base with original full outer field and norm body"
+    },
+    {
+      "name": "fixed_fejer_r730_literal_zero_moment_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r730_literal_zero_moment_input.py",
+      "bytes": 37575,
+      "sha256": "4e72d300388372ae9fa43ba1795be9ad3ed17805a45fd0c407c4f16ed4aa4d1b",
+      "git_blob_sha": "4d71d70d17976721e76d65045acd88e80bd9e284",
+      "role": "complete pure literal18 Q binding to true R730 length model"
+    },
+    {
+      "name": "fixed_fejer_r730_reference_calibration.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r730_reference_calibration.py",
+      "bytes": 11895,
+      "sha256": "7650bbd18c856d70164a8b76eab22d63231d401cff91bf63f8b0bd5019b010fd",
+      "git_blob_sha": "dd289d0f24c50cf3afddb7279305d66f697b3c43",
+      "role": "complete R730 actual frozen-reference closure calibration"
+    }
+  ],
+  "fixed_proof": {
+    "role": "proof",
+    "name": "R732-rounded-cap-exact-terminal-metric-and-full-reference.md",
+    "path": "topics/visible-flex-larger-amplitude/results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md",
+    "bytes": 16954,
+    "sha256": "02db235b89acd0d950f91fc798b72792d843b096393dc9cf42f451556b5d4ec8",
+    "git_blob_sha": "de541c2281f62cde0b90812d11e5bb22e57127fa",
+    "publication": "65fb49c80fbbd8f14e22464c6927ab2df57de312"
+  },
+  "outer_field": "All 157 free core, 1,333,212 SO(3) and one cap height are used. Core omega value and cap omega value and first derivative are the three existing excluded radial slots; cap second derivative and all other nodes remain free. No positive-width rotational collar is constrained.",
+  "quintic_radial_interpolation": "Each original pair of adjacent radial nodes supplies all six local endpoint jets; unchanged global core lift and complete outer quadrature remain in force.",
+  "fixed_Q": "original complete eighteen literal binary64 words from the original input with every old origin, input, source, method, model and checkpoint identity check",
+  "Q_provider_binding": "reconstructs the complete R732 defining expression, root budget, central S-L, all 923 affine material addresses, original R690 source and parameters, rounded-end cuts, working geometry and prefix array identities with the selected whole seed model",
+  "calibration": "Recompute the whole base.initial closure with original two callback methods and original mesh and Gauss nodes. The exact reference is not substituted for this working integration on the full field.",
+  "structural_complete_source_reuse": {
+    "base": "complete parent outer integration, field, curvature, J/J*, norm and packed dimensions",
+    "Q": "all original literal-Q validation and source guards",
+    "calibration": "whole original normal32 reference centering and source/method binding"
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "source_commit": null,
+    "model": null,
+    "point": null,
+    "working_closure": null,
+    "angle_roots": null,
+    "accepted_directions": null,
+    "normal_report": null,
+    "geometry_report": null
+  },
+  "local_AST_fixture_or_science_executed": false
+}

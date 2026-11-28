@@ -23,3 +23,7 @@
 ## 2026-11-28 10:51:19 UTC — RET100C：六已终态侧支完整派生参数可恢复退库
 
 六旧20/21/23/25restart/27/28R729派生ready的唯一完整科学step与各自原queue对应对象逐字相同；保其余全部原字、固定queue/精确字节span/完整三身份及再生器，普通提交退旧ready路径，净360619B。不同归档目录的metadata不冒执行ready。活33/34/35真实输入、32/31/29/26祖先与原22/25/28父、全部队列/源码保持。 双README云核至`755f6557bbfd8d4ee1cce44f20701b3d2871f43f`无变（非pull）。
+
+## 2026-11-28 10:52:39 UTC — R732完整圆肩物理与全科学源码正常构建
+
+完整12件335058B现刊：五实际物理/base/Q/calibration源、完整六jet接口、两manifest及全17runtime正常build/wrapper/binding/source manifest。保139角色/24runtime，原R73017/209完整建后按160全text edits生成R73217整文件；全部外层自由及原guards/CLI保持，选中同点immutable snapshot读真实圆肩/length roots，不混normal root，不冒精确working积分。35全参数/启动随后继续，不改34。 双README云核至`c90e5bc6974f3284247bd165d6b377191c47a500`无变（非pull）。
