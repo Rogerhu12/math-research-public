@@ -1,0 +1,953 @@
+{
+  "schema": "isp-small-original-mu-center-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source": {
+    "basename": "2026-11-28-unit211-W-b0-positive-mu-center-three-original-initials-8542.py",
+    "bytes": 12856,
+    "sha256": "756fc12c1f328125ae693db0e61ac9fc54dfb76371960e1eaa4b2c926e967136",
+    "blob": "695cdf756fb02629a507a650a3126ac4a3d54b20",
+    "exactReadback": true,
+    "readbackSHA": "756fc12c1f328125ae693db0e61ac9fc54dfb76371960e1eaa4b2c926e967136",
+    "inputBlob": "f106072aca8fccbc6f2f57001d6ebe628c309d1f",
+    "inputSHA256": "a05aaa0d60f6429ae800da7dd184b65be60f230e27e3541f9358682104ec685f"
+  },
+  "execution": {
+    "elapsed_seconds": 0.36545571500000307,
+    "max_child_rss_kib": 43868,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c96091925f36ffd86e070b0370e1f16fab78e684",
+        "before": "6acf91de73bb41565458d29aee72734986f1d211",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T16:23:45.398418+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46164894855",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "6acf91de73bb41565458d29aee72734986f1d211",
+    "source_exit_code": 0,
+    "source_git_blob": "695cdf756fb02629a507a650a3126ac4a3d54b20",
+    "source_sha256": "756fc12c1f328125ae693db0e61ac9fc54dfb76371960e1eaa4b2c926e967136",
+    "stdout_bytes": 20636,
+    "stdout_sha256": "1b566c811e18a809556d3755447f2d42abd0374aee5a7df3037fa280608b1b79",
+    "stop_reason": null
+  },
+  "jobURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46164894855/job/141040154752",
+  "reading": {
+    "entireActualJobLogRead": true,
+    "notInferredFromOuterWorkflowSuccess": true,
+    "noNewExecutionForThisReceipt": true
+  },
+  "mathematicalRecords": {
+    "definition": {
+      "allThreeOriginalContextTransportsAndScalesReturned": true,
+      "dependencySHA256": "e356e79c8570b34ef3d041f828a3906006d82bc813b3719ef606e7ce068cbfe8",
+      "muNonzeroByWholeWLambdaThreeHalvesExclusion": true,
+      "muValuationStrictlyPositiveByRun46162974839": true,
+      "necessaryPrefixBytes": 6749,
+      "necessaryPrefixSHA256": "53a8d55ef6bcc8dd0eb233ef387420f5e2d40c04c0418ff493d82aa605b1eef9",
+      "noDInverse": true,
+      "noNewWeightInverse": true,
+      "noOldC74D78OrLambdaOrElevenRowAlgorithmRun": true,
+      "noPhysicalFZeroSpecialization": true,
+      "originalDefinitionSourceBlob": "47281af16fdd0ad7500ecda377c3cb9f9d65e725",
+      "originalLambdaDefinition": "lambda=(mu+3)/2",
+      "originalNames": [
+        "same_original_q2",
+        "same_original_R6",
+        "same_complete_NV_N5"
+      ],
+      "originalProfiles": [
+        {
+          "bytes": 2608,
+          "degrees_e_k_mu": [
+            7,
+            9,
+            2
+          ],
+          "sha256": "e9a10177697f64c7ee6925bd02cbe423631975b32382b59c40182375b0cc1548",
+          "terms": 151,
+          "totalDegree": 15
+        },
+        {
+          "bytes": 24222,
+          "degrees_e_k_mu": [
+            13,
+            15,
+            6
+          ],
+          "sha256": "be7a440e822b59663630304e1cd59cc78dbd18f386bb79bffaf4f332950ee2dc",
+          "terms": 1071,
+          "totalDegree": 29
+        },
+        {
+          "bytes": 32427,
+          "degrees_e_k_mu": [
+            15,
+            18,
+            5
+          ],
+          "sha256": "4bcc3f258cd7140b76cd372f127b5592ecb44a302c15bdb10775152e6aa20fe4",
+          "terms": 1381,
+          "totalDegree": 32
+        }
+      ],
+      "prime": 1009,
+      "seconds": 0.19589047599999887,
+      "stage": "new_mu_center_three_original_polynomials"
+    },
+    "partition": {
+      "allPositiveRationalEtaCovered": true,
+      "cells": [
+        {
+          "hi": "1/3",
+          "kind": "open interval",
+          "lo": "0",
+          "sample": "1/6"
+        },
+        {
+          "hi": "1/2",
+          "kind": "open interval",
+          "lo": "1/3",
+          "sample": "5/12"
+        },
+        {
+          "hi": "1",
+          "kind": "open interval",
+          "lo": "1/2",
+          "sample": "3/4"
+        },
+        {
+          "hi": null,
+          "kind": "open interval",
+          "lo": "1",
+          "sample": "2"
+        },
+        {
+          "kind": "point",
+          "sample": "1/3",
+          "value": "1/3"
+        },
+        {
+          "kind": "point",
+          "sample": "1/2",
+          "value": "1/2"
+        },
+        {
+          "kind": "point",
+          "sample": "1",
+          "value": "1"
+        }
+      ],
+      "cuts": [
+        "1/3",
+        "1/2",
+        "1"
+      ],
+      "etaStrictlyPositive": true,
+      "exactMuZeroAlreadyExcluded": true,
+      "noTVariableOrTValuationAssumed": true,
+      "ray": [
+        -1,
+        0
+      ],
+      "seconds": 0.1971022189999978,
+      "stage": "new_positive_mu_center_partition"
+    },
+    "cells": [
+      {
+        "cell": 0,
+        "partition": {
+          "hi": "1/3",
+          "kind": "open interval",
+          "lo": "0",
+          "sample": "1/6"
+        },
+        "seconds": 0.20977699499999858,
+        "excluded": true,
+        "completeThreeOriginalUnitReturn": true,
+        "newBasisCount": 0,
+        "originalMinimumWeights": [
+          "-20/3",
+          "-12",
+          "-43/3"
+        ],
+        "allThreeMinimumFacesHavePUnit": true,
+        "originalUnitMultiplierProfiles": [
+          {
+            "bytes": 15,
+            "maxExponents": [
+              -6,
+              -2
+            ],
+            "minExponents": [
+              -6,
+              -2
+            ],
+            "sha256": "8992274ef36ccc2f81ca5fbdee21353a1765c046058a17e83d79c255d054c149",
+            "terms": 1
+          },
+          {
+            "bytes": 2,
+            "maxExponents": [
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "terms": 0
+          },
+          {
+            "bytes": 2,
+            "maxExponents": [
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "terms": 0
+          }
+        ],
+        "noResiduePointExistenceClaim": false
+      },
+      {
+        "cell": 1,
+        "partition": {
+          "hi": "1/2",
+          "kind": "open interval",
+          "lo": "1/3",
+          "sample": "5/12"
+        },
+        "seconds": 0.22290068399999896,
+        "excluded": true,
+        "completeThreeOriginalUnitReturn": true,
+        "newBasisCount": 0,
+        "originalMinimumWeights": [
+          "-37/6",
+          "-11",
+          "-163/12"
+        ],
+        "allThreeMinimumFacesHavePUnit": true,
+        "originalUnitMultiplierProfiles": [
+          {
+            "bytes": 15,
+            "maxExponents": [
+              -6,
+              -2
+            ],
+            "minExponents": [
+              -6,
+              -2
+            ],
+            "sha256": "8992274ef36ccc2f81ca5fbdee21353a1765c046058a17e83d79c255d054c149",
+            "terms": 1
+          },
+          {
+            "bytes": 2,
+            "maxExponents": [
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "terms": 0
+          },
+          {
+            "bytes": 2,
+            "maxExponents": [
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "terms": 0
+          }
+        ],
+        "noResiduePointExistenceClaim": false
+      },
+      {
+        "cell": 2,
+        "partition": {
+          "hi": "1",
+          "kind": "open interval",
+          "lo": "1/2",
+          "sample": "3/4"
+        },
+        "seconds": 0.2363225949999972,
+        "excluded": false,
+        "completeThreeOriginalUnitReturn": false,
+        "newBasisCount": 1,
+        "originalMinimumWeights": [
+          "-6",
+          "-11",
+          "-53/4"
+        ],
+        "allThreeMinimumFacesHavePUnit": true,
+        "completeThreeOriginalPureKCenters": [
+          {
+            "centerProfile": {
+              "bytes": 31,
+              "maxExponents": [
+                2,
+                0
+              ],
+              "minExponents": [
+                0,
+                0
+              ],
+              "sha256": "573e60bc107b8e3be88eae04898c8cdb60317b0e37ec5a1caff93bdea435e2db",
+              "terms": 3
+            },
+            "originalMultiplierProfiles": [
+              {
+                "bytes": 14,
+                "maxExponents": [
+                  -4,
+                  0
+                ],
+                "minExponents": [
+                  -4,
+                  0
+                ],
+                "sha256": "742623cd62199ccfaea99f2980313def3a8390bfc061f73636af578f7d70f0b2",
+                "terms": 1
+              },
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              },
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              }
+            ]
+          }
+        ],
+        "newBasisProfiles": [
+          {
+            "bytes": 31,
+            "maxExponents": [
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "573e60bc107b8e3be88eae04898c8cdb60317b0e37ec5a1caff93bdea435e2db",
+            "terms": 3
+          }
+        ],
+        "noResiduePointExistenceClaim": true
+      },
+      {
+        "cell": 3,
+        "partition": {
+          "hi": null,
+          "kind": "open interval",
+          "lo": "1",
+          "sample": "2"
+        },
+        "seconds": 0.249740469999999,
+        "excluded": false,
+        "completeThreeOriginalUnitReturn": false,
+        "newBasisCount": 1,
+        "originalMinimumWeights": [
+          "-6",
+          "-11",
+          "-13"
+        ],
+        "allThreeMinimumFacesHavePUnit": true,
+        "completeThreeOriginalPureKCenters": [
+          {
+            "centerProfile": {
+              "bytes": 31,
+              "maxExponents": [
+                2,
+                0
+              ],
+              "minExponents": [
+                0,
+                0
+              ],
+              "sha256": "573e60bc107b8e3be88eae04898c8cdb60317b0e37ec5a1caff93bdea435e2db",
+              "terms": 3
+            },
+            "originalMultiplierProfiles": [
+              {
+                "bytes": 14,
+                "maxExponents": [
+                  -4,
+                  0
+                ],
+                "minExponents": [
+                  -4,
+                  0
+                ],
+                "sha256": "742623cd62199ccfaea99f2980313def3a8390bfc061f73636af578f7d70f0b2",
+                "terms": 1
+              },
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              },
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              }
+            ]
+          }
+        ],
+        "newBasisProfiles": [
+          {
+            "bytes": 31,
+            "maxExponents": [
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "573e60bc107b8e3be88eae04898c8cdb60317b0e37ec5a1caff93bdea435e2db",
+            "terms": 3
+          }
+        ],
+        "noResiduePointExistenceClaim": true
+      },
+      {
+        "cell": 4,
+        "partition": {
+          "kind": "point",
+          "sample": "1/3",
+          "value": "1/3"
+        },
+        "seconds": 0.2632081989999975,
+        "excluded": true,
+        "completeThreeOriginalUnitReturn": true,
+        "newBasisCount": 0,
+        "originalMinimumWeights": [
+          "-19/3",
+          "-11",
+          "-41/3"
+        ],
+        "allThreeMinimumFacesHavePUnit": true,
+        "originalUnitMultiplierProfiles": [
+          {
+            "bytes": 15,
+            "maxExponents": [
+              -6,
+              -2
+            ],
+            "minExponents": [
+              -6,
+              -2
+            ],
+            "sha256": "8992274ef36ccc2f81ca5fbdee21353a1765c046058a17e83d79c255d054c149",
+            "terms": 1
+          },
+          {
+            "bytes": 2,
+            "maxExponents": [
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "terms": 0
+          },
+          {
+            "bytes": 2,
+            "maxExponents": [
+              0,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "terms": 0
+          }
+        ],
+        "noResiduePointExistenceClaim": false
+      },
+      {
+        "cell": 5,
+        "partition": {
+          "kind": "point",
+          "sample": "1/2",
+          "value": "1/2"
+        },
+        "seconds": 0.2786850099999967,
+        "excluded": false,
+        "completeThreeOriginalUnitReturn": false,
+        "newBasisCount": 6,
+        "originalMinimumWeights": [
+          "-6",
+          "-11",
+          "-27/2"
+        ],
+        "allThreeMinimumFacesHavePUnit": true,
+        "completeThreeOriginalPureKCenters": [
+          {
+            "centerProfile": {
+              "bytes": 74,
+              "maxExponents": [
+                6,
+                0
+              ],
+              "minExponents": [
+                0,
+                0
+              ],
+              "sha256": "d127d0b5deee71cb77fbd9ca5d8e03c25513b9888eb1828e9b1031686b19cd7c",
+              "terms": 7
+            },
+            "originalMultiplierProfiles": [
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              },
+              {
+                "bytes": 14,
+                "maxExponents": [
+                  -6,
+                  0
+                ],
+                "minExponents": [
+                  -6,
+                  0
+                ],
+                "sha256": "0db63b430c6a24fa83344b11004ae04a1a266c74c3f4f98b07814dfa1188f5f5",
+                "terms": 1
+              },
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              }
+            ]
+          },
+          {
+            "centerProfile": {
+              "bytes": 64,
+              "maxExponents": [
+                5,
+                0
+              ],
+              "minExponents": [
+                0,
+                0
+              ],
+              "sha256": "ff4d945d0e00dc7825df31939c852e3a178eda57e7594e81e22a3a5704aa419e",
+              "terms": 6
+            },
+            "originalMultiplierProfiles": [
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              },
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              },
+              {
+                "bytes": 15,
+                "maxExponents": [
+                  -7,
+                  -1
+                ],
+                "minExponents": [
+                  -7,
+                  -1
+                ],
+                "sha256": "f60d0b0cb1477a4b7e05a21805c640c59eece0d731ffcce361d8fc9f0d14228f",
+                "terms": 1
+              }
+            ]
+          },
+          {
+            "centerProfile": {
+              "bytes": 51,
+              "maxExponents": [
+                4,
+                0
+              ],
+              "minExponents": [
+                0,
+                0
+              ],
+              "sha256": "5812a29a7192fcd11725abc52546b1d1b72e608c8b3b08812f196913f553e6f7",
+              "terms": 5
+            },
+            "originalMultiplierProfiles": [
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              },
+              {
+                "bytes": 14,
+                "maxExponents": [
+                  -6,
+                  0
+                ],
+                "minExponents": [
+                  -6,
+                  0
+                ],
+                "sha256": "4991d1b7a7008cdacbdedd91591685f80d826bfdcfc788a396c9d3fb3168d97a",
+                "terms": 1
+              },
+              {
+                "bytes": 29,
+                "maxExponents": [
+                  -6,
+                  -1
+                ],
+                "minExponents": [
+                  -7,
+                  -1
+                ],
+                "sha256": "0d4eb7682b77acb876188b5e1dab0d6346796e6d467a7e1b13baf1df1a26a119",
+                "terms": 2
+              }
+            ]
+          }
+        ],
+        "newBasisProfiles": [
+          {
+            "bytes": 49,
+            "maxExponents": [
+              2,
+              2
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "8ca151960c174528f3eb345c086430310b2075e6bcc53b4e1acad291995639e8",
+            "terms": 4
+          },
+          {
+            "bytes": 74,
+            "maxExponents": [
+              6,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "d127d0b5deee71cb77fbd9ca5d8e03c25513b9888eb1828e9b1031686b19cd7c",
+            "terms": 7
+          },
+          {
+            "bytes": 64,
+            "maxExponents": [
+              5,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "ff4d945d0e00dc7825df31939c852e3a178eda57e7594e81e22a3a5704aa419e",
+            "terms": 6
+          },
+          {
+            "bytes": 51,
+            "maxExponents": [
+              4,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "5812a29a7192fcd11725abc52546b1d1b72e608c8b3b08812f196913f553e6f7",
+            "terms": 5
+          },
+          {
+            "bytes": 66,
+            "maxExponents": [
+              3,
+              2
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "7277feaff754b13d0d59a4377184b1964762d0aa84dbbff1eadeb46b71f3f72f",
+            "terms": 6
+          },
+          {
+            "bytes": 59,
+            "maxExponents": [
+              3,
+              2
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "1d3ffcf65a0ca563725ae2481a193c1f51d88c352cc40b2ef85dc4556758deba",
+            "terms": 5
+          }
+        ],
+        "noResiduePointExistenceClaim": true
+      },
+      {
+        "cell": 6,
+        "partition": {
+          "kind": "point",
+          "sample": "1",
+          "value": "1"
+        },
+        "seconds": 0.2911970349999997,
+        "excluded": false,
+        "completeThreeOriginalUnitReturn": false,
+        "newBasisCount": 1,
+        "originalMinimumWeights": [
+          "-6",
+          "-11",
+          "-13"
+        ],
+        "allThreeMinimumFacesHavePUnit": true,
+        "completeThreeOriginalPureKCenters": [
+          {
+            "centerProfile": {
+              "bytes": 31,
+              "maxExponents": [
+                2,
+                0
+              ],
+              "minExponents": [
+                0,
+                0
+              ],
+              "sha256": "573e60bc107b8e3be88eae04898c8cdb60317b0e37ec5a1caff93bdea435e2db",
+              "terms": 3
+            },
+            "originalMultiplierProfiles": [
+              {
+                "bytes": 14,
+                "maxExponents": [
+                  -4,
+                  0
+                ],
+                "minExponents": [
+                  -4,
+                  0
+                ],
+                "sha256": "742623cd62199ccfaea99f2980313def3a8390bfc061f73636af578f7d70f0b2",
+                "terms": 1
+              },
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              },
+              {
+                "bytes": 2,
+                "maxExponents": [
+                  0,
+                  0
+                ],
+                "minExponents": [
+                  0,
+                  0
+                ],
+                "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "terms": 0
+              }
+            ]
+          }
+        ],
+        "newBasisProfiles": [
+          {
+            "bytes": 31,
+            "maxExponents": [
+              2,
+              0
+            ],
+            "minExponents": [
+              0,
+              0
+            ],
+            "sha256": "573e60bc107b8e3be88eae04898c8cdb60317b0e37ec5a1caff93bdea435e2db",
+            "terms": 3
+          }
+        ],
+        "noResiduePointExistenceClaim": true
+      }
+    ],
+    "finished": {
+      "allUnreturnedCellsAndKCentersRetained": true,
+      "cellCount": 7,
+      "etaStrictlyPositive": true,
+      "excludedCellCount": 3,
+      "noCharacteristicZeroLiftOfResidueIdeal": true,
+      "noCoefficientPayloadSaved": true,
+      "noFiniteDVRModelClaim": true,
+      "noKPlusTwoAssumption": true,
+      "noOldProjectionOrLambdaOrElevenRowGateRun": true,
+      "noWholeWOrOrdinaryISPClaim": true,
+      "peakRSSKiB": 43180,
+      "physicalDNotInverted": true,
+      "ray": [
+        -1,
+        0
+      ],
+      "seconds": 0.2914024089999998,
+      "sourceSHA256": "756fc12c1f328125ae693db0e61ac9fc54dfb76371960e1eaa4b2c926e967136",
+      "stage": "new_mu_center_three_original_boundary_finished",
+      "statistics": {
+        "LaurentProducts": 183,
+        "LaurentSourceReturns": 45,
+        "composedThreeOriginalReturns": 9,
+        "excludedCells": 3,
+        "integerPrimitiveReturns": 3,
+        "minimumFacesWithoutPUnit": 0,
+        "newBasisElements": 9,
+        "newCenteredOriginalReturns": 3,
+        "newSPairs": 12,
+        "originalInitialNormalizations": 21,
+        "pureKCenterReturns": 6
+      },
+      "wholeRemainingRayExcluded": false
+    }
+  },
+  "scope": {
+    "excludedEtaCells": [
+      "0<eta<1/3",
+      "1/3<eta<1/2",
+      "eta=1/3"
+    ],
+    "programUnreturnedEtaCells": [
+      "1/2<eta<1",
+      "eta>1",
+      "eta=1/2",
+      "eta=1"
+    ],
+    "programWholeRayExcluded": false,
+    "noResidueCenterExistenceClaim": true,
+    "noNewQQFactorizationOrCoefficientIdentification": true,
+    "independentPaperRayExclusion": "R150-appendix-unit211-W-b0-negative-e-ray-complete-q2-R6-valuation-exclusion.md",
+    "independentPaperBlob": "93b1fab5b28a436beafaee41b2b3804d0c8de349",
+    "independentPaperIsNotProgramOutput": true,
+    "otherFiveWeightRaysRemain": true,
+    "noCoefficientPayloadSaved": true,
+    "noOrdinaryISPClaim": true
+  }
+}

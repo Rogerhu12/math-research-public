@@ -7,12 +7,12 @@
 - **规矩8/15/16：** 只保源/定义/run/SHA；旧编码仅runner临时历史输入。[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。根README新规16已读fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d/99c5ad8，今后新派显式gpt-6.2-astra/ultra。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** 47e877e8f533f15223c23b39a32b708c9f3fdf2a（2026-11-28 16:28:50 UTC，Actions run46165337328实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46165337328-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 16:28:49 UTC/65a7a9e424576a6a392f0c0451814535059c4220，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 43914b1da832b13ffc65f9f3074446217fc065b9（2026-11-28 16:31:19 UTC，Actions run46165559756实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46165559756-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 16:31:16 UTC/bc81a6cbcf00997c664a75244734eb59d330528e，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 16:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。17:07再探，旧故障保归档。
-- **终端断开后远端已读：** 12f23fd2b48f6c9e2aca872cf9600de82f48f9af（2026-11-28 16:28:25 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** e3df4fe08d7195e7e2ecccb060506ebb92f070f5（2026-11-28 16:30:52 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-W-negative-e-ray-exclusion-2030-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-Phi-same-sigma-decic-2035-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -39,7 +39,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，整Δ0/ellhalf闭。** 权像维数≤1/8184保。新[完整NV–Loww91及Δ余图恢复](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)abd714唯一8.428479614秒/0，P(72,19,9)/总91原两源返；AΔ[t]/(NV,L)=AΔ/(P)，t唯一、明列单权纤维≤2且约化，U0另计。权共同分量/原空性开。
-- **Phi错链冻，旧真闭支保。** 全权10/每权≤9、QQ公共总≤45/u≤5及两内存冻保。新[同σ二生成值商/16原minors](results/R150-appendix-unit211-same-sigma-two-by-eight-original-value-presentation-and-sixteen-minors.md)付J²⊂Fitt⊂J与固定全系数同根；不代原均值。b53真4.844514676秒/0给新cross5次及t10必要式，头未付；余权曲线/孤立点仍开。
+- **Phi错链冻，旧真闭支保。** 全权10/每权≤9、QQ公共总≤45/u≤5、两内存冻与同σ16minors/J²界保。新[两个原同σ交叉及t十次式](results/R150-appendix-unit211-Phi-zero-corrected-same-sigma-NP-NV-crosses-and-original-t-decic.md)b53真4.844514676秒/0，C10双次82/51、总97；实际三原乘子分母1/共同内容1，H87未付，权曲线/孤立点仍开。
 
 ### rankH3原ess6
 

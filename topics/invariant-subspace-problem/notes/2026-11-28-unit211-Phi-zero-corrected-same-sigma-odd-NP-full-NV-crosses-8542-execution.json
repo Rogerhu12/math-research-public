@@ -1,0 +1,303 @@
+{
+  "schema": "isp-corrected-Phi-same-sigma-crosses-actual-small-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "scope": "Correct Phi=0 distinct-singleton physical D!=0 original chart; all new leading zero fibers retained",
+  "run_id": "46164341750",
+  "job_id": "141038441104",
+  "run_attempt": 1,
+  "source_git_blob": "b53edcc91babd2931dac68ef482744c6027f20f1",
+  "source_sha256": "fa1029b01d9438a54ff5fc21cc3fed0e0aebf553624e6743d84854b6b1ecf1c4",
+  "source_basename": "2026-11-28-unit211-Phi-zero-corrected-same-sigma-odd-NP-full-NV-crosses-8542.py",
+  "source_commit": "2da36c7d9613d54e967be16b713cbde6c9378748",
+  "input_git_blob": "b3c16da1ba96f29753558dd33b2552a665e24770",
+  "dependency": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-t-complete-Vlow-two-original-cofactors-8542.py",
+    "git_blob": "dec77452e4631b4370e72d1b9491da01e35547b3",
+    "sha256": "0800a0f6ba0cad4cc4ddc7a592525c198bcc213bfa36df568ec0e9301b8f4335",
+    "necessary_prefix_bytes": 7689,
+    "necessary_prefix_sha256": "607238e08c402392a599e84cf13764aac341c6b7f0fb34e29c0ea6667c647abe"
+  },
+  "rules_reads": [
+    {
+      "after": "2200aec6e52df774f005c9da30fffd97eeddf11c",
+      "before": "2da36c7d9613d54e967be16b713cbde6c9378748",
+      "rules_git_blobs": {
+        "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T16:17:33.527757+00:00"
+    }
+  ],
+  "budget": {
+    "inner_seconds": 120,
+    "hard_address_space_bytes": 1073741824,
+    "outer_seconds": 135
+  },
+  "actual": {
+    "elapsed_seconds": 4.844514675999999,
+    "math_seconds": 4.8027416930000015,
+    "max_child_rss_kib": 84456,
+    "source_exit_code": 0,
+    "stop_reason": null,
+    "stdout_bytes": 12403,
+    "stdout_sha256": "1049e4386ab5ec5cbaca5cfd8e2b8bfcc4f57051a3a8e5e5c5a236473b0e1ca5",
+    "math_record_count": 7
+  },
+  "full_returns": {
+    "same_original_second_moment": "q=M*sigma^2-D=ell*E2",
+    "odd_original_sigma_remainders": true,
+    "complete_N4_sigma_remainder": true,
+    "new_cross_sigma_polynomial_identities": 2,
+    "no_sigma_root_chosen": true,
+    "ordinary_mean_identities": 2,
+    "ordinary_mean_reduced_coordinates": 6,
+    "cofactor_coordinates": 3,
+    "normalized_scalar_coordinates": 3
+  },
+  "crosses": [
+    {
+      "label": "odd_N_with_complete_NV",
+      "geometry_degree": 5,
+      "raw": {
+        "denominator": {
+          "degrees": [
+            17,
+            16,
+            0,
+            0,
+            0
+          ],
+          "sha256": "fadbaca7add4db092b71e5ace9db07148052268ab722f7b40505bcfde5b0e5f3",
+          "terms": 178,
+          "totalDegree": 26
+        },
+        "numerator": {
+          "degrees": [
+            29,
+            17,
+            5,
+            5,
+            5
+          ],
+          "sha256": "760e94ba0a18d3c5a72858ef0799c2f8fb4709dbc636ed79f599cc736a3f9592",
+          "terms": 14513,
+          "totalDegree": 36
+        }
+      },
+      "t_reduced_degrees": [
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "label": "odd_P_with_complete_NV",
+      "geometry_degree": 5,
+      "raw": {
+        "denominator": {
+          "degrees": [
+            21,
+            18,
+            0,
+            0,
+            0
+          ],
+          "sha256": "6dd84bd26a153e823ae3181fdf0229d872c422ef20fd04bb711f9e5eca27aabe",
+          "terms": 240,
+          "totalDegree": 30
+        },
+        "numerator": {
+          "degrees": [
+            32,
+            20,
+            5,
+            5,
+            5
+          ],
+          "sha256": "b92bdc406526270f6057f7599f014776c53de055e7bfd3039ab61a8a3e368dbd",
+          "terms": 18263,
+          "totalDegree": 40
+        }
+      },
+      "t_reduced_degrees": [
+        5,
+        4,
+        4
+      ]
+    }
+  ],
+  "new_scalar": {
+    "original_rows": [
+      "N1",
+      "oddN_NV_cross",
+      "oddP_NV_cross"
+    ],
+    "actual_three_multiplier_common_content": {
+      "degrees": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+      "terms": 1,
+      "totalDegree": 0
+    },
+    "scalar_numerator": {
+      "degrees": [
+        82,
+        51,
+        10,
+        0,
+        0
+      ],
+      "sha256": "4c092dd327122c9eb5187b42fa3ab52e197b39a8580feabf5815a20cd25011eb",
+      "terms": 26511,
+      "totalDegree": 97
+    },
+    "scalar_denominator": {
+      "degrees": [
+        2,
+        4,
+        0,
+        0,
+        0
+      ],
+      "sha256": "95745ff4a78cfa74c3e5d5f95aa2ba34b2743cc7bfb077e22c18de0d72b7448b",
+      "terms": 10,
+      "totalDegree": 5
+    },
+    "necessary_polynomial": {
+      "degrees": [
+        82,
+        51,
+        10,
+        0,
+        0
+      ],
+      "sha256": "d8ca679a943eb517247f5c77bca216fd51a98c44561b51cfa192a330fb6a92c0",
+      "terms": 26511,
+      "totalDegree": 97
+    },
+    "t_degree": 10,
+    "t_degree_upper_bound": 10,
+    "true_t_leading_numerator": {
+      "degrees": [
+        82,
+        43,
+        0,
+        0,
+        0
+      ],
+      "sha256": "6deba5686625349489ae386335d69f44c67bd69fa0a47a340cd56b144481b799",
+      "terms": 2162,
+      "totalDegree": 87
+    },
+    "final_three_multipliers": [
+      {
+        "denominator": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+          "terms": 1,
+          "totalDegree": 0
+        },
+        "numerator": {
+          "degrees": [
+            76,
+            50,
+            8,
+            0,
+            0
+          ],
+          "sha256": "b8ec8cde612dded3c87e038c7ebadf7939fb055f4edabd967312751d5292e7be",
+          "terms": 19806,
+          "totalDegree": 92
+        }
+      },
+      {
+        "denominator": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+          "terms": 1,
+          "totalDegree": 0
+        },
+        "numerator": {
+          "degrees": [
+            70,
+            48,
+            5,
+            0,
+            0
+          ],
+          "sha256": "ebb538c90b6aef7ad10e3d1e6ac25919a1ca1da29060553edb1f3eaa276e4b74",
+          "terms": 11109,
+          "totalDegree": 87
+        }
+      },
+      {
+        "denominator": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+          "terms": 1,
+          "totalDegree": 0
+        },
+        "numerator": {
+          "degrees": [
+            71,
+            48,
+            5,
+            0,
+            0
+          ],
+          "sha256": "d531e2fa23063e66cb5583753c7fa218683cf75edd2992138e033a08183a5189",
+          "terms": 11154,
+          "totalDegree": 87
+        }
+      }
+    ]
+  },
+  "statistics": {
+    "exactDivisionProducts": 232,
+    "newCofactorCoordinates": 3,
+    "newCrossSigmaCoordinates": 2,
+    "newMeanReductionSteps": 36,
+    "newOddSigmaCoordinates": 10,
+    "newOrdinaryMeanIdentities": 2,
+    "newReducedCoordinates": 6,
+    "newScalarReturnCoordinates": 3
+  },
+  "boundaries": {
+    "D_not_inverted": true,
+    "no_D_multiplier_needed_for_crosses": true,
+    "no_value_head_inverted": true,
+    "independent_norm_zero_not_used_as_same_root": true,
+    "new_t_head_not_factored_or_paid": true,
+    "whole_new_t_head_zero_retained": true,
+    "whole_Phi_excluded": false,
+    "new_finite_point_bound": false,
+    "previous_common_weight_curve_total_degree_upper_bound": 45,
+    "ordinary_ISP_claim": false
+  },
+  "no_old_Q_primary_or_axis_or_weighted_or_Vlow_cofactor_gate_replayed": true,
+  "no_coefficient_payload_or_chunks_saved": true
+}
