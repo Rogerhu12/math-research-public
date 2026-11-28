@@ -1,0 +1,181 @@
+{
+  "schema": "isp-Phi-exact-I10-eighteen-two-original-values-v1",
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "source": "notes/2026-11-28-unit211-Phi-zero-slope-full-original-values-twelve-new-rows-eighteen-two-model-8542.py",
+  "run": 46090465136,
+  "job": 140809921057,
+  "execution": {
+    "elapsed_seconds": 10.941668496999995,
+    "max_child_rss_kib": 107468,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "9e843cf5f81d1a70b72e40ec958a135174a1ca99",
+        "before": "9e843cf5f81d1a70b72e40ec958a135174a1ca99",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T00:55:40.465658+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46090465136",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "9e843cf5f81d1a70b72e40ec958a135174a1ca99",
+    "source_exit_code": 0,
+    "source_git_blob": "8c21d65451e9bfeaba96bd822fde99b363d735d5",
+    "source_sha256": "527cddc0905e6ab51530b08172fc44c7652926e928de6769603e3a5d037c4c59",
+    "stdout_bytes": 20135,
+    "stdout_sha256": "48c45db15a607496f4ed171aca057bc28c16057a40caab2e9e9b8e67488edf47",
+    "stop_reason": null
+  },
+  "exactIdeal": "I4+(NS,PS,R6,Nlow,Plow,entire_Vlow)",
+  "originalMeanRows": 6,
+  "newRows": 12,
+  "columns": 2,
+  "DAGNodes": 3662,
+  "originalValueRows": [
+    {
+      "label": "original_NS",
+      "node": 1518,
+      "lambdaThreeDegrees": [
+        3,
+        2,
+        2
+      ],
+      "lambdaTwoDegrees": [
+        4,
+        3
+      ],
+      "lambdaZProductDegrees": [
+        6,
+        5
+      ],
+      "numeratorSHA256": [
+        "c209529cb0291d9c2cc18b9f570ffcedf48b4f2455bba7aea61b8b93dde8cf4c",
+        "16cbc7b434c8b97e19d6cc9507181b44add42031ff38935a862639cea29f46da"
+      ],
+      "allThreeCoordinateCoefficientProductsReturned": true
+    },
+    {
+      "label": "original_PS",
+      "node": 1535,
+      "lambdaThreeDegrees": [
+        3,
+        2,
+        2
+      ],
+      "lambdaTwoDegrees": [
+        4,
+        3
+      ],
+      "lambdaZProductDegrees": [
+        6,
+        5
+      ],
+      "numeratorSHA256": [
+        "220d0aef5e0add691e7ea9cb3eadd44b68b98a22d07b89aeac7d49d9a668e7ce",
+        "5f5e573365843d8bc211a2b8423199cc43815541fa3e5bd6f48d83863b5ca546"
+      ],
+      "allThreeCoordinateCoefficientProductsReturned": true
+    },
+    {
+      "label": "original_R6",
+      "node": 1557,
+      "lambdaThreeDegrees": [
+        6,
+        5,
+        5
+      ],
+      "lambdaTwoDegrees": [
+        7,
+        6
+      ],
+      "lambdaZProductDegrees": [
+        9,
+        8
+      ],
+      "numeratorSHA256": [
+        "07883271c514d3822eb27b6711e41b92ab01b8fb24a43c652e2e75856d6a4fcf",
+        "37e8859ecd19b4471fd842727dac79a8177aff438f6f0deb70bf888075780444"
+      ],
+      "allThreeCoordinateCoefficientProductsReturned": true
+    },
+    {
+      "label": "original_Nlow",
+      "node": 1568,
+      "lambdaThreeDegrees": [
+        5,
+        4,
+        4
+      ],
+      "lambdaTwoDegrees": [
+        6,
+        5
+      ],
+      "lambdaZProductDegrees": [
+        8,
+        7
+      ],
+      "numeratorSHA256": [
+        "b9ae19634e876f1f11cfe2f30ff6637a190d8f794e55bb25f4593d7d074cf9e6",
+        "f95465e15f7fea11b14e65dd2c099a000da50790983af9499d03f435925778bd"
+      ],
+      "allThreeCoordinateCoefficientProductsReturned": true
+    },
+    {
+      "label": "original_Plow",
+      "node": 1582,
+      "lambdaThreeDegrees": [
+        5,
+        4,
+        4
+      ],
+      "lambdaTwoDegrees": [
+        6,
+        5
+      ],
+      "lambdaZProductDegrees": [
+        8,
+        7
+      ],
+      "numeratorSHA256": [
+        "486686c999e3138638a16f830479f4e082129e949c80df6757d43d770e0363b3",
+        "a34464e0108e2371991390727eed75118048ca8bee7fc4f7eba40e51f145d97a"
+      ],
+      "allThreeCoordinateCoefficientProductsReturned": true
+    },
+    {
+      "label": "original_entire_Vlow",
+      "node": 3661,
+      "lambdaThreeDegrees": [
+        5,
+        4,
+        4
+      ],
+      "lambdaTwoDegrees": [
+        6,
+        5
+      ],
+      "lambdaZProductDegrees": [
+        8,
+        7
+      ],
+      "numeratorSHA256": [
+        "f0add2c1a6fa4414ee666f4301bafaea9a241bb0d53c0f3c43178171488df2d7",
+        "28e2995a9ef08b0bd638288515081f929aedf91199e0520a66d0d9e961cc3350"
+      ],
+      "allThreeCoordinateCoefficientProductsReturned": true
+    }
+  ],
+  "entireN4VUsed": true,
+  "allDAndNormInversesAvoided": true,
+  "oldLambda8TargetsNotExecuted": true,
+  "wholeSlopeZeroRetained": true,
+  "wholePhiExcluded": false,
+  "ordinaryISPClaim": false
+}
