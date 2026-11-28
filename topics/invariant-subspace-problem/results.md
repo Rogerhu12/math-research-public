@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确 Φ 整 α=0 的原首一 V 二次及三个权条件](results/R150-appendix-unit211-Phi-zero-true-whole-alpha-zero-monic-V-two-and-weight-conditions.md)：原身份独立支付 m、θ，完整 EBo 首一2/四原行/三权组合在0.456230013秒返回；尚未有限或排空。
+
 - [R150：完整 W NV 四次严格不含 f](results/R150-appendix-unit211-W-full-NV-f-independent-pure-lambda-T-quartic.md)：显式原权身份与全部 f 一次系数给同一纯 λ,T 四次 Bpure；在明确 b0≠0 补图，三四次恢复完整值子系统，未声称全部 Gram 方程等价。
 
 - [R150：W 整 b0 零支的原二次／六次与 F78 必要权曲线](results/R150-appendix-unit211-W-entire-b0-zero-original-78-weight-curve.md)：唯一首次固定 8 阶 1.686397753 秒/0，全λ头零保留，QQ 只余一个不可约(43,53)总78曲线；尚未有限或排空。
