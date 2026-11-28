@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **a5911a2f9a1224c819fc70186948311189347cf7**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **4ec27d84a75d93b680be7c74f13270e5980d6f14**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -46,7 +46,7 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 [R636显式输入](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)在全连续原盒内准确P/动能零、负B₂合法；[新完整求解](notes/2026-11-28-r636-polynomial-background-original-bvp-scope.md)run **46123487783** / sourceb10baebe，07:56:34启动。准确五次背景+257原方向，不冒旧spline精确插值；首完整链复用、fine冻结背景/α/L/八中心A/三规范。与R632独立留账。
 
-[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P必U>16/225；[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)增σ再消P保原方向。[R641](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)以真实2×2系统再消α/L，原盒内显式P/t₁/s₀三端输入及256自由形状全链已证；余r₁/完整ruling继续。原18块全正势、ODE/ruling1e−7、真末1e−8门不变；根后period/pose/宏观仍欠。
+[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P必U>16/225；[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)增σ再消P保原方向。[R641](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)以真实2×2系统再消α/L，原盒内显式P/t₁/s₀三端输入及256自由形状全链已证；[实际r₁/全ruling求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)已发布。原18块全正势、ODE/ruling1e−7、真末1e−8门不变；根后period/pose/宏观仍欠。
 
 ## E：R=.8实际宏观核心自动推进在算
 
