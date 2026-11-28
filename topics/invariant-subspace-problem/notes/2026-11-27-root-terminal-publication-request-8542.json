@@ -1,14 +1,19 @@
 {
-  "message": "ISP: prove direct full original NV quartic ideal identity without D inversion",
-  "parentCommit": "d9f3ab8a77a2cbc89bd79a851dbe3779937fbb0e",
+  "message": "ISP: prove whole F40 original monic lambda one and complete 80 dimensional environment",
+  "parentCommit": "09dc9d0ca17a7530064b4af41473a18cc7dc877a",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-full-NV-quartic-direct-original-identity-without-D-inverse.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-NV-quartic-direct-original-root-review-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-NV-direct-original-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-Bzero-F40-original-monic-lambda-one.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-B-F40-fixed-norm-lambda-one-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-F40-lambda-one-original-values-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-F40-lambda-one-original-values-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-F40-lambda-one-original-values-8542-root-review.json",
+    ".github/workflows/invariant-subspace-8542-phi-b-f40-lambda-one.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-B-F40-lambda-one-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-B-F40-lambda-one-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +22,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-b-f40-lambda-one.yml"
+  ]
 }

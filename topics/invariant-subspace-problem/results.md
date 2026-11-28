@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确 B 最后 F40 的原首一 λ 一次](results/R150-appendix-unit211-Phi-zero-true-Bzero-F40-original-monic-lambda-one.md)：四新norm的完整原15坐标给h1∈I4，13.608183498秒/0；整个K40加ω首一2为80维必要环境，原商仅≤80而非精确80，尚未排空。
+
 - [R150：同一完整 NV 四次的直接原理想来源](results/R150-appendix-unit211-W-full-NV-quartic-direct-original-identity-without-D-inverse.md)：准确ΦBbar4由完整N4(V)、EΔ、E2组合，不用D逆或第三矩；整b0零保，权范围只在当前W。纸证加强既有726554对象来源，不重跑旧四次门。
 
 - [R150：正确 B 曲线的整个 F34 原范数排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-entire-F34-fixed-original-norm-exclusion.md)：四固定原norm为λ8/8/8/6，完整K34逐次gcd1/1/1/0，最终15坐标原I4返1；5.722861425秒/0，无几何单位逆。B只余F40至多40权对，旧408矩阵门仍冻结。

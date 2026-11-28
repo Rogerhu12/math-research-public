@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-B-F34-complete-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-B-F40-lambda-one-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真四头1,T,z非自由、错链/bf3冻；正确t0/A0/[全fu](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)闭。B二次与[全F34](results/R150-appendix-unit211-Phi-zero-true-Bzero-entire-F34-fixed-original-norm-exclusion.md)闭：f7四固定norm/15原坐标返I4常数1，5.723秒/0；仅余F40≤40权对。d825内存矩阵/正目标门冻。22a全α0已返首一V2/四原行三权式，未排空；[D非零等权静审](notes/2026-11-28-unit211-Phi-corrected-equal-weight-m-unit-static-provenance-8542.md)付m，d0全αχ原三二次/3×3与两4×4全坐标首次120秒1GiB。保αχθ与全部头零；一般Phi/G面继续。
+真四头1,T,z非自由、错链/bf3冻；t0/A0/[全fu](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)闭，旧真等权静审付m。B二次/[F34](results/R150-appendix-unit211-Phi-zero-true-Bzero-entire-F34-fixed-original-norm-exclusion.md)闭；[F40原λ1](results/R150-appendix-unit211-Phi-zero-true-Bzero-F40-original-monic-lambda-one.md)13.608秒/0，全K40原三坐标返h1，必要环境维80，余≤40权对。edbf仅以h1定义再生首次回新λ1六原值，120秒1GiB；d825旧480矩阵/正目标冻。22a全α0V2/四行三权式返未闭；d0全αχ三个固定原标量实际待核。全头零保，一般Phi/G继续。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
