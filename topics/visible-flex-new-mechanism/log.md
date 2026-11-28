@@ -390,3 +390,7 @@
 ### 2026-11-28 09:36 UTC — A390实际4354与c13d原401接续
 
 完整终态、loader/source和scope已读，60源绑定/AST与继承参数一致；原FineObserver确无115块prefix保存，复用4354而只重读未完c13d是必要资格工作。原辅助epigraph在新callback按既定舍入规则可变，物理q和所有原门保持。新增题外.github/workflows/visible-r582-4354-original401-20261128.yml；新范围先闭原真实trial，再继续原优化。
+
+## 2026-11-28 09:45 UTC：读新根代理规则，原401科学前退出后同输入重启
+
+公开实际pull09:43:21至fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d，私库09:38:41至2bea2888397db073ec71e3aec8e59e51c4b90d83；仅各自根README新增所有subagent显式gpt-6.2-astra/ultra，两个完整diff已读立即执行，课题README无变。当前三子代理均指定该模型/强度；逐个确认未派下级，当前树亦无下级。原401 run46131346389/job140936954485/source70ac98b359ba5077b8e1e9e8a0e4b3aee6690db6于09:37:54在公开规则检查报新根blob后退出，没有进入科学入口。完成日志206203B，SHA84c737ac06b6f98184aef5fe7f68a370c86c3fa3c2e0d07b22cfd8f0291edb99；仅scratch保存。原4354/c13d、原全部参数/绑定/费用不变，只将request的已读规则commit/blob改为实际新版本后再次启动。
