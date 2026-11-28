@@ -1,0 +1,199 @@
+{
+  "scope": "Actual complete nonlinear prefix evaluation, with the prior genuine full-H derivative used only as an explicitly affine tail; no full nonlinear trial tail or accepted field.",
+  "tool_terminal": {
+    "session_id": 19580,
+    "exit_code": 0
+  },
+  "report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-trial-20261128-a/trial.json",
+    "sha256": "db76f07f19ce4470c9813d65bf2a13bd09a92917e76d90c49d87a3285597bf3c"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_affine_trial.py",
+    "sha256": "bedb64f2480a89d717a42fc92a94c7a124834d6f2643c95ef4dc1085f7373d4f"
+  },
+  "actual_record": {
+    "scope": "Apply one recorded fixed-delta chord and evaluate the complete nonlinear prefix.\n\nThe physical prefix, original collocation equations and RMS domain samples are\nevaluated at the new full state and primary support amplitude. Only the tail\nslope is the original full-H packet's explicitly affine approximation. No\nnative call, Jacobian, BVP, physical-mean audit or accepted field is produced.\n",
+    "status": "unaccepted_complete_nonlinear_prefix_affine_DN_trial_evaluated",
+    "entry": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_affine_trial.py",
+      "sha256": "bedb64f2480a89d717a42fc92a94c7a124834d6f2643c95ef4dc1085f7373d4f"
+    },
+    "new_global_J": false,
+    "new_native_request": false,
+    "BVP_solved": false,
+    "accepted_fixed_g_field": false,
+    "complete_surface": false,
+    "exact_nonlinear_tail_at_trial": false,
+    "progress": [
+      {
+        "event": "complete_original_prefix_affine_tail_trial_returned",
+        "seconds": 15.904760783996608,
+        "full_collocation": {
+          "max": 8.151476398959699e-10,
+          "l2": 3.3097302188103005e-09
+        },
+        "full_affine_boundary": {
+          "max": 1.3980716007940355e-06,
+          "l2": 2.196332296939393e-06
+        },
+        "complete_prefix_plus_affine_DN_residual": {
+          "max": 1.3980716007940355e-06,
+          "l2": 2.196334790712288e-06
+        },
+        "original_anchor_full_true_DN_residual": {
+          "max": 0.0010942059056917477,
+          "l2": 0.0011257279317829826
+        },
+        "residual_max_ratio": 0.0012777043091448006,
+        "original_RMS_max": 1.1232475035857552e-06,
+        "original_RMS_tolerance": 1e-06,
+        "RMS_gate_observed": false,
+        "boundary_tolerance": 1e-07,
+        "affine_boundary_gate_observed": false,
+        "affine_physical_terminal_max": 2.796143201588071e-08,
+        "complete_nodal_midpoint_and_two_RMS_domain_samples_passed": true,
+        "complete_height_change": {
+          "max": 1.044151128520787e-06,
+          "l2": 1.1142735048796068e-06
+        },
+        "exact_new_tail_response_unpaid": true,
+        "old_point_chord_nonlinearity_measured_but_not_a_Newton_or_inverse_certificate": true
+      }
+    ],
+    "seconds": 15.906074505997822,
+    "prelaunch": {
+      "MemAvailable_bytes": 6543966208,
+      "disk_free_bytes": 129216512,
+      "minimum_memory_bytes": 536870912,
+      "minimum_disk_bytes": 33554432,
+      "estimate_not_memory_guarantee": true,
+      "automatic_wait": false
+    },
+    "inputs": {
+      "joint_report": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/joint-block.json",
+        "sha256": "413aa6c2191d7467171bc22a1429d4ed71ab6f2a76e260a86a940282ed897d90"
+      },
+      "joint_data": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/complete-q-and-chord-vectors.npz",
+        "sha256": "0b12d40f34e478f917f4325c92a79c327d5534efaa593c7a2c4b2258a39c817c"
+      },
+      "source_run": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+        "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+      },
+      "source_raw": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/inner-00.npz",
+        "sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616"
+      },
+      "source_physical": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/physical.npz",
+        "sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0"
+      },
+      "genuine_anchor_packet": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+        "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+      },
+      "anchor_memo_proof": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda002-actual-dn-memo-preflight-20261128/memo-proof.json",
+        "sha256": "6ac65c5d969fa7d3db2ff999021e5c083df047e7492c0489abfec64affcde20b"
+      }
+    },
+    "coordinate_contract": {
+      "n": 73,
+      "nodes": 879,
+      "parameters": 24,
+      "complete_x_and_pscale_bytes_preserved": true,
+      "original_p0_byte_preserved": true,
+      "physical_delta": 0.06413464112662924,
+      "gauge_q": 0.06,
+      "warp_reference_q": 0.06,
+      "source_primary": 0.06,
+      "trial_primary": 0.060000899509563096,
+      "log_primary_increment": 1.4991713675388688e-05,
+      "original_higher_control_columns_retained": true,
+      "original_target_profile_port_chart_and_mean_rule_fixed": true,
+      "original_mean_nodes": 1168,
+      "new_physical_mean_or_metric_audit": false,
+      "old_point_J_only_used_to_generate_the_recorded_chord": true
+    },
+    "actual_prefix_evaluation": {
+      "full_collocation": {
+        "max": 8.151476398959699e-10,
+        "l2": 3.3097302188103005e-09
+      },
+      "full_affine_boundary": {
+        "max": 1.3980716007940355e-06,
+        "l2": 2.196332296939393e-06
+      },
+      "complete_prefix_plus_affine_DN_residual": {
+        "max": 1.3980716007940355e-06,
+        "l2": 2.196334790712288e-06
+      },
+      "original_anchor_full_true_DN_residual": {
+        "max": 0.0010942059056917477,
+        "l2": 0.0011257279317829826
+      },
+      "residual_max_ratio": 0.0012777043091448006,
+      "original_RMS_max": 1.1232475035857552e-06,
+      "original_RMS_tolerance": 1e-06,
+      "RMS_gate_observed": false,
+      "boundary_tolerance": 1e-07,
+      "affine_boundary_gate_observed": false,
+      "affine_physical_terminal_max": 2.796143201588071e-08,
+      "complete_nodal_midpoint_and_two_RMS_domain_samples_passed": true,
+      "complete_height_change": {
+        "max": 1.044151128520787e-06,
+        "l2": 1.1142735048796068e-06
+      },
+      "exact_new_tail_response_unpaid": true,
+      "old_point_chord_nonlinearity_measured_but_not_a_Newton_or_inverse_certificate": true
+    },
+    "unaccepted_initial": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-trial-20261128-a/unaccepted-fixed-q-affine-initial.npz",
+      "sha256": "4b3864dee50d64786326983d8c7bf199b3ac31927183e1497ccb31f8c882c8c9"
+    },
+    "sources": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_affine_trial.py": "bedb64f2480a89d717a42fc92a94c7a124834d6f2643c95ef4dc1085f7373d4f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_dn_chord_block.py": "d1a31ff589cb4e8d75850bcbd59ce1e56f3d435fcebd7c70884b5e18a13b9d95",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_lambda_tangent_predictor.py": "acd94b154e2e0e6422e626af6e80a820d50e7c1f8dca1e1f793d79378c7dc14f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/exception_safe_radial_batches.py": "2d2b413a46a23882341a4d5cac7ce2bc2c44c8444129d322d898288597c2c7a7",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_boundary_dn_initializer.py": "726dc2123f24be7ad9735bbac813307fffdea5d7fa2fd019cb07992e03f3cdb8"
+    },
+    "literal_collocation_source_sha256": "3709e1b0cb8b726eda0b9dd6f6271d3caacd3e84ce97db31ae4d7dfea88e8b72",
+    "literal_RMS_source_sha256": "53e67cba89174fdb7ae6947d1c421724bbd8a28cd6bd9ee5203727bba7d2ebf5",
+    "batch_statistics": {
+      "rhs_calls": 4,
+      "jacobian_calls": 0,
+      "rhs_blocks": 112,
+      "jacobian_blocks": 0,
+      "collections": 112,
+      "collected_objects": 0,
+      "collection_seconds": 2.401780237967614,
+      "exception_blocks": 0,
+      "exception_types": {},
+      "maximum_rss_kib": 252500,
+      "successful_and_exceptional_short_calls_collected": true,
+      "live_caches_cleared": false,
+      "original_exceptions_suppressed": false,
+      "original_numerical_calls_or_arithmetic_changed": false
+    },
+    "table_cache_statistics": {
+      "hits": 0,
+      "misses": 0,
+      "key_seconds": 0.0,
+      "build_seconds": 0.0,
+      "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+      "full_basis_and_frequency_bytes_bound": true,
+      "live_flow_or_physical_response_cached": false,
+      "shared_diagnostic_dictionary": false
+    },
+    "resource_observation": {
+      "max_rss_KiB": 252500
+    }
+  },
+  "previous_bound_notes": [
+    "2026-11-28-analytic-complete-fixed-q-dn-chord-actual.json"
+  ]
+}
