@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：整个b0实际同h恢复、原D关系与三个纯权条件](results/R150-appendix-unit211-W-b0-actual-same-head-recovery-three-original-weight-conditions.md)：10.652680686秒/0，h47余34未付、C_D50非零及三原核78/80/87全部返回；h开图精确原商、h=0全J5/I11保，无新全支点界或排空。
+
 - [R150：正确Phi整个ell-half的原z一次返回及114次权覆盖](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-positive-z-and-114-weight-cover.md)：gλ2、完整6×30原模块秩4；C114²z∈I6，至多114不同权对且全λ/值纤维保；0.908464339秒/0，不称整支空。
 
 - [R150：全W斜率权图六个原NS/PS四次核与完整I6](results/R150-appendix-unit211-W-inverse-weight-six-small-original-NP-quartics-complete-I6.md)：六核总度40/44/45/41/45/46全部六源乘回；与旧六标量和同f恢复给完整原I6，7.487228075秒/0，53分母/605精除；无新权界或空性。

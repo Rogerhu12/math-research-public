@@ -1,17 +1,20 @@
 {
-  "message": "ISP: first simultaneous b0 four by five original same-head D target",
-  "parentCommit": "3be99670442c33098a3ab983d0765a392da8de3c",
+  "message": "ISP: complete b0 same-head original recovery and first direct raw Phi z target",
+  "parentCommit": "5cf4646a2c2a24c0fbe6f3613092ebbc789ad2bd",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-simultaneous-four-by-five-same-head-original-D-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-simultaneous-four-by-five-same-head-original-D-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-simultaneous-four-by-five-same-head-original-D-8542-root-review.json",
-    ".github/workflows/invariant-subspace-8542-w-b0-same-head-d.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-first-W-b0-same-head-D-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-W-b0-same-head-D-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-actual-same-head-recovery-three-original-weight-conditions.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-simultaneous-four-by-five-same-head-original-D-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-simultaneous-four-by-five-same-head-original-D-8542-formal-root-review.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-direct-raw-degree-three-z-certificate-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-direct-raw-degree-three-z-certificate-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-direct-raw-degree-three-z-certificate-8542-root-review.json",
+    ".github/workflows/invariant-subspace-8542-phi-ell-half-direct-raw-z.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-b0-actual-first-Phi-raw-z-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-b0-actual-first-Phi-raw-z-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +24,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-w-b0-same-head-d.yml"
+    "invariant-subspace-8542-phi-ell-half-direct-raw-z.yml"
   ]
 }
