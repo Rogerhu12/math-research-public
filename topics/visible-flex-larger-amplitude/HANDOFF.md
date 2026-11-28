@@ -39,7 +39,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 6cf25c5f930eac7074f3a21034029e959853f193
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-retry-46175515918-1-index.json) [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 9729281883d95c237073009bc34e7f6bef295cb8
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull fb832d8c99873015d257c59ff9175bb0132885a6
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 77d5c05be7d0213c9970c6e210a19d559c55857b
@@ -58,3 +57,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R786](results/R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)：同R781 g双完整帽精确，整360°双真卷宽.0024全相谱误差<9.46e−7；全闭reach>1/24.36/held>.317/商距>.083。余卷/中央误差及固定参真收敛仍欠。
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 674ce5c6a6c445199fa9cf2ced7882497631f418
