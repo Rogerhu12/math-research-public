@@ -381,3 +381,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:08:29 UTC — 27第四恢复方向全步拒绝与半步开始
 
 27第四恢复全步86e14真实g.6999403587662889但accepted=false；c6928 alpha.5仅trial-start，current仍12d82/accepted3，不推半步统计或final。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`e97b242fe9715bf8f38ceab2924b3cb347514542`无变（非pull）。
+
+## 2026-11-28 09:08:45 UTC — 29八分之一步拒绝与十六分之一步自身统计
+
+29真retry d24e八分之一步真实reachg2.0394327986836136拒；695833十六分之一步返自身统计，几何/接受未返，current仍bc818/accepted1。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`6ebde20eba332276f797ca62497010a6e816c4f6`无变（非pull）。

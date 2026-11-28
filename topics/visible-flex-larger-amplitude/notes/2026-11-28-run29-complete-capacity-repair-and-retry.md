@@ -849,3 +849,24 @@
   }
 ]
 ```
+
+## 2026-11-28 09:08:45 UTC — 29八分之一步拒绝与十六分之一步自身统计
+
+固定3a38882e887dae0688835ccd9b1b41c7eb6d24c6完整索引observed09:00:12Z，sourceb0a08bf069a5d1ade7fbb94446940a6bd6ea4031/PID3641/modeld3d295815f0d81553c3aafadb5c009213d9b5ff5d16a33b664de13bf3e155207。alpha.125点d24e84a406b8ea1b9754b48cf29d4cafa3de97ef28b29df13cabce1736ab9549已自身返回Phi590.9936846129775/Gram.4185091859676928，再真实完成几何，最大族reach、g2.0394327986836136、accepted=false。
+
+其后alpha.0625点695833d4ef3f976d854e84010039f5c2b498558e6e9efed2cdd7b12379e689f0于08:51:57.791700Z返自身Phi587.8844554160014/Gram.41821188602738024，几何与接受仍未知。current还是bc818314e615936a46d485711daf1c0212f171118d2f3fc2f3af02a67656f74e/accepted1，Phi584.8125864670693/Gram.4179453237576573，max distance_plus .13820228685007474、reach−.03475313540129943；全六族/K/位置、完整source/model/target及未知在原索引。complete_report=false、stop_reason=null、observer_failures0；current可行reach不替代全六族可行。保真retry1 parent，完整science自然返后才排46915B whole pure。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 53520,
+    "sha256": "1258e0cfc6bb5009a55be3402d6e6c989ed01ee9ae819e98da4cd30e89c9a404",
+    "git_blob_sha": "52fd4e893376d63bdc166d41c1d36fec340838fa",
+    "fixed_commit": "3a38882e887dae0688835ccd9b1b41c7eb6d24c6",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
