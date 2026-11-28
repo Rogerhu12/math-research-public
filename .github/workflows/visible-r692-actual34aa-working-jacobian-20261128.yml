@@ -1,0 +1,124 @@
+name: visible-flex R692 actual34aa original working Jacobian
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r692-actual34aa-working-jacobian-20261128.json.gz
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r692-actual34aa-working-jacobian-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue actual34aa after the incomplete 1372-row operator
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r566-backend-preserving-20261127.yml
+            /.github/workflows/visible-r566-f2dda-peak4096-resume-20261128.yml
+            /.github/workflows/visible-r566-native-430-shutdown-resume-20261128.yml
+            /.github/workflows/visible-r566-native-55be-partial1906-20261128.yml
+            /.github/workflows/visible-r566-native-6482-metric-resume-20261128.yml
+            /.github/workflows/visible-r566-native-cc117-normal-20261127.yml
+            /.github/workflows/visible-r566-native-d191-partial238-20261127.yml
+            /.github/workflows/visible-r566-native-d59fa-known-violation-20261128.yml
+            /.github/workflows/visible-r566-native56594-partial2561-20261127.yml
+            /.github/workflows/visible-r566-normal56e8-resume-20261127.yml
+            /.github/workflows/visible-r566-partial391-resume-20261127.yml
+            /.github/workflows/visible-r566-physical-epigraph-20261127.yml
+            /.github/workflows/visible-r566-working-backtrack-20261126.yml
+            /.github/workflows/visible-r566-working-rows-20261126.yml
+            /.github/workflows/visible-r692-actual34aa-working-jacobian-20261128.yml
+            /topics/visible-flex-new-mechanism/computations/request-r566-0449-working2048-resume-20261128.json.gz
+            /topics/visible-flex-new-mechanism/computations/request-r566-backend-preserving-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r566-f2dda-peak4096-resume-20261128.json.gz
+            /topics/visible-flex-new-mechanism/computations/request-r566-native-430-shutdown-resume-20261128.json.gz
+            /topics/visible-flex-new-mechanism/computations/request-r566-native-55be-partial1906-20261128.json.gz
+            /topics/visible-flex-new-mechanism/computations/request-r566-native-6482-metric-resume-20261128.json.gz
+            /topics/visible-flex-new-mechanism/computations/request-r566-native-cc117-normal-20261127.json.gz
+            /topics/visible-flex-new-mechanism/computations/request-r566-native-d191-partial238-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r566-native-d59fa-known-violation-20261128.json.gz
+            /topics/visible-flex-new-mechanism/computations/request-r566-native56594-partial2561-20261127.json.gz
+            /topics/visible-flex-new-mechanism/computations/request-r566-normal56e8-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r566-partial391-resume-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r566-physical-epigraph-20261127.json
+            /topics/visible-flex-new-mechanism/computations/request-r566-working-backtrack-20261126.json
+            /topics/visible-flex-new-mechanism/computations/request-r566-working-rows-20261126.json
+            /topics/visible-flex-new-mechanism/computations/request-r692-actual34aa-working-jacobian-20261128.json.gz
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r566-native-cc117-normal-scope-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-27-r566-native56594-partial2561-natural-final-agent.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-0449-working2048-continuation.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-430-shutdown-resume-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-430-to-f2dda-peak-capacity-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-55be-partial1906-resume-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-55be-to-430-runner-shutdown-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-6482-metric-resume-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-6482-to-55be-natural-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r566-f2dda-peak4096-continuation.md
+            /topics/visible-flex-new-mechanism/results/R692-actual34aa-paid-qualification-and-unfinished-working-jacobian.md
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_hard_exchange_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_angular_oracle_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_block_jacobian_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_batched_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_checkpoint_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_exchange_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_paid_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_radial1025_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_r566_theta_peak_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r566_0449_working2048_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r566_backend_preserving_backtrack_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_build_seeded_slsqp_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_f2dda_peak4096_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r566_native56594_partial2561_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_native_430_shutdown_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r566_native_55be_partial1906_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r566_native_6482_metric_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r566_native_cc117_normal_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_native_d191_partial238_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_native_d59fa_known_violation_resume_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r566_normal56e8_physical_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_original_margin_rounding_state_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_partial391_physical_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_physical_epigraph_and_saved_resume_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_saved_brackets_and_epigraph_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_saved_partial_queue_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_seeded_slsqp_SCIPY_LICENSE.txt
+            /topics/visible-flex-new-mechanism/scripts/r566_seeded_slsqp_native_20261127.patch
+            /topics/visible-flex-new-mechanism/scripts/r566_true_secant_curvature_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r566_working_rows_backtrack_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r566_working_rows_full_acceptance_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r692_actual34aa_working_jacobian_resume.py
+            /topics/visible-flex-new-mechanism/scripts/r692_unfinished_working_derivatives.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_gzip_stdin_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Resume the actual required state and original full acceptance loop
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_gzip_stdin_20261127.py
+          --request topics/visible-flex-new-mechanism/computations/request-r692-actual34aa-working-jacobian-20261128.json.gz
+          --lane rounded-core-B030-actual34aa-working-jacobian

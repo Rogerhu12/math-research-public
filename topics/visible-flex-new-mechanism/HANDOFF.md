@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **c10b233644d71cccb65eff2218936b7b650856f2**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **4a80c9d74dab1a838a320a34d1967304605afd10**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -20,9 +20,9 @@
 
 R648–R653全尾三jet/真C²正collar/法管仍欠，R658无穷差不代分母；R663旧FINAL缺dense，12分母0已证。R668只消费下次自然现场已付对象（3%信用/25秒/保末读），七源各C/scale缺口保留，不重旧ODE/root/J。[R672](results/R672-actual-1566-material-metric-and-curvature-coverage.md)给28+61样条有理差、全环Taylor primitive、度量/真曲率全材料覆盖接口，七源/三jet/外正collar缺项仍开，只接下一自然已有场。
 
-## C：B030真实0449工作容量2048
+## C：B030真实34aa与原外18未完J
 
-[真实后继](notes/2026-11-28-r566-0449-working2048-continuation.md)run46140899878/source2a06565a；源1951.916826632秒/9接受0449/p.8、1888×3072fineη.18840244/g0。945coarse/2111physical/1018working+70待行，旧1024满时无该轮J/trust决定，行数未印不借旧943。只改2048，真trust.45050811767578125/小H/24待乘子/原门保留。632147B必要输入，旧430未知费/8635队列/未存数组全保。run46139676222读gzip失败未进科学，已修gzip/stdin；仍变量g。R692接新自然末态。
+[R692](results/R692-actual34aa-paid-qualification-and-unfinished-working-jacobian.md)源run46140899878新增2370.199226253秒/8接受34aa，1940×3072资格η.1847597091/g0；当前973粗/1948要求fine/2173峰/1372工作/3459338标量行，不混资格和新要求。外18已付40J块+1值未存，无该轮QP/trust决定，保真trust.45050811767578125/3403H数/27乘子/82梯度；只重建必要原J并记费。全20参数原门不变，旧430未知费/8635队列/未存数组/启动失败全留，费下界33630.598231605秒。以后中断仅留实际已付块，无虚构矩阵；仍变量g。
 
 ## D：原完整BVP与新材料对齐四端
 
