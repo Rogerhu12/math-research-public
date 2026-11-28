@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-t-scalars-1880-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-first-six-source-two-DVR-1885-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保；错链撤回，Pf/Δ0的Φ已付，C1/C2/C4闭。[新同Q唯一约化](results/R150-appendix-unit211-hk-independent-P-discriminant-unique-reduced-Q-and-2394-Artin-envelope.md)：P判别式因子≤31给K99/K300可分，原4阶Q结式一阶赋值付同Q唯一；权基≤399、比值Artin≤2394，添U0≤7182。ad00冻，显式u/Q及八原z未执行，两谱域和Δ非零仍待完整原值。
+[h=k真五行](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)/四NP保，Pf/Δ0的Φ已付、C1/C2/C4闭；新u/Q唯一约化给权≤399、比值Artin≤2394/U0≤7182，ad00冻。[两整谱域有限DVR首次输入](notes/2026-11-28-unit211-hk-two-spectral-fields-finite-DVR-original-inverse-z-unit-8542-input.md)180秒4GiB：固定第一整模型点，倒z首一3及完整八原条件只试1，有限模Nakayama提升。未返回前两域与Δ非零全保，不换点重试。
 
 ### W：全原均值、H198两生成图与完整值条件
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0比值≤23088/U0另3及同h余34/CD50/三核/h0、C2/L
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-Phi旧闭支/维≤1/t三生成λ3/C77开图13保；错链/失败冻，H6/H8整零未付。[中心NSPS与原t六次式](results/R150-appendix-unit211-Phi-zero-corrected-centered-t-original-NSPS-ten-by-two-and-sextic.md)实际2.776731405秒/0全返qω、两三次行和精确十行；C6 u36Q23t6总44，头总38，进一步头补图必要(t,ω)12生成。头0/Δ0均保，六原终端乘子未返，继续真实全原提升。
+Phi旧闭支/维≤1/t三生成λ3/C77开图13保，旧错链/失败冻。5ebffd中心NSPS实际C6(t6总44)，头38和斜率补图12生成；H6/H8/头0保。新[完整六原终端输入](notes/2026-11-28-unit211-Phi-zero-corrected-t-sextic-complete-six-original-multipliers-8542-input.md)首次120秒1GiB：第三N1乘子和六来源直接返，只最终旧权分母全付才跨整个Δ0、首次因式原t头；尚无全图预报。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

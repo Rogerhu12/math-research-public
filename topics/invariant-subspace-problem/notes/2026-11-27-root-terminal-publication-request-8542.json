@@ -1,16 +1,21 @@
 {
-  "message": "ISP: publish full W t original I6 and two seven-source scalar returns",
-  "parentCommit": "6a524424eb4558b4237114a40c00a711fd0d1dd2",
+  "message": "ISP: first complete Phi six-source extension and whole-field HK DVR original units",
+  "parentCommit": "374015c11c5ced2c88f77daa4efe088426c9a9da",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-t-parameter-complete-I6-q2-two-original-scalars.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-t-parameter-monic-lambda-two-complete-I6-q2-two-original-targets-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-1329-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-t-scalars-1880-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-t-scalars-1880-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-t-sextic-complete-six-original-multipliers-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-t-sextic-complete-six-original-multipliers-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-two-spectral-fields-finite-DVR-original-inverse-z-unit-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-two-spectral-fields-finite-DVR-original-inverse-z-unit-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-t-sextic-complete-six-original-multipliers-8542-root-reading.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-two-spectral-fields-finite-DVR-original-inverse-z-unit-8542-root-reading.json",
+    ".github/workflows/invariant-subspace-8542-phi-six-original-extension.yml",
+    ".github/workflows/invariant-subspace-8542-hk-two-dvr-original-unit.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-first-six-source-two-DVR-1885-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-six-source-two-DVR-1885-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,5 +24,8 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-six-original-extension.yml",
+    "invariant-subspace-8542-hk-two-dvr-original-unit.yml"
+  ]
 }
