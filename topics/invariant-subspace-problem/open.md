@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-forward-column-1870-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-centered-sextic-1875-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0比值长≤23088/U0另3保；旧同h余34/CD50/三核/
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-Phi旧闭支/维≤1/t三生成λ3/C77开图13保，旧错链/失败冻结，H6/H8整零未付。[中心原NSPS](results/R150-appendix-unit211-Phi-zero-corrected-t-slope-centering-and-original-NSPS-cubic-pairs.md)的5ebffd首次2.776731405秒/0全返qω、两三次行及精确十行；新C6 u36Q23t6总44，t头总38未付。仅斜率开图，继续全三原乘子提升及完整H6/H8零支。
+Phi旧闭支/维≤1/t三生成λ3/C77开图13保；错链/失败冻，H6/H8整零未付。[中心NSPS与原t六次式](results/R150-appendix-unit211-Phi-zero-corrected-centered-t-original-NSPS-ten-by-two-and-sextic.md)实际2.776731405秒/0全返qω、两三次行和精确十行；C6 u36Q23t6总44，头总38，进一步头补图必要(t,ω)12生成。头0/Δ0均保，六原终端乘子未返，继续真实全原提升。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

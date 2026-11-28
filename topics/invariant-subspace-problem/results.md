@@ -20,6 +20,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi中心NSPS的实际十行呈示与非零t六次式](results/R150-appendix-unit211-Phi-zero-corrected-centered-t-original-NSPS-ten-by-two-and-sextic.md)：5ebffd唯一2.776731405秒/0，完整NSPS普通均值来源、中心qω及两行/倍数全返。C6的(u,Q,t)度36/23/6、总44，t头总38未付；头补图必要代数12生成。H6/H8与头0全保，六原终端乘子尚未返回，未外推全图。
+
 - [R267：单前向列紧性与原稳定闭根](results/R267-appendix-single-forward-column-compactness-and-original-stable-root.md)：同一A_n∈C′、A_n²强趋C及循环p上A_np一强子列，给真实两列闭图、DomS²=DomS、S²=C及Sp=f；RanS含循环Cp，m0≥1返原普通M。适用YN PtΩ及CW_nPtΩ，实际紧性未付；不需p∈RanS、不倒推逆列。
 
 - [R150：正确Phi斜率补图的中心化与完整NSPS三次两列](results/R150-appendix-unit211-Phi-zero-corrected-t-slope-centering-and-original-NSPS-cubic-pairs.md)：ω=Z+At+B不增分母，使f,V对t仿射；qω两系数t≤2。先按真三均值降完整NSPS，再一次仿射换基，给两列各t≤3与精确I6十行；固定二阶scalar≤6但尚不预报非零。H6/H8整零保，纸证无新执行。
