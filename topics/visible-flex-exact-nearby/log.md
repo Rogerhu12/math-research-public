@@ -138,3 +138,6 @@
 
 
 2026-11-28 10:45:07 UTC / visible-exact-astra-b0d5a16-20261128：AHD。负轴同s的两Airy行保相关，π行模积≤2/√3；真cutoff积分给两向Uext<1.03及n(Uext−Id)<11。全Darboux H（含t> L非零尾）L1<851000，保S Z(T)−1次序后完整S J∞<2^20/n²，两列/两符号/原非零root剪切均保。 root独立核Laplace三阶ODE唯一性、Wronskian缩放、c′概率密度积分及负无穷尾，NIST主源核基础式。无原科学重算。 全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-full-Airy-matrix-correlation-and-integrated-Darboux-source.md","bytes":5306,"sha256":"71f8109532dba0885ad06a11e338153cf013bdb6fc76045e1d8447ccde1f3a29"}]。
+
+
+2026-11-28 10:53:55 UTC / visible-exact-astra-b0d5a16-20261128：META12。为真实TCF缺域fleet和现运行GG/H96R/WSS完整小结论保容量，新200件旧manifest仅字符串外JSON空白格式化，原完整commit f9ff5a8685fad08bf1fce295a17325fc51ce2625；全200原bytes/SHA/blob、literal/字符串escape/键序/数组与JSON语义逐项保持。完整receipt 94763B/SHA256 c36b2ed8c8e94212bd62450c2964ef3538c54025089a15db63df073b1e09a849，毛省1264084B、净省1169321B；完整当前tracked/untracked源码/manifest/README引用扫描无冲突，旧科学0/数组0。每pull继续只读两README差异，按全scan后的等价增量检查全部改变和新草稿引用。

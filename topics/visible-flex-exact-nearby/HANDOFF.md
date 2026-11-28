@@ -1,13 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 10:46:03 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 10:54:20 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至0d14ce7e725c5703723f3e48e3c410e3122d2f66；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至f6e450d91d28cdb96fc74c17fed9d781a9563762（10:16 pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至5e155628b0928ae0f84eb532d327420f0988e78a；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至f6e450d91d28cdb96fc74c17fed9d781a9563762（10:16 pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
-topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META11新200件无当前引用旧manifest只去字符串外空白，净1180728B；原05b945b8f/receipt94784B SHAec28724d…保所有literal/whole身份，科学0。META1–10完整账/receipt保旧H，禁重做；本批每pull核changed/untracked+全200新hash，承接此前全reference scan。
+topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META12对新200件无当前引用legacy manifest仅删字符串外空白；净1169321B，原f9ff5a8685/receipt94763B SHA c36b2ed8…保全部literal与整件身份，科学0；META1–11完整历史/receipt均保、禁重。每pull重核全部新hash及changed/untracked references，继承此前完整reference scan。
 
 ## 同一对象、完整旧账与完成标准
 
@@ -27,7 +27,9 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 - TF46120139018/1于08:31:39真实failure，数学4669.906695433s非timeout。left0..80通过，index81在4→8→16→32→64 cuts仍failed；right/node/maps与两whole目标均未成，不推真实奇异。actual57359B/5f1b15db…、execution63045B/2dbb23e3…，86输入/完整ledger核过。原314059632B packed、4955126B canonical、842453B gzip三whole SHA必要恢复合同已推a4ee9d41e但未执行；不能凭指数续算。新正交Householder联合球图表另推进，保193/97/full source，具体见TF诊断note。
 - RCS首run46129196297/1（09:10:19,event05b945b8f）在原方向恢复时真实runner缺verifiedSkylakeX instructions而失败，science child0/target0，不能绕过CPU/SHA检查。原13件/manifest7157B ebabcc59…、TCXV184/32/40parts和72槽合同保；whole strict完整新算仍待真实可执行入口，不授uniform高响应。
 
-- GPR原46134446655/1在q整格门失败，尚无64格prefix、0已登记格；完整证据与未知索引保note。原Taylor改直接Horner+同件whole相交，176/626/193全域及正门保；修复push12cd72d84d，新run46135620219/1于10:31:56开始、10:39仍in_progress；未授全域/H1。
+- GPR修复run46135620219/1实际10:43:15 success、3026格/4门；真标签相对同一连续比较的全域角H1<1.084e−5、含r导H1<1.576e−4。176whole准入再核且science0；原失败46134446655完整保，非uniform high响应。GRQ正准备首发。
+
+- WSS46136409179/1（event5949465f4b）实际10:42:05启动，两个完整signed新目标未回；全部19/原184+32及CPU/SHA门保。
 
 ## 真实成功与已付组件
 
