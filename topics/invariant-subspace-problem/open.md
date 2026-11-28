@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Phi-original-weight-support-2300-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-W-entire-M-positive-original-Gram-2305-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088及U0另3保；六ray/内部u/δ/Vbar闭，m深k−2真四维40列/完整十原1；Q2新8634首次120秒/1GiB，固定5阶原投影、全部Fp域/µ根、真f²/σ²与十二原target1，未预记空性。新[整个ell正阶排除及1009整单位](results/R150-appendix-unit211-W-b0-entire-ell-positive-exclusion-and-1009-integral-unit.md)57f37 run46183268767/job141097425326真0.106816613秒/39244KiB/0：原qtilde/R6二阶归一与完整N5=2ell²H，全部Ast-unit/µT-pole/Tzero纸闭；唯一U−5/4,k−1/2有限中心T/µ/A2单位，固定T(3,4)/(3,5)cofactor度12/15，仅除已付A2得10/13，完整三原Fp返1，三个末乘子均非零/den=A2支持，无新头逆。当前e,k,u,δ,Vbar,ell均为1009整单位；root写大M深全原整性及三维mean矛盾纸证，m的Q2及其他原分母/整个W空性仍开。
+W旧闭支/≤616824、b0≤23088及U0另3保；六ray/内部u/δ/Vbar/ell全闭（ell57f37固定两scalar三原1），m深k−2闭，Q2新8634首次全Fp域/十二原target1在跑。新[大M整个正阶原Gram纸证明](results/R150-appendix-unit211-W-b0-entire-M-positive-exclusion-and-original-Gram-integrality.md)不新开计算：M深使m单位，W权式排ell1/2/Phi0/J−uQ0；q/R不用Ast逆付µ,T,σ整。选对称标签b单位/c正阶后，完整W仿射恢复使ME1系数整，f²头−8u ell δ(J/Q−u)为单位，付f整；完整EC/PC若t/Y极点则迫b=1/2矛盾。全Gram整后c0真E0/EB迫X=u，而E1=p²(2ell−1)²/2非零。故当前e,k,u,δ,Vbar,ell,M均为1009单位；上述Phi/J−uQ/ellhalf仅辅助在被排图，不免费付全局。Q2及剩余Phi/T0/JQ/P02、全W空性继续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
