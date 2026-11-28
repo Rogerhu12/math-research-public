@@ -165,7 +165,8 @@ class Grid:
         if metric is not None:
             self.M=basis(metric["spans"],self.t,source.S)[0]
         diff=np.asarray(source.center.difference(self.u,eta),float)
-        self.base=self.old.copy()
+        self.base=self.old
+        del self.old
         for index,(r,a) in enumerate(O):
             self.base[:,index]+=chi(self.t,r)[:,None,None]/source.S**r*diff[a][None]
         self.eta=eta
@@ -203,7 +204,7 @@ class Grid:
         return dict(peak=float(err.max()),rms=float(np.sqrt(np.mean(res*res))),
                     curvature=float(k.max()),positiveMetricCoefficientLower=lo,
                     areaRatioMinimum=float((np.sqrt(area/(Q*W))/self.rho).min()),
-                    worstPhysicalMaterial=[float(self.t[i]*self.source.S),float(self.u[j])],
+                    worstPhysicalRadialAndNativeTheta=[float(self.t[i]*self.source.S),float(self.u[j])],
                     radialRows=len(self.t),angles=self.n)
 
     def objective(self,x,p):
@@ -327,8 +328,6 @@ def main(a):
     metric=None;oldX=None;oldm=None
     elapsed=time.monotonic()
     for number,(spans,modes,nrad,nang,steps) in enumerate(stages):
-        if number and history[-1]["finalIndependent"]["peak"]<2e-8:
-            break
         P=Grid(source,a.eta,spans,modes,nrad,nang,False,metric)
         x=np.zeros(P.nvar)
         if oldX is not None:
@@ -362,6 +361,7 @@ def main(a):
                             best=(score,candidate,test,alpha,damp)
                 if best is not None:
                     break
+            del op,res,scale,j,jt,weight,sol,direction
             if best is None:
                 print("NO_ACCEPT",number+1,step+1,before,flush=True)
                 break
