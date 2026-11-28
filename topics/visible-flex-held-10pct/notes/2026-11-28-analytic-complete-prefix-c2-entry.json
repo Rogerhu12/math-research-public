@@ -1,0 +1,66 @@
+{
+  "schema": "prepared_complete_true_prefix_cut_same_theta_C2_entry_v1",
+  "status": "frozen_source_and_actual_preparation_only",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_complete_prefix_c2.py",
+    "sha256": "70069b8367d80063f3ef085d2e3a41e68c0cca7a6c85408bd3ab95cb18a03a86"
+  },
+  "note": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-analytic-complete-prefix-c2-entry.md",
+    "sha256": "cb36eca72386685bb1e9fd20082f03407fd79626201a69a12543a85aebb1f051"
+  },
+  "actual_preparation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/complete-prefix-c2-final-preparation-20261128-a/preparation.json",
+    "sha256": "889ab7da28a32ed8464df7257a57f855e1ab42c1279927badf3ded361bd8a7ef"
+  },
+  "actual_result": {
+    "schema": "complete_true_prefix_cut_same_theta_C2_entry_preparation_v1",
+    "status": "syntax_dependency_pins_and_cli_help_passed",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_complete_prefix_c2.py",
+      "sha256": "70069b8367d80063f3ef085d2e3a41e68c0cca7a6c85408bd3ab95cb18a03a86"
+    },
+    "pure_bounds": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/prefix_physical_theta_c2_bounds.py",
+      "sha256": "f45298d263a09cca3b015b8f61fdfed2033167180867d667574cdd018cae560c"
+    },
+    "pair_gate": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_complete_tail_c2.py",
+      "sha256": "1808a976bf4082fbe9b339fb24fdd7b87f3d29d36be05d15bcfdb7c7f24cc00e"
+    },
+    "dependency_source_version": "93d2b61d5cd8f413342f026e713c397ff3e5d10f",
+    "pure_proof_version": "9729281883d95c237073009bc34e7f6bef295cb8",
+    "all_current_pair_gate_reviewed_hashes_match": true,
+    "reviewed_paths": {
+      "resume_20261126/seam_compare_tail_c2_v2.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_compare_tail_c2_v2.py",
+      "resume_20261126/seam_certify_tail_geometry_v2.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_certify_tail_geometry_v2.py",
+      "resume_20261126/seam_export_tail_geometry_v2.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_export_tail_geometry_v2.py",
+      "resume_20261126/seam_run_tail_geometry_v2.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_run_tail_geometry_v2.py",
+      "resume_20261128/tail/qr_actual_coupled_prefix.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_actual_coupled_prefix.py",
+      "resume_20261128/tail/qr_coupled_prefix_continuous.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_coupled_prefix_continuous.py",
+      "resume_20261128/analytic/qr_fixed_actual_cartesian_prefix.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_cartesian_prefix.py",
+      "resume_20261128/analytic/qr_fixed_support_actual_model.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_support_actual_model.py",
+      "resume_20261128/analytic/qr_fixed_support_actual_acceptance.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_support_actual_acceptance.py",
+      "resume_20261128/analytic/qr_fixed_actual_prefix_continuous.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_prefix_continuous.py",
+      "resume_20261128/geometry/cartesian_prefix_metric_tables.py": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_tables.py"
+    },
+    "help_returncode": 0,
+    "help_stderr": "",
+    "no_genuine_fixed_pair_loaded": true,
+    "no_native_or_BVP_or_J": true,
+    "finite_pair_numerical_C2_bound_executed": false,
+    "seconds": 0.7098319470005663,
+    "maximum_rss_kib": 23040
+  },
+  "finite_pair_positive_executed": false,
+  "actual_fixed_pair_available": false,
+  "C2_limit_proved": false,
+  "whole_surface_completed": false,
+  "mathematical_reference": "R97",
+  "input_scope": [
+    "two own accepted fixed returns of the identical complete problem",
+    "original anonymous QR anchor to its own fixed return, with genuine coupling summary"
+  ],
+  "mapped_anchor_left_supported": false,
+  "mapped_anchor_to_two_own_fixed_returns_supported": true
+}

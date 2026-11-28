@@ -29,3 +29,7 @@
 
 本条前完整H逐字归档于[交接档](notes/2026-11-28-handoff-before-post-qr-storage.md)，SHA256 `8249d29389166839f1e5c92d352968605fe64408b06c59474373c3b0eda486e8`；新H保核心恢复点及后继入口，未删除历史。
 
+## 2026-11-28 — R97 真 own-fixed 场完整前缀与切口的执行入口
+
+[完整入口](notes/2026-11-28-analytic-complete-prefix-c2-entry.md)复用真实同g pair gate，消费各场真实角三阶表、全rep/lift/chart两jet及cut完整outward系数；全部Fraction共同分区先相减再Bernstein，保全mode union/mean/中心修补，并付真实Δe与同物理θ逆图混合两jet。每格fsync，完整精确覆盖及源/hash不变才发有限pair结论；cut metric unresolved不会被改成通过，也不妨碍其完整合法系数用于本项差界。mapped主线只支持真own1→own2，不把mapped anchor冒入旧匿名provider。原pair gate有限core初始化成本明确，无新BVP/J/native/mean积分。最终源compile/help真0/0.710s/23040KiB、11条真实依赖SHA一致；本条没有实际fixed pair或数值C²返回。原pure helper与旧准备记录SHA均保留。
+

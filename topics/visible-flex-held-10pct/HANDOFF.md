@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `c8bc104484bd879b43603b17e1a212f6103f0ad2`（2026-11-28 19:37 UTC）。
+- 最近实际pull后双README已读锚 `bcc3f65811b8c90d9eeddd5d0e3b7830584580c9`（2026-11-28 19:38 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `5d146903e36f71c8137ab5137195d1f3d90055d7`（2026-11-28T19:19:02.099311+00:00），相对4f63189c1e7d双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟20:15 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -30,7 +30,7 @@
 [同场执行顺序](notes/2026-11-28-tail-qr-final-field-certificate-execution-order.md)及上一完整交接逐项链接全部准备源/原SHA；没有新λ1/own fixed阳性。
 - [全映射actual-DN](notes/2026-11-28-tail-mapped-qr-actual-dn-entry.md)：独立mapped kind/schema/reader，保原native4/chord3/8outer、所有未知/J/H/数值门；完整CSR-before-QR及全factor/双store实清。真正controller result.run→内层summary，最终只绑physical-H与实际mean，不冒旧匿名kind。
 - [固定g显式资源/来源版本](notes/2026-11-28-qr-fixed-complete-prefactor-resource-and-provider.md)：prefactor8/8/双store与旧factor-only64/32分开；step/owner/acceptance/launcher同argv和源SHA。冻结完整δ/g/profile/chart/warp/mean/native背景及原未知空间，完整残差诊断后再次清页。科学模型/8outer/原门不改。真mapped anchor后先own fixed1→own fixed2，不能套旧anchor连续provider。
-- [own全几何](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)→原123/10舍入→真tables/metric/cut，使用同一实际width；[完整活动矩](notes/2026-11-28-tail-own-fixed-qr-third-activity-entry.md)保全prefix/cut/尾flux/字面柱长及准确合并。全尾/全prefix C²分别消费真实own pair，有限差非Cauchy。
+- [own全几何](notes/2026-11-28-tail-own-fixed-qr-complete-geometry-entry.md)→原123/10舍入→真tables/metric/cut，使用同一实际width；[完整活动矩](notes/2026-11-28-tail-own-fixed-qr-third-activity-entry.md)保全prefix/cut/尾flux/字面柱长及准确合并。全尾C²与[R97完整prefix/cut入口](notes/2026-11-28-analytic-complete-prefix-c2-entry.md)消费真实own pair；真实tables/full cut、全部共同Fraction径向格/模/mean/Δe已接线，逐格fsync及完整覆盖才给有限pair界；无真pair阳性，有限差非Cauchy。
 - [时间数值入口](notes/2026-11-28-qr-fixed-actual-time-refinement-entry.md)与[完整mesh](notes/2026-11-28-explicit-full-phase-mesh-entry.md)保4/5、27/50、k.5/S.675、全模、sameg；CubicSpline诊断不是R98连续证书。帽默认r=a/2；改帽必须贯穿map/metric/geometry/activity/mesh/time后冻结。数组/多t网格只存scratch及再生命令/hash。
 
 ## 5. 已付严格结论与剩余责任
