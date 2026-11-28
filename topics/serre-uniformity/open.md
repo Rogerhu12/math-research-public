@@ -31,6 +31,14 @@
 R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)，故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ。全部中央值ℓ>p⁸时在affine上出现；共同cusp排除素ℓ>4D_p²（充分p⁸/144）仍有同一个affine点兼容全部labels并升Qℓ，D_p=g+p(p−1)(g−1)。继续小素真实值/p-local，不能再用大Chebotarev存在代affine空。
 
 
+### R1156：原四线整源已成，目标 bilinear pushout 继续
+
+[R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)已给原三主除子全部四线的实际连续 Zp(2) primitive：乘法根关系为 dρ，有限 wedge 证书允许必要的有限函数扩大；一般位置/模型常数/闭点 Cor 和 prime-to-p 辅助域全保。显式 K_(a,b) 支付 Cor res−次数的实际链同伦，不拆同陪集乘积。
+
+归一单位 hhat_c=Δ^(c²−1)h_c¹² 的 raw 整塔在所有 noncusp 内点延伸，因惯性落无挠 Zp(2)，H⁰(k(x),Zp(1))=0。ordered cup 与原源差 −12(c²−1)d(DT)，不能把 wedge 的 144 尺度误作 ordered 等式；完整三重残数另有 divisor 因子12。可先延伸固定配置 raw 塔再modp，无需先付整个 E[pⁿ] moment 分布。
+
+**当前准确门**：把指定 B_n（cyclic subgroup 的 θ′ norm）的 S/U relator 写成这些真实 raw bilinear forms 的线性 pushout，保 anti-diagonal correlation；给完整 GL2、Weil component、算术下降和同一原交换商根规范。原 Ψ_c 的反向平移相关不自动等于 B_n。完成后才能在原 M 用 H¹(M,Z₁)=0；尚未读出 F0 z12，也未排深盘/full Nns。继续实际 K3/trace-fixed Gersten 源和 R1155 的同根有限Frob读取。
+
 ### 原完整 47：已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；先取得具体同源比较再读jet，不能由有理公式直接约模p。
