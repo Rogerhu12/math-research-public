@@ -15,7 +15,7 @@ $$
 若还付清两主曲率绝对值 $\le K=10.4$，可给真斜率定量。令 $\varepsilon=\sup |F_\sigma\cdot e_x|/h$。只须处理 $0<\varepsilon\le10^{-4}$。写
 $$
  F_\sigma/h=w e_x+cV,\quad c=\sqrt{1-w^2},\qquad
- F_\ell=Ae_x+aV+bN,quad a=-Aw/c,\quad b^2=1-A^2/c^2 ,
+ F_\ell=Ae_x+aV+bN,\quad a=-Aw/c,\quad b^2=1-A^2/c^2 ,
 $$
 $V=(\cos\phi,\sin\phi)$ 为 $YZ$ 内的单位向量，$N=iV$。对两个真周标，$f(\ell)=x(\ell,\sigma_1)-x(\ell,\sigma_2)$ 满足 $|f|\le1.23d\varepsilon$。两端的 $f=f'=0$ 来自外给定真平袖和内给定真竖片。两径线都是源单位速测地线，故 $|f''|\le2K$。延零后仍有相同的一阶 Lipschitz 界。用步长 $t$ 的中心差得 $|f'|\le\|f\|_\infty/t+Kt$，于是
 $$
