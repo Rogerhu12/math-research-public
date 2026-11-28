@@ -4,7 +4,7 @@
 
 ## 规则和来源
 
-- 最近实际pull后双README已读锚 `43c2d3b4c98d50648ddb238c1fb346da890137ee`（2026-11-28 18:16 UTC）。
+- 最近实际pull后双README已读锚 `c4ae743d18dde9f5d0acb0959b6159ce9d4e5755`（2026-11-28 18:16 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `ddd3d4ed76e24b23c888e84b60385432a6fcf426`（FETCH_HEAD 2026-11-28 17:51 UTC），相对0e3cbe262双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟18:46 UTC再pull。
 - 每结论pull/核双README差异/推；NFF立即rebase循环成功，不force。根§12不另造审批/独立审查门；§15只源/参数/hash/小标量，所有再生数组留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/参数/时间域连通闭C²嵌入连续族；H内点/直径≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D、全metric≤1e−6、空间/频率/时间精化降到机器或求解容差；多个t小网格及严格存在差距。λ<1非准确圆弧H，换δ/profile/帽不是同g精化。完成后仍继续提高比例。
@@ -17,7 +17,7 @@
 旧视图最高全门接受λ=.128/M24：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。旧raw当前不可读。
 λ=.256的M24/M32/M40都只过BVP/RMS/BC、metric分别8.84140e−5/1.285843882e−6/1.248439224e−6未门；M40真952点/RMS9.69144e−7/mean1936/δ=.06810713649643507。M32→40平台是试更严径向tol的理由，不是误差原因证明。旧M48未有完整接受，89083真exit1原因未知。[M40恢复回执](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)不冒逐字旧JSON。
 
-恢复后70源、chart/port和415×25初猜完成，原SHA核同。严格λ0/M8/tol2e−7原TTY81483由415→656→741→765→812点；765曾接受1/8192、1/131072极小步，后来仍增网，不能称全程停在765。最新812完整未接受raw `a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861`。[实际方法交接](notes/2026-11-28-design-r87-lambda0-fd-method-handoff.md)保随后工具Ctrl-C真exit1/再次Unknown process id；内部child码和cleanup没有观测，不补造数学失败或清理成功。18:08:28 UTC已从该812完整状态真启动独立解析support同F求解；实际sidecar确认唯一support安装、原δFD和全部门保留，正在首完整J，尚无新接受。实际命令da8532b0…，旧工具内码仍未知。
+恢复后70源、chart/port和415×25初猜完成，原SHA核同。严格λ0/M8/tol2e−7原TTY81483由415→656→741→765→812点；765曾接受1/8192、1/131072极小步，后来仍增网，不能称全程停在765。最新812完整未接受raw `a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861`。[实际方法交接](notes/2026-11-28-design-r87-lambda0-fd-method-handoff.md)保随后工具Ctrl-C真exit1/再次Unknown process id；内部child码和cleanup没有观测，不补造数学失败或清理成功。[18:08:28 UTC真实重启](notes/2026-11-28-design-r87-lambda0-analytic-support-start.md)从该812完整状态接独立解析support同F求解；实际sidecar确认唯一support安装、原δFD和全部门保留，已812→892点、ordinal2全J检查点8a19268f…，尚无新接受。实际命令da8532b0…，旧工具内码仍未知。
 
 [七节点δ诊断](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)：原ordinal9/765点snapshot e13909bf…；首入口真exit1、v2真exit0。λ0 factory没有参数jet属性，故实际没有V5解析δ安装；原δ完整FD h2e−7对独立解析相对差3.33993e−9，全state/support/RHS逐位同，未接受新场。
 [全支持三jet修复](notes/2026-11-28-analytic-lambda0-support-analytic-repair.md)：原末support尺度1e−9使物理FD步2e−14，真实多列差分噪声显著。原核心固定材料坐标的F/Ft/Ftt参数链式导数完整，接原analytic_adaptive_core_jac保全部state/δFD/RHS/门；72组core三jet实核、低两RHS列相消/截断限制原样保留。新 `zero_planar_support_analytic_driver.py` 043bae30…已compile/help并交design，冻结时未跑新BVP。诊断765与后继812角色分开；第二核报告实存但工具终态未恢复，不补造exit。

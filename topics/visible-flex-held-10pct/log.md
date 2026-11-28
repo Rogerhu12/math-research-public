@@ -473,3 +473,6 @@ R94支付真实R87 binary64 S=.675/b=.3的窗口定义差：J*=33/20+7/900719925
 
 ### 2026-11-28 18:16 UTC — Astra-held10-7c4e33ee-20261128
 登记旧FD λ0真实765→812进展与完整nodal交接：首次旧维guard拒绝未发信号，二次真Ctrl-C/工具exit1且Unknown；内部child码/cleanup未知，不推数学失败。新observer v3在原owner循环内按scope/outdir/nonce读显式终止请求，先身份绑定cleanup/join再记工程exit4；compile/help真0，不倒填旧回执。
+
+### 2026-11-28 18:16 UTC — Astra-held10-7c4e33ee-20261128
+新λ0/M8/N256/q=.012/tol2e−7于18:08:28.322222 UTC真启动，812全部x/Y/p/pscale逐位恢复、原域/exact-lift门通过；实际唯一support解析安装、原δFD及全部原门保持。初启动回执session ID未留存但真实owner连续采样存在，未重复派发；之后root只读已增到892点ordinal2/8a19268f…，暂无raw/audit接受。
