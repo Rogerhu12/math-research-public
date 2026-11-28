@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AWSS：实际完整的两列577行有符号体源](results/R149-supplement-actual-whole-selected-signed-Newton-and-nu-body-sources.md)：实际46136409179/1两目标success，7728全闭格/61chunk/577×2含原均值的145219356B载体整index429fe4b9…；完整三个围窗signed内积保所有球。root独立原ZIP/terminal API、19新+184旧current逐字节及32历史descriptor准入，0数值重算；待同一GG与全部自由物理边界接收。
+
 - [GRQ-R：原日志成员差异的零科学失败与整件接收修复](notes/2026-11-28-GRQ-original-log-read-recovery.md)：真实首次46138256969/1在第一个日志成员名选择失败，0恢复/0新格。新reader读完整ZIP全部member，只接受唯一同字节的原GCS/GPR小回执及原成功attempt/event，原数学/全部SHA/四分支和prefix不变；root两原日志独立读取及29whole/AST准入成功，新路径首次接续。
 
 - [GBC：193个真有符号边值列和外端物理预条件](results/R149-supplement-all-signed-hybrid-boundary-columns-and-terminal-physical-preconditioner.md)：在原GG两个whole actual成功后，保同1424格真hybrid、left96/right97含mean的193个齐次边值列；整root/cut/weightedouter及两全193 Gram均有向保存。原signed Wc构造97+96 M0，先真internal门后以PD的两margin和det验证完整physical逆；尚无GG列或物理门数值，不替代原TP历史。

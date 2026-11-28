@@ -1,6 +1,6 @@
 # GRQ 原成功日志载体读取的真实失败及首次入口修复
 
-原首次 run [46138256969/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46138256969)，event `7445e773c297c47168b2f2e26832121a55718ff2`，job `140958293729`，在 2026-11-28 11:06:43 UTC 真实失败。失败为 `unique original scientific log`：GitHub 完整 ZIP 内使用实际编号后的 step/job 名称，没有代码预写的那一个精确成员名。失败处在第一个 `original()` 的完整文件选择，位于任何原 GCS/GPR 私有载体恢复以及所有新 GRQ 求积之前。因此原已付数学未重算，GRQ 完成子格为零。
+原首次 run [46138256969/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46138256969)，event `7445e773c297c47168b2f2e26832121a55718ff2`，job `140958293729`，在 2026-11-28 11:06:43 UTC 真实失败。失败为 `unique original scientific log`：原 GCS `/attempts/1/logs` 完整 ZIP 仅含 aggregate job 与 `system.txt`，缺代码要求的 step 成员。root 随后独立读取同一端点确认：38906 B / `a9e15dcda5bf5b713995908b26efefe11dc53b6c3faf4b21ffbff23035f992fa`，成员恰为 `0_complete-physical-cut.txt` 和 `complete-physical-cut/system.txt`。原 `/runs/logs` 档则含所需 step；原 GPR 的 attempt 档也保留完整 step。因此具体失败是 GCS 的 attempt archive 缺 step，原 aggregate 内的完整科学回执仍在。失败处在第一个 `original()` 的完整文件选择，位于任何原 GCS/GPR 私有载体恢复以及所有新 GRQ 求积之前。因此原已付数学未重算，GRQ 完成子格为零。
 
 完整失败日志 ZIP 为 79328 B，SHA256 `888e7d6ef50a3cebbf7a23ce146e972bdc083fcae7f224520ec8b31da5434384`。原失败和原工作流保持原样，真实 API 与完整日志身份见同名 JSON。
 

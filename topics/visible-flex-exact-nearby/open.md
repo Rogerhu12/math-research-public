@@ -306,3 +306,6 @@ GBC：在原GG两个whole actual成功后，保同1424格真hybrid、left96/righ
 
 
 GRQ-R：真实首次46138256969/1在第一个日志成员名选择失败，0恢复/0新格。新reader读完整ZIP全部member，只接受唯一同字节的原GCS/GPR小回执及原成功attempt/event，原数学/全部SHA/四分支和prefix不变；root两原日志独立读取及29whole/AST准入成功，新路径首次接续。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+AWSS：实际46136409179/1两目标success，7728全闭格/61chunk/577×2含原均值的145219356B载体整index429fe4b9…；完整三个围窗signed内积保所有球。root独立原ZIP/terminal API、19新+184旧current逐字节及32历史descriptor准入，0数值重算；待同一GG与全部自由物理边界接收。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
