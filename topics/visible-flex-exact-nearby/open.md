@@ -145,37 +145,14 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行及直接后继
 
-本节此前逐结论全文、所有原球/false/unknown及未付条件完整保留于 [本次完整原页](https://github.com/Rogerhu12/math-research-public/blob/da30e3a4d5837fbff75064faf09f56655819161b/topics/visible-flex-exact-nearby/open.md) 及其递归历史。第1–7节逐字未动，所有独立proof仍在results；索引压缩不撤义务，完成旧目标禁重。
+此前逐结论全文、全部原球/false/unknown/whole身份和未付条件保留于 [本次完整原页](https://github.com/Rogerhu12/math-research-public/blob/1a91ec19410f9a31a60f56fd201da69f652a5925/topics/visible-flex-exact-nearby/open.md)及其递归历史。第1–7节逐字未动。独立proof仍在results；已完成旧目标禁重，不从索引压缩取得新结论。
 
-- TC46117170011/1实际11:16:03终止，父child−9，三子退出码未观察；3612/7724全并集与四完整终态保。TCF46140528952/1仅补4112真缺格：11:59 assignment5 success、4原CPU门science0 failure、6job进行/10queued。须全18终态后聚合，只补实际剩余；原96列/5窗/4whole载体全保。
-- GG46135063788/1实际11:46:57 failure。原81 restored，新left81格接受，第82格strict centred denominator失败，right/source/2whole目标0。全89原packet与81graph journal和真actual61622B/183e1b22…、final execution68240B/f3de409e…保；新有向矩阵半径修复推进，不把失败当原PDE奇异。GSA保全部193/97+96与两mean，待真实GG全成。
-- H96R46135898111/1实际仍运行，只续原[728,2847)，原123whole/51history及7完整目标保；全成后PWA96原7目标消费，再合SC3/DCP18原18与CFC10。ASQ20真有限XD恢复/原H96validator桥已推，不改变原source/means/phase/cross。
-- GRQ46139062783/1实际11:41:57 success，3056闭子格覆盖原3026，128固定label与physical bins、4真实branches、0旧targets。全small2537B/ea20996a…及176771817B私gzip/219304395B raw的完整SHA保；全部signed幅原样传入后继，不解释上包为真实点值或已付高逆。
-- WSS46136409179/1实际两whole source成功，原7728格/61chunks/577×2与两means保。SAR/GBC/NPG接同GG和全部自由边界，WHN保完整负窗；FHC选定height回边须真单位方向逆和t<1，global root/Robin/phase/world仍待。
-- ASQ18R46141084735/1实际两组全96 signed列成功，BFP/DCP误差分别<.000876262/.000935663且独立means另保；ASQ21给原规范phase fibre全纯与全mixed jets。ASQ16 all-frequency已实际无新exception，整个ordinary高逆仍要真coupled Cphys门；GSW只付同一源，不能重复GSF交叠。
-
-其余全部开放义务见第1–7节及HANDOFF。原ν、两mean、phase、height、normalizer、Robin、同world frame、完整有限/无限Schur、非线性增广可和迭代、原两regular cap与最终一次冻结皆须实际完成。
+- TCF46140528952/1：原3612/7724外严格4112缺格；12:25仍1success、1原CPU门science0 failure、6进行/10queued。全18终态后只补真实余格，原96列/5窗/四whole均保。
+- H96R46135898111/1：12:25仍进行，只续原[728,2847)。原123whole/51history和7目标全成后PWA7，再CFC10合SC3/DCP18原18；ASQ20保真实同ρ/mean/physical XD。
+- GG46135063788/1完整失败保留。新GDC46144819361/1于12:28:20开始，先按原全部SHA恢复89packet/82frame/245matrix，再独立判定旧失败第82格；全1424双图、1425节点和四全源尚待。GSA需新真实全逆、全部port和两mean。
+- WSS两whole成功/7728格577×2源保；新ASQ23 run46144609049/1于12:25:45开始，实际3073负格两有符号腰值和2×2残差Gram待。ASQ22只给零根负body已付小接收，其余真实root/独立jump待。
+- GRQ全3056/原3026/四branch/128两种bins成功已准入。GLC修复46143574106/1与GIC46144088993/1均完整结束，但原所求范数门未通过；全输出/全私件身份保留，新更紧接收正在推进。
+- 全部phase、height、两mean、normalizer、Robin、同world frame、全频Schur与tame增广可和迭代仍须付；相位新实Sobolev入口不能替代原实际regular解。两帽、完整core、一次冻结后的固定metric族与第1节几何最终验收均未宣称。
 
 
-GLC：原11完整Nraw与同真实相位/势先合成全部G.7，再对两原参考列及两符号整Fourier接收；有限97..2^20全输出/均值和无穷幅另行保留。首发22pins/5AST通过，四闭径向格×完整角轮廓；原GSF交叠只计一次，全部非局部/端点/正侧与无穷剖面仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-ASQ22：真零根/零独立jump的负body sν给raw腰<3.65e−5、x<9.17e−6、全≥97 x<9.13e−7，Theta和真低恢复各<1.67e−5，两个独立mean各<2.5e−5。全高Theta<3.04/全域<3.395，15whole/24新Fraction一次通过；不冒充真物理root或其余匹配。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-AGRQ：实际46139062783/1 success，3056覆盖原3026/128两种角格/四branch/五场6阶归一jet全部保；真small2537B/ea20996a…，私176771817B与raw219304395B整SHA，原GCS/GPR仅必要whole恢复。真幅上包不是点值，完整B高逆/端点/正侧仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-GSA：同193/97+96与两mean的有符号affine列和所有独立port经NPG/FHC真逆给整cut/负窗单位响应；零port只定义affine常数，不当真匹配。原GG实际失败使metadata ready=false、manifest/workflow/新科学0；后继新图须自身完整合同。phase的2^-33000域与regular实际残差尚须兼容。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-GLC-R：原首次0科学失败已保。91个stage中90照原S.admit，唯一helper按原new_unsaved_helper/publication/source/manifest/runtime及两native边和整SHA接受；根97whole/3384150B通过。全部G.7/两列/频带/规则及whole门不变，新入口首次算未付格。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-GIC：所有n≥4194308在实际实剖面用两次原有序B分部及低阶余项再分部，完整频率盘和全部角导Cauchy后5/6插值得同源H^-5/3范数；全部两列/两sign/内部mean保。有限带与无穷自然输入正交，仅公共Ni左侧合并；首发27pins/2AST/5新比较通过，实际数值及其余全域源仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-ASQ23：原3073负格上两列完整193坐标含独立均值，自真实根零数据向腰解；原7728共同分割、源符号与接口保留。新Hermite试函数只由浮点提案定义，全部严格/根窗2×2有符号Gram控制真实误差，再以ASQ22接收Θ和均值；31整件身份核过，首次公开实际数值待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-GDC：逐真实物理格先合并全部有符号Fréchet历史再取范数，PSD补矩阵以定向Gram证明谱界；严格新分母作用于真实BEP。先整件恢复原89packet/82frame/245matrix，再单独保存原失败第82格的新判定，继而1424双向图/1425节点/四全源映射。109whole+21历史、完整proof和执行源核过；原GG失败保，三新实际目标待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+AGLC：实际46143574106/1全60自然行完成；97..2^20/128角格/四径向格/两真列均保。D=8330545.46837212、公共C97=591563440.8444782，D<.01及C97<5.5两充分门false；完整2042B/c6456d0c…及私15MB/21MB身份保。更紧频移接收待，未授全逆。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
