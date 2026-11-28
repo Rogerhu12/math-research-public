@@ -153,3 +153,7 @@
 ### R1073 §34：原全倒数权积联络的正上对数密度
 
 已证明：原全部倒数点与真实代数权构成一个限制标量的固定积联络；补齐实际 M/K 基只加平凡坐标。复叶闭包维至少 d+1、阶至多2，Herblot 下密度界给惰性或 M 全分裂素数中非零全分量曲率的上对数密度至少1/[2d(d+1)]。仅指定 c-Frobenius 的指定分量直接读原 ν20；未将这项替代原中央全和。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §100：固定103的原全域一次幂余数与独立参考素
+
+已证明：真实原103 Robert函数的全域一次权、平滑常数103²−103和全部整精度已核；在两点平面饱和后，先仅由原Mordell点除点扩张选择参考素，准确读出 z1=λpX′p 的 λp mod p^k。指定惰性有理素的真实共轭把完整两坐标化为一个范数一幂余数。目标余数对无穷p非平凡尚未证明。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。

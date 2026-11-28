@@ -192,8 +192,15 @@ BKO21 Theorem 6.1 的 torsion/特征理想结论给 \(\mathcal A_p\ne0\)。
 Dirichlet 定理给这种 \(\ell\)；\((\ell)\) 在反圆分塔作用平凡，
 而两曲线均有 \(\psi_j((\ell))=-\ell\)。
 辅助算子在下面两条目标路径中的值相同，为
-\(\ell^2+\ell^{-1}\equiv2\pmod p\)。
+\(\ell^2+\ell\equiv2\pmod p\)。
 所以所需的最后除法是实际整单位除法。
+
+更正（2026-11-28，R1067 §100）：本处原写 \(\ell^2+\ell^{-1}\)。
+按本文明确的目标角色 (19)，Kato 原 \(\Lambda^\#(1)\) 的特化
+\([g]\mapsto\chi_{\rm cyc}(g)/\rho_{j,m}(g)\) 在惰性 \((\ell)\)
+准确为 \(-\ell\)，故平滑因子是 \(\ell^2+\ell\)；
+亦见 Kato (15.9.1–2)。旧值的精确写法不对，两值均模 \(p\) 为二，
+因此此前只使用的单位性和相对赋值式不变；这里不是更换原对象。
 
 令 \(b_j\) 表示 Kato §15.8 中与 \(T_j^{-1}\) 对应的 CM
 Betti/étale 基，\(\zeta\) 表示同一个 cyclotomic Tate 基。

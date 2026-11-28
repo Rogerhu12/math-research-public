@@ -310,3 +310,115 @@ BKO §3.1.1–§3.1.2 的原全域类及共轭同构见 §98 的链接。
 原文中 Rubin 分解当时列为 conjecture，本题所需分解已由 BKO
 采用的证明支付，并非沿用未证假设。仍须对无穷多个 $p$
 证明真实 $z_1$ 或(BO3)配对非零。
+
+## 100. 固定103的全域一次Robert幂余数及由原Mordell点预选的辅助素
+
+沿§99，$E=E_{17}$、$T_E=T_pE$、$W_0=\operatorname{Hom}_{\mathcal O}(T_E,\mathcal O)(1)$、$W=W_0[1/p]$，$U=\gamma-1$，$z_1=(Z/U)|_0$。取相容CM Tate基$e$，其作用角色为$\rho:G_K\to\mathcal O^\times$；$e^{-1}$是未加Tate$(1)$的对偶基。置$j=k+1$、$L_j=K(p^j\mathfrak f_{17})$、$B_j=\operatorname{Gal}(L_j/K)$、$\mathfrak f_{17}=(34\delta)$。该层含$E[p^k]$和$\mu_{p^k}$，且$s(G_{L_j})\subset p^k\mathbb Z_p$。
+
+### 固定原函数、全部有限权及准确平滑常数
+
+所有$p,j$用同一辅助理想$\mathfrak a=(103)$。按canonical pair $(\mathbb C/\mathfrak m,1\bmod\mathfrak m)$，$\mathfrak m=p^j\mathfrak f_{17}$，原Robert函数$\;{}_{\mathfrak a}\theta$由
+$N\mathfrak a[0]-\sum_{R\in E[\mathfrak a]}[R]$及全部互素整数乘法的范数条件唯一规范。取实际逆值$u_j={}_{\mathfrak a}\theta(1)^{-1}\in L_j^\times$。复缩放到原格$\varpi_{17}\mathcal O_K$后，它是固定$E$上同一$\;{}_{103}\theta$在$\varpi_{17}/(p^j34\delta)$的逆值；格生成元的$\mu_6$变化与函数自然性同时运输。模数含多个不同素因子，所以$u_j$是全局单位，且在原射线塔范数相容。
+
+明确采用Wan–Xiang–Xu附录A的一套算术Frobenius标号：$\rho(\sigma_{\mathfrak l})=\psi_{17}(\mathfrak l)$，目标$W_0$的角色为$\rho_{\rm targ}=\epsilon_{\rm cyc}\rho^{-1}$。其(A.141)是
+$\;{}_{\mathfrak a}\mathbf z=(N\mathfrak a-\sigma_{\mathfrak a})\mathbf z$，
+(A.143)的群环专化为$[g]\mapsto\epsilon_{\rm cyc}(g)\rho_{\rm targ}(g)^{-1}=\rho(g)$。
+理想$(103)$实，反圆pro-$p$投影平凡；$103\equiv1\bmod34\delta$给
+$\psi_{17}((103))=103$。故**整条原反圆线**的平滑算子为
+\[
+ b=103^2-103\in\mathcal O^\times\qquad(p>211).
+\]
+这正是§99同一个未平滑标准$Z$：Kato §15.5以相同逆Robert值定义源，§15.6中(15.6.3)之前的定义除去$N\mathfrak a-\operatorname{Art}_{\mathfrak a}$；Proposition 15.9在每个有限反圆层、全部有限角色及同一Betti基下给BKO Proposition 3.1所引用的原互反式。因此可直接取BKO的Kato构造，非仅寻找一个有相似局部值的类。Kato(15.9.1–2)还直接给平滑因子$N\mathfrak a-\psi(\mathfrak a)\chi(\mathfrak a)^{-1}$，在此即$b$；见[原刊§15.5–15.9](https://archive.numdam.org/item/AST_2004__295__117_0.pdf)。
+
+**原位更正。** R303 §4.1的惰性辅助素数因子写成$\ell^2+\ell^{-1}$是该明确目标角色下的误值，应为$\ell^2+\ell$。对其全部混合权，$\epsilon_{\rm cyc}/(\psi^{-(2m+1)}\epsilon_{\rm cyc}^{m+1})$在$(\ell)$的值恒为$-\ell$，所以原算子准确给$\ell^2+\ell$。本次同时改正R303该行并保留更正说明；原用$\ell\equiv1\bmod p$，两个数皆模$p$为二，既有单位性与相对赋值结论不受影响。此处没有用新文的秩一BSD结论。[Wan–Xiang–Xu全文](https://arxiv.org/html/2611.29641v1)的(A.135)、(A.137)、(A.140)–(A.145)只作相同原源及角色方向的交叉核对。
+
+将$u_j$的Kummer类配$e^{-1}$，corestrict到$K$，取$(1+X)^{-s}$与$X^2=0$，再限制回$L_j$。Mackey的常项为$bZ_0=0$，一次项为
+\[
+ Y^g_k=-\sum_{a\in B_j}\rho(a)^{-1}s(a)[a]u_j
+ \in \bigl(L_j^\times/(L_j^\times)^{p^k}\bigr)
+                  \otimes_{\mathbb Z/p^k}(\mathcal O/p^k). \tag{BP1}
+\]
+单位群采用加法记号。Tate$(1)$由单位Kummer本身给出，不再乘范数。全射线群的驯部分和$p$两方向均保留；$j=k+1$保证角色和反圆指数确切通过该层。再乘原$e^{-1}$，其Kummer同态正是$\operatorname{res}(bz_1\bmod p^k)$。$B_j$阿贝尔，且存在在$W_0/p^k$上为$-1$的驯元素；Sah引理（或对该中央元素直接作余边界）给$H^1(B_j,W_0/p^k)=0$。所以(BP1)非零恰当$z_1\bmod p^k$非零。
+
+用$\mathcal O$的$\mathbb Z_p$整基$(1,\delta)$，将
+$\alpha_a=-\rho(a)^{-1}s(a)$写成$A_a+B_a\delta\bmod p^k$。定义
+$U_0=\prod_a([a]u_j)^{A_a}$及
+$U_1=\prod_a([a]u_j)^{B_a}$；整数提升只改$p^k$次幂。对避开坏位且在$L_j/K$完全分裂的素$v$及指定上方$w$，(BP1)在算术$\operatorname{Frob}_w$的两实际乘法坐标为
+\[
+ \bigl(\bar U_0^{(Nv-1)/p^k},\ \bar U_1^{(Nv-1)/p^k}\bigr). \tag{BP2}
+\]
+用$\mu_{p^k}$、$(1,\delta)$及$e^{-1}$回到$W_0/p^k$的同一$\mathcal O$坐标。一般$v$必须保两分量。Chebotarev作用于这两个实际单位Kummer扩张的正规闭包，给(BP1)非零等价于某$v,w$的(BP2)非平凡；这不证明该非零对无穷$p$发生。
+
+### 仅由原两个点预先选择参考素
+
+取原两个$\operatorname{End}(E)$独立有理点$P_1,P_2$（原秩证明见R294）。为不预借“生成全部$E(K)$”，置
+\[
+ M=E(K)/{\rm tors},\quad
+ M_0=\mathcal O_KP_1+\mathcal O_KP_2,\quad
+ M_{\rm sat}=M\cap(KP_1+KP_2).
+\]
+后两者是同一$K$平面的满格，指数有限。另去这个固定指数的素因子后，两点在$M/pM$的$\mathcal O_K/p$类独立：若组合落入$pM$，除$p$后的点仍在同一平面。两有理点的$\mathbb Q$独立蕴含$\mathcal O_K$独立，因将关系与复共轭相减可先消出虚部、再消实部。
+
+令$m$是两个非零$\log_{\omega_{17}}([p+1]P_i)$的最小赋值，置
+$\ell_i=p^{-m}\log_{\omega_{17}}([p+1]P_i)\in\mathbb Z_p$。至少一个$\ell_i$为单位，且
+\[
+ X_p=\ell_2\kappa(P_1)-\ell_1\kappa(P_2)
+\]
+是当地log为零的原始整全域类；原始性由上述模$p$独立和Kummer单射给出。沿BKO(3.1)的固定Weil/CM对偶及$K/\mathbb Q$复共轭，将它运输到$W_0$，记$X'_p$。具体，在$W$端的位$w$读它时，应将$T_E$端$cwc^{-1}$处的点值，以同一对偶基同构送回；Galois及系数共轭同时运输。反圆生成元取逆则一次派生另乘$-1$，整套选择同时改变。
+
+存在唯一$\lambda_p\in\mathcal O$使
+\[
+                         z_1=\lambda_p X'_p. \tag{BP3}
+\]
+若$z_1=0$取$\lambda_p=0$。若非零，(BO1)已给通常Selmer的$\Phi$维数及$E(K)$的$\mathcal O_K$秩恰为$2$，通常全$\Sha[p^\infty]$有限。此时上述平面才是全部有理MW，严格线是其log核；整$z_1$与原始$X'_p$迫使系数整。$X'_p\ne0$本身不推出$\lambda_p\ne0$。
+
+令$H=G_{K^{\rm ab}}$。它固定全部CM扭点。$\operatorname{Gal}(K^{\rm ab}/K)$阿贝尔且有在$E[p]$上为$-1$的元素，所以相应$H^1$为零；两个点的Kummer限制到$H$仍在$\mathbb F_{p^2}$上线性独立。联合像在原惰性惯性的全部$\mathbb F_{p^2}^\times$同时标量下稳定，故为$\mathbb F_{p^2}$子空间；没有非零线性关系使像为$\mathbb F_{p^2}^2$。闭加法像和Nakayama进一步给
+$H\to T_pE^2$满射。
+
+因而给定$k$，仅用$L_j$与两原点的$p^k$除点扩张就能预选$v,w$，使$X'_p(\operatorname{Frob}_w)$在$\mathcal O/p^k$中为单位。任一通过此参考门的素，无论未知目标的值为何，都有
+\[
+ (\mathrm{BP2})\text{ 经整基运输}
+   =b(\lambda_p\bmod p^k)X'_p(\operatorname{Frob}_w). \tag{BP4}
+\]
+右侧两个参考因子均可逆，准确返回$\lambda_p\bmod p^k$。若
+$\pi_v=\psi_{17}(v)\equiv1\bmod p^k$，点门可直接在有限域读：
+\[
+ \operatorname{Frob}_vR-R
+   =[(\pi_v-1)/p^k]\bar P_i,\qquad[p^k]R=\bar P_i .
+\]
+按$\ell_2,-\ell_1$组合并验精确阶$p^k$；位及CM基依上文一起运输。没有预先选择任何未知目标单位的非平凡Kummer根。
+
+### 固定两个参考自同构与准确的范数一单坐标
+
+甚至可对全部所余$p$固定两个参考自同构。$H\to\prod_pT_pE^2$的闭像逐$p$满；任意有限组模幂的像由异素$p$群无公共非平凡商而满，紧性给整个乘积满。各$p$取固定复共轭$c$不动的$\mathcal O$-Tate生成元$e_p$：模$p$的半线性不动空间是一维$\mathbb F_p$，用$(1+c)/2$提升一个非零不动元即可。可选固定$h_1,h_2\in H$满足
+$\kappa(P_j)(h_i)=\delta_{ij}e_p/2$，同时对所有$p$成立；这里只断言存在，不声称有有限字表达。
+
+置$\tau_i=ch_i\in G_{\mathbb Q}$。因为$P_j$有理且$H$固定扭点，
+$\kappa(P_j)(chc^{-1})=c\kappa(P_j)(h)$；由此
+$\tau_i^2$固定$K^{\rm ab}$且
+$\kappa(P_j)(\tau_i^2)=\delta_{ij}e_p$。
+在$L_j$、$\mu_{102p^j}$和两点的$p^k$除点的$\mathbb Q$正规闭包中按Chebotarev选Frobenius共轭于$\tau_i$，再选上方素使代表正是$\tau_i$。有无限多个有理素$\ell$满足
+\[
+ \ell\text{惰性于 }K,\qquad
+ \ell\equiv-1\bmod102p^j,\qquad
+ v=(\ell)\text{在 }L_j/K\text{完全分裂}.
+\]
+此时$\pi_v=-\ell$，参考门只用$E_{17}(\mathbb F_\ell)$中的原两点和整数$-(\ell+1)/p^k$。两列中选对应单位$\ell_2$或$-\ell_1$的一列即可通过。两个原标量在$\mathbb F_{\ell^2}$内给
+\[
+ \left((\bar U_0^{\ell-1})^{(\ell+1)/p^k},
+       (\bar U_1^{\ell-1})^{(\ell+1)/p^k}\right). \tag{BP5}
+\]
+其底数在范数一循环群。
+
+这里可准确支付第二坐标。$\bar{\mathfrak m}=\mathfrak m$，canonical pair
+$(\mathbb C/\mathfrak m,1)$在复共轭后对应同一pair；$(103)$的除子和全部范数规范也相同，唯一性给实际代数单位$cu_j=u_j$。又
+$\rho(cac^{-1})=\overline{\rho(a)}$、$s(cac^{-1})=-s(a)$，所以
+$\alpha_{cac^{-1}}=-\bar\alpha_a$。可选配对整数提升
+$A_{cac^{-1}}=-A_a$、$B_{cac^{-1}}=B_a$；固定轨道的$s=0\bmod p^k$，取零提升。因此在$L_j$中准确有
+$cU_0=U_0^{-1}$、$cU_1=U_1$。所选上方有理Frobenius在$L_j$恰为$c$，(BP5)进一步成为
+\[
+                \left((\bar U_0^{-2})^{(\ell+1)/p^k},1\right). \tag{BP6}
+\]
+先保全两整数分量，再以原pair和准确Frobenius证明这一分量可消；对一般$K$分裂素仍用(BP2)。
+
+本节固定了103的原函数、全部整一次权、原两点、预先可验的参考素、共轭及每个整精度。仍须对无穷多个$p$证明某个$k$的真实第一幂余数非平凡，不能以参考点满性代替此目标。
