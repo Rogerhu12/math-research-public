@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md），沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -117,7 +117,9 @@ R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β
 
 ### R1152：原全局中心常数的指定权八 Frobenius 读数
 
-[R1152](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)将原Θ∞的compatible finiteFL坐标与MT(Z)实际权八Heis商同源。正向Φp,1=τ(p)φ(1)取Ihara g∘f=g f(X,g⁻¹Yg)，词X⁴YX²Y=5h−5ab；所有Tate/两独立generator缩放在h/(ab)抵消。仅rs非零分支，原κ=z/(rs)等于整个已证整比值1+ζp,1(3,5)/(5ζp,1(3)ζp,1(5))的约化。实际Gaussian/cubic组合仍为z12−κx4y8、z12−κλA*y7/6；不约单个period分母，不宣κ固定值或其非零。继续指定双period有限读数、原F0中央项与深盘；零r/s完整七分支保R1151。
+[R1152 §§1–12](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)已付原Θ∞与MT(Z)同源、正向Ihara方向、权八完整乘法/导数表及原整缩放单位。Chatzistamatiou整估值控制整个无限尾，已刊Jarossay有限公式给 ap=−β3/3、bp=−β5/5、hp=(J+2β3β5)/25，其中β3=Bp−3、β5=Bp−5，J=Har_p(1,3,4)按递增指标。故r/s零准确等价对应β零，z零准确等价J+2β3β5零；七分支表均已显式有限化。rs非零时 κ=z/(rs)=6/5+3J/(5β3β5)，另有25Har_p(1,2,5)+2J=16β3β5。原全局常数不再是未指定输入。
+
+实际Gaussian/cubic组合仍为z12−κx4y8、z12−κλA*y7/6；通用最高因子3/8−κ=−3(11β3β5+8J)/(40β3β5)。这些有限式没有证明J、11β3β5+8J或实际中央组合非零，也没有排除whole p-disc；继续原F0中央项和全部深盘范围。未除零Bernoulli分支必须按R1152 §11完整表使用。
 
 ### R1154：原首标签与 minor 的联合有限 Gauss moment
 

@@ -279,3 +279,326 @@ $$
 - D. Jarossay，*Pro-unipotent harmonic actions and dynamical properties of p-adic cyclotomic multiple zeta values*，Algebra & Number Theory **14 (2020), 1711–1746**，DOI [10.2140/ant.2020.14.1711](https://doi.org/10.2140/ant.2020.14.1711)，[作者已刊对应版](https://arxiv.org/pdf/1610.09107)。作者版 §1.1.2–1.1.3，(1.1)–(1.4) 与 Notation 1.1.1 固定本文的 Ihara law、正向 $\Phi_{p,1}$、Tate scaling 和双指标顺序。本文没有把其另外未刊系列的计算公式当作黑箱。
 
 无数学程序执行；无已有窗口重算。主目标仍继续。
+
+
+## 8. 去掉无穷 period 表示：同一正向 Frobenius 的有限 harmonic 读数
+
+下面继续同一 $\Phi=\Phi_{p,1}$，置
+$$
+g=\tau(p^{-1})\Phi,\qquad
+(a_0,b_0,h_0)=(p^{-3}a,p^{-5}b,p^{-8}h)
+\tag{1152.28}
+$$
+为其在原权八商中的坐标。定义有限和，指标严格按递增求和变量排列：
+$$
+\operatorname{Har}_p(n_1,\ldots,n_d)
+=\sum_{0<m_1<\cdots<m_d<p}
+ \frac1{m_1^{n_1}\cdots m_d^{n_d}}.
+\tag{1152.29}
+$$
+它与 Gaussian 路线的首标签 $\mathcal H_p$ 不是同一记号。
+
+### 8.1 完整尾项的整估值
+
+令 $I_n\subset\mathbb Z_p$ 为所有 $p^j/j!$、$j\ge n$ 生成的理想。
+有
+$$
+I_uI_v\subset I_{u+v},\qquad
+I_n=p^n\mathbb Z_p\quad(n<p),\qquad
+I_n\longrightarrow0.
+\tag{1152.30}
+$$
+第一式来自二项式系数；后两式直接由 $j-v_p(j!)$ 得到。
+
+Chatzistamatiou（2017）Theorem 5.3、§5.4 给 Frobenius-fixed KZ path $K$ 的所有长度 $n$ 词系数属于 $I_n$。这包括 regularized words：两条到共同 good point 的整路径相乘，使用 $I_uI_v\subset I_{u+v}$ 即得两个 tangential ends 的同一界。
+
+由 (1152.13) 和 $\varphi(K)=K$，
+$$
+\Phi=\tau(p)K\circ K^{\circ-1}.
+\tag{1152.31}
+$$
+Ihara substitution 与 inverse 的每个固定权系数是更低或相同权系数的整系数多项式，不引入分母；因此 $\Phi$ 的长度 $n$ 系数仍在 $I_n$。进而
+$$
+(\Phi^{-1}Y\Phi)[W]\in I_{|W|-1}.
+\tag{1152.32}
+$$
+故 $g$ 的长度 $\le8$ 系数在 $\mathbb Z_p$；
+$h_0=a_0b_0+g[X^4YX^2Y]/5$ 也在 $\mathbb Z_p$。
+
+### 8.2 正确符号的有限公式
+
+已刊 Jarossay（2015）§2.1 定理及 §3 的系数证明，
+在 Jarossay（2020）(1.19) 的正向 convention 中，准确给
+$$
+p^w\operatorname{Har}_p(n_1,\ldots,n_d)
+=(-1)^d\sum_{\ell\ge0}
+(\Phi^{-1}Y\Phi)
+ [X^\ell YX^{n_d-1}Y\cdots X^{n_1-1}Y],
+\quad w=\sum n_i.
+\tag{1152.33}
+$$
+这里消费的是已刊定理，不把另外未刊系列的计算当作黑箱。
+
+为固定本篇方向与符号，重述该 $N=1$ 系数论证。
+标准 KZ 解在一个额外首块 $X^\ell Y$ 上的 $z^p$ 系数是
+$(-1)^{d+1}p^{-\ell-1}\operatorname{Har}_p(n_1,\ldots,n_d)$。
+Frobenius 水平身份将它乘 $p^{w+\ell+1}$，并与
+$z\mapsto z^p$ 的 KZ 解及 overconvergent Frobenius 解相乘。
+在 $z^p$ 系数中，没有正的中间 $p$ 倍指数，所以交叉项全空。
+后一个 KZ 解的 $z^p$ 项是其 $z$ 项；去掉末端 $X$ 的对数后，该项为
+$-\sum_{j\ge0}\operatorname{ad}_X^j(\Phi^{-1}Y\Phi)$。
+在以 $Y$ 结尾的指定词中，右端附 $X$ 的项不贡献，留下
+$-\sum_{j=0}^{\ell}(\Phi^{-1}Y\Phi)[X^jY\cdots Y]$。
+令 $\ell\to\infty$，已刊 §3 的 overconvergent 系数估值使剩余 Frobenius 解项趋零，正得 (1152.33)。这也说明为什么符号是 $(-1)^d$，以及为什么使用正向 $\Phi$。
+
+现在 $p>w+1$。将 (1152.33) 除以 $p^w$；
+每个 $\ell\ge1$ 项由 (1152.32) 落在
+$$
+p^{-w}I_{w+\ell}\subset p^{-w}I_{w+1}=p\mathbb Z_p.
+$$
+这些理想随 $\ell$ 趋零，所以整条尾部可约为零，而非仅截掉前几个可见项。
+$\ell=0$ 项则由
+$\Phi^{-1}Y\Phi=p^{-1}\tau(p)(g^{-1}Yg)$ 给
+$$
+\boxed{\quad
+\operatorname{Har}_p(n_1,\ldots,n_d)
+\equiv(-1)^d(g^{-1}Yg)
+ [YX^{n_d-1}Y\cdots X^{n_1-1}Y]
+ \pmod p.
+\quad}
+\tag{1152.34}
+$$
+本篇只用 $w=3,5,8$，故 $p>37$ 足够覆盖全部尾项与分母。
+
+## 9. 必需的 depth-two 生成元及两个实际 Bernoulli 读数
+
+用 $f_r=\operatorname{ad}_X^{r-1}Y$。原 $\sigma_3,\sigma_5$ 的所需部分为
+$$
+\begin{aligned}
+\sigma_3&=f_3+q_3,\qquad q_3=[Y,[X,Y]],\\
+\sigma_5&=f_5+q_5+(\text{depth}\ge3),\\
+q_5&=2[Y,f_4]+\frac12[f_2,f_3].
+\end{aligned}
+\tag{1152.35}
+$$
+这里不是把全部高 depth 当零；后文严格说明指定词只消费这些部分。
+
+第一式由原生成元的 antisymmetry 直接得到。第二式可由同一 motivic Ihara image 的 infinitesimal double-shuffle 付清。其五边形来自同一 motivic fundamental groupoids；Furusho（2011）Theorem 0.2、Corollary 0.3 将此 image 送入 double-shuffle Lie algebra。
+
+具体地，对 $1+\varepsilon\sigma_5$，记单项 zeta 读数为 $Z=-1$，并按降序词 $X^{r-1}YX^{s-1}Y$ 记
+$A=Z_{4,1},B=Z_{3,2},C=Z_{2,3},D=Z_{1,4}$。
+四条 shuffle/stuffle 等式的线性部分正是
+$$
+B+C+Z=0,\quad A+D+Z=0,\quad
+2A+B+C+D=0,\quad 6A+3B+C=0.
+$$
+涉及一个 leading $1$ 的 regularization 是一次项，两种 regularization 在此一致。
+解得
+$$
+A=-2,\quad B=\frac{11}{2},\quad
+C=-\frac92,\quad D=3.
+\tag{1152.36}
+$$
+Jacobi 将 weight five/depth two 的自由 Lie 部分化为
+$[Y,f_4]$ 与 $[f_2,f_3]$ 两个基元；在
+$X^2YXY,XYX^2Y$ 上的系数分别为 $(3,-3)$ 与 $(-1,3)$。
+故 (1152.36) 准确给 (1152.35)，没有除一个未知 period。
+
+(1152.35) 直接读出
+$$
+\begin{aligned}
+(g^{-1}Yg)[YX Y^2]&=-3a_0,\\
+(g^{-1}Yg)[YX^3Y^2]&=-5b_0.
+\end{aligned}
+$$
+例如第二式使用 $q_5[X^3Y^2]=-2$、$q_5[YX^3Y]=3$，
+两项相减为 $-5$。结合 (1152.34)，
+$$
+\operatorname{Har}_p(1,2)\equiv-3a_0,\qquad
+\operatorname{Har}_p(1,4)\equiv-5b_0.
+\tag{1152.37}
+$$
+
+这里的 Bernoulli 读数也可直接支付。对 $m=2,4$，
+在 $\mathbb F_p$ 中用 $i^{-1}=i^{p-2}$、$j^{-m}=j^{p-1-m}$，
+再用 Faulhaber，得到
+$$
+\operatorname{Har}_p(1,m)
+=\frac1{p-1}\sum_{k=0}^{p-2}
+ \binom{p-1}{k}B_k
+ \sum_{j=1}^{p-1}j^{2p-2-m-k}.
+$$
+本范围的 $B_k$ 都 $p$-整。内和唯一非零指数对应
+$k=p-1-m$，值为 $-1$；
+$\binom{p-1}{k}\equiv(-1)^k=1$、$p-1=-1$，
+故该有限和准确为 $B_{p-1-m}$。记
+$$
+\beta_3=\overline{B_{p-3}},\qquad
+\beta_5=\overline{B_{p-5}},\qquad
+a_p=\overline{a_0},\quad b_p=\overline{b_0},\quad h_p=\overline{h_0}.
+$$
+得到
+$$
+\boxed{\quad
+a_p=-\frac{\beta_3}{3},\qquad
+b_p=-\frac{\beta_5}{5},\qquad
+a_pb_p=\frac{\beta_3\beta_5}{15}.
+\quad}
+\tag{1152.38}
+$$
+
+## 10. 两个 weight-eight 词的完整共轭读数
+
+至权八，(1152.20)–(1152.22) 等价于
+$$
+[g]_8=h_0\{\sigma_3,\sigma_5\}
+       +a_0b_0(\sigma_5\star\sigma_3).
+\tag{1152.39}
+$$
+设
+$$
+\begin{aligned}
+V_{134}&=YX^3YX^2Y^2,\\
+V_{125}&=YX^4YXY^2,
+\end{aligned}
+$$
+并分别写 $V=YW_L=W_RY$。这两个词的 depth 都为四。
+计算 (1152.39) 的 depth-three 部分时，
+只用 $f_3q_5,q_3f_5$ 及其相同 depth 的导数项；
+更高 depth 输入至少给 depth 四，再与 $Y$ 共轭后 depth 至少五，
+不能贡献指定 $V$。
+
+以下表格列出所有乘法与导数项；每个括号依次为 $[W_L],[W_R]$：
+
+| 项 | $V_{134}$ | $V_{125}$ |
+|---|---:|---:|
+| $f_3q_5+q_3f_5$ | $(0,-9/2)$ | $(0,11/2)$ |
+| $D_{f_3}q_5$ | $(2,0)$ | $(-4,6)$ |
+| $D_{q_3}f_5$ | $(0,0)$ | $(-3,0)$ |
+| $\sigma_3\star\sigma_5$ | $(2,-9/2)$ | $(-7,23/2)$ |
+| $f_5q_3+q_5f_3$ | $(4,3)$ | $(-1,2)$ |
+| $D_{f_5}q_3$ | $(6,-20)$ | $(-4,8)$ |
+| $D_{q_5}f_3$ | $(9/2,0)$ | $(-11/2,0)$ |
+| $\sigma_5\star\sigma_3$ | $(29/2,-17)$ | $(-21/2,10)$ |
+
+这些数直接展开 (1152.35) 与
+$D_fY=Yf-fY$ 得到。例如
+$[Y,f_3]=Y^2X^2-2YXYX+2XYXY-X^2Y^2$；
+对 $V_{125}$ 的 $W_L=X^4YXY^2$，其唯一可插入的
+$XYXY$ 给 $2q_5[X^3Y^2]=-4$，
+而 $D_{q_3}f_5$ 给 $-3$。
+表保留了所有原导数，不只取 concatenation。
+
+还必须包括普通 inverse 的交叉项：
+$$
+\begin{aligned}
+[g^{-1}Yg]_9={}&[Y,[g]_8]\\
+&+a_0b_0\bigl(
+(\sigma_3\sigma_5+\sigma_5\sigma_3)Y
+-\sigma_3Y\sigma_5-\sigma_5Y\sigma_3\bigr).
+\end{aligned}
+\tag{1152.40}
+$$
+后面括号在 $V_{134}$ 的值为 $-3/2$；
+在 $V_{125}$ 的值为 $15/2+1=17/2$。
+代入完整表，得到
+$$
+\boxed{\begin{aligned}
+(g^{-1}Yg)[V_{134}]&=-25h_0+30a_0b_0,\\
+(g^{-1}Yg)[V_{125}]&=2h_0-12a_0b_0.
+\end{aligned}}
+\tag{1152.41}
+$$
+三层 harmonic 的符号是负号。定义
+$$
+J_p=\overline{\operatorname{Har}_p(1,3,4)},\qquad
+K_p=\overline{\operatorname{Har}_p(1,2,5)}.
+$$
+由 (1152.34)/(1152.38) 得到真实有限值
+$$
+\boxed{\quad
+h_p=\frac{J_p+2\beta_3\beta_5}{25},\qquad
+25K_p+2J_p=16\beta_3\beta_5.
+\quad}
+\tag{1152.42}
+$$
+这是从同一 Frobenius 来源读出的两个指定三重和，不是以任意多元矩阵代替原中央项。
+
+## 11. 原整缩放是单位，故完整退化分支也可检测
+
+§2 为 rational 比值只需 $c_3,c_5\ne0$。
+现在进一步支付其单位性。固定相同的 compatible $\zeta_{p^n}$：
+NSW (2.11) 的 Soulé Kummer character 第一层，
+逐项就是 R1148 §10 的原
+$\sum b^{r-1}\kappa(1-\zeta_p^b)\otimes\zeta_p^{\otimes(r-1)}$。
+若用 primitive projector/corestriction 写法，只多一个 degree $p-1$ 的单位。
+限制到 $\ker\chi_{\rm cyc}$ 在有限系数上也单射：
+tame 元素的 $\omega^r-1$ 为单位，故 cyclotomic quotient 的 $H^1$ 为零。
+
+NSW Proposition 2.2 / Lemma 2.4 的比例分母为
+$(r-1)!(1-p^{r-1})$，对 $r=3,5$ 和 $p>37$ 都是单位。
+因此标准 depth-one integral lattice 与原 $\gamma_r$ lattice
+在模 $p$ 上互为非零倍数。R1148 的全局 rank-one 生成性及
+$H^0(S_0,\mathbb Q_p/\mathbb Z_p(r))=0$ 排除了 integral $H^1$ 的 torsion，
+所以两整个 lattices 的比例确为 $\mathbb Z_p^\times$，不是只在 $\mathbb Q_p$ 中非零。
+
+由此 §2 的同一缩放满足
+$$
+c_3,c_5\in\mathbb Z_p^\times,\qquad
+(r,s,z)=(\bar c_3a_p,\bar c_5b_p,\bar c_3\bar c_5h_p).
+\tag{1152.43}
+$$
+不用猜它们的具体符号，也不借 Bernoulli-good 假设证明这条 lattice 身份。
+因此
+$$
+r=0\Longleftrightarrow\beta_3=0,\quad
+s=0\Longleftrightarrow\beta_5=0,\quad
+z=0\Longleftrightarrow J_p+2\beta_3\beta_5=0.
+\tag{1152.44}
+$$
+
+特别在 $\beta_3\beta_5\ne0$ 的原分支，(1152.24) 现在有完全有限的准确读数：
+$$
+\boxed{\quad
+\kappa_p=\frac z{rs}
+=\frac65+\frac{3J_p}{5\beta_3\beta_5}.
+\quad}
+\tag{1152.45}
+$$
+这支付了 §5 所欠的 arithmetic finite input，不再仅给一个无穷 period 表示。
+
+将 (1152.44)/(1152.45) 代入 R1151 的全部表，给出同一原 local 三槽
+$(A,B,H)$ 的完整 global compatibility：
+
+| 有限输入 | 准确充要条件 |
+|---|---|
+| $\beta_3\beta_5\ne0$ | $5\beta_3\beta_5H=(6\beta_3\beta_5+3J_p)AB$ |
+| $\beta_3=0,\ \beta_5\ne0,\ J_p=0$ | $A=H=0$ |
+| $\beta_3=0,\ \beta_5\ne0,\ J_p\ne0$ | $A=0$，且 $B\ne0$ 或 $H=0$ |
+| $\beta_3\ne0,\ \beta_5=0,\ J_p=0$ | $B=H=0$ |
+| $\beta_3\ne0,\ \beta_5=0,\ J_p\ne0$ | $B=0$，且 $A\ne0$ 或 $H=0$ |
+| $\beta_3=\beta_5=0,\ J_p=0$ | $A=B=H=0$ |
+| $\beta_3=\beta_5=0,\ J_p\ne0$ | $A=B=0$，$H$ 任意 |
+
+表中不再含一个未指定的 global central constant；$J_p$ 是 (1152.29) 的明确有限和。它仍不是某个固定有理数或已证非零量。
+
+原通用八次项中还得到
+$$
+\frac38-\kappa_p
+=-\frac{3(11\beta_3\beta_5+8J_p)}
+        {40\beta_3\beta_5}.
+\tag{1152.46}
+$$
+Gaussian/cubic 两个真正最高组合仍须把 (1152.45) 与原 $F_0$ 的
+$z_{12},x_4,y_8,y_7$ 一起计算。
+本篇没有证明这些组合非零或 whole $p$-disk 只剩 CM；
+完整原问题继续。
+
+## 12. 新增已刊来源与执行边界
+
+- A. Chatzistamatiou，*On integrality of p-adic iterated integrals*，J. Algebra **474 (2017), 240–270**，DOI [10.1016/j.jalgebra.2016.11.016](https://doi.org/10.1016/j.jalgebra.2016.11.016)，[作者版](https://arxiv.org/pdf/1501.05760)。亲读 Theorem 5.3、§5.4、Corollary 5.5；本篇由其 $I_n$ 界自证正向 Frobenius 与完整 harmonic 尾项的安全约化。
+- D. Jarossay，*Une notion de multizêtas finis associée au Frobenius du groupe fondamental de $\mathbb P^1\setminus\{0,1,\infty\}$*，C. R. Math. **353 (2015), 877–882**，[已刊全文](https://www.numdam.org/item/CRMATH_2015__353_10_877_0.pdf)，§2.1 定理及 §3 的 horizontal/coefficient 证明。现代正向标号按其已刊 2020 文 (1.19)；本文 §8.2 显式重述 $N=1$ 的系数、空交叉项与符号，未消费未刊一般计算公式。
+- H. Furusho，*Double shuffle relation for associators*，Ann. of Math. **174 (2011), 341–360**，[期刊全文](https://annals.math.princeton.edu/wp-content/uploads/annals-v174-n1-p09-p.pdf)，Theorem 0.2、Corollary 0.3 及 (1.4)–(1.5)。本篇只用其 infinitesimal weight-five relations；四个线性方程及全部词/导数读数在 §§9–10 自证。该文的群乘法 convention 与本文顺序相反不影响所用 infinitesimal coefficient identities；实际 bracket 与 exponential 始终由 (1152.12)/(1152.19) 自行计算。
+
+root 与 o1 分别纸读两个 weight-eight 词，并交叉核完整表。
+全部新结论均为纸面推导；没有执行数学程序或重扫旧 prime 窗口。
