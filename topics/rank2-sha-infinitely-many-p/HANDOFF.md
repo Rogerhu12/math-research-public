@@ -6,15 +6,15 @@
 
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线或条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库；非FF立即pull --rebase、读README差异再推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h。规则15禁存可重算日志/数据/矩阵，只留脚本/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则8独立结论入results/R编号；规则12不设冻结或额外复核门。公开16/私库15：子代理显式model=gpt-6.2-astra、effort=ultra；09:47起三条线均已按此接续。
-[整理前完整H](notes/2026-11-28-handoff-before-fixed-boundary-frobenius.md)逐字保留所有旧参数、边界、回执、更正与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
+[整理前完整H](notes/2026-11-28-handoff-before-global-rubin-square.md)逐字保留所有旧参数、边界、回执、更正与归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给接续。旧更正继续有效，不重做已登记结论。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:42:38 UTC实际pull --rebase，读取main f1b5be58b6204275d623d3a5cd892bd3953c5f0d；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:42:32 UTC实际pull --rebase至30b0c0cebf899d08684062ca0da4890ecd54a79d；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 10:45:41 UTC实际pull --rebase，读取main 8e1dbea18db395f0fde31d73f9e6cdf768361ff8；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 10:45:33 UTC实际pull --rebase至79d06914f21589a77f96f2c1806ff9ee38126b77；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3230/46407897B/treea9a49e0a71b6f5b3ac3059c2567e7bf0c030fb0c；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3230/46419782B/tree744263382b05849cb9222a13bd25f25b99b3296a；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -37,10 +37,13 @@ R1062–66的全部原source/CM除法/Na=17规范、fullh/old/period/Haar/负二
 §§35–36两固定3F2受迫周期把I_p写成固定四盖同一fJb^(−5/2)的x^(p−1)读数；两cusp留数+全Hodge过滤证每个指定特征的完整H¹一维纯边界，任意有限盖非零留数排除代数原函数。
 **[§§37–38后续全文](results/R1067-original-first-wild-fixed-geometric-tail.md)(J1–J6)**已付实际低热卷积及≤(p+1)/4窗全部整分母；两节点b⁴=−18的定向分支将纯边界Frob准确识为p²及非分歧系数作用。未将此边界算子当全f卷积或原primitive值的Frob身份。下一补全局过收敛比较及规范原函数整性，仍保完整三位来源。
 
-## O7 同一原点、全边界及真实整测度
+## O7 原中央、全层与原 Rubin 整平方
 
-[R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)原E17同chargeη=A/Ā的Miller整比/绝对相位付有限p项去极迹、Volkenborn极限和完整M=(Tη−1)/W整等距逆；Y∞=dlogη·Z∈pO[[W]],Z=M⁻¹B，Z(0)=j/(dlogη)。全部首层值/jet/Q^ℓ与深层全orbit返同原B，p项迹整像恰QO；头两位仅回R710，不从j=0推Q|B。
-**§§11–14新付整Cη、全奇导子谱及µ/λ。**CηΣc_nX^n=Σc_n(Tη−1)^n1为整线性等距、保原点、交织X/D；L=Cη⁻¹Z，Cη(XL)=WB。每层全部primitive p^(2i−1)根一重无遗漏，原ℓλ(1)由真实循环性非零，所有orbit相位保留。两个Eisenstein整商等距给每层vL=vZ=vB、µλ保持。首层xL=(v_Tw_T/G_T)^m·T_H/d，完整物理ϑ⁶/√d/χ²接同Katz质量及原A_p(tν)赋值；不相认X与tν。**§§15–17高层已付**：原范数17/两模型全gauge、2p^(2i)完整Klein标记、d·p^(i−1)正交本征向量、Yang原c(0)及全非p因子给p^(−i)；原signed period估值相消，全部层vA_p(tν)=2v((λ−1)L)。原µ=0遂得µ(B34)=0、λ_p=2(1+ord_W B̄34)。不相认变量，不从赋值相等偷推函数单位比。**§§18–20同谱已付**：原J(η^(du)−1)=17⁻¹(17/a^d)^u J_p/J0,p，全部挠点Hermite本征λη^k返原Hall全germ，整Klein/T_g与物理因子保留。R707给首Hall非零时λ_p≤(3/2+o(1))(p−1)，零时≥2p、中央bad时≥2p+2；两支尚未排任一。下一全层绝对period/整平方及实际B̄阶数。
+[R1070全文](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md) §§1–10在原E17同chargeη=A/Ā构造完整Miller/去极迹/Volkenborn解，M=(Tη−1)/W整等距可逆；Y∞=dlogη·Z∈pO[[W]]、Z=M⁻¹B、Z0=j/(dlogη)。首层全jet、深层orbit、Q^ℓ及p项迹整像全保，头两位只返R710，不从j0推Q|B。
+§§11–14给CηΣc_nX^n=Σc_n(Tη−1)^n1整线性等距，L=Cη⁻¹Z、Cη(XL)=WB；全部primitive层谱一重穷尽，循环性付ℓλ1非零，两个Eisenstein整商等距给全层vL=vB及µλ保存。首层原Hall/Katz物理ϑ⁶/√d/χ²全部接回。
+§§15–17原norm17全gauge、2p^(2i)Klein标记及d·p^(i−1)正交向量，Yang全归一给p^(−i)；原signed period估值相消，全层vA_p(tν)=2v((λ−1)L)，得µ(B34)=0、λ_p=2(1+ord B̄34)。
+§§18–20原J(η^(du)−1)=17⁻¹(17/a^d)^u J_p/J0,p；全部Hermite本征λη^k返原Hall全germ，原物理因子保留。R707给非零首Hall λ_p≤(3/2+o(1))(p−1)，零时≥2p、中央bad时≥2p+2；两支未排。
+**§§21–23精确整平方已付**：Klein/Miller剩余阶|8及真实norm17逼近给D_a=s1/s17^17，J精确为原全Klein比；原复共轭给J_ā=(1+X)^−sJ_a。BKO同一椭圆单位类/Betti/ω比较含ϑ⁻¹，实际Artin变量τ整自同构；所有奇层精确值加整有界性得(A_p)=(J_a∘τ)^2，全部非算术权零点也偶重。下一实际B̄几何阶数及跨p低层非零，不能以整平方代中央simple。
 
 ## 原厚点的新完整算法
 

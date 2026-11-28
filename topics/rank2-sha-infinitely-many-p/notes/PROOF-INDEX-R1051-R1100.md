@@ -558,3 +558,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1070 §§18–20：原中央与Hall的同一整权函数及准确间隙
 
 真实原点jet/全部挠点Hermite泛函在Tη下分别本征η^k、λη^k，Cη循环性给非零参考和。原J谱满足J(η^(du)−1)=17^(−1)(17/a^d)^u J_p(u)/J0,p(u)，原完整首Hall权亦为同一J的λ附近germ，全部Klein、T_g、aϑ和步长因子保留；没有复活已否的普通阶乘cross延拓。结合R707原高度，非零首Hall迫λ_p=2(p−1)v(T_H)≤(3/2+o(1))(p−1)；首Hall零则λ_p≥2p，原中央坏时≥2p+2。充分大p首Hall零恰等价λ_p≥2(p−1)，仍未选择其中分支。 [同编号全文](../results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)。
+
+### R1070 §§21–23：全部绝对常数与原 Rubin 整函数的平方
+
+原Klein准周期和完整Miller核证明每层真实单位剩余阶整除8；同模8且norm趋17的实际CM元因此精确给D_a=s1/s17^17，全部谱坐标常数消去。复共轭及ā/a=ζη^s给J_ā=(1+X)^(−s)J_a。BKO Prop3.1的同一原椭圆单位类、实际Betti/CM周期及deRham自然性支付原A_p有限值，含ϑ^(−1)和完整primitive Euler；真实Artin整变量τ(T)=(1+T)^(−1/b)−1后，以整有界性及全奇层无限特化得(A_p)=(J_a∘τ)^2于O[[T]]。所有非算术权零点亦偶重；原中央及首Hall是否消失仍未由此决定。 [同编号全文](../results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)。

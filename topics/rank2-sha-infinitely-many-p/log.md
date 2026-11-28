@@ -286,3 +286,11 @@ root逐项手核geometry_ultra中央/全部挠点本征jet与循环性，原Mill
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 10:42:19 UTC到ecd0ed3de46bd8eb768f6c3311d4babc6e686f4c，私库2026-11-28 10:42:10 UTC到58d162d54abd317ff8942a233bb5941a6f8cadbd；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3230/46407897B/treea9a49e0a71b6f5b3ac3059c2567e7bf0c030fb0c，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 10:42:38 UTC到f1b5be58b6204275d623d3a5cd892bd3953c5f0d，私库2026-11-28 10:42:32 UTC到30b0c0cebf899d08684062ca0da4890ecd54a79d；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3230/46407897B/treea9a49e0a71b6f5b3ac3059c2567e7bf0c030fb0c，无>5MB。
+
+### 2026-11-28 10:44 UTC：R1070 原全谱整平方
+
+root完整复核全部绝对period稿：Klein共线2Λ准周期、剩余阶|8、norm17且同模8逼近、D_a精确模型因子、复共轭反演与原Artin参数、原类加权逆特化和Weierstrass无限特化。亲读BKO出版页1430–1431/1436及1431截图确认barϕ（文本提取会漏横线）、真实coLie靶、per(ω)=Ωb_E与Def3.13。不由赋值相等推平方。原中央/Hall篇已实推ccce648fe0c14f3c6c114d9516384e597860a6d0（10:42:44 UTC），两次非FF即时双pull后第三次成功；四README无变化。整理前H9727B逐字归档notes/2026-11-28-handoff-before-global-rubin-square.md。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:45:17 UTC到dfb9991cce548ba258ab0f658180628cc14cb9e2，私库2026-11-28 10:45:02 UTC到abc3b1c221a85c6c387db8657cd4567923150451；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3230/46419782B/tree744263382b05849cb9222a13bd25f25b99b3296a，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 10:45:41 UTC到8e1dbea18db395f0fde31d73f9e6cdf768361ff8，私库2026-11-28 10:45:33 UTC到79d06914f21589a77f96f2c1806ff9ee38126b77；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3230/46419782B/tree744263382b05849cb9222a13bd25f25b99b3296a，无>5MB。

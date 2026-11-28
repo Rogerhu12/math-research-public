@@ -616,6 +616,82 @@ $$
 $$
 若该迹为零，R1067(8) 已给 $\lambda_p\ge 2e_{\rm cent}+2(p-1)\ge2p$。反之若 $\lambda_p\ge2(p-1)$，前述严格单元主导已排除非零迹。因此充分大的允许 $p$，该迹是否为零等价于原 $\lambda_p\ge2(p-1)$，该阈值的上方实际从 $2p$ 开始；原中央坏且迹零时从 $2p+2$ 开始。以上间隙应用的是同一原迹的实际高度，保留两支并未选择其中一支。
 
+## 21. 准周期剩余阶与准确范数十七的全部绝对常数
+
+维持上述原两模型、$\mathfrak C$、$D_a$ 及固定 $p$。本节强调 $a$ 的选择，记 $V_a=\mathfrak C_{17,34}^{-1}D_a^2$、$\mathscr J_a=X\mathscr L_{34,\eta}/(V_a\mathscr E_2)$。对真正 primitive $Q$、$p^iQ=0$ 和同一原整数标签 $v_0$，置
+$$
+ s_b(Q,v_0)=T_{g,b}(Q)\,k_b(v_0)/v_Q .
+$$
+上一节已付它为单位。现精确支付其剩余类的阶。对每个正整数 $l$，取 $n=1+2p^il$，则 $nQ=Q$，且 $\mathfrak k_b(nq)=\mathfrak k_b(q)$：位移在 $2\Lambda_b$ 中，无半特征号，并与 $q$ 在一条实直线上，其交错配对为零。于是 $r_n(Q)=\mathfrak k_b(q)^{1-n^2}$。从 $n$ 素于 $p$ 的完整 Miller 核乘积及 $v_Q^2x(Q)\equiv1\bmod\mathfrak m$ 知
+$$
+  r_n(Q)v_Q^{n^2-1}\equiv n\equiv1\pmod{\mathfrak m}.
+$$
+后一个模 $\mathfrak m$ 的首系数对每个 $n$ 分别成立，无需对核点数量取非一致的误差和。因 $T_g\equiv1$，$\overline{s_b}^{\,n^2-1}=1$。对每个奇素数 $l_0\ne p$ 可选 $l$ 模 $l_0$ 避开 $0,-p^{-i}$ 两类，使 $l_0\nmid n^2-1=4p^il(1+p^il)$。对 $l=2$ 该数的二进估值恰为3。余域乘法群元素阶素于 $p$，故
+$$
+\overline{s_b(Q,v_0)}^{\,8}=1.
+$$
+这是全部 $i$ 的同一固定界。
+
+取 $\alpha_j\in\mathbf Z[\omega]$，$\alpha_j\equiv1\bmod8$，$\alpha_j\to a$，$N_j=\alpha_j\bar\alpha_j\to17$。CRT 保证可同时实现这些要求。特别 $N_j\equiv1\equiv17\bmod8$。任意当前固定 $s=s_b(Q,v_0)$ 皆有 $s^{N_j}\to s^{17}$：$s^8$ 是近一单位，$(N_j-17)/8\to0$，此处用连续整幂，不预设原单位无 Teichmüller 部分。取参考整数标签 $v'_0=\widehat a v_0$，其中 $\widehat a\equiv a\bmod p^{2i}$、$\widehat a\equiv1\bmod2$；$j$ 充分大时 $\alpha_jv_0$ 与 $v'_0$ 模 $2p^{2i}$ 相等。用原 $q_1=\vartheta q_{17}$ 的同一模型运输，有 $k_1(v_0)=\vartheta k_{17}(v_0)$，且对每个这些 $\alpha_j$ 原复 Miller 函数恰为 $k_1(\alpha_jv_0)/k_1(v_0)^{N_j}$。整因子为原两 $T_g$ 及严格参数之比。因此在 $Q$ 处完整地有
+$$
+ D_{\alpha_j}(Q):=\left.\frac{L_1([\alpha_j]\iota v)}{L_{17}(v)^{N_j}}\right|_Q
+ =\frac{s_1(Q',v_0')}{s_{17}(Q,v_0)^{N_j}},\qquad Q'=[a]\iota Q .
+$$
+此式左侧按整 Miller 比的延拓理解。其整性及逐系数趋向 $D_a$ 来自 R1062(G34),(G35)，乘 $T_{g,1}([\alpha_j]\iota v)/T_{g,17}(v)^{N_j}$ 以及两模型 $\vartheta v/\iota v$ 的准确幂即可。每个系数只涉及有限次代数运算，且整尾在包含当前 $v_Q$ 的任一严格闭盘一致趋于零。令 $j\to\infty$，得到
+$$
+\boxed{D_a(W_Q)=s_1(Q',v'_0)/s_{17}(Q,v_0)^{17}.}
+$$
+此式也说明，虽然两种严格 LT 坐标值或单个 $T_g$ 值未宣称是高层全局代数数，以下实际标量在同一嵌入中精确相消：$K_{17,34,Q}/(D_a(W_Q)^2K_{1,2,Q'})=1$。从而每个原允许的 $\lambda$ 都有
+$$
+\boxed{\mathscr J_a(\lambda-1)=\mathscr S_{17,34,i,\lambda}(v_0)/\mathscr S_{1,2,i,\lambda}(\widehat a v_0).}
+$$
+更换 CRT 代表保上述 $2p^{2i}$ 精度。若原 Hall 和另行规定非单位初始权，则仍须同乘其实际种子字符。全角完整采样的上式无需额外根单位。
+
+## 22. 原两复共轭的精确乘积
+
+把 $a$ 替成 $\bar a$ 同作。固定上述数的复嵌入，原 $\overline{\varpi_b}/\varpi_b=-\omega$。在完整 Klein 和中，复共轭把原根 $\lambda$ 换成 $\lambda^{-1}$，把 $\widehat{\zeta\eta^l}$ 换成其共轭，后者模 $2p^{2i}$ 是 $\widehat{\zeta^{-1}\eta^{-l}}$。两次反演使重新编号后仍为同一个 $\lambda^{-l}$。当 $l$ 离开 $[0,H)$，真实采样的准周期 $\epsilon_i=\lambda^H$ 与外权相消。故两种子在共轭后恰为 $-\omega\bar v_0$ 与 $\widehat{\bar a}(-\omega\bar v_0)$；可取 $\widehat{\bar a}=\overline{\widehat a}$。由上一框对任一种子都成立，目标和的复共轭与参考和的复共轭之比恰为 $\mathscr J_{\bar a}(\lambda-1)$。这个论证对已识别为全局代数数的数值作复共轭，没有将复共轭未经说明地延到 $\mathbf C_p$ 的一般系数。
+
+令 $h=\bar a/a=\zeta_0\eta^s$，$\zeta_0\in\mu_d,s\in\mathbf Z_p$ 唯一。对完整 $U_h$ 有 $U_{\zeta_0}=1$。取普通非负整数 $s_j\to s$，$T_{1,2}^{s_j}1=U_{\eta^{s_j},1}^2\to U_{h,1}^2$ 在每个严格闭盘上一致收敛，理由是原整系数界和逐系数连续。$\mathfrak C_{1,2}^{-1}$ 将这些项送到 $(1+X)^{s_j}$，在同一严格谱盘上其极限为 $(1+X)^s$。由 $D_{\bar a}^2=D_a^2(U_{h,1}^2\circ\Psi_a)$ 和原整交织，准确有
+$$
+V_{\bar a}=V_a(1+X)^s,\qquad \mathscr J_{\bar a}=(1+X)^{-s}\mathscr J_a.
+$$
+因此 Yang 的原两个绝对平方在全部这些导子上的比是
+$$
+\boxed{\frac{L(1,\psi_{17}\nu)/\varpi_{17}}{L(1,\psi_1\nu)/\varpi_1}
+  =6\kappa_0\,\lambda^{-s}\,\mathscr J_a(\lambda-1)^2,\qquad \kappa_0=48940416.}
+$$
+从实周期换到原 $\varpi_b$ 两边均乘 $1-\omega$，共同的 $p^{-i}$ 已在比中准确消去。没有假设 $17$ 在 $\mathbf Q_p$ 中是平方。
+
+## 23. 全局原 Rubin 整理想的平方身份
+
+直接对 R303(16) 的原两条类使用 BKO JIMJ 原文的对偶指数，不混用两个模型的局部基。两曲线定义于 $\mathbf Q$，有相同 CM 域 $K$、$h_K=1$，故 $H=K$；当前 $p$ 惰性且两模型均好约化。BKO §3.1.1 以 $\operatorname{per}(\omega_b)=\Omega_b b_{E_b}$ 规定该原 Néron 微分及 Betti 向量的 CM 周期。R303(9)–(10) 所选相容 primitive CM 基给 $\Omega_b=\varpi_b$，且 $F_\vartheta^*\omega_{17}=\vartheta^{-1}\omega_1$。BKO Proposition 3.1 (3.2),(3.3) 对每条标准椭圆单位类 $z_b$、原塔第 $n$ 层和每个有限角色 $\chi$ 给
+$$
+ \sum_{\sigma\in\mathrm{Gal}(K_n/K)}\chi(\sigma)\exp^*\operatorname{loc}_p(z_{b,n}^{\sigma})=
+ \frac{L_{p\mathfrak f_b}(1,\bar\psi_b\chi)}{\varpi_b}\,\omega_b.
+$$
+靶是 $\operatorname{coLie}(E_b/K_p)\otimes K_{n,p}$（允许相同角色系数扩张），所以局部整同构 $F_\vartheta^*$ 与 $\exp^*$ 的自然性正给上述 $\vartheta^{-1}$，不需比较未指定的两个 Coates–Wiles 导数。BKO Definition 3.13 (3.14) 使用的 signed 整系数就是 $\operatorname{loc}_p z_b$ 在整基中的坐标，故此处的 $\xi_b=\operatorname{loc}_p z_b$ 是 R303 明指定的类。对 $F_\vartheta^*\xi_{17}=\mathcal A_p\xi_1$ 在第 $n=2i-1$ 层施加上述同一加权对偶指数。若群环项为 $g$，和中以 $\sigma g$ 换元正产生 $\chi(g)^{-1}$；故群环系数特化为 $\chi^{-1}(\mathcal A_p)$。此和没有分母 $p^n$，两边用相同全和。取 $\chi=\nu^{-1}$；对原两个 CM 角色，变整理想 $\mathfrak a\mapsto\bar{\mathfrak a}$ 将 $\bar\psi_b\nu^{-1}$ 的 $L$ 函数准确变成 $\psi_b\nu$ 的 $L$ 函数。$p$ 处 $\nu$ 分歧，$\psi_b$ 未分歧；$\mathfrak f_{17}=(2\delta\cdot17),\mathfrak f_1=(2\delta)$ 各自的每个素因子均为原 primitive 角色分歧位，$\nu$ 于这些点平凡。故 $L_{p\mathfrak f_b}$ 没有另删非平凡 Euler 因子。原参考和已证非零，因此在相容 CM 基下准确得到
+$$
+\mathcal A_p(t_\nu)=\vartheta^{-1}
+\frac{L(1,\psi_{17}\nu)/\varpi_{17}}{L(1,\psi_1\nu)/\varpi_1}.
+$$
+如选择不同实际格生成元，R303 的 $\mu_6$ 变基只给固定单位。此论证从原全类而来，也解释了为何仅由两个局部周期估值相同不足以得到整函数平方。
+
+局部类域论给 $\Gamma$ 中 $\gamma$ 的一位主单位代表 $g$（与原 Artin 约定相配），$g/\bar g=\eta^b$，$b\in\mathbf Z_p^\times$，因为该反不变主单位格上一维的平方映射为整自同构。若保 tame 代表，它仅再给一项 $\zeta\in\mu_d$，对目前角色无值。故 $\nu(\gamma)=\theta_\lambda(g/\bar g)=\lambda^{-b}$。记
+$$
+\tau(T)=(1+T)^{-1/b}-1.
+$$
+这是有整逆的同一权群坐标变换；在 $T=t_\nu$ 恰给 $\lambda-1$。上述原全类及全局周期式对所有 $i\ge1$ 及相应 primitive 本征角色给
+$$
+\mathcal A_p(t_\nu)=\left.6\kappa_0\vartheta^{-1} (1+\tau(T))^{-s}\mathscr J_a(\tau(T))^2\right|_{T=t_\nu}.
+$$
+两边是同一非分歧系数环的完整整幂级数。非零整幂级数除去其 $p^\mu$ 后为 distinguished 多项式乘整单位，在开单位盘至多有限个零。不同 $i$ 的 $t_\nu$ 有无穷多个不同阶，故上面是整幂级数身份；这一步确实使用整有界性。独立于 Betti 及任意 signed 整基变更，原系数具有
+$$
+\boxed{(\mathcal A_p(T))=(\mathscr J_a(\tau(T))^2)\quad\text{于 }\mathcal O[[T]].}
+$$
+所有原几何零点（包括非算术权）的重数都翻倍。特殊化回 $0$ 及第一个 wild 点给上一节同一物理中央与 Hall 费用；原两个门的共同消失与否仍由具体固定来源判定。
+
+外部主文准确定位：Yang 作者稿 p.13 Thm 1.11 在(1.16)下定义 $S_1$ 及 $c(s)$ 的惰性因子 $(1+q_v^{-2s-1})^{-1}$，p.17 Cor.2.4 (2.9)给任一该角色的范数一向量，p.19 Thm 2.6 (2.19)将 $c(0)L$ 等于 theta 平方，p.24 (2.29)后及 Thm 2.15 再写非分裂分歧处向量选择。因此解出 $L$ 的新增因子是 $(1+p^{-1})/(dH)=p^{-i}$。BHKO 正文 §4.4.1（论文页29–30）先定义局部 $\mathcal F,T,V^*_\infty,\delta_\chi$，Thm.4.14 给全局各自真实 CM 周期的插值，Thm.4.15 的一般整基估值只依 $p$ 及角色阶，Thm.1.5/6.10 给当前 Q-curve 的 $\mu=0$。本节精确身份直接使用 BKO *J. Inst. Math. Jussieu* 23 (2024), pp. 1430–1431 §3.1.1 及 Prop.3.1 (3.3)，p.1436 Def.3.13 (3.14)。 [Yang 原文](https://people.math.wisc.edu/~tonghaiyang/thetashort.pdf)，[BHKO 原文](https://arxiv.org/pdf/2408.13932)，[BKO 出版原文](https://catalog.lib.kyushu-u.ac.jp/opac_download_md/7330258/7330258.pdf)（[DOI](https://doi.org/10.1017/S147474802300021X)）。
+
 ## 来源
 
 - [R663](R663-original-lubin-tate-residues-and-closed-boundary-equivalence.md)：本文所指原来源、坐标、连接或角色规范。
