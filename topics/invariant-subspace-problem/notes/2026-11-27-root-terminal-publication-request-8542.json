@@ -1,18 +1,15 @@
 {
-  "message": "ISP: publish correct Phi C77 certificate; first t-parameter original N1 input",
-  "parentCommit": "9f38165d207a93492b1ffe45ed905b8b31566f3c",
+  "message": "ISP: close entire W b0 cross-zero branch and prove global determinant-one I4",
+  "parentCommit": "a51e4375917a88b73648f9692506ed096402e26b",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-NPV-five-whole-leading-C77-and-thirteen-generators.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-NPV-five-whole-leading-matrix-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-t-parameter-original-N1-slope-model-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-t-parameter-original-N1-slope-model-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-phi-t-n1-slope.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Phi-C77-first-t-N1-1835-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-C77-first-t-N1-1835-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-cross-zero-complete-original-weight-unit-and-global-det-one-I4.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-cross-zero-three-entire-QQ-fields-original-return-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-entire-cross-zero-1840-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-entire-cross-zero-1840-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-t-n1-slope.yml"
-  ]
+  "dispatchWorkflows": []
 }
