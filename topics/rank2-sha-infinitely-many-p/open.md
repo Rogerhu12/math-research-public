@@ -508,3 +508,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §68：逐原p纤维的非零wild对数及全部参考权
 
 原LT全局部作用使有理关系核平移稳定，Baker付固定代数系数的同一稳定核。原AH3全部参考/范数壳权的对数纤维和非零；完整加性Fourier降导子保六源及参考两项，单位值与对数仍分开。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §69：全原驯标记的空间对数微分与真正Hecke中央值
+
+同一D在全部f=34δ驯剩余盘的真实归一极限给原dlog，准确全和等于单位u·6fp²/varpi·L(ψ17·η,1)。原六因子、全部驯/wild标记、周期及R716 Hall平方同留，尚未付该空间导数非零。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。

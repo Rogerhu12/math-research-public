@@ -1295,3 +1295,121 @@ $$
 形式群、真实全局单位和 Baker–Brumer 证得。原(AH3)读单位值，
 (AJ3)读(AJ4)的对数 Fourier 分量。两者以及原(AH4)的中央
 Newton 导数之间，还须证明合适的比较。
+
+## 69. 同一单位族在原全驯标记上的不变对数微分读出真正的一阶 Hecke 中央值
+
+保留 $M=p^2$、原 $\chi=\chi_{p,r}$、原 $E_1$ 的
+$\varpi=\varpi_1$。取 $f=34\delta$、$(\mathcal O_K/f)^\times$
+中的 $t$ 及 $(\mathcal O_K/M)^\times$ 中的 $w$。记
+$$
+ T_t=\varpi t/f,\qquad Q_w=\varpi w/M,\qquad
+ P_{t,w}=T_t+Q_w,\qquad X(P)=\zeta(P)-\bar P/A.
+$$
+此处 $X$ 是 R298(15)的 reduced zeta，非椭圆横坐标。
+令 $m\equiv\beta=\sqrt{17}\bmod M$；$m$ 可按中国剩余取正整数
+且 $m\equiv1\bmod f$。对物理有理函数
+$R_n^-=S_1/(G(nz)G(z)^{17-n^2})$，定义
+$$
+ D_t(z)=\lim_{\substack{n\to\beta\ (p\text{ 进})\\
+                         n\equiv1\bmod f}}
+                    R_n^-(T_t+z)/R_n^-(T_t),\qquad
+ \ell_t(Q)=\bigl(d\log D_t/dz\bigr)(Q).                          \tag{AK1}
+$$
+$dz=dx/(2y)$；在 $p$ 挠点评价导数时使用不变导子及整形式
+局部参数。$\ell_t$ 来自同一全函数的平移族，不假定某个单独
+$\sigma$ 在超奇异全盘收敛。
+
+为证(AK1)全盘存在，$p\nmid n$ 且 $[n]T_t=T_t$。$T_t$ 及
+$[n]T_t$ 都是 primitive $f$ 挠，约化仍有其确切阶且含非零
+十七分量。因此其约化避开 $D_S,D_G$ 的支撑：R297 的六、七、
+三、二及原点均无十七分量。在好约化整模型上，$R_n^-$ 的水平
+零极除子均不经过 $T_t$ 的剩余盘；任意垂直常数由除以
+$R_n^-(T_t)$ 消去。所以每个归一函数及其逆在此盘的整形式环，
+常数均为一。记 $V_T(z)=e^{-e\eta_T(z+T/2)}V(T+z)$ 为
+charge $e$ 的原平移，$\eta_T=\bar T/A$。一个格平移只使 $V_T$
+乘常数，故 $V_T(z)/V_T(0)$ 与格代表无关。特征零形式上准确有
+$$
+ \frac{R_n^-(T_t+z)}{R_n^-(T_t)}
+ =\frac{S_{T_t}(z)}{S_{T_t}(0)}
+  \frac{G_{T_t}(0)}{G_{T_t}(nz)}
+   \left(\frac{G_{T_t}(z)}{G_{T_t}(0)}\right)^{n^2-17}.
+$$
+取值与幂的全部有限系数在同一代数 $p$ 进域：各平移的首对数
+导数由 $X$ 的挠点值给出，后续导数由 $\wp,\wp'$ 给出。
+$X$ 的挠点代数性也可在 $\sigma(Nz)/\sigma(z)^{N^2}$ 的除点
+函数于挠点取对数导数的常数项，如 R298(20)。此式逐系数连于
+$n$，整形式坐标与 Lie 坐标各次互换均为固定有限变换。
+故规范比及其逆均逐系数收敛，靠统一整界在每个严格内闭盘
+一致收敛；不变导数亦在这些闭盘收敛，可在 $Q_w$ 取极限。
+$T=O$ 的未除初值版本是(AH1)的同一 $D$。
+
+设 $\mathcal D=\{1,2,\delta,2\delta,\gamma_7,\bar\gamma_7\}$。
+(AI2)的实际六因子与 $G=\sigma(\delta z)/(\delta\sigma(z))$ 给
+$$
+ \ell_t(Q_w)=\sum_{a\in\mathcal D}aX(aP_{t,w})
+    -\beta\bigl(\delta X(\delta(T_t+mQ_w))-X(T_t+mQ_w)\bigr).    \tag{AK2}
+$$
+确实对有限 $n$ 先对 $R_n^-$ 取不变对数导数，$\zeta$ 换为 $X$
+时总非全纯增量为
+$(34-2n^2-2(17-n^2))\bar P/A=0$。参考还带
+$-(17-n^2)(\delta X(\delta P)-X(P))$，极限为零。
+$nP=T_t+mQ_w$ 在该有限层最终固定，于是得(AK2)。
+把中间 $n$ 换成 $\beta$ 并直接复评价是无须且不正确的步骤。
+
+令 $\varepsilon$ 为 R298(12)真正导子 $f$ 的原有限角色，
+$\psi_{17}((a))=a/\varepsilon(a)$。下式保全部 $t,w$：
+$$
+ \boxed{\sum_{t,w}\varepsilon(t)\chi(w)^2\ell_t(Q_w)
+   =u_{p,r}\,\frac{6 f M}{\varpi}\,
+                  L(\psi_{17}\widetilde\eta_{p,r},1),}
+ \quad
+ u_{p,r}=1+\beta+
+   \sum_{a\in\{\gamma_7,\bar\gamma_7\}}
+       \frac{a}{\varepsilon(a)\chi(a)^2}\in\mathcal O_{\mathbf C_p}^\times .
+                                                                    \tag{AK3}
+$$
+等式把代数系数与 R716 的实际复周期按 R298 固定嵌入比较。
+具体说，R716(32)–(33)使用的有限 idele 角色在 $p$ 为
+$\chi^2$。以理想 $(a)$ 的好位 uniformizer idèle 为代表，再
+除以主元 $a$，$p$ 处的单位为 $a^{-1}$，故其理想角色值为
+$\chi(a)^{-2}$。原 $\varepsilon(\bar a)=\varepsilon(a)^{-1}$、
+$\chi(\bar a)=\chi(a)^{-1}$。对所有主理想以 $a\mapsto\bar a$
+换元，得
+$$
+ L(\psi_{17}\widetilde\eta_{p,r},1)
+     =\frac16\sum_{(a,fM)=1}^{*}
+                       \frac{\varepsilon(a)\chi(a)^2}{a}.
+$$
+星号表示从绝对收敛区间亚纯延拓。R298(10)的 Kronecker 展开在
+$(0,0)$ 系数给 $e_{0,1}^*(P,0)=X(P)$，恰是
+$\sum_{\lambda\in\varpi\mathcal O_K}^*1/(P+\lambda)$。
+写 $a=Mt+fw\bmod fM$，$\varepsilon(M)=1$ 因 $M=p^2$、
+$\varepsilon_1(p)^2=1$ 且 $\chi_{17}$ 在有理单位上平凡；
+$\chi(f)=1$ 因 $f=34\delta$。此时
+$$
+ \sum_{t,w}\varepsilon(t)\chi(w)^2 X(P_{t,w})
+   =\frac{6 f M}{\varpi}L(\psi_{17}\widetilde\eta_{p,r},1).
+$$
+对于 $a=2,\delta,2\delta$，$aT_t$ 因子化通过严格更小的驯模，
+原 $\varepsilon$ 在约化核上非平凡，故对应整项和为零；
+同理分母的 $\delta(T_t+mQ_w)$ 项为零。六项中其余三项均
+可置换 $(t,w)\mapsto(at,aw)$，乘子为
+$a/(\varepsilon(a)\chi(a)^2)$。最后 $T_t+mQ_w$ 仅置换 $w$，
+且 $\chi(m)=1$，给 $+\beta$。这是(AK3)的无缺项乘子。
+在所选 $p$ 位它的剩余值为
+$1+\beta+j$，其中
+$j=\operatorname{Tr}_{K/\mathbf Q}(\gamma_7/\varepsilon(\gamma_7))$
+为绝对值至多 $2\sqrt7$ 的整数。有理整数 $(1+j)^2-17$
+非零且绝对值至多 $19$，故每个 $p>211$ 都是单位，证(AK3)。
+
+特别，R716(8)允许将(AK3)右端严格写成
+$u_{p,r}\,(6f p^2/\varpi)\,48940416\,\Omega_{\mathbf R}
+|\mathscr S_p(r)|^2/p$。这里 $\Omega_{\mathbf R}$ 是
+$E_{17}$ 的实际正实周期，$\varpi$ 是 $E_1$ 的实际 CM 生成
+周期；二者不交换。如此获得了原 $p^2$ 层空间对数微分和原
+$p$ 层全部 Schwartz 外权的准确读回。若在全驯标记用偶
+绝对值对数或忽略 Klein 根单位后的 $p$ 进对数作同一
+$\varepsilon(t)\chi(w)^2$ 投影，则 $(t,w)\mapsto(-t,-w)$
+下该零阶和为零，因 $\varepsilon(-1)=-1$、$\chi(-1)=1$。
+(AJ3)的非零读数与(AK3)的这项真实空间微分因此不能仅由奇偶性
+相认；(AK3)没有证明原 Hall 中央值或(AH4)的权导数非零。
