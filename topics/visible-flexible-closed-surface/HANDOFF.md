@@ -6,9 +6,9 @@
 
 同一g上的连通闭C2嵌入连续族；闭有内H点点固定，diamH/D≥.2、held/D≥.05、含反射δE>0、全时reach/D≥.03、全域全时metric≤1e−6，固定几何/g/相位下真正加密至原求解容差B=2e−9。基础数值完成后继续held/D≥.2、δE/D≥.05。不能用采样峰、normal或网格替代全域终值；不另加stationarity、无限精确存在或伪时间积分门。
 
-已部分clone并literal pull；根/题完整读于公开3138f2d6564d66a92968cb963a904fad0dab5bd4；私根完整读于db8c308d5df4b018c12e225e2267064403f20208；旧HANDOFF/open/log/相关notes已接续。私QUEUE认领已推2d9db302569bbd09e28a6fe55e0409c42b0c29f4。私库最近pull 2026-11-28 09:47:04 UTC，根新增§15于744968cbeadf9da66a1a30f3fe0c4865cde1806c已读，与公开§16一致。
+已部分clone并literal pull；根/题完整读于公开3138f2d6564d66a92968cb963a904fad0dab5bd4；私根完整读于db8c308d5df4b018c12e225e2267064403f20208；旧HANDOFF/open/log/相关notes已接续。私QUEUE认领已推2d9db302569bbd09e28a6fe55e0409c42b0c29f4。私库最近pull 2026-11-28 10:34:01 UTC，已读main `b4867ae42b1b4b57f89dc89749d27f0d85121081`；根README较上一锚无变化，§15与公开§16一致。
 
-每次pull立刻比根/题README差，至少每小时，只读差并立刻适用，记本H。拒推立即pull --rebase再推循环；每完整结论一推，禁止force。root独占main，代理只写scratch。用户指定gpt-6.2-astra；公开根新§16要求新派显式ultra。当前exact/strong已astra/ultra；M12旧有限7阶段自然完成、保存回执后再替换。公开根§12取消独审/重跑等额外流程门，§13为Actions。完整可重算输出不入Git/Release，只收源码/参数/小结论/哈希。H<10KB、单MD<100KB、topic<200MB；不写根LOG。R1–R219旧索引已移至results/archive-index-2026-11-28/INDEX.md，正文不改。
+每次pull立刻比根/题README差，至少每小时，只读差并立刻适用，记本H。拒推立即pull --rebase再推循环；每完整结论一推，禁止force。root独占main，代理只写scratch。用户指定gpt-6.2-astra；公开根新§16要求新派显式ultra。当前exact/strong/m12均已显式astra/ultra；M12旧有限7阶段全0保存后安全替换，转强目标独立输入。公开根§12取消独审/重跑等额外流程门，§13为Actions。完整可重算输出不入Git/Release，只收源码/参数/小结论/哈希。H<10KB、单MD<100KB、topic<200MB；不写根LOG。R1–R219旧索引已移至results/archive-index-2026-11-28/INDEX.md，正文不改。
 
 ## 继承与基础分支
 
@@ -57,7 +57,7 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-target-curvature --> [R259](results/R259-accurate-whole-prefix-two-sided-reach.md)：准确R233/R232全prefix含边界reach>.1013、全部有序双侧法球已证；R257嵌入与R256局部界保留。新后缀/改动场另付。
 
-准确R233/R232与literal G10源须分别绑定。整个位置锁定prefix仍有固有度量缺陷；exact代理正恢复同g的33/65真实径向节点及准确端口，strong代理从实际5292 own6接续并对后缀热点加密。改变source/基底须新baseline，不借旧几何给变化后前缀。强全闭度量/非局部点对/收敛仍未完成。
+准确R233/R232与literal G10源须分别绑定。R261已支付同g H65真实前缀误差及reach；strong正做H65+6615后缀XYZ+36α的新设计，exact支付准确连接器，m12转独立新输入。改变source/基底须新baseline，不借旧几何给变化后前缀。强全闭度量/非局部点对/收敛仍未完成。
 
 <!-- 2ecf-r258-floor --> [R258](results/R258-accurate-fixed-ramp-signed-radial-metric-floor.md)：准确强位置前缀原样固定的同g误差下界>6.98105e−8；后缀不能消除。
 
@@ -70,4 +70,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:18:54 UTC；已读公开 main `43aa0f78e8c495e74fa84e16aaed8c5a661b4fa9`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:34:16 UTC；已读公开 main `2af851171a40ba8923e874c4dc0004927b68585c`，根/课题 README 逐差无变化。

@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R263：准确仿射 coast 延长及完整前缀 reach](results/R263-prolonged-accurate-affine-coast-and-prefix-reach.md)（2026-11-28）：整段 0.. .24 正则，延长 .07/.08 的整前缀 reach ≥.1013385/.099；与原非仿射后缀目标分开。
+
 - [R261：强前缀同 g 两次真实物理加密与整带 reach](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)（2026-11-28）：H17→H33→H65 两次 U_新<L_旧；H65 完整全域低于2e−9，两新环带均reach>.1013，准确Γ95两端迹、微小二进切点过渡均付。后缀/整闭另算。
 
 - [R260：准确coast出口完整法向带](results/R260-accurate-coast-exit-normal-ribbon.md)（2026-11-28）：2048全角盒及连续±.097偏移给两定向行列式>.07439/.05209、末圈高度>.05617；水平投影单射和真实端口匹配裕量，后缀相交另付。
