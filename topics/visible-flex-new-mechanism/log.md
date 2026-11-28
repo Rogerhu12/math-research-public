@@ -358,3 +358,7 @@
 ### 2026-11-28 08:58 UTC — R643完整同E真实mean系统实际运行
 
 五源码共1852行完整审读，逐项核对离解D/R、canonical F/G、归一相位/全S及方向；原纯stencil接口与新真实p0_r/height兼容，64源绑定/AST/sparse路径一致。发现并修正gzip请求的workflow实际执行wrapper；>1MB载荷以单gzip传stdin，681B仅规则metadata不含科学数据。新增题外.github/workflows/visible-r643-actual397-coupled-mean-20261128.yml，完整1566列和原所有行直接公开求解，不启动独立诊断。
+
+### 2026-11-28 09:11 UTC — R636同完整目标的真实向内锥续接
+
+全文读三源码和scope，核对全部257列、四活动面、精确零坐标嵌回及原actual-delta Armijo；40源绑定和AST一致。新增题外.github/workflows/visible-r636-original-center-cone-resume-20261128.yml，源实际λ约1e−9与外层1e−11分开登记，原未完proposal不冒成接受。R643实际run46128314775/source24c1ee59于08:59:14启动并记H。

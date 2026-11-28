@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **a6771e2e9141042a617fea8af52e2a30d1747108**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **ec52cad542b1498ff2c372c478856a399eb01959**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -25,7 +25,7 @@
 
 [前split原费用](notes/2026-11-28-r618-split-first-complete-state-terminal.md)继续保留。[背景消去自然终态](notes/2026-11-28-r618-centered-complete-state-natural-terminal.md)run46117718197/job140895158286/source19de4da3于08:11:30结束，新增5400.048500946秒；0接受、1全1473列J/1472自由列QR、2方向/14真实拒绝。保原response19519575…和固定target86da8c60…/H.5188903877153482/amp1e−5/τ1。
 
-真实阻点r=.22666666666666668，W9.3869e−40、δs−7.9225e−7，λ图比例4.22e33压步至2.3697e−35；另一点同病态。原1728×512同态fineηobs2.216608e−7，实际Y双stencil仅15/16块，不能登记完整读出。[R643](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已证真实mean联立转角/周期位置与全六jet链，保同E/真帽/全角，原1472列加94mean共1566；[1566列实际求解](notes/2026-11-28-r643-complete-unsolved-mean-actions-scope.md)已发布，完整work→fine及真实mean/双Y差分；18000秒含6000末读出预留。
+真实阻点r=.22666666666666668，W9.3869e−40、δs−7.9225e−7，λ图比例4.22e33压步至2.3697e−35；另一点同病态。原1728×512同态fineηobs2.216608e−7，实际Y双stencil仅15/16块，不能登记完整读出。[R643](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已证真实mean联立转角/周期位置与全六jet链，保同E/真帽/全角，原1472列加94mean共1566；[1566列实际求解](notes/2026-11-28-r643-complete-unsolved-mean-actions-scope.md)run46128314775/source24c1ee59，08:59:14启动；完整work→fine及真实mean/双Y差分，18000秒含6000末读出预留。
 
 R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬trace及模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)和[连续Pμ](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)保原列/从属核心迹；同E可达性欠，.85/R579仅条件预算。
 
@@ -40,7 +40,7 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 [旧一致W失败](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)及全部旧费用保留；stored末零不是true资格。
 [R632自然终态](notes/2026-11-28-r632-true-hermite-natural-terminal.md)run46121795578/source32788128：989.736104011秒、19接受后真端/ruling未达；439粗υ凸包失败中2次真越界仍拒。[自适应续接](notes/2026-11-28-r632-adaptive-polynomial-box-continuation-scope.md)run46125262371/source02f00c15，08:19:20启动，原257q/物理盒/全目标保持；未闭pending，同态fine不重放，旧206e真h越3不重查。
 
-[R636自然终态](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783/job140912849492/sourceb10baebe于08:49:46结束，新增3146.914737635秒、12端恢复/32全目标接受；真十末.178784、ruling1.5332e14仍未达，同态fine已付。真实中心h逼近.8，8次域拒有真点反例，最后50完整trial无改善；payload e4521e28…/7352B。下一在同完整Jac/阻尼问题显式解h(0)/L至多四活动面，原.8严格下界不改；全部费用和未完trial保留。
+[R636自然终态](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783/job140912849492/sourceb10baebe于08:49:46结束，新增3146.914737635秒、12端恢复/32全目标接受；真十末.178784、ruling1.5332e14仍未达，同态fine已付。真实中心h逼近.8，8次域拒有真点反例，最后50完整trial无改善；payload e4521e28…/7352B。[实际续接](notes/2026-11-28-r636-original-center-cone-resume-scope.md)求同完整J/欧氏阻尼的h(0)/L至多四活动面；原.8界、全部费用和未完trial保持。
 
 [R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P必U>16/225；[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)增σ再消P保原方向。[R641](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)以真实2×2系统再消α/L，原盒内显式P/t₁/s₀三端输入及256自由形状全链已证；[实际r₁/全ruling求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)run46127173693/source106767818，08:43:56启动。原18块全正势、ODE/ruling1e−7、真末1e−8门不变；根后period/pose/宏观仍欠。
 
