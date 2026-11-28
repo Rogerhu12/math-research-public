@@ -38,6 +38,8 @@
 
 ## 新增结论
 
+- [R150/W b0：整个大M正阶排除与完整原Gram整性](results/R150-appendix-unit211-W-b0-entire-M-positive-exclusion-and-original-Gram-integrality.md)：原W付三辅助单位、q/R付谱整、真ME1单位二次头付f整，EC/PC排全部t/Y极点；合法c0剩余后EB迫X=u、E1=p²(2ell−1)²/2单位矛盾。全纸证明，得M整单位，不外推辅助单位或全W空性。
+
 - [R150/Phi第二头：五条真实原列的非零纯权必要支持](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-five-generator-nonzero-original-weight-support.md)：d2de唯一1.451秒，原c3/c4及三实际动作整化五列，普遍adj返E2/E3/NV，固定模点det382付非零，度界u142/Q72/总142；全Fwt零集保留，未宣空性。
 
 - [R150/W b0：整个ell正阶排除及1009整单位](results/R150-appendix-unit211-W-b0-entire-ell-positive-exclusion-and-1009-integral-unit.md)：完整N5显式ell²正则因子支付全极点/T零支，唯一有限中心由57f37首执行两固定scalar及三原Bézout返1关闭；e,k,u,δ,Vbar,ell当前均为单位，不自动支付其他分母或全W空性。
