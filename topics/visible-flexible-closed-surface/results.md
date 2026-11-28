@@ -178,3 +178,4 @@
 - [R306：同一紧凑192真闭核的连续浸入与主曲率](results/R306-compact-p32-192-continuous-immersion-and-principal-curvature.md)（已证明）：全时 C² 浸入、|κ|<10.306，32392严格叶覆盖全部材料；非局部reach和完整固定帽另付。
 - [R307：同一紧凑192场的整闭全时reach及强几何](results/R307-compact-p32-192-full-closed-surface-reach-and-strong-geometry.md)（已证明）：完整点对1698662访问/未决0、整帽后reach≥.097，reach/D>.03065352、held/D>.2149993、δE/D>.0511992；原g误差仍.1654。
 - [R304：真实C3双厚臂整闭族的全时reach与两项强形变](results/R304-C3-thick-closed-family-complete-reach-and-strong-shape.md)（已证明）：同cf81f6真H65，reach/D>.0307237、held/D>.2083874、δE/D>.0555961、diamH/D>.3740288；全部非局部和真实入口已付，固定径向g误差>.85。
+- [R308：同192强几何实图的真短经线与任意二维材料钟](results/R308-compact-p32-short-meridian-obstructs-all-fixed-boundary-clocks.md)（已证明）：保持两端圈及原冻结g的任何重参均有相对度量误差>.0158444；继续改真实位置或新固定g，不以钟平台作停点。

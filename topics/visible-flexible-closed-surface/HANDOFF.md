@@ -34,7 +34,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 真cuff前缀勘误、全尾组成、旧HF严格曲率失败、R274/R276及全记录见[本批前H](notes/2026-11-28-2ecf-handoff-before-strong-actual-coasts.md)。旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
-<!-- 2ecf-live-stadium --> [R305](results/R305-compact-stadium-full-angle-closed-image-amplitude-bounds.md)/[R306](results/R306-compact-p32-192-continuous-immersion-and-principal-curvature.md)/[R307](results/R307-compact-p32-192-full-closed-surface-reach-and-strong-geometry.md)：同实192紧凑p32整闭全时嵌入，reach≥.097、D≤3.1644，两强形变>.2149993/.0511992及固定H大已全付。原g误差.1654；同g396/720有限峰.1477752/.1310143，后改位置不借192证书。解析种子重生，数组不入库；旧R301 V38/V39留档。
+<!-- 2ecf-live-stadium --> [R305](results/R305-compact-stadium-full-angle-closed-image-amplitude-bounds.md)/[R306](results/R306-compact-p32-192-continuous-immersion-and-principal-curvature.md)/[R307](results/R307-compact-p32-192-full-closed-surface-reach-and-strong-geometry.md)：同实192紧凑p32整闭全时嵌入，reach≥.097、D≤3.1644，两强形变>.2149993/.0511992及固定H大已全付。原g误差.1654；同g396/720有限峰.1477752/.1310143，后改位置不借192证书。R308真短经线排除任意保端圈材料钟误差≤.0158444，已改做真实法向位置；解析种子重生，数组不入库。
 
 <!-- 2ecf-R290 --> [R290](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)排除两个原场；[R292](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)再排除升高.08但保旧帽的场，reach/D<47/2800。非局部核与帽点对都须支付。
 
@@ -58,7 +58,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:30:28 UTC；已读公开 main `a8bb8583083f13d9aaafb0366447b8e5911acc45`，根/课题 README 逐差无变化。
 
-执行器失联后的 API 规则读取：公开 `10aa832ced2f1211aac320b104a208f770c001c3` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
+执行器失联后的 API 规则读取：公开 `7b1fb5e1b5cc96bfe52d5b730df2fdd9b7c55122` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
 
 <!-- 2ecf-actions-launch --> run46157156458原R262恢复继续；run46158716329完整真实大相位/联合初相试验均未达。run46160322325真实H65全局部成功并已合R304；同run原R262中央对新D3低曲率.25/.35的全幅位差仅.029855/.027959，继续完整前缀同g求解。
 <!-- 2ecf-actions-rules --> Actions run 46157156458/1：真实 pull/rebase 2026-11-28 15:41:38 UTC；公开已读 11c5ad0c7b3d4ec9d0cbf798bc36f3451bade40a，根/课题 README 无变化。 私库真实 pull 2026-11-28 15:41:37 UTC、已读 6b75fef21f7266592f431390f20132632c1ba086，私根无变化。
