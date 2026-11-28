@@ -1,0 +1,81 @@
+name: visible-flex R750 fixed physical two-edge annulus
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r750-two-edge-rigid-core-annulus-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r750-two-edge-rigid-core-annulus-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r750-two-edge-rigid-core-annulus-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r732_compensated_pulses.py
+            /topics/visible-flex-new-mechanism/scripts/r732_closed_ring.py
+            /topics/visible-flex-new-mechanism/scripts/r732_physical_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_fields.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_qualification.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py
+            /topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py
+            /topics/visible-flex-new-mechanism/scripts/r733_inserted_meridian.py
+            /topics/visible-flex-new-mechanism/scripts/r733_physical_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r740_weak_material_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r740_material_rotation_space.py
+            /topics/visible-flex-new-mechanism/scripts/r740_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r742_native_tsqr.py
+            /topics/visible-flex-new-mechanism/scripts/r743_early_material_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r743_native_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R743-an-early-long-reverse-meridian-and-all-forced-sleeve-chords.md
+            /topics/visible-flex-new-mechanism/results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md
+            /topics/visible-flex-new-mechanism/results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md
+            /topics/visible-flex-new-mechanism/results/R730-all-collar-chords-and-the-negative-Gauss-area-of-a-mirrored-cylinder-cap.md
+            /topics/visible-flex-new-mechanism/results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md
+            /topics/visible-flex-new-mechanism/results/R724-comoving-central-crowns-and-four-outer-pulses.md
+            /topics/visible-flex-new-mechanism/scripts/r750_rigid_annulus.py
+            /topics/visible-flex-new-mechanism/scripts/r750_relative_boundary.py
+            /topics/visible-flex-new-mechanism/scripts/r750_annulus_solver.py
+            /topics/visible-flex-new-mechanism/results/R750-two-rigid-core-disks-and-all-prescribed-annulus-chords.md
+            /topics/visible-flex-new-mechanism/results/R752-two-locked-native-bands-and-a-strict-curl-floor.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r750-first-true-two-edge-annulus-scope.md
+            /.github/workflows/visible-r750-two-edge-rigid-core-annulus-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and solve the actual two-edge material annulus
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r750-two-edge-rigid-core-annulus-20261128.json
+          --lane actual-two-edge-annulus
+      - name: Preserve all actual ray kernels columns factors and physical states
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r750-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: r750-paid-state/
+          retention-days: 30
+          if-no-files-found: error
