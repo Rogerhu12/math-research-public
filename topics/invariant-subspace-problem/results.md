@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- [R150：完整QQ双数原族、泛型D返回与整个当前W有限支撑](results/R150-appendix-unit211-W-generic-original-dual-family-D-return-and-finite-physical-support.md)：真四维满射合独立≤4给同构；物理泛型空合无竖线/H198有限，付完整规范原商有限，全部有限原候选仍开。
+
+- [R150：Phi 一阶核Schur秩5与791次数上界](results/R150-appendix-unit211-Phi-zero-first-kernel-Schur-rank-five-and-degree-upper-bound-791.md)：完整左右核/双逆/新秩返回付十一阶消失；789≤deg_u≤791，未先付789保度。
+
 - [R150：Phi 原22列最高矩阵秩14及794真实上界](results/R150-appendix-unit211-Phi-zero-original-highest-rank-fourteen-and-degree-upper-bound-794.md)：真实QQ(Q)秩与完整EH返回给八阶消失，仍有五阶保度缺口。
 
 - [R12：同一flat分母的最大闭稳定平方根与全部原旗图核心](results/R12-appendix-same-flat-denominator-maximal-stable-root-and-all-flag-cores.md)：真实交换二次式付域稳定，指定R267强单位付图核心/唯一性/商图；实际平方分子仍开。

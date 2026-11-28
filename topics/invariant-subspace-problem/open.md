@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-first-Phi-kernel-Schur-W-dispatch-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-finite-support-Phi791-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[P164整权模型](results/R150-appendix-unit211-W-native-P164-integral-specialization-no-vertical-component-and-local-weight-model.md)、七单位与[两完整余商](results/R150-appendix-unit211-W-P164-two-complete-residual-quotients-and-generic-length-four.md)已付QQ(k)长≤4/规范8；两模商真双数，不能模D0升QQ。新fdaea首派180秒/4GiB，在整个QQ(k)[e,ε]/(Lhalf,ε²)逐项返原I6/I11、全部权逆与同模型满射，才可由同维付QQ D0；未先付泛型空或权零维。H198点与未付λ头/内容留。
+[整个W有限原支撑](results/R150-appendix-unit211-W-generic-original-dual-family-D-return-and-finite-physical-support.md)：fdaea真4.009465304秒/0，在整个QQ(k)二次代数双数族上完整返I6/I11、同N1/qZ及全部权逆；模型满射四维，合既有≤4得到真正泛型同构/D0。物理D开泛型空，合P无竖线及H198整有限，整个当前W权及规范七坐标原商有限。h(k)尚未显式，无新总长度数值，全部有限k/H198候选仍未排尽；续新的有限k原覆盖，不由模D0抬QQ。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -198,7 +198,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2/共同例外≤798及[全图维数≤1](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)已成。[最高秩14/794上界](results/R150-appendix-unit211-Phi-zero-original-highest-rank-fourteen-and-degree-upper-bound-794.md)：ad6真5.769411546秒/0，484项EH/7172除法返；同22原P仅旧权清除，QQ u度789至794，Q≤512/总≤1001，仍差五阶。新655首派120秒/1GiB：14阶完整双向逆与352项左右核返回，新的8阶一阶Schur秩s给上界786+s；s3才付789，未先标保度；全P/H42/例外纤维/物理D0及余最高支留。
+[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2/共同例外≤798及[全图维数≤1](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)已成。[一阶核秩5/791上界](results/R150-appendix-unit211-Phi-zero-first-kernel-Schur-rank-five-and-degree-upper-bound-791.md)：655真7.289653619秒/0，392双逆/352核/64变换；同22原P的QQ u度789至791，Q≤512/总≤1001，仍差两阶。续含A(t)逆修正的3阶二阶核；未付789保度，全P/H42/例外纤维/物理D0及余最高支留。
 
 [整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
