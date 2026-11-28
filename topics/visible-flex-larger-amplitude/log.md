@@ -253,3 +253,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:48:50 UTC — RET81四历史行政回执完整保全
 
 只退固定4a8f49da四个旧publication回执288973B；全来源/已记参数/事件/成功失败未知/读者/whole恢复ledger84159B、note8712B、manifest8781B，文件净减187321B。4完整原源与7完整selection/recovery逐字保。私库四真实published commit/topic树已逐一对应原receipt；原310da commit404保持，不冒相同树为原commit。旧exact argv/初read/部分临时路径未记录，均诚实null，保全部已记行政参数及原whole字；不重演push/merge、不以默认值补实际。科学文件/证明/活输入未删，旧whole-reader先还原原整receipt。见[完整交付](computations/legacy-four-publication-receipts-retention-81-complete-delivery.json)。双README云核至`d231ee916678b594ac79f08a0aba0517cffe7a84`无变（非pull）。
+
+## 2026-11-28 07:49:39 UTC — 25同源续跑全步被拒、半步自身统计返回
+
+25 restart-01全步b4d1实际reachg.5225595596253128且外层拒绝；cf441半步仅自己统计681.6450202879079/.40616533560409585。current a28ae和新accepted0不变，未据g下降猜接受或拒绝原因。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`25e712c3a836d5470e7abe800629250072b35378`无变（非pull）。

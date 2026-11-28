@@ -1227,3 +1227,22 @@ root在实际重置信号后仍无可用终端，故云读取不会写成root pu
   }
 ]
 ```
+
+## 2026-11-28 07:49:39 UTC — 25同源续跑全步被拒、半步自身统计返回
+
+真实run46099929359/1的restart-01，source f250c57887597755b6aa9cc67afa7e1da9c8959f/PID12394、driver7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910/model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef未变。全步b4d1d9645c45970536d6b4141b122fc21617e3749cd0697104188e43c58200ca自己的Phi681.6450177984617/Gram.40616533565287705，几何最大reach g.5225595596253128，但原完整外层screen实际拒绝；仅由较小g不能反推应当接受，也未猜未显示的具体拒绝分支。下一cf44132cc4986996cb5c7a460fef7991270a1c0b325b2a519d1c1dbcfd5ecfa8、alpha.5，07:27:31.412373Z返回自身Phi681.6450202879079/Gram.40616533560409585，至07:44:37Z尚无自身几何/接受。当前仍原父a28ae完整点/Phi681.6450227773521/Gram.40616533555531326/g.5225620087197518，新accepted0；原父accepted4不冒续跑计数。全六族/K/位置、原140词及137角色和所有未知保原记录，同run完整science未返、pure46891B尚待自然返回后排。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46099929359-1.md",
+    "bytes": 41188,
+    "sha256": "59ca14e1cd12caa7c7876e6deb12398b0e136a029799c4015368db673cab0f00",
+    "git_blob_sha": "5f4927d0b6656538b29cd17a7708c22265ec583e",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
