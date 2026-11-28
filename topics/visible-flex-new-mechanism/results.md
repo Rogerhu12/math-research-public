@@ -33,3 +33,5 @@
 - [R711 自然终态：6016 列原固定度量的自然终态](notes/2026-11-28-r711-real6016-fixed-g-terminal-natural-terminal.md)。原同g双细η2.563914e−5，未过1e−6；6016参数及前割线保留。
 
 - [R643 自然终态：固定源细网误差及未完位置读数](notes/2026-11-28-r643-fixed-source12-and-paid-partial-readout-natural-terminal.md)。细网条件η2.206112e−7；真细网/均高已付，直接位置部分未闭。
+
+- [R631 自然终态：174 次设计接受及双直接位置读数](notes/2026-11-28-r631-design174-and-two-position-stencils-natural-terminal.md)。μ0设计总174；双位置stencil已完成，η约2.46059e−5，非宏观同g。
