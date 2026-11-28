@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- [R12：原 Haar 全 Walsh 块的秩一 carry、迹类来源与闭块根](results/R12-appendix-actual-walsh-block-trace-class-carry-and-closed-diagonal-roots.md)：原C=D+K全部矩阵元、K迹类、精确循环相似费、真实闭稳定块根及RK/KR迹类域完整付出；同一实际相邻carry的主根线性Sylvester无有界修正。
+
+- [R12：全部 Walsh 循环块根分支的同源 Sylvester 发散](results/R12-appendix-all-walsh-block-root-branches-same-carry-sylvester-divergence.md)：cyclotomic代数范数给所有Fourier系数统一下界，全部分支的同一相邻carry实际元仍发散；保非线性X²、其它闭域与真实原旗。
+
 - [R150：Phi 中心原 NS/PS 本原六次标量及真实42次首项支持](results/R150-appendix-unit211-Phi-zero-centered-original-NSPS-sixth-scalar-content-and-true-leading-support.md)：3bbbb真3.242041814秒/0，C6权双53/27且λ内容1，原三系数全返；整斜率零未扩，H42整零保，指定双补图每权≤12。
 
 - [R150：W H198 补图完整 I11 精确二十行两列及两条原值标量](results/R150-appendix-unit211-W-H198-complement-exact-twenty-two-full-original-values-and-two-scalars.md)：cea506真128.939929339秒/0，I6精确十行及I11全二十行；个别N/P和整个NV保同点，两个真实cofactor给λ11/10，头与完整内容未付、整H0留。
