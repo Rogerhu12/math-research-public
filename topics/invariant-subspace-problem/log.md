@@ -123,3 +123,9 @@
 - 原RanC∩Y准确权平方和条件与常数约束给唯一源、范数1至2；完整carry满足CL=K+Ωψ及Dom(C⁻¹K)=kerψ，保真实rank-one余项。
 - V=I−L满射、核CΩ并有实际范数≤2右逆；CV=D−Ωψ为非交换右因子身份，未推出原C根或普通不变子空间。本条无重复数值运行。
 - 08:05 UTC本地pwd复探仍报无可用执行环境，记录小回执；继续授权Actions实际partial clone/pull/rebase/push与每次README核对。
+
+2026-11-28 16:07 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 正确碰撞值w=−λ²(2λ−1)/B；完整自由f/t Loww来源与同z仿射恢复直接给degree≤3及原常数非零，root/r150独立纸核。含全部Q头退化、两ρ嵌入的完整不同规范点≤8664；不是非约化长度或排空。
+- 新a12ac首次固定17阶u-Sylvester：只必要正确M定义及历史独立P输入，Bareiss逐精除乘回、已付λ支持、完整QQ因式；180秒4GiB，无旧gcd/722/错误M/dc888重放。新增workflow记本题log。
+- 97cf run46123468127/job140912794324实际14.645243192秒/54020KiB/1；ns['q']已被旧规则列表覆盖，未完成任何新数学stage。root读actual日志，独立失败note/receipt保原身份，非超时。
+- 726554物理p/q取固定原Gram行并核conj；完整H及三个M因子乘回后新Bbar4保持b0零面，仅D原单位给必要性。root全文审，首次180秒4GiB，仍单native原迹/六基收缩/两新pair，未预报。新增workflow记本题log。
