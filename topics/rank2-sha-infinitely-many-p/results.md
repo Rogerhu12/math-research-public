@@ -343,3 +343,10 @@ R1061§22将实际物理野字认成同一marked点的第一输出作用，逐�
 R1062从同一Miller translated section抽出实际NZ_Q指数，完整Bell极帽给a_k≥k(1−1/(p−1))，全二项式Newton族及逆在unit Tate盘为单位。两槽先合p/Ω/ρ及实际graded倍率，得到明确单位底数、共同Teich/root-of-unity子列与负二值/全导数。指定D−首4/S首6 seed的非零Norm纤维在临界端点真非零，精确估值保原Haar和全部frame费用；只在原已付逐字graded返回后才接whole germ，其余直接进入R1060有限Newton行，不赋单字新bounded测度或canonical零。
 
 [完整证明](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)，G1–G19。
+
+
+### R1062 §7：原周期的真实 Galois 下降与全部权导数
+
+R1062§7从原完整Tate基和book period自然性付深norm-one Galois作用：σΩ=cΩ，真实权germ乘c⁻¹exp(2(j+2)logc)。非零raw临界值迫全部raw权jets在同一有限域上线性独立；同时精确分离Ω(R′−logU*·R)∈F，说明canonical比较必须保周期导数，临界值零时不预付斜率非零。原whole Amice来源另给σm=c³T_((c²−1)C)D_(c²)m及完整局部Möbius式；bounded全盘由实际σA支付，不把形式复合或单D缩放当任意新测度。
+
+[完整证明](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)，P1–P11。

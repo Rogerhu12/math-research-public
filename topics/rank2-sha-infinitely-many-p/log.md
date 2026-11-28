@@ -205,3 +205,13 @@ root逐式核Bell全部阶的整数系数/极帽、Tate Gauss界及导数、两�
 
 R1061 F1–14已成功推8662bf16fc72f02a0691d600c091ae6ec55e6f32。推前actual readonly run46075603971/job140846796648：公开2026-11-28 03:17:52 UTC至b70f4044ba43bd298d3cb64b40098490bc2e7f06；私库2026-11-28 03:17:58 UTC至df6a538d09fe342b6f227cd54aa5d31cca565e8e。四README与03:10已读版完全相同，QUEUE/认领未变；日志14889B/hashc545e958a63241f6a8bd76864316acf2dc101f11197403a832b9b6d6f18b8535，库存3172blobs/44844773B/treefc5309da82a5bd89d7d69552045c99aeb531e9da，无>5MB、三旧必要gzip不变。
 旧H逐字归档notes/2026-11-28-handoff-before-normalized-miller-germs.md（9599B/817833549e31602833346ba3a7161485656f551354eeff262e1f093e4e799556），完整旧参数/失败/规则和归档链均保。
+
+
+## 2026-11-28 03:31:08 UTC：原period全Galois作用与whole测度的Maass返回
+
+R1062§7从原完整Tate基和book period自然性付深norm-one Galois作用：σΩ=cΩ，真实权germ乘c⁻¹exp(2(j+2)logc)。非零raw临界值迫全部raw权jets在同一有限域上线性独立；同时精确分离Ω(R′−logU*·R)∈F，说明canonical比较必须保周期导数，临界值零时不预付斜率非零。原whole Amice来源另给σm=c³T_((c²−1)C)D_(c²)m及完整局部Möbius式；bounded全盘由实际σA支付，不把形式复合或单D缩放当任意新测度。
+
+root以全部层Eisenstein给CM Tate开像，明确σy=yg_a才用E16，逐式推P2–P5并用有限多项式根数证明P6。按G9真实unit U*提共同指数，精确付P7–P9；central独核Tate自然性、有限域系数及去period范围。P10–P11直接从原whole R1060(2)与T_C/D_κ矩阵相乘给出，保已付bounded左侧，不为右侧形式构造新measure。全纸证，无新数学执行。
+
+推前actual readonly run46075603971/job140848946675：公开2026-11-28 03:26:20 UTC至96fdb194b9ebed8be4cce2c907529415813cb583；私库2026-11-28 03:26:25 UTC至921cea7eab1e248a9e3ccfdfa6a59aff6fb9ae7a。四README与03:17已读版完全相同，QUEUE/认领未变；日志14889B/hash11e66544555c20526d98bbcdc90b247bd2897b683a7986de5a4453228abe7ad5，库存3174blobs/44872969B/tree951dbfa665bb504ee8f8443d3e40974591eda8a5，无>5MB，三旧必要gzip未变。
+R1062 G1–G19已成功推06c9d2e78a4b15c11972e3eef3fd7208ecf1b5f7。03:21:48UTC实际核v13仍in_progress，日志GET仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、尾00:18:25 positive scalar222/306，未返新终门；不据缓存断停滞。旧H逐字归档notes/2026-11-28-handoff-before-period-descent-and-hall-return.md（9852B/34a12d3ffea701791e542872265029cf06c9e112be02e1c768a33e7bc248832c）。

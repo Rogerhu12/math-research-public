@@ -390,3 +390,249 @@ R1060 的有限转置，不能从(G17)跳到(G19)的 whole 非零。
 本节已付的是完整 normalized jets、唯一单位底数的全部费用、
 同分量解析极限以及指定 seed 的准确非零；没有新增
 canonical 坏条件或恢复已撤回的 usual/flat cross。
+
+
+## 7. 同一 book period 的真实 Galois 下降与导数中的周期项
+
+本节继续(G9)--(G19)已实际代数化的那些字。这里固定一个有限
+完备扩域 \(F/K_p\)，其中包含这些字的模型、代数微分、全部
+\(p^2\) 除点及中心、\(\kappa,c_0,\ell_\pm\) 和所有代数
+source 系数。尚未证明某个 \(h\) 被积项的单独代数化时，不把
+它加入这个集合。特别不将 book period \(\Omega\) 放入 \(F\)。
+
+我们证明：原规范下的非零临界值，确实迫原始权导数非零；
+但将周期项正确除去以后，不再有这个自动结论。这为下一步
+同 canonical 斜率比较给出一个准确、可检验的下降条件。
+
+### 7.1. 深 Galois 元素确来自同一个完整 Tate 标记
+
+取原 CM Tate 基 \(\alpha\)，并将 \(F\) 增大为有限 Galois
+扩域，不改变上述范围。CM Tate 作用的像是
+\(\mathcal O_{K_p}^{\times}\) 的开子群。
+
+这里所需的开像可直接沿 R1061(E1)--(E2)证明到所有层，
+不靠模 \(p^2\) 的作用猜无限 lift。在原严格整 LT 坐标中，
+\[
+ [-p](v)=-pv+v^{p^2}.
+\]
+第一层的 primitive 点满足 \(v_1^{p^2-1}=p\)，为 Eisenstein。
+若 \(v_{m-1}\) 已是上一层的均匀元，则
+\[
+ X^{p^2}-pX-v_{m-1}
+\]
+在上一层上仍 Eisenstein，给下一层次数 \(p^2\)。
+原整坐标和整逆在每个这些点收敛，所以它给的正是同一
+除点域。一个 primitive 点生成自由秩一
+\(\mathcal O_{K_p}/p^m\) 模，全部点均由原 CM 乘法取得；
+次数与 \(|(\mathcal O_{K_p}/p^m)^\times|\) 相同。
+因此在原曲线的局部 CM 基中，完整单位像成立；固定任意有限
+\(F\) 后，像仍是有限指数开子群。
+
+故存在 \(h\ge2\)，使每个
+\[
+ a\in (1+p^h\mathcal O_{K_p})^1
+\]
+都由某个 \(\sigma_a\in G_F\) 在完整 Tate 模上的作用实现。
+这些 \(a\) 固定已经列入 \(F\) 的全部有限字。
+可以让 \(a\) 取无限多个非挠值，例如充分深的
+\(\exp(p^h\delta t)\)、\(t\in\mathbf Z_p\)。
+它们的范数为1，且 \(\log a\) 取无限多个值。
+
+原 Tate 基及 CM 点的真实关系是
+\[
+ \alpha^{\sigma_a}=\alpha g_a,\qquad
+ \sigma_a y=yg_a .
+\]
+模型和所选 \(\omega_E\) 定义在 \(F\) 上；
+canonical differential、比较映射和评价均对 Galois 自然。
+结合 R1061(E16)在**同一个** marked 点的公式，
+\[
+ \boxed{\quad
+ \sigma_a(\Omega(y))
+   =\Omega(yg_a)=\frac{\Omega(y)}{\bar a}
+   =a\Omega(y).
+ \quad}                                                    \tag{P1}
+\]
+末等号仅在当前范数一子群使用。
+这是完整 Tate 标记的自然性；没有选一个固定 \(\Omega\) 的
+连续 \(\mathbf C_p\) 自同构，也没有因估值相同就把
+\(\Omega^{-1}\) 认成另一个命名的 LT period。
+以下简记 \(c_a=a\)。
+
+### 7.2. 完整 germ 的半线性变换
+
+(G1)--(G8)全部 \(\mathcal F_{N,Q}\) 的系数在 \(F\)：
+每项由同一有限代数除点数据得到，而 \(F\) 完备。
+(G9)已经支付的其它代数尺度也在 \(F\)。
+由 \(\rho=(17/2)p^2\kappa\Omega^2\) 及(G10)，逐项严格有
+\[
+ \sigma_a(\mathcal C_Q)=c_a^3\mathcal C_Q,\qquad
+ \sigma_a(\mathcal U_Q)=c_a^2\mathcal U_Q,\qquad
+ \sigma_a(\mathcal F_\pm)=\mathcal F_\pm.                    \tag{P2}
+\]
+仍使用(G12)的同一个足够小的共同权盘。
+\(\sigma_a\) 连续且等距，故与已付的收敛 log、exp 及
+Tate 系数极限可交换。
+\(c_a\) 已在深主单位群；其 Teich 部分为1。
+(G13)遂准确给
+\[
+ \boxed{\quad
+ \sigma_a\bigl(\mathcal R_Q(j)\bigr)
+   =c_a^{-1}\exp\bigl(2(j+2)\log c_a\bigr)\mathcal R_Q(j).
+ \quad}                                                    \tag{P3}
+\]
+这里是对固定参数 \(j+2\) 的系数作 Galois 作用；
+并不把任意 \(\mathbf C_p\) 参数点视为 Galois 不动点。
+在原整数权，显示因子正是 \(c_a^{3+2n}\)。
+
+若 \(\mathcal R(j)\) 是这些实际字连
+\(F\)-系数解析外权的一个有限和，则(P3)逐项给同一公式。
+例如(G17)的指定 Norm 纤维和，正是这种情况。
+尚未支付的全 \(h\)/graded 返回仍不在此断言内。
+
+设 \(R_k=\mathcal R^{(k)}(-2)\)。
+逐次对真正的 Tate germ 求导，得到所有 \(k\ge0\) 的准确式
+\[
+ \boxed{\quad
+ \sigma_a(R_k)=c_a^{-1}
+       \sum_{r=0}^{k}\binom kr
+          (2\log c_a)^{k-r}R_r .
+ \quad}                                                    \tag{P4}
+\]
+特别，
+\[
+ \sigma_a(R_0)=c_a^{-1}R_0,\qquad
+ \sigma_a(R_1)=c_a^{-1}(R_1+2\log c_a\,R_0).                 \tag{P5}
+\]
+(G14)的全部 \(\mathcal F'\)、\(\log\mathcal U_Q\) 以及已有
+解析外权导数均在(P4)内；没有删去 Maass 修正后重命名导数。
+
+### 7.3. 非零 raw 值确实迫全部 raw 权 jets 线性独立
+
+若 \(R_0\ne0\)，则
+\[
+ \boxed{\quad R_0,R_1,R_2,\ldots
+           \text{ 在 }F\text{ 上线性独立。}\quad}            \tag{P6}
+\]
+证明如下。若有有限非平凡关系
+\(\sum_{k=0}^m b_kR_k=0\)、\(b_k\in F\)、\(b_m\ne0\)，
+对所有上述 \(\sigma_a\) 作用并乘 \(c_a\)，由(P4)得到
+一个在无限多个 \(t=2\log c_a\) 处为零的多项式。
+其最高 \(t^m\) 系数为 \(b_mR_0\ne0\)，矛盾。
+这只是有限次多项式的根数论证；不需要假设抽象的
+\(p\)-adic Schanuel 猜想。
+
+所以(G17)已经证明非零的那个指定 Norm 纤维，其原始
+\(\mathcal R'(-2)\) 也真非零，所有更高 raw 权导数同样非零。
+这一结论的对象是(G9)完整保留 \(\Omega^3\rho^n\) 的原规范。
+它尚未成为 canonical \(J'_S\) 的非零结论。
+
+### 7.4. 去除周期后，真正剩下的有限域导数
+
+为精确说明这个范围，固定同一有限和中的一个非零 \(Q_*\)，
+置
+\[
+ U_*=\mathcal U_{Q_*},\qquad
+ u_Q=\mathcal U_Q/U_*\in F^\times .
+\]
+各 \(u_Q\) 是单位；其 \(p\)-adic log 也在完备有限域 \(F\)
+中。仍按(G12)共同锁定全部有限相位。若外权记为 \(w_Q(j)\)，
+定义
+\[
+ V(j)=\sum_Q w_Q(j)\,
+        \frac{\mathcal C_Q}{\Omega^3}\,
+        u_Q^{-2}\exp((j+2)\log u_Q)\,
+        \mathcal F_{-,Q}(j)\mathcal F_{+,\gamma Q}(j+2).
+\]
+于是 \(V\) 是该共同小盘上的 \(F\)-系数 Tate 函数，并且
+\[
+ \boxed{\quad
+ \mathcal R(j)=
+      \Omega^3U_*^{-2}\exp((j+2)\log U_*)V(j).
+ \quad}                                                    \tag{P7}
+\]
+因为 \(U_*/\Omega^2\in F^\times\)，有
+\(\Omega^4U_*^{-2}\in F^\times\)。所以在端点，
+\[
+ \boxed{\quad
+ \Omega R_0\in F,\qquad
+ \Omega\bigl(R_1-(\log U_*)R_0\bigr)\in F .
+ \quad}                                                    \tag{P8}
+\]
+这不是把非单位 \(\Omega\) 单独作权幂解析化；
+\(U_*\) 是(G11)先合全部费用得到的真实单位。
+换另一个 \(Q_*\) 时，两个 \(\log U_*\) 只差
+\(\log u\in F\)，(P8)的有限域范围保持。
+
+(P2)也给
+\[
+ \sigma_a(\log U_*)=\log U_*+2\log c_a .
+\]
+其 \(G_F\) 轨道无限，因此 \(\log U_*\) 在 \(F\) 上超越：
+若代数，固定其最小多项式便只能有有限多个共轭。
+此处的超越性由实际 CM period 作用证明，非对任意
+\(p\)-adic 单位的 log 作同样断言。
+
+反过来，若一个声称已回原代数 frame 的 raw 斜率满足
+\(\Omega R_1\in F\)，那么(P5)迫
+\[
+ \boxed{\quad R_0=0.\quad}                                  \tag{P9}
+\]
+因为 \(\Omega R_1\) 的 Galois 差准确是
+\(2\log c_a\,\Omega R_0\)，而可取 \(\log c_a\ne0\)。
+
+因此，将一个 \(R_0\ne0\) 的 raw ramified 斜率同原 canonical
+斜率相认时，必须显式支付(P8)的周期导数项或相同的外权取消。
+若原完整读者的临界值已经为零，(P8)本来就退化为
+\(\Omega R_1\in F\)，本节不再排斥 \(R_1=0\)。
+这正是原固定 canonical 目标仍须处理的范围，不能以(P6)绕过。
+下一小节另在原 whole Amice 来源上写出同一作用，不要求先完成(G18)的单字分解。
+
+
+### 7.5. 原 whole bounded 测度上的准确 Maass 变换
+
+固定 R1059/R1060 的一个真实 whole bounded 来源 \(A_i\)，
+其普通矩为 \(m_n\)、完整 unflat 矩为 \(R_n=T_Cm\)。
+将其模型、有限 level/source、CM splitting 及全部固定代数
+系数包含在上述有限 \(F\) 中。内在连接及其任意次迭代在
+这个同一域上定义，所以 R1060(2)中的全部内在 CM jet 都在
+\(F\)。取足够深的上述 \(\sigma_a\)，则同一 period 自然性给
+\[
+ \sigma_a R_n=c_a^3(c_a^2)^n R_n,\qquad \sigma_a C=C .
+\]
+这一陈述使用原 whole jet 的代数化，不把未积分的
+\(h_\infty\) 单项另建成代数来源。
+
+令 \(D_\kappa m_n=\kappa^n m_n\)，其中 \(\kappa=c_a^2\)。
+R1060(13)--(14)的有限三角变换满足
+\[
+ T_C T_D=T_{C+D},\qquad D_\kappa T_C=T_{\kappa C}D_\kappa .
+\]
+故原测度本身的精确 Galois 矩公式是
+\[
+ \boxed{\quad
+ \sigma_a m_n
+   =c_a^3\sum_{r=0}^{n}c_r(n)
+        ((c_a^2-1)C)^r(c_a^2)^{n-r}m_{n-r}.
+ \quad}                                                    \tag{P10}
+\]
+因而它一般不是只将 \(x\) 乘 \(c_a^2\) 的 pushforward。
+
+若以 \(\mathscr A(Q)=\int Q^x\,d\mu_i(x)\) 记同一个 Amice
+函数，则在形式原点、从而在共同足够小的 \(L\) 盘上，
+\[
+ \boxed{\quad
+ \sigma_a\mathscr A(e^L)
+  =c_a^3(1-(c_a^2-1)CL)^{-3}
+    \mathscr A\!\left(
+       \exp\frac{c_a^2L}{1-(c_a^2-1)CL}\right).
+ \quad}                                                    \tag{P11}
+\]
+左边已经是原实际 bounded 测度的 Galois 共轭；
+(P11)的全盘延拓由这个左边给出。
+本式不把右边的形式复合对任意新输入宣布为全单位盘
+bounded 算子。若用 LT 角色盘上的真实 \([\kappa]\) 来运输
+原源，(P10)的全部 Maass 三角费用仍须一并携带，
+不能只移植其中 \(D_\kappa\) 一项。
+
+本节所有结论均为同一原来源的纸笔推导，无新增数学执行。
