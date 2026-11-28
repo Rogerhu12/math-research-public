@@ -1,15 +1,14 @@
 {
-  "request_id": "2026-11-28-original-row-operation-right-return-fixed-software-check",
-  "kind": "original-row-operation-right-return-software-check",
-  "reason": "Authenticate and capture every actual polynomial coefficient of the pinned original complete Popov or complete pair-reset row-operation stream. Restore U by exact reverse chronological right multiplication from the complete coordinate matrix C, then verify the full original C*P=H, U*M=H, all original rows modulo H, monic HNF and complete determinant length. Compare unchanged original HNF, unchanged integral polynomial coordinates, and Sage's complete transformation. Include nonprime fields, repeated irreducible thickness, unit input, actual original Bezout blocks, immutable callers, prime descent, and the current native complete-return wrapper. Invalid full matrices and transcripts must reject. This isolated module does not calculate a new HNF, bind production, execute original geometry, or claim a rank-306 performance improvement.",
-  "check_script": "scripts/check-original-row-operation-right-return.py",
-  "check_sha256": "aab13e7e58d1700157456e39ae616bd1405237ad45f6e592383f18dacf6e8d4e",
-  "binding_script": "scripts/original_row_operation_right_return.py",
-  "binding_sha256": "ce7675e8b57fee62a2b5c7907a5cd5887759e4d72bc1e4117f04c4032e4dc225",
+  "request_id": "2026-11-28-original-complete-cyclic-denominator-return-fixed-software-check",
+  "kind": "original-complete-cyclic-denominator-return-software-check",
+  "reason": "Compare the entire original polynomial row module through an exact scalar-content return and the same original native whole Popov coefficient transcript. Attempt a packed Sage 10.6 linbox-float complete standard-monomial quotient, all delta Krylov columns, and FFPACK full augmented coordinates. Restore complete polynomial coordinates and U by the already verified reverse-right module; verify C*P=H, U*M=H, every original row modulo H, monic complete HNF, full determinant length and every scalar-content thickness. A failed actual last-vector cyclic test, unsupported whole prime-field descent, or explicit native allocation budget returns to the unchanged complete original algorithm on the unchanged original M. Fixed fixtures include genuine quadratic content, nilpotents, complete native fields 29/41, a 96-dimensional nonreduced quotient, immutable input, the current native product/remainder binding, and false full-matrix returns. This is isolated software, not production binding or original geometry.",
+  "check_script": "scripts/check-original-cyclic-denominator-return.py",
+  "check_sha256": "6113c7b4eb46c00b40cad02028a8e97705e219cbef8175ac5d4e6ed1ef35f396",
+  "binding_script": "scripts/original_cyclic_denominator_return.py",
+  "binding_sha256": "4ebbe8018347d9bf6269d6e0d83960224bb399fa5ae1998b7d91e3c1ba96fbf1",
   "source_files": [
     "check-original-complete-quadratic-api.py",
-    "check-original-row-operation-right-return.py",
-    "original_row_operation_right_return.py",
+    "check-original-cyclic-denominator-return.py",
     "original_affine_fast_operations.py",
     "original_affine_multiplication.py",
     "original_complete_quadratic_polynomials.pyx",
@@ -24,11 +23,18 @@
     "original_ys_integral_image_tools.py",
     "original_ys_local_value_tools.py",
     "original_ys_scalar_colon_tools.py",
-    "section_quotient_algebra.py"
+    "section_quotient_algebra.py",
+    "original_native_pair_reset.py",
+    "original_native_polynomial_rows.pyx",
+    "original_row_operation_right_return.py",
+    "original_cyclic_denominator_return.py"
   ],
   "math_runs_only_in_public_actions": true,
   "original_geometric_input_executed": false,
+  "production_binding_changed": false,
   "recomputable_outputs_persisted": false,
-  "source_dependency_scope": "Fixed existing selector, isolated coefficient-stream helper and checker, and the 15 unchanged complete original row-reduction/division/native-return dependencies. No workflow or production source is changed.",
-  "software_time_budget_seconds": 420
+  "software_time_budget_seconds": 420,
+  "expected_complete_comparisons": 14,
+  "expected_rejections": 17,
+  "source_dependency_scope": "The fixed existing selector, new isolated helper/checker, the passed exact right-return helper, pinned original native adapter/rows, and all 15 unchanged original reduction/division/complete-return dependencies. No production or workflow source is changed."
 }

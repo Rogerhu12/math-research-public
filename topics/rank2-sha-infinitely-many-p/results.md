@@ -496,3 +496,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 - [R1067 §§9–14：原第一 wild 的首 physical jet 与完整 Hall 低行](results/R1067-original-first-wild-rubin-even-multiplicity.md)：精确零下a_(p²−1)∈p²及三完整Hurwitz矩约束；§14.1进一步证明前者已由旧actual域下降强制，不计新增forcing；实际整tensor、floor费用、全部cover/模型frame和一般ψ0反例均付。bad单独不获此行。
 
 - [R1068：原 B18 共同因子、实际 Katz 整逆与同一 Hall 有限系数](results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)：同几何T的完整102/84逆/16字保所有中心，准确返R1067之a_Δ行（该行另由旧actual域下降强制）；全Cartier相邻角与−26329/105均保，未由此取得单位或无穷p。
+
+
+### 原完整 Popov 商的 cyclic/content 隔离候选
+
+[完整证明与固定请求](notes/2026-11-28-original-complete-cyclic-denominator-return.md)：实际原native Popov及完整系数流保同一行模；全部δ标准单项式/原末基向量的Krylov全矩阵给候选，真实C·P=H、U·M=H及全部原余数返回；失败回同一未除content的原完整算法。全部标量厚度和nilpotents恢复。固定21源/420秒、14全比较/17拒错已请求，尚无PASS；不改唯一v15，也不声称rank306/δ3670性能。

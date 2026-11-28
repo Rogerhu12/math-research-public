@@ -56,6 +56,11 @@ def _dispatch_fixed_request():
         binding_name = "original_row_operation_right_return.py"
         check_sha = "aab13e7e58d1700157456e39ae616bd1405237ad45f6e592383f18dacf6e8d4e"
         binding_sha = "ce7675e8b57fee62a2b5c7907a5cd5887759e4d72bc1e4117f04c4032e4dc225"
+    elif kind == "original-complete-cyclic-denominator-return-software-check":
+        check_name = "check-original-cyclic-denominator-return.py"
+        binding_name = "original_cyclic_denominator_return.py"
+        check_sha = "6113c7b4eb46c00b40cad02028a8e97705e219cbef8175ac5d4e6ed1ef35f396"
+        binding_sha = "4ebbe8018347d9bf6269d6e0d83960224bb399fa5ae1998b7d91e3c1ba96fbf1"
     else:
         raise RuntimeError("Unknown fixed complete-quadratic API request kind.")
     if (request.get("check_script") != "scripts/"+check_name or
