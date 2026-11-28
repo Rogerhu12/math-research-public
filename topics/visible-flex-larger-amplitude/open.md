@@ -118,7 +118,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 半波b5/8；a464/accepted1/reachg.6117804556256119。 |
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 11e66/accepted1，所报Phi/Gram/六g同22首接受但point不同；K12.318076128726846/cell885/phiπ/2、s=null。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725 b1/2/ε1/8；model4a7e828/初7e06，Phi589.1634908944277/Gram.4163254155597059；reachg.006249035762618371、distplus.13346402986277572，K8.096406380355797/cell886/phiπ/2、s=null；7722d试步未返。 |
-| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | 同26全源、b5/8；46105138690/1/job140856083740实际启动；model/point待登记。 |
+| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | R725 b5/8；双输入0/modelc627/初7e06，reachg.701239028437362、distplus.08419919835900014；K13.721956432061155/cell466/branch0/s=null，16dfec试步仅统计。 |
 
 统计不代几何，trial不代accepted，同坐标异model不冒同场；alpha未知不推方向号。上述均未达标，有限K不代whole accurate界。[宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)不推reach单调。[27完整参数](computations/fixed-fejer-r725-bfiveeighths-complete-parameter-delivery.json)同26仅b5/8，157/7、458/445、64live及5CLI/14external保；queue74597B，真自然返后整接pure52646B。
 

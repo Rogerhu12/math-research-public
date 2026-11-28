@@ -514,3 +514,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:37:14 UTC — 28官方实际启动与研究步骤确认
 
 46108296054/1，workflow433411412/job140865899880，04:35:57Z从cf2e5c85真实启动，研究step实际in_progress。完整官方run/jobs原对象保存，当前未冒输入/model/point/费用。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`081c83a6c080b3a4ba8b1341986bbb0af1a61bbe`无变（非pull）。
+
+## 2026-11-28 04:38:34 UTC — 27真实双输入、新模型与初始六约束
+
+27双输入自然0、实际source1547e239/PID3303，新modelc627/初7e06，Phi748.418190202661/Gram.48764611813702746。reachg.701239028437362、distplus.08419919835900014；K13.721956432061155/Dlower4.113210913280396、cell466/u.38069040695840156/phi1.4266021327336462/branch0/s=null。accepted0，16dfec只统计不代接受。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)。双README云核至`146617b544747ef7b631c7b23665447f74c32b6c`无变（非pull）。
