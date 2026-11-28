@@ -24,7 +24,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-through-hk-NV-Loww91-2000-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-28-results-before-W-e-one-DM-exclusion-2050-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：W/b0正k的e首值一中心由原D/M身份排除](results/R150-appendix-unit211-W-b0-positive-k-e-one-center-original-D-over-M-exclusion.md)：原q2直接给D=M[A*A2−ellQ(3−4λ)]/(4uQδell)，分母旧已付。E1时S首值3/8、γ=vM>−a，vK=−2a；R6两项γ−4a与3γ−2a严格不同，所有M高阶相消皆含，无新计算。
 
 - [R150：W/b0正k射线仅余e首值±1的完整原值证明](results/R150-appendix-unit211-W-b0-positive-k-ray-only-e-plus-minus-one-original-centers.md)：原b0/q2先付λ剩余中心，R6必要二次P(E)=27E²−103E−22；完整NV的f常数系数N5及原尺度使最低项−224U⁵(E+5)为零，与P(−5)=159矛盾。保E±1，不将N5当物理f0，无新运行。
 
@@ -85,23 +89,3 @@
 - [R150：W/b0固定1009的三条已排赋值方向及六条保留边界](results/R150-appendix-unit211-W-b0-three-excluded-1009-Newton-directions-and-six-retained-boundaries.md)：949603唯一3.014292秒/0，全部系数p整/顶点p单位，九共同Newton边完整Bézout。排(-2,1),(-1,-1),(-1,2)；非零赋值向量只可能其余六射线，未证存在或全整性/原排空。
 
 - [R150：正确Phi三个真实头的例外权支持至多392](results/R150-appendix-unit211-Phi-zero-corrected-three-heads-392-exceptional-weights.md)：新H28 QQ不可约总28与旧corrected overlap头H14非零总14，纸证互素/复零维交/Bézout392；三头同零只可能在该有限交，外部有18生成模型。只收紧例外权支持，全部几何纤维与独立尺度保，无新执行。
-
-- [R150：正确碰撞整个Delta零分支的有限DVR原单位终证](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)：eb63f唯一2.70292276秒/0，两完整谱域在p1009首个合格点返回倒z首一3与真E1的九源单位。由同域u/Q整性、有限模/Nakayama排全99/300嵌入，合旧三小因子及幂次/CRT闭整个当前Δ0；Δ非零及普通ISP保留。
-
-- [R150：正确Phi全图t六次的六原乘子与真实H28首项](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-sextic-six-original-multipliers-and-H28.md)：fb4163首次1.10780979秒/0全返第三N1及六原普通身份，最终分母仅旧权，覆盖整个H6/H8。真t头余H28总28、QQ单因子一次，补图必要代数18生成；H28全零保，非自由/非全空。
-
-- [R150：整个W/b0的原t完整I6、十四行加强与两条同点标量](results/R150-appendix-unit211-W-b0-t-parameter-complete-I6-q2-two-original-scalars.md)：2f7fd唯一4.932428614秒/0，全I6十二/J7十四行与七原来源直接返回。新S3的(u,ν,t)度30/34/3、总49，S4为47/53/4、总76；实际共同乘子仅纯u，所有新头零保，无新权投影或排空主张。
-
-- [R150：正确Phi中心NSPS的实际十行呈示与非零t六次式](results/R150-appendix-unit211-Phi-zero-corrected-centered-t-original-NSPS-ten-by-two-and-sextic.md)：5ebffd唯一2.776731405秒/0，完整NSPS普通均值来源、中心qω及两行/倍数全返。C6的(u,Q,t)度36/23/6、总44，t头总38未付；头补图必要代数12生成。H6/H8与头0全保，六原终端乘子尚未返回，未外推全图。
-
-- [R267：单前向列紧性与原稳定闭根](results/R267-appendix-single-forward-column-compactness-and-original-stable-root.md)：同一A_n∈C′、A_n²强趋C及循环p上A_np一强子列，给真实两列闭图、DomS²=DomS、S²=C及Sp=f；RanS含循环Cp，m0≥1返原普通M。适用YN PtΩ及CW_nPtΩ，实际紧性未付；不需p∈RanS、不倒推逆列。
-
-- [R150：正确Phi斜率补图的中心化与完整NSPS三次两列](results/R150-appendix-unit211-Phi-zero-corrected-t-slope-centering-and-original-NSPS-cubic-pairs.md)：ω=Z+At+B不增分母，使f,V对t仿射；qω两系数t≤2。先按真三均值降完整NSPS，再一次仿射换基，给两列各t≤3与精确I6十行；固定二阶scalar≤6但尚不预报非零。H6/H8整零保，纸证无新执行。
-
-- [R150：独立P判别式、同Q唯一约化与2394维Artin包络](results/R150-appendix-unit211-hk-independent-P-discriminant-unique-reduced-Q-and-2394-Artin-envelope.md)：首次0.053066027秒/0，新112次判别式QQ因子最高31，故两个谱域的P可分；原四阶Q结式的旧支持全为DVR单位，Smith一阶赋值给同Q gcd恰一次。必要权基≤399约化，比值/Gram包络≤2394，另添U0≤7182；未计算显式u/Q或原八z，未判空。
-
-- [R150：整个W/b0的原t参数首一λ二次与精确两列环境](results/R150-appendix-unit211-W-entire-b0-original-t-parameter-monic-lambda-two-and-exact-I4.md)：纯权原三均值组合直接给λ²−a(t)λ−b(t)，t度1/2；保一般W的−bcΦt恢复项及既有整Lhalf付款，与旧(λ,f)图双向。原I4八行、I6十二行均在首一环境中精确，原商不假定自由；无新执行或排空主张。
-
-- [R150：正确Phi的原t参数N1、两条斜率曲线与精确六行二列](results/R150-appendix-unit211-Phi-zero-corrected-t-parameter-N1-two-slope-curves-and-six-by-two-model.md)：317928首次28.214213199秒/0；三均值规则、原λ3、完整极化N1和两列呈示全返。纯权斜率剩H6/H8各一次，在其补图原I4精确首一二次加六行；两个完整零曲线保留，未判空。
-
-- [R150：W/b0整个交叉头零支排除与全局det=1原I4](results/R150-appendix-unit211-W-b0-cross-zero-complete-original-weight-unit-and-global-det-one-I4.md)：cb71首次0.772347633秒/0，三个完整常数域中原三B1的ν-gcd均8→3→3，旧paid支持删尽后实际原单位返回。结合旧G5用CRT得(B11,B21,B31)=A_W；纯权可逆行变换给全b0四式精确呈示，不反演G或几何头。b0仍未排空。
