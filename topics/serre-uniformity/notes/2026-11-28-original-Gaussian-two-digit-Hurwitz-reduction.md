@@ -666,3 +666,129 @@ $$
 其它 $i=2,4$ 槽、$d=8$ 矩、原最高中央值及 arithmetic
 unsmoothing 均不由此消失，仍须保各自全部乘积和实际 Bernoulli mask。
 全部推导为原函数、有限系数与残数的纸面恒等式，无数学程序执行。
+
+
+## 9. 两个完整 Appell 类别与原八次矩的前两槽
+
+本节只扩展上节已经核准的正 multiple-$p$ 读取。
+为避免与原 Kronecker 的 $c_s,d_s$ 混用，写
+$$
+\mathcal R_j=D^{p-j-1}x\quad(1\le j\le4),
+\qquad \mathcal R_1=\Psi,\quad
+D\mathcal R_j=\mathcal R_{j-1}\quad(2\le j\le4).
+$$
+在同一原函数域中有
+$$
+\boxed{\begin{aligned}
+6\beta^2\mathcal R_3
+ &=\Psi^3-3x^p\Psi-2y^p,\\
+24\beta^3\mathcal R_4
+ &=-\Psi^4+6x^p\Psi^2+8y^p\Psi+3x^{2p}
+      +\epsilon_{\rm inv},
+\qquad \epsilon_{\rm inv}\in\mathbf F_p .
+\end{aligned}}
+\tag{G2.30}
+$$
+这里完整保留第二式的常数，未将它认成原 $c_4$ 或设为零。
+
+### 9.1. 三次、四次身份的函数域证明
+
+第一式右边的导数是
+$3\beta(x^p-\Psi^2)=6\beta^2\mathcal R_2$。
+两边的差因此是 $p$ 次方。
+三个最高 $3p$ 阶极的系数分别为 $1,-3,2$，恰相消；
+其根属于 $L(2O)$。
+差的 $\mu_4$ 角色为 $i^3=-i$，而该空间的 $p$ 次方
+只有常数与 $x^p$ 的角色，故差为零。
+
+再对第二式右边的非恒定部分求导，得第一式的
+$4\beta$ 倍，恰为 $24\beta^3\mathcal R_3$。
+差同样是 $p$ 次方；其 $4p$ 阶首系数
+$-1+6-8+3$ 为零，根属于 $L(3O)$。
+这一次角色为一，$L(3O)=\langle1,x,y\rangle$ 中只剩常数。
+所有函数在 $\mathbf F_p$ 上，得到 (G2.30) 所写的
+$\epsilon_{\rm inv}\in\mathbf F_p$。
+这个证明没有消去任何低乘积。
+
+### 9.2. 两个带安全范围的正指数读取
+
+由 (G2.23)、(G2.20)，在正 multiple-$p$ 次数中，
+$\mathcal R_2$ 只贡献
+$-(C_2)^p/(2\beta)$；
+其余项的指数为 $1$ 或 $2\bmod p$。
+直接读取 $D^{p-3}x$ 的下降积仍为一，故
+$$
+\boxed{
+G_{pr-1}
+ =-\frac{[v^{r-1}]C_2(v)}{2\beta},
+\qquad 3\le r\le p-4,\quad r\equiv3\pmod4 .
+}
+\tag{G2.31}
+$$
+最大的实际读取次数为 $p(p-5)$，严格小于
+平方后首个可能误差 $p^2-2p-1$。
+这条式子同时包含上节的 $r=3$ 和 $r=p-4$。
+
+对 (G2.30) 第二式，代入
+$\Psi=\zeta_{<p}^{\,p}-\beta v$。
+除去 $v$ 的正次项后，其非恒定 multiple-$p$ 部分恰为
+$-C_4(v)^p$，其中 $C_4$ 是 (1135.10) 的完整原列，
+包括 $-3x^2-12a/5$。
+$\epsilon_{\rm inv}$ 及这里的常数差都只贡献指数零。
+其它展开项的 $v$ 次数为 $1,2,3,4\bmod p$，不会贡献本次读取。
+
+对 $M=pr-3$，原
+$[v^{p(r-1)}]D^{p-5}x$ 的下降积与 $(M-1)$ 合成
+$(-4)(p-5)!=1/6$。
+因此
+$$
+\boxed{
+G_{pr-3}
+ =-\frac{[v^{r-1}]C_4(v)}{4\beta^3},
+\qquad 5\le r\le p-6,\quad r\equiv1\pmod4 .
+}
+\tag{G2.32}
+$$
+四次乘积的保守误差界是 $p^2-4p-1$，
+而本式最大的读取为 $p(p-7)$，严格更低。
+原 $C_4$ 的最大总权 $r+3\le p-3$，
+所以所需 $\zeta$ 前缀也全部在已付安全权内。
+这些界同时控制有界整 lift 的差及 logarithm 换元；
+没有将低精度 $\Psi$ 的四次方用于未支付的高窗口。
+
+### 9.3. 原 $d=8$ 矩的实际前两槽
+
+按 R1135 §1、(1135.7)、(1135.10) 的原列定义，
+$$
+d_1=\frac12[v^{p-9}]C_2(v),\qquad
+c_3=\frac1{24}[v^{p-7}]C_4(v).
+$$
+在 (G2.31) 取 $r=p-8$，在 (G2.32) 取 $r=p-6$，准确得
+$$
+\boxed{\qquad
+G_{p^2-8p-1}=-\frac{d_1}{\beta},\qquad
+G_{p^2-6p-3}=-\frac{6c_3}{\beta^3}.
+\qquad}
+\tag{G2.33}
+$$
+代回原 (1168.29)，保其 binomial、$(i+1)^{-1}$ 及 Hodge 基：
+$$
+\begin{aligned}
+\mathcal R_{8,1}(y_8)
+={}&-\frac{d_1}{\beta}\eta^8
+    -\frac{56c_3}{\beta}\omega^2\eta^6\\
+ &+14\beta^4G_{p^2-4p-5}\omega^4\eta^4
+    +4\beta^6G_{p^2-2p-7}\omega^6\eta^2
+    +\frac{\beta^8}{9}G_{p^2-9}\omega^8 .
+\end{aligned}
+\tag{G2.34}
+$$
+所以原 $\mathcal H_p,d_1,c_3$ 已在同一个实际第一层矩中
+得到准确系数识别，而不是从两套多项式同形猜一个单位。
+
+特别，(G2.32) 没有包含 $r=p-2$：
+原 $d=4,i=2$ 的 $G_{p^2-2p-3}$ 仍超出这里的
+四次安全读取，不能直接附送该槽。
+(G2.34) 的后三项及原中央算术去平滑也完整保留。
+这些身份不改变角色是否实际出现或是否 good，
+也未证明 $\mathcal H_p=0$、$\Delta_{\rm low}=0$ 的联合条件不可能。
