@@ -360,3 +360,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §74：完整原Robert类准确回同一signed中央系数
 
 同一完整Tate/反圆投影精确为r^ac=72f(c²−c)Fθ*ξ17及d^ac=6fH^ac A_p ξ1；所有有限CW读者的符号、绝对因子、实际Betti/Tate及primitive Euler同留。原中央坏等价d^ac∈T³V*且自动升T⁴，有限层域正规基未排除此整除。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §75：原中央二阶的逐整精度有限Kummer幂充要测试
+
+j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零，当且仅当pᵏ整除原[T²]A_p。原0/1项、完整Tate和真实Δ不变下降全付；非平凡Δ型使H0/H2消失、非平坦Shapiro系数仍精确且res单射。仍须对无穷p真正检出非幂。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

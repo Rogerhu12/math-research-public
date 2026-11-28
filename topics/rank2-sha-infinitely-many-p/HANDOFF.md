@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；两库pack逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128和/tmp/rank2-0b097461-private-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
-- 公开2026-11-28 14:13:18 UTC实际pull --rebase，读取main 470e14a5af1ecaceae962748668446a467c94dd0；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 14:13:14 UTC实际pull --rebase至16ad5fb1ffc09661d25d1c327ba3832655b15c6e；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 14:13:34 UTC实际pull --rebase，读取main 0b21995bbfe0237716649c285eb75749290792b0；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 14:13:30 UTC实际pull --rebase至612da43ff8c1275eda38491f92dcb8c871031675；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3286/47657850B/tree66c7b39b38a51b7f42377cd5ef92ac48befad1d3；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3288/47675692B/treefd7e724d9e8e21583370b4d76e8bc1ce5819092b；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -30,7 +30,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 原两/三位与三个实际目标：R1067
 
 [原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[56–73](results/R1067-original-three-target-units-and-integral-isotropic-source.md)、[74起](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)；所有旧槽/精度/原模型见归档，不重做。EN三位/Ed两位首剩余仍容许坏j1。九17标记的三实际中心给J=3Σr_i^uI_i，Gaussian Gwt非零且三中心比模固定S-unit秩2，但J′/3=Gwt+ΣI_i′的完整过收敛余积分仍可抵消；复阶2/(p−1)只排有限覆盖代数化。
-§§62–65原3024K严格范数相容，全p挠真S,p-unit；原b⊗V17的289真实平移全保Ci/参考逆，偶log奇矩零不代原Rubin。§66原1008D同样严格范数，Klein值无Teich，Hall保G因子。§§67–68真wild Kummer及全部原AH3加权逐纤维log非零，未与J′等同。§69原全驯dlog准确回Hecke中央L/R716 Hall平方，尚未证明其非零。§70全除子Poincaré对角=C*u(j)Jp(j)²，二阶2C*u(0)Jp′²，原κ0/双周期/θ⁻¹³全付。§71完整f与τ⁻¹型的平凡/首wild Kummer非零，M=p的ε(p)保留。§72同一列在整双变量LT模恰−H/(12J)乘原Robert列；完整T⁻¹后回AL4，仍容许中央高阶零。§73所有双变量有限角色非零，真实d_j下降Φ_j后给τ型域正规基；§74全CW/绝对周期给d^ac=6fH^ac A_p ξ1，原中央坏恰T³整除并自动T⁴；所有有限角色非零未排除它。
+§§62–65原3024K严格范数相容，全p挠真S,p-unit；原b⊗V17的289真实平移全保Ci/参考逆，偶log奇矩零不代原Rubin。§66原1008D同样严格范数，Klein值无Teich，Hall保G因子。§§67–68真wild Kummer及全部原AH3加权逐纤维log非零，未与J′等同。§69原全驯dlog准确回Hecke中央L/R716 Hall平方，尚未证明其非零。§70全除子Poincaré对角=C*u(j)Jp(j)²，二阶2C*u(0)Jp′²，原κ0/双周期/θ⁻¹³全付。§71完整f与τ⁻¹型的平凡/首wild Kummer非零，M=p的ε(p)保留。§72同一列在整双变量LT模恰−H/(12J)乘原Robert列；完整T⁻¹后回AL4，仍容许中央高阶零。§73所有双变量有限角色非零，真实d_j下降Φ_j后给τ型域正规基；§74全CW/绝对周期给d^ac=6fH^ac A_p ξ1，原中央坏恰T³整除并自动T⁴；§75实际Y_k=Σa⁻¹binom(−s(a),2)[a]d_(k+1)为零⇔pᵏ|[T²]A_p；0/1项真零、整控制及res单射全付，尚须无穷p非幂。
 
 ## 原中央与完整全层：R1070/R1072
 

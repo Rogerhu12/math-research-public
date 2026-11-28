@@ -499,3 +499,9 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:13:05 UTC到e14d69d8fbc101270a48c094d457e4a63011348e，私库2026-11-28 14:12:55 UTC到6b91001b227e31fa54615941e7510f684baf3277；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47657850B/tree66c7b39b38a51b7f42377cd5ef92ac48befad1d3，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 14:13:18 UTC到470e14a5af1ecaceae962748668446a467c94dd0，私库2026-11-28 14:13:14 UTC到16ad5fb1ffc09661d25d1c327ba3832655b15c6e；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3286/47657850B/tree66c7b39b38a51b7f42377cd5ef92ac48befad1d3，无>5MB。
+
+## 2026-11-28 14:13:24 UTC：R1067 §75：原中央二阶的逐整精度有限Kummer幂充要测试
+
+根手核j=k+1使两完整Tate及反圆三阶系数平凡、binom提升独立；BKO(2.10)/Shapiro后用Δ残余τ^p及Tate对偶τ消H0/H2，逐有限过滤付非平坦精确basechange。膨胀限制用Δ不变量零付res单射，Mackey保持完整a⁻¹而不重乘Norma；原T²及整signed基把完整X³商零准确读为二阶pᵏ整除。非零特征零log不代有限Kummer非幂。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 14:13:34 UTC到0b21995bbfe0237716649c285eb75749290792b0，私库2026-11-28 14:13:30 UTC到612da43ff8c1275eda38491f92dcb8c871031675；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3288/47675692B/treefd7e724d9e8e21583370b4d76e8bc1ce5819092b，无>5MB。

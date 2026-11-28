@@ -103,3 +103,98 @@ $$
 $$
 R303(6)又使右端在坏中央时自动加强为 $T^4$。这是真正原
 signed 类的整除，而不是(AO1)的有限 Kummer 对数非零断言。
+
+## 75. 原 $[T^2]\mathcal A_p$ 在每个整精度的有限 Kummer 幂充要测试
+
+令 $k\ge1$、$j=k+1$，沿用(AO1)下降到 $\Phi_j$ 的实际
+$d_j\in e_\tau(U^1(\Phi_j)\otimes\mathcal O)$。
+$A_j^\times=(\mathcal O/p^j)^\times$，依原反圆生成元写
+$[a]_{\rm ac}=\gamma^{s(a)}$，$s(a)\in\mathbf Z_p$。
+对模 $p^j$ 的 $a$ 取任一 $\mathcal O^\times$ 提升，
+下式的系数均读在 $\mathcal O/p^k$：
+$$
+ Y_k=\sum_{a\in A_j^\times}
+           a^{-1}\binom{-s(a)}{2}\,[a]d_j\quad\in
+  (\Phi_j^\times/(\Phi_j^\times)^{p^k})
+                           \otimes_{\mathbf Z/p^k}(\mathcal O/p^k).
+$$
+加法记号表示单位的乘法 Kummer 群及外部系数张量。
+$1+p^j\mathcal O$ 的反圆指数属于 $p^{j-1}\mathbf Z_p$，
+因规范的 $\log q_{\rm ac}$ 赋值为一；二可逆，故 $Y_k$ 与
+各提升无关。它读取(AN1)的真实 $D_{p^{-j}t}$ 与全驯系数，
+或可用(AN4)的整 Robert 单位重建。精确地，
+$$
+ \boxed{\quad Y_k=0\quad\Longleftrightarrow\quad
+              [T^2]\mathcal A_p(T)\in p^k\mathcal O.\quad}          \tag{AQ1}
+$$
+$Y_k$ 非零对这个 $p$ 即已强迫通常全 $\Sha[p^\infty]$ 有限。
+它不是特征零单位对数的非零测试。
+
+证明。记 $T'=T_\pi^{-1}(1)$、$R=(\mathcal O/p^k)[X]/(X^3)$。
+对 $T'_R=T'\otimes R$ 另以 $g\mapsto(1+X)^{-s(g)}$ 给
+Iwasawa–Shapiro 的逆群作用。在系数环中因此 $\gamma$ 的
+模变量仍为 $1+X$；若同时采用相反群环约定，应作
+$1+X\mapsto(1+X)^{-1}$，其在 $X^2/(X^3)$ 恒等。
+因 $(1+X)^{p^k}=1$，此系数分解通过第 $k$ 反圆有限层。
+有自然同构
+$$
+ V_\infty^*/(p^k,T^3)\simeq H^1(\Phi,T'_R).                      \tag{AQ2}
+$$
+具体，BKO §2.2(2.7)、Lemma 2.2(1) 给有限群环
+$\mathcal O[\Gamma/\Gamma^{p^k}]$ 的准确控制而非仅有有限核余核。
+先模 $p^k$ 再用 Shapiro，得到同一有限群环模 $p^k$ 上的
+$H^1$；模 $p^k$ 的满射使用 $H^2(\Psi_k,T')=0$，由局部对偶
+及对偶 Tate 格的剩余非平凡 $\Delta$ 型可见。
+再商到 $R$ 不需假定 $R$ 平坦：对有限群环模 $p^k$ 的每个
+有限子商 $W$，$\Delta$ 对 $W$ 平凡，对 $T'/p$ 的型是
+$\tau^{-1}\tau^{p+1}=\tau^p$，对其 Tate 对偶的型是 $\tau$。
+故 $H^0(\Phi,T'\otimes W)=H^2(\Phi,T'\otimes W)=0$。
+这里可按 $p$ 及反圆增广理想的有限过滤逐层论证。长正合列使
+$W\mapsto H^1(\Phi,T'\otimes W)$ 精确；对 $R$ 取有限自由
+表示即与 $H^1$ 的标量变换交换，得(AQ2)。
+
+$\Phi_j$ 包含 $E_1[p^j]$ 与 $\mu_{p^j}$，故 $T'_R$ 在该域
+平凡。限制
+$$
+ H^1(\Phi,T'_R)\longrightarrow H^1(\Phi_j,T'_R)
+$$
+为单射：膨胀限制的核是 $H^1(A_j^\times,T'_R)$，
+而 $A_j^\times=\Delta\times G_j$，$|\Delta|$ 与 $p$ 互素，
+$T'_R$ 的 $\Delta$ 不变量为零，Hochschild–Serre 使这个群为零。
+现在用 BKO(2.3)–(2.4)记录的**有限模 Tate 扭转**：第 $j$ 层
+的 Kummer $d_j$ 张量所选 $Q_j^\pi$ 对应的对偶基及 $1\in R$，
+由 corestriction 产生(AQ2)下的有限类。此处可直接从 Shapiro
+映射看出这一步：先到 $\mathcal O/p^k[\Gamma/\Gamma^{p^k}]$
+的指标列，把该层的相容单位推成基类，再将 $[a]$ 送到
+$(1+X)^{s(a)}$。也即从给定层作 norm，此后每层追加
+$1+p^j\mathcal O$ 时 $a^{-1}$ 与 $s(a)$ 在 $R$ 内均平凡，
+所以相容性确保同一个类。若在 $\Delta$ 下降上取不变量的
+归一迹而非直接 corestriction，两种得到的类只差
+$|\Delta|=p^2-1$；下述检测及每个整精度完全相同。
+
+限制回 $\Phi_j$ 后，Mackey 的 $\operatorname{res}\operatorname{cor}$
+是完整陪集和。在此域上 Kummer 同构及所选对偶基把所得元素
+写成（上述可逆 $\Delta$ 归一除外）
+$$
+  \sum_{a\in A_j^\times}a^{-1}(1+X)^{-s(a)}[a]d_j.               \tag{AQ3}
+$$
+$a^{-1}$ 是**完整** Tate 作用而非其 $\tau(a)^{-1}$ 部分。
+Kummer 映射与 $a$ 交换，故 cyclotomic Tate $(1)$ 已在真实
+单位的 Galois 置换中；不可再乘一次 $Na$。每个 $[a]d_j$
+作用在外部 $\mathcal O/p^k$ 张量以前的域单位上。
+式(AQ3)的二次系数恰是 $Y_k$。
+
+(AP1)与 R303(6)给 $d^{\rm ac}\in T^2 V_\infty^*$，所以(AQ3)
+的常数与一次项在真实模 $p^k$ Kummer 群中均为零。
+其二次项为零当且仅当整个(AQ3)为零；限制单射及(AQ2)
+又使之当且仅当 $d^{\rm ac}$ 在 $V_\infty^*/(p^k,T^3)$ 为零。
+$V_\infty^{*,+}=\Lambda\xi_1$ 是完整整模的直接因子，
+$6f H^{\rm ac}$ 可逆，故最后条件由(AP1)正是(AQ1)。
+特别若取相反符号，$\binom{s(a)}2-\binom{-s(a)}2=-s(a)$，
+其差是上述已经为零的一次项。
+
+对任一选定的 lifts，把(AQ3)系数提升为 $p$ 进数并在所选
+域嵌入先取普通 $p$ 对数，(AO1)可证明许多此类线性组合非零；
+(AQ1)要求的是有限 Kummer 类，须证明它没有落入 $p^k$ 次幂。
+即使非零域对数也可能达到该整除。(AQ1)尚未对无穷多个
+不同 $p$ 排除所有 $Y_k$ 同时为零。
