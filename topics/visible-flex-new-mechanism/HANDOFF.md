@@ -1,15 +1,15 @@
 # HANDOFF：大振幅新机制
 
 **进行中，未完成。** 会话 **Astra-new-mechanism-8cdb3418-20261128**，2026-11-28。
-尚无同一个固定度量、全时闭嵌入、握持变化≥.3D且reach≥.03D的完整候选。
+尚无同g、全时闭嵌入、握持变化≥.3D且reach≥.03D的完整候选。
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **14e1145d6c501018c2114884c388a0a5819a2103**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **d678ea6ac0a0ae68f2c9a509fe5db739203f7715**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **0cf60c3dafd471db5f46d7c63e4082998d4eee78**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **d678ea6ac0a0ae68f2c9a509fe5db739203f7715**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
-[继承完整H](https://github.com/Rogerhu12/math-research-public/blob/b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c/topics/visible-flex-new-mechanism/HANDOFF.md)及[继承完整open](https://github.com/Rogerhu12/math-research-public/blob/b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c/topics/visible-flex-new-mechanism/open.md)保全部旧前提/费用/失败/来源；压缩只索引。已读同b0865cd快照四来源H，均无可直接移交的本题合格对象；[本轮来源](notes/2026-11-28-takeover-sources-and-rules.md)。
+原完整H/open保存在本目录的提交b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c，含全部旧前提/费用/失败/来源；压缩只索引。已读该快照四来源H，均无可直接移交合格对象；[本轮来源](notes/2026-11-28-takeover-sources-and-rules.md)。
 
 ## 完成条件
 
@@ -58,3 +58,5 @@ R33相位族保全时几何，本题允许δE=0；真正缺口是大非圆核心
 [R628](results/R628-double-flat-kernel-and-nonzero-second-order-port.md)已证同一光滑正w的真实全平二、三双核：中心谱4/9的调参Jac=45/16，两真实尾经有限高M层和有限宽平滑后仍准确匹配。完整二阶m1端口β趋15/8，某有限参数β>1；这是二阶系数，不是有限倾角或宏观闭族。继续解非线性三矩兼容、双共振及真实帽刚体参数；高M可能损直径/reach，须另付有限参数几何。
 
 [R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)已证未解平面度量的准确曲率三矩（用自身等温P）、固定3维投影的非线性消元、自由内帽0/1模逆及非奇异双核有限块。左尾须用准确旋转背景高度，非只加βr；全频小除数/特征返回/统一逆仍欠。下一Morse双核中心尝试同时给全频谱隙与无理角行程，不能套Hu旧背景结论。
+
+[R631](results/R631-thick-core-at-radius-four-fifths.md)给新R=.8/ε=.05厚核心：ρ∈(.14,17.153)、核心球<1.032，完整闭面若支付同球/条带.37/reach.062则δ/D≥105/344>.3。全程核心u<21.442、|P|<230；这是新设计g输入，不能跨用旧.85资格。新factory正重建外段/字典/真实模式，设计可调E，宏观候选后再冻结g精化。
