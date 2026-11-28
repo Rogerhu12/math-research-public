@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-five-cubics-actual-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-separated-fees-and-first-Phi-NV-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar同P/双Q/费用：旧median/carry/TS、整数迹/Abel、二进闭域及严格I/F保，closureF=I未付。同族Pr给全旗quasi/图核心及YN²=C DN、DN收缩强*I。[固定Pt与实际分母](results/R267-appendix-fixed-numerator-actual-denominators-and-odd-cut-contractions.md)给YN QN=Pt、DN QN²=C⁻¹P2t、同向R_NM比值。MM/MN奇数时R收缩且有真实强*误差界；even二进赋值跳未付。实际QN强子列极限才给CQ²=Pt²、全旗quasi及Q⁻¹Pt闭稳定原根。仅一致界只付平方强*，弱聚点不能传平方；继续even费用/强紧性。
+原Haar同P/双Q/费用：旧median/carry/TS、迹/Abel、二进闭域及严格I/F保，closureF=I开。同族Pr全旗quasi/图核心，YN²=C DN且DN强*I；实际QN强子列才给CQ²=Pt²及Q⁻¹Pt闭稳定原根。[一个明确分离块选择](results/R267-appendix-separated-blocks-actual-even-cut-source-fees-and-fixed-denominator-divergence.md)使每固定正有理t的||YN Pt||沿偶切口趋∞，奇倍率实际收缩再给||QN||全切口趋∞，无强子列。有限解析前缀喷射下界靠原UHF头与真实全张量尾传递；不把平坦尾喷射当非零。只排这一个选择，继续重叠/耦合块费用及其他平坦分母，弱聚点仍不能传平方。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真三均值全图三生成：正确t0/A0/B0/fu/α0全闭，旧错链/bf3/d825冻、d0χ6/8/8保。真I6十五×三及两λ6完整；[整个正确Phi规范维数≤1](results/R150-appendix-unit211-Phi-zero-corrected-nonzero-weight-support-and-whole-dimension-one.md)：ed0真实2.470秒/0，固定12阶非零F∈I6且权总度≤444。434共同头零权外有限18权生成；434上有限C[λ]三生成。ρ与h1两首一二次补全Gram/孤立列，D开集不增维。全部特殊纤维保，未证有限或空；续尚未用的个别谱/完整N4(V)原行。
+真三均值全图三生成：正确t0/A0/B0/fu/α0全闭，错链/bf3/d825冻、d0χ6/8/8保。[正确Phi规范维数≤1](results/R150-appendix-unit211-Phi-zero-corrected-nonzero-weight-support-and-whole-dimension-one.md)：真I6十五×三；ed0固定12阶非零F∈I6权度≤444，2.470秒/0；434共同头零权外有限18权生成，特殊权上有限C[λ]三生成，ρ/h1首一二次恢复。尚非有限/空。05c1首次加入个别N/P及完整N4(V)四原行、十二动作与两新cofactor，120秒1GiB待实际输出；保D正乘、原I6及所有零纤维，不作完整物理充分性宣称。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
