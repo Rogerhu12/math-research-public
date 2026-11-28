@@ -2,6 +2,46 @@
   "schema": "visible-flex-actual-r262-work-orders-v1",
   "orders": [
     {
+      "id": "R319-wider-two-moment-adjacent-actual-original-comparison",
+      "after": [],
+      "script": "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
+      "sources": [
+        "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--full-sleeve",
+        ".350",
+        "--compare-only",
+        "--out",
+        "{W}/adjacent-two-moment/original-comparison.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-two-moment/original-comparison.json"
+      ],
+      "report": "{W}/adjacent-two-moment/original-comparison.json",
+      "fields": [
+        "schema",
+        "inputSHA",
+        "entrySHA",
+        "comparisonSHA",
+        "cutSHA",
+        "normalPlateau",
+        "normalTransition",
+        "k",
+        "phase",
+        "momentAdjustments",
+        "R317SourceSHA",
+        "axisRadii",
+        "heldRelativeTranslation",
+        "gridComparisons"
+      ],
+      "description": "新的两准确矩轮廓：保持R317低圆口及A圆心、总周长，.012法角过渡拓为.040，通过真实原函数两线性矩求外半径修正。对原完整74项/U0作4096/8192物理位置和两导观察；此前R21近似只指导选择，不代这项实际输入。"
+    },
+    {
       "id": "R262-adjacent-low-ports-actual-full-cut-design",
       "after": [],
       "script": "2ecf-r262-adjacent-low-ports-support-physical-cut.py",
@@ -242,6 +282,196 @@
         "stateUse"
       ],
       "description": "R319同一g真正扩大空间：加入自己NormalCurve半径与导数所给N/k、实际柱接原场差、ez/k²三列；训练/第二/曲率/独立角网对全部六个.012法角区间各加13/21/33/47真角及端点，原A+C+W和全部新列直接求六jets。新状态含inletNativeXYZ+physicalInletProfiles，旧只认native消费者不得继承。"
+    },
+    {
+      "id": "R319-actual-0350-inlet-profile-first-directed-six-jet",
+      "after": [
+        "R319-actual-0350-frozen-full-physical-inlet-profiles"
+      ],
+      "requires": [
+        "{W}/adjacent-low/h1-physical-inlet.npz"
+      ],
+      "script": "2ecf-r317-actual-inlet-profiles-directed-whole-geometry.py",
+      "sources": [
+        "2ecf-r317-actual-inlet-profiles-directed-whole-geometry.py",
+        "2ecf-r317-directed-normal-angle-moments-and-inlet-jets.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--state",
+        "{W}/adjacent-low/h1-physical-inlet.npz",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+        "--moments",
+        "{S}/2ecf-r317-directed-normal-angle-moments-and-inlet-jets.py",
+        "--start",
+        "0",
+        "--count",
+        "1",
+        "--angles",
+        "192",
+        "--depth",
+        "2",
+        "--out",
+        "{W}/adjacent-low/h1-inlet-first-directed.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/h1-inlet-first-directed.json"
+      ],
+      "report": "{W}/adjacent-low/h1-inlet-first-directed.json",
+      "fields": [
+        "schema",
+        "completed",
+        "allSelectedPassed",
+        "wholeOriginalCutPrefixCovered",
+        "physicalProfilesPresent",
+        "fullNativeAnglePeriod",
+        "analyticMomentAudit",
+        "leafUpperRelativeGramExact",
+        "leafUpperRelativeGram",
+        "unresolvedMetricBoxes",
+        "unresolvedGeometryBoxes",
+        "leafUpperOriginAndArmMixedSquares",
+        "unresolvedShapeBoxes",
+        "selected",
+        "closed",
+        "originalFieldSHA256",
+        "stateSHA256",
+        "sourceSHA256",
+        "kernelSHA256",
+        "nativeSourceCells",
+        "commonRefinedRows",
+        "acceptedBoxes",
+        "unresolvedBoxes",
+        "firstUnresolved",
+        "acceptedDirectedMinima",
+        "limits",
+        "sleeveExact",
+        "actualCuffExact",
+        "metricClock",
+        "seconds",
+        "scope"
+      ],
+      "description": "R319真实三入口列本身的首个外原W单元闭区间六jet：N/k、准确原X+C+W口差、ez/k²与新XYZ、冻结g同算。归一化法角矩用24阶解析矩和严格余项；全三个扇区而不借反射。此单元只是局部连续结果，所报两形状平方与相对Gram上端均来自本实际状态，不代全域或整闭reach。"
+    },
+    {
+      "id": "R319-actual-0350-frozen-compensated-heat-orbit",
+      "after": [
+        "R319-actual-0350-frozen-full-physical-inlet-profiles"
+      ],
+      "requires": [
+        "{W}/adjacent-low/h1-physical-inlet.npz"
+      ],
+      "script": "2ecf-r262-adjacent-compensated-heat-cut-refinement.py",
+      "sources": [
+        "2ecf-r262-adjacent-compensated-heat-cut-refinement.py",
+        "2ecf-adjacent-positive-heat-orbit.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+        "--cut",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--angular-source",
+        "{S}/2ecf-r262-cut-frozen-native-and-true-material-position.py",
+        "--direct-source",
+        "{S}/2ecf-r262-cut-same-metric-banded-direct-newton.py",
+        "--profile-source",
+        "{S}/2ecf-r262-cut-physical-cauchy-inlet-profile-refinement.py",
+        "--parent",
+        "{W}/adjacent-low/h1-physical-inlet.npz",
+        "--steps",
+        "4",
+        "--out",
+        "{W}/adjacent-low/h1-physical-heat.json",
+        "--adjacent-source",
+        "{S}/2ecf-r262-adjacent-cut-true-normal-angle-cauchy-refinement.py",
+        "--heat-source",
+        "{S}/2ecf-adjacent-positive-heat-orbit.py"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/h1-physical-heat.json"
+      ],
+      "report": "{W}/adjacent-low/h1-physical-heat.json",
+      "fields": [
+        "schema",
+        "entrySHA256",
+        "heatSourceSHA256",
+        "parentSHA256",
+        "stateSHA256",
+        "fieldSHA256",
+        "heatTime",
+        "lateGate",
+        "JacksonOrder",
+        "heightPolynomialOrder",
+        "initialGain",
+        "finalHeatGain",
+        "actualPositionVariables",
+        "metricVariables",
+        "physicalAmplitudeDifferentialAgreement",
+        "grids",
+        "initial",
+        "initialShifted",
+        "unitHeatGainOnParent",
+        "accepted",
+        "initialIndependent",
+        "independent"
+      ],
+      "description": "在同一个实际R319三入口列状态与固定g上，加入正Jackson初密度的真实逆曲率热轨道、准确入口抬升、角依赖补偿高度及晚段C²门。完整XYZ/三列与一个物理热增益共同更新，真实完整Gram/曲率决定接受；独立621均匀角加六窗47真角。保存heat专用状态键，旧native/profile几何消费者拒收；先报告热增益1的真实完整观察，即使最后热步不接受。"
+    },
+    {
+      "id": "R319-wider-two-moment-actual-full-cut-design",
+      "after": [
+        "R319-actual-0350-frozen-compensated-heat-orbit"
+      ],
+      "script": "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py",
+      "sources": [
+        "2ecf-r262-adjacent-low-ports-two-moment-physical-cut.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--full-sleeve",
+        ".350",
+        "--out",
+        "{W}/adjacent-two-moment/full-cut.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-two-moment/full-cut.json"
+      ],
+      "report": "{W}/adjacent-two-moment/full-cut.json",
+      "fields": [
+        "sourceSHA",
+        "fieldSHA",
+        "stateSHA",
+        "lam",
+        "low",
+        "phase",
+        "anchor",
+        "centralOriginalComparison",
+        "cutSHA",
+        "numericalPhysicalCoordinates",
+        "nativeD3Correction",
+        "initial",
+        "accepted",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry"
+      ],
+      "description": "同一两矩宽法角轮廓的真实全幅.350 cut设计：重新选自己的正g并更新真实XYZ。源身份、圈钟、实际位置/六jets一致；其结果不作为原R317冻结g精化，后继需固定该新g再加密。"
     },
     {
       "id": "R262-recover-actual-low35-cut",
