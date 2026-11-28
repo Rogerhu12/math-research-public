@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGXW：完整2962外域普通源已实际完成，保留真实宽上界](results/R149-supplement-actual-complete-ordinary-exterior-wave-and-wide-directed-bound.md)：真46151646115/1、job140999361779全2962新分片成功；1985B3adf3c33…保整件，strict自然253858721.08722228/mixed4410891605848.822，总4411145464569.909、共同54698203760666.87，5.5门false只是宽上界。原非零势平移/3056原行/14来源保；非局部/独立mean/端点另付。
+
 - [AGNF：全有限真非局部与独立mean实际完成](results/R149-supplement-actual-complete-finite-genuine-nonlocal-and-mean-rows.md)：真46150791569/1全1136组/16slab/97..2²⁰/two signs/两真列成功；2754B38ef9f41…与43whole全准入。两J/五mean/typed g1H⁻²ᐟ³+g2保，无额外J；原Ai natural .102516/common1.271201，双列 .202863/2.515496，非local/全∞/全inverse。新strict-cut可只组合原完整行。
 
 - [AGPM：全变截断势与复频格实际完成](results/R149-supplement-actual-full-variable-cutoff-and-complex-frequency-slabs.md)：真46151659061/1全52×256=13312闭格/4contours16arcs成功，whole1278Bf7616d0d…；real B lower208.61567607679524且whole complex<276，九原transverse上界及3435857/3868281B私件双SHA保。真实partial cutoff/势非零translation不删，GTW新ordinary receiver接续。
