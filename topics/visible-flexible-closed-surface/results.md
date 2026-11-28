@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R285：完整真实无限尾二次模的全闭一阶等距弯曲](results/R285-elliptic-meridian-loops-close-the-true-infinite-second-mode.md)（2026-11-28）：正半径椭圆型回路从任意外端直线命中中央反射条件；实际闭图应变准确为正二次量。
+
 - [R283：真实非椭圆母线环带的全域嵌入与双侧reach](results/R283-nonelliptic-accurate-rulings-global-reach.md)（2026-11-28）：两种真实Γ95、三个长度，入口凹边界、出口和全部跨点对均覆盖；p32原长reach≥.222。
 
 - [R282：回折开发端口的独立高度及方向控制](results/R282-returning-developed-ports-with-independent-terminal-tangent-and-height.md)（2026-11-28）：完整参数矩形Jacobian>3/50，中央/两新尾/固定帽三分量全时reach≥.097；两个连接带尚待。

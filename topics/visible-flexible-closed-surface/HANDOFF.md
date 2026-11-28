@@ -48,6 +48,8 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-live-stadium --> [p32 同 g 在全部七个几何 guide 上压谱，288 步后 G11 .10546/12.6543/held .64580。](notes/2026-11-28-2ecf-stadium-p32-seven-physical-guides.md)
 
+<!-- 2ecf-r285-loop --> [R285](results/R285-elliptic-meridian-loops-close-the-true-infinite-second-mode.md) 支付真实全尾到中央的非刚性二次模闭合。回路总高可调，小幅真实图误差为正二次量，消去该项及强尺寸指标仍待。
+
 ## 工作位置与接续
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong真单位材料速度/强几何完整位置，m12正解析中央/真Γ95与适配支撑平面，exact真实无限m2尾/新短前缀与非线性幅度；root扩大平领的完整新场及同g实际位置。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
@@ -56,4 +58,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:38:45 UTC；已读公开 main `8e507b14177ed3797ea9523dce26007d7c1bb5df`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:38:56 UTC；已读公开 main `c59328e276babbe97e4c55d378f59416e7879892`，根/课题 README 逐差无变化。
