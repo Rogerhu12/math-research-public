@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：eaba43805d338f5ba039575717f535e2cc8c20ff**（2026-11-28 15:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 14:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：d04058984763feb313956f93b3218c57e6bc6bc3**（2026-11-28 15:05 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 14:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 14:21:47 Asia/Taipei，Actions run46116227337/job140890566799，blob:none浅clone后真实pull --rebase至7f1461be；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤15:11、pull≤15:21。本地14:21仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -32,9 +32,9 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1164 §§1–13](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)原inverse-Miller/first-Weil、pointed全塔和整PD cocycle/全部同伦已付。SS actual frames为a·t/tP、a，div_model f=N(P−O)−Nv_L(a)F，先NP=0消完再lift；原theta/closed Cor、LT c0与ordered修正全保。完整符号/normal入口见原文与R1166。
 
-[R1165 §§1–10](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)原odd两开集的整filtered收缩π=(Res(αU/t−hηV),Res(hω))已付；tensor/projectors保底log cone、N双对角/γp carry/I_h精度。§10 actual U全局Bezout–Newton、V的t^p Hensel及p-small I给F1=(ΦUαU,ΦVαV,ΦUh+IαV)，chainwise可除性完整。Φ_M=πFι及Q=πF_rH的两residue皆明确，cone第二槽+Qα、有序−βδ保留。继续原ambient PD/source比较和normal/F0实际读取，不仅凭Φ_M令Q0。
+[R1165 §§1–10](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)原两开集整filtered留数SDR、全tensor/projectors、log cone及N双对角/γp carry/I_h精度已付。actual U Newton、V Hensel与p-small I给F1 overlap ΦUh+IαV；Φ_M/Q两residue、cone +Qα及ordered −βδ完整。模型比较R1166已付，继续normal/F0实际值。
 
-[R1166](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)原ambient P²坐标p幂F、Newton/Hensel geometric normal sections、γ_m dh→γ_(m+1)收缩及两开集完整SDR已付；I_PD是同端点p-small积分，准确等R1165 I。normal+residue cone复合保全部+Q，tensor的实际ordered同伦及primitive T h−H全给。SS时W_n=U_n，原Miller formal两frame直接适用；H0系数A/B有两residue读式。现在做实际tame Cor/第一层normal读数与中央F0，不能再列模型比较缺口。
+[R1166 §§1–13](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)原ambient normal/Čech SDR、实际I_PD=I、复合+Q及ordered primitive T h−H全付；SS W_n=U_n，H0两residue准确。新增原第一层tame S_L=⊕z^jS_F：trace无log槽e·第0块，log槽第0块·dlogu；全F/Q/Cor同源。Tr x_P^[d]=0后才消theta leading/幂项，原d4/8输入恰k_d(2)⁻¹Tr[x_P^[d]C(W⁻¹)]，W=−z³y(P(z))，无新根。继续实际normal与原中央F0，所有same-coset/ordered修正保留。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原第一层theta moment的实际tame迹输入（已证明）**：[R1166 §§9–13](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)严格整trace保无log/base-log两槽不同e因子，与全部F/Q和ordered修正交换。原系数的tame trace-zero使theta leading项在完整矩后消失；d4/8实际输入锁为W⁻¹=−1/(z³y(P(z)))，原k_d(2)和全部normal块保留，无新根或平均。
+
 - **原全Gaussian行的有限唯一逆与完整forcing（已证明）**：[R1161 §10](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)实际Sym^s的−N_s p-curvature锁一维核/余核，低偶Q_s(0)障碍保全；所有centered系数准确读为指定唯一逆的单位三角低jets。相邻算子关系保真实source，继续原mask的真正跨行和两点分离。
 
 - **原Miller源到完整coefficient cone的actual比较（已证明）**：[R1166](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)固定ambient Frobenius与整PD normal/Čech SDR，实际overlap积分认回R1165，全部+Q及external-product/primitive同伦明确。SS formal两开集准确相同，原pointed H0的两residue输入已给；继续tame Cor与实际normal/F0读取。

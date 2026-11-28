@@ -604,3 +604,400 @@ embedding、normal、Čech/Frobenius 与 external-product 比较。
   scalar comparison 与指定 primitive groupoid。
 
 全文为纸面证明，无数学程序执行。
+
+
+## 9. 原第一层 CM 标记域上的 tame PD trace
+
+以下各节只处理原 Gaussian/cubic supersingular CM 中心的
+**第一层**标记域，不把高层有 wild ramification 的域也称为 tame。
+令 $F/\mathbb Q_p$ 为实际未分歧底，已包含
+$\mathbb Q_{p^2}$ 及所需 prime-to-$p$ 辅助数据。
+需要回到原较小未分歧底时，最后再作真实 unramified trace。
+
+[R712 §2](R712-actual-M2-second-digit-and-Lubin-Tate-two-block-reduction.md)
+及 [R978 §2](R978-original-Robert-coordinate-and-pure-Hurwitz-mirror.md)
+已固定原 strict LT 坐标；在本节的 CM 情形同样使用该坐标：
+$$
+[-p]z=-pz+z^{p^2},\qquad
+[\zeta]z=\zeta z\quad(\zeta\in\mu_e),\qquad e=p^2-1.
+$$
+原标记点 $P=P(\varpi)$ 满足 $\varpi^e=p$，并且
+$$
+L=F(\varpi),\qquad
+\operatorname{Gal}(L/F)=\{\tau_\zeta:\varpi\mapsto\zeta\varpi\}
+ \simeq\mu_e .
+\tag{1166.28}
+$$
+这是同一原 $E[p]\setminus0$ 的实际单轨道；
+没有用另一个只具有相同 tame 指数的形式模型替换 $P$。
+
+### 9.1. 两个实际 PD embedding 及全部 log 尺度
+
+为免与曲线坐标混淆，本节以 $u$ 表示较小底的 embedding
+变量，而不是四线参数。定义
+$$
+\begin{aligned}
+S_F&=\mathcal O_F[u,\gamma_r(u-p):r\ge1]^\wedge_p,\\
+S_L&=\mathcal O_F[z,\gamma_r(z^e-p):r\ge1]^\wedge_p,
+\qquad u\longmapsto z^e .
+\end{aligned}
+\tag{1166.29}
+$$
+两处同记 $g=u-p=z^e-p$。这些是原 log embeddings
+$u\mapsto p$、$z\mapsto\varpi$ 的 PD rings；映射 (1166.29)
+不在计算开始前令 $g=0$。
+
+由单项式除法及相同的 divided powers，逐 $p$-进精度有
+$$
+S_L=\bigoplus_{j=0}^{e-1}z^jS_F,\qquad
+S_L^{\mu_e}=S_F .
+\tag{1166.30}
+$$
+第一式也可由
+$S_L=S_F[z]/(z^e-u)$ 的 $p$-完备形式得到。
+$\tau_\zeta$ 固定 $g$，在第 $j$ 块上乘 $\zeta^j$。
+当 $0<j<e$ 时，存在 $\zeta$ 使 $\zeta^j-1$ 为单位，
+所以第二式是整等式，不仅是有理 invariants 等式。
+
+两处 Frobenius 分别为
+$\psi_Lz=z^p$、$\psi_Fu=u^p$，系数上都是同一 $\sigma$。
+实际有
+$$
+\psi_L\tau_\zeta=\tau_\zeta\psi_L,\qquad
+N_z|_{S_F}=eN_u,\qquad
+d\log u=e\,d\log z .
+\tag{1166.31}
+$$
+第一式使用 $\sigma(\zeta)=\zeta^p$；
+不能将 $\psi$ 当成固定所有 Teichmüller 系数的映射。
+
+设 $a=\sum_{j<e}z^ja_j$。真实 trace 及 log trace 为
+$$
+\boxed{\quad
+\operatorname{Tr}_0(a)=e\,a_0,\qquad
+\operatorname{Tr}_1(a\,d\log z)=a_0\,d\log u.
+\quad}
+\tag{1166.32}
+$$
+第二式是先在 $L$ 上作 $\sum_\zeta\tau_\zeta$，
+再按 (1166.31) 识别 invariant differential。
+因此不能把 coefficient cone 的每一槽都机械乘 $e$。
+几何 differential 因子不改变 (1166.32)：
+没有 base-log 因子的项使用第一式；带一个 base-log 因子的项
+使用第二式，并保其原 wedge 次序。
+
+例如
+$\operatorname{Tr}_1(d a)=e\,N_ua_0\,d\log u
+=d\,\operatorname{Tr}_0(a)$。
+由此及 (1166.31)，trace 与总 differential、Hodge/PD
+filtration、实际 divided Frobenius 全部交换。
+它给 R1165 的完整 log-PD cone 的链映射，而不是只给
+$H^0$ 或一个没有 $N$ 的复形的映射。
+
+### 9.2. 为什么这里是原 corestriction，不是平均
+
+取实际椭圆乘积、原 coefficient projector 以及
+R1163 的小权比较。Tsuji §2 的 comparison 对底的 morphism、
+actual embedding refinements 和全部 $\tau_\zeta$ 都函子相容。
+在本处 $e\in\mathbb Z_p^\times$，有限群 invariants 为 exact。
+所以 comparison 下的 restriction 把原底 cohomology
+识别为真实 $L$-cohomology 的 $\mu_e$ invariants。
+
+这个识别也能在所选有限 group resolution 上明确实现。
+对 $\mu_e$ 的 homogeneous equivariant cochain，
+取
+$$
+(hf)(g_0,\ldots,g_{a-1})
+ =\frac1e\sum_{\zeta\in\mu_e}
+               f(\zeta,g_0,\ldots,g_{a-1})\qquad(a\ge1).
+\tag{1166.33}
+$$
+在正 group degree 有 $dh+hd=1$；
+degree zero 的余项是 invariant projector。
+对内部复形加通常总复形符号后，同一公式仍成立。
+这里的 $1/e$ 只用于消去正 group degree，
+**不**把 corestriction 改成 $e^{-1}\sum\tau_\zeta$。
+
+在 generic fibre 的原有限 étale Galois cover 上，
+restriction 后的 corestriction 是 $\sum_\zeta\tau_\zeta$，
+且 corestriction 后的 restriction 在原底是乘 $e$。
+comparison 的函子性与上述整 invariant 识别遂唯一确定：
+(1166.32) 正是原 corestriction 的实际 PD 链代表。
+这没有援用一个未给出的 wild ramified trace 定理；
+这里只使用同一 explicit tame embedding 和原小权比较。
+
+对 unit lift $V$，可直接核同一结论：
+$$
+\sum_\zeta\tau_\zeta\,d\log V
+  =d\log\prod_\zeta\tau_\zeta V,\qquad
+\sum_\zeta\tau_\zeta\,
+ \frac1p\log\frac{V^p}{\psi V}
+ =\frac1p\log
+       \frac{(\prod_\zeta\tau_\zeta V)^p}
+            {\psi(\prod_\zeta\tau_\zeta V)} .
+\tag{1166.34}
+$$
+第二式的每个 logarithm 都在 $1+pS_L$ 上。
+Miller line 的 norm 也逐 frame 使用同一乘积；
+overlap 的 $1+J$ PD logarithms 相加，
+而实际同根 phases 沿 R1164/R1159 的 cochain 留在输入中。
+
+## 10. Trace 与原 ambient、留数及 ordered products 的交换
+
+曲线 $\mathcal E$ 在本节固定于 $F$。
+$\tau_\zeta$ 只作用于实际 base/source 参数及其共轭值。
+第 3 节的 Newton normal retractions、$K_U,K_V$、
+第 4 节的 $\Pi,\mathcal I,\mathcal K$，
+以及 R1165 的 residue maps $\pi_E,\iota_E,H_E$，
+全部由同一曲线的固定公式构造，因而逐项与 $\tau_\zeta$ 交换。
+第 5 节的 actual Frobenius 及其 $Q_w$ 也交换，
+因为 (1166.31) 包括了系数的 $\sigma$。
+
+于是可在原 ambient input 上先取 trace，
+或先用 (1166.22) 投到 coefficient cone 后再取 trace；
+两者是同一链映射。base-log 项必须始终使用 (1166.32)
+的第二式。这里没有把 $Q_w$ 或法向 $g$-项设为零。
+
+对原 ordered cone product $P$，若一因子来自 $F$，准确有
+$$
+\begin{aligned}
+\operatorname{Tr}P_L(a,\operatorname{res}b)
+ &=P_F(\operatorname{Tr}a,b),\\
+\operatorname{Tr}P_L(\operatorname{res}a,b)
+ &=P_F(a,\operatorname{Tr}b).
+\end{aligned}
+\tag{1166.35}
+$$
+这是 (1166.32) 的 module-trace identity 和 $\psi$ 相容性
+逐槽给出的 projection formula。
+对两个都来自 $L$ 的因子，实际表达式则是
+$$
+\sum_\zeta P_L(\tau_\zeta a,\tau_\zeta b),
+\tag{1166.36}
+$$
+不能换成 $P_F(\operatorname{Tr}a,\operatorname{Tr}b)$，
+也不能改成两个独立的 $\zeta,\zeta'$ 求和。
+
+(1166.25)–(1166.27) 的 external-product correction
+同样对共同的 $\tau_\zeta$ 等变。
+故每个实际 central primitive 都必须连同原有序
+$\mathcal H$、cone-product 修正和 R1159 的 same-coset
+$R,L,K,\eta_d$ 一起进入 trace。
+本节给的是这些既定 inputs 的严格传递；
+没有将某个只差 cohomology class 的 primitive 任意替换为零。
+
+若原底还需有限未分歧下降，继续对实际系数 Galois action
+求和即可。这里仍取真实 field trace；
+若为证明 invariants exactness 使用平均，必须另外乘回域次数。
+源的 Weil 标记、原 Miller phase 与系数上的 Frobenius
+各沿原作用运输，不能仅凭“未分歧”将这些作用认成恒等。
+
+## 11. 原第一层完整 theta moment 的实际两个输入槽
+
+### 11.1. 原 coefficient trace 精确为零
+
+记 $x_P$ 为 (1166.23) 在 $N=p$ 的
+**实际 pointed Miller** coefficient $H^0$ 代表。
+这里先用其定义，不预用任何待算的 $A_P,B_P$ 显式值。
+沿 R1163/R1164，它准确对应 $P\in E[p]$。
+对 $d=4,8,12$，令
+$x_P^{[d]}$ 为同一 normalized signed-projector 下的
+pure power；它对应 $P^d$，不另乘 $d!$。
+
+在 $\mathbb F_{p^2}$ 上，原 CM tame action 的两个
+characters 是 $\zeta,\zeta^p$。
+其 $\operatorname{Sym}^d$ 的 characters 因而为
+$\zeta^{\,d+(p-1)i}$，$0\le i\le d$。
+由于 $0<d\le12<p-1$，
+所有这些指数严格介于 $0$ 与 $e=p^2-1$ 之间。
+故
+$$
+\boxed{\qquad
+\sum_{\zeta\in\mu_e}\tau_\zeta x_P^{[d]}=0
+       \quad\text{in the actual coefficient }H^0 .
+\qquad}
+\tag{1166.37}
+$$
+coefficient cone 在此 degree 没有负一项，
+所以 (1166.37) 也是所选 $H^0$ 链代表的字面等式；
+不是把一个未知 boundary 丢掉。
+此证明不需要 Bernoulli-unit 条件。
+
+### 11.2. 正规化 theta 时哪些项确能消去
+
+固定原实际辅助数 $c$，$(c,p)=1$，并令原
+$k_d(c)=c^2-c^{-d}$ 为单位。
+在原 formal group 上，trace-fixed theta 的 divisor
+为 $c^2[O]-[E[c]]$；
+所有非零 $c$-torsion 与原 formal identity disc 分离。
+因此在 $p$-local multiplicative group 中可写
+$$
+[\theta_c(P(z))]
+ =[a_c]+(c^2-1)[z]+[V_c(z)],
+\qquad
+V_c(z)\in1+z\mathcal O_F[[z]] .
+\tag{1166.38}
+$$
+$a_c$ 是同一 theta 和 strict LT coordinate 的实际 leading
+常数类，不能事先改为 $1$。
+
+若原 theta 先以 prime-to-$p$ 次幂的实际函数给出，
+先取该函数的真实 leading，再对 normalized
+$1+z\mathcal O_F[[z]]$ unit 取唯一同次根：
+系数递推只除这个 prime-to-$p$ 次数。
+这正是原 $p$-local Kummer automorphism，
+不另加一个有待选择的 field root 或 period。
+
+原 $\kappa(a_c)$ 来自底，$\kappa(z)$ 在此 PD model 中是
+$(d\log z,0)$，而 $\tau_\zeta z/z=\zeta$
+的 $p$-primary Kummer class 为零。
+其实际 symbol 也为零，因为
+$d\log\zeta=0$、$\psi\zeta=\zeta^p$。
+结合 (1166.37) 及真实 projection formula，
+(1166.38) 的前两项在完整 coefficient trace 中确实消失。
+这是由原 all-vector sum 付清的消去；
+不允许在单点的 Kummer class 或 central primitive 中
+先删除 $a_c$ 和 $z^{c^2-1}$。
+
+定义
+$$
+D_c(z)=\frac{N_zV_c(z)}{V_c(z)},\qquad
+L_c(z)=\frac1p\log\frac{V_c(z)^p}{\psi V_c(z)} .
+\tag{1166.39}
+$$
+两者为整输入：第一项是实际 logarithmic derivative；
+第二项的比值在 $1+p\mathcal O_F[[z]]$。
+无需假定未经微分的 $\log V_c$ 本身在整格中。
+这些单位按原实际 torsion specialization 给出，然后在
+同一 ambient ring 中取显示 lift；
+没有要求 $\psi$ 保持 $z^e-p$ 的理想。
+
+### 11.3. 原 moment 的 literal coefficient-cone formula
+
+R1164 (1164.25) 的原闭点集合在这里只有一个 $L/F$ 轨道。
+原 all-vector moment 准确变为
+$$
+\boxed{\quad
+\widetilde{\mathsf M}_{d,1}
+ =\frac1{k_d(c)}\operatorname{Tr}_{L/F}
+  \left(x_P^{[d]}\cdot
+       (D_c(z)\,d\log z,\ L_c(z))\right).
+\quad}
+\tag{1166.40}
+$$
+这里是原 degree-one coefficient syntomic cone 的等式，
+并保原 gauge class，不仅是一个函数域 symbol 的等式。
+
+其 ordered-product 方向可直接检查：
+theta 在第一槽，$x_P^{[d]}$ 是 degree-zero coefficient
+cycle，满足原 divided-Frobenius 固定方程。
+theta 因子只来自 base，故其 geometric-normal
+$Q$ 为零；(1166.26) 在这次外积不增加 correction。
+内部 pure coefficient power 已在同一个 $H^0$ 中，
+没有可隐藏的负一次同伦。
+这不表示后继两个 moments 的中央 ordered product
+也没有 correction。
+
+将实际两个系数按 (1166.30) 展开：
+$$
+x_P^{[d]}D_c(z)=\sum_{j<e}z^j A_{d,j},
+\qquad
+x_P^{[d]}L_c(z)=\sum_{j<e}z^j B_{d,j}.
+$$
+则原输入为
+$$
+\boxed{\qquad
+\widetilde{\mathsf M}_{d,1}
+ =\frac1{k_d(c)}
+       \left(A_{d,0}\,d\log u,\ e B_{d,0}\right).
+\qquad}
+\tag{1166.41}
+$$
+所有 $A_{d,j},B_{d,j}$ 仍保其实际 $g$-normal coefficients。
+本式没有把 scalar 与 base-log 两槽的域次数混为一谈，
+没有额外的 $1/e$、$1/d!$ 或 half-vector 因子。
+
+R1147 §§17–18 的 primitive moment 是
+$(1-p^d)\widetilde{\mathsf M}_{d,1}$；
+第一层系数中该因子约为 $1$。
+若比较实际 compatible roots，仍使用原 same-root gauge，
+不因第一层 class 相等而把高层 gauge 删除。
+
+## 12. 辅助数 2 的无新根、无未知 leading 的实际单位
+
+对原两个 moment $d=4,8$，可直接取 $c=2$。
+[R1157 (1157.27)](R1157-original-integral-SV-Manin-triangle-filling.md)
+由真正 norm 已锁定
+$$
+4[\theta_2]=[\Delta/(16y^4)].
+$$
+在同一 strict LT coordinate 中定义
+$$
+W(z)=-z^3y(P(z))\in1+z\mathcal O_F[[z]] .
+\tag{1166.42}
+$$
+常数项为 $1$ 是因为 $t=-x/y$、$z/t\to1$，
+以及 $y=-t^{-3}+\cdots$；
+这里没有重新缩放原 $\omega$、$P$ 或 $z$。
+
+直接代入给
+$$
+[\theta_2(P(z))]
+ =\tfrac14[\Delta/16]+3[z]-[W(z)] .
+\tag{1166.43}
+$$
+因此在 (1166.40) 中可取
+$$
+\boxed{\qquad
+V_2(z)=W(z)^{-1}
+      =-\frac1{z^3y(P(z))}.
+\qquad}
+\tag{1166.44}
+$$
+没有选择 $\Delta$ 的第四根。
+$\Delta/16$ 和 $z^3$ 不是在原 theta 中被遗忘，
+而是按 (1166.37)–(1166.40) 在完整 moment trace 后消去。
+原 $4^{-1}$ 仍是同一个 Kummer tower automorphism。
+
+两个原平滑系数为
+$$
+k_4(2)=\frac{63}{16},\qquad
+k_8(2)=\frac{1023}{256};
+$$
+它们对所有 $p>37$ 都是单位。
+所以原 $\mathsf M_4,\mathsf M_8$ 的第一层实际输入
+由同一个明确的函数 (1166.44)、各自的
+$x_P^{[4]},x_P^{[8]}$ 和 (1166.41) 给出。
+对于 $d=12$，$k_{12}(2)$ 可能在 $p=43,127$ 非单位；
+该处仍取原已允许的另一个辅助数，不反除这个非单位。
+
+## 13. 本次读回关闭的接口和剩余计算
+
+(1166.28)–(1166.44) 支付的是原第一层 CM 标记域的
+真实 corestriction、完整 log 尺度、same-model
+Frobenius/residue 交换，以及两条原 theta moments 的
+实际 coefficient-cone 输入。它们对全部第一层非零点
+求和，没有删去 rank-one 或 rank-two 后继点对。
+
+原 $x_P$ 及 (1166.42) 均沿已固定的 Miller/LT 来源。
+可以进一步将它们实际展开，再使用 R1162 的 $e$-block
+到 $g$-normal 转换及 R1155 §16 的有限 FL 窗口。
+这些公式没有把函数的 $z$-series 截成 degree $12$，
+没有在 $\psi$ 前令 $g=0$，也没有由系数权幅断言
+所有高 function blocks 消失。
+
+对指定 central primitive，仍须把原完整 raw functions、
+actual root gauges、ordered products 和 cochain
+corestrictions 一并按 §§5–10 搬运。
+尤其 (1166.41) 不是 $F_0$ 中央条目的值，
+也不宣原最高组合为单位。
+本篇的新增结论不依赖一个未知的 rational comparison，
+但不把尚未展开的实际 source 数据冒称为已经读出的数字。
+
+补充 primary：Tsuji 正式论文 §2 的 (2.5)–(2.8)、
+Proposition 2.11 给本处 actual symbol/product 与底变换的
+函子性；§4 末段及 Appendix A 的 tame-base-change
+描述与 (1166.30) 相容。本篇 trace 的整分解、
+log 尺度与 finite-group contraction 已在正文直接证明。
+
+本次附节为纸面证明，无数学程序执行。
