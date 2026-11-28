@@ -4,7 +4,7 @@
 
 ## 规则与完成线
 
-- 最近实际pull后双README已读锚 `aa91da07148c1a7cf0aed3c93b954d8314715bc0`（2026-11-28 16:44 UTC）。
+- 最近实际pull后双README已读锚 `1edbcae00173aaf108a88face98e0768b9315be8`（2026-11-28 16:53 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；本轮实际pull到 501598ecab5ed0ab5529fd85bfc436c008f2d5f2，双README空diff，QUEUE仍本会话进行中。
 - 每结论先pull核根/本题README差异再push，NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn须显式gpt-6.2-astra/ultra/forknone。令牌仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 断线间小文本集成已由实际pull收齐。完整旧前沿与失败见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)、[本次压缩前H](notes/2026-11-28-handoff-before-r89.md)，不重做已登记结论。
@@ -36,7 +36,7 @@
 [真实全24列](notes/2026-11-28-analytic-complete-terminal-response-basis-actual.md)原CSR1814497d…/旧J c9c4906f…，6.976s/401576KiB；max残差1.19905e−14，原componentwise error1.0保留。与accepted raw4f503380…完整x/pscale逐位同、y/p不同，只能旧点chord。
 [真实全端口初猜](notes/2026-11-28-analytic-boundary-dn-initializer-actual.md)全64191行port-forcing残差5.4210e−18，δ=.06413464148574244；literal小S Fraction逆已付，旧F_L4.3983e−11/current-J差/非线性域仍欠，未冒完整Newton。
 [真实q列/25联合块](notes/2026-11-28-analytic-complete-fixed-q-dn-chord-actual.md)已真exit0/93.415s：原接受点全q列与完整F_L实回评，旧J混合点χN=2.47108106147e−5；保全F_L的固定δ仿射方向完整残差1.362e−18。字面末行×2^15小块Fraction逆有界，未付当前物理J逆。
-原未改generic8outer于15:33真启动TTY80294/out lambda002-actual-dn-memoized-20261128-a，原门已过、第一outer mesh已879→880→881→883，最近RMS1.38e−6/BC4.82e−9；最终physical-H尚未返回。未将新未接受初猜偷换进旧wrapper。[新固定δ完整非线性trial](notes/2026-11-28-analytic-fixed-q-affine-trial-actual.md)真exit0，原全部域样本过；affine-DN残差降至1.3981e−6但RMS1.1233e−6/BC未门，完整q_aux初猜保留、未接受，正续完整chord修正。
+原未改generic8outer于15:33真启动TTY80294/out lambda002-actual-dn-memoized-20261128-a，原门已过、第一outer mesh已879→880→881→883，最近RMS1.38e−6/BC4.82e−9；最终physical-H尚未返回。未将新未接受初猜偷换进旧wrapper。[新固定δ完整非线性trial](notes/2026-11-28-analytic-fixed-q-affine-trial-actual.md)真exit0，原全部域样本过；affine-DN残差降至1.3981e−6但RMS1.1233e−6/BC未门，完整q_aux初猜保留；[原chord实返](notes/2026-11-28-analytic-fixed-q-affine-chord-first-return.md)1全步后BC4.8714e−9/metric6.5390e−7过，仅RMS1.001564e−6未门，正从真全状态收紧内圈继续；仍仿射尾，非真DN。
 
 fixed actual-DN五源+必要memory-budget已发布为[独立准备入口](notes/2026-11-28-analytic-original-support-fixed-actual-dn-entry.md)，[四geometry reader](notes/2026-11-28-analytic-fixed-actual-geometry-consumers.md)亦已发布；仅旧compile/help，无模型/全尾/新BVP/λ1返回，不改KIND伪过旧门。
 [原支持族同g M24](notes/2026-11-28-analytic-original-fixed-support-actual-refinement.md)1032点、metric6.53252e−7仍唯一真锚；六jet Fss差2.65435e−4不称Cauchy。M32−9后全状态恢复initial8c4305b8…仅初猜，v7/v8仅备。最终完整DN固定g仍待真λ1。

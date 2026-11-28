@@ -1,0 +1,428 @@
+{
+  "scope": "Actual original finite Newton loop using the complete frozen old-matrix fixed-q affine-DN chord; RMS failed without changing the original gate",
+  "tool_terminal": {
+    "session_id": 3839,
+    "exit_code": 0
+  },
+  "actual_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-a/run.json",
+    "sha256": "440c528ac5c63d78626f78c4bf24bbd006a314fc86677ebc9d07f22a895fa7df"
+  },
+  "actual_record": {
+    "scope": "Original finite Newton loop with a complete fixed-q affine-DN chord inverse.\n\nThis is an independent finite fixed-metric solve attempt at the actual low-\nlambda source. It keeps the original complete nonlinear prefix, 879 source\nnodes, original support controls, metric and RMS/BC/domain tolerances. The\noriginal 24-step/21-backtrack Newton arithmetic and merit test are reused,\nbut every linear solve is explicitly the saved OLD-J/24-V/25-block chord.\nThe tail stays affine at its genuinely paid full-H anchor. No actual new-H\ntail response or fixed-actual-DN acceptance is claimed by this entry.\n",
+    "model_kind": "original_support_fixed_delta_affine_DN_complete_chord_v1",
+    "status": "unaccepted_complete_prefix_affine_gate_failure",
+    "entry": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_affine_chord_solve.py",
+      "sha256": "0cd1a8930632635900324394cc2f77697269c5184fed08bee36977e274a1b966"
+    },
+    "fixed_metric": true,
+    "new_global_J": false,
+    "actual_new_height_tail_requested": false,
+    "exact_nonlinear_tail_at_trial": false,
+    "accepted_fixed_actual_DN_field": false,
+    "complete_surface": false,
+    "fixed_mesh": true,
+    "progress": [
+      {
+        "event": "complete_saved_old_chord_ready",
+        "seconds": 2.396153007997782,
+        "factor_bytes": 162613340
+      },
+      {
+        "event": "original_merit_accepted_complete_chord_step",
+        "seconds": 41.53141107999545,
+        "file": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-a/unaccepted-chord-step-000.npz",
+          "sha256": "6c958284c27996634354fd092bf047094621028c7f78a8ddb94881e46b6b3861"
+        },
+        "original_local_iteration": 0,
+        "original_factor_selection_count": 1,
+        "alpha": 1.0,
+        "full_collocation": {
+          "max": 2.7710990863639907e-12,
+          "l2": 1.197773623488343e-11
+        },
+        "full_affine_boundary": {
+          "max": 4.871396373744882e-09,
+          "l2": 8.40532497476465e-09
+        },
+        "log_primary": 1.5082692717347102e-05,
+        "physical_primary": 0.060000904968387704,
+        "accepted_by_original_chord_merit": true,
+        "accepted_BVP": false
+      },
+      {
+        "event": "original_finite_chord_loop_returned",
+        "seconds": 69.65095339099935,
+        "original_loop_singular": false,
+        "RMS_max": 1.0015640433674918e-06,
+        "full_affine_boundary": {
+          "max": 4.871396373744882e-09,
+          "l2": 8.40532497476465e-09
+        },
+        "full_collocation": {
+          "max": 2.7710990863639907e-12,
+          "l2": 1.197773623488343e-11
+        },
+        "affine_physical_boundary_max": 9.742792747489764e-11,
+        "original_internal_collocation_gate": true,
+        "original_RMS_gate": false,
+        "original_affine_BC_gate": true,
+        "original_affine_physical_BC_gate": true
+      },
+      {
+        "event": "complete_physical_prefix_affine_audit_returned",
+        "seconds": 87.91353406599956,
+        "metric": 6.538980651237596e-07,
+        "all_prefix_affine_gates_passed": false,
+        "true_nonlinear_tail_unpaid": true
+      }
+    ],
+    "seconds": 87.91891142299573,
+    "prelaunch": {
+      "MemAvailable_bytes": 3952967680,
+      "disk_free_bytes": 389988352,
+      "minimum_memory_bytes": 2147483648,
+      "minimum_disk_bytes": 100663296,
+      "planned_RHS_block": 16,
+      "estimated_joint_resident_MiB": 650,
+      "estimate_not_memory_guarantee": true,
+      "automatic_wait": false
+    },
+    "inputs": {
+      "trial_report": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-trial-20261128-a/trial.json",
+        "sha256": "db76f07f19ce4470c9813d65bf2a13bd09a92917e76d90c49d87a3285597bf3c"
+      },
+      "joint_report": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/joint-block.json",
+        "sha256": "413aa6c2191d7467171bc22a1429d4ed71ab6f2a76e260a86a940282ed897d90"
+      },
+      "joint_vectors": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-dn-chord-block-20261128-a/complete-q-and-chord-vectors.npz",
+        "sha256": "0b12d40f34e478f917f4325c92a79c327d5534efaa593c7a2c4b2258a39c817c"
+      },
+      "source_run": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+        "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+      },
+      "old_matrix": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-direct-csr-m24-20261128/actual_direct_csr.npz",
+        "sha256": "1814497d5cb4d5159b3f90eb52be4ff276cf281cb4a05cc29547b2b4a179265c"
+      },
+      "basis_report": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-terminal-response-basis-20261128-a/response-basis.json",
+        "sha256": "e066c3d1a1d509d0955eedd1427fb1849018930b42faeef5b8b2e5b2af2940f7"
+      },
+      "genuine_anchor_proof": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/lambda002-actual-dn-memo-preflight-20261128/memo-proof.json",
+        "sha256": "6ac65c5d969fa7d3db2ff999021e5c083df047e7492c0489abfec64affcde20b"
+      }
+    },
+    "parameter_contract": {
+      "solver_p0": "log(actual_support_primary/source_primary)",
+      "saved_original_p0": "unchanged original additive delta increment",
+      "fixed_original_p0": -9.683937550986032e-06,
+      "physical_delta": 0.06413464112662924,
+      "gauge_q": 0.06,
+      "warp_reference_q": 0.06,
+      "source_primary": 0.06,
+      "complete_nodes": 879,
+      "complete_states": 73,
+      "complete_solver_parameters": 24,
+      "source_mean_nodes": 1168
+    },
+    "original_gates": {
+      "tol": 1e-06,
+      "bc_tol": 1e-07,
+      "physical_bc_tol": 2e-09,
+      "max_nodes": 6000,
+      "original_outer_budget": 8
+    },
+    "source_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_affine_chord_solve.py": "0cd1a8930632635900324394cc2f77697269c5184fed08bee36977e274a1b966",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_affine_trial.py": "bedb64f2480a89d717a42fc92a94c7a124834d6f2643c95ef4dc1085f7373d4f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_dn_chord_block.py": "d1a31ff589cb4e8d75850bcbd59ce1e56f3d435fcebd7c70884b5e18a13b9d95",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/accepted_newton_nodal_checkpoint.py": "11f14d4b105e2043a00180e222f30ee52ab4a8f4b1ff6aaec9920a7c03900755",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    "original_released_Newton_source_sha256": "32e1a54f3f01d079a8fb40281d52cf23481a79389a1130a94f6c403a5a0681ff",
+    "executed_Newton_source_sha256": "68b35800633d1cb43bb06825fce01edfd38466a80137da386e4b429aa865ff70",
+    "original_Newton_arithmetic_retained": true,
+    "linear_operator_is_explicit_frozen_old_chord": true,
+    "new_J_or_splu_calls": 0,
+    "last_complete_unaccepted_checkpoint": {
+      "file": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-a/unaccepted-chord-step-000.npz",
+        "sha256": "6c958284c27996634354fd092bf047094621028c7f78a8ddb94881e46b6b3861"
+      },
+      "original_local_iteration": 0,
+      "original_factor_selection_count": 1,
+      "alpha": 1.0,
+      "full_collocation": {
+        "max": 2.7710990863639907e-12,
+        "l2": 1.197773623488343e-11
+      },
+      "full_affine_boundary": {
+        "max": 4.871396373744882e-09,
+        "l2": 8.40532497476465e-09
+      },
+      "log_primary": 1.5082692717347102e-05,
+      "physical_primary": 0.060000904968387704,
+      "accepted_by_original_chord_merit": true,
+      "accepted_BVP": false
+    },
+    "raw_return": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-a/unaccepted-affine-return.npz",
+      "sha256": "842e7c8c2ec90c0ca8527f2fd719bc0f9fcd364868087c56db4fd6abb0a80d66"
+    },
+    "finite_prefix_affine_gates": {
+      "original_loop_singular": false,
+      "RMS_max": 1.0015640433674918e-06,
+      "full_affine_boundary": {
+        "max": 4.871396373744882e-09,
+        "l2": 8.40532497476465e-09
+      },
+      "full_collocation": {
+        "max": 2.7710990863639907e-12,
+        "l2": 1.197773623488343e-11
+      },
+      "affine_physical_boundary_max": 9.742792747489764e-11,
+      "original_internal_collocation_gate": true,
+      "original_RMS_gate": false,
+      "original_affine_BC_gate": true,
+      "original_affine_physical_BC_gate": true
+    },
+    "original_chord_statistics": {
+      "calls": 1,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0,
+      "accepted_steps": 1,
+      "no_step": 0,
+      "minimum_alpha": 1.0
+    },
+    "complete_chord_linear_statistics": {
+      "calls": 2,
+      "max_complete_chord_residual": 7.874759431504823e-21,
+      "max_small_residual": 1.3234889800848443e-23,
+      "max_delta_constraint_roundoff": 0.0
+    },
+    "factor_statistics": {
+      "equations": 64191,
+      "state_size": 73,
+      "nodes": 879,
+      "parameters": 24,
+      "internal_nodes_eliminated": 877,
+      "levels": 10,
+      "minimum_relative_R_diagonal": 5.5954091728240306e-05,
+      "solve_calls": 2,
+      "maximum_componentwise_backward_error": 2.568435314938354e-10,
+      "maximum_normwise_backward_error": 9.130317868437477e-27,
+      "refinement_steps": 3,
+      "stored_factor_bytes": 162613340
+    },
+    "all_iterate_checkpoints": [
+      {
+        "file": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-a/unaccepted-chord-step-000.npz",
+          "sha256": "6c958284c27996634354fd092bf047094621028c7f78a8ddb94881e46b6b3861"
+        },
+        "original_local_iteration": 0,
+        "original_factor_selection_count": 1,
+        "alpha": 1.0,
+        "full_collocation": {
+          "max": 2.7710990863639907e-12,
+          "l2": 1.197773623488343e-11
+        },
+        "full_affine_boundary": {
+          "max": 4.871396373744882e-09,
+          "l2": 8.40532497476465e-09
+        },
+        "log_primary": 1.5082692717347102e-05,
+        "physical_primary": 0.060000904968387704,
+        "accepted_by_original_chord_merit": true,
+        "accepted_BVP": false
+      }
+    ],
+    "radial_batch_statistics": {
+      "rhs_calls": 14,
+      "jacobian_calls": 0,
+      "rhs_blocks": 770,
+      "jacobian_blocks": 0,
+      "collections": 770,
+      "collected_objects": 33,
+      "collection_seconds": 16.870230147942493,
+      "exception_blocks": 0,
+      "exception_types": {},
+      "maximum_rss_kib": 602716,
+      "successful_and_exceptional_short_calls_collected": true,
+      "live_caches_cleared": false,
+      "original_exceptions_suppressed": false,
+      "original_numerical_calls_or_arithmetic_changed": false
+    },
+    "table_statistics": {
+      "hits": 0,
+      "misses": 0,
+      "key_seconds": 0.0,
+      "build_seconds": 0.0,
+      "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+      "full_basis_and_frequency_bytes_bound": true,
+      "live_flow_or_physical_response_cached": false,
+      "shared_diagnostic_dictionary": false
+    },
+    "physical": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-a/physical-unaccepted-affine.npz",
+      "sha256": "baa5f7200468701782059750914c2972050dc3342e7064a467124a91ecd0eb7e"
+    },
+    "original_physical_prefix_audit": {
+      "metric_l1": 6.538980651237596e-07,
+      "flow_defect": 9.34186180947185e-06,
+      "darboux_l1": 0.004185334804435893,
+      "kappa_sample": 8.906914314445562,
+      "radius_max": 1.0925733465722463,
+      "height_max": 0.8473640211774621,
+      "root_min": 0.002530183414289122,
+      "chart_rho_min": 0.5199999999999999,
+      "support_amplitude": 0.060000904968387704,
+      "core": {
+        "core_kind": "material-curvature-flattening",
+        "base_mode": 3,
+        "support_amplitude": 0.060000904968387704,
+        "physical_parameters": [
+          0.060000904968387704,
+          0.0005030155670668139,
+          -4.0762326082445375e-05,
+          -1.7004563585184864e-06,
+          5.691348858656152e-07,
+          1.125617087444412e-06,
+          -1.5569500075721764e-07,
+          -3.719654176359649e-07,
+          1.7148896629902536e-07,
+          1.1555310048726107e-07,
+          -1.1824303328496098e-07,
+          -1.8711643964355872e-08,
+          6.67271737308358e-08,
+          -1.302962903315532e-08,
+          -3.069987268596968e-08,
+          1.6585141126148416e-08,
+          1.2620793790077348e-08,
+          -1.587856428664186e-08,
+          2.2304101386836332e-08,
+          -5.154272478968315e-08,
+          1.836616113956047e-07,
+          4.773003118882422e-08,
+          -2.7283239347662152e-08,
+          -1.1337502428164155e-08
+        ],
+        "homotopy": 0.002,
+        "curvature_blend": 1.0,
+        "target_curvature": 0.2,
+        "circle_curvature": 0.2,
+        "halfwidth": 0.5,
+        "halfwidth_coordinate": "material-arclength",
+        "transition": 0.2,
+        "compensation_beta": 0.7287645603247317,
+        "exact_perimeter": 6.283185307179586,
+        "curvature_radius_lower": 0.5039061092699526,
+        "curvature_radius_upper": 1.4627458490577745,
+        "curvature_lower_bound": 0.683645761595665,
+        "curvature_upper_bound": 1.9844966782577347,
+        "curvature_guard": {
+          "method": "R53-convex-mixture",
+          "lower": 0.683645761595665,
+          "upper": 1.9844966782577347
+        },
+        "quadrature_order": 12,
+        "integration_cells": 64,
+        "transition_cells": 24,
+        "reflection_roundoff": 2.386424391431774e-13,
+        "original_kind": "PlanarSupportCore",
+        "implementation_validation": "not yet executed when source was saved",
+        "scope": "core design only; no full metric, tail, or closed-surface claim"
+      },
+      "inlet": {
+        "position": 0.0,
+        "first": 0.0,
+        "second": 0.0,
+        "metric_l1": 0.0,
+        "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+        "unlifted_projection": {
+          "position": 2.234536696538622e-09,
+          "first": 1.876724216112151e-07,
+          "second": 1.6581430520190613e-05,
+          "metric_l1": 1.0351578472438473e-09
+        }
+      },
+      "dn_matrix": {
+        "physical_modes": 24,
+        "psi_modes": 24,
+        "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+      },
+      "terminal_height_coeff_max": 0.00016149431101614012,
+      "physical_bc_max": 9.742792747489764e-11,
+      "samples_s": 1906,
+      "samples_psi": 1168,
+      "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+    },
+    "original_metric_gate_observed": true,
+    "all_prefix_affine_gates_passed": false,
+    "raw_candidate_H": [
+      -0.00016149431101614012,
+      5.730287286716129e-06,
+      9.819012784815226e-07,
+      5.968804331033232e-10,
+      -4.388567339942366e-09,
+      -9.168787242856712e-10,
+      5.237986249701005e-11,
+      -3.0228024075344074e-11,
+      -3.1967387988717665e-12,
+      1.6388957892698539e-13,
+      1.703619789810749e-13,
+      1.2164281648378067e-14,
+      -1.1273778891492942e-15,
+      -2.531169573064834e-15,
+      1.4844932041605775e-14,
+      2.5610472123656245e-14,
+      -3.053940000281583e-14,
+      3.8786664972746003e-14,
+      -3.939873783243588e-14,
+      -5.599914555937378e-14,
+      7.490309890953569e-13,
+      -2.5311840585880347e-12,
+      6.134931709538191e-12,
+      1.099223670396545e-11
+    ],
+    "final_physical_H": [
+      -0.00016149431101614012,
+      5.730287286716129e-06,
+      9.819012784815226e-07,
+      5.968804331033232e-10,
+      -4.388567339942365e-09,
+      -9.16878724285671e-10,
+      5.237986249701006e-11,
+      -3.022802407534407e-11,
+      -3.196738798871767e-12,
+      1.6388957892698536e-13,
+      1.7036197898107486e-13,
+      1.2164281648378064e-14,
+      -1.1273778891492945e-15,
+      -2.531169573064834e-15,
+      1.4844932041605775e-14,
+      2.5610472123656236e-14,
+      -3.0539400002815826e-14,
+      3.8786664972746003e-14,
+      -3.939873783243587e-14,
+      -5.599914555937378e-14,
+      7.49030989095357e-13,
+      -2.5311840585880347e-12,
+      6.134931709538191e-12,
+      1.0992236703965451e-11
+    ],
+    "final_physical_primary": 0.060000904968387704,
+    "affine_only_scope": "No actual new-H tail/J/audit, outer boundary acceptance or physical-H packet exists for this field",
+    "resource_observation": {
+      "max_rss_KiB": 602716
+    }
+  }
+}
