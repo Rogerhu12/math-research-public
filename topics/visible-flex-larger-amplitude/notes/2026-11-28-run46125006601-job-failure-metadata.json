@@ -1,0 +1,151 @@
+{
+  "schema": "completed-public-job-failure-metadata-v1",
+  "scope": "Existing official job log only; no scientific rerun or inference of unreturned mathematical results.",
+  "observed_utc": "2026-11-28 10:59:22 UTC",
+  "repository": "Rogerhu12/math-research-public",
+  "original_official": {
+    "run": {
+      "id": 46125006601,
+      "run_attempt": 1,
+      "head_sha": "386079ffa43eb45577620becb418727b8bbe153c",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-11-28T08:16:03Z",
+      "run_started_at": "2026-11-28T08:16:03Z",
+      "updated_at": "2026-11-28T09:41:54Z",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46125006601"
+    },
+    "job": {
+      "id": 140917553486,
+      "run_id": 46125006601,
+      "run_attempt": 1,
+      "head_sha": "386079ffa43eb45577620becb418727b8bbe153c",
+      "status": "completed",
+      "conclusion": "failure",
+      "started_at": "2026-11-28T08:16:06Z",
+      "completed_at": "2026-11-28T09:41:53Z",
+      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46125006601/job/140917553486",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-28T08:16:07Z",
+          "completed_at": "2026-11-28T08:16:07Z"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-28T08:16:07Z",
+          "completed_at": "2026-11-28T08:16:15Z"
+        },
+        {
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-28T08:16:15Z",
+          "completed_at": "2026-11-28T08:16:21Z"
+        },
+        {
+          "name": "Install the recorded numerical and automatic differentiation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-28T08:16:21Z",
+          "completed_at": "2026-11-28T08:16:52Z"
+        },
+        {
+          "name": "Execute public research and publish independent compact records",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 5,
+          "started_at": "2026-11-28T08:16:52Z",
+          "completed_at": "2026-11-28T09:41:49Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2026-11-28T09:41:49Z",
+          "completed_at": "2026-11-28T09:41:49Z"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-11-28T09:41:49Z",
+          "completed_at": "2026-11-28T09:41:49Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-11-28T09:41:49Z",
+          "completed_at": "2026-11-28T09:41:49Z"
+        }
+      ]
+    }
+  },
+  "original_log": {
+    "bytes": 313125,
+    "sha256": "cda0f8ca5f2b27506a53a826b4ce75188612ae780259371fa8c1011eeb8a4ee1",
+    "line_count": 3016,
+    "complete_log_only_on_runner": true,
+    "raw_log_committed_or_uploaded": false,
+    "decode_replacement_used": false
+  },
+  "complete_trace_segments": [
+    {
+      "start_line_one_based": 2976,
+      "end_line_one_based": 3001,
+      "bytes": 4077,
+      "sha256": "38eb5380d3e6a892e6b740523339305cf5efdd1538e6ad5d99a88767a838394d",
+      "complete_observed_trace_segment": true,
+      "full_text": "2026-11-28T09:41:49.2456205Z Traceback (most recent call last):\n2026-11-28T09:41:49.2495514Z   File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel32_geometry_locations.py\", line 369, in <module>\n2026-11-28T09:41:49.2496472Z     main()\n2026-11-28T09:41:49.2497619Z   File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel32_geometry_locations.py\", line 311, in main\n2026-11-28T09:41:49.2498969Z     followups.run_followups(repo,work,runwork,publisher,status,request,began)\n2026-11-28T09:41:49.2500183Z   File \"/home/runner/work/_temp/visible-larger-research-46125006601-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 614, in run_followups\n2026-11-28T09:41:49.2501327Z     return _Followups(repo, work, runwork, publisher, status, request, started_monotonic).run()\n2026-11-28T09:41:49.2501818Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n2026-11-28T09:41:49.2502794Z   File \"/home/runner/work/_temp/visible-larger-research-46125006601-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 569, in run\n2026-11-28T09:41:49.2503712Z     self.run_step(copy.deepcopy(pending[0]))\n2026-11-28T09:41:49.2504664Z   File \"/home/runner/work/_temp/visible-larger-research-46125006601-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 523, in run_step\n2026-11-28T09:41:49.2505569Z     self.maintenance()\n2026-11-28T09:41:49.2506468Z   File \"/home/runner/work/_temp/visible-larger-research-46125006601-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 401, in maintenance\n2026-11-28T09:41:49.2507637Z     self.poll_active_progress()\n2026-11-28T09:41:49.2508598Z   File \"/home/runner/work/_temp/visible-larger-research-46125006601-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 397, in poll_active_progress\n2026-11-28T09:41:49.2509562Z     self.publish(force=True)\n2026-11-28T09:41:49.2510453Z   File \"/home/runner/work/_temp/visible-larger-research-46125006601-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py\", line 257, in publish\n2026-11-28T09:41:49.2511448Z     self.publisher.publish(self.status, exit_code=code, force=force)\n2026-11-28T09:41:49.2512620Z   File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel32_geometry_locations.py\", line 240, in publish\n2026-11-28T09:41:49.2513582Z     pending=self.prepare_complete_publication(status,exit_code)\n2026-11-28T09:41:49.2513943Z             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n2026-11-28T09:41:49.2514956Z   File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel32_geometry_locations.py\", line 208, in prepare_complete_publication\n2026-11-28T09:41:49.2515887Z     self.sync()\n2026-11-28T09:41:49.2516716Z   File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel32_geometry_locations.py\", line 66, in sync\n2026-11-28T09:41:49.2554944Z ##[error]    raise RuntimeError('README changed: the research agent must read this exact diff before further computation/publication')\n2026-11-28T09:41:49.2569367Z RuntimeError: README changed: the research agent must read this exact diff before further computation/publication\n"
+    }
+  ],
+  "original_error_lines": [
+    {
+      "line_one_based": 2976,
+      "full_text": "2026-11-28T09:41:49.2456205Z Traceback (most recent call last):\n"
+    },
+    {
+      "line_one_based": 3000,
+      "full_text": "2026-11-28T09:41:49.2554944Z ##[error]    raise RuntimeError('README changed: the research agent must read this exact diff before further computation/publication')\n"
+    },
+    {
+      "line_one_based": 3001,
+      "full_text": "2026-11-28T09:41:49.2569367Z RuntimeError: README changed: the research agent must read this exact diff before further computation/publication\n"
+    },
+    {
+      "line_one_based": 3002,
+      "full_text": "2026-11-28T09:41:49.2670008Z ##[error]Process completed with exit code 1.\n"
+    }
+  ],
+  "complete_R734_calculation_summary_messages": [],
+  "original_mathematical_results_not_reconstructed": true,
+  "original_producer": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/recover_public_run29_failure_metadata.py",
+    "git_blob_sha": "dea2cb7f003720de5b52a87cda869a54ef813e5d",
+    "fixed_commit": "d9112d40bd141ed3e29e531beaaa022e2ba51a29"
+  },
+  "actual_log_recovery_run": "46137684288",
+  "actual_log_recovery_attempt": "1",
+  "actual_log_recovery_head": "53df0cd5915b44b7b85e13deb4c82d7f6bfff75d",
+  "rules_read_commit": "9667d571a2f7d4af8f9791c05ccff8ea296da8fb",
+  "rules_sha256": {
+    "README.md": "539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444",
+    "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
+  },
+  "capacity_scope": "Complete current origin/main topic tree blob.size metadata plus this whole new note; no sparse-checkout undercount or lazy git-ls-tree -l blob reads.",
+  "source_sha256": "33fa7af3328d5006c6c3a80c458f48016215a000ecaf6a7d4937eebafaf8e639",
+  "scientific_computation_executed": false,
+  "fixture_or_new_gate_added": false
+}
