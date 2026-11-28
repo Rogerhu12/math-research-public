@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R261：强前缀同 g 两次真实物理加密与整带 reach](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)（2026-11-28）：H17→H33→H65 两次 U_新<L_旧；H65 完整全域低于2e−9，两新环带均reach>.1013，准确Γ95两端迹、微小二进切点过渡均付。后缀/整闭另算。
+
 - [R260：准确coast出口完整法向带](results/R260-accurate-coast-exit-normal-ribbon.md)（2026-11-28）：2048全角盒及连续±.097偏移给两定向行列式>.07439/.05209、末圈高度>.05617；水平投影单射和真实端口匹配裕量，后缀相交另付。
 
 - [R259：准确整个前缀的双侧法球与非局部reach](results/R259-accurate-whole-prefix-two-sided-reach.md)（2026-11-28）：末圈高度约束全经线，椭圆弦弧预算及边界测地凸性给全部近点短路，推出含边界整个环带reach≥1/9.867915>.1013；新后缀与改变后前缀另付。
