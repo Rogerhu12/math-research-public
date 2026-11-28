@@ -261,3 +261,7 @@
 ## R660：实际四端源的直径与双夹持窄带全时障碍
 
 [完整证明](results/R660-positive-four-end-diameter-and-thin-active-band-projection.md)用已获R651有理参数/正τ界和真实固定frame给D>15/2，原窗口横弦≤.4。保原精确共同gλ的余长，借微包真端X+λYf、固定边缘法球推得初端在直纹参考管内；全时最近投影与模二度一使整面到参考的双向距离≤.2，从而两时整像≤.4，和.3D冲突。仅排除双侧固定窄带+固定补件且含该原精确端的完成方式，任意有限λ均适用；新R654须重付实际D。另给单侧真实刚体输出片的固定度量/边缘二jets，闭合与全reach仍欠；继续活动输出端而不将障碍当完成。
+
+## R659：真实有限角单位纬圈与完整位移端口
+
+[完整证明](results/R659-finite-angle-unit-latitudes-and-full-displacement-port.md)用单位纬圈切向、零均值原函数和真实中心构造反射对称三维环带；闭合只剩实际Ty均值，三张完整度量、全部一二jet及C²刚帽端姿明确。保全位移而非小q截断的第一角端口有原度量缺陷修正，不能把二阶系数外推宏观。[实际范围](notes/2026-11-28-r659-direct-finite-tilt-latitude-scope.md)直接固定sinθ=.36和a=.075/b=.22，以全部列/完整QR正阻尼求有限场；fine过1e−6后才冻结同一E再精化。R657[实际高相邻模终态](notes/2026-11-28-r657-wide-neck-taper-natural-terminal.md)给严格颈比与宽孔，但自身中心端口未给有限角，旧6ODE不重播。

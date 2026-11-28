@@ -1,0 +1,26 @@
+{
+  "base": {
+    "a": 0.075,
+    "b": 0.22,
+    "tilt_sine": 0.36,
+    "seed_slope_peak": 0.72,
+    "seed_mode_height": 0.004,
+    "initial_pair_and_nodes": [[2, 1], [3, 2]]
+  },
+  "spaces": [
+    {"spans": 8, "modes": 6, "radial_order": 5, "azimuths": 49, "iterations": 48, "fine_radial_order": 9, "fine_azimuths": 129},
+    {"spans": 16, "modes": 10, "radial_order": 5, "azimuths": 81, "iterations": 48, "fine_radial_order": 9, "fine_azimuths": 201},
+    {"spans": 32, "modes": 12, "radial_order": 5, "azimuths": 97, "iterations": 48, "fine_radial_order": 9, "fine_azimuths": 241}
+  ],
+  "last_fixed_space": {"spans": 32, "modes": 14, "radial_order": 7, "azimuths": 113, "iterations": 48, "fine_radial_order": 11, "fine_azimuths": 321},
+  "initial_trust": 0.35,
+  "max_trust": 4.0,
+  "promoted_trust_floor": 0.1,
+  "work_l2_goal": 1e-11,
+  "freeze_fine_metric_gate": 1e-6,
+  "frozen_reference_azimuths": 513,
+  "frozen_check_azimuths": 1025,
+  "final_radial_order": 12,
+  "final_azimuths": 385,
+  "final_readout_seconds": 120
+}

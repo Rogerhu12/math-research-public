@@ -1,0 +1,70 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r659-direct-finite-tilt-latitude-v1",
+  "public_rules_read_commit": "271101c94aa69b85e243e7641c4fe5e02d739274",
+  "private_rules_read_commit": "d2b1280654639f0dbebe67c2ee9b8afca9987aeb",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py",
+  "workflow": ".github/workflows/visible-r659-direct-finite-tilt-latitude-20261128.yml",
+  "common_parameters": {
+    "max_seconds": 1100,
+    "geometry": "topics/visible-flex-new-mechanism/computations/r659-direct-finite-latitude-geometry-20261128.json"
+  },
+  "lanes": {
+    "finite-angle-latitudes": {}
+  },
+  "scope": {
+    "actual_inner_radius": "3/40",
+    "actual_outer_radius": "11/50",
+    "finite_tilt_sine": "9/25",
+    "outer_and_inner_second_jets_fixed": true,
+    "complete_original_jacobian_columns": true,
+    "body_modes": [
+      6,
+      10,
+      12,
+      14
+    ],
+    "radial_spans": [
+      8,
+      16,
+      32,
+      32
+    ],
+    "last_space_only_if_freeze": true,
+    "immutable_conditional_fixed_metric": true,
+    "frozen_angular_points": 513,
+    "independent_reference_angular_points": 1025,
+    "openblas_threads": 2,
+    "all_accepted_parameters_retained": true,
+    "previous_scientific_replay": false,
+    "nonlinear_solved": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py": "3d0f09b79e574251634157b515eee7555855e7f6ef6f606e1486f1ad092a65a5",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r659-direct-finite-latitude-geometry-20261128.json": "998e94780405321532e0dbdba5752fd21c8eae6816d1df77ec752e6f5971ddb7",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r659-direct-finite-tilt-latitude-scope.md": "6c4a07e6f7e9a8aa682ef6825a9dd8fa1489191956ef78c4fda96fc147b93862",
+    "topics/visible-flex-new-mechanism/results/R659-finite-angle-unit-latitudes-and-full-displacement-port.md": "54ae3fcf6471fb548a0cc6b196cd9ff0cb8738289c227f547e3e0b00c3da6c4e",
+    "topics/visible-flex-new-mechanism/results/R655-offset-rigid-cap-and-thick-inner-hold.md": "ad7d3e97b237272d2a943e0f34b40551eb389242b6d1a46b77b2fc2fbcffa9af",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r652-taper-matching-natural-terminal.md": "0302a859f1a866fe1aa45c33fec1e0623a0a1b1a89b9c1f6a30d3b4bf4b1d57a",
+    ".github/workflows/visible-r659-direct-finite-tilt-latitude-20261128.yml": "08da224f5bdb63093e2fe94b236be9e69f2897f809cabe95132abd45306171d9"
+  }
+}
