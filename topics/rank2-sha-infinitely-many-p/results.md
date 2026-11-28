@@ -406,3 +406,10 @@ R1065对原H34/H102用实际[p]v=pv−v^(p²)和完整Newton迹证明ψf=A0+(p²
 R1064§12用同一个primitive Cartier-dual生成元证明完整q项核平均恰为原测度pOL部分，ψ为限制后p^-1 pushforward；原A(Q_E)的1−φψ准确等于原Zp单位cut，精确等距且无新增p损。负二与完整log−E斜率测试范数分别≤1、p^-1，全部Λ′原样保留。有限F普通LT函数若来自有限固定Qp子线的Fourier测度只能为常数，故不混同新Katz对象。§13保全部κ/γ/17/whole h，以同一r_n构造真F-Tate编码H_enc，区别其与H(logG v)；真实正权读者有精确数字和成本，原完整斜率有限转置只付O(logN)额外加权精度，不制造新canonical零或Smith收益。
 
 [完整证明](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)，R36–R51；两条实际输入路径分别构造，未以ordinary盘或ψ=0代来源识别。
+
+
+### R1063 I18a / R1065 K20a–b：原全列的 E17 与 E0 模型费用
+
+模型核对明确补足R1063(I18)的E17整列与R1065(K3)首项一E0来源之间的固定费用：D17=ϑ^-4D0(ϑz)、S17=ϑ^-6S0(ϑz)、Z17=ϑZ0，故负二/正零两Hall各乘ϑ^-6，whole prefactor共17^-2。等价使用c0^(0)=ϑ^-10c0、L±=ϑell±。R1065 K20局部式本来就在E0而保持；其后接whole的原句现按K20a/b改正，R1063 I18a显写模型对照。这个p单位不改变K22–K29或原严格单Hall门。
+
+[原整列对照](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)与[实际Katz返回](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)已同步；全部中心、两份Hall规范及原Haar保留。

@@ -255,11 +255,42 @@ $$
  }
  \tag{K20}
 $$
-两侧 Hall 和是独立的两个完整和，不能把它们改成相关单点纤维。
-R1063(I18)完成的 whole 来源还乘同一个
-$c_0\Omega^3\rho^{-2}\ell_-^{-2}$；其原 raw 幅度、十八个 degree17 商、
-两个 sign、$h$ 积分、Artin/Cor 与 $\lambda,\lambda'$ 不发生变化。
-本篇没有再乘一次 $p$-Haar，也没有改动那里的完整来源返回。
+两侧 Hall 和是独立的两个完整和，不能改成相关单点纤维。
+还须将本篇(K3)的 \(E_0\) 模型与 R1063(I18)的 \(E_{17}\)
+常数明确区别。保持原 \(\vartheta^6=17\)。其真实同构给
+\[
+ S_{17}(z)=\vartheta^{-6}S_1(\vartheta z),\qquad
+ D_{102,17}(z)=\vartheta^{-4}D_{102,1}(\vartheta z).
+\]
+对相应除点及完整 Miller 字，
+\(B_{-,17}=\vartheta^{-4}B_{-,1}\)、
+\(A_{-,17}=\vartheta A_{-,1}\)，
+\(\mathcal F_{-,17}(-2)=\mathcal F_{-,1}(-2)\)；
+正槽 \(B_{+,17}=\vartheta^{-6}B_{+,1}\)。
+故实际两 Hall 的模型运输是
+\[
+ \mathcal H_{+,17}^{0}=\vartheta^{-6}\mathcal H_{+,1}^{0},
+ \qquad
+ \mathcal H_{-,17}^{[-2]}=\vartheta^{-6}\mathcal H_{-,1}^{[-2]}.
+ \tag{K20a}
+\]
+(K20)是 \(E_0\) 中的局部式，不需更改。
+若使用 R1063(I18)的 \(c_0,\ell_\pm\)，必须保(K20a)的
+\(\vartheta^{-12}=17^{-2}\)；等价地，在本篇模型定义
+\[
+ c_0^{(0)}=\vartheta^{-10}c_0,\qquad
+ L_\pm=\vartheta\ell_\pm,\qquad
+ c_0^{(0)}\Omega_A^3\rho_A^{-2}L_-^{-2}
+   =17^{-2}c_0\Omega_A^3\rho_A^{-2}\ell_-^{-2}.
+ \tag{K20b}
+\]
+真正 whole 来源是在(K20)上乘左边这个 \(E_0\) prefactor。
+原 raw 幅度、十八个 degree17 商、两个 sign、\(h\) 积分、
+Artin/Cor 与 \(\lambda,\lambda'\) 均原样保留。
+本篇没有再乘一次 \(p\)-Haar。
+由于 \(p>211\)，上述模型因子都是 \(p\) 单位，故(K22)–(K29)
+在各自已明写的模型中的整性和严格估值门不变。
+
 
 (K20)给的是已经运输的**值端点**。一般完整临界斜率还含
 R1063(I20)的外权导数、$\log U_*$、负侧导数和正侧导数。

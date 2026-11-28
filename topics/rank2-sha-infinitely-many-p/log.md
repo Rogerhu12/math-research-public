@@ -297,3 +297,12 @@ arith给R36–R51，root全文核primitive核配对、全部q项与原p项抵消
 geometry继续同一双Katz tensor、真实E0/E17/A4周期/槽倍率及完整critical germ；central继续真实theta连接，均不重做旧Cartier窗。root检查v13 scalar whole-primary返回的实际通用HNF费用，拟用完整Bezout双向行返回优化同一已验证hI输入；不改数学门、不启动第二heavy，未执行的新实现不记PASS。
 
 本次首次ref更新在04:28:58返回GitHub GraphQL执行错误，远端head同时前进；未称推送成功。立即尝试本地pull --rebase仍无环境，随即实际CI重拉：run46073965457/job140864182027，公开2026-11-28 04:29:08 UTC至676d4ab94af01f74f84ea6ca98a3f130e93077e6、私库2026-11-28 04:29:14 UTC至7d48af9935d0470959341faa4925ff912d647c90。四README与04:26相同，QUEUE未变，topic库存/全部旧必要输入未变；新日志14886B/hashb737e44e16764375ff4b4e686a4e845192e08fabba946e8e8580b780bbf9095a。更新H的实际读头后不force重推。
+
+
+## 2026-11-28 04:34 UTC：E17 整列到 E0 Katz 源的固定费用补正
+
+模型核对明确补足R1063(I18)的E17整列与R1065(K3)首项一E0来源之间的固定费用：D17=ϑ^-4D0(ϑz)、S17=ϑ^-6S0(ϑz)、Z17=ϑZ0，故负二/正零两Hall各乘ϑ^-6，whole prefactor共17^-2。等价使用c0^(0)=ϑ^-10c0、L±=ϑell±。R1065 K20局部式本来就在E0而保持；其后接whole的原句现按K20a/b改正，R1063 I18a显写模型对照。这个p单位不改变K22–K29或原严格单Hall门。
+
+geometry在写真实full tensor germ时发现混用风险，central与root逐项核B/A/F缩放及两种Hall的d因子后确认；本次立即改原语句并添同源对照，不因17^-2为p单位而省略。R1064§§12–13已推8f713572e31f8c50cb0ff0436453427394d0f32f。全部为纸笔证明，无数学执行。
+
+推前实际pull run46073965457/job140864847822：公开2026-11-28 04:31:48 UTC至ee53a577c6e06ec326a04877d6a6f3cc141bff35，私库2026-11-28 04:31:53 UTC至dc9d7edb7fb008e84b258a0375af52b5e9c3057d；四README与04:29相同，QUEUE本会话未变。日志14887B/hash1ab7d0764030bd176135f161c01bc11b59561f38d56a3cc07e701cc087a76f58；库存3182blobs/45086092B/treefb6a5abfde76d040ce5af484074a5de26af4e291，无>5MB、旧三必要gzip不变。接续原双Katz tensor、实际612ω Gaussian与全germ/斜率；对真正p²新Weyl字的整线丛过渡和ψ0条件继续，不将未证接口登记为完成。
