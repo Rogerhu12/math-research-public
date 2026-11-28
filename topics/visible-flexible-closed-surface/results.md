@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R294：实际408位置场的全材料闭盒及整闭两项强距离](results/R294-actual-raised-flat-cuff-field-whole-strong-distance-bounds.md)（已证明；33,292,289闭盒含真端口，δhold/D>.2033584375、δE/D>.0506325；完整嵌入/reach与精度另付）。
+
 - [R293：较高整帽与无需超高点远径限制的完整reach拼接](results/R293-higher-complete-caps-and-reach-grafting-without-radial-protrusion-condition.md)（已证明的条件构造；真Z+η=.635，帽完整两强比例；核reach≥.096且全高≤min(.635,Z+.13)已经够原.03比例）。
 
 - [R292：真实抬高核心与旧固定凸帽的严格点对障碍](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)（已证明；141全频与216真实修正给reach/D<47/2800，必须更换实际图或整帽）。
