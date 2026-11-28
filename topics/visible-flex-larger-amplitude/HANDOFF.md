@@ -53,4 +53,4 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run37-bent-disk-arclength-->37 [实测](notes/run37-bent-disk-arclength-46142745238-1.json) 双README真pull 7cbc888f2f2ce772dcf3c99fe45dd0da3d6c0f29
 <!--run38-bent-disk-killing-->38 [实测](notes/run38-bent-disk-killing-46145189191-1.json) 双README真pull b9c53af246850cad3e9d2784c381391b4104eb38
 <!--r742-publish-->R742 [13设计全六jet](notes/r742-actual-two-jet-46145500268-1.json) 双README真pull 7eba9af2a6cf5d15e042552f19b99d2221f2297d
-<!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 1e01a6ce02990abe981ea6ddd38413aaf72a418b
+<!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull b94f87aa342fcee4fd742bbc2dca516fa7f7cb65
