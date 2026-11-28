@@ -56,5 +56,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
 
 [R778](results/R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)：同R776 g全闭C²近等距族，误差≤2(16000/n)+(16000/n)²；真曲率>100n且reach趋零，不能充厚等距解。完整二jet支持低频真实修正继续。
-<!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-whole-46174642286-1-index.json) [每次双README真读](notes/r774-shared-pose-whole-46174642286-1-reads.json) 4f16bee240fab6f1afb6b565b009f6a9a72c66ae
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 6fa4f6d7938ebfcf0d007569266a704518c6d03a
+<!--r774-publish-->R774 [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) f855c3813b06f5e0a6fa4ea16cd5572739d1bbb6
