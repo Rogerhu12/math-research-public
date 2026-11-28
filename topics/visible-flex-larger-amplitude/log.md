@@ -342,3 +342,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:44:18 UTC — R725固定ε1/8完整新seed与准确后继清单
 
 [四完整件109146B](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊：seed51540B/1533deac，全三片0–3jet/四端层/八cut进真实working mean计划，原definitions八返回及CLI词保，bubble/lift/中央半波/外层whole-cell Gauss不变。新B/根须本场真重算；准确WholeMean仍继承S5，须真override并给radial/leaf全cut归属，未冒已付。完整再生器16文本差异/逆全文、实际source级联清单齐；26依已锁25完整源接续，无新数值结论。双README云核至`238f4f2dce9d2d162828556d52f9785e81edc966`无变（非pull）。
+
+## 2026-11-28 02:49:19 UTC — 25完整独立科学启动包
+
+[25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)六件153959B（controller先已刊），全源/参数已先main；同22全数值/域/预算，157/7、458/445、64live、原5CLI与12external完整保。初三步74384B，science+pure118548B/四步126669B>95000，真自然返后整接pure52394B；完整旧24 request66字段保整53547B原件，当前32k请求未混5/8旧值。真实push触发唯一新workflow，尚无官方run/数值假定；H/open旧字固定a8bf533d43fe8ff406a3e341037b5ef465dad4b2、§1–6不动。双README云核至`dc83df06aa87745dff2d2b16cc1bef1f446a14c0`无变（非pull）。

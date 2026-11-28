@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/037dd5055bf7df6fd2cd6307c1a05a708b3b6e2a/topics/visible-flex-larger-amplitude/open.md)及23728/e1bf/a5e/70b78链；§1–6原字不动。全source/model/point/六族/原失败/typed与peer未知保各完整note，既有结论不重做。
+此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/a8bf533d43fe8ff406a3e341037b5ef465dad4b2/topics/visible-flex-larger-amplitude/open.md)及23728/e1bf/a5e/70b78链；§1–6原字不动。全source/model/point/六族/原失败/typed与peer未知保各完整note，既有结论不重做。
 
 ### 当前真实数值
 
@@ -121,7 +121,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 新机制与未付后继
 
-[25完整源](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)137pair中4对改/133保、19runtime；dk缓存原全部行及科学主体保。[64live传输](computations/complete-geometry-location-observation-and-transport-delivery.json)保原48+16实际标量。[全5参数](computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json)已刊，157/7、458/445、64live/12external，启动正接；无实际场；全原描述保旧open。
+[25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)全部源参/控制器/请求/队列已刊，同22完整数值；137角色4变133保/19runtime，157/7 argv、458/445 formal、48+16live/原5CLI及12external保。初三步74384B，science+pure118548B/四步126669B>95000，真自然返后整接pure52394B；原所有准确费及固定参数精化责任保。普通push触发，官方run/新场待返；缓存不宣trial几何加速。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³接合/两根扰动/shape分解已证，ε1/8显式转向15/b→64/(7b)，高阶代价/存在条件保，不推wholeK/reach。[完整新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊；八cut真入working mean，26全上层/准确WholeMean cutoff及radial/leaf未付，原bubble/lift/外层Gauss保。
 

@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败和输入困难非终点。**
-此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/037dd5055bf7df6fd2cd6307c1a05a708b3b6e2a/topics/visible-flex-larger-amplitude/HANDOFF.md)及其23728/a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
+此前全部原字/源参/真实失败/未知与规则链保[完整旧H](https://github.com/Rogerhu12/math-research-public/blob/a8bf533d43fe8ff406a3e341037b5ef465dad4b2/topics/visible-flex-larger-amplitude/HANDOFF.md)及其23728/a5e/70b78/旧链；open§1–6原字不动，已记结论不重做。
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`238f4f2dce9d2d162828556d52f9785e81edc966`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`dc83df06aa87745dff2d2b16cc1bef1f446a14c0`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -31,15 +31,13 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 新机制及完整后继
 
-[25完整源](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊：137角色4对变/133保、19runtime，单次全key纯数值dk缓存；[位置64live](computations/complete-geometry-location-observation-and-transport-delivery.json)保原48。[全5参数](computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json)已刊，157/7与458/445保、64live/12external；启动正接，无实际场；全原描述保下引旧H。
+[25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)全部源参/新controller/workflow/queue/request已刊：同22数值，137pair4变133保/19runtime；157/7、458/445、48+16live，原5CLI/12external保。初三步74384B；科学+pure118548B须真自然返后整接。普通push触发，官方run待实际返回。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数及位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解已完整发表。R725 ε1/8显式转向系数15/b→64/(7b)，高阶代价/存在条件保；不推wholeK/reach；[完整seed](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，26上层和准确链继续。
 
-22原137角色/18runtime（17对改120同）、全20源/6参已刊；物理cuts与aux均值分开，原Gauss/partial保。23原全波半宽+恢复policy为138/19；达原完整全步/真几何/选中预测条件才降下一μ，失败×4/顺序/预算保。所有157/7 argv、458/445 formal、48 live及原5 CLI/全external/P0/G/typed未知保。22科学+pure超95k，真自然返才整接纯步，计数旧标签修正保22note。
+22原137/18及全源参已刊，六物理cuts/aux12均值与原Gauss/partial分明；23完整138/19恢复policy只在原真全步/几何/选中预测达条件时降下一μ，失败×4/顺序/预算保。全部原源参/peer/typed/P0/G未知保原note和[open§7](open.md)。19–21准确全链已刊；22准确17件/mesh18件、23准确31件已保护待容量。
 
-19–21准确全链已刊；22准确17件/P-U-mesh18件、23准确31件已保护待容量，全身份与连续费用保[open§7](open.md)/旧H。normal.complete不代branch、mean J不代Cu，R709 bool、全部主副件及晚失败保。
-
-[续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续原目录/首次绝对源路径/whole稳定report；G续同whole N与首次路径，N变SHA另目录；R723/mesh fresh。immutable required-angle packet可为trial但须完整report绑定，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)须同runner完整report/13final/全typed史，CLI不继承末μ。R718 marked与R716 unmarked管/正V/非零中心不变量独立；旧1782/新6047源不混，五t/15mesh/三级空间/频率/时间实跑仍未付。
+[续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N/G保首次绝对源路径、同whole N和稳定report，N变SHA另G目录；R723/mesh fresh。immutable packet可trial但需完整report，progress不可；restart须同runner complete report/13final/全typed史，CLI不继承末μ。normal.complete不代branch、mean J不代Cu，R709及全主副件/晚失败保。R718 marked与R716 unmarked独立，五t/15mesh/三级空间/频率/时间实跑仍未付。
 
 ## 容量与分工
 
