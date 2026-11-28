@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-Azero-first-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-Azero-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)规范≤616824，1616Popov冻，Lhalf/t0闭。[整个f=u](results/R150-appendix-unit211-W-entire-f-equals-u-complete-original-exclusion.md)新e0a真0.840327719秒/0：六固定w投影、两41阶e结式244次，剥已付内容后91/91原QQ Bézout1，44628商积。当前图付t、f−u，保全部均值头零；新17b8首次整α0同点单V原投影180秒/4GiB；仅付权解f/t，保仿射/二次头零。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)规范≤616824，1616Popov冻，Lhalf/t0闭。[整f=u](results/R150-appendix-unit211-W-entire-f-equals-u-complete-original-exclusion.md)e0a实际0.840327719秒/44628商积、两个91次QQ Bézout1，当前付t、η。17b8 α0实际21.280518074秒仅余(k²+8k+8)^4，所有头零保；首次ad1b γ补图显式原头Bézout→首一f²/十×二180秒/4GiB，不加未付权面。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-[真四头](results/R150-appendix-unit211-Phi-zero-corrected-four-heads-whole-unit-ideal-and-three-generators.md)给1,T,z非自由；旧错链/bf3冻。[整t0](results/R150-appendix-unit211-Phi-zero-true-entire-tzero-original-exclusion.md)仅当前D非零付t/z。[真N1](results/R150-appendix-unit211-Phi-zero-corrected-N1-slope-and-exact-six-by-two-model.md)UABG六×二，G(18,10)保零。[A0第一支](results/R150-appendix-unit211-Phi-zero-true-Azero-first-linear-branch-exclusion.md)170ms全原QQ排除；第二待合成。B0 a15c首派120秒/1GiB，保头/斜率零。
+[真四头](results/R150-appendix-unit211-Phi-zero-corrected-four-heads-whole-unit-ideal-and-three-generators.md)给1,T,z非自由；旧错链/bf3冻。[整t0](results/R150-appendix-unit211-Phi-zero-true-entire-tzero-original-exclusion.md)付t/z。[真N1](results/R150-appendix-unit211-Phi-zero-corrected-N1-slope-and-exact-six-by-two-model.md)六×二保B/G。[整A0](results/R150-appendix-unit211-Phi-zero-true-Azero-second-linear-and-whole-curve-exclusion.md)两支全闭，第二61.279秒三固定QQ结式，仅当前D非零图。B0 a15c末JSON失败，前置代数断言已过；续全原左核。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

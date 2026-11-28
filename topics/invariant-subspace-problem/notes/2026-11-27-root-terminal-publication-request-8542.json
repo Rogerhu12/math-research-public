@@ -1,20 +1,23 @@
 {
-  "message": "ISP R150: true Phi A-zero first original linear branch excluded",
-  "parentCommit": "fdbe7d39759eda842eb6b7f5ceebea234067a268",
+  "message": "ISP R150: true Phi entire A-zero curve excluded; first whole gamma native input",
+  "parentCommit": "3bfe31be3c85a0baf0b09885e500227d17652449",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-Azero-first-linear-branch-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Azero-first-linear-branch-original-return-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Azero-first-linear-branch-original-return-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-Azero-first-E1-diagnostic-failure-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-Azero-first-variadic-array-failure-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-Azero-first-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-Azero-first-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-Azero-first-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-Azero-first-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-Azero-second-linear-and-whole-curve-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Azero-second-linear-fixed-lambda-original-return-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Azero-second-linear-fixed-lambda-original-return-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-Azero-second-negative-sign-diagnostic-failure-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-Bzero-terminal-JSON-failure-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-gamma-open-direct-native-f-cube-monic-two-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-gamma-open-direct-native-f-cube-monic-two-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-w-gamma-direct-native-fcube.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-whole-Azero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-whole-Azero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-whole-Azero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-whole-Azero-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,5 +26,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-gamma-direct-native-fcube.yml"
+  ]
 }

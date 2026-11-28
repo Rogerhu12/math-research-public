@@ -1,0 +1,104 @@
+{
+  "schema": "isp-true-Phi-Azero-second-linear-original-projection-execution-v1",
+  "sourceBlob": "02a9a202d651bc9c4559c835e68239bcfe7f926c",
+  "sourceSHA256": "4b90b10d5e6e0654080b4387aeaf90ae465c46d4911bb6b086c05f1f3ea933a2",
+  "sourceBytes": 16136,
+  "elapsedMilliseconds": 61279,
+  "integerPolynomialProducts": 5564,
+  "returnedLinearDivisions": 70,
+  "bareissDivisions": 484,
+  "necessaryNorm": {
+    "degrees": [
+      3,
+      4,
+      0
+    ],
+    "terms": 20,
+    "denominatorPowers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "normRemoved": [
+    {
+      "factor": "u-1",
+      "power": 1
+    }
+  ],
+  "projections": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "fixedDegrees": [
+        4,
+        4
+      ],
+      "fixedSize": 8,
+      "resultantDegree": 26,
+      "cumulativeQQGCDDegree": 26,
+      "fullQQBezoutReturned": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "fixedDegrees": [
+        4,
+        4
+      ],
+      "fixedSize": 8,
+      "resultantDegree": 30,
+      "cumulativeQQGCDDegree": 13,
+      "fullQQBezoutReturned": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "fixedDegrees": [
+        4,
+        5
+      ],
+      "fixedSize": 9,
+      "resultantDegree": 33,
+      "cumulativeQQGCDDegree": 7,
+      "fullQQBezoutReturned": true
+    }
+  ],
+  "exactMonicProjectedGCD": "(u-1)^3*(2u-3)^4/16",
+  "projectedPaidRemoved": [
+    {
+      "factor": "u-1",
+      "power": 3
+    },
+    {
+      "factor": "2u-3",
+      "power": 4
+    }
+  ],
+  "remainingDegree": 0,
+  "remainingPolynomial": "1",
+  "rationalStatistics": {
+    "arithmetic": 1456269,
+    "products": 7377,
+    "divisions": 519
+  },
+  "fullHeadZeroFibersRetained": true,
+  "onlyTrueOriginalUnitFactorsRemoved": true,
+  "secondLinearBranchExcluded": true,
+  "wholeAExcludedByThisSourceAlone": false,
+  "wholeAExcludedAfterPublishedFirstBranch": true,
+  "ordinaryISPClaim": false,
+  "earlierUnpublishedDiagnosticFailure": {
+    "sourceSHA256": "0df33463f320e2d90ff6d4152484d418832eb76236aac3dc68d53d1f01456780",
+    "error": "The diagnostic sign was +hL instead of the exact E-(4u-3)N=-hL. C and L were unchanged. No terminal exclusion was returned by that failed version."
+  },
+  "noResourceGateRepeated": true
+}
