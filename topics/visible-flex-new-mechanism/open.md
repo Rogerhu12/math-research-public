@@ -8,11 +8,11 @@
 
 科学计算仅本公开Actions；本地纸证/源码/已结束日志解析。每结论即push，NFF立即pull --rebase重推。每次pull检查双README且至少每小时；SHA记H。根12不加独立审核或机械门；根15不存可重算日志数组。未完工作与所有原费用留账；主代理独占git/共享索引。H<10KB、open<30KB、单MD<100KB。
 
-## O2b-A：真实6e91继续原390库
+## O2b-A：真实97q4354与尚未闭fine的c13d
 
-[原383自然终态](notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md)的真实97q6e91、同p.181/0d材料不能退回旧态。16290×3072已付η3.3050334486861566e−5，physical0/working1.192e−10<原1e−8门；末raw5cf6和半步a938已经因原几何门拒绝，不重放。新增2515.759658948秒及全部祖先费用保留。
+[原390自然终态](notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md)run46125750420/source4482fcc2新增2370.262664079秒/6接受，实际同p.181的4354已合格401coarse/16312×3072 fine：η3.266724887865865e−5，physical0，working4.56e−12。原全部祖先/10J130块82值/11fullfine及未完115块费用保持，旧59a4资格不转。
 
-[原390续接](notes/2026-11-28-r582-6e91-original390-continuation.md)run46125750420/source4482fcc2，08:25:30启动；385+5pending→390，保旧fine再加6中点为16296，新增网必须本身合格。trust2/metric，阶段约2.5e−7未过不升级，目标p.8/末η1e−7不改。mean仍变量设计，候选后冻结完整g并精化；旧59a4 reach不能移给新q。自然终态后接真实接受态和实际剩余工作；若自然stall，按真实原因改输入或算法。
+末raw df3e原coarse违规，但其真实半步c13d已有严格改善可能和coarse资格；fine只读115块/14720点且无任何可重用prefix值/峰/范数存档。不能伪补剩1592，不能无证据当拒绝。[原401实际续接](notes/2026-11-28-r582-4354-original401-continuation.md)经原warm callback先为同c13d做必要完整fine，4354同p/q/grid的已付baseline复用；原optimizer/门/峰交换和p.8/末η1e−7目标全不改。随后继续真实原完整求解。
 
 ## O2b-B：同86da固定E的真实mean联立系统
 

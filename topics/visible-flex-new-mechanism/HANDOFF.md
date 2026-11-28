@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **99db6242c12dd6909708b71328aea3e7a654c1d8**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **ac1c332a4f2ed66940dab31747d5562969444522**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -15,9 +15,10 @@
 
 同一连通闭M、全t∈[0,1]连续C²嵌入、同一固定g；固定开握持区diam≥.2D、整像不对齐变化≥.3D、全时reach≥.03D。全点全时metric≤1e−6，并同g/参数/t域精化到机器或求解容差；完整多t网格可再生，严格存在差距和δE如实。基础后继续.5D或严格存在强目标。局部结论、数值改善、障碍或时长均不算完成，不停等用户。
 
-## A：真实97q，原390已自然结束待完成消费
+## A：真实97q4354／先完成c13d再续原401
 
-[前383终态与全部费用](notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md)保真6e91/p.181/0d材料及完整fine；旧拒绝raw/半步不重放。[原390实际延续](notes/2026-11-28-r582-6e91-original390-continuation.md)run46125750420/source4482fcc2已于09:05:46自然结束，真实末态正在消费后续接。mean仍设计，p.8/阶段约2.5e−7/末η1e−7及宏观/同g未达；旧59a4资格不转新q。
+[原390自然终态](notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md)run46125750420/source4482fcc2：2370.262664079秒/6metric接受，q4354ee43、同p.181/0d材料。401coarse、16312×3072完整fineη3.266724887865865e−5、physical0/working4.56e−12，trust2/pending0。
+末半步c13d coarse已付但fine仅115块/14720点且未保存prefix，不能虚构余1592拼成完整资格；raw df3e本身违反已知。[实际401续接](notes/2026-11-28-r582-4354-original401-continuation.md)保原driver，先为真实c13d做必要完整fine；4354同态baseline直接复用。全部10J/130块/82值及祖先费用留链，旧a938不重放，变量g/宏观/p.8/末η1e−7仍未达。
 
 ## B：同固定E真实mean完整联立系统
 
@@ -51,7 +52,7 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 ## F：双核端口已得到准确非线性局部族
 
-[R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)给真平双尾；[R639](results/R639-rational-morse-uniform-gap-and-double-kernel.md)以有理谱/统一左质量界清额外整数零模，保双核和同角阶参考逆。[R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)给w²准确边界零；[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)run46123270834/source95b8760b、22.9984961秒严格球1/3<参考β0<3/8，转某有限真平背景β>1/4。
+旧双核背景的真平尾/全频参考逆、R635准确边界零及严格端口完整链见[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)：run46123270834/source95b8760b、22.9984961秒给参考1/3<β0<3/8及某真平背景β>1/4。该旧背景资格不转新profile。
 
 [R642](results/R642-rotated-tail-reference-inverse.md)以n^(9/4)频带、真λ正图、实际帽lifts给同一倾角参考。[R644](results/R644-nonlinear-double-kernel-annulus-with-tilted-cap.md)已完成真实状态/type/circle/双核与固定两矩的coupled逆，Hamilton准确二次误差身份给非零小q等距环带；内帽θ=βq²+O(q³)，固定一个q后相位族同g、外帽固定，整像dH≥aβq²/4>0。所有尾的Q/D共同邻域与真帽姿态已证。**无有效q0/宏观角/reach比例**；下一继续低矮有限profile、有限角与完整闭面几何，不以局部非零收尾。
 

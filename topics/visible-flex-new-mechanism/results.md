@@ -201,3 +201,7 @@
 ## R649：完整离解位置的真实形算子及正则弧长入口
 
 [完整证明](results/R649-actual-offsolution-position-curvature-in-regular-radial-coordinates.md)从真实Y_r/Yθ和S_s给实际法向、诱导度量、第二基本形式与正交形算子；不将目标Hessian/νz替代离解曲率。R_r及H_r保全部当前R、F/G/Gr和moving-frame项，固定目标弧长使真实竖直C²接柱无0/0。纯区间消费者可复用已付真实Yss，或接同一连续三jet/向量primitive；不新求ODE/J/FFT，输入未闭误差仍条件性，不授全闭reach。
+
+## A390自然到真实4354，续完c13d原401资格
+
+[真实终态](notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md)新增2370.262664079秒/6接受，4354在16312×3072完整fine得η3.266724887865865e−5、physical0/working4.56e−12。真实c13d半步coarse已付，未完fine的115块没有可重用统计，损失与全部费用如实保留；[原401后继](notes/2026-11-28-r582-4354-original401-continuation.md)保冻结原driver，复用4354同态fine并先完整支付c13d真实资格，不能无证据丢弃或冒接受。原p.8/末η1e−7、变量g与宏观义务保持。
