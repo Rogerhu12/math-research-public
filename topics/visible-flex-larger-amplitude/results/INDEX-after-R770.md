@@ -27,3 +27,5 @@
 - [R777](R777-bent-complete-caps-original-relative-metric-and-directed-normal-balls.md)：原g上完整两曲帽/真末领固定误差<1e−6与帽间定向法球已付；[保留镜帽的同物料路径阻碍](R777-retained-opposite-cap-intrinsic-path-bound.md)迫使连续误差>.40，三坐标恢复分支不在该范围。[21源四项完整三层研究](../notes/2026-11-28-R777-complete-bent-caps-and-four-original-studies.md)全部原预算、实际结论待独立返回。
 
 - [R782](R782-angular-Cauchy-rigidity-of-the-clamped-circular-rim.md)：整圆位置和横向一阶迹夹持、局部统一角解析二基本形下的全柱Cauchy唯一性；不扩大为一般C²刚性或近等距稳定性。内握平帽的角解析刚性与非解析真帽构造单列。
+
+- [R783](R783-optimal-four-moving-cap-sectors-and-closed-normal-tubes.md)及[六jet](../scripts/resume_20261126/r783_four_developable_cap_flaps.py)：固定内握的全帽精确发展，四个固定边点最优。一般有限四扇全闭嵌入/宏运动；MILD整reach仅>.0021，tiny才≥1/24.46，中央度量缺陷仍>.23。

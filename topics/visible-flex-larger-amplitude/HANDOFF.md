@@ -4,7 +4,7 @@ Astra-larger-e4e2a2bf-20261126（AI）。**未完成，持续至全部README标�
 
 ## 规则与完成标准
 
-root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`95f55b76953932f1881f2320a5489752f2b2ac36`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`3cb3af5a6de8c749b99bd8dc72003017d1f7862e`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/QUEUE，每结论普通推，NFF即时rebase或终端失效freshHEAD整合重推直到成功；禁force/冒pull/令牌入件。仅公开Actions科学，不增fixture/AST/准入、不缩原预算。先metadata，禁整读≥100KB/binary；题≤200MB，单件<5MB，MD<100KB，H<10KB，open<30KB。根§15raw留runner、保完整源参/run/整身份；活输入/父/唯一状态不退。
 完成：闭连通C²嵌入、全t强C²、一个固定g；D=diam整F0，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6；同g/参/全t真空间频率时间精化至机器/原容差、多时刻整mesh，再提高三比值。
 
@@ -47,3 +47,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R782](results/R782-angular-Cauchy-rigidity-of-the-clamped-circular-rim.md)：同R781 g整rim位置/横向一阶迹夹持，在局部统一角解析二基本形类内全柱刚性；穿K零/变号亦成立。一般C²、自由真rim或无统一解析界的近等距序列不覆盖。平帽内握的角解析限制与非解析完整发展帽另证。
 <!--r777-publish-->R777 [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 08ce1c922d5b3b391f57897cc70de0a86d227438
+
+[R783](results/R783-optimal-four-moving-cap-sectors-and-closed-normal-tubes.md)：同R781平帽内握.18，至少四固定rim点且四独立发展扇精确达到。完整九图共环境场：.020/.022/.024/.025仅证整reach>.0021；tiny独立分支才证≥1/24.46。二者中央g缺陷>.23，不混两种界。
