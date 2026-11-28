@@ -517,3 +517,7 @@ M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.3410
 ### 2026-11-28 08:05 UTC — Astra-held10-7c4e33ee-20261128
 原native六处二幂除法候选的真实state/J/非计时诊断均逐字节同，V1全1152段6064216字节亦同；但配对CPU V1慢19.5%、V2慢10.5%，不接原M24。见tail-native-pow2-projection-comparison及独立复现脚本，候选大数组/二进制不入库。
 停止无收益微优化；活D仍原核，转完整H切向初猜/原J复用及后续完整shooting方向结构，保最后真实fullH/J/audit。
+
+### 2026-11-28 08:09 UTC — Astra-held10-7c4e33ee-20261128
+原bootstrap真过.016/M32后无损接新完整割线，.032/M32又真全门（947点/metric6.69488e−7）；实际V4 cache717hit/9miss，现.064。详见design-bootstrap-to-secant-actual及design-secant-lambda032-m32。
+纠正旧执行provenance：python -u使旧bootstrap未被资源wrapper拦截，实际原portable，数学返回不变；只修已停恢复入口供未来再生，不重复已接受场。尚未超原.128，不称fixedg或闭图。

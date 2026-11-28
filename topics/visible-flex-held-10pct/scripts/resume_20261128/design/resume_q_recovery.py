@@ -142,10 +142,12 @@ def main():
         requested = list(actual)
         if '--driver' in actual and actual[actual.index('--driver') + 1] == str(portable):
             actual[actual.index('--driver') + 1] = str(resource)
-        if len(actual) > 1 and actual[1] == str(secant):
-            actual[1] = str(controller)
-        if len(actual) > 1 and actual[1] == str(bootstrap):
-            actual[1] = str(bootstrap_wrapper)
+        # The original recovery launches its child controllers with python -u.
+        script_index = 2 if len(actual) > 2 and actual[1] == '-u' else 1
+        if len(actual) > script_index and actual[script_index] == str(secant):
+            actual[script_index] = str(controller)
+        if len(actual) > script_index and actual[script_index] == str(bootstrap):
+            actual[script_index] = str(bootstrap_wrapper)
         executed_sources = {str(Path(path).resolve()): sha(path) for path in actual
                             if path.endswith('.py') and Path(path).is_file()}
         with metadata.open('a') as stream:
