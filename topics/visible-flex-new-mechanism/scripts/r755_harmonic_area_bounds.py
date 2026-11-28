@@ -4,6 +4,23 @@ import numpy as np
 from r734_true_dyadic_tail import I,D,ONE,ZERO,monotone_trans
 
 
+CAP_SIN=I('.26999999999999','.27000000000001')
+
+
+def cap_identity(theta,s_literal,c_literal):
+    # Exact binary angle as a real angle. A Taylor remainder controls its mathematical sine.
+    t=exact(theta);v=t;term=t
+    for k in range(1,9):
+        term=-term*t*t/((2*k)*(2*k+1));v+=term
+    rem=I((term*t*t/(18*19)).norm());bounded=v+I(rem.hi.copy_negate(),rem.hi)
+    c=sqroot(1-square(CAP_SIN));s0,c0=exact(s_literal),exact(c_literal)
+    if not (CAP_SIN.lo<=bounded.lo and bounded.hi<=CAP_SIN.hi and CAP_SIN.lo<=s0.lo<=CAP_SIN.hi and c.lo<=c0.lo<=c.hi):
+        raise ArithmeticError('Actual cap does not fall in the declared common hull.')
+    return dict(exact_prescribed_sine='0.27',mathematical_sine_of_literal_angle=bounded.bounds(),
+         literal_sine=s0.bounds(),literal_cosine=c0.bounds(),literal_orthonormality_discrepancy=(square(s0)+square(c0)-1).bounds(),
+         all_tested_proper_rotations_sine_hull=CAP_SIN.bounds(),nonorthogonal_IEEE_matrix_is_not_an_exact_rotation=True)
+
+
 def exact(x):return I(D.from_float(float(x)))
 def square(x):
     x=I(x)
@@ -34,7 +51,7 @@ def ramp(r,center):
 def material_cell(lo,hi,M):
     """Only new work. M is the literal already-paid calibration; slopes use the original geometry."""
     lo,hi=I(lo),I(hi);r=I(lo.lo,hi.hi);w=hi-lo
-    if r.hi<=D('.085') or r.lo>=D('.21'):p=ZERO
+    if r.hi<D('.08499999999999') or r.lo>D('.21000000000001'):p=ZERO
     else:
         center=(lo+hi)/2
         peak=ramp(center,'.0875')-2*ramp(center,'.1475')+ramp(center,'.2075')
@@ -42,8 +59,8 @@ def material_cell(lo,hi,M):
         # Its global Lipschitz constant is one. Allow the original literal operations as well.
         err=w/2+I('1e-12');p=I(max(D(0),(peak-err).lo),(peak+err).hi)*I('2.01')*M
     tail=ZERO
-    if r.hi<=D('.085') or r.lo>=D('.21'):
-        side=-1 if r.hi<=D('.085') else 1
+    for side,hit in ((-1,r.lo<=D('.08500000000001')),(1,r.hi>=D('.20999999999999'))):
+        if not hit:continue
         rho=I(15)/44 if side==-1 else ONE
         edge=I(1)/(64 if side==-1 else 128)
         dmax=I('.010000000001')/rho
@@ -53,7 +70,7 @@ def material_cell(lo,hi,M):
         # on the deep cells plus the explicit quartic primitive on the flat transition.
         height=rho*(8*edge**4+I('.1')*dmax**5)*I('1.000000001')
         d=slope+I('938')*height+I('1e-12')
-        tail=I(0,d.hi)
+        tail=I(0,max(tail.hi,d.hi))
     m=sqroot(1+square(p)+square(tail))
     # 1e-12 covers residual binary multiplication/square-root roundoff, admitting E>=1.
     m=I(max(D(1),(m-I('1e-12')).lo),(m+I('1e-12')).hi)
@@ -61,7 +78,7 @@ def material_cell(lo,hi,M):
 
 
 def matrix(A,L,C):
-    a,b=I('.075'),I('.22');s=I('.27');c=sqroot(1-s*s)
+    a,b=I('.075'),I('.22');s=CAP_SIN;c=sqroot(1-s*s)
     Di=((c,ZERO),(ZERO,ONE),(-s,ZERO));Do=((ONE,ZERO),(ZERO,ONE),(ZERO,ZERO))
     B=[-a*a*s,ZERO,b*b-a*a*c]
     M=[]
@@ -104,7 +121,7 @@ def cap_cell(cell,A,L,C,B,Di,Do,v,Mc):
     """Each cell stores an area/π integral and two enclosing conformal/meridian prefixes."""
     r,area,x,di,do=cell
     nv=sqroot(sum((square(t) for t in v),ZERO))
-    theta_s=I('.27');theta_c=sqroot(1-square(theta_s))
+    theta_s=CAP_SIN;theta_c=sqroot(1-square(theta_s))
     vdi=[dot(v,[row[j] for row in Di]) for j in range(2)]
     vdo=[dot(v,[row[j] for row in Do]) for j in range(2)]
     # L−x is nonnegative for every actual radius, even when independent interval arithmetic overlaps.
