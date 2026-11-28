@@ -113,6 +113,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，两input0，science 2c8739ed/PID3435/model726006；初7e06/accepted0/Phi25127.568861304877/Gram.8838253080334753，完整几何未返。新圆肩139角色/24runtime，713/719正式+64live、原632/625各路径和全部预算保；自然science返才pure74162。1,333,370 outer变量全自由，不冻结正宽端层。异source/model不借同坐标结论。
 
+[36独立弯盘/自由肩完整启动](notes/2026-11-28-run36-bent-disk-complete-launch.md)：四有限幅候选含γ0/.32/.44、完整设计和两次同一冻结g数值精化；全部原预算/源参现刊，新run待查。SVD端缝/重心目标工作误差及全连续闭面几何均待实际支付；不动33–35。
+
 ### 已证结果与严格缺口
 
 [R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)真S/κ₀的全角长度根/逆弧长六jet、参考闭嵌入/双held/D≤4.2；仅径向unit不代全Gram/reach。

@@ -1,0 +1,173 @@
+{
+  "schema": "visible-larger-run36-complete-independent-bent-disk-delivery-v1",
+  "prepared_utc": "2026-11-28",
+  "namespace": "run36-bent-disk-shoulder",
+  "published_commit": null,
+  "actual_run": null,
+  "actual_attempt": null,
+  "actual_model": null,
+  "actual_frozen_metric": null,
+  "actual_full_point": null,
+  "actual_candidate_return": null,
+  "complete_source_parameter_runner_request_workflow": [
+    {
+      "role": "complete Run36 scientific script",
+      "name": "bent_disk_shoulder.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "bytes": 26446,
+      "sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+      "git_blob_sha": "f82379725c30442dd0f1a1a490ffe4cf0d166cca"
+    },
+    {
+      "role": "complete Run36 scientific parameters",
+      "name": "bent-disk-shoulder-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "bytes": 2949,
+      "sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
+      "git_blob_sha": "90138722d9b9125e50d0f560a971c4c00359adb9"
+    },
+    {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    },
+    {
+      "role": "complete fixed-source Run36 standalone scientific, parameter, launch and evidence request",
+      "name": "run36-bent-disk-shoulder-request.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/run36-bent-disk-shoulder-request.json",
+      "bytes": 6554,
+      "sha256": "3132eaf7a91a9e1beba361db651f42d0ebc06512f1a8c8aea04de089be9a5495",
+      "git_blob_sha": "545c9ea10ac4728f960a32d0983f2168c1ae9a4b"
+    },
+    {
+      "role": "standalone public 4-core 16-GB Run36 full finite-amplitude search and same-attempt logical outputs",
+      "name": "visible-larger-run36-bent-disk.yml",
+      "path": ".github/workflows/visible-larger-run36-bent-disk.yml",
+      "bytes": 2514,
+      "sha256": "c910ff99fe51b6c15f0954f40eba8d37aa698d6768fae4c74584a29efb675013",
+      "git_blob_sha": "76470a708108991c5c8bad2cc197b2d1c1c7d1a5"
+    }
+  ],
+  "already_published_control_dependencies": [
+    {
+      "role": "original public remote topic tree size, README differences and git primitives",
+      "name": "publish_r734_exact_conclusion.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+      "bytes": 10589,
+      "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+      "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+    },
+    {
+      "role": "original normal git pull/rebase and checked remote handoff resolution",
+      "name": "publish_r738_exact_gap.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+      "bytes": 5864,
+      "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+      "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+    }
+  ],
+  "complete_candidate_parameters": {
+    "role": "complete Run36 scientific parameters",
+    "name": "bent-disk-shoulder-design-v1.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+    "bytes": 2949,
+    "sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
+    "git_blob_sha": "90138722d9b9125e50d0f560a971c4c00359adb9"
+  },
+  "complete_direct_scientific_invocation": [
+    "--params",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+    "--out",
+    "{runner_temp}/run36-bent-disk-{run}-{attempt}/field"
+  ],
+  "whole_solve": {
+    "initial_designs": [
+      "horizontal-geometric",
+      "tilt32-geometric",
+      "tilt44-geometric",
+      "tilt44-Hermite"
+    ],
+    "coarse": {
+      "id": "coarse-design",
+      "spans": 4,
+      "mode": 6,
+      "radial": 19,
+      "angular": 40,
+      "check_radial": 43,
+      "check_angular": 96,
+      "regularizer": 0.00002,
+      "max_evaluations": 70,
+      "lsmr_iterations": 100
+    },
+    "medium": {
+      "id": "medium-design",
+      "spans": 8,
+      "mode": 10,
+      "radial": 31,
+      "angular": 64,
+      "check_radial": 67,
+      "check_angular": 136,
+      "regularizer": 0.000005,
+      "max_evaluations": 90,
+      "lsmr_iterations": 120
+    },
+    "fine": {
+      "id": "fine-design",
+      "spans": 8,
+      "mode": 14,
+      "radial": 39,
+      "angular": 80,
+      "check_radial": 83,
+      "check_angular": 168,
+      "regularizer": 0.000002,
+      "max_evaluations": 110,
+      "lsmr_iterations": 140
+    },
+    "fixed_angular_metric_sampling": 384,
+    "refinements": [
+      {
+        "id": "fixed-resolution-1",
+        "spans": 8,
+        "mode": 16,
+        "radial": 43,
+        "angular": 88,
+        "check_radial": 91,
+        "check_angular": 184,
+        "regularizer": 7e-7,
+        "max_evaluations": 100,
+        "lsmr_iterations": 150
+      },
+      {
+        "id": "fixed-resolution-2",
+        "spans": 16,
+        "mode": 20,
+        "radial": 57,
+        "angular": 104,
+        "check_radial": 119,
+        "check_angular": 216,
+        "regularizer": 2e-7,
+        "max_evaluations": 110,
+        "lsmr_iterations": 175
+      }
+    ],
+    "physical_times_or_phase_angles": [
+      0,
+      1.5707963267948966,
+      3.141592653589793
+    ],
+    "radii_per_cloud": 13,
+    "angles_per_cloud": 56,
+    "actual_realization": null
+  },
+  "output": {
+    "declared_point": "Method owns coefficient C-order little-endian binary64 SHA, shape, parent/source/start IDs, numerical termination and nfev. Whole NPZ and log SHAs are measured on the runner.",
+    "public_note": "One small per-run/attempt logical note contains actual atomic scientific summary and last scalar. Previous candidate values remain in the summary and in ordinary Git history. No large returned data files are stored in the repository.",
+    "public_handoff": "Each ordinary publication pulls and checks both READMEs and the complete remote topic-tree size. H retains unrelated text and the present attempt marker.",
+    "metric_scope": "All sampled, finite calculations. Completion of an Actions process alone pays none of the continuous metric, reach, embedding or held conditions."
+  },
+  "separate_from_33_34_35": true,
+  "extra_scientific_preflight_or_fixture": false
+}

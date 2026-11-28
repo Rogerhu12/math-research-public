@@ -1,0 +1,136 @@
+{
+  "schema": "visible-larger-run36-independent-bent-disk-shoulder-launch-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "run_number": 36,
+  "source_branch": "main",
+  "scientific_mode": "independent finite-amplitude Euclidean bent disk, shoulder and reflected closure",
+  "full_candidate_solution_or_accurate_certificate_assumed": false,
+  "scientific_inputs": {
+    "script": {
+      "role": "complete Run36 scientific script",
+      "name": "bent_disk_shoulder.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "bytes": 26446,
+      "sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+      "git_blob_sha": "f82379725c30442dd0f1a1a490ffe4cf0d166cca"
+    },
+    "parameters": {
+      "role": "complete Run36 scientific parameters",
+      "name": "bent-disk-shoulder-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "bytes": 2949,
+      "sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
+      "git_blob_sha": "90138722d9b9125e50d0f560a971c4c00359adb9"
+    }
+  },
+  "source_commit": "the actual workflow triggering Git commit, retained in its immutable detached scientific worktree",
+  "original_arguments": [
+    "--params",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+    "--out",
+    "{runner_temp}/run36-bent-disk-{run}-{attempt}/field"
+  ],
+  "scientific_budget_source": "the complete fixed mathematical parameter file and scientific program",
+  "scientific_protocol": "Use every declared initial condition and numerical stage on its complete original finite-amplitude domain. Record each actual candidate result, failure or budget return. Keep design and subsequent fixed-metric refinement distinct.",
+  "canonical_point_words": "The scientific program owns the actual full vector layout, little-endian float64 C-order coefficient digest and candidate/replay lineage.",
+  "runner": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+  "python": "3.12.14",
+  "dependencies": [
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ],
+  "scientific_environment": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numeric_environment_parent": {
+    "path": ".github/workflows/visible-larger-public-small-core-full3-trust.yml",
+    "bytes": 13971,
+    "git_blob_sha": "e846d64025a9661ab8bf1449f26c7c8325af94b2",
+    "sha256": "5280636f0f773af4132792cbf699b2a26a10077522050a4a9f4a473b37333424"
+  },
+  "observe_period_seconds": 8,
+  "minimum_publish_retry_seconds": 20,
+  "live_scalar_publish_period_seconds": 180,
+  "readme_pull_period_seconds": 2700,
+  "public_remote_topic_bytes_limit": 200000000,
+  "action_job_timeout_minutes": 360,
+  "no_child_wallclock_cutoff_added_by_launcher": true,
+  "control_only": {
+    "supervisor": {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    },
+    "workflow": {
+      "role": "standalone public 4-core 16-GB Run36 full finite-amplitude search and same-attempt logical outputs",
+      "name": "visible-larger-run36-bent-disk.yml",
+      "path": ".github/workflows/visible-larger-run36-bent-disk.yml",
+      "bytes": 2514,
+      "sha256": "c910ff99fe51b6c15f0954f40eba8d37aa698d6768fae4c74584a29efb675013",
+      "git_blob_sha": "76470a708108991c5c8bad2cc197b2d1c1c7d1a5"
+    },
+    "original_public_git_helpers": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      }
+    ]
+  },
+  "output_contract": {
+    "scientific_summary": "summary.json in the actual runner output directory, replaced atomically at completed candidates and final return",
+    "raw_fields": "all original NPZ fields remain on the runner, with complete binary SHA and original file lengths in the output inventory",
+    "live": "the latest actual small stdout JSON line and complete per-candidate summary when available",
+    "complete_log": "every scientific stdout/stderr byte remains in the runner log with a final length and SHA",
+    "publication": "notes/run36-bent-disk-<actual_run>-<actual_attempt>.json and corresponding H marker are updated after true pull/rebase and capacity accounting",
+    "normal_exhaustion_or_unsatisfied_targets": "No conclusion of metric, reach, grip, global embedding or rigid-quotient success is inferred from the return code"
+  },
+  "actual": {
+    "github_run_id": null,
+    "github_run_attempt": null,
+    "scientific_source_commit": null,
+    "field": null,
+    "point": null,
+    "fixed_metric_identity": null,
+    "candidate_residuals": null,
+    "full_domain_readouts": null,
+    "held": null,
+    "reach": null,
+    "rigid_quotient": null,
+    "mathematical_solution": null
+  },
+  "run33_to_35_parameters_queues_and_execution_unchanged": true,
+  "scientific_parameter_summary": {
+    "complete_design_count": 4,
+    "design_ids": [
+      "horizontal-geometric",
+      "tilt32-geometric",
+      "tilt44-geometric",
+      "tilt44-Hermite"
+    ],
+    "medium_and_fine_design_stages": 2,
+    "independent_frozen_metric_refinements": 2,
+    "freeze_angular": 384,
+    "workflow_adds_no_candidate_filter": true
+  }
+}

@@ -111,3 +111,7 @@
 ## 2026-11-28 11:40:39 UTC — 35自身圆肩初始统计已返，准确后继仍待实际同点
 
 35自身726006模型初始Phi25127.568861304877/Gram.8838253080334753，初/current7e06/accepted0；完整六族/K/几何/最终态未返，准确包就位不代实际费用。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-R732-R729-run35-complete-launch.md)。双README云核至`1d9319839eeb59851123042647635cdb0a4d6ea1`无变（非pull）。
+
+## 2026-11-28 11:46:25 UTC — 36新有限幅圆盘/自由肩的完整四设计与同g数值精化公开启动
+
+六完整文件63891B（其中topic61377B）及完整launch note现刊；science26446B/f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e，parameters2949B/5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372，完整最终supervisor18649B/600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01、request6554B/3132eaf7a91a9e1beba361db651f42d0ebc06512f1a8c8aea04de089be9a5495、workflow2514B/c910ff99fe51b6c15f0954f40eba8d37aa698d6768fae4c74584a29efb675013、manifest6779B/78c83eef7d2ef0a9f682edf22e016d8236f13d7a68731f6e74c91c54e519d098。γ0/.32/.44四完整有限幅输入、原source全部Gram与几何罚项直接求解（无除IIθθ），各完整迭代预算和随后同一frozen目标两精化完整保。现actual全null，不推候选成功。launch note明确工作SVD/重心g与拟证准确规范场/固定384角均值之间未付误差；三相点云不代全time reach。真pull读规至少2700s/阶段立刻记，每结论NFF即时重拉普通推；root仍继续到原README真正完成。H旧R735/736索引缩短，完整原proof/固定历史不变。 双README云核至`e50ccd81ddf28dfd5d3cc133866ad17df0b6ff31`无变（非pull）。
