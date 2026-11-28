@@ -201,3 +201,24 @@ request46194B / SHAce643515f5d0458f440d10f89b390f656e44ea4fcdef6acb14796093be761
   }
 ]
 ```
+
+## 2026-11-28 08:01:28 UTC — 31反向Slerp半波的自身初统计返回
+
+真实run46122200592/1，source dfbbc306245b99e0e84400c55697aebe584bb22b/PID4131。07:52:01.793111Z本science真实返回driver549ca0f7cd038abc278a5ec20580f79609bae8328ba090e15a41e19133d8b3ee、science model78717b20b1fa33db5ccc018be03ee6c9d93a0b89615fdfd25d1049492c0fce40、全点7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47的初Phi14106.361942260944/relative Gram .822374918515021。该science model是自身实际值，未使用输入reference_model。新accepted0，无完整report；截至07:54:31Z自身初六族/geometry/K/正约束max尚未返回，不能从原29或R728解析公式填实际screen。
+
+反号确实是新的物理输入，故统计数不等于原29的半波。当前仅能报告本自身初统计，尚不证明distance改善、reach保持或任何strict完成。全原三步、157/458/64live和预算继续，正常等完整science/之后整pure。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46122200592-1.md",
+    "bytes": 59988,
+    "sha256": "004eb6f3d17d0e8d1535a212f688e4624d7929ea9041dc32d8dfdde08da69437",
+    "git_blob_sha": "3091cc508227d80963b6504a67dde50e6a1259d2",
+    "fixed_commit": "62de25c019a922ec661de5da59f5fbd9b69d0087",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

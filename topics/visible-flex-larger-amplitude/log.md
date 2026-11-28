@@ -277,3 +277,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:01:16 UTC — 28完整pure自然返回及首QP自身停止证据
 
 28整pure0/348.8245757200002s，原445实返423值/22原错误；actual首恢复QP自身2advance/dependent_blocker_at_zero_step、Pg.529460169023458远超tol5.305849371949155e−7，具体行未知，不冒四轮同因。全final/typed/源与错误保，几何仍不合格。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`3e1002298268622d44acdf1b4b8153eebfe78c3f`无变（非pull）。
+
+## 2026-11-28 08:01:28 UTC — 31反向Slerp半波的自身初统计返回
+
+31自己的science model78717、初7e06实际Phi14106.361942260944/Gram.822374918515021返回、新accepted0；初几何/K/六族尚未知，未借旧模型。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`f6362e2916c37959b1bf3d69adc6ecca16137e68`无变（非pull）。
