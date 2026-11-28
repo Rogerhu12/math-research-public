@@ -123,7 +123,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R761](results/R761-paired-track-global-tube-and-positive-volume-gap.md)：同R757初g规定场全t reach.106/D<3.50、grip.72/held>.739、体积差>.156⇒δE>.004；全帽/负胞g未付。
 [R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：46161216634四路84拟合/72中相、两gauge各39行全返；全g约1.1e5，护领g11=193.701；旧固定护领类失败已闭，原预算/整身份俱保。
 [R763](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)：43硬rim>.72；新整帽刚移/四缝准确仅付必要条件，44释共rim全二jet。
-[R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：真曲率预带E=.44、B=.88、e=.13/.14，新初reach.132/D<4.386/grip1.40，全相基场嵌入/held≥.88、至少一支δE>0；中央/两原卷/两真帽同g，两预带全g及全t reach未付，四整球原三级全域拟合启动。
+[R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：初reach.132/D<4.386、原基场结论保留；46162184631四整球12层/84拟合72中相全返，free末g.845/.868且K505/271，rigid末g>1/弦价正；这四有限拟合失败，非全自由类否定。
 [R765](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)：同R757 g有符号λκt=κ0令全meridian准确；2+2支96.3%卷面积准确但K>17.2排厚。新2+3低峰中央K<8.84/held>.705、内帽同g/四缝二jet，全过渡费与法管未付；全SO3闭一形式为准确等价，45求实际共场。
 
 R757同固定初g、R759负胞两轨与R751别名证据的范围见原proof及旧完整open，不重做。所有尚未支付的三Gram、全相嵌入/法管/非合同及精化要求仍真实欠账，局部准确/程序成功不代整壳。
