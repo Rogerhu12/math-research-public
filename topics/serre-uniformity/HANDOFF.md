@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：f34f7024589152dd0175890c11218725824ec158**（2026-11-28 14:32 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 14:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：798c6aafe8d4761e051a64b74987d9049eb2bd63**（2026-11-28 14:49 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 14:21 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 14:21:47 Asia/Taipei，Actions run46116227337/job140890566799，blob:none浅clone后真实pull --rebase至7f1461be；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤15:11、pull≤15:21。本地14:21仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-integral-residue-contraction.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-ambient-PD-comparison.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -18,7 +18,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1131–46](results.md)原class4全cusp/phase、D(α)完整算术五项、原Eisenstein单位、proper修正杯积与proper Heis p³均沿[逐字前态](handoff-archive-2026-11-28-before-canonical-primitive-alignment.md)保全。Cor逐陪集乘积不变成Norm乘积；未修正非零socle、MW d0/1、twists=J(K)[p]ω⁻⁷及B16门未撤。R1156–60现付真正raw/最高矩来源及实际算术未平滑；一般Frob仍待读。
 
-[R1147 §§1–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment/proper Heis/43格FL及全noncusp已付。§§17–19以Λ°=lim Rr[E[p^r]]/Rr[0]的真实norm根塔给连续all-vector矩，Mprim_d=(1−p^d)Mtilde_d。原两路径反差分支付同根ρ和完整中央二次gauge；S/U整恒等式适用全部标记，完成Gcorr之后H0/H1Z0给唯一兼容过渡，原n2/n5算术未平滑识别最高整子商。§20新增Λ°≅I及D=12的整jet J=I/I¹³≅⊕₁¹²Sym^dH，自由秩90；log/exp全GL2等变、原mom_d=d!pr_d，双槽保i!j!，逐层兼容。只有限化系数，未交换raw period/PD极限或改变Cartan I仅modp。
+[R1147 §§1–20](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment/proper Heis/43格FL及noncusp已付。实际norm根塔给Mprim_d=(1−p^d)Mtilde_d，原ρ及中央二次gauge保留；全p^r S/U、Gcorr/n2/n5识别最高整塔。§20 Λ°≅I，D12的整log/exp jet秩90，原mom_d=d!pr_d，双槽i!j!，全部GL2/过渡相容。仅finite coefficient，不删raw period/高function jets；完整式沿open/原文。
 
 [R1148–53](results.md)原cusp/global基、relative Hodge/Frob、finiteFL尺度全沿open/逐字前态。Ccyc=exp(9^(224·9⁴))；大aux affine实际存在，不代空集。β3/β5及J=Har(1,3,4)给真障碍rs h−zab，七退化支、最高同源组合、U/U²尺度/β底参数全保；两β坏不外推η★=1，原F0/完整深盘继续。
 
@@ -28,11 +28,13 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1156–60](results.md)原四线raw/SV全noncusp、GL2/rank1下降、crossed J_n及实际算术B_n已付；h0=(hV+B_n)/v_n，n2/n5覆盖p>37，全p^r三中心保λ∞。同根/27项/七行坏参数及来源沿open/逐字前态。一般Frob仍须实际b(q⁻¹T′q)，Cartan I仅modp、原F0未读。
 
-[R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)原系数的exact integral syntomic比较已覆盖完整43格：Tsuji2000小权+E^d signed整projector给Hq(q≤t)；三中心统一放E12/Sn14，pair antisym准确Π0/2/4无组合数。实际Poincaré类−c1(P)/2由∆*degree−2锁Weil coeval1，四份补原λ∞xγ5，全部weight14。原完整primitive groupoid及全塔兼容已识别，ordered所有交叉项/有限H0全保；继续theta/Miller同根代表至适配FL frame及normal表，未冒F0数值。
+[R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)原完整43格exact integral comparison已付：E^d signed projector给Hq(q≤t)，三中心E12/Sn14的paired projector准确Π0/2/4，实际−c1(P)/2锁Weil coeval1及λ∞槽。全primitive groupoid/全塔同根兼容保有限H0和全部ordered gauge，后继实际代表见R1164–66。
 
-[R1164 §§1–13](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)原first-Weil pointed线、inverse根/chord/全塔及整PD cocycle已付：−C(U_i)、−log_PD H_ij保μN相位，所有lift/加法/降层/ordered同伦沿原文。§13实际SS frames为a·t/tP、a，a=t(−P)；div_model f=N(P−O)−Nv_L(a)F，两个u真整unit，LT参数改变保c0及unit ratios。原scalar/closed Cor给Mtilde；继续refinement与Frob-overlap至原normal/F0，不在NP≠0时冒同一unit。
+[R1164 §§1–13](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)原inverse-Miller/first-Weil、pointed全塔和整PD cocycle/全部同伦已付。SS actual frames为a·t/tP、a，div_model f=N(P−O)−Nv_L(a)F，先NP=0消完再lift；原theta/closed Cor、LT c0与ordered修正全保。完整符号/normal入口见原文与R1166。
 
 [R1165 §§1–10](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)原odd两开集的整filtered收缩π=(Res(αU/t−hηV),Res(hω))已付；tensor/projectors保底log cone、N双对角/γp carry/I_h精度。§10 actual U全局Bezout–Newton、V的t^p Hensel及p-small I给F1=(ΦUαU,ΦVαV,ΦUh+IαV)，chainwise可除性完整。Φ_M=πFι及Q=πF_rH的两residue皆明确，cone第二槽+Qα、有序−βδ保留。继续原ambient PD/source比较和normal/F0实际读取，不仅凭Φ_M令Q0。
+
+[R1166](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)原ambient P²坐标p幂F、Newton/Hensel geometric normal sections、γ_m dh→γ_(m+1)收缩及两开集完整SDR已付；I_PD是同端点p-small积分，准确等R1165 I。normal+residue cone复合保全部+Q，tensor的实际ordered同伦及primitive T h−H全给。SS时W_n=U_n，原Miller formal两frame直接适用；H0系数A/B有两residue读式。现在做实际tame Cor/第一层normal读数与中央F0，不能再列模型比较缺口。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

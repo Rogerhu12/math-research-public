@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-residue-contraction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-ambient-PD-comparison.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -51,19 +51,21 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付实际U_E=4δc_g,★²β★²(γ_E/γ★)²及U/U²完整Kummer→FL尺度。a=U_E Q1(β_Et)、b=U_E²Q2(β_Et)+8δ²s/11；Gaussian x4/y8与cubic y7都已准确校准。Fp generic SS存在仅用于p>C_SS，需global基时取max(C_SS,C_cyc)。η★=U★γ★⁻²只在β3好、或p4k3且β5好时=1；两β坏不外推。主要未知是同一F0 z12及较低中央项。
 
-[R1155 §§1–11](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D的rev、BK、强mod pO_L有限dilog及完整nilpotents已付。v=u^p+pε的实际右运输给h=−ℓ2(u)/(1−u^p)−ε²/{2u^p(1−u^p)}，任意分歧只称fibres间运输；未分歧v=σu才同点Frob。全S3及同一五项配置的ε_i、ordered交替=e_Ce_D/(CD)、BCH交替0均保。Gaussian有限椭圆坐标下单个原U_a的h12−(L3/L1)h4=−2A³s(s−1)(s−4)/125单位，b8也单位；不代weighted filling后的F0，也不删除实际torsion高nilpotents。
+[R1155 §§1–12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原raw D的rev/BK、完整finite Li和两输入ε carry、S3/五项/ordered与BCH全项已付；Gaussian单块的h12−(L3/L1)h4及b8单位不代原weighted F0。全部nilpotents/原系数见原文和本次逐字归档，不重做；分歧输入只称fibres间运输。
 
 同文§12固定实际整形式ψz=z^p，完整carry ε=ε0−u0L给hψ=h0+b0L−u0L²/{2(1−u0)}−u0L³/{6(1−u0)²}；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50单位。未指定ε0=0，未把ψ专化当分歧torsion的field Frobenius。此单块仍须经过真实weighted/Cor/moment。
 
 [R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)扩到原坏参数：w=u^p,d=1−w，κ=max(v_p(w),v_p(d))≤1/3时，Li_r†=ℓr/d−r p wℓ_(r+1)/d² modpO_L；实际v=w+pε的运输保两个log二次项及中央pε³(1−3w)/(6w²d²)。全部Eulerian/Taylor尾已界；非整坐标仅为坐标误差，后续乘法/Cor必须提高精度。任意深near0若同一实际提升v=w(1+pα)，则整三槽为(−α,(wα−ℓ1)/d,−ℓ2/d−wα²/(2d))。近1/∞用完整Coleman S/J身份及同一第二输入；不能任意选各项ψ。原n2实际阶已由R1157 §12支付；真实Ep/PD格比较继续。
 
-[R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已为原CM的全部形式参数给一个共同ψ：R=O_F[[z]]，σ作用coeff、z→z^p；R1157的u/1−u=z^m unit使所有边界同时保留，完整Rψ三槽先证明整。N<p时，good-unit用L=log(u/c),M=log((1−u)/(1−c))得h=h_c+b_cL+∫M dL；near0 t=z^m a的三槽为(A,−L1,−L2)，A=−κ(a0)+log(a/a0)，near1/∞用实际S/J给完整乘积/半平方。边界∞仍可有κ²/2，不删原constant carry；同五配置关系整地约化。只付源形式jet，未把完整moment或实际torsion高nilpotents截在12。ψ不保Ep理想；简单g=z^(p²−1)−p已有ψ(g^r/r!)/p^r|g0≡(−1)^r/r!，所以不能只见p误差便删。真实根塔/log/crystalline与FL比较继续。
+[R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原CM全部参数共享ψσ,z→z^p；u/1−u=z^m unit四类corner的Rψ在取jet前整，good/near0/near1/∞全部constant、log乘积、半平方和五项carry保留。只付源形式jet，实际Ep理想不被ψ保持；ψ(g^r/r!)/p^r在g0仍留(−1)^r/r!，完整式沿原文/本次逐字归档。不能用十二次coefficient jet替function高block，原PD/43格读取继续。
 
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
 [R1164 §§1–13](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)已付原pointed Miller/整line及实际PD–Čech代表。χP=e(P,−)的[N]pushout给X^N=f_P⁻¹、O-leading一，g leading为1/(Nt)；弦函数锁加法/全p塔，ρ/ordered同伦全保。整数据u_j=gij^N u_i、a_i^N=u_i⁻¹，prime-to-p φ保cφ与norm原点，scalar product/closed Cor准确给Mtilde，无额外d!或平均。§§9–12在实际compatible embedding上给C(U)=(dlogU,p⁻¹log(U^p/ΦU))，inverse类local −C(U_i)、overlap −log_PD H_ij，H=U_j/(Gij^N U_i)。PD log以(m−1)!收敛，全部lift/frame、原点、chord/降层同伦不除N；μN相位log(G^N)不能改成未定义的NlogG。两cone products间−βδ精确保留；模p^a PD log截m≤pa，a≤29的p⁻¹log只需m≤a及输入额外一位。原theta norm与coefficient chord仍分开，分歧Cor仅用已给运输。§13已给实际SS frames a·t/tP与a、a=t(−P)，完整vertical divisor f=N(P−O)−Nv_L(a)F使两u真整unit，原point/参数改换均付。须先在NP=0消完再PD lift；第二open是E\(O∪P)，保真实refinement。继续Frob homotopy和normal/F0读取。
 
 [R1165 §§1–10](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)原odd两开集DR已有整filtered收缩：ηV=η−t⁻²dt，π=(Res(αU/t−hηV),Res(hω))，x^aω/yx^a单位主部消元给dH+Hd=1−ιπ且p连续。tensor/projectors后保底log三项cone，d0=(N,1−p⁻ʳΦ)、d1=(1−p^(1−r)Φ)−N，最高(12,14)适用。实际Q=πF_rH须加到第二槽；ordered产品差K=(0,−βδ)。N双对角含ep m_(n+1)，c≡−1−γp仅ev后为−1；I_h=Σp^(h−a)Fil^a保N且φI_h⊂p^h，有限precision商不冒cohom等价。§10现有字面actual F：U的Cf′+Df=4A³+27B²给全局Newton，V取t↦t^p Hensel；同一étale t上的p-small I整且ΦV−ΦU=dI+Id。F1=(ΦUαU,ΦVαV,ΦUh+IαV)，chainwise Fil^r→p^r，Φ_M两列与Q_r(β)均由明确residue给出。不能再列缺两开集Frob source；继续原ambientPD/实际symbol comparison及normal/F0数值，原Cor/根相位/Poincaré和中央gauge保留。
+
+[R1166](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)已完成原Miller源到原coefficient cone的actual比较。固定E⊂P²及全局坐标p幂F；geometric cubic normal由同一Newton/Hensel section和γ_m dh→γ_(m+1)整filtered收缩。两开集I/K含全部overlap K_UK_V项，I_PD是同一曲线p-small étale积分，准确等R1165 I。normal与residue cone的复合第二槽为π_EΠβ+(π_EQ_n+Q_EΠ)α；external product保Q12及明确H=(0,(−1)^k Q1α·π2δ)，指定primitive为T h−H。SS时P∩U只在generic fibre，故W_n=U_n全部层相等，原两frame直接给formal U/V cocycle。H0系数由A=Res(−dlog barU_U/t+log barH·ηV)、B=−Res(log barH·ω)准确读，bar仅去geometric normal、保base g；满足N x=0和Φx/p=x。原Cor/roots/unsmoothing继续按原cochains，不能再把模型接口列作未付。当前继续tame PD Cor、实际第一层normal和中央F0取值。
 
 ### 原完整 47：已完成，只消费
 
@@ -75,7 +77,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)原tame projector及e-block给m_jr=F_j^(r)(p)=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)；所需precision k≤i、p^(i−k+1)，滤过交R∩Fil^aS=g^aR精确。若同一适配frame，窗口阶乘消为(−1)^(i−w_b)σc_(j+(i−w_b)e)；最高实际degree28e+p−1，不能用coefficient jet12替代。继续同源frame/F0，不对已成Frob矩阵再施φ。
 
-[R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)已付**完整原43格的有限整syntomic比较**。实际E^d odd/signed projector选ordinary Sym^dTpE(t)，Tsuji2000 Th5.1/§2给Hq syn≅et(q≤t)，保完整惯性/residue-Frob。全部中心改用E12/Sn14的分开pair projectors，q0/1/2同时覆盖；r0/2/4个指定交叉对的normalized antisym准确给Π_r(v4w8)=e(v,w)^r v^(4−r)w^(8−r)，无组合数，三个projector不必正交。实际P=O(∆−axes)的−c1syn(P)/2由∆*degree−2锁Weil coeval1；四份补入原λ∞xγ5，weight5+5+4=14，Tate/constants全保。原完整primitive groupoid与整syn模型等价，固定原étale identification后的lift fibre contractible，全p^n严格相容，ordered gauge全部交叉项/有限H0保留。现在继续实际theta/Miller根线代表、原adapted FL frame及1155/1162 normal表；不把唯一gauge类冒唯一cochain或PD矩阵，F0/z12未读。
+[R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)已付原完整43格有限整比较：实际E^d odd/signed projector和Tsuji小权给Hq(q≤t)含完整惯性/residue Frobenius；三中心E12/Sn14分开pair projectors准确Π_r，无组合数也不假互相正交。实际Poincaré −c1(P)/2由∆*degree−2锁Weil coeval1，四份补λ∞xγ5恰weight14。全primitive groupoid/全p^n及ordered gauge/有限H0保留；实际cochain比较现见R1164–66，未计算F0。
 
 ## O1：原两 jet 的实际临界非零
 
