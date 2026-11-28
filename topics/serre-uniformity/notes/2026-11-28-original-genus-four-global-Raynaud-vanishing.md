@@ -1690,3 +1690,220 @@ $\Lambda_p$ 或两个三循环系数非零。
 不能从 (G4.71) 或 Serre 型的非退化性推出原 $e,K_4$ 不同时为零。
 全部为有限多项式恒等式、原主部及 Serre 留数的纸面证明，
 未执行数学程序或新增素数窗口。
+
+
+## 12. 同一 $\mathcal X$ 正是原 $C$ 三平移的 $V_4$ 覆盖
+
+本节把 §10 的实际商与原三挠点 $Q=(0,v)$ 的三个双覆盖逐函数识别。
+它补齐平移方向、平方根相位以及完整 $\beta$ 标量。
+不从覆盖同构或单个交叉系数推出非零。
+
+### 12.1. 三个实际平方根及其唯一乘积关系
+
+继续 (G4.53) 的 $r,a,b,W$，令
+$$
+u=r^2,\qquad E':\ W^2=1-4u^3,\qquad Q'=(0,1).
+$$
+$Q'$ 恰为三挠点：其水平切线 $W=1$ 与三次曲线在此三重相交。
+以 $O$ 为无穷点，原弦切加法给
+$$
+\begin{aligned}
+u(P+Q')&=-\frac{2u}{W+1},
+& W(P+Q')&=\frac{W-3}{W+1},\\
+u(P-Q')&=\frac{2u}{W-1},
+& W(P-Q')&=-\frac{W+3}{W-1}.
+\end{aligned}
+\tag{G4.72}
+$$
+取 $i^2=-1$，在同一 $\mathcal X$ 上定义
+$$
+R_0=r,\qquad R_+=\frac{2ir}{a+b},\qquad
+R_-=\frac{2ir}{a-b}.
+$$
+由 $(a+b)^2=2(1+W)$、$(a-b)^2=2(1-W)$，
+以及 $a^2-b^2=4r^3$，得到完整恒等式
+$$
+\boxed{
+R_0^2=u(P),\quad R_+^2=u(P+Q'),\quad
+R_-^2=u(P-Q'),\quad R_0R_+R_-=-1.}
+\tag{G4.73}
+$$
+所有等式首先是函数域等式，故在光滑射影正规化上给出实际映射；
+显示分母并没有遗漏其延拓点。
+
+在 (G4.53) 上，原 $x$、$y$ 的符号变换下降为
+$$
+(r,a,b)\longmapsto(-r,-b,-a),\qquad
+(r,a,b)\longmapsto(-r,b,a).
+$$
+它们及其乘积组成 $V_4$，固定域正是 $K(u,W)$。
+确实，给定一般 $u,W$ 后，$r$ 有两种选择，
+而 $a^2=1+2r^3$、$b=W/a$ 再给两种选择，
+故函数域次数恰为四。
+三个不同二次子扩张分别由 $R_0,R_+,R_-$ 生成。
+(G4.73) 说明三个平方根只有两个独立 Kummer 类，
+不是一个 degree 八的独立三平方根覆盖。
+
+三个二次商的分支分别是
+$\{Q',-Q'\}$、$\{O,Q'\}$、$\{O,-Q'\}$。
+它们都是 genus 二曲线。
+完整 $V_4$ 覆盖在这三个基点处各有两个 ramification index 二的点，
+所以 Riemann–Hurwitz 再给 $2g(\mathcal X)-2=6$，
+与 §10 的 $g(\mathcal X)=4$ 一致。
+
+### 12.2. 原 $E,C,Y$ 的标记及 $-Q$ 偏移全部固定
+
+令 $\gamma\in\mathbf F_p$ 为唯一满足
+$\gamma^3=-4v^2=432$ 的元素；
+唯一性来自 $p\equiv2\bmod3$。
+固定 (G4.14) 中本来允许的立方根相位为
+$$
+b_0=\frac{\gamma}{v},\qquad b_0^3=-\frac4v=c,
+\qquad \sqrt\gamma=-\frac{2i}{b_0}.
+$$
+最后一式确为平方根，因为 $b_0^2\gamma=-4$。
+由
+$$
+(U,V)=(\gamma u,vW)
+$$
+识别 $E'$ 与同一个原
+$E:V^2=U^3+v^2$，并把 $Q'$ 送到原 $Q=(0,v)$。
+将 (G4.73) 乘以这个固定平方根，得到
+$$
+\begin{aligned}
+\widetilde R_0&=\sqrt\gamma R_0=-\frac{2ir}{b_0},\\
+\widetilde R_+&=\sqrt\gamma R_+=\frac{2y}{b_0x^2},\\
+\widetilde R_-&=\sqrt\gamma R_-=\frac{2x}{b_0y^2},
+\end{aligned}
+\qquad
+\boxed{\widetilde R_0\widetilde R_+\widetilde R_-=2iv.}
+\tag{G4.74}
+$$
+它们平方分别为 $U(P)$、$U(P+Q)$、$U(P-Q)$，
+乘积平方恰为原 $-4v^2$。
+因此 $\mathcal X$ 严格等于
+$$
+C:\ R^2=U
+$$
+及其沿 $P\mapsto P\pm Q$ 拉回的三个双覆盖的 $V_4$ 纤维积。
+这里各二次商到原 $C$ 的映射要同时取
+$(R,V)=(\widetilde R_j,V(P+jQ))$；
+不能保留平移后的平方根却省略 $V$ 的同一平移。
+
+而且原 §1、§6 的 $Z\to Y\to C\to E$ 并非另一个未定标映射。
+沿 $\eta=x,\ y_Y=b_0y^2$，其准确公式是
+$$
+R_{\rm old}=\frac{2x}{b_0y^2}=\widetilde R_-,
+\qquad
+U_{\rm old}=\frac{4x^2}{b_0^2y^4},\qquad
+V_{\rm old}=v\,\frac{1+x^6}{1-x^6}.
+$$
+使用 $W-1=-2y^6$ 和 $b_0^2\gamma=-4$，逐项得到
+$$
+\boxed{
+(U_{\rm old},V_{\rm old})
+=\left(\frac{2U(P)}{W-1},
+       -v\,\frac{W+3}{W-1}\right)
+=P-Q.}
+\tag{G4.75}
+$$
+因此三个二次商中原指定的 $C$ 是下标 $-$ 的那一个，
+相对于 (G4.72) 的基点，偏移准确为 $-Q$。
+这里固定的是 Fermat 覆盖中已显示的可选相位，
+原 $Y,E,Q,e,\delta$ 和其微分规范都没有被重定义。
+
+### 12.3. 三条 anti-invariant 微分与原 $\beta$ 的完整尺度
+
+仍取
+$$
+h_*=-\frac{r\,dr}{W}.
+$$
+(G4.74) 的基映射满足
+$$
+\omega_E=\frac{dU}{2V}
+=\frac{\gamma}{v}\frac{r\,dr}{W}=-b_0h_*.
+$$
+三条 anti-invariant Hodge 线有如下实际生成元：
+$$
+\lambda_0=\frac{h_*}{R_0}=\omega_{1,1},\qquad
+\lambda_+=\frac{h_*}{R_+}=-i\omega_{4,1},\qquad
+\lambda_-=\frac{h_*}{R_-}=-i\omega_{1,4}.
+\tag{G4.76}
+$$
+连同公共的 $h_*=\omega_{2,2}$，它们组成 $\mathcal X$ 的完整四维 Hodge 空间。
+这也对应双覆盖分解
+$1+3(2-1)=4$，未把三个二次商的 Hodge 空间直接相加。
+
+把 (G4.55)–(G4.57) 的原 $\sigma_p$ 代入。
+由于 $p=6k-1$，有
+$i^p=(-1)^{k+1}i$、$(-i)^{1/p}=(-1)^k i$。
+按 absolute Cartier 的两输入半线性，三条循环的系数恰完全相同：
+$$
+\boxed{
+\begin{aligned}
+\beta_{\mathcal X}(\lambda_+,\lambda_-)&=-\sigma_p\lambda_0,\\
+\beta_{\mathcal X}(\lambda_-,\lambda_0)&=-\sigma_p\lambda_+,\\
+\beta_{\mathcal X}(\lambda_0,\lambda_+)&=-\sigma_p\lambda_-,
+\end{aligned}
+\qquad
+\beta_{\mathcal X}(h_*,H^0\Omega_{\mathcal X})=0.}
+\tag{G4.77}
+$$
+尤其 (G4.77) 保留了 $p\bmod4$ 的相位，不能按普通双线性搬动 $i$。
+
+若坚持每个原 $C$ 上的生成元为 $\omega_E/R$，
+其向 $\mathcal X$ 的拉回是
+$\vartheta_j=-b_0\lambda_j/\sqrt\gamma$。
+令 $d=-b_0/\sqrt\gamma$，则 $d^2=\gamma/v^2\in\mathbf F_p$，
+故两个输入的共同乘子经 Cartier 后仍是 $d^2$。
+于是同一三循环也可以准确写为
+$$
+\beta_{\mathcal X}(\vartheta_i,\vartheta_j)
+=\frac{b_0\sigma_p}{\sqrt\gamma}\,\vartheta_\ell
+\quad\text{对 }(i,j,\ell)=(+,-,0),(-,0,+),(0,+,-).
+$$
+这给出原三平移双覆盖自身标架中的系数，
+没有留下未说明的单位比例。
+
+### 12.4. 三个同一 $E_*$ 的实际映射
+
+这个覆盖还有可用于后续 primitive 比较的完整函数来源。
+令 $A_j=R_j^{-1}$，并以 $D_{\mathcal X}=d/h_*$ 表示 $\mathcal X$ 上的导子；
+此处 $D_{\mathcal X}$ 只是本小节的导子，暂不与 §9 的椭圆导子混淆。
+由 (G4.73) 及直接微分，
+$$
+A_0^2+A_+^2+A_-^2=0,\qquad A_0A_+A_-=-1,
+$$
+$$
+\begin{aligned}
+D_{\mathcal X}A_0&=A_0(A_-^2-A_+^2),\\
+D_{\mathcal X}A_+&=A_+(A_0^2-A_-^2),\\
+D_{\mathcal X}A_-&=A_-(A_+^2-A_0^2).
+\end{aligned}
+$$
+因此对每个 $j$，
+$$
+(D_{\mathcal X}A_j)^2=A_j^6-4,\qquad D_{\mathcal X}^2A_j=3A_j^5.
+$$
+这不是形式局部解，而是在同一函数域上的实际恒等式。
+故三个映射
+$$
+\boxed{
+\pi_j:\mathcal X\longrightarrow E_*:\ w^2=z^3-4,\qquad
+z=A_j^2,\quad w=D_{\mathcal X}A_j,\qquad
+\pi_j^*\frac{dz}{2w}=A_jh_*=\lambda_j}
+\tag{G4.78}
+$$
+把三条 anti-invariant 微分都接到 §9 的同一个椭圆模型。
+$j=0$ 时它正是 $z=r^{-2},w=Wr^{-3}$ 的已付映射。
+若使用 §10.3 的规范 $\Psi_*$，则
+$\delta_*^{-1}\pi_j^*\Psi_*$ 是 $\lambda_j$ 的真实有理 primitive。
+(G4.77) 因而也是这三个指定 primitive 的交叉 Cartier 读取，
+并非只由椭圆商的 $j$ 或同源类型推断。
+
+本节付清原三平移 $V_4$ 覆盖、其指定 $-Q$ 标记、
+三平方根的相位及 $\sigma_p$ 的准确配对角色。
+$\sigma_p$ 仍是 (G4.56)/(G4.60) 的有限和，尚未证明非零；
+它也未被等同于原 $e,K_4$ 或 $\Lambda_p$。
+后续若要从 (G4.78) 控制高插入，仍须保留完整 primitive 与其 $p$ 次幂修正。
+全部为同一函数域上的纸面计算，未执行数学程序或新增素数窗口。

@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-Manin-source.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -87,14 +87,6 @@ R805–930 固定源/全jets/两图/Norm/trace/锚/运行 pins 见[逐字前态]
 
 完整旧分支见[逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1004导子/交叉迹下界不付a/c上界，R236/238/249依赖M*=D(bc)²。原全局目标仍须统一q<p²/4、ε(q)=−1且a_q≠0；依导子密度或有限窗口不足。R707主41与R1125 full47已完成，只消费；R101/109有gap范围不外推全p，R4无Runge尖点盈余。变化CM不能套固定A、自动Norm不添类群矛盾。全部RF/SP/ZA/41S/41C、b/s/λζ²、CRT6、theta二挠/fullCorr/nonp和Shapiro边界不变。
 
-### R1135 §14：原有界解与 Cartier forcing
-
-R1135 §14的完整有界primitive、同尺度Cartier与Katz forcing保原结果及归档；B^p=A^(2p)B、逆算子/原U_p常数在§15付，局部共振低jets现由§16的同源安全moment读取。原forcing首项单位与Hasse旁解仍不能代W(TG)非零。
-
-### 原 Fermat6 完整 Raynaud 张量
-
-[原genus4 §6](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)从指定degree2商η=x、y_Y=b0y²接Z:x⁶+y⁶=1。十个ω_ab=x^(a−1)y^(b−6)dx都有完整无p分母primitive，C全零；45槽由(G4.19)统一有限和给出，三个坐标和不全<6时为零。原尺度精确B22,12=−c^(2k−1)e/δ，故e0 iff公共222椭圆方向在全十维β的radical。真实V4三商维数1+3×3；e0消去9个允许槽，仍有114/123之间18个cross，不能宣全β零或指定middle cyclic。继续实际cross与原K4的关系。
-
 ### 原 Fermat6 的第四层 Cartier 与完整极消去
 
 [原genus4 §7](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)先证低插入全零时高插入正则且不受primitive的p次平移影响。e0使123六维第0…3层全零；第4准确C(P⁴ω12)=4c^(2k−2)K4·ω32/δ²。故原双零等价222+123七维第0…4层全零。真实第四层保3p−1和9p−1两个指数，(A3+A9t)/(1−t)的全纯性才迫A9=−A3，A3同单位倍K4。114第二层Λp=[t^(k−1)]R²(1−t)^(k−1)；未付其非零，不能用全纯字符删第三/四层亚纯项。18 cross仍在；继续指定有限系数或Leibniz，不以一般配对非退化代单位。
@@ -107,11 +99,6 @@ R1135 §14的完整有界primitive、同尺度Cartier与Katz forcing保原结果
 
 [R1150](results/R1150-original-relative-log-Frobenius-and-crystalline-identification.md)以完整中央res消去、horizontal period gauge、proper-log下降及H¹etZ0关闭同一原relative associatedness；实际F0中央常数仍由原源读取。
 
-### R1135 §15：原 Frobenius 常数与指定 Gaussian 主部
-
-R1135 §15付原U_p=1的Π0(f/A^r)=(f/A)^p与准确逆B指数p−r−1。Wω的Cartier恒零不能测Gaussian值；指定XiG=½dlog(X−rG)给WXiG=W(TG)XiG+dJ、C(WXiG)=W(TG)XiG′及W(TG)=−ResO。该原值现由§16安全moment读取，仍须证明单位。
-
-
 ### R1151：实际全局 Frobenius subtraction 与退化分支
 
 [R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付所有p>37的H¹(Qp,Heis)↔Fp³ finiteFL坐标全双射；p>Ccyc的全部global像准确(rx,sy,zxy)，其中(r,s,z)来自同一Θ，s=T0=u5modp。r/s为零时使用原文七行完整条件，不能除去或以单quadric代替。rs非零的真实中央差为h−zab/(rs)，通用八次系数a3b5(3rs/8−z)。Gaussian/cubic最高项分别16δ³c_g⁶(rs z12−z x4y8)、16δ³c_g⁶(rs z12−z λA*y7/6)；需证明这些同源组合而非raw z12单位。全局CM点给常数项0，有限根完整分类；cubic r0的单位首槽仅迫u∈p²Zp，不付whole盘。继续指定Θ/F0值、深盘与其余全范围。
@@ -122,16 +109,6 @@ R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β
 ### R1135 §§16–17：原 Gaussian forcing 的同源有限 Gauss 行列式
 
 [R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原Hasse参数u、伴随ℓ与ξ=u/ℓ付B共轭首误差≥2p+1及原Frobenius常数避让；安全moment消去曲率给Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)。§17在x=−Y²/r_G³准确识别ℓ=L=F(1/12,1/12;1/2;x)、u=β_G YQ/(3r_G²)、Q=F(7/12,7/12;3/2;x)。p=12n+7/11分别Q=P_n或(1−x)^(1/3)P_n，P_n=F(−n,−n;3/2;x)，所以Q⁶真多项式degree N=(p−7)/2且t_N单位。全部Y-residue/符号付Δ_low=8(3b_Nc_N−t_Nd_N)/(4455 r_G β_G²)，四系数按(1135.95)–(96)；最高只读(p−5)/2，全部Wronskian余项保留。仍须此完整det或其它原good行排实际余对，端点单位/char0正性不代非零，两twist/mask/节点全保。
-
-### R1152：原全局中心常数的指定权八 Frobenius 读数
-
-[R1152 §§1–12](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)已付原Θ∞与MT(Z)同源、正向Ihara方向、权八完整乘法/导数表及原整缩放单位。Chatzistamatiou整估值控制整个无限尾，已刊Jarossay有限公式给 ap=−β3/3、bp=−β5/5、hp=(J+2β3β5)/25，其中β3=Bp−3、β5=Bp−5，J=Har_p(1,3,4)按递增指标。故r/s零准确等价对应β零，z零准确等价J+2β3β5零；七分支表均已显式有限化。rs非零时 κ=z/(rs)=6/5+3J/(5β3β5)，另有25Har_p(1,2,5)+2J=16β3β5。原全局常数不再是未指定输入。
-
-实际Gaussian/cubic组合仍为z12−κx4y8、z12−κλA*y7/6；通用最高因子3/8−κ=−3(11β3β5+8J)/(40β3β5)。这些有限式没有证明J、11β3β5+8J或实际中央组合非零，也没有排除whole p-disc；继续原F0中央项和全部深盘范围。未除零Bernoulli分支必须按R1152 §11完整表使用。
-
-### R1154：原首标签与 minor 的联合有限 Gauss moment
-
-[R1154](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)以同一r5 forcing付H_p=4χ(r_G)E_H/(63β_G)，E_H=[x^(N+1)](xT′−NT)(L/Q)²。原T=Q⁶反序列精确为F(1/12,7/12;1)^6 mod y^p；N<j<p全零、xT′−NT下一首项−7t_N/24单位，但不代指定moment。完整Wronskian/分部积分给c=t/8+e†/6、d=3b/8+f†/6，故Δ_low=4(3b e†−t f†)/(13365 r_G β_G²)。Bp−3好时非对角余对强迫E_H0；再在Bp−7坏/Bp−5好分支还须同一minor0。全部矩均同一L/Q，保实际good mask、两twist、S0/P0；继续排完整联合等式，不把不存在的高行补进mask。
 
 ### R1153：原 Kummer / finiteFL 读数校准已付
 
@@ -158,11 +135,6 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 首标签准确H_p=4χ(r)/(63βaν²){q_p(2)−Hν+½Σ C_sH_s}，C_s=[w^(2s)]Pν⁴。minor准确4(3BνUν−Vν)/(13365rβ²aν⁸)，B/U/V都按同一个Vν=Wν−1−Pν Lp和R(P)=[w^(p−1)]P/(1−w²)定义，全部二/三次log项保留。实际good余对须q_p(2)=Hν−½Σ C_sH_s及3BνUν−Vν=0同时成立；未证不可能，也没有把此加权harmonic读数认成R1152的J或原F0 z12。继续真正同源联合消去/其它actual good行。
 
 
-### 原 D(α) 的整五项 cochain
-
-[R1133 §11](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)付原D(α)同根路径的完整算术五项cochain：h=χ̃2+ab、h−ab/2=−li2、dh=−a∪b，五项交替和=ρ1−ξρ1−η。bar Cor逐陪集乘积全保，不变成两个Norm之积。原四线/Manin组合在全M拼接与额外内点中心惯性仍须付；继续实际局部dilog/Frobenius读数，未套小开集H¹0。
-
-
 ### 原 primitive 的有限 dilogarithm Frobenius
 
 [R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原D到标准Heis的rev方向，良好单位actual rational fibre晶体性，未分歧BK=(logu,log(1−u),−Li2)。通用u^p→u Frobenius中央=−Li2†，强mod pO_L读−ℓ2,p(u)/(1−u^p)，保分歧nilpotents；原U_a(P)/W确为unit。Qp同点Frob另含乘积修正；仍须原filling/transfer/运输到F0 z12，不套ramified FL。
@@ -170,7 +142,7 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 
 ### 原有限对数与 Bernoulli mask 的准确加权关系
 
-[R1154 §11](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)新增完整三次finite-log端点(3/8)Bp−3与三个移位核；指定Pν⁴/⁶/⁸权重和真实截断全部保留。实际H_p0使q_p(2)=Qν，minor0精确为Cν(Qν)+(3/8)Bp−3D2=0，D2只为Pν⁸至(p−5)/2的部分和。Cν(Qν)消失/D2单位仍待付；原good β3单位不能单独排除此式，继续同一Legendre ODE的联合消去。
+[R1154 §11](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)新增完整三次finite-log端点(3/8)Bp−3与三个移位核；指定Pν⁴/⁶/⁸权重和真实截断全部保留。实际H_p0使q_p(2)=Qν，minor0精确为Cν(Qν)+(3/8)Bp−3D2=0，D2只为Pν⁸至(p−5)/2的部分和。无条件Cν(Qν)=0已被新Actions反例否定；条件于q=Qν的联合排除与D2单位仍待付，原good β3单位不能单独排除此式。
 
 
 ### 原兼容整塔的水平补点
@@ -181,11 +153,6 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 新加权探针的准确否定边界
 
 [实际回执](notes/2026-11-28-new-weighted-Legendre-probe.md)：公开Actions run46094809839/job140823622844在新1000<p<1100窗口成功。p1019的Cν(Qν)=828非零，故不再追无条件Cν(Qν)=0；同时q=724≠Qν=928，原H_p0前提未满足，条件联合排除仍OPEN。七个D2非零不代一般证明，不扩扫；继续原actual-good Newton余核与finite-log差分。
-
-
-### 原114交叉项已完成，余十五槽继续
-
-[原genus4 §10](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：原Fermat6 §10已付剩余十八cross中的三条114×114：实际degree3 genus4商、两椭圆primitive、全部相位、同一E*的两极Cartier递推和终止balanced4F3均明确。其系数σ未unit，未与原e/K4或Λ混同；剩余十五cross及双零排除继续。
 
 
 ### 原 Newton 余核的 finite-log 差分入口
@@ -216,3 +183,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原 Newton 删除的完整 principal：准确回收但尚非零条件
 
 [原 spectral §10](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)付被删列 C_pr=Σ_(h=1)^(k+1) a_(k+1−h)b_(h−1)/(2h)!，a_l=[q^(4l)](q/σ(q))²，只用权≤p−3的原安全输入。反对角一阶和 H_l 最高项两种读取同源；它含每个低层贡献，不等于单独 b_k/(2k+2)!。完整 Newton 差商为 D_(S,P)−C_pr Q_grid；R(R²−1)(R²−1/4)乘该 principal 恰−(R^p−R)，代 R=1−θ 恒零。因此 Euler 缺项不给 C_pr=0，更不给 b_k=0；继续实际二根与原 elliptic carry，保全部 good mask、S=0/P=0 边界。
+
+
+### 同一原三平移 C 的完整 V4 覆盖已识别
+
+[原genus4 §12](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付同一𝓧上的三个真实平方根、乘积2iv、degree4及完整分支，原 Z→Y→C→E 指定映射恰对应新基点 P−Q。原ω_E/R三标架的 β 系数为 b0σ/√γ，全部absolute Cartier相位保留；三个 anti-invariant λ_j 由 z=A_j²、w=D_X A_j 接到同一个 E*:w²=z³−4，真实primitive是 §10.3 的 Ψ_* 拉回（不混§9的 H_*）。继续完整 pth 修正后的高插入与原e/K4；覆盖识别及σ的有限式均不代任何非零。
