@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **ab1baf62aa93b27653d58431439ec5dafaa69021**；根16新增条款已读。私库实际pull **2026-11-28 12:06:31 UTC** 至 **7562d82212a67e6513786b36fa7c9f9fda351b17**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **c967b6c19a4f698b21c2960e5d0b5d230c4e0380**；根16新增条款已读。私库实际pull **2026-11-28 12:06:31 UTC** 至 **7562d82212a67e6513786b36fa7c9f9fda351b17**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -54,6 +54,6 @@ R637/R642/R644/R652双核/全频gap仍欠有效宏观q；R652/R657全部已付OD
 
 [R676](results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md)真有限弯盘及整圈非平同g领；反射闭桥须终圈Bτ=m=0、净∫K=2π、单侧嵌入和全法管/支撑。
 
-[R681](results/R681-two-rigid-positive-crowns-and-one-reflected-window.md)两真实刚性正帽+双平度量弯带+四负领，固定近帽，远帽纯平移Δ支撑>1.01，外件D≤3.15/开握持.80。剩余镜像四边窗保全部真位置/二jet；全点同g与全闭reach未付。总曲率预算不代逐方向Gauss重数，R684补真正刚球冠、R686解实际环窗及周期。R682同号正K移动盘/桥和完整窗三矩接口待根首审；R685处理R675小应变的真实二基发散。
+[R681](results/R681-two-rigid-positive-crowns-and-one-reflected-window.md)两真实刚性正帽+双平度量弯带+四负领，固定近帽，远帽纯平移Δ支撑>1.01，外件D≤3.15/开握持.80。剩余镜像四边窗保全部真位置/二jet；全点同g与全闭reach未付。总曲率预算不代逐方向Gauss重数，R684补真正刚球冠、R686解实际环窗及周期。R682同号正K移动盘/桥和完整窗三矩接口待根首审；[R685](results/R685-small-unit-pose-strain-with-exact-moment-and-diverging-bending-cost.md)已证小应变+准确矩仍可二基发散；新3152全列硬矩/二基费用/实际−.001至−.004同g修正与双网全壳，旧五矩阵不重跑。
 
 R640比例不借别输入，旧59a4资格不转新q；R33只授真旋转固定g相位且δE可0。完整同g全时、真实多t网格、存在差距等门均仍未完成，继续实际新输入。

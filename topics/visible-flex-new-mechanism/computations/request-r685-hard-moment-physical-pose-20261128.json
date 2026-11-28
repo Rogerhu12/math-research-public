@@ -1,0 +1,58 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "private_rules_read_commit": "7562d82212a67e6513786b36fa7c9f9fda351b17",
+  "schema": "r685-hard-moment-physical-pose-v1",
+  "public_rules_read_commit": "c967b6c19a4f698b21c2960e5d0b5d230c4e0380",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r685_hard_moment_physical_pose_20261128.py",
+  "workflow": ".github/workflows/visible-r685-hard-moment-physical-pose-20261128.yml",
+  "common_parameters": {
+    "geometry": "topics/visible-flex-new-mechanism/computations/r685-hard-moment-physical-pose-20261128.json",
+    "max_seconds": 2170
+  },
+  "lanes": {
+    "hard-moment-pose": {}
+  },
+  "scope": {
+    "previous_run": 46141399411,
+    "previous_five_matrices_replayed": false,
+    "fixed_metric_R673_positive_endpoint": true,
+    "new_original_columns": 3152,
+    "one_exact_central_moment": true,
+    "full_physical_bending_and_finite_actual_geometry": true,
+    "old_science_replayed": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r685_hard_moment_physical_pose_20261128.py": "35de3aa8febc620502980b8202e941fcce4d595866e11b4393e6ceb4120d4f03",
+    "topics/visible-flex-new-mechanism/scripts/r675_bowed_endpoint_pose_response_20261128.py": "3064d56c589e7c93f5d90f1b9de63f19c706080b8615ac2c2dd4de53998b641b",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r685-hard-moment-physical-pose-20261128.json": "b268b870f141d43bbbc74afb483b0f3a1bd4a273d4c1062f88ad77f38363c327",
+    "topics/visible-flex-new-mechanism/computations/r675-natural-five-responses-for-r685-20261128.json": "1db9d3a04c108ec85faf7b4328f7082a33833f23eeb83cc4f6ce305f0961ba73",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r685-hard-moment-physical-pose-scope.md": "ff5b915212795ee210d36c803d5f9bdad7f1596864eaddf84116d2f032296564",
+    "topics/visible-flex-new-mechanism/results/R685-small-unit-pose-strain-with-exact-moment-and-diverging-bending-cost.md": "42930efcc51182a5dfd6e2e9af671d2bb4213c1e99b19e0db0f960da6092755c",
+    "topics/visible-flex-new-mechanism/results/R673-thick-bowed-tilted-endpoint-metric-with-strict-intrinsic-chord-slack.md": "b3dc7828897bb4b57c04ee44662ba53dd64835b5c85f2369b1725bb59ffdfb2c",
+    "topics/visible-flex-new-mechanism/results/R675-central-bending-moment-for-an-infinitesimal-bowed-endpoint-tilt.md": "69ee4dec02311f3993af5bed83429b7d7eeff6dbfdead8ca76c95623d72889c4",
+    "topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md": "0587a98a884e99be1fff5e523128727d161d24ca754648d63941d42ce672785f",
+    "topics/visible-flex-new-mechanism/results/R655-offset-rigid-cap-and-thick-inner-hold.md": "ad7d3e97b237272d2a943e0f34b40551eb389242b6d1a46b77b2fc2fbcffa9af",
+    "topics/visible-flex-new-mechanism/results/R679-elliptic-sign-separates-material-reflections-of-any-nonplanar-flat-rim-annulus.md": "ad9d393f2fe95dd35ce679ee344af24c795e2bdd28cc30808a0ebd87535c745c",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r675-bowed-endpoint-response-natural-terminal.md": "a851705c3aee4111ecca19be0816160e49b4b7f17d13708c4b9c48a0a26bbe61",
+    ".github/workflows/visible-r685-hard-moment-physical-pose-20261128.yml": "80fe27c8211a2bdc98c509f45103568d0de294f063fbf681310700da0f90d357"
+  }
+}

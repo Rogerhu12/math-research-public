@@ -1,0 +1,41 @@
+{
+  "radii": [
+    0.075,
+    0.22
+  ],
+  "ramp": 0.032,
+  "height": 0.0036,
+  "sine": 0.36,
+  "bands": [
+    16,
+    32,
+    16
+  ],
+  "K": 16,
+  "work_order": 8,
+  "work_angles": 43,
+  "independent_order": 12,
+  "independent_angles": 153,
+  "final_order": 17,
+  "final_angles": 257,
+  "moment_order": 15,
+  "bending_scales": [
+    1e-06,
+    1e-05,
+    5e-05,
+    0.0002
+  ],
+  "angles": [
+    -0.001,
+    -0.002,
+    -0.004
+  ],
+  "step_scales": [
+    1.5e-05,
+    8e-05
+  ],
+  "nonlinear_iterations": 4,
+  "actual_goal": 1e-08,
+  "reserve_seconds": 120,
+  "previous": "topics/visible-flex-new-mechanism/computations/r675-natural-five-responses-for-r685-20261128.json"
+}
