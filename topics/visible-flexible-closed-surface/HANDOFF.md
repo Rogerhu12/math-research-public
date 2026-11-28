@@ -42,7 +42,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-HF-xyz --> [原g真实own3后两次双钟](notes/2026-11-28-2ecf-hf-xyz3-frozen-g-two-actual-double-chart-steps.md)：G11 .152624→.116619，物理图像保持、κ约17.36；真XYZ旧态全部保留。
 
-<!-- 2ecf-R271-components --> [R271](results/R271-gap092-three-complete-components-and-all-pairs-reach.md)、[R273新上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)：各自三分量全相位 reach≥.097；新空间映射保前缀、Jacobian>.23809，连接带仍待。
+<!-- 2ecf-R271-components --> [R273上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)、[R282回折双控尾](results/R282-returning-developed-ports-with-independent-terminal-tangent-and-height.md)各自中央/两尾/固定帽三分量全相位reach≥.097；R282端高/切向独立，完整连接仍待。
 
 
 <!-- 2ecf-HF-both-material-clocks --> [同g14820位置加936真新径成7227136行；独立G11最佳 .08128793/18.07564/held .659011。](notes/2026-11-28-2ecf-strong-hf-new936-genuine-refined-grid.md)
@@ -63,4 +63,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:18:05 UTC；已读公开 main `79e302115a3c2049f9a47782f86dbbc63f81b51a`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:18:15 UTC；已读公开 main `21fa3269ace7b940c535d0ace3712b17c949656d`，根/课题 README 逐差无变化。
