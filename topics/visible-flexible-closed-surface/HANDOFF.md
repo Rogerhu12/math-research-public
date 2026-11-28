@@ -36,7 +36,7 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 [M64/G12全7阶段](notes/2026-11-28-2ecf-m12-m64-g12-complete-ancestor-union.md)已0，真实M48/G6父态转移，142784列、独立祖先峰5.424144e−10。h503按实热点487→503物理元素、736→784径向自由系数，194角通道共152096列；原416新准确半径与Boehm转移保原g。首LM真实SIGKILL−9未出场，原因未证；映射单带完整全normal后继保持全部行列、cross和接受规则。
 
 
-<!-- 2ecf-live-m12-refinement --> [h503全6036径向×1536角单带组装并接受α1，训练峰4.94403e−10，独立与后验尚待。](notes/2026-11-28-2ecf-m12-h503-retained-full-Gram-accepted-step.md)
+<!-- 2ecf-live-m12-refinement --> [h503保存场451481cd独立峰4.94402e−10，实际未正则梯度降，R226真0；原全域B=2e−9主线仍5778。](notes/2026-11-28-2ecf-m12-h503-saved-field-independent-physical-gradient.md)
 
 <!-- 2ecf-m12-diagnostic --> [实际nonlinear梯度被动核](notes/2026-11-28-2ecf-m12-actual-nonlinear-gradient-probe.md)已0；[准确query父链核](notes/2026-11-28-2ecf-m12-exact-query-extension-parent-chain.md)已0，新h必须保完整实际祖先身份；原活动入口冻结。
 
@@ -66,4 +66,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:06:36 UTC；已读公开 main `6c0bf136c43578085d2dce5732e11fdb10c35ded`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:06:48 UTC；已读公开 main `15bf1fd56d859804a85b223c16a5d067c2875097`，根/课题 README 逐差无变化。
