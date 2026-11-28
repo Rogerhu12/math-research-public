@@ -19,6 +19,8 @@ Kriz7.20尚缺本题两个截面的共同连通延拓或真实flat/depletion交�
 
 ## 当前新增结论
 
+- [R1058：CM主单位、完整根圆盘与真实互绕](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)：原CM主单位的真实矩阵与两个中心给完整Möbius、Hodge和KS运输，raised权保det(g)^−n。其居中Q2 germ在含全部μp的明确闭盘上真实延拓为Q·exp(E(logQ))，逐点满足Φ(ζQ)=ζΦ(Q)，从而原系数/全部finite字运输与完整root平均互绕。它逐个固定μp，不等于根平移；真实g2²核的第一轴已对照书版商定义核准。实际CM分支到Kummer cover及canonical负端点的等式仍未付。
+
 - [R1055附录：五伙伴与同一完整前缀](results/R1055-original-a24-relative-fiber-and-complete-two-trace.md)：R1055附录把E3969实际Φ126写成同一A24·H102，付原五伙伴全式、全部有限极及两条真实乘积关系。charge/Gaussian完全相消后，其完整canonical行是原S/T/V/t唯一常数一平方根的Newton全加权行；整性只按R1051原物理/PD前缀和全部carry消费。同一个B_E与第四伙伴关系同时相容，不增加自由高轴、乘积零条件或主预算收益。
 
 - [R1053：原B12的完整canonical读者与三十九支返回](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)：原390两来源的B12商及全部324词准确给E3969的degree378必要首行；二挠Miller、CM有理比及全部零极补偿均保。完整四次Cartier和39支trace读同一首行；中间theta carrier仍为三个rank13/degree126稳定项，未变成旧L10。

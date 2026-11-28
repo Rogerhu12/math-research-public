@@ -24,7 +24,7 @@ g_1^*((p\delta)^nA)
 \(p^{-2}\zeta_{p^2}^{(51/2)(A^2-4AB+B^2)}\)
 分成 \(p^{-2}v_0\otimes v_0\) 及全部 wild 逆角色对；旧新混合块为零。每条局部块非零，全局 Hermite/六根/tame 投影仍可能消零。有限环投影保 \(1/[p(p+1)]\)，不能称整幂等元；新 \(p\)-torus 不算入原 full54。
 
-**下一实质门：**把这些实际新块的同一 flat 测度、CM 轨道权和 canonical/指定 proper 端点逐式相接。central 正沿 Andreatta–Iovita 的 marked differential、实际同源拉回和 exact-\(p^2\) avatar 比较；固定 classical \(k=3\) 要核 one-variable 的 conductor 条件，不能误套 two-variable 的 \(n\ge3\) 范围，也不能将 primitive 定理套未分歧角色。arithmetic 正付 CM 主单位对居中 \(Q_2\) 的完整 Möbius 作用、系数运输及所有根圆盘的合法延拓，不能由群阶相同就认 \(Q\mapsto\zeta_pQ\) 为 CM 主单位。
+**下一实质门：**把这些实际新块的同一 flat 测度、CM 轨道权和 canonical/指定 proper 端点逐式相接。central 正沿 Andreatta–Iovita 的 marked differential、实际同源拉回和 exact-\(p^2\) avatar 比较；固定 classical \(k=3\) 要核 one-variable 的 conductor 条件，不能误套 two-variable 的 \(n\ge3\) 范围，也不能将 primitive 定理套未分歧角色。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。下一可用同源正权恒等式与R1056的真实flat逼近比较负端点，但须精确保原AI avatar、Teich分量和完整旧项；不能由群阶相同认分支，也不将p^n当解析函数。
 
 [R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)提供真正可用的同源读者：临界值是单位 inverse-square 矩，斜率保 log、全部 Maass 修正和外权导数；正 KS/正杯积 Bol 与 R997 一致。直接整 Newton 的值读者用至 \(pH-1\) 阶，斜率用 \(O(p(H+\log_p(H+1)+1))\) 阶及准确额外精度；旧 Stirling 路径另付 \(v_p(N!)\)。R1054 的负端点仍是原 Coleman 的 \(p^{-6}\) 真 \(Q\) 平均，不是已经识别的 CM 图 trace。
 
