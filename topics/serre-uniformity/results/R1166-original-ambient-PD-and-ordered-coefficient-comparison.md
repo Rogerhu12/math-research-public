@@ -1690,3 +1690,343 @@ $z_{12}$ 与全局减法组合非零。
 以及本篇 (1166.54a) 的实际 primitive/Frobenius 方向。
 上述交换、因式分解及全和代数已由
 o2_high_coefficient 独立纸核；无数学程序执行。
+
+
+## 20. 经原 PD 收缩后，BCH 对称项仍严格消去
+
+本节把 §19 接到
+[R1168](R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)
+的实际 constant-cycle frame。结论不要求读算子保持乘法。
+以下只谈最高 correlation 群的 $b_n$，先取 $n=2$；
+还没有进行 R1159–1160 的算术未平滑。
+
+### 20.1. 全部原和原 primed 矩的 normal 常数为零
+
+原未分歧底上记
+$e=p^2-1$、$u=z^e$、$g=u-p$。
+二扭点为 $A_i=(e_i,0)$，置
+$K_i=\prod_{j\ne i}(e_i-e_j)$。
+R1157 的真实四次方身份给
+$$
+4[\theta'_{2,C_i}(P)]
+ =\left[\frac{\Delta}{16y(P)^4}
+              \frac{(x(P)-e_i)^4}{K_i^2}\right].
+$$
+于是于同一 $p$-local $K_1$ 及其实际 Kummer 对象中，
+$$
+\begin{aligned}
+[\theta'_{2,C_i}(P(z))]
+ &=\frac14[\Delta/(16K_i^2)]+[z]+[V'_i(z)],\\
+V'_i(z)&=-\frac{x(P(z))-e_i}{z\,y(P(z))}
+        =z^2(x(P(z))-e_i)V_2(z)\in1+z\mathcal O_F[[z]] .
+\end{aligned}
+\tag{1166.73}
+$$
+$-1$ 的 pro-$p$ 类为零；这里没有加入第四根的域。
+原 $V_2=-1/(z^3y)$ 与 $V'_i$ 都有首项一。
+二扭点在原未分歧二次域上，$\Delta,K_i$ 均为单位。
+若为 reference points 扩大未分歧底，式子原样拉回。
+
+共同常数与 $[z]$ 项按 §11 的
+$\operatorname{Tr}(x_P^{[d]})=0$ 在完整矩中消去，
+不是逐点删除。剩余
+$$
+L'_i=p^{-1}\log\frac{(V'_i)^p}{\psi V'_i}
+ \in\mathcal O_F[[z]],\qquad L'_i(0)=0
+\tag{1166.74}
+$$
+与原 $L_2$ 有完全相同的整性。
+
+对 $d=4,8$，R1167 的第 $k$ 个 coefficient 因子为
+$$
+(-1)^d\binom dk b_E^{d-k}
+ z^{j_k}(1+\gamma_p(g))^{d-k}g^k,\qquad
+j_k=p(d-k)+k,\qquad 0<j_k<e.
+$$
+与 $L_2$ 或 $L'_i$ 相乘并取实际 tame trace 后，
+零 $e$-block 必从 $u^1$ 开始。
+所以在原 $e_k=\omega^{d-k}\eta^k$ 的 normal 展开中，
+每个 moment 的第二槽 $y$ 都满足
+$$
+\boxed{\qquad y_{k,n}=0\quad(0\le n<k+1).\qquad}
+\tag{1166.75}
+$$
+特别所有原、所有 primed 槽的 $y_0$ 都为零。
+正的 $\gamma_p$ 项仍先保留；它们只能提高 normal 次数，
+不能产生本式所排除的低项。
+式 (1166.75) 用实际 source 证明，不是只从闭性猜测。
+
+### 20.2. 完整有序 gauge 的消去
+
+把整个 correlation 交换商的第二槽合记为 $y$。
+沿 R1168 记
+$$
+R=T_V(y),\qquad P_\Phi=\phi R,\qquad
+A=\mathcal R_V(y),\qquad U=P_\Phi-A.
+$$
+$\phi$ 在各槽使用其原 divided weight。
+由 (1166.75) 与 R1168 的完整收缩，
+$$
+A=P_\Phi|_{g=0},\qquad
+y=R-U,\qquad
+U\text{ 的全部正 normal 次数至少为 }p.
+\tag{1166.76}
+$$
+这里的 $U$ 是本节的高 normal 向量，不是四线参数，
+也不是 §19 的 order-three 作用。
+
+在同一已比较的 coefficient frame 中置
+$$
+J_U=\frac1{54}
+ \sum_{\mathcal J^\circ}\mathscr Q(P,Q)\beta^U_{P,Q}.
+$$
+§19 给 primitive 第二槽
+$y_h=b_n(y,y)/2+J_U$。
+若从 ambient 代表转来，先带上 §§6–7 的实际外积
+和 refinement 同伦；本式是完成该固定比较后的代表。
+原 $S$ 部分也可直接用严格二次群态射实现，
+所以没有把一个未比较的 raw 产品冒当 coefficient 产品。
+
+R1168 (1168.33) 要读取的完整表达式为
+$$
+\begin{aligned}
+y_h-b_n(y,R)+b_n(P_\Phi,A)
+={}&J_U-\tfrac12b_n(R,R)
+ -\tfrac12b_n(R,U)+\tfrac12b_n(U,R)\\
+ &+\tfrac12b_n(U,U)+b_n(A,A)+b_n(U,A).
+\end{aligned}
+\tag{1166.77}
+$$
+这只是代入 $y=R-U$ 后逐项展开，保了全部 ordered 项。
+
+最高系数是 $(d,t)=(12,2)$；
+$\mathcal R_Z$ 仅读 normal $0$ 和 $k+2\le14<p$。
+所有因子均没有负 normal 次数，故 (1166.77)
+中含 $U$ 的项读数全部为零。
+
+此外，$R$ 在各原 $\operatorname{Fil}^{d+1}$，
+因此 $b_n(R,R)\in\operatorname{Fil}^{14}$。
+实际 filtered product 与 Frobenius 相容给
+$$
+\phi_Z b_n(R,R)=b_n(P_\Phi,P_\Phi).
+$$
+$\mathcal R_Z$ 消去真正的 $d_0$ 边界，故
+$$
+\mathcal R_Z b_n(R,R)
+ =\mathcal R_Z b_n(P_\Phi,P_\Phi)
+ =b_n(A,A).
+\tag{1166.78}
+$$
+第二个等号再次使用 $P_\Phi=A+U$ 的高 normal 支持。
+这正是所需的乘法论证；
+并没有使用不存在的一般恒等式
+$\mathcal R_Z(xy)=\mathcal R(x)\mathcal R(y)$。
+
+结合 (1166.77)–(1166.78)，完整中央 primitive 常数为
+$$
+\boxed{\quad
+H_{\rm corr}^{\rm const}
+ =\frac12b_n(A,A)+\mathcal R_{12,2}(J_U).
+\quad}
+\tag{1166.79}
+$$
+最后按原 $Z=b_n(A,A)-H$，得
+$$
+\boxed{\quad
+Z_{\rm corr}^{\rm BCH,const}
+ :=Z_{\rm corr}^{\rm const}-\frac12b_n(A,A)
+ =-\mathcal R_{12,2}(J_U).
+\quad}
+\tag{1166.80}
+$$
+这是同一个 Frobenius–Hodge frame 的实际读取。
+
+若写
+$J_U=\sum J_{k,n}\gamma_n(g)\omega^{12-k}\eta^k$，
+(1166.80) 还可明确写为
+$$
+-\sum_iJ_{i,0}\omega^{12-i}\eta^i
+-\sum_{k=0}^{12}
+ \frac{b_E^{\,2k-12}}{(k+2)!}
+ \sigma(J_{k,k+2})\,\omega^k\eta^{12-k}.
+\tag{1166.81}
+$$
+$\sigma$ 保留实际未分歧系数作用。
+下一节支付原 $J_U$ 的 ordinary-source 性和其常数项；
+这里没有先假定 $\beta^U$ 或该和为零。
+
+上述完整展开、filtered boundary 和
+$\mathcal R_Z$ 的读取范围已由 o2_high_coefficient
+独立纸核；无数学程序执行。
+
+## 21. 固定二同源 raw 和的 ordinary 代表与零第一槽
+
+本节只使用 R1157 §§11–12 已付的那一份实际二同源
+切线/参考线 source。固定 CM 整数提升 $\alpha$，
+三个形式端点保持
+$0,P(z),[1+\alpha]P(z)$，各差仍用同一个
+$P(z),[\alpha]P(z)$。
+不把第三端点替换成另一个仅在 $E[p]$ 上相同的提升。
+这里证明完整 raw $U$-primitive 可在这个固定 source
+的 ordinary formal ring 中计算，再送入已经付过的 PD 比较。
+
+### 21.1. 所有原 scalar 输入使用同一个整形式环
+
+在含二扭点、原三次 $T_0$ 和参考线交点的未分歧有限扩张
+$F'/F$ 上置
+$$
+\mathscr R=\mathcal O_{F'}[[z]],\qquad
+\psi\!\left(\sum a_jz^j\right)=\sum\sigma(a_j)z^{pj}.
+\tag{1166.82}
+$$
+这些扩张未分歧：二扭点来自 good reduction 下的 prime-to-$p$
+étale subgroup；$T_0$ 与参考线的交点由原横截三次代数取得。
+若进一步取实际 splitting field，其局部扩张仍未分歧，
+阶的质因子只含 $2,3$。它们是原 source 的辅助域，
+不把包含 $E[p]$ 的分歧域改叫未分歧。
+
+原切线常数、line values、determinants 及其有限乘法关系
+全部在 $\mathscr R[z^{-1}]^\times$ 中。
+R1157 (1157.46)–(1157.53) 先给真实差因子和 divisor
+重数，再给非零 leading coefficient，故每个这样的槽
+实际是 $z^mV$，$m\in\mathbb Z$、$V\in\mathscr R^\times$。
+这也涵盖四线归一时有正阶的 $\alpha_i$；
+它们没有被当成普通单位删掉。
+
+对任一实际单位槽 $f=z^mV$，
+$$
+\frac1p\log\frac{f^p}{\psi f}
+ =\frac1p\log\frac{V^p}{\psi V}\in\mathscr R,
+\qquad
+d\log f=m\,d\log z+d\log V.
+\tag{1166.83}
+$$
+因为 $\sigma$ 提升 residue Frobenius，右边的 log argument
+属于 $1+p\mathscr R$。
+若 $V(0)\ne1$，其实际常数仍保留于该式中。
+本式没有对 $f$ 任意取一个 $p$ 次根，也没有舍弃 $m\,d\log z$。
+
+每个四线参数及补数由上述精确因子给出。
+原 §17 的 good、近零、近一及极点四种公式都在同一
+$\psi$ 下整。因而每个指定 $D$ primitive 的
+$(A,B,\beta)$ 均在 $\mathscr R$ 中；
+坏参数的 $AB$、$A^2/2$ 和正常方向 carry 仍保留。
+
+### 21.2. 为什么乘法根修正与 Cor 不引入另一个 PD 标量
+
+这一点须在实际对象上说明，不能把 R1156 的 étale
+零次相位 $\rho$ 直接称为一个 ordinary 函数。
+
+原 raw 群的交换层是有限个 Tate $(1)$ 槽，中心是
+有限个 Tate $(2)$ 槽。已构造的每个原 Kummer 和
+$D$ 对象都有同一严格 filtered realization；
+其 $\operatorname{Fil}^0$ 群为一。
+所以它的 Hodge torsor 有唯一的 Hodge 点。
+§16 的 whole root/period 比较及原实际乘法关系，
+已经固定了这些对象、quotient 标识和相应 morphisms；
+此处只消费那些给定的 morphisms，不新选一个中央提升。
+
+共同 quotient 的纤维积、实际群 pushout 和 Weil restriction
+都保持这个唯一 Hodge 点。
+在这些 frame 中：
+
+- 原 Kummer 的函数乘法、整数幂及 $p$ 单位反除是相应
+  Tate $(1)$ 线性 map；
+- 原 class-two 群态射的中央坐标是线性中央项加一个
+  明确的二次 Tate $(1)$ 多项式，唯一可能的分母为已付的
+  $p$ 单位；
+- 给定的同函数根/乘法比较是 filtered torsor morphism，
+  必须把唯一 Hodge 点送到唯一 Hodge 点。
+  因而它没有一个可另选的 Hodge 平移常数；
+- 未分歧辅助域上的 restriction、conjugate 和
+  corestriction 使用同一组原陪集。
+  对 Frobenius matrices 先保留各 conjugate 的槽和
+  ordered 乘法，再使用给定群态射。所有操作均保
+  $\mathscr R$，不能改成两个独立 norm 的乘积。
+
+这证明整性而没有删除原 $\rho$ 或 Cor homotopy。
+若采用原 Galois cochain 坐标，仍要逐项使用 R1156
+(1156.6)、(1156.10)、(1156.20)；
+在上述 Hodge frame 中，它们正由同一给定 morphism
+及其二次群律实现。不能把另一套未经比较的根代进来，
+再由“一个类相同”宣称这些修正为零。
+
+因此把固定27项、实际四线分解、全部常数、
+同根及 closed-point transfer 一并完成后，
+所得到的每个 raw $U$-primitive 有实际 scalar 第二槽
+$$
+\boxed{\qquad
+\beta^U_{P,Q}(z;\alpha)\in\mathcal O_{F'}[[z]].
+\qquad}
+\tag{1166.84}
+$$
+其值是原有限程序产生的具体整级数，
+没有用一个事后选取的 ordinary lift 替换既有 PD 类。
+不同原四线表达式仍须按已有五项和 root comparison
+运输，不能仅由 (1166.84) 的存在性互换。
+
+### 21.3. 第一槽仍为零，乘原 H⁰ 系数没有额外外积项
+
+上述 scalar $D$ primitive 在唯一 Hodge frame 中是
+$(0,\beta)$。其连接的中央 Lie 分量为零。
+原共同 quotient 纤维积及群态射在 identity 的微分
+保持 Tate 权；Tate $(1)$ 不能被该微分送入 Tate $(2)$。
+二次项在 identity 的微分为零。
+故相同结论经全部上述 raw 构造继续成立：
+$$
+h^U_{P,Q}=(0,\beta^U_{P,Q}).
+\tag{1166.85}
+$$
+也可由严格 Griffiths 条件读出：
+$\operatorname{Fil}^{-1}\mathbb Q_p(2)=0$。
+这里说的是该唯一 Hodge frame 的中央连接，
+不把任意另一个平坦 frame 的中央项删掉。
+
+现在乘上实际 pointed Miller 的
+$H^0_{\rm syn}$ 系数
+$\mathscr Q(x_P,x_Q)$。
+primitive 的 first slot 为零，coefficient 的
+syntomic degree 为零；所以 (1166.25)–(1166.27)
+在**这一次乘法**中的修正字面为零：
+$\mathcal H$ 含 primitive 的 first slot，
+cone 的 $Q_r$ 也只作用该 first slot。
+于是完整第二槽准确为
+$$
+\mathscr Q(x_P,x_Q)\,\beta^U_{P,Q},
+\tag{1166.86}
+$$
+随后作同一实际 tame trace。
+这不扩大为两个 moment 相乘的修正也为零；
+§20 仍完整使用其有序 gauge。
+
+### 21.4. 这次真正进入 normal 读取的范围
+
+由 R1167，每个 degree-$12$ coefficient 的原第 $k$ 项
+有因子
+$z^{p(12-k)+k}(1+\gamma_p)^{12-k}g^k$。
+式 (1166.84) 没有负 $z$ 次数，
+而 $0<p(12-k)+k<e$。
+所以其实际 tame trace 的零 $e$-block 从 $u^1$ 开始。
+在已固定的原 coefficient basis 中，
+$$
+(J_U)_{k,n}=0\quad(0\le n<k+1),
+\qquad\text{特别 }(J_U)_{k,0}=0.
+\tag{1166.87}
+$$
+这是完整原和的 normal 次序，不是只在一个 $L$-值上看赋值。
+
+同样，对 (1166.74) 的第一 log 槽，
+$D_i=N_zV'_i/V'_i$ 和原 $N_zV_2/V_2$ 都有常数零。
+按同一 trace，全部 correlation moment 的
+第一槽 $a$ 也从 normal $k+1$ 开始。
+R1168 的 $\phi_d$ 只读第 $k$ 项的 normal $k$，
+故它在此严格为零；由闭性得到 $a=N_u y$。
+$N_z=eN_u$ 与 base-log trace 的尺度已经由 §9 支付，
+这里没有再乘或除一个 $e$。
+
+本节实际关闭的是固定二同源 raw $U$-和到
+ordinary scalar representative、零第一槽及低 normal 支持的接口。
+它没有把原 R1160 的一般算术 conjugating-path
+primitive $B_n$ 包括进这些 ordinary 函数；
+到原未平滑中央值仍须使用其实际比较。
+也没有将原固定 $\alpha$ 的形式加法替换成 Teichmüller 加法。

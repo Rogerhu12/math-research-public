@@ -65,7 +65,7 @@ R1166 §§9–13原第一层tame S_L=⊕z^jS_F，g=u−p=ze−p，ψτ交换且N
 
 R1166 §§14–18 actual Steinberg primitive(0,β)满足d h=−cup，β=Li₂†+AB₀+J，J=p⁻²∫log(1−t/(1−U^p))/(U^p+t)dt整，模p^M只需n≤M+1(M≤29)。βmodp=(ℓ₂+εℓ₁/U^p−ε²/(2U^p))/(1−U^p)，原线性carry不能删；h_R=AB−β及通用Z=𝔟(A,A)−H，𝔟的λ∞为正。未分歧universal的整compatible tower先锁同根再pullback；共同U=z^mV近0化ε=U^pα，J无负幂，exact S/J保AB−β、−β+A²/2。原line/divisor精确z因子、固定CM整数α与[1+α]P(z)继续，不能用只在Ep相同的Teich形式替换。
 
-R1166 §19已实消原最高correlation的全部Q·βS：同一even槽βS对称、原Q=(X+Y)(2X−Y)(X−2Y)[XY(X−Y)]³反对称。Hcorr=½b_n(A,A)+ΣQβU/54，同frame BCH中心=−ΣQβU/54；原a=−1,2,1/2整tensor权真0，其余rank1/rank2全保。剩余U-sum及原未平滑继续，后继R1168非乘法/ordered修正不能省。
+R1166 §§19–21原even槽对称βS与反对称Q已消全QβS；完整nonlinear SDR后actual最高corr BCH=−R_(12,2)(J_U)，J_U=ΣQβU/54，未假R乘法。原及primed θ₂单位V′_i=−(x−e_i)/(zy)使所有y_k,n从n≥k+1起；同一Tate-Hodge whole morphisms/实际根/Cor保ordinary βU与first=0，故J0=0、a=N_u y、φ_d a=0。原a=−1,2,1/2 tensor权真0，其余rank1/rank2全保；继续精确q=k+2读取及原未平滑B_n，不能擅包一般算术path。
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原第一层完整xP=−b_E z^p(1+γp)ω−zgη，b_E为原Cartier unit。原Miller外环residue−c1−p/t(P)=p(E(P)−1/t(P))锁κ=−b_E；包含p²危险项的CM完整尾已付。pure powers的j=pd−(p−1)k、normal hp+k、系数(−1)^d d!b_E^(d−k)ξ^j/(d−k−h)!全给，无额外moment d!。
 
@@ -79,7 +79,7 @@ R1166 §19已实消原最高correlation的全部Q·βS：同一even槽βS对称�
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；同源整比较已由R1163–66给出，按实际normal与中央gauge继续读值。
 
-[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已付任意有限分歧L及全部坏u的rational半稳定associatedness：Lang规约Φ对角p⁻²/p⁻¹/1，Lie N=(vp u,vp(1−u),0)但N²/半平方仍保。Vologodsky实际Bst箭头及同一路径2刚化给G_st=(logu,log(1−u),−Li2u)。不以Bdr单位冒Bst单位，不给OL虚构场Frob，坏点不冒BK crystalline。R1147连续moment/最高整塔已付；原43格同源整frame现由R1163–66支付，F0仍待读，完整来源沿本次逐字归档。
+[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)全部有限分歧L/坏u的原whole Bst比较已付，G_st=(logu,log(1−u),−Li₂u)，N²/半平方保留，不以Bdr单位冒Bst单位、不造OL场Frob。原43整frame现由R1163–66支付，实际中央按R1168读，完整旧式/来源沿逐字前态。
 
 [R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)真实LT的完整PD窗口已付：e=p²−1,g=z^e−p，唯一z^jγ_r基；全r≥p尾严格控制。适配FL基e_b权w_b及F_b=p⁻w_bφe_b时，ev p⁻iφx模p只留r=i−w_b、j<p，系数(−1)^r/r!·σ(a_bjr)ϖ^(pj)F_b；全向量零iff这些a全0。43格/二次tensor的normal界14/28，原tensor/角色χ→χp相容。raw rational dilog的同源整frame/gauge现由R1166支付，R985高carry不删；完整证明/公式沿原文及本次逐字归档。
 
