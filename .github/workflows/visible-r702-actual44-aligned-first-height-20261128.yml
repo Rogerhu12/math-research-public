@@ -1,0 +1,86 @@
+name: visible-flex R702 actual44 material-aligned full ruling
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r702-actual44-aligned-first-height-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r702-actual44-aligned-first-height-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue the accepted physical state with first-material height witnesses
+    runs-on: ubuntu-24.04
+    timeout-minutes: 140
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r702-actual44-aligned-first-height-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r674-actual23-paid-suffix-physical-ruling-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r702-actual44-aligned-first-height-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r674-paid-three-suffix-leaves-and-exact-diagnostics.md
+            /topics/visible-flex-new-mechanism/results/R609-true-integral-histories-and-kinetic-input.md
+            /topics/visible-flex-new-mechanism/results/R614-complete-two-ruling-global-gauge-projection.md
+            /topics/visible-flex-new-mechanism/results/R620-fixed-width-center-jet-gauge-chart.md
+            /topics/visible-flex-new-mechanism/results/R651-four-true-even-ends-affine-rest-time-chart.md
+            /topics/visible-flex-new-mechanism/results/R654-released-rest-shapes-moving-time-four-end-implicit-chart.md
+            /topics/visible-flex-new-mechanism/results/R674-material-seam-prefixes-and-actual23-four-end-continuation.md
+            /topics/visible-flex-new-mechanism/results/R702-actual44-aligned-four-ends-and-height-witness.md
+            /topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_full_centered_nineteen_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_history_positive_square_free_germs_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_staged_trust_collocation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r598_wide_mother_prepared_mass_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r609_true_integral_function_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r612_r614_reduced_function_map_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r620_free_center_full_feedback_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r620_original_center_time_jets_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r624_compatible_free_center_input_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_complete_rows_euclidean_qr_svd_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_tail_flat_compatible_input_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r632_paid_physical_source_jets.py
+            /topics/visible-flex-new-mechanism/scripts/r632_true_hermite_bvp.py
+            /topics/visible-flex-new-mechanism/scripts/r632_true_hermite_kinetic_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r651_four_end_rest_time_search.py
+            /topics/visible-flex-new-mechanism/scripts/r654_actual_released_original_bvp.py
+            /topics/visible-flex-new-mechanism/scripts/r654_actual_seed_balls.py
+            /topics/visible-flex-new-mechanism/scripts/r654_local_released_physical_boxes.py
+            /topics/visible-flex-new-mechanism/scripts/r654_released_rest_four_end_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r654_released_rest_physical_base.py
+            /topics/visible-flex-new-mechanism/scripts/r674_actual23_aligned_ruling_resume.py
+            /topics/visible-flex-new-mechanism/scripts/r674_actual23_paid_suffix_diagnostics.py
+            /topics/visible-flex-new-mechanism/scripts/r674_centered_material_physical_frontier.py
+            /topics/visible-flex-new-mechanism/scripts/r674_moving_material_integral_grid.py
+            /topics/visible-flex-new-mechanism/scripts/r674_released_aligned_four_end_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r702_actual44_aligned_full_ruling_resume.py
+            /topics/visible-flex-new-mechanism/scripts/r702_first_material_height.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_r625_paid_gauge_continuation_20261127.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Continue original material-aligned ruling from acceptance 44
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_r625_paid_gauge_continuation_20261127.py
+          --request topics/visible-flex-new-mechanism/computations/request-r702-actual44-aligned-first-height-20261128.json
+          --lane actual44-first-material-height

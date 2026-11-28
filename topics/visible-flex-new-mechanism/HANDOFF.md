@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **50f848365402f97511614f443ac8a0125b45fff5**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **3001547b795c11e2ece3336bda5fe53f79d8fe3f**；根16新增条款已读。私库实际pull **2026-11-28 12:48:05 UTC** 至 **60bfd3705ecd51d8ed51a7a5cbcc983e5084102f**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -32,7 +32,7 @@ R648–R653全尾三jet/真C²正collar/法管仍欠，R658无穷差不代分母
 
 [R694](results/R694-actual-paid-velocity-and-value-only-original-armijo.md)接真115源098392/未采用a486；run46145957656新67.402319857秒/0接受，80+25υ叶已闭，诊断KeyError前未打印Armijo。必要源J重建收费，候选用全原零列值判舍入位移Armijo并先打印；接受后原J与值态一致。保trust.0625/λ1e−6/原绝对门，源ruling1.29707e14未根，旧根/树/fine与两未存J费用不消。
 
-R654真23f7c8粗1.106e−13/细9.685e−7、ρ差.00357454未根；旧493未闭及费用见原文。[R674](results/R674-material-seam-prefixes-and-actual23-four-end-continuation.md)run46142896607真材料Gauss/四τ传六ρ、保1153/2305；[修复](notes/2026-11-28-r674-paid-three-suffix-leaves-and-exact-diagnostics.md)复用旧3叶至8201、精确十进制诊断不改科学，原η前缀/树/异常账全保。R656无科学。
+[R702](results/R702-actual44-aligned-four-ends-and-height-witness.md)接run46142896607新2801.821217363秒/44接受8d0fd67b；真对齐工作/细十端5.52e−17/6.16e−17，ruling5.087e14/ODE1.526e17未根。91合格/23违界/411未闭真键和22025闭叶复用，前b6已由b7接受取代；首固定k片真h驻点行/192位点球+原五场树深64，保原15片网/完整四τ隐式/正势/全部门，72步6600/420。45旧J未存必要重建，原回缩/fine不重；R654旧493未闭/所有费用沿链留。R656无科学。
 
 ## E：真实宏观b7e0的R631
 
