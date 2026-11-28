@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GJO：外侧全部1973真实接缝到腰接收](results/R149-supplement-genuine-physical-receiver-for-all-1973-exterior-interfaces.md)：同一原所选δ范围内，原65/193有向斜率及独立mean逐结点先相减；全原GPR相位/两真列冻结Z/全n≥388，二次有序角导接H^-2及真实J:H^-2→H^-1，再经192/.719/12.4。46pins与原6144×193十四shard整SHA恢复合同核过，首次公开workflow数值待；旧576不重算。
+
 - [PPR：整原参数窗的有向源变化与真实相位读出](results/R149-supplement-parameter-wide-signed-source-and-physical-phase-readout.md)：在原κ∈[−6e−12,6e−12]内正侧有向参数源差≤182000|κ|，高源≤1.254870e−9+9ρ；实际strong域ρ≤1e−7上给qν−Z整negative读出与各独立ports显式费，足够门<.005。真态E≤5e−8仍twist>.047/整路径>.020；signed真相位左右门预算在kc=0为1.2e−13。25whole/24新Fraction一次全过；完整matched态/响应/相位残差尚未实际满足。
 
 - [AGJR：576根窗真实接缝全部实际完成](results/R149-supplement-actual-all-576-genuine-root-window-interface-operators.md)：实际46145341825/1于12:36:02成功，全576/两真列/全n≥388/独立均值完成。原mixed和2.0673760869834316e−8，自然物理腰3.0268093634969226e−5，公共C97≤.00037532436107361845<.000376；1210B/47348f89…和完整私件SHA保。外域1973及全部bulk/端口待。
