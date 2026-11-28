@@ -11,10 +11,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:08:54 UTC实际pull --rebase，读取main 9b5f0ddc7050c06218c3fa21514fa38d24b16b41；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:09:01 UTC实际pull --rebase至f31b7686c176a33311ef26bb40257ca5fe64cf23；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与已读版本同blob，未重读；QUEUE 79c5c79d6881668feb645f82e00e2a566ffc4e7f，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3223/46221187B/treed646be61998594ac0166b02245c829de9a15f484；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 公开2026-11-28 10:14:29 UTC实际pull --rebase，读取main 6f98931ae0f92e674685eb529c3e17cdf489dedb；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 10:14:36 UTC实际pull --rebase至feb94f6c18d97cedea9f87d6befbfd6c5265bcf7；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与已读版本同blob，未重读；QUEUE 192ef5f5527eb0eaef28429daf333068b5f669f5，本题认领行未变，仍进行中。
+- 拉取的公开基线库存3224/46250935B/tree747baaf76fe537490779e4f2f0afdfdb8e67b314；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -39,6 +39,10 @@ R1062真CM除法/finite-flat极限、Na=17全比值及specified lift付Cβ(Q)=K_
 §31(RC1–12)付原34×2全部余类的Q√−17调和theta与完整周期规范。临界括号真p²整；两ray分别D(Hfg)/HWr。inert−17逐α完整Fermat差norm给H_d=68DΘ+68^pD^pΘ−p²Ξ，c_N真含1p；异权q同余仍不能在H(P)=0处免费除p取值。
 
 **§32(F1–F16)新付实际Frobenius返回。**物理族整晶体矩阵W=M⁻¹CM(t^p)，C=[[0,u],[-p/u,0]]，两归一底行U=A、V=B/t在原p−2窗准确；首列除p的精度费保留。完整h=fg/f²配同一固定权三截面的两Serre类；真实微分迹回(-uL_p,pL_d/u)，第二输出不免费除p。原E16上C(ds/H²)=ds^(p)，唯一p基原函数Q_p给L_p/L_d的完整h·Cartier核，非另一个F0。真实S=W22、G=W21/p在所缩étale代数图模任意p^m均代数，d(G/S)=−ds/S²+t^(p−1)J(t^p)(1+p²a(t^p)(G/S)²)dt。δ_R=(R^p−φ*R)/p整且保全部mixed；EN须δ到p²和−p²δ²/8，Ed须δ到p，F16为同完整h的准确全局trace。没有从固定类非零或Frob行可逆偷换canonical无穷p非零；继续原f共同分子的一阶trace及真实高位。
+
+## O7 同一原点与边界的新整模型
+
+[R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)付原E17同charge的η=A/Ā完整Miller比值、绝对wild相位与真实p项去极迹。Volkenborn极限保原j_m且(Tη−1)Y∞=dlogη·W B_m；完整位移Φη−W∈pWO+W^pO使M=(Tη−1)/W为整个开盘整等距自同构，Y∞=dlogη·Z_m∈pO[[W]],Z=M⁻¹B。全部首层局部jets/所有Q^ℓ及深层真实orbit和已准确返回；无1/p的p项CM迹整像恰QO。头两位仅回R710，j=0只给Z(0)=0，不给Q|B。下一直接构造同来源全wild测度并对原R716/R1067 period，不能把新measure的定义冒作书中原measure。
 
 ## 其它实际门与接续
 

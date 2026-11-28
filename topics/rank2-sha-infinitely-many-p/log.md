@@ -198,3 +198,11 @@ root逐式手核central_ultra v2(F1–F16)，另核Q.Yan(2024)原文Remark2.5/Th
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:07:51 UTC到df0c989652a0f243a1bae3cb37e116932455cc99，私库2026-11-28 10:08:03 UTC到b805d0423ed01678f1493c04439c4a12c7b3b62b；四README同已读blob，QUEUE 79c5c79d6881668feb645f82e00e2a566ffc4e7f本题行未变。公开基线3223/46221187B/treed646be61998594ac0166b02245c829de9a15f484，无>5MB。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:08:54 UTC到9b5f0ddc7050c06218c3fa21514fa38d24b16b41，私库2026-11-28 10:09:01 UTC到f31b7686c176a33311ef26bb40257ca5fe64cf23；四README同已读blob，QUEUE 79c5c79d6881668feb645f82e00e2a566ffc4e7f本题行未变。公开基线3223/46221187B/treed646be61998594ac0166b02245c829de9a15f484，无>5MB。
+
+### 2026-11-28 10:12 UTC：R1070 原等范数迹与完整差分整逆
+
+root完整读geometry_ultra稳定v1/v2，逐项手核有限p项消极、非平凡补项、深层轨道的p^(2n−1)费用、Volkenborn极限、局部所有jet以及M的严格收缩逆。独立核R663(19)已付a全开盘，R1062(G34/G35)完整整单位，R703/705原Legendre绝对相位；入库显写同证明直接用于E17原模型，不偷换E1。原两位展开只回R710，p项整像Q不赋新的bad条件。全部为手证，无数学执行。R1067§32已实推bfd502553ebc66f59aa6c4005665a1265fd96fdc；10:09:54 v16仍step4 in_progress且可读前缀未增，旧完整hash仍适用。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:14:07 UTC到bc7799966d423e6ee7bb43f19c7a5549c8eb3dbd，私库2026-11-28 10:14:18 UTC到598190383bd8e15a0145ad804e9d9ba32545b356；四README同已读blob，QUEUE 192ef5f5527eb0eaef28429daf333068b5f669f5本题行未变。公开基线3224/46250935B/tree747baaf76fe537490779e4f2f0afdfdb8e67b314，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 10:14:29 UTC到6f98931ae0f92e674685eb529c3e17cdf489dedb，私库2026-11-28 10:14:36 UTC到feb94f6c18d97cedea9f87d6befbfd6c5265bcf7；四README同已读blob，QUEUE 192ef5f5527eb0eaef28429daf333068b5f669f5本题行未变。公开基线3224/46250935B/tree747baaf76fe537490779e4f2f0afdfdb8e67b314，无>5MB。

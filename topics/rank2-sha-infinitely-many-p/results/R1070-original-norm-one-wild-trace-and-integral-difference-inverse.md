@@ -1,0 +1,303 @@
+# R1070 — 原惰性中央解的等范数 CM 转移与实际 wild 正则迹
+
+日期：2026-11-28（UTC）。**状态：以下同电荷正则迹、完整整逆及准确返回已证明；原中央零到全部边界零的蕴含与主目标仍未证明。**
+
+固定 R663 的惰性好素数 $p>211$，$q=p^2,\ d=p+1,\ e=p-1,\ m=34,72$。下文的 $Y,j,a,k,\mathcal B$ 均指 R663(10),(18),(21) 的同一组原数据，
+$$
+Y'+maY=k\mathcal B,\qquad Y(0)=j_m,\qquad
+L(v)=\sigma(z(v))T_g(u(v))/v,\quad W=v^d,\quad a=d\log L/dW.
+$$
+$L$ 仅作特征零形式级数使用。$Q=W^e-p,\ r_E=p^{-1/e}$。R663(22),(25)–(27) 给 $r_E<r_+<r_2=r_E^{1/q}$，使 $a$ 在闭 $r_+$ 盘解析、$\partial_W+ma$ 在此闭 Tate 代数上有有界逆，$k$ 的极恰为 $Q$ 的根，均为简单极且留数 $d\xi$。$\mathcal B$ 在开单位盘整解析。
+
+## 1. 等范数给同一完整连接
+
+保持 $\delta=\omega-\omega^2,\ A=1+p(p+1)\omega,\ B=\bar A,\ \eta=A/B$。$A,B\equiv1\bmod 2$，在 $p$ 为单位，$N(A)=N(B)$，且 $\eta=1+p\delta\bmod p^2$。对 $h=\eta^l,\ l\ge0$ 取原形式 CM 作用并置
+$$
+\Phi_h(W)=[h](v)^d,\qquad U_h(W)=L([h]v)/L(v).
+$$
+这里的 $\sigma$ 始终属于 R663 的原 $E_{17}:y^2=x^3+17$，不换成 $E_1$。R1062(G34)的证明直接在此原整模型适用：原 CM 除点函数 $r_\alpha=\sigma(\alpha z)/\sigma(z)^{N\alpha}$ 以 $\sigma\sim z$ 刚性化；$\alpha\equiv1\bmod2$ 消半特征，等范数消相同 Gaussian。prime-to-$p$ 非零核点不落原形式盘，故正规化后是整个形式盘的整单位。分别取 $\alpha=A^l,B^l$ 再作原整 $[B^{-l}]$ 代换，便直接给下述同模型比值，无模型运输费。
+
+因此 R1062(G34)–(G35)的同一论证对 $F=\sigma(z(v))/v$ 给 $F([h]v)/F(v)$ 与逆都在 $1+v\mathcal O[[v]]$，因为 $N(h)=1$。也可直接在 $A^l,B^l$ 两个有相同范数的原 Miller 恒等式中相除，再以 $[B^{-l}]$ 作整可逆代换。$T_g^{\pm1}$ 整，故 $U_h^{\pm1}$ 同样整。R663(3),(18) 给 $\mu_d$ 在 $v$ 中的线性作用以及 $L$ 的不变性，故 $U_h\in1+W\mathcal O[[W]]$、$\Phi_h\in h^dW+W^2\mathcal O[[W]]$。$\Phi_{h^{-1}}$ 是整组合逆。这些整级数及逆保持每个闭 $r<1$ 盘并在其上 Tate。这里不要求 $L$ 本身在首边界收敛。
+
+在严格内盘 $p^{-1}<r<r_E$ 定义
+$$
+T_hY=U_h^m(Y\circ\Phi_h),\qquad
+F_h=U_h^m\Phi'_h (k\mathcal B)\circ\Phi_h .
+$$
+由 $d\log U_h=(a\circ\Phi_h)d\Phi_h-a\,dW$ 和链式法则，
+$$
+(\partial_W+ma)T_hY=F_h,\qquad (T_hY)(0)=j_m .
+$$
+这是同电荷 $m$ 和同一初值的真实转移。$T_\eta^l=T_{\eta^l}$，但一般 $T_\eta^p\ne1$。以下所有平均都是写出的有限和，仅在首层留数空间上使用有限群投影。
+
+## 2. 首层乘子及其绝对相位
+
+令 $T_v$ 为 R703 的复参数 $\Omega v/p$ 的非零挠点，使用同一代数嵌入输回 $p$ 进，记 $\xi=W(T_v)$。$\Phi_\eta(\xi)=\xi$。取 $x\in\mathbb Z[\omega]$ 使 $Bx=v\bmod p$，令 $T'=T_x$，故 $[A]T'=[B]T'=T_v$。R1062(G34) 对两个真实整 CM 整数的等范数消去给
+$$
+U_\eta(\xi)=\frac{\psi_A(T')}{\psi_B(T')}.
+$$
+确实原 Miller 比在 $v(T')$ 处有附因子 $v([B]T')/v([A]T')=1$，且两个 $T_g$ 值相等；所用除点函数在非零 $p$ 挠点均有限非零。R694(7)消去 Klein Gaussian，故上式在指定复嵌入等于 $\mathfrak k(\Omega Ax/p)/\mathfrak k(\Omega Bx/p)$。置 $\ell=(A-B)x/p=(p+1)\delta x\in2\mathcal O_K$。R703(1)–(2) 的半特征 $\chi(\ell)=1$，从而有准确的
+$$
+U_\eta(\xi)=e_p([\ell,Bx]/2)=e_p(-N(v)),\qquad
+U_\eta(\xi)^m=\chi_{m,N(v)}(\eta)^{-1}.
+$$
+末一步用 $\ell=\delta v\bmod p,\ [\delta v,v]=-2N(v)$ 及 R705(6)–(7)。因此 $e=p-1$ 个 $\mu_d$ 轨道恰有 $e$ 个不同非平凡 $p$ 次单位根乘子，标签与 R716(30) 的原 wild 标签含符号一致。每个剩余范数恰一个轨道。
+
+## 3. 原 $j_m$ 的完整正则迹与全部同源非平凡补项
+
+在原系数域添入 $\mu_p$ 作有限分解；平凡角色平均回原域。对 $t\in\mathbf F_p$ 置
+$$
+Y^{(t)}=\frac1p\sum_{l=0}^{p-1}e_p(mtl)T_{\eta^l}Y,\qquad
+F^{(t)}=\frac1p\sum_{l=0}^{p-1}e_p(mtl)F_{\eta^l}.
+$$
+在原严格内盘有 $(\partial_W+ma)Y^{(t)}=F^{(t)}$，且 $Y^{(0)}(0)=j_m,\ Y^{(t)}(0)=0$（$t\ne0$）。每个 $\Phi_{\eta^l}$ 是闭 $r_+$ 盘可逆解析映射，逐点固定全部 $Q$ 根且导数非零。因此 $F_{\eta^l}dW$ 在该盘至多有这些简单极，留数为原 $d\xi\mathcal B(\xi)$ 乘 $U_{\eta^l}(\xi)^m$。用实际 cocycle 在该固定点得 $U_{\eta^l}(\xi)^m=e_p(-mlN(v))$。从而
+$$
+\operatorname{Res}_{\xi}\bigl(F^{(t)}dW\bigr)
+ = \mathbf1_{N(v)=t}\,d\xi\mathcal B(\xi).
+$$
+特别 $F^{(0)}$ 在整个同一闭 $r_+$ 盘 Tate。具体而言 $QF^{(0)}$ 在盘上解析，因 $\Phi_{\eta^l}$ 保持简单零除子，且所有 $Q$ 根上的值均为零，故可逐个除去 $W-\xi$；商在同一闭盘 Tate。由 R663(27) 外盘上的完整有界逆和严格内盘唯一性，
+$$
+Y^{(0)}=(\partial_W+ma)^{-1}_{r_+}F^{(0)},\qquad
+j_m=\left[(\partial_W+ma)^{-1}_{r_+}F^{(0)}\right]_{W=0}.
+$$
+这个正规解在 $j_m=0$ 时确为外盘零初值解。$1/p$ 在系数域上使用，未宣称整算子。对 $t\ne0$，写 $\xi_t$ 为唯一目标轨道，$D_t=d\xi_t\mathcal B(\xi_t)$。完整正则补项为
+$$
+F_{\mathrm{reg}}^{(t)}=F^{(t)}-\frac{D_t}{W-\xi_t}.
+$$
+在原内盘逆与外盘正则逆下，准确有
+$$
+0=\big[(\partial_W+ma)^{-1}_{r_+}F_{\mathrm{reg}}^{(t)}\big]_0+
+D_t\big[(\partial_W+ma)^{-1}_{r}((W-\xi_t)^{-1})\big]_0 .
+$$
+两项均保留。$t=0$ 的平均没有把原 $Y$ 自身延过边界，亦未推出任一 $D_t=0$。$Y=\sum_tY^{(t)}$ 在严格内盘恒等。
+
+## 4. 全指定深度的 forcing
+
+同一公式给所有有限深度的完整微分形式，而无须外推 R663 逆的半径。对 primitive $T_v=\Omega v/p^i$ 置 $A_i=A^{p^{i-1}}, B_i=B^{p^{i-1}}, h_i=A_i/B_i$。二项式给 $h_i=1+p^i\delta\bmod p^{i+1}$，所以 $\eta$ 在该 $W$ 点的轨道长度为 $p^{i-1}$：$\eta^l\bmod p^i$ 为 $\mu_d$ 时，模 $p$ 的平凡性先迫该 $\mu_d$ 元为1，再用 $v_p(\eta^l-1)=1+v_p(l)$。取 $B_i x=v\bmod p^i,\ \ell_i=(A_i-B_i)x/p^i\in2\mathcal O_K$。相同的等范数除点函数及准周期律给
+$$
+U_{h_i}(W_T)=e_{p^i}\bigl([\ell_i,B_ix]/2\bigr),\qquad
+[\ell_i,B_i x]/2=-N(v)\bmod p .
+$$
+因此该乘子有确切阶 $p^i$，其 $m$ 次幂也如此。$k=1+dWH'/H$ 所有非零挠点极均简单；这是 R663§2 的对数零点分类及整坐标导数单位。给定 $n\ge1$，对同一个完整 $F_{\eta^l}dW$ 作 $0\le l<p^{2n-1}$ 平均。层 $i\le n$ 每个原点的和按 $l\bmod p^{i-1}$ 分组，组内 $\Phi$ 的目标固定，留数的 Jacobian 已由 $d\Phi$ 支付，余下正是上述 primitive $p^i$ 次根的幂和。每组长度 $p^{2n-i}$ 被 $p^i$ 整除，故全部这些挠点极消去。所得 forcing 在下一层前每个闭盘 Tate，平均有明确 $p^{-(2n-1)}$ 费用。此处 $2n-i\ge i$ 正因 $i\le n$，不需对其它层预设消失。外盘解可逆性只在已付的首层 $r_+$ 使用。
+
+## 5. 原 $X$ 返回
+
+在严格内盘 $X=z(v)^d=WH(W)^d,\ L(v)=E_{\rm c}(X)H(W)$，故
+$$
+H(W)^mE_{\rm c}(X)^m T_{\eta^l}Y
+ = E_{\rm c}(\eta^{dl}X)^m\mathcal R_m(\eta^{dl}X).
+$$
+若 $j_m=0$，R639(5) 给右边恰为零初值 Euler 原函数的 $d\Pi_0\mathscr U_m$ 在此缩放点的值。平凡平均在 $X^k$ 上的系数乘
+$$
+b_k=\frac1p\sum_{l=0}^{p-1}\eta^{dlk}
+ = \frac{\eta^{dpk}-1}{p(\eta^{dk}-1)},\quad k>0,\qquad b_0=1.
+$$
+每个 $b_k$ 都是单位，因为 $\eta^{dk}\equiv1\bmod p$ 且 $v_p(s^p-1)=1+v_p(s-1)$ 对应于 $s=\eta^{dk}$。因此此对角算子与逆在任一给定 $X$ 盘的系数 Gauss 范数上等距。已得的外盘函数是 $Y^{(0)}(W)$，而不是上述 $X$ 级数本身；$H^{-m},E_{\rm c}^{-m}$ 和 $X=WH^d$ 的多支下降仍须支付，不能由 $b_k$ 为单位直接推原 $Q\mid\mathcal B$。
+
+## 6. 同一个极限解同时读出原初值和全部首层余数
+
+记 $T^0=T_\eta$ 为对函数的上述有权拉回，本节用 $T^1$ 表示对微分形式的同一有权拉回（含 $\Phi'_\eta$，上标表示形式次数）。对 $i=0,1$ 及 $M\ge0$ 写
+$$
+S_M^i=p^{-M}\sum_{l=0}^{p^M-1}(T^i)^l.
+$$
+在每个固定 $r<1$ 上，$(T^i)^{p^M}$ 在闭盘 Tate 代数的算子范数中趋于恒等。事实上 $h_M=\eta^{p^M}\to1$。$\Phi_{h_M}$ 及 $U_{h_M}$ 的系数分别逐项趋于 $W$ 与 $1$。这由形式对数下 $[h_M]$ 线性缩放、固定系数只用有限次运算，以及原形式比 $L([h_M]v)/L(v)$ 得到；各 $M$ 的完整整性已付。因此对每个严格 $r<1$，统一整尾使上述函数按 Gauss 范数趋于各自极限，$\Phi'_{h_M}\to1$ 亦然。对闭盘 Tate 函数 $f$，幂差分解和连续性给
+$$
+\|f\circ\Phi_{h_M}-f\|_r
+ \le r^{-1}\|\Phi_{h_M}-W\|_r\|f\|_r .
+$$
+结合 $U_{h_M}^m$（对1-形式再乘 $\Phi'_{h_M}$），得到所称算子范数收敛。
+
+给定闭 $r<1$，先由前节的层数选 $M_0$，使 $S_{M_0}^1(k\mathcal B\,dW)$ 在该闭盘 Tate。随后可进一步增大 $M_0$，因为有限加权拉回保持该盘 Tate。令 $D=(T^1)^{p^{M_0}}-I$，令 $\|D\|<p^{-1/(p-1)}$。则在该同一代数上，
+$$
+\lim_{s\to\infty}\frac1{p^s}\sum_{l=0}^{p^s-1}(I+D)^l
+ = \sum_{j\ge0}\frac{(-1)^jD^j}{j+1}.
+$$
+确实左侧 $D^j$ 的系数是 $\binom{p^s}{j+1}/p^s=\binom{p^s-1}{j}/(j+1)$，逐项趋于右侧，并受 $|1/(j+1)|_p$ 一致控制；乘 $\|D\|^j$ 后尾一致趋零。因有限和按整块精确分解，上式施于 $S_{M_0}^1(k\mathcal B\,dW)$ 给
+$$
+F_\infty\,dW=\lim_{M\to\infty}S_M^1(k\mathcal B\,dW)
+$$
+在每个闭 $r<1$ 解析，结果在限制下相容。所以得到一条开单位盘解析的同源 forcing。没有称 Volkenborn 平均为整测度，也没有统一抹掉各盘起始的 $p^{-M_0}$ 费用。
+
+对闭 $r_+$ 上的函数作同一证明；可先从已真正延拓的 $S_1^0Y$ 开始，故不用假设原 $Y$ 延过边界。于是有同一个实际极限
+$$
+Y_\infty=\lim_{M\to\infty} S_M^0Y \in K\langle W/r_+\rangle,\qquad
+(\partial_W+ma)Y_\infty=F_\infty,\qquad Y_\infty(0)=j_m .
+$$
+微分在固定闭 $r_+$ 盘上有界，故可取极限。最后的初值由所有有限和的准确初值给出。
+
+该函数还满足一条无需未知 forcing 的准确差分式
+$$
+\boxed{(T^0-I)Y_\infty=d\log_p(\eta)\, W\mathcal B(W).}
+$$
+证明先在严格内盘。有限几何和给 $(T^0-I)S_M^0Y=p^{-M}((T^0)^{p^M}-I)Y$。计算该右侧的逐系数极限只需在特征零形式级数中微分。若 $h=\exp(s)$，则 $X(\Phi_h)=h^dX(W)$ 与 $X=WH^d$ 给
+$$
+\left.\partial_s\Phi_h\right|_0 = \frac{d W}{k(W)}.
+$$
+$U_h=L(\Phi_h)/L(W)$ 的形式 log 导数随之给
+$$
+\left.\partial_s T_hY\right|_0
+ =\frac{d W}{k(W)}(\partial_W+ma)Y=dW\mathcal B(W).
+$$
+在形式级数中置 $s=p^M\log_p\eta$ 即得系数极限；左侧已在严格内盘以至 $r_+$ 盘有真实 Tate 极限，右侧本身开盘解析。因此逐系数等式延到整个同一 $r_+$ 盘。这里 $dW$ 在右侧函数中是整数 $d$ 乘变量 $W$，不是一个微分。
+
+在首层实际固定点 $\xi=W(T_v)$ 评价得
+$$
+\boxed{
+(e_p(-mN(v))-1)Y_\infty(\xi)
+ = d\log_p(\eta)\,\xi\,\mathcal B(\xi).
+}
+$$
+乘子非零且估值 $1/(p-1)$，$\log_p\eta$ 的估值为1，$v_p(\xi)=1/(p-1)$。从而每个原轨道准确有 $v_p(Y_\infty(\xi))=1+v_p(\mathcal B(\xi))$，包括无穷赋值的情形。特别，同一个外盘规范函数的原点读数是 $j_m$，全部首层点逐点等价于原全部余数的消失。由 $Y_\infty(0)=0$ 传到这些点仍是实际待证的算术步骤；这里没有从一个零推所有零。
+
+## 7. 真正有限 $p$ 项迹的全部局部 jet
+
+首层有限迹记作 $Y_{\rm tr}=S_1^0Y$。当 $M\ge1$，$S_M^0Y$ 是将 $(T^0)^p$ 的 $p^{M-1}$ 项平均用于 $Y_{\rm tr}$。在每个实际 $\xi$ 上，$\Phi_{\eta^p}(\xi)=\xi,\ U_{\eta^p}(\xi)=1$，因此每个 $M\ge1$ 都有
+$$
+S_M^0Y(\xi)=Y_{\rm tr}(\xi)=Y_\infty(\xi).
+$$
+特别上节的所有首层公式已经在这同一个有限 $p$ 项、原点值 $j_m$ 的真正外盘函数上成立。
+
+以下给该函数的全部 jet。取 $\xi=W(T_v)$ 上的任一原 $v$ 坐标分支，以 $t=z(v)$ 作局部坐标，$t(\xi)=0$。$z'(v)$ 为单位且 $dW/dv\ne0$，故此坐标在某个小盘双解析；选取范数足够小的圆盘，使 $\eta t$ 保持该盘。$\Phi_\eta$ 对应 $t\mapsto\eta t$。在该盘取唯一局部单位 $G(t)$ 满足 $G(0)=1$，$d\log G=m a\,dW$；积分后指数在足够小盘收敛。置
+$$
+\epsilon=e_p(-mN(v)),\qquad
+g(t)=G(t)\,W(t)\mathcal B(W(t)),\quad f_\infty=G Y_\infty,\quad f_{\rm tr}=G Y_{\rm tr}.
+$$
+两边 log 导数和初值给真正的 $U_\eta^m=\epsilon G(\eta t)/G(t)$。因此上节差分式在每个 $h\ge0$ 给
+$$
+(\epsilon\eta^h-1)[t^h]f_\infty=d\log_p(\eta)[t^h]g.
+$$
+因 $\eta^h\in1+p\mathcal O,\ v_p(\epsilon-1)=1/(p-1)$，所有分母都非零且估值恰 $1/(p-1)$。同一规范化下 $(T^0)^p$ 作用 $t^h\mapsto\eta^{ph}t^h$。对上述准确的有限分块逐系数取极限（固定任一 Taylor 系数是有界泛函），从真正 $Y_{\rm tr}$ 到 $Y_\infty$ 的系数乘子在 $h=0$ 为1，在 $h>0$ 为
+$$
+\lim_{M\to\infty}\frac{1}{p^{M-1}}\sum_{l=0}^{p^{M-1}-1}\eta^{phl}
+=\frac{ph\log_p\eta}{\eta^{ph}-1}.
+$$
+从而有限 $p$ 项外盘迹的完整返回为
+$$
+\boxed{
+[t^h]f_{\rm tr}=
+\begin{cases}
+\dfrac{d\log_p\eta}{\epsilon-1}[t^0]g,&h=0,\\[2mm]
+\dfrac{d(\eta^{ph}-1)}{ph(\epsilon\eta^h-1)}[t^h]g,&h>0.
+\end{cases}}
+$$
+全部乘子非零，且估值恒 $1-1/(p-1)$。这里 $\eta$ 非根单位可由其非零 $p$ 进对数看出。
+
+上述规范和 $g$ 的任意有限阶 Taylor 系数均为代数。确实有
+$$
+a\,dW=\tfrac12 d\mathscr L(bu^6)+d\log(u/v)+d\log T_g(u),
+$$
+其中 $\mathscr L=\log(x\sigma^2)$；这是原点正式微分身份，继而在开单位盘成立。R681(18)–(29) 给 $\mathscr L$ 的全部正阶、$T_g$、$u,v$ 及 $\mathcal B$ 的原点外首挠点 jet 的代数性。$z'(u)=C(u)$ 确定 $t$ 在此处的全部正阶代数导数及有限组合逆；$t=0$ 与 $G(0)=1$ 固定常数。局部一阶方程逐系数确定 $G$ 的全部代数 jet。故 $f_{\rm tr}(0)$ 是 $\log_p\eta$ 乘一个明确代数数，而所有 $h>0$ 的 $[t^h]f_{\rm tr}$ 已经是明确代数数。未将原 $j_m$ 认作这种边界点值。
+
+因所有局部乘子均非零、$W(\xi)\ne0$、$G$ 是局部单位，对每个 $\ell\ge1$ 有
+$$
+\boxed{Q^\ell\mid Y_{\rm tr}\text{ 于 }K\langle W/r_+\rangle
+\quad\Longleftrightarrow\quad Q^\ell\mid\mathcal B\text{ 于 }\mathcal O[[W]].}
+$$
+同式对 $Y_\infty$ 成立。左侧用诸简单根上的消失阶，右侧用 R663(15)–(16) 的整余数刻画。这在原点值仍等于 $j_m$ 的真正外盘有限迹上读出了全部高次边界剩余，不要求原 $Y$ 自身延过边界。
+
+最后，外盘构造的 $1/p$ 费用不表示在首边界范数必损精度。对 $p^{-1}<r<r_E$，$D=T^0-I$ 满足 $\|D\|_r\le\max\{p^{-1},r\}$，因为 $U_\eta-1\in W\mathcal O[[W]]$，$\Phi_\eta-W\in pW\mathcal O+W^2\mathcal O[[W]]$。上节二项式展开中 $|1/(j+1)|_p r_E^j\le1$，这是 $j\ge p^{v_p(j+1)}-1\ge(p-1)v_p(j+1)$。所以所有 $S_M^0$ 在这些内盘的算子范数至多1。由 R663 的有界逆和 R710(7)的内盘界，$\|Y\|_r\le p^{-1}$，令 $r\uparrow r_E$ 得
+$$
+\|Y_{\rm tr}\|_{r_E}\le p^{-1},\qquad \|Y_\infty\|_{r_E}\le p^{-1}.
+$$
+这里没有在更外的 $r_+$ 盘无条件删除平均分母。
+
+## 8. 原差分算子在整个开单位盘的整逆
+
+差分式能把同一个 $Y_\infty$ 本身从首层外盘延到整个开单位盘，而无须更大盘上的 $\partial_W+ma$ 有界逆。置
+$$
+h_m(W)=\frac{U_\eta(W)^m-1}{W},\qquad
+\mathcal M f=\frac{T^0f-f}{W}
+=h_m f+U_\eta^m\frac{f(\Phi_\eta)-f}{W}.
+$$
+由 $L'/L=a,\ \Phi'_\eta(0)=\eta^d$，有 $h_m(0)=mc(\eta^d-1)$。$v_p(c)=-1,\ \eta=1+p\delta\bmod p^2$ 且 $md\delta$ 为单位，所以 $h_m\in\mathcal O[[W]]^\times$。
+
+此外有更强的完整整位移
+$$
+\Phi_\eta(W)-W\in pW\mathcal O[[W]]+W^{e+1}\mathcal O[[W]] .
+$$
+确实将 $[\eta]v$ 写成 $v\oplus[\eta-1]v$。因 $\eta-1\in p\mathcal O$ 且原 LT 坐标的 $[-p]v=-pv+v^q$，$[\eta-1]v\bmod p$ 从 $v^q$ 起。整形式加法 $F(v,y)-v$ 被 $y$ 整除，故 $[\eta]v/v=1\bmod(p,v^{q-1})$。取 $d$ 次幂、乘 $W$，再用完整 $\mu_d$ 不变性及 $q-1=de$ 即得。这个加强使变量位移的费用严格低于 $U_\eta^m-1$ 的非零一次项。
+
+对每个 $p^{-1}<r<1$ 的闭盘，
+$$
+\|\Phi_\eta-W\|_r/r\le\max\{p^{-1},r^e\},\qquad
+\left\|h_m^{-1}U_\eta^m\frac{f(\Phi_\eta)-f}{W}\right\|_r
+\le\max\{p^{-1}/r,r^{e-1}\}\|f\|_r.
+$$
+分子常数为零，除 $W$ 的 Gauss 费用为 $1/r$；$\|h_m^{\pm1}\|_r=\|U_\eta^{\pm m}\|_r=1$。右侧严格小于 $\|f\|_r$。因此 $\mathcal M$ 在每个此类盘上是 Gauss 等距同构，完整逆为严格收缩的 Neumann 级数。不同盘上的逆由唯一性相容。对所有 $r\uparrow1$ 用相同范数界可知 $\mathcal M$ 限制为 $\mathcal O[[W]]$ 的整线性自同构；并不称它为环同态。
+
+由首层外盘的差分式及这个唯一逆，
+$$
+\boxed{\;
+Z_m=\mathcal M^{-1}\mathcal B_m\in\mathcal O[[W]],\qquad
+Y_\infty=d\log_p(\eta)\,Z_m\in p\mathcal O[[W]],\qquad
+d\log_p(\eta) Z_m(0)=j_m .
+\;}
+$$
+故原极限解本身在整个开盘解析，且对所有 $p^{-1}<r<1$ 有 $\|Z_m\|_r=\|\mathcal B_m\|_r$。首层得到的原微分式 $(\partial_W+ma)Y_\infty=F_\infty$ 因两边均已在整个开盘解析也随之在开盘成立。有限 $p$ 项的 $Y_{\rm tr}$ 没有因这个极限解延拓而自动获得整开盘的断言。
+
+这里 $a$ 的整开盘解析范围来自 R663§5(19)，独立于形式指数 $L$ 的收敛。具体地 $d v^{d-1}a=\Xi(u)C(u)du/dv+\partial_v\log T_g-1/v$。R639(14)–(15) 的 $\Xi=u^{-1}\sum J_nb^n u^{6n}$ 满足 $v_p(J_n)\ge-\lceil v_p(6n-1)/2\rceil$，故只有已由 $-1/v$ 抵消的原点极，其他部分在整个开盘解析。$T_g$、坐标及整逆均已给；商的 $\mu_d$ 型使余下只含 $v^{d-1}W^k$。
+
+对第 $i$ 层 primitive 点 $T_v$，置 $W_i=W(T_v),\ H_i=p^{i-1},\ \epsilon_i=U_{\eta^{H_i}}(W_i)^m$，这是前面准确给出的 primitive $p^i$ 次根。对 $(T^0-I)Z_m=W\mathcal B_m$ 作 $H_i$ 项几何和，在同一实际 $W_i$ 上评价，全开盘身份给
+$$
+\boxed{\;
+(\epsilon_i-1)Z_m(W_i)=
+\sum_{l=0}^{H_i-1}U_{\eta^l}(W_i)^m
+\Phi_{\eta^l}(W_i)\mathcal B_m(\Phi_{\eta^l}(W_i)).
+\;}
+$$
+所有局部比值、orbit Jacobian 的函数/形式区别及完整原 $\mathcal B_m$ 均保留。若 $j_m=0$，$Z_m\in W\mathcal O[[W]]$。因此上式右侧除 $W_i$ 后的估值至少为 $v_p(\epsilon_i-1)=1/(p^{i-1}(p-1))$。不假设中央为零时，由 $Z_m$ 的整性仍有对应下界 $1/(p^{i-1}(p-1))-1/(p^{2i-2}(p-1))$。首层是单点；高层保全部 $p^{i-1}$ 项。
+
+## 9. 原常数前两位与已付中央行的核对
+
+写 $s=\eta^d,\ D=s-1,\ z_j=[W^j]Z_m,\ b_j=[W^j]\mathcal B_m,\ a_1=[W]a$，$h_0=mcD$。LT 坐标使全部 $\mu_{q-1}$ 线性作用，而 $[\eta]$ 与它们交换，所以 $[\eta]v/v$ 是 $v^{q-1}$ 的级数，$\Phi_\eta=sW+O(W^{e+1})$。比较 $\log U_\eta^m=m(\log L(\Phi_\eta)-\log L(W))$ 的前两项，得
+$$
+h_1=[W^2]U_\eta^m=h_0^2/2+(m a_1/2)(s^2-1).
+$$
+原整逆方程的头两行逐项为
+$$
+b_0=h_0z_0+D z_1,\qquad
+b_1=h_1z_0+s h_0z_1+(s^2-1)z_2 .
+$$
+其中 $b_0=[z^d]A_m,\ b_1=g^{\rm c}_{m,2}$ 由 R663(12)、R710(20) 给出，不能任取。$D\in p\mathcal O$ 且 $h_0$ 为单位，所以
+$$
+z_0\equiv\frac{b_0}{h_0}
+  -\frac{D b_1}{h_0^2}+\frac{D h_1 b_0}{h_0^3}\pmod{p^2}.
+$$
+乘 $d\log_p\eta=\log(1+D)$ 后，$h_1$ 中的 $h_0^2/2$ 项正抵一次相对 log 修正。R710(6) 给 $v_p(a_1)\ge-1$。故真实 $j_m$ 的前两位为
+$$
+j_m\equiv\frac{b_0}{mc}
+  -\frac{b_1}{m^2c^2}+\frac{a_1 b_0}{m^2c^3}\pmod{p^3}.
+$$
+若 $j_m=0$，则先有 $b_0\in p\mathcal O$，再还原出 $(pmc)b_0/p\equiv b_1\bmod p$。这恰与 R710(27) 在保留 $b_{m,e}$ 两边后相消的实际第二位相同。$h_0$ 是坐标单位，不给固定非零中央输入。
+
+## 10. 真实 $p$ 项 CM 迹在整开盘的精确像
+
+在函数上简记 $T=T^0$、$P(T)=\sum_{l=0}^{p-1}T^l$，无 $1/p$。对每个整函数 $f$，全部首层 $\xi$ 上的 $P(T)f$ 都为零，因为 $\Phi_\eta(\xi)=\xi$ 而 $U_\eta(\xi)^m$ 是非平凡 $p$ 次根。所以 $Q\mid P(T)f$，并有更准确的
+$$
+\boxed{\quad Q^{-1}P(T):\mathcal O[[W]]\longrightarrow
+\mathcal O[[W]]\quad\hbox{为整线性自同构}.\quad}
+$$
+在每个 $r_E<r<1$ 闭盘的 Tate 代数先证明。上面的逐点消失付 $Q$ 的全盘可除性。令 $\mathsf D=T-I$，$V$ 为乘函数 $Wh_m$ 的算子。前节给 $\|\mathsf D-V\|_r\le\max(p^{-1},r^e)<r$，$\|\mathsf D\|_r=\|V\|_r=r$。由二项式
+$$
+P(T)=\sum_{j=0}^e\binom{p}{j+1}\mathsf D^j
+$$
+仅顶项 $\mathsf D^e$ 系数为单位，其余项的算子范数至多 $p^{-1}<r^e$。非交换差幂的伸缩恒等式给 $\|\mathsf D^e-V^e\|_r<r^e$。同时 $Qh_m^e-W^e h_m^e=-p h_m^e$ 的范数 $p^{-1}<r^e$。由于 $\|Q\|_r=r^e$，Gauss 范数的乘法性给 $\|Q^{-1}P(T)-h_m^e\|_r<1$。乘 $h_m^e$ 是等距可逆，故所称算子也等距可逆；半径从下趋一恢复整环和其整逆。
+
+因此在同一原电荷上，$Q\mid\mathcal B_m$ 等价于 $Q\mid Z_m$，也等价于存在整开盘函数 $f$ 使 $Z_m=P(T)f$。此时 $f$ 唯一且
+$$
+(T^p-I)f=W\mathcal B_m,\qquad
+j_m/(d\log_p\eta)=p f(0).
+$$
+反向，若整 $f$ 满足这条差分方程，则 $(T-I)(P(T)f-Z_m)=0$，由全盘 $\mathcal M$ 的单射性即得 $P(T)f=Z_m$。这精确支付原算子从 $\eta$ 到 $\eta^p$ 的整迹像。单个 $j_m=0$ 条件只给 $Z_m(0)=0$，尚未给整迹原像或全部 $Q$ 根读数零。
+
+## 来源
+
+- [R663](R663-original-lubin-tate-residues-and-closed-boundary-equivalence.md)：本文所指原来源、坐标、连接或角色规范。
+- [R639](R639-complete-original-central-gauge-and-full-formal-disc-stokes.md)：本文所指原来源、坐标、连接或角色规范。
+- [R1062](R1062-original-translated-miller-jets-and-critical-weight-germs.md)：本文所指原来源、坐标、连接或角色规范。
+- [R694](R694-original-cm-kummer-descent-and-full-norm-one-trace.md)：本文所指原来源、坐标、连接或角色规范。
+- [R703](R703-original-hall-phase-and-finite-fourier-return.md)：本文所指原来源、坐标、连接或角色规范。
+- [R705](R705-original-wild-character-and-absolute-weil-projection.md)：本文所指原来源、坐标、连接或角色规范。
+- [R710](R710-original-all-order-central-kernel-and-exact-boundary-remainder.md)：本文所指原来源、坐标、连接或角色规范。
+- [R681](R681-original-torsion-gauge-and-finite-algebraic-residues.md)：本文所指原来源、坐标、连接或角色规范。
+- [R716](R716-original-wild-global-theta-period-and-exact-central-l-value.md)：本文所指原来源、坐标、连接或角色规范。
