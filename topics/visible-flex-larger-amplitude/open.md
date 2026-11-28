@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | b34824/accepted3/reachg.5235597907246015/distplus.11392305204890485；report未返。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 87c076/accepted2/g.9678293850088526；6a101完整g.9815551189995484拒，491dae刚起。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | ff7dc8/accepted2/reachg.6115910089638068；f725c仅统计。 |
-| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | science/pure0，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；同源whole final正接续。 |
+| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | science/pure0，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518；[同源whole final续跑整队已刊](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)，140/7词、458/445及64live全保。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | 初7e06/accepted0/reachg.006249035762618371/distplus.13346402986277572；7722d拒，adf3c9半步仅统计。 |
 | [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | a7ff7c/accepted1/reachg.7008605078876107/distplus.08419920552570004；K13.718888932685733/s=null。 |
 | [28](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md) | model61c654；11e66/accepted1/reachg.5294703284893127/distplus.11391376026366629；K12.318076128726846/s=null；0927d仅统计。 |
@@ -131,7 +131,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R727](results/R727-symmetric-spherical-boundary-posterior-root-without-acute-cap.md)及[准确接口](notes/2026-11-28-R727-accurate-Slerp-mean-consumer-interface.md)保非反极完整残差冠、全逆/C²接合及Lη弧长。[准确核心9件](computations/fixed-fejer-r726-R727-complete-accurate-mean-core-delivery.json)395065B已刊：无限Slerp尾、真根E1/E2三整积分、固定H0/独立profile和w、全radial cuts。全部角度保，不继旧chord/acute/periodic bool；normal/leaf/G后继全件已保护待刊，实际费用未付。
 
-[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续费须原绝对repo与同canonical/output；N变G须新稳定whole report/另目录，R723/mesh fresh；P同canonical/同流整块，U最终同wholeN。packet须完整report；[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)原仅runner13/全typed，其他族不能继其guard或末μ。22/23/26全准确族、27后参已有完整保护；25同源续作正查真实全report。
+[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续费须原绝对repo与同canonical/output；N变G须新稳定whole report/另目录，R723/mesh fresh；P同canonical/同流整块，U最终同wholeN。packet须完整report；[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)原仅runner13/全typed，其他族不能继其guard或末μ。22/23/26全准确族、27后参已有完整保护；25从真实a28ae/de44完整final同runner续作，新4/64/15预算、两μ显式.01，整science队58022B，后继pure整步再接。
 
 normal.complete不代全连续branch，mean J不代Cu。全32stage/1024整圆/922径向/cuts/六jet/全尾/两帽/mixed/allphase/晚失败，以及R718 marked与R716 unmarked独立待付。同g/全参数五t、15science+5preview、三级空间/频率/时间必须真实完成，旧全责任不由本节简写豁免。
 
