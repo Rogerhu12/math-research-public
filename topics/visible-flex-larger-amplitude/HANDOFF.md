@@ -39,7 +39,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 985e0fbbffa6cd0cfac44b57b7fc68ca003e5de8
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 3386f5bfc7645c3c2239916db02d3a15c86ba1c8
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 2b581e3cfb8fb905e9ab2c14bf40599320c575c7
 
@@ -50,3 +49,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R785](results/R785-moderate-two-cap-shear-and-the-full-signed-normal-tube.md)：同R781 g双完整帽各四真实MILD扇，xi≤.02，共全空间剪切逐对支付reach≥1/24.36>.03D、held>.320、含反射商距>.086及真.18内握。终相同一中央点原g缺陷>.24；下一全场必须纠正。
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-retry-46175515918-1-index.json) [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 9729281883d95c237073009bc34e7f6bef295cb8
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 795f30b106ddb9e1a387022d30aa4dd4bb35d788
