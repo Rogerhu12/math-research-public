@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原最高矩的有限整syntomic比较（已证明）**：[R1163](results/R1163-original-highest-moment-integral-syntomic-comparison.md)实际E^d signed projector与Tsuji小权定理给原对称幂系数Hq(q≤t)的精确整比较；完整最高Π0 cup无额外尺度。原指定primitive的syntomic gauge类及全层兼容准确识别，保ordered全部交叉项和有限H0；同源显式PD代表/原F0继续。
+
 - **原CM函数的真实e-block与normal系数（已证明）**：[R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)整tame projector、ϖ^e=p取值、完整PD Taylor及逐block精度全部明确；精确滤过交R∩Fil^aS=g^aR，并在同一原FL标架前提下消去全部factorial，保(−1)^r和真实高函数次数。继续同源frame/中央gauge识别，未把raw矩阵再施Frobenius。
 
 - **原强可除格的有限PD法向窗口（已证明）**：[R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原LT扭点环的唯一整展开及完整factorial尾界给精确读取：适配权w_b时只留r=i−w_b、j<p，保全部ϖ^(pj)；全向量零 iff这些原normal系数全零。43格及二次tensor的r≤14/28明确，原ordered乘法/角色/已给整态射相容。raw rational dilog到该原整展开的识别和F0仍继续。

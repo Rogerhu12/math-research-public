@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-bounded-quadratic-primitive-chain.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-syntomic-comparison.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -31,15 +31,9 @@
 R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)，故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ。全部中央值ℓ>p⁸时在affine上出现；共同cusp排除素ℓ>4D_p²（充分p⁸/144）仍有同一个affine点兼容全部labels并升Qℓ，D_p=g+p(p−1)(g−1)。继续小素真实值/p-local，不能再用大Chebotarev存在代affine空。
 
 
-### R1156–1158：原整 filling 与最高矩 correlation torsor 已成
+### 原整 filling、算术未平滑与连续矩来源
 
-[R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付同根四线整上链、全部乘法相位/有限见证、辅助域及Cor–res同伦；[R1157](results/R1157-original-integral-SV-Manin-triangle-filling.md)把真正B_n三项写成−n⁻⁸的明确K3残数，n=5可用，固定函数整塔在全noncusp延伸。固定根塔未冒E[pⁿ] moment分布，单层不变量未用于补点。
-
-[R1158](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)现已把原S/U多项式权接成最高Sym12的真实Gcorr群态射：共同even单位W、Weil restriction/对角拉回、全ordered bracket与rank-one标记全保，未除cover degree。quotient原矩比较、根ρ及中央gauge已实际支付，完整M上的H¹Z0给唯一correlation lift。
-
-**当前准确门**：R1159–1160现已从含各n-isogeny moment的smoothed对象给出原未平滑G0的实际一次primitive。后继必须读取该原source的一般Frobenius conjugating path及其crystalline/FL中央值；不是再证抽象lift存在。全部carry/Cor与真实减法继续，单primitive单位仍不代weighted中央非零。
-
-[R1159–1160](results.md)已付原crossed projection差、norm根ηd及J_n：Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。实际算术B_n由C2/C3 lifts、λ=−β(c)/2及两transvection的Newton反差分构造，dB_n=(V_n−v_n)Ω、h0=(hV+B_n)/v_n；n2除43/127、两例n5。全部p^r三中心用v_d∞=(1−p^d)B_(d+2)/(d+2)的单位截面，保21(1+p⁴)/11并严格约化兼容，识别同一S0/43格。完整L/R/J/B公式沿本次逐字归档及原文，不重推。
+[R1156–60](results.md)已付原同根四线整cochain、SV真正三函数/raw全noncusp及GL2/rank1下降、最高Sym12的Gcorr与原moment/root gauge。crossed L/R、ηd及J_n给Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。R1160以C2/C3 lifts、λ=−β(c)/2、两transvection Newton反差分构造实际dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n；n2除43/127、两例n5。全部p^r三中心以v_d∞=(1−p^d)B_(d+2)/(d+2)的单位截面严格兼容，保21(1+p⁴)/11。完整ordered/crossed/arith公式沿本次逐字归档及各原文，不重做。一般Frob仍须读原b(q⁻¹T′q)，当前是原F0/全深盘实际数值。
 
 [R1147 §§17–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)进一步付真正连续all-vector moment与原primitive最高整塔的同源运输。Λ°是模商lim Rr[E[p^r]]/Rr[0]，非环商；原根过渡y_Q=∏_(pP=Q)x_P^p给固定norm来源，无有限标签任意TpE提升。全部非零点Tate orbit计g而非φ(g)，故Mprim_d=(1−p^d)Mtilde_d，d4/8/12；原I_d(e|N)给唯一零次ρ，完整ordered二次修正保留。群尺度(a,b,a;ab,ab,ab)，a=1−p⁴,b=1−p⁸，将λ0=21/11认回λ∞。原S/U的Z[1/6]恒等式在全部p^r点成立，含非primitive/非自由rank1；逐层实际完成Gcorr和normquotient后，H0/H1Zr0才给唯一相容中心。R1159/60整cochains及n2/n5未平滑识别原最高Sym12TpE(2)塔。它不是raw各槽任意四线分解逐项兼容的断言。
 
@@ -80,6 +74,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 [R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)自足给原强可除格的**完整有限PD法向窗口**。沿R712/R978原严格LT坐标，e=p²−1、g=z^e−p、S=(O[z,γ_r(g)])^∧p，ev(ψg/p)=p^(p−1)−1≡−1。z^jγ_r(g)（j<e）为唯一整展开基；对0≤a≤p−2，所有r>a满足r−a−vp(r!)≥1，包括r≥p。适配FL基e_b权w_b、F_b=p^−w_bφe_b成整基，ev p^−iφx≡Σ_(w_b≤i)(−1)^(i−w_b)/(i−w_b)!·Σ_(j<p)σ(a_b,j,i−w_b)ϖ^(pj)F_b；全向量零 iff这些a全0modp。原43格权0..14、二次tensor0..28均适用，原tensor/已给整态射与角色χ→χ^p准确相容。此只有限化**原强可除展开**；R1147有限moment系数jet不自动等于function jet，raw rational dilog尚须同源识别其整normal系数、根/中央gauge及实际F0，R985高坐标carry不能删。
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)新增已整函数至上述normal输入的完整算法。真实tame projector选j≡−w mod e；f=Σz^jF_j(z^e)，扭点读F_j(p)，m_jr=F_j^(r)(p)=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)。modp^(i−r+1)只需r≤k≤i及c_(j+ke) modp^(i−k+1)；R∩Fil^aS=g^aR准确要求低normal系数等于零。若已在原FL适配frame中，1155.102的阶乘相消，读Σ_(b,j<p)(−1)^(i−w_b)σ(c_(b,j+(i−w_b)e))ϖ^(pj)F_b，全向量零 iff这些coeff全零。最多真实函数degree28e+p−1；coefficient jet十二不删这些高block，已是Frobenius矩阵的Rψ不再逐槽施φ。原frame/中央gauge识别继续。
+
+[R1163](results/R1163-original-highest-moment-integral-syntomic-comparison.md)已付**原系数的精确有限整syntomic比较**。在E^d用每因子(1−[-1])/2及(1/d!)Σsgn(σ)σ*，实际Koszul号消后选ordinary Sym^dTpE(t)于cohom degree d、Tate weight d+t。Tsuji2000 Th5.1及§2的原log period map给C_syn[d]→RΓ(G_L,Sym^dH_n(t))的Hq同构q≤t，保完整惯性及residue-Frob。原(4,1)/(8,1)覆盖H0/H1，(12,2)覆盖H0/H1/H2；最高externalproduct的5+9=14严格在范围内，准确Π0、无额外binomial。故已指定原h0的syntomic gauge类有唯一原像，ordered变换h′=h+as−rb+dt−r ds及全p^n相容均保。此不把所有primitive代表判为相同，也不假分歧域有限H0为零。现在继续原theta/Miller同根代表、原适配FL frame及1155/1162的normal表；低Π2/4 contraction未因最高product比较被自动宣付，F0/z12未算。
 
 ## O1：原两 jet 的实际临界非零
 

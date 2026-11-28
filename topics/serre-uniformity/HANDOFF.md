@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：bdcf84039b32d5c9071cd256fdf9e1635b963a97**（2026-11-28 13:37 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：2e21028f0a096b2ee4c910e942f2dd9bcb62daa3**（2026-11-28 13:41 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 13:36:52 Asia/Taipei，Actions run46112877438/job140880105085，blob:none浅clone后真实pull --rebase至30e8ea86；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤14:26、pull≤14:36。本地13:36仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-finite-PD-normal-window.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-integral-syntomic-comparison.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -26,13 +26,9 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)给真实e-block：m_jr=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)，所需精度k≤i、p^(i−k+1)；原FL窗口阶乘精确消，仍须同一整frame。
 
-[R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)原四线连续整primitive、有限见证/根相位、全一般位置及Cor同伦已付；Δ归一全noncusp并保−12(c²−1)d(DT)，固定函数根塔与moment分布分别支付。
+[R1156–60](results.md)原四线整raw、真正SV三项、全部GL2/rank1下降、highest Gcorr与crossed J_n均已付；完整函数/根相位及27项沿open/逐字前态。实际算术B_n由C2/C3、复共轭和两transvection Newton反差分给dB_n=(V_n−v_n)Ω，h0=(hV+B_n)/v_n；n2/n5覆盖p>37，全部p^r三中心严格兼容，保21(1+p⁴)/11。原n2全SS七行坏参数阶1/(p²−1)及共同CM形式源已付。一般Frob须实际b(q⁻¹T′q)，Cartan I仅modp、原F0未读。
 
-[R1157 §§1–12](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV三函数/raw全noncusp/GL2下降已成。n2原Θ=Δ/(16y⁴)、Ri=−(x−ei)²/Ki、Θi=ΘRi²及27项权6/−2/2、−1/256全保。实际切线分解/并发三值Bloch见证包括rank1。三次闭点x(3T0)∉Fp²使全部SS leading不能抵消，det阶1/3及七行(u,1−u)阶表见open；坏阶1/(p²−1)落全R†浅域。CM共同形式源覆盖rank2，真实Ep/PD比较和原根gauge保留。
-
-[R1158–59](results.md)已付原最高Sym12 smoothed Gcorr：真实even单位共同商、S/U全ordered权、Weil restriction/rank1下降、原矩quotient与根ρ/中央gauge。crossed L/R、norm根ηd及J_n给Ωcorr=V_nΩ+dJ、hV=hCorr+J，V_n=(n⁴+n⁻¹¹)−n²T_n；全部式见open。R1160解开平滑，仍须原Frob数值。
-
-[R1160](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)已构造dB_n=(V_n−v_n)Ω的实际算术B_n：有限阶C2/C3 lifts、复共轭λ=−β(c)/2及Newton反差分固定全section，h0=(hV+B_n)/v_n为原未平滑最高lift；n2/n5覆盖p>37。§8以v_d∞单位residue截面直接构造全部p^r三中心h_r，保21(1+p⁴)/11且严格约化兼容，识别同一43格。一般Frob仍须读b(q⁻¹T′q)，原F0数值未付；Cartan I仅modp。
+[R1163](results/R1163-original-highest-moment-integral-syntomic-comparison.md)新增原系数的精确finite integral syntomic比较：E^d的signed整projector选Sym^dTpE(t)，Tsuji2000已刊smallweight给Hq syn≅et(q≤t)。d4/8,t1与d12,t2覆盖原交换H1及最高中心H2；externalproduct准确Π0无额外factorial/binomial。保ordered gauge全部交叉项，既定最高primitive的syn gauge类及全层兼容已识别；仍须原theta/Miller同源代表至适配FL frame，未把存在类冒PD系数表。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
