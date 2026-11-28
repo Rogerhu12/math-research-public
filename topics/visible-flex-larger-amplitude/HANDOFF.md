@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17实际重置各唯一探测失败，恢复即pull。云核至`a102c6c3e2f607e76443afef4a97db4a611dab97`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活21–28通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17实际重置各唯一探测失败，恢复即pull。云核至`e7b4ed1f7e2154c9933d6f9e24967d59722b6953`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活21–28通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull，令牌仅CLI。所有根规矩及完整发布/观测工具责任保旧H。
 仅公开Actions科学；新raw只runner/scratch。保全源参/run/whole身份/typed/失败未知，无新AST/fixture/重跑/审查门或缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退可完整再生旧数据，保结论/全源参/恢复，不删活输入或唯一状态。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D=闭F0整像直径。同g/参数/t空间/频率/时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口须明示，继续加强比例。有限点/开放片/条件论证非完成。
@@ -20,7 +20,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 [R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层均值m≥b/4、球冠条件正根、全逆/角2/跨机制扰动全证；[R726全29件](computations/fixed-fejer-r726-complete-scientific-source-delivery.json)已刊，137角色19变118保/23runtime，真实新mean/field全三维及两角齐；[29完整参数](computations/fixed-fejer-r726-bhalf-complete-parameter-delivery.json)六件已刊：同26数值157/7、458/445、64live，b1/2/ε1/8真实Slerp，启动接续，不继旧势/校准。[旋转/角2全22件](computations/fixed-fejer-halfwave-demanded-complete-source-delivery.json)已刊：17新runtime/137角色14变123保，完整有限性与原回退保；无实测速度。[28完整参数](computations/fixed-fejer-halfwave-demanded-bhalf-complete-parameter-delivery.json)五件已刊：真25数值全157/7、458/445、64live、5CLI/15external；原S5半波，仅新计算源，[28完整启动](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)：46108296054/1从cf2e5c85于04:35:57Z实际启动，job140865899880；科学值未返。
 [准确续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)全文保：N续费首次绝对源路径/whole report；N变G新目录，R723/mesh fresh；P可同canonical同流整块续，U最终同wholeN。packet须完整report；restart须同runner13final/全typed，不继CLI末μ。normal.complete不代branch，mean J不代Cu；全32stage/六jet/全尾/全phase/晚失败及R718 marked/R716 unmarked独立保。五t/15mesh/三级精化待付，22/23/26整准确链已保护，27全后参续作。
 
-[R727](results/R727-symmetric-spherical-boundary-posterior-root-without-acute-cap.md)全证：对称非反极m>0、完整残差球冠唯一正根/全逆/C²接合，Lη弧长；实际条件待付。
+[R727](results/R727-symmetric-spherical-boundary-posterior-root-without-acute-cap.md)全证：对称非反极m>0、完整残差球冠唯一正根/全逆/C²接合，Lη弧长；实际条件待付。[完整准确接口](notes/2026-11-28-R727-accurate-Slerp-mean-consumer-interface.md)保真根E1/E2、固定H0、独立profile/w及小冠包含接合。
 
 ## 容量与分工
 

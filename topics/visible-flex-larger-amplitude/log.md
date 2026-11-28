@@ -538,3 +538,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:50:15 UTC — 20官方取消终态与最后未完成科学状态
 
 20官方completed/cancelled@04:46:09Z，job140775034500结束04:46:08Z；末04:43:19仍current e70a/accepted3、a6b304仅统计，child自然返回/完整report未观察。未获官方取消原因，不以350min时间相近猜因；完整run/jobs、最后实际索引及末真pull槽保留。仅移除已官方终态20槽，研究继续。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`a102c6c3e2f607e76443afef4a97db4a611dab97`无变（非pull）。
+
+## 2026-11-28 04:51:47 UTC — R727准确消费者完整实施接口
+
+17991B/cfabdbbe说明直接发表：在准确Slerp完整积分及已证真根集合上，E1=J*saved_vphi+Fphi，E2用已付真vphi盒与全部mixed/二阶项，分别乘R727真根完整逆界，不搬旧chord三阶常数。K用固定seed H0/完整补集尾，非当前自由H；非急角不继d_z正界，profile支和w投影分母独立付。相邻/字面/周期以小真根冠包含另一唯一冠证明同支，全q<2无限尾及归一化角2齐。实际准确源码由geometry实现，费用未运行/未宣通过，不增任何科学前门。双README云核至`e7b4ed1f7e2154c9933d6f9e24967d59722b6953`无变（非pull）。
