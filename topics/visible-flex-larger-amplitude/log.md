@@ -155,3 +155,7 @@
 ## 2026-11-28 12:32:35 UTC — Run38 完整自由径向 Killing / Haar 求解源参及启动
 
 8完整源参92568B全部逐字核取，十真实六jet起点、两F/X交替分支及同一Haar目标两精化完整触发。冻结实际fixed.cx，换基向量仅诊断；完整依赖/预算/命令/未知见[ownnote](notes/2026-11-28-run38-free-radial-Killing-complete-launch.md)。37官方已自然RC0、完整八新阶段，有限误差未达标，原终态已核。H/open索引压缩前全文固定78431ea8c1989f7e47fb9bed4c02d9d572b7d1d4保全部，不删完整记录。 双README云核至`b2406ffb6476623cfc46c7c10c25245dd394a818`无变（非pull）。
+
+## 2026-11-28 12:33:24 UTC — RET100H 完整闭分支参数精确重建与容量释放
+
+只退17件原09/10已终止分支的旧完整生成参数，共1636496B；原3父、6native生成器、原queue/失败记录及33–38全部活科学和准确下游保留。4件完整manifest/可执行重建/两个语义编辑组163966B已逐字核取；根用3父和原reconstruct逐个恢复17件全部UTF8字节、SHA256和Git blob，17/17三身份相同，净释放1472530B。并未将未执行分支声称执行、亦无科学重跑。完整历史run/终态未知、路径、命令、参数、原Git恢复和53件活文件保护见[manifest](computations/ret100h-closed-branch-parameter-recovery.json)。 双README云核至`c16799f28f2a38885046cc091747c85d25b32227`无变（非pull）。
