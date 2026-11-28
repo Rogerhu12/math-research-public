@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 06:41:56 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 06:44:43 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至2ca5f588156145ee0f0eded259d34a7f4c07244c；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
+本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至be718a38bfaa86f4455ab8d2c7a361b527c6ee85；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
 本次终端可用，依根规8用终端git commit/push；非快进立即pull --rebase再推至成功，禁止force。令牌只CLI、不落文件；未发现AGENTS。前会话完整状态/失败记录保公开b0865cd9同路径和其递归来源，未撤任何数学义务。成功科学计算不重跑；继续缺域时消费完整已保存cells。规12不加审批复核门，结论成即推，root LOG不动。
 topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁可重建大数组。META7已由9e7aba99d提交；本次初始topic14359files/198758161B，约1.24MB余量，不重复旧压缩。前6批完整账保上一不可变H。
 接手实际终态：SL45917913526已结束，signed充分门未过；TC45928452441保存2677/7724完整cells、连续1605，whole有限matrix仍成；BNC45941963989恢复历史文件路径失败、0新数学目标。WMR45942597362四目标已成（真实reference高度ν列负），详情由新actual结果登记。并行继续TC缺域、BNC恢复、实际cap R→L；这些均不授最终全逆或闭曲面族。
@@ -31,7 +31,8 @@ geometry43584188751/26只在同η0全core+caps物理C0≤1e−4、|δν|≤1e−
 6. **RHI/height。** RHI45933988440/1全4成功，ARHI whole18carrier/2847cells与Eu≈7.210855e−6/Ey≈9.750080e−6完整锁；true y第一负/第三正、u2符号未成。relative I/0非world锚，旧run不再监控。RRM原两mean弱窗、WMR五source92f1d660、WRC补q_b,φ·Δx项后原常数及WRA全三C1端口/真实Yb/Kb行已成，actual b锚仍待同态来源。
 WMR4首45941738781/1真实prechild失败完整保；角色修复45942597362/1于11-27 05:57全四目标成功。[AWH](results/R147-supplement-actual-complete-reference-world-height-and-anchor-budget.md)登记actual14607B/ca718bb1cf676c5488e1369f3e616e0b0421bf629e5c8292fe9e918826af2ca5，reference全高度ν列[-.0253702,-.0252298]负，actual锚差<.031082487a0+.006877446p0，Πg=0仅消一个固定高度常数，独立varying端口P_b保。旧四目标不得重算；cap R→L与完整Schur仍待。
 
-[CW：实际cap R→L锚与supportedν高度](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)已证明：M全physical球经真逆角给moving C0<.000142；RA→L的actual GW角向方程保raw E/P缺陷，给A0L<.002234557/A1L<.005399/B1L<.009528，再接原ACT得b端a0<.002235/a1<.015072/b1<.04748/p0<.004288。WRA全弱源系数94600/6693/3024/8907。明确固定整个r≥b exterior的NP particular有Kb=Yb=0，高度列在(-.02547,-.02513)、逆<40；24新exact组合已一次通过。所有general varying端口、真实L曲率match/全Schur/非线性core仍独立，.000142未达最终1e-4球。原ACT/RA完整proof与上一H保留。
+[CW：实际cap R→L锚与supportedν高度](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)已证明：M全physical球经真逆角给moving C0<.000142；RA→L的actual GW角向方程保raw E/P缺陷，给A0L<.002234557/A1L<.005399/B1L<.009528，再接原ACT得b端a0<.002235/a1<.015072/b1<.04748/p0<.004288。WRA全弱源系数94600/6693/3024/8907。明确固定整个r≥b exterior的NP particular有Kb=Yb=0，高度列在(-.02547,-.02513)、逆<40；24新exact组合已一次通过。所有general varying端口、真实L曲率match/全Schur/非线性core仍独立，原ACT/RA完整proof与上一H保留。
+[CG](results/R133-supplement-actual-cap-in-final-geometry-C0-ball.md)进一步用同一M固定点原完整预算得t<2.684e-6，再以mean-separated真逆角给moving factor37；全cap含mean/repair的pair sup<9.9309e-5<1e-4。七新exact组合已一次通过，已付最终几何的cap状态球；尚须未知core入M域、完整match及core自身状态球。CW粗界仍有效，不重旧计算。
 
 ## 实际尾端参数响应
 

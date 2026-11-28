@@ -160,4 +160,4 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 环境失联后按根规8仅小文本GitHub集成，每次最新main核两README，非force拒旧父即重base；私库进行中/readSHA见H。第6批metadata45940225760/c92c87d9仅新128无引用旧JSON空白，真实net736134B，科学0。
 
 
-[CW实际cap锚](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)已补RA→L→b：b端a0<.002235/a1<.015072/b1<.04748/p0<.004288；actual GW角向式保raw E/P缺陷，未由C0硬推C1。原弱窗新系数94600/6693/3024/8907。固定整个exterior的NP particular真实Kb=Yb=0，高度列(-.02547,-.02513)、逆<40；general varying端口、真实L曲率match、完整finite/high/ν Schur仍待，cap C0 .000142未达最终1e-4球。原ACT/RA证明及先前完整H保留。
+[CW实际cap锚](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)已补RA→L→b：b端a0<.002235/a1<.015072/b1<.04748/p0<.004288；actual GW角向式保raw E/P缺陷，未由C0硬推C1。原弱窗新系数94600/6693/3024/8907。固定整个exterior的NP particular真实Kb=Yb=0，高度列(-.02547,-.02513)、逆<40；general varying端口、真实L曲率match、完整finite/high/ν Schur仍待，[CG](results/R133-supplement-actual-cap-in-final-geometry-C0-ball.md)现已由同一实际M方程得全cap pair sup<9.9309e-5<1e-4；final几何的cap状态球已付，未知core入M域、真实matching和core球仍待。原ACT/RA/CW证明及先前完整H保留。

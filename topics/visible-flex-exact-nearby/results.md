@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [CG：整个actual cap进入最终moving C0几何球](results/R133-supplement-actual-cap-in-final-geometry-C0-ball.md)：同一M固定点原预算给t<2.684e-6；完整mean-separated逆角与已知参考导数把physical→moving常数缩至37，连同repair得全cap pair sup<9.9309e-5<1e-4。七新exact比较全过，无旧迭代/科学重算；core输入准入和matching仍待。
+
 - [CW：实际cap锚及固定外部ν高度](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)：RA→L由真GW角向式保raw缺陷给C1，再接ACT得b端a0<.002235/a1<.015072/b1<.04748/p0<.004288；原弱源receiver94600/6693/3024/8907。明确固定全exterior的NP particular高度列(-.02547,-.02513)、逆<40。24新有理比较全成，L曲率match/general ports/fullSchur/最终1e-4球仍独立。
 
 - [AWH：完整reference物理高度实际成功及真实锚预算](results/R147-supplement-actual-complete-reference-world-height-and-anchor-budget.md)：45942597362/1四目标全成，完整高度ν列[-.0253702,-.0252298]严格负；以真whole kernel给actual锚差<.031082487a0+.006877446p0，单一height常数由Πg=0消去，独立varying端口P_b保。非full Schur；旧四目标不重算。
