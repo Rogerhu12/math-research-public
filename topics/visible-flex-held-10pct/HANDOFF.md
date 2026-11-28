@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `7574208f941310e48e43d3fd826fc6ecb9da411c`（2026-11-28 12:53 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `a2c318028200d823686c36410098b7e5ce115a87`（2026-11-28 13:03 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；12:11:39UTC真pull到 `df5208252bd9dd6cfb6445da7423aecd77f63142`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12不加审批；§13授权公开库Actions，§15源/参数/hash/小标量入Git，可再生数组/网格/证书不存仓库或Release；§16今后spawn显式gpt-6.2-astra/ultra/forknone，既有代理不中断。H<10KB、单MD<100KB、目录<200MB。每次改外部workflow须在本题log说明。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
