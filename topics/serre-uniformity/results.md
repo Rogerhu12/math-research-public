@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Lamé高零模与两障碍的有界原函数（已证明）**：[quadric续篇 §§5–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)完整上下半段及有限二次恒等锁定Z；e检测原R0的唯一有界primitive，K4检测同K=UDR0的第三插入。全relative相位、三极和强迫列保留，未以高单位代指定两jet。
+
 - **原连续全点矩与最高整塔的同源比较（已证明）**：[R1147 §§17–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)实际norm根塔、all-vector的1−p^d精确比例、同根反差分/全中央gauge与全p^r S/U来源均付；完成整Gcorr后唯一性给兼容过渡，原算术未平滑认到最高Sym12整子商。period/PD极限及F0数值仍须读取。
 
 - **原带符号Hasse与自足限制幂（已证明）**：[R1154 §17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)已锁标准Hasse的完整符号：A(1,−w)=−P、A(γ)=−aξ、B(γ)=−a(6+ξE2)，故B0=−6a。自足代数证明X^p=A²X+ACZ/6+C²∂H/6：先证Xp=cY，保H^p可能后以整数权排除，再由双导子和degree<p使c常数，最后一次q系数480锁c1。在原有限流读取为a²(6∂H+kξ+ξ²∂ξ)，首p forcing及k+j−1临界零保全；端点[ξp−3]E4=a⁻²、[ξp−7]E4²=a⁻⁶只校准，未代原joint。

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：8bb9b461079f0f13261a590c98d292ebbcd6804b**（2026-11-28 13:04 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：7b4089933991daf22ec0261fa2510ca07aecb069**（2026-11-28 13:05 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:48:17 Asia/Taipei，Actions run46109203139/job140868723588，blob:none浅clone后真实pull --rebase至c6b1020c；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤13:38、pull≤13:48。本地12:47仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -26,7 +26,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 §15现付所有有限分歧L、全部原坏点raw D的rational半稳定比较：Lang规约Lie Nh0仍保N²/半平方，同一whole path经Vologodsky实际Bst对偶箭头与Hodge刚化给G=(logu,log1u,−Li2u)。原Eisenstein f(T)的PD包保全部法向carry，非OL场σ；finite Ep权/43格整比较及原F0继续。
 
-[R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付原四线的连续整primitive、有限关系见证/根相位、全部一般位置及Cor–res显式同伦。Δ归一raw整塔全noncusp延伸，ordered保−12(c²−1)d(DT)；固定函数根塔不冒E[pⁿ] moment分布。
+[R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)原四线连续整primitive、有限见证/根相位、全一般位置及Cor同伦已付；Δ归一全noncusp并保−12(c²−1)d(DT)，固定函数根塔与moment分布分别支付。
 
 [R1157 §§1–12](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV三函数/raw全noncusp/GL2下降已成。n2原Θ=Δ/(16y⁴)、Ri=−(x−ei)²/Ki、Θi=ΘRi²及27项权6/−2/2、−1/256全保。实际切线分解/并发三值Bloch见证包括rank1。三次闭点x(3T0)∉Fp²使全部SS leading不能抵消，det阶1/3及七行(u,1−u)阶表见open；坏阶1/(p²−1)落全R†浅域。CM共同形式源覆盖rank2，真实Ep/PD比较和原根gauge保留。
 
@@ -42,7 +42,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原genus4 §§6–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)锁定完整canonical P22、六个123映射/p次补偿、三平移V4与全部114高层；所有phase、A3/A9及谱jet一阶gauge沿文。原quadric A/B/W二阶源、B全系数、norm最高U^p单位和b6=8δ³C(Rcal³Bω)/ω′均付，顶unit不代指定低读数。
 
-[quadric续篇](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)实际三次有界积分A=D³I，给a3=C_rel(Ψ³Aω)/ω′=−δ⁴[τ⁻⁵]A/4。保完整4ve后，a3=2ρδK4/b0−4vα，α=−2ρe/(b0δ)，故原双零恰α=a3=0。已回原absolute有序槽：e0时两C(P³Piωj)=ρK4 h*/(b0⁴δ²)，C(P²W h*)=−a3h*/(3b0³δ³)。第0…5层双零、第6层b6仍保；继续真实Leibniz，σ/Λ/T和共同零未unit。
+[quadric续篇 §§1–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原A=D³I付a3=−δ⁴[τ⁻⁵]A/4=2ρδK4/b0−4vα，α=−2ρe/(b0δ)；原有序P³两槽及P²W全尺度见open。新增原高Lamé零模Z=(Vp(J+−J−)−v(J++J−))/Up，deg p−1、C_rel Zω=−2vω′。完整分裂Z=4zN g+2b0zN U^(m+1)B/v给R0=g/U^(m+1)的C=ρe/(vδ)；e0 iff唯一有界H0满足DH0=R0，H0首τ⁵/20。K=UDR0、DK=1+v²R0/U，e0时C(Ψ³Kω)=−ρδK4ω′。双零另强迫C(U³Iω)=δω′/(60b0)，未与已付消失冲突；继续真实三极/高插入，不以Z顶单位代原双零。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

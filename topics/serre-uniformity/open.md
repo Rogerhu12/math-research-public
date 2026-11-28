@@ -105,6 +105,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 全部45槽中的κ–Serre型对角−6r_ab为单位，有限Thomae付全三张量Fp²交替、九mixed合一；e=δS_n/(ρs)、S_n=−9ρ²A_orig准确。σ来自三114循环，Λ来自同E* H_*²及原Padé D_N的有限functional，二者均未unit。e=K4=0仍恰222+123七维第0…4层消失/原q两jet共零；继续实际Leibniz、指定短源/有界primitive，不以perfectness、覆盖同构、全Jordan或旁列单位排除。
 
+[quadric续篇 §§5–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)将两障碍留在同一低半段：原Picard读取a3=ρD_R⁴t(−Q)/(2b0δ)，完整Leibniz给120C(U³Iω)/ω′+48v²βI=vα+2δ/b0。原高Lamé零模Z的有限二次变换G(4w(1−w))=(1−w)^(4k−1)+w^(4k−1)完整保共振末项；Z=4zN g+2b0zN U^(m+1)B/v，C_rel(Zω)=−2vω′。R0=g/U^(m+1)则C_rel(R0ω)=ρeω′/(vδ)，e0 iff唯一H0∈VU^(−3k+2)K[U³]_(≤k−2)满足DH0=R0，其首τ⁵/20。K=UDR0满足DK=1+v²R0/U、C(Ψ³Kω)/ω′=3v²e/(2zN)−b0a3/2；所以e0下真K4读数为−ρδK4。高零模unit及双零下C(U³I)=δ/(60b0)都未自动排除原共同零，继续同一三极/有界primitive比较。
+
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 
 完整原norm2、Kronecker、两twist、mask、全部高尾及旧端点详见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)；不重算已登记扫描。
@@ -127,9 +129,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [原spectral §§10–11](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)回收整列C_pr=Σ a_(k+1−h)b_(h−1)/(2h)!，a_l来自(q/σ(q))²安全系数。完整Newton差商D−C_prQ_grid，Euler核−(R^p−R)不给C_pr/b_k零。E的真实tanh核保Riccati首carry；g_p=−3D(1)/4−C_pr/2=−3/8∫₀¹F_pair(u,1−u)u⁻²du，积分分母全安全。g1=−15G_(p−3)/16单位，使g(2atanh x)首x^p系数含p分母；该读取不能当整形式群坐标。继续actual两根/Jacobi与首carry，不新增缺席good行、不删S0/P0或原mask。
 
-[R1154 §13](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)实际Fν,τ=AτJν,τ的一阶参数列恰−Vν；完整(Lν−τ²)F=(τ−τ^p)(jτw^(p−2)−kτw^(p−1))，故LνVν=aνw^(p−1)。Green核为(1−(τ+σ)^(p−1))(kτjσ−jτkσ)/(τ−σ)，形式τ不得先取Fp值。所有原Pν⁴/wPν⁶等权都由同E读取：M0=1−η^(p−1)、M1=−E(η/2)/η、M_(j+1)=M_(j−1)+ηM_j/j，保Mp=0、M_(p−2)=η的真实cutoff。变化次数r−1的Jacobi端点准确还原原q_r(R)，但还没有保原二根与固定ν权重的intertwiner；actual-good共同纤维仍开。
-
-[R1154 §14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)支付Darboux的完整被截边界：Eν=[Tν,w^p]/p mod(p,w^p)为A/(wν)至w^(p−ν)A的同构，单位对角显式；TνAτ=(−1)^νν!Fντ−(τ−τ^p)EνAτ，故ν!Vν=TνLp+Eν1。全双权边界为有限前ν jet和，原B/U/V保一次项；eν²0不消两个已读取标量的6b∂u∂。固定ν的τ±1/±2递推已清分母保全部退化点，X²=−x；原good-mask不因此封闭，变化r−1仍不当固定ν，实际二根排除继续。
+[R1154 §§13–14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原formal Jacobi的一阶参数列为−V；完整(Lν−τ²)F=(τ−τp)(jτwp−2−kτwp−1)、Green核和所有M_j cutoff均见原文/逐字归档。Darboux Eν=[Tν,wp]/p为前ν至最高ν的单位三角同构，ν!V=TνLp+Eν1；原B/U/V全部weighted一次补项和6b∂u∂标量交叉项保留。τ0/±1的清分母递推不使good-mask封闭；固定ν与变化r−1未据外形等同。
 
 [R1154 §15](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)直接给原ξ=P/(a²V)、f=aV，Dξ=f⁻²和R(H)=[ξ^(p−1)]Hf²。E4=f⁴、E6=−wf⁶、E2=f²(6Df/f−w)满足完整有限Ramanujan：E2′=(E2²−E4)/6+6a²ξ^(p−1)，E4′=2(E2E4−E6)/3、E6′=E2E6−E4²；判别式qf12单位。原h=−[ξp−4]E6，B=a²b、U=−a⁶u、V=−a²v，其中b=[ξp−5]E4²，u/v为同E4E6的p−8/p−6系数。因此真joint为[ξp−4]E6=0及v−3a⁶bu=0；首式只先给b=[ξp−5]E2E6。最高强迫[ξp−1](E2²−E4)=−36a²unit并未代这个minor，继续实际共同零；本坐标未冒真实Ep整参数。
 

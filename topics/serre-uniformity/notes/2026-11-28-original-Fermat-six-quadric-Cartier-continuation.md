@@ -317,3 +317,277 @@ relative Frobenius 标量拉回及 Wilson 因子均相符。
 全篇无数学程序执行、无素数窗口。
 
 root 亲读并核 R1061 §19 的完整第三类 kernel，逐式核三角积分、三次分部积分、Q.7 的三个实际导数、4ve 常数与 Wilson 因子，并从相对 Cartier 到绝对有序槽核全部 p 次根；Q.10–Q.12 的亚纯与全纯范围一致。未增加数学执行。
+
+
+## 5. 原 Picard 两个 jet 与一个完整 Leibniz 强迫式
+
+令 $t=\Phi(U^m)$ 为原指定截面。
+R1061 的同一 Picard 参数给
+$D_Rt(-Q)=e$、$D_R^4t(-Q)=16ve+4\delta^2K_4$。
+因此 (Q.2)、(Q.9) 也准确写成
+$$
+\boxed{
+\alpha=-\frac{2\rho}{b_0\delta}D_Rt(-Q),\qquad
+\mathfrak a_3=\frac{\rho}{2b_0\delta}D_R^4t(-Q).
+}
+$$
+若 $t=UH_p(U^3)$，则
+$$
+\mathfrak a_3-6v\alpha
+=\frac{192\rho v^4}{b_0\delta}H_p'(0).
+\tag{Q.13}
+$$
+这里的第四阶读数是原固定曲线的 Picard jet；
+没有把 Tate normal 方向或辅助谱导数换入。
+
+由 (Q.1)、(Q.3)，
+$D^4\mathcal I=v\mathcal B/U-2/b_0$。
+先乘 $U$，再完整地四次分部积分，使用
+$$
+D^4U=120U^3+48v^2,\qquad
+C_{\rm rel}(U\omega)=-\delta\omega',
+$$
+可得
+$$
+\boxed{
+120\,\frac{C_{\rm rel}(U^3\mathcal I\omega)}{\omega'}
++48v^2\beta_{\mathcal I}
+=v\alpha+\frac{2\delta}{b_0}.
+}
+\tag{Q.14}
+$$
+等式本身证明左侧输出全纯；未先假定高极源的输出是常数。
+若 $e=K_4=0$，则 $\alpha=\beta_{\mathcal I}=0$，从而
+$C_{\rm rel}(U^3\mathcal I\omega)=\delta\omega'/(60b_0)$。
+这给真正的下一强迫列，但并不与已经证明的任何消失界矛盾。
+
+## 6. 极阶 $2p-2$ 的 Lamé 零模及完整上下半段
+
+本节的函数超出
+[R1113](../results/R1113-original-finite-Lame-spectrum-and-jet-boundary.md)
+中 $W\subset L((p+1)O)$ 的范围。
+仍用同一算子
+$$
+\mathscr L=D^2-2U,\qquad
+\ell_\pm=\frac{V\pm v}{U},\qquad
+J_\pm=(V\mp v)^{2k}.
+$$
+原三挠核给 $D J_\pm=\ell_\pm J_\pm$、
+$\mathscr L J_\pm=0$。
+定义
+$$
+\boxed{
+\mathcal Z=\ell_+^pJ_+-\ell_-^pJ_-
+=\frac{V^p(J_+-J_-)-v(J_++J_-)}{U^p}.
+}
+\tag{Q.15}
+$$
+末式保留 $v^p=-v$。
+由于 $D(\ell_\pm^p)=0$，有 $\mathscr L\mathcal Z=0$。
+
+在 $Q$，$J_+$ 的零阶是 $6k=p+1$，足以消去
+$\ell_+^p$ 的 $p$ 阶极；在 $-Q$ 同理。
+所以 $\mathcal Z$ 没有有限极点。
+它在 $V\mapsto -V$ 下不变，在 $U\mapsto\zeta U$ 下权为 $\zeta$，
+故为 $U$ 的多项式，指数皆为 $1\bmod3$。
+在 $O$ 展开 (Q.15) 的最高项，得到
+$$
+\mathcal Z=U\sum_{r=0}^{2k-1}z_rU^{3r},\qquad
+\deg_U\mathcal Z=p-1,\qquad
+\operatorname{lc}_U\mathcal Z=-\frac{2v}{3}.
+$$
+实际 $\mathscr L(U^j)$ 公式给
+$$
+\frac{z_{r+1}}{z_r}
+=-\frac{(r+\frac16)(r+\frac23)}
+ {v^2(r+1)(r+\frac43)}
+\qquad(0\le r<2k-1).
+\tag{Q.16}
+$$
+该有限范围内所有分子分母为单位。
+接着的一项恰由 $r+\frac23=0$ 截止。
+
+还有一个不依赖特征零正常性的完整多项式读法。
+置
+$$
+G(z)=\sum_{r=0}^{2k-1}
+ \frac{(\frac16)_r(\frac23)_r}{(\frac43)_r\,r!}z^r.
+$$
+则
+$$
+\boxed{
+\mathcal Z=(2v)^{4k-1}U\,G(-U^3/v^2),\qquad
+G(4w(1-w))=(1-w)^{4k-1}+w^{4k-1}.
+}
+\tag{Q.17}
+$$
+自足证明是直接在 (Q.15) 中代入
+$w=(1-V/v)/2$、$U^3=-4v^2w(1-w)$。
+分子变成
+$$
+-(2v)^{2k+1}w^{2k}(1-w)^{2k}
+ \{(1-w)^{4k-1}+w^{4k-1}\},
+$$
+而 $U^{p+1}=(2v)^{4k}w^{2k}(1-w)^{2k}$。
+再用 $(2v)^{p-1}=-1$，便得到 (Q.17) 的规范常数。
+右边是 $w\leftrightarrow1-w$ 不变多项式，
+其最高奇次项相消；由 (Q.16) 及常数项一，即识别为显示的 $G$。
+这也给 $G$ 的最高系数 $-(4k-1)/4^{\,2k-1}$。
+
+现在取 R1113.16、R1113.21 的**原**多项式
+$$
+\mathscr Lg=U^m,\qquad
+g=\sum_{j=0}^Ng_jU^{3j+1},\qquad g_N=\frac14.
+$$
+它的逐项比正是 (Q.16) 的前 $k$ 项。
+记 $z_N=[U^{3N+1}]\mathcal Z\ne0$。
+原 $\mathcal B$ 的 (Q.1) 二阶式还给
+$$
+\mathscr L(U^{m+1}\mathcal B)=-\frac{2v}{b_0}U^m.
+$$
+完整高低分裂为
+$$
+\boxed{
+\mathcal Z
+=4z_Ng+\frac{2b_0z_N}{v}U^{m+1}\mathcal B.
+}
+\tag{Q.18}
+$$
+低半段由 $g_N=1/4$ 锁定；
+跨中间边界的比值是
+$z_{N+1}/z_N=-4/(3v^2)$，
+与 $t_0=-2/(3b_0v)$ 给出的上半段首项完全相符。
+其余项按 (Q.16) 和原 $t_j$ 递推逐项吻合。
+特别，两半的非零 $\mathscr L$ 像互相抵消；
+不能各自称为零模。
+
+最后，原对称核在 $Q,-Q$ 的读取为
+$C_{\rm rel}(J_\pm\omega)=U'\omega'$。
+提出 $\ell_\pm^p$ 时，目标系数分别是
+$(V'\mp v)/U'$，故
+$$
+\boxed{C_{\rm rel}(\mathcal Z\omega)=-2v\,\omega'.}
+\tag{Q.19}
+$$
+此处必须使用相对 Cartier。
+(Q.19) 是完整上下半段之和的读数，不把它的单位性归给其中任一半段。
+
+## 7. 同一低半段的有界原函数与原第四 jet
+
+令
+$$
+l=m+1=3k,\qquad R_0=\frac{g}{U^l},\qquad K=U D R_0,
+\qquad F_Q=\left(\frac{V+v}{V-v}\right)^k.
+$$
+$\mathcal Z/U^l=\ell_+^pF_Q^{-1}-\ell_-^pF_Q$，
+而原 $C_{\rm rel}(F_Q^{\pm1}\omega)=0$。
+把 (Q.18) 除以 $U^l$ 后取相对 Cartier，得到
+$$
+\boxed{
+C_{\rm rel}(R_0\omega)
+=-\frac{b_0\alpha}{2v}\omega'
+=\frac{\rho e}{v\delta}\omega'.
+}
+\tag{Q.20}
+$$
+这里 $R_0$ 的有限极点恰限制在 $Q,-Q$；
+它不是以未指定的第三类微分替代原低半段。
+
+更明确地，置
+$$
+\begin{aligned}
+\mathcal V&=\operatorname{span}
+ \{U^{-3k+1+3j}:0\le j\le k-1\},\\
+\mathcal U&=\operatorname{span}
+ \{VU^{-3k+2+3j}:0\le j\le k-2\}.
+\end{aligned}
+$$
+$\mathcal V\omega$ 在 $Q,-Q$ 的极阶均小于 $p$，
+每个 Laurent 指数皆不产生留数，故其 Cartier 输出全纯。
+由
+$D(V/U)=U-2v^2/U^2$，
+$$
+C_{\rm rel}(U^{-2}\omega)
+=-\frac{\delta}{2v^2}\omega'\ne0.
+$$
+所以 $C_{\rm rel}|_{\mathcal V\omega}$ 的核维数恰为 $k-1$。
+另一方面
+$$
+D(VU^a)=(2a+3)U^{a+2}+2av^2U^{a-1}
+$$
+把 $\mathcal U$ 映入 $\mathcal V$，其最底三角系数 $2av^2$ 全为单位，
+故该映射单射、像恰为上述 Cartier 核。
+因此
+$$
+\boxed{
+e=0\quad\Longleftrightarrow\quad
+\exists!\ H_0\in
+VU^{-3k+2}\Bbbk[U^3]_{\le k-2},\qquad DH_0=R_0.
+}
+$$
+在 $O$，$g_N=1/4$ 给 $R_0=\tau^4/4+O(\tau^{10})$，
+而该空间中没有常数，故
+$$
+H_0=\frac{\tau^5}{20}+O(\tau^{11}).
+\tag{Q.21}
+$$
+这是具体有限空间的有界原函数结论，没有使用
+“pole $<p$ 的 exact differential 总能低阶积分”这一不成立的一般命题。
+
+对 $\mathscr Lg=U^m$ 作同一实际 gauge $g=U^lR_0$，
+使用 $2l=1$，得到
+$$
+D^2R_0+\frac{2V}{U}DR_0-\frac{v^2}{U^2}R_0=\frac1U,
+\qquad
+\boxed{DK=1+\frac{v^2}{U}R_0.}
+\tag{Q.22}
+$$
+为读取原 $K_4$，使用算子 $\mathscr S=UD-V$。
+它满足 $\mathscr S J_+=vJ_+$、$\mathscr S J_-=-vJ_-$，
+以及
+$\mathscr S(U^l\mathcal B)=vU^l\mathcal A$。
+故 (Q.18) 给
+$$
+U^{-l}\mathscr S\mathcal Z=4z_NK+2b_0z_N\mathcal A.
+$$
+原四阶 kernel 的第三层准确为
+$$
+C_{\rm rel}(\Psi^3F_Q\omega)=3U'e\,\omega',
+\qquad
+C_{\rm rel}(\Psi^3F_Q^{-1}\omega)=-3U'e\,\omega'.
+$$
+第二式也直接由 $[-1]$ 的奇偶性得到。
+于是提出两个 $\ell_\pm^p$ 后，
+$$
+C_{\rm rel}(\Psi^3U^{-l}\mathscr S\mathcal Z\,\omega)
+=6v^2e\,\omega'.
+$$
+结合 (Q.4)，最终有
+$$
+\boxed{
+\frac{C_{\rm rel}(\Psi^3K\omega)}{\omega'}
+=\frac{3v^2e}{2z_N}-\frac{b_0}{2}\mathfrak a_3.
+}
+$$
+特别
+$$
+\boxed{
+e=0\quad\Longrightarrow\quad
+C_{\rm rel}(\Psi^3K\omega)=-\rho\delta K_4\,\omega'.
+}
+\tag{Q.23}
+$$
+全纯性来自显示的完整函数恒等式。
+$\mathscr S$ 的各个有理因子或高插入并未被误当作
+R1113 原有限空间的自同态。
+
+(Q.20)–(Q.23) 把两项障碍留在同一个低半段：
+第一项检测 $R_0$ 的有界 primitive，
+第二项是 $K=UDR_0$ 的第三次 $\Psi$ 插入。
+(Q.19)、(Q.21) 的单位首项及 (Q.14) 的下一强迫列仍不足以排除两项同时为零；
+原 $e,K_4$ 非同时消失的结论继续开放。
+
+**新增审阅。** o2_high_coefficient 独立纸核新链的关键式，包括相对
+$-2v$、完整上下半段、$C(R_0\omega)$、
+有界 primitive 空间及 $\Psi^3K$ 的全部尺度与相位。
+本节未执行数学程序，未增加有限素数窗口。
