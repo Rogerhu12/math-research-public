@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **c97e5a5baf48b10277f987373fe635185a855c9f**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **887df1e07dcb058fb749d63bb96c764cbad414f0**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -21,13 +21,13 @@
 真实q **6e91b58d61b2535ea4e262950d2177310a53ceb7fc50e87869d38e639949a334**，同p.181/0d材料；16290×3072 η3.3050334486861566e−5，physical0/working1.192e−10<原1e−8门。末raw5cf6及半步a938因原行/fine几何失败已拒，不换名重放。
 385coarse+5pending→390，保全部fine并新加6中点成为16296，须本身资格；[实际续接](notes/2026-11-28-r582-6e91-original390-continuation.md)已发布，trust2/metric，阶段约2.5e−7及p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
 
-## B：R618同固定E在算，后接硬trace
+## B：R618同固定E自然终态／改造真实mean联立图
 
-[split原终态](notes/2026-11-28-r618-split-first-complete-state-terminal.md)保5400.058385949001秒/response19519575…及1微小接受、2J、3拒绝+1未闭；无fine/direct。原reference比例2.6025e34压步至3.8424e−36，无attainer，原因未全归舍入。
+[前split原费用](notes/2026-11-28-r618-split-first-complete-state-terminal.md)继续保留。[背景消去自然终态](notes/2026-11-28-r618-centered-complete-state-natural-terminal.md)run46117718197/job140895158286/source19de4da3于08:11:30结束，新增5400.048500946秒；0接受、1全1473列J/1472自由列QR、2方向/14真实拒绝。保原response19519575…和固定target86da8c60…/H.5188903877153482/amp1e−5/τ1。
 
-[等价零背景消去](notes/2026-11-28-r618-centered-actual-response-scope.md)实际run **46117718197** / job140895158286/source19de4da3，06:40:49启动。保target86da8c60…/H.5188903877153482/amp1e−5/τ1，同E、1473/1472列、121600行、950work/1728fine及旧费用；先准确消零背景后除极小W，完整离解链和真实符号根保留。自然终态到达后消费，不造accepted。
+真实阻点r=.22666666666666668，W9.3869e−40、δs−7.9225e−7，λ图比例4.22e33压步至2.3697e−35；另一点同病态。原1728×512同态fineηobs2.216608e−7，实际Y双stencil仅15/16块，不能登记完整读出。R643正改用真实mean高度/斜率与未除均值系数的联立转角/位置方程，保同E/真帽/全角；不再把已定位问题仅归背景消减。
 
-R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬trace及模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)和[连续Pμ](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)保1449列/从属A/B/原τ1嵌回；新μ未执行、同E可达性欠，.85/R579仅条件预算。
+R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬trace及模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)和[连续Pμ](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)保原列/从属核心迹；同E可达性欠，.85/R579仅条件预算。
 
 ## C：B030真实6482继续metric
 
