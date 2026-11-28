@@ -560,3 +560,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §110：原第二分离槽的固定通用扩张除幂迹
 
 已证明：原B′₂完整Cartier行等于固定E₁通用向量扩张上Θ(F₂)的全标记迹；ΘZ=−x^p为整曲线恒等，原ν₀₁标记项逐点精确抵消，全部带分母补偿和Frobenius根保留。尚未付该迹跨p非零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §111：同两个固定Kronecker函数的三条完整除幂迹
+
+已证明：原B′p+1、B′2p+1、B′₃分别精确等于F₂/F₃在同一固定通用扩张上的Ξ、Ξ²、Ξ²D^(p−1)全标记迹；阶乘模p³补偿和原ν₀₂逐点项全部支付，未把四条相关行当独立不消失。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。

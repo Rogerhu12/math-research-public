@@ -1624,3 +1624,153 @@ $$
 对其作用$\Theta$并在$e$评价。$Z$、$F_2$本身可能在$O$图有极，但全部$\tau_t^*Z$、$\tau_t^*F_2$在$e$正则。由(BZ3)，第二和准确为$-2\sum w_tX_tx(P_t)^p$，与(BZ2)的原$\nu_{01}$标记项抵消，留下(BZ1)。全和对$\widetilde c$的选择独立。
 
 这是原第二分离槽在固定全域几何上的严格识别，尚未证明它在任何给定或无限多个素数非零；也不能用一次$p$曲率的逐点挠性消失代替这个除幂迹。
+
+## 111. 同两个固定Kronecker函数的三条完整原迹
+
+**已证明。** 沿(BD1)、(BF2)、§§106、110的原曲线$E_1$、$P_t=-T_t$、$W_t=X(P_t)$及规范挠抬升$\widetilde P_t\in E_1^\natural$。以$\tau_t(X)=X-\widetilde P_t$记平移，写$\mathcal D=D_E-xJ$、$J=\partial_Z$；二者交换，$\mathcal D$为特征零真实水平不变导子，$Z$为实际第二类准对数坐标。$\mu\in\mathbf Z_p^\times$取(BF1)的全盘值，$c=\operatorname{red}\mu=DG$。置
+$$
+ U_j=\frac{(jp-1)!}{p^{j-1}}\quad(1\le j\le3),\qquad
+ C=-\mu U_1,\qquad
+ \Xi=\frac{\mathcal D^p+CJ}{p}.
+$$
+特征$p$中$\mathcal D^p=-cJ$，故$\Xi$保持所用整局部环上的整函数，也在同时定义全部原平移的未分歧扩张上保持整；它与$\mathcal D,J$及这些平移交换。令
+$$
+ F_2=Z^2-x,\qquad F_3=Z^3-3xZ-2y.
+$$
+三个完整原槽准确为下列整表达的约化：
+$$
+ \boxed{\begin{aligned}
+ B'_{p+1}
+  &=-\frac1{2\mu U_1}
+       \sum_t\varepsilon(t)(\Xi F_2)(-\widetilde P_t),\\
+ B'_{2p+1}
+  &=\frac1{6\mu^2U_2}
+       \sum_t\varepsilon(t)(\Xi^2F_3)(-\widetilde P_t),\\
+ (B'_3)^p
+  &=\frac1{3\mu^2U_3}
+       \sum_t\overline{\varepsilon(t)}
+          (\Xi^2\mathcal D^{p-1}F_3)(-\widetilde P_t).
+ \end{aligned}}                                                \tag{CA1}
+$$
+第三行仅对完整原和作一次$p$次幂。与§110的$B'_2$同读，四条均在同一个固定通用向量扩张上；并不声称四行彼此独立或已跨素数非零。
+
+### 111.1 原斜率的二、三次加法
+
+置$Z'=\tau_t^*Z$、$x'=\tau_t^*x$、$y'=\tau_t^*y$、$k=Z-Z'$、$a=x(P_t)$、$b=y(P_t)$。实际斜率$L=k-W_t$满足
+$$
+ L^2=x+x'+a,\qquad L(x'-x)=y+y',\qquad L(x'-a)=y'-b.
+$$
+于是
+$$
+ 2(Z-W_t)k=Z^2-Z'^2+x+x'+a-W_t^2
+$$
+及
+$$
+ \begin{aligned}
+ 3(Z^2-2W_tZ)k={}&Z^3+3Z(x+a-W_t^2)-3W_t(x+a)\\
+                  &+y-b+2W_t^3-3W_t^2k-\tau_t^*F_3.
+ \end{aligned}
+$$
+第二式由$Z^3-Z'^3=3Z^2k-3Zk^2+k^3$及上述斜率式展开。
+
+令$\chi=\varepsilon$或$\overline\varepsilon$。六次单位旋转使$\sum\chi$、$\sum\chi a$、$\sum\chi W^2$、$\sum\chi Wa$、$\sum\chi b$、$\sum\chi W^3$全部为零。$\sum\overline\varepsilon W=0$也由旋转得到；$\sum\varepsilon W=0$则是原中心$L$值的真实消失。故有精确有理函数恒等
+$$
+ \begin{aligned}
+ \sum_t\chi(t)(Z-W_t)k_t
+   &=-\frac12\sum_t\chi(t)\tau_t^*F_2,\\
+ -\sum_t\chi(t)(Z-W_t)^2k_t
+   &=\frac13\sum_t\chi(t)\tau_t^*F_3,\\
+ -\sum_t\chi(t)(Z^2-2W_tZ)k_t
+   &=\frac13\sum_t\chi(t)\tau_t^*F_3
+       -\sum_t\chi(t)W_t^2\tau_t^*Z.
+ \end{aligned}                                                \tag{CA2}
+$$
+
+### 111.2 两条$\varepsilon$迹及阶乘补偿
+
+在原实际$z=\ell(s)$中$z=s+O(s^q)$。到这里的$3p$窗，BF2中形式$H_0$的整提升是$\mu^{-1}Z(z)-z^p/p$。$k_t=\kappa_{P_t}/\omega$与垂直坐标无关，故$Jk_t=0$。令
+$$
+ \phi_i=-\mu^{-i}\sum_t\varepsilon(t)W_t^ik_t.
+$$
+其约化给$\nu_{i0}/\omega$。由$(p+1)(q-1)+1=p^2(p+1)-p$及§88的两次Cartier，
+$$
+ B'_{p+1}=R_{p+1}(\nu_{10}-H_0\nu).
+$$
+置$A=\mu\phi_1-Z\phi_0$，此行是
+$$
+ \mu^{-1}[z^p]\exp(-\mu z^pJ/p)\,A(\exp(z\mathcal D))
+$$
+的约化。指数仅指有限垂直Taylor展开。系数恰为$\Xi A(e)/(\mu U_1)$，因为$C=-\mu U_1$将$JA/p$的系数精确消去。用(CA2)第一式即得(CA1)第一行。
+
+同理，
+$$
+ B'_{2p+1}=R_{2p+1}
+       (\nu_{20}-2H_0\nu_{10}+H_0^2\nu).
+$$
+此时取$A=\mu^2\phi_2-2\mu Z\phi_1+Z^2\phi_0$，目标为
+$$
+ \mu^{-2}[z^{2p}]\exp(-\mu z^pJ/p)\,A(\exp(z\mathcal D)).
+$$
+置$C_2=-\mu U_2/U_1$、$\Xi_2=(\mathcal D^p+C_2J)/p$。将$\mathcal D^p=p\Xi_2-C_2J$代入
+$$
+ \frac{\mathcal D^{2p}A}{(2p)!}
+ -\frac{\mu J\mathcal D^pA}{p\,p!}
+ +\frac{\mu^2J^2A}{2p^2}.
+$$
+$\Xi_2JA/p$项准确抵消；统一分母后$J^2A/p^2$的剩余系数为$\mu^2(1-U_2/U_1^2)/2$。对$a=1,2$，
+$$
+ \prod_{i=1}^{p-1}(1+ap/i)\equiv1\pmod{p^3}.
+$$
+确实，$\sum1/i\equiv0\bmod p^2$由$i,p-i$配对及$\sum1/i^2=0\bmod p$得到，二阶对称和也模$p$为零。因此
+$$
+ U_2\equiv U_1^2,\qquad U_3\equiv2U_1^3\pmod{p^3}.
+$$
+剩余项约化为零，$\Xi_2-\Xi\in p^2\operatorname{End}$，所以目标约化为$\Xi^2A/(2\mu^2U_2)$。用(CA2)第二式得(CA1)第二行。
+
+### 111.3 第三槽的原$M_2$补偿逐点还原
+
+令$f_j=-\mu^{-j}\sum_t\overline{\varepsilon(t)}W_t^jk_t$，其约化是$\nu_j/\omega$。原六次权给$f_0,f_1$在$O$分别至少四、三阶，故$Z^2f_0$、$Zf_1$在$e$正则。置
+$$
+ C_3=-\frac{\mu U_3}{2U_2},\qquad
+ \Xi_3=\frac{\mathcal D^p+C_3J}{p};
+$$
+仍有$\Xi_3\equiv\Xi\bmod p^2$。保留BF2的全部平方与交项，得到
+$$
+ \begin{aligned}
+ &\bigl(R_3C(H_0^2\nu_0)-2R_3C(H_0\nu_1)\bigr)^p\\
+ &\hspace{8mm}=
+ \frac{\Xi_3^2\mathcal D^{p-1}
+            (Z^2f_0-2\mu Zf_1)(e)}{\mu^2U_3}\pmod p.
+ \end{aligned}                                                \tag{CA3}
+$$
+逐项精度如下。在$[z^{3p-1}](\mu^{-1}Z-z^p/p)^2f_0$中，用
+$\mathcal D^{3p-1}=(p\Xi_3-C_3J)^2\mathcal D^{p-1}$、
+$\mathcal D^{2p-1}=(p\Xi_3-C_3J)\mathcal D^{p-1}$。则
+$\Xi_3\mathcal D^{p-1}(Zf_0)/p$的系数
+$$
+ -\frac{4C_3}{\mu^2U_3}-\frac2{\mu U_2}=0,
+$$
+而$\mathcal D^{p-1}f_0/p^2$的系数
+$1/U_1-U_3/(2U_2^2)\equiv0\bmod p^3$。线性项
+$-2(\mu^{-1}Z-z^p/p)f_1$中，
+$\Xi_3\mathcal D^{p-1}f_1/p$的系数为
+$$
+ \frac{4C_3}{\mu U_3}+\frac2{U_2}=0.
+$$
+这支付(CA3)每一项的精度，而非分别对带分母项取模。
+
+还需整曲线恒等
+$$
+ \Xi_3^2\mathcal D^{p-1}Z
+ =-\frac{D_E^{3p-2}x}{p^2}
+ =-U_3y^p\pmod p.
+$$
+前一函数的导数为零：$D_E^p/p$保持整，而$D_E^{p-1}x\equiv c$为常数。它只有$O$处极、阶至多$3p$，且为奇函数，因此$p$次根只能为$y$的常数倍。首项为$U_3z^{-3p}$，$y\sim-z^{-3}$，即得后一等式。它在$-\widetilde P_t$的值为$U_3y(P_t)^p$。
+
+原$\nu_{02}$与$k_t$的$s^2$系数$-y(P_t)$给
+$$
+ (R_3\nu_{02})^p
+    =c^{-2}\sum_t\overline{\varepsilon(t)}W_t^2y(P_t)^p.
+$$
+这准确抵消(CA2)第三式中的
+$-\sum\overline\varepsilon W_t^2\tau_t^*Z$经(CA3)产生的全部贡献，余下(CA1)第三行。未把任何原驯积分、单个标记或矩单独设为零。该全迹识别仍未支付无穷素数的不消失。
