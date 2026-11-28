@@ -90,3 +90,9 @@
 - 新Phi纯纸面10/9推论独立刊：CI第三mean r非零，socle配对杀degree4且rA1≠0；固定15目标全环Nakayama→10指定生成，总次过滤/associated graded→每权长度≤9。根将k范围明确为任意素理想剩余域，无新单位或执行。
 - b0ef31唯一run46158891405/job141021539125实际14.598634407秒81096KiB/0；37记录全读，F提Qs⁴(-L)^15，G提s⁸δ^48KwMn⁸(2L−Q)^4，商支持共同gcd双次≤5/51。stdout SHA52db2329234169c3d75c67ea6c2bc34dc4df2ae01e2759b8036c22ebe9838357；余曲线保，正式稿在写。
 - 新HK e9bd30/25d3ea3e首次180秒4GiB/外195，完整NV和Loww原两源范数；tv−1原身份与三次几何式把P·t³接回纯权P。新增题外workflow invariant-subspace-8542-hk-nv-loww-inverse-t-norm.yml仅派本题新输入；不重旧E1/Loww、EBo/Loww或individual值门。
+
+2026-11-28 23:32 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 1970实际main 2c12a08a06949ed99cb68ac4560efa6008145743，run46159562532/job141023592302成功；15:23:08 UTC真实pull两README无变，私库15:23:07/ac231f1fc05ed4a813f2fba7af825ddb0ae2658c的QUEUE核进行中。
+- Phi QQ精除终稿/小回执现刊，driver与两轴实际字段一致；全I6 10/9不改环，商两支持gcd≤5/51不代曲线有无。新W b33c1/54e04e96完整I6+q2最低项首次180秒4GiB/外195，7原Laurent逐项返回，所有t估值/t0覆盖；新题外workflow invariant-subspace-8542-w-full-i6-negative-e-initial.yml。
+- HK e9bd实际run46159596374/job141023709190在2.457205909秒/61528KiB exit1，原因仅pp把flint fmpz指数直接JSON序列化；原同t/逆t0.09585 checkpoint已返，Norm profile和最终清分母原两源尾未完成。只修int输出继续原预算，保旧失败，不伪称新数学输入或已得权曲线。
+- 15:28:39 UTC只读目录元数据：10805 blobs/136449920字节，无MD≥100KB，tree398db826d1c91eb4c8a098bb33ca7eec527be026，16:28再查。手册不加审核门，普通ISP及真原其余支继续。
