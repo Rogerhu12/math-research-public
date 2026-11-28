@@ -156,3 +156,6 @@ GDM：原V/SV全15whole资格；N=I−uvᵀ/n²、真实分母保，L=N⁻¹C全
 
 
 GRT：以完整MF⁻¹MG而非仅Airy根迹作角依赖Lcal；同真D0/J/独立zero-root mean两状态差严格零，δh*=0只对同whole trial。n⁸ᐟ³(Lcal−L)保完整signed两矩阵/真实J0；19whole首次全角Wiener/复频square+23原cells导数0..4首发，真实有向门待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ29：原SP完整正变差加q0/qc精确log恒等式给真reverse<3.24；整mixed两mean传播→腰<40.72/joint<82.4。前J物理输出分频获high≤.126‖Lg‖H⁻²ᐟ³+80.58‖Ug‖H⁻⁵ᐟ³；每次完整传播/角变换/mean均保。GIC∞natural<.0146/common<.182/ASQhigh<.015；GLW全finite Ai<237/两列<454仍未闭，6whole20新比较只执行一次。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
