@@ -1,0 +1,90 @@
+{
+  "schema": "visible-larger-run36-actual-finite-amplitude-disk-shoulder-v1",
+  "run": "46141466656",
+  "attempt": "1",
+  "source_commit": "d88ba0149eba5abf6fc0e4ef73e0f361deaafa8a",
+  "initial_readme_checked_commit": "747db589445df45bde9c15c47a4bd45c2815653f",
+  "command_identity_sha256": "07944b88f2083785434b1550ed588cbe24274bb73ae52b3de28ef25f7b21883e",
+  "request": {
+    "path": "topics/visible-flex-larger-amplitude/computations/run36-bent-disk-shoulder-request.json",
+    "bytes": 6554,
+    "sha256": "3132eaf7a91a9e1beba361db651f42d0ebc06512f1a8c8aea04de089be9a5495"
+  },
+  "scientific_inputs": {
+    "script": {
+      "role": "complete Run36 scientific script",
+      "name": "bent_disk_shoulder.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "bytes": 26446,
+      "sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+      "git_blob_sha": "f82379725c30442dd0f1a1a490ffe4cf0d166cca"
+    },
+    "parameters": {
+      "role": "complete Run36 scientific parameters",
+      "name": "bent-disk-shoulder-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "bytes": 2949,
+      "sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
+      "git_blob_sha": "90138722d9b9125e50d0f560a971c4c00359adb9"
+    }
+  },
+  "actual_frozen_inputs": {
+    "script": {
+      "original_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "git_blob_sha": "f82379725c30442dd0f1a1a490ffe4cf0d166cca",
+      "path": "/home/runner/work/_temp/run36-bent-disk-46141466656-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "bytes": 26446,
+      "sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e"
+    },
+    "parameters": {
+      "original_path": "topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "git_blob_sha": "90138722d9b9125e50d0f560a971c4c00359adb9",
+      "path": "/home/runner/work/_temp/run36-bent-disk-46141466656-1/source/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "bytes": 2949,
+      "sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372"
+    }
+  },
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/_temp/run36-bent-disk-46141466656-1/source/topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+    "--params",
+    "/home/runner/work/_temp/run36-bent-disk-46141466656-1/source/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+    "--out",
+    "/home/runner/work/_temp/run36-bent-disk-46141466656-1/field"
+  ],
+  "runner_scope": "public ubuntu-latest 4 vCPU 16 GB",
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "machine": "x86_64",
+  "system": "Linux-7.0.0-1018-aws-x86_64-with-glibc2.43",
+  "actual_logical_cpu_count": 4,
+  "actual_cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "setup_python_step": "success",
+  "run_started_utc": "2026-11-28T11:46:55Z",
+  "phase": "installing-declared-numerical-dependencies",
+  "terminal": false,
+  "child_started": false,
+  "child_pid": null,
+  "child_returncode": null,
+  "latest_observed_scalar_line": null,
+  "scientific_summary": null,
+  "whole_runner_field_files": null,
+  "scientific_sampled_success_inferred_by_launcher": false,
+  "exact_metric_or_global_geometry_inferred_by_launcher": false,
+  "dependency_command": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--no-input",
+    "--only-binary=:all:",
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ]
+}
