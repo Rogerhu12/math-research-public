@@ -127,6 +127,8 @@ R724–743全部明确范围与实际失败保[结果索引](results.md)及固�
 [R745](results/R745-equal-polar-meridians-and-full-Jacobi-return-on-a-thick-sphere.md)新等长倾镜闭参考，带标t=0真实子午Jacobi全周期返回；全相位D<3.45/held≥.717/grip≥.75/reach≥.108，0<δE≤.002。三标记已离y=0，完整source现刊；二维同g/圆端Killing与真精化仍未付。
 
 
+[R746](results/R746-circular-grip-periodic-translation-and-physically-free-closed-ends.md)绕y圆握持与全周期平移：D0<3.40、全t reach≥.107/held≥1.521/grip≥1.40，无标记真体积差得0<δE≤.0012。完整柱同g，两端/盖真实可变但命名cap Gram>1e−3；40继续真全t，完整source现刊。
+
 ### 完整准确下游与完成责任
 
 R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。

@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R746（已证明，圆柱握持、全周期平移与真实活动端盖）**：[圆握持及物理自由闭端](results/R746-circular-grip-periodic-translation-and-physically-free-closed-ends.md) — 真实相位0…π/2、D0<3.40、全相位diam<3.403/reach≥.107、整像held≥1.521、固定握持diam≥1.40；整个周期中央柱严格同g，材料生成元为全局常平移，避开平带旋转monodromy。两端和两帽均真实变形，无标记也由严格实体体积差得0<δE≤.0012。原命名cap在一真点已有Gram误差>1e−3，完整端g三行未付；三物理自由接口可动全端与接缝，40继续真全t求解。
+
 - **R745（已证明，等长极子午与完整横向Jacobi返回）**：[厚闭球的真等长倾镜与物理Jacobi走廊](results/R745-equal-polar-meridians-and-full-Jacobi-return-on-a-thick-sphere.md) — 真平滑转角方程在γ∈(.47,.50)有唯一根；完整厚闭参考全相位D<3.45、held≥.717、单一固定上握持diam≥.75、reach≥.108，0<δE≤.002。贯穿|y|<1的真实曲率修正精确给带标t=0参考的同长极子午与整个4ℓ周期横Jacobi值/导数，三固定标记支撑严格离开该测地线。过渡环和完整端/盖的二维同g、Killing与真精化仍待解，不能用一维返回冒完整柔性族。
 
 - **R744（已证明，完整厚闭参考及真实曲率修正）**：[完整挤出闭球、全像法管与曲率缺口](results/R744-closed-extruded-bent-disk-global-reach-and-curvature-gap.md) — 全相位闭C²嵌入、D<3.40、held≥.719、grip>.689、δE>0、全有序对reach≥.108；两真弯盘、完整端环/盖与精确支撑/主曲率给全局法管。真实有限法图引入内禀曲率且保全部几何界，但仍留贯穿平周期带，不能延拓握盘旋转Killing；左/右子午长也不匹配。只作已付全几何的实际初场，过渡环全同g未付。
