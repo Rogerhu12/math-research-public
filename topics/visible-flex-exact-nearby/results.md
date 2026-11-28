@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ABNC：真正target-normalized strictν的实际完整列](results/R147-supplement-actual-complete-target-normalized-strict-nu-column.md)：run46117248905/1全7目标/192observations成功，全部96 exact rational centres+whole joint error<.001383111；五整费、真phase、两mean保。原238输入/validator准入；actual70893B/2df0e900…、execution36848B/081c3c4b…。必要旧carrier恢复1次、旧科学0；该列是E96^{a*}B⁻¹Fν，不能补零称完整Θν，也不授fullSchur。
+
 - [H96：原始全96 trial的完整高度行](results/R149-supplement-complete-height-row-on-original-finite-trials.md)：精确SO3先化简，原RHI全格/实Nyquist的unrestricted C0误差完整支付；保waist Jacobian变化、两个means、实际cap q/f锚和独立world ports。原全TC septic径向moments精确配对，AP96只在完整height后消元。9新有理比较一次过；全7新数值首入口114current/51history、61916B/0bf3e4ab…，尚无actual成功，未授truePDE/fullSchur。[执行入口](notes/2026-11-28-H96-complete-height-row-public-entry.md)。
 
 - [WMT：原全Θ的weighted model接收](results/R149-supplement-complete-weighted-model-Theta-receiver.md)：全H1 density inverse bootstrap与H2 row误差、原model1..2^20完整head及无限tail，保原global850候选；14新目标首次入口139current/6history、manifest45728B/4913fe4c…。旧IR/UACT/AS/Cayley/BFP目标不重，low96不冒全空间；actual尚待。[执行入口](notes/2026-11-28-WMT14-first-public-entry.md)。

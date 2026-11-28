@@ -163,3 +163,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 WMT14完整新公式与实际入口已齐，原global850完整候选保、14新目标待run；BNC46117248905全7成、全96 target coordinates联合误差<.001383111，但不是完整Θ列，双mean与未付full512/infinite/coupling保。原SC/JF接受TP同schema全58/224/32之后仍须TC all7724。
 
 H96已完成原TC96 whole-height与消高phase的公式/完整公开入口（114/51、7新目标），九新有理比较一次全过。全RHI/TC carrier恢复只核旧whole SHA，新积分只在Actions；未知angular error用2/5。actual待run，truePDE修正、全physical高列及means/world ports未删；成功后可消费完整canonical/G/H按更强已证actual-anchor界重组合，不能重积分。
+
+ABNC已完整登记BNC46117248905/1全7；exact96 centres与单一joint radius是更强对象，显示零中心Arb球不能抹去signed中心。whole Θ/fullforward与两mean/phase/height/regular补偿仍待。

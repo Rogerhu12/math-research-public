@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 07:52:23 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 07:55:00 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至bac04724add48148fe74c389830f36c2fcd99e8e；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至d2aef4fd745c2136aa66ce7cd116dc0365542c61（07:28确认pull已完成且README无差异），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至f5d7e262d1147308ad4594a80a2259778f101ce9；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至d2aef4fd745c2136aa66ce7cd116dc0365542c61（07:28确认pull已完成且README无差异），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META9新增128件无引用旧JSON仅去字符串外ASCII空白；whole receipt notes/2026-11-28-legacy-native-metadata-whitespace-ninth.json，69521B/97dacd0d…；gross838380B/net768859B，原件7588478671c1f733a31225fce654008d3c5b5a75完整保留、科学0。每次pull重核新引用。META1–8全部账保此前H和原receipt；第8批842c46826净753508B不重做。
 
@@ -19,7 +19,7 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 ## 实际入口和终态
 
 - **TC2677** run46117170011/1（06:33:36）：只续原45928452441的2677/7724完整cells、连续1605及3游标后剩5047；原四whole数组/96列/真根/腰不变。manifest99630B/6b82d091…（184/32），notes/2026-11-28-TC-complete2677-union-continuation.md。当前残差仍在算，已有partial不冒完成。
-- **BNC全7成** run46117248905/1：192整observations、96exact signed rationals/联合误差<.001383111、两mean全保；actual70893B/2df0e900…、execution36848B/081c3c4b…，全238输入/validator通过。一次necessary carrier恢复，old科学0；旧45941963989零目标失败保。它是E96^{a*}B⁻¹Fν，禁止补零冒全Θ。
+- **BNC全7成** run46117248905/1：192整observations、96exact signed rationals/联合误差<.001383111、两mean全保；actual70893B/2df0e900…、execution36848B/081c3c4b…，全238输入/validator通过。一次necessary carrier恢复，old科学0；旧45941963989零目标失败保。它是E96^{a*}B⁻¹Fν，禁止补零冒全Θ；完整应用见R147 ABNC。
 - **BGR3** run46117818798/1（06:42:04）：新9216signed Gram/new∞product/整rowerror。manifest75836B/0205e488…（185/51），notes/2026-11-28-BGR-first-actual-entry.md；旧DWTB/BNC不重。BNC后置必须全96centres+四旧整费+means原样消费。
 - **BFP19** run46118996598/1（06:57:53），bec2ddc1b；manifest96504B/363c2116…（250/53）。全512forward/2560image/8192pullback/原96×2240Θsigned列，truea/means/PDE/flow/w/alias/globalΘ全保，notes/2026-11-28-full-target-nu-forward-first-entry.md。尚未全成。
 - **TF真low193** run46120139018/1（07:12:43），197b81253；manifest68583B/9bee97cd…（86/21+12bound sources）。1424真格/4273实际97/96枢轴+四完整source与193atoms；仅失败当前格4→64细分。完整η/repair/mean/真根/dr保；非fullDF/CFB/high逆。
