@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R287：真实全 p32 H65 前缀与连续 coast 截取族](results/R287-actual-full-gap-stadium-H65-prefix-and-continuous-truncations.md)（已证明；全原生64径格及准确Γ95，原长reach≥.108，.02至.06全截取同时≥.098，谱误差<3.401003e−7）。
+
 - [R290：两个真实释放平领场的严格非局部厚度障碍](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)（已证明；完整原系数两点法球反例给 reach/D<73/2800 与<1/40；必须改变两层真实位置，帽扩展和保像重参数不能修复）。
 
 - [R289：准确无穷尾和低宽帽材料图的两个强形变比例](results/R289-two-strong-shape-ratios-for-the-true-infinite-low-cuff-core.md)（2026-11-28）：完整帽与全核给握持比 ≥.203125、无标签刚体商差比 ≥.05073291；强固定度量精度、嵌入及厚度待解。

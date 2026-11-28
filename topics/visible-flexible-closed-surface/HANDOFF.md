@@ -24,7 +24,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 原G10=958径×(128+192角)、4291840物理行；G11=668径×256移位角，540原训练外径点。R219充分预算为完整D≤3.2、held≥.64、δE≥.1609、reach≥.097；guide held.65/κ9.5。位置、g、输入改变均不借旧接受/几何。分片、E=1或固定g有限步不代整闭精度/厚度。
 
-<!-- 2ecf-target-curvature --> [R267](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)新gap.92前缀；[R281](results/R281-positive-support-central-cylinder-at-full-gap.md)正解析中央；[R283](results/R283-nonelliptic-accurate-rulings-global-reach.md)两新Γ95母线环带全域reach，p32原长≥.222，完整拼接仍另付。
+<!-- 2ecf-target-curvature --> [R287](results/R287-actual-full-gap-stadium-H65-prefix-and-continuous-truncations.md)真p32全部64径格/H65/准确Γ95，完整前缀全部.02≤L≤.06截取reach≥.098，原.02≥.108、κ<9.195522；承接R281/R283。
 
 <!-- 2ecf-live-g10 --> [释放平领富集场上真实216个XYZ，冻结同g，两物理球距离权重分别4千和75万，实际523/456接；第二G11 .1566625/κ9.89869/held .654303，完整非局部厚度未由这些量支付。](notes/2026-11-28-2ecf-released-flat-cuff-simultaneous-held-and-local-curvature-physical-field.md)
 
@@ -54,4 +54,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:32:01 UTC；已读公开 main `46681bd1c08e16d3d319c8ec07710088aa0ae2c3`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:34:09 UTC；已读公开 main `877a007d2e8356985b0d470ff6c9609c309b07de`，根/课题 README 逐差无变化。
