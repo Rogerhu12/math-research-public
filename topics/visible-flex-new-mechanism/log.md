@@ -219,3 +219,9 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 ## 2026-11-28 19:33:09 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R760真三矩全场首单
 
 **R760 真三矩/完整两边场首单已装订。** [同原R750固定g的423/1752全列](notes/2026-11-28-r760-first-true-three-period-full-two-edge-field.md)；真全子午/逐角三矩及p_sigma独立持久，16真实窄肩两网补全，原Gauss行减旧加新与全部TSQR精确采用。原9步/17J/536核/27470位移/459位置J不重；首1200秒，科学前全SHA预接原7.115GB ZIP。端三位移通过不授curl零/全族。
+
+## 2026-11-28 19:41:24 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R762真实简单零圈的限定与新固定材料
+
+**R762 真简单零圈的两项限定已登记。** [非零epsilon圈排原轴源的近零C²分支；乘w²修复触发R731](notes/2026-11-28-r762-simple-zero-material-period-and-analytic-collapse.md)。原固定theta有限姿未被第一项排除，保持open；全部六jet转移/50→108→190求解尚未运行。R764另取明确新正坡g消去简单零，所有改变量另付，几何seed路径不冒同g族。
+
+R761末段原费用用语定点更正为wall880.705914869秒和原累计science ledger880.702879215秒，数值与原已付对象未变。
