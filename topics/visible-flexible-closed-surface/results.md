@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R267：新 gap .92 真实整前缀度量与全部近点](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)（2026-11-28）：全部64物理格/真端口/上下闭环带，相对度量<5e−10、曲率<7.6、含边界reach≥5/38；新后缀点对另付。
+
 - [R269：HF64 实际圈的九点有理相似变换障碍](results/R269-actual-ringwise-similarity-and-angular-clock-obstruction.md)（2026-11-28）：8列秩8、增广秩9；任意逐圈相似/角重参的必要微分残差≥1.7718527881，未称C⁰度量下界。
 
 - [R268：完整物理材料时钟成本的严格凸性](results/R268-strictly-convex-physical-meridian-clock.md)（2026-11-28）：保真实 ds 权、14行、全部 quartic cross 与面积障碍；新总长度输入及固定新 g 的三步已实际完成。
