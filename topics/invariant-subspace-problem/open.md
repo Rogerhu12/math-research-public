@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-tzero-V2zero-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-double-flat-two-torus-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar全旗/有限头图/同P最大根及真核心/P⁺紧支配保正文。[逆费](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)为r^(4+o1)且逐平坦p超r⁴；[同P幂费](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)双log/n^1.5→log16/48，未知Q仅上界。[正P联合场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)全旗quasi/真核心/忠实，P超越旧场且联合场无根。[新双平坦Q](results/R267-appendix-same-flat-denominator-all-inverse-powers-and-double-flat-source.md)由原收缩强积给全部C^-aP^-bQ、全旗强单位和同源双逆卷积；F_P真含于F_C，Q幂双log/n^1.5→∞。真实目标B_(zF²−1)=0未解，未称新类忠实或根已成。[正序comm零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)不外推无格商；旧AT/AM门不重开。
+原Haar全旗/有限头图/同P最大根保正文。[逆费](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)r^(4+o1)且逐平坦p超r⁴；[同P幂费](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)双log/n^1.5→log16/48。[正P联合场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)全旗quasi/忠实且无根。[双平坦Q](results/R267-appendix-same-flat-denominator-all-inverse-powers-and-double-flat-source.md)保全C^-aP^-b来源/全旗强单位。[真实T²及负P忠实](results/R267-appendix-double-flat-two-torus-and-negative-inverse-source-faithfulness.md)由完整高块相位与carry费用给P/Q独立相位，Q在旧C*来源上无非零有界分式；整双逆类全H忠实，B_(zF²−1)=0无解。未知旗不保规范酉，整和quasi仍未付；续任意场外复Y²=CQ²及其他真源。[正序comm零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)不外推无格商，旧AT/AM门冻。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
