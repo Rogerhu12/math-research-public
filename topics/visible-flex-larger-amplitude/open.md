@@ -134,6 +134,8 @@ R746–750完整条件/源/数值保[索引](results.md)、各完整proof/note�
 
 [R753中央与双帽自由](results/R753-spatial-rectifying-cylinder-and-independent-ruled-cap-fans.md)：真空间rectifying柱与两独立直纹fan帽各自完整精确同R752初g，四缝C²明确；全|a|≤2⁻²¹另付所有中央弦的闭距条件；命名小场reach≥.107/held>1.521/δE>0。三种材料运输、双帽各6位姿及双卷三物理分量供41联合解；整卷同g及大control几何仍欠。
 
+[41新g全时联合](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md)：R752固定新g、R753精确中央/双帽，19边界形状位姿加双全卷三物理分量；原五粗及4/8/16结三精化，严格嵌套字典直拷、65独立时间与四缝六jet。六完整件现刊触发，actual待；40原预算不动。
+
 ### 完整准确下游与完成责任
 
 R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。

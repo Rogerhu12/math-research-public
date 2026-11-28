@@ -1,0 +1,416 @@
+{
+  "schema": "visible-larger-run41-complete-bent-end-fan-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "run_number": 41,
+  "source_branch": "main",
+  "scientific_mode": "Direct finite-phase closed-body isometric deformation on the new fixed R752 metric with the R753 physically rectifying middle, both developed fan caps, two cap poses and unrestricted three-component interior roll corrections in the declared basis.",
+  "full_candidate_solution_or_accurate_certificate_assumed": false,
+  "scientific_inputs": {
+    "script": {
+      "role": "complete Run41 actual finite-phase closed rectifying body search",
+      "name": "bent_hard_end_phase.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_hard_end_phase.py",
+      "bytes": 14837,
+      "sha256": "0dc5bab5445f2a0eb0cfe1387c2accd42bdf5a9d99396f4b6421384cf786ab97",
+      "git_blob_sha": "1b8d69a94c80aac6a989f942b755e6370aa4d1a2"
+    },
+    "physical_fields": {
+      "role": "complete true geometric hard modes, free shoulder field and fixed-metric jets",
+      "name": "bent_hard_end_fields.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_hard_end_fields.py",
+      "bytes": 10678,
+      "sha256": "af0422bc6ed3e8823594b955550ef980c665d1b24e5330a46a595c19c5b333ba",
+      "git_blob_sha": "125e94b27ac85f964318e0280a84f4d1fd428514"
+    },
+    "parameters": {
+      "role": "complete independent true target and all physical stage budgets",
+      "name": "bent-hard-end-phase-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-hard-end-phase-design-v1.json",
+      "bytes": 4685,
+      "sha256": "836cb24a757f7d4b494dd65f9358b916713da3e30c9efbc394d9e96f504a8aac",
+      "git_blob_sha": "c4e067979b28a6bbbbfec52f38260b3e83fe6c06"
+    },
+    "r740_source": {
+      "role": "complete R740 geometric source for the elliptic starts",
+      "name": "r740_rolled_disk_seed.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    "r742_source": {
+      "role": "complete R742 tilted seed analytic two-position-jets six-field provider",
+      "name": "r742_tilted_disk_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    "r744_source": {
+      "role": "complete R744 extruded closed physical body atlas and six positional derivatives",
+      "name": "r744_extruded_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "bytes": 10327,
+      "sha256": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "git_blob_sha": "729efd888029dbaf9953617edfde81c0c7394fdd"
+    },
+    "r746_source": {
+      "role": "R746 original full axial-translation closed source and proof",
+      "name": "r746_axial_translation_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r746_axial_translation_closed_two_jets.py",
+      "bytes": 5465,
+      "sha256": "e5ab4d4a0921cb83c7eefc485147883d6dcea92ff9df6f3f3da8604440f174ef",
+      "git_blob_sha": "f17399df53201a251da42198019f1c5a229baa62"
+    },
+    "r747_source": {
+      "role": "complete R747 offset-ring arclength transport on closed physical body",
+      "name": "r747_offset_arclength_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r747_offset_arclength_closed_two_jets.py",
+      "bytes": 7820,
+      "sha256": "09b29cd06eec6887bf8f103f104cdd9ca598b691c3e7503fa2220dbafc71e3ac",
+      "git_blob_sha": "b9af0788b2ffea92bd6755d05a43fdb2509007f9"
+    },
+    "r748_source": {
+      "role": "complete R748 physically bending developable cap germs on the closed axial geometry",
+      "name": "r748_developable_axial_caps.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r748_developable_axial_caps.py",
+      "bytes": 1809,
+      "sha256": "947245856229ddeb95b83c763403e86bdd867c63b63b6013929d2e2a13a87b46",
+      "git_blob_sha": "5d60e4e2683faa5564072f120280421d32e515bf"
+    },
+    "r752_source": {
+      "role": "complete fixed parent science for Run41",
+      "name": "r752_delayed_turn_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r752_delayed_turn_closed_two_jets.py",
+      "bytes": 4359,
+      "sha256": "762717cc9bd895893b9538683a588217d2f8fc4f236f997a3120880acbe161c6",
+      "git_blob_sha": "d48422a671ff34944bb51f990035e2a5bc2dd661"
+    },
+    "geometry_source": {
+      "role": "complete R753 rectifying central cylinder with two true developed fan caps",
+      "name": "r753_rectifying_cylinder_and_cap_fans.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r753_rectifying_cylinder_and_cap_fans.py",
+      "bytes": 8178,
+      "sha256": "8115dea654acb925db30357e675db07879dcedfecfe3c4f4fb0c5d0539217a81",
+      "git_blob_sha": "9a8c8040dc027a378be3ab6b0de2dee621923c21"
+    },
+    "atlas": {
+      "role": "Run39 actual closed material atlas and field anchoring data",
+      "name": "bent_body_atlas.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "bytes": 7229,
+      "sha256": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+      "git_blob_sha": "493b8aeed145723f91c69acd834da0617974b1ac"
+    },
+    "run40_phase_entry": {
+      "role": "complete Run40 direct finite-phase physical shape search",
+      "name": "bent_end_phase.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase.py",
+      "bytes": 14744,
+      "sha256": "0b2ce5d260bdc4160b972d7b36cc0567660c6bbc18d56eb722265e6f0b04b701",
+      "git_blob_sha": "269265194f8f7230ba9d46ea501efb8d838e52a6"
+    },
+    "run40_fields": {
+      "role": "complete original closed axial geometry, accurate jets and fractional phase directions",
+      "name": "bent_end_phase_fields.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase_fields.py",
+      "bytes": 10301,
+      "sha256": "5305a955f3f5a0f37a3097388b025889584ce2033fe82bcab0140ab8330b31ba",
+      "git_blob_sha": "bb38c6577c143a2cebb7fe76d5cd9a24eb9fa1fb"
+    }
+  },
+  "source_commit": "the actual workflow triggering Git commit, retained in its immutable detached scientific worktree",
+  "original_arguments": [
+    "--params",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-hard-end-phase-design-v1.json",
+    "--geometry-source",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r753_rectifying_cylinder_and_cap_fans.py",
+    "--out",
+    "{runner_temp}/run41-bent-end-fan-{run}-{attempt}/field"
+  ],
+  "scientific_budget_source": "Complete original parameter file and direct finite-phase scientific program.",
+  "scientific_protocol": "Use the complete R752 material metric at phase zero on each initial physical chart, including both delayed-turn collars and the two entire planar cap domains. At every positive time knot optimize nineteen explicit intrinsic geometry/rigid-cap coordinates with both independent three-component roll fields. Reuse fixed field coefficients and exact hierarchical material basis names at the next degree. The grip and cap/central metric are implemented by the R753 geometry. Absorb full upper and lower physical boundary displacements in each roll. Compare direct R753 six-jets on all actual charts at the last phase, record all four seam residuals at each phase, and report independent finer spatial and temporal Gram, curvature, immersion, support, whole-image chord and moment samples. Pure coefficient values, singular geometry or a finite numerical sample provide no rigorous whole-domain certificate.",
+  "canonical_point_words": "Each scientific stage emits the SHA-256 of its complete C-order little-endian float64 time-knot by physical-coefficient matrix, each actual solved positive-time row, its independent phase-knot digest and the complete NPZ identity. The first nineteen coordinates give the rectifying-cylinder control, two three-parameter fan displacements and independent six-parameter upper and lower cap poses. Two further equal-sized blocks contain every complete three-component annular control.",
+  "runner": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+  "python": "3.12.14",
+  "dependencies": [
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ],
+  "scientific_environment": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numeric_environment_parent": {
+    "path": ".github/workflows/visible-larger-public-small-core-full3-trust.yml",
+    "bytes": 13971,
+    "git_blob_sha": "e846d64025a9661ab8bf1449f26c7c8325af94b2",
+    "sha256": "5280636f0f773af4132792cbf699b2a26a10077522050a4a9f4a473b37333424"
+  },
+  "observe_period_seconds": 8,
+  "minimum_publish_retry_seconds": 20,
+  "live_scalar_publish_period_seconds": 120,
+  "readme_pull_period_seconds": 2700,
+  "public_remote_topic_bytes_limit": 200000000,
+  "action_job_timeout_minutes": 360,
+  "no_child_wallclock_cutoff_added_by_launcher": true,
+  "control_only": {
+    "supervisor": {
+      "role": "complete public runner for a directly evaluated immutable bent disk field and its physical outputs",
+      "name": "observe_bent_disk_search.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_disk_search.py",
+      "bytes": 14863,
+      "sha256": "72e7af7195e1087fa96f3a93b6f1963e60ae8d1ee13d4036f647673f8c25b450",
+      "git_blob_sha": "c47dde7a91a32216afdb5f41ef2952fa3cb4b22c"
+    },
+    "workflow": {
+      "role": "complete public Run41 rectifying closed-body and developable end-fan search",
+      "name": "visible-larger-run41-bent-end-fan.yml",
+      "path": ".github/workflows/visible-larger-run41-bent-end-fan.yml",
+      "bytes": 3871,
+      "sha256": "e2acde78f982b781544dfd0627a9f17cbd7d0ff36f9721598b16ead41ed2573d",
+      "git_blob_sha": "230b11ab47d4bb29af13e1ca00fbe66b7b2606bc"
+    },
+    "original_public_git_helpers": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      }
+    ],
+    "shared_run36_control_functions": {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    }
+  },
+  "attempt_note_prefix": "run41-bent-end-fan",
+  "handoff_marker": "<!--run41-bent-end-fan-->",
+  "actual_observation_schema": "visible-larger-run41-actual-rectifying-body-end-fan-v1",
+  "scientific_path_arguments": [
+    [
+      "--geometry-source",
+      "geometry_source"
+    ]
+  ],
+  "direct_input_lineage": {
+    "fixed_parent_files": "R746/R747/R748, the R752 delayed-turn atlas and R753 rectifying cylinder and cap-fan source, R740/R742/R744 utilities, Run39 profile-grid utility and original Run40 general residual/moments/geometry routines. All forms are frozen by the triggering immutable tree.",
+    "scientific_observations": "Independent new closed fixed metric and all-time atlas. No earlier point, raw field, reconstruction or Run40 job completion is needed.",
+    "published_commits": {
+      "r740": "1a0e4b0e4ee8f2e6d14124a4b38eeffe6b4f55a2",
+      "r742": "c6487109da3d44eb997e72acd3326f36bfa1da4f",
+      "r744": "423d15e39a56080ca384f6829bb5f281a1f78b9b",
+      "r746_r747_observed": "9724f4e7681f004d749048ccef3ab947c05f8e92",
+      "r748_observed": "5aca233301cd402b4dc613e2ef59c3b4d01ed8fa",
+      "r752_observed": "f681603b475c5555de825705fa5f6520d13cb610",
+      "r753": "282164987df889c6f1ffedf64bbb76eee183d61a",
+      "atlas_39": "c3e685703f28928dfe8cb8d9b71d2d3ed99285ef",
+      "shared_run40": "8561fc2b7a68f1cbede10f9421acbee8bd40b6bf"
+    }
+  },
+  "scientific_parameter_summary": {
+    "all_five_complete_starts": [
+      {
+        "id": "legacy-free-pose",
+        "method": "legacy",
+        "middle": 0,
+        "upper_cubic": 0.000001,
+        "lower_cubic": 0,
+        "cap_y": 0
+      },
+      {
+        "id": "omega-free-pose",
+        "method": "arc",
+        "middle": 0,
+        "upper_cubic": 0.000001,
+        "lower_cubic": 0,
+        "cap_y": 0
+      },
+      {
+        "id": "plateau-free-pose",
+        "method": "plateau",
+        "middle": 0,
+        "upper_cubic": 0.000001,
+        "lower_cubic": 0,
+        "cap_y": 0
+      },
+      {
+        "id": "omega-shortened-cap",
+        "method": "arc",
+        "middle": 5.960464477539063e-8,
+        "upper_cubic": 0.006,
+        "lower_cubic": 0.003,
+        "cap_y": -0.15
+      },
+      {
+        "id": "plateau-shortened-cap",
+        "method": "plateau",
+        "middle": -5.960464477539063e-8,
+        "upper_cubic": 0.008,
+        "lower_cubic": -0.005,
+        "cap_y": -0.22
+      }
+    ],
+    "coarse": {
+      "id": "all-five-coarse",
+      "roll_modes": 3,
+      "intervals": 2,
+      "mesh": [
+        27,
+        11,
+        8,
+        7
+      ],
+      "check": [
+        69,
+        21,
+        15,
+        13
+      ],
+      "max_nfev": 52,
+      "inner": 85,
+      "regularizer": 0.000007,
+      "extra_check": false,
+      "radial_degree": 2,
+      "turn_degree": 2
+    },
+    "same_target_three_refinements": [
+      {
+        "id": "fixed-target-space-time-1",
+        "roll_modes": 5,
+        "intervals": 4,
+        "mesh": [
+          35,
+          13,
+          10,
+          9
+        ],
+        "check": [
+          77,
+          25,
+          17,
+          15
+        ],
+        "max_nfev": 60,
+        "inner": 95,
+        "regularizer": 0.000004,
+        "extra_check": true,
+        "radial_degree": 4,
+        "turn_degree": 3
+      },
+      {
+        "id": "fixed-target-space-time-2",
+        "roll_modes": 7,
+        "intervals": 8,
+        "mesh": [
+          49,
+          17,
+          12,
+          11
+        ],
+        "check": [
+          103,
+          33,
+          21,
+          19
+        ],
+        "max_nfev": 68,
+        "inner": 105,
+        "regularizer": 0.000002,
+        "extra_check": true,
+        "radial_degree": 6,
+        "turn_degree": 5
+      },
+      {
+        "id": "fixed-target-space-time-3",
+        "roll_modes": 9,
+        "intervals": 16,
+        "mesh": [
+          65,
+          21,
+          16,
+          14
+        ],
+        "check": [
+          127,
+          41,
+          27,
+          23
+        ],
+        "max_nfev": 76,
+        "inner": 125,
+        "regularizer": 0.000001,
+        "extra_check": true,
+        "radial_degree": 9,
+        "turn_degree": 7
+      }
+    ],
+    "finite_geometry_phases": [
+      0,
+      0.2617993877991494,
+      0.5235987755982988,
+      0.7853981633974483,
+      1.0471975511965976,
+      1.3089969389957472,
+      1.5707963267948966
+    ],
+    "whole_both_caps_and_rolls_cloud": [
+      27,
+      9,
+      5,
+      5
+    ],
+    "whole_closed_moment_grid": [
+      125,
+      33,
+      25,
+      19
+    ],
+    "additional_physical_terms": {
+      "positive_definite_margin": 0.73,
+      "immersion_weight": 4,
+      "hard_geometry_difference_step": 0.00004,
+      "exact_zero_phase_area": "the same newly chosen original physical material metric across all four resolutions; neither Run40 points nor its metric are imported"
+    },
+    "time_checks": "Five initial two-interval designs followed by the selected independent complete 4, 8 and 16 interval refinements. Two additional interior times per refined interval and all endpoint/midpoint checks give 65 full temporal samples at the highest resolution. The seven external geometric cloud and integral phases keep their own material grids.",
+    "normal_scientific_status": "completed_full_finite_time_and_fixed_metric_refinements"
+  },
+  "output_contract": {
+    "scientific_summary": "Whole small actual per-stage JSON with true coordinates, shape and metric/geometry outcomes, full runtime and failure status.",
+    "raw_fields": "Complete raw arrays stay on the public runner; publish their length and SHA. No raw repository copy or external artifact.",
+    "public_attempt": "notes/run41-bent-end-fan-<run>-<attempt>.json with its handoff marker after normal checked pull/rebase and inclusive 200 MB topic accounting.",
+    "interpretation": "Independent finite point and grid values have their actual numerical meaning and do not establish an interval, a uniform embedding or exact isometry."
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "scientific_source_commit": null,
+    "actual_point_sha256": null,
+    "physical_coefficients": null,
+    "fixed_metric_identity": null,
+    "all_phase_gram": null,
+    "reach": null,
+    "held": null,
+    "euclidean_separation": null,
+    "global_certificate": null
+  }
+}
