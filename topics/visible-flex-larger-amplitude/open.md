@@ -131,6 +131,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)：真实非圆core/两帽正宽准确Gram，柱内.18球/core对全像两向.126球；移动接口全jets保，core宽未数值包围。
 [R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。完整Fraction/Bernstein/Sturm/Yun程序及公开workflow已刊，实际T*/415片前缀待本次返回；不替R733拼接宽。
 
+[R735](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md)原深谷每个m≥2确有非零平坦帽端线性弯曲，完整半周期精确传递/反向连分式证明并给唯一径向线；有限非线性及双端匹配未付。
+
 R724–729源/证明、R726/R727准确核心9件、其N/G11及下游23、R728准确N/G14及下游24完整路径/身份/条件保旧open。R730准确长度/逆弧长核心4及N/G16完整保护，未有actual费用。参考角jet不代实际角向Gram，normal.complete不代连续branch。
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)继续：N原repo/canonical/output，N变则G新目录/稳定whole report；R723/mesh fresh，P同canonical整块、U最终同wholeN、packet全report、restart同runner13final/typed。全部32stage/1024圆/922cells/cuts/六jet/尾/两帽/mixed/allphase/晚失败、R718 marked和R716 unmarked、五t/15science+5preview及三级空间/频率/时间真精化均待付。
