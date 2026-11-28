@@ -63,3 +63,7 @@ R637/R642/R644/R652的双核、全频gap和真小q族尚无宏观q0；R652已付
 ### R671 当前已付范围与尚欠输入
 
 [完整证明](results/R671-saturated-material-meridian-and-discrete-twist-of-the-exact-endpoint-metric.md)对任意同R667端度量的C²等距环带，反向两条长b−a的材料母线共同强制C=0、Qe_y=e_y并逐点为直线。其真Gauss曲率−ω′²迫法向扭转速度全段同号且模为|ω′|，因此内刚帽只能为Ry(±θ)，连续族无法连接两端。该排除不局限圆纬圈或图，不影响R659/R669自由设计g；新固定g须有真实非饱和长度或改变刚接圈假设。
+
+### R668 当前已付范围与尚欠输入
+
+[完整证明](results/R668-natural-source-progress-and-seven-original-errors.md)首窗Green修正改用准确二阶矩，Simpson全四阶余项给已付Cauchy值的有限源误差；原四个高度标尺>1e−13、包络1<c<5已有解析下界。自然后继可从同一live tail消费已付DOP对象，在准确物理点保留角/log锥并跨新原生网格续证。现场信用3%、单点至多25秒且保全部末读预留；七行保原身份/未付项，原forced小数尺度与所有字面误差分开。实际12分母仍0已证，不发独立旧场审计或重ODE/root/J。

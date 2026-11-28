@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **df4fbd04cc1378d98454cb523c5001b4978b816b**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **663cd631138a8c5ca86f5fc3f4fb97474ce6b7db**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -20,7 +20,7 @@
 
 [R643原终态](notes/2026-11-28-r643-1566-0d9a-rule-terminal.md)3310.24427324秒/2接受0d9a，workη2.21791e−7；3全J/QR已付但矩阵未存。原d1f8四分之一步未决，[当前续算](notes/2026-11-28-r643-0d9a-coupled-mean-continuation.md)run46134171516/sourcebc779996先判该步，再必要重建且身份一致才跳旧整/半步；同86da/H.5188903877153482/amp1e−5/τ1，950work→1728×512fine/双位置末读。R618旧5400秒/0接受、Y差分15/16债留原note。
 
-R648/R650/R649/R653全尾、三jet、离解曲率及C²接缝只消费现成对象；不转R617/τ1/trace/Pμ/旧.85资格。[R658](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)真M25→无穷源差已付，归一差仍需各有限A及forced自己C阈值。[R663](results/R663-actual-finite-denominators-from-paid-dense-polynomials.md)从原DOP853准确有理多项式/方向角与log范数/三图连续残差给实际12分母接口；旧FINAL无原生dense，已证数量0。不得重旧ODE/root；7源误差全留，R668自然现场接点准备中。
+R648/R650/R649/R653全尾、三jet、离解曲率及C²接缝只消费现成对象；不转R617/τ1/trace/Pμ/旧.85资格。[R658](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)真M25→无穷源差已付，归一差仍需各有限A及forced自己C阈值。[R663](results/R663-actual-finite-denominators-from-paid-dense-polynomials.md)从原DOP853准确有理多项式/方向角与log范数/三图连续残差给实际12分母接口；旧FINAL无原生dense，已证数量0。不得重旧ODE/root；[R668](results/R668-natural-source-progress-and-seven-original-errors.md)给有限首窗二阶矩/原标尺正下界及自然现场可续物理锥，3%信用且保末读预留；七源逐行保缺口、实际12分母仍0已证。R672连续度量/曲率覆盖准备中。
 
 ## C：B030实际0449／工作矩阵容量
 
