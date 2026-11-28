@@ -133,7 +133,7 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722�
 
 [同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)要同runner complete report/13final/全typed史；progress/accepted/packet不足，CLI不继承末μ。原136+4词/模式/peer/预算及全部P0/G/typed未知失败保原链。
 
-下一单宽度[半波b5/8](notes/2026-11-28-paired-halfwave-width-and-sign-comparison.md)完整参数已备，δ/g/137源/预算保。端层4/5、中间长度2/3、中央3λnew/(2λ22)竞争，非必然改善；反转符号距离差与未标记E3全等未知，不另开候选。24未启动。
+[24半波b5/8全启动](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)11件393872B已刊，沿22原137/18源，仅argv113宽度1/2→5/8；δ/g/全预算保。初队列72996B，science+pure116887B/四步125008B>95000，原pure整步待自然返接入。端层4/5与中央3λnew/(2λ22)竞争，非必然改善；完整选择与符号边界保原note。实际24run/场待读。
 
 ### 容量和继续标准
 

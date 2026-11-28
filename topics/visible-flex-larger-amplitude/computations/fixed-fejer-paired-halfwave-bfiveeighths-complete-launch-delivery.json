@@ -1,0 +1,713 @@
+{
+  "schema": "complete-halfwave-five-eighths-launch-delivery-v1",
+  "created_utc": "2026-11-28 02:03:40 UTC",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "intended_independent_runner": 24,
+  "prepared_only": true,
+  "actual_future": null,
+  "complete_parameter_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-complete-parameter-delivery.json",
+    "bytes": 19999,
+    "sha256": "03468ce80f94b2e1c7231c54e352d57c54a7b126bdf97f19013a9be78fcb2f51",
+    "git_blob_sha": "fb60d5b68803a069912e03dc5fb3432b5f47fa5f"
+  },
+  "new_parameter_artifacts": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-complete-parameter-binding.json",
+      "bytes": 23906,
+      "sha256": "227b97899143a7974c4f2586d10a99542e7b6d2dcf63bb4d3881711260bf4635",
+      "git_blob_sha": "bc95201ce7d901e12cc453a658c3982c0269e1e7"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-science-complete-ready.json",
+      "bytes": 70816,
+      "sha256": "6523d44c50fdbaee3c003f7b3fac132d4dbdc036e6b1ffb348a3dd27c8acc015",
+      "git_blob_sha": "85611a6f921ea85917c45004a71858c0e266cb4a"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-pure-complete-ready.json",
+      "bytes": 58029,
+      "sha256": "cf7c3d0fb4a24aa3c8723a7b0fd52d91f8682c4573c055a35a8bbf5aa9cb0bd8",
+      "git_blob_sha": "3cbcff6249fad8f0965e40ee24ca13478d13b11a"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_paired_halfwave_bfiveeighths_parameters.mjs",
+      "bytes": 36282,
+      "sha256": "c6f2283d9cc0c473b8dc5b3cc912503af6af460c87af7dc1092e998d98ffd6d0",
+      "git_blob_sha": "d77b635361061ee123892e9f39ce66761368f979"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-complete-parameter-delivery.json",
+      "bytes": 19999,
+      "sha256": "03468ce80f94b2e1c7231c54e352d57c54a7b126bdf97f19013a9be78fcb2f51",
+      "git_blob_sha": "fb60d5b68803a069912e03dc5fb3432b5f47fa5f"
+    }
+  ],
+  "already_published_mathematical_choice": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-paired-halfwave-width-and-sign-comparison.md",
+    "name": "2026-11-28-paired-halfwave-width-and-sign-comparison.md",
+    "bytes": 14958,
+    "sha256": "0180295efcc46130cc8960e0a115913245c5c6f2a88cd850a4376bf2684ee7c6",
+    "git_blob_sha": "c00b5c643c7e1bd14983f9e48e7d3ed3abb61390"
+  },
+  "complete_source_family": {
+    "whole_source_binding": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-current-complete-runtime-binding.json",
+      "bytes": 67013,
+      "sha256": "6dd246a030ffaf9e58e750c135e26424b12668b182f0e6a59726c2af006c1638",
+      "git_blob_sha": "4f20af6e3663bdf69aca7193bc29624dc706411c"
+    },
+    "complete_scientific_registry_json_pointer": "/complete_source_role_registry",
+    "scientific_role_count": 137,
+    "complete_runtime_records_json_pointer": "/current_complete_runtime_sources",
+    "current_runtime_count": 18,
+    "all_current_source_files_and_parent_historical_source_pairs_original_bytes": true,
+    "new_or_modified_scientific_runtime_files": [],
+    "driver_source_sha256": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
+    "launcher_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
+    "reader_source_sha256": "be9bb58fa612fc25ab01458a2d6e21e0fa10c7573dad37e65effb845c6e29e92",
+    "normal_source_sha256": "c2903ac5ebc21faf0a150c5446db5f1d77f226793b4a56f9436201c244eae1ac",
+    "seed_source_sha256": "cec7f1a297851c43bb5db4174d3a15d7d1a40eb1683b145d1f845aff732d10f0",
+    "root_packet_source_sha256": "8bf66692d39950c1e7c3a2b48812b686ed27a51068316ca7a786dbeaa08aee4a"
+  },
+  "existing_whole_source_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-complete-scientific-source-delivery.json",
+    "bytes": 26658,
+    "sha256": "f5e7ca6bd04ff3cc73d4cd17decfce15e3500bb71ea47bd0f589e13e4e1e5151",
+    "git_blob_sha": "e8e9aaf67a31ae2a380bc88a714944bb00b9cf13",
+    "published_commit": "7d34ebe278826c68a9e84c32179251220bf2fc3b"
+  },
+  "new_launch_artifacts_excluding_this_manifest": [
+    {
+      "role": "controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel24_compact_metadata.py",
+      "bytes": 19984,
+      "sha256": "289fa6ad3d93ac4257509e31a79459ef25608379efb0ac67dcce84d76f8e8796",
+      "git_blob_sha": "c1d51b6ad5e86e41c2afa826968581b41c2d485c"
+    },
+    {
+      "role": "workflow",
+      "path": ".github/workflows/visible-larger-20261128-parallel24.yml",
+      "bytes": 2226,
+      "sha256": "9d0a441d1a4fe1fbb5ee6bf162da9ec3e2bf67fb98df9777f4bb06f96736840e",
+      "git_blob_sha": "78fe34fa0973e204d260bf04eb92239f2380458e"
+    },
+    {
+      "role": "queue",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-24.json",
+      "bytes": 72996,
+      "sha256": "3acbd0163a2320f58809c2ce3b7893fb9f971ae708de44ebb9032f81d6397789",
+      "git_blob_sha": "e287c33d07e1c61420cf32b825c4ef0fdb67b302"
+    },
+    {
+      "role": "request",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-24.json",
+      "bytes": 53547,
+      "sha256": "124b2b7dd8a5903122ea2494f522f828164fc06bfd6671eddb9c28860f8ff64f",
+      "git_blob_sha": "e1c9bcfc5bd84a7a8b87b60e4dce7d48706105d8"
+    },
+    {
+      "role": "launch_note",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md",
+      "bytes": 8005,
+      "sha256": "7bba080fdf89a66dac65cab4f2cb2d01218323e9e8982cb55b28fc6795c7942a",
+      "git_blob_sha": "3d11321424cec600cb16391d640cdfac760c654d"
+    }
+  ],
+  "complete_input_step_origin": {
+    "original_queue": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-22.json",
+      "bytes": 63721,
+      "sha256": "99207324fd997b2bb4d01dc941ed68f3b476f4c10c88b95f0727506f2cd8a588",
+      "git_blob_sha": "a6b74b70f5544181ccf44ba583ea1935d720e6be",
+      "fixed_commit": "18081452c5181d958bb5432c4045c067bf1d1caa"
+    },
+    "whole_first_step_unchanged": true,
+    "whole_second_step_unchanged_except_id_from_run22_to_run24": true,
+    "input_arguments_counts": [
+      6,
+      26
+    ],
+    "input_results_recreated_not_inherited": true
+  },
+  "complete_source_derivation": {
+    "controller": {
+      "complete_parent": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel22_compact_metadata.py",
+        "bytes": 19984,
+        "sha256": "0f6a636e438628a312c9c86091a8f69d503dfdd94218f5a5872f17352a244a84",
+        "git_blob_sha": "f6fe15f414e431ca95ba4297d3e95df4ca252271"
+      },
+      "complete_single_replacements": [
+        {
+          "before": "visible-larger-parallel-22:start",
+          "after": "visible-larger-parallel-24:start",
+          "count": 1
+        },
+        {
+          "before": "visible-larger-parallel-22:end",
+          "after": "visible-larger-parallel-24:end",
+          "count": 1
+        },
+        {
+          "before": "Actions22：",
+          "after": "Actions24：",
+          "count": 1
+        },
+        {
+          "before": "并行22规则核查：",
+          "after": "并行24规则核查：",
+          "count": 1
+        }
+      ],
+      "whole_original_control_flow_and_limits_unchanged": true
+    },
+    "workflow": {
+      "complete_parent": {
+        "path": ".github/workflows/visible-larger-20261128-parallel22.yml",
+        "bytes": 2225,
+        "sha256": "5026b84e65bd09f4461d87a14b209721919ed5511ed12fe1fd9efe255f1939a6",
+        "git_blob_sha": "0651e95f8bd7a9474ad11abdca0d4ddeacff0879"
+      },
+      "complete_replacements": [
+        {
+          "before": "Visible larger amplitude complete paired half-wave supported seed 20261128 22",
+          "after": "Visible larger amplitude paired half-wave five-eighths comparison 20261128 24",
+          "count": 1
+        },
+        {
+          "before": "resume-20261128-actions-request-22.json",
+          "after": "resume-20261128-actions-request-24.json",
+          "count": 2
+        },
+        {
+          "before": "visible-larger-fixed-input-20261128-22",
+          "after": "visible-larger-fixed-input-20261128-24",
+          "count": 1
+        },
+        {
+          "before": "Construct the same fixed target and solve the complete paired half-wave seed",
+          "after": "Construct the same fixed target and solve the full half-wave width comparison",
+          "count": 1
+        },
+        {
+          "before": "public_actions_controller_parallel22_compact_metadata.py",
+          "after": "public_actions_controller_parallel24_compact_metadata.py",
+          "count": 1
+        }
+      ],
+      "all_original_runtime_dependencies_permissions_partial_checkout_and_timeout_unchanged": true
+    }
+  },
+  "original_complete_request": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-22.json",
+    "bytes": 36444,
+    "sha256": "0a657604fccc2757dcc403f35329194fbf5e81b7850ff34afcced8e2ad2e760d",
+    "git_blob_sha": "74bbd19b9c51859c939fd3a7dea93c5fb03c1c3f",
+    "fixed_commit": "18081452c5181d958bb5432c4045c067bf1d1caa"
+  },
+  "complete_original_changed_metadata": {
+    "complete_parent": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-22.json",
+      "bytes": 36444,
+      "sha256": "0a657604fccc2757dcc403f35329194fbf5e81b7850ff34afcced8e2ad2e760d",
+      "git_blob_sha": "74bbd19b9c51859c939fd3a7dea93c5fb03c1c3f",
+      "fixed_commit": "18081452c5181d958bb5432c4045c067bf1d1caa"
+    },
+    "original_changed_fields": [
+      {
+        "field": "request_id",
+        "json_pointer": "/request_id"
+      },
+      {
+        "field": "created_utc",
+        "json_pointer": "/created_utc"
+      },
+      {
+        "field": "rules_read_commit",
+        "json_pointer": "/rules_read_commit"
+      },
+      {
+        "field": "followup_file",
+        "json_pointer": "/followup_file"
+      },
+      {
+        "field": "controller",
+        "json_pointer": "/controller"
+      },
+      {
+        "field": "scope",
+        "json_pointer": "/scope"
+      },
+      {
+        "field": "mathematical_recipe",
+        "json_pointer": "/mathematical_recipe"
+      },
+      {
+        "field": "source_and_parameter_scope",
+        "json_pointer": "/source_and_parameter_scope"
+      },
+      {
+        "field": "old_history_scope",
+        "json_pointer": "/old_history_scope"
+      },
+      {
+        "field": "current_refinement",
+        "json_pointer": "/current_refinement"
+      },
+      {
+        "field": "complete_scientific_parameter_plan",
+        "json_pointer": "/complete_scientific_parameter_plan"
+      },
+      {
+        "field": "queue_capacity_policy",
+        "json_pointer": "/queue_capacity_policy"
+      },
+      {
+        "field": "complete_parameter_reproducer",
+        "json_pointer": "/complete_parameter_reproducer"
+      },
+      {
+        "field": "external_unregistered_peer_obligations",
+        "json_pointer": "/external_unregistered_peer_obligations"
+      },
+      {
+        "field": "seed_and_mean_contract",
+        "json_pointer": "/seed_and_mean_contract"
+      },
+      {
+        "field": "complete_display_correspondence",
+        "json_pointer": "/complete_display_correspondence"
+      },
+      {
+        "field": "original_complete_launch_request",
+        "json_pointer": "/original_complete_launch_request"
+      },
+      {
+        "field": "controller_source_identity_derivation",
+        "json_pointer": "/controller_source_identity_derivation"
+      },
+      {
+        "field": "workflow_identity_derivation",
+        "json_pointer": "/workflow_identity_derivation"
+      },
+      {
+        "field": "external_peer_status",
+        "json_pointer": "/external_peer_status"
+      },
+      {
+        "field": "complete_initial_input_step_origin",
+        "json_pointer": "/complete_initial_input_step_origin"
+      },
+      {
+        "field": "complete_current_parameter_delivery",
+        "json_pointer": "/complete_current_parameter_delivery"
+      },
+      {
+        "field": "new_known_external_peer_records",
+        "json_pointer": "/new_known_external_peer_records"
+      }
+    ],
+    "all_other_original_top_level_fields_retained_inline": true,
+    "old_values_retained_exactly_in_whole_parent": true,
+    "no_history_field_discarded": true
+  },
+  "full_scientific_argv": [
+    "--repo",
+    "{repo}",
+    "--reference-bundle",
+    "{work}/fixed-fejer-reference/reference.npz",
+    "--preparation-report",
+    "{work}/fixed-fejer-reference/report.json",
+    "--carrier",
+    "{work}/fixed-fejer-reference/observations.npz",
+    "--node-report",
+    "{work}/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+    "--scalar-input",
+    "{work}/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+    "--angles",
+    "2048",
+    "--stage-block",
+    "64",
+    "--angle-block",
+    "8",
+    "--integration-order",
+    "8",
+    "--norm-kind",
+    "jet-sum",
+    "--radial-norm-length",
+    ".05",
+    "--angular-transition",
+    "24",
+    "--torch-threads",
+    "4",
+    "--damping",
+    ".01",
+    "--directions",
+    "1",
+    "--maxiter",
+    "16",
+    "--restoration-directions",
+    "4",
+    "--restoration-damping",
+    ".01",
+    "--restoration-maxiter",
+    "64",
+    "--line-trials",
+    "15",
+    "--active-rows",
+    "192",
+    "--qp-atol",
+    "0",
+    "--qp-rtol",
+    "1e-6",
+    "--reach-ratio",
+    ".03",
+    "--reach-safety-factor",
+    ".992",
+    "--active-band",
+    ".025",
+    "--marked-diameter-budget",
+    "4.2",
+    "--witness-lower-budget",
+    ".9",
+    "--amplitude-height-floor",
+    "1.01",
+    "--spectral-p",
+    "4",
+    "--spectral-epsilon",
+    ".001",
+    "--spectral-scale",
+    ".05",
+    "--legacy-fraction",
+    ".5",
+    "--target",
+    "1e-9",
+    "--outdir",
+    "{work}/fixed-fejer-paired-halfwave-bfiveeighths-first",
+    "--panels",
+    "128",
+    "--endpoint-bubble-1-left",
+    "1/32",
+    "--endpoint-bubble-1-middle",
+    "1/4",
+    "--endpoint-bubble-1-right",
+    "15/32",
+    "--endpoint-bubble-2-left",
+    "17/32",
+    "--endpoint-bubble-2-middle",
+    "3/4",
+    "--endpoint-bubble-2-right",
+    "31/32",
+    "--endpoint-root-tolerance",
+    "2e-12",
+    "--endpoint-root-iterations",
+    "24",
+    "--endpoint-root-backtracks",
+    "18",
+    "--endpoint-root-armijo",
+    "1e-4",
+    "--moment-definition-sha256",
+    "05dc5ed735db9860ae745eeb4caecde142111ff13f40b33bd8e29701039b968e",
+    "--moment-input",
+    "{repo}/topics/visible-flex-larger-amplitude/computations/frozen-zero-moment-Q-actual16-parameters.json",
+    "--moment-input-sha256",
+    "df11d8a4b36eb9ce113b5961863191c9b58cb2473af9c48e1714026041a42e2c",
+    "--endpoint-control-radius",
+    "2",
+    "--gamma-left",
+    "1/16",
+    "--gamma-middle",
+    "1/8",
+    "--gamma-right",
+    "3/16",
+    "--moment-input-binding",
+    "supported-smooth-triangle-reference",
+    "--normal-stages",
+    "32",
+    "--seed-boundary-total-length",
+    "5/8",
+    "--seed-profile-delta",
+    "1/32",
+    "--seed-radial-quadrature-order",
+    "8",
+    "--seed-profile-quadrature-order",
+    "16",
+    "--seed-mean-maxiter",
+    "128",
+    "--seed-mean-tolerance",
+    "2e-12",
+    "--seed-mean-backtracks",
+    "24",
+    "--seed-mean-armijo",
+    "1e-4",
+    "--seed-scalar-iterations",
+    "64",
+    "--manifest",
+    "{work}/fixed-fejer-reference/locations.json",
+    "--material-envelope-binding",
+    "{work}/fixed-fejer-reference/material-envelope-carrier-binding.json",
+    "--envelope-near-active-rows",
+    "32",
+    "--independent-envelope-branch",
+    "--pending-parallel-envelope-run",
+    "45909290354/1",
+    "--pending-parallel-envelope-source",
+    "45909290354/1=cc0a07369a2d9ea5e22d261441420acb4e486a8c0d43f29f57e03378e82627b5",
+    "--pending-parallel-envelope-run",
+    "45929088658/1",
+    "--pending-parallel-envelope-source",
+    "45929088658/1=95559b0cd44e3bf521b01ca8fe35b515bf7aad5dc4dc6b008ab0d015b9211da9",
+    "--pending-parallel-envelope-run",
+    "45943410994/1",
+    "--pending-parallel-envelope-source",
+    "45943410994/1=ff5444af4c31869a1a4d7b87cb4912f2d025b8da5ee90922924c3542ff6f0dd5",
+    "--pending-parallel-envelope-run",
+    "45972294636/1",
+    "--pending-parallel-envelope-source",
+    "45972294636/1=c3dc77f40445eaf30ab743311dd97ea7d62a41be80db504fc778eccffa30e5d1",
+    "--pending-parallel-envelope-run",
+    "46011377225/1",
+    "--pending-parallel-envelope-source",
+    "46011377225/1=477499b17141d8ae22558156e8b85a4c01b7a40ff07b6b46f5827e20d11b9ccd"
+  ],
+  "full_pure_argv": [
+    "--repo",
+    "{repo}",
+    "--report",
+    "{work}/fixed-fejer-paired-halfwave-bfiveeighths-first/report.json",
+    "--output",
+    "{work}/postprocess/fixed-fejer-paired-halfwave-bfiveeighths-first-readout.json",
+    "--verify-final-bundle"
+  ],
+  "full_step_objects": {
+    "science": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-science-complete-ready.json",
+        "bytes": 70816,
+        "sha256": "6523d44c50fdbaee3c003f7b3fac132d4dbdc036e6b1ffb348a3dd27c8acc015",
+        "git_blob_sha": "85611a6f921ea85917c45004a71858c0e266cb4a"
+      },
+      "json_pointer": "/steps/0"
+    },
+    "pure": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-pure-complete-ready.json",
+        "bytes": 58029,
+        "sha256": "cf7c3d0fb4a24aa3c8723a7b0fd52d91f8682c4573c055a35a8bbf5aa9cb0bd8",
+        "git_blob_sha": "3cbcff6249fad8f0965e40ee24ca13478d13b11a"
+      },
+      "json_pointer": "/steps/0"
+    }
+  },
+  "queue_capacity_policy": {
+    "initial_steps": "The complete original6-word input maker, complete26-word reference constructor with only its step id run22->run24, then the entire157-word halfwave width comparison. All outputs, cleanup and formal/live selectors remain.",
+    "initial_queue": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-24.json",
+      "bytes": 72996,
+      "sha256": "3acbd0163a2320f58809c2ce3b7893fb9f971ae708de44ebb9032f81d6397789",
+      "git_blob_sha": "e287c33d07e1c61420cf32b825c4ef0fdb67b302"
+    },
+    "initial_step_count": 3,
+    "complete_science_and_pure_two_step_queue_bytes": 116887,
+    "complete_four_step_queue_bytes": 125008,
+    "active_queue_limit_bytes": 95000,
+    "deferred_complete_pure_step_ready": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-pure-complete-ready.json",
+      "bytes": 58029,
+      "sha256": "cf7c3d0fb4a24aa3c8723a7b0fd52d91f8682c4573c055a35a8bbf5aa9cb0bd8",
+      "git_blob_sha": "3cbcff6249fad8f0965e40ee24ca13478d13b11a"
+    },
+    "after_actual_science_natural_return": "Preserve the complete original active objects and actual whole output identities; retire only genuinely returned steps; admit the entire7-word/445-selector pure step. Original complete normal/geometry/closed/moment/mesh successors remain obligations. A clock, progress point, accepted point or incomplete report does not substitute for a natural complete report.",
+    "finish_when_done": false,
+    "numerical_parameters_or_original_summary_selectors_removed": false,
+    "parent_queue_count_label_correction": {
+      "whole_original_request": {
+        "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-22.json",
+        "bytes": 36444,
+        "sha256": "0a657604fccc2757dcc403f35329194fbf5e81b7850ff34afcced8e2ad2e760d",
+        "git_blob_sha": "74bbd19b9c51859c939fd3a7dea93c5fb03c1c3f"
+      },
+      "old_json_pointer": "/queue_capacity_policy/complete_science_and_pure_minimal_queue_bytes",
+      "old_value": 110351,
+      "actual_parent_science_plus_pure_two_step_bytes": 103752,
+      "actual_parent_all_four_step_bytes": 110351,
+      "both_exceed_original_limit": true
+    }
+  },
+  "source_parameter_sharing": {
+    "whole_parent_documents_remain_available_at_exact_git_blob_and_hash": true,
+    "all_original_metadata_history_source_provenance_and_obligations_preserved": true,
+    "shared_current_and_historical_records_are_not_truncated": true,
+    "all_current_executable_steps_are_fully_embedded_not_patches": true,
+    "no_duplicate_three_ninety_kilobyte_ancestor_metadata_copies": true,
+    "complete_shared_binding": {
+      "name": "fixed-fejer-paired-halfwave-bfiveeighths-complete-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-complete-parameter-binding.json",
+      "bytes": 23906,
+      "sha256": "227b97899143a7974c4f2586d10a99542e7b6d2dcf63bb4d3881711260bf4635",
+      "git_blob_sha": "bc95201ce7d901e12cc453a658c3982c0269e1e7"
+    },
+    "pure_step_is_entire_original_final_bundle_verifier": true
+  },
+  "complete_peer_responsibilities": {
+    "complete_file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-complete-parameter-binding.json",
+      "bytes": 23906,
+      "sha256": "227b97899143a7974c4f2586d10a99542e7b6d2dcf63bb4d3881711260bf4635",
+      "git_blob_sha": "bc95201ce7d901e12cc453a658c3982c0269e1e7"
+    },
+    "json_pointer": "/complete_peer_responsibilities",
+    "supported_CLI_pairs": 5,
+    "external_pairs": 11
+  },
+  "newest_historical_actual_inputs": {
+    "scope": "Dated actual input/progress history only, never a new typed parent or certificate",
+    "actual22_complete_index": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
+      "bytes": 49478,
+      "sha256": "e9932381ed55a117ae442647956d699079f62ebd1ba8f393808d86f75d5b83f0",
+      "git_blob_sha": "f14788b54aef868f6a9d7186bc9ebf1163520d89",
+      "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172"
+    },
+    "actual23_complete_input_volume": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1-part-001.md",
+      "bytes": 16606,
+      "sha256": "b6fa5168eb72c36582d5ca18a44f8cb393173220f80340d4cb8cafc1d0361c57",
+      "git_blob_sha": "82b902ab2cfa5222c57560485fa5629f97665419",
+      "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172"
+    },
+    "actual23_scientific_entry_index": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
+      "bytes": 48158,
+      "sha256": "95ce978e602b1184d00581d28479909db606c2bde326b3b0dbbfbdb71e154f31",
+      "git_blob_sha": "b14cfb26f40917b55d769ad18f13aa4a9b1a5bc9",
+      "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172"
+    },
+    "actual23_scientific_source_commit": "b31c3422a7f8f86954977988c8386208301a2942",
+    "actual23_launcher_sha256": "f2a9e38f62a3844b5d9ce8df9399f6702f37e6fc96c792d0dcb0bb61a80e1371",
+    "actual23_pid": 3652,
+    "current24_fields": null
+  },
+  "only_numeric_delta": {
+    "flag": "--seed-boundary-total-length",
+    "parent": "1/2",
+    "current": "5/8",
+    "argv_value_index": 113
+  },
+  "complete_width_recipe": {
+    "relative_boundary_total_length": "5/8",
+    "profile_delta": "1/32",
+    "support_intervals_relative": [
+      [
+        "1/32",
+        "15/32"
+      ],
+      [
+        "17/32",
+        "31/32"
+      ]
+    ],
+    "boundary_each_end_relative": "5/32",
+    "combined_central_relative_length": "1/4",
+    "each_central_relative_length": "1/8",
+    "central_intervals_relative": [
+      [
+        "3/16",
+        "5/16"
+      ],
+      [
+        "11/16",
+        "13/16"
+      ]
+    ],
+    "profile_normalized_complete_piece_edges": [
+      "0",
+      "1/16",
+      "7/16",
+      "1/2",
+      "9/16",
+      "15/16",
+      "1"
+    ],
+    "physical_profile": "paired opposite six-piece halfwaves",
+    "signs_in_radial_discovery_order": [
+      1,
+      -1
+    ],
+    "scalar_amplitude_equation": "the unchanged complete auxiliary A_delta(lambda)=r",
+    "root_existence_or_full_field_success_assumed": false
+  },
+  "all_original_budgets_domains_variables_selectors_outputs_cleanup_preserved": true,
+  "extra_scientific_or_AST_fixture_gate_added": false,
+  "raw_inputs_outputs_only_this_runner": true,
+  "local_scientific_executed": false,
+  "workflow_authorization": "User authorizes continuous public research; this single .github workflow launches only this topic's already complete scientific plan.",
+  "all_new_artifacts_excluding_this_manifest": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-complete-parameter-binding.json",
+      "bytes": 23906,
+      "sha256": "227b97899143a7974c4f2586d10a99542e7b6d2dcf63bb4d3881711260bf4635",
+      "git_blob_sha": "bc95201ce7d901e12cc453a658c3982c0269e1e7"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-science-complete-ready.json",
+      "bytes": 70816,
+      "sha256": "6523d44c50fdbaee3c003f7b3fac132d4dbdc036e6b1ffb348a3dd27c8acc015",
+      "git_blob_sha": "85611a6f921ea85917c45004a71858c0e266cb4a"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-pure-complete-ready.json",
+      "bytes": 58029,
+      "sha256": "cf7c3d0fb4a24aa3c8723a7b0fd52d91f8682c4573c055a35a8bbf5aa9cb0bd8",
+      "git_blob_sha": "3cbcff6249fad8f0965e40ee24ca13478d13b11a"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_paired_halfwave_bfiveeighths_parameters.mjs",
+      "bytes": 36282,
+      "sha256": "c6f2283d9cc0c473b8dc5b3cc912503af6af460c87af7dc1092e998d98ffd6d0",
+      "git_blob_sha": "d77b635361061ee123892e9f39ce66761368f979"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bfiveeighths-complete-parameter-delivery.json",
+      "bytes": 19999,
+      "sha256": "03468ce80f94b2e1c7231c54e352d57c54a7b126bdf97f19013a9be78fcb2f51",
+      "git_blob_sha": "fb60d5b68803a069912e03dc5fb3432b5f47fa5f"
+    },
+    {
+      "role": "controller",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel24_compact_metadata.py",
+      "bytes": 19984,
+      "sha256": "289fa6ad3d93ac4257509e31a79459ef25608379efb0ac67dcce84d76f8e8796",
+      "git_blob_sha": "c1d51b6ad5e86e41c2afa826968581b41c2d485c"
+    },
+    {
+      "role": "workflow",
+      "path": ".github/workflows/visible-larger-20261128-parallel24.yml",
+      "bytes": 2226,
+      "sha256": "9d0a441d1a4fe1fbb5ee6bf162da9ec3e2bf67fb98df9777f4bb06f96736840e",
+      "git_blob_sha": "78fe34fa0973e204d260bf04eb92239f2380458e"
+    },
+    {
+      "role": "queue",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-24.json",
+      "bytes": 72996,
+      "sha256": "3acbd0163a2320f58809c2ce3b7893fb9f971ae708de44ebb9032f81d6397789",
+      "git_blob_sha": "e287c33d07e1c61420cf32b825c4ef0fdb67b302"
+    },
+    {
+      "role": "request",
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-24.json",
+      "bytes": 53547,
+      "sha256": "124b2b7dd8a5903122ea2494f522f828164fc06bfd6671eddb9c28860f8ff64f",
+      "git_blob_sha": "e1c9bcfc5bd84a7a8b87b60e4dce7d48706105d8"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md",
+      "bytes": 8005,
+      "sha256": "7bba080fdf89a66dac65cab4f2cb2d01218323e9e8982cb55b28fc6795c7942a",
+      "git_blob_sha": "3d11321424cec600cb16391d640cdfac760c654d"
+    }
+  ]
+}

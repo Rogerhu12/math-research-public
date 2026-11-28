@@ -1,0 +1,52 @@
+name: Visible larger amplitude paired half-wave five-eighths comparison 20261128 24
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-24.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-fixed-input-20261128-24
+  cancel-in-progress: false
+
+jobs:
+  research:
+    name: Construct the same fixed target and solve the full half-wave width comparison
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout: |
+            topics/visible-flex-larger-amplitude
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Install the recorded numerical and automatic differentiation dependencies
+        run: |
+          python -m pip install --disable-pip-version-check --no-input numpy==2.3.5 scipy==1.17.0
+          python -m pip install --disable-pip-version-check --no-input torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          python -c 'import json,platform,numpy,scipy,torch; print(json.dumps(dict(python=platform.python_version(),numpy=numpy.__version__,scipy=scipy.__version__,torch=torch.__version__,scope="Dependency metadata only")))'
+      - name: Execute public research and publish independent compact records
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel24_compact_metadata.py \
+            --repo "$GITHUB_WORKSPACE" \
+            --work "$RUNNER_TEMP/visible-larger-research-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" \
+            --request "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-24.json"
