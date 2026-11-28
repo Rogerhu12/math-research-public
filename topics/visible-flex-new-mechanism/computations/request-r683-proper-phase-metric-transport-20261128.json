@@ -1,0 +1,59 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "private_rules_read_commit": "7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773",
+  "schema": "r683-proper-phase-metric-transport-v1",
+  "public_rules_read_commit": "dfa46374b5d3fd6bfa20dd0903b23abfde92f89b",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r683_proper_phase_metric_transport_20261128.py",
+  "workflow": ".github/workflows/visible-r683-proper-phase-metric-transport-20261128.yml",
+  "common_parameters": {
+    "geometry": "topics/visible-flex-new-mechanism/computations/r683-proper-phase-metric-transport-20261128.json",
+    "max_seconds": 2230
+  },
+  "lanes": {
+    "proper-phase-transport": {}
+  },
+  "scope": {
+    "previous_run": 46138497837,
+    "previous_columns": 934,
+    "previous_seconds": 1014.069021158,
+    "actual_anchor_sine": 0.27,
+    "actual_zero_defect_anchor_for_lambda_zero": true,
+    "full_original_J_and_all_singular_values": true,
+    "smooth_metric_plus_minus_T_second_form": true,
+    "hard_sampled_whole_shell_each_accepted_step": true,
+    "old_science_replayed": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r683_proper_phase_metric_transport_20261128.py": "de16c8d2d5083e9f4b18f86e9ea3efdbe8f2491bda7eac4dd5401e75d6c222d0",
+    "topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py": "d792ba39faf98cbf0c9ffa9b4da784d9866d3805ebc26b6ff165513895919147",
+    "topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py": "3d0f09b79e574251634157b515eee7555855e7f6ef6f606e1486f1ad092a65a5",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r683-proper-phase-metric-transport-20261128.json": "4040c7da2549182325350767afc25b8391ac3e546988c6139696469d8e1fc573",
+    "topics/visible-flex-new-mechanism/computations/r669-natural-934-parameters-for-r683-20261128.json": "8136cf88d7d032213dd2480ff9773e71934a9c0d70afadccea78e168693290da",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r683-proper-phase-metric-transport-scope.md": "a1bb7e46a989dc3c5eeee489da1cb13b7e4843b46c5efa6e2f7dee98c049c378",
+    "topics/visible-flex-new-mechanism/results/R683-proper-phase-angular-metric-transport-from-a-thick-surface.md": "06900ba2ddd10161348fe95ec1a0f77271e78a7b401d24eaf05e7656908c3a1a",
+    "topics/visible-flex-new-mechanism/results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md": "80d9371aa10e49e1c2adddbe46c3cb6ccf3e23959ee126d1dacf2942e93d2608",
+    "topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md": "0587a98a884e99be1fff5e523128727d161d24ca754648d63941d42ce672785f",
+    "topics/visible-flex-new-mechanism/results/R665-end-tangent-and-length-cost-for-finite-tilt.md": "528425da5f18c1e7e8db3b1a9432c8b1f13c695cada031090f05917b10eabea1",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r669-actual-curvature-continuation-terminal.md": "9445a356c26e0b5c3ce33862cb4cdcd8e62fabc033e3d220d617aca5f593947c",
+    ".github/workflows/visible-r683-proper-phase-metric-transport-20261128.yml": "d4ab78b89e0f1ea8a2d0135a765d104c10c97de1d7c184c115024095d3d74154"
+  }
+}

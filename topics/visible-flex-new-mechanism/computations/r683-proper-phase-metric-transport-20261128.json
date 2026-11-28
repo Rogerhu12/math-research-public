@@ -1,0 +1,85 @@
+{
+  "base": {
+    "a": 0.075,
+    "b": 0.22,
+    "tilt_sine": 0.27,
+    "radial_spans": 32,
+    "body_modes": 14,
+    "seed_slope_peak": 0.0
+  },
+  "input_state": "topics/visible-flex-new-mechanism/computations/r669-natural-934-parameters-for-r683-20261128.json",
+  "T": 0.03,
+  "curvature_guard": 0.9,
+  "normal_guard": 0.2,
+  "length_guard": 0.0,
+  "curvature_weight": 1.0,
+  "normal_weight": 1.0,
+  "length_weight": 1.0,
+  "peak_weight": 0.0,
+  "smooth_width": 0.002,
+  "physical_weight": 2.0,
+  "length_buffer": 0.0003,
+  "levels": [
+    0.15,
+    0.35,
+    0.6,
+    0.82,
+    1.0,
+    1.0
+  ],
+  "iterations": [
+    12,
+    14,
+    16,
+    16,
+    22,
+    32
+  ],
+  "fixed_iterations": 24,
+  "work_betas": 257,
+  "independent_betas": 4097,
+  "initial_trust": 0.05,
+  "retarget_trust": 0.018,
+  "max_trust": 0.45,
+  "predictor_scales": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.5
+    ],
+    [
+      0.15,
+      0.0
+    ],
+    [
+      -0.15,
+      0.0
+    ],
+    [
+      0.15,
+      1.0
+    ],
+    [
+      -0.15,
+      1.0
+    ]
+  ],
+  "promote_at": 5,
+  "promoted_modes": 16,
+  "work_order": 4,
+  "work_angles": 65,
+  "check_order": 6,
+  "check_angles": 113,
+  "stage_order": 9,
+  "stage_angles": 225,
+  "final_order": 13,
+  "final_angles": 385,
+  "freeze_metric": 1e-06,
+  "reference_azimuths": 513,
+  "check_reference_azimuths": 1025,
+  "reserve_seconds": 120,
+  "work_goal": 1e-11
+}
