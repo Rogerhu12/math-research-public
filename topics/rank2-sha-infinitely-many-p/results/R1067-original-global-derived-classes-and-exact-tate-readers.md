@@ -1369,3 +1369,146 @@ $F_{L,2}(-Q)=F_{L,2}(Q)^{-1}$，所以$n,-n$配对在两行均同向，
 这一步确实利用原固定除子，超过§107形式群环倍的范围。
 $g$与$E_L$仍随$p,C_L$变化；(BX4)保留固定$I_t$的全部驯支撑及
 $p+1$条线，尚未证明完整角色和在无穷$p$非零。
+
+## 109. 普通两位完整范数与原固定M的两个高度一系数
+
+取$p>211$普通分裂，$\pi=\psi_{17}(\mathfrak p)$、
+$\alpha=\psi_{17}(\bar{\mathfrak p})=\bar\pi$，在$\mathfrak p$嵌入中工作。
+先假设$\alpha-1\in\mathbb Z_p^\times$，下文给固定分裂列保证它。
+保持(BT1)同一$M\in\mathbb Q(E_{17})^\times$、
+(BT5)整个平滑单位及(BU2)两个野变量。§104的逐除子证明在所选普通CM行
+逐字成立：逆Tate权取$\mathfrak p$分量，$\varepsilon(p)=1$，
+所有$\mathfrak f$和另一$p$位仍保留。
+
+令$P_j,R_j$为原
+$[\mathfrak f^{-1}]\varpi_{17}/p^j$的$\pi^j,\alpha^j$主分量，
+两者皆本原。固定$\pi$方向标量$w$，把另一野变量取零、其驯测试取原标量一。
+整个étale方向的真实乘积为
+\[
+ \prod_{v\in(\mathbb Z/p^j)^\times}
+       M([w]P_j+[v]R_j)
+      =\frac{M([\alpha^jw]P_j)}
+             {M([\alpha^{j-1}w]P_j)}. \tag{BY1}
+\]
+这是从完整$E[\alpha^j]$中除去$E[\alpha^{j-1}]$的两个函数域范数；
+(BT6)保证每次常数准确为一。
+
+在$w$重标后，原逆Tate/群环权使(BY1)贡献
+\[
+ \alpha^{j-1}[g_\alpha]^{j-1}(\alpha[g_\alpha]-1),
+                  \qquad g_\alpha=\langle\alpha\rangle .
+\]
+其常项$\alpha^{j-1}(\alpha-1)$为单位。因此若通常全
+$\Sha[p^\infty]$无限，(BU4)给每个$k$、$j=k+1$的真实单变量截断
+\[
+ \sum_w w^{-1}[g_w]^{-1}M([w]P_j)
+                         =0\pmod{p^k,(g-1)^3} \tag{BY2}
+\]
+于原完整射线层Kummer张量。固定平滑及$\varepsilon(p)^j(1+\omega)/6$
+均为单位；全过程没有先删高阶项或未经证明地忽略étale因子。
+
+若$p$完全分裂于一个固定有限正规域$\mathscr M$，其中含
+$K,\theta=17^{1/6}$，则$E_{17}/\mathbb F_p\simeq E_1$。
+$E_1(\mathbb F_p)$有显式2、3挠点，故点数被六整除；
+$p\equiv1\bmod6$给$a_p\equiv2\bmod6$。由Hasse界和$p>211$，
+$a_p\equiv1\bmod p$只可能$a_p=1$，与前式矛盾。
+而$\alpha\bmod p=a_p\bmod p$，遂在此固定分裂列始终有
+$\alpha-1\in\mathbb Z_p^\times$。交换两CM嵌入也成立；
+需要时将$\theta$并入原固定标记域，仍保持其为固定有限域。
+
+### 原微分的头两项准确消失
+
+$s$取原$E_{17}$在$\mathfrak p$处的导数一严格LT坐标，
+$[\pi]s=\pi s+s^p$。其存在来自$[\pi]$在特殊纤维为实际Frobenius。
+置$b=p-1$，
+\[
+                  B_j^{\rm ord}=[s^{jb}]\,d\log M/ds .
+\]
+由原102挠除子函数有
+$d\log M=-\sum_t I_t\kappa_{T_t}$；这是比较$M^{102}$
+与同除子函数乘积后求微分，没有增加全纯差。
+首常数为$-\sum_tI_tX(T_t)=0$：
+$I_t$是$\varepsilon,\bar\varepsilon$的固定线性组合，
+前者用原$L(E_{17},1)=0$，后者由六次单位的非平凡权消去。
+故$B_0^{\rm ord}=0$。Cartier固定$d\log M$，再给
+$B_1^{\rm ord}=0\bmod p$。
+
+令$\Delta=\mu_{p-1}$，在整形式单位群取
+\[
+ U(s)=\prod_{u\in\Delta}
+       M([u]s)^{u^{-1}/(p-1)}\in1+s\mathbb Z_p[[s]].
+\]
+$p$进整指数用二项式级数解释；$[u]s=us$，所以其模$p$对数微分
+准确保留所有$B_j^{\rm ord}$。
+
+### 保全非分歧扩张的Kummer首阶检测
+
+取$j=2,k=1$、$g=1+p$、$F=K_{\mathfrak p}(E[\pi^2])$。
+允许任意有限非分歧扩张后，$\xi=s(P_2)$仍为素元，$e=p(p-1)$。
+原全$L_2$在当地相对于$F$至多多出未分歧扩张：
+固定$\mathfrak f$及étale $\alpha^2$挠都如此。以下检测在这些扩张后仍成立，
+无需声称一般限制映射单射。
+
+$\mathbb F_p[C_p]$中的三个实际测试
+$\sum_i\binom{-i}r g^i$、$r=0,1,2$，依序形成
+$(g-1)^{p-1},(g-1)^{p-2},(g-1)^{p-3}$的上三角单位基。
+模$p$野逆Tate权已是驯权。因此(BY2)迫
+$(g-1)^{p-3}U(\xi)$为当地$p$次幂。
+
+实际作用为
+\[
+                 g\xi=\xi+A\xi^p+O(\xi^{p+1}),
+                     \qquad A\bmod p=\alpha\ne0 .
+\]
+确实$[p]=[\alpha][\pi]$，代入LT加法的首项即得。
+假设$B_2^{\rm ord}$或$B_3^{\rm ord}$为第一个非零项，分别令
+$n=2p-1$或$3p-2$。在剩余域形式级数中除去一个形式$p$次幂后，
+$U$的首项为$1+B s^n$、$B\ne0$。
+把该根整提升后代$\xi$，$p$整误差的阶至少$e>3p$，
+所以同一Kummer类确有首项$1+B\xi^n$。
+
+连续作用$g-1$共$p-3$次，首阶为
+\[
+       n+(p-3)b=
+       \begin{cases}
+          p^2-2p+2,&n=2p-1,\\
+          p^2-p+1,&n=3p-2,
+        \end{cases}
+\]
+首系数为$B A^{p-3}\prod_{i=0}^{p-4}(n+ib)$，各因子模$p$非零。
+$g$固定非分歧系数，更高项和原$p$整误差不改变该首阶。
+两个阶数都小于$pe/(p-1)=p^2$且不被$p$整除。
+
+单位的$p$次幂在这个界以下的非零首阶必被$p$整除：
+直接比较$(1+x)^p$中的$x^p$与$px$，在交界$p^2$以下只有前者能给首项。
+这与(BY2)矛盾。故在上述完整普通范围有
+\[
+ \boxed{\quad
+ \Sha(E_{17}/\mathbb Q)[p^\infty]\text{无限}
+            \ \Longrightarrow\
+ B_2^{\rm ord}=B_3^{\rm ord}=0\bmod p .
+ \quad} \tag{BY3}
+\]
+
+### 原不变对数中的精确两个整组合
+
+令$f(z)=D\log M(z)=\sum f_nz^n$，其中$z$是原不变对数；
+写LT对数
+\[
+ \ell(s)=s+\ell_1s^{b+1}+\ell_2s^{2b+1}+\cdots,\qquad
+ \ell_1=(\pi-\pi^p)^{-1},\quad
+ \ell_2=\frac{p\pi^{p-1}\ell_1}{\pi-\pi^{2p-1}}.
+\]
+这些值由$\ell(\pi s+s^p)=\pi\ell(s)$逐次比较。
+因$f_0=0$，原两个整行准确为
+\[
+ \begin{split}
+ B_2^{\rm ord}&=f_{2b}+(2b+1)\ell_1f_b,\\
+ B_3^{\rm ord}&=f_{3b}+(3b+1)\ell_1f_{2b}
+             +(3b+1)(\ell_2+b\ell_1^2/2)f_b .
+ \end{split} \tag{BY4}
+\]
+这是$[s^{jb}]f(\ell(s))\ell'(s)$的完整系数；所有显示组合整，
+不能先将带分母的个别项取模$p$。
+它们来自同一固定有理除子的原完整源，尚未证明与AQ全部曲率相同，
+也没有由这些必要零本身宣称跨$p$非零。

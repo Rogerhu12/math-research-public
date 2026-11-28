@@ -289,3 +289,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §104附记：固定短列表全精度关系阶统一有界
 
 已证明：同一固定M、同一固定整数列表的原p^(k+1)挠值若有p^k次幂关系，系数向量的加法阶至多一个仅依列表的C_A，既不随p也不随k增长。使用完整原实挠轨、高度隙和孤立零极；未把全角向长和当固定支撑。[同编号全文](../results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §109：普通两位真实范数与同一M的两个整系数
+
+已证明：完整étale范数恰给α^(j−1)[gα]^(j−1)(α[gα]−1)，在固定θ分裂列为单位。真实全Sha无限迫同一固定M的ordinary B₂、B₃分别零，检测在全原非分歧扩张后仍有效；两个不变对数公式保所有带分母补偿。 [同编号全文](../results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
