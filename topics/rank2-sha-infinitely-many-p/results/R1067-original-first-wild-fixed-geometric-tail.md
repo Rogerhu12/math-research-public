@@ -1743,3 +1743,5 @@ $\sum B_i=0$ 且 $J_p[H_0](k)\ne0$。用相同的 Brumer 判据，
 所以除有限多个整数 $k$ 外均有此结论。取 $k=p^a$ 后的
 $p^{-a}L_p(p^a)$ 收敛于 $J_p'(0)/3$；所用代数输入随 $a$ 变化。
 有限权上已经证明的对数非零与(W4)都未提供该极限的非零下界。
+
+§§56起接同编号[三目标单位与原整各向同性来源](R1067-original-three-target-units-and-integral-isotropic-source.md)，本卷已有结论不重做。

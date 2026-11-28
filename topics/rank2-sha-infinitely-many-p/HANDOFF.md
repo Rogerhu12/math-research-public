@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 13:10:58 UTC实际pull --rebase，读取main 9ee934c6cbdd3860e1dc812c907aa0a5651d95d2；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 13:10:53 UTC实际pull --rebase至6315a1faec68199b7eef64dfbfc7ce8834cc6b19；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 13:11:12 UTC实际pull --rebase，读取main 5ef626a0772343da1ec1b070d70513420af12169；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 13:11:07 UTC实际pull --rebase至a1d3889d8b1284a08f6838f29b1192c48865e57e；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3269/47231234B/treed3708198fb03201c1962990706a9c7de8b616026；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3269/47239628B/treedca68aa5ece4aa349bdb9ca8dc7039a6a4b65626；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -32,7 +32,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 §52真实冻结f17为九条有标记17同源，µ3三轨道{∞,14,7}/{13,3,5}/{1,8,16}，九线独立、目标端环O17。每支原degree34和全Tate尾，原Jp=3Σ三个原读者，不赋各支Selmer身份。
 §53实际Vélu/微分给c_D=17c+e_D、r_D∈1+pO；九质量非零，J[H]=r_D^u I。J′/3=B1(logV1)′+B2(logV2)′，必须保目标导数，整数权是真系数比。
 §54实际半核集稳定于F=Q√17；G_F全置换三个物理Zi，L=F(Bi)为S3、二次子域FK，Bi/Bj非有理。惯性p、F分裂时实际Frob是反射，原中央为Qp²/Qp迹(V3)，迹零不代分量零。有限全局代数对数身份仍待证明。
-§55实际三格最短向量和同一三循环给充分大d的c_i两两不同；真实Gaussian加权Gwt=ΣBi logri对全部充分大惰性好p非零且超越。原J′/3=Gwt+ΣI_i′，目标总导数精确抵消仍须排除；整数权非零的p进极限不自动非零。
+§55实际三格最短向量和同一三循环给充分大d的c_i两两不同；真实Gaussian加权Gwt=ΣBi logri对全部充分大惰性好p非零且超越。原J′/3=Gwt+ΣI_i′，目标总导数精确抵消仍须排除；整数权非零的p进极限不自动非零。[§56起](results/R1067-original-three-target-units-and-integral-isotropic-source.md)真实Kummer/DFT给9Zi=S1+ω^iaH3+ω^-ibH5，a/b=17^(1/6)/(3+√17)>0。
 
 ## 原中央与完整全层：R1070/R1072
 

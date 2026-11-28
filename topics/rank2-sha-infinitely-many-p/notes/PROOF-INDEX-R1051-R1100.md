@@ -702,3 +702,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1071 §16：全部原九点的四次商与厚拉回
 
 实际F17和两个端点同降V4商，当前四交度39840→9960且九点均为商点[4]推回，5/7 Tate的4为单位。原xout的c因子全消，非约化拉回Norm须保multiplicity；旧T/v/辅助分割不逐项下降，18×9仍逐块付。 [同编号全文](../results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
+
+### R1067 §56：原Kummer三扭曲的真实Fourier分量
+
+真实六次域K(17^(1/6))给三投影9Zi=S1+ω^i aH3+ω^−i bH5，保实际两个秩零来源的全部系数与period。a/b=17^(1/6)/(3+√17)>0，原theta估计定两项同号，未由普通权非零推出原中央。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
