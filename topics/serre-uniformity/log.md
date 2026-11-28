@@ -783,3 +783,9 @@
 - candidate fc58f33a18624667105d12b2f4b828eba43d6d78 的四文件逐字取出，唯一workflow预算收紧已登记；既有publisher白名单不接新workflow，未改其边界，使用用户已授权CLI直接提交/pull/rebase/push。H压缩前逐字归档before-Hahn-double-WZ。尚无执行回执，本提交成功后按request路径自动启动公开运行。
 - R1210 §7已真实推472af320bdf36a9e57c212edc8d23c595f05e54a，run46181373095/job141091462181；19:29:11UTC真实pull读ccc731c16771d4c894a0ffcd093cbff30549e77b，两README diff空。本地19:30:31UTC真实pull读dd0075aa62b269242b3b883e9ba7ec7c70fd6056，双diff空。
 - 本push规则：本地真实pull至 1c27227da7f6d28ae5ae614065ccbcd020a3e778（2026-11-28T19:41:01Z），两README diff为空；已检查本次来源及工作区范围，立即真实git推送，非快进则立即再pull --rebase重试；主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- 原Hahn双WZ请求已通过用户授权CLI真实推main：12fab4ff9d9feb669b0d0ff5ab4042ea966be8ab。公开run46182457620、job141094852232已完成checkout及固定Sage镜像拉取，正在exact双变量证书阶段；尚无数学结果，不把启动当证明。实际source/request/method pins同上条。
+- 普通CLI缺少credentials后使用用户提供令牌的临时命令行环境及不落盘credential helper，成功后环境随命令退出；未写文件、提交或connector。最后真实pull至1c27227da7f6d28ae5ae614065ccbcd020a3e778/19:41:01UTC，两README diff空。
+- 本push规则：本地真实pull至 727df7af4e7d2d5e40beb57ad03840a8e5740ca4（2026-11-28T19:43:11Z），两README diff为空；本次真实git推送，非快进立即再pull --rebase重试；主目标OPEN。
