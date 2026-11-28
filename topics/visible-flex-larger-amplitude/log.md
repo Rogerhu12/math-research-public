@@ -237,3 +237,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:39:11 UTC — 31完整实际运行依赖与原三整步启动
 
 出版20个新完整运行体，连同已有3体为全23runtime/137角色；当前完整来源绑定74756B、完整方法证明53236B、完整参数binding35050B和原三步queue65162B/全157词458formal64live一并刊。新独立31 controller/request/workflow保360min/21000s及全部原预算/父历史；题外新增.github/workflows/visible-larger-20261128-parallel31.yml以普通push启动完整R728反号+按需求解。实际run/输入/场尚未观察；12份非运行再生/重复ready481099B整blob全保稍后刊，不假称全部39文件已main，也无运行依赖留缺。完整边界见[本次note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`729946b85afd066323b1404a02a6263d89520915`无变（非pull）。
+
+## 2026-11-28 07:45:58 UTC — RET80五项旧准确算术输出完整保全
+
+仅退固定23370e77原五个完整R91/R94/R100/DN4/R19生成输出216179B；新增全来源/参数/输入/原结果与失败/读者/固定恢复ledger81322B、完整note11127B及manifest7855B，文件净减115875B。14个完整源与20个完整配置/证明/资源逐字留树；DN4全部98材料输入由固定历史RET60p2全registry保，旧r1全部2587失败仍留，不冒当前SHA。R91/94/100/R19各条件和未付闭面责任保，不添数学进展。旧whole-hash读者须先恢复原完整路径；Nelder等源未闭者未退。见[完整交付](computations/legacy-five-exact-outputs-retention-80-complete-delivery.json)。双README云核至`10f6a739776a39c48677b4a66df2787c1d0f8806`无变（非pull），继续真实31和32。
