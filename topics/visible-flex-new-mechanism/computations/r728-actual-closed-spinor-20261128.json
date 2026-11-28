@@ -1,0 +1,71 @@
+{
+  "receipt": {
+    "run": 46158534504,
+    "job": 141020428088,
+    "source": "1858f6a734922868935e9fffa853ec0c4a72b1ce",
+    "artifact": 15268777040,
+    "name": "visible-completed-receipts-46158534504-1",
+    "size_bytes": 5268344,
+    "zip_sha256": "4984be237dfef952f2e1406b67c42ddeb072344790fe1ecb490eb46bc1bc84c0",
+    "member": "R703/final.json"
+  },
+  "frame": "topics/visible-flex-new-mechanism/computations/r687-natural-frame-for-r703-20261128.json",
+  "frame_sha256": "4dc79f1a9c54df8147fcb886e04e011d142cadd8c269530c094671f96ae218ca",
+  "projection_half_cells": 384,
+  "source_material_reads": [
+    49,
+    97
+  ],
+  "peak_scale": 0.045,
+  "metric_weight": 1.3,
+  "geometry_weight": 2.2,
+  "axis_guard": 0.3,
+  "cone_guard": 0.14,
+  "length_weight": 3.2,
+  "work_betas": 193,
+  "fine_betas": 2049,
+  "check_order": 4,
+  "check_split": 2,
+  "check_angles": 145,
+  "cross_order": 6,
+  "cross_split": 2,
+  "cross_angles": 193,
+  "final_order": 9,
+  "final_angles": 289,
+  "reference_angles": 257,
+  "goal": 1e-9,
+  "freeze_eta": 0.000001,
+  "rim_tolerance": 5e-8,
+  "reserve_seconds": 300,
+  "retarget_trust": 0.02,
+  "max_trust": 0.45,
+  "stages": [
+    {
+      "K": 10,
+      "spans": 24,
+      "order": 3,
+      "angles": 85,
+      "iterations": 9
+    },
+    {
+      "K": 12,
+      "spans": 24,
+      "order": 4,
+      "angles": 101,
+      "iterations": 12
+    },
+    {
+      "K": 12,
+      "spans": 48,
+      "order": 4,
+      "angles": 101,
+      "iterations": 14
+    }
+  ],
+  "fixed_stage": {
+    "order": 4,
+    "angles": 129,
+    "iterations": 14
+  },
+  "column_block": 8
+}
