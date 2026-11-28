@@ -22,6 +22,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi的完整Vlow普通均值迹与两条原t八次](results/R150-appendix-unit211-Phi-zero-corrected-t-complete-Vlow-original-mean-trace-and-two-octics.md)：dec774唯一3.755020568秒/0，全部Z三系数给真Vlow总5；十八步普通降次全返r=(5,4,4)及三mean迹。两新三原cofactor全返t8总71/75，所有新头与旧斜率/H28零面保，无全权排空。
+
 - [R150：W/b0固定1009的三条已排赋值方向及六条保留边界](results/R150-appendix-unit211-W-b0-three-excluded-1009-Newton-directions-and-six-retained-boundaries.md)：949603唯一3.014292秒/0，全部系数p整/顶点p单位，九共同Newton边完整Bézout。排(-2,1),(-1,-1),(-1,2)；非零赋值向量只可能其余六射线，未证存在或全整性/原排空。
 
 - [R150：正确Phi三个真实头的例外权支持至多392](results/R150-appendix-unit211-Phi-zero-corrected-three-heads-392-exceptional-weights.md)：新H28 QQ不可约总28与旧corrected overlap头H14非零总14，纸证互素/复零维交/Bézout392；三头同零只可能在该有限交，外部有18生成模型。只收紧例外权支持，全部几何纤维与独立尺度保，无新执行。
