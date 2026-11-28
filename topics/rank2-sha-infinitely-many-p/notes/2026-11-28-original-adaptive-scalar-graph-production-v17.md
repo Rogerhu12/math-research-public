@@ -118,3 +118,9 @@ The root fetched both run and job metadata independently. At the
 image pull was in progress; the mathematical authentication step had not
 yet started. Actual source authentication and acceptance remain to be read
 from this run. No production PASS is inferred from its startup.
+
+At `2026-11-28 11:30:17 UTC` the root independently read steps 1–3 as
+successful and step 4 as in progress. The complete log was not yet
+readable through the public job-log endpoint. This checkpoint therefore
+does not authenticate any solver-stage record, the 76 actual source pins,
+or the two PASS-reader returns; those remain to be consumed from the real log.

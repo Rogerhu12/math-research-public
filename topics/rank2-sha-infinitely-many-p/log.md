@@ -380,3 +380,9 @@ root再读BHKO原文Th3.12完整p^(-s)双线性公式、定义4.1/Prop4.7及Th4.
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:29:12 UTC到0f921f60209bb807d40bfb2455cee14f48408c41，私库2026-11-28 11:29:07 UTC到148d220328d044deaf24559bb3fd144ab30d2aa6；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3244/46697701B/tree3c2698663df48d93fea02d3b3469cbceb6dac1ad，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 11:29:27 UTC到7a05d2e8a4a38610ff087b91f67827136cc07a33，私库2026-11-28 11:29:22 UTC到14b992645dd4411731263ae83f34f1ea0accca31；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3244/46697701B/tree3c2698663df48d93fea02d3b3469cbceb6dac1ad，无>5MB。
+
+## 2026-11-28 11:32:07 UTC — R1072 原相位Poisson下界与对数截点
+
+root逐项手核原有理因子χ_-3=1及角色性、非饱和子群的独立短生成元注入、r/k一致界、满秩整矩阵诱导对偶有限覆盖与Haar推前、其它坐标卷积保正、绝对Fourier收敛，以及两个独立子群的同X径向/长尾/primitive差。仅改候选末相位名nu(h)为定义的u(h)，不删原坏位。R1072 §§2–4已实推1c59d0e9309e6a7875d2d7cfc42205434168cb2a（11:29:33 UTC），两次非FF立即双pull/rebase，四README未变；QUEUE别处变化但本题认领仍原进行中。v17最新实际step4 running、日志尚不可读已同步H/来源注。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:32:19 UTC到0ae5e1480d0166d1fd85a5f1880c0ee1f67734af，私库2026-11-28 11:32:14 UTC到8acbd67aa7bfd66129201497bde156cacc5ccc0b；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46720696B/tree5234525503ea9fb8e2c5d943b77877719e36d5f5，无>5MB。

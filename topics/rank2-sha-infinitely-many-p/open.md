@@ -288,3 +288,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1072 §§2–4：原小整数行、准确λ阈值及真实二次矩
 
 原全tame整数行在每层均偶且|A_i,u|≤2(p+1)/3，旋分整基与小代表给非零原P_i严格v_p<1。BHKO Th3.12的真实双线性平方、完整旧项消去及Th4.14–15原period给v(P_i)=v(A_p)+S_i/D_i，故P_i非零恰λ_p<D_i−S_i，零层构成初始段。§1遂给无条件有限λ界；首层插值度恰p−1−λ，λ=2恰原Σu²A_1,u modp非零，原通常Sha桥适用。Weil弧界另给真√p节省；未把µ0或固定行界当中央非零。 [同编号全文](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
+
+### R1072 §5：完整原相位的正下界与对数截点
+
+原primitive方向的完整坏位相位在分裂素理想自由群上确为角色；短同步子群不需饱和，以真实tame像注入控制其秩。不同素坐标Poisson测度推前及卷积给同一原相位的严格正下界，保全H_2i与H_(2i−1)两组不同子群和全部长方向误差。统一非零截点缩至i≥100 logp/loglogp，遂log(1+λ_p)≪(logp)²/loglogp。没有排除首层二次矩或中央重零。 [同编号全文](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。

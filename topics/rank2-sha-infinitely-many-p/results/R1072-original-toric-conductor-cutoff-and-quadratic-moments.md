@@ -117,3 +117,40 @@ $$ \lambda_p\le\bigl(p-1-3\sqrt p/128\bigr)M_{i_0}-S_{i_0}-1 .$$
 此界不把整平方给出的所有高层估值当相互独立的零条件。
 
 外部主文：[BHKO 原文](https://arxiv.org/pdf/2408.13932)，§2.3(2.7)、§3.2.2(3.4)、Thm.3.12 的双线性定理陈述、§4.4.1 Thms.4.14–4.15。原固定 Brandt 值、绝对基点及第一完整 incidence 行见 R736 §§3–8 与公开运行 43705223442。
+
+## 5. 原反圆分平均的分裂素理想格与 Poisson 正下界
+
+保留§1原显式非零段的 $I=2i$、$X=(51/\pi)p^{2i}$、$s\in\{I,I-1\}$、$Z_s(X)$、原理想角色 $\psi=\psi_{17}$ 与 $R_{102p}$。在该段的完整 Mellin 差中可把统一截点大幅缩短：对充分大的惰性 $p$，只要
+$$i\ge 100\,\frac{\log p}{\log\log p},$$
+该层所有确切阶 $p^{2i-1}$ 的原扭曲均非零。对该截点至无穷的整段一致。下文所有对数为自然对数。
+
+沿用 R724(B1) 的实际 primitive 射线，保留 $(\alpha,\delta)=1$，并模原 $\mu_6$。$2,17,p$ 在 $K$ 中皆惰性。在每个分裂有理素数 $\ell$ 上固定上方一侧 $\pi_\ell$（指素理想）。给每条方向记
+$$h_\ell=v_{\pi_\ell}((\alpha))-v_{\bar\pi_\ell}((\alpha)).$$
+因子 $(\alpha)$ 在每个这样的共轭对中至多包含一侧，且无惰性或分歧素因子。反之任意有限支撑整数向量 $h$ 给唯一这样的 primitive 理想；$h_K=1$ 给唯一模 $\mu_6$ 的 primitive 生成元。相乘后去掉的有理因子均由分裂素数组成，其有限字符 $\chi_{-3}$ 在这些因子上为1。于是确切相位在自由交换群 $\mathcal D=\bigoplus_{\ell\,\mathrm{split}}\mathbf Z$ 上是一个角色 $u$：
+$$ |\alpha|=B(h)=\prod_\ell \ell^{|h_\ell|/2},\quad
+w(h)=B(h)^{-1},\quad
+\frac{\psi((\alpha))}{N(\alpha)}=w(h)u(h),\quad
+u(h)=\prod_\ell\left(\frac{\psi(\pi_\ell)}{\sqrt\ell}\right)^{h_\ell}.$$
+最后一个式子用 $\psi(\pi_\ell)\psi(\bar\pi_\ell)=\psi((\ell))=\ell$ 与 $|\psi(\pi_\ell)|=\sqrt\ell$。特别原十七处及其它有限标记始终在 $u$ 内。$h\mapsto[\alpha/\bar\alpha]$ 到模 $p^s$ 范数一群除以 $\mu_3$ 是群同态，原同步即像落在 $\mu_d/\mu_3$（$d=p+1$）；故全同步方向构成子群 $K_s$。目标 tame 有至多 $p+1$ 个元素。
+
+令 $B=p^4$，$H_s\subset K_s$ 为所有 $B(h)\le B$ 的同步方向生成的子群；这些生成元有限。设 $k=\mathrm{rank}(H_s)$。取其中 $k$ 个线性独立短生成元。若任两积的每一边至多由 $r$ 个这样的生成元相乘，则有 integral 生成元复模各至多 $B^r$。若其 projective 像相等，适当乘 $\mu_6$ 后有 $\alpha\bar\beta-\bar\alpha\beta\in p^s\mathcal O_K$。其复模至多 $2B^{2r}$，故在 $2B^{2r}<p^s$ 时只能为零；两积在 $\mathcal D$ 中相等。于是 $r\le k$ 且 $8r+\log_p2<s$ 时，由每个含 $r$ 个不同生成元的子集作积，得
+$$ \binom kr\le p+1. $$
+这个注入只涉及完整同步群的有限 tame 像；辅助积的两个原 $\mu_3$ 相位已按全局六次单位校正。
+
+记 $L=\log p$、$l=\log L$，取 $r=\lfloor 20L/l\rfloor$。在所述 $i$ 范围有 $s\ge 200L/l-1$，故 $8r+\log_p2<s$。若 $k<r$ 已有 $k\ll L/l$；否则 $\binom kr\ge(k/r)^r$ 使 $k\le r(p+1)^{1/r}\ll L^{1+1/16}$（因 $(\log(p+1))/r\le l/16$ 对充分大的 $p$）。故
+$$k^{3/4}=o(\log p)$$
+且界对 $i$ 一致。没有要求 $H_s$ 饱和或是直和因子。
+
+选择 $k$ 个不同的分裂素坐标 $J$ 使投影 $H_s\to\mathbf Z^J$ 单射；这由有限支撑有秩 $k$ 的整数矩阵的非零子式给出。$H_s$ 的生成元合共只涉及有限多个坐标 $S$。对 $0<t<1$，圆上的 Poisson 概率密度 $P_t(\theta)=(1-t^2)/|1-te^{i\theta}|^2$ 有 Fourier 系数 $t^{|n|}$，最小值 $(1-t)/(1+t)$。先在 $J$ 坐标取 $t_\ell=\ell^{-1/2}$ 的乘积。$\widehat{\mathbf Z^J}\to\widehat H_s$ 的限制映射满射，因满秩整数矩阵可用 Smith 型化为各 $z\mapsto z^{n_j}$；Haar 概率测度的推前是 Haar 概率。故乘积密度限制后的推前至少
+$$ c_J=\prod_{\ell\in J}\frac{1-\ell^{-1/2}}{1+\ell^{-1/2}} $$
+乘目标 Haar 概率。$S\setminus J$ 的坐标 Poisson 概率也推前到同一对偶群，两概率卷积仍有此下界，全部 Fourier 系数正是 $w(h)$。因 $J$ 投影单射，$\sum_{H_s} w(h)^\gamma\le\prod_{\ell\in J}(1+\ell^{-\gamma/2})/(1-\ell^{-\gamma/2})$ 对任意 $\gamma>0$；故 Fourier 密度一致绝对收敛。代入原 $u$（或其逆）得实值
+$$ c_J\le P(H_s):=\sum_{h\in H_s}w(h)u(h)\le c_J^{-1}. $$
+$k=0$ 时两端同为1。把 $J$ 的不同素数排序，第 $j$ 个至少 $j+1$ 且全部至少7，遂 $\log c_J^{-1}=O(\sqrt{k})$、$\log\sum_{H_s}w(h)^{1/2}=O(1+k^{3/4})$。两界对实际素因子及 $H_s$ 统一，故 $P(H_s)\ge p^{-o(1)}$、$\sum w^{1/2}\le p^{o(1)}$。
+
+最后返回原 $Z_s$。$B(h)\le B$ 的全同步集合恰是 $H_s$ 中同一截断，因此在这段可用 R724(B3)。原径向在每条短方向上为
+$$R_{102p}(X/B(h)^2)=C_p+O(B/\sqrt X),\qquad C_p=\frac{9\pi}{17\sqrt3}(1+p^{-1}).$$
+它来自相同 $X$ 的两个 R724(26)–(28) 项；在所述范围 $X/B^2p^2\to\infty$。总误差 $\ll B X^{-1/2}\sum_{H_s}w(h)$。$H_s$ 的无穷尾满足 $\sum_{B(h)>B}w(h)\le B^{-1/2}\sum_{H_s}w(h)^{1/2}$。原 $K_s$ 中的全部长射线（包括不在 $H_s$ 的）按相对范数段同一 $p+1$ 个格和首线区分；在长首线至多两个 primitive 点，各 $\ll1/B$，偏离首线的带权总量仍每格 $\ll\sqrt X/p^s$。于是
+$$Z_s(X)=C_p P(H_s)+O\!\left(
+ B X^{-1/2}p^{o(1)}+ B^{-1/2}p^{o(1)}+\frac{p+1}{B}
+ +(p+1)\frac{\sqrt X}{p^s}\right).$$
+$B=p^4$ 且 $s=2i,2i-1$ 使总误差 $O(p^{-2+o(1)})$。无导子混用：两个子群 $H_{2i}$、$H_{2i-1}$ 分别估计，未令其相等。故 $Z_{2i}\ge p^{-o(1)}$、$|Z_{2i-1}|\le p^{o(1)}$，原 primitive 差的实部严格为正。实性亦由全理想和配共轭给出。先得某一 $L\ne0$，再由原 Rubin 函数在未分歧基上的同层 Galois 轨道性，得该层每个 primitive $L\ne0$。由已证原整行桥，取 $i_*=\lceil100\log p/\log\log p\rceil$ 可在无条件 $\lambda_p<D_{i_*}-S_{i_*}$ 中使用这个新截点；$\log(1+\lambda_p)\ll (\log p)^2/\log\log p$。这段控制未给首层的原二次矩赋非零值。

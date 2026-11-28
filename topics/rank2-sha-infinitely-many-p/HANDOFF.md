@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:29:27 UTC实际pull --rebase，读取main 7a05d2e8a4a38610ff087b91f67827136cc07a33；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:29:22 UTC实际pull --rebase至14b992645dd4411731263ae83f34f1ea0accca31；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:32:19 UTC实际pull --rebase，读取main 0ae5e1480d0166d1fd85a5f1880c0ee1f67734af；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:32:14 UTC实际pull --rebase至8acbd67aa7bfd66129201497bde156cacc5ccc0b；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bee3692a9c661d21f286c6799449901acca6583f，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3244/46697701B/tree3c2698663df48d93fea02d3b3469cbceb6dac1ad；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3245/46720696B/tree5234525503ea9fb8e2c5d943b77877719e36d5f5；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -24,7 +24,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 两原F/P、端点归一、T/v正负与9scalar支撑实际完成。首A0有限denominator306整Popov给det度3670，完整quotient solve后转原fallback，11:06:54.1538954Z明报800万transcript系数预算耗尽，elapsed8954.748600139s；solver1/host1。不是OS OOM、137或deadline。零selected endpoint image/graph及outer/后续四交八scalar/Norm/九pairs/终门PASS；F_y仍旧attached。全部旧run/hash/pins见生产注及归档。
 
 [R1071完整算法](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)：原单右端D·W=qN、逐实际坐标完整Y核≤306列终止；全Laurent多项式部分X、低次残量及已造两ideal后全部X比较保留。原2256双极度、总度>4512，不以小例保证性能。§9由同次原共权12/det3670及四∞纤维、真实π1 germ证A0有限U恰1、P∞∈{1,2}、有限公共零长1415/1416和全球1416；真实LRU按j单键及对角单调给单对象驻留窗口≤1251846<2000000，未界整X或RSS。
-[新软件实际PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113，7.582517183s；root/代理各核全log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309、32pins、8比较、2外门篡改、2预算拒绝、真二次底素/模块转置。真实四新源与3适配已入库。[v17生产](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)现接同heavy组：76pins/72原共享，两新wrapper及2已PASS helper，数学体唯一改IMPLEMENTATION名称且host反替换核原SHA。请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45；所有原输入/F/P及4CPU16GB21000s不变。实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44 UTC创建；11:20:00读image pull中，数学步待执行。无PASS。
+[新软件实际PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113，7.582517183s；root/代理各核全log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309、32pins、8比较、2外门篡改、2预算拒绝、真二次底素/模块转置。真实四新源与3适配已入库。[v17生产](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)现接同heavy组：76pins/72原共享，两新wrapper及2已PASS helper，数学体唯一改IMPLEMENTATION名称且host反替换核原SHA。请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45；所有原输入/F/P及4CPU16GB21000s不变。实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44 UTC创建；11:30:17 root读step1–3 success、step4 in_progress；完整log暂未可读，本次76pins/F/P尚待实际日志。无PASS。
 
 ## 原共同两/三位：R1067
 
@@ -40,7 +40,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 原全导子量化：R1072
 
-[R1072](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)§1已付原完整Mellin primitive差、同一X、六条单位/δ短线、相对范数与二维格一致误差；D=φ(p+1)/2，i≥(1/2+ε)D整段所有原twists非零。未分歧同层传播返A/B34无旋分根，未决定中央或首层。§§2–4已付原全层偶数小行、非零P_i严格v<1、Th3.12/4.14–15原周期和v(P_i)=v(A_p)+S_i/D_i；P_i非零恰λ<D_i−S_i，零层初始段。原首层λ=2恰Σu²A_1,u modp非零，足以通常全Sha有限。原有限域插值与Weil弧界再给√p节省，未证所需无穷p非零。
+[R1072](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)§1已付原完整Mellin primitive差、同一X、六条单位/δ短线、相对范数与二维格一致误差；D=φ(p+1)/2，i≥(1/2+ε)D整段所有原twists非零。未分歧同层传播返A/B34无旋分根，未决定中央或首层。§§2–4已付原全层偶数小行、非零P_i严格v<1、Th3.12/4.14–15原周期和v(P_i)=v(A_p)+S_i/D_i；P_i非零恰λ<D_i−S_i，零层初始段。原首层λ=2恰Σu²A_1,u modp非零，足以通常全Sha有限。原有限域插值与Weil弧界再给√p节省，未证所需无穷p非零。 §5把真实primitive分裂素方向相位保为角色，短同步子群的tame注入限秩、Poisson推前正下界及全长尾，给i≥100logp/loglogp整段非零与log(1+λ)≪(logp)²/loglogp。
 
 ## 更正、其它门与主前沿
 
