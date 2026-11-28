@@ -14,6 +14,24 @@ INPUT_SHA='9d04e45865cb60f270eacbb5e70b2466c7ae41a18d0168a9a9d33eeec949bbcc'
 MATERIAL_SHA='0d222bd12ce8a61d0c88264c6fb5c82066f0ca058855b5bf7a670a53b483a991'
 SCHEMA='r582-actual6236-material-qualified-original416-continuation-v1'
 INPUT_SCHEMA='r582-6236-material-bound-original416-required-terminal-v1'
+STARTUP_FAILURE={
+    'run_id':46143426419,'job_id':140974180250,
+    'source_commit':'42a4318a391f68f763625a2f9e53495179d8537c',
+    'original_raw_bytes':228176,
+    'original_raw_sha256':'3242ddc88f7d45185e95e29035f9201fb55b1acc7d691805969369132b5223ca',
+    'request_bytes':351114,
+    'request_sha256':'c33b417f07431ad4ad83b7677ffd0ed50b48656841b3253f0fcd6f53599ca747',
+    'runtime_public_pull_commit':'af42edb841feb677ef8469e83b703f622f8704f7',
+    'runtime_private_pull_commit':'7441085bc8b89166859e67bfd149ea78e74d46da',
+    'child_started_utc':'2026-11-28T12:12:09.276504Z',
+    'child_finished_utc':'2026-11-28T12:12:10.016198Z',
+    'child_wall_seconds':0.739694,'child_exit_code':1,
+    'attempted_maximum_seconds':7200,'original_declared_maximum_seconds':2400,
+    'failure':'ValueError: invalid declared finite-stage scope',
+    'failed_before_load_input_and_scientific_clock':True,
+    'scientific_FINAL_emitted':False,
+    'field_Jacobian_or_fine_science_started':False,
+}
 if hashlib.sha256(PARENT_SOURCE.read_bytes()).hexdigest()!=PARENT_SHA:
     raise RuntimeError('the completed original412 entry differs')
 import r582_4883_material412_resume_20261128 as parent
@@ -87,6 +105,7 @@ def load_input(raw,digest):
     source['resume97_origin'],source['resume97_state']=origin,state
     source['resume97_input_sha256']=digest
     source['prior_cost_ledger']['physical_original412_actual_terminal']=incoming['new_terminal_cost_ledger']
+    source['prior_cost_ledger']['actual6236_declared_scope_startup_failure']=STARTUP_FAILURE
     source['original412_last_completed_full_scan_trial']=complete
     source['unqualified_warm_backend_trial']=raw_trial
     # The accepted physical half-step is already the current retained point.

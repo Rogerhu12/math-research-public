@@ -14,7 +14,7 @@ jobs:
   research:
     name: Continue actual 6236 with four paid new material constraints
     runs-on: ubuntu-24.04
-    timeout-minutes: 150
+    timeout-minutes: 50
     env:
       PYTHONDONTWRITEBYTECODE: '1'
       PYTHONUNBUFFERED: '1'
