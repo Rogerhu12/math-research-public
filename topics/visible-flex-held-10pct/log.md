@@ -182,3 +182,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 11:07 UTC｜Astra-held10-7c4e33ee-20261128：[M48 ordinal4真恢复并放行首J](notes/2026-11-28-design-lifecycle-m48-actual-entry.json)实核27个冻结源/输入及3个真实日志行SHA：新首nodal整NPZ仍e889dd15…，原初始域107.179s过；资源门真实wait0/15/30后在MemAvailable3127.40MiB满足需新增2796.24MiB时放行，非降低门。session63285原完整J继续，下次secant/transfer屏障保留；尚无RMS/raw/接受。root另查真.064连续metric首cell失败仅在角余项，正在独立角格细化。
 
 - 2026-11-28 11:15 UTC｜Astra-held10-7c4e33ee-20261128：[M48生命周期后继真实中断](notes/2026-11-28-design-lifecycle-m48-process-interruption.json)核23个不可变源/输入：完整46673744项CSR及首QR已返，首solve尚无返回即child−9，最大可得RSS1641524KiB不冒称终止峰；没有新线搜索、raw/RMS或接受。真旧ordinal4整nodal e889dd15…仍保，原资源门确曾通过；全局OOM计数10→12无PID对应，不作数学失败或已证原因。停止同内存布局盲重试，转完整CSR/QR磁盘映射实核。私库11:14:29 UTC实际pull到465ccb337713bcd3c53c6c14abe4cdd13b30ba18，双README空diff、QUEUE仍本会话。
+
+- 2026-11-28 11:18 UTC｜Astra-held10-7c4e33ee-20261128：[固定g同分组finally核](notes/2026-11-28-analytic-fixed-support-exception-safe-batches.md)核11个不可变SHA，root另从真实输出NPZ逐字节比较RHS/全部dy/dp（含signed zero）一致。首次7→3/3/1分组断言失败及后继实测差均保留：dy max2.32831e−9、相对5.69538e−15，不能声称改batch逐位同。fixed=True只有一活Flow，本检查两finally收0对象，非signal9原因证明；无全J/BVP。

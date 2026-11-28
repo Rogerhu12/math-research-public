@@ -1,0 +1,166 @@
+{
+  "status": "actual_fixed_support_same_group_finally_comparison_and_cross_group_difference_recorded",
+  "source_sha256": "73814fcb64e754b8371b2d67075f21ca2452547eb07b93592c9937a40c3c4724",
+  "donor_run": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v5/run.json",
+  "donor_run_sha256": "26373bc7baa5d88fc9b3383e1375a127f993728499fa38363d09e57cb174f08a",
+  "actual_terminal_sha256": "940a1009e38bab606da61d6ea54c6a936b74062aecff1098dc188ce5e32ff5d3",
+  "checkpoint": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-lambda002-m32-spectral-recovery-v5/last-nodal-jac-input.npz",
+  "checkpoint_sha256": "dedd80ae45e10bfecb02a4369f51f9751c2ed2e41c3f140f66cdbad3f5b65544",
+  "nodes": [
+    0,
+    249,
+    499,
+    748,
+    997,
+    1247,
+    1496
+  ],
+  "modes": 32,
+  "angular": 1024,
+  "mean_nodes": 1168,
+  "complete_states": 97,
+  "complete_parameters": 32,
+  "q_actual": 0.06000042536452339,
+  "physical_delta": 0.06413464112662924,
+  "old_solver_rhs_block": 64,
+  "old_solver_jac_batch": 32,
+  "small_check_block": 3,
+  "same_group_checks": {
+    "rhs": {
+      "bitwise_equal": true,
+      "maximum_difference": 0.0
+    },
+    "all_dy": {
+      "bitwise_equal": true,
+      "maximum_difference": 0.0
+    },
+    "all_dp_including_log_q": {
+      "bitwise_equal": true,
+      "maximum_difference": 0.0
+    }
+  },
+  "same_group_statistics": {
+    "rhs_calls": 1,
+    "jacobian_calls": 1,
+    "rhs_blocks": 1,
+    "jacobian_blocks": 1,
+    "collections": 2,
+    "collected_objects": 0,
+    "collection_seconds": 0.07471521600018605,
+    "exception_blocks": 0,
+    "exception_types": {},
+    "maximum_rss_kib": 392184,
+    "successful_and_exceptional_short_calls_collected": true,
+    "live_caches_cleared": false,
+    "original_exceptions_suppressed": false,
+    "original_numerical_calls_or_arithmetic_changed": false
+  },
+  "cross_group_checks": {
+    "rhs": {
+      "bitwise_equal": false,
+      "maximum_difference": 1.5413090463908493e-15
+    },
+    "all_dy": {
+      "bitwise_equal": false,
+      "maximum_difference": 2.3283064365386963e-09
+    },
+    "all_dp_including_log_q": {
+      "bitwise_equal": false,
+      "maximum_difference": 2.5557812976357173e-19
+    }
+  },
+  "cross_group_statistics": {
+    "rhs_calls": 1,
+    "jacobian_calls": 1,
+    "rhs_blocks": 3,
+    "jacobian_blocks": 3,
+    "collections": 6,
+    "collected_objects": 0,
+    "collection_seconds": 0.477906353004073,
+    "exception_blocks": 0,
+    "exception_types": {},
+    "maximum_rss_kib": 392184,
+    "successful_and_exceptional_short_calls_collected": true,
+    "live_caches_cleared": false,
+    "original_exceptions_suppressed": false,
+    "original_numerical_calls_or_arithmetic_changed": false
+  },
+  "flow_bound_method_self_cycles": {
+    "fun": true,
+    "fun_jac": true,
+    "c2_interpolant": true
+  },
+  "same_fixed_flow_for_all_scalar_arguments": true,
+  "old_fixed_model_uses_design_delta_finite_differences": false,
+  "constructor_unreachable_objects_collected": 78,
+  "constructor_retired_adaptive_flows_observed_via_weakrefs": 0,
+  "current_live_adaptive_flow_count_after_collection": 1,
+  "live_physical_Flow_or_cache_cleared": false,
+  "exceptional_fixed_g_call_tested": false,
+  "observed_signal9_cause_inferred": false,
+  "all_physical_parameters_and_gates_unchanged": true,
+  "full_J_assembled": false,
+  "nonlinear_solver_invoked": false,
+  "accepted_bvp": false,
+  "complete_surface": false,
+  "maximum_rss_kib": 392184,
+  "elapsed_seconds": 15.33523978300218,
+  "dependencies": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_support_literal_model.py": "41fb25ca0d92f936f747cfd74066806c0a114d54ee920c4a8d82e081870ba1cf",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/exception_safe_radial_batches.py": "2d2b413a46a23882341a4d5cac7ce2bc2c44c8444129d322d898288597c2c7a7"
+  },
+  "output_arrays": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-support-gc-seven-nodes-v2-20261128/actual-seven-node-output-comparison.npz",
+    "sha256": "9ca3912eb4e67b6becd368220d8ea472b87b9520ad7d138bedecca876b1a7601"
+  },
+  "first_failed_execution": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-support-gc-seven-nodes-20261128/failed-attempt.json",
+    "sha256": "94baa309f44921548b95f7bb65259bd96487f119163f09d1aea2a54c395ba27d"
+  },
+  "runtime_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-support-gc-seven-nodes-v2-20261128/report.json",
+    "sha256": "6ea1e61d8c9d535209f12290b1aa74f0c2dc98edb15d000e91236c048b6cecbc"
+  },
+  "cross_group_relative_scales": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fixed-support-gc-seven-nodes-v2-20261128/cross-group-relative-scales.json",
+    "sha256": "8052551181a0ad8b0f3a8aec12410bca5ca3f1183d4766cb9683f55f80284b0c",
+    "result": {
+      "source_array_sha256": "9ca3912eb4e67b6becd368220d8ea472b87b9520ad7d138bedecca876b1a7601",
+      "rows": {
+        "rhs": {
+          "max_original": 4.66234424273944,
+          "max_difference": 1.5413090463908493e-15,
+          "relative_l2": 6.51808084259889e-16,
+          "relative_global_max": 3.3058671049249396e-16
+        },
+        "dy": {
+          "max_original": 545115.4093103939,
+          "max_difference": 2.3283064365386963e-09,
+          "relative_l2": 5.6953814001504015e-15,
+          "relative_global_max": 4.2712174280381365e-15
+        },
+        "dp": {
+          "max_original": 0.000871514322672757,
+          "max_difference": 2.5557812976357173e-19,
+          "relative_l2": 4.797232630028676e-16,
+          "relative_global_max": 2.932575209776996e-16
+        }
+      },
+      "additional_model_evaluations": 0
+    }
+  },
+  "actual_small_comparison_process_exit_code": 0,
+  "first_cross_group_assertion_process_exit_code": 1,
+  "resource_interpretation": {
+    "fixed_model_uses_one_live_fixed_Flow": true,
+    "fixed_model_design_delta_FD_not_executed": true,
+    "same_group_rhs64_jac32_finally_calls_bitwise_equal": true,
+    "changed_3_3_1_groups_bitwise_equal": false,
+    "finally_collection_proves_cause_of_signal9": false,
+    "fixed_g_exception_path_executed": false,
+    "future_driver_must_include_retained_factor_nonlinear_memory_budget": true,
+    "no_additional_tests_required_by_this_result": true
+  }
+}
