@@ -87,3 +87,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R650 同实际内尾的完整二阶几何
 
 [完整证明/消费者](results/R650-true-tail-fixed-reference-second-derivative-and-actual-curvature.md)先从参考G′=0用正M解E″，再从固定seed G′=0用原κW解s″，保逐点W²多项式后才作指数最大化。实际自由mean保四Gaussian/90真零和完整第三jet，Rr/Gr/Hr/Ss不除trial均值、不删全F/G；结合R649给真实形算子与内帽C²/两κ→0。全部七原源误差按同输入保留，现成对象/receipt消费者无新ODE/J/FFT，未执行或授主体reach；外竖直接柱另见待读R653。
+
+### R653 实际离解外缘的竖直接柱与正图余量
+
+[完整证明/消费者](results/R653-actual-normalized-vertical-cylinder-seam-and-positive-collar.md)从真实齐次/forced/core/spline/tanh/全部mean基底给C=W(Zr+W)的C¹迹与Crr=O(1/δ)，再以真实核心隐根支付固定e、seedζ的同类界。目标弧长下Yss/Zss→0，实际归一位置C²接自身闭凸柱，非零柱曲率准确为−1/(R A0 v0)。边缘sqrt(E)S有可能是非零有限值，必须保完整D0/F0/G0；余量v_min−Δ>0才给某一正图/嵌套collar。消费者只用同态全Laurent两迹及原误差，连续A可复用，否则有限多项式零模与显式无限尾给真实均值。未给collar数值宽度，仍须主体与两端之间的连续覆盖、全reach及同g宏观。

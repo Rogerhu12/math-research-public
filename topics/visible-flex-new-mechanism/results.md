@@ -225,3 +225,7 @@
 ## R650：真实完整内尾的E″、seed s″、离解曲率与平帽C²
 
 [完整证明](results/R650-true-tail-fixed-reference-second-derivative-and-actual-curvature.md)保逐点W权：固定参考E″≤W²P6、固定seed s″≤WP6、全trial Rr/Gr/Hr/Ss≤W²P6，单项式真正最大位置给全尾可实现界。原germ/forced/pre-tanh/canonical512/所有样条及96角Gaussian/4meanGaussian的完整三阶贡献逐项保留。真实形算子按R649传递，得到全角一致平帽二阶迹和κ→0；全窗数值曲率须同候选分母可分离。接续源码只消费同R648现成对象与两paid receipt，七原源误差仍条件性，不重建旧科学，不授主体/全时reach。
+
+## R653：真实离解外缘C²接自身竖柱及完整边缘缺陷
+
+[完整证明](results/R653-actual-normalized-vertical-cylinder-seam-and-positive-collar.md)核对原所有basis及forced三阶代价、固定e与seedζ隐式二阶，得到真实通量C的C¹/O(1/δ)类。α>1/2使真实弧长Yss/Zss和混合二阶正好接柱，柱曲率是实际−1/(R A0 v0)，没有把A0误设1。完整边缘D0/F0/G0保留sqrt(E)S的有限值；显式v_min−Δ给正图开邻域。相应全模消费者先合并同一Laurent模再取界，复用真A或用零模和无限级数尾，保所有原源误差；不授数值collar宽度/主体reach。
