@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- [R267：保持函数正锥的全部幂共同分母及其紧支配边界](results/R267-appendix-positivity-preserving-common-powers-and-no-compact-domination.md)：真实非零正锥强积、全部有界整数逆及同一强单位；高位comm预算排非零紧lattice支配，实际平方分子仍开。
+
+- [R150：Phi 完整二阶核秩2及790次数上界](results/R150-appendix-unit211-Phi-zero-second-kernel-Schur-rank-two-and-degree-upper-bound-790.md)：含完整逆修正的3阶新矩阵付第十二阶消失；789≤deg_u≤790，未付原模点保度。
+
 - [R150：完整QQ双数原族、泛型D返回与整个当前W有限支撑](results/R150-appendix-unit211-W-generic-original-dual-family-D-return-and-finite-physical-support.md)：真四维满射合独立≤4给同构；物理泛型空合无竖线/H198有限，付完整规范原商有限，全部有限原候选仍开。
 
 - [R150：Phi 一阶核Schur秩5与791次数上界](results/R150-appendix-unit211-Phi-zero-first-kernel-Schur-rank-five-and-degree-upper-bound-791.md)：完整左右核/双逆/新秩返回付十一阶消失；789≤deg_u≤791，未先付789保度。
