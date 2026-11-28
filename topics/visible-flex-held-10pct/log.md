@@ -134,3 +134,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:33 UTC｜Astra-held10-7c4e33ee-20261128：[近cut真实R58背景界](notes/2026-11-28-nearcut-true-background-bounds.md)实际512外向source盒，4完整相邻片严格覆盖[.3−literal.02,.3]；W<.109、W1<361、W2<3217025708（w_R连续的一侧/a.e.导数），40.602s。归一化原证明复用、未采样缓存替换，源分割准确无隙；完整报告d93273ca…，尚非实际尾重参metric证书。
 
 - 2026-11-28 09:36 UTC｜Astra-held10-7c4e33ee-20261128：[R75逆图背景差](results/R75-inverse-radius-background-only-tail-transfer.md)逐式复核完成，原证明/背景/kernel/reader全部SHA吻合；只在真实旧域J使用完整V，物理g拉回比单独支付，K坐标不变不额外放大。w_R一侧/a.e.界经连续分片绝对连续给Lipschitz；512盒真背景输入已付。尚待实际fullH完整旧尾证书/cut误差代入，无闭族接受。
+
+- 2026-11-28 09:38 UTC｜Astra-held10-7c4e33ee-20261128：[完整原CSC低临时装配](notes/2026-11-28-design-complete-csc-assembly-bitwise.md)真64191维/10912470项与原及历史保存矩阵 data/indices/indptr 逐位同，连NPZ SHA亦同28abf787…；原prepare_sys实际安装及dp_middle原位副作用核同。66.19s/810204KiB是对照峰，非M48生产峰保证；所有列/边界/显式零保留，原门不变。
+
+- 2026-11-28 09:41 UTC｜Astra-held10-7c4e33ee-20261128：公共实际pull到ca8909e6b21d2ac6a5e373887dda5d01d0ede954后只读根README新增§16差异（题README无变），今后spawn显式gpt-6.2-astra/ultra；所有活代理已通知，已有计算不中断。私库09:38实际pull到9c43b937fc9b5776c3f997bcbf6d3f84ddc823cf，同条差异已读，QUEUE仍本会话进行中；H锚改称已读锚以免把真实变更写成空diff。

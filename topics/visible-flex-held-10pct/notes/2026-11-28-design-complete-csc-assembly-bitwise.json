@@ -1,0 +1,152 @@
+{
+  "scope": "Actual complete original collocation Jacobian assembly storage change only. This record is a matrix identity check, not a new accepted prefix, BVP step, proof, or surface.",
+  "recorded_utc": "2026-11-28T09:29:44.180356+00:00",
+  "actual_comparison_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-direct-csc-m24-20261128/comparison.json",
+  "actual_comparison_sha256": "691beacafa28dedd7f60503b993f601fe96973ef4976c8aa1c1834ff21b813b4",
+  "comparison": {
+    "scope": "Bitwise full-matrix check on the actual previously saved M24 J input.\n\nThe original complete RHS and analytic/centered parameter Jacobian are\nreconstructed once. Both assemblers receive identical complete arrays. The\nnew installed prepare_sys path is also checked, and the result is compared\nwith the prior saved actual matrix. No BVP step or solution is produced.\n",
+    "status": "actual_complete_CSC_bitwise_check_passed",
+    "prior_check": "/workspace/scratch/7c4e33ee17de/held10-linear-work/actual-m24-check/summary.json",
+    "prior_check_sha256": "75eff251f618164a3c9c93ae65b61280cc491b6d5b98844708a0de82e5396bad",
+    "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+    "snapshot": "/workspace/scratch/7c4e33ee17de/held10-linear-work/lambda002_m24_jac_input.npz",
+    "snapshot_sha256": "c9c4906fb944a82d59f752d74332157dc564b841d269148de20206d937a4edde",
+    "n": 73,
+    "m": 879,
+    "k": 24,
+    "shape": [
+      64191,
+      64191
+    ],
+    "stored_entries": 10912470,
+    "source_partial_seconds": 40.08708157299952,
+    "original_assembly_seconds": 1.2408734849996108,
+    "direct_assembly_seconds": 0.23641500499979884,
+    "original_vs_direct": {
+      "shape": true,
+      "indices": true,
+      "indptr": true,
+      "data_bits": true
+    },
+    "original_parameter_midpoint_mutation_bitwise": true,
+    "installed_prepare_sys_vs_direct": {
+      "shape": true,
+      "indices": true,
+      "indptr": true,
+      "data_bits": true
+    },
+    "installed_assembly_records": [
+      {
+        "n": 73,
+        "m": 879,
+        "k": 24,
+        "stored_entries": 10912470,
+        "radial_temporary_block": 16,
+        "index_dtype": "<i4",
+        "final_storage_bytes": 131206408,
+        "old_COO_index_arrays_created": false,
+        "all_original_stored_zeros_retained": true,
+        "input_COO_indices_were_none": true,
+        "original_block_formula_operation_order_preserved": true,
+        "original_parameter_middle_update_preserved": true,
+        "final_storage_shared_with_result": true,
+        "seconds": 0.22186187299848825,
+        "maximum_rss_kib": 810204
+      }
+    ],
+    "prior_saved_matrix_vs_direct": {
+      "shape": true,
+      "indices": true,
+      "indptr": true,
+      "data_bits": true
+    },
+    "prior_saved_matrix_max_entry_difference": 0.0,
+    "prior_saved_matrix_sha256": "28abf787e7f94ea3424ee1e0d2a9fc5839589698920c5872d3459674d382fe53",
+    "actual_direct_matrix_sha256": "28abf787e7f94ea3424ee1e0d2a9fc5839589698920c5872d3459674d382fe53",
+    "direct_assembly_records": [
+      {
+        "n": 73,
+        "m": 879,
+        "k": 24,
+        "stored_entries": 10912470,
+        "radial_temporary_block": 16,
+        "index_dtype": "<i4",
+        "final_storage_bytes": 131206408,
+        "old_COO_index_arrays_created": false,
+        "all_original_stored_zeros_retained": true,
+        "input_COO_indices_were_none": true,
+        "original_block_formula_operation_order_preserved": true,
+        "original_parameter_middle_update_preserved": true,
+        "final_storage_shared_with_result": true,
+        "seconds": 0.22260164100043767,
+        "maximum_rss_kib": 810204
+      }
+    ],
+    "original_scipy_function_hashes": {
+      "compute_jac_indices": "a096b2315fdbb064b58e257af28be776c7b6451ff609d1c8772111d91caf1b9d",
+      "construct_global_jac": "f209e18f334535a5b5fbe571ac4a875dccef89ab5b77b94977023f4b0919b916",
+      "stacked_matmul": "2238d8e5917a14449a662e336c194517a6892e7e8ea783b173c24bde401b33ee"
+    },
+    "source_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_direct_csc_assembly.py": "3da9dc7ceea55500a6316d6b7b05a8cdd9ec40c4a9987cb28b309bdb8476db73",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/direct_csc_collocation.py": "e75111489b80327838251198bf202cb0497a2d4f6a725ab46b982b4318bd7cdb",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/cached_fourier_tables.py": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea"
+    },
+    "complete_original_state_support_delta_and_boundary_entries_retained": true,
+    "parameters_removed": false,
+    "original_sampled_acceptance_gates_changed": false,
+    "maximum_rss_kib": 810204,
+    "fourier_cache": {
+      "hits": 56,
+      "misses": 1,
+      "key_seconds": 0.10967763799635577,
+      "build_seconds": 0.4317361310004344,
+      "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+      "full_basis_and_frequency_bytes_bound": true,
+      "live_flow_or_physical_response_cached": false,
+      "shared_diagnostic_dictionary": false
+    },
+    "core_memo": {
+      "enabled": true,
+      "hits": 168,
+      "misses": 1,
+      "context_changes": 0,
+      "bypasses": 0,
+      "evictions": 0,
+      "context_key_seconds": 0.10036032400421391,
+      "original_evaluate_seconds": 0.567114308998498,
+      "copy_seconds": 0.04379498798698478,
+      "max_entries_per_core": 2,
+      "max_bytes_per_core": 134217728,
+      "peak_cached_bytes_one_core": 1425408,
+      "peak_entry_bytes": 1425408,
+      "original_evaluator_sha256": "336a769065ff8e15d74a5c85e9c9bbd0046e0604ad49b61199a2ce5cb6760711",
+      "complete_instance_state_bound": true,
+      "complete_theta_bytes_bound": true,
+      "original_output_cache_side_effects_restored": true,
+      "returned_arrays_are_independent_writable_copies": true,
+      "quadrature_or_model_changed": false
+    },
+    "seconds": 66.19316592099858,
+    "BVP_steps_applied": 0,
+    "accepted_field_produced": false
+  },
+  "new_frozen_source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/direct_csc_collocation.py": "e75111489b80327838251198bf202cb0497a2d4f6a725ab46b982b4318bd7cdb",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_csc_assembly_driver.py": "2f8667976aadc9c2c70063eee764a7bdf705538280004b1949d1f66def4f292d",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_direct_csc_assembly.py": "3da9dc7ceea55500a6316d6b7b05a8cdd9ec40c4a9987cb28b309bdb8476db73"
+  },
+  "storage_reason": "The old assembler allocates global int64 COO indices and full-grid formula/concatenation temporaries. The new one fills the complete sorted CSC storage directly, preserving stored zeros, all state/support/delta/boundary entries, original arithmetic block ordering, and original parameter-midpoint mutation. For n<=50 the whole-grid einsum shape is retained.",
+  "scope_limits": [
+    "No matrix column or physical unknown is removed.",
+    "Original residuals, nonlinear solver, refinement and all physical acceptance gates remain.",
+    "The independent analytical delta adapter and complete QR solver have their separately recorded checks; this assembly check reconstructs the historical original delta-FD matrix.",
+    "Peak includes both old and new matrices and is not an isolated new-BVP peak estimate.",
+    "No conclusion about the causes of previous -9/137 process exits is drawn."
+  ],
+  "prepared_next_execution": "/workspace/scratch/7c4e33ee17de/held10-design-work/prepared-design-direct-csc-analytic-delta-qr-20261128.json",
+  "prepared_next_execution_sha256": "5b9a60df2d0232e98e4d8811e4855ce75868e4edc40ff1cf47a98d52e00a344d"
+}
