@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-positive-commutators-first-Phi-coefficients-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-original-bipartite-jets-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [一般 A1=t=0 的两条真实原 jet 身份](results/R150-appendix-unit211-original-bipartite-Gram-jets-force-value-discriminant-zero.md)：六自由参数完整原Gram，5ms/495整数乘法/三差返；N0/P1/N1与均值直接给T=−ell、A2=ell、D=0，无Phi/W/几何头逆。结合正确R2，D≠0归一图的整t=0只能f=u；D=0碰撞保留。
 
 - [原 N1/F6 十二基环境的独立范围更正](results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md)：真N4极化及矩式保留；明确直接原单位U和正确Rbar，撤除旧§4隐含单位。h=k真五行首次实际完成，原共同头2e03首次派发；均未宣称原图排空。
 
@@ -67,31 +69,3 @@
 - [R150：全Phi纯权式的维数推论](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)：原F非零、例外外有限权模、至多798例外权上C[λ]有限必要代数，连原几何开集/规范恢复给整体维数≤1；不称零维或空。
 
 - [R12：全部真实Haar有限头平方根图的半弱极限与强图零](results/R12-appendix-all-finite-haar-head-root-graphs-half-weak-limit-and-strong-zero.md)：任意分支Π_L WOT→I/2，所有随动强图向量只趋0，含完整有限吸收直和根/任意高度子列；全Fourier子式奇偶/Norm和原balance中位预算已付。转其它真实闭域，不外推一般原根不存在。
-
-- [R150：十八个原关系列与全Phi非零纯权必要行列式](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)：304e真10.557245755秒/0；9种子及9真实倍的深1来源，Γ^5清系数及h极点，adj恒等式给F∈I10，实际模满秩只证同F非零；整F/H42曲线继续。
-
-- [R150：完整P164原整模型七单位块、两整余块与泛型长度≤8](results/R150-appendix-unit211-W-P164-integral-original-model-seven-units-and-generic-length-eight.md)：18ac真11.524541746秒/0，全部重数/原132列保；两次有限Nakayama给A≤8生成、QQ(k)长≤8，规范全坐标≤16。未全返1或付权零维。
-
-- [R12：原Haar有限头精确吸收与完整临界根图pair](results/R12-appendix-exact-haar-head-absorption-and-critical-root-graph-pair.md)：完整head↔tail源及K^[L]迹范数趋0；下一2N头确解有限平方关系，线性角度恰δ/(2μ)||Π+−Π−||<1/2；无限图相容及原闭根仍开。
-
-- [R150：Phi 三真实头互素及至多798个六次头例外权对](results/R150-appendix-unit211-Phi-zero-whole-three-heads-coprimality-and-798-sixth-head-exceptional-weights.md)：5883真3.881622428秒/0，H42/H19与C*的QQ互素和H42完整QQ不可约返回；例外外每权≤18，Δ补图≤12。未判共同零纤维为空。
-
-- [R12：Walsh真闭图坐标及同carry的小迹类角度解](results/R12-appendix-actual-walsh-graph-coordinates-and-small-trace-class-angle-solution.md)：全Julia四块与原前缀迹范数来源给唯一BY−YA=−HKG，全部根分支共同界√(2a0)+40e^−1070；临界低块及非线性同源费用仍开，不去掉缺陷因子。
-
-- [R150：整个 Phi 的原 NS/PS 六次标量及三乘子正则延拓](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)：24ec真2.343511191秒/0，最后N1乘子分母仅Q，C6完整覆盖Δ0；H42补图每权≤18，额外Δ补图≤12，整首项零仍留。
-
-- [R150：P164 保次数整特化、无竖直分量与秩97局部权模型](results/R150-appendix-unit211-W-native-P164-integral-specialization-no-vertical-component-and-local-weight-model.md)：e4bcc真11.412102491秒/0，固定195=98+97及三QQ商241次完整Bézout1，给真P无纯k内容；A上首一e97环境自由，后续原商/权单位未冒付。
-
-- [R12：原 Haar 全 Walsh 块的秩一 carry、迹类来源与闭块根](results/R12-appendix-actual-walsh-block-trace-class-carry-and-closed-diagonal-roots.md)：原C=D+K全部矩阵元、K迹类、精确循环相似费、真实闭稳定块根及RK/KR迹类域完整付出；同一实际相邻carry的主根线性Sylvester无有界修正。
-
-- [R12：全部 Walsh 循环块根分支的同源 Sylvester 发散](results/R12-appendix-all-walsh-block-root-branches-same-carry-sylvester-divergence.md)：cyclotomic代数范数给所有Fourier系数统一下界，全部分支的同一相邻carry实际元仍发散；保非线性X²、其它闭域与真实原旗。
-
-- [R150：Phi 中心原 NS/PS 本原六次标量及真实42次首项支持](results/R150-appendix-unit211-Phi-zero-centered-original-NSPS-sixth-scalar-content-and-true-leading-support.md)：3bbbb真3.242041814秒/0，C6权双53/27且λ内容1，原三系数全返；整斜率零未扩，H42整零保，指定双补图每权≤12。
-
-- [R150：W H198 补图完整 I11 精确二十行两列及两条原值标量](results/R150-appendix-unit211-W-H198-complement-exact-twenty-two-full-original-values-and-two-scalars.md)：cea506真128.939929339秒/0，I6精确十行及I11全二十行；个别N/P和整个NV保同点，两个真实cofactor给λ11/10，头与完整内容未付、整H0留。
-
-- [R150：Phi 完整原十式的精确十八行两列呈示](results/R150-appendix-unit211-Phi-zero-complete-original-values-exact-eighteen-by-two-presentation.md)：8c21真10.941668497秒/0，六新原值保个别B/C N/P与整个N4(V)，三mean来源DAG、单次坐标变化及完整模生成均付；整斜率零等未付面留。附最高缩放不能借旧零孤立均值排除的准确断点。
-
-- [R150：Phi 原 N1 斜率补图精确六行两列及三个原八次标量](results/R150-appendix-unit211-Phi-zero-original-N1-slope-exact-six-by-two-presentation-and-three-eighth-degree-scalars.md)：e797完整I4双向同构与稳定关系、三个真实来源λ8；H19交补图每权≤12，整斜率零及头/内容保留。
-
-- [R150：W 无新逆中心坐标与原值次数界](results/R150-appendix-unit211-W-H198-centered-slope-monic-square-and-original-value-degree-bounds.md)：纯权仿射平移给两个坐标对λ一次、首一平方两个系数对λ≤2；新完整原值配对≤11/10，不改变旧cofactor或重启旧门。
