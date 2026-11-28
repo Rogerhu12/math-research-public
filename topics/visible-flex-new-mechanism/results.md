@@ -61,3 +61,5 @@
 **R735（结构证明与首次实际工单）。** [具体双核中央与真二阶帽倾](results/R735-explicit-double-kernel-core-and-true-second-order-tilt-with-dyadic-caps.md)给横截两核及完整二阶条件；[首实际消费范围](notes/2026-11-28-r735-actual-dyadic-tail-double-kernel-scope.md)使用原R734四认证端口/8558键，仅新增真实中央及全β尾积。薄中央宏观几何明确不合格；有限O(q³)不冒非线性根。
 
 **R735 自然终态。** [真实双核、全β及薄度失格](notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md)：32370新单元/18.573390051秒，原8558键只读；β>3.32984、j4/5/6非共振已认证，reach/D<1.936879e−30明确排宏观资格。仅结构，不是有限q根。
+
+**R728 第二自然终态。** [原31步与三组实际精读](notes/2026-11-28-r728-paid31-complete-original-three-grids-natural-terminal.md)：准确续接原全TSQR根，累计32全J/54152列/31接受；η仍约.02531、目标长度margin负、E未冻，新的593.125601448秒和全部原账保留。

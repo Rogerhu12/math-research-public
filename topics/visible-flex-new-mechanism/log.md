@@ -125,3 +125,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 ## 2026-11-28 17:26:28 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R735 自然终态
 
 **R735 自然终态。** [真实双核、全β及薄度失格](notes/2026-11-28-r735-certified-double-kernel-beta-and-thin-geometry-terminal.md)：32370新单元/18.573390051秒，原8558键只读；β>3.32984、j4/5/6非共振已认证，reach/D<1.936879e−30明确排宏观资格。仅结构，不是有限q根。 原同材料两次CERTIFIED分别为先双核/β、后补非共振，不双计费用。完整archive及原literal身份另存，继续宽厚新输入；没有清除不合宏观比例的原事实。
+
+## 2026-11-28 17:31:50 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R728 第二自然终态
+
+**R728 第二自然终态。** [原31步与三组实际精读](notes/2026-11-28-r728-paid31-complete-original-three-grids-natural-terminal.md)：准确续接原全TSQR根，累计32全J/54152列/31接受；η仍约.02531、目标长度margin负、E未冻，新的593.125601448秒和全部原账保留。 已付全部三精读不重做，继续真正非解析宏观新输入；Actions success不提升任何未闭数学门。
