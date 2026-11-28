@@ -4,8 +4,8 @@
 
 ## 规则与完成线
 
-- 最近实际pull后双README已读锚 `62cd07e195e948bd5397fb977f2d5f2578249bdb`（2026-11-28 15:57 UTC）。
-- 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 ac231f1fc05ed4a813f2fba7af825ddb0ae2658c，双README空diff，QUEUE仍本会话进行中。
+- 最近实际pull后双README已读锚 `b09d3a87a0a835531ef16db8ed12150c38d4d612`（2026-11-28 16:15 UTC）。
+- 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；本轮实际pull到 6c4bb67a33d0cd7ef5aeb9c38860c1f169f35a17，双README空diff，QUEUE仍本会话进行中。
 - 每结论先pull核根/本题README差异再push，NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn须显式gpt-6.2-astra/ultra/forknone。令牌仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 断线间小文本集成已由实际pull收齐。完整旧前沿与失败见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)、[本次压缩前H](notes/2026-11-28-handoff-before-r89.md)，不重做已登记结论。
 - 完成必须同一完整g/profile/chart/mean/时间域的连通闭C²嵌入连续族；H内点且diamH≥.2D，整像δhold≥.1D，全E(3)含反射δE>0，全时reach≥.03D；全metric≤1e−6并在固定问题的谱/径向/时间精化降到机器或求解容差；多t小网格复现与严格存在性差距说明。λ<1非准确圆弧H；换δ/profile/帽不是同g精化。完成后继续改善比例。
@@ -15,7 +15,7 @@
 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)改首升速为0→9/20单缓坡，k=.5/S=.675/b=.3/α=.8；核心A≤2/3时保曲率预算，首圆片在低曲率/正支撑下耗尽保护窗。50 Bernstein盒付首周期|X|<1.34，并给条件H/held/reach；原R5/C³旧高k两级支已[精确排除](notes/2026-11-28-design-higher-k-old-profile-screen.md)，不跑回旧支。
 
 [独立r≤1.15新盒](notes/2026-11-28-design-single-gentle-r115-extension.md)重新付50盒/首片支撑>.0978059；[原Python线性校准](notes/2026-11-28-design-single-gentle-linear-root-actual.md)δ=.06809451565377872、r=1.1349085942296453、core_z/core_R=−5.2781e−13，真exit0，原盒五同号点仅缓存复用。
-**新profile λ0/M8原全门已真返**：580点、RMS9.752325126e−7、metric2.159654640e−8、BC1.454e−16、mean512、δ=.06809573111069138，run601f7af14559076463ad89fe3c925b24db20e08155274e60d7fbe5407d142aa3。原完整raw9ffcdaba…/physicald3f33bd1…，不是λ1。design继续同输入正λ全BVP，M24+与analytic协调资源。
+[新profile λ0/M8](notes/2026-11-28-design-single-gentle-lambda000-m8-actual.md)真580点/metric2.159654640e−8，run601f7af1…；正λ原全门真锚已顺序到.002/.004/.008/.016/M16与[.032/M24](notes/2026-11-28-design-single-gentle-lambda032-m24-actual.md)、[.064/M24](notes/2026-11-28-design-single-gentle-lambda064-m24-actual.md)。最新.064有612点、RMS9.881570807e−7、metric1.344900678e−7、BC2.5474e−19、mean1168、δ=.06809746515753923，run3c456ca9fb73829569074d9baaca4e748fb86e006905f12fa95f6ac4f7d4c2d7。当前原完整割线已接.128/M24，未有λ1；任何设计δ变化不充同g精化。低模.002/M8与.032/M16仅metric失败，完整升模初猜不误接受。
 
 旧q=.06本地最高λ.064/M40；历史λ.128/M48来自旧Actions，不是本地接受。旧q=.012/原profile的λ.002/M24真run21d676…与λ.004真−9见归档，不重跑或混profile作λ割线。[宽b=.5](notes/2026-11-28-design-wide-transition-b050-curvature-and-held-window.md)仍备用未算输入。Actions v3真403缺actions=write、无run，不绕权限。
 
