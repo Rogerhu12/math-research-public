@@ -1496,3 +1496,40 @@ current仍b0f8f2b00d00956db896777f053e196fabc60c9b961f5193e725ddad4f19abee，acc
   "scientific_goal_completed": false
 }
 ```
+
+## 2026-11-28 03:49:16 UTC — 接既刊完整N原参数
+
+在19已真实自然返回完整report之后，原完整pure后直接接既刊N整step，38argv/36formal原字不动：900s、1000000leaf、192bit、128panels、8192rho/mean splits、1024全角、32stage及原全部根半径/径向域/六jet齐。不是新测试或缩域；science63722853B/ed1ea5db为该同runner真实输入，pure尚未观察完成。首次--repo={repo}按原控制器解析为本step实际独立source_worktree；若同outdir续费，必须从N实际返回记录继承此绝对源路径，不能猜或用后来副本覆盖。N的whole report/complete/连续branch三者分开；N真实全域与固定wholeSHA后才接对应G/P，再R723/U。原完整mesh终场链单独继续准备，同g/五t/三级真精化义务不变。
+
+```json
+{
+  "whole_unchanged_normal_ready": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-meridian-batched-bhalf-first-R722-complete-normal32-full-circle-sixjet-fees-ready.json",
+    "bytes": 49322,
+    "sha256": "14e6ac6d8e95721a8fc1ddf983c7d3c67258f9daa41d01fefab955491d74d39a",
+    "sha": "bae2aeb057b0d1c58d6520038a3467bb4b2548b9",
+    "git_blob_sha": "bae2aeb057b0d1c58d6520038a3467bb4b2548b9",
+    "json_pointer": "/steps/0"
+  },
+  "previous_pure_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-19.json",
+    "bytes": 52138,
+    "sha256": "37caf68c50a85f95931deab116c1c76e5172aac95ab6ffce50b8102a49acee88",
+    "git_blob_sha": "fc769851d47ae5ad735d5abbe1d7609e06c3c966",
+    "fixed_commit": "e139bb03e47e50b03af0e97e0a66f6dac51b2242"
+  },
+  "new_queue": {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261127-followups-19.json",
+    "bytes": 58432,
+    "sha": "0418289e1f2b10c0c8e7ffab3320c6ab6a73c6ea",
+    "sha256": "987e75dcbc0250a3836f917868e51c3e8f47abbacfae31c83582f74290115881"
+  },
+  "queue_step_ids": [
+    "actual-fixed-fejer-meridian-batched-bhalf-first-20261127",
+    "actual-fixed-fejer-meridian-batched-bhalf-first-R722-complete-normal32-full-circle-sixjet-fees-20261127"
+  ],
+  "actual_normal_return": null,
+  "actual_normal_source_worktree": null,
+  "actual_normal_report_sha256": null
+}
+```
