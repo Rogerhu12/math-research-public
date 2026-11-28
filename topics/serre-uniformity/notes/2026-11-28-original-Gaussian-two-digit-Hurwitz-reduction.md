@@ -792,3 +792,207 @@ $$
 (G2.34) 的后三项及原中央算术去平滑也完整保留。
 这些身份不改变角色是否实际出现或是否 good，
 也未证明 $\mathcal H_p=0$、$\Delta_{\rm low}=0$ 的联合条件不可能。
+
+
+## 10. 共同整坐标中的完整抵消与四次矩的中间槽
+
+§9 的保守界不覆盖 $d=4,i=2$。
+本节不逐个高极单项外推 (G2.20)，而是在同一个整截断坐标中
+使用 (G2.30) 的完整多项式抵消。
+所得端点仍是一个原系数的准确身份，不是单位结论。
+
+### 10.1. 整截断坐标与实际 logarithm 的比较
+
+在 characteristic zero 取原
+$v(u)=u\mathsf F(u^4)$，并令
+$$
+V_0(u)=[v(u)]_{<p^2}\in\mathbb Z_p[u],\qquad
+\tau=\overline{V_0(u)}\in\mathbf F_p[[u]].
+\tag{G2.35}
+$$
+(G2.8)–(G2.9) 保证所显示的截断整，且首项为 $u$，
+故 $\tau$ 是一个真正的形式坐标。
+这里不把它称为完整 logarithm，也没有给出形式群同态。
+
+若一个原整有理函数在 $O$ 的极阶至多 $k$，
+则其在 $\tau$ 中的约化系数与原 characteristic-zero
+logarithm 读取，在所有次数
+$$
+N<p^2-k-1
+\tag{G2.36}
+$$
+相同。理由是 $v(u)-V_0(u)$ 从 $u^{p^2}$ 才开始；
+逆换元的差代入一个至多 $k$ 阶极，最早从
+次数 $p^2-k-1$ 才能贡献。
+这个比较先在 characteristic zero 的 Laurent series 中按次数成立，
+再只约化所需的整前缀；不需要约化首个不整系数。
+
+特别，原整 lift $D^{p-5}x$ 的极阶至多 $p-3$。
+因此本次
+$$
+N=p^2-3p<p^2-p+2
+$$
+满足 (G2.36)。可以先在 $\tau$ 中计算
+$[\,\tau^N\,]\mathcal R_4$，然后返回原 Hurwitz 读取。
+
+### 10.2. 高极误差须作为完整多项式处理
+
+在这个共同坐标中，$x,y,\Psi,\mathcal R_j$ 全部表示原有理函数。
+令
+$$
+Z(\tau)=\zeta_u^{<p}(u(\tau)),\qquad
+E(\tau)=\Psi-\bigl(Z(\tau)^p-\beta\tau\bigr).
+$$
+由 (G2.19)，准确有 $E=O(\tau^{p^2})$。
+置
+$$
+\mathcal F_4(z)=-z^4+6x^pz^2+8y^pz+3x^{2p}.
+$$
+(G2.23)、(G2.30) 逐式给
+$$
+\mathcal F_4'(\Psi)=-24\beta^2\mathcal R_3,\qquad
+\mathcal F_4''(\Psi)=24\beta\mathcal R_2.
+$$
+所以完整的有限差不是估计，而是
+$$
+\boxed{\quad
+\mathcal F_4(\Psi-E)-\mathcal F_4(\Psi)
+ =24\beta^2\mathcal R_3E
+   +12\beta\mathcal R_2E^2+4\Psi E^3-E^4 .
+\quad}
+\tag{G2.37}
+$$
+$\mathcal R_3,\mathcal R_2,\Psi$ 的极阶分别至多
+$p-2,p-1,p$。
+故右边首个可能次数至少 $p^2-p+2$，严格高于本次 $N$。
+这里 $x,y$ 从未各自改用另一个截断参数；
+它们的高极项已经在 (G2.37) 的原函数身份中共同抵消。
+
+把 $\Psi-E=Z^p-\beta\tau$ 代入左边。
+含 $\tau^j$、$1\le j\le4$ 的各项，其余因子均为 $p$ 次方，
+所以不贡献正 multiple-$p$ 指数 $N=p(p-3)$。
+原 $\epsilon_{\rm inv}$ 也只贡献指数零。于是
+$$
+[\,\tau^{p(p-3)}\,]\mathcal R_4
+ =-\frac{\bigl([\,\tau^{p-3}\,]
+          C_4(Z(\tau),x(\tau),y(\tau))\bigr)^p}{24\beta^3}.
+\tag{G2.38}
+$$
+这里 $C_4(z,x,y)=z^4-6xz^2-8yz-3x^2-12a/5$，
+仍是原完整 Appell 多项式。
+
+最后，选上述整截断的 characteristic-zero lift。
+$Z-\zeta$ 从次数 $p$ 才开始，
+但
+$\partial_z C_4=4(z^3-3xz-2y)=4C_3$，
+而这个完整 $C_3$ 在原 Gaussian 原点为 $O(v)$。
+因此在 $C_4$ 中替换 $Z$ 为原 $\zeta$，
+首个线性差从次数 $p+1$ 才开始；其余高次差也更晚。
+所需的 $v^{p-3}$ 系数完全相同。
+它可以用全部整的 $Z,x,y$ 前缀计算，故自身 $p$ 整。
+定义
+$$
+\mathcal J_p=[v^{p-3}]C_4(v)\in\mathbf F_p .
+\tag{G2.39}
+$$
+
+原 $D^{p-5}x$ 在此次数的下降积仍是
+$(M-1)(M-2)_{\underline{p-5}}\equiv1/6$，
+其中 $M=p^2-2p-3$。
+结合 (G2.36)、(G2.38)，准确得到
+$$
+\boxed{\qquad
+G_{p^2-2p-3}=-\frac{\mathcal J_p}{4\beta^3}.
+\qquad}
+\tag{G2.40}
+$$
+
+### 10.3. 中间槽的原低权 heat 来源
+
+(G2.39) 还可直接由已付的安全低权模参数多项式计算。
+先在一般短模型上定义
+$$
+\mathcal H_p(a,b)=\frac25\,\partial G_{p-5}(a,b),
+\qquad
+\partial=6b\partial_a-\frac{4a^2}{3}\partial_b ,
+$$
+最后再取 $b=0$。这就是 R1135 中原 $C_2$ 首标签的全模参数延拓。
+在 [R1135 (1135.43)](../results/R1135-original-Gaussian-low-row-fiber-constraint.md)
+取 $v=p-5,n=3$，保留其中的 $2vbG_v$，得到
+$$
+\begin{aligned}
+\mathcal J_p(a,b)
+ &=\frac{\partial^3G_{p-5}
+       -10bG_{p-5}-(13a/3)\partial G_{p-5}}{15}\\
+ &=\frac16\partial^2\mathcal H_p
+       -\frac{13a}{18}\mathcal H_p-\frac23 bG_{p-5}.
+\end{aligned}
+\tag{G2.41}
+$$
+这里第一行定义一般模型上的同一个 Appell 系数；
+在 $b=0$ 就是 (G2.39)。
+所有模参数微分都在取 $b=0$ 以前完成。
+因此 Gaussian 点上有
+$$
+\boxed{\qquad
+\mathcal J_p
+ =\left[\frac16\partial^2\mathcal H_p
+          -\frac{13a}{18}\mathcal H_p\right]_{b=0}.
+\qquad}
+\tag{G2.42}
+$$
+输入 $G_{p-5}$ 的权小于 $p-1$，分母也全部为单位；
+这是 $\mathcal J_p$ 的另一条原整来源，不需要反除 Bernoulli 数。
+在 $\mathcal H_p=0$ 分支，它仍是未知的
+$(\partial^2\mathcal H_p)(a,0)/6$。
+
+### 10.4. 保留全部低卷积的首边界检查
+
+令 $\mathsf E(v)=\sum_{m\ge4,\ 4\mid m}G_mv^m$、
+$\vartheta=v\,d/dv$。
+直接把原 $x,\zeta,y$ 代入 $C_4$，恒有
+$$
+\begin{aligned}
+v^4(C_4+12a/5)
+={}&-4(\vartheta^2-1)\mathsf E
+ +4\mathsf E(\vartheta^2-1)\mathsf E
+ -3((\vartheta-1)\mathsf E)^2\\
+ &-2(\vartheta-1)\mathsf E^3+\mathsf E^4 .
+\end{aligned}
+\tag{G2.43}
+$$
+读取权 $p+1$。
+线性项是
+$-4((p+1)^2-1)G_{p+1}\equiv-8\beta$，
+这里恰使用 (G2.22) 的 $pG_{p+1}=\beta$。
+三次项的整系数被 $p$ 杀掉；
+二次、四次项的每个 Hurwitz 输入都在安全权 $\le p-3$。
+把二次和对称化后，完整得到
+$$
+\boxed{\quad
+\mathcal J_p=-8\beta
+ -\sum_{\substack{i+j=p+1\\i,j\ge4,\ 4\mid i,j}}
+        (7ij+2)G_iG_j
+ +\sum_{\substack{i+j+k+l=p+1\\i,j,k,l\ge4\\4\mid i,j,k,l}}
+        G_iG_jG_kG_l .
+\quad}
+\tag{G2.44}
+$$
+两和均按有序指标计算。
+特别不能因 $-8\beta$ 为单位而删去其余完整卷积。
+
+原 (1168.28) 现在准确成为
+$$
+\boxed{
+\mathcal R_{4,1}(y_4)
+ =-\frac{\mathcal H_p}{2\beta}\eta^4
+  -\frac{\mathcal J_p}{2\beta}\omega^2\eta^2
+  +\frac{\beta^4}{5}G_{p^2-5}\omega^4 .
+}
+\tag{G2.45}
+$$
+顶槽 $G_{p^2-5}$ 没有由本节支付。
+(G2.37) 的完整抵消也没有把 actual good-mask 的共同纤维条件
+变成任意模参数导数为零，或证明 $\mathcal J_p$ 为单位。
+本节只把同一个实际中槽接到原 $\mathcal H_p$ 的精确二阶源，
+保全部首 $p$ 进位与低乘积。

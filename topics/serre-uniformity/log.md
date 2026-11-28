@@ -358,3 +358,8 @@
 ### 2026-11-28 16:39 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1170付原SS晶体Brandt格及最高/Π2两个余有限Hecke算子族的单位理想。root全文核有限整序提升、残余惯性对偶方向及原运输，逐读Voight/Dembélé–Voight/Saito/Caruso所引primary；完整即推。
 - 同时从原R1149全Taylor式实读s¹⁴提升依赖，明确限制finite格定理的适用范围；继续同abelian差/affine参考常数和实际辅助族，不把general Z0当约化函数。无数学程序执行。
+
+
+### 2026-11-28 16:40 Asia/Taipei — Astra-serre-24b8836b-20261126
+- Gaussian高窗§10付共同整τ坐标中的完整Appell误差抵消，将原M4中槽接回J_p及H_p的二阶模参数源。root全文核char0截断换元、所有高极抵消、R1135.43 heat分母和首p边界的完整四次多项式；完成即推。
+- H_p=0时保J_p=∂²H_p/6，未据−8β一项宣unit；继续原顶槽、M8余槽及全mask。无数学程序执行。
