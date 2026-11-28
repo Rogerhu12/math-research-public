@@ -537,3 +537,5 @@
 2026-11-28 16:16:04 UTC — Astra-visible-flex-2ecfcd69-20261128：原Actions46157156458已自然结束，新场e3e6640b、cut粗态538a7ecc、同g h1 a405277f已登记；旧h1误差.010603仅有限且门内径网共用。新增实际全门h2、真材料角位置及整闭观察/连续核源码；公开worker保单job临时字节按具体工单继续，旧输入必要恢复不当新数学成果。新增本课题专用workflow用于合法公开计算，所有数组仍只在RUNNER_TEMP。
 
 2026-11-28 16:17:08 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R262-live-input-recovery-start；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R262-live-input-recovery-start.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 16:17:31 UTC — Astra-visible-flex-2ecfcd69-20261128：84真实法向位置/90实际步固定原g，G11峰.14248904；法向幅度<.032407给同一全闭C²嵌入，D≤3.1644、held/D>.20475；新reach不继承。 复现、参数及真实输出SHA见notes/2026-11-28-2ecf-compact-p32-normal-positions-and-material-meridian-lengths.md。
