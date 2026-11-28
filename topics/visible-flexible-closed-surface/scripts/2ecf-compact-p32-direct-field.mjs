@@ -19,6 +19,8 @@ const choose=[[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1],[1,5,10,10,5,1]];
 function bpoly(t,n,i){return i<0||i>n?0:choose[n][i]*t**i*(1-t)**(n-i);}
 function bern(t,d,j){if(d===0)return bpoly(t,5,j);if(d===1)return 5*(bpoly(t,4,j-1)-bpoly(t,4,j));return 20*(bpoly(t,3,j-2)-2*bpoly(t,3,j-1)+bpoly(t,3,j));}
 function poly(t,j){
+ if(j>=12){const spans=[[0,.11],[0,.19],[.03,.17],[.063,.23],[.13,.36],[.20,.57],[.43,.80],[.75,1]],v=spans[j-12],w=v[1]-v[0],y=(t-v[0])/w;if(y<=0||y>=1)return [0,0,0];const b=y*(1-y),q=1-2*y,c=.8*w*w;return [c*64*b**3,c*192*b*b*q/w,c*(384*b*q*q-384*b*b)/(w*w)];}
+
  let u=2*t-1,p=t*(1-t),q=1-2*t;
  let a=64*p**3,ap=192*p*p*q,app=384*p*q*q-384*p*p;
  if(nr===4){const T=[1,u,2*u*u-1,4*u**3-3*u],Tp=[0,2,8*u,24*u*u-6],Tpp=[0,0,16,96*u];return [a*T[j],ap*T[j]+a*Tp[j],app*T[j]+2*ap*Tp[j]+a*Tpp[j]];}
@@ -239,13 +241,21 @@ function chartRecord(z,goal=z,R=8,M=8) {
  return {fullPhysical:["G10a","G10b","G11"].map(g=>physicalObserve(z,g,1.06,64,target)),
          finiteCloud:closedCloud(z,81,96,.24,.31,1.06),exactTarget:exactTargetWitness(goal)};
 }
+function fixed720(seed,previous){
+ configure(20,12);
+ const z=pad(previous,12,11,20,12),data=build(68,96),training=build(68,64),goal=pad(seed,8,8,20,12);
+ const g=training.rows.map(row=>gramTarget(jets(training,row,goal),64));
+ return lbfgs(data,z,{metricSharp:1150,kw:2.4,gw:3700,kgoal:10.1,wgoal:.8425,hgoal:.62},170,null,g);
+}
 
-export {configure,build,jets,gramTarget,evaluate,lbfgs,pad,reproduce192,fixed396,chartRecord,physicalObserve,closedCloud,exactTargetWitness};
+export {configure,build,jets,gramTarget,evaluate,lbfgs,pad,reproduce192,fixed396,fixed720,chartRecord,physicalObserve,closedCloud,exactTargetWitness};
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href){
- const [op,p,q]=process.argv.slice(2);
+ const [op,p,q,r]=process.argv.slice(2);
  if(op==="fit192")writeFileSync(p,JSON.stringify(reproduce192().z)+"\n");
  else if(op==="fit396")writeFileSync(q,JSON.stringify(fixed396(JSON.parse(readFileSync(p))).z)+"\n");
+ else if(op==="fit720")writeFileSync(r,JSON.stringify(fixed720(JSON.parse(readFileSync(p)),JSON.parse(readFileSync(q))).z)+"\n");
+ else if(op==="observe720")console.log(JSON.stringify(chartRecord(JSON.parse(readFileSync(q)),JSON.parse(readFileSync(p)),20,12),null,2));
  else if(op==="observe192")console.log(JSON.stringify(chartRecord(JSON.parse(readFileSync(p))),null,2));
  else if(op==="observe396")console.log(JSON.stringify(chartRecord(JSON.parse(readFileSync(q)),JSON.parse(readFileSync(p)),12,11),null,2));
- else throw new Error("fit192 OUT | fit396 TARGET192 OUT | observe192 STATE192 | observe396 TARGET192 STATE396");
+ else throw new Error("fit192 OUT | fit396 TARGET192 OUT | observe192 STATE192 | observe396 TARGET192 STATE396 | fit720 TARGET192 PRIOR396 OUT | observe720 TARGET192 STATE720");
 }
