@@ -101,45 +101,27 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整物理求解与未付标准
 
-本次仅缩导航：[d4aca完整open](https://github.com/Rogerhu12/math-research-public/blob/d4aca5b156092fa01b267c65ffc2417127e8350d/topics/visible-flex-larger-amplitude/open.md)及既有3882/fe411/f1f8160链保全部源参/原预算/条件/失败未知；§1–6原23359B不动。所有原ownnote、proof、完整数据身份和可恢复源参不减；未完成，每子问题完即下一个。
+本次仅缩导航：[完整前态](https://github.com/Rogerhu12/math-research-public/blob/57719e6a4eb4aa377b4b58de799855c54414228b/topics/visible-flex-larger-amplitude/open.md)及此前固定链保全部源参、原预算、条件、失败和未返。§1–6原字不动，所有proof/ownnote/完整身份及可恢复源参不减，不重做已登记结论。
 
-### 正在推进
+### 当前实际任务
 
-[40](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)46148644102已原八阶段完整结束；最终g8.07053/K275522.6、点515e3d32，7点云非7网，未达标。全原终态70611B/三身份已核，最后已发布真pull 0d4fc710a23b0752666f5c52e9b8bdb66c68e348。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
 [47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)46171090151/PID3601：初点7e06全几何g.53058494与原33已报标量核同；首291f394统计Phi731.14178/Gram.4097559，18:48Z几何未返/接受0。native真实built非整体加速证，原140角色/32stage全预算继续。
 
-40/48/R769/R771真实完整终态均已独立登记；官方success仅是运行结束。33–35/41/42原终态、所有model/初点/拒绝/未返、36–39原flow和R724–750责任保上述完整open及各ownnote，不能另场借旧费用。
-
-### 数学和新输入
-
-[R751–770全旧证明/实际及条件](https://github.com/Rogerhu12/math-research-public/blob/1b11a8a6268a509c55efd987304d1298f5df2ee7/topics/visible-flex-larger-amplitude/HANDOFF.md)：R761参考几何保留；R762/764/766有限拟合全失败，R767/768硬端障碍已闭，原初几何/全源参/预算与未付g、全管保各独立proof/ownnote，不重做。
-
-
-
-[46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：46168504031完整12stage/双69相/各7闭网全返，末同点整网g1.42695/1.42194、K883724/36017，有限细化失败；原初几何/参考经向与全源参仍保。
-[R769/R771/48已完整登记](https://github.com/Rogerhu12/math-research-public/blob/b30c290c42c366f3eaccfaebb6500e2ade231d1c/topics/visible-flex-larger-amplitude/HANDOFF.md)：原全部报告/源/系数/相位三身份和各最后真pull保ownnote；三任务有限同g误差均未达标，已闭marker退休，原解析局部范围不扩张。
-
-
-[R773](results/R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)：同R772 g无标记刚横环仅整刚；任意平行平面环不能轴退，连续平移分离亦刚。真轴退.30需sup|IIxe|>.31；不排一般非分离变圈。
-[R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。 [49完整两族](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)15源/六初点+双4/8/16及双终网启动，真全像位移底限直接入场。
-
+[49](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)：两族十二阶段/双69相七网原预算；完整报告已收到，正逐项独立核读后登记，原参考几何不能转给实际拟合点。
 [R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：46174642286原fold/全区间完整返，两规定刚帽被严格正弦超额排；两整球exit1无完整层。仅修五返值误解六项，18源/两支全部三层7+6相原预算恢复，成功两项不重算。
-
-[R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
-
-[R778](results/R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)：同R776 g全闭C²近等距族，误差≤2(16000/n)+(16000/n)²；真曲率>100n且reach趋零，不能充厚等距解。完整二jet支持低频真实修正继续。
-
 [50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
-
-### 完成与保留责任
-
-闭连通C²嵌入/全t强C²、同固定g；D整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻整mesh；仅靠渐近参数压固定缺陷不算。根§15完整源参/run/whole identities、raw留runner。先全标准，再提高三比值。
-
-19–32全部终态、36–39完整阶段、39未访flow/39b异点及R724–750条件保原proof/notes/固定旧链。R732全13+14件/139源/922cells/32stage、N38/52G8/22、900sec/1Mleaf/192bit和7步不减，35原pure74162未返；RET100H–M旧完整恢复链保留。[N](notes/2026-11-28-RET100N-complete-closed-parameter-recovery.md)111整参/61父；[O](notes/2026-11-28-RET100O-complete-closed-source-recovery.md)118整源/40父ROOT逐字三身份同，19run/38job终态、698保护全文核完，净释4474077B。
-
-[R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新g真圆三波闭球，准确初D<1.362；短/六个百分点径向平衡场全t reach≥1/24.45、held>.320、商距>.096，最坏Gram仍<.305仅改善>.013。自由整空间环三最坏圈全g/K<9.1，其余混合/轴向/整管须重付。
-
 [51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)46178008636/PID2857：18实际冻结源全核同，真实18:50:50Z启动，索引六粗已返待独立数值核读；原三族18stage/各69相七网继续，固定初D厚弦/全谱/真内握不变。
+
+[R777](notes/2026-11-28-R777-complete-bent-caps-and-four-original-studies.md)：同R764初g两完整曲帽/真终领误差<1e−6及帽间法球已证；两保留镜帽由整物料路径迫使连续g误差>.40，两三坐标释放支不在此限。21源/四进程、各三层7+6相与十类跨面原预算正常发布；全闭g/管未付，实际未预填。
+
+### 正向输入及已闭范围
+
+[R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)真圆三波新g：全t reach≥1/24.45、D<1.362、held>.320、商距>.096均针对原短/有限平衡参考；最坏Gram仍<.305。自由整空间环的其余混合/轴向和实际完整管须重新支付。R775/776/778及R773全部原结论和限定见[完整后续索引](results/INDEX-after-R770.md)与各proof。
+40/46/48/R769/R771全部原报告/源/系数/相位已逐项登记，有限误差失败保ownnote；40七点云非七整网。33–35/41/42及19–39全部旧责任保完整前态，实际未返不借别run。RET100H–O恢复链、111整参/61父和118整源/40父保持；只退已终态可原字恢复对象，活输入/父/唯一状态不退。
+
+### 全部完成要求
+
+闭连通C²嵌入、全t强C²、同一个固定g；D=整初像直径，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射商距>0，全t reach≥.03D，整relative metric算子≤1e−6。同g/参数/全时间实际空间、频率和时间精化到机器或原求解容差，多时刻整mesh；固定小缺陷和仅渐近换参数均不能充完成。所有未付项继续求解，先全标准再提高三比值。

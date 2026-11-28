@@ -22,4 +22,6 @@
 
 - [R781](R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新真圆三波闭球，同g有限径向改动全时reach≥1/24.45、D<1.362、held>.320、含反射商距>.096；全域Gram上界改善>.013仍非准确。自由整空间环无短胞锚、三个最坏环全g，其他轴向/混合及整管待付。
 
-- [51完整启动](../notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)：R781同初g三族18阶段、真右内握与非角解析帽/整空间圈，固定初D的全近材料厚弦和全谱曲率/Gram共同优化；三最终点各65相与七整网，未来数值不预填。
+- [51完整启动](../notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)：R781同初g三族18阶段、真右内握与非角解析帽/整空间圈，固定初D的全近材料厚弦和全谱曲率/Gram共同优化；三最终点各69相与七整网，未来数值不预填。
+
+- [R777](R777-bent-complete-caps-original-relative-metric-and-directed-normal-balls.md)：原g上完整两曲帽/真末领固定误差<1e−6与帽间定向法球已付；[保留镜帽的同物料路径阻碍](R777-retained-opposite-cap-intrinsic-path-bound.md)迫使连续误差>.40，三坐标恢复分支不在该范围。[21源四项完整三层研究](../notes/2026-11-28-R777-complete-bent-caps-and-four-original-studies.md)全部原预算、实际结论待独立返回。
