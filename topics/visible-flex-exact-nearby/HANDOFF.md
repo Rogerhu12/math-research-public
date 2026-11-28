@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:11:01 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 08:12:17 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至ea488409914142ef9a2e799a3bb8aad4c2f41d17；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至68fb1814a89707ff1fd4813ca8752edcb5bf8c7e；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至057ab0a378bcc30f36e910dcee1439c08dfc352c（08:10确认pull完成、README无diff），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META9新增128件无引用旧JSON仅去字符串外ASCII空白；whole receipt notes/2026-11-28-legacy-native-metadata-whitespace-ninth.json，69521B/97dacd0d…；gross838380B/net768859B，原件7588478671c1f733a31225fce654008d3c5b5a75完整保留、科学0。每次pull重核新引用。META1–8全部账保此前H和原receipt；第8批842c46826净753508B不重做。
 
@@ -40,6 +40,8 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 - TP新完整解析接口：TF四whole maps→58gate→224ports→32WPN→原PN56/CXN6，保full-family ΔAL/ΔC/GH/physicalRobin/两mean；新κB<1实际门必须过。signed右97仅一次Θ解权，whole-cell forcing不可用norm或nodes替。代码仅在完整TF成功后生成manifest，见R149 TP；0旧科学。
 
 DCP18首次实际入口已齐：BFP19全成功/原validator过，whole actual40099B/5ab3a6ed…、execution31637B/0bcb393b…；完整322输入269/53准入，manifest98658B/d85c0d55…。同真密度逆H−1/2、2560/8192/2048+无限异号tail、96signed/means及WMT整global候选保；仅新18目标，见DCP proof/入口note，actual尚待。
+
+LCW已成：原whole7722几何累计值给a0<.001314673/p0<.002603805/a1<.008949/b1<.028185；同NP height(-.025429,-.025171)/逆<39.73，H96新锚费.018681H+.003503042G，原数值/mean/world仍保。23新Fraction一次过，0旧science。
 
 ## Tail与仍须完成
 

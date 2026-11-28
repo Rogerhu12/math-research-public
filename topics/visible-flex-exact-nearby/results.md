@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [LCW：完整已存几何累计值给出的实际帽锚](results/R147-supplement-local-cap-anchors-from-complete-saved-geometry.md)：原7722行native整件恢复核SHA，仅消费同一正积分子段；a0<.001314673、p0<.002603805、a1<.008949、b1<.028185，原NP高度(-.025429,-.025171)。保raw E/P、整体λ、一般world ports与H96整公式；23新有理比较一次全过，旧积分/范数0重算。
+
 - [DCP：原Θ particular的直接密度逆与完整异号误差](results/R149-supplement-particular-density-Theta-and-complete-opposite-leakage.md)：真H−1/2逆、带负号的异号adjoint、完整2560/8192/2048与无限尾；新signed96及双mean保。真实BFP19全成后首次入口269current/53history、98658B/d85c0d55…已准入，18新目标待实际；不重旧科学。[入口](notes/2026-11-28-DCP18-first-public-entry.md)。
 
 - [TP：真low193到完整正侧物理链](results/R149-supplement-true-flow-to-complete-positive-physical-chain.md)：四whole source maps接原58/224/32及PN56/CXN6，保全family/high/Robin/mean与新κB门；signed RHS的完整forcing及一次Θ解权已明确。三个新增入口源只在完整TF实际成功后生成manifest，原SC/JF消费者schema保，未预报数值门。

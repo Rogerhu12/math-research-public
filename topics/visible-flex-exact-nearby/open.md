@@ -157,4 +157,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 DCP18由BFP19完整成功对象首次进入全密度逆particular作用：新head/tail/96signed与全部误差/means保，全322输入准入后启动，不能预报actual或全Schur。BFP/BGR整对象已通过原validator，应用证明另行登记。
 
+[LCW](results/R147-supplement-local-cap-anchors-from-complete-saved-geometry.md)已消费原完整几何给更紧cap锚/同NP高度及H96可替换anchor槽；只付实际存在帽与selected passive core的锚传播，未授未知core准入、真PDE或fullSchur。
+
 全Γ/γ低高准入、同态H1/fullmean/true residual0、core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps和最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。
