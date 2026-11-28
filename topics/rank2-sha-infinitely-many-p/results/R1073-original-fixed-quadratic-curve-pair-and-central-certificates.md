@@ -65,3 +65,27 @@ $$ \boxed{\quad v_p([T^2]\mathcal P_+)=v_p([T^2]\mathcal P_-)
 因此这整个素数类上，只须检出上节的 $D_{i,+}$；$(5/p)=-1$ 与 $p\equiv5\bmod6$ 同时成立的素数有正密度。加号支的复样值为非负实数，它的理想支撑包含全部与模数互素的有理主理想。此项是在原二阶上排除了等估值抵消，没有从复非负性推出其 $p$ 进中央项非零。
 
 Yang原文：[Theta liftings and Hecke L-functions, Theorem 0.1](https://people.math.wisc.edu/~tonghaiyang/thetashort.pdf)。
+
+## 4. 同一二阶检测的固定实二次域数值
+
+保持前节 $w_b(\nu)=\theta_b L(1,\psi_b\nu)/L(1,\psi_1\nu)$ 的全部 $G_K$ 等变及实性。令 $\iota T=(1+T)^{-1}-1$，取原倒数不变参数
+$$ S=(1+T)+(1+T)^{-1}-2=T^2/(1+T). $$
+在 $p>2$ 的情形，$\mathcal O[[T]]^{\iota}=\mathcal O[[S]]$。实际证明可按首次数逐次消元：不变非零级数的最低项阶必为偶数 $2h$（一次参数首为 $-T$），减去其首系数乘 $S^h$ 后升阶；完备性给唯一表示。原整函数 $\theta_b(\mathcal A_b(T)+\mathcal A_b(\iota T))/2$ 是倒数不变，且系数共轭不变，故准确属于 $S\mathbf Z_p[[S]]$。用 $SH_b(S)$ 记它，则 $H_b(0)=u_b=\theta_b[T^2]\mathcal A_b$。对 $x_\nu=\xi+\xi^{-1}-2<0$、$\xi=\nu(\gamma)\ne1$，
+$$ H_b(x_\nu)=\frac{w_b(\nu)+w_b(\nu^{-1})}{2x_\nu}
+ \in\mathbf Q(\xi+\xi^{-1}),\qquad H_b(x_\nu)\le0. $$
+场的断言来自前节(1)：将 $\nu,\nu^{-1}$ 成对后，$K$ 的共轭若固定 $\xi$，则交换两项；固定 $K$ 且求逆 $\xi$ 的元素亦交换两项。其余 $\xi\mapsto\xi^a$ 则将整式准确送到同一公式的 $\nu^a$。特别所有实共轭均非正。
+
+令 $C_{j}^{\rm re}(S)=\prod_{\{\nu,\nu^{-1}\},\,\operatorname{ord}\nu=p^{2j-1}}(S-x_\nu)$，$B_i^{\rm re}=\prod_{j=1}^iC_{j}^{\rm re}$。各多项式 monic、整、所有非首系数可被 $p$ 整除，并有 $C_{j}^{\rm re}(0)=p$：将 $\Phi_{p^{2j-1}}(1)$ 的共轭根成对即得 $\prod(-x_\nu)=p$，所有 $x_\nu$ 在 $p$ 位归约为零。对 $H_b$ 作整 Weierstrass 除法，余式次数小于 $\deg B_i^{\rm re}$。用上述模 $p$ 不变的完整实节点并在零点作 Lagrange 插值，给一个**有理数**
+$$ R_{b,i}:=-p^i\sum_{x=x_\nu:\ B_i^{\rm re}(x)=0}
+ \frac{w_b(\nu)+w_b(\nu^{-1})}{2x^2(B_i^{\rm re})'(x)}
+ \in \mathbf Q\cap\mathbf Z_p,\qquad R_{b,i}\equiv u_b\pmod{p^i}. $$
+求和每一无序对仅计一次。精确有理性由全部 $\mathbf Q$-共轭置换求和项；$p$ 整性属于整个余式。得到固定二次域而非变层数域里的实检测
+$$ R_{+,i}=(R_{65,i}+R_{8125,i}/\sqrt5)/2\in\mathbf Q(\sqrt5),\qquad R_{+,i}\equiv\theta_{65}[T^2]\mathcal P_+\pmod{p^i}. $$
+在 $(5/p)=-1$ 时，$R_{+,i}$ 的两实共轭有相同 $p$ 估值；若此处原中央皆坏，则 $v_p(N_{\mathbf Q(\sqrt5)/\mathbf Q}R_{+,i})\ge2i$ 对每个 $i$ 成立。反过来只须其中一层严格小于 $2i$。这是真实固定数域的范数而非高层角相位的任意平均；没有给 $R_{b,i}$ 的其他素数分母设单位。
+
+首层另可把 Lagrange 符号全部移除。设 $d=(p-1)/2$ 并令
+$$ V_{b,p}:=-\sum_{\{\nu,\nu^{-1}\},\ \operatorname{ord}\nu=p}
+ \frac{w_b(\nu)+w_b(\nu^{-1})}{2x_\nu}\in\mathbf Q_{\ge0}\cap\mathbf Z_p. $$
+在 $p$ 分歧扩张中，每个 $H_b(x_\nu)\equiv H_b(0)$ 模最大理想。全和为有理数，故落回未分歧基域时该同余精确加强成
+$$ V_{b,p}\equiv-d u_b\pmod p. $$
+故 $(5/p)=-1$ 时，$v_p(V_{65,p}+V_{8125,p}/\sqrt5)=0$ 当且仅当至少一条原中央二阶为单位。陈述只对首层作此模 $p$ 检测；高层未经付费的除 $p^{2j-2}$ 不是单位。分母原 $L(1,\psi_1\nu)$ 未删除。非负和恰在有某个原分子非零时为正，此复实严格正性仍允许它可被 $p$ 整除。

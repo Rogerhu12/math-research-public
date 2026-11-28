@@ -49,3 +49,11 @@ root完成六主模块及两checker/host/workflow静审，并独立字节核43�
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:22:29 UTC到0d2544f7cef1df5cc21b877efb61c7f46ca18403，私库2026-11-28 12:22:24 UTC到c59a2e57c3394e6d9ef11e3efabf84510450e676；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3250/46904010B/tree98fd6c7187b7ddc3f4cfb780f554396b9c76d1d9，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:22:46 UTC到7bce6c917e2e674a623f1defd372c8e76ceff00b，私库2026-11-28 12:22:41 UTC到364bb5047bac4330f6e7bc7e7653dcf4dfb1eb0f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3250/46904010B/tree98fd6c7187b7ddc3f4cfb780f554396b9c76d1d9，无>5MB。
+
+## 2026-11-28 12:23:34 UTC — R1073 固定实二次域的真实有限证书
+
+root手核原倒数不变环逐次消元、系数共轭固定、全部实旋分节点Galois下降及monic distinguished常数p^i；Lagrange零点评价的有理性/整性/精度逐项支付。首层非负迹只给模p判据，未擅除更深层trace。小软件源已实推552c8deb545839020f254715462828ef8951d963（12:22:52 UTC），两次非FF立即双pull/rebase，当前待实际CI绑定/执行；v17原来源不改，无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:23:46 UTC到ed1fc7be35a1cc60813d84c35d9f6e4fb2f5be0e，私库2026-11-28 12:23:41 UTC到4b6d5041ea6a0ee946b9dc89e68865d9ac32ccbd；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47009746B/treee8726106342c6bd8611fae6eaa9bd9088821157c，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:24:03 UTC到80d3b7a88c40eefff95016986447989cdcc26f99，私库2026-11-28 12:23:57 UTC到1d94546570629ed24f8e4bf47e27d23aa75f0a57；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47009746B/treee8726106342c6bd8611fae6eaa9bd9088821157c，无>5MB。

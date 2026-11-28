@@ -654,3 +654,7 @@ R736真实模p²像线与(28)的符号给原二次矩的整格点多项式，四
 ### R1067 §52：九条实际标记同源与三个原中央分支
 
 原R290/R292/R302全部2与17处相位给九条有标记17次同源的精确Jacobi分解，目标端环皆为O17。实际µ3分成三个不同中心，八列Fourier子式与第九竖线独立，原S1不变迫全部系数的准确置换。每支仍为完整物理degree34代数截面并付同一Tate尾，原Jp=3(J[H∞]+J[H13]+J[H1])；中央坏只迫三导数相加零，不将单支换成新Rubin或Selmer来源。 [同编号全文](../results/R1067-original-first-wild-fixed-geometric-tail.md)。
+
+### R1073 §4：同一二阶的有理数及固定实二次域证书
+
+在原倒数不变参数S=T²/(1+T)中，θ_b sym(A_b)=S H_b且H_b∈Zp[[S]]。全部真实奇层实节点给有理Lagrange数R_bi≡θ_bA_b,2 modp^i，合并后位于同一固定Q(√5)；范数vp<2i正好检出固定二元族。首层完整实迹又给非负有理V_b,p≡−(p−1)θ_bA_b,2/2 modp。复正性和固定数域均未控制其p整除；原参考L分母仍完整保留。 [同编号全文](../results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
