@@ -1,0 +1,49 @@
+{
+  "paperBlob": "ef108be994fabf2e8fa9c5044df70334d4d60958",
+  "receiptBlob": "c5efab7cabb2adeb7890113abf6fdf924de40a71",
+  "sourceBlob": "cf6d6f1e31c6c324ac9eea2a5ec179fe70530df0",
+  "runId": 46139963439,
+  "jobId": 140963504244,
+  "entireActualLogRead": true,
+  "entirePaperAndReceiptRead": true,
+  "actualReceipt": {
+    "elapsed_seconds": 7.487228075000001,
+    "max_child_rss_kib": 57880,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+        "before": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T11:27:37.043913+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46139963439",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "65b8726890b5f7cd6c0cbf3abc6817eae7c9dac6",
+    "source_exit_code": 0,
+    "source_git_blob": "cf6d6f1e31c6c324ac9eea2a5ec179fe70530df0",
+    "source_sha256": "758d461e6ce8869e3ff08fc395403f98cce27a1322329e793b21b1bdfb80e131",
+    "stdout_bytes": 21509,
+    "stdout_sha256": "9e555d1751d64f29b34e5cc891c4d0df6578a99b52c7aa0e634c8d493ad8f0b9",
+    "stop_reason": null
+  },
+  "checks": [
+    "All six complete checkpoints and source final stage personally read; source_exit_code=0, not inferred from workflow success",
+    "Entire (u,nu) chart keeps T free; nu+2 and Astar not inverted, all old paid coordinate identities returned",
+    "Every new primitive cofactor has full six-original-source and final f-coefficient return; geometry degree exactly four",
+    "Degree/term/byte/SHA table and all six checkpoint seconds match actual run",
+    "All actual six-multiplier common factors are nonzero rational constants; only NS3/PS3 strip one old paid u layer",
+    "Old G36 used only as compact definition and exact pullback, not as a rerun of its proof",
+    "Published pure-weight sum(v_i B_i)=1 gives both original I6 ideal containments and twelve-scalar pure geometry quotient with f=-g",
+    "All original I11, raw head, B_i=0 and content zero fibers retained; no new finite bound or emptiness claim",
+    "53 paid denominators,605 exact divisions,18 new six-source returns and18 new f-coordinate returns agree with source final statistics"
+  ],
+  "ordinaryISPClaim": false
+}

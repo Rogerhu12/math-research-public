@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：全W斜率权图六个原NS/PS四次核与完整I6](results/R150-appendix-unit211-W-inverse-weight-six-small-original-NP-quartics-complete-I6.md)：六核总度40/44/45/41/45/46全部六源乘回；与旧六标量和同f恢复给完整原I6，7.487228075秒/0，53分母/605精除；无新权界或空性。
+
 - [R150：整个b0同步四乘五、同一伴随头和原D恢复](results/R150-appendix-unit211-W-b0-simultaneous-four-by-five-same-head-original-recovery.md)：全20真实五源乘子同步取消、三个纯权相容式完整来源、h开图原理想商同构及h=0完整保留；纯纸证，尚未计算新头或排空。
 
 - [R150：整b0五原二次与六个完整权条件，PRS准确冻结](results/R150-appendix-unit211-W-b0-inverse-slope-five-original-quadrics-six-weight-conditions.md)：六原组合至124.419秒全部返回；180.082295470秒/−14，无PRS终端或纯u覆盖。保原5772权/23088点和全部零面，改接全W新NSPS输入。
