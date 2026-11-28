@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`df1578f1cf7cadf0d3b24b9454c540bc742c4759`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`00da1c12c5bc1087f80d65aed19df163efe6ac78`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -21,15 +21,14 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 [39完整实际](notes/2026-11-28-run39-whole-closed-body-Killing-complete-launch.md)：46146451800/job140983460924自然RC0，全11阶段518.2182s；冻结stage6同g，后两层Gram .15001922660375772→.04840454829227062，Lie17.288336414547743→21.826287727566044，K11.050084361299477，未付全时同g。全部原点/预算/返回保note，39b继续真实轨线与切图。
 
-R746–748完整证明/六jet见[索引](results.md)：R746整柱准确同g、大握持与宏观held；R747真端ss行和两剩余费用、全锁柱C⁴障碍；R748两完整真帽legacy全t同g，命名全闭reach>.105/D0<3.40/held>1.521/grip≥1.40、0<δE<.000475。仍欠中央活动带与两全圆端的同g，继续真实物理自由；三条全部旧详细界与限制保此前固定H及各完整proof。
-
-[R749真非线性](notes/2026-11-28-R749-fractional-Darboux-complete-launch.md)实际入口z=v^(5/2)u经CK+平坦展开付共同正宽C²完整g/二jet；两端θ∈[1,π/2]，可裁拼保reach≥.106等全几何。裁拼区/剩下端帽仍欠；实际46148020052/job140988230946：h0=1,64的原6盒残差全0、四次嵌套全同，未付收敛半径/全端。
+R746–750全部完整证明/源/条件与数值见[索引](results.md)和[本批前H](https://github.com/Rogerhu12/math-research-public/blob/055c807c6a76bc5c33a1e148dec35b5a4bd2d7e3/topics/visible-flex-larger-amplitude/HANDOFF.md)。R746–748全厚闭像与中央/两帽局部同g已付，R749真非线性正宽及R750全26片明确极小宽均不付整个端帽；R749原6盒真实零残差不代解析半径。完整旧结论不重做。
 
 [39b全实际](notes/2026-11-28-run39b-actual-material-flow-complete-launch.md)：46148134174/job140988582395自然RC0，11重生点全异，实际新冻结b02763f0，原39flow未知；本次6/9/10共74点×2容差全t/J返回0失败，Gram峰2150.246171967102/336.21278829858846/1245.8329312709147，未达标。
 
 [40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)6完整件现刊触发：同一初g/全材料/0…π/2，原5粗及4/8/16时间结三精化；两真帽、非整数端层、握外中央三分量全放。锁比较支若赢，以全部旧样条列精确保场后新增中央自由；65时间独立核查，不借Killing或旧点。actual未返。
 
-[R750](results/R750-quantitative-Darboux-strip-on-complete-displaced-straight-traces.md)真26片CK传递给显式v*=q⁸R₂₆/8>0（q=R₂₆/8，R_{j+1}=2⁻³⁴R_j³），整平直入口弧准确同g/曲率<1；宽极小，不付周期、曲入口或全端帽，R751/752继续真全域。
+
+[R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：真实晚相位 .00015 材料弧贯穿双全圆端及双帽 .0001 内领准确同g，剩余圆周未付；旧锁中央端部捷径<.801/终弦>1.17严格排除全补齐。原3层×7相位×9图完整测量现触发，actual待。
 
 ## 数学范围与完整输入
 

@@ -1,0 +1,72 @@
+name: Compute R751 true curvature-mixed closed atlas and cap-cost fields
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/scripts/resume_20261126/measure_r751_closed_mixed_atlas.py
+      - .github/workflows/visible-larger-r751-curvature-mixed-atlas.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-r751-curvature-mixed-atlas
+  cancel-in-progress: false
+
+jobs:
+  actual_closed_atlas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r746_axial_translation_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r747_offset_arclength_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r751_curvature_mixed_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/measure_r751_closed_mixed_atlas.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r751_mixed_atlas.py
+            /topics/visible-flex-larger-amplitude/notes/r751-actual-curvature-mixed-atlas-*.json
+      - name: Pull main and check both current README texts
+        run: python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r751_mixed_atlas.py sync
+      - name: Install the array runtime
+        run: python -m pip install numpy==2.2.6
+      - name: Compute all three resolution levels, seven phases and all nine material charts
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_dir=topics/visible-flex-larger-amplitude/scripts/resume_20261126
+          summary="$RUNNER_TEMP/r751-actual-report.json"
+          python -u "$source_dir/measure_r751_closed_mixed_atlas.py" --raw "$RUNNER_TEMP/r751-actual-six-jets.raw" --report "$summary"
+          echo R751_COMPLETE_REPORT_BEGIN
+          if test "$(wc -c < "$summary")" -lt 100000; then
+            cat "$summary"
+          else
+            wc -c "$summary"
+            sha256sum "$summary"
+          fi
+          echo R751_COMPLETE_REPORT_END
+      - name: Publish complete finite conclusions and checked handoff
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r751_mixed_atlas.py
+          publish --summary "$RUNNER_TEMP/r751-actual-report.json"

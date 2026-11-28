@@ -119,15 +119,14 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 R724–745完整源参/条件/失败未知保[结果索引](results.md)和[固定旧open](https://github.com/Rogerhu12/math-research-public/blob/9724f4e7681f004d749048ccef3ab947c05f8e92/topics/visible-flex-larger-amplitude/open.md)。R738同g浸入半宽.5384265521561006而.16双向球只证.005；R744/745全闭厚像已付但二维同g未付；R741自由Killing/Haar和R743商距条件均保原范围，不能冒宏观商距或真全时解。
 
-R746–748完整证明/六jet见[索引](results.md)：R746整柱准确同g、大握持与宏观held；R747真端ss行和两剩余费用、全锁柱C⁴障碍；R748两完整真帽legacy全t同g，命名全闭reach>.105/D0<3.40/held>1.521/grip≥1.40、0<δE<.000475。仍欠中央活动带与两全圆端的同g，继续真实物理自由；三条全部旧详细界与限制保此前固定H及各完整proof。
-
-[R749真非线性](notes/2026-11-28-R749-fractional-Darboux-complete-launch.md)实际入口z=v^(5/2)u经CK+平坦展开付共同正宽C²完整g/二jet；两端θ∈[1,π/2]，可裁拼保reach≥.106等全几何。裁拼区/剩下端帽仍欠；实际46148020052/job140988230946：h0=1,64的原6盒残差全0、四次嵌套全同，未付收敛半径/全端。
+R746–750完整条件/源/数值保[索引](results.md)、各完整proof/note及[本批前open](https://github.com/Rogerhu12/math-research-public/blob/055c807c6a76bc5c33a1e148dec35b5a4bd2d7e3/topics/visible-flex-larger-amplitude/open.md)。整柱和真帽的局部同g、入口CK极小正宽均不能替整个端帽的同g；R749六盒实际零残差不代解析收敛半径。继续自由中央、两全圆端/真帽全时求解。
 
 [39b全实际](notes/2026-11-28-run39b-actual-material-flow-complete-launch.md)：46148134174/job140988582395自然RC0，11重生点全异，实际新冻结b02763f0，原39flow未知；本次6/9/10共74点×2容差全t/J返回0失败，Gram峰2150.246171967102/336.21278829858846/1245.8329312709147，未达标。
 
 [40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)6完整件现刊触发：同一初g/全材料/0…π/2，原5粗及4/8/16时间结三精化；两真帽、非整数端层、握外中央三分量全放。锁比较支若赢，以全部旧样条列精确保场后新增中央自由；65时间独立核查，不借Killing或旧点。actual未返。
 
-[R750](results/R750-quantitative-Darboux-strip-on-complete-displaced-straight-traces.md)真26片CK传递给显式v*=q⁸R₂₆/8>0（q=R₂₆/8，R_{j+1}=2⁻³⁴R_j³），整平直入口弧准确同g/曲率<1；宽极小，不付周期、曲入口或全端帽，R751/752继续真全域。
+
+[R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：真实晚相位 .00015 材料弧贯穿双全圆端及双帽 .0001 内领准确同g，剩余圆周未付；旧锁中央端部捷径<.801/终弦>1.17严格排除全补齐。原3层×7相位×9图完整测量现触发，actual待。
 
 ### 完整准确下游与完成责任
 
