@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：修正后二重点 Phi 四个真实二次头](results/R150-appendix-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads.md)：自含f62真0.091190541秒/0，四个完整因式恒等式；原bc/P02/QδPf直接付前因子，共同头零恰为AB=F8=F10=F9=0。新开图三生成元仅按真头可逆使用，头零全保，不恢复旧错误H1/H42/583。
+
 - [R267：同一P的全部逆幂与双平坦实际来源](results/R267-appendix-same-flat-denominator-all-inverse-powers-and-double-flat-source.md)：明确正收缩强积Q、原柱基与尾误差、同一Q真强单位，付全部原旗C^-aP^-bQ有界单射稠值；0≠F_P⊊F_C，Q幂衰减型无穷。双逆整系数卷积给精确平方输入B_(zF²−1)=0，尚未求解，不把整数逆当平方根。
 
 - [R150：W 整Lhalf完整原理想排除](results/R150-appendix-unit211-W-entire-Lhalf-complete-original-exclusion.md)：F101完整QQ五因子及重数全回，正确原七行四整模型12/12/204/816满射、双逆/原D目标返回；一整因子被已付C9排除。当前物理D≠0图可付L与2ell−1。原链与十三单位均确认正确vm，无compact错误依赖；余W继续。

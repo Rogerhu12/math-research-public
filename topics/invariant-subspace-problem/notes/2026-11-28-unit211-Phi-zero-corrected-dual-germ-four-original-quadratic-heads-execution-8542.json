@@ -1,0 +1,150 @@
+{
+  "elapsed_seconds": 0.09119054100000312,
+  "max_child_rss_kib": 39544,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "a53594d32abd7523047a82f615b782cb459ebc39",
+      "before": "77fc3153e8d45529bd4686f12362992b92d8b11c",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T04:07:06.386811+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46106007773",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "77fc3153e8d45529bd4686f12362992b92d8b11c",
+  "source_exit_code": 0,
+  "source_git_blob": "f62e66a27d5c999a54d03631ab8d3b31297e7aa2",
+  "source_sha256": "5ee86ff89db7c8babaf3a22c7d72570dcdfbbf92646f56adf37bff854a87ace7",
+  "stdout_bytes": 20340,
+  "stdout_sha256": "4399003c089930444142500eaedeace6ba6aa2a42138a8e900503dc7f7e3bf0d",
+  "stop_reason": null,
+  "job_id": 140858793293,
+  "mathematical_status": "new corrected original four quadratic heads and their complete factorizations returned; simultaneous zero locus retained",
+  "original_definition_correction": "true vm(d,d)[1]=2*d0*d1",
+  "checks": {
+    "all24OriginalQuadraticCoefficientsReturned": true,
+    "allHeadsIndependentOfLambda": true,
+    "exactDivisionsReturned": 59,
+    "allFourFactorizationsMultipliedBack": true,
+    "oldHeadOrWeightExclusionsUsed": false
+  },
+  "heads": [
+    {
+      "rows": [
+        0,
+        1,
+        2
+      ],
+      "numerator": {
+        "degrees": [
+          24,
+          13,
+          0
+        ],
+        "terms": 194,
+        "sha256": "0b2555db0425811920e95c7755942a93fd9d899f284f33775b45488e133a88c1"
+      },
+      "denominator": {
+        "degrees": [
+          3,
+          7,
+          0
+        ],
+        "terms": 26,
+        "sha256": "fc12931dad4ffebf1fffdc8eed1b85250853e3f502a6e6ec88e1cf4c2f348230"
+      },
+      "factorIdentitiesReturned": true
+    },
+    {
+      "rows": [
+        0,
+        1,
+        3
+      ],
+      "numerator": {
+        "degrees": [
+          22,
+          12,
+          0
+        ],
+        "terms": 144,
+        "sha256": "f37687a33cda28064cf6c8598cb4573440b3045ae70de3b9948bcca3c8862184"
+      },
+      "denominator": {
+        "degrees": [
+          2,
+          5,
+          0
+        ],
+        "terms": 15,
+        "sha256": "2d057b1cd68e49a3f34a9c2fd7e17bf5bf651f410f4e1b2d700543725191d36b"
+      },
+      "factorIdentitiesReturned": true
+    },
+    {
+      "rows": [
+        0,
+        2,
+        3
+      ],
+      "numerator": {
+        "degrees": [
+          25,
+          12,
+          0
+        ],
+        "terms": 206,
+        "sha256": "c0221d34b542e56d31ce28d0cbeebaa7c76abfea11438b0fa3683842f755b2be"
+      },
+      "denominator": {
+        "degrees": [
+          3,
+          7,
+          0
+        ],
+        "terms": 26,
+        "sha256": "fc12931dad4ffebf1fffdc8eed1b85250853e3f502a6e6ec88e1cf4c2f348230"
+      },
+      "factorIdentitiesReturned": true
+    },
+    {
+      "rows": [
+        1,
+        2,
+        3
+      ],
+      "numerator": {
+        "degrees": [
+          29,
+          15,
+          0
+        ],
+        "terms": 270,
+        "sha256": "57ee61fcf1e2a0eb4a1ff28cc92e92ea16b3a15558ab816de91256840c25a073"
+      },
+      "denominator": {
+        "degrees": [
+          3,
+          8,
+          0
+        ],
+        "terms": 26,
+        "sha256": "5b9ca41cf577ae34127f3c4ae3707fcf7ad8ad5279745de2bc3191bce0e15550"
+      },
+      "factorIdentitiesReturned": true
+    }
+  ],
+  "retained_scope": [
+    "simultaneous vanishing of all four corrected heads",
+    "Pf=0 outside the displayed coordinate chart",
+    "all previously quarantined descendants remain quarantined"
+  ],
+  "claim_all_phi_excluded": false
+}
