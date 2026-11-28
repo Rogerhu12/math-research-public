@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R758（已证明的局部整域等距与完整基线；全闭拟合待）**：[弯曲初帽、刚性椭圆碗与真实环带](results/R758-curved-cap-collars-rigid-elliptical-crowns-and-full-annular-fit.md) — 独立新初g准确支付整活动预载右墙、两卷及宽.007真曲帽领；两个全椭圆碗有真实刚移自由。完整九图基线嵌入/缝二jet、固定握径≥1.40及held>1.09已给，整个新帽与全reach未付。[四完整原预算物理拟合](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)保三个空间分量、全部三层七相及六中点、两类端部自由和同标签原路径；各实际返回待，不与R757/43混作同g精化。
+
 - **R757（已证明：真正弯曲初剖面、非平双帽与新固定闭度量）**：[完整新初态与物理六jet](results/R757-curved-section-and-nonflat-caps-on-a-fixed-closed-metric.md) — 所有原直段分成≤.12小胞并作四阶端平弓，双初帽加真实非平高度，故原平材料矩形母线反证的前提消失；初闭像reach≥.108、D0<3.50。命名微量空间柱/双fan场有reach≥.107、握径≥.72、held>1.519及正商距；所有中央弦的闭距必要条件保留。中央等距和刚帽同g明确，非平帽的fan交叉项必须计入，双全卷同g和一般幅度全几何仍欠。三份完整源同步刊；初帽非平不自动保证全闭等距存在。
 
 - **R756（已证明，完整平材料带的C²母线禁阻与新预载整卷等距）**：[真双帽禁阻、返回墙和预载整滚肩](results/R756-flat-ruling-cap-obstruction-and-preloaded-exact-returning-rolls.md) — Gauss常秩直母线与非零二jet开闭延拓，排除原直中央弯曲后只修双端帽；R752/753给出单正端长度>2.08的完整平矩形反证，所有中央弦必要条件不足。原返回双肘厚闭像仍reach≥.132、held>1.09。独立预载初g满足κθ=aκ0，整个活动右墙两整roll及双帽真实领准确同g、九图物理续接C²；这条准确分支仍不能穿越两个完整原平帽，过渡/全reach另欠。新输入须改初帽曲率或释放端Cauchy。[完整两初态六jet源](scripts/resume_20261126/r756_return_elbows_preloaded_exact_rolls.py)同时刊，不冒全闭解。
