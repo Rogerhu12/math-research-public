@@ -766,3 +766,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §65：17挠全局单位与三目标完整Heisenberg读者
 
 实际17平移保Teich相位、共同3024及全部17p^r全局单位；原CRT证明S与九H在同一b⊗V17，完整289项回各目标。原三个C_i及参考逆因子照保；偶对数奇矩为零，不能替代原Rubin类。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+## 同编号证明索引续卷
+
+本卷后续条目见[续卷](PROOF-INDEX-R1051-R1100-CONTINUATION.md)；同一结论继续原R号，原条目完整保留。

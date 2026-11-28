@@ -321,3 +321,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:26:31 UTC到df1578f1cf7cadf0d3b24b9454c540bc742c4759，私库2026-11-28 13:26:26 UTC到30eaedbd5bc36d3ac39c2446ef74e988c7d0f676；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47364113B/tree156e0eccdd063d4eabff3c14803db2c2d4f1f167，无>5MB。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:31:48 UTC到ff4c67b7a91bb99121c44d68b5016d71e0531b7e，私库2026-11-28 13:31:38 UTC到cfd20cc40f1ef1ce070cc8bf18036ba84eb34724；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47364113B/tree156e0eccdd063d4eabff3c14803db2c2d4f1f167，无>5MB。
+
+## 2026-11-28 13:36:08 UTC：R1071 §17：原下降G3两截面及四个物理理想
+
+根逐式手核log KS与同q归一−4、度354/966及RR、整有限方案无公共零判据、确定355标量基扫、t⁹/s³两图和实际306paired graph。再实读原Artin0/2、cube高A/B6941/2725及原完整W4 membership代码；不以旧1429窗补零、不称生产PASS。归档完整H、续写原索引，保所有旧条目；13:26非FF重拉遭临时磁盘满，13:31已恢复双pull及§65推送。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:36:21 UTC到75f890d638d4d87e80e162e306bdd5776ec76729，私库2026-11-28 13:36:13 UTC到ead4c47fdceffb639941a57fb97ecd61981dfc63；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47372811B/tree1bf1fa366dc78d9709bc91101c4cfbaea80d2149，无>5MB。
