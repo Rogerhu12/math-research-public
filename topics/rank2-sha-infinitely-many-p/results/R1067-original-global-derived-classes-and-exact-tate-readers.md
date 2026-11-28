@@ -858,3 +858,137 @@ $\Omega_{17}=(1-\omega)\varpi_{17}$。因$F\in\mathbb Q(E)$，这些点的$F$值
 $\operatorname{ord}([b]Z)=102a/\gcd(102a,b)>102$，故只有$a$项在$Z$有零极，且阶数非零。矛盾证明(BT7)。
 
 (BT7)已包含完整原驯源；(BT5)角向全和的长度随$p$增长，不能以固定短列表独立宣称其增广喷流跨$p$非零。尚需付此最后的完整非抵消。
+
+## 105. 同一全射线Robert类的二变量行列式与六个完整全域幂条件
+
+先取$p>211$在$K$惰性，保持§100的
+$W_0=T_{17}^{-1}(1)$及原相容Betti/Tate基。本节的全域论证不需
+$(17/p)=1$；该旧限制只在另行调用§98的特定当地单变量比较时保留。
+令$K_\infty^{(2)}$为两条$\mathbb Z_p$塔合成，
+\[
+ \Gamma=\Gamma_+\times\Gamma_-\simeq\mathbb Z_p^2,\qquad
+ \Lambda_2=\mathcal O[[U_+,U_-]],\qquad I=(U_+,U_-).
+\]
+保持反圆逆约定，普遍群元作用为
+$(1+U_+)^{-s_+}(1+U_-)^{-s_-}$，原单变量$U$是$U_-$的限制。
+$\boldsymbol Z$为同一$(\;{}_{103}\theta)^{-1}$全射线系统，扭以完整
+$T_{17}^{-1}$后保留两个变量的真实全域类。固定平滑与未平滑类相差
+(BT5)整个$c^2-c[g_c]$，其常项$c^2-c$为单位；下面有限和列已平滑源。
+
+### 原典给的正是这个行列式格
+
+Johnson-Leung–Kings，*On the equivariant main conjecture for imaginary quadratic fields*，Crelle 653 (2011), 75–114；见[作者全文](https://epub.uni-regensburg.de/13800/1/MP52.pdf)。
+Definition 3.2的$\;{}_{\mathfrak a}\zeta_{\mathfrak m}$是同一Kato逆theta值的真范数；在$\mathfrak m=\mathfrak fp^j$的已分歧塔内，其分布正是§100的$u_j$。Definition 3.5的(8)–(9)和Lemma 3.7先张量指定基再作真实迹。
+
+在CRT标签$[(t,a)]$上取有限角色
+$\chi=\varepsilon(t)\tau(a)^{-1}$。$\varepsilon(u)=u$使它对角$\mu_6$平凡；各局部原导子保留。取含$\chi$值数域的指定$p$位系数分量，再按Lemmas 4.7、6.1扭以
+$\varrho=\langle a\rangle^{-1}$，便从有限角色变为完整
+$T_{17}^{-1}$。这一无限阶扭转也可逐有限模直接张量后取迹，群环自同构给同一对象。作者的左右环约定以同步反演变量转换，保持$I$。
+
+Theorem 5.1给一般$H^1$秩一、$H^2$挠，且真实$\boldsymbol Z$在分式域的$H^1$线上生成
+\[
+ \operatorname{Det}_{\Lambda_2}^{-1}
+       R\Gamma(\mathcal O_K[1/p],\Lambda_2(W_0))
+\]
+的格，固定平滑只乘上述单位。这是特定字符的$\Lambda$定理，对惰性$p$无条件；不调用另一等变$\Omega$定理的未证$\mu$假设。
+
+### 基域维数与真实有符号子式
+
+置
+\[
+ R=\widehat{(\Lambda_2)_I}=\Phi[[U_+,U_-]],\qquad \mathfrak m=IR .
+\]
+原文Lemma 4.3及固定截断的有限自由消解给导出基变换；闭点纤维为
+$W=W_0\otimes\mathbb Q_p$的全域上同调。
+
+先核原文$j_*$与这里$G_{K,S}$的条件。每个真正坏位
+$v\mid2\cdot3\cdot17$的原有限CM惯性角色非平凡。若wild惯性作用非平凡，因其为pro-$\ell$、$\ell\ne p$，在特征零平均后其全部上同调为零；若wild平凡，tame惯性阿贝尔，有限素于$p$的非平凡标量仍使全部惯性上同调为零。反圆/圆分塔在这些位未分歧，故有限jet不改变这一消失。原$j_*$与加入这些$S$位的局部修正为零。
+
+沿§102置
+$s=2+\operatorname{corank}_{\mathbb Z_p}\Sha(E/\mathbb Q)[p^\infty]$。
+基域通常CM Selmer的$\Phi$维数为$s$。唯一$p$位的Kummer线维一，真实有理非挠点的非零形式对数张满它。任一全域$W$类与这个对偶Tate格上的全域MW类满足全局互反；非$p$位有理上同调为零，所以其$p$处像正交于该Kummer线。当地Tate对偶中这一正交补就是$W$的Kummer线。因此relaxed全域$H^1$没有多出非有限当地类，等于usual Selmer，维数$s$。
+
+所有当地$H^2(W)$由对偶$H^0(V)$为零；Poitou–Tate给全域
+$H^2(W)$对偶于基域$V$的strict核，维数$s-1$。同样也可由
+$H^0(W)=0$和虚二次域秩一系数Euler特征$-1$从$H^1$维数得到。
+未假设全域$H^2$消失。
+
+将完美复形中单位微分分裂后，在$R$上有极小模型
+\[
+                  R^s\xrightarrow{\ D\ }R^{s-1},
+                    \qquad \text{次数为 }1,2,\quad D_{ij}\in\mathfrak m.
+\]
+Theorem 5.1给$D$一般秩$s-1$。在分式域任取一个非零极大子式展开，行列式生成元在$R^s$中的闭链代表正是
+$D$的$s-1$阶有符号子式向量，乘同一个$R$单位。换$R$基只乘单位并同步变换源向量。每一子式都在$\mathfrak m^{s-1}$，所以
+\[
+ \boldsymbol Z\longmapsto0
+       \quad\text{于}\quad
+ H^1\!\left(K,W\otimes_\Phi R/\mathfrak m^{s-1}\right). \tag{BU1}
+\]
+这是**系数截断的上同调像**；$I$非主，不能擅自加强成
+$\boldsymbol Z\in I^{s-1}H^1_{\rm Iw}$。
+
+### 全部精度的六行与通常全Sha
+
+若通常全$\Sha[p^\infty]$无限，§102的无条件Selmer奇偶给$s\ge4$。
+三阶整系数的$H^1$无$p$挠：模$p$各分次都有非平凡驯标量$-1$，故
+$H^0$为零；对系数乘$p$的长正合列即证。于是(BU1)有理为零提升为
+\[
+ \boldsymbol Z\longmapsto0
+   \quad\text{于}\quad
+ H^1\!\left(K,W_0\otimes_{\mathcal O}
+                  \mathcal O[U_+,U_-]/I^3\right) . \tag{BU2}
+\]
+对每个$k\ge1$取$j=k+1$、$L_j=K(\mathfrak fp^j)$。
+在其原Kummer张量中，真实限制为
+\[
+ \mathcal J_k=
+ \sum_{[t,a]\in G_j}\varepsilon(t)a^{-1}
+       (1+U_+)^{-s_+(a)}(1+U_-)^{-s_-(a)}[t,a]u_j
+                    \pmod{(p^k,I^3)}. \tag{BU3}
+\]
+六项对应$1,U_+,U_-,U_+^2,U_+U_-,U_-^2$。
+两个指数是$\log\langle a\rangle$在实/虚$p$阶整基中的坐标；
+$1+p^{k+1}\mathcal O$给指数$p^k$倍，且$2$可逆，所以提升无关。
+这是§100同一全陪集Mackey和。中央$d=[1,-1]$在$W_0$为$-1$、在两个pro-$p$商平凡；$L_j$平凡化全部截断系数，限制仍无核。
+用未平滑源时乘整个$c^2-c[g_c]$的逆，不仅除其常项。
+
+因此
+\[
+ \Sha(E/\mathbb Q)[p^\infty]\text{无限}
+      \ \Longrightarrow\ (\forall k\ge1)\ \mathcal J_k=0, \tag{BU4}
+\]
+而任一$k$的任一真实混合行非零便充分推出通常全$\Sha[p^\infty]$有限。
+只知道旧当地$a_2=0$不满足这里的前提。
+
+### 普通分裂素的同一完整源
+
+若$p=\mathfrak p\bar{\mathfrak p}$分裂，取原CM直因子
+$V=V_{\mathfrak p}$、$W_0=T_{\mathfrak p}^{-1}(1)$、系数域$\mathbb Q_p$；
+两变量仍保完整$\mathfrak fp^j=\mathfrak f\mathfrak p^j\bar{\mathfrak p}^{\,j}$塔。
+为避免凭空删掉另一$p$位的Euler因子，直接用上述原文
+Theorems 5.4、5.5：Gillard结果使完整$\Omega$行列式等式在所有
+$p\nmid6$的分裂处无条件成立，而其$\zeta=\varprojlim\zeta_{\mathfrak fp^n}$从定义起就是此两位同时升的源。取
+$\chi=\varepsilon(t)\tau(a_{\mathfrak p})^{-1}$的素于$p$有限直因子，
+再扭$\langle a_{\mathfrak p}\rangle^{-1}$；§7.1的(18)导出基变换和
+Lemma 6.1将该等式传到原所选CM行。没有以单侧raw theta源替换原完整源。Definition 3.2已对有理整数$p$两处取范数；Proposition 3.3(2)在$\mathfrak q\mid p\mathfrak m$时为已分歧相容支，也不会在这里额外丢掉$\bar{\mathfrak p}$因子。
+
+基域维数仍准确。复共轭交换$V,V^c$，
+\[
+ [H^1_f(K,V)\oplus H^1_f(K,V^c)]^{c=+1}
+                         \simeq H^1_f(K,V),
+\]
+逆由$x\mapsto x+cx$给出。$[K:\mathbb Q]=2$可逆，二次下降把左边与
+$\mathbb Q$上完整$V_pE$的usual Selmer识别，故其维数为同一$s$。
+局部对数使$V$的Kummer像在$\mathfrak p$维一、在$\bar{\mathfrak p}$维零；
+真实有理非挠点在第一处的对数非零。故两处合计的strict核维$s-1$，
+Poitou–Tate、当地$H^2=0$及Euler特征给同一极小模型。
+
+整截断无$p$挠可在CRT取
+$a_{\mathfrak p}=1,a_{\bar{\mathfrak p}}=-1,t=1$的驯元素：
+它在$W_0=T_{\mathfrak p}^{-1}(1)$作用为$-1$，在$\Gamma$平凡。
+Nekovář奇偶适用全部奇$p$，所以(BU2)–(BU4)在该原分量也成立，
+有限和的$a^{-1}$取其$\mathfrak p$分量。交换两处得到共轭分量。
+这同时保留两个ordinary位的当地限制，没有把某个单侧Taylor格当作完整全域六行。
+
+本节扩大了真实坏$p$必须满足的条件，还没有证明这些条件在无穷$p$中被违反。

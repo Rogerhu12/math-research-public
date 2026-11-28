@@ -173,3 +173,7 @@
 ### R1067 §104：完整全域喷流降到固定Q有理函数及全阿贝尔短列表独立
 
 已证明：原周期相位、全f/p Tate权和Kato函数精确降为唯一固定M∈Q(E17)，二变量保完整平滑unit c²−c[g_c]。M对每个实际CM Frobenius严格范数相容，原十八邻支保留；任意固定短列表的M挠值对充分大惰性p在K^ab乘法模p独立，未偷换增长的完整角向和。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §105：原二变量det使全Sha无限迫全部混合二次全域行零
+
+已证明：JLK实际源行列式经基域usual/strict维数给极小R^s→R^(s−1)，真实Z的有符号极大子式在I^(s−1)。usual全Sha无限迫全部六个I³系数截断整零，每个p^k精度保全部源；分裂处用已证完整Ω定理保双p位。未把系数像零误写成I³H¹整除。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
