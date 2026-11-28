@@ -238,3 +238,10 @@ $$
 ### 原通常p剔除的真实p²来源和完整有限字
 
 [原p²剔除完整新来源](notes/2026-11-28-original-p-square-depleted-source-and-flat-tensor-return.md)已逐式支付 $W_p=p^{-4}(g_2^2)^*w_0$、实际bad源 $-F_0+p^2(g_2^2)^*F_0$ 及第二raised项 $p^{4n+2}(g_2^2)^*(\delta^nF_0)$。新CM点是循环导子p²邻点，全部核给 $v(c_C)=1/p$，书版 $\Omega_2=p^{-2}c_C\Omega_0$ 使显示因子准确为 $p^{-4}(c_C\Omega_0)^{3+2n}$。完整换极化给每轴p²字、总p⁴项和mixed $-102AB$，体积p^-2与原整球锚1全保；不把新compact p-torus平均计入原full54。负端点是同一新测度的单位inverse-square，真实KS与b2 Bol给p^-6的原Coleman Q根平均接口，仍未把该平均认成CM图或canonical J′。旧原点D102/S34估计不能搬到新邻点；两处张量/系数与determinant费用已由root/arithmetic独审。
+
+
+### R1059 §8：同一负二原函数与完整实际图
+
+R1059§8把同一负二germ接到Frobenius-rigid Coleman primitive及实际有限CM图：点式为p^-6Ω_i^-1〈q*G_C−G_i,ω_i〉，全图保e_i/m_i与(1−p^-2)旧germ；exact-wild全正交时得到−p^-4Σλe_i/(m_iΩ_i)AJ_out。正KS/杯积、incoming V²、H¹次数及full9源本征作用逐项支付，实际ψ4十八degree17核/双sign/full9/Artin1/12全保。仅局部AI GM/proper fp，不套全局Heegner定理、不改原54来源；值身份不替全部权导数或原canonical必要关系。
+
+[完整证明](results/R1059-original-p-square-source-and-complete-critical-germ.md)，A20–A28。没有新增数学执行，课题主无穷p目标仍开。

@@ -130,3 +130,10 @@ R1054§9把第一输出字逐式接到真实CM类：Chan行矩阵Pg_t^TP/h=bar t
 R1059用同一实际裸bounded Q来源和显式tensor外权，证明原p²剔除来源与局部AI marked评价的整个负二解析germ相等，精确保留(1−p^-2)旧germ。Tate/cup/KS给真实正权身份，固定Teich分量的非负整数逼近及完整Maass尾给极限；实际v(C)=2以2i−v(i!)付Tate收敛。全部unit-period、det/tensor、外权、log和Maass斜率费用保留；非平凡wild或R1052只能消已经识别的完整旧和。各t的权不吞入测度，局部p+1单位矩阵可逆不赋新canonical零。
 
 [完整证明](../results/R1059-original-p-square-source-and-complete-critical-germ.md)，A0a–A19；来源为R1054§9、R1056完整Maass、R1052原旧和、R1058实际CM运输及AI局部GM/marked评价。后继是同一primitive/原有限图和canonical斜率；不以本比较声称无穷p主目标完成。
+
+
+### R1059 §8：同一负二原函数与完整实际图
+
+R1059§8把同一负二germ接到Frobenius-rigid Coleman primitive及实际有限CM图：点式为p^-6Ω_i^-1〈q*G_C−G_i,ω_i〉，全图保e_i/m_i与(1−p^-2)旧germ；exact-wild全正交时得到−p^-4Σλe_i/(m_iΩ_i)AJ_out。正KS/杯积、incoming V²、H¹次数及full9源本征作用逐项支付，实际ψ4十八degree17核/双sign/full9/Artin1/12全保。仅局部AI GM/proper fp，不套全局Heegner定理、不改原54来源；值身份不替全部权导数或原canonical必要关系。
+
+[完整证明](../results/R1059-original-p-square-source-and-complete-critical-germ.md)，A20–A28。后继保持A16的全部period/log/Maass/外权导数，继续原固定canonical到新增ramified字的实际关系。

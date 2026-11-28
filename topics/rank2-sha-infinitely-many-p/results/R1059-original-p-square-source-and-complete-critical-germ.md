@@ -565,3 +565,320 @@ R1058 仅提供完整运输与根平均互绕。也不把新 p² 解析读者
   [已发表全文](https://ems.press/content/serial-article-files/48931)。
 
 全部为纸笔等式与一致收敛证明，无新增数学执行。
+
+
+## 8. 真负端点到同一有限图；全部旧项及向外费用
+
+本节把(A15)的值端接到同一个实际 Coleman--AJ 读者。
+来源、各点的 bounded $Q_2$ 输入、$(A7)$ 的权分量及全部外权均
+保持前七节。新的 $\psi_4^2$ 来源使用原 degree17 图和两个
+full2 取向；它不被替换成 $\psi_{27}^2$ 的旧54图。
+本节不需要将 $Q\mapsto\zeta_pQ$ 解释成单条 CM 同源。
+
+### 8.1. 局部 CM 负二阶是哪个原函数
+
+先在原共同 full tame 模空间上令
+$\mathcal H=R^1\pi_*\Omega^\bullet$，把实际 weight3 形式 $f$
+按本来的正号 KS 写成 $\mathcal H$-值微分，记其
+Frobenius-rigid Coleman primitive 为 $G$。
+若实际形式是 $-\delta f_4(\tau/6)$，则这个完整有限级来源、
+变量倍率和 $-\delta$ 均在 $f,G$ 内；不以首系数1的另一形式
+代替它。
+
+固定原 R997§4 的完整多项式规范：
+$Q(\Phi)[f]=0$，$Q(\Phi)$ 在局部解析水平截面上可逆，
+且 $Q(1)\ne0$；要求 $Q(\Phi)G$ 在指定宽开集上 rigid analytic。
+权重分离给这样的 $Q$。剩余全局 rigid 水平差由该有限级
+通用椭圆曲线的实际 monodromy 排除。
+这既不任设局部常数，也不使用“负权就没有 slope-zero
+子空间”的说法。比较任一具体 Frobenius lift 时，
+用其有限次幂的真实特征值和 $1-\Phi$ 的可逆性，
+不把 slope-zero 与 Frobenius 固定向量混同。
+
+在 conductor-$p^2$ 的 actual canonical chart，
+AI2024 Propositions7.6--7.8 的局部证明可随原 prime-to-$p$
+有限 étale level cover 拉回。这里只用连接、marked differential、
+CM splitting 及该 chart 内的解析截面，仍不调用其全局
+Heegner-character Theorem7.1。
+
+为核符号和阶乘，在 CM 点附近取
+$\langle\omega,\eta\rangle=1$ 的水平基，令
+$\omega'=\omega+b\eta$、$b(x_C)=0$。
+则
+$\nabla\omega'=\eta\,db$、$\nabla\eta=0$，
+正号 KS 为 $\mathrm{KS}((\omega')^2)=db$。
+写
+$$
+ G^{[p]}=g_0\omega'-g_1\eta,\qquad
+ f^{[p]}=h(\omega')^3 .
+$$
+原连接方程逐项给
+$\partial_b g_0=h$、$\partial_b g_1=g_0$，
+而在 CM 点
+$\langle G^{[p]},\omega'\rangle=g_1$。
+AI Proposition7.8 的 $r=k-2=1$、$j_{\rm AI}=1$
+准确选这个槽，系数是 $+1/1!$。
+因此 basic marked 微分下，前文的同一解析族满足
+$$
+ \boxed{\quad
+ I_C^{\rm AI}(-2)
+    =\left\langle G^{[p]}(E_C),
+                       \omega_{{\rm AI},C}\right\rangle .
+ \quad}
+ \tag{A20}
+$$
+这里的 $G^{[p]}$ 是上面的 Frobenius-rigid $G$ 的完整剔除，
+不是另取一个局部双原函数。AI Proposition7.6 先在其实际宽开集
+识别这一截面，再由 Proposition7.8 的局部计算评价。
+正号也同 R1056(16)--(20)及原 Tate 关系
+$\langle G^{[p]},\omega\rangle=\theta^{-2}f^{[p]}$ 一致。
+只用后一个 cusp 关系本身不足以支付其它 residue disc；
+本段使用的是前述同一个 Coleman 截面。
+
+这里采用 Proposition7.8 证明中同一个 marked differential 的
+局部式，不从文字提取中跨两个微分的 $\Omega$ 幂次反推归一。
+实际缩放可以独立核定：若
+$\widetilde\omega=\Omega\omega$、
+$\widetilde\eta=\Omega^{-1}\eta$，则
+$
+ G=g_0\omega-g_1\eta
+   =g_0\Omega^{-1}\widetilde\omega
+       -g_1\Omega\widetilde\eta,\qquad
+ \widetilde g_1=\Omega g_1
+       =\langle G,\widetilde\omega\rangle .
+$
+因此 weight $-1$ 的同一负二阶值随微分乘 $\Omega$，
+而不是 $\Omega^{-1}$。这项直接的同质性校验连同
+$p704$--$705$ 的局部 GM 推导确定(A20)；
+不据 PDF 文字提取的幂次声明原文有错。
+
+若用实际 idelic 微分
+$\omega_{a_t}=t\,\omega_{{\rm AI},C}$，
+weight $-1$ 的值乘 $t$。R1054(48)在 $n=-2$ 的 avatar
+因子 $t^{-1}$ 恰好将它送回(A20)，没有留下一个未记的 $t$。
+
+### 8.2. incoming 旧项、cup 次数和绝对 p 幂
+
+沿(A1)--(A2)记
+$$
+ q_C:E_0\longrightarrow E_C,\qquad
+ q_C^*\omega_{{\rm AI},C}=d_C\omega_0,\qquad
+ u_C=\Omega_0d_C,\qquad \deg q_C=p^2 .
+$$
+AI 的两步 canonical incoming 指向 $\widehat q_C:E_C\to E_0$，
+其 $\mathcal H$-值 $V^2$ 正是
+$p^{-2}\widehat q_C^*$。理由是每个
+$V_H=\phi^*/p$，并且 $\nabla V=pV\nabla$；
+从 $f^{[p]}=f-p^2V^2f$ 转为 primitive 时，
+两次连接费用恰把显示的 $p^2$ 消去。
+故当前 $a_p=0,\epsilon(p)=-1$ 下，
+$$
+ G^{[p]}(E_C)
+   =G(E_C)-p^{-2}\widehat q_C^*G(E_0,[p^2]\ell).
+ \tag{A21}
+$$
+所有 level 沿 actual isogeny 运输，原 level deck 仍保留。
+这里不声称 $p^2\equiv1\pmod9$，也不把全部 level 字面认同。
+在当前完整来源的本征块上，单步 central diamond 的特征为
+$\epsilon(p)=-1$，因此两步作用为 $\epsilon(p)^2=+1$；
+Coleman 唯一性使同一个 $G$ 具有这个实际来源特征。
+只有先作用这条完整本征向量及其两步 diamond 后，
+(A21)的末值才返回原 $G(E_0,\ell)$。
+后续几何 level 的重标仍在原有限和内。
+
+因此，在同一 $H^1_{\rm dR}$ 上
+$$
+ q_C^*G^{[p]}(E_C)
+       =q_C^*G(E_C)-G(E_0).
+ \tag{A22}
+$$
+这里用的是
+$q_C^*\widehat q_C^*=[p^2]^*=p^2$，
+不是 $H^2$ 上的 $p^4$。
+(A21)也由同一个 Frobenius-rigid 规范识别，故(A22)
+没有附加一份任意水平向量。
+
+Poincaré 配对满足
+$\langle q_C^*a,q_C^*b\rangle=p^2\langle a,b\rangle$。
+结合 $q_C^*\omega_{{\rm AI},C}=d_C\omega_0$ 与(A20)--(A22)，
+得到完全固定的点式
+$$
+ \boxed{
+ p^{-4}u_C^{-1}I_C^{\rm AI}(-2)
+  =p^{-6}\Omega_0^{-1}
+       \left\langle q_C^*G(E_C)-G(E_0),\omega_0\right\rangle .
+ }
+ \tag{A23}
+$$
+这个 $p^{-6}$ 包含本篇的 $p^{-4}$ 和 cup 的 $p^{-2}$；
+$d_C$ 已准确消去，未将它或 $\Omega_{{\rm AI},C}$ 猜成单位。
+
+### 8.3. 同一有限 flat 值及原完整补项
+
+允许原有限 word 集合包含不同的 tame CM 基点，
+以 $i$ 标记，写其真实微分和 book 周期为
+$\omega_i,\Omega_i$；$C$ 跑该基点的实际 cyclic-$p^2$ 核。
+记 $\lambda_{i,C}$、$\Lambda_{i,C}$ 为(A11a)的同一外权，
+不把 $\mathfrak j_{i,C}$ 吞进 Amice 测度。
+将(A23)逐项代入(A15)，严格得到
+$$
+ \begin{split}
+ \sum_{i,C}\Lambda_{i,C}(-2)I^Q_{i,C}
+  ={}&p^{-6}\sum_{i,C}
+       \lambda_{i,C}(-2)\Omega_i^{-1}
+       \left\langle q_{i,C}^*G(E_{i,C})-G(E_i),
+                                      \omega_i\right\rangle\\
+    &-(1-p^{-2})\mathcal O(-2).
+ \end{split}
+ \tag{A24}
+$$
+$\mathcal O$ 是(A13)的完整旧 germ；(A24)没有重新定义它。
+尤其不能把每个原点的旧 flat 值分别设零。
+只有 R1054§9.7 已付的 full-avatar wild 正交，
+或(A13)已经识别为 R1052 的同一整个 toric germ时，
+才按原证明删除对应旧项。
+
+现在取一条真实原图
+$\varphi_i:A\to E_i$，记
+$$
+ m_i=\deg\varphi_i,\qquad
+ \varphi_i^*\omega_i=e_i\omega_A,\quad e_i\ne0 .
+$$
+为避免与外系数混用，$e_i$ 在这里只表示这个实际微分倍率。
+原图和复合图均取完整修正：
+$$
+ \Delta_i=\Gamma_{\varphi_i}
+       -m_i(E_i\times O_A)-(O_i\times A),\qquad
+ \Delta_{i,C}=\Gamma_{q_{i,C}\varphi_i}
+       -m_ip^2(E_{i,C}\times O_A)-(O_{i,C}\times A).
+ \tag{A25}
+$$
+使用同一 source 二形式 $\Omega_{\rm geom}$ 及原 $\omega_A$，
+记相应 actual proper AJ 值为 $\mathcal J_i,\mathcal J_{i,C}$。
+局部 residue/投影公式在这些已同调零的图上给
+$$
+ \mathcal J_i
+   =\langle\varphi_i^*G(E_i),\omega_A\rangle,\qquad
+ \mathcal J_{i,C}
+   =\langle\varphi_i^*q_{i,C}^*G(E_{i,C}),\omega_A\rangle .
+$$
+在惰性处采用已付的 proper finite-polynomial/局部图比较：
+先保实际 $1-\Phi$ 或 $P(\Phi)$ 分母，再读杯积。
+没有将 R997§1 的 ordinary 范围直接改为 inert。
+对新的 $\psi_4^2$ 曲面，
+原图文稿(21)已给
+$[G|_{E_i}]=p\,\xi_{i,p}/(p+1)$，
+因此上述式子与其 proper fp 公式(29)完全同一，
+不另丢掉 $p/(p+1)$。
+
+再次只对 $\varphi_i$ 使用 cup 自然性，得到
+$$
+ \left\langle q_{i,C}^*G(E_{i,C})-G(E_i),\omega_i\right\rangle
+    =\frac{e_i}{m_i}
+                  (\mathcal J_{i,C}-\mathcal J_i).
+$$
+故(A24)给真实有限图返回
+$$
+ \boxed{\;
+ \sum_{i,C}\Lambda_{i,C}(-2)I^Q_{i,C}
+  =p^{-6}\sum_{i,C}
+       \frac{\lambda_{i,C}(-2)e_i}{m_i\Omega_i}
+                   (\mathcal J_{i,C}-\mathcal J_i)
+    -(1-p^{-2})\mathcal O(-2).
+ \;}
+ \tag{A26}
+$$
+$e_i/m_i$ 是原图的实际费用；没有因“degree17”就擅设
+原模型微分的拉回为1。若采用原图文稿规定的
+$\varphi_i^*\omega_i=\omega_A$，则此费用恰为 $1/17$；
+同时 $\Omega_i$ 必须使用该同一个微分。
+
+### 8.4. exact-p² 字的真正向外图表达
+
+在固定底曲线 $E_i$ 上加 $C$，其实际两退化映射给
+$$
+ G^{\rm out}(E_i,C)
+       =G(E_i)-p^{-2}q_{i,C}^*G(E_{i,C}),\qquad
+ \mathcal J^{\rm out}_{i,C}
+       =\mathcal J_i-p^{-2}\mathcal J_{i,C}.
+ \tag{A27}
+$$
+后式是原固定底曲线的修正图对
+$d_0^*\Omega_{\rm geom}-p^{-2}q^*d_2^*\Omega_{\rm geom}$
+的 actual AJ 值，正是已付的两个 universal 退化映射。
+它没有把 incoming 点与 outward 点混为同一个模点。
+
+恒等式
+$\mathcal J_{i,C}-\mathcal J_i
+ =(p^2-1)\mathcal J_i-p^2\mathcal J^{\rm out}_{i,C}$
+代入(A26)。若该完整读者采用 R1054(49)的 exact-wild 权，
+则在每个基点的完整 local orbit 中，
+$\sum_C\lambda_{i,C}(-2)=0$，同时同一 full-avatar 证明给
+$\mathcal O=0$。
+于是获得与同一个 flat 读者相等的真正 finite outward 式：
+$$
+ \boxed{\;
+ \sum_{i,C}\Lambda_{i,C}(-2)I^Q_{i,C}
+   =-p^{-4}\sum_{i,C}
+        \frac{\lambda_{i,C}(-2)e_i}{m_i\Omega_i}
+                       \mathcal J^{\rm out}_{i,C}.
+ \;}
+ \tag{A28}
+$$
+(49)原有的 $1/[p(p+1)]$ 及每个字符仍在 $\lambda$ 中，
+没有在(A28)再除一次。
+若另添依赖 $C$ 的外权，使上述完整 wild 正交不再成立，
+就使用(A26)--(A27)的全式，而非继续删掉 $\mathcal J_i$。
+
+这是先由 actual positive source、同一 Amice 极限及 local GM
+建立的**整个有限读数**身份。
+它不要求逐个 $Q$ 根点就是同一个 CM 商点，
+也没有用局部 Hom 一维性替换原全有限来源。
+
+### 8.5. 全 tame、Artin 和两组实际图的范围
+
+$p$ 与原 $2,3,17$ 素，故对所有实际 $\varphi_i$，
+每个 $C\subset E_i[p^2]$ 唯一对应 $D\subset A[p^2]$，
+且规范商方块严格交换：
+$q_{i,C}\varphi_i=\varphi_{i,D}q_D$。
+全部 full2/full9 基及微分同时运输。
+几何 Galois 只重标 $(i,C)$；外系数保原约定，不被私自共轭。
+因此(A24)--(A28)可逐项施全部原 Artin、Cor、
+有限 tame projectors 及其规定次序。
+
+对目前 $\psi_4^2$ 输入，$i$ 包含原十八个 cyclic17 核、
+两个真实 full2 sign 取向及全几何 Galois 标号；
+$m_i=17$，原 $Q_\tau/e_A^-$ 先作、sign 后作。
+$1/2$ 取向差和 $1/6$ Artin projector仍只出现原来的那一次，
+即原整个 $1/12$ 和。实际形式仍是
+$f_{\Omega_4}=-\delta f_4(\tau/6)$，
+primitive 同比例，不能把这个源改成 $f_4(q)$后沿用(A26)的数。
+
+若对旧 $\psi_{27}^2$ 来源使用同样局部论证，则必须从其原
+$f_{\Omega_S}=-\delta f_{27}(\tau/3)$、
+degree34、全部54图、原 $Ph$ 和 $1/18$ Artin 权重新保留
+这同一输入。两组模形式、图和投影不同；这里不建立它们之间
+的新 cycle 或 canonical 等式。
+
+(A26)支付值端的完整旧项，
+(A28)支付 exact-$p^2$ 的 actual outward 图读者。
+权导数仍严格是(A16)：含
+$(I_C^{\rm AI})'(-2)$、$2\log\langle u_C\rangle$、
+$\lambda_C'$、$\mathfrak j_C'$ 以及全部 Maass correction。
+有限图的值恒等式不允许将这些导数项改为同一固定 AJ 数。
+将这个新 ramified 值或导数再回到原 fixed rank2 canonical
+$J'$，仍须给出同一来源的实际补偿关系。
+
+本节的原文与已付依据：
+
+- AI2024，Propositions7.6--7.8（印页700--705）的局部
+  negative-iterate/CM 计算、Appendix A 的 $V_H=\phi^*/p$；
+  [出版全文](https://ems.press/content/serial-article-files/48931)。
+- R997§§3--6：原杯积、正号KS、完整 Coleman 多项式规范
+  和实际微分倍率；其 ordinary 图定理的范围保持原样。
+- R1054§§2、6、9：同一 full9 中心、actual positive 比较、
+  全 $p^4$ 字与 full-avatar wild 权。
+- [新 psi4 曲面与图](../notes/2026-11-27-original-psi4-sign-surface-fulllevel-graphs-and-fp.md)
+  §§5--8；[同一 psi4 图的 proper 比较](../notes/2026-11-27-original-psi4-full-graphs-artin-and-geometric-newton-cross.md)
+  §§4--5。只消费这两篇已付的 actual proper/有限对应部分，
+  不消费后者待付的 usual/flat 或 canonical cross。

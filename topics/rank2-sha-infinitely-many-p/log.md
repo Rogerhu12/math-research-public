@@ -60,3 +60,12 @@ R1059用同一实际裸bounded Q来源和显式tensor外权，证明原p²剔除
 根全文逐式核A0a–A19：真实Tate基/det-degree/Poincaré/正KS、基准p²周期、AI incoming V²、old p^-2、所有有限单位Teich分量与每点实际裸Amice输入。强解析性限实际v(C)=2，以完整多项式分母i!给Tate Gauss界；没有从一般C1尾界偷升解析。对gt的Nt^-j bar t^w保两侧真实外权和导数，不把κ∉Zp的Möbius变换冒全unit-disc有界测度。AI全局Heegner/Thm7.1继续另保；无新数学执行。后继central付同一负二Coleman/全图，arith与geometry转原高轴/A18同M Schur。
 
 推前actual readonly run46075603971/job140812746653：公开01:05:53UTC至a2777dac6e6a420149681af83f9fc914400396bf，私库01:05:58UTC至96c5db3f773a5547db2abedc5825d8e0ae9d6e31。四README与01:03已读版完全相同，QUEUE仍0960ae68e078bae51fd8e95fc2839c7028ffa6fc及本会话进行中。日志14886B/hash647fbe1f738c659e72becae80094d08c22e54b0cf9b6110f7ca258176326a0e9；库存3165/44,571,588B/treec875639de47102482141747092769e6f97e70a56，无>5MB，三旧必要gzip不变。
+
+
+## 2026-11-28 01:20:40 UTC：R1059同一负二原函数与完整实际图
+
+R1059§8把同一负二germ接到Frobenius-rigid Coleman primitive及实际有限CM图：点式为p^-6Ω_i^-1〈q*G_C−G_i,ω_i〉，全图保e_i/m_i与(1−p^-2)旧germ；exact-wild全正交时得到−p^-4Σλe_i/(m_iΩ_i)AJ_out。正KS/杯积、incoming V²、H¹次数及full9源本征作用逐项支付，实际ψ4十八degree17核/双sign/full9/Artin1/12全保。仅局部AI GM/proper fp，不套全局Heegner定理、不改原54来源；值身份不替全部权导数或原canonical必要关系。
+
+root逐项核AI Prop7.6–7.8同marked微分的局部证明，以ω̃=Ωω、η̃=Ω^-1η独立核负权缩放，不据PDF提取幂次宣称原文错误。核同一incoming primitive剔除、H¹的[p²]*=p²、cup次数、原十八核/两sign全部proper图和p/(p+1)；R997的ordinary范围不扩，惰性用原ψ4 proper fp与局部投影。修正full9措辞，p²并非字面≡1mod9，完整deck仍保，只有原source本征作用平方为1。全部值/导数和旧54/新ψ4范围分明。无数学执行；唯一v13在01:19仍in_progress。
+
+推前实际双库pull run46075603971/job140814304154：公开2026-11-28 01:11:38 UTC至21f20cda2fc197ac87905980700a2d4a007fa3b2，私库2026-11-28 01:11:43 UTC至ed4146616edf701ed5dca1f59a2fb311bf8030b9。四README blobs与01:05已读版相同；QUEUE仍0960ae68e078bae51fd8e95fc2839c7028ffa6fc及本会话进行中。日志14886B/hash27b5ac0b8bc9a2fa6bbf8be0b233f37d43cef2318bbffe1cacedd4c78f5d56b8；库存3166blobs/44597701B/treec603b827ab016dd19c0493c60743ac0d25f6ac85，无>5MB，三旧必要gzip不变。
