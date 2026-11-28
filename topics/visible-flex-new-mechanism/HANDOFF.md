@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **eef33b404e12dffd24348020d149a934aaf4af53**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **22cbba672a2d22aa46cc77b5ea11b042c7f306de**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -54,6 +54,6 @@ R636 run46134531757 1581.672363659秒/45新接受至3c2e5846，无pending；680�
 
 R637/R642/R644/R652准确双核/全频gap/小q族未付有效q0或宏观半径；[R652终态](notes/2026-11-28-r652-taper-matching-natural-terminal.md)6ODE/600匹配/4.29945秒不重播。[R657终态](notes/2026-11-28-r657-wide-neck-taper-natural-terminal.md)1.396136929秒/6ODE/108几何/46正根，16/32/64模宽颈容许但参考κ38.56、有限port1.42e−21不冒有限角。
 
-[R660](results/R660-positive-four-end-diameter-and-thin-active-band-projection.md)仅排除R598原双侧固定窄带完成类：真R651 D>7.5、全时reach门下dH≤.4，不能.3D；新q须重付D。[R661](results/R661-constant-perimeter-moving-wing-annulus-and-disk-boundary.md)真同g活动环带D<16/reach≥.54/全像≥5.25/固定开片>4，但两圆盘仍须整圈二jets/每帽∫K=2π/全跨件法管；[R664](results/R664-convex-moving-rim-common-negative-curvature-cap-collar.md)已有真实同g负K整圈领/统一C²法管，但中心闭盘仍未付；原全帽候选已排除，R666/R670准备真实整盘与握持输入。
+[R660](results/R660-positive-four-end-diameter-and-thin-active-band-projection.md)仅排除R598原双侧固定窄带完成类：真R651 D>7.5、全时reach门下dH≤.4，不能.3D；新q须重付D。[R661](results/R661-constant-perimeter-moving-wing-annulus-and-disk-boundary.md)真同g活动环带D<16/reach≥.54/全像≥5.25/固定开片>4，但两圆盘仍须整圈二jets/每帽∫K=2π/全跨件法管；[R664](results/R664-convex-moving-rim-common-negative-curvature-cap-collar.md)已有真实同g负K整圈领/统一C²法管，但中心闭盘仍未付；[R666](results/R666-rotational-disk-reach-repair-and-real-second-rim-mode.md)排除旧窄过渡帽，给实际厚闭参考及另一cosh/球参考的正则二模线性场；不同参考不互借reach，R670固定开盘输入待发。
 
 R645/R649–653条件闭法管/三jet/接缝仍要实际同候选源误差和正collar宽度；R640的比例预算不借别候选。R33仅真旋转固定g全时phase/开盘/δE可0；旧59a4资格不转新q。全帽/连接/所有t嵌入/reach/握持/整像、同g机器或求解容差精化及完整多t网格全部须真付。

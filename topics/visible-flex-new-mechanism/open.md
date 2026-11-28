@@ -51,3 +51,7 @@ R637/R642/R644/R652的双核、全频gap和真小q族尚无宏观q0；R652已付
 ### R664 当前已付范围与尚欠输入
 
 [完整证明](results/R664-convex-moving-rim-common-negative-curvature-cap-collar.md)用严格凸的同周长活动母线取得D<9.4、reach≥1、固定开片>2和整像差>5.8。统一帽领度量dt²+(1+bt⁴)²ds²的完整Gauss–Codazzi在u=t²后为带正耗散的对称双曲系统；全圈周期解与真实二jet一致，足够短的同一领保C²/嵌入/reach比例。仍有两开边圈，不能当闭盘；原具体全帽A拼接已由R666排除，留作失败输入，真正中心闭合仍须另付。
+
+### R666 当前已付范围与尚欠输入
+
+[完整证明](results/R666-rotational-disk-reach-repair-and-real-second-rim-mode.md)由真实直径与reach必要曲率排除R664原窄过渡全帽A。另给完整C²旋转闭参考，reach≥.5/D<9，但其真实二模方程Rwₓₓ+(n²−1)Rₓₓw=0在原平帽不能闭合。改cosh负K段和真实球正则支，以有符号Wronskian、中间值与C²小接边取得完整闭参考的真实非刚n=2无穷小场。该新参考没有继承前一个参考的reach，也没有固定开握持或有限连续族。
