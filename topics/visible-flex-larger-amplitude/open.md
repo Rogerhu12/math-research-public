@@ -108,7 +108,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
-[47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)46171090151/PID3601：初点7e06全几何g.53058494与原33已报标量核同；首291f394统计Phi731.14178/Gram.4097559，18:48Z几何未返/接受0。native真实built非整体加速证，原140角色/32stage全预算继续。
+[47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)46171090151/PID3601：首291f394实际整几何reach违约16.64809拒步；半步8e3194 Phi705.37482/Gram.40781792，19:34Z几何/接受未返、接受0。原140角色/32stage继续，无整体加速证。
 
 [49](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)46174104900已12原阶段/双69相七网全部完成；ROOT核15源/全报告及预算。末整网g10.24803/5.56421、K211074.6/285.917，未达标；最后真pull9a6240a1，原身份全保。
 [R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：46174642286原fold/全区间完整返，两规定刚帽被严格正弦超额排；两整球exit1无完整层。仅修五返值误解六项，18源/两支全部三层7+6相原预算恢复，成功两项不重算。
