@@ -123,7 +123,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)：冻结R730全相位reach<.016、D>3.88；水平/帽相对高度各改≤.025仍reach<.0285。仅约束参考及该邻域，不约束任意outer场。
 [R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)：圆肩新参考付帽混合/反向.126球、原末带Gram、正确core jet、D/双held/δE；中央Gram及中央/中央、中央/圆肩reach未付。新源独立34。
 [R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)：真实非圆core/两帽正宽准确Gram，柱内.18球/core对全像两向.126球；移动接口全jets保，core宽未数值包围。
-[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。完整有理计算首run46136563673于10:54:23Z cancelled，无已刊结论；自身失败日志已读取待登记并修复完整重跑，不替R733拼接宽。
+[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。首run46136563673全415片实际约2秒算完，严格正有理T*、合作前缀0已由自身完整日志恢复；卡在发布容量统计并超时。现原数学不变，以远程树全量metadata修复发布，重算补齐全小report；不替R733拼接宽。
 
 [R735](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md)原深谷每个m≥2确有非零平坦帽端线性弯曲，完整半周期精确传递/反向连分式证明并给唯一径向线；有限非线性及双端匹配未付。
 
