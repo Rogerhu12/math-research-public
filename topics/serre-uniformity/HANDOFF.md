@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：8577fc52bb7bc5b7852ca1f945b418b3999bdabb**（2026-11-28T17:51:30.518902+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：3a100631add646f5c1d594310b8715dfb179ba76**（2026-11-28T18:06:09.681968+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-终端16:22 UTC恢复并完成两次真实推送，17:10 UTC前再次报exec-server缺失；暂沿既有公开Actions真实部分克隆/pull/rebase/push。旧b0417d0保在原本地main，续接分支不重演已推内容。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
+17:51 UTC检查发现旧repo路径已不存在；终端本身可用，重新部分克隆并稀疏checkout main，17:56:10 UTC真实pull至a0234dec6fd1fc405169b6c60063143c4212af10，两README差异空。旧b0417d0已无本地可见副本，其结论先前已恢复发布，不重演。继续既有公开Actions真实git发布。数学程序仅公开Actions，本地/V8只做文本/git/metadata。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-actual-PS-Cartier-return.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-cuspidal-deck-rank.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -34,7 +34,7 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 [R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
 
-[R1194 §§1–9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原Hahn全左半无权范数为−ℓ!/[2(M+1)(M!)²]单位，但指定短和仍带1/(3j+2)。实际谱导数q_j′=w(a_j)−w(2)v(a_j)，Lw=−v/a、w0=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真实Casoratian源−v²/a及HC.21–24终止balanced4F3已付；普通second-kind源不同，指定互素仍开。 §§9.7–9.9已付原L=T₂T₁、全格点空间导数单位及真实t_r=(2m−1)F_m′(0)/(24m)；取消参数后完整调和余项仍在，HC.34–35准确回原w标记值，尚未桥接旧Dixon单位。
+[R1194 §§1–9.9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原全左半Hahn无权范数单位；实际短和带1/(3j+2)。Lw=−v/a、w0=0，q_j′=w(a_j)−w(2)v(a_j)，双零iff P(1/4)=Q(1/4)=0。真实Casoratian/半步分解/全格点空间导数及HC.21–35终止4F3已付；t_r=(2m−1)F_m′(0)/(24m)保全部调和余项，普通second-kind不代原w。全公式沿逐字前态，不重做。
 
 [R1194 §9.10](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽现同有限权重c_n：Σu=C_NΣc_na_n、Σut=−C_NΣc_nh_n/12。原e点值比较准确给Σu=(3/2)_N(2/3)_N D_N(1)/[(5/3)_N(7/6)_N]；不对点值身份微分。h的非齐次Gauss与完整伴随付Σch/(n+1)+18Σch/(n+4/3)−30Σch=72Σca，两个shifted moments仍保。第一p极在ℓ=2N+1、ph_ℓ单位，位于原终止三角形外，未插回原w；共同零继续。
 
@@ -56,7 +56,9 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1202–1203](results.md)原每个负deck最高权实际整Ω有UΩ∈pΛ，故qΓ整分裂；同底lift差π^(e0−p)Ψ仍可经π^−pU返回。全normal/临界jet/centre排除已付；PS临界模Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N固定矩阵[[1/4,1/8],[−1/2,−1/4]]，Frobenius交换与全部群和常数已核。不能先定义lift独立A(L)，指定C两列及whole MW仍开。
 
-[R1204](results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md)原PS中心 Ψ=uT db/(rA)、T∈b²k[b³] 的真实π^−pU返回已读：T_ret=−3γ²(rT″−4b²T′−9bT/4)。完整framing定det，原第p层最高pole由β=[W^(p−1)]Ψ/dW给出，余极部经R1203真被杀；Cartier换参及原τ/B/C²相位全保。此n→n+1二对角映射注入，像恰ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠(1)为显示单位。原qΓ负格秩=n+λ、λ∈{0,1}；实际特征零multiplicity仍须核，𝔠(T*)未宣单位，不将packet值传C/whole MW。
+[R1204](results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md)原PS中心 Ψ=uT db/(rA)、T∈b²k[b³] 的真实π^−pU返回已读：T_ret=−3γ²(rT″−4b²T′−9bT/4)。完整framing定det，原第p层最高pole由β=[W^(p−1)]Ψ/dW给出，余极部经R1203真被杀；Cartier换参及原τ/B/C²相位全保。此n→n+1二对角映射注入，像恰ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠(1)为显示单位。原qΓ负格秩=n+λ，实际特征零multiplicity已由R1205核为n、λ=0；𝔠(T*)未宣单位，不将packet值传C/whole MW。
+
+[R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原首值目标准确V_m|ker𝔠；若𝔠(T*)=0可由同底lift独立传原单位，否则不能把T*当纯底。指定C与whole MW仍开。
 
 ## 已成、禁止重做与其它入口
 
