@@ -397,3 +397,69 @@ current仍7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，acc
   }
 ]
 ```
+
+## 2026-11-28 03:47:21 UTC — 24半波五分之八宽度第一真实接受
+
+第24组b5/8完整原半波场，a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748已真实current/accepted1；03:28:12.292155数学current-geometry-returned，03:31:31索引。Phi886.6498886762892/Gram.47296582200907233，reachg.6117804556256119、distance+.060865075686575065仍正。原六族/source0f0bbbee/driver095bf/model9e2d7完整保；无缺值错误但仍report=false。宽度初场和第一步不等于统一可行性或单调性，未混R725/27。
+
+```json
+{
+  "math_at": "2026-11-28T03:28:12.292155+00:00",
+  "math_event": "current-geometry-returned",
+  "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
+  "math_model": "9e2d7dedb3ece1a3c198ced9801b5a5d048fa231d33723d0366c28b834f8eb1e",
+  "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_Phi": 886.6498886846562,
+  "initial_Gram": 0.47296582169113244,
+  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+  "initial_violation": 0.6122924171813162,
+  "initial_geometry_complete": true,
+  "current_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
+  "current_Phi": 886.6498886762892,
+  "current_Gram": 0.47296582200907233,
+  "current_geometry_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
+  "current_violation": 0.6117804556256119,
+  "current_geometry_complete": true,
+  "current_state": "accepted restoration checkpoint returned; final report not inferred",
+  "trial_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
+  "trial_Phi": 886.6498886762892,
+  "trial_Gram": 0.47296582200907233,
+  "trial_geometry_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
+  "trial_violation": 0.6117804556256119,
+  "trial_geometry_complete": true,
+  "trial_accepted": true,
+  "accepted_directions": 1,
+  "complete_report": false,
+  "stop_reason": null,
+  "observer_failures": 0,
+  "current_g_reach": 0.6117804556256119,
+  "current_g_body_diameter": -0.03620012039717546,
+  "current_g_distance_plus": 0.060865075686575065,
+  "current_g_distance_minus": -3.093633726704372,
+  "current_g_cap_diameter": -0.06715131487868453,
+  "current_g_height_floor": -1.0411715967431643,
+  "previous_completed_trial_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
+  "previous_completed_trial_g": 0.6117804556256119,
+  "previous_completed_trial_accepted": true,
+  "previous_completed_trial_maximum_families": "reach",
+  "previous_completed_trial_Phi": 886.6498886762892,
+  "previous_completed_trial_Gram": 0.47296582200907233
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
+    "bytes": 59377,
+    "sha256": "8788416e80895425eaf891def7b78d8e107e55d5abc944e11f3e7096166e3678",
+    "git_blob_sha": "c29629e452685772e21ba76987394fd88fe379ff",
+    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
