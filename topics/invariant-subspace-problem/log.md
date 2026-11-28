@@ -1,63 +1,6 @@
 # 研究日志
 
-此前全部日志见[完整快照](notes/2026-11-28-log-through-hk-NV-Loww91-2000-8542.md)及其归档链。
-
-2026-11-28 23:08 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1945实际main 5f1914b26e2d6d4d16536abb00fc5947ca50a025，run46157542075/job141017411728成功；15:00:40 UTC真实pull两README无变，私库15:00:39/64c296d8820a57d1f1a03139e2b27355f98a7b04实际QUEUE核验进行中。
-- 整h=k ellhalf终证及14条小数学记录/真实driver全部刊：六维域保两λ与三u嵌入，原Q主分量取尽，E1/EBe给1，完整八源返U^4；g12=h3⁴的真实四重结构以有限几何级数提升，不用物理D或模幂零推排空。
-- 本支与原独立Δ0、λhalf覆盖完整；仅当前碰撞余图新付2ell−1。一般fixed-(λ,T)/Pf首一t³推论已全文读，另条发布；其余原碰撞仍开，不增加旧结式或审查复跑门。
-- 15:07 UTC实际pwd复探仍无执行环境，按规8/13继续Actions真实部分克隆/pull/rebase/push；16:07再探。完整H/open/log/results快照保档，禁大系数缓存，普通ISP继续。
-
-2026-11-28 23:10 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1950实际main b66c1faeab84e9b25cc95a37abf051b54a276214，run46158274677/job141019634322成功；真实公私pull与README/QUEUE回执均核验，整h=k ellhalf已推。
-- 一般fixed-(λ,T)/Pf原三生成推论独立刊：四原最高头的(ξ,η)^11=0与固定N0的(J−Q)/4单位矛盾，下降到原系数环给monic t³。只用QδMP02Pf单位，未借碰撞、Φ、Δ、2ell−1或物理D。
-- 原weighted目标先为显式cN,cP参数，再以真实U矩专门化2λP02(ell+2T+A2)、P02(ell+3T+3A2+B3)。没有隐藏h/k自由变量，不从纤维≤3外推全局权有限；无新运行或重复最高门。
-
-2026-11-28 23:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1955实际main 209a452a86011d6c68a63766349ae669fda73d60，run46158445422/job141020158180成功；一般fixed-(λ,T)/Pf原三生成已推，真实pull两README及私库QUEUE均核。
-- 83e077 W三原边界正文与42条实际记录的profile小回执现刊：84个最低面含1009单位，完整有理断点分割与λ0，26三源返回。仅两个λ估值限制成立；六方向各有残余，不宣权全整或W空。
-- 新Phi b0ef31/72ab1c09原QQ条目最小赋值提取已全文读，首次120秒1GiB/外135；逐项精除付detS=UdetM，次数扣已有定理，只有两个矩阵都改变才入预定1009双轴。2179仅执行前草稿未运行，不算失败。
-- 新增课题外workflow invariant-subspace-8542-phi-qq-paid-entry-extraction.yml仅派本题这一个新输入，五个精确依赖仅临时再生必要系数。无旧最高矩阵/旧未归一det/gcd目标重放；Haar同参数范数平方源已读，下一条登记。
-
-2026-11-28 23:19 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1960实际main d4f846c2ab22e4841fcfe9ee88f6d5837c41f26b，run46158852491/job141021413089成功；15:15:14 UTC公库真实pull两README无变，私库15:15:13/c7fae392b81f60d04af82787a0ba3d72050bf7cc的QUEUE实际核进行中。
-- 原Haar全因子同参数稿现刊：逐柱局部一致强*与Cauchy系数付P范数entire，实际前缀C幂×单位及尾强单位付包括z0的全旗quasi，系数界cK^j/j!；未假有限乘积norm收敛。
-- 明确穿孔X(s)=C B(s)T(s²)、X²=P(s²)、γX=iX(is)，范数平方趋P0且P0非零γ奇；有限极点首Laurent系数平方零给原超不变，可去矛盾。剩余本性/同PtΩ强列未付，未将P0换成C。
-- Phi新QQ提取run46158891405 outer已完成，内层数学回执下一步读取；不以outer成功冒称QQ无共同曲线。10生成/纤维≤9新纯纸面推论已读待独立登记；HK新NV/Loww源继续。
-
-2026-11-28 23:22 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1965实际main 6de1a50bf0833e370f621cf779f41a87deec1f31，run46159294050/job141022786750成功；Haar同参数原来源已推，公私真实pull与规则/QUEUE核验均保。
-- 新Phi纯纸面10/9推论独立刊：CI第三mean r非零，socle配对杀degree4且rA1≠0；固定15目标全环Nakayama→10指定生成，总次过滤/associated graded→每权长度≤9。根将k范围明确为任意素理想剩余域，无新单位或执行。
-- b0ef31唯一run46158891405/job141021539125实际14.598634407秒81096KiB/0；37记录全读，F提Qs⁴(-L)^15，G提s⁸δ^48KwMn⁸(2L−Q)^4，商支持共同gcd双次≤5/51。stdout SHA52db2329234169c3d75c67ea6c2bc34dc4df2ae01e2759b8036c22ebe9838357；余曲线保，正式稿在写。
-- 新HK e9bd30/25d3ea3e首次180秒4GiB/外195，完整NV和Loww原两源范数；tv−1原身份与三次几何式把P·t³接回纯权P。新增题外workflow invariant-subspace-8542-hk-nv-loww-inverse-t-norm.yml仅派本题新输入；不重旧E1/Loww、EBo/Loww或individual值门。
-
-2026-11-28 23:32 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1970实际main 2c12a08a06949ed99cb68ac4560efa6008145743，run46159562532/job141023592302成功；15:23:08 UTC真实pull两README无变，私库15:23:07/ac231f1fc05ed4a813f2fba7af825ddb0ae2658c的QUEUE核进行中。
-- Phi QQ精除终稿/小回执现刊，driver与两轴实际字段一致；全I6 10/9不改环，商两支持gcd≤5/51不代曲线有无。新W b33c1/54e04e96完整I6+q2最低项首次180秒4GiB/外195，7原Laurent逐项返回，所有t估值/t0覆盖；新题外workflow invariant-subspace-8542-w-full-i6-negative-e-initial.yml。
-- HK e9bd实际run46159596374/job141023709190在2.457205909秒/61528KiB exit1，原因仅pp把flint fmpz指数直接JSON序列化；原同t/逆t0.09585 checkpoint已返，Norm profile和最终清分母原两源尾未完成。只修int输出继续原预算，保旧失败，不伪称新数学输入或已得权曲线。
-- 15:28:39 UTC只读目录元数据：10805 blobs/136449920字节，无MD≥100KB，tree398db826d1c91eb4c8a098bb33ca7eec527be026，16:28再查。手册不加审核门，普通ISP及真原其余支继续。
-
-2026-11-28 23:42 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1975实际main bdeaaed5afc3ae264215c54ebcf312286fc5ae73，run46160417159/job141026264992；拒推后立即真实pull/rebase至e2f33ee7c4bed01a1260f8c4d24de3996bd60b71于15:33:04 UTC，两README无变，私库15:33:00/a1c19875a15922a64a8d188efd5b7997cce40054核QUEUE进行中。
-- HK维数≤1/8184包络/相对6完整纸面结论现刊，无重执行旧原NP。e9bd第一次2.457205909秒/61528KiB/exit1的JSON错误保实际记录；abd714只两处fmpz指数/次数int序列化，续同180秒4GiB原输入。无新预算/数学目标。
-- Phi f6ffe159/5971d001新Q主分量F/G固定env两首次各120秒1GiB/外135；源只重建已定义矩阵，真QQ[u]幺模全行/零行精除Q，41/40事前界，未预报指数。b0ef旧匹配/双轴不重做。
-- W b33c1首次run46160462146/job141026414218在1.768919617秒/48736KiB/0，42原unit面、155新完整7源返回，五t估值cell与t0全未排；其非单位不代存在证明。两旧W文仅统一数学$/$$定界符，不重跑。普通ISP未完继续。
-
-2026-11-28 23:48 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1980实际main e9083c90000316e09cd6efda8cae908bd5bf0bb3，run46161256181/job141028853812；15:42:38 UTC真实pull 562dba4dba5a3d16572433df23afc2fe7a792b26两README无变，私库15:42:37/805bc3f425008d3b34682286b6eea4c15e61bd98核QUEUE进行中。
-- Haar完整交换子本性反检验66b6dec现刊：矩阵负对角排除、有限卷积无零因子、实际J/γ/Laurent及所有参准亲和证明齐备；明确L_j尾不全旗quasi。原Haar同列费用与本性情形继续。
-- Phi f6ffe1 F run46161293869/job141028978873真90.638152077秒/1030128KiB/−6，59.760秒完整rank11一轮给F*=−QdetM1；G run46161295453/job141028982297真39.604973848秒/1032692KiB/−6只6pivot无整轮。FLINT申请1605632/802816字节失败，两1GiB门冻，不续轮/换排序/加资源。
-- HK abd714同原工程修复run46161292265/job141028973573真8.428479614秒/92588KiB/0，3真乘法列/3adj/全lift与8原两源系数完，必要P总91/次数72,19,9/6447项；QQ因式及原空性未判。W b33实际六范围全保的小回执/说明现刊，普通ISP继续。
-
-2026-11-28 23:51 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1985实际main d858af32bcc512e5e802f38222f9c0e12b12da16，run46161826640/job141030614716成功；真实pull/私库QUEUE核验详本次实际回执，两README无变。Haar本性反检验及W六范围保留已正式推入。
-- Phi公共因子总45/u≤5/纯Q≤40完整纸面推论现刊，来源仅已付次数可加性，不重算det/gcd或识别任何模因子。实际一轮F指数a1/G无新指数b0仍给总45，所有公共曲线及曲线外孤立交点保。
-- HK91两原式权范数与Δ余图单权≤2正式稿已完整读取，正登记；Phi一轮/两内存失败完整稿已读，仅修输入链接拼写，未改数学。原ISP继续，不以局部次数界结束。
-
-2026-11-28 23:54 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 1990实际main a25a057d9c18db67fc679fe857d65a868595444d，run46162105677/job141031477538成功；pull 624d21b96125bd8e4247d7127a6a65a8631cc0da于2026-11-28 15:52:20 UTC，两README无变，私库QUEUE实际核进行中。Phi总45/u5完整推论已推。
-- Phi一轮完整QQ身份现刊，35个det1块与7换行给F*=−QdetM1；完整12阶参数profile e0c9a55b…保，501507项不保存。F_Q u368/Q205/总≤408，未付精确Q阶，G无新商。
-- F/G所有资源与stdout字段逐项据真实driver回执登记；两个allocator边界明确冻结，既成一轮不冒称整门成功。正式稿只修-input.md链接，新的原NP/NV方向继续，普通ISP未完。
+此前全部日志见[完整快照](notes/2026-11-28-log-before-W-e-one-DM-exclusion-2050-8542.md)及其归档链。
 
 2026-11-28 23:56 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 1995实际main 98cf9d95e7534d8dc8bd04c7b635af79acba4020，run46162298109/job141032079631；15:54:39 UTC真实pull 78ce37000f409f24fdbb6681626b6d403e283027两README无变，私库15:54:38/f6185db89d4decf1fffc8e96a87f222fda56db07核QUEUE进行中。
@@ -118,3 +61,9 @@
 - be08067正k射线仅e±1纸稿全文核对：完整u/k尺度、R6二次剩余约束、ts/Vs/xs/ys准确f常数项、A1s身份消Z0裸ell²和N5最终最低项均付。E−3/2从未除Ast首值，E−2/3由P约束排，E±1保留。
 - 源47281仅引用完整原定义与N5对同q/H/NV/C4的既有身份，不跑旧结果式/标量或原初项门；原三个必要式共用同一点λ/T，全部未知几何头保留。
 - 根已找到E1的D=M·S原身份及两项严格估值矛盾，正在单独成文推送；几何同事处理E−1、Phi同事处理两个完整NV t头原支，Haar继续实际列费用；普通ISP未完成。
+
+2026-11-29 00:42 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2045实际main f770502e9d95d1449a716cfc6f625fdef0058088，run46166193682/job141044141363成功；16:38:24 UTC真实pull f03ccfb5cb0ab4b3749b9e78b2d33f04dbac92b5两README无变，私库QUEUE核进行中。
+- 根新E1完整纸稿c0e29df成文并核，q2=8uQδell(D−M·S)精确源，无D或新头逆。原M任意高阶消失保γ>−a，S首值3/8把D阶付成γ，R6两项差2(γ+a)>0；不依赖N5或预设λ有界。
+- 正k射线现在仅e首值−1待独立完整分层稿；该稿最后极点中心已有同原R6三次与N5两根冲突，未据片段提前写全射线结论。其他四ray/有限DVR/全原方程仍开。
+- H/O与完整日志索引已作连续归档；Haar实际每非零列本性后续真实列费、Phi两个完整NV t头新原支继续，普通ISP未完成，不在此收尾。
