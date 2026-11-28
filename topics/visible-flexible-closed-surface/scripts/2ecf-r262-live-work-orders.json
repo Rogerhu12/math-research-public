@@ -262,6 +262,254 @@
       "description": "真实直接Newton末态与新低/高末直长度.98/.46的两厚臂组成全闭空间像；所有原尾与平盘、两真端口都来自同一输入，整D与双向握持是有限观察，连续R315条件另行支付。"
     },
     {
+      "id": "R262-adjacent-low-ports-actual-full-cut-design",
+      "after": [
+        "R262-recover-actual-low35-frozen-h1"
+      ],
+      "script": "2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+      "sources": [
+        "2ecf-r262-adjacent-low-ports-support-physical-cut.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--out",
+        "{W}/adjacent-low/full-cut.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/full-cut.json"
+      ],
+      "report": "{W}/adjacent-low/full-cut.json",
+      "fields": [
+        "sourceSHA",
+        "fieldSHA",
+        "stateSHA",
+        "lam",
+        "low",
+        "phase",
+        "anchor",
+        "centralOriginalComparison",
+        "cutSHA",
+        "numericalPhysicalCoordinates",
+        "nativeD3Correction",
+        "initial",
+        "accepted",
+        "finalTraining",
+        "finalIndependent",
+        "independentPhysicalGeometry"
+      ],
+      "description": "R317真正相邻两个低κ圆口，新phase1.15，完整原74项材料U0直接比较、真实曲率原函数与两导一致；在同一实际原场上进行361XYZ/38g的全幅cut设计。本条几何与旧三圆弧分支不同。"
+    },
+    {
+      "id": "R262-adjacent-low-ports-actual-frozen-metric-h1",
+      "after": [
+        "R262-adjacent-low-ports-actual-full-cut-design"
+      ],
+      "script": "2ecf-r262-adjacent-low-ports-frozen-metric-refinement.py",
+      "sources": [
+        "2ecf-r262-adjacent-low-ports-frozen-metric-refinement.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--parent",
+        "{W}/adjacent-low/full-cut.npz",
+        "--out",
+        "{W}/adjacent-low/fixed-h1.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/fixed-h1.json"
+      ],
+      "report": "{W}/adjacent-low/fixed-h1.json",
+      "fields": [
+        "sourceSHA256",
+        "entrySHA256",
+        "physicalSourceSHA256",
+        "fieldSHA256",
+        "parentSHA256",
+        "stateSHA256",
+        "angularModes",
+        "radialSpans",
+        "actualPositionDOFs",
+        "metricDOFs",
+        "knotTransferMaxActual0th1st2nd",
+        "initialTraining",
+        "initialShifted",
+        "initialGeometry",
+        "accepted",
+        "training",
+        "independent",
+        "independentGeometry"
+      ],
+      "description": "R317自己的真实全角母线、完整cut-source SHA和原场身份保持；准确Boehm径角扩充以后仅求空间，固定同一两g。未用旧三圆弧中央冒充这个新输入。"
+    },
+    {
+      "id": "R262-full-cut-signed-peak-same-metric-step",
+      "after": [
+        "R262-cut-h2-same-metric-complete-banded-newton"
+      ],
+      "script": "2ecf-r262-cut-frozen-metric-active-eigenstrain.py",
+      "sources": [
+        "2ecf-r262-cut-frozen-metric-active-eigenstrain.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--angular-source",
+        "{S}/2ecf-r262-cut-frozen-native-and-true-material-position.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--direct-source",
+        "{S}/2ecf-r262-cut-same-metric-banded-direct-newton.py",
+        "--parent",
+        "{W}/full-cut/low35-h2-direct.npz",
+        "--steps",
+        "4",
+        "--out",
+        "{W}/full-cut/fixed-g-active-peaks.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/fixed-g-active-peaks.json"
+      ],
+      "report": "{W}/full-cut/fixed-g-active-peaks.json",
+      "fields": [
+        "entrySHA256",
+        "stateSHA256",
+        "parentSHA256",
+        "actualPositionVariables",
+        "actualMetricVariables",
+        "normalAndRhsAgreement",
+        "exactQuadraticLineAgreement",
+        "initial",
+        "initialIndependent",
+        "accepted",
+        "final",
+        "secondaryAcceptanceGrid",
+        "initialFreshHoldout",
+        "independent"
+      ],
+      "description": "同一既定g的真实峰特征方向约束：完整带状空间代价，加两真网30处正负极值特征行的低秩修正；精确矩阵二次Gram线搜索至1/8192并局部优化，实际κ参与接受。末411角网只作独立观察。"
+    },
+    {
+      "id": "R262-fine-positive-radial-metric-and-position-design",
+      "after": [
+        "R262-cut-h2-same-metric-complete-banded-newton"
+      ],
+      "script": "2ecf-r262-cut-fine-positive-metric-complete-banded-design.py",
+      "sources": [
+        "2ecf-r262-cut-fine-positive-metric-complete-banded-design.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--angular-source",
+        "{S}/2ecf-r262-cut-frozen-native-and-true-material-position.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--direct-source",
+        "{S}/2ecf-r262-cut-same-metric-banded-direct-newton.py",
+        "--parent",
+        "{W}/full-cut/low35-h2-direct.npz",
+        "--steps",
+        "6",
+        "--out",
+        "{W}/full-cut/fine-g-design.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/fine-g-design.json"
+      ],
+      "report": "{W}/full-cut/fine-g-design.json",
+      "fields": [
+        "entrySHA256",
+        "stateSHA256",
+        "parentSHA256",
+        "fieldSHA256",
+        "actualPositionVariables",
+        "actualNewMetricVariables",
+        "originalMetricCoefficientCount",
+        "fullNormalBandwidth",
+        "normalAndRhsAgreement",
+        "positiveFineMetricControlInfimum",
+        "finalMetricCoefficientRoundingBoundExact",
+        "initial",
+        "initialSecondary",
+        "accepted",
+        "secondsPerActualSystem",
+        "initialHeldOut",
+        "finalFrozenCandidate"
+      ],
+      "description": "另选新共同目标：旧两g经准确有理Boehm保持原函数后，释放细径两列与全部实际空间，完整交叉块同带求解。这里真正改变g，不能计作旧g精化；实际末态选定明确正dyadic目标供下一条固定。"
+    },
+    {
+      "id": "R262-new-fine-target-frozen-real-radial-and-angular-refinement",
+      "after": [
+        "R262-fine-positive-radial-metric-and-position-design"
+      ],
+      "script": "2ecf-r262-cut-same-metric-banded-direct-newton.py",
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--angular-source",
+        "{S}/2ecf-r262-cut-frozen-native-and-true-material-position.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--parent",
+        "{W}/full-cut/fine-g-design.npz",
+        "--split",
+        "--modes",
+        "64",
+        "--steps",
+        "4",
+        "--out",
+        "{W}/full-cut/new-g-frozen-h3.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/new-g-frozen-h3.json"
+      ],
+      "report": "{W}/full-cut/new-g-frozen-h3.json",
+      "fields": [
+        "parentSHA256",
+        "stateSHA256",
+        "actualPositionVariables",
+        "actualMetricVariables",
+        "radialSpans",
+        "angularModes",
+        "initial",
+        "initialIndependent",
+        "accepted",
+        "final",
+        "initialFreshHoldout",
+        "independent"
+      ],
+      "description": "把上一条实际选定的两条完整正目标固定为同一g；真实径单元再二分、角48→64，Boehm包含原位置后仅更新空间，以新全门和独立411角观察同一个问题的误差。"
+    },
+    {
       "id": "R262-cumulative-true-shape-height-low35",
       "after": [
         "R262-recover-actual-low35-frozen-h1"
