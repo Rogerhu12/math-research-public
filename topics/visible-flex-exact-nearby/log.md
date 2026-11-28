@@ -278,3 +278,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 08:55:45 UTC / visible-exact-astra-b0d5a16-20261128：登记TF46120139018/1真实left81失败。数学4669.906695433s、非timeout；原81成功prefix、所有86 current输入和全ledger chain已核，right/node/maps与两whole目标均未成，不能给TP逆。必要完整恢复合同保原314059632B packed prefix、4955126B canonical、842453B deterministic gzip三SHA；仅复制旧81结论，完整hash均实际重现前不导入，当前0恢复/0科学。后继新Householder图表须完整frame和source windows，不借改cuts重跑。JWS已推8f86936f8，全部NFF立即rebase至成功；每pull两README无diff。私库已pull至2a3f23a459a8a2f4341da5b012ea49939cd68276，README无diff、QUEUE仍本会话进行中。
+
+2026-11-28 09:09:45 UTC / visible-exact-astra-b0d5a16-20261128：RCS完整新带符号入口首次发布。13 current整件size/SHA/Gitblob/AST全过，manifest7157B/ebabcc59b13f23b17b80da2c5516b8ef637f08ae80437ee7f83bc26ffc926c8a；原TCXV184 current+32 history+40 native在原完整prefix准入，停在旧reservation/science前。60系数jets+5Lt+5J+2正下界保同JWS和全部physical means，whole128-cell private chunks读回后才全域归约。正负genuine response的全部signed代数/原positive correction/PFroot/mean/jump符号已审；当前1新数值目标未预报actual/全域Bgap/uniform高响应。tracked198541644B，新增117972B及170000输出+120000reserve合198949616B<上限。H/open仅压缩索引至a4ee9d41e整页，不撤义务/旧失败。

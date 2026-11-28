@@ -145,28 +145,20 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行和后继
 
-本节压缩前所有run、球/SHA、失败unknown、参数/域/mean/source/ports完整保[8a88b0710完整open](https://github.com/Rogerhu12/math-research-public/blob/8a88b07104e57da5994fdc2046ba366ad154ffd8/topics/visible-flex-exact-nearby/open.md)及递归前页。第1–7节义务不撤；旧成功不重；当前readSHA/运行全账见H。
+本节压缩前全部run、原球/SHA、失败unknown、参数/域/mean/source/ports在[a4ee9d41e完整open](https://github.com/Rogerhu12/math-research-public/blob/a4ee9d41ed6d94819e19878edbbbb0ba2b2314ef/topics/visible-flex-exact-nearby/open.md)及递归前页。第1–7节义务不撤；旧成功不重；当前readSHA和全实际账见H。
 
-- 原SL/PS充分门false，不推奇异。TF46120139018/1在left index81经4→64 cuts仍失败；前81通过，right/node/maps与两whole目标未成。不是timeout，也不证明真实奇异。完整原314059632B prefix与checkpoint双SHA的必要恢复合同已齐但未执行；全hash复原后才可接新Householder联合球图表，不原样重跑。详见[真实终态与载体恢复](notes/2026-11-28-TF-left81-failure-and-checkpoint-restoration.md)，原η/repair/mean/真根及TP全条件保。
-- [TP](results/R149-supplement-true-flow-to-complete-positive-physical-chain.md)已证明TF到原58→224→32→PN56/CXN6的完整入口；full ΔAL/ΔC/GH/物理Robin与独立mean全付，必须新κB<1。TF完整成功前不生成未来manifest。signed RHS须whole-cell，right97仅一次Θ解权；norm maps和nodes不是signed解。原SC/JF接同schema，无重复入口。
-- TC46117170011/1仅续原2677/7724 whole accepted union后的5047缺格；96列、matrix、waist、四whole arrays不重。SC首次同一次原pure现保全root96 (d,z,e)供CFC，尚无SC actual。
-- UACT45933303391全21有限Θ96坐标逆<12.588/ρ≈.799597509，finite-only .31698非global。WMT46122573619全14实际新global<6.957962，原850候选保；全physical/high/两mean/ν/phase/height Schur未付。
-- BNC46117248905全7/192observations、96exact signed centres+joint<.001383111及双mean全保（ABNC）；它是target坐标，不是完整Θ列。BGR46117818798与BFP46118996598全actual/原validator通过，应用见ABGR/ABFP；后继只复制全96centres/means与各整费重新正向组合，不从旧upper相减。
-- AP96全6 finite trial phase joint<.000227442，非true PDE修正。H96首46122740303在science前reserve不符失败，0目标；容量修复后46123190757/1运行7新目标，全部TC/RHI/waist Jacobian/mean/world/C0误差保。完整actual后可用whole canonical/G/H及更强已证anchor重合，不重积分。
-- AWH全referenceν height[-.0253702,-.0252298]及anchor差.031082487a0+.006877446p0；CW给实际锚/固定exterior particular，CG cap moving C0<9.9309e−5。HP仅同NP height-first/physical98 joint<.001663，不授Θ/fullSchur。HN2真strict二阶source/弱二阶解/短height Hessian已付，不授全regular response和tame迭代。
+- TC46117170011/1仍只续原2677/7724 union后的5047缺格，保全96列、四whole arrays和原matrix/waist；TCF只在真实terminal后分配互斥缺格。SC首次原pure现保全96×(d,z,e)，还没有SC actual。
+- [TF真实失败与恢复合同](notes/2026-11-28-TF-left81-failure-and-checkpoint-restoration.md)：前81left通过，第82格4→64 cuts仍failed；right/node/maps和两whole目标未成，非timeout/真实奇异证明。三whole prefix/checkpoint SHA必要恢复尚未执行；新Householder联合球图表须保193frame/97free和全部source，不能原样重跑旧成功。
+- [TP](results/R149-supplement-true-flow-to-complete-positive-physical-chain.md)：四whole TF maps到58→224→32→PN56/CXN6，full ΔAL/ΔC/GH/physical Robin/独立means及实际κB<1保。signed forcing须whole-cell，右97只一次Θ解权；完整TF成功前无manifest。
+- H96首run prechild reserve不符、0目标，唯一修复后46123190757/1跑原7目标；TC/RHI/8192/C0无界频/waist G96/mean/world保。全actual后接[PWA96](results/R149-supplement-PWA-height-row-and-common-ratio-phase-consumer.md)7目标，同canonical/G/H及唯一共ρ、negative4/world2，不重原积分。
+- DCP46124617641/1跑18新目标，BFP19全actual和322输入已准入；完整2560/8192/2048+无限异号tail、96signed及双mean保。当前非actual成功。
+- [CFC](results/R149-supplement-complete-normalized-TC-columns-and-finite-physical-interface.md)完整96列10目标接口已推；须SC3/DCP18/H96/PWA96完整actual/execution。全forward/adjoint、SC原e96、mean和共同ρ保。100×97表不是fullsquare，实际全high/ν/normalizer/Robin/独立mean余块须继续构造。
+- [RCS](results/R149-supplement-signed-strict-coefficients-and-complete-genuine-response-input.md)全原始带符号系数和同J负阶入口已齐：13件whole metadata，原TCXV184/32/40parts完整恢复前缀，60 jets+5Lt+5J+2正下界/1自然目标。只登记首入口，不预报全域Bgap/uniform高响应；新true phase和完整positive/root/mean接收独立继续。
 
-DCP18由BFP19完整成功对象首次进入全密度逆particular作用：新head/tail/96signed与全部误差/means保，全322输入准入后启动，不能预报actual或全Schur。BFP/BGR整对象已通过原validator，应用证明另行登记。
+BNC/BGR/BFP/WMT/WBN/GBN均actual全目标成功、原validator全过，具体whole身份/原费用在各应用proof和H。WMT globalΘ<6.957962、WBNΘν joint<.001118591、GBNtargetν joint<.000163012仅在各原scope；原96centres/means/旧完整候选不删，非fullSchur。UACT finite-only .31698/逆12.588不是完整PDE逆，SL/PS充分门false不推奇异。
 
-[LCW](results/R147-supplement-local-cap-anchors-from-complete-saved-geometry.md)已消费原完整几何给更紧cap锚/同NP高度及H96可替换anchor槽；只付实际存在帽与selected passive core的锚传播，未授未知core准入、真PDE或fullSchur。
+LCW/PWA的实际锚、NP height、HP height-first、HN2二阶strict/height和CG cap moving C0各已付范围保全部λ/world/raw/mean与未知core条件。PWA新a0<3.649e−6/p0<8.56e−6及H96费.00005185H+.000011056G可供完整同源消费者，不授truePDE/core。
 
-[PWA](results/R147-supplement-physical-angle-cap-GW-and-small-vertical-world-anchors.md)进一步把实际竖直q/f锚降到3.649e−6/8.56e−6，H96可用新whole锚费；保原数值误差、均值、λ、角桥、raw defects和独立world ports。消费者只在whole H96成功后重合原canonical/G/H，不重积分。DCP唯一46124617641/1已08:11:11启动。
+[JWS](results/R133-supplement-joint-Wiener-contraction-and-small-complete-angular-inverse.md)已证同whole strict J0<7/5、H1<29/5、DJ>3/8，15新有理组合一次过；负阶窗须全multipliers。[FWT](results/R133-supplement-finite-cut-Wiener-transfer-and-reduced-NG-entry.md)给γ≤.065|δ|+4cL+hH/16与新门64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11，19组合一次过；未知cL/ZS/ZL未赋值，原true collar/residual0/fullmean/H8193保。
 
-FWT新门已证：同true cut/full mean，low96先完整Wiener逆角而非乘384；γ≤.065|δ|+4cL+hH/16。实际δ*下64cL+min(145ZS+748ZL,489ZS+10ZL)≤1.74e−11足原γA0门。19新Fraction首算全过、旧science0；原full collar/residual0/H8193与未有cL/ZS/ZL保持，未赋假值。
-
-PWA96完整7目标消费者(96,1,1,96,1,4,2)已成，直接重合原canonical/G/H及完整APHI particular；相位joint保唯一共同ρ，E_P+R E_H+Δρ‖hcentres‖，全部exact96中心/mean/world/raw端口保。5文件AST/adapted-worker及not-ready0science分支过；完整H96成功前无manifest/workflow，不重原积分。
-
-[CFC](results/R149-supplement-complete-normalized-TC-columns-and-finite-physical-interface.md)完整96列/forward+adjoint/mean/共ρ/physical sources的10目标接口已成；SC3、DCP18、H96及PWA96的全部actual/execution真实准入前没有manifest。原e96不放大重算；100×97表不是全方块。WBN/GBN完整后置目标实际成功，joint分别<.001118591和<.000163012，全部96exact centres/mean/各旧候选保，非fullSchur。
-
-[JWS](results/R133-supplement-joint-Wiener-contraction-and-small-complete-angular-inverse.md)已从原SJ联合Wiener界付全strict同J0<7/5、L2→H1<29/5、DJ>3/8；15新有理组合一次全过。新signed G核可直接读此整候选，完整负阶multipliers/真实phase/positive correction/root/mean仍独立支付。
-
-全Γ/γ低高准入、同态H1/fullmean/true residual0、core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps和最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。
+全Γ/γ低高准入、完整physical square/Schur、H1/mean/residual0/core C0、qν−Z负窗、第四Robin/腰/period/holonomy/height/span、同world frame/两regular caps及最终一次冻结义务仍在第1–7节。完整完成标准前持续推进。
