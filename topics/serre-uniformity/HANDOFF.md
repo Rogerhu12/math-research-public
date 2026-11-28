@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：a1a22a9a525a003e11e00be6529bf0e8555a34db**（2026-11-28 19:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 18:39 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：e1edc9f647dc15766468b374f7745c722dd8131d**（2026-11-28 19:05 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 18:39 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 18:39:21 Asia/Taipei，Actions run46136174028/job140951870303，blob:none浅clone后真实pull --rebase至271101c9且与origin/main相同；两README diff空、全文hash已核，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤19:29、pull≤19:39。本地18:38仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -48,7 +48,7 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
-[R1179](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原全点Gaussian CM范数给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；真实ray norm/全嵌入/根单位核保全。全部p>37，J_p零当且仅当p|Bp−3，八次中槽零当且仅当p|Bp−5；实际remaining good支中H_p0强迫heat二阶单位。不能替原low c2或删corr，原joint继续。
+[R1179 §§1–11](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原fullpoint CM norm给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；ray norm/全regulator/根单位核保全。结合R1177准确得J_p=−4βBp−3/C²、K_p=[v^(p−5)]C6=360βBp−5/C⁴，C²=−4cω²；全部p>37含零支。remaining good支H_p0则heat二阶unit；不替low c2或增mask行，原joint继续。
 
 [R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次unit只付跨盘；盘内须高度，余支p∤Bp−3。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)线性多个非constant不代独立/注入。
 

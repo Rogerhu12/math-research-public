@@ -124,7 +124,7 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 
-[R1179](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原全点Gaussian CM范数给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；真实ray norm/全嵌入/根单位核保全。全部p>37，J_p零当且仅当p|Bp−3，八次中槽零当且仅当p|Bp−5；实际remaining good支中H_p0强迫heat二阶单位。不能替原low c2或删corr，原joint继续。
+[R1179 §§1–11](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原fullpoint CM norm给q_i²M4=−γ3/2、q_i⁴M8=5γ5/2；ray norm/全regulator/根单位核保全。结合R1177准确得J_p=−4βBp−3/C²、K_p=[v^(p−5)]C6=360βBp−5/C⁴，C²=−4cω²；全部p>37含零支。remaining good支H_p0则heat二阶unit；不替low c2或增mask行，原joint继续。
 
 完整原norm2、Kronecker、两twist、mask、全部高尾及旧端点详见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)；不重算已登记扫描。
 

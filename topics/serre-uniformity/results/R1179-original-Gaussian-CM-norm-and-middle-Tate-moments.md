@@ -569,3 +569,107 @@ $$
   全 carry 反射及原 heat 接口。
 
 全篇没有数学程序执行，没有用小素数例子选择符号。
+
+
+## 11. 接入正向 Frobenius 后的两个准确中槽数值
+
+[R1177](R1177-original-syntomic-to-Frobenius-sign-dictionary.md)
+(1177.1)、(1177.19) 已用原正 Kummer、左扭曲及同一个 Hodge
+截面核定：若 $S_d$ 是 R1168 的 syntomic 常数向量，
+真正的正向 Frobenius 一次向量是
+$$
+\mathsf A_d^\Phi=-S_d.
+\tag{GN.30}
+$$
+这不改变原 $H^0$ Weil coefficient、全点矩或 (GN.1) 的类。
+本节在这份已经固定的字典下支付 §8 暂未数值认同的最后一步。
+
+仍用 (GN.20) 定义的同一个整单位 $C$，记
+$$
+\mathcal K_p=[v^{p-5}]C_6(v),\qquad
+\beta_3^{\rm B}=\overline{B_{p-3}},\qquad
+\beta_5^{\rm B}=\overline{B_{p-5}}.
+$$
+这里 $\beta=C_{\rm rel}(x\omega)/\omega'$ 继续是 Gaussian
+Cartier 单位；两个带上标的量只是 Bernoulli 数的约化。
+$v$ 是原 tangent-one 核参数。
+
+由 (GN.22)–(GN.23) 和 (GN.30)，真正两个中槽为
+$$
+\boxed{\qquad
+\mathsf A_{4,2}^\Phi=\frac{\mathcal J_p}{2\beta},
+\qquad
+\mathsf A_{8,4}^\Phi=\frac{7\mathcal K_p}{3\beta}.
+\qquad}
+\tag{GN.31}
+$$
+因此不能把 (GN.22) 的两个 syntomic 系数直接代入正向
+Frobenius 的全局 labels。
+
+令 $r,s$ 分别是原 $\gamma_3,\gamma_5$ 在 R1151/R1152
+Tate frame 内的正向 Frobenius 一次坐标。
+R1152 (1152.51) 已在同一未平均正 Kummer 规范中证明
+$$
+r=\frac23\beta_3^{\rm B},\qquad
+s=\frac{24}{5}\beta_5^{\rm B}.
+$$
+这些是全局类比较后得到的实际坐标；即使其中一个局部类为零，
+公式仍然成立，不需用非零局部值来选择一个缩放。
+这里的 $r,s$ 已经是 physical 坐标，按 R1177 §5.2 不再取负。
+
+现在对原类等式 (GN.1) 使用同一整 tensor comparison。
+(GN.21)、(GN.31) 逐项给
+$$
+\frac{C^2}{6}\frac{\mathcal J_p}{2\beta}=-\frac r2,
+\qquad
+\frac{C^4}{70}\frac{7\mathcal K_p}{3\beta}=\frac{5s}{2}.
+$$
+于是准确得到
+$$
+\boxed{\begin{aligned}
+\mathcal J_p
+ &=-\frac{6\beta r}{C^2}
+  =-\frac{4\beta}{C^2}\,\overline{B_{p-3}},\\
+\mathcal K_p
+ &=\frac{75\beta s}{C^4}
+  =\frac{360\beta}{C^4}\,\overline{B_{p-5}}.
+\end{aligned}}
+\tag{GN.32}
+$$
+全部只反除已固定的 $C,\beta$ 和 $p$ 单位整数。
+特别，本式不附加 $\beta_3^{\rm B}\beta_5^{\rm B}\ne0$ 的条件。
+
+若用 §8 同一 cup/Weil trace 单位 $c_\omega$ 写
+$C^2=-4c_\omega^2$，则 (GN.32) 等价于
+$$
+\boxed{\qquad
+\mathcal J_p=\frac{\beta}{c_\omega^2}\,
+                 \overline{B_{p-3}},\qquad
+\mathcal K_p=\frac{45\beta}{2c_\omega^4}\,
+                 \overline{B_{p-5}}.
+\qquad}
+\tag{GN.33}
+$$
+这里没有把 $c_\omega$ 改成任选的正负平方根；
+其平方来自原 pairing 和原微分基。
+同样，$I\mapsto-I$ 或反向 Weil orientation 改变 $C$ 的号，
+不改变 (GN.32)–(GN.33)。
+
+最后，把 (GN.32) 代回 (GN.28) 之前的原 heat 恒等式，得到
+$$
+\boxed{\qquad
+(\partial^2\mathcal H_p)(a,0)
+=\frac{13a}{3}\mathcal H_p(a,0)
+ -\frac{24\beta}{C^2}\,\overline{B_{p-3}}.
+\qquad}
+\tag{GN.34}
+$$
+它仍是先对完整 $(a,b)$ 多项式作用、最后取 $b=0$ 的式子。
+在原 $\mathcal H_p=0$、$p\nmid B_{p-3}$ 分支，
+右边第二项准确为非零，而非只给一个未知非零倍数。
+
+本节只把同一原类的符号与数值运输完毕。
+它不将 $\mathcal J_p$ 认成低行 $c_2$，不增加一个 good 行，
+也不把原 $\Delta_{\rm low}$ 或任何中央 correlation 的零性
+改写为 (GN.32) 的中槽零性。原联合纤维问题继续保其完整条件。
+全篇仍为纸面证明，无数学程序执行。
