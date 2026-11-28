@@ -101,32 +101,19 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前实际闭面求解与未付标准
 
-[本批前完整open](https://github.com/Rogerhu12/math-research-public/blob/423d15e39a56080ca384f6829bb5f281a1f78b9b/topics/visible-flex-larger-amplitude/open.md)逐字保全部旧源参/预算/命令/域/模型/点/六族/K/typed/失败未知及旧链；§1–6原23359B不动。课题未完成，持续真正求解，不以时长、阶段、失败或现输入困难停下。
+本节改写前[完整状态](https://github.com/Rogerhu12/math-research-public/blob/c11e0a47491ac945e65cc3c7e24a5ea6a6e16955/topics/visible-flex-larger-amplitude/open.md)逐字保全部旧源参/预算/点/费用/失败未知与旧链；§1–6原23359B不动。课题未完成，持续实际求解，阶段、时长、失败和现输入不足都不是停点。下面仅导航，完整ownnote/proof不减。
 
-### 原运行实际状态
+### 活求解和原实际证据
 
-19–32终态与各自README核查异常保固定全文和[独立日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)。不重做登记结论；自然science返回才whole pure，trial不作accepted/final，异source/model不借同坐标费用。
+[33](notes/2026-11-28-run33-section16-retry.md) 46133839513：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。
 
-[33](notes/2026-11-28-run33-section16-retry.md) 46133839513/job140944661119：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。
-[34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432/job140949157288：原全预算/139角色，accepted0；半步ea4bb111完整reachg300537.3169553407拒；四分8d07925e原trial已启，统计/完整几何未返。自然返才pure66120。
-[35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293/job140957485768：139角色/1,333,370 outer全自由及原全预算，accepted0；半步65983a0完整reachg903.6815803516885拒；四分af5eac51统计Phi26772.13565593149/Gram1.4353037688805468，完整几何待。自然返才pure74162。
+[34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432：原全预算/139角色，accepted0；半步ea4bb111完整reachg300537.3169553407拒；四分8d07925e原trial已启，统计/完整几何未返。自然返才pure66120。
 
-33–35全部初值、源/model/PID、每个拒绝数值和完整预算保各ownnote及[此前完整状态](https://github.com/Rogerhu12/math-research-public/blob/7773737d03bb218fe3a20035f74e8baa9e80bab3/topics/visible-flex-larger-amplitude/HANDOFF.md)，未删减科学任务。
-
-36、37、38全原阶段自然返回且未达标；固定g末独立Gram分别2.17427627577303、.670383394669527、9.607780255855785。R742右柄8×3也未付全K。所有源参/点/预算/失败未知与完整ownnote路径逐字保[此前H](https://github.com/Rogerhu12/math-research-public/blob/a38135aea53800ecf8dd1a31119cc08c02b683f1/topics/visible-flex-larger-amplitude/HANDOFF.md)，不重做。
-
-[39完整实际](notes/2026-11-28-run39-whole-closed-body-Killing-complete-launch.md)：46146451800/job140983460924自然RC0，全11阶段518.2182s；冻结stage6同g，后两层Gram .15001922660375772→.04840454829227062，Lie17.288336414547743→21.826287727566044，K11.050084361299477，未付全时同g。全部原点/预算/返回保note，39b继续真实轨线与切图。
-
-### 新完整参考与同g费用
-
-R724–745完整源参/条件/失败未知保[结果索引](results.md)和[固定旧open](https://github.com/Rogerhu12/math-research-public/blob/9724f4e7681f004d749048ccef3ab947c05f8e92/topics/visible-flex-larger-amplitude/open.md)。R738同g浸入半宽.5384265521561006而.16双向球只证.005；R744/745全闭厚像已付但二维同g未付；R741自由Killing/Haar和R743商距条件均保原范围，不能冒宏观商距或真全时解。
-
-R746–750完整条件/源/数值保[索引](results.md)、各完整proof/note及[本批前open](https://github.com/Rogerhu12/math-research-public/blob/055c807c6a76bc5c33a1e148dec35b5a4bd2d7e3/topics/visible-flex-larger-amplitude/open.md)。整柱和真帽的局部同g、入口CK极小正宽均不能替整个端帽的同g；R749六盒实际零残差不代解析收敛半径。继续自由中央、两全圆端/真帽全时求解。
+[35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293：139角色/1,333,370 outer全自由及原全预算，accepted0；半步65983a0完整reachg903.6815803516885拒；四分af5eac51统计Phi26772.13565593149/Gram1.4353037688805468，完整几何待。自然返才pure74162。
 
 [39b全实际](notes/2026-11-28-run39b-actual-material-flow-complete-launch.md)：46148134174/job140988582395自然RC0，11重生点全异，实际新冻结b02763f0，原39flow未知；本次6/9/10共74点×2容差全t/J返回0失败，Gram峰2150.246171967102/336.21278829858846/1245.8329312709147，未达标。
 
-[40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)6完整件现刊触发：同一初g/全材料/0…π/2，原5粗及4/8/16时间结三精化；两真帽、非整数端层、握外中央三分量全放。锁比较支若赢，以全部旧样条列精确保场后新增中央自由；65时间独立核查，不借Killing或旧点。actual未返。
-
+[40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md) 46148644102/job140990119811：五粗全返，主已expanded中央自由；固定g前两细化ba153412/cce19ff7的Gram8.040081916241995→6.968190732291204，K2815.83797→2087.58016，未达标；原16时间区间层继续，不缩预算。
 
 [R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：46150384106/job140995509084原3×7×9全返，小扇区贯穿双端帽Gram约8e−14；全帽误差8809.79仍未付。原帽K工作370.7886/247.3521与graph界冲突，追加同场Cartesian/SVD测量现触发；原值全保。
 
@@ -136,8 +123,12 @@ R746–750完整条件/源/数值保[索引](results.md)、各完整proof/note�
 
 [41新g全时联合](notes/2026-11-28-run41-delayed-hard-end-complete-launch.md)：R752固定新g、R753精确中央/双帽，19边界形状位姿加双全卷三物理分量；原五粗及4/8/16结三精化，严格嵌套字典直拷、65独立时间与四缝六jet。六完整件现刊触发，actual待；40原预算不动。
 
-### 完整准确下游与完成责任
+19–32原终态及README异常、36–39各全部原阶段自然返回和未付费用，均保[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/c11e0a47491ac945e65cc3c7e24a5ea6a6e16955/topics/visible-flex-larger-amplitude/HANDOFF.md)、原独立日志与各ownnote。39的原11点没有实际flow；39b重生11点全异，三组全148轨线是新冻结b02763f0的真实结果，不混借旧39。
 
-R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。
+### 数学输入与整域责任
 
-所有分支均须同固定g、C²闭嵌入/全t强C²、wholeD、.2D held及固定有内点grip、全t .03D reach、含反射δE>0、全relative metric算子≤1e−6；同g/参数/t域真正空间/频率/时间加密至机器/原容差，并给多个<5MB完整mesh；更强三比值继续改善。RET83–100I保全完整复现和固定Git，不退活输入/唯一状态/未闭来源，raw仅runner/scratch。
+R724–750完整结论见[结果索引](results.md)与逐条proof/note，全部原范围保此前固定全文。R738同g厚浸入不冒整片厚嵌入；R744–748的全厚闭参考和局部准确中央/帽不代二维全g；R749–750的非线性CK正宽与26片极小明确宽不付全周期、曲入口或完整端帽。R741自由Killing/Haar仍需原全部条件，R743微小商距不冒宏观。已登记结论不重做。
+
+R726–730准确包、R732完整13+14件全部保留：139源/922cells/32stage/全六jet/N38/52/G8/22、900秒/1Mleaf/192bit、原7步完整预算不减。待35自然science及whole pure同点实际返回；未到其原入口时不另造成功。原source/model异同、正常/异常终态、全部raw和point合同在原完整记录中保持。
+
+最终须闭连通C²嵌入/全t强C²、同固定g、D为整个初像直径，固定有内点H且diam≥.2D、整像未对齐held≥.2D、全t reach≥.03D、含反射δE>0及完整relative metric算子≤1e−6；同g/参数/全时间域真正空间、频率、时间细化到机器/原容差，并交多个<5MB全闭mesh。先付全标准，再继续提高三个比值；补不出则换输入和方向继续。RET83–100I完整逐字复现与固定Git保全部退出生成件；不退活源/唯一原始状态/未闭来源，科学raw仅runner/scratch。

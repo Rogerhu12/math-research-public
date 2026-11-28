@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`d311a308790f71bbe64b4f5d78f5a9cf91a24170`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`cabc7fca00659ba40d6bc12d6167a194f5efb405`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -25,7 +25,7 @@ R746–750全部完整证明/源/条件与数值见[索引](results.md)和[本�
 
 [39b全实际](notes/2026-11-28-run39b-actual-material-flow-complete-launch.md)：46148134174/job140988582395自然RC0，11重生点全异，实际新冻结b02763f0，原39flow未知；本次6/9/10共74点×2容差全t/J返回0失败，Gram峰2150.246171967102/336.21278829858846/1245.8329312709147，未达标。
 
-[40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)6完整件现刊触发：同一初g/全材料/0…π/2，原5粗及4/8/16时间结三精化；两真帽、非整数端层、握外中央三分量全放。锁比较支若赢，以全部旧样条列精确保场后新增中央自由；65时间独立核查，不借Killing或旧点。actual未返。
+[40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md) 46148644102/job140990119811：五粗全返，主已expanded中央自由；固定g前两细化ba153412/cce19ff7的Gram8.040081916241995→6.968190732291204，K2815.83797→2087.58016，未达标；原16时间区间层继续，不缩预算。
 
 
 [R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：46150384106/job140995509084原3×7×9全返，小扇区贯穿双端帽Gram约8e−14；全帽误差8809.79仍未付。原帽K工作370.7886/247.3521与graph界冲突，追加同场Cartesian/SVD测量现触发；原值全保。
@@ -64,6 +64,6 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
-<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46151602924-1.json) 双README真pull 845214fe52935e71a65a6fe5b4f08c4c474ded87
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 6a697913b94acc280372056a1afcb4c2cd436cd8
+<!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46151602924-1.json) 双README真pull 845214fe52935e71a65a6fe5b4f08c4c474ded87
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 12071581a715b36833640670ed5780014f73bc44
