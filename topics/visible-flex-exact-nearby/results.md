@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WSS：全径向同一selected两列有符号普通源首入口](results/R149-supplement-whole-signed-selected-both-ordinary-sources.md)：完整[0,25/8]两列577有符号系数含真compact的Kν/Jν/ΔK及两mean、全部7721/6144原单侧片与根两端；只首算whole carrier和3真实窗口的signed polarization两个新目标。19current和原184/32/40parts全身份、原CPU/native SHA及当前规则门保；尚无actual，不赋全BVP或新范数。
+
 - [PWAH96R：真实高度接续的整父链接收](results/R149-supplement-PWA-height-phase-admission-of-the-whole728-successor.md)：PWA原全部7目标和完整math/3套validator保；只在新H96全成功、真实source/manifest/run/consumed、原载体和父terminal链全过后造入口。当前prepare真实ready=false；不冒充原run成功，不重算原PWA目标。
 
 - [H96R：实际728格之后全部96列高度接续首入口](results/R149-supplement-complete-height-continuation-after-the-paid728-prefix.md)：父run真failure/child−9、原728全96 signed积分球及adjoint费用完整继承；只算2119缺格，原7final目标/两mean/8192角格/physical坐标保。123current/51history与原三类whole载体、实际terminal API及独立互斥全绑；首次on-push入口已发，数值待回。
