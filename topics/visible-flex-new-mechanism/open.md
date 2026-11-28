@@ -160,3 +160,7 @@ R631 run46133637169接b7e0真实宏观路线源6673.02691023秒/51接受119拒�
 ### R705 自然终态：保留真实对象继续
 
 [完整终态](notes/2026-11-28-r705-four-work-seven-independent-and-paid-normal-natural-terminal.md)。新2314.394611427秒/6接受/7J，四工作加七独立相位齐。独立源κ10379.9/法弦721.14，独立末η3.32673/κ38266.1/法弦2167.82，未合格支持比不授完成。原artifact确有140×140 normal与原q/residual，下一alpha索引4未完；旧矩阵非完整J，换物理源须另算。
+
+### R714 自然终态：保留真实对象继续
+
+[完整终态](notes/2026-11-28-r714-4261-resolved-and-actual-outer52-natural-terminal.md)。原4261队列完整裁决并接受，旧30468不重播；本次2370.380567539秒，counts.accepted_metric_steps=7。现81q cb8b…，outer51真2031×3072+4701定位峰η.18196698661；outer52已需2039径，资格不能迁移，当前trust.6757621765。全J/自然返回未伪造，费用及不同辅助epigraph保留。

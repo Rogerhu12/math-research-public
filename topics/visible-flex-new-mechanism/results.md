@@ -39,3 +39,5 @@
 - [R707 自然终态：真实新材料上的保留场与三待加径点](notes/2026-11-28-r707-actual-material-f60be0-retained-natural-terminal.md)。当前f60be0材料η3.22670e−5；三真待加径点保留，旧ada2债不消。
 
 - [R705 自然终态：四工作相位、七独立相位及已付矩阵](notes/2026-11-28-r705-four-work-seven-independent-and-paid-normal-natural-terminal.md)。11相位源与末几何均未过；140×140真normal存在，α索引4未完。
+
+- [R714 自然终态：原4261队列已闭与真实outer52状态](notes/2026-11-28-r714-4261-resolved-and-actual-outer52-natural-terminal.md)。原4261已全闭；保留cb8b…81q，outer52的2039需求不能借2031资格。

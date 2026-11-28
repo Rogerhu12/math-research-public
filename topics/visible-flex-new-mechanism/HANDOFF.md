@@ -44,6 +44,8 @@ R707自然终态：[实际保留态与未完项](notes/2026-11-28-r707-actual-ma
 
 R705自然终态：[实际保留态与未完项](notes/2026-11-28-r705-four-work-seven-independent-and-paid-normal-natural-terminal.md)。11相位源与末几何均未过；140×140真normal存在，α索引4未完。
 
+R714自然终态：[实际保留态与未完项](notes/2026-11-28-r714-4261-resolved-and-actual-outer52-natural-terminal.md)。原4261已全闭；保留cb8b…81q，outer52的2039需求不能借2031资格。
+
 ## 环境恢复后找到的未发布稿件
 
 原 R716 源码 **11413B / 487928256cdc0bffd2aef6b5259dbb546e54dc604e4779032ba3ec4e5837f869** 与论文 **11942B / 69c2306febe4c9818fbeb705c16cc3a2584345d9651fe65895e3d071b6ab0b51** 均已重新读到字节身份；与已发表的独立 recovered 源码不同，不互相冒充。碰撞原稿先保存到仓库外再 pull，未删。现 [R716 论文](results/R716-canonical-shared-Hermite-traces-and-global-paid-strip-Hessians.md) 和 recovered 消费者仍为条件性规范共结/全条带 Hessian、未执行，世界零阶保 h*−h_bin。
