@@ -490,3 +490,5 @@
 2026-11-28 09:59:30 UTC — Astra-visible-flex-2ecfcd69-20261128：position-prefix-locked-continuation own6, G10 R14² 0.0697228932, G11 metric/κ/held 0.2509047259 / 20.90341971 / 0.7093248156.
 
 2026-11-28 10:00:42 UTC — Astra-visible-flex-2ecfcd69-20261128：原 G12/M48 完整前缀 158 元素/2800 解析叶全角全时 U<1.235521e−9<B；最大 W153。
+
+2026-11-28 10:05:52 UTC — Astra-visible-flex-2ecfcd69-20261128：R258 严格证 R233 固定原前缀度量下界>6.98105e−8；真实 G10 同点六 jet 与曲率另包，开始同g前缀修正。 同次维护将R1–R219旧索引迁至独立INDEX、压缩当前H并更新完整prefix，不改旧结论。

@@ -8,11 +8,11 @@
 
 完整终值正在直接包同一点的 X+C+W 总 Gram：
 
-- [完整前缀元素16](notes/2026-11-28-2ecf-m12-prefix16-correlated-total-Gram.md) U<6.102217e−11；[下坡、桥、common-cut四区](notes/2026-11-28-2ecf-m12-prefix-four-regions-and-shared-remainder.md) U<1.235521e−9。其余实际 W 元素按原 source/chart/target 切点与全角继续覆盖。已完整回执逐元素保留，模型切换后只续未完成元素。
+- [完整原前缀](notes/2026-11-28-2ecf-m12-complete-original-prefix-total-Gram.md)已自然0：158/158实际W元素、2800解析交集叶，全部角度/相位U<1.235521e−9<B，最大W153。准确prefix/tail端点已列，不重做已完成元素。
 - [原有限尾50单元](notes/2026-11-28-2ecf-tail-correlated-C4-adaptive-cover.md) 已过，原24块的全部18552个单元正流式分段处理。原帽过渡C4仅用于均匀值余项；完整背景及V/W交叉项不删。必须核最终全部原单元恰覆盖，无漏块或只取采样峰。
 - [真正内collar](notes/2026-11-28-2ecf-true-inner-collar-total-Gram.md) 从原有限内端至准确cuff全区间、全角已真0，104片U<1.957403e−9。原固定帽和时间相位沿已有解析恒等式合成，不新增伪时间积分任务。
 
-取得同一场全域 U≤B 后，接 [既有同g G5合成](notes/2026-11-10-78718-fixed-g-refinement-composition.md) 的真实 h/频率轨迹和旧实际 L12>1.95883e−8。样本下降、normal残差或一个局部界都不代替完整终值；也不另增 stationarity、无限精确存在或根README§13已取消的复核门。最终精确等距存在与数值完成的范围须明确区分。
+取得同一场全域 U≤B 后，接 [既有同g G5合成](notes/2026-11-10-78718-fixed-g-refinement-composition.md) 的真实 h/频率轨迹和旧实际 L12>1.95883e−8。样本下降、normal残差或一个局部界都不代替完整终值；也不另增 stationarity、无限精确存在或根README§12已取消的复核门。最终精确等距存在与数值完成的范围须明确区分。
 
 ## 2. 原固定 g 的真正物理 h 与频率继续
 
