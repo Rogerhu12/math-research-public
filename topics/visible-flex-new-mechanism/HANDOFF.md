@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **1557946fb3490e154cf47e55a7784c0feb74562c**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **fab94c76a858c2d8ba94a4d59db3f69328e29297**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -17,8 +17,8 @@
 
 ## A：真实97q e781／原383库在算
 
-[原369自然终态](notes/2026-11-28-r582-original369-natural-terminal.md)：run46117791268/job140895379882/source9afd9379，07:22完成；新增2386.166259383秒，3metric+1restore，11完整J/143块/33值、18fine，非自然stall。
-真实q **e781bd6d67eeda31b9e724ad4b7d57031ef2a8db2e7003de3cba948266151830**，p=.181、同0d222bd1材料；16280×3072 η3.3430671025073394e−5，physical/working0。末raw97q相同但raw98 epigraph未可行，按原lift后才接受；不借raw资格。
+[原369自然终态](notes/2026-11-28-r582-original369-natural-terminal.md)：run46117791268/source9afd9379，新增2386.166259383秒，3metric+1restore；完整费用见源，非自然stall。
+真实q **e781bd6d67eeda31b9e724ad4b7d57031ef2a8db2e7003de3cba948266151830**，p=.181、同0d222bd1材料；16280×3072 η3.3430671025073394e−5，physical/working0。raw97q与raw98 epigraph资格分轨，原lift后才接受。
 
 [真实383后继](notes/2026-11-28-r582-e781-original383-continuation.md)实际run **46121523891** / source60cdf0c3，07:30:36启动。379coarse+4pending及全部fine/费用保留，trust2/metric，新中点须自身资格；阶段门约2.5e−7、目标p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
 
@@ -34,13 +34,13 @@ R617排固定有限pre/post精确非圆根，不排增长极限。τ1当前j2锁
 
 [d59fa→6482自然终态](notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md)：run46119106791/job140899461067/source41cf3c8f，07:39:35完成；2370.041308173秒，4metric+1restore。真实q6482fbfd…，1724×3072已合格η.195138934664774、准确g0，metric/trust.45050811767578125。
 
-当前870coarse/1742required fine/1943physical/695work、pending0；1724资格不转1742。末369e完整876定位后η.19780607039034218更差已拒。旧309b8的8635未执行、0重放，原来源/费用保留。15完整J/1112块含末未完20块、16backend但15native；无自然return不缩trust。82维H/3403LDL、metric505f签名及22pending乘子全保。
+当前870coarse/1742required fine/1943physical/695work、pending0；1724资格不转1742。末369e完整定位后更差已拒；旧309b8的8635未执行、0重放。末20块未完、16backend但15native，无自然return不缩trust。真实H/metric505f签名/22乘子及全部费用全保。
 
 [6482实际后继](notes/2026-11-28-r566-6482-metric-resume-scope.md)run **46123017949** / sourcefe5224fb，07:50:16启动；完整值库已付但J未存，必要重建与旧20块分记，所有原接受门不改。仍为变量g静态设计。
 
 ## D：真全历史原BVP，已定位粗凸包墙
 
-[旧一致W失败](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)的722.781991255秒/60旧接受及原14段均保留；stored末零不是true资格。
+[旧一致W失败](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)及全部旧费用保留；stored末零不是true资格。
 [R632实际自然终态](notes/2026-11-28-r632-true-hermite-natural-terminal.md)：run **46121795578** / job140907716148/source32788128，07:51:14已完成。新增989.736104011秒，19完整接受/20trial/114方向，44轮自然stall，非时钟。payload6319B/de303ef6…、q4a3492e8…；fine2305点同曲线全常数冻结已付，真十末.8785446834804413、ruling9.352833707433366e13、原HS8.005848949741811e15，未根。
 
 439域失败全触发粗υ凸包，8兼γ；437次样点都在盒内、2次实际越界仍拒。末粗υ下界−5.999999999999999但fine真最小−2.775238…，不能说物理速度到了−6。下一从真实payload用自适应de Casteljau细分四类多项式与方向，原界不放宽、未闭pending；完整原目标/J/费用继续。旧206e真实fine h=3.0000003429375646越3已定位，不重查。
@@ -54,13 +54,12 @@ R617排固定有限pre/post精确非圆根，不排增长极限。τ1当前j2锁
 [R631准确核心](results/R631-thick-core-at-radius-four-fifths.md)给ε.05、ρ∈(.14,17.153)、核心球<1.032；完整闭面若付同球/strip.37/reach.062/开盘.22，则δ/D≥105/344>.3。只是条件核心预算。
 [新factory](notes/2026-11-28-r631-radius080-new-design-factory.md)重建外段/字典/强迫，只复用R无关内尾，不转旧.85资格；[硬核心](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)保1451列含H和真实F2。
 
-[实际宏观延续](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)run **46123435005** / source5761da2f，07:55:49启动。完整J48/64/96（1451/1707/2219列），同J两RHS预测/求根、自动μ→1；全部原行/fine/真实Y双差分保留，已付fine复用。18000秒含1800末预留，每55分实际public pull查规则并恢复同source；主会话继续私库每小时pull。设计E可变，工作η1e−7/宏观fine2e−9只是阶段门；取得候选后冻结g精化，有限P误差/完整几何待付。
+[实际宏观延续](notes/2026-11-28-r631-actual-macro-core-design-actions-scope.md)run **46123435005** / source5761da2f，07:55:49启动。完整J48/64/96、全部原行列，同J两RHS预测/求根、自动μ→1；fine及真Y双差分保留，已付fine复用。18000秒含1800末预留，每55分实际public pull查规则并恢复同source；主会话继续私库每小时pull。设计E可变，工作η1e−7/宏观fine2e−9只是阶段门；取得候选后冻结g精化，有限P误差/完整几何待付。
 
 ## F：真实双核端口与非线性构造
 
-[R628](results/R628-double-flat-kernel-and-nonzero-second-order-port.md)给另一高M真双核与有限β>1；高M有限几何未付。
 [R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)已付同一未解度量的三曲率矩、投影消元、自由帽0/1逆、真实旋转尾图及双核有限块。
-[R630](results/R630-morse-double-kernel-all-frequency-center.md)给左正规Morse二/三双核、其余j谱距≥1/(2880j²)、travel sin≥1/(3110j³)；[首次探索](notes/2026-11-28-r630-morse-port-actions.md)的5.675849416999995秒/小ν高代价保留。
+[R630](results/R630-morse-double-kernel-all-frequency-center.md)给左正规Morse二/三双核、其余j谱距≥1/(2880j²)、travel sin≥1/(3110j³)。
 
 [R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)已付有限真平双尾、四控制保径向Cauchy、两紧支持参数恢复双核及全整数共同加权参考逆。j²损失不能直接塞进Hu同角阶Neumann；R639正构造有理Morse/小常势清额外零能的统一谱隙，并补真实状态相关逆。
 [R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)证w²端口为准确边界零。
