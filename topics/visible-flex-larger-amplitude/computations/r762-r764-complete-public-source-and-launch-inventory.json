@@ -1,0 +1,142 @@
+{
+  "schema": "R762-and-R764-complete-signed-source-and-launch-inventory-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "parent_snapshot": "ede7155a60f4686f26854b1f51323e7517c9de93",
+  "directory": "topics/visible-flex-larger-amplitude/scripts/resume_20261126",
+  "columns": [
+    "file",
+    "bytes",
+    "sha256",
+    "git_blob",
+    "frozen_by"
+  ],
+  "sources": [
+    [
+      "publish_r734_exact_conclusion.py",
+      10589,
+      "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+      "c07d8a51f944dbacddabd127522d673174498839",
+      "R762,R764"
+    ],
+    [
+      "r740_rolled_disk_seed.py",
+      10834,
+      "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "72ef28649a33d115ef9a646a581f61dc3f3ddece",
+      "R762,R764"
+    ],
+    [
+      "r742_tilted_disk_two_jets.py",
+      9706,
+      "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "eacaa69d88eae15963aee90d948391abfb9c745a",
+      "R762,R764"
+    ],
+    [
+      "r744_extruded_closed_two_jets.py",
+      10327,
+      "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "729efd888029dbaf9953617edfde81c0c7394fdd",
+      "R762,R764"
+    ],
+    [
+      "r754_coherent_mirror_bowed_walls_two_jets.py",
+      9754,
+      "aedac63cfc0ecab05108b7d1d8ea62d5fcc0ee48e3a60c09c6fe7214e829eb96",
+      "0f20d4a812f5f3c32526277548fc641b75864ddd",
+      "R762,R764"
+    ],
+    [
+      "r756_return_elbows_preloaded_exact_rolls.py",
+      8933,
+      "39e166b6482078f39dc8bd2ee360a7a42ec02650145c85f5ebd78d7e32ec5a38",
+      "3daf3aa1a455c8886cd7dd92ab2f3ff0f541883d",
+      "R762,R764"
+    ],
+    [
+      "r758_curved_outer_collars_and_fixed_elliptical_crowns.py",
+      6352,
+      "54554808a73d93149a297a7302093d0afcd0b8d433b2d119223a2a2792ff40bf",
+      "c88481deaffb78453316a31bd6e607ca774226ab",
+      "R762,R764"
+    ],
+    [
+      "r760_cartesian_curved_crown_and_lower_rate_walls.py",
+      10422,
+      "a20f2ee98d901cadb6290edbbb8ad1f8a52d5b6035e6507c171ddea93febf919",
+      "ec2e06753824f38d3c8ace40a8cf4deec0e51f23",
+      "R762,R764"
+    ],
+    [
+      "solve_r760_curved_crown_middle_annuli.py",
+      20834,
+      "0e1e4d9f76221c43938b3c839c95f8ad51e487df1edf52b952d6f913cba2ed72",
+      "1bb5c19e45cc7e6e6b306309f5cae91a9875e346",
+      "R762"
+    ],
+    [
+      "r762_positive_meridian_arclength_and_full_jets.py",
+      6926,
+      "070aac69ce2f04c6916f730fb6a16b38a524c19ec739c5cc79ab4d39c4d5db3b",
+      "b19cbad376603353b8cf70bd4343466a71efd46c",
+      "R762"
+    ],
+    [
+      "solve_r762_gauged_crown_tensor_annuli.py",
+      23531,
+      "168547cd6db101ef575db2aaf6dcf48217577a2558c170049aa6129766afe147",
+      "d7f7e8878c594b02923f44c28490ff7604e4d2fe",
+      "R762"
+    ],
+    [
+      "run_r762_all_gauged_crown_fits.py",
+      11578,
+      "3f37d3f6a0de82a398a0a6efbd80e9cfc89361bad553767c00912b94e0fe45e2",
+      "6cc8acdfe90f4d4ef731263a55cf70fca5adf842",
+      "R762"
+    ],
+    [
+      "r764_corrugated_pre_roll_and_movable_complete_caps.py",
+      4270,
+      "17f6462df8b5760a187c0ba4fe9271ea11b19998701af5dc08f8e3891a3bcf9e",
+      "9e0082c53f021ad637ebdb1b71a636d750af5c82",
+      "R764"
+    ],
+    [
+      "solve_r764_corrugated_whole_sphere.py",
+      18757,
+      "09cb262a9103d3350a9f51d65410238c63b05df5b6349c11028f8cb403d35a36",
+      "24a5484e5e06afa09f265730fa6017dfafbd35ba",
+      "R764"
+    ],
+    [
+      "run_r764_all_corrugated_whole_fits.py",
+      11299,
+      "7ff236a988af5931a373fac555248f53dfff3fb692b4529acc4befde017c8ed4",
+      "4ee10e7f10a75b158fd0342a7c75d4b842a0e5b2",
+      "R764"
+    ]
+  ],
+  "workflows": [
+    [
+      ".github/workflows/visible-larger-r762-gauged-crown-physical-fits.yml",
+      3744,
+      "de7d23d3fd688a09a8ecfe69acbe4e3a389c9ada7e67e47ec078697a9259611d",
+      "a3cafcd862bdcc5a276b311e36902a77ff9108b4"
+    ],
+    [
+      ".github/workflows/visible-larger-r764-corrugated-whole-physical-fits.yml",
+      3644,
+      "d23e3e397a969854d457f22a9ddb3b6c4d5db94f0426d4f9b1743879d076a153",
+      "254d703f2bfe511b8650ad4e7655a8679545edc6"
+    ]
+  ],
+  "counts_including_bootstrap": {
+    "R762": 12,
+    "R764": 11
+  },
+  "notes": [
+    "The two workflows themselves are separately identified. R762 uses both R760 geometry and R760 solver. R764 uses R760 geometry and its complete older chain directly, and has no runtime import of R762 or the R760 solver.",
+    "At execution each controller freezes the listed complete files at its actual GITHUB_SHA. The two README identities and latest ordinary-pull head are read and checked separately."
+  ]
+}

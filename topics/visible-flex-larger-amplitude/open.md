@@ -129,6 +129,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：同R760 g正弧长C²坐标六jet/720局部标量×三向，四路三层7+6相与两份39行gauge-only原预算；12Python冻结，真Gram/曲率另测，固定护领旧残差仍在，启动未作完成。
 
 [R763](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)：43成对末圈硬残差>.72；新两整帽真刚移、四缝全g准确、全相对应弦<.95<L，仍非整卷存在。开发帽全谱误差<1.31e−7；44释放两整圈共用三向A/B/C二jet。
+[R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：真曲率预带E=.44、B=.88、e=.13/.14，新初reach.132/D<4.386/grip1.40，全相基场嵌入/held≥.88、至少一支δE>0；中央/两原卷/两真帽同g，两预带全g及全t reach未付，四整球原三级全域拟合启动。
 
 ### 保留的全部责任
 
