@@ -62,6 +62,8 @@
         "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
         "--parent",
         "{W}/adjacent-low/full-cut.npz",
+        "--curvature-guide",
+        "8.69",
         "--out",
         "{W}/adjacent-low/fixed-h1.json"
       ],
@@ -87,9 +89,10 @@
         "accepted",
         "training",
         "independent",
-        "independentGeometry"
+        "independentGeometry",
+        "trainingActualSpanCoverage"
       ],
-      "description": "R317自己的真实全角母线、完整cut-source SHA和原场身份保持；准确Boehm径角扩充以后仅求空间，固定同一两g。未用旧三圆弧中央冒充这个新输入。"
+      "description": "R319真.350中央/原U0、完整cut及原场身份保持。每个实际细span训练≥6新径行、独立≥9不同径行，门内不复用13旧行；独立769均匀native角加6个.012法角窗的78个真逆材料角，全部源和XYZ直接六jets，分8径行消费。固定同一g真Boehm/角扩充后的实际误差，非连续证书。"
     },
     {
       "id": "R319-actual-0350-cut-high-caps-two-real-arms",
@@ -176,6 +179,69 @@
         "guards"
       ],
       "description": "真实新相邻曲线与原74项的全闭区间两导比较，及同一.350 design/h1全部原2569单元、旧W、新XYZ/切口/尾的连续位置预算；各状态自身核R317两项整形变充分条件，不以有限全角比较代连续结论。"
+    },
+    {
+      "id": "R319-actual-0350-frozen-full-physical-inlet-profiles",
+      "after": [
+        "R262-adjacent-low-ports-actual-frozen-metric-h1"
+      ],
+      "script": "2ecf-r262-adjacent-cut-true-normal-angle-cauchy-refinement.py",
+      "sources": [
+        "2ecf-r262-adjacent-cut-true-normal-angle-cauchy-refinement.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-adjacent-low-ports-support-physical-cut.py",
+        "--cut",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--angular-source",
+        "{S}/2ecf-r262-cut-frozen-native-and-true-material-position.py",
+        "--direct-source",
+        "{S}/2ecf-r262-cut-same-metric-banded-direct-newton.py",
+        "--profile-source",
+        "{S}/2ecf-r262-cut-physical-cauchy-inlet-profile-refinement.py",
+        "--parent",
+        "{W}/adjacent-low/fixed-h1.npz",
+        "--steps",
+        "4",
+        "--out",
+        "{W}/adjacent-low/h1-physical-inlet.json"
+      ],
+      "outputs": [
+        "{W}/adjacent-low/h1-physical-inlet.json"
+      ],
+      "report": "{W}/adjacent-low/h1-physical-inlet.json",
+      "fields": [
+        "entrySHA256",
+        "stateSHA256",
+        "parentSHA256",
+        "fieldSHA256",
+        "physicalSourceSHA256",
+        "cutSHA256",
+        "actualPositionVariables",
+        "actualMetricVariables",
+        "nativeModes",
+        "radialSpans",
+        "initial",
+        "initialSecondary",
+        "initialGuard",
+        "accepted",
+        "attempts",
+        "normalAndRhsAgreement",
+        "finalAngularGuard",
+        "initialIndependent",
+        "independent",
+        "stateUse"
+      ],
+      "description": "R319同一g真正扩大空间：加入自己NormalCurve半径与导数所给N/k、实际柱接原场差、ez/k²三列；训练/第二/曲率/独立角网对全部六个.012法角区间各加13/21/33/47真角及端点，原A+C+W和全部新列直接求六jets。新状态含inletNativeXYZ+physicalInletProfiles，旧只认native消费者不得继承。"
     },
     {
       "id": "R262-recover-actual-low35-cut",
@@ -594,6 +660,59 @@
         "independent"
       ],
       "description": "把上一条实际选定的两条完整正目标固定为同一g；真实径单元再二分、角48→64，Boehm包含原位置后仅更新空间，以新全门和独立411角观察同一个问题的误差。"
+    },
+    {
+      "id": "R318-old-full-cut-frozen-true-Cauchy-inlet-profiles",
+      "after": [
+        "R262-fine-positive-radial-metric-and-position-design"
+      ],
+      "script": "2ecf-r262-cut-physical-cauchy-inlet-profile-refinement.py",
+      "sources": [
+        "2ecf-r262-cut-physical-cauchy-inlet-profile-refinement.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--angular-source",
+        "{S}/2ecf-r262-cut-frozen-native-and-true-material-position.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--direct-source",
+        "{S}/2ecf-r262-cut-same-metric-banded-direct-newton.py",
+        "--parent",
+        "{W}/full-cut/fine-g-design.npz",
+        "--steps",
+        "4",
+        "--out",
+        "{W}/full-cut/fine-g-physical-inlet.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/fine-g-physical-inlet.json"
+      ],
+      "report": "{W}/full-cut/fine-g-physical-inlet.json",
+      "fields": [
+        "entrySHA256",
+        "stateSHA256",
+        "parentSHA256",
+        "fieldSHA256",
+        "initial",
+        "initialSecondary",
+        "initialGuard",
+        "accepted",
+        "attempts",
+        "normalAndRhsAgreement",
+        "finalAngularGuard",
+        "initialIndependent",
+        "independent",
+        "stateUse"
+      ],
+      "description": "旧c=.78真三圆弧分支在所选细g上固定目标，仅加R318准确物理三剖面，并消费1152曲率角和1725独立角；不将有限native无法准确含N/k的障碍当停止理由，也不把包含新三列的状态送给旧native证书。"
     },
     {
       "id": "R262-cumulative-true-shape-height-low35",
