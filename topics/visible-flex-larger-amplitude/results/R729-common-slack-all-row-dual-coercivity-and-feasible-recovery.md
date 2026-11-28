@@ -35,52 +35,52 @@ run46099929359/attempt1 的**原第一段** science 和 pure 均自然返回0。
 
 设原物理步坐标 z∈R^n，原全部 m 个物理不等式为
 
-\[
+$
 g_i+a_i^Tz\le \tau,\qquad i=1,\ldots,m,\qquad \tau\ge0.
-\]
+$
 
 这里 a_i 包含原坐标映射、原归一化逆尺度以及实际选定的全部 typed 行。旧矩阵的归一化行和正尺度 s_i 满足 a_i^T=s_i C_i^{old}；原缓存的 bounds 与 −g_i/s_i 的关系仍须使用原完整接口。
 
 源中的初始化为
 
-\[
+$
 \tau_0=\max(0,\max_i g_i)+8\epsilon_{\rm mach}
   (1+\max_i|g_i|).
-\]
+$
 
 记 d_i=\sqrt{\|a_i\|^2+1}>0。变量 x=(z,t)，t=δτ，\tau=\tau_0+t。完整增广行是
 
-\[
+$
 \begin{aligned}
  C_i&=(a_i^T/d_i,-1/d_i),&
  b_i&=(\tau_0-g_i)/d_i &&(1\le i\le m),\\
  C_{m+1}&=(0,\ldots,0,-1),&
  b_{m+1}&=\tau_0.
 \end{aligned} \tag{1}
-\]
+$
 
 原源使用实际记录的 gradient_coordinate_norm 构造 d_i、使用实际 row_normalization_scale 乘回 a_i；本条不改变这些浮点输入的定义，也不以新公式重造另一个物理梯度。
 
 原恢复目标完整保留为
 
-\[
+$
  f(x)=\frac12(\tau_0+t)^2+
        \frac{\mu^2}{2}(\|z\|^2+t^2)
      =\frac12x^THx+q^Tx+c,
 \quad Cx\le b, \tag{2}
-\]
-\[
+$
+$
  H=\operatorname{diag}(\mu^2 I_n,1+\mu^2),\quad
  q=\tau_0 e,\quad c=\tfrac12\tau_0^2,\qquad \mu>0. \tag{3}
-\]
+$
 
 e 是最后一个单位向量。原 Euclidean 增广步惩罚包含 t^2，不能删去该项，也不能把 (2) 换成纯最小 slack、SOC 最小范数或 metric QP。
 
 令 M=m+1，写每个完整行
 
-\[
+$
  C_i=(u_i^T,-\beta_i),\qquad \beta_i>0. \tag{4}
-\]
+$
 
 原 m 行的 β_i=1/d_i，最后一行为 β_M=1。允许任意物理零梯度、重复行和线性相关行；(4)始终保留所有这些行。正行缩放必须同时作用于 C_i、b_i，不能改可行集。
 
@@ -90,30 +90,30 @@ e 是最后一个单位向量。原 Euclidean 增广步惩罚包含 t^2，不能
 
 对任意 λ∈R_+^M，
 
-\[
+$
  L(x,\lambda)=f(x)+\lambda^T(Cx-b).
-\]
+$
 
 配方给
 
-\[
+$
  x_\lambda=-H^{-1}(q+C^T\lambda),\qquad
  D(\lambda)=c-\frac12(q+C^T\lambda)^TH^{-1}(q+C^T\lambda)-b^T\lambda.
  \tag{5}
-\]
+$
 
 令
 
-\[
+$
  G=CH^{-1}C^T,\qquad r=b+CH^{-1}q.
-\]
+$
 
 最大化 D 等价于
 
-\[
+$
  \min_{\lambda\ge0}\psi(\lambda)
        =\frac12\lambda^TG\lambda+r^T\lambda. \tag{6}
-\]
+$
 
 这里 G 可能奇异，本条从不求 G^{-1}。
 
@@ -123,13 +123,13 @@ y=H^{1/2}(x+H^{-1}q)：
 
 对任意原始可行 y 和任意 λ≥0，准确展开：
 
-\[
+$
  \boxed{\quad
  f(y)-D(\lambda)
    =\frac12(y-x_\lambda)^TH(y-x_\lambda)
        +\lambda^T(b-Cy)\ge0.
  \quad} \tag{7}
-\]
+$
 
 每个约束都在最后一项中。它同时给出了可检查的驻点项、互补项与 gap，而不是以小矩阵的目标值代替原 C 的余量。
 
@@ -137,30 +137,30 @@ y=H^{1/2}(x+H^{-1}q)：
 
 一般半正定 Gram 的 level set 可以无界；本题的同号最后一列给更强结论。对 λ≥0，
 
-\[
+$
  \lambda^TG\lambda
  =\frac{\|\sum_i\lambda_i u_i\|^2}{\mu^2}
        +\frac{(\sum_i\beta_i\lambda_i)^2}{1+\mu^2}
  \ge \frac{\beta_{\min}^2}{1+\mu^2}\|\lambda\|_1^2,
  \qquad \beta_{\min}=\min_i\beta_i>0. \tag{8}
-\]
+$
 
 因而
 
-\[
+$
  \psi(\lambda)\ge
  \frac{\beta_{\min}^2}{2(1+\mu^2)}\|\lambda\|_1^2
        -\|r\|_\infty\|\lambda\|_1. \tag{9}
-\]
+$
 
 所以 ψ 在非负正象限上的任意有限 level set 都紧，尽管 G 在整个 R^M 上未必正定。重复行导致的零空间方向必须含相反号；它们不会产生沿 λ≥0 无界逃逸的序列。
 
 此外
 
-\[
+$
  G_{ii}=\|u_i\|^2/\mu^2+\beta_i^2/(1+\mu^2)>0
  \quad (1\le i\le M). \tag{10}
-\]
+$
 
 (8)是本题特有的新增条件。它不是对所有不等式 QP、metric QP 或 R683 的任意 SOC 矩阵作一般强凸断言；也没有给整个 G 的正最小特征值。
 
@@ -168,47 +168,47 @@ y=H^{1/2}(x+H^{-1}q)：
 
 从 λ^0=0 开始，固定每一轮顺序为1至M，且每一轮访问全部行。访问 i 时，以当前完整 λ 计算
 
-\[
+$
  h_i=(G\lambda+r)_i,\qquad
  \lambda_i^+=\max(0,\lambda_i-h_i/G_{ii}),
  \qquad \lambda_j^+=\lambda_j\ (j\ne i). \tag{11}
-\]
+$
 
 这是准确的一维带非负约束极小值。实现可更新 h←h+G_{:i}(\lambda_i^+−\lambda_i)，而不是每坐标形成新大矩阵。所有 M 个坐标仍在每一轮中出现。
 
 记 Δ=λ_i^+−λ_i。单坐标最优性给
 
-\[
+$
  h_i\Delta+G_{ii}\Delta^2\le0.
-\]
+$
 
 因此
 
-\[
+$
  \psi(\lambda)-\psi(\lambda^+)
    =-h_i\Delta-\tfrac12G_{ii}\Delta^2
    \ge\tfrac12G_{ii}\Delta^2. \tag{12}
-\]
+$
 
 所有迭代留在初始紧 level set。ψ 有下界，(12)逐项求和，结合有限个严格正 G_ii，得到每个单坐标更新 Δ→0。
 
 现在在整轮起点取任意收敛子列 λ^{k_j}→\barλ。每轮只有固定有限 M 次更新，且每次更新趋零，所以该轮内各个中间迭代也趋于同一 \barλ。对第 i 个坐标的精确更新式取极限，连续性给
 
-\[
+$
  \bar\lambda_i=
  \max(0,\bar\lambda_i-(G\bar\lambda+r)_i/G_{ii}).
-\]
+$
 
 即所有 i 同时满足
 
-\[
+$
  \bar\lambda_i\ge0,\quad
  (G\bar\lambda+r)_i\ge0,\quad
  \bar\lambda_i(G\bar\lambda+r)_i=0. \tag{13}
-\]
+$
 
 这正是凸函数 ψ 在非负正象限上的全部一阶最优性条件。直接地，对于任意 ν≥0，
-\(\nabla\psi(\bar\lambda)^T(\nu-\bar\lambda)\ge0\)，再用凸性可得 ψ(ν)≥ψ(\barλ)。故每个 cluster point 都是全对偶最优解。
+$\nabla\psi(\bar\lambda)^T(\nu-\bar\lambda)\ge0$，再用凸性可得 ψ(ν)≥ψ(\barλ)。故每个 cluster point 都是全对偶最优解。
 
 由(5)，每个对偶最优解产生同一个唯一原始解 x_*。紧性及连续性说明整序列 x_{λ^k}→x_*，且 D(λ^k)→f(x_*)。乘子向量可能不唯一，本条不要求整个 λ 序列收敛到某个唯一乘子。整轮中间迭代同理。
 
@@ -218,20 +218,20 @@ y=H^{1/2}(x+H^{-1}q)：
 
 x_λ 本身可以暂时不原始可行。无需投影到挑选的独立行，也无需抛弃它的全部物理步。对任意 z∈R^n，定义
 
-\[
+$
  L(z)=\max_{1\le i\le M}\frac{u_i^Tz-b_i}{\beta_i},
  \qquad
  t(z)=\max\left(-\frac{\tau_0}{1+\mu^2},L(z)\right),
  \qquad y(z)=(z,t(z)). \tag{14}
-\]
+$
 
 所有行都有 β_i>0，所以 t≥L(z) 当且仅当全部 C_i y≤b_i。最后一个非负 slack 行包含在此 max 中，不能省掉。
 
 固定 z 后，目标关于 t 的无约束极小值为 −τ0/(1+μ²)，且 t 部分严格凸。因此(14)不仅可行，而且是在固定完整 z 时的最优 slack。任何可行 (z,t_old) 均满足
 
-\[
+$
  f(y(z))\le f(z,t_{\rm old}). \tag{15}
-\]
+$
 
 它并未使物理 g_i+a_i^Tz≤0；只是在原恢复问题中准确支付共同 slack。原非线性接受判据仍必须用候选场实际读取。
 
@@ -239,44 +239,44 @@ x_λ 本身可以暂时不原始可行。无需投影到挑选的独立行，也
 
 结合(7)，
 
-\[
+$
  U_k=f(y_k)\ge f(x_*)\ge D(\lambda^k)=L_k,\qquad
  U_k-L_k\longrightarrow0. \tag{16}
-\]
+$
 
 可以保留迄今最小可行上界 U_best 与最大对偶下界 L_best。任何已经取得的准确可行旧 CG 点及零步都可加入上界候选；加入候选不会恶化 U_best。若旧点只是满足浮点容差，不能把它冒称准确原始上界，见第9节。
 
 由原问题最优性、H 正定及(7)，
 
-\[
+$
  \|y_{\rm best}-x_*\|_H
        \le\sqrt{2(U_{\rm best}-L_{\rm best})}. \tag{17}
-\]
+$
 
 证明：可行方向最优性使
-\(\nabla f(x_*)^T(y_{\rm best}-x_*)\ge0\)；
+$\nabla f(x_*)^T(y_{\rm best}-x_*)\ge0$；
 二次函数准确展开给
-\(f(y_{\rm best})-f(x_*)\ge\frac12\|y_{\rm best}-x_*\|_H^2\)，
+$f(y_{\rm best})-f(x_*)\ge\frac12\|y_{\rm best}-x_*\|_H^2$，
 再用 L_best≤f(x_*)。这不需要 G 的全空间正定。
 
 ## 7. 完整原坐标与逐块构造
 
 原始步坐标一项不删。M×M 小矩阵由原完整 C 的**全部物理列**构造：
 
-\[
+$
  G=\frac1{\mu^2}\sum_B C_{:,B}C_{:,B}^T
        +\frac{cc^T}{1+\mu^2},\qquad
  c=C_{:,n+1}=-(\beta_1,\ldots,\beta_M)^T. \tag{18}
-\]
+$
 
 B 遍历物理坐标的无遗漏连续列块；最后的 slack 列只计一次。原 StreamedRows 的32768列块与 CommonSlackRows 的虚拟整行切片可直接表达该式，不复制整个2.27GB行缓存。
 
 由完整原矩阵重建
 
-\[
+$
  z_\lambda=-C_{\rm phys}^T\lambda/\mu^2,\qquad
  t_\lambda=(\beta^T\lambda-\tau_0)/(1+\mu^2). \tag{19}
-\]
+$
 
 最终再由原完整 C 读取 Cx_λ、Cy、全部 slack 和原物理 g+Az。小 G 用来寻找乘子；不能以 Gλ+r 冒充实际原矩阵最终读取，也不能因两者不一致而删除有问题的行。
 
@@ -286,10 +286,10 @@ B 遍历物理坐标的无遗漏连续列块；最后的 slack 列只计一次�
 
 设 S=diag(s_i)>0，同时把 C、b 换成 SC、Sb，令 \tildeλ=S^{-1}λ。则
 
-\[
+$
  \tilde G=SGS,\quad \tilde r=Sr,\quad
  (SC)^T\tildeλ=C^Tλ.
-\]
+$
 
 同一顺序下，(11)的坐标更新满足 \tildeλ_i^+=λ_i^+/s_i，故物理 x_λ、原始目标、对偶目标和(14)完全相同。每个 β_i 同时乘 s_i，(14)的比值也相同。
 

@@ -221,3 +221,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:19:32 UTC — 29的ba2b实际reach拒绝；半步4b4c仅开始
 
 29 ba2b全步真实几何最大reachg22.107165815378092且拒绝；当前bc818/accepted1不变。07:08:52Z新4b4c半步只trial-start，无自己统计/几何。原全对象、全部错误和未知保，未据clock或旧点补值。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`f3d75f64e0b1c7f745eee5f6934bf5c9e6039253`无变（非pull）。
+
+## 2026-11-28 07:25:05 UTC — 当前交接及已备31完整闭包
+
+重写H/open§7为当前真实状态，所有旧字/身份/失败/未知固定保c7aa1186，open§1–6原23359B/SHA1be136未动；记录31全source26/参数6/launch7整blob及预算、32独立R729接线、R728准确N/G14整包，均不冒actual。R729只将数学分隔符改根README要求的美元格式，命题/证明/实际数据不变。根规则仍无更新，云核至`492102aa8a54be4ec06f63d93d8e05f6726e4ac4`非pull；下轮继续完整31发布运行和真实返回。
