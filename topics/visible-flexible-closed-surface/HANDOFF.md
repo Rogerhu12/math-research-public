@@ -36,14 +36,6 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-live-stadium --> [R301 强形状上的真实正径向新度量](notes/2026-11-28-2ecf-scaled-stadium-new-positive-radial-metric.md)，64 个完整参数、全原行及独立新材料比较。 R301 真实空间冻结、64 个径向正目标参数重设，新 S 增 .00339061223，独立 metric .23973529→.15807610，近对与 held 的空间像完全同一。 连续厚度尚待，后续真实2400XYZ继续。
 
-<!-- 2ecf-r285-loop --> [R285](results/R285-elliptic-meridian-loops-close-the-true-infinite-second-mode.md) 支付真实全尾到中央的非刚性二次模闭合。回路总高可调，小幅真实图误差为正二次量，消去该项及强尺寸指标仍待。
-
-<!-- 2ecf-R284 --> [R284](results/R284-exact-unit-material-meridians-between-both-true-port-families.md)准确E=1、整角圈真实两端全部两jets，真弦长余量>.0881882；F/G、嵌入、厚度未付。与数值低曲率方向场有别。
-
-<!-- 2ecf-R280 --> [R280](results/R280-complete-R262-ambient-cuff-enlargement-and-new-fixed-target.md)同一R262整闭嵌入扩真cuff至.32、空间Jac>21/100；新g实际 .159、首轮943位置0接受。改用真实无限尾相似扩展与新外连接。
-
-<!-- 2ecf-R286 --> [R286](results/R286-actual-smooth-images-enforcing-both-strong-shape-ratios.md)两种端口开域恒等的真空间像保证整闭材料像两强比例；首图全七guide，次图球推。嵌入/reach/metric须新付。
-
 <!-- 2ecf-R290 --> [R290](results/R290-two-actual-released-core-nonlocal-reach-obstructions.md)排除两个原场；[R292](results/R292-raised-actual-core-versus-the-old-fixed-flat-cap.md)再排除升高.08但保旧帽的场，reach/D<47/2800。非局部核与帽点对都须支付。
 
 <!-- 2ecf-R293 --> [R293](results/R293-higher-complete-caps-and-reach-grafting-without-radial-protrusion-condition.md)实际较高整帽：新帽球由旧平盘法球并控制，最小双点变分补双向；无需高点ρ>.514。核reach≥.096且全高≤min(.635,Z+.13)即够原厚度，核metric/reach仍另付。
@@ -52,10 +44,14 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 ## 工作位置与接续
 
-公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong真单位材料速度/强几何完整位置，m12正解析中央/真Γ95与适配支撑平面，exact真实无限m2尾/新短前缀与非线性幅度；root整合全图几何、真实尾域与新输入；R280直推平台已转向保全无限尾的相似扩展。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
+**2026-11-28 14:34 UTC 执行环境失联，正在改用公开 Actions 继续计算。** 最近成功推送为 `097816fb574a0b21b6759bedfa60a623b3e34327`；R298 完整厚度证明已推 `26e4818cf52c2a4504a6a91a3c4e8bba6400ead7`。R302、R303、m12 V38/V39 的原冻结稿与实际系数留在失联环境，不能记作发布成功；现用小文本 GitHub API 恢复新版本源码、证明及计算入口，不冒称原字节。三代理仍为 Astra/ultra。R284–R286/R280 等已登记旧方向见 results/open 历史，不重做。
+
+公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前并行：strong 的 R302 真厚臂及完整法管；exact 的 R299 真383/H65端口到整闭面的实际XYZ修正；m12 的 R301 新正径向g、2400XYZ及真实回返层脉冲。root另启 R262 真小输入 eta=1/8192、全前缀XYZ+正g，已3实际步从9.19e−5到1.0548e−5，独立观察器因137未完成；需分批内存求值后继续，不算完成结论。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
 
 源恢复按各note配方，不算新研究。task_git_sync.py在每次推前literal pull且逐差读规则，task_git_rules.json保存锚。旧会话状态/失败另见[继承记录](notes/2026-11-28-2ecf-handoff-inherited-20261126.md)和[继承open](notes/2026-11-28-2ecf-open-inherited-history.md)。Hu2611.00534v1与Ghomi2611.17269已核，小幅/配对结论不代本题比例连续族。
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
 <!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:30:28 UTC；已读公开 main `a8bb8583083f13d9aaafb0366447b8e5911acc45`，根/课题 README 逐差无变化。
+
+执行环境失联期间的只读 API 同步（不冒称 literal pull）：2026-11-28 14:45 UTC，公开 `9f56e454673620c2b21ccc04c9f0a623db8596a0` 与私库 `a1ea9352be9cfdf32e217d18e3a149d1d2308fa6`；公开根/题及私根较最近已读锚均无变化。最新实际 pull 时刻仍为上两行；执行器恢复即补 literal pull。Actions 重建入口正在准备，尚未宣称启动。
