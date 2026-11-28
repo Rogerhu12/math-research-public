@@ -1,6 +1,6 @@
 # 原短厚纤维双图与完整多链：独立小软件核验
 
-会话Astra-rank2-Sha-0b097461-20261127；记录日期2026-11-28 UTC。**当前仅完成静态源码检查，本次公开执行尚未有实际run/job或PASS。** 完整主课题未完成；v17运行与源不改。
+会话Astra-rank2-Sha-0b097461-20261127；记录日期2026-11-28 UTC。**第一次实际运行在数学入口前的环境门失败；现修正Sage后线程初始化，仍未有本次软件PASS。** 完整主课题未完成；v17运行与源不改。
 
 ## 1. 本次实际来源与协议
 
@@ -20,6 +20,19 @@
 
 根在启动前读两仓库Actions API：公开in_progress total_count13/queued1，私库in_progress0/queued1；本题仅原v17为heavy，小软件采用独立并发组，低于根规则13的20上限。本次11新路径不匹配v17工作流路径，原所有下游端点/厚交/Norm/九pairs接受协议未改。
 
-## 3. 当前未付
+## 3. 首次启动前尚未支付的部分
 
-当前没有本次实际source/run/job绑定、43源消费日志、模型比较或软件PASS。即使小软件通过，也只付该小模型的实现，真实306几何、21总度厚纤维及完整下游仍须在原来源上实际返回；不从静态源预写生产结果。
+在首次启动之前，没有本次实际source/run/job绑定、43源消费日志、模型比较或软件PASS。即使小软件通过，也只付该小模型的实现，真实306几何、21总度厚纤维及完整下游仍须在原来源上实际返回；不从静态源预写生产结果。
+
+## 4. 第一次实际终态：Sage后环境门失败
+
+实际source552c8deb545839020f254715462828ef8951d963/run46144370977/job140977052249，2026-11-28 12:22:54 UTC创建。根与代理独立读取同一完整日志，25763B/SHA256 e26dbd4a1b211cbb91b465a956b3828495db371bb0c5ac926f1185160699197d。12:23:41.5171874Z的真实CONTRACT为5959B/SHA b832e1e988e5d656ef129fd65012a294a9a11be2ede5b0044c9a5395cc5b293a，含本次43host源绑定、实际4CPU/16GiB含swap、禁网RO、三线程配置4及无host凭据。
+
+12:23:41.9446915Z在execute的环境require报Incorrect isolated execution environment；零SELECTOR、零checker结果、零PUBLIC/HOST PASS。host随后missing PUBLIC是继发失败。job步骤1–3/清理success，步骤4failure，退出1。此失败未执行数学fixture，不是图/全多项式门失败。只保run/source/hash，不存可重算完整log。
+
+根实际读取[Sage固定10.6的sage-env](https://github.com/sagemath/sage/blob/10.6/src/bin/sage-env#L592-L600)，其无条件export OPENBLAS_NUM_THREADS=1，说明Docker配置值不等于Sage后值；第一轮没有打印后者，故不伪称已经观测其具体三值。
+
+## 5. 最小修复与第二次来源
+
+只修改host的execute入口：先打印三线程值、四个凭据键是否存在的布尔、NumPy是否已加载；从不打印凭据值。强制尚未导NumPy且无凭据，随后把三线程值恢复为已经inspect的4，再做原exact门、发真实RUNTIME回执，才进入原两个checker。host独立核此RUNTIME的完整JSON/SHA和PUBLIC相等。数学43源/request/workflow、所有案例与拒绝条件不改；原v17不改。
+修复host为15461B/SHA256 f51f71e3f9babf64b480fb1d18eee77aa9d9dbfcc7a7a5adf51f27b1c3660b8b；本次仍待实际source/run/job和完整软件结果。

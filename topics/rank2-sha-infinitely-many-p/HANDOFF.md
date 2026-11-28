@@ -11,11 +11,11 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 12:24:03 UTC实际pull --rebase，读取main 80d3b7a88c40eefff95016986447989cdcc26f99；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 12:23:57 UTC实际pull --rebase至1d94546570629ed24f8e4bf47e27d23aa75f0a57；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+本地blob:none/depth1/sparse-index工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
+- 公开2026-11-28 12:30:25 UTC实际pull --rebase，读取main 78431ea8c1989f7e47fb9bed4c02d9d572b7d1d4；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:30:20 UTC实际pull --rebase至7c0f08a789512045a2a6155f1dcacb214887b054；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3261/47009746B/treee8726106342c6bd8611fae6eaa9bd9088821157c；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3261/47016056B/tree63cb8002a9226fef4551630187248d7017f30bc2；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -24,7 +24,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 [R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原单RHS与完整LaurentX、post-ideal全X外门；极度2256/重建>4512。§9真A0有限U=1/P∞∈{1,2}/公共零长1416，单j键LRU窗≤1251846。§10–11全G13维1164、306行ρ≤13/Σρ3120，厚纤维总度21唯一返回两图及全部s饱和；完整多链保δ0尾/原二次域/双理想outer，一条X≤691866系数。仅静审，尚无新软件/306生产PASS。
 [软件PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113；7.582517183s，log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309。root/代理各核32pins/8比较/2外门篡改/2预算拒绝/真二次底素及转置；不代306生产。
-[新短图软件](notes/2026-11-28-original-short-global-graph-software.md)43pins/六新模块/两个checker已静审，独立420s/4CPU16GB/禁网RO，同容器8+14全图/非二项式域/厚π²及真拒绝待实际日志；未记PASS。
+[新短图软件](notes/2026-11-28-original-short-global-graph-software.md)43pins/六模块/两checker：source552c8deb/run46144370977/job140977052249已实际在Sage后环境门失败，数学零执行；全log25763B/e26dbd4a…。最小host修复在导NumPy前记录并恢复三线程4，保4CPU16GB/420s/禁网RO及全部8+14原图和拒绝门；待重跑，无PASS。
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44创建；11:30:17 root读1–3 success/4 in_progress，完整log未可读。76pins/72旧共享，数学体仅IMPLEMENTATION名变且host核原SHA；请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45，29/shadow/artinian/2453/batch64/minimal/preflightfalse、4CPU16GB21000s、Sage10.6/networknone/source只读/token仅host；两F/P及原四图/四交/八scalar/Norm18×9/九pairs/终门全留。尚无本次实际pins/F/P日志或PASS，不改部署。
 
 ## 原共同两/三位与十七同源：R1067

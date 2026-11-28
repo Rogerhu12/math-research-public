@@ -57,3 +57,13 @@ root手核原倒数不变环逐次消元、系数共轭固定、全部实旋分�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:23:46 UTC到ed1fc7be35a1cc60813d84c35d9f6e4fb2f5be0e，私库2026-11-28 12:23:41 UTC到4b6d5041ea6a0ee946b9dc89e68865d9ac32ccbd；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47009746B/treee8726106342c6bd8611fae6eaa9bd9088821157c，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:24:03 UTC到80d3b7a88c40eefff95016986447989cdcc26f99，私库2026-11-28 12:23:57 UTC到1d94546570629ed24f8e4bf47e27d23aa75f0a57；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47009746B/treee8726106342c6bd8611fae6eaa9bd9088821157c，无>5MB。
+
+## 2026-11-28 12:26:01 UTC — 原短图软件的实际环境失败与最小启动修复
+
+根/代理各读run46144370977/job140977052249全log25763B/e26dbd4a1b211cbb91b465a956b3828495db371bb0c5ac926f1185160699197d。真实CONTRACT已核43host源与Docker4CPU16GB/禁网RO，随后Sage后环境require失败，零数学fixture。根亲读固定10.6官方sage-env明确覆写OpenBLAS=1；只在导NumPy前记录白名单/凭据键布尔并恢复原三线程4，再保原exact门，host全量核新runtime回执。43数学pins/request/workflow全部逐字未变，原v17不改。上一R1073固定实域证书已实推552e7dca2b960a56c57a456b0ce89ba6c690670a（12:24:08 UTC），一次非FF立即双pull成功，四README未变。
+
+2026-11-28 12:29:33 UTC补记：本条首次发布在私库实际pull的index.lock写入发生Out of diskspace，尚未推送，未将失败记成pull成功。保留两工作树和当前提交，实际对既有稀疏检出reapply --sparse-index：私库索引74MB降至193KB，公开12MB降至701KB，两个status均净；不删正文/历史/其它目录。现在再次按原流程实际双pull、检查四README/QUEUE并推。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:30:11 UTC到8739245af42bc6ea5929bd7b28f492d86dd4a5e7，私库2026-11-28 12:30:02 UTC到6f66661bfb19a6b1a0dda252aed1e82330ab1435；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47016056B/tree63cb8002a9226fef4551630187248d7017f30bc2，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:30:25 UTC到78431ea8c1989f7e47fb9bed4c02d9d572b7d1d4，私库2026-11-28 12:30:20 UTC到7c0f08a789512045a2a6155f1dcacb214887b054；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3261/47016056B/tree63cb8002a9226fef4551630187248d7017f30bc2，无>5MB。

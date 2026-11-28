@@ -157,8 +157,24 @@ def checker_record(name, marker, stream):
 
 def execute():
     binding = source_binding()
+    # Sage 10.6 sage-env resets OPENBLAS_NUM_THREADS to 1. Restore the
+    # already inspected four-thread request before importing either fixture.
+    # Record only this allowlist; never print values of credential variables.
+    before = dict(thread_counts={t: os.environ.get(t) for t in THREADS},
+                  credential_keys_present={t: t in os.environ for t in CREDENTIALS},
+                  numpy_preloaded="numpy" in sys.modules)
+    print(PREFIX + "_RUNTIME_BEFORE " + encode(before).decode(), flush=True)
+    require(not before["numpy_preloaded"] and
+            not any(before["credential_keys_present"].values()),
+            "The numerical backend was already loaded or host credentials entered the container")
+    for thread in THREADS:
+        os.environ[thread] = "4"
+    runtime = dict(before=before, thread_counts={t: os.environ.get(t) for t in THREADS},
+                   numpy_preloaded="numpy" in sys.modules,
+                   credential_keys_present={t: t in os.environ for t in CREDENTIALS})
     require(all(os.environ.get(t) == "4" for t in THREADS) and
             all(t not in os.environ for t in CREDENTIALS), "Incorrect isolated execution environment")
+    emit(PREFIX + "_RUNTIME", runtime)
     print(PREFIX + "_SELECTOR " + encode(binding).decode(), flush=True)
     records = []
     started = time.monotonic()
@@ -176,7 +192,7 @@ def execute():
         require(data.endswith(b"\n"), "Incomplete checker output")
         records.append(checker_record(name, marker, data))
     require(binding == source_binding(), "Software sources changed within the two-checker execution")
-    emit(PREFIX + "_PUBLIC", dict(binding=binding, checkers=records, status="PASS",
+    emit(PREFIX + "_PUBLIC", dict(binding=binding, runtime=runtime, checkers=records, status="PASS",
         elapsed_seconds=time.monotonic() - started, same_container=True, time_budget_seconds=420,
         cpu_limit=4, memory_limit_gib=16, swap_inclusive_limit_gib=16,
         original_rank306_geometry_executed=False, heavy_producer_executed=False))
@@ -225,6 +241,14 @@ def host_after():
             (envelope["time_budget_seconds"], envelope["cpu_limit"], envelope["memory_limit_gib"],
              envelope["swap_inclusive_limit_gib"]) == (420, 4, 16, 16),
             "Host and container returned different source or resource bindings")
+    runtime, runtime_hash, runtime_bytes = receipt_from(stream, PREFIX + "_RUNTIME")
+    require(runtime == envelope["runtime"] and
+            unique_line(stream.splitlines(), PREFIX + "_RUNTIME_BEFORE") == encode(runtime["before"]) and
+            runtime["numpy_preloaded"] is False and runtime["before"]["numpy_preloaded"] is False and
+            not any(runtime["credential_keys_present"].values()) and
+            not any(runtime["before"]["credential_keys_present"].values()) and
+            runtime["thread_counts"] == {t: "4" for t in THREADS},
+            "The actual before-import thread restoration or credential boundary changed")
     rows = []
     for name, marker in CHECKS:
         begin = (PREFIX + "_BEGIN " + name + "\n").encode()
@@ -241,6 +265,7 @@ def host_after():
     emit(PREFIX + "_HOST", dict(status="PASS", docker_id=docker_id, container_exit_code=int(status),
         source=binding["source"], run_id=binding["run_id"], run_attempt=binding["run_attempt"],
         complete_attached_stream_bytes=len(stream), complete_attached_stream_sha256=digest(stream),
+        runtime_result_bytes=runtime_bytes, runtime_result_sha256=runtime_hash,
         public_result_bytes=size, public_result_sha256=hashed, verified_source_count=len(binding["source_file_sha256"]),
         complete_fixture_result_sha256=[r["fixture_result_sha256"] for r in rows],
         complete_checker_output_sha256=[r["checker_output_sha256"] for r in rows]))
