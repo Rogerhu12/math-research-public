@@ -72,23 +72,27 @@
   "child_pid": 2744,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 48,
-    "utc": "2026-11-28T11:47:58Z",
+    "ordinal": 57,
+    "utc": "2026-11-28T11:48:58Z",
     "original": {
-      "event": "objective",
-      "evaluations": 13,
-      "rms_scaled": 0.04851263708936209,
-      "gram_max": 0.45909604086652384
+      "event": "completed_stage",
+      "stage": 7,
+      "design": "tilt44-geometric",
+      "nfev": 110,
+      "x_sha256": "f0fc7ab6fdbfeeaf18090b9a27bad1c1fee88bf5fbdb586492ce73a8337eda2c",
+      "gram": 2.17427627577303,
+      "curvature": 57.85981285612486,
+      "rank": 3.488968727571863
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run36-bent-disk-46141466656-1/field/summary.json",
-      "bytes": 14935,
-      "sha256": "d7510bb5edad9ee37dc830493e196d6f4e6bb4940dfabf55a9b3b933c61d7ad9"
+      "bytes": 19068,
+      "sha256": "ee4a781d8fd5a530335acc78543ade26ac6c3ae89edaedb5a044a9fc619063d1"
     },
     "complete_small_json": {
-      "elapsed_seconds": 48.91491092300001,
+      "elapsed_seconds": 116.093390497,
       "frozen_material_target": {
         "angular_count": 384,
         "description": "Per-span degree-ten Chebyshev-Lobatto interpolation of shared angular mean Gram. Fixed through both subsequent resolutions; no phase interpolation.",
@@ -100,17 +104,8 @@
         "source_stage": 5,
         "source_x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17"
       },
-      "in_progress": {
-        "actual_objective_call": 1,
-        "configuration": "fixed-resolution-2",
-        "design": "tilt44-geometric",
-        "observed_best_cost": 0.004489050497404095,
-        "shape": [
-          1012
-        ],
-        "stage": 7,
-        "x_sha256": "3404190926a2d4c9f71dd2c026ed6625e28effc70ac0de3bdc25c44694e9ef7a"
-      },
+      "last_stage": 7,
+      "last_x_sha256": "f0fc7ab6fdbfeeaf18090b9a27bad1c1fee88bf5fbdb586492ce73a8337eda2c",
       "numpy": "2.3.5",
       "params_sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
       "python": "3.12.14",
@@ -690,6 +685,32 @@
           "njev": 50,
           "optimality": 1.1365277513324772e-07,
           "ranking_score": 2.4819018022375623,
+          "sampled_closed_phases": [
+            {
+              "cloud_points": 2829,
+              "phase": 0,
+              "sample_Hausdorff_from_phase0": 0.0,
+              "sample_diameter": 2.6656133812081015,
+              "sample_two_sided_chord_inverse_reach_max": 24.738227951846135,
+              "witness_to_sample_cloud": 0.0050000000000000044
+            },
+            {
+              "cloud_points": 2829,
+              "phase": 1.5707963267948966,
+              "sample_Hausdorff_from_phase0": 0.7532576741377236,
+              "sample_diameter": 2.6656133812081015,
+              "sample_two_sided_chord_inverse_reach_max": 24.738227951846135,
+              "witness_to_sample_cloud": 0.4714896334121223
+            },
+            {
+              "cloud_points": 2829,
+              "phase": 3.141592653589793,
+              "sample_Hausdorff_from_phase0": 0.7967745190706531,
+              "sample_diameter": 2.6656133812081015,
+              "sample_two_sided_chord_inverse_reach_max": 24.73822795184613,
+              "witness_to_sample_cloud": 0.5974697916097654
+            }
+          ],
           "solver_message": "`ftol` termination condition is satisfied.",
           "source_x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949",
           "stage": 5,
@@ -790,6 +811,32 @@
           "njev": 79,
           "optimality": 6.744738153398352e-08,
           "ranking_score": 2.9215066838768387,
+          "sampled_closed_phases": [
+            {
+              "cloud_points": 2829,
+              "phase": 0,
+              "sample_Hausdorff_from_phase0": 0.0,
+              "sample_diameter": 2.6065838296292165,
+              "sample_two_sided_chord_inverse_reach_max": 9406.728295509925,
+              "witness_to_sample_cloud": 0.0050000000000000044
+            },
+            {
+              "cloud_points": 2829,
+              "phase": 1.5707963267948966,
+              "sample_Hausdorff_from_phase0": 0.7410397173206973,
+              "sample_diameter": 2.6065838296292165,
+              "sample_two_sided_chord_inverse_reach_max": 9406.728295509925,
+              "witness_to_sample_cloud": 0.4714896334121223
+            },
+            {
+              "cloud_points": 2829,
+              "phase": 3.141592653589793,
+              "sample_Hausdorff_from_phase0": 0.8605258654666177,
+              "sample_diameter": 2.6065838296292165,
+              "sample_two_sided_chord_inverse_reach_max": 9406.728295509925,
+              "witness_to_sample_cloud": 0.5974697916097654
+            }
+          ],
           "solver_message": "`ftol` termination condition is satisfied.",
           "source_x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17",
           "stage": 6,
@@ -820,8 +867,135 @@
           "x_shape": [
             416
           ]
+        },
+        {
+          "component_shapes": [
+            [
+              17,
+              21
+            ],
+            [
+              17,
+              20
+            ],
+            [
+              15,
+              21
+            ]
+          ],
+          "configuration": {
+            "angular": 104,
+            "check_angular": 216,
+            "check_radial": 119,
+            "id": "fixed-resolution-2",
+            "lsmr_iterations": 175,
+            "max_evaluations": 110,
+            "mode": 20,
+            "radial": 57,
+            "regularizer": 2e-07,
+            "spans": 16
+          },
+          "cost": 0.0010198255970516592,
+          "curve_witness": [
+            0.4612092139544516,
+            0.0,
+            0.9162092139544515
+          ],
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "fixed_angular_target": true,
+          "fixed_angular_target_sha256": "36f695b3ca7574625285b092be3fb18dd01634c279fcbade086c3283234728ef",
+          "independent_grid": {
+            "angular_target_min": 0.8074064601168902,
+            "gram_components": [
+              0.264537015296051,
+              1.3855491370666964,
+              2.645825880907461
+            ],
+            "gram_max": 2.17427627577303,
+            "gram_rms": 0.07928566170966847,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.886640673023818,
+            "origin_radius_sample_max": 1.3534481431577565,
+            "samples": [
+              119,
+              216
+            ],
+            "shoulder_K_abs_sample_max": 57.85981285612486
+          },
+          "jacobian_adjoint_abs": 2.42861286636753e-17,
+          "jacobian_fd_relative": 9.585874137738301e-10,
+          "nfev": 110,
+          "njev": 101,
+          "optimality": 6.0693502415500895e-06,
+          "ranking_score": 3.488968727571863,
+          "sampled_closed_phases": [
+            {
+              "cloud_points": 2829,
+              "phase": 0,
+              "sample_Hausdorff_from_phase0": 0.0,
+              "sample_diameter": 2.603771699503747,
+              "sample_two_sided_chord_inverse_reach_max": 33.8479533409451,
+              "witness_to_sample_cloud": 0.0050000000000000044
+            },
+            {
+              "cloud_points": 2829,
+              "phase": 1.5707963267948966,
+              "sample_Hausdorff_from_phase0": 0.7435685446871443,
+              "sample_diameter": 2.603771699503747,
+              "sample_two_sided_chord_inverse_reach_max": 33.8479533409451,
+              "witness_to_sample_cloud": 0.467235131666846
+            },
+            {
+              "cloud_points": 2829,
+              "phase": 3.141592653589793,
+              "sample_Hausdorff_from_phase0": 0.843374250704318,
+              "sample_diameter": 2.603771699503747,
+              "sample_two_sided_chord_inverse_reach_max": 33.8479533409451,
+              "witness_to_sample_cloud": 0.5974697916097654
+            }
+          ],
+          "solver_message": "The maximum number of function evaluations is exceeded.",
+          "source_x_sha256": "49ceed91cea6a6234cb527cea67bc84cfc7d5cc39128639c81b5187579f53536",
+          "stage": 7,
+          "stage_seconds": 65.140003745,
+          "start_x_sha256": "3404190926a2d4c9f71dd2c026ed6625e28effc70ac0de3bdc25c44694e9ef7a",
+          "termination": 0,
+          "train": {
+            "angular_target_min": 0.8074064601168902,
+            "gram_components": [
+              0.24705886865047466,
+              0.3470593056555249,
+              0.3543743152859642
+            ],
+            "gram_max": 0.4024210181444946,
+            "gram_rms": 0.03395340940243652,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.8867996489581449,
+            "origin_radius_sample_max": 1.3513212963990326,
+            "samples": [
+              57,
+              104
+            ],
+            "shoulder_K_abs_sample_max": 36.807366840048765
+          },
+          "witness_separation_from_lower_halfspace_if_upper_nonnegative": 1.0253890160580146,
+          "witness_to_comparison_shoulder_samples": 0.8035997871425974,
+          "x_sha256": "f0fc7ab6fdbfeeaf18090b9a27bad1c1fee88bf5fbdb586492ce73a8337eda2c",
+          "x_shape": [
+            1012
+          ]
         }
-      ]
+      ],
+      "status": "completed_finite_design_and_two_fixed_target_resolutions"
     }
   },
   "whole_runner_field_files": null,
@@ -852,6 +1026,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T11:47:04Z",
-  "observed_utc": "2026-11-28T11:48:01Z",
-  "original_scalar_line_count": 48
+  "observed_utc": "2026-11-28T11:49:00Z",
+  "original_scalar_line_count": 57
 }
