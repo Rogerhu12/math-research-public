@@ -1,0 +1,176 @@
+{
+  "status": "same_actual_width012_full_cut_prefix_continuous_metric_geometry_certified",
+  "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "source_kind": "original_design_raw_candidate_height",
+  "homotopy": 0.002,
+  "modes": 24,
+  "mean_nodes": 1168,
+  "geometry_bundle": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+  },
+  "complete_tail_mode_counts": {
+    "planar": 170,
+    "height": 25
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric_durable_v2.py",
+    "sha256": "d0c6f2ecbe86cf7a1995398344cf61cb7c1fa8ec087ba7e06c138c8cb6bb4144"
+  },
+  "summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b/summary.json",
+    "sha256": "39ac427fb4cfcfcd0803cf3f49af1d0c631e9e665067e8ca586cbff942a4a97c"
+  },
+  "actual_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b-process.json",
+    "sha256": "70811cb561ba1d0ae8e83df3d215540e51e2a8aaff7b08962b2a699773e9c028"
+  },
+  "actual_child_returncode": 0,
+  "actual_parent_exit_observed": 0,
+  "actual_wall_seconds": 47.82934183600082,
+  "child_peak_RSS_KiB": 251500,
+  "actual_argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric_durable_v2.py",
+    "--tables",
+    "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-metric-tables-20261128-v1/summary.json",
+    "--geometry-bundle",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "--base-metric",
+    "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-continuous-metric-20261128-v1/summary.json",
+    "--base-geometry",
+    "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-interval-20261128-v2/summary.json",
+    "--base-curvature",
+    "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-interval-20261128-v2/exact-curvature-budget.json",
+    "--cut-width",
+    "0.12",
+    "--outdir",
+    "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b"
+  ],
+  "cut_width_exact": "1080863910568919/9007199254740992",
+  "full_range": [
+    "0",
+    "6418844109525009/4503599627370496"
+  ],
+  "new_cut_range": [
+    "11756824308481099/9007199254740992",
+    "6418844109525009/4503599627370496"
+  ],
+  "exact_metric_upper": "1168706763786513/1180591620717411303424",
+  "strict_rational_metric_upper": "99/100000000",
+  "aggregate_geometry_bounds": {
+    "support_lower": 0.6445099883604929,
+    "radius_upper": 1.1900082155194167,
+    "area_lower": 0.29747502207979754
+  },
+  "curvature_target_exact": "123/10",
+  "new_cut_curvature_PSD_minima": {
+    "curvature_psd_diagonal_lower": 1.0810501511540749,
+    "curvature_psd_determinant_lower": 11.707486852660708
+  },
+  "new_cut_accepted_leaves": 82,
+  "actual_enclose_attempts": 97,
+  "actual_splits": 15,
+  "complete_cut_leaf_data": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b/complete-cut-leaves.jsonl",
+    "sha256": "2ed2e440f88f3f24610ceb4f9c63da014a7b2ebd06293374b5760dafbb9ff924"
+  },
+  "cut_definition": {
+    "R_exact": "5404319552844595/18014398509481984",
+    "w_exact": "5764607523034235/72057594037927936",
+    "wR_exact": "-8070450532247929/4323455642275676",
+    "ap_definition": "-(1+w*w)^(-1/2)",
+    "app_definition": "-w*wR/(1+w*w)^2",
+    "finite_mean_height_at_cut_exact": "7630983381811369/9007199254740992",
+    "tail_mean_value_cancelled_exactly": true,
+    "tail_mean_derivatives_retained": true,
+    "ap_interval": [
+      -0.9968152785361256,
+      -0.9968152785361245
+    ],
+    "app_interval": [
+      0.14744006140246652,
+      0.147440061402467
+    ],
+    "prefix_planar_modes": 65,
+    "tail_planar_modes": 170,
+    "union_planar_modes": 170,
+    "prefix_height_modes": 25,
+    "tail_height_modes": 25,
+    "union_height_modes": 25,
+    "cut_width_exact": "1080863910568919/9007199254740992",
+    "cut_start_exact": "11756824308481099/9007199254740992",
+    "prefix_end_exact": "6418844109525009/4503599627370496",
+    "correction": "sum_j (-L)^j H_j((end-s)/L) Delta_j(psi)",
+    "zero_extension": "s <= end-L",
+    "all_original_tail_modes_retained": true,
+    "full_height_identity_checked": true,
+    "tail_near_cut_reparameterization_certified": false
+  },
+  "actual_complete_cut_angular_data": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b/complete-cut-angular-tables.npz",
+    "sha256": "e23caa4f019b075e3577e228afc4ab111ae5996289fb2f38dd4261f73ac8f6a8"
+  },
+  "inherited_metric": {
+    "source": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-continuous-metric-20261128-v1/summary.json",
+    "source_sha256": "b762fae9126112612ad2078f1222f4616f0607deec06a4f87d5bb9c5aa143646",
+    "full_leaf_data_sha256": "5be33b76c7f0f00eec32b535f4cbf8cd43835187ea71659da9a21b3a59540514",
+    "full_old_cover_checked_exactly": true,
+    "inherited_radial_range": [
+      "0",
+      "11756824308481099/9007199254740992"
+    ],
+    "overlapping_old_leaf_count": 1386,
+    "metric_upper_exact": "1168706763786513/1180591620717411303424",
+    "correction_identically_zero_on_this_closed_complement": true
+  },
+  "inherited_geometry": {
+    "source": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-interval-20261128-v2/summary.json",
+    "source_sha256": "afc6d7b3f2688aea7d38b9a90805f65fd54983c61b9a5df8d9705dd0904f8bf4",
+    "rational_curvature_source": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-interval-20261128-v2/exact-curvature-budget.json",
+    "rational_curvature_sha256": "50d041d0ed889a6f5117f67b20d0181581ec3de2b75ef77dc19975eaf370b737",
+    "all_original_defining_arrays_checked": [
+      "knots",
+      "jets",
+      "lift_jets",
+      "planar_modes",
+      "height_modes",
+      "source_initial",
+      "E0",
+      "Epp",
+      "q",
+      "center_width"
+    ],
+    "curvature_exact": "123/10",
+    "inherited_radial_range": [
+      "0",
+      "11756824308481099/9007199254740992"
+    ],
+    "bounds": {
+      "support_lower": 0.6445099883604929,
+      "radius_upper": 1.1900082155194167,
+      "area_lower": 0.29747502207979754
+    },
+    "exact_curvature_comes_from_rational_postprocessor": true,
+    "correction_identically_zero_on_this_closed_complement": true
+  },
+  "root_exact_cover_and_source_verification": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/new-prefix-width012-full-cut-root-verification-20261128.json",
+    "sha256": "8f785feef05c9c7cf7e0fe51829aeda640a0c1973cff0e81e2a991f8ac11a578"
+  },
+  "earlier_real_loading_interruption": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-process.json",
+    "sha256": "885111338229449d80b8e73dd7f6452939c49816cc056860c1d289db932ecbee"
+  },
+  "earlier_child_returncode": -9,
+  "earlier_saved_accepted_leaves": 0,
+  "unchanged_target_and_gates": true,
+  "old_width004_or_width001_leaves_inherited": false,
+  "all_phase_prefix_bounds": true,
+  "near_cut_radius_identity_already_paid": true,
+  "whole_tail_continuous_bounds_claimed": false,
+  "eight_outer_final_physical_H_claimed": false,
+  "lambda1_or_held_set_claimed": false,
+  "whole_closed_surface_completed": false
+}
