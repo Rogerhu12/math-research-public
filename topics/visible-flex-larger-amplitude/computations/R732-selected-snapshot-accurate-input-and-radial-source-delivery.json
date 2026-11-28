@@ -1,0 +1,90 @@
+{
+  "schema": "R732-selected-snapshot-accurate-input-and-radial-source-delivery-v1",
+  "files": [
+    {
+      "role": "complete accurate input reader of the selected immutable reference and original normal, source, point and all staged arrays",
+      "name": "fixed_fejer_r732_accurate_normal_packet_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r732_accurate_normal_packet_input.py",
+      "bytes": 50593,
+      "sha256": "f6a88767b04a383a4036659bf2343d582f79c1f77bdc4102e79c79b55fa1f76a",
+      "git_blob_sha": "69e65a06e804b75ace3ee2ecf8ffc7a270b12d78"
+    },
+    {
+      "role": "complete accurate material reference, actual terminal scalar and prefix errors, original free SO3, normal controls and physical sixjet integration",
+      "name": "fixed_fejer_r732_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r732_accurate_reference_control_radial_boxes.py",
+      "bytes": 45439,
+      "sha256": "e3c925c8c051b01573b5528a5dd71743b0fe896d2517d2be04936e2a5883fa1b",
+      "git_blob_sha": "a276901601d7502403dda548ed9ff11fefb8cbc7"
+    }
+  ],
+  "total_source_bytes": 96032,
+  "independent_accurate_kernel_package": {
+    "role": "whole accurate reference kernel and costs manifest",
+    "name": "R732-accurate-rounded-end-and-central-arclength-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/R732-accurate-rounded-end-and-central-arclength-source-delivery.json",
+    "bytes": 6619,
+    "sha256": "d52dcc9b8353e029f55b101917435ec8c5dda6a4e6b01e42c22728ebaa26de86",
+    "git_blob_sha": "061021aee6e5855d6edd0305a7eaf6da86988e8d"
+  },
+  "scientific_source_package": {
+    "role": "complete_scientific_source_delivery",
+    "name": "fixed-fejer-r732-R729-complete-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-complete-source-delivery.json",
+    "bytes": 36718,
+    "sha256": "7ac0fac5bed253862db708c87892c9908a87ba31a6ceab01460e7a1ce5da3902",
+    "git_blob_sha": "069f2d0267355893ac69334d8e845a19c59a0358"
+  },
+  "scientific_source_binding": {
+    "role": "complete_runtime_and_source_binding",
+    "name": "fixed-fejer-r732-R729-current-runtime-binding.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-current-runtime-binding.json",
+    "bytes": 66334,
+    "sha256": "425a1c0f484de848fdc66396623bc8e434b92bcfaf07216b49149a7324e7a195",
+    "git_blob_sha": "ba50a6fa07a086964c2c99c9fb2580c702427915"
+  },
+  "physical_source_package": {
+    "role": "manifest",
+    "name": "R732-rounded-end-physical-reference-complete-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/R732-rounded-end-physical-reference-complete-source-delivery.json",
+    "bytes": 5728,
+    "sha256": "dc6d1cd219ef024554b67af00a1906a995c1080a8e4f949d8ce25e637321fe43",
+    "git_blob_sha": "62f424335dec5a2e7ef3e26c5e68deafdbf0fda8"
+  },
+  "previous_complete_algorithm_sources_used_in_construction": [
+    {
+      "role": "protected R730 prior algorithm, no runtime import or publication claim",
+      "name": "fixed_fejer_r730_normal_packet_accurate_field_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r730_normal_packet_accurate_field_input.py",
+      "bytes": 44695,
+      "sha256": "1c7940bb60877fc80ca7a72b425469c5e457ab797ef3008109027e62646caef9",
+      "git_blob_sha": "c3babf655de89f2fd7083562dabc15e8ee18baf9"
+    },
+    {
+      "role": "protected R730 prior algorithm, no runtime import or publication claim",
+      "name": "fixed_fejer_r730_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r730_accurate_reference_control_radial_boxes.py",
+      "bytes": 41174,
+      "sha256": "a36552db758973e87204e814a64fe142aa481621fcf32b05758ef10e359209ea",
+      "git_blob_sha": "c19067514babf73f57a93905551d19e06c61de20"
+    }
+  ],
+  "scope": {
+    "selected_input": "default requires the immutable snapshot selected by the public report hook with equal cache and outer point; an explicitly requested historical snapshot consumes its own complete immutable metadata and angle packets and does not imply acceptance",
+    "complete_actual_original_roles": 139,
+    "physical_arrays": "all original rule, angle, length-root, prefix, control and model members plus frozen central length, terminal and blend partitions and both complete primitive-prefix arrays",
+    "corrected_scope": "all 1333370 original free parameters, all original 922 SO3 cells, literal Q/gamma, 32 normal stages and three-tower tangent integrals/physical sixjets",
+    "new_actual_comparisons": "each of ten observed terminal scalar words and every component of both saved primitive-prefix arrays at its unrounded binary64 argument receives a signed exact difference box and absolute upper bound",
+    "uncertain_joins": "all five symbolic cuts stay in the interval producer; entire closed original leaves are split/hulled with the full R732 exact scalar enclosures",
+    "original_metric": "complete old scalar considered separately from R732 tangent; reference-only terminal Gram does not impose any additional outer constraint",
+    "strict_replays": "shared identities of original complete sources, selected report and raw files, actual scalar, chart, seed, point and targets; mutable diagnostics never fill selected data",
+    "actual_execution": "public GitHub Actions only; no science, AST or fixtures used in preparation"
+  },
+  "remaining": "the successor full normal/leaf/geometry/closed-moment/mesh source consumer chain must bind these exact new sources and the R690/R732 proof pair",
+  "actual_publication_commit": null,
+  "actual_run_id": null,
+  "actual_point": null,
+  "actual_model": null,
+  "actual_selected_snapshot": null,
+  "actual_geometry_result": null
+}
