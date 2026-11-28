@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-free-f-t-original-NP-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-N1-exact-six-by-two-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [正确Phi的N1单一新斜率与精确六×二原呈示](results/R150-appendix-unit211-Phi-zero-corrected-N1-slope-and-exact-six-by-two-model.md)：fd9实际1.946327612秒/0，唯一新G(18,10)/136项；其余因子为已付−L/−Mn。UABG补图精确原理想，无λ逆，全部头零保。首派整B0新有理图。
 
 - [自由f/t的完整原低weighted NP恒等式](results/R150-appendix-unit211-unrestricted-f-and-t-original-low-weighted-NP-identities.md)：8自由量真Gram与六完整零差，12ms/855整数乘法；两个η商和原jet完整返回。Loww保NS/PS同点信息，Lowλ冗余不计新增条件；无η/t/新头逆。
 
@@ -67,5 +69,3 @@
 - [同P快速整函数逆源及全部原旗的最大闭分式场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)：明确>4次系数衰减支付实际级数；同Q归一dyadic幂与Jensen/Poisson付所有非零分子全旗quasi。最大图本身作为原旗支付真实参数核心、自然和积闭包、同循环空间；忠实场由零阶奇偶排平方根，场外来源仍开。
 
 - [Phi原paid行列内容与完整729维整权模型](results/R150-appendix-unit211-Phi-zero-original-paid-contents-and-complete-integral-weight-model-729.md)：d457实际8.488759866秒/0，全484身份/924除返；U_u60/Q32/总64，真QQ及固定模均729。37块保全部重数；282/291/156只作实际模块分类，不删除QQ分量。
-
-- [同一正锥分母的定量全逆与逐个固定来源的严格超四次费](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)：新连续块qν=256ν²，原收缩强积/同强*单位/全旗重付；log||C^−rP||≤Kr⁴exp(300log(2+r)^(2/3))，每个非零平坦p完整log||C^−rp||/r⁴→∞，双log幂指数精确4。尚无分数根来源。

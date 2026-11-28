@@ -1,0 +1,87 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "runID": 46110462941,
+  "jobID": 140872622742,
+  "elapsed_seconds": 1.9463276120000046,
+  "max_child_rss_kib": 75596,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "7b4089933991daf22ec0261fa2510ca07aecb069",
+      "before": "7b4089933991daf22ec0261fa2510ca07aecb069",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T05:05:14.045582+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46110462941",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "7b4089933991daf22ec0261fa2510ca07aecb069",
+  "source_exit_code": 0,
+  "source_git_blob": "fd9d3d01d4f036cd2e6c9fa07bd31d3f41bd6824",
+  "source_sha256": "ca5334ebeee6b671156c473349cfc7acfc49adc7007f5c214ebd8fc22aa4024d",
+  "stdout_bytes": 4044,
+  "stdout_sha256": "1749086af8ef304ec81a76f3c38659addd9857c17bbf698b0f2de0e211ba0c4e",
+  "stop_reason": null,
+  "mathematicalResults": {
+    "completeThreeMeanRulesReturned": true,
+    "fullN1OriginalTraceReturned": true,
+    "originalN1Degrees": [
+      2,
+      1,
+      1
+    ],
+    "slopeIdentity": "Delta=2*(u-1)*L*Mn*G/((1-Q)*K*A*B^2)",
+    "onlyNewSlopeFactor": {
+      "degrees": [
+        18,
+        10
+      ],
+      "terms": 136,
+      "SHA256": "e51ea8f50e4ba032d936bb77a05f36c79af8c7eb23b62ca63eaf15b73a117a1c"
+    },
+    "degree42FactorIsAlreadyPaidNegativeMn": true,
+    "centeredMonicQuadraticLambdaDegrees": [
+      2,
+      2,
+      0
+    ],
+    "exactSixRowsLambdaDegrees": [
+      [
+        4,
+        4
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        6,
+        6
+      ]
+    ],
+    "completeOriginalFourEquationIdealPresented": true,
+    "denominatorDivisionsReturned": 90,
+    "everyUnpaidABOrGZeroFiberRetained": true,
+    "noModuleFreenessAssumed": true,
+    "noPhysicalDInverted": true,
+    "originalPhiExcluded": false,
+    "ordinaryISPClaim": false
+  }
+}
