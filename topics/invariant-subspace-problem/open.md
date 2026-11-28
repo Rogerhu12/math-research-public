@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-original-M-fourteenth-583-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-dual-germ-mean-correction-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -194,13 +194,13 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
-### Phi：整 H1 已闭，转全图首头三生成与原值层
+### Phi：纠正原均值平方，从真实原式重建
 
-原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
+[原定义更正及依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先于旧闭合标签：二重点的平方一次坐标应为2d0d1，旧compact用了d1²。真正Rbar=旧Rbar+2uQ jn−jn²，jn=Q(2f−V−(1−ell)u)；0956345全七变量整数源20ms、11完整零差已返。
 
-[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2、维数≤1成。[五因子完整583](results/R150-appendix-unit211-Phi-zero-original-M-exact-fourteenth-factor-and-complete-583-model.md)：真u⁴/u1³⁰/φT¹⁴/φell²¹/Mn¹⁴，LC564；cbf三轮rank14/17/21付Mn恰14并恢复全参数零。u1/T/ell三失败门冻，模余9/2/每根4与头坏126保，0965系数门无1冻。[NP/完整V五次](results/R150-appendix-unit211-Phi-zero-original-individual-NP-and-full-V-fifth-degree-lift-and-fifteen-generator-cover.md)付C5补图15生成，零集保。整H42权≤23268/三头同零≤798的λ纤维、D0及余最高支继续。
+旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-[整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
+当前从真Rbar及同一个原Gram重新建立必要条件，所有尚未独立支付的头与权零面均保留；不重播错误旧门。W正确原链和十三单位均已静态核实，Haar/R271不依赖此处代数。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
