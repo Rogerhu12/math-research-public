@@ -47,3 +47,7 @@
 ## 2026-11-28 11:02:32 UTC — 35完整圆肩新参考实际公开启动
 
 完整7件启动包现刊；新增 .github/workflows/visible-larger-20261128-parallel35.yml（课题外，为本题独立完整新参考求解）。请求/parent均35；两个原完整输入新runner重算，原6/26参数原字保，全science162词由157内词+正常build包装构成。360分钟/21000秒、全变量/32stage/M160/J923/N2048/原预算和错误全部保持，90808整队后自然返再接74162整pure，未冒科学结果。 双README云核至`dd3eff70a36443229b76901467d4ccd5091c3d42`无变（非pull）。
+
+## 2026-11-28 11:07:29 UTC — RET100F：早期原selector及闭合queue副本完整再生
+
+四旧run01 selector档47项完整原step.summary与run10旧已返整queue副本皆由五独立固定原queue逐字重现，原metadata/envelope及完整身份保；5旧生成档145034B退库，3整再生源20203B，净124831B。六批合计净1561811B（不计H/log追加），没有改原请求/队列/科学程序或任何真实字段。 双README云核至`3deee59a97590d5b1e1a0380b43f120a9292de86`无变（非pull）。
