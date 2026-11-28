@@ -1,0 +1,990 @@
+{
+  "scope": "Actual three complete M24 frozen-stage replays and cache kernel cost; no actual M24 GMRES iteration count or accepted cached nonlinear tail",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_native_cached_period13_m24.py",
+    "sha256": "d988211a6d81b18c121311cbe2acb73481178b7a33c6b3f1bf3b412fc757d448"
+  },
+  "actual_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-period13-cost-m24-20261128-b/summary.json",
+    "sha256": "97f4517b0095db0f1a51166e92377dd9b5c30224be7d8fac437e944fab7ffccb"
+  },
+  "motivating_M16_algebra_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/colored-period13-preconditioner-m16-20261128-a/summary.json",
+    "sha256": "738d1587652cf8979b5d7de04a3b533ffc906ea0dfb1d2cacd4a5f7f36faa0e6"
+  },
+  "candidate_build": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/build.json",
+    "sha256": "50d30d8c76c3b940e102d37ccdc7c0f08b8199591d438d6cad2f31da3ba349ba"
+  },
+  "actual_native_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs/0003-jac-record.json",
+    "sha256": "42654e86fd4bf4ae76e17f3111f36223af27fbad17cdbb4ed1c8a97d068ee1ee"
+  },
+  "actual_native_input": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs/0003-jac-input.bin",
+    "sha256": "7d4bf2b049626b7e0d181349fdcfe3f061ac77cf2ae37f79f5afe85feddca628"
+  },
+  "actual_native_output": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-runs/0003-jac-output.bin",
+    "sha256": "15713e9a0c7b44dc3aa42e1c0ce05576110413d8cd91c457e7be16e22431b67f"
+  },
+  "M": 24,
+  "N": 512,
+  "stages": [
+    {
+      "stage": 0,
+      "original_state_J_binary64_bytes_identical": true,
+      "cached_state_binary64_identical": true,
+      "original_full_J_kernel_seconds": 1.132746848,
+      "cache_build_kernel_seconds": 0.594974379,
+      "color26_kernel_seconds": 0.508237443,
+      "thirteen_single_kernel_seconds": 0.690587544,
+      "total_cache_kernel_seconds": 1.793799366,
+      "original_full_J_wall_seconds": 1.133271953998701,
+      "total_cache_wall_seconds": 1.8253332279982715,
+      "cache_payload_native_bytes": 383776,
+      "all_applications_root_calls_and_updates_unchanged": true,
+      "all_strict_comparisons_passed": false,
+      "maximum_componentwise_product_scaled_discrepancy": 7.36700276610907e-08,
+      "maximum_global_product_scaled_discrepancy": 2.952288565833781e-19,
+      "applications": [
+        {
+          "label": "colored26",
+          "complete_input_directions": 26,
+          "wall_seconds": 0.5084168570010661,
+          "kernel_seconds": 0.508237443,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.4551915228366852e-11,
+          "maximum_componentwise_absolute_product_scaled_difference": 7.36700276610907e-08,
+          "canonical80_sha256": "766d86921ef73bb40c8ba0bd5cf3e6c628f6592ae3f3cbf7de1636e78cb365e5",
+          "binary64_sha256": "84d53cb5b50ff1556e46095b87562042028260d6d9e4e9b74306fc794c3da671",
+          "largest_relative_discrepancy_location": [
+            48,
+            12
+          ],
+          "largest_relative_discrepancy_actual": "4.537022651963322405e-21",
+          "largest_relative_discrepancy_expected": "4.5370223177207627595e-21",
+          "largest_relative_discrepancy_absolute_product": "4.5370223177207627595e-21",
+          "strict_1e12_componentwise_comparison_passed": false,
+          "global_absolute_product_scaled_difference": 1.9616752329305277e-19
+        },
+        {
+          "label": "single_01",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.053970795999703114,
+          "kernel_seconds": 0.053622591,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 7.275957614183426e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.092355619369246e-19,
+          "canonical80_sha256": "62a1bde724f79299f413dc1998d637d732ccf0c48cca3f1b4fea5aa5af810e1f",
+          "binary64_sha256": "467ae78ba0825a987e511b19bf52e62651f317f45dd5c478756e97b9a0e625b6",
+          "largest_relative_discrepancy_location": [
+            40,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-16933516.065692184171",
+          "largest_relative_discrepancy_expected": "-16933516.065692184178",
+          "largest_relative_discrepancy_absolute_product": "17779387.450460299366",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.0848626686493053e-19
+        },
+        {
+          "label": "single_02",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.05466569499913021,
+          "kernel_seconds": 0.053721579,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 7.275957614183426e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 5.70958289091226e-19,
+          "canonical80_sha256": "2986c72cc3ab4719cc675565a1601132e165715bc90a1cf7f5353021ef5a10ac",
+          "binary64_sha256": "d2f2afa974a3124613bd100fbed0936aea10128c4608ef0f40e50830858e6c81",
+          "largest_relative_discrepancy_location": [
+            48,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "8.304556186070730004e-10",
+          "largest_relative_discrepancy_expected": "8.304556186070729982e-10",
+          "largest_relative_discrepancy_absolute_product": "3.802283376292935403e-09",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.5101611337487007e-19
+        },
+        {
+          "label": "single_03",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.08313202199860825,
+          "kernel_seconds": 0.080354215,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.0913936421275139e-11,
+          "maximum_componentwise_absolute_product_scaled_difference": 7.201517202830649e-19,
+          "canonical80_sha256": "85a115fe834e93f4412a1b0de865c09e9b7d7d549689f46487473f99745ab702",
+          "binary64_sha256": "33b1463a927e786c821ce0189d136a9c12ce84184c69991804f91917e96fee0b",
+          "largest_relative_discrepancy_location": [
+            5,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.26346266621416312992",
+          "largest_relative_discrepancy_expected": "0.26346266621416312973",
+          "largest_relative_discrepancy_absolute_product": "0.26346584315647450319",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 2.2788359238809104e-19
+        },
+        {
+          "label": "single_04",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.0716844159996981,
+          "kernel_seconds": 0.06401704,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 7.275957614183426e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 5.103870955946177e-19,
+          "canonical80_sha256": "7bdf36b54a034f5c4a2b5c087c6ef2024f577d26389013da437c9cade7d1c2a5",
+          "binary64_sha256": "9b463ba2092372ddc91e1bc7df3ade49ef7a0ce4f6abb30b3a1df70941e53578",
+          "largest_relative_discrepancy_location": [
+            16,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.6369900778162756507",
+          "largest_relative_discrepancy_expected": "-0.63699007781627565105",
+          "largest_relative_discrepancy_absolute_product": "0.6372822795739223258",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.2385127451403324e-19
+        },
+        {
+          "label": "single_05",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.09386486099901958,
+          "kernel_seconds": 0.077585872,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 7.275957614183426e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 5.858196699172984e-19,
+          "canonical80_sha256": "0ada90e23db98a99c23410559f1ccabea973fb336f1eacdd449dc76761f5d9e2",
+          "binary64_sha256": "e16390db42906c31eedeb668e3c3803316cca5ab82c491b3951dcb6a1697eec6",
+          "largest_relative_discrepancy_location": [
+            48,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "3.1013884244673537269e-09",
+          "largest_relative_discrepancy_expected": "3.101388424467353725e-09",
+          "largest_relative_discrepancy_absolute_product": "3.1025512098045413366e-09",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 9.780947860348924e-20
+        },
+        {
+          "label": "single_06",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.053994131998479133,
+          "kernel_seconds": 0.05160564,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.0913936421275139e-11,
+          "maximum_componentwise_absolute_product_scaled_difference": 5.494463218836179e-18,
+          "canonical80_sha256": "8cc9de7e2f5783807937d969cc36e25a64d00384e780bbd01998e39f6902800a",
+          "binary64_sha256": "d02dda0d7c5d980d3f7bd6dd838e30e8396688664830b3002e5d79bf59f46bbc",
+          "largest_relative_discrepancy_location": [
+            48,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-1.4035481530747464846e-10",
+          "largest_relative_discrepancy_expected": "-1.4035481530747464473e-10",
+          "largest_relative_discrepancy_absolute_product": "6.776682861172852252e-10",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.7610297983085622e-19
+        },
+        {
+          "label": "single_07",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04582659500010777,
+          "kernel_seconds": 0.045527363,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.4551915228366852e-11,
+          "maximum_componentwise_absolute_product_scaled_difference": 5.125503270003774e-19,
+          "canonical80_sha256": "dd9f641ff69b2a606aadb4eb54fae5cde832ff122f2c0487e5c39997364b4b64",
+          "binary64_sha256": "dfe25cd16487b1f89ea3245d02d95c1149bebae70d0212b657b47f8c5f675c38",
+          "largest_relative_discrepancy_location": [
+            7,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.1321719779797932963",
+          "largest_relative_discrepancy_expected": "0.13217197797979329636",
+          "largest_relative_discrepancy_absolute_product": "0.13220679455403827203",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 2.952288565833781e-19
+        },
+        {
+          "label": "single_08",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.043686541001079604,
+          "kernel_seconds": 0.043633152,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.0913936421275139e-11,
+          "maximum_componentwise_absolute_product_scaled_difference": 1.4511754163742866e-18,
+          "canonical80_sha256": "fd10e4a9ef6256e3e7fdb4b6417ab51c9aaa4cc7de4299d872ec4d7f11d509c2",
+          "binary64_sha256": "5ed7d49da7658ccb1e4994661d4bef72bdd02eaff8e6bbaba447f2b13cd535bf",
+          "largest_relative_discrepancy_location": [
+            48,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "2.7824916548198477652e-09",
+          "largest_relative_discrepancy_expected": "2.7824916548198477611e-09",
+          "largest_relative_discrepancy_absolute_product": "2.7832388759884085995e-09",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 2.757470712908287e-19
+        },
+        {
+          "label": "single_09",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04718182800024806,
+          "kernel_seconds": 0.047123262,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 5.4569682106375694e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 6.811703338671821e-19,
+          "canonical80_sha256": "eb3400951e7ee9c92d31ff4ce4784d3c37fc5cf6f6eb8ee2b0d50bd69bfc4e9f",
+          "binary64_sha256": "506803f8fdc328915a33c0d4715ec5f177176741e69267ac1671db7d36e78098",
+          "largest_relative_discrepancy_location": [
+            25,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "26.315615149800160174",
+          "largest_relative_discrepancy_expected": "26.315615149800160243",
+          "largest_relative_discrepancy_absolute_product": "101.867235827980242464",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.7080616583239635e-19
+        },
+        {
+          "label": "single_10",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04175095000027795,
+          "kernel_seconds": 0.041694246,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 3.637978807091713e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.992784872343923e-19,
+          "canonical80_sha256": "8eb37754aa690b18f4b279406364f30b2a9d448a5baebe4518594326475380a8",
+          "binary64_sha256": "6c8ae39cfa7bcb7a825107bd9b3a3151ebb1ce7fd0b5f5db5bec623e4d5cc630",
+          "largest_relative_discrepancy_location": [
+            7,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.86845312533648610307",
+          "largest_relative_discrepancy_expected": "0.8684531253364861035",
+          "largest_relative_discrepancy_absolute_product": "0.86861517185819596686",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.1014165947245667e-19
+        },
+        {
+          "label": "single_11",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.042840890999286785,
+          "kernel_seconds": 0.04279355,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 2.7284841053187847e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.710213543274304e-19,
+          "canonical80_sha256": "dcbc06d8763471582a8a7dae21e0c7dd8dae2dfbf8fe0a8d3b1f5861eb43bfbb",
+          "binary64_sha256": "57c1132464d0fcafa55e7c38e64504de32c057c5ab74808b77776160cc7ad38f",
+          "largest_relative_discrepancy_location": [
+            6,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.021450117738973873098",
+          "largest_relative_discrepancy_expected": "-0.021450117738973873088",
+          "largest_relative_discrepancy_absolute_product": "0.021579478878543214437",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 7.151742087569898e-20
+        },
+        {
+          "label": "single_12",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04497695900136023,
+          "kernel_seconds": 0.044906505,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 5.4569682106375694e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 3.856014003790166e-19,
+          "canonical80_sha256": "6721989912338c6b5638d6b97bcb0a28897c2dfc97cf3f45c73bf5770e735867",
+          "binary64_sha256": "911fec2bfb97cb30821760dcaed418a4d49cb61150bba0156853bb4b6cf24744",
+          "largest_relative_discrepancy_location": [
+            15,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.2808861274821267888",
+          "largest_relative_discrepancy_expected": "-0.28088612748212678891",
+          "largest_relative_discrepancy_absolute_product": "0.2811717414459119936",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 2.217324460486677e-19
+        },
+        {
+          "label": "single_13",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04409523499998613,
+          "kernel_seconds": 0.044002529,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 7.275957614183426e-12,
+          "maximum_componentwise_absolute_product_scaled_difference": 6.419788148504562e-19,
+          "canonical80_sha256": "9a9cc46f7b4408943229bf8807f8e383a55a8ac07c1da800d66e28577ab4a2b6",
+          "binary64_sha256": "397ab07ada8385d67c978f109d42f57ce11d12f81a9eab064efee486daef22b8",
+          "largest_relative_discrepancy_location": [
+            7,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.37989782667731613236",
+          "largest_relative_discrepancy_expected": "0.3798978266773161326",
+          "largest_relative_discrepancy_absolute_product": "0.37998993606364352005",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.6207966155415797e-19
+        }
+      ]
+    },
+    {
+      "stage": 86,
+      "original_state_J_binary64_bytes_identical": true,
+      "cached_state_binary64_identical": true,
+      "original_full_J_kernel_seconds": 1.122270884,
+      "cache_build_kernel_seconds": 0.429783752,
+      "color26_kernel_seconds": 0.458447396,
+      "thirteen_single_kernel_seconds": 0.606394604,
+      "total_cache_kernel_seconds": 1.4946257520000001,
+      "original_full_J_wall_seconds": 1.1234956850003073,
+      "total_cache_wall_seconds": 1.5028885459978483,
+      "cache_payload_native_bytes": 383776,
+      "all_applications_root_calls_and_updates_unchanged": true,
+      "all_strict_comparisons_passed": false,
+      "maximum_componentwise_product_scaled_discrepancy": 6.084372020177384e-12,
+      "maximum_global_product_scaled_discrepancy": 2.2110841927546718e-17,
+      "applications": [
+        {
+          "label": "colored26",
+          "complete_input_directions": 26,
+          "wall_seconds": 0.458510380000007,
+          "kernel_seconds": 0.458447396,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.955777406692505e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 6.084372020177384e-12,
+          "canonical80_sha256": "fa9fdd1304875ad5ca98867cf070ddb35a7a1359bd9bd70c0f4f1a80c3496850",
+          "binary64_sha256": "3d7a68d17c69982ce5797748d0cd14b5529938370633057819bb0851f05c89c2",
+          "largest_relative_discrepancy_location": [
+            24,
+            12
+          ],
+          "largest_relative_discrepancy_actual": "-8.02753137803324936e-05",
+          "largest_relative_discrepancy_expected": "-8.027531377984406873e-05",
+          "largest_relative_discrepancy_absolute_product": "8.027531377984406873e-05",
+          "strict_1e12_componentwise_comparison_passed": false,
+          "global_absolute_product_scaled_difference": 7.836824824018125e-18
+        },
+        {
+          "label": "single_01",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.0671907240011933,
+          "kernel_seconds": 0.065382582,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 4.819594323635101e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 5.65834338836099e-17,
+          "canonical80_sha256": "7ed4172fe7d7b35430fccc92731fd90dc7bf4c92392e4a64e635f6a8250557cb",
+          "binary64_sha256": "7822c95f3fb8cfedc82b6cf57279de1c2083b5b7f86b0d560954c6ca5f414b6c",
+          "largest_relative_discrepancy_location": [
+            42,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-151975204.77966763708",
+          "largest_relative_discrepancy_expected": "-151975204.77966764725",
+          "largest_relative_discrepancy_absolute_product": "179766197.39182736477",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 2.1726754387256146e-17
+        },
+        {
+          "label": "single_02",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04936322600042331,
+          "kernel_seconds": 0.047853603,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 8.149072527885437e-09,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.4082663055646105e-17,
+          "canonical80_sha256": "dc26e75dac08c3670554a0e809ba1b041b0050595f6afa569451a959c8e05632",
+          "binary64_sha256": "cbb4982688c0f8a1064907898ab329329dd6b74d1389c27984e2a0905e1eec04",
+          "largest_relative_discrepancy_location": [
+            42,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "158987930.40416801142",
+          "largest_relative_discrepancy_expected": "158987930.4041680191",
+          "largest_relative_discrepancy_absolute_product": "174295532.71041792452",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 4.900848949008466e-18
+        },
+        {
+          "label": "single_03",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.06211276599970006,
+          "kernel_seconds": 0.05999804,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 6.097252480685711e-09,
+          "maximum_componentwise_absolute_product_scaled_difference": 2.4589379826117344e-17,
+          "canonical80_sha256": "ed16033e0bbe5ce56b9d820cd926f76d00bb5c09b6960eced142b515112d1e43",
+          "binary64_sha256": "4ee88eff8b01a19833163e17cf57c16b6ad12c5ffd01ac62196fc0c34751821c",
+          "largest_relative_discrepancy_location": [
+            47,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-245497119.1039076959",
+          "largest_relative_discrepancy_expected": "-245497119.1039076898",
+          "largest_relative_discrepancy_absolute_product": "247962841.0233258408",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 3.5296635695006024e-18
+        },
+        {
+          "label": "single_04",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.05114256599881628,
+          "kernel_seconds": 0.049144943,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 2.6426278054714203e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 2.4127015877350183e-17,
+          "canonical80_sha256": "311ca775090fdd47292c7b3ccde04a5a0f3a9b4381504eacadf57d112dbfcc73",
+          "binary64_sha256": "6b3cf8279766b0eb0b547e0ab39973023583a87ac2f20f4fa04fe3aa6617e657",
+          "largest_relative_discrepancy_location": [
+            42,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-122274304.40078606477",
+          "largest_relative_discrepancy_expected": "-122274304.400786067825",
+          "largest_relative_discrepancy_absolute_product": "126658937.578179349875",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.2530581258751559e-17
+        },
+        {
+          "label": "single_05",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.047238583998478134,
+          "kernel_seconds": 0.047030758,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 3.795139491558075e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 7.49376929672233e-17,
+          "canonical80_sha256": "5c216a883c5eaf5e73859109653f8fcc1eac41eeec3f7a7d39c28410241ddc8d",
+          "binary64_sha256": "cea87209696c271d051581aa812b938ac5ced97a1abce37867a10030122060d0",
+          "largest_relative_discrepancy_location": [
+            42,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-73563110.44502897661",
+          "largest_relative_discrepancy_expected": "-73563110.44502898223",
+          "largest_relative_discrepancy_absolute_product": "74956127.627339956896",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.552621642824444e-17
+        },
+        {
+          "label": "single_06",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04195538299973123,
+          "kernel_seconds": 0.041903156,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 4.959292709827423e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 3.523964559327108e-17,
+          "canonical80_sha256": "d23a64476e8f5334a41fd451b1a52cab2fff61142d3d519fb18c074a4aec371b",
+          "binary64_sha256": "967618ce5f74f260f45e90a5d0fe2c012d74ead6a26f57ef4bd16b95f43dffeb",
+          "largest_relative_discrepancy_location": [
+            42,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "185270761.25046953387",
+          "largest_relative_discrepancy_expected": "185270761.25046954046",
+          "largest_relative_discrepancy_absolute_product": "187062539.57641709576",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 2.2110841927546718e-17
+        },
+        {
+          "label": "single_07",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04423239000061585,
+          "kernel_seconds": 0.044180353,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 2.4097971618175507e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 6.533206026060293e-17,
+          "canonical80_sha256": "d104d7346a59f1fd6aa1ce9aa3343f6e6a4731969c3ed4d8251c1db24d41c01e",
+          "binary64_sha256": "5dca293c41a476664dcb4feb53ce695e89b857a7798508dbf66aa4329169eb02",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.23345919508347509912",
+          "largest_relative_discrepancy_expected": "0.23345919508347507838",
+          "largest_relative_discrepancy_absolute_product": "0.31738424390833548764",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.3629731743410121e-17
+        },
+        {
+          "label": "single_08",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.042164401998888934,
+          "kernel_seconds": 0.042105275,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 7.450580596923828e-09,
+          "maximum_componentwise_absolute_product_scaled_difference": 1.0132366415391227e-16,
+          "canonical80_sha256": "0f6abc5851ca911af7c0ee9e89d67930169f171c6508c09d3f9371d127f4c0a2",
+          "binary64_sha256": "82b3659eaecb85f07700ebae259a86505eedf6858652c156218a08f5293945c3",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.63639950803572049366",
+          "largest_relative_discrepancy_expected": "0.63639950803572042183",
+          "largest_relative_discrepancy_absolute_product": "0.7089004777606166051",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 5.341397936615424e-18
+        },
+        {
+          "label": "single_09",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.041568300999642815,
+          "kernel_seconds": 0.041518317,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.414446160197258e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 8.199613164893779e-17,
+          "canonical80_sha256": "4f32c9aa1c70561b2ca7dae24561fd0bd239597d12af754bb01bcb26a5a5fc33",
+          "binary64_sha256": "d4dc529be8ec31b64d634691c507cf7e21970e8f9afeea8ff22e597e2a3c4462",
+          "largest_relative_discrepancy_location": [
+            42,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-155686520.04452614777",
+          "largest_relative_discrepancy_expected": "-155686520.04452616058",
+          "largest_relative_discrepancy_absolute_product": "156174262.656556907",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.2446613996235752e-17
+        },
+        {
+          "label": "single_10",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04174946800048929,
+          "kernel_seconds": 0.041701157,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.0593794286251068e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 1.022284321320579e-16,
+          "canonical80_sha256": "ad45c52afd50b104e758821c23b9bb8501f5e3aac31fe8d022cd1b4ad2b4635c",
+          "binary64_sha256": "24207f23ab194abc6e52e26ab390e3a3d144a27a44d001d8aab0c0e6c036a69a",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.48096651577028521588",
+          "largest_relative_discrepancy_expected": "-0.4809665157702851427",
+          "largest_relative_discrepancy_absolute_product": "0.7158834887366117499",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 8.93060322801829e-18
+        },
+        {
+          "label": "single_11",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.0421087799986708,
+          "kernel_seconds": 0.04206175,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 6.752088665962219e-09,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.8349855325675623e-17,
+          "canonical80_sha256": "e1e80505eede1cba27ccb38fbd0d7c28d129973bb5e422a6ba69029fca56f38a",
+          "binary64_sha256": "7e8740e36d9832ab8fa21df33dfa3f968ae81a83a26310bff2b3a254aeec41b5",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.3093369669685348876",
+          "largest_relative_discrepancy_expected": "-0.30933696696853486488",
+          "largest_relative_discrepancy_absolute_product": "0.46978497372068235414",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 6.011731844186582e-18
+        },
+        {
+          "label": "single_12",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04198912300125812,
+          "kernel_seconds": 0.041925058,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 1.1030351743102074e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 6.817745979642041e-17,
+          "canonical80_sha256": "b1db2e00bf5ba93b9222fa2c7e4335d5fb5618a0fe66190cfeb9f256924604bf",
+          "binary64_sha256": "985d70a45f777283649f6cc278ed3c11efcfc9fbf70d0085438e90f68a773233",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.5683853845462768445",
+          "largest_relative_discrepancy_expected": "-0.5683853845462767923",
+          "largest_relative_discrepancy_absolute_product": "0.76571252083988583184",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.5865880645474045e-17
+        },
+        {
+          "label": "single_13",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.041640247000032105,
+          "kernel_seconds": 0.041589612,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 2.270098775625229e-08,
+          "maximum_componentwise_absolute_product_scaled_difference": 3.1751436006320723e-17,
+          "canonical80_sha256": "dfbadeb00460603160135ae39825064b38f0065cfe87e5215ad4fa0c5118dab0",
+          "binary64_sha256": "c77a70aa3ac01e04f9b078ab4bea7e9c930f71198932bd0efae40a790c199f5c",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.26930093672293434887",
+          "largest_relative_discrepancy_expected": "0.26930093672293433708",
+          "largest_relative_discrepancy_absolute_product": "0.3713437912991620191",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.517035679066119e-17
+        }
+      ]
+    },
+    {
+      "stage": 1151,
+      "original_state_J_binary64_bytes_identical": true,
+      "cached_state_binary64_identical": true,
+      "original_full_J_kernel_seconds": 0.634783698,
+      "cache_build_kernel_seconds": 0.205822888,
+      "color26_kernel_seconds": 0.419536946,
+      "thirteen_single_kernel_seconds": 0.7040757360000001,
+      "total_cache_kernel_seconds": 1.32943557,
+      "original_full_J_wall_seconds": 0.6349034939994453,
+      "total_cache_wall_seconds": 1.3352397510006995,
+      "cache_payload_native_bytes": 383776,
+      "all_applications_root_calls_and_updates_unchanged": true,
+      "all_strict_comparisons_passed": false,
+      "maximum_componentwise_product_scaled_discrepancy": 0.00032638901124399923,
+      "maximum_global_product_scaled_discrepancy": 2.1039830270271778e-19,
+      "applications": [
+        {
+          "label": "colored26",
+          "complete_input_directions": 26,
+          "wall_seconds": 0.41961730399998487,
+          "kernel_seconds": 0.419536946,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 4.336808689942018e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 0.00032638901124399923,
+          "canonical80_sha256": "9218115c97a0874da444974d84509a1c7435684313d2564829ca27b20bac0d72",
+          "binary64_sha256": "5ccfa5ea3525104cfa4d18ecf2306814ce3a005b7a54edb894672fd210ce94ca",
+          "largest_relative_discrepancy_location": [
+            2,
+            6
+          ],
+          "largest_relative_discrepancy_actual": "-2.1130228060323570083e-46",
+          "largest_relative_discrepancy_expected": "-2.150740855307044745e-46",
+          "largest_relative_discrepancy_absolute_product": "1.155616395629532654e-44",
+          "strict_1e12_componentwise_comparison_passed": false,
+          "global_absolute_product_scaled_difference": 8.682930443272993e-20
+        },
+        {
+          "label": "single_01",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.041560298999684164,
+          "kernel_seconds": 0.04150008,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 4.336808689942018e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 2.9016273924290274e-19,
+          "canonical80_sha256": "4d694b8e6aac99f1bc5a014129cc8e6798515ad7c1a144693e9a51329d6ec96b",
+          "binary64_sha256": "eb7e9e3d404271d4235d54057ef9a0ee9f7e2a92e469b6f02f2cfbd91bc461f8",
+          "largest_relative_discrepancy_location": [
+            36,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.49991029084136693868",
+          "largest_relative_discrepancy_expected": "-0.49991029084136693852",
+          "largest_relative_discrepancy_absolute_product": "0.56047970286317023097",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 8.178085200280145e-20
+        },
+        {
+          "label": "single_02",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04185317199880956,
+          "kernel_seconds": 0.041795647,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 2.981555974335137e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 3.9989563091120026e-19,
+          "canonical80_sha256": "7368785eaa6528b472ef6d04271360823cd1f454b018c0a32e28b77c4e4c9969",
+          "binary64_sha256": "dfecd4a18b3a955eda27f6934ae5a747cf3ce8364cb62cc14c9b7caf2dbdbcf9",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.6778032120625115162",
+          "largest_relative_discrepancy_expected": "-0.67780321206251151645",
+          "largest_relative_discrepancy_absolute_product": "0.67780321206251151645",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 9.129224705909116e-20
+        },
+        {
+          "label": "single_03",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04151899800126557,
+          "kernel_seconds": 0.041478368,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 4.336808689942018e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 2.9406568464321e-19,
+          "canonical80_sha256": "ec218861d1952aeedf18a126b9caf14eaf6dde7a44220f27aeed64ec125e1982",
+          "binary64_sha256": "188bc5d5bbe8f04f4b94432abc6f8bd510a56bb4c0e24f549fac4527a545e330",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.23043367288012697477",
+          "largest_relative_discrepancy_expected": "-0.23043367288012697484",
+          "largest_relative_discrepancy_absolute_product": "0.23043367288012697484",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.0863400598908905e-19
+        },
+        {
+          "label": "single_04",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.0414356740002404,
+          "kernel_seconds": 0.041399862,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 4.336808689942018e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.291253130422332e-19,
+          "canonical80_sha256": "01798e77b95612d140684ad3290fd646b24c700a58de6ac7c27341ebc94216d6",
+          "binary64_sha256": "b79344921f80e61d858e55d49e49d8295993db9ffd8c1c57e36476008e5fbad4",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.031578966121226118883",
+          "largest_relative_discrepancy_expected": "0.031578966121226118896",
+          "largest_relative_discrepancy_absolute_product": "0.031581747205704938072",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.0344769264859164e-19
+        },
+        {
+          "label": "single_05",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04131596800107218,
+          "kernel_seconds": 0.041274898,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 8.673617379884035e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 2.4385329363757446e-19,
+          "canonical80_sha256": "cfe98924f2117a39f9d60d2033dabd82ae402355e5ab84d2a9764bbb0e77305b",
+          "binary64_sha256": "d2b191eb0570c5217697406406d7438149364d1e640d4a11c77a5d663a651646",
+          "largest_relative_discrepancy_location": [
+            21,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.6669177608868679207",
+          "largest_relative_discrepancy_expected": "-0.66691776088686792055",
+          "largest_relative_discrepancy_absolute_product": "0.666918717589822865",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.7005720361656402e-19
+        },
+        {
+          "label": "single_06",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04168236899931799,
+          "kernel_seconds": 0.041638143,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 8.673617379884035e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 2.8349860542834656e-19,
+          "canonical80_sha256": "876e4cb746026783568b2f1afc240d0fd561c245b9b1fc03d837f11a9020c81d",
+          "binary64_sha256": "d97ed68330aa46bf90c03770149f4e1548174adc2c00fd48a79d198e9744ec1d",
+          "largest_relative_discrepancy_location": [
+            20,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.09560912749882409011",
+          "largest_relative_discrepancy_expected": "0.09560912749882409014",
+          "largest_relative_discrepancy_absolute_product": "0.09560912749882409014",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 2.1039830270271778e-19
+        },
+        {
+          "label": "single_07",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04139633600061643,
+          "kernel_seconds": 0.041342507,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 4.336808689942018e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.198361622307026e-19,
+          "canonical80_sha256": "bb49d2d49976fba48b5b733a905447ae0544c5b483438798197e8a1296a771e5",
+          "binary64_sha256": "e04f78c4d8ea1ab767d12d511e24e376d78c79cc0365511d7eb0bcf13ca60adf",
+          "largest_relative_discrepancy_location": [
+            17,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "-0.38736616924260873254",
+          "largest_relative_discrepancy_expected": "-0.3873661692426087327",
+          "largest_relative_discrepancy_absolute_product": "0.3873661692426087327",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.0496664642913204e-19
+        },
+        {
+          "label": "single_08",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.0420552100003988,
+          "kernel_seconds": 0.042017294,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 3.2526065174565133e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 3.0556851933946397e-19,
+          "canonical80_sha256": "496e2637c935c3bbcc74be2d36a029295fb6b4d0f12352378f618f8ece9a5146",
+          "binary64_sha256": "893ab47f451a090dad70ed657283c095d8c6386155fd9bf16453857f785a4ca6",
+          "largest_relative_discrepancy_location": [
+            8,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.70962949640832356904",
+          "largest_relative_discrepancy_expected": "0.7096294964083235688",
+          "largest_relative_discrepancy_absolute_product": "0.7096294964083235688",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.1148943620727157e-19
+        },
+        {
+          "label": "single_09",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.04291943899988837,
+          "kernel_seconds": 0.04287271,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 3.2526065174565133e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.499761537264053e-19,
+          "canonical80_sha256": "cb519d22a559f3f618f9e7ce1d303e5ac803d162ed9ff1c3c91f79af8b4f4949",
+          "binary64_sha256": "42918e2c3c0e63ca5c3bde9704ec634ab1b9093a6e867d8a39d1e6d92b930829",
+          "largest_relative_discrepancy_location": [
+            13,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.36141987642240310785",
+          "largest_relative_discrepancy_expected": "0.361419876422403108",
+          "largest_relative_discrepancy_absolute_product": "0.361419876422403108",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.323834425361459e-19
+        },
+        {
+          "label": "single_10",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.09261612699992838,
+          "kernel_seconds": 0.090772401,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 2.168404344971009e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 2.8690306686583405e-19,
+          "canonical80_sha256": "40689e6481e84fa3b05a977a31d11952c6a45a9391389b2cc06353ad588c99e5",
+          "binary64_sha256": "f0e858464485572047d362ea78f7e9aabbb407cf13a7ebd87aec8ae9c8dedc7a",
+          "largest_relative_discrepancy_location": [
+            8,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.7557964153042004332",
+          "largest_relative_discrepancy_expected": "0.755796415304200433",
+          "largest_relative_discrepancy_absolute_product": "0.7557968510615576423",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 8.925806354554775e-20
+        },
+        {
+          "label": "single_11",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.06576323000081175,
+          "kernel_seconds": 0.064727849,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 2.710505431213761e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 3.613105713757855e-19,
+          "canonical80_sha256": "6415c9a1350c48c85b61b4205d7ad5ed8e61ec60a4d7dcde7993b8025e0ac91a",
+          "binary64_sha256": "b679a1fcabcd6b92550f7271e46fc9f82adc1044a2533b2348d1aabb925dd2b3",
+          "largest_relative_discrepancy_location": [
+            13,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.15003641772941988882",
+          "largest_relative_discrepancy_expected": "0.15003641772941988888",
+          "largest_relative_discrepancy_absolute_product": "0.15003742740727430538",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.0129287898652108e-19
+        },
+        {
+          "label": "single_12",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.08657697899980121,
+          "kernel_seconds": 0.085677188,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 3.2526065174565133e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 3.4506377647337943e-19,
+          "canonical80_sha256": "896696896e2c5958af6af1d08d09c6ff5551b453f0b6b2b523f23644b334edef",
+          "binary64_sha256": "e5b59a294c2ad46e03ff53bdc183e72ee16dcbbc866b88a2055962ef759bf930",
+          "largest_relative_discrepancy_location": [
+            14,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.6284068316682015399",
+          "largest_relative_discrepancy_expected": "0.62840683166820154014",
+          "largest_relative_discrepancy_absolute_product": "0.62840683166820154014",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.5140644795243346e-19
+        },
+        {
+          "label": "single_13",
+          "complete_input_directions": 1,
+          "wall_seconds": 0.08896438800002215,
+          "kernel_seconds": 0.087578789,
+          "root_calls_unchanged": true,
+          "root_updates_unchanged": true,
+          "maximum_absolute_difference_from_full_native_J_product": 6.505213034913027e-19,
+          "maximum_componentwise_absolute_product_scaled_difference": 4.1997672046340423e-19,
+          "canonical80_sha256": "f0f943ed61a6f990e45965d20958d1b6076155f0744464f9b977e0ee9ab83d09",
+          "binary64_sha256": "d9762a77bbbaff823e27b446dc178b380694d58ccdeefee96153429de0495560",
+          "largest_relative_discrepancy_location": [
+            2,
+            0
+          ],
+          "largest_relative_discrepancy_actual": "0.25815768342806973248",
+          "largest_relative_discrepancy_expected": "0.2581576834280697326",
+          "largest_relative_discrepancy_absolute_product": "0.2581576834280697326",
+          "strict_1e12_componentwise_comparison_passed": true,
+          "global_absolute_product_scaled_difference": 1.666317809938461e-19
+        }
+      ]
+    }
+  ],
+  "total_original_full_J_kernel_seconds": 2.88980143,
+  "total_cache_build_plus26_colors_plus13_single_kernel_seconds": 4.617860688,
+  "observed_cache_to_fullJ_kernel_ratio": 1.5979854671191025,
+  "resource_peak_self_maxrss_kib": 67596,
+  "all_strict_1e12_componentwise_comparisons_passed": false,
+  "sampled_cost_improved": false,
+  "thirteen_single_inputs_are_deterministic_cost_probes_not_actual_M24_GMRES": true,
+  "whole_batch_solver_run": false,
+  "production_source_or_kernel_changed": false,
+  "candidate_installed": false,
+  "first_engineering_preflight_error": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-period13-cost-m24-20261128-a/entry-error.json",
+    "sha256": "cb87dff168f265f76ac25a96e5b2888bffcf5db8f58a0b78d4e82706f18aa957"
+  },
+  "further_same_optimization_trials_stopped_after_no_M24_cost_gain": true,
+  "complete_surface": false
+}
