@@ -41,7 +41,7 @@ R726/R727准确核心9件已刊25d72，N/G11及闭/P-U/矩/mesh23完整保护；
 
 <!-- visible-larger-parallel-25:start -->
 Actions25：[run 46099929359/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46099929359)；[全阶段记录](notes/2026-11-28-public-actions-46099929359-1.md)。running；已返4，exit=未返。
-并行25规则核查：2026-11-28 08:14:57 UTC，真实pull至`20208a03e8cacf114a2dcfdc7621eb3828c7556b`，双README无变化。
+并行25规则核查：2026-11-28 08:19:53 UTC，真实pull至`f92aed3c443427e6be6621338bca0654337601ec`，双README无变化。
 <!-- visible-larger-parallel-25:end -->
 
 <!-- visible-larger-parallel-26:start -->
