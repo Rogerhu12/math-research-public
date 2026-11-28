@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Newton余核到finite-log的准确算子（已证明）**：[R1154 §12](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)。同一finite-log E(T)满足T E(T+1)+(T+1)E(T)=−2(T^p−T)，完整Bernoulli系数及primitive因子1−2^R均保留。原Newton D_(S,P)的实际θ算子Z_D，在全actual-good相等下缺项至T^(2k+4)，但最高项为15G_(p−3)/8单位；前两层恰−35Bp−3 H_p/16与−297Bp−5 Δ_low/(32Gp−7)。该缺项尚非矛盾，未增添缺席低行或同值纤维的横向导数。
+
 - **原114交叉项的同源完整读取（已证明）**：[原genus4 §10](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)。原Fermat6 §10已付剩余十八cross中的三条114×114：实际degree3 genus4商、两椭圆primitive、全部相位、同一E*的两极Cartier递推和终止balanced4F3均明确。其系数σ未unit，未与原e/K4或Λ混同；剩余十五cross及双零排除继续。
 
 - **原兼容整塔的全水平延伸（已证明）**：[R1147 §16](results/R1147-original-canonical-moment-Heisenberg-lift.md)付真正兼容generic integral G∞-tower的水平补点：原quotient已延伸使每个内点惯性落Z∞，G_k等变性给H⁰(k,Z∞(−1))；weight−14在无挠整格上迫零，逐层正规化/stack descent唯一，再用原universal H¹Z_n0识别P∞。不要求各层删点有有限共同并集；单层finite或rational lift不足。指定四线/Manin的实际兼容整cochain仍须构造，不把本准则称作该输入已成。
@@ -12,7 +14,7 @@
 
 - **R1153（已证明）**：[原Kummer与有限FL坐标的准确校准](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)：真实Fp generic SS点付两比较单位U/U²、完整Miller相位、原两槽及所有q_t可见F0条目；r/s的原Bernoulli尺度与中央减法全保。独立C_SS与C_cyc取max；中央z12、最高组合非零和whole盘仍开。
 
-- **R1154（已证明，§§1–11）**：[R1154 §11](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)新增完整三次finite-log端点(3/8)Bp−3与三个移位核；指定Pν⁴/⁶/⁸权重和真实截断全部保留。实际H_p0使q_p(2)=Qν，minor0精确为Cν(Qν)+(3/8)Bp−3D2=0，D2只为Pν⁸至(p−5)/2的部分和。无条件Cν(Qν)=0已被[新Actions反例](notes/2026-11-28-new-weighted-Legendre-probe.md)否定；条件于q=Qν的联合排除及D2单位仍待付，原good β3单位不能单独排除此式。
+- **R1154（已证明，§§1–12）**：[R1154 §11](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)新增完整三次finite-log端点(3/8)Bp−3与三个移位核；指定Pν⁴/⁶/⁸权重和真实截断全部保留。实际H_p0使q_p(2)=Qν，minor0精确为Cν(Qν)+(3/8)Bp−3D2=0，D2只为Pν⁸至(p−5)/2的部分和。无条件Cν(Qν)=0已被[新Actions反例](notes/2026-11-28-new-weighted-Legendre-probe.md)否定；条件于q=Qν的联合排除及D2单位仍待付，原good β3单位不能单独排除此式。
 
 - **R1152（已证明，§§1–13）**：[原全局中心的权八Frobenius与准确有限读数](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)：原Θ∞/finiteFL/MT(Z)、全尾与完整Ihara词表付r=2β3/3、s=24β5/5、z=48(Har_p(1,3,4)+2β3β5)/25。绝对阶乘/符号及全部退化分支已付；κ与实际中央减法明确，原F0组合非零仍开。
 

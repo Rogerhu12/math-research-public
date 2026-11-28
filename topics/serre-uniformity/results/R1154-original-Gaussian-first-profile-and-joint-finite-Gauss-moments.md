@@ -1044,3 +1044,203 @@ $$
 若 $D_2=0$，第二式就是 $\mathfrak C_\nu(Q_\nu)=0$；
 若 $D_2\ne0$，才可除以这个真实部分和。
 本篇不以无权的 (1154.39) 声称已经排除原余对。
+
+
+## 12. 原 Newton 余对的 finite-log 算子与准确缺项
+
+本节把 §11 的同一个 $E(T)$ 接到
+[原有限重建笔记 (F.20)–(F.25)](../notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)
+的实际 Newton 余核。它不使用另一个横向权重行，
+也不把有限多项式的非零值当成原共同纤维已被排除。
+
+### 12.1. 同一个 $E$ 的完整 Bernoulli 系数与差分
+
+(1154.39) 证明中的 $E$ 为偶多项式，$E(0)=0$，且
+$\deg E=p-1$。写 $E(T)=\sum e_sT^s$，则
+$$
+\boxed{\begin{aligned}
+e_2&=-4q_p(2),\\
+e_s&=\frac{4(1-2^{2-s})}{1-s}\,
+           \mathrm B_{p+1-s}
+       &&(4\le s\le p-1,\ s\ {\rm even}),\\
+e_{p-1}&=-1.
+\end{aligned}}
+\tag{1154.46}
+$$
+第一式也可用
+$[w^{p-1}]L^2=o_M/M=-2q_p(2)$ 直接核准。
+对其余偶 $s$，同一有限插值给
+$$
+e_s=-2\sum_{a=1}^{p-1}(-1)^{a+1}a^{p-s}
+    =2^{3-s}\sum_{b=1}^M b^{p-s}.
+$$
+置 $n=p+1-s$，则 $2\le n\le p-3$。
+沿 (1154.39) 的 Bernoulli 多项式证明，最后一个幂和为
+$(2^{1-n}-2)\mathrm B_n/n$，正好得到 (1154.46)。
+特别最末项也等于 $-6\mathrm B_2=-1$；
+这与指数展开的 $(p-1)!$ 读取相同。
+
+原始整数代表 $1\le a\le p-1$ 仍满足
+$$
+E(a)=2a(-1)^{a+1}\ne0.
+$$
+这是 $E$ 的有限域取值，不是关于原 Gaussian 参数的标签注入。
+它还给一个完全精确的差分恒等式
+$$
+\boxed{\quad
+T E(T+1)+(T+1)E(T)=-2(T^p-T).
+\quad}
+\tag{1154.47}
+$$
+左边在全部 $a\in\mathbf F_p$ 为零，包含 $a=0,-1$；
+其次数至多 $p$，最高系数为 $-2$，
+所以准确等于所示倍数的 $T^p-T$。
+没有将 $T^p=T$ 当作 $\mathbf F_p[T]$ 中的恒等式。
+
+### 12.2. 原差商到 $E$ 的实际算子
+
+取同一个原 coarse component 内两个不同参数，
+用 R1135 §10 已支付的两 twist 规范写
+$$
+Z=\gamma^2z,\quad Z'=\gamma^2z',\quad
+S=Z+Z',\quad P=ZZ',\qquad
+b_0=1,\ b_1=S,\ b_{h+2}=Sb_{h+1}-Pb_h.
+$$
+这里的 $P$ 是两点的乘积，不再是 §11 的 Legendre 简写；
+本小节不混用两者。
+保留 $S^2-4P\ne0$，并允许 $S=0$ 或 $P=0$。
+
+令
+$$
+m=\frac{p-1}{2},\qquad
+Q_{\rm grid}(Y)=\frac{Y^m-1}{(Y-1)(Y-1/4)}
+$$
+及
+$$
+D_{S,P}(Y)=
+\sum_{h=1}^k\frac{b_{h-1}}{(2h)!}
+ \overline{\mathsf B}_h(Y)
+\quad\bmod Q_{\rm grid}(Y),
+\qquad
+\deg D_{S,P}<m-2.
+$$
+这是 (F.24) 的指定次数代表，不是任意另选的多项式。
+在全部原 ambient 行，除了被排除的中间角色外，有
+$$
+\frac{\mathcal A_R(Z)-\mathcal A_R(Z')}{Z-Z'}
+ =R(R^2-1)D_{S,P}(R^2),\qquad
+D_{S,P}(4)=-\frac{G_{p-3}}{12}.
+\tag{1154.48}
+$$
+这里 $\mathcal A_R$ 是去掉原单位 $N_R$ 后的完整行。
+原实际观测仍只包含原 $\mathcal G_p$；(1154.48)
+没有把 ambient 行加进观测。
+
+置 $\vartheta=T\,d/dT$，定义
+$$
+\boxed{\quad
+\mathscr Z_{S,P}(T)=
+(1-\vartheta)
+ \big((1-\vartheta)^2-1\big)
+ \big((1-\vartheta)^2-\tfrac14\big)
+ D_{S,P}\big((1-\vartheta)^2\big)\,E(T).
+\quad}
+\tag{1154.49}
+$$
+这是作用在原有限多项式上的真实算子。
+作为 $\vartheta$ 的多项式，其次数至多 $p-2$；
+不涉及对一个同值点对作横向微分。
+
+对偶数 $s$ 令 $R=p+1-s$，则 $R=1-s$ 于 $\mathbf F_p$。
+在 (1154.48) 的范围中直接按 $\vartheta T^s=sT^s$ 读取，
+$$
+\boxed{\quad
+[T^s]\mathscr Z_{S,P}
+=e_s\left(R^2-\frac14\right)
+ \frac{\mathcal A_R(Z)-\mathcal A_R(Z')}{Z-Z'}.
+\quad}
+\tag{1154.50}
+$$
+特别，对 forced $R=p-1-2j$，$1\le j\le k-1$，
+其对应项是 $s=2j+2$，并且
+$$
+e_s=\frac{4(1-2^R)\mathrm B_R}{R}.
+$$
+所以真实 primitive 因子 $1-2^R$ 继续保留；
+不能将一个为零的 primitive 因子反除，也不能反向把
+$e_s=0$ 一概读成 $\mathrm B_R=0$。
+
+### 12.3. 全 actual-good 相等强迫的缺项与非零端点
+
+假设这两点的全部原 actual-good 标签相等。
+每个 forced $R=p-1-2j$ 都按以下真实二分处理：
+若 $\mathrm B_R$ 为单位，该角色是已付的实际 good 行，
+所以 (1154.50) 的差商为零；
+若 $\mathrm B_R=0\bmod p$，则 $e_s=0$。
+因此 $s=4,6,\ldots,2k$ 的全部系数为零。
+
+另外，$s=0,2$ 分别由零常数或
+$R(R^2-1)$ 消去；实际缺席的中间角色
+$R=(p+1)/2$ 对应 $s=2k+2$，
+由显示的 $R^2-1/4$ 因子消去。
+奇次系数始终为零。准确得到
+$$
+\boxed{\quad
+\mathscr Z_{S,P}(T)\in
+T^{2k+4}\mathbf F_p[T],\qquad
+\deg\mathscr Z_{S,P}=p-1,\qquad
+[T^{p-1}]\mathscr Z_{S,P}
+=\frac{15}{8}G_{p-3}\ne0.
+\quad}
+\tag{1154.51}
+$$
+最高系数逐项是
+$(-1)\cdot2(4-1)(4-1/4)D_{S,P}(4)$；
+所以它与 $S,P$ 无关，全部常数已有原尺度。
+
+(1154.51) 不是矛盾：这样的有限多项式可以存在。
+较高的 $s$ 仍对应原低角色的真实 mask，
+本文没有把那些未出现的角色补成观测。
+若 $R=2$ 实际 good，(1154.50) 与最高系数确会矛盾，
+准确恢复已成的 R1127 分支；正在考虑的余支中，
+不能擅自加入这条行。
+
+### 12.4. 缺项的前两层就是原联合 moment
+
+这个算子并未引入一个与原 $\mathcal H_p,\Delta_{\rm low}$
+无关的辅助检测。由原 Kronecker 展开
+$$
+[U]\mathscr K(T,U)=\frac12C_2(T)
+$$
+可知 $c_1=\mathcal H_p/2$，
+所以完整行 $\mathcal A_{p-3}(Z)=\mathcal H_p Z/4$。
+代 $e_4=-\mathrm B_{p-3}$ 得
+$$
+\boxed{\quad
+[T^4]\mathscr Z_{S,P}
+=-\frac{35}{16}\mathrm B_{p-3}\mathcal H_p.
+\quad}
+\tag{1154.52}
+$$
+若 $R=4$ 的实际行也在两点相等，
+R1135 的同一个单位 $F=G_{p-7}$ 给
+$S=12c_2/F$。这时完整 $R=p-5$ 行的差商为
+$$
+\frac{c_3}{2}+\frac{d_1S}{24}
+=\frac{\Delta_{\rm low}}{2F}.
+$$
+再代 $e_6=-3\mathrm B_{p-5}/4$，准确有
+$$
+\boxed{\quad
+[T^6]\mathscr Z_{S,P}
+=-\frac{297}{32G_{p-7}}\,
+       \mathrm B_{p-5}\Delta_{\rm low}.
+\quad}
+\tag{1154.53}
+$$
+因此在 §6 的实际 Bernoulli 分支中，前两层恰是
+(1154.45) 所处理的同一联合约束，而非另一个参数导数。
+更高系数仍须用原 good 行、(1154.47) 和实际
+$D_{S,P}$ 的二根递推来处理；
+目前没有证明 (1154.51) 的缺项对这种指定 $D_{S,P}$ 不可能。
+本节为纯纸面证明，没有数学程序执行。

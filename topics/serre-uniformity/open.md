@@ -178,3 +178,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原114交叉项已完成，余十五槽继续
 
 [原genus4 §10](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：原Fermat6 §10已付剩余十八cross中的三条114×114：实际degree3 genus4商、两椭圆primitive、全部相位、同一E*的两极Cartier递推和终止balanced4F3均明确。其系数σ未unit，未与原e/K4或Λ混同；剩余十五cross及双零排除继续。
+
+
+### 原 Newton 余核的 finite-log 差分入口
+
+[R1154 §12](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)：同一finite-log E(T)满足T E(T+1)+(T+1)E(T)=−2(T^p−T)，完整Bernoulli系数及primitive因子1−2^R均保留。原Newton D_(S,P)的实际θ算子Z_D，在全actual-good相等下缺项至T^(2k+4)，但最高项为15G_(p−3)/8单位；前两层恰−35Bp−3 H_p/16与−297Bp−5 Δ_low/(32Gp−7)。该缺项尚非矛盾，未增添缺席低行或同值纤维的横向导数。 后继须用实际二根递推或同源关系排除该指定D，不能以普通有限多项式的长零带宣矛盾。
