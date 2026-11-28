@@ -18,7 +18,7 @@
 
 [R618背景消去自然终态](notes/2026-11-28-r618-centered-complete-state-natural-terminal.md)run46117718197的真实response19519575…保持；5400.048500946秒、0新接受、1全1473列J/1472自由列QR、2方向/14拒绝全留账。实际δs/W取得点已定位，步长1e−35来自旧图的真实病态。原1728×512 fine已付；实际Y双差分只15/16块，不能冒成完整读出。
 
-[R643联立证明](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已给同一E、真实自由mean、完整F/rG与归一周期位置六jet链。下一实际求解保全部1472旧自由角列，加94真实mean列共1566；不对trial除W/c0，不改固定target/H/amp/hardτ1。近帽true germ/Gaussian、原全部行、七类源误差及实际Y差分仍保留。实现已准备，发布后直接完整work→fine，不以工作网停滞收尾。
+[R643联立证明](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已给同一E、真实自由mean、完整F/rG与归一周期位置六jet链。下一实际求解保全部1472旧自由角列，加94真实mean列共1566；不对trial除W/c0，不改固定target/H/amp/hardτ1。近帽true germ/Gaussian、原全部行、七类源误差及实际Y差分仍保留。[完整公开范围](notes/2026-11-28-r643-complete-unsolved-mean-actions-scope.md)已发布：950work/123500行→1728fine/445824行，全部1566列，原全行QR/SVD；18000秒含6000末读出预留，不以工作网停滞收尾。真实mean高度积分和两套同Y差分保留，已付同态fine复用。
 
 R617仅排固定有限pre/post的精确非圆根，R610仅排纯有限角带；都不授当前误差正下界或全空间无根。旧R618硬总trace和连续Pμ接口仍见归档及对应notes；在同E可达性真正获得前，不把小核心τ1冒成宏观幅度。
 

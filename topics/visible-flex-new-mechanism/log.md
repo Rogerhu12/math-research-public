@@ -354,3 +354,7 @@
 ### 2026-11-28 08:57 UTC — R636真实中心h边界与同目标活动面
 
 读完自然终态，具体真点拒绝/舍入步长/完整fine和所有费用保留。至多四活动面求同一阻尼锥问题，非零解的一阶下降有纸证，不放宽原.8高度界。私库08:53:50实pull c47bd5d6，README无差、QUEUE仍本会话。为防open越30KB，旧27829字节逐字转open-archive-before-R643-20261128.md（SHA256 33d94ec9501ced763bf182f95282056b70e4c8bdc00b7a8c1073980327853c63），新open按最新实际分支更新，原全部条件/费用链接保留。
+
+### 2026-11-28 08:58 UTC — R643完整同E真实mean系统实际运行
+
+五源码共1852行完整审读，逐项核对离解D/R、canonical F/G、归一相位/全S及方向；原纯stencil接口与新真实p0_r/height兼容，64源绑定/AST/sparse路径一致。发现并修正gzip请求的workflow实际执行wrapper；>1MB载荷以单gzip传stdin，681B仅规则metadata不含科学数据。新增题外.github/workflows/visible-r643-actual397-coupled-mean-20261128.yml，完整1566列和原所有行直接公开求解，不启动独立诊断。

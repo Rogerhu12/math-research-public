@@ -1,0 +1,117 @@
+name: visible-flex R643 actual free-mean fixed-E solve
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r643-actual397-coupled-mean-20261128.json.gz
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r643-actual397-coupled-mean-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Solve complete1566 same-E mean and position system
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r613-full-position-20261127.yml
+            /.github/workflows/visible-r613-full-position-resume337-20261127.yml
+            /.github/workflows/visible-r613-full-position-resume397-20261127.yml
+            /.github/workflows/visible-r618-actual397-bracket-progress-20261127.yml
+            /.github/workflows/visible-r618-actual397-fixed-E-response-20261127.yml
+            /.github/workflows/visible-r618-actual397-fourier-centered-20261128.yml
+            /.github/workflows/visible-r618-actual397-split-reference-20261127.yml
+            /.github/workflows/visible-r643-actual397-coupled-mean-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/r618-actual397-frozen-field-definition-20261127.json
+            /topics/visible-flex-new-mechanism/computations/r643-hourly-rule-metadata-20261128.json
+            /topics/visible-flex-new-mechanism/computations/request-r643-actual397-coupled-mean-20261128.json.gz
+            /topics/visible-flex-new-mechanism/scripts/inverse_flat_oscillatory_tail_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r571_milder_seed_outer_jets_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r571_nonmonotone_connector_gain_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_body_forced_j4_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_exact_knot_height_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_finite_height_turning_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r576_function_space_continuation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_actual_circle_seed_and_return_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r582_continuous_mean_profile_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r594_eight_mode_weak_height_bvp_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r594_paid_weak_resume_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r600_factored_high_mode_jets_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r602_eleven_mode_core_completed_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r606_compact_response_height_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r606_paid_full_spectrum_height_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r606_weighted_majorant_observation_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/r611_circular_reference_global_geometry_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_actual_position_height_operator_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_complete_row_qr_svd_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_full_position_height_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_full_position_resume_337_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_full_position_resume_397_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r613_position_defect_linearization_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r615_position_majorant_observation_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r615_shared_coefficient_position_observation_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_actual397_bracket_progress_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_actual397_fixed_metric_response_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_actual397_fourier_centered_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r618_actual397_split_reference_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_analytic_tail_anchor_bound_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_bracket_progress_consumers_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_bracket_progress_model_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_current_model_tail_anchor_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_fixed_metric_numerical_chain_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_fourier_centered_consumers_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r618_fourier_centered_mean_chain_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r618_fourier_centered_model_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r618_frozen_metric_branch_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_growing_post_fixed_metric_height_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_same_fixed_metric_direct_position_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_split_reference_consumers_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_split_reference_mean_chain_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_split_reference_model_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_stable_coordinate_consumers_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r618_stable_coordinate_model_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/r643_actual397_coupled_mean_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r643_complete_mean_consumers_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r643_complete_mean_height_model_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r643_complete_mean_tail_bounds_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r643_unsolved_mean_fixed_metric_chain_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_gzip_stdin_20261127.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_state_stdin_20261126.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull rules and solve the true coupled fixed-E field
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_state_gzip_stdin_20261127.py
+          --request topics/visible-flex-new-mechanism/computations/request-r643-actual397-coupled-mean-20261128.json.gz
+          --lane r643-actual397-coupled-mean
+      # Same target86da, true accepted seed and complete prior expense.
+      # All1472 old angular columns plus94 actual mean functions, hard tau1.
+      # Every original position row plus actual canonical F and rG constraints.
+      # Trial mean roots, 1/W coordinates and inverse-c0 elimination removed.
+      # Full analytic J and complete-row QR/SVD retain all singular directions.
+      # Original full work then full fine, actual double Y stencils and mean height.
+      # Actual public pull and both README differences every55 minutes.
+      # No old diagnostic gate, scientific artifact or geometric completion claim.

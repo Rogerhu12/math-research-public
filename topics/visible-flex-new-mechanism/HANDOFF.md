@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **13126a9b3f425c78202717060981d84048be71aa**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **a6771e2e9141042a617fea8af52e2a30d1747108**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -25,7 +25,7 @@
 
 [前split原费用](notes/2026-11-28-r618-split-first-complete-state-terminal.md)继续保留。[背景消去自然终态](notes/2026-11-28-r618-centered-complete-state-natural-terminal.md)run46117718197/job140895158286/source19de4da3于08:11:30结束，新增5400.048500946秒；0接受、1全1473列J/1472自由列QR、2方向/14真实拒绝。保原response19519575…和固定target86da8c60…/H.5188903877153482/amp1e−5/τ1。
 
-真实阻点r=.22666666666666668，W9.3869e−40、δs−7.9225e−7，λ图比例4.22e33压步至2.3697e−35；另一点同病态。原1728×512同态fineηobs2.216608e−7，实际Y双stencil仅15/16块，不能登记完整读出。[R643](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已证真实mean联立转角/周期位置与全六jet链，保同E/真帽/全角，原1472列加94mean共1566；实际实现继续。
+真实阻点r=.22666666666666668，W9.3869e−40、δs−7.9225e−7，λ图比例4.22e33压步至2.3697e−35；另一点同病态。原1728×512同态fineηobs2.216608e−7，实际Y双stencil仅15/16块，不能登记完整读出。[R643](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已证真实mean联立转角/周期位置与全六jet链，保同E/真帽/全角，原1472列加94mean共1566；[1566列实际求解](notes/2026-11-28-r643-complete-unsolved-mean-actions-scope.md)已发布，完整work→fine及真实mean/双Y差分；18000秒含6000末读出预留。
 
 R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬trace及模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)和[连续Pμ](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)保原列/从属核心迹；同E可达性欠，.85/R579仅条件预算。
 
