@@ -138,4 +138,4 @@ R746–750完整条件/源/数值保[索引](results.md)、各完整proof/note�
 
 R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。
 
-所有分支均须同固定g、C²闭嵌入/全t强C²、wholeD、.2D held及固定有内点grip、全t .03D reach、含反射δE>0、全relative metric算子≤1e−6；同g/参数/t域真正空间/频率/时间加密至机器/原容差，并给多个<5MB完整mesh；更强三比值继续改善。RET83–100H保全完整复现和固定Git，不退活输入/唯一状态/未闭来源，raw仅runner/scratch。
+所有分支均须同固定g、C²闭嵌入/全t强C²、wholeD、.2D held及固定有内点grip、全t .03D reach、含反射δE>0、全relative metric算子≤1e−6；同g/参数/t域真正空间/频率/时间加密至机器/原容差，并给多个<5MB完整mesh；更强三比值继续改善。RET83–100I保全完整复现和固定Git，不退活输入/唯一状态/未闭来源，raw仅runner/scratch。

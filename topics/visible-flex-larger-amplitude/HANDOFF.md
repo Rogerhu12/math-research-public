@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`04e4b164f703fd1a65725691d4d8c4e95eca8fe9`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`a8a531dc7085d90f207203376036f47bb748f350`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -19,9 +19,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 33–35全部初值、源/model/PID、每个拒绝数值和完整预算保各ownnote及[此前完整状态](https://github.com/Rogerhu12/math-research-public/blob/7773737d03bb218fe3a20035f74e8baa9e80bab3/topics/visible-flex-larger-amplitude/HANDOFF.md)，未删减科学任务。
 
-36、37、38全原阶段自然返回且未达标；固定g末独立Gram分别2.17427627577303、.670383394669527、9.607780255855785。R742右柄8×3也未付全K。所有源参/点/预算/失败未知与完整ownnote路径逐字保[此前H](https://github.com/Rogerhu12/math-research-public/blob/a38135aea53800ecf8dd1a31119cc08c02b683f1/topics/visible-flex-larger-amplitude/HANDOFF.md)，不重做。
-
-[39完整实际](notes/2026-11-28-run39-whole-closed-body-Killing-complete-launch.md)：46146451800/job140983460924自然RC0，全11阶段518.2182s；冻结stage6同g，后两层Gram .15001922660375772→.04840454829227062，Lie17.288336414547743→21.826287727566044，K11.050084361299477，未付全时同g。全部原点/预算/返回保note，39b继续真实轨线与切图。
+36–39全部原阶段已自然返回，仍未达标。完整各源参/点/预算/失败未知见[固定此前H](https://github.com/Rogerhu12/math-research-public/blob/282164987df889c6f1ffedf64bbb76eee183d61a/topics/visible-flex-larger-amplitude/HANDOFF.md)及各ownnote；39原点flow未知，39b为重生新点，不能混借。
 
 R746–750全部完整证明/源/条件与数值见[索引](results.md)和[本批前H](https://github.com/Rogerhu12/math-research-public/blob/055c807c6a76bc5c33a1e148dec35b5a4bd2d7e3/topics/visible-flex-larger-amplitude/HANDOFF.md)。R746–748全厚闭像与中央/两帽局部同g已付，R749真非线性正宽及R750全26片明确极小宽均不付整个端帽；R749原6盒真实零残差不代解析半径。完整旧结论不重做。
 
@@ -38,8 +36,8 @@ R746–750全部完整证明/源/条件与数值见[索引](results.md)和[本�
 
 ## 数学范围与完整输入
 
-全部R724–747来源/条件/数值/失败未知保[固定完整H](https://github.com/Rogerhu12/math-research-public/blob/9724f4e7681f004d749048ccef3ab947c05f8e92/topics/visible-flex-larger-amplitude/HANDOFF.md)、[结果索引](results.md)及完整proof/note，不重做。R738同g浸入半宽.5384265521561006而.16双向球只证.005；R744/745已付全厚闭像但未付二维同g，R741自由Killing/Haar仍需条件，R743微小商距不冒宏观。
-R726–730准确包保护；R732全13+14件main，139源/922cells/32stage/六jet/N38/52G8/22、900秒/1Mleaf/192bit及7步原预算不减，待35自然science/whole pure同点费用。RET100H已净释1472530B，不退活输入。
+R724–750全部原条件/数值/失败未知保[结果索引](results.md)、完整proof/note和上述固定旧H链。R738厚浸入不冒整片厚嵌入，R741条件不冒全g，R743微小商距不冒宏观；不重做已登记结论。
+R726–730准确包保护；R732全13+14件main，139源/922cells/32stage/六jet/N38/52G8/22、900秒/1Mleaf/192bit及7步原预算不减，待35自然science/whole pure同点费用。RET100H/100I完整复现原生成文本，分别净释1472530B/1323225B；完整父件、旧失败未知/真队列与活输入均保。
 
 <!-- visible-larger-parallel-33:start -->
 Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。running；已返2，exit=未返。
@@ -64,5 +62,5 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
-<!--r751-publish-->R751 双README真pull 1fb31bc99953b31f1f4f45690a4e56aaf2b2fbc8
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull f4f678990cf90784ab0abfb69062883009b4b247
+<!--r751-publish-->R751 双README真pull 1fb31bc99953b31f1f4f45690a4e56aaf2b2fbc8
