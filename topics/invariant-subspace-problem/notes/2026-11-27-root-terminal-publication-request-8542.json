@@ -1,17 +1,21 @@
 {
-  "message": "ISP R150: whole true B rational chart and exact local original six by two model",
-  "parentCommit": "25d72e678a9db6c42afcb4d932d485b856c63a1a",
+  "message": "ISP R150: exclude the complete true B slope quadratic fiber and start whole B original I6",
+  "parentCommit": "560d5f3d390cdc1004e18e1a0ceb52b81132d963",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-Bzero-rational-and-exact-six-by-two-model.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-rational-original-six-by-two-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-Bzero-rational-formal-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-Bzero-rational-formal-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-Bzero-rational-formal-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-Bzero-rational-formal-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-Bzero-slope-quadratic-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-Ctwo-original-fixed-t-return-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-Ctwo-original-fixed-t-return-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-whole-I6-twelve-by-two-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-whole-I6-twelve-by-two-8542.md",
+    ".github/workflows/invariant-subspace-8542-Phi-Bzero-whole-I6.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-Bzero-C2-whole-I6-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-Bzero-C2-whole-I6-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-Bzero-C2-whole-I6-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-Bzero-C2-whole-I6-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,5 +24,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-Phi-Bzero-whole-I6.yml"
+  ]
 }
