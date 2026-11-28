@@ -472,3 +472,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §93：原全野层第二种积分及固定线联络曲率
 
 已证明：原全野挠值等于全部剩余盘上的第二种积分；固定倒数点的模p值准确等于原G格，且它是同一固定线联络的p曲率；普通分裂位由真实Kπ给全部点，包括p主分量。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §94：固定双商两格恒等式与补偿项无穷素数非零
+
+已证明：固定属二双商给原两格在普通/惰性处的统一曲率公式；每个原倒数点的固定线联络借Bost可解结构群定理及已证非挠性，推出补偿项在无穷不同素数非零，但未限定分裂型或推出完整中央非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。

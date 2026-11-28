@@ -1532,3 +1532,70 @@ $$
 这些剩余点 Zariski 稠密。$K_\pi$ 在特殊纤维泛点的赋值非负，否则可取一个不属于其首非零约化零集的驯挠点，与上述整性矛盾。其水平极只在 $E[\pi]$，全部约化至 $O$，所以约化正则于 $E-\{O\}$。有理函数恒等遂给(BI4)，包括 $\bar A$ 有非平凡 $p$ 主分量的情况；没有在模 $p$ 下除以这种点的阶。
 
 这里只识别原全层积分和固定单点曲率。未由(BI2)推出非零约化，也未把单点曲率替换原完整四槽中央。
+
+## 94. 固定双商微分给两原格的普通及惰性共同公式
+
+在固定曲线 $C:V^2=L^6+1$ 上置
+$\pi_1=(L^2,V)$、$\pi_2=(L^{-2},V/L^3)$，取 §91 原 $\tau=L^{-1}$ 的物理无穷分支 $V=-L^3+O(L^{-3})$。令 $P=(t,v)$ 是原驯标记，$w=X(P)$、$\lambda^2=t$、$Q=P^\vee$、$R_0=(0,1)$。有特征零的全亚纯微分恒等式
+$$
+ L\pi_1^*\kappa_P
+ =-dL-\frac{\lambda}{2}d\log\frac{L-\lambda}{L+\lambda}
+ +\frac12\pi_2^*\{\lambda(\theta_Q-\theta_{-Q})
+                  +w(\theta_{R_0}-\theta_{-R_0})\}. \tag{BJ1}
+$$
+确实 $\omega_1=L\,dL/V$、$\omega_2=-dL/V$。原式
+$L(w-(V+v)/(L^2-t))\omega_1$ 中带 $V$ 的项为
+$-L^2dL/(L^2-t)$，恰给前两项；其余用 $x'=L^{-2}$ 成为
+$(-w/x'+v/(1-tx'))\omega_2$，正是最后括号。换
+$\lambda\mapsto-\lambda$ 时两个含 $\lambda$ 的项各自不变。
+
+记 $H_p(A)=\psi_{\nabla_A}(D)$、$h=(p-1)/2$，并置
+$A_p=[x^{p-1}](1+x^3)^h$、$B_p=[x^{p-2}](1+x^3)^h$。对一般好素数，两个原格有共同公式
+$$
+ \boxed{
+ \begin{aligned}
+ [\tau^{p+1}](\kappa_P/d\tau)&=tH_p(P)+B_pw-A_pv,\\
+ [\tau^{2p}](\kappa_P/d\tau)&=-v^pt^{-h}-\lambda H_p(Q).
+ \end{aligned}} \tag{BJ2}
+$$
+(BJ2)全部量取所选位约化，并排除固定有限个坏位。
+
+首先，由 $\omega=dx/(2y)$ 的 Cartier 公式，
+$\mathcal C(x\omega)=B_p\omega$、$\mathcal C\omega=A_p\omega$。
+利用 $y\omega=dx/2$ 和 $\mathcal C\kappa_P=\kappa_P$，得到
+$$
+ \mathcal C(x\kappa_P)
+ =t^{1/p}\kappa_P+w^{1/p}\mathcal C(x\omega)
+       -(tw+v)^{1/p}\mathcal C\omega.
+$$
+读取 $\tau^0$ 系数并取 $p$ 次幂，即得第一式，因为
+$H_p(P)=w^p-A_pw$。
+
+第二式左侧等于
+$([\tau]\mathcal C(L\kappa_P)/d\tau)^p$。(BJ1)的 $dL$ 是恰当微分，射影直线的对数项经 Cartier 后在此分支仍仅有偶次 $\tau$ 幂。$\pi_2$ 将所选无穷点送至 $-R_0$，且
+$\omega_2=-\tau\,d\tau/\sqrt{1+\tau^6}$。由 $\theta$ 的公式，
+$H_p$ 是奇函数，$\mathcal C\theta_A-\theta_A=H_p(A)^{1/p}\omega$；
+因此 $\mathcal C(\theta_Q-\theta_{-Q})/2$ 在 $x'=0$ 的正则
+$\omega_2$ 系数是 $v/\lambda+H_p(Q)^{1/p}$。
+$R_0$ 为 $\mu_3$ 固定点，$X(R_0)=H_p(R_0)=0$；其对数差的拉回只有
+$\tau^{-1}(1+O(\tau^6))d\tau$，没有所需线性项。故 $[\tau]$ 系数为
+$-\lambda^{1/p}(v/\lambda+H_p(Q)^{1/p})$；取 $p$ 次幂给第二式。
+普通时 $B_p=0$、$H_p=\overline{K_\pi}$；惰性时
+$A_p=0$、$B_p=-c_p$、$H_p=G$，与 §91 两式一致。
+
+对每一个固定原标记 $P$，存在无穷个不同有理好素数 $p$，以及其上至少一个位，使第二式的补偿量
+$$
+ [\tau^{2p}](\kappa_P/d\tau)+v^pt^{-h}\ne0. \tag{BJ3}
+$$
+反证如下。否则，对含 $P,\lambda,Q$ 的固定数域，固定线联络
+$\nabla_Q$ 在几乎所有好素位的 $p$ 曲率均为零；因为其曲率系数
+$H_p(Q)$ 是底曲线上的常数，所以点值为零即该联络曲率为零。
+Bost 的 Theorem 2.9 适用于光滑连通的
+$E_1-\{O,Q\}$ 及结构群 $\mathbf G_m$，给出一个有限 étale 覆盖使联络平凡。对一个水平单位取函数域范数，即在原底得到
+$n\theta_Q=d\log f$，其中 $n>0$。留数迫使
+$\operatorname{div}f=\pm n([Q]-[O])$，故 $Q$ 是挠点，与 §92 的(BH1)矛盾。
+
+使用的是 J.-B. Bost, *Algebraic leaves of algebraic foliations over number fields* (2001), Theorem 2.9，关于结构群中性分支可解的平坦主丛；其“几乎所有素位曲率为零”与“有限 étale 覆盖平凡”等价。这里结构群为 $\mathbf G_m$，不需要前一个 Theorem 2.8 的额外 Liouville 条件。
+[原刊全文](https://numdam.org/item/10.1007/s10240-001-8191-3.pdf)。
+
+(BJ3)没有规定无穷素数的分裂型，只证明这一个固定补偿项。原完整角色和、四槽及其余混项仍可能相消，故未完成原中央无穷素数非零。
