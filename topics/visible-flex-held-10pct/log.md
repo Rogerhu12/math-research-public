@@ -236,3 +236,7 @@ root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层�
 ## 2026-11-28 12:26 UTC — 冷旧 E 的完整科学字节无损归档
 
 60份真已终止native二进制逐份完整解压/SHA/原stat核同后才替换，原485211696B→gzip324179721B，实释160993280B。新F与当前流水线不依赖被归档旧根；源/JSON/config/checkpoint均未改。后继29input的XOR格式另记，不用旧gzip路径冒作现存。源、实际终态与完整journal SHA经root核；见 [记录](notes/2026-11-28-tail-frozen-native-lossless-gzip.md)。
+
+## 2026-11-28 12:28 UTC — 旧 E input 的独立 XOR 字节归档实际完成
+
+29份旧input以永久独立static-template为base，逐份落盘后解码并与完整原字节/SHA核同；新ready manifest持久后才移除旧gzip。210929851B旧gzip→13681701B delta，实释197226496B。root核5个直接绑定，analytic独立只读审恢复/原子记录和根范围；新F与旧output均未改。原journal保持历史，输入须改用新manifest的明确恢复入口。见 [记录](notes/2026-11-28-tail-lossless-xor-storage.md)。

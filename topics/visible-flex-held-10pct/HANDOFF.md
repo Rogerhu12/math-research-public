@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始双README完整已读：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README已读锚 `5d5ab98b68bc3f0fd14a3ed478506b3a65074786`（2026-11-28 12:27 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；12:11:39 UTC再次pull到 `df5208252bd9dd6cfb6445da7423aecd77f63142`，双README空diff、QUEUE仍本会话。
+- 初始双README完整已读：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README已读锚 `d72ac81deeedc3165675ba58ba1bad9ea740c444`（2026-11-28 12:28 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；12:11:39 UTC再次pull到 `df5208252bd9dd6cfb6445da7423aecd77f63142`，双README空diff、QUEUE仍本会话。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。新增根§16：今后spawn显式gpt-6.2-astra/ultra，forknone；已有活代理不中断。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
@@ -26,7 +26,7 @@
 - **R73/R74同一新图连续界已付**：[R73几何](results/R73-new-common-cartesian-prefix-continuous-geometry.md)给support>.6445、norm<1.1901、area>.2974、K≤123/10；[R74 metric](results/R74-same-new-cartesian-prefix-continuous-metric.md)完整1467径向叶×1536三重扇区角格，精确上界<99/1e8；十组定义数组逐位同，最终有限均值/完整真实R53 lift未换。仅新879点λ.002的最终前缀/桥，未附尾/cut。root的[完整cut区间入口](notes/2026-11-28-new-prefix-cut-interval-entry.md)过75位代数检查，尚待真fullH；尾的物理R重参带采用[R75逆图背景差](results/R75-inverse-radius-background-only-tail-transfer.md)；[真背景导数界](notes/2026-11-28-nearcut-true-background-bounds.md)已付512盒，W<.109/W1<361/W2<3217025708，尚待实际尾代入，不搬旧R62。
 
 
-- 冷旧E的[完整字节gzip归档](notes/2026-11-28-tail-frozen-native-lossless-gzip.md)已核释放160993280B；当前F未改。29份input后继已改独立XOR格式，须用其新manifest恢复，不能直接用旧journal；所有base/归档永久保留。
+- 冷旧E的[完整字节gzip归档](notes/2026-11-28-tail-frozen-native-lossless-gzip.md)已核释放160993280B；当前F未改。[29份input XOR归档](notes/2026-11-28-tail-lossless-xor-storage.md)再释197226496B，须用新manifest恢复；独立base永久保留。
 
 ## 已证工具和不得重复的工作
 

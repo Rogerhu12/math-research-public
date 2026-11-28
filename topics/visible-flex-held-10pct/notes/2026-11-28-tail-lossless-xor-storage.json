@@ -1,0 +1,50 @@
+{
+  "status": "complete_frozen_native_lossless_xor_archival",
+  "schema": "held10-lossless-native-input-xor-v1",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/lossless_native_xor_archive.py",
+    "sha256": "e7670ca4cb96486f843d6c1bc51ff4e08e62ac9443ccbb021ef75f11dc4714c5"
+  },
+  "source_root": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs",
+  "prior_journal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/lossless-old-E-native-20261128.json",
+    "sha256": "a4405ab7757b245eb5056e21a3b42489505e417ef4ab6baea608dfd1eddffe92"
+  },
+  "base": {
+    "codec": "gzip_of_complete_raw_template",
+    "depends_on_delta": false,
+    "archive": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/static-template.bin.lossless.gz",
+      "sha256": "a6160341e249a27338c862e26fcbb70a469000e7a2c1b4be72dc92aa2a83b25e"
+    },
+    "original_bytes": 12300316,
+    "original_sha256": "929ae5d4fbc3bcfc5a1441d7759e4bb52b46cb49ad23fd9f2feac1648d91a671"
+  },
+  "target_codec": "gzip(target_original_bytes XOR complete_template_bytes)",
+  "scientific_bytes_changed": false,
+  "large_payloads_in_git": false,
+  "started_unix_time": 1795867348.9108515,
+  "finished_unix_time": 1795867354.0325665,
+  "total_original_input_bytes": 356709164,
+  "prior_gzip_bytes": 210929851,
+  "delta_gzip_bytes": 13681701,
+  "allocated_bytes_saved": 197226496,
+  "scratch_free_before": 943480832,
+  "scratch_free_after": 1059381248,
+  "actual_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/lossless-old-E-native-xor-20261128/manifest.json",
+    "sha256": "74bc434b22e3114dc609b5c59887fea6c43c5677ba8d3ba9ae61d0ec83deb494"
+  },
+  "actual_single_input_probe": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/tail-xor-input-probe-20261128/record.json",
+    "sha256": "d36c8cb74fb0c26107660f27d75717a42e549492439fce7fae21264e9f25517f"
+  },
+  "input_count": 29,
+  "all_rows_recovered_byte_for_byte": true,
+  "all_redundant_target_gzip_removed_only_after_ready_manifest": true,
+  "independent_restore_verify_only_succeeded_for": "0027-state-input.bin",
+  "current_F_native_inputs_archived": false,
+  "base_requires_permanent_preservation": true,
+  "old_journal_unchanged": true,
+  "complete_surface": false
+}
