@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150 unit211：正确fu支的t−2和θ原单位](results/R150-appendix-unit211-Phi-zero-fu-t-minus-two-and-theta-original-units.md)：真R给x=u+t/4，真odd mean给r0=δEBo+(t−2)B0，再由E0线性式给θ=u−ellQ的完整原逆；全部u0保、不借旧错头。直接纸证，未另称执行。
+
 - [R150 unit211：整B真四原乘子返回C76](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)：终端七源完整反传并从首一q提升到四原式，最终实际分母91次仅剥已付→C76∈I4一次；完整QQ因子2/34/40各一次，≤76不同权对，三整原纤维保。4fb唯一.569564090秒/44912KiB/0。
 
 - [R150 unit211：W新αχ完整原I6十×二及三标量](results/R150-appendix-unit211-W-alpha-chi-exact-original-ten-by-two-and-three-scalars.md)：纯权原图上实际首一α²，原NS/PS系数一反传，全部十行精确商；三新核(85,89,8)/(134,143,12)/(75,77,8)，所有未知头和共同乘子零保。a96d唯一101.965228秒/766372KiB/0，不付W空。
