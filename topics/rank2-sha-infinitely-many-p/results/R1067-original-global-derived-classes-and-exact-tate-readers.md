@@ -588,3 +588,102 @@ $\psi_{17}((x))=x/\varepsilon(x)$，把真全射线群写成
 若$z_1=0$，常项和一次项已全为零，原二次项是$b z_2\bmod p^k$的限制（未除$b$的Mackey式）或$z_2$的限制（如(BR3)）。
 
 所以在每个实际坏$p$，三个完整全域幂条件必须对**所有**$k$同时成立。仅在$p$位为幂是较弱的旧当地坏条件。还须对无穷$p$排除这个全域三行同时消失，或直接证明(BR2)的循环性；本节没有用更弱门本身宣称已完成。
+
+## 103. 原全域对数的奇偶二读者及完整驯角色的野Jordan长度
+
+沿(BP1)–(BP6)、(BR1)–(BR3)，保持原$E$、全射线群、Tate基、固定103和原两点。$p>211$及原惰性范围不变。令
+\[
+ L=\log(1+U)=U-U^2/2\pmod{U^3},\qquad U=L+L^2/2\pmod{L^3}.
+\]
+因$2$可逆，这给$(\mathcal O/p^k)[U]/U^3$与$(\mathcal O/p^k)[L]/L^3$的整同构。$j=k+1$，$B_j,G_{L_j},u_j$沿§100；在$G_{L_j}$上Tate因子、反圆指数及$\mu_{p^k}$均平凡模$p^k$。
+
+将真实平滑原类$bZ$模$(p^k,L^3)$作Mackey限制，在Kummer外配$e^{-1}$后是
+\[
+ \sum_{a\in B_j}\rho(a)^{-1}[a]u_j\exp(-s(a)L).
+\]
+常项为$bZ_0=0$。单位群用加法，两个原行准确为
+\[
+ Y^o_k=-\sum_{a\in B_j}\rho(a)^{-1}s(a)[a]u_j,\qquad
+ Y^e_k=\frac12\sum_{a\in B_j}\rho(a)^{-1}s(a)^2[a]u_j. \tag{BS1}
+\]
+它们在$(L_j^\times/(L_j^\times)^{p^k})\otimes_{\mathbb Z/p^k}(\mathcal O/p^k)$中。二次行与原$U^2$行的关系是
+$Y^e_k=Y^{(U^2)}_k+Y^o_k/2$，因为$\binom{-s}2=(s^2+s)/2$。这里是全域固定103的行；§101当地十二次幂规范仍要按其原转换，不能静默互换。
+
+$B_j$中有中央驯元素在$W_0/p$上为$-1$、$s=0$，取其二阶Teichmüller提升，则在整个$W_0/p^k\otimes(\mathcal O/p^k)[L]/L^3$上亦为$-1$。故限制对整截断$H^1$单射。§99给$Z\in U H^1$，若$z_1=0$则§102给$Z\in U^2H^1$。第一行检测$bz_1\bmod p^k$；若$z_1=0$，第二行检测$bz_2$，其中$z_2=(Z/U^2)|_0$。一般未判$z_1=0$时只把完整二行作为一个截断类。准确地，
+\[
+ \exists k:\ (Y^o_k,Y^e_k)\ne(0,0)
+       \quad\Longleftrightarrow\quad A_Z\le2.
+\]
+反向若全部$k$两行都零，有限自由系数的截断$H^1$为有限生成$\mathcal O$模，$p$进分离；中央$-1$已消去限制核。故整截断为零，由长正合列得$Z\in U^3H^1$。不假设全域$H^2=0$，并允许$A_Z=2$、通常全$\Sha[p^\infty]$有限而$a_2=0$。
+
+### 原参考素上的两个不同坐标
+
+按$(1,\delta)$分解
+\[
+ -\rho(a)^{-1}s(a)=A_a+B_a\delta,\qquad
+ \rho(a)^{-1}s(a)^2/2=C_a+D_a\delta.
+\]
+令$U_0,U_1$为(BP2)奇行两单位，另令
+$V_0=\prod_a([a]u_j)^{C_a}$、$V_1=\prod_a([a]u_j)^{D_a}$。
+一般完全分裂素位先保留四个单位的$(Nv-1)/p^k$次幂，不预删坐标。
+
+原$c u_j=u_j$；$c$共轭$\rho$且使$s$变号。因此奇权在$a\mapsto cac^{-1}$时为负共轭，偶权为正共轭。成对选整指数提升；固定轨道的$s=0\bmod p^k$，其四个指数可取零。于是有准确单位恒等式
+\[
+ cU_0=U_0^{-1},\quad cU_1=U_1,\qquad
+ cV_0=V_0,\quad cV_1=V_1^{-1}.
+\]
+沿(BP5)事先由原两点预选的惰性有理素$\ell$，置$n=(\ell+1)/p^k$。四个真实幂余数依序化成
+\[
+ \left((\bar U_0^{-2})^n,1;\;1,(\bar V_1^{-2})^n\right). \tag{BS2}
+\]
+这是先配原Tate基与$(1,\delta)$再用$\mathrm{Frob}=c$所得，偶行准确保留$\delta$坐标。
+
+若$z_1\ne0$，§100的原始$X'_p$参考列在足够大$k$读出奇行。若$z_1=0,z_2\ne0$，§102给通常Selmer维数二及全$\Sha[p^\infty]$有限；原当地signed阶为四，故$\operatorname{loc}_p z_2=0$。按§100同一个饱和MW/对数核，有唯一$\lambda_2\in\mathcal O$使$z_2=\lambda_2X'_p$；若$z_2=0$取$\lambda_2=0$。同一个原MW参考列和足够大$k$遂在第二行读出$b\lambda_2X'_p$。两种存在检测允许取§100两个预选列的并集；哪个参考列为单位只取决于$\ell_1,\ell_2$。在这个事先可验族中某次(BS2)非平凡，便足以推出通常全$\Sha[p^\infty]$有限。预选素的存在本身不保证目标幂余数非平凡。
+
+### 全原驯角色的准确野长度
+
+令$k_0=\mathbb F_{p^2}$、$\chi=\rho\bmod p$，$B_1$表示$B_j$的规范素于$p$的Sylow子群，$N=p^{j-1}$。原固定$\mathfrak f=34\delta$的单位群阶素于当前$p$。CRT给
+\[
+ P_j=\operatorname{Gal}(L_j/L_1)=\langle r\rangle\times\langle a\rangle
+             \simeq(\mathbb Z/N)^2,
+ \quad s(r)=0,\quad s(a)=1\bmod N,
+\]
+其中$r$为实主单位，$a$为反圆主单位。置
+\[
+ e_\chi=|B_1|^{-1}\sum_{g\in B_1}\chi(g)^{-1}g,\quad
+ D=a-1,\quad v_j=e_\chi N_{\langle r\rangle}[u_j]
+ \in (L_j^\times/(L_j^\times)^p)\otimes_{\mathbb F_p}k_0 .
+\]
+这里$N_{\langle r\rangle}$是群环全和，$e_\chi$包括原$\mathfrak f$及全部$p$驯角色。$j=1$的扭后Mackey常项给
+$|B_1|e_\chi[u_1]\otimes e^{-1}=\operatorname{res}(bZ_0)=0$，故$e_\chi[u_1]=0$；未令未经投影的底层单位范数为零。
+
+记
+\[
+ \mathscr H=H^1\!\left(G_{K,S},
+    (W_0/p)\otimes_{k_0}k_0[[U]]^\#\right),\qquad
+ r_p=\max\{h:\bar Z\in U^h\mathscr H\}.
+\]
+这是有限生成、$U$进分离的模，且$r_p\ge1$。原局部基$\xi_1$及原$\mu=0$定理给$\operatorname{loc}(\bar Z)\ne0$，故$r_p$有限。所用$\mu=0$正是R1070已登记的原标准化：Burungale–He–Kobayashi–Ota，*Hecke L-values, definite Shimura sets and Mod $\ell$ non-vanishing*，Theorems 1.5、6.10，适用于本来的$K$上Q曲线及所有当前好惰性$p$；[原文](https://arxiv.org/pdf/2408.13932)。这里只需原局部像非零，不额外宣称在未核饱和性的位置比较$U$阶。
+
+每个$1\le h\le N$，系数乘$U^h$的长正合列给
+$\ker(\mathscr H\to H^1(k_0[X]/X^h))=U^h\mathscr H$，不需要$H^2$消失。$G_{L_j}$上$s\in N\mathbb Z_p$且$(1+X)^N=1\bmod X^h$，故真实Mackey限制在$e^{-1}$基下为
+\[
+ |B_1|\sum_{i=0}^{N-1}(1+X)^{-i}a^i v_j .
+\]
+中央$-1$使此限制仍单射。在$k_0[X]/X^N$中，因$N$为$p$幂，
+$\sum_{i<N}z^i=(z-1)^{N-1}$。取$z=a/(1+X)$，用
+$(D-X)^{N-1}=\sum_{l<N}D^{N-1-l}X^l$及
+$(1+X)^{-(N-1)}=1+X$，得到
+\[
+ \sum_{i=0}^{N-1}(1+X)^{-i}a^iv_j
+   =(1+X)\sum_{l=0}^{N-1}D^{N-1-l}v_jX^l. \tag{BS3}
+\]
+若$d_j=\dim_{k_0}k_0[D]v_j$，则$D^N=0$，且$D^tv_j\ne0$恰在$0\le t<d_j$。右端首格为$N-d_j$；$d_j=0$时整式为零。比较全部$h$准确给
+\[
+                 d_j=\max(0,p^{j-1}-r_p). \tag{BS4}
+\]
+因此真正原$\chi$分量于每个足够深的$j$都有实际单Jordan块，余亏恒为$r_p$。特别在$j=2$，
+\[
+              D^{p-3}v_2\ne0\quad\Longleftrightarrow\quad r_p\le2
+\]
+是§102整全域三阶截断非零的充分测试。特征零条件$A_Z\le2$允许模$p$头格因$p$整除而延后，故全部$k$的(BS1)仍是无损判据。深层非零和准确亏数没有证明$r_p\le2$或$A_Z\le2$发生于无穷多个$p$。

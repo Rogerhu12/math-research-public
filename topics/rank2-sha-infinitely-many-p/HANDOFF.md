@@ -12,7 +12,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 17:17:38 UTC按根规则8小文本备用通道读公开main a979ea8f1b6b2c41db5bd189ac9bed5f9b7a5227、私库main b257bcb5a3f0b5a7c067300251fc67e84bc42efc；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE c4874eda8dc6265e7861b44d916c4903416fcee1本题认领仍进行中。
+- 2026-11-28 17:18:04 UTC按根规则8小文本备用通道读公开main 7921b874906c1bf9f091798cd7ffc976889c1fc5、私库main b257bcb5a3f0b5a7c067300251fc67e84bc42efc；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE c4874eda8dc6265e7861b44d916c4903416fcee1本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 原两库均blob:none/depth1/sparse-index。为释放本会话磁盘，14:34逐文件SHA验证后将两.git移至/tmp/rank2-0b097461-public-git-metadata-20261128及/tmp/rank2-0b097461-private-git-metadata-20261128、保原路径symlink；其pack仍指向同名前缀public-git-pack/private-git-pack-20261128，四目标勿删。迁移后HEAD/status均同原值，释放57028608B；没有删他人文件。
 - 根规则8的备用通道只传<100KB文字；本次只归档原人类open/log/H研究记录与写证明，无数学本地执行或可重算CI日志入库。原topic库存约47.7MB，新增仍守全部大小限制。
@@ -30,7 +30,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 [§§74–97原证](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)已96170B；[§98起](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)续原证明，索引/归档保§§1–73及全部旧参数，登记不重做。固定E17秩2；p>211、p≡5mod6、(17/p)=1，β=√17在Zp。E17方向ψ₁₇((a))=a/ε₁₇(a)、ε₁₇(u)=u。
 §§74–79原CW/周期给d^ac=6fH^ac A_pξ₁、坏T³自动T⁴、原Y_k=0⇔p^k|a₂。任何k非零已足够，目标是a₂∈Qp非零，无需强求模p单位。
 §§80–97全部LT/Hecke/Cartier/同步剪切/原四槽BD1已付，原文与H归档保每一混项。G(T)=X(T)^p、DH=−x/c_p−s^(p−1)、一般q-Frob重标t→−pt不可删。原倒数点皆非挠，七进首格因子5；全权K独立、一般AST第二种母量非代数和单补偿Bost无穷非零均不代完整四槽。实际整μ/H母式给原N rem D顶次系数、degD≤6p²+12p+880；普通π盖全390源及所有k精度仍保全部权与实际非零E[π]轨。完整第三评价仍未付。
-§98交换子只除2从Y_k无损恢复基域类，星点Tate配对保原p^k；非零类有真实全域一阶提升障碍，不能转成其它坏位单项。§99 AH原特征等式付全域Z₀整零、唯一Z/U；真实一次类z₁非零⇔a₂非零，原数准确为z₁ᶜ与固定P一级Bockstein的PT配对。§100固定103原函数给完整全域一次幂余数，原位更正R303辅助因子为ℓ²+ℓ；原两点预选参考素无损读λp，指定惰性素经真共轭降为单一范数一余数，跨p非零未付。§101原每k测试接同一p+1条循环邻曲线，全实方向保每一Tate校正；首校正全驯函数域非幂不代实际求值/全和。§102准确strict余秩s−1及p-parity给更弱门A_Z≤2；全Sha有限⇔Xstr,(U)循环。真实全球三行每k检测此门，允许z1=0/z2≠0及a₂=0。完整第三评价未付。
+§98交换子只除2从Y_k无损恢复基域类，星点Tate配对保原p^k；非零类有真实全域一阶提升障碍，不能转成其它坏位单项。§99 AH原特征等式付全域Z₀整零、唯一Z/U；真实一次类z₁非零⇔a₂非零，原数准确为z₁ᶜ与固定P一级Bockstein的PT配对。§100固定103原函数给完整全域一次幂余数，原位更正R303辅助因子为ℓ²+ℓ；原两点预选参考素无损读λp，指定惰性素经真共轭降为单一范数一余数，跨p非零未付。§101原每k测试接同一p+1条循环邻曲线，全实方向保每一Tate校正；首校正全驯函数域非幂不代实际求值/全和。§102准确strict余秩s−1及p-parity给更弱门A_Z≤2；全Sha有限⇔Xstr,(U)循环。真实全球三行每k检测此门，允许z1=0/z2≠0及a₂=0。§103原全域纯log奇偶行分别在预选参考素保1/δ坐标；完整χ野块d_j=max(0,p^(j−1)−r_p)，µ零给r_p有限但不控跨p上界。完整第三评价未付。
 
 ## 原中央与完整全层：R1070/R1072
 
