@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`0a8e4be1a04c20b9776b8c46495f84bb119d7689`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–26通常5分钟真pull，已读commit保末槽，12–18末槽保终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即真pull。云核至`1e13bfd1d1a894437cadab7772cc36da2db0391a`仅远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变化只读diff即执行；活19–26通常5分钟真pull，已读commit保末槽，12–18末槽保终态note/旧H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[观测支持](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
 科学仅公开Actions；新raw只runner/scratch。保全源参/run/whole输出身份/typed/未知失败；不新增AST/fixture/重跑/审查门，不减目标或预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。根15允许退可完整再生旧数据，保结论/源参/run/SHA/精确恢复；前批包装范围不是全局旧raw禁令。
@@ -22,7 +22,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 | 20=46079535427 | e70a/accepted3/g.9658357818598327；六族返，完整report未返。 |
 | 21=46084442413 | 初7e06/accepted0/g2.541916739245917；5f731真实第四拒，下一379965仅统计。 |
 | 22=46090913581 | 半波b1/2；97fbb/accepted1/g.5294703284893127；下一e906e仅统计，几何未知。 |
-| 23=46094430214 | 全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计。 |
+| 23=46094430214 | 全波b1/2恢复policy；d86d/accepted1/g.9679630392005256；下一87c076仅统计。 |
 | 24=46096380016 | 半波b5/8；初7e06/accepted0/g.6122924171813162；下一a464仅统计。 |
 | 25=46099929359 | 两input0；初7e06/model6f3ae32/accepted0，Phi/Gram/六g同22初场；K12.32709940409259、s2.1573631007205925、phiπ/2真返。 |
 | 26=46103106086 | 03:29:40Z从a6c9c101启动，job140849792210；R725 b1/2/ε1/8实际新场待返。 |

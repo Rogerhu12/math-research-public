@@ -114,7 +114,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；e70a/accepted3/Phi3824.9508918379306/Gram.6460501386747761/g.9658357818598327；六族返仍不可行。 |
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；5f731真实第四拒；下一379965 Phi3233.3855485375534/Gram.6568825760949264仅统计。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；97fbb/accepted1/reachg.5294703284893127/distplus.11391376026366629仍正；e906e Phi681.6473711639321/Gram.40616528955370923仅统计。 |
-| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计，几何/策略未知。 |
+| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 全波b1/2恢复policy；d86d/accepted1/g.9679630392005256，六族返仍不可行；下一87c076仅统计。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 半波b5/8；初7e06/accepted0/g.6122924171813162；下一a464 Phi886.6498886762892/Gram.47296582200907233，仅统计。 |
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 46099929359/1两input0；初7e06/model6f3ae32/accepted0，Phi/Gram/六g逐项同22初场；K12.32709940409259/s2.1573631007205925/phiπ/2真返；trial/cache效果未知。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725 b1/2/ε1/8；46103106086/1/job140849792210于03:29:40Z从a6c9c101启动；新场未返。 |
