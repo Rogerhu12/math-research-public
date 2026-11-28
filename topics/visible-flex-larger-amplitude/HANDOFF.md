@@ -62,3 +62,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 已闭41/R764/R766的实际规则pull历史保各ownnote及[576d完整H](https://github.com/Rogerhu12/math-research-public/blob/576d836ce9dcdf02b8960cdb72bcef55c95b4c57/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
 [R772/48](notes/2026-11-28-R772-and-run48-complete-coherent-shear-launch.md)：新同g参考全t reach≥1/21/D<1.55、握>.68/held>.315、δE≥.019；中带唯一混合欠。真非分离12源/六初点+双4/8/16及各65+7全预算启动，每次周期pull立即整note/H发布。
+<!--run48-coherent-shear-->48 [实测](notes/run48-coherent-shear-46172365283-1.json) 双README真pull 2c4085a2b84fc06e7b42f03cb1b8eb49cef9b85f
