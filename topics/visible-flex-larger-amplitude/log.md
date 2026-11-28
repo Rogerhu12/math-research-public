@@ -558,3 +558,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:03:08 UTC — 准确费用完整异常入口与19真实失败边界
 
 [五完整件](computations/complete-accurate-fee-exception-entry-source-delivery.json)63163B普通发表：wrapper14448/16c18a23、whole-parent参数转换11211/1e0c8055、实际证据14696/7a8961f5、完整说明14679/1b18e6ad、总表8129/5c982f07。真实19 N exit1/324.00838658499924s没有报告/异常类型/消息/栈，实际原因仍null；完整c6f6原源显示source/whole input/context/packet/request planning在首次write/try之前，7参数e717.from_files实匹配，不误诊缺keyword。wrapper以原__main__/__file__/sys.argv和原完整SHA源只执行一次，保stdout与SystemExit/BaseException重抛，独立诊断保完整trace链/ExceptionGroup不含locals；大trace仅runner保whole身份，不冒返回全文或SIGKILL能保存。原38词全保加9wrapper词成47，原输出/进度/全部domain/budget及源guard不变；不把diagnostic当数学report、不把exit0当费用完整。不重跑终态19，不改任一活动request/queue，未来真实whole输入才接。[全说明](notes/2026-11-28-actual-run19-normal-failure-and-complete-exception-entry.md)。双README云核至`0005de00951671f180504db47d8b67e9bcf628b6`无变（非pull）。
+
+## 2026-11-28 05:04:48 UTC — 28双输入完整返回、真实模型与初始六族位置
+
+28两输入自然0/source9704462与0969e7a，报告65325/c04003dc、84966/aeeaf069；science b1a8554/PID3331/driverd1c99/model61c654，初7e06 accepted0/Phi681.6517423825409/Gram.40616525311769985/reachg.5305849371949052/distplus.11391238912344381；K12.32709940409259/cell885/u.8306046932331322/phiπ/2/branch1/s2.1573631007205925。11e66试点仅开始无统计/几何，不混25模型；全源命令/输入输出/六族/未知/原观察错误保。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。双README云核至`51541e87685d0332ea9f064593c5e2dc9f27872c`无变（非pull）。
