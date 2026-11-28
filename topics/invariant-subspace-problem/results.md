@@ -26,6 +26,8 @@
 
 ## 新增结论
 
+- [R150：完整个别奇N/P的两条直接六次范数](results/R150-appendix-unit211-general-original-odd-NP-two-direct-sextic-norms.md)：E_i=a_i+b_iσ+c_iq的完整q乘子和C_i=M a_i²−D b_i²的原(q,E_i)身份显示，无D逆/正D清除；比较旧Low的4m²D²身份，保D0非约化与同σ条件，未宣称独立范数足够。
+
 - [R267：固定原平方分母、范数平方源与同Ω列桥](results/R267-appendix-fixed-original-denominator-and-norm-square-vacuum-source.md)：由实际首偶幂和解析平方根单位构造Q*，P0=CQ*²；误差O(|s|²)及全矩身份严格。F+Ω=e+覆盖m0=0，原X(s)Ω强子列足够超不变桥，正锥还付列范数正下界；未付上界/紧性/根域包含。
 
 - [R150：正确Phi完整NV二矩范数、原两源身份与二次t头](results/R150-appendix-unit211-Phi-zero-corrected-whole-NV-two-moment-norm-and-quadratic-t-head.md)：同原q=Mσ²−D和ell²NV直接给C=(MZ0+DZ2)²−MDZ1²，无D逆/正清除。正确Phi仿射恢复付t次≤2、几何总次≤6和显示两因子t²头，保D0非约化与所有头零；不代同根充分性。
