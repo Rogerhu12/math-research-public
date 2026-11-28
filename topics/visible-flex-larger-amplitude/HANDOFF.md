@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33及00:40新重置后唯一探测均失败；恢复即真pull。云核至`08510738baa395d4af8930a4fcf6e5d0abe47d42`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活18–21通常5分钟真pull，已读commit保末槽，终态12–17末槽保旧H/终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33及00:40新重置后唯一探测均失败；恢复即真pull。云核至`65fa581ed617e3c283278bedde248941e91299b6`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活18–21通常5分钟真pull，已读commit保末槽，终态12–17末槽保旧H/终态note。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD整合循环，不冒pull或force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅公开Actions；raw只runner/scratch，不Git/Release/artifact/改名输入。全源/参数/真实run/whole输出/typed/未知/失败保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。不加AST/fixture/重跑/审查门，不减目标或原预算。
 
@@ -44,7 +44,7 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；全32s
 
 ## 容量与承接
 
-[ret56全账](computations/legacy-prelaunch-window-metadata-retention-56-complete-delivery.json)精退189旧描述净1356698B，全部字段/原writer/reader及精确Git恢复保；ret53–55全链见旧H。全raw/检查点/report/source/config/spec/请求、canonical/parent91/ports/Nelder/活源保，每fresh树核200MB。root接真实求解/refs；construction续容量，solver全22参数，geometry新物理准确费用。未完成不停。
+[ret57全账](computations/legacy-small-core-request-metadata-retention-57-complete-delivery.json)精退13旧请求包装净200328B，全部字段/73源/15输入/原reader/Git恢复保；ret56净1356698B及53–55全链保原记录。全raw/检查点/report/source/config/spec/请求、canonical/parent91/ports/Nelder/活源保，每fresh树核200MB。root接真实求解/refs；construction续容量，solver全22参数，geometry新物理准确费用。未完成不停。
 
 <!-- visible-larger-parallel-18:start -->
 Actions18：[run 46062343475/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46062343475)；[全阶段记录](notes/2026-11-27-public-actions-46062343475-1.md)。running；已返8，exit=未返。

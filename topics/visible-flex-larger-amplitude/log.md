@@ -182,3 +182,9 @@ ret56精确退144窗口/32prePopen/13wrapper，毛1805389B；8完整附件448691
 ## 2026-11-28 00:57:04 UTC — 17官方终态，原科学未自然返回
 
 run46053911348/1及job140691661221 completed/cancelled@00:53:34Z，明确原因未知；最后原索引只两input0/current e2c1ad7/accepted3/g2.0441496554550835，下一52bca仅开始、统计/几何未返。完整官方返回/原active/末真pull槽保17note，不造final/pure或迁raw；研究继续18–22。双README云核至`08510738baa395d4af8930a4fcf6e5d0abe47d42`无变（非pull）。
+
+## 2026-11-28 00:58:00 UTC — ret57完整旧请求包装保全
+
+只退13 exact pre-execution包装452401B，6完整保全件252073B，净200328B；全部原嵌套字段/73源/13workflow和保留命令/15输入父status/真实失败/旧request78读者合同保，固定f81da9c6 Git原字恢复。数值raw/报告/checkpoint/source/config/spec/原请求/22全源参不退，接完整22启动。
+
+双README云核至`65fa581ed617e3c283278bedde248941e91299b6`无变（非pull），实际活runner末pull保H；本整理不是数学完成。

@@ -123,4 +123,6 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722�
 
 [ret56](computations/legacy-prelaunch-window-metadata-retention-56-complete-delivery.json)精退189纯旧描述净1356698B；144窗口/32prePopen/13wrapper所有原字段、source/config/预算/reader与Git恢复全保。ret53/54/55净1822833/1113720/446483B全链保旧完整open。全raw/检查点/数值report/源/原请求/config/spec、canonical/parent91/ports/Nelder不退；可选旧reader先恢复原字，容量整理不付数学结论。
 
+[ret57](computations/legacy-small-core-request-metadata-retention-57-complete-delivery.json)独立精退13旧pre-execution包装净200328B，完整原请求/73来源/13workflow与命令/15输入父status/失败及真实request78读者恢复保；原数值、源、配置、请求和活22均不退。
+
 README未完成；时长、阶段、失败和输入困难均非终点，继续真实求解与全固定目标精化。raw仅runner/scratch，保完整源码/配方/真实run与SHA。
