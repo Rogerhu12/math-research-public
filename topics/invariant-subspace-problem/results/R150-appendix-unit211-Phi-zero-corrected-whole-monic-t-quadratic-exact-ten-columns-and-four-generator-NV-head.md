@@ -67,10 +67,10 @@ $$
 \tag{4}
 $$
 它来自更正后双点乘法的完整原身份
-$
+$$
 2\mathcal R+E_1-bE_B-cE_C=0,\qquad
 bE_B+cE_C=\ell E_{Be}+mE_{Bo}.
-$
+$$
 因此 $(E_1,E_B,E_C)$ 与 $(\mathcal R,E_{Be},E_{Bo})$ 给同一原均值理想。该身份先在 $E_0=0$ 的原 Gram 上成立；其自由权来源见[原 alpha/chi 坐标](R150-appendix-unit211-W-global-original-alpha-chi-polynomial-coordinates.md) §2，本文仅引用 W 权代入之前的完整身份。由 (2)，
 $$
 a_R=[t^2]\mathcal R
