@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GRQ-R：原日志成员差异的零科学失败与整件接收修复](notes/2026-11-28-GRQ-original-log-read-recovery.md)：真实首次46138256969/1在第一个日志成员名选择失败，0恢复/0新格。新reader读完整ZIP全部member，只接受唯一同字节的原GCS/GPR小回执及原成功attempt/event，原数学/全部SHA/四分支和prefix不变；root两原日志独立读取及29whole/AST准入成功，新路径首次接续。
+
 - [GBC：193个真有符号边值列和外端物理预条件](results/R149-supplement-all-signed-hybrid-boundary-columns-and-terminal-physical-preconditioner.md)：在原GG两个whole actual成功后，保同1424格真hybrid、left96/right97含mean的193个齐次边值列；整root/cut/weightedouter及两全193 Gram均有向保存。原signed Wc构造97+96 M0，先真internal门后以PD的两margin和det验证完整physical逆；尚无GG列或物理门数值，不替代原TP历史。
 
 - [GSF：原首个genuine秩一强体源的实际全域入口](results/R149-supplement-first-genuine-rank-one-forcing-in-the-original-strong-window.md)：原G.6/G.9的R(w0)保完整B、两原Airy状态与input，实际秩一抵消留下Tφ=O(ρ²)；原顺序一次genuine B分部取得H^{-4/3}→L²(dr;H^{-5/3})费用，再乘同根窗已付J<2。新入口从176whole原格只算支持相交67格的全部θ及θφ，加根到cut原整复条；13pins与AST核过、各自然格完整gzip/原子SHA及dyadic可续矩，尚无actual科学结果。

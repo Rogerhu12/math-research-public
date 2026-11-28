@@ -303,3 +303,6 @@ GSF：原G.6/G.9的R(w0)保完整B、两原Airy状态与input，实际秩一抵�
 
 
 GBC：在原GG两个whole actual成功后，保同1424格真hybrid、left96/right97含mean的193个齐次边值列；整root/cut/weightedouter及两全193 Gram均有向保存。原signed Wc构造97+96 M0，先真internal门后以PD的两margin和det验证完整physical逆；尚无GG列或物理门数值，不替代原TP历史。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GRQ-R：真实首次46138256969/1在第一个日志成员名选择失败，0恢复/0新格。新reader读完整ZIP全部member，只接受唯一同字节的原GCS/GPR小回执及原成功attempt/event，原数学/全部SHA/四分支和prefix不变；root两原日志独立读取及29whole/AST准入成功，新路径首次接续。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

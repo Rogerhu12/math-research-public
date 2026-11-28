@@ -1,0 +1,132 @@
+name: Genuine signed first ratio from both complete original run logs
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-true-ratio-original-run-log-recovery.yml
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-exact-true-ratio-label-quadrature-20261128
+  cancel-in-progress: false
+jobs:
+  full-signed-first-ratio:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 355
+    steps:
+      - name: Install public read-only repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates curl
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_root_input.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_residual_transport.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_signed_speed.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_circle_validation.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_global_validation.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+            /topics/visible-flex-exact-nearby/results/R149-supplement-regularized-action-moments-and-full-circle-phase-residual.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-small-true-root-label-H1-on-the-complete-physical-root-patch.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-true-ray-speeds-from-the-saved-complete-direction-envelopes.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-continuous-two-ray-comparison-and-integrated-physical-H1-error.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_first_ratio_first_order.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_damped_radial_moments.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_first_raw.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_label_mesh.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_cut_and_reference.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_physical_packets.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_label_quadrature.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_restore_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_prefix.py
+            /topics/visible-flex-exact-nearby/results/R149-supplement-first-order-genuine-ray-ratio-by-signed-wave-integration.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-positive-moment-reception-and-sharp-one-sided-direction-cost.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-fixed-label-whole-first-ratio-quadrature-and-real-reflection.md
+            /topics/visible-flex-exact-nearby/notes/global_fold_free_transport_finite_jets_ci/run-43820816332-1/actual-scientific-conclusion.json
+      - name: Verify the entire original and new sources
+        working-directory: topics/visible-flex-exact-nearby
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sha256sum -c - <<'CHECK'
+          9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b  scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+          c23734e005a9bd80941aebeb6b23858aecc0d5d2715ffcc02fcc5ac889a6b129  scripts/fourfold_codazzi_true_characteristic_root_input.py
+          935b84c00ac651c3a9bd099dcd25575de8a4da19bb54c285da97e3560724ceb3  scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+          1ce2c645aef08121289b90442c079f836266ec51dfb289a54540e5b07f339bd3  scripts/fourfold_codazzi_true_characteristic_seed_owner.py
+          15e0ab8809dbf8642031d17a670635405e92dd1ae0e96a8a5074de5f5a8b337d  scripts/fourfold_codazzi_true_characteristic_residual_transport.py
+          217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718  scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+          474955e7fd52c9a6b25c949bf652d7d0a6c8a8cf774f92f2a8e3ccd063d2567c  scripts/fourfold_codazzi_true_phase_original_inputs.py
+          f5e26f67d703a74426b435cc512d6fb4947942dd344f21065568b0ff079bf893  scripts/fourfold_codazzi_true_phase_signed_speed.py
+          91da00f44705b73a21222df7cf3f52d949a6eba0e4d9413f177328a7160c0a7e  scripts/fourfold_codazzi_true_phase_circle_validation.py
+          5e8e2c270d4868e4d4850557d8f7965056cf72289a67ff7131c7efacc9aeae0a  scripts/fourfold_codazzi_true_phase_global_validation.py
+          f6e5f9fe938d897c2b57d3d34e42391455fc6cea9804576d4dcc90b2021a8351  notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+          f898c29758919de82b8f36b5ca2bf7d000f8fea631cfcdda723372e03c8b0fa9  results/R149-supplement-regularized-action-moments-and-full-circle-phase-residual.md
+          7b71709859aff2352e1fa867c497f70e8aef7df604049af3bf661e1c292e7c78  results/R149-supplement-small-true-root-label-H1-on-the-complete-physical-root-patch.md
+          ccae8ce0b69bb4ac54659b74ee56dcb4ede4666249e7e6b3fb1367e6838de522  results/R149-supplement-true-ray-speeds-from-the-saved-complete-direction-envelopes.md
+          185cd804a571aced38a232260a96db40009fb2d63a391e11f0fff52410f75289  results/R149-supplement-continuous-two-ray-comparison-and-integrated-physical-H1-error.md
+          c79ddae79bd11f44aa1892e9f3549defec53f08b876175ba1bfd19e7268ae075  scripts/fourfold_codazzi_true_first_ratio_first_order.py
+          3089e040e2ba7223c976ff14878f759922aecc0da8b46f1b30846b157b738f29  scripts/fourfold_codazzi_true_damped_radial_moments.py
+          e21f320fb2b6dcde9f3124e709d0068c5e13ea21bbdc28f56c2bef7f4e5459ab  scripts/fourfold_codazzi_true_ratio_first_raw.py
+          bc8814629cca6bd31a2d0ffaee58aa27aaeca4d17805d6408e9c2add2ccbe2bf  scripts/fourfold_codazzi_true_ratio_label_mesh.py
+          24bc64128128f79f26d7f18a04792950baf4018f4b8d515a8baf8d46a1c7859c  scripts/fourfold_codazzi_true_ratio_cut_and_reference.py
+          674e1e9bb34d5a5cb50165fa9f09303affab3730b44290ba1b1bb76bce901dce  scripts/fourfold_codazzi_true_ratio_physical_packets.py
+          03bb922f79b0f6e657df5fa43196c9ed939d26248af6c1df530f389b09d1de5c  scripts/fourfold_codazzi_true_ratio_label_quadrature.py
+          163c48537c8100bd54dd1ac973978b009ca165ff682b95644420427888bbff6b  scripts/fourfold_codazzi_true_ratio_restore_inputs.py
+          6586b4b034a34e733319e039b53852c72db0cdf13634ae9f2735eaf1e1dc38ab  scripts/fourfold_codazzi_true_ratio_live_rules.py
+          fcc08a0e5f8769b0c215ee25e61d6ecaf73c308d14adb24d68b39bc6328833a3  scripts/fourfold_codazzi_true_ratio_prefix.py
+          bb46a7d7fa520b99b39328369634988bc19cb79ce3a92be8df2712f834b34d29  results/R149-supplement-first-order-genuine-ray-ratio-by-signed-wave-integration.md
+          91700b1c9f29a3b7a6bbeb30a5d011826a89b47e2ca575a58145162f554013c0  results/R149-supplement-positive-moment-reception-and-sharp-one-sided-direction-cost.md
+          30f59393d38ebde1b6396e46abb7ce70dcb04abd2c2e0ddc6cdf1f5503880294  results/R149-supplement-fixed-label-whole-first-ratio-quadrature-and-real-reflection.md
+          8af3af0a2dc08a6611189178099c63b0e2ac5ae8e9d767c0e211861c6d63de1e  notes/global_fold_free_transport_finite_jets_ci/run-43820816332-1/actual-scientific-conclusion.json
+          CHECK
+          python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0
+      - name: Read the exact first successful GCS and GPR attempt observations and logs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          mkdir -p "$RUNNER_TEMP/grq-logs"
+          for id in 46132087372 46135620219
+          do
+            url="https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs/$id"
+            curl --fail --silent --show-error --location --retry 3 --header "Authorization: Bearer $GH_TOKEN" --header "Accept: application/vnd.github+json" --header "X-GitHub-Api-Version: 2022-11-28" "$url/attempts/1" --output "$RUNNER_TEMP/grq-logs/$id.json"
+            curl --fail --silent --show-error --location --retry 3 --header "Authorization: Bearer $GH_TOKEN" --header "Accept: application/vnd.github+json" --header "X-GitHub-Api-Version: 2022-11-28" "$url/logs" --output "$RUNNER_TEMP/grq-logs/$id.zip"
+          done
+      - name: Restore both necessary original private inputs to their whole SHA
+        env:
+          OPENBLAS_NUM_THREADS: 1
+          OMP_NUM_THREADS: 1
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_restore_inputs.py --repo "$GITHUB_WORKSPACE" --logs "$RUNNER_TEMP/grq-logs" --private "$RUNNER_TEMP/grq-inputs"
+      - name: Integrate all four genuine first-ratio branches and their real physical reconstructions
+        env:
+          OPENBLAS_NUM_THREADS: 1
+          OMP_NUM_THREADS: 1
+        run: |
+          parent="$RUNNER_TEMP/grq-inputs"
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_label_quadrature.py --repo "$GITHUB_WORKSPACE" --private "$RUNNER_TEMP/grq" --receipt "$RUNNER_TEMP/grq-result.json" --seed "$parent/true-signed-cut-seed.bin.gz" --seed-receipt "$parent/gcs-receipt.json" --phase "$parent/true-phase-inward-complete.bin.gz" --phase-receipt "$parent/gpr-receipt.json" --phase-receipt-sha 586c1a68fd29bcb622fc2a932f0f82b6fa52468215491bec41490d9265c327c9 --phase-run 46135620219 --phase-event 12cd72d84df91a464d4d01faed764b1661af228f
+      - name: Record only the complete small owner receipt
+        if: always()
+        run: |
+          if [ -f "$RUNNER_TEMP/grq-result.json" ]; then
+            python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_prefix.py "$RUNNER_TEMP/grq" "$RUNNER_TEMP/grq-result.json"
+          fi
+          if [ -f "$RUNNER_TEMP/grq-live-rules/status.json" ]; then
+            cat "$RUNNER_TEMP/grq-live-rules/status.json"
+          fi

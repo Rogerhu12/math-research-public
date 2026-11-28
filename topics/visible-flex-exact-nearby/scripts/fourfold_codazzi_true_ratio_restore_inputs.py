@@ -28,25 +28,46 @@ def require(condition,message):
     if not condition:raise ValueError(message)
 
 
+def original_log(path,spec):
+    run,_,length,digest,step_log,marker=spec
+    # GitHub can return aggregate job logs, separate numbered step logs,
+    # or both. File names are presentation metadata. Consume every archive
+    # member to EOF and require all copies of the actual receipt to agree.
+    prefix=(marker+" ").encode();rows=set();members=[]
+    with ZipFile(path) as archive:
+        for entry in archive.infolist():
+            if entry.is_dir():continue
+            hits=0
+            with archive.open(entry) as f:
+                for line in f:
+                    before,sep,body=line.rstrip(b"\r\n").partition(prefix)
+                    front=before.removeprefix(b"\xef\xbb\xbf").strip()
+                    if not sep or not body.startswith(b"{"):continue
+                    if front and not (front[:4].isdigit() and front.endswith(b"Z")):continue
+                    rows.add(body+b"\n");hits+=1
+            if hits:members.append([entry.filename,hits])
+        if not rows:print("GRQ_ORIGINAL_LOG_MEMBER_NAMES",run,archive.namelist(),flush=True)
+    require(len(rows)==1,"one distinct complete original scientific receipt across the whole job archive")
+    raw=rows.pop()
+    require(len(raw)==length and sha256(raw).hexdigest()==digest,"the exact original complete small receipt bytes")
+    print("GRQ_ORIGINAL_PUBLIC_RECEIPT",run,length,digest,"matched_members",members,
+          "documented_step",step_log,flush=True)
+    return raw
+
+
 def original(directory,spec):
-    run,event,length,digest,log,marker=spec
+    run,event,_,_,_,_=spec
     observation=json.loads((directory/(run+".json")).read_bytes())
     require(str(observation["id"])==run and observation["run_attempt"]==1
             and observation["head_sha"]==event and observation["event"]=="push"
             and observation["status"]=="completed" and observation["conclusion"]=="success",
             "the original successful first attempt and event")
-    with ZipFile(directory/(run+".zip")) as archive:
-        require(archive.namelist().count(log)==1,"unique original scientific log")
-        body=archive.read(log)
-    prefix=(" "+marker+" ").encode()
-    rows=[row.split(prefix,1)[1]+b"\n" for row in body.splitlines() if prefix in row]
-    require(len(rows)==1 and len(rows[0])==length and sha256(rows[0]).hexdigest()==digest,
-            "the exact original complete small receipt")
-    value=json.loads(rows[0])
+    raw=original_log(directory/(run+".zip"),spec)
+    value=json.loads(raw)
     require(value["complete"] is value["proved"] is True and str(value["run"])==run
             and str(value["attempt"])=="1" and value["event_commit"]==event,
             "whole historical receipt bound to its own successful workflow")
-    return rows[0],value
+    return raw,value
 
 
 def restore(args):
