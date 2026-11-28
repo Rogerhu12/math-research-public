@@ -11,3 +11,5 @@
 - [R775：同R772初g的真正空间补偿横环](R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)，[完整六jet生成器](../scripts/resume_20261126/r775_nonplanar_compensated_section_two_jets.py)。全闭全相C²嵌入/定握、整held>.32、体积差>.02且δE>0；整环单位速、全部发展帽与头以及真实非零K角子带全g。两余窗/轴层的xx/xe及reach≥.03D尚欠，工作求积不当严格证书。
 
 - [49：同R772 g的真实空间横环完整拟合](../notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)。两完整头约束族各三初点及4/8/16全细化；整像轴向底限直接入场，原完整Gram/曲率/面积/法球弦和双69相/七网原预算，实际结果待返。
+
+- [R774：真实完整双斜折与单帽共同刚体四对障碍](R774-two-oblique-developable-folds-and-the-common-cap-centroid-test.md)。真实平物料整片全g准确；任意整帽刚体在规定中心下被>.005质心链隙排除；[两整球、独立折片、完整角区间四原任务](../notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)保全部预算，闭球余Gram/全管仍欠。
