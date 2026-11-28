@@ -149,3 +149,11 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:01:55 UTC到be479a0ebd3762207e459ae38deed08d6f15cf32，私库2026-11-28 13:01:44 UTC到c131028ec669fdf1870285e068c8c8de503cc160；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47113670B/tree8d1e907a0bf75676f34888798224b242faae0c8a，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:02:09 UTC到21e3710300d405488d5b328c263116569f28c321，私库2026-11-28 13:02:04 UTC到84e59334f87bc7d608300537904d92fab8ff64e0；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47113670B/tree8d1e907a0bf75676f34888798224b242faae0c8a，无>5MB。
+
+## 2026-11-28 13:05:13 UTC：v17真实前缀、v18排队与本地空间恢复
+
+根独立核v17完整可见前缀2101953/30dfd0…、12+10实际RESULT、80 Git blob/76pins、原F/P同次两认证，末12:47:08.5388279Z在∞纤维86/306，没有A端点后门。v18已推702f361f…，run46147595142 13:02:18创建，pending/零job。完整receipt分别续原生产注。共享盘逼满时只把本会话公共clone的900个pack相关文件、830648150B逐文件SHA比后搬到/tmp/rank2-0b097461-public-git-pack-20261128，原pack路径保symlink；全部refs/HEAD/clean工作树逐项相同，再删已验证原副本。公共盘恢复1.3GB可用；未删除他人文件或改数学源。前完整H逐字归档到notes/2026-11-28-handoff-before-v18-and-descended-graphs.md，原记录不丢。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:06:02 UTC到a8425df14d3f3a40009c6d5617bd16e3d2b7774b，私库2026-11-28 13:05:57 UTC到446ce2854cebefbfe7d04fd6529ea0099279a12b；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3268/47200666B/treeb7edec8297ae76240e6a449d1f850c34e7134665，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:06:16 UTC到1aefd16aadc17232a8d728369245132f05c8e749，私库2026-11-28 13:06:12 UTC到80e3350b26ee581f568d91e1761d394caac4355e；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3268/47200666B/treeb7edec8297ae76240e6a449d1f850c34e7134665，无>5MB。
