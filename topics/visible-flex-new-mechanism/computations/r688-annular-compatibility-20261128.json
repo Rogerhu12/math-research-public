@@ -1,0 +1,15 @@
+{
+  "source": "R681 double pulse, true R664 negative collars, R684 two capped components, R686 wide shoulders, R690 common translating crown bridges",
+  "h": 0.0002,
+  "collar_grids": [[320, 12], [512, 20]],
+  "joint_phases": [0.0, 0.3, 0.65, 1.0],
+  "independent_phases": [0.0, 0.15, 0.3, 0.475, 0.65, 0.825, 1.0],
+  "field_grids": [
+    {"theta": 39, "rings": 5, "shift": 0.0, "body": 16},
+    {"theta": 63, "rings": 8, "shift": 0.31, "body": 23}
+  ],
+  "radial_spans": 2,
+  "fourier_modes": 2,
+  "initial_damping": 0.03,
+  "jacobian_step": 0.00000016
+}

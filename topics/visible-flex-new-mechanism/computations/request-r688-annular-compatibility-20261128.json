@@ -1,0 +1,61 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r688-actual-annular-joint-v1",
+  "public_rules_read_commit": "dfec61cbf6787f25e986801aa3576a5d419a21ee",
+  "private_rules_read_commit": "60bfd3705ecd51d8ed51a7a5cbcc983e5084102f",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r688_annular_compatibility_solve_20261128.py",
+  "workflow": ".github/workflows/visible-r688-annular-compatibility-20261128.yml",
+  "common_parameters": {
+    "geometry": "topics/visible-flex-new-mechanism/computations/r688-annular-compatibility-20261128.json",
+    "max_seconds": 2400
+  },
+  "lanes": {
+    "annular-window": {}
+  },
+  "scope": {
+    "new_true_R664_collars": true,
+    "actual_source_joint_design": true,
+    "R690_both_crown_bridges_common_translation_through_radius": 0.2005,
+    "aim_phase": 1,
+    "use_fixed_contradicted_crown_pose": false,
+    "frozen_metric": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py": "45f3ee532fc4cddc086131ec841e02e534eefff6bab29ccdf7b396c197d33df2",
+    "topics/visible-flex-new-mechanism/scripts/r688_annular_compatibility_solve_20261128.py": "04214c0205bdb02dbdf9d2d5cbbd15b4ac1e10857b7e1772afbff5582b5767bc",
+    "topics/visible-flex-new-mechanism/scripts/r688_closed_shell_observer.py": "325711283f372863d7d50963ff9c08dce37dd991db8885e58b110dad362adaef",
+    "topics/visible-flex-new-mechanism/scripts/r688_joint_window_field.py": "ebecb61d63859e774e952a4e388d8e4bfff701056b95a98cfd9dea1c62416592",
+    "topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py": "df8cd3a7e7caf99dc32b2c4c50c84955097c75a813124f22486d932b67f5e973",
+    "topics/visible-flex-new-mechanism/scripts/r688_two_port_material_atlas.py": "dd897d8e9252211dea23409d5f960224139a9c4920b805486f63200ca5d14184",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r688-annular-compatibility-20261128.json": "774e67247d6aa0b96afb882f4080659fdfcdb991ca66ca18750c7b1be5982408",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r688-actual-moving-crown-window-scope.md": "04e45498e88f0cb805a82156afa3b65b4ac0a88120e0c41589c40f24f5e353ec",
+    "topics/visible-flex-new-mechanism/results/R664-convex-moving-rim-common-negative-curvature-cap-collar.md": "8b113c2b5b5a918a5bc94043a022029f27cba1554a5057987e124e5e5f633089",
+    "topics/visible-flex-new-mechanism/results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md": "b3267f07b6571ee5992e97dcd0837b8858f5f0ba15090286be547a51521e2d16",
+    "topics/visible-flex-new-mechanism/results/R681-two-rigid-positive-crowns-and-one-reflected-window.md": "38ee71a0ee6ce58817c9f6513d345ec276422fbd2cac73625c67dae2546e789c",
+    "topics/visible-flex-new-mechanism/results/R682-same-sign-elliptic-moving-disk-and-exact-positive-turning-cap-bridge.md": "31ab70316f7dffd5e020eb34d93c2148e2d2d5d862f9386ba7d3c25a89e5de63",
+    "topics/visible-flex-new-mechanism/results/R684-directional-gauss-degree-and-two-solid-window-crowns.md": "cb5d52edeff0fbfb3fc9af42fd758d5b85b66381df4da62158000ca95a18e2e5",
+    "topics/visible-flex-new-mechanism/results/R686-framed-annular-window-and-curl-to-actual-metric-transfer.md": "f1307ad304addba405d38c32eff01697592458b5fb8a113bb5b70224aaac6be2",
+    "topics/visible-flex-new-mechanism/results/R688-crown-to-primary-material-paths-and-window-projection-rows.md": "4f2738061accd5fd62f4fe2361120523aabc49ec19b9fb0b5912ee2ff3ce7233",
+    "topics/visible-flex-new-mechanism/results/R690-window-short-material-path-and-moving-central-crown-poses.md": "3d8ed5403adec3338f13eb7e77b185a1c0b2cbdc819a830bdf5fd04bcee0d448",
+    ".github/workflows/visible-r688-annular-compatibility-20261128.yml": "a363946a0a515526faca7624b71b9518294f699506b4e8d272991d65f6b58189"
+  }
+}

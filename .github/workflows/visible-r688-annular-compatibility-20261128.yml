@@ -1,0 +1,69 @@
+name: visible-flex actual moving-crown annular compatibility
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r688-annular-compatibility-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r688-annular-compatibility-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Solve the true crown-to-primary annular window jointly with the source
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r688-annular-compatibility-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r688-annular-compatibility-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py
+            /topics/visible-flex-new-mechanism/scripts/r688_annular_compatibility_solve_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r688_closed_shell_observer.py
+            /topics/visible-flex-new-mechanism/scripts/r688_joint_window_field.py
+            /topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py
+            /topics/visible-flex-new-mechanism/scripts/r688_two_port_material_atlas.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/computations/r688-annular-compatibility-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r688-actual-moving-crown-window-scope.md
+            /topics/visible-flex-new-mechanism/results/R664-convex-moving-rim-common-negative-curvature-cap-collar.md
+            /topics/visible-flex-new-mechanism/results/R676-held-finite-bent-disk-and-closed-moving-rim-collar.md
+            /topics/visible-flex-new-mechanism/results/R681-two-rigid-positive-crowns-and-one-reflected-window.md
+            /topics/visible-flex-new-mechanism/results/R682-same-sign-elliptic-moving-disk-and-exact-positive-turning-cap-bridge.md
+            /topics/visible-flex-new-mechanism/results/R684-directional-gauss-degree-and-two-solid-window-crowns.md
+            /topics/visible-flex-new-mechanism/results/R686-framed-annular-window-and-curl-to-actual-metric-transfer.md
+            /topics/visible-flex-new-mechanism/results/R688-crown-to-primary-material-paths-and-window-projection-rows.md
+            /topics/visible-flex-new-mechanism/results/R690-window-short-material-path-and-moving-central-crown-poses.md
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Read both rule sets and solve on the actual public source
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r688-annular-compatibility-20261128.json --lane annular-window
+      - name: Preserve true dense collars, source sections and current solver state
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r688-paid-state-${{ github.run_id }}-${{ github.run_attempt }}
+          path: r688-paid-state/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
