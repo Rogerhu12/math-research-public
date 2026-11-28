@@ -1,0 +1,61 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "private_rules_read_commit": "8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e",
+  "schema": "r711-same-metric-active-rays-v1",
+  "public_rules_read_commit": "67e48c9f3f9027455395ea0c962a381ebf9a91a4",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r711_same_metric_active_ray_continuation_20261128.py",
+  "workflow": ".github/workflows/visible-r711-same-metric-active-rays-20261128.yml",
+  "common_parameters": {
+    "geometry": "topics/visible-flex-new-mechanism/computations/r711-same-metric-active-rays-20261128.json",
+    "max_seconds": 3500
+  },
+  "lanes": {
+    "actual-material-peak-rays": {}
+  },
+  "scope": {
+    "original_run": 46146638022,
+    "original_job": 140984024664,
+    "previous_columns": 4874,
+    "starting_q": -0.004,
+    "all_original_columns_and_all_singular_directions": true,
+    "physical_rayleigh_exchange": true,
+    "both_actual_L2_rows": true,
+    "immutable_metric_R673": true,
+    "readout_is_numerical": true,
+    "old_science_replayed": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r711_same_metric_active_ray_continuation_20261128.py": "5426ccfc8b89f21425ab2616545de9df6d74eb995fb33cf48c5d48eb5a6b9f3e",
+    "topics/visible-flex-new-mechanism/scripts/r711_relative_peak_correction.py": "4240f372bfb556dac591b027277d4b8e022250662d09c90504cd1e747d6593ca",
+    "topics/visible-flex-new-mechanism/scripts/r691_same_metric_bowed_pose_continuation_20261128.py": "c7718aa4e32be044a1b6d344ef9de0f39785e3889c77552a0f0a2566a26632b0",
+    "topics/visible-flex-new-mechanism/scripts/r685_hard_moment_physical_pose_20261128.py": "35de3aa8febc620502980b8202e941fcce4d595866e11b4393e6ceb4120d4f03",
+    "topics/visible-flex-new-mechanism/scripts/r675_bowed_endpoint_pose_response_20261128.py": "3064d56c589e7c93f5d90f1b9de63f19c706080b8615ac2c2dd4de53998b641b",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r711-same-metric-active-rays-20261128.json": "d885366a480a09fa9ca1faed574d4e7212d7048bf659f16e587afde3f1445482",
+    "topics/visible-flex-new-mechanism/computations/r691-natural-bowed-state-for-r711-20261128.json": "4cfe52dc4b2324147517d91ba75fd6dd823cc6aef189a7723a87133bda85952a",
+    "topics/visible-flex-new-mechanism/results/R711-full-space-material-rayleigh-cuts-on-the-fixed-bowed-pose.md": "f1a17f2070668a058a4a0d4beadd1a941f54353af1045baed03b3dbc9102b860",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r711-r691-natural-fixed-metric-terminal.md": "210eb2b0281c831b7dfb348357621ad5d6de43027ca1c01c31a6a559107dc5c9",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r711-same-metric-active-rays-scope.md": "5bc6cae66eed187880c349654f753b3f38be001736ab02b967c878d2bf8aba00",
+    "topics/visible-flex-new-mechanism/results/R691-physical-full-derivative-for-continuing-the-actual-fixed-bowed-pose.md": "44fa251e9b3d882ced6d5c8e77ea1b26d9773c4e0e2c44ef1f5dbdcbfa1a02c6",
+    "topics/visible-flex-new-mechanism/results/R673-thick-bowed-tilted-endpoint-metric-with-strict-intrinsic-chord-slack.md": "b3dc7828897bb4b57c04ee44662ba53dd64835b5c85f2369b1725bb59ffdfb2c",
+    ".github/workflows/visible-r711-same-metric-active-rays-20261128.yml": "8cbb3ff720b326e26e4c0ce5b68815d4dd2d62a4760377a1d3c13ae90e490e3a"
+  }
+}

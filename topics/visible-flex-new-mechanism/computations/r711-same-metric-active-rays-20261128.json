@@ -1,0 +1,32 @@
+{
+  "input_state": "topics/visible-flex-new-mechanism/computations/r691-natural-bowed-state-for-r711-20261128.json",
+  "input_sha256": "4cfe52dc4b2324147517d91ba75fd6dd823cc6aef189a7723a87133bda85952a",
+  "radii": [0.075, 0.22],
+  "ramp": 0.032,
+  "height": 0.0036,
+  "sine": 0.36,
+  "T": 0.03,
+  "cone_weight": 0.025,
+  "guard_fraction": 0.94,
+  "smooth_width": 0.0007,
+  "mu_min": 0.00000003,
+  "mu_max": 0.00016,
+  "ridge": 1e-12,
+  "peak_floor": 0.65,
+  "maximum_initial_rays": 32,
+  "angular_sectors": 24,
+  "peak_reductions": [0.10, 0.035, 0.009],
+  "exchanges": 3,
+  "fractions": [1, 0.66, 0.4, 0.22, 0.12, 0.06, 0.025, 0.01, 0.004, 0.0015],
+  "fine_order": 14,
+  "fine_angles": 168,
+  "final_order": 21,
+  "final_angles": 288,
+  "reserve_seconds": 150,
+  "numerical_goal": 1e-8,
+  "stages": [
+    {"K":18,"inner_subdivisions":[2,2,4,4,4,4,4,4,2,2,2,2],"order":7,"angles":64,"iterations":16},
+    {"K":20,"inner_subdivisions":[2,4,8,8,4,4,4,4,2,2,2,2],"order":7,"angles":72,"iterations":24},
+    {"K":20,"inner_subdivisions":[2,4,8,8,4,4,4,4,2,2,2,2],"order":9,"angles":82,"iterations":12}
+  ]
+}

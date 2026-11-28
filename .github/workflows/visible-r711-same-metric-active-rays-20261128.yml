@@ -1,0 +1,57 @@
+name: visible-flex actual fixed metric peak ray continuation
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r711-same-metric-active-rays-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r711-same-metric-active-rays-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue the actual bowed pose with material Rayleigh constraints
+    runs-on: ubuntu-24.04
+    timeout-minutes: 67
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r711-same-metric-active-rays-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r711-same-metric-active-rays-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r711_same_metric_active_ray_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r711_relative_peak_correction.py
+            /topics/visible-flex-new-mechanism/scripts/r691_same_metric_bowed_pose_continuation_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r685_hard_moment_physical_pose_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/r675_bowed_endpoint_pose_response_20261128.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/computations/r711-same-metric-active-rays-20261128.json
+            /topics/visible-flex-new-mechanism/computations/r691-natural-bowed-state-for-r711-20261128.json
+            /topics/visible-flex-new-mechanism/results/R711-full-space-material-rayleigh-cuts-on-the-fixed-bowed-pose.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r711-r691-natural-fixed-metric-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r711-same-metric-active-rays-scope.md
+            /topics/visible-flex-new-mechanism/results/R691-physical-full-derivative-for-continuing-the-actual-fixed-bowed-pose.md
+            /topics/visible-flex-new-mechanism/results/R673-thick-bowed-tilted-endpoint-metric-with-strict-intrinsic-chord-slack.md
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and evaluate the new finite input
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r711-same-metric-active-rays-20261128.json
+          --lane actual-material-peak-rays

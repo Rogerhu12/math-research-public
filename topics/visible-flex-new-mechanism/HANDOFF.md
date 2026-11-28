@@ -4,9 +4,9 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **d0880fd6d3dfc25d1443ad1429ba3811d0d0e917**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **67e48c9f3f9027455395ea0c962a381ebf9a91a4**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
-每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
+每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入；全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
 [四来源授权](notes/2026-11-28-takeover-sources-and-rules.md)、[结果索引](results.md)、[完整旧任务](open-archive-through-R690-20261128.md)及全历史保留。完成须同闭M/全t C²嵌入/固定g、hold≥.2D/dH≥.3D/reach≥.03D，全点全时metric≤1e−6且同g精化到机器或求解容差；真多t网格/存在差距/δE诚实。再做.5D或严格存在；中间结果/时长不算完成，不停等用户。
 
@@ -44,7 +44,7 @@ R655/R662的D<1/hold≥.201/dH≥.3/reach≥.03仍需同候选全域法向/曲�
 
 R680proper厚锚sinθ.27/偏心帽.56条件付κ<32.8/reach.03/D<1/hold.201/dH.3024。R683112接受/η.0304898非停滞E未冻；[R687](results/R687-global-darboux-frames-with-quantitative-periodic-immersion-reconstruction.md)run46146623642新468.454786866秒/100接受，R703真1604参273c656f/双轴η.03491061/κ27.0645/长度−.00081162。旧五段100J已付，全材连续证欠。
 
-R675全五响应旧账保留；R685准确矩不控弯曲，[原真12步](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/3152列/q−.004/η4.45883e−5/κ29.0581。[R691](results/R691-physical-full-derivative-for-continuing-the-actual-fixed-bowed-pose.md)保同g/全g±.03b/L4与原QR，先1e−6再扩大空间至1e−8才扩角。自然run46146638022新1982.649944039秒/58接受/62J/81QR/2升空间，R711接真终态；旧矩/站/响应不重。
+[R711](results/R711-full-space-material-rayleigh-cuts-on-the-fixed-bowed-pose.md)接R691 run46146638022新1982.649944039秒/58接受/62J/81QR，真4874参数K18/q−.004，双细η2.808729556e−5、κ29.5533，末段0接受未过R689门。保R673同g与真两阶刚帽，换源正交Gram/全真实曲率护行及全列Rayleigh+双L²方向，实际trial交换、全部奇异方向/正近端/双网原门；原全state/割线/两次升阶与旧费用均保留，不重旧矩阵。3500/150，达1e−8后仍欠连续族。
 
 R689球Taylor/真角积分/原结与两个冻结目标，只消费自然已过门场；新解析重建不冒充原109项角/离散积分场。可验真实q全区间，未授任意精化或完成。
 
