@@ -1,0 +1,40 @@
+{
+  "elapsed_seconds": 0.09119054100000312,
+  "max_child_rss_kib": 39544,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "a53594d32abd7523047a82f615b782cb459ebc39",
+      "before": "77fc3153e8d45529bd4686f12362992b92d8b11c",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T04:07:06.386811+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46106007773",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "77fc3153e8d45529bd4686f12362992b92d8b11c",
+  "source_exit_code": 0,
+  "source_git_blob": "f62e66a27d5c999a54d03631ab8d3b31297e7aa2",
+  "source_sha256": "5ee86ff89db7c8babaf3a22c7d72570dcdfbbf92646f56adf37bff854a87ace7",
+  "stdout_bytes": 20340,
+  "stdout_sha256": "4399003c089930444142500eaedeace6ba6aa2a42138a8e900503dc7f7e3bf0d",
+  "stop_reason": null,
+  "job_id": 140858793293,
+  "new_result": {
+    "all_24_true_original_coefficients_returned": true,
+    "all_four_maximal_minors_nonzero": true,
+    "all_denominators_use_only_original_Q_delta_Pf_chart": true,
+    "common_content": "Mn^2*(Q-2(u-1)(u-2))^3 up to nonzero scalar",
+    "first_residual_head": "(4(u-1)^2-Q)*(12u^2Q-16u^2-20uQ+32u-Q^2+8Q-16)",
+    "generic_head_rank": 3,
+    "all_head_zero_fibres_retained": true,
+    "old_error_chain_not_used": true,
+    "original_Phi_excluded": false
+  }
+}
