@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)46163490136：26/26真输入PID2746，首3低峰/1排厚对照全返；低峰Gram约3e17，Hessian权致巨步，握R准确不能代全g；原13阶段/两族4/8/16和各65相七网继续。
 [47](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)：原33完整140角色/1,333,370变量/32stage，严格非求导Horner值路径；17源/两ready root逐字核同，原157/7词和全部复读/预算保留，正常入口启动，未来数值未返。
 
-40/48/R769/R771真实完整返回正逐件读验；官方success仅是运行结束。33–35/41/42原终态、所有model/初点/拒绝/未返、36–39原flow和R724–750责任保上述完整open及各ownnote，不能另场借旧费用。
+48/R769/R771真实完整终态已独立登记，40末层正在读验；官方success仅是运行结束。33–35/41/42原终态、所有model/初点/拒绝/未返、36–39原flow和R724–750责任保上述完整open及各ownnote，不能另场借旧费用。
 
 ### 数学和新输入
 
@@ -121,7 +121,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：46168504031完整12stage/双69相/各7闭网全返，末同点整网g1.42695/1.42194、K883724/36017，有限细化失败；原初几何/参考经向与全源参仍保。
 [R769](notes/2026-11-28-R769-whole-meridian-and-four-complete-launches.md)：原四支三层24科学报告全返并独立登记；末全帽Gram3.26e5–8.99e6，shoot端残差.0141/.0191，未完成全g/厚度。完整源/系数/相位/25文三身份保原note；最终真pull f4a30b2fae7da95b9104b118e1f95f171a63e7ee。
-[R771](notes/2026-11-28-R771-unique-convex-meridians-and-two-complete-launches.md)：同R764 g全经线唯一B>0凸根、全gvv/两端/固定领准确，.42整像δE≥.0315；两支各3层可行形变+十一图全场原预算启动，余g/正相管欠。
+[R771](notes/2026-11-28-R771-unique-convex-meridians-and-two-complete-launches.md)：两支三层18科学报告全返；最高root约3e−13却高阶端残差9.85e−8/2.90e−5，全帽Gram79257.9/47203.4，未达标。全19文/18源/系数/相位核同；最后发布真pull c2bd1e8fbcdb84c4bfff6d880f64d18870242f24。
 [R772/48](notes/2026-11-28-R772-and-run48-complete-coherent-shear-launch.md)：原12阶段及两组69相/七网全部返回；最终同g误差.284705/.556472，未达标。全16报告三身份及各真物理点已独立登记；参考厚管不传给拟合场。最终真pull e316b72d5286f11b2ee174e18fb4c51f16181911。
 [R773](results/R773-unlabelled-section-rigidity-on-the-complete-R772-tube.md)：同R772 g无标记刚横环仅整刚；任意平行平面环不能轴退，连续平移分离亦刚。真轴退.30需sup|IIxe|>.31；不排一般非分离变圈。
 [R775](results/R775-spatial-compensated-rings-and-curved-exact-R772-subbands.md)：同R772初g真非平全环，三个端位逐侧闭；全相C²嵌入/定握、held>.32、volume差>.02⇒δE>0，整环/两完整发展帽及真曲角子带全g；余窗/轴层xx,xe及定量reach欠。 [49完整两族](notes/2026-11-28-run49-spatial-rings-and-hard-whole-image-motion.md)15源/六初点+双4/8/16及双终网启动，真全像位移底限直接入场。

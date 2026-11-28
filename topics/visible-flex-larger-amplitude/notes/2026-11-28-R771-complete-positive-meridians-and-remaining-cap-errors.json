@@ -1,0 +1,246 @@
+{
+  "fixed_conclusion_commit": "40341aeb2e07bbe34ea8647c962140045e10e8a5",
+  "source": "576d836ce9dcdf02b8960cdb72bcef55c95b4c57",
+  "run": "46171324381",
+  "attempt": "1",
+  "job": 141060171079,
+  "official": "success",
+  "started_at": "2026-11-28T17:35:49Z",
+  "completed_at": "2026-11-28T18:08:17Z",
+  "identity_columns": [
+    "notes path basename",
+    "bytes",
+    "sha256",
+    "git whole blob"
+  ],
+  "identities": [
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-0-feasible.json",
+      6488,
+      "e541bf13818ad48caac7dc3d25b3d3952299c3e63489f021740c40231ac3722d",
+      "d00735dfc99ad0cffce6c665c7bdc8a5e3542b3e"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-0-geometry.json",
+      44472,
+      "6fdf5c33a4282147e3ca9ec223670640acc8626da6e7b5a3db625b8769d92093",
+      "2dc5f0a7fad414a483e9957ef66d2c488d6657bb"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-0.json",
+      53827,
+      "ab66f68a2a5ee0ec708e402ba79c62aee82208978504b768c76c4cd5725f42ce",
+      "b38fec3b8c5288baae8952deb039872267c60f36"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-1-feasible.json",
+      6461,
+      "f0a71b44d8c6a318bb0e1d42255e5478d9ea0fa9b6cbded98662ca95edfb9311",
+      "3a22679632c97015abd2a56197f4043d7a5a25e5"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-1-geometry.json",
+      44412,
+      "30954e9fed47f53f6a4a86354d84cf6c92653b212b360efd2d27fd5023441da7",
+      "cce2fc79e63c0c303a38f4fbc41fb4c4fe8ef7a8"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-1.json",
+      53896,
+      "579412afc62e353ab7ce9329b10ffbf48ccc07642fe3c1c70cbd8c824ae27ac8",
+      "d8492c49b799877acb087ffa719108dff52acdf8"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-2-feasible.json",
+      6433,
+      "32e00089801b7ef8bd2cd89a89c0af488683776e392105575f7f0b4fcbc69bb6",
+      "273358da758d27a7ed34d228664efddd17b3cacc"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-2-geometry.json",
+      44435,
+      "6f21e268e5825ea0b452d1bf6624a6699672161e1a4e799afa09fb2b75b4fc1b",
+      "fba3abbcd98c2e2773bbda8a581c9de3ce92409e"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-300-level-2.json",
+      54043,
+      "736900fe9ab0af51c36e00ceab92b070143bf7d2ad4a51d41738d11f2e3cb8a6",
+      "a34db8af9f448525150d4a6c450efb1ddf1351df"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-0-feasible.json",
+      6487,
+      "70d26f76bde68130751e8b3607fa77db9aa17b119a9d00bc0ecc9e31c6b16772",
+      "0bacc7b2c14e228886cdc22b6f26533913dc0cde"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-0-geometry.json",
+      44487,
+      "f653eb08878dc65ff4097d813d270871db64241d335e13c8d6a3437a3d33ceaf",
+      "253e8e96372c2c9ff8047119668d7ad589afd2cb"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-0.json",
+      53700,
+      "f4027899645df3df06918ed01877a1591735b5c01f6488d158d43ab2c10f2870",
+      "bc5c2af142617bf2d2162a7f734c8e7772121e16"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-1-feasible.json",
+      6457,
+      "e0ad24b047669f4615aa0e790e68f0115f63adc70255a005967cd4aa6e7a5065",
+      "b929b3a05aec61d642aeb99a91c5ab85ba49cb3c"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-1-geometry.json",
+      44417,
+      "5a266b3dc700bfc45b934ed9baacfc296e398e217fab5dea442180adcef8f102",
+      "6d585d9da410f1d11127a83388494c028ae95dfe"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-1.json",
+      53707,
+      "fd00c144f9662bd9ea836b560a8ffccb83c645b6307d67d726e6b1e44d546210",
+      "edd70adc045692681eb174b2439f8014e6cce40f"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-2-feasible.json",
+      6417,
+      "e5382fdcdb75e614c59f407c4d9528db045aa8d7393d6da3a6688e4d61d057df",
+      "13b46621565d67e590834a2c9529d2e15fa2cb61"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-2-geometry.json",
+      44465,
+      "79e6d203cdebb18589cd2490a8903fe84933e7742e810a5cc47f9b5916669c10",
+      "b0010b82961531e6624716925c06892154f35228"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-convex-420-level-2.json",
+      53801,
+      "671c79928c9fec45b9cd2bdfff636990cba94b65d7a6eb9494446bd52c7c1bc2",
+      "3156c5c746f3e8efd8366468c647c98d4bcdd477"
+    ],
+    [
+      "r771-convex-meridian-46171324381-1-index.json",
+      9353,
+      "81be9305ad07ae637a0a290b81855a5e1447d82ad1280f95a0cc94d8fe707858",
+      "47b0150986617d36d41ebf06a72a8e3efb3974e8"
+    ]
+  ],
+  "finest_final": {
+    "convex-300": {
+      "fitted": {
+        "bytes": 54043,
+        "file": "r771-convex-meridian-46171324381-1-convex-300-level-2.json",
+        "last_phase_max_abs_principal": 3541344.7186910454,
+        "last_phase_max_metric": 79257.89712057449,
+        "last_phase_max_preband_chord_minus_path": -0.0028204659539947663,
+        "last_phase_min_support": -1.1529849115169803,
+        "last_phase_sampled_held": 1.5340770968995618,
+        "last_phase_signed_volumes": [
+          11.28913383591944,
+          11.28586198612238
+        ],
+        "sha256": "736900fe9ab0af51c36e00ceab92b070143bf7d2ad4a51d41738d11f2e3cb8a6"
+      },
+      "max_gram_chart": "cap-",
+      "max_principal_chart": "cap+",
+      "feasible": {
+        "bytes": 6433,
+        "file": "r771-convex-meridian-46171324381-1-convex-300-level-2-feasible.json",
+        "last_face_angular_and_shear": [
+          0.9337915645275823,
+          0.7377482252740323
+        ],
+        "phases": 7,
+        "sha256": "32e00089801b7ef8bd2cd89a89c0af488683776e392105575f7f0b4fcbc69bb6"
+      },
+      "true_convex_controls": {
+        "fallback_nodes": 0,
+        "higher_quadrature_independent_endpoint_max": 9.848218962113484e-8,
+        "max_abs_endpoint_root_with_address": [
+          2.4631527945896476e-13,
+          3.929094912921586
+        ],
+        "max_abs_implicit_control_derivatives": [
+          294.67957032162803,
+          15687.934121623057
+        ],
+        "max_hessian_eigenvalue": 22.64301547463165,
+        "max_raw_clipped_chord_excess_and_cap_motion": [
+          0.15372788276178184,
+          -0.00505424295244028,
+          0.17163390373138904
+        ],
+        "min_hessian_eigenvalue": 0.00005301952772280309,
+        "minimum_positive_axial_parameter": 0.008854233285119431,
+        "minimum_sampled_outward_axial_velocity_including_end": 0,
+        "root_function_evaluations": 10349,
+        "samples": 655,
+        "unit_and_orthogonal_derivatives": [
+          2.220446049250313e-16,
+          2.842170943040401e-14,
+          7.815970093361102e-14
+        ]
+      }
+    },
+    "convex-420": {
+      "fitted": {
+        "bytes": 53801,
+        "file": "r771-convex-meridian-46171324381-1-convex-420-level-2.json",
+        "last_phase_max_abs_principal": 15649125.40434073,
+        "last_phase_max_metric": 47203.38139296087,
+        "last_phase_max_preband_chord_minus_path": 0.03395856001235792,
+        "last_phase_min_support": -1.736839409026401,
+        "last_phase_sampled_held": 1.5390344947464856,
+        "last_phase_signed_volumes": [
+          10.504433236895487,
+          10.420508149020371
+        ],
+        "sha256": "671c79928c9fec45b9cd2bdfff636990cba94b65d7a6eb9494446bd52c7c1bc2"
+      },
+      "max_gram_chart": "cap-",
+      "max_principal_chart": "cap-",
+      "feasible": {
+        "bytes": 6417,
+        "file": "r771-convex-meridian-46171324381-1-convex-420-level-2-feasible.json",
+        "last_face_angular_and_shear": [
+          1.2002798115918671,
+          0.951164766776754
+        ],
+        "phases": 7,
+        "sha256": "e5382fdcdb75e614c59f407c4d9528db045aa8d7393d6da3a6688e4d61d057df"
+      },
+      "true_convex_controls": {
+        "fallback_nodes": 0,
+        "higher_quadrature_independent_endpoint_max": 0.00002897455817208022,
+        "max_abs_endpoint_root_with_address": [
+          2.998575811734132e-13,
+          4.929902107722367
+        ],
+        "max_abs_implicit_control_derivatives": [
+          687.1509007373952,
+          21497.01196764883
+        ],
+        "max_hessian_eigenvalue": 41.79603286777288,
+        "max_raw_clipped_chord_excess_and_cap_motion": [
+          0.1212968187140514,
+          -0.005169287127986477,
+          0.1295411494686226
+        ],
+        "min_hessian_eigenvalue": 0.000028480912898146998,
+        "minimum_positive_axial_parameter": 0.002751757650463096,
+        "minimum_sampled_outward_axial_velocity_including_end": 0,
+        "root_function_evaluations": 10682,
+        "samples": 655,
+        "unit_and_orthogonal_derivatives": [
+          2.220446049250313e-16,
+          4.263256414560601e-14,
+          1.3233858453531866e-13
+        ]
+      }
+    }
+  }
+}
