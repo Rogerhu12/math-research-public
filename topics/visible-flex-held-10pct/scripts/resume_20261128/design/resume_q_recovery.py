@@ -73,7 +73,13 @@ def main():
     if q not in [float(value) for _, value in chain] or record['modes'] != 8:
         raise ValueError('The source is not an original M8 q-chain stage')
     remaining = [(label, value) for label, value in chain if float(value) > q]
-    old_out = source.parent.parent
+    # A real accepted source may live in a later continuation directory.
+    # Bind the existing exporter outputs through its actual --port argument,
+    # not through an assumed position of its output directory.
+    source_command = record['command']
+    if source_command.count('--port') != 1:
+        raise ValueError('The actual source must bind exactly one original port')
+    old_out = Path(source_command[source_command.index('--port') + 1]).resolve().parent
     ports = {24: work / 'm24-linear-port.json'}
     port24 = json.loads(ports[24].read_text())
     for modes in (8, 16):
