@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：a95c1e62e763d9144890c546db0cc624dfe21fb4**（2026-11-28 08:13 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：7a443bac5fc7621ebe56297da8b35ede89166eb4**（2026-11-28 08:19 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 07:49:56 Asia/Taipei，Actions run46084622951/job140791187426，blob:none浅clone真实pull --rebase至c6fc7f50，两README diff空、SHA相同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤08:39、pull≤08:49。本地08:01仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -46,7 +46,7 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个带宽1/2系统仅标量，只排已登记有限机制；run/source沿文。旧5372扫描/十五Euler/Prym/六CM/normal-FM只消费；Hesse保αD²/α²D与完整主块边界。
 
-[原genus4 §§6–7](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付Fermat6完整十维/45槽和B22,12=−c^(2k−1)e/δ。e0后123六维第0…3插入全零，第4准确C(P⁴ω12)=4c^(2k−2)K4·ω32/δ²；e=K4=0 iff222+123七维第0…4全零。两个真实Cartier指数3p−1/9p−1必须全保，e0才有A9=−A3；114第二层Λp完整有限式未unit，高插入可有极。V4仍留18 cross，继续原临界非零。
+[原genus4 §§6–8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付Fermat6完整十维/45槽和B22,12=−c^(2k−1)e/δ。e0后123六维第0…3插入全零，第4准确C(P⁴ω12)=4c^(2k−2)K4·ω32/δ²；e=K4=0 iff222+123七维第0…4全零。两个真实Cartier指数3p−1/9p−1必须全保，e0才有A9=−A3；114第二层Λp完整有限式未unit，高插入可有极。V4仍留18 cross，继续原临界非零。 §8付完整交换P↦−P+(r1/x²y²)^p及全部高极；A3=−2r1³qN0−3qN′0/2，回原Dixon，未添unit。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

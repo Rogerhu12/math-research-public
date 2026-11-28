@@ -696,3 +696,185 @@ $3L\,C(R^2\tau)$、$6L^2C(R^2\tau)+4L C(R^3\tau)$ 等亚纯项。
 
 本节为同一原源的纸面推导；o2_high_coefficient 已独立核准
 (G4.26) 的全部 absolute / relative 缩放。无数学程序执行。
+
+
+## 8. 完整交换补偿、全部高极系数与原 Dixon 两读数
+
+本节沿用 (G4.28) 的同一个 $\mathsf R$，不改变 $P$ 的规范。
+记 $n=2k-1$，并置
+$$
+r_1=\mathsf R(1),\qquad
+E_1=[t^{3k-1}]\mathsf R(t)(1-t)^n.
+$$
+由 (G4.21)，$E_1=-c^{2k-1}e/\delta$。
+以下身份不先假设 $e=0$；第四层的极部与低插入补偿因此全部保留。
+
+### 8.1. 原 primitive 的完整交换 cocycle
+
+系数反转直接给
+$$
+\mathsf R(t)=t^n\mathsf R(1/t),\qquad
+6t\mathsf R'(t)+2\mathsf R(t)=(1-t)^n.
+\tag{G4.32}
+$$
+第一式中，$n$ 为奇数，而
+$2+6(n-i)\equiv-(2+6i)\pmod p$，恰好消去分子反转的负号。
+有限 Chu--Vandermonde 恒等式又给
+$$
+\boxed{\quad
+r_1=\frac{n!}{2(4/3)_n}\in\mathbf F_p^\times.
+\quad}
+\tag{G4.33}
+$$
+这里 $(4/3)_n$ 模 $p$ 的各因子为
+$2k+1,\ldots,4k-1$，全部是单位；$n!$ 同样如此。
+也可先在有理数中对
+$\frac12\,{}_2F_1(-n,1/3;4/3;1)$ 用终止求和再约化，
+无共振分母被删除。
+
+对 (G4.32) 乘上 $t^{2k}$，利用 $6k=p+1$，有
+$$
+\frac d{dt}\bigl(t^{2k}\mathsf R(t)\bigr)
+=\frac16t^n(1-t)^n.
+$$
+因此下面左边导数恒零，次数至多 $4k-1<p$。
+读取 $t=0$ 的常数便得准确多项式身份
+$$
+\boxed{\quad
+t^{2k}\mathsf R(t)+(1-t)^{2k}\mathsf R(1-t)=r_1.
+\quad}
+\tag{G4.34}
+$$
+令 $\iota(x,y)=(y,x)$，这是同一个 Fermat 模型上的实际 involution。
+由 $2p+2=12k$，(G4.34) 等价于
+$$
+\boxed{\quad
+\iota^*P=-P+\left(\frac{r_1}{x^2y^2}\right)^p.
+\quad}
+\tag{G4.35}
+$$
+这支付了该坐标交换的完整 $p$ 次 primitive 补偿，
+而不只是微分上的 $\iota^*\omega_{2,2}=-\omega_{2,2}$。
+
+### 8.2. 六个高极点上的主部与两类输入
+
+在 $y=0$ 的点取 $x=\xi$，其中 $\xi^6=1$。
+用 $y$ 作局部参数，则
+$$
+x=\xi(1-y^6)^{1/6},\qquad
+P=\left(\xi^{-2}r_1y^{-2}\right)^p+R_{\rm loc},
+\qquad
+R_{\rm loc}=-\frac{\xi^2}{2}y^2+O(y^8).
+\tag{G4.36}
+$$
+确实，显示式中指数均为 $-2p+6j$。
+因为 $dP$ 正则，负指数必须被 $p$ 整除；
+在这个范围内仅有 $-2p$ 一项。
+其系数为 $\xi^2r_1$，而
+$(\xi^{-2})^p=\xi^2$。
+最后的正则首项由
+$\omega_{2,2}=-x^{-4}y\,dy$ 直接积分得到。
+所以没有遗漏另一个低阶极部。
+
+先取 $\tau=\omega_{1,2}$。第一层是 $E_1\omega_{3,2}$。
+逐层保留 (G4.36) 的二项式展开，得到第二、第三层的最高极部。
+另一方面，它们的完整 Cartier 多项式分别为
+$$
+\begin{aligned}
+P^2\omega_{1,2}
+ &=x^4y^{-6p}\mathsf R(t)^2(1-t)^n\,dx,\\
+P^3\omega_{1,2}
+ &=x^6y^{-8p}\mathsf R(t)^3(1-t)^n\,dx.
+\end{aligned}
+$$
+前者分子最高次数为 $6p-8$，仅有 $p-1$ 指数；
+后者最高次数为 $8p-10$，仅有 $5p-1$ 指数。
+所以每层只有一个全局标量，最高极部已将它唯一确定：
+$$
+\boxed{\begin{aligned}
+\mathcal C_2(\omega_{1,2})&=2r_1E_1\,y^{-6}\,dx,\\
+\mathcal C_3(\omega_{1,2})&=3r_1^2E_1\,x^4y^{-8}\,dx,\\
+A_3+A_9&=4r_1^3E_1.
+\end{aligned}}
+\tag{G4.37}
+$$
+末式使用 (G4.29) 的两个完整指数：
+其 $y^{-5}dy$ 首系数由
+$4L^3C(R_{\rm loc}\tau)$ 给出，其中
+$L=\xi^{-2}r_1y^{-2}$。
+其余局部项的极阶严格较低，因此不改变这个首系数。
+这同时证明 $A_9=-A_3$ 的必要前提确为 $E_1=0$，
+没有提前删除 $9p-1$ 项。
+
+同样，对 $\tau=\omega_{1,1}$，
+$\mathcal C_1(\tau)=0$、$\mathcal C_2(\tau)=\Lambda_p\tau$。
+第三、第四层分别只有 $5p-1$、$3p-1$ 一个指数；
+完整分子最高次数分别为 $7p-11$、$9p-13$。
+最高局部极部遂给
+$$
+\boxed{\begin{aligned}
+\mathcal C_3(\omega_{1,1})&=3r_1\Lambda_p\,x^4y^{-7}\,dx,\\
+\mathcal C_4(\omega_{1,1})&=6r_1^2\Lambda_p\,x^2y^{-9}\,dx.
+\end{aligned}}
+\tag{G4.38}
+$$
+它们在 $y=0$ 分别可有二阶、四阶极。
+所以即使 $e=0$，仍不能把这三条 $114$ 方向的高插入当作全纯字符槽。
+本式未声称 $\Lambda_p$ 为零或为单位。
+
+### 8.3. 两个高系数准确回到原短 Dixon 源
+
+(G4.32) 还给两个有限多项式身份
+$$
+\begin{aligned}
+\mathsf R(1-t)^n&=3t(\mathsf R^2)'+2\mathsf R^2,\\
+\mathsf R^4(1-t)^n&=\frac65t(\mathsf R^5)'+2\mathsf R^5.
+\end{aligned}
+$$
+结合 $\mathsf R$ 的互反性，读取
+$3k-1$ 与 $9k-3$ 两个原指数，得到
+$$
+\boxed{\begin{aligned}
+E_1&=\frac12[t^{k-1}]\mathsf R(t)^2,\\
+A_9&=\frac15[t^{k-2}]\mathsf R(t)^5,\\
+A_3&=4r_1^3E_1-\frac15[t^{k-2}]\mathsf R(t)^5.
+\end{aligned}}
+\tag{G4.39}
+$$
+例如第二式中的导数因子为
+$(6(9k-3)+10)/5\equiv1/5$，
+而 $\deg\mathsf R^5=10k-5$，
+所以互反后的指数恰为 $k-2$。
+这里 $p\ge41$，$2,3,5$ 均为单位。
+
+为明确这不是另一个未识别的有限和，写
+$$
+F_D(t)={}_2F_1(1/3,2/3;4/3;t),\qquad N=k-1.
+$$
+只在所用次数至 $N$ 有
+$\mathsf R=F_D/2$。
+原 Dixon/Jordan 笔记 J.22--J.24 的同一 top-cyclic 多项式
+$q_N(\lambda)$ 满足
+$$
+q_N(0)=\frac{3N+2}{2}[t^N]F_D^2,\qquad
+q_N'(0)=-\frac{3N+2}{120}[t^{N-1}]F_D^5.
+$$
+由于 $3N+2=(p-1)/2\equiv-1/2$，(G4.39) 精确化为
+$$
+\boxed{\begin{aligned}
+E_1&=-\frac12q_N(0),\\
+A_9&=\frac32q_N'(0),\\
+A_3&=-2r_1^3q_N(0)-\frac32q_N'(0).
+\end{aligned}}
+\tag{G4.40}
+$$
+所有超几何前缀及阶乘均处于原安全范围，
+没有从高次无限级数移除一个 $p$-carry。
+在 $e=0$ 下，(G4.40) 与 (G4.30) 读取的确是
+同一个原 $K_4$，而不是另一个 normal 或邻列单位。
+
+因此本节支付的是实际坐标交换、低层亚纯补偿与
+两个原 Dixon 读数之间的全尺度比较。
+$r_1$ 的单位性不能替代 $q_N(0)$ 或 $q_N'(0)$ 的非同时零；
+§6 的十八个 cross 槽也没有因此被自动消掉。
+本节为纸面代数证明，无数学程序执行。

@@ -674,3 +674,6 @@
 ### 2026-11-28 08:16 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1150：原43塔∇uV/∇uZ完整次序、Tate arithmetic a5=u5及中央res消去给全局overconvergent/log Frobenius；明确用horizontal period gauge，未借Tan–Tong弱associatedness偷付连接。proper-log下降与H¹etZ0识别原tower，R1149 §12 rational前提关闭。
 - R1149新增§16消费，H先归档、open/index同步；原中央F0/global差及full Nns仍开，继续指定中央值与两条unit线。全文纸推，无数学程序。
+
+### 2026-11-28 08:21 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原genus4 §8付primitive互反/交换的完整p次补偿、123/114高插入全部极部，以及A3/A9准确回原Dixon两读数；未把新写法或r1单位报成临界非零。root逐式核完即推，旧1–7逐字保留，无数学执行；继续reciprocal Padé与原cross。
