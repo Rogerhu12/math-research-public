@@ -1,0 +1,69 @@
+{
+  "schema": "isp-eight-free-variables-original-weighted-NP-f-dependence-v1",
+  "variables": [
+    "b",
+    "c",
+    "p",
+    "q",
+    "X",
+    "Y",
+    "t",
+    "eta"
+  ],
+  "f": "u+eta",
+  "elapsed_milliseconds": 12,
+  "integerPolynomialProducts": 855,
+  "checks": [
+    {
+      "name": "same_full_Gram_free_f",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "whole_original_eta_quotient_return",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "whole_original_eta_quotient_return",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "free_f_first_jet_original_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "whole_original_eta_quotient_return",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "free_f_second_jet_eta_compact_formula",
+      "fullIntegerPolynomialDifferenceZero": true
+    }
+  ],
+  "originalFullFirstJetReturned": true,
+  "originalFullSecondJetEtaReturned": true,
+  "firstLowResidualEquals": "3*eta*Rw",
+  "secondLowResidualEquals": "eta*Rl",
+  "firstLowCount": 12,
+  "secondLowCount": 18,
+  "noDivisionByEtaInOriginalConclusion": true,
+  "ordinaryISPClaim": false,
+  "sourceSHA256": "933df4a9dd085bc26d415c3220ab7273ed2392ffb22f048f684e6dfe51ffd0e8",
+  "sourceBytes": 6454,
+  "compactParameters": {
+    "RwSHA256": "3dd5ab30079285cc5e065fe6ced6802d23690e1d94a7103a8869f735bb0d559f",
+    "RlSHA256": "05b1367603f039ea2507b992a00d49acc7d6149fbca6b0020b5426f6320176f9",
+    "identification": {
+      "schema": "isp-free-f-compact-eta-quotients-identification-v1",
+      "elapsedMilliseconds": 2,
+      "integerPolynomialProducts": 38,
+      "RwSHA256": "3dd5ab30079285cc5e065fe6ced6802d23690e1d94a7103a8869f735bb0d559f",
+      "RlSHA256": "05b1367603f039ea2507b992a00d49acc7d6149fbca6b0020b5426f6320176f9",
+      "RwTerms": 12,
+      "RlTerms": 18,
+      "bothOriginalParametersIdentified": true,
+      "originalGramGateNotReplayed": true,
+      "ordinaryISPClaim": false
+    },
+    "identificationSourceSHA256": "2647ac9d3d0069a0bd292e493d9a440258e2babf05c6843beb0fc34cba1a913f"
+  }
+}

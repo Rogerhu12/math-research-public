@@ -7,12 +7,12 @@
 - **数据规矩8/15：** 本会话可重算编码/分片已从main移除，只保源/定义/run/SHA及[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。旧输入仅终端临时读取，不重写历史。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** ff85caf973389ff27e65e4b961409f8ee199edc4（2026-11-28 05:29:17 UTC，Actions run46112287101实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46112287101-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 05:29:16 UTC/b5f935f876a5a00a93419da95bb7743f7510c300，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 4eb53061f4fe1cd16ebd126966c691288e18a82e（2026-11-28 05:30:12 UTC，Actions run46112347378实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46112347378-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 05:30:11 UTC/951ea23d91cade02fb0b90d2e35cf66bcc71424d，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 约07:20 UTC起不可用，05:03复探仍未恢复；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。旧故障保归档，不冒称本地恢复。
-- **终端断开后远端已读：** `b2dba3e4821eeaa187d765a61edb9b66ac893cee`（2026-11-28 05:27:29 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** `cf9e432fc73f07de563a54e8014259b9d08b3b3e`（2026-11-28 05:29:35 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-fu-free-t-original-identities-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-free-f-t-original-NP-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -28,7 +28,7 @@
 ### S0/Lt0 已全闭，转一般LS
 
 - S0/Lt0全闭：615次QQ覆盖与全部退化面；9d0c真163.601秒/0，源/回执/旧失败保总定理与归档。
-- 一般LS续未付T/权面；旧D≠0不传h=k。P1双零已闭，付(Pf,Pt)非同时零；Δ0付Φ。四值首一二次/三一次及六投影/四Gram保必要性。自由t、f=u完整weighted NP/jet已成，11零差/910整数乘法；原70017734/ea0ffae2来源保档。
+- 一般LS续未付T/权面；旧D≠0不传h=k。P1双零已闭，付(Pf,Pt)非同时零；Δ0付Φ。四值首一二次/三一次及六投影/四Gram保必要性。自由f/t低weighted NP/jet原身份已成，8自由量/855整数乘法，η余项完整；原70017734/ea0ffae2保档。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
 - **W整D27/J19/λ3/2/G36/K7/Lhalf/t0/fu闭，全规范≤616824。** 原F101链/13单位正确，a29覆盖保；1616Popov冻。全t0已闭；新e0a真0.840327719秒/0，6固定w结式/两41阶e结式244次、余91/91 QQ Bézout1，44628商积。当前图付t、f−u，新17b8首派整α0原单V图180秒/4GiB，均值头零保；旧门不重跑。
 - **Q=1−u整个原图已闭，全局付u+Q−1。** 全QQ/模根/三整域返回、准确源和冻结失败保总证及归档。
