@@ -52,10 +52,10 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 <!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--r766-publish-->R766 [双卷整周保边与整壳实际](notes/r766-cyclic-ring-46165595977-1-index.json) 双README真pull 51164b05684d069eba92b573472eb73d4f4c9141
-<!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull a30c73fc2ce98d215e75821d251fa6aee50f4d4d
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 163bb97bcc7fdafdd4baa16961fc11c78a58ece4
 
 <!-- visible-larger-parallel-47:start -->
 Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46171090151)；[全阶段记录](notes/2026-11-28-public-actions-46171090151-1.md)。completed；已返1，exit=0。
 并行47规则核查：2026-11-28 17:34:35 UTC，真实pull至`17d65821e45b1a947e24b244907bd7d58c526063`，双README无变化。
 <!-- visible-larger-parallel-47:end -->
+<!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull c971a72365d377c9095e6e96cc6621936f408182
