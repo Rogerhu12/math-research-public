@@ -313,3 +313,7 @@
 ## R666：真实闭帽参考与正则二模的明确范围
 
 [完整证明](results/R666-rotational-disk-reach-repair-and-real-second-rim-mode.md)由真实直径与reach必要曲率排除R664原窄过渡全帽A。另给完整C²旋转闭参考，reach≥.5/D<9，但其真实二模方程Rwₓₓ+(n²−1)Rₓₓw=0在原平帽不能闭合。改cosh负K段和真实球正则支，以有符号Wronskian、中间值与C²小接边取得完整闭参考的真实非刚n=2无穷小场。该新参考没有继承前一个参考的reach，也没有固定开握持或有限连续族。
+
+## R670：真固定开盘、全闭reach和严格等距双端
+
+[完整证明](results/R670-fixed-flat-grip-reach-and-two-exact-closed-endpoints.md)真实四次平肩将正则二模接入完整平盘，并在中央开盘令位移严格为零；cosh段端符号经C²接边保留，得到完整闭参考的非刚无穷小场。所有近远弦类给reach≥.16a、D<4.9a、固定开盘直径>1.00a。F±εY准确共享g+ε²(dY)²，充分小非零ε时两端保厚度/握持；未对齐像差为正但不宏观，且没有连续同g路径。单profile旋相又受真实平盘四谐波障碍，必须换实际输入。
