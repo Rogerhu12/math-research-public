@@ -1,0 +1,288 @@
+{
+  "schema": "R769-complete-closed-material-construction-and-four-original-fits-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_directory": "topics/visible-flex-larger-amplitude/scripts/resume_20261126",
+  "existing_parents_at": "43914b1da832b13ffc65f9f3074446217fc065b9",
+  "identity_columns": [
+    "path",
+    "utf8_bytes",
+    "sha256",
+    "git_blob"
+  ],
+  "scientific_and_controller_sources": [
+    [
+      "r740_rolled_disk_seed.py",
+      10834,
+      "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    ],
+    [
+      "r742_tilted_disk_two_jets.py",
+      9706,
+      "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "eacaa69d88eae15963aee90d948391abfb9c745a"
+    ],
+    [
+      "r744_extruded_closed_two_jets.py",
+      10327,
+      "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "729efd888029dbaf9953617edfde81c0c7394fdd"
+    ],
+    [
+      "r754_coherent_mirror_bowed_walls_two_jets.py",
+      9754,
+      "aedac63cfc0ecab05108b7d1d8ea62d5fcc0ee48e3a60c09c6fe7214e829eb96",
+      "0f20d4a812f5f3c32526277548fc641b75864ddd"
+    ],
+    [
+      "r756_return_elbows_preloaded_exact_rolls.py",
+      8933,
+      "39e166b6482078f39dc8bd2ee360a7a42ec02650145c85f5ebd78d7e32ec5a38",
+      "3daf3aa1a455c8886cd7dd92ab2f3ff0f541883d"
+    ],
+    [
+      "r758_curved_outer_collars_and_fixed_elliptical_crowns.py",
+      6352,
+      "54554808a73d93149a297a7302093d0afcd0b8d433b2d119223a2a2792ff40bf",
+      "c88481deaffb78453316a31bd6e607ca774226ab"
+    ],
+    [
+      "r760_cartesian_curved_crown_and_lower_rate_walls.py",
+      10422,
+      "a20f2ee98d901cadb6290edbbb8ad1f8a52d5b6035e6507c171ddea93febf919",
+      "ec2e06753824f38d3c8ace40a8cf4deec0e51f23"
+    ],
+    [
+      "r764_corrugated_pre_roll_and_movable_complete_caps.py",
+      4270,
+      "17f6462df8b5760a187c0ba4fe9271ea11b19998701af5dc08f8e3891a3bcf9e",
+      "9e0082c53f021ad637ebdb1b71a636d750af5c82"
+    ],
+    [
+      "solve_r764_corrugated_whole_sphere.py",
+      18757,
+      "09cb262a9103d3350a9f51d65410238c63b05df5b6349c11028f8cb403d35a36",
+      "24a5484e5e06afa09f265730fa6017dfafbd35ba"
+    ],
+    [
+      "r766_positive_boundary_curvature_and_exact_signed_ribbons.py",
+      7769,
+      "df177787c3e825258d480a9a1134f3652ef2dfebe2eae3fe2aa3026b20f26454",
+      "b570f579890526fa8f72fff691589f83ceeadc4c"
+    ],
+    [
+      "r769_closed_turn_redistribution_and_complete_rolls.py",
+      9715,
+      "5cce0c30754b3d7be84fb4f99c4c099c56c1a869b653686f02d74939bbe5ddb2",
+      "c0129e5322cdb3f462f11173a607da1d6e0fefaa"
+    ],
+    [
+      "r769_full_unit_meridian_shooting.py",
+      8423,
+      "2d79955e1d45819e3d20f9a377f88a5404dd5cf3a125bd53e81bcb1e9211a017",
+      "0a3c50cb136bd13ab3d16a7361bccef3d3d4beb2"
+    ],
+    [
+      "solve_r769_complete_meridian_spheres.py",
+      10502,
+      "a37c0d937de63290392eb753f3d9094c0c32449e8cbf808ee55abc6fe36ca1eb",
+      "31b164c4df23ef1cd6e74d032278f290a782a6a0"
+    ],
+    [
+      "publish_r734_exact_conclusion.py",
+      10589,
+      "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+      "c07d8a51f944dbacddabd127522d673174498839"
+    ],
+    [
+      "run_r769_all_complete_meridian_fits.py",
+      12659,
+      "a165f813bd27b93124bf1b0507722ca3b17fa1c5f9a823365e49de59acc2fec1",
+      "56105cea9bc89f6b8db9830f60cef76a7f818fd7"
+    ]
+  ],
+  "workflow": [
+    ".github/workflows/visible-larger-r769-whole-sphere-unit-meridians.yml",
+    4148,
+    "067b74c3855cddd1663dfa599fa502f935e19a60e7d24d49bae5593bd6952402",
+    "b96ff974fbaa08cd0d28da8382acb9343eea7641"
+  ],
+  "proof": [
+    "topics/visible-flex-larger-amplitude/results/R769-closed-curvature-redistribution-and-complete-unit-meridians.md",
+    21062,
+    "6e6a6830258aa98d300a84106361272d31a294803526ece90cd309cfe81dc74e",
+    "faf4e53983632e45cd9eaa1df3d065f4adc24531"
+  ],
+  "fixed_target": {
+    "definition": "Exact induced metric of the complete zero-phase R764 corrugated reference, on the full marked cylinder, both pre-rolls, both standard rolls and both true curved cap disks.",
+    "pre_roll_length": 0.44,
+    "central_half_height": 0.88,
+    "corrugation_angle_amplitude": 0.0025,
+    "unchanged_initial_reach_lower": 0.132,
+    "initial_diameter_upper": 4.386,
+    "phase_interval": [
+      0,
+      0.9
+    ],
+    "marked_grip_angle_interval": [
+      0.18,
+      0.96
+    ],
+    "marked_grip_transverse_interval": [
+      -0.7,
+      0.7
+    ]
+  },
+  "runtime": {
+    "workflow_timeout_minutes": 355,
+    "python": "3.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "independent_processes": 4,
+    "threads_per_process": 1,
+    "rules_pull_seconds": 2700,
+    "source_revision": "GITHUB_SHA",
+    "rules_revision": "separately recorded true pulled main HEAD",
+    "publish": "ordinary push with non-fast-forward pull/rebase/retry, full topic tree byte count",
+    "runner_only": "Complete per-ring floating records and displacement words only on runner; publish complete per-resolution logical reports and whole identities; no raw, release or artifact upload."
+  },
+  "parameters": {
+    "normalized_angular_response": [
+      0.5,
+      1
+    ],
+    "whole_meridian_shooting_cap_retreat": [
+      0.3,
+      0.42
+    ],
+    "total_signed_meridian": "E=.44 plus L=.132*pi/2+.0005",
+    "terminal_planar_chord_guard": "R=sqrt((E+L-.005)^2-D_y^2), saturation starts at .90R, both complete caps",
+    "roll_regularization": [
+      0.02,
+      0.04,
+      1.05,
+      "pi-.38",
+      0.14
+    ],
+    "outer_cap_radial_open_fade": [
+      0.83,
+      0.98
+    ],
+    "integrated_spherical_flow": "w=16(u/T)^2(1-u/T)^2; Poincare ball transfer, original true U0 of both rolls",
+    "shoot_angular_controls": [
+      96,
+      192,
+      384
+    ],
+    "public_nonlinear_endpoint_max_nfev": [
+      72,
+      144,
+      144
+    ],
+    "spherical_flow_box": [
+      -18,
+      18
+    ],
+    "interpolated_control": "periodic cubic; root, midpoint and whole coefficient identity returned; cap follows actual integrated endpoint",
+    "fitted_phases": [
+      0,
+      0.15,
+      0.3,
+      0.45,
+      0.6,
+      0.75,
+      0.9
+    ],
+    "independent_phases": [
+      0.075,
+      0.225,
+      0.375,
+      0.525,
+      0.675,
+      0.825
+    ],
+    "levels_columns": [
+      "fit_angular",
+      "fit_radial",
+      "physical_quadrature",
+      "correction_angular",
+      "correction_radial",
+      "max_nfev",
+      "lsmr_maxiter",
+      "audit_angular",
+      "audit_radial"
+    ],
+    "whole_fit_levels": [
+      [
+        24,
+        6,
+        16,
+        6,
+        3,
+        12,
+        12,
+        64,
+        12
+      ],
+      [
+        40,
+        9,
+        24,
+        12,
+        6,
+        20,
+        16,
+        96,
+        18
+      ],
+      [
+        64,
+        12,
+        32,
+        24,
+        12,
+        30,
+        20,
+        144,
+        26
+      ]
+    ],
+    "additional_angular_addresses": "true curvature-clock transitions, central stations and on audit all adjacent midpoints, both reflected copies",
+    "audit_charts": 11,
+    "stages_per_natural_process": 6,
+    "max_ordinary_fit_time_minutes": 355,
+    "normal_radius_cost": 0.132,
+    "terminal_held_goal": 0.878,
+    "whole_free_channels": "3 Cartesian, original ambient centers and whole signed tensor correction; preserve exact grip",
+    "diagnostic_seam_angular_grid": [
+      128,
+      256,
+      512
+    ],
+    "flux_angular_radial": [
+      [
+        48,
+        6
+      ],
+      [
+        72,
+        9
+      ],
+      [
+        112,
+        12
+      ]
+    ],
+    "raw_storage": "runner only; source, parameters, full compact independent stage summaries and hashes committed"
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "job": null,
+    "source_commit": null,
+    "rules_read_commit": null,
+    "natural_process_codes": null,
+    "stage_reports": null,
+    "physical_values": null
+  }
+}

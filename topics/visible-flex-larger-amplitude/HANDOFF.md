@@ -37,6 +37,8 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 [46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：同R767初g改真实退帽.40、两边独立Cauchy/三向凸矩校正，参考整桥gvv准确；实际释两整帽共享rim三向场，13源/6初点+两族4/8/16、各65相七整mesh全预算启动，整g/正相管仍欠。
 
+[R769](notes/2026-11-28-R769-whole-meridian-and-four-complete-launches.md)：同R764初g全转角重分，完整normalized参考held≥.88但固定E界全帽短路排除；贯穿E+L的真实S²射击释E、两真帽随实际积分端，四支/三层/24整报告原预算启动，余g/全管仍欠。
+
 ## 全部旧责任
 
 全部旧终态/条件/未访见[results](results.md)/[open](open.md)/原proof、notes和固定H链，已登记不重做。RET100H/I/J/K/L/M逐字恢复已闭生成件，保父/活源参/唯一值；M的46整件ROOT重建bytes/SHA/Git全同，46官方run/91jobs终态核完，21父/7编辑群/原数词全保，净释1047012B。新输入各自重付，每子问题完即下一个。
@@ -50,10 +52,10 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 并行35规则核查：2026-11-28 16:57:44 UTC，真实pull至`e29e4af88e6769456127b4cfa39b60f56516bf99`，双README无变化。
 <!-- visible-larger-parallel-35:end -->
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 75f9f78c0987bc30614a7e3b32e151475d00e2ce
+<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 1c10e84fb1b1371feee7d6b7c7259ae368ca2a66
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull d541d52dac7a3572e0a3ccc4f7e39701311760a2
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull be9dfbdeb61eac4b1ba45c2102c9577e00cdfffa
 <!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--r766-publish-->R766 [双卷整周保边与整壳实际](notes/r766-cyclic-ring-46165595977-1-index.json) 双README真pull 51164b05684d069eba92b573472eb73d4f4c9141
 <!--run46-preloaded-bridge-->46 [实测](notes/run46-preloaded-bridge-46168504031-1.json) 双README真pull a382efaa2dc80680cd40254fbfde38f8ec07b27b
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull be9dfbdeb61eac4b1ba45c2102c9577e00cdfffa
-<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 1c10e84fb1b1371feee7d6b7c7259ae368ca2a66
