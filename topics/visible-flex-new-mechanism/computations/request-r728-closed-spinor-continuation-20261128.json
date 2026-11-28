@@ -17,9 +17,9 @@
     "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
     "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
   },
-  "private_rules_read_commit": "96cb57bc44d1d575e34a3a5ee87ee933938902fd",
+  "private_rules_read_commit": "3f9b334eb323559e4e548b7258b3cf0bf27ce201",
   "schema": "r728-closed-spinor-continuation-v1",
-  "public_rules_read_commit": "14d683fa3cecbc5eb00e039cc2a091ec45ca8d32",
+  "public_rules_read_commit": "bc8f1107a01c1efbcd961fcd9c34426b364d45ce",
   "entry_point": "topics/visible-flex-new-mechanism/scripts/r728_closed_spinor_continuation_20261128.py",
   "workflow": ".github/workflows/visible-r728-closed-spinor-continuation-20261128.yml",
   "common_parameters": {
@@ -55,7 +55,19 @@
       "new_Jacobians": 0,
       "new_trials": 0,
       "prior_artifact_count": 0
-    }
+    },
+    "natural_parent_readme_completion_claim": false,
+    "next_unpaid_unit": {
+      "context": {
+        "action": "full_TSQR_root_SVD",
+        "base": "s02_i010_model_base",
+        "root": "s02_i010_model_tree0_000_050",
+        "variant": 0
+      },
+      "key": "s02_i010_model__variant0_QR_SVD",
+      "unit": "qr"
+    },
+    "old_projection_J_and_complete_TSQR_tree_replayed": false
   },
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/r703_material_geometry_observer.py": "2c278f0a0351e81290a23173e67a70fd3a9cea34db0035b2fda4f54a083d4144",
@@ -88,6 +100,63 @@
     "topics/visible-flex-new-mechanism/scripts/r728_closed_spinor_continuation_20261128.py": "61f1aea0d0c6820b89fa350342ae5a8dcbc18a68af88e2d7cd60329653fe68cd",
     "topics/visible-flex-new-mechanism/computations/r728-actual-closed-spinor-20261128.json": "49b325d24b26b7e1374e611f601d7a56806221fa58b17fbe70c331b956757afc",
     "topics/visible-flex-new-mechanism/notes/2026-11-28-r728-actual-closed-spinor-continuation-scope.md": "9609ee3681f7b48ed998b6cb20b13484854b84357bc2c369f3c15921ef6db4e3",
-    ".github/workflows/visible-r728-closed-spinor-continuation-20261128.yml": "608b0f9575379d965251cb81ba0b95c720ce48c723e6d92bf365bd82409db8f3"
+    ".github/workflows/visible-r728-closed-spinor-continuation-20261128.yml": "cd3b33e49acdb9b14e064f044e3d7faab17a2e102c1ce470f0f96383bf00e21c"
+  },
+  "completed_paid_checkpoint": {
+    "run": 46162476275,
+    "job": 141032646065,
+    "head": "95bbcc413114726105944fa8ed6d2891f4161580",
+    "artifact": 15272306550,
+    "name": "visible-r728-paid-checkpoint-46162476275-1",
+    "bytes": 733240015,
+    "sha256": "60af03053fa50f4ba56720e6be9ff0421e9648fe6adf7d1da5f97e106d911f3b",
+    "fingerprint": "f3a489a6aa5cda2bd1051682d7a3943c9b9701f654ded054667fbac741060df0",
+    "kept": 583,
+    "latest_state": {
+      "accepted": 27,
+      "iteration": 10,
+      "key": "s02_i010_model_base",
+      "mu": 56.34055948595833,
+      "space": [
+        48,
+        12
+      ],
+      "stage": 2,
+      "trust": 0.0007326308468874878
+    },
+    "pending": {
+      "context": {
+        "action": "full_TSQR_root_SVD",
+        "base": "s02_i010_model_base",
+        "root": "s02_i010_model_tree0_000_050",
+        "variant": 0
+      },
+      "key": "s02_i010_model__variant0_QR_SVD",
+      "unit": "qr"
+    },
+    "counts": {
+      "TSQR_input_rows_including_merges": 4355240,
+      "actual_local_complex_shape_states": 46814,
+      "actual_nonzero_support_radii_for_columns": 1261388,
+      "actual_physical_trials": 122,
+      "all_material_parameter_columns": 46814,
+      "complete_Hermite_QR_SVD": 3,
+      "complete_TSQR_Householder_blocks": 2211,
+      "complete_new_Fourier_physical_J": 29,
+      "discrete_projector_radial_twojet_steps": 200064,
+      "full_QR_SVD": 32,
+      "full_frame_states": 1,
+      "full_real_candidate_shape_states": 170,
+      "half_frequency_integrated_radial_twojet_coefficients": 11462,
+      "new_needed_paid_source_native_reconstructions": 1,
+      "new_transported_grids": 1,
+      "original_analytic_angle_integrals": 521,
+      "original_numeric_anchor_comparisons": 1,
+      "paired_complete_physical_reads": 158,
+      "source_and_new_native_material_inversions": 152132,
+      "true_nested_shape_prolongations": 2
+    },
+    "transport": "topics/visible-flex-new-mechanism/scripts/r728_restore_completed_paid_archive.py",
+    "transport_sha256": "14fc7dc28adef4f8ff46c1d34bf034621b16d9467a96559d711e0067544caf08"
   }
 }

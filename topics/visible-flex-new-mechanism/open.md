@@ -6,7 +6,7 @@
 
 [R725](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md)给全时间、全角同一个E的充要区间，[R726](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md)给准确非圆闭圈与全部材料六jet。R680的sinθ=.27、真偏心帽.56、条件κ<32.8/reach.03/D<1/握径.201/dH.3024仅属于同实际输入；原圆基任何E已有η>.10，K0圆族亦被η>.0089排除，不能继续旧小空间冒通过。
 
-[R728正式范围](notes/2026-11-28-r728-actual-closed-spinor-continuation-scope.md)消费原R703自然39163B/157参数、同材料六jet一次必要入图，24/K10→24/K12→48/K12全列，完整Householder TSQR和根全SVD不截向量。真实实际独立物理门/长度/两网接受；三网η≤1e−6且端六jet/J/壳全门后才固定E并同E加2K/倍跨精化。所有原投影/原始列块/因子/方向/试点/读数按指纹续接。首run首键错误未进入原场/J已留失败账；修正版run46162476275继续至自然结束，禁止读运行中日志。R703/R687旧E始终未冻，角重标不能省Φr/Φrr；raw质量值和两径导门不省。
+[R728正式范围](notes/2026-11-28-r728-actual-closed-spinor-continuation-scope.md)消费原R703自然39163B/157参数、同材料六jet一次必要入图，24/K10→24/K12→48/K12全列，完整Householder TSQR和根全SVD不截向量。真实实际独立物理门/长度/两网接受；三网η≤1e−6且端六jet/J/壳全门后才固定E并同E加2K/倍跨精化。所有原投影/原始列块/因子/方向/试点/读数按指纹续接。首run首键错误未进入原场/J已留失败账；修正版run46162476275已自然paid_partial，27接受/2446q/η.0258398334481，E未冻；[真实下一态与全账](notes/2026-11-28-r728-paid27-complete-tsqr-root-natural-partial.md)从已付TSQR根的下一SVD续接，原投影/J不重算。禁止读后续运行中日志。R703/R687旧E始终未冻，角重标不能省Φr/Φrr；raw质量值和两径导门不省。
 
 [R731](results/R731-piecewise-analytic-flat-rim-rotational-metric-rigidity.md)只排有限分段解析准确非同轴解，不排任意C²非解析极限，也未给统一有限误差地板。R734真实dyadic母线两侧j2/3四端口已经自然严格包围，完整journal必须传后继；不重演其已付ODE。R735中央双核/全角二阶仅结构性输入，原薄中央形不合宏观厚度，不能当主候选。R737小尾宏观种子及R738宽真平领/新增负胞方向继续用真实全壳预算；既有尾只续未付胞，原R728场迁移必须单列新源/新算子，不能搬旧J与资格。深尾同g误差须与原固定E一起连续包围，有限O(q²)/O(q³)不是根。
 

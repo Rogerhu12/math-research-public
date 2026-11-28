@@ -4,13 +4,13 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **bc8f1107a01c1efbcd961fcd9c34426b364d45ce**。私库最近实际终端 pull 为 **2026-11-28 16:15:32 UTC / 3f9b334eb323559e4e548b7258b3cf0bf27ce201**，根未变、QUEUE仍为本会话进行中。环境于15:25恢复；旧14:32磁盘满及其后不可用时失败的pull未冒成功。至少每小时实际pull，每次查两公开README变化，有变只读差异立即执行；读过提交记此处。
+公开最近成功的终端 pull/双 README 检查为 **590f276d99e01df8a23ccb79e305cf6b5fc838fc**。私库最近实际终端 pull 为 **2026-11-28 16:15:32 UTC / 3f9b334eb323559e4e548b7258b3cf0bf27ce201**，根未变、QUEUE仍为本会话进行中。环境于15:25恢复；旧14:32磁盘满及其后不可用时失败的pull未冒成功。至少每小时实际pull，每次查两公开README变化，有变只读差异立即执行；读过提交记此处。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。子代理三位均 **gpt-6.2-astra / ultra**，已逐一确认无下级代理。每条结论即推；NFF立刻pull/rebase查规则重推到成功。仅公开Actions执行科学；本地仅纸证、源码和已完成日志解析/元数据。根12不重复机械审核；根15不入库可再生大数组。H<10KB/open<30KB/md<100KB/课题<200MB。
 
 ## 当前实际输入和未闭门
 
-**R728完整闭纬圈。** [R725](results/R725-closed-latitude-coordinates-and-one-common-radial-metric.md)/[R726](results/R726-closed-spinor-fourier-and-complete-common-metric-residuals.md)给准确闭圈、全部材料六jet和共同E门。修正版 **run46162476275 / head95bbcc413114726105944fa8ed6d2891f4161580** 于15:56:24开始，16:11元数据仍in_progress，不读运行中日志。原R703 literal39163B和原场不是摘要替代。全列真实支撑块、完整Householder TSQR无截向量；源投影/J块/因子/试步/各网/冻结读数逐键归档。3450秒仅单次预算，主研究继续。仅实际三网同E和全部壳/端/材料门过后冻结、同E自然精化。首run46162054661在原场/J/试步前因首键假设失败，I/O1.86873602s、进程含import1.026369s保账；已修literal读取和早期留档。[失败记录](notes/2026-11-28-r728-original-literal-order-and-first-natural-startup-failure.md)。
+**R728完整闭纬圈。** 原run46162476275/job141032646065/head95bbcc413114726105944fa8ed6d2891f4161580已16:48:56自然paid_partial。27接受/29完整J/46814列，48/K12实际2446q；最后η.025839833448117806、κ31.14829745、目标积分长margin−.00137943386，E未冻。详[原真实下一态](notes/2026-11-28-r728-paid27-complete-tsqr-root-natural-partial.md)。artifact15272306550/733240015B/60af03053fa50f4ba56720e6be9ff0421e9648fe6adf7d1da5f97e106d911f3b存583保留块；下一s02_i010_model__variant0_QR_SVD，原完整J和TSQR根已经付，不重源/投影/前级。新行政纯恢复器逐块核原身份后继续同一科学配置/15源；3450秒仅续接分配。原首run46162054661的I/O1.86873602秒及含import1.026369秒留[失败账](notes/2026-11-28-r728-original-literal-order-and-first-natural-startup-failure.md)。三独立网/真实长度/壳/端/材料门过后才冻E再同E精化。
 
 [R731](results/R731-piecewise-analytic-flat-rim-rotational-metric-rigidity.md)已排有限分段解析平外领旋转g的非同轴准确解；未排任意C²非解析极限，也未给统一有限误差地板，不冒R728通过或全局不可能。
 
