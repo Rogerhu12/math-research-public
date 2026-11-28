@@ -76,3 +76,11 @@ ROOT已全文读修正两源并核逐行差异：positive**4仅改为squared=pos
 | computations/run52-complete-mild-cap-stress-source-and-launch-delivery.json | 45323 | b5d841e0ea226d7144c1c03a7550f304cef948687ab2830f23785606e614be8a | 0a610d900a56ebc1567fc4a2e3e3893a3c8234e5 |
 
 原首次真实pull为19:39:12Z至7b44f696b781703d813d8fc0b999580bd2a278f4，双README核同；root本次云读非pull。前述硬固定领的严格正误差对照范围继续有效。
+
+## 原全部预算恢复后的实际冻结与启动（2026-11-28）
+
+source 7e9758e066a242d9d362cac388969c9941d68017，实际public run46182901571/1、job141096261718。ROOT从官方jobs独立读得原finite_amplitude仍in_progress。科学PID2804真实启动19:46:47Z，原24个actual_frozen_inputs逐一与新请求的路径、完整字节数、SHA256、Git blob相同，且actual报告自己的scientific_inputs全同。修前失败未覆盖，修后正常完成多个科学阶段，不能继续写成运行尚未开始。
+
+固定30d2ccbf3d44c60c822e4671726800572abcff06下原actual JSON为24584B/Git 997db7a4172e7fcb948e75fa02c95fadf49dd050/SHA256 4e3ffcb3aead65d91f43da8c73332d27eb986fa646ef69580c8c8e0e1e79a96a。20:01:15Z本完整快照的summary已登记7个stage，正在原stage7 spatial_rings-full-twofold；这里只登记真实阶段返回/启动，不据紧凑观察代完整点的全域结论。原九粗与三族各4/8/16、三个完整末验证及全部原曲率/面积/对偶/极差约束不变。
+
+原主管最新真实pull为20:01:17Z至73491244465eb8562aa74b08b2834f452f5247d1，原双README无改。root本次云读非pull。后续完整实际数值与末网继续按自身报告逐项登记。

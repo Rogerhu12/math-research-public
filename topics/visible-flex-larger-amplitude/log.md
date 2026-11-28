@@ -75,3 +75,7 @@ ROOT全文核五科学件/完整参数/主管/wf，runtime独立核真实九图�
 ## 2026-11-28 20:10:05 UTC — 47 本run半步完整拒绝，原四分之一步继续
 
 ROOT完整实读固定30d2ccbf3d44c60c822e4671726800572abcff06的原actual报告；半步自身reach违约7.789641579575506，alpha=.25实际进入、未接受，全部原科学继续。详[完整ownnote](notes/2026-11-28-run47-complete-native-horner-chain-launch.md)。 双README云核至`93fbc97f6f237915dfb7c0cd4565b338fdf495a6`无变（非pull）。
+
+## 2026-11-28 20:11:19 UTC — 52 最小同多项式修复后24实际输入及完整预算启动
+
+ROOT核全部24实际冻结身份与官方job，修后run46182901571/PID2804真实启动并已有7个科学stage；原首次失败保全，所有原18阶段/三末网继续，见[ownnote](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)。 双README云核至`35650c197ec506e686e176026156dfa0b6aed7d4`无变（非pull）。
