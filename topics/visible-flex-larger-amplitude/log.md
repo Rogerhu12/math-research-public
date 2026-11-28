@@ -470,3 +470,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:58:11 UTC — 26新R725实际模型与初始统计
 
 26新实际model4a7e828/driver e1d3、初7e06，Phi589.1634908944277/Gram.4163254155597059，accepted0；截至03:50:51几何未返。与25同坐标异model，不继旧K/六g/均值或校准。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`230beb2c78084c0d292fd6f8230b48f8b5a06803`无变（非pull）。
+
+## 2026-11-28 04:01:14 UTC — ret66六份旧生成准备描述完整来源保全
+
+6旧生成描述毛732004B，4完整新件161505B，净570499B；65完整小source/40全源参资源结论/35直接与伴随恢复齐。六wholeSHA均来自真实原小清单，大体未读；原writer准备前写、5prepare-only exit0与q126实际完整exit0/原接受但非闭面reach分开，完整argv/resource与历史路径/旧client责任保。固定c5be3d5556d8a4f5d1200574567d30d764e4b72c精确原字恢复；所有配置/raw/数值报告/源码/ret65canonical/活19–27不动，无科学重跑或新门。双README云核至`cebdddee8b09a13334f2e55c7f0d226d06c2b0bd`无变（非pull）。

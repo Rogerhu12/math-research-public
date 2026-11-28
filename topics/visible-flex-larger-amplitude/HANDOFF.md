@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即pull。云核至`230beb2c78084c0d292fd6f8230b48f8b5a06803`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活19–27通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置各唯一探测失败，恢复即pull。云核至`cebdddee8b09a13334f2e55c7f0d226d06c2b0bd`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活19–27通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull，令牌仅CLI。所有根规矩及完整发布/观测工具责任保旧H。
 仅公开Actions科学；新raw只runner/scratch。保全源参/run/whole身份/typed/失败未知，无新AST/fixture/重跑/审查门或缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退可完整再生旧数据，保结论/全源参/恢复，不删活输入或唯一状态。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D=闭F0整像直径。同g/参数/t空间/频率/时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口须明示，继续加强比例。有限点/开放片/条件论证非完成。
@@ -34,7 +34,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 ## 容量与分工
 
-[ret65](computations/legacy-generated-adapters-retention-65-complete-delivery.json)36旧生成描述净2022421B；7完整canonical/3全差分/纯字节恢复器保全部源参/33case失败未知，固定529e8ba2原字恢复。旧reader须先恢复所需原路径，q098→q106两级别名保。ret64/63及此前全账保各总表/[旧H](https://github.com/Rogerhu12/math-research-public/blob/4ffa58793190c5b10ebc01f3acfbedeec391e679/topics/visible-flex-larger-amplitude/HANDOFF.md)；活输入/唯一状态/parent91/ports/Nelder不猜删。
+[ret66](computations/legacy-large-generated-adapters-retention-66-complete-delivery.json)6旧准备描述净570499B；65全source/40源参结论/35输入恢复及6原argv保，5prepare-only与q126实际接受分开，大body未读，c5be固定恢复。[ret65](computations/legacy-generated-adapters-retention-65-complete-delivery.json)36完整差分净2022421B、7canonical及两级旧别名保；更早全账见总表/旧H，旧reader先恢复原路径。活输入/唯一状态/未闭来源不删。
 root真实数值/启动；construction完整可逆旧描述清理；geometry27全参；solverR726实际Slerp源，均不改活25/26。
 
 <!-- visible-larger-parallel-19:start -->
