@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-B-I6-first-hk-loww-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-W-gamma-nine-formal-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824，1616冻；Lhalf/t0/fu闭。[整个α0原排除](results/R150-appendix-unit211-W-entire-alpha-zero-complete-original-exclusion.md)全QQ二次域五原g13、原U^13完整返1并保φ⁴，0.514844278秒/0。当前全W付α/γ；[全γ首一f²](results/R150-appendix-unit211-W-gamma-open-global-original-monic-f-two.md)覆盖剩余全W，但不称物理商有限自由。ad1b180秒/−14后的十×二未成冻结。6e243真13.926455秒/0，九原二次等价、三必要标量已成；未排空，换小原输入。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824，1616冻；Lhalf/t0/fu及[整α0](results/R150-appendix-unit211-W-entire-alpha-zero-complete-original-exclusion.md)闭，全W付α/γ。[全γ九二次与三原标量](results/R150-appendix-unit211-W-entire-gamma-nine-quadratic-original-scalars.md)精确I6等价，13.926455秒/0；三必要deg(e,k,s)=(23,22,5)/(39,34,10)/(44,39,10)。首一f²已成，未称全W空/物理商自由；ad1b180秒/−14十×二尾冻，转原native低几何输入。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 

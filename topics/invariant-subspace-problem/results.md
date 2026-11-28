@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-whole-B-I6-first-hk-loww-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-W-gamma-nine-formal-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [整个当前W/γ的精确九原二次与三参数约束](results/R150-appendix-unit211-W-entire-gamma-nine-quadratic-original-scalars.md)：同点Loww完整基变换，全三个头Bézout1胶合，九行精确I6等价；13.926455秒/0，三固定原cofactor全返回，剥已付后次数(23,22,5)/(39,34,10)/(44,39,10)。仅三个必要式，未称空或有限；旧十×二尾仍冻。
 
 - [正确整B原图的全头胶合与完整I6十二×二](results/R150-appendix-unit211-Phi-zero-true-Bzero-whole-original-I6-twelve-by-two.md)：四原头QQ[x]Bézout只余已付(x+1)^3F^4，含N1的四式商全局三生成；原线性关系与中心q给完整六条件十二行。0.367565秒/0，无H3逆，三λ9/9/10标量仅必要，不称B已空。
 
@@ -67,5 +69,3 @@
 - [R150：修正后二重点 Phi 四个真实二次头](results/R150-appendix-unit211-Phi-zero-corrected-dual-germ-four-original-quadratic-heads.md)：自含f62真0.091190541秒/0，四个完整因式恒等式；原bc/P02/QδPf直接付前因子，共同头零恰为AB=F8=F10=F9=0。新开图三生成元仅按真头可逆使用，头零全保，不恢复旧错误H1/H42/583。
 
 - [R267：同一P的全部逆幂与双平坦实际来源](results/R267-appendix-same-flat-denominator-all-inverse-powers-and-double-flat-source.md)：明确正收缩强积Q、原柱基与尾误差、同一Q真强单位，付全部原旗C^-aP^-bQ有界单射稠值；0≠F_P⊊F_C，Q幂衰减型无穷。双逆整系数卷积给精确平方输入B_(zF²−1)=0，尚未求解，不把整数逆当平方根。
-
-- [R150：W 整Lhalf完整原理想排除](results/R150-appendix-unit211-W-entire-Lhalf-complete-original-exclusion.md)：F101完整QQ五因子及重数全回，正确原七行四整模型12/12/204/816满射、双逆/原D目标返回；一整因子被已付C9排除。当前物理D≠0图可付L与2ell−1。原链与十三单位均确认正确vm，无compact错误依赖；余W继续。
