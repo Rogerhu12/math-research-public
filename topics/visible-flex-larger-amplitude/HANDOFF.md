@@ -43,9 +43,9 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r774-publish-->R774 [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 4b0c2b0fa772c18af608fd976064656930fbe63e
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 0778bae0614091dba30e251f046468e855201f93
 <!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 9a6240a1b99db3130b4d110cb08b274424503a97
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 5901605e73983cdf5ef34f8683f9e0b2271699a8
 
 [R782](results/R782-angular-Cauchy-rigidity-of-the-clamped-circular-rim.md)：同R781 g整rim位置/横向一阶迹夹持，在局部统一角解析二基本形类内全柱刚性；穿K零/变号亦成立。一般C²、自由真rim或无统一解析界的近等距序列不覆盖。平帽内握的角解析限制与非解析完整发展帽另证。
 <!--r777-publish-->R777 [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 08ce1c922d5b3b391f57897cc70de0a86d227438
 
 [R783](results/R783-optimal-four-moving-cap-sectors-and-closed-normal-tubes.md)：同R781平帽内握.18，至少四固定rim点且四独立发展扇精确达到。完整九图共环境场：.020/.022/.024/.025仅证整reach>.0021；tiny独立分支才证≥1/24.46。二者中央g缺陷>.23，不混两种界。
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 5a0893ee75a0c808e3d267931a209cd55eb694c9
