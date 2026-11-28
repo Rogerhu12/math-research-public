@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ12：正i全safe模式的原物理腰square](results/R149-supplement-all-positive-i-safe-modes-in-the-physical-waist-square.md)：真density逆在L2/dotH−1均<1.11；原逆lift解析误差前置，完整P97D<.288。全部safe坐标误差<4/5，真物理项系数<11/50；Cphys97≤3/4时整safe块同时可逆，只余原96+实际异常和完整物理border。所有输入/输出cross、Θ/两mean/height保，物理门和有限逆待实付。
+
 - [OHR：真实两列强Robin及全部独立正侧回边](results/R149-supplement-strong-physical-outer-residuals-and-complete-independent-right-hand-sides.md)：同selected真实物理H1/6 Robin两列<1e−14/1.21e−11，全high普通L2<8e−13/1.51e−9；同一完整高particular的low体源<7.051e−8/2.958e−5、weighted right97<9e−15/6.31e−11。19whole/34新有理比较实际全过，known负窗部分<1.769e−5；root/height/mean全未知仍保。
 
 - [AGPR：3026全格真相位连续比较的实际H1成功](results/R149-supplement-actual-global-true-phase-and-continuous-physical-H1.md)：46135620219/1实际success，3026/3026全格与4个1/64门全过；真标签相对同一连续比较的strict角H1<1.164e−10、全域角H1<1.084e−5、含r导H1<1.576e−4。176whole10624293B/root metadata再准入通过、旧science0；原53.688MB/100.890MB载体双SHA全保，仅小receipt公开。后继GRQ实际接入，非整个high响应。
