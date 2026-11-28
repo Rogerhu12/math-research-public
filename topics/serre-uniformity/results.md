@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原 Hahn 两槽共同权重与实际点值桥（已证明，R1194 §9.10）**：[R1194 §9.10](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽现同有限权重c_n：Σu=C_NΣc_na_n、Σut=−C_NΣc_nh_n/12。原e点值比较准确给Σu=(3/2)_N(2/3)_N D_N(1)/[(5/3)_N(7/6)_N]；不对点值身份微分。h的非齐次Gauss与完整伴随付Σch/(n+1)+18Σch/(n+4/3)−30Σch=72Σca，两个shifted moments仍保。第一p极在ℓ=2N+1、ph_ℓ单位，位于原终止三角形外，未插回原w；共同零继续。
+
 - **原 PS 第 p 层的实际 Cartier 返回（已证明）**：[R1204](results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md)原PS中心 Ψ=uT db/(rA)、T∈b²k[b³] 的真实π^−pU返回已读：T_ret=−3γ²(rT″−4b²T′−9bT/4)。完整framing定det，原第p层最高pole由β=[W^(p−1)]Ψ/dW给出，余极部经R1203真被杀；Cartier换参及原τ/B/C²相位全保。此n→n+1二对角映射注入，像恰ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠(1)为显示单位。原qΓ负格秩=n+λ、λ∈{0,1}；实际特征零multiplicity仍须核，𝔠(T*)未宣单位，不将packet值传C/whole MW。
 
 - **原 PS 临界有限模的准确尖点算子（已证明）**：[R1203](results/R1203-original-PS-critical-transvectant-and-cuspidal-operator.md)原临界有限模 M=Sym^(3p−1)det^(m−1) 上，Ubar=−iq₂/4；普通二阶transvectant不除2!，Frobenius回嵌i(H)=(X^pY−XY^p)²H。完整rank-one群和锁常数−1/4，原N固定基(F₀,F₁)的矩阵为[[1/4,1/8],[−1/2,−1/4]]，非零秩一且平方零。实际PS的n=p系数与此模的几何识别正在逐项读取，不以极阶/同型替来源；指定C两列及whole MW仍开。

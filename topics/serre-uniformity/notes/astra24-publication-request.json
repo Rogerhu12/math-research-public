@@ -1,39 +1,35 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-r1204-20261128",
-  "request_id": "r1204-actual-PS-Cartier-return-and-exact-image-20261128",
-  "message": "serre: compute actual PS return and its precise Cartier kernel",
-  "last_read_rules_commit": "cf701bbf48120fe1e9e193c1774075c3edf17d06",
+  "source_branch": "serre-astra24-publish-hahn-common-weight-20261128",
+  "request_id": "hc36-actual-Hahn-common-weight-and-pointvalue-20261128",
+  "message": "serre: identify original Hahn common-weight moments and exact Dixon point value",
+  "last_read_rules_commit": "deaac635928fb9420c1a9350c0ce41ca001673f1",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "588bbb2184d2d060f8c16a033b9f426cf45fa1d1",
+  "previous_request_git_blob": "9862266ad6ad50436e16a823fddcf07198df4340",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md",
-      "previous_git_blob": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-actual-PS-Cartier-return.md",
-      "previous_git_blob": null
+      "path": "topics/serre-uniformity/results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md",
+      "previous_git_blob": "40b1398045a5a3b6ada6bac514377058e0ecedcc"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "d8a6c2b599cdf6846138dda3fd1d2a21164ad8d0"
+      "previous_git_blob": "0b064d39fda16050b9a9284c935a76e8c69d0ead"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "92e587b9bde04d149f12920d90783335f59b5931"
+      "previous_git_blob": "a55db932f5376c77342156097e2ad7adbeacf6db"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "269ee6da8a981e6d025823724fe5df6788249992"
+      "previous_git_blob": "1d3cda62fc3ade3045eff1665eef6eb2816285c9"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "6fb3dc32a8490ace9a10838dddb8ce33c50bf10b"
+      "previous_git_blob": "b342785215fa7ddf58b8327e6e5a83787695e015"
     }
   ]
 }

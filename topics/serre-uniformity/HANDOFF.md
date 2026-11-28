@@ -36,6 +36,8 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 [R1194 §§1–9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原Hahn全左半无权范数为−ℓ!/[2(M+1)(M!)²]单位，但指定短和仍带1/(3j+2)。实际谱导数q_j′=w(a_j)−w(2)v(a_j)，Lw=−v/a、w0=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真实Casoratian源−v²/a及HC.21–24终止balanced4F3已付；普通second-kind源不同，指定互素仍开。 §§9.7–9.9已付原L=T₂T₁、全格点空间导数单位及真实t_r=(2m−1)F_m′(0)/(24m)；取消参数后完整调和余项仍在，HC.34–35准确回原w标记值，尚未桥接旧Dixon单位。
 
+[R1194 §9.10](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原两槽现同有限权重c_n：Σu=C_NΣc_na_n、Σut=−C_NΣc_nh_n/12。原e点值比较准确给Σu=(3/2)_N(2/3)_N D_N(1)/[(5/3)_N(7/6)_N]；不对点值身份微分。h的非齐次Gauss与完整伴随付Σch/(n+1)+18Σch/(n+4/3)−30Σch=72Σca，两个shifted moments仍保。第一p极在ℓ=2N+1、ph_ℓ单位，位于原终止三角形外，未插回原w；共同零继续。
+
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
 [R1179 §13](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)全奇3≤s≤(p−3)/2有M_s(0)=−E_(s−1)(s−1)!Bp−s/[2^(s+1)(2s−1)!C^(s−1)]；完整aux norm/FL/Appell敏感度/未归一Bol已付，Euler不假unit，bad仅c0零。当前用f_s(0)·(f_s(η)−f_s(η′))=0保全部原奇行，继续同一Fay p-band对角及真实p极边界，不添mask。
