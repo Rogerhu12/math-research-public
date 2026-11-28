@@ -943,3 +943,36 @@ $3\mathbf B_\nu\mathbf U_\nu-\mathbf V_\nu=0$；
 对应的零矩，以及已经证明非零的这个明确二阶行列式。
 后续需要保持原权重，证明它与两点余核之间的实际联系。
 全节为纸面证明，没有数学程序执行。
+
+### 12.4 第三互补矩的绝对数值
+
+[R1180 §9](R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)
+现已对同一未平均正 Kummer 类、同一 Tate frame 证明
+$$
+\operatorname{Frob}_p(\gamma_7)=\frac{720}{7}\overline{B_{p-7}}.
+$$
+这条绝对比较在该 Bernoulli 值为零时同样成立，
+并不以非零局部类选择缩放。
+代入 (GN.43) 之后的原 physical 等式即得
+$$
+\boxed{\qquad
+\mathcal J_8=-\frac{175680\beta}{C^6}\overline{B_{p-7}},
+\qquad
+\mathcal T_7=\frac{8235}{4C^6}\overline{B_{p-7}} .
+\qquad}
+\tag{GN.47}
+$$
+第一系数是 $-(56/2)\cdot61\cdot(720/7)$；
+第二式再用 (GN.36) 与同一归一模型的 $\beta=-a_\nu/2$。
+作为符号的直接核对，原 syntomic 中槽为
+$$
+S_{12,6}=\frac{2898720}{C^6}\overline{B_{p-7}},
+$$
+physical 中槽取其负，乘 $C^6/924$ 后正好得到
+$-21960\overline{B_{p-7}}/7$，即原 $-61\gamma_7/2$ 的坐标。
+这里 $C^6$ 始终是原 Weil 单位 $C$ 的六次幂，
+不是 Appell 核 $C_6$。
+$8235=3^3\cdot5\cdot61$，
+而 $p>37,\ p\equiv3\bmod4$ 排除了 $p=61$，
+所以这也精确恢复 (GN.44) 的全素数零判据。
+本节不改变原 good-mask 或 (GN.46) 与原两点余核之间尚待证明的联系。

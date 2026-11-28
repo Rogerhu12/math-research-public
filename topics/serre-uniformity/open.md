@@ -126,6 +126,8 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 
+R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=8235Bp−7/(4C⁶)，包含零支。当前原桥可写Y=P²/V²，H=Λ(Y)，V_minor=Λ(XY)，U_minor=Λ(XY²)；仍须排Λ(Y)=0且Λ(XY)=3BΛ(XY²)，不能仅用1/X上的非退化矩阵代替。
+
 [R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原CM norm/符号给J4=−4βBp−3/C²、J6=360βBp−5/C⁴，C²=−4cω²，全部p>37。原Legendre同对T3=R(wPV³)、T5=R(wP³V⁵)、T7=R(wP⁵V⁷)准确为63J4/(4aν)、11J6/(8aν)、3J8/(128aν)；原M12中槽及R1181范数给T7零iffBp−7零。bad Bp−7/good Bp−5支，Λ=R(wPV³·),X=P²V²的Hankel det=−T5²单位。它非原Δlow，保全部mask；H_p0后heat二阶unit，余核桥继续。
 
 完整原norm2、Kronecker、两twist、mask、全部高尾及旧端点详见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)；不重算已登记扫描。

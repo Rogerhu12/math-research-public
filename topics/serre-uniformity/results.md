@@ -1,5 +1,7 @@
 # 结论索引
 
+- **十二次原矩的绝对Bernoulli尺度（已证明，R1179 §12.4）**：[GN.47](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)同一physical字典给J8=−175680βBp−7/C⁶、T7=8235Bp−7/(4C⁶)，含零支；原synt中槽为2898720Bp−7/C⁶，physical取负后恢复−61γ7/2。保原mask，Hankel与两点余核桥继续。
+
 - **全部非平凡偶局部角色的绝对比较（已证明，R1180 §9）**：[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp、真实trace/e与合法PD gauge，付所有奇r=3,…,p−2的物理F_r=γ^(r−1)ℓ_(p−r)。原未平均γ_r局部值为(r−1)!Bp−r/r；特别γ7为720Bp−7/7。U_E=γ_E²、η★=1全部坏支，不需generic SS/β非零；保σγ=−γ、root phase及原角色出现条件，不新增global源。
 
 - **原Legendre互补矩与actual bad条件的Hankel单位（已证明，R1179 §12）**：[R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原CM norm/符号给J4=−4βBp−3/C²、J6=360βBp−5/C⁴，C²=−4cω²，全部p>37。原Legendre同对T3=R(wPV³)、T5=R(wP³V⁵)、T7=R(wP⁵V⁷)准确为63J4/(4aν)、11J6/(8aν)、3J8/(128aν)；原M12中槽及R1181范数给T7零iffBp−7零。bad Bp−7/good Bp−5支，Λ=R(wPV³·),X=P²V²的Hankel det=−T5²单位。它非原Δlow，保全部mask；H_p0后heat二阶unit，余核桥继续。
