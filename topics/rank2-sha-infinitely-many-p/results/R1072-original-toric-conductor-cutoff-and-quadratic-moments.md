@@ -355,3 +355,21 @@ $$p^{-2}[q^{p^2 n}]f_p^{\rm harm}\equiv
  36(\delta/34)^2 m_2(p) a_n\pmod p.$$
 
 最后，标量好素 $T_p$ 的 $q$ 展开给 $[q^n]T_p^2 f-[q^{p^2n}]f$ 为 $p^{4p-3}$ 乘整系数组合的 $f$ 系数（若 $p\mid n$ 包含相应额外项）。所有 $f=f_p^{\rm harm}$ 的系数均在 $p^{-1}\mathcal O$，故除 $p^2$ 后此差仍被 $p$ 整除，证明全式。原标量 $m_2(p)$ 由全部原标签决定；固定本征线身份允许标量本身为零，尚未给无穷 $p$ 的非零。
+
+## 13. 原任意层中央二次矩的特征零权二配对
+
+固定 $s=2i$、原 $\Gamma$ 生成元、BHKO 兼容基点、$p$ 局部二维整基。取 $R=\mathcal O_K/p^s$。对 $\beta=a+bj\bmod p^s$ 作原四元数矩阵 $M_p(\beta)$；选完整 norm $-1$ splitting 并将原 orbit 基点和生成元一起运送。若矩阵有单位元且行列式 $0\bmod p^s$，其像为 primitive 自由秩一 $\mathbf Z/p^s$ 直和因子。以像线的 ring class 群标签投到 wild 商 $\Gamma/\Gamma^{p^{s-1}}$，记其幂的**原整数代表**为 $0\le u<p^{s-1}$，并置 $W_s(\beta)=u^2$。其余矩阵置 $W_s=0$。这样 $W_s$ 依完整模 $p^s$ 的类，未用第一位余类代替任一第二位或更高位。$W_s$ 在模 $p^s$ 有理单位缩放下保持，且包含全部十二右单位和全局 $\mu_3$ 的约定如 R736(26),(29)–(30)。
+
+沿用前面原 $c(a,b)$、$Q=N(a)+N(b)$。定义
+$$ \mathcal F_{p,i}(z)=
+ \sum_{a,b\in\mathcal O_K} c(a,b)W_s(a+bj) e^{2\pi i Q z}. $$
+这是平凡 character、层级整除 $N'=3(102p^s)^2$ 的权二 holomorphic theta：模 $102p^s$ 的固定 Schwartz 系数在有理单位下保持，对应有限 Weil 群的 $\Gamma_0(N')$ 变换及 Gram 平方行列式如同前面，调和多项式此处为常数1。其在全部 cusps 的尖性也将由下面的完整 $q$ 展开直接给出。
+
+对每个整数 $j$，若 $p^s\nmid j$，则 $[q^j]\mathcal F_{p,i}=0$，因为 $W_s\ne0$ 需行列式为零模 $p^s$。若 $j=p^s n$，写 $n=p^a m$、$(m,p)=1$。坏位倍数为0。其余时，按原右 ideal 与十二单位模型，$\beta O$ 的 prime-to-$p$ 后因子对应全部范数 $m$ 的右 ideals，并在 $p$ 可逆，故并不改变像线，完整端点合计准确作用为 $a_m$。对 primitive $p$-部，$s+a$ 步原无回退路径的模 $p^s$ 像线只依深 $s$ 的 ancestor。其每个深 $s$ ancestor 的 $a$ 步后代全和在 $a=0$ 为 $f_{\rm int}(x)$，$a=1$ 为 $-f_{\rm int}(x')$，$x'$ 为深 $s-1$ 点；随后有 $U_{a+1}=-p U_{a-1}$。因 $s$ 偶，$x'$ 在原 $X^-$，其值为0；因此 $U_a=a_{p^a}f_{\rm int}(x)$ 精确成立。$p$-非primitive 时 $W_s$ 自始为零。深 $s$ 的每个 primitive line 恰有十二个生成元，原取 tame 商另有三次全局单位重数；类数一及可逆 ideals 保持该计数于全部 $s$。所以对于前面原整数 $M_i=\sum u^2A_{i,u}$，
+$$ \boxed{\quad \mathcal F_{p,i}(z)=36M_i f_{E_{17}}(p^sz).\quad} $$
+原 $s=2$ 的纯调和低层 theta 给其标量模 $p$ 而未带这个 $p^s$ 层。当前恒等式在特征零对所有 $i$ 成立。固定权二新形式原层级 $N_{17}=10404$ 满足 $N_{17}p^s\mid N'$，所以右侧确是该层的 oldform。其一阶 $q^{p^s}$ 系数为1的规范化不含 $p^s$ 因子。
+
+在同一 $\Gamma_0(N')$ 层取通常复 Petersson 内积（第一变量线性）；固定权二 oldform 的非零范数给
+$$ \frac{\langle\mathcal F_{p,i}, f_{E_{17}}(p^s\,\cdot)\rangle}
+ {36\langle f_{E_{17}}(p^s\,\cdot),f_{E_{17}}(p^s\,\cdot)\rangle}=M_i\in\mathbf Z.$$
+故原 $J_p'(0)\ne0$ 当且仅当某个这样的具体配对商不被 $p^{s-1}$ 整除。从同一 theta 振幅换固定坏测试向量或删支会改变该标量。当前配对恒等式仍需额外输入来在无穷个 $p$ 检出。

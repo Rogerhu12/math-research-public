@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 12:12:25 UTC实际pull --rebase，读取main 30825717090089e0c3bbcf7637d9c5b66269294b；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 12:12:20 UTC实际pull --rebase至c7fbe5617593a6222e457afbef28395fbdb392c9；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与已读版本同blob，未重读；QUEUE e58af89f749cd79e35c2c318fec6847d7ad53e8a，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3246/46843358B/tree8bf0dfdab6d619a9ae4600026ddb3cff1a7022f1；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 公开2026-11-28 12:13:38 UTC实际pull --rebase，读取main c38524396911d00251c387eee842e63aa987f545；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:13:28 UTC实际pull --rebase至05630dc9072a49f0182b8786e69930d7fde12a0b；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
+- 拉取的公开基线库存3248/46860840B/treeeda2eb23d9f2aa9a8db06dfda58db9b9f2feb4ef；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -39,9 +39,9 @@ J(η^(du)−1)=17^-1(17/a^d)^u Jp/J0p，保全部权germ与原参考。旧普通
 
 ## 原全导子量化：R1072
 
-[R1072](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)§1已付原完整Mellin primitive差、同一X、六条单位/δ短线、相对范数与二维格一致误差；D=φ(p+1)/2，i≥(1/2+ε)D整段所有原twists非零。未分歧同层传播返A/B34无旋分根，未决定中央或首层。§§2–4已付原全层偶数小行、非零P_i严格v<1、Th3.12/4.14–15原周期和v(P_i)=v(A_p)+S_i/D_i；P_i非零恰λ<D_i−S_i，零层初始段。原首层λ=2恰Σu²A_1,u modp非零，足以通常全Sha有限。原有限域插值与Weil弧界再给√p节省，未证所需无穷p非零。 §5把真实primitive分裂素方向相位保为角色，短同步子群的tame注入限秩、Poisson推前正下界及全长尾，给i≥100logp/loglogp整段非零与log(1+λ)≪(logp)²/loglogp。 §6更以截断分裂Euler算子、粗方向同向乘积注入和全长尾，给所有i≥1000原整层非零及λ_p<p^1999；主证明不借µ/λ。 §§7–9原signed Artin给Θ17²=C*Θ1² A Aι、Θ1单位；BT全层M_i=Σu²A_i,u准确满足(−1)^i p^(1−i)M_i≡2Θ17,2 modp^i。因此原J′非零恰某有限i不被p^(2i−1)整除；中央赋值2r且首次检出i=2r+1。所有i都未检出才等价中央坏，不把有限矩/全行混同。 §10原Q=p²全壳调和theta给m2=(34/δ)²[q]T_p²f/(36p²) modp，固定层3·102²、权4p−2，需p f模p⁴；不从固定层或模p影子赋非零。
-
-§§11–12同一源的模p首影为−θ^(p−3)F6，F6固定权六；完整p^-2T_p²f_harm整且模p为36(δ/34)²m2·原E17权二新形式。全范数ideal/非primitive/BT祖先与坏位均保；本征线允许该标量为零。
+[R1072](results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)§§1–6保完整Mellin、六单位/δ线、同X primitive差、短同步tame注入、全尾与原Euler。依次付i≥(1/2+ε)φ(p+1)/2、100logp/loglogp及最终固定i≥1000整段原L非零，λ<p^1999。§§2–4原偶数Brandt行与原周期给v(P_i)=v(A)+S_i/D_i，旋分零层成初始段；首层λ=2恰Σu²A1u≠0 modp，Weil弧界另省√p。不从全层非零推中央。
+§§7–9原Θ17²=C*Θ1² A Aι、Θ1单位；全BT矩M_i=Σu²A_i,u满足(−1)^i p^(1−i)M_i≡2Θ17,2 modp^i，原J′非零恰某i不被p^(2i−1)整除。中央赋值2r，首次检出i=2r+1；允许有限层均未检出。
+§§10–12同一原Q=p²全壳调和theta固定层3·102²/权4p−2；m2=(34/δ)²[q]T_p²f/(36p²)modp，需p f模p⁴。p f模p为−θ^(p−3)F6固定权六，全p^-2T_p²f在p整且模p为36(δ/34)²m2·原E17权二新形式；标量允许零。§13任意s=2i的完整原像线整数权theta在特征零全等36M_i f_E17(p^s z)，Petersson商精确为M_i；保全部理想、12·3重数及BT父点X^-。仍缺无穷p原矩检出。
 
 ## 更正、其它门与主前沿
 
