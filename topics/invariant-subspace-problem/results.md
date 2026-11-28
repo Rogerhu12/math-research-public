@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- [R150：整个W/b0的原t参数首一λ二次与精确两列环境](results/R150-appendix-unit211-W-entire-b0-original-t-parameter-monic-lambda-two-and-exact-I4.md)：纯权原三均值组合直接给λ²−a(t)λ−b(t)，t度1/2；保一般W的−bcΦt恢复项及既有整Lhalf付款，与旧(λ,f)图双向。原I4八行、I6十二行均在首一环境中精确，原商不假定自由；无新执行或排空主张。
+
 - [R150：正确Phi的原t参数N1、两条斜率曲线与精确六行二列](results/R150-appendix-unit211-Phi-zero-corrected-t-parameter-N1-two-slope-curves-and-six-by-two-model.md)：317928首次28.214213199秒/0；三均值规则、原λ3、完整极化N1和两列呈示全返。纯权斜率剩H6/H8各一次，在其补图原I4精确首一二次加六行；两个完整零曲线保留，未判空。
 
 - [R150：W/b0整个交叉头零支排除与全局det=1原I4](results/R150-appendix-unit211-W-b0-cross-zero-complete-original-weight-unit-and-global-det-one-I4.md)：cb71首次0.772347633秒/0，三个完整常数域中原三B1的ν-gcd均8→3→3，旧paid支持删尽后实际原单位返回。结合旧G5用CRT得(B11,B21,B31)=A_W；纯权可逆行变换给全b0四式精确呈示，不反演G或几何头。b0仍未排空。
