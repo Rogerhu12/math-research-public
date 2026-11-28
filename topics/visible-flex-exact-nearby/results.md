@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGRT：两真实物理根Cauchy状态的全角配平实际完成](results/R149-supplement-actual-complete-physical-root-Cauchy-matching.md)：真46153751966/1 job141005762203 success；全23原件/真实复频/条宽1/512，整1730B1d268647…，Wiener差距>4.334280801198336，0..4阶修正最大<.009061，两小门真。仅同一完整Lcal(X)试探的两根状态严格相等；普通/非局部/跳/腰须配套，正侧独立误差与全逆仍待。
+
 - [AGXW：完整2962外域普通源已实际完成，保留真实宽上界](results/R149-supplement-actual-complete-ordinary-exterior-wave-and-wide-directed-bound.md)：真46151646115/1、job140999361779全2962新分片成功；1985B3adf3c33…保整件，strict自然253858721.08722228/mixed4410891605848.822，总4411145464569.909、共同54698203760666.87，5.5门false只是宽上界。原非零势平移/3056原行/14来源保；非局部/独立mean/端点另付。
 
 - [AGNF：全有限真非局部与独立mean实际完成](results/R149-supplement-actual-complete-finite-genuine-nonlocal-and-mean-rows.md)：真46150791569/1全1136组/16slab/97..2²⁰/two signs/两真列成功；2754B38ef9f41…与43whole全准入。两J/五mean/typed g1H⁻²ᐟ³+g2保，无额外J；原Ai natural .102516/common1.271201，双列 .202863/2.515496，非local/全∞/全inverse。新strict-cut可只组合原完整行。

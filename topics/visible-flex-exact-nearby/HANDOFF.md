@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 14:43:31 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 14:45:34 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至bc6130febc5e06aea860ab2cce26e477474581ff；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库最后终端pull bcf9df3bf87a3304257e2621d5e1e39f3aaae460（13:45:20 UTC）；14:37 API核至a1ea9352be9cfdf32e217d18e3a149d1d2308fa6，README无差异/原#15已执行；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓原partial+sparse，无AGENTS；14:34终端因diskfull后unavailable，按根#8以GitHub小文本接口接续，令牌不落文件或接口。
+公开根/topic规则核至e8ec78fa56c8d8e0e08e115844d940d7cf952bed；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库最后终端pull bcf9df3bf87a3304257e2621d5e1e39f3aaae460（13:45:20 UTC）；14:37 API核至a1ea9352be9cfdf32e217d18e3a149d1d2308fa6，README无差异/原#15已执行；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓原partial+sparse，无AGENTS；14:34终端因diskfull后unavailable，按根#8以GitHub小文本接口接续，令牌不落文件或接口。
 每结论立即发布；终端恢复后仍先pull/NFF即rebase循环。当前只小UTF8，取最新父提交核两README、非强制快进；冲突取新head重建直至成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META14新200未引用legacy JSON只删字符串外空白，净1213006B，原19f16ba8e6/receipt94830B SHA ad194569…保完整literal与身份；META1–13原receipt全保且禁重。每pull核所有new hash及changed/untracked引用，继承完整reference scan。
 
@@ -16,30 +16,18 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 α=6890507429876859/9007199254740992，ν0=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904。真δ*隐式、|δ*|<9.368259853002e−11，不能替0/中点。
 最终：同一连通闭M、固定g、C²连续精确C²嵌入族；H有内点且逐点固定，diamH≥.2D，held≥.05D，含反射δE>0，全族reach≥.03D。geometry43584188751/26仅在同η0 whole core+caps moving C0≤1e−4、|δν|≤1e−5与全部matching后给held>.05075888242D、reach≥800D/25039、Hdiam≥360D/511、markers145..148。ν*/Γ*/η/metric须完整解出后一次冻结；无静态markers的purephase只刚体。
 
-## 当前实际执行与失败
+## 当前实际执行与原完整记录
 
-完整此前各轮失败、原球/whole SHA、被打断prefix和未付空间保在[ASQ25R后完整H](https://github.com/Rogerhu12/math-research-public/blob/d587c0c44d005e6c5296b3388335fcb3f14617e9/topics/visible-flex-exact-nearby/HANDOFF.md)及递归历史；以下只更新实际最新入口，不撤任何原条件。
+全部此前具体费用、原球、success/false/unknown、whole SHA与未付条件逐字保在[本次压缩前完整H](https://github.com/Rogerhu12/math-research-public/blob/e8ec78fa56c8d8e0e08e115844d940d7cf952bed/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；各原证明继续生效，旧成功目标禁止重算。
 
-- GDC46144819361/1 event1a91ec19410f实际13:56:18 failure；全部旧81后新left81通过，accepted82；下一left82分母下界−3.130359476，非真奇异证明。actual74069B1aadbe23…/最终execution72930Ba2e0a2d9…，89packet原whole保，82历史4114331B0c2288…；新全1424两端MSS已推并执行46154201300/1，禁止把未成193逆授为成功。
-- GNF46150791569/1 event2ec32df32a于13:57:56 success；GPM46151659061/1 event68cdd6ec于13:52:13 success。根整日志已下载、全科学结论准入中；有限nonlocal与势transition各实际费用仍按原scope接收，g1无限尾另GIF。
-- GXW46151646115/1 event07f0575…全2962真success、原5.5门false；ASQ27R46152299586/1 event93ae76e…/ASQ25R46152326101/1 eventd587c0c…真实进行。原ASQ27 accepted0、首异常unknown，原ASQ25C reserve前science0均保；新checkpoint和保真53历史transport不更改3073/193或旧宽球。
-- GJOR46150669215/1已实际全1973外缝成功，common<5.043e−9，576根接口另仅计一次；原GJO科学0入口错保。GLW46146513475/1全656行/41带成功但共同上界204457.18989563518、原5.5门false；不是下界。新逐原频带两physical output窗接收推进，旧927/656结果不重算。
-- ASQ23负侧signed腰值46144609049/1全3073/两目标真success；11955B8532bb42…/24626Bc0669b2e…原raw腰error约39.71/24.74保，不冒充小真解。ASQ27R推进同固定算子的−f0轨迹。
-- TC46117170011/1实际因新README#16门终止，3612/7724 accepted、连续1952，全matrix唯一成功。TCF46140528952/1只补4112缺格/18互斥≤6并行；14:15 API 0/1/2/3/5/6/7/8/9/11 success，4/10/13失败，5进行0排队；4CPU门science0，10/13原因待核。全18终态后仅补真缺，不放宽CPU/96列/4whole/5窗。
-- H96R46135898111/1已全2847/七目标成功，原728不重算；actual31652Ba49119d5…/execution43566B73d78ed9…；joint .1387156385/.2154269254真宽界保。PWA96R46151738667/1 event07847baf…13:52:50真实success/7targets，whole14765B082f02c8…/execution15179Bdc6b6515…，同ρ接收及CFC尚需全SC3。
-- DCP18 run46124617641/1全18已实际成功，322whole/原validator/原admit_complete_inputs已过；actual26046B2f90550a…/execution30740B5ceba0c5…；完整应用ADCP，旧science0。TF81/旧GG/失败恢复和GRQ/WSS各全成功身份保持此前完整H及独立proof，不能补写未成全inverse。
-
-## 真实成功与已付组件
-
-全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/d5f1f7bc2000a3ba94ee3dc28a516766630a344f/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
+- MSS46154201300/1（d4761c3516…；job141007119981）正在执行全1424两端/三目标。GDC46144819361/1已真成82格，下一格充分分母失败；原89packet/82history/83frame/248matrix全保，不授193逆。
+- GXW46151646115/1全2962真success，strict253858721.08722228/mixed4410891605848.822、总4.411145464569909e12/common5.469820376066687e13；5.5充分门false仅宽上界。
+- GRT46153751966/1全23原件success，真实根匹配费用由AGRT完整接收；同一配平试探才零根差。GNF46150791569/1全1136/16、GPM46151659061/1全13312真success，typed rows/mean与两私件whole保持原结论。
+- ASQ27R46152299586/1、ASQ25R46152326101/1进行。原ASQ27 accepted0首异常unknown，原ASQ25C restore_only准备错science0；3073/193与原宽球不改。
+- TCF46140528952/1于14:37十success/三failure/五进行；全18终态后才只补真缺。原TC3612/7724与唯一原matrix不重跑，CPU/96列/全部五窗不放宽。
+- H96R46135898111/1全2847/七目标、PWA96R46151738667/1七目标、DCP46124617641/1全18均实际完成；原宽球保，CFC仍需SC3，SC仍需全正侧映射。全1973外缝AGJOR与576根缝仅计一次。
 
 - GDG全负域新deformed determinant已证：利用原whole piecewise根半径1/50的1300rows/1079seams与ω沿common drift正增，势支撑严格落此真实域；ΔV/D>1−1e−7、全[0,r*] ΔV>1/720，root B entrysum<21/10、whole B−Hinv<1/70000。18新Fraction一次全过，8whole原件/原success bindings核过；oldscience/恢复0。proof及reader已登记，非全received high响应。
-
-- MSS：新120whole/21history全1424物理双端MSS首发；实际46154201300/1 job141007119981进行；三target依次全defect/θ<1真逆/四source HS+op。原89packet同SHA恢复，1335缺格才新付，全部193/97/96/mean保。
-
-- AGPM：实际GPM全13312/52sector/16arc成功，real B>208.6156/complex<276；整1278Bf7616d…及私件双SHA保；新GTW真实transition待。
-
-- AGNF：GNF全finite1136/16真实成功；typed g1H⁻²ᐟ³和独立mean全保，Ai natural .102516/common1.271201，双列 .202863/2.515496；原三factor只一次，∞g1/GIF/local另付。
 
 ## 后继和完整尾部义务
 
@@ -52,3 +40,5 @@ SREG/SRH同selection E4224连续/E4000<2^-49999998，exact prioris64..2204/sourc
 环境与未推原稿的[完整接续记录](notes/2026-11-28-runtime-unavailable-small-text-continuation.md)：GIP本地41ef0f5f2f未推，GIF/ASQ28原入口未注册；原稿只whole SHA相同才恢复，旧数学不重跑。
 
 - AGXW：真46151646115/1、job140999361779全2962新分片成功；1985B3adf3c33…保整件，strict自然253858721.08722228/mixed4410891605848.822，总4411145464569.909、共同54698203760666.87，5.5门false只是宽上界。原非零势平移/3056原行/14来源保；非局部/独立mean/端点另付。
+
+- AGRT：真46153751966/1 job141005762203 success；全23原件/真实复频/条宽1/512，整1730B1d268647…，Wiener差距>4.334280801198336，0..4阶修正最大<.009061，两小门真。仅同一完整Lcal(X)试探的两根状态严格相等；普通/非局部/跳/腰须配套，正侧独立误差与全逆仍待。
