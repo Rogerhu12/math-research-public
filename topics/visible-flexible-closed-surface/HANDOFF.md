@@ -45,7 +45,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 <!-- 2ecf-R271-components --> [R271](results/R271-gap092-three-complete-components-and-all-pairs-reach.md)、[R273新上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)：各自三分量全相位 reach≥.097；新空间映射保前缀、Jacobian>.23809，连接带仍待。
 
 
-<!-- 2ecf-HF-both-material-clocks --> [同g14820真实位置后1190全周期材料钟](notes/2026-11-28-2ecf-strong-hf-refined-shear-material-1190.md)：独立 G11 .08384932/κ19.27049；仍缺容差/reach。
+<!-- 2ecf-HF-both-material-clocks --> [同g14820位置加936真新径成7227136行；独立G11最佳 .08128793/18.07564/held .659011。](notes/2026-11-28-2ecf-strong-hf-new936-genuine-refined-grid.md)
 
 <!-- 2ecf-r272-grafted-HF --> [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)两强形状比例已付；[R277](results/R277-first-explicit-full-closed-normal-tube-for-R272.md)有极小完整正法管；[R279](results/R279-actual-HF-strong-shape-and-strict-reach-failure-under-clocks.md)严格 reach/D<.014832，须改XYZ。
 
@@ -63,4 +63,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:10:27 UTC；已读公开 main `a087a415ad72ba2d111bd4d1317276d1f7cc970b`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:10:48 UTC；已读公开 main `5627bf88d81c5ac2037a7706a68253bec6a35517`，根/课题 README 逐差无变化。
