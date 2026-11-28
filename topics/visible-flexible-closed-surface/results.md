@@ -184,3 +184,4 @@
 - [R311：半高.545的真双臂中央带](results/R311-compact-0545-threefold-shoulder-belt-and-tangent-ball-sections.md)（已证明）：真实平修.235、回接.235..535、原柱至.545；肩口球截面和完整内球证明reach≥.115，每半省.235，母面support>.222/.239。
 - [R312](results/R312-true-threefold-arms-high-caps-and-complete-shape-conditions.md)（已证明）两真厚臂全部连续像及原高平帽强形变组合条件：D*=3.830/3.788时held/D>.2004/.2013、δE/D>.0583/.0501，前提是同实际新前缀三个明列形状界；新原场自己的尾与reach/metric仍须支付。
 - [R313](results/R313-compact-normal-graphs-full-embedding-and-two-strong-distances.md)（已证明）V44/V45/V46同实际法向图全时C²嵌入，37596连续叶未决0给半宽<.8955，D≤3.1644、held/D>.20279、δE/D>.05068；新reach与原g容差不继承。
+- [R314](results/R314-inverse-prufer-infinite-flat-tail-and-physical-quartic-buffer.md)（已证明）反向Prüfer相位给真实无限平领及非零C²二次无穷小等距模：每层水平双端准确零、外增益>10>8、层宽<48δ；正斜率四次缓段匹配w与wr，可给指定负端高度模。有限幅度二次度量项仍存在，非精确闭面解。
