@@ -507,3 +507,7 @@
 ## R631：周长半径4/5的温和厚核心
 
 [完整证明](results/R631-thick-core-at-radius-four-fifths.md)：固定ε=.05给ρ∈(.14,17.153)、同周长路径的u/e/P界和球1.032；条件全闭面预算严格给δ/D>.3、reach/D>.03。新参考E需实际重建，核心单独不授连接/完整闭面。
+
+## R632：真动能幅值图和负中心导数支
+
+[完整证明](results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md)：唯一正幅值α准确消原动能偶端，固定κ中心负导数消冗余并覆盖该真根支，完整幅值/记忆参数链保留。65节点C²实际函数入口约257变量，仍须其余三端、完整ruling和重新支付物理盒；fine须冻结α。

@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **0cf60c3dafd471db5f46d7c63e4082998d4eee78**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **d678ea6ac0a0ae68f2c9a509fe5db739203f7715**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **5c526d2a9e9f2f43550c0b9ee8adfd890e6c9098**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **d678ea6ac0a0ae68f2c9a509fe5db739203f7715**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -47,7 +47,7 @@ R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g�
 
 实际保留state **206ec1aef0d886c2ea8d030addc9a711dac77b27e4d3f4f00dd74cb31e5dee59**，19×65/十参；fine pending。逐步terminal非增实际只比较stored十末（始终0），真历史仅检查不抛错，真实末/ruling/历史一致门只作最终完成判定。不能再称60步完整真实资格，更不能原样续60步。
 
-下一以同一65结点C² Hermite h/k为未知，η/八A/六rho真实积分并作完整链Jacobian，消去独立stored记忆；R612动能关系可用真实k缩放图先消一端条件。新公开必要构建同时输出全部物理attainer并恢复盒；旧有完整fine的dde0可作可行来源，206e只能待恢复输入。原14段、此次费用/失败全保；[旧射线终态](notes/2026-11-28-r625-original-ray-natural-terminal.md)与[一致W证明](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)仍有效。R619–627依真端前提，原母18块576微包/ε1/12000/正势保持；根后仍需全部period/frame/闭pose/宏观reach。
+下一以同一65结点C² Hermite h/k为未知，η/八A/六rho真实积分并作完整链Jacobian，消去独立stored记忆；[R632](results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md)已证α²=(1+U/L²)/∫κ²的真实缩放图，固定κ'0<0消冗余、完整δα链保留；其余三真端/物理盒仍欠。新公开必要构建同时输出全部物理attainer并恢复盒；旧有完整fine的dde0可作可行来源，206e只能待恢复输入。原14段、此次费用/失败全保；[旧射线终态](notes/2026-11-28-r625-original-ray-natural-terminal.md)与[一致W证明](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)仍有效。R619–627依真端前提，原母18块576微包/ε1/12000/正势保持；根后仍需全部period/frame/闭pose/宏观reach。
 
 ## 几何及新构造
 
