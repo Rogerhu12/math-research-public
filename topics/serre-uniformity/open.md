@@ -69,7 +69,9 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原第一层完整xP=−b_E z^p(1+γp)ω−zgη，b_E为原Cartier unit。原Miller外环residue−c1−p/t(P)=p(E(P)−1/t(P))锁κ=−b_E；包含p²危险项的CM完整尾已付。pure powers的j=pd−(p−1)k、normal hp+k、系数(−1)^d d!b_E^(d−k)ξ^j/(d−k−h)!全给，无额外moment d!。
 
-[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原六种(d,t)=(4,1),(8,1),(0,5),(12,2),(8,4),(4,6)的未分歧log cone有完整SDR到常数M_d/p[-1]。q_k=t+k，K_q=(−1)^q(1+γp)^q/q!，F_k=(−1)^k b_E^(2k−d)e_(d−k)；T(y)=Yhi+正normal(φ_rYhi)，R(y)=y0+(−1)^tΣb_E^(2k−d)σy_(k,t+k)e_(d−k)/(t+k)!。H2的常数方程由实际CM反对角可逆，所有低分母≤13，高normal没有先删，H0/H2准确0。
+[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原六种(d,t)的cone有完整SDR到常数M_d/p[-1]；q=t+k，只读normal0/q，高γhp由T保留后消。H0/H2=0及全部常数方程/σ/阶乘见原文，不能再列作接口缺口。
+
+[原Gaussian两位carry](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)将R1168全部p²高G准确降为≤12项、degree≤5的p-section及≤h低读数；唯一carry=2a/b_E、首不整边界pF_(e/4)=−1。完整R/F/S与中间G_(3p−1)保留，不外推旧低权反射或宣非零。
 
 原d4/8矩的y0全0、另一读取仅L₂的m_k=e−pd+(p−1)k系数；m_k非p倍，L₂即logV₂该系数。formal v=z+O(z^(e+1))与倍点ζ给(2^m−4)G_m/m，原k_d(2)实消，故A_d=Σbinom(d,k)b_E^kG_(m_k)ω^kη^(d−k)/(k+1)。所需G_m的整性由x(z)与m−1单位证明。cubic M4只2b²G_((p−3)(p+1))ω²η²，M8只k1/4/7；Gaussian只偶k，全部系数见原文，未宣任一G_m unit。
 

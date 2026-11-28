@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian指定高Hurwitz窗口的两位carry reduction（已证明）**：[原有限读式](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原逆椭圆积分在e/4前全整，唯一Lucas carry为2a/b_E，首不整边界pF_(e/4)=−1。R1168的全部高G降为≤12个degree≤5 p-section和安全低R/F/S的≤h读取，保实际尺度与中间G_(3p−1)，不宣系数非零。
+
 - **原最高correlation Frobenius的全部实际双线性读数（已证明）**：[R1168 §§8–9](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)由原N_u微分、J0=0及实际normal下界完整求出最高加权U项；B_kl保同一二同源核的两矩乘积，BCH权(k−l)/(2(k+l+2))、ordered权(k+1)/(k+l+2)。原高carry、factorials和全部点对均保，继续原未平滑与其它中心，未宣该组合为单位。
 
 - **原最高correlation的整代表与非线性读式（已证明）**：[R1166 §§20–21](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)完整保ordered gauge后BCH准确为−R_Z(J_U)；原/primed theta的低normal支持、固定二同源whole Tate-Hodge群态射下ordinary βU/first=0与J0=0均付。原根/同陪集Cor保留，未把一般算术B_n包含在此源中。
