@@ -4,7 +4,7 @@
 
 ## 规则和来源
 
-- 最近实际pull后双README已读锚 `c4ae743d18dde9f5d0acb0959b6159ce9d4e5755`（2026-11-28 18:16 UTC）。
+- 最近实际pull后双README已读锚 `415f2924cbb9e353c2af90f4fa0b2da4584137c0`（2026-11-28 18:16 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `ddd3d4ed76e24b23c888e84b60385432a6fcf426`（FETCH_HEAD 2026-11-28 17:51 UTC），相对0e3cbe262双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟18:46 UTC再pull。
 - 每结论pull/核双README差异/推；NFF立即rebase循环成功，不force。根§12不另造审批/独立审查门；§15只源/参数/hash/小标量，所有再生数组留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/参数/时间域连通闭C²嵌入连续族；H内点/直径≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D、全metric≤1e−6、空间/频率/时间精化降到机器或求解容差；多个t小网格及严格存在差距。λ<1非准确圆弧H，换δ/profile/帽不是同g精化。完成后仍继续提高比例。
@@ -32,7 +32,7 @@
 
 ## 3. 同一个完整g的真实精化
 
-[QR原支持fixed-g九源](notes/2026-11-28-analytic-qr-anchor-fixed-actual-source-entry.md)保fixed=True原未知函数空间、全部未知、δ/profile/字面chart/gauge/warp/mean/尾背景，完整祖先链/final-H/8outer。原九源不动，独立KIND九源compile/help真0。首次须用内层actual-DN summary的真run/port/baseline/M-specific manifest；同M更严径向后再升模，BC/physicalBC不放松，mean冻结。
+[QR原支持fixed-g九源](notes/2026-11-28-analytic-qr-anchor-fixed-actual-source-entry.md)保fixed=True原未知函数空间、全部未知、δ/profile/字面chart/gauge/warp/mean/尾背景，完整祖先链/final-H/8outer。原九源不动，独立KIND九源compile/help真0。[首fixed直接launcher](notes/2026-11-28-analytic-first-qr-fixed-g-launcher.md)只用内层actual-DN summary的真run/port/baseline/M-specific manifest，runtime仅3执行键；同M更严径向后再升模，BC/physicalBC不放松，mean冻结。
 [完整尾C²比较](notes/2026-11-28-tail-qr-fixed-complete-c2-source-entry.md)真锚/真fixed完整g重构相等，全共同半径分割/全部谱/两jet沿原算法，绝对高度付各自defining零模和全mean，无平移；2242B主循环逐字同，尚无真pair。
 [时间插值入口](notes/2026-11-28-qr-fixed-actual-time-refinement-entry.md)同源/完整g/全谱/固定时间域，在同材料站点用同线性时间样条作用全空间两jet，直接量插值族metric并保原场误差底线；仅compile/help，无阳性或连续界，不能只增采样冒收敛。
 [显式相位合同](notes/2026-11-28-explicit-full-phase-mesh-entry.md)必须用phase-end4/5、held-width27/50及真实k.5/S.675，旧9/20/k.2导出不覆盖。最终小网格每个<5MB，只保存再生命令/参数/SHA。

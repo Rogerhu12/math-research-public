@@ -1,0 +1,84 @@
+{
+  "status": "strict_first_fixed_g_QR_resolver_prepared_with_real_wrong_role_rejection",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_qr_anchor_fixed_actual.py",
+    "sha256": "a417bb3af21b6f8dc1d18d8524ca42098987f83798825bcb0d3b05b08dac11fe"
+  },
+  "actual_wrong_role_input": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/actual-run-before-interruption.json",
+    "sha256": "ba9e7b62fa7e858b78f6269e53042c3c24971292e39bb2a4e76f4502c0a4294a"
+  },
+  "actual_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/qr-first-fixed-actual-real-lambda0-rejection-20261128-a/summary.json",
+    "sha256": "2b05f4b61aab52e654e9f5bc3aaa1aebb2c1e72f1669e81e710fef5ac3379633"
+  },
+  "actual_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_qr_anchor_fixed_actual.py",
+    "resolve",
+    "--repo",
+    "/workspace/scratch/7c4e33ee17de/math-research-public",
+    "--origin-repo",
+    "/workspace/scratch/7c4e33ee17de/math-research-public",
+    "--work",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work",
+    "--coupling-summary",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/actual-run-before-interruption.json",
+    "--outdir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/qr-first-fixed-actual-real-lambda0-rejection-20261128-a",
+    "--tol",
+    "1e-7",
+    "--own-child-session"
+  ],
+  "actual_tool_terminal": {
+    "chunk": "84f9d4",
+    "exit_code": 1
+  },
+  "actual_error": "ValueError('Require the genuine accepted inner actual-dn/summary.json, not a launcher or linear-design record')",
+  "actual_negative_summary": {
+    "schema": "first-fixed-g-from-actual-QR-inner-return-entry-v1",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_qr_anchor_fixed_actual.py",
+      "sha256": "a417bb3af21b6f8dc1d18d8524ca42098987f83798825bcb0d3b05b08dac11fe"
+    },
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_qr_anchor_fixed_actual.py",
+      "resolve",
+      "--repo",
+      "/workspace/scratch/7c4e33ee17de/math-research-public",
+      "--origin-repo",
+      "/workspace/scratch/7c4e33ee17de/math-research-public",
+      "--work",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work",
+      "--coupling-summary",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda0-fd-handoff-20261128-v2/actual-run-before-interruption.json",
+      "--outdir",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/qr-first-fixed-actual-real-lambda0-rejection-20261128-a",
+      "--tol",
+      "1e-7",
+      "--own-child-session"
+    ],
+    "action": "resolve",
+    "status": "genuine_QR_anchor_not_resolved_or_owner_not_executed",
+    "numerical_child_started": false,
+    "delegation_attempted": false,
+    "actual_fixed_g_accepted": false,
+    "original_design_recomputed": false,
+    "complete_surface": false,
+    "error": "ValueError('Require the genuine accepted inner actual-dn/summary.json, not a launcher or linear-design record')"
+  },
+  "compile": {
+    "chunk": "4bd806",
+    "exit_code": 0
+  },
+  "help": {
+    "chunk": "ea5858",
+    "exit_code": 0
+  },
+  "positive_actual_QR_lambda_one_available": false,
+  "native_started": false,
+  "BVP_started": false,
+  "model_or_gate_changed": false,
+  "fixed_g_acceptance_claimed": false
+}
