@@ -9,3 +9,7 @@
 ## 2026-11-28 05:35 UTC — 29完整容量发布修复与独立重启
 
 原46110194444双输入实际0后finish_record容量异常，科学未启；完整controller21888/abf54a1与全request45534/d5e405ec替换、全文MJS13096/b66bab97和[完整说明](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)及[总表](computations/run29-complete-capacity-repair-and-retry-delivery.json)发表。完整预渲染/容量投影，空间不足每30s真pull保whole状态等待；NFF普通rebase后重算全部文件，成功才计published。whole source反替还原19995B父，段外不变；原3step/157词/全部budget及360min/21000s原字保。已终止runner的数组不转移，新的真实runner重新生成必要输入，未把原失败冒新结论；新run/model/point/report仍待官方返回。根为活动完整记录继续预留容量，不加科学门。双README云核至`c672a6db8937ca91dccbe9b8c4fbb1f59b26c426`无变（非pull）。
+
+## 2026-11-28 05:38 UTC — ret72三旧有限曲率/分支输出完整保源退役
+
+完整四件77411B保29源/9模块loader、全原参数/三原gzip恢复、实际有限结论及M24未达更强目标；只移三生成报告296139B，净218728B。[全交付](computations/legacy-finite-tail-curvature-retention-72-complete-delivery.json)与[全说明](notes/2026-11-28-legacy-finite-tail-curvature-retention-72.md)。6813B原locator由六完整源字段反替恢复并整SHA dc02074匹配原自记；branch源全SHA匹配，curvature24大体未读，whole/self SHA未知仍null，现存generator完整原数值扫描不冒未知旧self。固定79f9aa50f5980db0ef1d5e8ae4234e14f7ff2fbd精确恢复，原source-origin整文件未知，仅明确新恢复metadata保存实际provenance消费值、不冒旧字节；三原科学输入保持fixed603214全压缩身份。全source/params/活输入/失败/唯一状态不删，数组不编码，不升级连续证书、不加数值门。双README云核至`a6ccd8592f42b02a4371781c67d373d2b805ee93`无变（非pull）。
