@@ -183,3 +183,23 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R75. 逆半径图的背景差转移
 
 [定理及完整证明入口](results/R75-inverse-radius-background-only-tail-transfer.md)。对0<Rc−d<c≤Rc的实际旧完整尾证书，物理重参图在逆坐标中准确等于旧图加真实背景差，全部尾模式/均值保留且不需扰动三阶导数。给一、二jet、目标比、连续metric、实际主曲率及支持函数转移；背景W/W1/W2已真512盒支付。仍须实际完整尾证书和真实cut误差代入，不称闭族完成。
+
+## R76. λ=.064/M40 完整前缀连续几何
+
+[完整证明](results/R76-lambda064-cartesian-prefix-continuous-geometry.md)。同一真实场全1041408盒几何已付，K≤123/10；未附尾/cut。
+
+## R77. 同λ=.064 前缀连续度量
+
+[完整证明](results/R77-lambda064-same-cartesian-prefix-continuous-metric.md)。1433径向叶×3072角格全角/全phase metric<98773/1e11，保全部定义数组；未附尾/cut。
+
+## R78. λ=.064 完整前缀第三活动矩
+
+[完整证明](results/R78-lambda064-complete-prefix-third-activity-moment.md)。1035原格精确接齐，1571879/10^7<A3p<1572603/10^7；两柱候选系数已付，整闭图δE未付。
+
+## R79. 真实 width=.12 cut 前缀的连续界
+
+[完整证明](results/R79-actual-width012-cut-prefix-continuous-metric-geometry.md)。同λ.002/M24原raw-H场82叶与未改补集完整覆盖，metric<99/1e8、K≤123/10；默认.04/.01不适用。
+
+## R80. 实际完整 full-H 尾的绝对几何
+
+[完整证明](results/R80-actual-complete-tail-absolute-geometry.md)。同R79原点的1152段/18460 spans与deep/平盘，半径≤.9204371195066212、support≥.7710414327607057、K≤10.017503096013616；ell=marker=0，完整metric独立续付。

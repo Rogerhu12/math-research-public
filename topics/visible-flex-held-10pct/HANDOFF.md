@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `07847bafb40d909896c1e377d5533114df987b72`（2026-11-28 13:52 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `0b533dc0e16d28c896a89b2baa9e07edae54d26b`（2026-11-28 13:55 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；13:05:52UTC真pull到 `daa55359468914e15b0fdb5864785c3a3991cfe5`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12/13/15/16照做：授权直接提交/Actions，可再生产物不存Git/Release；新spawn显式gpt-6.2-astra/ultra/forknone。H<10KB、单MD<100KB、课题<200MB。改外部workflow记本题log。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
@@ -35,6 +35,8 @@
 
 [全尾半径恒等已付](notes/2026-11-28-analytic-actual-complete-tail-radius-identity.md)：c=Rc=5404319552844595/18014398509481984，实数定义r(R)=R、r′=1、r″=0；完整谱/mean/共享两jet/索引再核，14.684s，parent/child0。只属原raw-H场，不借旧metric。
 
+[R80实际整尾placement](results/R80-actual-complete-tail-absolute-geometry.md)已付：1152段/18460 spans+deep+平盘，|F|≤.9204371195066212、F·n≥.7710414327607057、K≤10.017503096013616；真实pole区间[.8699871644491405,.8699871644766567]。同.12 cut原点、原完整mean，ell=marker=0；TTY42675/exit0，不重算原积分/多项式。
+
 默认完整图查询JSON修复后真exit0/42尾点有限，零柱/marker0初始化不作验收。[.04/.01真实点反例](notes/2026-11-28-actual-short-cut-point-obstructions.md)已付，改[.12 cut的R79](results/R79-actual-width012-cut-prefix-continuous-metric-geometry.md)后82叶+未改补集全metric<99/1e8、support>.6445、radius<1.19001、K≤123/10。首加载−9零叶保留，fresh门后TTY86889父/子0，47.829s；root源/精确覆盖/有理门已核。实际图入口须显式--cut-width .12，不能混默认.04。
 
 [严格原响应复用](notes/2026-11-28-tail-exact-response-memo-preflight.md)新F55344state/1776J正预检已过。最终coupled图须独立绑定binding.candidate_H，不能搬raw-H尾证书；现尚无8outer最终physical-H。
@@ -47,13 +49,12 @@
 
 [R78](results/R78-lambda064-complete-prefix-third-activity-moment.md)已付同λ.064/M40/mean1936的1035格完整活动矩：A3p∈[.15718797241305868,.1572602797971617]。640格累计+336 durable叶+59新叶精确接齐，原core/976格未重算；root47项SHA/395行Fraction核过。两短柱系数已给，未附该场尾/cut，不称全δE。
 
-## 已付连续前缀与条件工具
+## 连续前缀与已有结构
 
-- λ=.002新879点未cut场：[R73](results/R73-new-common-cartesian-prefix-continuous-geometry.md)全966656盒几何/曲率K≤123/10；[R74](results/R74-same-new-cartesian-prefix-continuous-metric.md)1467叶×1536角格metric<99/1e8。原唯一R图、真实R53 lift、完整mean1168保留；旧x图二阶跳不回用。
-- λ=.064/M40同图：[R76](results/R76-lambda064-cartesian-prefix-continuous-geometry.md)全1041408盒几何；[R77](results/R77-lambda064-same-cartesian-prefix-continuous-metric.md)1433叶×3072角格、全角/全phase metric<98773/1e11。原137保1328叶，续105叶不重算。上述均非尾/cut/闭面。
-- [cut区间源](notes/2026-11-28-new-prefix-cut-interval-entry.md)保全部模/mean、真实ap/app及0..3阶；75位代数核已付。同图未改补集才继承；[coupled连续入口](notes/2026-11-28-analytic-coupled-continuous-entry.md)另验新source。R75逆R转移须源身份，当前raw-H e=0已付。
-- R53/R54/R58/R59/R63/R65/R68/R70–R72等结构结论适用域在results/详细快照，不重证；R71不是完整BVP逆，R72不是严格Schur逆。R67全E(3)含反射的三阶矩/两柱长机制保留。
-- [binary预算](notes/2026-11-28-analytic-binary-core-curvature-held-budget.md)仍是条件窗：真实D0≤2.68、K≤12.3、support≥.087后才用帽/短柱达到D≤2.69004及各比例。准确λ1/全闭图/全时reach/同g收敛未付。[网格入口](notes/2026-11-28-actual-closed-mesh-entry.md)需真实对应源，不造输入。
+- [R73](results/R73-new-common-cartesian-prefix-continuous-geometry.md)/[R74](results/R74-same-new-cartesian-prefix-continuous-metric.md)：同λ.002/879点原前缀完整几何与metric；新的.12 cut已由R79付清，不搬默认.04界。
+- [R76](results/R76-lambda064-cartesian-prefix-continuous-geometry.md)/[R77](results/R77-lambda064-same-cartesian-prefix-continuous-metric.md)：λ.064/M40同一完整图的全角/phase几何与metric，均非闭面；R78同场完整活动矩见上。
+- R53/R54/R58/R59/R63/R65/R67–R72与R75适用域见[结果索引](results.md)和详细快照，不重证。R71/72不是完整BVP逆。coupled新图须自己的最终physical-H身份，raw-H证书不可挪用。
+- [binary条件预算](notes/2026-11-28-analytic-binary-core-curvature-held-budget.md)与[真实网格入口](notes/2026-11-28-actual-closed-mesh-entry.md)已备；准确λ1、全闭图全时reach和固定g收敛仍须实际支付。
 
 ## 原字节与执行
 

@@ -1,0 +1,159 @@
+{
+  "status": "proved_actual_complete_tail_absolute_placement_and_global_curvature",
+  "session": "Astra-held10-7c4e33ee-20261128/tail_closure",
+  "date": "2026-11-28",
+  "actual_exec_session": 42675,
+  "actual_exit_code": 0,
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_actual_placement.py",
+    "sha256": "bb0af087d1649b4067c52096f2a17f41ed2ea7c7d48f8b89ec16ca5290cb2bbc"
+  },
+  "summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-actual-placement-20261128-a/summary.json",
+    "sha256": "b001a374546aaad59ed3167a12d6ae2233e91f0429e70b421235f1ee53c24d2e"
+  },
+  "absolute_height": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-actual-placement-20261128-a/absolute-height.json",
+    "sha256": "7c015155273dcd4cb05eab3f53b2aae2469f2254f26e14fc2661e5b7e1b1baf0"
+  },
+  "component_bounds": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-actual-placement-20261128-a/component-bounds.json",
+    "sha256": "9b2c4a407a321c89d73e30ab2f053b3dfb0d2ed8cd2258bdf625ed34216444d4"
+  },
+  "source_bindings": {
+    "geometry_bundle": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+      "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+    },
+    "constants": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-constants.json",
+      "sha256": "467cdcb4b2d373fe8178a7c0fec93a683cc60d00bdb56bb62c0f4975e289a706"
+    },
+    "normalization": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-normalization-reuse.json",
+      "sha256": "f20c024ae158e658db9b028b83b01f8f1c92cb3e939cb519cca570355c7e4321"
+    },
+    "cut_certificate": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b/summary.json",
+      "sha256": "39ac427fb4cfcfcd0803cf3f49af1d0c631e9e665067e8ca586cbff942a4a97c"
+    },
+    "cut_table_report": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-metric-tables-20261128-v1/summary.json",
+      "sha256": "5872e2cb713de30d30778043114b4b2ebc8fdb0d3ae08f428d5f8040f139b995"
+    },
+    "literal_prefix_defining_jets": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-metric-tables-20261128-v1/exact-defining-jets.npz",
+      "sha256": "3a44cc61181fb6ebdde51c5f5e7feae3b418ed0492b5275d50fa478bcc70768c"
+    },
+    "prefix_source_run": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+      "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+    },
+    "entire_mean": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/original-native-mean-chain.json",
+      "sha256": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9"
+    },
+    "accepted_packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+      "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+    },
+    "physical_R_identity": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fullheight-lambda002-complete-radius-identity-20261128/radius-identity.json",
+      "sha256": "20c20e5ce9205290d9ac13d59717ce105eabda4fb588c871f407d74d6efa8891"
+    },
+    "tail_cut_stage": {
+      "stage": 0,
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/shared-R-stages/stage-0000.json.gz",
+      "sha256": "3daf223ed2c8c7d408f16bae9f3a2c850935c287ea182e2e4b0aa1dc149c9ca9",
+      "bytes": 195304,
+      "mapHash": "8bc250fa96e9fe06c806975340acd1ab7717042710334eee2f85fd128c5c64f6",
+      "nodes": 17,
+      "midpoints": 16,
+      "previouslyCertifiedMapPreserved": false
+    },
+    "mathematical_sources": [
+      {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_complete_supplement_v2.py",
+        "sha256": "ad10604269a322d33f26f5e9e926d68d06b6ca8f836437ecf0ed585384abd115"
+      },
+      {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_true_w_taylor.py",
+        "sha256": "9b3a6d07cf27149e6af48fb1280d2fbb02a6964af8e00f8cbee4a159edea3e3c"
+      },
+      {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_certify_tail_geometry_v2.py",
+        "sha256": "ee381646dc052b8d7c9833aa693a5568982542cc11e26cfcfdf1c35edb0791ef"
+      }
+    ]
+  },
+  "original_geometric_summaries": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001/summary.json",
+      "sha256": "cc0931d8279b1a1f0195bf84c7206856ea36ed97b3fc2ea4f880909c4db9aaae"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001/summary.json",
+      "sha256": "b9d827c0ae5b41e804646bb758c81d6ee81687e998edbd46d2146949147e3271"
+    }
+  ],
+  "cli": {
+    "geometry-bundle": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "constants": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-constants.json",
+    "normalization-certificate": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-normalization-reuse.json",
+    "cut-summary": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-width012-continuous-20261128-b/summary.json",
+    "radius-identity": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/fullheight-lambda002-complete-radius-identity-20261128/radius-identity.json",
+    "original-summary": [
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001/summary.json",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001/summary.json"
+    ],
+    "outdir": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-actual-placement-20261128-a",
+    "disk-reserve-mib": 128
+  },
+  "finite_stage_count": 1152,
+  "literal_span_count": 18460,
+  "deep_collar_and_plain_disks_included": true,
+  "cut_width_exact": "1080863910568919/9007199254740992",
+  "zcut_exact": "7630983381811369/9007199254740992",
+  "full_mean_cut_exact": "3382019500246219/590295810358705651712",
+  "zb_exact": "500107508929890125003/590295810358705651712",
+  "true_total_height_interval": [
+    "3281804030831981/144115188075855872",
+    "820451008699367/36028797018963968"
+  ],
+  "pole_height_interval_outward": [
+    0.8699871644491405,
+    0.8699871644766567
+  ],
+  "background_radius_upper_outward": 0.9202595646632168,
+  "background_support_lower_outward": 0.783887361770741,
+  "complete_tail_radius_upper_outward": 0.9204371195066212,
+  "complete_tail_support_lower_outward": 0.7710414327607057,
+  "complete_tail_curvature_upper_outward": 10.017503096013616,
+  "extremal_components": {
+    "radius_upper": {
+      "stage": 0
+    },
+    "support_lower": {
+      "stage": 21
+    },
+    "principal_curvature_upper": {
+      "stage": 82
+    }
+  },
+  "old_K10_allocation_failures_preserved": [
+    {
+      "stage": 82
+    }
+  ],
+  "actual_recorded_elapsed_seconds": 245.89018336899971,
+  "elapsed_includes_wait_for_original_geometry": true,
+  "pure_compute_time_not_separately_measured": true,
+  "old_geometric_polynomials_recomputed": false,
+  "true_background_integral_recomputed": false,
+  "all_phase_and_upper_lower_reflection_scope": true,
+  "cylinder_half_length_exact": "0",
+  "marker_amplitude_exact": "0",
+  "whole_tail_metric_claimed": false,
+  "whole_closed_surface_claimed": false,
+  "README_completion_claimed": false
+}
