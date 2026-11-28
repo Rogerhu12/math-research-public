@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R750（已证明，完整平直入口弧的统一明确正宽）**：[真实26片的定量Darboux续接](results/R750-quantitative-Darboux-strip-on-complete-displaced-straight-traces.md) — 同一原g与实际26个κ多项式片，X=q(s−s_j)、v=q⁸Y、u=q⁻⁴U消除参数奇点，显式解析majorant逐片传真实Cauchy数据。R₀=2⁻²⁰⁰、R_{j+1}=2⁻³⁴R_j³、q=R₂₆/8、v*=q⁸R₂₆/8>0，整条实际移到平直入口的材料弧均有同宽C²精确解、曲率<10√R₂₆<1与整片嵌入；跨切口可用52片。幅度极小且不推u周期、弯曲入口或全端帽，闭场裁拼仍有明确未付区。继续全长圆端/真帽物理构造。
+
 - **R749（已证明，真非线性C²正宽等距续接）**：[移到直墙的真实圆端度量](results/R749-fractional-Darboux-exact-local-continuation-at-the-displaced-straight-wall.md) — z=v^(5/2)u将全Darboux化为纵向解析CK，bar g平坦发展恢复两个真平面坐标和完整入口二jet；同固定g、两端、θ∈[1,π/2]有共同正宽C²非C³真实解。裁拼入闭场保reach≥.106/D0<3.40/held>1.520/grip≥1.40/δE>0，但只内子带准确、裁拼及剩下端帽未付。原6盒全有理系数[公开运行源/参数](notes/2026-11-28-R749-fractional-Darboux-complete-launch.md)同时刊触发，实际返回尚待，有限系数不代收敛半径。
 
 - **R748（已证明，完整真端帽精确等距弯曲与全像厚度）**：[全帽developable场与完整法管](results/R748-developable-physical-caps-and-a-global-axial-tube.md) — 一共同空间Tφ作用于完整R746/R747闭像，legacy两完整端帽对同初g每t精确等距，含所有接缝/中心；R747规范只保帽物理等距，材料运输费用另列。全t reach>.105、D0<3.40、held>1.521、单握≥1.40；C²非C³真实帽法向germ与初C³像不全等，0<δE<.000475。后来C³修正只要该点一阶jet保留即可维持正商距，毋须冻结整个帽。中央活动带和双圆端完整同g仍未付，40继续实际全时求解。

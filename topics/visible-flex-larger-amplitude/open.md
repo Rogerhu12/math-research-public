@@ -127,6 +127,8 @@ R746–748完整证明/六jet见[索引](results.md)：R746整柱准确同g、�
 
 [40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)6完整件现刊触发：同一初g/全材料/0…π/2，原5粗及4/8/16时间结三精化；两真帽、非整数端层、握外中央三分量全放。锁比较支若赢，以全部旧样条列精确保场后新增中央自由；65时间独立核查，不借Killing或旧点。actual未返。
 
+[R750](results/R750-quantitative-Darboux-strip-on-complete-displaced-straight-traces.md)真26片CK传递给显式v*=q⁸R₂₆/8>0（q=R₂₆/8，R_{j+1}=2⁻³⁴R_j³），整平直入口弧准确同g/曲率<1；宽极小，不付周期、曲入口或全端帽，R751/752继续真全域。
+
 ### 完整准确下游与完成责任
 
 R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。
