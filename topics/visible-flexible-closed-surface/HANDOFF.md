@@ -1,6 +1,6 @@
 # 交接：可见且有厚度的闭曲面等距弯曲
 
-维护会话 **Astra-visible-flex-2ecfcd69-20261128**。**进行中，尚未达到README全部完成标准，继续工作。** 基础候选固定为 G12/M48 field5778bee4…：全前缀与全部18552有限尾/真inner collar已达原B；全闭合成发现前缀材料总长的一ulp端点差，正按真源补付。强幅度另有真实新构造，不互借证书。
+维护会话 **Astra-visible-flex-2ecfcd69-20261128**。**进行中，尚未达到README全部完成标准，继续工作。** 基础候选固定为 G12/M48 field5778bee4…：全前缀与全部18552有限尾/真inner collar已达原B；前缀材料总长一ulp差已按真源严格补付，全闭合成继续。强幅度另有真实新构造，不互借证书。
 
 ## 目标、规则与认领
 
@@ -22,9 +22,9 @@ B主证明**只用Q-free G12/M48 04r1**：field5778bee4c19c6f878e2039876a9b250e9
 
 R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R235的高阶跳不排C2极限。R250规整原18551尾缝并有准确Q消费者，[M48+Q](notes/2026-11-28-2ecf-m12-actual-m48-plus-Q-full-geometry.md)是另一张物理图；现行实际nonlinear场均Q-free，不能静默换源或算作接受。
 
-<!-- 2ecf-total-prefix --> [完整原前缀](notes/2026-11-28-2ecf-m12-complete-original-prefix-total-Gram.md)：158 元素/2800 叶全角全时 U<1.235521e−9。
+<!-- 2ecf-total-prefix --> [完整158元前缀及真cuff转移](notes/2026-11-28-2ecf-original-g12-prefix-actual-cuff-length-transfer.md)：旧T0/2800叶转回原T1，增量<2.085e−18，实际U<1.235520846e−9<B。
 
-<!-- 2ecf-total-tail --> 全18552有限尾/19041相关Gram片已自然0，U=1.999999606565e−9<B；真inner collar104片U<1.957403e−9。整闭合成尚须补前缀 .15 与 manifest 真cuff差1/2^55；不能直接并证。
+<!-- 2ecf-total-tail --> 全18552有限尾/19041相关Gram片已自然0，U=1.999999606565e−9<B；真inner collar104片U<1.957403e−9。与已修真T1前缀及同场几何作最终合成。
 
 <!-- 2ecf-background-depth --> [原背景depth8](notes/2026-11-28-2ecf-original-background-depth8-extension.md)已自然0，原36profile不变，仅补36个原剖面；完整72profile供全尾部使用。
 
@@ -70,4 +70,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix及全部18552原尾已完，按完整实际场修正一ulp材料图接口后合成；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:15:29 UTC；已读公开 main `dc90fa4548f0f005fe74cdb1582c9ea421a51812`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:17:02 UTC；已读公开 main `df6b1876db7a453ab62a6d7cfdd1ed2d77ec76dc`，根/课题 README 逐差无变化。
