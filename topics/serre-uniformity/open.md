@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-pointed-Miller.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-residue-contraction.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -63,15 +63,17 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1164 §§1–12](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)已付原pointed Miller/整line及实际PD–Čech代表。χP=e(P,−)的[N]pushout给X^N=f_P⁻¹、O-leading一，g leading为1/(Nt)；弦函数锁加法/全p塔，ρ/ordered同伦全保。整数据u_j=gij^N u_i、a_i^N=u_i⁻¹，prime-to-p φ保cφ与norm原点，scalar product/closed Cor准确给Mtilde，无额外d!或平均。§§9–12在实际compatible embedding上给C(U)=(dlogU,p⁻¹log(U^p/ΦU))，inverse类local −C(U_i)、overlap −log_PD H_ij，H=U_j/(Gij^N U_i)。PD log以(m−1)!收敛，全部lift/frame、原点、chord/降层同伦不除N；μN相位log(G^N)不能改成未定义的NlogG。两cone products间−βδ精确保留；模p^a PD log截m≤pa，a≤29的p⁻¹log只需m≤a及输入额外一位。原theta norm与coefficient chord仍分开，分歧Cor仅用已给运输。现在继续具体整frames、带实际Frob homotopy的ω/xω投影、normal/F0读取；裸Miller不冒整unit。
 
+[R1165](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)已支付原几何系数的实际整filtered projection。U=E\O、V为O邻域，η=xω、ηV=η−t⁻²dt，π(αU,αV,h)=(Res(αU/t−hηV),Res(hω))；用x^aω/yx^a单位首项消主部给dH+Hd=1−ιπ，无除p，保Hodge及p-adic连续。tensor后原signed/paired projectors仍整，relative cohom只在d；底log方向保留。实际cone为Fil^rD→Fil^(r−1)D dlogz⊕D→D dlogz，d0=(N,1−p⁻ʳΦ)、d1=(1−p^(1−r)Φ)−N，适用r>d及最高(12,14)。actual chain F的Q_r=πF_rH给第二槽+Q_rα；尚未实现的embedding/refinement homotopy不能置零。ordered产品差为dK，K=(0,−βδ)。N(z^jγn)=(j+en)z^jγn+ep z^jγn−1，完整c=ψg/p模p为−1−γp；只有ev后c0−1。I_h=Σp^(h−a)Fil^a保N、φI_h⊂p^h，有限precision商不冒cohom等价。继续原Miller实际frames/PD Frobenius-overlap输入及全normal/F0读取。
+
 ### 原完整 47：已完成，只消费
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)完整47Q恰八CM、全部4513 whole盘/全维高度与后到q²审计均已成；41/47及旧窗口不重跑。全部run/source/hash和原整K₂残余条件保于[open-archive-2026-11-28-before-global-Frobenius-subtraction.md](open-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿旧链。现在目标为一般p的relative Frobenius/原整格/SS实际中央值及小aux affine像；先取得具体同源比较再读jet，不能由有理公式直接约模p。
 
-[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已付原任意有限分歧L及所有坏u的rational半稳定associatedness。Lang唯一规约Φ=diag(p⁻²,p⁻¹,1)σ、Lie N=(vp u,vp(1−u),0)，但N²和有序半平方保留；全部局部Heis torsor均半稳定。Vologodsky已刊Th43/44的实际Bst中间箭头及其对偶先给原fiber比较，同一whole path与good基点2刚化锁G_st=(logu,log(1−u),−Li2u)；坏点不冒crystalline BK log。实际f(T)的log PD包及T↦Tp保全部carry，不令OL含假场Frob。R1147 §§17–19现给实际连续moment及原最高整塔，未任选有限Ep标签的TpE提升；剩余是同一来源的period/PD/monodromy比较及原43格读取，F0/z12未付。
+[R1155 §15](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)已付任意有限分歧L及全部坏u的rational半稳定associatedness：Lang规约Φ对角p⁻²/p⁻¹/1，Lie N=(vp u,vp(1−u),0)但N²/半平方仍保。Vologodsky实际Bst箭头及同一路径2刚化给G_st=(logu,log(1−u),−Li2u)。不以Bdr单位冒Bst单位，不给OL虚构场Frob，坏点不冒BK crystalline。R1147连续moment/最高整塔已付；原43格同源整frame及F0仍待读，完整来源沿本次逐字归档。
 
-[R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)自足给原强可除格的**完整有限PD法向窗口**。沿R712/R978原严格LT坐标，e=p²−1、g=z^e−p、S=(O[z,γ_r(g)])^∧p，ev(ψg/p)=p^(p−1)−1≡−1。z^jγ_r(g)（j<e）为唯一整展开基；对0≤a≤p−2，所有r>a满足r−a−vp(r!)≥1，包括r≥p。适配FL基e_b权w_b、F_b=p^−w_bφe_b成整基，ev p^−iφx≡Σ_(w_b≤i)(−1)^(i−w_b)/(i−w_b)!·Σ_(j<p)σ(a_b,j,i−w_b)ϖ^(pj)F_b；全向量零 iff这些a全0modp。原43格权0..14、二次tensor0..28均适用，原tensor/已给整态射与角色χ→χ^p准确相容。此只有限化**原强可除展开**；R1147有限moment系数jet不自动等于function jet，raw rational dilog尚须同源识别其整normal系数、根/中央gauge及实际F0，R985高坐标carry不能删。
+[R1155 §16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)真实LT的完整PD窗口已付：e=p²−1,g=z^e−p，唯一z^jγ_r基；全r≥p尾严格控制。适配FL基e_b权w_b及F_b=p⁻w_bφe_b时，ev p⁻iφx模p只留r=i−w_b、j<p，系数(−1)^r/r!·σ(a_bjr)ϖ^(pj)F_b；全向量零iff这些a全0。43格/二次tensor的normal界14/28，原tensor/角色χ→χp相容。raw rational dilog仍须同源整frame/gauge，R985高carry不删；完整证明/公式沿原文及本次逐字归档。
 
-[R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)新增已整函数至上述normal输入的完整算法。真实tame projector选j≡−w mod e；f=Σz^jF_j(z^e)，扭点读F_j(p)，m_jr=F_j^(r)(p)=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)。modp^(i−r+1)只需r≤k≤i及c_(j+ke) modp^(i−k+1)；R∩Fil^aS=g^aR准确要求低normal系数等于零。若已在原FL适配frame中，1155.102的阶乘相消，读Σ_(b,j<p)(−1)^(i−w_b)σ(c_(b,j+(i−w_b)e))ϖ^(pj)F_b，全向量零 iff这些coeff全零。最多真实函数degree28e+p−1；coefficient jet十二不删这些高block，已是Frobenius矩阵的Rψ不再逐槽施φ。原frame/中央gauge识别继续。
+[R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)原tame projector及e-block给m_jr=F_j^(r)(p)=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)；所需precision k≤i、p^(i−k+1)，滤过交R∩Fil^aS=g^aR精确。若同一适配frame，窗口阶乘消为(−1)^(i−w_b)σc_(j+(i−w_b)e)；最高实际degree28e+p−1，不能用coefficient jet12替代。继续同源frame/F0，不对已成Frob矩阵再施φ。
 
 [R1163 §§1–10](results/R1163-original-highest-moment-integral-syntomic-comparison.md)已付**完整原43格的有限整syntomic比较**。实际E^d odd/signed projector选ordinary Sym^dTpE(t)，Tsuji2000 Th5.1/§2给Hq syn≅et(q≤t)，保完整惯性/residue-Frob。全部中心改用E12/Sn14的分开pair projectors，q0/1/2同时覆盖；r0/2/4个指定交叉对的normalized antisym准确给Π_r(v4w8)=e(v,w)^r v^(4−r)w^(8−r)，无组合数，三个projector不必正交。实际P=O(∆−axes)的−c1syn(P)/2由∆*degree−2锁Weil coeval1；四份补入原λ∞xγ5，weight5+5+4=14，Tate/constants全保。原完整primitive groupoid与整syn模型等价，固定原étale identification后的lift fibre contractible，全p^n严格相容，ordered gauge全部交叉项/有限H0保留。现在继续实际theta/Miller根线代表、原adapted FL frame及1155/1162 normal表；不把唯一gauge类冒唯一cochain或PD矩阵，F0/z12未读。
 

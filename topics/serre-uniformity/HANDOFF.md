@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：d89ee488c972ecb46018e67ff811121e1ec235f1**（2026-11-28 14:11 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：6a66c83280acabda86b56744159399ee3ef051c8**（2026-11-28 14:17 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 13:36 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 13:36:52 Asia/Taipei，Actions run46112877438/job140880105085，blob:none浅clone后真实pull --rebase至30e8ea86；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤14:26、pull≤14:36。本地13:36仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-pointed-Miller.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-integral-residue-contraction.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -22,7 +22,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1148–53](results.md)原cusp/global基、relative Hodge/Frob、finiteFL尺度全沿open/逐字前态。Ccyc=exp(9^(224·9⁴))；大aux affine实际存在，不代空集。β3/β5及J=Har(1,3,4)给真障碍rs h−zab，七退化支、最高同源组合、U/U²尺度/β底参数全保；两β坏不外推η★=1，原F0/完整深盘继续。
 
-[R1155 §§1–16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原raw D全分歧rational Bst、whole path/Hodge刚化、S3/五项carry及同CM形式ψ均付；原G=(logu,log1u,−Li2u)，坏点N²/半平方与R985高坐标carry保留。§16新增原LT z、g=z^(p²−1)−p的完整PD窗口：适配FL基e_b权w_b、F_b=p^−w_bφe_b成整基，ev p^−iφx模p恰Σ_(w_b≤i,j<p)(−1)^(i−w_b)σ(a_b,j,i−w_b)ϖ^(pj)F_b/(i−w_b)!。全部r>i−w_b（含r≥p）严格消；全向量零 iff这些a全0。43格/二次tensor只需r≤14/28，真实nilpotents不截12。只对原强可除展开成立，尚须把raw rational dilog的同根/中央gauge识别为这些整normal系数，原F0继续。
+[R1155 §§1–16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原raw rational Bst/whole path、全部S3/五项/坏点N²/形式ψ已付，G=(logu,log1u,−Li2u)。真实LT g=z^(p²−1)−p的PD窗口只保r=i−w_b、j<p，系数(−1)^r/r!，全向量零iff所有selected normal系数0；43格/二次tensor界14/28。完整公式沿open/原文，R985高坐标carry未删；仍须同一原整frame的实际central gauge及F0。
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)给真实e-block：m_jr=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)，所需精度k≤i、p^(i−k+1)；原FL窗口阶乘精确消，仍须同一整frame。
 
@@ -32,11 +32,13 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1164 §§1–12](results/R1164-original-pointed-Miller-coefficients-and-Cech-symbols.md)原第一槽Weil的整pointed线、inverse Miller根和chord/全p塔已付；整frame u_j=gij^N u_i，φ保cφ/norm点。实际PD cocycle为−C(U_i)、−log_PD(U_j/Gij^N U_i)，log靠(m−1)!整收敛；μN overlap log(G^N)不非法除N。lift/frame/原点、加法/降层及ordered −βδ同伦和精度全给。原scalar符号/closed Cor准确给Mtilde，无额外d!；继续整frame实构、Čech→ω/xω带Frob同伦及normal/F0。
 
+[R1165](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)原odd两开集DR有显式整收缩：ηV=η−t⁻²dt，π(αU,αV,h)=(Res(αU/t−hηV),Res(hω))；x^aω/yx^a单位首项消主部给dH+Hd=1−ιπ，filtered且p连续。tensor/原projectors后保底log方向，cone d0=(N,1−p⁻ʳΦ)、d1=(1−p^(1−r)Φ)−N。actual chain F时Q=πF_rH，第二槽须+Qα；不能只用Φ_M宣Q0。正常N双对角、c≡−1−γp、I_h精度商均付；继续实际Miller refinement/Frob-overlap和normal/F0。
+
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé双缺陷⇔P,Q含x²，约后degree≤N−2/contact2N−1；全部首余项/P_N单位、Pell W非零但W0未unit。[原Dixon](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)保全Hesse/Schur/Jordan，normal=12tr(adjQ A²)非spectral，指定中列未cyclic。R1145及旧窗口/Prym只消费。
 
-[原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)全canonical P22、六123映射/p次补偿、V4三平移、114高层及全部相位已付；A/B/W原quadric全函数、顶U^p单位与b6不同源沿open，不能换成指定两jet。
+[原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原canonical P22、六123映射/p次补偿、V4三平移及A/B/W全源已付；顶U^p与b6不同源，全部相位沿open/原文，不能替指定两jet。
 
 [quadric续篇 §§1–8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原A=D³I和全kernel给a3=2ρδK4/b0−4vα、α=−2ρe/(b0δ)，原P³有序槽及P²W已定标。高Lamé零模Z的全上下分裂给R0=g/U^(m+1)、K=UDR0、DK=1+v²R0/U，C R0=ρe/(vδ)，e0下C(Ψ³K)=−ρδK4。Z的unit不代任一半段。
 
@@ -48,7 +50,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两实际twist已统一z∈Fp；good代数Fp[W²,W(W²−d)]或Fp[W]，仅d非零平方余对待排。原heat/Hasse/Katz、fixed minor、norm2/CM gauge及全尺度见open/归档，顶unit不代det，向量场闭性未付。
 
-[R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原Legendre/finite-log/Jacobi/Darboux的全部weighted边界已付，原joint保四个唯一低jet和固定3/8 Bernoulli系数，详见open/归档。p1019只否无条件Cν(Qν)0，未否joint，不扩扫。原ξ=P/(a²V)、f=aV的Jacobian及首p forcing6a²完整保留；A(1,−w)=−P、A(γ)=−aξ、B0=−6a已锁符号。自足Xp公式和原端点校准不代指定minor，v−3a⁶bu继续。
+[R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)真实Legendre/finite-log/Jacobi全部weighted边界、四低jet和3/8 Bernoulli项均付。原ξ=P/(a²V)、forcing6a²、Hasse负号及自足Xp按open/原文；p1019仅否无条件旁零，不扩扫。端点unit不代原v−3a⁶bu，joint继续。
 
 [R1161](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)现付**全部原实际行**到同一固定ν的真实运输。Bol Θ^m g_j=A∂g_m+(m/12)Bg_m（m=p+1−j），Wilson反射不除Bernoulli；j=2s、原η及N_R完整保留。令Q_s=G_(2s)(−1/48,−w/864)、κ²=−1/(12aν⁴aG)，原行差=N_R 2^sδ(2s−1)!/s!·R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。仅even幂存活，形成Fp[η²]的T_s；两twist及missing principal沿原source。s3精确回H_p，δβG=12ε_r aν²aG。全mask共同纤维等价所有实际T_s相等；不再把这个运输列为未付，仍须用真实Q_s权重排除非对角对，未宣mask闭合或joint非零。
 

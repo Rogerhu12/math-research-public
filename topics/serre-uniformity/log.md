@@ -231,3 +231,8 @@
 - R1164 §§9–12将原实际line数据写成完整PD–Čech cocycle，保root-symbol log(G^N)、全部unit lift/frame/原点及chord/降层同伦，逐项不除N；ordered product的−βδ及两种对数的有限精度界完整。root逐式核总微分/层间符号并亲读Tsuji §2、Appendix A2；完成即推。
 - 后继继续实际整frames、原ω/xω系数投影及其Frobenius同伦，不把class相等冒同一PD矩阵；无数学程序执行。
 - 同步统一本稿为根规则要求的 $/$$ 数学定界符；公式内容不变。
+
+
+### 2026-11-28 14:17 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1165给原两开集odd DR的显式整留数投影及单位首项filtered收缩，全部tensor/projectors后得到保底log的实际三项cone；actual Frobenius代表的+Qα、有序−βδ及完整normal connection/γp carry/有限精度商逐式证明。root自足纸推，global/o2短核投影与H符号，完成即推。
+- H/open前态归档后压缩重复已付入口。实际embedding/refinement/Frobenius-overlap仍按同一代表继续，不把仅cohom矩阵当已付transport；原normal/F0未取值，无数学程序执行。
