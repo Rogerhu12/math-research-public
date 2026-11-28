@@ -225,3 +225,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:25:05 UTC — 当前交接及已备31完整闭包
 
 重写H/open§7为当前真实状态，所有旧字/身份/失败/未知固定保c7aa1186，open§1–6原23359B/SHA1be136未动；记录31全source26/参数6/launch7整blob及预算、32独立R729接线、R728准确N/G14整包，均不冒actual。R729只将数学分隔符改根README要求的美元格式，命题/证明/实际数据不变。根规则仍无更新，云核至`492102aa8a54be4ec06f63d93d8e05f6726e4ac4`非pull；下轮继续完整31发布运行和真实返回。
+
+## 2026-11-28 07:32:08 UTC — 完整旧保全JSON仅去字符串外空白
+
+87份旧metadata原token逐字不改，只去字符串外JSON空白；原文件毛减569032B，新增完整old/current整身份总表41637B、再生器3694B、说明3369B，文件净减520332B（另计本条/H/open）。原数字字面/字符串/键序/数组序/所有失败未知和原来源身份保，未用parse-reserialize；89份已紧凑者不写、4份byte-delta不动。原whole身份固定f687c963，历史hash reader先整Git恢复原文件，现字节按新映射，不冒旧SHA；无科学源/活queue/数值参数/证明变化。见[完整映射](computations/complete-retention-json-lexical-format-delivery.json)，没有新科学执行或准入门。双README云核至`70bfcad86e9fe288fe12ff94c6177ac739546669`无变（非pull）。
