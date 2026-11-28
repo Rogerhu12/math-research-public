@@ -1,0 +1,42 @@
+name: Serre Astra24 conclusion actual pull rebase and push
+on:
+  push:
+    branches:
+      - 'serre-astra24-publish-*'
+    paths:
+      - topics/serre-uniformity/notes/astra24-publication-request.json
+permissions:
+  contents: write
+concurrency:
+  group: serre-astra24-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Partial clone of the prepared source
+        shell: bash
+        env:
+          SERRE_SOURCE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          serre_repo="$RUNNER_TEMP/serre-astra24-publication"
+          git clone --filter=blob:none --depth=1 --no-checkout --single-branch --branch "$GITHUB_REF_NAME" https://github.com/Rogerhu12/math-research-public.git "$serre_repo"
+          git -C "$serre_repo" sparse-checkout init --no-cone
+          git -C "$serre_repo" sparse-checkout set --no-cone '/README.md' '/topics/serre-uniformity/' '/.github/workflows/serre-astra24-publication.yml'
+          if ! git -C "$serre_repo" cat-file -e "$SERRE_SOURCE_SHA^{commit}"; then
+            git -C "$serre_repo" fetch --filter=blob:none --depth=1 origin "$SERRE_SOURCE_SHA"
+          fi
+          git -C "$serre_repo" checkout --detach "$SERRE_SOURCE_SHA"
+          printf 'SERRE_PREPARED_DIR=%s\n' "$serre_repo" >> "$GITHUB_ENV"
+      - name: Publish through actual pull and immediate rebase retries
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.MR_TOKEN || github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          set -euo pipefail
+          cd "$SERRE_PREPARED_DIR"
+          python3 topics/serre-uniformity/scripts/serre_astra24_publication.py

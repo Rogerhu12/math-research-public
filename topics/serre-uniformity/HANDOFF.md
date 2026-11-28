@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：64d741244d708117f7bf33720104c86fc3965460**（2026-11-28 22:28 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：e8ec78fa56c8d8e0e08e115844d940d7cf952bed**（2026-11-28T14:45:49.687501+00:00；本公开Actions真实git pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤23:28。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
+2026-11-28 14:37 UTC终端确认 unavailable，上一笔OC本地commit未推入main；已从完整稿恢复。只读同步013ef8944af7ad4238550f54e3418d114ec5a2f1确认两README未变；不冒称pull。现用本公开Actions部分克隆、真实pull/rebase/push逐结论发布，非快进立即循环；令牌仅CLI。数学程序仍仅本公开Actions，本地/V8仅文本/metadata。真实pull时间以上方回执为准，每小时至少一次。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-hahn-extension.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-high-packet-log.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -34,11 +34,11 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 [R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
 
-[R1194](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原零谱核扩大为M=4N+2的对称Hahn块，原q_j(0)全左半无权范数准确为−ℓ!/[2(M+1)(M!)²]单位。原短谱仍读Σq_j²/(3j+2)，e0给三切点/四段；未把新全范数替成K4，继续实际权重运输。
-
-[R1194 §9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原谱导数准确为q_j′(0)=w(a_j)−w(2)v(a_j)，唯一偶w满足Lw=−v/a且w(0)=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真正Casoratian源−v²/a及完整非齐次Wilson–Newton逆式已付；HC.21–24以自足望远镜给两条终止balanced4F3。普通second-kind源不同，未据此宣互素。
+[R1194 §§1–9](results/R1194-original-Dixon-Hahn-extension-and-exact-kernel-norm.md)原Hahn全左半无权范数为−ℓ!/[2(M+1)(M!)²]单位，但指定短和仍带1/(3j+2)。实际谱导数q_j′=w(a_j)−w(2)v(a_j)，Lw=−v/a、w0=0；v=aP(a²),w=a²Q(a²)，原双零 iff P(1/4)=Q(1/4)=0。真实Casoratian源−v²/a及HC.21–24终止balanced4F3已付；普通second-kind源不同，指定互素仍开。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
+
+[R1179 §13](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)全部原奇3≤s≤(p−3)/2准确有M_s(0)=−E_(s−1)(s−1)!Bp−s/[2^(s+1)(2s−1)!C^(s−1)]。全点aux-independent真实范数、FL范围、Appell完整敏感度及无Bernoulli分母Bol均已付；Euler E_(s−1)不假定单位。bad指标只迫同一行在c0零，未补缺席行或宣两点差零；继续实际全mask关系。
 
 [R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原J4/J6/J8与T3/T5/T7全部准确Bernoulli尺度见§12.4。bad Bp−7/good Bp−5下Λ=R(wPV³·)、X=P²V²的Hankel det=−T5²单位；它非Δlow，H_p0后heat二阶unit仍不代原joint。实际Y桥、全部mask/余核继续。
 
@@ -52,13 +52,7 @@ R1180全部奇r≤p−2物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!
 
 ## O4：原半秩商的有效首项与深盘
 
-[R1182–86](results.md)原半秩C/β的FP首项界及全尾已付，原t=p³w、rU_r∈Λ；m≤2(g−n)+1，预定B_*、N_*=B_*+floor(log_p M_X)及log截2N_*。本原深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原CM高度H_br、实际M/K/E_L、implicit分母D^(2r−1)/大小(64A²)^r及全部真实格见原文/逐字前态，不删模型尺度。
-
-[R1187–88](results.md)已付同C的小实际q*、双向同源次数、挠点网格模型/平衡Ω，保β/MW线及Q-twist。全部界沿原文/逐字前态；原J模型、环境格和按实际商重算的p³ jets仍保。
-
-[R1189 §§1–7](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)原双中心clutch至多二挠，全部p5mod6的2(p−1)D0在扩域F^m。全部原形式权w<pm，固定点一次[p]即跨到模pR零；真实norm后用素于p的唯一形式除法删e0。因此M_form=2p(p−1)将同D0及每个实际商像送原Qp形式核，R1182可取M=2p^s(p−1)。s_exp/δL、原格及指定jet仍保。
-
-[R1190](results/R1190-original-one-p-Neron-Lie-lattice-bound.md)原e0 tame半稳定扩域上，finite-flat formal核/真实ω商与VZ s=1给p余切包含；全n闭性、Smith及tame固定点下降得pΛ_sat⊂diΛ_B⊂Λ_sat，任意实际B⊂J均适用。环境形式深a+1的B点进入B深a；同β/Ω/首项有e_sat−1≤e_B≤e_sat。仅格损失至多1，未付指定jet或候选覆盖。
+[R1182–90](results.md)原半秩C/β的FP首项、全尾、CM高度、implicit系数、同C小q*及双向同源/挠点网格模型均已付，全部常数及真实格沿原文/逐字前态。原t=p³w、rU_r∈Λ，m≤2(g−n)+1；事前B_*及log截2N_*，N_*=B_*+floor(log_p M_X)。本原深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原形式倍数M_form=2p(p−1)，FP可取2p^s(p−1)，s_exp/δL不删。任意实际B⊂J有pΛ_sat⊂diΛ_B⊂Λ_sat、e_sat−1≤e_B≤e_sat；至多一p格损失不代指定jet单位。
 
 [R1191](results/R1191-original-half-rank-factor-all-primitive-inertia-slots.md)同一半秩C的F0含E=Q(ζ_(p+1)+ζ⁻¹)，p在E完全分裂。全部primitive r给真实槽，原Tate格由剩余支持互斥/Goursat整分裂；u=[F0:E]时Lie/Tate维数2u/4u。同β与原有理Abel首向量在每F0嵌入横截，未给单位；保PS_(r−1)碰撞及J/C的Hodge格区别，继续实际normal。
 
