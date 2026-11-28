@@ -1,0 +1,232 @@
+{
+  "elapsed_seconds": 0.343444863000002,
+  "max_child_rss_kib": 42340,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "e59d51b4d5b2c15f0e7f8afb39144581c9f04ac1",
+      "before": "e59d51b4d5b2c15f0e7f8afb39144581c9f04ac1",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T07:15:47.297353+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46120369360",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "e59d51b4d5b2c15f0e7f8afb39144581c9f04ac1",
+  "source_exit_code": 0,
+  "source_git_blob": "70176725e3e22b60252a20409b8ca74fbaf7f868",
+  "source_sha256": "a60dbe5808c0b2408ad4d3a0ac40f8c801ce9ade6fb3eb316a2d7bce7c059c4a",
+  "stdout_bytes": 2815,
+  "stdout_sha256": "342fca68780195e51423fc30789d9c8aea7041c0c9a9752c315752f63d55e9e4",
+  "stop_reason": null,
+  "job_id": 140903335008,
+  "mathematical_result": {
+    "whole_quadratic_factor_excluded": true,
+    "quadratic_factor": "2*x^2+4*x-1",
+    "monic_lambda_necessary_polynomial": "(lambda-1/2)^2",
+    "complete_QQ_algebra_dimension": 8,
+    "original_ideal_matrix_shape": [
+      8,
+      48
+    ],
+    "original_ideal_rank": 4,
+    "quotient_QQ_dimension": 4,
+    "unit_one_returned": false,
+    "positive_physical_unit_target": "lambda*t*Dval",
+    "positive_target_power": 1,
+    "all_8_target_coordinates_returned": true,
+    "all_384_original_column_coordinates_returned": true,
+    "both_quadratic_embeddings_and_all_nilpotents_retained": true,
+    "remaining_different_weight_upper_bound": 74,
+    "remaining_irreducible_factor_degrees": [
+      34,
+      40
+    ],
+    "whole_B_excluded": false,
+    "whole_Phi_excluded": false
+  },
+  "actual_mathematical_records": [
+    {
+      "completeBothComplexEmbeddings": true,
+      "factor": "2*x^2+4*x-1",
+      "monicOmegaDegrees": [
+        1,
+        1,
+        0
+      ],
+      "noPhysicalDInverse": true,
+      "noTerminalC76OrC315Reconstruction": true,
+      "originalFullSourceSHA256": "b802d6c9b7a46b544f1fd5f814b05337a552f938a660b8d047fe4e62ff4eae56",
+      "originalNecessaryPrefixSHA256": "44f288f6b65f5c59e99daae0de10b56e94ba13ec8b9307f3c70c71953eece6e0",
+      "originalRowLambdaDegrees": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "seconds": 0.2423551400000008,
+      "stage": "new_B_complete_QQ_quadratic_original_input",
+      "weightFieldQQDimension": 2
+    },
+    {
+      "actualCofactorsUsed": 15,
+      "cofactorLambdaDegrees": [
+        -1,
+        -1,
+        5,
+        6,
+        6,
+        -1,
+        5,
+        6,
+        6,
+        5,
+        6,
+        6,
+        7,
+        7,
+        8
+      ],
+      "fullSixOriginalCombinationCoordinatesReturned": true,
+      "monicGCD": {
+        "lambdaDegree": 2,
+        "quadraticCoefficientsLowToHigh": [
+          [
+            "1/4",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "sha256": "58c04c4dde19b15485716c20e52d640f53c8ee11d38fce185a74a8b3ec7d96ac"
+      },
+      "noOtherFactorExcluded": true,
+      "seconds": 0.2570472539999997,
+      "stage": "new_B_QQ2_complete_original_lambda_Bezout",
+      "statistics": {
+        "lambdaBezoutReturns": 12,
+        "lambdaShortDivisions": 24,
+        "omegaProductReturns": 116,
+        "originalCofactorCoordinates": 30,
+        "originalRowsReturned": 6,
+        "quadraticWholeInverses": 96,
+        "selectedMatrixInverseCoordinates": 0,
+        "targetCoordinates": 0
+      },
+      "wholeQuadraticFactorExcluded": false
+    },
+    {
+      "completeQQAlgebraDimension": 8,
+      "exactOriginalIdealMembershipReturned": false,
+      "idealMatrixQQRank": 4,
+      "power": 0,
+      "seconds": 0.278359303000002,
+      "stage": "new_B_QQ2_actual_positive_unit_target",
+      "target": "(lambda*t*Dval)^n"
+    },
+    {
+      "completeQQAlgebraDimension": 8,
+      "exactOriginalIdealMembershipReturned": true,
+      "idealMatrixQQRank": 4,
+      "power": 1,
+      "seconds": 0.27868716100000057,
+      "stage": "new_B_QQ2_actual_positive_unit_target",
+      "target": "(lambda*t*Dval)^n"
+    },
+    {
+      "actualIdealQQRank": 4,
+      "bothQuadraticEmbeddingsKept": true,
+      "completeQQAlgebraDimension": 8,
+      "entireLambdaAndOmegaNilpotentsKept": true,
+      "monicLambdaDegree": 2,
+      "noPhysicalDInverse": true,
+      "ordinaryISPClaim": false,
+      "originalIdealMatrixShape": [
+        8,
+        48
+      ],
+      "physicalTargetIdentity": "Dval=ell*(2lambda^2-2lambda+1)-T^2=bc*(h-k)^2",
+      "positiveUnitPowerReturned": 1,
+      "quotientQQDimension": 4,
+      "remainingC76DifferentWeightBound": 74,
+      "seconds": 0.2787137010000009,
+      "selectedCoefficientRows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "selectedOriginalColumnTags": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "selectedOriginalColumns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "stage": "new_B_QQ2_finite_original_algebra_return",
+      "statistics": {
+        "allOriginalIdealColumnCoordinates": 384,
+        "lambdaBezoutReturns": 12,
+        "lambdaShortDivisions": 827,
+        "omegaProductReturns": 173,
+        "originalCofactorCoordinates": 30,
+        "originalRowsReturned": 6,
+        "quadraticWholeInverses": 902,
+        "selectedMatrixInverseCoordinates": 32,
+        "targetCoordinates": 8
+      },
+      "wholeBExcluded": false,
+      "wholePhiExcluded": false,
+      "wholeQuadraticFactorExcluded": true
+    }
+  ]
+}
