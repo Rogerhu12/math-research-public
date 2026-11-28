@@ -189,3 +189,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §28：三条真实 jet 两次整消去，三格直接读原中央模 p
 
 已证明：用已证全盘μ选共同h=−μℓ(s^p)/p，使原e_A+h全整；三条真实jet精确消两次wild项，(AK7)三格之和以(AK8)非零单位读a₂模p，全部标记与两位分母损失保留。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1073 §29：两条固定曲线的原中央准确读同一个全局 U₂
+
+已证明：canonical整准周期直接把三格全局化，有限双留数与真实形式群前两项给K_p=−U₂+(1+κ₀)L_q；完整驯和准确杀L_q，三条原曲线在共同6630水平保源比较，尚缺联合无穷p非零。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。

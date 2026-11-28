@@ -798,3 +798,190 @@ $9La(a-1)-16a^2L-F(a)\equiv4L=2S^2$；
 右边比例全是单位。
 第二差商仍付两位损失，分子真实取到模 $p^3$ 后才读模 $p$。
 本节给出的三条特殊纤维系数之完整和仍待证明非零。
+
+## 29. 两条固定曲线的真实驯泛函读同一个原 U₂
+
+**已证明。** 沿(AK1)–(AK8)及R1067 §§83–90，
+$k=\overline{\mathbb F}_p$，$s$ 为物理严格参数，
+$D=d/ds$ 于特殊纤维。写
+$G=L_p,\ c_p=DG,\ G/c_p=s+H_0(s)^p$，
+$S\bmod p=-c_p$。
+各 $L_m$ 取严格 $s^{-m}$ 唯一主部及相应 $\mu_6$ 权；
+本节用到的权非平凡，常数由此固定。
+
+取 $c'=391\equiv1\bmod390$；
+$p>211$ 保证 $p\nmid c'(1-c')$。
+R1067(AZ1),(AZ2)在每个原 $A$ 给
+$$
+ G(A)=e(A)^p,\qquad
+ G(R+A)-G(R)-G(A)
+       =\left(\frac{y(R)-y(A)}{x(R)-x(A)}\right)^p. \tag{AL1}
+$$
+第一式取奇标量 $c'$，用 $K_{c'}(A)=(1-c')e(A)$。
+所以定义
+$$
+ E_A^\circ=c_pH_0(s)+e(A)
+             +\frac{y(R)-y(A)}{x(R)-x(A)},\qquad
+ (E_A^\circ)^p=G(R+A)-c_ps. \tag{AL2}
+$$
+两个单极相消，$E_A^\circ$ 为整局部级数。
+本卷§28已用准确的 $h=-\mu\ell(s^p)/p$。
+由全盘 $Z_{\rm int}$ 公式，
+$\bar e_A=e_A+h=\mu Z_{\rm int}+e(A)+(y(R)-y(A))/(x(R)-x(A))$；
+约化后恰为 $E_A^\circ$。这一步对任一原源都准确。
+
+也可明确比较其他纯Teich规范：
+若所有 $\bar e_A$ 同加
+$t=t_0s^p+t_1s^{p+\Delta}+\cdots$，
+则 $U$ 因 $\sum s_{a'}=0$ 不变，
+$W$ 增 $tDU$，
+$Y$ 增 $t(DW-(Dh)DU)+t^2D^2U/2$。
+在(AK7)的三个系数中，总变化为
+$$
+ -2t_0\big([s^{2a}]W+S[s^{a+\Delta}]U\big)
+   +(St_0+t_0^2-St_1)[s^a]U . \tag{AL3}
+$$
+两个目标的括号及 $[s^a]U$ 分别由(AK6)、
+原质量和一次项为零；因此此规范比较也保留原中央。
+本节实际使用的canonical $h$ 已直接给(AL2)，不需丢弃这些项。
+
+记 $L_{2p}=x^p,\ L_{3p}=-y^p$。
+由 $G=s^{-p}+c_ps+O(s^{5p})$、
+$x=s^{-2}+O(s^4),\ y=-s^{-3}+O(s^3)$，
+比较全部主部，再以 $\mu_6$ 权固定常数，得全局恒等式
+$$
+\begin{aligned}
+ y^p+x^pG&=c_pL_{2p-1},\\
+ x^{2p}+y^pG&=-c_pL_{3p-1},\\
+ x^py^p+2x^{2p}G+y^pG^2&=-c_p^2L_{3p-2}.
+\end{aligned} \tag{AL4}
+$$
+
+令 $n_j=3(p-1)+jp(p-1)$。
+将(AK7)升 $p$ 次，使用(AL2),(AL4)，
+并在 $R+A$ 求下式的各 $L$，得到
+$$
+ C_b^p=6c_p^2\sum_{a'}s_{a'}^pK_p([a']Q_{390})\quad\hbox{于 }k,
+ \tag{AL5}
+$$
+其中 $K_p(A)$ 是以下三条真实函数的和：
+$$
+\begin{aligned}
+ &[s^{pn_0}]\big(L_{3p-2}(A+R)-2sL_{3p-1}(A+R)
+                                      +s^2L_{3p}(A+R)\big),\\
+ &[s^{pn_1}]\big(L_{2p-1}(A+R)-sL_{2p}(A+R)\big),\\
+ &[s^{pn_2}]L_p(A+R).
+\end{aligned} \tag{AL6}
+$$
+取Taylor系数得到关于 $A$ 的全局有理函数，唯一可能极点是 $O$。
+
+设 $F(v,X)$ 为严格特殊形式群律。
+$[s^n]L_m(A+R)$ 关于 $A$ 的主部等于
+$$
+ -[v^{m-1}]F(v,-A)^{-n-1}\quad\hbox{的主部}. \tag{AL7}
+$$
+这里局部 $A$ 亦指严格参数。
+$\omega=ds$，平移并取 $v=F(s,A)$ 保微分。
+在 $s=-A$ 的真实主部是 $v^{-m}$。
+形式证明只需有限截断：写
+$F(s,A)=(s+A)\phi(s,A)$，$\phi$ 为整形式单位。
+求两个留数的主部只需 $\phi^{-m}$ 中总次数 $<m+n$ 的项。
+用此有限多项式作分子、
+$s^{n+1}(s+A)^m$ 作分母，无穷处留数为零。
+故在 $s=0,-A$ 的两个留数相反，证(AL7)；
+原正则部分平移后不给负次项。
+
+特征 $p$ 中由 $D=d/ds$，
+$F(v,X)=v+B(v^p)$。
+置 $u=v^p$，前两项在整个 $k[[X]]$ 准确为
+$$
+ B(u)=X+X^{q-p}u-\tfrac12X^{q-2p}u^2+O(u^3). \tag{AL8}
+$$
+因为 $\ell(v)=v+O(v^q)$，
+$[v^p]F(v,X)=D^pX/p!$ 可先在特征零读取。
+严格LT对数满足
+$\ell'=1-pE(X)\bmod p^2$，
+$E=\sum_{j\ge0}X^{q^j\Delta}$，
+故
+$D^pX=(1/\ell'\,\partial_X)^{p-1}(1/\ell')
+\equiv p\,\partial_X^{p-1}E\bmod p^2$。
+约化的 $[v^p]F$ 为
+$\sum_j\binom{q^j\Delta}{p-1}X^{q^j\Delta-p+1}=X^{q-p}$。
+再在结合律
+$F(X,F(v,w))=F(F(X,v),w)$ 中取 $v^pw^p$。
+$F(v,w)=v+w+O((v,w)^q)$，
+左边为 $2[u^2]B$，
+右边为 $[v^p]F(X,v)^{q-p}=-X^{q-2p}$，
+得到(AL8)，未截断 $X$ 的精度。
+
+在(AL7)令 $X=-A$。
+(AL6)首行合成
+$-[v^{3p-1}]F^{-pn_0-1}(F-v)^2$，
+第二行为
+$+[v^{2p-1}]F^{-pn_1-1}(F-v)$，
+第三行为 $-[v^{p-1}]F^{-pn_2-1}$。
+在 $v^{p-1}\bmod v^p$ 余类，
+$(B+v)^{-1}$ 的完整投影是 $v^{p-1}/(B^p+u)$。
+因前三个 $u$ 次数上 $B^p=X^p$，
+全主部变为
+$$
+ -[u^2]B^2(X^p+u)^{-n_0-1}
+ +[u]B(X^p+u)^{-n_1-1}
+ -X^{-p(n_2+1)}.
+$$
+各 $-n_j-1\equiv2\bmod p$。
+代(AL8)后，首项给
+$L_q+3L_{2q-1}+L_{3q-2}$，
+第二项给
+$-L_{(p+1)\Delta+1}-2L_{(p+2)\Delta+1}$，
+最后给 $L_{(2p+1)\Delta+1}$。
+因此
+$$
+\begin{aligned}
+ K_p={}&L_q+3L_{2\Delta+1}+L_{3\Delta+1}
+       -L_{(p+1)\Delta+1}-2L_{(p+2)\Delta+1}
+       +L_{(2p+1)\Delta+1}\\
+     ={}&-U_2+(1+\kappa_0)L_q .
+\end{aligned} \tag{AL9}
+$$
+正则差只可能为常数；每项关于 $A$ 为奇，故常数为零。
+$\kappa_0$ 是R1067 §83实际 $U_2$ 展开中的 $L_q$ 系数。
+
+对 $b=65,8125$，$s_{a'}^p=\epsilon_b(a')^{-1}$。
+因为 $L_q=G^p$，(AL1)把其全驯和变成
+$(\sum_{a'}\epsilon_b(a')^{-1}e([a']Q_{390}))^q$。
+这等于零来自原 $f_b(0)=0$；
+七乘法全置换给
+$f_b(0)=6\sum\epsilon_b(a')^{-1}e([a']Q_{390})$。
+若 $d_b$ 表示(AK8)右边乘 $[T^2]\mathcal A_b$ 的全部单位，
+则准确地
+$$
+ \sum_{a'}\epsilon_b(a')^{-1}U_2([a']Q_{390})
+       =-\frac{d_b^p}{6c_p^2}\big([T^2]\mathcal A_b\big)^p .
+$$
+故两条原曲线的模 $p$ 中央是同一个 $U_2$ 的完整不同驯泛函，
+所有比例因子均为单位。
+
+取共同物理水平 $M=6630=390\cdot17,\ Q_M=\varpi_1/M$。
+两个新泛函准确为
+$$
+ \ell_b(U_2)=\frac1{288}\sum_{t\in(\mathcal O_K/M)^\times}
+      \epsilon_b(t)^{-1}U_2([17t]Q_M),
+                 \qquad b=65,8125. \tag{AL10}
+$$
+原E17的泛函则是
+$$
+ \ell_{17}(U_2)=\frac1{10368}\sum_{t\in(\mathcal O_K/M)^\times}
+      \varepsilon_{17}(t)U_2(-[-65\delta t]Q_M).
+$$
+此处 $\psi_{17}((t))=t/\varepsilon_{17}(t)$，
+$M/(34\delta)=-65\delta$；
+复制数为 $17^2-1=288$、
+$3\cdot24\cdot12^2=10368$，均为单位。
+这是原点的真实推前与完整复制计数，未删除imprimitive Euler因子。
+保留两支的 $5$ 单位 $u^4,u^{16}$、双 $13$、$2,3$，
+及E17自己的全部 $34\delta$。
+共同比较沿R1067的 $p\equiv5\bmod6,\ (17/p)=1$
+及既有固定有限排除。
+仍需在无穷不同 $p$ 上证明这些真实评价至少一个非零，
+才能用固定族的鸽巢原理完成目标。
