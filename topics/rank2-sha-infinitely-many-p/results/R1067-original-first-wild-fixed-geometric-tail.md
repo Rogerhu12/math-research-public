@@ -1659,3 +1659,87 @@ number fields*, Mathematika **14** (1967), 121–124, Th. 1，
 [doi:10.1112/S0025579300003703](https://doi.org/10.1112/S0025579300003703)。
 可读取的完整证明亦见 Fuchs–Pham, Glasnik Matematički 51 (2016), [Th. 2.1及§3.1](https://web.math.pmf.unizg.hr/glasnik/51.2/51%282%29-04.pdf)，取其中没有椭圆曲线的情形；根已读该定理及证明，不以未取得可读文本的Brumer页面作实读记录。
 (U7)中代数值的极限本身并未支付这里的全局代数对数身份。
+
+## 55. 原三中心的 Gaussian 加权对数对所有充分大惰性素数非零
+
+继续用 $j_0=\infty,j_1=13,j_2=1$ 的一个原始顺序；以下对数和
+不依赖固定代表或同时的置换。$d=p+1$ 是六的倍数。对任意复格
+$M$ 写 $G_d(M)=\sum_{0\ne v\in M}v^{-d}$。Weierstrass sigma
+的规范乘积给
+$$
+ c_D=-G_d(\Lambda_D)/d,\qquad c=-G_d(\Lambda)/d.              \tag{W1}
+$$
+这里只使用 $d\ge4$ 的绝对收敛和规范 $\sigma'(0)=1$。这些
+$c_D$ 本身在原物理微分下为代数数，由(U1),(U3)已经给出，故
+(W1)的超越周期没有被丢弃。对 $\omega D$ 的目标格是
+$\omega\Lambda_D$，故 $6\mid d$ 时 $c_{\omega D}=c_D$；
+$G_F$ 对三个 $c_i$ 的作用与三个轨道的作用相同。
+
+比较真实物理最短向量。$\Lambda=\Omega s\mathcal O_K$，且
+$$
+ \Lambda_D={\Omega s\over17}
+   \{\alpha\in\mathcal O_K:\ s\alpha\bmod17\text{ 属于核线 }D\}.
+ \tag{W2}
+$$
+$N(s)=1/3$，而 $3$ 在 $\mathbf F_{17}$ 是非平方；
+范数为一的单位都落在另一半核中。范数二在 $\mathcal O_K$ 中
+不出现。范数三的元素正是 $1-\omega$ 的六个单位倍，分属
+$\infty$ 所在轨道的三条线（在射影上 $\mu_3$ 作用自由）。
+所以 $\Lambda_\infty$ 的最短向量恰为 $\pm\Omega/17$，其余
+两条指定目标的最短长度都严格大于 $\Omega/17$。
+实际上其最短范数为七：范数四是二的单位倍，范数五不出现，
+范数六须含惰性素数二的奇赋值亦不出现；
+$4\cdot13+s\equiv1+s=s(2-\omega)$，$N(2-\omega)=7$，
+且另一轨道是此轨道的共轭。因此两处的最短长度皆为
+$(\Omega/17)\sqrt{7/3}$。
+
+设 $m_0=\Omega/17$。$d$ 偶时最短一对对
+$m_0^dG_d(\Lambda_\infty)$ 贡献 $2$；剩余项趋零。逐项支配可取
+$(m_0/|v|)^4$，格的这一绝对和收敛。同理对另两格有
+$$
+ m_0^dG_d(\Lambda_\infty)\longrightarrow2,\qquad
+ m_0^dG_d(\Lambda_{D_1}),\qquad
+ m_0^dG_d(\Lambda_{D_2})\longrightarrow0
+ \quad(6\mid d,\ d\longrightarrow\infty).                     \tag{W3}
+$$
+因此对于每个充分大的 $d\equiv0\pmod6$，三个 $c_i$ 不全相等；
+(V2)证明中那同一个固定十三处三循环随即给它们两两不同。对于
+所读惰性 $p$，(U3)又已给所有 $r_i=c_i/(17c)\in1+p\mathcal O$，
+故其商无零分母。在任意所选 $p$ 进嵌入下，两个真实代数数
+$r_1/r_0,r_2/r_0$ 均不为一，并属于对数单射的 $1+p\mathcal O$。
+
+现把(U6)中的原 Gaussian 加权部分单独写为
+$$
+ G_p^{\mathrm{wt}}=\sum_{i=0}^2 B_i\log_p r_i
+  = B_1\log_p(r_1/r_0)+B_2\log_p(r_2/r_0).                    \tag{W4}
+$$
+对于所有充分大的惰性好素数，这个**真实**原权和是非零数。
+事实上两对数都不为零。若它们在 $\mathbf Q$ 上有关，
+$B_1/B_2\notin\mathbf Q$ 排除抵消，若在 $\mathbf Q$ 上无关，
+Brumer 的 Th. 1 排除代数线性关系。用 Fuchs–Pham, *Some applications of the p-adic analytic subgroup theorem*,
+[Glasnik Matematički 51 (2016), Th. 2.1, §3.1](https://web.math.pmf.unizg.hr/glasnik/51.2/51%282%29-04.pdf)
+所证明的含常数 $1$ 的
+陈述还得 $G_p^{\mathrm{wt}}$ 在 $\mathbf Q$ 上超越：
+在上述两种情形分别选择一个或两个 $\mathbf Q$ 线性独立的
+非零对数，它们与 $1$ 在 $\overline{\mathbf Q}$ 上线性独立。
+
+特别(U5)–(U6)证明的准确等式变为
+$$
+ {J_p'(0)\over3}=
+ G_p^{\mathrm{wt}}+\sum_{i=0}^2 \mathcal I_i'(0).             \tag{W5}
+$$
+若 $J_p'(0)=0$，三个真实目标自带导数的和必须恰等于
+$-G_p^{\mathrm{wt}}$，尤其它必须超越。这已排除目标侧全部为零
+或总和为全局代数数的消去方式。它仍未排除同一个超越量由完整
+$\mathcal I_i$ 产生的精确相消。
+
+在整个极限读者中也能定位同一问题。令
+$L_p(u)=B_1\log V_1(u)+B_2\log V_2(u)$，则
+$L_p'(0)=J_p'(0)/3$。对每个非负整数 $k$，(U7)给
+$V_i(k)\in1+p\mathcal O$ 且是全局代数数。如果
+$J_p(k)\ne0$，则 $V_1(k),V_2(k)$ 不会同时为一，因为
+$\sum B_i=0$ 且 $J_p[H_0](k)\ne0$。用相同的 Brumer 判据，
+这时 $L_p(k)$ 非零且超越。R303 给 $J_p$ 为非零 Tate 函数，
+所以除有限多个整数 $k$ 外均有此结论。取 $k=p^a$ 后的
+$p^{-a}L_p(p^a)$ 收敛于 $J_p'(0)/3$；所用代数输入随 $a$ 变化。
+有限权上已经证明的对数非零与(W4)都未提供该极限的非零下界。
