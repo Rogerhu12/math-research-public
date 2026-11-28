@@ -1,21 +1,15 @@
 {
-  "message": "ISP R150: prove the original Phi primitive sextic and start whole-source and W component models",
-  "parentCommit": "f03239c456951e8d963d2ff1675dd618b882c0a5",
+  "message": "ISP Haar: prove exact Walsh trace-class carry and all block-root linear correction obstructions",
+  "parentCommit": "b507e072fe66794845e8ee3ff69e8d52ecd44ce9",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-centered-original-NSPS-sixth-scalar-content-and-true-leading-support.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-centered-original-NSPS-cofactor-content-and-leading-support-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-native-P164-fixed-integral-slice-and-original-vertical-content-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-native-P164-fixed-integral-slice-and-original-vertical-content-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-three-multiplier-regular-extension-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-three-multiplier-regular-extension-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-p164-components.yml",
-    ".github/workflows/invariant-subspace-8542-phi-whole-nsps-source.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-sextic-and-global-source-models-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-sextic-and-global-source-models-8542.md",
+    "topics/invariant-subspace-problem/results/R12-appendix-actual-walsh-block-trace-class-carry-and-closed-diagonal-roots.md",
+    "topics/invariant-subspace-problem/results/R12-appendix-all-walsh-block-root-branches-same-carry-sylvester-divergence.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-actual-Walsh-all-root-branches-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-actual-Walsh-all-root-branches-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,8 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-p164-components.yml",
-    "invariant-subspace-8542-phi-whole-nsps-source.yml"
-  ]
+  "dispatchWorkflows": []
 }

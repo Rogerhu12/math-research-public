@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-sextic-and-global-source-models-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-actual-Walsh-all-root-branches-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-[原Haar全格旗/稳定闭根](results/R12-appendix-all-ordinary-invariant-common-coordinate-flags-and-stable-closed-roots.md)及反构造已付；proper M有限尾必现真Q，gauge和非闭。全尾标量乘合根parity、[自然高位有限根强图仅0](results/R12-appendix-moving-high-bit-finite-square-roots-have-zero-strong-graph-limit.md)均成。[移位解析根的同源射线费用](results/R12-appendix-actual-shifted-roots-fixed-source-superpolynomial-ray-cost.md)：全实际尾/非零子商及任q≥2，非零固定x、非零固定左右P在每条完整射线上皆超任意多项式界；证明保四次幂界与完整2π PL，结论仅limsup，稀疏子列/随动x_n/一般闭根未排。续同源随动图极限及真实旗，R143核心/RanT⊂RanT*/慢D未知L伴随域保留。
+[原Haar全格旗/稳定闭根](results/R12-appendix-all-ordinary-invariant-common-coordinate-flags-and-stable-closed-roots.md)及反构造已付，proper M有限尾现真Q。旧乘合根parity、自然高位根强图0、固定源/固定左右P移位根全射线超多项式limsup均保结果索引；稀疏子列/随动源未排。[原Walsh全块与闭根](results/R12-appendix-actual-walsh-block-trace-class-carry-and-closed-diagonal-roots.md)给原C=D+K、全部秩一carry、K及RK/KR真实迹类和闭稳定块根。[全部根分支同源障碍](results/R12-appendix-all-walsh-block-root-branches-same-carry-sylvester-divergence.md)用cyclotomic统一系数下界，精确相邻carry的Sylvester解无有界拼接；未否定完整非线性RX+XR+X²=K、其它分解/闭域。续原非线性来源及真旗，R143/未知L伴随域保留。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[整H0有限性](results/R150-appendix-unit211-W-entire-H198-native-P164-finite-intersection-and-original-length.md)保权/均值/七坐标长度≤4100/24600/49200，未判空；[全I11二十×二/两原标量](results/R150-appendix-unit211-W-H198-complement-exact-twenty-two-full-original-values-and-two-scalars.md)保全部原值，C11/C10的头/λ内容尚未付。新e4bcc首派180秒/4GiB，仅检原P164在p1009,k3是否准确保195=98+97，以及QQ e2/3/5原det的纯k内容；保真次数和三项Bézout才提升各自QQ结论。尚无新λ结果式或共同曲线排除；H0及全部未付分量留，旧门不重放。
+[整H0有限性](results/R150-appendix-unit211-W-entire-H198-native-P164-finite-intersection-and-original-length.md)保权/均值/七坐标长度≤4100/24600/49200，未判空；[全I11二十×二/两原标量](results/R150-appendix-unit211-W-H198-complement-exact-twenty-two-full-original-values-and-two-scalars.md)保全部原值，C11/C10的头/λ内容尚未付。e4bcc真11.412102491秒/0，固定P164准确保195=98+97；三QQ e2/3/5原商241次保度/三项模Bézout1，真P无纯k内容。尚无新λ结果式或共同曲线排除；H0及全部未付分量留，旧门不重放。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -198,7 +198,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-[两原支持](results/R150-appendix-unit211-Phi-zero-coprime-original-highest-supports-and-1634-exceptional-weights.md)保共同失效权≤1634；[整D2最高支](results/R150-appendix-unit211-Phi-zero-whole-D2-highest-direction-original-exclusion.md)全闭。[完整I10](results/R150-appendix-unit211-Phi-zero-complete-original-values-exact-eighteen-by-two-presentation.md)十八×二及原个别NP/整个NV同点成。[新NSPS本原λ6](results/R150-appendix-unit211-Phi-zero-centered-original-NSPS-sixth-scalar-content-and-true-leading-support.md)：3bbbb真3.242041814秒/0，权53/27，真头H42总42；斜率/头补图每权≤12。24ec首派120秒/1GiB查同一三乘子旧权分母，未返前不宣覆盖Δ0。整斜率零、H42及余未付头/内容、余最高支、物理D0留；最高缩放不借旧零孤立均值排空。
+[两原支持](results/R150-appendix-unit211-Phi-zero-coprime-original-highest-supports-and-1634-exceptional-weights.md)保共同失效权≤1634；[整D2最高支](results/R150-appendix-unit211-Phi-zero-whole-D2-highest-direction-original-exclusion.md)全闭。[完整I10](results/R150-appendix-unit211-Phi-zero-complete-original-values-exact-eighteen-by-two-presentation.md)十八×二及原个别NP/整个NV同点成。[新NSPS本原λ6](results/R150-appendix-unit211-Phi-zero-centered-original-NSPS-sixth-scalar-content-and-true-leading-support.md)：3bbbb真3.242041814秒/0，权53/27，真头H42总42；斜率/头补图每权≤12。24ec真2.343511191秒/0，第三乘子仅Q分母，全C6来源覆盖Δ0；H42补图每权≤18。整斜率零、H42及余未付头/内容、余最高支、物理D0留；最高缩放不借旧零孤立均值排空。
 
 [整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
