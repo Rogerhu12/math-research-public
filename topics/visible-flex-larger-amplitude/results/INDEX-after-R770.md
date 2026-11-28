@@ -15,3 +15,5 @@
 - [R774：真实完整双斜折与单帽共同刚体四对障碍](R774-two-oblique-developable-folds-and-the-common-cap-centroid-test.md)。真实平物料整片全g准确；任意整帽刚体在规定中心下被>.005质心链隙排除；[两整球、独立折片、完整角区间四原任务](../notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)保全部预算，闭球余Gram/全管仍欠。
 
 - [R776：新固定g的全相短映射厚闭球](R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)，[完整九图六jet](../scripts/resume_20261126/r776_short_inward_tube_and_spatial_corners.py)。整g_t≤g0故所有物料端对弦弱短；各法层及混图全管reach≥.05、D<1.55、握≥.68/held>.323、δE≥.020。余曲角角长未准；另一个全角长准确的非平伴随场需重付xx/xe及全管，不能借短参考的几何。
+
+- [R778：同R776 g的完整有限频率近等距族与厚度费用](R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)，[九图二jet](../scripts/resume_20261126/r778_normal_periodic_closed_corrugation.py)。全相相对Gram≤2(16000/n)+(16000/n)²；n=4×10^10可过1e−6，n≥2×10^6全闭嵌入，真曲率>100n使reach趋零。明确不能支付题目第5条/厚度，转入可动锚低频全场。

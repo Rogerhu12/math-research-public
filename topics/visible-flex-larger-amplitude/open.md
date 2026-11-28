@@ -115,10 +115,10 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 数学和新输入
 
-[R761](results/R761-paired-track-global-tube-and-positive-volume-gap.md)：规定场全t reach.106/D<3.50、握.72/held>.739、δE>.004；余g欠。[R763](results/R763-terminal-metric-traces-and-free-shared-rim-jets.md)：43硬rim>.72；44释全共rim。
-[R762](notes/2026-11-28-R762-positive-gauge-and-four-complete-fits.md)：四路全返g约1.1e5、护领193.701，失败闭。[R764](notes/2026-11-28-R764-corrugated-whole-sphere-and-four-complete-fits.md)：四球12层全返，free末g.845/.868、K505/271，rigid g>1；有限拟合失败，初reach.132/D<4.386仍准。
-[R765](results/R765-signed-ratio-full-rolls-and-closed-rotation-equation.md)：2+2面积96.3%准确却K>17.2；2+3低峰K<8.84/held>.705，整过渡/全管欠；SO3闭式仅等价。[R766](notes/2026-11-28-R766-common-rigid-sector-and-complete-cyclic-rings.md)：四支24报告全返，末g1.35e5–4.57e5、K约1e5–4e5；四有限拟合失败，共刚右域证明保留。
-[R767–768](notes/2026-11-28-R767-R768-preloaded-sphere-and-hard-endpoint-obstruction.md)：新固定初g全reach.08/D<2.57、握>.528/中央held>.55；整桥单位速/真实两帽二jet。旧.18硬端斜路<.768却末弦>.784，任何内场g误差>.042，已闭；改真实外边界续做，正相全管/余g仍欠。
+[R751–770全旧证明/实际及条件](https://github.com/Rogerhu12/math-research-public/blob/1b11a8a6268a509c55efd987304d1298f5df2ee7/topics/visible-flex-larger-amplitude/HANDOFF.md)：R761参考几何保留；R762/764/766有限拟合全失败，R767/768硬端障碍已闭，原初几何/全源参/预算与未付g、全管保各独立proof/ownnote，不重做。
+
+
+
 [46/R770](notes/2026-11-28-run46-compensated-bridge-and-released-whole-caps.md)：46168504031完整12stage/双69相/各7闭网全返，末同点整网g1.42695/1.42194、K883724/36017，有限细化失败；原初几何/参考经向与全源参仍保。
 [R769](notes/2026-11-28-R769-whole-meridian-and-four-complete-launches.md)：同R764初g全转角重分，完整normalized参考held≥.88但固定E界全帽短路排除；贯穿E+L的真实S²射击释E、两真帽随实际积分端，四支/三层/24整报告原预算启动，余g/全管仍欠。
 [R771](notes/2026-11-28-R771-unique-convex-meridians-and-two-complete-launches.md)：同R764 g全经线唯一B>0凸根、全gvv/两端/固定领准确，.42整像δE≥.0315；两支各3层可行形变+十一图全场原预算启动，余g/正相管欠。
@@ -129,6 +129,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R774](notes/2026-11-28-R774-two-folds-and-four-complete-shared-pose-studies.md)：真整双斜折片全g/K<1/.132，规定中心的任意整帽刚体被>.005链隙排除；两真整球+全片+全角区间四任务21源原预算启动，闭球余g/全管仍欠。
 
 [R776](results/R776-uniformly-short-thick-closed-sphere-and-spatial-corner-lengths.md)：新g整闭球g_t≤g0、全部端对弦弱短；全signed法层/混图reach≥.05/D<1.55，定握≥.68/held>.323/δE≥.020。余曲角角长欠；另真全角长伴随的xx/xe/全管重付。
+
+[R778](results/R778-finite-all-phase-Gram-envelope-and-frequency-thickness-cost.md)：同R776 g全闭C²近等距族，误差≤2(16000/n)+(16000/n)²；真曲率>100n且reach趋零，不能充厚等距解。完整二jet支持低频真实修正继续。
 
 ### 完成与保留责任
 
