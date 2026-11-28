@@ -53,6 +53,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R784](results/R784-exact-curved-roll-continuation-from-the-four-bent-caps.md)：八真角带/帽、t≥π/4可精确延真卷.0000688；全闭仅取h=5e−8局部换场，reach>1/24.38/held>.319。九次真物理两jet和余界明列；不冒全卷/中央已等距。
 
 [R786](results/R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)：同R781 g双完整帽精确，整360°双真卷宽.0024全相谱误差<9.46e−7；全闭reach>1/24.36/held>.317/商距>.083。余卷/中央误差及固定参真收敛仍欠。
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 00d987c674c4672c9e77ae3f996123f23a7a5c11
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 6e79750ff4021586b49fcb9acc80d615ccb1e7d6
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull fb832d8c99873015d257c59ff9175bb0132885a6
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 6cf25c5f930eac7074f3a21034029e959853f193
