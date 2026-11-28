@@ -438,3 +438,9 @@ root亲核BHKO Defs4.1/4.6、Prop4.7完整BT证明、Th4.9b和Rem4.10i，与R107
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:49:52 UTC到a40b3be221b219d874bbfb928c0c93075ce3b335，私库2026-11-28 11:49:42 UTC到437cd298fb4203ce29847805d5e48084a60524ec；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3246/46786608B/treed7483e37d3e4b0052d5355aa7a494c05bb7e59b3，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:50:08 UTC到3f1edc16440727f43247e2f16eddfbcc78ffea07，私库2026-11-28 11:50:03 UTC到24477013243529696ef9dfdf7219b6c042424080；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3246/46786608B/treed7483e37d3e4b0052d5355aa7a494c05bb7e59b3，无>5MB。
+
+## 2026-11-28 11:50:50 UTC — R1067 全变形首剩余分类
+
+root完整手核加法Y方程及D^p=−D常数、R1全根到2d−2幂和、Paley矩阵/Y幂的额外X因子、η=b_(d−1)u0和R3核，逐项代Q5/Q1得到R4及j2单位。只登记同一首剩余的真实无约束范围，不以抽象解宣称原特征零提升。R1072 §§7–9已实推50804081faaa5aab9d6acef8a7db8d02612b9601（11:50:15 UTC），一次非FF立即双pull/rebase，四README不变。arithmetic 11:50:39.9503916UTC实际v17日志仍BlobNotFound，无实际pins/PASS新增。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:51:26 UTC到fe15a1eebff8de48a1ae4c841007e9aef3110981，私库2026-11-28 11:51:21 UTC到be5aa0e04bac6e64c579e1207ceceabc123ed4c0；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3246/46799683B/treef438eacc5b396f21901b2bdf34ac8ebe061b06d0，无>5MB。

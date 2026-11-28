@@ -618,3 +618,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1072 §§7–9：原中央非零的有限层整数证书
 
 BHKO真实signed归一与R1070精确Artin比给Θ17²=C*Θ1²·A·A∘ι，原rank-zero参考Θ1整单位；全BT整数递推准确构造Θ17。完整二次矩M_i=Σu²A_i,u满足(−1)^i p^(1−i)M_i≡2[T²]Θ17 modp^i，故原J′非零恰某有限i有p^(2i−1)不整除M_i。原整平方进一步给中央赋值2r、首次检出恰i=2r+1；允许首层未检出，不要求全Brandt行消失。仍须证明无穷不同p检出。 [完整证明](../results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
+
+### R1067 §51：全部变形阶的真实首剩余范围
+
+Moore行列式恒定及全根幂和准确解出原Paley两径向块的全部Z阶共同首剩余：次数≤h时R3是同构，h<r≤d−2时核恰(1−x)^(h+1)倍数。原j1坏、j2/p²单位对应的真实R4二次剩余与所有变形阶相容，故在该首剩余阶继续增加jets不能造矛盾；未宣称任意剩余可提升为原特征零模函数。下一位完整pC及原全局来源仍保留。 [同编号全文](../results/R1067-original-first-wild-fixed-geometric-tail.md)。

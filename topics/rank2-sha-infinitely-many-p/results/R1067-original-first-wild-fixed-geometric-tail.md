@@ -1205,3 +1205,65 @@ $137$ 与 $204$ 互素，故删去先前固定的有限坏集后仍有无穷个�
  \qquad E_{2d}={(4d)!\over68^{2d}(2d)!}\alpha_{4d}.
 \]
 这里的 $K'$ 分裂性规定哪些原 harmonic 格点展开可以进一步使用；它本身没有推出这个中央差非零。
+
+## 51. 全部变形阶的径向首剩余和实际无约束范围
+
+用§§46--50任一条原子列，保留同一两块 $F_0(z),F_N(z)$。本节在一个共同的 $p$ 进整除阶同时读取(P9)的所有 $Z$ 阶。只谈已指明的共同首剩余；下一位可以携带此前落入 $\ker\bar C$ 的信息。
+
+改用 $S=y_*Z,\ X=y/y_*,\ x=X^d$。取全部真逆支 $X_i(S)$，$X_i(0)=\ell_i$。由(P5),(P11)，每支在 $S=0$ 的缩放逆为整幂级数，且其约化满足
+\[
+ X_i^{p+1}+S X_i-1=0,\qquad X_i(0)=L(v_i)^{p-1}.
+ \tag{R1}
+\]
+这里的整逆来自 $S=X^{-1}\mathcal A(\mathfrak c X^d)/\mathcal B(\mathfrak c X^d)$ 在各单位根处的单位导数。模 $p$ 的加法方程
+\[
+ Y^{p^2}+S Y^p-Y=0
+\]
+在 $S=0$ 各 $L(v_i)$ 处导数为 $-1$。故有唯一提升 $Y_i(S)$，$Y_i^{p-1}=X_i$。唯一性和方程的可加性使 $Y_i=Y(v_i)$、$Z_i=Y_i^p=Z(v_i)$ 都是 $v_i$ 的 $\mathbf F_p$ 线性形式（系数在剩余域的幂级数环）。此处 $Z_i$ 是线性形式，不再表示(P7)的参数。令 $D=Y(e_1)Z(e_2)-Z(e_1)Y(e_2)$，则 $D(0)\ne0$，且 $D^p=-D$，由此 $D=D(0)$ 恒定。§47的整套平方根在约化中恰给 $Y_i^h$。
+
+设径向块 $F_0(\mathfrak c x),F_N(\mathfrak c x)$ 在有界闭 $x$ 盘同被 $p^r$ 整除，写
+\[
+ P(x)=p^{-r}F_0(\mathfrak c x)\bmod p,\qquad
+ G(x)=p^{-r}F_N(\mathfrak c x)\bmod p .
+\]
+原 $c_i$ 整且 $v_p(\mathfrak c)=1$，两者是度至多 $r$ 的多项式。允许有一条剩余为零。为得到所有 $S$ 阶的条件，将(P9)恢复到整向量：令 $a_i$ 为§48关于 $Q_0$ 的带角项，$b_i$ 为关于 $Q_N$ 的带角项再除 $y_*^N$，公共因子照旧去掉。因(P3)，对每个系数的两对角位置同时有
+\[
+ C b=\eta a,\qquad C a=(\sigma p/\eta)b,\qquad
+ \eta=\epsilon\sigma\mathfrak G/y_*^N\in\mathcal O^\times .
+\]
+这里的 $C$ 是固定 $p$ 的 Paley 矩阵，$a,b$ 已写成参数 $S$。约去共同的 $p^r$ 后，(P11)及确定的计号给
+\[
+ \bar a_i=Y_i^h P(X_i^d),\qquad
+ \bar b_i=Y_i^h X_i^N G(X_i^d)=\frac{Z_i^N}{Y_i}G(1-SX_i).
+ \tag{R2}
+\]
+特别在此共同剩余阶，全部 $S$ 系数都必须满足 $\bar C\bar b=\bar\eta\,\bar a,\ \bar C\bar a=0$；第二式也随第一式成立。下文解的是这两条准确剩余方程。
+
+对 $1\le m\le2d-2$，(R1)全部根的幂和只有 $m=d$ 时非零，其值为 $1$。确实 $m<d-1$ 时由 Newton 恒等式为零，$m=d-1$ 时可能的系数是 $-(d-1)S=-pS=0$，$m=d$ 时为 $d=1$；更高至 $2d-2$ 用同一递推。计算(R2)的第 $i$ 行，
+\[
+ (\bar C\bar b)_i
+ =D^{-h}Y_i^h\sum_j X_j^{N+1}(X_j-X_i)^h G(1-SX_j).
+\]
+其中 $Y_j^{h+N-1}=Y_j^{p-1}=X_j$，这给额外一次 $X_j$。若 $\deg G\le d-2$，所求各幂次数不超过 $d+\deg G\le2d-2$，只有 $d$ 次留下。置 $g_a=[T^a]G(1-T)$，有
+\[
+ (\bar C\bar b)_i=D^{-h}Y_i^h
+        \sum_{a=0}^h(-1)^a\binom ha g_a(SX_i)^a .
+\]
+在 $S=0,G=1$ 对应 $e(d-1)$ 的第 $i_0$ 行给 $D^{-h}=\bar b_{d-1}$，而 $\eta=b_{d-1}u_0$。因 $SX_i$ 非恒定，故全部变形阶的共同首剩余准确等价于多项式身份
+\[
+ \boxed{\ P(1-T)=\bar u_0^{-1}
+          \sum_{a=0}^h(-1)^a\binom ha [T^a]G(1-T)\,T^a.\ }   \tag{R3}
+\]
+这给次数 $\le h$ 的真正同构；若 $P=x^k,\ 0\le k\le h$，其唯一同次数解为
+\[
+ G=\bar u_0\sum_{a=0}^k\frac{\binom ka}{\binom ha}(1-x)^a.
+\]
+若 $h<r\le d-2$，(R3)的像是次数 $\le h$ 的全部多项式，核为 $(1-x)^{h+1}$ 的按 $r$ 次截取的倍数。故仅在径向首剩余的这个范围内，第一个核出现在 $h+1$ 次。
+
+对原 canonical 坏 $j_1=0$，有 $g_1\in p,\ E_d\in p$。$P$ 块在闭盘整除 $p^2$。$N$ 块也在闭盘整除 $p^2$：$c_N=E_N\in p^2$，而 $F_N(\mathfrak c)=u_0F_0(\mathfrak c)\in p^2$ 进一步给 $c_{N+d}\in p$。取 $r=2$，记 $B=(\mathfrak c/p)^2 c_{2d}\bmod p$，由(Q5)的 $k=2$ 及(Q1)得
+\[
+ P(x)=B\,x(x-2/3),\qquad
+ G(x)=\frac{\bar u_0 B}{3}(8x^2-8x+1).
+ \tag{R4}
+\]
+后一式可直接用(R3)的 $k=1,2$ 核算。若 $B\ne0$，(Q5)也给 $j_2/p^2\ne0$。因此全部 $S$ 阶的这个共同首剩余确实容许非零的(R4)；缺口不能通过对同一首剩余再增加任意多的 $Z$ 阶解决。这不构造 $j_1=0$ 的原素数，也不为任意多项式解宣称存在实际特征零模形式提升。若利用下一位 $\sigma p/\eta$ 或更深几何约束，仍须保留其整提升和原水平质量。

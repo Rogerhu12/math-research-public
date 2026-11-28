@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:50:08 UTC实际pull --rebase，读取main 3f1edc16440727f43247e2f16eddfbcc78ffea07；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:50:03 UTC实际pull --rebase至24477013243529696ef9dfdf7219b6c042424080；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:51:26 UTC实际pull --rebase，读取main fe15a1eebff8de48a1ae4c841007e9aef3110981；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:51:21 UTC实际pull --rebase至be5aa0e04bac6e64c579e1207ceceabc123ed4c0；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bee3692a9c661d21f286c6799449901acca6583f，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3246/46786608B/treed7483e37d3e4b0052d5355aa7a494c05bb7e59b3；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3246/46799683B/treef438eacc5b396f21901b2bdf34ac8ebe061b06d0；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -29,8 +29,8 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 原共同两/三位：R1067
 
 [R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)及[§§16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)保两Kato图/ν/physical/参考单位、Hall整除、旧更正。原g1=a_pEN/p、g2=(pb_pEd−γa_pEN)/p²，必须完整f/mixed、EN三位/Ed两位，尾−3a_pIp/γ不可删。
-[§§37–50](results/R1067-original-first-wild-fixed-geometric-tail.md)：固定两I12边界F[E−]=p²υE(e)，原晶体Taylor/固定good-model/整比较给T=W P5(xp)−p²υPe，全V上T/p²整；M=x^(16−e)L_eΠ/(1−w)^p，degΠ≤p−1，单branch全主部唯一恢复。原j1728初列/H/DH/低p水平窗/Qc,Qc²保实际Π与原Ip全f卷积。
-§§44–45以Gφ全局负Y主部消未知CM第二位λ，S=−u t L_ePm+8p²xpM modp³，N5/N6准确回两canonical。§§46–48原全Paley/Singer、目标标记、∞负号、Γ68三乘积及参考RS唯一±付全变形P9；整旋转原EN=cN/Ed=cd，P14保径向二阶三位，bad g1下c2d整框架无关。§49原参考给κ=−(pcσ)²、c/p=−1/κ、γa_pu0 c/p=−b_p，E2d准确回第四物理权，Q6无未知单位。这些不是Gaussian之外独立坏条件；§50另付p≡137 mod204互补射线：M68、∞正号/σ1、辅助√−17普通且原j0超奇异；同Q6成立。两子列跨p非零仍待证。
+[§§37–51](results/R1067-original-first-wild-fixed-geometric-tail.md)：固定两I12边界F[E−]=p²υE(e)，原晶体Taylor/固定good-model/整比较给T=W P5(xp)−p²υPe，全V上T/p²整；M=x^(16−e)L_eΠ/(1−w)^p，degΠ≤p−1，单branch全主部唯一恢复。原j1728初列/H/DH/低p水平窗/Qc,Qc²保实际Π与原Ip全f卷积。
+§§44–45以Gφ全局负Y主部消未知CM第二位λ，S=−u t L_ePm+8p²xpM modp³，N5/N6准确回两canonical。§§46–48原全Paley/Singer、目标标记、∞负号、Γ68三乘积及参考RS唯一±付全变形P9；整旋转原EN=cN/Ed=cd，P14保径向二阶三位，bad g1下c2d整框架无关。§49原参考给κ=−(pcσ)²、c/p=−1/κ、γa_pu0 c/p=−b_p，E2d准确回第四物理权，Q6无未知单位。这些不是Gaussian之外独立坏条件；§50另付p≡137 mod204互补射线：M68、∞正号/σ1、辅助√−17普通且原j0超奇异；同Q6成立。两子列跨p非零仍待证。 §51完整全Z首剩余R3：r≤h同构，h<r≤d−2核=(1−x)^(h+1)倍数；原j1坏/j2单位的R4二次型全相容。不能再以同一首剩余多jets造forcing，仍须真实高位pC/原全局来源。
 
 ## 原中央、全层及 Rubin 整平方：R1070
 
