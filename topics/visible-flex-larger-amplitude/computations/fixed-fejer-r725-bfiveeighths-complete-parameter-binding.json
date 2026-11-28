@@ -1,0 +1,737 @@
+{
+  "schema": "complete-fixed-fejer-r725-bfiveeighths-parameter-binding-v1",
+  "prepared_date": "2026-11-28",
+  "session": "Astra-larger-e4e2a2bf-20261126",
+  "status": "complete-parameter-only-preparation-not-executed",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "namespace": "fixed-fejer-r725-bfiveeighths-first",
+  "intended_independent_runner_label": "27",
+  "complete_parent_documents": {
+    "binding": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+      "name": "fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+      "bytes": 47684,
+      "sha256": "5abc72b77a2eb51064239e49a5e90fcc9fd230fc4883a925e19461ae701ef7eb",
+      "sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+      "git_blob_sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+      "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+    },
+    "science": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-science-complete-ready.json",
+      "name": "fixed-fejer-r725-bhalf-science-complete-ready.json",
+      "bytes": 72545,
+      "sha256": "fb33c7620b05193b54e38a39e97f7efc0fa7149bcbc720d04db1c041aeda0d63",
+      "sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+      "git_blob_sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+      "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+    },
+    "pure": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-pure-complete-ready.json",
+      "name": "fixed-fejer-r725-bhalf-pure-complete-ready.json",
+      "bytes": 58721,
+      "sha256": "29254c1a4a08cbb508266d9ac4c88178a6a7e2b5413428d31461056fe8939ccf",
+      "sha": "b3d57832327fccecf3afb4f211006125f331e271",
+      "git_blob_sha": "b3d57832327fccecf3afb4f211006125f331e271",
+      "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+    },
+    "manifest": {
+      "name": "fixed-fejer-r725-bhalf-complete-parameter-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json",
+      "bytes": 19108,
+      "sha256": "a02d1140c3cc83b9e70cde8a264e68707db5ef9da49710826a14a099b6eeb8f5",
+      "git_blob_sha": "c5edf0dd581dcba4af3d6c8b8c97483d1d089de6",
+      "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+    },
+    "actual26_launch_note": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md",
+      "name": "2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md",
+      "bytes": 30859,
+      "sha256": "27a7d30af5251b30f8a98c254a25f648d4800b1fa1ca38070047a7b553c0976d",
+      "git_blob_sha": "ed76ddec90e5d43fe19a513bf7497b372d57f8d0",
+      "fixed_publication_commit": "4f80adb37306bd625c5e0ab7e4d1ce02dc4a8c65"
+    }
+  },
+  "complete_document_sharing": {
+    "interpretation": "Each complete_file record identifies the entire original bytes. A JSON pointer selects a complete original object; omitted duplicate metadata is inherited in full, not truncated or summarized away.",
+    "complete_parent_bytes_and_full_original_step_objects_preserved": true,
+    "no_current_runtime_source_or_scientific_parameter_is_replaced_by_a_stub": true,
+    "fixed_source_publication_commit": "95801769a95b2940b14ad01fe7640581b2c2fb44",
+    "fixed_parent_parameter_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+  },
+  "current_source_role_registry": {
+    "complete_file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-current-complete-runtime-binding.json",
+      "bytes": 57985,
+      "sha256": "f7ef58856c06e66b5450b0e745c98fc92ecc2f1bf69b0b3a2f06827a7be9e82b",
+      "sha": "a27e6bdc2621d7356a953fd3a1bdd2d2781d3984",
+      "git_blob_sha": "a27e6bdc2621d7356a953fd3a1bdd2d2781d3984"
+    },
+    "json_pointer": "/complete_source_role_registry",
+    "complete_pairs": 137,
+    "unchanged_pairs": 137,
+    "changed_pairs": 0,
+    "comparison": "run27 versus the complete current run26 source registry",
+    "historical_run26_source_derivation": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "name": "fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "bytes": 47684,
+        "sha256": "5abc72b77a2eb51064239e49a5e90fcc9fd230fc4883a925e19461ae701ef7eb",
+        "sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "git_blob_sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/current_source_role_registry"
+    }
+  },
+  "current_runtime_records": {
+    "complete_file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-current-complete-runtime-binding.json",
+      "bytes": 57985,
+      "sha256": "f7ef58856c06e66b5450b0e745c98fc92ecc2f1bf69b0b3a2f06827a7be9e82b",
+      "sha": "a27e6bdc2621d7356a953fd3a1bdd2d2781d3984",
+      "git_blob_sha": "a27e6bdc2621d7356a953fd3a1bdd2d2781d3984"
+    },
+    "json_pointer": "/current_complete_runtime_sources",
+    "complete_files": 22,
+    "scope": "All22 exact complete current runtime bodies are shared byte-for-byte with run26. The original nineteen logical slots and seed/base/Q expansion are retained without source aliases or omissions.",
+    "unchanged_complete_files": 22,
+    "changed_complete_files": 0
+  },
+  "complete_current_source_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-complete-scientific-source-delivery.json",
+    "bytes": 25162,
+    "sha256": "9929f153017ad195bf4d9aed8bbbad3d05dd32e81491cc2b11e7910a9811bb94",
+    "sha": "1c0c17981f4fcbca81eed5e09646bc007299fdea",
+    "git_blob_sha": "1c0c17981f4fcbca81eed5e09646bc007299fdea"
+  },
+  "complete_location_transport_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/complete-geometry-location-observation-and-transport-delivery.json",
+    "bytes": 6029,
+    "sha256": "099219af952a3beef3e14ce50692bbd05a2e397d773c1a582a959d69de302156",
+    "sha": "e8a317b06cb1d6d6109cc1ffed67eef1028cc4b1",
+    "git_blob_sha": "e8a317b06cb1d6d6109cc1ffed67eef1028cc4b1",
+    "publication_commit": "67b6d2129a0d29de281a1296221bca6fc4b96eef"
+  },
+  "current_scientific_source_change": {
+    "changed_source_roles": [],
+    "changed_complete_runtime_files": 0,
+    "all137_source_pairs_unchanged": true,
+    "all22_runtime_bytes_unchanged": true,
+    "complete_original_run26_source_derivation": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "name": "fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "bytes": 47684,
+        "sha256": "5abc72b77a2eb51064239e49a5e90fcc9fd230fc4883a925e19461ae701ef7eb",
+        "sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "git_blob_sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/current_scientific_source_change"
+    },
+    "source_fixed_boundary_epsilon": "1/8",
+    "normalized_boundary_cutoff_law_unchanged": true,
+    "physical_boundary_total_length_changed_from": "1/2",
+    "physical_boundary_total_length_changed_to": "5/8",
+    "profile_delta_unchanged": "1/32",
+    "new_CLI_words": 0,
+    "all_eight_true_boundary_inner_cuts_and_twelve_boundary_pieces_retained": true,
+    "original_paired_halfwaves_auxiliary12_bubble_lift_outer_Gauss_and_partial_Lagrange_retained": true,
+    "new_seed_mean_roots_lambda_and_reference_calibration_actually_required": true,
+    "old_model_point_mean_root_final_or_certificate_not_inherited": true,
+    "complete_R725_proof": {
+      "path": "topics/visible-flex-larger-amplitude/results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md",
+      "bytes": 30079,
+      "sha256": "f40eb810c7c5c15583155335756a2ef3aa2c60155f319b6943725906e6171bc3",
+      "sha": "872fda9c48d04db1e3b45bd855b041f5226ab002",
+      "git_blob_sha": "872fda9c48d04db1e3b45bd855b041f5226ab002",
+      "fixed_publication_commit": "91ecb6cb858ffafe71f09b21492061c3da8d1c62"
+    },
+    "complete_actual_pure_plan_contract": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-complete-scientific-source-delivery.json",
+        "bytes": 25162,
+        "sha256": "9929f153017ad195bf4d9aed8bbbad3d05dd32e81491cc2b11e7910a9811bb94",
+        "sha": "1c0c17981f4fcbca81eed5e09646bc007299fdea",
+        "git_blob_sha": "1c0c17981f4fcbca81eed5e09646bc007299fdea"
+      },
+      "json_pointer": "/actual_pure_interfaces"
+    },
+    "R726_Slerp_rotation_frame2_restoration_policy_not_added": true
+  },
+  "explicit_parameter_recipe": {
+    "complete_parent_science_step": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-science-complete-ready.json",
+        "name": "fixed-fejer-r725-bhalf-science-complete-ready.json",
+        "bytes": 72545,
+        "sha256": "fb33c7620b05193b54e38a39e97f7efc0fa7149bcbc720d04db1c041aeda0d63",
+        "sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+        "git_blob_sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/steps/0"
+    },
+    "complete_parent_pure_step": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-pure-complete-ready.json",
+        "name": "fixed-fejer-r725-bhalf-pure-complete-ready.json",
+        "bytes": 58721,
+        "sha256": "29254c1a4a08cbb508266d9ac4c88178a6a7e2b5413428d31461056fe8939ccf",
+        "sha": "b3d57832327fccecf3afb4f211006125f331e271",
+        "git_blob_sha": "b3d57832327fccecf3afb4f211006125f331e271",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/steps/0"
+    },
+    "old_namespace": "fixed-fejer-r725-bhalf-first",
+    "new_namespace": "fixed-fejer-r725-bfiveeighths-first",
+    "current_scripts": {
+      "science": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_r725_dk_cache_actions.py",
+      "pure": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_r725_dk_cache_report.py"
+    },
+    "all_runtime_source_bytes_unchanged": true,
+    "new_runtime_files": 0,
+    "new_CLI_words": 0,
+    "all_numerical_argument_words_unchanged_except_one_explicit_existing_width": true,
+    "numeric_changes": [
+      {
+        "flag": "--seed-boundary-total-length",
+        "zero_based_value_index": 113,
+        "original_value": "1/2",
+        "current_value": "5/8"
+      }
+    ],
+    "scientific_argv_words": 157,
+    "pure_argv_words": 7,
+    "full_step_objects_outputs_cleanup_and_all_formal_and_live_values_retained": true,
+    "permitted_step_changes": [
+      "exact namespace substitution in all string keys and values",
+      "science args[113]: 1/2 to5/8",
+      "current scope prose records the real width change"
+    ],
+    "complete_original_parameter_recipe": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "name": "fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "bytes": 47684,
+        "sha256": "5abc72b77a2eb51064239e49a5e90fcc9fd230fc4883a925e19461ae701ef7eb",
+        "sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "git_blob_sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/explicit_parameter_recipe"
+    },
+    "current_seed_parameter_recipe": {
+      "relative_boundary_total_length": "5/8",
+      "profile_delta": "1/32",
+      "each_of_four_boundary_layers_relative_length": "5/32",
+      "combined_central_relative_length": "1/4",
+      "each_of_two_central_relative_length": "1/8",
+      "input_domain_is_legal": true,
+      "actual_mean_root_and_angular_jets_proved": false,
+      "metric_or_geometric_improvement_assumed": false,
+      "physical_profile_mechanism": "paired-halfwave",
+      "first_central_profile": "+lambda*h_delta(t/2)",
+      "second_central_profile": "-lambda*h_delta(t/2)",
+      "local_material_t_range": "[0,1]",
+      "exactly_two_equal_central_intervals_required": true,
+      "central_intervals_relative": [
+        [
+          "3/16",
+          "5/16"
+        ],
+        [
+          "11/16",
+          "13/16"
+        ]
+      ],
+      "scalar_mean_equation_and_auxiliary_twelve_piece_kernel_preserved_as_mathematical_objects": true,
+      "current_field_mean_roots_or_working_words_inherited": false,
+      "complete_new_seed_source": {
+        "role": "seed_reference",
+        "name": "fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+        "bytes": 51540,
+        "sha256": "1533deac6485f4b7fc065d4e40ed23ef0220ebb1800e868a518fd27ec623616f",
+        "git_blob_sha": "b37f930874dd9b874d58120a2d9fe86031146ccb",
+        "complete_parent": {
+          "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_meridian_reference.py",
+          "name": "fixed_fejer_paired_halfwave_meridian_reference.py",
+          "bytes": 43697,
+          "sha256": "cec7f1a297851c43bb5db4174d3a15d7d1a40eb1683b145d1f845aff732d10f0",
+          "git_blob_sha": "cc877246e546b8294826ad38d33b3eb2f7434f25"
+        },
+        "shared_previously_published": true
+      },
+      "full_R724_definition_and_scope": {
+        "path": "topics/visible-flex-larger-amplitude/results/R724-paired-halfwave-central-seed-and-complete-source-identity.md",
+        "bytes": 25314,
+        "sha256": "fea22bde71c3780bead8b7448c5fc057e64f8e6429f97c1b3155e1d13e32f878",
+        "git_blob_sha": "e2dbf61239c0092025ef8a5c0f6cac80b4e87d83",
+        "fixed_publication_commit": "21bb485ad77530cf7623f9ef5c01b77294bc4ca3"
+      },
+      "exact_boundary_cutoff_epsilon": "1/8",
+      "complete_physical_boundary_cutoff_source": {
+        "complete_file": {
+          "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-current-complete-runtime-binding.json",
+          "bytes": 57985,
+          "sha256": "f7ef58856c06e66b5450b0e745c98fc92ecc2f1bf69b0b3a2f06827a7be9e82b",
+          "sha": "a27e6bdc2621d7356a953fd3a1bdd2d2781d3984",
+          "git_blob_sha": "a27e6bdc2621d7356a953fd3a1bdd2d2781d3984"
+        },
+        "json_pointer": "/current_complete_runtime_sources/seed_reference"
+      },
+      "boundary_formula": "Unchanged R725 C_epsilon with exact epsilon1/8 and normalized derivative peak8/7, evaluated on this run's four layers of relative width5/32; all eight exact inner cuts and all twelve boundary pieces follow the full source formulas.",
+      "true_mean_root_and_angular_jets_still_require_actual_work": true,
+      "complete_original_seed_recipe": {
+        "complete_file": {
+          "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+          "name": "fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+          "bytes": 47684,
+          "sha256": "5abc72b77a2eb51064239e49a5e90fcc9fd230fc4883a925e19461ae701ef7eb",
+          "sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+          "git_blob_sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+          "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+        },
+        "json_pointer": "/explicit_parameter_recipe/current_seed_parameter_recipe"
+      },
+      "scalar_metric_and_frozen_reference_chart_unchanged": true,
+      "current_complete_seed_model_and_reference_calibration_recomputed": true,
+      "normalized_boundary_law_or_epsilon_changed": false,
+      "physical_boundary_layer_lengths_and_piece_locations_changed": true
+    },
+    "original_actual_guard": {
+      "canonical_Fraction_argument": true,
+      "strict_boundary_range": "0 < b/S < 7/8",
+      "actual_current_boundary": "5/8",
+      "strict_profile_delta_range": "0 < delta < 1/8",
+      "actual_current_profile_delta": "1/32",
+      "source_fixed_epsilon": "1/8",
+      "actual_supported_intervals": [
+        [
+          "1/32",
+          "15/32"
+        ],
+        [
+          "17/32",
+          "31/32"
+        ]
+      ],
+      "source_checks_equal_positive_central_lengths": true,
+      "original_driver_seed_constructor_and_model_guards_retained": true,
+      "no_new_scientific_admission_or_review_gate": true
+    }
+  },
+  "original_complete_budgets": {
+    "current_M": 160,
+    "current_J": 923,
+    "current_N": 2048,
+    "normal_stages": 32,
+    "normal_angle_block": 8,
+    "stage_block": 64,
+    "integration_order": 8,
+    "metric_directions": 1,
+    "metric_maxiter": 16,
+    "restoration_directions": 4,
+    "restoration_maxiter": 64,
+    "line_trials": 15,
+    "active_rows": 192,
+    "envelope_near_active_rows": 32,
+    "metric_damping": ".01",
+    "restoration_damping": ".01",
+    "seed_boundary_total_length": "5/8",
+    "seed_profile_delta": "1/32",
+    "all_remaining_numeric_words_tolerances_domains_variables_in_the_complete_step": true,
+    "no_smaller_problem_no_reduced_domain_no_reduced_budget": true
+  },
+  "fixed_target_scope": {
+    "accurate_a_rho0_g_reference_chart_and_recipe_unchanged": true,
+    "all_current_variables_and_three_rotation_channels_retained": true,
+    "complete_original_target_scope": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "name": "fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "bytes": 47684,
+        "sha256": "5abc72b77a2eb51064239e49a5e90fcc9fd230fc4883a925e19461ae701ef7eb",
+        "sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "git_blob_sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/fixed_target_scope"
+    },
+    "same_boundary_width_as_run26": false,
+    "same_boundary_width_as_run24_but_different_R725_cutoff_source": true,
+    "new_seed_model_depends_on_actual_new_b_and_unchanged_R725_law": true,
+    "current_mathematical_field_model_point_mean_and_calibration_not_inherited": true,
+    "own_complete_actual_reference_input_binding_required_by_original_solver": true,
+    "no_old_runner_raw_inputs_or_root_values_transferred": true,
+    "no_claim_of_feasibility_Gram_reach_distance_or_whole_image_improvement": true
+  },
+  "complete_peer_responsibilities": {
+    "complete_all13_prior_peer_objects_and_discovery_history": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "name": "fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "bytes": 47684,
+        "sha256": "5abc72b77a2eb51064239e49a5e90fcc9fd230fc4883a925e19461ae701ef7eb",
+        "sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "git_blob_sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/complete_peer_responsibilities"
+    },
+    "all_original13_pairs_and_all_complete_original_objects_retained_in_original_order": true,
+    "complete_external_obligation_pairs": [
+      [
+        "46028002241/1",
+        "2ccf1d251e83850428c577fd522eeadbadd53df79c6f234848ad1eb8b94ccae4"
+      ],
+      [
+        "46028184571/1",
+        "fff956cc086c8f69c7de87c2d9117792b6b1d5e1de853e59a992fb67e04b4e51"
+      ],
+      [
+        "46031953783/1",
+        "97ae6ab8a2a19a07b134efc611b442d9e9113ca0b68c0cd322a45ec175d0f8fd"
+      ],
+      [
+        "46037017666/1",
+        "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d"
+      ],
+      [
+        "46053911348/1",
+        "8dc9d876f28ef78cc5c80279136af6f1391d3591598cdfecbcecc91aa3582a6d"
+      ],
+      [
+        "46062343475/1",
+        "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f"
+      ],
+      [
+        "46076669320/1",
+        "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f"
+      ],
+      [
+        "46079535427/1",
+        "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f"
+      ],
+      [
+        "46084442413/1",
+        "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f"
+      ],
+      [
+        "46090913581/1",
+        "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec"
+      ],
+      [
+        "46094430214/1",
+        "9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699"
+      ],
+      [
+        "46096380016/1",
+        "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec"
+      ],
+      [
+        "46099929359/1",
+        "7883d9fac2422509e5577fada1ed58f7a0d83f76031d00f3abf9aa41d5159910"
+      ],
+      [
+        "46103106086/1",
+        "e1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd"
+      ]
+    ],
+    "external_obligation_count": 14,
+    "added_complete_external_peer_record": {
+      "run_id": "46103106086",
+      "run_attempt": 1,
+      "run_attempt_key": "46103106086/1",
+      "job_id": "140849792210",
+      "official_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46103106086",
+      "official_head_sha": "a6c9c1011551cb0c84c458e603b6b691f66313f4",
+      "official_started_at": "2026-11-28T03:29:40Z",
+      "official_status_at_indicated_record": "in_progress",
+      "official_conclusion_at_indicated_record": null,
+      "declared_driver_source_sha256": "e1d3b06875496ba2555d20e2e1e96bfa92c420c15dc7276788160b44fca337cd",
+      "declared_driver_source_is_not_observed_child_source": true,
+      "complete_official_launch_and_source_note": {
+        "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md",
+        "name": "2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md",
+        "bytes": 30859,
+        "sha256": "27a7d30af5251b30f8a98c254a25f648d4800b1fa1ca38070047a7b553c0976d",
+        "git_blob_sha": "ed76ddec90e5d43fe19a513bf7497b372d57f8d0",
+        "fixed_publication_commit": "4f80adb37306bd625c5e0ab7e4d1ce02dc4a8c65"
+      },
+      "complete_scientific_parameter_record": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-science-complete-ready.json",
+        "name": "fixed-fejer-r725-bhalf-science-complete-ready.json",
+        "bytes": 72545,
+        "sha256": "fb33c7620b05193b54e38a39e97f7efc0fa7149bcbc720d04db1c041aeda0d63",
+        "sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+        "git_blob_sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "complete_pure_parameter_record": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-pure-complete-ready.json",
+        "name": "fixed-fejer-r725-bhalf-pure-complete-ready.json",
+        "bytes": 58721,
+        "sha256": "29254c1a4a08cbb508266d9ac4c88178a6a7e2b5413428d31461056fe8939ccf",
+        "sha": "b3d57832327fccecf3afb4f211006125f331e271",
+        "git_blob_sha": "b3d57832327fccecf3afb4f211006125f331e271",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "complete_parameter_delivery_record": {
+        "name": "fixed-fejer-r725-bhalf-complete-parameter-delivery.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json",
+        "bytes": 19108,
+        "sha256": "a02d1140c3cc83b9e70cde8a264e68707db5ef9da49710826a14a099b6eeb8f5",
+        "git_blob_sha": "c5edf0dd581dcba4af3d6c8b8c97483d1d089de6",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "actual_scientific_source_commit": null,
+      "actual_launcher_source_sha256": null,
+      "actual_current_input_file_records": null,
+      "actual_model_identity_sha256": null,
+      "actual_current_full_point_sha256": null,
+      "actual_complete_scientific_report_sha256": null,
+      "actual_final_checkpoint_sha256": null,
+      "actual_complete_thirteen_member_parent": null,
+      "actual_root_packet_sha256": null,
+      "actual_snapshot_identity_sha256": null,
+      "complete_typed_or_accepted_history_available": false,
+      "unknown_history_is_not_empty": true,
+      "not_a_typed_transfer_or_restart_input": true,
+      "only_external_documented_obligation": true,
+      "no_original_five_peer_CLI_pair_added_removed_or_relabelled": true,
+      "same_source_code_does_not_imply_same_seed_model_point_or_field": true,
+      "no_progress_point_or_reference_input_treated_as_complete_field": true
+    },
+    "original_supported_five_CLI_pairs_exactly_preserved": true,
+    "supported_CLI_peer_count": 5,
+    "exact_complete_original_CLI_history": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-science-complete-ready.json",
+        "name": "fixed-fejer-r725-bhalf-science-complete-ready.json",
+        "bytes": 72545,
+        "sha256": "fb33c7620b05193b54e38a39e97f7efc0fa7149bcbc720d04db1c041aeda0d63",
+        "sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+        "git_blob_sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/steps/0/args"
+    },
+    "current_external_metadata_does_not_enter_typed_memory_or_restart": true,
+    "unknown_history_is_not_empty": true,
+    "source_equality_does_not_make_a_different_width_field_transferable": true,
+    "original_missing_parent_unknown_typed_obligations_not_discarded": true
+  },
+  "complete_display_correspondence": {
+    "complete_parent_display": {
+      "complete_file": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "name": "fixed-fejer-r725-bhalf-complete-parameter-binding.json",
+        "bytes": 47684,
+        "sha256": "5abc72b77a2eb51064239e49a5e90fcc9fd230fc4883a925e19461ae701ef7eb",
+        "sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "git_blob_sha": "b81215714615e663d537f7d0d8c7341aadb453c9",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "json_pointer": "/complete_display_correspondence"
+    },
+    "complete_original_display": {
+      "complete_file": {
+        "role": "display",
+        "name": "fixed-fejer-paired-halfwave-bhalf-complete-display-correspondence.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bhalf-complete-display-correspondence.json",
+        "bytes": 30196,
+        "sha256": "472e385c78f39a2b3bb582a162b642e2e349696708aa8b3d130e0a1fa2c8403c",
+        "git_blob_sha": "4d15d836b40ba5547542e7468dfe0aff52d07934"
+      },
+      "json_pointer": ""
+    },
+    "current_live_mapping": {
+      "fixed-fejer-r725-bfiveeighths-first/actual-normal-evaluation-progress.json": {
+        "phase": "phase",
+        "at": "recorded_at_utc",
+        "point": "current_full_point_sha256",
+        "cached_angle_roots": "current_cached_angle_roots",
+        "closure_original_returns": "closure_counts.original_returns",
+        "closure_logical_failures": "closure_counts.logical_failures"
+      },
+      "fixed-fejer-r725-bfiveeighths-first/actual-mathematical-progress.json": {
+        "math_at": "recorded_at_utc",
+        "math_event": "event",
+        "math_driver": "driver_source_sha256",
+        "math_model": "model_identity_sha256",
+        "math_source": "source_sha256",
+        "math_target": "mathematical_target_identity_sha256",
+        "initial_point": "initial_statistics.point_sha256",
+        "initial_Phi": "initial_statistics.Phi",
+        "initial_Gram": "initial_statistics.max_relative_gram",
+        "initial_geometry_point": "initial_geometry.point_sha256",
+        "initial_violation": "initial_geometry.positive_physical_g",
+        "initial_geometry_complete": "initial_geometry.complete",
+        "current_point": "current_statistics.point_sha256",
+        "current_Phi": "current_statistics.Phi",
+        "current_Gram": "current_statistics.max_relative_gram",
+        "current_geometry_point": "current_geometry.point_sha256",
+        "current_violation": "current_geometry.positive_physical_g",
+        "current_geometry_complete": "current_geometry.complete",
+        "current_state": "current_state",
+        "trial_point": "latest_trial.point_sha256",
+        "trial_Phi": "latest_trial_statistics.Phi",
+        "trial_Gram": "latest_trial_statistics.max_relative_gram",
+        "trial_geometry_point": "latest_trial_geometry.point_sha256",
+        "trial_violation": "latest_trial_geometry.positive_physical_g",
+        "trial_geometry_complete": "latest_trial_geometry.complete",
+        "trial_accepted": "latest_trial.accepted",
+        "accepted_directions": "accepted_direction_count",
+        "complete_report": "report_complete",
+        "stop_reason": "stop_reason",
+        "observer_failures": "actual_counts.observation_failures",
+        "current_g_reach": "current_geometry.physical_g_by_family.reach",
+        "current_g_body_diameter": "current_geometry.physical_g_by_family.body_diameter",
+        "current_g_distance_plus": "current_geometry.physical_g_by_family.distance_plus",
+        "current_g_distance_minus": "current_geometry.physical_g_by_family.distance_minus",
+        "current_g_cap_diameter": "current_geometry.physical_g_by_family.cap_diameter",
+        "current_g_height_floor": "current_geometry.physical_g_by_family.height_floor",
+        "previous_completed_trial_point": "last_completed_trial.point_sha256",
+        "previous_completed_trial_g": "last_completed_trial.actual_positive_physical_g",
+        "previous_completed_trial_accepted": "last_completed_trial.accepted",
+        "previous_completed_trial_maximum_families": "last_completed_trial.geometry.maximum_physical_families",
+        "previous_completed_trial_Phi": "last_completed_trial.statistics.Phi",
+        "previous_completed_trial_Gram": "last_completed_trial.statistics.max_relative_gram",
+        "current_K": "current_geometry.maximum_absolute_principal_curvature",
+        "current_D_point_lower": "current_geometry.diameter_point_lower",
+        "current_K_cell": "current_geometry.returned_locations.curvature.cell",
+        "current_K_u": "current_geometry.returned_locations.curvature.u",
+        "current_K_phi": "current_geometry.returned_locations.curvature.phi",
+        "current_K_branch": "current_geometry.returned_locations.curvature.branch",
+        "current_K_s": "current_geometry.returned_locations.curvature.s",
+        "trial_K": "latest_trial_geometry.maximum_absolute_principal_curvature",
+        "trial_K_cell": "latest_trial_geometry.returned_locations.curvature.cell",
+        "trial_K_u": "latest_trial_geometry.returned_locations.curvature.u",
+        "trial_K_phi": "latest_trial_geometry.returned_locations.curvature.phi",
+        "trial_K_branch": "latest_trial_geometry.returned_locations.curvature.branch",
+        "trial_K_s": "latest_trial_geometry.returned_locations.curvature.s",
+        "trial_alpha": "latest_trial.alpha",
+        "trial_phase": "latest_trial.phase",
+        "current_distance_plus_phi": "current_geometry.returned_locations.amplitude.distance_plus.location.phi"
+      }
+    },
+    "full_parent48_and_additional16_pairs_preserved": true,
+    "all_original64_pairs_unchanged_except_output_namespace": true,
+    "live_counts": {
+      "normal": 6,
+      "mathematical": 58,
+      "total": 64
+    },
+    "formal_counts": {
+      "science": 458,
+      "pure": 445
+    },
+    "formal_pair_values_unchanged": true,
+    "location_missing_null_or_original_observation_error_retained": true,
+    "original_scalar_only_protocol_retained": true,
+    "compact_public_limit": 16384,
+    "pretty_progress_limit": 32768,
+    "queue_and_index_limit": 95000,
+    "no_new_F_J_root_or_location_evaluation_added": true
+  },
+  "actual_future": {
+    "actual_run_id": null,
+    "actual_run_attempt": null,
+    "official_head_commit": null,
+    "actual_scientific_source_commit": null,
+    "actual_complete_current_input_file_records": null,
+    "actual_material_binding_file_sha256": null,
+    "actual_model_identity_sha256": null,
+    "actual_current_full_point_sha256": null,
+    "actual_complete_report_sha256": null,
+    "actual_final_checkpoint_sha256": null,
+    "actual_complete_thirteen_member_parent": null,
+    "actual_root_packet_sha256": null,
+    "actual_snapshot_identity_sha256": null,
+    "actual_accepted_or_typed_history": null,
+    "actual_geometry_or_feasibility": null,
+    "actual_continuous_normal_or_metric_or_closed_evidence": null
+  },
+  "accurate_descendant_scope": {
+    "complete_run26_accurate_normal_geometry_R723_delivery": {
+      "name": "fixed-fejer-r725-complete-accurate-normal-geometry-R723-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-complete-accurate-normal-geometry-R723-delivery.json",
+      "bytes": 50664,
+      "sha256": "10e51880af1c77a819b1ccd26ddd3212bd65eaa3a6cb230ae2114d866d120b2c",
+      "git_blob_sha": "c9479d66f1bddbd7a8aa03f054d606db354ec580",
+      "role": "complete_accurate_normal_geometry_R723_delivery"
+    },
+    "complete_run26_accurate_R716_and_mesh_delivery": {
+      "name": "fixed-fejer-r725-complete-R716-and-phase-mesh-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-complete-R716-and-phase-mesh-delivery.json",
+      "bytes": 82506,
+      "sha256": "c6e2fb1d278275f6742766c5cfe3e9f74fd0a38bbead028f0f88d4feab257bf2",
+      "git_blob_sha": "589d95782627e6d8c72452b4c50089ff3a4a20cc",
+      "role": "complete_R716_mesh_delivery"
+    },
+    "actual_current_seed_definition_drives_b_support_central_cuts_and_mean": true,
+    "R725_accurate_runtime_does_not_hardcode_run26_namespace_or_bhalf": true,
+    "all_source_model_point_target_snapshot_and_whole_file_guards_preserved": true,
+    "existing_run26_full_accurate_parameter_plans_are_namespace_specific": true,
+    "run27_requires_its_own_complete_normal_geometry_R723_P_U_and_mesh_parameter_paths": true,
+    "run26_report_sha_or_certificate_cannot_be_reused_as_run27": true,
+    "only_science_and_pure_parameters_are_prepared_in_this_delivery": true,
+    "actual_run27_accurate_field_report_or_fee_available": false
+  },
+  "scientific_scope": {
+    "public_Actions_only": true,
+    "independent_entry_reconstructs_own_two_complete_reference_inputs": true,
+    "all_original_variables_domains_stages_line_trials_tolerances_iterations_and_budgets_retained": true,
+    "other_runner_return_not_a_new_admission_gate": true,
+    "new_AST_fixture_replay_benchmark_or_review_gate": false,
+    "raw_arrays_reports_packets_meshes_and_checkpoints_only_runner_scratch": true,
+    "refs_and_queues_owned_by_root": true
+  },
+  "complete_steps_preservation": {
+    "science": {
+      "parent": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-science-complete-ready.json",
+        "name": "fixed-fejer-r725-bhalf-science-complete-ready.json",
+        "bytes": 72545,
+        "sha256": "fb33c7620b05193b54e38a39e97f7efc0fa7149bcbc720d04db1c041aeda0d63",
+        "sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+        "git_blob_sha": "ebde4051043cfbf7524244dee27f2e85589a562c",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "parent_json_pointer": "/steps/0",
+      "argv_words": 157,
+      "formal_fields": 458,
+      "live_fields": 64,
+      "numeric_changes": [
+        {
+          "flag": "--seed-boundary-total-length",
+          "zero_based_value_index": 113,
+          "original_value": "1/2",
+          "current_value": "5/8"
+        }
+      ]
+    },
+    "pure": {
+      "parent": {
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r725-bhalf-pure-complete-ready.json",
+        "name": "fixed-fejer-r725-bhalf-pure-complete-ready.json",
+        "bytes": 58721,
+        "sha256": "29254c1a4a08cbb508266d9ac4c88178a6a7e2b5413428d31461056fe8939ccf",
+        "sha": "b3d57832327fccecf3afb4f211006125f331e271",
+        "git_blob_sha": "b3d57832327fccecf3afb4f211006125f331e271",
+        "fixed_publication_commit": "f44e6c09210e7b616775a966ce89b03ccda25b9d"
+      },
+      "parent_json_pointer": "/steps/0",
+      "argv_words": 7,
+      "formal_fields": 445,
+      "live_fields": 0,
+      "numeric_changes": []
+    },
+    "full_inverse_step_object_equals_original_parent": true
+  }
+}

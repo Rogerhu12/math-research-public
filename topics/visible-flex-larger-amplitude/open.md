@@ -119,7 +119,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 46099929359/1；11e66/accepted1，所报Phi/Gram/六g同22首接受但point不同；K12.318076128726846/cell885/phiπ/2、s实际null；仍不可行。 |
 | [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725 b1/2/ε1/8；46103106086两input0，科学PID3811/source12b76b8；新model/场未返。 |
 
-统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，宽度不推曲率/reach单调性。27准备同R725源b5/8完整参数，其余原预算保；必须实际重算均值/校准/几何。
+统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，宽度不推曲率/reach单调性。[27五件全参](computations/fixed-fejer-r725-bfiveeighths-complete-parameter-delivery.json)228626B已刊：同R725源仅b5/8，原预算及5CLI+14external保；均值/校准/几何须真重算。
 
 ### 完整机制及后继
 
