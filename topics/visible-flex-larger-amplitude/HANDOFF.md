@@ -59,6 +59,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [53/R790](notes/2026-11-28-run53-original-shared-rim-budget-with-R790-transport.md)：27源保44完整原22源/五粗两族各4/8/16共11stage及双全末网；同12物理jet加4逆坐标、原精度/全恢复，真实加速和点待返；44/45不动。
 <!--r780-publish-->R780 [每次双README真读](notes/r780-exact-crowns-normalized-rolls-46183309461-1-reads.json) 435cc23908c804cb9cb1b6846d3f44752e3301ef
-<!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 8b7e069ba67b38cbad5454a391f18a9bebb5d4f5
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull c890658b8b9754fff73939c6a58afb1f61ee6729
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull e22ab3ba8d5c2f29f41200b1f0e2d743e3806103
+<!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull bec3acef369ad378adbd911426e5f1152a8a3152
