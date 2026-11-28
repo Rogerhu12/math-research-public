@@ -42,7 +42,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-r275-round --> [R275](results/R275-exact-mixed-gaussian-round-seed-with-two-true-ports-and-reach.md)混合K圆面；[R276](results/R276-finite-order-parabolic-crossings-and-round-amplitude-degeneracy.md)有限阶平尾的正则一阶退化，原非圆源及真实无限振荡尾继续。
 
-<!-- 2ecf-r278-Minkowski --> [R278](results/R278-R262-true-convex-central-support-and-noncircular-width-continuation.md)原真实中央全角凸、等周长及真实两方向宽差；双锁完整中央的原g加密继续。
+<!-- 2ecf-r278-Minkowski --> [R278 双锁后继](notes/2026-11-28-2ecf-r278-locked-center-nested-fields-and-two-radial-targets.md) 固定真实中央与原 g 的 48 段移位峰 2.289e−4。三次新径向度量分别登记，大步保双方向宽差。
 
 旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
@@ -56,4 +56,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:08:29 UTC；已读main `bca9cbaabd06162885a57ca0ad75e88382b37f4f`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:38:34 UTC；已读公开 main `5cb0dffd8314d25c5efafa6941baba101a777a66`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:38:45 UTC；已读公开 main `8e507b14177ed3797ea9523dce26007d7c1bb5df`，根/课题 README 逐差无变化。
