@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 |---|---|
 | [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled；末2b1c/accepted3/g2.0441496553824883，8fb0仅统计。 |
 | [19](notes/2026-11-28-run19-complete-return-normal-fee-failure-and-continuation.md) | 20d617/accepted4/g.9662472339877322；science/pure0，N1无report、原因未知；官方success只是终态。 |
-| [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；e70a/accepted3/g.9658357818598327，仍不可行。 |
+| [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | μ.001；e70a/accepted3/g.9658357818598327；a6b304仅Phi3824.946159242409/Gram.6460490804199277。 |
 | [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；5f731第四拒，379965仅统计。 |
 | [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；97fbb/accepted1/reachg.5294703284893127；e906e仅统计。 |
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 全波b1/2恢复policy；d86d/accepted1/g.9679630392005256；87c076仅统计。 |

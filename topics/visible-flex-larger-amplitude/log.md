@@ -522,3 +522,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:38:39 UTC — 25第二真实恢复接受与完整六族
 
 25第二真实0927d接受、Phi681.6473711639321/Gram.40616528955370923/reachg.5237169415657044，六族仍不可行。K12.271500016996072/Dlower4.117173775187578，cell885/u.9662347571015759/phiπ/2/branch1/s=null；下一e147626只统计。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`a57fe50da6fc04ccfc6dd05f36f38087839fbc2c`无变（非pull）。
+
+## 2026-11-28 04:38:45 UTC — 20下一完整试步统计实际返回
+
+20下一a6b304仅统计Phi3824.946159242409/Gram.6460490804199277；当前e70a/accepted3原六族，至04:33:10无下一几何或接受、child未自然返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`fb040ecd50a76ddefcba46ff23606af3ca3fd8dd`无变（非pull）。
