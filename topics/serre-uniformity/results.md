@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1152（已证明）**：[原全局中心常数的权八Frobenius读数](results/R1152-original-global-Heisenberg-weight-eight-Frobenius-readout.md)原Θ∞/finiteFL与MT(Z)同源、Frobenius方向及Ihara完整词计算已付；rs非零时κ是1+ζp,1(3,5)/(5ζp,1(3)ζp,1(5))整个整比值的约化。未付其实际值或原F0中央组合非零，继续。
+
 - **原Gaussian minor的明确有限Gauss来源（已证明）**：[R1135 §17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)同一Hasse/伴随两解、两终止支与四个Y-residue尺度全付；Δ_low=8(3b_Nc_N−t_Nd_N)/(4455 r_G β_G²)，Q⁶真多项式及顶项单位。完整Wronskian余项保留，指定det非零继续。
 
 - **原Gaussian forcing到指定moment行列式（已证明）**：[R1135 §16](results/R1135-original-Gaussian-low-row-fiber-constraint.md)安全伴随ℓ完整支付原共振低jets、Frobenius常数避让和曲率消去；Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)仅用原E8及≤p−5 jet。端点单位已核，指定det非零继续。

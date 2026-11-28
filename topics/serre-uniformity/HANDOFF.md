@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：521a0c47b70781245f898392b8d7377b4c78cf5a**（2026-11-28 08:42 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 08:28 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：0f7fb164251c366da78ab0116968ce9acd0b0e35**（2026-11-28 08:50 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 08:28 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 08:28:21 Asia/Taipei，Actions run46088030307/job140802126576，blob:none浅clone真实pull --rebase至9055c2a9，两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤09:18、pull≤09:28。本地08:27仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -36,7 +36,9 @@ R1149 §§11–16付u=pt整Taylor、真实finite q_t/λ/binomial及F0三槽：a=
 
 [R1148 §§10–11](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)以已刊Soulé/Kurihara付p>C_cyc=exp(9^(224·9⁴))的全global H¹L3/5/9分别由原γ3/5/9生成。全部pairs=(aγ3,bγ5)，Θ与Ξ共享γ5的实际p⁵群给[M:Q]=(p−1)p⁵；共同cusp排除恰κΘ0/κΞ非零，密度1/p²。未宣loc_p单位，Bp−3/5/9局部门仍保。
 
-R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)，故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ。全部中央值ℓ>p⁸时在affine上出现；共同cusp排除素ℓ>4D_p²（充分p⁸/144）仍有同一个affine点兼容全部labels并升Qℓ，D_p=g+p(p−1)(g−1)。继续小素真实值/p-local，不能再用大Chebotarev存在代affine空。
+R1148 §12付rank-p character计数及ℓ>4D_p²的共同affine lift，D_p=g+p(p−1)(g−1)。大Chebotarev存在不能代affine空；完整界/source沿open，继续小素实际值/p-local。
+
+R1152付原Θ∞与MT(Z)权八商同源，finiteFL坐标逐pⁿ兼容；rs非零时κ=z/(rs)是整个整比值1+ζp,1(3,5)/(5ζp,1(3)ζp,1(5))的约化。正向Φp,1=τ(p)φ(1)，Ihara词X⁴YX²Y准确为5h−5ab；缩放全部抵消，未宣period单位/κ固定值。继续该指定读数与原F0组合，零r/s仍按R1151。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
