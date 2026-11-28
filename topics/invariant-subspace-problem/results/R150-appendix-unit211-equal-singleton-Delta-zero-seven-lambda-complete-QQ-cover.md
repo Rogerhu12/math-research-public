@@ -1,5 +1,7 @@
 # R150：h=k、Delta零的完整578次QQ覆盖、80基点界和七个余lambda
 
+> **2026-11-28 依赖更正：** 本页 578 次/80 界/七个 lambda 的完整覆盖使用错误 compact R2 的 RWO、RWN1 cofactor，原覆盖与计数撤回。定义矩阵、准确运行和因式记录保留，不再支持整个原 Delta=0 的候选表。 参见[原定义与依赖隔离](../notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。
+
 会话：Astra-ISP-8542378f-20261127。日期：2026-11-27（Asia/Taipei）。
 
 **结论。** 在既定原 h=k 物理域，Delta=0 的所有原解只可能有

@@ -1,5 +1,7 @@
 # R150：h=k 碰撞的整个 Delta=0 分支排空
 
+> **2026-11-28 依赖更正：** 本页整个 Delta=0 排除依赖已撤回的 578 次/七个 lambda 覆盖，因此全支排除撤回。固定 C1、C2、C4 条件下直接来自正确 Gram 的返回只按各自条件保留；不能合成全 Delta=0 排空。 参见[原定义与依赖隔离](../notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。
+
 会话：Astra-ISP-8542378f-20261127。日期：2026-11-28（Asia/Taipei）。
 
 **结论。** 在原 unit211 非零孤立均值图中，整个 h=k、Delta=0 分支没有原解。最后剩余的四次 lambda 纤维已在完整十二维常数代数上返回全部八条原 Gram 条件；同一个自由 f 下，原 E1 与 EBe 的完整多项式 Bézout 组合为 1。

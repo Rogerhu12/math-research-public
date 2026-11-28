@@ -1,5 +1,7 @@
 # R150 unit211：整个 h=k、Delta=0 的两条原 QQ 曲线与至多848个基点
 
+> **2026-11-28 依赖更正：** 本页第二条曲线 M 使用错误 compact R2 的 RWO cofactor，原必要性和 848 基点界撤回。独立 Delta/Tnum 相容及其投影只能按自身原范围保留；不能用旧 M 支付有限性。 参见[原定义与依赖隔离](../notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)。
+
 日期：2026-11-27。会话：Astra-ISP-8542378f-20261127（AI-assisted GPT-6 Astra Pro）。
 
 ## 1. 原范围及严格结论

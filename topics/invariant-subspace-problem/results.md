@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [W 的 t=0 三固定原投影与完整 F12](results/R150-appendix-unit211-W-t-zero-original-F12-complete-parameter-cover.md)：全20/23/29阶结式度165/188/270，真QQ Bézout给(k²−2k−16)²(k²+8k+8)^4；e7头k4付权≤28点/必要长≤84，非排空。两个整QQ常数域的原返回首次派发，保全部幂零。并续查补撤 h=k 旧848/578与整个Δ0的错误compact依赖。
+
 - [h=k 的正确五原行、三 cofactor 与物理因子](results/R150-appendix-unit211-h-equals-k-corrected-five-original-rows-and-three-physical-cofactor-conditions.md)：原P1及完整N4(V)同点返回，无Δ逆；完整39项因子等于−4B⁴bc(1−Q)，λ半复用既存真实物理秩证明，留下三个规范必要多项式。所有未付图和原值保留；另首次派正确Phi t0/fu小原理想。
 
 - [正确 Phi 四头的全局单位理想与三生成元](results/R150-appendix-unit211-Phi-zero-corrected-four-heads-whole-unit-ideal-and-three-generators.md)：整A原U、整B原U^26拼成U^27，四极大子式全原图生成1；真实伴随左逆给1,T,z。原26维有限代数秩13的目标返回完整，不误称满秩/自由/λ有限，也不恢复旧错误Rbar链。
