@@ -31,7 +31,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c0bbc76844845379771d5e5700340909084d9100
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull be2b35c6c1aa4b2671d45fd7431ac011cb9c73f7
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 32c4756e267886d26cba6a71939266ffbce4ff4f
 
 <!--r777-publish-->R777 [全部返回](notes/r777-bent-cap-whole-46179547740-1-index.json) [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 52937a89ed7db0955993c22230239f8a414d5651
@@ -59,3 +58,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R787](notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)：新g真长左壁/两整曲帽/四全返回板；初reach>.1319、D<4.39，guide全像held>.90，余下曲肩g/晚全管未付。28源含真cap逆二jet，原四族×三层7+6相/13图/全材料路径正常发布。
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull be92d2ec03f44f5b4809c86ef0c3b49818a4b9d1
 <!--r787-publish-->R787 [每次双README真读](notes/r787-preloaded-long-wall-fits-46185392774-1-reads.json) 6906cfb8d23d36e12baa7f380f3f29a3999286f6
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 1f705887c42d784b73f3f67e7831d1e0681125f5
