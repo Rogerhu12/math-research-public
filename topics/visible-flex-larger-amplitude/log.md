@@ -486,3 +486,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:25:07 UTC — 26初始六约束与真实曲率热点返回
 
 26初始六g实返，reachg.006249035762618371、distplus.13346402986277572，K8.096406380355797/Dlower4.109844083356359；cell886/u.8306046932331322/phiπ/2/branch1/s=null。accepted0，7722d仅alpha1/restoration trial-start；未达标，不继旧模型证书。open§1–6原23359B/SHA1be136a8原字保，§7先前全部措辞保8c991固定原件。04:17真实重置仅一次executor探测失败，非pull。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md)。双README云核至`c931b7faabb17c80bb4eb2305f2ed0905401f101`无变（非pull）。
+
+## 2026-11-28 04:25:49 UTC — ret67十一份旧准备描述完整可逆保全
+
+11原件毛413350B，五新件136187B，净277163B；四完整canonical留树，35完整参数/资源/失败与旧科学输入责任保。两源准备、七几何准备和两旧发布清单逐字重构；prepare-only不冒实际场，三类原exit1照保。固定ca7403a6d766ac7ddeb9af2f37b3f5143021ff64与每原blob整恢复，旧reader先恢复原路径，不以v2或别场替原。科学源/输入/raw/checkpoint/报告/活任务不退，无科学重跑或新增门。双README云核至`74ddb96741637d7a3618afe7bf5f4cc87d754318`无变（非pull）。
