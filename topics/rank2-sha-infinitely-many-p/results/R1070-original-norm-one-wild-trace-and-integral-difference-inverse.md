@@ -412,6 +412,127 @@ v_p\mathcal A_p(t_\nu)=2v_p(x\mathscr L_{34,\eta}(x)).
 $$
 连同 $(X\mathscr L)'(0)=j_{34}/(d\log_p\eta)$，已把原中央与单 Hall 的同一固定质量放进上述新有界测度的不同取值。首层比较本身不能把较高导子的有限样本当作 Rubin 整基的整个 family，也未将 $\mathscr L$ 的 Iwasawa 不变量认作 $\mathcal A_p$ 的不变量。
 
+## 15. 两模型的同电荷规范与真实参考整单位
+
+本节起谱变量一律为 $X$。原第一来源 $S_{17}$、$m=34$ 在 $E_{17}$，参考 $\Theta_2=\sigma_1^2x_1$ 在 $E_1$。对各自模型的严格 LT 坐标分别记 $v_b,L_b,T_{g,b},\mathfrak C_{b,m}$。选 R1067 既定的模型同构，$\vartheta=17^{1/6}$，$z_1=\vartheta z_{17}$。在当前未分歧二次局部域中 $\vartheta$ 为单位：$\mathbf F_p^\times$ 均为 $\mathbf F_{p^2}^\times$ 的六次幂，因为 $6\mid p+1$，再用 Hensel；六个可能根也全在该域。原指定嵌入给其中既定一根。以 $\iota(v)$ 表示模型同构后的实际 $v_1$ 坐标，线性项为 $\vartheta v$，但不以线性截断替换它。由 $\sigma_{17}(z)=\vartheta^{-1}\sigma_1(\vartheta z)$，对完整 $\mu_d$ 中央化再比较 $T_g$，得到
+$$
+T_{g,17}(v)=T_{g,1}(\iota(v)),\qquad
+\frac{L_1(\iota(v))}{L_{17}(v)}=\frac{\vartheta v}{\iota(v)} .
+$$
+这里 $T_g(v)$ 简记其原 $u(v)$ 代入。$\iota$ 与各 CM 标量交换；这是几何同构，仍在两套严格坐标中分别作代换。
+
+取 R1062§13 的准确范数 $N(a)=17$ 的原局部 CM 单位，置
+$$
+\Psi(W)=([a]\iota(v))^d,\qquad
+D_a(W)=\frac{L_1([a]\iota(v))}{L_{17}(v)^{17}} .
+$$
+$D_a,D_a^{-1}\in1+W\mathcal O[[W]]$：先在 $E_1$ 用 R1062(G35) 的范数 $17$ 形式 Miller 比，乘完整的 $T_{g,1}$ 比，再用上式的 $(\vartheta v/\iota)^{17}$，最后按 $\mu_d$ 不变下降。$\Psi$ 有整逆。等电荷关系 $2N(a)=34$ 给
+$$
+ T_{17,34}(D_a^2 f\circ\Psi)
+=D_a^2 (T_{1,2}f)\circ\Psi .
+$$
+这是同一局部几何标记下的函数恒等。逐项作用于 $\mathsf D^n1$，再取真实闭盘极限，得
+$$
+\mathfrak C_{17,34}^{-1}(D_a^2 f\circ\Psi)
+= V_a(X)\mathfrak C_{1,2}^{-1}f(X),\qquad
+V_a(X)=\mathfrak C_{17,34}^{-1}(D_a^2)\in1+X\mathcal O[[X]] .
+$$
+右侧的乘法在谱变量中。证明中使用 $\mathfrak C^{-1}\mathsf D=X\mathfrak C^{-1}$，未使用 $\mathfrak C$ 具有乘法性。
+
+记 $f_{b,m}(v)=L_b(v)^{-m}A_{b,m}(z(v))=v^m T_{g,b}^{-m}\phi_{b,m}$，$\bar f_{b,m}=\frac1d\sum_{\zeta\in\mu_d}f_{b,m}(\zeta v)$，横线在此专指有限角平均。原 $A_{17,34}=S_{17}, A_{1,2}=\Theta_2$。R663(9)–(11)给 $\bar f_{17,34}=W\mathcal B_{34}$。而 $f_{1,2}=v_1^2T_{g,1}^{-2}x_1\in1+v_1\mathcal O[[v_1]]$，故 $\bar f_{1,2}\in1+W_1\mathcal O[[W_1]]$。令
+$$
+\mathscr E_2=\mathfrak C_{1,2}^{-1}\bar f_{1,2}\in1+X\mathcal O[[X]],\qquad
+\mathscr J(X)=\frac{X\mathscr L_{34,\eta}(X)}{V_a(X)\mathscr E_2(X)}.
+$$
+因此 $\mathscr J'(0)=j_{34}/(d\log_p\eta)$，分母是全部层上的实际整单位。
+
+## 16. 所有 $p^{2i}$ 导子的 absolute Klein 采样
+
+以下只用 $b=17,m=34$ 和 $b=1,m=2$。两模型各取 R716/R1067 自己的 $\Omega_{{\rm CM},b}$、$\mathfrak k_b$ 和固定 $\phi_{b,m}$。取一个 primitive 整数标签 $v_0\bmod p^i$，$T=P(\Omega_{{\rm CM},b}v_0/p^i)$。以下记 $v_T$ 为严格 LT 坐标，避免与整数标签混用。令
+$$
+k_b(v_0)=\mathfrak k_b(\Omega_{{\rm CM},b}v_0/p^i),\qquad
+\mathcal A_{b,m}(v_0/p^i)= k_b(v_0)^m\phi_{b,m}(T).
+$$
+$k_b(v_0)$ 为代数数且 $v_p(k_b(v_0))=v_p(v_T)$。为直接支付，取奇整数 $n=1+2p^i$，则 $[n]T=T$，原 $\psi_n(T)=k_b(v_0)^{1-n^2}$ 乘 R703(2) 的根单位（准周期公式在 $p^i$ 分母逐字成立）。非零 $\psi_n(T)$ 代数，故 $k_b(v_0)$ 代数；同一个整 Miller 式给 $v_p(\psi_n(T))=(1-n^2)v_p(v_T)$，因为 $n$ 在 $p$ 为单位，非零核点均不落入形式盘。所称估值随即得到。
+
+对任意 $h\in\mathcal O_{K_p}^{\,1}$，选 $\widehat h\in\mathbb Z[\omega]$ 满足 $\widehat h=h\bmod p^{2i},\ \widehat h=1\bmod2$。对 $hT$ 以上标记 $k_b(\widehat h v_0)$，保完整代表。准确有
+$$
+U_{h,b}(W_T)=
+\frac{v_T}{T_{g,b}(T)k_b(v_0)}
+\frac{T_{g,b}(hT)k_b(\widehat h v_0)}{v_{hT}} .
+$$
+先以 $h=A/B,\ A,B\in\mathcal O_K,\ N(A)=N(B),\ A=B=1\bmod2$、$p$ 处为单位证明。取 $Bx=v_0\bmod 2p^{2i}$。等范数给 $\psi_A(T_x)/\psi_B(T_x)=k_b(Ax)/k_b(Bx)$，两边坐标及完整 $T_g$ 附因子即为上式。标签差 $2p^{2i}\mathcal O_K$ 不改 Klein 值，因为相应准周期的半特征及指数均为1。一般 $h$ 由此等范数有理元逼近：局部 Hilbert 90 在此可直接用 $c/\bar c=h$，$h\ne-1$ 时取 $c=1+h$ 并除去共同有理 $p$ 次幂，$h=-1$ 可取 $c=\delta$；再用 CRT 取 $c_n=1\bmod2$、$c_n\to c$ 且 $p$-单位。$h_n=c_n/\bar c_n$ 充分近时稳定同一个模 $2p^{2i}$ 代表类。左侧由原形式比逐系数连续及整尾在固定 $v_T$ 一致收敛，故上式对 $h$ 成立。这里只使用 $T_g$ 整单位值，不需要预设高层 $T_g$ 是代数数。
+
+设 $H=p^{i-1}$、$\lambda$ 是所在 $\eta$ 轨道允许的本征值。对 $h=\zeta\eta^l,\ \zeta\in\mu_d,\ 0\le l<H$ 定义真正完整原和
+$$
+\mathscr S_{b,m,i,\lambda}(v_0)=
+\sum_{\zeta,l}\lambda^{-l}\,
+ \mathcal A_{b,m}(\widehat{\zeta\eta^l}v_0/p^i).
+$$
+若将 $l$ 增加 $H$，准周期给前面已证的 $\epsilon_i=\lambda^H$，与外权准确抵消；代表模 $2p^{2i}$ 的进一步变化已在上一段支付。由于 $U_{\zeta,b}=1$，有限 $\mu_d$ 平均与上式直接给
+$$
+\ell_{\lambda,b,m}(\bar f_{b,m})
+ =\frac{1}{d}
+\left(\frac{v_T}{T_{g,b}(T)k_b(v_0)}\right)^m
+\mathscr S_{b,m,i,\lambda}(v_0).
+$$
+括号为实际 $p$ 单位；系数域中选定的所有根及准周期相位均保。此式本身不把括号称为在 $i$ 上固定的代数 period。
+
+由模型同构和 $[a]$ 把目标 $T$ 送到参考 $T'$，其标签可取 $v'_0=a v_0\bmod p^i$，因为原两周期满足 $\Omega_{{\rm CM},1}=\vartheta\Omega_{{\rm CM},17}$。$\Psi$ 映同一轨道到对应轨道；完整 $D_a^2$ cocycle 给
+$$
+\ell_{\lambda,17,34}(D_a^2 f\circ\Psi)=D_a(W_T)^2\ell_{\lambda,1,2}(f).
+$$
+特别 $\lambda$ 在两条真实向量上完全相同，含全部 $p^{2i}$ 相位而不只模 $p$ 的范数关系。取 $f=\bar f_{1,2}$ 并比较相应谱特化，$\ell_{\lambda,17,34}(1)$ 精确消去。由于 $V_a\mathscr E_2$ 是整单位且该分母非零，
+$$
+\mathscr S_{1,2,i,\lambda}(v_0')\ne0,\qquad
+v_p\mathscr J(\lambda-1)=
+v_p\mathscr S_{17,34,i,\lambda}(v_0)
+-v_p\mathscr S_{1,2,i,\lambda}(v_0').
+$$
+这里两条完整和先在同一固定标记下取比，所有剩余坐标及 $D_a$ 的确切单位性已经逐个支付。
+
+## 17. 原全局 theta 周期及所有高导子的 Rubin 估值
+
+给 $\mu_d$ 平凡、$\eta\mapsto\lambda^{-1}$ 的范数一局部角色记作 $\theta_\lambda$。它准确有导子 $p^{2i}$：$\eta$ 生成 $1+p\mathcal O$ 的范数一部分，而 $\lambda$ 阶为 $p^{2i-1}$。其余地点取同 R716§5 的紧代表延拓（类数一、全局 $\mu_6$ 上平凡）。真正的全局 Hecke twist 为 $\nu(z)=\theta_\lambda(z/\bar z)$，限制于局部范数一元时为 $\theta_\lambda^2$，同样有阶 $p^{2i-1}$。非 $p$ 的坏非分裂处整个角色仍平凡；好分裂处容许原未分歧因子。
+
+为使用 Yang 的平方公式须核对原有限向量。各模型沿 R716(21)–(28)、R1067 第一 wild 偶重数式(12)–(14)的同一极化，取 $e_v^{(m)}=\rho_p(-h_m(v/p^i))\boldsymbol 1_{\mathbb Z_p}$。这里 $h_m$ 专指这些已付的 Heisenberg 位移矩阵；其行列式为带符号的 $m$，当前 $p$ 为单位。Lagrangian 平移与调制的正交关系给 $p^{2i}$ 个不同标签的向量正交且范数1，因为内积非零恰要求两位移差的两个坐标都在 $\mathbb Z_p$。真实 Weil 协变和不变球给 $\omega(g)e_v=e_{gv}$。更换整数代表 $v\mapsto v+p^i s$ 给 $e_{p^i}(m[s,v]/2)$ 的准周期，正是以上 Klein 幅度的相位。用 $\widehat h$ 表示 $h$ 的向量时模 $p^{2i}$ 精度足够。于是
+$$
+\varphi_{b,m,i,\lambda}=
+(dH)^{-1/2}\sum_{\zeta,l}\lambda^{-l}
+      e^{(m)}_{\widehat{\zeta\eta^l}v_0}
+$$
+恰有范数1；$dH$ 项为不同 $v\bmod p^i$。在 $p$ 的整个紧范数一群上本征字符为 $\bar\theta_\lambda$。其在生成元 $\eta$ 的本征值为 $\lambda$，在 $\mu_d$ 为1，末端相位由 $\epsilon_i=\lambda^H$ 支付。连续性覆盖整个群。非零单位向量给原 Hermitian 类的局部 dichotomy。
+
+分母从 $p$ 改为 $p^i$ 不改 R716§3.1 非 $p$ 处的整性：在 $3$、$17$、其余奇处 $p^{-i}$ 为单位，在 $2$ 处仍为奇单位并保持平移/调制的原同奇偶条件。故所有非 $p$ 原 Schwarz 向量、绝对 splitting 及有理 Heisenberg 换元保持。无穷处仍为两条原零阶 Hermite；因此实际 theta-null 是对应 $C_{b,m}\mathscr S_{b,m,i,\lambda}/\sqrt{dH}$。Yang, *Theta liftings and Hecke L-functions* (1997), Cor. 2.4 及 Thms. 1.11, 2.6, 2.15 规定在非分裂分歧处取范数1的指定本征向量，不要求它只在第一个导子出现。紧商单位群 $\mu_6$、体积及全部原模型的 $C_{b,m}$ 保 R716/R1067 原归一。新增 $p$ 处在 $c(0)$ 中的因子为 $(1+p^{-1})^{-1}$，只依分歧非分裂集合；Yang (2.19) 左边为 $c(0)L$，解出 $L$ 时乘的是 $1+p^{-1}$。故实际单位范数 theta-null 平方的因子为 $(1+p^{-1})/(dH)=p^{-i}$。于是
+$$
+\frac{L(\psi_{17}\nu,1)}{\Omega_{\mathbf R,17}}
+=48940416\,p^{-i}|\mathscr S_{17,34,i,\lambda}|^2,\qquad
+\frac{L(\psi_1\nu,1)}{\Omega_{\mathbf R,1}}
+=\tfrac16 p^{-i}|\mathscr S_{1,2,i,\lambda}|^2 .
+$$
+这些是指定复嵌入下的实际绝对平方。为取原 $p$ 进估值，复共轭把 $v_0$ 送到 $-\omega\bar v_0$、$h$ 送到 $\bar h=h^{-1}$、$\lambda$ 送到 $\lambda^{-1}$，两处改变同时作用，仍是同一组 $\lambda^{-l}$ 加权的和，种子改为 $-\omega\bar v_0$。新种子具有相同模 $p^i$ 范数，故属于原轨道：其商模 $p^i$ 是范数一元，能 Hensel 提升到真正范数一群（把范数的近一单位平方根除去即可）。换轨道起点只给 $\lambda$ 幂和原 Klein 准周期根。后者在全体 $h$ 下为同一根：若种子差 $p^i s$，则相位中的 $[hs,hv_0]=N(h)[s,v_0]=[s,v_0]\bmod p^i$，相同半特征也由 $m$ 偶支付。因此非零时每个和与其复共轭只差根单位，在固定 $p$ 位的绝对平方估值为两倍该和估值。
+
+最后比较 R303 的原整系数 $\mathcal A_p(T)$，原生成元保 $\gamma$，$t_\nu=\nu(\gamma)-1$。两曲线的整 Rubin 基、$F_\vartheta$ 及固定 CM 周期比较全沿 R303 和 R1067§4；$\Omega_{\mathbf R}/\Omega_{\rm CM}=1-\omega$ 两边皆为固定单位。Burungale–He–Kobayashi–Ota, *Hecke L-values, definite Shimura sets and Mod $\ell$ non-vanishing*, Thms. 4.14–4.15 对所有本层奇数指数 $2i-1$ 的有限角色分别给两模型的非零 signed 局部因子 $\delta_\nu$；对于实际整基生成元，其估值只依 $p,2i-1$，故取比后准确抵消。同一结论也可直接沿 R303 的整同构运输局部整基，两个基的差为整 Iwasawa 单位。两条原模型根号皆正，故这些奇数指数角色属于同一允许符号。参考的整 Rubin 函数是单位，且上面已从具体向量证明参考 theta-null 非零。两条固定实常数 $48940416,1/6$ 均为当前位单位；共同 $p^{-i}$ 必须先保留再取比。因而每一层都得到
+$$
+\boxed{
+v_p\mathcal A_p(t_\nu)=2v_p\mathscr J(\lambda-1)
+=2v_p\bigl((\lambda-1)\mathscr L_{34,\eta}(\lambda-1)\bigr).}
+$$
+若目标和为零则两端同为无穷。即便 $\gamma$ 与所选 $\eta$ 的局部 Artin 标记不同，$t_\nu$ 与 $\lambda-1$ 仍同为确切阶 $p^{2i-1}$ 的单位根减一；这里比较的是固定实际角色的两个特化，并未把变量认同。
+
+对非零 $A\in\mathcal O[[X]]$，确切阶 $p^k$ 的 $\alpha$ 在充分大 $k$ 满足 $v_p(A(\alpha-1))=\mu(A)+\lambda(A)/\varphi(p^k)$。这是取共同 $p^\mu$ 后首单位项严格主导的 Weierstrass 估值。原 $\mathcal A_p$ 非零且 $\mu(\mathcal A_p)=0$（同 R303 及已用的 BHKO 定理）。上式遂先迫 $\mathscr L_{34,\eta}\ne0$。固定 $p$ 令 $i$ 增大，先取极限，再乘回 $D_i$，得到真实不变量关系
+$$
+\boxed{\quad
+\mu(\mathcal B_{34})=0,\qquad
+\lambda_p=2\bigl(1+\operatorname{ord}_{W=0}\overline{\mathcal B}_{34}\bigr).
+\quad}
+$$
+没有由这些估值等式宣称两条命名幂级数只差整单位。R1067 的中央/第一 wild 精确重数于是直接约束同一个几何模 $p$ 阶数，而证明无穷不同 $p$ 的所需上界或原 $j_{34}$ 非零仍须独立算术输入。
+
+原始文献：[Yang 作者全文](https://people.math.wisc.edu/~tonghaiyang/thetashort.pdf)，[BHKO 作者全文](https://arxiv.org/pdf/2408.13932)，特别 BHKO §4.4.1、Thms. 4.14–4.15。原固定模型与标准基见 R290、R302、R303、R696(17)、R703、R705、R716 及 R1067 第一 wild 偶重数 §§2–5、10。
+
+具体原文位置：Yang 作者稿 p.13 Thm.1.11、(1.16)后之 $c(s)$，p.17 Cor.2.4 (2.9)，p.19 Thm.2.6 (2.19)，p.24 (2.29)后和Thm.2.15；BHKO §4.4.1（论文pp.29–30）Thms.4.14–4.15及Thm.1.5（当前两固定Q-curve、好惰性 $p\nmid6h_K$）给本文所用 $\mu=0$。
+
 ## 来源
 
 - [R663](R663-original-lubin-tate-residues-and-closed-boundary-equivalence.md)：本文所指原来源、坐标、连接或角色规范。

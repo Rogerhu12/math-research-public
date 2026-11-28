@@ -11,10 +11,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:36:02 UTC实际pull --rebase，读取main ce002a351bca7c80f27410111f43b47c0fe466fa；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:35:56 UTC实际pull --rebase至90f57b4c9bd1e8aa1f69486eece7f3c79cf3d750；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 10:39:05 UTC实际pull --rebase，读取main 6c38256195555501a9fc4bb6d938da60fa35d741；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 10:38:59 UTC实际pull --rebase至27ef51946037c1b9959020bef60c0e8d104c8306；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3228/46370102B/tree9bb7656b659522ec3a5ab64384fb9130a5a50fdd；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3230/46390046B/treefff6907fdd88d64d66fe2d9a54237e9e343a5fc9；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -40,7 +40,7 @@ R1062–66的全部原source/CM除法/Na=17规范、fullh/old/period/Haar/负二
 ## O7 同一原点、全边界及真实整测度
 
 [R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)原E17同chargeη=A/Ā的Miller整比/绝对相位付有限p项去极迹、Volkenborn极限和完整M=(Tη−1)/W整等距逆；Y∞=dlogη·Z∈pO[[W]],Z=M⁻¹B，Z(0)=j/(dlogη)。全部首层值/jet/Q^ℓ与深层全orbit返同原B，p项迹整像恰QO；头两位仅回R710，不从j=0推Q|B。
-**§§11–14新付整Cη、全奇导子谱及µ/λ。**CηΣc_nX^n=Σc_n(Tη−1)^n1为整线性等距、保原点、交织X/D；L=Cη⁻¹Z，Cη(XL)=WB。每层全部primitive p^(2i−1)根一重无遗漏，原ℓλ(1)由真实循环性非零，所有orbit相位保留。两个Eisenstein整商等距给每层vL=vZ=vB、µλ保持。首层xL=(v_Tw_T/G_T)^m·T_H/d，完整物理ϑ⁶/√d/χ²接同Katz质量及原A_p(tν)赋值；不相认X与tν。下一高层physical/reference全unit gauge及原Rubin period正在直接比较，不能由新measure名称或有限值免费得到λ_p等式。
+**§§11–14新付整Cη、全奇导子谱及µ/λ。**CηΣc_nX^n=Σc_n(Tη−1)^n1为整线性等距、保原点、交织X/D；L=Cη⁻¹Z，Cη(XL)=WB。每层全部primitive p^(2i−1)根一重无遗漏，原ℓλ(1)由真实循环性非零，所有orbit相位保留。两个Eisenstein整商等距给每层vL=vZ=vB、µλ保持。首层xL=(v_Tw_T/G_T)^m·T_H/d，完整物理ϑ⁶/√d/χ²接同Katz质量及原A_p(tν)赋值；不相认X与tν。**§§15–17高层已付**：原范数17/两模型全gauge、2p^(2i)完整Klein标记、d·p^(i−1)正交本征向量、Yang原c(0)及全非p因子给p^(−i)；原signed period估值相消，全部层vA_p(tν)=2v((λ−1)L)。原µ=0遂得µ(B34)=0、λ_p=2(1+ord_W B̄34)。不相认变量，不从赋值相等偷推函数单位比。下一中央/Hall全germ同谱及原B̄阶数上界。
 
 ## 原厚点的新完整算法
 

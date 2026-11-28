@@ -550,3 +550,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1067 §§37–38：原低热卷积与两节点的定向 Frobenius
 
 同R1067(J1–J6)将原I_p全尾准确换成K_f=A^(1/2)f的低热行与固定受迫二阶原函数的完整卷积，所有所需分母在≤(p+1)/4窗为p单位。两实际cusp的最小三次模型经节点归一给b⁴=−18的奇函数边界，两个dlog各贡献一个p，完整分支和系数Frobenius给真实p²算子。仅在已证纯边界空间辨认该算子，不跳到原f卷积、j′或指定原函数值的本征关系。 [同编号后续全文](../results/R1067-original-first-wild-fixed-geometric-tail.md)。
+
+### R1070 §§15–17：全部原偶导子周期与准确 Rubin λ
+
+原范数17的完整CM gauge在两真实模型间交织同电荷谱；参考谱为整单位。全部primitive p^i点按2p^(2i)标签和完整Klein准周期给原深层Hermite/Klein向量，d·p^(i−1)个正交项经Yang完整归一正好产生p^(−i)，两模型原周期及signed局部估值取比后准确消去。故每个原允许角色vA_p(tν)=2v((λ−1)L(λ−1))，变量并未相认；用所有层及原µ=0得到µ(B34)=0与λ_p=2(1+ord_W B̄34)。没有仅由估值声称全函数相伴；无穷p所需几何阶数上界仍待证明。 [同编号全文](../results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)。
