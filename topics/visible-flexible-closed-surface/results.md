@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R299：正曲率闭中央的两个短相位刚动开片与真实 Cauchy 入口](results/R299-two-exact-moving-circular-patches-on-a-short-phase-Cauchy-inlet.md)（2026-11-28）：两片相对转角>.76549，带上真实附件严格等距、指定端距改>.8575；新负K ramp 到 3.951e−12 实测。
+
 - [R301：真实核心单独相似、完整平盘重裁及原尺度帽](results/R301-core-only-similarity-and-exact-flat-recut-with-unscaled-caps.md)（2026-11-28）：同一新核心保持归一误差，真增 .032 平环；独立有限点对 .10078938，连续 reach 与强精度仍待。
 
 - [R298：实际 432 场与完整新帽的全点对 reach](results/R298-actual-entire-432-core-and-fixed-caps-complete-reach.md)（2026-11-28）：1263616 个材料闭盒的全部点对未决零，整闭 reach≥.095，reach/D≥475/15822>.03；同场两强形变与固定握持均已付，度量精度继续。
