@@ -263,3 +263,10 @@ R1063§8把同一个五层Hall卷积精确返回原K_-·J_S/(pu)的有限除p je
 R1063§9以准确b=68r及原tame0 projector得到p^-2 Haar对偶两线；全局wild角色方向、完整非p/十七/full2/full9/Artin输出及两3词均保。全部十八商的实际格/微分给共同γ_A与17^(-3−n)，direct-push及actual Tate frame逐项对照；principal代表的Norm/avatar与对偶权连同导数相消，完整列可作原未平方seesaw。原raw幅度代数化后c0、ell±在p>211为单位，实际负二值准确为p^-6Ω_A^-1乘单位及两个Hall，全斜率含logU*和全部外权。原同变量Rubin门仍要求单Hall v<2/(p−1)；整列非零或五层存在不自动满足此界。
 
 [完整证明](../results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)，I1–I22；I12a–d保全部十八商与代表费用，§9.4a保原Haar及固定坏素数。
+
+
+## R1064 — 原 book 与 dual-LT 周期及实际测度读者
+
+R1064从同一个原Tate生成元的HT/dlog与Weil–Rosati配对证明Ω_book·ϖ_E=λ_GY∈O_F×，Y=−C zhat/p²，保全Galois的bar(a)^−1及cyclotomic作用。原whole bounded Amice测度经实际Cartier-dual同态提升到全LT开盘，保原临界inverse-square、log−E、所有外权/导数；ST字符空间下降要求测度系数在F，普通LT盘的Galois固定不足。真正有限F bounded字符函数经全部trace-dual坐标返回测度，原F2 different=2−1/(p²−1)给至多p²成本；不杀wild坐标。新范数定理在低节点窗仍返原幂，直接去周期完成矩若为LA分布则原整flat分量为零，未据此预付非零或新canonical行。
+
+[完整证明](../results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)，R1–R29；原未改动flat零分支仍按R1052，新增来源不预赋canonical坏。
