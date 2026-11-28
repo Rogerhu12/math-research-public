@@ -6,16 +6,16 @@
 
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线、条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库；非快进立即pull --rebase、读README差异再推，不force。令牌只命令行/进程，不入文件/提交/API。数学只公开Actions，4CPU/16GB/6h。规则15禁存可重算日志/数据/矩阵，仅脚本/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB、无>5MB/拆块。规则8独立结论入results/R编号；规则12不设冻结或额外复核门。
-[本次整理前完整H](notes/2026-11-28-handoff-before-wild-galois-and-critical-germs.md)逐字保参数/失败/全部归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧更正继续有效，不重做已登记结论。
+[本次整理前完整H](notes/2026-11-28-handoff-before-normalized-miller-germs.md)逐字保参数/失败/全部归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧更正继续有效，不重做已登记结论。
 
 ## 实际pull、已读规则和认领
 
-readonly run46075603971/job140844812973，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 03:10:00 UTC实际partial clone/pull至de0714405a118808daf3a60533d6541243345cd5。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 03:10:05 UTC实际至af99f7754aecc43ab5692925274af3813b93cb2c。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与03:00已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
-- 日志14894B/SHA256 5a63174c430e9bb2f9c93ab6fd78496526d3edfb6e864fc225d06f30c3f8e6c5；完整库存3172blobs/44827527B，tree1f52b8b399e9549cdb2c9690cca406131efa8b02，无>5MB，三旧必要gzip不变。
-- 每推前新实际pull；最迟2026-11-28 04:10UTC再拉两库。非FF本地pull无环境时用CI实际pull、核新差异后继续，不force，API比较不冒pull。
+readonly run46075603971/job140846796648，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 03:17:52 UTC实际partial clone/pull至b70f4044ba43bd298d3cb64b40098490bc2e7f06。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 03:17:58 UTC实际至df6a538d09fe342b6f227cd54aa5d31cca565e8e。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与03:10已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
+- 日志14889B/SHA256 c545e958a63241f6a8bd76864316acf2dc101f11197403a832b9b6d6f18b8535；完整库存3172blobs/44844773B，treefc5309da82a5bd89d7d69552045c99aeb531e9da，无>5MB，三旧必要gzip不变。
+- 每推前新实际pull；最迟2026-11-28 04:17UTC再拉两库。非FF本地pull无环境时用CI实际pull、核新差异后继续，不force，API比较不冒pull。
 - 本地07:20失联；02:46 ref竞争后pull --rebase仍无环境，末本地07:12至1cf10ac。API/CI/本地分记。
 
 ## 唯一原完整厚几何v13
@@ -37,15 +37,15 @@ readonly run46075603971/job140844812973，source e5309ee152260aa4aef389c7d5d68ba
 §§12–13付completion真实tensor/全部r,s角槽及q,r,s表；共同[p]pull completion p^dC不等degree p²C，原全Newton严格J_pull=p^ℓJ_orig（ℓ0/−2）。只对已识别原S运输bad。wholecoverρhat=ρ/p²、βhat=p²β及次数差p^-2全保，不与Haar混同。
 §13.1同coherent frame临界闭盘rZ′+rW′=2/(p²−1) Tate当且仅当整个μ|Zp×=0；n=j+p^r/Mahler证明完整，单斜率零或别的图册正则性不替它。
 
-[R1061](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)给实际γ34=ωconj、γ102=δbar t0 conj，原p⁴图/p²coset下降与(34,102)线丛；δ三盖后principal商由复合n=p²自含Hermitian证明不分裂。原格Ω0/δ·OK、positive[-1]及periodmatrix全保。Miller除子/中心、c_Q估值1/(p²−1)、Q0首p及δ恒等均付；两非平凡3角色的ordinary trace0不等whole toric0。
-新增§§11–15付两条真正conductor-p² CM曲线、degree4加法、完整34²→68²/两parity及精确逆；真实二挠根β0=(1/2,1/2)与三挠α/β、全部相位/Miller都保。原whole h混合、冻结χ/log及finite transpose仍在；mixed heat沿实际degree3族，只是原unit chart及完整连接，不冒global Green。circle后H不是固定曲面的全球theta截面，unprojected非零不代critical非零。
+[R1061](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)付原反CM图γ34/γ102、实际p⁴图群/p²coset下降、(34,102)线丛与固定δ三盖。复合n=p² Hermitian证明principal商不分裂；原Ω0/δ格、positive[-1]、实际periodmatrix全保。Miller除子/中心、c_Q及Q0首p、δ恒等和两非平凡3角色均付。§§11–15付两条真正conductor-p² CM曲线、degree4加法、全34²→68²/parity、实际二/三挠characteristic、全幅度和精确逆。原full h、冻结χ/log、finite transpose及mixed heat完整保；circle后不冒固定曲面global theta，未投影非零不代critical非零。
 
 ## 原全部 jet、Galois 与正在接续的读者
 
 R1061 C1–19付原division-field Z_Q=−r″/(2p²r′)、全jet和整U首d槽：vZ_Q=−1+p/(p²−1)。全m最高Z项严格支配，cover导数exact a/(p²−1)+mp/(p²−1)，严格Lie盘及边界不Tate/全Q精度均付。
 D1–8付γ102的Norm(g)=3与全graded字符和；指定D−⊗S的cover(p−7,p−5)槽v=−12/(p+1)、形式P2非零，但critical tame−2首层全消。
 E1–20付两层Eisenstein/F2、给定点唯一symmetric lift、physical Gal反向作用和ζp^(51lN(u))真野角色，完整代数H-trace=p^-1old。实际t=a/idèle a^-1、Ω/ρ/C、χ^(ℓ+2)/−logχ与正权tensor抵消全保；whole reader续由下列F支付。
-F1–14现以GalK=[ρ−(a²)⊗1]K与原h/graded代数化付实际marked身份；裸scalar为j⁻¹，归一whole H-trace=(p⁻²−1)旧germ及全log/Maass导数。非平凡Norm-b是实际critical covector；原冻结λ/λ′由有限Fourier全返回，单未平均字含全部b。R1054(41)后t=c文字同步正为raw c⁻³/j c³。central接full T_orig和原R716 Hall/Iwasawa；arith付normalized全m Newton族/critical端点；geometry核canonical tame0的全Miller余层。三者均不赋新字canonical零。
+F1–14现以GalK=[ρ−(a²)⊗1]K与原h/graded代数化付实际marked身份；裸scalar为j⁻¹，归一whole H-trace=(p⁻²−1)旧germ及全log/Maass导数。非平凡Norm-b是实际critical covector；原冻结λ/λ′由有限Fourier全返回，单未平均字含全部b。R1054(41)后t=c文字同步正为raw c⁻³/j c³。central接full T_orig和原R716 Hall/Iwasawa；arith与geometry核真正tame0双方Miller/δ/Haar及首余层，三者不赋新字canonical零。
+[R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)G1–19现付同一NZ_Q去指数的Bell全极帽、二项式Tate单位及F(−2)、两槽先合ρ/Ω/p的单位底数、共同Teich/全部根单位子列及全斜率。指定Norm纤维的endpoint真非零，v保c0/ell和−4+(10−p)/(p²−1)；只在已付G18实际graded字才接whole，未付保原有限转置。原R716还须tame0；同变量Rubin给bad J′=0⇒vHall≥2/(p−1)，有限非零不足。
 
 [连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)优先：literal通常剔除阶乘数列不能连接非零连续族，旧full54/六线/ψ4连续cross与共同F单位仍条件化。p227/u1辅助65537只char0非零、非227单位；不重算。direct proper/晶体残余/R1049 signed桥各保原范围，不删outward。
 

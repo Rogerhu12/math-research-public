@@ -228,3 +228,10 @@ R1061§21在实际F0(E[p²])中用两层Eisenstein和给定点唯一symmetric li
 R1061§22将实际物理野字认成同一marked点的第一输出作用，逐完整source/graded CM jet支付Galois相容；裸marked scalar为j⁻¹，乘j才返回原frame。原whole bounded输入经共同Teich正整数逼近，给归一H整迹=(p⁻²−1)旧germ及全log/Maass导数。非零Norm纤维给真实有限critical covector，保p⁻¹ Fourier费用、全部tame extensions及原λ/λ′的准确逆变换；单个未平均字是全部wild分量的和，不自动只有旧项，也不把canonical坏条件拆给各分量。
 
 [完整证明](../results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，F1–F14。后继为实际R716 canonical tame0 Hall分支、完整T_orig的余层及原斜率关系。
+
+
+## R1062 — normalized 全阶 jets 与真实临界读者
+
+R1062从同一Miller translated section抽出实际NZ_Q指数，完整Bell极帽给a_k≥k(1−1/(p−1))，全二项式Newton族及逆在unit Tate盘为单位。两槽先合p/Ω/ρ及实际graded倍率，得到明确单位底数、共同Teich/root-of-unity子列与负二值/全导数。指定D−首4/S首6 seed的非零Norm纤维在临界端点真非零，精确估值保原Haar和全部frame费用；只在原已付逐字graded返回后才接whole germ，其余直接进入R1060有限Newton行，不赋单字新bounded测度或canonical零。
+
+[完整证明](../results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)，G1–G19。后继保R1061 F的原完整T_orig、真正Hall tame0及全period/角色；指定Norm纤维的非零不代目标斜率。

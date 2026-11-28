@@ -195,3 +195,13 @@ R1061§22将实际物理野字认成同一marked点的第一输出作用，逐�
 root重新逐式读R1054(33)–(41)、R1059(A0d)/(A5a)/(A7)–(A10b)，核第一输出方向、每个实际j/Ω/κ和全部Maass极限；geometry独核whole source的h_p、差2角投影、tame/Cor字与graded代数化相容。删去不必要的反向formal Möbius段，避免其tensor方向与marked裸值相混；未将任一小盘形式代换升级为bounded measure。同步勘误R1054(41)后t=c文字：raw为c⁻³、回原frame的j为c³，与原公式及R1059(A0e)一致；未改原公式。全纸证，无新数学执行。
 
 R1061§21已推4d076ee768c77d44ddc827220831619c2fc5d02e。推前actual readonly run46075603971/job140844812973：公开2026-11-28 03:10:00 UTC至de0714405a118808daf3a60533d6541243345cd5；私库2026-11-28 03:10:05 UTC至af99f7754aecc43ab5692925274af3813b93cb2c。四README与03:00已读版完全相同，QUEUE/认领未变。日志14894B/hash5a63174c430e9bb2f9c93ab6fd78496526d3edfb6e864fc225d06f30c3f8e6c5；库存3172blobs/44827527B/tree1f52b8b399e9549cdb2c9690cca406131efa8b02，无>5MB/三旧必要gzip不变。
+
+
+## 2026-11-28 03:18:23 UTC：原平移 Miller 全Newton族及指定Norm纤维临界值
+
+R1062从同一Miller translated section抽出实际NZ_Q指数，完整Bell极帽给a_k≥k(1−1/(p−1))，全二项式Newton族及逆在unit Tate盘为单位。两槽先合p/Ω/ρ及实际graded倍率，得到明确单位底数、共同Teich/root-of-unity子列与负二值/全导数。指定D−首4/S首6 seed的非零Norm纤维在临界端点真非零，精确估值保原Haar和全部frame费用；只在原已付逐字graded返回后才接whole germ，其余直接进入R1060有限Newton行，不赋单字新bounded测度或canonical零。
+
+root逐式核Bell全部阶的整数系数/极帽、Tate Gauss界及导数、两个p²费用、G11非单位合并、G14负二与log项、G15真实wild根仅取residue及G16反CM Norm指数。明记R_N仅O极及G15的(p+1)κσ同C13规范；按规则8独立R1062保存，R1061停84509B以保每MD上限。完整全局返回G18未付部分原样保留。全纸证，无新数学执行。
+
+R1061 F1–14已成功推8662bf16fc72f02a0691d600c091ae6ec55e6f32。推前actual readonly run46075603971/job140846796648：公开2026-11-28 03:17:52 UTC至b70f4044ba43bd298d3cb64b40098490bc2e7f06；私库2026-11-28 03:17:58 UTC至df6a538d09fe342b6f227cd54aa5d31cca565e8e。四README与03:10已读版完全相同，QUEUE/认领未变；日志14889B/hashc545e958a63241f6a8bd76864316acf2dc101f11197403a832b9b6d6f18b8535，库存3172blobs/44844773B/treefc5309da82a5bd89d7d69552045c99aeb531e9da，无>5MB、三旧必要gzip不变。
+旧H逐字归档notes/2026-11-28-handoff-before-normalized-miller-germs.md（9599B/817833549e31602833346ba3a7161485656f551354eeff262e1f093e4e799556），完整旧参数/失败/规则和归档链均保。

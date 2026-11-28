@@ -40,6 +40,8 @@ R1060§§12–13现保completion全部角槽及有限q/r/s表，真实[p]pull的
 
 R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延拓恰等价整个μ|Zp×=0；canonical单斜率零不能替此条件。若要用真实挠点或图册上的正则延拓，必须付坐标/线丛及形式log退化的实际比较。
 
+[R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)进一步付每个实际平移源的全m二项式Tate族、两槽全部非单位费用相消后的单位底数、共同合法子列及精确负二值/斜率。指定Norm纤维的seed endpoint真非零；此输入只能在已付actual graded返回的字使用，未付部分保原T_orig及R1060有限Newton。真正R716 Hall还需负侧tame0，不能以Norm纤维非零略去它。
+
 **下一实质门：**给这个完整转置后的h/finite投影、新增ramified covectors及A16全部权导数到原固定canonical斜率的实际未平均关系。有限图的值不代导数；局部单位矩阵可逆不付该关系，也不套AI全局Heegner定理。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。R1059已用同源正权式与真实flat逼近比较负二全germ，§8再给整个有限读数的实际图身份；原avatar/Teich/旧项均保。不能由群阶相同认分支，也不将p^n当解析函数。
 
 [R1056](results/R1056-original-flat-amice-critical-slope-and-bol-primitive.md)提供真正可用的同源读者：临界值是单位 inverse-square 矩，斜率保 log、全部 Maass 修正和外权导数；正 KS/正杯积 Bol 与 R997 一致。直接整 Newton 的值读者用至 \(pH-1\) 阶，斜率用 \(O(p(H+\log_p(H+1)+1))\) 阶及准确额外精度；旧 Stirling 路径另付 \(v_p(N!)\)。R1054 的负端点是原 Coleman 的 \(p^{-6}\) 真 \(Q\) 平均；R1059§8通过整个同源germ识别完整有限图读数，仍不逐根认同CM商点。
