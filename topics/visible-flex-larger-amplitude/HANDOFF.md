@@ -59,6 +59,6 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
 <!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46154833248-1.json) 双README真pull ef856e5427d2375489ee97a2949cdbab681507ed
-<!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull f6639c3e6825a16a2093f199016bd1794e39ab51
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull b1032c025557c4ca2ebcfb8371a919789aae2e1f
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull fae06322ffc42ce31478d7945c22d8c65aea6f0a
+<!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull fed6531b4b54541b49e0187b9b41a9fa75ff7926
