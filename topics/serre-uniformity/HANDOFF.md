@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：16cbef8790b20cb9d8b11ee2149c3978c60c97d0**（2026-11-28 15:18 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:01 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：e10a0c0e8e647f0067b42792f5d1de3e3cee7b18**（2026-11-28 15:21 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:01 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 15:01:56 Asia/Taipei，Actions run46119282678/job140899977242，blob:none浅clone后真实pull --rebase至fa034088且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤15:51、pull≤16:01。本地15:01仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -34,7 +34,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1165 §§1–10](results/R1165-original-integral-residue-contraction-and-log-PD-cone.md)原两开集整filtered留数SDR、全tensor/projectors、log cone及N双对角/γp carry/I_h精度已付。actual U Newton、V Hensel与p-small I给F1 overlap ΦUh+IαV；Φ_M/Q两residue、cone +Qα及ordered −βδ完整。模型比较R1166已付，继续normal/F0实际值。
 
-[R1166 §§1–13](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)原ambient normal/Čech SDR、实际I_PD=I、复合+Q及ordered primitive T h−H全付；SS W_n=U_n，H0两residue准确。新增原第一层tame S_L=⊕z^jS_F：trace无log槽e·第0块，log槽第0块·dlogu；全F/Q/Cor同源。Tr x_P^[d]=0后才消theta leading/幂项，原d4/8输入恰k_d(2)⁻¹Tr[x_P^[d]C(W⁻¹)]，W=−z³y(P(z))，无新根。继续实际normal与原中央F0，所有same-coset/ordered修正保留。
+[R1166 §§1–18](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)actual ambient/Čech/留数SDR、复合+Q、ordered T h−H及tame Cor全付；无log槽e·第0块、log槽第0块。原theta d4/8用W⁻¹，W=−z³y，先Tr x^[d]=0才消leading。新增原Steinberg primitive (0,β)，β=Li₂†+AB₀+J、dβ=A b−φ₁(a)B，实际Frob中心h_R=AB−β；通用Z=𝔟(A,A)−H且原λ正号。完整整尾、线性carry、共同log-preserving近0/1/∞及未分歧universal全塔锁同根后pullback已付。继续27terms/同a Cor/最高Π0及F0。
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)已实算原第一层xP=−b_E z^p(1+γp(g))ω−zgη；b_E为原Cartier unit，两符号/标量由同Miller外环residue锁定：−c1−p/t(P)=p(E(P)−1/t(P))，整尾含CM排除p²危险项。原pure power完整系数d!/(d−k−h)!·b_E^(d−k)·ξ^j z^jγ_(hp+k)，j=pd−(p−1)k，无额外moment d!。继续与原W⁻¹/中央actual primitives相乘、same-coset Cor及F0。
 
