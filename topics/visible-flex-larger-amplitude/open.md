@@ -120,7 +120,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### 当前数学方向
 
 R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g付所有中央弦的闭距必要条件，空间中央柱与双完整fan帽各自全同g；命名小场reach≥.107/D0<3.49/grip.72/held>1.521/δE>0。**R756现证明规定中央仍有完整平材料矩形母线障碍，必要弦条件不够；41/42不能因换规范宣称解障。**
-[R754](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)：整闭reach≥.132/D0<4.01/grip1.4/held>1.09/δE>0，修正整左翼和双帽对应x≤0同g；原两墙/刚左翼各违真帽捷径。全3层×7相×9图及双全帽运输原工作46153891204持续。
+[R754](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)：46153891204全42行自然success；原左弦1.09>初路径.90997177，修左后右弦2.424875>2.377784。整roll/注册整帽最细Gram1.45411/3962.266，未付。整厚/准确左翼及两反证仍按原proof，继续真新初g。
 [R755](results/R755-geodesic-normal-continuation-and-fixed-cap-landing.md)：在真实测地唯一C¹变分、非聚焦单覆盖与正横截条件下，两整卷同g等价全J=1−dκ0、全T=L及一帽锚，付四缝二jet；不冒存在或C²自动流正则。
 [R756](results/R756-flat-ruling-cap-obstruction-and-preloaded-exact-returning-rolls.md)：C²平片非零II的直母线合法全续，排除旧直中央变弯后仅修双端帽，并特化R752/753单端。独立预载g精确付整活动右墙两整roll/双帽领，完整九图续接已给，但两原平帽继续强制冲突；该准确分支全reach未证。后继须真改初帽曲率或释放端Cauchy，不能只缩扇区/改标签。
 

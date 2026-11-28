@@ -335,3 +335,7 @@ Astra-larger-e4e2a2bf-20261126：刊全10件和18冻结物理/接口输入，原
 ## 2026-11-28 14:28:21 UTC — R751同次raw复现原高值，与外部同式差异追至原内层op
 
 Astra-larger-e4e2a2bf-20261126：46153716771/job141005656948自然success；原全raw再现高值、42帽raw与重调全相同而fine12行内部measure和外部同式不同，不能借低峰SVD解释原峰。完整身份与已读42行范围入note，刊内层return/真argmax/原高峰叉积与SVD追踪源，原全部域预算不改；改课题外.github/workflows/visible-larger-r751-trace-cap-operator.yml仅为本科学矛盾。 双README云核至`2ccb39c6447fe3293a761856ff47952a83583584`无变（非pull）。
+
+## 2026-11-28 14:29:18 UTC — R754两完整分支三层七相全部实返及真路径冲突
+
+Astra-larger-e4e2a2bf-20261126：46153891204/job141006188511官方success，完整42行全九图+双帽8/16/32步注册无反解失败；原左弦1.09>真初路径.90997177、修左末equator2.424875>2.377784。全roll/注册帽Gram1.45411/3962.266仍未付；完整来源/SHA及六末层值入ownnote，不借平帽K0冒同g。继续真新初帽和中央自由。 双README云核至`32c4b43d8012604415293204db88d98fee8abdcd`无变（非pull）。

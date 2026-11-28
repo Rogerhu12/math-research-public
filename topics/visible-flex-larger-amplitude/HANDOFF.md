@@ -4,7 +4,7 @@ Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-2026
 
 ## 规则与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing-server，真实V8重置后pwd仍失败，恢复即pull。云核至`2ccb39c6447fe3293a761856ff47952a83583584`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；真pull至少每小时，仅读变化diff即遵守。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing-server，真实V8重置后pwd仍失败，恢复即pull。云核至`32c4b43d8012604415293204db88d98fee8abdcd`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；真pull至少每小时，仅读变化diff即遵守。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue；每结论普通推，NFF立即rebase，终端失效时freshHEAD完整整合重推，禁force/冒pull，令牌仅CLI。仅公开Actions科学；保完整源参/run/whole身份及失败未知，不加AST/fixture/独审/准入、不缩预算。先metadata，不整读≥100KB/binary；题≤200MB，文件<5MB，MD<100KB，H<10KB，open<30KB。根§15可重算raw仅runner，提交源参/run/SHA；旧退出件有完整复现及固定Git，不退活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²、同固定g；D为整F0直径，固定有内点H且diam≥.2D，整像无对齐held≥.2D、含反射δE>0、全t reach≥.03D、relative metric算子≤1e−6。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻全mesh，继而提高三比值。
 
@@ -25,7 +25,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing
 ## 当前数学方向
 
 R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g付所有中央弦的闭距必要条件，空间中央柱与双完整fan帽各自全同g；命名小场reach≥.107/D0<3.49/grip.72/held>1.521/δE>0。**R756现证明规定中央仍有完整平材料矩形母线障碍，必要弦条件不够；41/42不能因换规范宣称解障。**
-[R754](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)：整闭reach≥.132/D0<4.01/grip1.4/held>1.09/δE>0，修正整左翼和双帽对应x≤0同g；原两墙/刚左翼各违真帽捷径。全3层×7相×9图及双全帽运输原工作46153891204持续。
+[R754](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)：46153891204全42行自然success；原左弦1.09>初路径.90997177，修左后右弦2.424875>2.377784。整roll/注册整帽最细Gram1.45411/3962.266，未付。整厚/准确左翼及两反证仍按原proof，继续真新初g。
 [R755](results/R755-geodesic-normal-continuation-and-fixed-cap-landing.md)：在真实测地唯一C¹变分、非聚焦单覆盖与正横截条件下，两整卷同g等价全J=1−dκ0、全T=L及一帽锚，付四缝二jet；不冒存在或C²自动流正则。
 [R756](results/R756-flat-ruling-cap-obstruction-and-preloaded-exact-returning-rolls.md)：C²平片非零II的直母线合法全续，排除旧直中央变弯后仅修双端帽，并特化R752/753单端。独立预载g精确付整活动右墙两整roll/双帽领，完整九图续接已给，但两原平帽继续强制冲突；该准确分支全reach未证。后继须真改初帽曲率或释放端Cauchy，不能只缩扇区/改标签。
 
@@ -57,8 +57,8 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
+<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 8e61a6a72569a40a02ac334e336aba67acfcdbc4
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46153716771-1.json) 双README真pull beafdca27245f48efa7d071f8426de8ce39c2a58
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 1541cfa06cba2ed3f8787cb3c20d21d013af8a7d
 <!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
 <!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull a3156f3c418987365a450b474fb0e034104b6204
-<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 8e61a6a72569a40a02ac334e336aba67acfcdbc4
