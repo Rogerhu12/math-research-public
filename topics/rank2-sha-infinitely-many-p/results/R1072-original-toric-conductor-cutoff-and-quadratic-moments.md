@@ -154,3 +154,57 @@ $$Z_s(X)=C_p P(H_s)+O\!\left(
  B X^{-1/2}p^{o(1)}+ B^{-1/2}p^{o(1)}+\frac{p+1}{B}
  +(p+1)\frac{\sqrt X}{p^s}\right).$$
 $B=p^4$ 且 $s=2i,2i-1$ 使总误差 $O(p^{-2+o(1)})$。无导子混用：两个子群 $H_{2i}$、$H_{2i-1}$ 分别估计，未令其相等。故 $Z_{2i}\ge p^{-o(1)}$、$|Z_{2i-1}|\le p^{o(1)}$，原 primitive 差的实部严格为正。实性亦由全理想和配共轭给出。先得某一 $L\ne0$，再由原 Rubin 函数在未分歧基上的同层 Galois 轨道性，得该层每个 primitive $L\ne0$。由已证原整行桥，取 $i_*=\lceil100\log p/\log\log p\rceil$ 可在无条件 $\lambda_p<D_{i_*}-S_{i_*}$ 中使用这个新截点；$\log(1+\lambda_p)\ll (\log p)^2/\log\log p$。这段控制未给首层的原二次矩赋非零值。
+
+## 6. 原 primitive 族的固定绝对导子截点
+
+对充分大的惰性好 $p$ 和**每个 $i\ge1000$**，原确切导子 $p^{2i}$ 的每个 $\nu$ 均有 $L(1,\psi_{17}\nu)\ne0$。以下证明不依赖原 signed 或 Rubin 函数的 $\mu,\lambda$；在此前原全层比较下，它给 $\lambda_p<D_{1000}-S_{1000}<p^{1999}$。固定常数 $1000$ 不是最小截点。
+
+保留原 $I=2i$、$s=I,I-1$、$X=(51/\pi)p^{I}$、$\psi=\psi_{17}$、原 $2,3,17$ 有限权以及全 Gaussian。令 $L=\log p$, $Y=L^8$, $A=512$, $B=p^4$。令 $\mathcal P$ 为所有分裂有理素数 $\ell\le Y$ 上方两个素理想的无平方乘积。$2,3,17,p$ 均不在其中。取有限 Dirichlet 多项式
+$$D(\nu)=\sum_{\mathfrak d\mid\mathcal P,\ N\mathfrak d\le p^A}
+ \mu_K(\mathfrak d)\,\frac{\psi(\mathfrak d)\nu(\mathfrak d)}{N\mathfrak d}.$$
+这里只需：若原层所有 $L(1,\psi\nu)$ 均为零，则按 $D(\nu)$ 加权的平均必为零。不需 $D(\nu)$ 为正或为单位。将此有限多项式乘进原 Mellin 公式并保持 $s=I,I-1$ 的准确 primitive 差。合并整理想 $\mathfrak n=\mathfrak a\mathfrak d$ 后，角色恰为 $\nu(\mathfrak n)$，指数为 $e^{-N\mathfrak n/(X N\mathfrak d)}$。按 R724(B1)–(B3) 写 $\mathfrak n=(c\alpha)$，以先前的 $h$、$u(h)$、$b=B(h)=|\alpha|$ 标记坏处互素的 primitive 射线，$K_s$ 为其全部同步子群。对每一 $\mathfrak d\mid\mathcal P$，令 $m_{\mathfrak d}(h)$ 是如下有理素数 $\ell$ 的乘积：$\mathfrak d$ 请求了一个上方素理想，而它没有出现在 $(\alpha)$ 中。每个 $\ell$ 最多乘一次；即使两侧均请求，缺少的一侧由 $\ell\mid c$ 同时补足。因此 $\mathfrak d\mid(c\alpha)$ 当且仅当 $m_{\mathfrak d}(h)\mid c$。所有这些有理素数分裂，$\chi_{-3}(m_{\mathfrak d})=1$。记 $R=R_{102p}$，所得精确等式为
+$$ \frac{1}{\varphi(p^{I-1})}\sum_{\mathrm{ord}\nu=p^{I-1}}D(\nu)L(1,\psi\nu)
+ =\frac{2}{p-1}(p Z_{I,D}-Z_{I-1,D}),$$
+$$ Z_{s,D}=\sum_{h\in K_s}\frac{u(h)}b
+ \sum_{\substack{\mathfrak d\mid\mathcal P\\N\mathfrak d\le p^A}}
+ \frac{\mu_K(\mathfrak d)}{m_{\mathfrak d}(h)}
+ R\left(\frac{X N\mathfrak d}{b^2m_{\mathfrak d}(h)^2}\right).$$
+两个 $Z$ 中 $X,D$ 完全相同。这只用原全收敛和与有限算子；$D$ 的辅助因子没有成为新 $L$ 函数或新跳层假设。
+
+**原乘子的两条绝对估计。** 当 $h_\ell=0$ 时，$\mathfrak d$ 在 $\ell$ 处选空、单侧（两种）、双侧的 $m_{\mathfrak d}$ 费用分别为 $1,\ell,\ell$。若 $h_\ell\ne0$，选四项的费用分别为 $1,1,\ell,\ell$，其中两种单侧分别列出。故
+$$ \sum_{\mathfrak d\mid\mathcal P}m_{\mathfrak d}(h)^{-1}
+ \le 4^{\omega(N\alpha)}\prod_{\ell\le Y}(1+3/\ell)
+ \ll 4^{\omega(N\alpha)}(\log(2Y))^C.$$
+最后的初等界可取 $\sigma=1+1/\log Y$，于是 $\sum_{\ell\le Y}1/\ell\le e\log\zeta(\sigma)\ll\log\log(2Y)$。又令 $\gamma=1/32$。在 $h_\ell=0$ 处，$\sum(N\mathfrak d)^\gamma/m_{\mathfrak d}$ 的局部因子为 $1+2\ell^{\gamma-1}+\ell^{2\gamma-1}$。在 $h_\ell\ne0$ 处至多 $4\ell^\gamma$。从而
+$$ \sum_{\mathfrak d\mid\mathcal P}\frac{(N\mathfrak d)^\gamma}{m_{\mathfrak d}(h)}
+ \le \exp(C_\gamma Y^{2\gamma})\,4^{\omega(N\alpha)} b^{2\gamma}.$$
+这里 $Y^{2\gamma}=L^{1/2}$。$n$ 有 $k$ 个不同素因子便有 $n\ge(k+1)!$，故 $4^{\omega(n)}=n^{o(1)}$，也有 $\sup_{n\le p^8}4^{\omega(n)}=p^{o(1)}$。不需使用素数定理。
+
+**全部短方向的准确取消。** 对 $b\le B$，$m_{\mathfrak d}\le N\mathfrak d\le p^A$，故其径向参数 $U=X N\mathfrak d/(b^2m_{\mathfrak d}^2)\ge X/(B^2p^A)$。由 R724 的实际有理主项 $R(U)=C_p+O(U^{-1/2})$，$C_p=9\pi(1+p^{-1})/(17\sqrt3)$，误差一致为 $O(p^{4+A/2-i})$；$U/p^2\ge1$ 已满。每个 tame 格在半径 $B$ 内的 primitive 点至多同一直线上的两个：任两独立向量张成的面积至少固定正数乘 $p^s$，而此处 $B^2=p^8\ll p^s$。所以总共 $O(p)$ 个短点。由第一绝对估计，径向替换在全部短点上的误差 $\ll p^{5+A/2-i+o(1)}$。再就这些短点把常数项的 $\mathfrak d$ 补全，尾每点至多
+$$p^{-A\gamma}\exp(C_\gamma Y^{2\gamma})4^{\omega(N\alpha)}b^{2\gamma}
+ \le p^{-(A-8)\gamma+o(1)}.$$
+其总误差 $O(p^{-10})$。完整有限 Euler 和逐坐标给
+$$\sum_{\mathfrak d\mid\mathcal P}\frac{\mu_K(\mathfrak d)}{m_{\mathfrak d}(h)}
+ =\begin{cases}
+ K_Y=\displaystyle\prod_{\ell\le Y,\,\ell\ \mathrm{split}}(1-1/\ell),& h_\ell=0\ \text{对所有这些 }\ell,\\
+ 0,&\text{其余情形}.
+ \end{cases}$$
+这是带原理性因子的完整取消，不是把任何单独同步短方向的原角色认成零。$K_Y\ge(\log(2Y))^{-C}>0$，由同一素数倒数和界即得。
+
+**余下无小素因子的同步方向。** 对 $R_0\ge\sqrt Y/2$, $R_0\le B$，记 $S$ 为 $R_0<b\le 2R_0$ 且所有坐标素因子 $\ell>Y$ 的同步 primitive 理想。为每一分裂素数独立随机选一侧，只保留各非零坐标都在所选一侧的理想。每个理想保留概率至少 $2^{-\omega(N\alpha)}\ge(2R_0)^{-o(1)}$，其中 $o(1)$ 在所述整个窗一致，因为 $Y\to\infty$。故存在同一取向的子集 $S'$，$|S|\le(2R_0)^{o(1)}|S'|$；任意 $r$ 个该子集理想相乘后仍 primitive，包括重复选项。
+
+取 $r=\lceil8L/\log(2R_0)\rceil$。每个乘积生成元复模最多 $(2R_0)^r$；$2(2R_0)^{2r}\le2p^{16}(2B)^2<p^s$。如果两个乘积有相同 projective 像（允许全局 $\mu_3$），乘单位后 $\alpha\bar\beta-\bar\alpha\beta$ 属 $p^s\mathcal O_K$，其复模小于 $p^s$，故为零。两个 **primitive** 整理想方向于是准确相等。同步 tame 像至多 $p+1$ 个，所以不同理想乘积也至多 $p+1$。
+对定乘积 $\mathfrak b$，其带重素因子数至多 $2r\log(2R_0)/\log Y$。把每一个素因子分派到 $r$ 个有序端点至多 $r^{\Omega_K(\mathfrak b)}$ 种，给原有序分解数上界。因此
+$$ |S'|^r\le (p+1) (2R_0)^{2r\log r/\log Y}.$$
+现在 $(p+1)^{1/r}\le (2R_0)^{1/8+o(1)}$、$r\ll L$、$2\log r/\log Y\le1/4+o(1)$。故充分大 $p$ 时 $|S|\ll (2R_0)^{1/2}$。除单位方向，所有余下 $b$ 至少 $\sqrt Y$。由 dyadic 求和得它们在 $b\le B$ 的全部绝对权至多 $O(Y^{-1/4})$。此估计不取决于哪些固定非实素数为原 anti-Fermat 同步方向；它们的原贡献早已由真实 $D$ 处理。
+
+**原未取消长部分。** 在 $b>B$ 直接使用原截断 $N\mathfrak d\le p^A$，不补全 Euler 乘积。R724 的 $|R(U)|\ll e^{-1/U}$ 和第一绝对估计使每点的绝对权
+$$\ll (\log(2Y))^C b^{-1+1/8}\exp[-b^2/(Xp^A)]$$
+对充分大 $p$ 成立。每个 $\mathcal L_{\zeta,s}$ 格的最短方向只有至多两个 primitive 格点，若 $b>B$，合并 $p+1$ 格给 $O((\log(2Y))^CpB^{-7/8})$。偏离首线的点在半径 $R_0$ 内仍每格 $O(R_0^2/p^s)$；对上式单调径向权分部求和，全部偏首线误差
+$$ \ll (\log(2Y))^C(p+1)(Xp^A)^{9/16}/p^s .$$
+当 $i\ge1000$, $s=2i$ 或 $2i-1$ 时，此界一致 $\ll p^{-2}$，因指数至多 $2-2i+(2i+A)9/16$。长首线也为 $O(p^{-2})$。至此没有删去任何原长质点或有限坏位。
+
+合并得一致的实主项（实性也由共轭成对可见）
+$$ Z_{s,D}=C_pK_Y\bigl(1+O(Y^{-1/4})\bigr)+O(p^{-2}),
+ \qquad s=2i,2i-1.$$
+其 primitive 差为 $2C_pK_Y(1+o(1))$，严格非零。因此该层至少一个原 $L(1,\psi\nu)$ 非零。R1070 实际 Rubin 比值及参考单位在未分歧基上把同一个原零沿整层 Galois 轨道传递，故此层全部 primitive 扭曲非零。上述论证同时给固定 $s$ 中无小分裂素因子的真射线数界；结论仍未把 $i=1$ 的二次矩或特征零中央导数赋非零。

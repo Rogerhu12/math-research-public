@@ -606,3 +606,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1067 §49：原参考确定径向常数与第四物理权
 
 原degree-two参考在同一整旋转框架精确给κ=−(pcσ)²、c/p=−1/κ及γa_pu0 c/p=−b_p；三位原共同分子无未识别单位。将c2d完整换回第四物理权E2d，得到Q6两canonical的准确Ed/p、E2d组合。其条件与原Gaussian两位相同，不重复计作独立强迫；全变形P9继续保留。 [同编号全文](../results/R1067-original-first-wild-fixed-geometric-tail.md)。
+
+### R1072 §6：原全导子的固定绝对截点
+
+将真实有限分裂Euler多项式乘入原Mellin平均，逐primitive方向完整消去小分裂因子；截断p^512、短窗p^4、粗素阈(logp)^8共同支付径向误差与全部长尾。同向primitive理想乘积的真实tame注入给粗短方向的绝对小界，从而对充分大惰性p及每个i≥1000，原确切导子p^(2i)全部L值非零，原λ_p<p^1999。未调用µ/λ来证明非零，未从深层无根推出中央非零。 [完整证明](../results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。

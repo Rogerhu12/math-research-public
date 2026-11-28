@@ -404,3 +404,11 @@ root完整手核P1–15，亲读Gross–Hopkins Thm1及整形式群自同构作�
 root与arithmetic独立手核原参考热尺度4、d/2d阶乘、Gaussian整窗、A1/B1换元、完整第四物理权及Q6两canonical符号；无额外Jacobi首单位，明确不把重复Gaussian条件算独立约束。上一条P已确认实推9286b5b62fcb2bcbc110cdff57f3d7ab08dd3d06（11:37:06 UTC），三次非FF均立即双pull/rebase，四README未变。无本地数学执行；原v17来源不改。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:43:13 UTC到7cca26306f27a6650667f1b65e01cbe74bd48ce6，私库2026-11-28 11:43:00 UTC到b55a56fdf367f35d6eaf3c9b9ce0476b6a392fab；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46752704B/treecf997bf3a584bec236a3b8bcc369595dc864dcb1，无>5MB。
+
+## 2026-11-28 11:43:52 UTC — R1072 固定绝对导子截点
+
+root完整手核实际有限D乘原Mellin、m_d缺侧判据及两绝对乘积界、每tame短线primitive点数、Euler准确取消、随机同向与理想乘积分解数、p^512截断长尾及i≥1000全部指数。两个s使用同一X/D，原坏位与未分歧Galois整层传播全留；未引新L族。H近10KB逐字归档后压缩旧叙述，全部来源和更正沿链保留。R1067 §49已实推c41bafc6b2c9c99bc70c82ece2b09e173c1059b8（11:43:19 UTC），四README未变。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:44:57 UTC到b884f5f1d9a97083baad8f4ab022150028f1857d，私库2026-11-28 11:44:49 UTC到0ae9a101344c7fb91baa404ecc131bf3d811972f；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46759024B/tree2a34c4f95eec9e3acda2eaa884e5e89d844ebd3d，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:45:16 UTC到dfd120be74e4c7e3b19585c90f4661b36a0c7bca，私库2026-11-28 11:45:11 UTC到780f2a062e4d3d100210ddfa4a3f5fdc67acde3d；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46759024B/tree2a34c4f95eec9e3acda2eaa884e5e89d844ebd3d，无>5MB。
