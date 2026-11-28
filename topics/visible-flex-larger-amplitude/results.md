@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R753（已证明，移动空间中央柱和两个独立完整端帽的准确等距自由）**：[rectifying柱与直纹fan帽](results/R753-spatial-rectifying-cylinder-and-independent-ruled-cap-fans.md) — 真实闭空间单位速曲线给C_s=T、C_y=B，平直/反曲点不用Frenet除法；整个周期中央精确ds²+dy²且真握持不动。两个独立无极点圆锥fan在完整材料帽上严格保持平面初g，各另有六个刚体位姿。三种材料运输与双全卷三物理方向经真实四缝C²拼接，初相位严格同R752新g。命名微量幅度付全闭reach≥.107、D0<3.49、grip≥.72、held>1.521与0<δE≤1.1e−7；较大control几何另验、非零中央pulse不得借a=0距离定理。两整卷g三行仍欠。[全部六jet源](scripts/resume_20261126/r753_rectifying_cylinder_and_cap_fans.py)给41真实联合求解，未冒全闭等距解。
+
 - **R752（已证明，新固定初g支付整个中央的全局弦长必要条件）**：[真实帽捷径与延迟转弯参考](results/R752-cap-shortcut-and-delayed-turn-central-chord-compatibility.md) — 旧R746两个中央标签强制任意全闭relative Gram误差>1.01，准确补齐须至少一标签改动>.194。新Y=.37、e=.81、b=1/1024的真实低角长肩仍有D0<3.49、全t reach>.105、grip≥.72、held>1.521、0<δE≤.000475；通过浅层球面度量比较和深层全路径变差界，所有中央点对、所有相位对整个初始闭面路径距离均1-Lipschitz，包含穿越真帽的任意路径。整个中央及两legacy帽每t精确同新g，但两全圆端三行仍欠，未冒等距填充存在；新输入与旧g之间不称同g精化。[完整六jet源](scripts/resume_20261126/r752_delayed_turn_closed_two_jets.py)同步入main，41将求同一新g。
 
 - **R751（已证明，真混合曲率截面、贯穿实际双端帽的小扇区同g及全局锁中央障碍）**：[完整曲率混合闭面](results/R751-moving-curvature-mixed-section-and-exact-roll-into-both-physical-caps.md) — 两个真实直段闭合变量构造周期单位速截面；θ≥1 最后 .00015 材料弧的曲率比 C=1.00001 使两整圆端及双帽 .0001 内领准确同g。完整全t几何界、体积不全等均保原文；剩余圆周度量未付。旧初g端部捷径<.801、规定中央终弦>1.17，故全锁中央的全端帽补齐不可能，至少一中央标签需移动>.184。原三层/七相位/九图及两侧真实17点完整[测量任务](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)随源刊触发，actual尚待；仍继续40自由中央及新固定g方向。

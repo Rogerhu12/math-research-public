@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`55cd17edcf1b3f099235129ba830299f4a68c0d0`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`04e4b164f703fd1a65725691d4d8c4e95eca8fe9`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -13,9 +13,11 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 [open§7](open.md)及各完整note保全部源参、原预算/费用/未知；自然science返回才启动whole pure，trial不代accepted/final，异source/model不借同坐标数值。19–32各自终态及README异常保上述固定全文和[独立日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)，已登记结论不重做。
 
-[33 retry](notes/2026-11-28-run33-section16-retry.md)：46133839513/job140944661119，两input0，source bffd5bbf/PID3463/model61c654。初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052；全步291f394完整g16.64809271107871/reach拒，半步8e3194c完整reachg7.789641579575506拒；四分步1ea6125统计Phi693.2773822139695/Gram.4068851236763789，完整几何待。自然science返才pure62854，138角色/原全预算不变。
-[34完整](notes/2026-11-28-R730-R729-run34-complete-launch.md)：46135301432/job140949157288，source c3228e9d/PID3687/model989fec。初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736，完整reachg4033.8205903217813/K33159.051287192604；全步b36a1d完整reachg630003.3274714495拒；半步ea4bb111统计Phi64186.528482859125/Gram2.9404923519415433，完整几何待。139角色/24runtime/全原预算保，自然返才pure66120。
-[35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，source2c8739ed/PID3435/model726006。初7e06/accepted0，完整reachg601.642125582291/K4938.754785337882；首全步5f0a784完整reachg1735.2651699360226拒；半步65983a0统计Phi172140.83283801825/Gram4.592806585851207，完整几何待。139角色/24runtime、1,333,370 outer全自由、713/719+64live及原预算保；自然返才pure74162。
+[33](notes/2026-11-28-run33-section16-retry.md) 46133839513/job140944661119：原全预算/138角色，accepted0；全步/半步reach拒，四分1ea6125统计Phi693.2773822139695/Gram.4068851236763789，完整几何待。自然返才pure62854。
+[34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432/job140949157288：原全预算/139角色，accepted0；全步b36a1d完整reachg630003.3274714495拒；半步ea4bb111统计Phi64186.528482859125/Gram2.9404923519415433，完整几何待。自然返才pure66120。
+[35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293/job140957485768：139角色/1,333,370 outer全自由及原全预算，accepted0；全步reach拒，半步65983a0统计Phi172140.83283801825/Gram4.592806585851207，完整几何待。自然返才pure74162。
+
+33–35全部初值、源/model/PID、每个拒绝数值和完整预算保各ownnote及[此前完整状态](https://github.com/Rogerhu12/math-research-public/blob/7773737d03bb218fe3a20035f74e8baa9e80bab3/topics/visible-flex-larger-amplitude/HANDOFF.md)，未删减科学任务。
 
 36、37、38全原阶段自然返回且未达标；固定g末独立Gram分别2.17427627577303、.670383394669527、9.607780255855785。R742右柄8×3也未付全K。所有源参/点/预算/失败未知与完整ownnote路径逐字保[此前H](https://github.com/Rogerhu12/math-research-public/blob/a38135aea53800ecf8dd1a31119cc08c02b683f1/topics/visible-flex-larger-amplitude/HANDOFF.md)，不重做。
 
@@ -31,6 +33,8 @@ R746–750全部完整证明/源/条件与数值见[索引](results.md)和[本�
 [R751全闭混合](notes/2026-11-28-R751-curvature-mixed-atlas-complete-launch.md)：真实晚相位 .00015 材料弧贯穿双全圆端及双帽 .0001 内领准确同g，剩余圆周未付；旧锁中央端部捷径<.801/终弦>1.17严格排除全补齐。原3层×7相位×9图完整测量现触发，actual待。
 
 [R752新全闭初g](results/R752-cap-shortcut-and-delayed-turn-central-chord-compatibility.md)：Y=.37/e=.81/b=1/1024低角长肩支付所有中央点对、全相位、穿越真帽任意初路径的弦长必要条件；D0<3.49/reach>.105/grip≥.72/held>1.521/δE>0。双全圆端同g仍欠，41继续；旧锁中央误差>1.01且须动一点>.194。
+
+[R753中央与双帽自由](results/R753-spatial-rectifying-cylinder-and-independent-ruled-cap-fans.md)：真空间rectifying柱与两独立直纹fan帽各自完整精确同R752初g，四缝C²明确；命名小场reach≥.107/held>1.521/δE>0。三种材料运输、双帽各6位姿及双卷三物理分量供41联合解；整卷同g及大control几何仍欠。
 
 ## 数学范围与完整输入
 
