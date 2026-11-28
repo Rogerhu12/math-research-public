@@ -24,6 +24,8 @@
 
 [R85](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)已给完整系统真实末端行的rank≤M更新和fixed-g的25维联合块，保所有原未知/域门/8outer。[完整24列](notes/2026-11-28-analytic-complete-terminal-response-basis-actual.md)及[端口初猜](notes/2026-11-28-analytic-boundary-dn-initializer-actual.md)现已真返：全64191行port-forcing残差5.4210e−18，literal小S有Fraction逆证书；完整mesh/pscale同但y/p不同，仍旧点chord。[完整q列/25联合块实算](notes/2026-11-28-analytic-complete-fixed-q-dn-chord-actual.md)现给混合点χN=2.47108106147e−5、保全F_L的固定δ全仿射残差1.362e−18；当前J差/非线性域与原BVP/8outer仍继续。优先利用这些全量列响应减少重复大J，不冒称旧Robin χL已支付fullDN固定g可逆。
 
+[真实λ1完整QR-DN入口](notes/2026-11-28-tail-lambda-one-complete-qr-resource-entry.md)已准备并按原源码核同；真正accepted λ1 summary到来后，原native4/chord3/8outer及最终physical-H完整门直接接入。新source_kind/真实mean/4/5相位明确，不冒旧streamed或旧M24来源；当前只有入口检查，尚无正向耦合结果。
+
 ## 3. 同一完整问题的精化
 
 冻结最终δ、全部轮廓/warp校准、核心或声明的同一未知函数空间、源Cartesian mean/primitive、尾背景和完整时间域。R53原支持族与完整baseline+零phase是不同的合法未知空间，须选定并如实说明。旧actual-refine KIND/1168分支不覆盖新高M/新mean；只改标签不合格。

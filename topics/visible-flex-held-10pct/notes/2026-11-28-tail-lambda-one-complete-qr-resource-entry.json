@@ -1,0 +1,147 @@
+{
+  "schema": "actual-lambda-one-complete-prefix-QR-resource-entry-recovery-v1",
+  "status": "exact_source_recovery_and_import_compile_checks_completed_no_lambda_one_numerics",
+  "entry_scope": "Original full native4/chord3/eight-outer equations and gates with full prefix CSR/QR resource execution",
+  "sources": {
+    "prefix_actual_dn_qr_driver.py": {
+      "bytes": 12962,
+      "sha256": "a589e67328c456b85c08f00097f7b6e37327c0625f6d6b5e1085c36d3aad2333",
+      "detached_blob": "fabcb95d8d3006e4c22f22e47dc3f8d1608c9259"
+    },
+    "continue_original_actual_dn_qr.py": {
+      "bytes": 33412,
+      "sha256": "d716cbf3d6c82c1bbe83675218efc7016a6f42c3ec67adb63e03187cefa5fafa",
+      "detached_blob": "9003154d362dbee22a3300175950cb4862372d50"
+    },
+    "qr_actual_coupled_prefix.py": {
+      "bytes": 18114,
+      "sha256": "17cf2884fa337ef3a72d23064d2d68dc45973e97ff6722e09fa850fd317bc98a",
+      "detached_blob": "3bf0d439ce83da09b427d5f39550d1231c77ba85"
+    },
+    "run_lambda_one_actual_dn_qr.py": {
+      "bytes": 9089,
+      "sha256": "91dfd5909432ed914b0d9e8a20181c56ca16dac205a308f4d5b468b61049469e",
+      "detached_blob": "98c7cc3c00736044097546d7a1e23493f3dd5bd1"
+    },
+    "qr_coupled_prefix_continuous.py": {
+      "bytes": 21283,
+      "sha256": "ef56ab160c7ebf2a16a8fe33901dad2da426d1d8ae71853b645300a53aee0b5c",
+      "detached_blob": "b593e8025f21bbab11c9d2c278bef39f13725e81"
+    },
+    "qr_actual_closed_map.py": {
+      "bytes": 21015,
+      "sha256": "57b39a97d9d5abcd3ae7dfb17697addb67a8094efba375996ea268a44068d92b",
+      "detached_blob": "a804930d83fb718764d01998841d16c15492bb66"
+    },
+    "qr_complete_tail_radius_identity.py": {
+      "bytes": 16013,
+      "sha256": "65513a57f2dcbfaed42c40c6c7a91cb87540f1b53a1fc7b89917f6becb8fb53b",
+      "detached_blob": "2045480ef4a1ad1d41c777e84ad4c527544d21a8"
+    },
+    "qr_export_actual_closed_mesh.py": {
+      "bytes": 17955,
+      "sha256": "6c050d032c65503c12ebd70c7c64d5d5f5dc7e7e40f9fa941cb218063c92d61c",
+      "detached_blob": "1eed4b63c359d02c229eff0e80bc2dbfd6e7fb15"
+    }
+  },
+  "recovered_checkout": "7b9c69332bafbfd4a234938709544ba9573e3c13",
+  "original_coordinator": {
+    "path": "scripts/resume_20261126/continue_original_actual_dn_chord.py",
+    "sha256": "7a1ce40d5141c08f4d76b2bc201f3113b04d02f12f60c06809a9053ba03321cc"
+  },
+  "original_reader": {
+    "path": "scripts/resume_20261128/analytic/chord_actual_coupled_prefix.py",
+    "sha256": "5c1e816af142b8d2f5cc8cba43d840c5bc352a032a9be212e9581f753efd625a"
+  },
+  "previous_actual_checks": {
+    "terminal_session": 71238,
+    "observed_returncode": 0,
+    "summary_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-lambda-one-qr-entry-checks-20261128-a/summary.json",
+    "summary_sha256": "54f898948e10c8c57e5921f7d2c5caec2da1e1d6474f3e42b38600df8ba42078",
+    "previous_note_sha256": "e36f2f1d301295971408d614b367a59ff37e3e20c279c58df46f1865d7451464",
+    "previous_note_json_sha256": "e8d37a5d17298e8e156e48ef706207681db54fd7db55d0433a92d08ea0b778eb",
+    "old_scratch_report_body_available_after_reset": false,
+    "old_report_reconstructed_or_runtime_durations_invented": false,
+    "eight_sources_compiled": true,
+    "seven_help_invocations_returned_zero": true,
+    "original_blocks_byte_equal": [
+      "complete source and baseline contract",
+      "native preparation through original tail config",
+      "actual finite gates and saved return",
+      "final physical-H packet and binding"
+    ],
+    "unchanged_geometry_classes_AST_equal": [
+      "ActualFiniteTailV2",
+      "ActualCutTarget"
+    ],
+    "mesh_algebra_functions_AST_equal": true,
+    "actual_negative_source": {
+      "run_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-design-20261128/positive-secant/attempt-003/run.json",
+      "run_sha256": "7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88",
+      "actual_lambda": 0.128,
+      "modes": 24,
+      "coordinator_returncode": 1,
+      "error": "A real lambda-one source is required before any native preparation",
+      "actual_stages": [],
+      "native_or_BVP_child_spawned": false
+    }
+  },
+  "after_reset_observations": {
+    "sources_exact_SHA_equal": true,
+    "eight_compile_returncode": 0,
+    "help_returns": [
+      {
+        "file": "continue_original_actual_dn_qr.py",
+        "returncode": 0
+      },
+      {
+        "file": "qr_actual_coupled_prefix.py",
+        "returncode": 0,
+        "scope": "This reader has no CLI body; invocation checks imports only."
+      },
+      {
+        "file": "run_lambda_one_actual_dn_qr.py",
+        "returncode": 0
+      },
+      {
+        "file": "qr_coupled_prefix_continuous.py",
+        "returncode": 0
+      },
+      {
+        "file": "qr_actual_closed_map.py",
+        "returncode": 0
+      },
+      {
+        "file": "qr_complete_tail_radius_identity.py",
+        "returncode": 0
+      },
+      {
+        "file": "qr_export_actual_closed_mesh.py",
+        "returncode": 0
+      }
+    ],
+    "real_negative_input_recomputed": false,
+    "old_1152_stage_certificate_recomputed": false
+  },
+  "changes": {
+    "native_workers": 4,
+    "chord_max_corrections": 3,
+    "outer_max": 8,
+    "full_modes_preserved": true,
+    "prefix_linear_algebra": "full original CSR/QR",
+    "prefix_radial_rhs_block_default": 8,
+    "final_fullH_fresh_J_height_J_and_audit_required": true,
+    "actual_final_physical_H_separate_from_raw_H": true,
+    "source_mean_rule": "max(audit-angular,16*(3M+1)); original GL6",
+    "V5_analytical_delta_derivative_explicit": true,
+    "native_M_scope": [
+      1,
+      64
+    ],
+    "R87_phase_end": "4/5",
+    "R87_held_width": "27/50"
+  },
+  "no_actual_lambda_one_return": true,
+  "no_new_fullH_or_outer_or_geometry_or_mesh_computed": true,
+  "completion_claimed": false
+}

@@ -428,3 +428,6 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 
 ### 2026-11-28 17:28 UTC — Astra-held10-7c4e33ee-20261128
 补登旧R87 λ=.256/M40实际返回：952点、RMS9.691444491e−7、BC5.89278e−11、mean1936、δ=.06810713649643507；metric1.248439224e−6未门，未接受。M32→M40的metric平台与δ仅差1.94e−10给更严径向tol2e−7的实际理由，不称严格归因。原raw/physical/小JSON遗失，恢复文件保当时已读SHA并明示非逐字恢复，runSHA未知不补造；M48后继无接受，89083真exit1原因未知。继续R87必要输入恢复与严格tol完整设计，见M40 recovered-observation两件。上一恢复条的人工时间标签17:29更正为17:27补记，实际两库pull回执内容不变。
+
+### 2026-11-28 17:30 UTC — Astra-held10-7c4e33ee-20261128
+发布真实λ1完整QR-DN八源：原native4/chord3/全部H与freshJ/heightJ/audit/8outer不变，完整前缀CSR/QR/V5接线、实际argv/sidecar、最终physical-H与raw分列、真实mean和R87显式相位合同完整。八源与重置前SHA逐一相等，恢复后compile/7次help或import真0；此前真λ.128负向在native前拒绝的实际历史保留，不伪造已失原小报告字节。未有正向λ1/新尾/闭面，继续真设计；见tail-lambda-one-complete-qr-resource-entry两件。
