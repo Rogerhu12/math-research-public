@@ -119,3 +119,15 @@ root手核Vélu与sigma加法的全部符号、目标quasiperiod差、原theta�
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:49:27 UTC到7ed70fa5eb63b0d2aaf4000baa8544018be898d7，私库2026-11-28 12:49:23 UTC到6e269d66b7ddfd56b8810339e8acd61d53c0eb95；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47083174B/treeb090eb69a2768fb6643308fc1eab39fd36680760，无>5MB。
 
 推送前实际本地双pull（本次发布第4次）：公开2026-11-28 12:49:41 UTC到1710d366bec871ab84d4f6f0b7db8b62cb120d27，私库2026-11-28 12:49:37 UTC到0ac2addfc36de7baf99aeb3416a317af026ebeb6；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47083174B/treeb090eb69a2768fb6643308fc1eab39fd36680760，无>5MB。
+
+## 2026-11-28 12:50:26 UTC：R1071 §14：原U17点和准确确定两直接有限图的正负长度
+
+根核原U17在特征零由完整CM新form得到整点对应零，再良好特化；完整分母36/612/10404到9/153/2601标号与29轨道均保。原三挠值分离及Artin共轭使两真实端点共享唯一薄单极；准确有限两图余长与原A0公共零已付，不写不存在的HNF/outer执行结果。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:51:01 UTC到b35dbeb6ee5a7a9b59ba96738fcd5b1615733628，私库2026-11-28 12:50:52 UTC到cd90b262dc53bb5a0601b41056f406e0c2405a78；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47093193B/treebf4940180319dc1bdcbe4576c4c18c2e8bfa5732，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:51:16 UTC到06a7dfa3b82723f59debd0ff0e333b89bb085e1f，私库2026-11-28 12:51:11 UTC到5f24cf390a2bd42a7a3bac0bf2c20f94359a9c4c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47093193B/treebf4940180319dc1bdcbe4576c4c18c2e8bfa5732，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:51:31 UTC到ab519d6cf0e1daf1c28c44f484084af2f41e27ec，私库2026-11-28 12:51:26 UTC到5f24cf390a2bd42a7a3bac0bf2c20f94359a9c4c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47093193B/treebf4940180319dc1bdcbe4576c4c18c2e8bfa5732，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 12:51:45 UTC到c7ed9bc9df7a5ef637621bdf797bf773ea6e3cc9，私库2026-11-28 12:51:41 UTC到cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47093193B/treebf4940180319dc1bdcbe4576c4c18c2e8bfa5732，无>5MB。

@@ -376,3 +376,7 @@ source6b17ab13cc4d1d38b4854403e5abf9ab471e7bd3/run46145004405/job140978975713的
 ### R1071 §13：原A0真实素域分式与每一步完整附块度帽
 
 原A0被逐常数Frobenius固定，原N=N0+αN1、D=D0+αD1的同号非零分量满足NiD=NDi；两图按原权12交叉回核后可在F29求同一个G13，再全原域/原N,D/完整外门验证。真实好不可约π度≤3，厚总度21/22；原D的3670度及其纤维单位不转嫁。有限图U1还严格限制每个Popov旧行、商乘行及更新附块次数≤18，不仅最终行；不作RSS或执行PASS主张。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
+
+### R1071 §14：原U17点和准确确定两直接有限图的正负长度
+
+原特征零U17整映射恒等式与全部18尖点标号，结合原A0的两度8处D∞单位和16点F29轨道，迫厚尖点像−T、全部中间像T。三原Artin映射保相同有理三挠值，唯一薄点真单极。因此两直接有限图负长度2255、正长度2256、U1；原A0有限公共零1415、无穷公共零1。没有在正特征由微分零推出常值，反图仍另付。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
