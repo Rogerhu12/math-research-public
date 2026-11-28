@@ -224,3 +224,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 ## 2026-11-28 12:06 UTC — R77：同一 .064 场完整连续 metric 真完成
 
 精确继承1328旧叶，原enclose只续107次、2split/105新叶，92.332s返回1433完整叶；全角/全phase上界精确<98773/1e11<99/1e8。root复核全叶Fraction单覆、旧前缀字节、11源hash及R76同图绑定；全前缀/桥已付，尾/cut/闭图/λ1未付。见 [R77](results/R77-lambda064-same-cartesian-prefix-continuous-metric.md)。
+
+## 2026-11-28 12:19 UTC — 新真 fullH 首段完整有限谱连续界
+
+原stage0流水线真实13.757s返回，170 planar+25 height全谱，metric上界3.59999724518074e−8、K上界8.177308001953627，两原门通过。root复核23个源/输入/输出SHA；证书仅stage0，完整尾/闭图仍欠。179636KiB是真child rusage，失覆的/proc sampler不能作总峰界。全尾分批保既付段继续。私库12:11:39UTC实际pull至df5208252bd9dd6cfb6445da7423aecd77f63142，双README空diff、QUEUE仍本会话。见 [记录](notes/2026-11-28-tail-actual-fullH-stage0.md)。

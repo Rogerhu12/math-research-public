@@ -1,0 +1,155 @@
+{
+  "status": "actual_full_spectrum_stage0_continuous_bounds_returned",
+  "pipeline_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/summary.json",
+    "sha256": "2628e5cf6f4e8821327a7e973b9269042c787abc9bc5752476696b4157a0a781"
+  },
+  "actual_fullH_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/summary.json",
+    "sha256": "a2c1b51d66f7e3777c0f769059cd4c7fee0ce878ba67c5de6caaf2815be617d0"
+  },
+  "actual_fullH_packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+    "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+  },
+  "actual_stage0_result": {
+    "finite_scope": {
+      "M": 24,
+      "quadrature": 512,
+      "spacing": 3
+    },
+    "degree": 254,
+    "spectrum_contract": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/spectrum-contract.json",
+      "sha256": "36beb8cf3dadf3763f8ae741c8bc4dd20517f4d5efaf26abfb42449af1d206b9"
+    },
+    "geometry_bundle": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/geometry-bundle.json",
+      "sha256": "120d43923a82b3f8feb1fc865e956872cb516bf449b9c092a558b9a747cec0a6"
+    },
+    "tail_certificate_summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001/summary.json",
+      "sha256": "cc0931d8279b1a1f0195bf84c7206856ea36ed97b3fc2ea4f880909c4db9aaae"
+    },
+    "certificate": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001/stage-0000.json",
+      "sha256": "7380db055a863c5d7f4199e3fd6c0f5c20223f73aed3752ce5193d62cf2a92a8"
+    },
+    "metric_gate_passed": true,
+    "curvature_allocation_passed": true,
+    "metric_upper": 3.59999724518074e-08,
+    "curvature_upper": 8.177308001953627
+  },
+  "resource_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/geometry-stage0-resources.json",
+    "sha256": "5bbc9d0c8e028dfa8bd89f55d981720c82a43254c463e93c97a3f5446925e04d"
+  },
+  "autostart_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_stage0_after_full_height.py",
+    "sha256": "51789e5f86606f65e7d0020e2db7aeb1918ff41a7c175303c90ce7a03e375406"
+  },
+  "pipeline_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_run_tail_geometry_v2.py",
+    "sha256": "c165678d912761163ef29cfca1eb9c4dfc4bbf3102de6a00b228ca537f727615"
+  },
+  "full_spectrum_M": 24,
+  "full_spectrum_quadrature": 512,
+  "full_spectrum_spacing": 3,
+  "planar_degree": 254,
+  "complete_planar_mode_count": 170,
+  "complete_height_mode_count": 25,
+  "selected_stages": [
+    0
+  ],
+  "all_1152_stages_exported": false,
+  "complete_geometry_loader_can_accept_this_partial_bundle": false,
+  "stage0_recomputed": false,
+  "output_files": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/logs/stage0-certify-001.log",
+      "bytes": 423,
+      "sha256": "b4f45fb1087bd7559f098849d6426119ebbce6bed46ac4092f3e10316b072171"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/logs/stage0-export-001.log",
+      "bytes": 1051,
+      "sha256": "a3e922bfce7690d926f74a6d18b2e2baeade3a17d937fbc515f67460791396e9"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001/stage-0000.json",
+      "bytes": 70562,
+      "sha256": "7380db055a863c5d7f4199e3fd6c0f5c20223f73aed3752ce5193d62cf2a92a8"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001/summary.json",
+      "bytes": 17320,
+      "sha256": "cc0931d8279b1a1f0195bf84c7206856ea36ed97b3fc2ea4f880909c4db9aaae"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/canonical-boundary-node-index.json",
+      "bytes": 4249,
+      "sha256": "64a44a1d69e339f3760c74ce6a10cce76880e600dda265bc3a2fd90edd37fb43"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/geometry-bundle.json",
+      "bytes": 14154,
+      "sha256": "120d43923a82b3f8feb1fc865e956872cb516bf449b9c092a558b9a747cec0a6"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/original-native-mean-chain.json",
+      "bytes": 1363861,
+      "sha256": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/shared-R-stages/manifest.json",
+      "bytes": 15492,
+      "sha256": "afbd8bce24161b8dac7ff47581565ccb5f6db6a76f9b19cd25dd7b871a43c054"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/shared-R-stages/stage-0000.json.gz",
+      "bytes": 195304,
+      "sha256": "3daf223ed2c8c7d408f16bae9f3a2c850935c287ea182e2e4b0aa1dc149c9ca9",
+      "uncompressed_bytes": 485821
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/spectrum-contract.json",
+      "bytes": 3270,
+      "sha256": "36beb8cf3dadf3763f8ae741c8bc4dd20517f4d5efaf26abfb42449af1d206b9"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/step-0.log",
+      "bytes": 297,
+      "sha256": "4fe421972c8a3ff33813e008ea0d4bdb3671c33e2773be3b530e3e7bceab7568"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/step-1.log",
+      "bytes": 365,
+      "sha256": "7e00edebad1830aa7ff45942f50528325431261473c4212b8d998e708b84b56d"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/summary.json",
+      "bytes": 16597,
+      "sha256": "2628e5cf6f4e8821327a7e973b9269042c787abc9bc5752476696b4157a0a781"
+    }
+  ],
+  "total_stage0_output_bytes": 1702945,
+  "stage0_wall_seconds": 13.756598108997423,
+  "observed_child_rusage_maxrss_KiB": 179636,
+  "descendant_RSS_sampler_coverage_failed": true,
+  "sampled_tree_peak_is_not_a_valid_peak_bound": true,
+  "resource_limit_explanation": "The /proc sampler reported about 11.8 MB, below the real child rusage peak of 179636 KiB, so it did not observe all descendants. Do not use its sampled_peak_summed_tree_RSS_bytes field as a total memory peak or upper bound. The independent getrusage reading is retained as the observed per-child/descendant maximum, not summed simultaneous RSS.",
+  "capacity_extrapolation_not_proved_bound": {
+    "stage0_gzip_bytes": 195304,
+    "stage0_uncompressed_bytes": 485821,
+    "stage0_certificate_bytes": 70562,
+    "stage_gzip_times_1152_bytes": 224990208,
+    "stage_certificate_times_1152_bytes": 81287424,
+    "shared_mean_chain_once_bytes": 1363861,
+    "estimated_full_geometry_and_certificates_bytes_range": [
+      320000000,
+      340000000
+    ]
+  },
+  "original_worker_audit_is_not_used_as_continuous_metric_bound": true,
+  "complete_surface": false
+}
