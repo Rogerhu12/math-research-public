@@ -1,0 +1,101 @@
+{
+  "scope": "Compare original and cached Jacobians on a genuine saved BVP iterate.\n\nNo BVP solver is called and no new field is accepted.  The original portable\nproblem constructor consumes a copied actual snapshot, then the same full\nstate is evaluated unbatched, with the existing block-eight grouping, and\nwith the new read-only CSR cache.  Generated arrays remain outside Git.\n",
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-recovery-20261128/q006_linear_m8/run.json",
+  "source_run_sha256": "945ac71eb5800c969e46064d3fe8c62302a73d54f4310f1b79841030419c0183",
+  "snapshot_sha256": "3835c1c69445cee9a0975eae4ba01fc5028432703363fcf3994d1add081ed310",
+  "source_sha256": "85a3482760f4771f97f7f596e56bdd77a6b16774676221ccd236fd43e7322887",
+  "cache_sha256": "c5208f1ebd548dd315e9476dac9495d548e13f8c21ffaec2ce7857e09ae73df6",
+  "portable_sha256": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+  "nodes": 598,
+  "dimension": 25,
+  "modes": 8,
+  "original_vs_block8": {
+    "rhs": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 4.672902296140471
+    },
+    "dy": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 40421.41672286058
+    },
+    "dp": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 71.10709634217116
+    }
+  },
+  "block8_vs_cached": {
+    "rhs": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 4.672902296140471
+    },
+    "dy": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 40421.41672286058
+    },
+    "dp": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 71.10709634217116
+    }
+  },
+  "cached_cold_vs_warm": {
+    "rhs": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 4.672902296140471
+    },
+    "dy": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 40421.41672286058
+    },
+    "dp": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 71.10709634217116
+    }
+  },
+  "times_seconds": {
+    "original_full": 3.1419273199999225,
+    "original_block8": 16.82097197300004,
+    "cached_block8_cold": 6.892235267999922,
+    "cached_block8_warm": 7.553419322999844,
+    "cached_block64": 2.00259386200014
+  },
+  "original_vs_cached_block64": {
+    "rhs": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 4.672902296140471
+    },
+    "dy": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 40421.41672286058
+    },
+    "dp": {
+      "max_abs": 0.0,
+      "exact_equal": true,
+      "original_max_abs": 71.10709634217116
+    }
+  },
+  "maximum_rss_kib": 106496,
+  "actual_cache_stats": {
+    "hits": 159,
+    "misses": 1,
+    "key_seconds": 0.02193104999901152,
+    "build_seconds": 0.028074430000060602,
+    "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+    "full_basis_and_frequency_bytes_bound": true,
+    "live_flow_or_physical_response_cached": false,
+    "shared_diagnostic_dictionary": false
+  },
+  "BVP_solver_invoked": false,
+  "accepted_field": false,
+  "original_acceptance_gates_changed": false
+}
