@@ -17,9 +17,11 @@
 | [R304真H65宽C3双厚臂](results/R304-C3-thick-closed-family-complete-reach-and-strong-shape.md) | 3.743027 | ≥.115 | >.2083874 | >.0555961 | 径向g误差>.85 |
 | [R305–R307真紧凑192](results/R307-compact-p32-192-full-closed-surface-reach-and-strong-geometry.md) | 3.1644 | ≥.097 | >.2149993 | >.0511992 | 原g约.1654 |
 
-三者各自全时嵌入、固定有内大H与完整厚度已付，不能互借或移给后继改位置。R304绑定run46160322325的cf81f6c2dfaa36b6881e4f529dcd1b61cb5fb7a520720a6706880b44c07b85c2真场，全部769非负通道/真实中央/末端三迹已消费。R307绑定规范192输出3f8ed0f79a45d02ad70207180463fb9294fe3c41269510a04e85ecb3ccc50612；32392曲率叶及1698662点对节点未决0。
+三组各自完整几何已付，不能互借或移给后继XYZ。R304绑定run46160322325的cf81f6真H65；R307绑定规范192的3f8ed0f7，32392曲率叶/1698662点对节点未决0。
 
-紧凑支同192整个g：396→720真位置独立峰.1477752→.1310143；[R308](results/R308-compact-p32-short-meridian-obstructs-all-fixed-boundary-clocks.md)用真实短经线排除任何保两端圈同图二维重参误差≤.0158444。100真钟全域Jacobian>.92573可转移R307几何，但G11仍.146806。已转真法向位置、各材料角经线长度及新非解析无限反馈尾，全部原行/交项保留，不把改g搜索算精化。
+紧凑支：396/720同g独立峰.1477752/.1310143；R308严格排除原192同图保端二维钟误差≤.0158444。V44/45法向位置和49经长根，G11峰.142489/.142248；R313给全时嵌入、D≤3.1644、held/D>.20279、δE/D>.05068，新reach未付。V46的1100真径钟把径误差降到.003929但剪切.1534使全谱升.19496。
+
+R314已证明反向Prüfer全无限平领和非零C²二次无穷小模，层增益>10、宽<48δ，四次缓段真匹配w/wr；非有限幅精确解。V47/48把整∞实接原192 g：G11峰.214255→.142637、κ11.7375，真实540XYZ/135步，不能借原法管。现改真实中央径向目标并保完整尾，再作同g径角精化。
 
 ## 主输入：真D3圆弧和完整原R262尾
 
@@ -29,19 +31,21 @@
 
 **实际输入已恢复**：run46157156458已自然完成。新原场e3e6640b2fa93677fc3a00334de300fcf1473a2799f7d4561cbe07e695f25d3a不同于5778，旧全闭证书不转移。cut c=.78/low=.35粗态538a7ecc…实际4步峰.02607782，固定g h1 a405277f…峰.01060335、κ7.55033、support.381938、|X|max1.893607；旧门内13共同径行故不能声称独立全径或连续误差。保全旧圈LP .66/.35峰.048006、κ10.87079，其h1零接受，已记录失败。
 
-**继续执行**：新公开workflow 2ecf-visible-flex-r262-live-refinement.yml按scripts/2ecf-r262-live-work-orders.json重建必要父态后，直接对每物理span/全门独立径网40→80单元、30→48模式同g h2，再增加真U0材料角位置列；实际高帽/原尾/厚臂整像与连续核独立消费新场。worker保持本job临时数组并轮询新科学工单，输出每项独立推；没有数组Git/Release/artifact。S/Sf ulp、真实T1、每个新jet均付。
+**继续执行**：公开run46164243725/job141038130820，scripts/2ecf-r262-live-work-orders.json逐项消费同job临时实数组：必要父态恢复后，全门独立径网40→80/角30→48同g h2；同一空间完整带状Newton；真U0额外位置；新整像/连续六jets。另作.545累计降量+强形状LP两low、λ=.25/.5/.75/1真实曲率原函数/cut同伦（每幅新g），末态再冻结；实际新原尾R249/R253/R252独立消费。未运行项不算结果，S/Sf/T1和有理总积分全部付。
+
+R312已给原真臂高帽组合；R315新.35末直.98/.46保持中央reach≥.115、两臂距>.49522。若同一外核rho≤1.56、norm≤1.915及(2.252+rho)²+(.233+|z|)²≤3.830²，则整D≤3.830、held/D>.20222、δE/D>.05440、diamH/D>.3477；尾/前缀/厚度仍按实际场付。对应完整consumer已入工单。
 
 strong做原高帽整像/真实臂组合；exact做完整原圈的实际大幅输入及真实连续核；m12做紧凑核的新位置和无限反馈尾。R298/R304/R307已完整几何不再重证。
 
 ## 已知失败、环境与规则
 
-run46158716329全活动段大相位/联合初相g均未达；小相位.000580→.000571平台不算精化。R303薄件reach<1/320，R279/R290/R292原像失败已留。R276及相邻课题R731有限解析限制不排C²非解析极限，不因此停。全部旧费用/源参/失败在[前open](notes/2026-11-28-2ecf-open-before-true-d3-height-inputs.md)、[前H](notes/2026-11-28-2ecf-handoff-before-true-d3-height-inputs.md)、results/notes/log；R1–R219在results/archive-index-2026-11-28/INDEX.md。
+原small eta1/8192实际3层只有首层2接受到1.115e−5，后两层0接受，平台不再重跑。run46158716329全活动段大相位/联合初相g均未达；小相位.000580→.000571平台不算精化。R303薄件reach<1/320，R279/R290/R292原像失败已留。R276及相邻课题R731有限解析限制不排C²非解析极限，不因此停。全部旧费用/源参/失败在[前open](notes/2026-11-28-2ecf-open-before-true-d3-height-inputs.md)、[前H](notes/2026-11-28-2ecf-handoff-before-true-d3-height-inputs.md)、results/notes/log；R1–R219在results/archive-index-2026-11-28/INDEX.md。
 
 初始partial clone和literal pull已做；根/题完整读于3138f2d6564d66a92968cb963a904fad0dab5bd4，私根db8c308d5df4b018c12e225e2267064403f20208；旧H/open/log/notes与文献核查已接续。私QUEUE当前“进行中（Astra-visible-flex-2ecfcd69-20261128 / 2026-11-28）”，基础完成/强比例继续提交5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
 root独占main；exact_analysis_ultra、strong_geometry_ultra、m12_solver_ultra均显式gpt-6.2-astra/ultra。每结论一推，先pull后查根/题README差，至少每小时；NFF立即pull --rebase重推至成功，禁force。根§12不增独审/重跑/冻结/驻值门；§13公开Actions；§15仅源码/参数/run/SHA/小结论，H<10KB、MD<100KB、topic<200MB，不写根LOG。强比例、厚度、同g容差与真精化必须同一对象，held是像Hausdorff，所有分母是整D。
 
-14:34 UTC本执行器失联，后续重试仍unavailable；小文本API与Actions继续。旧根/workspace/scratch/2ecfcd6930d6及partial clones保留，恢复先literal pull并读README差。原2400字节未恢复，60d6d3c/a8069be仅明确来源恢复记录。最新API核至bfc9806ebba64aadbf14fa058afe2088e87c7812，根/题README无变化，API不冒literal pull；最新两库真实pull见下行。
+14:34 UTC本执行器失联，后续重试仍unavailable；小文本API与Actions继续。旧根/workspace/scratch/2ecfcd6930d6及partial clones保留，恢复先literal pull并读README差。原2400字节未恢复，60d6d3c/a8069be仅明确来源恢复记录。最新API核至8d4b508d0846e2940d65be8b15338f0421b82133，根/题README无变化，API不冒literal pull；最新两库真实pull见下行。
 <!-- 2ecf-rules --> 本机停摆前最后真实pull：2026-11-28 14:30:28 UTC，公开a8bb8583083f13d9aaafb0366447b8e5911acc45，根/题README无差异。
 
 <!-- 2ecf-actions-rules --> Actions run 46164243725/1：真实 pull/rebase 2026-11-28 16:17:09 UTC；公开已读 7214ec35e03c2119ae35afede5174cb9a8abc749，根/课题 README 无变化。 私库真实 pull 2026-11-28 16:17:07 UTC、已读 28e792b616e8cf08466ba1130560d25d3257b468，私根无变化。
