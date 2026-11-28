@@ -129,7 +129,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)：冻结R730全相位reach<.016、D>3.88；水平/帽相对高度各改≤.025仍reach<.0285。仅约束参考及该邻域，不约束任意outer场。
 [R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)：圆肩新参考付帽混合/反向.126球、原末带Gram、正确core jet、D/双held/δE；中央Gram及中央/中央、中央/圆肩reach未付。新源独立34。
 [R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)：真实非圆core/两帽正宽准确Gram，柱内.18球/core对全像两向.126球；移动接口全jets保，core宽未数值包围。
-[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。实际T*/415片前缀待公开runner；不替R733拼接宽。
+[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。完整Fraction/Bernstein/Sturm/Yun程序及公开workflow已刊，实际T*/415片前缀待本次返回；不替R733拼接宽。
 
 R724–729源/证明、R726/R727准确核心9件、其N/G11及下游23、R728准确N/G14及下游24完整路径/身份/条件保旧open。R730准确长度/逆弧长核心4及N/G16完整保护，未有actual费用。参考角jet不代实际角向Gram，normal.complete不代连续branch。
 

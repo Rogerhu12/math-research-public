@@ -525,3 +525,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:43:31 UTC — RET100A：完整可再生原29索引及当前主线
 
 原run46110194444的两项已终态输出47321B改为两whole固定Git索引与完整再生器10053B，净37268B；40193B原请求、八项已刊真实event及七项完整literal恢复原字/原hash。原05:08容量失败和后续retry独立。H/open旧全文固定c341d7b保留，登记33retry/34各自两input0及science实际源，不冒最终结果。 双README云核至`339b1934da5cff198d85e52feaafe111e07a6da0`无变（非pull）。
+
+## 2026-11-28 10:43:58 UTC — R734实际首片宽及全415片协作前缀计算
+
+新增公开workflow .github/workflows/visible-larger-r734-exact-core.yml（课题外，为本题精确标量计算）。完整r734_exact_core_and_prefix.py经原maker/FullHold及五源固定身份恢复原accepted；所有实际调用依赖为标准库，hold仅检查hash不导入数值模块。全415片五谓词含重根/端点严格符号，48有理二分，raw全行只runner、完整小结回main。无F/J/normal计算，无完成声称。 双README云核至`f9554cce91f00d3d80a859a1526d19dfb3fdd6fb`无变（非pull）。

@@ -1,0 +1,88 @@
+name: Determine R734 core width and all fixed Hermite signs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/scripts/resume_20261126/r734_exact_core_and_prefix.py
+      - .github/workflows/visible-larger-r734-exact-core.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-complete-r734-Hermite
+  cancel-in-progress: false
+
+jobs:
+  exact_core:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-full-hold-oracle.py
+            /topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-inward-integral-enclosure.py
+            /topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-geometry-inward-chord-cover.py
+            /topics/visible-flex-larger-amplitude/scripts/parallel_20261117_negative_hold_profile_ivp.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/deep_valley_tail_input.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r734_exact_core_and_prefix.py
+            /topics/visible-flex-larger-amplitude/notes/r734-actual-Hermite-*.json
+      - name: Recover the full original, calculate every piece and publish its compact conclusion
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        shell: bash
+        run: |
+          set -euo pipefail
+          topic=topics/visible-flex-larger-amplitude
+          script="$topic/scripts/resume_20261126/r734_exact_core_and_prefix.py"
+          sync_rules() {
+            local old new
+            old=$(git rev-parse HEAD)
+            git pull --rebase origin main
+            new=$(git rev-parse HEAD)
+            if ! printf '%s  %s\n' \
+                539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 README.md \
+                3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d "$topic/README.md" | sha256sum --check; then
+              git diff "$old" "$new" -- README.md "$topic/README.md"
+              echo 'The pinned rules changed; the changed text is needed for this run.' >&2
+              return 1
+            fi
+            export R734_RULES_COMMIT="$new"
+          }
+          sync_rules
+          work="$RUNNER_TEMP/r734-original-hermite"
+          conclusion="$RUNNER_TEMP/r734-compact-conclusion.json"
+          python -u "$script" --repo "$GITHUB_WORKSPACE" --work "$work" --summary "$conclusion"
+          sync_rules
+          note="$topic/notes/r734-actual-Hermite-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT.json"
+          test ! -e "$note"
+          cp "$conclusion" "$note"
+          git add -- "$note"
+          git config user.name 'math-research Actions'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Report exact R734 width, complete fixed Hermite signs and cooperative prefix'
+          credential='!f() { if test "$1" = get; then printf "%s\n" "username=x-access-token" "password=$GITHUB_TOKEN"; fi; }; f'
+          while :; do
+            git ls-tree -r -l --full-tree HEAD "$topic" |
+              awk '{bytes += $4} END {print "Topic bytes",bytes; exit(bytes > 200000000)}'
+            if git -c credential.helper= -c credential.helper="$credential" push origin HEAD:refs/heads/main >"$RUNNER_TEMP/r734-push.txt" 2>&1; then
+              break
+            fi
+            cat "$RUNNER_TEMP/r734-push.txt" >&2
+            if ! grep -Eq 'non-fast-forward|fetch first|cannot lock ref|remote ref updated|failed to update ref' "$RUNNER_TEMP/r734-push.txt"; then exit 1; fi
+            sync_rules
+          done
+          sha256sum "$note"
+          echo "Published $note at $(git rev-parse HEAD)."
