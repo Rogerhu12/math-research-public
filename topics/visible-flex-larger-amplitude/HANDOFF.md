@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`10f6a739776a39c48677b4a66df2787c1d0f8806`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活24–29通常5分钟真pull，末槽保已读commit。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`59fc533e9bfa4ca5be9d6a0322c0b637d9b7deda`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活24–29通常5分钟真pull，末槽保已读commit。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15仅退完整闭源旧生成输出，留全源参/结论/固定恢复，不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口明示，继续加强比例。有限点、开放片或条件论证不算完成。
@@ -14,7 +14,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 全部attempt1；自然返回才排下一整步骤。trial-start/统计不代几何，trial不代accepted/final；异source/model即使坐标和数相同也不继承。完整身份、全六族/K、原命令、typed、错误与peer责任保[open§7](open.md)各完整note。
 19–23终态：19science/pure0、N1无report/原因未知；20/21/22/23官方cancelled原因未知，23至07:32:27Z；各未返科学final/typed保未知，不造父。
-24/26/27/28整science未返，接受数3/0/2/3；各当前/拒绝/下一trial全身份和数值在open各whole note。统计或trial-start不冒接受，以上均未达标，各整pure已备。
+24/26/27整science未返，接受数3/0/2。28science0/10456.963s，a28ae/accepted4/Gram.40616533555531326/g.5225620087197518仍不可行；同run整pure46813B已排，445字段待返。全身份/错误保open各whole note。
 
 25原science/pure0，a28ae accepted4仍不可行。[同源续跑6件](computations/run25-halfwave-dk-cache-complete-same-source-restart-delivery.json)在46099929359/1原ID启f250c578/PID12394；父全report c1be/13final de44/typed13保。restart-01初几何已返、新accepted0，b4d1仅自身统计，父4不冒新计数。整science58022B，自然返后同ID整pure46891B；全源参/140/7、458/445/64live及新4/64/15保，不搬跨run raw。
 

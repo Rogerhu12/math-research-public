@@ -241,3 +241,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:45:58 UTC — RET80五项旧准确算术输出完整保全
 
 仅退固定23370e77原五个完整R91/R94/R100/DN4/R19生成输出216179B；新增全来源/参数/输入/原结果与失败/读者/固定恢复ledger81322B、完整note11127B及manifest7855B，文件净减115875B。14个完整源与20个完整配置/证明/资源逐字留树；DN4全部98材料输入由固定历史RET60p2全registry保，旧r1全部2587失败仍留，不冒当前SHA。R91/94/100/R19各条件和未付闭面责任保，不添数学进展。旧whole-hash读者须先恢复原完整路径；Nelder等源未闭者未退。见[完整交付](computations/legacy-five-exact-outputs-retention-80-complete-delivery.json)。双README云核至`10f6a739776a39c48677b4a66df2787c1d0f8806`无变（非pull），继续真实31和32。
+
+## 2026-11-28 07:47:27 UTC — 28完整science自然返回并接完整pure
+
+本28全原458选择器实返439值/19原错误，science0/10456.962818394999s；a28ae accepted4/Gram.40616533555531326/g.5225620087197518仍不可行。报告53af35/whole final25d9e9/typed13完整身份及全部错误保[本轮note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。原三整步固定48ce66；同ID整pure46813B/7词445选择器按原对象排入，未删原参数或预算，未冒pure实际结果。双README云核至`59fc533e9bfa4ca5be9d6a0322c0b637d9b7deda`无变（非pull）。

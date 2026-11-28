@@ -1020,3 +1020,37 @@ root无可用executor，实际重置后唯一探测失败的最新记录为04:17
   }
 ]
 ```
+
+## 2026-11-28 07:47:27 UTC — 完整science自然返回及同runner完整pure接续
+
+真实run46108296054/1、job140865899880的science已自然exit0，用时10456.962818394999s，科学源b1a8554a9d88dc176f7295eab4bed9f73f65e3f2、driver d1c99f555e480a0b37fcefee98e1261033bed0b4bb6a7f681f8da345e5ae46ab、model61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7。完整原报告51908815B/SHA53af35f6e91a6d4021d40fcf7b5a091fa74fd9d49b645b9c5c89c2f2d47cb1fa仍只在runner。真实返回458个原选择器中439值/19原错误、missing_outputs空；全部字段/错误/原命令/输入及资源保原完整分卷，不能以显示摘要替代。
+
+本模型自己返回的final点a28ae9998fb54207f0ccccd1a9abdf0e89beff1025f5e01334b856b21d3da3cf，accepted4，Phi681.6450227773521、relative Gram .40616533555531326；六族分别reach .5225620087197518、body −.03813680394177532、distance-plus .11392426792936117、distance-minus −3.0936337274168686、cap −.0671518843209028、height −1.0411708808898954。完整final-bundle 25d9e9a7868e51d0e96509ee61606fdb068ef58fd63513b1fe294c380b3317fb，typed13/b0f7d5a2346b27ada6e6619877da8d2c3ad05ab1f6345dfd00405356d3f86ed3。stop为declared_restoration_budget; actual_violation_remains_and_is_not_accepted；未达几何可行或README阈值。这些字段由本28完整原报告实际返回，未借25相同坐标/显示数。连续N/G及全闭证明仍未付。
+
+按原准备完整pure-ready（59324B/blobcc6bacf16d723ab0df42efe4b93719f4ce03c0c5）逐字段排同runner全部7词/445选择器的pure步骤，无裁参数/字段/原预算。queue仅保同原parent_request_id visible-larger-resume-20261128-28及finish_when_done=false，steps换原完整pure；先前完整三步全部固定保存于下列原whole queue。新whole queue46813B/SHA3e706d02408abb33a19bb2d6421d370343caebd60ba377c55c38b1c4451f0611/blob468909f2edd987bd228eda3baa17771f43e3d024。实际pure返回尚待观察，未预填读数或运行来源。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1.md",
+    "bytes": 34332,
+    "sha256": "f62e47fe685b1ddae2d6af79cc66f266e049a98dfa82aaf90d53cef094e648f4",
+    "git_blob_sha": "e2fd960a0078581910ee676abb436834bddf0cf3",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5"
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1-part-001.md",
+    "bytes": 54607,
+    "sha256": "cc7459afedbf3343c6f3c0e94cc608379a2ebfbd042408f729adcbfa87e55340",
+    "git_blob_sha": "cf58c9ce632ef210c5351dbfdcc997f49bbe9e8c",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5"
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-28.json",
+    "bytes": 74634,
+    "sha256": "2761c59b534a02e8b7a06490eb252d1df6d6af8387d44222cf37b020e2d74efd",
+    "git_blob_sha": "4b4eb17b83ed8a6ef311b2c3d2a49cbf72cb1f01",
+    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5"
+  }
+]
+```
