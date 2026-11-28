@@ -594,3 +594,118 @@ $1/\rho=\liminf\log(1/|a_k|)/(k\log k)$（零项取 $+\infty$），
 为整函数，故为非多项式整函数。无穷处的本性奇点不能由
 有限代数分歧去除。这作用在(AB3)的整个三目标系数和上，
 并未给(AB4)的 $p$ 进端点差赋予非零或超越性。
+
+## 62. 分裂子列的完整双 Jacobi 迹与原物理纯调和轴的全形式盘整性
+
+令 $K'=\mathbf Q(\xi)$，$\xi^2=-17$、$\xi=i\sqrt{17}$ 取原
+复嵌入。可在§50的射线再取无穷多个 $p$，使得
+$$
+ p=\pi\bar\pi,\qquad \pi=a+b\xi,\qquad
+ \pi,\bar\pi\equiv1\pmod {68\mathcal O_{K'}},\qquad
+ p\equiv2\pmod3.                                                \tag{AD1}
+$$
+事实上 $\mathcal O_{K'}=\mathbf Z[\xi]$。取其模 $68$ 射线类域
+的正规闭包并合入 $\mathbf Q(\zeta_{68})$。该扩张只在 $2,17$
+分歧，与在 $3$ 分歧的 $K=\mathbf Q(\sqrt{-3})$ 交为 $\mathbf Q$。
+在其与 $K$ 的合成中指定前者 Frobenius 为恒等、后者为共轭，
+用 Chebotarev。射线平凡给(AD1)，且 $p\equiv137\bmod204$。
+
+采用(RC4)的全部 $68$ 个标记、$\alpha=x+y\xi$、
+$Q=N\alpha/68$，令
+$$
+ \Psi(\tau;Z,W)=\sum_{a_0,b_0}\gamma_{a_0}\delta_{b_0}
+   \sum_{x\equiv a_0\ (34),\ y\equiv b_0\ (2)}
+       q^{Q}e^{Z\alpha+W\bar\alpha}.
+$$
+对两个变量准确有
+$$
+ {1\over p}\sum_{j\bmod p}\Psi((\tau+68j)/p;Z,W)
+    +\Psi(p\tau;pZ,pW)
+ =\Psi(\tau;\pi Z,\bar\pi W)+\Psi(\tau;\bar\pi Z,\pi W).
+                                                                  \tag{AD2}
+$$
+有限 Fourier 和选 $p\mid N\alpha$。这正是
+$\alpha\in\pi\mathcal O_{K'}\cup\bar\pi\mathcal O_{K'}$，
+交集为 $p\mathcal O_{K'}$。除以相应因子后原全部标记不变，
+因为这些因子模 $68$ 都是一。零与非 primitive 项均按包含排除
+计入。取 $Z^jW^k$ 的同权比较给原完整混合系数的显式乘子
+$\pi^j\bar\pi^k+\bar\pi^j\pi^k$，在任一 $p$ 位其赋值准确为
+$\min(j,k)$；当 $j=k$ 时剩余因子是 $2$。特别各纯调和
+$\mathcal H_{2n}$ 的此 Hecke 特征为 $\pi^{2n}+\bar\pi^{2n}$。
+
+把两原 Jacobi 椭圆变量（同一周期单位）记作 $u,v$，即
+$u$ 正比于 $Z+W$、$v$ 以同一因子正比于 $\xi(Z-W)$。
+(AD2)右侧变换为
+$$
+ R_\pm(u,v)=(au\pm bv,\,\mp17bu+av),\qquad
+ 17R_{\pm,1}^2+R_{\pm,2}^2=p(17u^2+v^2).                      \tag{AD3}
+$$
+在源取真正原 $P$、$q_s=\eta_\Omega/\Omega$。用§52的实际原
+固定常数将两 Jacobi 质量归一为 $S_1(u),G(v)$，其中
+$G=x\sigma^2$。对(AD2)乘共同的
+$e^{pq_s(17u^2+v^2)}$ 及同一对常数，右侧即
+$\sum_\pm S_1(R_{\pm,1})G(R_{\pm,2})$。在每个商格
+$\Lambda_H=\Lambda+H$ 用同一 $dz$，实际 $q_H=pq_s+s_H$，
+$s_H=\sum_{T\in H-0}x(T)$；证明同(U1)，将 $17$ 换作 $p$。
+比较时有限支的实周期为 $\Omega$、无限支为 $\Omega/p$，
+所以两半权乘积的周期归一因子在无限支额外乘 $p$，正合
+(AD2)的权一迹。凡采用目标自身 $q_H$ 的 theta，须同时乘
+$e^{-s_H(17u^2+v^2)}$ 才得上述共同框架。源的 $v=0$ 上
+右侧准确等于 $2S_1(au)G(17bu)$。在任一纯 $Z$ 或纯 $W$ 轴上，
+$17u^2+v^2=0$；对于源和每个目标，这一物理 Gaussian 均准确消去。
+
+现在只须 $p>211$、$p$ 在 $K$ 惰性而在 $K'$ 分裂，
+无需(AD1)的主理想条件。选 $\xi\in\mathbf Z_p^\times$。
+完整物理纯轴截面
+$$
+ K(z)=S_1(z)G(\xi z),\qquad
+ K(z(t))\in t^6\big(1+t\mathbf Z_p[[t]]\big),\qquad
+ t=x^{-1/2},\quad t=z+\cdots .                                   \tag{AD4}
+$$
+$K$ 是同一份 $\mathbf Q$ 系数固定级数，因为 $G$ 偶、
+$\xi^2=-17$。这里整性在整个原形式群 $|t|_p<1$ 上；
+它使用物理 $z(t)$ 而非将 $z$ 充作全形式盘整参数。
+
+证明。写 $S_1=\sigma^{34}P(x)$，其中 $P$ 是 R303(2)
+的首一十四次多项式。设 $h=\sigma(z(t))/t$，则
+$h\in1+t\mathbf Q_p[[t]]$，$G(z(t))=h^2$。取正整数
+$n$，$p\nmid n$，并令 $\psi_n=\sigma(nz)/\sigma(z)^{n^2}$，
+采用其原领先项 $n z^{1-n^2}$。这是通常的整除法多项式
+至统一计号；其平方无计号歧义。由整 Weierstrass 除法递推，
+$D_n=t^{n^2-1}\psi_n\in\mathbf Z_p[[t]]$，常数 $n$：
+奇数 $n$ 用 $x,y$ 权次数至多 $n^2-1$ 的多项式，
+偶数的 $2y$ 因子亦同；$x=t^{-2},\ y=-t^{-3}\sqrt{1+t^6}$。
+$[n]t/t$ 是整形式单位。因此
+$$
+ R_n(z)={S_1(z)G(nz)\over G(z)^{17+n^2}}
+       =t^{34}P(x)\,D_n^2\,{t^2\over([n]t)^2}
+       =t^{34+2n^2}P(x)\psi_n^2x([n]z)
+       \in t^6(1+t\mathbf Z_p[[t]]).                            \tag{AD5}
+$$
+末式还是全局有理函数，因为 $t^2=1/x$。
+取正整数 $n\to\xi$，可在预定的与 $p$ 互素模数剩余类中取。
+形式域 $\mathbf Q_p[[t]]$ 中 $G(nz(t))\to G(\xi z(t))$
+逐系数成立，因为各所读有限系数是 $n$ 的多项式。
+同时 $17+n^2\to0$，所以常数一形式级数
+$G(z(t))^{17+n^2}\to1$；每一截断只需有限个连续的二项式。
+由此 $R_n\to K$ 逐系数；(AD5)使每个系数都留在
+$\mathbf Z_p$。给定任意 $r<1$，全系数的一致整界将单位
+闭盘 $|t|\le r$ 上从 $t^j$ 起的尾统一界于 $r^j$，故该
+收敛也在每个严格内闭盘上一致。这证明(AD4)与后续代入
+任意有限层形式挠点所需的极限。
+
+在(AB4)的比较之外，这还给实际(RC5)全部整数阶在原超奇异
+CM 点的一条强化。对 $m\ge6$，R301 的 $t(z)/z$ 直到
+$r<p^{-1/(p^2-1)}$ 是范数一的单位，故
+$$
+ v_p\big([z^m]K\big)\ \ge\
+       \left\lceil{6-m\over p^2-1}\right\rceil .               \tag{AD6}
+$$
+完整的原导数仍需原参考的倒数。具体在 R303 的物理
+$c=[z^{p+1}]\log(\sigma/z)$、$d=p+1$、$C=34c$ 下，准确有
+$$
+ J_p'(0)=\sum_{h\ge1}(-1)^{h-1}(h-1)!C^{-h}
+           [z^{dh}]\left(e^{-Cz^d}{K(z)\over G(\xi z)}\right).\tag{AD7}
+$$
+其收敛与截尾精度由 R301(26)原样给出。此处不删除
+$G(\xi z)^{-1}$，也未以(AD6)对正曲率原 $S_1$ 作错误外推。

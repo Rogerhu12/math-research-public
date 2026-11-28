@@ -293,3 +293,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:25:05 UTC到0fb1ef29cbc6a2c2da04aaf89113029696ad8de7，私库2026-11-28 13:25:01 UTC到f8b58efb7bc43837537939d7fff2d73966d3ff32；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47337047B/tree7b43fa2a77d6256fd891eb2b760971345e1f8d2e，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:25:18 UTC到8d2dd3e523cd3ad16270b31e6f295d5801b1d4b8，私库2026-11-28 13:25:14 UTC到a31086393b96bd4e5fcc455787ad92f36667c953；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47337047B/tree7b43fa2a77d6256fd891eb2b760971345e1f8d2e，无>5MB。
+
+## 2026-11-28 13:25:24 UTC：R1067 §62：真实双Jacobi分裂迹与完整纯轴整性
+
+根手核Chebotarev的2/17与3分歧分离、全双Fourier包含排除、实际物理Gaussian及无穷period p因子。原R_n全局整除法及n趋ξ逐系数/严格内闭盘一致极限给全盘整，不将z误作整参数或将参考逆尾删掉。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:25:32 UTC到bbd77ed559c8db6869cec9cb9e9c179b0cdcb76b，私库2026-11-28 13:25:28 UTC到adcdcc951e5c7dc941cf6cdd38b370d756225502；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47343618B/tree8d15742362dac62588391923d33eb564ca223af8，无>5MB。

@@ -750,3 +750,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §61：全三目标resolvent的准确复增长阶
 
 原完整M的复整函数阶恰2/(p−1)，在复无穷本性但p进端点正则。证明保每个真实格和全部最大曲率项，磁平移全圆盘均值消去交叉项；不排除端点值另有period表示。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §62：真实双Jacobi分裂迹与完整纯轴整性
+
+模68射线有联合无穷原惰性p；完整双变量Hecke保所有标记、非primitive和目标Gaussian。固定K=S1G(√−17 z)在原t盘t⁶Zp[[t]]整，来自全部整除法逼近；原J′仍保G的完整倒数。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
