@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：1e1eb06350fd96255098b7d660441e869df048ed**（2026-11-28 11:11 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 10:37 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：793759ef8997d525d9c62e13bb917156ba015f4b**（2026-11-28 11:16 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 10:37 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 10:37:46 Asia/Taipei，Actions run46098990909/job140836880275，blob:none浅clone后真实pull --rebase至eb042184；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤11:27、pull≤11:37。本地10:37仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -34,9 +34,11 @@ R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp�
 
 [R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付原四线的连续整primitive、有限关系见证/根相位、全部一般位置及Cor–res显式同伦。Δ归一raw整塔全noncusp延伸，ordered保−12(c²−1)d(DT)；固定函数根塔不冒E[pⁿ] moment分布。
 
-[R1157](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV B_n三项已付：n=5可用，trace-fixed范数全常数、w三边际及同子群n⁴ contraction给K=−n⁻⁸Σw f_x⁰∧f_y¹∧f_z²，完整Res=三项。同根ordered整cochain、S与非零退化项、全内点raw延伸及全GL2 deck诱导乘积下降已成，不除|GL2|。指定S/U最高矩的完整群态射现由R1158付；零标签regularization未泛化。
+[R1157](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV B_n三项已付：trace-fixed范数、w三边际/同子群n⁴ contraction、K=−n⁻⁸Σw f_x⁰∧f_y¹∧f_z²的完整Res、同根ordered整cochain及全noncusp/GL2 raw下降均保；不除p稳定子，零标签未泛化。R1158付指定最高矩pushout。
 
 [R1158](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)付最高Sym12的完整smoothed Gcorr：even实际单位W∞、S/U系数A=P/2−Q/36与B=Q/54、Weil restriction及共同quotient拉回给全ordered bilinear身份，rank1/correlation/算术下降全保。quotient X_d=k_d(n)M_d、X′_C,d=nM_d^C−n⁻dM_d，全部根ρ和中央gauge已给；在原M的H¹Z0后唯一。下一门是到未平滑G0的实际arith Hecke链同伦/同源norm primitive，不把H²单位直接除cochain。
+
+[R1159](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)付两条crossed projection公式的实际L/R、单矩norm根相位ηd及完整J_n；Ωcorr=V_nΩ+dJ_n，hV=hCorr+J_n，V_n=(n⁴+n⁻¹¹)−n²T_n。cohom scalar v=n⁻¹¹(n−1)(n¹⁴−1)；仍须实际dB=(V−v)Ω，才h0=(hV+B)/v，不用存在性代读数。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

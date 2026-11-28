@@ -65,3 +65,8 @@
 ### 2026-11-28 11:11 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1155 §12付同一形式盘实际ψ的全部carry：ε=ε0−u0L、ordered中央新L²项及第八jet单位组合。root使用安全有限整坐标与原运输公式，o2纸核完整常数；旧1–11逐字保留后即推。
 - 范围保持chosen formal lift，不代ramified torsion的field Frobenius；weighted filling、全部Cor/moment及原F0继续。无数学程序执行。
+
+
+### 2026-11-28 11:16 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1159付两个crossed projection-formula实际同伦、单矩norm根相位和完整J_n，得到指定hV=hCorr+J_n。root按相同右coset逐式核dR/dL、Cor–res差、两次杯积符号和scalar；即推。
+- 未平滑门精确为实际dB_n=(V_n−v_n)Ω，不能以H² scalar或quasi-isomorphism代替。原SS参数退化和F0继续；无数学执行。

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1159（已证明）**：[原 correlation 到完整 Hecke 上链的实际比较](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)付两个 crossed projection 同伦、单矩 norm 的全部根相位及 J_n，给指定 hV=hCorr+J_n 与 dhV=−V_nΩ。实际 unsmoothing 还须 dB_n=(V_n−v_n)Ω；未把 cohom scalar 单位当一次上链除法。
+
 - **原 formal Frobenius 的实际 carry 与第八 jet（已证明）**：[R1155 §12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)在同一有限椭圆坐标固定 ψz=z^p，计算 ε=ε0−u0L 和三槽完整运输；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50 为单位。保未知常数 carry，不代分歧 torsion 的 field Frobenius，原加权中央值继续。
 
 - **原 canonical primitive 及无条件第四层（已证明）**：[原genus4 §13](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)锁定原 P22 与 Ψ 的完整函数身份、三平移全部 p 次补偿和三个114高层；无条件比较 A3/A9 与 e/K4，并给两个原谱 jet 的准确一阶 gauge。全部极项与 Frobenius 符号保留；指定共同零仍开。

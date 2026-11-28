@@ -39,6 +39,10 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 **当前准确门**：从含各n-isogeny moment的smoothed correlation对象抽取原未平滑G0；须实际arith Hecke链同伦或等价torsor比较，不能把H²中的单位直接除一次primitive。继续同源norm、全部carry/Cor与F0 z12；raw或单primitive局部单位仍不代weighted中央非零。
 
+[R1159](results/R1159-original-correlation-to-Hecke-cochain-comparison.md)已把这一步拆到实际一次上链：R_c,b(g)=Σc_t(g)⊗g v_tg、L_a,d(g)=−Σu_t⊗d_t(g)，两个crossed projection差各为dR/dL。单矩ηd=n⁻¹(τd+ρd−Corρ′d−n⁻dUd)来自原norm根相位，Ta_d=(n+n⁻d)a_d+dηd。J_n=n⁻⁷Π(η4∪b+R)+n⁻³Π(−a∪η8+L)−n⁻¹²ΠK；Ωcorr=V_nΩ+dJ_n、hV=hCorr+J_n，完整V_n=(n⁴+n⁻¹¹)−n²T_n。
+
+当前还缺实际B_n满足dB_n=(V_n−v_n)Ω，其中v_n=n⁻¹¹(n−1)(n¹⁴−1)；取得它才有h0=(hV+B_n)/v_n。固定n5在p>5¹⁴−1时scalar单位，不等于已经完成此上链接口。H¹唯一性和quasi-isomorphism不代实际B_n或原F0读取。
+
 ### 原实际 finite Frobenius 与尚待原 F0 中央读数
 
 [R1149–50](results.md)付同一原43塔的关联连接和真正相对 Frobenius：u=pt 下完整整 Taylor、有限 q_t、λ/binomial 及 CM β 底参数全部保留。a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸，h8=3a3b5/8；Gaussian粗次数1/2/3、cubic1/1/2。不能将首数字零当 whole 盘零。
