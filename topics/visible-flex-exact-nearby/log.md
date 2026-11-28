@@ -207,3 +207,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 ### 2026-11-27 — 第7批严格无损metadata空白释放入口
 
 完整cb15c05eced353626a453a5127b5428f51388a84 topic tree f28978e283c363a9c8a6c9b4905e5746c00a1dd7计14352 files/199417071B；两README同已读blob无diff。BFP22新source202783B、195000输出+120000reserve与BNC/WMR仍在跑输出须共同保容量。现在唯一新入口选择下一128个完整、当前source/manifest无引用的旧step5 JSON，只删字符串外ASCII空白且保全数值literal/strings/escapes/order；原完整baseline、whole SHA/bytes和完整receipt都保。第1–6批不动，旧科学0。尚不宣称实际节省；完成后立刻继续BFP22唯一push入口，不dispatch旧工作流。
+
+2026-11-28 06:44 UTC — visible-exact-astra-b0d5a16-20261128：两仓partial/sparse并pull、私库QUEUE已75c7bd3认领。TC原45928452441完整2677并集/连续1605终态已准入，新manifest184current/32history、99630B/6b82d091…，原owner/科学/分片全不变，仅续5047缺格；0旧科学重算。新增.github/workflows/fourfold-codazzi-true-root-trials-complete2677-public.yml用于唯一push续接。BNC原路径恢复错误及WMR已成四目标分别并行接续，总任务未完成。

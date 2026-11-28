@@ -5,7 +5,7 @@
 
 ## 规则与实际环境
 
-本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至6d5d087d1918e4a172ff2acccbdf461a5d1faefc；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
+本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至ae0811e3b0bf8c4e17350b17d360ab54b73f3688；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
 本次终端可用，依根规8用终端git commit/push；非快进立即pull --rebase再推至成功，禁止force。令牌只CLI、不落文件；未发现AGENTS。前会话完整状态/失败记录保公开b0865cd9同路径和其递归来源，未撤任何数学义务。成功科学计算不重跑；继续缺域时消费完整已保存cells。规12不加审批复核门，结论成即推，root LOG不动。
 topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁可重建大数组。META7已由9e7aba99d提交；本次初始topic14359files/198758161B，约1.24MB余量，不重复旧压缩。前6批完整账保上一不可变H。
 接手实际终态：SL45917913526已结束，signed充分门未过；TC45928452441保存2677/7724完整cells、连续1605，whole有限matrix仍成；BNC45941963989恢复历史文件路径失败、0新数学目标。WMR45942597362四目标已成（真实reference高度ν列负），详情由新actual结果登记。并行继续TC缺域、BNC恢复、实际cap R→L；这些均不授最终全逆或闭曲面族。
@@ -24,7 +24,7 @@ geometry43584188751/26只在同η0全core+caps物理C0≤1e−4、|δν|≤1e−
 原全部球/SHA/失败unknown、域/units/mean/ports及未付条件保[5c94完整H](https://github.com/Rogerhu12/math-research-public/blob/5c94f97bbdee1ae1a47c268667344bf4dd47bf91/topics/visible-flex-exact-nearby/HANDOFF.md)、递归6ecc/c509/a28与[results](results.md)。压缩只索引，成功不重算、义务不撤。
 
 1. **SL。** 唯一45917913526/1（0c4f842d）05:26仍signed trace步，19500s预算。PS45880363964全155/1424/193/6球成，body64.097636/whole64.855555充分门false≠奇异，job只后续containment失败。旧DP/积分禁重；SL首UTF8零science失败保。
-2. **TC真96。** 原45889161044/1完整992/7724、matrix/waist锁。唯一TCXV45928452441/1（c721），177current/32history与原cell/四whole数组不变。05:11公开union1876=992+328+292+264、contiguous1320，failure null；prefix9554B/0864dad9e936811bda42bfc0b49f4298fe4d129e92aefbb40b01b3444564e0e4。negative/positive96待，旧whole身份保5c94H，不计started、不重992。
+2. **TC真96。** TCXV45928452441/1于11-27 07:08结束，整matrix/waist不变，完整2677/7724cells、连续1605；三原分片游标1605/3788/6000。11-28新TC2677入口184current/32history，manifest99630B/6b82d09170ed4ec780eccd0910cb69df98615390ef2f73237ed324d1e3f2c692，原owner/math/分片/五窗口/96列/四whole数组全不变，仅续剩5047cells。新run号待实际读取；见notes/2026-11-28-TC-complete2677-union-continuation.md，不重旧2677和matrix。negative/positive96仍待。
 3. **Θ坐标逆已实际通过。** UDRC21 45933303391/1（6ecc）04:18:42全21success；UACT完整21球/actual/execution/全carrier SHA保。lowerror≈.316981860、ρ≈.799597509<1，原||(ΘE96a)^−1||<12.588；GYN≈2.677547565。TQ实际J(c,p)/kerΘ图可用，完整high反馈PKE96T^-1ΘP/physical列/两mean/ν保，非fullSchur。ASR全2048/2、OT全10/96×2240及旧巨误差锁，所有success禁重；globalΘerror仍≈850.945862，不冒low96 error。
 4. **DWTB/BNC。** DWTB9 45935081577/1（282e）04:35:55全9success，DBRA完整9球/whole w、y、96r、96×2240 residual SHA已登记。e_w∞≈.347099250/e_w2≈.064636867，finite residual≈.014591177、完整eR≈.857445102；大费源于true w误差×whole trial，不冒fullSchur。原success不重。BNC六source98b/179current/51history四whole父冻结，manifest76380B/a6655051c571970a407fad139fa9485251f4091835db7b6e5e2468ea181ef42b；唯一45941963989/1（798a2fcd）04:47:58开始原7targets、04:53运行，全G/a相位/全部joint费保，低96不当完整Θ列。BGR全96×96 signed Gram/新∞产品/整eR proof+pure已成，3新目标未actual，原BNC7不动；BFP完整512forward/2560outputs/全圆pullback/真Θ列proof+pure已成，19新目标未actual。
 5. **ν/phase。** NP/NH/PO/APA/ASB/PHI whole锁，ASB幅度(−.006275,−.006264)/high97<5.330e−5，APHI phase(.038736784,.038768096)/逆25.82只strict particular；PP/CP保regular defect/mean/E′a，CP 1/60<S<3/50仍PD.7候选。P96全6/AP96 f7805546完整球/SHA保，joint96radius<.000227442、首signed(.0028306,.0029694)、center208967022709991/72057594037927936；true_PDE_corrected_columns=false。

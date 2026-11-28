@@ -1,0 +1,58 @@
+name: R149 saved2677 whole-cell continuation
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fourfold-codazzi-true-root-trials-complete2677-public.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-flex-exact-true-root-finite-trials-20261126
+  cancel-in-progress: false
+jobs:
+  complete-new-finite-trial-objects:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 360
+    env:
+      OPENBLAS_CORETYPE: Haswell
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      BLIS_NUM_THREADS: '1'
+      VECLIB_MAXIMUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - name: Install Git in the original immutable Python container
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_vector_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-trial-complete2677-inputs.json
+      - name: Trust only this explicitly mounted checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Install the fixed directed finite-trial runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0 scipy==1.17.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Whole old inputs, true-root finite trial and only missing complete objects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_vector_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-trial-complete2677-inputs.json
+          --manifest-sha 6b82d09170ed4ec780eccd0910cb69df98615390ef2f73237ed324d1e3f2c692

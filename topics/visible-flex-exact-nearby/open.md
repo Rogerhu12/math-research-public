@@ -148,7 +148,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 此前全部运行、完整球/SHA、失败/unknown、参数/units与scope保[658c原open第8节](https://github.com/Rogerhu12/math-research-public/blob/658c31092cb0995bfc4a52ec3eded7244edf9231/topics/visible-flex-exact-nearby/open.md)及递归原件；第1–7节义务不撤，成功旧目标禁重。
 
 - SL唯一45917913526/1，05:26仍signed trace；PS完整充分门64.097636/64.855555 false不推奇异，旧积分禁重。
-- TCXV45928452441/1原cell/whole arrays不变，05:11公开union1876/7724、contiguous1320，三片328/292/264、failure null；不重旧992/matrix/waist，negative/positive96待。
+- TCXV45928452441/1已结束：2677/7724完整cells、连续1605，原三片游标1605/3788/6000。新[TC2677入口](notes/2026-11-28-TC-complete2677-union-continuation.md)原owner/math完全不变，只续5047缺格；旧2677/matrix/waist不重，negative/positive96仍待。
 - UDRC21 45933303391/1于04:18:42全21成功，[UACT](results/R149-supplement-actual-original-finite-Theta-coordinate-inverse.md)给原Θ96square逆<12.588、lowerror≈.316981860、ρ≈.799597509<1。TQ实际坐标同构/kerΘ图可用，完整high反馈PKE96T^-1ΘP保，非physical/fullSchur。ASR/IR/OT whole/巨旧误差不删、不重科学。
 - [DBRA](results/R149-supplement-actual-direct-target-w-and-complete-B-inverse-rows.md)：DWTB9 45935081577/1于04:35:55全9成，e_w∞≈.347099250/e_w2≈.064636867，whole row eR≈.857445102，宽误差完整保。BNC原6source98b冻结，179current/51history与四whole父全pin，manifesta6655051…/唯一45941963989/1自04:47:58运行原7目标；全G/a相位及joint/alias/quadrature/composition费不删，PO配对不冒完整Θ列。
 - [BGR](results/R149-supplement-complete-target-B-trial-Gram-and-joint-row-error.md)给同一96×192完整trial的新9216-entry signed Gram、完整operator upper及新w∞产品/whole row error；原DBRA HS与BNC在跑7目标不改。实际新3尚未执行；BNC完成后只复制全部96centers/四旧费，另形成新rowfee和whole candidate，禁止重配对或从旧upper相减。[BFP](results/R147-supplement-complete-target-normalized-nu-forward-column-by-pullback.md)另给全512 forward/2560输出、全圆pullback residual与真正Θν列，19新目标未actual；BNC低96不补零高频。
