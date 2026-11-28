@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：真正 α=0 的原规范范数与 U42、378 权对覆盖](results/R150-appendix-unit211-Phi-zero-true-alpha-zero-original-norm-Q42-and-378-weights.md)：0.381504878秒/0；同一原范数的五个Q系数有Bézout1，固定17/20阶投影给U42，得到378不同权对及1512完整规范点，未称排空或方案长度。
+
 - [R150：W 纯值 T 四／五阶的完整同 λ 因式覆盖](results/R150-appendix-unit211-W-pure-value-T-four-five-complete-factor-cover.md)：42.858974253秒/0，两个原组合经全乘子内容消去、完整QQ因式乘回，保F2=0或F14=G13=0；唯一另因子2e+1已由旧JQ排除，未把F2认成b0。
 
 - [R150：正确 Φ 全 αχ 的三原二次与三个标量](results/R150-appendix-unit211-Phi-zero-true-whole-alpha-chi-original-quadratics-and-three-scalars.md)：1.409140991秒/0，完整原乘子给(29,11,6)/(38,15,8)/(46,18,8)三个必要式，全部头零保；未据此宣称纯权覆盖或有限。

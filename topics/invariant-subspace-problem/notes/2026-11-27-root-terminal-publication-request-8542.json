@@ -1,19 +1,21 @@
 {
-  "message": "ISP: complete new pure W T resultants and full same lambda factor cover",
-  "parentCommit": "bb51f8b60c8c5907662959bc45f62ca9cdb40ed3",
+  "message": "ISP: bound true alpha zero by 378 weights and start whole U42 original fibers",
+  "parentCommit": "b414137789bc180e7bbf4b6dce7f644e73ef37e4",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-pure-value-T-four-five-complete-factor-cover.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-pure-lambda-T-quartics-new-four-five-T-resultants-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-0935-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-pure-T-factor-cover-root-review-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-root-publication-preparer-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-root-README-rule16-diff-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-pure-T-factor-cover-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-pure-T-factor-cover-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-alpha-zero-original-norm-Q42-and-378-weights.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-alpha-zero-norm-Q42-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-alpha-zero-Q42-root-review-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-alpha-zero-U42-same-Q-V-original-fibers-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-alpha-zero-U42-same-Q-V-original-fibers-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-alpha-zero-U42-same-Q-V-original-fibers-8542-root-review.json",
+    ".github/workflows/invariant-subspace-8542-phi-alpha-zero-u42-fibers.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-private-README-rule15-diff-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-alpha-zero-Q42-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-alpha-zero-Q42-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,5 +24,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-alpha-zero-u42-fibers.yml"
+  ]
 }

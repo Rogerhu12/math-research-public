@@ -1,0 +1,102 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "elapsed_seconds": 0.381504877999987,
+  "max_child_rss_kib": 41636,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "7d9df60a56d62cb30c7edf3c3eabe42c5a282e7b",
+      "before": "e97b242fe9715bf8f38ceab2924b3cb347514542",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T09:08:59.266624+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46129066446",
+  "source_commit": "e97b242fe9715bf8f38ceab2924b3cb347514542",
+  "source_exit_code": 0,
+  "source_git_blob": "61066a5a18105081e38d919170e0bd4b3f2c09ac",
+  "source_sha256": "385ce1a1c0c70e404dcf08ed84ea22db4e9350624721d480ef86265853715ee0",
+  "stdout_bytes": 3724,
+  "stdout_sha256": "11492b3ce25c255e99d14ea88764d2fbb8294ff7b897cdeb5d195df63d1f7922",
+  "stop_reason": null,
+  "job_id": 140930042380,
+  "mathematical_final_seconds": 0.3294881589999932,
+  "new_norm": {
+    "degrees_u_Q": [
+      20,
+      9
+    ],
+    "terms": 118,
+    "sha256": "22cb8b5ccc91ee178afa4abbceeae38e27066de5dbe0e4459c1f861d9c808e04",
+    "actual_four_multiplier_common": "1",
+    "four_original_V_coordinates_returned": true,
+    "QQ_irreducible_factors": 1,
+    "multiplicity": 1
+  },
+  "vertical_return": {
+    "coefficient_positions": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "uses_only_N_coefficients": true,
+    "actual_QQ_gcd": "1",
+    "whole_Bezout_returned": true
+  },
+  "fixed_resultants": [
+    {
+      "name": "Res_Q(N,CN)",
+      "fixed_degrees": [
+        9,
+        8
+      ],
+      "size": 17,
+      "QQ_degree": 164,
+      "sha256": "23099a933d8d407ae57955ae33070df3b95b31109e030411efd3e433dd5be882"
+    },
+    {
+      "name": "Res_Q(N,CS)",
+      "fixed_degrees": [
+        9,
+        11
+      ],
+      "size": 20,
+      "QQ_degree": 241,
+      "sha256": "8d071a969df2bc89b66ebd2b0bc2d5866292d6ac07d1d1760688ab8ebc369c75"
+    }
+  ],
+  "QQ_gcd_degree": 142,
+  "remaining_u_degree": 42,
+  "remaining_u_sha256": "a2ad5fc1085bdb07f18030adf2aba55be3165c43aa773f31f71df30ffae03a65",
+  "source_distinct_weight_bound": 462,
+  "paper_distinct_weight_bound_from_same_N_only_Bezout": 378,
+  "distinct_u_Q_V_bound": 756,
+  "complete_fixed_normalized_distinct_point_bound": 1512,
+  "no_new_execution_for_bound_refinement": true,
+  "whole_alpha_zero_excluded": false,
+  "whole_Phi_excluded": false,
+  "coefficient_payload_saved": false
+}
