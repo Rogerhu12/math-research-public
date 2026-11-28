@@ -1,0 +1,122 @@
+{
+  "schema": "held10-actual-m16-mild-tail-return-v1",
+  "observed_utc": "2026-11-28T07:55:36.038577+00:00",
+  "scope": "Actual M16/N256 original audited return at harmonic amplitude factor .5, followed immediately by actual M24/N512 original-native2 continuation. This is not full-H, outer coupling, fixed-g refinement, or closed-surface acceptance.",
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+    "sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891"
+  },
+  "source_raw": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/inner-00.npz",
+    "sha256": "4f5033800dab66e46125d8e88fc4d0eb4dbacfc5dd6d1bd8f7808a74f9193616"
+  },
+  "source_physical": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/physical.npz",
+    "sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0"
+  },
+  "source_homotopy": 0.002,
+  "source_modes": 24,
+  "accepted_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/summary.json",
+    "sha256": "1121f6778aec4ad2e40c5474c310654cbd72fd67367f3c751e300ee9b51960e7"
+  },
+  "accepted_stage": {
+    "modes": 16,
+    "quadrature": 256,
+    "factor": 0.5,
+    "full_height_at_current_modes": false,
+    "original_full_height": false,
+    "requested_jacobian": false,
+    "requested_audit": true,
+    "client_returned": true,
+    "packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/tail_0001.json.gz",
+      "sha256": "07981819451ea4d2f48c69f39f7d5c43d3039899915c7c9d5e62fd8bbcda05c3"
+    },
+    "native_manifest": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-source/native-manifest.json",
+      "sha256": "4a3d1b39d7b145650db58e2afd59447ff041bc97b487187f6726e3437ec03bd5"
+    },
+    "height": {
+      "count": 16,
+      "nonzero_count": 16,
+      "l1": 8.211195395193395e-05,
+      "linf": 8.085711839447946e-05,
+      "f64le_sha256": "1b02a75f3c89362f0441df8414ffd2a06af99f6305335085ab4994cf1111be71"
+    },
+    "converged": true,
+    "failed": false,
+    "residual": 1.0313974716235569e-09,
+    "audit": {
+      "fullD": 2.6663741668865455e-11,
+      "normalizedFullDefect": 7.279247166583977e-10,
+      "minLeading": 0.8200817643208473,
+      "minD": 0.9995941334989235,
+      "formalCurvature": 8.148045697357949,
+      "maxPhysicalPV": 0.00016154923195029508,
+      "actualMetric": 3.3410281097491495e-15,
+      "holonomy": 2.2701012382007283e-18
+    },
+    "last_original_iteration": {
+      "iteration": 1,
+      "norm": 1.0313974716235569e-09,
+      "minA": 0.8200817632248826,
+      "minD": 0.9995941251715879,
+      "correctionsOnJacobian": 0,
+      "chordMaxCorrections": 3
+    },
+    "checkpoint": {
+      "modes": 16,
+      "spacing": 3,
+      "physical_depth": 8,
+      "shooting_parts": 16,
+      "stage_count": 1152,
+      "state_rows": 1153
+    },
+    "original_finite_response_passed": true
+  },
+  "unchanged_original_native": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+    "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+  },
+  "native_workers": 2,
+  "resume_source": {
+    "summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/summary.json",
+      "sha256": "4f2371cec4a3cce0a71c43766de079de2ec99442da37b2b6c69a772e1e84813e"
+    },
+    "accepted_packet": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-b/m12/tail_0001.json.gz",
+      "sha256": "ccba27ff6af8686f24197591e9314fedf96f15ebfdb431971a5616ad573f296c"
+    },
+    "modes": 12,
+    "factor": 0.5,
+    "accepted_response_recomputed": false
+  },
+  "m24_already_started": {
+    "output_directory": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d",
+    "observed_status": "original_low_mode_tail_running",
+    "current_modes": 24,
+    "native_manifest": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/native-source/native-manifest.json",
+      "sha256": "9a7c500020f2717fb0b8503d2b36847cc5ee84c169973aae354922df25536c21"
+    },
+    "previous_mode_initializer": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/tail_0001.json.gz",
+      "sha256": "07981819451ea4d2f48c69f39f7d5c43d3039899915c7c9d5e62fd8bbcda05c3"
+    },
+    "final_factors": [
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      0.9375,
+      1.0
+    ],
+    "uses_inv_nq_candidate": false
+  },
+  "complete_surface": false,
+  "fixed_metric_refinement": false,
+  "actual_prefix_tail_coupling": false,
+  "original_full_height_returned": false
+}

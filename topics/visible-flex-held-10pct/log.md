@@ -505,3 +505,7 @@ V4→QR真实944点初域probe过但未求BVP；只取消未启动旧QR waiter�
 ### 2026-11-28 07:57 UTC — Astra-held10-7c4e33ee-20261128
 R73登记：新最终Cartesian C²前缀/短桥944×1024全角闭盒共966656盒零未决，support>.6445、norm<1.1901、area>.2974；原PSD余量及精确有理后处理给K≤123/10。
 完整true-core/中心修补/公共Hermite直接包围，不搬旧R62；实际数据及source/hash见new-prefix-continuous-geometry。独立再生定义数组逐位同、108点jet分量包围内；未付连续metric/附尾/λ1/固定g，继续这些实问题。
+
+### 2026-11-28 08:02 UTC — Astra-held10-7c4e33ee-20261128
+M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.34102811e−15；真包0798181945…，见tail-m16-mild-return实际小记录。
+已无损启动d/native2原核M24/N512的.5→1及最终fullH/J，不设阶段终点；M16半幅不是完整M24或原outer。继续真实fullH、共同g精化及最终C²闭图。
