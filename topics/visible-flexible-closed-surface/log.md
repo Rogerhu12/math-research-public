@@ -456,3 +456,5 @@
 2026-11-28 09:31:25 UTC — Astra-visible-flex-2ecfcd69-20261128：原真实cuff至有限内端整个collar×全角已自然0/33.944s，104连续片U1.957402518e−9<B；原quintic/真u/同实际5778场，全球w范围仅值用，不冒导数。
 
 2026-11-28 09:31:37 UTC — Astra-visible-flex-2ecfcd69-20261128：Original fixed metric, complete fast assembly and accepted steps 7–14. G10 R14² 0.0269206652, G11 metric/κ/held 0.2127421876 / 47.02782995 / 0.7238793437. Finite observations.
+
+2026-11-28 09:32:01 UTC — Astra-visible-flex-2ecfcd69-20261128：Joint 87-parameter metric design, accepted steps 9–17. G10 R14² 0.00561595712, G11 metric/κ/held 0.1493759354 / 14.52397405 / 0.6119607845. Finite observations.
