@@ -1,0 +1,33 @@
+{
+  "status": "actual_metric_exit137_with_complete_validated_prefix_leaves_preserved",
+  "actual_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128/actual-terminal.json",
+    "sha256": "26e9d57f59bb6193e6e5ba240e3411b158cc57192a52a90ea62921afc93892f6"
+  },
+  "observed_exec_exit": 137,
+  "partial_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128/summary.json",
+    "sha256": "14e3b1736b890fbc2a378de101eb63f1155ad72926788812c9c65ff1cf38fbe5"
+  },
+  "leaf_file": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128/complete-leaves.jsonl",
+    "sha256": "6171046a7861ee2c815f557864004d72bad2765294643eb5d91e294ebec3894d"
+  },
+  "source_hash_checks": 10,
+  "actual_complete_leaf_count": 1328,
+  "periodic_summary_leaf_count": 1304,
+  "complete_final_newline": true,
+  "all_actual_leaves_contiguous_positive_length": true,
+  "covered_interval_exact": [
+    "0",
+    "2868408156789879/2251799813685248"
+  ],
+  "all_actual_leaves_strictly_below_exact_99_over_1e8": true,
+  "actual_partial_peak": 9.877292329976282e-07,
+  "current_original_field_and_target_unchanged": true,
+  "complete_cover": false,
+  "signal_cause_established": false,
+  "mathematical_metric_failure": false,
+  "already_paid_leaves_must_not_be_recomputed": true,
+  "next_entry": "independent exact-dyadic DFS restoration from actual leaf file and genuine terminal record"
+}

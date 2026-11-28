@@ -212,3 +212,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 ## 2026-11-28 11:45 UTC — 同图三阶活动矩的完整连续入口
 
 已审原field闭包保全部mean/core/center/可选cut，D2三jet支付径向中点与周期角梯形的连续误差；完整域重新合并，不能把cut条带当整前缀。独立原/真coupled门，R6/R67不重证；准备记录不冒称积分，实际.064/M40/N3072积分随后已启动session95838，返回结果另记。见 [说明](notes/2026-11-28-analytic-cartesian-third-activity-moment-entry.md)。
+
+## 2026-11-28 11:53 UTC — 原 .064 连续 metric 真137，1328已付叶保全
+
+实际session50156工具返回137/Killed，原因未证，不作数学失败。实际JSONL比周期summary多24叶；1328全叶正长/精确相邻/全界<99/1e8已核，仅覆盖到1.2738附近而非末端。后继只续未付DFS，不重算。见 [记录](notes/2026-11-28-lambda064-metric-interruption.md)。
