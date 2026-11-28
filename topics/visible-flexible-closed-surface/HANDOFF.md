@@ -58,4 +58,4 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:28:40 UTC；已读公开 main `2710cbdf39084bd1d3b5197e3e7acbb2f4d79973`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:28:52 UTC；已读公开 main `6937d32bffaa5a7426d4d1ab934bc6516542fa04`，根/课题 README 逐差无变化。
