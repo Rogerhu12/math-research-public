@@ -13,3 +13,7 @@
 ## 2026-11-28 05:38 UTC — ret72三旧有限曲率/分支输出完整保源退役
 
 完整四件77411B保29源/9模块loader、全原参数/三原gzip恢复、实际有限结论及M24未达更强目标；只移三生成报告296139B，净218728B。[全交付](computations/legacy-finite-tail-curvature-retention-72-complete-delivery.json)与[全说明](notes/2026-11-28-legacy-finite-tail-curvature-retention-72.md)。6813B原locator由六完整源字段反替恢复并整SHA dc02074匹配原自记；branch源全SHA匹配，curvature24大体未读，whole/self SHA未知仍null，现存generator完整原数值扫描不冒未知旧self。固定79f9aa50f5980db0ef1d5e8ae4234e14f7ff2fbd精确恢复，原source-origin整文件未知，仅明确新恢复metadata保存实际provenance消费值、不冒旧字节；三原科学输入保持fixed603214全压缩身份。全source/params/活输入/失败/唯一状态不删，数组不编码，不升级连续证书、不加数值门。双README云核至`a6ccd8592f42b02a4371781c67d373d2b805ee93`无变（非pull）。
+
+## 2026-11-28 05:38:31 UTC — 29新独立runner官方启动及完整控制器身份
+
+新46112781312/1、workflow433424103/head6678于05:35:16Z实际启动，job140879807850于05:35:19Z开始、研究step05:35:52Z运行。新索引46806B确认全request d5e405ec/修复controller abf54a1；05:36:11暂无返回步骤，原双输入0不移新runner。open完整旧数值/措辞保6678固定原件，§1–6不动。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`849da689e15c7cac2c5f2b03f5e4cec9f318d31b`无变（非pull）。

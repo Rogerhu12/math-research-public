@@ -81,3 +81,340 @@
 本提交只是已授权的修复和新push触发请求。新的 run ID、job ID、实际开始、子进程源、模型、参数点和报告在真实返回前均为null；之后追加实际官方对象和阶段证据。保留原失败说明；本新说明负责新runner历史，不抹旧失败。
 
 容量已通过普通退役可完整复现的历史输出释放；所有原结论、完整源参、失败及固定Git恢复责任保留。当前新增运行记录需要持续预留空间，不能把剩余空间全分配给尚未启动的源码包。
+
+## 2026-11-28 05:38:31 UTC — 29新独立runner官方启动及完整控制器身份
+
+官方新 run `46112781312/1`，workflow `433424103`，head `6678c474e2abe0e650bb9eda35d04e23acc55964`，于2026-11-28T05:35:16Z启动；job `140879807850` 于05:35:19Z启动，原公开研究step于05:35:52Z实际in_progress。新索引全46806 B确认请求d5e405ec/控制器abf54a1及新初始源提交；截至索引05:36:11暂无返回步骤，不能把原双输入0移给新runner。完整官方对象如下。
+
+```json
+{
+  "run": {
+    "id": 46112781312,
+    "name": "Visible larger amplitude R726 spherical boundary 20261128 29",
+    "node_id": "WFR_kwLOVt5L2s8AAAAKvIk0AA",
+    "head_branch": "main",
+    "head_sha": "6678c474e2abe0e650bb9eda35d04e23acc55964",
+    "path": ".github/workflows/visible-larger-20261128-parallel29.yml",
+    "display_title": "Repair complete publication capacity handling and restart the unchang…",
+    "run_number": 2,
+    "event": "push",
+    "status": "in_progress",
+    "conclusion": null,
+    "workflow_id": 433424103,
+    "check_suite_id": 124747087635,
+    "check_suite_node_id": "CS_kwDOVt5L2s8AAAAdC4F_Ew",
+    "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46112781312",
+    "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46112781312",
+    "pull_requests": [],
+    "created_at": "2026-11-28T05:35:16Z",
+    "updated_at": "2026-11-28T05:35:19Z",
+    "actor": {
+      "login": "Rogerhu12",
+      "id": 199914264,
+      "node_id": "U_kgDOC-pzGA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rogerhu12",
+      "html_url": "https://github.com/Rogerhu12",
+      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
+      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
+      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
+      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "run_attempt": 1,
+    "referenced_workflows": [],
+    "run_started_at": "2026-11-28T05:35:16Z",
+    "triggering_actor": {
+      "login": "Rogerhu12",
+      "id": 199914264,
+      "node_id": "U_kgDOC-pzGA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rogerhu12",
+      "html_url": "https://github.com/Rogerhu12",
+      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
+      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
+      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
+      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "jobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46112781312/jobs",
+    "logs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46112781312/logs",
+    "check_suite_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-suites/124747087635",
+    "artifacts_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46112781312/artifacts",
+    "cancel_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46112781312/cancel",
+    "rerun_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46112781312/rerun",
+    "previous_attempt_url": null,
+    "workflow_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/workflows/433424103",
+    "head_commit": {
+      "id": "6678c474e2abe0e650bb9eda35d04e23acc55964",
+      "tree_id": "c6d2731227b40b0e7688f45c71cfcd755e3daa19",
+      "message": "Repair complete publication capacity handling and restart the unchanged R726 solver",
+      "timestamp": "2026-11-28T05:35:10Z",
+      "author": {
+        "name": "Boyang Hu",
+        "email": "2538238358@qq.com"
+      },
+      "committer": {
+        "name": "Boyang Hu",
+        "email": "2538238358@qq.com"
+      }
+    },
+    "repository": {
+      "id": 1457408986,
+      "node_id": "R_kgDOVt5L2g",
+      "name": "math-research-public",
+      "full_name": "Rogerhu12/math-research-public",
+      "private": false,
+      "owner": {
+        "login": "Rogerhu12",
+        "id": 199914264,
+        "node_id": "U_kgDOC-pzGA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Rogerhu12",
+        "html_url": "https://github.com/Rogerhu12",
+        "followers_url": "https://api.github.com/users/Rogerhu12/followers",
+        "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
+        "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
+        "repos_url": "https://api.github.com/users/Rogerhu12/repos",
+        "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Rogerhu12/math-research-public",
+      "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
+      "fork": false,
+      "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
+      "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
+      "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
+      "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
+      "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
+      "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
+      "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
+      "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
+      "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
+      "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
+      "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
+      "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
+      "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
+      "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
+    },
+    "head_repository": {
+      "id": 1457408986,
+      "node_id": "R_kgDOVt5L2g",
+      "name": "math-research-public",
+      "full_name": "Rogerhu12/math-research-public",
+      "private": false,
+      "owner": {
+        "login": "Rogerhu12",
+        "id": 199914264,
+        "node_id": "U_kgDOC-pzGA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Rogerhu12",
+        "html_url": "https://github.com/Rogerhu12",
+        "followers_url": "https://api.github.com/users/Rogerhu12/followers",
+        "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
+        "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
+        "repos_url": "https://api.github.com/users/Rogerhu12/repos",
+        "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Rogerhu12/math-research-public",
+      "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
+      "fork": false,
+      "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
+      "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
+      "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
+      "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
+      "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
+      "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
+      "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
+      "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
+      "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
+      "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
+      "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
+      "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
+      "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
+      "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
+    }
+  },
+  "jobs": {
+    "total_count": 1,
+    "jobs": [
+      {
+        "id": 140879807850,
+        "run_id": 46112781312,
+        "workflow_name": "Visible larger amplitude R726 spherical boundary 20261128 29",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46112781312",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVt5L2s8AAAAgzRdFag",
+        "head_sha": "6678c474e2abe0e650bb9eda35d04e23acc55964",
+        "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140879807850",
+        "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46112781312/job/140879807850",
+        "status": "in_progress",
+        "conclusion": null,
+        "created_at": "2026-11-28T05:35:17Z",
+        "started_at": "2026-11-28T05:35:19Z",
+        "completed_at": null,
+        "name": "Construct the same fixed target and solve the complete spherical boundary",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-11-28T05:35:19Z",
+            "completed_at": "2026-11-28T05:35:20Z"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-11-28T05:35:20Z",
+            "completed_at": "2026-11-28T05:35:26Z"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-11-28T05:35:26Z",
+            "completed_at": "2026-11-28T05:35:31Z"
+          },
+          {
+            "name": "Install the recorded numerical and automatic differentiation dependencies",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-11-28T05:35:31Z",
+            "completed_at": "2026-11-28T05:35:52Z"
+          },
+          {
+            "name": "Execute public research and publish independent compact records",
+            "status": "in_progress",
+            "conclusion": null,
+            "number": 5,
+            "started_at": "2026-11-28T05:35:52Z",
+            "completed_at": null
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "pending",
+            "conclusion": null,
+            "number": 9,
+            "started_at": null,
+            "completed_at": null
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "pending",
+            "conclusion": null,
+            "number": 10,
+            "started_at": null,
+            "completed_at": null
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140879807850",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000012601,
+        "runner_name": "GitHub Actions 1000012601",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      }
+    ]
+  }
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46112781312-1.md",
+    "bytes": 46806,
+    "sha256": "817a9e76a8f3bf574231a019a23e420465b584630442e45fde8cc9e31c2282fa",
+    "git_blob_sha": "6e041d94ac87dc1b80d59a3808a98dbc51570f5e",
+    "fixed_commit": "a6ccd8592f42b02a4371781c67d373d2b805ee93",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
