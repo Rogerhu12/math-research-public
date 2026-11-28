@@ -39,7 +39,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 795f30b106ddb9e1a387022d30aa4dd4bb35d788
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-retry-46175515918-1-index.json) [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 9729281883d95c237073009bc34e7f6bef295cb8
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull f0931320e91357b3f5f61adf1f10d0e932358688
 
@@ -56,3 +55,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 
 [R786](results/R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)：同R781 g双完整帽精确，整360°双真卷宽.0024全相谱误差<9.46e−7；全闭reach>1/24.36/held>.317/商距>.083。余卷/中央误差及固定参真收敛仍欠。
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 7b1720935556f0e3d204ec1d735b682a9b5a153c
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 499d02d6ca5df7179145aff3bd585a5588bae4a8
