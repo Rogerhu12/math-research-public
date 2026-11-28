@@ -304,3 +304,32 @@ The reproducer reads the complete original request and queue by their Git identi
   }
 ]
 ```
+
+## 2026-11-28 11:40:18 UTC — 33首完整试探实拒；同方向半步已启
+
+本retry run46133839513/1、source bffd5bbf0e5b5be0ded252f50613e2ca88489558/PID3463、model61c6542b3cfe39dea9fbf8c002c8ea204f5dad193ddaffe94bc7c908822682d7不变。首restoration全步alpha1，point291f3943db2d5de24f7911923412fb8013b0d3cc739c09a0b5f6038a183151ad，自身Phi731.1417800730309/Gram.4097559009463338先返回；随后完整试探几何actual positive g=16.64809271107871，maximum family=reach，previous_completed_trial_accepted=false，故已实际拒绝，不是只看Phi猜拒。
+
+11:34:27.823746Z trial-start已转同restoration方向alpha.5，point8e3194c153c542c010e1f54cb0f0b4b0d24b8f1f6da3d3a288215630f4771cb0；11:35:45索引normal指该点，cached56/closures54139/logical failures0。新半步统计/几何尚未返。当前仍原7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、accepted0、Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052及原完整六族/K。science仍in_progress/child null，complete_report=false/stop_reason=null，whole pure未执行；两份whole原索引保全部旧新原字段及TypeError未返记录。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md",
+    "bytes": 61394,
+    "sha256": "e28f61106aca2608d7a10a91427bbac4840f883de8453cf4a4cce48466bbecf7",
+    "git_blob_sha": "554ba36ce70955c4e92c0c730f6a78e327700aca",
+    "fixed_commit": "1a430eac92fc16a1e7b484c589b1205a0053afbb",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46133839513-1.md",
+    "bytes": 60750,
+    "sha256": "9d2f33181fcc344255df83d25f07a488f7de7489919d6c8837ee9780d00e3131",
+    "git_blob_sha": "621b8f72cefe003af4be862fc6eabf53187beed5",
+    "fixed_commit": "2731808f63b8ca8d368217e1f443c0bbe08fc25f",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

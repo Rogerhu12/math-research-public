@@ -1,11 +1,11 @@
 # HANDOFF — visible-flex-larger-amplitude
 
 会话Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-20261120。**未完成，持续真正求解；时长、阶段、失败、输入困难均非终点。**
-[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/9b1e51d48cec66caa41523a299ed7adb11bf2eb8/topics/visible-flex-larger-amplitude/HANDOFF.md)与[完整open](https://github.com/Rogerhu12/math-research-public/blob/c341d7b51333cbb271c808b7f5b74de723282d3d/topics/visible-flex-larger-amplitude/open.md)保全部原字、完整源参、失败未知及更早链；open§1–6原23359B不动，不重做登记结论。
+[此前完整交接](https://github.com/Rogerhu12/math-research-public/blob/2731808f63b8ca8d368217e1f443c0bbe08fc25f/topics/visible-flex-larger-amplitude/HANDOFF.md)保全部原字及各完整open/旧H链、源参/错误/预算/未知。open§1–6原23359B不动，不重做登记结论。
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`df9f08defd7b1ce07160bcee5960d87e263177dc`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置仅探一次，10:06 exec及10:21独立CUA均无可用程序，恢复即pull。云核至`31f57b0fb89bc644da22ee87fe3ed80b9dac9e22`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派显式gpt-6.2-astra/ultra/fork none，三代理已通知；所有原预算不变。
 
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
@@ -14,12 +14,12 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 ## 实际状态及立即续接
 
 [open§7](open.md)各完整note保全source/model/point/六族/K、命令、typed、错误及完整原预算。attempt1；自然science返回才排whole pure；trial不代accepted/final，异source/model不借同坐标结果。
-[既往完整H](https://github.com/Rogerhu12/math-research-public/blob/f4ee0b39c49ecf8cdb1f4764e37337370890a3c4/topics/visible-flex-larger-amplitude/HANDOFF.md)及各own note保19–32全源参/模型点/六族K/接受试探/预算/未知；20–26取消原因未明。27/28/29retry/31/32由[各自日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)确认真pull后README核查异常；19和28旧science/pure0，28新R729等其余未自然final。[标量90/90](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)与13summary原错保全。
+19–32逐次完整终态、源参/模型点/六族K/接受试探/预算/未知保上述固定H及各own note。20–26取消原因未明；27/28/29retry/31/32均已由[自身日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)确认README核查异常。19和28旧science/pure0，28新R729等其余未自然final；90项scalar及13summary旧错保原全note。
 
 ## 新构造、修复及未付责任
 
 R724–728完整证明/源参保results；R728真实w含高度项，最终seed4件a907已刊，不据条件距离冒全K/reach。R729完整全行对偶/可行恢复/gap已证，32实际采用归因尚未返回。
-33正半波R729[整源/原启动](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)与[规则retry](notes/2026-11-28-run33-section16-retry.md)保全部来源/预算。旧run在两input0后因根§16核查退出，science未启。新46133839513/job140944661119两input0，source bffd5bbf/PID3463/model61c654；初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052，首trial291f394统计已返、几何尚待；不冒接受。自然science返才pure62854。
+33正半波R729[整源/原启动](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)与[规则retry](notes/2026-11-28-run33-section16-retry.md)保全部来源/预算。旧run在两input0后因根§16核查退出，science未启。新46133839513/job140944661119两input0，source bffd5bbf/PID3463/model61c654；初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052，首trial291f394全几何g16.64809271107871/reach已拒；半步8e3194c已启，统计/几何未返。自然science返才pure62854。
 
 
 [R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)真S/κ₀全角长度根、逆弧长六jet、参考闭嵌入/双held/D≤4.2已证，未付全Gram/reach。[34完整源参启动](notes/2026-11-28-R730-R729-run34-complete-launch.md)保全部139角色/24runtime与原预算。实际46135301432/job140949157288，两input0，science c3228e9d/PID3687/model989fec；自身初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736，几何尚待。自然science返才pure66120；不继旧mean/证书。

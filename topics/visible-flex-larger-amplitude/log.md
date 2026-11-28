@@ -99,3 +99,7 @@
 ## 2026-11-28 11:38:06 UTC — R732完整闭相位/十二矩/两类mesh的正常入口与七原步骤参数
 
 8件159901B现刊，manifest16996B/SHA256 283f5b18f21cbcd3eebeb4d27e989b2857727858bf161157973abf965210a23a；含11284B正常source build入口、9642B全参数再生器、20847B完整绑定与4 ready13013/19980/34087/34052B。当前manifest确绑已刊最新9721B mesh包（其SH30309a...），未借早版。按17科学+4准确+4闭/矩+(3mesh)完整正常materialization后执行原entry一次，不加科学前置。七条inner argv8、10/8、34/6、34/6逐字原合同保，outer13、15/13、39/11、39/11；原selectors77、34/65、118/66加48live、118/66加48live全部保，完整build字段额外而未替原路径。原4096row chunk、十二通量600秒/0 blocks（不截圆）、五t/全levels/频率/导出/预览与独立mesh纯读保；无闭面证据分支仍完整。N/G→closed→flux/invariant→packet/final取各自whole同point快照链，N重写须重新G/newclosed/newmesh。全部14闭/矩/mesh源参已main，所有actual仍null；35科学未自然返回，不排提前pure或下游。 双README云核至`df9f08defd7b1ce07160bcee5960d87e263177dc`无变（非pull）。
+
+## 2026-11-28 11:40:18 UTC — 33首完整试探实拒；同方向半步已启
+
+33完整首restoration trial291f394自身positive g16.64809271107871、max family reach、accepted=false；半步8e3194c已启，accepted0/current7e06不变。H仅把已被固定2731808全文保全的旧索引去重，原结论/来源不删。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run33-section16-retry.md)。双README云核至`31f57b0fb89bc644da22ee87fe3ed80b9dac9e22`无变（非pull）。
