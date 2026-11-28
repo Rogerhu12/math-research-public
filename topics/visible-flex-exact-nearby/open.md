@@ -159,3 +159,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 
 2026-11-28 HN2已支付真strict second source与full弱二阶解、actual short height Hessian及HP mean/phase quotient导数；不删除full regular二阶response、一般moving cap二阶端口、全tame inverse/可求和迭代义务。见R147 HN2，首算57新exact组合，旧科学0。TF唯一run46120139018/1正运行，尚无success gate。
+
+WMT14完整新公式与实际入口已齐，原global850完整候选保、14新目标待run；BNC46117248905全7成、全96 target coordinates联合误差<.001383111，但不是完整Θ列，双mean与未付full512/infinite/coupling保。原SC/JF接受TP同schema全58/224/32之后仍须TC all7724。

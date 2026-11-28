@@ -1,0 +1,56 @@
+name: R149 complete weighted-model Theta receiver
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fourfold-codazzi-weighted-model-Theta-receiver-public.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-exact-weighted-model-Theta-receiver-20261128
+  cancel-in-progress: false
+jobs:
+  complete-first-target-normalized-nu96:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 360
+    env:
+      OPENBLAS_CORETYPE: 'Haswell'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      BLIS_NUM_THREADS: '1'
+      VECLIB_MAXIMUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - name: Install Git in the original immutable numerical container
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_model_Theta_receiver_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reflected_waist_rows_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-weighted-model-Theta-receiver-inputs.json
+      - name: Trust only this explicitly mounted checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Install the exact original ASR carrier runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0
+      - name: Restore whole inputs and certify the first target-normalized parameter column
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_model_Theta_receiver_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-weighted-model-Theta-receiver-inputs.json
+          --manifest-sha 4913fe4ce57cd579741b65090cd5e6dae22392956545196c888c3061b8974ffb
