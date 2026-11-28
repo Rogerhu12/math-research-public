@@ -35,3 +35,5 @@
 - [R643 自然终态：固定源细网误差及未完位置读数](notes/2026-11-28-r643-fixed-source12-and-paid-partial-readout-natural-terminal.md)。细网条件η2.206112e−7；真细网/均高已付，直接位置部分未闭。
 
 - [R631 自然终态：174 次设计接受及双直接位置读数](notes/2026-11-28-r631-design174-and-two-position-stencils-natural-terminal.md)。μ0设计总174；双位置stencil已完成，η约2.46059e−5，非宏观同g。
+
+- [R707 自然终态：真实新材料上的保留场与三待加径点](notes/2026-11-28-r707-actual-material-f60be0-retained-natural-terminal.md)。当前f60be0材料η3.22670e−5；三真待加径点保留，旧ada2债不消。
