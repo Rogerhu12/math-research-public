@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-corrected-Delta-722-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-B-terminal-quadratic-complete-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-真四头1,T,z非自由，旧错链/bf3冻；t0/A0闭，fd9保B/G。整B含H3零、C2闭；[C76∈I4](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)≤76权对，2/34/40整域保。[fu同点C92](results/R150-appendix-unit211-Phi-zero-true-fu-C92-same-point-original-weight-cover.md)前18列实际返1，C92^13、rad88；独立u0排除后87个u/261权对，Ψ对Q首一3，全部y纤维保。[fu原单位](results/R150-appendix-unit211-Phi-zero-fu-t-minus-two-and-theta-original-units.md)付θ、t−2，另付2u−3；未空，不重12×24门。
+真四头1,T,z非自由，旧错链/bf3冻；t0/A0闭，fd9保B/G。整B含H3零、C2闭；[C76原覆盖](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)的新[二次整支排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-quadratic-complete-original-exclusion.md)在完整8维QQ代数中返λtD一次；rank4、1未返，保全部幂零与嵌入，剩34/40因子、≤74权对。fu同点C92^13加独立u0排除给≤261权对；Ψ Q首一3，θ/t−2/2u−3付，全部几何纤维保。c585新终端原乘子首派，不重C92门。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

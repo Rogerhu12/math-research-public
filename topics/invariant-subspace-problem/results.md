@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi/B终端二次权因子整原值排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-quadratic-complete-original-exclusion.md)：全QQ二次域、g=(λ−1/2)²和首一ω保完整8维代数，8×48原理想rank4，1未返但λtD一次返，物理整支闭。唯一.343445秒/0，剩34/40因子、≤74不同权对。
+
 - [R150：正确h=k、Delta=0的722个原基点覆盖](results/R150-appendix-unit211-h-equals-k-corrected-Delta-zero-722-base-cover.md)：新真F61的固定Q结式核(110,14)与独立正确P(28,3)实际QQ gcd1，17阶u矩阵给≤722不同(λ,u)，包括首项退化；1.158841秒/0。Pf0及完整Q/Gram纤维仍保，旧848/578仍撤回。
 
 - [R12：原Walsh根统一median间隙与迹类物理极化](results/R12-appendix-uniform-walsh-root-median-gap-and-trace-class-physical-polarization.md)：保真实8^L次项，两个固定字的四相位有理间隙给全行≥16^m8^L/12；全部有限分支/直和ΠR−F迹类、实际酉W−I迹类，真两坐标injective/dense。R²仅在DomR稳定域，完整原carry保，未造C根。
