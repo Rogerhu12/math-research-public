@@ -477,3 +477,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:08:12 UTC — run29官方failure与最后自身完整状态
 
 46112781312/1官方failure 2026-11-28T09:40:48Z；原因待自身日志。末source/model/current/trial/六族/K/缺失错误全保，不借33故障、不造自然final/pure；移除失效槽。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`df0c989652a0f243a1bae3cb37e116932455cc99`无变（非pull）。
+
+## 2026-11-28 10:08:17 UTC — run31官方failure与最后自身完整状态
+
+46122200592/1官方failure 2026-11-28T09:40:24Z；原因待自身日志。末source/model/current/trial/六族/K/缺失错误全保，不借33故障、不造自然final/pure；移除失效槽。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)。双README云核至`a125b8b67ff008fc0b9d17298c493d506c511cdf`无变（非pull）。

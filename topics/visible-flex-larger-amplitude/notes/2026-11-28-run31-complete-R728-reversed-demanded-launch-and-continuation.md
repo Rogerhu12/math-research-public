@@ -358,3 +358,261 @@ request46194B / SHAce643515f5d0458f440d10f89b390f656e44ea4fcdef6acb14796093be761
   }
 ]
 ```
+
+## 2026-11-28 10:08:17 UTC — run31官方failure与最后自身完整状态
+
+官方run46122200592/1、job140908938124 completed/failure，job终止2026-11-28T09:40:24Z，研究步骤终止2026-11-28T09:40:18Z。该run自身实际异常尚未取得，原因未知，不能用33的根README异常或运行时长代替。子科学未观察到自然完成，不把job failure当数学报告。
+
+current仍337dc8a3bc00ffadf43eea6a420d1063fba528de19c2c03aa08345169730384a/accepted1，reachg.7621406738864105。第二全步ec99d7de8f647176f5930fc09ff78f2fc84b536f8dbe1073884c2a4432159221于09:28:35.651597Z返回Phi14106.362105810284、Gram.8223753576536664，几何/acceptance未知。原首accepted六族/K不改。
+
+下方完整官方jobs与末观察保全部源/model/点/六族/K位置、原错误及null；未返final/typed/pure/证书不补造。原全部参数、预算、源责任继续保留；移除失效槽并接新34/33恢复运行。
+
+```json
+{
+  "official_jobs": {
+    "total_count": 1,
+    "jobs": [
+      {
+        "id": 140908938124,
+        "run_id": 46122200592,
+        "workflow_name": "Visible larger amplitude R728 reversed demanded 20261128 31",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46122200592",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVt5L2s8AAAAgztPDjA",
+        "head_sha": "8591fc4c0ce0a3e4ec26e9e1d0728f95b5b28d48",
+        "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140908938124",
+        "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46122200592/job/140908938124",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-11-28T07:39:20Z",
+        "started_at": "2026-11-28T07:39:22Z",
+        "completed_at": "2026-11-28T09:40:24Z",
+        "name": "Construct the same fixed target and solve the complete reversed spherical boundary",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-11-28T07:39:23Z",
+            "completed_at": "2026-11-28T07:39:24Z"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-11-28T07:39:24Z",
+            "completed_at": "2026-11-28T07:39:30Z"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-11-28T07:39:30Z",
+            "completed_at": "2026-11-28T07:39:36Z"
+          },
+          {
+            "name": "Install the recorded numerical and automatic differentiation dependencies",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-11-28T07:39:36Z",
+            "completed_at": "2026-11-28T07:40:07Z"
+          },
+          {
+            "name": "Execute public research and publish independent compact records",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 5,
+            "started_at": "2026-11-28T07:40:07Z",
+            "completed_at": "2026-11-28T09:40:18Z"
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9,
+            "started_at": "2026-11-28T09:40:18Z",
+            "completed_at": "2026-11-28T09:40:18Z"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10,
+            "started_at": "2026-11-28T09:40:18Z",
+            "completed_at": "2026-11-28T09:40:19Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11,
+            "started_at": "2026-11-28T09:40:19Z",
+            "completed_at": "2026-11-28T09:40:19Z"
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140908938124",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000012713,
+        "runner_name": "GitHub Actions 1000012713",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      }
+    ]
+  },
+  "complete_latest_observation": {
+    "step_id": "complete-fixed-fejer-r728-demanded-bhalf-first-20261128",
+    "scientific_source_commit": "dfbbc306245b99e0e84400c55697aebe584bb22b",
+    "scientific_source_sha256": "ce61668b5f24ba4c49556256c40f305561d6b6512d78617d691d4b84e9a509aa",
+    "pid": 4131,
+    "observations": {
+      "fixed-fejer-r728-demanded-bhalf-first/actual-normal-evaluation-progress.json": {
+        "phase": "normal_chain_enter",
+        "at": "2026-11-28 09:35:02 UTC",
+        "point": "ec99d7de8f647176f5930fc09ff78f2fc84b536f8dbe1073884c2a4432159221",
+        "cached_angle_roots": 513,
+        "closure_original_returns": 64686,
+        "closure_logical_failures": 0
+      },
+      "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json": {
+        "math_at": "2026-11-28T09:28:35.651597+00:00",
+        "math_event": "trial-statistics-returned",
+        "math_driver": "549ca0f7cd038abc278a5ec20580f79609bae8328ba090e15a41e19133d8b3ee",
+        "math_model": "78717b20b1fa33db5ccc018be03ee6c9d93a0b89615fdfd25d1049492c0fce40",
+        "math_source": "4b63c9ab05875aea79cdd537fe4134dcd3be36345d75281cc154fabf10d49c94",
+        "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+        "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+        "initial_Phi": 14106.361942260944,
+        "initial_Gram": 0.822374918515021,
+        "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+        "initial_violation": 0.7631911760908718,
+        "initial_geometry_complete": true,
+        "current_point": "337dc8a3bc00ffadf43eea6a420d1063fba528de19c2c03aa08345169730384a",
+        "current_Phi": 14106.362105626435,
+        "current_Gram": 0.8223753558623952,
+        "current_geometry_point": "337dc8a3bc00ffadf43eea6a420d1063fba528de19c2c03aa08345169730384a",
+        "current_violation": 0.7621406738864105,
+        "current_geometry_complete": true,
+        "current_state": "accepted restoration checkpoint returned; final report not inferred",
+        "trial_point": "ec99d7de8f647176f5930fc09ff78f2fc84b536f8dbe1073884c2a4432159221",
+        "trial_Phi": 14106.362105810284,
+        "trial_Gram": 0.8223753576536664,
+        "trial_accepted": null,
+        "accepted_directions": 1,
+        "complete_report": false,
+        "stop_reason": null,
+        "observer_failures": 0,
+        "current_g_reach": 0.7621406738864105,
+        "current_g_body_diameter": -0.04189769472043836,
+        "current_g_distance_plus": -0.09518118442522905,
+        "current_g_distance_minus": -3.0402377944190384,
+        "current_g_cap_diameter": -0.06715131464556945,
+        "current_g_height_floor": -1.041171597036216,
+        "previous_completed_trial_point": "337dc8a3bc00ffadf43eea6a420d1063fba528de19c2c03aa08345169730384a",
+        "previous_completed_trial_g": 0.7621406738864105,
+        "previous_completed_trial_accepted": true,
+        "previous_completed_trial_maximum_families": "reach",
+        "previous_completed_trial_Phi": 14106.362105626435,
+        "previous_completed_trial_Gram": 0.8223753558623952,
+        "current_K": 14.229668650197532,
+        "current_D_point_lower": 4.109115766051376,
+        "current_K_cell": 510,
+        "current_K_u": 0.5,
+        "current_K_phi": 1.3008157081270237,
+        "current_K_branch": 0,
+        "current_K_s": null,
+        "trial_alpha": 1,
+        "trial_phase": "restoration",
+        "current_distance_plus_phi": 1.5707963267948966
+      }
+    },
+    "complete_small_progress_file_identities": [
+      {
+        "path": "fixed-fejer-r728-demanded-bhalf-first/actual-normal-evaluation-progress.json",
+        "bytes": 3376,
+        "sha256": "68055fc1fcda959bbb584391ea9a3470116e55d7bc9dbb11d79a2000eba510a5",
+        "two_complete_bounded_reads_agreed": true
+      },
+      {
+        "path": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "bytes": 13362,
+        "sha256": "399a9dc40f1d7cbc119319be06a944d4654cc04a2d6e3029fc1e5e5b8bd1a90b",
+        "two_complete_bounded_reads_agreed": true
+      }
+    ],
+    "observation_errors": [
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.point_sha256",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      },
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.positive_physical_g",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      },
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.complete",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      },
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.maximum_absolute_principal_curvature",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      },
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.returned_locations.curvature.cell",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      },
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.returned_locations.curvature.u",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      },
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.returned_locations.curvature.phi",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      },
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.returned_locations.curvature.branch",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      },
+      {
+        "report": "fixed-fejer-r728-demanded-bhalf-first/actual-mathematical-progress.json",
+        "field": "latest_trial_geometry.returned_locations.curvature.s",
+        "error": "TypeError: 'NoneType' object is not subscriptable"
+      }
+    ],
+    "child_exit_code": null,
+    "child_natural_return_not_observed": true,
+    "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+    "observation_identity_sha256": "bab4e8d99f7ce54a9773cbcb5071c84ca7397c508705325d07438eb24812b487",
+    "observed_utc": "2026-11-28T09:35:11Z"
+  }
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46122200592-1.md",
+    "bytes": 54284,
+    "sha256": "1e323c26c60882e4b1053bf9193f388e5daa5dc29935fa87feb6ed23f64b4a68",
+    "git_blob_sha": "09b153688259544fae00f6d757843f29e44381a2",
+    "fixed_commit": "df0c989652a0f243a1bae3cb37e116932455cc99",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
