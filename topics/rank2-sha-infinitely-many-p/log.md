@@ -318,10 +318,21 @@ geometry给T1–20，arith/central独核原三模型周期及两槽，root全文
 v13 04:39:40实际仍in_progress，最近日志GET04:24:01为4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、末222/306，无终门。下一继续真正new p² integral lift与kernel角色；代码侧准备完整scalar-primary返回的软件比较，不开第二heavy、不保存可重算矩阵。
 
 
-## 2026-11-28 04:50 UTC：原 scalar primary 的完整两向返回与软件请求
+## 2026-11-28 04:49 UTC：原 scalar primary 的完整两向返回与软件请求
 
 R1050§7对已逐项核实的实际hI输入给同一原primary的完整Bezout返回：g=π^m、e=Nm、sa+tb=1，实际稀疏U/V满足U·rows=gI和V·gI=rows；原动态全余数、首一Hermite、det与厚长全部保留。仅克隆旧support方法的两个调用点，旧class/engine/generic方法不改；完整残域/Frobenius/registry/无穷边界仍走原正文。六个原primary对照、五拒绝、rank306及未改旧七组checker已请求固定公开软件检查，未返回不记PASS；生产v13和全部数学终门保持。
 
 arith提交两独立新源码，root全文核原engine unit/primary/remainder、旧七组checker、实际两callsite可逆替及全部proof。helper 16323B/hash925a3829cc087dec6b0acbeed8cf41afb44014ef3b056cea3b98ad607141113b；check 17807B/hash7b9d4f528308199e59eb5ca9509e7f7ab6a54a23cc67bd0012112b57e9dc6e6d。既有固定selector只加一个明确kind和两个实际SHA，不接受任意路径；原default及三旧分支逐字保留。公开既有workflow固定Sage10.6/420s/4线程/无网络/不存输出，request v1的24源保全部原依赖。完整秩306 scalar fixture只验实现，不冒原geometry。R1050§7纸笔proof与本次代码一并登记，数学和Python语法均未在本地执行。
 
 推前实际pull run46073965457/job140868446107：公开2026-11-28 04:46:59 UTC至244e740a33cab1edc18fa338dee41f26628cc5ec，私库2026-11-28 04:47:07 UTC至614bb6b4e9d42168f8b92d7a8648da9875cbb517；四README与04:36已读版相同、QUEUE本会话未变。日志14887B/hashd11ef8f7c5e727394dd16b8aba73948e9640412299e26a3918f16dcbe0a952b3；库存3183blobs/45120186B/tree33a3def8a2500cf04427a55c041e669e5e619a23，无>5MB、三旧必要gzip未变。T1–20已成功推e112e2dfdb7a5bf2999eece8bf9fd989a9e4846e。v13尚无终态，未改旧producer/request，未开第二heavy；下轮先消费真实软件结果与v13终态。central已提交原p²新字整primitive W稿，root接着全文审查并推结论。
+
+
+## 2026-11-28 04:51 UTC：实际 p² 新字、完整 Katz 连接及唯一对偶 coset
+
+R1065 W1–26从原division函数逐项取消实际[p]框架的首p，得B_N,p整单位且常数1；相对Picard与原Hall中心锁定原Miller lift自身整性。每个真正p²新字在该拉回框架直接为整ψ0 Katz dual，无额外p，范数1及正6q/负4q高系数单位均为实际输入；标准degree-Nq框架仍保B有权迹。原全p² old/new、(p^-2−1)旧项、Haar及两3字/fullh保留，W22的完整连接给每阶原有限jet及physical p^-m、无漏j!。唯一dual coset和成对图ξ+=−M^-Tξ−经完整有限p^-2投影及Egorov准确返回，不称有理化投影为整范数1。原Hall负二有限测试、17^-2和全Λ/Λ′不变；新高矩单位仍不付原低canonical或无穷非零。
+
+central给W1–22与W23–26，root完整读原R1054(52)–(65)、R1063H16–23并手核W4首p抵消、原theta-group lift单位归一、W9乘法符号、W22无j!、W25反对偶图。root亲读Stacks44.4.2–3（tag0B9K）相对Picard精确列及Berger2504.20558v3 TheoremA的p-adic完备分离平坦S条件，W13补明OF满足全部假设、范数是原整格gauge。W23投影只在有理化完成tensor成立，未擅付integral norm1。原whole圆周投影与全部外权仍在原顺序，未将新dual相认旧depleted或原Zp测度。全部为纸笔推导，无数学执行。
+
+推前actual pull run46073965457/job140869205782：公开2026-11-28 04:50:16 UTC至a102c6c3e2f607e76443afef4a97db4a611dab97，私库2026-11-28 04:50:23 UTC至4c9077c30ac1643113dca51fc4c3d7b4ec491da9；四README与04:46相同，QUEUE本会话认领未变。日志14887B/hash2828548ae53916fd4ffb080cd73e011158b61f4fad9f0defbe860b29e1d608cc；库存3185blobs/45163770B/tree248e1756bac808e54eb562ee290385249786082e，无>5MB、三旧必要gzip未变。本次逐字H归档notes/2026-11-28-handoff-before-actual-p-square-katz-source.md（9694B/hash2e2ed36134207237202c04c8c44edc92b35d9aca71396691e0ac4573182e99a3），旧完整范围与链不丢。
+
+R1050§7和新软件源已推32a46d1723615b195868de3dace44b2cdf4fe8d7；公开小check run46109303246/job140869032165已实际进入验证，未返不记PASS。v13 04:49:25实际仍in_progress、未开第二heavy；arith只准备v14候选，须先消费软件结果及v13终态。geometry继续同一new dual的Gaussian/原coherent连接和fullh投影，central继续实际支持而不追加canonical坏条件。

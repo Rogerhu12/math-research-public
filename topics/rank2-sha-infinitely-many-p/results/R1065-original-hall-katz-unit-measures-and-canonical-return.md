@@ -884,3 +884,536 @@ $612\omega/\kappa_A$ 和两模型尺度全部已付。
 $v_p\mu_+(c_1^{p+1})=2$，更未支付其对无穷多个 $p$ 成立。
 
 本附节是纸笔恒等式及完整既有来源的运输，无新增数学执行。
+
+## 13. 原 p² 新字的拉回框架与整单位
+
+本节继续(K1)–(K3)的同一个严格 LT 坐标、完整
+$T_{\rm g}$ 及 $E_0$ 模型。它处理
+[R1054](R1054-original-p-square-depleted-source-and-exact-conductor-blocks.md)
+(58)–(65)的真正 $p^2$ Weyl 字；
+不是对(K8)已经构造的 $\mu_\pm$ 换一个名字。
+新结论是：将这些字放回**实际 $[p]$ 拉回框架**后，
+每个非旧字本身已是整的 $\psi=0$ 级数，不必再乘一个 $p$。
+原整体来源的 $p^{-2}$ Haar、覆盖变量及全部外权仍保留。
+
+置
+$$
+ \mathscr T(v)=T_{\rm g}(w(v)),\qquad h(v)=v/\mathscr T(v),
+ \qquad P(v)=[p]_G(v)=pv-v^{p^2}.
+ \tag{W1}
+$$
+对 $N=34,102$，令 $\mathcal L_N=\mathcal O_E(NO)$，
+$s_N^0$ 是其原 canonical section；在解析 sigma 框架中为
+$\sigma(z)^N$。形式邻域上的整不消失框架为
+$$
+ e_N=h(v)^{-N}s_N^0,\qquad
+ s_N=\sigma^N R_N=f_N(v)e_N,\qquad f_N=h^NR_N .
+ \tag{W2}
+$$
+$h/v$ 为整单位，所以(W2)确是整线丛的框架，而不是把 sigma
+级数代入边界挠点的定义。这里负侧仍是原两条三挠字完整相加后的
+$R_-$；其 $\delta$ 拉回和中心不改变。
+
+[R1061](R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)
+(27)、(30)已给原 division function
+$r_p=\sigma(pz)/\sigma(z)^{p^2}$。运输到同一严格坐标后准确有
+$$
+ r_p(v)=u_p(v)\frac{P(v)}{v^{p^2}},
+ \qquad u_p(v)\in\mathcal O[[v]]^\times,\quad u_p(0)=1.
+ \tag{W3}
+$$
+坐标运输的首导数为1，故保留这个常数。特别
+$v^{p^2-1}r_p=u_p(v)(p-v^{p^2-1})$；
+原首 $p$ 没有被删除，符号也与(K2)相同。
+
+在原刚性化
+$[p]^*\mathcal L_N\simeq\mathcal L_{Np^2}$ 下，
+$[p]^*s_N^0=r_p^N s_{Np^2}^0$。因此(W2)给出全部框架差：
+$$
+ \boxed{
+ [p]^*e_N=B_{N,p}(v)e_{Np^2},\qquad
+ B_{N,p}(v)
+ =\left(r_p(v)\frac{h(v)^{p^2}}{h(P(v))}\right)^N
+ =\left(u_p(v)\frac{\mathscr T(P(v))}
+                         {\mathscr T(v)^{p^2}}\right)^N
+ \in1+v\mathcal O[[v]] .
+ }
+ \tag{W4}
+$$
+分子、分母中的同一个 $P(v)$ 在(W3)代入后才相消。
+这同时证明 $B_{N,p}(0)=1$；没有另选一个根或重归一首项。
+特别，degree-$Np^2$ 的标准 $T_{\rm g}$ 框架与原 $[p]$ 拉回框架
+相差的是(W4)这个明确整单位，不能预先认成同一个。
+
+## 14. 每个原 Miller lift 的整性与准确中心
+
+先固定一个原实际有限/CM 字，尚未作无穷圆周投影。
+在一个有限扩域 $F/L$ 中放入全部实际 $p^2$ 挠点、原 Miller
+根与非 $p$ 系数；记其整数环为 $\mathcal O_F$。
+取原 theta lift 的 $T\in E[p^2]$，置 $Q=[p]T$。
+定义 $A_{N,T}$ 与 $F_{N,T}^{\rm K}$ 为同一个实际 section 的
+两个系数：
+$$
+ \mathsf W_T([p]^*s_N)
+ =A_{N,T}(v)[p]^*e_N
+ =F_{N,T}^{\rm K}(v)e_{Np^2},\qquad
+ A_{N,T}=B_{N,p}^{-1}F_{N,T}^{\rm K}.
+ \tag{W5}
+$$
+所有 $\mathsf W_T$ 都沿 R1054(56)、(59)的实际 lift，不自行换相位。
+
+存在由该 lift 唯一确定的 multiplier $m_{N,T}(v)$，使
+$$
+ A_{N,T}(v)=m_{N,T}(v)\,f_N\bigl(P(v)\oplus_G v_Q\bigr).
+ \tag{W6}
+$$
+下面证明**原** $m_{N,T}$ 是整单位，而不只证明有另一个整 lift。
+
+在好整模型上，$\mathcal M=[p]^*\mathcal L_N$ 的极化核包含
+$E[p^2]$：其极化映射为 $[Np^2]$。因此
+$\tau_T^*\mathcal M\otimes\mathcal M^{-1}$ 在相对 Picard 群中为0。
+由于椭圆 scheme 有零截面且其全局函数来自底环，该线丛来自
+$\operatorname{Spec}\mathcal O_F$；后者的 Picard 群为0。
+故存在一个整 theta lift。这个论证是相对 Picard 精确列的直接
+应用，参见 [Stacks 44.4.2–44.4.3](https://stacks.math.columbia.edu/tag/0B9K)；
+对本处也可用 theta-group 的 $\mathbf G_m$-torsor 描述。
+在(W2)及其实际拉回的整框架中，该整 lift 的 multiplier 必属
+$\mathcal O_F[[v]]^\times$。
+
+另一方面，原 lift 和这个整 lift 在 generic fibre 的比为
+$F^\times$ 中的一个常数。R1061(25)、(28)、(31)给原常数
+$b_{N,T}=\epsilon_Tc_Q^N$，其中 $\epsilon_T$ 是实际中心分量；
+对 $Q\ne O$，
+$$
+ \boxed{
+ m_{N,T}(0)
+  =\frac{b_{N,T}}{h(v_Q)^N}
+  =\epsilon_T
+       \left(\frac{c_Q\,\mathscr T(v_Q)}{v_Q}\right)^N
+  =\mathscr C_{N,T}\in\mathcal O_F^\times .
+ }
+ \tag{W7}
+$$
+这里 $v_p(c_Q)=v_p(v_Q)=1/(p^2-1)$，且
+$\mathscr T(v_Q)$ 为单位；这正是 R1063(H16)保留的原 Hall 中心。
+一个整 lift 的对应首值也是单位，所以两 lift 的常数比为单位。
+原 lift 本身因而整。该证明不改 $\epsilon_T$，也不将
+$\mathscr C_{N,T}$ 设为1。
+
+$Q=O$ 时使用原 old stabilizer：R1061(28)的准周期、
+half-character 和中心严格相消，整个 $[p]^*H^0(\mathcal L_N)$
+被固定。其原拉回线性化在 $[p]^*e_N$ 上就是形式群平移。
+例如可用全局 section $\sigma^Nx^{N/2}$ 核定此线性化；
+其在 $e_N$ 中的系数为整单位，故不可能遗留一个非平凡框架
+multiplier。于是 $m_{N,T}=1$ 对这些原 old lifts 成立。
+
+由(W6)、(K3)和完整形式群加法，
+$$
+ \boxed{
+ m_{N,T}\in\mathcal O_F[[v]]^\times,\qquad
+ A_{N,T}\in\mathcal O_F[[v]],\qquad
+ A_{N,0}=\phi f_N .
+ }
+ \tag{W8}
+$$
+$v_Q$ 在极大理想中，故(W6)的有常数项复合在
+$\mathcal O_F[[v]]$ 内收敛。这没有使用 sigma 在边界的原点
+展开，也没有借原最大阶点的半径界给新邻点。
+
+## 15. 完整核的真实 character 与无额外 p 的 Katz 测度
+
+用 R1054(56)的原定义
+$$
+ W_\pm(a,b)f(A)=
+ \zeta^{\,\pm b(A-a/2)}f(A-a),\qquad
+ \zeta=\psi_p(1/p^2),\quad \zeta_p=\zeta^p .
+ \tag{W9}
+$$
+记 $\beta_\pm$ 为 R1061(7)的实际点标记；
+包括负侧 $\delta$、正侧反 CM 方向及全部 CRT 中心。
+对 $S=\beta_\pm(pr,ps)\in E[p]$ 和
+$T=\beta_\pm(a,b)\in E[p^2]$，逐项相乘(W9)给
+$$
+ W_\pm(pr,ps)W_\pm(a,b)
+ =\zeta_p^{\,\pm(as-br)}
+       W_\pm(a,b)W_\pm(pr,ps).
+$$
+因为 $W_\pm(pr,ps)$ 在原 old 输入上恒等，且在拉回框架中是
+普通核平移，得到
+$$
+ \boxed{
+ A_{\pm,a,b}(v\oplus_G v_S)
+   =\chi^\pm_{a,b}(r,s)\,A_{\pm,a,b}(v),\qquad
+ \chi^\pm_{a,b}(r,s)=\zeta_p^{\,\pm(as-br)} .
+ }
+ \tag{W10}
+$$
+这里 $A_{-,a,b}$ 用 $N=102$，$A_{+,a,b}$ 用 $N=34$。
+实际 $\beta_\pm$ 已含极化和 $N$ 的归一；不得在(W10)再额外
+乘一次 $N$。若对原 $h$ 字先作 Egorov 运输，就对
+$(r,s),(a,b)$ 和 $\beta_\pm$ 一起作同一个真实运输。
+
+当 $(a,b)\not\equiv(0,0)\pmod p$ 时，(W10)是完整
+$\mathbf F_p^2$ 上的非平凡 character；这恰等价于
+$Q=[p]T\ne O$。使用(K5)的整个核，遂有
+$$
+ \boxed{
+ \psi A_{N,T}=0\quad(Q\ne O),\qquad
+ \psi A_{N,0}=f_N .
+ }
+ \tag{W11}
+$$
+本式的裸核迹作用于(W5)的 **$A_{N,T}$**。
+在标准 degree-$Np^2$ 框架中，准确的等式是
+$$
+ \frac1{p^2}\sum_{S\in E[p]}
+ \frac{B_{N,p}(v)}{B_{N,p}(v\oplus v_S)}
+              F_{N,T}^{\rm K}(v\oplus v_S)=0
+ \qquad(Q\ne O).
+ \tag{W12}
+$$
+不能从(W12)删除 $B$，再断言裸 $\psi F_{N,T}^{\rm K}=0$。
+这就是全 Weyl 有权迹与裸形式群迹之间需要支付的框架差。
+
+令 $\mathscr C=C^0_{\rm Gal}(\mathbb T,\mathcal O_{\mathbf C_p})$
+如(K9)。将 Berger Theorem A 用于完整平坦
+$\mathcal O$-代数 $\mathcal O_F$，由(W8)、(W11)得到唯一
+$$
+ \boxed{
+ \begin{gathered}
+ \boldsymbol\mu_{N,T}\in
+       \operatorname{Hom}_{\mathcal O}(\mathscr C,\mathcal O_F),
+ \quad
+ \operatorname{supp}\boldsymbol\mu_{N,T}
+       \subset\mathbb T^\times,\qquad
+ \|\boldsymbol\mu_{N,T}\|\le1,\\
+ \mathcal K^*\boldsymbol\mu_{N,T}=A_{N,T},\qquad
+ \boldsymbol\mu_{N,T}(c_k)=[v^k]A_{N,T}
+       \quad(Q\ne O).
+ \end{gathered}
+ }
+ \tag{W13}
+$$
+这里的范数沿(T1)–(T2)的原整格 gauge；系数扩张按固定 $F$ 中的乘法返回 $\mathcal O_F$，不把它改成普通 $\mathbf C_p$ 测度的点值范数。$\mathcal O_F$ 对 $\mathcal O$ 平坦且 $p$-进完备分离，满足该定理对 $S$ 的全部条件。
+
+这里没有乘 $p$。理由是这些实际新字已经整且 $\psi=0$，
+其全部后继 $\psi$ 迭代自动整；不是改善(K8)对任意整函数所需的
+分母界。旧字 $\phi f_N$ 不在这个结论内。
+
+对本题首项为1的实际 $f_+,f_-$，这些新测度还确实非零且范数为1。
+模 $\mathcal O_F$ 的极大理想，$v_Q$ 变成0、$P(v)$ 变成
+$-v^q$，所以
+$\overline A_{N,T}=\overline m_{N,T}\,\overline f_N(-v^q)\ne0$。
+其首剩余次数在正侧为 $6q$、负侧为 $4q$；对应
+$\boldsymbol\mu_{N,T}(c_{6q})$ 或
+$\boldsymbol\mu_{N,T}(c_{4q})$ 为单位。
+这是高阶 universal-character 系数 $c_k$ 的结论，
+不把 $k\ge q$ 的 $c_k$ 改成 $c_1^k/k!$，
+也不据此断言(K29)的低阶原 canonical 矩为单位。
+
+
+(W10)还支付了这份测度的准确有限特征。
+用(K11)的完整系数扩张 $\mathbf e_S$，对任意 $c\in\mathscr C$ 有
+$$
+ (\boldsymbol\mu_{N,T})_F
+        \bigl((\mathbf e_S-\chi_{T}(S))\,c\bigr)=0.
+ \tag{W14}
+$$
+证明：Katz 变换把乘 $\mathbf e_S$ 变成
+$A(v)\mapsto A(v\oplus v_S)$，再用(W10)及原 Katz 单射。
+所有非基域挠点与中心同时在完成的系数扩张中运输。
+这里不把一个未作系数运输的非等变函数塞进
+$C^0_{\rm Gal}$，也不略去(W10)的相反两条 character。
+
+## 16. 与原 Hall 测度的准确关系
+
+$\boldsymbol\mu_{N,T}$ 的质量给同一个实际 Miller 字的原值：
+$$
+ \boxed{
+ \boldsymbol\mu_{N,T}(1)
+ =b_{N,T}R_N(Q)
+ =\mathscr C_{N,T}f_N(v_Q)
+ =\frac{\mathscr C_{N,T}}p\,
+           \mu_{N,F}(\mathbf e_Q-1).
+ }
+ \tag{W15}
+$$
+最后一项的 $\mu_N$ 是(K8)、(K10)以
+$g_N=p(1-\phi\psi)f_N$ 构造的**旧测度**。
+新 $\boldsymbol\mu_{N,T}$ 则由真实 $p^2$ Weyl 字 $A_{N,T}$ 构造。
+(W15)只给它们在这个实际有限读者上的关系，不将两份测度相认；
+右边的除 $p$ 已由(K13)的完整函数等式支付。
+
+取 R1063 原 tame-zero Hall 的共同 lifts $T_\zeta$，
+$[p]T_\zeta=\zeta Q$、$\zeta\in\mu_d$。
+原 $\mathscr C_{N,T_\zeta}$ 及所有 wild 相位仍是指定的那些。
+于是原正 Hall 与负二有限 Hall 精确成为
+$$
+ \begin{aligned}
+ \mathcal H_+^0
+  &=\frac1d\sum_{\zeta\in\mu_d}
+             \boldsymbol\mu_{34,T_\zeta}(1),\\
+ \mathcal H_-^{[-2]}
+  &=\frac1d\sum_{\zeta\in\mu_d}
+       \frac{\mathcal F_{102,\zeta Q}(-2)}
+                  {(102Z_{\zeta Q})^2}
+             \boldsymbol\mu_{102,T_\zeta}(1).
+ \end{aligned}
+ \tag{W16}
+$$
+这与(K17)、(K19)逐项一致。实际 $a_Q^-=
+(102Z_Q)^{-2}\mathcal F_{102,Q}(-2)$ 是一个有限的已付系数；
+没有从单位支撑免费推出一个新的全局 inverse-Bol 算子。
+两条 Hall 仍独立，R1063 的 $d/p^2$ 成对 Haar 不改变。
+换到原 $E_{17}$ 来源时仍用(K20a)–(K20b)：
+$c_0^{(0)}=\vartheta^{-10}c_0$、$L_\pm=\vartheta\ell_\pm$，
+endpoint 相对 $c_0/\ell_-^2$ 的 $17^{-2}$ 必须保留。
+
+## 17. 整个原 p² 输入的 old/new 分解
+
+在两个真实拉回框架上记 $\phi f_\pm(v_\pm)=f_\pm(P(v_\pm))$，
+并始终按 R1054(59)在 $\mathbf Z/p^2\mathbf Z$ 中共同选 lift。
+其原有限矩阵的全部返回为
+$$
+ \begin{aligned}
+ \mathcal K_p^{\rm pb}
+ &=\frac1{p^2}\left[
+       \phi f_-\otimes\phi f_+
+       +\sum_{v\in\mathbf F_p^2\setminus\{0\}}
+          A_{-,\widetilde v}\otimes A_{+,M\widetilde v}
+                    \right],\\
+ \mathcal A_p^{\rm pb}
+ &=-\phi f_-\otimes\phi f_++\mathcal K_p^{\rm pb}\\
+ &=\left(p^{-2}-1\right)\phi f_-\otimes\phi f_+
+       +\frac1{p^2}
+        \sum_{v\in\mathbf F_p^2\setminus\{0\}}
+          A_{-,\widetilde v}\otimes A_{+,M\widetilde v}.
+ \end{aligned}
+ \tag{W17}
+$$
+$M$ 可逆，故最后每一项的两边都是真正新字。
+零字、旧项负号和所有 $p^2-1$ 个非零字都在(W17)中。
+这不借某个整体旧项的平坦极限为零而提前删掉它。
+
+令 $\Pi_0=\phi\psi$、$\Pi_\times=1-\phi\psi$，
+分别作用于两个拉回框架中的标量级数。由(W11)，
+$$
+ \begin{aligned}
+ (\Pi_0\otimes\Pi_0)\mathcal K_p^{\rm pb}
+       &=p^{-2}\phi f_-\otimes\phi f_+,\\
+ (\Pi_0\otimes\Pi_\times)\mathcal K_p^{\rm pb}
+       &=(\Pi_\times\otimes\Pi_0)\mathcal K_p^{\rm pb}=0,\\
+ (\Pi_\times\otimes\Pi_\times)\mathcal K_p^{\rm pb}
+       &=\frac1{p^2}\sum_{v\ne0}
+           A_{-,\widetilde v}\otimes A_{+,M\widetilde v}.
+ \end{aligned}
+ \tag{W18}
+$$
+这里的 $\Pi_0$ 在当前有限 Heisenberg 模上就是完整 old
+projector，因而是对真实输入的分解，不是给原 canonical
+条件增加一个可自由操作的测试。
+
+特别，原新部分乘回其**已有** Haar 分母 $p^2$ 后，准确是整
+Galois–Katz 双对偶
+$$
+ \boxed{
+ \boldsymbol\nu_{\rm new}
+   =\sum_{v\in\mathbf F_p^2\setminus\{0\}}
+       \boldsymbol\mu_{102,\widetilde v}
+          \widehat\otimes
+       \boldsymbol\mu_{34,M\widetilde v},
+ \quad \|\boldsymbol\nu_{\rm new}\|\le1,\quad
+ \operatorname{supp}\boldsymbol\nu_{\rm new}
+       \subset\mathbb T^\times\times\mathbb T^\times .
+ }
+ \tag{W19}
+$$
+其 Katz 变换是 $p^2$ 乘(W18)最后一行。
+本式用两份完成的对偶及全部系数运输；不声称是原单条
+$\mathbf Z_p$ Amice 测度的提升。
+
+## 18. 全有限 jet、原连接与物理 p 幂的返回
+
+为把(W13)真正接回原有限 reader，需要保原 sigma/完成框架。
+在同一个形式参数和不变微分 $dz$ 下置
+$$
+ a_N(v)=\left(\frac{h(v)}{\sigma(z(v))}\right)^N
+       =\left(\frac v{z(v)}\right)^N
+                    E_{\rm c}(z(v))^{-N},\qquad
+ \alpha_{N,p}(v)=a_N(P(v)),\qquad \alpha_{N,p}(0)=1 .
+ \tag{W20}
+$$
+这里 $E_{\rm c}$ 是原**完整** completion；等式来自
+$\mathscr T=\exp(F_{\rm c}-F)$，不只是其首
+$\exp(c_\sigma z^{p+1})$。本节只在有限 jet 中使用(W20)，
+不另声称整个 $a_N$ 在单位盘有界。
+
+令 $F_{N,T}^{\sigma}(z)$ 是 R1061(28)的完整解析 section 函数，
+仍用覆盖参数 $z$。由框架的定义严格有
+$$
+ A_{N,T}(v)=\alpha_{N,p}(v)F_{N,T}^{\sigma}(z(v)),
+ \qquad
+ \nabla_{N,p}=\alpha_{N,p}D\alpha_{N,p}^{-1},
+ \quad D=d/dz .
+ \tag{W21}
+$$
+因此对每个非负整数 $m$，
+$$
+ \boxed{
+ \begin{aligned}
+ p^m b_{N,T}\,\mathcal A_{N,m}(Q)
+   &=D^mF_{N,T}^{\sigma}(0)
+     =(\nabla_{N,p}^{\,m}A_{N,T})(0)\\
+   &=\sum_{j=0}^{m}\binom mj
+        D^{m-j}\!\left(\alpha_{N,p}^{-1}\right)(0)
+               \boldsymbol\mu_{N,T}(c_1^j).
+ \end{aligned}
+ }
+ \tag{W22}
+$$
+$\mathcal A_{N,m}$ 是 R1061(C2)、(C5)的同一个完整多项式：
+$\mathcal A_{N,0}=R_N$，
+$\mathcal A_{N,m+1}=(\mathcal D+NZ)\mathcal A_{N,m}$。
+第一行保真实 $Z_Q$、$c_Q$ 和实际 lift，不只保其首估值。
+
+(W22)中没有 $j!$：原 universal character 在不变微分下满足
+$D^j\mathbf t_\xi(0)=c_1(\xi)^j$。
+若改读 Taylor 系数，则在整个等式外再除原 $m!$；
+若返回物理底层导数，则乘原 $p^{-m}$。
+两个 coherent 槽因而仍有 $p^{-r-s}$，这与(W17)的
+$p^{-2}$ Haar 是不同费用。
+将 $D$ 换成裸 $\partial_v$ 会引入不变微分的系数，
+本节始终没有作这个替换。
+
+(W22)是每一阶原 Maass 有限转置可以直接消费的等式。
+需代回 R1060 的全部 $c_i(n)$、$\rho_i,\Omega_i,\kappa_i$
+和有限三角系数；不能只留下 $j=m$。
+它也不把原负二 endpoint 改成
+$\boldsymbol\mu_{N,T}(c_1^{-2})$：
+(W20)的连接、原 Maass 修正和外权导数仍须完整运输。
+有限负二 Hall 已由(W16)准确给出。
+
+## 19. 原全来源与适用范围
+
+(W17)先对原有限 Schwartz 模成立，再经
+R1054(61)–(65)的整个 $\mathfrak T_{\rm orig}$ 返回实际 theta 来源。
+对每一个实际 $h$ 字，先运输其 Heisenberg 参数、线丛及整框架，
+再使用(W4)–(W22)。原 $p$-primary old projector是全部核
+Weyl 的平均；实际 Egorov 运输置换这些核元素，故这个 finite
+old/new 分解与已经指定的有限 $h$ 运输相容。
+非 $p$ Schwartz、full2/full9、原两条三挠字和其 $\kappa^p$
+角色、Artin/Cor 均留在同一线性返回内。
+
+随后仍作原整个无穷圆周投影。上述逐字的整线丛证明不把
+圆周投影后的 $W^2F(ZW)$ 免费视作固定 $E\times E$ 上的
+全局 section；也不从各独立 rank-one 级数的整性重新定义
+原 whole 测度。R1060/R1059 的实际外权始终是
+$\Lambda_i(-2),\Lambda_i'(-2)$，连同真实 period 及模型倍率；
+不能在第 $n$ 槽将它们替成另一份 $\lambda_i(n)$。
+
+本节由原 source 支付的是：
+
+- 原 $[p]$ 框架差(W4)为有明确常数的整单位；
+- 全部非旧 $p^2$ 字在该框架中为整的 $\psi=0$ 对象，
+  其准确 kernel characters 和中心由(W7)、(W10)保留；
+- 原新双来源确有(W19)这份整 Katz 双对偶，并经(W22)返回
+  同一个原有限 jet 及全部物理覆盖费用。
+
+这不新增 canonical 中央零，也没有由 $\psi=0$ 或整范数推出
+(K29)的原首矩是单位。它提供实际新 $p^2$ 来源的整单位测度，
+而非把(K8)的人工 depletion 或原 flat 完成移名。
+
+## 20. 唯一 primitive 对偶剩余类及其原 h 运输
+
+(W14)可进一步确定每份新测度的整个有限支撑。
+继续固定包含全部 $E[p]$ 标记和 $\mu_p$ 的 $F$，
+在有理化的完成系数代数
+$$
+ \mathscr C_{F,\mathbf Q}
+ =(\mathcal O_F\widehat\otimes_{\mathcal O}\mathscr C)[1/p]
+$$
+中工作。对 $\xi\in\mathbb T/p\mathbb T$，
+以原 Cartier 配对写 $\langle\xi,S\rangle\in\mu_p$，置
+$$
+ \mathbf p_\xi
+   =\frac1{p^2}\sum_{S\in G[p]}
+            \langle\xi,S\rangle^{-1}\mathbf e_S .
+ \tag{W23}
+$$
+这是一个**有限** $p^2$ 项和。由
+$\mathbf e_{S+R}=\mathbf e_S\mathbf e_R$ 及完美 Cartier 配对，
+$\mathbf p_\xi$ 两两正交、和为1。
+在由全部 $\mathbf e_S$ 生成的有限 $F$-代数上，
+它们准确是 $\mathbb T/p\mathbb T$ 各剩余类的 indicator。
+其证明只用有限 Fourier 正交：对任意 $\xi'$，
+(W23)取值为 $\delta_{\xi,\xi'}$，且这些 $p^2$ 个剩余类
+全由 Tate 模实现。因此该有限代数就是 $F^{\,p^2}$。
+
+不能因为 indicator 的点值为0、1，就把(W23)在原整完成
+tensor 格中的 $p^{-2}$ 系数删掉。以下先在
+$\mathscr C_{F,\mathbf Q}$ 证明等式，再回到已经独立构造的
+整测度；不以(W23)重新制造一份“整测度”。
+
+令 $\xi_T$ 为由(W10)唯一确定的剩余类：
+$\langle\xi_T,S\rangle=\chi_T(S)$。
+对每个 $c\in\mathscr C_{F,\mathbf Q}$，
+(W14)逐项代入(W23)准确给
+$$
+ \boxed{
+ (\boldsymbol\mu_{N,T})_F(\mathbf p_\xi c)
+  =\delta_{\xi,\xi_T}
+           (\boldsymbol\mu_{N,T})_F(c).
+ }
+ \tag{W24}
+$$
+这就是在完成系数的 Galois-dual 意义下，
+$\boldsymbol\mu_{N,T}$ 支撑于唯一 coset
+$\xi_T+p\mathbb T$ 的确切陈述。
+$T$ 非旧当且仅当 $\xi_T\ne0$，所以该 coset 全在
+$\mathbb T^\times$ 中。
+这里没有将整个 $\mathscr C_{F,\mathbf Q}$ 认成任意
+$\mathbf C_p$ 值连续函数的空间。
+(W24)对于实际整输入的取值没有增加分母：
+它等于原已经整的 $\boldsymbol\mu_{N,T}(c)$ 或0。
+这不声称 $\mathbf p_\xi$ 在整个整 tensor 格上算子范数为1。
+
+还可把成对图写出，避免只称“两份单位支撑”。
+取与原 $\beta_\pm$ 对偶的坐标，使
+$$
+ \langle(x,y),\beta_\pm(pr,ps)\rangle
+       =\zeta_p^{xr+ys},\qquad
+ J=\begin{pmatrix}0&-1\\1&0\end{pmatrix}.
+$$
+由(W10)，对原参数 $v=(a,b)^T$，
+负侧剩余类为 $\xi_-=-Jv=(b,-a)^T$，
+正侧 $Mv$ 的剩余类为 $\xi_+=JMv$。
+于是(W19)的全部实际 paired cosets 为
+$$
+ \boxed{
+ \xi_+=-M^{-T}\xi_-,\qquad
+ \xi_-\in\mathbf F_p^2\setminus\{0\}.
+ }
+ \tag{W25}
+$$
+这是因为 $\det M=1$ 且 $JMJ=-M^{-T}$。
+两对偶坐标分别由原正负 theta 结构确定；
+(W25)不把两个物理 Weil pairings 同向认同。
+
+在一个原实际有限 $h$ 字下，若其 Egorov 矩阵为
+$g_\pm$，所有参数、中心和 theta 标记同时按原作用运输。
+对应对偶剩余坐标为
+$\xi_\pm\mapsto g_\pm^{-T}\xi_\pm$；
+所以新图严格为
+$$
+ -g_+^{-T}M^{-T}g_-^T
+       =-(g_+Mg_-^{-1})^{-T}.
+ \tag{W26}
+$$
+原非 $p$ 操作作用在 multiplicity/有限来源上，
+全中心仍乘原标量；既不删除该相位，也不改变上述
+kernel character 的判别。完整 $h$ 和 Artin/Cor 应将这些
+实际图及其测度一起线性相加，随后才作指定的无穷投影和
+$\Lambda,\Lambda'$ 读者。原 $p^{-2}$ Haar 仍如(W17)；
+(W24)不再向每一份已经处于该 component 的测度额外收一次
+$p^{-2}$。这把后继双 Katz 测试的有限 carrier 固定为原真实图，
+没有从该支撑关系推出任何原低矩或 canonical 非零。

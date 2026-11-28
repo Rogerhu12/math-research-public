@@ -319,3 +319,10 @@ R1065 T1–20在两份原Katz Galois dual的完成整tensor上构造实际有界
 R1050§7对已逐项核实的实际hI输入给同一原primary的完整Bezout返回：g=π^m、e=Nm、sa+tb=1，实际稀疏U/V满足U·rows=gI和V·gI=rows；原动态全余数、首一Hermite、det与厚长全部保留。仅克隆旧support方法的两个调用点，旧class/engine/generic方法不改；完整残域/Frobenius/registry/无穷边界仍走原正文。六个原primary对照、五拒绝、rank306及未改旧七组checker已请求固定公开软件检查，未返回不记PASS；生产v13和全部数学终门保持。
 
 [完整证明](../results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)给实际双向行返回；继承上方已发布支撑入口，不改变四交、一般Norm、18×9或无穷p门。
+
+
+### R1065 §§13–20：原 Weyl 新字的实际整 lift 与全部物理返回
+
+R1065 W1–26从原division函数逐项取消实际[p]框架的首p，得B_N,p整单位且常数1；相对Picard与原Hall中心锁定原Miller lift自身整性。每个真正p²新字在该拉回框架直接为整ψ0 Katz dual，无额外p，范数1及正6q/负4q高系数单位均为实际输入；标准degree-Nq框架仍保B有权迹。原全p² old/new、(p^-2−1)旧项、Haar及两3字/fullh保留，W22的完整连接给每阶原有限jet及physical p^-m、无漏j!。唯一dual coset和成对图ξ+=−M^-Tξ−经完整有限p^-2投影及Egorov准确返回，不称有理化投影为整范数1。原Hall负二有限测试、17^-2和全Λ/Λ′不变；新高矩单位仍不付原低canonical或无穷非零。
+
+[完整证明](../results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)，W1–W26；W12保真实框架、W22保整个connection、W23–26保有限图和投影分母。

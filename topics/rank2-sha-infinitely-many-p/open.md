@@ -47,7 +47,7 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 [R1064](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)现付原book/dual-LT精确单位、全Galois方向及actual whole µ的全LT盘lift。完整Maass和log−E读者保留；有限F真正bounded字符函数的所有trace-dual坐标返测度；§10结合已发表Fourier等距消去最终different损，actual lift精确等距。§11已构造原单位测度的等距quadratic lift，付P10单位restriction、负一次/负二次低矩、完整Möbius及局部热作用范围；一般Dirac反例不排原actualsource。下一继续原fullMaass来源的全盘/ψ整性与准确下降；普通LT系数固定不是ST扭曲下降，去period完成矩候选若真LA分布反迫flat整分量零。Colović全文已核；本二次域无损返回由BSS加Berger等距已付。原Mahler前缀有明确affinoid精度。§12现付actual A(Q_E)的完整ψ核平均与原单位cut、负二/全log−E及Λ′的无损有界测试；它只用于已有原测度的Fourier像。§13保同一whole系数的F-Tate编码、数字和读者成本与完整斜率有限精度；ordinary H±不因此被认作原单Q提升，实际tensor/连接仍须支付。
 
 
-[R1065](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)现已构造两份原H±的真正整Katz primitive测度，完整p核迹只需一个p；K20a/b与I18a另显写E17→E0整列的17^-2固定因子（c0^(0)、L±），不改严格估值门；原wild中心、正质量高共振和、负type4质量零、非基域点的完成tensor测试及d/p² Haar均已支付。实际负二有限测试和前五层逐项返原Hall/原Newton，准确严格门为v_p µ_+(c1^(p+1))=2，等价原s_(p+1)单位。§§8–12现付同一整tensor、实际612ω Gaussian及整个B_r(j)/全斜率测试，模型/p-Haar/period/外权全部保留。Gaussian在Fourier侧为mixed D_G heat，与coherent乘法仍待实际Weil交织；Katz整性及primitive支撑本身未给该矩等号。下一用真正p²新Weyl列的整线丛过渡/ψ0与同源连接继续，不能把finite-F普通LT函数直接当原单Q提升。R714/R717/R721/R723已有Cartier/Artin–Hasse首窗与有理极帽，不重复登记。
+[R1065](results/R1065-original-hall-katz-unit-measures-and-canonical-return.md)现已构造两份原H±的真正整Katz primitive测度，完整p核迹只需一个p；K20a/b与I18a另显写E17→E0整列的17^-2固定因子（c0^(0)、L±），不改严格估值门；原wild中心、正质量高共振和、负type4质量零、非基域点的完成tensor测试及d/p² Haar均已支付。实际负二有限测试和前五层逐项返原Hall/原Newton，准确严格门为v_p µ_+(c1^(p+1))=2，等价原s_(p+1)单位。§§8–12现付同一整tensor、实际612ω Gaussian及整个B_r(j)/全斜率测试，模型/p-Haar/period/外权全部保留。Gaussian在Fourier侧为mixed D_G heat，与coherent乘法仍待实际Weil交织；Katz整性及primitive支撑本身未给该矩等号。W1–26现付真正p²新Weyl列的整框架/原Miller lift、无额外p的ψ0 dual、完整kernel character、唯一coset及原成对反CM图，全部old/new/Haar/finite jet/physical p^-m通过原连接返回；正6q/负4q高系数单位不代严格低矩。下一以此实际新dual/完整连接和全h解Gaussian交织及canonical非零，不能把finite-F普通LT函数直接当原单Q提升。R714/R717/R721/R723已有Cartier/Artin–Hasse首窗与有理极帽，不重复登记。
 
 **下一实质门：**给这个完整转置后的h/finite投影、新增ramified covectors及A16全部权导数到原固定canonical斜率的实际未平均关系。有限图的值不代导数；局部单位矩阵可逆不付该关系，也不套AI全局Heegner定理。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。R1059已用同源正权式与真实flat逼近比较负二全germ，§8再给整个有限读数的实际图身份；原avatar/Teich/旧项均保。不能由群阶相同认分支，也不将p^n当解析函数。
 
@@ -117,9 +117,9 @@ R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。
 
 [v13生产](notes/2026-11-27-original-scalar-filtration-v13-production.md)为唯一heavy：
-run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新04:39:40实际查询仍为in_progress；04:24:01再次GET与00:37、01:03、01:25、02:01、02:30、02:57、03:21、03:46及04:04相同的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
+run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新04:49:25实际查询仍为in_progress；04:24:01再次GET与00:37、01:03、01:25、02:01、02:30、02:57、03:21、03:46及04:04相同的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
 
-[R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)现付同一个scalar primary的完整U/V多项式行返回；两新源码只替旧support两个调用点，完整非约化残域及原四交/Norm/18×9门保留。固定software selector/request已准备，执行后消费真实PASS/失败；新生产入口仅准备，须等当前v13实际终态和软件结果才接下一唯一heavy。
+[R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)现付同一个scalar primary的完整U/V多项式行返回；两新源码只替旧support两个调用点，完整非约化残域及原四交/Norm/18×9门保留。固定software selector/request已推32a46d1，run46109303246/job140869032165实际in_progress，须消费真实PASS/失败；新生产入口仅准备，须等当前v13实际终态和软件结果才接下一唯一heavy。
 
 旧q5/q11全影子倒6零、q11完整NS/Br/MW和Manin回执已付，不重复输入。即便有限完整影子成功，仍须解决主无穷p非零。
 
