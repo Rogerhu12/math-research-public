@@ -680,3 +680,10 @@
 - root/global 独立算常数并全文交叉核对，未执行数学程序。只付真实有限算子；原 PS 第 p 个 normal 的输入、几何尺度及指定 C/whole MW 两列继续读取。H 压缩前逐字归档 before-critical-PS-operator。
 - R1202 已真实推 e55649b2db013f3142ec27a335bec7718a3b1245，run46170134910/job141056445405；17:22:54 UTC 真实 pull，读 6b9f18a6cc8ad2626658a0021520df1583636887，两 README diff 空。终端仍不可用，沿现有公开 Actions 实际 git 流程继续。
 - 本push规则：公开Actions真实pull至 cf701bbf48120fe1e9e193c1774075c3edf17d06（2026-11-28T17:34:29.869453+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1204：同一原 high-PS 提升经过 π^−pU 后的 generic 最高返回准确为 −3γ²(rT″−4b²T′−9bT/4)。原 full framing 权直接固定完整 determinant 角色；实际 node 最高 pole、R1203 的低极核、Cartier leading-one 换参、Hasse 二阶反演和全部 Igusa–Weil 相位逐项保留。
+- 实际返回为 n→n+1 注入，其像恰原首中心 Cartier 泛函 𝔠 的核；原 qΓ 的秩只余 n+λ、λ∈{0,1}，必须由真正特征零谱确定。root 全文纸核，o2 独核二阶式，未执行数学程序；𝔠(T*) 未宣单位，指定 C 两列/完整 MW 与主目标继续。
+- R1203 已真实推17d65821e45b1a947e24b244907bd7d58c526063，run46171159780/job141059663345；第一次 push 因 ref 并发更新拒绝，立即 pull --rebase 后第二次成功。H 压缩前逐字归档 before-actual-PS-Cartier-return。
+- 本push规则：公开Actions真实pull至 deaac635928fb9420c1a9350c0ce41ca001673f1（2026-11-28T17:47:18.039767+00:00），两README diff为空；本次真实git推送，主目标OPEN。
