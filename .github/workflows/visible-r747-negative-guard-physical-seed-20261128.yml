@@ -1,0 +1,79 @@
+name: visible-flex R747 first complete physical disk continuation
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r747-negative-guard-physical-seed-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-r747-negative-guard-physical-seed-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r747-negative-guard-physical-seed-20261128.json
+            /topics/visible-flex-new-mechanism/scripts/r732_compensated_pulses.py
+            /topics/visible-flex-new-mechanism/scripts/r732_closed_ring.py
+            /topics/visible-flex-new-mechanism/scripts/r732_physical_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_fields.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_qualification.py
+            /topics/visible-flex-new-mechanism/scripts/r732_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py
+            /topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py
+            /topics/visible-flex-new-mechanism/scripts/r733_inserted_meridian.py
+            /topics/visible-flex-new-mechanism/scripts/r733_physical_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r740_weak_material_disk.py
+            /topics/visible-flex-new-mechanism/scripts/r740_material_rotation_space.py
+            /topics/visible-flex-new-mechanism/scripts/r740_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r742_native_tsqr.py
+            /topics/visible-flex-new-mechanism/scripts/r742_changed_sleeves.py
+            /topics/visible-flex-new-mechanism/scripts/r742_native_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/r747_physical_guard_seed.py
+            /topics/visible-flex-new-mechanism/scripts/r747_guard_disk_solver.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/results/R747-the-physical-guard-frame-and-its-nonzero-shoulder-curl.md
+            /topics/visible-flex-new-mechanism/results/R742-negatively-curved-basal-guards-and-two-material-geodesics.md
+            /topics/visible-flex-new-mechanism/results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md
+            /topics/visible-flex-new-mechanism/results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md
+            /topics/visible-flex-new-mechanism/results/R730-all-collar-chords-and-the-negative-Gauss-area-of-a-mirrored-cylinder-cap.md
+            /topics/visible-flex-new-mechanism/results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md
+            /topics/visible-flex-new-mechanism/results/R724-comoving-central-crowns-and-four-outer-pulses.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r747-negative-guard-physical-seed-first-scope.md
+            /.github/workflows/visible-r747-negative-guard-physical-seed-20261128.yml
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull current rules and run the bound actual material
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+          --request topics/visible-flex-new-mechanism/computations/request-r747-negative-guard-physical-seed-20261128.json
+          --lane actual-physical-disks
+      - name: Preserve every paid state and the exact next operation
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-r747-physical-paid-${{ github.run_id }}-${{ github.run_attempt }}
+          path: r747-paid-state/
+          retention-days: 30
+          if-no-files-found: error

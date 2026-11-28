@@ -1,0 +1,97 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r747-first-full-physical-disk-v1",
+  "public_rules_read_commit": "c9b36e0f7348d531bdcd258d8d1b5da9fff6ba78",
+  "private_rules_read_commit": "d7a497b7d3f2c1628ff69deeb97817a02f997473",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r747_guard_disk_solver.py",
+  "workflow": ".github/workflows/visible-r747-negative-guard-physical-seed-20261128.yml",
+  "common_parameters": {
+    "state": "r747-paid-state",
+    "seconds": 2400,
+    "level": 1,
+    "iterations": 8
+  },
+  "lanes": {
+    "actual-physical-disks": {}
+  },
+  "scope": {
+    "new_material": "R742",
+    "seed": "R747",
+    "fixed_same_g": true,
+    "phases": [
+      0,
+      0.002,
+      0.008,
+      0.02,
+      0.08,
+      0.2,
+      0.4,
+      0.65,
+      0.85,
+      1
+    ],
+    "cartesian_degrees": [
+      3,
+      5
+    ],
+    "actual_full_columns": [
+      210,
+      651
+    ],
+    "all_three_original_curls": true,
+    "all_columns_full_TSQR_full_SVD": true,
+    "zero_seed_receipt_reused": true,
+    "true_physical_positions_and_six_jets": true,
+    "all_actual_costs_and_frontiers_retained": true,
+    "old_different_source_paid_operators_reused": false,
+    "finite_data_is_continuous_certificate": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r732_compensated_pulses.py": "8df0b12620daf51978873d29319da4b05028088803de570c0995ad98448c7f11",
+    "topics/visible-flex-new-mechanism/scripts/r732_closed_ring.py": "58c04599e8d24b0aee8204426491fb0d0132922900b2014fdcbab0f4b1a578e0",
+    "topics/visible-flex-new-mechanism/scripts/r732_physical_disk.py": "752165ed2eac07e18c9993ede8218a15de16a8820d42210f1cf801d346d10369",
+    "topics/visible-flex-new-mechanism/scripts/r732_disk_fields.py": "c403b3d979273760fe5ccfd68ba5f7c929f56a28d9113df4770e5a346a109d71",
+    "topics/visible-flex-new-mechanism/scripts/r732_disk_qualification.py": "08feb20d441a5695b6d07e531d71ad3569afe7f874637ef8926a23041855a033",
+    "topics/visible-flex-new-mechanism/scripts/r732_disk_solver.py": "ed1dd8910eaf8dba190308d7717a4ec9053302f62e1181d10b446f9b24257472",
+    "topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py": "45f3ee532fc4cddc086131ec841e02e534eefff6bab29ccdf7b396c197d33df2",
+    "topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py": "df8cd3a7e7caf99dc32b2c4c50c84955097c75a813124f22486d932b67f5e973",
+    "topics/visible-flex-new-mechanism/scripts/r733_inserted_meridian.py": "c9c057b0f9f47a1fa60c7aa224d4fbccdb3cbf5a77075721ffdb5f372310efad",
+    "topics/visible-flex-new-mechanism/scripts/r733_physical_disk.py": "64aba86f3d52e490627e5a858362f24d02720e6f6b6a8655e9510f0821a54120",
+    "topics/visible-flex-new-mechanism/scripts/r740_weak_material_disk.py": "0dbb3fb63f941f733f62350b9e3063c773df1f07b210d51f29ff4adc16ec96cb",
+    "topics/visible-flex-new-mechanism/scripts/r740_material_rotation_space.py": "6121a9463ce13505177387b40e59a6fd2ea5d983d4f12d2b856592768bd66a94",
+    "topics/visible-flex-new-mechanism/scripts/r740_disk_solver.py": "dfb7a81550049cc75d57cab5be7a4ee4092233028999daac8a2267e1c46fd9c8",
+    "topics/visible-flex-new-mechanism/scripts/r742_native_tsqr.py": "d9565b37ad9e3b8d70df7adf0aa1b82015fd66edadcd6386923c1a1197f2b729",
+    "topics/visible-flex-new-mechanism/scripts/r742_changed_sleeves.py": "023a4c7d6d39661b024074c1269c928dda26b313569468b2a9a87bc3b1653b75",
+    "topics/visible-flex-new-mechanism/scripts/r742_native_disk_solver.py": "95b65a8b9491ec866072bd2d994d7f41c581d0aa43ceca4d6b1f8bac5a6c560c",
+    "topics/visible-flex-new-mechanism/scripts/r747_physical_guard_seed.py": "b11f165cdc347b5f9021eb5b9b6c342cfab0a1440485d4658a56d4597d89590d",
+    "topics/visible-flex-new-mechanism/scripts/r747_guard_disk_solver.py": "0d3d0ce510eaea6ed21b2a8a5448b35829d9068c0f50df6e1d70d8226f577463",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/results/R747-the-physical-guard-frame-and-its-nonzero-shoulder-curl.md": "e42aee411d4fec91780b63d8491693b551168ea2ce14561c611ca40e63039344",
+    "topics/visible-flex-new-mechanism/results/R742-negatively-curved-basal-guards-and-two-material-geodesics.md": "9e2b9c36274137da5f13581b7b4ac6d11fd859e84e4612f0d461393786ce2aa4",
+    "topics/visible-flex-new-mechanism/results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md": "804050752a1c0aa374328b392874d4046edf8601f368e51b922525a5bfbc7b1c",
+    "topics/visible-flex-new-mechanism/results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md": "f020204d40c4c9c5dad762b0aa2de77ee14026913278d82205b2c58d36f65101",
+    "topics/visible-flex-new-mechanism/results/R730-all-collar-chords-and-the-negative-Gauss-area-of-a-mirrored-cylinder-cap.md": "aa1b30762b96ea5cc104bed6e6448c778851207fabd7c7d0cdcdb6635c2ba56e",
+    "topics/visible-flex-new-mechanism/results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md": "c73231b37f170b35b98f60fb70aa2eb805cca7ae787b455f943e3792e07cbe18",
+    "topics/visible-flex-new-mechanism/results/R724-comoving-central-crowns-and-four-outer-pulses.md": "29e2655e7bf95a72f482e5f2e134ce19072946ace90ee390c34c6d8277f07ede",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r747-negative-guard-physical-seed-first-scope.md": "d5714d66b670b685e4c5e2f86456350e9e1b5b87e96eee1e3311dadb4f90f79f",
+    ".github/workflows/visible-r747-negative-guard-physical-seed-20261128.yml": "dc1b2faed3bb33b7a1e0e5ca9bc830541989e7c47fae5934fe1d2f1e9a270e02"
+  }
+}

@@ -137,3 +137,7 @@ run46164643330/job141039363519自然success后读取一次日志，四真端口�
 ## 2026-11-28 17:52:48 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R746 首次实际输入
 
 **R746（长 S 材料与准确平底种子的首次实际全盘求解）。** [首实际范围](notes/2026-11-28-r746-early-long-s-physical-core-first-scope.md)：同一新固定g，10相位与全部 219/912 列，保真实 seed 过渡/三 curl/完整 TSQR/SVD/物理六 jet。首轮尚未运行，无连续或完成声明。 根已全读当前两个新数学稿及源码并完成独立接口核查；本地只做 AST/绑定 SHA，不执行科学。实际 pull 8577fc52bb7bc5b7852ca1f945b418b3999bdabb，两 README 未变。原完整费用和恢复债保留。
+
+## 2026-11-28 17:53:35 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R747 首次实际输入
+
+**R747（真实负曲率保护带与物理肩框种子的首次实际全盘求解）。** [首实际范围](notes/2026-11-28-r747-negative-guard-physical-seed-first-scope.md)：同一新固定g，10相位与全部 210/651 列，保真实 seed 过渡/三 curl/完整 TSQR/SVD/物理六 jet。首轮尚未运行，无连续或完成声明。 根已全读当前两个新数学稿及源码并完成独立接口核查；本地只做 AST/绑定 SHA，不执行科学。实际 pull c9b36e0f7348d531bdcd258d8d1b5da9fff6ba78，两 README 未变。原完整费用和恢复债保留。

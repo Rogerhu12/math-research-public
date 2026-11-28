@@ -86,3 +86,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R738（真宽领固定度量首工单）。** [宏观实际厚源](results/R738-broad-dyadic-collars-with-thick-macroscopic-phase-geometry.md)与[39文件绑定范围](notes/2026-11-28-r738-fixed-material-macro-correction-scope.md)采用从头固定Esharp；R735原334帽幅只读复用，新负胞和中央所有完整物理列另付。首次2200秒分配，没有已运行的本源状态；连续中央、同g自然精化和全壳仍须实际闭合。
 
 **R746（长 S 材料与准确平底种子的首次实际全盘求解）。** [首实际范围](notes/2026-11-28-r746-early-long-s-physical-core-first-scope.md)：同一新固定g，10相位与全部 219/912 列，保真实 seed 过渡/三 curl/完整 TSQR/SVD/物理六 jet。首轮尚未运行，无连续或完成声明。
+
+**R747（真实负曲率保护带与物理肩框种子的首次实际全盘求解）。** [首实际范围](notes/2026-11-28-r747-negative-guard-physical-seed-first-scope.md)：同一新固定g，10相位与全部 210/651 列，保真实 seed 过渡/三 curl/完整 TSQR/SVD/物理六 jet。首轮尚未运行，无连续或完成声明。
