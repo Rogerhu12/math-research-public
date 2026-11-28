@@ -1,5 +1,6 @@
 # 结论索引
 
+- **原Fermat6第四层Cartier（已证明）**：[原genus4 §7](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原e0后安全高插入与K4全部尺度已付；双零等价指定七维第0…4全零。两个真实Cartier指数及高极消去完整，114第二层给有限Λp；其非零及18 cross仍开。
 - **原Fermat6完整Raynaud张量（已证明）**：[原genus4 §6](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)指定degree2商接十维固定Fermat6，完整primitive/45槽统一式与原B22,12=−c^(2k−1)e/δ已付；e0等价公共222方向在全β radical。真实V4三商内部零仍留18 cross，未宣原e/K4不能同零。
 
 - **同一原连接的准确E6/E10形式（已证明）**：[R1149 §§8–10](results/R1149-original-relative-Hodge-section-and-central-connection.md)付同一Hodge截面的nilpotent log延拓、真实Tate nearby fibre/正monodromy号/原KS，原全部primitive v_d∞锁α4=(1−p⁴)E6ν⁴τKS/252、α8=(1−p⁸)E10ν⁸τKS/132。weighted Weierstrass栈直接付M6/M10一维，α8=λ∞E4ν⁴α4保原(1+p⁴)。连接有理式已具体，relative Frobenius/strongly divisible格及SS粗盘比较仍继续。

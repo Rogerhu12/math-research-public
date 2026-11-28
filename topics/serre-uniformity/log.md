@@ -666,3 +666,7 @@
 ### 2026-11-28 07:55 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1135 §15：原U_p=1付Π0(f/A^r)=(f/A)^p与逆B指数p−r−1；Wω字符强迫Cartier0，明确排除错误值检测。指定TG第三类Xi的exact polynomial差付C(WXi)=W(TG)Xi′，原值与单点residue准确。
 - 未报原值unit；继续实际forcing/主部配对，无数学执行，H先逐字归档。新相对FL结论亦只在同一associatedness门内使用。
+
+### 2026-11-28 08:13 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原genus4 §7：同一Fermat6 primitive的低层消失、正则性与p次平移全付；第四层以完整尺度接回原K4。3p−1/9p−1两指数均保，e0后才消极；114第二层有限系数及其高层亚纯边界明确。
+- root已核全文，o2已核absolute/relative尺度；旧1–6逐字不动，H前态归档。原临界非零与18 cross继续，无数学执行，不重复已登记有限窗口。

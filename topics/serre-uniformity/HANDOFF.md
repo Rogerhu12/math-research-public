@@ -6,17 +6,17 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：67bc1833565e5f191fecfb55995f7ddb0e483a59**（2026-11-28 07:55 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：a1d0897ee73c65c3889cd56fb958ea8d1f48abf9**（2026-11-28 08:10 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 07:49 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
-最近真实pull：2026-11-28 07:49:56 Asia/Taipei，Actions run46084622951/job140791187426，blob:none浅clone真实pull --rebase至c6fc7f50，两README diff空、SHA相同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤08:39、pull≤08:49。本地07:37无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+最近真实pull：2026-11-28 07:49:56 Asia/Taipei，Actions run46084622951/job140791187426，blob:none浅clone真实pull --rebase至c6fc7f50，两README diff空、SHA相同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤08:39、pull≤08:49。本地08:01仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Gaussian-third-kind.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Fermat-fourth-Cartier.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
 [R1003](results/R1003-global-scope-and-remaining-branches.md)保full N_ns；R317整j/固定K/σ1/二三小域/小惯性C³未全关。R1128 good≥floor(p/16)+3、forced Ω(p/logp)、候选O(p^1.5logp)，不以惰性CM推Q-CM；R1112小aux仍大。R1115原abelian−1整支保留。
 
-[R1131–40](results.md)完整门与source见open/前态：r2须Bp−3、radical角色β_(4j+2)、class4全四cusp矩及全部phase不能删。原低权rank2端点16δ²/21、S_n=(4/m²)V_n{Fχ,Fψ}仅在各自已付范围；不扩F33/一般pairs/四阶。登记结论不重做。
+[R1131–40](results.md)完整门沿open/前态：r2须Bp−3、radical角色β_(4j+2)、class4全四cusp矩/phase不可删；既付端点不扩F33/一般pairs/四阶。
 
 [R1143](results/R1143-original-Eisenstein-lattice-and-exact-cuspidal-endpoint.md)无条件c_Eis=−2016δ²Pχ1≠0。[R1141–42](results.md)Bp−5单位时原proper I3 H²=O/p，constant cup非零socle；MW d0/1对应field像非零/零，d未定。
 
@@ -44,9 +44,9 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 原Dixon §§9–10付Hesse Frel全矩阵/边界、Dp=H D及H=αh(α³)、h0单位；完整Schur Q付det和原q/r块。normal为12tr(adjQ A²)、spectral为tr(adjQ)，未互代，原双零仍开。
 
-[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个带宽1/2系统只有标量；四输入及run46071081257/job140747905385只排有限机制。旧5372素数扫描/R1134十五Euler列/Prym/六CM/normal-FM全部只消费，source和全常数保open/前态。o1继续真实Hesse变分时须保αD²/α²D及原主块边界。
+[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个带宽1/2系统仅标量，只排已登记有限机制；run/source沿文。旧5372扫描/十五Euler/Prym/六CM/normal-FM只消费；Hesse保αD²/α²D与完整主块边界。
 
-[原genus4 §6](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)真实接Fermat6十维/全部45槽，安全primitive与统一有限和已付。准确B22,12=−c^(2k−1)e/δ，e0 iff222方向为全β radical；V4分解1+3×3、三genus4内部零后仍留18 cross，继续原e/K4。
+[原genus4 §§6–7](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付Fermat6完整十维/45槽和B22,12=−c^(2k−1)e/δ。e0后123六维第0…3插入全零，第4准确C(P⁴ω12)=4c^(2k−2)K4·ω32/δ²；e=K4=0 iff222+123七维第0…4全零。两个真实Cartier指数3p−1/9p−1必须全保，e0才有A9=−A3；114第二层Λp完整有限式未unit，高插入可有极。V4仍留18 cross，继续原临界非零。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
@@ -66,4 +66,4 @@ R1135 §§14–15付原G/K primitive、C_rel(ω/A²)=ω′、B^p=A^(2p)B及r7/9�
 
 [R1125](results/R1125-original-full47-rational-point-classification.md)原完整47Q恰八CM，全部4513 whole盘/高度/全维来源和后到q²审计已成，不重跑47/41/旧端值窗口；run/hash沿原文/归档。
 
-同h仍须本原/Legendre/fi gj实际mask。R971 full-span、R1006全p稳定已否，特定A/E4/mark未否；R948仅有限Abel零集，MW像可非零；原σ/cY、η_h、d/N、nonp/Poincaré/splitting不能删。R907原artifact真404，不据摘要重造；R1004导子下界不代高度上界。O3–6完整断点见open/归档。主标准未变，继续。
+同h仍须本原/Legendre/实际mask；full-span/全p稳定已否，特定A/E4/mark未否。原σ/cY、η_h、d/N、nonp/Poincaré/splitting不能删；R907 artifact真404不据摘要重造。O3–6沿open/归档；主标准未达，继续。
