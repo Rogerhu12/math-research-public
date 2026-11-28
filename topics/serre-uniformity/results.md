@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1158（已证明）**：[原最高矩的实际 S/U pushout 与完整相关 torsor](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)付共同 even 单位商、全部 ordered bracket、rank-one 与全算术下降，构造最高 Sym12 的规范 Gcorr；原 moment quotient / 根相位 / 中央 gauge 完整。未平滑 G0 的 actual Hecke 比较仍继续。
+
 - **原 finite-log 的首 p 边界（已证明）**：[原 spectral §11](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)完整读取 g_p=−3D(1)/4−C_pr/2，给安全有限积分式及 Riccati carry；首项单位使尝试的 g(2atanh x) 出现首 p 分母。排除这份未经支付的整形式群解释，原二根共同纤维仍开。
 
 - **R1157（已证明）**：[原 SV Manin 三项的显式整四线 filling](results/R1157-original-integral-SV-Manin-triangle-filling.md)付真正 B_n 的完整 n⁻⁸ K3 残数、同根连续整 cochain、S/非零退化项以及全内点 raw 延伸；全 GL2 诱导乘积给实际 raw 下降，不除群阶。指定加权 target 的交叉 bracket / pushout 与 z12 继续。

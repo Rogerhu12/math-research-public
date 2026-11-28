@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：5358ca0c0a2e48f66af6be474ba1a202d6a935c3**（2026-11-28 10:59 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 10:37 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：d6f5e6a812900897a9298be600f7138e0e389716**（2026-11-28 11:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 10:37 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 10:37:46 Asia/Taipei，Actions run46098990909/job140836880275，blob:none浅clone后真实pull --rebase至eb042184；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤11:27、pull≤11:37。本地10:37仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-SV-triangle-filling.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-weighted-Manin-pushout.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -24,11 +24,11 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1146](results/R1146-original-proper-arithmetic-Heisenberg-cover.md)原proper Heis p³/全cusps/ℓ≠p及B8唯一lift已付；twists=J(K)[p]ω⁻⁷，B16门保文。
 
-[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)全S0兼容整塔/规范proper Heis/原theta尺度及未分歧43格FL已付。§16：同原quotient的真实兼容generic整塔在全部noncusp自动补点（Z∞(−1)权−14），唯一识别原P∞；须相容整cocycle，不从单层/rational lift推出。指定filling仍构造中，Cartan I仅modp。
+[R1147](results/R1147-original-canonical-moment-Heisenberg-lift.md)原compatible moment塔/proper Heis/未分歧43格FL已付。§16同原quotient的真正整generic塔在全noncusp延伸并唯一识别；单层/rational不代输入，Cartan I仅modp。
 
-[R1149–50](results.md)原43塔Hodge截面、E6/E10连接、中央连接0、log Frobenius完整次序与Tate a5=u5已付；horizontal period gauge/proper-log下降/H¹etZ0锁同塔。完整u=pt整Taylor、finite q_t/λ/binomial、原CM β参数沿文；Gaussian/cubic粗次数1/2/3、1/1/2，cubic首斜率unit。Cartan仅modp，整未分歧短盘范围与最高中央F0边界保留。
+[R1149–50](results.md)原43塔Hodge截面、E6/E10连接、Tate a5=u5与horizontal/log Frob下降锁同塔；整u=pt Taylor、finite q_t/λ/binomial及CM β尺度沿文。Gaussian/cubic粗次数1/2/3、1/1/2，首斜率unit不代whole盘；中央F0仍开。
 
-[R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)付H¹(Qp,Heis)↔Fp³的实际finiteFL坐标。p>Ccyc全global像(rx,sy,zxy)，s=T0；零r/s完整七分支保文。rs非零时真实障碍rs h−zab；Gaussian顶为16δ³c_g⁶(rs z12−z x4y8)，cubic顶为16δ³c_g⁶(rs z12−z λA*y7/6)。首数字0只迫u∈p²，不冒whole盘排点；继续实际两个中央组合。
+[R1151](results/R1151-original-finite-Frobenius-global-subtraction.md)实际finiteFL H¹↔Fp³；p>Ccyc全global像(rx,sy,zxy)、七退化支保文。真障碍rs h−zab，Gaussian/cubic顶分别16δ³c_g⁶(rs z12−z x4y8)、16δ³c_g⁶(rs z12−z λA*y7/6)。首数字0不代whole盘。
 
 [R1148](results/R1148-original-canonical-cusp-Heisenberg-and-minus-one-Frobenius.md)原Ξ5,9;14 cusp/奇项/六次label及abelian−1整支保全。已刊Soulé/Kurihara付p>Ccyc=exp(9^(224·9⁴))原γ3/5/9全global基；共享γ5的p⁵群/密度1/p²及大Chebotarev affine真实存在沿文，不代局部单位或空集。
 
@@ -40,7 +40,9 @@ R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp�
 
 [R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付原四线的连续整primitive、有限关系见证/根相位、全部一般位置及Cor–res显式同伦。Δ归一raw整塔全noncusp延伸，ordered保−12(c²−1)d(DT)；固定函数根塔不冒E[pⁿ] moment分布。
 
-[R1157](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV B_n三项已付：n=5可用，trace-fixed范数全常数、w三边际及同子群n⁴ contraction给K=−n⁻⁸Σw f_x⁰∧f_y¹∧f_z²，完整Res=三项。同根ordered整cochain、S与非零退化项、全内点raw延伸及全GL2 deck诱导乘积下降已成，不除|GL2|。下一门为指定S/U权的真实target bilinear pushout与交叉bracket（保rank-one/zero标签regularization）、moment根规范及F0中央；raw block diagonal不代两个总norm的bracket。
+[R1157](results/R1157-original-integral-SV-Manin-triangle-filling.md)真正SV B_n三项已付：n=5可用，trace-fixed范数全常数、w三边际及同子群n⁴ contraction给K=−n⁻⁸Σw f_x⁰∧f_y¹∧f_z²，完整Res=三项。同根ordered整cochain、S与非零退化项、全内点raw延伸及全GL2 deck诱导乘积下降已成，不除|GL2|。指定S/U最高矩的完整群态射现由R1158付；零标签regularization未泛化。
+
+[R1158](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)付最高Sym12的完整smoothed Gcorr：even实际单位W∞、S/U系数A=P/2−Q/36与B=Q/54、Weil restriction及共同quotient拉回给全ordered bilinear身份，rank1/correlation/算术下降全保。quotient X_d=k_d(n)M_d、X′_C,d=nM_d^C−n⁻dM_d，全部根ρ和中央gauge已给；在原M的H¹Z0后唯一。下一门是到未平滑G0的实际arith Hecke链同伦/同源norm primitive，不把H²单位直接除cochain。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

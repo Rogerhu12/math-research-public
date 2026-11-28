@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-integral-Manin-source.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-weighted-Manin-pushout.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -31,13 +31,13 @@
 R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)，故 |N_t−#X/p|≤2(p−1)(g−1)√ℓ。全部中央值ℓ>p⁸时在affine上出现；共同cusp排除素ℓ>4D_p²（充分p⁸/144）仍有同一个affine点兼容全部labels并升Qℓ，D_p=g+p(p−1)(g−1)。继续小素真实值/p-local，不能再用大Chebotarev存在代affine空。
 
 
-### R1156：原四线整源已成，目标 bilinear pushout 继续
+### R1156–1158：原整 filling 与最高矩 correlation torsor 已成
 
-[R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)已给原三主除子全部四线的实际连续 Zp(2) primitive：乘法根关系为 dρ，有限 wedge 证书允许必要的有限函数扩大；一般位置/模型常数/闭点 Cor 和 prime-to-p 辅助域全保。显式 K_(a,b) 支付 Cor res−次数的实际链同伦，不拆同陪集乘积。
+[R1156](results/R1156-original-four-line-integral-cochain-and-transfer.md)付同根四线整上链、全部乘法相位/有限见证、辅助域及Cor–res同伦；[R1157](results/R1157-original-integral-SV-Manin-triangle-filling.md)把真正B_n三项写成−n⁻⁸的明确K3残数，n=5可用，固定函数整塔在全noncusp延伸。固定根塔未冒E[pⁿ] moment分布，单层不变量未用于补点。
 
-归一单位 hhat_c=Δ^(c²−1)h_c¹² 的 raw 整塔在所有 noncusp 内点延伸，因惯性落无挠 Zp(2)，H⁰(k(x),Zp(1))=0。ordered cup 与原源差 −12(c²−1)d(DT)，不能把 wedge 的 144 尺度误作 ordered 等式；完整三重残数另有 divisor 因子12。可先延伸固定配置 raw 塔再modp，无需先付整个 E[pⁿ] moment 分布。
+[R1158](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)现已把原S/U多项式权接成最高Sym12的真实Gcorr群态射：共同even单位W、Weil restriction/对角拉回、全ordered bracket与rank-one标记全保，未除cover degree。quotient原矩比较、根ρ及中央gauge已实际支付，完整M上的H¹Z0给唯一correlation lift。
 
-**当前准确门**：R1157已构造指定 B_n（cyclic subgroup 的 θ′ norm）的真实三项与 S 余链，并付完整 GL2/Weil raw 诱导乘积下降；现在将指定加权S/U填充接成 target bilinear pushout，保全部 cross bracket、同子群相关与同一原交换商根规范。原 Ψ_c 的反向平移相关不自动等于 B_n。完成后才能在原 M 用 H¹(M,Z₁)=0；尚未读出 F0 z12，也未排深盘/full Nns。继续实际 K3/trace-fixed Gersten 源和 R1155 的同根有限Frob读取。
+**当前准确门**：从含各n-isogeny moment的smoothed correlation对象抽取原未平滑G0；须实际arith Hecke链同伦或等价torsor比较，不能把H²中的单位直接除一次primitive。继续同源norm、全部carry/Cor与F0 z12；raw或单primitive局部单位仍不代weighted中央非零。
 
 ### 原完整 47：已完成，只消费
 
@@ -205,3 +205,10 @@ R1156给此真实B_n triangle的连续Zp(2) primitive及全noncusp延伸。实�
 ### 原 Newton 的首 p 边界与形式群路径限制
 
 [原 spectral §11](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)付同一E(T)=−2T[t^(p−1)]sinh(Tt)f_(<p)(t)，f=tanh(t/2)；Riccati保首carry t^(p−1)。完整原Qhat满足Qhat(1)=0整成立，故g=Qhat(θ+1)f的第p项整且g_p=−3D_(S,P)(1)/4−C_pr/2，另等−3/8∫F_pair(u,1−u)u⁻²du，全部积分分母≤p−2。actual-good gap只给deg g_(<p)≤2k−1。首项g1=−15G_(p−3)/16为单位，故g(2atanh x)的x^p系数必有首p分母；现有Newton读取不能直接当整形式群坐标变换。此限制未排原余对；继续二根/Jacobi及真实首carry，不删C_pr或新增good行。
+
+
+### R1158：已完成的指定群态射与未平滑比较
+
+最高degree12实际权P=X⁴Y⁸，Q=[XY(X−Y)]³(2X³−3X²Y−3XY²+2Y³)，A=P/2−Q/36、B=Q/54，满足P=(1+S)A+(1+U+U²)B。共同W使用实际(1/2)Norm even单位；所有有序点仍保factor2。S和U raw塔先在标记曲线整延伸，Weil restriction后沿同一个Kummer quotient拉回，中心按A/B pushout。于是β_corr=Π0(x,y′)−Tr_CΠ0(x_C,y_C′)在整个formal slot module上准确成立，交叉bracket不再是待付门。
+
+X_d=k_d(n)M_d、X′_C,d=nM_d^C−n⁻dM_d的实际根差为dρ；运输中央必须保b(ρ,v)−b(v,σρ)−b(ρ,dρ)。全M_Q的H⁰/H¹Z0随后给唯一相关提升。当前未付的是实际unsmoothing，不宣char n的n-subgroup系数仍étale，也未读出canonical z12。
