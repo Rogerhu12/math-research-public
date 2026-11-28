@@ -11,10 +11,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:24:28 UTC实际pull --rebase，读取main ba303abd01ea7a07838d8573c01449c710662cce；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:24:22 UTC实际pull --rebase至e72f35c2bc53f312653cdb443a456a43fefe0ec6；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 10:33:07 UTC实际pull --rebase，读取main c341d7b51333cbb271c808b7f5b74de723282d3d；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 10:33:03 UTC实际pull --rebase至0ac83963ea0ce8b3e6a61de9d252144de113b12b；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3228/46345470B/tree6586dc7af8b105ccc6bdbea32d9ad82f29370d66；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3228/46359459B/tree1d36195f12432e73f1e6c45cc84134d703d1788a；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -36,7 +36,7 @@ R1062–66的全部原source/CM除法/Na=17规范、fullh/old/period/Haar/负二
 §§27–30同一冻结水平质量的Riccati E_N/E_d给g1=a_pE_N/p、g2=(pb_pE_d−γa_pE_N)/p²；完整三重零只读p−2窗，E_N须三位、E_d两位。两位2γX−Y及Y−γX不分别赋零。原固定权三类非零、全mixed/Bockstein/Hasse frame的整精度与55/12首项均已付，仍不推目标高槽。
 §31原完整68余类/RC真p²整、Q√−17两ray和全Fermat差norm付三位q源；异权q同余在H(P)=0处不能免费取值。
 §32(F1–F16)用物理整晶体W=M⁻¹CM(t^p)归一两底行U=A,V=B/t，保首列除p费用。原h的Serre类/真实trace回(-uL_p,pL_d/u)；E16上Cartier(ds/H²)=ds^(p)及Q_p付完整全局首层。S=W22,G=W21/p的真实微分和δ_R=(R^p−φ*R)/p付全局两/三位代数核；EN保δ²，Ed保δ，F16完整h准确返回。
-**§§33–34(G1–G10)原f本身的同一一阶迹现已付。**固定分歧二盖z²=t直接提升Z=z^p，全水平覆盖及实际多项式平方根窗保原f。单trace一阶恰kγa_pE_N−pb_pE_d,k=1,2，不经fg反推。原B/t在p=12m+e的同一超几何，e=5/11短前缀后全尾恰p²；Ed两位可删，EN三位须保−3p²I_p/2。原共同第二位准确校正−3a_p I_p/γ，前缀及尾未分别赋非零。下一把该全尾作为固定受迫GM来源及完整cusp边界消费，仍保实际f。
+**§§33–34(G1–G10)原f本身的同一一阶迹现已付。**固定分歧二盖z²=t直接提升Z=z^p，全水平覆盖及实际多项式平方根窗保原f。单trace一阶恰kγa_pE_N−pb_pE_d,k=1,2，不经fg反推。原B/t在p=12m+e的同一超几何，e=5/11短前缀后全尾恰p²；Ed两位可删，EN三位须保−3p²I_p/2。原共同第二位准确校正−3a_p I_p/γ，前缀及尾未分别赋非零。**§§35–36(H1–H7)已付两固定3F2受迫周期**，原I_p是固定四盖同一fJb^(−5/2)乘子的x^(p−1)读数。两真实cusp留数及全Hodge过滤付每个指定特征完整H¹恰一维、纯边界；任意有限覆盖留数不零，排除代数原函数。全f及两三位完整卷积保留；下一实际低热及全局Frobenius比较。
 
 ## O7 同一原点、全边界及真实整测度
 
