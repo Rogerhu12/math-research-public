@@ -273,3 +273,6 @@ ASQ12：真density逆在L2/dotH−1均<1.11；原逆lift解析误差前置，完
 
 
 GAF：同r真光学范围比≤81，整负域−T≥min(5ρ/2,1/20)；AHD正Laplace矩给解调幅对数变差1/2、5/8。保原两列Z与两真相位，任意全输入集高度/导数÷n完整物理L2费≤36bN/160bN，普通dr L2<40N−1/6/176N−1/6；均值低泄漏全保，其他源与负阶仍另付。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+GRR：只可在GG原2/2 whole成功后恢复实际1424两向flow、1425真图节点和97/96完整frame；原81三SHA、exact1424 frame文件index、所有graph写入/live index/journal全部相同才消费。后1343旧四source covariance不重算，原mean/full193/whole真实图保持；尚无实际GG成功。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

@@ -156,3 +156,6 @@
 
 
 2026-11-28 10:57:34 UTC / visible-exact-astra-b0d5a16-20261128：GAF。同r真光学范围比≤81，整负域−T≥min(5ρ/2,1/20)；AHD正Laplace矩给解调幅对数变差1/2、5/8。保原两列Z与两真相位，任意全输入集高度/导数÷n完整物理L2费≤36bN/160bN，普通dr L2<40N−1/6/176N−1/6；均值低泄漏全保，其他源与负阶仍另付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-all-frequency-two-ray-physical-bound-for-both-genuine-Airy-rows.md","bytes":5756,"sha256":"fcc7a1f89447bb1d6e6c7ea0013a1962d4e61cccb15e6048e45ec99ebdf7e925"}]。
+
+
+2026-11-28 10:58:11 UTC / visible-exact-astra-b0d5a16-20261128：GRR。只可在GG原2/2 whole成功后恢复实际1424两向flow、1425真图节点和97/96完整frame；原81三SHA、exact1424 frame文件index、所有graph写入/live index/journal全部相同才消费。后1343旧四source covariance不重算，原mean/full193/whole真实图保持；尚无实际GG成功。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-whole-signed-response-graph-carrier-recovery.md","bytes":3488,"sha256":"24482405a640bd720bb383f49474f4b77d9f5c838dc879fa5f27d260611f165b"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_grassmann_response_graph_restore.py","bytes":14261,"sha256":"c20ed38ba613f6a3939daa5513a4d3fddfb529909bc97e2ac93ece2b26874152"}]。

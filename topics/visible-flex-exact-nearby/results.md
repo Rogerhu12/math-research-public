@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GRR：原完整Grassmann图的必要整件恢复合同](results/R149-supplement-whole-signed-response-graph-carrier-recovery.md)：只可在GG原2/2 whole成功后恢复实际1424两向flow、1425真图节点和97/96完整frame；原81三SHA、exact1424 frame文件index、所有graph写入/live index/journal全部相同才消费。后1343旧四source covariance不重算，原mean/full193/whole真实图保持；尚无实际GG成功。
+
 - [GAF：全负域两真Airy状态行的全频物理范数](results/R149-supplement-all-frequency-two-ray-physical-bound-for-both-genuine-Airy-rows.md)：同r真光学范围比≤81，整负域−T≥min(5ρ/2,1/20)；AHD正Laplace矩给解调幅对数变差1/2、5/8。保原两列Z与两真相位，任意全输入集高度/导数÷n完整物理L2费≤36bN/160bN，普通dr L2<40N−1/6/176N−1/6；均值低泄漏全保，其他源与负阶仍另付。
 
 - [ASQ12：正i全safe模式的原物理腰square](results/R149-supplement-all-positive-i-safe-modes-in-the-physical-waist-square.md)：真density逆在L2/dotH−1均<1.11；原逆lift解析误差前置，完整P97D<.288。全部safe坐标误差<4/5，真物理项系数<11/50；Cphys97≤3/4时整safe块同时可逆，只余原96+实际异常和完整物理border。所有输入/输出cross、Θ/两mean/height保，物理门和有限逆待实付。
