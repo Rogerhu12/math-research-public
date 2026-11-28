@@ -330,3 +330,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:38:02 UTC — 24两完整输入与初始完整六族几何实际返回
 
 24原两input实际exit0，完整源参/11输出身份及accuracyfalse保原分卷；新science0f0bb/PID3575/model9e2d7初场Phi886.6498886846562/Gram.47296582169113244，六族返/reach.6122924171813162/distplus.0608650756788609正、余四负，accepted0。与22初场工作值比较不推出单调几何，科学未自然返回。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。双README云核至`eb0421846d6b8b7c822d3a481839efb6a8fed244`无变（非pull）。
+
+## 2026-11-28 02:42:05 UTC — 25同22数值完整参数与全部peer历史
+
+[五完整参数件](computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json)全数值词/变量/域/预算原22，157/7 argv与458/445 formal全保；只新script/source/namespace/metadata及原48+16=64live。137pair/19runtime真实锁定，原五CLI和全部12external（含24本run真实源/输入/点记录，final/typed未知）均保。完整父元数据整文件引用无截断，7父/完整逆文字构造可再生；尚未启动科学或假定性能。双README云核至`01e9394d6c31ef99a74bb821a9e3a2843813a0a6`无变（非pull）。

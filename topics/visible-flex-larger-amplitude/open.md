@@ -121,7 +121,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 新机制与未付后继
 
-[25完整源](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)137pair中4对改/133保、19runtime；dk缓存原全部行及科学主体保。[64live传输](computations/complete-geometry-location-observation-and-transport-delivery.json)保原48+16实际标量。完整参数/启动正接，尚无hit/场/加速结果；全原描述保旧open。
+[25完整源](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)137pair中4对改/133保、19runtime；dk缓存原全部行及科学主体保。[64live传输](computations/complete-geometry-location-observation-and-transport-delivery.json)保原48+16实际标量。[全5参数](computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json)已刊，157/7、458/445、64live/12external，启动正接；无实际场；全原描述保旧open。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波准确均值/两角根/中央导数与位置jet账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/全部接合/两根扰动/真实shape分解已证。ε1/8把显式转向系数15/b降至64/(7b)，高阶代价与存在假设保；不推wholeK/reach，新seed正实施。
 
