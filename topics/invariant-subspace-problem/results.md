@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R150：W 原 I4 六行、整个 f 头支付及唯一恢复](results/R150-appendix-unit211-W-original-I4-six-rows-entire-paid-f-head-and-unique-recovery.md)：2.732694879秒/0，原hf+a全返回；两个剩余因子精确为2e+1与旧整G36，支付后整W唯一f=−g及四纯值坐标原条件成立。三pair/三norm全返，均不冒称充分或空。
+
 - [R150：正确 Φ 的整个 α=0 原支排除](results/R150-appendix-unit211-Phi-zero-true-entire-alpha-zero-original-exclusion.md)：0.433170338秒/0，U42完整1/1/6三QQ域同Q gcd为4/4/1，全部整除原已付单位；12/24重数经幂零提升保全，当前物理D非零图可支付α。
 
 - [R150：正确整个 Φ 的精确十五列 I6 与两原六次](results/R150-appendix-unit211-Phi-zero-corrected-whole-original-I6-fifteen-by-three-and-two-sextics.md)：2.910171339秒/0；完整NSPS、两个原overlap与四动作缺陷给准确商同构，两六次原cofactor保全部头零；任一头开图上的原必要代数十八生成。
