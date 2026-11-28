@@ -1,0 +1,50 @@
+{
+  "status": "proved_literal_cylinder_parameter_budget_only",
+  "actual_half_lengths_exact": [
+    "5764607523034235/2305843009213693952",
+    "5764607523034235/1152921504606846976"
+  ],
+  "actual_full_lengths_exact": [
+    "5764607523034235/1152921504606846976",
+    "5764607523034235/576460752303423488"
+  ],
+  "largest_full_length_excess_over_one_hundredth_exact": "3/14411518807585587200",
+  "inherited_unmarked_D_upper_exact": "67/25",
+  "inherited_unmarked_support_lower_exact": "87/1000",
+  "inherited_marker_D_cost_upper_exact": "1/25000",
+  "inherited_marker_support_lower_exact": "997/10000",
+  "complete_D_upper_with_literal_column_exact": "4845945256644691624311/1801439850948198400000",
+  "translated_support_lower_exact": "11817445422220181489/144115188075855872000",
+  "inherited_complete_curvature_upper_exact": "123/10",
+  "conditional_complete_reach_lower_exact": "10/123",
+  "inherited_grip_diameter_strict_lower_exact": "2153439/4000000",
+  "inherited_whole_image_held_strict_lower_exact": "535357/1968750",
+  "exact_positive_margins": {
+    "grip_diameter": "3168282337855143561/9007199254740992000000",
+    "whole_image_held": "3317747802288315933623/1134907106097364992000000",
+    "support_above_focal_radius": "12393906174523603147/17726168133330272256000",
+    "reach_ratio": "13286051246307190629241/22157710166662840320000000",
+    "cap_support_above_translated_lower": "12754194144713244747/720575940379279360000",
+    "two_length_activity_factor": "3/57646075230342348800",
+    "exact_halfwidth_sweep": "562949953421317/112589990684262400"
+  },
+  "ratio_lower_exact": {
+    "H_diameter": "179596797740094324736/897397269749016967465",
+    "held": "154306149485451944132608/1526472755843077861657965",
+    "reach": "18014398509481984000000/596051266567297069790253"
+  },
+  "two_length_activity_factor_exact": "5764607523034235/2305843009213693952",
+  "two_length_activity_factor_exceeds_one_four_hundredth": true,
+  "any_unmarked_surface_or_cap_hypotheses_paid_here": false,
+  "any_actual_closed_field_or_fixed_metric_refinement_constructed": false,
+  "final_cylinder_or_marker_choice_selected": false,
+  "readme_completion_claimed": false,
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/certify_binary_r87_cylinder_budget.py",
+    "sha256": "1fd20b564bea6887e4f721d517e6cd82adc673fe647c0092a566268ab7d880c5"
+  },
+  "actual_execution": {
+    "tool_chunk": "12d6e1",
+    "exit_code": 0
+  }
+}
