@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150 unit211：整B真四原乘子返回C76](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-C76-original-ideal-cover.md)：终端七源完整反传并从首一q提升到四原式，最终实际分母91次仅剥已付→C76∈I4一次；完整QQ因子2/34/40各一次，≤76不同权对，三整原纤维保。4fb唯一.569564090秒/44912KiB/0。
+
 - [R150 unit211：W新αχ完整原I6十×二及三标量](results/R150-appendix-unit211-W-alpha-chi-exact-original-ten-by-two-and-three-scalars.md)：纯权原图上实际首一α²，原NS/PS系数一反传，全部十行精确商；三新核(85,89,8)/(134,143,12)/(75,77,8)，所有未知头和共同乘子零保。a96d唯一101.965228秒/766372KiB/0，不付W空。
 
 - [R150 unit211：整个h=k对称u=1原纤维排除](results/R150-appendix-unit211-h-equals-k-entire-symmetric-u-one-original-exclusion.md)：自由κ=bc t/ell真Gram给N4(V)/2=2(λ²+λ−1)(κ−h)+λh²，原λ与h单位先排整斜率零。仅两固定Q投影5/4阶得λ65/49次QQ Bézout1；6516真.516967781秒/40900KiB/0。只付对称u−1，不恢复旧Δ覆盖。

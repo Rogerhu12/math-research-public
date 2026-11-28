@@ -1,0 +1,184 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "date": "2026-11-28",
+  "scope": "correct Phi=0, whole B=0, current Dval!=0 unit211 chart",
+  "elapsed_seconds": 0.5695640900000001,
+  "max_child_rss_kib": 44912,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "260ee6ac332ec91ab78d0f200b41dd6b1054e093",
+      "before": "be718a38bfaa86f4455ab8d2c7a361b527c6ee85",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T06:44:51.158470+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46118011351",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "be718a38bfaa86f4455ab8d2c7a361b527c6ee85",
+  "source_exit_code": 0,
+  "source_git_blob": "4fb7fa723660043b5179c0f1302494064c1955f2",
+  "source_sha256": "73d4dd4167d48b5a5878338bdfe85dc6c59a194b97fa2ae23309e2c2226eac35",
+  "stdout_bytes": 2566,
+  "stdout_sha256": "62e8b731c5724a207727a61afe8b8ef6ebd34f78af31f272e9cb612625801be6",
+  "stop_reason": null,
+  "job_id": 140896068934,
+  "actual_results": [
+    {
+      "actuallyUsedPrefixSHA256": "4d378f17e0c928910a4d0f1a3b0128b0b5225ec2302628554686554b0a79f6a8",
+      "definitionDAGNodes": 32,
+      "necessaryRows": 7,
+      "noNSPSDefinitionsExecuted": true,
+      "noOldC315LCMOrFullTwelveGateExecuted": true,
+      "originalFullSourceSHA256": "b802d6c9b7a46b544f1fd5f814b05337a552f938a660b8d047fe4e62ff4eae56",
+      "originalNecessaryPrefixSHA256": "44f288f6b65f5c59e99daae0de10b56e94ba13ec8b9307f3c70c71953eece6e0",
+      "seconds": 0.38542100200000107,
+      "stage": "new_B_only_seven_I4_rows_input"
+    },
+    {
+      "allTwoCoordinatesReturned": true,
+      "coefficientLambdaDegrees": [
+        6,
+        5,
+        -1,
+        -1,
+        -1,
+        -1,
+        7
+      ],
+      "nonzeroOriginalCoefficients": 3,
+      "originalCoefficientDenominatorDegrees": [
+        84,
+        88,
+        0,
+        0,
+        0,
+        0,
+        82
+      ],
+      "reachableDefinitionNodes": 24,
+      "seconds": 0.4374112460000035,
+      "stage": "new_B_actual_terminal_seven_source_coefficients"
+    },
+    {
+      "allFourCompleteOriginalMultipliersReturned": true,
+      "everyRetainedWeightZeroFiberKept": true,
+      "exponent": 1,
+      "noNewHeadOrDInverse": true,
+      "ordinaryISPClaim": false,
+      "previous315BoundNotUsedAsAGate": true,
+      "rawTerminalDenominatorLCM": {
+        "degrees": [
+          91,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "4cf4a451f93187280303fedb234a9dd5576183470f121eba9f840615b3c659ed",
+        "terms": 92
+      },
+      "retainedNecessaryCover": {
+        "degrees": [
+          76,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "5eb0b13c682928e24c8449fa7dbbfa7a890fd72438897a4ae98de523ae778242",
+        "terms": 77
+      },
+      "seconds": 0.530592420000005,
+      "stage": "new_B_full_original_four_multiplier_actual_cover",
+      "statistics": {
+        "edgeCoordinates": 50,
+        "originalOmegaIdentities": 2,
+        "polynomialDivisions": 102,
+        "seedCoordinates": 14,
+        "terminalTwoCoordinates": 4,
+        "zeroRowCoordinates": 10
+      },
+      "strictIdentity": "Cnew=sum_i Omega_i*Fi in the exact changed original I4; paid coordinate isomorphism returns Cnew to the original I4",
+      "wholeBExcluded": false
+    },
+    {
+      "completeGeometricPointCountClaim": false,
+      "differentOriginalWeightPairsUpperBound": 76,
+      "exactQQFactorProductReturned": true,
+      "maximumMultiplicity": 1,
+      "nonconstantFactors": [
+        {
+          "degrees": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "polynomial": "2*u^2 + 4*u - 1",
+          "power": 1,
+          "sha256": "8aac1a314fc4ee290a3fb1a7a3c0358f5fe7bcb822eae7975d3928f66e67a354",
+          "terms": 3
+        },
+        {
+          "degrees": [
+            34,
+            0,
+            0,
+            0,
+            0
+          ],
+          "power": 1,
+          "sha256": "b593d2770a0337dcaf2f4908e51cfc9feb3c5890ce21e5c3c6c1707ff98187ff",
+          "terms": 35
+        },
+        {
+          "degrees": [
+            40,
+            0,
+            0,
+            0,
+            0
+          ],
+          "power": 1,
+          "sha256": "ba88a205beb579a18de711c9fd61514716099afeed94954736246cedf733a16a",
+          "terms": 41
+        }
+      ],
+      "ordinaryISPClaim": false,
+      "radicalDegree": 76,
+      "radicalPowerDivisibleByActualCoverReturned": true,
+      "seconds": 0.5347047950000032,
+      "stage": "new_B_actual_terminal_cover_factor_support",
+      "wholeBExcluded": false
+    }
+  ],
+  "result": {
+    "strict_original_ideal_identity": "C76 in I4 over the already paid coefficient ring A",
+    "exponent": 1,
+    "raw_terminal_denominator_lcm_degree": 91,
+    "retained_cover_degree": 76,
+    "factor_degrees": [
+      2,
+      34,
+      40
+    ],
+    "factor_multiplicities": [
+      1,
+      1,
+      1
+    ],
+    "different_u_Q_weight_pairs_at_most": 76,
+    "fixed_weight_complete_geometric_finiteness": false,
+    "whole_B_excluded": false,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false,
+    "no_old_C315_LCM_or_full_twelve_gate_replayed": true
+  }
+}
