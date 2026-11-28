@@ -1,0 +1,369 @@
+{
+  "schema": "isp-Phi-unlowered22-802-789-actual-receipt-v1",
+  "run_id": 46095542545,
+  "job_id": 140825920592,
+  "execution": {
+    "elapsed_seconds": 14.390896029000004,
+    "max_child_rss_kib": 64084,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "e47b2dddffbbf95b12e932e701fd71709459eccf",
+        "before": "855fe684b5f41e93a49a3e733afd56373c85e041",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T01:56:06.385336+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46095542545",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "855fe684b5f41e93a49a3e733afd56373c85e041",
+    "source_exit_code": 0,
+    "source_git_blob": "b6423370556fa3ab664e92f025db2b2abaa8b463",
+    "source_sha256": "043ffc06d0a48f804111ff35cbfee0922fe9a69c87c414f75099b8413cf4b53e",
+    "stdout_bytes": 22980,
+    "stdout_sha256": "4aa6c77b2058ff1f2c51a4e602d8ca6784d1e1267aa4299553fdc47f5860ae93",
+    "stop_reason": null
+  },
+  "actualAssignment": {
+    "prime": 1009,
+    "Q": 2,
+    "QQ_u_degree_upper_bound": 802,
+    "assignment": [
+      2,
+      15,
+      9,
+      4,
+      14,
+      6,
+      11,
+      0,
+      16,
+      12,
+      7,
+      5,
+      10,
+      3,
+      1,
+      13,
+      8,
+      21,
+      18,
+      19,
+      20,
+      17
+    ],
+    "dualRows": [
+      19,
+      18,
+      17,
+      16,
+      14,
+      12,
+      17,
+      16,
+      15,
+      14,
+      12,
+      10,
+      19,
+      18,
+      17,
+      16,
+      14,
+      12,
+      11,
+      10,
+      9,
+      11
+    ],
+    "dualColumns": [
+      0,
+      6,
+      7,
+      12,
+      11,
+      44,
+      36,
+      40,
+      36,
+      1,
+      10,
+      11,
+      7,
+      16,
+      17,
+      13,
+      22,
+      45,
+      37,
+      38,
+      39,
+      37
+    ],
+    "everyNonzeroQQEntryDualVerified": true,
+    "actualQ2HighestDeterminant": 0,
+    "leadingEliminationPivots": 2,
+    "globalAndSliceDegreeAlreadyProved": false,
+    "noUnknownH42Inverse": true,
+    "noOld18PointSelectionExecuted": true,
+    "stage": "new_original_22_QQ_u_degree_complete_assignment",
+    "seconds": 14.231320334000003
+  },
+  "actualFixedDeterminantReturn": {
+    "prime": 1009,
+    "Q": 2,
+    "actualModularDegree": 789,
+    "actualModularLeadingCoefficient": 790,
+    "actualPolynomialSHA256": "2b40bf98b99fb097b4d24d3d1f21291b782a2dc0678f756838fe2789343e192b",
+    "QQ_u_degree_upper_bound": 802,
+    "gapFromInitialAssignment": 13,
+    "QQExactDegreeAndWholeSlicePreserved": false,
+    "actualDeterminantAtU3": 980,
+    "allBareissExactDivisionReturns": 3311,
+    "rowSwaps": 2,
+    "fixedOriginalColumnSources": [
+      {
+        "seed": 0,
+        "action": null
+      },
+      {
+        "seed": 1,
+        "action": null
+      },
+      {
+        "seed": 2,
+        "action": null
+      },
+      {
+        "seed": 3,
+        "action": null
+      },
+      {
+        "seed": 4,
+        "action": null
+      },
+      {
+        "seed": 5,
+        "action": null
+      },
+      {
+        "seed": 6,
+        "action": null
+      },
+      {
+        "seed": 7,
+        "action": null
+      },
+      {
+        "seed": 8,
+        "action": null
+      },
+      {
+        "seed": 0,
+        "action": "lambda"
+      },
+      {
+        "seed": 0,
+        "action": "T"
+      },
+      {
+        "seed": 0,
+        "action": "z"
+      },
+      {
+        "seed": 1,
+        "action": "lambda"
+      },
+      {
+        "seed": 1,
+        "action": "T"
+      },
+      {
+        "seed": 1,
+        "action": "z"
+      },
+      {
+        "seed": 3,
+        "action": "lambda"
+      },
+      {
+        "seed": 3,
+        "action": "T"
+      },
+      {
+        "seed": 5,
+        "action": "lambda"
+      },
+      {
+        "originalC6Multiplier": "1"
+      },
+      {
+        "originalC6Multiplier": "lambda"
+      },
+      {
+        "originalC6Multiplier": "T"
+      },
+      {
+        "originalC6Multiplier": "z"
+      }
+    ],
+    "basis": "old18 low coordinates then lambda6,lambda7,lambda6T,lambda6z",
+    "SchurIdentityBeforeOldWeightScalings": "det22=h^4 det18",
+    "allInputDenominatorsOnlyOldPaidWeights": true,
+    "H42NotInverted": true,
+    "wholeH42ZeroRetained": true,
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false,
+    "noRecomputablePolynomialOrMatrixPayloadSaved": true,
+    "peakRSSKiB": 63060,
+    "stage": "new_original_22_fixed_weight_determinant_degree_return",
+    "seconds": 14.312276069000006
+  },
+  "totalDegreeUpperBound": 1001,
+  "QDegreeUpperBound": 512,
+  "pGaussExponents": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "bareissSteps": [
+    {
+      "step": 0,
+      "pivotDegree": 19,
+      "returns": 441
+    },
+    {
+      "step": 1,
+      "pivotDegree": 43,
+      "returns": 841
+    },
+    {
+      "step": 2,
+      "pivotDegree": 66,
+      "returns": 1202
+    },
+    {
+      "step": 3,
+      "pivotDegree": 93,
+      "returns": 1526
+    },
+    {
+      "step": 4,
+      "pivotDegree": 120,
+      "returns": 1815
+    },
+    {
+      "step": 5,
+      "pivotDegree": 176,
+      "returns": 2071
+    },
+    {
+      "step": 6,
+      "pivotDegree": 226,
+      "returns": 2296
+    },
+    {
+      "step": 7,
+      "pivotDegree": 281,
+      "returns": 2492
+    },
+    {
+      "step": 8,
+      "pivotDegree": 329,
+      "returns": 2661
+    },
+    {
+      "step": 9,
+      "pivotDegree": 344,
+      "returns": 2805
+    },
+    {
+      "step": 10,
+      "pivotDegree": 365,
+      "returns": 2926
+    },
+    {
+      "step": 11,
+      "pivotDegree": 393,
+      "returns": 3026
+    },
+    {
+      "step": 12,
+      "pivotDegree": 412,
+      "returns": 3107
+    },
+    {
+      "step": 13,
+      "pivotDegree": 445,
+      "returns": 3171
+    },
+    {
+      "step": 14,
+      "pivotDegree": 476,
+      "returns": 3220
+    },
+    {
+      "step": 15,
+      "pivotDegree": 504,
+      "returns": 3256
+    },
+    {
+      "step": 16,
+      "pivotDegree": 541,
+      "returns": 3281
+    },
+    {
+      "step": 17,
+      "pivotDegree": 597,
+      "returns": 3297
+    },
+    {
+      "step": 18,
+      "pivotDegree": 645,
+      "returns": 3306
+    },
+    {
+      "step": 19,
+      "pivotDegree": 693,
+      "returns": 3310
+    },
+    {
+      "step": 20,
+      "pivotDegree": 742,
+      "returns": 3311
+    }
+  ],
+  "claims": {
+    "QQ_u_degree_lower": 789,
+    "QQ_u_degree_upper": 802,
+    "exact_QQ_degree_789_not_yet_proved": true,
+    "head_zero_not_removed": true,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  }
+}

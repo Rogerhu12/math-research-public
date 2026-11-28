@@ -6,6 +6,12 @@
 
 ## 新增结论
 
+- [R150：W两完整残余商的精确长2+2、模双数结构及QQ(k)长≤4](results/R150-appendix-unit211-W-P164-two-complete-residual-quotients-and-generic-length-four.md)：765d真18.421982811秒/0，两24×264全原商rank22，模λ偏差恰二阶幂零、D等真0；只长度经Nakayama升QQ，不将模D0升QQ，完整规范泛型≤8。
+
+- [R150：Phi未降λ二十二原列与严格802/真实789模切片](results/R150-appendix-unit211-Phi-zero-unlowered-twenty-two-original-columns-and-802-789-degree-gap.md)：b642真14.390896029秒/0，旧权LCM给真P∈I10，3311乘回；当前789≤deg_uP≤802、Q≤512/总≤1001。13阶差仍需特征零最高矩阵来源。
+
+- [R150：全Phi纯权式的维数推论](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)：原F非零、例外外有限权模、至多798例外权上C[λ]有限必要代数，连原几何开集/规范恢复给整体维数≤1；不称零维或空。
+
 - [R12：全部真实Haar有限头平方根图的半弱极限与强图零](results/R12-appendix-all-finite-haar-head-root-graphs-half-weak-limit-and-strong-zero.md)：任意分支Π_L WOT→I/2，所有随动强图向量只趋0，含完整有限吸收直和根/任意高度子列；全Fourier子式奇偶/Norm和原balance中位预算已付。转其它真实闭域，不外推一般原根不存在。
 
 - [R150：十八个原关系列与全Phi非零纯权必要行列式](results/R150-appendix-unit211-Phi-zero-eighteen-original-columns-and-nonzero-pure-weight-determinant.md)：304e真10.557245755秒/0；9种子及9真实倍的深1来源，Γ^5清系数及h极点，adj恒等式给F∈I10，实际模满秩只证同F非零；整F/H42曲线继续。
