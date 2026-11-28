@@ -103,3 +103,9 @@
 - 10ab/b95自含新整b0输入经root/Phi代理完整静读，首次180秒4GiB外195；新(u,nu)可逆权图、真Gram四二次+q2，保q2全部降头。
 - 六新固定lambda投影逐五原源返；新pure-u PRS只正乘首项、全部内容零进Hsf正幂cover，终端完成前不称有限覆盖或排空；新增本题workflow已明记。
 - 11:04:03 UTC实际pwd复探仍无执行环境，12:04再探；现有授权Actions继续真实公私部分克隆/pull/read差异/rebase/push，更新小型准备器探测记录。
+
+2026-11-28 19:07 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 纸面全域原I4=(R,三pair,三同f norm)已证，含既有六primitive核的双向包含；不是各式分别根或多元gcd的代替。
+- R的来源系数仅纯权，换基后qf系数由f²比较为0，得ΣviBi=1；完整15项四次展开付ΣdiBi²=1并返回P0，所有Bi/内容零面保。
+- 任意新F的三Ki=AFBi−AiBF为完整原组合，ΣviKi=PF、Ki=BiPF−BFPi，故I4+(F)=I4+(三Ki)；NSPS新具体系数尚未执行。
+- 只亲读旧b1回执并核六项profile，不重跑已成六核/c0；10ab整b0唯一首试仍待实际输出，普通ISP未完成。
