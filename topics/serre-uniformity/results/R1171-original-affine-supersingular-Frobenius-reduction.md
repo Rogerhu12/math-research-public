@@ -333,3 +333,94 @@ $s^5s^9/(2\cdot5\cdot9)$。参考 $F_i$ 与增量的中央 cross term 次数至�
 新增已证内容是 (1171.10) 的半线性原增量、(1171.13)–(1171.15) 的同 abelian 仿射差、实际 mod-$p^2$ 商位置到 (1171.19) 的归一，以及它们使 R1170 真正作用于原候选差的接口。主目标、原中央非零性和全盘排除均未被提前宣告。
 
 root 逐式核了整 Taylor 的幅度/阶乘界与半线性位置、两个 exponentials 的次序、右群增量的有序/BCH项、参考 Aut 延伸及实际 quotient 模 p² chart。对一般 SS 输入的范围已在 §7 明确保留；o2_high_coefficient 独立纸核核心矩阵与群律。无数学程序执行。
+
+
+## 10. 可使用的无限辅助族：原三项整源不要求 $\ell<p$
+
+本节将 §7 保留的辅助范围进一步缩到一个真正足够、且原 raw 下降仍能处理的素数族。对固定 $p>37$，定义
+$$
+\mathscr A_p=\{\ell:\ \ell>3\text{ 为素数},\
+ \ell\ne p,\ \ell\bmod p\notin\{1,-1\}\}.
+\tag{1171.24}
+$$
+可以从 $\mathscr A_p$ 再删去任意固定有限集合。
+
+**原源延伸命题。** R1157 §§1–8、R1158 的完整 triangle、S/U、同根群态射和 correlation torsor 构造，对每个 $\ell\in\mathscr A_p$ 都成立；相应的 R1159、R1169 功能方程使用同一原规范。
+
+证明须检查的是实际反除，而不只是符号的形式代入。R1157 §§2–5 的 trace-fixed theta、rank 表、三零边际与三函数 principalization，对任意辅助素数 $\ell\ne p$ 使用完全相同的有限和。所有分母只是 $24$、$\ell^2$、$\ell^6$ 或 $\ell^8$。三个 $p$-标记陪集不交只用 $(\ell,p)=1$。该处没有 $\ell!$，没有反除 $\ell-1$ 或 $\ell+1$。
+
+R1157 §6 原先以 $3<\ell<p$ 保证 $\ell$-division splitting field 的次数与 $p$ 互素。其真正需要的条件正是
+$$
+p\nmid|\operatorname{GL}_2(\mathbb F_\ell)|
+ =\ell(\ell-1)^2(\ell+1).
+\tag{1171.25}
+$$
+对于素数 $\ell\ne p$，这等价于 $\ell\not\equiv\pm1\bmod p$，与大小无关。故在 (1171.24) 上，实际 $\ell$-division splitting field 的 Galois degree 仍是 $p$ 单位。四线分解再加入的只有实际二次、三次 splitting fields，其 Galois closure 的阶只含 $2,3$；与前域合成后次数仍是 $p$ 单位。原 R1156 Cor/res 上链同伦及其除次数因而逐字合法。
+
+R1158 的多项式 $A,B,Q$ 总次数恒为 $12$，只除 $2,3$。 R1169 的第二槽 filling 总次数恒为八，只再反除 $7$；其 $1/28,1/42$ 与原 Weil-square 运输在 $p>37$ 下同样整。其原 S/U 重指标、rank-one 分支、全有序 even quotient 和共同交换商的群态射不受辅助素数大小影响。全 $p$-level descent 使用 induced product/Weil restriction，没有反除含 $p$ 的标记 cover degree。这些条件已在 R1158 §§5–6 写明。若作 all-vector $p^\infty$ extension，每层原 theta Norm 及标记过渡也只要求 $(\ell,p)=1$，故保持同一兼容根塔；没有在本节重新选各有限层 primitive。
+
+原 quotient normalization 固定使用 R1147 §8 的同一个合法辅助素数 $c>3$、primitive modulo $p$，它使 $k_d(c)=c^2-c^{-d}$ 对 $d=4,8,12$ 均为单位。该篇未给 $c<p$，这里也不需要这个大小界。只须从 $\mathscr A_p$ 再删去至多一个素数 $\ell=c$，其余便有 $(c,\ell)=1$；下面的 Hecke 结论允许这一有限删除。原式从未反除 $k_d(\ell)$，所以它们为零时不产生新例外。
+
+由此得到的 correlation 是原实际 torsor，不是一个只在 $K_2/p$ 中有相同边界的替代项。R1159 的指定 Norm quotient 点、唯一 Hodge section 和真实 coefficient 运输遂给 (1171.18)；$\Pi_2$ 保 R1169 的额外 $\ell^{-2}$。此命题扩展的是来源和功能方程，不声称它们在所有参考曲线上的中央数值已经读取。
+
+## 11. 删去 $\ell\equiv\pm1$ 后，真实 Hecke 单位理想仍成立
+
+以下补全不能仅靠“正密度素数很多”代替的 trace 步骤。
+
+**二维 trace 引理。** 设 $\omega:G\to\mathbb F_p^\times$ 满射，$p>5$。设 $\rho,\rho_0:G\to\operatorname{GL}_2(\overline{\mathbb F}_p)$ 连续，具有相同 determinant。若
+$$
+\operatorname{tr}\rho(g)=\operatorname{tr}\rho_0(g)
+\quad\text{对所有 }\omega(g)\notin\{1,-1\},
+\tag{1171.26}
+$$
+则该等式对全部 $g\in G$ 成立。
+
+取 $\omega(h)=a$，其中 $a$ 是 $\mathbb F_p^\times$ 的 primitive element；则 $a,a^2$ 都不在 $\{1,-1\}$。若 $\omega(g)=\pm1$，则 $h,gh,gh^2$ 的 $\omega$ 值都不在 $\{1,-1\}$。Cayley–Hamilton 对 $\rho(h)$ 给
+$$
+\operatorname{tr}\rho(gh^2)
+-\operatorname{tr}\rho(h)\operatorname{tr}\rho(gh)
++\det\rho(h)\operatorname{tr}\rho(g)=0.
+\tag{1171.27}
+$$
+对 $\rho_0$ 有同式。前三个已经已知的 trace 及相同的非零 determinant 唯一给出 $\operatorname{tr}\rho(g)$，证明引理。这里不要求 $g,h$ 交换，也不假定原残余表示已经半单。
+
+在 R1170 §4 的具体有限无挠 Hecke order 中，只使用 $\ell\in\mathscr A_p\setminus\Sigma$ 的 Hecke operators，$\Sigma$ 为任意有限集。若对应 $V_{\ell,\rho}$ 生成真理想，仍从该 order 的极小素分支得到一个实际特征零新形式；子 order 不引入一个仅存在于特殊纤维的分支。
+
+最高槽的假想系统给
+$$
+a_\ell(f)\equiv\ell^{14}+\ell^{-1}
+\quad(\ell\in\mathscr A_p\setminus\Sigma).
+$$
+对包含 $\bar\rho_f$ 与 $\omega$ 的共同有限 Galois quotient，Chebotarev 将此等式推广到全部满足 $\omega(g)\ne\pm1$ 的元素：每个这样的 conjugacy class 有避开 $\Sigma$ 的 Frobenius 素数，其 cyclotomic 值自动满足 (1171.24)。然后应用 (1171.27)，得到全 $G_{\mathbb Q}$ 的 trace 等式及
+$$
+\bar\rho_f^{\,\rm ss}\simeq\omega^{14}\oplus\omega^{-1}.
+$$
+determinant 仍是原 $\omega^{13}$。于是 R1170 的 weight-$14$ 半稳定惯性矛盾原样成立。第二中央槽同理给
+$\omega^{12}\oplus\omega^{-3}$、determinant $\omega^9$，违反 weight-$10$ 的界。
+
+因此不只在余有限素数族，而在这个实际来源可用的族上已有
+$$
+\boxed{\quad
+(V_{\ell,0}:\ell\in\mathscr A_p\setminus\Sigma)=1,\qquad
+(V_{\ell,2}:\ell\in\mathscr A_p\setminus\Sigma)=1.
+\quad}
+\tag{1171.28}
+$$
+这里单位理想在 R1170 所用、由相同受限 prime set 生成的真实有限整 Hecke order 中解释。有限性、无挠性、characteristic-zero 分支和所有稳定格的惯性界均不改变；新增的完整步骤是 (1171.26)–(1171.27)，不是把一条密度结论直接当成 Chebotarev 的全特征判断。
+
+## 12. 已关闭的辅助范围，以及现在剩下的实际读取
+
+结合 §§6、10–11，原两个中央参考向量的精确有限重建可以使用全部来自 (1171.24) 的实际来源。存在有限个
+$$
+\ell_a\in\mathscr A_p,\qquad
+A_a\in W[B_\ell:\ell\in\mathscr A_p],
+$$
+满足 (1171.22)。每个所用 raw tower 的辅助 splitting degree 都与 $p$ 互素；因此不需要先解决 $\ell\equiv\pm1\bmod p$ 的含 $p$ 分裂域下降。
+
+这关闭的是两处结构接口：同一 abelian 槽下的实际仿射 Brandt membership，以及足够辅助 prime set 上的原功能方程来源。它没有给所需有限 $\ell_a$ 的统一大小界，没有证明只用 $2,5$ 已足够，也没有把已付 CM 参考点上的 raw readout 自动推广到所有超奇异参考提升。
+
+下一数值／闭式输入准确为：同一组参考提升上全部实际 $(X_i,Y_i,T_i)$、所用 $\ell_a$ 的原 $Z_{{\rm corr},\ell_a,\rho}$，以及 mod-$p^2$ 商位置 (1171.16)。后者和系数 map 是有限曲线数据；前者须继续按原 theta/Miller/PD source 读取。没有把一般算术路径的未读值改名为“已知右端”，也没有把唯一性当成原中央非零性或全盘排除。
+
+本三节只纸读并延伸 R1157–R1159 的精确来源，未执行新的数学计算。
+
+root 新增逐读 R1157 §§1–6、R1158 §§5、7 及 R1147 §8，核全部实际反除、同根归一与标记下降；修正了不需要且原文未给的 c<p 小界。Cayley–Hamilton 的 h/gh/gh² 取值与行列式补全已逐式核准。

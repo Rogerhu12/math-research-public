@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原同源源的足够辅助素数族（已证明）**：[R1171 §§10–12](results/R1171-original-affine-supersingular-Frobenius-reduction.md)ℓ≢±1 mod p使原GL₂(Fℓ)分裂域仍p-unit，完整triangle/S/U/compatible roots可用于ℓ>p。Cayley–Hamilton的h/gh/gh²补全缺失trace，故最高/Π2受限族仍有真实Hecke单位理想；固定原c只需删ℓ=c，无须c<p。关闭辅助来源范围，仍保所有一般SS RHS的独立读取。
+
 - **原最低Π4算子的超奇异共同核（已证明）**：[R1170 §10](results/R1170-original-supersingular-Brandt-common-kernel.md)接R1172真实Tate n⁻⁴后Vℓ,4=(ℓ⁴+ℓ⁻¹¹)−ℓ⁻²Tℓ^(4)=ℓ⁻⁶(ℓ¹⁰+ℓ⁻⁵−Bℓ)。实际权6 p-new整序及半稳定惯性[0,5]排ω¹⁰⊕ω⁻⁵，余有限族生成单位理想；三个原中央归一均齐，不代各自actual RHS局部读值。
 
 - **原中央Frobenius的真实参考提升仿射化（已证明）**：[R1171](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格的半线性有限Taylor给Δ=Ccoeff expσ(ξL)exp(−σ(ξLcoeff))Ccoeff⁻¹，完整ordered/BCH平移不含参考中央常数。实际商曲线模p²首位与原shear把功能式变为有限SS Brandt方程，R1170可作用于同abelian原候选差。一般SS abelian/corr独立值和足够辅助族仍保，不假定绝对Z约化不变或循环定义已知RHS。

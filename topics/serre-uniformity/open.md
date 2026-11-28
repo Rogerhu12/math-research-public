@@ -94,7 +94,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
 
-[R1171](results/R1171-original-affine-supersingular-Frobenius-reduction.md)固定原abelian参考输入后，Δ=Ccoeff expσ(ξL)exp(−σ(ξLcoeff))Ccoeff⁻¹给实际F_i(t)=F_iΔ；完整ordered/BCH平移不含未知中心。每个真实商的mod p²首位ξ_C把最高/Π2式化为R1170有限Brandt非齐次方程。此关闭绝对约化不变性的错误入口；一般SS的abelian/corr独立值及足够辅助族仍须读，不能循环定义RHS。
+[R1171 §§1–12](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及真实quotient模p²首位将同abelian中央差化为有限SS仿射方程。辅助族ℓ≢±1 mod p保原raw分裂域p-unit，全部S/U/根/Norm可延至ℓ>p；Cayley–Hamilton补全trace，前两槽该受限族仍生成单位理想。未付的是一般SS abelian/corr独立读值和实际有限重建输入，不能循环定义RHS。
 
 ## O1：原两 jet 的实际临界非零
 

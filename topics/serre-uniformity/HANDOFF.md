@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：fa2c1204fe139d36c79a8a0f9b725351edaef2ee**（2026-11-28 16:58 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：fea593b3674bf21527970ca897cfa683b854aa08**（2026-11-28 17:03 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 16:27 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 16:27:06 Asia/Taipei，Actions run46125850781/job140920159380，blob:none浅clone后真实pull --rebase至887df1e0且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤17:17、pull≤17:27。本地16:26仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -38,7 +38,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1172](results/R1172-original-lowest-central-Tate-correlation-and-unsmoothing.md)最低Π4实际运输须Tate n⁻⁴，完整corr加κ_n X4γ5；n2 primitive κ=(1+p⁴)31²/128，all-vector配γtilde为31²/128。额外J=JΠ4+λ∞n⁻²(η4杯γ5+R)；V_n,4=(n⁴+n⁻¹¹)−n⁻²T_n^(4)，v=n⁻¹¹(n⁵−1)(n¹⁰−1)，n2全p>37单位。完整整B/未平滑与真实功能式已付，原四线加cyclotomic端点局部值仍须实读；裸Y⁴无S/U filling。
 
-[R1171](results/R1171-original-affine-supersingular-Frobenius-reduction.md)固定原abelian参考输入后，Δ=Ccoeff expσ(ξL)exp(−σ(ξLcoeff))Ccoeff⁻¹给实际F_i(t)=F_iΔ；完整ordered/BCH平移不含未知中心。每个真实商的mod p²首位ξ_C把最高/Π2式化为R1170有限Brandt非齐次方程。此关闭绝对约化不变性的错误入口；一般SS的abelian/corr独立值及足够辅助族仍须读，不能循环定义RHS。
+[R1171 §§1–12](results/R1171-original-affine-supersingular-Frobenius-reduction.md)原43格半线性Taylor及真实quotient模p²首位将同abelian中央差化为有限SS仿射方程。辅助族ℓ≢±1 mod p保原raw分裂域p-unit，全部S/U/根/Norm可延至ℓ>p；Cayley–Hamilton补全trace，前两槽该受限族仍生成单位理想。未付的是一般SS abelian/corr独立读值和实际有限重建输入，不能循环定义RHS。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
@@ -56,7 +56,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)真实Legendre/finite-log/Jacobi全部weighted边界、四低jet和3/8 Bernoulli项均付。原ξ=P/(a²V)、forcing6a²、Hasse负号及自足Xp按open/原文；p1019仅否无条件旁零，不扩扫。端点unit不代原v−3a⁶bu，joint继续。
 
-[R1161 §§1–12](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)原全行Bol/Wilson/Cartier/finite-log及唯一有限逆全付，低偶Q_s(0)不删。实际J_s使全good行进同权F_s及二阶Cauchy余核。§12同权companion给r_s=F_s/A^(p−1)=2θ^(s−1)g_(p+1−2s)/((2s−1)!A^s)，仅SS极≤s，未归一Hecke恰原χ_R。原两点差准确是N_Rδ(2s−1)! Res_G r_s dlog(Y_c/Y_c′)，其它Hasse根和Y根全局trace差全部保；∞项已排。继续指定Gaussian余核，不能用全局Hecke稳定删其它SS或宣单位。
+[R1161 §§1–12](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)原全行Bol/Cartier/finite-log/同权companion均已付，低偶余核不删。原两点差=N_Rδ(2s−1)! Res_G r_s dlog(Y_c/Y_c′)，仅SS极≤s；其它Hasse根与Y根trace全保，∞已排。全局Hecke稳定不自动保指定Gaussian余核或给unit，原mask/joint继续。
 
 ## 已成、禁止重做与其它入口
 
