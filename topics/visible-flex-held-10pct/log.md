@@ -525,3 +525,7 @@ M16/N256/f=.5从真M12包完整返回，原residual1.03139747e−9、audit3.3410
 ### 2026-11-28 08:09 UTC — Astra-held10-7c4e33ee-20261128
 真design锚→同g fixedM24的完整六组Cartesian jets比较已返：3294截面、N1024/2048、同mean1168真原函数；位置差9.73e−8而Fss差2.65435e−4，明确不是Cauchy或连续误差上界。
 见analytic-fixed-support-complete-c2-comparisons/逐字JSON/原compare窄适配；Gauss6→12只观察差，memo本次0hit不称提速。继续同g M32谱精化及后续全图问题。
+
+### 2026-11-28 08:16 UTC — Astra-held10-7c4e33ee-20261128
+真M16接受包末次全J与1153行状态逐位绑定，用完整36896未知原线性系统生成f1未接受初猜，normwise5.53e−28、componentwise1.05e−16；见tail-full-state-tangent-predictor。
+四个独立入口保原fullH/J/audit，计划在真M24/.5包后直试fullH，失败才二分。活M24首全J实际529.224s，仍原验收中；不是新尾接受，继续完整尾/outer/λ1和同图连续metric。

@@ -1,0 +1,71 @@
+{
+  "scope": "Actual all-node predictor validation using accepted M16/.5 and its own full fresh native J. This is not an accepted f=1 solve, and M16 is not the source full M24.",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_full_state_tangent_predictor.py",
+    "sha256": "823991866b0b942cd9d9ea24b53ac6c3bc9fc14672d41d895a9f34566cde1342"
+  },
+  "export_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/export_tail_tangent_scales.mjs",
+    "sha256": "a91d0541035b844c2131e5e09cbd94eff730aeade47ff9f06cc3bda79c762033"
+  },
+  "linear_solver_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+    "sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "accepted_source_packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/tail_0001.json.gz",
+    "sha256": "07981819451ea4d2f48c69f39f7d5c43d3039899915c7c9d5e62fd8bbcda05c3"
+  },
+  "actual_fresh_native_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+    "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+  },
+  "native_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-source/native-manifest.json",
+    "sha256": "4a3d1b39d7b145650db58e2afd59447ff041bc97b487187f6726e3437ec03bd5"
+  },
+  "original_scaling": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/original-tangent-scales.json",
+    "sha256": "e4d21ec668703ecac87431ddebbcec10364788de0831a36437daaf97daed9ae8"
+  },
+  "desired_height": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/desired-height.json",
+    "sha256": "e1ca5344bb72ae51dc83a0d3f32457b5f868163eaddb7c90c603f41eca4d2966"
+  },
+  "M": 16,
+  "stages": 1152,
+  "state_rows": 1153,
+  "state_columns": 32,
+  "all_unknown_count": 36896,
+  "accepted_source_residual": 1.0313974716235569e-09,
+  "source_height_f64le_sha256": "1b02a75f3c89362f0441df8414ffd2a06af99f6305335085ab4994cf1111be71",
+  "target_height_f64le_sha256": "4c36039b4e12e93943d5b7adbaf636fe096685a8c3f1697ac3b407076269a46e",
+  "linear": {
+    "normwise_backward_error": 5.521451343042954e-28,
+    "linear_solver": "all-node-scaled-SuperLU",
+    "dimension": 36896,
+    "nnz": 1216560,
+    "rhs_columns": 1,
+    "residual_linf": 1.0586518328636885e-09,
+    "initial_residual_linf": 6.906702765263617e-09,
+    "componentwise_backward_error": 1.0437337122107626e-16,
+    "seconds": 0.49044050599968614
+  },
+  "wall_linear_seconds": 6.176578757000243,
+  "interior_old_residual_included": true,
+  "deep_old_residual_included": true,
+  "all_new_dirichlet_rows_included": true,
+  "original_mean_tangent_rows_excluded_from_shooting_unknowns": true,
+  "delta_absolute_max": 13028.498368958875,
+  "predictor": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/unaccepted-full-state-predictor.json.gz",
+    "sha256": "dfc5f4ad018adfcb0656ce08ebfa598fcfccb3abe6090a39d3db49fba2029d95"
+  },
+  "predictor_accepted": false,
+  "full_height_J_returned": false,
+  "original_nonlinear_worker_still_required": true,
+  "actual_result_reference": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+    "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+  }
+}

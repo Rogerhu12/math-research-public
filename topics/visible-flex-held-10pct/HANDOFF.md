@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `b279106bb406f604efc200c0a0de283d900e2429`（2026-11-28 08:09 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；08:02 UTC再次pull到 `5ebe514c233484e8a9dc90764705e38f1a1d3d73`，根规则空diff且QUEUE仍本会话。
+- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `f752d81523bd57f0d438432e8c090a439069a2b7`（2026-11-28 08:14 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；08:02 UTC再次pull到 `5ebe514c233484e8a9dc90764705e38f1a1d3d73`，根规则空diff且QUEUE仍本会话。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
@@ -24,6 +24,7 @@
 - root：[R67有理三重帽](notes/2026-11-28-r67-rational-marker-implementation.md)经75位导数核过；闭图reader保完整R53 lift及声明的新均值，待fullH，中心柱总长≤.01。完整块QR在真M8/M16/M24原J对照方向已核，最高64191维rel9.502e−13、162.6MB因子（[记录](notes/2026-11-28-block-qr-actual-m16.md)）；同一核心已用于fixed-g实际BVP，不是无限维逆证书。新闭图不搬旧数值常数。
 
 - **R73新图连续几何已付**：[新879点场的945节点Cartesian图](results/R73-new-common-cartesian-prefix-continuous-geometry.md)，944×1024全角闭盒零未决：support>.6445、norm<1.1901、area>.2974、准确|κ|≤123/10。直接包围最终rep+完整真实R53 lift；最终/中间均值非同一函数，二阶减源primitive仍1.32332e−4。未附尾/cut，连续metric尚欠；不能继承旧R62。root接同图连续metric与实际闭图预算。
+- [完整尾切向初猜](notes/2026-11-28-tail-full-state-tangent-predictor.md)在真M16末次fresh全J实核：1153×32未知全部保留，原线性backward-error5.53e−28；仅未接受f1初猜。M24/.5首J实耗529.224s，仍原求解；等真audit包后独立自适应入口直试fullH/J，失败才二分，不重复预设暖幅，不改活源或接受门。
 
 ## 已证工具和不得重复的工作
 
