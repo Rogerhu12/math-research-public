@@ -22,7 +22,7 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 **本轮实际工作**：旧 `/tmp/visible-flex-6a65e705` 不存在，已按原配方重生全部source/query；恢复不计新改善。完整Gram/H2增量LM与[C2消费者](notes/2026-11-28-2ecf-m12-c2-h2-direct-consumer.md)已发表，小型非零全行核及真实72128列H2数值SPD均已执行；C2 adapter必须读完整重结点和准确Boehm转移receipt，支付保存六jet误差，不能只改JSON标签。原[角缓存](notes/2026-11-28-2ecf-m12-angular-source-cache-and-cold-restart.md)逐值与原实现相同；未缓存cold已主动取消130，无场/接受，随后同零态新运行。
 
-新完整H2首场实际独立G8/N768峰8.26045815e−10，原未正则normal相对1.0065e−4；现有R236连续metric9.82202e−6、旧reach/D证界.0246505，未过。field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`。完整首场note待登记；[R249局部材料二jet](results/R249-local-material-two-jet-continuous-budget.md)已证明并实现，实际消费进行。下一条为保同g/真端口的C2 72128列实步，随后真实角向加密；exact分工实际开发source-cross-Gram连续界，不能继续只以d+2p代替方向抵消。
+新完整H2首场实际独立G8/N768峰8.26045815e−10，原未正则normal相对1.0065e−4；现有R236连续metric9.82202e−6、旧reach/D证界.0246505，未过。field `b6425243454a6a019d06a729405b0ebdaa0dbbc68b73b7f62745b1587174be1c`。[完整首场及六阶段真0](notes/2026-11-28-2ecf-m12-h2-first-actual-field.md)已登记，546点两微窗和全部祖先峰亦约8.26046e−10；[R249局部材料二jet](results/R249-local-material-two-jet-continuous-budget.md)已证明并实现，实际消费进行。下一条为保同g/真端口的C2 72128列实步，随后真实角向加密；exact分工实际开发source-cross-Gram连续界，不能继续只以d+2p代替方向抵消。
 
 [R250](results/R250-full-finite-tail-smooth-source-regularization.md)已完整准确规整18552原span/18551源内缝，所有原节点Q两jet零。加到指定已发表R245场后metric<8.211857e−7、reach/D>.03109258、held/D>.05278322与含反射非全等保持；Qss<.0006474256，不是新Newton接受或#5。[准确Q查询/独立源消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)已实际完成5177查询/204窗/88非零行；合成最高新增Qss误差<2.313e−20，原端口/546诊断保持。新X+C+Q源身份独立，连续几何须显式加Q，不能静默替换活动X+C。
 
@@ -44,4 +44,4 @@ R246是完整端口有条件连接；R247只排固定rho/N31高度子族，不�
 
 root独占main；代理仅同级scratch，输入分别m12-work/exact-work/strong-work/root-work。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`。每条完整结论立即推，只源码/参数/小结论/哈希入Git，不入可重算完整输出；不写根LOG。H<10KB、单MD<100KB、open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:08:29 UTC；已读公开 main `9635d2b62f696e9cfe7d7d936361f47b76598083`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:09:36 UTC；已读公开 main `74c1e685e56343698d43b4e7db91b85cdff699b8`，根/课题 README 逐差无变化。
