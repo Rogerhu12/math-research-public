@@ -101,3 +101,7 @@
 ### R1067 §91：原两条高格及无隐式反演的完整有限二项式母量
 
 已证明：原κ_P的τ^(p+1)、τ^(2p)系数准确接固定标记和真实倒数点G(Q_P)；(BG7)–(BG9)给全原四项有限公式，共同μ剪切准确相消，实算可取μ′=−d_n而不需真μ第二位。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1067 §92：全部原倒数点非挠及统一七进对数首格
+
+已证明：以5-Frobenius的≤50次方程和17惯性≥144共轭直接证明每个Q_P非挠；规范七进提升给真实单位首格−5v/(2λ⁵)，从而获得完整代数带权关系的必要检验，不代原中央。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
