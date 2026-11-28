@@ -297,3 +297,7 @@
 ## R659 真实自然终态与 R669 全物理约束续算
 
 [真实终态](notes/2026-11-28-r659-finite-angle-actual-terminal.md)144接受/144完整J、147.440342538秒；810维末态最细η.0169853909、κ117.45498、闭合.001181607，无冻结。升阶误差下降而边界曲率上升，不把径向加自由度当厚度支付。[R669完整微分](results/R669-complete-physical-constraint-differential-for-the-actual-tilted-annulus.md)使用真实广义主曲率、两法向、实际中心与R665长度的全部列；[直接后继](notes/2026-11-28-r669-actual-finite-tilt-reach-continuation-scope.md)同32径向spans/真实末trust继续，峰值与积分双重行、原全QR/SVD/试步，物理与fine通过后才冻结同g再精化。
+
+## R632 实际59与R636实际71的下一原全系统方向
+
+[真实末态/后继](notes/2026-11-28-r632-59-paid-height-and-r636-71-inward-velocity.md)分别新增3/45接受，科学136.275561354/1581.672363659秒；两条原绝对门仍未通过。R632当前高度10闭叶+94前沿与已付源精确证书相同，只需支付已存方向的新仿射端，准确有理Bernstein/Sturm给正dyadic安全步。R636已完整处理旧pending，656多项式域拒实际皆为υ，后继在原全J欧氏下降内加严格内向真实速度导数，保坐标/其他实面/合格端；初物理锚及所有旧成本保存。

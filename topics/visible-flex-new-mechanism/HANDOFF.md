@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **0a9488697f668d6be0d98ac1928ccfef8e2f6df7**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **fcf996a965467083151ba3a113db6f81c2890e79**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -32,9 +32,9 @@ R648/R650/R649/R653完整尾/三jet/离解曲率/C²接缝消费者已备，只�
 
 R632/R636的原盒/18块576微包/全正势/全历史保持，ODE/ruling/history1e−7、真十末1e−8不改，stored末零不是真资格；根后period/十三规范/frame/闭pose/C²嵌入/宏观仍欠。
 
-[R632真56](notes/2026-11-28-r632-adaptive56-frontier-natural-terminal.md)1afc37ef，正cap6.97345e−13；[后继启动失败](notes/2026-11-28-r632-paid56-anchor-identity-and-physical-frontier.md)run46134531736/sourceeb0d6e0：58.685308551秒/1全J历史、0方向/0trial/0接受，初物理payload不等且未保存失败payload，不能臆指字段。新paid56专用物理锚保α/八A/ζ/两gauge在全原算子内，按真隐式方程微分，先消费已付方向/.95cap。原绝对门及全费用保留。
+[R632真59/R636真71及后继](notes/2026-11-28-r632-59-paid-height-and-r636-71-inward-velocity.md)：R632 run46136366463 136.275561354秒/3新接受至23f98943，源56 safe方向已接受；最新方向未试，当前h的10闭叶+94前沿与已付严格源证书一致。仅付该方向仿射端的准确有理Bernstein/Sturm和正dyadic步，再保原全物理复验。旧56启动失败58.685秒/0trial及未知差字段仍留原note。
 
-[R636真26](notes/2026-11-28-r636-center-26-frontier-natural-terminal.md)e648e90c，末90283的h/k/γ及υ79叶已闭、25路径未闭；[当前前沿后继](notes/2026-11-28-r632-r636-true-extremum-frontier-resume-scope.md)run46134531757以有理Sturm仅补未闭路径，之后全J真实内点h/υ/全L梯度欧氏LM。
+R636 run46134531757 1581.672363659秒/45新接受至3c2e5846，无pending；680域拒中656真υ违反/23样本/1继承。trust.01171875/λ338488.2033延续，完整欧氏方向加真实υ内向法向，保其余实面/坐标/合格端与≥99%模型下降。两者源α/八A/规范全链隐式导数、全部旧费用/原绝对门保留，末fine不替根。
 
 [R641真48](notes/2026-11-28-r641-fixed48-real-terminal-and-continuation.md)run46132220810/source389c5029：1639.265097534秒/48接受，无pending，ebf90b0e，Ar−.15371568/ruling1.358145e14；2305fine全付但绝对门未过。新paid48续原固定权1.291923405522812165913821/trust2/λ1e−14，所有L/α/中心/ζ/gauge锚进入物理全链且保完整身份。变q重付全图/新fine，不重原17+48步。
 
