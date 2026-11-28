@@ -1,17 +1,15 @@
 {
-  "message": "ISP: prove same-sigma value presentation and Fitting square bound; first W mu center",
-  "parentCommit": "cee9f0bde39e30bad601aa357291f94aeb6889d9",
+  "message": "ISP: exclude entire negative-e zero-k W ray by original q2 and R6 valuations",
+  "parentCommit": "12f23fd2b48f6c9e2aca872cf9600de82f48f9af",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-same-sigma-two-by-eight-original-value-presentation-and-sixteen-minors.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-positive-mu-center-three-original-initials-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-positive-mu-center-three-original-initials-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-w-positive-mu-center-three-originals.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-same-sigma-W-mu-2025-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-same-sigma-W-mu-2025-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-negative-e-ray-complete-q2-R6-valuation-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-topic-storage-metadata-1627-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-negative-e-ray-exclusion-2030-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-negative-e-ray-exclusion-2030-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-positive-mu-center-three-originals.yml"
-  ]
+  "dispatchWorkflows": []
 }

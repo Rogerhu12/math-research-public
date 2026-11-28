@@ -26,6 +26,8 @@
 
 ## 新增结论
 
+- [R150：W/b0整个负e、零k赋值射线原q2/R6排除](results/R150-appendix-unit211-W-b0-negative-e-ray-complete-q2-R6-valuation-exclusion.md)：原b0与完整q2自行排任意λ的v(2λ−3)≤0，原系数付vT=−a/2；R6的MK²估值−7a而另一项≥−5a矛盾。k首值−1/−2、D/A*/m首值零均保，独立纸证不冒称初项程序全格单位；其余五ray仍开。
+
 - [R150：同σ二生成原值商、16个完整原minors与消元平方夹逼](results/R150-appendix-unit211-same-sigma-two-by-eight-original-value-presentation-and-sixteen-minors.md)：四条同点线性余式的真2×8乘法列完整呈示值商，28子式由4范数/6交叉/6混合生成且均返原式；J²⊂Fitt0⊂J。固定全部系数复点等价原值方程有共同σ，保D0双数；不替其他均值或推出权有限性。
 
 - [R150：W/b0十一原首项的实际返回与λ=3/2剩余中心](results/R150-appendix-unit211-W-b0-eleven-original-initials-and-lambda-three-halves-residue-center.md)：唯一run46162974839，3.326495765秒/0；完整五t估值cell及t0都由原q2乘子63k^-6返(2λ−3)²。0单位、k+2四幂未返，未关射线；只付μ=2λ−3非零且正估值的新中心，特征零λ并未被设为3/2。
