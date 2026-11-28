@@ -7,12 +7,12 @@
 固定E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷可用鸽巢。有限p、变曲线、条件接口均不完成。
 root独占refs/H/open/log/index；每条结论即推。终端可用时每推前实际pull两库且至少每小时；非FF立即pull --rebase循环。不force。环境失联时按根规则8明确准许的GitHub小文本备用通道，每次先读两库最新main/四README及QUEUE，拒绝即重读最新基线重建，不伪称终端pull。令牌仅命令行/进程，不入文件/提交/API。
 全部数学仅公开Actions，4CPU/16GB/6h，账户至多20并发。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则15禁存可重算log/数据/矩阵，只留源/参数/run/hash/必要原输入。独立结论新R，同结论续同号；不设冻结/额外复核门。公开16/私库15要求子代理显式gpt-6.2-astra/ultra，09:47起已全遵守。
-[整理前完整H](notes/2026-11-28-handoff-before-single-residue-and-fourier-sampler.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
+[整理前完整H](notes/2026-11-28-handoff-before-actual-negative-weight-jets.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
 
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 14:56:03 UTC按根规则8小文本备用通道读公开main 7fa44a1507153ecadecbb6a0df663c98d9da33ab、私库main 4be0e3c2f23e97c8e0771f4ae0ac6cd4e2571748；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题认领仍进行中。
+- 2026-11-28 14:58:08 UTC按根规则8小文本备用通道读公开main a8069be58271ea5a6bfc72b9f8edaf3aa37b84aa、私库main 9e07efd9769d9a74b5c296b90c482f410e204ee8；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 原两库均blob:none/depth1/sparse-index。为释放本会话磁盘，14:34逐文件SHA验证后将两.git移至/tmp/rank2-0b097461-public-git-metadata-20261128及/tmp/rank2-0b097461-private-git-metadata-20261128、保原路径symlink；其pack仍指向同名前缀public-git-pack/private-git-pack-20261128，四目标勿删。迁移后HEAD/status均同原值，释放57028608B；没有删他人文件。
 - 根规则8的备用通道只传<100KB文字；本次只归档原人类open/log/H研究记录与写证明，无数学本地执行或可重算CI日志入库。原topic库存约47.7MB，新增仍守全部大小限制。
@@ -28,8 +28,10 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 
 ## 原两/三位与三个实际目标：R1067
 
-[原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[56–73](results/R1067-original-three-target-units-and-integral-isotropic-source.md)、[74起](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)；所有旧槽/精度/原模型见归档，不重做。EN三位/Ed两位首剩余仍容许坏j1。九17标记的三实际中心给J=3Σr_i^uI_i，Gaussian Gwt非零且三中心比模固定S-unit秩2，但J′/3=Gwt+ΣI_i′的完整过收敛余积分仍可抵消；复阶2/(p−1)只排有限覆盖代数化。
-§§62–73完整3024K/1008D严格范数、289平移、全Poincaré/双变量Kummer与全部有限角色非零已付，d_j为τ型域正规基；整关系d=−H/(12J)r保全T⁻¹，均未付中央，完整各槽见归档。§74全CW/绝对周期给d^ac=6fH^ac A_p ξ1，原中央坏恰T³整除并自动T⁴；§75实际Y_k=Σa⁻¹binom(−s(a),2)[a]d_(k+1)为零⇔pᵏ|[T²]A_p；0/1项真零、整控制及res单射全付，尚须无穷p非幂。§76首测试真退Z^(p−3)Norm₊r₂及同一循环邻曲线的完整p挠Theta，保全Δ/所有方向。§77Norm素元Δ=a^p、break=p²−1及真实幂过滤给八个输入分次，实际提升仍保。§78原秩零参考定标Z^(p−3)y=17a₂r₁⁰；同一邻点三dlog槽准确读a₂，末乘子单位未代全和非零。§79真U₂/Cartier与一次Kummer矩付L₀=L₁=0，单一L₂准确读a₂；未证无穷p非零。§80规范λ=h−h^p、ρ=R，原a₂读真实Robert的p方向全迹。§81全迹=−B₂p₊₁+2Bp₊₂−B₃−2B₂，四槽全和仍待非零。§82原ν/CRT/全局留数将其化为保17导子的Frob全点和，未付跨p非零。§83真三维Hecke空间的头两基被原泛函杀；DU₁=x^q、D²U₂=2y^q，第三基评价仍待证。
+[原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[56–73](results/R1067-original-three-target-units-and-integral-isotropic-source.md)、[74起](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)保全部原槽/模数/精度，详细历史见归档，不重做。固定E17秩2；当前p>211、p≡5mod6、(17/p)=1，β=√17在Zp。
+§§62–73完整3024K/1008D严格范数、289平移、Poincaré、整d=−H/(12J)r、双变量全部有限角色非零及d_j域正规基已付，均未付中央。
+§74原完整CW/绝对周期给d^ac=6fH^ac A_pξ1，中央坏恰T³整除并自动T⁴；§75原Y_k=Σa⁻¹binom(−s(a),2)[a]d_(k+1)=0⇔p^k|a₂，整控制/res单射已付。§§76–79首测试真退实际循环邻点Z^(p−3)Norm₊r₂；八分次保提升，秩零参考定标及U₂/Cartier、一次矩消L₀/L₁，单L₂准确读a₂。
+§§80–82规范λ=h−h^p、ρ=R，原全迹为−B₂p₊₁+2Bp₊₂−B₃−2B₂；原ν/CRT/全局留数转保17导子的Frob全点和。§83真三维Hecke空间头两基被原泛函杀，DU₁=x^q、D²U₂=2y^q及唯一A/B/C退根已付，第三基评价仍待证。
 
 ## 原中央与完整全层：R1070/R1072
 
@@ -39,7 +41,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 固定曲线对：R1073
 
 [原§§1–16](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)、[17起](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)保固定E65/E8125秩≥2、完整390角色/5/双13/原E1及两canonical二阶；旧P±/Lagrange/全层/Volkenborn/PF精度见归档，不重做。§§13–16同一三级/216商/72环类，单位乘法独立及单位权导非零，但完整二阶含T2、logτT1和log²质量，τ=u²/130。
-§17真实Fr预标后的全Hecke迹杀外端所有正dj次数，中央常数仍缺；§18相反Weil分量及原未经重标奇层逐商为零，参考不混。§19母δ全胚芽/四Δ全p范数付同圈72单位log迹。§20原混积=固定E16的2592N/(δβ)点log，原点/首端点差皆非挠。§21完整72(p+1)Fourier唯一复主项付两个原χ加权h_C首端log非零，但AD6的两完整正则积分仍可抵消；裸μ3 log和是零。§22真全9标记付β=1、Fermat反演、H±及±h·dμ，仍保同一变动水平周期，未付中央。§23真首圈负一权=固定F7全Gauss和，参考单位付四位坏条件；尚缺无穷p违背。
+§17真实Fr预标后的全Hecke迹杀外端所有正dj次数，中央常数仍缺；§18相反Weil分量及原未经重标奇层逐商为零，参考不混。§19母δ全胚芽/四Δ全p范数付同圈72单位log迹。§20原混积=固定E16的2592N/(δβ)点log，原点/首端点差皆非挠。§21完整72(p+1)Fourier唯一复主项付两个原χ加权h_C首端log非零，但AD6的两完整正则积分仍可抵消；裸μ3 log和是零。§22真全9标记付β=1、Fermat反演、H±及±h·dμ，仍保同一变动水平周期，未付中央。§23真首圈负一权=固定F7全Gauss和，参考单位付四位坏条件；尚缺无穷p违背。§24同一首圈全负权参考赋值已付，两个驯权读a₂任意精度；首移动导数保H及全ψ_p。
 
 ## 其它门、更正与接续
 

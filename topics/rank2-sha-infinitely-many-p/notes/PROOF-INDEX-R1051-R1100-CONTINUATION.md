@@ -141,3 +141,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §83：完整三维Hecke函数空间及原中央泛函
 
 已证明：Riemann–Roch主部与实际同源函数迹给完整三维特征空间，原17泛函杀头两基，第三基准确读a₂。全主部转置付U₀=−G^p、DU₁=x^q、D²U₂=2y^q及唯一A/B/C退根；未把空间非零当目标。 [同编号全文](../results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1073 §24：同一原首圈的全部负权与真实扭点导数
+
+已证明：同一p+1原核的真实移动jets给Ab(ρ^(−n−1)−1)；Lagrange准确付n=p^a−1参考赋值，仅两个驯权读a₂任意p进精度。首导数保全部tame与wild移动，H=−ζ−x²/y及完整ψ_p斜率给实际代数归一。 [同编号全文](../results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。

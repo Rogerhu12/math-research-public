@@ -220,3 +220,51 @@ $$ \mathcal A_b(\rho^{-1}-1)
 已证原 $\mathcal A_b$ 至少含 $T^2$；若 $[T^2]\mathcal A_b=0$ 则实际 Rubin 平方使它含 $T^4$。由于 $v_p(\rho^{-1}-1)=1$，必有
 $$ \boxed{\ \sum_{j=0}^{3}p^j\,g_{b,p-1+j(p^2-1)}=0\bmod p^4.\ }\tag{AF7}$$
 无条件同一个和模 $p^2$ 已为零，任一条在模 $p^4$ 违背(AF7)就给该 $p$ 的真实通常全 Sha 有限证书。两个目标的共同坏会使二条固定有理函数各满足(AF7)。旧 R1065/1066 为 degree34、102 的负二测试；此处是固定曲线对的原 $T=-1+\rho^{-1}$ 值、原参考的准确单位和非平凡首层驯角色。迄今尚未证明(AF7)在无穷 $p$ 上违背。
+
+## 24. 同一原首圈的全负权、两条真正驯行及准确参考
+
+沿(AF1)–(AF7)，并沿(W1)取 $\pi^{p+1}=p$、$v_p(\pi)=1/(p+1)$。对 $D\subset E_1[p]$ 让 $D(v)$ 是特征零形式邻域中的唯一有限 étale 延拓。把源水平始终预合实际 $M^{-1}$。置
+$$ F_{k,D}(v)=f_k(E_v/D(v),q_D\alpha M^{-1},\kappa_D(v)),\qquad
+ q_D^*\kappa_D(v)=\omega(v),\qquad
+ L_{k,D,n}=[w^n]P(v)F_{k,D}(v).\tag{AG1}$$
+这个物理系数含整个商曲线与移动的除点。记 $A,B$ 为(K2)的同一反对角晶体常数。相比水平基，目标线参数 $w'=A/(Bw)$，且 $P(v)F_{k,D}(v)=B(B_0f_k)(v'_D)$，$B_0=vQ/6$。令
+$$ z=\pi/(6w')=c_p w,\quad c_p=\pi B/(6A),\qquad
+ b_{k,D,n}=[z^n](B_0 f_k)(v'_D(z)). \tag{AG2}$$
+则 $L_{k,D,n}=B c_p^n b_{k,D,n}$。$v'_D(z)=\pi X(Y_D(z))$ 用(K2)在原首端 $D$ 的实际根支。由(AF1)并用 $z(\Phi_t v')=\rho_t^{-1}z(v')$，
+$$ b_{\,\mathcal T_t f_k,D,n}=\rho_t^{-(n+1)} b_{k,\bar tD,n}.$$
+这对全部 $t$ 成立：在各端点附近的解析映射由其标记、点 $v'_D$ 的像及此局部参数唯一决定。因此
+$$ \mathscr L_{k,n}=\sum_{t\in\Delta}\rho_t^{-(n+1)}L_{k,\bar tD_*,n},\qquad
+ \mathscr L_{b,n}=65\,\mathcal A_b(\rho^{-n-1}-1)\mathscr L_{1,n}.\tag{AG3}$$
+$D_*$ 是同一个实际原核。对群环幂级数取系数可先在足够小的 $z$ 盘逐项作，在那里由(P9)的严格盘收敛及 Cauchy 控制可交换；或者先取有限局部 jet 连续作用。(AG3)仍能在参考为零时作乘法使用。
+
+下面对全部 $n=p^a-1$ 付准确参考，包括 $a=0$。由(W1),(R5)，在 $W[\pi]$ 加首圈根的整数环中有
+$$ (B_0 f_1)(\pi X(Y))/\pi\equiv Y f_1(0)/6\bmod\mathfrak m.$$
+代每支 $1+\kappa Y_D(z)^d=zY_D(z)$ 的整形式幂级数仍逐项成立，因为在零处的隐方程导数是单位。置 $Y_*=Y_D(0)$，$Y_D(z)=Y_* y$。由 $1-y^d=zY_* y$，Lagrange 式给
+$$ [z^n]Y_D(z)=Y_*^{n+1}\frac{(-1)^n}{n+1}
+                           \binom{(n+1)/d}{n}.\tag{AG4}$$
+当 $n=0$ 右侧为 $Y_*$。当 $n=p^a-1>0$，二项式中首项 $p^a/d$ 赋值 $a$，除数 $n$ 为单位，剩下 $\prod_{r=1}^{n-1}(p^a/d-r)/r$ 全为单位；再除 $n+1=p^a$ 准确抵消。又 $Y_{\bar tD_*}(0)\equiv\rho_tY_{D_*}(0)\bmod\mathfrak m$ 由(AF2)及 $X(Y)\equiv Y$。故(AG3)的真实整驯和首项是 $d$ 倍同一单位。$B$ 为单位；$v_p(A)=1$ 因原次数 $p$ 同源在 de Rham cup 上乘 $p$，两个所用水平基取同一原 cup，故 $-AB=p$。于是
+$$ \boxed{\,v_p(\mathscr L_{1,p^a-1})=\frac{p^a}{p+1}-(p^a-1).\,}\tag{AG5}$$
+
+取 $T_a=\rho^{-p^a}-1$，准确定标 $v_p(T_a)=a+1$。用原整 Rubin 比及质量、一次项皆零，得到每一层
+$$ \boxed{\ \frac{\mathscr L_{b,p^a-1}}
+                   {65\,\mathscr L_{1,p^a-1}T_a^2}
+              \equiv[T^2]\mathcal A_b\pmod {p^{a+1}}.\ }\tag{AG6}$$
+如原中央卷积含 $T^4$，(AG5)右侧加 $4(a+1)$ 即相应 $\mathscr L_b$ 的下界。全部层使用同一 $p+1$ 个首圈原核；在(AG3)只实际出现 $\rho_t^{-1}$ 和 $\rho_t$ 两条驯行，因为 $p\equiv-1\bmod d$。这个负权数列与原中央正权 $d p^a$ 在同一 $\mathcal A_b$ 两侧取值，(AG6)没有将低阶负一采样单独当作极限。
+
+### 第一个移动除点导数的代数归一
+
+仍用(AF3)的 $\widetilde G_k$ 和显式 $\lambda_{k,p}$。在原 $E_v$ 上把该有限平移和按原 tame 挠点的特征零延拓写为 $\widetilde G_{k,v}(t)$，$t=x^{-1/2}$ 选择 $y=-t^{-3}(1+vt^4+t^6)^{1/2}$ 的原正式支。于是 $\omega_v=\ell_{v,t}(t)dt=(1+vt^4+t^6)^{-1/2}dt$，$\ell_v(0)=0$ 是椭圆正式对数。对 $R(v)\in E_v[p]$，在 $v=0$ 附近有 $\ell_v(t(R(v)))=0$，因为它是 $p$ 挠。该等式可逐点在略小的 $v$ 邻域对 $v$ 求导：$|t(R)|<1$，上述积分与其一阶参数导数在任意固定严格小 $t$ 盘一致收敛。令 $H(t)=6\partial_v\ell_v(t)|_{v=0}$，$D=\omega^{-1}d$ 为固定 $E_1$ 的不变导数。$v'(w)(0)=6$、$P'(0)=0$ 给真正首阶物理来源
+$$ L_{k,D,1}=\lambda_{k,p}\sum_{R\in D}\left(
+       6\,\left.\partial_v\widetilde G_{k,v}(t_R)\right|_{v=0,t_R\ {\rm fixed}}
+                   - H(t_R) D\widetilde G_k(R)\right). \tag{AG7}$$
+第一项也包含全部 tame 平移点的变化。它是固定带水平代数族在 $t$ 为局部坐标时的代数导数。对 $R=O$ 用整延拓，最终完整非平凡席位会去掉这项。
+
+在 $E_1:y^2=x^3+1$ 上设 $\eta=x\omega$。直接微分 $x^2/y$ 得
+$$ dH=6\,\partial_v\omega_v|_0=\eta-d(x^2/y),\qquad
+ H=-\zeta_E-x^2/y .\tag{AG8}$$
+这里 $\zeta_E$ 是正式盘上满足 $d\zeta_E=-\eta$、主部 $1/t$、为奇的亚纯原函数；逐项积分给整个开盘收敛，除 $O$ 外正则。令 $\psi_p$ 为原 $p$ 除多项式，以任意固定非零倍数归一。在正式盘的亚纯函数域，
+$$ D\log\psi_p=p\zeta_E\circ[p]-p^2\zeta_E.$$
+确可先在原点以经典 $\sigma(pz)/\sigma(z)^{p^2}$ 的形式 Laurent 式验证，所有系数在 $K$；换 $\zeta_E$ 一次线性项也相消。再以亚纯延拓到整个开盘。对非零 $R\in E_1[p]$，在 $R+X$ 的参数 $z=\log_E X$ 取常项；$\psi_p$ 在 $R$ 为单零，$p\zeta_E([p](R+X))=1/z+O(z)$。故
+$$ \zeta_E(R)=-\frac{D^2\psi_p(R)}{2p^2D\psi_p(R)},\qquad
+ H(t_R)=\frac{D^2\psi_p(R)}{2p^2D\psi_p(R)}-\frac{x(R)^2}{y(R)}.\tag{AG9}$$
+$y(R)$ 对奇数 $p$ 的非零 $p$ 挠不为零。此值同时为复准周期校正下 $\zeta_E(R)=\mathcal E_1^*(R)$ 的代数值：在复格中相同 Laurent 比较的 $p\zeta(pR+pX)$ 常数为 $p\eta_{pR}$，故正抵去 $\eta_{pR}/p$。由(AG7)–(AG9)每个 $n=1$ 的真实移动项都能用原 E1 上的代数点与除多项式读出。对该 $n$，(AG4)的系数 $-1/d$ 为单位，故仍有 $v_p(\mathscr L_{1,1})=2/(p+1)-1$，相应的第二个固定评值是 $\mathcal A_b(\rho^{-2}-1)$。中央二阶在无穷素数的非零仍需从这些真正同源值推出。
