@@ -1154,3 +1154,193 @@ $$
 全部证明是实际有限空间、原 kernel 和全函数的纸面计算，
 无数学程序执行。第六层至第七 jet 的尺度已由
 o2_high_coefficient 独立纸核。
+
+
+## 11. 同一三极算子的混合 Green 身份与两个原有界链
+
+本节把 (Q.36) 的单极积分和 (Q.24)–(Q.29) 的双极积分放入
+同一个实际有理方程。先不假设任何 Cartier 读数为零。
+记
+$$
+\mathscr O_B=DUD-\frac{v^2}{U}.
+$$
+这里 $DUD$ 表示算子复合 $D\circ(U\cdot)\circ D$。
+因 $v$ 为常数，两个准确分解为
+$$
+\boxed{
+\mathscr O_B
+ =\left(D+\frac vU\right)U\left(D-\frac vU\right)
+ =\left(D-\frac vU\right)U\left(D+\frac vU\right).
+}
+$$
+由 (Q.1)、(Q.22)，
+$$
+\boxed{
+\mathscr O_B\mathcal B=-\frac{2v}{b_0},\qquad
+\mathscr O_BR_0=1.
+}
+\tag{Q.40}
+$$
+该算子对 $\omega$ 下的有理分部积分自伴；
+两个因子 $v/U$ 在 $Q,-Q$ 有极，不能把它们称作整单位。
+
+### 11.1. 混合二次式的全部 $p$ 次补偿
+
+置
+$$
+\mathcal M_\times=\mathcal A K-v\mathcal B R_0.
+$$
+用同一原一阶系统完整展开，恰有
+$$
+D\mathcal M_\times
+ =\mathcal A-\frac{2K}{b_0}.
+$$
+两个含 $\mathcal B K/U$ 的项和两个含
+$\mathcal A R_0/U$ 的项分别相消。
+因此 (Q.3)、(Q.24) 给
+$$
+D\left(\mathcal M_\times-D^2\mathcal I
+                     +\frac{\mathcal M_0}{b_0}\right)=0.
+$$
+
+此处不能先把差置为零。实际极界足以唯一锁定它：
+$\mathcal A$ 在 $O$ 的极阶至多 $p$，而 $K$ 在 $O$ 零阶一；
+$\mathcal B$ 的极阶至多 $p-3$，而 $R_0$ 在 $O$ 零阶四。
+所以 $\mathcal M_\times$ 在 $O$ 的极阶至多 $p-1$。
+在 $Q,-Q$，$\mathcal A,\mathcal B$ 均有至少一阶零，
+而 $K,R_0$ 的极阶至多 $m$，
+故混合式在这两点的极阶至多 $m-1<p$。
+$D^2\mathcal I$ 和 $\mathcal M_0$ 也满足这些界。
+
+被 $D$ 杀掉的有理函数沿原 relative Frobenius 下降，
+其非零极阶必须为 $p$ 的倍数。
+显示的三个极阶都小于 $p$，所以差为常数。
+最后 $\mathcal M_\times,D^2\mathcal I,\mathcal M_0$
+在 $U\mapsto\zeta U$ 下共同具有角色 $\zeta^2$，
+这个常数也只能为零。因此全函数身份为
+$$
+\boxed{\qquad
+\mathcal A K-v\mathcal B R_0
+   =D^2\mathcal I-\frac{\mathcal M_0}{b_0}.
+\qquad}
+\tag{Q.41}
+$$
+本式的原函数、常数和三个极点均已确定，
+没有把一个局部 Green 身份无条件提升为全局等式。
+
+### 11.2. 完整齐次项与 $z_N$ 的原相位
+
+令
+$$
+H_A=\mathcal A+\frac{2K}{b_0},\qquad
+H_B=\mathcal B+\frac{2vR_0}{b_0}.
+$$
+两份非齐次常数准确相消，故
+$$
+DH_A=\frac vU H_B,\qquad DH_B=\frac vU H_A.
+$$
+按 (Q.15)、(Q.18) 及 §7 的
+$\mathscr S=UD-V$，它们的全函数来源是
+$$
+\boxed{
+H_A\pm H_B
+ =\frac{v}{b_0z_N}\,
+        U^{-3k}\ell_\pm^pJ_\pm .
+}
+\tag{Q.42}
+$$
+这里 $J_+=(V-v)^{2k}$、$J_-=(V+v)^{2k}$，
+$\ell_\pm=(V\pm v)/U$。
+$\ell_\pm^p$ 是不能删除的 Frobenius 因子。
+
+原共同主部 (G4.100) 给
+$\mathcal A=-2\rho\,\tau^{-p}/(b_0\delta)+\cdots$。
+另一方面 $K=O(\tau)$，
+$H_B$ 在 $O$ 的极阶至多 $p-3$；
+而
+$$
+U^{-3k}\ell_\pm^pJ_\pm=-\tau^{-p}+\cdots .
+$$
+比较 (Q.42) 的首项，准确锁定原有限递推的中间系数：
+$$
+\boxed{\qquad z_N=\frac{v\delta}{2\rho}.\qquad}
+\tag{Q.43}
+$$
+这个等式不仅是平方或未定单位比例。
+它与 $z_N^p=-z_N$、$v^p=-v$ 一致。
+
+特别，(Q.23)、(Q.25) 的全部 $e$ 项可以无条件化简为
+$$
+\boxed{
+\begin{aligned}
+\frac{C_{\rm rel}(\Psi^3K\omega)}{\omega'}
+ &=-\frac{\rho}{\delta}(\delta^2K_4+ve),\\
+C_{\rm rel}(\mathcal M_0\omega)
+ &=-\frac{2\rho ve}{\delta^2U'}\,\omega'.
+\end{aligned}}
+\tag{Q.44}
+$$
+第一式中 $3\rho ve/\delta$ 与
+$2b_0v\alpha=-4\rho ve/\delta$ 相加，
+所以剩余的 $ve$ 号为负。
+这仍是全相对 Cartier 规范，不对底域的 $v$ 取 $p$ 次根。
+
+### 11.3. 共同零分支上的原三极 Pell 身份
+
+先在全函数域中，由
+$\ell_+\ell_-=U$、
+$J_+J_-=U^{p+1}$ 及 (Q.42) 得
+$$
+H_A^2-H_B^2
+ =\frac{v^2}{b_0^2z_N^2}\,U^p
+ =\frac{4\rho^2}{b_0^2\delta^2}\,U^p .
+$$
+结合 (Q.41)，等价的原单极 norm 为
+$$
+\boxed{
+\mathcal A^2-\mathcal B^2+\frac4{b_0}D^2\mathcal I
+ =\frac{4\rho^2}{b_0^2\delta^2}\,U^p .
+}
+\tag{Q.45}
+$$
+因此两条链之间的 $U^p$ 边界具有已锁定的非零系数；
+它并没有在 Green 分部积分中消失。
+
+现在才假定 $e=K_4=0$，从而 (Q.28) 的
+$\mathcal M_4$ 确实存在。定义同一个实际三极函数
+$$
+\mathcal T=D^2\mathcal M_4+b_0\mathcal I.
+$$
+其极点包含于 $O,Q,-Q$，极阶分别至多
+$p-3,m-3,m-3$。
+由 (Q.1)、(Q.22)、(Q.29)，非齐次常数再次完整抵消：
+$$
+D^3\mathcal T=b_0\mathcal A+2K=b_0H_A,\qquad
+\frac UvD^4\mathcal T=b_0\mathcal B+2vR_0=b_0H_B .
+$$
+所以共同零必须满足的完整有界关系是
+$$
+\boxed{
+(D^3\mathcal T)^2-\frac{U^2}{v^2}(D^4\mathcal T)^2
+ =\frac{4\rho^2}{\delta^2}\,U^p,
+\qquad
+\mathcal T=D^2\mathcal M_4+b_0\mathcal I .
+}
+\tag{Q.46}
+$$
+其两个因子仍由 (Q.42) 精确给定。
+本式耦合了两个已经证明存在的原有界链，
+而不是任取一个局部 Pell 解。
+
+(Q.46) 的右端是非零有理函数，不是在三个极点处的整单位。
+目前没有证明它与显示的 $\mathcal T$ 空间矛盾。
+尤其不能只从这个非零 norm 断言
+$C_{\rm rel}(\mathcal J_6\omega)$ 或 $\mathfrak b_6$ 非零，
+也不能删去 (Q.42) 的 $p$ 次因子后诉诸特征零微分方程的唯一性。
+下一步仍需把 (Q.14) 的实际加权强迫
+与同一有界链的 Cartier 读数相比较。
+
+本节为全函数及极点界的纸面证明。
+o2_high_coefficient 独立核准 (Q.41)–(Q.44)
+的微分、所有极阶、$z_N$ 的符号和完整 $ve$ 修正；
+没有数学程序执行或新增有限素数窗口。

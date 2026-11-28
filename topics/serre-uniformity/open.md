@@ -118,11 +118,13 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 原A=xP12+x⁻¹P32、B=xP12−x⁻¹P32满足DA=vB/U−2/b0、DB=vA/U；B=Σt_jU^(3j+1)且所有t_j单位。F=P12P32=C0U^p−Σ(3j+1)t_jU^(3j+2)/{b0v(3j+2)}，C0=ρ²/(b0²δ²)，W=F−P²顶系数(ρ²−1)/(b0²δ²)unit。α=C_rel(Bω)/ω′=−2ρe/(b0δ)，ΨrB第1…5层及第6层−5αU′³+b6全保；b6=8δ³C(Rcal³Bω)/ω′是不同源，不换名K4。原45槽、九mixed及七维消失范围沿归档，σ/Λ/T仍未unit。
 
-[quadric续篇 §§1–10](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)给同一原A=D³I及a3=2ρδK4/b0−4vα；双零恰α=a3=0。原kernel保4ve，absolute有序P³Piωj及C(P²Wh*)精确尺度、完整高Lamé二次变换和上下半段见[逐字前态](open-archive-2026-11-28-before-seventh-Picard-jet.md)及原文，不重算。
+[quadric续篇 §§1–11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)给同一原A=D³I及a3=2ρδK4/b0−4vα；双零恰α=a3=0。原kernel保4ve，absolute有序P³Piωj及C(P²Wh*)精确尺度、完整高Lamé二次变换和上下半段见[逐字前态](open-archive-2026-11-28-before-seventh-Picard-jet.md)及原文，不重算。
 
 R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40 iff相应M3存在；M0=K²−v²R0²、DM0=2K后有完整五次有界链，K=D⁵M4/2。因此 **e=K4=0 ⇔ D^(p−5)K=0**。原二次限制v²(D⁵M4)²−U²(D⁶M4−2)²=4v²D⁴M4保非齐次2。全S3 primitive交换保p次补偿；114交叉源的Cartier单位不能删掉双零后残存的114项。
 
 §10在e0时以六个具体有限空间付D⁶J=B、poleJ≤p−9，b6=−δ⁷[τ⁻⁸]B/7；后续插入r6..9为b6、0、−28b6U′、168b6V′。双零时完整七次kernel/Leibniz给D_R⁷Φ(U^m)(−Q)=−7b0δ b6/(2ρ)，等价b6=2¹²·3²·5ρv⁷H_{p,2}/(b0δ)。原Q14强迫120C(U³I)/ω′+48v²βI=vα+2δ/b0仍须与同一链比较，未证b6或两jet非零。继续三极norm/同源交叉源，旧窗口不重跑。
+
+§11完整Green锁AK−vBR0=D²I−M0/b0、zN=vδ/(2ρ)。双零的实际T=D²M4+b0I满足(D³T)²−U²(D⁴T)²/v²=4ρ²U^p/δ²，极界O为p−3、Q±为m−3；两个ℓ±^p及全ve修正保留。仍未证该实际有界空间矛盾。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 

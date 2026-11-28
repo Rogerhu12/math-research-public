@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：312ba77ff4986e957ad286a6a940398f973ecebf**（2026-11-28 17:16 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:13 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：5c9500e2f80829c7db22f849232e3b9b01cadcdf**（2026-11-28 17:22 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 17:13 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 17:13:02 Asia/Taipei，Actions run46129390088/job140931017005，blob:none浅clone后真实pull --rebase至a6c74a41且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤18:03、pull≤18:13。本地17:12仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -46,7 +46,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原canonical P22、六123映射/p次补偿、V4三平移及A/B/W全源已付；顶U^p与b6不同源，全部相位沿open/原文，不能替指定两jet。
 
-[quadric续篇 §§1–10](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原两jet等价α=a3=0及D^(p−5)K=0；高Lamé/五次有界链保非齐次2，S3交换和114交叉余项完整。§10在e0付D⁶J=B、poleJ≤p−9，b6=−δ⁷[τ⁻⁸]B/7；双零时原D_R⁷Φ(U^m)(−Q)=−7b0δ b6/(2ρ)。这是下一实际Picard系数，Q14强迫单位未代b6非零。
+[quadric续篇 §§1–11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原双jet、Q14强迫与全部S3/p补偿沿原文。e0有D⁶J=B、b6=−δ⁷[τ⁻⁸]B/7，双零时第7Picard jet=−7b0δb6/(2ρ)。§11实读AK−vBR0=D²I−M0/b0及zN=vδ/(2ρ)；同一T=D²M4+b0I满足(D³T)²−U²(D⁴T)²/v²=4ρ²U^p/δ²，三极界全保。norm非零不代b6非零或双零矛盾，继续同链加权强迫。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

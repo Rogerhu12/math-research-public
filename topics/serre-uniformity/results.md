@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Fermat两条有界链的完整混合norm（已证明）**：[quadric续篇 §11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)同一自伴三极算子保两个非齐次源，极界与角色锁AK−vBR0=D²I−M0/b0及原zN=vδ/(2ρ)。共同零的实际T=D²M4+b0I满足(D³T)²−U²(D⁴T)²/v²=4ρ²U^p/δ²，保完整ℓ±^p和全部ve项；该非零norm尚未排原双jet，不新增消失假设。
+
 - **原两abelian矩的无Bernoulli门有限重建（已证明）**：[R1173](results/R1173-original-abelian-moment-reconstruction-from-Brandt-affine-equations.md)BM02小偶权半稳定分类排惯性端点1⊕ω^(d+1)，原Wℓ,d=(ℓ+ℓ⁻ᵈ)−Tℓ^(d)于同μ6外辅助族生成单位理想。实际Norm点与已知Δ给非齐次W A=D，右端只含coefficient crystal、quotient modp²位置及实际同源；有限证书恢复全部SS参考X/Y。原Tate-five值24Bp−5/5另由abelian比较付p>37，中央实际corr及全局非零仍开；未运行数值重建。
 
 - **原三二同源商全部primed高矩的低heat表达（已证明）**：[Gaussian高窗 §12](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原完整核trace锁定商Appell反射与βε=2β；共同τ安全到全部顶槽，保系数p次及R1168所需σ。实际A′_{ε,d,i}=−d!/((d−i)!β)(2⁻ⁱFhat_{ε,d,i}−2⁻ᵈF_{d,i})，Fhat为原G_(p−5)/G_(p−9)低heat列的明确CM gauge。same-ε Bkl连同odd–odd完整保留，原共同纤维排除仍开。
