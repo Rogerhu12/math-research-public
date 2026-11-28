@@ -4,7 +4,7 @@
 
 ## 规则与完成线
 
-- 最近实际pull后双README已读锚 `f48d88718569e15f9c90c59209591e56c1655f9d`（2026-11-28 16:44 UTC）。
+- 最近实际pull后双README已读锚 `aa91da07148c1a7cf0aed3c93b954d8314715bc0`（2026-11-28 16:44 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；本轮实际pull到 501598ecab5ed0ab5529fd85bfc436c008f2d5f2，双README空diff，QUEUE仍本会话进行中。
 - 每结论先pull核根/本题README差异再push，NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn须显式gpt-6.2-astra/ultra/forknone。令牌仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 断线间小文本集成已由实际pull收齐。完整旧前沿与失败见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)、[本次压缩前H](notes/2026-11-28-handoff-before-r89.md)，不重做已登记结论。
@@ -43,5 +43,5 @@ fixed actual-DN五源+必要memory-budget已发布为[独立准备入口](notes/
 
 ## 4. 资源与接续
 
-工作根 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。完整CSR/factor/raw保留；[冷CSC真实逐字重建](notes/2026-11-28-analytic-cold-csc-exact-reconstruction.md)82.25MB归档SHA/ZIP全同，先存manifest再释两hardlink，原CSR不变。[已完冷证据无损存储](notes/2026-11-28-completed-tail-evidence-lossless-maintenance.md)五项真省数据block115298304B、manifest另占2420736B；原字节均先恢复核SHA。R90 proof JSON现gzip，重跑collector前须按note恢复两组manifest；最终标量不需恢复。旧source不覆盖，无Library/Release数据。
+工作根 /workspace/scratch/7c4e33ee17de/held10-{design,analytic,geometry,linear}-work。[Git缓存接续](notes/2026-11-28-git-promisor-cache-and-sparse-index.md)：两库已真sparse-index；公库已发布promisor packs逐字核同后移到/tmp标准alternate，释397721600B，loose/refs/index/worktree保留；tmpfs丢失按note refetch，不reset科研文件。完整CSR/factor/raw保留；[冷CSC真实逐字重建](notes/2026-11-28-analytic-cold-csc-exact-reconstruction.md)82.25MB归档SHA/ZIP全同，先存manifest再释两hardlink，原CSR不变。[已完冷证据无损存储](notes/2026-11-28-completed-tail-evidence-lossless-maintenance.md)五项真省数据block115298304B、manifest另占2420736B；原字节均先恢复核SHA。R90 proof JSON现gzip，重跑collector前须按note恢复两组manifest；最终标量不需恢复。旧source不覆盖，无Library/Release数据。
 当前各自真运行继续；每子问题完成就接open下一项，不以时间/阶段/输入不足停。准确λ1→完整DN与公共两jet→全部闭图比例→固定问题谱/径向/时间精化仍未完成。

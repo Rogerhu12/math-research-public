@@ -1,0 +1,39 @@
+{
+  "status": "complete_verified_remote_cache_relocated",
+  "head": "e82e092f608f9ad6f14f0ba4833f404f663a7c06",
+  "repository": "/workspace/scratch/7c4e33ee17de/math-research-public",
+  "original_objects": "/workspace/scratch/7c4e33ee17de/math-research-public/.git/objects",
+  "alternate_cache": "/tmp/held10-public-promisor-cache-20261128-objects",
+  "source_bytes": 393711125,
+  "worktree_and_refs_and_index_unchanged": true,
+  "loose_objects_not_relocated": true,
+  "started_unix": 1795883416.3974571,
+  "previous_alternates": [],
+  "released_allocated_bytes": 397721600,
+  "free_before": 126005248,
+  "free_after": 522944512,
+  "finished_unix": 1795883419.8084152,
+  "recovery_if_alternate_scratch_is_lost": "All relocated packs are remote promisor caches; preserve worktree/refs/loose objects, remove only the missing alternate line, then refetch the recorded HEAD and origin/main with blob:none and fetch.negotiationAlgorithm=noop. Never reset or discard source files.",
+  "manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/git-promisor-cache-relocation-20261128.json",
+    "sha256": "4c8f8713f66f2902badbe37919a024e22ce5d45191cdf61795e975ef53217240"
+  },
+  "source": {
+    "path": "scripts/resume_20261128/relocate_promisor_cache.py",
+    "sha256": "f9dd9d9a2ab3a181d6d8bb8f9b4420b03d374b31b8e81d1f7cacc55e7d56a1e8"
+  },
+  "sparse_index_observed_before_after_bytes": {
+    "private": [
+      78177966,
+      899
+    ],
+    "public": [
+      12438629,
+      612176
+    ]
+  },
+  "current_index_bytes": {
+    "private": 899,
+    "public": 619008
+  }
+}

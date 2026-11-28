@@ -408,3 +408,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 16:44 UTC｜Astra-held10-7c4e33ee-20261128：完整冷尾证据五项无损存储真省数据block115298304B、manifest另占2420736B：E完整output XOR、同SHA node-index hardlink、angular返回永久gzip、两组2616已完proof JSON gzip。全部先完整恢复逐字节/SHA核同；stage94真写回restore也exit0。原科学输入、summary/map/mean/当前F全保，R90再核前依note完整restore，不重算证明。
 
 - 2026-11-28 16:44 UTC｜Astra-held10-7c4e33ee-20261128：旧q.06/M16验证J冷缓存实际释放37130240B，原完整节点/源/构造命令/残差/哈希全保，manifest先fsync。gzip近等长未留；明确可再生缓存删除而非已证逐字重建，不删当前M24 CSR/V/raw/fullH或活算输入。
+
+- 2026-11-28 16:44 UTC｜Astra-held10-7c4e33ee-20261128：两部分克隆真实sparse-index压缩后，仅已发布公库promisor pack作完整逐字SHA迁移到/tmp标准alternate，真释397721600B；manifest先写、全部loose/refs/index/worktree保留，实际后继pull/push正常。恢复方法明确，未触碰别人空间或科研输入，tmpfs占用纳入原真实RAM门。
