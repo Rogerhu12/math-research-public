@@ -513,3 +513,7 @@ R87字面柱长预算严格补齐：原map半长float(.005)的全长略大于1/1
 ## 2026-11-28 — λ=.032 工程中断后接完整映射存储
 
 [真实中断及完整映射恢复记录](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)冻结原73924 child−9/owner真join/剩余0；原因未知，无数学排除。五个全Newton步的完整checkpoint逐位续入新65581，独立小入口只委托已审完整CSR/QR映射预算，所有方程、列、tol2e−7/原门保留，构造与热solve峰仍实计。源码/compile/help/真实启动记录齐。该启动记录未冒终态；其后真实接受另立回执。HANDOFF已更新唯一实际续线14227及当前真.032锚。
+
+## 2026-11-28 — 严格 λ=.032/M24 映射恢复通过全部原门
+
+[真接受小回执](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)：真实65581/owner/child exit0且remaining0，284.566627306s、内核HWM641884KiB；1051→1103点，两全Newton步/零拒，RMS1.976399889414676e−7、metric1.7039525431334293e−7、physicalBC2.0598401321214251e−19、mean1168、δ.06809650528094668。原accepted_original/prefix_gate/finite checks/full initializer及来源、raw、physical均真实核过；run903b4abf…、raw eff45f58…、physical201024ef…。完整QR两factor/四solve，两store清页真成功，componentwise error=1如实保留，非逆证。真join后仅本owner的mapped cleanup，removed=[]因终结器已释放。source/previous为真.032与真.002，唯一14227在18:51:16.998 UTC已继续.064→1，.256 floor32，tol2e−7/全部原门不变。本条为必要恢复，历史λ.128前沿未被称为新进展；记录器v2随真实回执入库，不作compile-only结论。

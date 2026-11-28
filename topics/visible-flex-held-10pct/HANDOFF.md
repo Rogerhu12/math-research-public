@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `e66915e6a9bdcc1ffbfa903395ddb61a2c6cb97c`（2026-11-28 18:54 UTC）。
+- 最近实际pull后双README已读锚 `e2be2731ad8bfe44e3242c7c554f2bdda12a910f`（2026-11-28 18:55 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `4f63189c1e7d645e08b71d216ba114d811731fcd`（2026-11-28T18:32:21.654502+00:00），相对ddd3d4ed76双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟19:26 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -13,7 +13,7 @@
 
 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)：q=warp=.012、k=.5/S=.675/b=.3、phase-end4/5、held-width27/50，首升速0→9/20单缓坡。原线性根δ=.06809451565377872/r=1.1349085942296453、calibration/root-profile已按原SHA恢复，不重搜根或重走旧高k排除支。
 
-**当前真正接受锚：λ=.032/M24**，1051→1103节点，RMS1.976399889414676e−7、metric1.7039525431334293e−7、physicalBC2.0598401321214251e−19、mean1168、δ.06809650528094668。真实65581/owner/child全exit0/剩余0；原accepted_original/prefix_gate/finite checks及全源/raw/physical/hash已实际通过。run SHA `903b4abfbec686308820cd69700a0be104d763af8fa010aae2cd1e2a3c854490`，out `held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128`；必要恢复非新λ前沿。
+**当前真正接受锚：[λ=.032/M24](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)**，1051→1103节点，RMS1.976399889414676e−7、metric1.7039525431334293e−7、physicalBC2.0598401321214251e−19、mean1168、δ.06809650528094668。真实65581/owner/child全exit0/剩余0；原accepted_original/prefix_gate/finite checks及全源/raw/physical/hash已实际通过。run SHA `903b4abfbec686308820cd69700a0be104d763af8fa010aae2cd1e2a3c854490`，out `held10-design-work/R87-strict-lambda032-M24-mapped-recovery-20261128`；必要恢复非新λ前沿。
 
 **当前唯一活算：TTY14227，18:51:16.998 UTC**，out `held10-design-work/R87-strict-mapped-material-continuation-20261128`，command SHA54188afc…。真.032和previous真.002/M16→.064/.128/.256/.512/.75/1；.256至少M32，完整跨模双源割线，tol2e−7/全部原门、全CSR/QR映射/RHS8/每mesh实际预算/正式stop保留。
 [.032工程终态与完整映射源](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)：原73924 child−9且真join，原因未知；已保存5全步的完整1051×73/p24 checkpoint904db0f9…并由65581原样续算。真join后才清自有映射；未λ二分、未重算5步、未改方程/门。
