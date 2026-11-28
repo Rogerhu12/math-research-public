@@ -113,3 +113,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:16:18 UTC — 23新试点491dae自己的完整统计返回
 
 23新491dae自己的Phi3824.8418400694645/Gram.6460565739889155已返；当前仍87c076/accepted2/g.9678293850088526，491dae几何与接受未返。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`e4c97d3d04708c4cafb419900ed67d5065ea8084`无变（非pull）。
+
+## 2026-11-28 06:16:22 UTC — 24后续完整试步f725拒绝及下一点开始
+
+24 f725c完整g.611899231330644/最大reach实际拒；当前ff7dc8/accepted2不变。086003仅开始，无自己统计/几何，alpha和方向号未知。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。双README云核至`71cc6bb0ce6c463784e58f9ff7b6aed5ee853c1d`无变（非pull）。
