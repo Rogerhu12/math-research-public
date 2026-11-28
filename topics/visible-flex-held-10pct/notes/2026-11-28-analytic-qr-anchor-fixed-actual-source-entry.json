@@ -1,0 +1,110 @@
+{
+  "scope": "Independent QR-anchor provider and source-identity adaptation; no numerical solve executed",
+  "original_sources": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_model.py": "5f5fde082660b02f164a0b8932bed09ca6fa9ecb212d4928768fc8210d8d82a0",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_step.py": "a4b21f9fb08c1756b274ceeaa2c89b877ecebfa3bcd64627ebd7940cb5025359",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_acceptance.py": "23501290001a0a01f5aefc0a32772a0a357f87cb86e27f8b1143fd2592e7c93f",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_resources.py": "c19093a00ddff270337dff47cfcd2c5c1ed426eed79d65eb083dfbc66651db15",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_chord_fixed_support_actual_once.py": "23b7ded6ad7791cb032ab0363c4b2e4bceb2be8beb3670cfc4c59289ef641374",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_cartesian_prefix.py": "66196d50d7590ac5ee244a5b7162ee6f0de4231fbc26117c703c842e9ebb8afb",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_prefix_continuous.py": "f0bbe99fa0355c43b680d212c30e61ef5a04af787c2688ebacec042625d854d2",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_closed_map.py": "b667efa7757de5038f321ff91db306dcfa1640c464563959407787aed01e1e18",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_export_closed_mesh.py": "655801c4f99bcb5a6936cae4d6db81b8600c9268276924f5cfbb164994f119cf"
+  },
+  "new_sources": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_support_actual_model.py": "c85a7affd7e35328bf708510cb2440b6d530f8a259a85f01f8a8f99691db9b88",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_support_actual_step.py": "c89f44886c53e5bae391bebddf964f68f96cf83fc39c9d0730e7963e1cc15600",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_support_actual_acceptance.py": "045960847c115a4d28126bea63b3237a9b429f760c67ead506a59aff1c996c3e",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_support_actual_resources.py": "e36fa752a6f5ed9138b939238fb28c2b9859e68e57f375f613f8042161c446ff",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_qr_fixed_support_actual_once.py": "78d99dd8cede46d3f7e85ce4babe0d98bf55e94aea0817a113e47e5b18149047",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_cartesian_prefix.py": "e66f8cb57de54f4c62b84f36b6f9983ef7866cd19d959d0ff9eaa13ad856ac77",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_prefix_continuous.py": "eb5ceef73221e761bf8de9d80e0e60454c2db19e794909a09f6859bcc157e323",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_closed_map.py": "ea1bd53b8a5ff8c23f68d1c08e49f47f688345050556ccd04277d31afd2afbc5",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_export_closed_mesh.py": "8e55da7b71b28c571168e1b1b56b9adbd809c514b8ed1ffedf80db56127242dc"
+  },
+  "actual_lambda_one_input_available": false,
+  "original_sources_changed": false,
+  "original_full_support_equations_and_gates_changed": false,
+  "compile_all_nine_sources_passed": true,
+  "actual_cli_checks": [
+    {
+      "entry": "qr_fixed_support_actual_step.py",
+      "exit_code": 0,
+      "tool_chunk": "823e3f",
+      "only_help": true
+    },
+    {
+      "entry": "run_qr_fixed_support_actual_once.py",
+      "exit_code": 0,
+      "tool_chunk": "0260a6",
+      "only_help": true
+    },
+    {
+      "entry": "qr_fixed_actual_prefix_continuous.py",
+      "exit_code": 0,
+      "tool_chunk": "9b88ea",
+      "only_help": true
+    },
+    {
+      "entry": "qr_fixed_actual_closed_map.py",
+      "exit_code": 0,
+      "tool_chunk": "fd5a9c",
+      "only_help": true
+    },
+    {
+      "entry": "qr_fixed_actual_export_closed_mesh.py",
+      "exit_code": 0,
+      "tool_chunk": "23036f",
+      "only_help": true,
+      "source_sha256": "b358a1348115285b2692db45457d5fa03b3b92f01c25a2d32ca76fad8aa7dfa3",
+      "superseded_prepublication_mesh_version": true
+    },
+    {
+      "entry": "qr_fixed_actual_export_closed_mesh.py",
+      "exit_code": 0,
+      "tool_chunk": "7896b6",
+      "only_help": true,
+      "source_sha256": "8e55da7b71b28c571168e1b1b56b9adbd809c514b8ed1ffedf80db56127242dc"
+    }
+  ],
+  "actual_compile": {
+    "exit_code": 0,
+    "tool_chunk": "596cf9",
+    "source_count": 9
+  },
+  "new_numeric_family_kind": "original_r53_literal_fixed_metric_qr_anchor_actual_dn_v1",
+  "required_actual_anchor_source_kind": "actual_lambda_one_qr_chord_final_physical_height",
+  "actual_BVP_invoked": false,
+  "actual_native_invoked": false,
+  "actual_positive_source_gate_executed": false,
+  "continuous_certificate_transferred": false,
+  "explicit_phase_prepublication_revision": {
+    "reason": "Replace inherited 9/20 and old k=.2,S=.5 held-frame contract with actual R87 compatible explicit rational phase API",
+    "old_preparation_sha256": "b358a1348115285b2692db45457d5fa03b3b92f01c25a2d32ca76fad8aa7dfa3",
+    "current_sha256": "8e55da7b71b28c571168e1b1b56b9adbd809c514b8ed1ffedf80db56127242dc",
+    "phase_contract_source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_circle_phase_contract.py",
+      "sha256": "dd09438764416d7e6e1f0093dda4b6146d412ca82d3df846703add4315bde2c9"
+    },
+    "required_phase_end": true,
+    "held_width_default_exact": "27/50",
+    "R87_argv": [
+      "--phase-end",
+      "4/5",
+      "--held-width",
+      "27/50"
+    ],
+    "source_gate_or_numerical_equations_changed": false,
+    "original_mesh_topology_or_full_spectrum_algebra_changed": false,
+    "only_this_new_source_changed": true,
+    "actual_compile": {
+      "exit_code": 0,
+      "tool_chunk": "d7caff"
+    },
+    "actual_help": {
+      "exit_code": 0,
+      "tool_chunk": "7896b6"
+    },
+    "actual_lambda_one_input_used": false
+  }
+}

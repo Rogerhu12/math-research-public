@@ -32,7 +32,7 @@
 
 ## 3. 同一完整问题的精化
 
-冻结最终δ、全部轮廓/warp校准、核心或声明的同一未知函数空间、源Cartesian mean/primitive、尾背景和完整时间域。R53原支持族与完整baseline+零phase是不同的合法未知空间，须选定并如实说明。旧actual-refine KIND/1168分支不覆盖新高M/新mean；只改标签不合格。
+冻结最终δ、全部轮廓/warp校准、核心或声明的同一未知函数空间、源Cartesian mean/primitive、尾背景和完整时间域。[新QR首锚固定g入口](notes/2026-11-28-analytic-qr-anchor-fixed-actual-source-entry.md)已保原支持族和完整数值门，独立KIND/完整祖先链绑定；mesh使用真实R87显式4/5扫窗。只有源码检查，须待真正λ1/full-DN首锚后执行。R53原支持族与完整baseline+零phase是不同的合法未知空间，须选定并如实说明。旧actual-refine KIND/1168分支不覆盖新高M/新mean；只改标签不合格。
 
 本次真879点λ.002/M24已算完整原J的δ↔logq Schur=2.469619216e−5（两h相对差4.055e−7），据此原支持族fixed=True同λ/同g/mean1168的M24实际径向精化已全原门过（1032点、RMS1.99629e−7、metric6.53252e−7），现继续M32谱精化；这不是fullDN闭图精化或严格逆证书。
 

@@ -440,3 +440,6 @@ R92完整径向弦延伸正式登记：S/T全方阵保全部新增未知/子行/
 
 ### 2026-11-28 17:35 UTC — Astra-held10-7c4e33ee-20261128
 R87必要输入恢复真55603 exit0/300.152s：70源/原chart/port全SHA核同，公开记录内完整两calibration/root-profile逐字恢复，无新根搜索；M8 port真导出、未接受415×25初猜逐字恢复，λ0/M8/tol2e−7已于17:30:22真启81483。独立正式stage controller afe8e548…仅compile/help真过，新增nonce/outdir/scope匹配、真实stage后停止与bootstrap锚同步，原数学/验收不改，未用于新阶段。只属必要恢复与执行合同，见design-r87-input-recovery-and-formal-control。
+
+### 2026-11-28 17:36 UTC — Astra-held10-7c4e33ee-20261128
+发布QR真实λ1/full-DN首锚后的原support固定g九源，新KIND/QR provider身份明确，固定δ/profile/字面chart/gauge/warp/mean、全部支持未知与最终physical-H/原native4和8outer门保留。九源compile与CLI真0，原九源SHA未动；发现并实修新mesh继承旧9/20/k.2握持guard的问题，现显式phase-end4/5/held-width27/50且保完整拓扑/谱/5MB。仍无正向λ1/BVP/native，不把准备当精化完成；见analytic-qr-anchor-fixed-actual-source-entry。
