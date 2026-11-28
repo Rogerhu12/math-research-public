@@ -1,18 +1,13 @@
 {
-  "message": "ISP: publish W original boundary valuations and dispatch first QQ paid-matrix input",
-  "parentCommit": "1503c4408105270dd7c429ab4656b843d1cc18f8",
+  "message": "ISP: construct an entire odd target and an actual norm-square source family",
+  "parentCommit": "9a986dc2fbeac56f4c60412533b25a617dcc9435",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-original-initial-ideals-and-two-lambda-valuation-restrictions.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-six-retained-rays-three-original-initial-ideals-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-QQ-paid-entry-minimum-assignment-two-supports-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-QQ-paid-entry-minimum-assignment-two-supports-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-phi-qq-paid-entry-extraction.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-original-valuations-1960-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-original-valuations-1960-8542.md",
+    "topics/invariant-subspace-problem/results/R267-appendix-all-factor-complex-parameter-odd-target-and-norm-square-source.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-Haar-entire-odd-target-1965-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +16,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-qq-paid-entry-extraction.yml"
-  ]
+  "dispatchWorkflows": []
 }

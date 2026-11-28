@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar严格I/F、closureF=I开；Pr全旗quasi/图核心、YN²=C DN及QN²强*保。[首位γ直接超不变桥](results/R12-appendix-first-bit-gauge-zero-divisors-and-single-forward-column-hyperinvariants.md)现刊：有界V²=CP²给两个非零原零因子；全H连续J转置下An²→C及单本征源强列（含零极限）直接给同C超不变。Pγ(P)F+将原PtΩ一列准确归约，m0=0亦适用；实际DN−γDN范数≤bN/4。旧闭稳定根接口保，新的强列/实际平方分子仍待构造；分离选择只前向偶发散，奇切口/无限相位/一般原源继续。
+原Haar I/F与closureF=I开；Pr全旗quasi/图核心、YN²=C DN及QN²强*保。[γ原单列超不变桥](results/R12-appendix-first-bit-gauge-zero-divisors-and-single-forward-column-hyperinvariants.md)含m0=0保。新[同参数奇目标/范数平方源](results/R267-appendix-all-factor-complex-parameter-odd-target-and-norm-square-source.md)完整构造：P(z)范数entire、全旗quasi、γP0=−P0≠0；穿孔奇X(s)²=P(s²)范数趋P0，γX=iX(is)，近零乘积≤2cK|s|²。P0不等同C；有限极点给非零平方零/超不变，可去不可能，余本性与同PtΩ强列费用继续。旧奇切口/无限相位/一般源及实际有界分子仍未付。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
