@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi的整NPV五次最高矩阵C77与十三生成图](results/R150-appendix-unit211-Phi-zero-corrected-NPV-five-whole-leading-C77-and-thirteen-generators.md)：首次实际1.893733044秒/0，九伴随乘子、十八坐标及QQ因式完整返回；C77总77、双度66/44、1951项，QQ不可约且重数一。C开图必要(λ,T,z)代数十三生成、λ首一次数≤13，C0整曲线保留；独立U0另计。
+
 - [R150：h=k/Δ0的约化399维权基与4788维Artin包络](results/R150-appendix-unit211-hk-Delta-zero-reduced-base-and-4788-coordinate-Artin-envelope.md)：固定17行列式单赋值、P的u³头λ度≤28给必要基代数K99×K300；Q²头度8为整域单位，倒z三次/ρ二次给含重数长度≤4788。仅明列比值/Gram坐标，独立U0另添三次≤14364；两域尚未排空。
 
 - [R150：正确Phi全t参数的三均值三生成与原λ首一三次](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-parameter-three-mean-generators-and-monic-lambda-cubic.md)：新付2ell−1使(f²,fV,V²)真头32uQ(2ell−1)/M²全域可逆；双向仿射变换后原均值商在权[t]上由1,f,V生成，λ的真实动作给总(λ,t)度≤3的首一三次。全图未空。

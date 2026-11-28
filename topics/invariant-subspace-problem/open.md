@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-Artin-scope-first-W-three-fields-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-C77-first-t-N1-1835-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保；I4/I6/I11原核保。[b0完整Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)比值/Gram≤23088，独立U0三次另计；χ6有限环境/q2单位系数/Nakayama/末Artin局部化保。1898同h余34/CD50/三核及h0保；10ab/436389冻结，436原C2/Loww与F142保。新[交叉头五次覆盖](results/R150-appendix-unit211-W-b0-cross-zero-five-weight-cover-and-G-open-exact-I4.md)681真返G=ΣwB1，G=(4u+5)(6u−1)(20u³−4u²−20u+9)/480；cross0三个整域均保。G开图精确I4=(f+g,P0,Craw,C3)，补图完整保，非b0整空。cb71三整QQ域首次180秒4GiB；整ν/同f五原式与正1,D,D²,D³返回才排支，未返全保。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824保；[b0比值/Gram长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)≤23088，U0另添三次。1898同h余34/CD50/三核及h0保，10ab/436389冻结，原C2/Loww/F142保。681的G5原组合与cb71首次0.772347633秒/0三整域纯权单位排尽cross0，故全权存在wB1=1、全b0 det1呈示I4=(f+g,P0,Craw,wtilde A−λg)。实际后段A/λ/五原/D未进入，b0仍待原完整值；正式闭支正文接续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-Phi当前：正确t0/A0/B0/fu/α0及整ellhalf闭，已付2ell−1；错链/bf3/d825冻，I6/F444/头434及规范维≤1、05c1两λ10保。新[整t参数三均值](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-parameter-three-mean-generators-and-monic-lambda-cubic.md)：真头32uQ(2ell−1)/M²全单位，权[t]上1,f,V三生成，原λ首一3、总(λ,t)度≤3；几何局部化不冒称保有限模。6a1首次1.893733044秒/0返整NPV最高C77/九伴随来源，C开图13生成，C0全保。接新t原N1/斜率及完整值。
+Phi当前：真t0/A0/B0/fu/α0及整ellhalf闭，2ell−1已付；错链/bf3/d825冻，I6/F444/头434、规范维≤1及两λ10保。[t参数三均值](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-parameter-three-mean-generators-and-monic-lambda-cubic.md)给权[t]三生成和首一λ3；[整NPV最高C77](results/R150-appendix-unit211-Phi-zero-corrected-NPV-five-whole-leading-C77-and-thirteen-generators.md)在C开图给13生成，C0全保，均未对物理局部化冒称有限模。317928自含t-N1/纯权斜率首次120秒1GiB待返；零斜率整支及完整值继续。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
