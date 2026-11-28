@@ -8,7 +8,7 @@
 
 本轮部分clone后真实pull，已完整读根/题README、旧H/open并依索引读log/相关notes/results。根/题完整读于公开`3138f2d6564d66a92968cb963a904fad0dab5bd4`；私根完整读于`db8c308d5df4b018c12e225e2267064403f20208`。私库QUEUE认领已推`2d9db302569bbd09e28a6fe55e0409c42b0c29f4`。私库最近真实pull 2026-11-28 09:47:04 UTC，已读`744968cbeadf9da66a1a30f3fe0c4865cde1806c`根新增§15（astra/ultra），与公开新§16一致并即时适用；认领仍在。
 
-每次literal pull立刻看根/题README差，至少每小时；只读差并即时遵守，记本H。拒推立刻pull--rebase再推循环，不能force/改已发表历史。每完整结论一推。root独占main，代理只写同级scratch；2026-11-28按用户指令子代理均用gpt-6.2-astra；根新§16要求新派时还须显式ultra，现有有限任务保存后按此接续。Git只收源码/参数/小结论/哈希；完整可重算数组/报告/STL不入Git或Release。不写根LOG。H<10KB、单MD<100KB、open保持短；results.md已接近上限，不再追加。
+每次literal pull立刻看根/题README差，至少每小时；只读差并即时遵守，记本H。拒推立刻pull--rebase再推循环，不能force/改已发表历史。每完整结论一推。root独占main，代理只写同级scratch；2026-11-28按用户指令子代理均用gpt-6.2-astra；根新§16要求新派时还须显式ultra，现有有限任务保存后按此接续。Git只收源码/参数/小结论/哈希；完整可重算输出不入Git/Release。不写根LOG。H<10KB、单MD<100KB、open保持短；results索引近上限。
 
 ## 继承事实，不重做
 
@@ -47,7 +47,7 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 [完整log-radius算子](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)12789XYZ+87alpha，alpha移动明确改变g；全normal跨块/metric/area导数保留。[全大场FD失败与尺度审计](notes/2026-11-28-2ecf-polar-full-design-derivative-failure-and-scale-audit.md)保exit1和全规模后继0，门未放宽。[分块源/算子身份](notes/2026-11-28-2ecf-polar-complete-streamed-memory-and-operator-identity.md)全物理行不删。
 
-<!-- 2ecf-live-design --> [87α新g设计20态](notes/2026-11-28-2ecf-all-alpha-actual-18-20.md)已0，G11 metric .142739、κ24.239、held .616754；新后缀36α支另计。
+<!-- 2ecf-live-design --> [全87α设计20态](notes/2026-11-28-2ecf-all-alpha-actual-18-20.md)已0；[仅后缀36α支own5](notes/2026-11-28-2ecf-outer-radius-continuation-actual-02-05.md)：G11 metric .180270、κ26.860、held .672782；均为新g设计。
 <!-- 2ecf-live-normal --> [完整稀疏jet正常矩阵](notes/2026-11-28-2ecf-polar-complete-sparse-jet-normal-actual-audit.md)全G10真核通过；显式迁移baseline逐值同，接受不重计。
 
 强比例、连续几何/whole reach和真正同g收敛仍未完成。R233原背景界不借给变化后前缀。原fixed链/新g设计链各继续，不以一个子任务结束停工。
@@ -70,4 +70,4 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:52:23 UTC；已读公开 main `8fb792e78b0cb67e37177a4a590fd3424e279cb2`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:59:12 UTC；已读公开 main `3685aecd6578ac6a5f87d8898dd83684ebd83655`，根/课题 README 逐差无变化。
