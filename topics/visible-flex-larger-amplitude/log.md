@@ -570,3 +570,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:05:47 UTC — 23第二个恢复步实际接受
 
 23 87c076真实accepted2/Phi3825.0581646753217/Gram.6460503043451958/reachg.9678293850088526/distplus.005863070400698112；6a101刚开始，统计/几何未返。 全源身份/六族/原观察空字段错误保；尚非完整report。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`94b5e4edfa238078743739ea2277c926e814715d`无变（非pull）。
+
+## 2026-11-28 05:05:52 UTC — 24第二个恢复步实际接受
+
+24 ff7dc8真实accepted2/Phi886.6498886416713/Gram.4729658228900724/reachg.6115910089638068/distplus.060865075697836946；全六族已返但完整report/自然退出未知。 全源身份/六族/原观察空字段错误保；尚非完整report。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。双README云核至`4f8cc3160ca9ebd3ab23ac4d7b399f2b9e32a97e`无变（非pull）。
