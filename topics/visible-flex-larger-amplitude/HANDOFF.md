@@ -66,3 +66,4 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull a3cb9b5a1699d70d5c94a929a48b99e2dd04cafb
 <!--r751-publish-->R751 双README真pull 1fb31bc99953b31f1f4f45690a4e56aaf2b2fbc8
+<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull c195cce974f06de0b5c1b4a37b72bc63c3c58491
