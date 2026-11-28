@@ -190,47 +190,41 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T13:14:57Z",
-  "phase": "live-scalar",
+  "phase": "candidate-return",
   "terminal": false,
   "child_started": true,
   "child_pid": 2569,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 17,
-    "utc": "2026-11-28T13:18:48Z",
+    "ordinal": 20,
+    "utc": "2026-11-28T13:20:18Z",
     "original": {
-      "event": "solved_knot",
+      "event": "stage",
       "stage": 5,
-      "index": 2,
-      "phase": 0.7853981633974483,
-      "point_sha256": "e6db6719fb787ac1668e44e0098a40acdd298272bc30b2f954723249886658ca",
-      "nfev": 60,
-      "njev": 54,
-      "status": 0,
-      "cost": 1.4152069789662516,
-      "optimality": 1.202473497711384,
-      "adjoint_abs": 5.684341886080802e-14,
-      "directional_fd_relative": 4.7394893193059405e-09,
-      "train_gram": 2.5117046832823036
+      "point": "ba153412e990b9237ebf450d298cd8628ca1c2d45a65b35376ae146010ec1577",
+      "score": 214.4922075089944,
+      "gram": 8.040081916241995,
+      "K": 2815.8379714384128,
+      "support": -0.1488750228236189
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/field/summary.json",
-      "bytes": 18207,
-      "sha256": "45ec2b0ca41710f94de5da15776c7ce9f0873efa6dbfc22d580eb82ae7efee8a"
+      "bytes": 23364,
+      "sha256": "0a004751199373c918d87e7048db5f9f006cd23b07332bf452083e211ebcdd8d"
     },
     "complete_small_json": {
       "continuation": "The complete locked coarse field is embedded by name in a strict superset; new central directions vanish only on the actual grip and at the protected positive cap-center first jet.",
-      "elapsed_seconds": 257.69331090000003,
+      "elapsed_seconds": 312.441771721,
       "in_progress": {
-        "call": 36,
-        "cost": 5.192645986642591,
+        "call": 1,
+        "cost": 0.6970069448471692,
         "design": "legacy-developable-boundary-expanded",
-        "knot_index": 3,
-        "phase": 1.1780972450961724,
-        "point_sha256": "ddab24e49ceb43fb9e19f765f7cf637ffbccb5b83068fb4c3b94a692cdc7f9f5",
-        "stage": 5
+        "knot_index": 1,
+        "phase": 0.19634954084936207,
+        "point_sha256": "4629c3fbbcc145d4b21267bcba0abe2d05a58fe872c269b17e249b5c2103f491",
+        "stage": 6
       },
       "numpy": "2.3.5",
       "params_sha256": "d9a5c7e543b187fc6ce00cad5b0ed1661a74ad6c9054d623b0f51675e708b4bd",
@@ -1300,6 +1294,330 @@
             ]
           },
           "zero_phase_sixjet_difference": 0.0
+        },
+        {
+          "all_time_check": {
+            "K": {
+              "chart": "end-",
+              "index": 11450,
+              "phase": 1.5707963267948966,
+              "u": 2.7278582280641,
+              "v": 0.06795206006548088,
+              "value": 2815.8379714384128
+            },
+            "area_min": {
+              "chart": "cap-",
+              "index": 20343,
+              "phase": 1.2610843256788589,
+              "u": 4.7420155540114,
+              "v": 0.007,
+              "value": 4.414838484227801e-05
+            },
+            "gram": {
+              "chart": "end+",
+              "index": 8788,
+              "phase": 1.5707963267948966,
+              "u": 5.2936184187229,
+              "v": 0.08922031047721199,
+              "value": 8.040081916241995
+            },
+            "max_physical_correction": {
+              "chart": "end+",
+              "index": 8190,
+              "phase": 1.3744467859455345,
+              "u": 4.4730155540114,
+              "v": 0.11048856088894307,
+              "value": 0.21504341725604365
+            },
+            "support": {
+              "chart": "end+",
+              "index": 8781,
+              "phase": 0.8683852439801347,
+              "u": 5.2936184187229,
+              "v": 0.014781434036153117,
+              "value": -0.1488750228236189
+            }
+          },
+          "check_phase_columns": [
+            "phase",
+            "max_gram",
+            "rms_gram",
+            "max_abs_principal",
+            "min_support"
+          ],
+          "check_phases": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              9.259259259259263,
+              0.1337907860455484
+            ],
+            [
+              0.08298708058268649,
+              1.7515107091417224,
+              0.08426305202567809,
+              67.52109026771892,
+              0.1242254846211151
+            ],
+            [
+              0.19634954084936207,
+              2.4109434763868745,
+              0.13157609333545695,
+              141.79391200250078,
+              0.0834407674977574
+            ],
+            [
+              0.3097120011160377,
+              3.06481613571078,
+              0.18331544148671383,
+              200.18976440672293,
+              0.0377131852862278
+            ],
+            [
+              0.39269908169872414,
+              3.5195501689552726,
+              0.21707762991323895,
+              260.0691664863094,
+              0.005966063845488879
+            ],
+            [
+              0.47568616228141064,
+              3.550199444768925,
+              0.24909119036007035,
+              326.46059586622397,
+              -0.024121484138059365
+            ],
+            [
+              0.5890486225480862,
+              3.6079567355379014,
+              0.2964906252847698,
+              424.9123059852303,
+              -0.04159842746878618
+            ],
+            [
+              0.7024110828147618,
+              3.658134288061147,
+              0.3462022214047702,
+              581.8192213342309,
+              0.016811534176925477
+            ],
+            [
+              0.7853981633974483,
+              3.6716714943520823,
+              0.38375995548503117,
+              929.652784535662,
+              -0.025248819497387054
+            ],
+            [
+              0.8683852439801347,
+              3.7158386379714994,
+              0.42480168855276823,
+              1385.691138000866,
+              -0.1488750228236189
+            ],
+            [
+              0.9817477042468103,
+              4.841378916202617,
+              0.49305998983666477,
+              2029.9759711798042,
+              -0.14562544634914504
+            ],
+            [
+              1.095110164513486,
+              5.771828185346029,
+              0.5721446982206241,
+              2459.8416935186087,
+              -0.08766922286540502
+            ],
+            [
+              1.1780972450961724,
+              6.290514664709246,
+              0.6336824828996553,
+              2613.118743395142,
+              -0.05632931983363951
+            ],
+            [
+              1.2610843256788589,
+              6.273969642055596,
+              0.6954373783930273,
+              2707.4317381320852,
+              -0.03252187150938679
+            ],
+            [
+              1.3744467859455345,
+              6.422299307055351,
+              0.7893809825709642,
+              2743.812904273668,
+              -0.0585963744628705
+            ],
+            [
+              1.4878092462122101,
+              7.1417577123238765,
+              0.9080884799745538,
+              2784.267101327785,
+              -0.0714077090899829
+            ],
+            [
+              1.5707963267948966,
+              8.040081916241995,
+              1.0131945578871466,
+              2815.8379714384128,
+              -0.08228669851947698
+            ]
+          ],
+          "coefficient_count_per_phase": 714,
+          "configuration": {
+            "cap_degree": 4,
+            "check": [
+              77,
+              25,
+              17,
+              15
+            ],
+            "degree": 4,
+            "extra_check": true,
+            "id": "fixed-target-space-time-1",
+            "inner": 95,
+            "intervals": 4,
+            "max_nfev": 60,
+            "mesh": [
+              35,
+              13,
+              10,
+              9
+            ],
+            "previous_roll_spaces": [
+              [
+                3,
+                3
+              ]
+            ],
+            "regularizer": 4e-06,
+            "roll_modes": 5,
+            "roll_spans": 4
+          },
+          "design": {
+            "angle": "legacy",
+            "bend": 1.5625e-05,
+            "central": "expanded",
+            "fade": [
+              1,
+              1.095
+            ],
+            "id": "legacy-developable-boundary-expanded",
+            "mode": "dev"
+          },
+          "knots": [
+            {
+              "adjoint_abs": 7.771561172376096e-16,
+              "cost": 0.4050446255729659,
+              "directional_fd_relative": 7.785167521719847e-09,
+              "index": 1,
+              "nfev": 60,
+              "njev": 53,
+              "optimality": 0.4619274473310346,
+              "phase": 0.39269908169872414,
+              "point_sha256": "6bf0034c00777d65702d89c0c65e3cfcbc6a1cc9fed6abf3b89a8e8cb81bd764",
+              "status": 0,
+              "train_gram": 2.403039686508978
+            },
+            {
+              "adjoint_abs": 5.684341886080802e-14,
+              "cost": 1.4152069789662516,
+              "directional_fd_relative": 4.7394893193059405e-09,
+              "index": 2,
+              "nfev": 60,
+              "njev": 54,
+              "optimality": 1.202473497711384,
+              "phase": 0.7853981633974483,
+              "point_sha256": "e6db6719fb787ac1668e44e0098a40acdd298272bc30b2f954723249886658ca",
+              "status": 0,
+              "train_gram": 2.5117046832823036
+            },
+            {
+              "adjoint_abs": 8.185452315956354e-12,
+              "cost": 4.808272481184064,
+              "directional_fd_relative": 1.0778004123072802e-08,
+              "index": 3,
+              "nfev": 60,
+              "njev": 44,
+              "optimality": 2.4016469863964716,
+              "phase": 1.1780972450961724,
+              "point_sha256": "05eda9bb973d6ab848ead1a543c98d1de60d459e7d4508b5ef66cc5aa7e7791a",
+              "status": 0,
+              "train_gram": 4.085552115525054
+            },
+            {
+              "adjoint_abs": 1.509903313490213e-14,
+              "cost": 11.469103406385978,
+              "directional_fd_relative": 1.3423497406461598e-07,
+              "index": 4,
+              "nfev": 41,
+              "njev": 24,
+              "optimality": 21.82001987813675,
+              "phase": 1.5707963267948966,
+              "point_sha256": "2df5dae9b1b68f223adf2afd341adb20567e19d57065b42e01312edad69aa67e",
+              "status": 3,
+              "train_gram": 7.778115427168751
+            }
+          ],
+          "npz_bytes": 29122,
+          "npz_sha256": "bbbeee782bf4770c90137412370ebd0a9d16e7886b958eb303b4bab71ebdc294",
+          "point_sha256": "ba153412e990b9237ebf450d298cd8628ca1c2d45a65b35376ae146010ec1577",
+          "previous_point_sha256": "2d25884b0f8cc8aecabba4c48e8bfef96b59a52ac0e94493f609e2dc783d1c8b",
+          "score": 214.4922075089944,
+          "shape": [
+            5,
+            714
+          ],
+          "stage": 5,
+          "time_data_sha256": "0552a4c74e53e15ed02fa563f63e5f2fbd13654901124cb163447ff6c6cb2418",
+          "worst_gram_by_chart": {
+            "cap+": [
+              0.4549523368352425,
+              1.5707963267948966,
+              4.5664355736282,
+              1.0
+            ],
+            "cap-": [
+              0.4654076929835843,
+              1.3744467859455345,
+              4.6480155540114,
+              1.0
+            ],
+            "cap-cartesian+": [
+              0.00013974172622234412,
+              1.5707963267948966,
+              0.59498,
+              0.0
+            ],
+            "cap-cartesian-": [
+              0.25991748527137304,
+              1.3744467859455345,
+              0.59498,
+              0.0
+            ],
+            "cylinder": [
+              6.290514664709246,
+              1.1780972450961724,
+              2.4611193300256,
+              0.71
+            ],
+            "end+": [
+              8.040081916241995,
+              1.5707963267948966,
+              5.2936184187229,
+              0.08922031047721199
+            ],
+            "end-": [
+              7.945833493944934,
+              1.5707963267948966,
+              5.2936184187229,
+              0.08922031047721199
+            ]
+          },
+          "zero_phase_sixjet_difference": 0.0
         }
       ],
       "target": "The R747 common initial physical pullback on every original material point, no masks omitted in verification. This g, material chart and [0,pi/2] are identical in every design and refinement."
@@ -1333,6 +1651,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:15:06Z",
-  "observed_utc": "2026-11-28T13:19:45Z",
-  "original_scalar_line_count": 17
+  "observed_utc": "2026-11-28T13:20:23Z",
+  "original_scalar_line_count": 20
 }
