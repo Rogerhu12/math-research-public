@@ -1,0 +1,762 @@
+{
+  "scope": "First actual original full residual and full physical/metric diagnostic of the saved unaccepted .256/M32 97ec field; not BVP acceptance or a tail input.",
+  "recorded_utc": "2026-11-28T19:44:46.248456+00:00",
+  "tool_session": 55513,
+  "actual_tool_exit_code": 0,
+  "actual_owner_returncode": 0,
+  "actual_join_utc": "2026-11-28T19:40:53.722228+00:00",
+  "actual_owner_elapsed_seconds": 95.85252929000126,
+  "actual_maximum_child_RSS_KiB": 510184,
+  "actual_owned_cleanup": {
+    "leader": {
+      "pid": 5,
+      "state": "R",
+      "ppid": 2,
+      "pgid": 5,
+      "sid": 5,
+      "start_ticks": 907947,
+      "uid": 1000
+    },
+    "returncode": 0,
+    "initial_live_members": 0,
+    "remaining_live_members": 0,
+    "signals": [],
+    "leader_observed_with_WNOWAIT": true,
+    "leader_reaped_only_after_session_cleanup": true,
+    "all_signals_bound_to_original_owned_session": true
+  },
+  "actual_original_diagnostic_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda256-97ec-original-metric-diagnostic-20261128/diagnostic.json",
+    "sha256": "063b501a8a1dae0f10b8f06741bb096eb9e6b451bd40fa0c38ac5d6549322f79"
+  },
+  "actual_original_diagnostic": {
+    "kind": "original_complete_unaccepted_physical_metric_diagnostic",
+    "scope": "Original full residual/C2/metric diagnostics on one real unaccepted field.\n\nEvery nodal component and physical parameter is retained. No Jacobian, Newton,\nBVP or tail solver is called. The original physical quintic and sampled audit\nare evaluated once on this previously unaudited input; only radial batch sizes\nare reduced. All original radial/angle samples, mean quadrature and arithmetic\nformulas remain. Additional observations read the original metric arrays.\nThese diagnostics never create an accepted run or an admissible tail input.\n",
+    "source_role": "actual_unaccepted_complete_1185_node_field_after_two_original_Newton_steps",
+    "source_run": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128/attempt-000/run.json",
+      "sha256": "39678d393d3bbfeb50c1f9685a3ce06e2ef975ba9c1463db1ba626e22979a2a1"
+    },
+    "source_run_snapshot": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda256-97ec-original-metric-diagnostic-20261128/source-run-snapshot.json",
+      "sha256": "39678d393d3bbfeb50c1f9685a3ce06e2ef975ba9c1463db1ba626e22979a2a1"
+    },
+    "checkpoint_metadata": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128/attempt-000/latest-unaccepted-nodal-checkpoint.json",
+      "sha256": "48c8001bf248d3d3652c340b484de3f8cd274be08f7ddcd274fcde3be8cc8a0e"
+    },
+    "checkpoint": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128/attempt-000/unaccepted-nodal-before-jac-0002.npz",
+      "sha256": "97ec9d07c25d18cd7da7dbade7d5f0902fc1c48b3bbad2ee5b22abe432ed4279"
+    },
+    "source_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/diagnose_unaccepted_original_metric.py": "7638ad7d8cae525c5f4fb46c9453db7e46506f362186913b549a81f945f3c975",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_unaccepted_design_delta_nodes_v2.py": "e2f40bb254913f5731dd3ab7a792a2442bfaf857f538a9918f5e4e4556e37fce",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/exception_safe_radial_batches.py": "2d2b413a46a23882341a4d5cac7ce2bc2c44c8444129d322d898288597c2c7a7",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/metric_audit_observer_v2.py": "47993e3856ebc7727b2a8e3bebfd0e9ee50f76a7261fbd3f687247c295bc8520",
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_factor_mmap.py": "12c18e96f333b588c9e8ac8db423976d2210f36c705b40c467f144d9a06994eb"
+    },
+    "original_definition_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py": "6dafa9551d5ae4a4f4d59e1b2d4c177efdc6b823e0a7ade826974e4ecdc5c9ea",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-single-gentle-linear-calibration-extended-20261128/linear-root-profile.json": "bf3233a3d686a8b04be011cd857477e5ec49bd8200be3aaa5b36fa3ffc1546fb",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/inputs/reference/chart.json": "dc85dda524e03896b4afa552bd1f859b73cf96f88033565ff910e227034f2f93",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-material-continuation-20261128/port-M32.json": "2be7db12b977a95afe9ad4fa127faf3e92dddd6f2487a9978630e489a69684c6",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128/attempt-000-two-source-mode-secant/initial.npz": "eebe2267f33a00976c8c8a441297b2e088b1da8fc1aa27c26e9d86164a969261",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py": "29d3b1e74c26a1195034546e4e47bcf784f106021e9a840ea1736445c5597c53",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128/attempt-000-core.json": "3d2b3e2afcc8d286701f95fda2d9af6ccb417ddc71e11422985acf5bc7294aed",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v5.py": "03694026b0e650ade871b0d5ca4863f8f10375d63d39184ee76f6b40673fcf50",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_delta_column.py": "7e4e6c6322a52e08169ba0d07c6a81a1ac9eabfebe2d3de746e5c3873c92db03",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/nodal_jac_checkpoint.py": "dce571f51710714c61b2d0c4513ffe6619b72318d07a5976c0090dd75deaf32f",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/prefix_resource_driver_v4.py": "97110df100af6f411821861e6c8e53a7e05a1a38e61e128010b8405079d1dfba",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431"
+    },
+    "original_model_branch": {
+      "core_factory_has_jet_parameter_derivatives": true,
+      "original_analytic_core_parameter_install_called": true,
+      "live_V5_delta_install_called": true,
+      "actual_original_branch": "analytic core-control path",
+      "no_missing_factory_attribute_fabricated": true
+    },
+    "original_core_settings": {
+      "homotopy": 0.256,
+      "curvature_blend": 1,
+      "halfwidth": 0.675,
+      "transition": 0.3,
+      "target_curvature": 0.5,
+      "quadrature_order": 12,
+      "integration_cells": 64,
+      "transition_cells": 24
+    },
+    "original_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "held10_multistage_flat_v1",
+      "cycles": 1,
+      "delta": 0.06809451565377872,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4,
+        "peak_fraction": 0.2
+      },
+      "multistage_flat": {
+        "reference_delta": "3/50",
+        "eta": "1/20",
+        "up": [
+          [
+            "0",
+            "9/20",
+            "10/57"
+          ],
+          [
+            "9/20",
+            "9/20",
+            "1/855"
+          ],
+          [
+            "9/20",
+            "0",
+            "4/45"
+          ]
+        ],
+        "down": [
+          [
+            "0",
+            "-1/2",
+            "2/25"
+          ],
+          [
+            "-1/2",
+            "-1/2",
+            "1/25"
+          ],
+          [
+            "-1/2",
+            "0",
+            "2/25"
+          ]
+        ]
+      }
+    },
+    "original_gauge_q": 0.012,
+    "original_warp_reference": 0.012,
+    "physical_delta": 0.0681034345273148,
+    "all_parameters": [
+      8.918873536071538e-06,
+      -24.082550778763544,
+      -535.8570799970814,
+      -8269.040510655534,
+      58160.7613168741,
+      97497.42154692656,
+      75414.31082964782,
+      42431.21276539635,
+      17416.854436558937,
+      2781.720099492656,
+      -2920.721543546917,
+      -4202.5426140354275,
+      -3702.339304219974,
+      -2607.049372538703,
+      -1620.0662279569128,
+      -576.4641303439402,
+      -70.06353127486703,
+      338.2975889903433,
+      201.77211372654887,
+      238.79518366369493,
+      90.39345864387519,
+      238.91517688679932,
+      181.79770296312444,
+      175.64334308538864,
+      -29.586868832564107,
+      -49.779707029219296,
+      -133.865899876226,
+      -441.91277926787166,
+      158.16172238308565,
+      699.1406078107295,
+      180.75387044520997,
+      -696.9317402843649
+    ],
+    "nodes": 1185,
+    "modes": 32,
+    "angular": 1024,
+    "original_RHS_batch": 8,
+    "residual_observation": {
+      "maximum_RMS": 0.007922745541728199,
+      "worst_interval_index": 186,
+      "worst_reference_interval": [
+        0.11625,
+        0.11750000000000001
+      ],
+      "maximum_collocation_residual": 8.017269293121034e-06,
+      "maximum_BC": 2.149601166800963e-05,
+      "maximum_physical_terminal_BC": 4.624387774320971e-08,
+      "intervals_above_original_tol": 1152,
+      "all_original_node_midpoint_RMS_sample_domains_passed": true,
+      "original_gates": {
+        "tol": 2e-07,
+        "bc_tol": 1e-07,
+        "physical_bc_tol": 2e-09,
+        "max_nodes": 6000,
+        "original_outer_budget": 8
+      },
+      "BVP_acceptance_claimed": false
+    },
+    "unaccepted_physical_representation": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda256-97ec-original-metric-diagnostic-20261128/unaccepted-diagnostic-physical.npz",
+      "sha256": "09dd1a067964340f43bcc510a0268b8b978be0f2cd5f86131533bcf4cedd14b6"
+    },
+    "physical_quintic_and_mean_batch_transforms": [
+      {
+        "method": "adapt_fun",
+        "original_file": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+        },
+        "original_function_sha256": "83eb9acf791e59e1d3858c8dd43d2189345f9a29310ed174dbe084953a1a859d",
+        "executed_function_sha256": "c1b5fd44711ddab55cc6c784eb0145f95f080c45fa7b5e95e030763d5d111757",
+        "declared_literal_replacements": [
+          [
+            "range(0,len(s),64)",
+            "range(0,len(s),4)"
+          ],
+          [
+            "slice(first,first+64)",
+            "slice(first,first+4)"
+          ]
+        ],
+        "all_radial_and_angular_points_retained": true,
+        "original_floating_formulas_retained": true,
+        "batch_bitwise_comparison_performed": false
+      },
+      {
+        "method": "c2_interpolant",
+        "original_file": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+        },
+        "original_function_sha256": "3da018690447a4d223831a96c9d0d437a9d188a0c07010edc336707846cae89d",
+        "executed_function_sha256": "f8a0fb83e994a6e535d1fe470ecc476ab33b85cd1a9cf2033a8ca1ceab0cdbc1",
+        "declared_literal_replacements": [
+          [
+            "range(0,len(s),64)",
+            "range(0,len(s),4)"
+          ],
+          [
+            "slice(first,first+64)",
+            "slice(first,first+4)"
+          ]
+        ],
+        "all_radial_and_angular_points_retained": true,
+        "original_floating_formulas_retained": true,
+        "batch_bitwise_comparison_performed": false
+      },
+      {
+        "method": "height_integral",
+        "original_file": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+          "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+        },
+        "original_function_sha256": "ad9ba92e667ebbf572c6d31622959b804aba482d506e6523a7538e33569cd282",
+        "executed_function_sha256": "846e85140e5a23bc6ea11d9763fc2f5ead814c0f4bd96bccc61e697ebaf6c07a",
+        "declared_literal_replacements": [
+          [
+            "range(0,len(flat),128)",
+            "range(0,len(flat),4)"
+          ],
+          [
+            "flat[first:first+128]",
+            "flat[first:first+4]"
+          ],
+          [
+            "means[first:first+128]",
+            "means[first:first+4]"
+          ]
+        ],
+        "all_radial_and_angular_points_retained": true,
+        "original_floating_formulas_retained": true,
+        "batch_bitwise_comparison_performed": false
+      }
+    ],
+    "metric_observer": {
+      "original_observer_installation": {
+        "original_source": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/multistage-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+        },
+        "observer_source": {
+          "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/metric_audit_observer_v2.py",
+          "sha256": "47993e3856ebc7727b2a8e3bebfd0e9ee50f76a7261fbd3f687247c295bc8520"
+        },
+        "original_function_sha256": "63b789f77796b4210a6c3d51c163d3e3d31ee4ae95037454fa98c5a81ec3b89a",
+        "derived_function_sha256": "579659f0895f4821158aa9124861bbba53bf343724f7ef427585c04347467ce5",
+        "literal_transforms": [
+          {
+            "before": "    for first in range(0,len(ss),32):",
+            "after": "    metric_observer=__original_metric_observer_factory()\n    for first in range(0,len(ss),32):"
+          },
+          {
+            "before": "        out['metric_l1']=max(out['metric_l1'],float(np.max(np.sum(abs(np.fft.fft(errors,axis=1)/N),axis=1))));out['flow_defect']=max(out['flow_defect'],float(np.linalg.norm(Fs-fr['Vnormal'],axis=2).max()))",
+            "after": "        metric_fft=np.fft.fft(errors,axis=1)/N\n        metric_rows=np.sum(abs(metric_fft),axis=1)\n        out['metric_l1']=max(out['metric_l1'],float(np.max(metric_rows)));out['flow_defect']=max(out['flow_defect'],float(np.linalg.norm(Fs-fr['Vnormal'],axis=2).max()))\n        metric_observer.observe(s,first,errors,metric_fft,metric_rows,N)"
+          },
+          {
+            "before": "    return out",
+            "after": "    out['metric_observation']=metric_observer.finish(out,N)\n    return out"
+          }
+        ],
+        "exact_reverse_transforms": true,
+        "old_metric_fft_calls": 1,
+        "new_metric_fft_calls": 1,
+        "original_metric_arithmetic_order": "fft(errors,axis=1), divide by N, abs, sum axis1, max, float, max with previous scalar",
+        "additional_model_or_equation_evaluations": 0,
+        "acceptance_gates_changed": false,
+        "loaded_identity_baseline": "Compile the complete SHA-bound original module; select its unique audit CodeType without executing the module"
+      },
+      "executed_function_sha256": "6f7651194e9ee350f6c129abc61d4d8479049bc9848ccfb561594c6e5dad5c16",
+      "additional_declared_replacements": [
+        [
+          "for first in range(0,len(ss),32):",
+          "for first in range(0,len(ss),4):"
+        ],
+        [
+          "s=ss[first:first+32]",
+          "s=ss[first:first+4]"
+        ],
+        [
+          "metric_observer.observe(s,first,errors,metric_fft,metric_rows,N)",
+          "metric_observer.observe(s,first,errors,metric_fft,metric_rows,N,g['theta'],Fs,Ft/a[:,None,None],fr['Vnormal'],a,fr['margin'])"
+        ]
+      ],
+      "radial_batch": 4,
+      "additional_model_or_J_or_FFT_calls": 0,
+      "same_input_previous_audit_rerun": false,
+      "original_all_samples_and_mean_quadrature_retained": true,
+      "acceptance_claimed": false,
+      "batch_bitwise_comparison_performed": false
+    },
+    "actual_prefix_audit": {
+      "metric_l1": 0.0002673800296498487,
+      "flow_defect": 0.0064925475330636475,
+      "darboux_l1": 70.86815324373599,
+      "kappa_sample": 32.40284845530118,
+      "radius_max": 1.0854812551369826,
+      "height_max": 0.8827858546522833,
+      "root_min": 0.002979699864301577,
+      "chart_rho_min": 0.9039999999999999,
+      "support_amplitude": 0.012,
+      "core": {
+        "core_kind": "material-curvature-flattening",
+        "base_mode": 3,
+        "support_amplitude": 0.012,
+        "physical_parameters": [
+          0.012,
+          -0.0034678873121419505,
+          -0.0009259610342349568,
+          -0.00017146682402895315,
+          5.8160761316874105e-05,
+          9.749742154692656e-05,
+          7.541431082964782e-05,
+          4.243121276539635e-05,
+          1.7416854436558938e-05,
+          2.781720099492656e-06,
+          -2.920721543546917e-06,
+          -4.202542614035428e-06,
+          -3.7023393042199744e-06,
+          -2.6070493725387034e-06,
+          -1.620066227956913e-06,
+          -5.764641303439402e-07,
+          -7.006353127486704e-08,
+          3.382975889903433e-07,
+          2.017721137265489e-07,
+          2.3879518366369493e-07,
+          9.039345864387519e-08,
+          2.3891517688679934e-07,
+          1.8179770296312445e-07,
+          1.7564334308538866e-07,
+          -2.958686883256411e-08,
+          -4.97797070292193e-08,
+          -1.33865899876226e-07,
+          -4.4191277926787167e-07,
+          1.5816172238308567e-07,
+          6.991406078107296e-07,
+          1.8075387044520998e-07,
+          -6.969317402843649e-07
+        ],
+        "homotopy": 0.256,
+        "curvature_blend": 1.0,
+        "target_curvature": 0.5,
+        "circle_curvature": 0.5,
+        "halfwidth": 0.675,
+        "halfwidth_coordinate": "material-arclength",
+        "transition": 0.3,
+        "compensation_beta": 1.901525296091943,
+        "exact_perimeter": 6.283185307179586,
+        "curvature_radius_lower": 0.5558685114652703,
+        "curvature_radius_upper": 1.3130454124155875,
+        "curvature_lower_bound": 0.7615882821297985,
+        "curvature_upper_bound": 1.798986593725193,
+        "curvature_guard": {
+          "method": "R53-convex-mixture",
+          "lower": 0.7615882821297985,
+          "upper": 1.798986593725193
+        },
+        "quadrature_order": 12,
+        "integration_cells": 64,
+        "transition_cells": 24,
+        "reflection_roundoff": 1.4444001550373287e-13,
+        "original_kind": "PlanarSupportCore",
+        "implementation_validation": "not yet executed when source was saved",
+        "scope": "core design only; no full metric, tail, or closed-surface claim"
+      },
+      "inlet": {
+        "position": 0.0,
+        "first": 0.0,
+        "second": 0.0,
+        "metric_l1": 0.0,
+        "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+        "unlifted_projection": {
+          "position": 1.1477271073387183e-06,
+          "first": 0.00012542077929268776,
+          "second": 0.014117936556911495,
+          "metric_l1": 4.273280796549148e-06
+        }
+      },
+      "dn_matrix": {
+        "physical_modes": 32,
+        "psi_modes": 32,
+        "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+      },
+      "terminal_height_coeff_max": 9.886557966973429e-05,
+      "physical_bc_max": 4.624387774320971e-08,
+      "samples_s": 2518,
+      "samples_psi": 1552,
+      "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid.",
+      "metric_observation": {
+        "scope": "Additional observations from the original single metric FFT; all prior scalar outputs retain their original arithmetic. No additional model/flow/integral/FFT or acceptance threshold.",
+        "components": [
+          {
+            "component": "E_minus_1",
+            "metric_l1": 0.00013135920863710821,
+            "radial_sample_index": 442,
+            "s": 0.19425333714547738,
+            "dominant_signed_fft_bin": 0,
+            "dominant_absolute_fft_bin": 0,
+            "dominant_fft_coefficient_abs": 3.4778890625875294e-05,
+            "pointwise_max_abs": 9.799747251770796e-05,
+            "pointwise_max_psi_index": 56,
+            "pointwise_max_signed_value": -9.799747251770796e-05,
+            "physical_theta": 0.21609492850552317,
+            "original_uniform_psi": 0.22671287190854178,
+            "normalized_metric_components_at_point": [
+              -9.799747251770796e-05,
+              1.0291402332865308e-05,
+              -5.3885339496906326e-05
+            ],
+            "nearest_physical_node": 211,
+            "distance_to_nearest_physical_node": 0.0003039958327784864,
+            "original_physical_interval": [
+              0.1939493413126989,
+              0.1945573329782559
+            ],
+            "physical_radius": 1.0426118446229427,
+            "Frenet_margin": 0.8534510146982544,
+            "physical_Fs": [
+              0.34733096001776514,
+              0.10187011449998329,
+              0.9321403791878025
+            ],
+            "physical_Ftheta_over_a": [
+              -0.2613391349663368,
+              0.9651852179175913,
+              -0.008091125318618882
+            ],
+            "original_normal_velocity": [
+              0.3493722117057995,
+              0.10240570416658361,
+              0.9313711018933021
+            ],
+            "flow_velocity_defect_at_point": [
+              -0.0020412516880343734,
+              -0.0005355896666003196,
+              0.0007692772945003812
+            ],
+            "zero_radial_location": false,
+            "source": "Only arrays already present in this original audit block"
+          },
+          {
+            "component": "F_over_a",
+            "metric_l1": 9.079133126007493e-05,
+            "radial_sample_index": 467,
+            "s": 0.19859696203142535,
+            "dominant_signed_fft_bin": -102,
+            "dominant_absolute_fft_bin": 102,
+            "dominant_fft_coefficient_abs": 1.0337325567496987e-05,
+            "pointwise_max_abs": 6.490490040717897e-05,
+            "pointwise_max_psi_index": 612,
+            "pointwise_max_signed_value": -6.490490040717897e-05,
+            "physical_theta": 2.4625186129230117,
+            "original_uniform_psi": 2.477647814429064,
+            "normalized_metric_components_at_point": [
+              -2.757424480981374e-05,
+              -6.490490040717897e-05,
+              1.5695386335279338e-05
+            ],
+            "nearest_physical_node": 223,
+            "distance_to_nearest_physical_node": 0.00017862915454902595,
+            "original_physical_interval": [
+              0.19841833287687632,
+              0.1987755911859744
+            ],
+            "physical_radius": 1.044563742261814,
+            "Frenet_margin": 0.816253684085889,
+            "physical_Fs": [
+              -0.3463614336806554,
+              0.2318497094756746,
+              0.9089839906345526
+            ],
+            "physical_Ftheta_over_a": [
+              -0.5769199821275467,
+              -0.8167281331358052,
+              -0.011583874688073715
+            ],
+            "original_normal_velocity": [
+              -0.3465968440584154,
+              0.23193790588760102,
+              0.9088869211850398
+            ],
+            "flow_velocity_defect_at_point": [
+              0.00023541037775998142,
+              -8.819641192642225e-05,
+              9.706944951282104e-05
+            ],
+            "zero_radial_location": false,
+            "source": "Only arrays already present in this original audit block"
+          },
+          {
+            "component": "G_over_a_squared_minus_1",
+            "metric_l1": 0.0002673800296498487,
+            "radial_sample_index": 1915,
+            "s": 0.6785147400255962,
+            "dominant_signed_fft_bin": 96,
+            "dominant_absolute_fft_bin": 96,
+            "dominant_fft_coefficient_abs": 7.568723974501698e-05,
+            "pointwise_max_abs": 0.00022287045525470894,
+            "pointwise_max_psi_index": 776,
+            "pointwise_max_signed_value": 0.00022287045525470894,
+            "physical_theta": 3.141592653589793,
+            "original_uniform_psi": 3.141592653589793,
+            "normalized_metric_components_at_point": [
+              1.5577369933961194e-06,
+              -1.1001373867876137e-19,
+              0.00022287045525470894
+            ],
+            "nearest_physical_node": 923,
+            "distance_to_nearest_physical_node": 0.0,
+            "original_physical_interval": [
+              0.6785147400255962,
+              0.6821624225256331
+            ],
+            "physical_radius": 0.9862183658367444,
+            "Frenet_margin": 0.9250430850218663,
+            "physical_Fs": [
+              0.2202622792205477,
+              -3.166533242930048e-17,
+              0.9754414826577569
+            ],
+            "physical_Ftheta_over_a": [
+              -1.1613929171028597e-16,
+              -1.0001114290194142,
+              -6.353809650238299e-18
+            ],
+            "original_normal_velocity": [
+              0.22002788948886262,
+              -3.1748446076386587e-17,
+              0.9754935816534503
+            ],
+            "flow_velocity_defect_at_point": [
+              0.00023438973168507515,
+              8.31136470861059e-20,
+              -5.209899569347254e-05
+            ],
+            "zero_radial_location": false,
+            "source": "Only arrays already present in this original audit block"
+          }
+        ],
+        "worst": {
+          "component": "G_over_a_squared_minus_1",
+          "metric_l1": 0.0002673800296498487,
+          "radial_sample_index": 1915,
+          "s": 0.6785147400255962,
+          "dominant_signed_fft_bin": 96,
+          "dominant_absolute_fft_bin": 96,
+          "dominant_fft_coefficient_abs": 7.568723974501698e-05,
+          "pointwise_max_abs": 0.00022287045525470894,
+          "pointwise_max_psi_index": 776,
+          "pointwise_max_signed_value": 0.00022287045525470894,
+          "physical_theta": 3.141592653589793,
+          "original_uniform_psi": 3.141592653589793,
+          "normalized_metric_components_at_point": [
+            1.5577369933961194e-06,
+            -1.1001373867876137e-19,
+            0.00022287045525470894
+          ],
+          "nearest_physical_node": 923,
+          "distance_to_nearest_physical_node": 0.0,
+          "original_physical_interval": [
+            0.6785147400255962,
+            0.6821624225256331
+          ],
+          "physical_radius": 0.9862183658367444,
+          "Frenet_margin": 0.9250430850218663,
+          "physical_Fs": [
+            0.2202622792205477,
+            -3.166533242930048e-17,
+            0.9754414826577569
+          ],
+          "physical_Ftheta_over_a": [
+            -1.1613929171028597e-16,
+            -1.0001114290194142,
+            -6.353809650238299e-18
+          ],
+          "original_normal_velocity": [
+            0.22002788948886262,
+            -3.1748446076386587e-17,
+            0.9754935816534503
+          ],
+          "flow_velocity_defect_at_point": [
+            0.00023438973168507515,
+            8.31136470861059e-20,
+            -5.209899569347254e-05
+          ],
+          "zero_radial_location": false,
+          "source": "Only arrays already present in this original audit block"
+        },
+        "observed_radial_samples": 2518,
+        "angular_samples": 1552,
+        "worst_matches_original_metric": true,
+        "diagnostic_errors": [],
+        "frequency_scope": "Signed bin of the original uniformly sampled audit psi grid; not a physical high-mode remainder, continuous-angle bound or error-source proof.",
+        "tie_rule": "First original radial sample and first FFT bin at an exactly tied maximum.",
+        "original_gate_unchanged": true,
+        "inlet_same_audit_arrays": {
+          "s": 0.0,
+          "metric_component_fft_l1": [
+            3.0000681541928215e-14,
+            1.0048126298876267e-32,
+            5.096516343240748e-06
+          ],
+          "metric_component_pointwise_max": [
+            1.84297022087776e-14,
+            5.498038172734031e-33,
+            3.248114928355861e-06
+          ],
+          "core_error_source_identified": false
+        },
+        "radial_reconstruction_vs_angular_error_source_proved": false
+      }
+    },
+    "original_all_audit_samples_retained": true,
+    "original_height_integral_order": 6,
+    "actual_audit_angular_samples": 1552,
+    "radial_batch_change_bitwise_comparison_performed": false,
+    "actual_fourier_table_cache": {
+      "hits": 0,
+      "misses": 0,
+      "key_seconds": 0.0,
+      "build_seconds": 0.0,
+      "original_builder_sha256": "cd05079f81a4fa1a5dd1d703be8b77ee40ca49b96a1e1a2eaf8bcfc9786aadcc",
+      "full_basis_and_frequency_bytes_bound": true,
+      "live_flow_or_physical_response_cached": false,
+      "shared_diagnostic_dictionary": false
+    },
+    "actual_core_memo": {
+      "enabled": true,
+      "hits": 0,
+      "misses": 3,
+      "context_changes": 0,
+      "bypasses": 0,
+      "evictions": 1,
+      "context_key_seconds": 0.0013614190011139726,
+      "original_evaluate_seconds": 6.486145893999492,
+      "copy_seconds": 0.0020918910013278946,
+      "max_entries_per_core": 2,
+      "max_bytes_per_core": 134217728,
+      "peak_cached_bytes_one_core": 12451840,
+      "peak_entry_bytes": 9961472,
+      "original_evaluator_sha256": "336a769065ff8e15d74a5c85e9c9bbd0046e0604ad49b61199a2ce5cb6760711",
+      "complete_instance_state_bound": true,
+      "complete_theta_bytes_bound": true,
+      "original_output_cache_side_effects_restored": true,
+      "returned_arrays_are_independent_writable_copies": true,
+      "quadrature_or_model_changed": false
+    },
+    "actual_radial_batch_statistics": {
+      "rhs_calls": 4,
+      "jacobian_calls": 0,
+      "rhs_blocks": 593,
+      "jacobian_blocks": 0,
+      "collections": 593,
+      "collected_objects": 0,
+      "collection_seconds": 9.718131512971013,
+      "exception_blocks": 0,
+      "exception_types": {},
+      "maximum_rss_kib": 510184,
+      "successful_and_exceptional_short_calls_collected": true,
+      "live_caches_cleared": false,
+      "original_exceptions_suppressed": false,
+      "original_numerical_calls_or_arithmetic_changed": false
+    },
+    "preaudit_unused_allocator_release": {
+      "before": {
+        "current_process_RSS_bytes": 157114368,
+        "maximum_process_RSS_KiB": 510184
+      },
+      "after": {
+        "current_process_RSS_bytes": 114286592,
+        "maximum_process_RSS_KiB": 510184
+      },
+      "cyclic_objects_collected": 3,
+      "malloc_trim_returned": 1,
+      "only_unallocated_allocator_pages_trimmed": true
+    },
+    "Jacobian_assembled": false,
+    "Newton_or_BVP_or_native_solver_invoked": false,
+    "old_accepted_field_audit_rerun": false,
+    "BVP_acceptance_claimed": false,
+    "diagnostic_field_may_be_used_as_accepted_or_tail_input": false,
+    "metric_error_source_proved": false,
+    "continuous_error_bound_claimed": false,
+    "seconds": 94.82921231900036,
+    "maximum_RSS_KiB": 510184
+  },
+  "additional_existing_array_observations": {
+    "physical_quintic_constant_coefficients_equal_all_left_original_nodes_bitwise": true,
+    "maximum_RMS_physical_interval": [
+      0.1696296746904169,
+      0.17145364968708804
+    ],
+    "additional_model_RHS_J_or_audit_evaluations": 0
+  },
+  "interpretation": {
+    "original_complete_field_still_not_converged": true,
+    "current_global_G_maximum_is_at_an_exact_original_node": true,
+    "current_G_at_that_node_does_not_use_physical_radial_quintic_derivatives": true,
+    "historical_converged_metric_platform_cause_identified": false,
+    "entrance_G_error_alone_is_not_a_core_integral_error_proof": true,
+    "current_entry_BC_gate_not_passed": true,
+    "angular_FFT_bin_is_diagnostic_not_a_tail_bound": true,
+    "complete_BVP_or_surface_accepted": false
+  },
+  "source_bindings": {
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda256-97ec-original-metric-diagnostic-20261128-command.json": "d32ca40751d8f1b99e81bf38102a772623f1579433e03953773c085db142e2c7",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-lambda256-97ec-original-metric-diagnostic-20261128-observer/latest.json": "6a7d7ac525ab824f73e05d0abc6e0b8a63fb4529a09d4c5b04f441bd767d4f63",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/diagnose_unaccepted_original_metric.py": "7638ad7d8cae525c5f4fb46c9453db7e46506f362186913b549a81f945f3c975"
+  }
+}

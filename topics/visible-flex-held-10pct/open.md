@@ -14,6 +14,8 @@
 
 [新R87 λ=.256/M40实返](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)仅metric1.24844e−6未门，M48未知。M32→40平台支持从同一新profile收紧径向tol2e−7，保原全部门；最高原真接受仍λ=.128/M24。
 
+[当前97ec首次原残差/metric诊断](notes/2026-11-28-design-r87-lambda256-97ec-original-metric-diagnostic.md)真0，但RMS.0079227和BC未过；最坏G在原节点本身，不能以该未收敛状态解释历史已收敛平台或归因GL。新存储v3继续原完整Newton，不重复升模初猜或把工程−9当数学失败。
+
 [R94真实窗舍入后果](results/R94-binary64-core-window-period-budget.md)已付实际binary64 S/b下原R91核心预算；最终完整支持A≤8/9、Gauss与材料角求值误差仍须单独核，不用理论真实积分替代有限实现。
 
 ## 2. 完整非线性尾及共同接缝

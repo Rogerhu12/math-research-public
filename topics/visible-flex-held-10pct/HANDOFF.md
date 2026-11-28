@@ -4,7 +4,7 @@
 
 ## 1. 规则和实际拉取
 
-- 最近实际pull后双README已读锚 `7630e1c6f259f0fddde92e33405d4a6fd56aec8d`（2026-11-28 19:43 UTC）。
+- 最近实际pull后双README已读锚 `57b54f1106a1eadcaf268eff26f6e515b306ba3b`（2026-11-28 19:47 UTC）。
 - 私库QUEUE认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `5d146903e36f71c8137ab5137195d1f3d90055d7`（2026-11-28T19:19:02.099311+00:00），相对4f63189c1e7d双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟20:15 UTC再pull。
 - 每结论pull后核双README差异并推；NFF立刻rebase循环成功，不force。根§12不另设审批/独立审查门；§15只保存源/参数/hash/小标量，科学数组/网格留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI。H<10KB，单MD<100KB，题目录<200MB。
 - 完成按题README七条：同一完整g/参数/时间域的连通闭C²嵌入连续族；H有内点/直径≥.2D、整像δhold≥.1D、全E(3) δE>0、全时reach≥.03D、全metric≤1e−6、空间/谱/时间精化降到机器或求解容差，多个t小网格及严格存在差距。设计λ/δ/帽变化非同g精化；λ<1非准确圆弧H；完成后继续提高比例。
@@ -15,8 +15,8 @@
 
 **当前真正接受锚：[λ=.128/M24](notes/2026-11-28-design-single-gentle-r87-strict-lambda128-mapped-input-recovery-actual.md)**，1185点/RMS1.9949890856595675e−7/metric6.362597622681736e−7/physicalBC2.0279039207175011e−19/mean1168/δ.06809994455035266。8全步/零拒、502.007s/699648KiB；全部原门及全来源/raw/physical/hash实核。run683d916f31de1406defc42fd7630efdc127aaf093e529ed7ab8b2030c1ec7d9c，out `held10-design-work/R87-strict-mapped-material-continuation-20261128/attempt-001`。已恢复历史前沿，非新λ进展；[.064](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)/[.032](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)前驱保留。
 
-**当前无活BVP，诊断已完，接新存储v3恢复。** 完整未接受λ=.256/M32的1185×97/p32状态 `97ec9d07c25d18cd7da7dbade7d5f0902fc1c48b3bbad2ee5b22abe432ed4279` 保留80642两次接受Newton步α=1/.25；其19:21 UTC child−9/真join。77523原样续算后19:29:50 UTC child−9/owner247/剩余0，完整CSR及原QR constructor已返、factor转存未完/无新solve，峰794052KiB。preJ trim匿名137035776→87875584B；非OOM定因/数学失败。
-首次同97ec原诊断55513于19:40:53 UTC真exit0/remaining0（无J）：原RMS.00792274554、物理BC4.62439e−8，2518×1552原audit metric.00026738003，最坏G项在原节点923/s.67851474/bin96/θ=π。该点G不依赖径向重建导数，但整个状态尚未收敛，不能判历史最终1.25e−6平台；全部原门保持。诊断结束后才启动新存储v3的同状态续算。
+**唯一活BVP：20732，19:43:20.006293 UTC。** out `held10-design-work/R87-strict-lambda256-M32-reclaimed-mapped-recovery-20261128`。新存储v3从完整未接受λ=.256/M32、1185×97/p32状态 `97ec9d07c25d18cd7da7dbade7d5f0902fc1c48b3bbad2ee5b22abe432ed4279` 原样续算，保80642两次α=1/.25步、不用诊断physical。真实launch RAM2398158848≥1867210752B、disk2072006656≥1273335399B；全部原门/每mesh预算/唯一audit观察器不改。命令SHA d4c4cd418b5203c6ed57d3382c104f98e2c660725c9c444a0d7d8cf14f0c4275，driver 1d87f031…；77523终态/清理见§3。
+[首次97ec原诊断](notes/2026-11-28-design-r87-lambda256-97ec-original-metric-diagnostic.md)55513于19:40:53 UTC真0/剩余0、无J。RMS.00792274554/物理BC4.62439e−8；2518×1552原metric.00026738003，最坏G在原节点923/s.67851474/bin96/θ=π。未收敛，不能判历史最终平台；该点G不依赖径向重建导数，仅是这份未接受场的诊断。55513真join后才启20732。
 [两次完整升模工程交接](notes/2026-11-28-design-r87-two-source-lift-engineering-handoffs.md)：同M合同已修；全样本/六jet参考batch16→2并复用真左lift，右lift真0/max差3.44214e−15，完整β2初猜eebe2267…；原observer只读唯一audit。所有终态/源/hash见记录。[.032完整映射恢复](notes/2026-11-28-design-r87-lambda032-interruption-and-complete-mapped-recovery.md)已真接受；负码不作数学排除，真join后才清自有映射。
 
 旧视图最高真接受λ=.128/M24（run7f8bfa03…，metric6.3560e−7、mean1168）raw已不可读；当时λ=.256/M24/M32/M40的metric分别8.8414e−5/1.28584e−6/1.24844e−6未门，M40有952点/RMS9.69144e−7。旧M48无接受、89083真exit1原因未知。[M40小回执](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)不冒旧JSON逐字恢复；这些只是历史，不用旧场替代当前锚。
@@ -24,7 +24,7 @@
 ## 3. 已完成恢复诊断（不重做）
 
 旧λ0解析support/δ/RMS/最坏格均已付，RHS舍入/断点假设已排、原λ0未接受；完整M8→16保全部节点后真.002接受再接当前锚。旧数值/终态详上一交接，不重做。
-[.256完整状态恢复](notes/2026-11-28-design-r87-lambda256-interruption-and-allocator-recovery.md)冻结80642终态及77523真启动；[trim真实终态](notes/2026-11-28-design-r87-lambda256-trimmed-recovery-actual-terminal.md)保原QR constructor已返的文件生命周期证据、实际trim、真join后两owned目录清理与97ec同SHA。只释放空闲页，全部原门不改；无BVP接受/原因证明。 [逐数组存储v3](notes/2026-11-28-analytic-complete-storage-reclamation-preparation.md)已备：原QR构造/solve同code，constructor后及每16MiB已替换数组trim，flush/MADV后同fd全页fadvise；journal在cleanup域外。三版真实准备史保留，未有实际因子/回收阳性。
+[.256完整状态恢复](notes/2026-11-28-design-r87-lambda256-interruption-and-allocator-recovery.md)冻结80642终态及77523真启动；[trim真实终态](notes/2026-11-28-design-r87-lambda256-trimmed-recovery-actual-terminal.md)保原QR constructor已返的文件生命周期证据、实际trim、真join后两owned目录清理与97ec同SHA。只释放空闲页，全部原门不改；无BVP接受/原因证明。 [逐数组存储v3](notes/2026-11-28-analytic-complete-storage-reclamation-preparation.md)已备：原QR构造/solve同code，constructor后及每16MiB已替换数组trim，flush/MADV后同文件页对齐fadvise；journal在cleanup域外。三版真实准备史保留，未有实际因子/回收阳性。
 
 ## 4. 真λ1后的执行链
 
@@ -36,13 +36,10 @@
 
 ## 5. 已付严格结论与剩余责任
 
-[R91](results/R91-period-mean-compensation-and-wider-core-box.md)/[R94](results/R94-binary64-core-window-period-budget.md)：实际S*/b*、A≤8/9盒给全λ曲率预算。[R95](results/R95-actual-core-normalization-from-positive-inverse-average.md)真实beta正权区间与[真.002 core](notes/2026-11-28-analytic-r87-actual-true-core.md)已付；不能搬到新λ1。
-[字面柱长预算](notes/2026-11-28-r87-literal-cylinder-budget.md)：实际半长.0025/.005保H/held/reach三严格比例及R93两长因子，完整图前提仍欠。
-[R93](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)：N=3J有限相位≤2π/9<4/5、两柱长活动矩与full-E(3)距离界；新λ1的矩/帽/全几何未付。
-[R96](results/R96-complete-marker-hessian-two-variable-psd.md)：完整有理三重帽Hessian≤23/10，8矩形准确Bernstein、6512系数交叉核真过；未选新r/eps/改g，新幅度仍须全图门。
-[R92](results/R92-complete-refined-chord-space-and-residual.md)：完整细网格弦可逆运输与逆残差。旧880点仿射DN前缀已过但未启native，旧J/V不能搬新λ1。
-[R97](results/R97-complete-prefix-c2-in-common-physical-material-angle.md)：同物理θ的真core/全模/mean/cut/逆chart两jet有限对C²传递，另付有限Gauss点查询差；尚无真pair/Cauchy。[R98](results/R98-linear-time-refinement-complete-c2-and-relative-metric.md)：同场线性时间加密h²M₂/8、完整Gram及Γ5界；实际M₂/Vg1待付，不把逐条目误差当operator界或数值CubicSpline当连续证书。R95–R98索引已补齐。
-旧λ.002/q=.06的R82/R89/R90几何/full-E3/全时metric已付，非λ1/final-H/同g精化；数组不可读，1152段不重算，未知/失败不改写。
+完整正文见[结果索引](results.md)及上一交接，全部不重做：R91/R94为实际窗/A≤8/9核心预算；R95是真beta正权积分区间，真.002 core仅限原输入。R92为全细网格弦可逆运输，旧J/V不搬新λ1。R93为有限高阶相位/两柱长活动矩/full-E(3)定量距离；新λ1矩/全几何未付。R96完整三重帽Hessian≤23/10准确PSD已付，未选新帽或改g。
+[字面柱长预算](notes/2026-11-28-r87-literal-cylinder-budget.md)保实际.0025/.005半长下H/held/reach三比例，但完整图前提尚欠。
+R97是同物理θ完整prefix/cut有限pair C²传递及有限Gauss查询差；R98是同场线性时间h²M₂/8、完整Gram/Γ5界。真pair/M₂/Vg1待付，有限差非Cauchy、条目误差非operator界、数值CubicSpline非连续证书。R95–98索引已齐。
+旧q=.06/λ.002的R82/R89/R90全几何/full-E3/全时metric已付，非λ1/finalH/同g精化；1152段不重算，旧数组不可读、失败/未知保留。
 
 ## 6. 恢复与操作边界
 

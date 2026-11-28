@@ -37,3 +37,7 @@
 
 [实际源码定位及v3入口](notes/2026-11-28-analytic-complete-storage-reclamation-preparation.md)确认原mapper本就逐数组替换，不存在保留所有旧ndarray的layout。新分支仅在原QR返回、mapper前和每16MiB已替换/原del后调用原trim；原flush/MADV成功后同自有文件/同页对齐区间给fadvise。顶层constructor同code object/solve同方法，完整CSR/QR/全部原门不动，逻辑字节不作RAM信用。root只读findmnt实见/workspace为ext4。初版compile0/help因缩进1、v2准备全0后只读发现journal违反旧cleanup根目录合同、v3仅移journal到同级且准备全0/1.414s/48972KiB；三版原字节均保留，原cleanup不放宽。没有J/因子/新BVP、cgroup下降或终止原因结论。H同步唯一55513无J诊断及已返明显未收敛RMS，不把它冒接受；真实新布局续算待其结束后由design原样接97ec。
 
+## 2026-11-28 — 完整97ec未接受场首次原残差与metric实际返回
+
+[诊断源码及真实回执](notes/2026-11-28-design-r87-lambda256-97ec-original-metric-diagnostic.md)55513真exit0/remaining0/95.853s/510184KiB。保原全部1185节点/97状态/p32，原collocation/RMS/BC→物理quintic→2518×1552原audit/order6 mean，仅径向batch细为4/8，无J/BVP/native或旧.128重审。RMS.00792274554、物理BC4.62439e−8均未门；metric三条目原FFT_l1最大.00026738003。最坏G在原节点923/s.67851474、ψ频bin96、物理θ=π；原常数系数与全部左端Y逐位同，此点G不依赖径向quintic导数。当前未收敛，既不等同历史1.25e−6平台，也不单凭入口G误差归GL。物理输出明确unaccepted、原hash与全部参数完整保留，未作tail/accepted来源。20732只在诊断真join后由同97ec启动独立新存储续算；H按其实际launch更新。上一存储准备条目中的诊断范围现由本终态明确，不再记活算。
+
