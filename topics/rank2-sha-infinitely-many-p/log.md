@@ -78,3 +78,15 @@ R1060把同一裸Q2来源的完整临界斜率逐word转置到原双Gaussian核�
 root逐式核实际raw来源−w0+Wp、完整p² K−old号、原normal-ordering多项式及a^n、n=0的2!、第一raised槽负3/(4πy)、六倍变量/图源、graded复period和p-adic Ω的区分。补完整未分离指数核(3a)，一般τ_i保真实arch及交叉项，只有已付ω-frame可用rank-one分离。独立核(13)–(16)全部逆Maass/阶乘相消；逐项读R1056(30)–(36)的whole-Zp多项式、最小J、非单位零检验、全部Maass修正及误差；(24)–(25)保槽与系数自身精度。没有采用旧usual连续cross。同期四高轴实际affine参数回R434，不新增自由轴或收益；A18高carry和原次数帽仍由arith/geometry处理。
 
 推前实际双库pull run46075603971/job140816965800：公开2026-11-28 01:21:24 UTC至9fec9def2c0454779e509f6541919bd108c3bfd4，私库2026-11-28 01:21:31 UTC至a20319676d0d704c58fbf12ee6a103a7b95d7467。四README blobs与01:11已读版相同，QUEUE仍0960ae68e078bae51fd8e95fc2839c7028ffa6fc及本会话进行中。日志14887B/hashcbfed1218d0befebef30adb57d3087923efe32cc0dc7e7a7e4599c5c9284601e；库存3166blobs/44614140B/tree113a90a1b0ff038c6b90edc6756743644c948b0c，无>5MB，三旧必要gzip不变。01:25取得v13日志仍为4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，无新增终门。旧H逐字入notes/2026-11-28-handoff-before-ramified-finite-reader.md，保全部历史头与规则记录。
+
+
+## 2026-11-28 01:46:35 UTC：同一二维核的真实cross Gaussian
+
+R1060§4.1把同一inverse-Maass精确写成真实p-adic cross Gaussian：β_i=−C_i/ρ_i，m_n=Ω_i³ρ_i^n n!(n+2)![Z^nW^(n+2)]e^(β_iZW)H_i。原最大阶单位基给vβ=2p/(p²−1)、系数至少r/(p+1)，所以该Gaussian及逆为整闭单位双盘Tate单位。没有认复c/γ²或原z^(p+1) canonical completion，也不据此给H_i及各rank-one分量范数、删尾或新零；全部精度仍由原whole测度支付。
+
+root按每个有限槽独立核ρ^nβ^(n−ℓ)的全部系数与(15)一致，原a/κ为单位、Ω估值及C估值给(16c)，两个真实Gaussian在完整闭双盘相乘为1。仅有限重排，不执行数学程序，不预付各新字有界性。
+
+推前actual readonly run46075603971/job140822746553：公开2026-11-28 01:43:24 UTC至6052304ae83420267b214237895a6e63074a953f，私库2026-11-28 01:43:30 UTC至ec3717faa7d39c553540a27b61a5a1b3e28d5335；四README与01:21已读版相同，QUEUE仍0960ae68e078bae51fd8e95fc2839c7028ffa6fc及本会话进行中。日志14887B/hash34c8233cc64e8cc04dd37928fa39a0813d7f6c5fbd7c3d4d9f402f2df34472eb；库存3168/44644813B/treee57c9136d9daf912c5fad0049f66a05dff732adb，无>5MB及三旧必要gzip不变。
+
+
+本条首次ref更新01:46:43UTC返GraphQL错误；attempt be1c440cc74a03f93235bb59ae1bef428a7e763b与新main实际diverged，并未误报推送成功。立即尝试本地git pull --rebase，环境仍不可用，随后readonly实际双库重拉job140823640994：公开2026-11-28 01:46:50 UTC至d4b4b76db587abdd085d0a851c932f19ea7ade6a；私库2026-11-28 01:46:55 UTC至e336dbff8347f32a6fb12a8bf25279fe09978f2f。四README与01:43已读版完全相同，QUEUE及库存tree e57c9136d9daf912c5fad0049f66a05dff732adb不变。重拉日志14886B/hash6a62e239c3a7b9121a50056b07975a9d6b45fa1cb152345a6d76e34fd0daf89f，以新实际main作父提交继续非force推送。

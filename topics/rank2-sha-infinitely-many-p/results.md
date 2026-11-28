@@ -252,3 +252,10 @@ R1059§8把同一负二germ接到Frobenius-rigid Coleman primitive及实际有�
 R1060把同一裸Q2来源的完整临界斜率逐word转置到原双Gaussian核。原p²矩阵为K−old，保full h角色积分、全部lower-Maass槽和冻结Λ(-2)/Λ′(-2)；只在已付ω-frame作两rank-one分解。实际图源须−6δ并将两变量各除√6；真实复period按γ^-1H(Z/γ,W/γ)逐槽代数化，再取原p嵌入，不与book Ω相认。原Tate/cup/KS给R_n=Ω³ρ^n n!(n+2)!h_n、ρ=a p²κΩ²；完整逆三角成为e^-CT指数卷积。有限Newton读者给明确B_{i,H,ℓ}与全部槽/系数精度，误差只由原whole测度支付，不设各rank-one独立有界。尚不将全h和压成原三条D102/S34总period，也不赋新增字canonical零。
 
 [完整证明](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(1)–(25)。全部为同一来源的有限算子证明，无新增数学执行。
+
+
+### R1060 §4.1：同一来源的真实交叉 Gaussian
+
+R1060§4.1把同一inverse-Maass精确写成真实p-adic cross Gaussian：β_i=−C_i/ρ_i，m_n=Ω_i³ρ_i^n n!(n+2)![Z^nW^(n+2)]e^(β_iZW)H_i。原最大阶单位基给vβ=2p/(p²−1)、系数至少r/(p+1)，所以该Gaussian及逆为整闭单位双盘Tate单位。没有认复c/γ²或原z^(p+1) canonical completion，也不据此给H_i及各rank-one分量范数、删尾或新零；全部精度仍由原whole测度支付。
+
+[完整证明](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)，(16a)–(16c)。

@@ -306,6 +306,60 @@ $H_i^\Delta$ 证明新的 $p$-adic 收敛半径。
 它保留所有 $\ell\le n$，包括原非主型和原 lower-Maass 槽。
 
 
+
+## 4.1. 同一个二维核上的真实 p-adic cross Gaussian
+
+由于 $\rho_i\ne0$，置
+$
+ \beta_i=-C_i/\rho_i,\qquad
+ \widetilde H_i(Z,W)=e^{\beta_iZW}H_i(Z,W).
+ \tag{16a}
+$
+在形式幂级数环中，每个固定二元槽的乘积只有有限项。
+于是(15)等价于
+$
+ \boxed{
+ m_{i,n}=\Omega_i^3\rho_i^n n!(n+2)!
+           [Z^nW^{n+2}]\widetilde H_i .
+ }
+ \tag{16b}
+$
+确实，右端的第 $\ell$ 项含
+$\rho_i^n\beta_i^{n-\ell}/(n-\ell)!
+ =\rho_i^\ell(-C_i)^{n-\ell}/(n-\ell)!$，
+恰是(15)，没有遗漏任一下 Maass 槽。
+
+这也是一个有明确半径的真实 $p$-adic Gaussian。
+在本题原最大阶坏点及全部单位 Tate 标记中，
+$v_p(\Omega_i)=-\tau$、$\tau=p/(p^2-1)$，
+$v_p(\kappa_i)=0$、$v_p(C_i)=2$，且 $a=17/2$ 为单位。
+故
+$
+ \boxed{
+ v_p(\rho_i)=2-2\tau,\qquad
+ v_p(\beta_i)=2\tau,\qquad
+ v_p\!\left(\frac{\beta_i^r}{r!}\right)
+ \ge \frac{r}{p+1}\quad(r\ge0).
+ }
+ \tag{16c}
+$
+最后用 $v_p(r!)\le r/(p-1)$ 及
+$2p/(p^2-1)-1/(p-1)=1/(p+1)$。
+因此 $e^{\beta_iZW}$ 和 $e^{-\beta_iZW}$ 都属于完整闭
+单位双盘上的整 Tate 代数；二者的乘积严格为1，常数项为1。
+这是原实际 $C_i,\kappa_i,\Omega_i$ 给出的单位，
+不是用一个可调 Gaussian 定义新的来源。
+
+这里没有认
+$\beta_i$ 等于复正常排序参数 $c(\operatorname{Im}\tau_i)/\gamma_i^2$，
+也没有认它等于原 $z^{p+1}$ canonical completion。
+$H_i$ 或(6)的每个 rank-one 分量在此闭盘的范数尚未由
+(16c)单独支付；故不能由这个单位结论删除其高尾，
+或给它们分别赋予有界测度。
+本段只在同一个完整核上将原 inverse-Maass 精确合为
+(16a)，有限精度仍按§§5–6的原 whole 来源计算。
+
+
 ## 5. 完整 log−E 核及真实有限转置
 
 定义

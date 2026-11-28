@@ -30,7 +30,7 @@ R1054§9现付完整finite intertwiner与真实核/class方向、Tate determinan
 
 R1059§8现已付同一Frobenius-rigid primitive和实际有限图的值身份：p^-6Ω_i^-1〈q*G_C−G_i,ω_i〉、全e_i/m_i及旧germ保留；exact-wild完整正交时为−p^-4Σλe_i/(m_iΩ_i)AJ_out。原ψ4十八degree17核、双sign、full9和Artin1/12全部保留，full9中心只在原source本征块平方为1。
 
-[R1060](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)现给A16斜率到原整个双Gaussian来源的真实有限读者：完整逆Maass为指数卷积，有限Newton多项式给B_{i,H,ℓ}和准确槽/period系数精度。保K−old、全source h积分、actual arch与复γ逐槽代数化；图源−6δ/两√6均已付。先冻结Λ(-2)/Λ′(-2)再取全部低槽，不换成Λ(n)或原三个总period产品。
+[R1060](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)现给A16斜率到原整个双Gaussian来源的真实有限读者：完整逆Maass为指数卷积，有限Newton多项式给B_{i,H,ℓ}和准确槽/period系数精度。保K−old、全source h积分、actual arch与复γ逐槽代数化；图源−6δ/两√6均已付。先冻结Λ(-2)/Λ′(-2)再取全部低槽，不换成Λ(n)或原三个总period产品。§4.1将逆Maass合为e^(βZW)H，β=−C/ρ及vβ=2p/(p²−1)使Gaussian/逆在整闭双盘为单位；H本身范数及canonical completion相认仍须另付，不能删尾。
 
 **下一实质门：**给这个完整转置后的h/finite投影、新增ramified covectors及A16全部权导数到原固定canonical斜率的实际未平均关系。有限图的值不代导数；局部单位矩阵可逆不付该关系，也不套AI全局Heegner定理。[R1058](results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)现已付 CM 主单位的完整居中 Möbius、所有系数和det/KS运输及含全部μp闭盘的真实延拓，并逐点证明与root平均互绕；该作用固定每个μp点，不是根平移。实际原g2²第一轴商核已核。R1059已用同源正权式与真实flat逼近比较负二全germ，§8再给整个有限读数的实际图身份；原avatar/Teich/旧项均保。不能由群阶相同认分支，也不将p^n当解析函数。
 

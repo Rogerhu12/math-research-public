@@ -12,13 +12,13 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则和认领
 
-readonly run46075603971/job140816965800，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 01:21:24UTC实际partial clone/pull至9fec9def2c0454779e509f6541919bd108c3bfd4。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库01:21:31UTC实际至a20319676d0d704c58fbf12ee6a103a7b95d7467。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与01:11已读版相同，无差异。QUEUE blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行已直接核为本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
-- 日志14887B/SHA256 cbfed1218d0befebef30adb57d3087923efe32cc0dc7e7a7e4599c5c9284601e；库存3166blobs/44,614,140B，tree113a90a1b0ff038c6b90edc6756743644c948b0c，无>5MB，三旧必要gzip不变。
-- 每推前重跑最新成功readonly job并消费。最迟2026-11-28 02:21UTC再次实际pull两库。ref竞争先本地pull，无环境则CI实际pull，读新差异后继续，不用API比较冒pull。
-- 本地07:20失联，00:48重试仍无环境；末次本地07:12至1cf10ac。API、CI、本地分记。
+readonly run46075603971/job140823640994，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 01:46:50UTC实际partial clone/pull至d4b4b76db587abdd085d0a851c932f19ea7ade6a。已读根/课题README blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库01:46:55UTC实际至e336dbff8347f32a6fb12a8bf25279fe09978f2f。已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与01:43已读版相同，无差异。QUEUE blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行已直接核为本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。旧请求baseline不冒实际head。
+- 日志14886B/SHA256 6a62e239c3a7b9121a50056b07975a9d6b45fa1cb152345a6d76e34fd0daf89f；库存3168blobs/44,644,813B，treee57c9136d9daf912c5fad0049f66a05dff732adb，无>5MB，三旧必要gzip不变。
+- 每推前重跑最新成功readonly job并消费。最迟2026-11-28 02:46UTC再次实际pull两库。ref竞争先本地pull，无环境则CI实际pull，读新差异后继续，不用API比较冒pull。
+- 本地07:20失联，01:46推送竞争后实际pull --rebase重试仍无环境；末次本地07:12至1cf10ac。API、CI、本地分记。
 
 ## 唯一原完整厚几何v13
 
@@ -42,7 +42,7 @@ readonly run46075603971/job140816965800，workflow source e5309ee152260aa4aef389
 
 [连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)继续：literal通常剔除阶乘数列不连续；旧full54/六线/newpsi4连续cross、共同几何F单位仍条件化。p227/u1辅助65537只证char0非零，不证227单位。独立direct proper/晶体残余保原范围；O_D=(1−p^-2)G−λ_D*I_D/p²中incoming全Norm零不删outwardG。
 
-[R1060](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)现付原全临界斜率的真实有限双核转置：R_n=Ω³ρ^n n!(n+2)!h_n、ρ=a p²κΩ²，逆Maass为e^-CT卷积，再用原Newton多项式给B_{i,H,ℓ}及完整精度。保K−old、全h积分/arch运输与冻结Λ/Λ′；图源−6δ/两√6及复γ逐槽代数化全付，不嵌复period本身。下Maass所有槽仍在，不能压为旧三条D102/S34 period；该投影与canonical授权继续开。
+[R1060](results/R1060-original-full-gaussian-transpose-and-critical-slope.md)现付原全临界斜率的真实有限双核转置：R_n=Ω³ρ^n n!(n+2)!h_n、ρ=a p²κΩ²，逆Maass为e^-CT卷积，再用原Newton多项式给B_{i,H,ℓ}及完整精度。保K−old、全h积分/arch运输与冻结Λ/Λ′；图源−6δ/两√6及复γ逐槽代数化全付，不嵌复period本身。§4.1再把逆Maass精确合为e^(βZW)H，β=−C/ρ且vβ=2p/(p²−1)，系数≥r/(p+1)，Gaussian及逆是整闭双盘单位。H本身/单分量范数仍未由此支付，不能删尾或认canonical completion。下Maass全部槽仍在，旧三条D102/S34投影与canonical授权继续开。
 
 ## 原矩阵、canonical读者与真正剩余门
 
