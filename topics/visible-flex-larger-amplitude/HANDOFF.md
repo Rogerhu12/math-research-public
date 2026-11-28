@@ -61,3 +61,4 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46153716771-1.json) 双README真pull beafdca27245f48efa7d071f8426de8ce39c2a58
 <!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 1541cfa06cba2ed3f8787cb3c20d21d013af8a7d
+<!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull e1a670eecd7542e644001b7d5c0ccd97ba0d4358
