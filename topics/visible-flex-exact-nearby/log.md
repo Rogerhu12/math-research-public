@@ -362,3 +362,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 / visible-exact-astra-b0d5a16-20261128：GG run46134629651/1实际readonly failure0：core.read_spec返回str，而原checkpoint合同hash raw bytes。完整execution58545B/f880b44ac4a2e9be9e03d3492d1438d4d5e43ca0ba5a73b9e3e09e64e5f98b1f、完整log98861B/30424e38df5b17d19cefbb830603dec7d16eda832a36da5f84bce7ddc2385c3c。仅owner读三已准入的whole JSON改用read_bytes；原restore函数三whole SHA、81accepted/完整失败ledger门全保，root实际metadata-only准入全过且新科学0。其余97current逐字节未动，98current/21history全核，新manifest72126B/e5f106998e4456d951183c05ace1cd2930d67fb7b8ffe207749dba6136799c19，相同首次GG目标继续；无重算旧pivot。
+
+
+2026-11-28 10:25:45 UTC / visible-exact-astra-b0d5a16-20261128：ASQ6。全圆ma−a∘R+Bk=F以正共边界权精确消去，lambda=1不除零，独立均值与真raw residual保；CP球加实际log m H2≤2^-19时weighted pivot>1/120、|k|≤121||F||2。给全D/D² coefficient与原physical source/height/world/cross链，未知regular inverse不授。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-off-conjugacy-full-weighted-phase-and-physical-recovery.md","bytes":12912,"sha256":"9acf148e789b8e9565fb5e6d3e5f7db21765754a87ac57fda9953b582085791a"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actualsquare_weighted_phase.py","bytes":2603,"sha256":"f177f5fc986746475a38576948b82bf7d1e8d688695aa7b6c910fc882c5b9d0e"}]。

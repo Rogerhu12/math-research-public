@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ6：原非零相位缺陷的完整加权兼容与物理恢复](results/R149-supplement-off-conjugacy-full-weighted-phase-and-physical-recovery.md)：全圆ma−a∘R+Bk=F以正共边界权精确消去，lambda=1不除零，独立均值与真raw residual保；CP球加实际log m H2≤2^-19时weighted pivot>1/120、|k|≤121||F||2。给全D/D² coefficient与原physical source/height/world/cross链，未知regular inverse不授。
+
 - [NBE：真实非线性背景下全频负侧ordinary响应](results/R149-supplement-nonlinear-background-negative-ordinary-response.md)：对真实Qδ*+p、t=sup max(W1/3(p),W1/3(pφ))≤1e−7，保真实主部/全部无限频，普通负窗≤25.944(B+Jroot)+3.973Jstrict+9.49e−7V+1.755e−5+5100t，Newton强余项≤74t²。11whole/30首次新Fraction全过；实际t/B/V与完整匹配未授。
 
 - [H96P：真实728整格前缀与规则中断](notes/2026-11-28-H96-actual728-prefix-and-rule-interruption.md)：run46123190757/1因实际根README新#16中断，child−9，7final目标0；完整96积分球/adjoint误差的728/2847格已保存。原actual13221B/0f4b60c2…及execution43464B/c079f809…从完整log原字节按SHA恢复到原路径，无科学重跑。只算剩余2119格的同目标接续推进，非数学假失败。

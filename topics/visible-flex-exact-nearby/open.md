@@ -216,3 +216,6 @@ H96P：run46123190757/1因实际根README新#16中断，child−9，7final目标
 
 
 NBE：对真实Qδ*+p、t=sup max(W1/3(p),W1/3(pφ))≤1e−7，保真实主部/全部无限频，普通负窗≤25.944(B+Jroot)+3.973Jstrict+9.49e−7V+1.755e−5+5100t，Newton强余项≤74t²。11whole/30首次新Fraction全过；实际t/B/V与完整匹配未授。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ6：全圆ma−a∘R+Bk=F以正共边界权精确消去，lambda=1不除零，独立均值与真raw residual保；CP球加实际log m H2≤2^-19时weighted pivot>1/120、|k|≤121||F||2。给全D/D² coefficient与原physical source/height/world/cross链，未知regular inverse不授。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
