@@ -36,6 +36,8 @@
 
 ## 新增结论
 
+- [R12：真实范数Banach理想、全部原乘子与共同整数逆核心](results/R12-appendix-actual-norm-ideal-full-multipliers-quasimultipliers-and-common-inverse-core.md)：B=closure(L C′)有收缩BAI、M(B)=C′等距，L/CL/Pθ/RnPθ实际范数稠密主理想；原Hilbert最大分式与全旗图核支付，C逆非regular，已存在平方根才自动regular，无存在声明。
+
 - [R150：正确Phi全第二头的显示四原头单位及五生成](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-global-four-head-unit-and-five-generator-algebra.md)：新完整N♯=NV+2fE2及显示det=2P02mδ(3−2ell)，所有三次降到二次后E2消σ²，给整个原必要商五生成；原t²延拓十生成，非自由、非充分，无新执行。
 
 - [R150：δ正阶的ell零与Phi零两个整个原支排除](results/R150-appendix-unit211-W-b0-internal-delta-positive-ell-zero-and-Phi-zero-original-exclusion.md)：完整q2/R6估值排ell任意正阶；Phi零U3/4只用原二次余式及非零整数262，无Phi逆。两个补图全mu值与极点均保，无新执行。

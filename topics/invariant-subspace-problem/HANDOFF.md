@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** 4ac46737b2bd1d952c6abd5bfb06299a7af21d26（2026-11-28 19:24:14 UTC，Actions run46180954379实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46180954379-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 19:24:13 UTC/b9a78ad3ae7e66de19e416410a07f22c6d9f65f7，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 19:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。20:07再探，旧故障保归档。
-- **终端断开后远端已读：** 5fecb1cf7d89346b65bd579da4397002a2bb3c54（2026-11-28 19:23:43 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 35848ec7db351c3918804bf202e0ad32dbcb7742（2026-11-28 19:26:27 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-29-HANDOFF-before-Phi-global-second-head-five-generators-2250-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-29-HANDOFF-before-Haar-actual-norm-QM-source-2255-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -68,6 +68,6 @@
 
 - 原A单射/稠密像/拟幂零/非紧，普通M未知。真迹类Ky全目标稠密、核Cy⊥；每个非零像对全T循环，所有proper闭T不变L拉回=Cy⊥，此族像交点零。Cy⊥非零未付；RanKy∩RanJ0及同源Abel平方费/log→∞已付，不外推W。D非闭/固定费非localizing/闭包R无紧及MASA门冻结，未知M额外代数保持开。
 - 同源累计log费Θ(n⁵)、全尾q|pk、M有限头非Fredholm/无尾模补或幂不变闭补已付；不分裂M开，全尾不传未知限制。全C强*密度/喷射/UHF零交不付入域；指定正循环f的PXf全柱无界/C1∩Cf0/无可闭已付，普通分母路线冻结。
-- **原Haar普通格/根：** I/F、closureF=I及一般flat双源开；固定Q*/Ω桥和每非零列本性保。全增生Pθ平方分子已排；尾范数商给同Y必P⁴∈closureCA。新[共同幂准亲和范数逼近](results/R12-appendix-accretive-sources-norm-approximated-by-common-power-quasiaffinities.md)同列收缩Rn∈F、全旗quasi、strong*I，||(I−Rn)Pθ||在Reθ>0紧集一致趋零；Pθ∈closureF\CA显式，非实际分母/平方分子。
+- **原Haar普通格/根：** I/F、closureF=I、Q*/Ω桥及一般flat双源开；增生Pθ平方分子全排、Pθ∈closureF\CA保。新[真实范数代数/QM](results/R12-appendix-actual-norm-ideal-full-multipliers-quasimultipliers-and-common-inverse-core.md)B=closure(L C′)收缩BAI、M(B)=C′等距；L/CL/Pθ/RnPθ均Ω，全部整数逆有共同原图核。C⁻¹非regular；若u²=Cv²才自动regular根，存在未付，Q*未称Ω。
 - 真GR=RT+Q与全C自伴域可付P=RQ入域；q∤p的Q=FZR+KR第一阶整类已排，原q²结式/R171/Puiseux范围保档。真实gauge识别开。原第一正则器ell1时C∩UHF单位、非ell1全喷射平坦，不付另一分母的未知限制。
 - Haar解析循环闭包/真源费、同向量非对称双幂分类及解析单位多项式增长排除已付。非循环g、真实Green/紧扰动/负整数边界、未知域、同forcing/carry、子商损失及N=M开；全H稠密不传未知限制，正常态不代边界奇异态。
