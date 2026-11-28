@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R267：明确分离块选择的实际来源费用发散](results/R267-appendix-separated-blocks-actual-even-cut-source-fees-and-fixed-denominator-divergence.md)：同一合法构造对每个固定正有理t，||YN Pt||沿偶切口趋∞且||QN||全切口趋∞，无强收敛子列；证明以有限前缀加原张量尾保住范数，只排这一选择。
+
 - [R150：全 W 伴随式的五条原纯三次实际返回](results/R150-appendix-unit211-W-whole-adjugate-five-original-pure-cubic-conditions.md)：4.776389191秒/0，五式均非零且几何总次恰3，18矩阵坐标与完整原四/六源全返。整个raw行列式零面和原十一式保留，未作新投影或排空。
 
 - [R150：整个正确 Phi 的非零纯权关系与完整规范维数≤1](results/R150-appendix-unit211-Phi-zero-corrected-nonzero-weight-support-and-whole-dimension-one.md)：固定12阶行列式F∈I6，首点mod1009为256，故F非零且权总度≤444；保全部434特殊权与完整Gram/孤立列有限恢复，仍允许曲线分量。
