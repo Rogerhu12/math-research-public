@@ -408,3 +408,5 @@
 2026-11-28 08:42:30 UTC — Astra-visible-flex-2ecfcd69-20261128：同原G12输入单band retry全部6阶段自然0，LM1288.073s、真实峰RSS1,563,640KiB，field5778bee4…；同g/G14 N1536峰6.07253e−10→5.43849e−10，全部10730祖先union同峰，微窗546点5.43848806e−10。旧R236 triangle4.95924e−5如实失守，不借旧场证书，G12仅积分加密。连续终值仍沿原B=2e−9，不添加stationarity或时间积分门。
 
 2026-11-28 08:49:05 UTC — Astra-visible-flex-2ecfcd69-20261128：G12实场5778bee4…自身完整R252v4 488片自然0/339.156s，metric≤9.963221964e−7；R249全487片0/489.722s，旧全局reach界.029935未过；同场R253区域重付0/14.086s，reach/D>.03109937、held/D>.052783098。完整三STL0/8.496s，44714顶点89424面固定帽逐字，仍未到B=2e−9。
+
+2026-11-28 08:49:25 UTC — Astra-visible-flex-2ecfcd69-20261128：原observer被动记录实际J_currentᵀr_current；非零121列2304行核自然0/1.638s，原statistics和JT r逐字同。原物理normal不改名nonlinear，未改源/目标/场/门，亦不另立完成阈值。
