@@ -877,6 +877,337 @@ $$
 本节没有将这些待付条件改写成已得结论。
 
 
+
+## 11. 原 $D(\alpha)$ 的整五项上链及有限 corestriction
+
+本节完成一个此前仅由 Bloch 边界恒等式不能推出的相容性：
+§6 的实际根代数，沿同一个五点配置路径取根时，满足完整算术
+Galois 群上的五项 **上链** 恒等式。它保留 ordered Heisenberg
+坐标中的二次修正，不把这个修正当成零。随后给出有限
+corestriction 的准确同余式。最后仍须把指定四线/Manin 组合
+在原模曲线上拼接；本节不声称已经读出 R1153 的 $z_{12}$。
+
+### 11.1. 已刊路径来源与只除 $2$ 的整性
+
+记 $P^\circ=\mathbf P^1-\{0,1,\infty\}$，基点为切向点
+$\overrightarrow{01}$。采用 Nakamura–Wojtkowiak 的实际约定
+$$
+f_\sigma^\gamma=\gamma\,\sigma(\gamma)^{-1},\qquad
+\log(f_\sigma^\gamma)^{-1}
+=\rho_u(\sigma)X+\rho_{1-u}(\sigma)Y+
+\ell i_2(u,\gamma)(\sigma)[X,Y]\pmod{\Gamma^3}.
+\tag{1133.74}
+$$
+这里 $\gamma:\overrightarrow{01}\rightsquigarrow u$ 是同一个
+étale 路径，两个 Kummer cocycle 也由它确定，不能另选根后
+继续使用原 $\ell i_2$。
+
+已刊来源为 H. Nakamura–Z. Wojtkowiak，
+*Tensor and homotopy criteria for functional equations of
+$\ell$-adic and classical iterated integrals*，
+载 *Non-abelian Fundamental Groups and Iwasawa Theory*，
+London Mathematical Society Lecture Note Series **393** (2012)，
+258–310。本文消费 §4.2 (4.9)、§5.2 (5.2)–(5.3)、
+§6.1 (6.12) 及 §6.4 Theorem 6.1。
+[出版页](https://www.cambridge.org/core/books/abs/nonabelian-fundamental-groups-and-iwasawa-theory/tensor-and-homotopy-criteria-for-functional-equations-of-adic-and-classical-iterated-integrals/46039B9B747E29116AC38E68AA297697)
+与作者全文
+https://math.univ-cotedazur.fr/~wojtkow/11NakamuraWojtkowiak.pdf
+定位同一篇；后者的网页缓存仍保完整正文。
+
+该文的 $\widetilde\chi_2^u$ 是由实际根乘积定义的
+$\mathbf Z_p$ 值 Kummer 字符，并且
+$$
+\ell i_2(u,\gamma)
+=-\widetilde\chi_2^u-\frac12\rho_u\rho_{1-u}.
+\tag{1133.75}
+$$
+因此本节所有 class-two 坐标均在 $\mathbf Z_p$ 中；
+约到 $\mathbf F_p$ 仅用 $2\in\mathbf Z_p^\times$。
+这里不是先取一个可能有 $p$ 分母的有理 regulator，再无条件
+约模 $p$。
+
+切向基点处的算术作用在 class-two 商上为
+$$
+X\longmapsto\chi_{\rm cyc}X,\quad
+Y\longmapsto\chi_{\rm cyc}Y,\quad
+[X,Y]\longmapsto\chi_{\rm cyc}^2[X,Y].
+\tag{1133.76}
+$$
+理由是原实路径 $0\to1$ 的 associator 没有一次项
+（同文 (5.12)）；它对 $y^{\chi_{\rm cyc}}$ 的共轭在
+$\Gamma^3$ 中才出现。故本节真正保留
+$\mathbf F_p(1),\mathbf F_p(1),\mathbf F_p(2)$ 三个算术系数，
+未把一般 $G_K$ 限成 $\ker\chi_{\rm cyc}$。
+
+### 11.2. 与 (1133.30) 的同根、同相位比较
+
+先设 $K\supset\mu_p$，$u,1-u\in K^\times$。
+沿同一条 $\gamma$ 取
+$$
+\alpha^p=u,\qquad
+\eta_i^p=1-\zeta_p^i\alpha,\qquad
+\beta=\prod_{i=0}^{p-1}\eta_i,\qquad
+\Gamma=\prod_{i=0}^{p-1}\eta_i^i.
+\tag{1133.77}
+$$
+于是 $\beta^p=1-u$、$\Gamma^p=D(\alpha)$；
+这正是 §6 的原 $\beta,\gamma$，本节写 $\Gamma$ 以免与路径混淆。
+根的规范是：在切向形式参数 $u=t$ 上，
+$\alpha=t^{1/p}$，所有 $\eta_i$ 的 leading 为 $1$，
+再沿同一条路径运输。乘积 $\beta$ 因而就是 leading 为 $1$
+的 $(1-t)^{1/p}$；没有剩下的自由 $\mu_p$ 倍数。
+
+对 $0\le a<p$，记
+$$
+R_a=\beta^{-a}\prod_{j=0}^{a-1}(1-\zeta_p^j\alpha).
+$$
+指标循环重排给出一个保留所有绕回项的整恒等式：
+$$
+\prod_{i=0}^{p-1}\eta_{i+a}^{\,i}
+=\Gamma\,\beta^{-a}\prod_{j=0}^{a-1}\eta_j^p
+=\Gamma R_a.
+\tag{1133.78}
+$$
+例如 $j<a$ 时原指数从 $j-a$ 补为 $j-a+p$，
+恰贡献 $\eta_j^p$，不是可以丢弃的根相位。
+
+令 $a=\rho_u(g)$、$b=\rho_{1-u}(g)$，均约模 $p$。
+原 (1133.32) 的函数域自同构写成
+$$
+g=\tau^b\sigma^a\nu^h.
+$$
+由 $\tau$ 对 $R_a$ 中 $\beta^{-a}$ 的作用，
+$$
+g(\Gamma)=\zeta_p^{\,h-ab}R_a\Gamma.
+\tag{1133.79}
+$$
+另一方面，Nakamura–Wojtkowiak (5.2) 在这一层、同一根规范下
+恰将 $g(\Gamma)/(\Gamma R_a)$ 的 $\zeta_p$ 指数定义为
+$\widetilde\chi_2^u(g)$。所以
+$$
+\boxed{\quad
+h=\widetilde\chi_2^u+ab,\qquad
+h-\frac12ab=-\ell i_2(u,\gamma)\pmod p.
+\quad}
+\tag{1133.80}
+$$
+这付清了原 $D$ 与已刊五项式之间的实际箭头。
+负号来自 (1133.74) 的逆路径 cocycle 约定；不能在改用
+函数域自同构后仍把两个中央坐标写成同号。
+
+### 11.3. 完整算术 Heisenberg cocycle
+
+令
+$$
+\mathcal H=\mathbf F_p(1)\times\mathbf F_p(1)\times\mathbf F_p(2),
+\qquad
+(a,b,h)(a',b',h')=(a+a',b+b',h+h'+ab').
+\tag{1133.81}
+$$
+在任意特征零基域 $K$ 上，定义
+$$
+h_u=-\ell i_2(u,\gamma)+\frac12\rho_u\rho_{1-u}
+=\widetilde\chi_2^u+\rho_u\rho_{1-u}\pmod p.
+\tag{1133.82}
+$$
+则 $(\rho_u,\rho_{1-u},h_u)$ 是左
+$G_K$-cocycle，且在包含 $\mu_p$ 的域上就是 (1133.79)
+所读的原显式 torsor。
+
+这里可直接核微分，不靠 cup 为零的抽象存在性。
+由 $f_{gh}=f_g\,g(f_h)$，
+$$
+f_{gh}^{-1}=g(f_h^{-1})f_g^{-1}.
+$$
+配上 (1133.76) 的 BCH 公式，若
+$a_g=\rho_u(g)$、$b_g=\rho_{1-u}(g)$、$\chi_g=\chi_{\rm cyc}(g)\bmod p$，
+则
+$$
+\ell i_2(gh)=\ell i_2(g)+\chi_g^2\ell i_2(h)
+-\frac12\bigl(a_g\chi_g b_h-b_g\chi_g a_h\bigr).
+$$
+代入 (1133.82) 得
+$$
+h_u(gh)=h_u(g)+\chi_g^2h_u(h)+a_g\chi_g b_h,
+\qquad
+d h_u=-\rho_u\smile\rho_{1-u}.
+\tag{1133.83}
+$$
+因此是真正的 class-two 提升，而非一个只在
+$G_{K(u^{1/p},(1-u)^{1/p})}$ 上定义的字符。
+
+也可从几何确认其与原根代数的同一性。
+在通用 $u$ 开曲线上，绕 $0$ 和 $1$ 的两个 monodromy
+有完整首层，两者交换子生成中心，故 (1133.30) 几何连通，
+是自由两生成元的 exponent-$p$ class-two 商。
+上述切向 leading 指定其同一个点；
+这个 pointed 商由 (1133.76) 保持，给算术下降。
+沿任意实际单位方程拉回可不连通，仍是原 torsor；
+这里没有额外假设某个数值 $u$ 的纤维连通。
+
+### 11.4. 五点配置中的完整有序上链式
+
+令
+$$
+\xi\eta(1-\xi)(1-\eta)(1-\xi-\eta)\ne0,
+$$
+并按下列固定顺序取五个参数：
+$$
+u_1=\xi,\quad
+u_2=\frac{\xi}{1-\eta},\quad
+u_3=\frac{\xi\eta}{(1-\xi)(1-\eta)},\quad
+u_4=\frac{\eta}{1-\xi},\quad
+u_5=\eta.
+\tag{1133.84}
+$$
+取 $M_{0,5}$ 上同一个切向基点
+$(\mathbf P^1;0,t^2,t,1,\infty)$，
+以及从它到
+$(\mathbf P^1;0,st,s,1,\infty)$ 的同一条路径，
+其中 $s=\xi/(1-\eta)$、$t=\eta/(1-\xi)$。
+五个忘点映射的像基点都是 $\overrightarrow{01}$；
+各条连接路径为恒等路径。
+沿它们运输 (1133.77)，而不是逐项另取根。
+
+Nakamura–Wojtkowiak Theorem 6.1 给
+$$
+\sum_{i=1}^5(-1)^{i-1}\ell i_2(u_i)=0
+\quad\text{作为整个 }G_K\text{ 上的函数}.
+\tag{1133.85}
+$$
+其证明逐项核度二 Lie 映射，全部潜在低项仅为
+$-\frac12C_{35}+\frac12C_{35}
+-\frac12C_{25}+\frac12C_{25}=0$。
+所以这里不是只在 associated graded 上有五项式。
+结合 (1133.75)，(1133.85) 可整地约模 $p$。
+
+为给出原 ordered $h$ 坐标，写
+$$
+A=\rho_\xi,\quad B=\rho_\eta,\quad
+C=\rho_{1-\xi},\quad D=\rho_{1-\eta},\quad
+E=\rho_{1-\xi-\eta}.
+$$
+同一切向 leading 保证所有乘法根关系无额外相位：
+$$
+\begin{array}{c|cc}
+i&\rho_{u_i}&\rho_{1-u_i}\\ \hline
+1&A&C\\
+2&A-D&E-D\\
+3&A+B-C-D&E-C-D\\
+4&B-C&E-C\\
+5&B&D .
+\end{array}
+\tag{1133.86}
+$$
+这是上链值的逐点恒等式，而不只是 $H^1$ 中相等。
+直接展开给
+$$
+AC-(A-D)(E-D)+(A+B-C-D)(E-C-D)
+-(B-C)(E-C)+BD=2CD.
+\tag{1133.87}
+$$
+由 (1133.80)、(1133.85) 得到所需同源五项式：
+$$
+\boxed{\quad
+h_{u_1}-h_{u_2}+h_{u_3}-h_{u_4}+h_{u_5}
+=\rho_{1-\xi}\rho_{1-\eta}.
+\quad}
+\tag{1133.88}
+$$
+等价地，五个 BCH 中央坐标
+$h_{u_i}-\rho_{u_i}\rho_{1-u_i}/2$ 的交替和严格为零。
+原 Kummer 字符则满足
+$\sum_i(-1)^{i-1}\widetilde\chi_2^{u_i}=-CD$。
+(1133.88) 的右端是两个一次上链在同一 $g$ 上的乘积，
+不是一个二次 cup，也不能直接删除。
+
+该证明沿任意特征零基的五点配置拉回相容。
+可以在通用配置的函数域上验证，再用有限 étale pointed
+cover 的唯一延拓；因此也适用于本题由实际弦交点构成的
+五点配置。它不要求五项分别在基域上有一份独立且不相容的
+路径选择。
+
+### 11.5. 换路径的误差保留在哪里
+
+若将左 cocycle $c(g)$ 改为
+$q^{-1}c(g)g(q)$，其中 $q=(u,v,w)\in\mathcal H$，
+则由 (1133.81)
+$$
+\begin{aligned}
+a'(g)&=a(g)+(\chi_g-1)u,\\
+b'(g)&=b(g)+(\chi_g-1)v,\\
+h'(g)&=h(g)+(\chi_g^2-1)w+\chi_g a(g)v-u b(g)
+ +(1-\chi_g)uv .
+\end{aligned}
+\tag{1133.89}
+$$
+特别在 $K\supset\mu_p$ 时，中央差仍可为
+$a(g)v-u b(g)$。所以不能因所有原 cup 都满足 Steinberg，
+就宣称任意逐项选择的 $D$ 根自动满足 (1133.88)。
+同一 $M_{0,5}$ 路径及其 leading 规范，正是本节消除这个
+实际误差的输入。
+
+### 11.6. 有限 corestriction 的准确相容性
+
+设 $L/K$ 为有限可分扩张，$H=G_L\subset G=G_K$，
+对左 $G$-模 $M$ 使用非齐次连续上链。
+选右陪集 $H\backslash G$ 的代表集 $\mathcal T$，写
+$$
+t g=h_{t,g}t_g,\qquad h_{t,g}\in H,\ t_g\in\mathcal T.
+$$
+一次上链的标准 transfer 为
+$$
+(\operatorname{Cor} f)(g)
+=\sum_{t\in\mathcal T}t^{-1} f(h_{t,g}).
+\tag{1133.90}
+$$
+二次上链用
+$\sum_t t^{-1}F(h_{t,g_1},h_{t_{g_1},g_2})$；
+代入 $t g_1g_2=h_{t,g_1}h_{t_{g_1},g_2}t_{g_1g_2}$
+直接验证
+$$
+d\operatorname{Cor}=\operatorname{Cor}d.
+\tag{1133.91}
+$$
+这是上链级构造，不需要反除 $[L:K]$，也不要求该次数为
+$p$ 的单位。按同一代表集运输五条路径和所有根，
+(1133.88) 给出
+$$
+\sum_i(-1)^{i-1}\operatorname{Cor}(h_{u_i})
+=\operatorname{Cor}(CD).
+\tag{1133.92}
+$$
+这里右端准确为
+$$
+\sum_{t\in\mathcal T}
+\bigl(t^{-1}C(h_{t,g})\bigr)
+\bigl(t^{-1}D(h_{t,g})\bigr),
+\tag{1133.93}
+$$
+使用了 $\mathbf F_p(1)^{\otimes2}=\mathbf F_p(2)$。
+它不是 $(\operatorname{Cor}C)(\operatorname{Cor}D)$；
+后者还含不同 $t,t'$ 的交叉项。
+因此本节既付真实 finite-field/closed-point transfer，
+也保留 §7 和原 aux-$c$ 公式中不能丢掉的 crossed terms。
+
+### 11.7. 对原中央计算的已付与未付范围
+
+已完成的是：同一原 $D(\alpha)$ 源的完整算术 five-term
+homotopy、ordered/BCH 坐标换算、同一路径的根相位规范、
+以及 (1133.90) 的有限 corestriction。它可以沿实际五点配置
+使用，并可纳入原四线 Bloch 表达式的更换关系。
+
+仍须对指定 theta/Manin filling 给出实际组合，证明它在
+引入辅助直线后的开集之间按这些相容式拼接，并消除全部
+额外内点的中心惯性。完成那一步以后，才能使用
+[R1147](R1147-original-canonical-moment-Heisenberg-lift.md)
+所付原全模曲线上的 $H^1(\mathcal M,Z)=0$ 识别规范提升；
+不能先在较小开集上套用该消失。
+本节没有把 Bloch 的 $\delta$ 恒等式独自当成中央 cochain，
+没有删除各范数之间的交叉项，也没有宣称已经计算
+原 CM 参考 Frobenius 的 $z_{12}$。
+
+
 ## 来源及审核
 
 - [R1064](R1064-original-cuspidal-cover-descent-and-auxiliary-character-visibility.md)

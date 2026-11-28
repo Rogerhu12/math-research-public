@@ -148,3 +148,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 [R1154](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)用w=Y/X^(3/2)对同一Hasse/伴随两解作Pfaff变换，精确得到奇Pν/aν与偶aν(Wν−1−Pν Lp)，共同gauge (1−w²)^−((p−1)/12)。有限Lp=Σ_{j=0}^{(p−3)/2}w^(2j+1)/(2j+1)的Wronskian保完整carry 1−w^(p−1)Pν²；所有读取只至安全p−5，无p分母。
 
 首标签准确H_p=4χ(r)/(63βaν²){q_p(2)−Hν+½Σ C_sH_s}，C_s=[w^(2s)]Pν⁴。minor准确4(3BνUν−Vν)/(13365rβ²aν⁸)，B/U/V都按同一个Vν=Wν−1−Pν Lp和R(P)=[w^(p−1)]P/(1−w²)定义，全部二/三次log项保留。实际good余对须q_p(2)=Hν−½Σ C_sH_s及3BνUν−Vν=0同时成立；未证不可能，也没有把此加权harmonic读数认成R1152的J或原F0 z12。继续真正同源联合消去/其它actual good行。
+
+
+### 原 D(α) 的整五项 cochain
+
+[R1133 §11](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)付原D(α)同根路径的完整算术五项cochain：h=χ̃2+ab、h−ab/2=−li2、dh=−a∪b，五项交替和=ρ1−ξρ1−η。bar Cor逐陪集乘积全保，不变成两个Norm之积。原四线/Manin组合在全M拼接与额外内点中心惯性仍须付；继续实际局部dilog/Frobenius读数，未套小开集H¹0。

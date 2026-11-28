@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原单位方程的完整算术五项式（已证明）**：[R1133 §11](results/R1133-original-primitive-unit-equations-and-Heisenberg-source.md)付原D(α)同根路径的完整算术五项cochain：h=χ̃2+ab、h−ab/2=−li2、dh=−a∪b，五项交替和=ρ1−ξρ1−η。bar Cor逐陪集乘积全保，不变成两个Norm之积。原四线/Manin组合在全M拼接与额外内点中心惯性仍须付；继续实际局部dilog/Frobenius读数，未套小开集H¹0。
+
 - **原114第二插入的同一椭圆/Padé来源（已证明）**：[原genus4 §9](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)：实际degree6/2两商、唯一极p−2奇原函数及完整pth补偿给Λ=4^(N−1)[x^N](1−x)^−1/2D_N；保首共振/全部Cartier尺度。Λ单位、18 cross与原双缺陷仍开。
 
 - **R1153（已证明）**：[原Kummer与有限FL坐标的准确校准](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)：真实Fp generic SS点付两比较单位U/U²、完整Miller相位、原两槽及所有q_t可见F0条目；r/s的原Bernoulli尺度与中央减法全保。独立C_SS与C_cyc取max；中央z12、最高组合非零和whole盘仍开。
