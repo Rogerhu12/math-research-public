@@ -1,0 +1,43 @@
+{
+  "status": "new_own_fixed_source_entry_compile_help_and_direct_original_pipeline_reuse_checked",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_complete_tail_geometry_chunks.py",
+    "sha256": "8cb073f0f30e37fbe7926c5fd0f51d6a9b8c0c238a51bdeca1da7c42eddbefb3"
+  },
+  "original_chunk_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_complete_tail_geometry_chunks.py",
+    "sha256": "0bc3a31e348a5885b45ae082486aa470d39693684d3960bcd3ead61cc35fd5ee"
+  },
+  "actual_checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "py_compile",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_complete_tail_geometry_chunks.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.09353088600028059,
+      "stderr": "",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_complete_tail_geometry_chunks.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.18248579200007953,
+      "stderr": "",
+      "stdout_sha256": "e955f0a2889a1fd6239fe2e5e76947c70aecbd2ef3a5ab27cc85111b88483226"
+    }
+  ],
+  "genuine_fixed_source_gate_precedes_geometry_import": true,
+  "original_chunk_factory_used_without_override": true,
+  "actual_chunk_pipeline_exporter_and_guard_tree_explicitly_bound": true,
+  "original_chunk_and_pipeline_numeric_algorithms_changed": false,
+  "real_accepted_fixed_source_available": false,
+  "positive_source_gate_or_geometry_executed": false,
+  "old_low_lambda_field_or_certificate_recomputed": false
+}
