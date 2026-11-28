@@ -71,3 +71,8 @@
 2026-11-28 10:28 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 84d新真正二阶核唯一首派120秒/1GiB：同原22的H2和固定已付14块核定义，完整二阶分子Delta·UH2V−(UH1[:,J])Adj(H1[I,:]V)。新5阶双向逆给已付秩5的完整三维核，原尺度逐项返，直接收缩3阶目标。
 - 只有新rank r实际返回才付原u度≤788+r；r1才合旧模789付保度。所有Q零纤维/H42保留，不重跑旧22/8rank/Hungarian/模det。新增.github/workflows/invariant-subspace-8542-phi-second-kernel-schur.yml仅本题必要首派；W有限候选与普通ISP继续。
+
+2026-11-28 10:30 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 84d唯一run46098274233/job140834619712真9.916448275秒/67032KiB/0，完整二阶逆修正3核rank2，原QQ u度789至790；50新双逆/48+48核/9低阶零/9变换及5272除法，实际小回执入库。余一阶仍未付，续完整三阶标量，不提前称789保度。
+- 0177整H42固定12原标量交首次120秒/1GiB：真实G=detSyl^(6,6)(P6,C6)普遍给DG∈I10（P6本身无未定位身份），保全部H19零纤维。首个仅按原单位/头选的H42点实际返Bézout和非零det后，才以pGauss与已付QQ不可约性付有限交；QQ总次数以完整矩阵对偶界支付。
+- 仅四小源加历史P6输入在Actions临时git恢复，不传/重存数据载荷。新增.github/workflows/invariant-subspace-8542-phi-h42-fixed12.yml为本题必要首派；实际pull/rules见回执，普通ISP仍继续。
