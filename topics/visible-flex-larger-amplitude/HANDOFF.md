@@ -42,7 +42,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 68de98440dac53c10a8adb96fd85d4bd5a4098f6
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-retry-46175515918-1-index.json) [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 9729281883d95c237073009bc34e7f6bef295cb8
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 49f6975f55ef9cf741ce6eafefc9a7e3b6e6b227
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull bbd8e588b2a94a0e5a4ea3ecf4e2a37f4a7f7442
 
 <!--r777-publish-->R777 [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 08ce1c922d5b3b391f57897cc70de0a86d227438
 
@@ -59,3 +58,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R779/R782/R783完整已闭范围](results/INDEX-after-R770.md)：各原证明/源/条件原字保留，微幅下降、角解析夹持、四扇几何不冒全题完成。
 
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：24科学源/三族18阶段，原GN加真实应力负方向；硬固定.0024领不能加密至零，仅作完整原预算对照。两free-rim族仍可修，全末网原预算；实际run/PID待返。
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull b394d7a2421fcd0c0909b044810a0f10f93d0656
