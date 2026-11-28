@@ -1,0 +1,211 @@
+{
+  "schema": "complete-R730-safe-cone-minimal-reference-source-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "complete protected source-only minimal implementation; full scientific family still being adapted",
+  "source_construction": "V8 full-text/JSON/hash only; no numerical evaluation, Python/AST/compile or fixture",
+  "proof": {
+    "name": "R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md",
+    "path": "topics/visible-flex-larger-amplitude/results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md",
+    "bytes": 40604,
+    "sha256": "362062d7b90d67e050130266d1c355f267fd97a4e604c5d657178efcdd35c7b8",
+    "git_blob_sha": "41407fa22c569fad73a848ab603b885601066228",
+    "role": "complete R730 proof with explicit fixed-input single-pulse existence",
+    "publication": "3a38882e887dae0688835ccd9b1b41c7eb6d24c6"
+  },
+  "complete_artifacts": [
+    {
+      "name": "fixed_fejer_R730_safe_cone_length_kernel.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R730_safe_cone_length_kernel.py",
+      "bytes": 23326,
+      "sha256": "87be2efa7381f50bd419c0d91a3b0c5b1a762f9f1eb7d1f2f7a053f8bc93cfc2",
+      "git_blob_sha": "25d57b4a93ac0b85ff6c46c010720fb060575f20",
+      "role": "complete scalar length and inverse-arclength two-angle kernel"
+    },
+    {
+      "name": "fixed_fejer_R730_safe_cone_arclength_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R730_safe_cone_arclength_reference.py",
+      "bytes": 25499,
+      "sha256": "53ebce095394a833d95a65b834ae889b4cb9554e06ef839fcb626bddcb8864b8",
+      "git_blob_sha": "4e10ffae2f584a2143d47349e454d7a1e3971c7b",
+      "role": "complete original-context-bound R730 unit-meridian provider"
+    },
+    {
+      "name": "reproduce_R730_safe_cone_minimal_reference_sources.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_R730_safe_cone_minimal_reference_sources.mjs",
+      "bytes": 56542,
+      "sha256": "bacc2601f27fc48471edd42c7e5f25762e6d521f34316a6b17f35d3fa3cd4fbc",
+      "git_blob_sha": "0ec83df95c77082fbaab617d32eaa609c4487243",
+      "role": "complete text-only two-runtime source reproducer with full bodies"
+    },
+    {
+      "name": "2026-11-28-R730-safe-cone-reference-minimal-source-and-interfaces.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-R730-safe-cone-reference-minimal-source-and-interfaces.md",
+      "bytes": 15370,
+      "sha256": "0d0b7d3e2660194e67fddaa28d65a210383d0990108d8db579a388bc44f5c438",
+      "git_blob_sha": "c3b28e461938536ea0caf85ca8b1a863d559c7f6",
+      "role": "complete source, exact/working distinction and necessary consumer interfaces"
+    }
+  ],
+  "complete_artifact_count": 4,
+  "total_artifact_bytes_excluding_this_manifest": 120737,
+  "complete_original_source_parents": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py",
+      "bytes": 53384,
+      "sha256": "c6fc04db9223981e1829620613c71de4c0bec93813ec0eeaf5f8ef7770217e86",
+      "git_blob_sha": "11143579520b9509d4d95323052743031f317e6b",
+      "role": "seed_reference",
+      "name": "fixed_fejer_R728_reversed_spherical_halfwave_meridian_reference.py"
+    },
+    {
+      "name": "fixed_fejer_axisymmetric_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "bytes": 60335,
+      "sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+      "git_blob_sha": "8ad0794ebf0daab9a278c5ea1de784e93b64fd8c",
+      "role": "unchanged complete fixed input context"
+    },
+    {
+      "name": "2026-11-17-parallel-model-full-hold-oracle.py",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-full-hold-oracle.py",
+      "bytes": 11694,
+      "sha256": "a1ed8fa5d2186f400ea50a1d609574ec6996e59317a57638a6820a59cf0e7670",
+      "git_blob_sha": "c52508fb931e8381a0f53cdd9991ef65427cedd7",
+      "role": "unchanged exact physical scalar and core kappa0"
+    }
+  ],
+  "unchanged_complete_chart": {
+    "bytes": 1348,
+    "sha256": "cbef05aa8dd6b739f1724a01a245ba042cd35e15ac22c4527c45baace903ae29",
+    "method": "SupportedUnitMeridianJet._chart -> SafeConeUnitMeridianJet._chart",
+    "comparison": "exact complete function body after terminal blank-line normalization only"
+  },
+  "complete_scientific_family_parent": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-current-runtime-binding.json",
+    "bytes": 74756,
+    "sha256": "4af8d6d8ca43a8bc62005e091e0b3baddb6e0e382f0ba6c6ac62247678f3c4ea",
+    "git_blob_sha": "d79fd8c5e889f826585cd4ddaf64aeadbc0ef369",
+    "complete_source_role_count": 137,
+    "current_complete_runtime_source_count": 23,
+    "scope": "All original source pairs and complete historical responsibility retained by whole-file reference; no new completed family claimed"
+  },
+  "current_exact_fixed_input_facts": {
+    "whole_volume": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1-part-002.md",
+      "bytes": 52652,
+      "sha256": "47cf7953ed91408f689a58e70fc290fa931a46a652b418a16c5a86fb52300b6a",
+      "git_blob_sha": "9d4f30eae551516c9ee5357d3ec46f19606eb548",
+      "fixed_commit": "106767818ea8aed67cf6f74880abd9cee73d3dd2"
+    },
+    "step": 6,
+    "complete_readonly_scalar_selections": 90,
+    "source_commit": "95f8de55264e1bf1ef3d8de6308631847c953eb4",
+    "actual_output_bytes": 22366,
+    "actual_output_sha256": "038b92a34f6a33a40efeac7da4bff53e710ce22a999fe02c70f7b23ae26a9151",
+    "new_scientific_F_J_or_roots": 0,
+    "old_step5_summary_errors_preserved": true
+  },
+  "physical_definition": {
+    "eta": "1/32",
+    "maximum_contraction": "3/4",
+    "wide_pulse_flatness": 6,
+    "pulse": "(1-(2*t-1)^12)^7",
+    "baseline_degree": 5,
+    "pulse_degree": 84,
+    "internal_formula_cuts": [],
+    "fixed_a_S_R_chart_and_initial_H_from_whole_original_context": true,
+    "current_outer_core_H_and_rotation_channels_are_not_seed_inputs": true,
+    "accurate_length_root": "L(xi,phi)=S",
+    "accurate_inverse": "ell(t,phi)=s",
+    "complete_domain": "all original s in [0,S], all original chart angles; future normal retains all32 stages",
+    "old_Slerp_mean_profile_roots_inherited": false
+  },
+  "complete_working_parameters": {
+    "handle_length": "1/32",
+    "maximum_contraction": "3/4",
+    "pulse_flatness": 6,
+    "radial_quadrature_order": 8,
+    "profile_quadrature_order": 16,
+    "actual_full_cell_order": 16,
+    "mean_maxiter": 128,
+    "mean_tolerance": 2e-12,
+    "scalar_iterations": 64,
+    "mean_backtracks": 24,
+    "mean_armijo": 0.0001,
+    "full_reference_node_count": 923,
+    "full_reference_cell_count": 922,
+    "outer_integration_and_normal32_separate": true
+  },
+  "provider_interface": {
+    "class": "SafeConeUnitMeridianJet",
+    "required_keywords": [
+      "expected_bundle_sha256",
+      "length_parameters",
+      "length_kernel_module"
+    ],
+    "optional_keywords": [
+      "cache_directory"
+    ],
+    "evaluation": "evaluate(cells,local,phi)",
+    "returned_full_jet_arrays": [
+      "T0",
+      "T0_s",
+      "T0_phi",
+      "T0_phiphi"
+    ],
+    "new_root_arrays": [
+      "xi",
+      "xi_phi",
+      "xi_phiphi",
+      "complete_fixed_xi_length_jets",
+      "full_prefix",
+      "complete_control_jets"
+    ],
+    "old_v_d_w_lambda_arrays_absent": true,
+    "seed_model_identity_field": "safe_cone_seed_model_identity_sha256",
+    "complete_model_length_source_field": "length_kernel_source_sha256"
+  },
+  "exact_working_boundary": {
+    "working_inverse_uses_actual_total_length_normalization": true,
+    "working_partial_quadrature_derivative_equals_true_speed_claimed": false,
+    "working_jets_are_continuous_formula_evaluations_not_exact_discrete_AD": true,
+    "working_G_primitive_equals_integral_of_unit_T_claimed": false,
+    "new_Q_calibration_required": true,
+    "quadrature_root_inverse_trigonometry_and_rounding_error_paid": false,
+    "accurate_normal32_branch_or_reach_paid": false
+  },
+  "required_next_complete_sources": [
+    "base: true new ctor/model and source",
+    "Q: full new length seed definition validator",
+    "reference_calibration: recompute actual closure under new seed",
+    "normal and seven current lower helpers: complete source/method identity cascade with all32 stages",
+    "packet/source binder/driver/pure: true length-root records, no old mean aliases",
+    "selector/geometry/cache binder: all actual normal/helper/policy pins",
+    "accurate full-angle length+inverse+sixjet/closed/R716/mesh: independent actual equations and source binding"
+  ],
+  "runtime_false_flags_preserved": [
+    "continuous_root_and_inverse_errors_enclosed",
+    "accurate_length_root_error_or_global_branch_certified",
+    "complete_reference_safe_cone_and_diameter_certified",
+    "seed_physical_field_or_normal_control_rank_inherited",
+    "continuous_metric_geometry_or_full_phase_certificate"
+  ],
+  "future_actual": {
+    "run_id": null,
+    "attempt": null,
+    "source_commit": null,
+    "complete_family_source_binding": null,
+    "model_identity_sha256": null,
+    "current_full_point_sha256": null,
+    "root_packet": null,
+    "normal_report": null,
+    "geometry_report": null,
+    "closed_report": null,
+    "R716_report": null,
+    "mesh_report": null
+  },
+  "refs_queues_or_running_jobs_modified": false,
+  "source_reproducer_is_scientific_admission_gate": false,
+  "AST_compile_fixture_or_science_executed": false
+}

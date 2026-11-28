@@ -397,3 +397,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:14:58 UTC — RET91 全部旧source-plan的代码字符串与参数token保留
 
 51份完整旧R495–R617/request217–251 source-plan中50份只删字符串外ASCII空白，1本已紧凑不动；所有完整代码字符串、patch顺序/正文、来源pins、数值字面及旧参数原字保。完整30610B/c8870a0cd68852d91078005b128893310fc7eb190e5ed0a62d6d5bcbf3562b0c映射、3705B再生器、4494B说明同刊；固定9c32ec31ec8bf8c61da0774a37e4cfdda48de791 whole恢复供旧hash消费者。毛308463B、附件38809B、净269654B，不改科学运行源或活CLI/ready/request/输入，不借格式化冒科学结论。 双README云核至`1265654fb8b5ac1f82d97a72759fb8fa20335a19`无变（非pull）。
+
+## 2026-11-28 09:15:04 UTC — R730完整长度核、参考provider与真实后继接口
+
+五完整件130462B同刊：length核23326B/87be2efa7381f50bd419c0d91a3b0c5b1a762f9f1eb7d1f2f7a053f8bc93cfc2、provider25499B/53ebce095394a833d95a65b834ae889b4cb9554e06ef839fcb626bddcb8864b8、完整再生器56542B、接口说明15370B及总表9725B/8f59f54e5cffe473c88ae91b2847c763e3a58512ca195bdecf322419ea7e432d/blob1dc015fc0e7039be74be60810cd1036bf3184d4c。完整原e717 context/scalar/160 chart/923节点及新全16阶正权length积分、真实两角根/反弧长记录保留，固定η1/32、ξmax3/4、单脉冲k6与已刊R730 proof同源。T0四数组接口保形状但不伪造旧mean12数组；ell_work端点规范与unit T0积分可能有工作残差，全部false/未付误差明确，base/Q/calibration/normal/32stage必须新付。没有本包的实际科学运行、AST或新增审查门，geometry/solver继续完整新family接线。 双README云核至`da77b4ba198d7cbb53b72016ca2b74d0dbdb810e`无变（非pull）。
