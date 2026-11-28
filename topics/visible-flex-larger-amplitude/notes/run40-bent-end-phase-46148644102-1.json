@@ -196,40 +196,40 @@
   "child_pid": 2569,
   "child_returncode": null,
   "latest_observed_scalar_line": {
-    "ordinal": 21,
-    "utc": "2026-11-28T13:23:32Z",
+    "ordinal": 22,
+    "utc": "2026-11-28T13:30:09Z",
     "original": {
       "event": "solved_knot",
       "stage": 6,
-      "index": 1,
-      "phase": 0.19634954084936207,
-      "point_sha256": "a8d7e25d4885609577c45124299401ca6c325557ef69233e2a4e4241a5ad1872",
-      "nfev": 55,
-      "njev": 37,
-      "status": 2,
-      "cost": 0.2033317908404902,
-      "optimality": 0.08899890440994522,
-      "adjoint_abs": 3.608224830031759e-16,
-      "directional_fd_relative": 2.9377370202470178e-08,
-      "train_gram": 2.170201262354805
+      "index": 2,
+      "phase": 0.39269908169872414,
+      "point_sha256": "e566141880a6d54e7d3faca1b8424dcbb506f99f0b4d2f97c3b25d56d8962444",
+      "nfev": 68,
+      "njev": 49,
+      "status": 0,
+      "cost": 0.29655428233564596,
+      "optimality": 0.06489465442357387,
+      "adjoint_abs": 4.440892098500626e-16,
+      "directional_fd_relative": 3.2103556437410214e-08,
+      "train_gram": 2.7650197452293126
     }
   },
   "scientific_summary": {
     "file": {
       "path": "/home/runner/work/_temp/run40-bent-end-phase-46148644102-1/field/summary.json",
-      "bytes": 23366,
-      "sha256": "b6ee34c369fe87a82f563e55b5aaceb2c3b7d44c89ef345d000664d18cbb5c06"
+      "bytes": 23361,
+      "sha256": "ad37a946f64b95b7f6ec11eedcabfed30e5999d332419747a111e28c7e42ff65"
     },
     "complete_small_json": {
       "continuation": "The complete locked coarse field is embedded by name in a strict superset; new central directions vanish only on the actual grip and at the protected positive cap-center first jet.",
-      "elapsed_seconds": 780.360699929,
+      "elapsed_seconds": 902.122009436,
       "in_progress": {
-        "call": 37,
-        "cost": 0.30163730665273736,
+        "call": 1,
+        "cost": 1.23913989558046,
         "design": "legacy-developable-boundary-expanded",
-        "knot_index": 2,
-        "phase": 0.39269908169872414,
-        "point_sha256": "0b07aed9dec2718686fe9fdf2c2df28064b4e90e7b72ba74db18f79d0708ef82",
+        "knot_index": 3,
+        "phase": 0.5890486225480862,
+        "point_sha256": "9b2a899690fe1fef34682b4d59be0c4d65efc9603a7e665d8572a88eb92652fc",
         "stage": 6
       },
       "numpy": "2.3.5",
@@ -1657,6 +1657,6 @@
     "MKL_NUM_THREADS": "1"
   },
   "child_started_utc": "2026-11-28T13:15:06Z",
-  "observed_utc": "2026-11-28T13:28:43Z",
-  "original_scalar_line_count": 21
+  "observed_utc": "2026-11-28T13:30:47Z",
+  "original_scalar_line_count": 22
 }
