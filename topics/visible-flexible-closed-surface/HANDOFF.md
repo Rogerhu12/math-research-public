@@ -53,7 +53,7 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-live-frozen --> [冻结α10的M32 own3](notes/2026-11-28-2ecf-frozen-alpha10-M32-continuation-actual-02-03.md)：G11 metric .154677、κ36.753、held .610131；真实频率加密仍未收敛。
 
-<!-- 2ecf-live-fixed-prefix --> [固定整个prefix的5292列own6](notes/2026-11-28-2ecf-position-prefix-locked-continuation-actual-03-06.md)：G11 metric .250905、κ20.903、held .709325；原行/guide全保留，prefix固有误差待处理。
+<!-- 2ecf-live-fixed-prefix --> [原17节点锁prefix的5292 own12](notes/2026-11-28-2ecf-position-prefix-locked-ultra-actual-07-12.md)：G11 metric .255143、κ21.350、held .703076，后缀峰平台；全行/guide保留。
 
 <!-- 2ecf-target-curvature --> [R259](results/R259-accurate-whole-prefix-two-sided-reach.md)：准确R233/R232全prefix含边界reach>.1013、全部有序双侧法球已证；R257嵌入与R256局部界保留。新后缀/改动场另付。
 
@@ -68,4 +68,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:13:25 UTC；已读公开 main `2ee36d39309bcb51c6f8baf8de646f4166a02f8d`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:16:50 UTC；已读公开 main `9d1204c9403a3b75e7ffb0dfb4f240ac7304f5fe`，根/课题 README 逐差无变化。
