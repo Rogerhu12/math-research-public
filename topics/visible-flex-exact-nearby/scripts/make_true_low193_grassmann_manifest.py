@@ -42,6 +42,9 @@ def main():
         if path.endswith(".py"):
             ast.parse(data,filename=path)
         manifest["files"].append(identity(role,path,data))
+    # Current operational rules are admitted independently of immutable TF science inputs.
+    rule_path = TOPIC + "/notes/2026-11-28-read-public-model-ultra-rules.json"
+    manifest["reviewed_rules"] = identity("current_reviewed_rules",rule_path,(root/rule_path).read_bytes())
     files = manifest["files"]
     specs = {s["role"]:s for s in files}
     if len(specs) != len(files) or len({s["path"] for s in files}) != len(files):
@@ -75,7 +78,7 @@ def main():
     if len(raw) >= 100000:
         raise ValueError("whole manifest publication budget")
     digest = hashlib.sha256(raw).hexdigest()
-    paths = sorted({"README.md",TOPIC+"/README.md",MANIFEST,*[s["path"] for s in files]})
+    paths = sorted({"README.md",TOPIC+"/README.md",MANIFEST,manifest["reviewed_rules"]["path"],*[s["path"] for s in files]})
     workflow = """name: R149 true low193 joint Grassmann charts
 on:
   push:

@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 09:58:13 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 10:05:02 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至c172cb36fed1c55470f259ee41ed4ead41fbdc6d；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至ede146a4a9899f74b54d9c1aa00bdf3222018431（09:41 pull，只读新增#15）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至e0cc2f5d5f83b60d9dbe7897807c613c63ba742f；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至ede146a4a9899f74b54d9c1aa00bdf3222018431（09:41 pull，只读新增#15）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META11新200件无当前引用旧manifest只去字符串外空白，净1180728B；原05b945b8f/receipt94784B SHAec28724d…保所有literal/whole身份，科学0。META1–10完整账/receipt保旧H，禁重做；本批每pull核changed/untracked+全200新hash，承接此前全reference scan。
 
@@ -18,7 +18,7 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 
 ## 当前实际执行与失败
 
-- GG首次入口（workflow YAML首发解析失败、0job/0科学；冒号安装命令已改literal block，原科学定义不动）：新精确有理Householder frame和非零中心joint-2图表，完整97+96端点/mean/1424节点/四source共方差和同格三角保；先匹配原81三whole SHA，后1343格order16未积分坏子盒只递归细分至1/64。manifest83676B/750b53d90be1e6b61ee6a627c6f75f3878a8e8a7c6d71f79cb6121ed27436261、97current/21history whole全核，源码AST与完整数学核过，旧科学0，未预报actual。4单线程workers、private七whole193矩阵/格，所有CPU/内存/容量原门保。
+- GG首次入口（run46132350868/1在旧README review处科学前失败0；已绑定root实际读#16且三个ultra实例落实的新规则回执；workflow YAML首发解析失败、0job/0科学；冒号安装命令已改literal block，原科学定义不动）：新精确有理Householder frame和非零中心joint-2图表，完整97+96端点/mean/1424节点/四source共方差和同格三角保；先匹配原81三whole SHA，后1343格order16未积分坏子盒只递归细分至1/64。manifest71851B/4f9f284a5d60bca7ec051024db6ac2c55f29635680b6daaae4033bcd87118e67、97current/21history whole全核，源码AST与完整数学核过，旧科学0，未预报actual。4单线程workers、private七whole193矩阵/格，所有CPU/内存/容量原门保。
 
 - TC46117170011/1：仅续原whole2677/7724 accepted union后的5047缺格，原连续1605/游标1605,3788,6000；全96列、四whole数组、原matrix/waist保。09:07仍in_progress；当前prefix不是完成。TCF新fleet只可在真实terminal之后分配accepted union之外缺格，不与此run重叠。
 - H96原46122740303 science前reserve不符失败、0目标；唯一修复0ed00cf19，原7目标46123190757/1（07:52:31）09:07仍in_progress，manifest60f1e7ca…114current/51history。全TC/RHI/8192grid/C0无界频/waist G96/means/world保；不是true PDE列。全actual后立刻接PWA96，旧积分不重。

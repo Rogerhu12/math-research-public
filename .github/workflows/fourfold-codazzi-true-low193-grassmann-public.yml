@@ -36,6 +36,7 @@ jobs:
             /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-zero-Volterra-positive-head-readonly-input-inventory.json
             /topics/visible-flex-exact-nearby/notes/2026-11-20-reviewed-public-CI-rules.json
             /topics/visible-flex-exact-nearby/notes/2026-11-26-low193-parent-moment-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json
             /topics/visible-flex-exact-nearby/notes/2026-11-28-true-low193-direct-flow-inputs.json
             /topics/visible-flex-exact-nearby/notes/2026-11-28-true-low193-grassmann-inputs.json
             /topics/visible-flex-exact-nearby/notes/centre_mean_floor_ci/run-44727185157-1/actual-scientific-conclusion.json
@@ -134,4 +135,4 @@ jobs:
           OPENBLAS_NUM_THREADS: '1'
           MKL_NUM_THREADS: '1'
           PYTHONUNBUFFERED: '1'
-        run: python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-true-low193-grassmann-inputs.json --manifest-sha 750b53d90be1e6b61ee6a627c6f75f3878a8e8a7c6d71f79cb6121ed27436261
+        run: python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-true-low193-grassmann-inputs.json --manifest-sha 4f9f284a5d60bca7ec051024db6ac2c55f29635680b6daaae4033bcd87118e67
