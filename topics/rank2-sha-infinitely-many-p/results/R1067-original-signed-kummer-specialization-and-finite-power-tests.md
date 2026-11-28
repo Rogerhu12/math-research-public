@@ -658,3 +658,41 @@ $$ \boxed{U_0=-G^p,\qquad DU_1=x^q,\qquad D^2U_2=2y^q.}\tag{AY1}$$
 置 $g=G/c_p$。由 $k(E)=k(E)^p(g)$、$Dg=1$，可唯一写为
 $$ U_1=x^qg+A^p,\qquad U_2=y^qg^2+B^pg+C^p.\tag{AY2}$$
 这里 $A,B,C$ 为唯一相应有理函数，极阶分别是 $q+p-1,\ q+2p-1,\ 2q+p-2$，$A,C$ 奇而 $B$ 偶。各阶数从上列真实主部及(AY1)逐项读取：$A^p$ 和 $C^p$ 各承原最高极；$DU_2-2y^qg=B^p$ 的最高极来自 $2L_{(p+2)b+1}$ 的一导。尚须判定这些真实函数在原 $\varepsilon$ 全驯和中的值，空间与导数非零都不能替代该泛函非零。
+
+## 84. 整个原驯挠点上的固定代数 zeta 值与有限 CM 等变窗
+
+沿(AY1)取 $G=L_p$，$DG=c_p\ne0$。在 $E_1\times E_1$ 的函数域有
+$$ G(P+Q)-G(P)-G(Q)=
+ \left(\frac{y(P)-y(Q)}{x(P)-x(Q)}\right)^p.\tag{AZ1}$$
+先在几何泛点 $Q$ 的完美系数闭包上就 $P$ 比较。左对 $P$ 的不变导数为零，其 $p$ 根仅在 $P=-Q,O$ 各有简单极点，主系数分别为 $+1,-1$；右侧斜率函数同样。由 $G(P)=s^{-p}+O(s)$ 在 $P=O$ 比较，两者常数项皆为零，故相等并自动下降。尺度始终是原 $y=\wp'/2$。
+
+对非零 $\alpha\in\mathcal O_K$ 素于 $2p$，取除函数 $\psi_\alpha$ 满足
+$\operatorname{div}\psi_\alpha=[\alpha]^*[O]-N\alpha[O]$。奇阶核各点之和为 $O$ 保证存在；常数归一不影响对数导数。有
+$$\begin{aligned}
+ G([\alpha]P)-\alpha G(P)&=K_\alpha(P)^p,\\
+ K_\alpha&=\alpha^{-1}D\log\psi_\alpha
+          =X(\alpha P)-\bar\alpha X(P).
+\end{aligned}\tag{AZ2}$$
+最后一式在特征零先解释，整体为可约化有理函数，由 zeta 准周期或各极部及奇性得出。在特征 $p$，左边导数零；其 $p$ 根在非零 $E[\alpha]$ 各点的首系数为 $\alpha^{-1}$，在 $O$ 为 $\alpha^{-1}-\bar\alpha$，因为 $\alpha^{1/p}=\bar\alpha$ 于 $\mathbf F_q$。$K_\alpha$ 有相同极部，两边的 $p$ 根皆奇，故无多余常数。
+
+特别取 $c=103\equiv1\bmod f$，在每一个原始驯点上
+$$ \boxed{G(T_t)=X(T_t)^p,\qquad
+ X(T_t)=K_c(T_t)/(1-c).}\tag{AZ3}$$
+$X(T_t)$ 是原特征零固定代数值的好约化，$p>211$ 保全分母。(AZ3)也解释 $G^p$ 在原驯泛函的零：$\varepsilon(-p)=1$ 且 $\sum_t\varepsilon(t)X(T_t)=0$。原角色方向一直是 $\psi_{17}((a))=a/\varepsilon(a)$、$\varepsilon(u)=u$。
+
+写 $g=G/c_p=s+H(s)^p$，令 $a_0=c_p^{-1/p}$。$\mu_6$ 权及 $Dg=1$ 给
+$g=a_0^p s^{-p}+s+O(s^{5p})$；$H$ 主部为 $a_0s^{-1}$、权为 $\zeta^{-1}$。置 $V=DH+a_0x$，它在 $O$ 正则。将(AZ2)用 $g=s+H^p$ 展开、取 $p$ 根后求导，得
+$$ \alpha V([\alpha]s)-\bar\alpha V(s)
+       =-D([\alpha]s-\alpha s)^{1/p}.\tag{AZ4}$$
+这里 $DK_\alpha=-\alpha x([\alpha]s)+\bar\alpha x(s)$，且 $([\alpha]s)'=\alpha$ 于特征 $p$。
+
+对各 $a\in\Delta$ 以 CRT 取 $\alpha$ 素于二且 $\alpha\equiv a\bmod p^2$。有 $[\alpha]s=as+O(s^{q^2})$，故(AZ4)右端阶至少 $q^2/p-1$；在严格小于此指标的窗，$V$ 只容次数 $p-1\bmod b$。任何形式导数的 $s^{p-1}$ 项皆零，所以
+$$ DH=-a_0x+C_p s^{p-1}+O(s^{b+p-1}),\qquad
+ C_p=a_0[s^{p-1}]x\ne0.\tag{AZ5}$$
+规范 LT 对数在 $s^q$ 前等于 $s$，该 $x$ 系数即[R301 (12)–(13)](R301-jzero-inert-analytic-half-factor-and-exact-first-denominator.md)的原 $X_{(p+1)/6}$，已证模 $p$ 为单位。
+
+用 $\mu_6$ 的非平凡权固定下式偶函数的常数，则
+$$ L_{p-1}=\frac{G^2-x^p}{2c_p},\qquad
+ L_{p-2}=\frac{G^3-3x^pG-2y^p}{3c_p^2}.\tag{AZ6}$$
+这里 $L_{p-1}$ 以所示权及唯一主部定义，$L_{p-2}$ 如§83。由
+$G=s^{-p}+c_ps+O(s^{5p})$、$x=s^{-2}+O(s^4)$、$y=-s^{-3}+O(s^3)$，两右端各有准确的单一负幂主部。(AZ3)、(AZ6)在每个原固定 $T_t$ 上只用 $X(T_t),x(T_t),y(T_t)$ 的 Frobenius 像及 $c_p$；仍未算尽(AY2)中 $B^pg+C^p$ 的全驯贡献。

@@ -49,3 +49,7 @@
 ### R1073 §24：同一原首圈的全部负权与真实扭点导数
 
 已证明：同一p+1原核的真实移动jets给Ab(ρ^(−n−1)−1)；Lagrange准确付n=p^a−1参考赋值，仅两个驯权读a₂任意p进精度。首导数保全部tame与wild移动，H=−ζ−x²/y及完整ψ_p斜率给实际代数归一。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1067 §84：原全部驯点的固定代数zeta值与CM等变窗
+
+已证明：原G的全局加法及CM除函数极部给G(T)=X(T)^p，逐点保原17而非只一个加权和；实际p根H的CM等变窗及两个低极阶函数由固定G/x/y准确表示。原B/C全驯贡献仍未付非零。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
