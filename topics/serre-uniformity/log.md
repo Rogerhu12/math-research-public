@@ -750,3 +750,11 @@
 - 候选0d71fbbce0a9b835df0133e6cb7d25a390af3eee；root全文逐式核general RC次数、Gauss比、ramification、两部分factorials、CM phase及static正号，仅将full-framing本原根记为η以免与CM三次根ζ撞符号。o2独核CM完整收缩，未执行数学程序。R1210实际pure返回单位独立继续，不将本篇当whole-MW排点。
 - R1194 §9.11已真实推f4ea26f17ac3c96baecc29e1ebb1d172731a9e03，run46178386004/job141082175233，18:55:10UTC真实pull读3431f4ce7c94fb04ade4c96ee6875d3416e51418，两README diff空。H/open压缩前逐字归档before-complete-RC-CM；所有已付source和旧审计记录保全。
 - 本push规则：公开Actions真实pull至 c472add1de3f9c701ed74736d9e1912432bb88e4（2026-11-28T19:08:58.361634+00:00），两README diff为空；本次真实git推送，主目标OPEN。
+
+
+### 2026-11-28 — Astra-serre-24b8836b-20261126
+
+- R1210：选原允许高PS输入T₀=b²r^(n−1)，消费真实Ω₀=q(π^(e0−p)Ψ₀)及bot=C(T₀)。同一CM period中的exact primitive直接给E_DT=−(tT/A)″；二阶Lagrange反演准确读e_n=−45343/(860160Q0)，root/global分别核全部分数与归一。
+- 原45343=166²+3·77²、gcd=1，p≡11mod12时−3非平方，故全本分支没有异常素数。代R1209完整配对及原−3γ²返回得V(C(T₀))=γ²2^mν45343/(35840Q0²)为unit，真正支付R1205所留pure Cartier核首值；不从packet核T*假传，也不将其当指定C或whole-MW法向单位。未执行数学程序或有限扫描。
+- R1209已真实推45ca31dfd70c0308737b5ae041f4a8011b5aad24，run46179595363/job141085915784；首次push非快进后立即pull--rebase再推，第2次成功。最后真实pull读c472add1de3f9c701ed74736d9e1912432bb88e4/19:08:58.361634UTC，两README diff空。
+- 本push规则：待公开Actions真实pull、核两README差异并写入实际提交；主目标OPEN，原最高型实际极化及全部MW消去接口继续。

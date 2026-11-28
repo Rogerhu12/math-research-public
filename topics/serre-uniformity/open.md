@@ -142,13 +142,13 @@ R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 
-[R1193–1201](results.md)原最高整packet的simple-Cauchy首中心、完整CM旗标及其一维核T*=−r^n、m次有限Čech log和same-target有限PD均付；实际点/μ3/全部normal与simple极部保留。R1200锁canonical τ=B²、C²=γ²/B^(2p)及统一ν，R1201的Jacobi权1/CM端点32/有限RC给SS和32m c_mν/Q0²。R1199§6曾删支持node的步骤及完整V数值已由R1208更正，旧SS探针59/71/83与simple27/33/39只消费不重跑。各原公式、source/run/hash详见本次逐字前态及R1193–1201；一般全配对现由R1209付，pure返回和指定C/whole MW继续。
+[R1193–1201](results.md)原最高整packet的simple-Cauchy首中心、完整CM旗标及其一维核T*=−r^n、m次有限Čech log和same-target有限PD均付；实际点/μ3/全部normal与simple极部保留。R1200锁canonical τ=B²、C²=γ²/B^(2p)及统一ν，R1201的Jacobi权1/CM端点32/有限RC给SS和32m c_mν/Q0²。R1199§6曾删支持node的步骤及完整V数值已由R1208更正，旧SS探针59/71/83与simple27/33/39只消费不重跑。各原公式、source/run/hash详见本次逐字前态及R1193–1201；一般全配对现由R1209付，pure返回unit现由R1210付；指定C/whole MW继续。
 
 [R1202–1203](results.md)原最高负deck实际整Ω满足UΩ∈pΛ，qΓ整分裂；全normal/临界jet/centre已付。PS临界Sym^(3p−1)det^(m−1)上Ubar=−iq₂/4，原N固定矩阵[[1/4,1/8],[−1/2,−1/4]]秩一平方零，完整framing与群和常数保全。同底lift经π^−pU可改变generic底；其真实返回已由R1204读取，不先定义lift独立A(L)。
 
 [R1204](results/R1204-original-PS-return-Cartier-kernel-and-cuspidal-quotient.md)原PS中心 Ψ=uT db/(rA)、T∈b²k[b³] 的真实π^−pU返回已读：T_ret=−3γ²(rT″−4b²T′−9bT/4)。完整framing定det，原第p层最高pole由β=[W^(p−1)]Ψ/dW给出，余极部经R1203真被杀；Cartier换参及原τ/B/C²相位全保。此n→n+1二对角映射注入，像恰ker𝔠，𝔠(S)=[B^(2n+1)](1−B)^(2n+2)Q S，𝔠(1)为显示单位。原qΓ负格秩=n+λ，实际特征零multiplicity已由R1205核为n、λ=0；𝔠(T*)未宣单位，不将packet值传C/whole MW。
 
-[R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原首值目标准确V_m|ker𝔠；若𝔠(T*)=0可由同底lift独立传原单位，否则不能把T*当纯底。指定C与whole MW仍开。
+[R1205](results/R1205-original-cuspidal-deck-multiplicity-and-Cartier-kernel.md)原full-six稳定子含Γ(6)，其mod p像为SL₂；除p标量后准确两pairing平方类组件。函数ε=±1给与原δ交换的η-twist，比较G重数后再用各自N固定线，付最高纯尖点自然负deck秩准确n。故R1204的λ=0，bot:qΓ/pqΓ≅ker𝔠，实际高PS返回给整基。原pure首值目标准确V_m|ker𝔠，现由R1210的实际T₀返回付unit；不需要𝔠(T*)=0。指定C与whole MW仍开。
 
 [R1206](results/R1206-original-PS-return-explicit-primitive-and-p-poles.md)同一原函数域显式原函数f_T=(r/u)(T/A)′满足df_T=𝒟T db/(uA)，原返回η_CT=−3γ²df_T。SS在实际W=u/τ中完整负主部为−r_s^(2n+3)A′_sT_s W^−p/τ^p−m𝒟T(s)W^−1/(τA′_s)；两个项均保。CM处ord≥2n+1、全部∞正则消失，deckζ²。exactness不删除p阶极点，不替全图有限log或三个支持尾；继续同源period与CM末列。
 
@@ -157,6 +157,8 @@ R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End �
 [R1208](results/R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md)更正原CM node平凡化：真实e_D/e_I给static σ=(1+A_tail z^(4g))^(−3aξ)，改node frame后tail–node∈1+I而centre–node须保σ。原有限Picard双接口和全normal界排高p分母；顶k=2g的H(Q)=−4·2^m A^L、H(R)=−8c_m A^L，good CM模型独立锁τ_CM^(m−1)A_tail^L=νξ⁻¹，γ_top保A(ξ)²。支持项准确8(2c_m−2^m)ν/binom(m,n)²，加旧SS项后完整V_m(T*)=−8·2^mν/binom(m,n)²为unit。旧R1199§6/1200–01完整V数值已更正，SS求积与独立R1202–07保留。一般V|ker𝔠仍须完整CM analytic项；同源E_DT=r_s(vT/A)″仅简化SS端。
 
 [R1209](results/R1209-original-complete-RC-CM-contraction-and-endpoint-readout.md)一般S的完整首对数已付：same good target的t=vG/F=cξW^m给全CM混合normal γ_k=mcξ^(3k)e_(k−1)/(3τξd_k)。原RC低阶primitive使全部I(S)=0；Gauss误差严格为3F/(Q0Q)，SS regular收缩与三个CM analytic列逐项抵消，6/t极部和static顶项全保。完整V_m(S)=−8·2^mν e_n(S)/A1，其中E_S=−v²F³S/A1。对实际返回E_DT=−(tT/A)″，故e_n(DT)=−(m+1)(m+2)[t^(m+1)]T/A；原返回还乘−3γ²。不据此跳过指定C/whole MW或两deck整格比较。
+
+[R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原纯尖点首值已为unit：取实际高PS输入T₀=b²r^(n−1)，Ω₀=q(π^(e0−p)Ψ₀)的底是C(T₀)=−3γ²𝒟T₀。same CM period的二阶Lagrange给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²且互素，p≡2mod3迫分子全支非零。故完整V(C(T₀))=γ²2^mν·45343/(35840Q0²)为unit，V|ker𝔠本原；无需𝔠(T*)=0。不是指定简单商C或whole-MW法向单位，继续两deck实际格、Π/Φ/极化和全原CM jets。
 
 ## O5：原固定 Y 的有效断点
 
