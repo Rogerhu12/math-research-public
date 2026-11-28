@@ -26,7 +26,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-target-curvature --> [R267](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)新gap.92前缀；[R281](results/R281-positive-support-central-cylinder-at-full-gap.md)正解析中央；[R283](results/R283-nonelliptic-accurate-rulings-global-reach.md)两新Γ95母线环带全域reach，p32原长≥.222，完整拼接仍另付。
 
-<!-- 2ecf-live-g10 --> [五个真材料场的完整G10/G11实测45°排球平面都违反；加两软平面冻结g真420步，G11 .220004/11.26965/.638995，未达保证。](notes/2026-11-28-2ecf-actual-material-position-held-projection-and-real-frozen-solve.md)
+<!-- 2ecf-live-g10 --> [真实R286第一/第二像G11 κ1554.63与33.0894；直接对第二像全部六jets及14行求导，冻结g独立280步后G11 .457854/18.0953/.662734。](notes/2026-11-28-2ecf-true-spatial-image-metric-and-curvature-actual-frozen-steps.md)
 
 <!-- 2ecf-R271-components --> [R273上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)、[R282回折双控尾](results/R282-returning-developed-ports-with-independent-terminal-tangent-and-height.md)中央/两尾/固定帽三分量全时reach≥.097，仍缺两个连接带。
 
@@ -52,4 +52,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:55:07 UTC；已读公开 main `1b2fd8cac7ea13687c009249cd071e17b21b5e21`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:55:17 UTC；已读公开 main `2b7d97bacb5663165fe676cf64b2245ac444a87d`，根/课题 README 逐差无变化。
