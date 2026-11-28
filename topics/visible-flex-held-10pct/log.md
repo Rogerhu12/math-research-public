@@ -240,3 +240,7 @@ root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层�
 ## 2026-11-28 12:28 UTC — 旧 E input 的独立 XOR 字节归档实际完成
 
 29份旧input以永久独立static-template为base，逐份落盘后解码并与完整原字节/SHA核同；新ready manifest持久后才移除旧gzip。210929851B旧gzip→13681701B delta，实释197226496B。root核5个直接绑定，analytic独立只读审恢复/原子记录和根范围；新F与旧output均未改。原journal保持历史，输入须改用新manifest的明确恢复入口。见 [记录](notes/2026-11-28-tail-lossless-xor-storage.md)。
+
+## 2026-11-28 12:31 UTC — 原几何逐文件保护门与实际89段中断
+
+原stage0的summary逐字节继承，原完整谱/mean/二jet不重算。Node/Python真写入口增加本次完整字节+128MiB门，UTF8与256字节实际核同；原exporter真−9前保89段1151..1063，未触盘门，原因未证。root核12直接绑定，analytic独立只读确认原写入口实际被包住、数学算法未改；后继用原小chunk接续。H已压缩并原文保留详细快照，已登记事实未删除。见 [记录](notes/2026-11-28-tail-geometry-stream-disk-gate.md)。

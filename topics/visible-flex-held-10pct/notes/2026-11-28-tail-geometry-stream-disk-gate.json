@@ -1,0 +1,77 @@
+{
+  "status": "actual_full_geometry_continuation_wrote_89_stages_then_engineering_exit",
+  "observed_utc": "2026-11-28T11:49:33.328067+00:00",
+  "execution": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-all-20261128-a/disk-guard-execution.json",
+    "sha256": "5e349b8bbda64536cf3677081a468b3b0046bb74703601025412e99dbdb00739"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/guarded_tail_geometry_resume.py",
+    "sha256": "939b06ed1433c9a0a429de8071a3d3aec49f6a8c275cb22c99feea9a0d811f62"
+  },
+  "python_guard": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/geometry_disk_guard.py",
+    "sha256": "be2b17d39083db9bb437cfe6732e5de2e342eab9a7c9189149a914898fd0926c"
+  },
+  "node_guard": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/geometry_disk_guard.mjs",
+    "sha256": "ed84e80264979153f8d4c54d5ef25598d6b1235f7166e1c170b7d745e0dca9f0"
+  },
+  "original_pipeline": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_run_tail_geometry_v2.py",
+    "sha256": "c165678d912761163ef29cfca1eb9c4dfc4bbf3102de6a00b228ca537f727615"
+  },
+  "source_stage0_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/summary.json",
+    "sha256": "2628e5cf6f4e8821327a7e973b9269042c787abc9bc5752476696b4157a0a781"
+  },
+  "inherited_stage0_snapshot": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-all-20261128-a/inherited-stage0-summary.json",
+    "sha256": "2628e5cf6f4e8821327a7e973b9269042c787abc9bc5752476696b4157a0a781"
+  },
+  "inherited_summary_byte_equality_checked": true,
+  "actual_byte_check": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/geometry-guard-bytecheck-20261128/record.json",
+    "sha256": "7dd20323d9ad88a87708b57c090156075e78043a32e394d20c9ccccb0342de7a"
+  },
+  "actual_first_remaining_stage": {
+    "stage": 1151,
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-all-20261128-a/steps/remaining-export-001/stage-1151.json.gz",
+    "sha256": "891dac836db589417ca5f564a67b51b7e0230813544d58ae6f224aeacef96c01",
+    "bytes": 188067,
+    "mapHash": "0fcac72f83cf6aa397f35dce2391923267795abf1ff66bbe55a831e3f21a8222",
+    "nodes": 17,
+    "midpoints": 16,
+    "previouslyCertifiedMapPreserved": false
+  },
+  "observed_completed_remaining_stage_count": 89,
+  "observed_stage_gzip_bytes": 17177001,
+  "exec_session": 71500,
+  "disk_reserve_bytes": 134217728,
+  "all_original_stages_requested": 1152,
+  "stage0_recomputed": false,
+  "omitted_modes_or_mean_terms": false,
+  "original_numerical_producer_modified": false,
+  "guard_may_wait_before_writing_a_complete_computed_stage": true,
+  "guard_resumes_the_same_output_bytes": true,
+  "external_writer_race_not_claimed_eliminated": true,
+  "global_all_stage_certificate_returned": false,
+  "complete_surface": false,
+  "actual_terminal_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-all-20261128-a/summary.json",
+    "sha256": "9460c72486cb68fe727f7f5a5b7437b7b59c2773bb247df353a195b343bae7a1"
+  },
+  "actual_partial_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-all-20261128-a/steps/remaining-export-001/manifest.json",
+    "sha256": "99a3ff3bebf8031ec1b62a96d6ed1fa51907b056d8ee7cafeaaa626a7eae7a0f"
+  },
+  "actual_child_log": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-all-20261128-a/logs/remaining-export-001.log",
+    "sha256": "c69d17092317e36d568684e79aae041bc99d41aa25b966385a399f33da6d0bfc"
+  },
+  "actual_export_child_returncode": -9,
+  "actual_controller_exit_code": 2,
+  "mathematical_failure_claimed": false,
+  "kill_cause_established": false,
+  "disk_gate_wait_observed": false
+}
