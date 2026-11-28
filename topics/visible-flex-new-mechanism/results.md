@@ -55,3 +55,5 @@
 **R728 自然保留态。** [27接受与已付全TSQR根](notes/2026-11-28-r728-paid27-complete-tsqr-root-natural-partial.md)：η.0258398334481、目标长度margin负、E未冻；29全J/46814列/3085.945901秒，原733MB checkpoint逐块核后仅续下个SVD。
 
 **R736（已证明的指定族排除）。** [真实 U 平袖母线、全部末倾角和刚平移障碍](results/R736-tilted-isometric-core-and-the-complete-annulus-chord-screen.md)：局部已给件几何保留，但指定 β=A、D_y=0 的完整内盘族没有同g延拓；.320改姿同样排除，区间脚本未执行。
+
+**R740（已证明的三输入排除；独立代码未执行）。** [弱源整圈局部预算与强迫跨盘短路](results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md)：包括完全自由盘，原R732、R733和R740均有末弦>.901却源路<.790/.893/.869的矛盾。保存真实210/651列空间和原始CSR接口，转R742/R743新实体材料，不重复已排源科学。

@@ -16,9 +16,9 @@
 
 [R732](results/R732-stronger-source-pulses-and-the-physical-three-curl-disc.md)首实际强源为基线.100/增量.920，同g且平底三轴自由。run46164917792已自然完成8姿，实际60.162956955秒/40接受/49完整J/2856列，只有零相位通过有限fit。非零全失败，末η4.4283e6、κ27297.7、细curl147.93597；不是已解。所有原样条、源码身份、q、列块/因子/原实际两jet在artifact15271038061，不能重置旧账。按真实峰r≈.675、s≈.851增加能分辨物理脉冲/圆角的周向与径向全自由基，不机械重复30/63低阶筛。
 
-[R733](results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md)在整个源周上插真S，源整法管>.10，两个U真负Gauss方向量>4，参考全D<3.11。活动常κ S有精确同g和全部活动S互球，刚移U及余圈/末圆角仍需另付。强基线精确常κ圆角末>11.3，未证明全部C²解都被迫该分支；独立强源接口未执行，不机械先跑一次。弱.0052/增量1.0148+同S的对应圆角<10.30是R740真实新源方向，须真改所有Pulse/Ring/Frame/保护权并重付全域。
+[R733](results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md)整周S、真实局部法管/负Gauss及弱源局部圆角预算保留；完整R732/R733/R740原源已由[R740强迫袖端弦](results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md)严格排除，不能再以增加自由系数继续原源。两代理独立核同一源真实路径，root已全文核证。
 
-R736整个指定β=A、D_y=0的末姿族已由真实U平袖母线排除，包括.147、.320以及所有末θ/刚平移；未执行区间组件保留但不再跑已排输入。原.100输入与R740弱源分开。R739只改同原β/q的真实ell保护权来改善P重建条件数，原三curl不变；旧P/B/Bs可用，未存Bss只补真正缺项，不重旧J或伪造旧二jet。
+R736指定β=A、D_y=0内盘的所有末θ/刚平移被真实U母线另排。R739已证的同原β/q物理ell权转换只保公式和未执行接口；原P/B/Bs可复用，原curl不会随权变小，已排R732不追加资格。新R742将每个非零源曲率支撑上真正建立负K，必须另付特征影响域而非仅说K≠0；新R743把全周S前移到x=.32并延长至.552，直接接原.174圆角，全部子午源/周径基/资格身份实际更换。全给定混端路径、同一新g、全t源/未知盘法管与宏观门逐项支付后，公开执行原生完整三curl与实际位置。
 
 ## 3　原固定g与实际BVP继续项
 
@@ -74,3 +74,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R732 原终态已登记。** [八份实际盘与全原账](notes/2026-11-28-r732-eight-actual-disks-natural-terminal.md)：8姿全完成而只有零姿 finite fit，49全 J/2856列、40接受，七非零物理盘均失败。保原211.9MB必要paid archive和全部八NPZ；下一先处理真实强迫袖端弦，不重复已知坏盘资格。
 
 **R736 整个规定末姿族已排除。** [完整 U 母线与所有 θ/平移障碍](results/R736-tilted-isometric-core-and-the-complete-annulus-chord-screen.md)取真实强迫U脚线后，θ=π/2的所有d已冲突；U两端强迫cosθ>.48，而两U中点需|Icosθ−z₀sinθ|≤.174，实际>.195。保局部几何和未执行区间组件，绝不运行已排输入。R740另给与底盘姿无关的更强输入级排除，后继必须真换源。
+
+**R740 输入级排除（含 R732/R733）。** [两条真正平的曲袖与整盘短路](results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md)将 v=−.84625 下主片和 v=−.30675 上主片的给定姿强迫至原袖末；末弦>.901，R740/R733/R732 三真实源路分别<.869/.893/.790。所有自由盘姿均不能准确同g延拓，R740/R733无工单，R739原源转移也不执行。原局部法管/负Gauss与R732 paid数据保留。R742真正改负曲率袖，R743前移并延长真实 S，二者先付新输入全门再求解。

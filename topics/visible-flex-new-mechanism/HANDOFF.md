@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **6a979a13d384daef622e86602429858af96a31b4**。私库最近实际终端 pull 为 **2026-11-28 16:15:32 UTC / 3f9b334eb323559e4e548b7258b3cf0bf27ce201**，根未变、QUEUE仍为本会话进行中。环境于15:25恢复；旧14:32磁盘满及其后不可用时失败的pull未冒成功。至少每小时实际pull，每次查两公开README变化，有变只读差异立即执行；读过提交记此处。
+公开最近成功的终端 pull/双 README 检查为 **0eddf7ae9dc89aac244da3d4814764e908de0594**。私库最近实际终端 pull 为 **2026-11-28 17:05:58 UTC / 13a7002e240a4903966dc4057e1e22ad52dadc60**，根未变、QUEUE仍为本会话进行中。环境于15:25恢复；旧14:32磁盘满及其后不可用时失败的pull未冒成功。至少每小时实际pull，每次查两公开README变化，有变只读差异立即执行；读过提交记此处。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。子代理三位均 **gpt-6.2-astra / ultra**，已逐一确认无下级代理。每条结论即推；NFF立刻pull/rebase查规则重推到成功。仅公开Actions执行科学；本地仅纸证、源码和已完成日志解析/元数据。根12不重复机械审核；根15不入库可再生大数组。H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -16,7 +16,7 @@
 
 **R734真非解析尾。** [论文](results/R734-dyadic-flat-collar-and-true-decaying-spinor-directions.md)给真实dyadic母线、固定j≥2稳定线及C²两jet拼零；一阶方向的有限q Gram残差为O(q²)。[首公开工单](notes/2026-11-28-r734-true-dyadic-tail-scope.md)绑定W=1/32、两侧j2/3、84位向外区间及完整实际胞，1000秒分配/深9/宽.025，首run46164643330/job141039363519/head df08b6a9be5cd73386323f253b7e56ac27fcd906已自然完成四个certified端口，均f(cut)=1；3.074050073秒/8558单元，详[真终态](notes/2026-11-28-r734-natural-four-certified-tail-ports.md)。原artifact15270773103/ZIP SHA3fea0c6612e098159a5ea42540810a60ca4b215285a638b2ea8ea6001bf953a9保存全journal。每一步与有序前缀留tail.jsonl，后续从原键续接；只有实际certified_tail_port及非零f归一才授端口。j≥2不冒j1倾帽；中央双核和二阶真实β由R735继续，有限幅全余项未闭。
 
-**R732自由全盘新源。** [R724](results/R724-comoving-central-crowns-and-four-outer-pulses.md)的中央四肩/两整冠共移及真领混合法球保留。[R727](results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md)给整盘三curl/边两jet/真位置重建。R729真端弦排第一源；R730原近凸源在左右镜像下负Gauss不足，均不运行已排源。R732实际换成基线.100/增量.920的新g，整闭圈、两个完整自由平底、真h⁴Q领；三轴全列及物理中心，实际位置度量/曲率/全近法球读数。首run46164917792/job141040198438自然完成8姿，60.162956955秒/49全J/2856列；只有源姿通过有限fit，七非零全失败，原paidartifact15271038061完整保留，详[八盘真终态](notes/2026-11-28-r732-eight-actual-disks-natural-terminal.md)；源g不随degree3→5改，有限相位/求积不冒连续资格。R733已付真实全周S方向负Gauss与活动S联合法管，独立强源接口未执行；R740正改真弱基线及完整周径空间，不混R732。R736指定β=A、D_y=0内盘的全部末θ/刚平移已由完整U母线排除，区间组件不运行；R740另核真正不依赖盘姿的源障碍。
+**端盘原源已严格排除，正在真换材料。** R732强基线.100首run46164917792/job141040198438完成8姿，60.162956955秒/40接受/49全J/2856列；只有零姿有限fit，七非零全失败，原artifact15271038061及[八盘真终态](notes/2026-11-28-r732-eight-actual-disks-natural-terminal.md)保账。更强的[R740实源短路](results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md)由两个源平曲袖强迫末弦>.901，而R732/R733/R740真实跨盘路径分别<.790/.893/.869，完全自由盘亦无准确同g延拓。R733/R740不启动工单，R739权转换只留已证公式和未执行消费者。R736指定内盘所有末θ/刚平移另被U母线排除，原区间组件不跑。R729/R730旧失败不撤。R733全周S/局部同g圆角与法管、真实负Gauss仍是局部成果。新R742真改所有曲裙的负K支撑并核Cauchy影响域；R743将S前移到x=.32、总长.552，直接接.174圆角且全未知，消除旧长平袖，按新实体重新付全边弦/D/τ并求原生自由盘。
 
 **既有纸面分支。** [R723](results/R723-asymmetric-ruled-plates-and-full-shell-diameter-of-genuinely-longer-seats.md)全相位非镜像主片、六端姿、真实增座及参考D<3.13成立，未知窗仍未解。R721已排原镜像长肩，R719不可触发。R720完整中央源法管及小相位混对成立，辅助截止未授同g。R722两矩真可达域成立，有限求积两总导数必须保留。详细结论及费用见open与前交接，不重证。
 
