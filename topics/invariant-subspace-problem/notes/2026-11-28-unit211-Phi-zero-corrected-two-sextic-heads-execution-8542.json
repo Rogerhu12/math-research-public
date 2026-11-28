@@ -1,0 +1,343 @@
+{
+  "schema": "isp-original-corrected-two-head-support-v1",
+  "sourceBlob": "a06d6a53209c2663118cc5f911833dec67290904",
+  "sourceSHA256": "fbe5c3060172c415d15f7c582bedd055a8acce8bd760fccd5a4c2d3b3161caae",
+  "run": 46132787438,
+  "job": 140941436478,
+  "driver": {
+    "elapsed_seconds": 2.2423277110000015,
+    "max_child_rss_kib": 45196,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "bbec54bfa5622b32a5ebac2d256d310c9cc714b8",
+        "before": "c2080ab7c7233fb6b274c3626a277f376df313de",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T09:56:40.112866+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46132787438",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "c2080ab7c7233fb6b274c3626a277f376df313de",
+    "source_exit_code": 0,
+    "source_git_blob": "a06d6a53209c2663118cc5f911833dec67290904",
+    "source_sha256": "fbe5c3060172c415d15f7c582bedd055a8acce8bd760fccd5a4c2d3b3161caae",
+    "stdout_bytes": 4275,
+    "stdout_sha256": "7c74b274526b9b492363ec1d7eae727c7ba2b0a28e49b251267ea625413531f7",
+    "stop_reason": null
+  },
+  "math": [
+    {
+      "exactExistingHeadSHA256": [
+        "63c05c345cbc7055d652d46c173684bd7fdb159db3741232ef94d6cb58992bf6",
+        "9794fac2ee8bf7de08d80b9f3102480f1d06c9cfb4ff8be3981817dcfbd682fb"
+      ],
+      "fullRawN4P2OnlyAsKnownCoefficientDefinitions": true,
+      "oldEighteenActionsOverlapsDefectsFifteenRowsAndCofactorGatesNotExecuted": true,
+      "omittedOldTopLevelProofStatements": [
+        [
+          27,
+          "Assert"
+        ],
+        [
+          29,
+          "Assert"
+        ],
+        [
+          31,
+          "Assert"
+        ],
+        [
+          111,
+          "Assign"
+        ],
+        [
+          114,
+          "For"
+        ],
+        [
+          116,
+          "For"
+        ],
+        [
+          127,
+          "For"
+        ],
+        [
+          134,
+          "Assert"
+        ],
+        [
+          138,
+          "Assign"
+        ],
+        [
+          140,
+          "Assign"
+        ],
+        [
+          140,
+          "Assign"
+        ],
+        [
+          141,
+          "For"
+        ],
+        [
+          152,
+          "Assign"
+        ],
+        [
+          152,
+          "Assign"
+        ],
+        [
+          153,
+          "For"
+        ],
+        [
+          161,
+          "Expr"
+        ],
+        [
+          258,
+          "Assert"
+        ],
+        [
+          260,
+          "For"
+        ],
+        [
+          261,
+          "Expr"
+        ],
+        [
+          269,
+          "Assert"
+        ],
+        [
+          271,
+          "For"
+        ],
+        [
+          272,
+          "Expr"
+        ]
+      ],
+      "originalFullSourceSHA256": "84e0efcc19a0274d571484b187b7b155c81ebf255e40a39c38ac13a03f911cf0",
+      "originalNecessaryPrefixSHA256": "e2e9bab84bca700400c8e26d5787208c9aceafe27c64aa7ecf828b0552025a1f",
+      "seconds": 2.191403987000001,
+      "stage": "existing_true_original_sextic_head_parameters_defined"
+    },
+    {
+      "completeHeadAndFactorProductsReturned": true,
+      "completeQQFactors": [
+        {
+          "factor": {
+            "degrees": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "09cb1d9649f20ce1f0b8417dacdfb3b56cc7ede4a9dea4a8afd83cd48091d4af",
+            "terms": 1,
+            "totalDegree": 1
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "degrees": [
+              28,
+              17,
+              0,
+              0,
+              0
+            ],
+            "sha256": "55f47b10ee1ed5d8f256fb729e92b52e66312911c479e17fdddb25a3fac7ca35",
+            "terms": 312,
+            "totalDegree": 31
+          },
+          "multiplicity": 1
+        }
+      ],
+      "everyRetainedWeightZeroFaceKept": true,
+      "headUnitOnWholeCurrentPhi": false,
+      "label": "NP",
+      "originalHead": {
+        "degrees": [
+          37,
+          21,
+          0,
+          0,
+          0
+        ],
+        "sha256": "63c05c345cbc7055d652d46c173684bd7fdb159db3741232ef94d6cb58992bf6",
+        "terms": 471,
+        "totalDegree": 41
+      },
+      "removedOnlyOriginalPaidWeightPart": {
+        "degrees": [
+          8,
+          4,
+          0,
+          0,
+          0
+        ],
+        "sha256": "01ef6b5ed7827331597e3c0f2417babcf64d44e15ff794696bc452b1ed48f3d8",
+        "terms": 24,
+        "totalDegree": 9
+      },
+      "retainedPureWeightHead": {
+        "degrees": [
+          29,
+          17,
+          0,
+          0,
+          0
+        ],
+        "sha256": "4ab4fac4e8510e78be1a20d4502fd30e9e05c154d05d9e4449a83a58a5da3636",
+        "terms": 312,
+        "totalDegree": 32
+      },
+      "seconds": 2.20026624099998,
+      "stage": "new_true_sextic_head_complete_paid_support"
+    },
+    {
+      "completeHeadAndFactorProductsReturned": true,
+      "completeQQFactors": [
+        {
+          "factor": {
+            "degrees": [
+              13,
+              8,
+              0,
+              0,
+              0
+            ],
+            "sha256": "7ef7a4a7f2d14f3e13f9dbdca25d93af1b7f5e2465cf688e0763293dedb38d05",
+            "terms": 76,
+            "totalDegree": 14
+          },
+          "multiplicity": 1
+        }
+      ],
+      "everyRetainedWeightZeroFaceKept": true,
+      "headUnitOnWholeCurrentPhi": false,
+      "label": "overlaps",
+      "originalHead": {
+        "degrees": [
+          24,
+          15,
+          0,
+          0,
+          0
+        ],
+        "sha256": "9794fac2ee8bf7de08d80b9f3102480f1d06c9cfb4ff8be3981817dcfbd682fb",
+        "terms": 230,
+        "totalDegree": 27
+      },
+      "removedOnlyOriginalPaidWeightPart": {
+        "degrees": [
+          11,
+          7,
+          0,
+          0,
+          0
+        ],
+        "sha256": "e26a7106c07da6503f2929dda32553b59bacdd92f359e819abcea32bffdb8831",
+        "terms": 54,
+        "totalDegree": 13
+      },
+      "retainedPureWeightHead": {
+        "degrees": [
+          13,
+          8,
+          0,
+          0,
+          0
+        ],
+        "sha256": "78a9c4673a4041d309dc4fa8610b19f79219ffa8e237eb3631cb25d41e44341e",
+        "terms": 76,
+        "totalDegree": 14
+      },
+      "seconds": 2.2038812409999764,
+      "stage": "new_true_sextic_head_complete_paid_support"
+    },
+    {
+      "allLambdaLeadingZeroFibersKept": true,
+      "bothFullWeightQuotientProductsReturned": true,
+      "commonHeadZeroDistinctWeightPointUpperBound": 448,
+      "commonHeadZeroOffCommonCurveDistinctPointUpperBound": 448,
+      "completeCommonWeightSupport": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "completeQQCommonFactorization": [],
+      "firstExactQuotient": {
+        "degrees": [
+          29,
+          17,
+          0,
+          0,
+          0
+        ],
+        "sha256": "4ab4fac4e8510e78be1a20d4502fd30e9e05c154d05d9e4449a83a58a5da3636",
+        "terms": 312,
+        "totalDegree": 32
+      },
+      "noCoefficientPayloadSaved": true,
+      "noDOrItsNormInverse": true,
+      "noTwoVariableGcdOneToEmptyInference": true,
+      "ordinaryISPClaim": false,
+      "originalMeanI6EighteenGeneratorsOnHeadUnionOpen": true,
+      "peakRSSKiB": 44488,
+      "secondExactQuotient": {
+        "degrees": [
+          13,
+          8,
+          0,
+          0,
+          0
+        ],
+        "sha256": "78a9c4673a4041d309dc4fa8610b19f79219ffa8e237eb3631cb25d41e44341e",
+        "terms": 76,
+        "totalDegree": 14
+      },
+      "seconds": 2.206566252999977,
+      "sourceSHA256": "fbe5c3060172c415d15f7c582bedd055a8acce8bd760fccd5a4c2d3b3161caae",
+      "stage": "new_two_true_original_sextic_heads_complete_QQ_gcd",
+      "unlocalizedNecessaryI6EighteenGeneratorsOverWholePaidWeightRing": false,
+      "wholeOriginalHeadZeroCurveRetained": false,
+      "wholePhiExcluded": false
+    }
+  ],
+  "paperOnlyStrengthening": {
+    "actualBound": 448,
+    "physicalBound": 434,
+    "originalGlobalUnit": "u=bp+cq",
+    "staticOriginalScopeProofBlob": "278920b26f91625cebb755afc0ad488acd2aa520",
+    "noNewExecution": true,
+    "noSpecialAlphaScopeTransfer": true
+  },
+  "noOriginalExceptionalLambdaFiberExcluded": true,
+  "wholePhiExcluded": false,
+  "oldProofGatesNotReplayed": true,
+  "noCoefficientPayloadSaved": true
+}

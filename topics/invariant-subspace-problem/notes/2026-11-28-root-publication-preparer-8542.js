@@ -37,6 +37,7 @@ if(spec.archiveResults){files.push({path:root+spec.archiveResults,content:I});co
 function replaceUnique(s,a,b,label){if(typeof a!=="string"||!a||s.split(a).length!==2)throw Error("nonunique or missing "+label+": "+a?.slice(0,140));return s.replace(a,b);}
 for(const [a,b]of spec.hReplacements||[])H=replaceUnique(H,a,b,"H replacement");
 for(const [a,b]of spec.openReplacements||[])O=replaceUnique(O,a,b,"open replacement");
+for(const [a,b]of spec.logReplacements||[])L=replaceUnique(L,a,b,"log replacement");
 if(spec.hBefore)H=replaceUnique(H,spec.hBefore.marker,spec.hBefore.text+"\n"+spec.hBefore.marker,"H insertion");
 if(spec.openAppend)O=O.replace(/\s*$/,"")+"\n\n"+spec.openAppend+"\n";
 if(spec.archiveH)H=H.replace(/^\- 所有被压缩的精确结论\/来源\/失败身份保\[最新完整H\]\([^)]*\)/m,"- 所有被压缩的精确结论/来源/失败身份保[最新完整H]("+spec.archiveH+")");
@@ -72,4 +73,3 @@ store("isp_current_prepared_H",H);store("isp_current_prepared_O",O);
 text({preparedBranch:spec.branchName,sourceCommit:commit.sha,parentCommit:head,time:utc,name:spec.message,actualMainPushPending:true,mainRefUntouchedByAPI:true});
 
 })();
-
