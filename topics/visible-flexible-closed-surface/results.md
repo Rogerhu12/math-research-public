@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R259：准确整个前缀的双侧法球与非局部reach](results/R259-accurate-whole-prefix-two-sided-reach.md)（2026-11-28）：末圈高度约束全经线，椭圆弦弧预算及边界测地凸性给全部近点短路，推出含边界整个环带reach≥1/9.867915>.1013；新后缀与改变后前缀另付。
+
 - [R258：准确强前缀固定位置的径向度量下界](results/R258-accurate-fixed-ramp-signed-radial-metric-floor.md)（2026-11-28）：R233 真反参同一点严格 $1-|X_s|^2>6.98105\times10^{-8}$；后缀变化无法消除。G10六jet和曲率逐点绑定；不推及解锁前缀的新位置。
 
 - [R257：准确全前缀的全局嵌入](results/R257-accurate-whole-prefix-global-embedding.md)（2026-11-28）：椭圆梯度流局部正向，1024严格角盒付末圈横截/高度/角导，边界度数0/1/0给整环带单射；中央与反射C2接合。未付±.097非局部法管、后缀或全闭面。

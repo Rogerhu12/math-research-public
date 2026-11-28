@@ -55,7 +55,7 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-live-fixed-prefix --> [固定整个prefix的5292列own6](notes/2026-11-28-2ecf-position-prefix-locked-continuation-actual-03-06.md)：G11 metric .250905、κ20.903、held .709325；原行/guide全保留，prefix固有误差待处理。
 
-<!-- 2ecf-target-curvature --> [R257](results/R257-accurate-whole-prefix-global-embedding.md)准确R233/R232整个prefix全局嵌入已证；[R256](results/R256-accurate-fixed-prefix-envelope-normal-tilt-and-projection.md)局部.097无焦。非局部法球/后段与literal差仍待。
+<!-- 2ecf-target-curvature --> [R259](results/R259-accurate-whole-prefix-two-sided-reach.md)：准确R233/R232全prefix含边界reach>.1013、全部有序双侧法球已证；R257嵌入与R256局部界保留。新后缀/改动场另付。
 
 准确R233/R232与literal G10源须分别绑定。整个位置锁定prefix仍有固有度量缺陷；exact代理正恢复同g的33/65真实径向节点及准确端口，strong代理从实际5292 own6接续并对后缀热点加密。改变source/基底须新baseline，不借旧几何给变化后前缀。强全闭度量/非局部点对/收敛仍未完成。
 
@@ -66,4 +66,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:06:24 UTC；已读公开 main `990358e7706032b9e8e7f8659a154caa5049bba8`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:06:36 UTC；已读公开 main `6c0bf136c43578085d2dce5732e11fdb10c35ded`，根/课题 README 逐差无变化。
