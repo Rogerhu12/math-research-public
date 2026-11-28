@@ -1,0 +1,133 @@
+{
+  "status": "actual_same_field_angular_interval_refinement_returned",
+  "utc": "2026-11-28T11:28:50.302672+00:00",
+  "parent_tables": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-20261128/summary.json",
+    "sha256": "4222385feeff4d2b4ef656879119dd267ff12eba1747b63d6ef8ff95ca024cbd"
+  },
+  "same_field_geometry_binding": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-20261128/same-field-geometry-binding.json",
+    "sha256": "76d768da6bf5c4823151e7dd1d4b0c753ad2c04a58dfcb59f087892e0e32e0f4"
+  },
+  "original_metric_unresolved_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric-20261128/summary.json",
+    "sha256": "e1e2685dcdda750039d224fded349c8fbfcf96b24a1cd6e332d66b02099ff75b"
+  },
+  "actual_refined_tables": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-refined3072-20261128/summary.json",
+    "sha256": "5e7450894b011181eb4e0429c84674cb48a69572dea8de8db5625271cf7f7de4"
+  },
+  "refiner_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/refine_cartesian_metric_angular_tables.py",
+    "sha256": "328e4a3303961b34020fbd79d3f748a0f8981dcdcef336fc713b7c949b83a309"
+  },
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/run.json",
+    "sha256": "05e9ad770c7f55f3738fad0f7ed5e3525cb98e1edbb40363a3a6f78b4f4d3711"
+  },
+  "physical_sha256": "b3dfb8b6be98255805cc46b08ce11d42a265d94ef2cf6a146cb01ab9c3b1c3ff",
+  "homotopy": 0.064,
+  "modes": 40,
+  "mean_nodes": 1936,
+  "geometry_defining_arrays_bitwise_equal": 10,
+  "refined_defining_arrays_bitwise_equal": 11,
+  "original_unresolved": {
+    "accepted": 0,
+    "splits": 28,
+    "attempts": 29,
+    "remaining": 1063,
+    "unresolved_interval": [
+      0.0,
+      5.529993455835456e-13
+    ],
+    "unresolved_details": {
+      "radius_lower": 0.9999999999999994,
+      "rho_lower": 0.5199999999999991,
+      "point_operator": 4.579114865066464e-13,
+      "radial_first": 7.071847569695394e-13,
+      "radial_second": 0.028916215525459407,
+      "angular_second": 5.6959798776900925,
+      "radial_taylor_upper": 4.579114865068432e-13,
+      "angular_interpolation_upper": 1.3237721965781932e-06
+    },
+    "last_bound": 1.32377265448968e-06,
+    "seconds": 87.75271144100043
+  },
+  "actual_refinement": {
+    "parent_angular_boxes_per_sector": 1536,
+    "angular_boxes_per_sector": 3072,
+    "full_circle_box_equivalent": 9216,
+    "seconds": 155.06880565200117,
+    "inheritance": {
+      "parent_angular_boxes": 1536,
+      "refined_angular_boxes": 3072,
+      "new_true_core_point_evaluations": 1536,
+      "old_true_core_point_evaluations_repeated": 0,
+      "old_complete_box_evaluations_repeated": 0,
+      "complete_parent_box_bounds_retained_for_both_halves": true,
+      "child_boxes_numerically_contained_in_parent_enclosures": true,
+      "every_inherited_even_column_bitwise": {
+        "point_basis_0_0": true,
+        "point_basis_0_1": true,
+        "point_basis_0_2": true,
+        "point_lift_0": true,
+        "point_center_0": true,
+        "point_basis_1_0": true,
+        "point_basis_1_1": true,
+        "point_basis_1_2": true,
+        "point_lift_1": true,
+        "point_center_1": true,
+        "point_basis_2_0": true,
+        "point_basis_2_1": true,
+        "point_basis_2_2": true,
+        "point_lift_2": true,
+        "point_center_2": true,
+        "point_basis_3_0": true,
+        "point_basis_3_1": true,
+        "point_basis_3_2": true,
+        "point_lift_3": true,
+        "point_center_3": true,
+        "point_trig_0": true,
+        "point_trig_1": true,
+        "box_basis_0_0": true,
+        "box_basis_0_1": true,
+        "box_basis_0_2": true,
+        "box_lift_0": true,
+        "box_center_0": true,
+        "box_basis_1_0": true,
+        "box_basis_1_1": true,
+        "box_basis_1_2": true,
+        "box_lift_1": true,
+        "box_center_1": true,
+        "box_basis_2_0": true,
+        "box_basis_2_1": true,
+        "box_basis_2_2": true,
+        "box_lift_2": true,
+        "box_center_2": true,
+        "box_basis_3_0": true,
+        "box_basis_3_1": true,
+        "box_basis_3_2": true,
+        "box_lift_3": true,
+        "box_center_3": true,
+        "box_trig_0": true,
+        "box_trig_1": true
+      },
+      "every_new_odd_point_actually_evaluated": true,
+      "exact_interval_partition": "For parent count P and refined count 2P, the two consecutive halves exactly partition [2*pi*j/(3*P),2*pi*(j+1)/(3*P)].",
+      "unchanged_Gram_interpolation_rule": "Every new interval uses its actual endpoint enclosures and the inherited true whole-parent second-derivative bound; its width is exactly half the parent width."
+    },
+    "new_angular_tables": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-refined3072-20261128/continuous-angular-three-jets.npz",
+      "sha256": "65e23e4d865e48b901c03900ac5ecd6dfb4c8ed4ebbbbddafcf25988610f53bd"
+    }
+  },
+  "root_immutable_source_and_table_hash_checks": 35,
+  "different_field_bounds_reused": false,
+  "physical_map_changed": false,
+  "solver_or_metric_gates_relaxed": false,
+  "complete_metric_certificate_claimed": false,
+  "full_surface_claimed": false,
+  "actual_following_metric_run": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-continuous-metric3072-20261128",
+  "following_metric_exec_session": 50156,
+  "following_run_acceptance_not_claimed": true
+}
