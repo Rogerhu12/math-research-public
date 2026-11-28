@@ -141,3 +141,7 @@
 ## R643：同一固定E的真实mean联立系统
 
 [完整证明](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)保真实mean为未知，不除W/c0；准确六jet身份给离解也周期闭合的实际Y及含F/G全项的位置缺陷，原度量可直接读取。94条cap固定、核心两迹从属的真实mean方向保全部旧1472列，共1566；给全部离解Jac链。旧种子连续嵌回的前提和有限误差明确保留，未假定新完整J可逆或已有根。
+
+## R642：真实旋转尾的同一有限倾角参考逆
+
+[完整证明](results/R642-rotated-tail-reference-inverse.md)给准确旋转共轭势，重选n^(9/4)频带并逐项支付选择/压缩/末端匹配；质量/电阻λ望远镜及正组件真实幅度归一消去绝对尺度。势×Green可在同一底阶邻域吸收，真帽lift单列compact像，不让慢尾落入H^β源；同逆覆盖两端点指数并恢复全部材料/角阶。尚不把参考族称为状态逆或非线性解。

@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **2e40994de7431e54a9303ffe4b5652cafdc66cab**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **ae6e24126c611d8ed61a008931d8255a093125c0**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -19,7 +19,7 @@
 
 [原383自然终态](notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md)run46121523891/job140906911350/source60cdf0c3于08:13:17结束，新增2515.759658948秒、4metric+1restore；11完整J/143块/60值/14fine，全部祖先费保留，非自然stall。
 真实q **6e91b58d61b2535ea4e262950d2177310a53ceb7fc50e87869d38e639949a334**，同p.181/0d材料；16290×3072 η3.3050334486861566e−5，physical0/working1.192e−10<原1e−8门。末raw5cf6及半步a938因原行/fine几何失败已拒，不换名重放。
-385coarse+5pending→390，保全部fine并新加6中点成为16296，须本身资格；[实际续接](notes/2026-11-28-r582-6e91-original390-continuation.md)已发布，trust2/metric，阶段约2.5e−7及p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
+385coarse+5pending→390，保全部fine并新加6中点成为16296，须本身资格；[实际续接](notes/2026-11-28-r582-6e91-original390-continuation.md)run46125750420/source4482fcc2，08:25:30启动，trust2/metric，阶段约2.5e−7及p.8/末η1e−7未改。mean仍设计，旧59a4几何不移用。
 
 ## B：R618同固定E自然终态／改造真实mean联立图
 
@@ -56,10 +56,9 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 ## F：真实双核端口与非线性构造
 
-[R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)已付同一未解度量的三曲率矩、投影消元、自由帽0/1逆、真实旋转尾图及双核有限块。
-[R630](results/R630-morse-double-kernel-all-frequency-center.md)给左正规Morse二/三双核、其余j谱距≥1/(2880j²)、travel sin≥1/(3110j³)。
+[R629](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)已付曲率矩/固定投影、自由帽0/1逆及双模归一。
 
-[R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)已付真平双尾/紧支持控制。[R639](results/R639-rational-morse-uniform-gap-and-double-kernel.md)用有理谱量子、常势和统一左质量界清全部额外零模；同一真平背景给零角阶参考逆、双核及β>1/4。倾斜状态逆/非线性校正由R642继续，不能直接套旧j²逆。
+[R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)已付真平双尾/紧支持控制。[R639](results/R639-rational-morse-uniform-gap-and-double-kernel.md)用有理谱量子、常势和统一左质量界清全部额外零模；同一真平背景给零角阶参考逆、双核及β>1/4。[R642](results/R642-rotated-tail-reference-inverse.md)以n^(9/4)频带、真λ归一正图、真实帽lifts得同一倾角参考逆；q势只作用全平body，有限帽列像compact。实际状态逆/非线性由R644继续。
 [R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)证w²端口为准确边界零。
 [R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)run **46123270834** / job140912173442/source95b8760b，22.998496100000004秒严格球PASS：1/3<参考β0<3/8；尺度/heads/完整buffer统治收敛给某有限真平背景β>1/4。仍只是二阶系数，有限角/完整非线性嵌入/宏观reach未付。
 
