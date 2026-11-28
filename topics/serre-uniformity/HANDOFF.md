@@ -58,7 +58,9 @@ R1179 §§1–12的J4/J6/J8、T3/T5/T7与bad Bp−7/good Bp−5下Hankel det−T
 
 [R1198](results/R1198-original-ordinary-quotient-period-jets-and-finite-log-source.md)原ordinary商在全部a≤m的G²有限log输入由同target晶体/opposite/周期ODE及Lagrange反演明确给出；b0的第五/七槽为−13θ₀⁵/40、−149θ₀⁷/1680单位，最高槽回原Q_p有限系数。原θ/分支与低a交叉保全；节点unit不代同β全列或指定C首类unit。
 
-[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像一维，γ_N与所有低a/high-normal交叉配对均显示；完整收缩严格消去opposite选择。对T*=(b³−1)^(2g−1)，三个支持支含node/flux首层贡献全零，同P完整V_m(T*)恰全SS有限和。原ν_s∈μ_m仍保，未宣同相位或该和unit；继续求实际值及指定C整运输。
+[R1199](results/R1199-original-highest-packet-complete-generic-pairing-and-kernel-log.md)原generic全部normal Nm的完整整角像一维，γ_N与所有低a/high-normal交叉配对均显示；完整收缩严格消去opposite选择。对T*=(b³−1)^(2g−1)，三个支持支含node/flux首层贡献全零，同P完整V_m(T*)恰全SS有限和。相位现由R1200定标，实际值及指定C整运输仍开。
+
+[R1200](results/R1200-original-canonical-Igusa-Weil-phase-and-rational-packet-pairing.md)原Cartier–Weil/相对F一阶刚化给τ_s=B_s²、C_s²=γ²/B_s^(2p)，ν_s统一为ν=(-3)^L(2γ)^(m−1)。原有限算子P_m保全部reference权，V(T*)=−mc₀νΣP_m(T*)(s)/(r_s^(2g+1)A′_s²)；μ3全和仅留λ₁=−6b/r。全和/简单极部尚未取值；公开Actions请求仅探新p59/71/83此functional，不重旧窗口。
 
 ## 已成、禁止重做与其它入口
 
