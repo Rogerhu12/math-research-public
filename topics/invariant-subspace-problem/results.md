@@ -14,6 +14,8 @@
 
 ## 新增结论
 
+- [R267：实际复相位因子、有限修改不变性与对数支符号](results/R267-appendix-complex-phase-factors-finite-changes-and-log-branch-signs.md)：复收缩保有理半群/全旗/平方强*接口；有限真实因子修改仅乘固定有界可逆Ht，任意log支修改仅给有理character与±号。两类修改均不改变单列紧性；真正无限协调相位仍开。
+
 - [R150：W/b0交叉头五次权覆盖与G开图精确I4](results/R150-appendix-unit211-W-b0-cross-zero-five-weight-cover-and-G-open-exact-I4.md)：三条原B1给G=(4u+5)(6u−1)(20u³−4u²−20u+9)/480及完整来源；detG变换给(f+g,P0,Craw,C3)。三个整零域与全部值条件保留，不宣称b0空。
 
 - [R150：正确Phi整个ell=1/2原分支排除](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-original-exclusion.md)：新吹胀兼容式完整回六原式C32z9，与旧不可约C20z的权因子互素，故z9∈I6。已付z单位排空整支，当前正确Phi/D≠0新付2ell−1；一般Phi及普通ISP仍开。
