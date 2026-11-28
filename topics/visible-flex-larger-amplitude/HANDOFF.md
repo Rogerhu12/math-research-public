@@ -52,5 +52,5 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r771-publish-->R771 [全子午凸坐标两整球六层实际](notes/r771-convex-meridian-46171324381-1-index.json) 双README真pull c2bd1e8fbcdb84c4bfff6d880f64d18870242f24
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 92f3e866acacff93d72950b35d5b366fbf52d214
-<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull fd52ad5223d305b2e04642e965325856b2147c65
 <!--r774-publish-->R774 [全部返回](notes/r774-shared-pose-whole-46174642286-1-index.json) [每次双README真读](notes/r774-shared-pose-whole-46174642286-1-reads.json) 4f16bee240fab6f1afb6b565b009f6a9a72c66ae
+<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 1362734f69f11a8eade488e47de0006fe8763823
