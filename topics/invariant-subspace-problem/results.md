@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150：Phi 中心原 NS/PS 本原六次标量及真实42次首项支持](results/R150-appendix-unit211-Phi-zero-centered-original-NSPS-sixth-scalar-content-and-true-leading-support.md)：3bbbb真3.242041814秒/0，C6权双53/27且λ内容1，原三系数全返；整斜率零未扩，H42整零保，指定双补图每权≤12。
+
 - [R150：W H198 补图完整 I11 精确二十行两列及两条原值标量](results/R150-appendix-unit211-W-H198-complement-exact-twenty-two-full-original-values-and-two-scalars.md)：cea506真128.939929339秒/0，I6精确十行及I11全二十行；个别N/P和整个NV保同点，两个真实cofactor给λ11/10，头与完整内容未付、整H0留。
 
 - [R150：Phi 完整原十式的精确十八行两列呈示](results/R150-appendix-unit211-Phi-zero-complete-original-values-exact-eighteen-by-two-presentation.md)：8c21真10.941668497秒/0，六新原值保个别B/C N/P与整个N4(V)，三mean来源DAG、单次坐标变化及完整模生成均付；整斜率零等未付面留。附最高缩放不能借旧零孤立均值排除的准确断点。
