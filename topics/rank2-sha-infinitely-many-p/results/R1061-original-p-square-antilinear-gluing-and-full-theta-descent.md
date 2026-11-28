@@ -1637,3 +1637,349 @@ $-6\delta/\sqrt6$、冻结 $\Lambda_i(-2),\Lambda_i'(-2)$
 尚未由本节证明原 canonical $J'_S(0)\ne0$，
 也没有将某个随 $p$ 改变的 quotient 曲线作为主目标的固定曲线。
 本节为纸面完整有限和证明，无新增数学执行。
+
+
+## 21. 实际 paired Miller 常数的野 Galois 角色与原冻结权账本
+
+本节只在本篇已经固定的原代数 theta 来源和实际 Tate 基中工作。
+它确定(C18)各非零 $Q$ 项的真正定义域及其 Galois 作用，
+并将这一作用同 R1058/R1060 的全部周期和外权放在同一账本。
+下面的有限代数迹是一条新证明的恒等式；本节没有在原
+$\mathcal T_{\rm orig}$ 中额外执行该迹，也不据此判断完整临界读者为零。
+
+### 21.1 两层实际除点域及 norm-one 野子群
+
+令 $F_0$ 包含原曲线、两侧刚性化线丛、原 $2/3/17$ 标记、
+各固定代数 source 系数和已选 Artin 系数。只删去这个固定数域
+在 $p$ 的有限分歧集，仍保原好惰性 $p>211$。
+这里的系数先按 R1060(9)--(11) 的原微分完成逐槽代数化；
+不对尚未取有限槽的无穷环面核单独宣称一个 $F_0$ 模型。
+在一个已指定的 $p$ 位完成后，$F_0/K_p$ 是未分歧扩张，
+$K_p=K\otimes\mathbf Q_p$。这里没有把复周期或 book 的
+$p$-adic 周期放进 $F_0$。
+
+定义
+$$
+ F_1=F_0(E_0[p]),\qquad F_2=F_0(E_0[p^2]),\qquad n=p^2.
+ \tag{E1}
+$$
+这两层的度数和实际 CM 作用可以直接由本篇的好形式参数核定。
+在 $w=x^{-1/2}$ 中，$E_0/\mathbf F_p$ 的 Frobenius 满足
+$F^2=[-p]$，故
+$$
+ [-p](w)\equiv w^{p^2}\pmod p,\qquad
+ [-p]'(0)=-p.
+$$
+于是 $[-p](w)/w$ 的 distinguished 多项式是次数 $p^2-1$
+的 Eisenstein 多项式。若 $Q_0\ne0$ 是一个 $p$ 挠点，
+$w(Q_0)$ 是 $F_1$ 的 uniformizer；方程
+$[-p](w)=w(Q_0)$ 在 $F_1$ 上的 distinguished 多项式
+又是次数 $p^2$ 的 Eisenstein 多项式。
+每个 primitive $p^2$ 挠点都生成作为
+$\mathcal O_{K_p}/p^2$ 模的 $E_0[p^2]$：若其 annihilator
+含 $p$ 乘单位，则它已经是 $p$ 挠点，矛盾。
+全部 CM endomorphism 已在 $F_0$ 定义，因而该点同时生成整个除点域。
+这证明
+$$
+ \operatorname{Gal}(F_2/F_0)
+   \simeq(\mathcal O_{K_p}/p^2)^\times,\qquad
+ \operatorname{Gal}(F_2/F_1)
+   \simeq1+p\mathcal O_{K_p}/p^2.
+ \tag{E2}
+$$
+这里的同构按实际作用定义：$\sigma_a(T)=[a]T$。
+它不依赖 arithmetic/geometric Artin 的符号命名。
+
+取其中的 norm-one 子群
+$$
+ \mathcal H=
+ \{\sigma_l:\ a_l\equiv1+pl\delta\pmod {p^2}\},
+ \qquad l\in\mathbf F_p.
+ \tag{E3}
+$$
+它恰有 $p$ 个元素。Weil pairing 的同源相容性给
+$\sigma_a(\zeta_{p^2})=\zeta_{p^2}^{N(a)}$；
+故 $\mathcal H$ 固定原 theta 中心的整个 $\mu_{p^2}$。
+它也固定 $F_1$、原所有 prime-to-$p$ 标记以及(C1)的 $Z_Q$。
+
+### 21.2 原对称 lift 真正定义在 F2；不另选 p² 次根
+
+本段适用于 $N=34,102$，并逐条适用于负侧原两个三挠 Weyl 字。
+令
+$$
+ \mathcal L=[p]^*\mathcal O_{E_0}(N[O]).
+$$
+因 $N$ 偶数，它带原在 $O$ 刚性化的对称结构。
+记由 $[-1]$ 诱导的 theta-group involution 为 $\iota$；
+它在中心 $\mathbf G_m$ 上是恒等，而非取逆。
+
+对给定 $T\in E_0[n](F_2)$，theta fiber 是 $F_2$ 上
+$\mathbf G_m$-torsor，故可取一个 $F_2$-有理 lift $g$。
+写
+$$
+ A=\iota(g)g\in F_2^\times,\qquad B=g^n\in F_2^\times.
+$$
+由于 $\iota(g)$ 与 $g$ 的乘积在中心，
+$A^n=B^2$。取
+$$
+ c=\frac{B}{A^{(n+1)/2}},\qquad \widetilde g=cg .
+$$
+直接得到
+$$
+ \widetilde g^{\,n}=1,\qquad
+ \iota(\widetilde g)=\widetilde g^{-1}.
+ \tag{E4}
+$$
+这是**给定点 $T$ 以后**的唯一 lift：
+两个这样的 lift 相差 $\epsilon\in\mu_n$，
+而 $\iota$ 在中心恒等又迫 $\epsilon^2=1$；
+$n$ 奇数，所以 $\epsilon=1$。
+因构造和唯一性均在 $F_2$ 上成立，它与 Galois 作用严格相容。
+
+原解析 Weyl 字也满足(E4)。
+其 $n$ 次幂只剩格的 half-character
+$\epsilon_\Lambda(nt)^N=1$，对称 involution 送它到逆字。
+故(E4)按唯一性返回的正是本篇原 Weyl lift，
+不是新选择的 root 或 level phase。
+原 old seed 的 $E[p]$ 线性化也由此固定：
+它是 $[p]^*s_N$ 的实际 pullback 线性化。
+
+因此(C5)中的实际常数 $b_{N,\widetilde Q}$
+属于 $F_2$。本论证不要求单独的解析符号 $c_Q$
+预先属于 $F_2$，也不在(C8)的 $p^2$ 次根中任取一个解。
+尤其
+$$
+ \mathfrak b_p(Q)
+ =b_{102,\widetilde Q}\,
+       b_{34,\widetilde{\gamma_{102}Q}}\in F_2^\times
+ \tag{E5}
+$$
+保留同一 paired 中心、负侧 $\delta$ pullback 和两条三挠字。
+
+### 21.3 物理 Galois 在两个有限模型上取相反的 CM 方向
+
+沿本篇(7)--(10)的 actual inverse Jacobi 标记，令
+$$
+ D_+=
+ \begin{pmatrix}0&1/51\\-153&0\end{pmatrix},\qquad
+ M(t_0)=\frac{I+D_+}{2},\qquad t_0=(1+\delta)/2 .
+$$
+对 $v=(r,b)$ 写 $u=b/51+\delta r$。
+负侧 $\beta_-$ 对 CM 乘法是线性的，
+正侧 $\beta_+$ 是反线性的：
+$$
+ \beta_-(M(a)v)=[a]\beta_-(v),\qquad
+ \beta_+(M(a)v)=[\bar a]\beta_+(v).
+ \tag{E6}
+$$
+此处 $\beta_-$ 已是 $102$ 层的实际点；回到 $34$ 层须先乘
+$\delta$。它不改变(E6)的两种相反方向。
+所以同一个物理 $\sigma_l$ 对两个代数曲线都作 $[a_l]$ 时，
+在有限模型上的作用是
+$$
+ \rho_-(a_l)\otimes\rho_+(\bar a_l).
+ \tag{E7}
+$$
+它与旧有限配对的 diagonal torus 作用不同。
+
+把这个差别逐 Weyl 字计算。沿 R1054(59)--(64)，
+$$
+ W_+(v)W_+(w)
+    =\zeta_{p^2}^{\,\sigma(v,w)/2}W_+(v+w),
+ \qquad
+ \sigma((r,b),(r',b'))=br'-rb',
+$$
+负侧取相反的中心号；所有 $W_\pm(pR^2)$ 固定 old vector $v_0$。
+由
+$$
+ M(a_l)=I+plD_+,\qquad
+ \sigma(v,D_+v)=\frac{b^2}{51}+153r^2=51N(u)
+$$
+以及原 old vector 被该 compact CM torus 固定，可得
+$$
+ \begin{aligned}
+ \rho_+(a_l)W_+(v)v_0
+   &=\zeta_p^{-(51l/2)N(u)}W_+(v)v_0,\\
+ \rho_-(a_l)W_-(v)v_0
+   &=\zeta_p^{+(51l/2)N(u)}W_-(v)v_0 .
+ \end{aligned}
+ \tag{E8}
+$$
+原 paired 字的正参数是 $M(t_0)v$，其 norm 与 $u$ 相同；
+在(E7)中正侧还要把 $a_l$ 换成 $\bar a_l$。
+故两个号相加，得到
+$$
+ \boxed{\quad
+ \sigma_l\!\left(
+ W_-(v)v_0\otimes W_+(M(t_0)v)v_0
+ \right)
+ =
+ \zeta_p^{\,51lN(u)}
+ \left(
+ W_-(v)v_0\otimes W_+(M(t_0)v)v_0
+ \right).
+ \quad}
+ \tag{E9}
+$$
+本式没有另加 Weil scalar：原 $\rho_\pm(a_l)v_0=v_0$
+和(E4)已经锁定它。
+
+$v\bmod p$ 与(C18)的 $Q\in E[p]$ 一一对应。
+惰性 $p$ 使 $N(u)\ne0$ 当且仅当 $Q\ne0$。
+因此每个非零 $Q$ 项都有一个真正非平凡的 $\mathcal H$ 角色，
+特别
+$$
+ \sigma_l\bigl(\mathfrak b_p(Q)\bigr)
+       =\zeta_p^{\,51lN(u)}\mathfrak b_p(Q),\qquad Q\ne0.
+ \tag{E10}
+$$
+这证明该 paired 常数不在 $F_1$，而不仅是一个未确定的 root。
+对 $l\ne0$ 还准确有
+$$
+ v_p\!\left(
+       \frac{\sigma_l(\mathfrak b_p(Q))}{\mathfrak b_p(Q)}-1
+      \right)=\frac1{p-1}.
+ \tag{E11}
+$$
+(E11)是实际 Galois 差的估值，不是所有 Miller 高项对某个
+tame uniformizer 的完整展开；它不能代替(C15)以外尚需的高项控制。
+
+### 21.4 有限代数迹及其准确作用范围
+
+记 $\mathcal K$ 为本篇(4)、(13)的整个 $p^{-2}$ Weyl 和，
+仍在 $E_0\times E_0$ 的 pullback 线丛中比较。
+对每个原 seed，(E9)给
+$$
+ \operatorname{Tr}_{\mathcal H}(\mathcal K s_0)
+       =p^{-1}s_0,\qquad
+ \frac1p\operatorname{Tr}_{\mathcal H}(\mathcal K s_0)
+       =p^{-2}s_0.
+ \tag{E12}
+$$
+因此原 $-{\rm old}+{\rm new}$ 的未归一迹是
+$(p^{-1}-p)s_0$。这里的 $p^{-2}$ 仍是原 Haar coevaluation
+和全部 coset 的系数，没有重定标。
+
+同样，对(C18)任意有限的 $r,s$，
+$$
+ \boxed{\quad
+ \operatorname{Tr}_{\mathcal H}\mathcal J_{r,s}
+       =p^{-1}d_{-,r}d_{+,s}.
+ \quad}
+ \tag{E13}
+$$
+cover jet 的 $p^{r+s}$ 或 Taylor 的 $r!s!$ 可逐项一起带入。
+这条迹式与§20那个未平均 marked seed 的非零系数并不冲突。
+
+(E12)--(E13)是在固定 ambient pullback 上的实际 Galois 迹。
+事实上
+$$
+ \gamma_{102}^{\sigma_a}
+       =[a]\,\gamma_{102}\,[a]^{-1}
+       =[a/\bar a]\,\gamma_{102}
+       \quad\hbox{on }E[p^2].
+ \tag{E14}
+$$
+所以这个 Galois 和通常涉及不同的 conjugate graph。
+不能先把它叫作某个已经固定的单一 $\mathscr B_p$ 上的
+ordinary trace；若要在那里写，须把全部比较同构一并运输。
+本节也没有把(E12)当成原 full toric 操作已经施加的
+$P_0\otimes P_0$。旧有限输出 projector 和当前物理 Galois
+作用是两个需分别对照的操作。
+
+### 21.5 原 CM period、无限 lift 与冻结负二权全部保留
+
+有限 $\mathcal H$ 只指定 $a\bmod p^2$。
+要作用于原 infinite-level marked point 与 book period，
+必须用真实 lift。例如可取 R1058(5) 的
+$$
+ a_l=\frac{1+(pl/2)\delta}{1-(pl/2)\delta}
+      \in(1+p\mathcal O_{K_p})^1,\qquad l=0,\ldots,p-1.
+ \tag{E15}
+$$
+这些 lift 不组成一个阶 $p$ 的子群；它们在有限层才给(E3)。
+
+这里可以准确锁原参数而不猜 Artin 逆号。
+若 $\sigma_a$ 按(E2)在完整 Tate 模上作 $[a]$，
+原基满足 $\alpha^{\sigma_a}=\alpha g_a$，
+其中 $g_a$ 正是 R1058(3)的实际矩阵。
+所以该 marked point 的参数是 $t=a$。
+R1054(37)的相应局部 idèle 则为 $a^{-1}$；
+两个定义并不相矛盾，不能把 idèle 的逆又施到 Tate 基上。
+
+令 $\Omega_{\rm b}$ 是该原基的 book $p$-adic period，
+$\rho_{\rm b}$ 是 R1060(12)的原参数，
+$C_{\rm b}$ 是原完整 Maass 参数。
+它们与本篇的实复周期 $\Omega_0$ 不相认。
+写 $\chi_a=a/\bar a$。原矩阵、Hodge 和 KS 账本逐项给
+$$
+ \Omega_a=\frac{\Omega_{\rm b}}{\bar a},\qquad
+ \rho_a=\rho_{\rm b}\chi_a,\qquad C_a=C_{\rm b},\qquad
+ \mathfrak j_a(j)=N(a)^{-j}\bar a^{\,3+2j}.
+ \tag{E16}
+$$
+故在 R1060 的负二冻结读者中，第 $\ell$ 个实际矩仍带
+$$
+ \begin{aligned}
+ \mathfrak j_a(-2)\Omega_a^3\rho_a^\ell
+     &=\Omega_{\rm b}^3\rho_{\rm b}^{\,\ell}
+                   \chi_a^{\,\ell+2},\\
+ \frac{\mathfrak j'_a(-2)}{\mathfrak j_a(-2)}
+     &=-\log\langle\chi_a\rangle .
+ \end{aligned}
+ \tag{E17}
+$$
+因此外权 $\lambda_a$ 的导数同时是
+$\lambda'_a(-2)-\lambda_a(-2)\log\langle\chi_a\rangle$，
+并须继续保 R1056/R1060 的全部 Maass 修正。
+
+这也可在整个有限转置的核上核对。
+令 $\beta_{\rm b}=-C_{\rm b}/\rho_{\rm b}$（与 R1060§4.1同号）；
+则 $\beta_a=\beta_{\rm b}/\chi_a$，于是
+$$
+ \chi_a^{\,\ell+2}
+ [Z^\ell W^{\ell+2}]
+       e^{\beta_a ZW}H_a(Z,W)
+ =
+ [Z^\ell W^{\ell+2}]
+       e^{\beta_{\rm b}ZW}H_a(Z,\chi_a W).
+ \tag{E18}
+$$
+所以完整 Gaussian 没有丢失，只是连同同一个 finite source
+作真实变量运输。这里只使用有限槽恒等式；
+不把 $\chi_a\in K_p^\times$ 的乘法擅称为
+$\mathbf Z_p$ 上某个 bounded 测度的自由变量替换。
+
+例如，若某一步实际带有(E15)的全部 $p$ 个字，
+对(E10)中的一项必须保留
+$$
+ \sum_{l=0}^{p-1}
+       \lambda_{a_l}(-2)\,
+       \chi_{a_l}^{\,\ell+2}
+       \zeta_p^{\,51lN(u)}
+ \tag{E19}
+$$
+及其(E17)导数费用，而不能只保最后的有限根。
+本节没有证明原 $\mathcal T_{\rm orig}$ 本来就含这个和，
+也没有将这些 infinite lifts 当成作用于全部 period 的有限阶群。
+
+另一方面，(E17)费用的存在本身也**不**证明整个原 germ
+永远不能比较成某种实际迹。对真正的正权张量，已有准确相消
+$$
+ \mathfrak j_a(n)\,N(a)^n\,
+       \Omega_a^{\,3+2n}
+       =\Omega_{\rm b}^{\,3+2n}.
+ \tag{E20}
+$$
+若后继证明同一个 $H_a$ 的全部 finite/arch/CM 槽在实际 frame
+中严格按这些物理 Galois 字运输，负二转置中
+$\chi_a^{\,\ell+2}$ 的权导数可能与(E17)的
+$-\log\langle\chi_a\rangle$ 项相消。
+是否发生这种相消，须由那个完整 whole-source 身份决定；
+不能仅由有限群阶、(E12)、或“无限 lift 不成群”之一代替证明。
+
+因此本节已经支付的是：原 paired Miller 常数的实际定义域、
+唯一中心、非平凡野角色、全部有限 jet 的代数迹，以及原读者
+需要保持的完整 period/外权账本。原
+$\mathcal T_{\rm orig}$、其 frozen critical slope 与固定 canonical
+坏条件之间的未平均关系仍按 R1060 的原目标继续求证。

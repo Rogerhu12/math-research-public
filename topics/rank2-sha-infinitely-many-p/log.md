@@ -177,3 +177,12 @@ R1061§20消费同一Miller全jet，付实际γ102的Norm(g)=3及全部p²−1�
 root由C4/C8先证明(b_N/w_Q^N)^p²=U(Q)^−N，只取剩余类，不作非法wild根整级数。逐式核反CM点标记gNorm3、全部幂指数及完整Fp²×和，核m=p−7的Q0整低窗/两阶乘及准确估值，另明证critical tame−2首层全消。geometry独立核点方向/Norm3/原中心剩余类；全部纸证，无数学执行。不能将规范模型的非零未经whole period/full h运输改名为m_i或目标reader。
 
 R1061 C1–19已成功推送f99d90466b46013d682874831850ad064ed51b0b。推前actual readonly run46075603971/job140840311160：公开2026-11-28 02:51:33 UTC至c4debf0dd8cf43a8a6547bf9d6bbd1d087704417；私库2026-11-28 02:51:39 UTC至72c40ebe2fc7d07972e79c77603c41b759625bbc。四README与02:48已读版相同，QUEUE/认领未变；日志14894B/hash4c7775ded1dc48563a2c827f2e1ae21537f4935c8a1238a7f12bc414d0b0aded，库存3171/44793466B/tree57a9a78310505f040ccdc8eb6691208389235135，无>5MB，三旧必要gzip不变。
+
+
+## 2026-11-28 03:04:04 UTC：paired Miller 的实际野域、完整相位和冻结周期
+
+R1061§21在实际F0(E[p²])中用两层Eisenstein和给定点唯一symmetric lift锁定paired Miller常数；physical CM Galois在两有限模型方向相反，原非零Q字的野字符严格为ζ_p^(51lN(u))。完整代数H-trace给p^-1旧字及全部jet，通常比较conjugate graphs；它不是已加入原reader的平均。原物理t=a/idèle a^-1、Ω/ρ/C、冻结χ^(ℓ+2)与−logχ全部保，β=−C/ρ；也明记正权tensor的精确相消，完整germ是否归迹须由同一whole-source身份判断。
+
+root独核两层distinguished Eisenstein/CM模块生成全除点域、给定点E4唯一lift的构造与中心平方条件；核β两方向、51Norm symplectic相位、各old稳定子和H-trace费用。核t=a与idèle逆、冻结χ与log及E20全部正权抵消；把E18前β定义校正为R1060已付的−C/ρ（该有限系数恒等不改）。全纸证，无数学执行。继续完整whole-source关系，不以有限trace或无限lifts非群单独封闭方向。
+
+推前actual readonly run46075603971/job140842457979：公开2026-11-28 03:00:41 UTC至04959b53f761e4328f1419deea632aaf1eb48f92；私库2026-11-28 03:00:48 UTC至9e9aeb83c40c536603c675f1d58d4bb707e7e9c5。四README与02:51已读版相同，QUEUE/认领未变。日志14893B/hash4d3a8544b319f638c99a403c397097775a8a6e46f1c63e59a06f2fe0c94d13da；库存3171/44802819B/treeb5861afac8d7526c4102d1f5365766c379bbd84f，无>5MB/三旧必要gzip不变。最新02:57:37 v13仍in_progress，02:57日志仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，未返新数学终门。旧H逐字归档notes/2026-11-28-handoff-before-wild-galois-and-critical-germs.md（9594B/b63211c5c9042058845143152283f915b4e766e00f6c7d07a1715564bb1b8356）。

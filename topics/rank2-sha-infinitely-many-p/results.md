@@ -322,3 +322,10 @@ R1061§§16–19把每个真实translated source的全阶jet写进原division fi
 R1061§20消费同一Miller全jet，付实际γ102的Norm(g)=3及全部p²−1点的graded首和Σu^((p+1)(m+6))。完整图群平均在指定D−⊗S代数规范的(p−7,p−5)槽exact估值−12/(p+1)，Q0低窗与两阶乘全保，故该specified source的形式差2投影确非零。与此同时critical tame m≡−2的首层准确相消；实际wild根、高项、全h/finite/tame/Artin和冻结外权仍须原样消费，不把这个不同槽的非零冒原canonical斜率证书。
 
 [完整证明](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，D1–D8。
+
+
+### R1061 §21：真实 Miller 野角色与全部冻结权
+
+R1061§21在实际F0(E[p²])中用两层Eisenstein和给定点唯一symmetric lift锁定paired Miller常数；physical CM Galois在两有限模型方向相反，原非零Q字的野字符严格为ζ_p^(51lN(u))。完整代数H-trace给p^-1旧字及全部jet，通常比较conjugate graphs；它不是已加入原reader的平均。原物理t=a/idèle a^-1、Ω/ρ/C、冻结χ^(ℓ+2)与−logχ全部保，β=−C/ρ；也明记正权tensor的精确相消，完整germ是否归迹须由同一whole-source身份判断。
+
+[完整证明](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，E1–E20。
