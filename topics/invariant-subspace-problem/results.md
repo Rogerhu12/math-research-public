@@ -12,6 +12,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi的完整个别N/P、全NV及二十七列I10](results/R150-appendix-unit211-Phi-zero-corrected-individual-NP-full-NV-I10-and-two-decics.md)：四原值行、八动作列、两个λ10的正式原身份和完整实际来源；16.083766749秒/0，全部头零纤维保，非有限/空。
+
 - [R150：正确Phi个别N/P与完整NV的实际返回](notes/2026-11-28-unit211-Phi-zero-corrected-individual-NP-full-NV-four-original-rows-8542-actual.md)：16.083766749秒/0，四原行与十二动作、27辅助列均返回；两完整原cofactor给λ10必要式，总次94/98，所有头零纤维保，未排空。
 
 - [R267：明确分离块选择的实际来源费用发散](results/R267-appendix-separated-blocks-actual-even-cut-source-fees-and-fixed-denominator-divergence.md)：同一合法构造对每个固定正有理t，||YN Pt||沿偶切口趋∞且||QN||全切口趋∞，无强收敛子列；证明以有限前缀加原张量尾保住范数，只排这一选择。
