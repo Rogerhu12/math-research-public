@@ -1,19 +1,20 @@
 {
-  "message": "ISP R150: unrestricted f and t original weighted NP ideal identities",
-  "parentCommit": "cf9e432fc73f07de563a54e8014259b9d08b3b3e",
+  "message": "ISP R150: corrected Phi original N1 slope and exact six by two presentation",
+  "parentCommit": "0801f1aeab3d35917bb9ec19083686f4de55cc35",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-unrestricted-f-and-t-original-low-weighted-NP-identities.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-unrestricted-f-and-t-original-low-weighted-NP-identities-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-unrestricted-f-and-t-compact-eta-quotients-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-unrestricted-f-and-t-original-low-weighted-NP-identities-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-free-f-t-original-NP-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-free-f-t-original-NP-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-free-f-t-original-NP-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-free-f-t-original-NP-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-N1-slope-and-exact-six-by-two-model.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-N1-slope-six-by-two-original-model-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-rational-original-six-by-two-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-Bzero-rational-original-six-by-two-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-bzero-original.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-N1-exact-six-by-two-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-N1-exact-six-by-two-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-N1-exact-six-by-two-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-N1-exact-six-by-two-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -22,5 +23,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-bzero-original.yml"
+  ]
 }
