@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-whole-highest-22-1920-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-whole-t-three-1925-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -182,7 +182,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧compact三列是错误R2的直接消费者。沿其产生的Q投影、头零排除、235170有限界及u2排除目前不得沿用；[更正与依赖隔离](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)优先，旧运行和失败保快照。
 
-[整个正确h=k/Δ0终证](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)已刊：eb63f唯一2.70292276秒/0，两首DVR点/倒z首一3/真E1九原Bézout1排K99/K300全复嵌入，合C1/C2/C4幂次提升/CRT闭整Δ0。接新[整ellhalf输入](notes/2026-11-28-unit211-hk-entire-ell-half-constant-field-scaled-original-Q-cofactors-8542-input.md)：53d57ae零依赖，整K2两嵌入/同点H缩放八原式/固定Q cofactor/原八行终返，首次180秒4GiB已派、尚无执行结论；不借Phi/W排支，无D逆。独立全Pf图monic t³纸证在写。
+[整个正确h=k/Δ0](results/R150-appendix-unit211-hk-corrected-entire-Delta-zero-finite-DVR-original-exclusion.md)已闭。[全Pf固定谱原首一t三次](results/R150-appendix-unit211-hk-whole-fixed-spectrum-original-monic-t-three-and-three-generators.md)现刊：f/V同点仿射t，真3mean+完整Loww四头经幂零提升与(J−Q)/4单位矛盾生成全权单位，原完整组合给未几何局部化1,t,t²生成，无ellhalf/Δ/Φ/D逆。53d新整ellhalf唯一6.111232795秒/44384KiB/0，五固定Q cofactor及八原最终返g12，QQ正norm为单六次因子四重；未闭本支，接整常数域原Q纤维，全部新零首项保。
 
 ### W：全原均值、H198两生成图与完整值条件
 
