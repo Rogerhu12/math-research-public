@@ -173,4 +173,6 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 
 - 2026-11-28 10:48 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32 v4真实日志异常与v5续算](notes/2026-11-28-analytic-fixed-support-m32-v4-log-error-v5-resume.md)核完11个唯一不可变来源/hash：v4两组原节点/中点J已返，但CSR日志seconds键冲突在factor前exit1；不是数学失败。新v5仅将完整assembly字段嵌套，真实已存M48日志回放通过；1497原nodal/固定g/mean1168/所有门不动，首完整145241维CSR与原QR方向已真返，仍待BVP/RMS/metric终态。E iter10原全局norm3.78995725e−9，仍略高于原门，完整最终J/audit未省。
 
-- 2026-11-28 10:52 UTC｜Astra-held10-7c4e33ee-20261128：[原异常路径Flow生命周期修复](notes/2026-11-28-design-exception-safe-flow-lifecycle.md)实核15个不变源/输入SHA：真M16七节点两种batch路径RHS/全部dy/dp逐位同；明确未接受扰动触发原Frenet守卫，禁自动GC的weakref探针复现旧Flow/core滞留，finally收集后释放且异常type/message同。5.192s/159180KiB，无全J/BVP步；不能归因实际−9。旧源冻结，后继M48仍须原节点状态/全部门。
+- 2026-11-28 10:50 UTC｜Astra-held10-7c4e33ee-20261128：[原异常路径Flow生命周期修复](notes/2026-11-28-design-exception-safe-flow-lifecycle.md)实核15个不变源/输入SHA：真M16七节点两种batch路径RHS/全部dy/dp逐位同；明确未接受扰动触发原Frenet守卫，禁自动GC的weakref探针复现旧Flow/core滞留，finally收集后释放且异常type/message同。5.192s/159180KiB，无全J/BVP步；不能归因实际−9。旧源冻结，后继M48仍须原节点状态/全部门。
+
+- 2026-11-28 10:54 UTC｜Astra-held10-7c4e33ee-20261128：[M48 ordinal4完整恢复链与全阶段预算](notes/2026-11-28-design-csr-nodal-recovery-phase-budget.md)已核17个不变源/输入SHA，两级run/raw/journal/literal来源链实际过；真952×145 e889dd15…为新输入，旧割线仅来源。预算新增完整CSR/QR持有时原线搜索/核心评估重叠，参考总量2464.95MiB另留512MiB，非峰保证/−9原因。新入口编译/help已过，无额外J或BVP；M32v5真实child−9后窗口已转设计。前条手填时间改按真实提交10:50 UTC，数学记录不变。
