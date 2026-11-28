@@ -106,3 +106,7 @@ R33给相位族，真实旋转不变g及两开平帽使H固定、全时几何继
 ## O4真端输入的定量约束
 
 [R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给P=(‖k‖²−〈k,T_hk〉)/2；T_h为真实Volterra积分算子，非恒h时rank≥2，故任何非零P=0必有‖T_h‖HS>1。加权高度能量> (hmin/hmax)²，原盒推出U>16/225和共同动能根K>1+64/56169。整体h缩放或κ幅值均不改变P的零性质；需改变相对高度形状。显式分段C²双端新输入正在写，不只重复随机初值。
+
+## O1/O3准确端口简化
+
+[R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)给K=w[(9/2)f′g/r−(4/3)fg′/r−6fg/r²]和K′=2wJ1/r²，故βw²=−[K]/2。真实全平两端及R630左正规全线两无穷端K均为0；分段真实flux跳跃也准确抵消。新完整β仅需β0积分符号，但有限cut不能删除未零边界项。w→aw导致β→β/a是改变背景g的设计缩放，不授免费有限角或宏观reach。

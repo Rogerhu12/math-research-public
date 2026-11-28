@@ -543,3 +543,7 @@
 ## R634：真P端的严格高度能量门槛
 
 [完整证明](results/R634-true-P-end-needs-quantitative-height-energy.md)给Volterra二次型、严格HS阈值及U>16/225；四偶共同根进一步K>1+64/56169。整体高度或曲率幅值缩放不能替代相对高度形状变化，仅必要条件，非ruling根。
+
+## R635：双核端口w²项的准确边界消去
+
+[完整证明](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)给全导数与真实flux界面抵消；真实平尾和Morse全线参考的完整w²端口准确为零。严格非零工作缩为β0，有限cut与设计缩放的适用范围仍明确保留。

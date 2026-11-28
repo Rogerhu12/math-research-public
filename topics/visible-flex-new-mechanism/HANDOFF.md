@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **df5a7aca34ec803c347198d05f8e03b6bdaa3e18**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **9902e7f63fb20611779f9f15b326bbde6b656e0a**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -61,4 +61,4 @@ R33相位族保全时几何，本题允许δE=0；真正缺口是大非圆核心
 
 [R631](results/R631-thick-core-at-radius-four-fifths.md)给新R=.8/ε=.05厚核心：ρ∈(.14,17.153)、核心球<1.032，完整闭面若支付同球/条带.37/reach.062则δ/D≥105/344>.3。全程核心u<21.442、|P|<230；这是新设计g输入，不能跨用旧.85资格。[新factory](notes/2026-11-28-r631-radius080-new-design-factory.md)已实现新外段/字典/真实模式，尚未运行；1130维初值仅H非零。[硬P/本身路径](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)已实现1451列（含H及真F2），设计可调E；宏观候选后冻结g精化。
 
-[R630](results/R630-morse-double-kernel-all-frequency-center.md)已给新Morse全线参考：仅j2/3为零，其余整数j谱距≥1/(2880j²)；travel角的sin下界1/(3110k³)。正径向转换及正区双控制保travel角，局部源逆O(j⁻²)使共同小邻域稳定。仍非有限全平背景；下一接真实双尾；[首次计算](notes/2026-11-28-r630-morse-port-actions.md)run46121291838已完：参考β≈.355319296364837，截断/真尾未获证；小ν半径比<2但高度巨大、左action≈.169，非宏观解。R633正接全域双尾。
+[R630](results/R630-morse-double-kernel-all-frequency-center.md)已给新Morse全线参考：仅j2/3为零，其余整数j谱距≥1/(2880j²)；travel角的sin下界1/(3110k³)。正径向转换及正区双控制保travel角，局部源逆O(j⁻²)使共同小邻域稳定。仍非有限全平背景；下一接真实双尾；[首次计算](notes/2026-11-28-r630-morse-port-actions.md)run46121291838已完：参考β≈.355319296364837，截断/真尾未获证；小ν半径比<2但高度巨大、左action≈.169，非宏观解。[R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)已证w²项为准确边界项，真平尾/全线参考完整积分为0；β0符号正作严格尾界+球积分。R633正接全域双尾。
