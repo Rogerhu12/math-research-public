@@ -386,3 +386,15 @@ root再读BHKO原文Th3.12完整p^(-s)双线性公式、定义4.1/Prop4.7及Th4.
 root逐项手核原有理因子χ_-3=1及角色性、非饱和子群的独立短生成元注入、r/k一致界、满秩整矩阵诱导对偶有限覆盖与Haar推前、其它坐标卷积保正、绝对Fourier收敛，以及两个独立子群的同X径向/长尾/primitive差。仅改候选末相位名nu(h)为定义的u(h)，不删原坏位。R1072 §§2–4已实推1c59d0e9309e6a7875d2d7cfc42205434168cb2a（11:29:33 UTC），两次非FF立即双pull/rebase，四README未变；QUEUE别处变化但本题认领仍原进行中。v17最新实际step4 running、日志尚不可读已同步H/来源注。无本地数学执行。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:32:19 UTC到0ae5e1480d0166d1fd85a5f1880c0ee1f67734af，私库2026-11-28 11:32:14 UTC到8acbd67aa7bfd66129201497bde156cacc5ccc0b；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46720696B/tree5234525503ea9fb8e2c5d943b77877719e36d5f5，无>5MB。
+
+## 2026-11-28 11:35:50 UTC — R1067 全Paley邻点回原两/三位
+
+root完整手核P1–15，亲读Gross–Hopkins Thm1及整形式群自同构作用、André II Lemmas6.1.3/6.2.5、Strömberg Def5.10+Lemma5.12；区分整Reynolds与非整水平A/B。核源目标prime-to-p标记、∞负号、RS全簇唯一±、Singer的d反周期/两半Jacobi费、准典范商真实NP及c估值、P11整弱系数界、全Hermite三行。arithmetic独立核物理E系数/原ds/三位三角窗，根复核其c2d框架不变式并补入。没有只凭裸点值或未识别单位宣布原canonical非零。R1072 §5已实推787ed9c0b0294c30934c9defca3eb847beb205bd（11:32:25 UTC），四README不变。无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:36:08 UTC到b0a645c3117a4fe9c1536818df931557eaf7c6f4，私库2026-11-28 11:35:57 UTC到1b4cc68d42353c24dba5e3be1c001cd9a773446f；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46729967B/treeb5bf11265ed82b1f5fbfd2cca4d5117071a66dfc，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 11:36:27 UTC到3a74c97e37bd5b29bffc6ce42b4c294835b63389，私库2026-11-28 11:36:18 UTC到f30593aa6215d952e7496fc690fa61f863d443ba；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46729967B/treeb5bf11265ed82b1f5fbfd2cca4d5117071a66dfc，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 11:36:44 UTC到33b83143b9bf69ef921cf3022eec9abd42e77a24，私库2026-11-28 11:36:38 UTC到ed79216c20ff3a588fc853c0f9ed20088485222b；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46729967B/treeb5bf11265ed82b1f5fbfd2cca4d5117071a66dfc，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 11:37:00 UTC到6a3ed90368e3deb4e9be2d4b660a3b488486ed5b，私库2026-11-28 11:36:55 UTC到44981f6cdda7e9646663f6023dce7dcc4a911961；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46729967B/treeb5bf11265ed82b1f5fbfd2cca4d5117071a66dfc，无>5MB。

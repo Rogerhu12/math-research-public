@@ -895,3 +895,184 @@ $$
 完全还原到实际分歧主部及付清的 cusp 多项式。原水平 $f$、
 $\mathsf a_p,\mathsf b_p,\gamma$ 及(G4)的两种符号均照旧。
 (N6)所需的跨素数非零性仍待证明。
+
+## 46. 原两条半权 theta 的全部同源 Fourier 行
+
+本节固定 $M=68\cdot6^2$，限制至 $p\equiv-1\bmod M$ 且在前文所有固定好模型的素数。这是 Dirichlet 给出的无穷惰性子列。写 $d=p+1$，$N=d/2$，$h=N-1$，$\chi=(\,\cdot\,/p)$（零处取零），$\sigma=\chi(-1)=-1$，$\mathfrak G=\sum_{a\bmod p}\chi(a)\zeta_p^a$，所以 $\mathfrak G^2=\sigma p$。这一段不预置任何一个 $p$ 的 canonical 非零。
+
+### 46.1 真实 Fourier 项和有限整矩阵
+
+令 $F$ 分别为(134)的 $\Theta_f,\Theta_g$；全部原 $\gamma_a,\delta_b$ 仍在其内。置
+\[
+ \tau_j=(\tau+Mj)/p,\qquad W_j=F(\tau_j),\quad
+ W_\infty=\epsilon\mathfrak G F(p\tau),\qquad
+ \epsilon_f=\chi(M/68)=1,\quad
+ \epsilon_g=\chi(M/4)=\chi(17)=1 .
+ \tag{P1}
+\]
+最后的同号使用 $p\equiv-1\bmod17$ 和 $17\equiv1\bmod4$。对每个 $x\equiv a\bmod 34$ 或 $x\equiv b\bmod2$，有限 $j$ 处的相位分别为 $\zeta_p^{(M/68)jx^2}$ 或 $\zeta_p^{(M/4)jx^2}$。零频只由 $x=pz$ 贡献，对应 $a,b$ 换为 $p^{-1}a,p^{-1}b$。在本子列前者是 $-a$，后者是 $b$，而 $\vartheta_{34,-a}=\vartheta_{34,a}$，无须令 $\gamma_{-a}=\gamma_a$。
+
+取 $v_j=(j,1)^t,\ v_\infty=(1,0)^t$，$C_{ij}=\chi(\det(v_i,v_j))$。所有 $\tau$ 上准确有
+\[
+ CW=\epsilon\sigma\mathfrak G W,\qquad C^2=\sigma p I .
+ \tag{P2}
+\]
+确实在非零频 $k$ 上，$\sum_j\chi(i-j)\zeta_p^{jk}=\sigma\chi(k)\mathfrak G\zeta_p^{ik}$。常频项由 $C_{i\infty}=\sigma$ 配回，$\infty$ 行则是 $\sum W_j=p F(p\tau)$。用全部非零加性特征及常行、$\infty$ 行即得 $C^2$。所以(P2)也约束每个变形阶的整个向量。这里的 $C$ 是带两条指定同质向量的矩阵。
+
+取一个 $\mathbf F_p$ 线性同构 $L:\mathbf F_p^2\to\mathbf F_{p^2}$（§47按物理角决定两个共轭选择之一），定一条标记线 $i_0$，缩放至 $L(v_{i_0})=1$。选 primitive $\lambda\in\mathbf F_{p^2}^{\times}$，$B=L^{-1}\lambda L$。若 $Bv_i=s_i v_{Bi}$，对标准向量置 $S e_i=\chi(s_i)e_{Bi}$。有
+\[
+ CS=-SC,\quad S^d=-I,\quad \xi=[\lambda^h]\quad
+ (\operatorname{ord}\xi=2d).
+\]
+方括号表示非分歧环的 Teichmüller 提升。前一式由 $\chi(\det B)=-1$，第二式因 $B^d=(N\lambda)I$ 且 $N\lambda$ 是 $\mathbf F_p^\times$ 生成元。$B$ 在射影线上是一条 $d$ 循环。对奇数 $r\bmod2d$ 的特征基
+\[
+ e(r)=\sum_{k=0}^{d-1}\xi^{-rk}S^ke_{i_0}
+\]
+有 $Se(r)=\xi^re(r)$，且该基在当前位整可逆。故
+\[
+ Ce(r)=b_r e(r+d),\qquad b_r b_{r+d}=\sigma p .
+ \tag{P3}
+\]
+这里 $b_r=\sum_{k=0}^{d-1}\xi^{-rk}\chi(\det(v_{i_0},B^kv_{i_0}))$，因为 $e(r+d)$ 的 $i_0$ 项为一。取 $\det(v_{i_0},v')=1$, $L(v')=\delta$。于是前述行列式为 $(\lambda^{kp}-\lambda^k)/(\delta^p-\delta)$。将其 $h$ 次幂展开，并用 $\sum_{k=0}^{d-1}(\bar\xi^{2j+1-r})^k$ 的正交性，得
+\[
+ \bar b_{2n+1}=
+ \begin{cases}
+ d(\delta^p-\delta)^{-h}(-1)^{h-n}\binom hn,&0\le n\le h,\\
+ 0,&h<n<d .
+ \end{cases}                                                   \tag{P4}
+\]
+后一半由(P3)恰有一位 $p$。模 $p$ 的 $C$ 的核还有一个直接描述。$C_{ij}=\det(v_i,v_j)^h$ 是齐次 $h$ 次多项式的评值列。$(X-aY)^h$ 的二项式系数都非零，取 $h+1$ 个不同 $a$ 用 Vandermonde 即张成全部这样的多项式。评值在全部 $d=p+1$ 条线上单射。故 $\operatorname{im}\bar C$ 是整个次数 $h$ 的评值空间，维数 $h+1=N$，由(P2)亦等于 $\ker\bar C$。
+
+## 47. 真实目标标记、有界整旋转参数和所有半权符号
+
+### 47.1 原形变盘的框架及两条准确系数
+
+在原 $j=0$ 点用 $t$ 盘，有限 étale 水平标记取原 $\widetilde P$；这里不取 $x^4=t$ 的分歧盘。源和目标用同一物理 $E_1:y_{\rm ph}^2=x_{\rm ph}^3+1$ 的 canonical CM lift。原 Gauss--Manin 基取 $e_0,e_1$，$\operatorname{Fil}^1=e_0$，以实际标定的两个水平基向量写 $e_0=A h_0+B h_1$。由 $A(0)=1,\ A'_s(0)=0,\ B(0)=0,\ B'_s(0)=1,\ dt/ds(0)=1$，$v=B/A$ 切线为一；Kodaira--Spencer 切线为同构。故在固定好位，$t$ 是此一致整形变盘的参数。可在有限非分歧扩域或其完备非分歧闭包证明，估值仍以 $v_p(p)=1$。
+
+Serre--Tate 的形变等价将这张有素于 $p$ 标记的盘识别为原高度二形式群的有标记形变盘。特别 $\mu_{p^2-1}\subset\mathcal O_{\mathbf Q_{p^2}}^\times$ 通过改变特殊纤维的形式群标记在盘上整作用。它固定 canonical CM lift，因为该 lift 本身有全部这些形式群自同构。晶体与 Hodge 线的作用也整；水平 Betti 符号 $h_0,h_1$ 在此只表示取原 CM 值的水平晶体基，两个 CM 本征特征为 $a\mapsto a,\bar a$（顺序依嵌入）。因此 $v=B/A$ 按两者之商的阶 $d$ 特征 $\kappa$ 变换，切线同型也给此特征。这里用的是形式群和其晶体的局部作用，不把这些 $p$ 进单位说成整椭圆曲线的全局自同构。
+
+对 $t$ 作 $\kappa$-Reynolds 投影，得到 $y=t+O(t^2)$。对 $e_0$ 作其纤维 CM 特征的 Reynolds 投影，得到 $\widetilde e_0=l(y)e_0,\ l(0)=1$；两次都只除 $p^2-1$。整性来自普遍形式群及其 Hodge 线上的整群作用；这里并未断言水平函数 $A,B$ 的全部系数整，原 $A$ 在 $d$ 次的 $p$ 分母仍保留。在坐标 $y$ 下群按 $y\mapsto\kappa(a)y$ 作用。按原水平基展开新 Hodge 框架，得到
+\[
+ \widetilde A=lA=\mathcal A(y^d),\qquad
+ \widetilde B=lB=y\mathcal B(y^d),\qquad
+ \mathcal A(0)=\mathcal B(0)=1 .                             \tag{P5}
+\]
+因为换 Hodge 框架后系数的特征分别为平凡和 $\kappa$。实际质量换成 $\widetilde f=l^{-1/2}f=\sum c_i y^i,\ \widetilde g=l^{-1/2}g$。取常数一的平方根；质量仍整，$\widetilde f$ 仍至少三重零，$\widetilde g(0)=1$。特征零下 $v=y+O(y^{d+1})$，且
+\[
+ \sqrt A f=\sqrt{\widetilde A}\,\widetilde f,\qquad
+ [v^N]\sqrt A f=c_N=E_N,\qquad [v^d]\sqrt A f=c_d=E_d .     \tag{P6}
+\]
+后两式按 $t=t(v)$ 展开，等价于(123),(127)的 $\mathsf T_j f/j!$。$v/y-1$、$\widetilde A-1$ 从 $y^d$ 起；在 $d$ 次可能混入的常数项恰是 $\widetilde f(0)=0$。所以(P6)是原两精度前的准确等式。
+
+### 47.2 在同一目标标记上对全部商统一读数
+
+(P1)的有限分支以 $z\mapsto z$ 从 $\mathbf Z+\mathbf Z\tau$ 到 $\mathbf Z+\mathbf Z\tau_j$，无限分支以 $z\mapsto pz$ 到 $\mathbf Z+\mathbf Zp\tau$。标准 $M$-level 的推前标记相对于目标标准标记分别为 $D_f=\mathrm{diag}(1,p)$、$D_\infty=\mathrm{diag}(p,1)$：$Mj$ 不改变模 $M$ 标记。由于 $p\equiv-1\bmod M$，$D_\infty=-D_f$。将无限分支的同源取负。全部 $p+1$ 条带符号的同源遂以同一个 $D_f$ 运输标准基。
+
+具体选源 canonical CM lift 的 $M$-标记，使其特殊纤维经相对 Frobenius 后恰为 $D_f$ 作用于**指定的原目标**标记。该选取存在且唯一，因为素于 $p$ 的标记上相对 Frobenius 为同构；其 Weil 配对因子正是 $\det D_f=p$。给定的该源标记可用复有向周期基实现，因 $\mathrm{SL}_2(\mathbf Z)\to\mathrm{SL}_2(\mathbf Z/M)$ 满射。所有商经其特殊纤维 quotient by $\ker(\mathrm{Fr})$ 的标记后，都落在上述原目标盘；无限处分支的取负也计入该识别。完整级杀掉目标的自同构歧义。
+
+使用原半权质量时只需先下降三个乘积 $\Theta_f^2,\Theta_f\Theta_g,\Theta_g^2$ 和比值。它们属于实际双 unary 格的权一 Weil 表示：合并判别模后为偶 signature，level 整除 $68$。Strömberg, *Weil representations associated to finite quadratic modules*, Lemma 5.12 及其 $\epsilon_Q$ 的定义给 $\Gamma(68)$ 上恒等的此双格作用。故三个乘积在所选 $M$ 级及物理微分上准确读数；平方后的下降不需要一个未核的半权群分裂。未平方支由 $\widetilde g(0)=1$ 及下段全部相对符号固定；在原点 $g$ 是单位，$f/g$ 即三个乘积给的实际商。
+
+将(P1)除去相同的源半周期常数（例如(134)的 $\lambda_s^{1/2}/\sqrt{2\pi}$）。若 $a_i$ 为实际带符号同源的微分拉回因子，则 $W_{f,i}^2=a_i f(t_i)^2,\ W_{g,i}^2=a_i g(t_i)^2,\ W_{f,i}W_{g,i}=a_i f(t_i)g(t_i)$，式中 $W$ 已除共同因子。有限分支的微分因子为 $\lambda_i/\lambda_s$。无限分支为 $-p\lambda_\infty/\lambda_s$，这恰是 $\mathfrak G^2\lambda_\infty/\lambda_s$。混合乘积又有 $\epsilon_f\epsilon_g=1$。这些等式是权一形式与同源的代数身份，故可在共同代数嵌入后比较 $p$ 进 germs；无需搬运复周期本身。换成(P5)的两个框架时，只须用新微分的拉回因子以及 $\widetilde f,\widetilde g$，共同源标量随之更换。
+
+各条带标记同源在特殊纤维均为同一个相对 Frobenius，故在源、目标晶体水平框架间是同一个常矩阵。此由有标记的 Dieudonné 准同源的函子性给出，并非断言所有不同的特征零同源在固定椭圆曲线上相等。源、目标 $0$ 的 CM 作用把该矩阵置于反对角；原(F1),(F2)的相应非对角单位写 $u$（换相容源基也只改共同常数）。一般源参数下，Hodge 线比较给
+\[
+ \zeta(y_i):=\widetilde A(y_i)/\widetilde B(y_i)=Z,\qquad
+ a_i=u\,\widetilde B(y_i)/\widetilde A_s .
+ \tag{P7}
+\]
+$Z$ 为源 $v_s$ 的一个固定非零倍数，源 CM 时 $Z=0$。两式也可直接将两条 Hodge 线的水平坐标乘同一个反对角矩阵得到。此处 Gross--Hopkins, *The rigid analytic period mapping, Lubin--Tate space, and stable homotopy theory*, 主定理及其同源提升判据，和 André, *Period mappings and differential equations*, II, Lemmas 6.1.3,6.2.5，给标记晶体的水平平凡化及等变性。与原 $A,B$ 的相认由所选同一初值和水平解唯一性给出。
+
+令 $y_*$ 为线 $i_0$ 的真实目标参数。则
+\[
+ v_p(y_*)=1/d,\qquad \mathfrak c=y_*^d,\quad v_p(\mathfrak c)=1,\qquad
+ y_i=[L(v_i)^{p-1}]\,y_* .                                  \tag{P8}
+\]
+此处 $L$ 是源 $E_1[p]$ 的一维 $\mathbf F_{p^2}$ 结构所给的线性坐标，选取使 $L(v_{i_0})=1$；有限 $j$ 对应 $\langle(\tau+Mj)/p\rangle$，所以可将第一坐标基乘 $M$ 来使用(P1)的 $v_j$。证明角标：源 canonical 形式群的 $\mu_{p^2-1}$ 作用将商 $H$ 送至 $aH$；在特殊纤维标记后，目标作用由 $\mathrm{Fr}\,a\,\mathrm{Fr}^{-1}=\bar a$ 给出。目标的 $\kappa$ 是两嵌入之商，所以角标是 $a^{p-1}$ 或其逆。后一情形用 $L^p$ 作为 $L$ 即得(P8)。该论证在带标记形式群形变范畴进行，故只用素于 $p$ 标记来确定目标所在的盘。
+
+为核实径向估值，canonical 源的形式群是未分歧二次域的 Lubin--Tate 群，非零 $p$ 挠点参数赋值 $1/(p^2-1)$。次数 $p$ 的商同源用其核的 Weierstrass 乘积给 $v_p(a_i)=1/d$。目标 $p$ 挠点中有 $p-1$ 个为不在核内的源 $p$ 挠点的像，其赋值为 $p/(p^2-1)$（乘积的每一项均为 $1/(p^2-1)$）。其余 $p^2-p$ 个来自 $[p]$ 像在非零核中的点，源赋值 $1/(p^2(p^2-1))$，商同源像赋值 $1/(p(p^2-1))$。故目标 $[p](T)$ 的 Newton 顶点 $(p,1/d)$，$T^p$ 系数有准确赋值 $1/d$。该系数模 $p$ 是 Hasse 乘整单位；(F6)的原 Hasse 在 $t=0$ 简单零。于是 $v_p(t_i)=1/d$，因 $y/t$ 为整单位也得(P8)。由(P7)和 $v_p(a_i)=1/d$ 有 $\mathcal B(\mathfrak c)$ 为单位。各目标参数因(P8)和 $y_*\ne0$ 互异；Wronskian 使 $\zeta'(y_i)\ne0$。
+
+### 47.3 半权相对计号的唯一性
+
+将(P7)的共同标量去掉。在 $Z=0$ 的分支，每个 $W_{g,i}$ 再除去同一个 $\sqrt{y_*\mathcal B(\mathfrak c)}$ 后，为 $\pm [L(v_i)]^h\,\widetilde g(y_i)$。$\widetilde g(y_i)\equiv1$ 模极大理想，故所有这些剩余值的平方为 $L(v_i)^{p-1}$。由(P2)且 $v_p(\mathfrak G)=1/2$，整个剩余向量属于 $\ker\bar C$。按§46.1它是某个齐次 $h$ 次 $P$ 在 $v_i$ 的评值。$P^2-L^{2h}$ 的次数 $2h=p-1$ 小于 $p+1$，而它在所有这些射影线上消失，故此多项式恒零，$P=\pm L^h$。奇特征保证在每条线上模极大理想的计号已唯一固定原来的 $\pm1$。所以只剩一个共同计号。混合乘积的准确等式说明同一支的 $f/g$ 恰等于 $\widetilde f/\widetilde g$，故两个原 theta 共用所确定的整套符号。近 $Z=0$ 各支的平方根通过该初值唯一延拓。
+
+## 48. 两个指定 tame 分量的全部变形 jets 和原共同分子的三位径向式
+
+令 $y(Z)$ 是(P7)在 $y_*$ 的逆支。写 $\ell_i=[L(v_i)^{p-1}]$。由(P5)的准确特征，另各支为 $y_i(Z)=\ell_i y(\ell_i Z)$。对 $0\le n<d$ 定义原整块
+\[
+ F_n(z)=\sum_{j\ge0}c_{n+jd} z^j,\qquad
+ Q_n(Z)=y(Z)^n \left(\frac{y(Z)}{y_*}\right)^{1/2}
+        \mathcal B(y(Z)^d)^{1/2}F_n(y(Z)^d).
+\]
+两个根在 $Z=0$ 取共同参考支。将(P7)的共同源因子去掉，以 $i=B^ki_0$ 编号。若 $B^kv_{i_0}=s_k v_i$，则 $[L(v_i)]^h=\xi^k\chi(s_k)$。因此 $W_{f,i}(Z)$ 准确是同一全支公共因子乘
+\[
+ \chi(s_k)\xi^k\sum_{n=0}^{d-1}\xi^{2nk} Q_n(\xi^{2k}Z).
+\]
+对 $Z^j$ 取系数，再用(P3)得全部真等式
+\[
+ [Z^j]Q_{n+N}
+   ={b_{-2(n+j)-1}\over \epsilon\sigma\mathfrak G}
+                    [Z^j]Q_n,\qquad 0\le n<N,\quad j\ge0 .
+ \tag{P9}
+\]
+它们在移去公共源因子后取系数，该操作保持(P2)。此处 $\epsilon=1$，仍保留符号位置便于核对。尤其
+\[
+ F_N(\mathfrak c)=u_0 F_0(\mathfrak c),\qquad
+ u_j={b_{-2j-1}\over\epsilon\sigma\mathfrak G\, y_*^N}
+ \quad (0\le j\le2).
+\]
+$u_0,u_1,u_2$ 均为单位，且 $u_j/u_0=b_{d-1}/b_{d-2j-1}$。由(P4)分别为
+\[
+ u_1/u_0\equiv2,\qquad u_2/u_0\equiv8/3\pmod p .           \tag{P10}
+\]
+这些比来自非分歧环。$u_0$ 也可在完备非分歧扩域中取值：角标全轨道使 $\mathfrak c$ 被足够大的非分歧地基的惯性固定（准典范商遍历同一个驯轨道，$y$ 的系数取在该地基）；$(\mathfrak G y_*^N)^2=\sigma p\mathfrak c$，其除 $p^2$ 后开整单位平方根仅需非分歧扩域。以下亦可在共同有界值扩域作所指 $p^j$ 整除。
+
+为支付径向微分的精度，置 $x=y^d/\mathfrak c$。有 Tate 代数的系数同余
+\[
+ \mathcal A(\mathfrak c x)\equiv1-x,\qquad
+ \mathcal B(\mathfrak c x)\equiv1\pmod p.                    \tag{P11}
+\]
+确实(G6)在 $w$ 的 $k$ 次系数的每层 $p^b$ 估值贡献至少 $-1$：两个上参的命中次数各至少 $\lfloor k/p^b\rfloor$，一个下参至多多一次，另一分母是 $k!$。分母里正整数至多 $3k+1$，故在 $t^i,\ i=3k$，下界为 $-\lfloor\log_p(i+1)\rfloor$，亦适用于 $A$ 与 $B/t$。整旋转换元、整单位乘法保留该弱下界。$B/t$ 直到 $t^d$ 均整，因其第一可能 $p$ 分母须 $3k\ge2p-1$，故 $\mathcal B$ 在 $y^d$ 处也整。尺度 $\mathfrak c$ 后每个径向次数 $j\ge2$ 的估值至少 $j-\lfloor\log_p(jd+1)\rfloor\ge1$，且趋于无穷。$\mathcal A(\mathfrak c)=0$ 决定所余一次系数模 $p$ 是 $-1$。由此(P11)可逐次微分。
+
+在 $x=1$ 取值，$Z=y_*^{-1}x^{-1/d}\mathcal A(\mathfrak c x)/\mathcal B(\mathfrak c x)$，故
+\[
+ {x_{ZZ}\over x_Z^2}=-{Z_{xx}\over Z_x}\equiv2/d\equiv2\pmod p .
+\]
+$Z_x$ 只在同一比中相消。写 $\kappa_n=(n+1/2)/d$；除去 $y_*^n$ 后各 $Q_n$ 为 $x^{\kappa_n}\mathcal B(\mathfrak cx)^{1/2}F_n(\mathfrak cx)$。一、二阶 $Z$ 微分在对等式两边分别除共同 $x_Z,x_Z^2$ 后成为 $\partial_x$ 和 $\partial_x^2+(x_{ZZ}/x_Z^2)\partial_x$。根的共同单位另可约掉。按(P11)在模 $p$ 的系数行，这两行分别为
+\[
+ D_1^{(n)}=\kappa_n F+\mathfrak c F',\qquad
+ D_2^{(n)}=\kappa_n(\kappa_n+1)F+
+       (2\kappa_n+2)\mathfrak c F'+\mathfrak c^2F'',         \tag{P12}
+\]
+其中 $F,F',F''$ 是 $F_n$ 在 $\mathfrak c$ 的普通导数值。第零行为 $F$；$\kappa_0\equiv1/2,\ \kappa_N\equiv1$。未约化的三行为整三角矩阵，对角均为一（变量取 $F,\mathfrak c F',\mathfrak c^2 F''$，并除共同 $\mathcal B^{1/2}$）。(P9)把 $N$ 块第 $j$ 行精确表为 $u_j$ 乘零块第 $j$ 行。
+
+先因 $c_0=0$，零块前三个变量至少在 $p$，$N$ 块同样如此。模 $p^2$ 只需零、一行，$F_N(0)=F_N(\mathfrak c)-\mathfrak c F_N'(\mathfrak c)\bmod p^2$。由(P10),(P12)即得
+\[
+ E_N\equiv-u_0\mathfrak c E_d\pmod{p^2}.                    \tag{P13}
+\]
+现在假设原 $g_1\in p$。(128)给 $c_d=E_d\in p$，故 $F_0(\mathfrak c),\mathfrak c F_0'(\mathfrak c),\mathfrak c^2 F_0''(\mathfrak c)$ **全都在 $p^2$**，由上述三角性 $N$ 块亦然。在 $p^3$ 精度于是可使用(P10)--(P12)的全部模 $p$ 系数。整 Taylor 回 $x=0$ 给 $F_N(0)=F_N-\mathfrak c F_N'+\mathfrak c^2 F_N''/2\bmod p^3$，这在 $N$ 块等于 $3F_N-3D_1^{(N)}+D_2^{(N)}/2$。代入零块并保留全部三项，成为
+\[
+ u_0\{F_0-2\mathfrak c F_0'+\tfrac43\mathfrak c^2 F_0''\}
+ \equiv-u_0\mathfrak c c_d-\tfrac13u_0\mathfrak c^2 c_{2d}
+ \pmod{p^3}.
+\]
+由(P6)，所得同一物理行是
+\[
+ \boxed{E_N\equiv-u_0\mathfrak c E_d
+                  -\tfrac13u_0\mathfrak c^2 c_{2d}\pmod{p^3}
+ \qquad(g_1\in p).}                                         \tag{P14}
+\]
+$\mathfrak c/p$ 为单位。特别(N5)两个核的实际共同第二位满足
+\[
+ {\mathcal U_1(\Xi_{k,p})\over p^2}\equiv
+ -\left(\mathsf b_p+k\gamma\mathsf a_p u_0{\mathfrak c\over p}\right)
+       {E_d\over p}
+ -{k\gamma\mathsf a_p u_0\over3}
+       \left({\mathfrak c\over p}\right)^2 c_{2d}\pmod p,\quad k=1,2 .
+ \tag{P15}
+\]
+这里 $c_{2d}$ 仍须用同一实际旋转框架和同一 $f$ 的整 Taylor 系数。$k=2$ 的行乘 $\gamma^{-2}$ 才是原 $j_1/p^2$。$k=1$ 保(G4)的另一符号。本推导未推断(P15)对无穷 $p$ 非零；$c_3$ 的非零在另一个 tame 分量，不替代 $c_{2d}$ 或 $E_d/p$。
+
+一手文献入口：Strömberg 的判别模公式 [Lemma 5.12](https://arxiv.org/pdf/1108.0202)，Gross--Hopkins 的[原文](https://arxiv.org/pdf/math/9401220)，以及 André 的[晶体周期原文](https://arxiv.org/pdf/math/0203194)。本节所有有限矩阵、符号唯一性及三位系数由所示恒等式手证。
+
+
+在原 g1 属于 p 的范围，(P14) 所用 c2d 模 p 亦不依所许的整旋转框架选择。若 $y'=y(1+a y^d+\cdots)$、新框架为原框架乘 $(1+b y^d+\cdots)$，则 $c_0=0$ 给 $c'_{2d}=c_{2d}-(da+b/2)c_d$。因 $c_d=E_d$ 属于 p，所指残值不变；物理整组合仍以(N5)及(P15)为定义。

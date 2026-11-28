@@ -598,3 +598,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1072 §5：完整原相位的正下界与对数截点
 
 原primitive方向的完整坏位相位在分裂素理想自由群上确为角色；短同步子群不需饱和，以真实tame像注入控制其秩。不同素坐标Poisson测度推前及卷积给同一原相位的严格正下界，保全H_2i与H_(2i−1)两组不同子群和全部长方向误差。统一非零截点缩至i≥100 logp/loglogp，遂log(1+λ_p)≪(logp)²/loglogp。没有排除首层二次矩或中央重零。 [同编号全文](../results/R1072-original-toric-conductor-cutoff-and-quadratic-moments.md)。
+
+### R1067 §§46–48：原全部同源Fourier行与径向三位
+
+在固定无穷ray p≡−1 mod(68·6²)，原两unary theta的全p+1同源Fourier向量满足真实Paley本征式；signed Singer精确配对两tame模式。原目标标记、∞同源负号、双格Γ68下降与g(P)=1的Reed–Solomon唯一符号支付所有相对平方根。整形式群旋转及同一水平晶体将全变形jets接回物理EN/Ed；P14在g1∈p时给EN=−u0 c Ed−u0 c²c2d/3 modp³，P15返两canonical。保完整径向二阶及原相位；尚不判该行跨p非零。 [同编号全文](../results/R1067-original-first-wild-fixed-geometric-tail.md)。
