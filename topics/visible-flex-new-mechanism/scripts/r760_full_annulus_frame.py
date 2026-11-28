@@ -101,14 +101,14 @@ class R760Build(old.R750Build):
         self.install_moments()
 
     @classmethod
-    def from_paid(cls,parent):
+    def from_paid(cls,parent,profile=None):
         if type(parent) is not old.R750Build:raise TypeError('expected an original R750 source build')
         out=cls.__new__(cls);vars(out).update(vars(parent));out.identity=dict(parent.identity)
-        out.install_moments()
+        out.install_moments(profile)
         return out
 
-    def install_moments(self):
-        self.r760_profile=moments.solve_profile(self)
+    def install_moments(self,profile=None):
+        self.r760_profile=moments.solve_profile(self) if profile is None else profile
         self.r760_states={};self.r760_small=False;self.r760_three_periods=True;self.r760_label_states={}
         self.integration_ell_breaks=np.unique(np.r_[self.integration_ell_breaks,
                  self.r760_profile['ell_breaks'],.065,weak.FILLET_START])
