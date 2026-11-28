@@ -156,3 +156,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 - RHI45933988440/1全4、18relative carriers/2847cells已成，relative I/0非world锚。WMR prechild45941738781失败保，45942597362/1四目标已成；[AWH](results/R147-supplement-actual-complete-reference-world-height-and-anchor-budget.md)完整referenceν高度[-.0253702,-.0252298]和锚差.031082487a0+.006877446p0已付，varying P_b保。CW现在给真M R→L→b锚及固定exterior particular高度(-.02547,-.02513)，CG给全cap moving-state C0<9.9309e−5；真实core准入/匹配/其自身C0仍未授。
 
 尾端A0/L²/C1/高阶范围及SCAP完整97反馈见第4、6节与H，所有wholehigh、γ、means、world与最终fixedmetric义务照旧。运行/规则readSHA/完整META8 receipt与前7批账见H；META8净753508B、科学0。继续全部实际门，完成前不收尾。
+
+
+2026-11-28 HN2已支付真strict second source与full弱二阶解、actual short height Hessian及HP mean/phase quotient导数；不删除full regular二阶response、一般moving cap二阶端口、全tame inverse/可求和迭代义务。见R147 HN2，首算57新exact组合，旧科学0。TF唯一run46120139018/1正运行，尚无success gate。

@@ -598,3 +598,8 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 [完整证明](results/R149-supplement-true-low193-local-flow-and-direct-response.md)及[纯计算](scripts/fourfold_codazzi_true_low193_direct_flow_math.py)。对原WVC hybrid用变量矩阵Peano–Baker正反流/完整尾和前缀，不把interval exp当变量流；1424格的全部4273个97/96枢轴才授真实低逆。四源ordinary/S^-1/second-kind/high0保全signed跨格协方差、same-cell两三角、physical S及root97/outer96，二类逆保独立atoms identity。
 
 首actual入口86current/21history、manifest68583B/9bee97cd…，尚无新gate数值；旧SL/HS/trace/QR不重。只在未成功当前cell作4至64细分，成功prefix作业内复用，完整失败矩阵只private加whole SHA。即使成功也只授原hybrid低逆，不授全DF/CFB/finite-high/七端口/RHS或精确闭曲面。
+
+
+### R147 HN2：真正strict二阶列与低损失世界height Hessian
+
+[完整证明](results/R147-supplement-true-strict-second-variation-and-low-loss-world-height-Hessian.md)与[57新exact组合](scripts/fourfold_codazzi_strict_second_variation_saved_bounds.py)。同一原selected、frozen exterior的真NP列给完整二阶source L1rH−1<87，唯一全频第二解primitive+两mean<667、waist density<371；true tail无finite Bernstein。实际short passive world height以ordinary L2方向及独立waist/κ/world ports给H−3 Hessian<2000、physical mean<829，指定strong domain为4300/1800。原moving-test与mean反应全保；完整phase/height二阶<5.65e6/1.65e6，height inverse/phase ratio/两mean ratio导数全有界。真实off-constraint二jet仅消一、二阶body残差，原零阶残差保留；未授full regular inverse或全收敛迭代。57新比较仅一次全过，旧科学0。

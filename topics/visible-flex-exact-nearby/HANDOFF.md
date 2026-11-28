@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 07:12:34 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 07:29:58 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至fc9e921ed2e0bc5000f5b67e2beb4e016b8359d5；每次pull后核两63ef4198fdb9a16db85f3fb14608b812ad495ceeME差异，至少每小时；迄今无规则diff。私库读至75c7bd30591e906ec496b9557daac613e1206432，QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
+公开根/topic规则核至3543b3884300cff731478dd240ea1e718cb87973；每次pull后核两README差异，至少每小时；迄今无规则diff。私库读至d2aef4fd745c2136aa66ce7cd116dc0365542c61（07:12 UTC后pull、07:28确认无README差异），QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓均partial+sparse，终端可用，令牌只CLI且不落文件；未发现AGENTS。
 按根规8终端git commit/push，非快进立即pull --rebase并循环推成功，禁止force。结论成即推，root LOG不动，不加审批门。科学用公开Actions，成功旧目标不重跑；只补缺域，必要载体恢复核whole SHA。大数组只作业私有；保存脚本/参数/run/whole SHA及小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META8已842c46826推送：全新128个无引用旧JSON仅删字符串外空白，完整receipt notes/2026-11-28-legacy-native-metadata-whitespace-eighth.json（69502B/00044d5d…）、net753508B、科学0，原完整件在260ee6ac3。前7批账保前页；新任务与所有并行输出共同留容量。
 
@@ -22,7 +22,7 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 - **BNC native-path**：run46117248905/1，06:34:42启动。旧45941963989只因历史index被重命名失败，0新数学目标；新入口仅保原relative basename/后缀/兄弟shards。manifest79755B/74bb82d9…（187/51），原7目标/四whole父/true a及全部joint费保，见notes/2026-11-28-BNC-native-path-recovery.md。
 - **BGR3**：run46117818798/1，06:42:04启动；新全96×96 signed Gram、新w∞产品/whole rowerror，旧DWTB9/BNC不重。manifest75836B/0205e488…（185/51），见notes/2026-11-28-BGR-first-actual-entry.md。BNC完后只能消费全96centers/四整费形成新总费，不从upper相减。
 - **BFP19**：run46118996598/1，06:57:53启动，入口bec2ddc1b。manifest96504B/363c2116…（250/53）全303输入已准入；全512forward/2560image/8192全圆pullback/原96×2240Θsigned列，true a/means/PDE/flow/w/alias/globalΘ费齐。见notes/2026-11-28-full-target-nu-forward-first-entry.md；低96不冒完整Θ。
-- **TF真low193首gate**：新完整入口就绪待唯一run，manifest68583B/9bee97cd…（86current/21history、12bound source）。见results/R149-supplement-true-low193-local-flow-and-direct-response.md及新owner。原WVC hybrid真变系数Peano–Baker、1424格/4273实际97/96枢轴，再算真Green四整source maps含body+193atoms。4→64只细分未成功当前格，成功prefix作业内保；失败矩阵仅private+whole SHA。它保full-family principal η/repair/mean/真根/ordinary dr；不是全DF、CFB或finite/high逆。
+- **TF真low193首gate**：run46120139018/1，07:12:43 UTC已实际启动，入口197b81253；manifest68583B/9bee97cd…（86current/21history、12bound source）。见results/R149-supplement-true-low193-local-flow-and-direct-response.md及新owner。原WVC hybrid真变系数Peano–Baker、1424格/4273实际97/96枢轴，再算真Green四整source maps含body+193atoms。4→64只细分未成功当前格，成功prefix作业内保；失败矩阵仅private+whole SHA。它保full-family principal η/repair/mean/真根/ordinary dr；不是全DF、CFB或finite/high逆。
 
 ## 已成组件与本次新证明
 
@@ -35,9 +35,11 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；Qrepair44
 7. **CG**（260ee6ac3）：同一已存在M固定点t<2.684e−6，mean-separated真逆角/参考导数给37t+repair<9.9309e−5。全cap moving-state pair C0已进最终1e−4球；不是空间位置误差，也不授未知core准入/存在/匹配。7新组合一次过。
 8. **HP**（8cd255ec8）：同一NP列height-first，cP/cH∈(-1.543,-1.5208)、cA/cH∈(.2459,.2498)。全regular defect/raw E′a/chart/direct/world ports保；phase四弱源148568/10512/4736/13989，physical96+两mean近似joint误差<.001663，非Θ/fullSchur。27新组合一次过。
 
+9. **HN2**：真实strict二阶源L1rH−1<87，唯一全频zero-terminal二阶解primitive+means<667、waist density<371。原NP真全尾从未套finite Bernstein；实际short world-height Hessian以两个ordinary L2方向加独立waist/κ/ports给H−3<2000、mean<829，strong domain为4300/1800。完整phase/height二阶<5.65e6/1.65e6，HP quotient导数及两mean保。57新有理比较一次全过；是保零阶原残差的真实二jet，不是fullregular解/迭代。
+
 ## Tail与仍须完成
 
 SREG/SRH同一selection已有E4224连续/E4000<2^-49999998，exact prioris64..2204/source3938，原两大常数与高forcing义务保。SDIF/HL/HLP/SHL真实A0/L²响应、H8193方向C1与逐base余项已付，不授rough-source onto或L²operator连续。SHT/GVC完整片scalar/vector C²和oneλ/world/mean保，GHX非whole闭面。SCAP M(γ,fBγ)至q1165 C1、原97反馈τ<2^-31223196/cut<2^-31223185；CPA193两门/高cut(cC+1)及所有完整scope保前页与open。
 
 必须继续：真正侧low193及58→224→32→PN56/CXN6；TC全真列/physical signed square/cross；finite/high和两mean/ν/phase/height全Schur。随后同态H1/fullmean/true residual0/core C0，NG门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12、γA0/H8193准入、qν−Z负窗≤.005、第四Robin/腰/真phase；完整D² tame与可求和增广迭代；全B/C/Cmean、height/span/holonomy/位置周期/同world frame/腰反射/两regular caps。全部实际完成才一次冻结参数并验收族。
-当前并行：actual_inverse推进Θν具体signed receiver；alternative_route推进真low193和实际source接入；cap_world推进真实二阶ν及height Hessian；root推进TC96完整height行。各自独占新文件，root负责公共索引与统一提交推送，不停在中间结果。
+当前并行：actual_inverse推进全空间Θ receiver与ν具体signed列；alternative_route推进TC96 height实际载体/owner；cap_world推进TF真source接58→224→32；root推进TC96完整height行。各自独占新文件，root负责公共索引与统一提交推送，不停在中间结果。
