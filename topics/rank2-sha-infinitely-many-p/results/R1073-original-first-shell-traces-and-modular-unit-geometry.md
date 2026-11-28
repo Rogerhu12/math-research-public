@@ -268,3 +268,113 @@ $$ D\log\psi_p=p\zeta_E\circ[p]-p^2\zeta_E.$$
 $$ \zeta_E(R)=-\frac{D^2\psi_p(R)}{2p^2D\psi_p(R)},\qquad
  H(t_R)=\frac{D^2\psi_p(R)}{2p^2D\psi_p(R)}-\frac{x(R)^2}{y(R)}.\tag{AG9}$$
 $y(R)$ 对奇数 $p$ 的非零 $p$ 挠不为零。此值同时为复准周期校正下 $\zeta_E(R)=\mathcal E_1^*(R)$ 的代数值：在复格中相同 Laurent 比较的 $p\zeta(pR+pX)$ 常数为 $p\eta_{pR}$，故正抵去 $\eta_{pR}/p$。由(AG7)–(AG9)每个 $n=1$ 的真实移动项都能用原 E1 上的代数点与除多项式读出。对该 $n$，(AG4)的系数 $-1/d$ 为单位，故仍有 $v_p(\mathscr L_{1,1})=2/(p+1)-1$，相应的第二个固定评值是 $\mathcal A_b(\rho^{-2}-1)$。中央二阶在无穷素数的非零仍需从这些真正同源值推出。
+
+## 25. 两条完整 Gauss 行、全部移动扭点的代数导数与原中央两位
+
+沿(AF)、(AG)全部原标记及固定有限坏素集。令 $r=\rho^{-1}$、$T_j=r^j-1$。若 $1\le j\le i<p$，(AG4)的首项模 $p$ 为 $(-1)^{j-1}$，因此
+$v_p(\mathscr L_{1,j-1})=j/(p+1)-(j-1)$。对整幂级数
+$\mathcal A_b(T)/T^2$ 用 $\prod_{j=1}^i(T-T_j)$ 作 Weierstrass 除法，再在零处取值，得
+$$ [T^2]\mathcal A_b\equiv
+ \sum_{j=1}^i\left(\prod_{h\ne j}\frac{-T_h}{T_j-T_h}\right)
+ \frac{\mathscr L_{b,j-1}}{65\mathscr L_{1,j-1}T_j^2}
+ \pmod {p^i}.\tag{AH1}$$
+余项被 $\prod T_j$ 整除；每个 $T_j$ 和每个差 $T_j-T_h$ 赋值为一，故各 cardinal 权为单位。这里所有样本由同一原首圈给出。
+
+### 固定极及真实全扭点导数
+
+写 $U=B-[a]Q_{c_k}$，$B\in E[7]$、$a\in(\mathcal O_K/c_k)^\times$，并置
+$$ m_U=\epsilon_k(\bar a)^{-1}
+ \begin{cases}48/7,&B=O,\\-1/7,&B\ne O.\end{cases}$$
+这些极互异；其素于七部分准确为原 $6$ 或 $390$ 水平，故 $x_U,y_U$ 非零。相反极的留数互为相反数，$\widetilde G_{k,v}$ 为偶函数。因此在整个带标记族中有
+$$ \widetilde G_{k,v}
+ =\widetilde G_{k,v}(O)+
+       \sum_{U/\{\pm1\}}\frac{2m_Uy_U(v)}{x-x_U(v)}.$$
+中心 $\widetilde G_k(O)=0$。在中心的 $\mu_3$ 轨道，
+$x_{uU}=u x_U,\ y_{uU}=y_U,\ m_{uU}=u^{-1}m_U$，所以
+$$ \widetilde G_k=
+ 6t^4\sum_{U/\mu_6}\frac{m_Uy_Ux_U}{1-x_U^3t^6},\qquad t=x^{-1/2}.
+ \tag{AH2}$$
+各 $x_U^3$ 在这些轨道之间互异。
+
+对任一原标记非零扭点 $T(v)$、阶 $m>2$，记
+$e=\mathcal E_1^*(T)=\zeta(z_T)-\eta_\Lambda(z_T)$。在 $T+X$ 处对
+$m\zeta(m(T+X))-m^2\zeta(T+X)=D\log\psi_m$ 取常项，得到
+$$ e=-\frac{D^2\psi_m(T)}{2m^2D\psi_m(T)}.$$
+$\psi_m$ 始终为完整除函数，偶 $m$ 时保留 $y$ 因子；此式是实际代数截面。令 $D_v=4v^3+27$。原族 $y^2=x^3+vx+1$ 上全部标记点满足
+$$\begin{aligned}
+ D_v\partial_vx&=9ye+9x^2+2v^2x+6v,\\
+ D_v\partial_vy&=\tfrac92(3x^2+v)e+(\tfrac{27}2x+3v^2)y,\\
+ D_v\partial_ve&=(v^2-\tfrac92x)e-\tfrac92y .
+\end{aligned}\tag{AH3}$$
+
+给出完整微分证明。以 $\omega=dx/(2y),\eta=x\omega$，取
+$$ a=-v^2/D_v,\quad b=9/(2D_v),\quad c=3v/(2D_v),$$
+$$ F=-\frac{9x^2/2+v^2x+3v}{D_vy},\qquad
+ J=\frac{-v^2x^2+3vx/2+9/2}{D_vy}.$$
+直接代曲线方程即有
+$\partial_v\omega=a\omega+b\eta+dF$、
+$\partial_v\eta=c\omega-a\eta+dJ$，这里先固定 $x$ 求参数导数。
+$\omega,\eta$ 的原函数为 $z,-\zeta$。沿固定 Betti 分量的扭点，
+$z_T,\eta_\Lambda(z_T)$ 的导数分别为
+$az_T-b\eta_\Lambda(z_T)$、$-cz_T-a\eta_\Lambda(z_T)$。
+固定 $x$ 时，
+$\partial_vz=az-b\zeta+F$、
+$\partial_v\zeta=-cz-a\zeta-J$；奇 Laurent 式确定积分常数为零。
+所以
+$$ \partial_vx_T=2y(be-F),\qquad
+ \partial_ve=-ae-J-x(be-F).$$
+又 $xF-J=-9y/(2D_v)$，求 $y$ 导数便得(AH3)。这些为代数截面等式，故所有特征零嵌入相容。中心对 $w$ 的真导数记点号，由 $v'(0)=6$ 得
+$$ \dot x=2x^2+2ye,\qquad
+ \dot y=3xy+3x^2e,\qquad
+ \dot e=-y-xe.\tag{AH4}$$
+它同时用于全部 tame 极 $U$ 和实际 wild 点 $R$。
+
+### 原两行及保留的整精度
+
+置 $\xi(h)=[h]_{\rm T}^{1-p},\ R_h=[h]Q_*,\
+\Delta_0=p^2-1,\ z_*=Z(Q_*)$。定义
+$$\begin{aligned}
+ J_k(R)&=\sum_{U/\{\pm1\}}2m_U
+ \left(\frac{\dot y_U}{x_R-x_U}
+       -\frac{y_U(\dot x_R-\dot x_U)}{(x_R-x_U)^2}\right),\\
+ N_{k,0}&=\frac{\sum_{h\in\mathbf F_q^\times}\xi(h)\widetilde G_k(R_h)}
+                  {\Delta_0z_*^{p-1}},\\
+ N_{k,1}&=\frac{p\sum_{h\in\mathbf F_q^\times}\xi(h)^2J_k(R_h)}
+                  {\Delta_0z_*^{2(p-1)}} .
+\end{aligned}\tag{AH5}$$
+通用部分分式的导数另有 $\partial_w\widetilde G_{k,v}(O)$，但它在整个非平凡 $\xi^2$ 和中抵消；每个核的零点贡献也抵消。四位标量全整，参考 $N_{1,0},N_{1,1}$ 均为单位，由(AF2)、(AG5)及 $n=1$ 的 $-1/d$ 首项付出。
+
+对(AH1)取 $i=2$，直接化简得到
+$$ \boxed{
+ A_{b,2}\equiv\frac{\lambda_{b,p}}{65\lambda_{1,p}}\,
+ \frac{(1+r)^3N_{b,0}N_{1,1}-N_{b,1}N_{1,0}}
+ {r(1+r)^2(r-1)^2N_{1,0}N_{1,1}}
+ \pmod {p^2}.}\tag{AH6}$$
+分母净损两位；分子赋值小于四便给真实原二阶非零。
+
+具体尾界亦保原源。设
+$$ J_k^{\rm form}(t)=
+ 6\,\partial_v\widetilde G_{k,v}(t)|_0-H(t)D\widetilde G_k(t).$$
+首项是原带 tame 水平族在 $(v,t)$ 盘上的整函数，$D\widetilde G_k$ 整。又
+$$ H(t)=-3\sum_{m\ge0}\binom{-3/2}{m}\frac{t^{6m+5}}{6m+5}.$$
+整换 $t=t(Z)$ 后，$[Z^N]H$ 赋值至少 $-\lfloor\log_pN\rfloor$。
+对 $N<5p^2$ 还有至少 $-1$：指数 $6m+5$ 的首个 $p^2$ 倍数是 $5p^2$。$J_k^{\rm form}$ 满足同样下界。令
+$m_j=2(p-1)+j(p^2-1)$，真正完整 Fourier 和遂给
+$$ N_{k,1}\equiv
+ \sum_{j=0}^3p^{j+1}[Z^{m_j}]J_k^{\rm form}\pmod {p^4}.
+ \tag{AH7}$$
+$j=4$ 用 $m_4<5p^2$；$j\ge5$ 用
+$\lfloor\log_pm_j\rfloor\le j-3$，其起点 $m_5<p^3$，以后左端指数线性增长而右侧允许幂每步乘 $p$。故尾赋值全至少四。第一行仍按(AF5)取四个整系数；两列的原参考、混合项与除去的两位均已保留。
+
+### 七乘法在完整真实和中的准确合并
+
+对 $n=p^s-1$ 或 $n=1$，$n+1$ 的驯角色非平凡。令
+$P_{h,a}(v)=R_h(v)+[a]Q_{c_k}(v)$；$h$ 只标实际 $p$ 挠点的有限 étale 延拓，不在非 CM 的 $E_v$ 上假设 $[h]$ 为自同态。整数 $[7]$ 则在全族真实存在。因
+$$ F_7(T)=7e(T)-e([7]T),$$
+且 $(h,a)\mapsto(7h,7a)$ 双射、$\xi(7)=\epsilon_k(7)=1$，得到
+$$ \mathscr L_{k,n}=6\lambda_{k,p}
+ \sum_{h,a}\xi(h)^{n+1}\epsilon_k(\bar a)^{-1}
+      [w^n]\bigl(P(v)e(P_{h,a}(v))\bigr).\tag{AH8}$$
+$n=0,1$ 的两行分别为 $6\sum e$ 和 $-6\sum(y+xe)$，保留全部原权、点与相位。每个 $e$ 是通用向量扩张的唯一扭提升；其加法由 zeta 加法给
+$$ e(P+Q)=e(P)+e(Q)+\frac{y(P)-y(Q)}{x(P)-x(Q)}.$$
+(AH3)可直接作用于这些真正复合点，结合原(R3)的 $P,w$ 得全部高阶。以上仍未证明(AH6)的原分子在无穷多个 $p$ 上非零。

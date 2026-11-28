@@ -416,3 +416,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §85：完整Cartier校正与实际第二次Frobenius退根
 
 已证明：全局Gxω留数付c_p=−[s^(p−1)]x∈Fp×；LT微分模p²的Cartier及无限阶CM不变性把有限窗加强为DH=−x/c_p−s^(p−1)全盘等式。原A/B导数遂准确降到O(p)极阶，保κ_A及全原驯评价。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1073 §25：两条原Gauss行与全部扭点的真实代数导数
+
+已证明：原首圈前i个jets经整插值读a₂模p^i；固定极的完整部分分式与原Gauss–Manin连接给全部x/y/e移动，两个真实Gauss行准确读中央两位。原参考单位、p⁴尾界及真七乘法合并均保，尚未证完整分子无穷p非零。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
