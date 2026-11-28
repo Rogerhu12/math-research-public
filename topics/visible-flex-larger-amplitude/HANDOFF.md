@@ -40,7 +40,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R779/R782/R783完整已闭范围](results/INDEX-after-R770.md)：各原证明/源/条件原字保留，微幅下降、角解析夹持、四扇几何不冒全题完成。
 
 [52](notes/2026-11-28-run52-mild-cap-stress-and-complete-three-family-launch.md)：初46182255429真实J幂错误exit1/零stage全保；最小修复后46182901571/PID2804于19:46:47Z真实启动，24输入ROOT全核，7粗已返，三族18stage/三末网原预算继续。
-<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 387f9f704ac44f814321f004f4127169efc926f6
 
 [49/R774已闭完整结果及R784–786全部原证明](results/INDEX-after-R770.md)：所有原报告、点/源参/预算/真pull和范围未减；旧导航完整保[7e975前态](https://github.com/Rogerhu12/math-research-public/blob/7e9758e066a242d9d362cac388969c9941d68017/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 
@@ -59,3 +58,4 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 1f705887c42d784b73f3f67e7831d1e0681125f5
 <!--r787-publish-->R787 [每次双README真读](notes/r787-preloaded-long-wall-fits-46185392774-1-reads.json) f60defdb06d07ae32f6fae71ae1e5bb888076bd9
 <!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull ba335d36f2d1394239e0455dc2f0f1bc2996bafa
+<!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 50cf18d774560944ded412838c23f9e3bc80f82f
