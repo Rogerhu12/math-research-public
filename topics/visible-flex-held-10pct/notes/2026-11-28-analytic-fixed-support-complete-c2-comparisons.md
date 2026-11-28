@@ -7,6 +7,10 @@ mean 的原函数和字面系数有理数差。窄适配
 左端若是实际 design 锚，明确将它称为“在实际 delta 处的 design 返回”，不伪装成
 另一次 fixed-g 求解。右端必须是已真实求解且原全门通过的 fixed-support 返回。
 
+本比较的对象仍是原 `physical.npz` 所定义的分段六 jet 与固定 mean1168 的真实
+原函数。它不是 R73 那个另行声明的新公共 Cartesian 多项式/新有限均值图的
+两层比较；也没有把浮点端点两 jet 的微小不一致自动当作精确 C² 拼接恒等式。
+
 ## 实际 design M24 → 实际 fixed-g M24 径向精化
 
 固定问题是 `lambda=.002`、`delta=.06413464112662924`、完整原 profile/tail、
