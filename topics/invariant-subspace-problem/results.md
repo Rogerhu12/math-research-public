@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R12：全喷射平坦理想严格大于实际全幂共同理想](results/R12-appendix-strict-flat-jet-and-common-power-ideals-and-actual-inverse-topology.md)：I∩CⁿC′=CⁿI且后者非闭，F⊊I、CF=F、F非范数闭；全部实际整数逆费用定义完整非范数化Fréchet代数，原同分母平方根仍未构造。
+
 - [R150：正确 Φ 整个 B=0 排除与首三真均值三生成](results/R150-appendix-unit211-Phi-zero-true-entire-Bzero-original-exclusion.md)：全K40原六式Bézout1在15.431740162秒返回，结合C76其余完整因子排尽B；真实头成为单位，得到1,T,z生成，未称自由或一般Φ空。
 
 - [R150：正确 Φ 整 α=0 的原首一 V 二次及三个权条件](results/R150-appendix-unit211-Phi-zero-true-whole-alpha-zero-monic-V-two-and-weight-conditions.md)：原身份独立支付 m、θ，完整 EBo 首一2/四原行/三权组合在0.456230013秒返回；尚未有限或排空。
