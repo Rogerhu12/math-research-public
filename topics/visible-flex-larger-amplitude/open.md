@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 当前真实数值
 
-固定Fejer g/M160/J923/N2048/32stage，原157/7词、458/445formal、48live/全变量/域/预算保。12–18官方cancelled原因未知；末真pull/未返科学保终态note。18–25完整report未返，进度不能接准确费。
+固定Fejer g/M160/J923/N2048/32stage，原157/7词、458/445formal、48live/全变量/域/预算保。12–18官方cancelled原因未知；末真pull/未返科学保终态note。18–26完整report未返，进度不能接准确费。
 
 | 完整记录 | 已登记实际边界 |
 |---|---|
@@ -117,7 +117,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 | [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 真实46094430214；全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计，几何/策略未知。 |
 | [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 真实46096380016；半波b5/8；初7e06/accepted0/Phi886.6498886846562/Gram.47296582169113244，reach.6122924171813162/distplus.0608650756788609仍正；a464 Phi886.6498886762892/Gram.47296582200907233，仅统计。 |
 | [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 真实46099929359/1；两input0，初7e06/model6f3ae32/accepted0，Phi/Gram/六g逐项同22初场；真实K与物理位置已返保note，trial/cache效果未知。 |
-| [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725固定b1/2/ε1/8；全源码/参数/请求/队列/workflow已刊，实际run/job/新场未返。 |
+| [26](notes/2026-11-28-run26-complete-r725-cutoff-launch-and-continuation.md) | R725固定b1/2/ε1/8；实际46103106086/1/job140849792210于03:29:40Z启动，head a6c9c101；新场/费用未返。 |
 
 统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，不推曲率/reach单调性。
 

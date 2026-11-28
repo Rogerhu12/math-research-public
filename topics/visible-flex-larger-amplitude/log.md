@@ -402,3 +402,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:29:31 UTC — 26完整R725独立科学启动发表
 
 六全启动件156429B：controller19995/fde6174e，仅25四槽label变；workflow2209/9912dcca，五原transport替换，全部依赖/action pins/350min/partial clone/预算/原pull-rebase规则保。request33744/b1872dbb，全部51当前key及整25原request32k全保；queue74270/50fc02ab，原6/26词input整步骤仅reference id改26，接整157词science。完整pure445项/7词保固定ready，science+pure118380/all4 126501>95000，真自然返后整接pure52340。完整source95801769、paramsf44e6c及13external原责任保。启动note13066B/de04dccf和总表13145/bbe85843齐；尚无actual run/job/sourcecheckout/model/point/fee，不冒成功。双README云核至`760c636f5e21e36fb58d70e3890d957fa197083f`无变（非pull），控制器真pull照原规则。NFF普通整合重推。H旧完整状态归f44e6c，open§1–6原字不动。
+
+## 2026-11-28 03:32:05 UTC — 26官方实际启动确认
+
+46103106086/1，workflow433377608/job140849792210，03:29:40Z从a6c9c1011551cb0c84c458e603b6b691f66313f4真实启动。官方in_progress/null；checkout/Python/dependencies success，research in_progress。完整官方run和jobs原对象追加26note，不冒input/model/field/final或准确费。活源/队列不改。双README云核至`687d22ccb6b4d5a7d2bcdc571e68292cfce0590c`无变（非pull）。
