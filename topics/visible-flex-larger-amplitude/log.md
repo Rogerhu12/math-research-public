@@ -329,3 +329,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:28:31 UTC — 31完整三包39文件全部刊至main
 
 补刊此前已完整保护的12件非运行再生/重复ready/完整交付表及说明（481099B），连8591已刊27件，本次31三包39文件全部main。[完整记录](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)保逐文件whole身份。实际执行源/所有参数/队列/运行ID和已观察数学值未变；准备null仍按历史作用域保。完整source、参数和launch三份总表均现可按原路径取回。 双README云核至`1a7d9db8e39def8503a4b5ff4e47af8cf016b94f`无变（非pull）。
+
+## 2026-11-28 08:29:52 UTC — 32真实运行两输入返回，完整科学已启动
+
+32真实46125006601/job140917553486两必要输入均0，主science20911541/PID3496已启动；完整原leaf/tail与accuracy_reached=false原义保留。自身progress尚未产生，model/场/接受/最终报告未知，不借31数据。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)。双README云核至`ad40eb0eebfc3ee79d3151fe524008b03f34054f`无变（非pull）。

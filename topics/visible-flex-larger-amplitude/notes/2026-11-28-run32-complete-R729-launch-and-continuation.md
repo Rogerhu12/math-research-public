@@ -110,3 +110,44 @@ science自然返回完整report后，按同activeID把整个pure步骤放入同q
 完整[参数总表](../computations/fixed-fejer-r728-R729-bhalf-complete-parameter-delivery.json)与[launch总表](../computations/fixed-fejer-r728-R729-run32-complete-launch-delivery.json)给出全父文件、完整JSON pointers、再生器、全部源和当前参数。31运行所需闭包早已8591发布，31另12份非runtime附件仍按其原whole blob保护待刊；不把这一点误称32缺少实际runtime。原旧参数词法整理的whole读者仍须按[对应固定历史](2026-11-28-complete-ready-json-lexical-format.md)整恢复原字，不沿旧SHA读格式后新体。
 
 所有科学raw只在runner，Git只全源码/参数/配方和必要紧凑实际结论；无Python/AST/fixture/benchmark前门，也未减README完成标准。
+
+## 2026-11-28 08:29:52 UTC — 32真实运行两输入返回，完整科学已启动
+
+公开真实run46125006601/1，初始head386079ffa43eb45577620becb418727b8bbe153c，created08:16:03Z；job140917553486 started08:16:06Z、research step08:16:52Z，官方仍in_progress。加载controller3b64dc1d2a6e517ac06edf230d4647e7d8f9008ce2e7e664d702f40c3cea6290。
+
+必要输入1真实source1c2d176da71670f6774c24ff3a3d812a79b90c11，退出0/6.170766205999996秒，完整report65320B/SHA3d816ecda90fe26f92e6c0680f43b3b45bdda1acefec6784321a7c63c8d6ba10。必要输入2真实source0e94d7b0776a5e43517a3a60a1b03f1e6135a0d3，退出0/516.758671284秒，完整report84974B/SHA1603b082901c58606d49a27b8f427d6d516066648c24cc53981a0bc3292dd53f。真实reference212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb、carrier84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e；所有输入/输出whole身份、原完整6/26参数词和2项源码均保下面完整小卷。M160/J923/P7377/N2048、height1.947054437068418，原2218完整leaf/whole_tail=true/unresolved_tail_dropped=false；accuracy_reached=false保原义，既不改称已付容差，也不虚称原输入因此不完整。
+
+本run实际material binding35712B/SHA86ee65c5f2f16b9f9dc50759c1b5aa1755d9b508a91458a7f68d048a5372a437；locations SHAa05fe46a35808fecfb43bebf304581989c2d5242cf22a98e2da203dd831e7a70、历史provenance SHA5bd092a5cbb3274c3917fd79ff69f1efcd22327bfdf84821d2f95668a303b49c。虽reference/carrier与其它run同字，运行/报告/binding仍是自己的，未借旧物理场。
+
+08:26:04Z真实science child source20911541326908882a45a1a1815ec8a05ebb4420/PID3496，launcher SHAda440c59c6fbd798b0dc1711a274e5480de9a8ecb1e71d1382976180ea3bd7f3。两progress文件首次均FileNotFoundError，完整错误保whole索引；此时尚无自身model/point/Phi/Gram/geometry/接受或退出值。未把输入完成当科学完成，也未继承31自己的初始值；自然science返后才换完整61349B pure队列。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46125006601-1-part-001.md",
+    "bytes": 5756,
+    "sha256": "75eccb395732129db2d59a639abef181873a817edd059ca52c7035990b4c14f8",
+    "git_blob_sha": "b0834201050eb9f74b1c08aa03f63db32a1919ef",
+    "fixed_commit": "81ab3893dbff4e248adc6c3e97ebd928a03c196e",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46125006601-1-part-001.md",
+    "bytes": 16606,
+    "sha256": "9093d0d9ba35852e8b5857066ea7a8ca4999e5ae962d5835302ea67b9852ed83",
+    "git_blob_sha": "86914149fcfbe442a9dd8f3c6af42fceac10ee85",
+    "fixed_commit": "4e9655966fa8476ad9027bbbf686b70407377d94",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  },
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46125006601-1.md",
+    "bytes": 49115,
+    "sha256": "dea19624b0e33666f4b19474416823d7554b499f23dec04a0345ecd7f287f40e",
+    "git_blob_sha": "9eaf6e8c5c829fd7b799f42785bb65d3a368191c",
+    "fixed_commit": "4e9655966fa8476ad9027bbbf686b70407377d94",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
