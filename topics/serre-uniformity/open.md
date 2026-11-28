@@ -53,8 +53,6 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1155 §§1–12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原raw D的rev/BK、完整finite Li和两输入ε carry、S3/五项/ordered与BCH全项已付；Gaussian单块的h12−(L3/L1)h4及b8单位不代原weighted F0。全部nilpotents/原系数见原文和本次逐字归档，不重做；分歧输入只称fibres间运输。
 
-同文§12固定实际整形式ψz=z^p，完整carry ε=ε0−u0L给hψ=h0+b0L−u0L²/{2(1−u0)}−u0L³/{6(1−u0)²}；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50单位。未指定ε0=0，未把ψ专化当分歧torsion的field Frobenius。此单块仍须经过真实weighted/Cor/moment。
-
 [R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)扩到原坏参数：w=u^p,d=1−w，κ=max(v_p(w),v_p(d))≤1/3时，Li_r†=ℓr/d−r p wℓ_(r+1)/d² modpO_L；实际v=w+pε的运输保两个log二次项及中央pε³(1−3w)/(6w²d²)。全部Eulerian/Taylor尾已界；非整坐标仅为坐标误差，后续乘法/Cor必须提高精度。任意深near0若同一实际提升v=w(1+pα)，则整三槽为(−α,(wα−ℓ1)/d,−ℓ2/d−wα²/(2d))。近1/∞用完整Coleman S/J身份及同一第二输入；不能任意选各项ψ。原n2实际阶已由R1157 §12支付；真实Ep/PD格比较继续。
 
 [R1155 §14](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原CM全部参数共享ψσ,z→z^p；u/1−u=z^m unit四类corner的Rψ在取jet前整，good/near0/near1/∞全部constant、log乘积、半平方和五项carry保留。只付源形式jet，实际Ep理想不被ψ保持；ψ(g^r/r!)/p^r在g0仍留(−1)^r/r!，完整式沿原文/本次逐字归档。不能用十二次coefficient jet替function高block，原PD/43格读取继续。
@@ -66,6 +64,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 R1166 §§9–13原第一层tame S_L=⊕z^jS_F，g=u−p=ze−p，ψτ交换且N_z=eN_u、dlogu=e dlogz；actual Cor无log槽e·第0块、log槽第0块，两个L因子用same-coset。原Tr x^[d]=0后才消theta leading/幂项；d4/8取原V₂=−1/(z³y)，来源¼[Δ/(16y⁴)]无新根。输入恰k_d⁻¹(A₀dlogu,eB₀)，A/B是x^[d]NlogV₂与x^[d]p⁻¹log(V₂^p/ψV₂)，全部normal及高层gauge保留。
 
 R1166 §§14–18 actual Steinberg primitive(0,β)满足d h=−cup，β=Li₂†+AB₀+J，J=p⁻²∫log(1−t/(1−U^p))/(U^p+t)dt整，模p^M只需n≤M+1(M≤29)。βmodp=(ℓ₂+εℓ₁/U^p−ε²/(2U^p))/(1−U^p)，原线性carry不能删；h_R=AB−β及通用Z=𝔟(A,A)−H，𝔟的λ∞为正。未分歧universal的整compatible tower先锁同根再pullback；共同U=z^mV近0化ε=U^pα，J无负幂，exact S/J保AB−β、−β+A²/2。原line/divisor精确z因子、固定CM整数α与[1+α]P(z)继续，不能用只在Ep相同的Teich形式替换。
+
+R1166 §19已实消原最高correlation的全部Q·βS：同一even槽βS对称、原Q=(X+Y)(2X−Y)(X−2Y)[XY(X−Y)]³反对称。Hcorr=½b_n(A,A)+ΣQβU/54，同frame BCH中心=−ΣQβU/54；原a=−1,2,1/2整tensor权真0，其余rank1/rank2全保。剩余U-sum及原未平滑继续，后继R1168非乘法/ordered修正不能省。
 
 [R1167](results/R1167-original-first-level-CM-PD-period-and-Miller-calibration.md)原第一层完整xP=−b_E z^p(1+γp)ω−zgη，b_E为原Cartier unit。原Miller外环residue−c1−p/t(P)=p(E(P)−1/t(P))锁κ=−b_E；包含p²危险项的CM完整尾已付。pure powers的j=pd−(p−1)k、normal hp+k、系数(−1)^d d!b_E^(d−k)ξ^j/(d−k−h)!全给，无额外moment d!。
 

@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原最高矩S部分的完整求和消去（已证明）**：[R1166 §19](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)同一even槽的严格对称βS与原反对称Q使全部QβS准确为零；原correlation的BCH中央剩−ΣQβU/54，并实消a=−1,2,1/2三种整tensor零权配置。其余rank1/rank2及后续非乘法SDR/未平滑继续。
+
 - **原未分歧PD收缩与CM矩的实际系数（已证明）**：[R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)原43格各槽的log cone有完整显式SDR，只读normal0和t+k并保γhp carry。原d4/8矩实化为binom(d,k)b_E^kG_(p²−1−pd+(p−1)k)/(k+1)，平滑因子精确消去；中央值另保全部有序gauge和Z=𝔟(A,A)−H。继续原完整最高项求和与全局减法。
 
 - **原Steinberg primitive的整syntomic第二槽（已证明）**：[R1166 §§14–18](results/R1166-original-ambient-PD-and-ordered-coefficient-comparison.md)实际β=Li₂†+AB₀+J给d(0,β)=−cup，并以h_R=AB−β锁原有序Frobenius号；完整整尾、线性carry和共同log source的三个坏角均付。先在未分歧universal全塔锁同根后pullback；全27项/原权/同陪集中央求和继续。

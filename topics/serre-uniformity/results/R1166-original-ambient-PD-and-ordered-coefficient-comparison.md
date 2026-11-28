@@ -1458,3 +1458,235 @@ $\operatorname{Sym}^{12}$ projection 后的求和，
 以及本篇 §§3–7 的实际 refinement/cone/product 同伦。
 积分公式、整尾、微分号和 (1166.54)–(1166.60)
 均由正文逐式证明。无数学程序执行。
+
+
+## 19. 原最高矩求和：完整 $S$ 项消去与剩余 $U$ 项
+
+本节在 R1158 的**同一共同 even 单位槽和实际根规范**中，
+化简最高 $\operatorname{Sym}^{12}$ correlation primitive。
+辅助数仍是该文的原 $n$；可取本篇已付的 $n=2$。
+这是实际有序点对之和的恒等式，不以单个 primitive 的
+cohomology class 为替代，也不改变已固定的原四线 source。
+
+为避免与 primitive 的 Frobenius 第一槽混淆，将
+R1158 (1158.7) 的 filling 多项式写作
+$$
+\begin{aligned}
+\mathscr P(X,Y)&=X^4Y^8,\\
+\mathscr Q(X,Y)
+ &=(X+Y)(2X-Y)(X-2Y)\,[XY(X-Y)]^3,\\
+\mathscr A&=\mathscr P/2-\mathscr Q/36,\qquad
+\mathscr B=\mathscr Q/54.
+\end{aligned}
+\tag{1166.61}
+$$
+其中三次因子就是原
+$2X^3-3X^2Y-3XY^2+2Y^3$。
+不改变 $S(X,Y)=(-Y,X)$、
+$U(X,Y)=(-Y,X-Y)$，故仍有
+$\mathscr P=(1+S)\mathscr A+(1+U+U^2)\mathscr B$。
+
+### 19.1. 对称的原 $S$-primitive 是严格代表
+
+在同一 actual syntomic/period frame，记原 even 单位
+$u_{\bar P}$ 的 Kummer cochain 为
+$(\alpha_P,\mathsf a_P)$；
+原 cyclic-$n$ 槽相应为
+$(\alpha_{C,P},\mathsf a_{C,P})$。
+这里的 $\mathsf a_P$、$\mathsf a_{C,P}$ 是实际第二槽，
+不把它们预先换成后继 constant-cycle 读数。
+所有 $P$、$-P$ 共享 R1158 (1158.5) 已付的同一个 even 槽。
+
+对两个 scalar Kummer cochains
+$c=(\alpha,a)$、$d=(\beta,b)$，原 ordered cone product 给
+$$
+c\,d+d\,c
+ =\bigl(0,\,
+ a\beta-\varphi_1(\alpha)b
+ +b\alpha-\varphi_1(\beta)a\bigr)
+ =\bigl(0,d(ab)\bigr).
+$$
+这里用了 $da=\alpha-\varphi_1(\alpha)$ 和
+$db=\beta-\varphi_1(\beta)$。
+所以 $(0,ab)$ 的总微分是 $-(c\,d+d\,c)$。
+这正是原群态射的二次 primitive；没有另加闭一次上链。
+
+因此 R1158 §4.1 的指定 $S$-primitive 在此同一 frame
+的第二槽准确为
+$$
+\boxed{\quad
+\beta^S_{P,Q}
+ =\mathsf a_P\mathsf a_Q
+  -\operatorname{Tr}_{C}
+       (\mathsf a_{C,P}\mathsf a_{C,Q}).
+\quad}
+\tag{1166.62}
+$$
+Trace 中两个因子先沿**同一个** $C$ 及同一个陪集运输，
+再相乘求和。式 (1166.62) 不是
+$\operatorname{Tr}\mathsf a_{C,P}\,
+ \operatorname{Tr}\mathsf a_{C,Q}$。
+在未分裂的 cover 上，它由相应 Weil restriction 的
+真实二次群态射定义；在分裂后才写成此和。
+同根及 transfer 修正仍采用原 source 的固定比较。
+
+特别，
+$$
+\beta^S_{Q,P}=\beta^S_{P,Q}
+\tag{1166.63}
+$$
+是严格代表等式。若换成另一组 Kummer 根或另一个
+coefficient gauge，须同时运输两边，不能只改一边的第二槽。
+
+### 19.2. 全有序域上消去 $\mathscr Q\beta^S$
+
+三次因子 $(X+Y)(2X-Y)(X-2Y)$ 在 $X,Y$ 交换下不变；
+$[XY(X-Y)]^3$ 变号。因此
+$$
+\mathscr Q(Y,X)=-\mathscr Q(X,Y).
+\tag{1166.64}
+$$
+原 $S$ 求和域是全部有序非零点对，交换稳定。
+由 (1166.63)–(1166.64) 逐点重指标，且 $2$ 可逆，得
+$$
+\boxed{\quad
+\sum_{P,Q\ne0}
+ \mathscr Q(P,Q)\,\beta^S_{P,Q}=0.
+\quad}
+\tag{1166.65}
+$$
+这是同一原系数模中的严格零，不只是上同调零。
+$\mathscr Q(P,P)=0$，所以对角项也没有例外。
+全标记/Weil components 均在原和中；
+本式没有将一次算术 trace 拆成两个独立 trace。
+
+记整个原交换商的 Frobenius 第一槽为
+$$
+\mathsf A=
+ \left(
+  \sum_{P\ne0}P^4\mathsf a_P,\
+  \sum_{P\ne0}P^8\mathsf a_P;\
+  \left(\sum_{P\ne0}P^4\mathsf a_{C,P},
+        \sum_{P\ne0}P^8\mathsf a_{C,P}\right)_C
+ \right).
+$$
+其群双线性式仍为 R1158 (1158.2) 的 $b_n$。
+原 all-vector 约定使 $P$ 与 $-P$ 各求一次，
+这里没有补除 $2$ 或 $m$。
+直接展开 (1166.62) 给
+$$
+\sum_{P,Q\ne0}P^4Q^8\beta^S_{P,Q}
+ =b_n(\mathsf A,\mathsf A).
+\tag{1166.66}
+$$
+
+令 $\beta^U_{P,Q}$ 是 R1158 §4.2 的原
+$(P,-Q,Q-P)$ 三角 primitive，经 §§14–18 的同根、
+有序产品和实际 transfer 程序所得的第二槽。
+不假定 $\beta^U$ 本身在交换或循环下不变。
+将 (1166.65)–(1166.66) 代入原 $\mathscr A,\mathscr B$，
+得到完整 correlation primitive 的实际第二槽
+$$
+\boxed{\quad
+H_{\rm corr}
+ =\frac12 b_n(\mathsf A,\mathsf A)
+  +\frac1{54}
+   \sum_{\substack{P,Q\ne0\\P\ne Q}}
+     \mathscr Q(P,Q)\,\beta^U_{P,Q}.
+\quad}
+\tag{1166.67}
+$$
+这使用原共同交换商的群态射，因而完整 cross-bracket
+仍是 $b_n$；没有以多个互不相关的单槽 norm 替代它。
+
+由 (1166.54a)，同一 frame 的 ordered Frobenius 中央槽
+$Z_{\rm corr}=b_n(\mathsf A,\mathsf A)-H_{\rm corr}$。
+改成该群的 BCH 中央坐标，即减去
+$b_n(\mathsf A,\mathsf A)/2$，遂有
+$$
+\boxed{\quad
+Z_{\rm corr}^{\rm BCH}
+ =-\frac1{54}
+   \sum_{\substack{P,Q\ne0\\P\ne Q}}
+     \mathscr Q(P,Q)\,\beta^U_{P,Q}.
+\quad}
+\tag{1166.68}
+$$
+正负号同时消费 $dh=-\Omega$ 和
+$Z=b_n(\mathsf A,\mathsf A)-H$；
+不是把 primitive 的第二槽直接称作 matrix 中央槽。
+
+### 19.3. 三个真实依赖配置消去
+
+若 $Q=aP$，$a\in\mathbb F_p^\times$，则于原
+$\operatorname{Sym}^{12}\mathcal H$ 中
+$$
+\mathscr Q(P,aP)
+ =a^3(1-a)^3(1+a)(2-a)(1-2a)\,P^{12}.
+\tag{1166.69}
+$$
+故在本来已有的 $a\ne1$ 域中，
+$$
+a=-1,\qquad a=2,\qquad a=\tfrac12
+\tag{1166.70}
+$$
+三种原 rank-one 配置的**整个 tensor 权**为零。
+$p>37$ 保这些数各非零、互异，且不等于 $1$。
+这些配置中的原三角顶点仍非零，所以这是合法项的
+权消去，不是通过读取 $\theta_n(0)$ 得到的虚假删项。
+
+因此 (1166.67)–(1166.68) 可在
+$$
+\mathcal J^\circ=
+ \{(P,Q):P,Q\ne0,\
+       Q\notin\{P,-P,2P,P/2\}\}
+\tag{1166.71}
+$$
+上求和。该域在交换及原 $U$ 下均稳定；
+$U$ 在三个额外 scalar 上按
+$-1\mapsto2\mapsto1/2\mapsto-1$ 循环。
+其它 rank-one 点对仍须保留。
+对独立 $P,Q$，式 (1166.61) 的各线性因子均非零，
+故本节没有从该因式分解得到新的独立点对删项。
+
+还可作一个不带任何新对称性假设的重写：
+$$
+\sum_{\mathcal J^\circ}\mathscr Q(P,Q)\beta^U_{P,Q}
+ =\frac12\sum_{\mathcal J^\circ}\mathscr Q(P,Q)
+       \bigl(\beta^U_{P,Q}-\beta^U_{Q,P}\bigr).
+\tag{1166.72}
+$$
+式 (1166.72) 只是整个和的重指标。
+它不声称每个 $\beta^U_{Q,P}$ 是
+$-\beta^U_{P,Q}$；实际五项、根相位和 Cor 修正仍在。
+
+### 19.4. 此消去发生在原和中，后继规范仍须运输
+
+以上是在同一实际 raw/coefficient frame 中的有序恒等式。
+通过本篇的 ambient refinement、外积同伦及 coefficient
+投影时，应把等式两边一同运输。
+尤其不能把后继线性 constant-cycle 读算子当成乘法映射，
+从而将 $R(\mathsf a_P\mathsf a_Q)$ 换成
+$R(\mathsf a_P)R(\mathsf a_Q)$。
+两个 moment 的非线性规范、$Q_r$ 与 ordered correction
+仍由原公式保留。
+
+在第一层 CM 源中，可对已经识别的实际 $E[p]$ 点及其
+H⁰ coefficient 使用真实 $\mathbb F_{p^2}$ 角色。
+但 $\beta^U_{P,Q}$ 内的 raw 函数仍来自固定 CM 整数
+$\alpha$ 与同一形式点
+$P(z),[\alpha]P(z),[1+\alpha]P(z)$。
+不能以仅在 $E[p]$ 上相同的
+$\operatorname{Teich}(1+\bar\alpha)z$
+替换第三个形式端点，继而丢掉 $g$-normal carry。
+
+本节严格完成的是原 $S$-部分的全和消去，以及
+(1166.68) 中剩余 $U$-sum 的明确权和三个真实零配置。
+它还没有计算这个剩余和，没有删除其余 rank-one 项、
+坏参数 primitive 或 source 常数，也不宣原最高
+$z_{12}$ 与全局减法组合非零。
+
+本节仅用 R1158 已付的同根共同槽、原 filling 和群态射，
+以及本篇 (1166.54a) 的实际 primitive/Frobenius 方向。
+上述交换、因式分解及全和代数已由
+o2_high_coefficient 独立纸核；无数学程序执行。
