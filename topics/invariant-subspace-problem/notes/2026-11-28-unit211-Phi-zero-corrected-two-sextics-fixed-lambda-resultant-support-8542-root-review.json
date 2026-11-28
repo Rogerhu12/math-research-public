@@ -1,0 +1,20 @@
+{
+  "entireSourceAndInputRead": true,
+  "sourceBlob": "ed0fc44e741f2482f4593b31ab22fa4f773cc241",
+  "inputBlob": "2c7b9c87396178d584ad3f94fc3cd16c86fb20aa",
+  "sourceSHA256": "39631a64da054107209d296765b755e2fe25a685f5734cb5607165dd39100b7b",
+  "checks": [
+    "Only necessary SHA-pinned CNP/Cov coefficient definitions regenerated; previous cofactor full-proof,15row,actions,headfactor/gcd gates omitted",
+    "Two rational scalar cores and top coefficients match existing exact hashes; only nonzero rational constant rescales to primitive integer coefficients with full returns",
+    "Fixed12x12 original rows lambda^rCi and column0..11 retain both entire lambda-leading-zero fibers; e0 adj(S) S gives original determinant membership globally",
+    "All nonzero coefficient degrees checked via row weights47+r or33+r and column-j; permutation sum yields444 as upper bound only",
+    "Prime1009 and8 points fixed before any new ideal test; eligible choice uses only original paid factors,u,andactualfixedheads; no retry after gcd/determinant",
+    "Exact modular lambda division products and full Bezout; all144 row-transformation coordinates returned, determinant nonzero iff gcd constant",
+    "Integer model nonzero modular determinant proves genuine nonzeroQQweightpolynomial; no exactdegree/emptiness assertion;434specialweightfibers allretained"
+  ],
+  "budget": "120s1GiBouter135 including definitions",
+  "execution": "not yet",
+  "independentPeerFullReview": "stable_kernel_return passed mathematical and runtime scope",
+  "finalDiffPersonallyRead": "Only added outer full f62 dependency SHA assertion before AST execution; input records it and finalsourceSHA. No mathematical,budget,pointselection changes.",
+  "undispatchedPriorDraft": "9e1d019f9e1ad9aa50e7464636f9e883c4242f06"
+}

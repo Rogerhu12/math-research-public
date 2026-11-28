@@ -8,7 +8,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-28-results-before-W-global-monic-f-two-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-28-results-before-W-I11-actual-Phi-support-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150：全 W 同一 f 的十一条纯 lambda,T 原条件实际全返](results/R150-appendix-unit211-W-same-f-eleven-pure-lambda-T-original-conditions-complete-return.md)：6.894556505秒/0；I6/I11双向、完整加权与个别NP、十一式几何度4/3/3/3/4/4/4/6/6/6/5，71权分母及853精除全返，原纤维仍开。
 
 - [R150：F99 首次整个常数域 u-gcd 的真实截止与冻结](notes/2026-11-28-unit211-h-equals-k-F99-first-u-gcd-time-boundary-8542.md)：180.077303773秒118780KiB/−14；仅原P单式三次规范化完成，联合P/M gcd与后继均未返，整个F99/F300保。
 
@@ -69,23 +73,3 @@
 - [R12：真实整数图迹、均方采样和单条稠密边界链](results/R12-appendix-actual-walsh-graph-domain-integer-traces-sampling-and-single-boundary-chain.md)：同E图范数中精确近邻两块/远尾费用使整数迹分离并恢复原H范数；实际C_E伴随广义核维n且并稠。强高位交换有界像不能进入DomR，原不变闭图的真实域包含亦被排，保任意不同域开放。
 
 - [R12：原Haar同一稳定域的两个闭因子](results/R12-appendix-actual-haar-same-stable-domain-two-closed-factors.md)：全Walsh分支真实小首行/末列及X入域支付有界伴随来源；同DomR上S=T U、TS=C|DomR、SV=T，S单射/T核Ω且同稠值，与R差迹类。全域乘积闭包等C，非交换中间V不能删。
-
-- [R150：正确h=k、Δ0图完整Loww纤维与8664规范点界](results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Loww-fibers-8664-cover.md)：每个(λ,u,Q)上原全Loww对z至多三次，常数−2P02λ²(2λ−1)²/B非零，保全部首项退化；1444×3×2给完整有序不同点≤8664。已付z非零还给倒变量首一三次必要环境；不重冻结z结式。
-
-- [R12：物理中位双区间与完整carry的准确原值域](results/R12-appendix-physical-median-two-intervals-and-actual-carry-range-rank-one-residue.md)：全高行两整数区间、两条真实出流；包括常数列的Da⁻¹全行是r倍酉的迹类小扰动，完整RanC∩Y保逆权费用。CL=K+Ωψ，原C⁻¹K自然域恰kerψ；V满射核CΩ，CV=D−Ωψ。
-
-- [R150：完整Vlow原六列/qT4首次二列的准确边界](results/R150-appendix-unit211-W-scaled-entire-V-native-six-and-qT4-first-linear-boundary.md)：三缩放原N4全迹、六个ell²恢复及完整Vlow六列31.252762秒返；qT4二列104.342457秒返。唯一180.031928秒/−14，Vlow二列/pair未返整尾冻，不能写整体成功。
-
-- [R150：正确Phi图的整个f=u原值全排除](results/R150-appendix-unit211-Phi-zero-true-entire-fu-original-exclusion.md)：新四完整QQ因子保全嵌入与Q/v重数，原N1/NS/PS全理想矩阵4×12、12×36、12×36、54×162逐项返回1；3.829887秒/0。合C17与整u2闭合，当前正确Phi/D非零可付f−u；B34/40与一般斜率仍开。
-
-- [R150：正确fu的整个u=2原值排除](results/R150-appendix-unit211-Phi-zero-true-fu-entire-u-two-original-low-unit-exclusion.md)：真odd与t单位迫t4，N0保Psi误差，完整Lowλ+4EBe=−2Q²/[(1−Q)(Q−2)]给原单位矛盾；新1ms/250整数乘/四身份。C17余1/2/3/9四整因子、≤45权对/360完整规范不同点。
-
-- [R150：正确Delta的全部Q纤维与1444三参数点界](results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Q-fibers-1444-cover.md)：原Δ三系数若整零则u*=−2H/B且F=G=0，新8/8次QQ Bézout实际1；2ms/49乘/9整除，无额外首项逆。每个722基点至多2个Q，包含全降次纤维；z/Gram/Pf0仍开。
-
-- [R150：全原N4的三个无分母缩放短式](results/R150-appendix-unit211-general-scaled-entire-N4-three-compact-identities.md)：9自由原Gram/value变量，真dual乘法直接返回ell缩放V0/V1的N4/完整极化三式，对A1/f/V/W/t仅一次；6ms/359整数乘/9全零差。无mean/W/Phi或逆，ell0保；当前W低D解释保准确已付范围。
-
-- [R150：正确fu终端一次C17原理想覆盖](results/R150-appendix-unit211-Phi-zero-true-fu-terminal-C17-once-original-ideal-cover.md)：十八必要列反传与完整Psi原来源合成后，仅最终原乘子分母17/17/14得到C17一次；唯一.330607秒/0，因子1/2/3/9/1²、rad16⇒≤48权对。合已刊中心二次得≤384完整规范不同点，全零纤维保。
-
-- [R150：正确fu中心v首一二次与两mean的Psi来源](results/R150-appendix-unit211-Phi-zero-true-fu-centered-v-monic-quadratic-and-two-mean-source.md)：全原odd以既有单位右边支付Hf，所有权纤维至多二几何值，原均值给QΨ精确组合；旧261权对因此≤2088完整规范不同点。仅两纯权整数身份新2ms检查，完整Gram来源为已刊原式的纸面展开。
-
-- [R150：正确Phi/B终端二次权因子整原值排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-terminal-quadratic-complete-original-exclusion.md)：全QQ二次域、g=(λ−1/2)²和首一ω保完整8维代数，8×48原理想rank4，1未返但λtD一次返，物理整支闭。唯一.343445秒/0，剩34/40因子、≤74不同权对。
