@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **8999f35998f8425dedbbff13c32ca0a9a03df22a**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **7040c2e61eeb86ff4ece731254a5fafe84c94b5a**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -34,7 +34,7 @@ R648/R650/R649/R653全尾、三jet、离解曲率及C²接缝只消费现成对�
 
 [R63259/R63671](notes/2026-11-28-r632-59-paid-height-and-r636-71-inward-velocity.md)原136.275561354/1581.672363659秒、3/45新接受及所有旧失败留账。R632 run46138644039已完：1374.315732529秒/49新接受至e1404779、总108，旧safe方向已兑现，0拒/域/恢复；正在接实际末态。R636 run46138644055继续真υ内向全J方向；源680域拒原因、无pending、全部物理锚/隐式导数见note，不重旧方向。
 
-[R641前48](notes/2026-11-28-r641-fixed48-real-terminal-and-continuation.md)原1639.265097534秒及旧费保留；run46136366510新1976.651665898秒/48接受→真96态405263e8，Ar−.1460593817/ruling1.2983707611e14，细网已付但原门未过。后继保持固定w=1.291923405522812165913821、trust2/λ1e−14、真L/α/八中心/三规范进入全算子；变q才新付fine。
+[R641实际96](notes/2026-11-28-r641-real96-fixed-weight-physical-continuation.md)run46136366510新1976.651665898秒/48接受→405263e8，Ar−.1460593817/ruling1.2983707611e14；原48及旧费保留。工作/细十端.14606、ρ变化<5.51e−15但原门未过。后继保持原w=1.291923405522812165913821、trust2/λ1e−14、真L/α/八中心/三规范进入全算子；新96迭代预算6000秒，变q才付新fine。
 
 [R651正四端](notes/2026-11-28-r651-certified-positive-four-end-actual-terminal.md)连续原盒已闭；[R654实际23](notes/2026-11-28-r654-actual23-terminal-and-aligned-continuation.md)2698.167121223秒/f7c8f558，114方向/37完整trial/73域拒/493未闭；粗十末1.106e−13/细9.685e−7、ρ差.00357454不授根。[R674](results/R674-material-seam-prefixes-and-actual23-four-end-continuation.md)从真q/四τ续8198已闭叶的唯一可恢复树，仅付剩余叶；移动接点Gauss积分及全τ导数传至六ρ，原1153/2305观测不改，新离散先重收真实四端再全ruling。每一未闭参数树/η前缀当场保留，FINAL含clock现场所有唯一树。R656暂停无科学。
 
