@@ -26,7 +26,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-target-curvature --> [R287](results/R287-actual-full-gap-stadium-H65-prefix-and-continuous-truncations.md)真p32全部64径格/H65/准确Γ95，完整前缀全部.02≤L≤.06截取reach≥.098，原.02≥.108、κ<9.195522；承接R281/R283。
 
-<!-- 2ecf-live-g10 --> R219/R293两副真帽各自432XYZ真实540接，独立G11 .279404/κ9.98234与.152987/κ10.0871；新帽193×272尾κ10.26164，全部128格×768角深化峰10.272147。 见 [新记录](notes/2026-11-28-2ecf-actual-432-two-genuine-cap-floors-and-supplemental-exit-curvature.md)。
+<!-- 2ecf-live-g10 --> R296 真432与整R293帽，近2500万闭盒及真实帽角点给D≤3.1644，δheld/D>.20607856、δE/D>.05255245；完整法管与同g精度另付。 见 [新记录](notes/2026-11-28-2ecf-actual-new-432-higher-caps-entire-closed-shape.md)。
 
 <!-- 2ecf-R271-components --> [R288](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)长短两真端方向独立、完整三分量reach≥.097；R273/R282旧尾仍可用。两完整连接的新metric/法管均另付。
 
@@ -56,4 +56,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:08:57 UTC；已读公开 main `69bfd567378e383d4aa78810f89d89c4c4eade3d`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:09:08 UTC；已读公开 main `3cef97adbd6f054f8e7d33f8bc7bdc1fd75e9e51`，根/课题 README 逐差无变化。

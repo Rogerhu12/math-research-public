@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R296：实际 432 场的完整新帽、直径与两强比例](results/R296-actual-432-higher-cap-strong-distances-and-sharper-diameter.md)（2026-11-28）：R296 真432与整R293帽，近2500万闭盒及真实帽角点给D≤3.1644，δheld/D>.20607856、δE/D>.05255245；完整法管与同g精度另付。
+
 - [R295：整数极径张量和真实无穷平领的全相位嵌入](results/R295-integer-separated-meridian-tensors-and-the-real-infinite-cuff.md)（2026-11-28）：四张全闭图同时支付双强形变比；最终场 16418688 个非邻闭格对全付，移位实际度量峰 .122886。
 
 - [R294：实际408位置场的全材料闭盒及整闭两项强距离](results/R294-actual-raised-flat-cuff-field-whole-strong-distance-bounds.md)（已证明；33,292,289闭盒含真端口，δhold/D>.2033584375、δE/D>.0506325；完整嵌入/reach与精度另付）。
