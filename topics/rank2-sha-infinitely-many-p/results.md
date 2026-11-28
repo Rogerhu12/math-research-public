@@ -616,3 +616,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §35：同点共轭权的唯一全迹与正上对数密度
 
 已证明：明确改用固定v_T=barρ(T)X(T)²λ_T；原K独立与Q非挠保持，μ6及Galois全轨重标使所有AQ分量为同一N_p的单位倍。两型统一N_p=−Σbarρ^p X^{2p}yS_{n−1}(x³)，惰性化Σρ G²j_p、ordinary完全分裂化Σbarρ X²j_p。此完整数在S上非零素正upper-log密度≥1/[2d(d+1)]，不用指定c-Frob。原fullSha坏⇒这个数零仍未证明。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1073 §36：唯一曲率数的固定属二p−1系数
+
+已证明：原N_p准确等于c_p[z^{p−1}](I₁f_γ)（惰性）或a_p(E₁)[z^{p−1}](I₃f₁)（普通全分裂）。I₁/I₃为固定双覆盖的真实一/二型积分，ηγ=−Σγ(barρX²)κ保全部标记，其Cartier像恰原−ΣbarρX²κ列。普通只用<p整对数截断，未假设全盘ω=ds。坏⇒这个完整系数零仍缺。 [同编号全文](results/R1073-original-aligned-curvature-and-genus-two-readers.md)。

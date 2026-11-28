@@ -11,7 +11,7 @@
 ## 实际同步与已读规则
 
 终端最后pull：公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e；私库14:24:52/3a8366462ccc7f17d7440618378e55cc21b5fbe9。14:34后平台明确环境unavailable，按根8仅用<100KB小文本GitHub备用通道，不伪称pull。
-- 2026-11-28 19:50:46 UTC按根规则8小文本备用通道读公开main afc26be6b2de8667d765a525ba34bfdb0e21cd46、私库main 9b7c4a369909e759ef4ace4146f66f15a926de8a；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 31d1ebf59293083d1e263e043179f47518eb882f本题认领仍进行中。
+- 2026-11-28 20:04:02 UTC按根规则8小文本备用通道读公开main 5c38ce4501c4364bfa6f8f00a7a2b07f715a5211、私库main d335ef2032c923514ca0c50e2270d9cdc2be601e；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 31d1ebf59293083d1e263e043179f47518eb882f本题认领仍进行中。
 每次备用发布先读两main/四README/QUEUE，比全部所改blob，以最新整树和main父提交创建；expected_sha、force=false，拒绝立即新读重建，发布后逐字回读。终端恢复后立即实际pull并查README差异。
 两库原blob:none/depth1/sparse-index；两.git及packs于14:34经逐文件SHA核验迁往/tmp/rank2-0b097461-{public,private}-git-{metadata,pack}-20261128，原symlink/HEAD/status保留，释放57028608B。四目标勿删，路径/全回执在归档。无本地数学执行；topic约47.7MB。
 
@@ -40,7 +40,7 @@
 
 [§§1–16](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)、[§§17起](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)保E65/E8125秩≥2、全390/5/双13及原参考。§§31–33全倒数权K独立、各Q非挠、完整普通同层留数与原全权母量非代数已付。有限角色/单项非零不代中央。
 §34旧c(W)权的限制标量积联络给正upper-log密度，但只指定c-Frob分量直接读旧ν20；旧边界不放宽。
-§35新固定v_T=barρ(T)X(T)²λ_T，ρ=ε17；不是旧cW的偷换。μ6权u²与Q→[u²]Q相容，任意σ重标只乘共同单位，因此全部曲率分量由单一N_p=−Σbarρ(T)^p X(T)^{2p}y(T)S_{n−1}(x(T)³)控制，p=6n±1。S为全部惰性或M完全分裂；同一Herblot证明给N_p非零素upper-log密度≥1/[2d(d+1)]。惰性N_p=Σρ G²j_p，j_p=−yS，sole O pole≤3p−2；普通全分裂保barρ X²j_p。真正未付的是原fullSha坏⇒此完整N_p零，不能以旧五槽或单项代替。
+§35新固定v_T=barρ(T)X(T)²λ_T，ρ=ε17；不是旧cW的偷换。μ6权u²与Q→[u²]Q相容，任意σ重标只乘共同单位，因此全部曲率分量由单一N_p=−Σbarρ(T)^p X(T)^{2p}y(T)S_{n−1}(x(T)³)控制，p=6n±1。S为全部惰性或M完全分裂；同一Herblot证明给N_p非零素upper-log密度≥1/[2d(d+1)]。惰性N_p=Σρ G²j_p，j_p=−yS，sole O pole≤3p−2；普通全分裂保barρ X²j_p。§36进一步把N_p准确写成c_p[z^(p−1)]I₁fγ或a_p[z^(p−1)]I₃f₁；Iν为同一固定属二双投影积分，ηγ=−Σγ(barρX²)κ且Cηγ=−ΣbarρX²κ，γ来自固定有限群。普通只用<p整截断。真正未付仍是原fullSha坏⇒此完整系数零，不可用旧五槽或单项代替。
 
 ## 其它已证门与真正剩余
 
