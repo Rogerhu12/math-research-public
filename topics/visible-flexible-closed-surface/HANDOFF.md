@@ -55,13 +55,12 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 准确R233/R232与literal G10源须分别绑定。R261已支付同g H65真实前缀误差及reach；strong已记H65+6615后缀/36α设计，转gap=.92新源；exact做新极坐标位置，m12做新材料长度S，均各自基线。改变source/基底须新baseline，不借旧几何给变化后前缀。强全闭度量/非局部点对/收敛仍未完成。
 
-<!-- 2ecf-r258-floor --> [R258](results/R258-accurate-fixed-ramp-signed-radial-metric-floor.md)：准确强位置前缀原样固定的同g误差下界>6.98105e−8；后缀不能消除。
 
 <!-- 2ecf-strong-physical-h --> [H33/H65全部G10/G11新源](notes/2026-11-28-2ecf-physical-ramp-h33-h65-complete-source.md)已0，原目标及非ramp行逐字保留；H65独立ramp峰6.32253e−11，完整准确证书另付。
 
 <!-- 2ecf-r261-prefix --> [R261](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)：强同g物理H65前缀全域低于2e−9，自身整带reach>.1013；接真实后缀。
 
-<!-- 2ecf-r265-polar --> [R265](results/R265-accurate-weighted-polar-connector-global-embedding.md)：Γ95至R205准确原极坐标连接全域嵌入，六 jets 接 R261；独立目标与全闭 reach 继续。
+<!-- 2ecf-r265-polar --> [R265](results/R265-accurate-weighted-polar-connector-global-embedding.md)原准确连接已嵌入；[新HF64×80](notes/2026-11-28-2ecf-strong-accurate-hermite-fourier-position-with-literal-W.md)保6615W、准确端口及同g，G11 metric .143431819/κ28.8152，真优化/连续证继续。
 
 <!-- 2ecf-r266-ray --> [R266](results/R266-accurate-polar-ray-metric-and-radius-variation.md)：原侧射线单调高度时径向TV缺口>.19574768；已有XYZ通过高度转向绕开此前提，仍未全域等距。
 
@@ -71,4 +70,4 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:49:48 UTC；已读公开 main `53acf13965e4f005104f3b117d51c63d7ae0efa3`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:53:16 UTC；已读公开 main `0c531c12f1857e5f01303b7c93c4a7b723addebd`，根/课题 README 逐差无变化。
