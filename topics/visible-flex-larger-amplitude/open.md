@@ -137,3 +137,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R784](results/R784-exact-curved-roll-continuation-from-the-four-bent-caps.md)：八真角带/帽、t≥π/4可精确延真卷.0000688；全闭仅取h=5e−8局部换场，reach>1/24.38/held>.319。九次真物理两jet和余界明列；不冒全卷/中央已等距。
 
 [R786](results/R786-two-complete-delayed-roll-collars-at-the-fixed-metric-tolerance.md)：同R781 g双完整帽精确，整360°双真卷宽.0024全相谱误差<9.46e−7；全闭reach>1/24.36/held>.317/商距>.083。余卷/中央误差及固定参真收敛仍欠。
+
+[RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
