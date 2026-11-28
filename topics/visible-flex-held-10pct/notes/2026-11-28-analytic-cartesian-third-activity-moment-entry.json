@@ -1,0 +1,47 @@
+{
+  "status": "source_and_both_original_field_extractions_compiled_without_model_or_integral",
+  "source_sha256": "fef214b4b49efb77e4493886431ec125553f842be7a13c3dadd357c0a9a9002e",
+  "field_extractors": [
+    {
+      "with_cut": false,
+      "actual_compiled_function_name": "complete_fields",
+      "original_class": "NewMetric",
+      "original_file": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric.py",
+      "original_file_sha256": "935dc0ec201161396e11d25ace0de29e456e2c713618b1469cb78d1cea004ab3",
+      "original_evaluate_sha256": "f2cd1116503033a000e2871ceb7772a3ead59e28caae1a944acaec1ad014eeb3",
+      "compiled_field_return_sha256": "8beb3cc7fee1d640af63f89385d2d8971a3b0e62cf00db2bb407538db322ed7d",
+      "original_field_builder_statements_unchanged": true,
+      "only_Gram_output_replaced_by_complete_fields": true,
+      "original_module_or_loader_patched": false,
+      "complete_core_center_and_optional_cut_retained": true
+    },
+    {
+      "with_cut": true,
+      "actual_compiled_function_name": "complete_fields",
+      "original_class": "CutMetric",
+      "original_file": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric.py",
+      "original_file_sha256": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7",
+      "original_evaluate_sha256": "63f31e98ab5bf5bd9ee67375eaf350fd510add4633a08b6218b223e1e0652f7c",
+      "compiled_field_return_sha256": "5a39b76f1b6eb8d0c757aea68c0729343b7111c2072c483da1b20039c1982a9f",
+      "original_field_builder_statements_unchanged": true,
+      "only_Gram_output_replaced_by_complete_fields": true,
+      "original_module_or_loader_patched": false,
+      "complete_core_center_and_optional_cut_retained": true
+    }
+  ],
+  "accepted_source_constructed": false,
+  "actual_angular_tables_loaded": false,
+  "actual_moment_integral_executed": false,
+  "full_J_assembled": false,
+  "nonlinear_solver_invoked": false,
+  "whole_activity_nonzero_certified": false,
+  "complete_surface": false,
+  "actual_compilation_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/cartesian-third-moment-preparation-20261128/source-compilation.json",
+    "sha256": "5907ae4349ea47c9bfb3b636bc4d839da4562fff35c3b62d2578a27ab2f2d7e0"
+  },
+  "observed_compilation_process_exit_code": 0,
+  "existing_R6_R67_reproved": false,
+  "old_moment_interfaces_cover_current_R53_third_flux": false,
+  "runtime_execution_performed": false
+}
