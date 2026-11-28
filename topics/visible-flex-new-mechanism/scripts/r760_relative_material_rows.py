@@ -44,7 +44,7 @@ def kernel(build,phase,degree,ss,grid,prior=None):
         m=old['matrix'][flat].copy()
         v=old['pr'][flat]
         el=model.space.ell_data(rr[keep])[0]
-        changed=(el>model.moments.START)&(el<model.old.FLAT_START)
+        changed=((el>model.moments.START)&(el<model.old.FLAT_START)) if phase else np.zeros(len(el),dtype=bool)
         flatell=np.repeat(el,ns);ids=np.flatnonzero(np.repeat(changed,ns))
         for j in range(0,len(ids),4096):
             i=ids[j:j+4096]
