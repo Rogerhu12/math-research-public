@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 13:27:19 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 13:27:29 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至764f23b15fe8fb225c16a9f7ef5098520b2e4447；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至3405429418c5f6d4380e71e64ee8057b0d6b8539（12:46:56 UTC pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至053173652dcd7b29b9ecd5b696aafcf6d72a01da；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至3405429418c5f6d4380e71e64ee8057b0d6b8539（12:46:56 UTC pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META14新200未引用legacy JSON只删字符串外空白，净1213006B，原19f16ba8e6/receipt94830B SHA ad194569…保完整literal与身份；META1–13原receipt全保且禁重。每pull核所有new hash及changed/untracked引用，继承完整reference scan。
 
@@ -35,11 +35,11 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 
 ## 真实成功与已付组件
 
-全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/dd7d1f683b90f95c3455d4dab9471914d559bfc2/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
+全部成功/false/unknown、原完整球及whole身份保存在[此前完整H](https://github.com/Rogerhu12/math-research-public/blob/053173652dcd7b29b9ecd5b696aafcf6d72a01da/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归历史；本索引压缩不撤条件，不授新成功，旧目标禁止重算。BNC/BGR/BFP/WMT/WBN/GBN、LCW/PWA/JWS/FWT与各实际应用见results原独立proof。
 
 - GDG全负域新deformed determinant已证：利用原whole piecewise根半径1/50的1300rows/1079seams与ω沿common drift正增，势支撑严格落此真实域；ΔV/D>1−1e−7、全[0,r*] ΔV>1/720，root B entrysum<21/10、whole B−Hinv<1/70000。18新Fraction一次全过，8whole原件/原success bindings核过；oldscience/恢复0。proof及reader已登记，非全received high响应。
 
-- ASQ27：同η0新−f0强迫/193维连续trial/完整原3073负格与不确定root首次入口推；全160 signed/288 transfer/flat49节点及解析余，49whole+原184/32与2affine原件保。实际body/腰及2e−14测试待，不缩ASQ23旧球。
+- AGLW：46146513475/1全部656完成，Ai/全两列common106774.34957034967/204457.18989563518，5.5门false；927自然Ai列需真输入接收，whole1830B/034c7d25…及私件全SHA已付，完整逆仍待。
 
 ## 后继和完整尾部义务
 

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGLW：656有向Laurent真终端接收全部实际完成](results/R149-supplement-actual-complete-signed-Laurent-terminal-receiver.md)：实际46146513475/1全656/16格/41带、双真列/两sign/完整strip余完成；Ai/全两列公共上界106774.34957034967/204457.18989563518，5.5充分门false。927原自然Ai列17192B/6a3c2d3a…保；整1830B/034c7d25…及6078229/22314269B私件SHA完整。上界非下界，原输入与非局部仍待。
+
 - [ASQ27：同固定仿射背景的真实负侧Newton体解](results/R149-supplement-fixed-affine-negative-Newton-trajectory-and-flat-quadrature.md)：新−f0强迫使用同η0完整affine、原65/193与独立mean，动态η(r)仍真−γΠv。3073原负格/真根bracket/全部接口上新连续8次dyadic trial；原几何22阶/24倍复盘、49节点正平测度积分+16倍全解析余，完整signed残差至160，selected差至288。原ASQ26同A*转移保。49whole/184+32/2原affine whole合同与五源全文核，首次实际入口待。
 
 - [JCR：含真实根及完整扰动的同一物理圆周逆](results/R149-supplement-uniform-negative-circle-inverse-through-the-true-root.md)：原严格区与独立实际根rectangle相接，同固定η0原仿射|a|≤1e−8、PPR校正|a|≤1e−10/全A³≤1e−7均有DJ>.785、全负窗J L²<7/5；根区更小<.837且H¹<3.46。Πexp[−αIuv]≥1保真实均值，不借根外scope。11whole/20新Fraction根首次全过，完整非局部和全边界仍待。
