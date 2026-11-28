@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R286：两种保向空间开像同时保证整闭材料像的两强比例](results/R286-actual-smooth-images-enforcing-both-strong-shape-ratios.md)（已证明；D≤3.2、held/D≥.203125、含反射 δE/D≥.05028125；两端开邻域恒等，整图嵌入、reach 与新度量另付）。
+
 - [R280：R262完整闭族的大平领新场](results/R280-complete-R262-ambient-cuff-enlargement-and-new-fixed-target.md)（2026-11-28）：全空间C²微分同胚将真cuff扩为.32、Jacobian>21/100；实际新g约.159，首次943位置0接受，不借旧精度/厚度。
 
 - [R284：整角圈准确E=1和两端真实两jet的构造](results/R284-exact-unit-material-meridians-between-both-true-port-families.md)（2026-11-28）：真材料弦长余量>.0881882；正时长单位方向精确闭合三维位置。F/G、浸入和厚度未付。

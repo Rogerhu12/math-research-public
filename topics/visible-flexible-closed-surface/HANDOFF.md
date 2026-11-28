@@ -42,6 +42,8 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-R280 --> [R280](results/R280-complete-R262-ambient-cuff-enlargement-and-new-fixed-target.md)同一R262整闭嵌入扩真cuff至.32、空间Jac>21/100；新g实际 .159、首轮943位置0接受。改用真实无限尾相似扩展与新外连接。
 
+<!-- 2ecf-R286 --> [R286](results/R286-actual-smooth-images-enforcing-both-strong-shape-ratios.md)两种端口开域恒等的真空间像保证整闭材料像两强比例；首图全七guide，次图球推。嵌入/reach/metric须新付。
+
 ## 工作位置与接续
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前三支：strong真单位材料速度/强几何完整位置，m12正解析中央/真Γ95与适配支撑平面，exact真实无限m2尾/新短前缀与非线性幅度；root整合全图几何、真实尾域与新输入；R280直推平台已转向保全无限尾的相似扩展。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
@@ -50,4 +52,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:54:55 UTC；已读公开 main `2ed2f6cdfc94bd6743c553e4f9ddc5a18d196fd5`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:55:07 UTC；已读公开 main `1b2fd8cac7ea13687c009249cd071e17b21b5e21`，根/课题 README 逐差无变化。
