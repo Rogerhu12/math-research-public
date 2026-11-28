@@ -996,3 +996,265 @@ $$
 变成任意模参数导数为零，或证明 $\mathcal J_p$ 为单位。
 本节只把同一个实际中槽接到原 $\mathcal H_p$ 的精确二阶源，
 保全部首 $p$ 进位与低乘积。
+
+
+## 11. 完整低阶 Appell 反射与两个实际矩的全部槽
+
+本节把 §10 的共同坐标方法用于原 $C_j$、$1\le j\le10$。
+常数项沿原低权反射准确锁定，因此也能读取此前保留的两个顶槽。
+结论是全部 $d=4,8$ 矩的原有限系数公式；
+不会把这些矩的每个分量增添成一个 actual good 角色。
+
+### 11.1. 同一原核的 Appell 多项式与 $D$ 作用
+
+以同一个 $\sigma$、$\omega$ 和 logarithm 参数定义
+$$
+U\mathscr K(T,U)
+ =\sum_{j=0}^{10}\frac{C_j(T)}{j!}U^j+O(U^{11}),
+\qquad C_0=1,\quad C_1=\zeta.
+$$
+令 $\mathcal C_j(z;x,y,a)$ 为将其中的 $\zeta(T)$ 替换成
+独立变量 $z$ 的多项式。一个保全部低项的有限定义是
+$$
+\frac{U}{\sigma(U)}
+ \exp\!\left(zU-\sum_{r=2}^{10}
+                  \frac{D^{r-2}x}{r!}U^r\right)
+ =\sum_{j=0}^{10}\frac{\mathcal C_j(z;x,y,a)}{j!}U^j
+       +O(U^{11}).
+\tag{G2.46}
+$$
+这里 $D^{r-2}x$ 先按原短模型化成 $x,y,a$ 的多项式。
+所用权至多十、所有阶乘及原 $G_4,G_8$ 分母均为 $p$ 单位，
+所以这确是一组整多项式。
+例如 $\mathcal C_4$ 正是上节的
+$z^4-6xz^2-8yz-3x^2-12a/5$。
+
+有限定义直接给
+$$
+\partial_z\mathcal C_j=j\mathcal C_{j-1}.
+$$
+另由同一核在 $T=0$ 的展开
+$\mathscr K(T,U)=T^{-1}+\zeta(U)+O(T)$，得到
+$$
+C_j(T)\ \text{在 }T=0\text{ 正规},\qquad
+C_j(0)=-j!G_j\quad(2\le j\le10).
+\tag{G2.47}
+$$
+这里约定此范围内非四倍数的 $G_j$ 为零，特别 $G_2=0$；
+没有把 $C_1=\zeta$ 的一阶极混入 (G2.47)。
+
+设
+$$
+\mathcal C_j^{\rm F}(z)=\mathcal C_j(z;x^p,y^p,a^p),
+\qquad
+\mathcal R_j=D^{p-j-1}x\quad(1\le j\le10).
+$$
+函数域导子始终是原 $D=\omega^{-1}d$，不是
+$\partial_z$ 或模参数 $\partial$。
+由于 $D(x^p)=D(y^p)=D(a^p)=0$、$D\Psi=-\beta$，
+准确有
+$$
+D\,\mathcal C_j^{\rm F}(\Psi)
+ =-j\beta\,\mathcal C_{j-1}^{\rm F}(\Psi).
+\tag{G2.48}
+$$
+
+### 11.2. 全函数域反射及两个常数的锁定
+
+沿用 (G2.35) 的共同 $\tau$ 坐标。
+(G2.19) 给
+$\Psi=Z^p-\beta\tau+O(\tau^{p^2})$。
+由 (G2.46) 的 Appell 公式，
+$$
+\mathcal C_j^{\rm F}(Z^p-\beta\tau)
+ =\sum_{\ell=0}^j
+       \binom j\ell(-\beta\tau)^\ell
+              C_{j-\ell}(Z,x,y,a)^p .
+\tag{G2.49}
+$$
+对 $j-\ell\ge2$，原 (G2.47) 表明相应前缀正规；
+$Z$ 与原 $\zeta$ 从次数 $p$ 才开始不同，
+不影响这里的极部及常数。
+唯一可能有负极的是 $j-\ell=1$，
+其极阶至多 $p-j+1$。
+首误差 $O(\tau^{p^2})$ 即使用逐幂保守界，也不贡献负极或常数，
+因为 $j\le10<p$。
+因此对 $2\le j\le10$，$\mathcal C_j^{\rm F}(\Psi)$ 仅在 $O$ 有至多
+$p-j+1<p$ 阶极。
+
+从 $j=1$ 的 $\mathcal C_1^{\rm F}(\Psi)=\Psi$ 开始，
+使用 (G2.48) 归纳：
+$$
+\mathcal C_j^{\rm F}(\Psi)
+ -(-1)^{j-1}j!\beta^{j-1}\mathcal R_j
+$$
+导数为零，且只可能有严格小于 $p$ 的极。
+其 $p$ 次根没有极，所以差为常数。
+两项的原 $\mu_4$ 角色都是 $i^j$；
+若 $4\nmid j$，这个常数为零。
+
+只剩 $j=4,8$。
+(G2.49) 的常数为 $-j!G_j$：
+$\ell=1,\ldots,j$ 各项的指数模 $p$ 都非零，
+只有 $\ell=0$ 贡献原 (G2.47) 的常数。
+另一方面，原整 $\mathcal R_j$ 的 logarithm 常数准确是
+$$
+[v^0]\mathcal R_j=(p-j)!\,G_{p+1-j}.
+$$
+只消费 R1114、R1135 已付的原低权反射
+$$
+G_{p+1-j}
+ =-(j-1)!\delta^{1-j}G_j
+ =(j-1)!\beta^{1-j}G_j\qquad(j=4,8),
+$$
+以及 Wilson 的 $(p-j)!(j-1)!=1$。
+于是第二项的常数也恰为 $-j!G_j$，不留自由项。
+
+完整得到
+$$
+\boxed{\qquad
+\mathcal C_j^{\rm F}(\Psi)
+ =(-1)^{j-1}j!\beta^{j-1}D^{p-j-1}x,
+\qquad 1\le j\le10 .
+\qquad}
+\tag{G2.50}
+$$
+特别，(G2.30) 中此前保留的常数现在被准确固定为
+$\epsilon_{\rm inv}=12a/5$。
+这一步使用了原低反射；不是仅由 $D$-导数为零便删除常数。
+
+### 11.3. 完整敏感度支付所有实际端点
+
+记 $E=\Psi-(Z^p-\beta\tau)=O(\tau^{p^2})$。
+对固定 $j\le10$，Appell 的完整有限差为
+$$
+\mathcal C_j^{\rm F}(\Psi-E)
+ -\mathcal C_j^{\rm F}(\Psi)
+ =\sum_{\ell=1}^j
+    \binom j\ell(-E)^\ell\mathcal C_{j-\ell}^{\rm F}(\Psi).
+\tag{G2.51}
+$$
+当 $j-\ell\ge1$ 时，(G2.50) 使该项的极阶至多
+$p-j+\ell+1$。
+因此整个误差从次数 $p^2-p+j-2$ 才开始；
+$\ell=j$ 的 $E^j$ 项更晚。
+原整 lift $\mathcal R_j$ 的极阶至多 $p-j+1$，
+故 (G2.36) 返回真实 logarithm 的安全界也是
+$$
+N<p^2-p+j-2 .
+\tag{G2.52}
+$$
+这里始终使用同一 $\tau,x,y,\Psi$，未对各个高极单项分别换元。
+
+现令
+$$
+\begin{gathered}
+d\in\{4,8\},\qquad 0\le i\le d,\quad i\ {\rm even},\\
+j=i+2,\qquad
+M_{d,i}=p^2-1-pd+(p-1)i,\qquad
+\rho_{d,i}=p-d-1+i,\\
+N_{d,i}=p\rho_{d,i}.
+\end{gathered}
+$$
+本次 (G2.52) 的右界减去 $N_{d,i}$ 恰为
+$p(d-i)+i>0$。
+所以连 $i=d$ 的最高读取 $N=p^2-p$ 也严格在安全界内。
+
+(G2.49) 中只有 $\ell=0$ 贡献正 multiple-$p$ 指数
+$N_{d,i}$，其余 $\ell=1,\ldots,j<p$ 的指数模 $p$ 非零。
+所需的低系数为
+$[v^{\rho_{d,i}}]C_j(v)$，且 $\rho_{d,i}\le p-1$。
+当 $i\ge2$ 时，$j\ge4$，
+$\partial_z\mathcal C_j=jC_{j-1}$ 的原 Gaussian 前缀正规，
+所以 $Z-\zeta=O(v^p)$ 不会影响任何次数 $\le p-1$ 的读取；
+$i=0$ 则由 $\rho_{d,0}\le p-5$ 和已付二次界直接保证。
+这些系数也因此都有原整来源。
+
+直接读取 $\mathcal R_j=D^{p-j-1}x$：
+因为 $j$ 为偶数，
+$$
+(M_{d,i}-1)(M_{d,i}-2)_{\underline{p-j-1}}
+ \equiv(-j)(p-j-1)!=\frac1{(j-1)!}.
+$$
+结合 (G2.50) 得到全部实际 Hurwitz 系数的统一式
+$$
+\boxed{
+G_{M_{d,i}}
+ =-\frac{[v^{\,p-d-1+i}]C_{i+2}(v)}
+          {(i+2)\beta^{i+1}},
+\qquad d=4,8,\quad 0\le i\le d,\quad i\ {\rm even}.
+}
+\tag{G2.53}
+$$
+模型和这些系数在 $\mathbf F_p$ 上，故读取中的
+$p$ 次方没有另一个半线性尺度。
+
+特别，两个原顶槽现在精确为
+$$
+\boxed{\quad
+G_{p^2-5}=-\frac{[v^{p-1}]C_6(v)}{6\beta^5},
+\qquad
+G_{p^2-9}=-\frac{[v^{p-1}]C_{10}(v)}{10\beta^9}.
+\quad}
+\tag{G2.54}
+$$
+没有把这些新系数设成单位或删除其低乘积。
+
+### 11.4. 两个完整矩来自各自同一个原 heat 源
+
+记原核的系数
+$$
+f_n^{v,0}=[T^{v+n-1}U^n]\mathscr K(T,U)
+$$
+（此处上标 $v$ 是整数权索引）。
+由 $C_{i+2}/(i+2)!=[U^{i+1}]\mathscr K$，
+(G2.53) 的低读取准确是
+$$
+[v^{p-d-1+i}]C_{i+2}(v)
+ =(i+2)!\,f_{i+1}^{p-d-1,0}.
+$$
+代入 R1168 的同一个原 binomial 及 $(i+1)^{-1}$ 后，
+整个矩成为
+$$
+\boxed{
+\mathcal R_{d,1}(y_d)
+ =-\frac1\beta
+   \sum_{\substack{0\le i\le d\\i\ {\rm even}}}
+       \frac{d!}{(d-i)!}\,
+       f_{i+1}^{p-d-1,0}(a,0)\,\omega^i\eta^{d-i},
+\qquad d=4,8 .
+}
+\tag{G2.55}
+$$
+所以四次矩用同一原 $G_{p-5}$ 的列 $1,3,5$，
+八次矩用同一原 $G_{p-9}$ 的列 $1,3,5,7,9$。
+例如 $f_1^{p-5,0}=\mathcal H_p/2$、
+$f_3^{p-5,0}=\mathcal J_p/24$、
+$f_1^{p-9,0}=d_1$、$f_3^{p-9,0}=c_3$，
+与 §§8–10 的四个尺度逐一相同。
+
+原 heat 方程直接给这些列的完整有限递推
+$$
+f_0^{v,0}=-G_v,\qquad f_{-1}^{v,0}=0,\qquad
+(n+1)(v+n)f_{n+1}^{v,0}
+ =\partial f_n^{v,0}+\frac a3 f_{n-1}^{v,0}.
+\tag{G2.56}
+$$
+对 $v=p-d-1$、$0\le n\le d$，所有显示分母均为单位。
+因此 (G2.55) 的每一项都是相同低权 $G_v$ 的一个明确有限
+模参数微分，而不再需要一个 $p^2$ 长度的展开。
+这些微分始终先在 $(a,b)$ 上完成，最后才取 $b=0$。
+
+下一步 $n=d+1$ 则含真实因子
+$(d+2)p f_{d+2}^{v,0}$。
+这一列涉及 $T^p$，不能因为前面的 $p$ 就把它设为零；
+原 $\zeta$ 的首个 $1/p$ 系数必须另保。
+特别 $d=4,8$ 的 $G_{d+2}$ 在 Gaussian 点由 $\mu_4$ 为零，
+也不意味着沿模参数的全部 carry 及其微分为零。
+本节没有据此制造一个齐次高阶方程或断言任一指定 minor 为单位。
+
+(G2.55) 识别的是既定矩的全部实际分量。
+原共同纤维只要求已经出现且 good 的指定标签相同，
+并不要求这些完整奇数阶 heat 列全为零。
+原 Bernoulli mask、两点范围、中央算术去平滑及其后续比较
+均保持原来的量词。

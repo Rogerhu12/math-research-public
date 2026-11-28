@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian四次与八次矩的全部实际槽（已证明）**：[高窗 §11](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)全j≤10 Appell函数身份保原C1极、j4/8常数及完整敏感度，顶p²−p读取严格合法。原M_d各偶i系数准确为−d!f_(i+1)^(p−d−1,0)/((d−i)!β)，只用同一G_(p−5)/G_(p−9)的低权heat列；不新增good角色或省临界p列carry，未宣非零。
+
 - **原Fermat第六混合层与第七Picard jet（已证明）**：[quadric续篇 §10](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)e0时六个实际有限空间给D⁶J=B、poleJ≤p−9及b6=−δ⁷[τ⁻⁸]B/7；双零下完整七次kernel读取锁定D_R⁷Φ(U^m)(−Q)=−7b0δ b6/(2ρ)，保全部相位与有界性。该下一系数仍未证unit，原Q14强迫源及两jet继续。
 
 - **原Gaussian四次矩中槽与低权二阶源（已证明）**：[高窗 §10](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)共同整截断τ坐标及F4完整有限差将真实误差抬至p²−p+2，支付G_(p²−2p−3)=−J_p/(4β³)。原heat给J_p=∂²H_p/6−13aH_p/18，M4中槽为−J_p/(2β)；首p进位−8β及全部安全卷积保留，顶槽与联合非零继续。
