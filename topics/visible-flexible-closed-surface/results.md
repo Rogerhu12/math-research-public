@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R271：真实gap.92前缀与两尾帽三分量的全部点对](results/R271-gap092-three-complete-components-and-all-pairs-reach.md)（2026-11-28）：给定A/Z两个整窗口，全相位集合reach≥.097、held≥.64、δE≥.1609；三分量仍有四条边界，两连接带另付。
+
 - [R262：原G12实际闭图达到原容差及基础数值完成](results/R262-original-G12-complete-tolerance-and-base-numerical-solution.md)（2026-11-28）：真cuff统一后全前缀+18552尾+内领+固定帽，全时U<2e−9、reach/D>.031099372、held/D>.052783098、真实下降>9.79415倍及三STL；强比例继续。
 
 - [R270：实际带全部物理修正的 HF64 后缀全域嵌入](results/R270-corrected-physical-HF64-complete-suffix-embedding.md)（2026-11-28）：909312 个连续闭盒支付准确端口和全部材料角，径向材料钟保持该图像。
