@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ1：相位表述的振幅输出与唯一世界高度列](results/R149-supplement-actualsquare-phase-amplitude-and-single-world-height.md)：原phase realization将waist amplitude作为输出；WOB已消费完整97/96/mean边界。严格particular两scalar列(cP,0;cH,1)可精确消，剩余D−dH−(r−dcH)P/cP。实际有限槽J+97与完整nonmean phase保；CFC100×97并非方阵，high吸收后须另核pivot。
+
 - [NRO：全负窗普通态反向传播及真实强正根端口](results/R149-supplement-ordinary-negative-response-from-the-strong-positive-root.md)：同一完整raw strict任意反向两点L2增益<8.22，mean rank的正交性保留全部独立平均量；全部288已知ν源在[0,r*]普通L2<2.522e−5。全[0,r+]给25.95X+2.85e−6v+2.523e−5及三类真跳；14whole/20新Fraction首次全过。X,v与真BVP可解性仍须实际。
 
 - [GCS：原whole根级数给出的真实截面完整初值](results/R149-supplement-whole-signed-root-seed-at-the-physical-strict-cut.md)：76个whole输入/2606796B完整准入；原70 Taylor整件和16场majorant保。2048中心+2048整角格、phase至9/p至8/四支ratio至6阶，全部有限系数桶DFT及整Taylor余项保，big carrier只private。独立首次workflow不依赖direction数组或SkylakeX，尚未预报数值门。
