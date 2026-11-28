@@ -165,3 +165,7 @@
 ## R644：真实双核端口的准确非线性环带及同g相位族
 
 [完整证明](results/R644-nonlinear-double-kernel-annulus-with-tilted-cap.md)把固定两曲率矩、真实帽lifts、双profile核控制、全整数circle及状态/type校正放入同一低阶邻域；控制平滑和非对角参考交换子给完整coupled右逆，准确二次误差身份满足Hamilton原定理。得到真实小q嵌入，帽倾角βq²+O(q³)、β>1/4；选定q冻结g后相位族外帽固定，整个像的Hausdorff位移≥aβq²/4>0。真尾Q/D的单一supremum及帽developing仿射规范已支付，非形式端口。仍无有效q0和宏观位移/reach比例，有限角和低矮输入继续。
+
+## R636自然终态：真实中心高度活动约束
+
+[完整结果](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783新增3146.914737635秒、12端恢复/32全目标接受，真端.178784与ruling1.5332e14仍未达；冻结同态fine已付。中心h逼近原.8，8次拒绝有真点反例，最后50完整trial无下降。下一保原完整Jac/欧氏阻尼，以h(0)/L的至多四面解真实向内锥问题；严格下界和所有原门保持，源7352B payload及全部费用继续。

@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **28df630f1fb36ca491158e763e3dd87bba3a6a15**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **13126a9b3f425c78202717060981d84048be71aa**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -33,16 +33,14 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 [6482→55be自然终态](notes/2026-11-28-r566-6482-to-55be-natural-terminal.md)run46123017949/job140911408687/sourcefe5224fb于08:30:26结束，新增2370.609989817秒、4metric+1restore。真q55be941c…，1786×3072及2719峰合格η.1932424342521748/g准确0；当前904coarse/1810fine，不能转资格，metric/trust.45050811767578125。
 
-末半步43015466…的coarse/1810fine/nested已付，η.19294084341286163/g0，有改善可能；2810定位已闭904、剩1906，尚无充分拒绝证据，必须只续真实剩余队列。2physical/8working pending暂不应用，完成原资格后才作接受/trust决策；82维H/3403LDL、23乘子、metric505f语义和全部费用保留。旧309b8的8635未执行、0重放；旧6482未完20J块仍留账。[1906实际续接](notes/2026-11-28-r566-55be-partial1906-resume-scope.md)先完成原callback再续完整outer，仍是变量g设计。
+末半步43015466…的coarse/1810fine/nested已付，η.19294084341286163/g0，有改善可能；2810定位已闭904、剩1906，尚无充分拒绝证据，必须只续真实剩余队列。2physical/8working pending暂不应用，完成原资格后才作接受/trust决策；82维H/3403LDL、23乘子、metric505f语义和全部费用保留。旧309b8的8635未执行、0重放；旧6482未完20J块仍留账。[1906续接](notes/2026-11-28-r566-55be-partial1906-resume-scope.md)run46127678618/source54cc47b6，08:50:32启动；先原callback再完整outer，仍变量g设计。
 
 ## D：真全历史原BVP，已定位粗凸包墙
 
 [旧一致W失败](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)及全部旧费用保留；stored末零不是true资格。
-[R632实际自然终态](notes/2026-11-28-r632-true-hermite-natural-terminal.md)：run **46121795578** / job140907716148/source32788128，07:51:14已完成。新增989.736104011秒，19完整接受/20trial/114方向，44轮自然stall，非时钟。payload6319B/de303ef6…、q4a3492e8…；fine2305点同曲线全常数冻结已付，真十末.8785446834804413、ruling9.352833707433366e13、原HS8.005848949741811e15，未根。
+[R632自然终态](notes/2026-11-28-r632-true-hermite-natural-terminal.md)run46121795578/source32788128：989.736104011秒、19接受后真端/ruling未达；439粗υ凸包失败中2次真越界仍拒。[自适应续接](notes/2026-11-28-r632-adaptive-polynomial-box-continuation-scope.md)run46125262371/source02f00c15，08:19:20启动，原257q/物理盒/全目标保持；未闭pending，同态fine不重放，旧206e真h越3不重查。
 
-439域失败均触发粗υ凸包，437次样点在盒内、2次真越界仍拒。[自适应完整续接](notes/2026-11-28-r632-adaptive-polynomial-box-continuation-scope.md)run46125262371/source02f00c15，08:19:20启动；原257q不变，原四盒及h/方向同树细分，真实点可拒/未闭pending；重启trust=.25/damping1e−6，不重28步恢复，同完整payload继承已付fine。旧206e真h越3已定位，不重查。
-
-[R636显式输入](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)在全连续原盒内准确P/动能零、负B₂合法；[新完整求解](notes/2026-11-28-r636-polynomial-background-original-bvp-scope.md)run **46123487783** / sourceb10baebe，07:56:34启动。准确五次背景+257原方向，不冒旧spline精确插值；首完整链复用、fine冻结背景/α/L/八中心A/三规范。与R632独立留账。
+[R636自然终态](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783/job140912849492/sourceb10baebe于08:49:46结束，新增3146.914737635秒、12端恢复/32全目标接受；真十末.178784、ruling1.5332e14仍未达，同态fine已付。真实中心h逼近.8，8次域拒有真点反例，最后50完整trial无改善；payload e4521e28…/7352B。下一在同完整Jac/阻尼问题显式解h(0)/L至多四活动面，原.8严格下界不改；全部费用和未完trial保留。
 
 [R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P必U>16/225；[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)增σ再消P保原方向。[R641](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)以真实2×2系统再消α/L，原盒内显式P/t₁/s₀三端输入及256自由形状全链已证；[实际r₁/全ruling求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)run46127173693/source106767818，08:43:56启动。原18块全正势、ODE/ruling1e−7、真末1e−8门不变；根后period/pose/宏观仍欠。
 
