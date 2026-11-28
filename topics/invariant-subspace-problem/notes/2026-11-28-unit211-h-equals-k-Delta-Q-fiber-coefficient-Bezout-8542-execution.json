@@ -1,0 +1,40 @@
+{
+  "schema": "isp-corrected-hk-Delta-Q-fiber-original-coefficient-compatibility-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "runtime": "functions.exec V8 exact BigInt rational polynomials",
+  "source_blob": "83b7fc55532c274c365e29f6e8158c7c6e7b5116",
+  "source_sha256": "596019950292d1247f5205a624dc8e7fe0aa8950f652a2867b08be8800ccf454",
+  "source_bytes": 3392,
+  "result": {
+    "schema": "isp-corrected-hk-Delta-Q-fiber-coefficient-Bezout-v1",
+    "elapsed_milliseconds": 2,
+    "integerRationalPolynomialProducts": 49,
+    "exactPolynomialDivisionProducts": 9,
+    "definitions": "H=B+(3-2lambda)A, I=H+B, F=A^2 I(3-4lambda)+A^3 H+B H(H+I), G=(B^2-A^3)(lambda^2+lambda-1)",
+    "degrees": {
+      "F": 8,
+      "G": 8,
+      "gcd": 0
+    },
+    "fullBezoutPolynomialProductReturned": true,
+    "gcdLowToHigh": [
+      "1"
+    ],
+    "paidSupport": "A*B*lambda*(2B+(3-2lambda)A)",
+    "paidStripRounds": 0,
+    "remainingLowToHigh": [
+      "1"
+    ],
+    "noIdenticallyZeroQFiberInPaidChart": true,
+    "sourceScope": "Only new pure-lambda coefficient compatibility; original Delta coefficient derivation is in the proof",
+    "noOldResultantOrProjectionRepeated": true,
+    "ordinaryISPClaim": false
+  },
+  "execution_count": 1,
+  "original_coefficient_static_review": {
+    "root_entire_derivation_source_read": true,
+    "independent_r150_entire_derivation_source_read": true,
+    "no_original_Gram_execution_claim": true,
+    "actual_QQ_gcd_one_uses_no_extra_paid_factors": true
+  }
+}

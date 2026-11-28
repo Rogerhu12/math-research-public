@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：正确Delta的全部Q纤维与1444三参数点界](results/R150-appendix-unit211-h-equals-k-Delta-zero-complete-Q-fibers-1444-cover.md)：原Δ三系数若整零则u*=−2H/B且F=G=0，新8/8次QQ Bézout实际1；2ms/49乘/9整除，无额外首项逆。每个722基点至多2个Q，包含全降次纤维；z/Gram/Pf0仍开。
+
 - [R150：全原N4的三个无分母缩放短式](results/R150-appendix-unit211-general-scaled-entire-N4-three-compact-identities.md)：9自由原Gram/value变量，真dual乘法直接返回ell缩放V0/V1的N4/完整极化三式，对A1/f/V/W/t仅一次；6ms/359整数乘/9全零差。无mean/W/Phi或逆，ell0保；当前W低D解释保准确已付范围。
 
 - [R150：正确fu终端一次C17原理想覆盖](results/R150-appendix-unit211-Phi-zero-true-fu-terminal-C17-once-original-ideal-cover.md)：十八必要列反传与完整Psi原来源合成后，仅最终原乘子分母17/17/14得到C17一次；唯一.330607秒/0，因子1/2/3/9/1²、rad16⇒≤48权对。合已刊中心二次得≤384完整规范不同点，全零纤维保。
