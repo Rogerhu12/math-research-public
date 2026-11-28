@@ -18,6 +18,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 [42](notes/2026-11-28-run42-complete-fermi-and-same-point-mesh-launch.md)46154734602：原八阶段、29cefe69相/七整mesh全返；Gram精化5.52→8.26→16.56→24.83，裸场校准与覆盖失败，已闭。
 [43](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)46158532048：21科学冻结真PID2592，7移相+3成对、两族各4/8/16及各65相/七网原预算；正K号/硬rim障碍明记。
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)46160123014：22输入真PID2540；5粗+两族各4/8/16，全时间联合三向共rim A/B/C六jet，完整终网/预算继续。
+[45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)：26输入/13原阶段，R765低峰与参考各4/8/16；共同物理场极旋转+全时空LS，真curl/四缝/全Gram/法球，两个末点各65相及七整网；中央按各解析轨道，未有实际结果。
 
 所有原点/model/driver/源参/拒绝与预算保各ownnote；trial非accepted/final，异model不借坐标费用。
 

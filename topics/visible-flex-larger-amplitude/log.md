@@ -447,3 +447,7 @@ ROOT已逐件取11原完整小返回并核全身份、官方46154734602/1/job141
 ## 2026-11-28 16:00:13 UTC — RET100L：30已闭完整参数及原数值词形逐字恢复，净释1,109,759字节
 
 ROOT逐字执行正式restore/originalRequestText两完整函数，5独立父+7完整语义编辑组按35文档原顺序重建30/30 JSON，每件bytes/SHA256/Git与原文件一致，含4文档12处原数值词形；非科学重算。删除原1,636,589B，9份完整恢复材料526,830B，净释1,109,759B。原30官方trigger树各参数及60 compute/report终态保完整（失败、资源耗尽及report失败均不改成功）；原30科学结论、原入口/生成器、workflow、五父119/120/140/149/184、RET100B–K、144现行整输入和45八待刊整输入逐字硬依赖排除，旧19/20及33–45父/队列/唯一实值完全保留。清单computations/ret100l-closed-controls-native-and-current-c-request-recovery.json与完整复现器reproduce_ret100l_controls_native_and_current_c_parameters.mjs及7组完整编辑同时入main。 双README云核至`47bd801bfe7f893789e53dae9aa431c9ad78b253`无变（非pull）。
+
+## 2026-11-28 16:07:45 UTC — 45全部源/参数普通触发：真实整面旋转可积与全时空共同形状
+
+ROOT已全文读45 main/fields/system/params/observer/workflow，26科学输入、22imports/两export、26现有父及完整request/manifest身份与原argv逐项核同。7原粗含已严格排厚常比2+2对照，ratio三粗/reference三粗各独立4/8/16，总13阶段，各末同点65相加七整网时刻并集。全部正相位共同场、极旋转与真实原g三个协变Hessian/法球位置二次LS，原两block4/5/6/7步不裁；逐真点测旋转外微分、低秩计数、物理与旋转四缝/极图及握，source power8仅标签实窄四次已明记。末真Gram、厚度和准确等距仍未知，不借R761或R765局部证；actual null待真实run入口。原公开py3.12.14/np2.3.5/scipy1.17/JAX.7.1与所有原预算普通刊触发。首次发布循环中真实V8重置；已查当时remote无45，不重复启动，恢复同一8完整blob和dbbe2c未推commit内8642B原ownnote继续freshHEAD普通整合；真实pwd复探No usable execution environment，仍按根§8云回退，非git pull。 双README云核至`dd9da18170dd70307b6736792d725d7b902bcb9e`无变（非pull）。

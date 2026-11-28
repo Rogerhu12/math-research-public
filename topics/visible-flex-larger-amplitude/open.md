@@ -117,6 +117,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 33–35全部初值与拒绝点、角色、model/driver/原预算见各完整note；原science自然返后才原whole pure，异model不借坐标费用。
 
 [44](notes/2026-11-28-run44-shared-rim-complete-joint-launch.md)：22冻结科学输入、同R757g，5粗+两家族各4/8/16；全时间联合Gram/曲率/法球，真两卷两帽共享A/B/C二jet、各终点65相/七整网，原双L-BFGS预算普通触发，修正场全几何仍欠。
+[45](notes/2026-11-28-run45-coframe-and-joint-whole-shape-launch.md)：26输入/13原阶段，R765低峰与参考各4/8/16；共同物理场极旋转+全时空LS，真curl/四缝/全Gram/法球，两个末点各65相及七整网；中央按各解析轨道，未有实际结果。
 
 ### 当前数学与新输入
 

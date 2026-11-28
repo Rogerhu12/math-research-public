@@ -1,0 +1,582 @@
+{
+  "schema": "visible-larger-run45-complete-coframe-source-and-launch-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "Complete original closed coframe scientific source, fixed inputs, parameters, control and two same-point geometry outputs prepared.",
+  "complete_new_files": [
+    {
+      "role": "script",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_coframe_phase.py",
+      "name": "bent_coframe_phase.py",
+      "bytes": 15218,
+      "sha256": "5dc4268d1164fa7d0467ce0ae607f2e044dc0f82287cd955bd5ca50f83eb1821",
+      "git_blob_sha": "8cdc16dfe24e43f23721d32a0d60810dfe1e412e"
+    },
+    {
+      "role": "coframe_fields",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_coframe_fields.py",
+      "name": "bent_coframe_fields.py",
+      "bytes": 8362,
+      "sha256": "7e94f3c1c6f9e1fecec09fe04db53d8da732532b0886b6d90b0294403310b4a8",
+      "git_blob_sha": "de032849b6faf9e68a4c4d0e04361f3ca459c24e"
+    },
+    {
+      "role": "coframe_system",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_coframe_system.py",
+      "name": "bent_coframe_system.py",
+      "bytes": 7526,
+      "sha256": "150de2c0f65668609813df43193ea09d44543919996e095507d85c9f544316bc",
+      "git_blob_sha": "2c31e97d3988302f79170cf3c321ee1c66d7def2"
+    },
+    {
+      "role": "parameters",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-coframe-phase-design-v1.json",
+      "name": "bent-coframe-phase-design-v1.json",
+      "bytes": 7170,
+      "sha256": "635155839f858d1a2209c08c12c6f8a0b47e58ec5141484fff25790ecb0cb49e",
+      "git_blob_sha": "07cbf1a0373885080f5cc19c5596b231801a9ccd"
+    },
+    {
+      "role": "Run45 original stage, main geometry and independent reference geometry publisher",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_coframe_search.py",
+      "name": "observe_bent_coframe_search.py",
+      "bytes": 1558,
+      "sha256": "36ee5d6a5228a67f8dc2d0c142f8f509df0a3b2eadda100cc944379085c8d313",
+      "git_blob_sha": "fcda6545e9707f323eb978ef694e22302fd35b53"
+    },
+    {
+      "role": "complete public Run45 signed-ratio and reference coframe workflow",
+      "path": ".github/workflows/visible-larger-run45-coframe-phase.yml",
+      "name": "visible-larger-run45-coframe-phase.yml",
+      "bytes": 5250,
+      "sha256": "08820722f0690e4c4e33c11d588772d749715c95d78afcc7a6a375059b0851d2",
+      "git_blob_sha": "03f18de37c7c61167566e8f66aa0029fc68af79f"
+    },
+    {
+      "role": "complete Run45 immutable closed coframe and two-point export request",
+      "path": "topics/visible-flex-larger-amplitude/computations/run45-coframe-phase-request.json",
+      "name": "run45-coframe-phase-request.json",
+      "bytes": 26772,
+      "sha256": "62ab55a0c0c88eb8c952423b2e1c77385c413beab838c999a06db4126f02250d",
+      "git_blob_sha": "3799b7609a2b28adb2345af43d8702f8a2989ad5"
+    }
+  ],
+  "complete_parent_sources": [
+    {
+      "role": "complete final R765 signed-ratio reference including bounded paired tracks",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r765_signed_ratio_closed_two_jets.py",
+      "name": "r765_signed_ratio_closed_two_jets.py",
+      "bytes": 10078,
+      "sha256": "830196cc391625c15ec6ad0b70b0e3daca5d43020fdd4e51e79d149583812fb5",
+      "git_blob_sha": "4a8368b4008915a504a148be4070b5a97ab981a9"
+    },
+    {
+      "role": "full direct finite-phase metric, curvature, normal-chord optimizer and two same-runner terminal exports",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_shared_rim_phase.py",
+      "name": "bent_shared_rim_phase.py",
+      "bytes": 15951,
+      "sha256": "85eba7c076be5583e3da380bb418e909cd41aba5fac1564ec69036d942ab2a21",
+      "git_blob_sha": "68e75f0335be5b5d0382cd58fb1a2e29d55c40b7"
+    },
+    {
+      "role": "complete shared physical rim value, first jet, second jet and interior ambient field dictionary",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_shared_rim_fields.py",
+      "name": "bent_shared_rim_fields.py",
+      "bytes": 5952,
+      "sha256": "1640e90ef01bb03cd99ae1fb866d66348ed8af33543685573f26c5a4572f1bf9",
+      "git_blob_sha": "850c8a1f1f9df163d2d462ec8ba6e505151ee674"
+    },
+    {
+      "role": "R763 true translated caps and physically shared rim two-jets",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r763_translated_caps_and_shared_rim.py",
+      "name": "r763_translated_caps_and_shared_rim.py",
+      "bytes": 3985,
+      "sha256": "94d1e741fdff5d09df06bf7ea2173989232a82611f11743027d11cc66c3f1fd1",
+      "git_blob_sha": "dee28269b2031d5c5eb70caaf999f181adc5dbb6"
+    },
+    {
+      "role": "R761 paired reference with safe nonflat closed caps",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r761_paired_tube_safe_nonflat_caps.py",
+      "name": "r761_paired_tube_safe_nonflat_caps.py",
+      "bytes": 9196,
+      "sha256": "42dccb7122e76b74a1fa5222d06fc2a6ddee7ce16779c9b05f4287a330a3893f",
+      "git_blob_sha": "e3b002db19155634e374ba503f778d1174a48fab"
+    },
+    {
+      "role": "curved rectifying middle, independent physical nonflat caps and complete nine-chart body",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r757_curved_rectifying_closed_two_jets.py",
+      "name": "r757_curved_rectifying_closed_two_jets.py",
+      "bytes": 8312,
+      "sha256": "feb58d10fe8f4dae6fb08e395c56ff4851b9707eddd2ac07d1f6c5acc17a1651",
+      "git_blob_sha": "d91226adb967ab38aced46b1635d26d1d5ac1e86"
+    },
+    {
+      "role": "new curved-profile central field, two cap modes and full six-jet annular basis",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_curved_hard_end_fields.py",
+      "name": "bent_curved_hard_end_fields.py",
+      "bytes": 15892,
+      "sha256": "28493b189b67a12393a8aa0c1cd1fa67a1c6f6e8a298a531766395a74766f94b",
+      "git_blob_sha": "ae676490bc188e5b7f9307ef2d8efcb5b508c525"
+    },
+    {
+      "role": "new fixed metric on the full R757 lower and upper caps, delayed annuli and new middle",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r757_delayed_metric.py",
+      "name": "r757_delayed_metric.py",
+      "bytes": 5095,
+      "sha256": "347b29514d4f78847d35e9e2c338f9127750985762249fcfaa0067d490e3f4a1",
+      "git_blob_sha": "3955ae4c0fa7fcc7c81119d42ad9d3d2c003f9a6"
+    },
+    {
+      "role": "actual curved profile coordinates with true arclength and physical derivatives",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r757_curved_profile_two_jets.py",
+      "name": "r757_curved_profile_two_jets.py",
+      "bytes": 5203,
+      "sha256": "059a8340b44cd22dd7ee568f1d2df5c5e06b8a1dc9e4a3a461fdad6975835e0e",
+      "git_blob_sha": "be856a55146684ce9f7dab53d29359ccce96f7af"
+    },
+    {
+      "role": "same-point closed geometry, mesh and compact index",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_terminal.py",
+      "name": "closed_body_mesh_terminal.py",
+      "bytes": 16874,
+      "sha256": "fca64a1a1b16822b39f7c4bc12bb559f394eb88f81da932fbaa13c161914d197",
+      "git_blob_sha": "e86f09bfd360b67abfe8075f0a1b6bf0dace7279"
+    },
+    {
+      "role": "full finite comparisons on material vertices and triangles",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_geometry.py",
+      "name": "closed_body_mesh_geometry.py",
+      "bytes": 8315,
+      "sha256": "eadff92d30352db738e8642f3fcad051661d6a48a3628c22101a58967f1b0050",
+      "git_blob_sha": "23ce25eeb6c3ca89667537152fe59c59a5c2d1a1"
+    },
+    {
+      "role": "complete R740 geometric source for the elliptic starts",
+      "name": "r740_rolled_disk_seed.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    },
+    {
+      "role": "complete R742 tilted seed analytic two-position-jets six-field provider",
+      "name": "r742_tilted_disk_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py",
+      "bytes": 9706,
+      "sha256": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+      "git_blob_sha": "eacaa69d88eae15963aee90d948391abfb9c745a"
+    },
+    {
+      "role": "complete R744 extruded closed physical body atlas and six positional derivatives",
+      "name": "r744_extruded_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py",
+      "bytes": 10327,
+      "sha256": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+      "git_blob_sha": "729efd888029dbaf9953617edfde81c0c7394fdd"
+    },
+    {
+      "role": "R746 original full axial-translation closed source and proof",
+      "name": "r746_axial_translation_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r746_axial_translation_closed_two_jets.py",
+      "bytes": 5465,
+      "sha256": "e5ab4d4a0921cb83c7eefc485147883d6dcea92ff9df6f3f3da8604440f174ef",
+      "git_blob_sha": "f17399df53201a251da42198019f1c5a229baa62"
+    },
+    {
+      "role": "complete R747 offset-ring arclength transport on closed physical body",
+      "name": "r747_offset_arclength_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r747_offset_arclength_closed_two_jets.py",
+      "bytes": 7820,
+      "sha256": "09b29cd06eec6887bf8f103f104cdd9ca598b691c3e7503fa2220dbafc71e3ac",
+      "git_blob_sha": "b9af0788b2ffea92bd6755d05a43fdb2509007f9"
+    },
+    {
+      "role": "complete R748 physically bending developable cap germs on the closed axial geometry",
+      "name": "r748_developable_axial_caps.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r748_developable_axial_caps.py",
+      "bytes": 1809,
+      "sha256": "947245856229ddeb95b83c763403e86bdd867c63b63b6013929d2e2a13a87b46",
+      "git_blob_sha": "5d60e4e2683faa5564072f120280421d32e515bf"
+    },
+    {
+      "role": "complete fixed parent science for Run41",
+      "name": "r752_delayed_turn_closed_two_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r752_delayed_turn_closed_two_jets.py",
+      "bytes": 4359,
+      "sha256": "762717cc9bd895893b9538683a588217d2f8fc4f236f997a3120880acbe161c6",
+      "git_blob_sha": "d48422a671ff34944bb51f990035e2a5bc2dd661"
+    },
+    {
+      "role": "Run39 actual closed material atlas and field anchoring data",
+      "name": "bent_body_atlas.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py",
+      "bytes": 7229,
+      "sha256": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102",
+      "git_blob_sha": "493b8aeed145723f91c69acd834da0617974b1ac"
+    },
+    {
+      "role": "complete Run40 direct finite-phase physical shape search",
+      "name": "bent_end_phase.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase.py",
+      "bytes": 14744,
+      "sha256": "0b2ce5d260bdc4160b972d7b36cc0567660c6bbc18d56eb722265e6f0b04b701",
+      "git_blob_sha": "269265194f8f7230ba9d46ea501efb8d838e52a6"
+    },
+    {
+      "role": "complete original closed axial geometry, accurate jets and fractional phase directions",
+      "name": "bent_end_phase_fields.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase_fields.py",
+      "bytes": 10301,
+      "sha256": "5305a955f3f5a0f37a3097388b025889584ce2033fe82bcab0140ab8330b31ba",
+      "git_blob_sha": "bb38c6577c143a2cebb7fe76d5cd9a24eb9fa1fb"
+    },
+    {
+      "role": "R759 paired positive-curvature-compatible central tracks and complete signed cap/annular six-jets",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r759_paired_curvature_tracks.py",
+      "name": "r759_paired_curvature_tracks.py",
+      "bytes": 7712,
+      "sha256": "99a147fc713a5ba29bb19472bb0249c9a3ee81534e39af44de9eb56ca0e005e7",
+      "git_blob_sha": "6c062e5977a4d64567b481b8e7cfb119a7ea0d39"
+    }
+  ],
+  "source_provenance": {
+    "checked_retained_paths_commit": "78815d6f609f7d0cd02447f94b12ca8ee2fb3615",
+    "R765_fixed_source": {
+      "role": "complete final R765 signed-ratio reference including bounded paired tracks",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r765_signed_ratio_closed_two_jets.py",
+      "name": "r765_signed_ratio_closed_two_jets.py",
+      "bytes": 10078,
+      "sha256": "830196cc391625c15ec6ad0b70b0e3daca5d43020fdd4e51e79d149583812fb5",
+      "git_blob_sha": "4a8368b4008915a504a148be4070b5a97ab981a9"
+    },
+    "retained_R740_to_R763_run40_43_44": "Complete original sources from their exact retained paths and identities. The final immutable trigger commit supplies the R765 geometry, each of the 22 signed imports, two independent export modules, parameters, and scientific main.",
+    "point_provenance": "All seven starts come directly from the fixed geometry. Both selected continuations and their two closed export points live on one worker in this run."
+  },
+  "scientific_budget": {
+    "protocol": "Polar projection of both normalized tangent columns; tangent/curvature projection of all three true original covariant Hessians; signed chord-pair corrections. Complete two-side Kronecker least squares over all independent phase-node physical fields, every positive knot and midpoint jointly. Refresh actual polar, covariant and chord merits after each physical trial. Reweight the worst complete material sites in a second block. Coarse bounded-ratio candidates and original R763/R761 candidates each generate their own fixed-g 4/8/16 refinements. The constant 2+2 case is globally evaluated as a mathematically excluded thickness control, never advanced as the bounded-curvature candidate.",
+    "seven_initials": [
+      {
+        "id": "ratio-bounded-78-cut23",
+        "group": "ratio",
+        "cap": "ratio",
+        "ratio_law": "bounded",
+        "angle": 0.78,
+        "rise": 2,
+        "fall": 3,
+        "shorten": 0.23
+      },
+      {
+        "id": "ratio-bounded-79-cut30",
+        "group": "ratio",
+        "cap": "ratio",
+        "ratio_law": "bounded",
+        "angle": 0.79,
+        "rise": 2,
+        "fall": 3,
+        "shorten": 0.3
+      },
+      {
+        "id": "ratio-bounded-84-fall4",
+        "group": "ratio",
+        "cap": "ratio",
+        "ratio_law": "bounded",
+        "angle": 0.84,
+        "rise": 2,
+        "fall": 4,
+        "shorten": 0.24
+      },
+      {
+        "id": "ratio-constant-2-2-curvature-control",
+        "group": "curvature-control",
+        "cap": "ratio",
+        "ratio_law": "constant",
+        "angle": 0.78,
+        "rise": 2,
+        "fall": 2,
+        "shorten": 0.23
+      },
+      {
+        "id": "translated-rim-23",
+        "group": "reference",
+        "cap": "translated",
+        "angle": 0.78,
+        "ramp_cells": 2,
+        "shorten": 0.23
+      },
+      {
+        "id": "developed-rim-22",
+        "group": "reference",
+        "cap": "developed",
+        "angle": 0.78,
+        "ramp_cells": 2,
+        "shorten": 0.32,
+        "development": 0.22
+      },
+      {
+        "id": "tube-safe-78",
+        "group": "reference",
+        "cap": "tube",
+        "angle": 0.78,
+        "ramp_cells": 2
+      }
+    ],
+    "full_original_physics": {
+      "fixed_tensor": "R757 initial closed metric at every one of the 9 charts, including both true nonflat caps; no target refitting or width/hold shrink under space/time refinement.",
+      "curvature_cap": 9.4,
+      "tube_radius": 0.105,
+      "rim_weight": 3,
+      "pair_position_weight": 6.4,
+      "covariant_weight": 0.00065,
+      "shape_damping": 0.00008,
+      "reweight_blocks": 2,
+      "step_factors": [
+        1,
+        0.5,
+        0.25,
+        0.125,
+        0.0625,
+        0.03125
+      ],
+      "algorithm": "Polar projection of both normalized tangent columns; tangent/curvature projection of all three true original covariant Hessians; signed chord-pair corrections. Complete two-side Kronecker least squares over all independent phase-node physical fields, every positive knot and midpoint jointly. Refresh actual polar, covariant and chord merits after each physical trial. Reweight the worst complete material sites in a second block. Coarse bounded-ratio candidates and original R763/R761 candidates each generate their own fixed-g 4/8/16 refinements. The constant 2+2 case is globally evaluated as a mathematically excluded thickness control, never advanced as the bounded-curvature candidate."
+    },
+    "coarse": {
+      "id": "coarse-whole",
+      "mesh": [
+        25,
+        9,
+        8,
+        7
+      ],
+      "check": [
+        51,
+        15,
+        12,
+        12
+      ],
+      "intervals": 2,
+      "check_extra": false,
+      "radial_degree": 3,
+      "turn_degree": 2,
+      "roll_modes": 3,
+      "rim_modes": 4,
+      "cap_degree": 3,
+      "pair_count": 1536,
+      "polar_steps": 4,
+      "cell_depth": 1
+    },
+    "all_six_refinements": {
+      "families": [
+        "ratio",
+        "reference"
+      ],
+      "per_family": [
+        {
+          "id": "same-g-1",
+          "mesh": [
+            35,
+            13,
+            10,
+            10
+          ],
+          "check": [
+            67,
+            21,
+            16,
+            15
+          ],
+          "intervals": 4,
+          "check_extra": true,
+          "radial_degree": 4,
+          "turn_degree": 3,
+          "roll_modes": 5,
+          "rim_modes": 6,
+          "cap_degree": 4,
+          "pair_count": 2048,
+          "polar_steps": 5,
+          "cell_depth": 1
+        },
+        {
+          "id": "same-g-2",
+          "mesh": [
+            49,
+            17,
+            13,
+            12
+          ],
+          "check": [
+            91,
+            29,
+            20,
+            18
+          ],
+          "intervals": 8,
+          "check_extra": true,
+          "radial_degree": 6,
+          "turn_degree": 5,
+          "roll_modes": 7,
+          "rim_modes": 8,
+          "cap_degree": 6,
+          "pair_count": 3072,
+          "polar_steps": 6,
+          "cell_depth": 2
+        },
+        {
+          "id": "same-g-3",
+          "mesh": [
+            65,
+            21,
+            16,
+            15
+          ],
+          "check": [
+            121,
+            39,
+            26,
+            22
+          ],
+          "intervals": 16,
+          "check_extra": true,
+          "radial_degree": 9,
+          "turn_degree": 7,
+          "roll_modes": 9,
+          "rim_modes": 11,
+          "cap_degree": 8,
+          "pair_count": 4096,
+          "polar_steps": 7,
+          "cell_depth": 3
+        }
+      ]
+    },
+    "stages": 13,
+    "mesh_phases_each": [
+      0,
+      0.2617993877991494,
+      0.5235987755982988,
+      0.7853981633974483,
+      1.0471975511965976,
+      1.3089969389957472,
+      1.5707963267948966
+    ],
+    "terminal_same_points": [
+      "closed-geometry-index.json",
+      "reference/closed-geometry-index.json"
+    ],
+    "source_identity_scheme": "Source manifest, design, stage configuration, full coordinates, time nodes and natural cubic rule bound in config_key."
+  },
+  "immutable_controls": {
+    "supervisor": {
+      "role": "Run45 original stage, main geometry and independent reference geometry publisher",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_coframe_search.py",
+      "name": "observe_bent_coframe_search.py",
+      "bytes": 1558,
+      "sha256": "36ee5d6a5228a67f8dc2d0c142f8f509df0a3b2eadda100cc944379085c8d313",
+      "git_blob_sha": "fcda6545e9707f323eb978ef694e22302fd35b53"
+    },
+    "workflow": {
+      "role": "complete public Run45 signed-ratio and reference coframe workflow",
+      "path": ".github/workflows/visible-larger-run45-coframe-phase.yml",
+      "name": "visible-larger-run45-coframe-phase.yml",
+      "bytes": 5250,
+      "sha256": "08820722f0690e4c4e33c11d588772d749715c95d78afcc7a6a375059b0851d2",
+      "git_blob_sha": "03f18de37c7c61167566e8f66aa0029fc68af79f"
+    },
+    "original_public_git_helpers": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      }
+    ],
+    "shared_run36_control_functions": {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    },
+    "shared_full_publish_supervisor": {
+      "role": "public whole-stage and two-index shared-rim observer with the declared scientific library versions",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_shared_rim_search.py",
+      "name": "observe_bent_shared_rim_search.py",
+      "bytes": 17265,
+      "sha256": "cdcb914a0caac5d16e7bb05a659bfaecd17362a745928285e7a4ab5d717b1879",
+      "git_blob_sha": "0bb96a0c3338895e85e3b863c58cc68ebaa5294b"
+    }
+  },
+  "normal_scientific_entry": {
+    "relative_path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_coframe_phase.py",
+    "argv": [
+      "--params",
+      "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-coframe-phase-design-v1.json",
+      "--geometry-source",
+      "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r765_signed_ratio_closed_two_jets.py",
+      "--export-source",
+      "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261128/closed_body_mesh_terminal.py",
+      "--out",
+      "{runner_temp}/run45-coframe-phase-{run}-{attempt}/field"
+    ],
+    "physics_inputs": 26,
+    "execution_dependencies": [
+      "numpy==2.3.5",
+      "scipy==1.17.0",
+      "jax==0.7.1",
+      "jaxlib==0.7.1"
+    ],
+    "environment": {
+      "PYTHONUNBUFFERED": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONHASHSEED": "0",
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "JAX_PLATFORMS": "cpu",
+      "JAX_ENABLE_X64": "True"
+    },
+    "live": {
+      "scientific_summary": "Publish the original summary.json, every complete stage-NN-return.json, the signed-ratio endpoint closed-geometry-index.json and the independent reference/closed-geometry-index.json as separate immutable scientific documents with their original byte identities.",
+      "raw_fields": "Keep full coordinate arrays, deterministic PLY.GZ and individual phase details on the same public worker. Each terminal index binds its own closed point, checked phases and seven mesh identities.",
+      "public_attempt": "notes/run45-coframe-phase-<run>-<attempt>.json and its own scientific documents, after a fresh checked main pull/rebase, both README checks and inclusive topic capacity accounting.",
+      "interpretation": "The principal-curvature bound established for the 2+3 bounded reference concerns its central cylinder. The projected SO(3) curl, full Gram, material overlaps, sampled reach costs, topology, held quantities and moments of an actual returned field must be read from its actual output. Sampled polar and curvature reductions alone give no strict certificate."
+    },
+    "checkpoints": "Each stage returns that stage’s original small JSON, exact coefficient point identity and runner field inventory."
+  },
+  "mathematics": "Simultaneous finite-amplitude coframe and shape solves on the fixed R757 initial metric. Each positive phase is an actual global position field. The material cylinder follows the selected prescribed track. The shape solve releases both rolls, both caps and the common rim jets on both sides. The fourth fully solved starting design uses the constant 2+2 curvature law. Three bounded-ratio starts and three R763/R761 reference starts have separate winning continuations. The principal-curvature bound established for the 2+3 bounded reference concerns its central cylinder. The projected SO(3) curl, full Gram, material overlaps, sampled reach costs, topology, held quantities and moments of an actual returned field must be read from its actual output. Sampled polar and curvature reductions alone give no strict certificate.",
+  "public_runner": {
+    "executor": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+    "python": "3.12.14",
+    "setup": "Pinned checkout, Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0 and CPU JAX/JAXlib 0.7.1, with BLAS thread settings from the original checked observer.",
+    "timeout": 360,
+    "readme_pull_period_seconds": 2700,
+    "main_bytes_limit": 200000000
+  },
+  "actual": {
+    "run": null,
+    "attempt": null,
+    "source_commit": null,
+    "actual_model": null,
+    "initial_metric": null,
+    "physical_point": null,
+    "ratio_closed_point": null,
+    "reference_closed_point": null,
+    "per_phase_gram": null,
+    "rotation_exterior_derivative": null,
+    "per_phase_meshes": null,
+    "held": null,
+    "diameter": null,
+    "reach": null,
+    "body_moments": null,
+    "strict_certificate": null
+  }
+}
