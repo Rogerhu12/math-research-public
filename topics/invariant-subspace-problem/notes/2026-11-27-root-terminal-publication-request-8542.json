@@ -1,17 +1,16 @@
 {
-  "message": "ISP R150: prove finite W physical support and exact Phi first-Schur bound 791",
-  "parentCommit": "da64df51fbd24fbd77478988e5e968e72d2e34a8",
+  "message": "ISP R150: start the original inverse-corrected second kernel Schur",
+  "parentCommit": "5fb25d399c88e200fe6b4de76e78cf8c201edac9",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-generic-original-dual-family-D-return-and-finite-physical-support.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-P164-true-QQ-dual-family-generic-D-finite-support-actual-receipt-8542.json",
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-first-kernel-Schur-rank-five-and-degree-upper-bound-791.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-first-kernel-Schur-rank5-791-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-finite-support-Phi791-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-finite-support-Phi791-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-twenty-two-second-kernel-Schur-degree-input-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-original-twenty-two-second-kernel-Schur-degree-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-second-kernel-schur.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-first-Phi-second-kernel-Schur-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-first-Phi-second-kernel-Schur-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,5 +19,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-second-kernel-schur.yml"
+  ]
 }
