@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`1ef178c5087c8b06ebc23de2530c1316b6ea7483`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10实际重置后唯一探测均失败，恢复即真pull。云核至`238f4f2dce9d2d162828556d52f9785e81edc966`只是远端核查。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，变则只读diff即执行；活19–24通常5分钟真pull，已读commit保末槽；终态12–18末槽保完整终态note/旧H。
 
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase，否则freshHEAD整合重推，不冒pull/force。令牌仅瞬时CLI。[发布支持](computations/resume-20261127-root-publication-support.mjs)/[紧凑原观测发布](computations/resume-20261128-root-compact-observation-publication.mjs)保。
 
@@ -33,7 +33,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 [25完整源](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)已刊：137角色4对变/133保、19runtime，单次全key纯数值dk缓存；[位置64live](computations/complete-geometry-location-observation-and-transport-delivery.json)保原48。[全5参数](computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json)已刊，157/7与458/445保、64live/12external；启动正接，无实际场；全原描述保下引旧H。
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数及位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解已完整发表。R725 ε1/8显式转向系数15/b→64/(7b)，高阶代价/存在条件保；不推wholeK/reach，完整新seed实施中。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波均值/中央导数及位置账、[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/根扰动/shape分解已完整发表。R725 ε1/8显式转向系数15/b→64/(7b)，高阶代价/存在条件保；不推wholeK/reach；[完整seed](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，26上层和准确链继续。
 
 22原137角色/18runtime（17对改120同）、全20源/6参已刊；物理cuts与aux均值分开，原Gauss/partial保。23原全波半宽+恢复policy为138/19；达原完整全步/真几何/选中预测条件才降下一μ，失败×4/顺序/预算保。所有157/7 argv、458/445 formal、48 live及原5 CLI/全external/P0/G/typed未知保。22科学+pure超95k，真自然返才整接纯步，计数旧标签修正保22note。
 

@@ -123,9 +123,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [25完整源](computations/fixed-fejer-paired-halfwave-curvature-cache-complete-entry-delivery.json)137pair中4对改/133保、19runtime；dk缓存原全部行及科学主体保。[64live传输](computations/complete-geometry-location-observation-and-transport-delivery.json)保原48+16实际标量。[全5参数](computations/fixed-fejer-paired-halfwave-dk-cache-bhalf-complete-parameter-delivery.json)已刊，157/7、458/445、64live/12external，启动正接；无实际场；全原描述保旧open。
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)半波准确均值/两角根/中央导数与位置jet账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³端层/全部接合/两根扰动/真实shape分解已证。ε1/8把显式转向系数15/b降至64/(7b)，高阶代价与存在假设保；不推wholeK/reach，新seed正实施。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³接合/两根扰动/shape分解已证，ε1/8显式转向15/b→64/(7b)，高阶代价/存在条件保，不推wholeK/reach。[完整新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊；八cut真入working mean，26全上层/准确WholeMean cutoff及radial/leaf未付，原bubble/lift/外层Gauss保。
 
-22全20源/6参/[启动](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊，137/18、17对改120同；六物理cuts与aux12均值分开，原Gauss/partial保。science+pure103752B/四步110351B>95000，真自然返才整接pure；原计数标签解释保22note。24全11件393872B/原137/18，初队列72996B，science+pure116887B/四步125008B，同一整步续接责任；端层4/5与中央3λnew/(2λ22)竞争。
+22完整137/18家族、六物理cuts/aux12均值与原Gauss/partial保；完整启动/全部源参见22note。science+pure103752B/四步110351B>95000；24同源仅b5/8，初队列72996B、science+pure116887B/四步125008B，同样须真自然返后整接pure。端层4/5与中央3λnew/(2λ22)竞争不推几何改善。
 
 23[恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)及全19件已刊：原19全波半宽/δ1/32/两初μ.01，138角色/19runtime；原完整全步/真几何/选中预测达条件才降下一μ，失败×4/metric/顺序/预算保，效果未返。
 

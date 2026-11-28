@@ -338,3 +338,7 @@ root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动�
 ## 2026-11-28 02:43:32 UTC — ret61首个独立可复现旧轨道子批
 
 [三完整件](computations/legacy-outward-outputs-retention-61-part1-complete-delivery.json)保原6798B完整source、11显式maxstep全config/重构argv/真实异常和有限结论/全字Git恢复；毛395487B/新增72691B/净322796B。早期未记录的sourceSHA/原shell/run/环境仍未知，不拿后来的cf163替代；五个缺maxstep旧对象不删。fresh逐path/blob/size相等才普通删，旧reader须恢复全字输入。H/open旧字保037dd5055bf7df6fd2cd6307c1a05a708b3b6e2a，§1–6不动；双README云核至`1ef178c5087c8b06ebc23de2530c1316b6ea7483`无变（非pull）。
+
+## 2026-11-28 02:44:18 UTC — R725固定ε1/8完整新seed与准确后继清单
+
+[四完整件109146B](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊：seed51540B/1533deac，全三片0–3jet/四端层/八cut进真实working mean计划，原definitions八返回及CLI词保，bubble/lift/中央半波/外层whole-cell Gauss不变。新B/根须本场真重算；准确WholeMean仍继承S5，须真override并给radial/leaf全cut归属，未冒已付。完整再生器16文本差异/逆全文、实际source级联清单齐；26依已锁25完整源接续，无新数值结论。双README云核至`238f4f2dce9d2d162828556d52f9785e81edc966`无变（非pull）。

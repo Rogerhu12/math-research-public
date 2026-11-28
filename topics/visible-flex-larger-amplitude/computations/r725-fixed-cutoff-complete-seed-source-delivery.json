@@ -1,0 +1,532 @@
+{
+  "schema": "complete-r725-fixed-epsilon-flat-boundary-cutoff-seed-source-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "date_utc": "2026-11-28",
+  "status": "complete-independent-seed-source-and-exact-text-reproducer-prepared; higher-family-and-accurate-consumers-not-yet-adapted",
+  "root_is_only_ref_and_queue_writer": true,
+  "refs_or_queues_modified": false,
+  "complete_new_source": {
+    "name": "fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+    "bytes": 51540,
+    "sha256": "1533deac6485f4b7fc065d4e40ed23ef0220ebb1800e868a518fd27ec623616f",
+    "git_blob_sha": "b37f930874dd9b874d58120a2d9fe86031146ccb"
+  },
+  "complete_exact_source_reproducer": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_paired_halfwave_flat_cutoff_seed.py",
+    "bytes": 16949,
+    "sha256": "4a2f0b313decbc8cf8ee997fbb598254e83c2a93cbdb1a3b21430b83a0bdf4b7",
+    "git_blob_sha": "21980d71c0985429d6d226475dbcbee5aae195d9"
+  },
+  "complete_implementation_and_downstream_note": {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-r725-fixed-cutoff-complete-seed-implementation.md",
+    "bytes": 14911,
+    "sha256": "1083443996c51781598ffdad777560f3ad1e4a9c4dd87d7e89a7a4626e456355",
+    "git_blob_sha": "4df376549c733363dfe5add5ca7a4a5d66208a79"
+  },
+  "new_artifacts_excluding_this_manifest": [
+    {
+      "name": "fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+      "bytes": 51540,
+      "sha256": "1533deac6485f4b7fc065d4e40ed23ef0220ebb1800e868a518fd27ec623616f",
+      "git_blob_sha": "b37f930874dd9b874d58120a2d9fe86031146ccb"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_paired_halfwave_flat_cutoff_seed.py",
+      "bytes": 16949,
+      "sha256": "4a2f0b313decbc8cf8ee997fbb598254e83c2a93cbdb1a3b21430b83a0bdf4b7",
+      "git_blob_sha": "21980d71c0985429d6d226475dbcbee5aae195d9"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-r725-fixed-cutoff-complete-seed-implementation.md",
+      "bytes": 14911,
+      "sha256": "1083443996c51781598ffdad777560f3ad1e4a9c4dd87d7e89a7a4626e456355",
+      "git_blob_sha": "4df376549c733363dfe5add5ca7a4a5d66208a79"
+    }
+  ],
+  "new_bytes_excluding_this_manifest": 83400,
+  "all_new_artifacts_below_100000_bytes": true,
+  "complete_immediate_source_parent": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_meridian_reference.py",
+    "name": "fixed_fejer_paired_halfwave_meridian_reference.py",
+    "bytes": 43697,
+    "sha256": "cec7f1a297851c43bb5db4174d3a15d7d1a40eb1683b145d1f845aff732d10f0",
+    "git_blob_sha": "cc877246e546b8294826ad38d33b3eb2f7434f25"
+  },
+  "complete_current_parent_runtime_binding": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-current-complete-runtime-binding.json",
+    "bytes": 67013,
+    "sha256": "6dd246a030ffaf9e58e750c135e26424b12668b182f0e6a59726c2af006c1638",
+    "git_blob_sha": "4f20af6e3663bdf69aca7193bc29624dc706411c",
+    "complete_source_role_count": 137,
+    "current_runtime_count": 18,
+    "fixed_publication_commit": "7d34ebe278826c68a9e84c32179251220bf2fc3b"
+  },
+  "complete_original_bhalf_parameter_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bhalf-complete-parameter-delivery.json",
+    "bytes": 23548,
+    "sha256": "ed050212100d597aa6e43af283aad16ad46a7819f73b2db32e4c21e2ce76c05d",
+    "git_blob_sha": "6e42ab000ab2f74a4628bf340669c23bace8a410"
+  },
+  "complete_original_bhalf_parameter_artifacts": [
+    {
+      "role": "science",
+      "name": "fixed-fejer-paired-halfwave-bhalf-science-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bhalf-science-complete-ready.json",
+      "bytes": 94317,
+      "sha256": "f60ce7bc9c0a6392a84fe73f5a9fcdf347ad294add8066c57233003389a0818d",
+      "git_blob_sha": "a8348cd238af32a441ebd5c63bc913cb6157891b"
+    },
+    {
+      "role": "pure",
+      "name": "fixed-fejer-paired-halfwave-bhalf-pure-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bhalf-pure-complete-ready.json",
+      "bytes": 84075,
+      "sha256": "1a7649f702c005eadd7b0c9d8b4a064f0ed70be37dabc449bbc1e9afcf3b8cc9",
+      "git_blob_sha": "76e73edb425a30cda39c94275ee193914a319fb4"
+    },
+    {
+      "role": "display",
+      "name": "fixed-fejer-paired-halfwave-bhalf-complete-display-correspondence.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bhalf-complete-display-correspondence.json",
+      "bytes": 30196,
+      "sha256": "472e385c78f39a2b3bb582a162b642e2e349696708aa8b3d130e0a1fa2c8403c",
+      "git_blob_sha": "4d15d836b40ba5547542e7468dfe0aff52d07934"
+    },
+    {
+      "role": "reproducer",
+      "name": "reproduce_fixed_fejer_paired_halfwave_bhalf_parameters.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_paired_halfwave_bhalf_parameters.mjs",
+      "bytes": 28509,
+      "sha256": "55eb55688a990ab66c5b4d2d661b140bf36f8ec2921229c43a618e05e6427232",
+      "git_blob_sha": "94864fd0705d5debbd2bfb7aba06266f9c59acae"
+    },
+    {
+      "role": "note",
+      "name": "2026-11-28-paired-halfwave-bhalf-complete-parameters.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-paired-halfwave-bhalf-complete-parameters.md",
+      "bytes": 18503,
+      "sha256": "02cb88d2ae3f6f9c54922f68a174a3cd76614ce2c5e25a8f06f67c048b1d772a",
+      "git_blob_sha": "446b1f34016177cdb4ae8edda7f54052d92b1d8c"
+    }
+  ],
+  "exact_intended_first_comparison": {
+    "relative_boundary_total_length": "1/2",
+    "profile_delta": "1/32",
+    "fixed_boundary_cutoff_epsilon": "1/8",
+    "boundary_epsilon_in_source_parameter_and_complete_model": true,
+    "new_scientific_cli_words_required": 0,
+    "original_complete_scientific_argv_to_be_preserved_from_final_parent": true,
+    "no_new_complete_scientific_ready_created_in_this_package": true,
+    "fixed_metric_a_and_reference_chart_unchanged": true,
+    "original_initial_core_and_height_unchanged_by_seed_source": true,
+    "all_outer_core_omega_and_height_variables_retained": true,
+    "original_normal_stage_count": 32,
+    "current_M": 160,
+    "current_J": 923,
+    "current_full_N": 2048,
+    "original_all_angles_radial_tails_norms_thresholds_and_budgets_to_be_preserved": true,
+    "run25_final_parent_lock": null,
+    "higher_scientific_family_is_to_be_derived_after_its_true_source_locks_are_available": true
+  },
+  "complete_proof": {
+    "path": "topics/visible-flex-larger-amplitude/results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md",
+    "bytes": 30079,
+    "sha256": "f40eb810c7c5c15583155335756a2ef3aa2c60155f319b6943725906e6171bc3",
+    "git_blob_sha": "872fda9c48d04db1e3b45bd855b041f5226ab002",
+    "scope": "complete symbolic fixed-width cutoff, endpoint and internal matching, convex-mean applicability and conditional geometry bounds; no actual new field"
+  },
+  "source_api": {
+    "seed_schema": "complete-fixed-fejer-paired-halfwave-flat-cutoff-meridian-seed-reference-v1",
+    "working_schema": "paired-halfwave-flat-cutoff-reference-working-definition-v1",
+    "plan_schema": "complete-paired-halfwave-flat-cutoff-seed-radial-plan-v1",
+    "cutoff_schema": "complete-fixed-width-three-piece-C3-boundary-cutoff-v1",
+    "exact_fixed_parameter": {
+      "name": "boundary_cutoff_epsilon",
+      "canonical_fraction": "1/8",
+      "appended_to_SeedParameters": true,
+      "other_values_rejected": true
+    },
+    "SeedParameters_definitions_original_return_arity": 8,
+    "normalized_cutoff_jet_api": [
+      "boundary_cutoff_exact_jets(t)",
+      "boundary_cutoff_working_jets(t)"
+    ],
+    "normalized_cutoff_jet_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "complete_definition_api": "boundary_cutoff_definition(support,central)",
+    "exact_definition_pure_extraction_dependencies": [
+      "BOUNDARY_CUTOFF_EPSILON",
+      "BOUNDARY_CUTOFF_SCHEMA",
+      "_flat_cutoff_polynomial_jets",
+      "boundary_cutoff_exact_jets",
+      "boundary_cutoff_definition",
+      "exact_fraction",
+      "F=fractions.Fraction"
+    ],
+    "new_model_keys": [
+      "exact_boundary_cutoff_epsilon",
+      "boundary_cutoff_definition"
+    ],
+    "new_working_keys": [
+      "physical_boundary_cutoff_definition",
+      "exact_boundary_cutoff_epsilon",
+      "old_boundary_quadrature_mean_root_or_cache_inherited",
+      "original_outer_whole_cell_Gauss_and_partial_rule_is_separate"
+    ],
+    "complete_boundary_layer_count": 4,
+    "physical_pieces_per_boundary": 3,
+    "complete_boundary_physical_piece_count": 12,
+    "new_internal_boundary_cut_count": 8,
+    "central_physical_piece_count_per_interval_unchanged": 6,
+    "complete_central_pair_piece_count_unchanged": 12,
+    "auxiliary_A_rule_piece_count_unchanged": 12,
+    "actual_boundary_piece_record_keys": [
+      "boundary_cutoff_piece_index",
+      "boundary_cutoff_branch",
+      "odd_material_derivative_orientation"
+    ],
+    "exact_internal_cuts_in_actual_seed_mean_plan": true,
+    "full_original_scalar_nodes_supports_central_cuts_and_domain_retained": true,
+    "full_original_positive_Gauss_order_on_every_new_boundary_piece_retained": true,
+    "original_working_boundary_Gauss_words_or_mean_roots_inherited": false,
+    "original_outer_whole_cell_Gauss_and_partial_Lagrange_implementation_changed": false,
+    "accurate_downstream_whole_domain_enclosures_implemented_here": false
+  },
+  "complete_original_shared_reference_and_mean_roles": {
+    "reference": [
+      "scripts/resume_20261126/fixed_fejer_axisymmetric_reference.py",
+      "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb"
+    ],
+    "seed_mean": [
+      "scripts/resume_20261126/supported_smooth_triangle_seed_mean_jets.py",
+      "f8487dfe917e76dae12e3ba5667f66423ada305c077160d606d6f6aea6dc3917"
+    ],
+    "fixed_input_producer": [
+      "scripts/resume_20261126/fixed_fejer_r690_reference_inputs.py",
+      "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60"
+    ],
+    "actual_public_input_binding": [
+      "scripts/resume_20261126/fixed_fejer_reference_input_binding.py",
+      "3da43e82722dfb4548ff4e8b454d47ec2626ece76084c7801c0be5b8c989670f"
+    ]
+  },
+  "exact_source_construction": {
+    "complete_patch_count": 16,
+    "full_literal_old_and_new_patch_bodies_in": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_paired_halfwave_flat_cutoff_seed.py",
+      "bytes": 16949,
+      "sha256": "4a2f0b313decbc8cf8ee997fbb598254e83c2a93cbdb1a3b21430b83a0bdf4b7",
+      "git_blob_sha": "21980d71c0985429d6d226475dbcbee5aae195d9"
+    },
+    "patch_index": [
+      {
+        "label": "source_description",
+        "expected_count": 1,
+        "old_utf8_bytes": 301,
+        "old_sha256": "94b350398239ae3c1e09fe10066a7560dda53008cbb0ebc9e0cb37dd7eb37036",
+        "new_utf8_bytes": 298,
+        "new_sha256": "66042efa7f590338829426a9b50c7def94cc0e3f9ff39cfc2adf2e926fa509ee"
+      },
+      {
+        "label": "current_seed_schema",
+        "expected_count": 1,
+        "old_utf8_bytes": 74,
+        "old_sha256": "8f4dd9420011f99009192c21fa38111ca2a571770d3490c48a4a7037d7911af5",
+        "new_utf8_bytes": 86,
+        "new_sha256": "55202385bbde0fe8eabd17613029cb02f5eaf2424de8ca23d5be8fad8a218477"
+      },
+      {
+        "label": "fixed_cutoff_constant_and_complete_pure_functions",
+        "expected_count": 1,
+        "old_utf8_bytes": 58,
+        "old_sha256": "aa489383d95a463fa18c0ecafc61c8f7c50efe6648e3691778e2bb0927edf6c9",
+        "new_utf8_bytes": 5040,
+        "new_sha256": "16ec2f6f55c2d524c484db2bf64b937a0678bb8b8be5d626f281773a1bc5b0b5"
+      },
+      {
+        "label": "append_fixed_cutoff_parameter",
+        "expected_count": 1,
+        "old_utf8_bytes": 31,
+        "old_sha256": "21b37f92af7a673af4db896718e98c2fde40c140f64cad9e45a23fd3a5871adb",
+        "new_utf8_bytes": 90,
+        "new_sha256": "6aea20d78943520d2651d1f9fa5582aaa6ef29d0f9f6d5b98b936cd0a2e4f099"
+      },
+      {
+        "label": "validate_fixed_rational_epsilon",
+        "expected_count": 1,
+        "old_utf8_bytes": 96,
+        "old_sha256": "c4dac70b1d55cc99551b83d944772c4347b9f71fa697e1b6dc5a816af9596da9",
+        "new_utf8_bytes": 337,
+        "new_sha256": "3e7de096d852f053bc7b1e907a972f4141d5864fbdaffe76f4a36e67967587ec"
+      },
+      {
+        "label": "bind_complete_cutoff_definition",
+        "expected_count": 1,
+        "old_utf8_bytes": 94,
+        "old_sha256": "cc17062668910d829798b57dd08b1b042236bed923f23f198b1c1c4cc9587da9",
+        "new_utf8_bytes": 403,
+        "new_sha256": "088847e14cb70cbdab25c402054e8ad149003b7cfeb338b3c4e89444c3ce8c90"
+      },
+      {
+        "label": "working_definition_schema",
+        "expected_count": 1,
+        "old_utf8_bytes": 69,
+        "old_sha256": "2e88ce5709e39fbbebfd0335f07fd7ebe518efe50716f4e0274a12a088b5b551",
+        "new_utf8_bytes": 81,
+        "new_sha256": "f2ffc98ac2b4a1bfaba265b327182e001759c1c12488cd5ebda501f315b6c2d3"
+      },
+      {
+        "label": "working_rule_complete_cuts",
+        "expected_count": 1,
+        "old_utf8_bytes": 205,
+        "old_sha256": "6265423749537c586e33f3f66965fd42bd27cb157c1de5e6d71790177e73192a",
+        "new_utf8_bytes": 572,
+        "new_sha256": "05e6be1b9f406858be8150b93d3be253c9652c1866cea95afdf5947343b7b09e"
+      },
+      {
+        "label": "model_fixed_cutoff_identity",
+        "expected_count": 1,
+        "old_utf8_bytes": 52,
+        "old_sha256": "7f098e6956cf97be312dee5e8ab8e8cc1147bcc05c6a935d67bd517770b0c78b",
+        "new_utf8_bytes": 201,
+        "new_sha256": "1de05586d72bcff6f1800617a62cd1de0246c529a0b8dcbac0e00df83cc0a88e"
+      },
+      {
+        "label": "model_boundary_law",
+        "expected_count": 1,
+        "old_utf8_bytes": 105,
+        "old_sha256": "d49bea115288ba3f3a74be4b6d2d7b2e4aed764fb7d1cc689635387e0312aedd",
+        "new_utf8_bytes": 193,
+        "new_sha256": "3638bd0ddecbd852310c3f56888e142d22a8fd3cca88c255f08556c4202f9d74"
+      },
+      {
+        "label": "working_left_boundary_only",
+        "expected_count": 1,
+        "old_utf8_bytes": 79,
+        "old_sha256": "c938d97cb8d3535bf5a0086f049f8d9371fe647ee2e4a15e289da81744158875",
+        "new_utf8_bytes": 125,
+        "new_sha256": "e12d2b935be57c42c506f2958179027acd121f51d389881efffe7029e55b2eca"
+      },
+      {
+        "label": "working_right_boundary_only",
+        "expected_count": 1,
+        "old_utf8_bytes": 86,
+        "old_sha256": "3230e80d5a6ff933af731a4d7fe82fb51f28f5d25dfa8ddd42a7ee701f9347d1",
+        "new_utf8_bytes": 129,
+        "new_sha256": "c39bb83b1774e077f7e147c3bd83798af107fd8099de957b13dc4e14d9628759"
+      },
+      {
+        "label": "full_seed_mean_partition_includes_all_eight_new_cuts",
+        "expected_count": 1,
+        "old_utf8_bytes": 80,
+        "old_sha256": "3e0c0ed8ad7c6a7bf5f89874cee5625a53629ee97c87bc9ac2d219390eeba233",
+        "new_utf8_bytes": 263,
+        "new_sha256": "ae69d213bd2d1553d59e3780fcb5496853d62a2b4e76cc9a4923d1bc557ea44f"
+      },
+      {
+        "label": "record_actual_boundary_subpiece",
+        "expected_count": 1,
+        "old_utf8_bytes": 94,
+        "old_sha256": "1b977df9d3bc8190c9f4527c99122fa8bc900a21db20c655489e45361edd7526",
+        "new_utf8_bytes": 1113,
+        "new_sha256": "3967175ccbc68e92e290288eb2c18949fb0fed3fd9a672e6a0bbcf1cecc8c780"
+      },
+      {
+        "label": "new_complete_radial_plan_schema",
+        "expected_count": 1,
+        "old_utf8_bytes": 76,
+        "old_sha256": "b63ce91ca140b95ae06bc600eaa9475d7d365a22180fca2028a9860efc0e6a3b",
+        "new_utf8_bytes": 88,
+        "new_sha256": "57f49f634cc13334c57d902f006024fa38907d7a6b09c46d7cb84f140d4d4be5"
+      },
+      {
+        "label": "plan_complete_boundary_definition",
+        "expected_count": 1,
+        "old_utf8_bytes": 147,
+        "old_sha256": "7d259635a482f7fde6480774489f3b7bc7fa323de99c933c5c994f5f4dbb778f",
+        "new_utf8_bytes": 471,
+        "new_sha256": "2486ab10085c2d699ddc7a4eb037f75a9bcd654bd9f907eadc210f73e2574cbc"
+      }
+    ],
+    "V8_source_text_construction_performed": true,
+    "complete_inverse_literal_patches_recovered_entire_original_parent": true,
+    "Python_reproducer_executed": false,
+    "AST_executed": false,
+    "compile_executed": false,
+    "scientific_calls_executed": false,
+    "numerical_fixtures_or_additional_scientific_admission_gate_created": false,
+    "old_source_retained_at_original_path": true,
+    "original_complete_unchanged_method_bodies": [
+      "paired_halfwave_definition",
+      "_S5",
+      "_S5_prime",
+      "_profile",
+      "SupportedUnitMeridianJet._fail",
+      "SupportedUnitMeridianJet._compare",
+      "SupportedUnitMeridianJet._width",
+      "SupportedUnitMeridianJet._carrier",
+      "SupportedUnitMeridianJet._affine_point",
+      "SupportedUnitMeridianJet._region",
+      "SupportedUnitMeridianJet._scaled_coordinate",
+      "SupportedUnitMeridianJet._scalar",
+      "SupportedUnitMeridianJet._chart",
+      "SupportedUnitMeridianJet._means",
+      "SupportedUnitMeridianJet._radial",
+      "SupportedUnitMeridianJet.evaluate",
+      "SupportedUnitMeridianJet.metadata"
+    ],
+    "evidence_for_unchanged_bodies": "complete exact patch bodies and full inverse byte equality; no AST claim",
+    "complete_reproducer_argv": [
+      "python3",
+      "scripts/resume_20261126/reproduce_fixed_fejer_paired_halfwave_flat_cutoff_seed.py",
+      "--parent-source",
+      "scripts/resume_20261126/fixed_fejer_paired_halfwave_meridian_reference.py",
+      "--output-directory",
+      "generated-r725-seed"
+    ]
+  },
+  "minimum_scientific_source_cascade": {
+    "new_seed": {
+      "name": "fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_flat_cutoff_meridian_reference.py",
+      "bytes": 51540,
+      "sha256": "1533deac6485f4b7fc065d4e40ed23ef0220ebb1800e868a518fd27ec623616f",
+      "git_blob_sha": "b37f930874dd9b874d58120a2d9fe86031146ccb"
+    },
+    "original_base_Q_calibration_parents": [
+      {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_meridian_operator.py",
+        "name": "fixed_fejer_paired_halfwave_meridian_operator.py",
+        "bytes": 40803,
+        "sha256": "b1df4f8f0b0d777337bbc8d7a6893fb44001edb5601439e027b7153fef2935a6",
+        "git_blob_sha": "350c2e057e6af15e663d0fdb463a518bebc36234"
+      },
+      {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_literal_zero_moment_input.py",
+        "name": "fixed_fejer_paired_halfwave_literal_zero_moment_input.py",
+        "bytes": 34886,
+        "sha256": "53c71b2cf11aa9356f6edeb6f14098d8bef8e193841bd9513b00ee3f3fa86333",
+        "git_blob_sha": "4625d2775b960a8859ddd88de215cc736a84363f"
+      },
+      {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_reference_calibration.py",
+        "name": "fixed_fejer_paired_halfwave_reference_calibration.py",
+        "bytes": 11872,
+        "sha256": "c89612303af1b290f6f1a6fb410d0dc3b4be98acb16b05dd338b01cb53e72106",
+        "git_blob_sha": "812e981a9e4a6302c6241129dd812c251bb92691"
+      }
+    ],
+    "action": "derive only actual base/seed/Q/calibration and dependent full-source guards from the final locked cache family; preserve every unchanged mathematical method and all old responsibilities",
+    "final_driver_launcher_reader_family_cloned_in_this_package": false,
+    "future_schema_or_source_pins_invented": false
+  },
+  "complete_existing_accurate_consumer_sources_requiring_explicit_followup": {
+    "input": {
+      "role": "input",
+      "name": "fixed_fejer_paired_halfwave_normal_packet_accurate_field_input.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_normal_packet_accurate_field_input.py",
+      "bytes": 39751,
+      "sha256": "e71ad557ce20cdb147cb259b3fe66aa5b8ccb144fe57cb0586a3822c705d98de",
+      "git_blob_sha": "9b25e54fbd4b504494638766b14d899934f4aa3c"
+    },
+    "posterior": {
+      "role": "posterior",
+      "name": "fixed_fejer_paired_halfwave_R722_posterior_mean_jets.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_R722_posterior_mean_jets.py",
+      "bytes": 57884,
+      "sha256": "1048f2d0457721664a04c9d4cd0ececa538accbc85d48a6dbe24c468c86f9a2a",
+      "git_blob_sha": "4df602ed5f17b74a7d1d8eaea98e13749465034b"
+    },
+    "radial": {
+      "role": "radial",
+      "name": "fixed_fejer_paired_halfwave_R722_accurate_reference_control_radial_boxes.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_R722_accurate_reference_control_radial_boxes.py",
+      "bytes": 50745,
+      "sha256": "2baef8e83025dee6e0b74f8084e0d055a7cd15a091599cf5b343ff97b4f2963f",
+      "git_blob_sha": "5f92e643f7b331c88c3d5af068429ba8bb597af0"
+    },
+    "leaf": {
+      "role": "leaf",
+      "name": "fixed_fejer_paired_halfwave_R722_complete_physical_leaf_binding.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_paired_halfwave_R722_complete_physical_leaf_binding.py",
+      "bytes": 56513,
+      "sha256": "bc2e417dfeaed0f1c745f81fbba9205534cd6d97bb14d569cd43870ed79e69f7",
+      "git_blob_sha": "8a828ca30833565507cd7c61309eac20a86f91c5"
+    },
+    "shared_literal_mean": {
+      "role": "mean",
+      "name": "fixed_fejer_reference_accurate_mean_residuals.py",
+      "bytes": 41476,
+      "sha256": "ae67ecac9f205cdb2378a7f981d5d60fc723e1caadd5281dff54395d358564a0",
+      "git_blob_sha": "fdddb363e724ab45204854a2b3084fcb95cae4bc",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_reference_accurate_mean_residuals.py"
+    },
+    "shared_original_math": {
+      "role": "seed_math",
+      "name": "fixed_fejer_reference_seed_angular_profile_error_bounds.py",
+      "bytes": 72182,
+      "sha256": "0471c626b7850fecf19513d68209e090f88830b89ff8ad7cc62c2d1709a75e5b",
+      "git_blob_sha": "c0d09245e9e156cb93516945b3eec84e93807bf7",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_reference_seed_angular_profile_error_bounds.py"
+    }
+  },
+  "necessary_accurate_changes": [
+    {
+      "site": "input and posterior paired_halfwave_seed_scope",
+      "requirement": "bind exact new complete seed and working schema; independently reconstruct and compare full cutoff definition and identity while preserving central paired definition"
+    },
+    {
+      "site": "posterior complete_paired_profile_moment_enclosures and validate_root_domain_attribution",
+      "requirement": "keep complete auxiliary A and R710/R722 mathematics, but bind new source/current seed and recompute actual whole-angle B/residual/domain; never rewrite the old coarse R709 bool"
+    },
+    {
+      "site": "radial reference_mean_adapter.WholeMean.cutoff",
+      "requirement": "new explicit exact C_epsilon endpoint enclosure; inherited ae67 cutoff is currently S5-specific and cannot be reused unchanged"
+    },
+    {
+      "site": "radial reference_mean_adapter.WholeMean.make_plan",
+      "requirement": "all eight new accurate internal boundary cuts together with all original nodes/support/central cuts and full tail"
+    },
+    {
+      "site": "AccurateFieldGeometry.make_plan and cutoff",
+      "requirement": "complete boundary branch and accurate polynomial value/first material derivative enclosures; same physical orientation and exact S scaling"
+    },
+    {
+      "site": "AccurateFieldGeometry._s5 / bubble_piece / lift_piece",
+      "requirement": "leave these original nonboundary mathematical bodies unchanged; no global smoothstep replacement"
+    },
+    {
+      "site": "leaf validate_paired_physical_plan and geometry identity",
+      "requirement": "retain all central-six-piece checks and add exact full boundary definition, cut membership and per-leaf noncrossing checks"
+    },
+    {
+      "site": "normal/continuous geometry/closed/R723/R716/mesh",
+      "requirement": "complete necessary source-identity propagation with all original equations, domains, stages, budgets, samepoint records and final-main/sidecar late-failure obligations; no old certificate inherited"
+    }
+  ],
+  "future_actual": {
+    "run_id": null,
+    "attempt": null,
+    "model_identity_sha256": null,
+    "full_point_sha256": null,
+    "mean_root_batch": null,
+    "normal_root_snapshot": null,
+    "report_file": null,
+    "final_npz": null,
+    "continuous_fee_report": null,
+    "reach_or_distance_improvement": null
+  },
+  "remaining": [
+    "Final cache family source locks and complete base/Q/calibration/normal/entry source cascade",
+    "Explicit accurate WholeMean and physical radial cutoff plus full exact leaf-plan implementation",
+    "Natural same-source scientific report or complete required-angle immutable snapshot",
+    "All actual mean/root, continuous Gram/curvature/support, closed all-phase reach/hold and moment responsibilities"
+  ]
+}
