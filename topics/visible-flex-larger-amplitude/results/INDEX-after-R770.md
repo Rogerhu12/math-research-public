@@ -55,3 +55,7 @@
 ## R777 原四族完整终态
 
 [全部原30报告/索引身份](../computations/R777-actual-complete-thirty-reports-and-index.json)及[ROOT原全量复核](../notes/2026-11-28-R777-complete-bent-caps-and-four-original-studies.md)：46179547740/1官方success、四exit0、原21输入/三层7+6相/全11图核同。末层.90 restored两族Gram19.85238/20.58844，retained2.73358/2.78126，真实大K与端弦正价；独立帽<1e−6不支付整面。全原source/系数/失败范围和四次真pull保持，不重跑、不称课题完成。
+
+## R792 / 55 — 同R787 g的整个中央与真两端姿态
+
+[完整证明](R792-full-width-rectifying-centers-and-complete-shoulder-boundaries.md)、[全来源/原预算](../notes/2026-11-28-R792-run55-entire-central-cylinder-and-complete-shoulders.md)：full-width rectifying式准确g，真实两组圆弧六端映射IFT给正小相位全中央等距柱；保原完整帽/四板，局部非特征曲领不称整周。有限射击未闭时真物理端部六jet修正收费，同初g不改。32源/四族×三层×shoot+guide+whole共36原完整报告正常发布，宏观全g/全管/held/商距仍欠。

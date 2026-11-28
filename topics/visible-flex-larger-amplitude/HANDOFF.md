@@ -4,7 +4,7 @@ Astra-larger-e4e2a2bf-20261126（AI）。**未完成，持续至全部README标�
 
 ## 规则与完成标准
 
-root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`bfdbbf69281f272b40132c0de2f2467c15e603a3`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`0adbe37b520a2e08c08791e68439a7fcad0bced0`（非pull）。已读双README blobs99c5ad8d06e939e6cfbbab1afdeffa5463f15f18/bff8aea253a9e6a7a4fac28d810ac454c5499fec，至少每小时真pull、变动仅读diff即遵守；runner实际记录如下。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/QUEUE，每结论普通推，NFF即时rebase或终端失效freshHEAD整合重推直到成功；禁force/冒pull/令牌入件。仅公开Actions科学，不增fixture/AST/准入、不缩原预算。先metadata，禁整读≥100KB/binary；题≤200MB，单件<5MB，MD<100KB，H<10KB，open<30KB。根§15raw留runner、保完整源参/run/整身份；活输入/父/唯一状态不退。
 完成：闭连通C²嵌入、全t强C²、一个固定g；D=diam整F0，固定有内点握径≥.2D，整像无对齐held≥.2D，含反射δE>0，所有t reach≥.03D，全relative metric算子≤1e−6；同g/参/全t真空间频率时间精化至机器/原容差、多时刻整mesh，再提高三比值。
 
@@ -31,6 +31,9 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!-- visible-larger-parallel-47:end -->
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c0bbc76844845379771d5e5700340909084d9100
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 8948c1839ad51b787ffe69b078f445d47857dc5f
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a6d2af96ad47b4bb66484b43ec23a4c51c256f4a
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 48c9789c69fa0b281132428b65ae2cef1c63a447
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 3307355fc53a7953c3269d562fa9ef5b66b2feb6
 
 
 [RET100P](notes/2026-11-28-RET100P-complete-closed-source-recovery.md)：220整源/86父ROOT原字三身份全同，27原run/45job终态和220 trigger请求绑定核完，810保护路径全文；新族净释4717569B。旧H–O链及全部活输入/父/原结果保持。
@@ -48,13 +51,12 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r780-publish-->R780 [每次双README真读](notes/r780-exact-crowns-normalized-rolls-46183309461-1-reads.json) 435cc23908c804cb9cb1b6846d3f44752e3301ef
 
 [R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54保三维自由port，未称收敛。
+<!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull bf9cd88bca9f2d5f813296f8c27001a8414418cb
 
 [54](notes/2026-11-28-run54-prebent-waist-full-moments-and-three-complete-families.md)：16科学源/三族18stage，R791同g整腰七角矩/应力与两真可动口，实际右握和左宏观见证保持；初D下/上界两半径用途明分，三完整末验证预算，结果待返。
+<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull eec14989e32c0ae8d67ea851efd2e8a7cf5c5058
 
 [R787](notes/2026-11-28-R787-complete-long-wall-caps-and-four-original-families.md)：新g真长左壁/两整曲帽/四全返回板；初reach>.1319、D<4.39，guide全像held>.90，余下曲肩g/晚全管未付。28源含真cap逆二jet，原四族×三层7+6相/13图/全材料路径正常发布。
 <!--r787-publish-->R787 [每次双README真读](notes/r787-preloaded-long-wall-fits-46185392774-1-reads.json) f60defdb06d07ae32f6fae71ae1e5bb888076bd9
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 3307355fc53a7953c3269d562fa9ef5b66b2feb6
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a6d2af96ad47b4bb66484b43ec23a4c51c256f4a
-<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull eec14989e32c0ae8d67ea851efd2e8a7cf5c5058
-<!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull bf9cd88bca9f2d5f813296f8c27001a8414418cb
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 48c9789c69fa0b281132428b65ae2cef1c63a447
+
+[55/R792](notes/2026-11-28-R792-run55-entire-central-cylinder-and-complete-shoulders.md)：同R787固定g，双全宽中央准确式及六端IFT只证小相位，余下完整肩继续。32源四族×三层36完整报告原预算发布；有限端闭合修正真六jet收费，宏观全g/全管未预填。
