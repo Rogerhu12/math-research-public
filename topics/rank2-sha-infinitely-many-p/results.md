@@ -580,3 +580,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §112.6：全域首项互反与三个CW权的额外一位
 
 已证明：I^h系数的真正全域提升给每个当地首齐次原像CW₁精确为零，完整ghost同余及外部系数Frobenius使三个整读者额外含p。通常全Sha余秩t≤min(v_p(m_p)−1,v_p(m_{p²+p−1})−1,v_p(m_{p²}))；rank2已关闭原m_p模p非零门，坏情形须p³/p³/p²整除。跨p高位不整除未付。[同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §114：十二个固定真扭点盘上的完整Kummer分布
+
+已证明：同一M的真实µ6投影在E₁[2δ]四轨的完整两变量Kummer和分别为原和的1、−1/3、−1/2、1/6，全部p^k精度及平滑/Tate权保留。真实Norm[2]/[δ]仅产生常数并被每个tame纤维杀，[-p]Norm严格相容；θ在真正Φ且σq重排已核。三个O/δ盘可用整个M，其余保投影。倒数跨角色桥仍待付。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。

@@ -632,3 +632,147 @@ $\mathcal H^p=-cJ$及$J^3U=0$杀其余项。
 (CC1)–(CC2)把唯一$q$窗化为第二个真实整算子$\mathcal L$。
 与§§110–111同读，原五条分离系数已有同一个固定通用扩张上的完整表达；
 这些恒等式本身仍不证明五条全迹在无限多个素数不同时为零。
+
+## 114. 同一完整Kummer源在十二个固定真扭点盘上的精确分布
+
+本节不是形式参数的任意平移。沿原真实六次扭转
+$\theta^6=17$将$M$从$E_{17}$运至$E_1$，记为$M_\theta$；
+记$F=K(\theta)$、$\delta^2=-3$、$\omega=(-1+\delta)/2$。
+在乘法函数群的加法张量记号中置
+$$
+ U=e_+M_\theta,\qquad
+ e_+=\frac16\sum_{u\in\mu_6}u^{-1}[u]^* .
+$$
+这里$U\in F(E_1)^\times\otimes_{\mathbf Z}\mathcal O$，
+不是擅自给单个有理函数赋予一个它原本没有的$\mu_6$特征。
+其准确性质为
+$$
+ [u]^*U=uU,\qquad
+ \operatorname{div}U=-\omega\sum_t\varepsilon(t)[T_t].            \tag{CD1}
+$$
+本节$T_t$均指从物理$E_{17}$按上述同构运来的原标记。
+(CD1)由$I_t=-\omega\varepsilon(t)-\bar\omega\bar\varepsilon(t)$
+逐项投影得到；若使用§110的$P_t=-T_t$，需同步重标，不能只改一处符号。
+
+### 十二个盘及真实有限群环
+
+令$j=k+1$，保持(BT5)的
+$A_j=(\mathcal O_K/p^j)^\times$、
+$G_j=(1+p\mathcal O)/(1+p^j\mathcal O)$、
+$g_w=\langle w\rangle$及原$P_w$的真实尺度。
+对$R\in E_1[2\delta](K)$定义
+$$
+ Y_{j,R}=\sum_{w\in A_j}
+       w^{-1}[g_w]^{-1}\,U(R+P_w)                              \tag{CD2}
+$$
+于实际$L_jF$的模$p^k$ Kummer张量及完整
+$\mathcal O/p^k[G_j]$群环中。点$P_w$也已按$\theta$运至$E_1$。
+原零极都含非零十七分量，而$R$仅有二、三分量，
+所以所有这些评价均有定义。
+
+在$R=O$处，(CD2)的$U$可准确换回$M_\theta$：
+重标$w\mapsto uw$使逆Tate权乘$u$，$g_{uw}=g_w$，
+恰好执行$e_+$投影。因此
+$$
+ \frac{\varepsilon(p)^j(1+\omega)}6
+       (103^2-103[g_{103}])\,Y_{j,O}                           \tag{CD3}
+$$
+仍是(BT5)原完整源的限制，没有换成新来源。
+另有$[103]R=R$，故同一个完整平滑算子也与这些盘的真实重标相容。
+$[F:K]\mid6$，故在当前$p>211$范围，
+限制后用corestriction乘该单位次数即可退回；此扩域不丢精度。
+
+同一个换标及$U(uX)=uU(X)$给
+$$
+                            Y_{j,uR}=Y_{j,R}.                 \tag{CD4}
+$$
+十二点分为四个真实$\mu_6$轨道：原点一个、
+非零二挠点三个、非零$\delta$挠点两个、
+primitive $2\delta$挠点六个。
+
+### 二、三处原导子给的完整范数关系
+
+[R298](R298-jzero-exact-central-constant-and-original-kronecker-resolvent.md)
+的(12)、(16)将原完整导子逐项写成
+$$
+  T_t=[c]P-[u]Q,\qquad
+  \varepsilon(t)=-u\chi_{17}(c),\quad
+  c\in\mathbf F_{289}^\times,\quad u\in\mu_6 .
+$$
+固定同一十七分量，把$\operatorname{div}U$沿$[2]$推前，
+每个纤维都求和掉原非平凡三次$\chi_2$；
+沿$[\delta]$推前则求和掉原非平凡二次$\chi_3$。
+故
+$$
+ [2]_*\operatorname{div}U=0,\qquad
+ [\delta]_*\operatorname{div}U=0 .
+$$
+于是对$\alpha=2,\delta,2\delta$，确有
+$$
+       \sum_{S\in E_1[\alpha]}\tau_S^*U
+                  \in F^\times\otimes\mathcal O.              \tag{CD5}
+$$
+这只是某个常数，不未经核定地说它为一。
+
+在(CD2)中，每个固定主单位纤维里的常数贡献都含
+$\sum_{d\in\mathbf F_q^\times}\omega(d)^{-1}=0$，
+所以(CD5)的常数在完整有限群环中精确消失。
+用(CD4)先按真实轨道合并，依次得到
+$$
+ Y_{j,O}+3Y_{j,2}=0,\qquad
+ Y_{j,O}+2Y_{j,\delta}=0,\qquad
+ Y_{j,O}+3Y_{j,2}+2Y_{j,\delta}+6Y_{j,2\delta}=0 .
+$$
+因此对全部$j=k+1$、全部$k\ge1$，
+$$
+ \boxed{\qquad
+      Y_{j,R}=\lambda_R Y_{j,O},\qquad
+ \lambda_R=
+ \begin{cases}
+  1,&R=O,\\
+  -1/3,&R\in E_1[2]\setminus\{O\},\\
+  -1/2,&R\in E_1[\delta]\setminus\{O\},\\
+  1/6,&R\text{ primitive }2\delta .
+ \end{cases}
+ \qquad}                                                      \tag{CD6}
+$$
+分母全部为$p$单位。这是在两个变量的整个群环中成立的身份，
+所以每个$I$截断、每个混合系数及其整$p^k$精度都同步运输。
+特别原全Sha坏所迫的六个全域jet，准确在这十二个真盘上消失。
+
+### 当地Coleman范数与未分歧Frobenius也相容
+
+$p\equiv5\bmod6$时，$p+1$被六整除，
+所以$\mathbf F_p^\times$的每个元素都是$\mathbf F_q^\times$中的六次方。
+Hensel提升给所选$\theta\in\Phi=K_p$；
+$U$的系数及$E_1[2\delta](K)$也都在$\Phi$。
+因而此处Coleman底域仍是真正的$\Phi$，
+不在额外未分歧扩域上错误地略去$\sigma_q$。
+
+(BT6)的真正$[-p]$函数范数与$e_+$交换，给
+$[-p]_*U=U$。又$[-p]R=R$，
+于是
+$$
+                     [-p]_*\tau_R^*U=\tau_R^*U .               \tag{CD7}
+$$
+因此$(\tau_R^*U)(Q_j)$是同一LT塔上的严格范数单位张量，
+其Coleman函数就是原固定$\tau_R^*U$在物理形式群上的展开。
+不把它除以$U(R)$：任意这种归一会改变范数常数，
+而本节所有正次读者本来就不需要这一除法。
+
+若为检验除子临时把所有$\mathfrak f$点分裂，
+$\sigma_q$对标记的作用是$T_t\mapsto[-p]T_t$；
+$\varepsilon(-p)=1$使完整和逐项重排后仍固定。
+这说明准确下降来自完整原和，不是将每个标记点假定为$\Phi$有理。
+
+最后，在$R=O$及两个非零$\delta$点，可把(CD2)中的$U$
+直接换成整个$M_\theta$。确实剩余成分$U_-=e_-M_\theta$
+在$u\in\mu_3$下特征为$u^{-1}$；
+$uR=R$和同一换标使其完整逆Tate投影满足
+$Y_{j,R}^{-}=u^{-2}Y_{j,R}^{-}$。
+取$u\ne1$，$1-u^{-2}$为单位，故这个投影精确为零。
+在其它九点不作这一未经允许的替换。
+
+(CD6)付出了原固定源的全精度平移关系。
+它本身尚未把不同Teichmüller权之间的倒数曲率读者识别；
+这仍须使用真实固定函数及后续完整算子比较。
