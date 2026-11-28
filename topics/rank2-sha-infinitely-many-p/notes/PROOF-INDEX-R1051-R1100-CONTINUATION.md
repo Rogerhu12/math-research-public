@@ -340,4 +340,8 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 
 ### R1067 §117：真实邻商两次变形分离原第五深槽
 
-已证明：保留模p²的Tate扭转与绝对p·z微分，原首野测试准确读到2pq边界；真循环邻商的两级参数和群型Gauss–Manin热方程保全部移动标记。由真实一次变形分别得裸h_{q+2p−2}U₂(e)=0及H^{p−1}L U₂(e)=0，两实际外嵌入选原barε/ε支。第五槽的其余两项仍是完整和，AQ全σ与跨p非零未付。 [同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+已证明：保留模p²的Tate扭转与绝对p·z微分，原首野测试准确读到2pq边界；真循环邻商的两级参数和群型Gauss–Manin热方程保全部移动标记。由真实一次变形分别得裸h_{q+2p−2}U₂(e)=0及H^{p−1}L U₂(e)=0，两实际外嵌入选原barε/ε支。§118进一步证明第五槽其余两项在真椭圆核逐点抵消，首式恰同旧第五槽，不能计为独立约束；AQ全σ与跨p非零未付。 [同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §118：第五槽在真椭圆核上的全局简式
+
+已证明：真实ω=ds与[-1]s=−s给F(t,s)−t−s被(t+s)^p整除，低极阶的全部Hasse平移因而只有一个主部。CC0上逐点有(h_{p+1}F₂)^p=−2c h_{q+2p−2}Z，完整第五槽恰为裸h_{q+2p−2}F₂全迹。117首式与旧第五槽同一，未增加独立约束；全曲率及无穷p仍未付。 [同编号全文](../results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
