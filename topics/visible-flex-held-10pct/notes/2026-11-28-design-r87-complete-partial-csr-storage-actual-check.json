@@ -1,0 +1,657 @@
+{
+  "kind": "actual_complete_partial_and_CSR_storage_equivalence_check",
+  "recorded_utc": "2026-11-28T20:06:28.513998+00:00",
+  "scope": "Storage implementation verification on a genuine 17-node subset of the complete unaccepted lambda=.256/M32 state; not a BVP or mathematical acceptance.",
+  "new_sources": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_mapped_jacobian_partials.py",
+      "sha256": "1ce67cd198331e84d0d7ea434fe1b30027f5c144fb5be90ab6c1af1d38c3e2f3"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_complete_mapped_partials_actual.py",
+      "sha256": "0e577da754d06c7205e444fa064c44b8555dc8923d6cde621bf85b03c44f5212"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_complete_mapped_partials_actual_v2.py",
+      "sha256": "82a627ca556a3f2221b651429973526366a4336738d57abae6cd58102d0316ae"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_streamed_csr_assembly.py",
+      "sha256": "242d00c55b68083611e49eabef7ec86c8a4f5128254a03b26e8a0c3121beaca3"
+    }
+  ],
+  "first_actual_command_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-a-command.json",
+    "sha256": "9a9299c807d22682060cd2b0315242c208891e0c70bbcbb378309a9ac61ca39e"
+  },
+  "first_tool_session": 29992,
+  "first_actual_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-a/observed-tool-terminal.json",
+    "sha256": "27ab57954e6c97314c26b6483153e7271bb35a3e57fe02e264e2e8c2049cd85a"
+  },
+  "first_terminal_contents": {
+    "observed_utc": "2026-11-28T20:04:53.608931+00:00",
+    "actual_tool_session": 29992,
+    "actual_tool_exit_code": 1,
+    "actual_error_type": "TypeError",
+    "actual_error": "Object of type bool is not JSON serializable",
+    "actual_error_location": "event after saved original complete system, before first QR",
+    "original_actual_partial_and_CSR_assertions_reached": true,
+    "first_original_partial_stage_elapsed_seconds": 18.10666996100008,
+    "maximum_RSS_KiB_observed_at_original_partial_stage": 515296,
+    "final_whole_process_maximum_RSS_unobserved": true,
+    "saved_system": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-a/real-selected-original-system.npz",
+      "sha256": "f5e4788f8e86767ac4a5fe07523411809d5554eed91266bbb0ae0232eeadb4b9"
+    },
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_complete_mapped_partials_actual.py",
+      "sha256": "0e577da754d06c7205e444fa064c44b8555dc8923d6cde621bf85b03c44f5212"
+    },
+    "physical_partials_recomputed_for_followup": false,
+    "mathematical_failure_inferred": false,
+    "tool_closed": true
+  },
+  "first_source_frozen_after_actual_execution": true,
+  "first_saved_original_system": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-a/real-selected-original-system.npz",
+    "sha256": "f5e4788f8e86767ac4a5fe07523411809d5554eed91266bbb0ae0232eeadb4b9"
+  },
+  "second_tool_session": 30853,
+  "second_tool_exit_code": 0,
+  "second_actual_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_complete_mapped_partials_actual_v2.py",
+    "--previous-outdir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-a",
+    "--outdir",
+    "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-b"
+  ],
+  "second_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-b/comparison.json",
+    "sha256": "a24e3caeb2d17a3f316a52acd462ff49217230febf7c3df4790344d5ec04a29c"
+  },
+  "second_report_contents": {
+    "status": "actual_saved_complete_small_storage_comparison_returned",
+    "scope": "Finish the storage check using its already computed genuine 17-node system.\n\nThe first real check passed its complete partial/CSR assertions and saved\nthe original small system, then its event JSON encountered a NumPy boolean.\nThis successor does not reevaluate a physical RHS or partial derivative. It\nreplays those saved complete arrays into the same disk-backed batch wrapper,\nthen checks original SciPy/full CSR, all-factor adoption, original complete\nQR direction/diagnostics and storage lifetime. No BVP is invoked or accepted.\n",
+    "original_actual_source": {
+      "source_run": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128/attempt-000/run.json",
+        "sha256": "39678d393d3bbfeb50c1f9685a3ce06e2ef975ba9c1463db1ba626e22979a2a1"
+      },
+      "checkpoint_metadata": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128/attempt-000/latest-unaccepted-nodal-checkpoint.json",
+        "sha256": "48c8001bf248d3d3652c340b484de3f8cd274be08f7ddcd274fcde3be8cc8a0e"
+      },
+      "complete_unaccepted_field": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/R87-strict-mapped-continuation-small-reference-batches-20261128/attempt-000/unaccepted-nodal-before-jac-0002.npz",
+        "sha256": "97ec9d07c25d18cd7da7dbade7d5f0902fc1c48b3bbad2ee5b22abe432ed4279"
+      }
+    },
+    "predecessor_source_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_complete_mapped_partials_actual.py": "0e577da754d06c7205e444fa064c44b8555dc8923d6cde621bf85b03c44f5212",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/check_unaccepted_design_delta_nodes_v2.py": "e2f40bb254913f5731dd3ab7a792a2442bfaf857f538a9918f5e4e4556e37fce",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/exception_safe_radial_batches.py": "2d2b413a46a23882341a4d5cac7ce2bc2c44c8444129d322d898288597c2c7a7",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_mapped_jacobian_partials.py": "1ce67cd198331e84d0d7ea434fe1b30027f5c144fb5be90ab6c1af1d38c3e2f3",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/direct_csr_collocation.py": "91c3df497777f96d762d4b41c9fdc40c038e8905413650b6bc3c7cd8f64f33da",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_streamed_csr_assembly.py": "242d00c55b68083611e49eabef7ec86c8a4f5128254a03b26e8a0c3121beaca3",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/material_core_evaluate_cache.py": "da329956d8c5a61728d6baffd3e263522b1296467bd8477392fa6107eb5ef217",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/analytic_delta_jac_adapter.py": "c201089799d1a75538002c2242a26710516dd5469ed586691c8ce23ad96834b8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/actual_process_memory_limits.py": "1e208cfbcf58ff9c9dd9e794b4426eb8c1767d707bcfc0fcf6e78cc734071114"
+    },
+    "original_actual_partial_stage_exit": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-a/observed-tool-terminal.json",
+      "sha256": "27ab57954e6c97314c26b6483153e7271bb35a3e57fe02e264e2e8c2049cd85a"
+    },
+    "original_actual_selected_complete_system": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-a/real-selected-original-system.npz",
+      "sha256": "f5e4788f8e86767ac4a5fe07523411809d5554eed91266bbb0ae0232eeadb4b9"
+    },
+    "source_hashes": {
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/check_complete_mapped_partials_actual_v2.py": "82a627ca556a3f2221b651429973526366a4336738d57abae6cd58102d0316ae",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/complete_mapped_jacobian_partials.py": "1ce67cd198331e84d0d7ea434fe1b30027f5c144fb5be90ab6c1af1d38c3e2f3",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/direct_csr_collocation.py": "91c3df497777f96d762d4b41c9fdc40c038e8905413650b6bc3c7cd8f64f33da",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_streamed_csr_assembly.py": "242d00c55b68083611e49eabef7ec86c8a4f5128254a03b26e8a0c3121beaca3",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/block_qr_v2.py": "b008698a0959f472bea597c6fcd31246f3d61c1c41109212cc9256a322c1ebf8",
+      "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/actual_process_memory_limits.py": "1e208cfbcf58ff9c9dd9e794b4426eb8c1767d707bcfc0fcf6e78cc734071114"
+    },
+    "source_node_indices": [
+      0,
+      74,
+      148,
+      222,
+      296,
+      370,
+      444,
+      518,
+      592,
+      666,
+      740,
+      814,
+      888,
+      962,
+      1036,
+      1110,
+      1184
+    ],
+    "n": 97,
+    "m": 17,
+    "k": 32,
+    "original_grid_nodes": 1185,
+    "coarse_diagnostic_grid_not_BVP_acceptance": true,
+    "original_partial_batch": 8,
+    "new_interval_block": 3,
+    "original_direct_interval_block": 16,
+    "all_checks": {
+      "dy_saved_actual_partial_bytes_identical": true,
+      "dy_saved_actual_partial_strides_identical": true,
+      "dp_saved_actual_partial_bytes_identical": true,
+      "dp_saved_actual_partial_strides_identical": true,
+      "dym_saved_actual_partial_bytes_identical": true,
+      "dym_saved_actual_partial_strides_identical": true,
+      "dpm_saved_actual_partial_bytes_identical": true,
+      "dpm_saved_actual_partial_strides_identical": true,
+      "original_direct_CSR_data_all_bytes_identical": true,
+      "original_SciPy_CSR_data_all_bytes_identical": true,
+      "original_direct_CSR_indices_all_bytes_identical": true,
+      "original_SciPy_CSR_indices_all_bytes_identical": true,
+      "original_direct_CSR_indptr_all_bytes_identical": true,
+      "original_SciPy_CSR_indptr_all_bytes_identical": true,
+      "original_middle_dp_side_effect_identical": true,
+      "original_middle_dp_side_effect_nonzero": true,
+      "all_original_explicit_zeros_preserved": true,
+      "all_partial_pairs_released_before_QR": true,
+      "all_partial_backing_directories_removed_before_QR": true,
+      "same_complete_CSR_object_adopted": true,
+      "complete_QR_direction_all_bytes_identical": true,
+      "all_original_QR_diagnostics_identical": true,
+      "after_original_prune_CSR_data_all_bytes_identical": true,
+      "after_original_prune_CSR_indices_all_bytes_identical": true,
+      "after_original_prune_CSR_indptr_all_bytes_identical": true,
+      "CSR_complete_page_release_returned": true,
+      "factor_complete_page_release_returned": true,
+      "no_second_CSR_backing_created": true,
+      "actual_factor_and_CSR_lifetime_released": true,
+      "owned_CSR_factor_files_released": true
+    },
+    "before_original_prune": {
+      "unknowns": 1681,
+      "stored_entries": 379906,
+      "explicit_zeros": 38973
+    },
+    "original_complete_QR_statistics": {
+      "equations": 1681,
+      "state_size": 97,
+      "nodes": 17,
+      "parameters": 32,
+      "internal_nodes_eliminated": 15,
+      "levels": 4,
+      "minimum_relative_R_diagonal": 1.9870564379320687e-07,
+      "solve_calls": 1,
+      "maximum_componentwise_backward_error": 7.481233023438017e-11,
+      "maximum_normwise_backward_error": 5.724137941907613e-23,
+      "refinement_steps": 2,
+      "stored_factor_bytes": 4906260
+    },
+    "complete_original_J_residual_maximum": 3.0393548355184263e-11,
+    "complete_original_J_residual_l2": 3.9354447918509643e-11,
+    "original_rhs_l2": 0.32084098345037,
+    "partial_storage_statistics": {
+      "full_tensor_pairs": 2,
+      "original_batches": 5,
+      "filled_radial_columns": 33,
+      "full_logical_tensor_bytes": 3303432,
+      "mapped_page_release_calls": 17,
+      "original_complete_arrays_released": 4,
+      "writable_C_order_complete_tensors": true,
+      "original_batch_calls_or_numerical_arithmetic_changed": false,
+      "file_cache_advice_is_not_proof_of_charge_reduction": true
+    },
+    "adopted_CSR_storage": {
+      "kind": "complete_original_CSR_assembled_directly_in_owned_backing",
+      "dimensions": {
+        "n": 97,
+        "nodes": 17,
+        "parameters": 32
+      },
+      "complete_CSR_object_preserved": true,
+      "planned_file_bytes": 4575232,
+      "logical_array_bytes": 4565600,
+      "scratch_free_bytes_before_allocation": 961916928,
+      "required_scratch_bytes_before_this_CSR_allocation": 558223360,
+      "disk_margin_bytes": 536870912,
+      "chunk_bytes": 8388608,
+      "copying_chunks": 0,
+      "clean_page_release_calls": 25,
+      "clean_page_release_advised_bytes": 32075776,
+      "initial_CSR_hashes": {
+        "data": "fd15743b7598cceb0140988bb0b775128e34df739e6b026b0da928497f5795d5",
+        "indices": "1360886c714994629fa9c4fbe0399c84a9ed29be4da7dd52c242c2ed6600aaf4",
+        "indptr": "f2ea581963439728589c0e6765743aa8e05114a9719f9fd36159e00fc9a1b2ee"
+      },
+      "original_zero_compactions": 1,
+      "mapped_arrays_readonly_after_original_prune": true,
+      "original_QR_arithmetic_changed": false,
+      "logical_bytes_are_not_an_RSS_credit": true,
+      "anonymous_complete_CSR_created": false,
+      "second_complete_CSR_copy_created": false,
+      "stored_zero_entries_removed_during_assembly": false,
+      "interval_blocks_written": 6,
+      "complete_intervals_written": 16,
+      "input_partial_arrays_retained_by_store": false,
+      "original_full_width_endpoint_rows_written": true,
+      "complete_original_middle_parameter_update_retained": true,
+      "phase_journal": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-b/complete-jacobian-storage-reclamation.jsonl",
+      "backing_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-b/complete-jacobian-storage/complete-jac-csr-nd19zd7t/all-arrays.bin",
+      "manifest_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-b/complete-jacobian-storage/complete-jac-csr-nd19zd7t/layout.json",
+      "allocated_disk_bytes": 4579328,
+      "additional_storage_reclamation": {
+        "kind": "original_complete_storage_with_additional_reclamation",
+        "role": "complete_original_CSR_direct_assembly",
+        "replacement_callback_after_original_del": true,
+        "replaced_logical_original_array_bytes": 0,
+        "allocator_release_threshold_bytes": 16777216,
+        "allocator_release_calls": 1,
+        "file_cache_advice_calls": 25,
+        "file_cache_advised_bytes": 32075776,
+        "file_cache_advice_succeeded": true,
+        "file_cache_reclamation_or_cgroup_decrease_proved": false,
+        "original_constructor_peak_eliminated": false,
+        "original_math_or_acceptance_changed": false
+      },
+      "radial_temporary_block": 3,
+      "input_COO_indices_were_none": true,
+      "original_block_formula_operation_order_preserved": true,
+      "original_parameter_middle_update_preserved": true,
+      "seconds": 0.21501776100012648,
+      "maximum_rss_kib": 88864,
+      "assembly_complete": true,
+      "complete_final_arrays_bound_to_same_CSR": true,
+      "source_sha256": "242d00c55b68083611e49eabef7ec86c8a4f5128254a03b26e8a0c3121beaca3",
+      "reclamation_source_sha256": "2dac1ddb506c7065c8f53c29e407b53ca797a298c2cc59dbb274b95cbfdf9f06",
+      "original_stacked_matmul_source_sha256": "2238d8e5917a14449a662e336c194517a6892e7e8ea783b173c24bde401b33ee",
+      "original_resource_and_scientific_gates_not_changed": true,
+      "adopted_before_original_QR": true,
+      "complete_CSR_rehashed_before_adoption": true,
+      "CSR_owner_is_original_matrix_with_weak_finalizer": true,
+      "actual_factor_mapping_directory_is_separate": true,
+      "original_SciPy_prune_sha256": "516af6fd172c73b76b3f95ddf88b8897cc8acd4bd4ba74cc950cb0a45bb5ed10",
+      "storage_only_view_prune_sha256": "2bf34d2128052718d86a6738eb0e33bd4e4b9a28cfef3a75d1c8ce3457a3d696",
+      "post_original_zero_compaction_CSR_hashes": {
+        "data": "c78fde0d296f473664a7667dc2cc9556e870a13140688de38e0c1e28580d8829",
+        "indices": "6933d3f903396769875698e5e238e5b5c2356b17ec54f590253f80b236bf6f0e",
+        "indptr": "7262b12afe28ccc6cd99f112df7820af781ab1c4b0b062d8a55bc64752c471ad"
+      },
+      "post_original_zero_compaction_nnz": 340933,
+      "after_original_zero_compaction_and_page_release": {
+        "RSS_bytes": 85884928,
+        "RssAnon_bytes": 67170304,
+        "RssFile_bytes": 18714624,
+        "MemAvailable_bytes": 1936850944
+      },
+      "before_recursive_QR": {
+        "before_page_release": {
+          "RSS_bytes": 90140672,
+          "RssAnon_bytes": 67178496,
+          "RssFile_bytes": 22962176,
+          "MemAvailable_bytes": 1938485248
+        },
+        "after_page_release_and_allocator_trim": {
+          "RSS_bytes": 82055168,
+          "RssAnon_bytes": 63340544,
+          "RssFile_bytes": 18714624,
+          "MemAvailable_bytes": 2012696576
+        },
+        "allocator_trim": {
+          "before": {
+            "current_process_RSS_bytes": 85893120,
+            "maximum_process_RSS_KiB": 90172
+          },
+          "after": {
+            "current_process_RSS_bytes": 82055168,
+            "maximum_process_RSS_KiB": 90172
+          },
+          "cyclic_objects_collected": 33,
+          "malloc_trim_returned": 1,
+          "only_unallocated_allocator_pages_trimmed": true
+        },
+        "actual_retained_initial_edge_array_bytes": 2806016,
+        "actual_retained_endpoint_bytes": 233232,
+        "complete_mapped_CSR_still_available": true,
+        "logical_mapped_bytes_not_counted_as_available_RAM": true
+      },
+      "original_constructor_sha256": "c4a8a957892c47087bda0282a59c60c2f392067c3296fb74bcce0983a38cdaa0",
+      "storage_callback_constructor_sha256": "da73e848cacdf97a935e90c97a72a72218257dc8121edd22f5f3c1a9b07692a6",
+      "original_CSR_instance_prune_restored": true,
+      "after_original_complete_QR_return": {
+        "RSS_bytes": 96210944,
+        "RssAnon_bytes": 73248768,
+        "RssFile_bytes": 22962176,
+        "MemAvailable_bytes": 1996410880
+      },
+      "last_solve_page_release": {
+        "before": {
+          "RSS_bytes": 87445504,
+          "RssAnon_bytes": 64471040,
+          "RssFile_bytes": 22974464,
+          "MemAvailable_bytes": 1942011904
+        },
+        "after": {
+          "RSS_bytes": 83197952,
+          "RssAnon_bytes": 64471040,
+          "RssFile_bytes": 18726912,
+          "MemAvailable_bytes": 1941581824
+        },
+        "clean_mapped_pages_advised_DONTNEED": true,
+        "error": null,
+        "original_solve_return_or_exception_preserved": true
+      },
+      "after_both_complete_stores": {
+        "RSS_bytes": 78860288,
+        "RssAnon_bytes": 60133376,
+        "RssFile_bytes": 18726912,
+        "MemAvailable_bytes": 1957261312
+      }
+    },
+    "all_factor_storage": {
+      "kind": "complete_original_CSR_and_QR_after_factor_return",
+      "map_scope": "factor-only",
+      "complete_CSR_remains_anonymous": true,
+      "mapped_arrays": 66,
+      "planned_file_bytes": 6103040,
+      "logical_array_bytes": 5961228,
+      "scratch_free_bytes_before_allocation": 960454656,
+      "disk_margin_bytes": 536870912,
+      "manifest_allowance_bytes": 8388608,
+      "chunk_bytes": 8388608,
+      "original_construction_peak_unchanged": true,
+      "before_mapping": {
+        "current_process_RSS_bytes": 84754432,
+        "maximum_process_RSS_KiB": 93824
+      },
+      "copying_chunks": 66,
+      "clean_page_release_calls": 67,
+      "clean_page_release_advised_bytes": 12206080,
+      "all_copy_chunks_bitwise_checked": true,
+      "all_mapped_arrays_readonly": true,
+      "original_floating_arithmetic_changed": false,
+      "additional_storage_reclamation": {
+        "kind": "original_complete_storage_with_additional_reclamation",
+        "role": "complete_original_QR_factors",
+        "replacement_callback_after_original_del": true,
+        "replaced_logical_original_array_bytes": 5961228,
+        "allocator_release_threshold_bytes": 16777216,
+        "allocator_release_calls": 2,
+        "file_cache_advice_calls": 67,
+        "file_cache_advised_bytes": 12206080,
+        "file_cache_advice_succeeded": true,
+        "file_cache_reclamation_or_cgroup_decrease_proved": false,
+        "original_constructor_peak_eliminated": false,
+        "original_math_or_acceptance_changed": false
+      },
+      "backing_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-b/mapped-factor-storage/complete-qr-aalxoxkx/all-arrays.bin",
+      "manifest_file": "/workspace/scratch/7c4e33ee17de/held10-design-work/check-complete-mapped-partials-97ec-20261128-b/mapped-factor-storage/complete-qr-aalxoxkx/layout.json",
+      "manifest_sha256": "d1d13fadd47ebb39a225bb5700cb733d278dd473b1628d93dcc454d606e3252f",
+      "allocated_disk_bytes": 6107136,
+      "mapping_seconds": 0.3713761750004778,
+      "after_mapping_before_allocator_trim": {
+        "current_process_RSS_bytes": 85344256,
+        "maximum_process_RSS_KiB": 93824
+      },
+      "released_old_anonymous_storage": {
+        "before": {
+          "current_process_RSS_bytes": 85344256,
+          "maximum_process_RSS_KiB": 93824
+        },
+        "after": {
+          "current_process_RSS_bytes": 78843904,
+          "maximum_process_RSS_KiB": 93824
+        },
+        "cyclic_objects_collected": 45,
+        "malloc_trim_returned": 1,
+        "only_unallocated_allocator_pages_trimmed": true
+      },
+      "after_mapping_and_allocator_trim": {
+        "current_process_RSS_bytes": 78843904,
+        "maximum_process_RSS_KiB": 93824
+      },
+      "last_solve_page_release": {
+        "before": {
+          "current_process_RSS_bytes": 92958720,
+          "maximum_process_RSS_KiB": 93824
+        },
+        "after": {
+          "current_process_RSS_bytes": 87445504,
+          "maximum_process_RSS_KiB": 93824
+        },
+        "clean_mapped_pages_advised_DONTNEED": true,
+        "error": null,
+        "original_solve_return_or_exception_preserved": true
+      }
+    },
+    "before_limits": {
+      "pid": 2,
+      "cgroup": {
+        "text": "0::/\n"
+      },
+      "actual_cgroup_mounts": [],
+      "mountinfo_read_error": {},
+      "limits": {
+        "text": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n"
+      },
+      "memory_files": {
+        "/sys/fs/cgroup/memory.max": {
+          "access_path": "/sys/fs/cgroup/memory.max",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.max'"
+        },
+        "/sys/fs/cgroup/memory.high": {
+          "access_path": "/sys/fs/cgroup/memory.high",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.high'"
+        },
+        "/sys/fs/cgroup/memory.current": {
+          "access_path": "/sys/fs/cgroup/memory.current",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.current'"
+        },
+        "/sys/fs/cgroup/memory.peak": {
+          "access_path": "/sys/fs/cgroup/memory.peak",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.peak'"
+        },
+        "/sys/fs/cgroup/memory.events": {
+          "access_path": "/sys/fs/cgroup/memory.events",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.events'"
+        },
+        "/sys/fs/cgroup/memory.events.local": {
+          "access_path": "/sys/fs/cgroup/memory.events.local",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.events.local'"
+        },
+        "/sys/fs/cgroup/memory.swap.max": {
+          "access_path": "/sys/fs/cgroup/memory.swap.max",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.swap.max'"
+        },
+        "/sys/fs/cgroup/memory.swap.current": {
+          "access_path": "/sys/fs/cgroup/memory.swap.current",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.swap.current'"
+        },
+        "/sys/fs/cgroup/memory.limit_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.limit_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.limit_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.soft_limit_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.soft_limit_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.soft_limit_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.usage_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.usage_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.usage_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.max_usage_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.max_usage_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.max_usage_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.failcnt": {
+          "access_path": "/sys/fs/cgroup/memory.failcnt",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.failcnt'"
+        },
+        "/sys/fs/cgroup/memory.oom_control": {
+          "access_path": "/sys/fs/cgroup/memory.oom_control",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.oom_control'"
+        }
+      },
+      "no_readable_cgroup_is_not_an_unlimited_memory_claim": true,
+      "limits_or_cgroup_changed": false
+    },
+    "after_limits": {
+      "pid": 2,
+      "cgroup": {
+        "text": "0::/\n"
+      },
+      "actual_cgroup_mounts": [],
+      "mountinfo_read_error": {},
+      "limits": {
+        "text": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              unlimited            unlimited            seconds   \nMax file size             unlimited            unlimited            bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    unlimited            bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             39792                39792                processes \nMax open files            16384                16384                files     \nMax locked memory         8388608              8388608              bytes     \nMax address space         unlimited            unlimited            bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       39792                39792                signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n"
+      },
+      "memory_files": {
+        "/sys/fs/cgroup/memory.max": {
+          "access_path": "/sys/fs/cgroup/memory.max",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.max'"
+        },
+        "/sys/fs/cgroup/memory.high": {
+          "access_path": "/sys/fs/cgroup/memory.high",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.high'"
+        },
+        "/sys/fs/cgroup/memory.current": {
+          "access_path": "/sys/fs/cgroup/memory.current",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.current'"
+        },
+        "/sys/fs/cgroup/memory.peak": {
+          "access_path": "/sys/fs/cgroup/memory.peak",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.peak'"
+        },
+        "/sys/fs/cgroup/memory.events": {
+          "access_path": "/sys/fs/cgroup/memory.events",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.events'"
+        },
+        "/sys/fs/cgroup/memory.events.local": {
+          "access_path": "/sys/fs/cgroup/memory.events.local",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.events.local'"
+        },
+        "/sys/fs/cgroup/memory.swap.max": {
+          "access_path": "/sys/fs/cgroup/memory.swap.max",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.swap.max'"
+        },
+        "/sys/fs/cgroup/memory.swap.current": {
+          "access_path": "/sys/fs/cgroup/memory.swap.current",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.swap.current'"
+        },
+        "/sys/fs/cgroup/memory.limit_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.limit_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.limit_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.soft_limit_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.soft_limit_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.soft_limit_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.usage_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.usage_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.usage_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.max_usage_in_bytes": {
+          "access_path": "/sys/fs/cgroup/memory.max_usage_in_bytes",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.max_usage_in_bytes'"
+        },
+        "/sys/fs/cgroup/memory.failcnt": {
+          "access_path": "/sys/fs/cgroup/memory.failcnt",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.failcnt'"
+        },
+        "/sys/fs/cgroup/memory.oom_control": {
+          "access_path": "/sys/fs/cgroup/memory.oom_control",
+          "error": "FileNotFoundError",
+          "errno": 2,
+          "message": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.oom_control'"
+        }
+      },
+      "no_readable_cgroup_is_not_an_unlimited_memory_claim": true,
+      "limits_or_cgroup_changed": false
+    },
+    "observed_limit_differences": {
+      "readable_numeric_deltas": {},
+      "readable_numeric_fields_before": 0,
+      "readable_numeric_fields_after": 0,
+      "changed_counter_does_not_attribute_a_kill_to_this_process": true
+    },
+    "elapsed_seconds": 1.8433740450000187,
+    "maximum_RSS_KiB": 93824,
+    "physical_RHS_or_partial_derivatives_reevaluated": false,
+    "full_1185_node_J_or_BVP_or_native_called": false,
+    "nonlinear_or_geometric_acceptance_claimed": false
+  },
+  "closed_first_store_observation": {
+    "mapped-complete-J-partials": [
+      "mapped-complete-J-partials/owner.json"
+    ],
+    "complete-jacobian-storage": [
+      "complete-jacobian-storage/owner.json"
+    ]
+  },
+  "first_store_observation_was_after_real_tool_terminal": true,
+  "new_full_1185_node_J_or_BVP_executed": false,
+  "highest_true_accepted_lambda": 0.128,
+  "original_97ec_complete_unaccepted_input_unchanged": true,
+  "source_or_limits_changed_during_checks": false
+}

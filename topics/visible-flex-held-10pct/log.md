@@ -51,3 +51,7 @@
 
 19:52:40.570651 UTC私库实际pull到436516b6ca202ac7ebf286702becce51e00eb022；相对5d146903e36f双README无差异，QUEUE仍本会话/2026-11-28进行中。H登记新规则锚，最迟20:45 UTC继续拉取。
 
+## 2026-11-28 — 真实97ec完整偏导、直接CSR和采用同backing的对照通过
+
+[通用assembler准备](notes/2026-11-28-analytic-complete-streamed-csr-and-adoption-preparation.md)保原完整14参/A/B/P运算顺序/全部显零/BC/参数及原dpm副作用，四全partials由原批8 provider直接映射，CSR三阵直接预分配落盘，QR采用同对象同backing不复制第二份。[真实实施核验](notes/2026-11-28-design-r87-complete-partial-csr-storage-actual-check.md)从97ec选17原节点含两端、全97state/p32，只作实现诊断；29992已付物理partials/全矩阵断言，后因np.bool_事件JSON失败exit1且未进QR。独立v2只复用已保存真实f5e4788f…包，30853真exit0/1.843s/93824KiB；1681维/379906 stored/38973显零，原SciPy/direct16/mapped3全部三阵及dpm副作用逐字同，prune后及原QR完整方向/所有统计亦同。原Jz-b绝对max3.0393548355e−11只属该粗诊断线性系统，不是完整BVP门。四partials在QR前实际无引用/目录消失，结束factor/CSR也真释放。原physics阶段515296KiB与v2纯存储峰分别记录。四源、两份准备/真实记录及全部SHA保留；未启动完整1185点J或减任何科学未知/门。当前按实际共享磁盘容量继续独立全phase预算和driver接入。
+

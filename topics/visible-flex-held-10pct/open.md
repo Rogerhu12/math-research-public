@@ -14,7 +14,7 @@
 
 [新R87 λ=.256/M40实返](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)仅metric1.24844e−6未门，M48未知。M32→40平台支持从同一新profile收紧径向tol2e−7，保原全部门；最高原真接受仍λ=.128/M24。
 
-[当前97ec首次原残差/metric诊断](notes/2026-11-28-design-r87-lambda256-97ec-original-metric-diagnostic.md)真0，但RMS.0079227和BC未过；最坏G在原节点本身，不能以该未收敛状态解释历史已收敛平台或归因GL。[新存储v3恢复的实际终态](notes/2026-11-28-design-r87-lambda256-before-reclaimed-storage-actual-terminal.md)在其入口之前、完整CSR返回之前child−9；该分支未被调用，不判其效果。目前改完整node/mid dY+dP和CSR的分块落盘，不重复同布局、删未知或以工程终止判数学失败。
+[当前97ec首次原残差/metric诊断](notes/2026-11-28-design-r87-lambda256-97ec-original-metric-diagnostic.md)真0，但RMS.0079227和BC未过；最坏G在原节点本身，不能以该未收敛状态解释历史已收敛平台或归因GL。[新存储v3恢复的实际终态](notes/2026-11-28-design-r87-lambda256-before-reclaimed-storage-actual-terminal.md)在其入口之前、完整CSR返回之前child−9；该分支未被调用，不判其效果。[完整node/mid dY+dP与直接CSR分块实现](notes/2026-11-28-design-r87-complete-partial-csr-storage-actual-check.md)的真实17点全变量/全BC对照已逐字通过，非1185点BVP；现在接真实full执行及精确磁盘生命周期预算，不重复同布局、删未知或以工程终止判数学失败。
 
 [R94真实窗舍入后果](results/R94-binary64-core-window-period-budget.md)已付实际binary64 S/b下原R91核心预算；最终完整支持A≤8/9、Gauss与材料角求值误差仍须单独核，不用理论真实积分替代有限实现。
 

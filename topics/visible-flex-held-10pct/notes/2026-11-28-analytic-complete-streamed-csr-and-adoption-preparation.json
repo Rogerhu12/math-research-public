@@ -1,0 +1,129 @@
+{
+  "actual_preparation": {
+    "Jacobian_or_BVP_executed": false,
+    "commands": [
+      {
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-m",
+          "py_compile",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_streamed_csr_assembly.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.08993817299960938,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_streamed_csr_assembly.py",
+          "--help"
+        ],
+        "exit_code": 0,
+        "seconds": 1.228891389000637,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "1251c7c636c8b5c82b480708ba17424f5114e5acbbd636fa74fcd617fdd039d6"
+      },
+      {
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_streamed_csr_assembly.py",
+          "--describe"
+        ],
+        "exit_code": 0,
+        "seconds": 1.1535746089994063,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout_sha256": "ade8ae518361eb2fba92c6bc21c295bfa05fdf64f5e86fa8c4bf3deabb9b244a"
+      }
+    ],
+    "contract": {
+      "actual_usage_requires_original_all_scientific_and_resource_gates": true,
+      "large_matrix_or_BVP_executed": false,
+      "original_complete_solve_method_identical": true,
+      "original_constructor_code_object_identical": true,
+      "original_full_partial_inputs_and_inplace_middle_update_retained": true,
+      "own_storage_cleanup_requires_actual_join": true,
+      "prepared_entry_only": true,
+      "scope": "Construct every original collocation CSR entry directly in owned storage.\n\nThe original complete node/midpoint dY and dP arrays are inputs; they may be\ndisk-backed. Every original A/B/P expression and middle-dP in-place update is\nretained in its original per-entry order. All stored zeros, endpoint rows and\nparameter columns remain. Only final storage allocation and lifetime change.\n\nAn explicit adopter hands this same complete CSR object and its checked\nbacking to the original QR storage protocol, without copying a second CSR.\nThe original one-time zero compaction, complete-row checks, QR, solve and full\nresidual diagnostics remain. Scientific gates and true child ownership are\nthe caller's unchanged responsibility. This module alone runs no BVP.\n",
+      "second_CSR_backing_not_created_by_adopter": true,
+      "shape_bounds": [
+        {
+          "columns": 114977,
+          "complete_logical_CSR_bytes": 312277536,
+          "complete_original_partial_logical_bytes": 237146376,
+          "complete_stored_entries": 25984802,
+          "complete_stored_width": 226,
+          "index_dtype": "<i4",
+          "logical_storage_bytes_are_not_an_RSS_credit": true,
+          "manifest_and_external_journal_allowance_bytes": 16777216,
+          "n": 97,
+          "nodes": 1185,
+          "parameters": 32,
+          "preallocated_CSR_file_bytes": 312283136,
+          "rows": 114977,
+          "second_complete_CSR_copy_required": false
+        },
+        {
+          "columns": 143425,
+          "complete_logical_CSR_bytes": 485923904,
+          "complete_original_partial_logical_bytes": 369203912,
+          "complete_stored_entries": 40445850,
+          "complete_stored_width": 282,
+          "index_dtype": "<i4",
+          "logical_storage_bytes_are_not_an_RSS_credit": true,
+          "manifest_and_external_journal_allowance_bytes": 16777216,
+          "n": 121,
+          "nodes": 1185,
+          "parameters": 40,
+          "preallocated_CSR_file_bytes": 485928960,
+          "rows": 143425,
+          "second_complete_CSR_copy_required": false
+        },
+        {
+          "columns": 171873,
+          "complete_logical_CSR_bytes": 697804384,
+          "complete_original_partial_logical_bytes": 530371720,
+          "complete_stored_entries": 58093074,
+          "complete_stored_width": 338,
+          "index_dtype": "<i4",
+          "logical_storage_bytes_are_not_an_RSS_credit": true,
+          "manifest_and_external_journal_allowance_bytes": 16777216,
+          "n": 145,
+          "nodes": 1185,
+          "parameters": 48,
+          "preallocated_CSR_file_bytes": 697810944,
+          "rows": 171873,
+          "second_complete_CSR_copy_required": false
+        }
+      ]
+    },
+    "large_arrays_created": false,
+    "matrix_assembly_or_factor_mapping_executed": false,
+    "maximum_children_RSS_KiB": 62380,
+    "seconds": 2.4727229889995215,
+    "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_streamed_csr_assembly.py",
+    "source_sha256": "242d00c55b68083611e49eabef7ec86c8a4f5128254a03b26e8a0c3121beaca3",
+    "status": "complete_streamed_CSR_and_same_object_adopter_source_preparation_only"
+  },
+  "actual_preparation_path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/complete-streamed-csr-preparation-20261128-a/preparation.json",
+  "actual_preparation_sha256": "faf4b15dc7e3f711ad0d3e66b059e41cd5172875ba55577ed484474118db2c6a",
+  "additional_validation_owner": "design_continuation will perform one unified real small input check; no result is assumed here",
+  "all_unknowns_rows_endpoints_parameters_and_stored_zeros_retained": true,
+  "caller_visible_middle_parameter_inplace_update_retained": true,
+  "frozen_direct_CSR_source_sha256": "91c3df497777f96d762d4b41c9fdc40c038e8905413650b6bc3c7cd8f64f33da",
+  "input_partial_arrays_retained_by_final_matrix_storage": false,
+  "new_storage_or_matrix_or_BVP_positive_executed_by_this_preparation": false,
+  "only_actual_child_join_allows_own_storage_cleanup": true,
+  "original_QR_zero_compaction_and_complete_residuals_preserved": true,
+  "original_SciPy_source_hashes": {
+    "construct_global_jac": "f209e18f334535a5b5fbe571ac4a875dccef89ab5b77b94977023f4b0919b916",
+    "prepare_sys": "2e2a6f40f709556a98065b41491e1d90980fa68d8f0c9e59e15928732f144e54",
+    "stacked_matmul": "2238d8e5917a14449a662e336c194517a6892e7e8ea783b173c24bde401b33ee"
+  },
+  "same_full_shapes_C_order_inputs": true,
+  "second_CSR_backing_copy_required": false,
+  "source": "scripts/resume_20261128/analytic/complete_streamed_csr_assembly.py",
+  "source_sha256": "242d00c55b68083611e49eabef7ec86c8a4f5128254a03b26e8a0c3121beaca3",
+  "status": "prepared_complete_mapped_CSR_assembly_and_same_object_adoption_only"
+}
