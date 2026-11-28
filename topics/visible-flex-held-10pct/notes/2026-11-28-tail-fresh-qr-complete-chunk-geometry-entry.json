@@ -1,0 +1,41 @@
+{
+  "schema": "fresh-QR-final-physical-height-complete-tail-chunks-entry-v1",
+  "status": "source_and_resource_dispatch_checks_completed_positive_numerical_input_pending",
+  "source_paths": {
+    "qr_complete_tail_geometry_chunks.py": "0bc3a31e348a5885b45ae082486aa470d39693684d3960bcd3ead61cc35fd5ee",
+    "geometry_recursive_write_guard.py": "3a3f864be6047953e26c7a54bea352a294c12a5217cc8104a67547bf0ad34fa4"
+  },
+  "original_pipeline_sha256": "c165678d912761163ef29cfca1eb9c4dfc4bbf3102de6a00b228ca537f727615",
+  "actual_source_kind": "actual_lambda_one_qr_chord_final_physical_height",
+  "height_reference_key": "candidate_H",
+  "warm_factor": 1,
+  "height_arithmetic": "numpy",
+  "defaults": {
+    "chunk_stages": 8,
+    "node_heap_mib": 512,
+    "disk_reserve_mib": 128,
+    "difference_step": 0.00005,
+    "quadratic_mode_cutoff": 12
+  },
+  "complete_global_mean_and_spectrum_unchanged": true,
+  "complete_common_boundary_two_jets_required": true,
+  "prior_export_OOM_required": false,
+  "child_returncode_inferred_from_absence": false,
+  "original_numerical_gates_changed": false,
+  "checks": {
+    "compile_returncode": 0,
+    "help_returncode": 0,
+    "io_probe_returncode": 0,
+    "io_probe_summary": "/workspace/scratch/7c4e33ee17de/held10-design-work/fresh-geometry-resource-dispatch-check-20261128/summary.json",
+    "io_probe_summary_sha256": "a307ef49c7ba35443b465bbefaa6980ac98786bf7926db73580e1c62a83c60b8",
+    "io_probe_is_numerical": false,
+    "actual_python_nested_dispatches": 1,
+    "actual_unchanged_node_dispatches": 1,
+    "byte_equal_test_outputs": 2
+  },
+  "initial_after_reset_missing_dependencies_help_returncode": 1,
+  "actual_positive_QR_physicalH_available": false,
+  "native_or_BVP_executed": false,
+  "old_1152_certificates_recomputed": false,
+  "complete_surface_claimed": false
+}

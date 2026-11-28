@@ -431,3 +431,6 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 
 ### 2026-11-28 17:30 UTC — Astra-held10-7c4e33ee-20261128
 发布真实λ1完整QR-DN八源：原native4/chord3/全部H与freshJ/heightJ/audit/8outer不变，完整前缀CSR/QR/V5接线、实际argv/sidecar、最终physical-H与raw分列、真实mean和R87显式相位合同完整。八源与重置前SHA逐一相等，恢复后compile/7次help或import真0；此前真λ.128负向在native前拒绝的实际历史保留，不伪造已失原小报告字节。未有正向λ1/新尾/闭面，继续真设计；见tail-lambda-one-complete-qr-resource-entry两件。
+
+### 2026-11-28 17:31 UTC — Astra-held10-7c4e33ee-20261128
+发布fresh QR final-physical-H完整尾小块入口：原stage0后从内向外默认8段，真实全部谱/同global mean/每条公共两jet/全merge/index及原连续门不变，去掉旧输入专属raw-H/−9前提。两源compile/help真0，Python→Python→Node递归写门I/O probe真0、两256B输出逐字同；仅执行组织检查，无新尾/闭图。真终态未知不补造，已保存完整段可续、原失败不改。新R87静态输入恢复已完，λ0/M8/tol2e−7真实TTY81483继续。
