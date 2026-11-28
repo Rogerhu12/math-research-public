@@ -35,3 +35,7 @@
 ## 2026-11-28 10:56:05 UTC — 35完整R732/R729科学及纯读参数
 
 完整6件258964B参数包：binding/science-ready/pure-ready/整再生器/说明/manifest；原632/625全部字段与64live保，新增真实圆肩积分/根/selected snapshot与正常build诊断成713/719。两input/139roles/24runtime、全变量/allphase、原预算及两个unused legacy shape词的明确报告保；没有执行或成功声明。待完整launch刊后实际新run。 双README云核至`b2bc940deea69bbe4d3998f4588953f7c8068ee2`无变（非pull）。
+
+## 2026-11-28 10:58:53 UTC — 读取R734及旧27/28/29/31/32自身官方失败日志
+
+诊断原完整job日志只在公开runner读取，保各完整异常/官方steps/whole日志身份与R734若有的完整逻辑stdout小结，先R734再五旧run，不重做科学。新 .github/workflows/visible-larger-completed-runs27-32-failure-evidence.yml 为本题故障证据（课题外）；稀疏只取小源与README，容量由完整remote树size加新note计，不以稀疏文件夹少算，也不触发ls-tree -l逐blob取回。 双README云核至`d81b291b6d9b01dda078df40ba2c01a4cdcbadc0`无变（非pull）。
