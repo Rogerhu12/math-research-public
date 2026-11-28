@@ -58,4 +58,4 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--r742-publish-->R742 [13设计全六jet](notes/r742-actual-two-jet-46145500268-1.json) 双README真pull 7eba9af2a6cf5d15e042552f19b99d2221f2297d
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
-<!--run39b-bent-body-flow-->39b 双README真pull 85ed66a60b77325484b929ec2e65957893b14252
+<!--run39b-bent-body-flow-->39b 双README真pull 562b03663f75cb5db6dfed2154469de9cfd99f93
