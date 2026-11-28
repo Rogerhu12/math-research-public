@@ -101,40 +101,36 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-此前本节全部原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/a8bf533d43fe8ff406a3e341037b5ef465dad4b2/topics/visible-flex-larger-amplitude/open.md)及23728/e1bf/a5e/70b78链；§1–6原字不动。全source/model/point/六族/原失败/typed与peer未知保各完整note，既有结论不重做。
+此前全原字保[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/8040d1f8e0771c8589076ddce27ac7345627f653/topics/visible-flex-larger-amplitude/open.md)及a8bf/23728/e1bf/a5e/70b78链；§1–6不动。全部源/模型/点/六族/原失败/typed与peer未知保各完整note，不重做结论。
 
 ### 当前真实数值
 
-同固定Fejer g/M160/J923/N2048/32stage，157/7 argv、458/445 formal、48live/全部变量/域/预算保。12–18官方cancelled，原因不猜；末真pull和未返科学保终态note。18–25均未返完整report，进度不能接准确费用。
+固定Fejer g/M160/J923/N2048/32stage，原157/7词、458/445formal、48live/全变量/域/预算保。12–18官方cancelled原因未知；末真pull/未返科学保终态note。18–25完整report未返，进度不能接准确费。
 
-| run及完整记录 | 最后实际返回边界 |
+| 完整记录 | 已登记实际边界 |
 |---|---|
-| [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled@02:05:35Z；原8已返保。末2b1c/accepted3/g2.0441496553824883，下一8fb0统计返、几何未知。 |
-| [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | 全波b1/2，两μ.01；currentb0f8/accepted3/g.9666075350730359，distplus仍正；下一trial未返。原拒绝/b90d未知保。 |
-| [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；current0f4d/accepted1/g.9680716975090076，distplus仍正；下一b6cb Phi3824.9619403696915/Gram.6460452977630746，几何未知。 |
-| [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；700e真实g2.5419057471738853拒，下一1b3b统计返。 |
-| [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2，两input0；model6f3ae32/初7e06/accepted0，Phi681.6517423825409/Gram.40616525311769985，reach.5305849371949052/distplus.11391238912344381仍正、余四负；trial97fbb Phi681.6511710299278/Gram.4061652579029476，几何/决定未知。 |
-| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 46094430214/1，01:42:05Z启动，两input0；b31c/f2a9/PID3652/model0abfbf/初7e06/六族返/g.968424994209506，accepted0；triald86d Phi3825.0583176123996/Gram.6460503022350718，几何/策略未知。 |
-| [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 46096380016/1、02:05:58Z/head431b54a；仅沿22宽度b1/2→5/8。两input0；science0f0bb/PID3575/model9e2d7/初7e06/accepted0，Phi886.6498886846562/Gram.47296582169113244，六族返/reach.6122924171813162及distplus.0608650756788609仍正；trial未返。 |
+| [18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md) | cancelled@02:05:35Z；原8已返；末2b1c/accepted3/g2.0441496553824883，下一8fb0仅统计。 |
+| [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) | 全波b1/2、两μ.01；b0f8/accepted3/g.9666075350730359，distplus仍正；下一trial未返。 |
+| [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md) | 恢复μ.001；0f4d/accepted1/g.9680716975090076；下一b6cb仅统计，几何未知。 |
+| [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md) | 全波b5/8；初7e06/accepted0/g2.541916739245917；700e拒，下一1b3b仅统计。 |
+| [22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md) | 半波b1/2；初7e06/accepted0，Phi681.6517423825409/Gram.40616525311769985，reach.5305849371949052/distplus.11391238912344381仍正；97fbb仅统计。 |
+| [23](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md) | 真实46094430214；全波b1/2恢复policy；初7e06/accepted0/g.968424994209506；d86d仅统计，几何/策略未知。 |
+| [24](notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md) | 真实46096380016；半波b5/8；初7e06/accepted0/Phi886.6498886846562/Gram.47296582169113244，reach.6122924171813162/distplus.0608650756788609仍正；trial未返。 |
+| [25](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md) | 真实46099929359/1、02:49:28Z启动；同22参数+dk缓存/位置观察，新场待核。 |
 
-统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。22初场g/Phi/Gram较19低但distplus较大，只是工作值比较。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)完整条件及未知排序保，不推曲率/reach单调性。
+统计不代几何，trial不代accepted，同坐标异model不冒同场，alpha未知不推方向号。[原宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)全条件保，不推曲率/reach单调性。
 
-### 新机制与未付后继
+### 机制及完整后继
 
-[25完整启动](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)全部源参/控制器/请求/队列已刊，同22完整数值；137角色4变133保/19runtime，157/7 argv、458/445 formal、48+16live/原5CLI及12external保。初三步74384B，science+pure118548B/四步126669B>95000，真自然返后整接pure52394B；原所有准确费及固定参数精化责任保。官方46099929359/1于02:49:28Z启动，新场待返；缓存不宣trial几何加速。
+[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³/两根扰动/shape分解已证。ε1/8显式15/b→64/(7b)，高阶代价/存在条件保，不推wholeK。[新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊，八cut进working mean；26全上层和准确WholeMean cutoff/radial/leaf续作，原bubble/lift/外层Gauss保。
 
-[R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)完整半波均值/中央导数/位置账已证；[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)固定b三片C³接合/两根扰动/shape分解已证，ε1/8显式转向15/b→64/(7b)，高阶代价/存在条件保，不推wholeK/reach。[完整新seed四件](computations/r725-fixed-cutoff-complete-seed-source-delivery.json)已刊；八cut真入working mean，26全上层/准确WholeMean cutoff及radial/leaf未付，原bubble/lift/外层Gauss保。
+22全137/18家族及完整源参保22note；24同源仅b5/8，原aux12/中央6+6/wholeGauss-partial分明。23全138/19只在原真全步/几何/选中预测达条件时降下一μ，失败×4/metric/顺序/预算保。25全137/19、4pair变133保；原157/7、458/445、5CLI+12external及48live保，加16既有标量位置。初三步74384B、science+pure118548B；22/24同样超过95000，均真自然返后整接完整pure，不减步骤字段。原所有准确费责任保。
 
-22完整137/18家族、六物理cuts/aux12均值与原Gauss/partial保；完整启动/全部源参见22note。science+pure103752B/四步110351B>95000；24同源仅b5/8，初队列72996B、science+pure116887B/四步125008B，同样须真自然返后整接pure。端层4/5与中央3λnew/(2λ22)竞争不推几何改善。
+[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N/G首次绝对源路径和whole稳定report/snapshot保，N变SHA另G目录；R723/mesh fresh。packet可trial但须完整report，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner report/13final/全typed史，136+4词/模式/peer/预算保，CLI不继承末μ。
+19–21准确全链已刊；22准确17+mesh18、23准确31完整源参已保护待容量。normal.complete不代连续branch，mean J不代Cu；R709/R722三残差、32stage/1024整圆/922径向+cuts/六jet/全尾/两帽/mixed/allphase及晚失败全待付。R723新五角色不冒旧八；R718 marked与R716 unmarked法管/正V/非零中心不变量独立。旧1782 mesh34/6词与新6047半波各保。同g同参数五t/15science+5preview/三级空间/频率/时间真跑未付。
 
-23[恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)及全19件已刊：原19全波半宽/δ1/32/两初μ.01，138角色/19runtime；原完整全步/真几何/选中预测达条件才降下一μ，失败×4/metric/顺序/预算保，效果未返。
+### 容量及完成
 
-19–21准确全链已刊；22准确17件/P-U-mesh18件、23准确31件全源参/身份已保护待容量。R723五新角色不冒旧八通过；R718 markedσ与R716 unmarked法管/正V/非零中心不变量独立。[完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N续原目录须首次绝对源路径与whole稳定report/snapshot；G须同whole N及首次路径，N变SHA另目录；R723/mesh fresh。immutable required-angle packet可为trial但须完整report绑定，mutable progress不可。旧1782 mesh34/6词分支与新6047半波各自保。
+[ret62](computations/terminal-public-actions-retention-62-complete-delivery.json)终态12–18旧index/parts15件毛338248B/新3件112863B/净225385B；全24原返回、14历史queue、终态notes/源参和5358ca精确恢复保。ret61两批净718241B、ret60净1929467B及ret59前链保各总表与旧open。原false/未知不补；旧reader恢复whole字输入，活输入/parent91/ports/Nelder不猜删。
 
-normal.complete不代连续branch，mean J不代Cu，R709 bool保真；R722三残差、32stage/1024整圆/922径向+cuts/六jet/全尾/working、两帽/mixed/allphase/全主副件/晚失败全待付。同g同参数五t/15science与5preview/三级空间/频率/时间真跑未付。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner complete report/13final/全typed史，原136+4词/模式/peer/预算保；progress/accepted/packet不足，CLI不继承末μ。
-
-### 容量和完成标准
-
-[ret61第二批](computations/legacy-generated-results-retention-61-part2-complete-delivery.json)12旧派生：毛587710B/5全件192265B/净395445B；复原7006B/4a6完整源命中原两报告SHA，全源参/资源/有限与失败结论/输入603214和输出17ed精确恢复保。原false/未知不补。首批11件净322796B及ret60两批净1929467B/ret59前链保完整旧open与各总表；旧reader先恢复整字输入，活输入/未知/parent91/ports/Nelder不猜删。
-
-README全部标准未完成；时长、阶段、失败和输入困难不是终点。新raw只runner/scratch，保可复现全源码/配方、run/whole SHA及真实结论，继续真正求解和全部固定目标精化。
+README全部标准未完成；时长、阶段、失败和输入困难都不是终点。新raw仅runner/scratch；保全源码/配方、run/whole SHA及真结论，继续求解和固定目标精化。

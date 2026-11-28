@@ -354,3 +354,7 @@ run46099929359/1、workflow433356137、job140839831948，head007348e5c8bd943a137
 ## 2026-11-28 03:01:02 UTC — ret61第二独立子批及完整原4a6源恢复
 
 [五完整件](computations/legacy-generated-results-retention-61-part2-complete-delivery.json)192265B保12旧派生报告全部参数/原资源argv/真实有限结果和失败/整字恢复；毛587710B、净395445B。原4a6 flat源7006B以精确文字逆变换命中两原报告SHA，未运行；原f669/6be版本独立保，missing执行信息仍null。fresh逐path/blob/size相等才普通删除，q096/q098未闭屏幕和活输入不碰。双README云核至`04959b53f761e4328f1419deea632aaf1eb48f92`无变（非pull）。
+
+## 2026-11-28 03:08:19 UTC — 终态12–18生成输出完整保真整理
+
+ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B、delivery8989B共112863B，净225385B。24原返回逐whole指向固定5358ca0c0a2e48f66af6be474ba1a202d6a935c3，保每原对象/输入输出/异常/未返边界、14历史queue及当前完整源/请求/参数/7controller-workflow/14终态实际notes；取消不冒child返回。活19–25不动。旧H/open§7原字保8040d1f8e0771c8589076ddce27ac7345627f653，§1–6完整原字不动。双README云核至`dbebe7e4da95ad6e18c3dd35cda805904a1a878a`无变（非pull）。
