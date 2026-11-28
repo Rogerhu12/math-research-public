@@ -167,3 +167,22 @@ source2c8739ed、PID3435、model726006在原7e06返回完整初始几何，reach
   }
 ]
 ```
+
+## 2026-11-28 13:17:41 UTC — 35 原半步真实统计返回
+
+原α=.5半步 `65983a0d92fc8eb2edf51313df39425bad92daf1517b241d11d907a2ee127543` 于2026-11-28T12:56:12.018660Z真实返回Phi172140.83283801825、Gram4.592806585851207；其完整几何尚待，trial_accepted=null。原全步5f0a784完整reachg1735.2651699360226拒的结论不变。current仍原初点7e06、accepted0，原全outer/预算/pure待自然science返回，不把半步统计视为完整报告。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46137993293-1.md",
+    "bytes": 55200,
+    "sha256": "00df101d62c507742f8b69c9eb5efd39ebc5822904a074691666cab8bcc70aa2",
+    "git_blob_sha": "73faa96e031b20c9746e1e089222bab03b398f5f",
+    "fixed_commit": "5dc017c76d917ff4a70f1d6c6f24cc36026df3ec",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

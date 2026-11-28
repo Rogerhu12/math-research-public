@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [33 retry](notes/2026-11-28-run33-section16-retry.md)：46133839513/job140944661119，两input0，source bffd5bbf/PID3463/model61c654。初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052；全步291f394完整g16.64809271107871/reach拒，半步8e3194c完整reachg7.789641579575506拒；四分步1ea6125统计Phi693.2773822139695/Gram.4068851236763789，完整几何待。自然science返才pure62854，138角色/原全预算不变。
 [34完整](notes/2026-11-28-R730-R729-run34-complete-launch.md)：46135301432/job140949157288，source c3228e9d/PID3687/model989fec。初7e06/accepted0/Phi37754.690332034064/Gram.9309657725734736，完整reachg4033.8205903217813/K33159.051287192604；全步b36a1d完整reachg630003.3274714495拒；半步ea4bb111统计Phi64186.528482859125/Gram2.9404923519415433，完整几何待。139角色/24runtime/全原预算保，自然返才pure66120。
-[35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，source2c8739ed/PID3435/model726006。初7e06/accepted0，完整reachg601.642125582291/K4938.754785337882；首全步5f0a784完整reachg1735.2651699360226拒；半步65983a0已启，统计/几何待。139角色/24runtime、1,333,370 outer全自由、713/719+64live及原预算保；自然返才pure74162。
+[35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，source2c8739ed/PID3435/model726006。初7e06/accepted0，完整reachg601.642125582291/K4938.754785337882；首全步5f0a784完整reachg1735.2651699360226拒；半步65983a0统计Phi172140.83283801825/Gram4.592806585851207，完整几何待。139角色/24runtime、1,333,370 outer全自由、713/719+64live及原预算保；自然返才pure74162。
 
 36、37、38全原阶段自然返回且未达标；固定g末独立Gram分别2.17427627577303、.670383394669527、9.607780255855785。R742右柄8×3也未付全K。所有源参/点/预算/失败未知与完整ownnote路径逐字保[此前H](https://github.com/Rogerhu12/math-research-public/blob/a38135aea53800ecf8dd1a31119cc08c02b683f1/topics/visible-flex-larger-amplitude/HANDOFF.md)，不重做。
 
