@@ -478,3 +478,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 04:07:21 UTC — 完整按需旋转与第二角frame源发表
 
 22全件1286484B：17新runtime1024567B、binding65101B/931425f1、两全文再生72931/30979、证明35978B/26ebf455与总表56928B/6c8880e6。137角色14变123保，19runtime含原校准/observer；driver d1c99f55、reader8631ae6b、launcher2a94d33f、normalfbb17bbc、frame477a501d全绑定。仅plain/nativefloat64已知无tracking/AD/autocast环境按实际需要省未消费旋转阵列；32stage同branch/同point/精确previous-control词保，第二角只尾六列复用，不借别stage低阶行。原仍需check的丢弃低阶frame已完整证明有限：原全数据/控制≤2^12、系数及导数实查≤2^704，逐原运算/积分计数给<2^960；不合适/可选失败回原全方法，原硬错误不吞。原全输出/预算/末重读不动、38snapshot各自计数保；不称Python/科学/AST/benchmark已跑，无新准入门。物理仍25原半波S5，不混26/27R725或R726；完整28参数和实际运行接续。双README云核至`a53594d32abd7523047a82f615b782cb459ebc39`无变（非pull）。
+
+## 2026-11-28 04:16:10 UTC — 19实际N失败与官方终态分开保全
+
+N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report，唯一summary_error缺report；无实际trace不猜原因。原38词/900s/32stage/1024角全budget执行，原science/pure0与N1不同层。索引04:00:37budget checkpoint，官方04:00:47completed/success；完整官方run/jobs/失败对象/末pull及96434B前卷全身份保新续卷，不停止研究或跨run迁raw。移除仅已官方终态19槽，继续源码链和真实后继。双README云核至`b8dd77a83797e490e97fb989a71ccf52963d1e70`无变（非pull）。
