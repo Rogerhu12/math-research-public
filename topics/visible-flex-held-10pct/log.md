@@ -517,3 +517,7 @@ R87字面柱长预算严格补齐：原map半长float(.005)的全长略大于1/1
 ## 2026-11-28 — 严格 λ=.032/M24 映射恢复通过全部原门
 
 [真接受小回执](notes/2026-11-28-design-r87-strict-lambda032-mapped-input-recovery.md)：真实65581/owner/child exit0且remaining0，284.566627306s、内核HWM641884KiB；1051→1103点，两全Newton步/零拒，RMS1.976399889414676e−7、metric1.7039525431334293e−7、physicalBC2.0598401321214251e−19、mean1168、δ.06809650528094668。原accepted_original/prefix_gate/finite checks/full initializer及来源、raw、physical均真实核过；run903b4abf…、raw eff45f58…、physical201024ef…。完整QR两factor/四solve，两store清页真成功，componentwise error=1如实保留，非逆证。真join后仅本owner的mapped cleanup，removed=[]因终结器已释放。source/previous为真.032与真.002，唯一14227在18:51:16.998 UTC已继续.064→1，.256 floor32，tol2e−7/全部原门不变。本条为必要恢复，历史λ.128前沿未被称为新进展；记录器v2随真实回执入库，不作compile-only结论。
+
+## 2026-11-28 — own fixed 连续前缀的实际函数接线
+
+[接线实核](notes/2026-11-28-analytic-qr-fixed-continuous-runtime-contract.md)真实导入自身fixed reader/metric/cut，6个原区间源SHA相同、4个proof main编译成功，cut/metric方法Python对象同一性通过，tool10058/841fa0真exit0；未执行这些main/未给假source。明确真geometry之后原binary64→123/10曲率舍入和同cutwidth依赖，原完整g/profile/mean/谱/最终physical-H均保留。无新科学阳性或额外验收门。

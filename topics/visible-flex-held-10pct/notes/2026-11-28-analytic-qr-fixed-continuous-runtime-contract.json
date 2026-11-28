@@ -1,0 +1,88 @@
+{
+  "schema": "fixed-actual-original-loop-linkage-observation-v1",
+  "scope": "Actual Python imports, class MRO and generated-function compilation only; no supplied source run, no fabricated acceptance, no proof main invocation, no arrays/J/BVP/tail.",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/qr_fixed_actual_prefix_continuous.py",
+    "sha256": "eb5ceef73221e761bf8de9d80e0e60454c2db19e794909a09f6859bcc157e323"
+  },
+  "base_source_hashes_checked": {
+    "cartesian_prefix_interval_geometry.py": true,
+    "cartesian_prefix_metric_tables.py": true,
+    "cartesian_prefix_metric.py": true,
+    "cartesian_prefix_cut_metric.py": true,
+    "cartesian_prefix_metric_target.py": true,
+    "cartesian_prefix_curvature_rounding.py": true
+  },
+  "actual_fixed_cut_mro": [
+    "FixedActualCutMetric",
+    "CutMetric",
+    "FixedActualNewMetric",
+    "NewMetric",
+    "object"
+  ],
+  "original_interval_method_object_identity": {
+    "cut_weights": true,
+    "evaluate": true,
+    "geometry": true,
+    "weights": true,
+    "enclose": true
+  },
+  "phases": {
+    "geometry": {
+      "generated_proof_body_compiled": true,
+      "application_entry_called": false,
+      "acceptance_payload": null,
+      "source_replacements": {
+        "record, prefix = load_actual_prefix(args.source_run)": "record, prefix = fixed_load_prefix(args.source_run)",
+        "record['physical_sha256']": "fixed_current_physical_sha()"
+      },
+      "executed_main_sha256": "db97d69d32db27341299678c9320b6cc9309545494ed45ae4a333a58563412e0",
+      "original_main_sha256": "0a971df15a6b4792d4d19602eac5a7da34d8add7b38caeb8d21a138bc182cce5"
+    },
+    "tables": {
+      "generated_proof_body_compiled": true,
+      "application_entry_called": false,
+      "acceptance_payload": null,
+      "source_replacements": {
+        "record, prefix = load_actual_prefix(args.source_run)": "record, prefix = fixed_load_prefix(args.source_run)",
+        "record['physical_sha256']": "fixed_current_physical_sha()"
+      },
+      "executed_main_sha256": "16b115be51762fd57fffa7dd3f5ac46789bfb429757f29d6cfb7e1fb4572e9bb",
+      "original_main_sha256": "da017065e5df8cfc80a6cdf57ecf6cc7ab6f8cbba858d5804b0ea7ca079ca4e4"
+    },
+    "metric": {
+      "generated_proof_body_compiled": true,
+      "application_entry_called": false,
+      "acceptance_payload": null,
+      "source_replacements": {
+        "verifier=NewMetric(a.tables)": "verifier=fixed_new_metric(a.tables)"
+      },
+      "executed_main_sha256": "bcc5b30b2c0f2e977a3cff51a5782f8e0de73d3fe53b83b592ee8a7acc281ee2",
+      "original_main_sha256": "edb04dcdfee2e37afe6f8c074366771c92286758ac8a68c8b56c32a681aaa8b8"
+    },
+    "cut": {
+      "generated_proof_body_compiled": true,
+      "application_entry_called": false,
+      "acceptance_payload": null,
+      "source_replacements": {
+        "verifier=CutMetric(args.tables,args.geometry_bundle,out,args.cut_width)": "verifier=fixed_cut_metric(args.tables,args.geometry_bundle,out,args.cut_width)",
+        "old_metric=inherit_metric(verifier,args.base_metric,target)": "old_metric=fixed_inherit_metric(verifier,args.base_metric,target)",
+        "old_geometry=inherit_geometry(verifier,args.base_geometry,args.base_curvature)": "old_geometry=fixed_inherit_geometry(verifier,args.base_geometry,args.base_curvature)"
+      },
+      "executed_main_sha256": "7540b02884a7935899cf22712e1cb59dd7f4412383647bca026ac77285e4f96e",
+      "original_main_sha256": "2ab5f6849c6ef795fd01ca2a072a68fd55c238ff0351e1e3991c5f39a283e056"
+    }
+  },
+  "source_gate_executed": false,
+  "positive_fixed_source_available": false,
+  "scientific_result_generated": false,
+  "actual_terminal": {
+    "tool_session_id": 10058,
+    "completion_chunk_id": "841fa0",
+    "tool_exit_code": 0
+  },
+  "actual_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/qr-fixed-real-loop-linkage-20261128-a/linkage.json",
+    "sha256": "47e9b5924f7bdefbd9936ca4862e3bfbf1a0531c85adf5f8ed99d458f053bd76"
+  }
+}
