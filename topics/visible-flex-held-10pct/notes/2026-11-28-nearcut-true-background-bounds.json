@@ -1,0 +1,77 @@
+{
+  "status": "true_R58_nearcut_background_first_and_lipschitz_second_bounds_certified",
+  "actual_report": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/nearcut-true-background-20261128-v1/report.json",
+    "sha256": "d93273cac7c712de4d9fc3230a835f4f0891328b00498fa48f3faca4a7bd9f02"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/nearcut_true_background_bounds.py",
+    "sha256": "627762e4f1c4a1fa623d08021c7da2f85a7790f369ca5bef798ce31383a1d33e"
+  },
+  "constants": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-constants.json",
+    "sha256": "467cdcb4b2d373fe8178a7c0fec93a683cc60d00bdb56bb62c0f4975e289a706"
+  },
+  "normalization": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-background-20261128/true-background-normalization-reuse.json",
+    "sha256": "f20c024ae158e658db9b028b83b01f8f1c92cb3e939cb519cca570355c7e4321"
+  },
+  "oracle_provenance": {
+    "definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+    "constants_sha256": "467cdcb4b2d373fe8178a7c0fec93a683cc60d00bdb56bb62c0f4975e289a706",
+    "normalization_certificate_sha256": "f20c024ae158e658db9b028b83b01f8f1c92cb3e939cb519cca570355c7e4321",
+    "kernel_sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806",
+    "oracle_sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+    "interval_digits": 60,
+    "coefficient_tolerance": "1/100000000000000",
+    "variation_tolerance": "1/1000000000000000000000",
+    "normalization_definition": "(rCut - true_r160 - integral_A) / integral_B",
+    "calibration_roots": "The 160 recorded binary calibrationAlpha values, unchanged.",
+    "coordinate": "Original cell/segment/x locator; C2 surface jets use physical R=r(x).",
+    "mean_contract": "Only the rotational background height relative to its cut; no nonrotating mean is supplied or reset.",
+    "finite_oracle_transfer_certified": false
+  },
+  "physical_interval_exact": [
+    "80704505322479285/288230376151711744",
+    "5404319552844595/18014398509481984"
+  ],
+  "literal_width_exact": "5764607523034235/288230376151711744",
+  "source_box_count": 512,
+  "source_pieces": [
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "innermost_true_radius_upper_exact": "7117817515834154098596328671389484477396009455266094867980881/25711008708143844408671393477458601640355247900524685364822016",
+  "source_boxes_sha256": "a62aba0d7a62dcb7516f01c995148dde95ea8195f7429c134372e268a282af22",
+  "raw_absolute_upper_exact": {
+    "w": "11126618806975824546170995777421544884120250548951619225981503/102844034832575377634685573909834406561420991602098741459288064",
+    "w_R": "9061938640671830775890083812392750205302092196644514689011589/25108406941546723055343157692830665664409421777856138051584",
+    "w_RR_a.e.": "9629057717146050620188710744030996450492280885467582379603363/2993155353253689176481146537402947624255349848014848"
+  },
+  "simple_rational_absolute_upper": {
+    "w": "109/1000",
+    "w_R": "361",
+    "w_RR_a.e.": "3217025708"
+  },
+  "r_x_positive_lower_exact": "10944324100940993422844514770104285124609652386626661673538697/421249166674228746791672110734681729275580381602196445017243910144",
+  "partition_exactly_verified": true,
+  "w_RR_interpretation": "a.e./one-sided derivative; w_R is continuous and piecewise absolutely continuous, hence this is its Lipschitz bound",
+  "normalization_recomputed": false,
+  "actual_finite_tail_or_transfer_certificate": false,
+  "complete_surface": false,
+  "seconds": 40.601670210999146
+}
