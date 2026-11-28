@@ -34,7 +34,11 @@
 
 此前完整索引见[完整快照](notes/2026-11-29-results-before-Phi-global-second-head-five-generators-2250-8542.md)及归档链。
 
+此前完整索引见[完整快照](notes/2026-11-29-results-before-Phi-original-weight-support-2300-8542.md)及归档链。
+
 ## 新增结论
+
+- [R150/Phi第二头：五条真实原列的非零纯权必要支持](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-five-generator-nonzero-original-weight-support.md)：d2de唯一1.451秒，原c3/c4及三实际动作整化五列，普遍adj返E2/E3/NV，固定模点det382付非零，度界u142/Q72/总142；全Fwt零集保留，未宣空性。
 
 - [R150/W b0：整个ell正阶排除及1009整单位](results/R150-appendix-unit211-W-b0-entire-ell-positive-exclusion-and-1009-integral-unit.md)：完整N5显式ell²正则因子支付全极点/T零支，唯一有限中心由57f37首执行两固定scalar及三原Bézout返1关闭；e,k,u,δ,Vbar,ell当前均为单位，不自动支付其他分母或全W空性。
 
@@ -95,21 +99,3 @@
 - [R150：正e k−2 ellunit有限μ只余一个原中心](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-ell-unit-finite-mu-one-residue-center.md)：2e9d9c唯一0.063387298秒/0完整三源返回，未付二次准确为(L−3/5)²；原q/R6代回仅μ−2，λ1/2,T−1/2。L3/half/1有限支全排，未排最终中心；L1pole两新局部jet首次派出。
 
 - [R150：正确Phi第二头完整odd N/P八列与两九原六次](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-complete-odd-NP-eight-columns-and-two-original-sextics.md)：唯一1de198运行21.923922683秒/0，8新列32坐标并入准确4×28呈示；两固定cofactor全9原返，λ6/6总66/71、权头60/65未付。全部共同约消零纤维保，无gcd/单位/全Phi空性。
-
-- [R150：正e单位k的完整剩余二次与±4中心全排](results/R150-appendix-unit211-W-b0-positive-e-unit-k-exact-residual-quadratic-and-k-plus-minus-four-exclusion.md)：原q2准确给h³μ²/9−4h(L−1)μ+2h²−3；h0直接矛盾，负四中心S=(μ+3)²/12、K原短除及余657支付单位，任意深M的R6阶γ/3γ矛盾。全文纸面，无旧初始理想重跑。
-
-- [R12：实际复逆幂、全旗共同强单位及平坦精确可除层](results/R12-appendix-accretive-complex-inverse-powers-flat-divisibility-layers-and-all-flag-sources.md)：新Reθ>0同Γ积分、有限组共同Eλ^k、Hk实际逆源/图核心；全喷射零但C^rLθ∉C^(r+1)C′。旧正实分数根不重计，原Y²=CLθ²仍开放。
-
-- [R150：正e、k−2整个ell极点的完整原排除](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-entire-ell-pole-original-exclusion.md)：vβ与ve三段、μ极点与任意深M全保；等阶一般中心完整N5/ell⁴与R6/ell⁵，经唯一3f9e实际0.030981101秒/0返两原Bézout(μ+1)²。k−2只余ell单位，整个W/有限DVR未付。
-
-- [R150：W/b0 正e负k整个对角射线的完整原排除](results/R150-appendix-unit211-W-b0-positive-e-negative-k-entire-diagonal-ray-exclusion.md)：Q一般只余1/3被完整N5排；Q1时δ与e²的全部相对阶、mu极点、H=1/3/−3与lambda双根相消全覆盖。原余788/254/16及同K矩矛盾，无新运行；当前仅余(1,0)和内部/DVR边界。
-
-- [R150：第二NV头二十完整同点列与原lambda五、六、六次式](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-twenty-original-columns-and-three-cofactors.md)：d20唯一4.379637371秒/0；真自由四元环境上20原来源/80坐标，三个固定cofactor全部反传七原分子。实际λ5/6/6、总40/36/39，21末分母全旧付；未付头35/30/33，无单位/gcd或整支排除。
-
-- [R150：W/b0 负e正k整个对角射线的完整原排除](results/R150-appendix-unit211-W-b0-negative-e-positive-k-entire-diagonal-ray-exclusion.md)：原q2/R6/完整N5，Q一般两三矩根余850；Q−2所有V相消只剩ell/e4=9/8后N5唯一极项；Q2完整L/M/C*降阶及μpole/整值深中心，末余863。无新运行，当前只余两权射线和内部/DVR边界。
-
-- [R150：W/b0 正e、k首值4的全部lambda极点由完整原切锥排除](results/R150-appendix-unit211-W-b0-positive-e-k-four-pole-complete-original-tangent-cone-exclusion.md)：唯一0.346877190秒/0返回三个原四阶式及完整余项；二次q分两线，R/N余215/576/487于1009非零，共同切锥仅0。最小赋值坐标与≥三阶余项付全部更深中心；故正e且k首值≠−2时λ必为单位。整ray仍开。
-
-- [R150：W/b0 正e、k首值−2中心的正ell排除与整位移](results/R150-appendix-unit211-W-b0-positive-e-k-minus-two-positive-ell-exclusion-and-integral-center.md)：原b0/q2/R6完整覆盖λ所有估值，vℓ>0迫D/K同阶2vℓ但R6项阶4vℓ/6vℓ不合；得到v(k+2)≥ve。Z=(k+2)/e真整，余ell单位/极点未闭。独立纸证无新执行。
-
-- [R150：W/b0 整个负k射线的原q2/R6/完整N5排除](results/R150-appendix-unit211-W-b0-entire-negative-k-ray-original-q2-R6-N5-exclusion.md)：u非零的整μ和全部pole、u0的所有u+2/k首项相消均覆盖；U1/2 pole由N5首值−1，u0两中心由唯一极项/301非零排除。纸证无新执行，当前仅余三条权ray及内部/分母DVR边界。

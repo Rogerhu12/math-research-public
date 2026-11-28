@@ -1,15 +1,20 @@
 {
-  "message": "ISP: exclude every ell-positive original boundary and prove ell is a 1009 integral unit",
-  "parentCommit": "d639390a5ffd1f2095e3840fb027c4d9e3303167",
+  "message": "ISP: prove a nonzero original weight support for the whole second Phi head and dispatch the remaining m-boundary fields",
+  "parentCommit": "98df101c0538fa9d6e6a8efc035564c88a6cc8f8",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-entire-ell-positive-exclusion-and-1009-integral-unit.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-ell-positive-unique-centre-three-original-scalars-receipt-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-entire-ell-integral-unit-2295-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-entire-ell-integral-unit-2295-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-five-generator-nonzero-original-weight-support.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-five-generator-original-commutator-weight-support-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-internal-m-positive-Q-two-complete-original-residue-fields-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-internal-m-positive-Q-two-complete-original-residue-fields-8542-input.md",
+    ".github/workflows/invariant-subspace-8542-w-m-positive-q-two-complete-original-fields.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-Phi-original-weight-support-2300-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-Phi-original-weight-support-2300-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-log-before-Phi-original-weight-support-2300-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-results-before-Phi-original-weight-support-2300-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -18,5 +23,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-m-positive-q-two-complete-original-fields.yml"
+  ]
 }

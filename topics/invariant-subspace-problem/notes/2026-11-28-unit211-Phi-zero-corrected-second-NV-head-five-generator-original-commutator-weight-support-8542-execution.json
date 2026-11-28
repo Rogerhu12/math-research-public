@@ -1,0 +1,633 @@
+{
+  "schema": "isp-original-phi-b2-five-generator-weight-support-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "status": "actual completed once; nonzero necessary pure-weight support only",
+  "repository": "Rogerhu12/math-research-public",
+  "source": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-second-NV-head-five-generator-original-commutator-weight-support-8542.py",
+    "git_blob": "d2de722a2e2dc270979676f3456876f9055b1b4e",
+    "sha256": "8b6155be7e54a2e84866869e9427a486731522583364f39aa2ccb7d8749dcb54",
+    "bytes": 16501,
+    "source_commit": "3a2ebf63bb0f459717d5e95af596599a6bad0367"
+  },
+  "input": {
+    "basename": "2026-11-28-unit211-Phi-zero-corrected-second-NV-head-five-generator-original-commutator-weight-support-8542-input.md",
+    "git_blob": "3a4bd3476eb3d4672a17d439d3baf9c24b5ba491",
+    "sha256": "ce46b66c7c5d1dfc4827ff7b513e21dbfda99eb768b3483c359a4fb6e6b72eae"
+  },
+  "execution": {
+    "workflow_run_id": "46182910418",
+    "job_id": "141096296646",
+    "attempt": "1",
+    "budget": {
+      "inner_seconds": 120,
+      "memory_bytes": 1073741824,
+      "outer_seconds": 135,
+      "dependencies": 0
+    },
+    "driver_elapsed_seconds": 1.4510202269999866,
+    "last_math_seconds": 1.3834710950000044,
+    "max_child_rss_kib": 46140,
+    "source_exit_code": 0,
+    "stop_reason": null,
+    "rules_reads": [
+      {
+        "after": "2931f7834c7708757ecfde8874dd8b2430a0f4e3",
+        "before": "3a2ebf63bb0f459717d5e95af596599a6bad0367",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T19:46:41.406741+00:00"
+      }
+    ],
+    "stdout": {
+      "bytes": 6315,
+      "sha256": "89039058145ab52b864603321a83fb5eaeb0c36570e6bfa45a9cb875f6b4e167",
+      "personally_fetched_all_four_records": true,
+      "reconstructed_stdout_bytes_and_sha_match": true
+    }
+  },
+  "result": {
+    "coefficient_ring_units": [
+      "Q",
+      "Q-1",
+      "u-1",
+      "Q+4(u-1)",
+      "L",
+      "Mn",
+      "uQ-L",
+      "3Q-2L"
+    ],
+    "L": "Q-2(u-1)(u-2)",
+    "Mn": "2uL-L^2-u^2Q",
+    "scope": "corrected physical Phi, whole B2 after independent ell=3/2 intersection exclusion",
+    "raw_originals": [
+      "E2",
+      "E3",
+      "complete_NV"
+    ],
+    "five_generators": [
+      "1",
+      "lambda",
+      "sigma",
+      "lambda^2",
+      "lambda*sigma"
+    ],
+    "head": "2 P02 m delta (3-2ell)",
+    "nonzero_commutator_seeds": [
+      3,
+      4
+    ],
+    "fixed_prime": 1009,
+    "fixed_weight_point": [
+      2,
+      2
+    ],
+    "paid_product_at_point": 625,
+    "processed_candidates": 11,
+    "selected_original_DAG": [
+      {
+        "basisIndex": 3,
+        "depth": 0,
+        "kind": "commutator",
+        "modPivot": 0,
+        "parent": null,
+        "selected": 0
+      },
+      {
+        "basisIndex": 4,
+        "depth": 0,
+        "kind": "commutator",
+        "modPivot": 1,
+        "parent": null,
+        "selected": 1
+      },
+      {
+        "basisIndex": null,
+        "depth": 1,
+        "kind": "lambda",
+        "modPivot": 2,
+        "parent": 0,
+        "selected": 2
+      },
+      {
+        "basisIndex": null,
+        "depth": 1,
+        "kind": "sigma",
+        "modPivot": 3,
+        "parent": 0,
+        "selected": 3
+      },
+      {
+        "basisIndex": null,
+        "depth": 2,
+        "kind": "sigma",
+        "modPivot": 4,
+        "parent": 2,
+        "selected": 4
+      }
+    ],
+    "rank": 5,
+    "integer_matrix": {
+      "columns": 5,
+      "entryProfilesSHA256": "a0991ac91cf3fd9a839e5853c6f88861c3d9c17ac57c7b456076bd344a70bda4",
+      "nonzeroEntries": 25,
+      "numeratorTerms": 6527,
+      "rows": 5
+    },
+    "determinant_mod_p": 382,
+    "determinant_definition": "Fwt=det B; B columns are actual selected original vectors, multiplied by their denominator LCM, rational coefficient clearing integer, and inverse positive integer content",
+    "universal_original_identity": "basis B_j=sum_r Omega[r,j] raw_r; B adj(B)e0=Fwt e0",
+    "degrees": {
+      "Q": {
+        "maxWeightPerfectMatching": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "upperBound": 72
+      },
+      "total": {
+        "maxWeightPerfectMatching": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "upperBound": 142
+      },
+      "u": {
+        "maxWeightPerfectMatching": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "upperBound": 142
+      }
+    },
+    "all_pure_weight_zero_fibers_retained": true,
+    "expanded_QQ_determinant_computed": false,
+    "QQ_factorization_or_gcd_computed": false,
+    "free_five_algebra_assumed": false,
+    "whole_B2_excluded": false,
+    "whole_Phi_excluded": false,
+    "statistics": {
+      "DAGOriginalReturns": 8,
+      "commutatorOriginalReturns": 5,
+      "exactPolynomialProducts": 8615,
+      "fiveActionColumns": 10,
+      "headInverseCoordinates": 32,
+      "integerColumnReturns": 5,
+      "modularInverseCoordinates": 50,
+      "oldPaidDenominatorChecks": 44,
+      "ordinaryNormalFormReturns": 10,
+      "rawNVIdentityReturns": 1
+    }
+  },
+  "math_records": [
+    {
+      "actionProfiles": [
+        {
+          "columns": 5,
+          "entryProfilesSHA256": "a13136345633f8d61569abe3d0490a68d539530f708e680ef7819d84ee47ab9d",
+          "nonzeroEntries": 13,
+          "numeratorTerms": 509,
+          "rows": 5
+        },
+        {
+          "columns": 5,
+          "entryProfilesSHA256": "af414007f2740041920e08d098ec592ea9e4cebe8fe9b238dec323ad78edc4e9",
+          "nonzeroEntries": 17,
+          "numeratorTerms": 466,
+          "rows": 5
+        }
+      ],
+      "allFiveDefectsReturnedToThreeOriginals": true,
+      "commutatorNonzeroColumns": [
+        3,
+        4
+      ],
+      "head": {
+        "denominator": {
+          "degrees": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "sha256": "875abbde7c4c59b317d1b6c8671febad51d210a9de7456fe6aab1dc197cbf808",
+          "terms": 1,
+          "totalDegree": 2
+        },
+        "numerator": {
+          "degrees": [
+            7,
+            4,
+            0,
+            0
+          ],
+          "sha256": "69d30b7295e4d2e1e3427aba2619f89a8fa8d177829853d28172cfc9312d21cd",
+          "terms": 31,
+          "totalDegree": 8
+        }
+      },
+      "noFreeOrCommutingMatrixAssumption": true,
+      "rawProfiles": [
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "sha256": "fb4eb943d5c1108596e2199a57fecaff32c3c94bb13305773054123f1b74d0a5",
+            "terms": 1,
+            "totalDegree": 1
+          },
+          "numerator": {
+            "degrees": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "sha256": "33c188ceb72d8ce5f2d6c944758aabf9fb2e41c9d3bf64a9e54718a090f6b9e6",
+            "terms": 29,
+            "totalDegree": 5
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "sha256": "fb4eb943d5c1108596e2199a57fecaff32c3c94bb13305773054123f1b74d0a5",
+            "terms": 1,
+            "totalDegree": 1
+          },
+          "numerator": {
+            "degrees": [
+              2,
+              2,
+              3,
+              3
+            ],
+            "sha256": "8c502d711cc4495e64c01295a41d68d4f70cac4da846f33fa84c10e45b34cb75",
+            "terms": 53,
+            "totalDegree": 6
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              2,
+              2,
+              0,
+              0
+            ],
+            "sha256": "b2e730c1c3e2917862ad67229a21259d1bd8d3ea965cf7bc7ecd2d88b5095be7",
+            "terms": 5,
+            "totalDegree": 3
+          },
+          "numerator": {
+            "degrees": [
+              6,
+              3,
+              3,
+              3
+            ],
+            "sha256": "b12ee46fb0142176377d89cb464c42f51368c8a22b5d2f636b46e25306f404e4",
+            "terms": 182,
+            "totalDegree": 10
+          }
+        }
+      ],
+      "scope": "corrected physical Phi, B2, ell!=3/2 already paid",
+      "seconds": 0.12301570599998968,
+      "stage": "new_global_B2_five_generator_original_actions_and_defects"
+    },
+    {
+      "allActualActionAndSeedDenominatorsChecked": true,
+      "noRankOrIdealOutcomeUsedToSelectPoint": true,
+      "p": 1009,
+      "paidValue": 625,
+      "point": [
+        2,
+        2
+      ],
+      "seconds": 0.1928171829999883,
+      "stage": "new_single_fixed_point_input_eligibility_complete"
+    },
+    {
+      "gaussianResidualsNeverUsedAsOriginalColumns": true,
+      "p": 1009,
+      "point": [
+        2,
+        2
+      ],
+      "processed": 11,
+      "rank": 5,
+      "seconds": 0.9912180689999843,
+      "selectedOriginalDAG": [
+        {
+          "basisIndex": 3,
+          "depth": 0,
+          "kind": "commutator",
+          "modPivot": 0,
+          "parent": null,
+          "selected": 0
+        },
+        {
+          "basisIndex": 4,
+          "depth": 0,
+          "kind": "commutator",
+          "modPivot": 1,
+          "parent": null,
+          "selected": 1
+        },
+        {
+          "basisIndex": null,
+          "depth": 1,
+          "kind": "lambda",
+          "modPivot": 2,
+          "parent": 0,
+          "selected": 2
+        },
+        {
+          "basisIndex": null,
+          "depth": 1,
+          "kind": "sigma",
+          "modPivot": 3,
+          "parent": 0,
+          "selected": 3
+        },
+        {
+          "basisIndex": null,
+          "depth": 2,
+          "kind": "sigma",
+          "modPivot": 4,
+          "parent": 2,
+          "selected": 4
+        }
+      ],
+      "stage": "new_fixed_point_original_commutator_DAG_selection",
+      "statistics": {
+        "DAGOriginalReturns": 8,
+        "commutatorOriginalReturns": 5,
+        "exactPolynomialProducts": 7744,
+        "fiveActionColumns": 10,
+        "headInverseCoordinates": 32,
+        "integerColumnReturns": 0,
+        "modularInverseCoordinates": 0,
+        "oldPaidDenominatorChecks": 40,
+        "ordinaryNormalFormReturns": 10,
+        "rawNVIdentityReturns": 1
+      }
+    },
+    {
+      "degreeBounds": {
+        "Q": {
+          "maxWeightPerfectMatching": [
+            0,
+            1,
+            3,
+            2,
+            4
+          ],
+          "upperBound": 72
+        },
+        "total": {
+          "maxWeightPerfectMatching": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "upperBound": 142
+        },
+        "u": {
+          "maxWeightPerfectMatching": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "upperBound": 142
+        }
+      },
+      "determinantDefinition": "F(u,Q)=det(B(u,Q)); B is the exact five integer polynomial original columns",
+      "determinantModuloP": 382,
+      "entirePureWeightZeroSetRetained": true,
+      "integerMatrixProfile": {
+        "columns": 5,
+        "entryProfilesSHA256": "a0991ac91cf3fd9a839e5853c6f88861c3d9c17ac57c7b456076bd344a70bda4",
+        "nonzeroEntries": 25,
+        "numeratorTerms": 6527,
+        "rows": 5
+      },
+      "noExpandedQQDeterminant": true,
+      "noFreeFiveAlgebraAssumed": true,
+      "noWholeSecondHeadExclusion": true,
+      "originalSecondHeadAllPaidWeightChartsIncluded": true,
+      "originalThreeMultiplierProfiles": [
+        {
+          "columns": 3,
+          "entryProfilesSHA256": "c12fdd0a3efc33233655507fd7ddeb4d65f27cdeb0b293ad788dfeec212c9404",
+          "nonzeroEntries": 3,
+          "numeratorTerms": 1605,
+          "rows": 1
+        },
+        {
+          "columns": 3,
+          "entryProfilesSHA256": "abf7debf721d52a6a1a401d808e54c3b215cf7e01902c83f6ebdc78184472795",
+          "nonzeroEntries": 3,
+          "numeratorTerms": 1477,
+          "rows": 1
+        },
+        {
+          "columns": 3,
+          "entryProfilesSHA256": "114261eb01fc7822b301c233f6072857710d0c7e3ec5d027dac0d258ef47fe9b",
+          "nonzeroEntries": 3,
+          "numeratorTerms": 3840,
+          "rows": 1
+        },
+        {
+          "columns": 3,
+          "entryProfilesSHA256": "045b9c5600a0943601cb03145612b2216608c7420bcfadd944641e36dfcf8871",
+          "nonzeroEntries": 3,
+          "numeratorTerms": 4445,
+          "rows": 1
+        },
+        {
+          "columns": 3,
+          "entryProfilesSHA256": "237fb4101d22bd6102c3c21993cafa3d15bb249952f0b6c460b420c775615a67",
+          "nonzeroEntries": 3,
+          "numeratorTerms": 8918,
+          "rows": 1
+        }
+      ],
+      "p": 1009,
+      "point": [
+        2,
+        2
+      ],
+      "seconds": 1.3834710950000044,
+      "selectedColumnScales": [
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              15,
+              10,
+              0,
+              0
+            ],
+            "sha256": "446008b89b9cad72f52a83e131ab92ca5fb122bb85de763a6c05becf2be22fa6",
+            "terms": 130,
+            "totalDegree": 17
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              15,
+              10,
+              0,
+              0
+            ],
+            "sha256": "ea6f3a94851fdc827052476ed23d921194e5db27d9df5f8cdb4bc676022b0b94",
+            "terms": 130,
+            "totalDegree": 17
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              21,
+              14,
+              0,
+              0
+            ],
+            "sha256": "b0a41d28c77782fd566765979cc8bb46d6180156fd16aef20dea9e1553bd696e",
+            "terms": 230,
+            "totalDegree": 23
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              22,
+              15,
+              0,
+              0
+            ],
+            "sha256": "6f20a25998c4b3496be23ed47541d261b9ed1bc5503fd87380910b2a67d4f79e",
+            "terms": 268,
+            "totalDegree": 25
+          }
+        },
+        {
+          "denominator": {
+            "degrees": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "85ba3945e5e6cb8eec471231aab1eeb677edd9175964ce33b8996ecd767db937",
+            "terms": 1,
+            "totalDegree": 0
+          },
+          "numerator": {
+            "degrees": [
+              29,
+              19,
+              0,
+              0
+            ],
+            "sha256": "0451d35dca6ee47540bc65198c352a3159c1121bc042b77cf3d20f43629ef6a0",
+            "terms": 428,
+            "totalDegree": 32
+          }
+        }
+      ],
+      "stage": "new_global_B2_nonzero_five_by_five_original_weight_support",
+      "statistics": {
+        "DAGOriginalReturns": 8,
+        "commutatorOriginalReturns": 5,
+        "exactPolynomialProducts": 8615,
+        "fiveActionColumns": 10,
+        "headInverseCoordinates": 32,
+        "integerColumnReturns": 5,
+        "modularInverseCoordinates": 50,
+        "oldPaidDenominatorChecks": 44,
+        "ordinaryNormalFormReturns": 10,
+        "rawNVIdentityReturns": 1
+      },
+      "universalOriginalIdentity": "basis^T B_j=sum_r Omega[r,j]*RAW[r]; B adj(B)e0=F e0"
+    }
+  ],
+  "formal": {
+    "leaf": "R150-appendix-unit211-Phi-zero-corrected-second-NV-head-five-generator-nonzero-original-weight-support.md",
+    "git_blob": "0828a70e0556873abc19b6d6c8b9648168c045a5",
+    "sha256": "e6e4f4798a3802ed9aac20d303df0a89485341e20068869a11cd59bddd061098"
+  },
+  "contains_coefficient_payload": false,
+  "ordinary_isp_claim": false
+}

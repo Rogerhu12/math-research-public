@@ -1,63 +1,6 @@
 # 研究日志
 
-此前全部日志见[完整快照](notes/2026-11-29-log-before-Phi-global-second-head-five-generators-2250-8542.md)及其归档链。
-
-2026-11-29 02:48 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2195实际maina3c12beb685a101f99c112f1a6ac1b330636a751，run46177523793/job141079494361；18:45:24 UTC pullb30c290c42c366f3eaccfaebb6500e2ade231d1c两README无变，私库QUEUE进行中，唯一singleton中心首派204。
-- e394整内部u正阶稿根全文核，567c两个实际记录已读；原Ast非零与µ0范围准确，唯一g1/d³三源身份合完整纸面分层，全支现闭。保存全H/open/log/results快照，现用log/索引按规则压缩。
-- 新4208中心run46177571185/job141079641729内层0.089001207秒/39412KiB/0，全两记录1773B/SHA99ad5a98995710d8ef177f239f03e4a9e3ec2c96bef36500eccbb9eec995f277，明确两完整三次及二次乘子给1，物理f所有根均排；整正e合成稿立即写。
-- 后继原δ0与Vbar0边界分工，已成一般ellpole原q/R引理共同复用；Haar转一般flat主理想范数接口，Phi核整ell3/2新原图。普通ISP未完成。
-
-2026-11-29 02:51 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2200实际mainede00299c74ac6ceb90ee056fdaf6c289ca4dd65，run46177818919/job141080399269；18:48:40 UTC pullf0ecac013190a068d761c9690ee1069e1bb89ceb两README无变，私库QUEUE进行中。
-- 末中心完整p0=[74,677,529,48]、p1=[305,919,5,646]及a=[749,234,793]、b=[513,503,822]真实返a p0+b p1=1。仅用实际2记录，不再计算已成gcd；整正e所有k/λ/f分支合成稿完成。
-- 根全文静读86aa既有Newton穷尽性原证明，复用旧五ray排除；得全部原W/b0点任意1009位置e,k单位，加已闭u正阶得u单位，不冒称其它原分母/整模型已付。
-- 后继δ与Vbar内部正阶按同点原q/R/N5分工；Haar实际主理想范数商稿在排队，Phi整ell3/2新原四次结构继续。普通ISP未完成。
-
-2026-11-29 02:52 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2205实际maine519c4d0cb07989f6cdeade93546f1a19f555999，run46178124185/job141081355298；18:52:09 UTC pullf84a2f1a31a65c4ff756b7b0bf81ef08bcee3776两README无变，私库QUEUE进行中。
-- 7707ad根全文核同一零阶尾块嵌套、原X−I⊗Φ∈CA与完整回绕Φ(CR)≤wL||R||，推出准确范数距离及固定放大完全等距；仅按作者修链接标签为完整喷射平坦理想，数学未改。
-- 新一般平方来源保下一原头列，P⁴∈closure(C C′)是闭包中的四次幂必要条件；没有抹掉幂零商可能性，没有推出P小或实际除法，Q*与其它整数幂共同来源继续。
-- W统一ellpole原q/R排除纸证已成，Vbar正阶仅余U1/2,k−4有限ell；δ分支和Phi整ell3/2原图并行。普通ISP未完成。
-
-2026-11-29 03:00 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2210实际maind5810681fefc85324924c2162112840e2757447b，run46178231845/job141081690786；18:53:23 UTC pull66ef83afa4b3269e8369abc0d56312ec2999bdf3两README无变，私库QUEUE进行中。
-- 新原q2/ell³=BQ(µ²−1)+2βEA2−8uQ³δβ²µ²/A²准确，完整R6两阶分别排µ±1；与e,k,u单位合全ell整性，包含δ深中心，不重已有极点门。
-- Vbar图原权正则化r,s,z后仅U1/2,k−4、L3/4+z。原q/R排L0、7/4深Ast、1/2深m、1/4深Phi；纸面模常数710/406及两Phi原R值全部非零，未用对应分母逆。
-- 余M两中心的mu极点可由q头与8L²−4L+1直接排，有限M和一般pole/有限mu待不同原输入；δ与Phi新原图继续。普通ISP未完成。
-
-2026-11-29 03:06 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2215实际maind8bc6acbc31102273549a74cfc130911cec5eb54，run46178860772/job141083658126；19:00:55 UTC pull32d4771e99a0735979b5f44119f5367a9b1a20eb两README无变，私库QUEUE进行中。
-- 新W δ正阶/U1/2整支f2f29完整原b0/q2/R6/N5纸证明，q余项理想保任意赋值比例，深M两支独立排，末N5常数1/72与2/9；不重跑旧门、不假定物理f0。
-- Phi新原B2∩ell3/2 c8e84/c8cff固定120秒/1GiB/outer135首次派，四次矩代数/原NV u²/真t²/八完整原行与正目标保全部重数；待实际返回，未预报空。
-- 课题外新增上述单目标workflow以运行该新输入，保真实部分克隆/pull/README检查；δ余Ast与一般有限µ、Vbar余M与µ、Haar不同flat实际平方来源继续。
-
-2026-11-29 03:10 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2220实际main5699f32c124a5a9c2ca57bf6305eb6a7cadbd01c，run46179417855/job141085371168；19:06:56 UTC pull d6aa32cf143dffbfc96e765f904d81785645536c两README无变，私库QUEUE进行中；19:07终端真实复探仍无环境。
-- 新W δ/Ast全正阶纸稿16f694由完整N5归一恒等式及余项理想排尽任意µ极点/零/正阶/有限值，非零首项4UL²(2U−1)/3与−2UL²(6U+1)，未倒Ast首值。
-- Vbar新7fe1完整M零D/K/F和M单位µpole q/R/N5三头，两固定新目标30秒/256MiB唯一首派；课题外新增该workflow，保真实pull及规则检查。
-- Phi c8e84实际run46179464150完整128原列及三mean乘子返1，整B2∩ell3/2闭、非一般ell3/2；根已读全部5445B日志与SHA相符，正式稿随即登记。
-
-2026-11-29 03:12 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2225实际main0316baaf324d5e6d556df1db3d372d507ab32e8d，run46179811748/job141086587938；19:11:24 UTC真实pull f0c1a0d555e94f5976b2d6efad0406898e64bc1a两README无变。源已推，但workflow名大写M违反现有派发命名限制，数学源未执行；本次改合规小写名首次派发，不改守卫。
-- 新Haar2c0a2完整Pauli/全部carry/原增生能量给F_N真收缩与同L范数误差，可和尾积实际Rn∈∩C^k C′、每个有界除商及全旗准亲和。
-- 同列Rn对Reθ>0任意紧集||(I−Rn)Pθ||范数趋零，得显式Pθ∈closureF\CA；不复开已排平方分子，无新Haar执行。课题外小写workflow仅修同源首次派发，原普通格/一般flat平方源继续。
-
-2026-11-29 03:14 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2230实际main41d53fe1b3de06af0e4b6f5fdd484ac57df522a4，run46180002684/job141087174990；19:13:31 UTC pull867860b50c2ead98b35fd97f32f5ffda227e7fe9两README无变，私库QUEUE进行中。
-- Phi c8e84新整交集定理cbd49与小receipt1beaf登记；P4单QQ四次、真实u二次无paid删除、真t²，128原列完整返后仅三mean乘子在A[t]返1；不是由rank或布尔猜排空，未宣一般ell3/2。
-- W Vbar7fe1唯一run46180054993/job141087354966实际0.085350214秒/39484KiB/0；D/K/F及µpole原三头各返1，M全单位/µ整，剩余一般有限µ转全q/R/N5新输入；此前命名拒派无数学启动。
-
-2026-11-29 03:19 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2235实际main3974ef95c971f0dbac2a41110a013a81d38e64db，run46180177332/job141087736693；19:15:31 UTC真实pull1d8acee9f95c17d87b421439e5d2808f5c46f120两README无变，私库QUEUE进行中。
-- 新Vbar7fe1两原目标唯一run46180054993真0.085350214秒/0，全部9864B数学日志与SHA匹配；D/K/F原返1及µpole原三头返1，完整证明全M单位与µ整，未宣有限µ空。
-- Vbar有限µ新fbf84固定两Sylvester+伪余楔积全q/R/N5；δ一般S开图新b2a完整同µ q/R/N5交叉+两norm；各120秒/1GiB/outer135唯一首派，课题外新增两单目标workflow。
-- δ的ell0/Phi0补图纸稿待登记，Phi第二头新projective最高项支付和Haar实际QM范数来源继续；无已成门重放，无普通ISP完成声明。
-
-2026-11-29 03:21 Asia/Taipei｜Astra-ISP-8542378f-20261127
-- 2240实际main0465476f3dbeb52b217ed78fc61d41a58349a761，run46180545655/job141088875827；19:19:44 UTC pullaa832c7de568c3d7acfed4dc2d1755ee393cdb49两README无变，私库QUEUE进行中。
-- 新δ整ell零/Phi零补图452d85纯原q/R证明，ell正阶保所有µ极点/有限值；Phi U3/4原二次与R余线性回代22901535模1009=262，未用Phi逆或N5。
-- Vbar fbf84实际0.160428316秒/0、δ b2a实际10.529501826秒/0，各全日志12265B/6890B与SHA匹配，原单位均返；整Vbar/δ总稿紧接登记，已成功门不重做。
+此前全部日志见[完整快照](notes/2026-11-29-log-before-Phi-original-weight-support-2300-8542.md)及其归档链。
 
 2026-11-29 03:23 Asia/Taipei｜Astra-ISP-8542378f-20261127
 - 2245实际main7cb2d7804f09fd18a743d98c5a3b3b66b484250e，run46180764988/job141089543787；19:22:09 UTC pull1c5816c595228da5cf79808708eb2c3482de3533两README无变，私库QUEUE进行中。
@@ -116,3 +59,9 @@
 - ell整支新总证明：唯一57f37 run46183268767/job141097425326真0.106816613秒/39244KiB/0，stdout10905B/SHAe6330daf全匹配；完整N5因子/15cofactor坐标/7原返回/22p整性全部完成。
 - 两个固定scalar度12/15仅除已付A2得10/13，首次Fp joint1，三个完整原乘子非零且den仅A2；结合已证全部极点/T零补图，整个ell正阶关闭并付ell整单位。
 - 当前e,k,u,δ,Vbar,ell单位；root转大M正阶，geometry续m/Q2，Phi纯权支持正式稿接着登记，Haar继续实际同Ω奇列与新原row输入；无旧门重放。
+
+2026-11-29 04:02 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2295实际main0f24866532778c7449271b2a3b4349741dc57150，run46183551631/job141098296418；19:54:27 UTC pull827abc749bd4d3fdb64cfc0237b4da2b5ba67f46两README无变，私库QUEUE进行中。
+- Phi0828/e3f6正式登记：d2de唯一run46182910418/job141096296646真1.451020227秒/46140KiB/0，完整五原整列及15标签给Fwt∈原理想，det382模非零，度上界142/72/142，全部零纤维保。
+- m/Q2新8634/8218首次120秒/1GiB固定5阶全原投影/全Fp域/µ-f-σ有限模型/十二原target1；未预记结果。课题外仅新增本题workflow；原source冻结字节未改。
+- 完整归档H/open/log/results保全部来源；root大M正阶全纸源、Phi真E1/N1新值结构、Haar同Ω奇列与原row输入继续，无旧门重放。
