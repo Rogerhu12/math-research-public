@@ -452,3 +452,15 @@ heavy task with the same input and resource limits. No v15 rerun is requested.
 A later actual v16 result must authenticate its own source, both original
 PASS receipts, all unchanged mathematical gates, and every new row and outer
 usage identity before any production PASS can be recorded.
+
+
+## 10. Actual v16 startup identity
+
+The activation commit is `0b550a6b1818b7875ceb5674fd8a8b2c080203b4`.
+The actual push run is `46126639698`, job `140922574854`, created at
+`2026-11-28T08:36:48Z`. The root independently fetched the API state:
+checkout and the pinned image pull succeeded, and the original authentication
+and mathematical step is in progress. The first returned public log was not
+yet readable at this checkpoint. The source set was statically reviewed, but
+its actual host binding and both old PASS authentications will be recorded
+only after their real log records are readable. No mathematical PASS is claimed.

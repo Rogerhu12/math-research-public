@@ -493,3 +493,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### 原厚点 v15 终态及 v16 的实际来源范围
 
 v15真实completed/failure：run46112816717/job140879915022，首306×306/d16官方分母HNF开始后未返回，08:24:51 UTC solver137；不以137判OOM。root核完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56，以及两原PASS/69源、9厚纤维支持、11primary、24residue、44operator。现按[完整v16来源与验收](2026-11-28-original-streamed-shadow-production-v16.md)发布同一workflow的逐行返回：74源均核、全P/H/余数/content/每行XMD保留，四选定图加四post-ideal outer，原F_y与全部后门不变。小软件9.9秒不推断306性能，生产尚无PASS。
+
+
+### R1068 §§10–14：原δ有理核、全shift和全角矩阵
+
+R1068 §§10–14给原δ三同源上的完整有理核Rδ=D102/S34(δz)，准确约去(X+4)A3后仍保O二极、两三挠五极及全部其它有限极。全theta lift刚性化与原Haar dual给λε=λ∨，物理完整连接准确相消，原负二读数返同一S34的全部shifted槽，保(−1)^k(k+1)!、δ^(−2−k)、全部Δ carry、独立H+、old及全Maass。首p−1层完整Cartier矩阵为kδB−=R0B+δ+ΣRaS(d−a)δ，R6(0)=89/189单位；原bad没有赋其余角零。三挠点准确零阶还排除正则系数≤4阶Darboux代换，二阶若带极至少补三阶费用。 [原完整证明](../results/R1068-original-b18-katz-inverse-and-hall-coefficients.md)。

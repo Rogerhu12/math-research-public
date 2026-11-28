@@ -484,3 +484,447 @@ R716/R1067 的原通常全 Sha 桥返回，不把这些辅助 section
 ### 后继范围收紧（R1067 §14.1）
 
 R1067(52)以同一实际共同中心、完整有限 jet 和首挠点域的 $\mu_d$ 下降证明，不假设 Hall 为零就有 $M_1-M_0\in p\mathcal O_F$，即 $U_q a_\Delta-pa_0\in p^2\mathcal O_F$。因此(B25a)在精确零分支的额外一个 $p$，对本题完整来源已由旧域下降强制，不能再算独立新增的 canonical 坏约束。本文(B23)–(B25)的实际整逆和同点有限系数式仍全部成立；它们负责将原行准确返回，尚未给更深组合或全和非零。
+
+## 10. 原三同源上的同次数比值：完整有理函数与有限极
+
+本节固定(B1)–(B5)的同一个 \(S=S_{34}\) 和原两个三挠词的完整和
+\(D=D_{102}\)。仍令 \(X=x^3\)、\(\delta=1+2\omega\)；
+\(\delta^2=-3\)、\(N\delta=3\)，且 \(\delta\equiv1\bmod2\)。
+这里使用真正的全局三同源，不另换一份同角色 theta 向量。
+
+原 psi4 来源注(24)–(25)已经给出
+$$
+ \sigma(\delta z)=\delta x(z)\sigma(z)^3,\qquad
+ x_\delta=-\frac{X+4}{3x^2},\qquad
+ X_\delta=-\frac{(X+4)^3}{27X^2}.
+ \tag{C1}
+$$
+置
+$$
+ \begin{aligned}
+ A_3(X)&=X^3+228X^2+48X+64,\\
+ Q_6(X)&=7(X+4)^6+108X^2(X+4)^3+11664X^4 .
+ \end{aligned}
+ \tag{C2}
+$$
+直接代入(B1)，逐因子得到
+$$
+ \begin{aligned}
+ X_\delta+1&=-\frac{(X+1)(X-8)^2}{27X^2},\\
+ X_\delta-8&=-\frac{A_3(X)}{27X^2},\\
+ 7X_\delta^2-4X_\delta+16&=\frac{Q_6(X)}{729X^4},\\
+ S(\delta z)&=-\frac{27}{7}\sigma(z)^{102}
+ X^2(X+4)^2(X+1)(X-8)^2 A_3(X)Q_6(X).
+ \end{aligned}
+ \tag{C3}
+$$
+常数的符号也固定：\(\delta^{34}=(-3)^{17}\)，所以最后一式
+在原点首项为 \(-27z^6=\delta^6z^6\)。
+
+(B3)还允许消去两份真实公因子，而不扩大既有共同因子结论。
+每一项都含 \((y-\delta)(y+\delta)=X+4\)；在 \(y=\delta\)
+或 \(y=-\delta\) 时，只有 \(a=1\) 的一支贡献一阶项，系数非零。
+故 \(X+4\) 是 \(P_{14}\) 的简单因子。
+
+\(A_3\) 的几何消去也可直接由原两词证明。若
+\(x(\delta P)^3=8\)，则 \(R=\delta P\) 是原 \(x^3=8\) 的六挠点。
+倍点公式给 \([2]R=\pm q_3\)，其中 \(q_3=(0,1)\)。
+因此 \(R+q_3,R-q_3\) 中，一点为非零二挠点，另一点为 \(-R\)。
+原 \(D_{\rm old}\) 在前者有二重零，在后者有一重零：
+这是其完整因子
+\(x(X+1)(X-8)(X^3-30X^2-144X-32)\) 的直接结果。
+两个真实 Weyl multiplier 在这些点都正则且非零。
+三同源为 étale，故两词之和在每个这样的 \(P\) 恰有一重零，
+没有两份一次项可相消。它们正好是 \(A_3(X)=0\) 的全部点。
+于是
+$$
+ P_{14}(X)=(X+4)A_3(X)J_{10}(X),\qquad
+ J_{10}\in\mathbf Z[1/2,1/3,1/7][X]\text{ 首一，次数十}.
+ \tag{C4}
+$$
+这只用 monic 除法及原两词；不另存一个拟合多项式。
+
+因此同一次数线丛中的准确比值为
+$$
+ \boxed{
+ \mathscr R_\delta(P):=\frac{D(z)}{S(\delta z)}
+  =-\frac7{27}\,
+       \frac{xJ_{10}(X)}
+         {X^2(X+4)(X-8)Q_6(X)}
+       \in\mathbf Q(E_0).
+ }
+ \tag{C5}
+$$
+它不是一份仅在原点定义的 formal 比值。
+在 \(O\) 的完整前两项由(B10)给
+$$
+ \mathscr R_\delta(z)
+ =-\frac1{27}z^{-2}
+      \left(1-\frac{89}{7}z^6+O(z^{12})\right).
+ \tag{C6}
+$$
+原点的极准确为二。其余有限极仍由(C5)保留，不能删掉：
+
+- 在 \(q_3,-q_3\)，极准确为五。
+- 在 \(X=-4\) 的六点，极准确为一。
+- 在 \(X=8\) 及 \(Q_6(X)=0\) 的点，(C5)给至多一阶极；
+  若 \(J_{10}\) 有额外共同零，则按(C5)真实相消，不预设互素。
+- 没有表外的极。
+
+第一项可直接核常数，而不只数除子：(B3)在 \(x=0,y=1\)
+的 \(x\) 系数给
+\(P_{16}(0)=-2^{31}/49\)，故
+\(P_{14}(0)=2^{28}/49\)、\(J_{10}(0)=2^{20}/49\)。
+(C5)遂在两点均为
+\(\mathscr R_\delta=(8/1323)x^{-5}+\cdots\)。
+\(Q_6\) 的根为原 \(7X^2-4X+16\) 的三同源逆像；
+该目标不在 \(x^3=-1\) 或无穷，故这些根简单。
+本节所有 formal 整性只使用固定分母 \(2,3,7\)，当前 \(p>211\)
+时无新坏位。
+
+## 11. 实际 delta 拉回框架、p² lift 与完整中心
+
+使用(B12)的严格参数 \(v\)、\(h(v)=v/T_{\rm g}(w(v))\)，
+\(P(v)=[p](v)=pv-v^q\)。记
+$$
+ \mathscr H(v)=\frac{\sigma(z(v))}{h(v)},\qquad
+ K_\delta(v)=
+       \frac{\mathscr H(v)^{102}}{\mathscr H([\delta]v)^{34}} .
+$$
+由(C1)消去 sigma，得到完全整的表达
+$$
+ \boxed{
+ K_\delta(v)=
+ \left(\frac{h([\delta]v)}{\delta x(v)h(v)^3}\right)^{34}
+       \in1+v\mathcal O_L[[v]],\qquad K_\delta^{-1}\in\mathcal O_L[[v]].
+ }
+ \tag{C7}
+$$
+确切地，
+\(V_\delta=\delta x(v)v^3/[\delta]v\) 是首值1的整单位，
+所以(C7)也等于
+\(\{T_{\rm g}(w(v))^3/
+[T_{\rm g}(w([\delta]v))V_\delta]\}^{34}\)。
+这里保留完整 \(T_{\rm g}\)；不只比较第一 Gaussian。
+
+原 \(E_{\rm c}\) 和 \(z(v)/v\) 都按 \(\mu_d\) 不变，
+\([\delta]\) 与该群交换，故
+$$
+ K_\delta(v)=k_\delta(W),\qquad W=v^d,\qquad
+ k_\delta\in1+W\mathcal O_L[[W]] .
+ \tag{C8}
+$$
+
+令 \(T\in E[p^2]\)、\(Q=pT\ne O\)。
+原对称 order-\(p^2\) theta lift 的唯一性
+R1062(G52)–(G54)用于
+\([\delta]^*\mathcal L_{34}\simeq\mathcal L_{102}\)，给
+$$
+ m_{102,T}(v)=m_{34,\delta T}([\delta]v)\,
+   \frac{K_\delta(P(v)\oplus Q)}{K_\delta(P(v))}.
+ \tag{C9}
+$$
+这是整 theta group 上的恒等式，不只在 generic 点成立：
+三同源及线丛识别均在原 good 模型上整，
+刚性化首值由(C7)为1；两个 lift 覆盖同一点且满足同一
+对称/order条件，其比同时平方为1、\(p^2\) 次方为1，所以为1。
+配对也完全匹配，因为 \(34N\delta=102\) 是整数等式，
+不是只模 \(p\) 的同余。
+
+若原标记使用另一个实际 \(T'\) 且 \(pT'=\delta Q\)，
+令 \(R=T'-\delta T\in E[p]\)，保实际物理点的 Weil pairing
+\(E_q=e_{p^2}\)，并定义
+$$
+ \epsilon_{\delta,T}=E_q(\delta T,R)^{17}.
+ \tag{C10}
+$$
+R1062(G54)的方向为
+\(s_N(T+R)=E_q(T,R)^{-N/2}s_N(T)s_N(R)\)，
+而 \(s_N(R)\) 是原 \([p]\)-pull 的核线性化。
+故(C9)换成 \(T'\) 时恰多乘(C10)，没有任意重选的根单位。
+
+写 \(f_{102}=h^{102}R_-\)、\(f_{34}=h^{34}R_S\)。
+由(C5)与(C7)，
+\(f_{102}=K_\delta^{-1}\mathscr R_\delta\, f_{34}\circ[\delta]\)。
+于是实际整来源准确满足
+$$
+ \boxed{
+ A_{102,T}(v)=
+   \epsilon_{\delta,T}A_{34,T'}([\delta]v)\,
+       \frac{\mathscr R_\delta(P(v)\oplus Q)}{K_\delta(P(v))}.
+ }
+ \tag{C11}
+$$
+右端的 meromorphic 因子单独有极；
+整性来自其与同一个 \(A_{34,T'}\) 的实际乘积，
+不把 \(\mathscr R_\delta\) 自身称为整 Katz 单位。
+
+按 R1065(W20)–(W22)的全部连接，
+\(A_{N,T}(v)=a_N(P(v))\mathscr F_{N,T}(pz(v))\)，
+\(a_N=(h/\sigma)^N\)。
+(C7)恰使这两份完整连接相消，给物理变量中的全式
+$$
+ \boxed{
+ \mathscr F_{102,T}(u)
+   =\epsilon_{\delta,T}\,
+       \mathscr F_{34,T'}(\delta u)\,
+              \mathscr R_\delta(v(u)\oplus Q).
+ }
+ \tag{C12}
+$$
+所有 \(Z_Q\)、\(\Gamma\)、Miller 高项及原中心都包含在(C12)。
+它不是从局部主项猜出的关系。
+
+## 12. 原 Haar-dual Hall 字的 delta 返回
+
+以下只重标原负 Hall covector，不把负模型改成另一条正模型。
+在 R716 的 physical 标签中，以
+$$
+ h_N(x+y\omega)=((x+y)/3,\,(3N/2)(x-y))
+$$
+记录完整 Heisenberg 位移；\(\det h_N=-N\)。
+因此
+$$
+ M_\delta=h_{34}[\delta]h_{102}^{-1}\in{\rm SL}_2(\mathbf Z_p).
+ \tag{C13}
+$$
+原 Weil 作用在 Heisenberg 参数上是逆转置，所以实际元素为
+\(g_\delta=M_\delta^{-{\rm t}}\)。
+它固定原标准球：整 unipotent、单位对角及 self-dual Fourier
+的原公式分别固定球，给整个 \({\rm SL}_2(\mathbf Z_p)\) 的
+准确相位1。这与 R1062(G80)相同，未另选 splitting。
+
+负模型取完整 contragredient，故(C13)在原负 Hall 基上也给
+唯一的绝对运输；改代表的相位是对应正模相位的逆。
+原字符 \(\chi_r\) 为 \(p\) 阶、anticyclotomic、tame-zero，
+而 \(\delta/\bar\delta=-1\)，所以
+\(\chi_r(\delta)^2=\chi_r(-1)=1\)，进而
+\(\chi_r(\delta)=1\)。
+同时
+\(102\,N(v)=34\,N(\delta v)\)，
+故负 Norm \(r/3\) 轨道准确送到 Norm \(r\) 轨道，原 wild 字不变。
+
+设原负字为 \(\lambda^-_T A_{102,T}\)。
+把 Haar-dual covector 按(C13)完整 push 到 degree34，所得标签记作
+\(\lambda^{\vee}_{T'}\)。由 R716(24)–(25)的代表变更及(C10)，
+准确有
+$$
+ \boxed{\lambda^-_T\epsilon_{\delta,T}
+             =\lambda^\vee_{T'},\qquad pT'=\delta pT.}
+ \tag{C14}
+$$
+这个 \(\vee\) 是原实际 Haar bilinear dual：
+并未将其认成原正 Hall 向量，亦未额外再共轭一次。
+原反 CM 图此时仍是
+\(\gamma_{34}=\omega\,c\)，它只固定两侧点的标记关系；
+R1063(I16)–(I18)中的两个 Hall 和仍相互独立。
+
+原两个 coherent 参数的尺度也相同地返回。
+R1063(I13)准确给
+\(\delta\ell_-=\ell_+\)，在 \(E_0\) 模型亦有
+\(\delta L_-=L_+\)。
+故(C12)的参考函数 \(\mathscr F_{34,T'}(\delta u)\) 在负槽中
+确实使用同一个 canonical \(S_{34}\) coherent 参数；
+原负来源与正来源的固定 raw 幅度仍是 I11/I18a 的原数，
+没有因(C14)删除。
+
+## 13. 原负二读者的全部 shifted canonical 槽
+
+对 \(Q\ne O\)，由(C5)的 monic 形式和固定分母，
+$$
+ \mathscr R_\delta(v)=-\frac1{27}v^{-2}
+                  (1+v^6\mathcal O_L[[v^6]]) .
+$$
+定义
+$$
+ r_Q=\mathscr R_\delta(Q),\qquad
+ \frac{\mathscr R_\delta(v(u)\oplus Q)}{r_Q}
+       =\sum_{k\ge0}h_{Q,k}u^k,\qquad h_{Q,0}=1 .
+ \tag{C15}
+$$
+在每个严格 \(|u|\le R<R_E=p^{-1/\Delta}\) 上，该比及逆均为
+norm1 的解析单位。因为所有固定非原点极在 formal 单位盘之外，
+只需保 \((v(u)\oplus Q)/v_Q\) 的实际二极；
+该比在严格内盘可逆。原 \(u\leftrightarrow v\) 在此等距，
+所以对全部 \(k\)
+$$
+ v_p(r_Q)=-2/\Delta,\qquad
+ v_p(h_{Q,k})\ge-k/\Delta.
+ \tag{C16}
+$$
+这是普通 Taylor 系数界，无额外 \(k!\)。
+
+取原 \(\Pi^\Delta=p^p\)、\(b=p/\Pi\)。
+按 R1062(G70)–(G72)保全部 \(\Delta\) 块，
+\(m_r(t)=r+\Delta t\)。
+参考块 \(\mathbf G^\delta_{S,T'}\) 在非负整数权读
+\(b^mD_u^m\mathscr F_{34,T'}(\delta u)|_0\)；
+其全 germ 使用原
+\(B_{34,T'}(b\,34\delta Z_{\delta Q})^{[r]}(m)
+ \mathcal F_{34,\delta Q}(m)\)。
+\((b\,34\delta Z_{\delta Q})^\Delta\) 是
+\(1+\mathfrak m^\eta\) 的主单位，沿 R1062/R1066 的共同原分量，
+不另开根单位方向。
+
+唯一写 \(r-k=r_k-\Delta l_k\)，\(0\le r_k<\Delta\)。
+(C12)的完整 Leibniz 式于是给
+$$
+ \boxed{
+ G_{D,T,r}(t)=\epsilon_{\delta,T}r_Q
+  \sum_{k\ge0} b^kh_{Q,k}(r+\Delta t)_k
+       G^\delta_{S,T',r_k}(t-l_k).
+ }
+ \tag{C17}
+$$
+第 \(k\) 项至少获得 \(k\eta\)，故在闭单位 \(t\) 盘一致收敛，
+并可逐项求导。逆比给同样的反向算子。
+证明先用每个非负整数权的有限 Leibniz 和，
+再逐块用真正的原 Tate 函数和一致尾；没有调用已撤的
+usual-depleted 正权延拓。
+
+取 \(r=\Delta-2,t=-1\)，原 physical 负二值准确为
+\(b^2G_{D,T,\Delta-2}(-1)\)。
+记 \(r_{Q,k}=r_Qh_{Q,k}\)，消去同一个 \(b\) 后得到
+$$
+ \boxed{
+ \begin{aligned}
+ &\frac{B_{102,T}}{(102Z_Q)^2}\mathcal F_{102,Q}(-2)\\
+ &\quad=\epsilon_{\delta,T}
+    \sum_{k\ge0}(-1)^k(k+1)!\,r_{Q,k}\,
+       \delta^{-2-k}
+       \frac{B_{34,T'}}{(34Z_{\delta Q})^{2+k}}\,
+                         \mathcal F_{34,\delta Q}(-2-k).
+ \end{aligned}
+ }
+ \tag{C18}
+$$
+所有负整数都按(C17)指定的块解释。
+\((-2)_k=(-1)^k(k+1)!\) 是原未除幂导数产生的准确因子。
+它没有把负二 primitive 换成 \(r_Q\) 乘一个正槽值。
+
+按原 \(d^{-1/2}\) 规范对(C18)求和，并用(C14)，得到原负 Hall
+的完整返回
+$$
+ \boxed{
+ H_{-,r}^{[-2]}=
+ \frac1{\sqrt d}\sum_{T'}\lambda^\vee_{T'}
+  \sum_{k\ge0}(-1)^k(k+1)!\,r_{Q,k}\delta^{-2-k}
+   B_{34,T'}(34Z_{\delta Q})^{-2-k}
+                 \mathcal F_{34,\delta Q}(-2-k).
+ }
+ \tag{C19}
+$$
+其中 \(Q=\delta^{-1}pT'\) 是原实际非零点；
+不存在另选的三除点，因为 \(\delta\) 在 \(E[p]\) 上可逆。
+R1063(I18a)中的 whole 值仍将(C19)乘**另一份独立**的
+\(H_{+,r}^{[0]}\)，并保
+\(c_0^{(0)}\Omega_A^3/(p^2\rho_A^2L_-^2)\)。
+在整个临界列中，(C17)取代负槽后，
+\(\Lambda'(\cdot)\)、\(\Lambda(\cdot)\)、所有 shifted 参考导数、
+\(\log U_*\) 和全 Maass \(E\) 项照原顺序一起求导；
+不把 ordinary Amice 斜率当已经完成的 Maass 斜率。
+这些费用分别仍由 R1063(I20)、R1065(T20)、
+R1066(Z20)–(Z22)的同一个 full reader支付。
+
+若回到未施 Hall 投影的 R1065(W17)，\(Q=O\) 的 old 字也必须留。
+此时(C12)作为乘积仍成立，因为 \(S(\delta u)\) 六重零消去
+\(\mathscr R_\delta\) 的二极；但(C15)–(C19)的非零点归一不适用。
+不能用这一消极把 old 项从原完整来源删除。
+
+## 14. 全首 Hall 窗的同一个 canonical Cartier 矩阵
+
+(C12)还给一条不依赖负权延拓的完整有限行。
+保 \(W=v^d\)，按所有实际角分量分解
+$$
+ \begin{aligned}
+ \mathscr R_\delta(v)
+   &=\sum_{\substack{0\le a\le d-6\\a\equiv0\ (6)}}
+                     v^{a-2} R_a(W),\\
+ f_{34}([\delta]v)
+   &=\sum_{\substack{0\le r\le d-6\\r\equiv0\ (6)}}
+                     v^r S_r^\delta(W),\qquad
+ S_0^\delta(W)=W B_+^\delta(W).
+ \end{aligned}
+ \tag{C20}
+$$
+所有 \(R_a,S_r^\delta\) 整；
+(C6)在当前 \(p>211\) 直接给
+$$
+ R_0(0)=-1/27,\qquad R_6(0)=89/189.
+ \tag{C21}
+$$
+第二个数对全部当前 \(p\) 都是单位。
+由 \(f_{102}=K_\delta^{-1}\mathscr R_\delta(f_{34}\circ[\delta])\)，
+取角 \(d-2\) 得精确式
+$$
+ \boxed{
+ k_\delta(W)\mathcal B_-(W)
+   =R_0(W)B_+^\delta(W)
+     +\sum_{\substack{6\le a\le d-6\\a\equiv0\ (6)}}
+                    R_a(W)S_{d-a}^\delta(W).
+ }
+ \tag{C22}
+$$
+\(a=0,r=0\) 的一项之所以也进入该行，是因为
+\(v^{-2}S_0^\delta=v^{d-2}B_+^\delta\)；
+没有遗漏这一次负指数 carry。
+
+严格坐标的全 \(\mu_\Delta\) 等变给
+\([\delta]v=\delta vG_\delta(v^\Delta)\)，
+\(G_\delta(U)\in1+U\mathcal O_L[[U]]\)。
+因此在原已付的完整 \(p-1\) 层窗中，
+$$
+ B_+^\delta(W)\equiv
+       \delta^d\mathcal B_{34}(\delta^dW)
+          \pmod{W^{p-1}},\qquad
+ \overline{B_+^\delta(W)}
+     =3\,\overline{\mathcal B}_{34}(3W)
+       \pmod{W^{p-1}} .
+ \tag{C23}
+$$
+这里只在所示整系数模 \(p\) 窗使用 \(\delta^d\equiv3\)；
+挠点上的全精度值仍用 R1063(H24)的 \(\widehat3\)。
+原 \(\mathcal B_-\) 到真正负二 Hall 的修正仍是(B33)，
+即 R1063(L7)的唯一末槽 transvection。
+在 canonical 坏所给
+\(\overline{\mathcal B}_{34}(0)=0\) 下，与另一独立正 Hall 相乘时，
+该末槽修正才在当前窗消失。没有在乘法前直接删除它。
+
+(C22)的新增作用是：原负行现在准确返回**同一个 canonical
+S34 的全部角行**，而非一组自由补来源。
+它含固定有理核和真正三同源/中心，不再有一个任意选的局部比值。
+但(C21)也显示不能把它缩成
+\(\mathcal B_-\) 是 \(\mathcal B_{34}(3W)\) 的单位倍：
+最邻近的 \(S_{d-6}^\delta\) 真实出现，系数为单位，
+其余角行同样须保。原 canonical 坏只约束指定中央读数，
+并不同时赋这些 \(d/6-1\) 个角行为零。
+所以本节没有据(C22)宣称整个固定连接的 \(p\)-曲率消失，
+没有将原单 Hall 非零替成严格上界，
+也尚未给主目标所需的无穷素数量词。
+
+
+### 14.1 一个实际二阶 Darboux 候选的准确极费用
+
+令
+\(F_\delta=S(\delta z)/\sigma(z)^{102}\)。
+(C3)表明，在 \(q_3,-q_3\) 处以 \(x\) 为局部参数，准确有
+\(\operatorname{ord}F_\delta=6\)；此处 \(Dx=2y\) 是单位。
+因此
+$$
+ \operatorname{ord}_{\pm q_3}(D^2F_\delta)=4,\qquad
+ \operatorname{ord}_{\pm q_3}(xF_\delta)=7,\qquad
+ \operatorname{ord}_{\pm q_3}(D_{102}/\sigma^{102})=1 .
+ $$
+最后一项用(C6)前已核的 \(P_{16}(0)=-2^{31}/49\)。
+所以原 \(D_{102}\) 不属于
+\(\sigma^{102}\operatorname{Span}_{\overline{\mathbf Q}}
+       \{D^2F_\delta,xF_\delta\}\)。
+更一般，若 \(a_j\) 在这两个实际点都正则，则
+\(\operatorname{ord}(a_jD^jF_\delta)\ge6-j\)。
+所以任何至多四阶的词
+\(\sum_{j=0}^4a_jD^jF_\delta\) 仍至少二重零，不能给出所需一重零；
+全系数正则时，微分阶数至少为五。
+这不是在某个有限 jet 上作维数计数，而是同一三挠点的完整局部除子约束。
+若只使用带极的二阶词相认，至少一项必须补偿三阶零差；
+相应三挠极必须进入完整 adjoint/Hall 读者。
+原点最高两项相配并不足以给这种全来源身份。

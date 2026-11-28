@@ -129,3 +129,12 @@ R1067续证§§24–26付原bad的A/T⁴完整非交换Euler，精度p+1+4/(p−
 v15真实completed/failure：run46112816717/job140879915022，首306×306/d16官方分母HNF开始后未返回，08:24:51 UTC solver137；不以137判OOM。root核完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56，以及两原PASS/69源、9厚纤维支持、11primary、24residue、44operator。现按[完整v16来源与验收](notes/2026-11-28-original-streamed-shadow-production-v16.md)发布同一workflow的逐行返回：74源均核、全P/H/余数/content/每行XMD保留，四选定图加四post-ideal outer，原F_y与全部后门不变。小软件9.9秒不推断306性能，生产尚无PASS。 发布前root与arithmetic分别核74源/request/launcher名字集合及回退diff；35绑定入口/23递归依赖、scalar/projector/旧F_y原块逐字保持。v15不重跑；同concurrency无新heavy。后继实际source/run/job随后据API记录。
 
 推前实际双pull：public 2026-11-28 08:35:32 UTC / 063f515558fb49bb6f356b06e53031e68657fcd0，private 2026-11-28 08:35:37 UTC / 92a9b31caad8ee5b892341fd35aa64b1937c4f6e；run46073965457/job140922238683，四README与08:29同blob，QUEUE目标认领未变，log 14887B / a26e8b72373b0fe2eff6d951c1c205a6fdb0900325a79bc5e44d1628edc96651；库存3216/46001456B、三旧gzip不变。无可重算日志/数学输出入仓。
+
+
+## 2026-11-28 08:43:00 UTC — R1068 原δ全来源与v16实际身份
+
+R1068 §§10–14给原δ三同源上的完整有理核Rδ=D102/S34(δz)，准确约去(X+4)A3后仍保O二极、两三挠五极及全部其它有限极。全theta lift刚性化与原Haar dual给λε=λ∨，物理完整连接准确相消，原负二读数返同一S34的全部shifted槽，保(−1)^k(k+1)!、δ^(−2−k)、全部Δ carry、独立H+、old及全Maass。首p−1层完整Cartier矩阵为kδB−=R0B+δ+ΣRaS(d−a)δ，R6(0)=89/189单位；原bad没有赋其余角零。三挠点准确零阶还排除正则系数≤4阶Darboux代换，二阶若带极至少补三阶费用。 root独核三同源逐因子、两三挠Weyl词的单/二阶零差、P16(0)=−2³¹/49的原式、全部中心方向、标准球dual、Taylor半径和全shift/carry；central另核delta lift/dual及负权阶乘。全文33003B / 21ca7e8fbd069d105cdc141f94bf9d38020a7f067d504ef64f81ca323ade32e4。无数学执行；后继继续真实两角色带极系统和wholeHall。
+
+v16实际push run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，08:36:48 UTC创建；root核API固定image成功、认证计算step in_progress，未读首log即不宣称运行74源已认证。H整理前逐字归档9765B/hashe48e51d7a0ae15e5b63fa5da6e40bf164e5187b3dfa7ee900825ab6b36d1732d，所有旧链保留。
+
+readonly旧run46073965457第50次返回startup_failure且jobs空，未算pull。本地08:40实际pull --rebase仍无可用环境。改用已实际读全相同两库只读脚本的run46069822587/source084913a27ff7cb01fa36c301f7f6965de16d2717，重跑job140923544681成功：public 2026-11-28 08:41:04 UTC / 346794cb1d3dbf41b95e171d8d25fedb0b8369ff，private 2026-11-28 08:41:10 UTC / 53be27939c49b5788e8a7d3cc8a74cd5732ac650；四README与08:35同blob、QUEUE目标认领未变，log 14889B / 9f345456594265d814c8e7d8cf73f6e7bca98c78cc49b2e5623c58332fc53ae9，库存3220/46103205B、三旧必要gzip不变。H已登记真正head/blob，下次期限依实际receipt。

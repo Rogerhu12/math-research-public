@@ -133,7 +133,7 @@ R984 Griffiths非零不付逐p AJ；R988 K3–E0²和R990 CM17图零范围保留
 
 R1053§12现进一步确定完整39核中source Z只在kerδ三点为零，余36点非零；不能由此赋P2(T)非零或删全native连接项。后继仍用实际非齐次配对及同M高尾。
 
-## O厚点：v15 同一原完整厚图生产
+## O厚点：v16 同一原完整厚图生产
 
 v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日志6357618B/hash7ee50ad82c605644b903739883a41b91fea88abbc3ffd2128e8c1f59301d198b已消费。九个非零scalar纤维阶段全返，原108/54断言已过；A0原MD完整Hermite只返189/306列，41770410次add，四交/Norm/18×9等终门未返。scalar-primary v2软件run46109939554/job140871011216真实PASS，保旧七组和实际projector包装器，结果hash82a97b808bd3ebb916b557065992379693a51089433274554a6ff5424d7b34f6。同一MD的完整U/坐标复用已通过软件v2；v15现接唯一heavy，全部原F_y专门验收保留。
 
@@ -176,3 +176,10 @@ R1067续证§§24–26付原bad的A/T⁴完整非交换Euler，精度p+1+4/(p−
 ### 2026-11-28 08:36 UTC：v15真实终态与v16接续
 
 v15真实completed/failure：run46112816717/job140879915022，首306×306/d16官方分母HNF开始后未返回，08:24:51 UTC solver137；不以137判OOM。root核完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56，以及两原PASS/69源、9厚纤维支持、11primary、24residue、44operator。现按[完整v16来源与验收](notes/2026-11-28-original-streamed-shadow-production-v16.md)发布同一workflow的逐行返回：74源均核、全P/H/余数/content/每行XMD保留，四选定图加四post-ideal outer，原F_y与全部后门不变。小软件9.9秒不推断306性能，生产尚无PASS。 正在获取新run/job/source，后续只按实际完整返回更新。持续研究主无穷p门。
+
+
+### 2026-11-28：原δ全来源已付，继续消完整角尾
+
+R1068 §§10–14给原δ三同源上的完整有理核Rδ=D102/S34(δz)，准确约去(X+4)A3后仍保O二极、两三挠五极及全部其它有限极。全theta lift刚性化与原Haar dual给λε=λ∨，物理完整连接准确相消，原负二读数返同一S34的全部shifted槽，保(−1)^k(k+1)!、δ^(−2−k)、全部Δ carry、独立H+、old及全Maass。首p−1层完整Cartier矩阵为kδB−=R0B+δ+ΣRaS(d−a)δ，R6(0)=89/189单位；原bad没有赋其余角零。三挠点准确零阶还排除正则系数≤4阶Darboux代换，二阶若带极至少补三阶费用。 接续实际带极核的两非平凡三角色及完整Hall转置；有限三角色模块的自动零p曲率不代共同sigma连接的独立坏约束，不以局部两jet拟合做全来源身份。
+
+v16已实际启动run46126639698/job140922574854/source0b550a6b1818b7875ceb5674fd8a8b2c080203b4，08:36:48 UTC创建；固定image已success、认证/计算step in_progress，首运行log尚不可读。唯一heavy仍等实际74源绑定/两原PASS与后续全几何门，不从静审冒PASS。
