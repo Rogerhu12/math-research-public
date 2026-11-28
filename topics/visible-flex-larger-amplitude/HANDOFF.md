@@ -59,8 +59,8 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r780-publish-->R780 [每次双README真读](notes/r780-exact-crowns-normalized-rolls-46183309461-1-reads.json) 435cc23908c804cb9cb1b6846d3f44752e3301ef
 
 [R791](results/R791-prebent-lever-sphere-one-strain-row-and-global-normal-tube.md)：新初弯长腰闭球全t reach≥.104、D<3.22、握≥.648/held>.652/商距>0；唯一腰纵向g欠<.096。原g真1e−6修复必动至少一真实腰口>.015，54三维自由port可修。
-<!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull da6f136cc7cd10510b76843ae4d4f9a3904919f2
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 5868a7bbdb443eebd497a354c28719b6a99cbeb6
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 2bc570eb8fb804bf04f7cce67036e5a83e4edc00
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 23808bb9a8492a286debfcb60f6f87f4886bc22a
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a766c93d66d246cfaeddb20438433d591dac3e64
+<!--run53-shared-rim-transport-->53 [实测](notes/run53-shared-rim-transport-46183731999-1.json) 双README真pull 78e4083c67efc0e647375e88db2c4992a6db200f
