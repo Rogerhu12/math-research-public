@@ -221,3 +221,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 06:44 UTC — visible-exact-astra-b0d5a16-20261128：CG对同一已存在M cap从完整原固定点预算推出t<2.684e-6，mean-separated Wiener primitive/真逆角加已知参考导数得moving37t+repair<9.9309e-5<1e-4。七新有理组合一次通过，最终几何cap状态球已支付；未借此授unknown core准入/存在或matching。BGR3已a0a130784首次实际入口推送，旧目标不重。
 
 2026-11-28 06:54 UTC — visible-exact-astra-b0d5a16-20261128：META8选全新128个完整无引用legacy manifest，只删JSON字符串外ASCII空白；字符串/数值literal/次序及完整原件260ee6ac3全部保。gross823010B、完整receipt69502B/00044d5d95f6bd7000ad5a89837055082351caaef6d35b7ae3a8ade9ac27ed68，net753508B。新增引用扫描含当前未提交源和Markdown，pull后逐次重核；旧科学0。BGR唯一run46117818798/1已06:42:04实际启动。
+
+2026-11-28 06:57 UTC — visible-exact-astra-b0d5a16-20261128：BFP19首次实际入口250current/53history、manifest96504B/363c2116c8459e202209503bc40e379f40d502c89c92c3982971112f602e23ce。全303整文件/原BNC-UACT owner准入及UACT21完整实际validator通过，旧科学0；新512forward/2560image/8192pullback/全Θ96signed列不以低96补高频，保全alias、w/PDE/flow/globalΘ费用。新增.github/workflows/fourfold-codazzi-full-target-nu-forward-public.yml唯一push入口；actual待真实run。
