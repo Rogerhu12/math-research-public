@@ -4,17 +4,17 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **391defe011e6dd54ae2b30848b34911d26d7bca8**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **79f2e40be82914638cbab31dfa4105d3001f8094**；根16新增条款已读。私库实际pull **2026-11-28 10:28:01 UTC** 至 **d2b1280654639f0dbebe67c2ee9b8afca9987aeb**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
 [四来源授权](notes/2026-11-28-takeover-sources-and-rules.md)、[结果索引](results.md)、[完整旧任务](open-archive-before-R643-20261128.md)及b0865cd9历史均保留；H压缩不撤义务。完成需同连通闭M、全t连续C²嵌入/固定g；开握持≥.2D/不对齐整像≥.3D/全时reach≥.03D；连续metric≤1e−6并同g自然精化至机器/求解容差，多t完整网格/存在差距/δE诚实。基础后继续.5D或严格存在。局部/改善/障碍/时长均不算完成，不停等用户。
 
-## A：A401真末态4883；材料身份误复用已查明
+## A：A401真4883／材料身份与412库
 
-[旧4354终态](notes/2026-11-28-r582-6e91-to-4354-original401-natural-terminal.md)及[原后继](notes/2026-11-28-r582-4354-original401-continuation.md)的全部旧费用/115块未存prefix仍保。新run46132385483/source56c35c4c已自然完：2448.401499015秒，4接受至4883c34e、p.181/trust2，16321×3072 fineη3.254953368627478e−5；407coarse+5pending→412。末dd8445半步fine完整拒绝，不是pending；完整J总10/130块但数组未存。
+[真实终态/缓存错误](notes/2026-11-28-r582-4354-to-4883-material-qualified-terminal.md)run46132385483/source56c35c4c：2448.401499015秒/4接受，4883c34e/p.181/trust2，16321×3072 fineη3.254953368627478e−5、物理违反2.446e−10；407coarse+5pending→412。末dd8445完整拒，10J/130块/12fine全付但原生数组未存。
 
-实际新材料0d222bd1（hash含节点+6个端jet），不同旧4354的f60be03b；首outer曾只比较p/q/grid误继承旧fine，该复用无资格。首c13d仅在新0d场完整判拒，原f60未闭债不能抹掉。outer1/2均实际重付baseline fine后才产生4新接受，当前4883有自己的0d资格；后继须材料身份guard、先5pending扩库并新fine，不冒恢复原工作数组。仍设计g/p.8/末η1e−7/宏观欠。
+本次0d材料hash含节点+6jets，不同旧4354的f60；outer0误借旧fine已否定，c13d仅在新0d判拒，原f60的115块未存prefix/未闭债保留。outer1/2真实新baseline后4接受有本身0d资格。[实际后继](notes/2026-11-28-r582-4883-material412-continuation.md)先5点扩库/新fine；guard以材料+p/q/grid共同复用，旧dd8445不warm重播，原驱动全部接受门保持。必要重建计费；p.8/末η1e−7/固定g/宏观仍欠。
 
 ## B：86da固定E／1566列真实mean与R658源差
 
