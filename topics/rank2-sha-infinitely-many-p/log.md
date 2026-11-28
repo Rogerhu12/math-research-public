@@ -247,3 +247,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 推送前实际本地双pull（本次发布第4次）：公开2026-11-28 13:20:35 UTC到824079f4557f1fa1b006cdf0dc53bc346c68196d，私库2026-11-28 13:20:26 UTC到e69ccb6f003b24be0d7c6fccd0dee2fe9a65f16d；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47294103B/treea1ad5c81a4b2560d5d716c6c75385f459aef839d，无>5MB。
 
 推送前实际本地双pull（本次发布第5次）：公开2026-11-28 13:20:54 UTC到0b65eec6c741db5c03f663ff2c4856258307f3dd，私库2026-11-28 13:20:46 UTC到dceaaa0a4253ee777f459a00df2a828e751165a7；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47294103B/treea1ad5c81a4b2560d5d716c6c75385f459aef839d，无>5MB。
+
+## 2026-11-28 13:21:00 UTC：R1073 §11：三个真实Hasse lift的完整三位系数
+
+根手核两个三项式展开、falling-factorial递推、j<k全部分母p单位、三个节点的p³余项、目标零质量截窗及参数v中Cartier的完整p−1槽；S6指数余项未删。原无穷p非零仍未证。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:21:09 UTC到da5f2a79af66fc6702df9c7e2b64ba1e123eb35a，私库2026-11-28 13:21:04 UTC到f99371cb915febc87fdfc8ed228b967859b13fe6；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3271/47301575B/tree113f4bf8065b94784fe23fb6472b791cfd253f6e，无>5MB。

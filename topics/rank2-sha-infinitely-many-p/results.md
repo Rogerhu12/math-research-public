@@ -224,3 +224,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1073 §10：每层唯一指定权的原参考准确估值
 
 全PF递推及整个原半径系数界给vp c1((p+1)p^a)=−p^a；原中央比精确modp^(a+1)。两坏需vp c_b≥4(a+1)−p^a，首层为p³，不把参考非零代目标非零。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1073 §11：三个真实Hasse lift的完整三位系数
+
+固定三次族的真实A_r/B_r、三点整数插值给U/V完整modp³窗；目标常数零允许截至k−1，参考不能漏第k位。指定局部Cartier及固定特征零ℋ_b读同一原c_b(p+1)，不冒称参数无关modp³算子。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
