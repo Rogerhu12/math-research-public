@@ -1,0 +1,172 @@
+{
+  "schema": "held10-design-actions-owned-session-v3-prepared",
+  "utc": "2026-11-28T12:34:05.359305+00:00",
+  "status": "frozen_v3_ready_for_actual_dispatch_not_yet_dispatched",
+  "new_sources": [
+    {
+      "path": ".github/workflows/held10-design-mapped-v3-20261128.yml",
+      "bytes": 3636,
+      "sha256": "9366273f3add3f0a6ee5ed3dc15b5f46244ed73e7ea449de4ca197ff4bbdc53c"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/ci/mapped-design-v3-command.json",
+      "bytes": 456,
+      "sha256": "84436591b7fe4a874a5b40fb5d8e08e1716480985033bac7d4da32b3930f86d8"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_terminal_worker_v3.py",
+      "bytes": 23154,
+      "sha256": "84c57daa50ffe8329a5dd7249ecb0b5f1bf357c76d1ac59ff0a8c3346f9f88a5"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/owned_process_session.py",
+      "bytes": 7487,
+      "sha256": "690b0f0cb313b319e20a721ce861803e3dd3288afda3e09419190b1aeb19c96f"
+    }
+  ],
+  "unchanged_numerical_entry_dependencies": [
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_frozen_chain_entry.py",
+      "bytes": 3027,
+      "sha256": "7dad7a7b5dcd5ee8de67f132f1078c3e52fe52e727d40f1d1c864347c4b69b45"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_fresh_design.py",
+      "bytes": 19342,
+      "sha256": "280d95c0a0b8fcdcbc9adea2f891e8d2b6b53e12d1d9c89be4b8cd58146a5248"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_q_material_recovery.py",
+      "bytes": 8493,
+      "sha256": "caca8d79b07a50d68fa3696233b83908b05b0ca2c07688d2df93637078490990"
+    }
+  ],
+  "previous_v2_record": {
+    "path": "topics/visible-flex-held-10pct/notes/2026-11-28-design-actions-frozen-v2-prepared.json",
+    "bytes": 5989,
+    "sha256": "5f012049e62df7d5c5e41f65af1bac62d5fb3d29c3b75cf9d95b6a9ece12cd8e"
+  },
+  "previous_v2_worker": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_terminal_worker_v2.py",
+    "bytes": 22794,
+    "sha256": "e9268d999379ee88e1885e76e2e5c8dfd18daa5a15ac1272c91be9241a9a8ebc"
+  },
+  "actual_finite_lifecycle_test": {
+    "output_path": "/workspace/scratch/7c4e33ee17de/held10-design-work/ci-owned-session-lifecycle-20261128/comparison.json",
+    "output_sha256": "0db4c9578f251055a63834daa1bf10c033989487c609a725b0d9c82a26db6538",
+    "exit_code": 0,
+    "observations": {
+      "status": "actual_owned_session_lifecycle_check_passed",
+      "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/owned_process_session.py",
+      "source_sha256": "690b0f0cb313b319e20a721ce861803e3dd3288afda3e09419190b1aeb19c96f",
+      "test_source_sha256": "1e39f80beb61c9a9f2faefbfe6f9b57e78a988a806581fad29cf9f3a721c0aec",
+      "normal_exit": {
+        "leader": {
+          "pid": 5,
+          "state": "R",
+          "ppid": 2,
+          "pgid": 5,
+          "sid": 5,
+          "start_ticks": 2219910,
+          "uid": 1000
+        },
+        "returncode": 0,
+        "initial_live_members": 0,
+        "remaining_live_members": 0,
+        "signals": [],
+        "leader_observed_with_WNOWAIT": true,
+        "leader_reaped_only_after_session_cleanup": true,
+        "all_signals_bound_to_original_owned_session": true,
+        "leader_zombie_anchor_before_cleanup": {
+          "pid": 5,
+          "state": "Z",
+          "ppid": 2,
+          "pgid": 5,
+          "sid": 5,
+          "start_ticks": 2219910,
+          "uid": 1000
+        },
+        "stdout": "",
+        "stderr": ""
+      },
+      "synthetic_orphan_new_group_ignored_TERM": {
+        "leader": {
+          "pid": 6,
+          "state": "R",
+          "ppid": 2,
+          "pgid": 6,
+          "sid": 6,
+          "start_ticks": 2219912,
+          "uid": 1000
+        },
+        "returncode": 7,
+        "initial_live_members": 1,
+        "remaining_live_members": 0,
+        "signals": [
+          {
+            "signal": 18,
+            "live_members_observed": 1,
+            "other_group_pidfds_signalled": 1
+          },
+          {
+            "signal": 15,
+            "live_members_observed": 1,
+            "other_group_pidfds_signalled": 1
+          },
+          {
+            "signal": 9,
+            "live_members_observed": 1,
+            "other_group_pidfds_signalled": 1
+          }
+        ],
+        "leader_observed_with_WNOWAIT": true,
+        "leader_reaped_only_after_session_cleanup": true,
+        "all_signals_bound_to_original_owned_session": true,
+        "synthetic_orphan_pid": 7,
+        "synthetic_orphan_final_identity": null,
+        "leader_zombie_anchor_before_cleanup": {
+          "pid": 6,
+          "state": "Z",
+          "ppid": 2,
+          "pgid": 6,
+          "sid": 6,
+          "start_ticks": 2219912,
+          "uid": 1000
+        },
+        "stdout": "7",
+        "stderr": ""
+      },
+      "synthetic_test_only": true,
+      "numerical_solver_executed": false,
+      "git_executed": false
+    }
+  },
+  "static_checks": {
+    "python_compile": true,
+    "worker_help_exit0": true,
+    "workflow_yaml_parsed": true,
+    "workflow_inline_python_compiled": true,
+    "workflow_shell_syntax_exit0": true,
+    "worker_active_Popen_poll_calls": 0,
+    "worker_raw_killpg_calls": 0
+  },
+  "semantics": {
+    "numerical_chain_unchanged": true,
+    "unreaped_leader_observed_by": "waitid(WEXITED|WNOHANG|WNOWAIT)",
+    "retained_identity_fields": [
+      "pid",
+      "pgid",
+      "sid",
+      "start_ticks",
+      "uid"
+    ],
+    "same_session_other_group_signal": "identity-checked pidfd",
+    "leader_reaped_only_after_no_live_owned_session_members": true,
+    "normal_already_complete_session_receives_no_signal": true,
+    "prior_versions_frozen": true,
+    "full_arrays_uploaded": false,
+    "mathematical_conclusion": false
+  },
+  "actual_dispatch_workflow": ".github/workflows/held10-design-mapped-v3-20261128.yml",
+  "actual_result_pattern": "topics/visible-flex-held-10pct/ci/mapped-design-v3-results/run-<run_id>-attempt-<run_attempt>.json"
+}

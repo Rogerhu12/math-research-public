@@ -1,0 +1,73 @@
+name: held10 frozen complete mapped delta design v3
+
+on:
+  workflow_dispatch:
+    inputs:
+      read_rules_commit:
+        description: Full commit at which root and topic README were actually reviewed
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: held10-frozen-complete-mapped-design-v3-20261128
+  cancel-in-progress: false
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      OPENBLAS_NUM_THREADS: '2'
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      REVIEWED_RULES_COMMIT: ${{ inputs.read_rules_commit }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          sparse-checkout: |
+            topics/visible-flex-held-10pct
+            .github/workflows
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install the already used numerical versions
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Pull main, check both rules, and fetch the immutable source revisions
+        shell: python
+        run: |
+          import hashlib, json, os, re, shutil, subprocess
+          from pathlib import Path
+          old = os.environ['REVIEWED_RULES_COMMIT']
+          if not re.fullmatch('[0-9a-f]{40}', old):
+              raise SystemExit('An actually reviewed full rules commit is required')
+          subprocess.run(['git','fetch','--depth=1','--filter=blob:none','--no-tags','origin',old],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head = subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          diff = subprocess.check_output(['git','diff',old,head,'--','README.md','topics/visible-flex-held-10pct/README.md'],text=True)
+          print(json.dumps(dict(event='actual_pull_rules',previous_read=old,pulled_commit=head,readme_diff=diff)),flush=True)
+          if diff:
+              raise SystemExit('The root coordinator must read the actual changed rules before execution')
+          manifest = Path('topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/m3_source_recovery_manifest.json')
+          revisions = sorted({item['revision'] for item in json.loads(manifest.read_text())['files']})
+          for revision in revisions:
+              subprocess.run(['git','fetch','--depth=1','--filter=blob:none','--no-tags','origin',revision],check=True)
+          print(json.dumps(dict(event='actual_runner_resource_observation',
+              source_manifest_sha256=hashlib.sha256(manifest.read_bytes()).hexdigest(),
+              disk_free_bytes=shutil.disk_usage(os.environ['RUNNER_TEMP']).free,
+              meminfo={line.split(':')[0]:line.split(':')[1].strip()
+                  for line in Path('/proc/meminfo').read_text().splitlines()
+                  if line.startswith(('MemTotal:','MemAvailable:'))})),flush=True)
+      - name: Continue original design and publish scalar records through terminal git
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_terminal_worker_v3.py --repo "$GITHUB_WORKSPACE" --workdir "$RUNNER_TEMP/held10-frozen-mapped-design-v3-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" --request "$GITHUB_WORKSPACE/topics/visible-flex-held-10pct/ci/mapped-design-v3-command.json" --reviewed-rules-commit "$REVIEWED_RULES_COMMIT" --worker-minutes 330

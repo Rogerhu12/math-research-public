@@ -252,3 +252,7 @@ root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层�
 ## 2026-11-28 12:41 UTC — 固定数值源码与控制pull分离
 
 新增课题外v2 workflow及对应worker/request/薄setup入口，因活数值代码不能随control main pull而混用新旧来源。真实pull后独立detached稀疏树绑定commit/tree和全部已检出文件SHA；全部setup/动态import/cwd/@REPO@均固定，控制树只核规则/读请求/terminal发布。root与analytic完整只读审过，无BVP/dispatch，旧v1未改。实际下一生命周期版接续此源隔离。见 [记录](notes/2026-11-28-design-actions-frozen-v2-prepared.md)。
+
+## 2026-11-28 12:43 UTC — 真实owned session身份保持至全部后代清理
+
+新增课题外v3 workflow对应worker及helper，修正v2先poll/reap后丢失孙进程身份的实际失败支路；WNOWAIT保leader PID/start/SID/UID，先对原PGID/同SID已核pidfd清理，再wait/reap。一次明确人工生命周期小核真exit0：正常分支无信号，故意孤儿新PGID/忽略TERM经TERM→KILL清除后保leader原退出7；不称数学事件。root完整审helper与v3差异；数值方程/冻结树/原门不变，尚未dispatch。见 [记录](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)。

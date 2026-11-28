@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `3e78f631603ccffbbea7be2630e1ffc141aee04b`（2026-11-28 12:43 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `3df6a718a5b31412bd3e73ac0368c5d7f5549417`（2026-11-28 12:44 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；12:11:39UTC真pull到 `df5208252bd9dd6cfb6445da7423aecd77f63142`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12不加审批；§13授权公开库Actions，§15源/参数/hash/小标量入Git，可再生数组/网格/证书不存仓库或Release；§16今后spawn显式gpt-6.2-astra/ultra/forknone，既有代理不中断。H<10KB、单MD<100KB、目录<200MB。每次改外部workflow须在本题log说明。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
@@ -21,7 +21,7 @@
 
 本次实际输入恢复到[.032/M32](notes/2026-11-28-design-secant-lambda032-m32.json)、[.064/M40](notes/2026-11-28-design-secant-lambda064-m40-qr.json)：后者952点、metric2.74792e−7、δ.06413190791686303、mean1936。本次.128/M48两次工程−9（[四J链](notes/2026-11-28-design-csr-m48-process-interruption.json)、[lifecycle链](notes/2026-11-28-design-lifecycle-m48-process-interruption.json)），末真ordinal4 nodal `e889dd15…`仍完整；没有新接受，具体kill原因未证。
 
-[完整factor-only真M16逐位核过](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)：全部方向/后向分母/原J残差同，构造峰不降；[M48映射恢复准备](notes/2026-11-28-design-mapped-recovery-preparation.md)保三层实际来源、完整CSR/QR/原门，磁盘需1198.68MiB含512余量，真实页释放成功才用冷RHS预算。尚未启动本地M48。[远端原链准备](notes/2026-11-28-design-actions-continuation-prepared.md)已审，[独立冻结数值树v2](notes/2026-11-28-design-actions-frozen-v2-prepared.md)已审，进程身份后继另记，尚未dispatch；目标.128/.192/.256/.384/.512/.75/1。
+[完整factor-only真M16逐位核过](notes/2026-11-28-design-factor-only-mmap-complete-m16.md)：全部方向/后向分母/原J残差同，构造峰不降；[M48映射恢复准备](notes/2026-11-28-design-mapped-recovery-preparation.md)保三层实际来源、完整CSR/QR/原门，磁盘需1198.68MiB含512余量，真实页释放成功才用冷RHS预算。尚未启动本地M48。[远端原链准备](notes/2026-11-28-design-actions-continuation-prepared.md)已审，[独立冻结数值树v2](notes/2026-11-28-design-actions-frozen-v2-prepared.md)已审，[v3身份清理](notes/2026-11-28-design-actions-owned-session-v3-prepared.md)已实核正常/孤儿组两分支，首次选择v3，尚未dispatch；目标.128/.192/.256/.384/.512/.75/1。
 
 ### Full nonlinear tail
 
