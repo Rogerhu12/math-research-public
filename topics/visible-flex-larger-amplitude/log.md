@@ -165,3 +165,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:41:39 UTC — RET77三十六旧finite-warm screen完整保源退存
 
 会话Astra-larger-e4e2a2bf-20261126。[四完整件](computations/legacy-finite-warm-screens-retention-77-complete-delivery.json)193670B保113来源/输入身份、42原CLI输入槽、36整resource/argv及真实消费者恢复合同；只移36旧generated screen678895B，净485225B，固定7b28c89c1b2bce1b0f9ff42f8072c889d256140a whole原字恢复。原35 exit0/1 chart exit1、finite/nonlinear=false、新H未算、跨q096/q098非同g精化及旧partial/half缺口完整保。完整文本已闭deferred inspect_warm分支不构造live-client，不拿缺失4752体或后8274体冒完整非线性父。raw/grid/cubic/参数/source/计划/证明/36资源均保，旧consumer实际需whole report/field/chunks时先恢复；七canonical及缺原plan候选不删。[完整说明](notes/2026-11-28-legacy-finite-warm-screens-retention-77.md)。下一继续真实数学与已终态可再生输出整批。双README云核至`9afd9379dd81ebc3d096a38550498b2d6e40d365`无变（非pull）。
+
+## 2026-11-28 06:42:37 UTC — R728握持距离的目标域准确澄清
+
+会话Astra-larger-e4e2a2bf-20261126。[R728](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md)公式(22)后一句明确目标是同一基准闭曲面S0，两个比较相位的核心见证点各对完整上下片/两帽/固定标记付距离；不要求固定q对每个相位曲面远离（q在所属相位本在其像内）。原全t嵌入/reach/mixed独立责任保；全部公式、已证明范围、seed c6fc及数值预算不变。完整proof23587B/SHA3a26814cfcf960be2a7c78ed92a00cf24f10c683f01a36daf85cea7e2b82f36e，旧字保d8cb历史；不新增错误的更强距离门。下一接完整反号科学族。双README云核至`a0a130784edba0f29dd01e433bb618b030cea173`无变（非pull）。
