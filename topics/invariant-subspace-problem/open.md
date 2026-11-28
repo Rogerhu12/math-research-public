@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-single-column-first-Phi-blowup-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-vacuum-divergence-first-W-B1-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar：旧闭域/严格I/F及closureF=I问题保快照。Pr全旗quasi/图核心、YN²=C DN和DN强*I；全切口R²=L实际收缩给QN²无条件强*趋Zt、双正能量单调。新[指定单列充分条件](results/R267-appendix-single-actual-denominator-column-compactness-and-stable-root.md)：仅QNΩ一强子列，就由固定循环PtΩ与完整J矩构造单值可闭两列图，闭包自然域稳定平方；m0≥1返原候选普通M。仍未付该列强紧性，不能从平方界/弱聚点推出，也不付有界SPt或未知旗J。旧分离选择QN范数发散保；继续指定列费用与真正耦合块。
+原Haar：旧闭域/严格I/F及closureF=I问题保快照。Pr全旗quasi/图核心、YN²=C DN和DN强*I；全切口R²=L实际收缩给QN²无条件强*趋Zt、双正能量单调。新[指定单列充分条件](results/R267-appendix-single-actual-denominator-column-compactness-and-stable-root.md)：仅QNΩ一强子列，就由固定循环PtΩ与完整J矩构造单值可闭两列图，闭包自然域稳定平方；m0≥1返原候选普通M。仍未付该列强紧性，不能从平方界/弱聚点推出，也不付有界SPt或未知旗J。新[一分离选择的指定列发散](results/R267-appendix-separated-choice-actual-vacuum-column-divergence.md)以真实奇部/全1柱及同源尾交换给全部固定有理t的||QNΩ||全切口趋∞，仅排该选择。继续真正重叠单列来源。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保；I4/I6/I11及原核保。新[b0完整Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)：权长度≤5772、χ6有限环境与q2单位系数组合经Nakayama给λ两生成，f唯一/ρ二次/末Artin局部化，完整规范长度≤23088。1898同h余34未付、CD50/三核78/80/87及h0保。10ab PRS冻；[436389实际原C2/Loww](results/R150-appendix-unit211-W-b0-original-C2-Loww-quartic-weight-142-and-projection-boundary.md)全返C2λ2/Lowwλ4及七源权核142；cross整零=(三B1)。180.072328987秒267776KiB/−14冻，第二C2-Loww无checkpoint。接三B1/cross0新定义，不重播旧目标。
+[全W覆盖](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)≤616824/旧闭支保；I4/I6/I11及原核保。新[b0完整Artin长度](results/R150-appendix-unit211-W-entire-b0-23088-normalized-Artin-length.md)：权长度≤5772、χ6有限环境与q2单位系数组合经Nakayama给λ两生成，f唯一/ρ二次/末Artin局部化，完整规范长度≤23088。1898同h余34未付、CD50/三核78/80/87及h0保。10ab PRS冻；[436389实际原C2/Loww](results/R150-appendix-unit211-W-b0-original-C2-Loww-quartic-weight-142-and-projection-boundary.md)全返C2λ2/Lowwλ4及七源权核142；cross整零=(三B1)。180.072328987秒267776KiB/−14冻，第二C2-Loww无checkpoint。681三B1/cross0新源首次120秒1GiB，只三原头unit或完整u覆盖；未付因子整域保，非b0整空。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-Phi当前：正确t0/A0/B0/fu/α0闭，d0χ6/8/8保，错链/bf3/d825冻；I6十五×三、F444/头434及原恢复给规范维≤1，05c1两λ10保。新[原z证书](results/R150-appendix-unit211-Phi-zero-corrected-entire-ell-half-direct-original-z-and-20-weight-cover.md)6ee在0.939秒/0返raw20×18及一次C20z∈I6，整ellhalf至多20权对、全部值纤维保。f77首次120秒1GiB：tau=r*z前三真仿射、N1/NS/PS十兼容式及新r-Bezout；整头零/最终u极点保，无旧gcd/30列/20×18重放。
+Phi当前：正确t0/A0/B0/fu/α0及整个ellhalf已闭；d0χ6/8/8保，错链/bf3/d825冻。I6十五×三、F444/头434和原恢复给规范维≤1，05c1两λ10保。6ee不可约C20z与f77原z吹胀C32z9皆完整回六原式；f77在0.776536771秒/0返新QQ因子20×6²，均异于旧C20，互素遂整ellhalf排空，当前Phi付2ell−1。继续真正新一般原输入，不重播旧z/吹胀/gcd门。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 

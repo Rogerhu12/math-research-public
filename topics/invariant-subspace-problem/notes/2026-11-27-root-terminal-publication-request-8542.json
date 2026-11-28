@@ -1,19 +1,22 @@
 {
-  "message": "ISP: reduce actual root compactness to one column and first Phi z-blowup input",
-  "parentCommit": "30825717090089e0c3bbcf7637d9c5b66269294b",
+  "message": "ISP: prove one actual vacuum-column divergence choice and first b0 cross-zero heads",
+  "parentCommit": "beda6f04182417d6c546378e5099f443cf859761",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R267-appendix-single-actual-denominator-column-compactness-and-stable-root.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-Haar-single-actual-column-root-reading-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-z-blowup-original-affine-compatibility-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-z-blowup-original-affine-compatibility-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-ell-half-z-blowup-original-affine-compatibility-8542-root-static-reading.json",
-    ".github/workflows/invariant-subspace-8542-phi-ell-half-z-blowup.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Haar-single-column-first-Phi-blowup-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Haar-single-column-first-Phi-blowup-8542.md",
+    "topics/invariant-subspace-problem/results/R267-appendix-separated-choice-actual-vacuum-column-divergence.md",
+    "topics/invariant-subspace-problem/results/R267-appendix-separated-blocks-actual-even-cut-source-fees-and-fixed-denominator-divergence.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-Haar-separated-actual-vacuum-column-root-reading-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-entire-cross-zero-three-original-lambda-f-heads-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-entire-cross-zero-three-original-lambda-f-heads-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-entire-cross-zero-three-original-lambda-f-heads-8542-root-static-reading.json",
+    ".github/workflows/invariant-subspace-8542-w-b0-three-b1.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Haar-vacuum-divergence-first-W-B1-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Haar-vacuum-divergence-first-W-B1-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Haar-vacuum-divergence-first-W-B1-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-index-before-Haar-vacuum-divergence-first-W-B1-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -23,6 +26,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-ell-half-z-blowup.yml"
+    "invariant-subspace-8542-w-b0-three-b1.yml"
   ]
 }
