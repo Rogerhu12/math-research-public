@@ -64,13 +64,13 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 (1174.58)的e=c_BCH−Q_actual(Xj+ΔX,Yj+ΔY)+Q_ref(Xj,Yj)，不是删去商曲线对参考点的差；Q_s=e^(sN)Q(e^(−sN)X,e^(−sN)Y)保完整有限shear。最高C0系数=(9k−5l+4)/[(k+l+2)(k+l+3)]，p>37精确零分类自证；此分类没有给actual moments增加任何消失条件。
 
-[原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)全部原/三quotient高槽降至低heat，σ/CM gauge/odd–odd及p carry保全；Fay只需核阶≤2p+15。原奇列由A=uC2、B=u(C4+12a/5)给，完整norm与pA_p=−2β强迫a[v^(p−2)](u²A+u)=β。H_p0后保所有低卷积，两个已付corr配对为−11a(b4a8−11a4b8)/(768β²)；实际mask不要求corr零，原joint/未平滑排除继续。
+[原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整低heat/norm及首p共振强迫已付，Fay核阶≤2p+15；σ/CM gauge/odd–odd、carry和H_p0后全部低卷积保全。已付corr非原mask的额外零条件，原joint/未平滑排除继续；准确常数沿open/逐字前态。
 
 R1168 的原d4/8高Hurwitz公式、normal收缩与原中央有序gauge完整保在原文及[本次前态](open-archive-2026-11-28-before-CM-norm-sign-dictionary.md)。按R1177称S=R_V(yv)，实际AΦ=−S；H=R_Z(yh−b(yv,R)+b(φR,S))，中心Z=b(S,S)−H。高系数本值、滤过gauge/唯一Hodge截面不改；原27terms、同a Cor、未平滑及rs h−zab的实际非零仍继续。
 
-[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM primitive全p^n范数含(1+p²)/(1+p⁴)；十二次Gaussian为−61(1+p⁶)γ7/2、cubic为−7(1+p⁶)γ7。整Teich群环/真实ray norm不除p-group，Δ角色付restriction单射。仅真实CM I∞作高层map，b修正保1+p⁴；global labels为x∞=(1+p²)x0、y∞=(1+p⁴)y0，Gaussian(x0,y0)=(δ̂/4,87δ̂²/44)、cubic=(2δ̂/9,160δ̂²/99)。无挠塔杀全部坏位中央惯性，完整fibre=[x∞,y∞]Θ∞含坏支；cubic最低全Z4可读，非CM有限I不外推whole盘。
+[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM整Teich全p^n norm含1+p²/1+p⁴/1+p⁶，Δ付restriction单射；完整global fibre=[x∞,y∞]Θ∞含坏支，准确x0/y0与M12常数见open。无挠塔杀坏位中央惯性，cubic最低全Z4已付；仅真实CM I∞，不提升非CM有限I或whole盘。
 
-[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp、真实trace/e与合法PD gauge，付所有奇r=3,…,p−2的物理F_r=γ^(r−1)ℓ_(p−r)。原未平均γ_r局部值为(r−1)!Bp−r/r；特别γ7为720Bp−7/7。U_E=γ_E²、η★=1全部坏支，不需generic SS/β非零；保σγ=−γ、root phase及原角色出现条件，不新增global源。
+[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp及合法PD给所有奇r≤p−2的物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!Bp−r/r。U_E=γ_E²、η★=1含全部坏支；σγ=−γ/root phase/原角色条件全保，不新增global源。
 
 ### 原完整 47：已完成，只消费
 
@@ -100,11 +100,11 @@ R1168 的原d4/8高Hurwitz公式、normal收缩与原中央有序gauge完整保�
 
 [原Dixon §§1–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)保完整原Fermat、q/r有限源与D^(p−5)η、Hesse Frel全矩阵/Schur谱。normal读数12tr(adjQ A²)不等spectral tr(adjQ)，全Jordan不代指定中列cyclic。r_N(λ)=R1076η_k(λ/3)及r′=ν/3只消费；两指定读数共同零未排。
 
-[原genus4 §§6–8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)同一Fermat6十维45槽、e0的七维低插入及第4层K4尺度全付。完整primitive交换含p次补偿；A3=−2r1³qN0−3qN′0/2，A9=3qN′0/2，回同一Dixon。114第二层Λp未unit，18个cross仍保；高层可有极，不由character删去。下文保明确最新式。
+[原genus4 §§6–8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原十维45槽、e0七维低插入及K4尺度全付；完整primitive交换保p次补偿，A3/A9回同一Dixon。114第二层Λp未unit，18个cross及高亚纯极均保；准确式见原文/逐字前态。
 
 [R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)原X108六CM十五对完整表及A/S/T仅付准确尺度，T未unit；原四非CM目标的普通性不能移到Fermat6。真实gd=c²、uv=h²可继续高Cartier乘法；Pfaffian恒零且不含S。
 
-[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)有限八系统仅标量，不重跑；[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)、[原Prym三同源](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)、R1095/R1113/R1130的完整phase/primitive/Leibniz/相邻单位沿前态，只消费，均不代e/K4非同时零。
+[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)有限八系统仅标量，只消费。原Tate normal-FM、Prym三同源及R1095/R1113/R1130的phase/primitive/Leibniz/相邻单位沿[逐字前态](open-archive-2026-11-28-before-Hermitian-and-uniform-CM-chart.md)保全，均不代e/K4非同时零。
 
 ### 同一 Fermat 原 quadric、两指定 Cartier 与有界链
 
@@ -122,11 +122,13 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 §11完整Green锁AK−vBR0=D²I−M0/b0、zN=vδ/(2ρ)。双零的实际T=D²M4+b0I满足(D³T)²−U²(D⁴T)²/v²=4ρ²U^p/δ²，极界O为p−3、Q±为m−3；两个ℓ±^p及全ve修正保留。仍未证该实际有界空间矛盾。
 
+[R1183](results/R1183-original-Hermitian-Cartier-Serre-trilinear-tensor.md)原Hermitian完整Cartier–Serre张量=det(∂)^(p−2)，由有理primitive/留数自证；degree k²的Fermat6拉回给原e的准确单槽，半线性/相位全保。全Hodge radical零不代十维限制非退化；同原高primitive插入继续。
+
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 
 R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=8235Bp−7/(4C⁶)，包含零支。当前原桥可写Y=P²/V²，H=Λ(Y)，V_minor=Λ(XY)，U_minor=Λ(XY²)；仍须排Λ(Y)=0且Λ(XY)=3BΛ(XY²)，不能仅用1/X上的非退化矩阵代替。
 
-[R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原CM norm/符号给J4=−4βBp−3/C²、J6=360βBp−5/C⁴，C²=−4cω²，全部p>37。原Legendre同对T3=R(wPV³)、T5=R(wP³V⁵)、T7=R(wP⁵V⁷)准确为63J4/(4aν)、11J6/(8aν)、3J8/(128aν)；原M12中槽及R1181范数给T7零iffBp−7零。bad Bp−7/good Bp−5支，Λ=R(wPV³·),X=P²V²的Hankel det=−T5²单位。它非原Δlow，保全部mask；H_p0后heat二阶unit，余核桥继续。
+[R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原J4/J6/J8与T3/T5/T7全部准确Bernoulli尺度见§12.4。bad Bp−7/good Bp−5下Λ=R(wPV³·)、X=P²V²的Hankel det=−T5²单位；它非Δlow，H_p0后heat二阶unit仍不代原joint。实际Y桥、全部mask/余核继续。
 
 完整原norm2、Kronecker、两twist、mask、全部高尾及旧端点详见[本次前态](open-archive-2026-11-28-before-weight-eight-Frobenius-readout.md)；不重算已登记扫描。
 
@@ -166,7 +168,7 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 ## O4：原 Abel 像与真正高度
 
-[R1182](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)在R1011原Q简单半秩商C/F₀/β上，以同β′两列交错首项ℓ_m(logβ′)、有理超平面的几何半稳定及已刊有效界付v_q(a_m)<B；Néron整微分给全尾≥−v_q(r)。原分支v_q(b−1)≥a+B+ceil(log_q(m+1))整盘仅c₁，含q=p坏约化。a、原商模型/分母/点高度仍有实际依赖，须统一控制并比较候选深度，不能据此宣首项unit或固定盘排点。R1010原X₁非CM投影非挠范围仍为p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推变化X_d。 §9又给预定N=B+v_q(m)、log截2N以确定本原hλ/e_m；准确深度可用a+ceil(log_q(m+1))+max(0,e_m)+1，m≤q−2时a+e_m+1。仅去β/Ω辅助标量，原商格/模型成本保留。
+[R1182 §§1–9](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)原C/F₀/β的有理超平面几何半稳定，FP给同β′交错首项v_q(a_m)<B，全部尾≥−v_q(r)；含坏q=p。预定N=B+v_q(m)、形式log截2N决定本原hλ/e_m，原分支深度a+ceil(log_q(m+1))+max(0,e_m)+1仅c₁，m≤q−2时a+e_m+1。仅去β/Ω辅助标量，a、商模型/格/点高度须统一并比较实际候选深度。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d、首项unit或固定盘排点。
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 

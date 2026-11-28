@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Hermitian完整Cartier–Serre三张量（已证明）**：[R1183](results/R1183-original-Hermitian-Cartier-Serre-trilinear-tensor.md)原Hermitian完整Cartier–Serre张量=det(∂)^(p−2)，由有理primitive/留数自证；degree k²的Fermat6拉回给原e的准确单槽，半线性/相位全保。全Hodge radical零不代十维限制非退化；同原高primitive插入继续。
+
 - **原MW泛函本原化的预定精度（已证明，R1182 §9）**：[R1182](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)N=B+v_q(m)位、实际形式log截到2N即确定hλ与首项e_m；本原泛函整尾给深度a+ceil(log_q(m+1))+max(0,e_m)+1，m≤q−2时a+e_m+1。只消β/Ω辅助标量，实际商/Abel格仍保；未执行数学程序。
 
 - **原半秩商的有效首项估值与完整深盘（已证明）**：[R1182](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)固定原C/F₀/β，Q有理超平面满足几何半稳定；同β′两列交错首项ℓ_m(logβ′)由FP已刊界给v_q(a_m)<B，Néron整微分给全部尾≥−v_q(r)。原分支v_q(b−1)≥a+B+ceil(log_q(m+1))仅c₁，含q=p坏约化；模型/同源尺度/点高度全保，未宣统一p或覆盖固定候选盘。

@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：5a1cc44e3b49f5e4a144b8523d2aad41e2495c52**（2026-11-28 19:57 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：1efeb3d63c6fd43f2918b0af2e6be12608fac0ed**（2026-11-28 20:03 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地终端已恢复：工作树为/workspace/scratch/24b8836b87e3/math-research-public，blob:none/sparse仅检出本课题及workflow，topic 124MiB；最近真实pull及已读提交见上。恢复终端git提交推送，非快进立即pull --rebase/核规则后重推；令牌只CLI。下次pull≤20:57。此前Actions回执保留于[原记录](notes/2026-11-28-terminal-rule-sync.md)。数学程序仍仅本公开Actions，本地/V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+本地终端已恢复：工作树为/workspace/scratch/24b8836b87e3/math-research-public，blob:none/sparse仅检出本课题及workflow，topic 124MiB；最近真实pull及已读提交见上。恢复终端git提交推送，非快进立即pull --rebase/核规则后重推；令牌只CLI。下次pull≤21:03。此前Actions回执保留于[原记录](notes/2026-11-28-terminal-rule-sync.md)。数学程序仍仅本公开Actions，本地/V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-integral-CM-norm-tower.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
+root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Hermitian-and-uniform-CM-chart.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -28,17 +28,17 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1174 §§1–19](results/R1174-original-all-supersingular-CM-references-and-two-isogeny-correlation.md)全SS CM参考/μ6外ordinary源、Π0/Π2 RHS、完整γp/PD与Qρ已付。H=W−Q仅跨实际CM基齐次，回参考保全部shear/Δ的e；最高剪切零分类不能强加actual X/Y。全部公式见open及原文，最低Tate/目标非零继续。
 
-[原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)全部原/三quotient高槽降至低heat，σ/CM gauge/odd–odd及p carry保全；Fay只需核阶≤2p+15。原奇列由A=uC2、B=u(C4+12a/5)给，完整norm与pA_p=−2β强迫a[v^(p−2)](u²A+u)=β。H_p0后保所有低卷积，两个已付corr配对为−11a(b4a8−11a4b8)/(768β²)；实际mask不要求corr零，原joint/未平滑排除继续。
+[原Gaussian高窗 §§1–14](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整低heat/norm及首p共振强迫已付，Fay核阶≤2p+15；σ/CM gauge/odd–odd、carry和H_p0后全部低卷积保全。已付corr非原mask的额外零条件，原joint/未平滑排除继续；准确常数沿open/逐字前态。
 
-[R1169–73](results.md)原Π2/Π4 S/U、Tate n⁻⁴、正λ∞XT′与J/B完整；n2最低v2=3·11·31²/2¹¹单位。三中央/两abelian Brandt族在同ℓ⁶≠1族生成单位理想；原43格Δ、quotient模p²/shear/σ给完整RHS，最低BCH保−λ∞ΔX T/2。物理W A=D有限重建，原Z有提升差不置零；混用synt/实际T严格按R1177。
+[R1169–73](results.md)三中央/两abelian Brandt单位理想及原43格完整RHS已付，保quotient模p²、σ/shear、Tate n⁻⁴与正λ∞、最低BCH−λ∞ΔX T/2。物理W A=D有限重建；原Z有提升差不置零，混用synt/实际T按R1177。
 
 [R1175–76](results.md)原完整43 Frob唯一；Tate留数/Higgs/KT与整δ1给有限算法，pure n+28位后42未知由模p满列秩系统一次解到p^n。pure来自−1 fibre；保σ/cross/λ∞/全部carry。未数值执行，原非零/whole盘继续。
 
 [R1177](results/R1177-original-syntomic-to-Frobenius-sign-dictionary.md)原正Kummer/左扭曲/d+Ω下，syntomic常数S的物理Frob是−S，中心仍b(S,S)−H；c=η，scalar为H(−A,−B,AB−β)。高Hurwitz本值不改，全部双积/Q/corr不变；混用实际T=s时最低项为−λ∞S_Xs。R1173物理W A=D不变，synt W S=−D。旧文顶部已更正，不翻原H0系数或独立r/s。
 
-[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM全p^n norm含1+p²/1+p⁴，M12的Gaussian系数−61(1+p⁶)/2、cubic−7(1+p⁶)。整Teich群环不除p-group，Δ付restriction单射；仅真实CM I∞高层map。完整global fibre=[x∞,y∞]Θ∞含坏支，x∞=(1+p²)x0、y∞=(1+p⁴)y0，x0/y0见原文；无挠塔杀坏位中央惯性，cubic最低全Z4已给。不提升非CM有限I或whole盘。
+[R1178/R1181](results/R1181-original-CM-integral-norm-tower-and-global-endpoints.md)原CM整Teich全p^n norm含1+p²/1+p⁴/1+p⁶，Δ付restriction单射；完整global fibre=[x∞,y∞]Θ∞含坏支，准确x0/y0与M12常数见open。无挠塔杀坏位中央惯性，cubic最低全Z4已付；仅真实CM I∞，不提升非CM有限I或whole盘。
 
-[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp、真实trace/e与合法PD gauge，付所有奇r=3,…,p−2的物理F_r=γ^(r−1)ℓ_(p−r)。原未平均γ_r局部值为(r−1)!Bp−r/r；特别γ7为720Bp−7/7。U_E=γ_E²、η★=1全部坏支，不需generic SS/β非零；保σγ=−γ、root phase及原角色出现条件，不新增global源。
+[R1180 §§1–9](results/R1180-original-Lubin-Tate-absolute-Kummer-Frobenius-calibration.md)同一ζ严格LT/正H0全Γp及合法PD给所有奇r≤p−2的物理F_r=γ^(r−1)ℓ_(p−r)，原未平均值(r−1)!Bp−r/r。U_E=γ_E²、η★=1含全部坏支；σγ=−γ/root phase/原角色条件全保，不新增global源。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
@@ -46,11 +46,13 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原canonical P22、六123映射/p次补偿、V4三平移及A/B/W全源已付；顶U^p与b6不同源，全部相位沿open/原文，不能替指定两jet。
 
-[quadric续篇 §§1–11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原双jet、Q14强迫与全部S3/p补偿沿原文。e0有D⁶J=B、b6=−δ⁷[τ⁻⁸]B/7，双零时第7Picard jet=−7b0δb6/(2ρ)。§11实读AK−vBR0=D²I−M0/b0及zN=vδ/(2ρ)；同一T=D²M4+b0I满足(D³T)²−U²(D⁴T)²/v²=4ρ²U^p/δ²，三极界全保。norm非零不代b6非零或双零矛盾，继续同链加权强迫。
+[quadric续篇 §§1–11](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原双jet/Q14/S3与全部p补偿保全；e0的D⁶J=B及原第7Picard jet准确读b6。AK−vBR0与同一T的三极norm已付，准确式沿open/前态；norm非零不代b6或两jet非零，继续同链强迫。
+
+[R1183](results/R1183-original-Hermitian-Cartier-Serre-trilinear-tensor.md)原Hermitian完整Cartier–Serre张量=det(∂)^(p−2)，由有理primitive/留数自证；degree k²的Fermat6拉回给原e的准确单槽，半线性/相位全保。全Hodge radical零不代十维限制非退化；同原高primitive插入继续。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
-[R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原CM norm/符号给J4=−4βBp−3/C²、J6=360βBp−5/C⁴，C²=−4cω²，全部p>37。原Legendre同对T3=R(wPV³)、T5=R(wP³V⁵)、T7=R(wP⁵V⁷)准确为63J4/(4aν)、11J6/(8aν)、3J8/(128aν)；原M12中槽及R1181范数给T7零iffBp−7零。bad Bp−7/good Bp−5支，Λ=R(wPV³·),X=P²V²的Hankel det=−T5²单位。它非原Δlow，保全部mask；H_p0后heat二阶unit，余核桥继续。
+[R1179 §§1–12](results/R1179-original-Gaussian-CM-norm-and-middle-Tate-moments.md)原J4/J6/J8与T3/T5/T7全部准确Bernoulli尺度见§12.4。bad Bp−7/good Bp−5下Λ=R(wPV³·)、X=P²V²的Hankel det=−T5²单位；它非Δlow，H_p0后heat二阶unit仍不代原joint。实际Y桥、全部mask/余核继续。
 
 [R1127](results/R1127-original-Gaussian-irregular-complement-and-affine-cuspidal-label.md) p4k3且p|Bp−3时χ2 coarse一次unit只付跨盘；盘内须高度，余支p∤Bp−3。[R1129](results/R1129-linear-many-nonconstant-original-Gaussian-profiles.md)线性多个非constant不代独立/注入。
 
