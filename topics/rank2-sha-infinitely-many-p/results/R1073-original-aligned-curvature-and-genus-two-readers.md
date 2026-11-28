@@ -173,3 +173,126 @@ $I_1f_\gamma$至少四阶，$I_3f_\gamma$至少六阶，
 但普通的整个AS轨道、惰性的全部Tate权及实际积分因子
 仍必须通过真实Kummer操作传递；
 仅因它是一个低阶系数，不能把它当作已被旧五槽杀掉。
+
+### 36.5 真三次商上的固定有理函数与两超几何系数
+
+**已证明。** (AS2)还可以在一个固定的有理参数中，
+化为同一完整标记有理函数乘两个预定的超几何级数。
+这保留每个实际Frobenius权，不用只剩形式外观的替代质量。
+
+沿(AS1)记
+$$
+ w_T=\gamma(\bar\rho(T)X(T)^2),\qquad v_T=y(T),
+ \qquad
+ H_\gamma(U)=\sum_{[T]\in\mathcal T/\mu_6}
+                   \frac{w_Tv_T}{1-v_T^2U}.                 \tag{AS5}
+$$
+每个实际六单位轨只取一个代表。
+三次旋转不改$w_T,v_T$，取负号同时将二者取负，
+故$H_\gamma$与代表无关。原完整支撑的primitive标记都有非零$17$分量，
+因此避开$x=0$、$O$等三次商分歧点，也不是二挠点。
+
+先在特征零严格证明整个微分的等式
+$$
+ \boxed{\quad
+ \eta_\gamma
+   =\sum_{[T]\in\mathcal T/\mu_6}
+         w_T\,d\log\frac{v-v_T}{v+v_T}
+   =\frac13\sum_{T\in\mathcal T}w_T\,\frac{dv}{v-v_T},
+       \qquad v=y(P).
+ \quad}                                                       \tag{AS6}
+$$
+标准规范提升满足$X(uT)=u^{-1}X(T)$，
+弦斜率同乘$u^{-1}$，不变微分乘$u$，所以
+$[u]^*\kappa_{uT}=\kappa_T$。
+又$w_{uT}=u^{-3}w_T$；这里$u^3=\pm1$，即使$\gamma$
+不固定$u$也没有额外系数。
+故$\eta_\gamma$在三次单位子群下不变。
+真正的商$E_1/\mu_3=\mathbf P^1_v$由$v=y(P)$给出。
+(AS6)右边在三点轨$\mu_3T$各有留数$w_T$，
+在$-\mu_3T$各有留数$-w_T$，原点的两个对数极相消，
+没有其它极。与(AS1)相减后的差为全纯且$\mu_3$不变，
+而$H^0(E_1,\Omega)^{\mu_3}=H^0(\mathbf P^1,\Omega)=0$。
+因此没有遗漏的全纯项。(AS6)的全点式中$1/3$
+正好抵消一个三点轨的重复，不是任意规范常数。
+
+在§36.2的原$\infty_-$支取唯一参数
+$$
+ r=(-v)^{-1/3}\sim z,\qquad U=r^6 .
+$$
+由$v=-r^{-3}$、$\lambda=r^{-1}(1-r^6)^{1/6}$及
+$6\lambda^5d\lambda=2v\,dv$，得到
+$$
+ \omega=\frac{dv}{3\lambda^4}=(1-r^6)^{-2/3}dr,\qquad
+ \eta_\gamma=6r^2H_\gamma(r^6)\,dr,                            \tag{AS7}
+$$
+$$
+ dI_\nu=r^\nu(1-r^6)^{-(4+\nu)/6}dr,\qquad I_\nu(0)=0.
+$$
+特别是(AS7)的正号来自
+$(v-v_T)/(v+v_T)=(1+v_Tr^3)/(1-v_Tr^3)$，
+不能在交换两无穷支后仍保旧符号。
+
+定义完全固定的两个级数
+$$
+ G_\nu(U)=\sum_{k\ge0}
+       \frac{6((4+\nu)/6)_k}{k!\,(6k+\nu+1)}\,U^k,
+                  \qquad \nu=1,3 .                         \tag{AS8}
+$$
+这里$(a)_k=a(a+1)\cdots(a+k-1)$，$(a)_0=1$。
+它们是
+$$
+ (6U\,d/dU+\nu+1)G_\nu=6(1-U)^{-(4+\nu)/6}
+$$
+的预定零积分常数支，故输入既不随$p$改换，
+也没有事后选择的自由常数。
+直接积分(AS7)给
+$$
+             I_\nu\eta_\gamma
+            =r^{\nu+3}H_\gamma(r^6)G_\nu(r^6)\,dr .
+$$
+于是原完整曲率数准确为
+$$
+ \boxed{\quad
+ \frac{\mathcal N_p}{b_p}
+       =[U^{n-1}]\,H_\gamma(U)G_\nu(U)\pmod p,
+ \quad
+ (\nu,b_p)=
+ \begin{cases}
+ (1,c_p),&p=6n-1,\\
+ (3,a_p(E_1)),&p=6n+1,\ p\text{在}\mathscr M\text{完全分裂}.
+ \end{cases}
+ \quad}                                                       \tag{AS9}
+$$
+普通行仍为$\gamma=1$。
+惰性时$p-1=4+6(n-1)$，普通时$p-1=6+6(n-1)$；
+两行因而真的是同一个$n-1$窗口。
+
+为核准这里的约化，入式的$k\le n-1$满足
+$6k+\nu+1<p$且$k!$为$p$单位。
+固定标记分母只排除有限多个素数，因此所有被使用的系数都整。
+坐标变换亦不能诉诸普通位的全盘形式对数整性：
+§36.3给出的$\widetilde z$只是足够阶数的整截断，
+$r$由真实有理局参的单位三次根给出，$p>3$时Hensel整，
+且$\widetilde z(r)=r+O(r^2)$整。
+在特征$p$中
+$$
+       \widetilde z(r)^{-p}=r^{-p}(1+O(r^p)).
+$$
+原(AS2)是$b_p\operatorname{Res}
+(\widetilde z^{-p}I_\nu\eta_\gamma)$；
+$I_\nu\eta_\gamma$正则，所以新增项不贡献留数。
+只使用$I_\nu$至$p-1$次的整截断，未约化更深处的$p$分母。
+这就完整证明(AS9)。
+
+三次deck作用$\sigma:(\lambda,v)\mapsto(\omega\lambda,v)$
+在第一投影上为$[\omega^2]$，
+在$I_1\eta_\gamma,I_3\eta_\gamma$上分别为$\omega,\omega^2$；
+这与所读$r^{p-1}dr$的$\omega^{2p}$角色相符。
+因此从其它不变混合类直接作比较时，仍须付真实切向及
+Frobenius角色，不能仅据两表达来自同一属二曲线就作识别。
+
+§35保证(AS9)的实际对应系数在既定素数集合中
+有正上对数密度的非零值。
+尚未证明原通常全Sha坏条件迫(AS9)这个完整系数为零；
+(AS5)–(AS9)只把待比较对象精确固定。

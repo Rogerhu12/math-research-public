@@ -357,3 +357,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1073 §36：唯一曲率数的固定属二p−1系数
 
 已证明：原N_p准确等于c_p[z^{p−1}](I₁f_γ)（惰性）或a_p(E₁)[z^{p−1}](I₃f₁)（普通全分裂）。I₁/I₃为固定双覆盖的真实一/二型积分，ηγ=−Σγ(barρX²)κ保全部标记，其Cartier像恰原−ΣbarρX²κ列。普通只用<p整对数截断，未假设全盘ω=ds。坏⇒这个完整系数零仍缺。 [同编号全文](../results/R1073-original-aligned-curvature-and-genus-two-readers.md)。
+
+### R1073 §36.5：真三次商上的完整超几何系数
+
+已证明：原ηγ准确下降为Σ轨w_T dlog((v−v_T)/(v+v_T))，取r=(−v)^−1/3给Hγ(U)=Σ轨w_Tv_T/(1−v_T²U)。原N_p/b_p恰[U^(n−1)]HγGν，Gν=Σ6((4+ν)/6)_k U^k/[k!(6k+ν+1)]、ν=1/3分别对应p=6n∓1。全标记、两无穷支符号、Frobenius和普通整截断均保；坏⇒完整系数零仍缺。 [同编号全文](../results/R1073-original-aligned-curvature-and-genus-two-readers.md)。

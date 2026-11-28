@@ -26,7 +26,7 @@ N_p=−Σ_T barρ(T)^p X(T)^(2p)y(T)S_{n−1}(x(T)³)，p=6n±1。
 
 ## 原306图与1156格的真实生产
 
-[R1071](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md) §§17–21保完整G3/W8和四标量Bézout图。[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)已于17:02 UTC因实际X超过32000000格的显式软件预算失败，306配对行已核但完整X/H与终门未返回，不重跑。v18 run46147595142/job141050876340于17:03开始；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)source d61834ef33bbaf6b28b96c50999d71ad33e19c8c/run46154552030/job141008207171于14:25开始。18:55 UTC根取得v18真前缀2101845B（SHA及全部核验见v18 note），原85pins/F/P与23 RESULT摘要全核，central T两图10条全行回执及∞列82/306已显示；四交点/九pairs/终门仍未返回。根19:36复读两任务均仍step4，v19前次日志404；不得从前缀猜终态。两版无v17该总格门，保95pins/原F/P/四端点/九pairs与全部原门，等待实际输出并继续理论。
+[R1071](results/R1071-original-descended-pencils-and-complete-thick-pullbacks.md) §§17–21保完整G3/W8和四标量Bézout图。[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)已于17:02 UTC因实际X超过32000000格的显式软件预算失败，306配对行已核但完整X/H与终门未返回，不重跑。v18 run46147595142/job141050876340于17:03开始；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)source d61834ef33bbaf6b28b96c50999d71ad33e19c8c/run46154552030/job141008207171于14:25开始。18:55 UTC根取得v18真前缀2101845B（SHA及全部核验见v18 note），原85pins/F/P与23 RESULT摘要全核，central T两图10条全行回执及∞列82/306已显示；四交点/九pairs/终门仍未返回。根20:11复读两任务均仍step4，v19前次日志404；不得从前缀猜终态。两版无v17该总格门，保95pins/原F/P/四端点/九pairs与全部原门，等待实际输出并继续理论。
 
 ## 其它未闭门
 
@@ -43,3 +43,7 @@ N_p=−Σ_T barρ(T)^p X(T)^(2p)y(T)S_{n−1}(x(T)³)，p=6n±1。
 ### R1073 §36：唯一曲率数的固定属二p−1系数
 
 已证明：原N_p准确等于c_p[z^{p−1}](I₁f_γ)（惰性）或a_p(E₁)[z^{p−1}](I₃f₁)（普通全分裂）。I₁/I₃为固定双覆盖的真实一/二型积分，ηγ=−Σγ(barρX²)κ保全部标记，其Cartier像恰原−ΣbarρX²κ列。普通只用<p整对数截断，未假设全盘ω=ds。坏⇒这个完整系数零仍缺。 [同编号全文](results/R1073-original-aligned-curvature-and-genus-two-readers.md)。
+
+### R1073 §36.5：真三次商上的完整超几何系数
+
+已证明：原ηγ准确下降为Σ轨w_T dlog((v−v_T)/(v+v_T))，取r=(−v)^−1/3给Hγ(U)=Σ轨w_Tv_T/(1−v_T²U)。原N_p/b_p恰[U^(n−1)]HγGν，Gν=Σ6((4+ν)/6)_k U^k/[k!(6k+ν+1)]、ν=1/3分别对应p=6n∓1。全标记、两无穷支符号、Frobenius和普通整截断均保；坏⇒完整系数零仍缺。 [同编号全文](results/R1073-original-aligned-curvature-and-genus-two-readers.md)。
