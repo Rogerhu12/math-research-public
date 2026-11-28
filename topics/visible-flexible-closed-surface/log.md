@@ -541,3 +541,5 @@
 2026-11-28 16:17:31 UTC — Astra-visible-flex-2ecfcd69-20261128：84真实法向位置/90实际步固定原g，G11峰.14248904；法向幅度<.032407给同一全闭C²嵌入，D≤3.1644、held/D>.20475；新reach不继承。 复现、参数及真实输出SHA见notes/2026-11-28-2ecf-compact-p32-normal-positions-and-material-meridian-lengths.md。
 
 2026-11-28 16:17:37 UTC — Astra-visible-flex-2ecfcd69-20261128：49个实际非线性长度根生成真实48次偶角位置，独立经长差约1.75e−6、G11全谱峰.14224801；有限求积残差不当连续误差。法向图全时嵌入保留。 复现、参数及真实输出SHA见notes/2026-11-28-2ecf-compact-p32-49-real-angular-length-roots.md。
+
+2026-11-28 16:17:42 UTC — Astra-visible-flex-2ecfcd69-20261128：1100真径钟全域Tt>.92360，径分量误差.00392856但实际角剪切.15340141，完整谱峰升到.19496236，保留失败不作为改进。 复现、参数及真实输出SHA见notes/2026-11-28-2ecf-compact-p32-1100-radial-controls-and-angular-shear.md。
