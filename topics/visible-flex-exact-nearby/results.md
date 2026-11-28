@@ -584,3 +584,10 @@ GHW/GHV+HLP完整scalar/vector链式列及actual matched difference闭二jet空�
 [完整证明](results/R119-supplement-residual-interpolation-and-order4224-selected-tail.md)与[17个新exact组合](scripts/fourfold_codazzi_selected_tail_residual_interpolation_saved_bounds.py)。同一S.34/T selector、原step/seed/γ域完全不变，直接在S.24前插值已经完成的|Fn|1856≤T^-3000与|Fn|6396≤T^320，并保全高背景项。h_s的完整source指数为(166s−701252)/227，background指数(140s−689400)/227；前者在s4224仍<−1/4，在s4000两者均<−164。
 
 故原完整graph修正无新步骤即在E4224收敛，E4000全tail≤2^-61450609、加原seed后仍<2^-49999998。原H8193 topology连续至4224；与SHL lowL²界插值得relativeL²背景连续至4223。通过真正residual-sensitive proxy极限，exact prioris现对E4000 directions给64..2204输出/source3938，原两constants不变，outerstate3984/height3986和三径mean/source全付。未授rough-source onto、E8192极限或尚未扩窗的参数forcing。17新比较首算全过，旧scientific/seed/Nash步骤0重算。
+
+
+### R147 HP：实际高度pivot与完整phase/均值传递
+
+[完整证明](results/R147-supplement-actual-height-pivot-and-complete-phase-mean-transfer.md)与[27新有理组合](scripts/fourfold_codazzi_height_pivot_saved_bounds.py)。CW/APHI/ASB同一未归一化NP列先消真实height，cP/cH∈(-1.543,-1.5208)、cA/cH∈(.2459,.2498)，原regular defect、raw E′a、参数chart/direct terms和独立Yb/Kb全保。新phase弱源原四窗148568/10512/4736/13989、world费用5.208/3.563；varying全局translation准确系数−cP/cH，不与fixed base常数消去混淆。
+
+原physical96整球除计算常数−.0253后联合误差<.0004532；原两mean全球保，合成physical98误差<.001663、whole norm<.063877。physical high97<.002121只属原density，B后仅原2^4608远尾同界，不冒Θ/incoming。27次新exact比较首算全过、旧科学0；剩余full reduced operator明确为HP.5，不授修正后Schur非零或core存在。

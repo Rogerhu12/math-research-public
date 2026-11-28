@@ -223,3 +223,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 06:54 UTC — visible-exact-astra-b0d5a16-20261128：META8选全新128个完整无引用legacy manifest，只删JSON字符串外ASCII空白；字符串/数值literal/次序及完整原件260ee6ac3全部保。gross823010B、完整receipt69502B/00044d5d95f6bd7000ad5a89837055082351caaef6d35b7ae3a8ade9ac27ed68，net753508B。新增引用扫描含当前未提交源和Markdown，pull后逐次重核；旧科学0。BGR唯一run46117818798/1已06:42:04实际启动。
 
 2026-11-28 06:57 UTC — visible-exact-astra-b0d5a16-20261128：BFP19首次实际入口250current/53history、manifest96504B/363c2116c8459e202209503bc40e379f40d502c89c92c3982971112f602e23ce。全303整文件/原BNC-UACT owner准入及UACT21完整实际validator通过，旧科学0；新512forward/2560image/8192pullback/全Θ96signed列不以低96补高频，保全alias、w/PDE/flow/globalΘ费用。新增.github/workflows/fourfold-codazzi-full-target-nu-forward-public.yml唯一push入口；actual待真实run。
+
+2026-11-28 06:59 UTC — visible-exact-astra-b0d5a16-20261128：HP同一NP strict particular在实际cap世界锚的height-first消元已成；完整regular r◦、phase/chart/direct/mean/world端口保持。新四弱源receiver与physical98 whole normalization费用已付，联合误差<.001663。27新有理比较首算全过、旧科学0；未把标量pivot当全Schur。BFP19新入口已bec2ddc1b推送，actual待运行。

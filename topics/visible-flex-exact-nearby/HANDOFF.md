@@ -1,14 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 06:57:44 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 06:59:08 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至46fd2e364a6459d12d88ca7f6d9cf591156e715c；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
+本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至63ef4198fdb9a16db85f3fb14608b812ad495cee；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
 本次终端可用，依根规8用终端git commit/push；非快进立即pull --rebase再推至成功，禁止force。令牌只CLI、不落文件；未发现AGENTS。前会话完整状态/失败记录保公开b0865cd9同路径和其递归来源，未撤任何数学义务。成功科学计算不重跑；继续缺域时消费完整已保存cells。规12不加审批复核门，结论成即推，root LOG不动。
 topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁大数组。META8只新128无引用旧JSON字符串外空白，原全件在260ee6ac3，完整receipt notes/2026-11-28-legacy-native-metadata-whitespace-eighth.json（69502B/00044d5d…），净释放753508B；每次pull后复查引用，科学0；前7批保旧H。
-接手实际终态：SL45917913526已结束，signed充分门未过；TC45928452441保存2677/7724完整cells、连续1605，whole有限matrix仍成；BNC45941963989恢复历史文件路径失败、0新数学目标。WMR45942597362四目标已成（真实reference高度ν列负），详情由新actual结果登记。并行继续TC缺域、BNC恢复、实际cap R→L；这些均不授最终全逆或闭曲面族。
 
 ## 同一对象与验收
 
@@ -33,6 +32,8 @@ WMR4首45941738781/1真实prechild失败完整保；角色修复45942597362/1于
 
 [CW：实际cap R→L锚与supportedν高度](results/R147-supplement-actual-cap-world-anchors-and-supported-nu-height.md)已证明：M全physical球经真逆角给moving C0<.000142；RA→L的actual GW角向方程保raw E/P缺陷，给A0L<.002234557/A1L<.005399/B1L<.009528，再接原ACT得b端a0<.002235/a1<.015072/b1<.04748/p0<.004288。WRA全弱源系数94600/6693/3024/8907。明确固定整个r≥b exterior的NP particular有Kb=Yb=0，高度列在(-.02547,-.02513)、逆<40；24新exact组合已一次通过。所有general varying端口、真实L曲率match/全Schur/非线性core仍独立，原ACT/RA完整proof与上一H保留。
 [CG](results/R133-supplement-actual-cap-in-final-geometry-C0-ball.md)进一步用同一M固定点原完整预算得t<2.684e-6，再以mean-separated真逆角给moving factor37；全cap含mean/repair的pair sup<9.9309e-5<1e-4。七新exact组合已一次通过，已付最终几何的cap状态球；尚须未知core入M域、完整match及core自身状态球。CW粗界仍有效，不重旧计算。
+
+[HP](results/R147-supplement-actual-height-pivot-and-complete-phase-mean-transfer.md)同一未归一化NP列的height-first消元已成：cP/cH∈(-1.543,-1.5208)、cA/cH∈(.2459,.2498)，完整regular defect/原raw E′a/chart/world端口保。phase弱源148568/10512/4736/13989；原physical96+两mean联合近似误差<.001663，非Θ列/全Schur。27新有理组合已一次通过。
 
 ## 尾端完整接口
 
