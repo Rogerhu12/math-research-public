@@ -1,0 +1,80 @@
+{
+  "status": "own_fixed_activity_source_preparation_completed",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_activity_entry.py",
+    "sha256": "f815215818a527121b2428900b2c5f67cc76c8197e40ffd56015a1e28792ff43"
+  },
+  "own_geometry_entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_fixed_geometry_entry.py",
+    "sha256": "f7d03306323bf11f5ab83e2e22926932c7aff0322621ec94d413383c286fdef0"
+  },
+  "actual_cli_help": [
+    {
+      "phase": "prefix",
+      "actual_returncode": 0,
+      "seconds": 0.932705767000698,
+      "stdout_sha256": "216b23fa6539edfcd2fc6479817fd2560b65f2d60248d2978335bf1d838d410d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "tail",
+      "actual_returncode": 0,
+      "seconds": 0.8856918840001526,
+      "stdout_sha256": "da787e0e63aec2fb7fc908eaf77d51076c31d02de73a398f400b68faddf0eeca",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "combine",
+      "actual_returncode": 0,
+      "seconds": 1.1082131480006865,
+      "stdout_sha256": "228ed981ec34efaa236bdea50e37bc4cec05cbbc1f2333ec68eaddc18dc32699",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_compilation_succeeded": true,
+  "generated_prefix_source_adaptation": {
+    "original_main_sha256": "221ef2b6dff2647616f1e62fbe6647b75f5f96379f5763e78a9023b68fbcac64",
+    "generated_main_sha256": "3c8c5b74022124cbabe87a750b1315c13577385f0a415562e8c2fcf58c45d622",
+    "original_source_initialization_section_sha256": "b13a14eb411716a43e441a04630301756677057dd5d8316dfd33ce4d8e15b02a",
+    "original_verifier_entry_section_sha256": "cf9723e27834265d63cff5e34dba868ffa9fdc8dfa30a02077201f642ee0e2b2",
+    "field_extraction_density_interval_quadrature_and_complete_loop_unchanged": true,
+    "source_entry_and_output_identity_changed": true,
+    "completed_leaf_durable_calls_added": true
+  },
+  "generated_combiner_source_adaptation": {
+    "original_main_sha256": "2f6ab8dfb29bd258e8b2bc801ef6c9e3822800aaf645ceac830b25e2ed68848c",
+    "generated_main_sha256": "e142a1f51a6b632e0cfd4c981337e632227003d4951ba5daa1d72efd104ae580",
+    "original_source_gate_sha256": "ec506e5ed025c279c14c4c56e88657f9602dd35ece987b9fec04d817bf9750d1",
+    "original_moment_source_gate_sha256": "009a40e39d715e98da20209253bc2dadc9d5835b2549bb0d6cc23eb3374887b0",
+    "exact_full_leaf_coverage_accumulation_column_and_phase_formulas_unchanged": true,
+    "receipt_is_actual_own_map_definition_not_sampled_query": true
+  },
+  "original_math_sources": {
+    "qr_cartesian_third_activity_moment.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_cartesian_third_activity_moment.py",
+      "sha256": "33143db55427c527b7e5bea9916009a0d484f95cc1dfcfd60b0a7039b322e164"
+    },
+    "qr_cartesian_third_activity_moment_durable.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_cartesian_third_activity_moment_durable.py",
+      "sha256": "a5fad89bcaf381261a554ae43c89bd44e50b1c7c8b6423d61bb6fca8522719bd"
+    },
+    "tail_third_activity_flux_bound.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_third_activity_flux_bound.py",
+      "sha256": "2dcaf9cfde8a6923c0ac0e32a81ae7f5356d12025239b467c7ad7ab3a94767f7"
+    },
+    "qr_combine_closed_third_activity.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/qr_combine_closed_third_activity.py",
+      "sha256": "af6059bc941c7eba594a104673246c4af886caf21ac93c0b40b92a407359ee98"
+    }
+  },
+  "generated_original_function_definitions_compiled_without_execution": true,
+  "genuine_positive_source_available": false,
+  "accepted_fixed_gate_executed": false,
+  "numerical_prefix_integral_executed": false,
+  "whole_tail_envelope_executed": false,
+  "actual_activity_interval_computed": false,
+  "native_calls": 0,
+  "old_field_recomputed": false,
+  "new_cap_or_fixed_metric_selected": false,
+  "readme_completion_claimed": false
+}

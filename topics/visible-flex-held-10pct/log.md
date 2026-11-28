@@ -529,3 +529,7 @@ R87字面柱长预算严格补齐：原map半长float(.005)的全长略大于1/1
 ## 2026-11-28 — 严格 λ=.064/M24 完整映射输入恢复
 
 [真实回执](notes/2026-11-28-design-single-gentle-r87-strict-lambda064-mapped-input-recovery-actual.md)：14227的attempt000已通过原accepted_original全部门，1134点/RMS1.9779458545532175e−7/metric1.284368451621618e−7/physicalBC2.6538521277607947e−19/mean1168/δ.06809746571178646。四全步/零拒/两完整QR，314.883s、664340KiB；run696a79d1…、raw b5945fee…、physical af16685f…源/hash实核。较严tol2e−7、全映射与原方程/列/BC/metric均保留；这是历史已达λ的必要恢复，非新前沿。控制器已自动接attempt001 λ.128，未为报告停算。
+
+## 2026-11-28 — own fixed QR 完整三阶活动矩来源接线
+
+[独立三阶段入口](notes/2026-11-28-tail-own-fixed-qr-third-activity-entry.md)消费自身accepted_fixed/fullg/final-H，保原全部prefix/cut/mean/lift、durable逐叶积分、完整尾/deep/双盘flux及exact Fraction合并。ell按实际binary64半长准确加倍，相位由真whole geometry取4/5；Re活动区间任一符号排零才可用原R67，含零真实保留。未改帽/来源标签/既有数学main；源码compile、三help、两个生成main编译真0，无正输入/新矩值/全等结论。
