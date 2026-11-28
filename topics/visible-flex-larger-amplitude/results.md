@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R756（已证明，完整平材料带的C²母线禁阻与新预载整卷等距）**：[真双帽禁阻、返回墙和预载整滚肩](results/R756-flat-ruling-cap-obstruction-and-preloaded-exact-returning-rolls.md) — Gauss常秩直母线与非零二jet开闭延拓，排除原直中央弯曲后只修双端帽；R752/753给出单正端长度>2.08的完整平矩形反证，所有中央弦必要条件不足。原返回双肘厚闭像仍reach≥.132、held>1.09。独立预载初g满足κθ=aκ0，整个活动右墙两整roll及双帽真实领准确同g、九图物理续接C²；这条准确分支仍不能穿越两个完整原平帽，过渡/全reach另欠。新输入须改初帽曲率或释放端Cauchy。[完整两初态六jet源](scripts/resume_20261126/r756_return_elbows_preloaded_exact_rolls.py)同时刊，不冒全闭解。
+
 - **R755（已证明，有明确覆盖与正则性条件的两整卷同g判据）**：[真实法测地延拓和固定帽着陆](results/R755-geodesic-normal-continuation-and-fixed-cap-landing.md) — 在完整非聚焦单覆盖、正横截、唯一C¹第一变分等假设下，法测地规范准确付g_rr=1/g_sr=0；全同g且四缝C²等价于整个J=1−dκ0、每条真实到帽长度T=L、一个规定帽标签锚定。证明付真实边界标签和二jet，C²名字本身不保证测地流正则；不能把采样射线或条件判据当存在解。完整有限求解还需实际材料重建后读三行Gram及全闭几何；已知R752/753冻结中央的可展禁阻另记，不由换坐标消除。
 
 - **R754（已证明：整闭厚几何、准确同g左翼及两个冻结中央反证）**：[上下相干墙与整左翼](results/R754-coherent-mirrored-wall-motion-and-same-metric-rigid-left-wing.md) — θ≤.90完整闭像reach≥.132、D0<4.01、grip≥1.4、held>1.09，四固定球柱标记付δE>0；刚性左翼分支的中央、两完整左滚肩、双帽对应x≤0整域同初g。原两墙左弦1.09>初真路径1.074，修正分支的右弓又越过另一初真帽捷径，故两族冻结整个中央均不能全闭等距。完整证明保全部条件，未冒全g；[五份源、原三层七相全图计算](notes/2026-11-28-R754-coherent-walls-and-complete-launch.md)同步刊行，实际返回待。
