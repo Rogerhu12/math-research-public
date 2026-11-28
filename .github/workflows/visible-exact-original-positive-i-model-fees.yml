@@ -1,0 +1,37 @@
+name: R149 signed primitive fees for the original positive i model
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-original-positive-i-model-fees.yml'
+permissions:
+  contents: read
+concurrency:
+  group: visible-exact-original-positive-i-model-fees
+  cancel-in-progress: false
+jobs:
+  consume-saved-original-1502-candidates:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-exact-original-positive-i-model-fees.yml
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json
+            /topics/visible-flex-exact-nearby/notes/finite_Cayley_scalar_gap_ci/run-43757868884-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/finite_Cayley_scalar_gap_ci/run-43757868884-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/first_symbol_quadratic_gap_ci/run-43598755503-1/consumers/process.json
+            /topics/visible-flex-exact-nearby/notes/first_symbol_quadratic_gap_ci/run-43598755503-1/publication.json
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_positive_i_model_fees.py
+      - name: Combine the complete original positive i group with all remaining frequencies
+        run: >-
+          python3 -B topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_positive_i_model_fees.py
+          --repo "$GITHUB_WORKSPACE" --source-sha 80f4f6705af547ac068e9fe6d86fd3db293fd29f19c52879a8df5342bf48874f

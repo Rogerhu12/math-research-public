@@ -132,3 +132,6 @@
 
 
 2026-11-28 10:42:35 UTC / visible-exact-astra-b0d5a16-20261128：BPF。原whole势支撑与真实ρ²角导给Tφ<7e−7；共同物理T水平集积分及完整矩阵几何级数给全频n²(B−Hinv) L2算子<1/4500、普通dr L2<1/315000、L1<1/22500000。physical n≥262144的H−4/3→L2费<1/18000000，均值/低泄漏全保；其余Airy/反馈不赋同数。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-whole-genuine-inverse-deformation-on-the-physical-Fourier-space.md","bytes":4909,"sha256":"e033785f6bea2505d25faaaf9921e86c7709a7ed220d09b58e66094002722ba2"}]。
+
+
+2026-11-28 10:44:36 UTC / visible-exact-astra-b0d5a16-20261128：ASQ11。原完整CYA 927项给97..1023的IG<.573；完整1502候选中正i至多372例外外全域IG≤1.28，无穷尾由同原整数Q模4/5且非零norm距>5给IG<.6。保原96与全部真例外/physical边界；新public首入口只整读旧198079B native后作新分组和有理费用，不重旧候选/Cayley。 root完整proof/reader/workflow审核；新增全候选分组尚待首run真实结果，维数最多468不冒矩阵可逆。 全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-positive-i-model-primitive-fees-on-all-original-indices.md","bytes":6148,"sha256":"89ae86b750471d911b6c63fb53729e4b4a12f579d85c499924fb860da8a9a83c"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_positive_i_model_fees.py","bytes":10148,"sha256":"80f4f6705af547ac068e9fe6d86fd3db293fd29f19c52879a8df5342bf48874f"},{"path":".github/workflows/visible-exact-original-positive-i-model-fees.yml","bytes":1896,"sha256":"ff976f01074b755322ea4ff14189083abbb87f8dd6e665eec63f21376e2a0b2b"}]。
