@@ -1,0 +1,103 @@
+{
+  "scope": "Read-only active import and ABI dimension audit; no live source/binary/manifest changed, no M80 request.",
+  "source_files": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "sha256": "e5a7d3b0a1021aae54fabcd3c5baae0558cab4246b4a10cfdeb31b6d275a8ddf"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/parallel_native_batch.py",
+      "sha256": "9177a8499517695deebf00907c64bdc08adc5e5fd2229c8987a2a7ac8ef6bb42"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/prepare_recovered_native.py",
+      "sha256": "08f6f0de7e1737a41864d9d420f48255a523c8aebea36dfa75de1a45940bc99b"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/native_batch_factory.mjs",
+      "sha256": "4bf754298349103c1e5a4fe3c6330cb183bf61b9a306bbef2148eb531ef15c53"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/native_batch_adapter.mjs",
+      "sha256": "d11ed12fa66ce9321f8ba770aa0daa118cdad9032a84cc99c3a0d208299e9a14"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/950f-tail-stage-core.mjs",
+      "sha256": "27a739ff4477e5df0c619d9974406b4654faf7042390298ce6e8d49451df6ebb"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/950f-tail-stage-split.mjs",
+      "sha256": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/950f-tail-stage-port-v3.mjs",
+      "sha256": "3481fb6fae3fa27432f829c7a200c938832838d674a077314b39ae2cf7a5010b"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/closing_tail_sources.mjs",
+      "sha256": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs",
+      "sha256": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs",
+      "sha256": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs",
+      "sha256": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4"
+    }
+  ],
+  "proposed_candidate_upper_bounds": [
+    80,
+    128
+  ],
+  "current_original_upper_bound": 64,
+  "original_wire_abi": 1,
+  "original_spacing": 3,
+  "resource_rows": [
+    {
+      "M": 24,
+      "N": 512,
+      "unknowns": 55344,
+      "full_j_wire_bytes": 22662232,
+      "stage_J_arrays_bytes": 21233664
+    },
+    {
+      "M": 64,
+      "N": 1024,
+      "unknowns": 147584,
+      "full_j_wire_bytes": 154635352,
+      "stage_J_arrays_bytes": 150994944
+    },
+    {
+      "M": 80,
+      "N": 2048,
+      "unknowns": 184480,
+      "full_j_wire_bytes": 240454744,
+      "stage_J_arrays_bytes": 235929600
+    },
+    {
+      "M": 96,
+      "N": 2048,
+      "unknowns": 221376,
+      "full_j_wire_bytes": 345148504,
+      "stage_J_arrays_bytes": 339738624
+    },
+    {
+      "M": 128,
+      "N": 2048,
+      "unknowns": 295168,
+      "full_j_wire_bytes": 611159128,
+      "stage_J_arrays_bytes": 603979776
+    }
+  ],
+  "high_M_solve_executed": false,
+  "complete_surface": false
+}
