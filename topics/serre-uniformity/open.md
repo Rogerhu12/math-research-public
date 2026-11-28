@@ -49,6 +49,8 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 [R1155 §§1–11](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D的rev、BK、强mod pO_L有限dilog及完整nilpotents已付。v=u^p+pε的实际右运输给h=−ℓ2(u)/(1−u^p)−ε²/{2u^p(1−u^p)}，任意分歧只称fibres间运输；未分歧v=σu才同点Frob。全S3及同一五项配置的ε_i、ordered交替=e_Ce_D/(CD)、BCH交替0均保。Gaussian有限椭圆坐标下单个原U_a的h12−(L3/L1)h4=−2A³s(s−1)(s−4)/125单位，b8也单位；不代weighted filling后的F0，也不删除实际torsion高nilpotents。
 
+同文§12固定实际整形式ψz=z^p，完整carry ε=ε0−u0L给hψ=h0+b0L−u0L²/{2(1−u0)}−u0L³/{6(1−u0)²}；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50单位。未指定ε0=0，未把ψ专化当分歧torsion的field Frobenius。此单块仍须经过真实weighted/Cor/moment。
+
 R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞；后续逐项Frob须选整退化适配的分解或实际S3/五项运输，保全correction。当前raw torsor存在与全noncusp下降不受此影响。固定函数p根塔不自动等于整个E[pⁿ] moment分布。
 
 ### 原完整 47：已完成，只消费

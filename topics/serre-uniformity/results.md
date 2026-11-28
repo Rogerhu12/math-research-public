@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原 formal Frobenius 的实际 carry 与第八 jet（已证明）**：[R1155 §12](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)在同一有限椭圆坐标固定 ψz=z^p，计算 ε=ε0−u0L 和三槽完整运输；hψ,8−(L2/L1)hψ,4=−3A²s(s−4)/50 为单位。保未知常数 carry，不代分歧 torsion 的 field Frobenius，原加权中央值继续。
+
 - **原 canonical primitive 及无条件第四层（已证明）**：[原genus4 §13](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)锁定原 P22 与 Ψ 的完整函数身份、三平移全部 p 次补偿和三个114高层；无条件比较 A3/A9 与 e/K4，并给两个原谱 jet 的准确一阶 gauge。全部极项与 Frobenius 符号保留；指定共同零仍开。
 
 - **R1158（已证明）**：[原最高矩的实际 S/U pushout 与完整相关 torsor](results/R1158-original-weighted-Manin-pushout-and-correlation-torsor.md)付共同 even 单位商、全部 ordered bracket、rank-one 与全算术下降，构造最高 Sym12 的规范 Gcorr；原 moment quotient / 根相位 / 中央 gauge 完整。未平滑 G0 的 actual Hecke 比较仍继续。

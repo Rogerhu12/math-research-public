@@ -1048,3 +1048,153 @@ moment contraction 仍可能产生真实抵消；本式没有排除那些抵消�
 root 纸推；o2_high_coefficient 独立核准 (1155.54)–(1155.56)
 全部系数、中央单位组合和第二槽两个系数。
 全部为原函数的有限代数推导，无数学程序执行。
+
+
+## 12. 同一有限椭圆坐标上的实际 Frobenius 提升与第八 jet
+
+本节保持 §11 的原函数 $U_a$、有限整坐标 $z$ 和 $L_1,L_2,L_3$，
+明确指定形式盘的 Frobenius 提升。这样得到的是同一 KZ pullback 的
+实际 relative Frobenius；不把它解释为分歧 torsion 点上的 field Frobenius。
+它补全 §11 中 $v=U^p$ 与一个真正底参数提升之间的差别。
+
+### 12.1. 实际形式底及不可删除的 carry
+
+设 $F/\mathbb Q_p$ 未分歧，$\sigma_F$ 为其整 Frobenius。
+将 (1155.51) 的有限整坐标任意延长成
+$\mathcal O_F[[t]]$ 的整可逆坐标 $z$，并固定
+$$
+\psi|_{\mathcal O_F}=\sigma_F,\qquad \psi(z)=z^p.
+$$
+这里可直接将显示的有限 $z(t)$ 多项式用作完整坐标；
+不需要在首个 $p$ 分母之后延长椭圆 formal logarithm。
+$U=U_a\in\mathcal O_F[[z]]^\times$、$1-U$ 也为单位。
+其准确常数是
+$$
+\widetilde u_0=\frac{a^2-4}{4(a^2-1)}\in\mathbb Z_p^\times,
+$$
+约化为 §11 的 $u_0$。置
+$$
+v=\psi U,\qquad
+\varepsilon=\frac{\psi U-U^p}{p}\in\mathcal O_F[[z]],\qquad
+\varepsilon_0=\frac{\sigma_F(\widetilde u_0)
+                         -\widetilde u_0^p}{p}\in\mathcal O_F.
+\tag{1155.63}
+$$
+分子整除 $p$ 来自真正的 Frobenius-lift 性质，
+不是由函数值在 residue field 中相等便对任意提升相减。
+
+以下在 $(\mathcal O_F/p)[[z]]/(z^{16})$ 中读取，
+并沿用 $\mathcal L=L_1z^4+L_2z^8+L_3z^{12}$。
+因为 $U-\widetilde u_0\in z^4\mathcal O_F[[z]]$，
+$v-\sigma_F(\widetilde u_0)\in z^{4p}\mathcal O_F[[z]]$。
+在这一个安全有限商中，原特征零 log
+$\widetilde{\mathcal L}=\log(U/\widetilde u_0)\bmod z^{16}$
+只除 $1,2,3$，且 $\widetilde{\mathcal L}^4=0$。
+故
+$$
+\frac{U^p-\widetilde u_0^p}{p}
+=\widetilde u_0^p
+ \left(\widetilde{\mathcal L}
+       +\frac p2\widetilde{\mathcal L}^2
+       +\frac{p^2}{6}\widetilde{\mathcal L}^3\right)
+       \pmod{z^{16}}.
+$$
+约模 $p$，准确得到
+$$
+\boxed{\qquad
+U^p=u_0,\qquad
+\varepsilon=\varepsilon_0-u_0\mathcal L
+\qquad\bmod(p,z^{16}).
+\qquad}
+\tag{1155.64}
+$$
+特别 $\varepsilon$ 不是常数，也不能在实际 $\psi$ 下置零。
+由于 $\widetilde u_0\in\mathbb Q_p$，这里还可写
+$\varepsilon_0=-u_0q_p(\widetilde u_0)$；本节不假设该数为零。
+
+### 12.2. 三槽及完整中央运输
+
+令同一 ordered Heisenberg Frobenius 为
+$$
+R_\psi(z)=G(U(z))D_pG(\psi U(z))^{-1}
+          =\mathcal H(a_\psi,b_\psi,h_\psi).
+$$
+§8 的右运输证明是单位分母上的 $p$-整幂级数身份；
+在 $p$-完备有限 jet 商中仍逐项成立。
+因此可将 (1155.64) 直接代入 (1155.25)，保留其完整
+$\varepsilon^2$ 中央项。定义常数
+$$
+a_0=-\frac{\varepsilon_0}{u_0},\qquad
+b_0=\frac{\varepsilon_0-\ell_1(u_0)}{1-u_0},\qquad
+h_0=-\frac{\ell_2(u_0)}{1-u_0}
+      -\frac{\varepsilon_0^2}{2u_0(1-u_0)} .
+$$
+由 (1155.58) 的原有限 polylog 展开，
+$$
+\boxed{\begin{aligned}
+a_\psi&=a_0+\mathcal L,\\
+b_\psi&=b_0
+ -\frac{u_0}{1-u_0}\mathcal L
+ -\frac{u_0}{2(1-u_0)^2}\mathcal L^2
+ -\frac{u_0(1+u_0)}{6(1-u_0)^3}\mathcal L^3,\\
+h_\psi&=h_0+b_0\mathcal L
+ -\frac{u_0}{2(1-u_0)}\mathcal L^2
+ -\frac{u_0}{6(1-u_0)^2}\mathcal L^3
+ \qquad\bmod z^{16}.
+\end{aligned}}
+\tag{1155.65}
+$$
+第二槽也准确等于
+$b_0+\log((1-U)/(1-u_0))$ 的有限展开。
+这与 (1155.59) 不矛盾：那一节的第二输入是 $U^p$，
+本节的第二输入是同一形式底的 $\psi U$，
+两者之间的 carry 已由 (1155.64) 实际计算。
+
+尤其中央线性项是 $b_0\mathcal L$：
+$\varepsilon^2$ 的交叉项把原 $-\ell_1(u_0)\mathcal L/(1-u_0)$
+准确改成这个系数；其平方项还产生新的
+$-u_0\mathcal L^2/(2(1-u_0))$。
+这两项都不能在改变 Frobenius 提升时省去。
+
+### 12.3. 原第八 jet 的显式单位组合
+
+记 $h_{\psi,j}=[z^j]h_\psi$。由 (1155.65)，
+$$
+\begin{aligned}
+h_{\psi,4}&=b_0L_1,\\
+h_{\psi,8}&=b_0L_2-\frac{u_0L_1^2}{2(1-u_0)},\\
+h_{\psi,12}&=b_0L_3
+ -\frac{u_0L_1L_2}{1-u_0}
+ -\frac{u_0L_1^3}{6(1-u_0)^2}.
+\end{aligned}
+\tag{1155.66}
+$$
+$L_1=3As/5$ 是单位。因 $u_0/(1-u_0)=(s-4)/(3s)$，
+有
+$$
+\boxed{\quad
+h_{\psi,8}-\frac{L_2}{L_1}h_{\psi,4}
+=-\frac{u_0L_1^2}{2(1-u_0)}
+=-\frac{3A^2s(s-4)}{50}\in(\mathcal O_F/p)^\times.
+\quad}
+\tag{1155.67}
+$$
+全部因子在原 $3\le a\le(p-1)/2$、$p>37$ 范围内确为单位。
+同一提升的两个线性槽还有
+$$
+[z^4]a_\psi=\frac{3As}{5},\qquad
+[z^4]b_\psi=-\frac{A(s-4)}5,
+$$
+二者也都是单位。
+
+本节没有选取或删掉 $\varepsilon_0$，所以 (1155.67)
+不依赖该 Fermat quotient 或 $\ell_1(u_0)$ 的未知值。
+它是同一原单个 primitive、选定形式 Frobenius 的准确输入。
+后继仍需原 filling 的加权、同陪集 corestriction、全部根相位及
+moment contraction；单块单位不排总和抵消。
+$z$ 仍是椭圆点坐标而非模曲线参数，
+也不将 $\psi$ 的专化擅作任意分歧域上的 $\sigma_F$；
+实际 torsion 的较高幂零项没有被删除。
+
+root 纸推；o2_high_coefficient 独核实际 carry、三槽中央修正及
+(1155.67) 的完整常数。无数学程序执行。
