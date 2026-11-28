@@ -294,3 +294,7 @@ run46096380016/1/workflow433333276/job140828543967，head431b54a096c89b81637a363
 ## 2026-11-28 02:13:27 UTC — 02:10实际环境重置后从已刊完整记录恢复
 
 root及三代理的云store丢失；已刊431b54a完整24及4bcd65b官方启动、fb8a3545原18终态和19–23最新真实记录均从main完整恢复，未重触发或重算。02:10:58新信号后唯一终端pwd仍明确No usable execution environment，云核不称pull，活19–24原controller真pull继续保H。已保护的22/23准确后继完整manifest从原blob取回；新增小型完整观测发布源用于以后重置恢复，不执行数学或添验收门。双README云核至`f120a228630149a1c414125fe2c320d3202a4a61`原字未变。
+
+## 2026-11-28 02:18:05 UTC — 23初始完整六族几何实际返回
+
+23初始完整六族实际返回：reach.968424994209506及distance_plus.005863061771032241仍正，余四负；accepted0/reportfalse。原浮点末字按本run保留，不搬19/20数值；试步和策略实际效果仍未知。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。双README云核至`68c3d71c3438a78838a3450f585a8d7a111dd50e`无变（非pull）。

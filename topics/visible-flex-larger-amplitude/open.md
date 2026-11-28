@@ -123,7 +123,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)已付半波准确配对均值/两角根、中央导数减半及全位置jet账，不推wholeK/D/reach。22全20源/6参数/[启动总表](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊，137角色/18runtime/17对改120同；六物理cuts与aux12均值分开，原Gauss/partial不变。初三步63721B；science+pure103752B/全四步110351B>95000，真自然返才整接纯步。原request计数标签解释保22note，旧字节不改。
 
-[恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)独立23：原19全波半宽/δ1/32/两初μ.01，137原对+policy=138/19runtime。原完整全步和自身模型/点/几何/预测达策略条件才降下一μ；失败×4/metric/顺序/预算保。[全19件](computations/fixed-fejer-restoration-continuation-bhalf-complete-launch-delivery.json)已刊，官方46094430214/1于01:42:05Z启动；两input0；实际b31c/f2a9/PID3652/model0abfbf/初7e06，Phi3825.0583894874153/Gram.6460503011117507，accepted0；几何/策略结果未返。
+[恢复策略](notes/2026-11-28-complete-restoration-continuation-source-design.md)独立23：原19全波半宽/δ1/32/两初μ.01，137原对+policy=138/19runtime。原完整全步和自身模型/点/几何/预测达策略条件才降下一μ；失败×4/metric/顺序/预算保。[全19件](computations/fixed-fejer-restoration-continuation-bhalf-complete-launch-delivery.json)已刊，官方46094430214/1于01:42:05Z启动；两input0；b31c/f2a9/PID3652/model0abfbf/初7e06，六族返/g.968424994209506、accepted0；原Phi/Gram保note，试步/策略效果未返。
 
 19–21准确全链已刊；22准确17件/P-U-mesh18件、23准确31件已保护待容量，whole身份保旧H/open；准备不冒费用。R723五新角色不冒旧八通过；R718 markedσ与R716 unmarked法管/正V/非零中心不变量独立。
 

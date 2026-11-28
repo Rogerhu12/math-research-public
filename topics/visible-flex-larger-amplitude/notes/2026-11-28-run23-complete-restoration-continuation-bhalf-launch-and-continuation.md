@@ -396,3 +396,24 @@ The complete official run object and complete returned job wrapper are preserved
   }
 ]
 ```
+
+## 2026-11-28 02:18:05 UTC — 23初始完整六族几何实际返回
+
+同b31c3422a7f8f86954977988c8386208301a2942/f2a9 launcher/PID3652与9db39 driver、model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add，current/initial均为7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47。原normal事件02:04:03为initial-complete-geometry-returned；数学事件02:06:02.981855+00:00为current-geometry-returned。六族完整返回：reach+.968424994209506、body_diameter−.038135527545650194、distance_plus+.005863061771032241、distance_minus−3.0936337267043594、cap_diameter−.06715131487906445、height_floor−1.0411715967426867。两个正族仍不可行，Phi3825.0583894874153/Gram.6460503011117507、accepted0、complete_report=false不变。
+
+02:07:26Z原完整索引尚未给出trial、accepted direction、原选中模型预测或恢复策略更新。初g按本run真实浮点值.968424994209506保留，不用19/20的末字.9684249942095058替换；相同来源数学族不代原完整实际返回。全部缺值、whole小进度身份和原source/model/point保固定原索引；这些有限屏幕量不付连续reach或metric。
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
+    "bytes": 53262,
+    "sha256": "d0306e8d4541d5956c61528ad75919a8aac3e4f7fda13baf0e3d584f0179c3b0",
+    "git_blob_sha": "2340525a05bf65fb7110239829b57673deb8b088",
+    "fixed_commit": "1836fd074846eec7effbe84a1e4e5851d4e250da",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
