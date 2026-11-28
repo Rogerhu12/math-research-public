@@ -1,21 +1,15 @@
 {
-  "message": "ISP: complete correct Phi I10 paper and first entire b0 original five-quadratic cover",
-  "parentCommit": "7445e773c297c47168b2f2e26832121a55718ff2",
+  "message": "ISP: prove three pairs and three same-f norms present the entire original W I4",
+  "parentCommit": "562d84287933210643129582095a868ead048a20",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-individual-NP-full-NV-I10-and-two-decics.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-individual-NP-full-NV-formal-root-review-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-inverse-slope-five-original-quadrics-and-u-cover-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-inverse-slope-five-original-quadrics-and-u-cover-8542-input.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-inverse-slope-five-original-quadrics-and-u-cover-8542-root-review.json",
-    ".github/workflows/invariant-subspace-8542-w-b0-five-quadrics-u-cover.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-terminal-availability-probe-1104-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-root-publication-preparer-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-I10-and-first-W-b0-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-I10-and-first-W-b0-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-three-pairs-three-same-f-norms-complete-original-I4-presentation.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-six-scalar-complete-I4-root-review-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-W-six-scalar-complete-I4-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-six-scalar-complete-I4-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -24,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-b0-five-quadrics-u-cover.yml"
-  ]
+  "dispatchWorkflows": []
 }
