@@ -1,0 +1,87 @@
+name: visible-flex R641 fixed physical end and inward center
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-r641-fixed-physical-center-resume-20261128.json
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-r641-fixed-physical-center-resume-20261128
+  cancel-in-progress: false
+jobs:
+  research:
+    name: Continue 17 accepted states with fixed physical end and implicit length
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/visible-r641-fixed-physical-center-resume-20261128.yml
+            /README.md
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-r641-fixed-physical-center-resume-20261128.json
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r632-adaptive-box-natural-terminal.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r636-original-center-cone-resume-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r641-fixed-physical-center-resume-scope.md
+            /topics/visible-flex-new-mechanism/notes/2026-11-28-r641-three-end-natural-terminal.md
+            /topics/visible-flex-new-mechanism/results/R584-centered-third-history-and-nineteen-state-full-ruling-bvp.md
+            /topics/visible-flex-new-mechanism/results/R590-full-history-square-potential-and-c2-update.md
+            /topics/visible-flex-new-mechanism/results/R598-three-rotations-wide-eighteen-block-mother.md
+            /topics/visible-flex-new-mechanism/results/R609-true-integral-histories-and-kinetic-input.md
+            /topics/visible-flex-new-mechanism/results/R612-exact-physical-length-elimination-and-three-true-end-integrals.md
+            /topics/visible-flex-new-mechanism/results/R614-complete-two-ruling-global-gauge-projection.md
+            /topics/visible-flex-new-mechanism/results/R620-fixed-width-center-jet-gauge-chart.md
+            /topics/visible-flex-new-mechanism/results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md
+            /topics/visible-flex-new-mechanism/results/R636-explicit-c2-physical-input-with-two-true-even-ends.md
+            /topics/visible-flex-new-mechanism/results/R638-exact-P-and-kinetic-two-end-shape-chart.md
+            /topics/visible-flex-new-mechanism/results/R641-exact-three-even-end-input-and-amplitude-length-chart.md
+            /topics/visible-flex-new-mechanism/scripts/r530_c2_r578_evaluator_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_compact_history_v2_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r530_full_centered_nineteen_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_history_positive_square_free_germs_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r590_c2_staged_trust_collocation_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r598_wide_mother_prepared_mass_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r609_true_integral_function_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r612_r614_reduced_function_map_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r620_free_center_full_feedback_bvp_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r620_original_center_time_jets_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r624_compatible_free_center_input_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_complete_rows_euclidean_qr_svd_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r625_tail_flat_compatible_input_agent.py
+            /topics/visible-flex-new-mechanism/scripts/r632_adaptive_polynomial_boxes.py
+            /topics/visible-flex-new-mechanism/scripts/r632_true_hermite_bvp.py
+            /topics/visible-flex-new-mechanism/scripts/r632_true_hermite_kinetic_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r636_adaptive_background_center_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r636_polynomial_background_kinetic_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r641_center_implicit_length_faces.py
+            /topics/visible-flex-new-mechanism/scripts/r641_fixed_physical_center_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r641_fixed_physical_true_bvp_resume.py
+            /topics/visible-flex-new-mechanism/scripts/r641_true_three_end_chart.py
+            /topics/visible-flex-new-mechanism/scripts/r641_true_three_end_original_bvp.py
+            /topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py
+            /topics/visible-flex-new-mechanism/scripts/run_r625_paid_gauge_continuation_20261127.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Continue fixed physical A_r and original ruling
+        env:
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: >-
+          python topics/visible-flex-new-mechanism/scripts/run_r625_paid_gauge_continuation_20261127.py
+          --request topics/visible-flex-new-mechanism/computations/request-r641-fixed-physical-center-resume-20261128.json
+          --lane fixed-physical-center

@@ -36,7 +36,9 @@ R617仅排固定有限pre/post的精确非圆根，R610仅排纯有限角带；�
 
 [R636真实背景自然终态](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783/sourceb10baebe已结束：3146.914737635秒、12端恢复和32完整接受，真端.178784/ruling1.5332e14未达。同态fine已付；最后中心h逼近原.8下界，8次域拒有真点反例，50完整trial无下降。[实际公开续接](notes/2026-11-28-r636-original-center-cone-resume-scope.md)已实现同完整J/欧氏阻尼的中心h/L至多四活动面，实际向内/切向且保原严格高度盒；结构零因子准确处理，非零因子underflow仍outward。原未完trial和全部费用保留，新曲线重新支付冻结fine。
 
-[R641准确三端图](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)已支付真实P/t1/s0，原盒内显式输入及256全部自由形状链。[完整公开求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)run46127173693/source106767818，08:43:56启动，继续r1和全ruling；真P括号/导数、全部被消端仍实际读取，fine冻结b/L/α/中心A/规范。保持此活动输入，不借R636的数值资格。
+[R641自然终态](notes/2026-11-28-r641-three-end-natural-terminal.md)run46127173693/source106767818新增592.090348447秒/17接受，真实payload c797752d/7965B；三被消端约1e−17，物理Ar−.18801974071834554/ruling1.6677675285388338e14未闭，冻结同曲线2305点fine完整。末iteration21/reg1/backtrack8在P括号左端h分区达到深度40，0闭叶/104前沿；没有P积分/完整trial，不是假接受或点违反。
+
+[固定物理Ar与中心锥续接](notes/2026-11-28-r641-fixed-physical-center-resume-scope.md)从真实17接受态续原256列/全历史，工作残差用固定源8H*²/L*乘真实Ar及全Jac，消除缩H/增L伪降归一行的激励；旧fine merit不作新目标比较。中心活动坐标准确零，隐式长度用全DL，至多四面完整欧氏QR/SVD；每trial保原实际delta Armijo及全部真门。旧root/同态fine复用、原6恢复/17步不重播、未闭trial与104前沿保留；新曲线另付冻结fine。源trust.03125、全部旧λ留账，新模型从1e−6重启，3300秒含180末读出。
 
 所有分支保持原18块/576微包、ε1/12000、全正势/全历史；ODE≤1e−7、真十末≤1e−8、ruling/history≤1e−7不改。当前巨大残差不能全归舍入；近根后真实精度/误差控制仍需支付。根后period、十三规范、frame/位置/闭pose、C²嵌入和宏观reach继续。
 

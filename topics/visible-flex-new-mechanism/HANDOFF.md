@@ -4,7 +4,7 @@
 
 ## 已读规则与完成条件
 
-公开最近实际pull/双README差异检查至 **5798771a0364f969ddaa8fbc4efe27b93eb53344**，根16已读执行；私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，仅根新增15已读。两处均要求所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守，无下级；课题README未变。首次全读b0865cd9，QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **f2964ad346ecd9e72a42ec01b57748081525a8cf**，根16已读执行；私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，仅根新增15已读。两处均要求所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守，无下级；课题README未变。首次全读b0865cd9，QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时，变则读diff执行并记SHA。每结论即push；NFF立即pull --rebase重推至成功，不强推。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不加机械审核，根15不存可重算大日志/数组；必要真实续接输入例外。全部原失败、未完及费用沿来源保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -28,7 +28,7 @@
 
 [自然已付部分及关停](notes/2026-11-28-r566-55be-to-430-runner-shutdown-terminal.md)run46127678618/source54cc47b6：1906全部完成，旧904复用；43015466在1810×3072/2810峰完整接受η.1929414276608794/g0。随后5/11pending已应用：906coarse/1814fine、2025physical/631working，旧1810资格不转新网，trust.45050811767578125。
 
-[真实430续接](notes/2026-11-28-r566-430-shutdown-resume-scope.md)直接从已应用新库续原native全循环；旧1906/904/coarse选行不重放。尾1J90块56.86794秒后runner外部关闭，无FINAL；仅旧完整82H/23pending可作原启发式，新H/J仅hash不假恢复，重建必要新J如实付费。真实下一QP同步保存小H/pending，不加科学门。原20参数、全部资格/η严格改善不改，2400秒含30收尾。旧309b8的4465闭/8635未执行及0重放沿来源保留，仍变量g设计。
+[真实430续接](notes/2026-11-28-r566-430-shutdown-resume-scope.md)run46132003244/sourcef176c0d5直接从已应用新库续原native全循环；旧1906/904/coarse选行不重放。尾1J90块56.86794秒后runner外部关闭，无FINAL；仅旧完整82H/23pending可作原启发式，新H/J仅hash不假恢复，重建必要新J如实付费。真实下一QP同步保存小H/pending，不加科学门。原20参数、全部资格/η严格改善不改，2400秒含30收尾。旧309b8的4465闭/8635未执行及0重放沿来源保留，仍变量g设计。
 
 ## D：原完整BVP／真中心边界与三端图
 
@@ -36,7 +36,7 @@
 
 [R636终态](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783/sourceb10baebe：3146.914737635秒、12端恢复/32接受，真端.178784/ruling1.5332e14未达，中心h逼.8，8次真域反例/末50trial无改善，同态fine已付；payload e4521e28。[中心锥续接](notes/2026-11-28-r636-original-center-cone-resume-scope.md)run46129327712/source43136190，09:11:57启动，全J/欧氏LM、h(0)/L至多四面，不放宽原盒，结构零准确处理。
 
-[R641三端图](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)真P/t1/s0及全256形状链已证。[原求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)run46127173693/source106767818自然结束：592.090348447秒/17接受，真Ar−.18801974/ruling1.66777e14未达；原fine已付，末P括号h分区未闭，不是假拒绝。后继保完整原态/未闭栈，正在发布固定物理Ar权重和真实中心/隐式DL锥续接。
+[R641三端图](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)真P/t1/s0及256列已证。[自然终态](notes/2026-11-28-r641-three-end-natural-terminal.md)run46127173693/source106767818：592.090348447秒/17接受，payload c797752d，真Ar−.18801974/ruling1.66777e14未达，同态fine已付；末P括号0闭叶/104前沿不是拒绝。[真实续接](notes/2026-11-28-r641-fixed-physical-center-resume-scope.md)保原态/trust.03125、固定源8H*²/L*物理Ar权重、真中心/全DL锥、原所有绝对门；旧root/fine复用，原6恢复/17接受不重播，未闭trial与全部费用保留。3300秒含180末读出，新模型λ1e−6且旧λ留账。
 
 所有分支保持原18块/576微包/全正势/全历史，ODE1e−7、真十末1e−8、ruling/history1e−7绝对门；根后period/十三规范/frame/位置/闭pose/C²嵌入/宏观继续。
 
