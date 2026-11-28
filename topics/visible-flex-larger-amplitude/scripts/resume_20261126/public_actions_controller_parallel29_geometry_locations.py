@@ -171,8 +171,8 @@ class Publisher:
             raise RuntimeError('The compact volume index exceeded its Markdown bound')
         return result
 
-    def write_parallel_handoff(self,status,exit_code):
-        """Replace only this run slot; the primary controller retains it."""
+    def parallel_handoff_text(self,status,exit_code):
+        """Render this run's complete slot without mutating the Git checkout."""
         handoff=self.repo/TOPIC/'HANDOFF.md'
         text=handoff.read_text()
         begin='<!-- visible-larger-parallel-29:start -->'
@@ -189,27 +189,59 @@ class Publisher:
             marker='\n## 当前公开Actions执行\n'
             at=text.index(marker) if marker in text else len(text)
             text=text[:at].rstrip()+'\n\n'+section+'\n'+text[at:]
+        return text
+
+    def write_parallel_handoff(self,status,exit_code):
+        text=self.parallel_handoff_text(status,exit_code)
         if len(text.encode())>=10000:
             raise RuntimeError('HANDOFF must be condensed before independent run publication')
-        handoff.write_text(text)
+        (self.repo/TOPIC/'HANDOFF.md').write_text(text)
+
+    def prepare_complete_publication(self,status,exit_code):
+        """Wait for a whole lawful publication; keep the original child/state.
+        This waits only on repository/HANDOFF capacity. It does not shrink a
+        volume, discard a completed step, alter a science budget or signal a
+        scientific child. The runner's original complete status/journal/raw
+        outputs remain in their original work directories.
+        """
+        while True:
+            self.sync()
+            note_text=self.render(status,exit_code)
+            handoff_text=self.parallel_handoff_text(status,exit_code)
+            pending={self.note:note_text,**self.rendered_volumes,
+                     TOPIC+'/HANDOFF.md':handoff_text}
+            current=sum(path.stat().st_size for path in (self.repo/TOPIC).rglob('*')
+                        if path.is_file())
+            projected=current
+            for relative,body in pending.items():
+                target=self.repo/relative
+                projected+=len(body.encode())-(target.stat().st_size if target.exists() else 0)
+            handoff_bytes=len(handoff_text.encode())
+            if projected<=200000000 and handoff_bytes<10000:
+                return pending
+            event('complete_publication_waiting_for_capacity',
+                  run_id=self.run_id,actual_source_rule_commit=self.rule_commit,
+                  returned_stages=len(status.get('completed',[])),
+                  current_topic_bytes=current,projected_topic_bytes=projected,
+                  projected_handoff_bytes=handoff_bytes,
+                  limits={'topic_bytes':200000000,'handoff_bytes_exclusive':10000},
+                  complete_pending_files=[{'path':relative,'bytes':len(body.encode()),
+                      'sha256':hashlib.sha256(body.encode()).hexdigest()}
+                      for relative,body in pending.items()],
+                  scientific_child_signalled=False,complete_records_discarded=False,
+                  next_real_pull_seconds=30)
+            time.sleep(30)
 
     def publish(self,status,exit_code=None,force=False):
         snapshot=json.dumps({'completed':status.get('completed',[]),
             'state':status.get('state'),'exit_code':exit_code},sort_keys=True)
         if snapshot==self.last_snapshot and not force:
             return
-        self.sync()
-        note=self.repo/self.note
-        note.write_text(self.render(status,exit_code))
-        for relative,contents in self.rendered_volumes.items():
-            (self.repo/relative).write_text(contents)
-        handoff=self.repo/TOPIC/'HANDOFF.md'
-        self.write_parallel_handoff(status,exit_code)
-        topic_bytes=sum(path.stat().st_size for path in (self.repo/TOPIC).rglob('*') if path.is_file())
-        if topic_bytes>200000000:
-            raise RuntimeError('The topic exceeds the explicit 200 MB repository bound; preserve provenance and retire reproducible old raw before publication')
+        pending=self.prepare_complete_publication(status,exit_code)
+        for relative,body in pending.items():
+            (self.repo/relative).write_text(body)
         self.git('diff','--check',capture=False)
-        self.git('add',self.note,*self.rendered_volumes,str(handoff.relative_to(self.repo)),capture=False)
+        self.git('add',*pending,capture=False)
         if self.git('diff','--cached','--quiet',check=False).returncode==0:
             self.last_snapshot=snapshot
             return
@@ -224,9 +256,12 @@ class Publisher:
                 break
             if not any(word in pushed.stderr for word in ('fetch first','non-fast-forward','cannot lock ref')):
                 raise RuntimeError('Terminal push failed without a non-fast-forward reason')
-            self.sync()
-            self.write_parallel_handoff(status,exit_code)
-            self.git('add',str(handoff.relative_to(self.repo)),capture=False)
+            # An ordinary rebase can increase the current tree. Recompute the
+            # entire proposed note, all volumes and own slot before retrying.
+            pending=self.prepare_complete_publication(status,exit_code)
+            for relative,body in pending.items():
+                (self.repo/relative).write_text(body)
+            self.git('add',*pending,capture=False)
             self.git('commit','--amend','--no-edit',capture=False)
         self.last_snapshot=snapshot
         event('compact_conclusion_published',run_id=self.run_id,returned_stages=count,

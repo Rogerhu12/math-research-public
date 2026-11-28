@@ -1,10 +1,10 @@
 {
   "schema": "visible-larger-public-research-request-v1",
-  "request_id": "visible-larger-resume-20261128-29",
+  "request_id": "visible-larger-resume-20261128-29-retry1",
   "session": "Astra-larger-e4e2a2bf-20261126",
-  "created_utc": "2026-11-28 04:47:54 UTC",
+  "created_utc": "2026-11-28 05:26:34 UTC",
   "bootstrap_mode": "followups_only",
-  "rules_read_commit": "34566e33466d8bdbfc6bca047738272d18973ac2",
+  "rules_read_commit": "8ee6473e64eb128b946b57e27fe281a83fdd788a",
   "rules_sha256": {
     "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topics/visible-flex-larger-amplitude/README.md": "3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d"
@@ -13,10 +13,10 @@
   "controller_budget_seconds": 21000,
   "controller": {
     "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py",
-    "bytes": 19995,
-    "sha256": "0ab835efc215f21291c10d1cec24a29460419d0f9e71e1b9db69e2a05ee3df01",
-    "sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
-    "git_blob_sha": "9b9242db15f40902f37a2843ab7762d3560af5f1"
+    "bytes": 21888,
+    "sha256": "abf54a1b323aa3b514f1b6b6e3b1310844c717b0f4f2fb064b02dda1280907ad",
+    "sha": "4e0919183ab256c34484e86035de326976262a65",
+    "git_blob_sha": "4e0919183ab256c34484e86035de326976262a65"
   },
   "followups": {
     "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_followups_with_geometry_location_progress.py",
@@ -446,38 +446,25 @@
   },
   "controller_source_identity_derivation": {
     "complete_parent": {
-      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel28_geometry_locations.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py",
       "bytes": 19995,
-      "sha256": "164f4a7acc04ea380ad1627fe034e5b44f2b00d50c01c660b382309d2a5f75dd",
-      "sha": "f07730e05ea187523224b83cc18101167497f0d8",
-      "git_blob_sha": "f07730e05ea187523224b83cc18101167497f0d8",
-      "fixed_publication_commit": "cf2e5c85247af2d0314256654f357a6936cdecbe"
+      "sha256": "0ab835efc215f21291c10d1cec24a29460419d0f9e71e1b9db69e2a05ee3df01",
+      "sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+      "git_blob_sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+      "fixed_publication_commit": "259814e67c1435016353a70bb9e9b7d7b2a8c7e7"
     },
-    "complete_text_replacements": [
-      {
-        "before": "visible-larger-parallel-28:start",
-        "after": "visible-larger-parallel-29:start",
-        "count": 1
-      },
-      {
-        "before": "visible-larger-parallel-28:end",
-        "after": "visible-larger-parallel-29:end",
-        "count": 1
-      },
-      {
-        "before": "Actions28：",
-        "after": "Actions29：",
-        "count": 1
-      },
-      {
-        "before": "并行28规则核查：",
-        "after": "并行29规则核查：",
-        "count": 1
-      }
-    ],
-    "whole_original_controller_logic_and_pull_rules_preserved": true,
-    "complete_forward_inverse_text_equality_observed": true,
-    "budget_only_parameter_extension_record": "/transport_window_extension"
+    "actual_change": "Whole original own-slot render and publish span becomes render-only complete preflight, same-capacity waiting and complete rebase retry; original sync/render/source/science/control loops outside the span are unchanged.",
+    "complete_reproducer": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_public_controller29_complete_capacity_wait.mjs",
+    "original_whole_source_retained_at_fixed_commit": true,
+    "whole_forward_inverse_source_relation": true,
+    "all_scientific_argv_source_domains_budgets_acceptance_and_child_signal_logic_unchanged": true,
+    "topic_bytes_limit": 200000000,
+    "handoff_bytes_exclusive_limit": 10000,
+    "incomplete_or_shrunken_record_publication_allowed": false,
+    "pending_complete_state_on_runner_retained": true,
+    "capacity_wait_seconds_between_actual_pulls": 30,
+    "before_each_initial_publication_and_ordinary_rebase_retry": true,
+    "conditional_wait_still_subject_to_original_public_job_window": true
   },
   "workflow_identity_derivation": {
     "complete_parent": {
@@ -717,7 +704,29 @@
     "whole_index_limit": 95000,
     "missing_or_changing_progress_retains_original_errors": true,
     "currently_running_controllers_unmodified": true,
-    "full_original64_selectors_retained": true
+    "full_original64_selectors_retained": true,
+    "complete_publication_capacity_wait": {
+      "complete_parent": {
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py",
+        "bytes": 19995,
+        "sha256": "0ab835efc215f21291c10d1cec24a29460419d0f9e71e1b9db69e2a05ee3df01",
+        "sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+        "git_blob_sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+        "fixed_publication_commit": "259814e67c1435016353a70bb9e9b7d7b2a8c7e7"
+      },
+      "actual_change": "Whole original own-slot render and publish span becomes render-only complete preflight, same-capacity waiting and complete rebase retry; original sync/render/source/science/control loops outside the span are unchanged.",
+      "complete_reproducer": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_public_controller29_complete_capacity_wait.mjs",
+      "original_whole_source_retained_at_fixed_commit": true,
+      "whole_forward_inverse_source_relation": true,
+      "all_scientific_argv_source_domains_budgets_acceptance_and_child_signal_logic_unchanged": true,
+      "topic_bytes_limit": 200000000,
+      "handoff_bytes_exclusive_limit": 10000,
+      "incomplete_or_shrunken_record_publication_allowed": false,
+      "pending_complete_state_on_runner_retained": true,
+      "capacity_wait_seconds_between_actual_pulls": 30,
+      "before_each_initial_publication_and_ordinary_rebase_retry": true,
+      "conditional_wait_still_subject_to_original_public_job_window": true
+    }
   },
   "transport_window_extension": {
     "parent_workflow_timeout_minutes": 350,
@@ -742,5 +751,70 @@
     "source": "7acb89983fe616fbba85cef74811625b357942e4",
     "parameters": "18a43b01f1b72fd3b77013d7eab7099232c559f1"
   },
-  "current_complete_request_key_count": 54
+  "current_complete_request_key_count": 59,
+  "complete_immediate_original_run29_request": {
+    "complete_file": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-29.json",
+      "bytes": 40193,
+      "sha256": "473b5ff5c7af82fa6ef3611c7134b9255bc03f443c518ae76594a0b3830479c2",
+      "sha": "a97d6b2a2c0bb1e017ea5d1ec39046512b80e6f2",
+      "git_blob_sha": "a97d6b2a2c0bb1e017ea5d1ec39046512b80e6f2",
+      "fixed_publication_commit": "259814e67c1435016353a70bb9e9b7d7b2a8c7e7"
+    },
+    "json_pointer": "",
+    "whole_file_required": true,
+    "all_original_key_values_preserved_as_original_history": true
+  },
+  "complete_original_run29_controller": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py",
+    "bytes": 19995,
+    "sha256": "0ab835efc215f21291c10d1cec24a29460419d0f9e71e1b9db69e2a05ee3df01",
+    "sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+    "git_blob_sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+    "fixed_publication_commit": "259814e67c1435016353a70bb9e9b7d7b2a8c7e7"
+  },
+  "complete_current_original_run29_failure": {
+    "original_run": "46110194444/1",
+    "job_id": "140871777584",
+    "official_conclusion": "failure",
+    "official_completed_at": "2026-11-28T05:08:49Z",
+    "actual_cause": "The topic exceeds the explicit 200 MB repository bound; preserve provenance and retire reproducible old raw before publication",
+    "both_necessary_input_steps_returned_zero": true,
+    "actual_mathematical_solver_start_or_report_observed": false,
+    "complete_original_failure_note": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md",
+      "bytes": 73361,
+      "sha256": "637477bc6a46a87c55344221d9a8a2ed784c10077428ec4da507416cb0a78d20",
+      "git_blob_sha": "b1e22efdcf52a623732c7318d62abe90a1521f56",
+      "fixed_publication_commit": "1302dbcfb0197b9541ddedd5c08c39bf3592fd5c"
+    },
+    "complete_original_job_log_metadata": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run29-original-job-failure-metadata.json",
+      "bytes": 8312,
+      "sha256": "43c28f36a61564c4fa2c9902f77c154a04303cfffed895ceb8bdbd6c4203191a",
+      "git_blob_sha": "ce551b98d1dcf3c80109d79d5d371e562ca74faf",
+      "fixed_publication_commit": "7f057637d0a538556e753c816ec0ab2cb9f329b4"
+    },
+    "original_log_bytes": 53972,
+    "original_log_sha256": "e6d7253506bdcc37df4b588accad288c5db812fbd7a1c5da0a736312d24931cc",
+    "old_runner_inputs_or_raw_outputs_transferred": false,
+    "original_failed_run_or_output_identities_relabelled": false
+  },
+  "original_request_key_count": 54,
+  "retry_scope": {
+    "same_original_complete_R726_scientific_family": true,
+    "same_complete_157_and7_scientific_parameters": true,
+    "same_whole_three_step_queue_and_original_science_pure_continuation": true,
+    "necessity": "A new independent public runner is required after a recorded publication exception ended the original run; original local inputs are not available to transfer.",
+    "original_controller_admission_checkpoint_seconds": 21000,
+    "original_workflow_timeout_minutes": 360,
+    "numerical_budget_reduction": false,
+    "old_mathematical_result_replay": false,
+    "read_only_original_log_recovery_is_not_a_new_scientific_gate": true,
+    "new_run_id": null,
+    "new_actual_child_source_commit": null,
+    "new_actual_model": null,
+    "new_actual_point": null,
+    "new_actual_report": null
+  }
 }

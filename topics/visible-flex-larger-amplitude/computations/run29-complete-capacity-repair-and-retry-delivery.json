@@ -1,0 +1,126 @@
+{
+  "schema": "run29-complete-publication-capacity-repair-and-retry-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "new_and_replaced_complete_files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py",
+      "bytes": 21888,
+      "sha256": "abf54a1b323aa3b514f1b6b6e3b1310844c717b0f4f2fb064b02dda1280907ad",
+      "sha": "4e0919183ab256c34484e86035de326976262a65",
+      "git_blob_sha": "4e0919183ab256c34484e86035de326976262a65"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-29.json",
+      "bytes": 45534,
+      "sha256": "d5e405ecf9e3d16f92e9d0fe1f3c9fdcaa211d0165acc73ce4b20ff43e26e397",
+      "sha": "5a6b187bdba3bc1326e1aaab8dee5714f8f9ae7f",
+      "git_blob_sha": "5a6b187bdba3bc1326e1aaab8dee5714f8f9ae7f"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_public_controller29_complete_capacity_wait.mjs",
+      "bytes": 13096,
+      "sha256": "b66bab9718ce1976ca09a1420999abf633ef341c1aa5fc91cbc9f63eedbd78fe",
+      "sha": "6d5ca68c953dd4b3e1bb3c720a89297bd3a5df8e",
+      "git_blob_sha": "6d5ca68c953dd4b3e1bb3c720a89297bd3a5df8e"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run29-complete-capacity-repair-and-retry.md",
+      "bytes": 9234,
+      "sha256": "af0bc311f3da7a219e3aaca8a01ba8dae6f947ea10413d8ca6c961a754c22890",
+      "sha": "053b2a434b333ee2f6335579b0fed2b0b15d803f",
+      "git_blob_sha": "053b2a434b333ee2f6335579b0fed2b0b15d803f"
+    }
+  ],
+  "replaced_original_complete_files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel29_geometry_locations.py",
+      "bytes": 19995,
+      "sha256": "0ab835efc215f21291c10d1cec24a29460419d0f9e71e1b9db69e2a05ee3df01",
+      "sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+      "git_blob_sha": "9b9242db15f40902f37a2843ab7762d3560af5f1",
+      "fixed_publication_commit": "259814e67c1435016353a70bb9e9b7d7b2a8c7e7"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-29.json",
+      "bytes": 40193,
+      "sha256": "473b5ff5c7af82fa6ef3611c7134b9255bc03f443c518ae76594a0b3830479c2",
+      "sha": "a97d6b2a2c0bb1e017ea5d1ec39046512b80e6f2",
+      "git_blob_sha": "a97d6b2a2c0bb1e017ea5d1ec39046512b80e6f2",
+      "fixed_publication_commit": "259814e67c1435016353a70bb9e9b7d7b2a8c7e7"
+    }
+  ],
+  "unchanged_complete_launch_files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-29.json",
+      "bytes": 74372,
+      "sha256": "e16b8d782febeb5e0b70840b925003fdc6524ee6595f29b3fb1e9807a5dd717a",
+      "sha": "e46753d93f0c1ceb4d60a59e5a73e0cfdf0d32b8",
+      "git_blob_sha": "e46753d93f0c1ceb4d60a59e5a73e0cfdf0d32b8"
+    },
+    {
+      "path": ".github/workflows/visible-larger-20261128-parallel29.yml",
+      "bytes": 2207,
+      "sha256": "0834dd557492e10730befea2844ae49facfb52967ff83d3d45398f3b5a916ffa",
+      "sha": "1cc478bb737ab2403bc9a08d42526ea4f00c7314",
+      "git_blob_sha": "1cc478bb737ab2403bc9a08d42526ea4f00c7314"
+    }
+  ],
+  "complete_original_failure": {
+    "original_run": "46110194444/1",
+    "job_id": "140871777584",
+    "official_conclusion": "failure",
+    "official_completed_at": "2026-11-28T05:08:49Z",
+    "actual_cause": "The topic exceeds the explicit 200 MB repository bound; preserve provenance and retire reproducible old raw before publication",
+    "both_necessary_input_steps_returned_zero": true,
+    "actual_mathematical_solver_start_or_report_observed": false,
+    "complete_original_failure_note": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md",
+      "bytes": 73361,
+      "sha256": "637477bc6a46a87c55344221d9a8a2ed784c10077428ec4da507416cb0a78d20",
+      "git_blob_sha": "b1e22efdcf52a623732c7318d62abe90a1521f56",
+      "fixed_publication_commit": "1302dbcfb0197b9541ddedd5c08c39bf3592fd5c"
+    },
+    "complete_original_job_log_metadata": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run29-original-job-failure-metadata.json",
+      "bytes": 8312,
+      "sha256": "43c28f36a61564c4fa2c9902f77c154a04303cfffed895ceb8bdbd6c4203191a",
+      "git_blob_sha": "ce551b98d1dcf3c80109d79d5d371e562ca74faf",
+      "fixed_publication_commit": "7f057637d0a538556e753c816ec0ab2cb9f329b4"
+    },
+    "original_log_bytes": 53972,
+    "original_log_sha256": "e6d7253506bdcc37df4b588accad288c5db812fbd7a1c5da0a736312d24931cc",
+    "old_runner_inputs_or_raw_outputs_transferred": false,
+    "original_failed_run_or_output_identities_relabelled": false
+  },
+  "whole_source_relation": {
+    "complete_span_reproducer": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_public_controller29_complete_capacity_wait.mjs",
+      "bytes": 13096,
+      "sha256": "b66bab9718ce1976ca09a1420999abf633ef341c1aa5fc91cbc9f63eedbd78fe",
+      "sha": "6d5ca68c953dd4b3e1bb3c720a89297bd3a5df8e",
+      "git_blob_sha": "6d5ca68c953dd4b3e1bb3c720a89297bd3a5df8e"
+    },
+    "complete_before_bytes": 3788,
+    "complete_after_bytes": 5681,
+    "entire_outside_span_unchanged": true,
+    "entire_inverse_relation": true
+  },
+  "current_whole_request_key_count": 59,
+  "original_whole_request_key_count": 54,
+  "all_original_request_metadata_preserved_as_exact_whole_history": true,
+  "numerical_sources_and_parameters_changed": false,
+  "scientific_budget_changed": false,
+  "queue_changed": false,
+  "capacity_wait_changes_only_publication": true,
+  "capacity_wait_seconds": 30,
+  "topic_bytes_limit": 200000000,
+  "handoff_bytes_exclusive_limit": 10000,
+  "old_raw_transfer": false,
+  "new_scientific_gate": false,
+  "official_new_run": null,
+  "actual_new_child": null,
+  "actual_new_report": null,
+  "publication_commit": null,
+  "new_and_replaced_bytes_excluding_manifest": 89752,
+  "current_tree_delta_excluding_manifest": 29564
+}
