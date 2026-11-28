@@ -475,3 +475,7 @@ ROOT核完整index+12报告于df08b6a9、官方46162184631/1 job141031722741全�
 ## 2026-11-28 16:36:29 UTC — 34八分真拒、十六分未返与官方取消
 
 官方46135301432/1 job140949157288 cancelled；最终52215B索引/71d8261f...固定f7de5493全取。八分723e点完整reach g4084.59459拒；十六分d0c53仅Phi42341.74119/Gram.94987660，几何/接受未知；累计accepted0。原139源/预算/32stage及pure66120保未返，取消原因未获annotation不猜。末真pull留H，继续已启动R766及新g方向。 双README云核至`70764fb00b71a4e64de97a630271fc47cfe0ae77`无变（非pull）。
+
+## 2026-11-28 16:54:19 UTC — RET100M：46已闭请求的完整逐字恢复与实际终态核验
+
+在43914b1da832b13ffc65f9f3074446217fc065b9冻结旧态，完整清单computations/ret100m-closed-solver-and-current-c-whole-parameter-recovery.json（81800B/SHA256 97cd2baddfe6cbbfc1fe290a9b2e1e600630e50e5703bb620a34edf432a3277d/Git7159b68222264912a105258a5da02b0babda409a）保46原文件全路径/bytes/SHA/Git、21独立父、67拓扑序、7完整member编辑群、原JSON次序/缩进/浮点词/223紧凑成员、46触发提交与官方run/jobs。root独立读完全部21父和7编辑群，实际重建46份完整原文本，全部bytes/SHA256/Git匹配；另逐个读官方46run与91jobs，触发head/attempt/终态一致（成功/失败照录，未把基础设施成功冒作数学成功）。原1647690B由9完整恢复件600678B代，净释1047012B；11旧恢复清单/各父、152活/备源参和25新增来源范围保留且无目标引用。仅46准备请求为退件；结果/失败/证明/队列/程序/workflow/generator、19/20 R732父和任何未闭输入不退。无科学计算或预算改变。恢复器computations/reproduce_ret100m_closed_solver_and_current_c_parameters.mjs（7009B/Git7de5b4525be34992baa84d7ee478fef71abff2d2）在公开runner可恢复完整文件，原不可变Git历史提供第二路径。 双README云核至`b722b56b079bbeb85390ed7eaf0e24f3f5cf2f14`无变（非pull）。
