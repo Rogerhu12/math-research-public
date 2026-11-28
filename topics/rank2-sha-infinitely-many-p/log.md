@@ -215,3 +215,13 @@ root以全部层Eisenstein给CM Tate开像，明确σy=yg_a才用E16，逐式推
 
 推前actual readonly run46075603971/job140848946675：公开2026-11-28 03:26:20 UTC至96fdb194b9ebed8be4cce2c907529415813cb583；私库2026-11-28 03:26:25 UTC至921cea7eab1e248a9e3ccfdfa6a59aff6fb9ae7a。四README与03:17已读版完全相同，QUEUE/认领未变；日志14889B/hash11e66544555c20526d98bbcdc90b247bd2897b683a7986de5a4453228abe7ad5，库存3174blobs/44872969B/tree951dbfa665bb504ee8f8443d3e40974591eda8a5，无>5MB，三旧必要gzip未变。
 R1062 G1–G19已成功推06c9d2e78a4b15c11972e3eef3fd7208ecf1b5f7。03:21:48UTC实际核v13仍in_progress，日志GET仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、尾00:18:25 positive scalar222/306，未返新终门；不据缓存断停滞。旧H逐字归档notes/2026-11-28-handoff-before-period-descent-and-hall-return.md（9852B/34a12d3ffea701791e542872265029cf06c9e112be02e1c768a33e7bc248832c）。
+
+
+## 2026-11-28 03:40 UTC：原 tame-zero Hall 五层与全部绝对相位
+
+R1063在原E0与严格LT坐标中证明Z_Q=Xi(w_Q)及6p/(p²−1)误差；实际tame0角色、所有Miller/Klein中心和两3词保留，负二Hall只在第五层起有连接误差。原反CM给W_+=hat3W，严格Haar对偶给d/p²，原Ω/ρ/ell/raw幅度完整列出；前五层是两原完整B的卷积，首项d_-,p−1·s_p+1。新增投影不冒原来源已做，paired值不代单Hall严格估值门，未预付无穷首单位。
+
+geometry完成H1–27；root全读R663/R696/R705/R716原式，核严格LT而非µd平均坐标、真实CRT相位及W+=hat3W，只在实际挠点用Teich线性。root另明确H25两Hall向量是原Haar双线性配对下严格对偶，非各自任选norm1向量。arith独核Xi/LT尾和五层范围。完整non-p/h/γ_i返回及原Newton五层已有独立草稿，继续审而不预付；无新数学执行。
+
+推前actual readonly run46075603971/job140850811731：公开2026-11-28 03:33:45 UTC至983bae9f248d07d6fe946270290d2994c39ba4ca；私库2026-11-28 03:33:49 UTC至abf1cfe909b15efc2389771d5706d0604f640f99。四README与03:26已读版完全相同，QUEUE/认领未变；日志14887B/hashb9808b7987656b75cd13adc8bc4262fee060a4e87dacff6a35bacdac0c9dd0c9，库存3175blobs/44895845B/tree7b257f6401316d1b5f51ad400a9b2769f446de79，无>5MB、三旧必要gzip不变。
+R1062 P1–P11已成功推687d22ccb6b4d5a7d2bcdc571e68292cfce0590c。旧H逐字归档notes/2026-11-28-handoff-before-full-tame-zero-hall.md（9604B/51f0ccef4e7f61dd17264ad8a0928254722c44e7f976c7566741e4f605844844）。

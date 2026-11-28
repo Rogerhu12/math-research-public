@@ -350,3 +350,10 @@ R1062从同一Miller translated section抽出实际NZ_Q指数，完整Bell极帽
 R1062§7从原完整Tate基和book period自然性付深norm-one Galois作用：σΩ=cΩ，真实权germ乘c⁻¹exp(2(j+2)logc)。非零raw临界值迫全部raw权jets在同一有限域上线性独立；同时精确分离Ω(R′−logU*·R)∈F，说明canonical比较必须保周期导数，临界值零时不预付斜率非零。原whole Amice来源另给σm=c³T_((c²−1)C)D_(c²)m及完整局部Möbius式；bounded全盘由实际σA支付，不把形式复合或单D缩放当任意新测度。
 
 [完整证明](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)，P1–P11。
+
+
+## R1063 — 原 tame-zero Hall 与负二读数的五层返回
+
+R1063在原E0与严格LT坐标中证明Z_Q=Xi(w_Q)及6p/(p²−1)误差；实际tame0角色、所有Miller/Klein中心和两3词保留，负二Hall只在第五层起有连接误差。原反CM给W_+=hat3W，严格Haar对偶给d/p²，原Ω/ρ/ell/raw幅度完整列出；前五层是两原完整B的卷积，首项d_-,p−1·s_p+1。新增投影不冒原来源已做，paired值不代单Hall严格估值门，未预付无穷首单位。
+
+[完整证明](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)，H1–H27。
