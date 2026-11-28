@@ -1108,3 +1108,92 @@ $17^{(p-1)/2}\in1+p\mathbf Z_p$ 由 $(17/p)=1$，
 $C$。从而原随权 $17^{-(p-1)u}$ 在此正参考中准确消去。
 (AH4)的分子读实际乘积 $D B_\beta=S_1$；全局单位与范数
 相容性未把它换成 $D$ 单独的 Mellin，也未证明跨 $p$ 非零。
+
+## 67. 同一全局单位在每个原第一 wild 角色上的非零对数分量
+
+沿用(AH1)。对 $M=p^2$、$\varpi=\varpi_1$ 和
+$v\in A_M^\times=(\mathcal O_K/M)^\times$ 置
+$Q_v=\varpi v/M$。让 $\chi=\chi_{p,r}$ 为 R716(3)原角色，
+$r\in\mathbf F_p^\times$，也可取其平方这个真实 Hecke twist。
+于是
+$$
+ \boxed{\displaystyle
+ \sum_{v\in A_M^\times}\chi(v)\log_p(1008D(Q_v))
+  =(4+\chi(\gamma_7)+\chi(\gamma_7)^{-1})
+       \sum_{v\in A_M^\times}\chi(v)\log_p\widehat\sigma(Q_v)
+       \ne0 .}                                                    \tag{AI1}
+$$
+选定 $\log_p(p)=0$；由非平凡角色和零，也可先将每个
+$\widehat\sigma(Q_v)$ 除以同一个 $\widehat\sigma(Q_1)$。
+Klein 归一用(AE2)同一 $\widehat\sigma(Q_v)=
+e^{-\eta_{Mv}^* z_v/2}\sigma(z_v)$，这里具体
+$z_v=\varpi v/M$，$\eta_{Mv}^*=\eta_{Mz_v}/M$。
+其平方的代数性由(AE2)保证，故指定的数本身代数；
+改变格 lift 只改单位根，对两种对数都无影响。
+
+第一个等式来自原除子，不用任何非零猜想。
+取 $\delta=\sqrt{-3}$、$\gamma_7=3+\omega$。范数三的
+规范除点函数为
+$\sigma(\delta z)/\sigma(z)^3=\delta x(z)$：
+核为 $O,(0,1),(0,-1)$，两边极零及原点领先项相同，
+三次对称与 CM 准周期使其商为常数一。
+所以 $G(z)=\sigma(\delta z)/(\delta\sigma(z))$，且 R297(19)给
+$$
+ S_1(z)=\frac1{28\delta^2}
+    \prod_{a\in\{1,2,\delta,2\delta,\gamma_7,\bar\gamma_7\}}\sigma(az).
+                                                                  \tag{AI2}
+$$
+对复乘 $a$，$|az|^2=Na\,|z|^2$，因此同一等式对各自
+Klein 归一也准确成立。令 $m\equiv\sqrt{17}\bmod M$。
+(AH2)给 $D(Q_v)=\widehat S(Q_v)/\widehat G(mQ_v)$；
+各换元 $v\mapsto av$ 都是 $A_M^\times$ 的置换。
+所需的 lift 相位在 $\log_p$ 中为零。每项 $a$ 因而乘
+$\chi(a)^{-1}$。$\chi$ 在实单位 $2,m,7$ 上平凡，
+$\chi(\delta)^2=\chi(-3)=1$ 且 $\chi$ 阶为奇数 $p$，
+故 $\chi(\delta)=1$。$N\gamma_7=7$ 使两个七项互逆；
+除去 $G(mQ_v)$ 的两项权重 $\chi(m)^{-1}-
+\chi(\delta m)^{-1}$ 准确相消。常数由 $\sum_v\chi(v)=0$
+消去。所得乘子为(AI1)的实代数数，任一复嵌入在 $[2,6]$。
+在选定 $p$ 位还模极大理想等于 $6$，是单位。
+
+证明最右非零。记 $A=\operatorname{area}(\mathbf C/\Lambda)/\pi$，
+$[v,\lambda]=(\bar v\lambda-\bar\lambda v)/\delta\in\mathbf Z$。
+Bannai–Furusho–Kobayashi 复 Th. 1.1(ii) 的同一
+Klein 归一，结合该文(1)，给
+$$
+ \sum_{v\in A_M^\times}\chi(v)\log|\widehat\sigma(Q_v)|
+ =-3A|\varpi|^{-2}\,\tau(\chi)L(1,\chi),\qquad
+ \tau(\chi)=\sum_{v\in A_M^\times}\chi(v)e_M([v,1]).           \tag{AI3}
+$$
+具体在 $\Re s>1$ 先展开
+$K_0^*(0,z_v,s)=|\varpi|^{-2s}\sum_{\lambda\ne0}
+N(\lambda)^{-s}e_M([v,\lambda])$。$[v,\lambda]=[v\bar\lambda,1]$，
+故单位 $\lambda\bmod M$ 的内和为
+$\chi(\bar\lambda)^{-1}\tau(\chi)=\chi(\lambda)\tau(\chi)$；
+$p\mid\lambda$ 时因 $\chi$ 在 $1+p\mathcal O_K$ 模 $p^2$
+非平凡，该内和为零。有限加性 Fourier 的 Parseval 给
+$|\tau(\chi)|=M$，因只有单位频率、且它们等幅。$K$ 类数一、
+$\chi|_{\mu_6}=1$，故余下各非零元的和是 $6L(s,\chi)$。
+延拓到 $s=1$ 后，由原刊第二极限公式中的 $-2\log|\widehat
+\sigma|$ 及 $\sum\chi=0$ 得(AI3)。这个非平凡有限阶 Hecke
+$L(1,\chi)$ 非零，也可直接对模 $M$ 射线类域的 Dedekind zeta
+作阿贝尔分解：平凡项和射线类域 zeta 各有一阶极，而非平凡
+项在一正则，因此各非平凡项在一均不为零；去掉分歧 Euler
+因子亦无零。这里用的是单位角色 $L(1,\chi)$，不是 R716(8)
+的权一 Hecke 角色中央值。[一手极限公式](https://www.math.nagoya-u.ac.jp/~furusho/paper/BFK.pdf)
+
+最后所有比值 $u_v=\widehat\sigma(Q_v)/\widehat\sigma(Q_1)$
+在所选 $p$ 位都是单位：在(AE2)取 $n=1+M,m=1$，
+$t(Q)^{n^2-1}\psi_n(Q)$ 为单位，给
+$v_p(\widehat\sigma(Q))=v_p(t(Q))$，而所有这些 $Q_v$ 同阶。
+若所需 $p$ 进和为零，从有限个 $\log_p u_v$ 中取其
+$\mathbf Q$-基。Baker–Brumer（可直接参见 Fuchs–Pham [Th. 2.1](https://web.math.pmf.unizg.hr/glasnik/51.2/51(2)-04.pdf)）使此基仍在
+$\overline{\mathbf Q}$ 上独立，故用同一有理基消元后，
+原角色关系的各代数系数都为零。$p$ 进单位对数的有理关系
+清分母给全局乘积为单位根，所以相同关系也在
+$\log |u_v|$ 中成立。这会使(AI3)为零，矛盾。
+这样(AI1)在整个无限素数射线及其每个原第一 wild 角色成立。
+它是(AH1)原单位的真实对数/ Kummer 分量，读取导子 $p^2$
+上的全部单位；(AH3)仍读取 $p$ 挠点的指定 norm shell、原
+参考相位、以及单位值本身。两种读取尚无从坏中央推出(AI1)
+为零的证明。

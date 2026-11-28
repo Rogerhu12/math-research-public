@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；公共pack已逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
-- 公开2026-11-28 13:51:34 UTC实际pull --rebase，读取main 63b47d5c21d211475cb3cc3f1bff5d0c71e9ca4a；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 13:51:30 UTC实际pull --rebase至b7983ddd583e746555b12c2dbf1c39c45f770f92；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 13:54:51 UTC实际pull --rebase，读取main 75480e54fa7ccf3ff39b925bf7184e3eb1c83a77；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 13:54:43 UTC实际pull --rebase至a65edfb102c5ea7b14e61c4bcbb6ae892c2b01c5；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3284/47547893B/tree467b15592178a03c4dc0d1e1a95ebdb701a3ecb9；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3284/47553976B/treec2a18beadfa638a5cb8a9d4afeae04b07ab006f4；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -29,7 +29,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 原两/三位与三个实际目标：R1067
 
 [原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[56起](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。全部原Kato/ν/physical/参考照保：EN三位/Ed两位，首剩余全后段核容许坏j1，须真实高位。九17标记给三实际Zi与完整J=3Σr_i^uI_i，同一S3域；Gaussian Gwt非零/超越但原J′/3=Gwt+ΣI_i′尚可抵消。三中心比模任何固定S-unit秩2，只在余项为有限全局period时推出非零。完整余项是一条过收敛积分，复阶2/(p−1)不排除端点period表示。绝对a/b及κ0已付。
-§§62–65原K=S1G(√−17z)全t盘整、所有p幂挠真S,p-unit；同一3024K在原LT塔严格范数相容。真实17平移在原b⊗V17中以完整289项回三个Hi，各Ci/参考逆/权导都保。偶log奇矩零，不能当原Rubin。§66同一旧G81的1008D全p层严格范数，原Klein值无Teich返回；原Hall仍保G因子。全部证明及旧参数见上链，不重做。
+§§62–65原K=S1G(√−17z)全t盘整、所有p幂挠真S,p-unit；同一3024K在原LT塔严格范数相容。真实17平移在原b⊗V17中以完整289项回三个Hi，各Ci/参考逆/权导都保。偶log奇矩零，不能当原Rubin。§66同一旧G81的1008D全p层严格范数，原Klein值无Teich返回；原Hall仍保G因子。§67同一1008D的每个原首wild全Kummer对数非零，未与J′等同。全部证明及旧参数见上链，不重做。
 
 ## 原中央与完整全层：R1070/R1072
 

@@ -389,3 +389,9 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:51:21 UTC到a7e3a8a714443a9d3566dd80e6df7c73ae1fc1cc，私库2026-11-28 13:51:14 UTC到b7983ddd583e746555b12c2dbf1c39c45f770f92；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47547893B/tree467b15592178a03c4dc0d1e1a95ebdb701a3ecb9，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:51:34 UTC到63b47d5c21d211475cb3cc3f1bff5d0c71e9ca4a，私库2026-11-28 13:51:30 UTC到b7983ddd583e746555b12c2dbf1c39c45f770f92；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47547893B/tree467b15592178a03c4dc0d1e1a95ebdb701a3ecb9，无>5MB。
+
+## 2026-11-28 13:54:37 UTC：R1067 §67：原wild角色的真实全局Kummer对数非零
+
+根实读R716(3)–(7)的χ/χ²及BFK复Th1.1(ii)/(1)，逐核真实六sigma因子、Gauss绝对值M、同阶p位比为单位和同一有理关系经根单位传复绝对值；实用Fuchs–Pham Th2.1，未把有限层非零传到中央。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:54:51 UTC到75480e54fa7ccf3ff39b925bf7184e3eb1c83a77，私库2026-11-28 13:54:43 UTC到a65edfb102c5ea7b14e61c4bcbb6ae892c2b01c5；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47553976B/treec2a18beadfa638a5cb8a9d4afeae04b07ab006f4，无>5MB。

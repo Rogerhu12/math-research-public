@@ -41,3 +41,7 @@
 ### R1071 §20：同一原G3独立软件实际PASS
 
 R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d54ac95787b、run46151076917/job140997639248，40实际源与五完整回执由根/代理独立核；真实level4格/两域四HNF/三重极/全部拒绝通过，1156及306原生产未执行。 [完整回执记录](2026-11-28-original-descended-g3-pencil-software.md)。
+
+### R1067 §67：原wild角色的真实全局Kummer对数非零
+
+同一1008D在全部原导子p²角色χ及χ²上，完整六sigma因子给单位乘子4+χ(γ7)+χ(γ7)⁻¹；全有限Gauss及BFK复极限、Baker转移付真实对数非零，未移作原Hall单位值或中央导数。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
