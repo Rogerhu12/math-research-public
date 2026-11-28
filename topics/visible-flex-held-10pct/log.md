@@ -248,3 +248,7 @@ root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层�
 ## 2026-11-28 12:37 UTC — Actions 同runner必要输入恢复与原design连续链准备
 
 依根README§13授权新增课题外 `.github/workflows/held10-design-mapped-20261128.yml`，用于同runner恢复静态70源/完整q与材料输入，再按原全部门推进λ1；不上传数组或证书。q/warp真割线、直接M32 bootstrap及全两源M40/M48初猜均经root和analytic审原API/门，无新BVP/dispatch。此v1保持历史来源，后继v2固定数值树、v3补owned-session清理；实际只运行最新入口。见 [准备](notes/2026-11-28-design-actions-continuation-prepared.md)。
+
+## 2026-11-28 12:41 UTC — 固定数值源码与控制pull分离
+
+新增课题外v2 workflow及对应worker/request/薄setup入口，因活数值代码不能随control main pull而混用新旧来源。真实pull后独立detached稀疏树绑定commit/tree和全部已检出文件SHA；全部setup/动态import/cwd/@REPO@均固定，控制树只核规则/读请求/terminal发布。root与analytic完整只读审过，无BVP/dispatch，旧v1未改。实际下一生命周期版接续此源隔离。见 [记录](notes/2026-11-28-design-actions-frozen-v2-prepared.md)。

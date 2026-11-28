@@ -1,0 +1,21 @@
+{
+  "id": "held10-20261128-frozen-complete-design-v2-01",
+  "read_rules_commit": null,
+  "script": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_frozen_chain_entry.py",
+  "args": [
+    "--repo",
+    "@REPO@",
+    "--work",
+    "@WORK@",
+    "--outdir",
+    "@WORK@/fresh-design"
+  ],
+  "diagnostics": [
+    {
+      "path": "@WORK@/fresh-entry-setup.json"
+    },
+    {
+      "path": "@WORK@/fresh-design/public-summary.json"
+    }
+  ]
+}

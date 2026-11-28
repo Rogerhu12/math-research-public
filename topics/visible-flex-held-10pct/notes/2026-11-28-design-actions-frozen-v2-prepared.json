@@ -1,0 +1,126 @@
+{
+  "status": "frozen_source_Actions_v2_prepared_not_dispatched",
+  "prepared_utc": "2026-11-28T12:24:08.834515+00:00",
+  "prior_preparation_record": {
+    "path": "topics/visible-flex-held-10pct/notes/2026-11-28-design-actions-continuation-prepared.json",
+    "sha256": "08905e9ce9400eb44f29009e90e62cbd51bb63f1216721df46275fab6ebd3ede",
+    "prior_worker_has_not_run": true
+  },
+  "frozen_new_entry_sources": [
+    {
+      "path": ".github/workflows/held10-design-mapped-v2-20261128.yml",
+      "bytes": 3636,
+      "sha256": "7f0c4aabd837d4a2d11ca666adf98aae46d7a7f41a95041acd0331a1cfc2fd7f"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/ci/mapped-design-v2-command.json",
+      "bytes": 456,
+      "sha256": "e23866b0d4896479a90049269686741f56eb7fd650a361dd91866af04c49a474"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_terminal_worker_v2.py",
+      "bytes": 22794,
+      "sha256": "e9268d999379ee88e1885e76e2e5c8dfd18daa5a15ac1272c91be9241a9a8ebc"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_frozen_chain_entry.py",
+      "bytes": 3027,
+      "sha256": "7dad7a7b5dcd5ee8de67f132f1078c3e52fe52e727d40f1d1c864347c4b69b45"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_fresh_design.py",
+      "bytes": 19342,
+      "sha256": "280d95c0a0b8fcdcbc9adea2f891e8d2b6b53e12d1d9c89be4b8cd58146a5248"
+    },
+    {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_q_material_recovery.py",
+      "bytes": 8493,
+      "sha256": "caca8d79b07a50d68fa3696233b83908b05b0ca2c07688d2df93637078490990"
+    }
+  ],
+  "shared_six_sources_already_root_pushed_commit": "f1f16aff492595a56091b61a804a7f41d5ff54ad",
+  "correction": {
+    "identified_by": "root source review",
+    "old_risk": "The running numeric child and terminal publisher shared a worktree that was pulled during computation; later imports and file hashes could bind different bytes.",
+    "old_sources_changed": false,
+    "v2_source_contract": "One independently checked-out detached sparse worktree at an exact commit holds all numerical and static-setup sources. The live control worktree alone reads changed rules/requests and publishes.",
+    "numerical_model_and_gates_changed": false
+  },
+  "frozen_source_contract": {
+    "source_commit_is_actual_control_HEAD_after_true_pull": true,
+    "git_worktree_mode": "detached,no-checkout; sparse-checkout set --cone topic; checkout detached pinned commit",
+    "all_checked_out_regular_file_SHA256_manifest_written_locally": true,
+    "published_identity": [
+      "exact commit",
+      "exact tree",
+      "manifest SHA256",
+      "checked-out file count",
+      "checked-out source bytes"
+    ],
+    "manifest_uploaded": false,
+    "immutable_70_source_revisions_checked_or_fetched": true,
+    "numerical_REPO_cwd_and_GITHUB_WORKSPACE_use_pinned_tree": true,
+    "numerical_PYTHONPATH_removed": true,
+    "numerical_WORK_is_separate_computation_directory": true,
+    "static_setup_runs_inside_the_same_frozen_tree": true,
+    "later_commands_reuse_and_reverify_the_same_snapshot": true,
+    "control_pull_never_checkout_or_modify_numerical_source": true,
+    "live_rule_change_still_pauses_owned_group_until_root_review": true
+  },
+  "entry": {
+    "workflow": ".github/workflows/held10-design-mapped-v2-20261128.yml",
+    "request": "topics/visible-flex-held-10pct/ci/mapped-design-v2-command.json",
+    "request_id": "held10-20261128-frozen-complete-design-v2-01",
+    "required_workflow_dispatch_input": "read_rules_commit: actual reviewed full40-hex commit",
+    "result_path_template": "topics/visible-flex-held-10pct/ci/mapped-design-v2-results/run-${GITHUB_RUN_ID}-attempt-${GITHUB_RUN_ATTEMPT}.json",
+    "root_runs_dispatch_after_push": true
+  },
+  "numerical_route_unchanged_from_prior_record": true,
+  "actual_checks": {
+    "new_v2_worker_and_frozen_launcher_compile_and_help_exit0": true,
+    "v2_YAML_and_request_JSON_parsed": true,
+    "v2_workflow_embedded_Python_compiled": true,
+    "v2_shell_blocks_bash_n_passed": true,
+    "no_static_setup_step_in_mutable_control_workflow": true,
+    "all_four_final_hash_Python_sources_compile": true,
+    "local_Git_executed_by_design_agent": false,
+    "local_BVP_or_full_J_started": false,
+    "Actions_run_started": false
+  },
+  "publication": {
+    "terminal_git_only": true,
+    "scope": "unique per-run/attempt scalar JSON under this topic",
+    "all_pull_dual_README_checks": true,
+    "nonfastforward_pull_rebase_then_retry": true,
+    "force_push": false,
+    "full_fields_matrices_certificates_uploaded": false,
+    "credentials_in_files_or_numeric_environment": false
+  },
+  "continuation_scope": {
+    "same_runner_followup_commands_supported": true,
+    "latest_original_full_nodal_pointer_and_SHA_in_small_diagnostics": true,
+    "actual_accepted_stages_checked_and_recorded_during_continuation": true,
+    "old_lambda128_frontier_only_input_recovery": true,
+    "required_continuation_targets": [
+      0.128,
+      0.192,
+      0.256,
+      0.384,
+      0.512,
+      0.75,
+      1.0
+    ],
+    "job_budget_is_not_topic_completion": true,
+    "lambda_one_finite_prefix_is_not_topic_completion": true
+  },
+  "required_commit_paths": [
+    ".github/workflows/held10-design-mapped-v2-20261128.yml",
+    "topics/visible-flex-held-10pct/ci/mapped-design-v2-command.json",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_terminal_worker_v2.py",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_frozen_chain_entry.py",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_fresh_design.py",
+    "topics/visible-flex-held-10pct/scripts/resume_20261128/design/ci_q_material_recovery.py",
+    "topics/visible-flex-held-10pct/notes/2026-11-28-design-actions-frozen-v2-prepared.json",
+    "topics/visible-flex-held-10pct/notes/2026-11-28-design-actions-frozen-v2-prepared.md"
+  ]
+}
