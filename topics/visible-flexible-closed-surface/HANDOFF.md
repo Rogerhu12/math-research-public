@@ -30,7 +30,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-R271-components --> [R273上弯尾/长喉](results/R273-raised-developed-tail-new-throat-and-ambient-diffeomorphism.md)、[R282回折双控尾](results/R282-returning-developed-ports-with-independent-terminal-tangent-and-height.md)中央/两尾/固定帽三分量全时reach≥.097，仍缺两个连接带。
 
-<!-- 2ecf-r278-Minkowski --> [短二次模全位置](notes/2026-11-28-2ecf-r262-oscillating-tail-second-mode-physical-meridian-and-shape-steps.md) 保原振荡深尾，ε=1/64 在 16/32/64/128 段移位峰 3.74e−4→3.77e−5；.125 大幅初解 κ17.05，后继需同时优化曲率。
+<!-- 2ecf-r278-Minkowski --> [二次模实位置和原生深曲率](notes/2026-11-28-2ecf-short-m2-curvature-updates-and-full-amplitude-centers.md) 将 1/8 场的独立 κ17.05→9.81；.25、.34 纳入全深表，p32 真实相同宽差 .68 的新中央落盘，全部强比例仍待。
 
 真cuff前缀勘误、全尾组成、旧HF严格曲率失败、R274/R276及全记录见[本批前H](notes/2026-11-28-2ecf-handoff-before-strong-actual-coasts.md)。旧各XYZ、材料钟、S变更、完整前缀及失败留于[此轮前H快照](notes/2026-11-28-2ecf-handoff-before-strong-new-inputs.md)、results和log；不得重新登记为新结论。
 
@@ -50,4 +50,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:54:12 UTC；已读公开 main `f6a8d0c43f3f7925b26f8ce3bc1fc48581aca0b4`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 12:54:23 UTC；已读公开 main `20f2f157124fc2f84883245a2ad697c0a07cb2a0`，根/课题 README 逐差无变化。
