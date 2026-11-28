@@ -48,6 +48,8 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 <!-- 2ecf-HF-new-length --> [HF新正长度旋转度量](notes/2026-11-28-2ecf-strong-hf-new-diagonal-positive-length.md)实得ΔS .0059476005，G11 .12160747/κ28.82482。
 
+<!-- 2ecf-HF-both-material-clocks --> [新g的双材料钟实际接受](notes/2026-11-28-2ecf-strong-hf-two-material-clocks-on-new-metric.md)在冻结实际源上使G11 .12160747→.10837466，仍κ28.779。
+
 ## 工作位置与接续
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R271已付三分量全部近点；R272留给exact统一势全核/加帽几何。优先继续真实强度量/曲率求解，几何新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
@@ -56,4 +58,4 @@ R250 Q规整是另一源；本场5778为Q-free。R235高阶跳不排C2极限。�
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:28:26 UTC；已读公开 main `ebd25357132615845dc7e2fc2d2c06b0db44aa17`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:28:40 UTC；已读公开 main `2710cbdf39084bd1d3b5197e3e7acbb2f4d79973`，根/课题 README 逐差无变化。
