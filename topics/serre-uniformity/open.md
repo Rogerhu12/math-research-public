@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-one-p-lattice.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-fourth-insertion.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -124,6 +124,8 @@ R0=g/U^(m+1)、K=UDR0，DK=1+v²R0/U。e0 iff原有限空间存在唯一H0，K40
 
 [R1183](results/R1183-original-Hermitian-Cartier-Serre-trilinear-tensor.md)原Hermitian完整Cartier–Serre张量=det(∂)^(p−2)，由有理primitive/留数自证；degree k²的Fermat6拉回给原e的准确单槽，半线性/相位全保。全Hodge radical零不代十维限制非退化；同原高primitive插入继续。
 
+[R1192](results/R1192-original-Hermitian-fourth-insertion-and-endpoint-blocks.md)保原第四Cartier插入的五端点块及四上端两个p窗口；e0时C2整块零，C1=C3=0、C4a=C4b，原K4=(-1)^k k⁴δ²C4a/(4c^(2k−2))。指定C4a非零仍开。
+
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 
 R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=8235Bp−7/(4C⁶)，包含零支。当前原桥可写Y=P²/V²，H=Λ(Y)，V_minor=Λ(XY)，U_minor=Λ(XY²)；仍须排Λ(Y)=0且Λ(XY)=3BΛ(XY²)，不能仅用1/X上的非退化矩阵代替。
@@ -170,7 +172,7 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 [R1182–86](results.md)原半秩C/F₀/β的FP首项v_q(a_m)<B及全尾≥−v_q(r)，含坏q=p。原t=b−1=p³w、rU_r∈Λ；m≤M_X=2(g−n)+1，事前B_*、N_*=B_*+floor(log_p M_X)及log截2N_*决定本原hλ/e_m。深度3+ceil(log_p(m+1))+max(0,e_m)+1仅c₁，m≤p−2时4+e_m。原H_br、实际M/K/E_L及implicit D^(2r−1)/(64A²)^r系数界见原文与逐字前态，所有模型/商/Néron尺度保留。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d或固定候选盘。
 
-[R1187–88](results.md)同一C的小实际q*=f(3−N)、K*=9R²+1及C↔B⊂J积次数≤(9R²)^(2n)已付，保原β/MW线。原J挠点网格与Plücker整坐标给实际B/商/端态图有限方程界；完整H0后处理付F_B与平衡Ω_B，不混Q-twist。原J模型/环境格和指定jet仍保，新p³ jets按实际商重算。
+[R1187–88](results.md)已付同C的小实际q*、双向同源次数与挠点网格模型/平衡Ω，保原β/MW线；全部界与真实尺度沿原文及最新归档。原J模型、环境格及按实际商重算的p³ jets仍保。
 
 [R1189 §§1–7](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)原双中心clutch至多二挠，全部p5mod6的2(p−1)D0在扩域F^m。全部原形式权w<pm，固定点一次[p]即跨到模pR零；真实norm后用素于p的唯一形式除法删e0。因此M_form=2p(p−1)将同D0及每个实际商像送原Qp形式核，R1182可取M=2p^s(p−1)。s_exp/δL、原格及指定jet仍保。
 
