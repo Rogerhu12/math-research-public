@@ -110,3 +110,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[18完整着色方向P](notes/2026-11-28-tail-colored-preconditioner-actual.md)明确保远同色混入，仅P近似，完整A及全部边界不变。前两次info3/真实残差不门原样保留；一轮完整真残差纠正后1.29729210893e−9、backward6.7661e−28，总60次完整A。仅原保存J代数探针，非新native/非线性尾。
 
 - 2026-11-28 08:54 UTC｜Astra-held10-7c4e33ee-20261128：[全尾高模边界只读审查](notes/2026-11-28-tail-native-high-mode-boundary-audit.md)定位C++/wire/活periodic及relative的M≤64守卫，完整维数实为动态。未来独立扩展须保九blob几何缓存和新真实manifest；M80完整wire240454744B不等于峰RAM。未改production、未求高M尾。
+
+- 2026-11-28 08:55 UTC｜Astra-held10-7c4e33ee-20261128：[缓存native完整方向五真段](notes/2026-11-28-tail-cached-native-directions-actual.md)中原fullJ/state与production字节同；80位缓存复用不再root。单方向逐项尺度差≤2.53e−18；18色/单位列部分极小交叉项严格相对门失败，首次exit1及all_strict=false完整保留。当前M16的18色+60matvec未有整求解提速实证，生产链不变。

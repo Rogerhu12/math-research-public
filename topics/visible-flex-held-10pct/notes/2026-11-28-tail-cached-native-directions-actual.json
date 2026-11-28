@@ -1,0 +1,670 @@
+{
+  "scope": "Actual local complete native-direction comparison; strict componentwise failures are retained; no whole-batch GMRES or nonlinear acceptance.",
+  "build": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/build.json",
+    "sha256": "50d30d8c76c3b940e102d37ccdc7c0f08b8199591d438d6cad2f31da3ba349ba"
+  },
+  "build_record": {
+    "scope": "Build an independent predictor-only cached literal-JVP library.\n\nThe original C++ file and production binary are never modified. New methods\nare inserted before diagnostics, and independent C handle exports are appended.\nAll original root, RHS, full-J, flow, protocol and acceptance code is retained.\nThe candidate is not a replacement production kernel or an accepted tail.\n",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/build_native_cached_directions.py",
+      "sha256": "544fc550fae6b51a91da37aa7c7ff7bef0437bc6dbb96538449e47df77064515"
+    },
+    "original_cpp": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "sha256": "e5a7d3b0a1021aae54fabcd3c5baae0558cab4246b4a10cfdeb31b6d275a8ddf"
+    },
+    "original_header": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    "methods": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/native_cached_direction_methods.inc",
+      "sha256": "1692ef84ff323ea588a72892bff71120ffdca17d988dcded3e31881b44c35059"
+    },
+    "exports": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/native_cached_direction_exports.inc",
+      "sha256": "3ccfa6fa59ea1bc4d222186ed090153d7c58e6771326416db36fbe6683d2dbf3"
+    },
+    "derived_cpp": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/frozen_flow_cached_directions.cpp",
+      "sha256": "a8dd28dafc17392cec65390731ec6328d54eb7b94f58859cf95e56018319c8ed"
+    },
+    "compiler": {
+      "path": "/usr/bin/x86_64-linux-gnu-g++-14",
+      "sha256": "6b3696e4dcb85e1c949c732a02befa50e3983ecf94ce7e8e58d9d503b954b79d"
+    },
+    "command": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-O2",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-fexcess-precision=standard",
+      "-frounding-math",
+      "-fPIC",
+      "-shared",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/frozen_flow_cached_directions.cpp",
+      "-o",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/libcached_directions.so",
+      "-lm"
+    ],
+    "returncode": 0,
+    "wall_seconds": 3.895493592999628,
+    "stdout": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/compiler.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/compiler.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "library": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/libcached_directions.so",
+      "sha256": "2c26a533670a93e75b5d193152cb46ff97b05399997c8aa2a03accdc76ec227d"
+    },
+    "production_source_changed": false,
+    "new_library_loaded": false,
+    "new_native_JVP_executed": false,
+    "nonlinear_tail_accepted": false
+  },
+  "first_strict_attempt": {
+    "summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-probe-20261128-a/summary.json",
+      "sha256": "da8da3797eb899bfa7e2d5b4d075310c7aeeffa790c94e7da89e6c178959e950"
+    },
+    "observed_process_exit": 1,
+    "observed_error": "ValueError: Cached literal direction disagrees with the full native J",
+    "full_comparison_rows_saved": false
+  },
+  "actual_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-probe-20261128-b/summary.json",
+    "sha256": "0bd9fc725446517748f6c33f84711679784a12634045a40f82e8cd9292e5e057"
+  },
+  "actual": {
+    "scope": "Record every cached-direction comparison, including a failed strict comparison.\n\nFive retained true M16 frozen inputs are used without changing any state,\ncoefficient, Fourier table, RK step or guard. The original full-J method in the\nindependent derived library must first reproduce the retained production\nbinary64 state/J. Cache applications use all modes and are not accepted tails.\n",
+    "source": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_native_cached_directions_record.py",
+      "sha256": "0d5fc2eef809f0293316142364171c2960fee400ab138dcdb6e29991b4336fa2"
+    },
+    "build": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-build-20261128-a/build.json",
+      "sha256": "50d30d8c76c3b940e102d37ccdc7c0f08b8199591d438d6cad2f31da3ba349ba"
+    },
+    "runtime": {
+      "abi": 1,
+      "long_double_significand_bits": 64,
+      "long_double_storage_bytes": 16,
+      "rounding_mode": 0,
+      "round_to_nearest": true,
+      "x87_control_word": 895,
+      "config_size": 88,
+      "step_size": 40,
+      "stage_size": 32,
+      "callbacks_size": 32,
+      "diagnostics_size": 80
+    },
+    "predictor_summary": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+      "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+    },
+    "original_record": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+      "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+    },
+    "original_input": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-input.bin",
+      "sha256": "dd4291561dfaa511f6be9a58e6354c22c25e1f1e9ee384d258b1fa4053562996"
+    },
+    "original_output": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-output.bin",
+      "sha256": "ef6202edd160f8c664c37bdc7908841e8eee39cf20260d2cfbb010047dac2375"
+    },
+    "M": 16,
+    "N": 256,
+    "selected_stages": [
+      0,
+      22,
+      80,
+      813,
+      1151
+    ],
+    "rows": [
+      {
+        "stage": 0,
+        "original_state_J_binary64_bytes_identical": true,
+        "original_full_J_wall_seconds": 0.6426372909991187,
+        "original_full_J_kernel_seconds": 0.642531645,
+        "original_root_calls": 64,
+        "original_root_updates": 192,
+        "cache_build_wall_seconds": 0.3911511520000204,
+        "cache_build_kernel_seconds": 0.391058064,
+        "cache_root_calls": 64,
+        "cache_root_updates": 192,
+        "cached_state_binary64_identical": true,
+        "cache_payload_native_bytes": 191008,
+        "applications": [
+          {
+            "label": "single",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.03338801700010663,
+            "kernel_seconds": 0.033323871,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.8189894035458565e-12,
+            "maximum_componentwise_absolute_product_scaled_difference": 5.112696403164724e-19,
+            "canonical80_sha256": "8407ed9e5ed411406b418b70272b42af105431422bceb755ec4a883bdfaa24e6",
+            "binary64_sha256": "1ce35e29c4455d9961120135f7a5607eb397648dea548e189dcc5a8877e5472b",
+            "largest_relative_discrepancy_location": [
+              8,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "-0.26506855151246151763",
+            "largest_relative_discrepancy_expected": "-0.26506855151246151776",
+            "largest_relative_discrepancy_absolute_product": "0.2650759225147787765",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 1.2658674346472883e-19
+          },
+          {
+            "label": "colored18",
+            "complete_input_directions": 18,
+            "wall_seconds": 0.2572370050002064,
+            "kernel_seconds": 0.257176757,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.8189894035458565e-12,
+            "maximum_componentwise_absolute_product_scaled_difference": 5.015769468471399e-13,
+            "canonical80_sha256": "e1d8c11650d11e3435976433a1a30b8e6efd514f8403412e72417de36f0dddba",
+            "binary64_sha256": "cc1460e2d6be67293282f0940f20226415dbc45de7778a42a2248bcadebfef05",
+            "largest_relative_discrepancy_location": [
+              32,
+              8
+            ],
+            "largest_relative_discrepancy_actual": "-4.2144512234018261082e-16",
+            "largest_relative_discrepancy_expected": "-4.2144512233997122366e-16",
+            "largest_relative_discrepancy_absolute_product": "4.2144512233997122366e-16",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 1.2416731932273782e-19
+          },
+          {
+            "label": "identity32",
+            "complete_input_directions": 32,
+            "wall_seconds": 0.4505614749996312,
+            "kernel_seconds": 0.450496979,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 9.094947017729282e-13,
+            "maximum_componentwise_absolute_product_scaled_difference": 1.6676466844195874e-06,
+            "canonical80_sha256": "40a46cccf9728d14941cc8a981dc3e07ecdef6008a8cf7cf90159d0e433a088f",
+            "binary64_sha256": "1769d413837d8674b3b7aca58aa8cd05dab52265d4415a38ef20cc93341c838b",
+            "largest_relative_discrepancy_location": [
+              18,
+              31
+            ],
+            "largest_relative_discrepancy_actual": "-3.4546158388925546476e-20",
+            "largest_relative_discrepancy_expected": "-3.45462159998081178e-20",
+            "largest_relative_discrepancy_absolute_product": "3.45462159998081178e-20",
+            "strict_1e12_componentwise_comparison_passed": false,
+            "global_absolute_product_scaled_difference": 6.208365966147285e-20
+          },
+          {
+            "label": "single_reuse",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.06079766000038944,
+            "kernel_seconds": 0.054815981,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.8189894035458565e-12,
+            "maximum_componentwise_absolute_product_scaled_difference": 5.112696403164724e-19,
+            "canonical80_sha256": "8407ed9e5ed411406b418b70272b42af105431422bceb755ec4a883bdfaa24e6",
+            "binary64_sha256": "1ce35e29c4455d9961120135f7a5607eb397648dea548e189dcc5a8877e5472b",
+            "repeated_native_result_bytes_identical": true,
+            "largest_relative_discrepancy_location": [
+              8,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "-0.26506855151246151763",
+            "largest_relative_discrepancy_expected": "-0.26506855151246151776",
+            "largest_relative_discrepancy_absolute_product": "0.2650759225147787765",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 1.2658674346472883e-19
+          }
+        ],
+        "raw": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-probe-20261128-b/stage-0000-complete-directions.npz",
+          "sha256": "753f2e22b5c294a98404c3757043e09f6d06ff2f737020e1b2d3a72714f1ef3d"
+        }
+      },
+      {
+        "stage": 22,
+        "original_state_J_binary64_bytes_identical": true,
+        "original_full_J_wall_seconds": 0.5764536240003508,
+        "original_full_J_kernel_seconds": 0.576277615,
+        "original_root_calls": 68,
+        "original_root_updates": 136,
+        "cache_build_wall_seconds": 0.3314256480007316,
+        "cache_build_kernel_seconds": 0.331330267,
+        "cache_root_calls": 68,
+        "cache_root_updates": 136,
+        "cached_state_binary64_identical": true,
+        "cache_payload_native_bytes": 202912,
+        "applications": [
+          {
+            "label": "single",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.03500085799896624,
+            "kernel_seconds": 0.034935922,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.3969838619232178e-09,
+            "maximum_componentwise_absolute_product_scaled_difference": 5.797472427836498e-19,
+            "canonical80_sha256": "d2490eeb4d91d5c82feb6f8f5f2c08d031df3eb231a1dd496ca6dc13f30f4c6c",
+            "binary64_sha256": "faeea6be76c9dc0af8d97e80b3f3647e6ed8721eb26604657a523f3e15460acb",
+            "largest_relative_discrepancy_location": [
+              32,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "-6.8200864981864276393e-07",
+            "largest_relative_discrepancy_expected": "-6.8200864981864276445e-07",
+            "largest_relative_discrepancy_absolute_product": "8.9174703162593900207e-07",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 3.140637552610105e-19
+          },
+          {
+            "label": "colored18",
+            "complete_input_directions": 18,
+            "wall_seconds": 0.2814604449995386,
+            "kernel_seconds": 0.281378604,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.3969838619232178e-09,
+            "maximum_componentwise_absolute_product_scaled_difference": 2.6183093890444476e-12,
+            "canonical80_sha256": "38db2a943ecc61b7320fcfb566c9105764e4bc5ed41b0e8fb25fd18b15bbffa8",
+            "binary64_sha256": "40618e28ced875bd851bd5acce4b73db646528348d9ca782eb3cdef159bc05b9",
+            "largest_relative_discrepancy_location": [
+              32,
+              8
+            ],
+            "largest_relative_discrepancy_actual": "-6.7968712864593344766e-14",
+            "largest_relative_discrepancy_expected": "-6.796871286441538165e-14",
+            "largest_relative_discrepancy_absolute_product": "6.796871286441538165e-14",
+            "strict_1e12_componentwise_comparison_passed": false,
+            "global_absolute_product_scaled_difference": 3.07758153901154e-19
+          },
+          {
+            "label": "identity32",
+            "complete_input_directions": 32,
+            "wall_seconds": 0.5528784359994461,
+            "kernel_seconds": 0.552762556,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 9.313225746154785e-10,
+            "maximum_componentwise_absolute_product_scaled_difference": 7.161392868932426e-09,
+            "canonical80_sha256": "524406f551aa0e773621010d1e304247a2f2c90909dd49a1b32c537b8e898bbf",
+            "binary64_sha256": "48e58321344816ee946a19506c74f1786e183e9c3d89da1ce48b8fce8be480ce",
+            "largest_relative_discrepancy_location": [
+              17,
+              15
+            ],
+            "largest_relative_discrepancy_actual": "-5.9895478074692557903e-07",
+            "largest_relative_discrepancy_expected": "-5.989547764575751141e-07",
+            "largest_relative_discrepancy_absolute_product": "5.989547764575751141e-07",
+            "strict_1e12_componentwise_comparison_passed": false,
+            "global_absolute_product_scaled_difference": 2.0517210260079484e-19
+          },
+          {
+            "label": "single_reuse",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.0503863360008836,
+            "kernel_seconds": 0.050324063,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.3969838619232178e-09,
+            "maximum_componentwise_absolute_product_scaled_difference": 5.797472427836498e-19,
+            "canonical80_sha256": "d2490eeb4d91d5c82feb6f8f5f2c08d031df3eb231a1dd496ca6dc13f30f4c6c",
+            "binary64_sha256": "faeea6be76c9dc0af8d97e80b3f3647e6ed8721eb26604657a523f3e15460acb",
+            "repeated_native_result_bytes_identical": true,
+            "largest_relative_discrepancy_location": [
+              32,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "-6.8200864981864276393e-07",
+            "largest_relative_discrepancy_expected": "-6.8200864981864276445e-07",
+            "largest_relative_discrepancy_absolute_product": "8.9174703162593900207e-07",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 3.140637552610105e-19
+          }
+        ],
+        "raw": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-probe-20261128-b/stage-0022-complete-directions.npz",
+          "sha256": "c9026494e35493d7b9674dd7c7a85707ffb9af07bd16371a7bd4818ab8895863"
+        }
+      },
+      {
+        "stage": 80,
+        "original_state_J_binary64_bytes_identical": true,
+        "original_full_J_wall_seconds": 0.8965006319995155,
+        "original_full_J_kernel_seconds": 0.896324161,
+        "original_root_calls": 64,
+        "original_root_updates": 192,
+        "cache_build_wall_seconds": 0.3907593510011793,
+        "cache_build_kernel_seconds": 0.390635469,
+        "cache_root_calls": 64,
+        "cache_root_updates": 192,
+        "cached_state_binary64_identical": true,
+        "cache_payload_native_bytes": 191008,
+        "applications": [
+          {
+            "label": "single",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.035013176000575186,
+            "kernel_seconds": 0.034938546,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 3.637978807091713e-12,
+            "maximum_componentwise_absolute_product_scaled_difference": 4.653133344945879e-19,
+            "canonical80_sha256": "3987e6c911ad105bb7fbcbae631735b193160fa5310c4be346d1c71b25eda7c8",
+            "binary64_sha256": "5f10f135f61cdc447505e5879c9c593070ce2758da8b0df9fb0adc653a2e5260",
+            "largest_relative_discrepancy_location": [
+              32,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "-1.3958024108827512792e-07",
+            "largest_relative_discrepancy_expected": "-1.3958024108827512805e-07",
+            "largest_relative_discrepancy_absolute_product": "2.777633072815235772e-07",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 1.9690144334046644e-19
+          },
+          {
+            "label": "colored18",
+            "complete_input_directions": 18,
+            "wall_seconds": 0.25973578599950997,
+            "kernel_seconds": 0.259626604,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 5.4569682106375694e-12,
+            "maximum_componentwise_absolute_product_scaled_difference": 2.8365619940547917e-16,
+            "canonical80_sha256": "2d552a6a5bd8e545b155a9012dceb78580f7e033b9e852ec98a6c55464cf4ece",
+            "binary64_sha256": "925766a08db24c8c00754111127080d0c939d75e913b7e7e529ba24b0d60f269",
+            "largest_relative_discrepancy_location": [
+              16,
+              7
+            ],
+            "largest_relative_discrepancy_actual": "-0.06373585792973352125",
+            "largest_relative_discrepancy_expected": "-0.06373585792973353933",
+            "largest_relative_discrepancy_absolute_product": "0.06373585792973353933",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 2.9247165928850135e-19
+          },
+          {
+            "label": "identity32",
+            "complete_input_directions": 32,
+            "wall_seconds": 0.6508591089987021,
+            "kernel_seconds": 0.650764339,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 9.094947017729282e-13,
+            "maximum_componentwise_absolute_product_scaled_difference": 5.8254852910407314e-12,
+            "canonical80_sha256": "c794ebbf6aed44a33f86c6a90f29811ed0b636b62b1f4bb130bc54236b8a7b84",
+            "binary64_sha256": "1f92911c945da0a600301cedf6a4393ca5800d613f3f9ece8a999db9ac1c975c",
+            "largest_relative_discrepancy_location": [
+              16,
+              14
+            ],
+            "largest_relative_discrepancy_actual": "-3.1567776192224246103e-05",
+            "largest_relative_discrepancy_expected": "-3.1567776192040348487e-05",
+            "largest_relative_discrepancy_absolute_product": "3.1567776192040348487e-05",
+            "strict_1e12_componentwise_comparison_passed": false,
+            "global_absolute_product_scaled_difference": 4.8745284325183137e-20
+          },
+          {
+            "label": "single_reuse",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.07669795099900512,
+            "kernel_seconds": 0.07654253,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 3.637978807091713e-12,
+            "maximum_componentwise_absolute_product_scaled_difference": 4.653133344945879e-19,
+            "canonical80_sha256": "3987e6c911ad105bb7fbcbae631735b193160fa5310c4be346d1c71b25eda7c8",
+            "binary64_sha256": "5f10f135f61cdc447505e5879c9c593070ce2758da8b0df9fb0adc653a2e5260",
+            "repeated_native_result_bytes_identical": true,
+            "largest_relative_discrepancy_location": [
+              32,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "-1.3958024108827512792e-07",
+            "largest_relative_discrepancy_expected": "-1.3958024108827512805e-07",
+            "largest_relative_discrepancy_absolute_product": "2.777633072815235772e-07",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 1.9690144334046644e-19
+          }
+        ],
+        "raw": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-probe-20261128-b/stage-0080-complete-directions.npz",
+          "sha256": "f3d50305f7c720a1d85f69fe57de08c8f6cd2d3600f5ad89e760db9d8815e2ef"
+        }
+      },
+      {
+        "stage": 813,
+        "original_state_J_binary64_bytes_identical": true,
+        "original_full_J_wall_seconds": 0.5118365060006909,
+        "original_full_J_kernel_seconds": 0.511709449,
+        "original_root_calls": 64,
+        "original_root_updates": 0,
+        "cache_build_wall_seconds": 0.08096303999991505,
+        "cache_build_kernel_seconds": 0.08086218,
+        "cache_root_calls": 64,
+        "cache_root_updates": 0,
+        "cached_state_binary64_identical": true,
+        "cache_payload_native_bytes": 191008,
+        "applications": [
+          {
+            "label": "single",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.020542243000818416,
+            "kernel_seconds": 0.020477347,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.1823431123048067e-11,
+            "maximum_componentwise_absolute_product_scaled_difference": 2.520227657018139e-18,
+            "canonical80_sha256": "7e24de372f7e237376787cf41b6b2d5e2f1f1226ccca3a5c5b927d08f6986830",
+            "binary64_sha256": "3fed7e6d730e8b7504a44e479286f146bb61bedf4a152741dc2858feacf01f66",
+            "largest_relative_discrepancy_location": [
+              28,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "1714169.1330645168391",
+            "largest_relative_discrepancy_expected": "1714169.1330645168434",
+            "largest_relative_discrepancy_absolute_product": "1714170.4724139196778",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 4.053376281725396e-19
+          },
+          {
+            "label": "colored18",
+            "complete_input_directions": 18,
+            "wall_seconds": 0.1762952810004208,
+            "kernel_seconds": 0.176228613,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 3.092281986027956e-11,
+            "maximum_componentwise_absolute_product_scaled_difference": 0.00023199994359827247,
+            "canonical80_sha256": "68981036915d2f6804b371bdb0ba0dc8cc9a77f49a404761e17af06e6d2aeb99",
+            "binary64_sha256": "fb89190cbc36e90b4f0a83a3e1d6f6f9cb54525693652c389c7b0e3d20976a97",
+            "largest_relative_discrepancy_location": [
+              0,
+              4
+            ],
+            "largest_relative_discrepancy_actual": "-1.0266817886723104807e-33",
+            "largest_relative_discrepancy_expected": "-1.026443653802521491e-33",
+            "largest_relative_discrepancy_absolute_product": "1.026443653802521491e-33",
+            "strict_1e12_componentwise_comparison_passed": false,
+            "global_absolute_product_scaled_difference": 1.0365560468420849e-18
+          },
+          {
+            "label": "identity32",
+            "complete_input_directions": 32,
+            "wall_seconds": 0.42377978500007885,
+            "kernel_seconds": 0.423711555,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 2.000888343900442e-11,
+            "maximum_componentwise_absolute_product_scaled_difference": 0.0006825424157495077,
+            "canonical80_sha256": "7f5614655b3b41d38b1b3cb2c90681c5427bafd68a1e5fd9a830af6ee139334c",
+            "binary64_sha256": "0c0627d02e5dfac753c9f13bdb9694f3def98056a80903edaf0dbf48e7f3b1e1",
+            "largest_relative_discrepancy_location": [
+              0,
+              29
+            ],
+            "largest_relative_discrepancy_actual": "-2.6377720497628032328e-41",
+            "largest_relative_discrepancy_expected": "-2.6359728864610279201e-41",
+            "largest_relative_discrepancy_absolute_product": "2.6359728864610279201e-41",
+            "strict_1e12_componentwise_comparison_passed": false,
+            "global_absolute_product_scaled_difference": 6.707127361919373e-19
+          },
+          {
+            "label": "single_reuse",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.04176545399968745,
+            "kernel_seconds": 0.04169537,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.1823431123048067e-11,
+            "maximum_componentwise_absolute_product_scaled_difference": 2.520227657018139e-18,
+            "canonical80_sha256": "7e24de372f7e237376787cf41b6b2d5e2f1f1226ccca3a5c5b927d08f6986830",
+            "binary64_sha256": "3fed7e6d730e8b7504a44e479286f146bb61bedf4a152741dc2858feacf01f66",
+            "repeated_native_result_bytes_identical": true,
+            "largest_relative_discrepancy_location": [
+              28,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "1714169.1330645168391",
+            "largest_relative_discrepancy_expected": "1714169.1330645168434",
+            "largest_relative_discrepancy_absolute_product": "1714170.4724139196778",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 4.053376281725396e-19
+          }
+        ],
+        "raw": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-probe-20261128-b/stage-0813-complete-directions.npz",
+          "sha256": "a0d979183791f5a430049b2c844bd56a95071951f968b71709dca9af65de3636"
+        }
+      },
+      {
+        "stage": 1151,
+        "original_state_J_binary64_bytes_identical": true,
+        "original_full_J_wall_seconds": 0.423309750000044,
+        "original_full_J_kernel_seconds": 0.423205055,
+        "original_root_calls": 64,
+        "original_root_updates": 0,
+        "cache_build_wall_seconds": 0.12235737399896607,
+        "cache_build_kernel_seconds": 0.12223967,
+        "cache_root_calls": 64,
+        "cache_root_updates": 0,
+        "cached_state_binary64_identical": true,
+        "cache_payload_native_bytes": 191008,
+        "applications": [
+          {
+            "label": "single",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.04338325599928794,
+            "kernel_seconds": 0.04331823,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 2.710505431213761e-19,
+            "maximum_componentwise_absolute_product_scaled_difference": 2.621150750702066e-19,
+            "canonical80_sha256": "d367cc3b43489efa2efe1b50b9f59d2dff6f031af353dabbfdea9b8a5320c104",
+            "binary64_sha256": "05e800bf90b6cd50caae929082146498e63bc56d94021c16414c76de963438bd",
+            "largest_relative_discrepancy_location": [
+              13,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "-0.82727189361016699643",
+            "largest_relative_discrepancy_expected": "-0.82727189361016699665",
+            "largest_relative_discrepancy_absolute_product": "0.82727189361016699665",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 1.9177783262428024e-19
+          },
+          {
+            "label": "colored18",
+            "complete_input_directions": 18,
+            "wall_seconds": 0.23235490699880756,
+            "kernel_seconds": 0.232292365,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.3552527156068805e-20,
+            "maximum_componentwise_absolute_product_scaled_difference": 0.0003062874511953204,
+            "canonical80_sha256": "8b17e73a7715189c975c48b549364e1b415e978213cc66d09edf02124602fa19",
+            "binary64_sha256": "a3f1bd25f762f9dcb0b443be11753a1c14734bd0f5734c32e65ec3c9ed43403b",
+            "largest_relative_discrepancy_location": [
+              19,
+              7
+            ],
+            "largest_relative_discrepancy_actual": "2.909455313082814248e-42",
+            "largest_relative_discrepancy_expected": "2.910346715760479197e-42",
+            "largest_relative_discrepancy_absolute_product": "2.910346715760479197e-42",
+            "strict_1e12_componentwise_comparison_passed": false,
+            "global_absolute_product_scaled_difference": 1.3533984019054449e-20
+          },
+          {
+            "label": "identity32",
+            "complete_input_directions": 32,
+            "wall_seconds": 0.579775101999985,
+            "kernel_seconds": 0.577581898,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 1.3552527156068805e-20,
+            "maximum_componentwise_absolute_product_scaled_difference": 0.0005279595819275472,
+            "canonical80_sha256": "12845f518780513f5630f5362cdc8aafbfe9a94dbaac416e2f838f69e9184a55",
+            "binary64_sha256": "b4042ba3f3665b71a4f36b14998b4da688e5cd0a82caff05e9d11db3fa6bee1f",
+            "largest_relative_discrepancy_location": [
+              26,
+              5
+            ],
+            "largest_relative_discrepancy_actual": "2.0396482066668983249e-42",
+            "largest_relative_discrepancy_expected": "2.040725627315924872e-42",
+            "largest_relative_discrepancy_absolute_product": "2.040725627315924872e-42",
+            "strict_1e12_componentwise_comparison_passed": false,
+            "global_absolute_product_scaled_difference": 1.3533984019054449e-20
+          },
+          {
+            "label": "single_reuse",
+            "complete_input_directions": 1,
+            "wall_seconds": 0.061342328999671736,
+            "kernel_seconds": 0.060097939,
+            "root_calls_unchanged": true,
+            "root_updates_unchanged": true,
+            "maximum_absolute_difference_from_full_native_J_product": 2.710505431213761e-19,
+            "maximum_componentwise_absolute_product_scaled_difference": 2.621150750702066e-19,
+            "canonical80_sha256": "d367cc3b43489efa2efe1b50b9f59d2dff6f031af353dabbfdea9b8a5320c104",
+            "binary64_sha256": "05e800bf90b6cd50caae929082146498e63bc56d94021c16414c76de963438bd",
+            "repeated_native_result_bytes_identical": true,
+            "largest_relative_discrepancy_location": [
+              13,
+              0
+            ],
+            "largest_relative_discrepancy_actual": "-0.82727189361016699643",
+            "largest_relative_discrepancy_expected": "-0.82727189361016699665",
+            "largest_relative_discrepancy_absolute_product": "0.82727189361016699665",
+            "strict_1e12_componentwise_comparison_passed": true,
+            "global_absolute_product_scaled_difference": 1.9177783262428024e-19
+          }
+        ],
+        "raw": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/native-cached-direction-probe-20261128-b/stage-1151-complete-directions.npz",
+          "sha256": "740389445ddc59619dc40e4e2bc7ef6757db9f21e5328e29b4036470cba5b3ec"
+        }
+      }
+    ],
+    "nonlinear_acceptance": false,
+    "native_JVP_implemented": true,
+    "whole_batch_solver_implemented": false,
+    "complete_surface": false,
+    "resource_peak_self_maxrss_kib": 51768,
+    "status": "all_five_actual_native_cached_direction_probes_returned",
+    "all_strict_comparisons_passed": false,
+    "production_source_or_kernel_changed": false
+  },
+  "production_kernel_changed": false,
+  "complete_surface": false
+}
