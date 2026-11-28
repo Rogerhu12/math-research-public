@@ -143,40 +143,13 @@ T单一frame从gh=g−dz²、完整coframe/Ω作一次frame和位置积分，真
 G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/normal，完整mean与w/a尾费保。B43584188751/26保141腰锚、forward/bF/bQ/跨端高度、frame与mean锁winding1；须第1节同η0全core/cap C0、|δν|、全部B/C/Cmean/腰/第四Robin/mean/phase及γ低高入口。振幅是输出，不加fixedα行。
 只有上述实际成立后，P9a5bcb14一次冻结ν*/Γ*/η给第1节全部embedding/reach/held/Hdiam/marker和fixedmetric族。真core/全频逆未闭，最终G未宣称。
 
-## 8. 当前实际执行及直接后继
+## 8. 最新实际推进与完整历史义务
 
-截至 GNF 的本节全部原球、失败、SHA、条件和结论逐字保存在[完整 open](https://github.com/Rogerhu12/math-research-public/blob/2ec32df32a1afe66000e4c38f26414e81f3ed32d/topics/visible-flex-exact-nearby/open.md)，整件身份及全文另存 notes/2026-11-28-complete-open-preservation-through-GNF.json；1–7节24487B逐字不变。索引压缩不撤条件，不授成功，不准重算旧目标。
+前页完整保存于[ASQ25R后整页](notes/2026-11-28-complete-open-preservation-through-ASQ25R.json)，其原提交d587c0c44d005e6c5296b3388335fcb3f14617e9及递归保存保留所有原球、失败、unknown、完整公式/分块和未付条件。上文1–7原24487字节逐字不变；本段只压缩进度索引，不撤数学义务，不重算已成目标。
 
-TCF46140528952/1：13:33 API六成功、4/10失败、六进行四排队；4为原CPU门science0，10真失败原因待核；全18终态后才聚合并只续真缺格。GDC46144819361/1于13:45仍实际运行且无可读科学prefix，真实终态才接CGR或新MSS，不推singular。完整low193、97/96边界、两mean、四source保。
+GDC真实续成第82格后下一格充分分母失败，转全两端MSS，不授full low193；GNF/GPM/PWA96R真实terminal success待整件逐scope消费。ASQ27R/ASQ25R/GXW真实在执行。GLW原656行宽上界false不等于奇异，继续原逐带物理输出接收；TCF等18全terminal后只补实际缺格；H96全2847、PWA同ρ七目标、DCP18全18保原误差与means。CFC仍需原SC3，SC仍需原全low maps。
 
-H96R46135898111/1于13:24:16成功，原2847闭格/全部96有向列、七目标完整；真actual31652B a49119d5…与execution43566B73d78ed9…；帽height及reduced phase原joint radius约.138716/.215427，不能授小真解。根34whole原完整validator准入已过，接PWA七目标同rho再CFC十目标，不改APHI原runtime。
-
-ASQ23真3073/两目标已成，原raw腰误差39.71/24.74全保；ASQ25C46150713718/1真failure待整日志，ASQ27新−f0首发46149703541/1首checkpoint记录失败、accepted0；原首个底层异常被二次save覆盖，不能猜。继续原子suffix修复与真实负source。ASQ26同Aδ*转移费body<1.019e−15/腰<2.12e−15只在真−f0完成后用。
-
-GLW656完整finite单列common106774.34957034967/全两列204457.18989563518，5.5充分门false，非下界；原927自然Ai列17192B6a3c2d3a…待ASQ28真输入接收。GIV∞<4.696和AGJR根576接口<.000376各计一次。GJOR46150669215/1真进行、旧GJO仅st_size入口错science0；GXM含∞的真λ全hull[4.664883387833184,4.665329214437577]需完整外域保留。
-
-GNF46150791569/1真进行，完整五场nonlocal/两圈真J/独立mean接原PW p=2/3而不多加J；全部∞与外域nonlocal待。GCD只在同真正n相位下复化幅，四输入组Cauchy/Parseval总费<5maxC/2，禁止输出正交假设。JCR真根DJ>.785/全负窗JL2<7/5只限原scope。PPR原κ±6e−12、ρ≤1e−7门仍须实际全matched态/ν/mean/phase、tame迭代和1–7节全部最终族条件，未完成。
+已登记GMI只付g2∞、AGJOR只付全1973外缝（576根接口另计一次），JCR/GDM/ASQ29局部新界只在原space/source/mean/端口限定内使用。必须闭合同对象全高低、独立means、ν/height/phase/normalizer/Robin、普通负域≤.005、实际D² tame、可求和迭代、同world frame、period/holonomy/caps，随后一次冻结并按README最终验收。总任务未完成，继续研究。
 
 
-GXW：原[0,r−−1/5000]上65/193真三次片与完整GRQ3056×128真两ray同侧相接，保GXM非零λ中点+右对角半宽。原g/f两source先有向合成，再两次H^-2换元与5/6真尺度插值，原192/2039/.719/12.4各一次。54whole首发含原GRQ必要同SHA恢复，原输出全部角导0..2私留；外域nonlocal/端口另待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-GPM：真实Beta65,65截断经下不完全矩精确递推，原13有向系数及全Taylor余；整个x∈[0,1]两边界与Vext0..3/B0..4保。四真实输入组+完整复轮廓共52×256=13312闭格，18whole首发；实B>190/复B<276均待真实科学，不拿GXM整标量代替部分积分。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-AH96：实际46135898111/1七目标全成、原2847/96列/三类whole载体保；根完整34whole原H96/P96/APHI validator及失败父前后检查全过。actual31652Ba49119d5…、execution43566B73d78ed9…；帽height joint .1387156385/reduced phase .2154269254全保，不能授小真解。PWA共rho→CFC实际新目标待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-PWA96R：34whole全部原validator过；只对固定APHI三whole与真实run/event使用其原manifest runtime，不伪加Haswell，另外两父原门保。原唯一consumed和七PWA数学不动；接原96dyadic中心、同rho、4负窗/2world/两mean，首次actual结果及CFC待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-GMI：GNF三幅伴随保全部mean，以全原1/1024幅条和真G.16作64次整圆积分；不对真振荡波假设复角小。|j|≥2^20+1/两sign/双真Airy列含shear的整HS级数严格给pointwise<1e−55、全collar普通L1<4e−61、共同C97<1e−56。34whole/26新Fraction根首次全过，第一行nonlocal仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-ASQ27R：真46149703541/1 child1/rc1且0cells/0targets，首异常被suffix二次save掩盖，不能推nan/奇异。56whole新入口先全193trace/六有向decimal/validator/atomic后计数，并保原traceback；非有限flat仅可用原有限解析sup²×真最高权，独立计数。原全部3073/65/193/η0及同Aδ*不改。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-AGJOR：真46150669215/1于13:51:56success；1973全成/521samecut精确0，原576根接口不重算。whole1510B7db431ce…；strict2.945707169633746e−12/natural4.066489833535994e−10/common5.042447393584633e−9<5.043e−9；12753217/44821297B私件双SHA保，非全普通/非局部响应。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-ASQ25R：实际ASQ25C reserve前KeyError restore_only、0children/0files/0targets，20382B5eba5710…全保。新transport严格绑定269current/53history五原形状与全Git bytes/SHA/blob、同路径必同bytes；57whole完全反构原14b776manifest，原consumed/concurrency/4目标/means不动。真实科学结果待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+GDM：原V/SV全15whole资格；N=I−uvᵀ/n²、真实分母保，L=N⁻¹C全n≥388有‖L‖<6/5、‖L−I‖<511n⁻⁴ᐟ³；21新Fraction根首次全过。完整两列γ、独立zero-root mean和δh真物理差保；B2项在同端Green恒等式精确消去，不能删free bulk/jump/mean，正侧Bi尚未付。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
