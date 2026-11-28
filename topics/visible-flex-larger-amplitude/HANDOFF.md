@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，真实V8换实例后pwd仍missing-server，恢复即pull。云核至`2070af6c745df4f1703f87d93cab789f23dfb50b`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；至少每小时真pull并只读变化diff。§16已读至bb51f8b60c8c5907662959bc45f62ca9cdb40ed3：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，真实V8换实例后pwd仍missing-server，恢复即pull。云核至`b87ce9b2fdf6e0f50c255f344104b2376964e96f`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；至少每小时真pull并只读变化diff。§16已读至bb51f8b60c8c5907662959bc45f62ca9cdb40ed3：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF立即rebase，终端失效用freshHEAD完整整合重推，禁force/冒pull；令牌仅CLI。仅公开Actions科学，raw仅runner。完整源参/run/whole身份/失败未知保各note，不加准入审查、不缩预算。题≤200MB，文件<5MB，MD<100KB，H<10KB，open<30KB；先metadata，不整读≥100KB/binary；根§15可重算数据只留源参/run/SHA，旧退出件须完整复现及固定Git恢复，不退活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入/全t强C²/同固定g，固定有内点H且diam≥.2D，整像无对齐held≥.2D、含反射δE>0、全t reach≥.03D及relative metric算子≤1e−6；D为整F0直径。同g/参数/全t实际空间频率时间精化至机器/原容差，多时刻全mesh，继而提高三比值。
 
@@ -15,7 +15,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 [33](notes/2026-11-28-run33-section16-retry.md) 46133839513：原全预算/138角色，accepted0；四分1ea6125完整reachg3.3892706625394684拒；八分2fba4ebf统计Phi687.4074461474393/Gram.4064776966221723，完整几何待。自然返才pure62854。
 [34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432：原139角色/预算，accepted0；半步reachg300537.3169553407拒；四分8d07925e统计Phi48094.211909104895/Gram1.54633199996496，完整几何待，原pure66120待自然返。
-[35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293：139角色/1,333,370 outer全自由及原全预算，accepted0；半步65983a0完整reachg903.6815803516885拒；四分af5eac51统计Phi26772.13565593149/Gram1.4353037688805468，完整几何待。自然返才pure74162。
+[35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293：原139角色/1,333,370 outer全自由，accepted0；四分af5eac51完整reachg603.7537475106277拒；八分498c3dca原trial已启，统计/几何待，pure74162待自然返。
 
 33–35全部初值、源/model/PID、每个拒绝数值和完整预算保各ownnote及[此前完整状态](https://github.com/Rogerhu12/math-research-public/blob/7773737d03bb218fe3a20035f74e8baa9e80bab3/topics/visible-flex-larger-amplitude/HANDOFF.md)，未删减科学任务。
 

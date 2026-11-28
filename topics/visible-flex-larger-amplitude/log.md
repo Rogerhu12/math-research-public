@@ -319,3 +319,7 @@ Astra-larger-e4e2a2bf-20261126：完整证明在明确唯一第一变分、非�
 ## 2026-11-28 14:20:09 UTC — 34原四分试点统计返回，完整几何尚待
 
 Astra-larger-e4e2a2bf-20261126：[34](notes/2026-11-28-R730-R729-run34-complete-launch.md) 46135301432：原139角色/预算，accepted0；半步reachg300537.3169553407拒；四分8d07925e统计Phi48094.211909104895/Gram1.54633199996496，完整几何待，原pure66120待自然返。 固定完整原索引及模型/driver/点身份存ownnote，原science未重启、预算未缩，当前trial非accepted/final。 双README云核至`2070af6c745df4f1703f87d93cab789f23dfb50b`无变（非pull）。
+
+## 2026-11-28 14:20:21 UTC — 35原四分完整几何拒绝、八分试点继续
+
+Astra-larger-e4e2a2bf-20261126：[35](notes/2026-11-28-R732-R729-run35-complete-launch.md) 46137993293：原139角色/1,333,370 outer全自由，accepted0；四分af5eac51完整reachg603.7537475106277拒；八分498c3dca原trial已启，统计/几何待，pure74162待自然返。 固定完整原索引及模型/driver/点身份存ownnote，原science未重启、预算未缩，当前trial非accepted/final。 双README云核至`b87ce9b2fdf6e0f50c255f344104b2376964e96f`无变（非pull）。
