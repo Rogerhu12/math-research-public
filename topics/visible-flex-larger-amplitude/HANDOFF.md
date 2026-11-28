@@ -58,6 +58,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r774-publish-->R774 [每次双README真读](notes/r774-shared-pose-retry-46175515918-1-reads.json) 4ce6265f87578e1254a35deece0104ab05f1616f
 
 [50](notes/2026-11-28-run50-three-complete-short-tube-physical-families.md)：同R776初g三族19源/九初点+各4/8/16共18stage/各69相七网；真实谱曲率/96最坏全Gram及全像位移约束共同入场，所有新数值待返。
-<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull f556604919a814ac6899c5d440fe0c7ebcada5fd
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull fab59de5880c60fe819f4297e44b91447c7f76b0
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 06cb6b2559d969fdd1723a3986e123ab40d4b7d3
+<!--run49-spatial-ring-->49 [实测](notes/run49-spatial-ring-46174104900-1.json) 双README真pull 126c3b14f884368d9488caeeba143f1deee9b5b6
