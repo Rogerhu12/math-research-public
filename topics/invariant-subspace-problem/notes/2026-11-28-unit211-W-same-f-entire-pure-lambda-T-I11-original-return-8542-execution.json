@@ -1,0 +1,1017 @@
+{
+  "schema": "isp-reviewed-first-execution-records-v1",
+  "jobURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46134694458/job/140947271529",
+  "execution": {
+    "elapsed_seconds": 6.894556504999997,
+    "max_child_rss_kib": 77880,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "42dd5bdd71dddddb3ad2ac0cea76bd4bf111e779",
+        "before": "af4b6e1c21c77a4ff35c0c090e1485c7eae3efb0",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T10:20:28.554601+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46134694458",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "af4b6e1c21c77a4ff35c0c090e1485c7eae3efb0",
+    "source_exit_code": 0,
+    "source_git_blob": "c0b1f13b94335d0ad6287ea95ffdaffe38ff039f",
+    "source_sha256": "af7a596e927972d2b37752267d001d492c130da650ad4659a2ff627eaa8d9658",
+    "stdout_bytes": 14213,
+    "stdout_sha256": "024faa6b6eb193d67c9fc977cfbb615222bba7b9fa7bd3ca2eae3d0bc0dcdcfb",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "gNumerator": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          13,
+          17,
+          2,
+          2,
+          0
+        ],
+        "totalDegree": 25,
+        "terms": 862,
+        "bytes": 20543,
+        "sha256": "70134b945fa92314476d63d234516730c1df280537255d3e9c40e1722cfc79aa"
+      },
+      "gDenominator": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          11,
+          16,
+          0,
+          0,
+          0
+        ],
+        "totalDegree": 23,
+        "terms": 131,
+        "bytes": 3035,
+        "sha256": "b8f92e2a2d89fb813dae6531a2ef4d4970b7c3ccc1aa2a01d4a9d0678c0cf29b"
+      },
+      "originalMeanNames": [
+        "E1",
+        "EBe",
+        "EBo",
+        "N1"
+      ],
+      "allFinalGAndOriginalMultiplierDenominatorsOldPaid": true,
+      "possibleRawCommonHeadZeroRetainedByFullOriginalReturn": true,
+      "noOldHeadFactorizationOrSixScalarGateReplayed": true,
+      "trueGramE1StillIndependent": true,
+      "stage": "new_whole_W_same_f_input_ready",
+      "seconds": 0.31108196200000293
+    },
+    {
+      "names": [
+        "NS",
+        "PS",
+        "N4B_rho_odd",
+        "P2B_rho_odd"
+      ],
+      "profiles": [
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            15,
+            17,
+            3,
+            3,
+            3
+          ],
+          "totalDegree": 27,
+          "terms": 3135,
+          "bytes": 73755,
+          "sha256": "34b93359ee0977c1cb4a6c7c346028d2a70b609dff0b510c957c697ed768f391"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            16,
+            17,
+            3,
+            3,
+            3
+          ],
+          "totalDegree": 28,
+          "terms": 3322,
+          "bytes": 79784,
+          "sha256": "e0e24b7469854e6dca42ad4a28472935b1f9848d7331432d0ce32bd72d3af864"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            13,
+            15,
+            3,
+            3,
+            3
+          ],
+          "totalDegree": 25,
+          "terms": 2451,
+          "bytes": 56465,
+          "sha256": "b9f3f7862e7d2b2d283d3e392e2f15ffe6e975a754d322ae594b1a83f088bff8"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            17,
+            19,
+            3,
+            3,
+            3
+          ],
+          "totalDegree": 31,
+          "terms": 4009,
+          "bytes": 100440,
+          "sha256": "0c002a2d2fbb6fa946e0e0bd6169b7c3637546098d2ab5ab222b9b40e3d28ae4"
+        }
+      ],
+      "allConjugateAndWeightedOddPartsReturned": true,
+      "fullRawCubicDegreeAtMostThree": true,
+      "stage": "new_true_full_weighted_and_individual_NP_constructed",
+      "seconds": 0.5852012780000138
+    },
+    {
+      "label": "NS",
+      "pure": {
+        "label": "NS_pure",
+        "numerator": {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            29,
+            40,
+            4,
+            4,
+            0
+          ],
+          "totalDegree": 58,
+          "terms": 10874,
+          "bytes": 348725,
+          "sha256": "f73c53e4128397a497e7c12039c5c67db6a3e7840a1d7f91c46a579d941ea21c"
+        },
+        "denominator": {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            22,
+            37,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 51,
+          "terms": 569,
+          "bytes": 16889,
+          "sha256": "d8dedc9107f946ec6a59f8311f42df1e9918d616880cf5d26445744d00734c60"
+        },
+        "geometryDegree": 4,
+        "fullOriginalSources": 6,
+        "allFCoefficientsReturned": true
+      },
+      "monicDivisionQuotient": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          11,
+          15,
+          1,
+          1,
+          1
+        ],
+        "totalDegree": 23,
+        "terms": 476,
+        "bytes": 10699,
+        "sha256": "6355fb9c49c4af15aeae8e91dd9cd2e7dd2302b0903f3c2e5b5b5925edeec17e"
+      },
+      "originalRemainderA": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          19,
+          26,
+          3,
+          3,
+          0
+        ],
+        "totalDegree": 38,
+        "terms": 3275,
+        "bytes": 88160,
+        "sha256": "8ca2dc017b66571be44c1592a49195c12b516c0665cba1d39d12f065acef7cd2"
+      },
+      "originalRemainderB": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          16,
+          23,
+          2,
+          2,
+          0
+        ],
+        "totalDegree": 33,
+        "terms": 1495,
+        "bytes": 38169,
+        "sha256": "7cc6d8eb8fbad0322aa0bb9be50f66bc21fb1d51aac6eb5a4be064fcc184c629"
+      },
+      "completeSixSourceForwardAndReverseReturned": true,
+      "stage": "new_same_f_full_weighted_NP_pure_return",
+      "seconds": 2.404686297000012
+    },
+    {
+      "label": "PS",
+      "pure": {
+        "label": "PS_pure",
+        "numerator": {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            29,
+            39,
+            4,
+            4,
+            0
+          ],
+          "totalDegree": 57,
+          "terms": 10473,
+          "bytes": 333092,
+          "sha256": "608f48f97f33001307279287e10eb6d4daff5f3c57431620b4bf9b0900200c08"
+        },
+        "denominator": {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            22,
+            36,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 50,
+          "terms": 563,
+          "bytes": 16605,
+          "sha256": "ca336cfe7a0da5eed00f814b6851ae393fce8f118dd3ca43655a68007f82d55d"
+        },
+        "geometryDegree": 4,
+        "fullOriginalSources": 6,
+        "allFCoefficientsReturned": true
+      },
+      "monicDivisionQuotient": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          11,
+          14,
+          1,
+          1,
+          1
+        ],
+        "totalDegree": 22,
+        "terms": 435,
+        "bytes": 9694,
+        "sha256": "137f88847b097ea384a8c9fca3d9ebd1a8beed30de377ccf4e90dadef85e3a20"
+      },
+      "originalRemainderA": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          19,
+          25,
+          3,
+          3,
+          0
+        ],
+        "totalDegree": 37,
+        "terms": 3125,
+        "bytes": 83511,
+        "sha256": "18d0137cba22d86e9675ddc4db5b461a10ff4407835dcf54f3d69c0b591c3013"
+      },
+      "originalRemainderB": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          16,
+          22,
+          2,
+          2,
+          0
+        ],
+        "totalDegree": 32,
+        "terms": 1402,
+        "bytes": 35347,
+        "sha256": "59432f7e255c78228a9f637622bbf1905db4b6dbd81116bd456732d1e4274005"
+      },
+      "completeSixSourceForwardAndReverseReturned": true,
+      "stage": "new_same_f_full_weighted_NP_pure_return",
+      "seconds": 3.3584231730000056
+    },
+    {
+      "pureProfiles": [
+        {
+          "label": "qf_at_same_f",
+          "numerator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              28,
+              37,
+              4,
+              4,
+              0
+            ],
+            "totalDegree": 55,
+            "terms": 9333,
+            "bytes": 292613,
+            "sha256": "3908498580e5cd0cdfa5b15e00f3e9e8d93730566a3543efd33703386e0ba953"
+          },
+          "denominator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              24,
+              35,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 51,
+            "terms": 580,
+            "bytes": 17203,
+            "sha256": "6bbd6b98a10e0ea976af51f22a5cd7701f3aedf594cf317da33d40e11768471e"
+          },
+          "geometryDegree": 4,
+          "fullOriginalSources": 6,
+          "allFCoefficientsReturned": true
+        },
+        {
+          "label": "mean_0",
+          "numerator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              19,
+              25,
+              3,
+              3,
+              0
+            ],
+            "totalDegree": 38,
+            "terms": 2823,
+            "bytes": 75390,
+            "sha256": "ed8e7bd8318ca922856ba88466dc367ae37dcf310d81cf1c790a80406b55c2a0"
+          },
+          "denominator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              14,
+              23,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 33,
+            "terms": 231,
+            "bytes": 5823,
+            "sha256": "e303985dc2ce870da54913f8d271e356cc7dbce54bc0ac0e40b3adbfd104964e"
+          },
+          "geometryDegree": 3,
+          "fullOriginalSources": 6,
+          "allFCoefficientsReturned": true
+        },
+        {
+          "label": "mean_1",
+          "numerator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              22,
+              29,
+              3,
+              3,
+              0
+            ],
+            "totalDegree": 43,
+            "terms": 3850,
+            "bytes": 108753,
+            "sha256": "27f0954b66f20056b28b8937f0ad3daf03aa7960141842341767ec0e3bb9f8db"
+          },
+          "denominator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              19,
+              28,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 39,
+            "terms": 382,
+            "bytes": 10527,
+            "sha256": "0aad957d1d5c9932bdde6b3fa21afd3e2788f8c2d95c4990f0c5245399123396"
+          },
+          "geometryDegree": 3,
+          "fullOriginalSources": 6,
+          "allFCoefficientsReturned": true
+        },
+        {
+          "label": "mean_2",
+          "numerator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              24,
+              28,
+              3,
+              3,
+              0
+            ],
+            "totalDegree": 44,
+            "terms": 3921,
+            "bytes": 110039,
+            "sha256": "641e68382800840987ff2faeec8d73fdcf9b6ff4eb935ce3ce941e326fc9d512"
+          },
+          "denominator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              18,
+              26,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 38,
+            "terms": 336,
+            "bytes": 8903,
+            "sha256": "f3d553b7ea4715079d280219795c2190a554320ba44517289c409efdc8390ce3"
+          },
+          "geometryDegree": 3,
+          "fullOriginalSources": 6,
+          "allFCoefficientsReturned": true
+        },
+        {
+          "label": "NS_pure",
+          "numerator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              29,
+              40,
+              4,
+              4,
+              0
+            ],
+            "totalDegree": 58,
+            "terms": 10874,
+            "bytes": 348725,
+            "sha256": "f73c53e4128397a497e7c12039c5c67db6a3e7840a1d7f91c46a579d941ea21c"
+          },
+          "denominator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              22,
+              37,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 51,
+            "terms": 569,
+            "bytes": 16889,
+            "sha256": "d8dedc9107f946ec6a59f8311f42df1e9918d616880cf5d26445744d00734c60"
+          },
+          "geometryDegree": 4,
+          "fullOriginalSources": 6,
+          "allFCoefficientsReturned": true
+        },
+        {
+          "label": "PS_pure",
+          "numerator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              29,
+              39,
+              4,
+              4,
+              0
+            ],
+            "totalDegree": 57,
+            "terms": 10473,
+            "bytes": 333092,
+            "sha256": "608f48f97f33001307279287e10eb6d4daff5f3c57431620b4bf9b0900200c08"
+          },
+          "denominator": {
+            "zero": false,
+            "degrees_e_k_lambda_T_f": [
+              22,
+              36,
+              0,
+              0,
+              0
+            ],
+            "totalDegree": 50,
+            "terms": 563,
+            "bytes": 16605,
+            "sha256": "ca336cfe7a0da5eed00f814b6851ae393fce8f118dd3ca43655a68007f82d55d"
+          },
+          "geometryDegree": 4,
+          "fullOriginalSources": 6,
+          "allFCoefficientsReturned": true
+        }
+      ],
+      "exactIdeal": "I6=(f+g,P0,P1,P2,P3,PN,PP)",
+      "oneSameFForAllOriginalConditions": true,
+      "noPolynomialQuotientFreenessAssumed": true,
+      "noNewLambdaTHeadOrDInverse": true,
+      "stage": "new_exact_whole_W_I6_six_pure_lambda_T_conditions",
+      "seconds": 3.3584853810000084
+    },
+    {
+      "label": "Nlow",
+      "pure": {
+        "label": "Nlow_pure",
+        "numerator": {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            28,
+            38,
+            6,
+            6,
+            0
+          ],
+          "totalDegree": 58,
+          "terms": 18934,
+          "bytes": 600390,
+          "sha256": "3799182eb2c8861bebdb681d2e39b5daed80982e391c8d452777482db9533fbc"
+        },
+        "denominator": {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            22,
+            36,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 50,
+          "terms": 547,
+          "bytes": 16004,
+          "sha256": "5d4e279bfa2937a9edfe121c46948a1f3ce94b750438e03c30170901cb7db51b"
+        },
+        "geometryDegree": 6,
+        "fullOriginalSources": 11,
+        "allFCoefficientsReturned": true
+      },
+      "rawOddRemainderA": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          16,
+          22,
+          3,
+          3,
+          0
+        ],
+        "totalDegree": 33,
+        "terms": 2382,
+        "bytes": 61722,
+        "sha256": "575d440c06f2a1435e1a8b9a6c94bc0590f50c83aebd634ceea5926e4c6f5241"
+      },
+      "rawOddRemainderB": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          13,
+          19,
+          2,
+          2,
+          0
+        ],
+        "totalDegree": 28,
+        "terms": 1038,
+        "bytes": 25150,
+        "sha256": "c39f57d7df40a3419a89c94d2f31b764fd08e2fa3b77df1b2630dcbe464abf99"
+      },
+      "allElevenOriginalSourceCoefficientsReturned": true,
+      "completeForwardAndReverseReturned": true,
+      "physicalDOnlyMultipliedNeverInverted": true,
+      "stage": "new_same_f_full_individual_odd_NP_pure_return",
+      "seconds": 4.643912343000011
+    },
+    {
+      "label": "Plow",
+      "pure": {
+        "label": "Plow_pure",
+        "numerator": {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            31,
+            41,
+            6,
+            6,
+            0
+          ],
+          "totalDegree": 62,
+          "terms": 22464,
+          "bytes": 742200,
+          "sha256": "e646490f681fadd0a27bdcd34fd47d0b0c88d530a5acce6b34342a3326723b49"
+        },
+        "denominator": {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            25,
+            39,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 54,
+          "terms": 680,
+          "bytes": 20816,
+          "sha256": "5dd367524884fca22ec8353216351c83c1b8e03dc5dd75d6d3bdc6736fca9665"
+        },
+        "geometryDegree": 6,
+        "fullOriginalSources": 11,
+        "allFCoefficientsReturned": true
+      },
+      "rawOddRemainderA": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          19,
+          25,
+          3,
+          3,
+          0
+        ],
+        "totalDegree": 37,
+        "terms": 3135,
+        "bytes": 85115,
+        "sha256": "c5a15a3f50a3ff3590a3bd901f4ab2b52cc96c04bb433c4483644f35d68a9793"
+      },
+      "rawOddRemainderB": {
+        "zero": false,
+        "degrees_e_k_lambda_T_f": [
+          16,
+          22,
+          2,
+          2,
+          0
+        ],
+        "totalDegree": 32,
+        "terms": 1440,
+        "bytes": 36781,
+        "sha256": "87cafcdcae06df23f7a579eb0f7fcd6b5f1af987a966b3ee60bd9061bf93f4e1"
+      },
+      "allElevenOriginalSourceCoefficientsReturned": true,
+      "completeForwardAndReverseReturned": true,
+      "physicalDOnlyMultipliedNeverInverted": true,
+      "stage": "new_same_f_full_individual_odd_NP_pure_return",
+      "seconds": 6.3629111300000005
+    },
+    {
+      "names": [
+        "P0",
+        "P1",
+        "P2",
+        "P3",
+        "PN",
+        "PP",
+        "C4",
+        "R6",
+        "Nlow",
+        "Plow",
+        "N5"
+      ],
+      "numerators": [
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            28,
+            37,
+            4,
+            4,
+            0
+          ],
+          "totalDegree": 55,
+          "terms": 9333,
+          "bytes": 292613,
+          "sha256": "3908498580e5cd0cdfa5b15e00f3e9e8d93730566a3543efd33703386e0ba953"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            19,
+            25,
+            3,
+            3,
+            0
+          ],
+          "totalDegree": 38,
+          "terms": 2823,
+          "bytes": 75390,
+          "sha256": "ed8e7bd8318ca922856ba88466dc367ae37dcf310d81cf1c790a80406b55c2a0"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            22,
+            29,
+            3,
+            3,
+            0
+          ],
+          "totalDegree": 43,
+          "terms": 3850,
+          "bytes": 108753,
+          "sha256": "27f0954b66f20056b28b8937f0ad3daf03aa7960141842341767ec0e3bb9f8db"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            24,
+            28,
+            3,
+            3,
+            0
+          ],
+          "totalDegree": 44,
+          "terms": 3921,
+          "bytes": 110039,
+          "sha256": "641e68382800840987ff2faeec8d73fdcf9b6ff4eb935ce3ce941e326fc9d512"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            29,
+            40,
+            4,
+            4,
+            0
+          ],
+          "totalDegree": 58,
+          "terms": 10874,
+          "bytes": 348725,
+          "sha256": "f73c53e4128397a497e7c12039c5c67db6a3e7840a1d7f91c46a579d941ea21c"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            29,
+            39,
+            4,
+            4,
+            0
+          ],
+          "totalDegree": 57,
+          "terms": 10473,
+          "bytes": 333092,
+          "sha256": "608f48f97f33001307279287e10eb6d4daff5f3c57431620b4bf9b0900200c08"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            15,
+            12,
+            4,
+            4,
+            0
+          ],
+          "totalDegree": 26,
+          "terms": 1798,
+          "bytes": 41566,
+          "sha256": "4d7521f46d7292bda49f15f1958a3f4fc6a2119ec31e951ae825aed042ec20e0"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            13,
+            12,
+            6,
+            6,
+            0
+          ],
+          "totalDegree": 25,
+          "terms": 2904,
+          "bytes": 66416,
+          "sha256": "57456b5c4582e43ab56e2db8f4580f4c676b5cb718ae09e511eef8191b5d3ccb"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            28,
+            38,
+            6,
+            6,
+            0
+          ],
+          "totalDegree": 58,
+          "terms": 18934,
+          "bytes": 600390,
+          "sha256": "3799182eb2c8861bebdb681d2e39b5daed80982e391c8d452777482db9533fbc"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            31,
+            41,
+            6,
+            6,
+            0
+          ],
+          "totalDegree": 62,
+          "terms": 22464,
+          "bytes": 742200,
+          "sha256": "e646490f681fadd0a27bdcd34fd47d0b0c88d530a5acce6b34342a3326723b49"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            15,
+            15,
+            5,
+            5,
+            0
+          ],
+          "totalDegree": 28,
+          "terms": 3538,
+          "bytes": 83596,
+          "sha256": "b6b7668f30941f985017ac28f1963dab51ff68c53e58a2f991ff5aa4f7d2c104"
+        }
+      ],
+      "denominators": [
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            24,
+            35,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 51,
+          "terms": 580,
+          "bytes": 17203,
+          "sha256": "6bbd6b98a10e0ea976af51f22a5cd7701f3aedf594cf317da33d40e11768471e"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            14,
+            23,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 33,
+          "terms": 231,
+          "bytes": 5823,
+          "sha256": "e303985dc2ce870da54913f8d271e356cc7dbce54bc0ac0e40b3adbfd104964e"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            19,
+            28,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 39,
+          "terms": 382,
+          "bytes": 10527,
+          "sha256": "0aad957d1d5c9932bdde6b3fa21afd3e2788f8c2d95c4990f0c5245399123396"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            18,
+            26,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 38,
+          "terms": 336,
+          "bytes": 8903,
+          "sha256": "f3d553b7ea4715079d280219795c2190a554320ba44517289c409efdc8390ce3"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            22,
+            37,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 51,
+          "terms": 569,
+          "bytes": 16889,
+          "sha256": "d8dedc9107f946ec6a59f8311f42df1e9918d616880cf5d26445744d00734c60"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            22,
+            36,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 50,
+          "terms": 563,
+          "bytes": 16605,
+          "sha256": "ca336cfe7a0da5eed00f814b6851ae393fce8f118dd3ca43655a68007f82d55d"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            6,
+            10,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 16,
+          "terms": 28,
+          "bytes": 550,
+          "sha256": "098bc17a89f411caed35fe30bd81eec8df8100f9aae5036f5d3a98c841455a3d"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            6,
+            11,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 17,
+          "terms": 28,
+          "bytes": 556,
+          "sha256": "209d503a4a45246edd4f43cbd143e52bf8b37a7f12ee9664105f45b3e1b6533f"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            22,
+            36,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 50,
+          "terms": 547,
+          "bytes": 16004,
+          "sha256": "5d4e279bfa2937a9edfe121c46948a1f3ce94b750438e03c30170901cb7db51b"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            25,
+            39,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 54,
+          "terms": 680,
+          "bytes": 20816,
+          "sha256": "5dd367524884fca22ec8353216351c83c1b8e03dc5dd75d6d3bdc6736fca9665"
+        },
+        {
+          "zero": false,
+          "degrees_e_k_lambda_T_f": [
+            8,
+            14,
+            0,
+            0,
+            0
+          ],
+          "totalDegree": 20,
+          "terms": 67,
+          "bytes": 1416,
+          "sha256": "a2c69a9423c40407499cd60c75e30746a72c8b0ff2df2ac06d43959d8432db94"
+        }
+      ],
+      "exactOriginalIdeal": "I11=(f+g,eleven displayed pure lambda,T conditions)",
+      "entireVlowReplacedByPublishedExactN5AndC4Identity": true,
+      "weightedAndIndividualNPBothRetained": true,
+      "noD_bzero_Lambda_T_HeadOrNormInverse": true,
+      "geometryEnvironmentNotAssumedFree": true,
+      "noNecessaryPairListCalledSufficient": true,
+      "statistics": {
+        "exactPolynomialDivisionProducts": 853,
+        "originalFCoefficientReturns": 0,
+        "paidSupportProducts": 853,
+        "fourSourceContentCancellations": 0,
+        "sameFNormIdentities": 0,
+        "newMonicFDivisionProducts": 8,
+        "newSixSourceCoefficientReturns": 6,
+        "newElevenSourceCoefficientReturns": 2
+      },
+      "distinctPaidWeightDenominators": 71,
+      "sourceSHA256": "af7a596e927972d2b37752267d001d492c130da650ad4659a2ff627eaa8d9658",
+      "noLargeCoefficientCacheWritten": true,
+      "noOldScalarOrNormOrNativeActionGateReplayed": true,
+      "noNewFiniteWeightOrPointBound": true,
+      "wholeWExcluded": false,
+      "ordinaryISPClaim": false,
+      "maxRssKiB": 77880,
+      "stage": "new_complete_whole_W_same_f_pure_I11",
+      "seconds": 6.834533747000009
+    }
+  ]
+}

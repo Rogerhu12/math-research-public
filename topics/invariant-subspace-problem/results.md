@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R150：正确 Phi 的两六次首项及 434 个共同权支持](results/R150-appendix-unit211-Phi-zero-corrected-two-sextic-heads-434-common-weights.md)：实际2.242327711秒/0，两整QQ残余互素；用独立全图u单位去除u后，H31/H14给≤434权长度。所有特殊权原纤维保留，界外固定权长度≤18。
+
 - [R267：固定共同分子、实际分母与奇倍率切口收缩](results/R267-appendix-fixed-numerator-actual-denominators-and-odd-cut-contractions.md)：YN QN=Pt、DN QN²=C⁻¹P2t；奇倍率有收缩比值及强*误差。若实际QN有强子列极限即构原闭稳定根，原even费用与强紧性仍开。
 
 - [R150：全 W 同一个 f 的纯 lambda,T 原 I6／I11 与 b0 23088 点](results/R150-appendix-unit211-W-pure-weight-f-head-exact-lambda-T-original-ideal.md)：已付整头给双向原理想，整个Vlow由N5精确替换且无D逆；整b0规范不同点5772×2×2，旧46176保。首次新同f十一式与F99原纤维分开执行。
