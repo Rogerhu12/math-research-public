@@ -1,0 +1,84 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "mpmath": "1.3.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "schema": "r647-positive-liouville-excited-pair-finite-input-v1",
+  "public_rules_read_commit": "da759a95964356fdb1a1bd10b9223982d2242dd4",
+  "private_rules_read_commit": "c47bd5d628be038f1e9fdc8b91eb0ad4e6440941",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r647_positive_liouville_finite_profile_20261128.py",
+  "workflow": ".github/workflows/visible-r647-positive-liouville-finite-input-20261128.yml",
+  "common_parameters": {
+    "dps": 50,
+    "max_seconds": 240,
+    "eval_limit": 100000,
+    "grid_intervals": 512,
+    "core_height": "1/2"
+  },
+  "lanes": {
+    "excited-pair-finite-input": {}
+  },
+  "scope": {
+    "s": "11/5",
+    "eta_squared": "37/100",
+    "B": "3/100",
+    "kernel_levels_j_N": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "positive_sigma_fractions": [
+      "0",
+      "1/2",
+      "4/5",
+      "19/20"
+    ],
+    "radius_normalization": "r(X_R)=1",
+    "core_height": "1/2",
+    "mode_normalization": "f2(X=0)=f3(X=0)=1",
+    "left_and_right_buffer_width": "1/4",
+    "reference_port_t_interval": [
+      "1/1048576",
+      "16"
+    ],
+    "new_same_sigma_true_cut_Cauchy_data": true,
+    "sampled_curvature_is_not_continuous_certificate": true,
+    "linear_jet_envelope_is_not_existence_radius": true,
+    "extra_integer_zero_modes_not_deleted": true,
+    "original_R630_run_preserved": 46121291838,
+    "R637_ball_run_preserved": 46123270834,
+    "old_ground_pair_or_old_Cauchy_scan_replayed": false,
+    "actual_flat_tail_attached": false,
+    "actual_nonlinear_branch_solved": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r647_positive_liouville_finite_profile_20261128.py": "7d2a72baa66048eb85e1bfff20b292533507331e8ee8cb73bde0c4f7e38f400c",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/results/R630-morse-double-kernel-all-frequency-center.md": "b09432d7135ac3e27a4ef6179d21ddbe7a1476d0d6657094d6cb8a229c8a8584",
+    "topics/visible-flex-new-mechanism/results/R635-exact-boundary-cancellation-in-double-kernel-port.md": "6bee79b689743f9b468373a99d1fddcb0343605f9452792e075af824b0f745a1",
+    "topics/visible-flex-new-mechanism/results/R637-certified-morse-port-and-true-flat-tail-transfer.md": "9ddaeb9cfef9b10ae0f005578c3ca59890917759ffda283f8dfdb81ff24b89fd",
+    "topics/visible-flex-new-mechanism/results/R647-positive-liouville-gauge-finite-morse-profile.md": "78439817294ed76f0cfe5eaf61057632dafc963b9680d2834eabe464765733ab",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r647-positive-liouville-finite-input-scope.md": "d41c85975649517cca718dc2e35762263065c1cd062f97a9702c50ab2871159e",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r630-morse-port-actions.md": "6a92378681e6b1666a551d1c9c98045f233563bc5165ed123241d002d9f7fc5f",
+    ".github/workflows/visible-r647-positive-liouville-finite-input-20261128.yml": "a62ffcbe2ab54bf11503c6e72d7e6c686280c923fc6338fd0a1535851530c261"
+  }
+}

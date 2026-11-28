@@ -370,3 +370,7 @@
 ### 2026-11-28 09:16 UTC — R632真实越过原粗墙并从47接受继续
 
 完整自然终态与后继source/scope已读；区分归一merit改善与真实十末变大，保留两处连续点反例。后继直接调用冻结原求解循环，35源绑定/AST及6270B真实payload一致。新增题外.github/workflows/visible-r632-adaptive47-true-bvp-resume-20261128.yml；原迭代界不是完成，已付恢复/同态fine不重放。H压缩旧A叙述转原完整note链接，旧义务/费用未删。
+
+### 2026-11-28 09:19 UTC — R647低η新双核的实际有限profile
+
+全文核对谱值/两Laguerre核、全区间Tricomi积分不等式、Wronskian径向合法性、曲率/高度身份及端口变换；保额外零模及R639修复条件。代码四支各取自己同一σ/高度规范和端口，9绑定/AST一致；新增题外.github/workflows/visible-r647-positive-liouville-finite-input-20261128.yml，不重跑旧Morse范围。H旧详数转完整原note，未撤旧条件/费用。

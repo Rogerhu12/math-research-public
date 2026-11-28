@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **f020f0a86ce3bce9d15f3cc1ab10edf45f3b2c13**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **da759a95964356fdb1a1bd10b9223982d2242dd4**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:53:50 UTC** 至 **c47bd5d628be038f1e9fdc8b91eb0ad4e6440941**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查双README（至少每小时），有变读diff立即执行并记SHA。每结论即commit/push；NFF立即pull --rebase重推至成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -19,11 +19,11 @@
 
 [前383终态与全部费用](notes/2026-11-28-r582-e781-to-6e91-natural-terminal.md)保真6e91/p.181/0d材料及完整fine；旧拒绝raw/半步不重放。[原390实际延续](notes/2026-11-28-r582-6e91-original390-continuation.md)run46125750420/source4482fcc2已于09:05:46自然结束，真实末态正在消费后续接。mean仍设计，p.8/阶段约2.5e−7/末η1e−7及宏观/同g未达；旧59a4资格不转新q。
 
-## B：R618同固定E自然终态／改造真实mean联立图
+## B：同固定E真实mean完整联立系统
 
-[split费用](notes/2026-11-28-r618-split-first-complete-state-terminal.md)及[背景消去终态](notes/2026-11-28-r618-centered-complete-state-natural-terminal.md)run46117718197/source19de4da3：5400.048500946秒、0接受/1全J/2方向/14拒，原全部费用保留。response19519575、target86da8c60/H.5188903877153482/amp1e−5/τ1不变。
+[旧背景消去终态](notes/2026-11-28-r618-centered-complete-state-natural-terminal.md)run46117718197：5400.048500946秒/0接受，近帽真实δs/W压步至2.37e−35；split及所有旧费仍沿该note保留。response19519575、target86da8c60/H.5188903877153482/amp1e−5/τ1固定；原fine与仅15/16的Y差分不冒完整新资格。
 
-真实阻点r=.22666666666666668，W9.3869e−40、δs−7.9225e−7，λ图比例4.22e33压步至2.3697e−35；另一点同病态。原1728×512同态fineηobs2.216608e−7，实际Y双stencil仅15/16块，不能登记完整读出。[R643](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已证真实mean联立转角/周期位置与全六jet链，保同E/真帽/全角，原1472列加94mean共1566；[1566列实际求解](notes/2026-11-28-r643-complete-unsolved-mean-actions-scope.md)run46128314775/source24c1ee59，08:59:14启动；完整work→fine及真实mean/双Y差分，18000秒含6000末读出预留。
+[R643](results/R643-fixed-metric-unsolved-mean-height-and-periodic-position-system.md)已证真实mean联立转角/周期位置与全六jet链，保同E/真帽/全角，原1472列加94mean共1566；[1566列实际求解](notes/2026-11-28-r643-complete-unsolved-mean-actions-scope.md)run46128314775/source24c1ee59，08:59:14启动；完整work→fine及真实mean/双Y差分，18000秒含6000末读出预留。
 
 [R648](results/R648-complete-unsolved-mean-true-tail-connection-and-position-bounds.md)已证真实mean全内尾R/G及含F/G的完整S界，η≤3S+S²并给平面Jac充分界；仅固定seed用κW，trial不除小mean。消费者复用同对象/已付receipt，七类旧源误差未闭仍条件性；活动R643不改。
 
@@ -42,7 +42,7 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 
 [R636自然终态](notes/2026-11-28-r636-true-background-natural-terminal.md)run46123487783/job140912849492/sourceb10baebe于08:49:46结束，新增3146.914737635秒、12端恢复/32全目标接受；真十末.178784、ruling1.5332e14仍未达，同态fine已付。真实中心h逼近.8，8次域拒有真点反例，最后50完整trial无改善；payload e4521e28…/7352B。[实际续接](notes/2026-11-28-r636-original-center-cone-resume-scope.md)求同完整J/欧氏阻尼的h(0)/L至多四活动面；原.8界、全部费用和未完trial保持。
 
-[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P必U>16/225；[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)增σ再消P保原方向。[R641](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)以真实2×2系统再消α/L，原盒内显式P/t₁/s₀三端输入及256自由形状全链已证；[实际r₁/全ruling求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)run46127173693/source106767818，08:43:56启动。原18块全正势、ODE/ruling1e−7、真末1e−8门不变；根后period/pose/宏观仍欠。
+[R641](results/R641-exact-three-even-end-input-and-amplitude-length-chart.md)以真实2×2系统再消α/L，原盒内显式P/t₁/s₀三端输入及256自由形状全链已证；[实际r₁/全ruling求解](notes/2026-11-28-r641-actual-three-end-original-bvp-scope.md)run46127173693/source106767818，08:43:56启动。原18块全正势、ODE/ruling1e−7、真末1e−8门不变；根后period/pose/宏观仍欠。
 
 ## E：R=.8实际宏观核心自动推进在算
 
@@ -55,6 +55,8 @@ R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬t
 [R633](results/R633-flat-ended-morse-double-kernel-global-reference.md)给真平双尾；[R639](results/R639-rational-morse-uniform-gap-and-double-kernel.md)以有理谱/统一左质量界清额外整数零模，保双核和同角阶参考逆。[R635](results/R635-exact-boundary-cancellation-in-double-kernel-port.md)给w²准确边界零；[R637](results/R637-certified-morse-port-and-true-flat-tail-transfer.md)run46123270834/source95b8760b、22.9984961秒严格球1/3<参考β0<3/8，转某有限真平背景β>1/4。
 
 [R642](results/R642-rotated-tail-reference-inverse.md)以n^(9/4)频带、真λ正图、实际帽lifts给同一倾角参考。[R644](results/R644-nonlinear-double-kernel-annulus-with-tilted-cap.md)已完成真实状态/type/circle/双核与固定两矩的coupled逆，Hamilton准确二次误差身份给非零小q等距环带；内帽θ=βq²+O(q³)，固定一个q后相位族同g、外帽固定，整像dH≥aβq²/4>0。所有尾的Q/D共同邻域与真帽姿态已证。**无有效q0/宏观角/reach比例**；下一继续低矮有限profile、有限角与完整闭面几何，不以局部非零收尾。
+
+[R647](results/R647-positive-liouville-gauge-finite-morse-profile.md)新有理核(2,3)/(3,5)，s11/5、η²37/100、B3/100；正σ自由度保完整谱，Tricomi正积分严格给r_X>0。额外157/198零模未删除，必须实际R639修复。已发布[四τ有限输入](notes/2026-11-28-r647-positive-liouville-finite-input-scope.md)，负组件高度1/2、固定±1/4buffer、同profile真Cauchy/端口/曲率；采样或线性Q/D界不授非线性幅度/reach。
 
 ## G：全时几何
 
