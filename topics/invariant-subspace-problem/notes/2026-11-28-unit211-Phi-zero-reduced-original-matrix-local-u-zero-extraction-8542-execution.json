@@ -1,0 +1,96 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "date_taipei": "2026-11-28",
+  "repository": "Rogerhu12/math-research-public",
+  "job_id": 140846118207,
+  "elapsed_seconds": 15.117517354,
+  "max_child_rss_kib": 110392,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "c16d0a59ceb8a1fd118c346dc7e81dc261b1c190",
+      "before": "c16d0a59ceb8a1fd118c346dc7e81dc261b1c190",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T03:15:22.413333+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46101935811",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "c16d0a59ceb8a1fd118c346dc7e81dc261b1c190",
+  "source_exit_code": 0,
+  "source_git_blob": "ccddcf6d2e0f3aeb6db915ebc48560e40e44d00b",
+  "source_sha256": "03127dcfbd35033d91b8d2b70b998e07686b39f54bfc4c3e4903712c8883e8a2",
+  "stdout_bytes": 18998,
+  "stdout_sha256": "f98c115aa89a14adf4bebf12faad3c42a578119f62003793e6de152479f227ed",
+  "stop_reason": null,
+  "mathematics": {
+    "originalPolynomial": "F=det(C22)",
+    "exact_QQ_order_u_zero": 4,
+    "true_global_degree_after_monic_division": 725,
+    "true_QQ_Q2_and_mod1009_degree_after_division": 725,
+    "modular_leading_coefficient": 702,
+    "constant_kernel_rounds": [
+      {
+        "round": 1,
+        "precisionBefore": 5,
+        "extractedOrderBefore": 0,
+        "rank": 20,
+        "nullity": 2,
+        "precisionAfter": 4,
+        "extractedOrderAfter": 2,
+        "constantMatrix": {
+          "rows": 22,
+          "columns": 22,
+          "maximumParameterDegree": 37,
+          "sha256": "b4795c2b4463c3cf655683fb73618d72fa7f991943e13269cad9bffce93dfdda"
+        },
+        "transformation": {
+          "rows": 22,
+          "columns": 22,
+          "maximumParameterDegree": 37,
+          "sha256": "4374ca351140360c81cca91add84b6ce868f5d36f128f491247a95357af6856d"
+        },
+        "completeEH0Returns": 484,
+        "zeroRowJetDivisionReturns": 44,
+        "targetFromZeroRows": false
+      },
+      {
+        "round": 2,
+        "precisionBefore": 4,
+        "extractedOrderBefore": 2,
+        "rank": 20,
+        "nullity": 2,
+        "precisionAfter": 4,
+        "extractedOrderAfter": 4,
+        "constantMatrix": {
+          "rows": 22,
+          "columns": 22,
+          "maximumParameterDegree": 69,
+          "sha256": "126062d3faf91b5b520e8f492d8ac83a69889ee7d56583ad1c691d4fba95a1e2"
+        },
+        "transformation": {
+          "rows": 22,
+          "columns": 22,
+          "maximumParameterDegree": 23,
+          "sha256": "f302cb9993cd1e5d2bb18e0328afda99149b734a60db6db2c65e1d827dc87bbb"
+        },
+        "completeEH0Returns": 484,
+        "zeroRowJetDivisionReturns": 0,
+        "targetFromZeroRows": true
+      }
+    ],
+    "original_coefficient_returns": 484,
+    "exact_polynomial_division_returns": 20514,
+    "constant_EH0_returns": 968,
+    "zero_row_jet_returns": 44,
+    "inner_peak_rss_kib": 107720,
+    "all_parameter_zero_fibres_retained": true,
+    "remaining_bad_blocks_not_dropped": true,
+    "whole_Phi_excluded": false
+  }
+}

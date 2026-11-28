@@ -1,0 +1,273 @@
+{
+  "elapsed_seconds": 180.04752104200003,
+  "max_child_rss_kib": 71264,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "bc8531ef62f98edde5ee2f09eab0784d8bcc901a",
+      "before": "8e30cef106618bf4d018f627db38aa0f2baccb20",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T03:20:40.508382+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46102369697",
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "source_commit": "8e30cef106618bf4d018f627db38aa0f2baccb20",
+  "source_exit_code": -14,
+  "source_git_blob": "09651ba987323c90535b6752d4675e19f40b92af",
+  "source_sha256": "9c6f7c234e54afe5bcc31957d82828c9ec4e8e886d0d54259ef05cedbfb6b2f0",
+  "stdout_bytes": 166854,
+  "stdout_sha256": "58038ea6de8dc7fb97f962339382793ae9f1ac907376bc5f81098531f0357b57",
+  "stop_reason": null,
+  "job_id": 140847460408,
+  "completed_initial_input": {
+    "originalP6LambdaDegree": 6,
+    "originalC6LambdaDegree": 6,
+    "bothFullCoefficientAssemblyProductsReturned": true,
+    "originalP6Identity": "P6*D in I4; P6 is necessary only on physical D!=0",
+    "originalC6Identity": "C6 in I10 on the whole current Phi weight chart",
+    "nonzeroCoefficientCount": 14,
+    "paidStrippedCoefficientProfiles": [
+      {
+        "family": "P6",
+        "lambdaPower": 0,
+        "polynomial": {
+          "totalDegree": 40,
+          "degrees": [
+            39,
+            20
+          ],
+          "terms": 459,
+          "bytes": 12359,
+          "sha256": "776bf1642ae8269568f77a9afbe14b2ce630f5686fa7a75f9687b3a270781115"
+        }
+      },
+      {
+        "family": "P6",
+        "lambdaPower": 1,
+        "polynomial": {
+          "totalDegree": 40,
+          "degrees": [
+            39,
+            20
+          ],
+          "terms": 458,
+          "bytes": 12263,
+          "sha256": "0aea0b8f714e0482f68ab021f5b6939a149313db54a9099317ae14f79ff6a750"
+        }
+      },
+      {
+        "family": "P6",
+        "lambdaPower": 2,
+        "polynomial": {
+          "totalDegree": 36,
+          "degrees": [
+            35,
+            19
+          ],
+          "terms": 393,
+          "bytes": 10224,
+          "sha256": "3ee44473c7bc176a4aaa9fa60cbb73c12972315991c7abc3b91a0cee7506ff5d"
+        }
+      },
+      {
+        "family": "P6",
+        "lambdaPower": 3,
+        "polynomial": {
+          "totalDegree": 34,
+          "degrees": [
+            32,
+            18
+          ],
+          "terms": 352,
+          "bytes": 8577,
+          "sha256": "aed01900f482f2102e5fb706b733bc7322753e24a87ccbae3b48e148e33a2893"
+        }
+      },
+      {
+        "family": "P6",
+        "lambdaPower": 4,
+        "polynomial": {
+          "totalDegree": 31,
+          "degrees": [
+            29,
+            17
+          ],
+          "terms": 311,
+          "bytes": 7270,
+          "sha256": "06acd25c3aea46e3dae7d381290a2b26e7940f9547f782400b570364d38af7e7"
+        }
+      },
+      {
+        "family": "P6",
+        "lambdaPower": 5,
+        "polynomial": {
+          "totalDegree": 27,
+          "degrees": [
+            25,
+            15
+          ],
+          "terms": 253,
+          "bytes": 5388,
+          "sha256": "2df41b4c3939c498c7fc87168d8b7bceaa797e4b3ac364944ba1ce8349903f84"
+        }
+      },
+      {
+        "family": "P6",
+        "lambdaPower": 6,
+        "polynomial": {
+          "totalDegree": 19,
+          "degrees": [
+            19,
+            11
+          ],
+          "terms": 137,
+          "bytes": 2591,
+          "sha256": "3486e7a2bd44ee13153263409e6bf2236a6a5a79376d907ba657a734f0704539"
+        }
+      },
+      {
+        "family": "C6",
+        "lambdaPower": 0,
+        "polynomial": {
+          "totalDegree": 54,
+          "degrees": [
+            53,
+            27
+          ],
+          "terms": 836,
+          "bytes": 29338,
+          "sha256": "986b93f4ec28e684668fb1c6cae5792d952ea9bfb7ef45f7b9a5dbc5b9a53415"
+        }
+      },
+      {
+        "family": "C6",
+        "lambdaPower": 1,
+        "polynomial": {
+          "totalDegree": 54,
+          "degrees": [
+            52,
+            27
+          ],
+          "terms": 834,
+          "bytes": 30205,
+          "sha256": "b8f178cde8d7327f9dc73819fc4547076889edfd4bbace2a094279f2e6c3ec9e"
+        }
+      },
+      {
+        "family": "C6",
+        "lambdaPower": 2,
+        "polynomial": {
+          "totalDegree": 50,
+          "degrees": [
+            48,
+            26
+          ],
+          "terms": 747,
+          "bytes": 26051,
+          "sha256": "94c73bf46885615c14610a80a2625f34802fb3f5961de77e82d7cdffcc2f1808"
+        }
+      },
+      {
+        "family": "C6",
+        "lambdaPower": 3,
+        "polynomial": {
+          "totalDegree": 50,
+          "degrees": [
+            48,
+            26
+          ],
+          "terms": 746,
+          "bytes": 24705,
+          "sha256": "7c16a6d683cf7ee4613fa4242f666d0f4cf0b3da369c5d2026ef95453c7e8466"
+        }
+      },
+      {
+        "family": "C6",
+        "lambdaPower": 4,
+        "polynomial": {
+          "totalDegree": 50,
+          "degrees": [
+            47,
+            26
+          ],
+          "terms": 742,
+          "bytes": 24574,
+          "sha256": "f8d812d474d6da711f0eaa3827037628b4ad154b2bf8a0f622c9263f7ff49721"
+        }
+      },
+      {
+        "family": "C6",
+        "lambdaPower": 5,
+        "polynomial": {
+          "totalDegree": 46,
+          "degrees": [
+            43,
+            24
+          ],
+          "terms": 655,
+          "bytes": 20903,
+          "sha256": "a9b5802fc10275d632db5b1406859e79869da02a9c3675b26346358fc7c0eb5f"
+        }
+      },
+      {
+        "family": "C6",
+        "lambdaPower": 6,
+        "polynomial": {
+          "totalDegree": 42,
+          "degrees": [
+            39,
+            22
+          ],
+          "terms": 540,
+          "bytes": 16212,
+          "sha256": "291a058d1e4d64ee3b3bdcf64314493a39c2d003764234c964a97201a315c26e"
+        }
+      }
+    ],
+    "onlyPreviouslyPaidWeightUnitsDivided": true,
+    "noNewHeadOrGeometricDInverse": true,
+    "noPriorResultantDeterminantOrRankGateReplayed": true,
+    "noWholePhiExclusionClaim": true,
+    "stage": "new_original_scalar_complete_coefficient_input",
+    "seconds": 2.8011434119999876
+  },
+  "last_completed_checkpoint": {
+    "basisSize": 48,
+    "pendingPairs": 993,
+    "processedPairs": 135,
+    "productCriterionPairs": 0,
+    "reductions": 11000,
+    "exactFullPolynomialReturns": 11335,
+    "originalPaidWeightDivisions": 104,
+    "sourceDAGNodes": 11343,
+    "sourceDAGDefinitionBytes": 16431870,
+    "sourceDAGDefinitionSHA256": "750f80f946a91cc214e940f89866d541950d53fb1553821cfbcdc40c74282a85",
+    "currentPolynomial": {
+      "totalDegree": 25,
+      "degrees": [
+        21,
+        25
+      ],
+      "terms": 331,
+      "bytes": 1900123,
+      "sha256": "95d2a811b14dd24da69151c63d7f359a0a88333d5c8c65e159c6e35da6f48883"
+    },
+    "unitIdealNotYetClaimed": true,
+    "stage": "new_original_scalar_coefficient_ideal_reduction_checkpoint",
+    "seconds": 178.02805337400002
+  },
+  "mathematical_status": {
+    "unit_ideal_proved": false,
+    "groebner_basis_completed": false,
+    "whole_lambda_fibres_excluded": false,
+    "whole_Phi_excluded": false,
+    "frozen_failed_gate": true
+  }
+}
