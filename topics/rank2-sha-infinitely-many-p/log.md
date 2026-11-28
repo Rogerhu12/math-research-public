@@ -101,3 +101,9 @@ root手核Vélu与sigma加法的全部符号、目标quasiperiod差、原theta�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:44:36 UTC到c969e60f083c9a328802778553e97928c56b585c，私库2026-11-28 12:44:27 UTC到4d15a481b5e2dd373f9f97ce7dd6685ce6626c30；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47064194B/treef7da965c105878761dc3d459be4bb59431d580eb，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:44:52 UTC到a93b3095a1f3e9f83e254a20fe584d4a2cdd3b4c，私库2026-11-28 12:44:48 UTC到cc5b302423e48b748d6ec12109d29e60127e131a；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47064194B/treef7da965c105878761dc3d459be4bb59431d580eb，无>5MB。
+
+## 2026-11-28 12:44:38 UTC：R1073§5固定分母及普通正整数
+
+根核BHKO原4.2/4.9(b)/4.10(i)的固定常数与signed绝对平方，保原参考5/双13；逐审七乘法36M因子、所有地方统一清分母、完整实cardinal权、Ramanujan迹修正及固定范数的严格检测。原正整数最终非零与Cp^(20i)界均不代无限p中央检出。主缺口继续。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:46:46 UTC到d084c8b1330ae1d57ef67a3ad039b92030c73062，私库2026-11-28 12:46:37 UTC到3405429418c5f6d4380e71e64ee8057b0d6b8539；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3263/47071410B/treeef1069b1cffb2acbe44e880da9981f16bccc5d06，无>5MB。

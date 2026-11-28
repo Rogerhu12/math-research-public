@@ -89,3 +89,64 @@ $$ V_{b,p}:=-\sum_{\{\nu,\nu^{-1}\},\ \operatorname{ord}\nu=p}
 在 $p$ 分歧扩张中，每个 $H_b(x_\nu)\equiv H_b(0)$ 模最大理想。全和为有理数，故落回未分歧基域时该同余精确加强成
 $$ V_{b,p}\equiv-d u_b\pmod p. $$
 故 $(5/p)=-1$ 时，$v_p(V_{65,p}+V_{8125,p}/\sqrt5)=0$ 当且仅当至少一条原中央二阶为单位。陈述只对首层作此模 $p$ 检测；高层未经付费的除 $p^{2j-2}$ 不是单位。分母原 $L(1,\psi_1\nu)$ 未删除。非负和恰在有某个原分子非零时为正，此复实严格正性仍允许它可被 $p$ 整除。
+
+## 5. 用原秩零 signed 参考清除所有变层 $L$ 分母
+
+保持 $b=65,8125$、$\theta_b>0$、$w_b(\nu)=\theta_b L(1,\psi_b\nu)/L(1,\psi_1\nu)$、$x_\nu=\xi+\xi^{-1}-2$、$\xi=\nu(\gamma)$。沿 R1072 §§7–9 的原 $E_1$ 有理整 toric 向量 $f_1$。具体可在 $N_1=36$ 的有限 Shimura 集上取有理值：好 Hecke 本征值有理、坏位的平凡 toric 不变性是有理置换方程，已付的一维 toric 本征线故为有理线；固定其 primitive 整生成元。令
+$$ U(T)=\Theta_1^-(T)\Theta_1^-((1+T)^{-1}-1)\in\mathbf Z_p[[T]]^\times .$$
+这里以及下文只需所有充分大允许 $p$。BHKO Rem.4.10(i) 给 $U(0)=((p+1)f_1(x_0(1))/3)^2$，$x_0(1)$ 的原固定值非零。$U$ 倒数不变，故亦属于 $\mathbf Z_p[[S]]^\times$、$S=T^2/(1+T)$。原有限 signed 值为有理整系数有限 Brandt 和除半旋分，故 $U(t_\nu)=|\Theta_1^-(\xi-1)|^2$ 是所取复嵌入下的实际绝对平方。固定 $n=2j-1$，记 $C_j(\xi)=\prod_{k<j}\Phi_{p^{2k}}(\xi)$。BHKO Thm.4.9(b) 的平方式取通常复绝对值，注意 $|z^2|=|z|^2$，原 $N^+_1=1$、$p,3$ 都有原分歧因子一。得
+$$ U(t_\nu)=c_*\,\frac{p^{2j}}{|C_j(\xi)|^2}
+ \frac{L(1,\psi_1\nu)L(1,\psi_1\nu^{-1})}{\Omega_{\mathbf R,1}^2},\qquad
+ c_*=|C(\pi_1,K)/\Omega_{\pi_1}|\,\Omega_{\mathbf R,1}^2>0. \tag{1} $$
+所有 $L$ 非负，参考非零；$C(\pi_1,K)$ 中惰性好 $p$ 的局部 epsilon 为一，故 $c_*$ 是全局固定实数。它也是代数数：固定一组允许 $p,\nu$，(1)的左侧与旋分因子代数，两个 $L/\Omega_{\mathbf R,1}$ 的代数性由下段真 Kronecker 式给出；非零即可反解同一个 $c_*$。因此存在一固定正整数将 $c_*$ 清成代数整数；不必把双线性范数未经核对地指定为一。
+
+$E_b$ 的实周期满足 $\Omega_{\mathbf R,b}=\Omega_{\mathbf R,1}/\theta_b$。于是相乘后**没有变层参考 $L$ 分母**：
+$$ U(t_\nu) w_b(\nu)=c_*\,\frac{p^{2j}}{|C_j(\xi)|^2}
+ \frac{L(1,\psi_b\nu)}{\Omega_{\mathbf R,b}}
+ \frac{L(1,\psi_1\nu^{-1})}{\Omega_{\mathbf R,1}} . \tag{2} $$
+参考 5、双 13 的 primitive Euler 因子现位于真正的 $L(1,\psi_1\nu^{-1})$ 内。$U$ 乘同一有界函数的中央首项只乘 $U(0)$ 这个单位。
+
+### 固定七乘法对全部层统一清分母
+
+在 $k=1,65,8125$ 的各自模型与 Néron 微分上，取固定有理函数
+$$ F_{7,k}(z)=7\zeta_k(z)-\zeta_k(7z)=-\tfrac17 D\log Q_{7,k}(z),\qquad Q_{7,k}=\sigma_k(7z)/\sigma_k(z)^{49}. $$
+其水平极只在 $E_k[7]$。因 $\mathcal E_1^*(z,\Lambda_k)=\zeta_k(z)-\eta_{\Lambda_k}(z)$，其中拟周期项实线性，故 $7\mathcal E_1^*(Q)-\mathcal E_1^*(7Q)=F_{7,k}(Q)$。分别用有理整数模数
+$$ M_1=6p^{2j},\qquad M_b=390p^{2j}\quad(b=65,8125). $$
+各自模数的素支撑就是对应 primitive 角色的全部坏支撑，故前节式(2)无需共同 Euler 删补。乘 $r\mapsto7r$ 双射；$7$ 分裂，原 CM 角色在有理主理想 $(7)$ 的值为7，且 $\nu((7))=1$。前节 $\epsilon_k(7)=1$。所以在各自完整导子和中，真确有
+$$ \frac{36 M_k L(1,\psi_k\nu)}{\varpi_k}
+ =\sum_{r\in(\mathcal O_K/M_k)^\times}
+ \epsilon_k(r)^{-1}\nu(r)^{-1}F_{7,k}(r\varpi_k/M_k). \tag{3}$$
+原两个6分别是根单位计数及 $7-1$，二者均已保留。
+
+存在不依 $p,j$ 的正整数 $D_F$，使(3)的全部 $D_F F_{7,k}(Q)$ 都是代数整数。证明如下。所列 $Q$ 的准确有理整数阶为 $M_k$，因为 $r$ 模 $M_k$ 可逆。在任何剩余特征 $\ell$，$M_k$ 的 prime-to-$\ell$ 部分不整除7：若 $\ell=p$ 有固定模数6或390的部分；若 $\ell\ne p$ 则有 $p^{2j}$。所有模型 $j(E)=0$ 均潜在良约化；固定一个数域使它们在原有限坏集上同时良约化，或者逐个该有限集局部扩张。固定良约化模型上 prime-to-$\ell$ 挠点约化单射，故 $[7]Q$ 在特殊纤维不是原点。于是它所在的整截面落在 $\mathscr E_k\setminus\ker[7]$。固定 $F_{7,k}$ 在此开集上无水平极；垂直极的阶由原固定函数和固定模型决定，有限统一有界。在几乎全部素数处固定扩展直接在整数模型上正则（对固定开集上有限呈示的有理函数清一次全局分母）。余下有限个素数各乘固定有理素数幂。正规光滑模型上取消全部余维一极即得正则函数，并且可在所有这些截面逐一评价。经有限扩张得出的全整性对代数数本身仍成立。这给所称 $D_F$，含真实坏位和7，且不声称每个 $F_{7,k}(Q)$ 是单位。$\varpi_k/\Omega_{\mathbf R,k}=(1-\omega)^{-1}$ 是固定代数数，故(3)证明某个固定 $D_0$ 使 $D_0M_k L(1,\psi_k\nu)/\Omega_{\mathbf R,k}$ 是代数整数。
+
+置 $H_b^U(S)=U(S)H_b(S)$，其中 $SH_b=\theta_b\operatorname{sym}\mathcal A_b$，沿前节 $H_b^U\in\mathbf Z_p[[S]],\ H_b^U(0)=U(0)u_b$。每个 $x=x_\nu$ 的值在 $\mathbf Q(\xi+\xi^{-1})$、全部共轭非正。由(2),(3)，有一固定正整数 $D$ 使所有 $D H_b^U(x)$ 在 $p$ 以外处都整：$M_k$ 的变部只有 $p$，且 $x$ 和 $|C_j(\xi)|^2$ 的非单位素因子只在 $p$ 上。后者逐因子用非零 $1-\xi^r$ 的 cyclotomic 范数；$x=(\xi-1)^2/\xi$ 同理。因 $H_b^U$ 整幂级数，该值在惟一的 $p$ 位亦整。于是所有 $D H_b^U(x)$ 都是原实旋分域的代数整数。
+
+### 可取实正的固定分母整数检测
+
+保持 $B_i^{\rm re}$、各无序对节点 $x$，记 $\ell_x=-p^i/(x(B_i^{\rm re})'(x))$。每个 $\ell_x$ 亦在 $p$ 外整，因为不同节点之差为 $(\xi-\xi')(1-(\xi\xi')^{-1})$，涉及的二单位根既非相等亦非互逆。故
+$$ D\sum_x\ell_x H_b^U(x)\in\mathbf Z . \tag{4} $$
+有理性及 $p$ 整性来自此前严格整余式；$D$ 可 enlarge 一次覆盖三条模型的固定因子。
+
+全部这些实 cardinal 权都有一致界 $|\ell_x|\le2$。先取 $N=p^{2i-1}$ 的所有非平凡根（包括排除的偶层）并作实配对，其完整多项式为 $\xi^{-(N-1)/2}(\xi^N-1)/(\xi-1)$ 写成 $x$ 的 monic 多项式，常数 $N$。逐根微分得其零点评价 cardinal 权为 $-\xi^{(N-1)/2}(1+\xi)$，实绝对值至多2。恢复仅奇层的原权时，须乘所有被删偶层实旋分值与其在零处值的商；每个值是单位根的 $p$ 项几何和乘单位根，绝对值至多 $p$，常数项等于 $p$。故同一界成立。
+
+第 $j$ 层 $t=2j-1$ 的 $H_b^U(x)$ 全共轭迹落在 $p^{t-1}\mathbf Z_p$。因它在实旋分域的 $p$ 处整，亦在完整局部旋分整数环 $\mathbf Z_p[\xi]$ 中；对每个整数幂 $\xi^m$，全部 primitive 共轭和是 $0,-p^{t-1}$ 或 $\varphi(p^t)$。完整旋分迹等于实迹的两倍，2 为单位。于是把第 $j$ 层每一权改为
+$$ W_{i,x}=\ell_x+3p^{\max(0,i-2j+2)} $$
+得到严格正权，并对全节点精确满足
+$$ V^U_{b,i}:=-\sum_x W_{i,x}H_b^U(x)\in D^{-1}\mathbf Z_{\ge0},\qquad
+  V^U_{b,i}\equiv-U(0)u_b\pmod {p^i}. \tag{5}$$
+合计使用的是完整迹；没有把单列提升到同一精度。所有大于半层的修正已为固定整数3。对每个固定 $p$，两条原非零有界 $\mathcal A_b$ 各最多有限个开盘零，而 $U$ 是单位，其余高导子节点均有非零分子，故充分大 $i$ 两个(5)都是严格正的。$D$ 与 $p,i$ 无关。
+
+对 $(5/p)=-1$、$p\nmid 10D$，于是有普通有理整数
+$$ I_{b,i}=D V^U_{b,i},\qquad
+ N_i=5 I_{65,i}^2-I_{8125,i}^2\in\mathbf Z .$$
+$N_i$ 对所有充分大 $i$ 非零，因为两 $I$ 为严格正整数而 $\sqrt5$ 无理。实际
+$$ \boxed{\quad \exists i:\ v_p(N_i)<2i\quad\Longleftrightarrow\quad
+ [T^2]\mathcal A_{65}\ne0\ \hbox{或}\ [T^2]\mathcal A_{8125}\ne0 .\quad} \tag{6}$$
+在 $\mathbf F_p$ 的5非平方给 $v_p(N_i)=2\min_b v_p(I_{b,i})$（零用无限估值），然后用(5)。严格正以及普通整数化只保证 $N_i\ne0$ 于充分大层，未给 $p^i$ 费用以外的估值。
+
+### 该整数现有的普通绝对值界
+
+可取一个仅依两曲线的常数 $C$ 使 $I_{b,i}\le C p^{10i}$。固定 weight-one Hecke 系列在该中央点的标准 Mellin 完备式，正负两半均绝对受 $\sum_\mathfrak a(N\mathfrak a)^{-1/2}e^{-N\mathfrak a/X}$ 的固定倍数控制，$X\asymp p^{2j}$ 来自单复 Gamma 和 conductor 的平方根（同 R724/R1072 首平均）。$K$ 固定，范数理想计数 $O(x)$，故该和 $O(p^j)$。对原 $\psi_b\nu$、$\psi_1\nu^{-1}$ 均成立；其余导子固定。令 $\xi$ 阶 $p^{2j-1}$。包含全部较低层的几何和绝对值为 $|\xi^{p^{2j-2}}-1|/|\xi-1|\gg1/p$，除以漏掉的 $j-1$ 个奇层因子（各 $\le p$）得到 $|C_j(\xi)|\gg p^{-j}$。因此(2)与逆角色各给 $|U(t_\nu)w_b(\nu)|\ll p^{6j}$。整层 $\sum 1/|x_\nu|\ll p^{4j-2}$，由 $|x|=4\sin^2(\pi a/p^{2j-1})$、用完整整数 $1\le a\le p^{2j-1}/2$ 的平方倒数上界即得。第 $j$ 层权 $\ll p^{\max(0,i-2j+2)}$；把 $p^{10j-2+\max(0,i-2j+2)}$ 加总为 $O(p^{10i})$，常数可与 $i,p$ 无关。由此 $|N_i|\ll p^{20i}$，该全局估计尚未低于(6)的 $p^{2i}$。
+
+原文：[BHKO §4.3, Thm.4.9(b), Rem.4.10(i)](https://arxiv.org/html/2408.13932v3)，[Yang Thm.0.1](https://people.math.wisc.edu/~tonghaiyang/thetashort.pdf)。
