@@ -1,0 +1,257 @@
+{
+  "schema": "visible-flex-actual-r262-work-orders-v1",
+  "orders": [
+    {
+      "id": "R262-recover-actual-low35-cut",
+      "script": "2ecf-r262-three-arcs-shortened-prefix-v2.py",
+      "args": [
+        "--scripts",
+        "{S}",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--work",
+        "{W}/original-r262",
+        "--low",
+        ".35",
+        "--out",
+        "{W}/full-cut/low35.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/low35.json"
+      ],
+      "report": "{W}/full-cut/low35.json",
+      "fields": [
+        "fieldSHA256",
+        "stateSHA256",
+        "finalIndependent"
+      ],
+      "description": "仅恢复已登记 low=.35、lambda=1、c=.78 的真实cut粗态，以便后继用实际数组精化；旧结论不重登记。上次实际状态SHA为538a7ecc1c65ae01d070056eb7b7fdd5b495e1083bce6c038a34bef1ed01d49b；本次若不同则明确新身份。"
+    },
+    {
+      "id": "R262-recover-actual-low35-frozen-h1",
+      "after": [
+        "R262-recover-actual-low35-cut"
+      ],
+      "script": "2ecf-r262-three-arcs-fixed-metric-refinement.py",
+      "args": [
+        "--scripts",
+        "{S}",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--physical-source",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--work",
+        "{W}/original-r262",
+        "--parent",
+        "{W}/full-cut/low35.npz",
+        "--out",
+        "{W}/full-cut/low35-h1.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/low35-h1.json"
+      ],
+      "report": "{W}/full-cut/low35-h1.json",
+      "fields": [
+        "fieldSHA256",
+        "stateSHA256",
+        "independent",
+        "accepted"
+      ],
+      "description": "仅恢复已登记同g实际h1父场，旧观察不当作新成果；上次父场a405277f3c7b1d6ce22c2edc490be177d9f6c3f74d9fba0505bfa5acae30b586。其过渡门仅13共同径行，旧.010603不能当独立全门径向或连续上界。"
+    },
+    {
+      "id": "R262-true-full-gate-frozen-h2",
+      "after": [
+        "R262-recover-actual-low35-frozen-h1"
+      ],
+      "script": "2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+      "sources": [
+        "2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--physical-source",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--work",
+        "{W}/original-r262",
+        "--parent",
+        "{W}/full-cut/low35-h1.npz",
+        "--out",
+        "{W}/full-cut/low35-h2.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/low35-h2.json"
+      ],
+      "report": "{W}/full-cut/low35-h2.json",
+      "fields": [
+        "entrySHA256",
+        "fieldSHA256",
+        "parentSHA256",
+        "stateSHA256",
+        "angularModes",
+        "radialSpans",
+        "actualPositionDOFs",
+        "metricDOFs",
+        "knotTransferMaxActual0th1st2nd",
+        "initialTraining",
+        "initialShifted",
+        "initialGeometry",
+        "training",
+        "independent",
+        "independentGeometry",
+        "accepted"
+      ],
+      "description": "真实同g加密：每个实际物理B样条单元增加独立径行，覆盖完整cut过渡门；旧父场先在该完整新网观察，Boehm准确包含后40→80单元和30→48角频，仅更改空间位置。"
+    },
+    {
+      "id": "R262-actual-cut-h2-complete-shape-observer",
+      "after": [
+        "R262-true-full-gate-frozen-h2"
+      ],
+      "script": "2ecf-three-arcs-actual-high-caps-complete-observer.py",
+      "sources": [
+        "2ecf-three-arcs-actual-high-caps-complete-observer.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--definition",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--state",
+        "{W}/full-cut/low35-h2.npz",
+        "--belt",
+        "{S}/2ecf-threefold-compact-shoulder-arm-belt.py",
+        "--arms",
+        "{S}/2ecf-r299-actual-thick-arms-and-tapered-central-belt-v3.py",
+        "--out",
+        "{W}/full-cut/h2-whole-shape.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/h2-whole-shape.json"
+      ],
+      "report": "{W}/full-cut/h2-whole-shape.json",
+      "fields": [
+        "stateSHA256",
+        "prefix",
+        "prefixGeometry",
+        "actualPrefix",
+        "geometry",
+        "initialDiameter",
+        "finalDiameter",
+        "diameterQuotient",
+        "held",
+        "quotientLowerByDiameter",
+        "scope"
+      ],
+      "description": "本次真实h2整闭空间像观察：完整原前缀/原尾/平盘和真D3两厚臂，检查实际接缝及R312的三个充分形状量；这些有限观察不冒连续厚度或Hausdorff下界。"
+    },
+    {
+      "id": "R262-cut-frozen-true-material-position-extension",
+      "after": [
+        "R262-true-full-gate-frozen-h2"
+      ],
+      "script": "2ecf-r262-cut-frozen-native-and-true-material-position.py",
+      "sources": [
+        "2ecf-r262-cut-frozen-native-and-true-material-position.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--physical-source",
+        "{S}/2ecf-r262-three-arcs-shortened-prefix-v2.py",
+        "--refinement-source",
+        "{S}/2ecf-r262-three-arcs-full-cut-span-frozen-metric-refinement.py",
+        "--comparison",
+        "{S}/2ecf-r262-three-circular-arcs-material-comparison.py",
+        "--native-state",
+        "{W}/full-cut/low35-h2.npz",
+        "--material-modes",
+        "24",
+        "--steps",
+        "3",
+        "--iterations",
+        "105",
+        "--out",
+        "{W}/full-cut/h2-material24.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/h2-material24.json"
+      ],
+      "report": "{W}/full-cut/h2-material24.json",
+      "fields": [
+        "entrySHA256",
+        "nativeStateSHA256",
+        "stateSHA256",
+        "actualMetricVariables",
+        "materialPositionVariables",
+        "materialModes",
+        "radialSpans",
+        "initial",
+        "initialIndependent",
+        "training",
+        "independent",
+        "accepted",
+        "adjointRelativeDifference"
+      ],
+      "description": "保留h2全部native真实XYZ系数、两条整连续g、真中央和原尾；只增加准确U0(theta)材料角下的新位置列，以U'和U''真实链式及实际转置继续求解。"
+    },
+    {
+      "id": "R262-cut-h2-first-full-continuous-geometry",
+      "after": [
+        "R262-true-full-gate-frozen-h2"
+      ],
+      "script": "2ecf-r262-true-three-arcs-cut-or-height-directed-geometry.py",
+      "sources": [
+        "2ecf-r262-true-three-arcs-cut-directed-position-kernel.py",
+        "2ecf-r262-true-three-arcs-cut-or-height-directed-geometry.py"
+      ],
+      "args": [
+        "--scripts",
+        "{S}",
+        "--work",
+        "{W}/original-r262",
+        "--state",
+        "{W}/full-cut/low35-h2.npz",
+        "--start",
+        "0",
+        "--count",
+        "1",
+        "--angles",
+        "96",
+        "--depth",
+        "1",
+        "--out",
+        "{W}/full-cut/h2-first-geometry.json"
+      ],
+      "outputs": [
+        "{W}/full-cut/h2-first-geometry.json"
+      ],
+      "report": "{W}/full-cut/h2-first-geometry.json",
+      "fields": [
+        "completed",
+        "allSelectedPassed",
+        "originalFieldSHA256",
+        "stateSHA256",
+        "selected",
+        "commonRefinedRows",
+        "acceptedBoxes",
+        "unresolvedBoxes",
+        "firstUnresolved",
+        "acceptedDirectedMinima",
+        "limits",
+        "geometryFamily",
+        "seconds"
+      ],
+      "description": "直接消费真实cut后首个原W单元及其全部物理交格，准确原Hermite/原W/新XYZ/真中央/全部六jets进入同一个连续区间核。这是新场局部几何计算；其输出仅覆盖明列区间，不作整闭证书。"
+    }
+  ]
+}

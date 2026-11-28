@@ -27,7 +27,9 @@
 
 [R309](results/R309-threefold-two-true-thick-arms-and-positive-central-support.md)两组真中央含厚臂全相同g/reach≥.115；[R310](results/R310-shortened-0660-threefold-central-belt-and-complete-reach.md)真平修.350、回接至.650、半高.660；[R311](results/R311-compact-0545-threefold-shoulder-belt-and-tangent-ball-sections.md)真平修.235、回接至.535、半高.545，仍保持完整中央法管。R311未装臂support>.222/.239。真臂球均在|z|<.348，外新母面须自身支撑/κ/高度。不能只改c却保旧窗；原平盘高度>1.818，删旧小帽不会省大高度。
 
-**运行中**：公开Actions **46157156458 / job141016224833** 先重生四原R262场；如果实际SHA不同于5778则用新身份，不借原证书。随后scripts/2ecf-r262-new-physical-inputs-prelude.py消费同job字节，每项分别推送：真轴压短.16；两low完整圆弧替换前缀及固定g Boehm；保全旧圈梯形基线；完整高度与两正径g的LP（.78/.66/.545）；固定整个v/g的空间加密；整高帽/原全尾/真臂像和连续几何。之后root eta=1/8192分批FFT三层支继续。S与Sf的ulp差、真实T1、LP有理积分归一须在连续封装支付，不把端点clip当数学定义。
+**实际输入已恢复**：run46157156458已自然完成。新原场e3e6640b2fa93677fc3a00334de300fcf1473a2799f7d4561cbe07e695f25d3a不同于5778，旧全闭证书不转移。cut c=.78/low=.35粗态538a7ecc…实际4步峰.02607782，固定g h1 a405277f…峰.01060335、κ7.55033、support.381938、|X|max1.893607；旧门内13共同径行故不能声称独立全径或连续误差。保全旧圈LP .66/.35峰.048006、κ10.87079，其h1零接受，已记录失败。
+
+**继续执行**：新公开workflow 2ecf-visible-flex-r262-live-refinement.yml按scripts/2ecf-r262-live-work-orders.json重建必要父态后，直接对每物理span/全门独立径网40→80单元、30→48模式同g h2，再增加真U0材料角位置列；实际高帽/原尾/厚臂整像与连续核独立消费新场。worker保持本job临时数组并轮询新科学工单，输出每项独立推；没有数组Git/Release/artifact。S/Sf ulp、真实T1、每个新jet均付。
 
 strong做原高帽整像/真实臂组合；exact做完整原圈的实际大幅输入及真实连续核；m12做紧凑核的新位置和无限反馈尾。R298/R304/R307已完整几何不再重证。
 
@@ -39,7 +41,7 @@ run46158716329全活动段大相位/联合初相g均未达；小相位.000580→
 
 root独占main；exact_analysis_ultra、strong_geometry_ultra、m12_solver_ultra均显式gpt-6.2-astra/ultra。每结论一推，先pull后查根/题README差，至少每小时；NFF立即pull --rebase重推至成功，禁force。根§12不增独审/重跑/冻结/驻值门；§13公开Actions；§15仅源码/参数/run/SHA/小结论，H<10KB、MD<100KB、topic<200MB，不写根LOG。强比例、厚度、同g容差与真精化必须同一对象，held是像Hausdorff，所有分母是整D。
 
-14:34 UTC本执行器失联，后续重试仍unavailable；小文本API与Actions继续。旧根/workspace/scratch/2ecfcd6930d6及partial clones保留，恢复先literal pull并读README差。原2400字节未恢复，60d6d3c/a8069be仅明确来源恢复记录。最新API核至76db027f8b4b3b2df197ff18b1f2ccce2491d50c，根/题README无变化，API不冒literal pull；最新两库真实pull见下行。
+14:34 UTC本执行器失联，后续重试仍unavailable；小文本API与Actions继续。旧根/workspace/scratch/2ecfcd6930d6及partial clones保留，恢复先literal pull并读README差。原2400字节未恢复，60d6d3c/a8069be仅明确来源恢复记录。最新API核至bfc9806ebba64aadbf14fa058afe2088e87c7812，根/题README无变化，API不冒literal pull；最新两库真实pull见下行。
 <!-- 2ecf-rules --> 本机停摆前最后真实pull：2026-11-28 14:30:28 UTC，公开a8bb8583083f13d9aaafb0366447b8e5911acc45，根/题README无差异。
 
 <!-- 2ecf-actions-rules --> Actions run 46157156458/1：真实 pull/rebase 2026-11-28 16:11:47 UTC；公开已读 674f48607404b2bc191ea7b4f5563e1b298190f7，根/课题 README 无变化。 私库真实 pull 2026-11-28 15:58:41 UTC、已读 72044f9298208e6ef6095e69fcf804beb038dfa1，私根无变化。
