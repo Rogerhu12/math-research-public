@@ -32,7 +32,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-target-curvature --> [R267新gap.92](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)：新实际源64格/真Γ95端口metric<5e−10、κ<7.6、含边界reach≥5/38。该图自己的周长/g不得冒原g精化。
 
-<!-- 2ecf-live-g10 --> [R273上弯新喉六次5292位置](notes/2026-11-28-2ecf-raised-tail-new-throat-true-5292-six-steps.md)：G11 .364966/κ18.3019/held .612744，未过。
+<!-- 2ecf-live-g10 --> [R273双端65真径线重建四张完整面](notes/2026-11-28-2ecf-raised-tail-sixty-five-physical-rays-and-whole-surface.md)：一支 G11 κ14.0767、held .5740；另一支κ16.9569、held .6493；metric仍大，继续真位置。
 
 <!-- 2ecf-r265-polar --> [R270完整HF64后缀](results/R270-corrected-physical-HF64-complete-suffix-embedding.md)909312闭盒严格嵌入；[径钟](notes/2026-11-28-2ecf-strong-hf-true-radial-material-clock.md)保图像、G11 .12051。HF64×80保原6615W且准确两端函数，冻结design3 g；强实际XYZ及全核跨片继续。
 
@@ -64,4 +64,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:56:31 UTC；已读公开 main `10eaa2f49912651a0cc3ed7acd213543fbe17b4f`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:56:53 UTC；已读公开 main `666bcb299d6213a449143c9952cb3c4a55148651`，根/课题 README 逐差无变化。
