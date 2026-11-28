@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原最高纯尖点返回的全素数首对数单位（已证明，R1210）**：[R1210](results/R1210-original-pure-cuspidal-return-log-unit.md)原纯尖点首值已为unit：取实际高PS输入T₀=b²r^(n−1)，Ω₀=q(π^(e0−p)Ψ₀)的底是C(T₀)=−3γ²𝒟T₀。same CM period的二阶Lagrange给e_n(𝒟T₀)=−45343/(860160Q0)，45343=166²+3·77²且互素，p≡2mod3迫分子全支非零。故完整V(C(T₀))=γ²2^mν·45343/(35840Q0²)为unit，V|ker𝔠本原；无需𝔠(T*)=0。不是指定简单商C或whole-MW法向单位，继续两deck实际格、Π/Φ/极化和全原CM jets。
+
 - **原全列 RC–CM 消去与完整端点读数（已证明，R1209）**：[R1209](results/R1209-original-complete-RC-CM-contraction-and-endpoint-readout.md)一般S的完整首对数已付：same good target的t=vG/F=cξW^m给全CM混合normal γ_k=mcξ^(3k)e_(k−1)/(3τξd_k)。原RC低阶primitive使全部I(S)=0；Gauss误差严格为3F/(Q0Q)，SS regular收缩与三个CM analytic列逐项抵消，6/t极部和static顶项全保。完整V_m(S)=−8·2^mν e_n(S)/A1，其中E_S=−v²F³S/A1。对实际返回E_DT=−(tT/A)″，故e_n(DT)=−(m+1)(m+2)[t^(m+1)]T/A；原返回还乘−3γ²。不据此跳过指定C/whole MW或两deck整格比较。
 
 - **原 CM 节点边界与完整首对数的准确更正（已证明）**：[R1208](results/R1208-original-CM-node-boundary-and-corrected-highest-kernel-log.md)更正原CM node平凡化：真实e_D/e_I给static σ=(1+A_tail z^(4g))^(−3aξ)，改node frame后tail–node∈1+I而centre–node须保σ。原有限Picard双接口和全normal界排高p分母；顶k=2g的H(Q)=−4·2^m A^L、H(R)=−8c_m A^L，good CM模型独立锁τ_CM^(m−1)A_tail^L=νξ⁻¹，γ_top保A(ξ)²。支持项准确8(2c_m−2^m)ν/binom(m,n)²，加旧SS项后完整V_m(T*)=−8·2^mν/binom(m,n)²为unit。旧R1199§6/1200–01完整V数值已更正，SS求积与独立R1202–07保留。一般V|ker𝔠仍须完整CM analytic项；同源E_DT=r_s(vT/A)″仅简化SS端。
