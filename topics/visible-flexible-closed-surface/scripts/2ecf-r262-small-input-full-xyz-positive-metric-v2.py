@@ -6,7 +6,7 @@ the entire original tail, true cuff and caps retain their own definitions. The
 first stage chooses a positive radial metric. Later spatial enrichments freeze
 that same continuous metric. No historical byte identity is fabricated.
 """
-import argparse, gc, hashlib, importlib.util, json, os, sys, time
+import argparse, gc, hashlib, importlib.util, json, os, subprocess, sys, time
 from pathlib import Path
 from fractions import Fraction
 from types import SimpleNamespace
@@ -80,7 +80,6 @@ class Source:
             j,r=self.joint.background(self.pos.src,self.center.raw,t[begin:begin+16],raw,self.pos.prefix_cache)
             js.append(np.asarray(j[:,:,sl],dtype=float).copy())
             rs.append(np.asarray(r[:,sl],dtype=float).copy())
-            self.pos.prefix_cache.clear()
         J=np.concatenate(js)
         rho=np.concatenate(rs)
         del js,rs
@@ -394,7 +393,7 @@ def main(a):
                  checks=verification,accepted=accepted,lsmr=diagnostics,
                  finalTraining=final_training,finalIndependent=independent,stateSHA256=digest(state))
         history.append(row)
-        summary=dict(eta=a.eta,sourceFieldSHA256=source.source_sha,historicalSourceBytesMatched=source.source_sha==HISTORICAL,
+        summary=dict(eta=a.eta,actualEntrySHA256=digest(__file__),activeEntrySourceCommit=os.environ.get("R262_ENTRY_SOURCE_COMMIT"),sourceFieldSHA256=source.source_sha,historicalSourceBytesMatched=source.source_sha==HISTORICAL,
                      actualStages=[{k:v for k,v in r.items() if k not in ("accepted","lsmr")}|
                                    {"acceptedSteps":len(r["accepted"])} for r in history],
                      originalTailAndCuffSpatiallyUnchanged=True,continuousMetricCertificateObtained=False,
@@ -418,4 +417,15 @@ if __name__=="__main__":
     p.add_argument("--eta",type=float,default=1/8192)
     p.add_argument("--iterations",type=int,default=600)
     p.add_argument("--maximum-seconds",type=float,default=10800)
-    main(p.parse_args())
+    a=p.parse_args()
+    # The existing Actions job already owns the regenerated original data.
+    # New full-amplitude source experiments consume those bytes before this
+    # independent small-input branch, without recreating the old solve.
+    prelude=Path.cwd()/"topics/visible-flexible-closed-surface/scripts/2ecf-r262-new-physical-inputs-prelude.py"
+    if os.environ.get("GITHUB_RUN_ID") and prelude.exists():
+        src_path="topics/visible-flexible-closed-surface/scripts/"+Path(__file__).name
+        identity=subprocess.run(["git","log","-1","--format=%H","--",src_path],capture_output=True,text=True,check=True)
+        os.environ["R262_ENTRY_SOURCE_COMMIT"]=identity.stdout.strip()
+        code=subprocess.run([sys.executable,str(prelude),"--scripts",str(a.scripts),"--work",str(a.work)]).returncode
+        print("FULL_INPUT_PRELUDE_EXIT",code,flush=True)
+    main(a)

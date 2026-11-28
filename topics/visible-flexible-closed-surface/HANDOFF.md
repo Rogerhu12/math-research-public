@@ -50,7 +50,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 **2026-11-28 14:34 UTC 执行环境失联，正在改用公开 Actions 继续计算。** 执行器失联前最近成功推送为 `097816fb574a0b21b6759bedfa60a623b3e34327`；R298 完整厚度证明已推 `26e4818cf52c2a4504a6a91a3c4e8bba6400ead7`。m12 V38/V39 已发布明确标注来源的恢复说明，原2400系数字节尚不可用；R302/R303 完整证明与可重算新版本已通过小文本 API 发布。现用小文本 GitHub API 恢复新版本源码、证明及计算入口，不冒称原字节。三代理仍为 Astra/ultra。R284–R286/R280 等已登记旧方向见 results/open 历史，不重做。
 
-原工作根 `/workspace/scratch/2ecfcd6930d6` 的公开/私有 clone 及四个研究子目录保留。当前：strong 支付宽C3真H65全法管，并作原R262真轴向压短；exact 改为真实D3三弧中央/替换原高度前缀，旧初相多相位未达；m12 继续紧凑p32固定g位置与全核法管。root 新R262输入eta=1/8192已交分批/FFT版，run46157156458的r262任务恢复四原场后继续。原G12全尾不重证。
+原工作根 `/workspace/scratch/2ecfcd6930d6` 的公开/私有 clone 及四个研究子目录保留。当前：strong 支付宽C3真H65全法管，并作原R262真轴向压短；exact 改为真实D3三弧中央/替换原高度前缀，旧初相多相位未达；m12 继续紧凑p32固定g位置与全核法管。run46157156458恢复四原场后先执行new-physical-inputs-prelude：真轴压短.16、lambda=1圆弧low.25/.35与同g18→30/Boehm，再继续root eta=1/8192分批FFT支。原G12全尾不重证。
 
 源恢复按各 note 配方，不算新研究。终端恢复后继续 task_git_sync.py。旧状态见继承 HANDOFF/open 记录；已有文献核对不重做。
 
@@ -58,7 +58,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:30:28 UTC；已读公开 main `a8bb8583083f13d9aaafb0366447b8e5911acc45`，根/课题 README 逐差无变化。
 
-执行器失联后的 API 规则读取：公开 `cdc233b02d97b730e99b4d03601cd3d0d70ac146` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
+执行器失联后的 API 规则读取：公开 `a698e5089bbbc48529eace999430d61907e1ec32` 根/课题README无变化；私库见下Actions真实读取。API 不冒称 literal pull。
 
 <!-- 2ecf-actions-launch --> run46157156458原R262恢复继续；run46158716329完整真实大相位/联合初相试验均未达。新true-geometric-input任务修769模入口整数分块并重新绑定宽C3法管；同时从原中央数据做D3三弧全角比较，随后用原R262真前缀替换中央高度。
 <!-- 2ecf-actions-rules --> Actions run 46160322325/1：真实 pull/rebase 2026-11-28 15:33:00 UTC；公开已读 84e75e64d3f20c230691db17e0330c6b00bab983，根/课题 README 无变化。 私库真实 pull 2026-11-28 15:32:25 UTC、已读 e959619aa3db8ea65ecffb65fa1c828ef6650f3b，私根无变化。

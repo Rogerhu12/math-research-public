@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+"""Consume the already regenerated original R262 data for new full-amplitude inputs.
+This driver keeps every array inside RUNNER_TEMP and publishes each finished
+numerical conclusion separately through the ordinary pull/rebase loop.
+"""
+import argparse, importlib.util, json, os, shutil, sys
+from pathlib import Path
+
+def load(path,name):
+    s=importlib.util.spec_from_file_location(name,path)
+    m=importlib.util.module_from_spec(s)
+    sys.modules[name]=m
+    s.loader.exec_module(m)
+    return m
+
+def scalar_report(q):
+    omitted={"physicalVelocitySpline","recordedMeanSpline","metricDefinition","frozenMetric"}
+    return {k:({"acceptedSteps":len(v)} if k=="accepted" else v)
+            for k,v in q.items() if k not in omitted}
+
+def main():
+    p=argparse.ArgumentParser()
+    p.add_argument("--scripts",type=Path,required=True)
+    p.add_argument("--work",type=Path,required=True)
+    a=p.parse_args()
+    root=Path.cwd()
+    scripts=root/"topics/visible-flexible-closed-surface/scripts"
+    pub=load(scripts/"2ecf-public-actions-research-runner.py","r262_actual_publisher")
+    private=pub.WORK/"private-queue"
+    if private.exists():
+        pub.PRIVATE=private
+    pub.check_rules()
+    pub.SOURCE_HEAD=pub.git("rev-parse","HEAD",capture=True)
+    # This live job has just regenerated the original fields. Copy only the
+    # newly committed mathematical sources; do not regenerate the old solve.
+    names=("2ecf-r262-three-circular-arcs-material-comparison.py",
+           "2ecf-r262-physical-axial-shortening.py",
+           "2ecf-r262-three-arcs-shortened-prefix-v2.py",
+           "2ecf-r262-three-arcs-fixed-metric-refinement.py")
+    for name in names:
+        src=scripts/name
+        if not src.exists():
+            raise FileNotFoundError("Missing published new input "+name)
+        target=a.scripts/name
+        if src.resolve()!=target.resolve():
+            shutil.copy2(src,target)
+    pub.SOURCE=a.scripts.parent
+    out=pub.WORK/"r262-full-inputs"
+    out.mkdir()
+    axial=out/"axial-reduction016.json"
+    code=pub.py("2ecf-r262-physical-axial-shortening.py","--scripts",a.scripts,
+                "--work",a.work,"--reduction",".16","--out",axial,allow_failure=True)
+    if code:
+        pub.publish("R262-physical-axial-shortening-exit","真实原场轴向压短退出 "+str(code)+"；没有借原场的几何证书。",[axial])
+    else:
+        q=pub.obj(axial)
+        pub.publish("R262-actual-physical-axial-shortening","真实空间 z-H(q) 的全六 jet 与新正径向目标，保留原无限尾的完整导数；九个设计及独立物理网均用本次实际原场。这里只登记有限新输入观察。"+
+                    pub.compact(scalar_report(q)),[axial])
+    successful=[]
+    for low in (".25",".35"):
+        target=out/("three-arcs-low"+low[1:]+".json")
+        code=pub.py("2ecf-r262-three-arcs-shortened-prefix-v2.py",
+                    "--scripts",a.scripts,"--comparison",a.scripts/names[0],
+                    "--work",a.work,"--low",low,"--out",target,allow_failure=True)
+        if code:
+            pub.publish("R262-true-full-three-arcs-low"+low[1:]+"-exit",
+                        "真整幅圆弧前缀退出 "+str(code)+"；未登记完整求解结果。",[target,target.with_suffix(".npz")])
+            continue
+        q=pub.obj(target)
+        pub.publish("R262-true-full-three-arcs-low"+low[1:],
+                    "中央完整三重真圆弧及两个真正刚口取 lambda=1，使用原已有高度替换首段，随后接回原实际无限尾。正目标在本次设计后固定；原 H65 或旧 R262 几何不转移到新位置。"+
+                    pub.compact(scalar_report(q)),[target,target.with_suffix(".npz")])
+        successful.append((float(q["finalIndependent"]["peak"]),target))
+    if successful:
+        _,parent=min(successful)
+        target=out/(parent.stem+"-fixed-h1.json")
+        code=pub.py("2ecf-r262-three-arcs-fixed-metric-refinement.py",
+                    "--scripts",a.scripts,"--comparison",a.scripts/names[0],
+                    "--physical-source",a.scripts/"2ecf-r262-three-arcs-shortened-prefix-v2.py",
+                    "--work",a.work,"--parent",parent.with_suffix(".npz"),"--out",target,allow_failure=True)
+        if code:
+            pub.publish("R262-true-three-arcs-frozen-refinement-exit",
+                        "新真圆弧输入固定连续两径向因子的实际加密退出 "+str(code)+"。",[parent,target])
+        else:
+            q=pub.obj(target)
+            pub.publish("R262-true-three-arcs-frozen-physical-refinement",
+                        "选择两次已公布完整设计中独立谱峰较小者，保留两条整连续正目标；对每个真实物理单元插入中点，角模式18到30，实际Boehm包含后只更新空间。"+
+                        pub.compact(scalar_report(q)),[parent,parent.with_suffix(".npz"),target,target.with_suffix(".npz")])
+
+if __name__=="__main__":
+    main()
