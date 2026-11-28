@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R150：F99 首次整个常数域 u-gcd 的真实截止与冻结](notes/2026-11-28-unit211-h-equals-k-F99-first-u-gcd-time-boundary-8542.md)：180.077303773秒118780KiB/−14；仅原P单式三次规范化完成，联合P/M gcd与后继均未返，整个F99/F300保。
+
 - [R150：正确 Phi 的两六次首项及 434 个共同权支持](results/R150-appendix-unit211-Phi-zero-corrected-two-sextic-heads-434-common-weights.md)：实际2.242327711秒/0，两整QQ残余互素；用独立全图u单位去除u后，H31/H14给≤434权长度。所有特殊权原纤维保留，界外固定权长度≤18。
 
 - [R267：固定共同分子、实际分母与奇倍率切口收缩](results/R267-appendix-fixed-numerator-actual-denominators-and-odd-cut-contractions.md)：YN QN=Pt、DN QN²=C⁻¹P2t；奇倍率有收缩比值及强*误差。若实际QN有强子列极限即构原闭稳定根，原even费用与强紧性仍开。
