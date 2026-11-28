@@ -33,13 +33,13 @@
 
 [实际新模型及消费者](notes/2026-11-28-r618-hard-total-trace-actual-model.md)已实现：首同P用原接受态六jets直接评价；完整1449列及外部P方向同根链；禁用1449零向量的旧tau0捷径；真尾以A=B=0支持恒等式消费原producer并保原误差。自然终态入口只取run46117718197的actual_response，不取pending。源码尚未实算，无新请求；先依据真实终态attainer和余量选下一范围。
 
-## O2b-C：B030真实6482，恢复后继续metric
+## O2b-C：B030真实55be与尚可接受的1906剩余定位
 
-[d59fa→6482自然终态](notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md)：run **46119106791** / job140899461067/source41cf3c8f，07:39:35 UTC完成；新增2370.041308173秒，4metric+1restore接受。真实q **6482fbfda68f034db9b23bbb47a3e0103f24368cece129059c21e7b2d5bde375**，已合格1724×3072 η **.195138934664774**、准确g=0，metric/trust.45050811767578125。
+[完整自然终态](notes/2026-11-28-r566-6482-to-55be-natural-terminal.md)：run46123017949/job140911408687/sourcefe5224fb，08:30:26完成，新增2370.609989817秒、4metric+1restore。真实q55be941cbf3ff39b259713a5ecf264bddbc7ce934b2e7ac7436713d58396df63，1786×3072及2719已定位峰合格η.1932424342521748/g准确0；当前904coarse/1810fine、2020物理峰/601working，旧1786资格不转1810。
 
-当前870coarse/1742required fine/1943physical/695work，pending0；1724资格不转给1742。末369e完整876定位后η.19780607039034218更差已拒，无待补队列。旧309b8的8635仍未执行、0重放，完整旧来源/费用保留。
+末半步43015466eb4f1818628178bf8f900cba2304fcd74753bab5759f214ff188dd23已付原coarse/1810fine/nested，η.19294084341286163/g0，physical/working0；2810原定位已闭904、剩1906。已闭部分不足拒绝，必须接完真实剩余队列，不能预先拒绝/接受或重做旧fine与904前缀。
 
-15完整J/1112方向块含末未完20块，16backend但15native；末outer15构J时达科学边界，无自然return，不缩trust。真实82维H/3403LDL/metric505f签名及22pending乘子全保。[实际6482后继](notes/2026-11-28-r566-6482-metric-resume-scope.md)本次push触发，当前完整值库已付但J矩阵未存，必要重建与旧20块分记；完整原接受门不变。仍为变量g静态设计，未达宏观闭族。
+先保2physical/8working pending、metric/trust.45050811767578125及真实82维H/3403LDL/23乘子，完成原资格后才结算原callback/trust、交换pending并续正常outer。15完整J/1290方向块、旧6482未完20块、所有祖先费用保留；旧309b8已闭4465/未执行8635继续0重放。仍为变量g静态设计，未得宏观同g族。
 
 ## O4：真实Hermite终态及下一自适应物理包围
 

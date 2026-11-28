@@ -338,3 +338,7 @@
 ### 2026-11-28 08:43 UTC — R641真实三端图直接求完整余端/ruling
 
 全文读两源码及scope，核查原projection/十末/物理读出对一条余端和新L(q)的接口；36绑定与全部workflow路径一致。新增题外.github/workflows/visible-r641-actual-three-end-original-bvp-20261128.yml启动公开完整求解，旧活动R632/R636不改不重放，根和多项式未闭保pending。
+
+### 2026-11-28 08:47 UTC — B030实际55be与1906真实剩余队列
+
+审读完整自然终态，4metric/1恢复及真实源费用照记。最后半步没有充分拒绝证据，保留其已付coarse/fine/nested和904前缀，下一输入只续1906；实际trust后决策未发生，2/8 pending与H/乘子照实保留，旧8635不重放。登记即推，不停在终态报告。

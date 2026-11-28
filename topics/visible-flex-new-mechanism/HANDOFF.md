@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **4ec27d84a75d93b680be7c74f13270e5980d6f14**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **78010fa1368c31e733d2f8cdacfc53537de2c225**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -29,13 +29,11 @@
 
 R617只排固定有限pre/post精确非圆根。τ1的amp非宏观幅度。[硬trace及模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)和[连续Pμ](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)保原列/从属核心迹；同E可达性欠，.85/R579仅条件预算。
 
-## C：B030真实6482继续metric
+## C：B030真实55be／必须续完1906候选
 
-[d59fa→6482自然终态](notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md)：run46119106791/job140899461067/source41cf3c8f，07:39:35完成；2370.041308173秒，4metric+1restore。真实q6482fbfd…，1724×3072已合格η.195138934664774、准确g0，metric/trust.45050811767578125。
+[6482→55be自然终态](notes/2026-11-28-r566-6482-to-55be-natural-terminal.md)run46123017949/job140911408687/sourcefe5224fb于08:30:26结束，新增2370.609989817秒、4metric+1restore。真q55be941c…，1786×3072及2719峰合格η.1932424342521748/g准确0；当前904coarse/1810fine，不能转资格，metric/trust.45050811767578125。
 
-当前870coarse/1742required fine/1943physical/695work、pending0；1724资格不转1742。末369e完整定位后更差已拒；旧309b8的8635未执行、0重放。末20块未完、16backend但15native，无自然return不缩trust。真实H/metric505f签名/22乘子及全部费用全保。
-
-[6482实际后继](notes/2026-11-28-r566-6482-metric-resume-scope.md)run **46123017949** / sourcefe5224fb，07:50:16启动；完整值库已付但J未存，必要重建与旧20块分记，所有原接受门不改。仍为变量g静态设计。
+末半步43015466…的coarse/1810fine/nested已付，η.19294084341286163/g0，有改善可能；2810定位已闭904、剩1906，尚无充分拒绝证据，必须只续真实剩余队列。2physical/8working pending暂不应用，完成原资格后才作接受/trust决策；82维H/3403LDL、23乘子、metric505f语义和全部费用保留。旧309b8的8635未执行、0重放；旧6482未完20J块仍留账。实际后继正在发布，仍为变量g静态设计。
 
 ## D：真全历史原BVP，已定位粗凸包墙
 
