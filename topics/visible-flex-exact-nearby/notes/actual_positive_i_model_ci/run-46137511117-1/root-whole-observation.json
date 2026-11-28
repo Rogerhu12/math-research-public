@@ -1,0 +1,71 @@
+{
+  "actual_jobs": [
+    {
+      "completed_at": "2026-11-28T10:56:48Z",
+      "conclusion": "success",
+      "head_sha": "740865deb9a3e1e1b18f0a9fd3fede4510fb01b7",
+      "id": 140956011025,
+      "name": "consume-saved-original-1502-candidates",
+      "started_at": "2026-11-28T10:56:34Z",
+      "status": "completed"
+    }
+  ],
+  "actual_run": {
+    "conclusion": "success",
+    "head_sha": "740865deb9a3e1e1b18f0a9fd3fede4510fb01b7",
+    "id": 46137511117,
+    "run_attempt": 1,
+    "run_started_at": "2026-11-28T10:56:32Z",
+    "status": "completed",
+    "updated_at": "2026-11-28T10:56:49Z"
+  },
+  "complete_current_input_readback": [
+    {
+      "bytes": 2649,
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json",
+      "role": "rules",
+      "sha256": "32fa03fbdb357d7d5a98b7115a24acc10f218705a1ecdef2e756ff73284098ce"
+    },
+    {
+      "bytes": 6419,
+      "path": "topics/visible-flex-exact-nearby/notes/first_symbol_quadratic_gap_ci/run-43598755503-1/consumers/process.json",
+      "role": "process",
+      "sha256": "afa699e3e86fc1d6678c35606b116dd8074a6ce7adfca246d8804532e32e0f0b"
+    },
+    {
+      "bytes": 1990,
+      "path": "topics/visible-flex-exact-nearby/notes/first_symbol_quadratic_gap_ci/run-43598755503-1/publication.json",
+      "role": "publication",
+      "sha256": "497e1bd37fa9f7fada95c9802a6538ff3bfcbc68537b44a51d57a8b10b3b16b7"
+    },
+    {
+      "bytes": 16375,
+      "path": "topics/visible-flex-exact-nearby/notes/finite_Cayley_scalar_gap_ci/run-43757868884-1/actual-scientific-conclusion.json",
+      "role": "CYA",
+      "sha256": "1f08e281eeff6bd09b0118f71adf17b1e5842ffc1cb71ebc9c8c78e5582bd20d"
+    },
+    {
+      "bytes": 11170,
+      "path": "topics/visible-flex-exact-nearby/notes/finite_Cayley_scalar_gap_ci/run-43757868884-1/execution.json",
+      "role": "CYA_execution",
+      "sha256": "3f3947926f2f7ded20d1333fde2d9d197c02f996cd1f9bbf224a73d764e08a71"
+    }
+  ],
+  "jobs": {
+    "bytes": 1888,
+    "sha256": "ebe83dca74696a0c0bbab6a0c5e94f3acb5ef7638f5dd25597bb39b2a449de75"
+  },
+  "log_zip_bytes": 63672,
+  "log_zip_sha256": "ad3331cd30fbf011931c81a60631ab394c6cb9bf4a1c1784ed49a0081219d4c3",
+  "new_native_rematerialization": false,
+  "old_scientific_targets_recomputed": 0,
+  "original_job_log_bytes": 201259,
+  "original_job_log_name": "0_consume-saved-original-1502-candidates.txt",
+  "original_job_log_sha256": "640d6f2aeff33af68cd9db4315a78683a722d2fef1492fdfeae0656253e4bfaa",
+  "run": {
+    "bytes": 13346,
+    "sha256": "20972e167ca853e992f2b94c1facc7fd54e269f5c89034cfacb5035ec35735dc"
+  },
+  "whole_small_conclusion_bytes": 3803,
+  "whole_small_conclusion_sha256": "55ba27cc4cce57e8aff3853d7351166255ac3f7d0da6e412a7345229df4919ac"
+}

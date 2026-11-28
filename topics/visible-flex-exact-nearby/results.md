@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ16：实际零例外与整个普通高频的单一物理门](results/R149-supplement-actual-all-frequency-primitive-and-single-physical-gate.md)：实际46137511117/1 success，完整原1502候选/五有限窗/所有未列整数与无限同余尾，额外例外为空。全g1≤157286400/123298349<1.28；整普通n≥97坐标误差<.441、物理右因子<.1，故实际coupled Cphys(97)≤5.5足以全部逆，≤5时逆<1000/59。此物理门及原96+物理边界尚须完成。
+
 - [ASQ15：原普通补空间的两个完整频率窗联合逆](results/R149-supplement-entire-ordinary-waist-complement-from-two-actual-frequency-windows.md)：全M=97..2^20和H>2^20的四个真误差块由[[.44+.1c,.71+9c],[.00004+.1h,.02+9h]]支配。真实同WPL输出c≤3,h≤1/32或c≤4,h≤1/64均足以逆整个ordinary补；完整low96、物理root96、两mean/phase/height同一重构，物理c,h仍未支付。
 
 - [ASQ13：真逆密度的相反符号输入估计](results/R149-supplement-opposite-density-inverse-on-original-high-frequency-inputs.md)：从S^{-1}=C′+D′的实际同号/异号块恒等式，得到D C^{-1}=−(C′)^{-1}D′及不交换P97的完整输入估计12d_E+.00132g1；原真复逆strip、全无限输入density极限及H^{-4/3}右因子均保。
