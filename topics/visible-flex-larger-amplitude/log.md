@@ -454,3 +454,7 @@ exit0/17453.083330151s，report63722853B/ed1ea5db、command50552B/fe75eb24，仅
 ## 2026-11-28 03:51:20 UTC — 27完整R725五分之八参数发表
 
 5全件228626B：binding37316/d66e3ed8、science73010/26c61186、pure58998/66fc1686、完整再生27768/fd81110d、总表31534/d891ff62。137pair/22runtime原字共享26，唯一数值args113的b1/2→5/8；δ1/32、源ε1/8、两μ.01、157/7、458/445、64live与全部原预算/变量保，5原CLI及13原external加实际26第14责任。整step反向namespace/scope/该数值可还原完整父，未执行Node/AST/科学或新门。central各S/8、合S/4，B/mean/λ/model/calibration均须新算；不沿用26场或费。声明e1d3与父note4f80当时未知actual子source分开，最新26实际12b76b8事实保其后note，不回填历史。完整启动接续。双README云核至`b9275d6373a1caa703a5eb77356f3e9662515463`无变（非pull）。
+
+## 2026-11-28 03:55:24 UTC — 27完整R725五分之八独立启动
+
+6全件158381B：controller19995/0c54bbe4只换26四槽label；workflow2216/aca6ac9b五literal组，原350min/依赖pins/partial clone/真pull规则保。request37563/dfe2e121保53当前key+51全父key与14外部责任，sciencefamily137pair/22runtime不改。queue74597/9f9def58整6/26/157词，reference仅id26→27；science+pure119013/all4 127134超95000，整pure52646在真正science自然返后接。唯一科学数值b1/2→5/8，源ε1/8/δ1/32/两μ.01及原预算保。最新19自然report和26实际child原note单列，不跨runner迁移。官方actualrun/job/model/point尚未知。H完整旧措辞保29b62396acbffeee96e514be5a342fbc434b93f4；open§1–6原字不动。双README云核至`845b8153d56c344e848a60160683e09bd5194765`无变（非pull），未加AST/fixture/新门。
