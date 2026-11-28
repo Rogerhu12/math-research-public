@@ -4,7 +4,7 @@ const u=new Function("return ("+load("isp_root_unwrap_helper")+")")();
 const repo="Rogerhu12/math-research-public", root="topics/invariant-subspace-problem/";
 const byte=s=>unescape(encodeURIComponent(s)).length;
 const paths={H:"HANDOFF.md",O:"open.md",I:"results.md",L:"log.md"};
-const rulesExpected={"README.md":"282e86b03385d3b6245ce7100ae2e2af7b103c2d",[root+"README.md"]:"5fbd905291dd044c88d35bd9c07ac0e586ff795a"};
+const rulesExpected={"README.md":"99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",[root+"README.md"]:"5fbd905291dd044c88d35bd9c07ac0e586ff795a"};
 const headRef=u(await tools.mcp__codex_apps__github_fetch({url:"https://api.github.com/repos/"+repo+"/git/ref/heads/main"}));
 const head=headRef.object.sha;
 const required=[...Object.keys(rulesExpected),...Object.values(paths).map(p=>root+p)];
@@ -72,3 +72,4 @@ store("isp_current_prepared_H",H);store("isp_current_prepared_O",O);
 text({preparedBranch:spec.branchName,sourceCommit:commit.sha,parentCommit:head,time:utc,name:spec.message,actualMainPushPending:true,mainRefUntouchedByAPI:true});
 
 })();
+
