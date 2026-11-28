@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150 unit211：全W/γ原native NS/PS二次拉回与精确五行](results/R150-appendix-unit211-W-gamma-native-five-quadratic-original-two-constants.md)：六原均值规则只作必要定义，NS/PS各以原来源系数1拉回；五行均f二次/s四次，双向I6。两新必要核deg(e,k,s)=(45,49,6)，所有乘子共同因子零面保。93cb首次16.373311528秒/106000KiB/0；未排空W。
+
 - [R12：无界Julia角四个真实高位来源与双端缺陷谱](results/R12-appendix-unbounded-julia-angles-four-corner-sources-and-two-endpoint-defects.md)：任意非平凡普通P的四个(P,Π)角均有真子空间单位弱零列；若实际Julia像是闭稠密ΓZ，则Z/Z*有小像与大值原域列，两个缺陷算子ess含0/1。图域不紧；闭值域排除须有限核。未构造闭根或完成ISP。
 
 - [整个当前W/γ的精确九原二次与三参数约束](results/R150-appendix-unit211-W-entire-gamma-nine-quadratic-original-scalars.md)：同点Loww完整基变换，全三个头Bézout1胶合，九行精确I6等价；13.926455秒/0，三固定原cofactor全返回，剥已付后次数(23,22,5)/(39,34,10)/(44,39,10)。仅三个必要式，未称空或有限；旧十×二尾仍冻。
