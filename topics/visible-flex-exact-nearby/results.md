@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGCS：全2048中心与全2048闭角格的真实截面成功](results/R149-supplement-actual-whole-signed-cut-seed.md)：run46132087372/1实际成功；76whole/2606796B、70 stages、5源码绑定全部核。完整704512复矩形的private11131542B/9af56c23…已全读回，22字段含两phase9/p8/四ratio6；whole receipt19866B/201c8215…保，旧science0。整截面T<0、omega/p/v0>0，全域与高响应仍未授。
+
 - [GSR：全部577行signed Newton与ν源及全格响应](results/R149-supplement-selected-signed-Newton-nu-and-whole-cell-Grassmann-response.md)：同δ*完整三次残差和参数导数先保577含mean行，原base乘α一次、两个连续修补、全部原行保。两列真实BVP右97只一次Θ还原，全部格Peano16有向signed包含到cut.9与整个[.85,.95] ordinary P低/shell，source_roles=()不重四旧norm。原family/high/边界和负窗仍须完成。
 
 - [GTP：实际GG四源到原完整物理七端口](results/R149-supplement-Grassmann-source-maps-to-original-seven-ports.md)：同算子/physical S/97Θ/mean/四whole maps到原58→224→32的完整转接已证，真实κB及边界二块门各须执行；新kind/全actual/execution/97current/21history与九源严格准入。原TF失败不改标；实际GG成功前ready=false，PN56/CXN6仍须全部实际输入。

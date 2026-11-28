@@ -332,3 +332,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 10:04:51 UTC / visible-exact-astra-b0d5a16-20261128：GG46132350868/1实际worker在原旧规则回执的readme hash处终止，科学尚未开始，无新目标或carrier。完整原log zip70614B/7482d2e6558a4dd661fa1b4ca4c83817a9ee194e44ba6d6c72093f2ad72e8148。根#16已真实读并全部gpt-6.2-astra/ultra落实，故给既有worker换本次明确已读policy整回执，不改原97科学输入的旧rules史料或任何数学门；新README仍须报告执行。generator原完整encode重新生成whole manifest 71851B/4f9f284a5d60bca7ec051024db6ac2c55f29635680b6daaae4033bcd87118e67、workflow包含新policy整件；97current/21history仍保。
+
+
+2026-11-28 10:16:02 UTC / visible-exact-astra-b0d5a16-20261128：AGCS。run46132087372/1实际成功；76whole/2606796B、70 stages、5源码绑定全部核。完整704512复矩形的private11131542B/9af56c23…已全读回，22字段含两phase9/p8/四ratio6；whole receipt19866B/201c8215…保，旧science0。整截面T<0、omega/p/v0>0，全域与高响应仍未授。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actual-whole-signed-cut-seed.md","bytes":3637,"sha256":"ed1ccb4be58a63527792cd77eec693ca02041d2f8333b6fab48c1732139e56cf"}]。
