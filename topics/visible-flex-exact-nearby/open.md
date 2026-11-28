@@ -145,32 +145,16 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前实际执行及直接后继
 
-本节压缩前全部逐结论记录、原球、false/unknown及未付条件永久保留于 [本次完整原页](https://github.com/Rogerhu12/math-research-public/blob/cacf098fa8f5ae74dec1cbe6754772ffd47fdc35/topics/visible-flex-exact-nearby/open.md)。第1–7节逐字不变；全部独立proof见results，成功旧目标禁重。以下只更新实际状态。
+本节此前逐结论全文、所有原球/false/unknown及未付条件完整保留于 [本次完整原页](https://github.com/Rogerhu12/math-research-public/blob/da30e3a4d5837fbff75064faf09f56655819161b/topics/visible-flex-exact-nearby/open.md) 及其递归历史。第1–7节逐字未动，所有独立proof仍在results；索引压缩不撤义务，完成旧目标禁重。
 
-- TC46117170011/1于11:16:03 UTC因新规则门真实终止，父child−9，三个子退出码未观察；全3612/7724 accepted并集、四原终态及唯一matrix/waist目标保留。TCF46140528952/1首次补4112缺格，18互斥assignment/最多6并行，11:44实际6job运行、1failure、11queued。004因原SkylakeX门科学0失败，原CPU/wholeSHA门不绕；全18终态后才聚合，全7724及原96列/五窗完整后接SC。
-- H96R46135898111/1只续原已成728格外的[728,2847)，11:35仍运行。全部7目标成功后才接PWA-after728七目标；其原真实validator桥正在补齐。CFC仍须SC3/H96R7/PWA7和已实际成功DCP18全件，不提前领数值。
-- GG46135063788/1原193/97+96/两mean/1424节点及四source covariance仍实际运行；保81三wholeSHA，只算新1343格。真2/2成功后接GBC全193边界、SAR两signed particular、NPG完整low/high/physical门及58/224/32→PN56/CXN6。原TF/RCS科学失败和硬件失败均保，不当成功parent。
-- WSS46136409179/1全7728格/61chunk/两目标成功，577×2 signed源、原means与三个全窗保；145219356B私件仅必要同whole index恢复。DCP46124617641/1全18成功、322whole核过；两种96中心和两mean始终保留。
-- GPR46135620219/1全3026格及四门实际通过，误差相对同一连续比较。GRQ-R46139062783/1完整GCS/GPR日志元数据修复后首次运行，11:35仍in_progress；全标签/物理源/6角导/四反射保。旧载体只必要wholeSHA恢复；原46138256969科学0失败保。
-- GSF46138804158/1真67支持格成功，源后J普通dr强窗<.001350995；GSW接到同一物理腰/common输入<.349、整ordinary高行该加项<.029。其它首幅/势须同ω,T、两行和根/末态有符号合成；GFW保B/B′/B″真尾和每个原子，尚未给全强返回。
-- ASQ11R46137511117/1实际额外例外为空；原ordinary补自97起，但同一coupled物理C97≤5.5仍待。ASQ18已付全Theta差<.26、finite96差<.025、真有限坐标逆<2.694；ASQ18R46141084735/1两原physical signed96实际成功，完整新球见本页追加应用，不代原物理PDE逆。
-- SPN/WHN给真无穷A3扰动ρ≤1e−7的高图、head→root/collar/body<11.9B、raw high<30B；全负窗≤25.95b+2780B+131a+1.36FB+Eports+1.774e−5+5530ρ。b/B/a、高度、mean、stable根及原每种跳必须来自同一实际匹配解。ASQ19只付明确强邻域的真几何/移动实模型jets，原完整D²tame与可求和增广迭代仍须闭合。
+- TC46117170011/1实际11:16:03终止，父child−9，三子退出码未观察；3612/7724全并集与四完整终态保。TCF46140528952/1仅补4112真缺格：11:59 assignment5 success、4原CPU门science0 failure、6job进行/10queued。须全18终态后聚合，只补实际剩余；原96列/5窗/4whole载体全保。
+- GG46135063788/1实际11:46:57 failure。原81 restored，新left81格接受，第82格strict centred denominator失败，right/source/2whole目标0。全89原packet与81graph journal和真actual61622B/183e1b22…、final execution68240B/f3de409e…保；新有向矩阵半径修复推进，不把失败当原PDE奇异。GSA保全部193/97+96与两mean，待真实GG全成。
+- H96R46135898111/1实际仍运行，只续原[728,2847)，原123whole/51history及7完整目标保；全成后PWA96原7目标消费，再合SC3/DCP18原18与CFC10。ASQ20真有限XD恢复/原H96validator桥已推，不改变原source/means/phase/cross。
+- GRQ46139062783/1实际11:41:57 success，3056闭子格覆盖原3026，128固定label与physical bins、4真实branches、0旧targets。全small2537B/ea20996a…及176771817B私gzip/219304395B raw的完整SHA保；全部signed幅原样传入后继，不解释上包为真实点值或已付高逆。
+- WSS46136409179/1实际两whole source成功，原7728格/61chunks/577×2与两means保。SAR/GBC/NPG接同GG和全部自由边界，WHN保完整负窗；FHC选定height回边须真单位方向逆和t<1，global root/Robin/phase/world仍待。
+- ASQ18R46141084735/1实际两组全96 signed列成功，BFP/DCP误差分别<.000876262/.000935663且独立means另保；ASQ21给原规范phase fibre全纯与全mixed jets。ASQ16 all-frequency已实际无新exception，整个ordinary高逆仍要真coupled Cphys门；GSW只付同一源，不能重复GSF交叠。
 
-继续实际支付第1–7节的全physical finite/cross/无限高行、ν/两mean/phase/height/normalizer/Robin Schur；同态H1/true residual0/full C0及γ A0/H8193；全负窗普通L²≤.005；core/cap/同world/腰/第四Robin/period/span/holonomy；最后一次冻结ν*/Γ*/η/metric并验整个精确族。子问题成功不是停点。
-
-公开根#16和私库#15已读，三个代理均显式gpt-6.2-astra/ultra。每pull立即读两README差异并在H记commit、至少每小时；每结论单推，NFF立即rebase重推。最新具体whole身份与实际状态见H和各proof。
+其余全部开放义务见第1–7节及HANDOFF。原ν、两mean、phase、height、normalizer、Robin、同world frame、完整有限/无限Schur、非线性增广可和迭代、原两regular cap与最终一次冻结皆须实际完成。
 
 
-AASQ18R：实际46141084735/1 success；全原BFP、DCP两不同96中心及两独立mean不变，联合误差分别<.000876262、.000935663。15whole/五组完整receipts与两整日志副本根核，oldscience/arrays0；完整物理Schur与qν实际根值未成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-ASQ20：同原UACT两个73728B whole dyadic方阵，实际CFC全96×96中心D以完整整数乘法形成XD；真半径≤2.694e+.17min(HS,Schur)。原10目标、所有phase/mean/cross保，SC/H96R/PWA未全前不运行。另接真实H96R原validator和PWA原自然校验桥，规则16独立审读凭据不放松。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-NPG：真实无穷p的low变化≤112000ρ、high→low raw≤8500ρ/rough≤8.8e6ρ；原全193/独立97+96、两mean、所有源跳保。GG真图后独立验body、两个完整physical门并送同源signed解至WHN负窗；70000三角迹费含真Qδ+p。实际GG和global matched输入尚待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-FHC：全物理cut DC≤.11，所有高even迹≤3.6 Sbody；已知真选定基点SCAP两入域实际支付。WHN的height项可由1.360002Fext+2^-31223182完整独立变量和代替；必须另算同全正逆的单位height行及t<1，保显式cut变分、Z、共同world/两means。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
-
-
-ASQ21：原Z<2^-33000复输入，以固定真实R的非均值cohomology和真实〈B〉解每步，完整E′u作二次误差付；原tube与有向dyadic递推可求和。规范g、逆H、a=2H(0)和k真全纯，真实实解由固定旋转比较唯一识别；所有混合jet有(2m/Rz)^m界。独立ξ强径向窗及regular PDE/边界仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+GLC：原11完整Nraw与同真实相位/势先合成全部G.7，再对两原参考列及两符号整Fourier接收；有限97..2^20全输出/均值和无穷幅另行保留。首发22pins/5AST通过，四闭径向格×完整角轮廓；原GSF交叠只计一次，全部非局部/端点/正侧与无穷剖面仍待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

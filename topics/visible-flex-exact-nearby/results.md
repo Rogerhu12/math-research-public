@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GLC：原根窗完整三项有符号源与共初值Green矩阵](results/R149-supplement-signed-genuine-local-collar-operator-and-anchored-reference-Green-matrix.md)：原11完整Nraw与同真实相位/势先合成全部G.7，再对两原参考列及两符号整Fourier接收；有限97..2^20全输出/均值和无穷幅另行保留。首发22pins/5AST通过，四闭径向格×完整角轮廓；原GSF交叠只计一次，全部非局部/端点/正侧与无穷剖面仍待。
+
 - [ASQ21：规范真物理phase fibre的全纯族与全阶jets](results/R149-supplement-holomorphic-normalized-physical-phase-fibre-and-all-order-jets.md)：原Z<2^-33000复输入，以固定真实R的非均值cohomology和真实〈B〉解每步，完整E′u作二次误差付；原tube与有向dyadic递推可求和。规范g、逆H、a=2H(0)和k真全纯，真实实解由固定旋转比较唯一识别；所有混合jet有(2m/Rz)^m界。独立ξ强径向窗及regular PDE/边界仍待。
 
 - [FHC：真实cut与选定远端高度的完整物理反馈](results/R149-supplement-selected-far-height-feedback-through-the-true-physical-cut.md)：全物理cut DC≤.11，所有高even迹≤3.6 Sbody；已知真选定基点SCAP两入域实际支付。WHN的height项可由1.360002Fext+2^-31223182完整独立变量和代替；必须另算同全正逆的单位height行及t<1，保显式cut变分、Z、共同world/两means。
