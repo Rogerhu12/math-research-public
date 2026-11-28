@@ -1512,3 +1512,115 @@ $g$固定非分歧系数，更高项和原$p$整误差不改变该首阶。
 不能先将带分母的个别项取模$p$。
 它们来自同一固定有理除子的原完整源，尚未证明与AQ全部曲率相同，
 也没有由这些必要零本身宣称跨$p$非零。
+
+## 110. 原第二分离槽在固定通用向量扩张上的单一除幂迹
+
+**已证明。** 沿§106的全惰性范围记$q=p^2$、$c=c_p$、$P_t=-T_t$、$X_t=X(P_t)$、$w_t=\overline{\varepsilon(t)}$；始终对原完整标记$t\in(\mathcal O/f)^\times$求和。形式函数$H_0$指§90的BF2，以下向量场另记$\mathcal H$。
+
+在$E_1:y^2=x^3+1$的通用向量扩张$E_1^\natural$上采用第二类坐标$Z$。稠密开集上的群律为
+$$
+ Z(P+Q)=Z(P)+Z(Q)+m(P,Q),\qquad
+ m(P,Q)=\frac{y(P)-y(Q)}{x(P)-x(Q)}.
+$$
+在$O$上方取图$V=Z+y/x$，恒等点$e$由$V=0$给出。特征零水平流在基曲线不变对数$z$中满足$Z=\zeta(z)$。令
+$$
+ \mathcal H=D-xJ,\qquad J=\partial_Z.
+$$
+它们是交换的平移不变向量场；在$O$图$\mathcal H(V)=-2/x^2$正则。原挠点的唯一同阶抬升$\widetilde P_t$坐标为$(P_t,X_t)$：完成$\zeta$的加法保上述群律，而$[103]P_t=P_t$，故$X_t=K_{103}(P_t)/(1-103)$，与原代数归一相同。先在包含全部标记的好整模型工作，再以完整和下降。
+
+任选整数$\widetilde c\equiv c\bmod p$，定义
+$$
+ \Xi=\frac{\mathcal H^p+\widetilde cJ}{p},\qquad
+ \Theta=\Xi\mathcal H^{p-1},\qquad F_2=Z^2-x.
+$$
+$\mathcal H^n$指迭代作用。超奇异时$D^p=0$；又$D^{p-1}x=c$，故整个特殊纤维上$\mathcal H^p=-cJ$。因此$\Xi$保持每个好整开集上的整函数，能约化，且与$\mathcal H,J$及固定挠平移交换。完整原槽满足
+$$
+ \boxed{\quad
+ (B'_2)^p=-\frac1{2c}
+     \sum_t w_t\,\Theta(F_2)(-\widetilde P_t).
+ \quad}                                                     \tag{BZ1}
+$$
+这里$B'_2=[s^{2(q-1)}]\nu/ds$；所有评价处均避开函数极点。这个等式保留完整原势、绝对尺度和Frobenius根方向。
+
+### 110.1 原Cartier行的全部带分母补偿
+
+§§88、106两次实际Cartier给
+$$
+ B'_2=R_2\bigl(\nu_{01}-C(H_0\nu_0)\bigr).
+$$
+完整和属于$\mathbf F_q$，因此$(B'_2)^p=(B'_2)^{1/p}$；这一简化不用于单个标记。
+
+取固定特征零函数
+$$
+ f=-\sum_t w_t k_t,\qquad k_t=\kappa_{P_t}/\omega.
+$$
+$f\omega$约化为$\nu_0$。$\sum w_t=0$去掉$O$处简单极；$\mu_6$权为$u^{-2}$，故$\operatorname{ord}_Of\ge4$，$A=Zf$在$e$正则。真实水平流给
+$$
+ \mathcal H^nA(e)=n![z^n]\zeta(z)f(z).
+$$
+BF2与$\ell(s)=s+O(s^q)$在所需次数准确给出
+$$
+ \bigl(R_2C(H_0\nu_0)\bigr)^p
+ =\operatorname{red}\left[
+ \frac{\mu^{-1}\mathcal H^{2p-1}A(e)}{(2p-1)!}
+ -\frac{D^{p-1}f(e)}{p(p-1)!}\right].
+$$
+置$U=(2p-1)!/p\equiv1$、$V_0=(p-1)!\equiv-1\bmod p$。用$\mathcal H^p=p\Xi-\widetilde cJ$及$JA=f$，上式变成
+$$
+ (\mu U)^{-1}\Theta A(e)
+ -\left\{\frac{\widetilde c}{\mu U}+\frac1{V_0}\right\}
+       \frac{D^{p-1}f(e)}p.
+$$
+花括号属于$p$，并且$D^{p-1}f(e)\in p$，后者由$C\nu_0=\nu$及$\nu(O)=0$得到。因此第二项约化为零；这里完整处理了$\mu$的高位，并未先约化两个带分母项。
+
+另一方面，(BB1)、(BD1)给
+$$
+ (R_2\nu_{01})^p
+ =-c^{-1}\sum_t w_tX_t x(P_t)^p.
+$$
+所以待识别的全行暂为
+$$
+ -c^{-1}\left\{\Theta A(e)
+              +\sum_t w_tX_tx(P_t)^p\right\}.                 \tag{BZ2}
+$$
+将$\widetilde c$改为另一个整提升，只使$\Theta A(e)$增加常数倍$J\mathcal H^{p-1}A(e)=D^{p-1}f(e)$，模$p$为零。
+
+### 110.2 整曲线恒等与原标记项的精确抵消
+
+先证明
+$$
+ \Theta Z=-x^p                                                   \tag{BZ3}
+$$
+为整条约化曲线上的有理函数恒等。确有$D^{p-2}x=G=L_p\bmod p$：该函数奇且只有$O$处可极，在真实严格坐标$\omega=ds$中
+$$
+ D^{p-2}s^{-2}=(-1)^{p-2}(p-1)!\,s^{-p}=s^{-p}.
+$$
+其余非负次项不产生极，故由$G$的真实主部和奇性得唯一性。于是$\mathcal H^{p-1}Z=-D^{p-2}x$与$Z$无关，$\Theta Z=-(D^p/p)G$。$D^p/p$保持整基曲线函数，约化与$G$的整提升无关，因为两个提升相差$p$倍整函数而$D^p\equiv0$。
+
+对一般基点变量$Q$，真实严格$Q(s)$在$p$阶的对数等于$s$，从而
+$$
+ (D^p/p)G(Q)=(p-1)![s^p]G(Q+Q(s)).
+$$
+(AZ1)给
+$$
+ G(Q+Q(s))=G(Q)+G(Q(s))+m(Q,Q(s))^p.
+$$
+其中$G(Q(s))=s^{-p}+cs+O(s^{5p})$，而$m(Q,Q(s))=-s^{-1}-x(Q)s+O(s^2)$，故$s^p$系数是$-x(Q)^p$。再用$(p-1)!\equiv-1$即得(BZ3)。
+
+令$\tau_t$为平移$-\widetilde P_t$。由群律
+$$
+ k_t=Z-\tau_t^*Z,\qquad
+ (k_t-X_t)^2=x+\tau_t^*x+x(P_t),
+$$
+逐点有
+$$
+ 2(Z-X_t)k_t=Z^2+x-\tau_t^*F_2+x(P_t)-X_t^2.
+$$
+在完整$w_t$和中，$\sum w_t=\sum w_tX_t=\sum w_t(x(P_t)-X_t^2)=0$，分别由非平凡$\mu_6$权。乘$-w_t$求和得到
+$$
+ 2A=\sum_t w_t\tau_t^*F_2
+             +2\sum_t w_tX_t\tau_t^*Z.                         \tag{BZ4}
+$$
+对其作用$\Theta$并在$e$评价。$Z$、$F_2$本身可能在$O$图有极，但全部$\tau_t^*Z$、$\tau_t^*F_2$在$e$正则。由(BZ3)，第二和准确为$-2\sum w_tX_tx(P_t)^p$，与(BZ2)的原$\nu_{01}$标记项抵消，留下(BZ1)。全和对$\widetilde c$的选择独立。
+
+这是原第二分离槽在固定全域几何上的严格识别，尚未证明它在任何给定或无限多个素数非零；也不能用一次$p$曲率的逐点挠性消失代替这个除幂迹。

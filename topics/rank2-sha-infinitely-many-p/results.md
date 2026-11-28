@@ -556,3 +556,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §109：普通两位真实范数与同一M的两个整系数
 
 已证明：完整étale范数恰给α^(j−1)[gα]^(j−1)(α[gα]−1)，在固定θ分裂列为单位。真实全Sha无限迫同一固定M的ordinary B₂、B₃分别零，检测在全原非分歧扩张后仍有效；两个不变对数公式保所有带分母补偿。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
+
+### R1067 §110：原第二分离槽的固定通用扩张除幂迹
+
+已证明：原B′₂完整Cartier行等于固定E₁通用向量扩张上Θ(F₂)的全标记迹；ΘZ=−x^p为整曲线恒等，原ν₀₁标记项逐点精确抵消，全部带分母补偿和Frobenius根保留。尚未付该迹跨p非零。 [同编号全文](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)。
