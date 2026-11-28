@@ -1991,3 +1991,101 @@ R530和R1051已经有其它原格上的 Fermat/除幂机制；
 $J'_p(0)=0\Rightarrow H_r(0)=0$。
 要将这一行用于主结论，必须在同一完整来源中评价(74)，
 并保(77)的跨块项及所有参考、$\mathcal U_r$ 导数。
+
+## 20. 在(74)的精度内，首连接的完整平方贡献已自动变深
+
+本节实际评价§19的一项，而不添加新假设。
+结论不是 $\gamma_{34}B_{34}=\gamma_2B_2$；
+这两个原块一般不同。准确结论是：在整个
+$\mathcal U_r(G_{34}/G_2)^2$ 的 Euler 读者中，
+首连接的总贡献属于 $p^{p+1}$，故不能由(77)单个尚存项制造矛盾。
+
+先以 $s=b_Mt$ 为共同权坐标，故 $\partial=d/ds$。
+原完整 Hall 和及 R1062(G5)给
+$$
+ v_p \partial^kG_N(s)\ge k\eta\quad(1\le k\le p-2),\qquad
+ v_p\partial^{p-1}G_N(s)\ge p-2-s_0,
+ \quad s_0=\frac1{p-1},
+ \tag{80}
+$$
+作为闭权盘的 Gauss 下界，其中 $N=34,2$，参考仍取 norm-$17r$。
+为避免与权坐标混淆，本节用 $s_0$ 记原赋值步长。
+
+这里可直接核全尾：对
+$\mathcal F_Q(m)=\sum a_{Q,r}(m)_r/r!$，
+$j$ 阶导数的下界是
+$v_p(j!)+\inf_{r\ge j}\{r\eta-v_p(r!)\}$。
+若 $j\le p-2$，$r<p$ 的最小值为 $j\eta$，
+而 $r\ge p$ 的 Legendre 下界已大于它；
+若 $j=p-1$，最小可能值在 $r=p$，为 $p-2-s_0$。
+再与 $u_Q^s$ 的全部 Leibniz 项相乘，得到(80)。
+这是实际有限点表达上的全导数界，不是从一般 Katz 对偶的
+fractional 点界直接推出。
+
+原 R1063(H16)、(H23)的完整中心恒等给
+$G_{34}(0)=C_{34,T}d^{-1/2}\sum_{\zeta\in\mu_d}f_{34}(\zeta v_Q)$。
+$f_{34}\in v^6\mathcal O_L[[v]]$，因此角平均第一次允许的正次数
+为 $d$，准确有
+$$
+ v_pG_{34}(0)\ge s_0 .
+ \tag{81}
+$$
+本步不使用 bad 条件。参考质量已证明为单位。
+原连接从首阶 $d$ 起，所以去连接的原 Katz 族
+$M_N(s)=\mu_{H,N}(u^s)$ 有同一质量。
+N9的整尾以及(80)还给 $M_N$、参考逆及下列有限乘积同样的
+$k\le p-2$、$k=p-1$ 导数界。
+
+记 $P(m)=(m)_{p+1}$。在模 $p^{p+1}$ 的全函数及全部 ordinary
+导数意义下，由 N8 可写
+$$
+ G_N(s)=M_N(s)+\gamma_N P(\Delta s)B_N(s)
+                         \pmod {p^{p+1}},
+ \qquad
+ B_N(s)=\mathcal G_{N,p-2}(s-1).
+$$
+此处将 $B_N$ 内的连接换回原完整块所生误差至少 $p^{2p-4}$；
+所有二次首连接项也深于 $p^{p+1}$。$\gamma_NB_N$ 与 $\Pi$
+选择无关。参考可依(69)作已付 $\beta$ 缩放，也可保持未缩放两项。
+
+于是
+$$
+ \mathcal U_r(G_{34}/G_2)^2
+ -\mathcal U_r(M_{34}/M_2)^2
+ =P(\Delta s)\{\gamma_{34}H_+(s)+\gamma_2H_0(s)\}
+                       \pmod {p^{p+1}},
+$$
+其中准确的两项是
+$$
+ H_+=2\mathcal U_r M_{34}M_2^{-2}B_{34},\qquad
+ H_0=-2\mathcal U_r M_{34}^2M_2^{-3}B_2 .
+$$
+它们保原参考和全部 $\mathcal U_r$；均有
+$v_pH_\epsilon(0)\ge s_0$，
+以及(80)的非零阶下界。
+
+现对右边取 $\partial^p$。
+纯 $P^{(p)}$ 项由(77)的
+$v_p(\gamma_N\Delta^pP^{(p)}(0))=p+1-s_0$
+及(81)准确变为至少 $p+1$。
+对 $3\le j\le p-1$，$\binom pjP^{(j)}(0)$ 至少被 $p^2$ 整除，
+余 $p-j$ 阶 $H$ 导数至少为 $(p-j)\eta$，故也深于 $p+1$。
+$j=1,2$ 用(80)的高阶界更深；$j=0$ 为0。
+$c^{p-1}\partial$ 项则由 $P'(0)=-p!$ 立即更深。
+所以准确得到
+$$
+ \boxed{
+ (\partial^p-c^{p-1}\partial)
+ \left[
+ \mathcal U_r(G_{34}/G_2)^2
+ -\mathcal U_r(M_{34}/M_2)^2
+ \right]_{s=0}\in p^{p+1}\mathcal O_F .
+ }
+ \tag{82}
+$$
+因此(74)在当前精度真正剩下的是两份原 bare Katz 族的
+对数--Fermat组合及实际 $\mathcal U_r$。
+$\psi M_N=0$ 的来源陈述本身不杀这一组合；
+本节没有将不同 Galois 对偶的对数测试认作 $\mathbf Z_p$-测度。
+后继仍须对同一完整 $\mathcal U_r(M_{34}/M_2)^2$ 判断其
+Frobenius 费用，不能把(82)误称为全部(74)已经自动。

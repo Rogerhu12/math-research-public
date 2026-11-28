@@ -444,3 +444,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### 原同一 MD 的逐实际来源返回：固定小软件请求
 
 [完整证明/成本/源码映射](2026-11-28-original-streamed-denominator-return.md)：原完整Popov系数流正向全核P=E MD；逐H行证明完整像并丢坐标，只对实际W_i=(Y MN)_i返C_i/X_i、全核X_i MD=W_i。三处原whole产品改为逐全部行等式，原canonical Y、正负ideal及F_y附加HNF均保；无通用U/全C/全YMN。最终X仍全存、受实际系数预算，整次reverse工作量亦守原600m；不声称总峰内存。34源/420秒、9全比较/15拒错/4真实software端点+2F已固定请求，未回执不记PASS，不改唯一v15。
+
+
+### R1067 §20：完整平方内的首连接已自动变深
+
+[R1067](../results/R1067-original-first-wild-rubin-even-multiplicity.md)（80）–（82）真正评价§19的一部分：完整Bell高导数界与原H16/H23的目标质量≥1/(p−1)，使首连接在U(G34/G2)²的整个Euler读者中自动落入p^(p+1)。不是赋γ34B34=γ2B2，也不需要bad。当前精度可回同一U(M34/M2)²、M_N=µ_H,N(u^s)；其bare Katz/Frobenius和真实模型单位仍须评价，未将整个Euler行判为自动或制造新增forcing。
