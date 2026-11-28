@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **da7b3a9c425c08bbe5880b44b152e96c5f014301**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **06e86c15bb8b1ca8089cae4bcb51eb483083acbe**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
@@ -22,9 +22,9 @@
 
 **R755 原固定材料已自然终态。** [整个中心矩形通过基本必要门](notes/2026-11-28-r755-original-material-whole-center-rectangle-natural-terminal.md)：run46176741814/job141077050686，543新胞/5.394724727秒；A/π≈[.05115435,.05128258]、L≈[1.27234741,1.27539840]。四角真主子式全正覆盖整个Cx/Cz矩形；curvature四方向未排但未授全向。原artifact15275746976与343534B/543行journal全部保留，R757只读原积分；不授等距场/族。
 
-**R757 首个全方向曲率预算已装订。** [原424材料积分的完整消费](notes/2026-11-28-r757-first-original-material-all-direction-budget.md)，eta=0/Mc=100/3，4姿与全方向真实区间；每姿首12盒、所有新单位持久保存，旧543行账本与FINAL SHA绑定，旧积分/RHS/J不重。通过必要门不授曲面或族。
+**R757 全方向曲率必要门已严格完成。** [整个原中心矩形通过](notes/2026-11-28-r757-entire-center-rectangle-all-direction-curvature-gate.md)，run46178661481/job141083035943，9新单位/5.107658396秒；统一全球余量最小>.00636153564978，四姿无需方向细分、整个矩形true，原424材料积分/旧J/ODE重算0。不排源，不授实际等距场/族；本门不再重复，转实际相容性。
 
-R758初版的共享纬度表示已发现两侧匹配障碍，代理正在正式登记并改真材料分支；不排原g全部场，修正完成前不付旧表示的科学工单。
+[R758两个精确表示障碍](notes/2026-11-28-r758-two-exact-obstructions-in-the-shared-latitude-chart.md)已正式发表且根全文读：共享重复纬带强制刚转；单侧硬截断另生非零旋度。只排原有限表示、不排原g。R761改真材料生成式，R762独立研究非坍缩零面积Gauss圈。
 
 ## 最近自然终态和不可回放的原账
 
