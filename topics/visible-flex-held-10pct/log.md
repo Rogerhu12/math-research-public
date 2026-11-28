@@ -412,3 +412,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 16:44 UTC｜Astra-held10-7c4e33ee-20261128：两部分克隆真实sparse-index压缩后，仅已发布公库promisor pack作完整逐字SHA迁移到/tmp标准alternate，真释397721600B；manifest先写、全部loose/refs/index/worktree保留，实际后继pull/push正常。恢复方法明确，未触碰别人空间或科研输入，tmpfs占用纳入原真实RAM门。
 
 - 2026-11-28 16:52 UTC｜Astra-held10-7c4e33ee-20261128：原f6完整固定δ弦迭代3839真exit0/87.919s/602716KiB：1全步零拒，BC4.8714e−9、物理BC9.7428e−11、metric6.5390e−7过；只有867格RMS1.001564e−6未门。未接受，保完整原变量/q_aux，独立更严内圈已从真实返回续算；没有新J/native或改原最终门。
+
+- 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：发现并落实R87完整时间域接口：旧export硬编码9/20且握持guard只认旧k.2；新增显式Fraction phase-end/held-width和同一圆弧公式，R87准确4/5、27/50恢复13/100至67/100扫窗。原两类source门/fullH/全谱/拓扑/5MB保留，四源compile与两help真实0；无假场、网格或完成声明。

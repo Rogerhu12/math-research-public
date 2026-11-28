@@ -1,0 +1,128 @@
+{
+  "status": "explicit_rational_phase_export_entries_prepared",
+  "observed_UTC": "2026-11-28T16:49:59.662955+00:00",
+  "rows": [
+    {
+      "kind": "chord",
+      "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_export_actual_closed_mesh.py",
+      "source_sha256": "3ab5594ad5098df5db1300b7add42a2ee1bf9c44540cc9b18e11b6c36d8dde7e",
+      "entry": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_export_explicit_phase_mesh.py",
+      "entry_sha256": "32eb1f4ad3aacf225b0d5d7dca449b2ac2ac9f8de7488bde37a2b77630b374ed",
+      "adapter_sources": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_export_explicit_phase_mesh.py": "32eb1f4ad3aacf225b0d5d7dca449b2ac2ac9f8de7488bde37a2b77630b374ed",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/explicit_phase_mesh_adapter.py": "968f29893dbe8e3a1ba9246a2ef7e9a31f499c944441f241e7d3cedbb91a0ce8",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_circle_phase_contract.py": "dd09438764416d7e6e1f0093dda4b6146d412ca82d3df846703add4315bde2c9",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_export_actual_closed_mesh.py": "3ab5594ad5098df5db1300b7add42a2ee1bf9c44540cc9b18e11b6c36d8dde7e"
+      },
+      "original_main_sha256": "c24c2a49647875f753f157a9ea165819e9877dea059a8b844f678a7161a81542",
+      "executed_main_sha256": "cb30305b5be8902cd42e1df5923e5084f7fcc01f0ea39be25407ad68328e911e",
+      "exact_declared_replacements": [
+        {
+          "before": "    args = parser.parse_args()",
+          "after": "    parser.add_argument('--phase-end',type=Q,required=True)\n    parser.add_argument('--held-width',type=Q,default=Q(27,50))\n    args = parser.parse_args()\n    phase_end, held_width = args.phase_end, args.held_width\n    if phase_end <= 0 or held_width <= 0:\n        raise ValueError('Use positive exact phase-end and held-width')",
+          "occurrences": 1
+        },
+        {
+          "before": "phase_definition='alpha(t)=(9/20)*t, exact real expression'",
+          "after": "phase_definition=f'alpha(t)=({phase_end})*t, exact real expression'",
+          "occurrences": 1
+        },
+        {
+          "before": "Q(9, 20)*t",
+          "after": "phase_end*t",
+          "occurrences": 2
+        },
+        {
+          "before": "frame = held_frame(model) if args.frame == 'held' else None",
+          "after": "frame = phase_api.held_frame(model,phase_end,held_width,circle) if args.frame == 'held' else None",
+          "occurrences": 1
+        },
+        {
+          "before": "alpha=9*t/20",
+          "after": "alpha=({phase_end})*t",
+          "occurrences": 1
+        },
+        {
+          "before": "    try:\n",
+          "after": "    try:\n        report.update(explicit_phase_contract=phase_api.describe(model,phase_end,held_width),\n            explicit_phase_adapter_sources=phase_adapter_sources,\n            original_main_sha256=phase_original_main_sha256,\n            executed_main_sha256=phase_executed_main_sha256)\n",
+          "occurrences": 1
+        }
+      ],
+      "source_gates_changed": false,
+      "geometry_or_mesh_algebra_changed": false,
+      "real_accepted_field_used": false,
+      "actual_help_exit_code": 0,
+      "help_contains_phase_end": true,
+      "help_contains_held_width": true
+    },
+    {
+      "kind": "fixed",
+      "source": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_export_closed_mesh.py",
+      "source_sha256": "655801c4f99bcb5a6936cae4d6db81b8600c9268276924f5cfbb164994f119cf",
+      "entry": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_export_explicit_phase_mesh.py",
+      "entry_sha256": "efcb66971173c63f5b5c10fc45af622fd55bf1e1168591c50146644241a022e1",
+      "adapter_sources": {
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_export_explicit_phase_mesh.py": "efcb66971173c63f5b5c10fc45af622fd55bf1e1168591c50146644241a022e1",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/explicit_phase_mesh_adapter.py": "968f29893dbe8e3a1ba9246a2ef7e9a31f499c944441f241e7d3cedbb91a0ce8",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/material_circle_phase_contract.py": "dd09438764416d7e6e1f0093dda4b6146d412ca82d3df846703add4315bde2c9",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_actual_export_closed_mesh.py": "655801c4f99bcb5a6936cae4d6db81b8600c9268276924f5cfbb164994f119cf"
+      },
+      "original_main_sha256": "8f6fde723a65177e2e54e7cb2ac85356d401f8577efc2cc16f3edc7d4552e61b",
+      "executed_main_sha256": "47f8b862c33ffc61a48d278c44ab16110472dafc1dd6562ecfe48970347ea28e",
+      "exact_declared_replacements": [
+        {
+          "before": "    args = parser.parse_args()",
+          "after": "    parser.add_argument('--phase-end',type=Q,required=True)\n    parser.add_argument('--held-width',type=Q,default=Q(27,50))\n    args = parser.parse_args()\n    phase_end, held_width = args.phase_end, args.held_width\n    if phase_end <= 0 or held_width <= 0:\n        raise ValueError('Use positive exact phase-end and held-width')",
+          "occurrences": 1
+        },
+        {
+          "before": "phase_definition='alpha(t)=(9/20)*t, exact real expression'",
+          "after": "phase_definition=f'alpha(t)=({phase_end})*t, exact real expression'",
+          "occurrences": 1
+        },
+        {
+          "before": "Q(9,20)*t",
+          "after": "phase_end*t",
+          "occurrences": 2
+        },
+        {
+          "before": "frame = mesh.held_frame(value) if args.frame == 'held' else None",
+          "after": "frame = phase_api.held_frame(value,phase_end,held_width,mesh.circle) if args.frame == 'held' else None",
+          "occurrences": 1
+        },
+        {
+          "before": "alpha=9*t/20",
+          "after": "alpha=({phase_end})*t",
+          "occurrences": 1
+        },
+        {
+          "before": "    try:\n",
+          "after": "    try:\n        report.update(explicit_phase_contract=phase_api.describe(value,phase_end,held_width),\n            explicit_phase_adapter_sources=phase_adapter_sources,\n            original_main_sha256=phase_original_main_sha256,\n            executed_main_sha256=phase_executed_main_sha256)\n",
+          "occurrences": 1
+        }
+      ],
+      "source_gates_changed": false,
+      "geometry_or_mesh_algebra_changed": false,
+      "real_accepted_field_used": false,
+      "actual_help_exit_code": 0,
+      "help_contains_phase_end": true,
+      "help_contains_held_width": true
+    }
+  ],
+  "actual_compile_passed": true,
+  "new_solver_or_field_or_mesh_invoked": false,
+  "R87_required_phase_end_exact": "4/5",
+  "R87_held_material_width_exact": "27/50",
+  "R87_held_offsets_exact": [
+    "13/100",
+    "67/100"
+  ],
+  "R87_complete_sweep_exact": [
+    "-67/100",
+    "67/100"
+  ],
+  "actual_preparation_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-maintenance/explicit-phase-mesh-preparation-20261128/preparation.json",
+    "sha256": "31c85444ba5b593f78d47a7a80e42b87b04622cb2f603ac96eaf49acbe9450a7"
+  }
+}

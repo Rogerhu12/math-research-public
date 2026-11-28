@@ -4,7 +4,7 @@
 
 ## 规则与完成线
 
-- 最近实际pull后双README已读锚 `1edbcae00173aaf108a88face98e0768b9315be8`（2026-11-28 16:53 UTC）。
+- 最近实际pull后双README已读锚 `4c3bf6dcf6a998cf08e6e4c7c77ad78986276408`（2026-11-28 16:53 UTC）。
 - 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；本轮实际pull到 501598ecab5ed0ab5529fd85bfc436c008f2d5f2，双README空diff，QUEUE仍本会话进行中。
 - 每结论先pull核根/本题README差异再push，NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn须显式gpt-6.2-astra/ultra/forknone。令牌仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 断线间小文本集成已由实际pull收齐。完整旧前沿与失败见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)、[本次压缩前H](notes/2026-11-28-handoff-before-r89.md)，不重做已登记结论。
@@ -19,7 +19,7 @@
 
 旧q/profile各真锚、失败及Actions权限状态见[完整接续快照](notes/2026-11-28-handoff-after-r90-before-new-frontier.md)，不混profile或重算旧支。
 
-真实λ1/M≤64后用[7a完整DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)与[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，最终只绑candidate physical-H；当前无λ1。
+真实λ1/M≤64后用[7a完整DN](notes/2026-11-28-analytic-lambda-one-chord-closure-source-entry.md)与[mesh/矩入口](notes/2026-11-28-analytic-lambda-one-chord-mesh-and-moment-entry.md)，最终只绑candidate physical-H；当前无λ1。[显式全相位导出](notes/2026-11-28-explicit-full-phase-mesh-entry.md)已准备，R87须--phase-end 4/5、--held-width 27/50；旧9/20及旧k.2握持guard不能覆盖本设计，旧源不改。
 
 ## 2. 旧 λ.002/raw-H 的完整闭图与连续证书
 
