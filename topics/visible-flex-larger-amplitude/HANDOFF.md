@@ -5,7 +5,7 @@
 
 ## 规则、同步与完成条件
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，10:06实际重置后pwd仍exec-server缺失，10:21独立CUA helper也无可用程序，恢复即pull。前次探测完整保旧H。云核至`6430171a997302ffec4d32ad73ccaecfa3551b1e`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。旧27–29/31–33官方failure；33新run46133839513已启，按已读新规恢复真实pull。 根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：今后新派subagent显式model=gpt-6.2-astra、reasoning_effort=ultra（fork_turns=none）；已通知三既有代理，数学目标/预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，各实际重置只探一次，10:06实际重置后pwd仍exec-server缺失，10:21独立CUA helper也无可用程序，恢复即pull。前次探测完整保旧H。云核至`4ceb61c2a2a90ca882d719d3af3c5d2677a58952`非pull。双README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，仅读变化diff即遵守。旧27–29/31–33官方failure；33新run46133839513已启，按已读新规恢复真实pull。 根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：今后新派subagent显式model=gpt-6.2-astra、reasoning_effort=ultra（fork_turns=none）；已通知三既有代理，数学目标/预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，保完整复现/固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格缺口明示，继续加强比例。
@@ -31,6 +31,8 @@ R724–728完整证明/源参保results；R728真实w含高度项，最终seed4�
 [R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)给真实首quintic有理T*、完整全角同g嵌入带及带内.16球；和权梯度消二次项，正矩形可跨真实片。[完整有理计算](scripts/resume_20261126/r734_exact_core_and_prefix.py)与公开workflow现已刊，重取实际原accepted全文件、全416结点/415片；数值T*/前缀待自身runner返回，不替R733远场拼接宽。
 
 [R735](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md)实际原深谷每个m≥2有非零固定帽线性核，恰一径向线/两实parity，全jet平坦；尚未积分为有限flex或接另一端。
+
+[R736](results/R736-deep-valley-all-order-cap-fixed-isometry-jets.md)同实际单帽g/全三Gram含零模可解兼容任意有限非线性阶，误差在振幅上平坦；固定非零振幅收敛和双端匹配仍未证。
 
 ## 准确后继与容量
 

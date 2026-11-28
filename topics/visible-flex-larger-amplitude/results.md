@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R736（已证明，单帽兼容全部有限非线性阶）**：[实际深谷的全阶固定帽等距jet](results/R736-deep-valley-all-order-cap-fixed-isometry-jets.md) — 稳定线 $\log|y_n|/n^2\to-2\pi$，任意 $\sigma>2\pi$ 的强迫逆保同衰减类、含零模及高模；逐阶解全部三Gram，得到同g/同材料段的兼容任意阶非零形式族及光滑振幅实现，帽全jet固定。误差只按振幅平坦，未证固定非零幅度收敛、另一端闭合或全像大位移。
+
 - **R735（已证明，实际单帽非零线性核）**：[原深谷帽端的平坦无穷小弯曲线](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md) — 实际R690无限振荡尾对每个 $m\ge2$ 均有非零 $C^\infty$ 帽端全jet平坦解；正Hamilton双半周期精确传递与反向连分式给 $e^{-c n^2}$ 稳定线，Wronskian证每个实角parity恰一径向线，能穿越 $a,c>0$ 内区间。$m=0,1$ 固定帽为零；未积分成有限flex，未接非圆core或另一帽。
 
 - **R734（已证明，可算宽公式）**：[同g双曲延拓、真实首片宽与法球](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md) — Gauss–Codazzi对角运输的和权角梯度消去两二次项，正值矩形足够跨真实quintic；合作区比较 $y=a/\sqrt{r^{-2}-a'^2}$。真首两knot给有理 $T_*$ 保证全角双侧等距嵌入带、$|II|\le5$ 与全部带内 $.16$ 球。$T_*$ 与415片实际前缀待公开运行；不替R733拼接宽，不代全域完成。
