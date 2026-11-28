@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：7b4089933991daf22ec0261fa2510ca07aecb069**（2026-11-28 13:05 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：82215940a8257317adc61855398c84fadb5f9416**（2026-11-28 13:09 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:48:17 Asia/Taipei，Actions run46109203139/job140868723588，blob:none浅clone后真实pull --rebase至c6b1020c；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤13:38、pull≤13:48。本地12:47仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-signed-Hasse-and-continuous-moments.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-all-row-Bol-transport.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -50,11 +50,9 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1135 §§1–17](results/R1135-original-Gaussian-low-row-fiber-constraint.md)两下降线Π′(z′)=Π(−z′)统一z∈Fp；actual-good代数A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d，d0/非平方分Fp点，非零平方余对须actual O_R(d)。原heat/Hasse/Katz、finiteGauss全部坏行/安全jet/余项付；Δ_low=8(3bc−td)/(4455rβ²)，Q⁶顶unit不代det，向量场闭性仍未付。原norm2/CM gauge/两twist与全尺度保文。
 
-[R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原Legendre/finite-log、Newton/Jacobi/Darboux及所有cutoff已付，完整式见open/归档。原H_p0锁q=Qν，minor保Bernoulli和四个唯一多项式低jet；p1019只否定无条件Cν(Qν)0，未否joint，不扩扫。
+[R1154 §§1–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原Legendre/finite-log/Jacobi/Darboux的全部weighted边界已付，原joint保四个唯一低jet和固定3/8 Bernoulli系数，详见open/归档。p1019只否无条件Cν(Qν)0，未否joint，不扩扫。原ξ=P/(a²V)、f=aV的Jacobian及首p forcing6a²完整保留；A(1,−w)=−P、A(γ)=−aξ、B0=−6a已锁符号。自足Xp公式和原端点校准不代指定minor，v−3a⁶bu继续。
 
-原ξ=P/(a²V)、f=aV给R(H)=[ξp−1]Hf²，完整Ramanujan首p forcing6a²ξp−1保留；四moments为E6/E4²/E4E6的指定相邻系数，minor=a²(v−3a⁶bu)。§16保Sym¹/²/³全部强迫和唯一逆，无权m3=M30−3Bp−3/8；原joint仍为固定单位Bernoulli系数+完整余项。
-
-§17带符号Hasse准确为A(1,−w)=−P、A(γ)=−aξ、B(γ)=−a(6+ξE2)、B0=−6a。自足证明X^p=A²X+ACZ/6+C²∂H/6，保charp的H^p可能并以整数权排除；在原有限流读为a²(6∂H+kξ+ξ²∂ξ)。近p系数不擅反射/反除临界因子。原端点单位仅校准，不代joint；下一步保全部good行和实际两点运输。
+[R1161](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)现付**全部原实际行**到同一固定ν的真实运输。Bol Θ^m g_j=A∂g_m+(m/12)Bg_m（m=p+1−j），Wilson反射不除Bernoulli；j=2s、原η及N_R完整保留。令Q_s=G_(2s)(−1/48,−w/864)、κ²=−1/(12aν⁴aG)，原行差=N_R 2^sδ(2s−1)!/s!·R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。仅even幂存活，形成Fp[η²]的T_s；两twist及missing principal沿原source。s3精确回H_p，δβG=12ε_r aν²aG。全mask共同纤维等价所有实际T_s相等；不再把这个运输列为未付，仍须用真实Q_s权重排除非对角对，未宣mask闭合或joint非零。
 
 
 ## 已成、禁止重做与其它入口

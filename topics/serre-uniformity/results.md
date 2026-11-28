@@ -1,5 +1,7 @@
 # 结论索引
 
+- **全部原Gaussian实际行的Bol–Legendre运输（已证明）**：[R1161](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)自足Bol/固定权整q基及Wilson把完整原行送入同一固定Pν,Vν，保每个实际Eisenstein权Q_s、source尺度和Bernoulli mask；临时四次根逐项消去，s3精确回原首标签。待证明同一actual-good子集的两点分离，未以旁端点代joint。
+
 - **原Lamé高零模与两障碍的有界原函数（已证明）**：[quadric续篇 §§5–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)完整上下半段及有限二次恒等锁定Z；e检测原R0的唯一有界primitive，K4检测同K=UDR0的第三插入。全relative相位、三极和强迫列保留，未以高单位代指定两jet。
 
 - **原连续全点矩与最高整塔的同源比较（已证明）**：[R1147 §§17–19](results/R1147-original-canonical-moment-Heisenberg-lift.md)实际norm根塔、all-vector的1−p^d精确比例、同根反差分/全中央gauge与全p^r S/U来源均付；完成整Gcorr后唯一性给兼容过渡，原算术未平滑认到最高Sym12整子商。period/PD极限及F0数值仍须读取。

@@ -131,11 +131,13 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1154 §§13–14](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原formal Jacobi的一阶参数列为−V；完整(Lν−τ²)F=(τ−τp)(jτwp−2−kτwp−1)、Green核和所有M_j cutoff均见原文/逐字归档。Darboux Eν=[Tν,wp]/p为前ν至最高ν的单位三角同构，ν!V=TνLp+Eν1；原B/U/V全部weighted一次补项和6b∂u∂标量交叉项保留。τ0/±1的清分母递推不使good-mask封闭；固定ν与变化r−1未据外形等同。
 
-[R1154 §15](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)直接给原ξ=P/(a²V)、f=aV，Dξ=f⁻²和R(H)=[ξ^(p−1)]Hf²。E4=f⁴、E6=−wf⁶、E2=f²(6Df/f−w)满足完整有限Ramanujan：E2′=(E2²−E4)/6+6a²ξ^(p−1)，E4′=2(E2E4−E6)/3、E6′=E2E6−E4²；判别式qf12单位。原h=−[ξp−4]E6，B=a²b、U=−a⁶u、V=−a²v，其中b=[ξp−5]E4²，u/v为同E4E6的p−8/p−6系数。因此真joint为[ξp−4]E6=0及v−3a⁶bu=0；首式只先给b=[ξp−5]E2E6。最高强迫[ξp−1](E2²−E4)=−36a²unit并未代这个minor，继续实际共同零；本坐标未冒真实Ep整参数。
+[R1154 §§15–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原ξ=P/(a²V)、f=aV给R(H)=[ξp−1]Hf²和完整有限Ramanujan，E2′保6a²ξp−1。四moment准确为h=−[ξp−4]E6、B=a²[ξp−5]E4²、U=−a⁶[ξp−8]E4E6、V=−a²[ξp−6]E4E6；minor=a²(v−3a⁶bu)。Sym¹/²/³唯一多项式逆保全部forcing，四权归四低jet；同Legendre无穷分支仅消无权m3的q项，m3=M30−3Bp−3/8，所以h0下真joint为Bp−3=8(M30+r3−3BνUν)/3，未反除D2。§17带符号A(1,−w)=−P、Aγ=−aξ、Bγ=−a(6+ξE2)；自足Xp=A²X+ACZ/6+C²∂H/6先保H^p再以整数权排除，其流读取a²(6∂H+kξ+ξ²∂ξ)保临界零。全部展开及端点单位沿原文/逐字归档，不替原joint。
 
-[R1154 §16](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)现以δP=qP²∂w的非零±1留数自证各Sym^r真实polynomial kernel=kP^r，给S₁/S₂/S₃在指定奇偶空间的唯一逆。H1/H7/H2/H3分别解wP³−1、截断wP⁷−c7、P⁴−1、wP⁵−1，原四moments恰为m1+aH1(0)、m2+2H2′(0)、c7m1+aH7(0)、m3+(6H3,2+9λH3(0))/a，全部forcing保留。m2为准确奇偶平方倒数和；同Legendre无穷分支严格给m3=M30−3Bp−3/8，q_p(2)项消去且Bernoulli系数单位。于是h0下joint为Bp−3=8(M30+r3−3BνUν)/3，四个低jet及M30均明确；无需除D2，但尚未证明这个实际余项与Bp−3不相容。不是已被反例否定的无条件Cν(Qν)0。
+[R1161](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)现将**每一条原actual-good行**准确送入同一固定Pν/Vν。安全偶j、m=p+1−j满足Θ^m g_j=A∂g_m+(m/12)Bg_m，固定weight三角整q基给自足Bol；同原流A=−δu、C=−δ，Wilson给全jet反射。对原s（偶s=R、奇s=p−R）及Q_s(w)=G_(2s)(−1/48,−w/864)、κ²=−1/(12aν⁴aG)，
 
-[R1154 §17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)已锁标准Hasse的完整符号：A(1,−w)=−P、A(γ)=−aξ、B(γ)=−a(6+ξE2)，故B0=−6a。自足代数证明X^p=A²X+ACZ/6+C²∂H/6：先证Xp=cY，保H^p可能后以整数权排除，再由双导子和degree<p使c常数，最后一次q系数480锁c1。在原有限流读取为a²(6∂H+kξ+ξ²∂ξ)，首p forcing及k+j−1临界零保全；端点[ξp−3]E4=a⁻²、[ξp−7]E4²=a⁻⁶只校准，未代原joint。
+原行差 = N_R·2^sδ(2s−1)!/s! · R[P^(s−2)Q_s(w){(V+κηP)^s−(V+κη′P)^s}]。
+
+κ来自临时四次根但仅even i存活，T_s(Z)=Σ_(h≥1)binom(s,2h)(κ²Z)^h R(P^(s+2h−2)Q_sV^(s−2h))在Fp中。原两twist/实际η、N_R、缺席principal及所有cutoff均保，s2/3分别回原affine和H_p且δβG=12ε_r aν²aG。**已付运输不重做**：完整共同纤维等价全部实际s的T_s(η²)=T_s(η′²)。待付是同一真实子集至少一差非零；Q_s随s的实际权、原Bernoulli mask和S0/P0边界仍不能删，未宣行空间算子闭合。原变化次数Jacobi路线也未被无依据等同；本篇给的是另一条已完整定标的全行入口。
 
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
