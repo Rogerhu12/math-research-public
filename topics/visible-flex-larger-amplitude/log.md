@@ -164,3 +164,7 @@ ret56精确退144窗口/32prePopen/13wrapper，毛1805389B；8完整附件448691
 ## 2026-11-28 00:40:07 UTC — 17第三restoration实际接受，有限违反仍正
 
 17第三e2c1ad7真实接受，accepted3/Phi4954.529810387847/Gram.6374134312335948/g2.0441496554550835；原全几何已返但违反仍正。00:23:19.468855是后续current-geometry事件，不填未知决策时刻/alpha/六g；reportfalse、官方仍运行。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)。双README云核至`73d062e38fd4d05330867da403d6ef0c5e299592`无变（非pull）。
+
+## 2026-11-28 00:40:12 UTC — 18第三观测试点统计实际返回，几何与决定未返
+
+18下一2b1c真实统计00:30:28.482615返Phi4954.529810384405/Gram.6374134312335313；geometry/alpha/决定未返，current仍4a822/accepted2/原六g。17的不同模型接受结果不移用。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。双README云核至`484b94f95fcaa879cedd2e9b3f6706d5b952461d`无变（非pull）。
