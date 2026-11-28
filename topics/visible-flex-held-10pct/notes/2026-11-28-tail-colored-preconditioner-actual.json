@@ -1,0 +1,250 @@
+{
+  "scope": "All three actual complete-A colored-P probes, including two info3/rtol failures; no native JVP or new accepted nonlinear field.",
+  "records": [
+    {
+      "record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/colored-preconditioner-m16-20261128-a/summary.json",
+        "sha256": "3cbaf1cb854587f873d1156be05c8ebe106d8e54b0d12ee93d224e7040a63260"
+      },
+      "result": {
+        "scope": "Simulate colored full-direction JVPs for a shooting preconditioner only.\n\nEvery seed contains all columns of one Fourier color in Q or Pi separately.\nRecovering a near-band entry includes all distant same-color contributions;\nthe resulting P is explicitly approximate, not the exact band of J. The\noperator and final residual retain every actual stored J entry, all shooting\nunknowns, and every boundary row. No native JVP or nonlinear acceptance occurs.\n",
+        "source": {
+          "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_tail_colored_preconditioner.py",
+          "sha256": "a38064acc019e84ece83655b2a9657811938c27d9aa974e45f2d60efea75a14c"
+        },
+        "predictor_summary": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+          "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+        },
+        "actual_native_record": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+          "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+        },
+        "accepted_source_packet": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/tail_0001.json.gz",
+          "sha256": "07981819451ea4d2f48c69f39f7d5c43d3039899915c7c9d5e62fd8bbcda05c3"
+        },
+        "M": 16,
+        "stages": 1152,
+        "unknowns": 36896,
+        "bandwidth": 4,
+        "colors_per_field": 9,
+        "full_seed_directions": 18,
+        "seed_entries": "1 in each same-color mode of exactly one of Q/Pi; no missing modes",
+        "maximum_column_count_per_color": 2,
+        "approximate_P_includes_far_mode_aliasing": true,
+        "exact_band_of_J_claimed": false,
+        "maximum_alias_error_from_exact_band": 100607.14568552769,
+        "maximum_alias_relative_to_maximum_exact_band_entry": 1.5029970710974527e-06,
+        "simulated_full_direction_product_seconds": 0.029571461000159616,
+        "P_nnz": 608304,
+        "LU_nnz": 1530975,
+        "factor_seconds": 0.233233625000139,
+        "gmres_seconds": 0.42217956599961326,
+        "gmres_info": 3,
+        "inner_iterations": 45,
+        "all_actual_matrix_products": 48,
+        "rtol": 1e-08,
+        "restart": 40,
+        "max_restart_cycles": 3,
+        "residual_history_first": [
+          0.9999999999943979,
+          0.999999999371496,
+          0.9999999936656548,
+          0.9999999804476537,
+          0.9999999468659678
+        ],
+        "residual_history_last": [
+          3.3426671195851952e-12,
+          6.254908182931723e-13,
+          2.2236552981187914e-13,
+          2.9161061082714606e-14,
+          2.8843589012387786e-15
+        ],
+        "final_original_longdouble_residual_linf": 6.05530240697e-07,
+        "relative_rhs_residual_linf": 6.05530240697e-07,
+        "original_normwise_backward_error": 3.158173118829404e-25,
+        "original_backward_error_gate_passed": true,
+        "actual_A_all_entries_retained": true,
+        "all_boundary_rows_retained": true,
+        "native_JVP_implemented": false,
+        "nonlinear_solve_invoked": false,
+        "predictor_accepted": false,
+        "resource_peak_self_maxrss_kib": 195744,
+        "complete_surface": false
+      }
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/colored-preconditioner-m16-ld-20261128-a/summary.json",
+        "sha256": "363f635d2d5ce626ce705a965d532ea01e455e4b2c59da2aeed486777ea3cc3f"
+      },
+      "result": {
+        "scope": "Repeat the colored preconditioner probe with a long-double full-A matvec.\n\nEvery seed contains all columns of one Fourier color in Q or Pi separately.\nRecovering a near-band entry includes all distant same-color contributions;\nthe resulting P is explicitly approximate, not the exact band of J. The\noperator and final residual retain every actual stored J entry, all shooting\nunknowns, and every boundary row. The complete saved A is applied in long-double before conversion to the GMRES vector dtype. No native JVP or nonlinear acceptance occurs.\n",
+        "source": {
+          "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_tail_colored_preconditioner_ld.py",
+          "sha256": "ad90229240496554476fedabdac7f8e30be5774320f32196daa2ccdd65f2f715"
+        },
+        "predictor_summary": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+          "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+        },
+        "actual_native_record": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+          "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+        },
+        "accepted_source_packet": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/tail_0001.json.gz",
+          "sha256": "07981819451ea4d2f48c69f39f7d5c43d3039899915c7c9d5e62fd8bbcda05c3"
+        },
+        "M": 16,
+        "stages": 1152,
+        "unknowns": 36896,
+        "bandwidth": 4,
+        "colors_per_field": 9,
+        "full_seed_directions": 18,
+        "seed_entries": "1 in each same-color mode of exactly one of Q/Pi; no missing modes",
+        "maximum_column_count_per_color": 2,
+        "approximate_P_includes_far_mode_aliasing": true,
+        "exact_band_of_J_claimed": false,
+        "maximum_alias_error_from_exact_band": 100607.14568552769,
+        "maximum_alias_relative_to_maximum_exact_band_entry": 1.5029970710974527e-06,
+        "simulated_full_direction_product_seconds": 0.010188983000261942,
+        "P_nnz": 608304,
+        "LU_nnz": 1530975,
+        "factor_seconds": 0.09800356800042209,
+        "gmres_seconds": 0.33921830800045427,
+        "gmres_info": 3,
+        "inner_iterations": 43,
+        "all_actual_matrix_products": 46,
+        "rtol": 1e-08,
+        "restart": 40,
+        "max_restart_cycles": 3,
+        "residual_history_first": [
+          0.9999999999943979,
+          0.999999999371496,
+          0.9999999936656548,
+          0.9999999804476537,
+          0.9999999468659678
+        ],
+        "residual_history_last": [
+          3.92772154111906e-12,
+          1.1776060597477977e-12,
+          2.179580357062143e-13,
+          7.860368554530519e-14,
+          1.0080756050730922e-14
+        ],
+        "final_original_longdouble_residual_linf": 2.5911277038460615e-07,
+        "relative_rhs_residual_linf": 2.5911277038460615e-07,
+        "original_normwise_backward_error": 1.3514155547906903e-25,
+        "original_backward_error_gate_passed": true,
+        "actual_A_all_entries_retained": true,
+        "all_boundary_rows_retained": true,
+        "actual_A_matvec_precision": "np.longdouble accumulated then binary64 GMRES vector",
+        "native_JVP_implemented": false,
+        "nonlinear_solve_invoked": false,
+        "predictor_accepted": false,
+        "resource_peak_self_maxrss_kib": 195188,
+        "complete_surface": false
+      }
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/colored-preconditioner-m16-refine-20261128-a/summary.json",
+        "sha256": "34f9d51b668aaa5cde5a4036d18429f279d1af318828290efb94bb0cf33ba868"
+      },
+      "result": {
+        "scope": "Probe colored preconditioning with complete true-residual correction rounds.\n\nEvery seed contains all columns of one Fourier color in Q or Pi separately.\nRecovering a near-band entry includes all distant same-color contributions;\nthe resulting P is explicitly approximate, not the exact band of J. The\noperator and final residual retain every actual stored J entry, all shooting\nunknowns, and every boundary row. The complete saved A is applied in long-double before conversion to the GMRES vector dtype. No native JVP or nonlinear acceptance occurs.\n",
+        "source": {
+          "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/probe_tail_colored_preconditioner_refine.py",
+          "sha256": "431441585bdfe797b3ae9427a7fe1afe33c78b8052928f66c454551b71f48c0f"
+        },
+        "predictor_summary": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tangent-predictor-m16-check-20261128-a/summary.json",
+          "sha256": "9774d684cfdd4d0a95be507a340b2c99e4cdf65c5433b7b6a7aa5b3a57335fd8"
+        },
+        "actual_native_record": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/native-runs/0003-jac-record.json",
+          "sha256": "6f90293aeb6c98020b3d964ab55428ec45c87e86fca1b472cc3b1aefdaac518a"
+        },
+        "accepted_source_packet": {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-c/m16/tail_0001.json.gz",
+          "sha256": "07981819451ea4d2f48c69f39f7d5c43d3039899915c7c9d5e62fd8bbcda05c3"
+        },
+        "M": 16,
+        "stages": 1152,
+        "unknowns": 36896,
+        "bandwidth": 4,
+        "colors_per_field": 9,
+        "full_seed_directions": 18,
+        "seed_entries": "1 in each same-color mode of exactly one of Q/Pi; no missing modes",
+        "maximum_column_count_per_color": 2,
+        "approximate_P_includes_far_mode_aliasing": true,
+        "exact_band_of_J_claimed": false,
+        "maximum_alias_error_from_exact_band": 100607.14568552769,
+        "maximum_alias_relative_to_maximum_exact_band_entry": 1.5029970710974527e-06,
+        "simulated_full_direction_product_seconds": 0.05171784499998466,
+        "P_nnz": 608304,
+        "LU_nnz": 1530975,
+        "factor_seconds": 0.17708509499971115,
+        "gmres_seconds": 0.6808577069996318,
+        "gmres_info": 3,
+        "inner_iterations": 43,
+        "initial_longdouble_residual_linf": 2.5911277038460615e-07,
+        "true_residual_refinement_rows": [
+          {
+            "refinement": 1,
+            "rhs_linf": 2.5911277038460615e-07,
+            "gmres_info": 0,
+            "inner_iterations": 13,
+            "full_A_products": 14,
+            "wall_seconds": 0.2253997719999461,
+            "final_true_residual_linf": 1.2972921089349382e-09,
+            "residual_history_first": [
+              0.026571687285214227,
+              0.005871049994015976,
+              0.0023122075978213343
+            ],
+            "residual_history_last": [
+              2.3980376222051264e-07,
+              3.0549557371172405e-08,
+              3.097293024061583e-09
+            ]
+          }
+        ],
+        "overall_true_rhs_relative_gate_passed": true,
+        "all_actual_matrix_products": 60,
+        "rtol": 1e-08,
+        "restart": 40,
+        "max_restart_cycles": 3,
+        "residual_history_first": [
+          0.9999999999943979,
+          0.999999999371496,
+          0.9999999936656548,
+          0.9999999804476537,
+          0.9999999468659678
+        ],
+        "residual_history_last": [
+          3.92772154111906e-12,
+          1.1776060597477977e-12,
+          2.179580357062143e-13,
+          7.860368554530519e-14,
+          1.0080756050730922e-14
+        ],
+        "final_original_longdouble_residual_linf": 1.2972921089349382e-09,
+        "relative_rhs_residual_linf": 1.2972921089349382e-09,
+        "original_normwise_backward_error": 6.7660915844464775e-28,
+        "original_backward_error_gate_passed": true,
+        "actual_A_all_entries_retained": true,
+        "all_boundary_rows_retained": true,
+        "actual_A_matvec_precision": "np.longdouble accumulated then binary64 GMRES vector",
+        "native_JVP_implemented": false,
+        "nonlinear_solve_invoked": false,
+        "predictor_accepted": false,
+        "resource_peak_self_maxrss_kib": 197120,
+        "complete_surface": false
+      }
+    }
+  ],
+  "complete_surface": false
+}
