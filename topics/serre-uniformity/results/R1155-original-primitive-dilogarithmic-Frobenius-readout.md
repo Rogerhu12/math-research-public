@@ -645,3 +645,201 @@ $$
 本节没有扩大 §8.3 未分歧算术比较的范围，
 也没有用参数六重对称性替代原 weighted trace 的跨轨道项。
 全部为纸面推导，无数学程序执行。
+
+
+## 10. 同一五点配置的完整 Frobenius 五项式
+
+本节沿 R1133 (1133.84) 的固定顺序，使用同一个五点配置。
+它把原 arithmetic 五项上链接到 §8 的实际
+Frobenius/transport 读取，保留五个提升之间的相关性。
+
+### 10.1. 同一个 Coleman 五项式及两配置间的混合项
+
+令
+$$
+(u_1,u_2,u_3,u_4,u_5)=
+\left(\xi,\frac{\xi}{1-\eta},
+ \frac{\xi\eta}{(1-\xi)(1-\eta)},
+ \frac{\eta}{1-\xi},\eta\right),
+\qquad s_i=(-1)^{i-1}.
+\tag{1155.34}
+$$
+保持 $\xi\eta(1-\xi)(1-\eta)(1-\xi-\eta)\ne0$。
+取固定的 Coleman branch，并写
+$$
+a_i=\log_pu_i,\qquad b_i=\log_p(1-u_i),\qquad
+k_i=-\operatorname{Li}_2^p(u_i)-\frac12a_ib_i.
+$$
+用 $A=\log_p\xi,B=\log_p\eta,C=\log_p(1-\xi)$、
+$D=\log_p(1-\eta),E=\log_p(1-\xi-\eta)$，
+五个 $(a_i,b_i)$ 正是 R1133 (1133.86) 的同一个线性表。
+在五维形式向量空间中直接展开，有
+$$
+\boxed{\quad
+\sum_i s_i a_i\wedge b_i=0,\qquad
+\sum_i s_i a_ib_i=2CD.
+\quad}
+\tag{1155.35}
+$$
+第一式在形式 exterior algebra 中成立，
+不只是五个已代入数值的 wedge 为零。
+
+于是
+$$
+d\sum_i s_i k_i
+=-\frac12\sum_i s_i(a_i\,db_i-b_i\,da_i)=0.
+$$
+固定 $\eta$、令 $\xi\to0$：前三个参数趋零，后两项
+分别趋 $\eta,\eta$，所以常数为零。
+这里 $\operatorname{Li}_2(t)$ 和
+$\log(t)\log(1-t)$ 在这个切向极限均趋零。
+先在该局部盘求得身份，再用 Coleman continuation 的唯一性，
+得到
+$$
+\boxed{\qquad \sum_i s_i k_i=0.\qquad}
+\tag{1155.36}
+$$
+所用唯一性是 Furusho Theorem 2.14 证明末段使用的同一原则；
+固定 $\eta$ 后只在删去有限点的曲线上作 pullback 和延拓。
+因此不从复解析路径偷偷换到任意五个无关的 $p$-adic 常数。
+
+取第二个真实配置 $(\xi',\eta')$，用撇号记其对应的五个参数、
+logs 及 $G_i'=G(u_i')$。由 (1155.35) 的形式 wedge 身份，
+$$
+\sum_i s_i(a_i b_i'-b_i a_i')=0.
+\tag{1155.37}
+$$
+令
+$$
+R_i=G(u_i)D_pG(u_i')^{-1}
+   =\mathcal H(\alpha_i,\beta_i,\zeta_i),\qquad
+\kappa_i=\zeta_i-\alpha_i\beta_i/2.
+$$
+同一 class-two BCH 公式准确给
+$$
+\kappa_i=k_i-p^{-2}k_i'
+              -\frac{a_ib_i'-b_ia_i'}{2p}.
+\tag{1155.38}
+$$
+故两份 (1155.36) 和 (1155.37) 消去完整混合项，得到
+$$
+\boxed{\quad
+\sum_i s_i\kappa_i=0,\qquad
+\sum_i s_i\zeta_i=C_R D_R,
+\quad
+C_R=C-p^{-1}C',\quad D_R=D-p^{-1}D'.
+\quad}
+\tag{1155.39}
+$$
+第二式再用 $\alpha_i=a_i-p^{-1}a_i'$、
+$\beta_i=b_i-p^{-1}b_i'$ 的同一线性表和 (1155.35)。
+因此它保留原 ordered 五项式的乘积项，
+与 R1133 (1133.88) 的坐标一致；
+并没有先把各个中央槽当成普通可加 cocycle。
+
+### 10.2. 同一两变量提升的五个真实 carry
+
+现设 $L/\mathbb Q_p$ 有限，且
+$\xi,\eta,1-\xi,1-\eta,1-\xi-\eta$ 全为 $\mathcal O_L$ 的单位。
+取
+$$
+\xi'=\xi^p+p\varepsilon_\xi,\qquad
+\eta'=\eta^p+p\varepsilon_\eta,
+\qquad \varepsilon_\xi,\varepsilon_\eta\in\mathcal O_L.
+\tag{1155.40}
+$$
+五个 $u_i'$ 必须由这两个数按 (1155.34) 实际计算。
+于是 $u_i',1-u_i'$ 全为单位，且
+$$
+\varepsilon_i=\frac{u_i'-u_i^p}{p}\in\mathcal O_L.
+$$
+以下表中全部量在 $\mathcal O_L/p\mathcal O_L$ 中读取，置
+$$
+X=\xi^p,\quad Y=\eta^p,\quad
+\mathsf C=1-X,\quad\mathsf D=1-Y,\qquad
+c_\xi=l_1(\xi),\quad c_\eta=l_1(\eta),
+$$
+$$
+e_{\mathsf C}=c_\xi-\varepsilon_\xi,\qquad
+e_{\mathsf D}=c_\eta-\varepsilon_\eta.
+$$
+原五个 carry 的完整表为
+$$
+\begin{array}{c|l}
+i&\varepsilon_i\\ \hline
+1&\varepsilon_\xi\\[2pt]
+2&\displaystyle
+ \frac{\varepsilon_\xi}{\mathsf D}
+ -\frac{X e_{\mathsf D}}{\mathsf D^2}\\[7pt]
+3&\displaystyle
+ \frac{Y\varepsilon_\xi+X\varepsilon_\eta}{\mathsf C\mathsf D}
+ -\frac{XY e_{\mathsf C}}{\mathsf C^2\mathsf D}
+ -\frac{XY e_{\mathsf D}}{\mathsf C\mathsf D^2}\\[7pt]
+4&\displaystyle
+ \frac{\varepsilon_\eta}{\mathsf C}
+ -\frac{Y e_{\mathsf C}}{\mathsf C^2}\\[7pt]
+5&\varepsilon_\eta .
+\end{array}
+\tag{1155.41}
+$$
+例如 $e_{\mathsf D}$ 正是
+$\big((1-\eta')-(1-\eta)^p\big)/p\bmod p$，
+而不是 $-\varepsilon_\eta$。
+对乘积的 carry，模 $p$ 的乘法律为
+$\varepsilon(fg)=f^p\varepsilon(g)+g^p\varepsilon(f)$；
+逆元的 carry 是 $-\varepsilon(f)/f^{2p}$。
+这两条与 §9 的补参数公式逐项给出整张表。
+没有因 $u_i$ 是有理函数便跳过其分母的 carry。
+
+### 10.3. 保留 nilpotents 的实际有限五项 identity
+
+每个 $R_i$ 现满足 §8 的实际 $u_i^p\to u_i'$ 运输条件。
+将 (1155.25) 代入 (1155.39)，得到
+$$
+\boxed{\quad
+\sum_{i=1}^5 s_i\left(
+ -\frac{l_2(u_i)}{1-u_i^p}
+ -\frac{\varepsilon_i^2}{2u_i^p(1-u_i^p)}
+\right)
+ =\frac{e_{\mathsf C}e_{\mathsf D}}{\mathsf C\mathsf D}.
+\quad}
+\tag{1155.42}
+$$
+因为 $C_R\equiv-e_{\mathsf C}/\mathsf C$、
+$D_R\equiv-e_{\mathsf D}/\mathsf D$，右边的符号为正。
+等价的 BCH 五项式为
+$$
+\boxed{\quad
+\sum_{i=1}^5 s_i\left(
+ \frac{l_2(u_i)}{1-u_i^p}
+ +\frac{\varepsilon_i l_1(u_i)}
+        {2u_i^p(1-u_i^p)}
+\right)=0.
+\quad}
+\tag{1155.43}
+$$
+五个 $\varepsilon_i$ 是 (1155.41) 相关的实际值，
+不能逐项指定为零后继续使用这两个恒等式。
+即使 $\varepsilon_\xi=\varepsilon_\eta=0$，
+三个中间参数的 carry 一般也不为零。
+
+这些是强模 $p\mathcal O_L$ 等式，故包含分歧输入的全部
+nilpotent 部分。还可将其读成
+$\mathbf F_p[\xi,\eta,\varepsilon_\xi,\varepsilon_\eta,
+(\xi\eta(1-\xi)(1-\eta)(1-\xi-\eta))^{-1}]$
+中的有理多项式身份：
+对每个有限未分歧扩张及任意两误差参数取整提升，上述证明成立；
+所有 $\overline{\mathbf F}_p$ 点构成该开集的稠密集合，
+因而清分母后的多项式恒为零。
+所以任意含 nilpotents 的 $\mathbf F_p$-代数代入亦成立。
+此论证使用全部有限扩张的点，而不是由有限的
+$\mathbf F_p$-值检验猜测多项式身份。
+
+(1155.42)–(1155.43) 已付原换弦/五项组合所需的
+局部 Frobenius 相容式；右侧乘积与 R1133 的
+$\operatorname{Cor}(CD)$ 一样不能拆成两个 Norm 的乘积。
+实际 finite transfer 仍须按同一 coset/路径执行；
+本节不把此逐项身份称为指定 theta moment 的全组合已经构造，
+也不将任意 $\xi',\eta'$ 解释为分歧域上的 field Frobenius。
+原 $F_0$ 的 $z_{12}$ 仍待同一 filling 完成后读取。
+全部为纸面证明，无数学程序执行。

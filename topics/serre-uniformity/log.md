@@ -771,3 +771,8 @@
 ### 2026-11-28 10:04 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1155 §9付同一有限Frob的S3参数动作：完整ε carry、ordered/BCH中央二次修正及任意nilpotent底。root用有限多项式导数再读0/1端点，补齐导数看不见的U^p项；旧1–8逐字保留后即推。
 - 下一步实际五项配置的Frob glue及原moment；无数学执行，未扩未分歧比较范围。
+
+
+### 2026-11-28 10:07 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1155 §10付同一五点配置的实际Frob五项：完整Coleman切向常数、primed/unprimed混合wedge和五个相关ε carry全部保留，强modp及nilpotent身份成立。root纸推，o2独立读R1133原表并核BCH/尺度/常数；旧1–9逐字保留后即推。
+- 原theta moment的filling/全部Cor与anti-diagonal correlation仍继续，不以逐项五项代全组合；无数学程序执行。

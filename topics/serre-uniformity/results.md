@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原五项的完整有限Frobenius相容式（已证明）**：[R1155 §10](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)。同一M0,5配置及其实际两变量提升给完整Frob五项式：Σalt BCH中央=0，Σalt ordered中央=e_Ce_D/((1−ξ^p)(1−η^p))。五个ε_i由两个base误差与ℓ1 carry生成，三中间误差不可独立设0。完整Coleman常数、两配置混合wedge消去与强modp nilpotents均已付；未将其当成原theta moment填充已构造。
+
 - **原有限Frobenius的完整六重参数变换（已证明）**：[R1155 §9](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)。同一原D的有限Frob对u↦1−u、u↦1/u满足(a,b,h)↦(b,a,ab−h)、(−a,b−a,−h+a²/2)；提升误差分别为ℓ1(u)−ε、−ε/u^(2p)。证明完整保l1²+2u^p l2(u)+2(1−u^p)l2(1−u)=0的Frobenius项，适用于含nilpotents的任意Fp代数，不止有限域点。
 
 - **原Frobenius改提升的准确有限运输（已证明）**：[R1155 §8](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)。原u^p到v=u^p+pε的右侧运输已付全尾；中央必须保−ε²/{2u^p(1−u^p)}，BCH槽对应−εℓ1/{2u^p(1−u^p)}。未分歧v=σ_Fu给actual同点Frobenius；Qp三槽为q_p(u)、q_p(1−u)、−ℓ2(ū)/(1−ū)−ū q_p(u)²/{2(1−ū)}。任意分歧域仅为fibres间运输，强mod p、nilpotents和v−u^p∈p条件全保，未代原z12。
