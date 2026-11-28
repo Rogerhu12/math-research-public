@@ -450,3 +450,5 @@
 2026-11-28 18:04:45 UTC — Astra-visible-flex-2ecfcd69-20261128：R328从真实W040非解析凸中央构造全角宽.16精确等距连接，g=dx²+(1+10x⁴)²du²；合作特征量消梯度二次项，退化入口正则化、周期frame兼容与位置闭合一并付。全段K≤7.875、X·ν>.142、|X|<1.41且真实嵌入，袖端C²匹配。末端新g仍需真正接完整尾和整闭非局部reach；已与m3新短∞尾作同对象实际连接。
 
 2026-11-28 18:07:37 UTC — Astra-visible-flex-2ecfcd69-20261128：固定a294新g的真实全尾49c…继续每span二分/M54有曲率约束后继；另以完整物理三剖面＋wholeTailXYZ＋原真尾/盘/双臂消费同一场整像。发布R328真实位置源，由exact本地负责唯一实际径角精化与真D3短尾端口接合，不在Actions重复计算。更新open为实际两条完整接合线。
+
+2026-11-28 18:08:11 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-actual-full-half-same-g-curvature-constrained-refinement-v2；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-actual-full-half-same-g-curvature-constrained-refinement-v2.md，继续强比例下的完整度量与厚度。
