@@ -5,7 +5,7 @@
 
 ## 规则、同步与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`315436744c13c043c885f217f18b6724ba78fa11`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效，当前V8重置后pwd仍missing-server，恢复即pull。云核至`702f361f1cf4725a870a1740a34688e75b2bc469`非pull。两README SHA256 539f1ea02feb8a63c5aa734ed560ab6ecbf3ff7f570212e46788413bb072f444 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真实pull至少每小时，仅读变化diff即遵守。根§16差异已读至`bb51f8b60c8c5907662959bc45f62ca9cdb40ed3`：新派gpt-6.2-astra/ultra/fork none，原预算不变。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF终端rebase，否则freshHEAD全量整合重推，禁force/冒pull；令牌仅CLI。科学仅公开Actions，raw仅runner/scratch；完整source/params/run/whole身份/typed/失败未知必须保。不加AST/fixture/独审/准入门、不缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退完整闭源旧生成输出，完整复现+固定Git恢复；不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6。D为闭F0整像直径。同g/参数/t域真正精化空间/频率/时间至机器/原容差，多t整mesh各<5MB；严格缺口明示并继续提高三比值。
 
@@ -23,7 +23,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效�
 
 [R742右柄全实际](notes/2026-11-28-R742-right-handles-complete-launch.md)：46145500268/job140980544503成功，8设计×原3格全返。右区峰改善但全峰移至中区，右.42时32/44全峰1341.7930148178439/1163.1151317212843；E⊥角差增大。均有限样本，不付全reach/同g，完整原数值和source保note。
 
-[39完整全闭求解](notes/2026-11-28-run39-whole-closed-body-Killing-complete-launch.md)：R744/745五真实厚参考、双体系两层全F/X、一次冻结真实回拉g*及两精化，共11阶段/七源参66918B现刊触发。两端与帽全可变；六相位整像和有限Lie估计不冒材料流，39b另付真实轨线，原预算不变。
+[39完整实际](notes/2026-11-28-run39-whole-closed-body-Killing-complete-launch.md)：46146451800/job140983460924自然RC0，全11阶段518.2182s；冻结stage6同g，后两层Gram .15001922660375772→.04840454829227062，Lie17.288336414547743→21.826287727566044，K11.050084361299477，未付全时同g。全部原点/预算/返回保note，39b继续真实轨线与切图。
 
 [R746](results/R746-circular-grip-periodic-translation-and-physically-free-closed-ends.md)绕y圆握持与全周期平移：D0<3.40、全t reach≥.107/held≥1.521/grip≥1.40，无标记真体积差得0<δE≤.0012。完整柱同g，两端/盖真实可变但命名cap Gram>1e−3；40继续真全t，完整source现刊。
 
