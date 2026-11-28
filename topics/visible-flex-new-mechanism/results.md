@@ -555,3 +555,7 @@
 ## B030实际终态6482及未完metric J续接
 
 [真实结果](notes/2026-11-28-r566-d59fa-to-6482-natural-terminal.md)：run46119106791新增4metric+1restore，真实η.195138934664774/g0，1724fine已合格。末新J仅20块、无自然return，保trust与实际H/pending；[后继范围](notes/2026-11-28-r566-6482-metric-resume-scope.md)继续当前完整库，旧8635仍未执行。未宣固定g/宏观完成。
+
+## R636：原物理盒内准确支付两个真偶端的显式C²输入
+
+[完整证明](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)用两段五次/常数曲线及唯一能量幅值，准确满足P/动能端，全部连续物理盒有解析严格界。负B₂属原允许支；余两真偶端/全ruling继续求解。直接多项式背景加原257扰动保准确函数，不能借旧二阶spline规则冒零插值误差。

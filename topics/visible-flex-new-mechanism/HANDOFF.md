@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **4b58f07b7f87f4ff868bc6a36cd09850fa04c2d6**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **ed94128d96972c6c20d6219805fb69adcf9cea60**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -43,7 +43,7 @@ R617排固定有限pre/post精确非圆根，增长响应仍可用；τ1当前j2
 
 [R632真实入口](notes/2026-11-28-r632-true-hermite-original-bvp-scope.md)实际run **46121795578** / source32788128，07:34:02 UTC启动：65节点C² h/κ、257shape，α²=(1+U/L²)/∫κ²消真实动能端；η/八A/六rho全积分，三真端和完整ruling入同一merit/完整Jac。必要旧fine重建输出全attainer并作为新h/k输入，高度整体缩至Bernstein上界2.85，再重新支付全部物理盒。真端已达后用切向+真实恢复保门；LD常规范全离解链保留，绝对门不改。
 
-64×16对齐分片；fine128×16固定同一shape、α、八中心A、三规范，不重新求α或锚尾。原65点十九态ODE/HS从已付完整场重组。预算3300/预留180秒、48步只作可续执行界限。旧14段/绑定失败/60步费用全保，非旧17模族重命名。R619–627真端前提、原母18块576微包/ε1/12000/全正势仍保持；根后还欠period/frame/闭pose/宏观reach。[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)已证真P=0非零支必有U>16/225，整体h或κ缩放不能改变P零性质；据此正构造显式新真端输入。
+64×16对齐分片；fine128×16固定同一shape、α、八中心A、三规范，不重新求α或锚尾。原65点十九态ODE/HS从已付完整场重组。预算3300/预留180秒、48步只作可续执行界限。旧14段/绑定失败/60步费用全保，非旧17模族重命名。R619–627真端前提、原母18块576微包/ε1/12000/全正势仍保持；根后还欠period/frame/闭pose/宏观reach。[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)已证真P=0非零支必有U>16/225，整体h或κ缩放不能改变P零性质；[R636](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)已给全程原盒内显式C²分段五次输入，P/动能两个真偶端准确为零，B₂<0合法；其余两端/ruling仍欠。新实现保准确多项式背景+原257扰动，不误称旧样条规则已包含背景。
 
 ## 几何及新构造
 
