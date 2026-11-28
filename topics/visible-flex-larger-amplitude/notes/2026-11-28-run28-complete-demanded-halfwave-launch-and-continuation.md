@@ -1085,3 +1085,77 @@ root无可用executor，实际重置后唯一探测失败的最新记录为04:17
   }
 ]
 ```
+
+## 2026-11-28 08:34:23 UTC — 原runner只读完整scalar metadata，供新构造核实弧长
+
+官方job140865899880仍in_progress且原science/pure均已自然0。将原pure队列（46813字节，SHA3e706d02408abb33a19bb2d6421d370343caebd60ba377c55c38b1c4451f0611，固定844a27187b483a0f39503b9d0f96cbd9c6a4a4bd）替为以下唯一完整只读步骤；active/parent仍visible-larger-resume-20261128-28，不重复已完成science/pure，也不改变原final/typed。
+
+完整读出源码：topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_complete_existing_fixed_scalar_metadata.py；7320字节/SHA50ffbff8d2e2980295b2db1641c5ce0fbb874805fdfff5b5ed3ba9ea3d094b32/blob81ffb3bb0b4c62fb0bcb857baba110ddfb9de2b5。只使用原maker的完整read_preparation（stdlib，完整原源/参数/文件检查），取回原完整FullHold metadata、initial_law及其字、origin和完整末knot；不积分、不构造F/J、不解normal或优化。输入report固定65325字节/SHAc04003dc4e5e0eb6024df422507e6d5df4ecd3a0ceaa27d1280783363d277945。原FullHold metadata中的R不是R690修改后R，S不是整数运算scale，输出明确区分。新queue完整2941字节/SHAace525e8082cabfebaf4ee9ec4c72617b2e0fa905f1875750ef197f383140848；输出只在原runner，当前尚未观察它执行。
+
+```json
+{
+  "source": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_complete_existing_fixed_scalar_metadata.py",
+    "bytes": 7320,
+    "sha256": "50ffbff8d2e2980295b2db1641c5ce0fbb874805fdfff5b5ed3ba9ea3d094b32",
+    "git_blob_sha": "81ffb3bb0b4c62fb0bcb857baba110ddfb9de2b5"
+  },
+  "queue": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-28.json",
+  "step": {
+    "id": "read-complete-existing-fixed-scalar-metadata-for-R730-20261128",
+    "script": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_complete_existing_fixed_scalar_metadata.py",
+    "scope": "Read the already returned complete run28 fixed-input preparation and original complete scalar metadata through the original standard-library validator. Preserve the complete S/origin/initial-law objects and all source/input identities. No scientific field, new integration, optimization, normal solve, or old radius reinterpretation.",
+    "parent_bundle": "fixed-fejer-reference/reference.npz",
+    "args": [
+      "--repo",
+      "{repo}",
+      "--preparation",
+      "{work}/fixed-fejer-r690-inputs/report.json",
+      "--expected-preparation-sha256",
+      "c04003dc4e5e0eb6024df422507e6d5df4ecd3a0ceaa27d1280783363d277945",
+      "--expected-preparation-bytes",
+      "65325",
+      "--expected-run",
+      "46108296054",
+      "--output",
+      "{work}/postprocess/complete-existing-fixed-scalar-metadata.json"
+    ],
+    "outputs": [
+      "postprocess/complete-existing-fixed-scalar-metadata.json"
+    ],
+    "summary": {
+      "postprocess/complete-existing-fixed-scalar-metadata.json": {
+        "schema": "schema",
+        "complete": "complete",
+        "status": "status",
+        "reader": "reader",
+        "execution": "actual_execution",
+        "original_execution": "original_execution",
+        "preparation": "actual_preparation",
+        "constructor": "complete_input_constructor",
+        "source_records": "complete_source_records",
+        "original_parameters": "complete_original_parameter_source_records",
+        "scalar_input": "actual_scalar_input",
+        "full_metadata": "complete_FullHold_scalar_metadata",
+        "initial_law": "complete_initial_law",
+        "initial_law_words": "initial_law_binary64_words",
+        "initial_law_exact": "initial_law_exact_binary_rationals",
+        "origin": "analytic_extension_origin",
+        "origin_word": "analytic_extension_origin_binary64",
+        "origin_exact": "analytic_extension_origin_exact",
+        "last_knot": "complete_last_scalar_knot",
+        "knot_count": "original_scalar_knot_count",
+        "scalar_parameters_identity": "complete_scalar_parameters_identity_sha256",
+        "target": "mathematical_target_identity_sha256",
+        "physicalF": "physical_field_evaluations",
+        "J_evaluations": "Jacobian_evaluations",
+        "normal_roots": "normal_root_evaluations",
+        "new_integrations": "new_scalar_integrations",
+        "mutated": "source_or_parameter_mutations",
+        "certificate_claimed": "certificate_or_new_solution_claimed",
+        "scope": "scope"
+      }
+    }
+  }
+}
+```

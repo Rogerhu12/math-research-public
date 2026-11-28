@@ -333,3 +333,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:29:52 UTC — 32真实运行两输入返回，完整科学已启动
 
 32真实46125006601/job140917553486两必要输入均0，主science20911541/PID3496已启动；完整原leaf/tail与accuracy_reached=false原义保留。自身progress尚未产生，model/场/接受/最终报告未知，不借31数据。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md)。双README云核至`ad40eb0eebfc3ee79d3151fe524008b03f34054f`无变（非pull）。
+
+## 2026-11-28 08:34:23 UTC — 28原runner读取完整既有scalar metadata
+
+28原science/pure均0且官方job仍in_progress，完整源码与单只读queue原ID同步刊。用原maker完整read_preparation读取既有完整输入report，输出完整FullHold S/origin/initial_law与来源；不做新积分/F/J/normal/求解，不把原FullHold R冒R690 R。完整14参数词、原report whole绑定、实际源及原pure历史身份保[28完整note](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)。尚无新读出结果；为R730补实际长度条件，不设科学准入门。 双README云核至`b217b6991590203291572dfd646ade2861fd5ec9`无变（非pull）。
