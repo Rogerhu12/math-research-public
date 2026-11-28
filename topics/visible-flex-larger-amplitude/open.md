@@ -128,4 +128,4 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722�
 README未完成；时长、阶段、失败和输入困难均非终点，继续真实求解与全固定目标精化。raw仅runner/scratch，保完整源码/配方/真实run与SHA。
 
 
-22[完整启动包](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊：新workflow/controller/request/63721B三整步queue，完整19数值仅换半波20源；157/7及458/445/48全保，纯步须science真自然返后整接。当前官方run/输入/模型/点未返；启动说明及之后真实记录见[22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。
+22[完整启动包](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊：新workflow/controller/request/63721B三整步queue，完整19数值仅换半波20源；157/7及458/445/48全保，纯步须science真自然返后整接。官方46090913581/1于01:00:48Z真启动，输入/模型/点待返；启动说明及之后真实记录见[22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。

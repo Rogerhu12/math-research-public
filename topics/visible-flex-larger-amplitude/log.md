@@ -194,3 +194,7 @@ run46053911348/1及job140691661221 completed/cancelled@00:53:34Z，明确原因�
 新增课题外.github/workflows/visible-larger-20261128-parallel22.yml及完整22controller/request/queue/manifest/note；35原控制pins、全部同步/预算/执行流保，仅槽/日期/真实源路径变。新请求触发公开Actions，两完整input+157词科学；原7词pure真返回后整接，63721/110351/95000B全队列责任明确。已刊7d34全20源及637fc六参数；13旧包装ret57腾空间，17官方终态保54ac；未来22值全null，继续实际核实。
 
 双README云核至`077f0990d2e052f0a4805ee9e5efa75fb25204a8`无变（非pull）；课题外改动限本已授权运行工作流，不新增科学前门，不减目标/原预算。
+
+## 2026-11-28 01:03:47 UTC — 22官方实际启动
+
+run46090913581/1、job140811337445真实in_progress，01:00:48Z/head18081452；checkout/setup/dependencies success，原研究步骤运行。输入/科学model/point/几何/接受仍未知，完整官方事实保22note。双README云核至`94299347d7b13ad5481dde0c6c3b77f5c94871a6`无变（非pull），继续实际求解与全部费用。
