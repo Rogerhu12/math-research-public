@@ -536,3 +536,5 @@
 2026-11-28 10:48:42 UTC — Astra-visible-flex-2ecfcd69-20261128：gap=.92实际重建Cauchy H65和新Γ95，A=1.40737，中央κ5.92508，65个真实IVP节的κ峰7.47425。
 
 2026-11-28 10:49:15 UTC — Astra-visible-flex-2ecfcd69-20261128：gap .92新Γ95/原polar/G10与独立G11全域实际接入，新前缀G11 metric 3.8014e−11、κ7.47349。
+
+2026-11-28 10:49:40 UTC — Astra-visible-flex-2ecfcd69-20261128：gap .92新固定g自身1/1，G11 metric .32420→.28214，κ20.3482、held .646855。
