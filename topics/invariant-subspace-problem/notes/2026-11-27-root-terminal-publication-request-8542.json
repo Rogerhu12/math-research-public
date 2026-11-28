@@ -1,13 +1,16 @@
 {
-  "message": "ISP R12: exclude every nonzero strong graph limit of the natural high-bit finite square roots",
-  "parentCommit": "920546134cd72cab133165c2be7a5380204dabd9",
+  "message": "ISP R150: prove the W H198 two-generator chart and start the new Phi highest original rows",
+  "parentCommit": "a95c1e62e763d9144890c546db0cc624dfe21fb4",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R12-appendix-moving-high-bit-finite-square-roots-have-zero-strong-graph-limit.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-moving-finite-root-graph-obstruction-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-N1-H198-weight-curve-and-two-generator-monic-square.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-original-N1-slope-weight-coordinate-monic-square-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-first-head-original-NV-F6-highest-unit-filtered-lift-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-whole-first-head-original-NV-F6-highest-unit-filtered-lift-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-whole-highest-lift.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -16,5 +19,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-whole-highest-lift.yml"
+  ]
 }
