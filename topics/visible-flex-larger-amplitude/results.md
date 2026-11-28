@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R749（已证明，真非线性C²正宽等距续接）**：[移到直墙的真实圆端度量](results/R749-fractional-Darboux-exact-local-continuation-at-the-displaced-straight-wall.md) — z=v^(5/2)u将全Darboux化为纵向解析CK，bar g平坦发展恢复两个真平面坐标和完整入口二jet；同固定g、两端、θ∈[1,π/2]有共同正宽C²非C³真实解。裁拼入闭场保reach≥.106/D0<3.40/held>1.520/grip≥1.40/δE>0，但只内子带准确、裁拼及剩下端帽未付。原6盒全有理系数[公开运行源/参数](notes/2026-11-28-R749-fractional-Darboux-complete-launch.md)同时刊触发，实际返回尚待，有限系数不代收敛半径。
+
 - **R748（已证明，完整真端帽精确等距弯曲与全像厚度）**：[全帽developable场与完整法管](results/R748-developable-physical-caps-and-a-global-axial-tube.md) — 一共同空间Tφ作用于完整R746/R747闭像，legacy两完整端帽对同初g每t精确等距，含所有接缝/中心；R747规范只保帽物理等距，材料运输费用另列。全t reach>.105、D0<3.40、held>1.521、单握≥1.40；C²非C³真实帽法向germ与初C³像不全等，0<δE<.000475。后来C³修正只要该点一阶jet保留即可维持正商距，毋须冻结整个帽。中央活动带和双圆端完整同g仍未付，40继续实际全时求解。
 
 - **R747（已证明，共同初g的全闭offset弧长运输与端层费用）**：[真实环弧长材料规范](results/R747-offset-ring-arclength-transport-and-the-physical-end-cost.md) — Ω_d(s)=s−dΘ(s)严格可逆，在两完整端环准确付ss行，sv/vv误差由唯一转角差Θ(S)−Θ(s)−θ完全表出；真圆握持面连帽内领全同g。全cap无极中心atlas与旧R746共t=0物理场/固定g，二者每t完整像相同；reach≥.107等几何保。平行平面切片不能续接曲→直入口，全锁柱C⁴续接有Gauss阶次矛盾；C² v^(5/2)给三行leading真补偿但不冒完整非线性或固定宽度。两端/帽及中央实际物理自由继续求解。

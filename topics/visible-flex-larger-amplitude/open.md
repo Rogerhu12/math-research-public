@@ -125,6 +125,8 @@ R724–745完整源参/条件/失败未知保[结果索引](results.md)和[固�
 
 [R748](results/R748-developable-physical-caps-and-a-global-axial-tube.md)两完整真帽developable，legacy全t准确同初g；一共同物理场全闭reach>.105/D0<3.40/held>1.521/grip≥1.40，C²非C³帽法向germ给0<δE<.000475。中央活动带与双圆端同g仍待；额外C³场可动帽，仅正帽中心一阶jet保germ。
 
+[R749真非线性](notes/2026-11-28-R749-fractional-Darboux-complete-launch.md)实际入口z=v^(5/2)u经CK+平坦展开付共同正宽C²完整g/二jet；两端θ∈[1,π/2]，可裁拼保reach≥.106等全几何。裁拼区/剩下端帽仍欠；h0=1,64及原3次数×2全有理实际运行现刊触发，未返。
+
 ### 完整准确下游与完成责任
 
 R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。
