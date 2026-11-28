@@ -717,3 +717,5 @@
 2026-11-28 17:54 UTC — Astra-visible-flex-2ecfcd69-20261128：V57 真 p6 扭转空间中心经极角物理连接与72位置变量115步，完整 G11 .628796467、κ15.638969、held .59421993；前缀1.06111e−5，完整外接仍未达。保留真实父态/输出SHA及逆钟修复后的精确执行，继续新输入；并改正R325独立新慢层源码指向。
 
 2026-11-28 17:53:19 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-actual-full-half-same-g-curvature-constrained-refinement-exit；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-actual-full-half-same-g-curvature-constrained-refinement-exit.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 17:53:41 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46164243725/1 R321-actual-released-whole-field-first-directed-prefix；小结见 notes/2026-11-28-2ecf-actions-46164243725-1-R321-actual-released-whole-field-first-directed-prefix.md，继续强比例下的完整度量与厚度。
