@@ -28,6 +28,8 @@
 
 ## 新增结论
 
+- [R150：W/b0 整个负k射线的原q2/R6/完整N5排除](results/R150-appendix-unit211-W-b0-entire-negative-k-ray-original-q2-R6-N5-exclusion.md)：u非零的整μ和全部pole、u0的所有u+2/k首项相消均覆盖；U1/2 pole由N5首值−1，u0两中心由唯一极项/301非零排除。纸证无新执行，当前仅余三条权ray及内部/分母DVR边界。
+
 - [R150：正确Phi全权原首一t²、精确十列及第二NV头自由四元环境](results/R150-appendix-unit211-Phi-zero-corrected-whole-monic-t-quadratic-exact-ten-columns-and-four-generator-NV-head.md)：两真均值二次头在旧系数环上显示Bézout1，γO本身旧单位；原三mean与I6精确理想等式/四列和十列来源完整。第二NV头再叠原首一σ2，保全部重根和原剩余条件；纸证无新执行或排空。
 
 - [R150：W/b0 正e射线的原λ估值与两个极点中心](results/R150-appendix-unit211-W-b0-positive-e-ray-original-lambda-valuation-and-two-pole-centers.md)：原b0/q2/R6在k首值≠−2上排λ0/正估值，极点迫k首值4；因此全部极点只余−2/4。原短除余49/64于1009非零，保M首值0及全部未闭深中心。无新执行或整ray排除。

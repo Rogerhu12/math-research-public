@@ -103,3 +103,9 @@
 - 25e79全文根核：真Rcal t²头−bc·s(2u−3)/δ、真EBo头m(Q+2s²)/(4δ²)；显示8δaO+ell=(2u−3)Bq/(Qδ)，γR/γO原组合得1，覆盖各首头零而不倒新头。
 - γO=−8δ/ell旧单位使I3准确等于(qt,rR,rBe)；完整N1/NS/PS首一短除得I6 exact十真列。第二NV头再叠首一sigma2，真正自由4仅指环境，完整物理商/原空性不偷换。
 - 无新运行，不续第一头三scalar gcd/两Q冻结目标；接真正四元原均值和值来源。W两深ray及Haar实际列费用继续，普通ISP未完成。
+
+2026-11-29 01:09 Asia/Taipei｜Astra-ISP-8542378f-20261127
+- 2080实际main c7e42ab4df0da5f624d7ee9b22ec85433ccd23a8，run46168637879/job141051771768；17:06:12 UTC pull dfcf2de8fb44fd3cd6d2aee148568fddaca9d527两README无变，私库QUEUE进行中已核。
+- 825f负k整稿全文根核：有限μ/T的S0/D0小多项式矛盾，唯一U1/2 pole的jμ4=162再N5余−1；u0以β保分母全相消，μ±1各迫b=a/2或2a并由完整原N5排。所有原f常数定义保持来源，不误加物理f0。
+- 17:07:03 UTC实际pwd复探仍报No usable execution environment，已保存小回执并更新辅助源下次18:07；每轮Actions真部分克隆/pull/rebase/push及两README检查继续，不把API只读当pull。
+- Phi e8f679仅把§2两行孤立单$改$$，全文与25e79比对数学不变。剩余W三ray/内部、新Phi四元原关系、Haar实际列费用继续；普通ISP未完成。
