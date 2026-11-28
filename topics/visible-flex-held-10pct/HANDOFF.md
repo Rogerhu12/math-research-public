@@ -4,7 +4,7 @@
 
 ## 规则和来源
 
-- 最近实际pull后双README已读锚 `b98295a883dd4ebd035755f2d9776727873d3c44`（2026-11-28 18:16 UTC）。
+- 最近实际pull后双README已读锚 `765b0c83b2aed141080f49c514f1b02dd853e733`（2026-11-28 18:28 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；最新实际pull `ddd3d4ed76e24b23c888e84b60385432a6fcf426`（FETCH_HEAD 2026-11-28 17:51 UTC），相对0e3cbe262双README空diff；QUEUE仍本会话/2026-11-28进行中。最迟18:46 UTC再pull。
 - 每结论pull/核双README差异/推；NFF立即rebase循环成功，不force。根§12不另造审批/独立审查门；§15只源/参数/hash/小标量，所有再生数组留scratch；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/参数/时间域连通闭C²嵌入连续族；H内点/直径≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D、全metric≤1e−6、空间/频率/时间精化降到机器或求解容差；多个t小网格及严格存在差距。λ<1非准确圆弧H，换δ/profile/帽不是同g精化。完成后仍继续提高比例。
@@ -17,10 +17,10 @@
 旧视图最高全门接受λ=.128/M24：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。旧raw当前不可读。
 λ=.256的M24/M32/M40都只过BVP/RMS/BC、metric分别8.84140e−5/1.285843882e−6/1.248439224e−6未门；M40真952点/RMS9.69144e−7/mean1936/δ=.06810713649643507。M32→40平台是试更严径向tol的理由，不是误差原因证明。旧M48未有完整接受，89083真exit1原因未知。[M40恢复回执](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)不冒逐字旧JSON。
 
-恢复后70源、chart/port和415×25初猜完成，原SHA核同。严格λ0/M8/tol2e−7原TTY81483由415→656→741→765→812点；765曾接受1/8192、1/131072极小步，后来仍增网，不能称全程停在765。最新812完整未接受raw `a9104450972ccd21b78d92f399e1092bca3db6471f16b50499e5eb5b89b24861`。[实际方法交接](notes/2026-11-28-design-r87-lambda0-fd-method-handoff.md)保随后工具Ctrl-C真exit1/再次Unknown process id；内部child码和cleanup没有观测，不补造数学失败或清理成功。[18:08:28 UTC真实重启](notes/2026-11-28-design-r87-lambda0-analytic-support-start.md)从该812完整状态接独立解析support同F求解；实际sidecar确认唯一support安装、原δFD和全部门保留，已812→892点、ordinal2全J检查点8a19268f…，尚无新接受。实际命令da8532b0…，旧工具内码仍未知。
-
-[七节点δ诊断](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)：原ordinal9/765点snapshot e13909bf…；首入口真exit1、v2真exit0。λ0 factory没有参数jet属性，故实际没有V5解析δ安装；原δ完整FD h2e−7对独立解析相对差3.33993e−9，全state/support/RHS逐位同，未接受新场。
-[全支持三jet修复](notes/2026-11-28-analytic-lambda0-support-analytic-repair.md)：原末support尺度1e−9使物理FD步2e−14，真实多列差分噪声显著。原核心固定材料坐标的F/Ft/Ftt参数链式导数完整，接原analytic_adaptive_core_jac保全部state/δFD/RHS/门；72组core三jet实核、低两RHS列相消/截断限制原样保留。新 `zero_planar_support_analytic_driver.py` 043bae30…已compile/help并交design，冻结时未跑新BVP。诊断765与后继812角色分开；第二核报告实存但工具终态未恢复，不补造exit。
+恢复后70源/chart/port及原初猜逐字恢复；旧FD λ0由415→765→812点，765曾接受1/8192、1/131072极小步。[旧方法交接](notes/2026-11-28-design-r87-lambda0-fd-method-handoff.md)保工具81483 Ctrl-C真exit1/再次Unknown，但内部child/cleanup未知，不补造。原812完整raw a9104450…仍未接受。
+[δ实核](notes/2026-11-28-analytic-r87-lambda0-delta-diagnostic.md)明确原λ0没有V5解析δ安装；七节点独立解析δ与原FD相符，state/support/RHS不变。[support三jet修复](notes/2026-11-28-analytic-lambda0-support-analytic-repair.md)给固定材料F/Ft/Ftt完整参数链式公式，真实小步FD污染已核，72组core三jet实核，保低两RHS列相消/截断限制；新driver043bae30…只改support导数，原δFD和所有门保留。
+[18:08:28真解析support启动](notes/2026-11-28-design-r87-lambda0-analytic-support-start.md)从812到892再1049点，但原RMS812/892为5.431408116e−7/5.515271587e−7、BC均1.4523e−16、p逐位同；无完整接受。18:21:38原owner内部请求真join child−15、协议exit4、remaining_live_members=0，789.73s/141428KiB。最新1049×25/p8未接受raw 384822c0…完整保留；与旧未知内部码不同。
+**当前唯一活BVP：** 18:26:24.809726 UTC真启动小正λ=.002/M16/N512/tol2e−7，TTY44020；out `held10-design-work/R87-strict-recovery-20261128/lambda002_m16-from-unaccepted`，command SHA5550b922…。原1049完整三块Y/所有p按原lift升模，三reference jet差≤3.55e−16、rho差0；只是未接受初猜，原accepted-source门未改。正λ原完整解析参数Jac/CSR/QR、全部BC/RMS/metric门保留，-u真实逐mesh输出。最坏λ0格窄精度核不支持浮点RHS相消解释；不以失败平台推λ0无解。
 
 [正式stage control v2](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)81153bdf…：真stage后nonce/outdir/scope停请求，先完活BVP并同步真锚；.256:32 mode-floor，真同family双锚用原完整两源升模割线，metric-only源仍单源lift。资源/信号工程退出不λ二分。全部原门保持，真锚一到接后继到λ1；原control1 afe8e548…也已保存。
 
@@ -43,7 +43,7 @@
 旧λ.002/q=.06 raw-H完整闭图：[R90](results/R90-complete-closed-all-phase-metric.md)全域全相位metric≤9.97128585114805e−7；R82 D≤2.3850166810、support≥.6420099884、K≤12.3、reach/D>.03408815；[R89](results/R89-sharp-marker-bernstein-and-unchanged-geometry.md)新固定帽full-E(3) dE>7e−17。原audit normalizedFullDefect1.964293876e−5、原未知79580、stage82 K<10 false均保留。不是准确λ1/final-H/完整fixed-g；旧数组遗失，不重算1152段。
 [R92](results/R92-complete-refined-chord-space-and-residual.md)全维细网格弦可逆运输Bfine=T⁻¹diag(B,I)S，完整左右残差≤dmaxε/ε，单右端∞回代不增。旧真实v3二分867格到880点/64264维，17784真exit0/RMS9.7104954196e−7/BC9.48179e−12/metric6.5389748102e−7；只仿射DN前缀，新native从未启动，旧数组/未推源不可读，不迁到新λ1。
 [R93](results/R93-finite-high-order-phase-witness-and-euclidean-bound.md)给N=3J有限相位αj≤2π/9<4/5、矩差≥cJ|AN BN|、两柱长至少一非零；全E(3)平移界3d/2和min(σ/3,ΔI/KN)表面距离。J1–8 Fraction真0，没有新λ1活动矩/几何。
-[R91](results/R91-period-mean-compensation-and-wider-core-box.md)原core盒A≤8/9、所有λ κ<3723/314；[R94](results/R94-binary64-core-window-period-budget.md)付实际S*/b* binary64参数误差，仍相同预算。Gauss/实际最终A/全图尚未付，analytic继续该具体责任，不重证原预算。
+[R91](results/R91-period-mean-compensation-and-wider-core-box.md)原core盒A≤8/9、所有λ κ<3723/314；[R94](results/R94-binary64-core-window-period-budget.md)付实际S*/b* binary64参数误差，仍相同预算。[R95](results/R95-actual-core-normalization-from-positive-inverse-average.md)现以原λ.128/M24全部字面系数的正权逆平均及完整二阶余项，严包真beta并付原GL12/24格误差<9.207e−5，代数曲率<11.85678<12.3；原有限beta小核心重建逐位同。只付标量，实际λ1的A/全核心位置导数/全图仍欠。
 
 ## 5. 执行恢复与继续
 
