@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-hk-individual-NP-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-negative-P-universal-range-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [负P整来源在全部原旗上单射且稠密](results/R267-appendix-negative-flat-inverse-entire-sources-universal-range.md)：同一Q原来源给同向量P幂下界；精确logloglogM_n=30n log2+O(1)，完整Jensen 6/8预算付整源、同向双负幂及商场真图核。任意双变量整和quasi仍开。
 
 - [h=k 四个完整原个别 N/P 与不除 NV 斜率的标量返回](results/R150-appendix-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns.md)：真20.773897299秒/354完整除返；四必要核次数(74,19,9)/(70,18,8)/(85,21,10)/(79,20,10)，全部Δ0和新头零保留，未排空。新W整α0原单V输入首次派发。
 
@@ -67,5 +69,3 @@
 - [全W原D双列取消、纯k覆盖与完整规范界616824](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)：a29实际13.166233637秒/0，整L0/H1980保，P′双度93/119，唯一原comm行完整Bezout1；固定303阶结式非零且k度≤51402，权交长≤51402，完整重数及有限原返回保留。
 
 - [Phi完整三阶核为零、精确789及整权模型](results/R150-appendix-unit211-Phi-zero-complete-third-kernel-zero-exact-degree-789-and-integral-weight-model.md)：890实际10.546223899秒/0，两层三阶项各零，整QQ/Q2/p1009同度789；不付其它物理头或排空。
-
-- [R150：整H42原固定十二阶交点及23268权点界](results/R150-appendix-unit211-Phi-zero-whole-H42-original-fixed-twelve-intersection-and-23268-weight-bound.md)：原DG∈I10/QQ总度554、H42真实点模det311/Bézout1与Gauss付整曲线有限交；≤798个三头同时零余权点的λ纤维继续。
