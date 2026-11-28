@@ -4,7 +4,7 @@
 
 ## 规则、认领与完成线
 
-- 最近实际pull后双README已读锚 `e271b4f28d1b5222ff14309935a9a12cdbeb5e84`（2026-11-28 17:31 UTC）。
+- 最近实际pull后双README已读锚 `5538870311afb814eb332f2926b8c82eee1930e2`（2026-11-28 17:33 UTC）。
 - 私库原QUEUE认领 e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull到 `0e3cbe262f95c04561fec3c56e64347eb6801d25`（2026-11-28恢复后已实返，17:27 UTC核记），相对前已读501598ec双README空diff，QUEUE仍本会话/2026-11-28进行中。
 - 每结论先pull核双README差异再push；至少每小时实际pull。NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 前沿与完整历史见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[R90后快照](notes/2026-11-28-handoff-after-r90-before-new-frontier.md)、[工作区变化前H](notes/2026-11-28-handoff-before-workspace-view-reset.md)。不重做已登记结论；必要输入再生不计新数学结果。
@@ -31,7 +31,7 @@
 ## 3. 完整DN、仿射弦与真正固定g
 
 [R85及补充](results/R85-complete-robin-to-actual-dn-and-fixed-metric-update.md)原64191维Robin→真DN rank≤24更新、fixed-g25块与完整回代残差已给。全24响应列/完整q列实际已返；旧J c9c4906f…与accepted raw4f503380…的x/pscale同、y/p异，只可作混合点chord。实际χN=2.47108106147e−5、25块完整仿射残差1.362e−18；当前物理J逆仍未付。
-[原first-chord](notes/2026-11-28-analytic-fixed-q-affine-chord-first-return.md)真1全步后BC/metric过，RMS1.001564e−6仅867号cell未门。随后v2收紧BC后同cell仍RMS1.001559e−6；v3只按原规则二分该cell，879→880/64264完整未知方程，实际17784 exit0：RMS9.7104954196e−7、BC9.48179e−12、physicalBC1.89636e−13、metric6.5389748102e−7全过。它仍只是仿射DN前缀，q_aux=.060000906802433765、固定δ=.06413464112662924；新native从未启动，原raw当前不可用。恢复小记录及完整弦延伸有限引理将单独登记。
+[原first-chord](notes/2026-11-28-analytic-fixed-q-affine-chord-first-return.md)真1全步后BC/metric过，RMS1.001564e−6仅867号cell未门。随后v2收紧BC后同cell仍RMS1.001559e−6；v3只按原规则二分该cell，879→880/64264完整未知方程，实际17784 exit0：RMS9.7104954196e−7、BC9.48179e−12、physicalBC1.89636e−13、metric6.5389748102e−7全过。它仍只是仿射DN前缀，q_aux=.060000906802433765、固定δ=.06413464112662924；新native从未启动，原raw当前不可用。[R92完整弦延伸](results/R92-complete-refined-chord-space-and-residual.md)已给全方阵S/T与Bfine=T⁻¹diag(B,I)S；单右端回代∞不增，完整右近似逆残差≤dmaxε、左≤ε，所有BC/参数保留。真实v3恢复小回执已登记，旧数组/未推源不可读，不冒严格当前J逆。
 
 原generic8outer TTY80294已实际exit1；[真实ENOSPC终态](notes/2026-11-28-analytic-generic-outer-enospc-terminal.md)记录observer写盘及finally写盘异常，cleanup已返回但结果未存，独立子进程码未知。最后1007点/RMS1.38e−6/BC4.82e−9，无新inner raw或native，不是数学失败，也不是继续活算。
 旧原support同g M24/1032点metric6.53252e−7是真前缀精化，M32真实−9与v7/v8准备历史仍保留；不能称全DN固定g。当前analytic转向真实QR λ1首锚的新完整固定g数值入口，不重建旧q.06 J/V。

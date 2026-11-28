@@ -1,0 +1,97 @@
+{
+  "schema": "recovered-tool-evidence-original-refined-fixed-g-affine-prefix-v1",
+  "record_scope": "Transcribed from actually returned tool text after the local scratch became unavailable; no raw arrays reconstructed",
+  "observed_terminal": {
+    "session_id": 17784,
+    "exit_code": 0,
+    "chunk": "75c967"
+  },
+  "original_run": {
+    "path": "held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-c/run.json",
+    "sha256": "335295d9fc9f0090e5d58bd4c330f9fc4e997bf5db5dbf299c61549a0f03acf0"
+  },
+  "original_note_json_sha256": "8fa31049a4ae441e7c5986c98d2a264723976f957d41daa6cb525d630fe9d0fd",
+  "original_note_markdown_sha256": "4ff2dd1ab2b3ae9e4168329cd3a33f1479a7dda05fd5a50c12e2a67c14a77a63",
+  "status": "prefix_affine_gates_passed_true_tail_unpaid",
+  "seconds": 89.71260676899692,
+  "max_self_RSS_KiB": 604208,
+  "source_entry": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_fixed_q_affine_chord_solve_v3.py",
+    "sha256": "74816b57e11a2f180bc2cd4adef49e5c985d9add18ad913887eca0eedd48acd3"
+  },
+  "refinement_helper": {
+    "path": "topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/complete_refined_chord_map.py",
+    "sha256": "84c45f2551de956db1e12f3bf9ef84ec4d96d43ae2a9935d4c654c40fb57df16"
+  },
+  "mesh": {
+    "previous_nodes": 879,
+    "refined_nodes": 880,
+    "states": 73,
+    "parameters": 24,
+    "coarse_equations": 64191,
+    "refined_equations": 64264,
+    "bisected_parent_indices": [
+      867
+    ],
+    "trisected_parent_indices": [],
+    "parent_interval": [
+      0.9875,
+      0.988125
+    ],
+    "all_old_nodes_and_states_byte_retained": true,
+    "independent_added_states": 73,
+    "no_child_equations_discarded": true
+  },
+  "gates": {
+    "RMS_max": 9.710495419608677e-7,
+    "RMS_tolerance": 0.000001,
+    "affine_BC_max": 9.481793280217976e-12,
+    "BC_tolerance": 1e-7,
+    "affine_physical_BC_max": 1.8963586560435954e-13,
+    "physical_BC_tolerance": 2e-9,
+    "original_metric_l1": 6.538974810172833e-7,
+    "metric_tolerance": 0.000001,
+    "full_collocation_max": 1.7814162722262859e-12,
+    "all_prefix_affine_gates_passed": true,
+    "mean_nodes": 1168
+  },
+  "parameters": {
+    "old_additive_delta_p0": -0.000009683937550986032,
+    "physical_delta": 0.06413464112662924,
+    "gauge_q": 0.06,
+    "warp_reference_q": 0.06,
+    "solver_log_primary": 0.000015113259690205349,
+    "physical_primary": 0.060000906802433765
+  },
+  "chord": {
+    "original_accepted_steps": 1,
+    "alpha": 1,
+    "domain_rejects": 0,
+    "merit_rejects": 0,
+    "complete_inverse_calls": 2,
+    "maximum_complete_refined_chord_residual": 1.0695186826369225e-23,
+    "maximum_small_block_residual": 7.754818242684634e-26,
+    "maximum_delta_constraint_roundoff_before_assignment": 1.262177448353619e-29,
+    "new_current_J_constructed": false,
+    "exact_current_Jacobian_claimed": false
+  },
+  "source_original_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "previous_v2_run_sha256": "681d5aadaaf3ea9c27acc45e9f0c409c724c77a825cad50ab12248d88848b06f",
+  "raw_return": {
+    "path": "held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-c/unaccepted-affine-return.npz",
+    "sha256": "3a587bd47141f11dad2b42f3d591e97e1bcd2043597472f9d6ec8ffe4906d74e"
+  },
+  "physical_return": {
+    "path": "held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-c/physical-unaccepted-affine.npz",
+    "sha256": "e97cfbbdba43faa42201b04f59099f16cc17562a2896c2a29477a3bee85f3465"
+  },
+  "last_step": {
+    "path": "held10-analytic-work/lambda002-m24-fixed-q-affine-chord-20261128-c/unaccepted-chord-step-000.npz",
+    "sha256": "31e14b51918cc55f10a92616147cd681b5f5ba371ab531ec8facbc6deb83f34a"
+  },
+  "native_new_request_executed": false,
+  "actual_new_H_response_returned": false,
+  "accepted_fixed_actual_DN_field": false,
+  "complete_surface": false,
+  "current_scratch_arrays_available": false
+}

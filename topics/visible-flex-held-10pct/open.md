@@ -28,6 +28,8 @@
 
 [真实λ1完整QR-DN入口](notes/2026-11-28-tail-lambda-one-complete-qr-resource-entry.md)已准备并按原源码核同；真正accepted λ1 summary到来后，原native4/chord3/8outer及最终physical-H完整门直接接入。新source_kind/真实mean/4/5相位明确，不冒旧streamed或旧M24来源；当前只有入口检查，尚无正向耦合结果。
 
+[R92](results/R92-complete-refined-chord-space-and-residual.md)已证完整旧弦向任意径向细网格的准确可逆运输，保所有新未知/子行/原BC；完整左右残差界与单右端不增明确。真实旧λ.002固定g仿射前缀只二分867号cell到880节点，RMS/BC/metric全原门已过，但真新native从未启动；旧raw当前不可读，不迁移其旧J/V到新λ1。
+
 ## 3. 同一完整问题的精化
 
 冻结最终δ、全部轮廓/warp校准、核心或声明的同一未知函数空间、源Cartesian mean/primitive、尾背景和完整时间域。R53原支持族与完整baseline+零phase是不同的合法未知空间，须选定并如实说明。旧actual-refine KIND/1168分支不覆盖新高M/新mean；只改标签不合格。
