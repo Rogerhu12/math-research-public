@@ -165,3 +165,6 @@ AASQ18R：实际46141084735/1 success；全原BFP、DCP两不同96中心及两�
 
 
 ASQ20：同原UACT两个73728B whole dyadic方阵，实际CFC全96×96中心D以完整整数乘法形成XD；真半径≤2.694e+.17min(HS,Schur)。原10目标、所有phase/mean/cross保，SC/H96R/PWA未全前不运行。另接真实H96R原validator和PWA原自然校验桥，规则16独立审读凭据不放松。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+NPG：真实无穷p的low变化≤112000ρ、high→low raw≤8500ρ/rough≤8.8e6ρ；原全193/独立97+96、两mean、所有源跳保。GG真图后独立验body、两个完整physical门并送同源signed解至WHN负窗；70000三角迹费含真Qδ+p。实际GG和global matched输入尚待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
