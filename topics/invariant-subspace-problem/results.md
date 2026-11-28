@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-whole-Azero-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-W-alpha-zero-F8-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [整个W α0的原F8四重二次域覆盖](results/R150-appendix-unit211-W-alpha-zero-F8-whole-original-cover.md)：无新权头恢复f/t，四固定V投影与40/51阶e投影、完整QQ Bézout给(k²+8k+8)^4；21.280518074秒/63687商积，保全头零/垂直支/重数，整域原行继续。
 
 - [正确Phi整个A=0原曲线排除](results/R150-appendix-unit211-Phi-zero-true-Azero-second-linear-and-whole-curve-exclusion.md)：第二原线性支首一二次/三同点minors，8/8/9固定λ结式的全QQ gcd=s³h⁴/16仅已付；61.279秒。合第一支全A0闭，B/G仍保。首派全γ原三次迹二列输入；B0末JSON失败保真实记录。
 
@@ -67,5 +69,3 @@
 - **R150 / Phi 真(u−1)^30因子与完整695模型：** [证明及冻结边界](results/R150-appendix-unit211-Phi-zero-u-minus-one-thirtieth-factor-695-model-and-frozen-memory-boundary.md)。四轮QQ核完整付30阶下界，合先前u⁴给695次整模型；精确39未证，余九模重数保。唯一71.641秒/−6内存失败冻结，不加内存或缩jet重跑。
 
 - **R150 / Phi 原 u⁴ 精确因子与完整725次整模型：** [证明](results/R150-appendix-unit211-Phi-zero-exact-u-four-factor-and-complete-integral-weight-model-725.md)。同原C22两轮真QQ核各nullity2，完整jet与首一Gauss付ord_uF=4；只用既有完整模上界付精确性，所有Q主元零点与余坏块保留。原必要方程保度725，未排整Phi。
-
-- [原Haar全整数幂的函数正序交换子必零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)：对任意有界T，用真实标量WOT返回和正望远镜端点证明[C^r,T]有一个锥符号即0；全部有限放大和aC^r+bI同。双侧正半交换锥精确等于正交换锥，不自动传给无格结构的普通子商。
