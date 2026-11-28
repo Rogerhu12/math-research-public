@@ -4,7 +4,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: isp-8542-hk-P-cubic-discriminant
+  group: isp-8542-hk-p-cubic-discriminant
   cancel-in-progress: false
 jobs:
   exact:

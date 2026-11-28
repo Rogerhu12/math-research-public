@@ -18,6 +18,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi的原t参数N1、两条斜率曲线与精确六行二列](results/R150-appendix-unit211-Phi-zero-corrected-t-parameter-N1-two-slope-curves-and-six-by-two-model.md)：317928首次28.214213199秒/0；三均值规则、原λ3、完整极化N1和两列呈示全返。纯权斜率剩H6/H8各一次，在其补图原I4精确首一二次加六行；两个完整零曲线保留，未判空。
+
 - [R150：W/b0整个交叉头零支排除与全局det=1原I4](results/R150-appendix-unit211-W-b0-cross-zero-complete-original-weight-unit-and-global-det-one-I4.md)：cb71首次0.772347633秒/0，三个完整常数域中原三B1的ν-gcd均8→3→3，旧paid支持删尽后实际原单位返回。结合旧G5用CRT得(B11,B21,B31)=A_W；纯权可逆行变换给全b0四式精确呈示，不反演G或几何头。b0仍未排空。
 
 - [R150：正确Phi的整NPV五次最高矩阵C77与十三生成图](results/R150-appendix-unit211-Phi-zero-corrected-NPV-five-whole-leading-C77-and-thirteen-generators.md)：首次实际1.893733044秒/0，九伴随乘子、十八坐标及QQ因式完整返回；C77总77、双度66/44、1951项，QQ不可约且重数一。C开图必要(λ,T,z)代数十三生成、λ首一次数≤13，C0整曲线保留；独立U0另计。

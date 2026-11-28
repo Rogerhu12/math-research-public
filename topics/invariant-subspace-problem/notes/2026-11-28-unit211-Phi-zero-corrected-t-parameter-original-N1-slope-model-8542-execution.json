@@ -1,0 +1,297 @@
+{
+  "schema": "isp-correct-phi-t-parameter-N1-first-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "sourceBasename": "2026-11-28-unit211-Phi-zero-corrected-t-parameter-original-N1-slope-model-8542.py",
+  "sourceBytes": 15033,
+  "runId": 46147554675,
+  "jobId": 140986824614,
+  "limits": {
+    "seconds": 120,
+    "memoryBytes": 1073741824,
+    "outerSeconds": 135
+  },
+  "execution": {
+    "elapsed_seconds": 28.21421319899997,
+    "max_child_rss_kib": 166752,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "21e3710300d405488d5b328c263116569f28c321",
+        "before": "be479a0ebd3762207e459ae38deed08d6f15cf32",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T13:02:01.663292+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46147554675",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "be479a0ebd3762207e459ae38deed08d6f15cf32",
+    "source_exit_code": 0,
+    "source_git_blob": "317928a236335a6d705499e6655f41a1749c4715",
+    "source_sha256": "c6346f72acd3fe94998ca4d8f4910af2ceb0e8afd5a67c5eb27df4696e480864",
+    "stdout_bytes": 12621,
+    "stdout_sha256": "bc5bb4118fa5868bba518f34048e21a153c8f24fce0cc3ddee15da459818a3d9",
+    "stop_reason": null
+  },
+  "actual": {
+    "head": "32*u*Q*(2ell-1)/M^2",
+    "headProfile": {
+      "denominator": {
+        "degrees": [
+          8,
+          4,
+          0,
+          0,
+          0
+        ],
+        "sha256": "eb8e1e2c51d193f68d1460269826de5d438934e0ff609c97373df50cc64c681a",
+        "terms": 25,
+        "totalDegree": 8
+      },
+      "numerator": {
+        "degrees": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "sha256": "1d07ce5806a5a5b92bb8fcb9e389d1a8fbd9597307db7b1a5a930f2e74d0c845",
+        "terms": 4,
+        "totalDegree": 5
+      }
+    },
+    "wholeTrueMeanRuleReturns": true,
+    "originalMonicLambda": {
+      "degree": 3,
+      "tDegrees": [
+        1,
+        2,
+        3
+      ],
+      "rawActionReturns": 3,
+      "CHCoordinates": 9,
+      "noOriginalModuleFreenessAssumed": true
+    },
+    "fullOriginalN1": {
+      "tDegrees": [
+        2,
+        1,
+        1
+      ],
+      "rawPolarizationAndMeanTraceReturned": true
+    },
+    "slope": {
+      "allSlopeZeroFibersRetained": true,
+      "seconds": 0.1286015500000417,
+      "slopeDenominator": {
+        "degrees": [
+          11,
+          5,
+          0,
+          0,
+          0
+        ],
+        "sha256": "8c88bcc2d5d2031285fa07f3f638132c4aa932d2aabc76560870a7d9446e7f4c",
+        "terms": 40,
+        "totalDegree": 12
+      },
+      "slopeIsZero": false,
+      "slopeNumerator": {
+        "degrees": [
+          15,
+          8,
+          0,
+          0,
+          0
+        ],
+        "sha256": "f0dc5e9187e23d9e5528349a792d327f4e74d11f8cc51b90b8f2358053274592",
+        "terms": 79,
+        "totalDegree": 15
+      },
+      "stage": "new_t_parameter_N1_original_pure_weight_slope"
+    },
+    "exactRemainingSupport": {
+      "constant": "1/1024",
+      "entireUnknownSlopeZeroLocusKept": true,
+      "factors": [
+        {
+          "degrees": [
+            6,
+            3,
+            0,
+            0,
+            0
+          ],
+          "multiplicity": 1,
+          "sha256": "2b93b7f418f47c46493b2b1edbd717ef8f1c4a027fe312c8717805e8e11d0e77",
+          "terms": 16,
+          "totalDegree": 6
+        },
+        {
+          "degrees": [
+            8,
+            4,
+            0,
+            0,
+            0
+          ],
+          "multiplicity": 1,
+          "sha256": "ddaac32405c19d23886f545ac141f33b83b3bddb1f87a647317ec682d82a5945",
+          "terms": 25,
+          "totalDegree": 8
+        }
+      ],
+      "fullExactFactorProductReturned": true,
+      "retainedWeightSupport": {
+        "degrees": [
+          14,
+          7,
+          0,
+          0,
+          0
+        ],
+        "sha256": "1a40cae82d6752cacad4033ed12c07ae06731abd9ff7db0c976812d86d1b68dc",
+        "terms": 63,
+        "totalDegree": 14
+      },
+      "seconds": 0.12959903700004816,
+      "slopePaidEverywhere": false,
+      "stage": "new_t_parameter_N1_slope_exact_remaining_support"
+    },
+    "sixByTwo": {
+      "completeI4Presentation": true,
+      "coordinate": "Zc=af*f+av*V",
+      "monicQTDegrees": [
+        3,
+        2,
+        0
+      ],
+      "rowTDegrees": [
+        [
+          5,
+          4
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "rowProfiles": [
+        [
+          {
+            "numeratorSHA256": "d1f04b65d1d79c054dbbdf2f6b7f9b46ed4c084bc8e65205dce2f5d6885b0c86",
+            "denominatorSHA256": "2a8daf368c7f933768e21e2ca9967bf5ab5614f92ce400bb444403483c65f175"
+          },
+          {
+            "numeratorSHA256": "e8d3d1bc3bc1a402b7a96d82b7d592ac8ac1b3d215e1002662698194cce1db14",
+            "denominatorSHA256": "c411913768b75d774322835ab9265d70077296ba2271a8631d563d992193d005"
+          }
+        ],
+        [
+          {
+            "numeratorSHA256": "e3f10a5a31adfe2cf9952fce4f56ab2d4561b3fad8f07e44b6c76312ee9d6a0c",
+            "denominatorSHA256": "eb385b1d2ff7f3821e89cdd7a27a59b07be11ea42b1c3fd210d5df7e6737b599"
+          },
+          {
+            "numeratorSHA256": "20942e7c85eb3a90289744802a3a7a6e680a033ffc1826a1efa9cbf74c6db3ee",
+            "denominatorSHA256": "ec2098a98ec818b51c5e614cdaba84ee92a5bd5ada8b69ba3765277b71ecf54c"
+          }
+        ],
+        [
+          {
+            "numeratorSHA256": "e3aee024d68d554af688bdc88c582616aa64ffa285cfb1e7a15ff4d54d60f48c",
+            "denominatorSHA256": "001ffc7aa1bc52fe0db10c9fa6472ad6b3afd300a16a1d5c3d1e0a13999652ac"
+          },
+          {
+            "numeratorSHA256": "c113b183793fed8e1afc1cded0f14b46ef69df01ee028f4a449edfa9215a748c",
+            "denominatorSHA256": "f5d2deac4977dfd04c7f35bad762f1c87e86b0489c39b55f5a8aec5f0477518f"
+          }
+        ],
+        [
+          {
+            "numeratorSHA256": "00ed3abd149e9438e715745a92c805667a72e70408f7e6b45148775d0027ba3a",
+            "denominatorSHA256": "dde90fb60ac39dbba3038234ef7d7541b4b99abeaf9c1df6335d65758381e855"
+          },
+          {
+            "numeratorSHA256": "ba702baccf597c686b7f5505f0a25ad8b8bad4c89488bb9d89ae7c02facb0e3f",
+            "denominatorSHA256": "5734a1f25031abe3811354ae750eea66de019c64d4b0ee4d595af43d17486f6b"
+          }
+        ],
+        [
+          {
+            "numeratorSHA256": "d1ced40352e25c33c5743429a7104ce0f9291e8df6271cdccd676b01a085a22e",
+            "denominatorSHA256": "001ffc7aa1bc52fe0db10c9fa6472ad6b3afd300a16a1d5c3d1e0a13999652ac"
+          },
+          {
+            "numeratorSHA256": "e7d11ce80735566d494ab49c6b8cc80457bb8249b27c4784d4ac58109ca97f55",
+            "denominatorSHA256": "f5d2deac4977dfd04c7f35bad762f1c87e86b0489c39b55f5a8aec5f0477518f"
+          }
+        ],
+        [
+          {
+            "numeratorSHA256": "8913e78ef6e6c40196b52eb7b6fbeb0dfbaa4ac92806cf188ba53da687015451",
+            "denominatorSHA256": "dc03a9aaeb97aff7552671aa0c5df7741121f33275b7629ef7b7206b497aba4d"
+          },
+          {
+            "numeratorSHA256": "769f4c3e3d3bc65c1b1db62769505b45bde14ba954313214334716775e151165",
+            "denominatorSHA256": "5734a1f25031abe3811354ae750eea66de019c64d4b0ee4d595af43d17486f6b"
+          }
+        ]
+      ],
+      "exactIdeal": "three changed means = (monic qZ, three linear remainders)",
+      "sameZIdealModule": "six rows: each linear remainder and its Z multiple modulo qZ",
+      "physicalDAndTNotInverted": true,
+      "bothWholeSlopeZeroCurvesRetained": true
+    },
+    "finished": {
+      "noExternalDependency": true,
+      "noLargeCoefficientPayloadOrCacheSaved": true,
+      "noOldMatrixOrCofactorGateReplayed": true,
+      "ordinaryISPClaim": false,
+      "peakRSSKiB": 166752,
+      "seconds": 28.15174617300005,
+      "sourceSHA256": "c6346f72acd3fe94998ca4d8f4910af2ceb0e8afd5a67c5eb27df4696e480864",
+      "stage": "new_correct_t_parameter_original_N1_input_finished",
+      "statistics": {
+        "exactDivisionProducts": 227,
+        "newLambdaActionReturns": 3,
+        "newLambdaCayleyHamiltonCoordinates": 9,
+        "newMonicAndSixRowReturns": 7,
+        "newN1OriginalReturn": 1,
+        "newOriginalCoordinateReturns": 11,
+        "newSlopeCoordinateReturns": 2,
+        "newThreeMeanRuleReturns": 3
+      }
+    }
+  },
+  "interpretation": {
+    "wholePhiExcluded": false,
+    "ordinaryISPClaim": false,
+    "noCenteredNextInputClaimedAsActual": true,
+    "noIndependentU0ScaleLengthClaim": true,
+    "noOldLambdaParameterOrFullNPVGateReplayed": true
+  },
+  "fullSmallLogProvenance": "GitHub Actions job 140986824614; no polynomial coefficient payload stored."
+}

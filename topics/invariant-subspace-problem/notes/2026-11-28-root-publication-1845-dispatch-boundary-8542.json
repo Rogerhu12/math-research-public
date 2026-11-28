@@ -1,0 +1,30 @@
+{
+  "schema": "isp-publication-dispatch-boundary-v1",
+  "publication": {
+    "status": "pushed-dispatch-incomplete",
+    "sourceCommit": "4a3a12d6f2b805f125e8767dff4ff6db0c026863",
+    "publishedCommit": "230546e9e6fee3dd44b5934791325344dd20c687",
+    "runId": "46147994811",
+    "runAttempt": "1",
+    "lastRulesReadCommit": "41e47abdc5a7634437a026ecccd54dfd31c400a6",
+    "error": "Dispatch outside the authorized ISP workflow prefix"
+  },
+  "pull": {
+    "format": "isp-8542-actual-actions-pull-v1",
+    "remoteCommit": "41e47abdc5a7634437a026ecccd54dfd31c400a6",
+    "beforeCommit": "9a5e987a282c5ef7d4aafe5abb8532e4138ec2b8",
+    "utc": "2026-11-28 13:07:26 UTC",
+    "actualPullRebaseSucceeded": true,
+    "rulesUnchanged": true,
+    "rulesGitBlobs": {
+      "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+      "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+    },
+    "executionEnvironment": "GitHubActions",
+    "runId": "46147994811",
+    "runAttempt": "1",
+    "workflowURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/46147994811"
+  },
+  "mathematical_source_executed": false,
+  "correction": "rename workflow filename to required lowercase; unchanged mathematical source receives its first execution"
+}
