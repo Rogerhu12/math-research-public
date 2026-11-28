@@ -249,3 +249,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 07:48:08 UTC — 29半步4b4c实际拒绝及四分之一eb34开始
 
 29同model半步4b4c先自身统计610.4769579141478/.42038070006972633，后真reachg10.324385214244415拒。eb34四分之一仅开始；current bc818 accepted1不变，正distance-plus仍未付。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`9d68492a561255156d2de71cdf8beca12bfec104`无变（非pull）。
+
+## 2026-11-28 07:48:50 UTC — RET81四历史行政回执完整保全
+
+只退固定4a8f49da四个旧publication回执288973B；全来源/已记参数/事件/成功失败未知/读者/whole恢复ledger84159B、note8712B、manifest8781B，文件净减187321B。4完整原源与7完整selection/recovery逐字保。私库四真实published commit/topic树已逐一对应原receipt；原310da commit404保持，不冒相同树为原commit。旧exact argv/初read/部分临时路径未记录，均诚实null，保全部已记行政参数及原whole字；不重演push/merge、不以默认值补实际。科学文件/证明/活输入未删，旧whole-reader先还原原整receipt。见[完整交付](computations/legacy-four-publication-receipts-retention-81-complete-delivery.json)。双README云核至`d231ee916678b594ac79f08a0aba0517cffe7a84`无变（非pull）。
