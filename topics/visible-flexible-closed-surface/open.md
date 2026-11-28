@@ -16,7 +16,7 @@
 
 当前所有强全闭支仍缺达到容差的完整度量、全闭reach及同g收敛。[R267](results/R267-new-gap-092-full-physical-prefix-metric-and-reach.md)已付新gap.92自身全前缀metric<5e−10/reach≥5/38；[R270](results/R270-corrected-physical-HF64-complete-suffix-embedding.md)已付实际HF64+原6615W整个后缀及保向径钟的连续嵌入。后续真实位置改变后各自重新支付所需结论。[R258](results/R258-accurate-fixed-ramp-signed-radial-metric-floor.md)已证准确原位置prefix固有误差>6.98105e−8，不能靠suffix加密消去。[R261](results/R261-strong-same-metric-physical-refinement-and-complete-prefix-reach.md)已完成新同g真实H17→H33→H65两次严格全域下降，H65 U<6.535566e−10、曲率<9.805926，整个新前缀reach>.1013。准确端口与binary64 b的显式S5对齐亦付；新后缀仍按自身source/baseline继续。原准确R233/R232整个带边prefix的[R259非局部reach](results/R259-accurate-whole-prefix-two-sided-reach.md)>.1013，变化后prefix及全部跨后缀点对分别支付。literal缓存与准确源、准确b与binary64 b的3/2^58差均明确处理。
 
-[R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)已在同一个明确的H65/HF64+原W/R205核及两R210固定帽上，证明整闭C2连续相位族的嵌入和两强形状比例：D≤3.076641236、held/D>.2137、含反射δE/D>.0532。当前该场的度量误差及reach没有同时过门。原g新XYZ、双材料钟和新g各自改变了位置或目标，不能自动继承该完整几何证书。后续同一场必须同时支付余下两项及固定g真实加密。
+[R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)已在同一个明确的H65/HF64+原W/R205核及两R210固定帽上，证明整闭C2连续相位族的嵌入和两强形状比例：D≤3.076641236、held/D>.2137、含反射δE/D>.0532。[R279](results/R279-actual-HF-strong-shape-and-strict-reach-failure-under-clocks.md) 已由真点曲率严格证明此原像 reach/D<.014832；保像的材料钟及换目标 g 不能修复，必须改变真实位置。其度量误差亦未过门。原g新XYZ、双材料钟和新g各自改变了位置或目标，不能自动继承该完整几何证书。后续同一场必须同时支付余下两项及固定g真实加密。
 
 ## 当前新增输入与已排清的限制
 
