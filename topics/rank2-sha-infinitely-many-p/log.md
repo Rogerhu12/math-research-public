@@ -33,3 +33,12 @@ R1055附录把E3969实际Φ126写成同一A24·H102，付原五伙伴全式、�
 根逐式核Möbius差、两个CM中心、J与det行、连接协变，手核闭盘log最低项m=p、E(logQ)收敛及μp全旋转。又直接读书Proposition7.18印p211核g2商核第一轴，与g^∨=det(g)g^-1一致。独立证明完整入results/R1058；不补未付branch恒等式，不把本结论作新canonical零行。下一arith独核同C positive AI归一和真正flat极限，central付原similitude全Weil→class方向，geometry付同R的实际Schur剩余行。
 
 推前readonly run46075603971/job140805094457已消费：公开00:38:28UTC实际至1d6ca7ab701e6e529993058c94ab89066882a634，私库00:38:33UTC至80c2eb9823715bf196c8fc1754d3788354231d2d。四README blobs与00:35已读版相同，QUEUE仍同blob0960ae68e078bae51fd8e95fc2839c7028ffa6fc及本会话进行中。日志14887B/hashad3d8fae07141c9add0769ff8e6d09ad9783849d58e069d00819baac1aa06463；库存3163/44,509,290B/tree63fa72102d502ac2e8d541502abebd82b06f46f0，无>5MB，旧三必要gzip不变。H记录实际head而非请求旧baseline。唯一v13继续运行，无新终门宣称。
+
+
+## 2026-11-28 01:02 UTC：原P10完整配对与曲率阻碍
+
+R1053§§8–11付真正十三维四jet修改、原全39维B12长十二修改及完整canonical首行到同一P10的39字符配对。实际Gα=rα^10·P2^195/(P10∘α)的全除子、二挠三次极帽和非齐次连接费用均保。原source390与target10的p曲率极支撑不相同，排除任何免费scalar CM/Miller交织，且相应水平Hom为零；这不产生新canonical零或终端非零。
+
+根全文核两段新增证明，直接读R887§14(63)–(64)与§15原P_m全极；核rα首项αz^-38、完整投影两列的36核点单零、39字符配对及全部曲率特征值极支撑。没有数学执行，未给新算术零行。旧H9559B/hash5935a82da57c1e2d7df265cc991406eddd3fdab7f27bc2e63cb74a4672fd2fb1逐字归档并更新接续；central/arith真实cup与AI marked比较继续。
+
+推前actual readonly run46075603971/job140807603861：公开00:47:16UTC至637fc22a3d9b67f62d9fd3546028d443ec869b98，私库00:47:20UTC至d8eb4efddbfb8b388b11a723745886c9143682d3。四README与00:38已读blobs完全相同，QUEUE仍0960ae68e078bae51fd8e95fc2839c7028ffa6fc，本行本会话进行中。日志14886B/hashcdbc6358f8b7e0cf7ec24265a5dc0b04a6a8b991dc48a2fae4e3fd0279d77bf9；库存3164/44,526,966B/tree0d2c457c788980811ba749a4ba15b2e7fcae551a，无>5MB，三旧必要gzip不变。本地00:48仍无环境。唯一v13于01:02实际in_progress，尚无新增数学终回执。

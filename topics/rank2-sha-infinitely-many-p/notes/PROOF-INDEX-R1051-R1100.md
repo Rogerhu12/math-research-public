@@ -109,3 +109,10 @@ R1055附录把E3969实际Φ126写成同一A24·H102，付原五伙伴全式、�
 ## R1058 — 原CM主单位与完整root平均互绕
 
 [R1058完整证明](../results/R1058-original-cm-principal-unit-mobius-and-centered-root-trace.md)。原CM主单位的真实矩阵与两个中心给完整Möbius、Hodge和KS运输，raised权保det(g)^−n。其居中Q2 germ在含全部μp的明确闭盘上真实延拓为Q·exp(E(logQ))，逐点满足Φ(ζQ)=ζΦ(Q)，从而原系数/全部finite字运输与完整root平均互绕。它逐个固定μp，不等于根平移；真实g2²核的第一轴已对照书版商定义核准。实际CM分支到Kummer cover及canonical负端点的等式仍未付。
+
+
+### R1053 §§8–11：原P10全39字符配对与曲率排除
+
+R1053§§8–11付真正十三维四jet修改、原全39维B12长十二修改及完整canonical首行到同一P10的39字符配对。实际Gα=rα^10·P2^195/(P10∘α)的全除子、二挠三次极帽和非齐次连接费用均保。原source390与target10的p曲率极支撑不相同，排除任何免费scalar CM/Miller交织，且相应水平Hom为零；这不产生新canonical零或终端非零。
+
+[完整证明](../results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)。输入为原R1037/R1038全投影、R887同一有理p基及R1028原P10；无新数学运行。后继回同M/R实际Schur，不以几何修改长度给native终端非零。

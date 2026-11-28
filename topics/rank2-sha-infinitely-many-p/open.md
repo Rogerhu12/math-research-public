@@ -61,7 +61,7 @@ R959/R970–983 与 R1038 已分别支付固定 E65/E65³/E260/E54925/E8125 及 
 
 [R1053](results/R1053-original-b12-canonical-reader-and-complete-thirtynine-trace.md)现将原390两来源的真正 B12 商、全部324词和完整有限权，写成 E3969 原 degree378 canonical 必要行。二挠第四 Miller、CM 有理比、O增加六零、\(\pm S\) 与二挠全部阶均保；增加的六零抵消表面六极。完整四次 Cartier 和39支 differential trace 返回同一首行；\(\operatorname{Norm}_\alpha(y)=c_\alpha y\) 使对数方向 trace 标量为1，一般微分仍是 \(39/\alpha\)。theta 中间载体为三个 rank13/degree126 稳定项，不能冒390/39得degree10。
 
-下一须付这个真实 reader 与原 P10/native 全窗的完整比较，或从同一个来源得真正新消元。geometry 继续 B12 连接、common A24 伙伴和全节点返回，不能用环境六阶矩填 canonical 授权。R1021两δ-new来源、R1022全39支、R1025六权和末两H组合、R953/954全混合界继续按已付范围；坏条件尚未迫所需单位组合为零。
+R1053§§8–11现已付真实 reader 到原 P10 的完整39字符配对：Gα的全除子、二挠194d_p−8p极帽及全部非齐次连接费用保留。十三维4jet与原39维长12修改均准确，但不是native极帽。source390与target10的p曲率不匹配，排除免费scalar CM/Miller交织，相关水平Hom为零；该事实不推出canonical非零。下一须真正消费完整配对及费用，或回同一个M/R的实际Schur消元。geometry继续common A24与A18行，不重走已排gauge；不能用环境六阶矩填canonical授权。R1021两δ-new来源、R1022全39支、R1025六权和末两H组合、R953/954全混合界继续按已付范围；坏条件尚未迫所需单位组合为零。
 
 ## O相对 / O角：common A24、mixed 除 p 与完整 K/Y 方向
 
@@ -90,7 +90,7 @@ R984 Griffiths非零不付逐p AJ；R988 K3–E0²和R990 CM17图零范围保留
 [v12终态](notes/2026-11-27-v12-terminal-and-captured-return-binding.md)已消费21000s/signal15/exit124，完整六612与下一306/Frob/maximal回返；四交/Norm/18×9无终回执。R1050全非约化scalar支撑证明及三项真软件PASS已付，软件PASS不替数学终门。
 
 [v13生产](notes/2026-11-27-original-scalar-filtration-v13-production.md)为唯一heavy：
-run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新00:36UTC为in_progress；00:37消费的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
+run46080875647/job140779301767/source277c55dd2c0d36baf665c65700935ac671faa816，23:09:29UTC创建；最新01:02UTC为in_progress；00:37消费的4203375B日志已给本次完整绑定，末行00:18:25到positive scalar base-prime1第222/306列，数学终门仍未返。保全60旧源+5新、两个char0 pins、29/2453/64/minimal/artinian、4CPU/16GB/21000s及全原数学门。必须消费八条本次T/v全HNF、非约化厚长/残域/边界、四交、一般Norm、18×9和九对；不因日志GET404预报结束，不开第二heavy，不存可重算输出。
 
 旧q5/q11全影子倒6零、q11完整NS/Br/MW和Manin回执已付，不重复输入。即便有限完整影子成功，仍须解决主无穷p非零。
 

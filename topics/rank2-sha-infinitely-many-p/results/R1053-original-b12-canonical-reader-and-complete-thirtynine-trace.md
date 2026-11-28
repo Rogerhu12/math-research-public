@@ -359,3 +359,303 @@ $$
 下一项实质比较必须把(21)与 R1028 的原 target $P_{10}$、$W_t^p$、十三字及 native 三角窗逐式相认或给一个真正的新消元。仅有(11)的六极写法不支付 $c=6$ 终端非零；仅有(22)的固定对数直线也不支付无穷多个目标素数上的非零。
 
 依赖：R1037完整谱及回执；R1038全 canonical/通常群桥和 live degree126来源；R853指定有理 frame与全极 Cartier证明；R1028 §9同一原读者的真实支持阈值。
+
+## 8. 原十三维载体的四个 jet，以及全三十九维的实际 B12 修改
+
+本节在原固定好常数域上工作；约化时仍删去前文的有限坏集。所有 character 分解可在加入固定的三十九次单位根后作出，再依原 Galois 作用下降。没有改变 $\Phi_{126},\Phi_{378}$ 或(5)的全投影。
+
+先给真正的 $\pi=4+\omega$ 除子函数。置
+$$
+a_\pi=8+12\omega,\qquad b_\pi=\frac{64+48\omega}{13},\qquad
+f_\pi=X^2+a_\pi X+b_\pi .
+\tag{26}
+$$
+则
+$$
+\boxed{\sigma(\pi z)=\pi\,\sigma(z)^{13}f_\pi(z),\qquad
+13 f_\pi f_{\bar\pi}=D_{13}.}
+\tag{27}
+$$
+这里 $f_{\bar\pi}$ 是系数共轭。证明如下。$\ker\pi$ 稳定于 $\mu_6$，故其非零点的单零除子、在 $O$ 的十二阶极给一个首项为 $x^6$ 的函数，必为 $X^2+aX+b$。sigma 除子比只能另差一个二次指数；$\omega$ 对称迫该二次项为零。用
+$$
+x=z^{-2}-\frac{z^4}{7}+\frac{z^{10}}{637}+\cdots,\qquad
+\log(\sigma/z)=\frac{z^6}{210}-\frac{z^{12}}{84084}+\cdots
+$$
+以及 $\pi^6=1513+2520\omega$ 比较两项，即得(26)。直接乘上共轭给
+$13X^4+52X^3+1536X^2+1024X+256$，恰为原 $D_{13}$。因此
+$\operatorname{div}f_\pi=\sum_{0\ne T\in\ker\pi}[T]-12[O]$；
+没有选择单个十三同源根。
+
+记 $L_m=\mathcal O(m[O])$。因奇数阶群 $\ker\pi$ 的点和为零，
+$[\pi]^*L_{10}\simeq L_{130}$。自然包含 $L_{126}=L_{130}(-4[O])$
+给真正短正合列
+$$
+\boxed{
+0\longrightarrow[\pi]_*L_{126}
+\longrightarrow L_{10}\otimes[\pi]_*\mathcal O
+\longrightarrow[\pi]_*(L_{130}|_{4[O]})
+\longrightarrow0 .
+}
+\tag{28}
+$$
+右端长为四，不是四条新的算术零。分解 $[\pi]_*\mathcal O$ 后，
+中间项是十三条 $L_{10}$ 的固定十三挠 twist。每条有十维全截面，
+且 $H^1(L_{126})=0$，所以全截面的四个 jet 条件确满秩，
+留下原 $126$ 维，不把 rank13 稳定丛认成一条线丛。
+
+在各个实际局部片选取同一 $L_{10}$ 好框架及固定 torsion 线的
+flat 框架，Fourier 反演把过 $O$ 分支的前四个系数写成十三分量的
+四个线性和。若用微分参数，$z_t=\pi z_s$ 的 $\pi^j$ 全部保留；
+$0\le j\le3$ 时它们都是固定单位。改变这些框架只共轭这个实际
+jet 矩阵。原 $\sigma^4\Phi_{126}$ 在 $O$ 是十阶零，故该特定列
+还有六阶额外零；不能在除回 $\sigma^4$ 时删掉它们。
+
+对真正原 $\alpha=\delta\pi$、$L_{390}\simeq[\alpha]^*L_{10}$，
+(5)所用的包含更准确地是
+$$
+0\longrightarrow[\alpha]_*L_{378}
+\xrightarrow{\ B_{12}\ }
+L_{10}\otimes[\alpha]_*\mathcal O
+\longrightarrow[\alpha]_*(L_{390}|_{\mathcal D_B})
+\longrightarrow0 ,
+\qquad
+\mathcal D_B=6[O]+2\mathcal D_2 .
+\tag{29}
+$$
+这是全三十九分量、总长十二的修改。它的 jet 条件分别在
+$O$ 的六阶和三个二挠点的两阶，不能将(28)的某一个四阶条件
+乘三后忽略原 $B_{12}$ 的支撑。对实际
+$g_\nu=B_{12}\Pi_EF_\nu$，还须保(16)的 $O$ 十二阶、
+二挠四阶零。以上全截面精确性由 $H^1(L_{378})=0$ 同样成立。
+
+## 9. 进入原 P10 的完整三十九字符配对
+
+为给(21)的实际输入而非仅丛的存在，定义原刚性化函数
+$$
+r_\alpha(z)=\frac{\sigma(\alpha z)}{\sigma(z)^{39}}.
+$$
+由(27)、$\sigma(\delta z)=\delta x\sigma(z)^3$ 及
+$x(\delta z)=-(X+4)/(3x^2)$，逐式得到
+$$
+\boxed{
+r_\alpha=\alpha x\,Q_\alpha(X),\qquad
+Q_\alpha=(X+4)^6-27a_\pi X^2(X+4)^3+729b_\pi X^4 .
+}
+\tag{30}
+$$
+其全部除子为
+$\sum_{0\ne T\in\ker\alpha}[T]-38[O]$。
+这里 $\delta^{13}/729=\delta$，故首项严格是
+$\alpha z^{-38}$；没有遗漏固定刚性化常数。
+原 $D_{13}$ 的(27)还说明：$g_\nu$ 在
+$\ker\alpha\setminus\ker\delta$ 的三十六个点准确一阶零，
+在 $\ker\delta-\{O\}$ 准确六阶零。前者来自原
+$\Phi_{126}$ 的一个 $\sigma(\pi z)$ 因子；其它五个 sigma
+因子的核在那里均不相交。这些是(4)中两条完整投影最终列的零：
+$\Pi_EF_\nu=c_\nu\Phi_{378}$ 的两个 $c_\nu$ 都是已保留的非零固定数。
+对上述三十六点，$\delta T\in\ker\pi-\{O\}$，
+其它 sigma 因子的乘数在该十三阶群上均可逆，且 $B_{12}(T)\ne0$。
+因此这里准确一阶，不是任意载体的性质，也不是逐个324词的断言。
+
+仍记 $g_\nu=\sigma^{390}R_{g,\nu}$，定义完整 theta 列
+$$
+r_\nu=\frac{R_{g,\nu}}{r_\alpha^{10}} .
+\tag{31}
+$$
+于是 $g_\nu(z)=\sigma(\alpha z)^{10}r_\nu(z)$，正是(29)的
+原同源刚性化。其十三字、三次层及(2)的全部投影词已在
+$R_{g,\nu}$ 中；不能在(31)另作一次未授权投影。
+
+现在只用原 R1020/R1028 的同一 native 函数
+$$
+P_{10}=-Z^p(D-10G)^{p-1}Z^9,\qquad
+(D-10G)P_{10}=10H^pZ^{p+9}.
+\tag{32}
+$$
+source 和 target 都是既定 $M=1$ 模型。置
+$$
+\mathcal G_{\alpha,p}
+=\frac{r_\alpha^{10}\mathcal P_2^{195}}{P_{10}\circ[\alpha]},
+\qquad
+\mathcal K_p=Z^{-p-2}\mathcal P_2^{-6}y^{-2}.
+\tag{33}
+$$
+则是全函数域中的准确恒等式
+$$
+\boxed{
+Z^{-p-2}\mathcal P_2^{189}R_{E,\nu}
+=(P_{10}\circ[\alpha])\,
+       \mathcal K_p\mathcal G_{\alpha,p}r_\nu .
+}
+\tag{34}
+$$
+所有幂由 $R_{g,\nu}=y^2R_{E,\nu}$ 逐项抵消，没有使用
+$\mathcal P_2^{195}=P_{10}\circ[\alpha]$ 或 $\sigma^2=\mathcal P_2$
+的全局错误等同。
+
+令 $\Gamma=\ker[\alpha]$。对任意实际 source 函数 $F$ 定义
+$$
+F_\chi(Q)=\frac1{39}\sum_{T\in\Gamma}\chi(T)^{-1}F(Q+T).
+\tag{35}
+$$
+这是原 cover 上的完整字符分量；各单项可取值于相应 torsion
+线，只有互逆字符的积下降。有限正交关系给
+$\operatorname{Tr}_\alpha(FR)=39\sum_\chi F_\chi R_{\chi^{-1}}$。
+因此(21)现在严格变为
+$$
+\boxed{
+\Xi_{E,\nu,p}
+=\frac{39}{\alpha}P_{10}\,
+ \sum_{\chi\in\widehat\Gamma}
+       (\mathcal K_p\mathcal G_{\alpha,p})_\chi
+       (r_\nu)_{\chi^{-1}}\,\omega_{\rm target}.
+}
+\tag{36}
+$$
+这是同一原 canonical 首行到原 $P_{10}$ 的实际有限配对。
+$39/\alpha$、全部三十九项、实际 reciprocal character
+和 source 函数的全部移点均保留。没有从(14)取得三十九条零，
+也没有只留下平凡字符。特别，通常 trace 的 degree 因子仍与(20)
+的对数 norm 标量一各在其正确的位置。
+
+## 10. 这个 native 因子为何不是四阶或六阶的免费 cut
+
+式(33)给了全部除子，而非只给原点 germ：
+$$
+\boxed{
+\operatorname{div}\mathcal G_{\alpha,p}
+=10\operatorname{div}r_\alpha
+ +195\operatorname{div}\mathcal P_2
+ -[\alpha]^*\operatorname{div}P_{10}.
+}
+\tag{37}
+$$
+在 $O$，各首项给 $\mathcal G_{\alpha,p}=1+\cdots$。
+在每个非零 $\ker\alpha$ 点，$r_\alpha^{10}$ 和
+$P_{10}\circ[\alpha]$ 的十阶零准确相消，故
+$$
+\operatorname{ord}_T\mathcal G_{\alpha,p}
+=195\operatorname{ord}_T\mathcal P_2\ge0.
+\tag{38}
+$$
+这里包含 $\pm S$ 的真实高零；没有将两个下界作差。
+
+在二挠点，(32)的完整最高极项来自
+$(-10G)^{p-1}Z^{p+9}$。因 $G$ 的极阶为
+$p^2-p-1$，含一次导数的其它项极严格更低，且 $p\nmid10$，
+所以准确极阶为
+$$
+d_{10,p}=p^3-p^2+9p+1=d_p+8p.
+$$
+$\alpha$ 置换二挠点，$r_\alpha$ 在那里是单位，故
+$$
+\boxed{
+-\operatorname{ord}_{\mathcal D_2}\mathcal G_{\alpha,p}
+=195d_p-d_{10,p}=194d_p-8p .
+}
+\tag{39}
+$$
+这随 $p$ 是三次增长。其它 $P_{10}$ 零点在(37)中全部保留；
+在整个(34)中它们与外面的 $P_{10}$ 取消，
+不能先分离某个字符分量再忽略。
+
+连接也有一个完全显式的核验。用 source 的 $D$，由(10)、(32)
+直接得到
+$$
+\begin{aligned}
+\frac{D\mathcal G_{\alpha,p}}{\mathcal G_{\alpha,p}}
+={}&10D\log r_\alpha+390G
+       -10\alpha(G\circ[\alpha])\\
+ &+\frac{390H^pZ^{p+1}}{\mathcal P_2}
+       -\frac{10\alpha(H\circ[\alpha])^p
+                    (Z\circ[\alpha])^{p+9}}
+                    {P_{10}\circ[\alpha]} .
+\end{aligned}
+\tag{40}
+$$
+$D\log r_\alpha$ 可直接由(30)读取。
+(40)保全部实际 curvature 项；它没有假设原有理 $G$ 是
+特征零的全局 $\zeta$，也没有为消去某项重选水平常数。
+
+将(38)–(40)与 $\mathcal K_p,r_\nu$ 和外面的 $P_{10}$ 全部合回，
+恰恢复(17)–(18)的原零极及(22)的原 Cartier 读数。
+所以(28)的四个 jet 或(29)的十二个 jet，是线丛的精确修改长度，
+**不是**(36)这条 native 读者的极帽。
+原 $P_{10}$ 已在(36)真正出现，但继续到 R1028 的
+$W_t^p$／native 三角窗或到同一 $M$ 的 Schur 行，
+必须消费(33)、(35)、(40)的这个完整配对。
+不能据几何修改长度宣称获得 $c=6$ 的非零终端，也不能把
+$\mathcal G_{\alpha,p}$ 当作可删除的原点单位。
+
+## 11. 一个实际可排除的接线：这些 native 连接不能作 scalar CM 交织
+
+这里可以比“尚未给出一个 gauge”作更准确的判断。保持(10)、(32)
+同一个有理 $M=1$ 模型。R887(63)–(64)直接给
+$$
+D^p=0,\qquad D^{p-1}G=r^p,\qquad
+(D-mG)^p=-mH^p,\qquad H=G+r .
+\tag{41}
+$$
+$p>13^4$ 时 $m=10,390$ 都合法。
+$H$ 在 $O$ 正则且从五阶起，在每个二挠点有准确
+$p^2-p-1$ 阶极；$r$ 的简单极不可能抵消 $G$ 的这个最高极。
+其余点无极，特别 $H$ 非常数。
+
+source 的 $\nabla_{390}=D_s-390G_s$ 有 $p$ 曲率
+$-390H_s^p$。target 的 $\nabla_{10}=D_t-10G_t$
+实际拉回后，因 $D_s=\alpha D_t$，其 $p$ 曲率为
+$-10\alpha^p(H_t\circ[\alpha])^p$。
+有理 rank1 gauge 只能共轭曲率；这里曲率是 scalar，故不改变它。
+若有任意非零有理函数将这两条连接交织，必有
+$$
+\boxed{\alpha\,H\circ[\alpha]=39H.}
+\tag{42}
+$$
+但是左边的极除子是 $[\alpha]^*(H)_\infty$，
+总度为右边极除子总度的三十九倍。$(H)_\infty\ne0$，
+所以(42)不可能。这一论证也适用于任意可延拓该导子的代数微分扩域中的非零
+rank1 gauge：曲率相等仍会给原函数域中同一个不可能的等式。
+因此不是换一个 Miller 单位或重选其固定常数就能消去(40)。
+
+完整 pushforward 也有同样的精确排除。将
+$[\alpha]_*(\nabla_{390})$ 再拉回到原 étale cover，
+其三十九条分支的 target-$D_t$ 曲率特征值为
+$$
+\boxed{
+-\frac{390}{\alpha^p}\,H(Q+T)^p,\qquad T\in\ker[\alpha].
+}
+\tag{43}
+$$
+这些值两两不同：若 $T\ne U$，相应极支撑为
+$\mathcal D_2-T$、$\mathcal D_2-U$。二者若有公共点，
+则 $T-U$ 是二挠点，又属于奇数阶 $\ker[\alpha]$，迫 $T=U$。
+所以它们甚至有两两不交的极支撑，不能为同一有理函数。
+在全部固定好特征下，(43)的 characteristic polynomial
+有三十九个不同根。
+
+相反，三十九条原 $\nabla_{10}$ 加固定 prime-to-$p$
+torsion flat twist 的曲率全为同一个 $-10H_t^p$。
+故不存在把这个完整 pushforward 连接认成该 scalar 连接直和的
+有理矩阵 gauge；有限层 scalar trace 或另一个基也不能改变
+其曲率特征多项式。事实上还有准确的
+$
+\operatorname{Hom}_{\nabla}
+\bigl([\alpha]_*(\nabla_{390}),\,\nabla_{10}\otimes\mathcal L_\chi\bigr)=0
+\tag{44}
+$
+（$\mathcal L_\chi$ 为上述固定 flat twist）。
+拉回原 cover 后，右边的 scalar 曲率在
+$[\alpha]^{-1}\mathcal D_2$ 全部117个点有极，
+而(43)任一个特征值只在三个点有极；
+故右边曲率不等于左边任一特征值。
+任何水平映射必须交织曲率，(43)减去右边曲率在函数域上可逆，
+于是该映射为零。此处不将一般带非齐次费用的微分算子冒称水平映射。这并不否定(29)的线丛短正合列：
+那是线丛及 jet 的准确身份，不是这两组 native 连接的水平身份。
+
+由此明确排掉的是“原 $M=1$ 的 source390 与 target10
+靠有限 CM/Miller 单位免费交织”这一具体路线。
+(36)仍是成立的完整截面配对；它的
+$\mathcal G_{\alpha,p}$ 是两个指定非齐次解之间的实际比值，
+并非连接 gauge。继续使用它时必须保留(40)全部费用，
+或在同一原 $M$ 中直接消元。这里没有据曲率不等推出
+任何 canonical 导数或目标 $\Sha[p^\infty]$ 的非零/有限性。
