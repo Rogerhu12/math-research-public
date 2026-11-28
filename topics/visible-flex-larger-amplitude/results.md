@@ -458,3 +458,7 @@
 - **R729（已证明，完整公共slack QP）**：[全行对偶强制有界、循环收敛与可行恢复](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md) — 接R683原全行KKT；同号slack列给正象限紧level set，允许Gram奇异且不删行，证明准确全循环坐标收敛、原全行可行slack恢复、primal/dual gap及原范数误差界。源于25首恢复QP仅2 advances即dependent blocker且Pg远超容差的真实返回；新算法尚未运行，不冒64轮保证或非线性可行，不改变31。
 
 - **R730（已证明，实际输入的安全锥与单位弧长新参考）**：[完整双见证锥、全角唯一弧长根和闭参考像](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md) — 用真实完整S∈(2.37,2.38)、κ0=binary.2，给η1/32、ξmax3/4及单宽脉冲[1−(2t−1)^12]^7；全角左右长度严格夹S，证明唯一正根/两角隐式导数/逆弧长六jet、全闭参考嵌入/全相位与双held锥距离及D≤4.2。仅支付径向unit；角向Gram、同固定g、0.03D reach、actual全normal与Euclidean非全等未付，新独立长度核/provider正在真实实施，不继承旧mean证书。
+
+## R767–R768 — 新预载整球与旧硬端的定量排除
+
+[完整构造/身份](notes/2026-11-28-R767-R768-preloaded-sphere-and-hard-endpoint-obstruction.md)：同一新初g、全初reach≥.08/D<2.57、固定握径>.528、全末像held>.55。负轨无开平带；真实整桥、两完整外卷和非平两帽以及正常二变量atlas给出，桥gvv与中央/外部三g准确。非偶三零矩自由保持完整端点及六jets，但右头真实材料斜路<.768而旧.18硬末端弦>.784，故任意内场relativeGram sup>.042；该硬边界类已闭，不能靠内基继续求至1e−6。新初度量及初法管范围保留，正相全嵌入/reach/刚体商和桥余两g尚欠。R770/46须改真实边界并重付全部费用；无新实际数值冒充证明。
