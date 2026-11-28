@@ -2,7 +2,7 @@
 
 会话 **Astra-visible-flex-2ecfcd69-20261128**，**进行中**。[R262基础数值解已完成](results/R262-original-G12-complete-tolerance-and-base-numerical-solution.md)，继续README更强比例；未证明无限维精确等距存在。
 
-**已满足基础标准的实际参数/数据：** 原G12/M48、Q-free field `5778bee4c19c6f878e2039876a9b250e940b7b4d0d9f949b1982bf6cebf5a5b8`；原 outward 参数 vu=.17、vd=.18、ramp=.4、eta=.05、delta=.07254443456654512、cut=.6/slope=.5，均按原清单binary64定义，真cuff=2702159776422297/18014398509481984。工作根 `/workspace/scratch/2ecfcd6930d6` 下 field/result 在 `m12-work/h2-c2-m48-g12-04r1/`，grid/query 在 `m12-work/h2-c2-m48-g12-04/`；完整证明报告 `root-work/g12-whole-original-closed-field-composition-v3.json`，三份实际STL/manifest在 `root-work/mesh-h2-c2-m48-g12-04r1/`。路径和全部重生命令见[R262记录](notes/2026-11-28-2ecf-complete-original-G12-base-numerical-composition.md)。大数据不入Git/Release。
+**基础数值解的数据：** 原 G12/M48、Q-free 实际 field `5778bee4c19c6f878e2039876a9b250e940b7b4d0d9f949b1982bf6cebf5a5b8`。全部原 binary64 参数、grid/query、完整组成证明、三份 STL 及重生命令见 [R262 记录](notes/2026-11-28-2ecf-complete-original-G12-base-numerical-composition.md)。工作根 `/workspace/scratch/2ecfcd6930d6`；该场证书不移用于任何新参数。大数据不入 Git/Release。
 
 ## 规则、读入与认领
 
@@ -52,10 +52,12 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`，私clone同级math-research；scratch的exact-work/strong-work/m12-work由各代理维护，root-work含已完基解组成及发布器。R272已付原HF64全核/固定帽嵌入与强形状比例。当前并行：strong 的 R302 真厚臂及完整法管；exact 的 R299 真383/H65端口到整闭面的实际XYZ修正；m12 的 R301 新正径向g、2400XYZ及真实回返层脉冲。root另启 R262 真小输入 eta=1/8192、全前缀XYZ+正g，已3实际步从9.19e−5到1.0548e−5，独立观察器因137未完成；需分批内存求值后继续，不算完成结论。每张新场分别付证。原G12全尾已完成，不重启。新子问题完成就接open下一项，不能停等用户。
 
-源恢复按各note配方，不算新研究。task_git_sync.py在每次推前literal pull且逐差读规则，task_git_rules.json保存锚。旧会话状态/失败另见[继承记录](notes/2026-11-28-2ecf-handoff-inherited-20261126.md)和[继承open](notes/2026-11-28-2ecf-open-inherited-history.md)。Hu2611.00534v1与Ghomi2611.17269已核，小幅/配对结论不代本题比例连续族。
+源恢复按各 note 配方，不算新研究。终端恢复后继续 task_git_sync.py。旧状态见继承 HANDOFF/open 记录；已有文献核对不重做。
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
 <!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:30:28 UTC；已读公开 main `a8bb8583083f13d9aaafb0366447b8e5911acc45`，根/课题 README 逐差无变化。
 
-执行环境失联期间的只读 API 同步（不冒称 literal pull）：2026-11-28 14:45 UTC，公开 `9f56e454673620c2b21ccc04c9f0a623db8596a0` 与私库 `a1ea9352be9cfdf32e217d18e3a149d1d2308fa6`；公开根/题及私根较最近已读锚均无变化。最新实际 pull 时刻仍为上两行；执行器恢复即补 literal pull。Actions 重建入口正在准备，尚未宣称启动。
+执行器失联后的 API 规则读取：公开 `adcfa2a72ba3e1a1028d764d782b54ac591eb9fa`、私 `a1ea9352be9cfdf32e217d18e3a149d1d2308fa6` 无变化；API 不冒称 literal pull。
+
+<!-- 2ecf-actions-launch --> 新公开 workflow `.github/workflows/2ecf-visible-flex-recovery.yml`：两并行任务为 R299 真实整闭/独立相位求解、R262 四个原场再生及新小输入；运行器每45分钟 literal pull 两库并读规则差，只有小文本结论/参数/run/SHA入库。
