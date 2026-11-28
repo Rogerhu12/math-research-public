@@ -33,3 +33,9 @@ root核完整Kronecker余类和的共轭/周期方向、Mζ−ζ(Mz)在真挠点
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:17:29 UTC到1e43da19c2da4c5d3e129de8b491eb125e6a7d2e，私库2026-11-28 12:17:20 UTC到120dc2ff5ac371efc0146be5dda976ca982d1c60；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3249/46875312B/tree30e23e5940fe5c58fb2b4e691cfb78440d0fae3b，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:17:43 UTC到ea7ae440f80357bb771158b8481c095fa1d7553a，私库2026-11-28 12:17:38 UTC到88286fee8f0086f48c3aabe8a337a6a6bfeac000；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3249/46875312B/tree30e23e5940fe5c58fb2b4e691cfb78440d0fae3b，无>5MB。
+
+## 2026-11-28 12:18:56 UTC — R1067 九条实际十七同源的完整分解
+
+root亲读R290(16)、R292(1)–(9)、R302(16)–(19)及原水平框架(11)，逐项核17相位、2处奇偶、共同Gaussian及九个标量；手核实际ω矩阵/三个轨道、乘子环/未标记中心、Schur–Vandermonde独立性和R301完整解析半径。三分支读者线性恒等，不冒充各自原Selmer身份。上一R1073实下降已实推e6cd6b05d6a2b8baf2b9a5c55fac9af1b2d964bb（12:17:48 UTC），一次非FF立即双pull/rebase，四README未变。H再次逐字归档后简化旧重复说明；无本地数学执行。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:19:11 UTC到89797dd2c37f21221c87a9f078637ea8a7b14464，私库2026-11-28 12:19:03 UTC到23205c77428a8d5eb4c46d1e51e032d3b2b0a21c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3249/46884426B/treefdf3e404858923d4be62eb93ae552969f892b5e4，无>5MB。

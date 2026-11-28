@@ -7,15 +7,15 @@
 固定一条E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷非零可用鸽巢。有限p、随p换曲线、条件接口不完成。
 root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库，至少每小时；非FF立刻pull --rebase、检查根/课题README差异并记H后再推，循环成功不force。令牌只命令行/进程，不入文件/提交/API。
 数学仅公开Actions，4CPU/16GB/6h；根13最多20并发。本会话唯一heavy及独立420秒小软件。规则15禁存可重算日志/数据/矩阵，只留源/参数/run/hash/必要原输入。H<10KB、每MD<100KB、topic<200MB，无>5MB/新拆块。规则8独立新R、同结论续同号；规则12不设冻结或额外复核门。公开16/私库15规定子代理显式gpt-6.2-astra/ultra；09:47已全部照办。
-[整理前完整H](notes/2026-11-28-handoff-before-fixed-weight-and-curve-pair.md)逐字保存旧参数、回执、更正及归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧结论与更正不重做、不撤回。
+[整理前完整H](notes/2026-11-28-handoff-before-actual-seventeen-isogenies.md)逐字保存旧参数、回执、更正及归档链；[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)给全部接续。旧结论与更正不重做、不撤回。
 
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 12:17:43 UTC实际pull --rebase，读取main ea7ae440f80357bb771158b8481c095fa1d7553a；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 12:17:38 UTC实际pull --rebase至88286fee8f0086f48c3aabe8a337a6a6bfeac000；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 12:19:11 UTC实际pull --rebase，读取main 89797dd2c37f21221c87a9f078637ea8a7b14464；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:19:03 UTC实际pull --rebase至23205c77428a8d5eb4c46d1e51e032d3b2b0a21c；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3249/46875312B/tree30e23e5940fe5c58fb2b4e691cfb78440d0fae3b；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3249/46884426B/treefdf3e404858923d4be62eb93ae552969f892b5e4；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -26,11 +26,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 [软件PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113；7.582517183s，log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309。root/代理各核32pins/8比较/2外门篡改/2预算拒绝/真二次底素及转置；不代306生产。
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44创建；11:30:17 root读1–3 success/4 in_progress，完整log未可读。76pins/72旧共享，数学体仅IMPLEMENTATION名变且host核原SHA；请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45，29/shadow/artinian/2453/batch64/minimal/preflightfalse、4CPU16GB21000s、Sage10.6/networknone/source只读/token仅host；两F/P及原四图/四交/八scalar/Norm18×9/九pairs/终门全留。尚无本次实际pins/F/P日志或PASS，不改部署。
 
-## 原共同两/三位：R1067
+## 原共同两/三位与十七同源：R1067
 
-[R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)及[§§16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)保两Kato图/ν/physical/参考单位、Hall整除、旧更正。原g1=a_pEN/p、g2=(pb_pEd−γa_pEN)/p²，必须完整f/mixed、EN三位/Ed两位，尾−3a_pIp/γ不可删。
-[§§37–51](results/R1067-original-first-wild-fixed-geometric-tail.md)：固定两I12边界F[E−]=p²υE(e)，原晶体Taylor/固定good-model/整比较给T=W P5(xp)−p²υPe，全V上T/p²整；M=x^(16−e)L_eΠ/(1−w)^p，degΠ≤p−1，单branch全主部唯一恢复。原j1728初列/H/DH/低p水平窗/Qc,Qc²保实际Π与原Ip全f卷积。
-§§44–45以Gφ全局负Y主部消未知CM第二位λ，S=−u t L_ePm+8p²xpM modp³，N5/N6准确回两canonical。§§46–48原全Paley/Singer、目标标记、∞负号、Γ68三乘积及参考RS唯一±付全变形P9；整旋转原EN=cN/Ed=cd，P14保径向二阶三位，bad g1下c2d整框架无关。§49原参考给κ=−(pcσ)²、c/p=−1/κ、γa_pu0 c/p=−b_p，E2d准确回第四物理权，Q6无未知单位。这些不是Gaussian之外独立坏条件；§50另付p≡137 mod204互补射线：M68、∞正号/σ1、辅助√−17普通且原j0超奇异；同Q6成立。两子列跨p非零仍待证。 §51完整全Z首剩余R3：r≤h同构，h<r≤d−2核=(1−x)^(h+1)倍数；原j1坏/j2单位的R4二次型全相容。不能再以同一首剩余多jets造forcing，仍须真实高位pC/原全局来源。
+[R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[§§16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[§§37起](results/R1067-original-first-wild-fixed-geometric-tail.md)保全部原Kato/ν/physical/参考。g1=aEN/p、g2=(pbEd−γaEN)/p²必须全f/mixed、EN三位/Ed两位，尾−3aIp/γ不能删。固定两I12边界/Taylor及整比较给T/p²全V整，Π度≤p−1由原branch全主部唯一恢复。§§44–49原全Paley/Singer/标记/∞号/Γ68与参考RS，消λ、付P9/P14及κ=−(pcσ)²、c/p=−1/κ、γa u0 c/p=−b；Q6全回原第四物理权，非独立Gaussian条件。§50p≡137 mod204互补射线同样成立。§51原全Z首剩余R3在r≤h同构，后段核为(1−x)^(h+1)倍数；j1坏/j2单位R4与全部首剩余jets相容，仍须真实高位pC/全局来源。
+§52真实冻结f17精确分解为九条有标记十七同源；µ3三轨道为{∞,14,7}/{13,3,5}/{1,8,16}，九线独立并保全标量，三个目标端环均O17。全原物理Gaussian/degree34截面各自付Tate尾，原Jp=3Σ三个原分支读者；只将完整中央坏写成三个导数和零，不赋各支原Selmer身份。
 
 ## 原中央、全层及 Rubin 整平方：R1070
 

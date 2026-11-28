@@ -344,3 +344,7 @@ R736真实模p²像线与(28)的符号给原二次矩的整格点多项式，四
 ### R1073 §3：原CM实下降与单一范数支无抵消
 
 原Kronecker完整余类和、CM Galois标量和参考5/双13原Euler给w_b=θ_bL_bν/L_1ν的准确实旋分下降；θ_bA_b的系数共轭等于原倒数T作用。质量/一次项已为零，故u_b=θ_bA_b,2在Z_p。于(5/p)=−1的惰性素数，两个原范数支的中央估值均恰等于min(vA65,2,vA8125,2)，排除配对抵消；单一加号有限证书足以检测该固定二元族。Yang实非负仍不代中央p进非零。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1067 §52：九条实际标记同源与三个原中央分支
+
+原R290/R292/R302全部2与17处相位给九条有标记17次同源的精确Jacobi分解，目标端环皆为O17。实际µ3分成三个不同中心，八列Fourier子式与第九竖线独立，原S1不变迫全部系数的准确置换。每支仍为完整物理degree34代数截面并付同一Tate尾，原Jp=3(J[H∞]+J[H13]+J[H1])；中央坏只迫三导数相加零，不将单支换成新Rubin或Selmer来源。 [同编号全文](results/R1067-original-first-wild-fixed-geometric-tail.md)。
