@@ -389,3 +389,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:10:38 UTC — RET90 旧01–18已终态非触发followup全token整理
 
 19份完整旧followups中仅02/03/03b/06/11/18六份移除字符串外空白，13本已紧凑不动。六官方completed在已刊RET62/63/64全表按真实JSONpointer绑定，五个完整workflow均只request触发；原03和03b版本不混用，request/controller不写。16634B/d278f6802dcf89203c21221f5262d5c05058aa1721a7c56f43db444cad4e513d完整映射、3464B说明与旧固定57bbee6ddee60445db5209074809f2269a9703c3全恢复同刊，复用RET88原3718B再生器。毛52345B、净32247B，未动科学源/活queue或参数token。 双README云核至`84d526b44da1c902b9dd3b0e0ad1b04b7a5ade93`无变（非pull）。
+
+## 2026-11-28 09:13:03 UTC — 28原runner完整末状态转入R729的全部来源参数与真实续接
+
+完整10件595754B及同一shared pure-only helper7796B共603550B全部同刊；总表21838B/db6d949d71e3f53ac7bf80350e97d93df91cf6bcb1be7a4aab69c0fdfa811ff0/blob92cd8f9b856f6398f681637cd409d4d93751490d，137原来源逐字真读、13final/13typed及whole model相等，不删字段；完整旧same-source 772字守卫不变。新driver全function体同33 R729，旧driver/report/command/pure完整身份绑定，实际两final damping读取独立归因，不猜未公开mu。官方28 job140865899880仍in_progress；原ID visible-larger-resume-20261128-28把全science队列74381B/SHA2563d161b59f79d1c650d462fea4021c5b615f4d0f321563a9ccd38820657c7518d/blobc22ab7f3362261d76b19a1b6f8eecf06ac74ce15排入，finishfalse，不重复两input。完整142/7 argv、587/568 formal、原64live、全4/64/15/32stage/全域不减；新namespace fixed-fejer-halfwave-demanded-run28-R729-continuation-01。下一whole pure63168B仅科学自然返后排，不以准备完冒真实运行。原28全summary错误和typed证据保；当前F/J/root/geometry/acceptance全部重算。H旧全文固定ff75保全部原责任，§1–6不动。 双README云核至`a6c74a411b991758c0393190234cc8b2b3f7a3a0`无变（非pull）。
