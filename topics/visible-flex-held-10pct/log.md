@@ -228,3 +228,7 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 ## 2026-11-28 12:19 UTC — 新真 fullH 首段完整有限谱连续界
 
 原stage0流水线真实13.757s返回，170 planar+25 height全谱，metric上界3.59999724518074e−8、K上界8.177308001953627，两原门通过。root复核23个源/输入/输出SHA；证书仅stage0，完整尾/闭图仍欠。179636KiB是真child rusage，失覆的/proc sampler不能作总峰界。全尾分批保既付段继续。私库12:11:39UTC实际pull至df5208252bd9dd6cfb6445da7423aecd77f63142，双README空diff、QUEUE仍本会话。见 [记录](notes/2026-11-28-tail-actual-fullH-stage0.md)。
+
+## 2026-11-28 12:21 UTC — M48 完整因子映射恢复合同已审，实际未启动
+
+root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层真来源不变，factor-only保完整原CSR/QR、原方向和验收。只有真实页释放成功才给冷RHS预算；RssAnon信用不含可回收映射页，实际磁盘预分配、逐mesh门和joined-child唯一临时backing清理均保留。本地盘不够1198.68MiB而未启动，不重试匿名布局。见 [准备](notes/2026-11-28-design-mapped-recovery-preparation.md)。
