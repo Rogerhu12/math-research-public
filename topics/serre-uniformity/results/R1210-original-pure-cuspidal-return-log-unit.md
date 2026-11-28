@@ -192,3 +192,84 @@ $$
 - R1206：同一原中心函数域的显示 primitive $f_T$。
 - R1208：原 CM node static frame 与 canonical CM 相位；旧 SS 数值的范围更正。
 - R1209：一般 $S$ 的完整 CM/SS 收缩及 (1210.5) 的同源顶层公式。
+
+
+## 7. 同一纯返回的二次 CM 轮廓与实际两列单位小行列式
+
+本节继续同一原向量，不改变 $P$、$q$ 或 CM 圆盘。
+置 $q_0=n-1$（本节下标只为指数，区别于尖点投影 $q$）。
+直接微分得
+$$
+\mathscr D(b^2r^{q_0})
+=2r^{q_0+1}
+-\left(18q_0+\frac{41}{4}\right)B r^{q_0}
++3q_0(3q_0+1)B^2r^{q_0-1}.
+\tag{1210.18}
+$$
+由于 $q_0=-11/6$ 于 $k$，
+$3q_0(3q_0+1)=99/4$ 是全部当前素数上的单位。因此
+$S_{\rm hi}=\mathscr DT_0$ 在 $b=1$ 的零阶准确为 $n-2$，且
+$$
+S_{\rm hi}^{(n-2)}(1)
+=\frac{99}{4}(n-2)!(-3)^{n-2}\in k^\times.
+\tag{1210.19}
+$$
+所有更低阶的导数均为零。
+
+令 $\Omega_{\rm hi}=\Omega_0$ 为 (1210.4) 的实际纯尖点整提升。
+在 R1193/R1197 的原有理盘
+$w=(a-1)/p^3$ 上，仍用原共同尺度
+$$
+H_{\rm hi}(w)=\varepsilon^{-m}
+              \int_{c_1}^{x(w)}\Omega_{\rm hi}
+\in W(k)\langle w\rangle,\qquad H_{\rm hi}(0)=0.
+$$
+R1197 的完整旗标对 $k=n-1$ 给
+$$
+\boxed{\quad
+\deg\overline H_{\rm hi}=2,\qquad
+[w^2]\overline H_{\rm hi}
+=v_{n-1}(-3\gamma^2)
+  \frac{99}{4}(n-2)!(-3)^{n-2}\in k^\times .
+\quad}
+\tag{1210.20}
+$$
+这里 $v_{n-1}$ 是 R1197 (1197.8) 已锁定的原节点单位，
+包含 $\kappa_1,\rho_1,\lambda_1,A(1),\lambda_0$；没有把这些单位设为一。
+所有高于二次的模 $p$ 项由此前的实际零 jets 消失，
+全部 $p$ 倍积分次数仍由 R1193 的原完整尾界控制。
+一次项没有被无依据删除，故此式不自行排除另一个圆盘零点。
+
+再取另一个原高 PS 输入 $T_{\rm lo}=b^2$。同一个算子给
+$$
+S_{\rm lo}=\mathscr D(b^2)=2-\frac{49}{4}B,\qquad
+S_{\rm lo}(1)=-\frac{41}{4}.
+\tag{1210.21}
+$$
+$41\equiv5\pmod{12}$，故末值在本篇全部 $p\equiv11\pmod{12}$、
+$p>37$ 上为单位。两者实际 pure 底都是
+$\mathcal C(T_{\rm hi/lo})=-3\gamma^2S_{\rm hi/lo}$。
+
+若 $\lambda(S)=S(1)$ 是原首 CM normal 的未缩放读取，则
+$$
+\det
+\begin{pmatrix}
+\mathcal V_m(S_{\rm hi})&\mathcal V_m(S_{\rm lo})\\
+\lambda(S_{\rm hi})&\lambda(S_{\rm lo})
+\end{pmatrix}
+=-\frac{41}{4}\mathcal V_m(S_{\rm hi})\in k^\times.
+\tag{1210.22}
+$$
+乘回两列共同的 $-3\gamma^2$，并将第二行乘 R1193 (1193.34)
+的原 $\kappa_{\rm hi}\sqrt{A_{\rm tail}}\lambda_0^{-n}$，
+仍得两个实际 pure 向量、完整首对数及原 CM 最高系数的单位小行列式。
+
+(1210.22) 是整个原纯尖点空间上的两列结论。
+它不意味着在某个指定 Hecke 简单成分上也为单位：
+不同成分可以分别具有不同的比例。
+因此本节没有把它认作对 $F_0$ 平衡的 whole-MW 楔，
+也不把 (1210.20) 的二次多项式直接称为 MW 消灭函数。
+它提供同一实际向量上的可核比较靶，供后续原极化与 Hodge/Lie 运输使用。
+
+root 与 o2_high_coefficient 独立核 (1210.18)–(1210.22)；
+全为纸面推导，无数学程序执行。

@@ -1,35 +1,39 @@
 {
   "schema": 1,
   "session": "Astra-serre-24b8836b-20261126",
-  "source_branch": "serre-astra24-publish-whole-highest-character-integrality-20261128",
-  "request_id": "r1211-original-whole-highest-character-integrality-20261128",
-  "message": "serre: extend original cuspidal projection integrality to every highest-character deck part",
-  "last_read_rules_commit": "0316baaf324d5e6d556df1db3d372d507ab32e8d",
+  "source_branch": "serre-astra24-publish-pure-return-quadratic-CM-profile-20261128",
+  "request_id": "r1210-original-quadratic-return-profile-20261128",
+  "message": "serre: identify the actual pure return quadratic CM profile and unit two-column minor",
+  "last_read_rules_commit": "3974ef95c971f0dbac2a41110a013a81d38e64db",
   "rules_git_blobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/serre-uniformity/README.md": "6b1ae6cbd6f8b7be97f39e79367279a15cfdeec7"
   },
-  "previous_request_git_blob": "9320ccdbecc849ee6d1e04d91db1fadc15d2b8e3",
+  "previous_request_git_blob": "664e125380579a6a11858653dd0ff4472564d914",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R1211-original-whole-highest-character-projector-integrality.md",
+      "path": "topics/serre-uniformity/results/R1210-original-pure-cuspidal-return-log-unit.md",
+      "previous_git_blob": "5848ef2bb5516e3710e7dc170f924f15f7f31855"
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-28-before-quadratic-return.md",
       "previous_git_blob": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "previous_git_blob": "5c9bde2e804e2a0842447a7002d94e48d9fe5636"
+      "previous_git_blob": "f36f43ab7183f24f46f2149f4de371af5308b424"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "previous_git_blob": "c683b779ce1f37a2635ca71882e8143b9db81b38"
+      "previous_git_blob": "3e0a1a5c0fe952e3f33465b4a9fe728b162b4b31"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "previous_git_blob": "17f17a2187b85e615fdba99b717d4567dadf053d"
+      "previous_git_blob": "4a5367f41f466f449c2b0969894d6829a7cffd17"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "previous_git_blob": "974868fb7f46eb669a5e3c6bed4c89b20d678183"
+      "previous_git_blob": "717c359e347a6cdc33e9d44de0225a9f63f52fe1"
     }
   ]
 }
