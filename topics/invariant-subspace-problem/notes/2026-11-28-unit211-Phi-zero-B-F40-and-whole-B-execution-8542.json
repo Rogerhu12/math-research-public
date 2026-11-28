@@ -1,0 +1,75 @@
+{
+  "schema": "isp-frozen-exact-actions-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "elapsed_seconds": 15.43174016200004,
+  "max_child_rss_kib": 56524,
+  "ordinary_isp_claim": false,
+  "rules_reads": [
+    {
+      "after": "54cc47b608e210ab046f0a33b4a42a97cac7b6ee",
+      "before": "75ba60fabf2a120fdd63ab389158a5503a636388",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T08:50:33.619026+00:00"
+    }
+  ],
+  "run_attempt": "1",
+  "run_id": "46127656231",
+  "source_commit": "75ba60fabf2a120fdd63ab389158a5503a636388",
+  "source_exit_code": 0,
+  "source_git_blob": "edbf56c8ad46479cfe5c69ee39c7c8a3d36cb421",
+  "source_sha256": "18d564ff3b28972d7476cbdc367d50ea1e624ffafccd9c8ea0d9edfb56c1191c",
+  "stdout_bytes": 3376,
+  "stdout_sha256": "640514078f18bdae798bb7dae46e1f5dc853c67d34132262ca6a1b3c469f045b",
+  "stop_reason": null,
+  "job_id": 140925725598,
+  "mathematical_final_seconds": 15.400696363999998,
+  "original_rows": [
+    "E1",
+    "EBe",
+    "EBo",
+    "N1",
+    "NS",
+    "PS"
+  ],
+  "raw_omega_degrees": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "successive_omega_gcd_degrees": [
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "stopped_after_original_row": "NS",
+  "original_q_tag_eliminated": true,
+  "final_original_identity": "sum_i beta_i(omega) F_i(omega)=1 in K40[omega]",
+  "new_complete_original_coordinate_returns": 24,
+  "new_omega_bezout_returns": 5,
+  "new_omega_divisions": 17,
+  "positive_D_targets_executed": false,
+  "whole_F40_excluded": true,
+  "whole_B_excluded_by_prior_F2_F34_and_C76": true,
+  "whole_Phi_excluded": false,
+  "scope": "current corrected Phi, physical Dval!=0 original unit211 chart",
+  "first_true_mean_head": {
+    "original_run": 46106007773,
+    "original_job": 140858793293,
+    "identity": "Mn^3*L^4*A*B/(8*K0^3*(1-Q)^4)",
+    "read_only_no_rerun": true
+  },
+  "new_first_three_means_generation": "1,T,z over current paid weight ring[lambda], not free",
+  "lambda_one_parameter_sha256": "da857429ce495f99a8122be93572a2ea843d686399306736f686cc563b0851ee",
+  "omega_two_parameter_sha256": "0c31ed12aa445fb349954b25d901a230fbc2d96a924bcb3e4e23336aa1c63a75",
+  "coefficient_payload_saved": false,
+  "old_480_gate_replayed": false
+}
