@@ -26,7 +26,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-target-curvature --> [R287](results/R287-actual-full-gap-stadium-H65-prefix-and-continuous-truncations.md)真p32全部64径格/H65/准确Γ95，完整前缀全部.02≤L≤.06截取reach≥.098，原.02≥.108、κ<9.195522；承接R281/R283。
 
-<!-- 2ecf-live-g10 --> [释放平领富集场上真实216个XYZ，冻结同g，两物理球距离权重分别4千和75万，实际523/456接；第二G11 .1566625/κ9.89869/held .654303，完整非局部厚度未由这些量支付。](notes/2026-11-28-2ecf-released-flat-cuff-simultaneous-held-and-local-curvature-physical-field.md)
+<!-- 2ecf-live-g10 --> [释放图新320个位置/双径向目标900接G11 .130218/9.78467/.654109；真冻结该新g、690位置1000接G11 .133486/9.71970/.654426，峰未降。](notes/2026-11-28-2ecf-released-physical-radial-speed-and-hoop-target-design.md)
 
 <!-- 2ecf-R271-components --> [R288](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)长短两真端方向独立、完整三分量reach≥.097；R273/R282旧尾仍可用。两完整连接的新metric/法管均另付。
 
@@ -54,4 +54,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 12:51:59 UTC；已读main `cb81003d7c9ba2dad8f1039ca87cf6a49f7e7f45`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:34:29 UTC；已读公开 main `4f6dbdb37b104eec5f8c9863a90b37631c246526`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 13:34:39 UTC；已读公开 main `eadcdcd70dae1bd986078fc567964173a6315d66`，根/课题 README 逐差无变化。
