@@ -50,4 +50,4 @@ root独占main；三子代理exact_analysis_ultra、strong_geometry_ultra、m12_
 
 <!-- 2ecf-rules --> 本机恢复后的真实 pull/rebase：2026-11-28 17:33:58 UTC，公开已读 e0f5d542cdbf51e5276b654d334a5b86bc4e4e95，根/课题 README 无变化；新 partial/sparse checkout /workspace/scratch/2ecfcd6930d6/public。
 
-<!-- 2ecf-actions-rules --> Actions run 46164243725/1：真实 pull/rebase 2026-11-28 17:36:07 UTC；公开已读 ab576dce2179aed57f437830b555876db055566d，根/课题 README 无变化。 私库真实 pull 2026-11-28 17:33:46 UTC、已读 1f581547d05b8656a4b91370eba184ae0eb517ed，私根无变化。
+<!-- 2ecf-actions-rules --> Actions run 46164243725/1：真实 pull/rebase 2026-11-28 17:36:17 UTC；公开已读 7f8643375d9b66300cab339b5ab374485133eb04，根/课题 README 无变化。 私库真实 pull 2026-11-28 17:36:12 UTC、已读 fb91f110ceb909b71418e04bc2a767c0be6229e2，私根无变化。
