@@ -29,3 +29,5 @@
 - [R782](R782-angular-Cauchy-rigidity-of-the-clamped-circular-rim.md)：整圆位置和横向一阶迹夹持、局部统一角解析二基本形下的全柱Cauchy唯一性；不扩大为一般C²刚性或近等距稳定性。内握平帽的角解析刚性与非解析真帽构造单列。
 
 - [R783](R783-optimal-four-moving-cap-sectors-and-closed-normal-tubes.md)及[六jet](../scripts/resume_20261126/r783_four_developable_cap_flaps.py)：固定内握的全帽精确发展，四个固定边点最优。一般有限四扇全闭嵌入/宏运动；MILD整reach仅>.0021，tiny才≥1/24.46，中央度量缺陷仍>.23。
+
+- [R785](R785-moderate-two-cap-shear-and-the-full-signed-normal-tube.md)及[完整共剪六jet](../scripts/resume_20261126/r785_two_cap_separable_world_shear.py)：同R781 g、xi≤.02和真实MILD四角，两完整帽全g；全signed法层原reach≥1/22.70及全世界弦/Taylor界使整reach≥1/24.36>.03D，held>.320、商距>.086。真实中央g缺陷>.24，仍是有厚度保证的待纠正场。

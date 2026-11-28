@@ -129,3 +129,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [R782](results/R782-angular-Cauchy-rigidity-of-the-clamped-circular-rim.md)：同R781 g整rim位置/横向一阶迹夹持，在局部统一角解析二基本形类内全柱刚性；穿K零/变号亦成立。一般C²、自由真rim或无统一解析界的近等距序列不覆盖。平帽内握的角解析限制与非解析完整发展帽另证。
 
 [R783](results/R783-optimal-four-moving-cap-sectors-and-closed-normal-tubes.md)：同R781平帽内握.18，至少四固定rim点且四独立发展扇精确达到。完整九图共环境场：.020/.022/.024/.025仅证整reach>.0021；tiny独立分支才证≥1/24.46。二者中央g缺陷>.23，不混两种界。
+
+[R785](results/R785-moderate-two-cap-shear-and-the-full-signed-normal-tube.md)：同R781 g双完整帽各四真实MILD扇，xi≤.02，共全空间剪切逐对支付reach≥1/24.36>.03D、held>.320、含反射商距>.086及真.18内握。终相同一中央点原g缺陷>.24；下一全场必须纠正。
