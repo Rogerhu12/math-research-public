@@ -440,3 +440,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §60：全部目标导数的一重完整过收敛积分
 
 有限period障碍扩到S外循环群相对紧的一般交换代数群；同一三目标Newton/Borel转换给ΣI′=−∫₀¹D(−t)dt/t，两个端点正则。被积微分未证明代数，不能免费调用广义Jacobian对数。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §61：全三目标resolvent的准确复增长阶
+
+原完整M的复整函数阶恰2/(p−1)，在复无穷本性但p进端点正则。证明保每个真实格和全部最大曲率项，磁平移全圆盘均值消去交叉项；不排除端点值另有period表示。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。

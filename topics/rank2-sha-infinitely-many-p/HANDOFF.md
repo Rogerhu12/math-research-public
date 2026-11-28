@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse-index，显式/bin/bash、login:false；公共pack已逐字核迁/tmp/rank2-0b097461-public-git-pack-20261128并保symlink，勿删；数学仅公开Actions。
-- 公开2026-11-28 13:24:51 UTC实际pull --rebase，读取main 5a634cf071034831572be094cdfd21984b9886e5；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 13:24:47 UTC实际pull --rebase至d656253e4051e84f5bfcb13b92e0011e3338d24a；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 13:25:18 UTC实际pull --rebase，读取main 8d2dd3e523cd3ad16270b31e6f295d5801b1d4b8；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 13:25:14 UTC实际pull --rebase至a31086393b96bd4e5fcc455787ad92f36667c953；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3271/47328957B/tree451c2b2d97e89e0991e2c00bb04911db42bcd225；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3271/47337047B/tree7b43fa2a77d6256fd891eb2b760971345e1f8d2e；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点真实生产与短图软件：R1071
@@ -30,7 +30,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 [R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)、[§§16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)、[§§37–55](results/R1067-original-first-wild-fixed-geometric-tail.md)、[§56起](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。全部Kato/ν/physical/参考不变。g1=aEN/p、g2=(pbEd−γaEN)/p²；全f/mixed、EN三位/Ed两位及−3aIp/γ不可删。I12原边界给T/p²全V整与唯一Π度≤p−1；原κ=−(pcσ)²、c/p=−1/κ，径向Q6回原第四权，互补p137mod204。首剩余后段核(1−x)^(h+1)容许坏j1、单位j2，须真高位。
 §§52–55九标记17同源分三个真实Zi，J=3Σr_i^u I_i；同一S3域、惯性反射迹与全部目标导数保留。真实Gaussian加权Gwt=ΣBi logri在充分大好p非零且超越，但原J′/3=Gwt+ΣI_i′仍可能精确抵消。有限整数权非零不自动传到p进导数。
-§56原Kummer/DFT给9Zi=S1+ω^iaH3+ω^-ibH5，a/b=17^(1/6)/(3+√17)>0；§57实际rank0比U=R²，三目标导数保Y′/J′，全层有限对数读者到任意精度，极限尚非有限全局period。§58绝对b=−1/(168θ²)、a=bθ/(3+√17)，Pell质量为固定常数。§59三中心比模固定S-unit秩2，Gaussian对数独立于有限全局period；余项尚未付此身份。§60完整ΣI′是一条过收敛积分，泛交换群障碍仍须真实代数period身份。
+§56原Kummer/DFT给9Zi=S1+ω^iaH3+ω^-ibH5，a/b=17^(1/6)/(3+√17)>0；§57实际rank0比U=R²，三目标导数保Y′/J′，全层有限对数读者到任意精度，极限尚非有限全局period。§58绝对b=−1/(168θ²)、a=bθ/(3+√17)，Pell质量为固定常数。§59三中心比模固定S-unit秩2，Gaussian对数独立于有限全局period；余项尚未付此身份。§60完整ΣI′是一条过收敛积分，泛交换群障碍仍须真实代数period身份。§61全M复阶2/(p−1)，本性不能经有限覆盖代数化。
 
 ## 原中央与完整全层：R1070/R1072
 

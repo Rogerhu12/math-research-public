@@ -512,3 +512,85 @@ $E^{\rm col}_{1,1}$ 与 Coleman reduced-theta **对数**的等式；
 还取最大 CM 序。公式(AB3)读取的是(AB5)整个截面的系数、所有
 $k!$ 和三个各自的 $C_i$，其端点值还未由该文的固定位置
 对数给出。[一手原刊](https://www.math.nagoya-u.ac.jp/~furusho/paper/BFK.pdf)（DOI 10.1215/00277630-2891995）
+
+## 61. 完整三目标积分在复无穷处的精确阶与 $p$ 进正规端点
+
+取(AB3)的物理复嵌入、$6\mid d=p+1$，且 $p$ 充分大。
+精确的整函数增长阶为
+$$
+            \rho_{\mathbf C}(M)=\frac2{d-2}=\frac2{p-1}.        \tag{AC1}
+$$
+因此(AB4)在 $p$ 进无穷端点正则的同一个代数系数函数，在复
+无穷端点有本性奇点。尤其 $M(X)dX/X$ 不能经有限代数覆盖
+成为代数亚纯微分；这不排除积分端点差另有不同的 period 表示。
+
+证明。给 $C_i^{-1}$ 任取第 $d$ 次根 $r_i$，记 $Z_i$ 为(S5)
+物理 $\mu_3$ 投影；$H_i$ 偶，$Z_i(0)=B_i\ne0$。令
+$$
+ F(z)=\sum_{i=0}^2 {6\over d}
+       \sum_{\rho\in\mu_d/\mu_6} Z_i(\rho r_i z)
+     =\sum_{k\ge0}A_k z^{dk},\qquad  k!A_k=m_k .                \tag{AC2}
+$$
+这就是在每个原 $H_i(r_i z)$ 上作整个 $\mu_d$ 平均，故不依赖
+所选根或代表。写 $\Lambda=\varpi\mathcal O_K$、
+$a=\pi/\operatorname{area}(\mathbf C/\Lambda)>0$。
+由 $\sigma(\omega z)=\omega\sigma(z)$ 及 Legendre 关系，
+其 quasi-period $\eta_\ell=a\bar\ell$。具体说准周期映射的
+实线性延拓为 $Az+B\bar z$，三次旋转迫 $A=0$，定向周期基
+的 Legendre 关系给 $B=a$。原 degree $34$ 的
+$Z_i=\sigma^{34}$ 乘一个椭圆函数；故对于
+$f(z)=Z_i(\rho r_i z)$，$L=(\rho r_i)^{-1}\Lambda$，
+$b=17a|r_i|^2$，有
+$$
+ f(z+\ell)=e^{2b\bar\ell z+b|\ell|^2}f(z),\quad \ell\in L.
+                                                                  \tag{AC3}
+$$
+$|f(z)|e^{-b|z|^2}$ 有界，平方是 $L$ 周期的非负连续函数且
+在一个基本平行四边形上积分严格正。因此其归一圆盘均值有
+严格正极限。
+
+(AC2)不同标记的格不能通约。对此型格，两格若有非零共同
+向量，其伸缩比就在 $K^\times$，遂通约。对相同 $i$，
+$K\cap\mu_d=\mu_6$ 已被除去。对不同 $i,j$，两格通约会给
+$(\rho r_i/\rho'r_j)^d=c_j/c_i\in K$。固定 $K$ 并轮换三目标的
+十三处三循环遂迫三个连续比相等且为三次单位根。这同(AA2)
+的 $|c_1/c_0|\to0$ 矛盾。
+
+令 $b$ 为(AC2)中出现的最大曲率，取归一圆盘均值内积
+$$
+ \langle f,g\rangle_R={1\over\pi R^2}
+  \int_{|z|\le R} f(z)\overline{g(z)}\,e^{-2b|z|^2} dA(z).
+$$
+较小曲率项的对角均值趋于零，混合项亦因 Cauchy–Schwarz
+趋于零。对同最大曲率而格 $L_1,L_2$ 不同的 $f,g$，定义
+$T_hg(z)=e^{-2b\bar h z-b|h|^2}g(z+h)$。在这一归一内积下
+同时平移两项所造成的误差趋零，因为只改了半径 $R$ 圆盘
+边界处面积 $O_h(R)$ 的部分，两个除 Gaussian 后的函数有界。
+平移交换子的相位为 $\exp(\pm4ib\operatorname{Im}(h\bar k))$。
+有 $h\in L_1,k\in L_2$ 使
+$4b\operatorname{Im}(h\bar k)/(2\pi)$ 无理：否则两组基的
+这四个配对均有理。$L_2$ 自己的此配对交错矩阵非退化且整
+（其有向面积给 $4b\operatorname{area}(L_2)/(2\pi)=34$），
+解线性方程即 $L_1\subset L_2\otimes\mathbf Q$，违反不可通约。
+
+于是 $T_h^ng$ 对 $T_k$ 有两两不同的单位特征值。由同时平移
+的边界误差，它们在上述圆盘均值中两两内积趋零；所有对角
+均值有同一严格正极限 $q_g$。而 $T_hf=f$，对于每个固定 $n$，
+$\langle f,T_h^ng\rangle_R-\langle f,g\rangle_R\to0$。把
+$n=0,\ldots,N-1$ 平均再用 Cauchy–Schwarz，得到
+$$
+ \limsup_{R\to\infty}|\langle f,g\rangle_R|
+     \le (q_fq_g/N)^{1/2}.
+$$
+令 $N\to\infty$ 即为零。这证明实际圆盘的全均值存在，
+无需预设非周期交叉项有均值。所有最大曲率的非零对角项
+都保留，故 $|F|^2e^{-2b|z|^2}$ 的圆盘均值有严格正极限。
+另一方面 $|F|\ll e^{b|z|^2}$。若 $F$ 的阶小于二，或二阶
+但型严格小于 $b$，该均值都会趋零。因此 $F$ 恰二阶、型 $b$。
+
+故 $\sum A_kX^k$ 恰为 $2/d$ 阶。由整函数 Taylor 系数阶公式
+$1/\rho=\liminf\log(1/|a_k|)/(k\log k)$（零项取 $+\infty$），
+用 $\log k!=k\log k+O(k)$ 便从(AC2)得到(AC1)。其正有限阶且
+为整函数，故为非多项式整函数。无穷处的本性奇点不能由
+有限代数分歧去除。这作用在(AB3)的整个三目标系数和上，
+并未给(AB4)的 $p$ 进端点差赋予非零或超越性。
