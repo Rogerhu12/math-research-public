@@ -1,0 +1,69 @@
+{
+  "status": "actual_partial_sum_exact_resume_prepared_not_executed",
+  "entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/resume_cartesian_third_activity_moment.py",
+    "sha256": "d2824688e98cf51acfe60971b42ece3b1e13db97ad5efee4f19bb8b0e72e9436"
+  },
+  "preparation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resume-preparation-20261128/prepared.json",
+    "sha256": "9c8de5429f6348451c418e778e4733751cba5b7863ff5c5167323f3a13ccb927"
+  },
+  "actual_preparation_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resume-preparation-20261128-process.json",
+    "sha256": "40df310df91f41d3b681d33fdd627ae9543302ab810fab273a4f23a4274e98f7"
+  },
+  "actual_parent_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128/actual-terminal.json",
+    "sha256": "9ac3982edd381a075ee252f672824df711239c359fe7a827c727e47a2acfe1cb"
+  },
+  "actual_partial_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128/summary.json",
+    "sha256": "88f563924e0cde642f74053aa52a1db817ce77952399f13ee53186bd58a84d5c"
+  },
+  "inherited_completed_base_intervals": 640,
+  "remaining_base_intervals": 395,
+  "exact_inherited_radial_range": [
+    "0",
+    "695948984034903/1125899906842624"
+  ],
+  "exact_remaining_radial_range": [
+    "695948984034903/1125899906842624",
+    "3209374592944335/2251799813685248"
+  ],
+  "inherited_partial_sum": {
+    "display": [
+      0.10467424455290045,
+      0.104695681111882
+    ],
+    "binary64_hex": [
+      "0x1.acbee6916952ap-4",
+      "0x1.acd560e687141p-4"
+    ],
+    "exact_binary_fractions": [
+      "3771287110109845/36028797018963968",
+      "7544118887084353/72057594037927936"
+    ]
+  },
+  "inherited_core_moment": {
+    "display": [
+      0.19624607888949328,
+      0.19624855710066977
+    ],
+    "binary64_hex": [
+      "0x1.91e976d6638d7p-3",
+      "0x1.91eac3751396fp-3"
+    ],
+    "exact_binary_fractions": [
+      "7070510142077143/36028797018963968",
+      "7070599429044591/36028797018963968"
+    ]
+  },
+  "original_prefix_span_calls": 0,
+  "original_model_loaded": false,
+  "core_recomputed": false,
+  "inherited_prefix_recomputed": false,
+  "full_J_assembled": false,
+  "prefix_flux_certified": false,
+  "whole_active_coefficient_certified": false,
+  "whole_surface": false
+}

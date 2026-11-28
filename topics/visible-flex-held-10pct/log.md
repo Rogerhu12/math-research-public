@@ -264,3 +264,8 @@ root读完六源及v6完整差异，核8个直接绑定；e889完整nodal三层�
 ## 2026-11-28 12:53 UTC — 同runner明确新冻结后继，保既有实际场与原来源
 
 真正7a固定g actual-DN后继需要新模型代码，首次冻结树不能静默变更。独立followup helper随首冻加入，未来v3唯一新request在旧session结束后明确给40hex源码/已读规则锚；独立公开partial clone，不触旧树，实核main/所选源双README空diff、detached完整文件manifest，原work全保。ORIGINAL_REPO与SOURCE_REPO显式区分，旧run不重标；原v3所有规则/会话/发布门不变。root读完整源及合同，只编译/CLI检查，无Git/BVP试运行。见 [准备](notes/2026-11-28-design-explicit-frozen-followup-prepared.md)。
+
+### 2026-11-28 13:07 UTC — Astra-held10-7c4e33ee-20261128
+R78登记：同λ.064/M40/mean1936的1035格完整前缀三阶活动矩真返，严格1571879/10^7<A3p<1572603/10^7。640格真实累计+336个durable叶+59个本次叶精确接齐，原/core不重算；root47项来源和395行Fraction核验过。仅付前缀与两短柱候选，同场尾/cut、整闭图δE和λ1继续。私库13:05:52真pull daa55359，双README空diff、QUEUE保持本会话。
+
+发布更正：此前R78写出遇共享盘ENOSPC只留下0字节新文件；批命令缺失败即停导致发布器误续跑，形成82c217115的错误author/subject。已独立核该提交仅改本题HANDOFF一行规则锚，原a4aad5097及其它课题内容仍在历史中；不重写已推历史。本次明确补正记录，发布器现强制pull前后恰有一个本会话作者的未推提交，命令失败即停，防止再误amend。远端v3 POST403明确需actions=write，本workflow无run；没有改触发方式绕权限。

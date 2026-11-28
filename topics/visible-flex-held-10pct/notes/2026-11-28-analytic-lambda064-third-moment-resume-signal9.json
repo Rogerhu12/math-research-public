@@ -1,0 +1,105 @@
+{
+  "status": "actual_resumed_third_moment_signal9_before_full_prefix_cover",
+  "actual_exec_session": 12063,
+  "observed_parent_returncode": 247,
+  "observed_child_returncode": -9,
+  "actual_process_return_observed": true,
+  "actual_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128-process.json",
+    "sha256": "9d6dc9726dc6586873beb4e078ac8710827d6b256e7f80a236e68fc96369cd85"
+  },
+  "actual_partial_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128/summary.json",
+    "sha256": "d77180543c0d9e23ae27f671a63835d926386a24902eb8bcefa93f0a33d8c09b"
+  },
+  "actual_console": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128-console.log",
+    "sha256": "df169fdd6fecf9ced55babbf60a868a7969b1c03820c4cfb02327f563636c206"
+  },
+  "resume_entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/resume_cartesian_third_activity_moment.py",
+    "sha256": "d2824688e98cf51acfe60971b42ece3b1e13db97ad5efee4f19bb8b0e72e9436"
+  },
+  "original_entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/cartesian_third_activity_moment.py",
+    "sha256": "fef214b4b49efb77e4493886431ec125553f842be7a13c3dadd357c0a9a9002e"
+  },
+  "previous_preparation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resume-preparation-20261128/prepared.json",
+    "sha256": "9c8de5429f6348451c418e778e4733751cba5b7863ff5c5167323f3a13ccb927"
+  },
+  "original_terminal_record": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128/actual-terminal.json",
+    "sha256": "9ac3982edd381a075ee252f672824df711239c359fe7a827c727e47a2acfe1cb"
+  },
+  "source_tables": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-refined3072-20261128/summary.json",
+    "sha256": "5e7450894b011181eb4e0429c84674cb48a69572dea8de8db5625271cf7f7de4"
+  },
+  "seconds": 369.0163299529995,
+  "maximum_child_rss_kib": 515764,
+  "complete_preserved_radial_intervals": 976,
+  "inherited_original_radial_intervals": 640,
+  "newly_preserved_radial_intervals": 336,
+  "preserved_complete_leaf_journal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128/continued-prefix-moment-leaves.jsonl",
+    "sha256": "d2c581e3c4cdfe5bc2db62abacc6a0dd61bbfa4f362a37135697af334de54b19"
+  },
+  "preserved_complete_leaf_journal_bytes": 356704,
+  "preserved_complete_leaf_journal_lines": 336,
+  "truncated_journal_tail_bytes": 0,
+  "last_checkpoint_seconds": 368.8180359770013,
+  "preserved_partial_sum": [
+    0.15718409068007932,
+    0.15725616072086207
+  ],
+  "preserved_partial_sum_binary64": {
+    "display": [
+      0.15718409068007932,
+      0.15725616072086207
+    ],
+    "binary64_hex": [
+      "0x1.41e9bb876127cp-3",
+      "0x1.420f849b1ffeap-3"
+    ],
+    "exact_binary_fractions": [
+      "1415788424430751/9007199254740992",
+      "2832875147296757/18014398509481984"
+    ]
+  },
+  "exact_prefix_grid_binding": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-resume-preparation-20261128/prepared.json",
+    "sha256": "1a43fc9bc4f4179e6f02319e0999a6c41449dcf08c456f6b27f7025bfe7041a8"
+  },
+  "exact_preserved_radial_range": [
+    "0",
+    "1520450931608855/1125899906842624"
+  ],
+  "full_base_intervals": 1035,
+  "remaining_base_intervals": 59,
+  "complete_core_result_retained": {
+    "real_m3_boundary_flux_interval": [
+      0.19624607888949328,
+      0.19624855710066977
+    ],
+    "real_m3_separated_from_zero": true,
+    "formula": "(1/5) integral Re((x+i*y)^3)*(x*y_psi-y*x_psi) dpsi",
+    "whole_circle_threefold_factor": 3,
+    "complete_angular_second_absolute_upper": 5.091330035953131,
+    "full_circle_trapezoid_error_upper": 1.2390952072260036e-06,
+    "planar_origin_orientation_determinant_lower": 0.5524092362888378,
+    "actual_inlet_of_same_complete_Cartesian_map_used": true,
+    "imaginary_moment_assumed_zero": false,
+    "core_convexity_or_closed_curve_theorem_reproved": false
+  },
+  "core_flux_certified": true,
+  "prefix_flux_certified": false,
+  "specific_kill_cause_established": false,
+  "full_J_assembled": false,
+  "whole_surface": false,
+  "original_core_or_inherited_prefix_recomputed": false,
+  "actual_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128/actual-terminal.json",
+    "sha256": "f333872834a68204d1e010b0fbadf6ae4f1ea0e5add32b76b4e88c7caf35ad12"
+  }
+}

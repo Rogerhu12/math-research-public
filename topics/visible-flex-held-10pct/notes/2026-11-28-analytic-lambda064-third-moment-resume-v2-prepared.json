@@ -1,0 +1,83 @@
+{
+  "status": "second_actual_moment_resume_prepared_not_numerically_executed",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/resume_cartesian_third_activity_moment_v2.py",
+    "sha256": "a1f247621096d6ae017c1080dddf2be1996d19948d393cab26b65fcb880ddf15"
+  },
+  "previous_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/resume_cartesian_third_activity_moment.py",
+    "sha256": "d2824688e98cf51acfe60971b42ece3b1e13db97ad5efee4f19bb8b0e72e9436"
+  },
+  "prepared": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resume-v2-preparation-20261128/prepared.json",
+    "sha256": "68bf6b245fa12d097f9ab616aae20478d617a9f95c58d1c49892dcf61ef0598e"
+  },
+  "actual_metadata_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resume-v2-preparation-20261128-process.json",
+    "sha256": "b4645e7fc28b9bd55f194eeb764419bed8e8b038ccfdfc70f0d0010a8009dade"
+  },
+  "actual_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128/actual-terminal.json",
+    "sha256": "f333872834a68204d1e010b0fbadf6ae4f1ea0e5add32b76b4e88c7caf35ad12"
+  },
+  "actual_partial_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128/summary.json",
+    "sha256": "d77180543c0d9e23ae27f671a63835d926386a24902eb8bcefa93f0a33d8c09b"
+  },
+  "inherited_complete_leaf_journal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128/continued-prefix-moment-leaves.jsonl",
+    "sha256": "d2c581e3c4cdfe5bc2db62abacc6a0dd61bbfa4f362a37135697af334de54b19"
+  },
+  "inherited_resume_preparation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resume-preparation-20261128/prepared.json",
+    "sha256": "9c8de5429f6348451c418e778e4733751cba5b7863ff5c5167323f3a13ccb927"
+  },
+  "inherited_original_unjournaled_base_intervals": 640,
+  "inherited_journaled_complete_base_intervals": 336,
+  "inherited_completed_base_intervals": 976,
+  "remaining_original_base_intervals": 59,
+  "inherited_partial_sum": {
+    "display": [
+      0.15718409068007932,
+      0.15725616072086207
+    ],
+    "binary64_hex": [
+      "0x1.41e9bb876127cp-3",
+      "0x1.420f849b1ffeap-3"
+    ],
+    "exact_binary_fractions": [
+      "1415788424430751/9007199254740992",
+      "2832875147296757/18014398509481984"
+    ]
+  },
+  "inherited_core_moment": {
+    "display": [
+      0.19624607888949328,
+      0.19624855710066977
+    ],
+    "binary64_hex": [
+      "0x1.91e976d6638d7p-3",
+      "0x1.91eac3751396fp-3"
+    ],
+    "exact_binary_fractions": [
+      "7070510142077143/36028797018963968",
+      "7070599429044591/36028797018963968"
+    ]
+  },
+  "exact_remaining_radial_range": [
+    "1520450931608855/1125899906842624",
+    "3209374592944335/2251799813685248"
+  ],
+  "original_numerical_span_accumulation_journaling_and_final_coverage_loop_textually_unchanged": true,
+  "original_numerical_loop_sha256": "80f9b3d34770dd6ba75a33256bfee9c2e29afd4fc2072296425af0adbfb4872e",
+  "inherited_fraction_sum_enclosures_checked": true,
+  "metadata_preparation_returncode": 0,
+  "metadata_preparation_seconds": 0.5260695819997636,
+  "metadata_preparation_maximum_child_rss_kib": 14160,
+  "original_model_loaded": false,
+  "original_prefix_span_calls": 0,
+  "full_J_assembled": false,
+  "nonlinear_solver_invoked": false,
+  "prefix_flux_certified": false,
+  "whole_activity_certified": false
+}

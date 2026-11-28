@@ -1,0 +1,233 @@
+{
+  "status": "actual_resumed_third_moment_complete_prefix_returned",
+  "actual_exec_session": 4309,
+  "observed_parent_returncode": 0,
+  "observed_child_returncode": 0,
+  "actual_process_return_observed": true,
+  "actual_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-v2-20261128-process.json",
+    "sha256": "4e67a630519122f7bcf7a7dd6ffd6dab886d6affe9706035097abd56a7f5fc89"
+  },
+  "actual_complete_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-v2-20261128/summary.json",
+    "sha256": "4f231db0cdf0fa15e5a59dcdb8de391951c8b813b8e5e8ae334765fede0b5398"
+  },
+  "actual_console": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-v2-20261128-console.log",
+    "sha256": "3e587f9b049d867b41febd3d430a4c0e3f1645ec5a74e80bbee686064eb09669"
+  },
+  "resume_entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/resume_cartesian_third_activity_moment_v2.py",
+    "sha256": "a1f247621096d6ae017c1080dddf2be1996d19948d393cab26b65fcb880ddf15"
+  },
+  "preparation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resume-v2-preparation-20261128/prepared.json",
+    "sha256": "68bf6b245fa12d097f9ab616aae20478d617a9f95c58d1c49892dcf61ef0598e"
+  },
+  "seconds": 68.05027020600028,
+  "maximum_child_rss_kib": 515500,
+  "inherited_completed_base_intervals": 976,
+  "new_completed_base_intervals": 59,
+  "complete_base_intervals": 1035,
+  "original_prefix_span_calls_this_run": 59,
+  "original_core_or_inherited_prefix_recomputed": false,
+  "complete_prefix_domain_covered_once": true,
+  "real_prefix_flux_interval": [
+    0.15718797241305868,
+    0.1572602797971617
+  ],
+  "real_prefix_flux_separated_from_zero": true,
+  "core_flux": {
+    "real_m3_boundary_flux_interval": [
+      0.19624607888949328,
+      0.19624855710066977
+    ],
+    "real_m3_separated_from_zero": true,
+    "formula": "(1/5) integral Re((x+i*y)^3)*(x*y_psi-y*x_psi) dpsi",
+    "whole_circle_threefold_factor": 3,
+    "complete_angular_second_absolute_upper": 5.091330035953131,
+    "full_circle_trapezoid_error_upper": 1.2390952072260036e-06,
+    "planar_origin_orientation_determinant_lower": 0.5524092362888378,
+    "actual_inlet_of_same_complete_Cartesian_map_used": true,
+    "imaginary_moment_assumed_zero": false,
+    "core_convexity_or_closed_curve_theorem_reproved": false
+  },
+  "whole_activity_coefficient_certified": false,
+  "complete_tail_moment_certified": false,
+  "actual_short_cylinder_length_selected": false,
+  "whole_surface": false,
+  "actual_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-v2-20261128/actual-terminal.json",
+    "sha256": "4ce7541e1c1062a780ceeb3736b8f2629a96bbe840a92f997699a6071e0b7109"
+  },
+  "source_kind": "actual_original_R53_design",
+  "source_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/run.json",
+    "sha256": "05e9ad770c7f55f3738fad0f7ed5e3525cb98e1edbb40363a3a6f78b4f4d3711"
+  },
+  "physical_file": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/physical.npz",
+    "sha256": "b3dfb8b6be98255805cc46b08ce11d42a265d94ef2cf6a146cb01ab9c3b1c3ff"
+  },
+  "tables": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-refined3072-20261128/summary.json",
+    "sha256": "5e7450894b011181eb4e0429c84674cb48a69572dea8de8db5625271cf7f7de4"
+  },
+  "defining_jets": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-20261128/exact-defining-jets.npz",
+    "sha256": "012efe5f72698f4f44325120b5a5c64dc7e0b48005f498d94d2f8dd074acf331"
+  },
+  "angular_tables": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-refined3072-20261128/continuous-angular-three-jets.npz",
+    "sha256": "65e23e4d865e48b901c03900ac5ecd6dfb4c8ed4ebbbbddafcf25988610f53bd"
+  },
+  "homotopy": 0.064,
+  "modes": 40,
+  "mean_nodes": 1936,
+  "angular_boxes_per_sector": 3072,
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_tables.py": "ab8c9fb208cfa984c80768144545c9e558682eefa23169364eed9cb7986b82ba",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_interval_geometry.py": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_phase_validated_core.py": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/r53_validated_material_core.py": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_r59_fixed_mean_ranges.py": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/refine_cartesian_metric_angular_tables.py": "328e4a3303961b34020fbd79d3f748a0f8981dcdcef336fc713b7c949b83a309",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/cartesian_third_activity_moment.py": "fef214b4b49efb77e4493886431ec125553f842be7a13c3dadd357c0a9a9002e",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric.py": "935dc0ec201161396e11d25ace0de29e456e2c713618b1469cb78d1cea004ab3",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric.py": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/coupled_prefix_continuous.py": "426a8219c67920391463a6ff0c5ab56c8ed02f9f4d7dbd19a6a53dfcc69676ae",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric_target.py": "a8bb9135d8ad56a0589db3c5d582a91cc85a8c4b1fd5a5632264cccf53d7ca77",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_bridge_metric_fourier_taylor.py": "fe99f0afc6ed90dac1b9b3616c857421fa621901958dfbafdbb26191c5766bb2",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/resume_cartesian_third_activity_moment.py": "d2824688e98cf51acfe60971b42ece3b1e13db97ad5efee4f19bb8b0e72e9436",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/resume_cartesian_third_activity_moment_v2.py": "a1f247621096d6ae017c1080dddf2be1996d19948d393cab26b65fcb880ddf15"
+  },
+  "field_extraction": {
+    "original_class": "NewMetric",
+    "original_file": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_metric.py",
+    "original_file_sha256": "935dc0ec201161396e11d25ace0de29e456e2c713618b1469cb78d1cea004ab3",
+    "original_evaluate_sha256": "f2cd1116503033a000e2871ceb7772a3ead59e28caae1a944acaec1ad014eeb3",
+    "compiled_field_return_sha256": "8beb3cc7fee1d640af63f89385d2d8971a3b0e62cf00db2bb407538db322ed7d",
+    "original_field_builder_statements_unchanged": true,
+    "only_Gram_output_replaced_by_complete_fields": true,
+    "original_module_or_loader_patched": false,
+    "complete_core_center_and_optional_cut_retained": true
+  },
+  "full_prefix_radial_domain_exact": [
+    "0",
+    "3209374592944335/2251799813685248"
+  ],
+  "full_prefix_coverage_evidence": {
+    "inherited_actual_cumulative_record": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128/summary.json",
+      "sha256": "d77180543c0d9e23ae27f671a63835d926386a24902eb8bcefa93f0a33d8c09b"
+    },
+    "inherited_exact_range": [
+      "0",
+      "1520450931608855/1125899906842624"
+    ],
+    "inherited_complete_leaf_journals": [
+      {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-20261128/continued-prefix-moment-leaves.jsonl",
+        "sha256": "d2c581e3c4cdfe5bc2db62abacc6a0dd61bbfa4f362a37135697af334de54b19"
+      }
+    ],
+    "inherited_resume_preparation": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resume-preparation-20261128/prepared.json",
+      "sha256": "9c8de5429f6348451c418e778e4733751cba5b7863ff5c5167323f3a13ccb927"
+    },
+    "inherited_provenance_references": {
+      "entry": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/resume_cartesian_third_activity_moment.py",
+        "sha256": "d2824688e98cf51acfe60971b42ece3b1e13db97ad5efee4f19bb8b0e72e9436"
+      },
+      "original_entry": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/cartesian_third_activity_moment.py",
+        "sha256": "fef214b4b49efb77e4493886431ec125553f842be7a13c3dadd357c0a9a9002e"
+      },
+      "terminal_record": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128/actual-terminal.json",
+        "sha256": "9ac3982edd381a075ee252f672824df711239c359fe7a827c727e47a2acfe1cb"
+      },
+      "actual_process": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128-process.json",
+        "sha256": "691392900787a1f9c2542d7b591353832844361a3c78a843c1ad538f2562ef00"
+      },
+      "actual_partial_summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128/summary.json",
+        "sha256": "88f563924e0cde642f74053aa52a1db817ce77952399f13ee53186bd58a84d5c"
+      },
+      "actual_console": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128-console.log",
+        "sha256": "02d5e022937fbc741ccebf69f70ee6da6146e7999002c3a6c22e4c7625826fc2"
+      },
+      "table_report": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-refined3072-20261128/summary.json",
+        "sha256": "5e7450894b011181eb4e0429c84674cb48a69572dea8de8db5625271cf7f7de4"
+      },
+      "defining_jets": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-20261128/exact-defining-jets.npz",
+        "sha256": "012efe5f72698f4f44325120b5a5c64dc7e0b48005f498d94d2f8dd074acf331"
+      },
+      "angular_tables": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-refined3072-20261128/continuous-angular-three-jets.npz",
+        "sha256": "65e23e4d865e48b901c03900ac5ecd6dfb4c8ed4ebbbbddafcf25988610f53bd"
+      },
+      "source_run": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/run.json",
+        "sha256": "05e9ad770c7f55f3738fad0f7ed5e3525cb98e1edbb40363a3a6f78b4f4d3711"
+      },
+      "physical_file": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-secant-corecache-qr-20261128/attempt-002/physical.npz",
+        "sha256": "b3dfb8b6be98255805cc46b08ce11d42a265d94ef2cf6a146cb01ab9c3b1c3ff"
+      },
+      "exact_grid_binding": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-resume-preparation-20261128/prepared.json",
+        "sha256": "1a43fc9bc4f4179e6f02319e0999a6c41449dcf08c456f6b27f7025bfe7041a8"
+      },
+      "exact_grid_binding_entry": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/resume_cartesian_prefix_metric.py",
+        "sha256": "6c36a9ff8bd1be65d14477b30de9d6dc305280a675c9df08053e24b50b6f1414"
+      }
+    },
+    "new_exact_range": [
+      "1520450931608855/1125899906842624",
+      "3209374592944335/2251799813685248"
+    ],
+    "new_complete_leaf_journal": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-resumed-v2-20261128/continued-prefix-moment-leaves.jsonl",
+      "sha256": "4f5bd8d5f56f07c417ee0c1c3bf20c2a2ef3373c847f6cad444320e5c79d6f20"
+    },
+    "original_inherited_per_leaf_list_invented": false
+  },
+  "complete_cut_correction_included": false,
+  "rational_prefix_flux_outer_interval": [
+    "1571879/10000000",
+    "1572603/10000000"
+  ],
+  "candidate_total_cylinder_lengths": [
+    {
+      "total_inserted_cylinder_length_exact": "1/200",
+      "prefix_plus_cylinder_real_coefficient_interval": [
+        0.15816920280750613,
+        0.15824152258266508
+      ],
+      "tail_coefficient_not_included": true,
+      "whole_activity_nonzero_certified": false
+    },
+    {
+      "total_inserted_cylinder_length_exact": "1/100",
+      "prefix_plus_cylinder_real_coefficient_interval": [
+        0.15915043320195357,
+        0.15922276536816843
+      ],
+      "tail_coefficient_not_included": true,
+      "whole_activity_nonzero_certified": false
+    }
+  ],
+  "complete_held_geometry_or_euclidean_noncongruence_certified": false
+}

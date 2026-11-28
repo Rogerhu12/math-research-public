@@ -1,0 +1,69 @@
+{
+  "terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128/actual-terminal.json",
+    "sha256": "9ac3982edd381a075ee252f672824df711239c359fe7a827c727e47a2acfe1cb"
+  },
+  "status": "actual_third_moment_signal9_before_full_prefix_cover",
+  "actual_exec_session": 95838,
+  "observed_parent_returncode": 247,
+  "observed_child_returncode": -9,
+  "actual_process_return_observed": true,
+  "actual_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128-process.json",
+    "sha256": "691392900787a1f9c2542d7b591353832844361a3c78a843c1ad538f2562ef00"
+  },
+  "actual_partial_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128/summary.json",
+    "sha256": "88f563924e0cde642f74053aa52a1db817ce77952399f13ee53186bd58a84d5c"
+  },
+  "original_entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/cartesian_third_activity_moment.py",
+    "sha256": "fef214b4b49efb77e4493886431ec125553f842be7a13c3dadd357c0a9a9002e"
+  },
+  "source_tables": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-tables-refined3072-20261128/summary.json",
+    "sha256": "5e7450894b011181eb4e0429c84674cb48a69572dea8de8db5625271cf7f7de4"
+  },
+  "actual_console": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/lambda064-third-moment-20261128-console.log",
+    "sha256": "02d5e022937fbc741ccebf69f70ee6da6146e7999002c3a6c22e4c7625826fc2"
+  },
+  "seconds": 900.3621081279998,
+  "maximum_child_rss_kib": 515348,
+  "complete_preserved_radial_intervals": 640,
+  "last_checkpoint_seconds": 879.0097137960001,
+  "preserved_partial_sum": [
+    0.10467424455290045,
+    0.104695681111882
+  ],
+  "exact_prefix_grid_binding": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/lambda064-prefix-metric-resume-preparation-20261128/prepared.json",
+    "sha256": "1a43fc9bc4f4179e6f02319e0999a6c41449dcf08c456f6b27f7025bfe7041a8"
+  },
+  "exact_preserved_radial_range": [
+    "0",
+    "695948984034903/1125899906842624"
+  ],
+  "full_base_intervals": 1035,
+  "remaining_base_intervals": 395,
+  "complete_core_result_retained": {
+    "real_m3_boundary_flux_interval": [
+      0.19624607888949328,
+      0.19624855710066977
+    ],
+    "real_m3_separated_from_zero": true,
+    "formula": "(1/5) integral Re((x+i*y)^3)*(x*y_psi-y*x_psi) dpsi",
+    "whole_circle_threefold_factor": 3,
+    "complete_angular_second_absolute_upper": 5.091330035953131,
+    "full_circle_trapezoid_error_upper": 1.2390952072260036e-06,
+    "planar_origin_orientation_determinant_lower": 0.5524092362888378,
+    "actual_inlet_of_same_complete_Cartesian_map_used": true,
+    "imaginary_moment_assumed_zero": false,
+    "core_convexity_or_closed_curve_theorem_reproved": false
+  },
+  "core_flux_certified": true,
+  "prefix_flux_certified": false,
+  "specific_kill_cause_established": false,
+  "full_J_assembled": false,
+  "whole_surface": false
+}
