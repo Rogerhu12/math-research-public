@@ -181,3 +181,4 @@
 - [R308：同192强几何实图的真短经线与任意二维材料钟](results/R308-compact-p32-short-meridian-obstructs-all-fixed-boundary-clocks.md)（已证明）：保持两端圈及原冻结g的任何重参均有相对度量误差>.0158444；继续改真实位置或新固定g，不以钟平台作停点。
 - [R309：两款三重真圆弧中央带、双厚臂和正母面支撑](results/R309-threefold-two-true-thick-arms-and-positive-central-support.md)（已证明）：low .25/.35真实有边中央同g全相reach≥.115；未装臂母面support>.133/.155，接外部新R262需自付三项局部界与全闭直径。
 - [R310：半高.660的真双臂中央带](results/R310-shortened-0660-threefold-central-belt-and-complete-reach.md)（已证明）：轴回窗真移到.350..650，真实臂两侧球全高<.348，完整reach≥.115；每半省.120，母面support>.179/.198。
+- [R311：半高.545的真双臂中央带](results/R311-compact-0545-threefold-shoulder-belt-and-tangent-ball-sections.md)（已证明）：真实平修.235、回接.235..535、原柱至.545；肩口球截面和完整内球证明reach≥.115，每半省.235，母面support>.222/.239。
