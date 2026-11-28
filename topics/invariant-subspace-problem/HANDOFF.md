@@ -7,12 +7,12 @@
 - **规矩8/15/16：** 只保源/定义/run/SHA；旧编码仅runner临时历史输入。[历史定位](notes/2026-11-28-historical-input-provenance-8542.json)。根README新规16已读fb3965f7d7edc9f2757f0f427bd47f255ceb9d4d/99c5ad8，今后新派显式gpt-6.2-astra/ultra。
 
 - **普通复可分无限维 Hilbert ISP 未完成。** 只以全体有界算子定理或完整反例收尾；子题/时间/输入不足均不停止，按open换输入继续。
-- **最近实际 pull / 已读规则提交：** b47a88441318b74fd6b6222b6dbecc430f088601（2026-11-28 11:27:18 UTC，Actions run46139937730实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46139937730-1.json。
-- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 11:27:16 UTC/69e3401139a5429772c67e9028d000434ff9d39f，根README diff无变。公私均部分克隆blob:none。
+- **最近实际 pull / 已读规则提交：** 0ce48d9e4967a1628c27876233dce65209c1f9fb（2026-11-28 11:30:25 UTC，Actions run46140168311实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46140168311-1.json。
+- 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 11:30:24 UTC/3243fe8b9be0f0405adaa76147ad23dfe769fd3a，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 11:04 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。12:04再探，旧故障保归档。
-- **终端断开后远端已读：** 557ac8922f7c3dd8db120f9137232e1db5fa6111（2026-11-28 11:26:26 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 0ce48d9e4967a1628c27876233dce65209c1f9fb（2026-11-28 11:30:04 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-first-W-six-NP-Phi-ell-half-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-handoff-before-W-b0-same-head-4x5-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 ## R150 总图与当前一般支
@@ -30,7 +30,7 @@
 - S0/Lt0全闭：615次QQ覆盖与全部退化面；9d0c真163.601秒/0，源/回执/旧失败保总定理与归档。
 - 一般LS保(Pf,Pt)非同时零、Δ0的Φ，四值二次/三一次、六投影/四Gram仅必要。自由f/t低NP/jet原身份已成、η余项全保；新9自由变量原N4三个ell缩放短式全返，6ms/359乘/9零差，无mean/W/Phi假设或逆。原失败保档。
 - Delta0/W对ell首项零整支(u=1/2,Q=2)已闭，W0可付u(Q+2)−2；W0整k=−1线已闭，末非约化域原D=0，可付k+1。原完整98/12次覆盖、整域返回及实测源3769e6d6/43393adf均在正文。
-- **W已闭诸权支及≤616824保。** 全h付/f唯一；c0十一式/cebfb五三次返，I11/rawBdet零面保。新(R,三pair,三同f norm)=I4及新F三cofactor等价。整b0≤5772权/23088点；10ab五二次/六权式返，180.082秒/−14冻，PRS无checkpoint/终端/cover。cf6d全(u,ν)、T自由的NSPS六原cofactor首次180秒4GiB待返；仅旧单位，不借b0/ν+2，不续旧门。
+- **W已闭诸权支及≤616824保。** 全h付/f唯一；c0十一式/cebfb五三次返，I11/rawBdet零面保。新(R,三pair,三同f norm)=I4及新F三cofactor等价。整b0≤5772权/23088点；10ab五二次/六权式返，180.082秒/−14冻，PRS无checkpoint/终端/cover。cf6d全W自由T六NP核首次已全返（7.487秒/0），待正式稿。新b0同h四乘五纸面双向原商完成，h0全保；尚未实例计算。
 - **Q=1−u整个原图已闭，全局付u+Q−1。** 全QQ/模根/三整域返回、准确源和冻结失败保总证及归档。
 - **旧D≠0值图等权b=c全闭，仅该图付ell−u；W另付k+2/Q−2。** 824次覆盖及末m半QQ单位保总定理/归档，旧600秒门不重放。
 
