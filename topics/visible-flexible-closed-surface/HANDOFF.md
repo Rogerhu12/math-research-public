@@ -30,7 +30,7 @@
 
 [R249](results/R249-local-material-two-jet-continuous-budget.md)/[R251](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)支付材料二jet抵消；[R252](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)支付完整source-cross-Gram；[R253](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)用自身前缀/尾p分别乘CX。两合格场[三时刻完整闭网格](notes/2026-11-28-2ecf-m12-two-certified-fields-complete-closed-meshes.md)均真0，每份44714顶点/89424面，完整真cuff/帽/固定H；有限网格不替代连续证明或#5。
 
-**当前实际工作**：M48 R236已返4.21217e−5三角上界；新局部cross用自身R226有效l1保底+每片准确R236 p/完整路径w_r，487→488子片，369.533s真0，完整说明/源码已推。root已完成同M48 R249全部629片/1385.963s真0，R253/完整三时刻网格均真0，全部同场证书已推；不能把有限门槛等同#5。[G12/G14源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)8554新准确查询真0，独立/祖先union10730点，原g不变；其实际LM在612.993s被系统终止−9，无完整新field，正查内存并改流式驻留后从同暖场继续。M64已准备但不照旧内存配置盲启动；须继续真角频和真物理h加密，G12仅积分不能冒h收敛。
+**当前实际工作**：M48 R236已返4.21217e−5三角上界；新局部cross用自身R226有效l1保底+每片准确R236 p/完整路径w_r，487→488子片，369.533s真0，完整说明/源码已推。root已完成同M48 R249全部629片/1385.963s真0，R253/完整三时刻网格均真0，全部同场证书已推；不能把有限门槛等同#5。[G12/G14源扩充](notes/2026-11-28-2ecf-m12-g12-g14-exact-query-extension.md)8554新准确查询真0，独立/祖先union10730点，原g不变；其[实际LM系统SIGKILL−9](notes/2026-11-28-2ecf-m12-g12-sigkill-and-preserved-input.md)612.993s、driver247，无完整新field；内存可疑但无历史RSS/cgroup证据，244包仅有事后ledger。单band去无用factor已小核全Gram逐字对照通过，正绑定从同暖场的新完整重跑。M64已准备但不照旧内存配置盲启动；须继续真角频和真物理h加密，G12仅积分不能冒h收敛。
 
 [R250](results/R250-full-finite-tail-smooth-source-regularization.md)已准确规整全部18551有限尾内缝，原节点两jet零；指定R245场+Q的连续几何仍过。[准确Q查询消费者](notes/2026-11-28-2ecf-r250-certified-query-source-consumer.md)5177半径/204窗/88非零行真0，新增Qss误差<2.313e−20。新X+C+Q源独立身份，当前各非线性场未用Q，不能静默替换。R235只排过光滑有限修正的准确等距，不排C2极限。
 
@@ -50,4 +50,4 @@
 
 11月28日已回查Hu的Hexagon2611.00534仍v1：小幅周期闭族未给本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不自动给连续弯曲；不重复旧已登记障碍。子问题完成就接open下一项，不能以条件工具、有限几何或运行耗时收尾。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:55:55 UTC；已读公开 main `5761da2f59f91f3975a45ff863818077dba807b4`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:01:34 UTC；已读公开 main `7dc048cb856c0816cc0c0c2d9c3e32af1dd2b6fe`，根/课题 README 逐差无变化。
