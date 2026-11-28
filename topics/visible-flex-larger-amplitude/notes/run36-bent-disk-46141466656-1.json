@@ -66,10 +66,10 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T11:46:55Z",
-  "phase": "installing-declared-numerical-dependencies",
+  "phase": "scientific-entry",
   "terminal": false,
-  "child_started": false,
-  "child_pid": null,
+  "child_started": true,
+  "child_pid": 2744,
   "child_returncode": null,
   "latest_observed_scalar_line": null,
   "scientific_summary": null,
@@ -86,5 +86,19 @@
     "--only-binary=:all:",
     "numpy==2.3.5",
     "scipy==1.17.0"
-  ]
+  ],
+  "dependency_returncode": 0,
+  "actual_numeric_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "scientific_environment": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "child_started_utc": "2026-11-28T11:47:04Z"
 }
