@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 真实数值及独立比较
 
-固定Fejer g/M160/J923/N2048/32stage；全157/7词、458/445formal、原变量/域/预算保，25起64live保原48。12–18官方cancelled原因未知。19 science/pure0、N1无报告，20取消未返；21–28完整report未返，进度不可接准确费。
+固定Fejer g/M160/J923/N2048/32stage；全157/7词、458/445formal、原变量/域/预算保，25起64live保原48。12–18官方cancelled原因未知。19 science/pure0、N1无报告/异常入口已刊，20取消未返；21–28完整report未返，进度不可接准确费。
 
 | 完整记录 | 已登记实际边界 |
 |---|---|

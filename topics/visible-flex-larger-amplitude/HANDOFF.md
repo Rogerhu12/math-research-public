@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17实际重置各唯一探测失败，恢复即pull。云核至`2751e8cf1c21bd579c3b30513369164a585583b7`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活21–29通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端失效，15:03/21:33/00:40/02:10/04:17实际重置各唯一探测失败，恢复即pull。云核至`0005de00951671f180504db47d8b67e9bcf628b6`不是pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，差异只读diff即执行。活21–29通常5分钟真pull/已读commit在末槽，旧末槽在终态note。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull，令牌仅CLI。所有根规矩及完整发布/观测工具责任保旧H。
 仅公开Actions科学；新raw只runner/scratch。保全源参/run/whole身份/typed/失败未知，无新AST/fixture/重跑/审查门或缩预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15只退可完整再生旧数据，保结论/全源参/恢复，不删活输入或唯一状态。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D=闭F0整像直径。同g/参数/t空间/频率/时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口须明示，继续加强比例。有限点/开放片/条件论证非完成。
@@ -14,7 +14,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；07:21终端�
 
 全部attempt1；只退自然返回步骤。统计不代几何，trial不代accepted/final，同坐标异model不冒同场；alpha未知不推方向号。全身份/原数/六族/失败保[open§7](open.md)各完整note。
 
-19官方终态：science/pure0，N1无report/实际原因未知，20d617/g.966247仍不可行。20官方cancelled，末e70a/accepted3、a6b304仅统计，无report；21–25完整六族/下一trial见open；26初7e06/accepted0、reachg.006249035762618371/distplus.13346402986277572，K8.096406380355797/s=null；27初7e06/modelc627、g.701239028437362/K13.721956432061155。全部仍未达标，21–28整report未返。
+19官方终态：science/pure0，N1无report/原因未知，完整异常入口已刊，20d617/g.966247仍不可行。20官方cancelled，末e70a/accepted3、a6b304仅统计，无report；21–25完整六族/下一trial见open；26初7e06/accepted0、reachg.006249035762618371/distplus.13346402986277572，K8.096406380355797/s=null；27初7e06/modelc627、g.701239028437362/K13.721956432061155。全部仍未达标，21–28整report未返。
 
 [R724](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)及[R725](results/R725-fixed-width-boundary-cutoff-and-curvature-decomposition.md)完整半波/三片C³/根扰动/shape证保；ε1/8显式15/b→64/(7b)，不推wholeK。26 b1/2、27 b5/8真实独立同R725源；[27完整记录](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md)原三step74597B，science自然返后整接pure52646B。全源参/旧措辞保上述完整旧H。
 [R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)与[完整29件](computations/fixed-fejer-r726-complete-scientific-source-delivery.json)保真实Slerp均值/全3D及角2、137角色19变118保/23runtime，不继旧势/校准。[29完整启动](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)六件已刊：同26 b1/2、ε1/8全157/7、458/445、64live，queue74372B，science自然返后整接pure52442B；公共窗口360min/准入21000s，科学预算不改，46110194444/1从259814于05:01:31Z实起，job140871777584；科学值未返。[28完整启动](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)46108296054/1、cf2e5c85、job140865899880已实起，原25 S5半波与[按需旋转/角2完整源](computations/fixed-fejer-halfwave-demanded-complete-source-delivery.json)，不是29球面源，未宣实测加速。旧全参数/来源/结论见[b97完整记录](https://github.com/Rogerhu12/math-research-public/blob/b97f9db98409b6e4c2e8c1476865f72cefc7714c/topics/visible-flex-larger-amplitude/open.md)。

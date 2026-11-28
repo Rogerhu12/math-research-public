@@ -554,3 +554,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 05:02:36 UTC — 29官方真实启动
 
 官方run46110194444/1、workflow433424103、head259814e67c1435016353a70bb9e9b7d7b2a8c7e7，于05:01:31Z真实push开始；job140871777584于05:01:34Z开始。读取时checkout/Python success、依赖in_progress、科学pending，未声称输入/model/根已返回。完整run/jobs保[本轮说明](notes/2026-11-28-run29-complete-r726-spherical-launch-and-continuation.md)。双README云核至`2751e8cf1c21bd579c3b30513369164a585583b7`无变（非pull）。
+
+## 2026-11-28 05:03:08 UTC — 准确费用完整异常入口与19真实失败边界
+
+[五完整件](computations/complete-accurate-fee-exception-entry-source-delivery.json)63163B普通发表：wrapper14448/16c18a23、whole-parent参数转换11211/1e0c8055、实际证据14696/7a8961f5、完整说明14679/1b18e6ad、总表8129/5c982f07。真实19 N exit1/324.00838658499924s没有报告/异常类型/消息/栈，实际原因仍null；完整c6f6原源显示source/whole input/context/packet/request planning在首次write/try之前，7参数e717.from_files实匹配，不误诊缺keyword。wrapper以原__main__/__file__/sys.argv和原完整SHA源只执行一次，保stdout与SystemExit/BaseException重抛，独立诊断保完整trace链/ExceptionGroup不含locals；大trace仅runner保whole身份，不冒返回全文或SIGKILL能保存。原38词全保加9wrapper词成47，原输出/进度/全部domain/budget及源guard不变；不把diagnostic当数学report、不把exit0当费用完整。不重跑终态19，不改任一活动request/queue，未来真实whole输入才接。[全说明](notes/2026-11-28-actual-run19-normal-failure-and-complete-exception-entry.md)。双README云核至`0005de00951671f180504db47d8b67e9bcf628b6`无变（非pull）。
