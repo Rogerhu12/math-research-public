@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效；15:03及21:33重置后唯一探测均失败，恢复即真pull。云核至`49068887c5795dab3172fb0eafd81ffc2e900e33`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新diff立刻遵守、至少每小时；活17–21通常5分钟真pull，已读commit末槽全保；终态12–16末槽保各完整终态note/旧H。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效；15:03及21:33重置后唯一探测均失败，恢复即真pull。云核至`91f72068a61d3d8f4d0664c9a1c8231e7c37fb67`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull只读新diff立刻遵守、至少每小时；活17–21通常5分钟真pull，已读commit末槽全保；终态12–16末槽保各完整终态note/旧H。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD完整合并循环、不冒pull/force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅本公开Actions；raw只runner/scratch，不Git/Release/artifact、不改名输入。全源/全部参数/真实run/whole输出/typed和未知保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB或binary。根§12不加独立AST/fixture/重跑/审查门，不减科学目标/原预算。
 
@@ -35,13 +35,13 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端�
 [21完整后参](computations/fixed-fejer-bfiveeighths-complete-normal-closed-parameter-delivery.json)、[21矩mesh](computations/fixed-fejer-bfiveeighths-complete-moment-mesh-parameter-delivery.json)全刊；19/20全部原ready/源/预算见各全note及[c6fc完整H](https://github.com/Rogerhu12/math-research-public/blob/c6fc7f507e432a35cd4e2e67d11c8679ef97531b/topics/visible-flex-larger-amplitude/HANDOFF.md)。
 [R723完整独立源及19参](computations/R723-directional-closed-grip-R716-complete-delivery.json)、[20 R723参](computations/fixed-fejer-bhalf-mu001-R723-complete-post-parameter-delivery.json)已刊1782/3c0d；旧八角色不冒通过，新五角色单列。定理已证不代真实支撑/曲率；R718用marked实际σ，R716独立unmarked外管/正V/非零中心不变量仍待付。R721无Gram/主曲率排序。
 [19/20全restart](computations/current-bhalf-complete-same-source-restart-delivery.json)仅同runner真complete同源report/全13final及全输入/typed/history；partial/accepted/packet不足，CLI不继承末μ。原136+4词/模式/peer和全预算不减；science+pure超95k，真返回后整接pure。
-[完整续费路径合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：normal同outdir可换step_id，但须首次normal原repo绝对路径/同科学report/snapshot/全绑定。G绑定稳定whole normal与自己首次源路径，N变SHA不可原目录重绑。R723/mesh每次fresh；首次下游可freshrepo但重读原件。现mesh32词无附证；未来R723附证需独立兼容源，旧002eb分支不冒新角色。
+[完整续费路径合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：normal同outdir可换step_id，但须首次normal原repo绝对路径/同科学report/snapshot/全绑定。G绑定稳定whole normal与自己首次源路径，N变SHA不可原目录重绑。R723/mesh每次fresh；首次下游可freshrepo但重读原件。原mesh32词无附证仍可用；[R723兼容9件](computations/fixed-fejer-R723-compatible-complete-same-field-phase-mesh-delivery.json)已刊，全1782独立重读，不冒旧八角色。
 费用须付normal32/1024整圆/922径向+cuts/六jet/全尾/working、上下两帽/mixed/allphase、唯一主副件和晚失败。normal.complete不代连续branch、mean J不代Cu、旧R709 bool真实。实际五t/三级空间/频率/时间/完整mesh仍全待；03–11所有P0/G/typed/未知历史、发现序与失败保全旧链。
 
 ## 容量、分工与继续
 
 [ret55完整账](computations/legacy-launch-array-metadata-retention-55-complete-delivery.json)精退19旧描述JSON净446483B；18个M94/M96真检查点及全数值report不退。ret53/54及旧批全部源/参数/输入/失败/消费者/恢复台账保原H链，两canonical/parent91/ports/Nelder/活源全留；每fresh树核200MB。
-root独占refs/queue及实际求解承接；construction容量完整保全，solver原完整QP/恢复实质分析，geometry完整R723可选mesh兼容源。全部原log/open整卷链已保，持续做到README标准。
+root独占refs/queue及实际求解承接；construction容量完整保全，solver原完整QP/恢复实质分析，geometry新成对半波种子与完整传播。全部原log/open整卷链已保，持续做到README标准。
 
 <!-- visible-larger-parallel-17:start -->
 Actions17：[run 46053911348/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46053911348)；[全阶段记录](notes/2026-11-27-public-actions-46053911348-1.md)。running；已返2，exit=未返。

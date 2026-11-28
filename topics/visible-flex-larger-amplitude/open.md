@@ -124,7 +124,7 @@ README未完成；时长、阶段、失败和输入困难均非终点；按open�
 [ret53全台账](computations/legacy-native-generated-metadata-retention-53-complete-delivery.json)实施28个旧生成对象精确退存，主体净1822833B。原24源/全部参数/11run/6组workflow、所有数值payload/checkpoint/失败/未知保；两whole canonical及parent91绑定仍当前树。原reader需其旧路径则先完整Git恢复，不能用台账代原文件；容量整理不付科学结论。
 
 
-[续费/下游完整接口](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)已核：normal可换step_id但续原outdir须原normal首次repo绝对路径/完整输入；G绑定whole normal与首次源路径，normal变SHA不能原目录重绑；R723及mesh须fresh。首次各下游可新repo但必须重读原件。原32词mesh不附closed故目前无此缺件门；未来R723附证另需兼容源，旧002eb不得冒新角色。所有原domain/budget/complete/branch/主副件条件保全note。
+[续费/下游完整接口](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)已核：normal可换step_id但续原outdir须原normal首次repo绝对路径/完整输入；G绑定whole normal与首次源路径，normal变SHA不能原目录重绑；R723及mesh须fresh。首次各下游可新repo但必须重读原件。原32词mesh不附closed仍可用；[R723兼容9件](computations/fixed-fejer-R723-compatible-complete-same-field-phase-mesh-delivery.json)已刊，全1782独立消费，旧002eb不得冒新角色。所有原domain/budget/complete/branch/主副件条件保全note。
 
 容量续求：ret54净1113720B全账保原链；[ret55全保全账](computations/legacy-launch-array-metadata-retention-55-complete-delivery.json)精退19旧描述JSON净446483B。18个M94/M96检查点、全数值report/输入、源/请求/spec不退；旧读者须先恢复原字，不计数学完成。
 

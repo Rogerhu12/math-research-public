@@ -120,3 +120,9 @@
 ## 2026-11-28 00:13:27 UTC — ret55精确描述元数据退存
 
 19旧launch/H-QR描述JSON按固定d38bc完整Git字恢复，毛719337B、完整5保全件272854B、主体净446483B。14全argv/91对源、112高度原请求及H/QR30/40/42全参数/实际输入/真实失败与artifact-only边界保[全账](computations/legacy-launch-array-metadata-retention-55-complete-delivery.json)。18个M94/M96真实数值检查点740159B及数值report明确不退，不因原2MB目标越界。双README云核至`49068887c5795dab3172fb0eafd81ffc2e900e33`无变（非pull）。
+
+## 2026-11-28 00:13:53 UTC — 完整R723可选mesh源与21两模式参数
+
+R723可选mesh完整9件386293B：新input95330/6c6788、entry55097/f2a468、pure22349/5d4738及全部再生器、21 final/packet全34/6词与118/66正式字段。完整144→146角色，137科学不改；无附证/旧002eb/独立1782三完整分支，旧数学constructor与主mesh算法原字保。1782全validator与同点/model/target/snapshot/normal/source/request/全部主副件重读，complete可保几何未付/null/false，不新增all-paid门。原15mesh/五preview/三级空间/五t/时间4,8,16预算全保；实际尚未运行。
+
+完整9件共386293B；双README云核至`91f72068a61d3d8f4d0664c9a1c8231e7c37fb67`无变（非pull），实际controller真pull见H各槽。
