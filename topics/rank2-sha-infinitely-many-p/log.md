@@ -398,3 +398,9 @@ root完整手核P1–15，亲读Gross–Hopkins Thm1及整形式群自同构作�
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 11:36:44 UTC到33b83143b9bf69ef921cf3022eec9abd42e77a24，私库2026-11-28 11:36:38 UTC到ed79216c20ff3a588fc853c0f9ed20088485222b；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46729967B/treeb5bf11265ed82b1f5fbfd2cca4d5117071a66dfc，无>5MB。
 
 推送前实际本地双pull（本次发布第4次）：公开2026-11-28 11:37:00 UTC到6a3ed90368e3deb4e9be2d4b660a3b488486ed5b，私库2026-11-28 11:36:55 UTC到44981f6cdda7e9646663f6023dce7dcc4a911961；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46729967B/treeb5bf11265ed82b1f5fbfd2cca4d5117071a66dfc，无>5MB。
+
+## 2026-11-28 11:42:27 UTC — R1067 原参考的全部径向常数
+
+root与arithmetic独立手核原参考热尺度4、d/2d阶乘、Gaussian整窗、A1/B1换元、完整第四物理权及Q6两canonical符号；无额外Jacobi首单位，明确不把重复Gaussian条件算独立约束。上一条P已确认实推9286b5b62fcb2bcbc110cdff57f3d7ab08dd3d06（11:37:06 UTC），三次非FF均立即双pull/rebase，四README未变。无本地数学执行；原v17来源不改。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 11:43:13 UTC到7cca26306f27a6650667f1b65e01cbe74bd48ce6，私库2026-11-28 11:43:00 UTC到b55a56fdf367f35d6eaf3c9b9ce0476b6a392fab；四README同已读blob，QUEUE bee3692a9c661d21f286c6799449901acca6583f本题行未变。公开基线3245/46752704B/treecf997bf3a584bec236a3b8bcc369595dc864dcb1，无>5MB。

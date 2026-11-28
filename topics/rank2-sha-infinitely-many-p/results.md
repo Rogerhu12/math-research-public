@@ -100,3 +100,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1067 §§46–48：原全部同源Fourier行与径向三位
 
 在固定无穷ray p≡−1 mod(68·6²)，原两unary theta的全p+1同源Fourier向量满足真实Paley本征式；signed Singer精确配对两tame模式。原目标标记、∞同源负号、双格Γ68下降与g(P)=1的Reed–Solomon唯一符号支付所有相对平方根。整形式群旋转及同一水平晶体将全变形jets接回物理EN/Ed；P14在g1∈p时给EN=−u0 c Ed−u0 c²c2d/3 modp³，P15返两canonical。保完整径向二阶及原相位；尚不判该行跨p非零。 [同编号全文](results/R1067-original-first-wild-fixed-geometric-tail.md)。
+
+### R1067 §49：原参考确定径向常数与第四物理权
+
+原degree-two参考在同一整旋转框架精确给κ=−(pcσ)²、c/p=−1/κ及γa_pu0 c/p=−b_p；三位原共同分子无未识别单位。将c2d完整换回第四物理权E2d，得到Q6两canonical的准确Ed/p、E2d组合。其条件与原Gaussian两位相同，不重复计作独立强迫；全变形P9继续保留。 [同编号全文](results/R1067-original-first-wild-fixed-geometric-tail.md)。

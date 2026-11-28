@@ -1076,3 +1076,94 @@ $\mathfrak c/p$ 为单位。特别(N5)两个核的实际共同第二位满足
 
 
 在原 g1 属于 p 的范围，(P14) 所用 c2d 模 p 亦不依所许的整旋转框架选择。若 $y'=y(1+a y^d+\cdots)$、新框架为原框架乘 $(1+b y^d+\cdots)$，则 $c_0=0$ 给 $c'_{2d}=c_{2d}-(da+b/2)c_d$。因 $c_d=E_d$ 属于 p，所指残值不变；物理整组合仍以(N5)及(P15)为定义。
+
+## 49. 同一参考消去径向单位和原第四个物理权
+
+仍取(P1)的无穷算术子列，$c_\sigma=[z^d]\log(\sigma(z)/z)$，$\gamma=34pc_\sigma$。为免与旋转系数混淆，写
+\[
+ \kappa=p[t^d]A\bmod p,\qquad
+ E^{(g)}_r=[v^r]\sqrt A\,g,\qquad
+ E^{(f)}_r=[v^r]\sqrt A\,f ,
+\]
+其中 $t=t(v)$。$E^{(f)}_N,E^{(f)}_d$ 正是 $E_N,E_d$，另记 $E^{(f)}_{2d}=E_{2d}$。以下不要求对任何局部 Jacobi 和选择额外首单位。
+
+### 49.1 原 degree-two 参考读出三个规范常数
+
+在(P5)置 $A_1=[y^d]\widetilde A,\ B_1=[y^d](\widetilde B/y)$。因 $A$ 在 $d$ 以前整，且 $y/t$、$l$ 都是常数一的整单位，$pA_1\equiv\kappa\bmod p$；由(G6)在 $d$ 处 $B_1$ 整。(P11)给
+\[
+ \mathfrak c/p\equiv-1/\kappa\pmod p .
+ \tag{Q1}
+\]
+(P9)同样适用于原 $g$，且(P1)两来源的 $\epsilon$ 相同。$\widetilde g(0)=1$，$N<d$，故
+\[
+ u_0\equiv E^{(g)}_N=[y^N]\widetilde g\pmod p .
+ \tag{Q2}
+\]
+原 degree-two theta 的热标度是 $4$。若 $\beta_i=[z^i](x\sigma^2)$，同(120),(123)有准确公式
+\[
+ E^{(g)}_r={(2r)!\over 4^r r!}\beta_{2r}.
+\]
+R614 的整窗口同样适用于此参考：$x z^2$ 在所需范围整，$\sigma/z$ 去掉原 Gaussian 后整，故其乘积在 $z^{2d}$ 以内整。写回 $\exp(2c_\sigma z^d)$，得到 $p\beta_d\equiv 2pc_\sigma$、$p^2\beta_{2d}\equiv(2pc_\sigma)^2/2\bmod p$。因此
+\[
+ u_0\equiv{(d!/p)(2pc_\sigma)\over4^N N!}\pmod p .
+ \tag{Q3}
+\]
+有常数一时，(P6)在次数 $d$ 要增加 $A_1/2$：$v/y-1$ 从 $d$ 阶起，常数一自身的换元没有修正，而 $\sqrt{\widetilde A}$ 对常数一贡献 $A_1/2$。所以 $E_d^{(g)}=[y^d]\widetilde g+A_1/2$。另一面直接分块阶乘得
+\[
+ {(2d)!\over p\,d!}\equiv-4\pmod p
+\]
+（$p+2,\ldots,2p-1$ 模 $p$ 的乘积为 $-1$，$2p$ 给 $2$，$2p+1,2p+2$ 给 $2$）。故
+\[
+ {\kappa\over2}\equiv p E_d^{(g)}
+ \equiv {-4\over4^d}\,{(2pc_\sigma)^2\over2}
+ \equiv-{(pc_\sigma)^2\over2}\pmod p .
+\]
+于是 $\kappa=-(pc_\sigma)^2$ 是单位。从(127)还有
+\[
+ \mathsf b_p\equiv-68^2/4,\qquad
+ \mathsf a_p u_0\equiv 17^N(2pc_\sigma),\qquad
+ 17^N\equiv17\chi(17)=17 .
+\]
+逐项代入(Q1)得到
+\[
+ \boxed{\quad \gamma\mathsf a_pu_0\,\mathfrak c/p
+                 \equiv-\mathsf b_p\pmod p .\quad}            \tag{Q4}
+\]
+上述等式只约了原共同分子中实际乘 $p^2$ 的单位，未以近似值替代分子合成前的全部阶乘。
+
+### 49.2 两位整组合与第四物理权
+
+当原 $g_1\in p$，(P15)化成
+\[
+ {\mathcal U_1(\Xi_{k,p})\over p^2}
+ \equiv(k-1)\mathsf b_p E_d/p
+       -{k\mathsf b_p\over3\kappa}\,c_{2d}\pmod p.            \tag{Q5}
+\]
+(P5)也从该整系数回到物理热行。仅 $0\bmod d$ 分量参与 $[v^{2d}]$，且 $c_0=0$。用
+\[
+ y=v\{1+(A_1-B_1)v^d+O(v^{2d})\},
+ \qquad \sqrt{\widetilde A}=1+(A_1/2)y^d+O(y^{2d})
+\]
+准确得到
+\[
+ E_{2d}=c_{2d}+\{(d+1/2)A_1-dB_1\}c_d
+       ={(4d)!\over68^{2d}(2d)!}\alpha_{4d}.
+\]
+$E_d=c_d\in p$，从而 $E_{2d}$ 整，且
+\[
+ c_{2d}\equiv E_{2d}-\tfrac32\kappa E_d/p\pmod p .
+\]
+(130),(G4)的两个原行最终为
+\[
+ \boxed{\begin{aligned}
+ j_1/p^2&\equiv {2\mathsf b_p\over\gamma^2}
+             \left({E_d\over p}-{E_{2d}\over3\kappa}\right),\\
+ j_2/p^2&\equiv {\mathsf b_p\over\gamma^2}
+             \left({E_{2d}\over3\kappa}-{E_d\over2p}\right)
+                       \pmod p .
+ \end{aligned}}                                               \tag{Q6}
+\]
+因此该无穷子列上，真正 $j_1=0$ 要求 $E_d\in p$ 且
+$E_{2d}\equiv3\kappa E_d/p\bmod p$，三个常数均已用固定原参考读定。
+$E_{2d}$ 是 $4d$ 物理权，不能把它与 $2d$ 物理权 $E_d$ 混同。
+完整 Gaussian Newton 也在这两个物理权中包含同样两位，故(Q6)不是额外独立坏条件；(P9)给出的则是原两个模函数在全部 $Z$ 变形阶的实际对应。仍需证明原第一种或第二种 canonical 单位在无穷个 $p$ 出现，或用更深 $J'(0)$ 证书。

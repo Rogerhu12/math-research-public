@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 11:37:00 UTC实际pull --rebase，读取main 6a3ed90368e3deb4e9be2d4b660a3b488486ed5b；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 11:36:55 UTC实际pull --rebase至44981f6cdda7e9646663f6023dce7dcc4a911961；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 11:43:13 UTC实际pull --rebase，读取main 7cca26306f27a6650667f1b65e01cbe74bd48ce6；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 11:43:00 UTC实际pull --rebase至b55a56fdf367f35d6eaf3c9b9ce0476b6a392fab；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bee3692a9c661d21f286c6799449901acca6583f，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3245/46729967B/treeb5bf11265ed82b1f5fbfd2cca4d5117071a66dfc；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3245/46752704B/treecf997bf3a584bec236a3b8bcc369595dc864dcb1；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -29,8 +29,8 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 原共同两/三位：R1067
 
 [R1067原证](results/R1067-original-first-wild-rubin-even-multiplicity.md)保两Kato图/ν/physical/参考单位，ord A=2ord H；exactHall0给Φp²及λ增量，bad独T⁴，域下降自动。[§§16–36](results/R1067-original-first-wild-rubin-native-euler-continuation.md)全部旧成本/纠错仍在。原g1=a_pEN/p、g2=(pb_pEd−γa_pEN)/p²，必须EN三位/Ed两位、完整f/mixed/Bockstein/Hasse与两槽；共同第二位含完整尾−3a_pIp/γ。
-[§§37–48全文](results/R1067-original-first-wild-fixed-geometric-tail.md)：固定曲面两I12边界F[E−]=p²υE(e)、原晶体两lift/Taylor/固定good-model比较及g零初值给T=W P5(xp)−p²υPe和全V上T/p²整。第二分量M=x^(16−e)L_eΠ/(1−w)^p、degΠ≤p−1；单branch整个主部唯一恢复。真实j1728初列/det p/H与DH、低p水平窗、Qc和Qc²、e11额外奇偶全付Π，M6返原Ip、M7返两canonical；端点不代完整卷积。
-§§44–45付Gφ=W21/p全局负Y主部、任意CM第二位λ在Gφ/Gφ(P0)消去；S−8p²x^pM全图拼接，cusp次数与原前缀给S=−u t L_eP_m+8p²x^pM modp³。N5准确给原EN三位/Ed两位全f有理核；N6在g1∈p时为kγa_p EN/p²−b_pEd/p，k=2乘γ^-2为j1，k=1乘−γ^-2为j2。跨p非零未证。§§46–48已付原两theta全Paley/Singer、真实目标标记与∞负号、双格Γ68及g参考唯一相对符号、整旋转与同一晶体。原EN=cN/Ed=cd精确，P9全变形jets、P14/15保二阶径向三位回两canonical；c2d在bad g1下整框架无关。p≡−1 mod2448子列仍待跨p非零；原参考的全部径向常数继续接。
+[§§37–49全文](results/R1067-original-first-wild-fixed-geometric-tail.md)：固定曲面两I12边界F[E−]=p²υE(e)、原晶体两lift/Taylor/固定good-model比较及g零初值给T=W P5(xp)−p²υPe和全V上T/p²整。第二分量M=x^(16−e)L_eΠ/(1−w)^p、degΠ≤p−1；单branch整个主部唯一恢复。真实j1728初列/det p/H与DH、低p水平窗、Qc和Qc²、e11额外奇偶全付Π，M6返原Ip、M7返两canonical；端点不代完整卷积。
+§§44–45付Gφ=W21/p全局负Y主部、任意CM第二位λ在Gφ/Gφ(P0)消去；S−8p²x^pM全图拼接，cusp次数与原前缀给S=−u t L_eP_m+8p²x^pM modp³。N5准确给原EN三位/Ed两位全f有理核；N6在g1∈p时为kγa_p EN/p²−b_pEd/p，k=2乘γ^-2为j1，k=1乘−γ^-2为j2。跨p非零未证。§§46–48已付原两theta全Paley/Singer、真实目标标记与∞负号、双格Γ68及g参考唯一相对符号、整旋转与同一晶体。原EN=cN/Ed=cd精确，P9全变形jets、P14/15保二阶径向三位回两canonical；c2d在bad g1下整框架无关。§49同一degree-two参考给κ=−(pcσ)²、c/p=−1/κ、γa_pu0 c/p=−b_p，E2d准确回第四物理权，Q6两canonical无未识别单位；这些不是Gaussian之外的独立坏条件。p≡−1 mod2448子列仍待跨p非零。
 
 ## 原中央、全层及 Rubin 整平方：R1070
 
