@@ -165,3 +165,6 @@
 
 
 2026-11-28 11:08:04 UTC / visible-exact-astra-b0d5a16-20261128：ASQ14。从原WMA完整14目标/139current逐字节及blob/6历史整件receipt读取同一signed实坐标，原1..1048576全部头的I G<.573；并非只前1023，原两私载体不重建，旧算术0。 root独立完整reader实测139/6准入成功，记录原upper ball；new targets0、large restore0。 全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-original-WMA-head-on-the-true-signed-waist-inverse.md","bytes":3524,"sha256":"972e6734419b6c2c4d058ebb05d6a9225bf1d5c482391875fcd12bcc07180ec4"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_read_whole_WMA_original_model_head.py","bytes":5619,"sha256":"145b5b296e88ba74210363a4989dd89e5e1216102bed3ae38da9f4930e8643b9"}]。
+
+
+2026-11-28 11:08:48 UTC / visible-exact-astra-b0d5a16-20261128：ASQ13。从S^{-1}=C′+D′的实际同号/异号块恒等式，得到D C^{-1}=−(C′)^{-1}D′及不交换P97的完整输入估计12d_E+.00132g1；原真复逆strip、全无限输入density极限及H^{-4/3}右因子均保。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-opposite-density-inverse-on-original-high-frequency-inputs.md","bytes":4247,"sha256":"ab5f3f3a2cf2cc6c6cc080b5d7af31d639b8b916171b48239f168b408f1ee049"}]。

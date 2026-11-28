@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ13：真逆密度的相反符号输入估计](results/R149-supplement-opposite-density-inverse-on-original-high-frequency-inputs.md)：从S^{-1}=C′+D′的实际同号/异号块恒等式，得到D C^{-1}=−(C′)^{-1}D′及不交换P97的完整输入估计12d_E+.00132g1；原真复逆strip、全无限输入density极限及H^{-4/3}右因子均保。
+
 - [ASQ14：原百万完整WMA头在真实有符号逆中的同一范数](results/R149-supplement-original-WMA-head-on-the-true-signed-waist-inverse.md)：从原WMA完整14目标/139current逐字节及blob/6历史整件receipt读取同一signed实坐标，原1..1048576全部头的I G<.573；并非只前1023，原两私载体不重建，旧算术0。
 
 - [GRQ：真实四分支首比值的整域固定标签求积入口](results/R149-supplement-fixed-label-whole-first-ratio-quadrature-and-real-reflection.md)：从实际GCS/GPR两完整成功原载体同SHA恢复，保同一正E、原cut四符号反射/共同标签/全均值/6角导数，首次积分全物理域R、a1、b1；最多4500闭子格，原子整件前缀及下一格continuation、15分钟独立README规则监督。新科学尚未运行成功；并未支付完整genuine高频强迫算子。
