@@ -320,3 +320,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §70：原全除子Poincaré核的准确native中央平方
 
 真实同源分布aΘ(aP;az,y/bar a)给同一全有理除子的Poincaré Cauchy核；原平凡wild对角全归一恰C* u(j)Jp(j)²，C*=6fκ0(1−ω)θ⁻¹³，二阶等于2C*u(0)Jp′²。剩余是该真实二阶非零。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §71：完整驯导子及原Rubin Δ型的非零Kummer
+
+全f标记加实际τ⁻¹Δ型，在平凡wild M=p和原首wild M=p²均有无条件非零Kummer对数；完整原始ρ及Gauss/CRT c_M=τ(f)/ε(M)全付。有限Δ型未冒充整个T⁻¹或Coates–Wiles空间导数。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。

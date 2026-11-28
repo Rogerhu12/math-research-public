@@ -413,3 +413,9 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 根逐极点核同源Poincaré残量和非平凡Pic0唯一性；实读Bannai–Kobayashi Th1.17与R298(9)–(13)、R303(3),(23)，核全h!/A/双周期、f纯虚偶h和θ⁻¹³。整Tate乘子单位，Jp(0)=0故二阶无遗漏导数；未假称超奇异全双盘有界。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:55:34 UTC到69e951efb5a769a58ea3878aa69d327ad2992ea4，私库2026-11-28 13:55:29 UTC到77dd8dd3ed42ce23660086d3b6831127860bd6fd；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47576056B/treecbdf72b2e4de0b3d6d01276056d8f0a920275189，无>5MB。
+
+## 2026-11-28 13:55:39 UTC：R1067 §71：完整驯导子及原Rubin Δ型的非零Kummer
+
+根实读BKO§2.1.1的真实U*=(lim U⊗T⁻¹)^Δ及(2.1)，核M=p时ε(p)不能省、ρ|μ6=1及真导子fM，复对偶模barF=F的全Gauss。各σhat真p-unit和原D_t主单位的有限对数式配Baker转移，未将有限tame投影代完整主单位扭转。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:55:49 UTC到fb6faaca61a25842b8363468e9fd7f21a1aba7ac，私库2026-11-28 13:55:44 UTC到308b7ab6ceb3eab9b886ff7ab39df5a2a00f6a37；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47583557B/tree6400026b68d68eb0b0baff61c518315a28ac93dc，无>5MB。

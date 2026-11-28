@@ -1525,3 +1525,101 @@ $J_p(0)=0$，所以没有遗漏(AL4)的导数项。由 R303(8)，只须在无穷
 $E_{17}$ 的通常全 $\Sha[p^\infty]$ 有限。(AL6)实际接到了原
 native 中央。它同(AJ3)的有限非平凡 wild 对数之间仍缺一个能
 强迫该二阶非零的结论。
+
+## 71. 全驯导子及实际 Rubin 的 $\Delta$ 型上的非零 Kummer 对数
+
+仍取(AK1)真实的 $D_t$。允许 $M=p$、$\chi=1$，或
+$M=p^2$、$\chi=\chi_{p,r}$；前者为平凡 wild，后者的实际
+Hecke twist 为 $\chi^2$。写 $\tau(w)=[w\bmod p]$ 为选定
+$K_p$ 嵌入的 Teichmüller 单位，$\Delta=(\mathcal O_K/p)^\times$；
+$T_t=\varpi t/f$、$Q_w=\varpi w/M$，两者指标均取全部单位。
+则
+$$
+ \boxed{\ \sum_{t,w}\varepsilon(t)\tau(w)^{-1}\chi(w)^2
+                 \log_p D_t(Q_w)\ne0.\ }                          \tag{AM1}
+$$
+这里的 $p$-tame 因子确为 $\tau^{-1}$：在以 $b\in\Delta$
+将 $w$ 送到 $bw$ 的算术作用下，$\tau$ 型投影使用
+$|\Delta|^{-1}\sum_b\tau(b)^{-1}[b]$。与原 LT Tate 模
+$T_\pi^{-1}$ 张量后正成为 $\Delta$ 不变量，如
+Burungale–Kobayashi–Ota，*p-adic L-functions and rational points
+on CM elliptic curves at inert primes*，[§2.1.1](https://catalog.lib.kyushu-u.ac.jp/opac_download_md/7330258/7330258.pdf) 的 $U_\infty^*$。
+(AK3)的空间微分另用不带此 $\tau^{-1}$ 的分量。
+
+令 $P=T_t+Q_w$。直接的点值对数公式为
+$$
+ \log_p D_t(Q_w)=\log_p\frac{\widehat S(P)}{\widehat S(T_t)}
+                  -\log_p\frac{\widehat G(T_t+mQ_w)}
+                                      {\widehat G(T_t)},
+ \qquad m\equiv\beta\bmod M,\quad m\equiv1\bmod f.              \tag{AM2}
+$$
+确实(AK1)对有限 $n$ 的四个 Klein 因子之非全纯指数由总度零
+准确相消。把 $[n]P$ 换成 $T_t+mQ_w$、$[n]T_t$ 换成 $T_t$
+的格代表变化只给根单位，故在 $\log_p$ 中为零；还剩
+$(n^2-17)\log_p(\widehat G(P)/\widehat G(T_t))$，极限为零。
+$\widehat\sigma(R)$ 在每个用到的点是代数 $p$ 单位：
+取 $N>1$、$N\equiv1$ 模实际挠点阶且 $p\nmid N$，
+$\widehat\sigma(R)^{1-N^2}$ 相差根单位等于实际除点函数
+$\psi_N(R)$。$R$ 的约化非零且 $[N]\bar R=\bar R$，在好整
+模型上 $\psi_N(R)$ 为单位。这里即使乘了 $2,\delta,2\delta$
+也保非零十七分量；乘 $\gamma_7,\bar\gamma_7$ 或参考 $m$ 亦然。
+所以(AI2)及 $G=\sigma(\delta z)/(\delta\sigma(z))$ 使(AM2)
+成为有限个代数 $p$ 单位的对数式。(AK1)在相应有界剩余盘的
+一致极限值为主单位，使上式左端的对数连续。需要 Baker
+的只是右侧的这些实际代数数。
+
+置 $\rho(a)=\varepsilon(a)\tau(a)^{-1}\chi(a)^2$，为模
+$F=fM$ 的原始有限角色。它在 $\mu_6$ 上平凡，因为
+$\varepsilon(u)=u=\tau(u)$、$\chi(u)=1$。在 $f$ 处的本原性
+是(AK3)的原导子。在 $M=p$ 处由 $\tau^{-1}$ 本原，在 $M=p^2$
+处由 $\chi^2$ 在第一主单位上非平凡而本原。先全和(AM2)：
+独立于 $w$ 的两个基值因 $\tau^{-1}\chi^2$ 非平凡消失；
+$2,\delta,2\delta$ 及分母 $\delta$ 项经驯标记均和(AK3)同样
+消失。其余乘数在各自 $t,w$ 槽的置换给
+$$
+ \sum_{t,w}\varepsilon(t)\tau(w)^{-1}\chi(w)^2\log_p D_t(Q_w)
+   =v_{p,r}\sum_{t,w}\varepsilon(t)\tau(w)^{-1}\chi(w)^2
+                          \log_p\widehat\sigma(P),\qquad
+ v_{p,r}=1+\tau(m)+
+       \sum_{a\in\{\gamma_7,\bar\gamma_7\}}
+                       \frac{\tau(a)}{\varepsilon(a)\chi(a)^2}.   \tag{AM3}
+$$
+参考 $m$ 只在 $w$ 槽缩放且 $\chi(m)=1$。$v_{p,r}$ 模极大理想
+即(AK3)的 $1+\beta+\operatorname{Tr}(\gamma_7/\varepsilon(\gamma_7))$，
+因此是单位。尤其零阶的全驯投影在付入真实 $\Delta$ 型后不再
+被同时取负杀去。
+
+为证最后的实际和非零，固定任一复嵌入。以 $a=Mt+fw$ 作 CRT。
+当 $M=p$ 时应保留一般的
+$\varepsilon(p)$，它是非零六次根（当 $M=p^2$ 时才保证为一）。
+由此在两种情形**统一**用
+$c_M=\tau(f)/\varepsilon(M)$，得到
+$$
+ \sum_{t,w}\varepsilon(t)\tau(w)^{-1}\chi(w)^2
+                      \log|\widehat\sigma(P)|
+   =-\frac{3A}{|\varpi|^2}\,c_M\,g_F(\rho)
+                      L(1,\rho^c),\quad
+ \rho^c((\lambda))=\rho(\bar\lambda)^{-1},
+ \quad
+ g_F(\rho)=\sum_{a\bmod F}^{\times}\rho(a)e^{2\pi i[a/F,1]} .   \tag{AM4}
+$$
+这里 $\chi(f)=1$；$\tau(f)$ 是原 $f$ 的剩余单位。
+$[x,y]=(\bar x y-\bar yx)/\delta$，其在整格上完美。
+BFK Th. 1.1(ii)同(AI3)，对任意格频率 $\lambda$ 的内和
+用 $[a/F,\lambda]=[a\bar\lambda/F,1]$。$\lambda$ 为模
+$\bar F$ 的单位时得 $g_F(\rho)\rho(\bar\lambda)^{-1}$，
+否则因 $\rho$ 在相应严格降模的核非平凡而为零。
+配对的对偶模是 $\bar F$，本处与 $F$ 为相同理想；Parseval
+给 $|g_F(\rho)|=\sqrt{NF}$。$h_K=1$、$\rho|_{\mu_6}=1$
+让元和化成 $6L(s,\rho^c)$。$\rho^c$ 是非平凡有限 Hecke
+角色，射线类域的 Dedekind zeta 分解给 $L(1,\rho^c)\ne0$。
+$\widehat\sigma(P)$ 全为代数 $p$ 单位；若对应 $p$ 对数和为零，
+Baker–Brumer（Fuchs–Pham [Th. 2.1](https://web.math.pmf.unizg.hr/glasnik/51.2/51(2)-04.pdf)）与同一有理关系经过全局根单位转到复绝对值，
+将使(AM4)为零，矛盾。由(AM3)即证(AM1)。
+
+因此原平凡及第一 wild 层在完整 $2,3,17$ 标记并取了
+$U_n\otimes T_\pi^{-1}$ 所需的有限 $\Delta$ 型后，均有无条件
+非零的实际全局 Kummer 对数读数。完整 $T_\pi^{-1}$ 另在
+主单位方向有无限阶作用；(AM1)不把有限 $\tau$ 当作这整个
+局部角色，也不等同于 BKO §2.1.1(2.1)的 Coates–Wiles 空间
+导数 $\delta_\chi$ 或(AL6)的 native 二阶。
