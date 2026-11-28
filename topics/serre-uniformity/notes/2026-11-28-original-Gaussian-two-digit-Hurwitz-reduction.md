@@ -501,3 +501,168 @@ R1168 的 $M_{d,i}\equiv-(i+1)\bmod p$ 一般不在其中，
 所以仍须保 (G2.11)–(G2.14) 的实际 section 和完整乘积。
 本节固定了原 $\Psi$、低权 $\zeta$ 与新两位 carry 的同源关系，
 没有由此宣称任一原 joint minor 或最高中央项为单位。
+
+
+## 8. 原二次 primitive 给出中间权单位，并将首个高矩接回 $\mathcal H_p$
+
+本节在 §§5、7 的同一原模型上进一步读取；所有等式在
+$\mathbf F_p$ 中，写 $G_M$ 时指上述整 Hurwitz 系数的 reduction。
+原 $\beta=-\delta\ne0$ 不改尺度。
+令
+$$
+\mathcal R=D^{p-3}x,\qquad D\mathcal R=\Psi,\qquad D\Psi=-\beta.
+$$
+则有完整函数域身份
+$$
+\boxed{\qquad \Psi^2+2\beta\mathcal R=x^p.\qquad}
+\tag{G2.23}
+$$
+
+### 8.1. 二次身份及安全的 $v^{2p}$ 读取
+
+左边的 $D$-导数为零，且仅在 $O$ 有至多 $2p$ 阶极。
+在完美常数域上它是一个函数的 $p$ 次方，其根属于
+$L(2O)=\langle1,x\rangle$。
+原 $\Psi$ 的首项 $v^{-p}$ 把 $x^p$ 的系数固定为一。
+在原 Gaussian $\mu_4$ 作用下，
+$\Psi\mapsto i\Psi$、$\mathcal R\mapsto-\mathcal R$、
+$x\mapsto-x$，所以常数项必须为零。这证明 (G2.23)，
+没有另选 primitive 的常数。
+
+把 (G2.20) 用于这一次平方时，误差范围必须再减去 $p$：
+可能最早影响的次数为 $p^2-2p-1$。
+对本篇 $p\ge41$，有
+$2p<p^2-2p-1$，所以读取 $v^{2p}$ 合法。
+记 $\zeta_{<p}$ 为同一安全低权 Laurent 前缀。
+平方中的交叉项
+$2\beta v\zeta_{<p}^{\,p}$ 全部指数为 $1\bmod p$，
+$\beta^2v^2$ 也不贡献 $v^{2p}$。
+因此
+$$
+[v^{2p}]\mathcal R
+ =\frac{\bigl([v^2](x-\zeta_{<p}^{\,2})\bigr)^p}{2\beta}
+ =\frac{5G_4}{2\beta}
+ =-\frac{a}{6\beta}.
+\tag{G2.24}
+$$
+这里 $x=v^{-2}+3G_4v^2+\cdots$、
+$\zeta=v^{-1}-G_4v^3+\cdots$，且原 $G_4=-a/15$；
+右边的 $p$ 次方系数等于本身，因为模型和这些系数在
+$\mathbf F_p$ 上。
+
+另一方面，直接在 characteristic zero 对原
+$\mathcal R=D^{p-3}x$ 读取同一项后约化：
+$$
+[v^{2p}]\mathcal R
+ =(3p-2)(3p-3)_{\underline{p-3}}G_{3p-1}
+ \equiv(-2)(p-3)!\,G_{3p-1}=G_{3p-1}.
+$$
+最后使用 $(p-3)!=-1/2$。这个权仍在 §5 已付整窗口内，
+而 $\mathcal R$ 的极阶至多 $p-1$，此次换元没有越过首个不整边界。
+于是 (G2.14) 的真实中间权及 section 被准确固定为
+$$
+\boxed{\qquad
+G_{3p-1}=-\frac{a}{6\beta}\ne0,\qquad
+A_3=-\frac{3C}{4},\qquad C=\frac{2a}{\beta}.
+\qquad}
+\tag{G2.25}
+$$
+特别，不能以 $A_3=-C$ 消掉原三项式；正确值是显示的
+$-3C/4$。
+
+### 8.2. 三个真实 section 的完整合并
+
+先由原 binomial 系数直接得到
+$$
+R_h=\frac{\beta}{a},\qquad
+\frac{R_{h+1}}{R_h}
+ =-\frac{a(2h+1)}{2(h+1)}=a,\qquad
+F_{h+1}=\frac{R_{h+1}}{4h+5}=\frac{\beta}{2}.
+$$
+因而 $C^2F_{h+1}=aC$。
+将这些值和 (G2.25) 代入 (G2.13) 的全部三项，并把最后一项
+按 $T$ 移一阶，严格得
+$$
+G_{p^2-4p-1}
+ =C[T^{h-1}]F^4
+       \left(\frac{R^3}{4}-R^2S-aTRS^2\right).
+\tag{G2.26}
+$$
+此处 $R,F,S$ 仍指 (G2.7) 的安全低块；
+下式只在所需次数 $\le h-1$ 使用它们。
+
+令
+$$
+Y(T)=\sum_{\ell\ge0}\frac{R_\ell}{4\ell+3}T^\ell
+     =\frac13\,{}_2F_1(3/4,1/2;7/4;-aT).
+$$
+这是原第二类积分的低前缀，不能与曲线的 $y$ 坐标混淆。
+由 (G2.7) 的定义，
+$S=(R-Y)/2$，且 $R^2(1+aT)=1$。
+不删任何乘积的直接化简给
+$$
+\frac{R^3}{4}-R^2S-aTRS^2
+ =-\frac14\left(R-2Y+aTRY^2\right).
+\tag{G2.27}
+$$
+
+### 8.3. 原 Appell 列与实际第一层矩的精确桥
+
+使用
+[R1135 (1135.10)、(1135.13)、(1135.16)](../results/R1135-original-Gaussian-low-row-fiber-constraint.md)
+已经固定的同一原对象
+$$
+C_2(v)=\zeta(v)^2-x(v),\qquad
+\mathcal H_p=[v^{p-5}]C_2(v).
+$$
+在 $T=u^4$、$v=uF(u^4)$、$dv=R(u^4)\,du$ 下，
+完整第二类积分是
+$$
+\zeta(v(u))=\frac{1}{uR(u^4)}-au^3Y(u^4),
+$$
+故
+$$
+C_2(v(u))
+ =au^2\left(1-2R^{-1}Y+aTY^2\right).
+$$
+于是 (G2.27) 的括号等于
+$-RC_2(v(u))/(4au^2)$。
+由于 $4(h-1)+2=p-5$，(G2.26) 成为
+$$
+G_{p^2-4p-1}
+ =-\frac1{2\beta}
+       [u^{p-5}]\,F(u^4)^4R(u^4)C_2(v(u)).
+\tag{G2.28}
+$$
+
+最后一次使用原残数换元，保其 Jacobian：
+$$
+\begin{aligned}
+[v^{p-5}]C_2(v)
+ &=\operatorname{Res}_{v=0}C_2(v)v^{-(p-4)}\,dv\\
+ &=[u^{p-5}]C_2(v(u))R(u^4)F(u^4)^{4-p}\\
+ &=[u^{p-5}]C_2(v(u))R(u^4)F(u^4)^4.
+\end{aligned}
+$$
+最后一步只在次数 $p-5<p$ 的整前缀使用
+$F^{-p}\equiv1$；$C_2$ 从 $u^2$ 开始，
+所以没有负次项把高 carry 拉回。得到
+$$
+\boxed{\qquad
+G_{p^2-4p-1}=-\frac{\mathcal H_p}{2\beta}
+           =\frac{\mathcal H_p}{2\delta}.
+\qquad}
+\tag{G2.29}
+$$
+
+这是 [R1168 (1168.25)、(1168.28)](../results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)
+原 $d=4$ 矩中 $\eta^4$ 系数的准确读取：
+该项原来的 $\binom40\beta^0/(0+1)$ 恰为一，
+没有新增 Fontaine–Laffaille frame 单位、Tate 标度或标签反除。
+
+(G2.25) 支付了一个真实中间权单位；(G2.29) 则把一个实际高权矩
+接回原首标签的 $\mathcal H_p$，没有证明 $\mathcal H_p$ 非零。
+在原共同纤维的 $\mathcal H_p=0$ 分支，这个高权矩系数准确为零。
+其它 $i=2,4$ 槽、$d=8$ 矩、原最高中央值及 arithmetic
+unsmoothing 均不由此消失，仍须保各自全部乘积和实际 Bernoulli mask。
+全部推导为原函数、有限系数与残数的纸面恒等式，无数学程序执行。

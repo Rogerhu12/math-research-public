@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Gaussian首个高矩与H_p的精确身份（已证明）**：[高窗 §8](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原二次primitive与安全v^(2p)读取给G_(3p−1)=−a/(6β)单位，全部三section合并及真实Jacobian给G_(p²−4p−1)=−H_p/(2β)。这准确读取R1168的η⁴槽，H_p=0支上该槽确零；其余槽与原joint条件继续。
+
 - **原Gaussian carry与实际Ψ的函数桥（已证明）**：[两位carry §7](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整finite-beta消二扭极，锁βL=−Ψ−(x²/y)^p；换回log明确损失极点精度，只在<p²−p−1读得G_pr=G_r及指定pG_(pr+1)。原R1168指数一般不在这两类，完整sections和高pole余项保留。
 
 - **原三个primed矩与最高相关项的三同源闭式（已证明）**：[R1168 §§10–11](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)直接读原V′_i给A′i,dk=c_dk(2σG_m(E/C_i)−2⁻dG_m(E))，全部quotient微分归一、σ和高权整性由实际短模型支付。B_kl化为c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ同iσG_i,mσG_i,n}，最高corr不再留未知raw项；仍保原未平滑及数值非零门。

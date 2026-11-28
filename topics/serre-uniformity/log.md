@@ -338,3 +338,8 @@
 ### 2026-11-28 16:09 Asia/Taipei — Astra-serre-24b8836b-20261126
 - 原Gaussian高窗note§7付实际Ψ与低ζ/carry的完整函数桥，二扭p次补偿和换元的<p²−p−1精度严格保留。root全文核finite-beta、极阶唯一性、负p主部精度损失和两种安全高权读式，完整即推。
 - 本次反射未覆盖一般m_dk，原sections/乘积与joint余核继续，未增数学程序执行。
+
+
+### 2026-11-28 16:16 Asia/Taipei — Astra-serre-24b8836b-20261126
+- Gaussian高窗§8付原中间G_(3p−1)单位及实际η⁴矩G_(p²−4p−1)=−H_p/(2β)。root全文核二次primitive/μ4、平方精度、三section全合并及Jacobian，并回读R1135.16原H_p归一；完整即推。
+- H_p未证非零，其零支的该槽准确为零，其它d4/d8槽与原共同纤维继续；无数学程序执行。

@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：14d9e37dc78cb90f635dcc4c879b27aab870ea8f**（2026-11-28 16:09 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：51d09bdaa6aaf9951ff7f7227b45bdd2619ba12b**（2026-11-28 16:16 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 15:44:08 Asia/Taipei，Actions run46122538838/job140909965508，blob:none浅clone后真实pull --rebase至e8cff12e且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤16:34、pull≤16:44。本地15:43仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -22,7 +22,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1148–53](results.md)原cusp/global基、relative Hodge/Frob、finiteFL尺度全沿open/逐字前态。Ccyc=exp(9^(224·9⁴))；大aux affine实际存在，不代空集。β3/β5及J=Har(1,3,4)给真障碍rs h−zab，七退化支、最高同源组合、U/U²尺度/β底参数全保；两β坏不外推η★=1，原F0/完整深盘继续。
 
-[R1155 §§1–16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原raw rational Bst/whole path、全部S3/五项/坏点N²/形式ψ已付，G=(logu,log1u,−Li2u)。真实LT g=z^(p²−1)−p的PD窗口只保r=i−w_b、j<p，系数(−1)^r/r!，全向量零iff所有selected normal系数0；43格/二次tensor界14/28。完整公式沿open/原文，R985高坐标carry未删；仍须同一原整frame的实际central gauge及F0。
+[R1155 §§1–16](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原whole Bst、S3/五项/坏点N²/形式ψ及G=(logu,log1u,−Li2u)已付。实际LT PD只读r=i−w_b、j<p，系数(−1)^r/r!；43格/二次tensor界14/28。完整式沿原文，R985高carry保留；同源整frame/gauge已由R1163–68支付，继续原F0。
 
 [R1162](results/R1162-original-CM-function-blocks-and-PD-normal-coefficients.md)给真实e-block：m_jr=r!Σ_(k≥r)binom(k,r)p^(k−r)c_(j+ke)，所需精度k≤i、p^(i−k+1)；原FL窗口阶乘精确消，仍须同一整frame。
 
@@ -36,7 +36,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [R1168](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)完整SDR/原M_d/中央ordered gauge均付。§§10–11直接读原V′_i：c_dk=binom(d,k)b_E^k/(k+1)、m=p²−1−pd+(p−1)k，A_dk=(4−2⁻d)c_dkG_m，A′i,dk=c_dk(2σG_m(E/C_i)−2⁻dG_m)。quotient用原Vélu微分归一，非套同CM基；ΣA′=A。B_kl=c4kc8l{(16+2⁻¹¹)G_mG_n−4Σ_iσG_i,mσG_i,n}，同核不拆。高G整性已付，继续原未平滑/Π2/4/全局减法，未宣单位。
 
-[原Gaussian两位carry §§1–7](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)R1168高G降为≤12项/degree≤5 sections和安全低R/F/S；carry=2a/b_E、pF_e/4=−1。实际βL=−Ψ−(x²/y)^p及ζ桥保二扭补偿，换log仅到<p²−p−1；安全G_pr=G_r、pG_p+1=β、其余指定pr+1为0。目标m_dk一般不属此类，原section/中间G3p−1和joint仍保。
+[原Gaussian高窗 §§1–8](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)完整两位carry/≤12项sections及βL=−Ψ−(x²/y)^p/ζ桥已付，换log严格保<p²−p−1。§8原Ψ²+2βR=x^p实给G_(3p−1)=−a/(6β)单位、A3=−3C/4；首个真正高矩G_(p²−4p−1)=−H_p/(2β)=H_p/(2δ)，是原η⁴系数。未宣H_p非零；其它d4/d8与全mask/共同纤维继续。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
