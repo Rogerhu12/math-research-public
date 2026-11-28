@@ -66,13 +66,664 @@
   ],
   "setup_python_step": "success",
   "run_started_utc": "2026-11-28T11:46:55Z",
-  "phase": "scientific-entry",
+  "phase": "candidate-return",
   "terminal": false,
   "child_started": true,
   "child_pid": 2744,
   "child_returncode": null,
-  "latest_observed_scalar_line": null,
-  "scientific_summary": null,
+  "latest_observed_scalar_line": {
+    "ordinal": 38,
+    "utc": "2026-11-28T11:47:30Z",
+    "original": {
+      "event": "objective",
+      "evaluations": 1,
+      "rms_scaled": 0.19010758861262178,
+      "gram_max": 2.6440119877163024
+    }
+  },
+  "scientific_summary": {
+    "file": {
+      "path": "/home/runner/work/_temp/run36-bent-disk-46141466656-1/field/summary.json",
+      "bytes": 12850,
+      "sha256": "28a7da00de9d6bf8deb8c39fa0d4a68c67621bddd435d09f56011e5c071d35b8"
+    },
+    "complete_small_json": {
+      "elapsed_seconds": 25.521837823999988,
+      "frozen_material_target": {
+        "angular_count": 384,
+        "description": "Per-span degree-ten Chebyshev-Lobatto interpolation of shared angular mean Gram. Fixed through both subsequent resolutions; no phase interpolation.",
+        "sha256": "36f695b3ca7574625285b092be3fb18dd01634c279fcbade086c3283234728ef",
+        "shape": [
+          8,
+          11
+        ],
+        "source_stage": 5,
+        "source_x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17"
+      },
+      "in_progress": {
+        "actual_objective_call": 1,
+        "configuration": "fixed-resolution-1",
+        "design": "tilt44-geometric",
+        "observed_best_cost": 0.018070447624052924,
+        "shape": [
+          416
+        ],
+        "stage": 6,
+        "x_sha256": "705bdaf384d2943e9983125619c8b47957137b58e3752006c670f245972d7d81"
+      },
+      "numpy": "2.3.5",
+      "params_sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
+      "python": "3.12.14",
+      "schema": "bent-disk-shoulder/v1",
+      "scipy": "1.17.0",
+      "scope": "Exact material disk and C2 seam constraints. Finite approximate shoulder. All reported numeric geometry is sampled; no rigorous reach, embedding, exact root or strong closed-family assertion.",
+      "selected_coarse_stage": 2,
+      "selected_design": "tilt44-geometric",
+      "source_sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+      "stages": [
+        {
+          "component_shapes": [
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "configuration": {
+            "angular": 40,
+            "check_angular": 96,
+            "check_radial": 43,
+            "id": "coarse-design",
+            "lsmr_iterations": 100,
+            "max_evaluations": 70,
+            "mode": 6,
+            "radial": 19,
+            "regularizer": 2e-05,
+            "spans": 4
+          },
+          "cost": 0.015861175240937598,
+          "curve_witness": [
+            0.4612092139544516,
+            0.0,
+            0.7662092139544516
+          ],
+          "design": {
+            "angle": 0,
+            "equator_radius": 0.93,
+            "fillet_shift": 0.085,
+            "height": 0.17,
+            "id": "horizontal-geometric",
+            "length": 1.16,
+            "radial_power": 78,
+            "seed": "geometric"
+          },
+          "fixed_angular_target": false,
+          "fixed_angular_target_sha256": null,
+          "independent_grid": {
+            "angular_target_min": 0.9136746329095192,
+            "gram_components": [
+              0.5020660513923808,
+              1.2598272133009834,
+              6.256664478701643
+            ],
+            "gram_max": 3.712744021069179,
+            "gram_rms": 0.21658839687730055,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.5203239516767978,
+            "origin_radius_sample_max": 1.4361216260221243,
+            "samples": [
+              43,
+              96
+            ],
+            "shoulder_K_abs_sample_max": 43.454164756978926
+          },
+          "jacobian_adjoint_abs": 1.0408340855860843e-17,
+          "jacobian_fd_relative": 1.0896963866918788e-09,
+          "nfev": 65,
+          "njev": 52,
+          "optimality": 1.619733831758614e-07,
+          "ranking_score": 4.808783264446591,
+          "solver_message": "`ftol` termination condition is satisfied.",
+          "source_x_sha256": null,
+          "stage": 0,
+          "stage_seconds": 1.5622754249999957,
+          "start_x_sha256": "69f75dfec938d783b11a49fe8ebfdaa541bd0c65788e70d4af6bcc28159e788d",
+          "termination": 2,
+          "train": {
+            "angular_target_min": 0.9136746329095191,
+            "gram_components": [
+              0.47128313162923907,
+              0.4452125762820891,
+              0.619522743904368
+            ],
+            "gram_max": 0.6897931860771875,
+            "gram_rms": 0.1373779035689015,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.7327617992881205,
+            "origin_radius_sample_max": 1.4334965180791754,
+            "samples": [
+              19,
+              40
+            ],
+            "shoulder_K_abs_sample_max": 50.02787526231576
+          },
+          "witness_separation_from_lower_halfspace_if_upper_nonnegative": 0.7662092139544516,
+          "witness_to_comparison_shoulder_samples": 0.8036293095960823,
+          "x_sha256": "8fe0aae14db700ff61f91fdbd1348de4962b91feecd62a6bf6cef0e480a165ef",
+          "x_shape": [
+            86
+          ]
+        },
+        {
+          "component_shapes": [
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "configuration": {
+            "angular": 40,
+            "check_angular": 96,
+            "check_radial": 43,
+            "id": "coarse-design",
+            "lsmr_iterations": 100,
+            "max_evaluations": 70,
+            "mode": 6,
+            "radial": 19,
+            "regularizer": 2e-05,
+            "spans": 4
+          },
+          "cost": 0.01059824359273254,
+          "curve_witness": [
+            0.4612092139544516,
+            0.0,
+            0.9162092139544515
+          ],
+          "design": {
+            "angle": 0.32,
+            "equator_radius": 0.97,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt32-geometric",
+            "length": 1.08,
+            "radial_power": 70,
+            "seed": "geometric"
+          },
+          "fixed_angular_target": false,
+          "fixed_angular_target_sha256": null,
+          "independent_grid": {
+            "angular_target_min": 0.8457176728419853,
+            "gram_components": [
+              0.4651086542332189,
+              1.0839503832261288,
+              4.337598426893542
+            ],
+            "gram_max": 2.6860658504571675,
+            "gram_rms": 0.16367112016598306,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.6058670375656992,
+            "origin_radius_sample_max": 1.4237452439421279,
+            "samples": [
+              43,
+              96
+            ],
+            "shoulder_K_abs_sample_max": 36.17369998237574
+          },
+          "jacobian_adjoint_abs": 0.0,
+          "jacobian_fd_relative": 1.122673405370082e-09,
+          "nfev": 39,
+          "njev": 31,
+          "optimality": 1.6499980449776843e-07,
+          "ranking_score": 3.541800186442874,
+          "solver_message": "`ftol` termination condition is satisfied.",
+          "source_x_sha256": null,
+          "stage": 1,
+          "stage_seconds": 1.026895593000006,
+          "start_x_sha256": "7e8680872c33950d81a22641532066eb3ec323e4487ddca49091806f903f9a7f",
+          "termination": 2,
+          "train": {
+            "angular_target_min": 0.8457176728419853,
+            "gram_components": [
+              0.447791351865929,
+              0.4807858230452273,
+              0.6504063754333798
+            ],
+            "gram_max": 0.6330931293057731,
+            "gram_rms": 0.10979332685939859,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.808164163117863,
+            "origin_radius_sample_max": 1.4204421410335377,
+            "samples": [
+              19,
+              40
+            ],
+            "shoulder_K_abs_sample_max": 40.56789886865354
+          },
+          "witness_separation_from_lower_halfspace_if_upper_nonnegative": 1.0147792324171534,
+          "witness_to_comparison_shoulder_samples": 0.8036293095960823,
+          "x_sha256": "f20971ef9324f014348eb14167b37f8c9c6b4fa184446e34346bef60410a4ce4",
+          "x_shape": [
+            86
+          ]
+        },
+        {
+          "component_shapes": [
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "configuration": {
+            "angular": 40,
+            "check_angular": 96,
+            "check_radial": 43,
+            "id": "coarse-design",
+            "lsmr_iterations": 100,
+            "max_evaluations": 70,
+            "mode": 6,
+            "radial": 19,
+            "regularizer": 2e-05,
+            "spans": 4
+          },
+          "cost": 0.008122673034157849,
+          "curve_witness": [
+            0.4612092139544516,
+            0.0,
+            0.9162092139544515
+          ],
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "fixed_angular_target": false,
+          "fixed_angular_target_sha256": null,
+          "independent_grid": {
+            "angular_target_min": 0.9987710416594847,
+            "gram_components": [
+              0.5012139179168924,
+              1.007632347307592,
+              3.3427668437949016
+            ],
+            "gram_max": 2.1381451483739067,
+            "gram_rms": 0.1354577017990304,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.7256013309147978,
+            "origin_radius_sample_max": 1.4257062581560405,
+            "samples": [
+              43,
+              96
+            ],
+            "shoulder_K_abs_sample_max": 35.06974473560714
+          },
+          "jacobian_adjoint_abs": 1.734723475976807e-17,
+          "jacobian_fd_relative": 1.1531063512495935e-09,
+          "nfev": 37,
+          "njev": 30,
+          "optimality": 1.8711008942393188e-07,
+          "ranking_score": 2.9689544736031577,
+          "solver_message": "`ftol` termination condition is satisfied.",
+          "source_x_sha256": null,
+          "stage": 2,
+          "stage_seconds": 1.056235958000002,
+          "start_x_sha256": "74695c1b47538be6ff1ee6ef5f0a1f965efb39da4c70f734d5ec7592cb65d06f",
+          "termination": 2,
+          "train": {
+            "angular_target_min": 0.9987710416594847,
+            "gram_components": [
+              0.4624672204111058,
+              0.42292185933465565,
+              0.5691316303684197
+            ],
+            "gram_max": 0.614648610547804,
+            "gram_rms": 0.09563153653309855,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.8624747097396537,
+            "origin_radius_sample_max": 1.418785503362942,
+            "samples": [
+              19,
+              40
+            ],
+            "shoulder_K_abs_sample_max": 38.37144678785958
+          },
+          "witness_separation_from_lower_halfspace_if_upper_nonnegative": 1.0253890160580146,
+          "witness_to_comparison_shoulder_samples": 0.8036293095960821,
+          "x_sha256": "746df2e45fbe73f53ee5eaeac98998da0021c949a23e61ff35bcbc739fe1819a",
+          "x_shape": [
+            86
+          ]
+        },
+        {
+          "component_shapes": [
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "configuration": {
+            "angular": 40,
+            "check_angular": 96,
+            "check_radial": 43,
+            "id": "coarse-design",
+            "lsmr_iterations": 100,
+            "max_evaluations": 70,
+            "mode": 6,
+            "radial": 19,
+            "regularizer": 2e-05,
+            "spans": 4
+          },
+          "cost": 0.010091616859804307,
+          "curve_witness": [
+            0.4612092139544516,
+            0.0,
+            0.9162092139544515
+          ],
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.9,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-Hermite",
+            "length": 1.12,
+            "radial_power": 70,
+            "seed": "hermite"
+          },
+          "fixed_angular_target": false,
+          "fixed_angular_target_sha256": null,
+          "independent_grid": {
+            "angular_target_min": 0.7373152771246434,
+            "gram_components": [
+              0.8357592393707712,
+              0.6281502056746389,
+              4.639759292165536
+            ],
+            "gram_max": 2.866967187874568,
+            "gram_rms": 0.18325051720782204,
+            "height_in_equator_frame_min": -0.018092115903867667,
+            "min_area": 0.3802259125365849,
+            "origin_radius_sample_max": 1.3609569406204474,
+            "samples": [
+              43,
+              96
+            ],
+            "shoulder_K_abs_sample_max": 87.45597447440701
+          },
+          "jacobian_adjoint_abs": 1.0408340855860843e-17,
+          "jacobian_fd_relative": 1.2836557056473264e-09,
+          "nfev": 42,
+          "njev": 41,
+          "optimality": 1.2428479059577985e-07,
+          "ranking_score": 5.043783265479708,
+          "solver_message": "`ftol` termination condition is satisfied.",
+          "source_x_sha256": null,
+          "stage": 3,
+          "stage_seconds": 1.3250552789999972,
+          "start_x_sha256": "334e61fade598d87a35822d34aaa6adec70d9edb5a441ea134552eeb2afd813e",
+          "termination": 2,
+          "train": {
+            "angular_target_min": 0.7373152771246433,
+            "gram_components": [
+              0.8287064557156998,
+              0.3282956683553764,
+              0.6558492753174021
+            ],
+            "gram_max": 0.869512230551478,
+            "gram_rms": 0.12112598060533164,
+            "height_in_equator_frame_min": -0.014141041898541595,
+            "min_area": 0.4964447472741149,
+            "origin_radius_sample_max": 1.3592617933982252,
+            "samples": [
+              19,
+              40
+            ],
+            "shoulder_K_abs_sample_max": 60.77072301358356
+          },
+          "witness_separation_from_lower_halfspace_if_upper_nonnegative": 1.0253890160580146,
+          "witness_to_comparison_shoulder_samples": 0.8036293095960821,
+          "x_sha256": "ef060953175e8a5f8b187e2c71a3bf9664ce3d98eb4024eb8dcc372a8cc500d6",
+          "x_shape": [
+            86
+          ]
+        },
+        {
+          "component_shapes": [
+            [
+              9,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "configuration": {
+            "angular": 64,
+            "check_angular": 136,
+            "check_radial": 67,
+            "id": "medium-design",
+            "lsmr_iterations": 120,
+            "max_evaluations": 90,
+            "mode": 10,
+            "radial": 31,
+            "regularizer": 5e-06,
+            "spans": 8
+          },
+          "cost": 0.0034091748865740634,
+          "curve_witness": [
+            0.4612092139544516,
+            0.0,
+            0.9162092139544515
+          ],
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "fixed_angular_target": false,
+          "fixed_angular_target_sha256": null,
+          "independent_grid": {
+            "angular_target_min": 0.8208816561213902,
+            "gram_components": [
+              0.522826329801963,
+              0.6574179589310163,
+              1.0461532906525348
+            ],
+            "gram_max": 0.733189648306305,
+            "gram_rms": 0.06847678401258735,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.7366818897558279,
+            "origin_radius_sample_max": 1.3952717153147693,
+            "samples": [
+              67,
+              136
+            ],
+            "shoulder_K_abs_sample_max": 110.33029624453755
+          },
+          "jacobian_adjoint_abs": 5.664956351236761e-18,
+          "jacobian_fd_relative": 1.2460748842791673e-09,
+          "nfev": 90,
+          "njev": 79,
+          "optimality": 6.255789538475181e-07,
+          "ranking_score": 3.5729898057260794,
+          "solver_message": "The maximum number of function evaluations is exceeded.",
+          "source_x_sha256": "746df2e45fbe73f53ee5eaeac98998da0021c949a23e61ff35bcbc739fe1819a",
+          "stage": 4,
+          "stage_seconds": 10.128373190999994,
+          "start_x_sha256": "31c8c29e64771a070d9f0bb16632e0571a0b879c47fa0f886e14969e5bbaa054",
+          "termination": 0,
+          "train": {
+            "angular_target_min": 0.8208816561213902,
+            "gram_components": [
+              0.461123870776618,
+              0.44435636637718007,
+              0.3546383926570871
+            ],
+            "gram_max": 0.6098196800633405,
+            "gram_rms": 0.060115277176020665,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.8518256318094005,
+            "origin_radius_sample_max": 1.390885545771052,
+            "samples": [
+              31,
+              64
+            ],
+            "shoulder_K_abs_sample_max": 50.25048257235293
+          },
+          "witness_separation_from_lower_halfspace_if_upper_nonnegative": 1.0253890160580146,
+          "witness_to_comparison_shoulder_samples": 0.8036108513732919,
+          "x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949",
+          "x_shape": [
+            266
+          ]
+        },
+        {
+          "component_shapes": [
+            [
+              9,
+              15
+            ],
+            [
+              9,
+              14
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "configuration": {
+            "angular": 80,
+            "check_angular": 168,
+            "check_radial": 83,
+            "id": "fine-design",
+            "lsmr_iterations": 140,
+            "max_evaluations": 110,
+            "mode": 14,
+            "radial": 39,
+            "regularizer": 2e-06,
+            "spans": 8
+          },
+          "cost": 0.0030159320924441966,
+          "curve_witness": [
+            0.4612092139544516,
+            0.0,
+            0.9162092139544515
+          ],
+          "design": {
+            "angle": 0.44,
+            "equator_radius": 0.96,
+            "fillet_shift": 0.075,
+            "height": 0.32,
+            "id": "tilt44-geometric",
+            "length": 1.02,
+            "radial_power": 63,
+            "seed": "geometric"
+          },
+          "fixed_angular_target": false,
+          "fixed_angular_target_sha256": null,
+          "independent_grid": {
+            "angular_target_min": 0.8074064601168901,
+            "gram_components": [
+              0.5083268943926753,
+              0.665383335334032,
+              1.2188455944498333
+            ],
+            "gram_max": 0.951159190355721,
+            "gram_rms": 0.0659369473183173,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.8604269482270035,
+            "origin_radius_sample_max": 1.3982953471976964,
+            "samples": [
+              83,
+              168
+            ],
+            "shoulder_K_abs_sample_max": 63.09736043534694
+          },
+          "jacobian_adjoint_abs": 4.87890977618477e-19,
+          "jacobian_fd_relative": 7.087280640562478e-10,
+          "nfev": 53,
+          "njev": 50,
+          "optimality": 1.1365277513324772e-07,
+          "ranking_score": 2.4819018022375623,
+          "solver_message": "`ftol` termination condition is satisfied.",
+          "source_x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949",
+          "stage": 5,
+          "stage_seconds": 10.293310935999983,
+          "start_x_sha256": "b3a5581786fdade669547285adeb39bbd84363f5856defa7abf8fa73d8bf0720",
+          "termination": 2,
+          "train": {
+            "angular_target_min": 0.8074064601168903,
+            "gram_components": [
+              0.49441319314680743,
+              0.45307612253707774,
+              0.48436004568847535
+            ],
+            "gram_max": 0.5760805253954878,
+            "gram_rms": 0.05889549176059545,
+            "height_in_equator_frame_min": 0.0,
+            "min_area": 0.8740703107538116,
+            "origin_radius_sample_max": 1.3967310630327912,
+            "samples": [
+              39,
+              80
+            ],
+            "shoulder_K_abs_sample_max": 48.14247452976235
+          },
+          "witness_separation_from_lower_halfspace_if_upper_nonnegative": 1.0253890160580146,
+          "witness_to_comparison_shoulder_samples": 0.8036045330885836,
+          "x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17",
+          "x_shape": [
+            366
+          ]
+        }
+      ]
+    }
+  },
   "whole_runner_field_files": null,
   "scientific_sampled_success_inferred_by_launcher": false,
   "exact_metric_or_global_geometry_inferred_by_launcher": false,
@@ -100,5 +751,7 @@
     "OMP_NUM_THREADS": "1",
     "MKL_NUM_THREADS": "1"
   },
-  "child_started_utc": "2026-11-28T11:47:04Z"
+  "child_started_utc": "2026-11-28T11:47:04Z",
+  "observed_utc": "2026-11-28T11:47:31Z",
+  "original_scalar_line_count": 38
 }
