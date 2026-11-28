@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GFW：带号真输运的首自由波与相关势消去](results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md)：原两条真实输运给A0w1只需ratio的q+1角导，不数值求r导；保真三阶一侧几何、原A2/A3接缝跳。完整G.7先有符号合成使独立V_T消去，留下B/B′/B″真负长尾、左E12及全部界面；尚未给全域数值。
+
 - [ASQ19：固定旋转附近的真几何系数与移动实模型 jets](results/R149-supplement-fixed-rotation-geometric-coefficient-and-moving-real-model-jets.md)：真实radial intrinsic/full angular u,v及有限部分scalar ξ=−V/2，给强piecewise Banach邻域中真几何jet与moving实基。原g*<1.28在|ξ−ξ*|≤1/32时全g<4/3、weighted费×≤25/24；真实a旋转/commutators和每阶损失保，不能外推未付PDE余项。
 
 - [WHN：真邻域 weighted head 响应及全负窗](results/R149-supplement-true-nearby-weighted-head-response-and-negative-readout.md)：同SPN任意无穷A3真扰动ρ≤1e−7，原4650行/4802公共格的weighted functional通过真resolvent比较接收，整head到root/collar/body<11.9B、raw high<30B、outer<.154B。完整负窗≤25.95b+2780B+131a+1.36FB+Eports+1.774e−5+5530ρ；实际匹配端口仍未付。

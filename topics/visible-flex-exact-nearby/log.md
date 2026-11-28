@@ -219,3 +219,6 @@
 
 
 2026-11-28 11:41:07 UTC / visible-exact-astra-b0d5a16-20261128：ASQ19。真实radial intrinsic/full angular u,v及有限部分scalar ξ=−V/2，给强piecewise Banach邻域中真几何jet与moving实基。原g*<1.28在|ξ−ξ*|≤1/32时全g<4/3、weighted费×≤25/24；真实a旋转/commutators和每阶损失保，不能外推未付PDE余项。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-fixed-rotation-geometric-coefficient-and-moving-real-model-jets.md","bytes":11816,"sha256":"9b3a464c5b5c9c207f052e80e6f77b940e5e870fe1eb61ee2aaf6308e87a52bb"}]。
+
+
+2026-11-28 11:41:19 UTC / visible-exact-astra-b0d5a16-20261128：GFW。原两条真实输运给A0w1只需ratio的q+1角导，不数值求r导；保真三阶一侧几何、原A2/A3接缝跳。完整G.7先有符号合成使独立V_T消去，留下B/B′/B″真负长尾、左E12及全部界面；尚未给全域数值。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md","bytes":6319,"sha256":"d7ab6241aabc17f85eab1c8c4af49ed8c5f2f45eee85e96080a48f8491ad3e4d"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_signed_free_wave.py","bytes":5525,"sha256":"08297842a064ab11c05e59ff204eb96c8a6cddd81f20e0220dec687e1ae7fb3c"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_strong_radial_inputs.py","bytes":4118,"sha256":"a3045813a19e5ccd98e61f645696af87c5bd7b566738c4cfa27f7600e0d26538"}]。
