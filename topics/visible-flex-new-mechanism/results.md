@@ -113,3 +113,7 @@
 ## R640同状态几何读取消费者
 
 [实现与严格误差入口](notes/2026-11-28-r640-actual-geometry-consumers-and-core-error-input.md)消费已经付费的实际状态或原两个位置差分数组，输出高度/法向/支撑速度/球余量与取得点，不重算Jac或差分。严格核心误差改写为正常角上的同一组合差函数，避免反求材料角；源码已读，未执行新scope或改变活动宏观输入。
+
+## R632原真态的自适应多项式盒完整续接
+
+[实际范围](notes/2026-11-28-r632-adaptive-polynomial-box-continuation-scope.md)从de303ef6完整6319B自然终态直接继续全部257列/真端/原ruling；向外de Casteljau闭合同一多项式原盒，方向与h同树细分，未决frontier保留。原假墙累积的trust/damping显式重启而真实q不变；原28步恢复不重放、相同完整payload的已付fine继承，变化态才新付fine。公开3300秒范围，原全部绝对门/费用保留，尚无新计算结果。
