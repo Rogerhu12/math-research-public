@@ -7,3 +7,7 @@
 ## 2026-11-28 10:46:46 UTC — 整篇日志归档
 
 当前95533B日志整篇原字移入log/2026-11-28-session-through-R736.md，保持单MD<100KB；此前每个结论/运行/失败及固定恢复来源不删，新日志继续追加。 双README云核至`f9ff5a8685fad08bf1fce295a17325fc51ce2625`无变（非pull）。
+
+## 2026-11-28 10:46:51 UTC — 33 retry实际初场及首个恢复trial
+
+本次两input0，science bffd5bbf/PID3463/model61c654、7e06/accepted0；Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052。K12.32709940409259、Dpoint4.117175466515689、cell885/u.8306046932331322/φπ2/branch1/s2.1573631007205925。首trial291f394仅开始。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run33-section16-retry.md)。双README云核至`0f3363acd7fe23b40daa4ffde3a5f3e7f7055cc6`无变（非pull）。
