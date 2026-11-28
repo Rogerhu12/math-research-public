@@ -162,3 +162,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 10:16 UTC｜Astra-held10-7c4e33ee-20261128：[同g M32 v4准备入口](notes/2026-11-28-analytic-fixed-support-m32-v4-prepared.md)只把已核原complete CSC/QR换为已核完整CSR+streaming QR；1497原nodal初猜沿v3实际准备复用，不再做一次prepare-only。root逐行核v3→v4差异，原物理δ/λ/q-gauge/warp/mean1168及全部原门不变，仍未启动大J/未有M32接受。等待设计真.128/M48与下一尝试屏障后独立窗口。E原0021全步长已于10:14:57 UTC接受，iter6真实global norm73.300366222588，非最终验收。
 
 - 2026-11-28 10:27 UTC｜Astra-held10-7c4e33ee-20261128：[真完整图多个t网格入口](notes/2026-11-28-actual-closed-mesh-entry.md)已编译/CLI实际过、独立逐式审核：保持原完整源与全H/全谱/最终physical H，held默认严格λ1，R54刚体校正符号正确，R67帽不截谐波。所有mesh用同一闭球面环拓扑、double坐标、严格<5,000,000B；尚无真bundle故未正向导出/未付几何门。私库10:25:58 UTC实际pull到23bad9a0e36d5f4fd968ca8f0ee3b3fb9bca504d，双README空diff、QUEUE仍本会话。E iter7真norm3.78039247，后继0024原freshJ继续。
+
+- 2026-11-28 10:29 UTC｜Astra-held10-7c4e33ee-20261128：修正网格入口说明中写入字符串把 LaTeX alpha 转为控制字符的排版错误；公式恢复正常源文本，执行源码 SHA/数学定义/已完成检查均未改变。

@@ -11,8 +11,8 @@
 默认 `--frame held` 要求真实 λ=1、curvature_blend=1、S=.5、b=.2、实际圆弧 k=.2 及正短柱。它对未校正相位图 Gα 施加 R54 的
 
 \[
-F_lpha=R_{-(1-k)lpha}G_lpha+O-R_{klpha}O,
-\qquad O=\Gamma(\pi/3)-k^{-1}e_{\pi/3},\qquadlpha(t)=9t/20.
+F_\alpha=R_{-(1-k)\alpha}G_\alpha+O-R_{k\alpha}O,
+\qquad O=\Gamma(\pi/3)-k^{-1}e_{\pi/3},\qquad\alpha(t)=9t/20.
 \]
 
 k 使用源的实际字面数，O 是真核心圆弧中心的数学定义；导出坐标和所报 center 仅是这些表达式的浮点评价。不是把浮点 center 当新的严格定义常数。真实 λ<1 不获准进入 held 分支；显式 `--frame phase` 仅可生成低 λ 真完整闭图的诊断相位图，所有 completion/held/reach/metric/noncongruence flags 仍为 false。
