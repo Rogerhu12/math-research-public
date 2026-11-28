@@ -1,0 +1,81 @@
+{
+  "schema": "isp-general-scaled-entire-N4-three-compact-identities-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-28",
+  "runtime": "functions.exec V8 BigInt sparse multivariate integer polynomials",
+  "actualStatus": "completed_successfully",
+  "source": {
+    "sha256": "39b490ebb38cb807dc5a1401d2156561698d0d213e42ac5e065770cb31c2bf29",
+    "bytes": 4170
+  },
+  "result": {
+    "schema": "isp-nine-free-variable-scaled-entire-N4-three-coefficients-v1",
+    "variables": [
+      "b",
+      "c",
+      "rho",
+      "A1",
+      "r",
+      "s",
+      "t",
+      "lambda",
+      "T"
+    ],
+    "normalizedOnly": "a=1-b-c, p=1+rho, q=1-rho",
+    "elapsed_milliseconds": 6,
+    "integerPolynomialProducts": 359,
+    "checks": [
+      {
+        "name": "same_original_normalized_u",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "same_original_M",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "scaled_value_zero_trace",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "scaled_value_one_trace",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "scaled_value_one_B_is_minus_2c_rho",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "scaled_value_one_C_is_2b_rho",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "full_original_scaled_N4V0_compact",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "full_original_scaled_N4polar_compact",
+        "fullIntegerPolynomialDifferenceZero": true
+      },
+      {
+        "name": "full_original_scaled_N4V1_compact",
+        "fullIntegerPolynomialDifferenceZero": true
+      }
+    ],
+    "originalTermCounts": [
+      145,
+      29,
+      28
+    ],
+    "noOriginalMeanEquationAssumed": true,
+    "noWOrPhiWeightRelationAssumed": true,
+    "noDOrEllOrGeometryInverse": true,
+    "noOldCofactorOrOriginalValueGateRepeated": true,
+    "wholeWExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "originalScope": "Nine free raw Gram/value variables, p+q=2 only; no mean/W/Phi equations and no inverses",
+  "existingFrozenSourcesModified": false,
+  "repeatOldMathematicalGate": false,
+  "coefficientPayloadSaved": false
+}

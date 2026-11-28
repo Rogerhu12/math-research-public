@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-fu-terminal-C17-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-general-scaled-N4-identities-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -46,7 +46,7 @@ rankH3单三jet的全部ess6已闭，末非零Hp原Gaussian/最高/normal给左�
 
 **已闭原面不重做：** L0、Q=1−u、ell0及旧D≠0等权整图已闭，W的k+2/Q−2和λ3/2已付；全部来源与边界保快照，碰撞及其余一般LS不外推。
 
-**S0/Lt0整支已闭：** 原615及退化保档；一般LS保(Pf,Pt)非同时零、Δ0的Φ、W的u(Q+2)−2与k+1。四值二次/三一次及四Gram仅必要；旧H与新H265区分。[全自由f/t原低NP身份](results/R150-appendix-unit211-unrestricted-f-and-t-original-low-weighted-NP-identities.md)8自由量6全零差，η修正与两jet全返，无η/t/新头逆；在E0,N0,P1恢复后Loww=NS−PS+EW2，Lowλ由N1等冗余。
+**S0/Lt0整支已闭：** 原615及退化保档；一般LS保(Pf,Pt)非同时零、Δ0的Φ、W的u(Q+2)−2与k+1。四值二次/三一次与四Gram仅必要，H265不代旧H。[自由f/t原低NP](results/R150-appendix-unit211-unrestricted-f-and-t-original-low-weighted-NP-identities.md)保η修正/两jet；Loww=NS−PS+EW2，Lowλ由N1等冗余。[新完整N4三短式](results/R150-appendix-unit211-general-scaled-entire-N4-three-compact-identities.md)在9自由原变量全返，6ms/359乘/9零差；ell缩放向量的全部二次系数对A1/f/V/W/t仅一次，无mean/W/Phi或逆。
 
 W的旧H非零全分类、整个u=Q、D27/J19均已闭；准确原证明、源及180秒cofactor/76.992秒trace/F3/F95失败保本次完整快照。原全T3/F2十一行、Θ/NV和全部未付个别值继续，当前规范六生成及新物理lambda图见后节，不重放这些旧门。
 

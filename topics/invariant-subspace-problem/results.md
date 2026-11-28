@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：全原N4的三个无分母缩放短式](results/R150-appendix-unit211-general-scaled-entire-N4-three-compact-identities.md)：9自由原Gram/value变量，真dual乘法直接返回ell缩放V0/V1的N4/完整极化三式，对A1/f/V/W/t仅一次；6ms/359整数乘/9全零差。无mean/W/Phi或逆，ell0保；当前W低D解释保准确已付范围。
+
 - [R150：正确fu终端一次C17原理想覆盖](results/R150-appendix-unit211-Phi-zero-true-fu-terminal-C17-once-original-ideal-cover.md)：十八必要列反传与完整Psi原来源合成后，仅最终原乘子分母17/17/14得到C17一次；唯一.330607秒/0，因子1/2/3/9/1²、rad16⇒≤48权对。合已刊中心二次得≤384完整规范不同点，全零纤维保。
 
 - [R150：正确fu中心v首一二次与两mean的Psi来源](results/R150-appendix-unit211-Phi-zero-true-fu-centered-v-monic-quadratic-and-two-mean-source.md)：全原odd以既有单位右边支付Hf，所有权纤维至多二几何值，原均值给QΨ精确组合；旧261权对因此≤2088完整规范不同点。仅两纯权整数身份新2ms检查，完整Gram来源为已刊原式的纸面展开。
