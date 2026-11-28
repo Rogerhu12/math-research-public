@@ -4,7 +4,7 @@
 
 ## 规则与当前入口
 
-- 最近实际pull后双README已读锚 `69b4d3ebb3084e55dbeff52c27a2c0ba35277228`（2026-11-28 17:50 UTC）。
+- 最近实际pull后双README已读锚 `8205da8138dcd3ab4635d870a0c627286a8cd5bf`（2026-11-28 17:54 UTC）。
 - 私库QUEUE原认领e96d935de69d7e96381ba17732e6f92350654b2a；恢复后实际pull `0e3cbe262f95c04561fec3c56e64347eb6801d25`，相对501598ec双README空diff；QUEUE仍本会话/2026-11-28进行中。该次17:27 UTC前已实返，至少18:27 UTC前再pull。
 - 每结论实际pull/核双README差异/推送；NFF立即rebase循环至成功，不force。根§12无额外审批或独立复核门；§15只源/参数/hash/小标量，不存再生数组；§16新spawn显式gpt-6.2-astra/ultra/forknone。PAT仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 完成须同一完整g/profile/chart/mean/时间域的连通闭C²嵌入连续族；H有内点且diamH≥.2D、整像δhold≥.1D、全E(3)含反射δE>0、全时reach≥.03D；全metric≤1e−6且固定问题的谱/径向/时间精化降至机器或求解容差；多个t小网格复现和严格存在差距说明。λ<1非准确圆弧H；换δ/profile/帽非同g精化；完成后继续改善比例。
@@ -18,7 +18,7 @@
 重置前最高全门接受[λ=.128/M24](notes/2026-11-28-design-single-gentle-lambda128-m24-actual.md)：642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。旧raw现在不可读。
 λ=.256/M24和M32分别metric8.84140e−5、1.28584e−6未门；[M40恢复实返](notes/2026-11-28-design-single-gentle-lambda256-m40-recovered-observation.md)952点/RMS9.69144e−7/BC5.89278e−11/mean1936/δ=.06810713649643507，但metric1.248439224e−6仍未接受。M32→40平台仅给试严格径向tol的理由。旧M48无完整raw，原89083真exit1原因未知，不称数学失败。
 
-[必要输入及正式控制](notes/2026-11-28-design-r87-input-recovery-and-formal-control.md)已真完成70源/port/chart/初猜恢复；原全部hash核同，初猜415×25仍未接受。新λ0/M8/tol2e−7于17:30:22 UTC真启动TTY81483，最近读到741点/完整QR继续，未读到终态。后继保更严tol和所有原门、跳过已知低模失败，直接继续λ1，不等root登记。controller afe8e548…已compile/help，真实stage后nonce/outdir/scope停请求、锚同步、活child先完成；工程exit4独立于数学失败。
+[必要输入及正式控制](notes/2026-11-28-design-r87-input-recovery-and-formal-control.md)已真完成70源/port/chart/初猜恢复；原全部hash核同，初猜415×25仍未接受。新λ0/M8/tol2e−7于17:30:22 UTC真启动TTY81483，最新765点出现原accepted步长1/8192→1/131072，未读到终态；analytic用真实7节点核原δ差分。λ0没有factory.jet_parameter_derivatives，原portable并未安装V5解析δ列，不能先归因解析列。[后继v2正式控制](notes/2026-11-28-design-r87-continuous-mode-floor-preparation.md)81153bdf…已compile/help：.256:32明确mode-floor、真双锚升模用原完整两源lift；metric-only源仍原单源lift，ENOSPC/MemoryError/信号独立工程退出不λ二分。保全部门，真锚到来即继续λ1。controller afe8e548…已compile/help，真实stage后nonce/outdir/scope停请求、锚同步、活child先完成；工程exit4独立于数学失败。
 
 ## 2. 真λ1后的完整DN、几何与固定g入口
 

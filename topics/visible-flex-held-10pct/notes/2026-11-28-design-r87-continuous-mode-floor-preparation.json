@@ -1,0 +1,45 @@
+{
+  "scope": "Prepared continuous R87 recovery/continuation scheduling; no new numerical BVP result.",
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_stage_control_v2.py": "81153bdfc0ea4d3f5d8c49eebd1e696e611dc86e34748f2ded6382c2be4cfdad",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/run_design_stage_control.py": "afe8e5482726507e844ac71aad6c75978ec5e5eb9aaa5f7bbdb288663bafbf0e",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/both_source_lifted_secant.py": "dd5b0d88eb6609fb57324486dcc231b65ad386afcd48f36bcb31ef7e27b90eb4",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/material_design_lifted_secant_continue.py": "519c596e3bbff4c5f61038b78b91e9c996655abba8a6a2b96acf16b6853fb373",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/material_design_continue.py": "7f85c3b422416b867a8fd19155583c1e8758fb45729ced1445c290f628360d5d"
+  },
+  "compile_exit_code": 0,
+  "help_exit_code": 0,
+  "production_BVP_started_with_this_entry": false,
+  "explicit_mode_floor": {
+    "homotopy_at_least": 0.256,
+    "minimum_modes": 32,
+    "reason": "Previously observed lambda .256/M24 metric failure; retained original higher-mode gates."
+  },
+  "two_source_mode_lifts": {
+    "enabled_only_by_explicit_flag": true,
+    "conditions": [
+      "lifted-secant controller",
+      "seed is the true accepted current field",
+      "target M strictly exceeds current M",
+      "an earlier true accepted material source exists"
+    ],
+    "source": "scripts/resume_20261128/analytic/both_source_lifted_secant.py",
+    "full_saved_PPoly_and_all_parameters_preserved": true,
+    "raw_and_port_hashes_checked": true,
+    "initializer_accepted": false,
+    "metric_only_seed_retains_original_complete_one_source_lift": true
+  },
+  "formal_stop_contract_retained": true,
+  "active_BVP_not_interrupted_by_stop_file": true,
+  "explicit_resource_markers": [
+    "MemoryError",
+    "[Errno 28]",
+    "No space left on device"
+  ],
+  "signal_exits_not_lambda_bisected": true,
+  "explicit_resource_markers_not_lambda_bisected": true,
+  "all_original_acceptance_gates_retained": true,
+  "old_sources_modified": false,
+  "new_mathematical_conclusion": false,
+  "complete_surface": false
+}
