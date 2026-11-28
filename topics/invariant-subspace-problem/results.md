@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-negative-P-universal-range-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-fu-free-t-original-identities-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [f=u、自由t的完整原weighted NP与低次jet身份](results/R150-appendix-unit211-f-equals-u-unrestricted-t-original-weighted-and-jet-identities.md)：七自由原Gram、真正dual平方、11完整零差；两必要低式含全部t零面，11ms/910整数乘法，未采用错误P02系数草稿按原字节留证。
 
 - [负P整来源在全部原旗上单射且稠密](results/R267-appendix-negative-flat-inverse-entire-sources-universal-range.md)：同一Q原来源给同向量P幂下界；精确logloglogM_n=30n log2+O(1)，完整Jensen 6/8预算付整源、同向双负幂及商场真图核。任意双变量整和quasi仍开。
 
@@ -67,5 +69,3 @@
 - [同一正锥分母的定量全逆与逐个固定来源的严格超四次费](results/R267-appendix-quantitative-positive-common-denominator-and-strict-superquartic-inverse-cost.md)：新连续块qν=256ν²，原收缩强积/同强*单位/全旗重付；log||C^−rP||≤Kr⁴exp(300log(2+r)^(2/3))，每个非零平坦p完整log||C^−rp||/r⁴→∞，双log幂指数精确4。尚无分数根来源。
 
 - [全W原D双列取消、纯k覆盖与完整规范界616824](results/R150-appendix-unit211-W-entire-original-D-column-cancellation-and-explicit-finite-weight-cover.md)：a29实际13.166233637秒/0，整L0/H1980保，P′双度93/119，唯一原comm行完整Bezout1；固定303阶结式非零且k度≤51402，权交长≤51402，完整重数及有限原返回保留。
-
-- [Phi完整三阶核为零、精确789及整权模型](results/R150-appendix-unit211-Phi-zero-complete-third-kernel-zero-exact-degree-789-and-integral-weight-model.md)：890实际10.546223899秒/0，两层三阶项各零，整QQ/Q2/p1009同度789；不付其它物理头或排空。
