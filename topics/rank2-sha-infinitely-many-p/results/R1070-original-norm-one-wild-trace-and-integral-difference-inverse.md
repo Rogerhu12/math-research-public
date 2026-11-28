@@ -290,6 +290,128 @@ j_m/(d\log_p\eta)=p f(0).
 $$
 反向，若整 $f$ 满足这条差分方程，则 $(T-I)(P(T)f-Z_m)=0$，由全盘 $\mathcal M$ 的单射性即得 $P(T)f=Z_m$。这精确支付原算子从 $\eta$ 到 $\eta^p$ 的整迹像。单个 $j_m=0$ 条件只给 $Z_m(0)=0$，尚未给整迹原像或全部 $Q$ 根读数零。
 
+## 11. 原同电荷连接的整测度与所有奇数指数的野角色
+
+保上一节的同一 $E_{17}:y^2=x^3+17$、指定 $p$ 进嵌入、严格 $v$、$W=v^d$ 和 $T f=U_\eta^m f(\Phi_\eta)$。上一节所需整 Miller 单位可直接在本模型证明：R639(6) 分别在等范数的 $A^l,B^l$ 上用本曲线的原 $\sigma,z$ 及两个真实除点函数，相除并在整坐标代 $[B^{-l}]$，即得原 $F=\sigma(z(v))/v$ 的整比，且单位刚性化为1。乘本模型的 $T_g$ 整比后恰为 $U_{\eta^l}$。R1062(G34)–(G35)的逐系数证明在这里沿同一模型应用，未以 $E_1$ 的 physical 标记替换本模型。
+
+令 $\mathsf D=T-I,\ g(W)=U_\eta^m-1=W h_m(W)$。$h_m(0)=mc(\eta^d-1)$ 为单位，故 $g$ 是原开盘的整可逆坐标，$g,g^{-1}$ 保持每个闭 $r<1$ 盘。以独立变量 $X$ 定义线性算子
+$$
+\mathfrak C:\quad \sum_{n\ge0}c_nX^n
+ \longmapsto \sum_{n\ge0}c_n\,\mathsf D^n 1.
+$$
+在这里 $X$ 是测度的 Amice 变量，与前文 $z^d$ 使用不同。对 $p^{-1}<r<1$，置 $\epsilon_r=\max(p^{-1},r^e)<r$。上一节给 $\|\mathsf D-M_g\|_r\le\epsilon_r,\ \|\mathsf D\|_r=\|M_g\|_r=r$，其中 $M_g$ 是乘 $g$。伸缩恒等式于是给
+$$
+\|\mathsf D^n1-g^n\|_r\le(\epsilon_r/r)r^n,\quad n\ge1 .
+$$
+对整个闭盘 Tate 代数，上述和收敛且 $\mathfrak C$ 与 $f\mapsto f(g(W))$ 的算子距离至多 $\epsilon_r/r<1$。后者是等距同构，Neumann 逆给 $\mathfrak C$ 亦为等距同构。各盘相容并沿 $r\uparrow1$ 得
+$$
+\mathfrak C:\mathcal O[[X]]\overset{\sim}{\longrightarrow}\mathcal O[[W]],
+\qquad \mathfrak C(Xf)=\mathsf D\,\mathfrak C(f),\qquad
+(\mathfrak C f)(0)=f(0).
+$$
+这是线性同构，不能当作任意两函数乘法的同态。
+
+对指定的原整输入设
+$$
+\boxed{\mathscr L_{m,\eta}(X)=\mathfrak C^{-1} Z_m,\qquad
+\mathscr L_{m,\eta}(0)=\frac{j_m}{d\log_p\eta},\qquad
+\mathfrak C(X\mathscr L_{m,\eta})=W\mathcal B_m.}
+$$
+这个整幂级数是 $\mathbb Z_p$ 上实际有界测度的 Amice 变换，即其第 $n$ 个系数准确规定 $\binom{x}{n}$ 的积分。连续函数的 Mahler 展开给唯一有界延拓。所用的一般对应可见 R. Sharifi, *Iwasawa Theory*, [§5.2, Proposition 5.2.9、Corollaries 5.2.12–13、Theorem 5.2.14](https://math.ucla.edu/~sharifi/notes/iwasawa-ch05.html)；本文用的是原有限未分歧系数环，实际系数和每个有限角色值由上式指定。以 $l\mapsto\eta^l$ 标记原范数一群的 pro-$p$ 部分（$\eta=1+p\delta\bmod p^2$ 故为拓扑生成元），其在每个连续有限角色 $\eta\mapsto\lambda$ 的值是 $\mathscr L_{m,\eta}(\lambda-1)$。Tame 部分在此取平凡角色；须另保 R716 真 Hecke twist 的平方。
+
+## 12. 所有 primitive 层的循环向量与非零归一
+
+固定 $i\ge1$。所有确切 $p^i$ 阶形式群点按 $\mu_d$ 商后有
+$$
+D_i=(q-1)q^{i-1}/d=e p^{2i-2}=\varphi(p^{2i-1})
+$$
+个不同 $W$ 值，且其赋值均为 $1/D_i$。首层由 $v^{q-1}=p$ 给出；以后 $[-p](v)=-pv+v^q$ 的唯一大项为 $v^q$，故每次除以 $q$。这些点的乘积多项式 $Q_i(W)=\prod_\xi(W-\xi)$ 在 $\mathcal O[W]$，因为原形式群和 $\mu_d$ 轨道为 Galois 所保。常数项估值为1，其余非首系数估值均正且在未分歧基域为整数，故 $Q_i$ 为 Eisenstein 多项式。$Q_1=Q$。
+
+在一个 $\eta$ 轨道上写 $H=p^{i-1},\ \xi_l=\Phi_{\eta^l}(\xi_0),\ u_l=U_{\eta^l}(\xi_0)^m$。已证轨道长度为 $H$，且 $u_H=\epsilon_i$ 是上文按原 Klein 公式指定的 primitive $p^i$ 次根。对每个 $\lambda^H=\epsilon_i$ 定义
+$$
+\ell_\lambda(f)=\sum_{l=0}^{H-1} u_l\lambda^{-l} f(\xi_l).
+$$
+原 cocycle 给 $\ell_\lambda(Tf)=\lambda \ell_\lambda(f)$，包括末端 $u_H=\lambda^H$。在包含所有该层点和所需根单位的有限基扩，任取 $r>|\xi_0|$ 且 $r<1$。评价映射从该闭盘 Tate 代数满射到全部 $D_i$ 个点的函数：这些点互异，有限 Lagrange 多项式给任意向量。$\mathfrak C$ 在同一基扩仍满射，故 $\{\mathsf D^n1:n\ge0\}$ 的像线性生成这个有限维空间，有限维子空间已经闭。$\ell_\lambda$ 本身非零，因它在轨道某单点函数上的系数非零；若 $\ell_\lambda(1)=0$，本征关系会使其杀掉全部 $\mathsf D^n1$，矛盾。两个不同轨道也不能给同一个 $\lambda$，否则两个有不交支撑的独立本征泛函的非零线性组合会杀掉 $1$，同样矛盾。因每个 $\lambda$ 阶恰为 $p^{2i-1}$ 且总计为 $D_i$，遂恰好一重穷尽所有该阶根单位。
+
+对每个真正 $\lambda$ 可在原闭盘 Tate 代数逐项评价，得到完整全层式
+$$
+\boxed{\;
+(\lambda-1)\mathscr L_{m,\eta}(\lambda-1)
+=\frac{\ell_\lambda(W\mathcal B_m)}{\ell_\lambda(1)} .
+\;}
+$$
+原分母非零由上述循环性付清，未假设其为单位。因非零整 Weierstrass 级数在开单位盘只有有限个零，所有这些无界奇数指数层的取值确定整测度至多一份。此唯一性需共同基域离散赋值及整性，并不把其它命名的 period 或测度自动识别为它。
+
+## 13. 整有限商、精确赋值与 $\mu,\lambda$ 不变量
+
+令 $\Pi_i(X)=\Phi_{p^{2i-1}}(1+X)$，它是 cyclotomic Eisenstein 多项式。上一节的完整本征泛函构成全部 $D_i$ 点函数空间的对偶基，且 $\ell_\lambda(\mathfrak C f)=f(\lambda-1)\ell_\lambda(1)$。所以
+$$
+\mathfrak C^{-1}(Q_i\mathcal O[[W]])=\Pi_i\mathcal O[[X]] .
+$$
+两侧积分除法可用各自 monic distinguished 多项式的 Weierstrass 余数。此同构只比较整线性模。
+
+置 $\rho_i=p^{-1/D_i}$。由于 $|g(\xi)|=\rho_i$，上面的严格算子界在 $r=\rho_i$ 给 $v_p((\mathsf D^n1)(\xi))=n/D_i$。将 $f$ 模 $\Pi_i$ 的余数写为 $\sum_{n<D_i}a_nX^n$，系数在原未分歧域，各项非零赋值有不同的小数部分。因此
+$$
+v_p(f(\lambda-1))
+ =\min_{n<D_i}\bigl(v_p(a_n)+n/D_i\bigr)
+ =v_p((\mathfrak C f)(\xi)).
+$$
+同样，$\mathcal M$ 保 $Q_i$ 的零理想，因为 $\Phi_\eta$ 置换该层点且 $\xi\ne0$。在该商以内以次数 $<D_i$ 的余数 $P$ 计算；分数不同给 $\|P\|_{\rho_i}=|P(\xi)|$。$\mathcal M P-h_mP$ 的共同 Gauss 范数严格小于 $\|P\|_{\rho_i}$，$|h_m(\xi)|=1$。于是 $v_p((\mathcal M P)(\xi))=v_p(P(\xi))$，包括零余数。对原源特别给
+$$
+\boxed{v_p(\mathscr L_{m,\eta}(\lambda-1))
+=v_p(Z_m(\xi))=v_p(\mathcal B_m(\xi)).}
+$$
+这里没有混同一般不同的两个全分歧域的乘法。
+
+整环等距同构先给三者的 $p$-content 相同。又 $\bar\Phi_\eta=W+O(W^{e+1})$，故对每个 $n\ge0$，
+$$
+\overline{\mathsf D(W^n)}
+ =\bar h_m(0)W^{n+1}+O(W^{n+2}).
+$$
+这里变量位移对 $n>0$ 从 $W^{n+e}$ 才起，$n=0$ 时无位移。由归纳 $\overline{\mathsf D^n1}=\bar h_m(0)^nW^n+O(W^{n+1})$，所以 $\mathfrak C\bmod p$ 保持最低次数。相同位移界给 $\overline{\mathcal M(W^n)}=\bar h_m(0)W^n+O(W^{n+1})$，亦保最低次数。对非零原源，若 $\mu$ 表示系数共同 $p$ 指数，$\lambda$ 表示除 $p^\mu$ 后的首单位次数，则
+$$
+\boxed{\;
+\mu(\mathscr L_{m,\eta})=\mu(\mathcal B_m),\qquad
+\lambda(\mathscr L_{m,\eta})=
+\operatorname{ord}_{W=0}\bigl(\overline{p^{-\mu}\mathcal B_m}\bigr).
+\;}
+$$
+这些是原 $\mathcal B_m$ 的不变量，不能据此把 $\mu=0$ 或 Rubin 函数的 $\lambda_p$ 直接转给它。
+
+## 14. 首层返回原 $E_{17}$ Hall 及 $E_1$ 上的同一 Katz 质量
+
+对首层 $T=T_v,\ r=N(v)\bmod p,\ \epsilon=e_p(-mr),\ x=\epsilon-1$，上式为 $x\mathscr L_{m,\eta}(x)=\xi\mathcal B_m(\xi)$。保持 R696(16)–(17) 的 $w_T$、$G_T=T_g(u_T)$、$\mathcal T_{m,T}$ 和 $v_T$，实际全迹给
+$$
+\boxed{\;
+x\mathscr L_{m,\eta}(x)
+=\frac{K_{m,T}}{d}\mathcal T_{m,T},\qquad
+K_{m,T}=(v_T w_T/G_T)^m\in\mathcal O_{\overline K}^{\times}.
+\;}
+$$
+此处整单位称谓仅指所选 $p$ 位，系数为已选定代数数。确实 $v_p(v_T)=1/(q-1),\ v_p(w_T)=-1/(q-1),\ v_p(G_T)=0$。全部原 Hall 项、轨道质量 $d$ 及根的相位已在式中。
+
+特别在 $m=34$，R703(20) 及 R1067《第一 wild Rubin 偶重数》式(25),(26),(35),(37) 对同一 $N(v)=r$ 给
+$$
+\boxed{\;
+\boldsymbol\mu_H(1)=H_r(0)
+=\frac{\vartheta^6}{\sqrt d}\mathscr S_{p,34}(r)
+=\vartheta^6\sqrt d\
+ \rho_v^{34}e_p(\tau_{34}(v))\,K_{34,T}^{-1}\,
+ x\mathscr L_{34,\eta}(x).
+\;}
+$$
+模型运输保 $\vartheta=17^{1/6}$、原 Miller lift、$\chi_r$ 和单 Hall 的 $d^{-1/2}$。若 lifts 已吸收 $\chi_r$，不再乘一次。R716(36) 的固定实周期和全部非 $p$ Schwartz 向量也原样给
+$$
+\frac{L(\psi\widetilde\eta_{p,r},1)}{\Omega_{\mathbf R}}
+=\frac{48940416}{p}\,
+ \left|d K_{34,T}^{-1} x\mathscr L_{34,\eta}(x)\right|^2 .
+$$
+右边的绝对值在 R716 的同一复嵌入评价刚得到的代数数。真实 Hecke twist 在 $p$ 地为 $\chi_r^2$，而 $x$ 读的是 $\chi_r^{-1}(\eta)$ 的减一；不相认两个 Iwasawa 参数。保持 R303 整基和原 $\gamma$ 时，R1063(I21)对 $t_\nu=\widetilde\eta_{p,r}(\gamma)-1$ 准确给
+$$
+v_p\mathcal A_p(t_\nu)=2v_p(x\mathscr L_{34,\eta}(x)).
+$$
+连同 $(X\mathscr L)'(0)=j_{34}/(d\log_p\eta)$，已把原中央与单 Hall 的同一固定质量放进上述新有界测度的不同取值。首层比较本身不能把较高导子的有限样本当作 Rubin 整基的整个 family，也未将 $\mathscr L$ 的 Iwasawa 不变量认作 $\mathcal A_p$ 的不变量。
+
 ## 来源
 
 - [R663](R663-original-lubin-tate-residues-and-closed-boundary-equivalence.md)：本文所指原来源、坐标、连接或角色规范。
@@ -301,3 +423,6 @@ $$
 - [R710](R710-original-all-order-central-kernel-and-exact-boundary-remainder.md)：本文所指原来源、坐标、连接或角色规范。
 - [R681](R681-original-torsion-gauge-and-finite-algebraic-residues.md)：本文所指原来源、坐标、连接或角色规范。
 - [R716](R716-original-wild-global-theta-period-and-exact-central-l-value.md)：本文所指原来源、坐标、连接或角色规范。
+- [R696](R696-original-absolute-roots-p2-field-and-linear-height-trace.md)：本节原全Hall、Katz质量及首wild Rubin准确归一。
+- [R1063](R1063-original-tame-zero-hall-and-five-layer-miller-return.md)：本节原全Hall、Katz质量及首wild Rubin准确归一。
+- [R1067](R1067-original-first-wild-rubin-even-multiplicity.md)：本节原全Hall、Katz质量及首wild Rubin准确归一。

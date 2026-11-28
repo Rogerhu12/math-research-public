@@ -234,3 +234,11 @@ root逐式手核central_ultra(G1)–(G10)：固定二盖自身smooth Frobenius�
 R1071已实际推43aa0f78e8c495e74fa84e16aaed8c5a661b4fa9，六次非FF均立即实际双pull/rebase后再推，第七次成功；四README无变化。后续双pull先私后公以缩短公开pull至push之间的并发窗口，两库实际拉取、四README检查及每次非FF循环不变。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:20:30 UTC到42dd5bdd71dddddb3ad2ac0cea76bd4bf111e779，私库2026-11-28 10:20:20 UTC到a6fa9e65592f20383ecf4d32695a479d8628e2a5；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3227/46324361B/treefa5b10e4f6ec7cd2c966fe804c3aa0cdc3c8e216，无>5MB。
+
+### 2026-11-28 10:21 UTC：R1070 同原中央整测度及全奇导子
+
+root完整手核geometry_ultra后续v1：Cη与乘g的严格算子差、所有primitive层的有限评价满射/循环性、原非零谱分母、Q_i Eisenstein与cyclotomic整商等距、µλ最低阶保存均从完整原源证明。逐源读R696(17)、R703(20)、R716(36)、R1067(15),(25),(26),(35),(37)和R1063(I21)核首层Hall/Katz/Rubin原归一；另核Sharifi官方讲义§5.2 Mahler/measure对应。全部为手证，无数学执行；高导子period尚未当已付。R1067§§33–34已实推96a11d313b4424b659261659866a1ddb43f8dd0b，私后公实际双pull后首次push成功、四README同blob。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:24:08 UTC到d69bf98e970ab21bae41136db737f98fecc8e2c8，私库2026-11-28 10:23:59 UTC到2d39938db03f4dba75f7e8e9b22ad10d2efae93c；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3228/46345470B/tree6586dc7af8b105ccc6bdbea32d9ad82f29370d66，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 10:24:28 UTC到ba303abd01ea7a07838d8573c01449c710662cce，私库2026-11-28 10:24:22 UTC到e72f35c2bc53f312653cdb443a456a43fefe0ec6；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3228/46345470B/tree6586dc7af8b105ccc6bdbea32d9ad82f29370d66，无>5MB。

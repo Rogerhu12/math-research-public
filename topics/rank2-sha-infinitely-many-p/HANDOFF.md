@@ -11,10 +11,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:20:30 UTC实际pull --rebase，读取main 42dd5bdd71dddddb3ad2ac0cea76bd4bf111e779；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:20:20 UTC实际pull --rebase至a6fa9e65592f20383ecf4d32695a479d8628e2a5；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 10:24:28 UTC实际pull --rebase，读取main ba303abd01ea7a07838d8573c01449c710662cce；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 10:24:22 UTC实际pull --rebase至e72f35c2bc53f312653cdb443a456a43fefe0ec6；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3227/46324361B/treefa5b10e4f6ec7cd2c966fe804c3aa0cdc3c8e216；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3228/46345470B/tree6586dc7af8b105ccc6bdbea32d9ad82f29370d66；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -38,9 +38,10 @@ R1062–66的全部原source/CM除法/Na=17规范、fullh/old/period/Haar/负二
 §32(F1–F16)用物理整晶体W=M⁻¹CM(t^p)归一两底行U=A,V=B/t，保首列除p费用。原h的Serre类/真实trace回(-uL_p,pL_d/u)；E16上Cartier(ds/H²)=ds^(p)及Q_p付完整全局首层。S=W22,G=W21/p的真实微分和δ_R=(R^p−φ*R)/p付全局两/三位代数核；EN保δ²，Ed保δ，F16完整h准确返回。
 **§§33–34(G1–G10)原f本身的同一一阶迹现已付。**固定分歧二盖z²=t直接提升Z=z^p，全水平覆盖及实际多项式平方根窗保原f。单trace一阶恰kγa_pE_N−pb_pE_d,k=1,2，不经fg反推。原B/t在p=12m+e的同一超几何，e=5/11短前缀后全尾恰p²；Ed两位可删，EN三位须保−3p²I_p/2。原共同第二位准确校正−3a_p I_p/γ，前缀及尾未分别赋非零。下一把该全尾作为固定受迫GM来源及完整cusp边界消费，仍保实际f。
 
-## O7 同一原点与边界的新整模型
+## O7 同一原点、全边界及真实整测度
 
-[R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)付原E17同charge的η=A/Ā完整Miller比值、绝对wild相位与真实p项去极迹。Volkenborn极限保原j_m且(Tη−1)Y∞=dlogη·W B_m；完整位移Φη−W∈pWO+W^pO使M=(Tη−1)/W为整个开盘整等距自同构，Y∞=dlogη·Z_m∈pO[[W]],Z=M⁻¹B。全部首层局部jets/所有Q^ℓ及深层真实orbit和已准确返回；无1/p的p项CM迹整像恰QO。头两位仅回R710，j=0只给Z(0)=0，不给Q|B。下一直接构造同来源全wild测度并对原R716/R1067 period，不能把新measure的定义冒作书中原measure。
+[R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)原E17同chargeη=A/Ā的Miller整比/绝对相位付有限p项去极迹、Volkenborn极限和完整M=(Tη−1)/W整等距逆；Y∞=dlogη·Z∈pO[[W]],Z=M⁻¹B，Z(0)=j/(dlogη)。全部首层值/jet/Q^ℓ与深层全orbit返同原B，p项迹整像恰QO；头两位仅回R710，不从j=0推Q|B。
+**§§11–14新付整Cη、全奇导子谱及µ/λ。**CηΣc_nX^n=Σc_n(Tη−1)^n1为整线性等距、保原点、交织X/D；L=Cη⁻¹Z，Cη(XL)=WB。每层全部primitive p^(2i−1)根一重无遗漏，原ℓλ(1)由真实循环性非零，所有orbit相位保留。两个Eisenstein整商等距给每层vL=vZ=vB、µλ保持。首层xL=(v_Tw_T/G_T)^m·T_H/d，完整物理ϑ⁶/√d/χ²接同Katz质量及原A_p(tν)赋值；不相认X与tν。下一高层physical/reference全unit gauge及原Rubin period正在直接比较，不能由新measure名称或有限值免费得到λ_p等式。
 
 ## 原厚点的新完整算法
 
