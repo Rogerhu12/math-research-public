@@ -126,7 +126,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R726](results/R726-spherical-boundary-strong-monotonicity-and-positive-mean-root.md)球面端层已完整证明：急角均值m≥b/4、球冠条件存在/唯一正根、全逆/两角jet及跨机制扰动。显式转向θ替2tan(θ/2)，不推wholeK；未实施，不混25/26或继承旧凸势/校准。
 
-22全137/18家族及完整源参保22note；24同源仅b5/8，原aux12/中央6+6/wholeGauss-partial分明。23全138/19只在原真全步/几何/选中预测达条件时降下一μ，失败×4/metric/顺序/预算保。25全137/19、4pair变133保；原157/7、458/445、5CLI+12external及48live保，加16既有标量位置。初三步74384B、science+pure118548B；22/24同样超过95000，均真自然返后整接完整pure，不减步骤字段。原所有准确费责任保。
+22/24半波宽度、23完整恢复策略、25dk缓存的全源参/原预算/peer/真实边界保各run note和[完整旧open](https://github.com/Rogerhu12/math-research-public/blob/95801769a95b2940b14ad01fe7640581b2c2fb44/topics/visible-flex-larger-amplitude/open.md)。[26全参数5件](computations/fixed-fejer-r725-bhalf-complete-parameter-delivery.json)已刊：从25完整原step逐字可逆派生，157/7词、458/445formal、64live、5CLI+13external原责任齐；同b1/2/δ1/32/两μ.01，源固定ε1/8真变，无23policy/R726/旋转候选。所有超95000的queue仍须自然科学返回后整接完整pure；不删字段/预算，准确费责任保。
 
 [完整续费合同](notes/2026-11-27-normal-fee-continuation-and-downstream-source-path-contracts.md)：N/G首次绝对源路径和whole稳定report/snapshot保，N变SHA另G目录；R723/mesh fresh。packet可trial但须完整report，mutable progress不可。[同源restart](computations/current-bhalf-complete-same-source-restart-delivery.json)需同runner report/13final/全typed史，136+4词/模式/peer/预算保，CLI不继承末μ。
 19–21准确全链已刊；22准确17+mesh18、23准确31完整源参已保护待容量。normal.complete不代连续branch，mean J不代Cu；R709/R722三残差、32stage/1024整圆/922径向+cuts/六jet/全尾/两帽/mixed/allphase及晚失败全待付。R723新五角色不冒旧八；R718 marked与R716 unmarked法管/正V/非零中心不变量独立。旧1782 mesh34/6词与新6047半波各保。同g同参数五t/15science+5preview/三级空间/频率/时间真跑未付。

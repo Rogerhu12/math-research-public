@@ -394,3 +394,7 @@ ret62退15旧index/parts毛338248B，新增完整provenance93697B、note10177B�
 ## 2026-11-28 03:23:25 UTC — 26完整R725科学源码家族直接发表
 
 24全件1259411B：20新runtime1061662B，加57985B完整binding、90817B完整逐字再生、23785B说明及25162B总表。137当前角色18变119保，22runtime包含已刊seed1533deac和observer4b63c9ab；driver e1d3b068/99234B、reader3f7c9861/92783B、normalc3c07e96和helper ef1f6913双pin、Q重建完整epsilon/八cut/12端片/全模型。原均值与校准须实际重做；旧半波/aux12/bubble/lift/外Gauss保。原reader8012B整函数移入原pure binder并保所有成功/失败/partial/38snapshot；driver save_report到EOF21481B/d3396f32原字。生成Node构造未独立执行，原前后全字反演文本已闭；无AST/fixture/新门，不声称实际run/model/点/费。25不改，26参数及启动接续。双README云核至`5acad496dd3057e173ae7febe6a34cca0b382b16`无变（非pull）。
+
+## 2026-11-28 03:23:55 UTC — 26完整参数五件发表
+
+259521B完整5件：binding47684B/5abc72b7、science72545B/fb33c762、pure58721B/29254c1a、再生61463B/726203de、总表19108B/a02d1140。全157/7词、458/445formal、64live及5CLI/13external保；完整25step仅namespace/script/scope改变并已逆回整对象，原old metadata全文件共享，当前137/22为18pair真变119保。新25peer来自实际870e11a/model6f3ae32及原4e37 index/part、640a自有note，final/typed仍未知。ε1/8由新source/model固定，无隐藏CLI数值变化、不继承旧校准/均值，不加23policy/R726/旋转。完整再生读7全JSON父及4全原证据，精确旧blob恢复仅文本；未独立执行Node/科学/AST/fixture。源95801769已刊，完整启动接续。双README云核至`924a65bf59d573e52c8f4623174c15628ec8f7a3`无变（非pull）。
