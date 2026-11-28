@@ -141,11 +141,13 @@ R1166 §19已实消原最高correlation的全部Q·βS：同一even槽βS对称�
 
 [R1154 §§15–17](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)原ξ=P/(a²V)、f=aV给R(H)=[ξp−1]Hf²和完整有限Ramanujan，E2′保6a²ξp−1。四moment准确为h=−[ξp−4]E6、B=a²[ξp−5]E4²、U=−a⁶[ξp−8]E4E6、V=−a²[ξp−6]E4E6；minor=a²(v−3a⁶bu)。Sym¹/²/³唯一多项式逆保全部forcing，四权归四低jet；同Legendre无穷分支仅消无权m3的q项，m3=M30−3Bp−3/8，所以h0下真joint为Bp−3=8(M30+r3−3BνUν)/3，未反除D2。§17带符号A(1,−w)=−P、Aγ=−aξ、Bγ=−a(6+ξE2)；自足Xp=A²X+ACZ/6+C²∂H/6先保H^p再以整数权排除，其流读取a²(6∂H+kξ+ξ²∂ξ)保临界零。全部展开及端点单位沿原文/逐字归档，不替原joint。
 
-[R1161 §§1–11](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全原actual-good Bol/Wilson及P/V/Q_s、η/N_R/κ尺度均付；原差为N_R·2^sδ(2s−1)!/s!乘R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。Cartier、指定2p读取/finite-log误差与四原低jet沿§§8–9，H7截断和joint的3/8项不删。
+[R1161 §§1–12](results/R1161-original-Gaussian-all-row-Bol-Legendre-transport.md)全原actual-good Bol/Wilson及P/V/Q_s、η/N_R/κ尺度均付；原差为N_R·2^sδ(2s−1)!/s!乘R[P^(s−2)Q_s{(V+κηP)^s−(V+κη′P)^s}]。Cartier、指定2p读取/finite-log误差与四原低jet沿§§8–9，H7截断和joint的3/8项不删。
 
 §10实际S_s核Fp P^s，adjoint号(−1)^(s+1)；opposite-parity唯一逆的源为P^(s−2)Q_s−Q_s(0)a⁻ˢw^(p−1−s)，低偶cokernel全保。原centered系数是低jets的单位三角、最高Q_s(0)仍在；这不代mask闭合。
 
-§11真一阶J_j=−PD−(j+2)DP给J_j*Y_c^(j+1)=−(j+1)Y_c^j，同c点值可升至p−1。共同源F_s=A^(s−2)θ^(p−1−s)G_(2s)皆权W=(p−1)²，q系数2n⁻ˢσ_(2s−1)(n)/(2s−1)!（p|n为0），非零且Tℓ特征ℓ⁻ˢ+ℓ^(s−1)=ℓ⁻¹(ℓ^R+ℓ^(1−R))。只取actual-good s构成真实Hecke稳定源，未补mask。原有限Gaussian flow得偶C_s(τ)，τ=ξ²，m=(p−1)/2，Z=a⁴κ²η²=−η²/(12a_G)。完整原差恰−N_Rδ(2s−1)!(Z−Z′)[τ^(m−1)]C_s/(1−(Z+Z′)τ+ZZ′τ²)。故不同允许点共同纤维恰全部good的该余核0，S=0/ZZ′=0与两twist保留。s2 affine单位仍须原出现条件。待付是此余核真正不可能，或真实作用其上的操作；全局Hecke稳定不使Gaussian单点jet核自动稳定，不能横向微分点值。
+§11实际J_j=−PD−(j+2)DP保持同c点值，全部good源F_s=A^(s−2)θ^(p−1−s)G_(2s)同权(p−1)²且Hecke特征ℓ⁻ˢ+ℓ^(s−1)，不补mask。原有限Gaussian flow的偶C_s(τ)，τ=ξ²,m=(p−1)/2，Z=−η²/(12a_G)；完整差−N_Rδ(2s−1)!(Z−Z′)[τ^(m−1)]C_s/(1−(Z+Z′)τ+ZZ′τ²)。S=0、ZZ′=0和两twist全保，s2 affine仍需出现条件。全局稳定不使Gaussian jet核自动稳定。
+
+§12同权companion θ^(p+1−2s)g_(2s)=A^(p+1−2s)θg_(p+1−2s)给r_s=F_s/A^(p−1)=2θ^(s−1)g_(p+1−2s)/((2s−1)!A^s)。其SS极≤s、cusp首q单位，最高极系数含实际g_m不能当Bernoulli常数。未归一Hecke trace恰ℓ^R+ℓ^(1−R)。原两点差=N_Rδ(2s−1)!Res_(w0) r_s dlog(Y_c/Y_c′)，完整finite-log Wronskian仅在此留数删误差。全局sum_(Pα0)res =T_s(c′)−T_s(c)，T_s为全部Y根的实际r_s trace；∞已由degree排，w±1项0，其它SS留数不能删。待付同一actual-good集合的指定Gaussian余核不可能，或真实保该余核的操作。
 
 
 ## O3：固定低权 cohomology 与原 Igusa 投影

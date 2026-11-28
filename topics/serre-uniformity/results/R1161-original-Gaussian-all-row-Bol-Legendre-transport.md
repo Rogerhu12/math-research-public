@@ -1337,3 +1337,283 @@ $\mathcal F_s\mapsto\mathcal C_s$ 的 Gaussian 单点 jet 核
 后继仍须证明 (1161.53) 对不同允许点不可能同时成立，
 或付清一个真正作用于此余核的操作。
 全部为纸面推导，无数学程序执行。
+
+
+## 12. 同一源的超奇异极部、原 Hecke trace 与指定对数留数
+
+本节把 §11 的同权源除以同一个 Hasse 幂，得到实际的
+weight-zero 有理模函数。其极部阶数、Hecke 规范和原两点差的
+留数读取都可完整支付。这没有把全局对应局部化到 Gaussian 点；
+最后列明其它超奇异点在全局留数式中的准确位置。
+
+### 12.1. 全部原行的同权 companion 身份
+
+保留原 $2\le s\le(p-3)/2$，置
+$$
+m_s=p+1-2s,\qquad 4\le m_s\le p-3.
+$$
+仍用 $g_j$、$G_j=2g_j/(j-1)!$ 和 §2 的
+$\mathscr T=A\mathfrak d+\operatorname{wt}(\,\cdot\,)B/12$。
+有准确同权身份
+$$
+\boxed{\qquad
+\mathscr T^{m_s}g_{2s}
+ =A^{m_s}\mathscr Tg_{m_s}.
+\qquad}
+\tag{1161.54}
+$$
+两边的整数权都为 $m_sp+p+1$。
+当 $p\nmid n$ 时，其 Fourier 系数相等是
+$$
+n^{p+1-2s}\sigma_{2s-1}(n)
+ =n\,\sigma_{p-2s}(n)\pmod p;
+$$
+这是将 divisor $d$ 换成 $n/d$，再用
+$n^{p-1}=1$ 的直接结果。
+当 $p\mid n$ 时，两边均为零，常数项也均为零。
+所有 $g$ 的权均在 $4,\ldots,p-3$，故系数 $p$ 整。
+§2 的固定整数权、首 $q$ 系数为单位的三角基因而给 (1161.54)；
+没有用混权 $q$ 展开作单射，也没有反除任何 Bernoulli 数。
+
+由 $\mathfrak dA=B/12$ 和 $\operatorname{wt}A=p-1$，
+准确有 $\mathscr TA=0$。
+对 (1161.54) 再施 $\mathscr T^{s-2}$，
+并乘 (1161.46) 中的 $2A^{s-2}/(2s-1)!$，得到
+$$
+\boxed{\qquad
+\mathcal F_s
+ =\frac{2}{(2s-1)!}\,
+ A^{p-1-s}\mathscr T^{s-1}g_{m_s}.
+\qquad}
+\tag{1161.55}
+$$
+这里 $m_s+s-2=p-1-s$。
+最后的 $\mathscr T^{s-1}g_{m_s}$ 权为 $s(p-1)$，
+所以它和 (1161.46) 的权完全吻合。
+(1161.55) 是同一原源的整幂整除式，不是为各行重选 companion。
+
+### 12.2. 真正的 weight-zero 函数与完整首极系数
+
+定义
+$$
+\boxed{\qquad
+\mathfrak r_s
+ :=\frac{\mathcal F_s}{A^{p-1}}
+ =\frac{2}{(2s-1)!}\,
+   \frac{\mathscr T^{s-1}g_{m_s}}{A^s}.
+\qquad}
+\tag{1161.56}
+$$
+分子、分母权相等，故 $\mathfrak r_s$ 是原 level-one
+模曲线上的有理函数，不依 Hodge frame。
+它只可能在 Hasse 零点有极，每个几何超奇异点的
+stack 局部极阶至多为 $s$。
+这里 Hasse 零点的简单性可沿用 R1135 §14.2 的自足证明：
+在固定非零判别式曲线上，$\partial$ 无零，
+$\partial^2A=(a/3)A$，而 $\operatorname{pole}_O A=(p-1)/2<p$；
+若零阶 $j\ge2$，左边的首项单位 $j(j-1)$ 与右边零阶矛盾。
+这个论证只用 Hasse 身份，不用 R1135 其它函数上的 Bernoulli 分支。
+
+在 cusp，$A(q)=1$，故 $\mathfrak r_s$ 的 $q$ 展开就是
+(1161.47)。特别其零阶恰为一，
+首项为 $2q/(2s-1)!$。
+这给每条 $\mathfrak r_s$ 的非零性，但不支付其某个 Gaussian jet 的非零性。
+
+还可保留每个超奇异点的准确最高极系数。
+模 $A$，第 $j$ 次 $\mathscr T$ 的乘权因子是 $m_s+j$；
+因此
+$$
+\boxed{
+A^s\mathfrak r_s
+ \equiv
+ \frac{2(-1)^{s-1}}{s!}
+ \left(\frac B{12}\right)^{s-1}g_{m_s}
+ \pmod A.
+}
+\tag{1161.57}
+$$
+计算中用的是
+$(m_s)_{s-1}=(-1)^{s-1}(2s-1)!/s!$。
+所有显示阶乘都是单位。
+在 Gaussian 点，奇 $s$ 给 $m_s\equiv2\bmod4$，
+所以 $g_{m_s}(E_4,0)=0$，极阶至少再降一阶。
+偶 $s$ 的最高系数仍须保留原 $g_{m_s}$ 的实际值；
+它不等于该模形式在 cusp 的 Bernoulli 常数。
+
+在 $w$ chart，
+$$
+\mathfrak r_s(w)
+ =\frac{\mathcal F_s(1,-w)}{P(w)^{p-1}}.
+$$
+它为偶函数。其在 Gaussian 局部 $w=0$ 的极阶至多为 $s$，
+奇 $s$ 时至多为 $s-1$。
+对真正 coarse 参数 $w^2$，这给极阶至多 $\lfloor s/2\rfloor$。
+这些界全由同一原源而来。
+
+### 12.3. 无额外 $\ell$ 相位的原 Hecke trace
+
+对素数 $\ell\ne p$，令 $\operatorname{Tr}_\ell$ 表示
+全部 cyclic order-$\ell$ 子群的未归一 trace：
+$$
+(\operatorname{Tr}_\ell r)(E)
+ =\sum_{\substack{C\subset E\\|C|=\ell}}r(E/C),
+$$
+按该对应的实际 multiplicities 求和。
+由于 $r$ 权为零，这里不再选择目标 Hodge frame。
+
+若为比较取 $\phi^*\omega'=\omega$，
+relative Cartier 与 prime-to-$p$ isogeny 的相容性给
+$A(E/C,\omega')=A(E,\omega)$。
+权 $W=(p-1)^2$ 的标准算子是
+$\ell^{-1}$ 乘这个带 differential 的子群和。
+因此 (1161.48) 准确变成
+$$
+\boxed{\qquad
+\operatorname{Tr}_\ell\mathfrak r_s
+ =(\ell^s+\ell^{1-s})\mathfrak r_s
+ =(\ell^R+\ell^{1-R})\mathfrak r_s .
+\qquad}
+\tag{1161.58}
+$$
+最后一式仍同时覆盖原低偶 $R=s$ 与高偶 $R=p-s$。
+也可直接在 Tate curve 核规范：
+未归一 trace 的系数为
+$\ell a_{\ell n}+a_{n/\ell}$，
+而 $\ell^W=1\bmod p$，恰是 $\ell T_W$。
+所以这次除以 Hasse 幂后得到的是真正原角色的 Hecke trace，
+没有另留 $\ell^{-1}$ 或人为缩放。
+
+只取原 $\mathcal S_{\rm good}$ 时，
+$\operatorname{span}\{\mathfrak r_s:s\in\mathcal S_{\rm good}\}$
+仍是这个全局 trace 的稳定空间。
+未出现或非 good 的其它 $s$ 不因此成为观测。
+
+### 12.4. 原两点差的指定 logarithmic residue
+
+以下仍用原 $Y_c=V+cP$，其中 $c=\kappa\eta$；
+$V=W_{\nu-1}-PL_p$ 是已固定的完整有限多项式。
+记 $\operatorname{Res}_0$ 为原 $w=0$ 处函数域微分的留数。
+由
+$$
+\mathscr R(H)=\operatorname{Res}_0\frac{H\,dw}{q\,w^p},
+\qquad
+\frac{P^p}{w^p}=a+O(w^p),
+$$
+以及 $\operatorname{pole}_0\mathfrak r_s\le s<p$，
+(1161.49) 准确给
+$$
+\boxed{\qquad
+\mathfrak M_s(c)
+ =-\frac{s!}{2^s}\,
+   \operatorname{Res}_0
+      \frac{\mathfrak r_s\,dw}{qP Y_c}.
+\qquad}
+\tag{1161.59}
+$$
+误差的零阶至少为 $p$，其余因子的极阶至多 $s+1$，
+所以该误差不能贡献留数。
+$Y_c(0)=a^{-1}$ 保证这里对任意 $c$ 都是同一合法局部读取。
+
+必须保完整有限-log Wronskian。
+在有理函数域中，实际身份是
+$$
+P DV-V DP=-1+P^2w^{p-1},
+$$
+从而
+$$
+\boxed{
+d\log\frac{Y_c}{Y_{c'}}
+ =\frac{(c-c')(1-P^2w^{p-1})}{qY_cY_{c'}}\,dw .
+}
+\tag{1161.60}
+$$
+其中 $P^2w^{p-1}$ 在原点的阶至少为 $p+1$。
+乘 $\mathfrak r_s$ 后，它仍不生留数。
+将 (1161.59) 的两个值相减，于是得到
+$$
+\boxed{
+\begin{aligned}
+\mathfrak M_s(c)-\mathfrak M_s(c')
+ &=\frac{s!}{2^s}
+   \operatorname{Res}_0
+     \left(\mathfrak r_s\,d\log\frac{Y_c}{Y_{c'}}\right),\\
+\Pi_R(t_*^2)-\Pi_R(t_*'^2)
+ &=N_R\delta(2s-1)!
+   \operatorname{Res}_0
+     \left(\mathfrak r_s\,d\log\frac{Y_{\kappa\eta}}
+                                      {Y_{\kappa\eta'}}\right).
+\end{aligned}}
+\tag{1161.61}
+$$
+第一式的号为正；它由
+$Y_{c'}-Y_c=(c'-c)P$ 和 (1161.59) 的负号共同给出。
+第二式保留原 $N_R,\delta$ 全尺度。
+这两式在所需系数扩域上成立，并由原偶性下降到
+$Z=-\eta^2/(12a_{\rm G})$。
+不假设 $c^p=c$，也不删 $Z+Z'=0$ 或 $ZZ'=0$。
+
+和 (1161.52) 对照，(1161.61) 的留数准确等于
+$$
+-(Z-Z')\,[\tau^{m-1}]
+ \frac{\mathcal C_s(\tau)}
+ {1-(Z+Z')\tau+ZZ'\tau^2}.
+$$
+因此是同一个原两点余核的函数域读取，不是另一份任意局部泛函。
+
+### 12.5. 全局留数的其余项不能删除
+
+这个读取还给一份有限、完整的全局关系。
+$P$ 的有限零点都是简单零，且不在 $w=\pm1$；
+由 (1161.60) 前的 Wronskian，在 $P(\alpha)=0$ 处
+$$
+V(\alpha)DP(\alpha)=1.
+$$
+所以全部 $Y_c$ 都不在这些点为零，
+$Y_c/Y_{c'}$ 在那里取值一。
+其 logarithmic differential 虽然正则，
+乘有极的 $\mathfrak r_s$ 后仍可能有非零留数。
+
+对 $c\ne c'$，在代数闭包中按重数记
+$$
+\mathcal T_s(c)=
+ \sum_{Y_c(\zeta)=0}\operatorname{mult}_\zeta(Y_c)\,
+                         \mathfrak r_s(\zeta).
+$$
+每项都有定义，因为 $P$ 与 $Y_c$ 无共同零点。
+这也可按 closed points 写成 residue-field traces；
+不要求 $Y_c$ 的根全部简单。
+
+在无穷远，
+$\deg V=p+\nu-2$、$\deg P=\nu$，
+故 $Y_c/Y_{c'}=1+O(w^{-(p-2)})$。
+另一方面 (1161.56) 的 numerator 权为 $s(p-1)$，
+所以
+$$
+\operatorname{pole}_{\infty}\mathfrak r_s
+ \le \max\!\left\{0,\left\lfloor\frac{s(p-1)}6\right\rfloor-s\nu\right\}
+ \le\left\lfloor\frac{2s}{3}\right\rfloor.
+$$
+于是 $\mathfrak r_s\,d\log(Y_c/Y_{c'})$ 在无穷远不生留数。
+在 $w=\pm1$，$\mathfrak r_s$ 为零，故即使 $Y_c$ 在那里为零，
+所得项也为零。
+有理曲线上的全局留数定理现在准确给
+$$
+\boxed{
+\sum_{P(\alpha)=0}
+ \operatorname{Res}_{w=\alpha}
+    \left(\mathfrak r_s\,d\log\frac{Y_c}{Y_{c'}}\right)
+ =\mathcal T_s(c')-\mathcal T_s(c).
+}
+\tag{1161.62}
+$$
+若在非代数闭底域写本式，各留数亦取相应 field trace。
+
+因此 (1161.61) 的 Gaussian 项只是 (1161.62) 的指定
+$\alpha=0$ 项。其余 Hasse 根处的留数和
+$\mathcal T_s(c')-\mathcal T_s(c)$ 都是实际来源的一部分，
+不能因 (1161.58) 而设为零。
+本节支付 companion 的完整 Hasse 整除、真实 pole/cusp 范围、
+原未归一 Hecke 特征值和指定 logarithmic residue；
+后继仍须在原 good mask 上控制 (1161.61)，
+或付清真正保持该指定余核的操作。
+全部为纸面推导，无数学程序执行。
