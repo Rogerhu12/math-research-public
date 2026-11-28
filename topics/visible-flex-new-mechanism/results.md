@@ -535,3 +535,7 @@
 ## R632真实Hermite原BVP首次公开求解范围
 
 [完整实现](notes/2026-11-28-r632-true-hermite-original-bvp-scope.md)消去独立记忆和动能端，保257维C² shape全部链、三真端+原ruling固定merit、LD规范及固定物理曲线fine。消费206e实际失败及所有费用，发布公开Actions请求；尚无新求根结果。
+
+## R630首次实际参考端口及有限径向分支
+
+[已完Actions结果](notes/2026-11-28-r630-morse-port-actions.md)给50位截断β≈.355319296364837的非零候选；小ν分支虽降半径比却暴露有限左buffer和巨大高度。只作新输入方向，非真尾或非线性/宏观证书；原source/run/成本/输出hash已记。
