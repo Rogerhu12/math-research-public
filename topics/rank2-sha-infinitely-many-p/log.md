@@ -122,3 +122,10 @@ R1067续证§§24–26付原bad的A/T⁴完整非交换Euler，精度p+1+4/(p−
 推前actual双pull：public 2026-11-28 08:29:37 UTC / dbae25e25530ca2f51f64e0f71f04f558b6e7c6f，private 2026-11-28 08:29:46 UTC / 4a285f492ffa1f42166bbc04df72eb0114084381；run46073965457/job140920797448，四README和目标QUEUE不变，log 14887B / ae7048ce41d3c16fe4c84125d9048d139d5241ca411dd355175e67d8686b8af8。
 
 同次收到v15真实终态并由root亲取终日志：3987033B / 9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56。08:10:56首A0完整MD306/d16官方HNF开始，08:24:51 solver137、launcherexit1；未返该HNF/终门PASS，现有证据不判OOM。正按已审v16接替，旧实时快照不作终态解释。
+
+
+## 2026-11-28 08:36:35 UTC — v15终态核验与v16生产启用
+
+v15真实completed/failure：run46112816717/job140879915022，首306×306/d16官方分母HNF开始后未返回，08:24:51 UTC solver137；不以137判OOM。root核完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56，以及两原PASS/69源、9厚纤维支持、11primary、24residue、44operator。现按[完整v16来源与验收](notes/2026-11-28-original-streamed-shadow-production-v16.md)发布同一workflow的逐行返回：74源均核、全P/H/余数/content/每行XMD保留，四选定图加四post-ideal outer，原F_y与全部后门不变。小软件9.9秒不推断306性能，生产尚无PASS。 发布前root与arithmetic分别核74源/request/launcher名字集合及回退diff；35绑定入口/23递归依赖、scalar/projector/旧F_y原块逐字保持。v15不重跑；同concurrency无新heavy。后继实际source/run/job随后据API记录。
+
+推前实际双pull：public 2026-11-28 08:35:32 UTC / 063f515558fb49bb6f356b06e53031e68657fcd0，private 2026-11-28 08:35:37 UTC / 92a9b31caad8ee5b892341fd35aa64b1937c4f6e；run46073965457/job140922238683，四README与08:29同blob，QUEUE目标认领未变，log 14887B / a26e8b72373b0fe2eff6d951c1c205a6fdb0900325a79bc5e44d1628edc96651；库存3216/46001456B、三旧gzip不变。无可重算日志/数学输出入仓。

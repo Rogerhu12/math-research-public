@@ -10,23 +10,23 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140920797448，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 08:29:37 UTC实际partial clone/pull至dbae25e25530ca2f51f64e0f71f04f558b6e7c6f；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 08:29:46 UTC至4a285f492ffa1f42166bbc04df72eb0114084381；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与08:20同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
-- 日志14887B/hashae7048ce41d3c16fe4c84125d9048d139d5241ca411dd355175e67d8686b8af8；库存3216/45980866B/tree496d75f3abd091d2ceda12ae1fbe252d5df2f52b；无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟09:29UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
+readonly run46073965457/job140922238683，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 08:35:32 UTC实际partial clone/pull至063f515558fb49bb6f356b06e53031e68657fcd0；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 08:35:37 UTC至92a9b31caad8ee5b892341fd35aa64b1937c4f6e；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与08:29同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
+- 日志14887B/hasha26e8b72373b0fe2eff6d951c1c205a6fdb0900325a79bc5e44d1628edc96651；库存3216/46001456B/tree938343a27d3fdcb63a38b0d332eed05d986129c9；无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟09:35UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
 - 本地自11月27日07:20失联，最近11月28日08:16实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
-## v13 终态、软件 v2 与实际 v15
+## 厚点终态、软件验收与实际 v16
 
 [完整终态](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)：v13 run46080875647/job140779301767于05:00:05UTC达到21000秒，signal15/exit124。完整终日志6357618B及hash见记录；九scalar厚纤维、108尖点/54分支已返；A0 MD306/d16/det3670重置Hermite末189/306，四交/Norm/18×9等未返。
 [R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)scalar-primary v2真PASS：run46109939554/job140871011216；完整source/结果hash/六对照/五拒绝/旧七组与真实projector见该文，仅软件。
 [同一分母软件/生产](notes/2026-11-28-original-whole-denominator-software-and-production.md)：v1 immutable失败；v2 run46112089371/job140877645107真PASS，七完整图/十拒绝/原F/scalar均过，完整source/hash见原文。仅A0/A1各finite/∞用H/U/CH/XMD，F_y真实旧attached不动；非原几何或306性能。
 
-**v15已真实终止failure：run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962。**root已取完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56。08:10:56UTC首A0 y0完整MD306/d16/exact-prime官方HNF开始，08:24:51 solver137、launcherexit1；无该HNF成功/终门PASS，不判OOM、不称超时。69源/两原PASS及全部旧scalar门保持，旧07:02快照不再作当前状态。已全静审v16准备接唯一heavy，4CPU/16GB/21000秒及全部原门不变；root正完整记录并发布。
+[v15真实终态及v16启用](notes/2026-11-28-original-streamed-shadow-production-v16.md)：v15 run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962已completed/failure；完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56。9厚纤维/11primary/24residue/44operators已返；08:10:56首A0 MD306/d16官方HNF开始，08:24:51 solver137，未成功返回；不判OOM/超时。现发布v16同workflow接唯一heavy，74实际源pin、全部原门、4CPU/16GB/21000秒不变，待实际run/job记录。只流式返回4个原端点图，原F_y仍attached，全部306行/4outer/两ideal保持；无生产PASS。
 
-[原行运算返回](notes/2026-11-28-original-row-operation-right-return.md)、[完整商/content](notes/2026-11-28-original-complete-cyclic-denominator-return.md)及[逐实际来源返回](notes/2026-11-28-original-streamed-denominator-return.md)均真实软件PASS，完整source/run/hash/范围见原记录。最新source4560405b/run46121926002/job140908102059：34源、9全比较/15拒错、4engine+4outer、2原F_y/scalar均过；全P/H/W_i/X_i及两ideal保，无通用U/全C/全YMN。仅软件，不代306性能；未来生产须真实四graph+四outer，v15不改。
+[原行运算返回](notes/2026-11-28-original-row-operation-right-return.md)、[完整商/content](notes/2026-11-28-original-complete-cyclic-denominator-return.md)及[逐实际来源返回](notes/2026-11-28-original-streamed-denominator-return.md)均真实软件PASS，完整source/run/hash/范围见原记录。最新source4560405b/run46121926002/job140908102059：34源、9全比较/15拒错、4engine+4outer、2原F_y/scalar均过；全P/H/W_i/X_i及两ideal保，无通用U/全C/全YMN。仅软件，不代306性能；v16另须全部原生产验收。
 
 ## 已付实际来源及主要缺口
 

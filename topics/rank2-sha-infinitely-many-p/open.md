@@ -141,7 +141,7 @@ v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日�
 
 [原行运算全返回](notes/2026-11-28-original-row-operation-right-return.md)固定18源/420秒软件已实际PASS：run46115906757/job140889570559，结果23db4da527ebb64bc7feb06f8c7d30750bd24de700e653ec8f2200725cde0603；九完整CP/UM/余数比较、十三拒绝与实际Bezout/native全过，未执行原几何或rank306性能。完整Popov商/native循环性条件与D/MD的真实共同content候选保全部nilpotents，实际循环性/content与性能均未宣称，当前v15不改。
 
-[完整Popov商候选](notes/2026-11-28-original-complete-cyclic-denominator-return.md)的固定21源/420秒软件已请求：所有δ标准单项式与Krylov列保幂零厚度，原last vector不cyclic则同M全算法回退；C/U/全原余数、content h^n及全部length恢复。14全比较/17拒错含96维幂零商已实际PASS：run46118066970/job140896222765，结果7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb，21源码hash全核，5.736秒。原v15继续，生产未接新入口；接续须诚实分列原full reducer与实际tail phases，M0下降不冒原M全素。
+[完整Popov商候选](notes/2026-11-28-original-complete-cyclic-denominator-return.md)的固定21源/420秒软件已请求：所有δ标准单项式与Krylov列保幂零厚度，原last vector不cyclic则同M全算法回退；C/U/全原余数、content h^n及全部length恢复。14全比较/17拒错含96维幂零商已实际PASS：run46118066970/job140896222765，结果7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb，21源码hash全核，5.736秒。该软件登记时原v15继续；现已终止并接v16，历史软件本身不代生产；接续须诚实分列原full reducer与实际tail phases，M0下降不冒原M全素。
 
 软件与有限几何均不付主无穷p；旧q5/q11/全NS/Br/MW/Manin输入不重做。
 
@@ -155,7 +155,7 @@ v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日�
 其余全部模型、来源、例外、数学门与失败记录保于开头逐字归档。子问题完成即接下一真实未闭门，达到课题README的完整标准才收尾。
 
 
-O厚点后继：[逐实际来源返回](notes/2026-11-28-original-streamed-denominator-return.md)已完成隔离源码和固定34源小请求，真实P=E MD、全H/全余数、每个W_i/X_i及原两ideal全保。三个大临时产品全部换为逐全部行断言，X本身的输出风险仍有实际guard；原F_y不改。该固定软件已真实PASS：run46121926002/job140908102059，34源、9全比较/15拒错/4真实端点+4outer/2F及scalar均核；结果1ae2efddbb3dec8f17a8a004266efcb8a939db6da1653bb6ae82bc4414f4f55a。仅软件仍不付rank306性能或原全几何门，后继生产必须另付新outer method身份和四outer回执。正在运行的v15保持原来源，收到实际终态才据结果决定生产后继。
+O厚点后继：[逐实际来源返回](notes/2026-11-28-original-streamed-denominator-return.md)已完成隔离源码和固定34源小请求，真实P=E MD、全H/全余数、每个W_i/X_i及原两ideal全保。三个大临时产品全部换为逐全部行断言，X本身的输出风险仍有实际guard；原F_y不改。该固定软件已真实PASS：run46121926002/job140908102059，34源、9全比较/15拒错/4真实端点+4outer/2F及scalar均核；结果1ae2efddbb3dec8f17a8a004266efcb8a939db6da1653bb6ae82bc4414f4f55a。仅软件仍不付rank306性能或原全几何门，后继生产必须另付新outer method身份和四outer回执。v15已真实终止失败；见下列新终态，当前发布v16同输入后继。
 
 
 ### 2026-11-28：固定形式叶的全局费用已付
@@ -171,3 +171,8 @@ R1069§§8–10支付A=[[33,8],[136,33]]的实际sigma/cube刚性化；P=[[1,4],
 ### 2026-11-28：localized Euler 已完成原来源判别
 
 R1067续证§§24–26付原bad的A/T⁴完整非交换Euler，精度p+1+4/(p−1)准确等价原未分歧a₂,a₃∈p²；所有第一wild标签给同一两条件。全native窗增至p+3，保新增−k₁h_Q,2、实际首连接及shifted V₁…V₅，不沿用浅模数消项。ν=1原两CM图/全部Euler给A(q_ac^{du}−1)=C₀17^{−(p−1)u}(J/J₀)²，完整a₃保参考/物理/逆参数；真实semi-linear inversion亦保共轭。全Newton尾给j₂∈p²，localized恰为j₁∈p²且j₁j₂∈p⁵，回同一g₁,g₂两槽，非额外独立forcing。 下一直接研究g₂和原首导数第二位的实质跨p关系，或消费原δ全源返回；不再以多标签、同Euler高层或新增4s累计独立收益。
+
+
+### 2026-11-28 08:36 UTC：v15真实终态与v16接续
+
+v15真实completed/failure：run46112816717/job140879915022，首306×306/d16官方分母HNF开始后未返回，08:24:51 UTC solver137；不以137判OOM。root核完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56，以及两原PASS/69源、9厚纤维支持、11primary、24residue、44operator。现按[完整v16来源与验收](notes/2026-11-28-original-streamed-shadow-production-v16.md)发布同一workflow的逐行返回：74源均核、全P/H/余数/content/每行XMD保留，四选定图加四post-ideal outer，原F_y与全部后门不变。小软件9.9秒不推断306性能，生产尚无PASS。 正在获取新run/job/source，后续只按实际完整返回更新。持续研究主无穷p门。

@@ -488,3 +488,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 
 
 - R1067§§24–26：R1067续证§§24–26付原bad的A/T⁴完整非交换Euler，精度p+1+4/(p−1)准确等价原未分歧a₂,a₃∈p²；所有第一wild标签给同一两条件。全native窗增至p+3，保新增−k₁h_Q,2、实际首连接及shifted V₁…V₅，不沿用浅模数消项。ν=1原两CM图/全部Euler给A(q_ac^{du}−1)=C₀17^{−(p−1)u}(J/J₀)²，完整a₃保参考/物理/逆参数；真实semi-linear inversion亦保共轭。全Newton尾给j₂∈p²，localized恰为j₁∈p²且j₁j₂∈p⁵，回同一g₁,g₂两槽，非额外独立forcing。
+
+
+### 原厚点 v15 终态及 v16 的实际来源范围
+
+v15真实completed/failure：run46112816717/job140879915022，首306×306/d16官方分母HNF开始后未返回，08:24:51 UTC solver137；不以137判OOM。root核完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56，以及两原PASS/69源、9厚纤维支持、11primary、24residue、44operator。现按[完整v16来源与验收](2026-11-28-original-streamed-shadow-production-v16.md)发布同一workflow的逐行返回：74源均核、全P/H/余数/content/每行XMD保留，四选定图加四post-ideal outer，原F_y与全部后门不变。小软件9.9秒不推断306性能，生产尚无PASS。

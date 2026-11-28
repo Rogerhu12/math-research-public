@@ -1,4 +1,4 @@
-name: Rank2 original shadow with exact scalar and denominator returns
+name: Rank2 original shadow with exact scalar and streamed source returns
 on:
   push:
     branches: [main]
@@ -34,6 +34,12 @@ on:
       - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-same-denominator-hermite-shadow.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_scalar_primary_return.py'
       - 'topics/rank2-sha-infinitely-many-p/scripts/original_function_field_denominator_return.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-streamed-denominator-shadow-request.json'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/launch-original-streamed-denominator-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-streamed-denominator-shadow.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_streamed_denominator_return.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_cyclic_denominator_return.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_row_operation_right_return.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -67,4 +73,4 @@ jobs:
           PYTHONDONTWRITEBYTECODE: '1'
         run: |
           set -euo pipefail
-          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-same-denominator-hermite-shadow.py
+          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-streamed-denominator-shadow.py
