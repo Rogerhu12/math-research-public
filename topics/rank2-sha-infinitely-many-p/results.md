@@ -506,3 +506,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### 完整 cyclic/content 软件实际 PASS
 
 [实际回执](notes/2026-11-28-original-complete-cyclic-denominator-return.md#8-实际公开软件回执)：sourceeb0925e9b2cdf34b473dac791c6a1839807e0772/run46118066970/job140896222765，结果7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb；21源全核，14全比较/17拒错含完整96维幂零商、原C/U/余数与全部标量厚度。主体5.736秒；仅固定软件，未执行原rank306几何，不改v15。
+
+
+### R1067 §15：完整 Bell 高差分及含质量二矩行
+
+[R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)（53）–（58）给同一actual Hall的δ_k=µ_H((u−1)^k)，在1≤k≤p−2有vδ_k≥k−(k−1)/(p−1)；完整Bell整数点差分与F_H值群支付阶乘和域下降，连接误差不外推至k=p−1。全部log尾给dotG−(2M1−M2/2−3M0/2)≥3−2/(p−1)，保非零质量，M2精确返a_2Δ−Δℓ_q a_Δ和真实1/p费用。exactHall0才给a_Δ≥3−1/(p−1)及bad联合行，不由中央bad造exact0；尚无无穷p结论。

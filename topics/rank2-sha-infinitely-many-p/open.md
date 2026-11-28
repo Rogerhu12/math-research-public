@@ -74,6 +74,8 @@ R1067§§9–14进一步给physical首jet整界及同一actual整Hall源P_H：�
 
 **R1067§14.1范围收紧：**实际M0/C、M1/C在首挠点的μ_d固定域，其值群1/(p−1)；旧L3/N11与完整Bell尾已无条件给M1−M0∈p，即Uq a_Δ−p a0∈p²。因此exactHall0下(49)和R1068(B25a)的额外p不是相对whole原来源新增forcing，不能拿它重复计收益。继续原p²组合、全部高角和非零高赋值含H0行的实际来源核算。
 
+R1067§15（53）–（58）已付actual δ_k的1≤k≤p−2全Bell差分界及完整含质量二矩行，native M2保ℓ_q的1/p费用。exactHall0分支的a_Δ≥3−1/(p−1)仍不由bad提供；下一核原CM-pair比较标量的真实权依赖与更深同源关系。已发现若干低阶导数门由原Hall自动满足，不能重复计forcing。
+
 ## O原矩阵：同一个高核、全深 Smith 与严格全局收益
 
 [R1051](results/R1051-original-full-depth-gaussian-node-recurrence.md)已付全部物理行的数字折回、完整节点递推、同一 \(P/R\) 的全精度 \(j!C\) 厚核、Hasse–Hermite 等距 PD 代数及全部截断 Smith。回旧基线保准确 \(E(J)\) 损；普通厚理想范围一般至 \((p-3)/2\)，原 S/T 环至 \(p-2\)，不是免费到 \(p-1\)。首 Bockstein 须满足原低核和同一个 \(R\) 的像条件；canonical 的单一加权槽不是乘法理想，不能变成逐节点消失。

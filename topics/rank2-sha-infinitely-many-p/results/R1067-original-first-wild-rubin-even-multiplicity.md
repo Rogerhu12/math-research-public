@@ -1120,3 +1120,169 @@ translated jet 强制。例(51)只说明一般整 $\psi=0$ 对偶没有此结论
 不证明它相对于本题完整来源独立。真正额外的精度仍须检查
 (47)的 $p^2$ 组合或其含 $H_r(0)$ 的完整版本；
 不能把(52)再计为一条独立 canonical 坏条件。
+
+## 15. 完整 Bell 系数给出的高阶差分与含质量的二矩行
+
+本节仍用(36)的同一份完整 Hall 对偶。置
+$s=1/(p-1)$、$\eta=1-s$，并定义
+$$
+ \delta_k:=\boldsymbol\mu_H((u-1)^k)
+      =\sum_{j=0}^k(-1)^{k-j}\binom kj M_j,\qquad k\ge1.
+ \tag{53}
+$$
+这里 $M_0=H_r(0)$ 保留。以下估值来自实际有限 Miller 来源，
+不是把 fractional pointwise 下界无损地穿过一般 Katz 对偶。
+
+### 15.1 原全 Bell 界和有限差分的整数性
+
+[R1062](R1062-original-translated-miller-jets-and-critical-weight-germs.md)
+(G2)--(G5)对同一 physical $z$ 导数证明
+$$
+ \mathcal F_Q(m)=\sum_{\rho\ge0}\binom m\rho a_{Q,\rho},
+ \qquad v_p(a_{Q,\rho})\ge\rho\eta .
+$$
+其证明使用完整未除幂 Bell 多项式的整数系数及极阶帽；
+因此这个界对全部 $\rho$ 成立，未截成
+$\mathcal F_Q\in1+\mathfrak m^{\ge\eta}$ 后再臆推高阶差分。
+N11取 $m=\Delta j$，保实际 cover 和 $p^{-pj}$ 后给
+$$
+ M_j=\frac1{\sqrt d}\sum_Q\widehat B_Q
+                   u_Q^j\mathcal F_Q(\Delta j)-E_j,\qquad
+ E_j=\boldsymbol\mu_H\!\left(
+           u^j\{\mathscr A_{34}(\Delta j;X)-1\}\right)
+       \in p^{p-2}\mathcal O_F .
+ \tag{54}
+$$
+$E_0=0$。N10的整连接界与(38)正是最后一项的依据。
+
+固定 $k$，只在整数 $0\le j\le k$ 计算。写
+$$
+ u_Q^j\mathcal F_Q(\Delta j)
+  =\sum_{\ell,\rho}
+    \binom j\ell\binom{\Delta j}{\rho}
+        (u_Q-1)^\ell a_{Q,\rho}.
+$$
+这个和在这些整数点是有限的：
+$\ell\le k$、$\rho\le\Delta k$ 足够。
+关于 $j$ 的多项式
+$\binom j\ell\binom{\Delta j}{\rho}$ 次数为 $\ell+\rho$。
+其第 $k$ 阶差在 $\ell+\rho<k$ 时严格为零；在其它情形中，
+差是整数，因为每个被相减的整数点值都是整数。
+所以不能因 ordinary polynomial 系数含阶乘分母，再虚增一个
+$v_p(\ell!\rho!)$ 的损失。
+
+由(40)，$v_p(u_Q-1)\ge\eta$。每个剩余项的赋值至少
+$k\eta$。再乘完整 $\widehat B_Q$ 的 $6/\Delta$，并保(54)
+的连接误差，得
+$$
+ v_p(\delta_k)\ge
+       \min\{6/\Delta+k\eta,\ p-2\}.
+$$
+对 $1\le k\le p-2$，第一项严格小于 $p-2$。
+此外，§14.1的下降对每个有限 $j\Delta$ 阶 jet 完全相同：
+该阶在 $\mu_d$ 上的角角色平凡，W22的全连接系数仍在 $L_0$。
+故所有 $M_j/\mathscr C_{34,T}$，从而
+$\delta_k/\mathscr C_{34,T}$，都在同一个 $F_H$。
+原中心是单位，而 $F_H$ 的值群为 $s\mathbf Z$。
+于是准确提升为
+$$
+ \boxed{
+ v_p(\delta_k)\ge
+   \frac{\left\lceil(p-1)(6/\Delta+k\eta)\right\rceil}{p-1}
+   =k-\frac{k-1}{p-1},
+       \qquad 1\le k\le p-2 .
+ }
+ \tag{55}
+$$
+最后等号用 $0<6/(p+1)<1$。特别
+$v_p\delta_1\ge1$、
+$v_p\delta_2\ge2-s$、
+$v_p\delta_3\ge3-2s$。
+
+不能把(55)无代价延到 $k=p-1$：
+此时实际连接误差 $p^{p-2}$ 已不足以给所显示的较强界。
+所有更高项仍使用(39)、(38)的原整 gauge，不作该外推。
+
+### 15.2 保留质量的真实斜率及全部对数尾
+
+定义未除 point 单位的同源 germ
+$$
+ G_r(t):=u_*^{b_Mt}H_r(t)
+       =\boldsymbol\mu_H
+          \!\left(u^{b_Mt}\mathscr A_{34}(Mt;X)\right),
+ \qquad
+ \dot G_r:=G_r'(0)/b_M .
+$$
+这是(41)的实际重写；不是新的 canonical 坏条件。精确求导给
+$\dot G_r=\boldsymbol\mu_H(\log u)
++\Delta\boldsymbol\mu_H(\partial_j\mathscr A_{34}(0;X))$。
+
+对 $3\le k\le p-2$，(55)给
+$v_p(\delta_k/k)\ge k-(k-1)s\ge3-2s$。
+$k=p-1$ 时原整 gauge 给至少 $p-2$；
+所有 $k\ge p$ 由§12.1给至少 $p-3$，且趋于无穷。
+连接导数在 $p^{p-2}$。因此完整无穷尾已经支付，且
+$$
+ \boxed{
+ \begin{aligned}
+ v_p\!\left(\dot G_r-
+       \left(2M_1-\frac12M_2-\frac32M_0\right)\right)
+       &\ge3-2s,\\
+ \dot G_r&=\dot H_r+(\log u_*)M_0 .
+ \end{aligned}}
+ \tag{56}
+$$
+这里的提升用的是(54)的真正 finite jets及同一个 $F_H$；
+并没有声称一般 $\psi=0$ 整对偶也保持(55)。
+
+作为精确零分支的一个后果，(43)、(55)--(56)给
+$$
+ \begin{gathered}
+ H_r(0)=0\ \Longrightarrow\
+    v_pM_1\ge2-s,\qquad v_pa_\Delta\ge3-s,\\
+ H_r(0)=0,\ J_p'(0)=0\ \Longrightarrow\
+    v_p\!\left(2M_1-\frac12M_2\right)\ge2+s .
+ \end{gathered}
+ \tag{57}
+$$
+第二行使用 $3-2s>2+s$。这些结论仍要求真正的 Hall 零；
+原 $J_p'(0)=0$ 单独并不提供这个条件。
+含 $M_0$ 的主分支应使用完整(56)，不能套(57)。
+
+### 15.3 二矩行的原严格参数返回
+
+这一步只换回同一 $P_H$ 的有限系数，不改变来源。
+由 $z(pv-v^q)=pz(v)$，
+$$
+ z(v)=v+\ell_qv^q+O(v^{2q-1}),\qquad
+ \ell_q=\frac1{p^q-p},\qquad
+ v(z)=z-\ell_qz^q+O(z^{2q-1}).
+$$
+因为 $2\Delta=2q-2<2q-1$，在 $P_H(v(z))$ 的
+$z^{2\Delta}$ 槽，唯一新的交叉项来自 $a_\Delta$。所以
+$$
+ \begin{aligned}
+ U_1&=\Delta!/p^{p-1}=U_q,\qquad
+ U_2=(2\Delta)!/p^{2p},\\
+ M_1&=\frac{U_1}{p}a_\Delta,\qquad
+ M_2=U_2(a_{2\Delta}-\Delta\ell_q a_\Delta),\\
+ U_1&\equiv1\pmod p,\qquad U_2\equiv-1\pmod p .
+ \end{aligned}
+$$
+两个 $U_i$ 的估值与剩余类分别由 Legendre 和 Wilson
+公式直接得到。没有 $a_0$ 项，因为常数在复合下仍为常数。
+尤其 $v_p(\ell_q)=-1$，不能删除其费用。将此代入(56)得
+$$
+ \boxed{
+ v_p\!\left[
+  2\dot G_r-
+  \left\{\left(\frac{4U_1}{p}+U_2\Delta\ell_q\right)a_\Delta
+          -U_2a_{2\Delta}-3a_0\right\}
+          \right]\ge3-\frac2{p-1}.
+ }
+ \tag{58}
+$$
+此式精确保同一个完整 Hall、所有 $p^2$ lift、原中心、
+physical $p^{-m}$ 和 $[p]$ 框架。
+它为含质量的更深比较提供明确的有限行，但本节没有将
+$\dot G_r$ 直接认作原 $J'_S$，也没有证明(58)与原坏条件冲突。

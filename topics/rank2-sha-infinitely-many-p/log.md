@@ -473,3 +473,10 @@ actual双pull run46073965457/job140893900600：公开06:35:29UTC至e52a1f9d5f54d
 sourceeb0925e9b2cdf34b473dac791c6a1839807e0772/run46118066970/job140896222765于06:46:10.8243003UTC实际PASS、job success。root/arithmetic独立读取完整日志，root逐字核21源与selector/request；14全矩阵比较、17拒错均过，原96维幂零商实rank96、完整C/U/余数/content厚度及同M回退均返。主体5.736460063999985秒；payload188765B/hash7c1504a43a9a52ea0dc8251dfd6a2387082dfbd284f697d095f88e235e58bdeb，日志344788B/hashf7986069f5116c13f8f72b158e708cabf5eb16d56bda12359ba2afa668e7b3ae。仅软件，无原几何或306/3670性能，不改v15；后继诚实分列旧full reducer是否调用与实际tail phases。
 
 actual双pull run46073965457/job140896631806：公开2026-11-28 06:47:01 UTC至e99ff0e17bbd6aabe8bcddd2711efa661635b5e0，私库2026-11-28 06:47:06 UTC至97d4020a076aefb4197fde28609ba22105b7afca；四README/QUEUE/三旧gzip同blob，本题认领不变。日志14887B/hash0a9a004e184b7024309585d1fcda57126d6275f84027f457969fd13b90390383，库存3208/45658099B/tree020c1867df81a296165b181d025c43a7d56e63ab。R1067完整Bell高差分及含质量行已手核完成，接着推该证明；主目标继续。
+
+
+## 2026-11-28 06:52 UTC — R1067 全 Bell 高差分与含质量二矩
+
+原R1067追加§15（53）–（58）。root/geometry全文核R1062(G2–G5)全Bell、整数点差分杀低度和余整数性、每有限Δj的F_H下降，得δ_k≥k−(k−1)/(p−1)，1≤k≤p−2；连接p^(p−2)保准确上限。全无穷log尾给dotG−(2M1−M2/2−3M0/2)≥3−2/(p−1)，原M2严格坐标返a_2Δ−Δℓ_q a_Δ，vℓ_q=−1及两个Wilson单位皆保。exact0的a_Δ≥3−1/(p−1)只作零分支后果，不作bad主门；随后几何已识别浅层自动相消，继续更深而不包装成突破。整文49395B/hash6fd47fbf8e053531ac7b2d7cfd02fec58939069fc889099c37de77d45a0d3c29；追加5591B/hash976bdd28860d06e14423850cf56e85fe0ecfe536bd3e8a20154eca108b82d1d3。纯手证无本地数学计算。
+
+actual双pull run46073965457/job140897168980：公开2026-11-28 06:49:25 UTC至798c6aafe8d4761e051a64b74987d9049eb2bd63，私库2026-11-28 06:49:29 UTC至94c4b6e535b3929bb8e57b8974c6c71b7bafa655；四README/QUEUE/三旧gzip同blob，认领不变。日志14887B/hashf77b6efcbfc9439aacbb17aeb8f475e5a3f2b06c6ca2d8e3e826d453a42cd4eb，库存3208/45662413B/tree9b8f1e8493b82503c7f186ca96fbcf12045c4e70，无>5MB。cyclic/content真PASS回执已推9b0b665ccf080e7528ad9d711ab0344b29c15082；v15于06:50:10UTC仍step4 in_progress，无原数学终态。H旧R1062–66仅压缩接续文字，全部证明与精确旧边界仍在open/索引/归档。
