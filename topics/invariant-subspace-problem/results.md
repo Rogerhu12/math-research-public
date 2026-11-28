@@ -28,6 +28,8 @@
 
 ## 新增结论
 
+- [R150：W/b0正k的e首值负一全分层原排除](results/R150-appendix-unit211-W-b0-positive-k-e-minus-one-complete-original-valuation-exclusion.md)：vu与vk全部比例、μ零/整值/各极点均由原q2/R6/N5覆盖，最后Z=bar(kμ)须同时满足R6三次及Z=−4/−16，矛盾。结合一般中心与E1论文关闭整个正k射线；仅余其它四ray和内部/整权模型，不宣全W空性。
+
 - [R150：W/b0正k的e首值一中心由原D/M身份排除](results/R150-appendix-unit211-W-b0-positive-k-e-one-center-original-D-over-M-exclusion.md)：原q2直接给D=M[A*A2−ellQ(3−4λ)]/(4uQδell)，分母旧已付。E1时S首值3/8、γ=vM>−a，vK=−2a；R6两项γ−4a与3γ−2a严格不同，所有M高阶相消皆含，无新计算。
 
 - [R150：W/b0正k射线仅余e首值±1的完整原值证明](results/R150-appendix-unit211-W-b0-positive-k-ray-only-e-plus-minus-one-original-centers.md)：原b0/q2先付λ剩余中心，R6必要二次P(E)=27E²−103E−22；完整NV的f常数系数N5及原尺度使最低项−224U⁵(E+5)为零，与P(−5)=159矛盾。保E±1，不将N5当物理f0，无新运行。
