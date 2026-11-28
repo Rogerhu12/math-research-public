@@ -7,6 +7,8 @@
 
 ## 新增结论
 
+- [R298：实际 432 场与完整新帽的全点对 reach](results/R298-actual-entire-432-core-and-fixed-caps-complete-reach.md)（2026-11-28）：1263616 个材料闭盒的全部点对未决零，整闭 reach≥.095，reach/D≥475/15822>.03；同场两强形变与固定握持均已付，度量精度继续。
+
 - [R297：真实出口与全部 128 物理格的连续主曲率](results/R297-actual-432-entire-true-core-continuous-principal-curvature.md)（2026-11-28）：R297真实Γ95出口含弧逆与母线相移，九端差付清；全部128物理格/全部材料角正定性外包+R267，整核及新帽所有相位|κ|<10.41，远层非局部仍另付。
 
 - [R296：实际 432 场的完整新帽、直径与两强比例](results/R296-actual-432-higher-cap-strong-distances-and-sharper-diameter.md)（2026-11-28）：R296 真432与整R293帽，近2500万闭盒及真实帽角点给D≤3.1644，δheld/D>.20607856、δE/D>.05255245；完整法管与同g精度另付。

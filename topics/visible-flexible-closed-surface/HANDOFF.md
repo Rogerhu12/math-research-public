@@ -26,7 +26,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-target-curvature --> [R287](results/R287-actual-full-gap-stadium-H65-prefix-and-continuous-truncations.md)真p32全部64径格/H65/准确Γ95，完整前缀全部.02≤L≤.06截取reach≥.098，原.02≥.108、κ<9.195522；承接R281/R283。
 
-<!-- 2ecf-live-g10 --> [R296](results/R296-actual-432-higher-cap-strong-distances-and-sharper-diameter.md) 两强比例和 [R297](results/R297-actual-432-entire-true-core-continuous-principal-curvature.md) 全κ<10.41已付；R298全点对覆盖正分块继续。完整4305独立cos/sin XYZ，原及新冻结g各自5步；G11 .14911668/κ10.06415与.14216929/κ10.16427，新g末带κ10.44108。 [新记录](notes/2026-11-28-2ecf-full-real-angle-4305-physical-position-steps-on-two-frozen-metrics.md)。
+<!-- 2ecf-live-g10 --> [R298](results/R298-actual-entire-432-core-and-fixed-caps-complete-reach.md) 同一真实432场全点对已付：整闭嵌入、reach≥.095、D≤3.1644；与R296/R297同时满足两强形变和固定H。原g G11误差.1529865061，强精度未完成；4305→10437实位置及新g继续，不能移用旧场证书。
 
 <!-- 2ecf-R271-components --> [R288](results/R288-independent-orthogonal-developable-wings-and-two-true-terminal-directions.md)长短两真端方向独立、完整三分量reach≥.097；R273/R282旧尾仍可用。两完整连接的新metric/法管均另付。
 
@@ -56,4 +56,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 13:40:20 UTC；已读main `f3beb55cc95d91472398c5874225a7824737893f`，根README较上一锚无变化；基础完成/强比例继续QUEUE已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:15:27 UTC；已读公开 main `33903089f2ac51aac852c3c51c257035a6f77271`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 14:22:05 UTC；已读公开 main `59bdc540c392b6985a042294bf68cfc18aa3dc3f`，根/课题 README 逐差无变化。

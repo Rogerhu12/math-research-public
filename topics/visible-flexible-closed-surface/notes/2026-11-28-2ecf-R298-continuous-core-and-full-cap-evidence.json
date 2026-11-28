@@ -1,0 +1,71 @@
+{
+  "schema": "R298-continuous-entire-core-and-fixed-cap-geometry",
+  "boxes": {
+    "schema": "actual-complete-released-core-material-pair-boxes-v2",
+    "entrySHA256": "2cb3ee3008ac5291079bad2ff031e789d6badb0b0083005e6fb5ad27a6162c16",
+    "fieldSHA256": "eebfc624be640eb288c7c3949a8a274cb98d3cdbdaf02660f193250b63a2195f",
+    "stateSHA256": "3c1cffcf3225917d49d0524ec2281344df361753789e12ef1c711531682fa448",
+    "spatialSHA256": "e66355e8fdccd0222e4e1ea7de1a901bd2b2709eb4266c113258cee46811bb0d",
+    "trueEndpointSHA256": "eb46784a2974255971926453497c2a78f1fe4033f24ae2db54e6aca98acc055e",
+    "directedSourceSHA256": "1c56db323d9419eb1f6aeb11611fd8858add0991d9dfc39a31094dd0c341eff0",
+    "radius": "19/200",
+    "curvature": "1041/100",
+    "shortPathSquare": "98596/1083681",
+    "angularSectors": 1024,
+    "gramAngularSectors": 4096,
+    "radialRows": 1234,
+    "physicalClosedBoxes": 1263616,
+    "radialDepth": 2,
+    "prefixRows": 16,
+    "flatRows": 16,
+    "ellipseMidpointPanels": 4096,
+    "completeBoxFileSHA256": "9193a4c2726195b8d32635806352395cb42cad2a814b30e91817277ee2636d5c",
+    "completeBoxFileBytes": 60729304,
+    "requiresActualWholeCurvatureProof": true,
+    "consumesR267TruePrefix": true,
+    "firstExactCharacteristicTraceIncluded": true,
+    "exactCuffHeight": "216172782113783809/450359962737049600",
+    "exactFlatJoinRadius": "4503599627370497/11258999068426240",
+    "maximumUpperGram": [
+      1.1069755554199219,
+      1.323725700378418,
+      0.09482192993164062
+    ],
+    "seconds": 11.162113228001544
+  },
+  "integerCover": {
+    "schema": "complete-material-pair-integer-cover-v2",
+    "allMaterialPairsCovered": true,
+    "pairVisits": 2502300,
+    "unresolvedPairs": 0,
+    "physicalClosedBoxes": 1263616,
+    "treeNodes": 178835,
+    "countsKnownPrefixFlatFarShort": [
+      3496,
+      6232,
+      799097,
+      442727
+    ],
+    "shortPathIntegerRightHandSide": "113673448668216684445696",
+    "firstUnresolved": [],
+    "seconds": 0.226593
+  },
+  "entrySHA256": "2cb3ee3008ac5291079bad2ff031e789d6badb0b0083005e6fb5ad27a6162c16",
+  "integerSourceSHA256": "96a07ea31f619d3ff84375e4d8cd997e2a928780a5b665fffb34a588be55ad20",
+  "integerBinarySHA256": "d2bba792fe020f30eb9b79d399d1b547b2d8b4c3e08efd8577602a017336d011",
+  "prefixRampSHA256": "6f06a6a54577e81b08d4e46339d457506a211da8a4d1eb2a25bc0191bf4234a1",
+  "integerReportSHA256": "5cabb64f64f2731058fc60947447963195b4a23d1701129de386c05af75f7482",
+  "coreReachLower": "19/200",
+  "wholeClosedReachLower": "19/200",
+  "wholeDiameterUpper": "7911/2500",
+  "reachDiameterLower": "475/15822",
+  "capGluingMargin": "87/40000",
+  "strongMetricProved": false,
+  "requiresR296AndR297": true,
+  "coarsePythonAttempt": {
+    "quarterAngles": 128,
+    "gramQuarterAngles": 128,
+    "exitCode": 137,
+    "noProofClaimed": true
+  }
+}
