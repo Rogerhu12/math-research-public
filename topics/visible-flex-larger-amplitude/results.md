@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R743（已证明，含反射的欧氏商判据及机制上界）**：[三固定标记、完整体矩与刚体商幅度](results/R743-three-fixed-markers-rigid-quotient-and-centred-body-moment.md) — 对实际闭嵌入全像，中心极矩给Jπ−J0=4CxBx/V，37只需同点完整Cx排零；另一条允许三大接缝的C³非C⁴整圆判据锁定全部E(3)。同旋转未标像/固定小图机制恒有δE≤hmax，故37理想场δE/D≤1e−5。均为条件证明，当前候选的全闭几何、真held和严谨Cx还须支付，微小商距不冒宏观去刚体变形。
+
 - **R742（已证明并已实际全域采样，倾镜闭初场与物理柄）**：[完整倾镜闭合、两端jet与真实转向缺口](results/R742-tilted-closed-shoulders-variable-physical-handles-and-original-two-jets.md) — 两有限γ及左柄0… .14保闭C²嵌入、D<2.64/held≥.557/grip≥.60/δE>0与触握盘.08球；原小柄有严格K>20。原13设计三层[完整实测](notes/r742-actual-two-jet-46143141044-1.json)已全返，左峰降至10.7892/12.1460但右峰2090.2433/1789.5809未变；publisher缺目录故障由原完整日志恢复，无科学重跑。中肩同g与全reach仍待解。
 
 - **R741（已证明，完整环叶规范与自由径向的同g方程）**：[真弧长角、Killing场与固定Haar度量](results/R741-angle-arclength-and-free-radial-Killing-field-equations.md) — 完整两角方程E⊥径向/B=0、三Gram、双端二jet和全部正反变分；允许径向重标的Killing残差对全时固定目标给(1+δ)e^{Tε}−1。反射且W>0时无径向holonomy，周期归一得真圆作用，Haar平均定义一个精确固定g*，后继同g*缺陷δ对每相位不放大。均为明确条件定理，不保证实际解或reach；37用固定环叶法，38继续真实自由径向求解。

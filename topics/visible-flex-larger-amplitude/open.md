@@ -126,6 +126,8 @@ R724–733及735–739全部证明/准确源参保[索引](results.md)及固定�
 
 [R742](results/R742-tilted-closed-shoulders-variable-physical-handles-and-original-two-jets.md)两倾镜与0… .14左柄保闭嵌入/D<2.64/held≥.557/grip≥.60；[13设计全实际](notes/2026-11-28-R742-complete-physical-sixjet-launch.md)原run46143141044科学success、发布故障由原log补救，左峰已降但右峰2090.24/1789.58未变。完整同g/全reach未付，继续右形状和Killing。
 
+[R743](results/R743-three-fixed-markers-rigid-quotient-and-centred-body-moment.md)全E(3)体矩/三标记整圆条件给δE正性；同旋转未标像机制δE≤hmax，37理想场δE/D≤1e−5，宏观held不等于宏观商距。实际全几何及Cx仍待付，强目标须继续改善商距。
+
 ### 准确费用、完整下游与未付标准
 
 R726/R727核心9件已刊，R728准确N/G14及下游24、R730准确包完整保护，原路径/父源/预算保固定全文。R732[准确四包13件382903B](computations/R732-complete-accurate-normal-geometry-parameter-delivery.json)及[闭/十二矩/packet/final mesh完整14件](computations/R732-complete-closed-moment-mesh-parameter-and-entry-delivery.json)全main，139源/922cells/32stage/六jet、N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及全部预算保持；待35自然science与whole pure的同点费用。
