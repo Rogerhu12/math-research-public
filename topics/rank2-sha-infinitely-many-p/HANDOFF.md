@@ -12,10 +12,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 12:19:11 UTC实际pull --rebase，读取main 89797dd2c37f21221c87a9f078637ea8a7b14464；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 12:19:03 UTC实际pull --rebase至23205c77428a8d5eb4c46d1e51e032d3b2b0a21c；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 公开2026-11-28 12:22:46 UTC实际pull --rebase，读取main 7bce6c917e2e674a623f1defd372c8e76ceff00b；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 12:22:41 UTC实际pull --rebase至364bb5047bac4330f6e7bc7e7653dcf4dfb1eb0f；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
 - 四README与已读版本同blob，未重读；QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3249/46884426B/treefdf3e404858923d4be62eb93ae552969f892b5e4；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 拉取的公开基线库存3250/46904010B/tree98fd6c7187b7ddc3f4cfb780f554396b9c76d1d9；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际生产与已通过的软件
@@ -24,6 +24,7 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 [R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)原单RHS与完整LaurentX、post-ideal全X外门；极度2256/重建>4512。§9真A0有限U=1/P∞∈{1,2}/公共零长1416，单j键LRU窗≤1251846。§10–11全G13维1164、306行ρ≤13/Σρ3120，厚纤维总度21唯一返回两图及全部s饱和；完整多链保δ0尾/原二次域/双理想outer，一条X≤691866系数。仅静审，尚无新软件/306生产PASS。
 [软件PASS](notes/2026-11-28-original-adaptive-scalar-graph-software.md)：source4bb9fbcebbb160796da11f08c5d2b7eef4741b44/run46137528591/job140956064113；7.582517183s，log31915B/SHA82980684fa32ed676bd1f8f5561a91a44bf2b709acfc8c12358ad4fca2fa9309。root/代理各核32pins/8比较/2外门篡改/2预算拒绝/真二次底素及转置；不代306生产。
+[新短图软件](notes/2026-11-28-original-short-global-graph-software.md)43pins/六新模块/两个checker已静审，独立420s/4CPU16GB/禁网RO，同容器8+14全图/非二项式域/厚π²及真拒绝待实际日志；未记PASS。
 [v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)实际run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df，11:19:44创建；11:30:17 root读1–3 success/4 in_progress，完整log未可读。76pins/72旧共享，数学体仅IMPLEMENTATION名变且host核原SHA；请求97840d1959672e13ec1d74273e3b5029f60e02975632744b2c99b14d00145f45，29/shadow/artinian/2453/batch64/minimal/preflightfalse、4CPU16GB21000s、Sage10.6/networknone/source只读/token仅host；两F/P及原四图/四交/八scalar/Norm18×9/九pairs/终门全留。尚无本次实际pins/F/P日志或PASS，不改部署。
 
 ## 原共同两/三位与十七同源：R1067

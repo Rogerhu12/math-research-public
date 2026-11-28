@@ -39,3 +39,13 @@ root核完整Kronecker余类和的共轭/周期方向、Mζ−ζ(Mz)在真挠点
 root亲读R290(16)、R292(1)–(9)、R302(16)–(19)及原水平框架(11)，逐项核17相位、2处奇偶、共同Gaussian及九个标量；手核实际ω矩阵/三个轨道、乘子环/未标记中心、Schur–Vandermonde独立性和R301完整解析半径。三分支读者线性恒等，不冒充各自原Selmer身份。上一R1073实下降已实推e6cd6b05d6a2b8baf2b9a5c55fac9af1b2d964bb（12:17:48 UTC），一次非FF立即双pull/rebase，四README未变。H再次逐字归档后简化旧重复说明；无本地数学执行。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:19:11 UTC到89797dd2c37f21221c87a9f078637ea8a7b14464，私库2026-11-28 12:19:03 UTC到23205c77428a8d5eb4c46d1e51e032d3b2b0a21c；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3249/46884426B/treefdf3e404858923d4be62eb93ae552969f892b5e4，无>5MB。
+
+## 2026-11-28 12:21:54 UTC — R1071 原短图与多链的公开小软件来源
+
+root完成六主模块及两checker/host/workflow静审，并独立字节核43源pins/AST/import闭包、请求canonical SHA、YAML及bash语法。真实非二项式二次域、全29线性坏中心后的π²、两厚度篡改/两反图篡改/两post-ideal高次X/两整子图均明确为待执行条件，不预填PASS。实际两库Actions计数低于20，独立小软件组不匹配v17路径；只推新11代码路径和本次协议，原heavy来源全不改。无本地数学执行。上一九同源结论已实推20c469fcaca91e61b68ba7b9bccd6464e2a2cf38（12:19:17 UTC）。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 12:22:14 UTC到f1f16aff492595a56091b61a804a7f41d5ff54ad，私库2026-11-28 12:22:02 UTC到33b5421147aed0590e9a7121ef8b60cb5b37f8a5；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3250/46904010B/tree98fd6c7187b7ddc3f4cfb780f554396b9c76d1d9，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 12:22:29 UTC到0d2544f7cef1df5cc21b877efb61c7f46ca18403，私库2026-11-28 12:22:24 UTC到c59a2e57c3394e6d9ef11e3efabf84510450e676；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3250/46904010B/tree98fd6c7187b7ddc3f4cfb780f554396b9c76d1d9，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 12:22:46 UTC到7bce6c917e2e674a623f1defd372c8e76ceff00b，私库2026-11-28 12:22:41 UTC到364bb5047bac4330f6e7bc7e7653dcf4dfb1eb0f；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3250/46904010B/tree98fd6c7187b7ddc3f4cfb780f554396b9c76d1d9，无>5MB。
