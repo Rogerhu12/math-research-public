@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GAF：全负域两真Airy状态行的全频物理范数](results/R149-supplement-all-frequency-two-ray-physical-bound-for-both-genuine-Airy-rows.md)：同r真光学范围比≤81，整负域−T≥min(5ρ/2,1/20)；AHD正Laplace矩给解调幅对数变差1/2、5/8。保原两列Z与两真相位，任意全输入集高度/导数÷n完整物理L2费≤36bN/160bN，普通dr L2<40N−1/6/176N−1/6；均值低泄漏全保，其他源与负阶仍另付。
+
 - [ASQ12：正i全safe模式的原物理腰square](results/R149-supplement-all-positive-i-safe-modes-in-the-physical-waist-square.md)：真density逆在L2/dotH−1均<1.11；原逆lift解析误差前置，完整P97D<.288。全部safe坐标误差<4/5，真物理项系数<11/50；Cphys97≤3/4时整safe块同时可逆，只余原96+实际异常和完整物理border。所有输入/输出cross、Θ/两mean/height保，物理门和有限逆待实付。
 
 - [OHR：真实两列强Robin及全部独立正侧回边](results/R149-supplement-strong-physical-outer-residuals-and-complete-independent-right-hand-sides.md)：同selected真实物理H1/6 Robin两列<1e−14/1.21e−11，全high普通L2<8e−13/1.51e−9；同一完整高particular的low体源<7.051e−8/2.958e−5、weighted right97<9e−15/6.31e−11。19whole/34新有理比较实际全过，known负窗部分<1.769e−5；root/height/mean全未知仍保。

@@ -153,3 +153,6 @@
 
 
 2026-11-28 10:57:20 UTC / visible-exact-astra-b0d5a16-20261128：ASQ12。真density逆在L2/dotH−1均<1.11；原逆lift解析误差前置，完整P97D<.288。全部safe坐标误差<4/5，真物理项系数<11/50；Cphys97≤3/4时整safe块同时可逆，只余原96+实际异常和完整物理border。所有输入/输出cross、Θ/两mean/height保，物理门和有限逆待实付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-all-positive-i-safe-modes-in-the-physical-waist-square.md","bytes":10003,"sha256":"600d29ecbd9fdc0ee1271280edb0e7e3d53def8a5d021127246c9debaa434876"}]。
+
+
+2026-11-28 10:57:34 UTC / visible-exact-astra-b0d5a16-20261128：GAF。同r真光学范围比≤81，整负域−T≥min(5ρ/2,1/20)；AHD正Laplace矩给解调幅对数变差1/2、5/8。保原两列Z与两真相位，任意全输入集高度/导数÷n完整物理L2费≤36bN/160bN，普通dr L2<40N−1/6/176N−1/6；均值低泄漏全保，其他源与负阶仍另付。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-all-frequency-two-ray-physical-bound-for-both-genuine-Airy-rows.md","bytes":5756,"sha256":"fcc7a1f89447bb1d6e6c7ea0013a1962d4e61cccb15e6048e45ec99ebdf7e925"}]。
