@@ -48,7 +48,7 @@ R732准确13件382903B现main：[完整N/G参数及四包](computations/R732-com
 
 <!-- visible-larger-parallel-33:start -->
 Actions33：[run 46133839513/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46133839513)；[全阶段记录](notes/2026-11-28-public-actions-46133839513-1.md)。running；已返2，exit=未返。
-并行33规则核查：2026-11-28 12:21:22 UTC，真实pull至`0dc36064fde013c907aadd40928a9161c6d80915`，双README无变化。
+并行33规则核查：2026-11-28 12:26:22 UTC，真实pull至`00287a7be01cf31f0984b42e7e05e7da4f493323`，双README无变化。
 <!-- visible-larger-parallel-33:end -->
 
 <!-- visible-larger-parallel-34:start -->
