@@ -1,17 +1,15 @@
 {
-  "message": "ISP: prove original odd NP sextic norms; first same-sigma Phi cross input",
-  "parentCommit": "e0d45e6892186fdd00baca02dadc42e3d2285aca",
+  "message": "ISP: record actual eleven-source W initial returns and lambda residue center",
+  "parentCommit": "e75eee47f9eeadc445371261f43c998f6baf5b3d",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-general-original-odd-NP-two-direct-sextic-norms.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-same-sigma-odd-NP-full-NV-crosses-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-same-sigma-odd-NP-full-NV-crosses-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-phi-same-sigma-odd-np-nv-crosses.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-oddNPnorms-Phi-crosses-2015-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-oddNPnorms-Phi-crosses-2015-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-eleven-original-initials-and-lambda-three-halves-residue-center.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-negative-e-full-I11-original-initial-two-positive-targets-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-W-lambda-residue-center-2020-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-W-lambda-residue-center-2020-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-same-sigma-odd-np-nv-crosses.yml"
-  ]
+  "dispatchWorkflows": []
 }
