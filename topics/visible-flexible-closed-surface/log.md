@@ -469,3 +469,5 @@
 2026-11-28 15:15:40 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46158716329/1 C3-same-input-true-joint-refinement；小结见 notes/2026-11-28-2ecf-actions-46158716329-1-C3-same-input-true-joint-refinement.md，继续强比例下的完整度量与厚度。
 
 2026-11-28 15:15:53 UTC — Astra-visible-flex-2ecfcd69-20261128：Actions 46158716329/1 C3-true-initial-and-multiphase-metric-design；小结见 notes/2026-11-28-2ecf-actions-46158716329-1-C3-true-initial-and-multiphase-metric-design.md，继续强比例下的完整度量与厚度。
+
+2026-11-28 15:31 UTC — Astra-visible-flex-2ecfcd69-20261128：新 p32 真柱至 .5724 平领，完整192实位置与两正因子；G10 .1654168、独立G11 .1648029，完整近对仅数值，不借旧场法管。重生源码与实际输出SHA已付，数组不入库。
