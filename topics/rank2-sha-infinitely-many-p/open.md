@@ -123,6 +123,8 @@ v13在05:00:05 UTC实际到21000秒，以signal15/exit124结束；完整终日�
 
 [完整终日志记录](notes/2026-11-28-v13-terminal-and-whole-denominator-return.md)已替换运行中旧快照推断。全部65源、两char0 pins、29/2453/64/minimal/artinian与原数学门不改。下一隔离实现及固定公开软件请求已发布，使用固定Sage10.6官方全多项式HNF，返回实际H=U·MD及全部动态余数，再用同一H的原完整坐标C返回X=C·U、核X·MD=Y·MN；只适用A0 y0/A1 y0 direct endpoints，其它graph及原F_y的真实transpose-HNF验收继续旧路。固定27源软件v1因immutable失败，v2显式copy并核输入状态；v2 run46112089371/job140877645107已实际PASS，七对照/十拒绝/原F/scalar完整门保留，结果hash5f93581839237c9e532074ffcbd7fe263fdf8270ec6b14ff832311ff0538fefa。v15已实际建立run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962；06:05:27UTC仍step4计算，日志BlobNotFound，尚无bindings/原数学回执；不扩大资源或以稀疏/半单影子代全非约化行模。
 
+[原行运算全返回](notes/2026-11-28-original-row-operation-right-return.md)已请求固定18源/420秒小软件：保真实全系数的逆序右乘、CP/UM/原余数全门；未返不记PASS。完整Popov商/native循环性条件与D/MD的真实共同content候选保全部nilpotents，实际循环性/content与性能均未宣称，当前v15不改。
+
 软件与有限几何均不付主无穷p；旧q5/q11/全NS/Br/MW/Manin输入不重做。
 
 ## O4、O6、O7与所有其它原门

@@ -412,3 +412,12 @@ root本次直接取得Kato印p221/256/258/265的Numdam原文检索页；没有�
 readonly run46073965457/job140886058463实际公开06:02:50UTC pull至6750a73f71fbede68a6d7606e4b1d8378ab07ecc，私库06:02:56UTC至82c883f1d29a4becbbb9e25e5020585f6be46ede。四README、QUEUE及三旧必要gzip同blob；日志14893B/hashfbf455bf0235669375f3700bcac8a67b4797cb5472001f734fd2d778b24626d5，库存3198/45440808B/tree58f59fb8c75efea0328aeacc2d2f0a3644ae02bc。
 
 v15唯一heavy实际run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962，05:35:43UTC建立，06:05:27UTC仍step4 in_progress；日志继续BlobNotFound，故不登记bindings或原数学PASS。完整参数/69pins在[生产记录](notes/2026-11-28-original-whole-denominator-software-and-production.md)。06:02本地只读环境探测仍无可用运行环境，未冒称本地pull。
+
+
+## 2026-11-28 06:17 UTC — 原行运算全返回的隔离软件请求
+
+已发布保全部实际多项式系数的逆序右乘helper及固定18源/420秒检查：实际CP=H、UM=H、原全余数/monic厚长与三套完整坐标比较；九组包含真实Bezout/非素域/不可变输入/native包装，十三拒绝，未执行不记PASS。selector只增一个固定分支，逆删逐字回旧版；现有workflow与唯一heavy v15不改。完整Popov商/native cyclic与实际D/MD content等同候选同note写清，不预报rank306性能或当前content非平凡。
+
+root全文读helper/check/proof，复核逆序右乘两列必须同时用旧列、双模包含及C可消；agent核Sage10.6通用Hermite签名/上三角/完整UM返回。代码hash、18源参数和全部未闭原门见[记录](notes/2026-11-28-original-row-operation-right-return.md)。R1067已推4e3efd54784b27f9e02cc6ec27129a62b3e6259c，数学继续原wild零阶及真实低行，不以软件或新条件界结束。
+
+推前实际双pull run46073965457/job140888568528：公开06:13:18UTC至16af4651bcdc122aba279c6a17902cf9f8dae75a，私库06:13:22UTC至1763ab138b40cbdbcd61c75361b61ee2ecec6bb1。四README/QUEUE/三旧必要gzip均同blob；日志14886B/hashb9551ddeafe98d34837c85e8e5c1c1afcfadeb6b51cf10714417f7484cf57328，库存3200/45478715B/tree6c13bf5c096eab7a97f89f79e7a747025013b910，无>5MB。v15于06:15:26仍step4在算、日志BlobNotFound，未登记数学PASS。
