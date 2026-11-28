@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：同一完整 NV 四次的直接原理想来源](results/R150-appendix-unit211-W-full-NV-quartic-direct-original-identity-without-D-inverse.md)：准确ΦBbar4由完整N4(V)、EΔ、E2组合，不用D逆或第三矩；整b0零保，权范围只在当前W。纸证加强既有726554对象来源，不重跑旧四次门。
+
 - [R150：正确 B 曲线的整个 F34 原范数排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-entire-F34-fixed-original-norm-exclusion.md)：四固定原norm为λ8/8/8/6，完整K34逐次gcd1/1/1/0，最终15坐标原I4返1；5.722861425秒/0，无几何单位逆。B只余F40至多40权对，旧408矩阵门仍冻结。
 
 - [h=k 整个 Pf 的正确原链静审](notes/2026-11-28-unit211-h-equals-k-Pf-true-original-static-audit-8542.md)：核四直接真vm源及四源完整等权前置链，F96后续四常数域不可省。恢复既有T0(J−Q)单位，使正确5640界覆盖整个当前Δ0；没有执行或恢复旧错误全覆盖。
