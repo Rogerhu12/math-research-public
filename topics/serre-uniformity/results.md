@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原e/K4的同一quadric源两读数（已证明）**：[原genus4 §15.4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)共同主部c0与原Dixon算子锁定e/K4⇔B及(U/v)DB的两个指定Laurent槽同零；norm最高边界精确为(ρ²−1)/(b0²δ²)单位。第六层b6保为不同cubic moment，未借顶unit排两低读数。
+
 - **原坏参数的实际有限 Frobenius 读取（已证明）**：[R1155 §13](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)浅退化κ≤1/3保完整首p修正及尾界；共同log-preserving提升支付任意深near0，完整Coleman S/J支付实际near1/∞运输。非整坐标误差及原共同提升条件均保留，未把分歧fibres当同点FL。
 
 - **原canonical quadric的完整椭圆二次源（已证明）**：[原genus4 §15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)实际P12/P32给二阶强迫系统、B=UT(U³)全部系数及乘积norm的唯一U^p边界；准确Cartier前五个mixed层只回原e，第六层保b6。系数顶项unit未冒作原第四jet非零。

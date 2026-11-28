@@ -95,6 +95,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [同文 §15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已将原ω12ω32=h*²的两个primitive组合降至同一旧E：A=xP12+x⁻¹P32、B=xP12−x⁻¹P32，DA=−2/b0+vB/U、DB=vA/U。B=UT(U³)各t_j明确且unit，F=P12P32=U²(U³+v²)(B′)²/v²−B²/4=C0U^p−Σ(3j+1)t_jU^(3j+2)/{b0v(3j+2)}，C0单位；W=F−P²全函数亦锁。原Cartier读数C_rel(Bω)=αω′，α=2ρc^(2k−1)e/δ；Ψ^rB的r1…5层只给0、−αU′、2αV′、−3αU′²、4αU′V′，r6为−5αU′³+b6。顶项unit和前五层不排e0；新b6尚未与原K4比较，继续该真实二次源，不混同旁矩。
 
+[同文 §15.4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已将原K4接到上述同一个B：同原exact µ6参数τ、x(O)=1支，P12/P32共同负p主部c0=−ρ/(b0δ)。故C0=ρ²/(b0²δ²)，W的U^p系数(ρ²−1)/(b0²δ²)unit；[τ⁻²]B=2ρe/(b0δ²)，e0时[τ⁻⁵]A=−8ρK4/(b0δ³)。原双零准确等价于B及(U/v)DB的这两个线性Laurent读数同零。另一方面C(Rcal Bω)=−αU′ω′/δ、C(Rcal²Bω)=0、C(Rcal³Bω)=b6ω′/(8δ³)，所以第六层是不同的cubic源，不能换名K4；继续用完整quadric/norm比较。
+
 全部45槽中的κ–Serre型对角−6r_ab为单位，有限Thomae付全三张量Fp²交替、九mixed合一；e=δS_n/(ρs)、S_n=−9ρ²A_orig准确。σ来自三114循环，Λ来自同E* H_*²及原Padé D_N的有限functional，二者均未unit。e=K4=0仍恰222+123七维第0…4层消失/原q两jet共零；继续实际Leibniz、指定短源/有界primitive，不以perfectness、覆盖同构、全Jordan或旁列单位排除。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维

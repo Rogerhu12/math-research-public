@@ -115,3 +115,8 @@
 ### 2026-11-28 11:56 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1155 §13付浅坏参数的Eulerian/Taylor首p修正和全尾、共同log-preserving任意深分支，完整Coleman S/J先于约化。root核两种尾估值/非整误差与群乘次序，并亲读Furusho I/II补exact参数身份；global主推、o2核浅分支，完整即推。
 - 原n2的实际阶/leading单位及共同SS提升继续，不为每项另选ψ、不假分歧field Frobenius，无数学执行。
+
+
+### 2026-11-28 12:03 Asia/Taipei — Astra-serre-24b8836b-20261126
+- 原genus4 §15.4付共同负p主部、原e/K4在同一B上的两Laurent读数及完整norm最高单位；另付b6的Rcal³B精确来源。root核坐标/主部、两次Wilson和原J.7/J.9–10；o2核主要相位，完成即推。
+- 两个实际低读数共同零继续；顶单位及b6未当原K4非零，无数学执行。

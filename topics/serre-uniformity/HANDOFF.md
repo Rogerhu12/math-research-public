@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：8ab072512cf6a864868f3691cd65f042a55e249d**（2026-11-28 11:56 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：5a4b8574f3935fde9c9e865009780c16402fd427**（2026-11-28 12:03 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 11:19 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 11:19:13 Asia/Taipei，Actions run46102253397/job140847085965，blob:none浅clone后真实pull --rebase至10f20b88；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤12:09、pull≤12:19。本地11:18仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -38,7 +38,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [原固定Dixon §§1–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)同Dixon/Fermat源、Hesse/Schur/Jordan全付；normal=12tr(adjQ A²)不等spectral=tr(adjQ)，不能代指定中列。R1145八带仅标量，旧窗口/Prym/normal-FM只消费。
 
-[原genus4 §§6–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原Fermat45槽、κ–Serre单位对角/交替、三平移C的V4与三个同E*映射均已付。§13精确锁P=−Ψ(T−Q)/(b0δ)，全部B_j^p显式；114第0…4层保Λ和亚纯项。无条件A9=−4c^(2k−2)K4/δ²、A3+A9=8vc^(2k−2)e/δ⁴；q′0+2v²q0/(3δ³)=δr′0/(2Γ)。§14六个123的全函数式和全部p次补偿已锁，mixed删除仅按原已付消失；e/K4双零仍恰两谱jet共零，σ/Λ/mixed/123/T未unit。§15原quadric给A/B/W完整二阶源、B=UT(U³)全系数及F=P12P32的CpU^p边界；C(Bω)=αe、前五个Ψ mixed层只回e，第六层b6仍待原K4比较。
+[原genus4 §§6–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原Fermat45槽、κ–Serre单位对角/交替、三平移C的V4与三个同E*映射均已付。§13精确锁P=−Ψ(T−Q)/(b0δ)，全部B_j^p显式；114第0…4层保Λ和亚纯项。无条件A9=−4c^(2k−2)K4/δ²、A3+A9=8vc^(2k−2)e/δ⁴；q′0+2v²q0/(3δ³)=δr′0/(2Γ)。§14六个123的全函数式和全部p次补偿已锁，mixed删除仅按原已付消失；e/K4双零仍恰两谱jet共零，σ/Λ/mixed/123/T未unit。§15原quadric给A/B/W完整二阶源、B=UT(U³)全系数及F=P12P32的CpU^p边界；C(Bω)=αe、前五个Ψ mixed层只回e，第六层b6另为8δ³C(Rcal³Bω)/ω′。§15.4准确e/K4双零⇔[τ⁻²]B=[τ⁻⁵](U/v)DB=0；W的U^p系数(ρ²−1)/(b0²δ²)unit不代两低读数。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 

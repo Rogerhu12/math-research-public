@@ -2463,3 +2463,126 @@ $\mathfrak b_6$，没有把它删成零。
 所以不能把其中一个旁读数冒作尚未支付的 Picard 第四 jet。
 全部为纸面函数恒等式、极界、留数及有限系数比较，
 未执行数学程序或新增有限素数窗口。
+
+
+### 15.4. 原两障碍在同一 $\mathcal B$ 上的两个线性读数
+
+现在把原 $K_4$ 接到 (G4.93) 的同一函数，
+不将第六混合层 $\mathfrak b_6$ 换名为 $K_4$。
+在原 $E$ 的 $O$ 处继续用 §15.3 的 exact 参数 $\tau$，
+并取 $Y\to E$ 上 $\eta=x=1$ 的那个不分歧支。
+由
+$$
+x^6=\frac{V-v}{V+v},\qquad
+U(-\tau)=U(\tau),\quad V(-\tau)=-V(\tau)
+$$
+及首值一的六次根唯一性，有 $x(-\tau)=x(\tau)^{-1}$。
+
+这条支上
+$$
+y^2=\frac{b_0^2vU}{2x^2(V+v)}
+=\frac2{b_0}\tau+O(\tau^2).
+$$
+原 $P_{1,2},P_{3,2}$ 的导数正则、极阶至多 $p$，
+所以各自唯一可能的负项是负 $p$ 次项。
+(G4.61) 的实际主部给它们相同的首系数
+$$
+\begin{aligned}
+c_0&=-\frac{b_0r_{1,2}}2
+    =-\frac{b_0r_{3,2}}2
+    =-\frac{\rho}{b_0\delta},\\
+P_{1,2}&=c_0\tau^{-p}+O(1),\qquad
+P_{3,2}=c_0\tau^{-p}+O(1).
+\end{aligned}
+\tag{G4.100}
+$$
+这里 $r_{1,2}=r_{3,2}$ 由
+$(3k-1)!^2=(-1)^k$ 和
+$(5k-1)!(k-1)!=(-1)^k$ 直接给出；
+$r_{3,2}/r_{2,2}=\rho$ 是 (G4.69)–(G4.70) 的准确比例，
+而 $r_{2,2}=r_1=2/(b_0^2\delta)$ 已在 (G4.82) 锁定。
+因此没有留下一个未定的局部首项。
+
+特别，(G4.96)–(G4.97) 中的两个 $p$ 次边界都可完全简化：
+$$
+\boxed{
+C_0=c_0^2=\frac{\rho^2}{b_0^2\delta^2},\qquad
+[U^p]\mathcal W
+ =\frac{\rho^2-1}{b_0^2\delta^2}\in\mathbf F_p^\times.}
+\tag{G4.101}
+$$
+第二个非零性只用 $\rho^3=2$ 和 $p>3$：
+若 $\rho^2=1$，则 $\rho=\pm1$，与 $\rho^3=2$ 矛盾。
+它仍只是原 quadric 的最高 $p$ 次边界，不排除后面的两个低读数同时为零。
+
+将 (G4.100) 代入 (G4.92)，其完整负部为
+$$
+\mathcal B\equiv c_0\tau^{-p}(x-x^{-1}),\qquad
+\mathcal A\equiv c_0\tau^{-p}(x+x^{-1})
+\pmod{K[[\tau]]}.
+$$
+原 Dixon/Jordan 的 J.7 给
+$D^{p-2}x=-e\,x^{-p}/\delta$。
+在这条 $x(O)=1$ 的支上，$D=d/d\tau$，
+且 $(p-2)!=1$，所以
+$[\tau^{p-2}]x=-e/\delta$。
+若 $e=0$，原 J.9–J.10 又准确给
+$$
+D^{p-5}x=-\frac{K_4}{6\delta^2}x^{-p},\qquad
+[\tau^{p-5}]x=\frac{4K_4}{\delta^2},
+$$
+后式使用 $(p-5)!=-1/24$。
+这些系数阶均小于 $p$，没有 first-$p$ 坐标替换的损失。
+
+由于 $p-2$ 为奇、$p-5$ 为偶，
+$x(-\tau)=x^{-1}(\tau)$ 最终给
+$$
+\boxed{
+[\tau^{-2}]\mathcal B
+ =\frac{2\rho e}{b_0\delta^2},\qquad
+e=0\ \Longrightarrow\
+[\tau^{-5}]\mathcal A
+ =-\frac{8\rho K_4}{b_0\delta^3}.}
+\tag{G4.102}
+$$
+因此原共同消失问题准确等价于
+$$
+\boxed{
+e=K_4=0
+\quad\Longleftrightarrow\quad
+[\tau^{-2}]\mathcal B=
+[\tau^{-5}]\left(\frac UvD\mathcal B\right)=0.}
+\tag{G4.103}
+$$
+右端是 (G4.94)–(G4.95) 同一个明确多项式源的两个线性 Laurent 读数。
+第二个等号使用已付的 $\mathcal A=(U/v)D\mathcal B$，
+并非将原 Fourier--Mukai 高极算子与局部导子混同。
+(G4.103) 也不把最高系数 $t_N$ 或 (G4.101) 的单位
+冒作这两个读数的非同时消失。
+
+第六混合层则有另一个不同、同样准确的来源。
+将 $\Psi^2=U^p+2\delta\mathcal R$ 代入 (G4.99)，
+保留相对 Cartier 的 $U^p\mapsto U'$，逐项得到
+$$
+\boxed{
+\begin{aligned}
+C_{\rm rel}(\mathcal R\mathcal B\omega)
+ &=-\frac{\alpha}{\delta}U'\omega',\\
+C_{\rm rel}(\mathcal R^2\mathcal B\omega)&=0,\\
+C_{\rm rel}(\mathcal R^3\mathcal B\omega)
+ &=\frac{\mathfrak b_6}{8\delta^3}\omega'.
+\end{aligned}}
+\tag{G4.104}
+$$
+最后一式中 $(U')^3$ 的系数是
+$(-5)+9-3-1=0$，因此源虽可有 $4p-6$ 阶极，
+其 Cartier 输出确为全纯。
+这给 $\mathfrak b_6$ 的完整 cubic moment，
+但它和 (G4.102) 的线性 $K_4$ 读取仍是不同函数来源。
+后续若要比较两者，必须通过实际 (G4.96) 的 primitive 乘积与有界余项，
+不能只按 CM 角色或同为全纯输出认同。
+
+本小节全部为原函数的局部展开、Wilson、已有 J.7/J.9–J.10
+及全局 Pell 身份的纸面比较。
+o2 独立核准共同主部、两项相位、两次阶乘和
+(G4.101) 的准确最高系数；没有数学程序执行。
