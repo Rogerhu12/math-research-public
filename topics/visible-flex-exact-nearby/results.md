@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [H96R：实际728格之后全部96列高度接续首入口](results/R149-supplement-complete-height-continuation-after-the-paid728-prefix.md)：父run真failure/child−9、原728全96 signed积分球及adjoint费用完整继承；只算2119缺格，原7final目标/两mean/8192角格/physical坐标保。123current/51history与原三类whole载体、实际terminal API及独立互斥全绑；首次on-push入口已发，数值待回。
+
 - [DMR：真实正阻尼矩与同一cubic尖单侧导数费](results/R149-supplement-positive-moment-reception-and-sharp-one-sided-direction-cost.md)：rho Ly+a y=c f以正核保入端/整格/出端阻尼，真实A1和k1矩同源可交；完整原方向cubic值M在原片I给最优|z_r|≤18M/|I|。全193坐标/mean/metric一次r导保，直接接FR1 signed forcing，未跑旧RCS72槽。
 
 - [FIOP：真实半密度的全频物理Sobolev接收](results/R149-supplement-half-density-physical-Sobolev-bounds-for-the-complete-true-FIO.md)：真P的酉半密度与全圆角变差给全部频率L2界；精确分部积分stack/binomial接收及三线插值给物理负阶，完整输出mean/low泄漏保，不收带宽sqrt或非法相位替换。根片C_P及逆在L2/H1<1+1/180000；全域原幅/高响应数值仍须实付。

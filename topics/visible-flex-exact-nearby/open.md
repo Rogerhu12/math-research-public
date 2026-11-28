@@ -234,3 +234,6 @@ FIOP：真P的酉半密度与全圆角变差给全部频率L2界；精确分部�
 
 
 DMR：rho Ly+a y=c f以正核保入端/整格/出端阻尼，真实A1和k1矩同源可交；完整原方向cubic值M在原片I给最优|z_r|≤18M/|I|。全193坐标/mean/metric一次r导保，直接接FR1 signed forcing，未跑旧RCS72槽。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+H96R：父run真failure/child−9、原728全96 signed积分球及adjoint费用完整继承；只算2119缺格，原7final目标/两mean/8192角格/physical坐标保。123current/51history与原三类whole载体、实际terminal API及独立互斥全绑；首次on-push入口已发，数值待回。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
