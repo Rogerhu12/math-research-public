@@ -495,3 +495,7 @@
 ## R618后继：硬总trace真实源码与完整消费者
 
 [实现范围](notes/2026-11-28-r618-hard-total-trace-actual-model.md)给独立模型、1449列完整Jacobian与外部P方向、真尾支持恒等转移、mean积分/direct位置消费者及当前centered自然终态入口。首函数直接保原接受态；已实现而未执行，暂无新数值资格或宏观根。
+
+## R629：准确非线性三矩、自由帽逆与双核有限块
+
+[完整证明](results/R629-nonlinear-curvature-moments-and-double-kernel-reduction.md)：未解近欧氏平面度量自身等温坐标给三曲率矩；固定三维投影必恢复完整方程；自由内帽0/1模积分逆、准确旋转尾图及非奇异双核Green块。全频统一逆/特征返回仍未解，不套Hu单核结论。
