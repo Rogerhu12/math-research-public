@@ -1,16 +1,15 @@
 {
-  "message": "ISP: construct actual common-power quasiaffinities approximating all accretive inverse powers in norm",
-  "parentCommit": "d8ffcecda586f34da85c42c9631ed92a7ab02358",
+  "message": "ISP: exclude the entire corrected Phi second-NV-head ell-three-halves intersection",
+  "parentCommit": "313bc5965e7514858afa3af67a76009a896b336d",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R12-appendix-accretive-sources-norm-approximated-by-common-power-quasiaffinities.md",
-    ".github/workflows/invariant-subspace-8542-w-vbar-positive-m-zero-and-mu-pole.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-29-W-Vbar-first-dispatch-lowercase-name-repair-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-Haar-common-power-norm-approximation-2230-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-Haar-common-power-norm-approximation-2230-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-complete-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-whole-quartic-original-values-8542-execution.json",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-Phi-second-head-ell-three-halves-exclusion-2235-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-Phi-second-head-ell-three-halves-exclusion-2235-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-vbar-positive-m-zero-and-mu-pole.yml"
-  ]
+  "dispatchWorkflows": []
 }
