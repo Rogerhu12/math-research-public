@@ -572,3 +572,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §113：原第五深槽的真实椭圆核与第二整算子
 
 已证明：真实正合列E₁→E₁通用扩张→Ga保全部原挠提升；B′p+2的完整q窗恰为CC1全迹，Artin–Hasse第二整算子L支付深窗。全部五槽现有同一固定几何表达，但仍未推出跨p非抵消。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §112附记：当地自由模与三权CW的完整余秩界
+
+已证明：真正Φ的[-p]范数系统保原M、Tate twist、全部f层单位次数及平滑。当地H¹自由使h=s−1的真实系数消失成为I^h整除；三个完整CW权给通常全Sha余秩t≤min(v_p(m_p),v_p(m_{p²+p−1}),1+v_p(m_{p²}))。无穷p使这些赋值足够小仍缺。[同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。

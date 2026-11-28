@@ -12,7 +12,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 18:06:45 UTC按根规则8小文本备用通道读公开main 6128d43d26f6622d908e9ebb6624170989daaf21、私库main 9b2d4269a97d7a265e713ad979f64e9acd2d71ca；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE b90a276ff0abf8d5f8cc935202e18753390435cf本题认领仍进行中。
+- 2026-11-28 18:21:50 UTC按根规则8小文本备用通道读公开main 513e5afb4e2135a8fa7f5a11a40c3b659180911e、私库main 24b21a874e7db09bd3be4e2c9c1ab836868bd222；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE b90a276ff0abf8d5f8cc935202e18753390435cf本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 原两库均blob:none/depth1/sparse-index。为释放本会话磁盘，14:34逐文件SHA验证后将两.git移至/tmp/rank2-0b097461-public-git-metadata-20261128及/tmp/rank2-0b097461-private-git-metadata-20261128、保原路径symlink；其pack仍指向同名前缀public-git-pack/private-git-pack-20261128，四目标勿删。迁移后HEAD/status均同原值，释放57028608B；没有删他人文件。
 - 根规则8的备用通道只传<100KB文字；本次只归档原人类open/log/H研究记录与写证明，无数学本地执行或可重算CI日志入库。原topic库存约47.7MB，新增仍守全部大小限制。
@@ -31,7 +31,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 §98原交换子−1无损读p^k/Tate；§99 AH主等式给整Z₀=0、唯一Z/U、z₁≠0⇔a₂≠0及真实PT/Bockstein。§100固定103全源给原MW两列参考读者；R303已原位更正辅助因子ℓ²+ℓ。§101所有k在同一p+1邻曲线且保全部Tate校正，函数域非幂不代评价。
 §102 strict准确余秩s−1、p-parity给A_Z≤2足够；全Sha有限⇔Xstr,(U)循环。允许z₁=0,z₂≠0及a₂=0。§103纯log奇偶二行在预选惰性参考素分别保1/δ坐标；完整χ的野块d_j=max(0,p^(j−1)−r_p)，µ零只给r_p有限。
 §104完整f源合成唯一M∈Q(E17)，div M=ΣI_t[T_t]、M(O)=1、M(−P)=M(P)^−1；保二变量103²−103[g103]及所有好CM Frobenius Norm M=M，固定短列表全p^k关系阶统一C_A。§105原JLK det使全Sha无限迫全部六个混合二次全域jet每k整零（非I³H¹）；ordinary保双p位。§106全惰性p的原五格B₂/B₃/Bp+1/Bp+2/B2p+1各零，H混项不删。§§107–108已付六权形式最小支撑及真实Miller全驯降维，未付增长全和非零；详情保前H归档。§109普通双p位真实范数保α[gα]−1，固定θ分裂列M的B₂/B₃各零，保非分歧层与整组合。§§110–111在同一E₁通用向量扩张上，以F₂/F₃的Ξ/Ξ²/Θ全迹精确读四行，全部阶乘补偿与原标记项已付。§113真椭圆核及第二AH整算子L付Bp+2的q深窗，五槽全保原Frob。
-§112物理E₁₇全部惰性p：I³系数真实提升在有限驯点特化p³完整单位，A(z)=log M(P_E(z))∈Q[[z]]、m₁=0，全Sha无限迫m_p,m_{p²},e_{p²}∈pZp及m_p/p+m_{p²+p−1}≡0；任一相应不整除足够。
+§112物理E₁₇全部惰性p：真实有限驯特化给p³完整单位及两嵌入条件。§112.5进一步用当地自由Λ²、真正Φ的[-p]范数系统及三个整CW权，得t=corank Sha≤min(v_p(m_p),v_p(m_{p²+p−1}),1+v_p(m_{p²}))，m_n取固定log M(P_E(z))、m₁=0；t为偶数，前两项任一赋值≤1即足够，跨p仍缺。
 [形式边界](notes/2026-11-28-five-row-reciprocal-character-obstruction.md)：e_{χ^(p+2)}dlog(1−s^(2p²+2p−1))全χ槽/Cartier/µ6合规但倒数曲率读者非零；非原M反例。不能只联立五槽消H，须原固定极/范数的跨Teich关系。完整第三评价未付。
 
 ## 原中央与完整全层：R1070/R1072

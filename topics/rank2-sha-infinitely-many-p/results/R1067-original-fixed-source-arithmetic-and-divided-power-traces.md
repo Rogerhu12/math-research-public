@@ -173,6 +173,162 @@ $$
 尚须证明在无限多个惰性素数满足相应的不整除；复数意义下的非零、
 逐个有限素数验证和一般性的“应当不消失”都不能替代这一剩余步骤。
 
+### 112.5 当地自由模与三个完整Coates–Wiles权的余秩界
+
+本小节加强(CB4)–(CB6)，仍使用同一个$M$、$m_n$与所有$p>211$惰性素数。置
+$
+ t_p=\operatorname{corank}_{\mathbf Z_p}\Sha(E_{17}/\mathbf Q)[p^\infty],
+ \qquad s=2+t_p,\qquad h=s-1.
+$
+则无条件有
+$
+ \boxed{\quad
+ t_p\le
+ \min\left\{v_p(m_p),\ 
+            v_p(m_{p^2+p-1}),\ 
+            1+v_p(m_{p^2})\right\}.
+ \quad}                                                       \tag{CB7}
+$
+零值的赋值按$+\infty$理解。由§102的奇偶性，$t_p$是非负偶数，
+所以$m_p$或$m_{p^2+p-1}$中任一项的赋值至多一，
+或$m_{p^2}$的赋值至多零，都足以推出通常全$\Sha[p^\infty]$有限。
+特别全Sha无限时，前两项必须被$p^2$整除。
+
+#### 当地才可加强成理想整除
+
+(BU1)给原全域类在$I^h$系数截断中的像为零。
+该整截断的每个模$p$分次仍有非平凡驯标量$-1$，
+故$H^0=0$，乘$p$长正合列给$H^1$无$p$挠。
+因此(BU1)的有理消失对任意这个有限$h$都提升为整消失。
+
+在唯一$p$位$\Phi$，考虑同一个普遍系数及其外部$\mathcal O$共轭。
+两者的残余驯角色分别为$\tau^p,\tau$，
+Tate对偶分别有另一非平凡角色。因此当地残余$H^0,H^2$都为零；
+局部Euler特征给$H^1$在$\mathbf F_q$上的维数二。
+
+这里可以直接证明所需的自由性及全部系数基变换。
+记$\mathfrak m=(p,I)$。对任何有限长$\Lambda_2$系数商$A$，
+用$\mathfrak m$分次逐次扩张，$H^0,H^2$始终为零。
+每一步的$H^1$短正合列，其核为
+$H^1(\Phi,\bar W)\otimes_{\mathbf F_q}\operatorname{gr}_{\mathfrak m}A$。
+在$A=\Lambda_2/\mathfrak m^r$逐级相容提升残余$H^1$的一组二元基；
+这些提升乘以$\operatorname{gr}_{\mathfrak m}A$恰好生成上述核。
+归纳得到$A^2\to H^1(\Phi,\mathbb W\otimes A)$满射。
+两边长度均为$2\operatorname{length}A$，故为同构。
+取逆极限，再对$A=\Lambda_2/(p^k,I^h)$取极限，得到
+$
+ H^1_{\rm loc}\simeq\Lambda_2^2,\qquad
+ H^1_{\rm loc}/I^hH^1_{\rm loc}
+   \simeq H^1\bigl(\Phi,\mathbb W/I^h\mathbb W\bigr).
+$
+过渡映射均满，因而这里无额外$\varprojlim^1$项。
+所以原系数截断像零在当地准确加强为
+$
+                     \operatorname{loc}\boldsymbol Z
+                          \in I^hH^1_{\rm loc}.                \tag{CB8}
+$
+这只用于当地自由模，未把非主$I$的全域上同调误作自由模。
+
+#### 原源严格回到$\Phi$的LT范数系统
+
+令
+$
+ Q_j=(-1)^j[\mathfrak f^{-1}]\varpi_{17}/p^j,\qquad
+ \Phi_j=\Phi(E[p^j]).
+$
+$\psi_{17}((p))=-p$给$\varepsilon(p)=-1$，
+$[-p]Q_{j+1}=Q_j$。
+由$M(-P)=M(P)^{-1}$，(BT5)中的$\varepsilon(p)^j$
+正好把原$M(P_j)$变为$M(Q_j)$的加法Kummer类。
+(BT6)的真实$[-p]$函数范数因此使
+$(M(Q_j))_j$严格Norm相容，Coleman函数就是
+$M(u(s))\in\mathbf Z_p[[s]]^\times$。
+
+不在额外未分歧层上直接套用错误的LT底域。
+设$F_{j,v}$为原$K(\mathfrak f p^j)$的一个完成。
+原CM角色给$\Phi_j\subset F_{j,v}$；
+$
+ |(\mathcal O_K/\mathfrak f)^\times|
+      =(4-1)(289-1)(3-1)=1728
+$
+及对角六次单位商给
+$[F_{j,v}:\Phi_j]\mid288$，为$p$单位。
+(BT5)在$F_{j,v}$是实际限制的等式，而其中全部
+$M([w]Q_j)$本已在$\Phi_j$。
+对两边同时corestrict仅乘相同的这个单位次数；
+$\operatorname{cor}\operatorname{res}=[F_{j,v}:\Phi_j]$
+因此把等式准确降到$\Phi_j$，不产生额外Frobenius相位或局部迹常数。
+
+外部$\mathcal O$共轭后，完整源在有限Shapiro识别中写为
+$
+ \Theta(u)=\sum_w\bar w^{-1}[g_w]^{-1}[w]u,\qquad
+             u=(M(Q_j))_j.
+$
+主单位$d$的真实重标给
+$\Theta([d]u)=\bar d[g_d]\Theta(u)$。
+所以$\Lambda_2$的$[g_d]$在未扭的范数单位模上作用为
+$\bar d^{-1}[d]$；驯分量是$e_{\tau^p}$。
+取群环$[1]$系数只产生$|\Delta|e_{\tau^p}$，
+$|\Delta|=p^2-1$是单位，绝不除野群阶。
+原常数$(1+\bar\omega_K)/6$及整个
+$103^2-103[g_{103}]$仍保留。
+原嵌入同理给$e_\tau$及$d^{-1}[d]$。
+
+非平凡驯分量消去离散赋值商，因此这里完整当地模中的所有
+$I^h$原像都属于范数单位张量。
+所用Coleman定理只在真正的$\Phi$、原$[-p]$-LT塔上应用：
+P. Schneider、O. Venjakob，
+*Coates–Wiles homomorphisms and Iwasawa cohomology for Lubin–Tate extensions*
+(2015)，Theorem 2.2、Remark 2.3及§8；
+[原文](https://arxiv.org/pdf/1511.04922)。
+其Theorem 2.2的Laurent级数在单位分量上为整幂级数；
+本节采用正次对数系数，所以常数对数的选择不影响读取。
+
+#### 三个整读者和准确的Tate权
+
+对任意原范数单位的Coleman函数$F(s)\in\mathcal O[[s]]^\times$，
+写$d_j=[s^j]\log F(s)$；则$jd_j$整。
+物理对数的逆为
+$
+ \ell^{-1}(z)=z-\ell_qz^q+O(z^{2q-1}),\qquad
+              \ell_q=(p^q-p)^{-1}.
+$
+以下三个在整个单位格上的连续加法读者均整：
+$
+ \begin{aligned}
+ \mathcal W_p(F)&=p[z^p]\log F(\ell^{-1}(z))=p\,d_p,\\
+ \mathcal W_q(F)&=q[z^q]\log F(\ell^{-1}(z))
+                                      =q(d_q-\ell_qd_1),\\
+ \mathcal W_n(F)&=pn[z^n]\log F(\ell^{-1}(z))
+                       =pn(d_n-p\ell_qd_p),\qquad n=q+p-1.
+ \end{aligned}
+$
+第一式由$p<q$；第二式用$q\ell_q\in p\mathcal O$；
+第三式用$n$为$p$单位、$p\ell_q$为单位及$pd_p$整。
+它们向$\mathcal O$张量连续延拓。
+
+未扭的$[d]$对第$r$个对数系数作用为$d^r$，
+因为$\ell([d]s)=d\ell(s)$。
+所以$p,n$两权在实际共轭Tate分量上的$\Gamma$特征为
+$d^p/\bar d$、$d^n/\bar d$；
+$q$权在原分量上为$d^q/d$。
+每个$[g_d]-1$的读者特征均属于$p\mathcal O$。
+这里$p,n\equiv p\bmod(q-1)$而$q\equiv1\bmod(q-1)$，
+正好与上述两个真实驯幂等一致。
+
+原平滑算子在第$r$权取值$103^2-103^r$，
+模$p$为$103^2-103$，因$r=p,q,n$均$\equiv1\bmod(p-1)$，
+所以仍为单位。其余固定常数和有限Shapiro归一也为单位。
+(CB8)遂准确给
+$
+ p\,m_p\in p^h\mathcal O,\qquad
+ q\,m_q\in p^h\mathcal O,\qquad
+ pn\,m_n\in p^h\mathcal O.
+$
+全部$m_r$是原(CB2)的有理数；除去所示的$p$次幂与单位，
+即得(CB7)。这项加强读取同一个完整源，既未更换曲线，
+也未借有限素数测试外推无穷素数；余下仍是跨素数的实际不整除。
+
 ## 113. 原第五深槽的椭圆核与第二个整Artin–Hasse算子
 
 **已证明。** 沿§§110–111记$\mathcal H=D_E-xJ$、$J=\partial_Z$、

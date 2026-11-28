@@ -8,7 +8,7 @@
 
 [R1067 §§98–111](results/R1067-original-global-derived-classes-and-exact-tate-readers.md)及[§112起](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)保原完整Tate源。较弱充分门已经是原全域阶A_Z≤2或真实二变量六个混合二次jet至少一项非零；不必坚持a₂模p单位。全Sha无限迫六jet每k整零，并在全部好惰性p迫原五个分离槽同时零。普通固定θ分裂列保两p位完整范数，M的两个整系数亦须零。
 
-同一M∈Q(E17)给固定有理数列A(z)=log M(P_E(z))=Σm_n z^n、m₁=0。§112已付真实I³系数提升、有限驯点特化、全部Teich精度、物理LT与分歧对数损失。全Sha无限必须有m_p,m_{p²},e_{p²}∈pZp及m_p/p+m_{p²+p−1}≡0；优先证明无穷不同p违反至少一条。§§110–113也已将五槽全写在同一固定通用向量扩张，但固定表达本身不保证非零。
+同一M∈Q(E17)给固定有理数列A(z)=log M(P_E(z))=Σm_n z^n、m₁=0。§112已付真实I³系数提升、有限驯点特化、全部Teich精度、物理LT与分歧对数损失。§112.5现进一步得t=corank Sha≤min(v_p(m_p),v_p(m_{p²+p−1}),1+v_p(m_{p²}))；由偶性，前两项任一赋值≤1或第三项赋值≤0即足够。优先证明无穷不同p违反全部必要高整除。§§110–113也已将五槽全写在同一固定通用向量扩张，但固定表达本身不保证非零。
 
 原Y_k=0⇔p^k|a₂及实际邻点dlog读者仍有效；不能用有限角色非零、单一乘子或曲率补偿非零替代完整目标。[新形式边界](notes/2026-11-28-five-row-reciprocal-character-obstruction.md)证明五槽乃至整个χ分量加Cartier/µ6仍不够推出AQ倒数读者为零，缺χ^(p+2)型；必须补原固定源的真实跨角色关系，而非再次形式联立。
 
@@ -217,3 +217,7 @@
 ### R1067 §113：原第五深槽的真实椭圆核与第二整算子
 
 已证明：真实正合列E₁→E₁通用扩张→Ga保全部原挠提升；B′p+2的完整q窗恰为CC1全迹，Artin–Hasse第二整算子L支付深窗。全部五槽现有同一固定几何表达，但仍未推出跨p非抵消。 [同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
+
+### R1067 §112附记：当地自由模与三权CW的完整余秩界
+
+已证明：真正Φ的[-p]范数系统保原M、Tate twist、全部f层单位次数及平滑。当地H¹自由使h=s−1的真实系数消失成为I^h整除；三个完整CW权给通常全Sha余秩t≤min(v_p(m_p),v_p(m_{p²+p−1}),1+v_p(m_{p²}))。无穷p使这些赋值足够小仍缺。[同编号全文](results/R1067-original-fixed-source-arithmetic-and-divided-power-traces.md)。
