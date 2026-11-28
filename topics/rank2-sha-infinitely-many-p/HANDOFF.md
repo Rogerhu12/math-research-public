@@ -7,20 +7,20 @@
 固定E/Q，完整证明rank≥2及无穷不同p的通常全Sha[p∞]有限；固定有限族联合无穷可用鸽巢。有限p、变曲线、条件接口均不完成。
 root独占refs/H/open/log/index；每条结论即推。终端可用时每推前实际pull两库且至少每小时；非FF立即pull --rebase循环。不force。环境失联时按根规则8明确准许的GitHub小文本备用通道，每次先读两库最新main/四README及QUEUE，拒绝即重读最新基线重建，不伪称终端pull。令牌仅命令行/进程，不入文件/提交/API。
 全部数学仅公开Actions，4CPU/16GB/6h，账户至多20并发。H<10KB、每MD<100KB、topic<200MB，无>5MB或新拆块。规则15禁存可重算log/数据/矩阵，只留源/参数/run/hash/必要原输入。独立结论新R，同结论续同号；不设冻结/额外复核门。公开16/私库15要求子代理显式gpt-6.2-astra/ultra，09:47起已全遵守。
-[整理前完整H](notes/2026-11-28-handoff-before-twelve-torsion-discs.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
+[整理前完整H](notes/2026-11-28-handoff-before-fixed-curvature-minor.md)逐字保旧参数、回执、更正及归档链；全部接续见[open](open.md)、[results](results.md)、[本卷](notes/PROOF-INDEX-R1051-R1100.md)及[续卷](notes/PROOF-INDEX-R1051-R1100-CONTINUATION.md)，登记结论不重做。
 
 ## 实际同步、已读规则、认领
 
 终端最后实际pull为公开14:24:56 UTC/8c119597428802e810e867608ad7e546abbd247e、私库14:24:52 UTC/3a8366462ccc7f17d7440618378e55cc21b5fbe9；旧回执见归档。14:34后平台明确环境unavailable，未伪记后续git pull。
-- 2026-11-28 18:41:31 UTC按根规则8小文本备用通道读公开main d18903179ef6d0fb920ea84ab66a3a20d65fada8、私库main 12c4b86f3be4dbdacb87e3924903b3e722447174；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 31d1ebf59293083d1e263e043179f47518eb882f本题认领仍进行中。
+- 2026-11-28 18:51:38 UTC按根规则8小文本备用通道读公开main 2ac9ec4a721dbc0f4fb4cca3c4b58b2eba47e1e5、私库main 890d877be643a2902bf2dc8b23e4f768b87bbdbb；四README blobs仍为99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc、1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642，与已读相同，无新差异。QUEUE 31d1ebf59293083d1e263e043179f47518eb882f本题认领仍进行中。
 - 每次小文本提交基于最新整树、核所改文件blob、父提交=该main；更新ref使用expected_sha且force=false，拒绝即重新读取两库/规则后重建。终端一恢复立即两库实际pull --rebase并恢复原流程。
 - 两库原blob:none/depth1/sparse-index；14:34经逐文件SHA核验把两.git及packs迁往/tmp/rank2-0b097461-{public,private}-git-{metadata,pack}-20261128，保原symlink/HEAD/status，释放57028608B，四目标勿删。精确路径/回执见归档。备用通道仅<100KB文本，topic约47.7MB；无数学本地执行或可重算CI日志入库。
 
 ## 厚点真实生产与短图软件：R1071
 
 来源/pins/原F/P及全回执见逐字归档与各note。R1071 §§17–21保原N/D/postideal及1156格/306图、G3/W8下降、四标量Bézout、四端点18×9/九pairs/Miller。[v16](notes/2026-11-28-original-streamed-shadow-production-v16.md)因800万transcript预算失败，不重跑。
-[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df于17:02 failure。完整log4126140B/3abb0ede78b8c3f5ccd05885f48ef9e63849977f0f89bfdf09a1e9723d33f552；12唯一及22native摘要全核同。实W D=qN，q度2255、4513digits；两次细化后306配对行全过，实际X>32000000格触显式MemoryError，非已证OS OOM。完整X/H、postideal/终门未返回，不重跑。
-[v18](notes/2026-11-28-original-short-global-graph-production-v18.md)run46147595142/job141050876340于17:03开始step4，未取消；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)run46154552030/job141008207171/source d61834ef33bbaf6b28b96c50999d71ad33e19c8c于14:25开始，17:42仍step4。日志无新可读回执，两版均无v17总格门，待真实终态。短图46145004405/G3软件46151076917的PASS不代生产，不重跑。
+[v17](notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)run46139352999/job140961628765/source84917b3eab61681c70cf8f01112139eb0b6288df于17:02 failure；全log及12唯一/22native摘要已核，哈希见逐字归档。实际W的q度2255，306配对行全过，但X>32000000格触显式MemoryError；完整X/H/postideal/终门未回，不重跑。
+[v18](notes/2026-11-28-original-short-global-graph-production-v18.md)run46147595142/job141050876340于17:03开始step4，未取消；[v19](notes/2026-11-28-original-descended-pencil-scalar-production-v19.md)run46154552030/job141008207171/source d61834ef33bbaf6b28b96c50999d71ad33e19c8c于14:25开始；18:49根读两job均step4，18:34日志仍404。两版均无v17总格门，待真实终态。短图46145004405/G3软件46151076917的PASS不代生产，不重跑。
 
 ## 原全域与完整当地源：R1067
 
@@ -33,6 +33,7 @@ root独占refs/H/open/log/index；每条结论即推。终端可用时每推前�
 §112物理E₁₇全部惰性p：当地自由Λ²及真正Φ的[-p]范数系统给三个完整CW权。§112.6以全域首齐次项的互反/CW₁=0再加一位，得t=corank Sha≤min(v_p(m_p)−1,v_p(m_{p²+p−1})−1,v_p(m_{p²}))。m_n为固定log M(P_E(z))系数；由偶性，前两赋值任一≤2或第三≤1即足够。rank2已使前两项∈p、第三整，m_p模p非零路关闭；跨p高位不整除仍缺。
 §114原M真µ6投影在E₁[2δ]十二盘的全两变量Kummer和按四轨乘1、−1/3、−1/2、1/6，保全部k、原平滑/Tate及严格[-p]范数；θ∈Φ且σq已付。非形式任意平移；仍需倒数跨Teich桥。
 §115真实δ平移使ℓO(BZ)=3ℓO(F₂)/4、ℓO(BF₂)=ℓO(F₃)/2，B=H−y/x；原εX²倒数曲率准确为[v^((p−5)/6)]R_X(v)/sqrt(1+v)，R_X固定。坏⇒此格零仍缺整算子桥。
+§116两个固定二步联络曲率子式在普通/惰性统一给g^pG，显式−x^p不删；真M^-3=Π(x(P−T_t)/x(−T_t))^I接首对数因子。坏⇒完整带权子式条件仍缺，Ψ₁₂=g^p不恒零。
 [形式边界](notes/2026-11-28-five-row-reciprocal-character-obstruction.md)：e_{χ^(p+2)}dlog(1−s^(2p²+2p−1))全χ槽/Cartier/µ6合规但倒数曲率读者非零；非原M反例。不能只联立五槽消H，须原固定极/范数的跨Teich关系。完整第三评价未付。
 
 ## 原中央与完整全层：R1070/R1072
