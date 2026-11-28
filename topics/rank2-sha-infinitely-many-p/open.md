@@ -528,3 +528,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1073 §18：相反Weil分量及原奇层逐商为零
 
 原H0(ω)的两个真实特征占尽二维，故对共轭有限角色的另一Weil分量f3全零；原两f_b和每个G_C未经重标的奇p层逐商为零。参考不同角色不赋同结论，K2预标后全迹仍有效。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
+
+### R1073 §19：整个三级同源胚芽与原首层乘法范数
+
+真实δ同源给w↦−w及完整24次幂鉴别式比，(3S−I)在各阶可逆；所有p商Δ乘积为p¹²Δ^(p+1)，对四实际Δ比消常数后付全部首层u_C范数，72真log由同圈完整迹恢复。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
