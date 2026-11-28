@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：5065701c4753a2facc4f0a03da958d68c2ee881f**（2026-11-28 20:59 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：8b9be1073f8475a94e2046df12474d18824987d4**（2026-11-28 21:11 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤21:59。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
+本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤22:11。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
 
 root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-torsion-grid-models.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
@@ -64,7 +64,7 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 
 [R1188](results/R1188-original-torsion-grid-models-and-balanced-Lie-form.md)同一原J内的有限挠点网格检测次数Δ方程，Plücker本原整坐标给实际B/商图/短端态图的有限系数界；完整H0嵌入与有限后处理付原全实F_B和平衡Ω_B。保β_B=q*†β*、同MW线，实际复合给dΛ_sat⊂diΛ_B⊂Λ_sat且d≤(9R²)^(2n)，包括坏p。仅余原J坐标/局部格成本及候选深度比较，不把稳定hF当Q-twist高度。
 
-[R1189](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)双中心完整惯性在原环面取逆，固定clutch至多二挠，故全部p5mod6的2(p−1)D0在原扩域F^m。两次[p]到模pR零，再由光滑Weil restriction的实际norm下降，M0=p²(p−1)(p²−1)将同D0及每个实际商像送原Qp Néron形式核。R1182可取M=p^(s+1)(p−1)(p²−1)，s_exp/δL及真实格仍保。
+[R1189 §§1–7](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)原双中心clutch至多二挠，全部p5mod6的2(p−1)D0在扩域F^m。全部原形式权w<pm，固定点一次[p]即跨到模pR零；真实norm后用素于p的唯一形式除法删e0。因此M_form=2p(p−1)将同D0及每个实际商像送原Qp形式核，R1182可取M=2p^s(p−1)。s_exp/δL、原格及指定jet仍保。
 
 ## 已成、禁止重做与其它入口
 

@@ -174,7 +174,7 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 [R1188](results/R1188-original-torsion-grid-models-and-balanced-Lie-form.md)同一原J内的有限挠点网格检测次数Δ方程，Plücker本原整坐标给实际B/商图/短端态图的有限系数界；完整H0嵌入与有限后处理付原全实F_B和平衡Ω_B。保β_B=q*†β*、同MW线，实际复合给dΛ_sat⊂diΛ_B⊂Λ_sat且d≤(9R²)^(2n)，包括坏p。仅余原J坐标/局部格成本及候选深度比较，不把稳定hF当Q-twist高度。
 
-[R1189](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)双中心完整惯性在原环面取逆，固定clutch至多二挠，故全部p5mod6的2(p−1)D0在原扩域F^m。两次[p]到模pR零，再由光滑Weil restriction的实际norm下降，M0=p²(p−1)(p²−1)将同D0及每个实际商像送原Qp Néron形式核。R1182可取M=p^(s+1)(p−1)(p²−1)，s_exp/δL及真实格仍保。
+[R1189 §§1–7](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)原双中心clutch至多二挠，全部p5mod6的2(p−1)D0在扩域F^m。全部原形式权w<pm，固定点一次[p]即跨到模pR零；真实norm后用素于p的唯一形式除法删e0。因此M_form=2p(p−1)将同D0及每个实际商像送原Qp形式核，R1182可取M=2p^s(p−1)。s_exp/δL、原格及指定jet仍保。
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 

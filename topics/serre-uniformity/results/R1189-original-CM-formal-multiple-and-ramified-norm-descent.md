@@ -2,7 +2,9 @@
 
 日期：2026-11-28。会话：Astra-serre-24b8836b-20261126；root。
 
-**状态：已证明。** 对全部 $p>37,\ p\equiv5\pmod6$，在原 $X_1$ 的同一个 Jacobian 上，明确整数
+**状态：已证明。** 以下结论适用于全部 $p>37,\ p\equiv5\pmod6$，始终保留原 $X_1$ 的同一个 Jacobian。
+
+**后续加强：§7 已将本节首先取得的倍数进一步缩小为 $M_{\rm form}(p)=2p(p-1)$。** 下列 (1189.1)–(1189.29) 的较大倍数仍然有效；新的较小选择及相应高度界见 (1189.34)–(1189.36)。先取
 
 $$
 \boxed{\quad M_0(p)=p^2(p-1)(p^2-1)\quad}
@@ -317,11 +319,118 @@ $$
 
 本篇不将 (1189.25) 改写成一个 Néron 格等同，也不将上述多项式大小的形式倍数改写成固定盘内的唯一性结论。后续继续将实际模型与首项成本代入 R1186，并与原候选深度比较。
 
-## 7. 来源和核对范围
+## 7. 利用原惯性权空隙，只需一次乘 $p$，并去掉范数次数
+
+前面的通用形式群估计没有充分使用同一点的惯性固定性。本节保留全部原群、原点及实际坐标，得到更小的统一倍数。
+
+### 7.1 两行的全部形式权都严格小于 $pm$
+
+双中心行已经由 (1189.12) 付清 $m\le w_i<pm=e_0-m$，包括原环面方向。compact-type 行则直接消费 R1018 (1018.9)–(1018.10) 的完整权表。为避免把局部 genus 与整个 $J$ 的维数混淆，本节写
+
+$$
+h_{\rm tail}=(p+1)/4,\qquad g_{\rm CM}=(p+1)/12.
+$$
+
+generic 尾和 CM 尾的最大权分别为
+
+$$
+m(2h_{\rm tail}-1)=m^2<pm,
+\qquad
+3m(2g_{\rm CM}-1)=m(p-5)/2<pm.
+$$
+
+Igusa 中心的权是 $p+1$ 的倍数；取 $[0,e_0)$ 中的代表后，最大不超过 $e_0-(p+1)<e_0-m=pm$。这里允许零权，不需要另证中心没有不变微分。于是两行在原完整形式环中均可选同样的整 character 参数，满足
+
+$$
+\sigma Z_i=\xi^{w_i}Z_i,\qquad 0\le w_i<pm<e_0.
+\tag{1189.30}
+$$
+
+§§2–3 已经证明同一实际固定点 $2P$ 属于 $F^m$。由 (1189.16)，
+
+$$
+Q_1:=[p](2P)=2p(p-1)D_0\in F^{pm}\mathscr J_R(R).
+$$
+
+它仍由 $\mathbf Q_p$ 定义，故仍为完整惯性固定点。在双中心行，使用 $\widehat G\simeq\widehat{\mathscr J_R^0}$ 的同一等变形式同构，或直接使用运输后的参数。由 (1189.30)，每个非零 $Z_i(Q_1)$ 的 $\pi_0$ 赋值与 $w_i$ 模 $e_0$ 同余。该赋值至少为 $pm$，而 $w_i<pm$，因此已进入下一同余层：
+
+$$
+v_{\pi_0}(Z_i(Q_1))\ge e_0+w_i\ge e_0.
+$$
+
+当 $w_i=0$ 时同样成立：赋值零不满足 $F^{pm}$，下一个允许值为 $e_0$。零坐标自然满足该不等式。故
+
+$$
+\boxed{\quad Q_1\in F^{e_0}\mathscr J_R(R),
+\qquad Q_1=0\ \text{in }\mathscr J_R(R/pR).\quad}
+\tag{1189.31}
+$$
+
+这一步用的是整个坐标级数上的 character 恒等式和真实固定点，不能仅用切空间上的一个角色或对数首项替代。
+
+### 7.2 素于 $p$ 的形式除法去掉扩域次数
+
+对 (1189.31) 的点原样应用 §5 的光滑 Weil restriction 和实际范数证明，得到
+
+$$
+[e_0]Q_1\in\widehat{\mathscr J_0}(pR_0).
+\tag{1189.32}
+$$
+
+因为 $p\nmid e_0$，$[e_0]$ 在原 $R_0$ 上的单位形式群中是自同构：其常数项为零，线性部是单位矩阵 $e_0I$，形式逆函数递推给一个 $R_0$-整的唯一逆，且在 $pR_0$ 上收敛。因此存在唯一
+
+$$
+Q_0\in\widehat{\mathscr J_0}(pR_0),\qquad
+[e_0]Q_0=[e_0]Q_1.
+$$
+
+将 $Q_0$ 经原 Néron 基变映射送到 $\mathscr J_R$；其约化仍是单位，故它与 $Q_1$ 都在 $\widehat{\mathscr J_R}(\pi_0R)$。于是 $Q_1-Q_0$ 是这个扩域形式群中的 $e_0$ 挠点。仍因 $[e_0]$ 的线性部可逆，它在此形式群中没有非零核，故 $Q_1=Q_0$。由 (1189.24) 的未分歧 Néron 基变和原点的 $\mathbf Q_p$ 有理性，进一步下降回 $\mathbf Z_p$，得到
+
+$$
+\boxed{\quad
+2p(p-1)D_0\in\mathscr J_{\mathbf Z_p}^{1}(\mathbf Z_p).
+\quad}
+\tag{1189.33}
+$$
+
+这没有把分歧基变倒置为同构；先由真实 norm 取得 (1189.32)，再用形式内唯一除法与素于 $p$ 挠点为零。该论证也说明：对这里的任一原有理点，只要已经在扩域上模 $pR$ 为零，范数所带来的素于 $p$ 次数可以如此消去。
+
+### 7.3 每个实际商与更小的点高度
+
+由同一 Néron 函子性，对任意实际 $q:J\to A$，现在可以取
+
+$$
+\boxed{\quad M_{\rm form}(p)=2p(p-1),\qquad
+M_{\rm form}(p)\beta\in\mathscr A^1(\mathbf Z_p),
+\quad\beta=q(D_0).\quad}
+\tag{1189.34}
+$$
+
+特别 $v_p(M_{\rm form})=1$ 且 $M_{\rm form}<2p^2$。仍保 R1182 的原模型成本
+$s=\max\{s_{\exp},v_p(\delta_L)+1\}$，其实际小球输入可加强为
+
+$$
+\boxed{\quad M=p^{s-1}M_{\rm form}(p)=2p^s(p-1),
+\qquad\beta'=M\beta.\quad}
+\tag{1189.35}
+$$
+
+对 R1187 的同一个 $\beta_*$、$K_*$、$\mathcal L$，R1185 的点高度界相应给
+
+$$
+h_\iota(M\beta_*)
+\le72p^{2s}(p-1)^2K_*\frac g{g-1}
+H_{\rm br}(D_p)+\frac{E_{\mathcal L}}3.
+\tag{1189.36}
+$$
+
+这一加强只减少原同点的形式倍数和真实点高度，不改变 $s_{\exp}$、$\delta_L$、原模型基或指定 Abel jet；也不把本原对数泛函的某个指定系数宣布为单位。原全局排点继续。
+
+## 8. 来源和核对范围
 
 1. [R1018](R1018-original-CM-divisor-exact-first-formal-layer.md)，Theorem 1018.1、§§1–2：compact-type 行原实际点 $P$ 的 $F^m$ 深度、同一个 $e_0,m$ 和未分歧底。R1023 的对数首项不是本篇 (1189.5) 的替代输入。
 2. [R1038](R1038-original-p5-Raynaud-lowest-type-and-complete-first-log.md)，§§3–4，尤其 (1038.12)、(1038.15)–(1038.17)：双中心完整图惯性、原 multidegree、唯一 bounded lift、原 Raynaud 形式群和全部实际权。本篇新增 (1189.10) 的二挠结论及其对整个 $J$ 的形式提升。
 3. Siegfried Bosch, Werner Lütkebohmert, Michel Raynaud，*Néron Models*，Ergebnisse der Mathematik und ihrer Grenzgebiete (3), vol.21，Springer，1990。[原书 PDF](https://www.math.stonybrook.edu/~kamenova/homepage_files/Bosch_Raynaud_Neron_Model_tc.pdf)：§7.2 Theorem 1(ii)、Corollary 2，印刷 pp.176–177；§7.6 Theorem 4、Proposition 5，pp.194–196。root 已实读原文和相应页图；§5 另外逐式给出所需范数延拓与点函子证明。
 4. [R1182](R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md) §§2、9，[R1187](R1187-original-bounded-half-rank-quotient-and-polarization.md) §§6、10：原指数域、点高度和实际同源图。本篇仅替换真实形式倍数，不反改任何首项单位或候选覆盖边界。
 
-o2_high_coefficient 另亲读 R1018、R1038 的相应段，纸核完整图角色、二挠下降、两次 $[p]$ 和实际 norm；root 完成证明后直接登记，无新增数学程序或旧窗口重算。Serre 主目标仍 OPEN，继续原模型与全局排点。
+o2_high_coefficient 另亲读 R1018、R1038 的相应段，纸核完整图角色、二挠下降、两次 $[p]$ 和实际 norm；新增 §7 的一次 $[p]$、完整权空隙及素于 $p$ 形式除法亦已逐式核过；root 完成证明后直接登记，无新增数学程序或旧窗口重算。Serre 主目标仍 OPEN，继续原模型与全局排点。
