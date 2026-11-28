@@ -40,7 +40,7 @@
 
 新G10保旧205/第三236及每span G10共958径点，128/192两角组；G11用668径点/256真半格角。G10旧补源1294.517s exit1，只恢复665正式行；[内外反解门冲突及原位修复](notes/2026-11-28-2ecf-polar-G10-source-failure-and-primitive-audited-recovery.md)保持外层5e−14，仅失败行收紧内层2e−15，并在实际返回根用longdouble G16/G32独立审计；其数学源/g不变、consumer身份单列。G10r training已完整自然0/352.484s，原205字节保持；192组仍实际生成，未冒prepared完成。
 
-G11旧源1730.641s exit1，同类冲突，只恢复433正式行、余107重算；新G11 consumer独立冻结，保原物理点/角与全部旧共享行，逐行journal，当前正在补算。G3径点纳入G10后不再冒新模型径向独立观察。R233原背景界不借给变化后的前缀；每个新场完整几何重付。
+[G11旧源失败/433行恢复](notes/2026-11-28-2ecf-polar-G11-source-failure-and-433-row-recovery.md)1730.641s exit1，同类冲突，只恢复433正式行、余107重算；新G11 consumer独立冻结，保原物理点/角与全部旧共享行，逐行journal，当前正在补算。G3径点纳入G10后不再冒新模型径向独立观察。R233原背景界不借给变化后的前缀；每个新场完整几何重付。
 
 [完整XYZ+87个log-radius设计](notes/2026-11-28-2ecf-polar-complete-log-radius-joint-operator-audit.md)小核128列/18480全14行真0，完整J/JT/全部正规跨块核对通过。生产12876列接受仍0；alpha移动明确改变g，找到候选后必须冻结最终alpha再付固定g加密。原固定g G10支并行继续，不互借成本/收敛。强比例和全时reach仍未完成。
 
@@ -50,4 +50,4 @@ G11旧源1730.641s exit1，同类冲突，只恢复433正式行、余107重算�
 
 11月28日已回查Hu的Hexagon2611.00534仍v1：小幅周期闭族未给本题宏观比例。Ghomi等tight surfaces的配对/不可数非刚性不自动给连续弯曲；不重复旧已登记障碍。子问题完成就接open下一项，不能以条件工具、有限几何或运行耗时收尾。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:47:54 UTC；已读公开 main `b211fcf021fe6e9dbc3a4a514a00f2906b3eaf57`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:48:05 UTC；已读公开 main `6f9deeacf47d54980fcd6efec7b35a4d2b68032c`，根/课题 README 逐差无变化。
