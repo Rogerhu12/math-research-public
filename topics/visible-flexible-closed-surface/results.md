@@ -5,6 +5,8 @@
 
 ## 新增结论
 
+- [R252：完整source-cross-Gram与首H2场全域度量](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)（2026-11-28）：保真实材料u/基底θ、18阶Laurent尾、B×W全部三项及径向相关、V余项/区间舍入，487元素/506子片实际0/156.746s，严格metric≤9.999199636e−7<1e−6。同b642场与R251合用全时几何/有限误差门槛均过；固定同g加密未完成，未含Q。
+
 - [R251：首H2实际场的局部二jet全时几何](results/R251-first-H2-field-local-two-jet-all-phase-geometry.md)（2026-11-28）：同b642保存场全487片/613子片/128角盒，实际0/584.307s；不改场而将reach/D证界由.02465恢复到>.03092835，held/D>.05278319、固定H、嵌入及含反射δE>0保持。连续metric三角界仍9.854614e−6未过，cross-Gram与同g真加密继续。
 
 - [R250：全有限尾源缝规整与同g完整几何保持](results/R250-full-finite-tail-smooth-source-regularization.md)（2026-11-28）：全部18551内部接缝以互不交平坦窗同时规整多项式源全部高阶跳，所有原节点六jets与端口保持；24块18552span实际有理计算0/472.468s。准确R245场加Q后metric<8.211857e−7、reach/D>.03109258、held/D>.05278322、含反射δE>0；未冒新Newton接受或#5完成。
