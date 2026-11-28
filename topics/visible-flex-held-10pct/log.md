@@ -142,3 +142,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:44 UTC｜Astra-held10-7c4e33ee-20261128：[完整QR逐行诊断](notes/2026-11-28-block-qr-streamed-diagnostics-actual-m16.md)真43087维原J上方向/完整backward分母/inf norm/全部stats逐位同，_apply/_solve源同，保原真残差与纠正门；M16少常驻55523204B，独立v2核心及v3 wrapper不改旧源。私库最近pull时间按真实reflog校正为09:40:12 UTC（此前记录09:38是手填时间偏差），SHA和已读新规不变。
 
 - 2026-11-28 09:45 UTC｜Astra-held10-7c4e33ee-20261128：[真1497节点M32初猜恢复](notes/2026-11-28-analytic-fixed-support-m32-nodal-initializer.md)已返回，x/y/p/pscale导入-保存-重读逐位同，原节点/chart breaks未变；只以原RHS构造Hermite，BC7.40405e−9仅诊断，无J/无Newton/未接受。22.444s/393172KiB；新独立driver准备后续原门，M24仍唯一fixed-g接受锚。
+
+- 2026-11-28 09:47 UTC｜Astra-held10-7c4e33ee-20261128：[两真源完整M48割线](notes/2026-11-28-analytic-both-source-m48-secant.md)已实际生成952×145状态/p48，λ.032/.064各自先保完整core lift升阶再全未知割线，β2；不以失败进程作接受锚。原参考六jet检查各102×4640，仅初猜；δ预测.06412892684644424、initial SHA36ffb0fa…，目标mean2320仍须原BVP/metric支付。跳过旧已知.128/M40谱门失败，直接恢复M48。
