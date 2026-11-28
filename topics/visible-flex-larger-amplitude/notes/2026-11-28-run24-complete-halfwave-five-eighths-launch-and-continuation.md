@@ -656,3 +656,46 @@ f725完整试点的g为.611899231330644，最大族reach，实际拒绝。当前
   }
 ]
 ```
+
+## 2026-11-28 06:30:07 UTC — 24新试点086003的自身统计返回
+
+0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07自身统计为Phi886.6498827366873、Gram.4729659923630599；新几何/接受未返回，当前仍ff7dc8/accepted2/g.6115910089638068。alpha和方向号仍未投影。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-bfiveeighths-first-20261128",
+  "scientific_source_commit": "0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5",
+  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
+  "pid": 3575,
+  "observed_utc": "2026-11-28T06:28:00Z",
+  "new_actual_observation": {
+    "math_at": "2026-11-28T06:19:52.063761+00:00",
+    "math_event": "trial-statistics-returned",
+    "trial_point": "0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07",
+    "trial_Phi": 886.6498827366873,
+    "trial_Gram": 0.4729659923630599,
+    "trial_alpha": null,
+    "trial_phase": null,
+    "trial_accepted": null,
+    "accepted_directions": 2,
+    "current_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
+    "complete_report": false
+  },
+  "all_other_fields_and_errors": "Preserved in the entire original immutable evidence file below; no stale trial object is rebound."
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
+    "bytes": 59889,
+    "sha256": "121a3c8dd1452947852c0619fb96151161d4f99cf0b66f01e520d3fb0cb31b8b",
+    "git_blob_sha": "6ba74e8eb9a242e9bba3cf8944ba155eb882ff78",
+    "fixed_commit": "405ab36831ff0c73112428b55debed613c5352e8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
