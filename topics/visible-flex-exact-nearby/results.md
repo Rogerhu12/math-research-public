@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GIV：原无穷整源两Airy行共同18/25改进](results/R149-supplement-actual-sharpened-infinite-source-from-both-Airy-root-values.md)：正Laplace与两个根值精确证明全两行幅共同<18/25；GIC原四格每项同乘且开平方合后仍只乘一次。原实际整无穷D<.0661300、自然腰<.378708、公共C97<4.6960、ASQ<.38553，10新Fraction全过，0旧格重算；完整局部之外仍待。
+
 - [ASQ24：真实Sobolev相位选择及规范光滑族](results/R149-supplement-physical-Sobolev-rotation-selection-and-normalized-smooth-family.md)：在原|δ*+k|<1e−10内，|k|≤6e−12，实际实态差E≤5e−14给唯一|k|≤114E；整regular路径斜率≤.005且E(0)≤2e−14给唯一|k|≤260E(0)。原R31 7whole和40新有理比较一次保，真实twist>.048、路径>.021；Yoccoz/Benhenda及真差商给规范C2连续和smooth参数。实际regular路径/强范数/值与tame仍须付。
 
 - [GJR：根窗全部576接缝的两真实参考列接收](results/R149-supplement-genuine-root-window-interface-receiver-on-both-full-reference-columns.md)：原1079 whole中576负侧原缝保全65/193跳及独立均值；以GJS物理跳、GAF两真参考列与原J和SP点注入，在全n≥388接到腰。首发17pins/AST已核，原旧Airy算子不复算；其余1973负侧接口另付。
