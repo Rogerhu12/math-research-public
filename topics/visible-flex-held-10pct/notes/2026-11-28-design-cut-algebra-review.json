@@ -1,0 +1,84 @@
+{
+  "scope": "Independent 75-digit implementation check for complete cut repair algebra.\n\nThese small literal arrays are synthetic finite Fourier data, not an accepted\nprefix or tail.  The checks exercise unequal mode sets, the height zero mode,\nboth signs of planar frequency, angular order three, right-endpoint Hermite\nweights and the complete D2 Gram chain.  They provide no surface certificate.\n",
+  "status": "small_independent_75_digit_checks_passed",
+  "source_sha256_loaded": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7",
+  "source_sha256_at_return": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7",
+  "source_changed_while_checking": false,
+  "checker_sha256": "c92113fb0ad0ffe2195a38b07df74de8abcb21660d5aa162d896cc15f59d0a56",
+  "counts": {
+    "point_complete_cartesian_derivative": 1152,
+    "box_complete_cartesian_derivative": 5760,
+    "right_hermite_derivative": 60,
+    "complete_D2_Gram_radial": 27,
+    "complete_D2_Gram_angular": 81
+  },
+  "union_planar_modes": [
+    -8,
+    -5,
+    -2,
+    1,
+    4,
+    7,
+    10,
+    13
+  ],
+  "union_height_modes": [
+    0,
+    3,
+    6,
+    9,
+    12
+  ],
+  "exact_height_zero_value_cancellation": true,
+  "definition": {
+    "R_exact": "5404319552844595/18014398509481984",
+    "w_exact": "5764607523034235/72057594037927936",
+    "wR_exact": "-8070450532247929/4323455642275676",
+    "ap_definition": "-(1+w*w)^(-1/2)",
+    "app_definition": "-w*wR/(1+w*w)^2",
+    "finite_mean_height_at_cut_exact": "27/32",
+    "tail_mean_value_cancelled_exactly": true,
+    "tail_mean_derivatives_retained": true,
+    "ap_interval": [
+      -0.9968152785361256,
+      -0.9968152785361245
+    ],
+    "app_interval": [
+      0.14744006140246652,
+      0.147440061402467
+    ],
+    "prefix_planar_modes": 5,
+    "tail_planar_modes": 5,
+    "union_planar_modes": 8,
+    "prefix_height_modes": 3,
+    "tail_height_modes": 4,
+    "union_height_modes": 5
+  },
+  "interval_kernel_not_reproved_by_samples": true,
+  "actual_surface_input": false,
+  "solver_invoked": false,
+  "accepted_field_produced": false,
+  "maximum_rss_kib": 66436,
+  "actual_record": "/workspace/scratch/7c4e33ee17de/held10-design-work/cut-algebra-review-20261128-v2/review.json",
+  "actual_record_sha256": "684d57e571096227aef41750c53457f0ff49a0b798148a89997e0f27f4477101",
+  "reviewed_final_function_source_sha256": {
+    "exact_sincos": "666303257707cc2112b3ab25ef447e5511e20e45cf7b6206bb7ae520c4f9b55b",
+    "complete_cut_coefficients": "be444c4b554e61d93cb70e9f4a1bd5dd362a03b929773526cce4cfaffcc1cf59",
+    "cut_angular_tables": "e4c9f796c340cc6ecc1e6b62046b48d46986ebdf4ea576aaae820f693be2a026",
+    "CutMetric.cut_weights": "0bdc69a4ba040436505c811a17d34bd01c4e476b5210e21f7c5ff3e6cccd6e49",
+    "CutMetric.evaluate": "5e7edc61c3166059ab392bfc867ee7d0cb86d3c47639782eb3d2a01e6e321958"
+  },
+  "static_review": {
+    "complete_physical_cut_chain": "T0=R er+tail perturbation with vertical reflection and the original finite cut-height anchor; T1=ap times the complete radius first jet; T2=ap^2 times the complete radius second jet plus app times the complete first jet. ap/app are the exact real expressions of literal R,w, not rounded caches.",
+    "zero_height_mode": "The zeroth height value is zcut+tail_mean-tail_mean=zcut exactly. Only the identical value cancels; tail mean first and second radial derivatives remain in T1/T2.",
+    "complete_mode_union": "Prefix and tail planar modes are merged independently of the height modes. Each source lookup uses its own planar-count offset, and absent source modes are zero. The check deliberately uses unequal sets and both signs of planar frequency.",
+    "angular_third_derivatives": "The third derivatives of cos(m psi), sin(m psi), cos(m psi) are respectively +m^3 sin, -m^3 cos, +m^3 sin, including negative signed m.",
+    "right_Hermite_chain": "W_j(s)=(-L)^j H_j((end-s)/L), and d^r W_j/ds^r=(-1)^(j+r)L^(j-r) H_j^(r). Endpoint cardinal identities through order two were checked with exact fractions from an independently factored polynomial.",
+    "D2_complete_Gram": "Radial Xs uses Wprime/Wsecond/Wthird and angular Xpsi uses Delta_psi/Delta_psipsi/Delta_psipsipsi. The independent normalized Gram uses direct 75-digit Cartesian differentiation, not the interval D2 implementation.",
+    "sector_reuse": "The explicit pm=1 mod3 and hm=0 mod3 checks make the added cut correction threefold covariant. With the target sin/cos(3 psi) chart, the complete normalized Gram remains exactly 2pi/3 periodic.",
+    "join_scope": "At the degenerate interval s=cut_start, cut_weights selects the zero-extension left third jet. The function is C2 there, not claimed C3. Every nonzero-width certificate leaf on the right uses the polynomial branch and encloses its right three-jet.",
+    "remaining_scope": "No actual accepted tail/prefix bundle was loaded in this synthetic review. The new constructor guards, CLI, full inherited cover, continuous curvature and reach obligations are outside this arithmetic check."
+  },
+  "parent_sources_modified": false,
+  "large_J_or_BVP_launched": false
+}

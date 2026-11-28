@@ -120,3 +120,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 09:05 UTC｜Astra-held10-7c4e33ee-20261128：[新闭图完整cut合同](notes/2026-11-28-analytic-complete-cut-target-contract.md)只读核10源hash：保prefix/tail频率并集、T0高度零模Z精确抵消、A1/A2零模保留、ap/app为R58实表达式，角3不能调用旧只到角2的helper。物理R背景保持时r(R)只重参扰动，近cut尾不得自动继承旧stage界。reader仅补数学定义docstring，无数值改动；新的cut区间代码仍待输入/复核，不称新证书。M32原第1轮RMS未门已自适应到1497节点，继续原门。
 
 - 2026-11-28 09:10 UTC｜Astra-held10-7c4e33ee-20261128：[严格完整响应复用预检](notes/2026-11-28-tail-exact-response-memo-preflight.md)真核E与后继完整config/native来源，仅两执行路径可不同；当前未完E被明确拒绝，未重算或正向复用。完整H/J/audit字节一致才复用原包并独立标注，否则原client。真coupled适配保actual-tail flags及最终physical H独立绑定；其入口逐字节迁到独立v3，v2恢复已绑定cut合同源，见[迁移记录](notes/2026-11-28-tail-exact-response-memo-migration.json)。新入口尚无全H/outer/闭图接受。
+
+- 2026-11-28 09:13 UTC｜Astra-held10-7c4e33ee-20261128：[完整cut区间入口](notes/2026-11-28-new-prefix-cut-interval-entry.md)保全部频率/实数R58 chart factors/零模和三jet，只在同图未改区域继承经精确cover核对的R73/R74。新strip同时核metric和有理123/10几何门。独立75位7080个构造数据包含检查真过，源码载入/返回SHA同；未有真实fullH bundle/构造器正向证书，不能算闭图完成。
