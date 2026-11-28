@@ -731,8 +731,8 @@ $N(t)^{-n}\bar t^w\cdot N(t)^n\cdot
 (\Omega_0/\bar t)^w=\Omega_0^w$。
 原 spherical 来源给独立核对
 $\delta^nF_0(yg_t)=N(t)^n\bar t^{-w}\delta^nF_0(y)$。
-特别 $t=c\in\mathbf Z_p^\times$ 时，raw 因子是 $c^3$，
-scalar 费用是 $c^{-3}$；两者相消后才下降到 $\mathcal C_2$。
+特别 $t=c\in\mathbf Z_p^\times$ 时，raw 因子是 $c^{-3}$，
+返回原 frame 的 scalar $j_t(n)$ 是 $c^3$；两者相消后才下降到 $\mathcal C_2$。
 裸 $j_t(n)$ 本身不是该商的 character。
 
 ### 9.4 三个微分及同第一层的真实常数

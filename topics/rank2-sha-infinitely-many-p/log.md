@@ -186,3 +186,12 @@ R1061§21在实际F0(E[p²])中用两层Eisenstein和给定点唯一symmetric li
 root独核两层distinguished Eisenstein/CM模块生成全除点域、给定点E4唯一lift的构造与中心平方条件；核β两方向、51Norm symplectic相位、各old稳定子和H-trace费用。核t=a与idèle逆、冻结χ与log及E20全部正权抵消；把E18前β定义校正为R1060已付的−C/ρ（该有限系数恒等不改）。全纸证，无数学执行。继续完整whole-source关系，不以有限trace或无限lifts非群单独封闭方向。
 
 推前actual readonly run46075603971/job140842457979：公开2026-11-28 03:00:41 UTC至04959b53f761e4328f1419deea632aaf1eb48f92；私库2026-11-28 03:00:48 UTC至9e9aeb83c40c536603c675f1d58d4bb707e7e9c5。四README与02:51已读版相同，QUEUE/认领未变。日志14893B/hash4d3a8544b319f638c99a403c397097775a8a6e46f1c63e59a06f2fe0c94d13da；库存3171/44802819B/treeb5861afac8d7526c4102d1f5365766c379bbd84f，无>5MB/三旧必要gzip不变。最新02:57:37 v13仍in_progress，02:57日志仍4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35，未返新数学终门。旧H逐字归档notes/2026-11-28-handoff-before-wild-galois-and-critical-germs.md（9594B/b63211c5c9042058845143152283f915b4e766e00f6c7d07a1715564bb1b8356）。
+
+
+## 2026-11-28 03:11:15 UTC：同一物理野字的完整临界迹与原Fourier外权
+
+R1061§22将实际物理野字认成同一marked点的第一输出作用，逐完整source/graded CM jet支付Galois相容；裸marked scalar为j⁻¹，乘j才返回原frame。原whole bounded输入经共同Teich正整数逼近，给归一H整迹=(p⁻²−1)旧germ及全log/Maass导数。非零Norm纤维给真实有限critical covector，保p⁻¹ Fourier费用、全部tame extensions及原λ/λ′的准确逆变换；单个未平均字是全部wild分量的和，不自动只有旧项，也不把canonical坏条件拆给各分量。
+
+root重新逐式读R1054(33)–(41)、R1059(A0d)/(A5a)/(A7)–(A10b)，核第一输出方向、每个实际j/Ω/κ和全部Maass极限；geometry独核whole source的h_p、差2角投影、tame/Cor字与graded代数化相容。删去不必要的反向formal Möbius段，避免其tensor方向与marked裸值相混；未将任一小盘形式代换升级为bounded measure。同步勘误R1054(41)后t=c文字：raw为c⁻³、回原frame的j为c³，与原公式及R1059(A0e)一致；未改原公式。全纸证，无新数学执行。
+
+R1061§21已推4d076ee768c77d44ddc827220831619c2fc5d02e。推前actual readonly run46075603971/job140844812973：公开2026-11-28 03:10:00 UTC至de0714405a118808daf3a60533d6541243345cd5；私库2026-11-28 03:10:05 UTC至af99f7754aecc43ab5692925274af3813b93cb2c。四README与03:00已读版完全相同，QUEUE/认领未变。日志14894B/hash5a63174c430e9bb2f9c93ab6fd78496526d3edfb6e864fc225d06f30c3f8e6c5；库存3172blobs/44827527B/tree1f52b8b399e9549cdb2c9690cca406131efa8b02，无>5MB/三旧必要gzip不变。

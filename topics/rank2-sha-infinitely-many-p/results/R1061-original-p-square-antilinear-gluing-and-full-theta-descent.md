@@ -1983,3 +1983,319 @@ $-\log\langle\chi_a\rangle$ 项相消。
 需要保持的完整 period/外权账本。原
 $\mathcal T_{\rm orig}$、其 frozen critical slope 与固定 canonical
 坏条件之间的未平均关系仍按 R1060 的原目标继续求证。
+
+## 22. 真实物理野字、完整 source 积分与临界 germ 的有限 Fourier 返回
+
+本节继续使用 R1054(35)、(59)--(65)、R1059(A0d)、
+(A5a)、(A8)--(A16) 和 R1060(3a)、(6)、(26) 的同一来源。
+这里的野操作是§21已经识别的物理 Galois 作用；不是另加
+旧正权 seesaw 的两个 output-torus projector。
+全迹的结论确实回到旧来源。非平凡分量则给同一批实际 bounded
+输入的合法临界 covector；它们没有因此获得原 canonical 坏条件。
+
+### 22.1. 物理 Galois 恰是原 CM 标记的第一输出作用
+
+记
+\[
+ v_{\rm old}=v_0\otimes v_0,\qquad L=K-v_{\rm old}.
+\]
+仍用(E15)的真实 norm-one lifts
+\(a_l=(1+pl\delta/2)/(1-pl\delta/2)\)，\(0\le l<p\)。
+它们只在模 \(p^2\) 后构成 \(\mathcal H\)。
+令
+\[
+ {\cal A}_l=\rho_-(a_l)\otimes\rho_+(\bar a_l),\qquad
+ \chi_l=a_l/\bar a_l=a_l^2 .
+\]
+原 coevaluation 和 \(t_0\) 在同一 CM torus 中，故
+\[
+ (\rho_-(a)\otimes\rho_+(a))K=K,\qquad
+ (\rho_-(a)\otimes\rho_+(a))v_{\rm old}=v_{\rm old}.
+\]
+两个输出作用交换，所以准确有
+\[
+ \boxed{\quad
+ {\cal A}_lK=(\rho_-(\chi_l)\otimes1)K,\qquad
+ {\cal A}_lv_{\rm old}=v_{\rm old}.
+ \quad}                                                    \tag{F1}
+\]
+R1054(33)--(35)已经用实际行/列、原 \(a=17/2\)、全部
+splitting 和整球锚把右边认成
+\(\mathcal W_a\omega_\psi(\bar a_l,g_{a_l,{\rm Ch}})
+\mathcal W_a^{-1}\)。因而(F1)正是 book 的标记
+\(y\mapsto yg_{a_l}\) 的实际有限来源；没有用 Hom 维数代替
+来源等式，也没有把 positive 与 negative 的 CM 方向互换。
+相应 AI 局部 idèle 仍为 \(a_l^{-1}\)。
+
+对每个好 \(p\) 和每个原 tame/CM 基字 \(i\)，使用它原本的
+曲线、代数微分、CM splitting 和全部 source normalization。
+由这些实际数据取出的第 \(n\) 个内在 CM jet，记为
+\[
+ r_{i,n}(M),\qquad n\ge0,
+\]
+其中 \(M\) 只是该原输入的 \(p^2\) 有限 tensor 槽。
+这是原完整 normal-ordered kernel 的代数 CM 读数，不是任意
+新的 rank-one 函数。特别 \(r_{i,n}(L)\) 仍包含实际
+\(-w_0+W_p\)、full2/full9 和原 \(-\delta f_4(\tau/6)\) 的尺度。
+
+### 22.2. 哪个完整 source 操作确实与物理野字相容
+
+先固定原 tame/Artin/Cor 展开中的一个字；整个有限和最后原样
+施加。取§21的 \(F_0,F_1,F_2\)，把这个字的固定代数系数、
+刚性化及微分包含在 \(F_0\)。只删原固定数域在 \(p\) 的有限
+分歧集。特别不把复 period 或 book period 放入 \(F_0\)。
+
+这一个原 source 积分有以下三个具体部分。
+
+* 在 \(p\) 处，原 input \(U(1)\) 是对角
+  \(\rho_-(h_p)\otimes\rho_+(h_p)\)。惰性处 norm-one
+  元素的赋值为零；原 source character 与 splitting 在这些
+  单位上不分歧。它与(F1)的第一输出 torus 作用交换。
+  有限核的中心 \(\mu_{p^2}\) 又被 \(\mathcal H\) 固定。
+* 原无穷圆周积分恰为 R1060(26) 的
+  \[
+   {\mathsf P}_2F=\int_{|h|=1}h^{-2}F(h^{-1}Z,hW)\,d^\times h .
+  \]
+  在每个有限双槽上，它只是保留 \(s-r=2\) 的 \(0/1\)
+  系数操作。实际 arch 运输和 normal ordering 均先完整保留；
+  这不是给单个未积分的 rank-one 因子另造一个代数模型。
+* 非 \(p\) Schwartz、原固定有限 character、Haar 常数及
+  tame/level 运输都保持原来的数据。在有限槽完成
+  R1060(9)--(11) 的 graded 代数化以后，这些系数在
+  \(F_0\) 中。GM 连接、极化 KS 和 CM splitting 同样在该
+  已固定代数 frame 中定义，因而与 \(\sigma_l\) 相容。
+
+有限 \(h_p\) 层可以在共同实际有限级上细分为有限代表；
+每个固定 arch 槽的紧积分及格点和按原证明收敛。
+因此先在完整复来源上作上述角投影、再按真实微分代数化，
+与先作用原有限野字所得的代数 CM jet 相同。
+这里并未把复 period 作为一个数嵌入 \(\mathbf C_p\)，
+也未给尚未取有限槽的整个 \(h_\infty\) 被积函数声明
+\(F_0\) 模型。
+
+结合(E4)、(E7)--(E10)的实际 theta-group Galois 运输，得到
+\[
+ \boxed{\quad
+ r_{i,n}({\cal A}_lL)=\sigma_l\bigl(r_{i,n}(L)\bigr),
+ \qquad r_{i,n}(v_{\rm old})\in F_0 .
+ \quad}                                                    \tag{F2}
+\]
+左边的 \({\cal A}_l\) 是作用在实际 theta 基上的矩阵。
+不能把它误写成只对 \(K_{AB}\) 的数字系数作 Galois：
+\(\mathcal H\) 固定 \(\mu_{p^2}\)，其非平凡作用正在实际
+Mumford/Weyl 基及 paired Miller 常数上。
+
+本论证没有追加旧 output-torus 的 \(n\equiv4\bmod6\)
+两个角色。它只用同一个 input source 的角色，因此(F2)
+对全部 \(n\ge0\) 及其完整下 Maass 槽成立。
+若原 Cor 重标了 CM embedding，先使用该字自己的实际
+Tate 基和 \(\mathcal H\) 标号，再按原 Cor 矩阵求和；
+不能将一个非平凡 Fourier character 不经运输就移过 Cor。
+平凡整迹不受这种重标影响。
+
+### 22.3. 原 period 与 tensor 归一；不制造新的 bounded measure
+
+令 \(A_{i,l}\) 为真实点 \(y_i g_{a_l}\) 上、由原 good/bad
+返回得到的裸 bounded \(Q_2\) 来源。它们是 R1059 所用的
+实际输入。记原基字的周期和 Tate pairing 为
+\(\Omega_i,\kappa_i\)；\(C_i\) 为其完整 Maass 常数。
+
+原 KS/Hodge 账本给
+\[
+ \kappa_{i,l}=N(a_l)\kappa_i,\qquad
+ \Omega_{i,l}=\Omega_i/\bar a_l,\qquad C_{i,l}=C_i,\qquad
+ j_l(j)=N(a_l)^{-j}\bar a_l^{\,3+2j}.                         \tag{F3}
+\]
+在当前 norm-one lifts 上 \(N(a_l)=1\)；仍显示这个因子以锁
+其来源。由 R1059(A0d)和(F2)，每个正整数的完整 unflat 值是
+\[
+ \begin{split}
+ R^{\rm raw}_{i,l,n}
+ &=p^{2n}\kappa_{i,l}^{\,n}\Omega_{i,l}^{\,3+2n}
+                       r_{i,n}({\cal A}_lL),\\
+ \boxed{\quad
+ j_l(n)R^{\rm raw}_{i,l,n}
+ &=p^{2n}\kappa_i^{\,n}\Omega_i^{\,3+2n}
+                      \sigma_l(r_{i,n}(L)).
+ \quad}                                                    \tag{F4}
+ \end{split}
+\]
+所有实际 \(a^n\)、阶乘、graded source 尺度已经在
+\(r_{i,n}\) 的同一内在 CM 定义中；这里不再另归一一次。
+(F4)只对代数 CM jet 施 \(\sigma_l\)，然后乘原固定 period
+因子；不声称存在一个连续的 \(\mathbf C_p\) 自同构同时
+固定 \(\Omega_i\) 并延长该有限 Galois 元素。
+
+(F4)的方向是：先在 marked 点读取裸 scalar，再乘 \(j_l(n)\)
+将整个 tensor 返回原 frame。因此裸 marked 值的因子是
+\(j_l(n)^{-1}\)，不是 \(j_l(n)\)。
+本节不用一个形式 Möbius pullback 构造新的 bounded 来源，
+也不把反方向的 tensor pullback 当作 \(A_{i,l}\) 本身。
+
+### 22.4. 同一整迹真正回到旧 germ，连一阶项一起成立
+
+令 \(F_{0,i}\) 为该基字原未改动的旧 bounded 来源。
+由(E12)、(F2)和(F4)，对每个 \(n\ge0\)，
+\[
+ \boxed{\quad
+ \frac1p\sum_{l=0}^{p-1}j_l(n)R^{\rm raw}_{i,l,n}
+     =(p^{-2}-1)R^{\rm raw}_{0,i,n}.
+ \quad}                                                    \tag{F5}
+\]
+这里 \(p^{-2}\) 是原 coevaluation Haar 系数。
+没有把其估值成本改成单位，也没有物化一个额外的
+output-torus 平均。
+
+取 R1059(A7)--(A8) 的共同 Teich/指数盘和正整数子列。
+有限个 \(A_{i,l}\)、\(F_{0,i}\) 均有实际 coefficient 界；
+(A9)--(A10b)对全部 Maass 项给统一收敛，而 \(j_l(j)\)
+是该盘上的解析单位外权。因此(F5)严格延成整个 germ：
+\[
+ \boxed{\quad
+ \frac1p\sum_l j_l(j)\mathcal M_{A_{i,l}}(j)
+       =(p^{-2}-1)\mathcal M_{F_{0,i}}(j).
+ \quad}                                                    \tag{F6}
+\]
+先在盘内每个 \(\mathbf Z_p\) 点用共同正整数逼近证明，
+再用已付 Tate 解析性；没有对 \(p^{2j}\) 作权插值。
+若两个实际 lifts 模 \(p^2\) 相同，(F4)的归一正整数值
+相同，同一个论证也证明其归一 germ 相同。
+因此这些归一 germ 确实经过有限 \(\mathcal H\)；
+无限 lifts 本身仍不组成阶 \(p\) 群。
+
+记 R1059(A14)的真实值和全斜率为
+\(I_{i,l}^Q=\mathcal M_{A_{i,l}}(-2)\)、
+\(L_{i,l}^Q=\mathcal M'_{A_{i,l}}(-2)\)。
+由于 \(j_l(-2)=a_l\) 及
+\(j'_l/j_l=-\log\langle\chi_l\rangle\)，(F6)准确给
+\[
+ \begin{split}
+ \frac1p\sum_l a_l I_{i,l}^Q
+    &=(p^{-2}-1)\mathcal M_{F_{0,i}}(-2),\\
+ \frac1p\sum_l a_l
+  \bigl(L_{i,l}^Q-\log\langle\chi_l\rangle I_{i,l}^Q\bigr)
+    &=(p^{-2}-1)\mathcal M'_{F_{0,i}}(-2).
+ \end{split}                                               \tag{F7}
+\]
+每个 \(L^Q\) 仍含完整
+\(-\sum_{r\ge1}(r+1)(r-1)!C_i^r\int x^{-2-r}d\mu\)。
+(F7)说明负二冻结核中的 \(\chi_l^{\,\ell+2}\) 与
+\(-\log\chi_l\) 确实可以在**这个 whole 身份**中相容，
+不能只凭其中一项宣布实际迹不可能成立。
+
+(F6)右边不是逐字零。本稿只把整迹识别为原旧 germ。
+只有最后的原外权和已被识别成 R1052 的同一完整 toric germ，
+或 R1059(A13)许可的精确零组合，才可消去它；其导数也须
+按同一范围处理。这一整迹本身不提供新的非零来源。
+
+### 22.5. 非平凡 Norm 纤维的合法临界读者
+
+对 \(b\in\mathbf F_p\)，定义同一批实际输入的有限 covector
+\[
+ \boxed{\quad
+ {\cal F}_{i,b}(j)=
+   \frac1p\sum_{l=0}^{p-1}
+      \zeta_p^{-bl}j_l(j)\mathcal M_{A_{i,l}}(j).
+ \quad}                                                    \tag{F8}
+\]
+这是有限个已付 bounded-source germ 连实际解析外权的组合。
+不宣称它本身来自另一个自由缩放的 \(\mathbf Z_p\) 测度。
+因 \(p^{-1}\) 存在，其 coefficient/误差界须保这一位费用。
+
+由(E9)的原绝对号，对 \(b\ne0\)，其正整数来源正是
+\[
+ \begin{split}
+ P_bL
+ &=\frac1p\sum_l\zeta_p^{-bl}{\cal A}_lL\\
+ &=\frac1{p^2}
+   \sum_{\substack{v=(r,s)\bmod p\\
+       51N(s/51+\delta r)=b}}
+       W_-(v)v_0\otimes W_+(M(t_0)v)v_0 .
+ \end{split}                                               \tag{F9}
+\]
+每个非零 norm 纤维有 \(p+1\) 个原字，全部 center、两条
+三挠 Miller 和 non-\(p\) 来源都按原
+\(\mathfrak T_{\rm orig}\) 施加在这个**整和**上。
+旧项在非平凡 \(b\) 下精确为零。
+在 \(b=0\) 时，
+\(P_0L=(p^{-2}-1)v_{\rm old}\)，故(F8)回(F6)。
+
+这也锁定 R1054 负输出标签：允许的 \(\vartheta\) 须满足
+\[
+ \vartheta(a_l/\bar a_l)=\zeta_p^{bl}.
+                                                               \tag{F10}
+\]
+因 \(a_l/\bar a_l=a_l^2\)，在 \(T_1\) 原参数上有这一个
+平方/半指数费用；不能把 Hall 线、positive 标签和这里的
+negative 标签直接同名相认。
+固定非零 wild restriction 仍保 \(p+1\) 个 tame extensions。
+原 \(\mu_6\)、full2/full9、17 及 Artin/Cor 条件继续作用，
+不从局部每字单重推出每个全局字均非零或均有同一 global
+AI Hecke character。
+
+(F8)在负端点及斜率的准确式为
+\[
+ \begin{split}
+ {\cal F}_{i,b}(-2)
+    &=p^{-1}\sum_l\zeta_p^{-bl}a_l I_{i,l}^Q,\\
+ {\cal F}'_{i,b}(-2)
+    &=p^{-1}\sum_l\zeta_p^{-bl}a_l
+       \bigl(L_{i,l}^Q-\log\langle\chi_l\rangle I_{i,l}^Q\bigr).
+ \end{split}                                               \tag{F11}
+\]
+因此(F9)确实给 actual critical germ 的来源，而不只是一个
+没有 bounded 输入的有限 theta 向量。
+它尚未证明这个 whole 来源、其值或其斜率非零。
+
+### 22.6. 原冻结外权的精确 Fourier 账本
+
+把原有限 word 集合按上述实际 wild orbits 收齐；
+未在原读者出现的字，只给原外系数补零，绝不新增坏条件。
+以相对于基字的规范写
+\(\Lambda_{i,l}(j)=\lambda_{i,l}(j)j_l(j)\)。
+原先已有的其它标记因子仍在 \(\lambda_{i,l}\) 中，
+其导数不能删去。定义不带新 Haar 归一的有限和
+\[
+ \ell_{i,b}(j)=\sum_{l=0}^{p-1}
+                    \lambda_{i,l}(j)\zeta_p^{bl}.            \tag{F12}
+\]
+因为(F8)的逆变换为
+\(j_l\mathcal M_{A_{i,l}}=\sum_b\zeta_p^{bl}{\cal F}_{i,b}\)，
+原整个 reader 严格等于
+\[
+ \boxed{\quad
+ \sum_{i,l}\Lambda_{i,l}(j)\mathcal M_{A_{i,l}}(j)
+       =\sum_{i,b}\ell_{i,b}(j){\cal F}_{i,b}(j).
+ \quad}                                                    \tag{F13}
+\]
+(F12)--(F13)保原所有 \(1/p\)、\(1/(p+1)\)、tame Haar 和
+Artin 系数；若它们本来在 \(\lambda\) 内，不再另除一次。
+
+在 \(j=-2\) 的原完整斜率因此为
+\[
+ \boxed{\quad
+ \sum_{i,b}
+   \left\{\ell'_{i,b}(-2){\cal F}_{i,b}(-2)
+              +\ell_{i,b}(-2){\cal F}'_{i,b}(-2)\right\}.
+ \quad}                                                    \tag{F14}
+\]
+这条有限式使用真正冻结的 \(\Lambda(-2),\Lambda'(-2)\)；
+没有用某一正整数槽的 \(\lambda(n)\) 代替它。
+例如未作野平均的单个基字，只对应
+\(\lambda_{i,0}=\lambda_i,\lambda_{i,l}=0\ (l\ne0)\)，
+此时每个 \(\ell_{i,b}=\lambda_i\)，即原读者是全部 wild
+分量的和，绝不是只取 \(b=0\)。
+若真实原操作确为平凡整迹，才只留下(F6)的旧部分。
+
+本节实际支付了 full source 与物理野字的对应、正确 tensor
+归一、整迹的 whole germ，以及非平凡 Norm 纤维的合法有限
+critical covector。剩余非零门必须作用于(F9)经过原全部
+\(\mathfrak T_{\rm orig}\) 后的来源。
+§20的指定 \(D_-\) 首4、\(S\) 首6 seed leading，
+或(C15)只控制较低 \(Z_Q\) 幂的间隔，都不能自动代替这个
+whole 源；原未投影低槽及 paired Miller 高修正仍须逐项保留。
+同样，固定 canonical 的原线性坏条件不会因为(F13)是可逆
+有限分解，就分别传给各个 \({\cal F}_{i,b}\)。
+
+本节均为原来源、有限矩阵、代数连接及已付一致尾的纸笔证明；
+没有新数值执行，没有恢复 usual/flat cross。

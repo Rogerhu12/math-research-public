@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际pull、已读规则和认领
 
-readonly run46075603971/job140842457979，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
-- 公开2026-11-28 03:00:41 UTC实际partial clone/pull至04959b53f761e4328f1419deea632aaf1eb48f92。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 03:00:48 UTC实际至9e9aeb83c40c536603c675f1d58d4bb707e7e9c5。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与02:51已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
-- 日志14893B/SHA256 4d3a8544b319f638c99a403c397097775a8a6e46f1c63e59a06f2fe0c94d13da；完整库存3171blobs/44802819B，treeb5861afac8d7526c4102d1f5365766c379bbd84f，无>5MB，三旧必要gzip不变。
-- 每推前新实际pull；最迟2026-11-28 04:00UTC再拉两库。非FF本地pull无环境时用CI实际pull、核新差异后继续，不force，API比较不冒pull。
+readonly run46075603971/job140844812973，source e5309ee152260aa4aef389c7d5d68bac1cf8b116：
+- 公开2026-11-28 03:10:00 UTC实际partial clone/pull至de0714405a118808daf3a60533d6541243345cd5。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 03:10:05 UTC实际至af99f7754aecc43ab5692925274af3813b93cb2c。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与03:00已读版完全相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
+- 日志14894B/SHA256 5a63174c430e9bb2f9c93ab6fd78496526d3edfb6e864fc225d06f30c3f8e6c5；完整库存3172blobs/44827527B，tree1f52b8b399e9549cdb2c9690cca406131efa8b02，无>5MB，三旧必要gzip不变。
+- 每推前新实际pull；最迟2026-11-28 04:10UTC再拉两库。非FF本地pull无环境时用CI实际pull、核新差异后继续，不force，API比较不冒pull。
 - 本地07:20失联；02:46 ref竞争后pull --rebase仍无环境，末本地07:12至1cf10ac。API/CI/本地分记。
 
 ## 唯一原完整厚几何v13
@@ -44,8 +44,8 @@ readonly run46075603971/job140842457979，source e5309ee152260aa4aef389c7d5d68ba
 
 R1061 C1–19付原division-field Z_Q=−r″/(2p²r′)、全jet和整U首d槽：vZ_Q=−1+p/(p²−1)。全m最高Z项严格支配，cover导数exact a/(p²−1)+mp/(p²−1)，严格Lie盘及边界不Tate/全Q精度均付。
 D1–8付γ102的Norm(g)=3与全graded字符和；指定D−⊗S的cover(p−7,p−5)槽v=−12/(p+1)、形式P2非零，但critical tame−2首层全消。
-E1–20付两层Eisenstein/F2、给定点唯一symmetric lift、physical Gal反向作用和ζp^(51lN(u))真野角色，完整代数H-trace=p^-1old。实际t=a/idèle a^-1、Ω/ρ/C、χ^(ℓ+2)/−logχ与正权tensor抵消全保；尚未把有限迹当whole reader。
-central正把GalK=[ρ−(a²)⊗1]K的actual marked身份接到各原bounded来源的全germ；arith付同一translated jet去主指数后的全m Newton族/critical端点；geometry核原R716 canonical χ_{p,r}的tame0（保wild）真实余层。未给任何新字canonical零，不追加免费pcompact平均。
+E1–20付两层Eisenstein/F2、给定点唯一symmetric lift、physical Gal反向作用和ζp^(51lN(u))真野角色，完整代数H-trace=p^-1old。实际t=a/idèle a^-1、Ω/ρ/C、χ^(ℓ+2)/−logχ与正权tensor抵消全保；whole reader续由下列F支付。
+F1–14现以GalK=[ρ−(a²)⊗1]K与原h/graded代数化付实际marked身份；裸scalar为j⁻¹，归一whole H-trace=(p⁻²−1)旧germ及全log/Maass导数。非平凡Norm-b是实际critical covector；原冻结λ/λ′由有限Fourier全返回，单未平均字含全部b。R1054(41)后t=c文字同步正为raw c⁻³/j c³。central接full T_orig和原R716 Hall/Iwasawa；arith付normalized全m Newton族/critical端点；geometry核canonical tame0的全Miller余层。三者均不赋新字canonical零。
 
 [连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)优先：literal通常剔除阶乘数列不能连接非零连续族，旧full54/六线/ψ4连续cross与共同F单位仍条件化。p227/u1辅助65537只char0非零、非227单位；不重算。direct proper/晶体残余/R1049 signed桥各保原范围，不删outward。
 

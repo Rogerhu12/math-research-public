@@ -329,3 +329,10 @@ R1061§20消费同一Miller全jet，付实际γ102的Norm(g)=3及全部p²−1�
 R1061§21在实际F0(E[p²])中用两层Eisenstein和给定点唯一symmetric lift锁定paired Miller常数；physical CM Galois在两有限模型方向相反，原非零Q字的野字符严格为ζ_p^(51lN(u))。完整代数H-trace给p^-1旧字及全部jet，通常比较conjugate graphs；它不是已加入原reader的平均。原物理t=a/idèle a^-1、Ω/ρ/C、冻结χ^(ℓ+2)与−logχ全部保，β=−C/ρ；也明记正权tensor的精确相消，完整germ是否归迹须由同一whole-source身份判断。
 
 [完整证明](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，E1–E20。
+
+
+### R1061 §22：原完整来源的实际野迹与全临界 Fourier 返回
+
+R1061§22将实际物理野字认成同一marked点的第一输出作用，逐完整source/graded CM jet支付Galois相容；裸marked scalar为j⁻¹，乘j才返回原frame。原whole bounded输入经共同Teich正整数逼近，给归一H整迹=(p⁻²−1)旧germ及全log/Maass导数。非零Norm纤维给真实有限critical covector，保p⁻¹ Fourier费用、全部tame extensions及原λ/λ′的准确逆变换；单个未平均字是全部wild分量的和，不自动只有旧项，也不把canonical坏条件拆给各分量。
+
+[完整证明](results/R1061-original-p-square-antilinear-gluing-and-full-theta-descent.md)，F1–F14。
