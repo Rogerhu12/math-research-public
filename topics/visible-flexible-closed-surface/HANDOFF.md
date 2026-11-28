@@ -48,7 +48,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-HF-new-length --> [新正长度g双钟后三次完整XYZ](notes/2026-11-28-2ecf-strong-hf-two-clocks-three-full-XYZ-steps.md)：原成本下降，G11 .187979/κ19.8488，未过。
 
-<!-- 2ecf-HF-both-material-clocks --> [同g真实14820维h/M32角剪切和全角对](notes/2026-11-28-2ecf-strong-hf-real-refined-ring-spectrum.md) 首段G11 .08658509/19.27108，末段.11081392/18.25365。
+<!-- 2ecf-HF-both-material-clocks --> [同g14820真实位置后1190全周期材料钟](notes/2026-11-28-2ecf-strong-hf-refined-shear-material-1190.md)：独立 G11 .08384932/κ19.27049；仍缺容差/reach。
 
 <!-- 2ecf-r272-grafted-HF --> [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)两强形状比例已付；[R279](results/R279-actual-HF-strong-shape-and-strict-reach-failure-under-clocks.md)原像严格 reach/D<.014832，双钟/新g保像转移该失败；需改XYZ。
 
@@ -64,4 +64,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:55:58 UTC；已读公开 main `2e040fd9ee665b0fb1bd97d9699327e964bd14f3`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:56:11 UTC；已读公开 main `158998f3058b6f84c13fbf53477c3af9455ecd6c`，根/课题 README 逐差无变化。
