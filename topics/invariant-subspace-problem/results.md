@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R12：原Walsh根统一median间隙与迹类物理极化](results/R12-appendix-uniform-walsh-root-median-gap-and-trace-class-physical-polarization.md)：保真实8^L次项，两个固定字的四相位有理间隙给全行≥16^m8^L/12；全部有限分支/直和ΠR−F迹类、实际酉W−I迹类，真两坐标injective/dense。R²仅在DomR稳定域，完整原carry保，未造C根。
+
 - [R150 unit211：正确fu同点C92原覆盖与261权对](results/R150-appendix-unit211-Phi-zero-true-fu-C92-same-point-original-weight-cover.md)：固定12坐标容器中前18原列给常数1，全部DAG分母付C92^13；实测rad88，独立原u0全排除后87个u与至多261权对。全部原y纤维保，.470012789秒/41612KiB/0，非整支排空。
 
 - [R150 unit211：正确fu支的t−2和θ原单位](results/R150-appendix-unit211-Phi-zero-fu-t-minus-two-and-theta-original-units.md)：真R给x=u+t/4，真odd mean给r0=δEBo+(t−2)B0，再由E0线性式给θ=u−ellQ的完整原逆；全部u0保、不借旧错头。直接纸证，未另称执行。
