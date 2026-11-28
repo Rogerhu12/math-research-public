@@ -68,6 +68,33 @@ def load(path,name):
     module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);return module
 
 
+OLD_REVIEW=TOPIC+"/notes/2026-11-20-reviewed-public-CI-rules.json"
+REVIEW=TOPIC+"/notes/2026-11-28-read-public-model-ultra-rules.json"
+REVIEW_SHA="32fa03fbdb357d7d5a98b7115a24acc10f218705a1ecdef2e756ff73284098ce"
+
+
+def current_review(root,spec,old_raw):
+    raw=(root/REVIEW).read_bytes()
+    require(sha(raw)==REVIEW_SHA,"the whole actually reviewed rule-16 receipt")
+    blob=hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\0"+raw).hexdigest()
+    descriptor={"path":REVIEW,"bytes":len(raw),"sha256":sha(raw),"git_blob_sha":blob}
+    if spec["path"]==REVIEW:
+        require(old_raw==raw and all(spec[key]==value for key,value in descriptor.items()),
+                "the SC worker uses this same whole current review")
+        old_raw=(root/OLD_REVIEW).read_bytes()
+        spec=parse(raw)["supersedes_review"]
+    old,new=parse(old_raw),parse(raw)
+    require(old_raw==(root/OLD_REVIEW).read_bytes() and spec["path"]==OLD_REVIEW
+        and all(new["supersedes_review"][key]==spec[key] for key in ("path","bytes","sha256","git_blob_sha"))
+        and len(old_raw)==spec["bytes"] and sha(old_raw)==spec["sha256"]
+        and new["previously_read_readme_sha256"]==old["readme_sha256"]
+        and new["large_data_policy"]==old["large_data_policy"]
+        and new["model"]=="gpt-6.2-astra" and new["reasoning_effort"]=="ultra"
+        and new["new_unread_rules_must_still_be_reported_and_applied"] is True,
+        "all original rules and the independently read appended public rule")
+    return descriptor
+
+
 def original_input_prefix(root):
     path=Path(root)/SC_WORKER;raw=path.read_bytes()
     require(sha(raw)==SC_WORKER_SHA,"whole frozen SC public input/publication machinery")
@@ -81,8 +108,13 @@ def original_input_prefix(root):
            and node.body and ast.dump(node.body[0])==ast.dump(first)]
     require(len(stops)==1,"one exact boundary before reservation and original scientific branch")
     function.body=function.body[:stops[0]]+ast.parse(PREFIX_TAIL).body
+    review_node=ast.parse("review_spec = by_role['reviewed_rules']").body[0]
+    reviews=[i for i,node in enumerate(function.body) if ast.dump(node)==ast.dump(review_node)]
+    require(len(reviews)==1,"one complete original SC administrative rule source")
+    function.body.insert(reviews[0]+1,ast.parse(
+        'review_spec = current_review(root,review_spec,checked_bytes(review_spec,entry_head)[0])').body[0])
     fragment=ast.Module(body=[function],type_ignores=[]);ast.fix_missing_locations(fragment)
-    namespace=dict(original.__dict__)
+    namespace={**original.__dict__,"current_review":current_review}
     exec(compile(fragment,"<CFC unchanged original input preparation prefix>","exec"),namespace)
     return namespace["main"]
 
@@ -113,6 +145,20 @@ def validate_actual(raw,manifest,digest,run):
             require(value["rows"]==value["columns"]==96 and value["signed_entry_count"]==9216
                 and value["same_original_model_phase_and_C_inverse"] is True
                 and value["complete_opposite_head_and_tail_retained"] is True,"whole signed original Theta block")
+        if index==9:
+            recovered=value["complete_ASQ18_finite_coordinate_recovery"]
+            require(recovered["complete_rows"]==recovered["complete_columns"]==96
+                and recovered["whole_Theta_global_error_upper"]=="13/50"
+                and recovered["T_inverse_norm_upper"]=="1347/500"
+                and recovered["T_low_block_error_upper"]=="1/40"
+                and recovered["complete_CFC_signed_Theta_center"]
+                    ==doc["new_records"][manifest["target_order"][8]]["whole_signed_center_carrier"]
+                and recovered["exact_center_order"]==["original_UACT_trial_inverse","complete_CFC_signed_Theta_center"]
+                and recovered["exact_signed_product_carrier"]["name"]=="complete_ASQ18_recovered_signed_physical_columns"
+                and len(recovered["exact_signed_product_carrier"]["sha256"])==64
+                and recovered["necessary_original_carrier_restoration"]["old_scientific_targets_called"]==0
+                and recovered["full_physical_Schur_inverse_proved"] is False,
+                "the independent ASQ18 inverse acts on all 96 signed physical columns")
     if doc["complete"]:
         require(count==10 and doc["proved"] is True and doc["actual_returncode"]==0
             and doc["failure"] is None and doc["runtime"]==manifest["runtime"]

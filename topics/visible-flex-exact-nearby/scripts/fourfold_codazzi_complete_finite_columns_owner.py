@@ -88,6 +88,51 @@ def closure(root, manifest):
     return specs, raws, paths
 
 
+ASQ18_MATH = TOPIC + "/scripts/fourfold_codazzi_asq18_CFC_finite_reconstruction.py"
+ASQ18_MATH_SHA = "e984f6cde3a0d36c0edccd96f763ec257a0d5559bd1b36311ef3922e58eff22d"
+ASQ18_PROOF = TOPIC + "/results/R149-supplement-actual-signed-Theta-trial-and-finite-inverse-by-primitive-residual.md"
+ASQ20_PROOF = TOPIC + "/results/R149-supplement-actual-low-coordinate-recovery-on-complete-physical-columns.md"
+H96_RESUME_MANIFEST_SHA = "e730fd1e12b72356c88aa7718f8baa4e5e5c083e66a60a6612d71028d281ef69"
+H96_RESUME_WORKER_SHA = "735b03dae67f035ca52464e5f4605c5b235479a1bbfedccfa095ff9164193b03"
+H96_RESUME_OWNER_SHA = "538e9198a2b04fcb75389aefe95422ab6df909be3efbfe4a412f54aeab288981"
+
+
+def original_public_validator(root, worker, definition, env):
+    if env["args"].manifest_sha == H96_RESUME_MANIFEST_SHA:
+        specs = env["by_role"]
+        require(specs["worker"]["sha256"] == H96_RESUME_WORKER_SHA
+                and specs["science"]["sha256"] == H96_RESUME_OWNER_SHA,
+                "the whole first H96 suffix public and scientific definitions")
+        funcs = [node for node in ast.walk(worker.build_adapter(root))
+                 if isinstance(node, ast.FunctionDef) and node.name == "validate_output"]
+        require(len(funcs) == 1, "the unique actual public H96 suffix validator")
+        validator = ast.fix_missing_locations(ast.Module(body=funcs,type_ignores=[]))
+        env.update(definitions=definition, PARENT=definition.PARENT_RUN)
+    else:
+        validator = textwrap.dedent(worker.VALIDATOR)
+    exec(compile(validator, "<CFC whole original public validator>", "exec"), env)
+    return env["validate_output"]
+
+
+def height_context(height, hm, hraws, hpaths):
+    owner = height["owner"]
+    if sha(height["manifest_raw"]) != H96_RESUME_MANIFEST_SHA:
+        return owner.admit(hm,hraws,hpaths)
+    old, parent = owner.check_parent(hraws)
+    actual = height["actual"]
+    require(hm["resume"] == actual["resume"] == owner.RECEIPT
+            and hm["problem_id"] == owner.PROBLEM and hm["historical_inputs"] == old["historical_inputs"]
+            and actual["identity"]["run_id"] != owner.PARENT_RUN
+            and actual["height_integral_prefix"]["complete_relative_cells"] == 2847
+            and all(actual[key] == parent[key] for key in owner.CARRIERS)
+            and all(any(all(new[k] == entry[k] for k in ("path","sha256","bytes","git_blob_sha"))
+                        for new in hm["files"]) for entry in old["files"]),
+            "the same complete original closure, cumulative height, and authentic all96 carrier lineage")
+    path = hpaths[hm["roles"]["H96_original_science"]]
+    original = owner.read_source(path, owner.ORIGINAL_SOURCE_SHA, "_CFC_whole_original_height_definition")
+    return original.admit(old,hraws,hpaths)
+
+
 def completed_parent(root, descriptor):
     """Validate a whole regular public-worker parent and its execution."""
     manifest_raw, actual_raw, execution_raw = (checked(root, descriptor[key])
@@ -98,8 +143,9 @@ def completed_parent(root, descriptor):
     environment = {"require":require, "parse":parse, "manifest":manifest, "by_role":specs,
         "op":manifest["operation"], "args":SimpleNamespace(manifest_sha=sha(manifest_raw)),
         "run":execution["run_id"], "attempt":execution["run_attempt"], "snapshots":paths}
-    exec(compile(textwrap.dedent(worker.VALIDATOR), "<CFC whole original public validator>", "exec"), environment)
-    require(environment["validate_output"](actual_raw) == actual
+    owner = load(paths["science"], "_CFC_whole_parent_owner_"+descriptor["actual"]["sha256"][:12])
+    validator = original_public_validator(root,worker,owner,environment)
+    require(validator(actual_raw) == actual
             and actual["complete"] is actual["proved"] is execution["complete"] is True
             and actual["actual_returncode"] == execution["actual_child_returncode"] == 0
             and actual["failure"] is execution["failure"] is None
@@ -111,7 +157,6 @@ def completed_parent(root, descriptor):
     spec = descriptor["actual"]
     require([item for item in execution["scientific_files"] if item["path"] == spec["path"]] == [
         {key:spec[key] for key in ("path","bytes","sha256")}], "the successful parent saved its entire actual")
-    owner = load(paths["science"], "_CFC_whole_parent_owner_"+spec["sha256"][:12])
     return {"manifest":manifest,"actual":actual,"execution":execution,"owner":owner,
         "specs":specs,"contents":contents,"paths":paths,"manifest_raw":manifest_raw}
 
@@ -160,11 +205,15 @@ def admit(root, raw_manifest, manifest_sha, rows_index):
     dcp = completed_parent(root,parents["DCP"])
     dc = dcp["owner"].admit_complete_inputs(dcp["contents"],dcp["specs"],dcp["manifest"],dcp["paths"])
     dc["completed_actual"] = dcp["actual"]
+    require(own["ASQ18_math"]["sha256"] == ASQ18_MATH_SHA and own["ASQ18_math"]["path"] == ASQ18_MATH
+            and own["ASQ18_proof"]["path"] == ASQ18_PROOF and own["ASQ20_proof"]["path"] == ASQ20_PROOF, "the exact ASQ18 finite and global CFC slots")
+    receiver = load(root/ASQ18_MATH,"_CFC_whole_signed_ASQ18_receiver")
+    slots = receiver.admit(root,own_raw["ASQ18_proof"],dcp)
     height = completed_parent(root,parents["H96"])
     hm = height["manifest"]
     hraws = {item["path"]:height["contents"][item["role"]] for item in hm["files"]+hm["historical_inputs"]}
     hpaths = {item["path"]:height["paths"][item["role"]] for item in hm["files"]+hm["historical_inputs"]}
-    hc = height["owner"].admit(hm,hraws,hpaths)
+    hc = height_context(height,hm,hraws,hpaths)
     require(hc["TC_state"]["proposal"] == sc["TC"]["state"]["proposal"]
             and hc["NP"] == dc["BFP_context"]["BNC"]["admitted"]["parents"]["NP"]["actual"]
             and height["actual"]["selected_member_identity"] == hc["P96"]["selected_member_identity"]
@@ -182,7 +231,8 @@ def admit(root, raw_manifest, manifest_sha, rows_index):
     require(not any(name in sys.modules for name in ("numpy","flint","scipy")),
             "whole original input admission finishes before numerical import")
     return {"manifest":manifest,"SC":sc,"DCP":dc,"DCP_parent":dcp,"height":height,
-        "height_context":hc,"PWA96":pwa,"math":math,"carriers":carriers,"own_inputs":own_raw}
+        "height_context":hc,"PWA96":pwa,"math":math,"carriers":carriers,"own_inputs":own_raw,
+        "ASQ18_math":receiver,"ASQ18_slots":slots}
 
 
 class PrivateStore:
@@ -321,6 +371,7 @@ def main():
         api.midpoint_real=lambda v:v.mid();api.midpoint_complex=lambda v:api.acb(v.real.mid(),v.imag.mid())
         c,coefficients,means,receipt=data["carriers"].restore_TC_waist(np,flint,args.input_root,private/"same-TC",data["SC"],progress)
         state["carrier_restoration"]["TC"]=receipt
+        choose_ir=bfp["original_OT"]["IR"]["owner"].choose_complete_dyadic_trial_bytes
         common=data["carriers"].restore_compound_inputs(np,flint,api,dcp,
             (grid_dir/"complete-original-AS-grid.json").read_bytes(),private,progress,atomic)
         state["carrier_restoration"]["compound"]=common["whole_receipts"]
@@ -336,7 +387,7 @@ def main():
         bounds.update(m=ball(copied["m"]),BH=up(sc["receiver_records"]["BH"]),
             CR=ball(sc["receiver_records"]["CR"]),B_inverse=up(ba["new_records"][bt[1]]),
             Theta_trial_norm=up(ba["new_records"][bt[15]]),
-            Theta_global_error=up(da["new_records"][dt[17]]["whole_global_Theta_error"]),
+            Theta_global_error=data["ASQ18_math"].whole_global(api,data["ASQ18_slots"]),
             phat_derivative_perturbation=up(da["new_records"][dt[0]]),
             IR_H=up(dcopied["IR_H"]),IR_L2=up(dcopied["IR_L2"]),Ep=up(dcopied["inverse_lift_error"]),
             UACT_inverse_Linf_product=up(dcopied["whole_UACT_inverse_error_Linf_product"]),
@@ -411,6 +462,9 @@ def main():
                 "independent_physical_mean_equation_and_geometric_period_rows"],
             "physical_square_assembled":False,"full_Schur_inverse_proved":False,
             "auxiliary96_observation_matrix_promoted_to_full_square":False,"topic_completion_proved":False}
+        interface["complete_ASQ18_finite_coordinate_recovery"]=data["ASQ18_math"].recovered_columns(
+            api,np,data["ASQ18_slots"],theta,io.receipts["complete_TC96_Theta_exact_centers"],scalar,
+            bfp["original_OT"],private,choose_ir,common["source_b"],io)
         publish(9,interface)
         state["result"]=interface;state["complete"]=state["proved"]=True;state["actual_returncode"]=0
         progress("complete_original_TC96_full_target_columns_and_rows",{"complete_targets":10})

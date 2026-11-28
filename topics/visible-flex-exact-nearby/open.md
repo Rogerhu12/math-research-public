@@ -162,3 +162,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 
 AASQ18R：实际46141084735/1 success；全原BFP、DCP两不同96中心及两独立mean不变，联合误差分别<.000876262、.000935663。15whole/五组完整receipts与两整日志副本根核，oldscience/arrays0；完整物理Schur与qν实际根值未成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ20：同原UACT两个73728B whole dyadic方阵，实际CFC全96×96中心D以完整整数乘法形成XD；真半径≤2.694e+.17min(HS,Schur)。原10目标、所有phase/mean/cross保，SC/H96R/PWA未全前不运行。另接真实H96R原validator和PWA原自然校验桥，规则16独立审读凭据不放松。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

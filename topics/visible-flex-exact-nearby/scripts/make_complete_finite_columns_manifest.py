@@ -106,7 +106,7 @@ def check_source(root,spec):
     return load(root,spec["path"],"_CFC_parent_definition_"+spec["sha256"][:12])
 
 
-def public_group(root,tag,manifest_path,directory):
+def public_group(root,tag,manifest_path,directory,cfc):
     pm=json.loads((root/manifest_path).read_bytes())
     by_role={x["role"]:x for x in pm["files"]}
     owner=check_source(root,by_role["science"])
@@ -139,8 +139,8 @@ def public_group(root,tag,manifest_path,directory):
             "args":SimpleNamespace(manifest_sha=specs["manifest"]["sha256"]),
             "run":execution["run_id"],"attempt":execution["run_attempt"],
             "snapshots":{role:root/spec["path"] for role,spec in by_role.items()}}
-        exec(compile(textwrap.dedent(worker.VALIDATOR),"<CFC entire original public validator>","exec"),env)
-        require(env["validate_output"]((root/specs["actual"]["path"]).read_bytes())==actual
+        validator=cfc.original_public_validator(root,worker,owner,env)
+        require(validator((root/specs["actual"]["path"]).read_bytes())==actual
             and actual["proved"] is True and actual["saved_record_count"]==len(pm["target_order"]),
             "whole original output identity and all rows: "+tag)
     for key,spec in specs.items():
@@ -175,7 +175,7 @@ def build(root,directories,manifests=None):
         path=manifests.get(tag) or default
         if not (root/path).is_file():
             readiness["missing_parent_manifests"]=[path];return readiness,None,None
-        specs,docs,definition=public_group(root,tag,path,directories[tag])
+        specs,docs,definition=public_group(root,tag,path,directories[tag],owner)
         parents[tag],documents[tag],definitions[tag]=specs,docs,definition
     sc,hi,pwa=documents["SC"],documents["H96"]["actual"],documents["PWA96"]["actual"]
     require(pwa["complete_original_TC_arrays"]==hi["necessary_original_trial_receipts"]["complete_original_arrays"]
@@ -191,11 +191,14 @@ def build(root,directories,manifests=None):
         else:files[path]=spec
     for role,path in (("science",OWNER),("math",owner.MATH),("carriers",owner.CARRIERS),
         ("worker",WORKER),("generator",GENERATOR),("proof",PROOF),("SC_worker",worker.SC_WORKER),
-        ("reviewed_rules",TOPIC+"/notes/2026-11-20-reviewed-public-CI-rules.json")):
+        ("ASQ18_math",owner.ASQ18_MATH),("ASQ18_proof",owner.ASQ18_PROOF),("ASQ20_proof",owner.ASQ20_PROOF),
+        ("original_reviewed_rules",worker.OLD_REVIEW),("reviewed_rules",worker.REVIEW)):
         add(role,path)
     for tag,specs in parents.items():
         for key,spec in specs.items():add(tag+"_"+key,spec["path"],spec)
-    review=json.loads((root/(TOPIC+"/notes/2026-11-20-reviewed-public-CI-rules.json")).read_bytes())
+    original=descriptor(root,"original_reviewed_rules",worker.OLD_REVIEW)
+    reviewed=worker.current_review(root,original,(root/worker.OLD_REVIEW).read_bytes())
+    review=json.loads((root/reviewed["path"]).read_bytes())
     require(set(review["readme_sha256"])=={"README.md",TOPIC+"/README.md"}
         and review["new_unread_rules_must_still_be_reported_and_applied"] is True,"both reviewed README rules")
     for path,digest in review["readme_sha256"].items():require(sha((root/path).read_bytes())==digest,"current reviewed rules: "+path)

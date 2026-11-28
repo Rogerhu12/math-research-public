@@ -106,6 +106,22 @@ def configure(old_path,h_path):
     return owner
 
 
+def companion(role, original):
+    directory = Path(__file__).resolve().parent
+    snapshot = directory / (role+".py")
+    return snapshot if snapshot.is_file() else directory / Path(original).name
+
+
+def admit(manifest, raws):
+    owner = configure(companion("PWA_original_owner", ORIGINAL), companion("H96_source", RESUME))
+    return owner.admit(manifest, raws)
+
+
+def validate_output(raw, manifest, manifest_sha, source_sha, run, attempt):
+    owner = load(companion("PWA_original_owner", ORIGINAL), ORIGINAL_SHA, "_PWA96_full_saved_output_definition")
+    return owner.validate_output(raw, manifest, manifest_sha, source_sha, run, attempt)
+
+
 def prepare(root,height_actual=None,height_execution=None):
     sys.dont_write_bytecode=True
     owner=configure(root/ORIGINAL,root/RESUME)
