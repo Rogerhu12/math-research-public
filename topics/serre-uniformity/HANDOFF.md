@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：e076bfaf4836fa94bdc4e9249532febfd6dbd08f**（2026-11-28 20:41 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：06a7dfa3b82723f59debd0ff0e333b89bb085e1f**（2026-11-28 20:51 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤21:41。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
+本地partial clone/sparse工作树已恢复，仅本课题/workflow；真实pull见上，下次pull≤21:51。终端git逐结论推，非快进立即pull --rebase/核规则后循环；令牌仅CLI。数学程序仅本公开Actions，本地/V8仅metadata/文本；此前[回执](notes/2026-11-28-terminal-rule-sync.md)与[执行路径纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)沿前态保留。
 
 root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-bounded-actual-quotient.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
@@ -63,6 +63,8 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 [R1185–86](results.md)原c0/c1由可计算H_br(Dp)控Arakelov高度，hι(β′)≤18M²K·gH_br/(g−1)+E_L/3；原implicit给D^(2r−1)分母、(64A²)^r大小。首jet高度≤logSΩ+(2m−1)logD+3m logp+m log(64A²)，m≤M_X=2(g−n)+1，故事前可定B_*、N_*及深盘；完整证书和原尺度见原文/逐字前态。
 
 [R1187](results/R1187-original-bounded-half-rank-quotient-and-polarization.md)同一C上选实际q*=f(3−N)，保原D0非挠/同MW对数线；GR生成类与完整Rosati双block格给||q*||≤3R、K*=9R²+1。实际C↔B⊂J双向同源积次数≤(9R²)^(2n)，并界同C的hF。常数仅依g/Dp，模型/Ω/Néron成本仍保，新p³ jets须重算。
+
+[R1189](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)双中心完整惯性在原环面取逆，固定clutch至多二挠，故全部p5mod6的2(p−1)D0在原扩域F^m。两次[p]到模pR零，再由光滑Weil restriction的实际norm下降，M0=p²(p−1)(p²−1)将同D0及每个实际商像送原Qp Néron形式核。R1182可取M=p^(s+1)(p−1)(p²−1)，s_exp/δL及真实格仍保。
 
 ## 已成、禁止重做与其它入口
 

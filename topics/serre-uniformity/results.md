@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原CM点差的统一形式倍数（已证明）**：[R1189](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)双中心完整惯性在原环面取逆，固定clutch至多二挠，故全部p5mod6的2(p−1)D0在原扩域F^m。两次[p]到模pR零，再由光滑Weil restriction的实际norm下降，M0=p²(p−1)(p²−1)将同D0及每个实际商像送原Qp Néron形式核。R1182可取M=p^(s+1)(p−1)(p²−1)，s_exp/δL及真实格仍保。
+
 - **原半秩目标的有界实际商与极化（已证明）**：[R1187](results/R1187-original-bounded-half-rank-quotient-and-polarization.md)同一C上选实际q*=f(3−N)，保原D0非挠/同MW对数线；GR生成类与完整Rosati双block格给||q*||≤3R、K*=9R²+1。实际C↔B⊂J双向同源积次数≤(9R²)^(2n)，并界同C的hF。常数仅依g/Dp，模型/Ω/Néron成本仍保，新p³ jets须重算。
 
 - **原Abel首jet系数高度与事前精度（已证明）**：[R1186](results/R1186-original-Abel-jet-height-and-a-priori-precision.md)原有限隐函数给D^(2r−1)分母、(64A²)^r大小；t=p³w后首jet系数高度线性≤logSΩ+(2m−1)logD+3m logp+m log(64A²)。m≤M_X=2(g−n)+1故事前定FP的B_*、N_*=B_*+floor(log_p M_X)及仅c₁深盘3+B_*+ceil(log_p(M_X+1))；真实模型成本仍保。

@@ -174,6 +174,8 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 [R1187](results/R1187-original-bounded-half-rank-quotient-and-polarization.md)同一C上选实际q*=f(3−N)，保原D0非挠/同MW对数线；GR生成类与完整Rosati双block格给||q*||≤3R、K*=9R²+1。实际C↔B⊂J双向同源积次数≤(9R²)^(2n)，并界同C的hF。常数仅依g/Dp，模型/Ω/Néron成本仍保，新p³ jets须重算。
 
+[R1189](results/R1189-original-CM-formal-multiple-and-ramified-norm-descent.md)双中心完整惯性在原环面取逆，固定clutch至多二挠，故全部p5mod6的2(p−1)D0在原扩域F^m。两次[p]到模pR零，再由光滑Weil restriction的实际norm下降，M0=p²(p−1)(p²−1)将同D0及每个实际商像送原Qp Néron形式核。R1182可取M=p^(s+1)(p−1)(p²−1)，s_exp/δL及真实格仍保。
+
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 
 ## O5：原固定 Y 的有效断点
