@@ -40,3 +40,8 @@
 ### 2026-11-28 10:45 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1155 §11付原Gaussian单primitive的完整有限elliptic坐标jet、三层log系数和finite-Li三次项，得到中央h12−(L3/L1)h4的显式单位及真实b8/b12。root纸推、o2独核所有系数；安全jet未冒成实际torsion完整log，relative Frob未冒同点arith Frob。
 - 原加权filling/Cor/moment与F0 z12继续，单block单位不代target非零；旧1–10逐字保留，无数学执行。
+
+
+### 2026-11-28 10:48 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1157 付真正SV B_n的整三项filling：原theta范数/全部常数、w三边际、同子群双槽n⁴、三个留数的负号与n⁸全尺度准确；R1156直接给同根连续整塔、全内点延伸。全Weil/模叠下的deck诱导乘积付raw下降，不除GL2群阶。
+- root亲读SV原§6.3.1、脚注19、rank表，并全文纸核；o2独核残数/尺度。H前态归档，完成即推；原指定加权target交叉bracket、rank-one/regularization和F0 z12继续，无数学执行。

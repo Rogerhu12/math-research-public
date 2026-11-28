@@ -1,5 +1,7 @@
 # 结论索引
 
+- **R1157（已证明）**：[原 SV Manin 三项的显式整四线 filling](results/R1157-original-integral-SV-Manin-triangle-filling.md)付真正 B_n 的完整 n⁻⁸ K3 残数、同根连续整 cochain、S/非零退化项以及全内点 raw 延伸；全 GL2 诱导乘积给实际 raw 下降，不除群阶。指定加权 target 的交叉 bracket / pushout 与 z12 继续。
+
 - **原 Gaussian primitive 的中央单位组合（已证明）**：[R1155 §11](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原 U_a 的 relative Frobenius 全部低 jet，两个指定中央系数有显式单位组合。有限椭圆坐标与模曲线参数严格区分；加权 filling / Cor / 目标 F0 的抵消仍须计算。
 
 - **原三平移 C 的完整 V4 来源（已证明）**：[原genus4 §12](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付三个平方根、完整相位及原 C 标记的准确 −Q 偏移；三条 anti-invariant 微分的 β 同为 −σ，并由实际映射接到同一 E_* 的指定 primitive。σ及原e/K4非零仍待付。

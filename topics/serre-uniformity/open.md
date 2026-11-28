@@ -37,7 +37,7 @@ R1148 §12付同一cover的rank-p character trace ψ(z−ab/2)、H¹维2p(g−1)
 
 归一单位 hhat_c=Δ^(c²−1)h_c¹² 的 raw 整塔在所有 noncusp 内点延伸，因惯性落无挠 Zp(2)，H⁰(k(x),Zp(1))=0。ordered cup 与原源差 −12(c²−1)d(DT)，不能把 wedge 的 144 尺度误作 ordered 等式；完整三重残数另有 divisor 因子12。可先延伸固定配置 raw 塔再modp，无需先付整个 E[pⁿ] moment 分布。
 
-**当前准确门**：把指定 B_n（cyclic subgroup 的 θ′ norm）的 S/U relator 写成这些真实 raw bilinear forms 的线性 pushout，保 anti-diagonal correlation；给完整 GL2、Weil component、算术下降和同一原交换商根规范。原 Ψ_c 的反向平移相关不自动等于 B_n。完成后才能在原 M 用 H¹(M,Z₁)=0；尚未读出 F0 z12，也未排深盘/full Nns。继续实际 K3/trace-fixed Gersten 源和 R1155 的同根有限Frob读取。
+**当前准确门**：R1157已构造指定 B_n（cyclic subgroup 的 θ′ norm）的真实三项与 S 余链，并付完整 GL2/Weil raw 诱导乘积下降；现在将指定加权S/U填充接成 target bilinear pushout，保全部 cross bracket、同子群相关与同一原交换商根规范。原 Ψ_c 的反向平移相关不自动等于 B_n。完成后才能在原 M 用 H¹(M,Z₁)=0；尚未读出 F0 z12，也未排深盘/full Nns。继续实际 K3/trace-fixed Gersten 源和 R1155 的同根有限Frob读取。
 
 ### 原完整 47：已完成，只消费
 
@@ -193,3 +193,10 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原 Gaussian 单个 primitive 的中央单位组合
 
 [R1155 §11](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)在原E:y²=x³+A x及原U_a上给完整relative Frobenius模z¹⁶读取。z仅为安全有限阶整elliptic坐标，s=a²，L1=3As/5，L2/L3由原x([a]P)函数完整展开；准确h12−(L3/L1)h4=−2A³s(s−1)(s−4)/125为单位，b8=−2A²(s−1)(s−4)/25也为单位。有限log的三次项、第二槽的实际linear cancellation均保。后继要将这些真实blocks接入R1156–1157的指定加权filling；该单block单位不排weighted/Cor抵消，不代F0 z12，也不把实际torsion的高nilpotent项或完整formal-log=0忽略。
+
+
+### R1157：真正 SV B_n 三项的整 filling 与 raw 下降已成
+
+[R1157](results/R1157-original-integral-SV-Manin-triangle-filling.md)直接用原 t=θ_n、t_C=θ′_(n,C) 的 trace-fixed norm：Σ_A t(T+a)=0、Σ_C t(T+a)=n t_C(T)，全规范常数由m²−1的公因子24消去。原w=δ0⊗δ0−Σ_CδC⊗δC具有三个零边际；双contraction恰n⁴B_n，同一子群两槽全部保留。B0=0、B1=P、B2=P+Q，f_x^i=θ_n(T−Bi−x)/θ_n(T−Bi)，准确K=−n⁻⁸Σw(y−x,z−y) f_x⁰∧f_y¹∧f_z²的完整残数是原三项。n=5的splitting degree整除480；原p-level未除p。
+
+R1156给此真实B_n triangle的连续Zp(2) primitive及全noncusp延伸。实际S关系和Q=−P非零项也已付，零标签仍用原parabolic regularization。取全部deck pullbacks的诱导乘积得到严格全GL2/Weil raw下降，无需除群阶；rank-one不能把含p稳定子压掉。**继续**把原R1140指定S/U权和moment修正接成实际群态射：block-diagonal raw bracket必须准确给出target cross bracket，不能变成两个总norm的乘积。完成后才在原M用唯一性识别规范lift并读取z12。
