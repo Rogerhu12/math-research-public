@@ -1,0 +1,118 @@
+{
+  "sourceSHA256": "7ad8f7be3eb5b20bc738d9f82b72da17594aa70d51bcccf61bf4ce2c3de325f3",
+  "sourceBytes": 6060,
+  "schema": "isp-true-Phi-tzero-fu-halfweight-original-return-v1",
+  "elapsed_milliseconds": 10,
+  "exactRationalOperations": 22748,
+  "polynomialProducts": 573,
+  "fullPolynomialDivisionReturns": 49,
+  "physicalBranch": [
+    "Phi=0",
+    "t=0",
+    "f=u",
+    "ell=1/2",
+    "lambda!=1/2",
+    "w=0",
+    "Q*(1-Q)*Pf*P02*bc!=0"
+  ],
+  "originalRows": [
+    "Den^2*Q*W4",
+    "Den^2*Q^2*(1-Q)*Obar",
+    "Den^3*weighted_PS"
+  ],
+  "originalDegrees": [
+    14,
+    17,
+    9
+  ],
+  "paidFactors": [
+    "u from (2lambda-1)!=0 and exact 2N-Den=-2u(u-1)",
+    "u-1",
+    "u-2",
+    "1-Q",
+    "2u-3 from exact P1 head-zero incompatibility"
+  ],
+  "removedContents": [
+    {
+      "factors": [
+        {
+          "factor": 0,
+          "power": 2
+        },
+        {
+          "factor": 1,
+          "power": 5
+        },
+        {
+          "factor": 2,
+          "power": 5
+        }
+      ],
+      "constant": "512"
+    },
+    {
+      "factors": [
+        {
+          "factor": 0,
+          "power": 1
+        },
+        {
+          "factor": 1,
+          "power": 6
+        },
+        {
+          "factor": 2,
+          "power": 6
+        }
+      ],
+      "constant": "-6144"
+    },
+    {
+      "factors": [
+        {
+          "factor": 0,
+          "power": 2
+        },
+        {
+          "factor": 2,
+          "power": 1
+        }
+      ],
+      "constant": "-208"
+    }
+  ],
+  "normalizedDegrees": [
+    2,
+    4,
+    6
+  ],
+  "originalRecovery": "Q=4(u-1)(u-2), T=lambda-1, Den*lambda=u^2-6u+6",
+  "noNewUnpaidHeadInverse": true,
+  "headZeroRemainder": [
+    "-3/4"
+  ],
+  "combinedWholeQQBezoutReturned": true,
+  "gcdStages": [
+    {
+      "input": 0,
+      "degree": 2
+    },
+    {
+      "input": 1,
+      "degree": 0
+    }
+  ],
+  "gcd": [
+    "1"
+  ],
+  "combinationDegrees": [
+    3,
+    1,
+    -1
+  ],
+  "branchExcluded": true,
+  "allComplexEmbeddingsKept": true,
+  "noOldGroebnerGateRepeated": true,
+  "originalPhiExcluded": false,
+  "ordinaryISPClaim": false
+}

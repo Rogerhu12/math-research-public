@@ -1,24 +1,21 @@
 {
-  "message": "ISP R150: original weighted NP value branches; first new W and collision inputs",
-  "parentCommit": "5a9202a6245e8678bb589e4fbfb57221fd916ced",
+  "message": "ISP R150: whole true Phi t-zero exclusion and first original N1 slope model",
+  "parentCommit": "2f48aae169de25457b405bb313fdb1d081c372a3",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-original-tzero-fu-weighted-NP-value-branches.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-original-tzero-fu-weighted-NP-identities-8542.js",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-original-tzero-fu-weighted-NP-identities-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-individual-NP-NV-scalar-returns-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-hk-true-individual-np.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-f-equals-u-t-nonzero-whole-original-projections-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-f-equals-u-t-nonzero-whole-original-projections-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-w-fu-t-nonzero.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-true-weighted-NP-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-true-weighted-NP-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-true-weighted-NP-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-true-weighted-NP-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-true-entire-tzero-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-tzero-halfweight-wzero-original-return-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-tzero-halfweight-wzero-original-return-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-N1-slope-six-by-two-original-model-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-N1-slope-six-by-two-original-model-input-8542.md",
+    ".github/workflows/invariant-subspace-8542-phi-true-n1-slope.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-Phi-entire-tzero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-Phi-entire-tzero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-Phi-entire-tzero-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-Phi-entire-tzero-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -28,7 +25,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-hk-true-individual-np.yml",
-    "invariant-subspace-8542-w-fu-t-nonzero.yml"
+    "invariant-subspace-8542-phi-true-n1-slope.yml"
   ]
 }
