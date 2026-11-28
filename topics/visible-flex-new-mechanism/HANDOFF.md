@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **d0277a2a34724e023117ca93bb91b65d726fa1c4**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **8343d79fce2fbd4fb4ca0ae1796852d7feee14e0**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -41,13 +41,13 @@ R617排固定有限pre-tanh+有限post精确非圆根；增长响应才有同g�
 
 末trial **309b8dbc…**已付4465峰内的curvature_plus=4.805549391305973e−6超过e0+1e−8，已足以否定原接受门。[新已知违反早退](notes/2026-11-28-r566-native-d59fa-known-violation-scope.md)直接拒绝，保d59fa应用两pending；**8635余队列保留为未执行**，不再花费、不标已闭。outer16实际0接受且有pending，原trust后决策应保持.45050811767578125。后续新trial仍需全部原完整门；未来交换序列可与穷尽余队列不同。完整输入/H/准确margin/费用保留；实际run **46119106791** / source41cf3c8f，06:59:35 UTC启动。此静态设计未授固定g或宏观闭族。
 
-## D：十九态206e未过fine，转同一C²曲线的真实历史目标
+## D：R632真实C²曲线/全历史原BVP
 
-[一致W自然终态](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)：run **46118007213** / job **140896050071** / source1e2226f3，06:57:28 UTC自然结束，新增722.781991255秒；60请求/60trial/60接受，旧不可用方向停滞消失。但原ODEmax **4.620976215392211e13**、577点真十末 **.4083369853906008**、真ruling **3.973066077055209e13**，均非根；1153点fine在物理盒检查失败，具体字段/点未打印，不能猜成已测h违反。
+[一致W自然终态](notes/2026-11-28-r625-consistent-weight-natural-terminal.md)：run46118007213/job140896050071/source1e2226f3，新增722.781991255秒、60solver接受，但原ODE4.620976215392211e13、真十末.4083369853906008、真ruling3.973066077055209e13；1153fine越物理盒，字段未打印。实际state **206ec1aef0d886c2ea8d030addc9a711dac77b27e4d3f4f00dd74cb31e5dee59**。逐步末门只比较stored零，不能称60步真资格；不原样续跑。
 
-实际保留state **206ec1aef0d886c2ea8d030addc9a711dac77b27e4d3f4f00dd74cb31e5dee59**，19×65/十参；fine pending。逐步terminal非增实际只比较stored十末（始终0），真历史仅检查不抛错，真实末/ruling/历史一致门只作最终完成判定。不能再称60步完整真实资格，更不能原样续60步。
+[R632真实入口](notes/2026-11-28-r632-true-hermite-original-bvp-scope.md)本次push触发：65节点C² h/κ、257shape，α²=(1+U/L²)/∫κ²消真实动能端；η/八A/六rho全积分，三真端和完整ruling入同一merit/完整Jac。必要旧fine重建输出全attainer并作为新h/k输入，高度整体缩至Bernstein上界2.85，再重新支付全部物理盒。真端已达后用切向+真实恢复保门；LD常规范全离解链保留，绝对门不改。
 
-下一以65节点C² h/k和真实η/八A/六rho积分求根，消去独立stored记忆；[R632](results/R632-true-kinetic-amplitude-chart-with-negative-center-branch.md)已证α²=(1+U/L²)/∫κ²的真实缩放图，固定κ'0<0消冗余、完整δα链保留；其余三真端/物理盒仍欠。新入口同时输出全物理attainer并恢复盒；206e只作待恢复输入。原14段、此次费用/失败全保；[旧射线终态](notes/2026-11-28-r625-original-ray-natural-terminal.md)与[一致W证明](notes/2026-11-28-r625-consistent-frozen-weight-merit.md)仍有效。R619–627依真端前提，原母18块576微包/ε1/12000/正势保持；根后仍需全部period/frame/闭pose/宏观reach。
+64×16对齐分片；fine128×16固定同一shape、α、八中心A、三规范，不重新求α或锚尾。原65点十九态ODE/HS从已付完整场重组。预算3300/预留180秒、48步只作可续执行界限。旧14段/绑定失败/60步费用全保，非旧17模族重命名。R619–627真端前提、原母18块576微包/ε1/12000/全正势仍保持；根后还欠period/frame/闭pose/宏观reach。
 
 ## 几何及新构造
 

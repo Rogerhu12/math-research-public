@@ -531,3 +531,7 @@
 ## R631硬总核心、真F2自由列与完整设计链
 
 [实现及小非圆seed界](notes/2026-11-28-r631-hard-total-core-variable-metric-design.md)给1451自由列、完整总P/P1消元、真实H/e/E位置链与本新seed到R631的连续核心路径。全原列保持，inner j2可调；未运行，不授固定g或宏观连接资格。
+
+## R632真实Hermite原BVP首次公开求解范围
+
+[完整实现](notes/2026-11-28-r632-true-hermite-original-bvp-scope.md)消去独立记忆和动能端，保257维C² shape全部链、三真端+原ruling固定merit、LD规范及固定物理曲线fine。消费206e实际失败及所有费用，发布公开Actions请求；尚无新求根结果。
