@@ -920,3 +920,46 @@ Phi=681.6511710299278、max_relative_Gram=0.4061652579029476。六族全返：re
   }
 ]
 ```
+
+## 2026-11-28 06:30:01 UTC — 22下一试点480be的自身统计返回
+
+试点480be58574d985b3f714bc2567d92adcf3e7b46366248d1722c9665afd814938的自身统计为Phi681.6450227773521、Gram.40616533555531326。当前仍b34824/accepted3；该trial的几何与接受未返。即使这两个标量与25原终点相同，也不能把25的点、g、接受或报告转移到此点；原alpha/方向号未投影，仍未知。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-bhalf-first-20261127",
+  "scientific_source_commit": "c6517a030888df2bf0ca51efade67b7693102785",
+  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
+  "pid": 3541,
+  "observed_utc": "2026-11-28T06:28:30Z",
+  "new_actual_observation": {
+    "math_at": "2026-11-28T06:14:02.197446+00:00",
+    "math_event": "trial-statistics-returned",
+    "trial_point": "480be58574d985b3f714bc2567d92adcf3e7b46366248d1722c9665afd814938",
+    "trial_Phi": 681.6450227773521,
+    "trial_Gram": 0.40616533555531326,
+    "trial_alpha": null,
+    "trial_phase": null,
+    "trial_accepted": null,
+    "accepted_directions": 3,
+    "current_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
+    "complete_report": false
+  },
+  "all_other_fields_and_errors": "Preserved in the entire original immutable evidence file below; no stale trial object is rebound."
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
+    "bytes": 48488,
+    "sha256": "65c62985fae0b6f705c96016ed5f4d25ebf0468855453ee0f740cf3c354b8867",
+    "git_blob_sha": "2acb85e9d5d73bcfe7e1a0759d2653e61bc418e6",
+    "fixed_commit": "405ab36831ff0c73112428b55debed613c5352e8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```

@@ -137,3 +137,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 06:29:56 UTC — 25续跑在真实父点的初始统计已返回
 
 25 restart-01在a28ae自身初Phi681.6450227773521/Gram.40616533555531326真实返回，新accepted0，几何未返；父4次记录独立保。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run25-complete-halfwave-curvature-cache-launch-and-continuation.md)。双README云核至`9ef5faabf8583bbb7c7ade07c2da17ab6126f426`无变（非pull）。
+
+## 2026-11-28 06:30:01 UTC — 22下一试点480be的自身统计返回
+
+22 480be仅自身Phi681.6450227773521/Gram.40616533555531326，当前b34824/accepted3不变；不借25同标量补几何。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。双README云核至`c5434735d9bf9fc80c6080f194f0a97e10e8cd5c`无变（非pull）。
