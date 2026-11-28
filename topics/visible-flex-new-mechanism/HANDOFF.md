@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **663cd631138a8c5ca86f5fc3f4fb97474ce6b7db**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **bb6a07098016d9c9483c51600473b469589299ea**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -22,9 +22,11 @@
 
 R648/R650/R649/R653全尾、三jet、离解曲率及C²接缝只消费现成对象；不转R617/τ1/trace/Pμ/旧.85资格。[R658](results/R658-actual-M25-infinite-germ-error-and-normalized-transfer.md)真M25→无穷源差已付，归一差仍需各有限A及forced自己C阈值。[R663](results/R663-actual-finite-denominators-from-paid-dense-polynomials.md)从原DOP853准确有理多项式/方向角与log范数/三图连续残差给实际12分母接口；旧FINAL无原生dense，已证数量0。不得重旧ODE/root；[R668](results/R668-natural-source-progress-and-seven-original-errors.md)给有限首窗二阶矩/原标尺正下界及自然现场可续物理锥，3%信用且保末读预留；七源逐行保缺口、实际12分母仍0已证。R672连续度量/曲率覆盖准备中。
 
-## C：B030实际0449／工作矩阵容量
+## C：B030真实0449／工作容量2048
 
-[此前f2dda范围](notes/2026-11-28-r566-f2dda-peak4096-continuation.md)run46134971089/sourcec1df49b7已自然完：1951.916826632秒/9接受到0449014a，1888×3072fineη.18840244/g0；945coarse/2111physical/1018working+70待工作行，容量1024触发。末current full值真已付、无物理pending，trust.45050811767578125；在新backend前退出，无该轮trust决策/J。正在绑定实际后继。旧430外停未知费用、f2dda224.668336秒、a61655完整拒及所有原生数组缺失保链；仍变量g/远未达门。
+[真实终态/后继](notes/2026-11-28-r566-0449-working2048-continuation.md)run46134971089/sourcec1df49b7：1951.916826632秒/9接受0449014a/p.8，1888×3072fineη.18840244/g0；16J/1818块/14fine与全部费用保链。945coarse/2111physical/1018working+70待工作行；原1024容量停在新backend之前，无该轮J/信赖决策，当前完整库值已付，确切标量行数未打印不借旧943值。
+
+后继只改工作容量2048，从真trust.45050811767578125、原小H/24待乘子先交换70行，保全部原物理/接受/fine。原生大数组未存；小H仅启发式，旧430关停未知费用、f2dda224.668秒和历史8635未执行brackets均保持。仅必要632147B续接输入入库，raw/重复旧费用用run/hash/原request；仍变量g/远未达门。
 
 ## D：原完整BVP与四端新输入
 
