@@ -45,3 +45,11 @@ DOP853原rtol=2e−9、atol=2e−11保持，误差分别在12物理行和4辅助
 | computations/run53-complete-shared-rim-transport-source-and-launch-delivery.json | 37638 | 6830c1bba772870e99922d911162f22c7b5cab136c441fb816726922656e0dc8 | 9207a4418248b24d687d988ba6b0f46b47f0e256 |
 
 ROOT本次云端小文本发布非pull。完整新科学须靠自身实际返回判断，所有原预算与README完成标准继续。
+
+## 新输运实现自身的实际启动（2026-11-28）
+
+source 8b7e069ba67b38cbad5454a391f18a9bebb5d4f5，public run46183731999/1、job141098858624。ROOT独立读取官方jobs，finite_amplitude原完整科学步骤in_progress。科学PID2552在19:56:35Z真实启动；27个actual_frozen_inputs逐一与请求的原路径、完整长度、SHA256及Git blob核同，actual里的scientific_inputs也全同。原44/45继续独立运行，本53没有删其预算或覆盖其历史。
+
+固定30d2ccbf3d44c60c822e4671726800572abcff06的实际原记录为27459B/Git fc5d2c3232d70efb8f2dbb3c2744193238a1cc37/SHA256 499f546e19d48297f0fe4741c458e3c040454789dd48e836267cfa2396d822ad；20:00:57Z已有3个完整stage进入summary。这些早先released分支没有管道积分，不能由它们的零transport计数或耗时判断R790改进效果。后续原两个tube粗起点、两族4/8/16和两次原完整末网继续；真正物理解、全域误差和实际加速仍待其自己的完整返回。
+
+最新原真实pull为20:00:58Z至78e4083c67efc0e647375e88db2c4992a6db200f，双README核同，root此次为云读非pull。上述完整本run记录保全部实参/环境/科学点引用，未用别run的较好或较坏数值代填。
