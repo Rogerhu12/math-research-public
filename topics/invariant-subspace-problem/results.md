@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R150：整个 W b0 的两原曲线、5772 权长度与 46176 完整不同点](results/R150-appendix-unit211-W-entire-b0-two-original-curves-5772-weights-46176-normalized-points.md)：5.531909013秒/0，新C74/D78完整QQ互素；原q2系数的单位组合保全部首项退化，同f首一二次和唯一值恢复给完整点界，仍未逐个排空。
+
 - [R267：同一真实平坦分母的相容有界有理根与原平方近似](results/R267-appendix-coherent-bounded-rational-roots-of-one-flat-common-denominator.md)：完整carry正收缩尾积构造PrPs=Pr+s；全部有限原旗quasi。YN²=C DN、DN收缩强*I由移动参数预算付清；同Pt的YN Pt尚欠一致范数和真实强极限。
 
 - [R150：W 全图显式首一 f² 与原 I4／I6 两列模](results/R150-appendix-unit211-W-lambda-T-f-global-monic-f-two-and-exact-I4-I6.md)：由两真正singleton均值给纯权单位头；E1保持独立，I4六行/I6十行完整同f呈示，pair与norm只作必要式。新纯权B头及六标量首次执行，无旧门重放。
