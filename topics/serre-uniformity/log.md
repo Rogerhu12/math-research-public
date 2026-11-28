@@ -236,3 +236,8 @@
 ### 2026-11-28 14:17 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1165给原两开集odd DR的显式整留数投影及单位首项filtered收缩，全部tensor/projectors后得到保底log的实际三项cone；actual Frobenius代表的+Qα、有序−βδ及完整normal connection/γp carry/有限精度商逐式证明。root自足纸推，global/o2短核投影与H符号，完成即推。
 - H/open前态归档后压缩重复已付入口。实际embedding/refinement/Frobenius-overlap仍按同一代表继续，不把仅cohom矩阵当已付transport；原normal/F0未取值，无数学程序执行。
+
+
+### 2026-11-28 14:21 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1164 §13付actual SS两整frame、原Miller完整vertical divisor及原点unit刚化；参数改换保c0与同根unit ratios，先用NP=0相消再取PD lifts。root全文核normality/vertical阶及两点相遇时的fractional line，o2核主要几何式，完整即推。
+- 原第二open为E\(O∪P)，真实Čech refinement及Frobenius comparison仍保；继续原normal/F0。14:21本地仍无执行环境，已请求下一次公开Actions实际pull，无数学程序执行。

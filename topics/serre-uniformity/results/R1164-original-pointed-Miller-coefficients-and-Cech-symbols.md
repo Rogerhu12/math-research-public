@@ -927,3 +927,174 @@ condition 2.1、Lemmas 2.2–2.3、(2.5)–(2.7)，
 及 Appendix Lemma A2 p.562 的 actual symbol。
 本节的 Čech formulas、signs、chord/tower homotopies
 与精度界由 (1164.29)–(1164.45) 逐项自证。
+
+
+## 13. 超奇异原模型的两个实际整 frames 与垂直阶
+
+本节进一步把 §5 的整 line frames 具体写出。
+设 $\mathcal E/\mathcal O_L$ 为原 good 模型，
+其特殊纤维 supersingular；$L$ 可以是实际分歧标记域。
+固定 $N=p^r$ 与 $P\in E[N]\setminus O$。
+于是 $P$ 还原到 $O$，并且
+$$
+a_P=t(-P)\ne0,\qquad v_L(a_P)>0,\qquad
+t_P(T)=t(T-P).
+\tag{1164.46}
+$$
+这里 $v_L$ 取 uniformizer 的 valuation 为一。
+$t_P$ 是实际椭圆曲线平移后的参数；
+不能以普通线性差 $t(T)-t(P)$ 替代。
+
+取包含两条 section $O,P$ 的实际邻域 $V$，
+使 $t,t_P$ 在 $V$ 上分别只有简单零 divisor $O,P$，
+且没有 poles。这样的邻域存在：
+短 Weierstrass 模型中 $t=-x/y$ 在 $O$ 附近为参数，
+其余零、极点均不还原到 $O$；
+平移 $P$ 在特殊纤维还原为恒等。
+对固定层的有限多个标记可同时取一个这样的邻域，
+或直接在相应 formal neighbourhood 上工作。
+令
+$$
+W=\mathcal E\setminus(O\cup P).
+$$
+必要时将 $V,W$ 再作有限 affine/étale refinement。
+
+**整 line 的确切 fractional embedding。**
+在原 generic identification
+$\mathcal L_{P,L}\simeq\mathcal O_{E_L}(P-O)$ 中，
+取
+$$
+\mathscr L_P=a_P\,\mathcal O_{\mathcal E}(P-O).
+\tag{1164.47}
+$$
+右侧是实际 fractional invertible sheaf，包含其
+vertical shift；不是将 $a_P$ 当作 $\mathcal O_L^\times$
+中的数。
+它在两个开集上的 generators 为
+$$
+s_V=a_P\frac{t}{t_P},\qquad s_W=a_P,\qquad
+g_{VW}=\frac{s_W}{s_V}=\frac{t_P}{t}.
+\tag{1164.48}
+$$
+在 $V\cap W$ 上 $g_{VW}$ 整且可逆。
+原点处 $s_V/t\to a_P/t_P(O)=1$，
+因此令 $s_V|_O$ 对应 $1$ 给出原 $t$-pointed
+rigidification。
+
+作为相对 degree-zero line，(1164.47) 的 class 是
+$P-O$；base 上乘一个非零 fractional ideal 不改变这个
+relative Picard class。
+因此由刚化 Picard 的唯一性，它与 §§1–5 的实际
+$\mathcal L_P$ 有唯一保持该 rigidification 的同构。
+这说明 (1164.48) 是原 line 的整 frames，
+而不是另一份只有 generic Picard class 相同的 line。
+
+**Miller 函数的完整 vertical divisor。**
+仍用原 $t$-leading 一的 $f_{P,N}$。
+在 $V$ 上设
+$$
+u_V=f_{P,N}
+ \left(a_P\frac{t}{t_P}\right)^N.
+\tag{1164.49}
+$$
+它的全部 horizontal divisor 为零：
+$f_{P,N}$ 的 $N(P-O)$ 与 $(t/t_P)^N$ 精确相消。
+good 特殊纤维 $F$ 几何不可约，故
+$\operatorname{div}_V(u_V)=cF$，其中 $c\in\mathbb Z$。
+在 $O$ 的泛点，原 leading 给 $u_V|_O=1$。
+
+这一点确实迫 $c=0$。
+若 $\varpi_L$ 是 base uniformizer，则
+$\varpi_L^{-c}u_V$ 在 $O$ 的 regular local ring
+所有 height-one prime 上 valuation 为零；
+normality 使它为该 local ring 的 unit。
+沿 $O$ 拉回后的 valuation 因而为零，
+而 $u_V|_O=1$ 的 valuation 又是零，所以 $c=0$。
+在 $V$ 的其余点用同一 height-one criterion，
+得到 $u_V\in\mathcal O(V)^\times$。
+
+于是原模型上的准确 divisor 为
+$$
+\boxed{\quad
+\operatorname{div}_{\mathcal E}(f_{P,N})
+ =N(P-O)-N\,v_L(a_P)\,F .
+\quad}
+\tag{1164.50}
+$$
+这里 $F$ 的 multiplicity 为一。
+特别不能从 generic $t$-leading 一推断
+$f_{P,N}$ 的 vertical valuation 为零。
+
+在 $W$ 上取
+$$
+u_W=f_{P,N}a_P^N.
+\tag{1164.51}
+$$
+(1164.50) 给 $u_W\in\mathcal O(W)^\times$。
+两实际单位的 gluing 为
+$$
+u_W=(t_P/t)^N u_V,\qquad
+a_V^{\,N}=u_V^{-1},\quad a_W^{\,N}=u_W^{-1},\quad
+a_W=(t/t_P)a_V.
+\tag{1164.52}
+$$
+根坐标仍为 $a_V=X_{P,N}/s_V$、
+$a_W=X_{P,N}/s_W$，并且 $a_V(O)=1$。
+所以本节的 line、trivialization、point 与根 transition
+一起恢复原有限平坦 coefficient torsor；
+没有只验证 unpointed generic class。
+
+**实际参数改换。**
+若在相同 formal neighbourhood 改用
+$$
+z(T)=t(T)v(T),\qquad c_0=v(O)\in\mathcal O_L^\times,
+$$
+则保留原 $f_{P,N}$，而取
+$$
+s_{V,z}=\frac{z(-P)}{c_0}\frac{z(T)}{z(T-P)},\qquad
+s_{W,z}=\frac{z(-P)}{c_0}.
+\tag{1164.53}
+$$
+它们相对 (1164.48) 的实际 unit ratios 为
+$$
+\frac{s_{V,z}}{s_V}
+ =\frac{v(-P)v(T)}{c_0v(T-P)},\qquad
+\frac{s_{W,z}}{s_W}=\frac{v(-P)}{c_0}.
+\tag{1164.54}
+$$
+第一个 ratio 在 $O$ 的值为一。
+故新的 $u$ 分别只乘上这些实际 units 的 $N$ 次幂，
+新的根分别除以这些 units，完全符合 (1164.18)。
+这可用于原已付的 Lubin–Tate/Robert formal 参数；
+$c_0$ 必须保留，不能未经比较就置为一。
+$z(T-P)$ 仍表示实际 formal group subtraction。
+没有把这个参数改变当成任意系数 rescaling，
+也没有把 ramified point 上的 $z$ 当作 field Frobenius。
+
+**进入 PD 与两开集 de Rham 模型的顺序。**
+(1164.49)、(1164.51) 首先是在实际 torsion section
+$[N]P=0$ 上的整 units。
+按 §10 将这些 units 及 $(t_P/t)$ 取实际 compatible
+PD lifts，再用 (1164.34)–(1164.35)。
+不可先把 $P$ 当作任意非挠参数，
+用未特化的 $B_N(P)$ 代 $f_{P,N}$ 后声称同一 unit；
+一般 $B_N(P)$ 的 divisor 是
+$N D_P-D_{NP}$，其终点及原点阶都不同。
+计算 lift 时须先用实际 torsion relation 与上述 frames
+完成相消，再提升得到的整函数；所需 lift 改变由 §10
+已显示的 PD logarithm 控制。
+
+这里的第二开集是 $W=\mathcal E\setminus(O\cup P)$，
+不是直接假定 $\mathcal L_P$ 在整个
+$\mathcal E\setminus O$ 上平凡。
+若后继 coefficient contraction 使用
+$U=\mathcal E\setminus O$ 与 $V$，
+须携带此实际 refinement 的 Čech morphisms，
+以及其与 Frobenius 的 comparison homotopy。
+本节不给这个 homotopy 赋零，
+也不删除原 (1164.44) 的 ordered 第二坐标。
+
+至此实际 SS 输入中的 vertical correction、
+两个 line generators、两个 integral unit symbols、
+pointed 根及参数改换均已显示。
+这仍没有计算原四十三维 $F_0$ 或全局扣除后的中央读数。
