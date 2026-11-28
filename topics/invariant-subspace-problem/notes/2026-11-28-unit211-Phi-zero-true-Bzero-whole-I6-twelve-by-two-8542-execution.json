@@ -1,0 +1,235 @@
+{
+  "schema": "isp-true-Phi-whole-B-exact-I6-twelve-two-execution-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": 46114522011,
+  "job_id": 140885249422,
+  "source_git_blob": "6cde5a82e5a3ab499d3a26be19d27428b7a38ed6",
+  "source_sha256": "b802d6c9b7a46b544f1fd5f814b05337a552f938a660b8d047fe4e62ff4eae56",
+  "source_bytes": 11905,
+  "source_commit": "4f576d7ee0e7d43a9f9e6fbc8f33f934ea6ebe34",
+  "source_exit_code": 0,
+  "elapsed_seconds": 0.3675646709999967,
+  "max_child_rss_kib": 41096,
+  "resource_seconds": 120,
+  "resource_memory_bytes": 1073741824,
+  "outer_driver_seconds": 135,
+  "stdout_bytes": 4484,
+  "stdout_sha256": "46cbe558fd948f9d5fb849760dc6c21e9975dcdfa7e8084fb8312cd399816e8f",
+  "rules_reads": [
+    {
+      "after": "c376ccf9cd92f7ff5ed5d17b24bf19a89fd8bd2b",
+      "before": "4f576d7ee0e7d43a9f9e6fbc8f33f934ea6ebe34",
+      "rules_git_blobs": {
+        "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T05:59:35.050917+00:00"
+    }
+  ],
+  "all_heads": {
+    "QQ_Bezout_returned": true,
+    "gcd_degree": 11,
+    "gcd_factored": "(x+1)^3*(x^2-x+1)^4",
+    "gcd_sha256": "ab3faee7c1684704ae03f9bc987feb9c03b71279c6e4602e9a4eedfbde8c23d5",
+    "three_global_rules_returned": true,
+    "all_rule_denominators_intrinsic": true,
+    "H3_inverted": false
+  },
+  "exact_original_model": {
+    "scalar_ring": "QQ[x,1/(x F (x+1) H beta J C2)][lambda]",
+    "meaning": "I6=(q_omega,ell_0,ell_1,ell_2,ell_3,n_omega,p_omega)",
+    "monic_omega_quadratic_lambda_degrees": [
+      2,
+      1,
+      0
+    ],
+    "rows_lambda_degrees": [
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ]
+    ],
+    "all_original_denominators_returned": true,
+    "four_original_quadratics_and_full_weighted_NP_returned": true,
+    "exact_divisions": 430,
+    "module_freeness_assumed": false,
+    "physical_D_inverted": false,
+    "cofactors": [
+      {
+        "originalRows": [
+          0,
+          4
+        ],
+        "lambdaDegree": 9,
+        "value": {
+          "denominator": {
+            "degrees": [
+              29,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "2c9806c90851b0630b81d09c54af1d7c619600e985301a66b355da8213b33182",
+            "terms": 21
+          },
+          "numerator": {
+            "degrees": [
+              28,
+              0,
+              9,
+              0,
+              0
+            ],
+            "sha256": "7990a1aedcd7fb95f9143c08cf9a687cb69714860128b9253d7d4669dd33ac6f",
+            "terms": 245
+          }
+        },
+        "leadingNumerator": {
+          "degrees": [
+            28,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "43463f4f92b5882dc357dcaa3b6a9867982c421370734c2830575035b0e78910",
+          "terms": 20
+        }
+      },
+      {
+        "originalRows": [
+          0,
+          5
+        ],
+        "lambdaDegree": 9,
+        "value": {
+          "denominator": {
+            "degrees": [
+              28,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "62ff129eff458bd5341fab6512ac9179213b9c3bbf92ebdc011337bfd9de6953",
+            "terms": 21
+          },
+          "numerator": {
+            "degrees": [
+              27,
+              0,
+              9,
+              0,
+              0
+            ],
+            "sha256": "c35957f86dc6db04abed698dbe07b503ec261a8c82f40ae1020702088791137f",
+            "terms": 238
+          }
+        },
+        "leadingNumerator": {
+          "degrees": [
+            26,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "6696fac7d532ab314fb58cd45774cdb50fde5cbdd1e30a2b63a5b1437b85d6b2",
+          "terms": 18
+        }
+      },
+      {
+        "originalRows": [
+          4,
+          5
+        ],
+        "lambdaDegree": 10,
+        "value": {
+          "denominator": {
+            "degrees": [
+              31,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sha256": "e4c2a73c08be3794d74fb9d47be55d536faaad968fa86c772c32dc0832a7efed",
+            "terms": 23
+          },
+          "numerator": {
+            "degrees": [
+              31,
+              0,
+              10,
+              0,
+              0
+            ],
+            "sha256": "cf01104b266b81c7e63414f63153638f49143d3234e82a43c28a20880a6b062a",
+            "terms": 303
+          }
+        },
+        "leadingNumerator": {
+          "degrees": [
+            31,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "62f27dd07629b2e06ef950edd6c2422f770efe5c79dbc560325b4aac80fc90f5",
+          "terms": 22
+        }
+      }
+    ]
+  },
+  "whole_B_excluded": false,
+  "whole_Phi_excluded": false,
+  "ordinary_ISP_claim": false,
+  "late_JSON_failure_of_preceding_selected_chart_replayed": false
+}
