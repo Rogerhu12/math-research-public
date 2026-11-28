@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 06:36 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 06:36:39 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至813e4030a41519e6aecb6912344e0fb4c3e97233；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
+本次两仓均partial+sparse clone并实际pull main；读根全部规矩、topic README/H/open/log及接续notes。公开根/topic规则核至4953dec80c1bd8f076f5d6bcbb45d997d67a0bb8；相对前会话608067b4两README无diff。私库规则核至75c7bd30591e906ec496b9557daac613e1206432；QUEUE已实际推送“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。每次pull核规则，至少每小时。
 本次终端可用，依根规8用终端git commit/push；非快进立即pull --rebase再推至成功，禁止force。令牌只CLI、不落文件；未发现AGENTS。前会话完整状态/失败记录保公开b0865cd9同路径和其递归来源，未撤任何数学义务。成功科学计算不重跑；继续缺域时消费完整已保存cells。规12不加审批复核门，结论成即推，root LOG不动。
 topic≤200MB、H<10KB、open<30KB、单文本<100KB，禁可重建大数组。META7已由9e7aba99d提交；本次初始topic14359files/198758161B，约1.24MB余量，不重复旧压缩。前6批完整账保上一不可变H。
 接手实际终态：SL45917913526已结束，signed充分门未过；TC45928452441保存2677/7724完整cells、连续1605，whole有限matrix仍成；BNC45941963989恢复历史文件路径失败、0新数学目标。WMR45942597362四目标已成（真实reference高度ν列负），详情由新actual结果登记。并行继续TC缺域、BNC恢复、实际cap R→L；这些均不授最终全逆或闭曲面族。
@@ -29,7 +29,7 @@ geometry43584188751/26只在同η0全core+caps物理C0≤1e−4、|δν|≤1e−
 4. **DWTB/BNC。** DWTB9 45935081577/1（282e）04:35:55全9success，DBRA完整9球/whole w、y、96r、96×2240 residual SHA已登记。e_w∞≈.347099250/e_w2≈.064636867，finite residual≈.014591177、完整eR≈.857445102；大费源于true w误差×whole trial，不冒fullSchur。原success不重。BNC45941963989/1于11-27 06:11历史index路径错误终止，0观察/0新目标；11-28新native-paths入口187current/51history、manifest79755B/74bb82d9c9640d8ffd3a6350c3d56a0fa34b6bd7d7b451775f428786a5e35b9e，仅恢复原basename/兄弟目录，原7目标/四whole父/全G相位及joint费保。新run待实际读取；低96不当完整Θ列。BGR全96×96 signed Gram/新∞产品/整eR proof+pure已成，3新目标未actual，原BNC7不动；BFP完整512forward/2560outputs/全圆pullback/真Θ列proof+pure已成，19新目标未actual。
 5. **ν/phase。** NP/NH/PO/APA/ASB/PHI whole锁，ASB幅度(−.006275,−.006264)/high97<5.330e−5，APHI phase(.038736784,.038768096)/逆25.82只strict particular；PP/CP保regular defect/mean/E′a，CP 1/60<S<3/50仍PD.7候选。P96全6/AP96 f7805546完整球/SHA保，joint96radius<.000227442、首signed(.0028306,.0029694)、center208967022709991/72057594037927936；true_PDE_corrected_columns=false。
 6. **RHI/height。** RHI45933988440/1全4成功，ARHI whole18carrier/2847cells与Eu≈7.210855e−6/Ey≈9.750080e−6完整锁；true y第一负/第三正、u2符号未成。relative I/0非world锚，旧run不再监控。RRM原两mean弱窗、WMR五source92f1d660、WRC补q_b,φ·Δx项后原常数及WRA全三C1端口/真实Yb/Kb行已成，actual b锚仍待同态来源。
-WMR4首45941738781/1在Popen前KeyError reviewed_rules，真实0child/0science；完整log/失败record与源SHA保原ACT前不可变H及各proof。仅修主role，原四目标/数学/history冻结，109current/51history、manifest414de43c…，共用consumed保护；唯一续45942597362/1（695f9ad6）05:26仍science，无dispatch。完整新输出才消费，所有旧成目标禁重。
+WMR4首45941738781/1真实prechild失败完整保；角色修复45942597362/1于11-27 05:57全四目标成功。[AWH](results/R147-supplement-actual-complete-reference-world-height-and-anchor-budget.md)登记actual14607B/ca718bb1cf676c5488e1369f3e616e0b0421bf629e5c8292fe9e918826af2ca5，reference全高度ν列[-.0253702,-.0252298]负，actual锚差<.031082487a0+.006877446p0，Πg=0仅消一个固定高度常数，独立varying端口P_b保。旧四目标不得重算；cap R→L与完整Schur仍待。
 
 [ACT：selected core 的完整 C1 锚传递](results/R147-supplement-selected-core-C1-anchor-transfer-and-weak-height-ports.md)已成：仅同 Qδ 的[b=.18,L=.9]，实际 L 三端口(A0,A1,B1)给 a0≤A0+3.148e−8、a1≤A1+4.312A0+3.6461e−5、b1≤B1+1.950541A1+12.205365A0+1.41e−4；完整原弱窗四行新表与 YL/KL 准确 dual 同付，det−1 轴向负号保。19新组合全过，旧科学0；R→L cap/实际L端口、真TC全源和periodicity仍独立，C0不当C1。
 

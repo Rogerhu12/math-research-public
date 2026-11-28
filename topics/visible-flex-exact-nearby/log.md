@@ -211,3 +211,5 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 2026-11-28 06:33 UTC — visible-exact-astra-b0d5a16-20261128：两仓partial/sparse并pull、私库QUEUE已75c7bd3认领。TC原45928452441完整2677并集/连续1605终态已准入，新manifest184current/32history、99630B/6b82d091…，原owner/科学/分片全不变，仅续5047缺格；0旧科学重算。新增.github/workflows/fourfold-codazzi-true-root-trials-complete2677-public.yml用于唯一push续接。BNC原路径恢复错误及WMR已成四目标分别并行接续，总任务未完成。
 
 2026-11-28 06:34 UTC — visible-exact-astra-b0d5a16-20261128：BNC原45941963989已真实零目标失败；历史index被改成role.json.gz导致loader走错分支。新恢复仅保留原相对路径/后缀/5个兄弟shard，原7目标/全科学式不变，187current/51history、79755B/74bb82d9…。新增.github/workflows/fourfold-codazzi-target-normalized-strict-nu-native-paths-public.yml作唯一续接；旧失败/marker原样保，未预报数学通过。
+
+2026-11-28 06:36 UTC — visible-exact-astra-b0d5a16-20261128：AWH完整登记WMR45942597362四成功目标、全部输入/actual/execution SHA及作用范围。reference高度ν列严格负，新增whole-kernel actual锚差.031082487a0+.006877446p0，准确消单一固定height常数、保varying P_b。没有重跑旧科学，继续实际cap R→L和full inverse。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AWH：完整reference物理高度实际成功及真实锚预算](results/R147-supplement-actual-complete-reference-world-height-and-anchor-budget.md)：45942597362/1四目标全成，完整高度ν列[-.0253702,-.0252298]严格负；以真whole kernel给actual锚差<.031082487a0+.006877446p0，单一height常数由Πg=0消去，独立varying端口P_b保。非full Schur；旧四目标不重算。
+
 - [IL：完整单腿inverse lift误差与三导入口](results/R149-supplement-complete-inverse-density-lift-derivative-bounds.md)：原169-cover/Wiener两条129系数整件及mean恢复，side1给真K48∘Aminus；40当前/6原native，四目标Ep/P1/P2/P3，完整transport/root/selected费用保。首入口已齐，0旧flow/KAM/fit/DFT/norm重算；实际待run供DB和96行。
 
 - [DB：完整Θ行正则性与同一负窗density逆](results/R149-supplement-complete-Theta-row-regularity-and-negative-window-density-inverse.md)：真inverse lift的C³经两次非驻相积分支付完整opposite-sign H−1/2→L²/H¹/³，bootstrap同一C†逆并对偶到C^-1 H−4/3，原gain保持。全残差L²+H双norm给H¹ dual row，准确支付Θ后端one-loss；无小门/finite cutoff假设，actual常数待IL完整四球。
