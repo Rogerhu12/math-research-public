@@ -1,0 +1,64 @@
+name: Run 37 finite-amplitude arclength shoulder continuation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-larger-amplitude/computations/run37-bent-disk-arclength-request.json'
+      - '.github/workflows/visible-larger-run37-bent-disk-arclength.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-run37-bent-disk-arclength
+  cancel-in-progress: false
+
+jobs:
+  finite_amplitude:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Check out the triggering public source commit
+        id: checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/run37_bent_disk_actions.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_arclength.py
+            /topics/visible-flex-larger-amplitude/computations/bent-disk-arclength-design-v1.json
+            /topics/visible-flex-larger-amplitude/notes/run36-bent-disk-46141466656-1.json
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py
+            /topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json
+            /topics/visible-flex-larger-amplitude/computations/run37-bent-disk-arclength-request.json
+            /topics/visible-flex-larger-amplitude/notes/run37-bent-disk-arclength-*.json
+      - name: Select the pinned public numerical Python
+        id: python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - name: Reproduce both original seeds and run the full arclength continuation
+        if: ${{ always() && steps.checkout.outcome == 'success' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+          PYTHONUNBUFFERED: '1'
+          RUN37_PYTHON_SETUP: ${{ steps.python.outcome }}
+        shell: bash
+        run: >-
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261128/run37_bent_disk_actions.py
+          --request topics/visible-flex-larger-amplitude/computations/run37-bent-disk-arclength-request.json
+          --setup-conclusion "$RUN37_PYTHON_SETUP"

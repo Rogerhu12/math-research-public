@@ -1,0 +1,271 @@
+{
+  "schema": "visible-larger-run37-complete-parent-replay-and-arclength-shoulder-launch-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "run_number": 37,
+  "source_branch": "main",
+  "scientific_mode": "Finite-amplitude disk arclength continuation and independent new metric search with two exact original run36 seeds and an R740 elliptic initializer",
+  "full_candidate_solution_or_accurate_certificate_assumed": false,
+  "scientific_inputs": {
+    "script": {
+      "role": "Run37 complete arclength continued bent-disk and shoulder scientific program",
+      "name": "bent_disk_arclength.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_arclength.py",
+      "bytes": 22241,
+      "sha256": "ee7793190ab74956e9df346b7c02e79386ef94c07db997279a7e76158fa0e3a6",
+      "git_blob_sha": "bcbeebda8cffcdd4e3ed9d3ad66d2c17af0de556"
+    },
+    "parameters": {
+      "role": "Run37 complete arclength shoulder parameters",
+      "name": "bent-disk-arclength-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-disk-arclength-design-v1.json",
+      "bytes": 3743,
+      "sha256": "9e73017361a5a94f2919857ce8487acece2270128db32c718f95274253ec5e9c",
+      "git_blob_sha": "c953cc79105fd464e6cb1d28186d4c64ca787367"
+    },
+    "parent_script": {
+      "role": "complete Run36 scientific script",
+      "name": "bent_disk_shoulder.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_disk_shoulder.py",
+      "bytes": 26446,
+      "sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+      "git_blob_sha": "f82379725c30442dd0f1a1a490ffe4cf0d166cca"
+    },
+    "parent_parameters": {
+      "role": "complete Run36 scientific parameters",
+      "name": "bent-disk-shoulder-design-v1.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+      "bytes": 2949,
+      "sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
+      "git_blob_sha": "90138722d9b9125e50d0f560a971c4c00359adb9"
+    },
+    "parent_terminal": {
+      "role": "original public complete run36 terminal physical return, archived scientific values and original artifact SHA records",
+      "name": "run36-bent-disk-46141466656-1.json",
+      "path": "topics/visible-flex-larger-amplitude/notes/run36-bent-disk-46141466656-1.json",
+      "bytes": 38615,
+      "sha256": "7dc72bdc10370460927f7774a0be25cd5770d3ba521c82b04f0965601d61f798",
+      "git_blob_sha": "438c82cafd20c79425da5d461bf2c19a4613893c"
+    },
+    "ellipse_source": {
+      "role": "complete R740 geometric source for the elliptic starts",
+      "name": "r740_rolled_disk_seed.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+      "bytes": 10834,
+      "sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+      "git_blob_sha": "72ef28649a33d115ef9a646a581f61dc3f3ddece"
+    }
+  },
+  "source_commit": "the actual workflow triggering Git commit, retained in its immutable detached scientific worktree",
+  "original_arguments": [
+    "--params",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-disk-arclength-design-v1.json",
+    "--parent-params",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+    "--parent-dir",
+    "{runner_temp}/run37-bent-disk-arclength-{run}-{attempt}/original-36-inputs",
+    "--ellipse-source",
+    "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py",
+    "--out",
+    "{runner_temp}/run37-bent-disk-arclength-{run}-{attempt}/field"
+  ],
+  "scientific_budget_source": "the complete fixed mathematical parameter file and scientific program",
+  "scientific_protocol": "Complete original 36 parent replay with two whole NPZ and coefficient-word identifications. Then run all four original starts of 37, both design refinements, freeze the working angular target and run both fixed-target refinements. Keep original 36 failures and measured replay timing distinct from every new 37 field.",
+  "canonical_point_words": "The scientific program owns the actual full vector layout, little-endian float64 C-order coefficient digest and candidate/replay lineage.",
+  "runner": "ubuntu-latest public GitHub Actions, 4 vCPU, 16 GB",
+  "python": "3.12.14",
+  "dependencies": [
+    "numpy==2.3.5",
+    "scipy==1.17.0"
+  ],
+  "scientific_environment": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numeric_environment_parent": {
+    "path": ".github/workflows/visible-larger-public-small-core-full3-trust.yml",
+    "bytes": 13971,
+    "git_blob_sha": "e846d64025a9661ab8bf1449f26c7c8325af94b2",
+    "sha256": "5280636f0f773af4132792cbf699b2a26a10077522050a4a9f4a473b37333424"
+  },
+  "observe_period_seconds": 8,
+  "minimum_publish_retry_seconds": 20,
+  "live_scalar_publish_period_seconds": 180,
+  "readme_pull_period_seconds": 2700,
+  "public_remote_topic_bytes_limit": 200000000,
+  "action_job_timeout_minutes": 360,
+  "no_child_wallclock_cutoff_added_by_launcher": true,
+  "control_only": {
+    "supervisor": {
+      "role": "Run37 public full 36 replay and exact original input selection followed by new arclength search",
+      "name": "run37_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run37_bent_disk_actions.py",
+      "bytes": 22202,
+      "sha256": "f1a2e7d98efbcb90d2af5f22d0ab7a9a9ac275b1e850a44793f47cb727856596",
+      "git_blob_sha": "5859827632b4f826ec1c5fa2c3268f92f58cf5e5"
+    },
+    "workflow": {
+      "role": "Run37 standalone public 4-core 16-GB workflow",
+      "name": "visible-larger-run37-bent-disk-arclength.yml",
+      "path": ".github/workflows/visible-larger-run37-bent-disk-arclength.yml",
+      "bytes": 3038,
+      "sha256": "8c537bd757b0d9c41f21b6d731f7feb8b17e8fcc9163812b6a5e951dd42684ef",
+      "git_blob_sha": "aa9231a52387e4fbd6461cd15ccf81d3d0bd81b5"
+    },
+    "original_public_git_helpers": [
+      {
+        "role": "original public remote topic tree size, README differences and git primitives",
+        "name": "publish_r734_exact_conclusion.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py",
+        "bytes": 10589,
+        "sha256": "a18fb8ef978c8220c5fa918ed25b348ac35b3d2b24758324bf73d51351a0b4dc",
+        "git_blob_sha": "c07d8a51f944dbacddabd127522d673174498839"
+      },
+      {
+        "role": "original normal git pull/rebase and checked remote handoff resolution",
+        "name": "publish_r738_exact_gap.py",
+        "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py",
+        "bytes": 5864,
+        "sha256": "6e5ef1c015a924a947ae999c6572ca6dbf4ee840207b4d3c53fa4f98fc0b62d1",
+        "git_blob_sha": "71cc2b583ac194b302be055d389f55cc9d0e393d"
+      }
+    ],
+    "shared_run36_control_functions": {
+      "role": "complete Run36 public scientific supervisor, immutable inputs, live scalar and terminal return",
+      "name": "run36_bent_disk_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py",
+      "bytes": 18649,
+      "sha256": "600a301532ef905527ff2651771cd135e82d9d4f9a4be5d548fcbe63e512db01",
+      "git_blob_sha": "67d3e096ab4a6417860d8aa1a413984002bc4523"
+    }
+  },
+  "output_contract": {
+    "scientific_summary": "summary.json in the actual runner output directory, replaced atomically at completed candidates and final return",
+    "raw_fields": "all original NPZ fields remain on the runner, with complete binary SHA and original file lengths in the output inventory",
+    "live": "the latest actual small stdout JSON line and complete per-candidate summary when available",
+    "complete_log": "every scientific stdout/stderr byte remains in the runner log with a final length and SHA",
+    "publication": "notes/run37-bent-disk-arclength-<actual_run>-<actual_attempt>.json and its own H marker after normal pull/rebase and capacity accounting",
+    "normal_exhaustion_or_unsatisfied_targets": "No conclusion of metric, reach, grip, global embedding or rigid-quotient success is inferred from the return code",
+    "parent_replay": "full original stdout and actual eight-stage summary saved in full-36-replay or next to it in runner temp; public record retains independent SHAs, elapsed time, stage records and input comparison"
+  },
+  "actual": {
+    "github_run_id": null,
+    "github_run_attempt": null,
+    "scientific_source_commit": null,
+    "field": null,
+    "point": null,
+    "fixed_metric_identity": null,
+    "candidate_residuals": null,
+    "full_domain_readouts": null,
+    "held": null,
+    "reach": null,
+    "rigid_quotient": null,
+    "mathematical_solution": null,
+    "parent_replay": null,
+    "original_coordinates_reconstructed_by_this_attempt": null
+  },
+  "scientific_parameter_summary": {
+    "complete_design_count": 4,
+    "design_ids": [
+      "tilt44-lift-parent05",
+      "tilt32-parent04",
+      "tilt38-native",
+      "horizontal-r740-ellipse"
+    ],
+    "parent_check": {
+      "check_radial": 109,
+      "check_angular": 512
+    },
+    "design_refinements": [
+      "arc-design-2",
+      "arc-design-3"
+    ],
+    "fixed_refinements": [
+      "arc-frozen-1",
+      "arc-frozen-2"
+    ],
+    "freeze_angular": 640,
+    "phases": [
+      0,
+      1.5707963267948966,
+      3.141592653589793
+    ],
+    "geometric_start_ellipse_only": true,
+    "elliptic_source_publication": "1a0e4b0e4ee8f2e6d14124a4b38eeffe6b4f55a2",
+    "readout_scope": "floating point or discrete comparisons; rigorous full-domain Gram, reach, exact isometry, embedding and rigid quotient remain unpaid",
+    "workflow_adds_no_candidate_filter": true
+  },
+  "original_parent": {
+    "run_id": "46141466656",
+    "attempt": "1",
+    "job_id": "140968124228",
+    "source_commit": "d88ba0149eba5abf6fc0e4ef73e0f361deaafa8a",
+    "terminal_source": "whole archived terminal, immutable blob in scientific_inputs.parent_terminal",
+    "scientific_summary_bytes": 19068,
+    "scientific_summary_sha256": "ee4a781d8fd5a530335acc78543ade26ac6c3ae89edaedb5a044a9fc619063d1",
+    "scientific_status": "completed_finite_design_and_two_fixed_target_resolutions",
+    "required_stages": [
+      {
+        "ordinal": 4,
+        "prior_design": {
+          "angle": 0.44,
+          "equator_radius": 0.96,
+          "fillet_shift": 0.075,
+          "height": 0.32,
+          "id": "tilt44-geometric",
+          "length": 1.02,
+          "radial_power": 63,
+          "seed": "geometric"
+        },
+        "prior_configuration": "medium-design",
+        "x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949",
+        "shape": [
+          266
+        ],
+        "npz_sha256": "902b45b725e439eae5fc843a500cf7e18eaa0443665850e53a604c1879d9d1f9",
+        "npz_bytes": 2662
+      },
+      {
+        "ordinal": 5,
+        "prior_design": {
+          "angle": 0.44,
+          "equator_radius": 0.96,
+          "fillet_shift": 0.075,
+          "height": 0.32,
+          "id": "tilt44-geometric",
+          "length": 1.02,
+          "radial_power": 63,
+          "seed": "geometric"
+        },
+        "prior_configuration": "fine-design",
+        "x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17",
+        "shape": [
+          366
+        ],
+        "npz_sha256": "f719582f0c12a4f1eca9d7689cd6ddb873520d5ce69ec147883bda46fe055d8e",
+        "npz_bytes": 3462
+      }
+    ],
+    "whole_replay": {
+      "science_arguments": [
+        "--params",
+        "{immutable_science_worktree}/topics/visible-flex-larger-amplitude/computations/bent-disk-shoulder-design-v1.json",
+        "--out",
+        "{runner_temp}/run37-bent-disk-arclength-{run}-{attempt}/full-36-replay"
+      ],
+      "complete_original_scientific_program": true,
+      "requested_all_original_stages": 8,
+      "original_phase_geometry": true,
+      "archived_original_summary": "deserialize its complete returned values and reserialize with the original JSON writer; bind the original bytes, size and SHA",
+      "replay_measurements": "new actual clock, eight stage coordinate identities, new full stdout/summary hashes, return, two whole NPZ bytes and two actual coordinate-word digests",
+      "seed_directory": "original-36-inputs",
+      "input_requirement": "37 consumes byte-identical original seed coordinates and full original summary values.",
+      "scientific_result_of_run37": false
+    }
+  },
+  "original_active_queue_files_modified": false
+}

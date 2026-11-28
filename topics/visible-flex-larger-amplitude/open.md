@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 实际运行
 
-19–32完整终态和各own note见上述固定全文。20–26取消原因未明；27/28/29retry/31/32的[各自日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)确认README核查异常，不冒自然final。19和28原science/pure0，28新R729仅启；其余未返结果仍未知。[固定S/core-law90项](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已返，13summary旧错保。
+19–32各自完整终态/全部源参/未知保上述固定全文与own note；[旧五次自身日志](notes/2026-11-28-runs27-32-actual-readme-change-failures.md)确认README核查异常，不冒自然final；已登记结论不重做。
 
 [33 retry完整](notes/2026-11-28-run33-section16-retry.md)：46133839513/job140944661119，两input0，source bffd5bbf/PID3463/model61c654。初7e06/accepted0/Phi681.6517423825408/Gram.4061652531176999/reachg.5305849371949052；首trial291f394全几何g16.64809271107871/reach已拒；半步8e3194c统计Phi705.3748228317756/Gram.4078179189091087已返、几何未返。旧run因根§16核查退出且science未启；自然新science返才pure62854，原全预算/正半波不变。
 
@@ -114,6 +114,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [35完整](notes/2026-11-28-R732-R729-run35-complete-launch.md)：46137993293/job140957485768，两input0，science 2c8739ed/PID3435/model726006；初7e06/accepted0/Phi25127.568861304877/Gram.8838253080334753，完整几何未返。新圆肩139角色/24runtime，713/719正式+64live、原632/625各路径和全部预算保；自然science返才pure74162。1,333,370 outer变量全自由，不冻结正宽端层。异source/model不借同坐标结论。
 
 [36完整实际记录](notes/2026-11-28-run36-bent-disk-complete-launch.md)：46141466656/1、job140968124228自然RC0、八阶段全返；同冻结数值g两精化验证Gram .8454746923566958→2.17427627577303，末K样本57.85981285612486，未达标。全三相2829点与原源参/点/NPZ身份保[终态](notes/run36-bent-disk-46141466656-1.json)。继续新弧长角/正常延拓输入；不借点云held/D/reach，不动33–35。
+
+[37真弧长角完整新求解](notes/2026-11-28-run37-arclength-complete-launch.md)：36原八阶段必要重生并核04/05全点，四有限候选/两设计/同一640角目标两细化；新原盘六jet延拓及全环E⊥/b费用，全部源参现刊，实际待查。连续同g/全reach及材料逆角等费用仍待付。
 
 ### 已证结果与严格缺口
 

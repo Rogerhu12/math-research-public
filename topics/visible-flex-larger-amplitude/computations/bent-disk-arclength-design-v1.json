@@ -1,0 +1,165 @@
+{
+  "schema": "bent-disk-canonical-angle-design/v1",
+  "parent_source_sha256": "f77b38db6b58367c72463e4c6ed0234e7db7b1e61095f754792238eb34fa3c8e",
+  "parent_params_sha256": "5ac158f236fea8383cc9bcbe5a15b8df2a7a0e4a6dd7f09b91113f3278141372",
+  "parent_summary_sha256": "ee4a781d8fd5a530335acc78543ade26ac6c3ae89edaedb5a044a9fc619063d1",
+  "ellipse_source_sha256": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+  "parent_stages": [
+    {
+      "stage": 4,
+      "npz_sha256": "902b45b725e439eae5fc843a500cf7e18eaa0443665850e53a604c1879d9d1f9",
+      "x_sha256": "01f6797f491fe6f0d238902844366e84efcb1aa882b1526f2f2e0c0b1305e949"
+    },
+    {
+      "stage": 5,
+      "npz_sha256": "f719582f0c12a4f1eca9d7689cd6ddb873520d5ce69ec147883bda46fe055d8e",
+      "x_sha256": "df0c4a3bb6551f659cff9c544cb9e007b0f6e8de3be2adb78916ab9ad8a6eb17"
+    }
+  ],
+  "parent_check": {
+    "check_radial": 109,
+    "check_angular": 512
+  },
+  "witness_x": 0.995,
+  "witness_ball": 0.55,
+  "body_radius": 1.375,
+  "section_area_floor": 0.1,
+  "geometry_price": 1.75,
+  "curvature_price": 10.75,
+  "bending_weight": 0.13,
+  "shape_directions": 8,
+  "jacobian_probe": 1e-7,
+  "cloud_radial": 13,
+  "cloud_angular": 56,
+  "phases": [
+    0,
+    1.5707963267948966,
+    3.141592653589793
+  ],
+  "markers": [
+    [
+      -0.11,
+      -0.07,
+      0.045,
+      0.00002
+    ],
+    [
+      0.1,
+      -0.07,
+      0.05,
+      0.00002
+    ],
+    [
+      -0.02,
+      0.11,
+      0.055,
+      0.00002
+    ]
+  ],
+  "normal_speed_floor": 0.18,
+  "speed_weight": 2.5,
+  "support_center_world_x": 0.58,
+  "support_goal": 0.085,
+  "support_weight": 5,
+  "designs": [
+    {
+      "id": "tilt44-lift-parent05",
+      "angle": 0.44,
+      "height": 0.39,
+      "length": 1.02,
+      "equator_radius": 0.96,
+      "seed": "parent",
+      "parent_stage": 5
+    },
+    {
+      "id": "tilt32-parent04",
+      "angle": 0.32,
+      "height": 0.34,
+      "length": 1.02,
+      "equator_radius": 0.96,
+      "seed": "parent",
+      "parent_stage": 4
+    },
+    {
+      "id": "tilt38-native",
+      "angle": 0.38,
+      "height": 0.37,
+      "length": 1.02,
+      "equator_radius": 0.98,
+      "seed": "native"
+    },
+    {
+      "id": "horizontal-r740-ellipse",
+      "angle": 0,
+      "height": 0.17,
+      "length": 1.02,
+      "equator_radius": 0.99,
+      "seed": "ellipse"
+    }
+  ],
+  "coarse": {
+    "id": "arc-design-1",
+    "spans": 6,
+    "mode": 10,
+    "radial": 25,
+    "angular": 96,
+    "check_radial": 61,
+    "check_angular": 384,
+    "regularizer": 0.000008,
+    "max_evaluations": 90,
+    "lsmr_iterations": 100
+  },
+  "design_refinements": [
+    {
+      "id": "arc-design-2",
+      "spans": 10,
+      "mode": 14,
+      "radial": 37,
+      "angular": 144,
+      "check_radial": 83,
+      "check_angular": 512,
+      "regularizer": 0.000003,
+      "max_evaluations": 100,
+      "lsmr_iterations": 120
+    },
+    {
+      "id": "arc-design-3",
+      "spans": 12,
+      "mode": 18,
+      "radial": 45,
+      "angular": 192,
+      "check_radial": 101,
+      "check_angular": 640,
+      "regularizer": 0.000001,
+      "max_evaluations": 100,
+      "lsmr_iterations": 150
+    }
+  ],
+  "freeze_angular": 640,
+  "fixed_refinements": [
+    {
+      "id": "arc-frozen-1",
+      "spans": 12,
+      "mode": 20,
+      "radial": 49,
+      "angular": 192,
+      "check_radial": 109,
+      "check_angular": 640,
+      "regularizer": 5e-7,
+      "max_evaluations": 110,
+      "lsmr_iterations": 160
+    },
+    {
+      "id": "arc-frozen-2",
+      "spans": 18,
+      "mode": 24,
+      "radial": 61,
+      "angular": 256,
+      "check_radial": 131,
+      "check_angular": 768,
+      "regularizer": 2e-7,
+      "max_evaluations": 120,
+      "lsmr_iterations": 180
+    }
+  ]
+}
