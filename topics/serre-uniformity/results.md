@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原Fermat全部交换补偿与交叉quadric源（已证明）**：[quadric续篇 §9](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)十个原P_ab的交换保精确p次补偿，真实114输入的Cartier单位被锁定；非reciprocal quadric有完整扭曲微分及原源读数。共同零后仍留114项，未以两个123槽的消失删掉该余项。
+
 - **原Gaussian指定高Hurwitz窗口的两位carry reduction（已证明）**：[原有限读式](notes/2026-11-28-original-Gaussian-two-digit-Hurwitz-reduction.md)原逆椭圆积分在e/4前全整，唯一Lucas carry为2a/b_E，首不整边界pF_(e/4)=−1。R1168的全部高G降为≤12个degree≤5 p-section和安全低R/F/S的≤h读取，保实际尺度与中间G_(3p−1)，不宣系数非零。
 
 - **原最高correlation Frobenius的全部实际双线性读数（已证明）**：[R1168 §§8–9](results/R1168-original-unramified-PD-contraction-and-CM-moment-readout.md)由原N_u微分、J0=0及实际normal下界完整求出最高加权U项；B_kl保同一二同源核的两矩乘积，BCH权(k−l)/(2(k+l+2))、ordered权(k+1)/(k+l+2)。原高carry、factorials和全部点对均保，继续原未平滑与其它中心，未宣该组合为单位。

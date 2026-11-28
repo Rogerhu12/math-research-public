@@ -792,3 +792,178 @@ $$
 二次 primitive 的全部 $p$ 次核项排除、第三类 $U'^{-1}$ 相位、
 两次实际有限空间的核维数、三次分部积分的 $-3\delta^3$，
 以及五次链的所有首项均相符。没有数学程序执行。
+
+
+## 9. 三分支交换的完整 primitive 补偿与另一个 canonical quadric
+
+本节沿用原 Fermat 曲线 $x^6+y^6=1$、$h_*=\omega_{22}$ 和
+原始显示函数 $P_{ab}$。记
+$$
+\mathscr D=\frac d{h_*}=-b_0D,\qquad
+\sigma(x,y)=(y,x),\qquad
+\epsilon=(-1)^m,\qquad m=(p-1)/2.
+$$
+因此 $\sigma^*h_*=-h_*$。下面的补偿是全函数身份，
+不是只在 Cartier 后或只在共同零假设下成立。
+
+### 9.1. 所有十个原 primitive 的交换补偿
+
+对 $a,b\ge1$、$a+b\le5$，写
+$$
+P_{ab}=x^a y^{-bp}R_{ab}(x^6),\qquad
+R_{ab}(t)=\sum_{i=0}^{bk-1}
+ \frac{(-1)^i\binom{bk-1}{i}t^i}{a+6i}.
+$$
+所有分母均为单位。有限 beta 恒等式给
+$$
+\boxed{
+r_{ab}:=R_{ab}(1)
+ =\frac{(bk-1)!}{a(1+a/6)_{bk-1}}
+ =k\,\frac{(ak-1)!(bk-1)!}{((a+b)k-1)!}
+ =r_{ba}\in\mathbf F_p^\times.
+}
+\tag{Q.31}
+$$
+这里 $k=1/6$ 于 $\mathbf F_p$，
+而所有阶乘指标都严格小于 $p$。
+准确的交换律是
+$$
+\boxed{\qquad
+\sigma^*P_{ab}+P_{ba}
+ =\frac{r_{ab}}{(x^b y^a)^p}.
+\qquad}
+\tag{Q.32}
+$$
+证明如下。左边导数为零，乘 $x^{bp}y^{ap}$ 后得到
+$$
+(1-t)^{ak}R_{ab}(1-t)+t^{bk}R_{ba}(t),\qquad t=x^6.
+$$
+这是次数至多 $(a+b)k-1<p$ 的多项式。
+因所乘函数也是 $p$ 次幂，其导数仍为零，
+所以该多项式严格为常数；在 $t=0$ 的值是 $r_{ab}$。
+这同时锁定了补偿函数及其常数，没有待定的 $p$ 次项。
+
+例如
+$$
+\sigma^*P=-P+\frac{r_{22}}{(x^2y^2)^p},\qquad
+\sigma^*P_{12}=-P_{21}+\frac{r_{12}}{(x^2y)^p}.
+$$
+这里始终保留原 primitive 的规范。
+
+### 9.2. 一个实际 $114$ 输入的 Cartier 单位
+
+置
+$$
+c_0=xyP_{11}.
+$$
+则 $c_0h_*$ 只有 $y=0$ 六点处至多 $p-2$ 阶的极。
+在这些点，其局部指数都为 $2-p+6j$，故无留数；
+在无穷远则正则。
+于是其 Cartier 全纯。
+在 $\mu_6^2$ 下，输入角色是 $(4,4)$，
+绝对 Cartier 变为 $(2,2)$；对应全纯空间恰为
+$\mathbf F_p h_*$。因此
+$C(c_0h_*)=\vartheta h_*$，其中 $\vartheta\in\mathbf F_p$。
+
+所需标量可完全锁定。
+在实际二次曲线商
+$$
+(X,Y)=(x^3,y^3),\qquad X^2+Y^2=1,
+$$
+有 $xyh_*=dX/(3Y)$。
+唯一可读 Cartier 指数给
+$$
+C(xyh_*)=\epsilon\,xyh_*,
+$$
+因为 $[X^{p-1}](1-X^2)^m=(-1)^m$。
+另一方面 (Q.32) 给
+$$
+\sigma^*c_0=-c_0+r_{11}(xy)^{1-p}.
+$$
+结合 $\sigma^*h_*=-h_*$ 与 Cartier 的自然性，得到
+$-\vartheta=\vartheta-\epsilon r_{11}$。
+所以
+$$
+\boxed{\qquad
+C(c_0h_*)=\frac{\epsilon r_{11}}2\,h_*,
+\qquad
+r_{11}=k\frac{((k-1)!)^2}{(2k-1)!}.
+\qquad}
+\tag{Q.33}
+$$
+显示标量确为单位。这里 $xyh_*$ 本身是亚纯微分，
+不能把它当成一个被 superspecial 性杀掉的全纯输入。
+
+### 9.3. 非 reciprocal quadric 的准确扭曲源
+
+记
+$$
+a_0=xP_{12},\qquad a_1=yP_{21},\qquad
+q=x^2y^2,\qquad w_0=x^6-y^6,
+$$
+并置
+$$
+\mathcal Q_\times=a_0a_1-c_0P
+ =xy(P_{12}P_{21}-P_{11}P),\qquad
+\mathcal T_\times=a_0+a_1-c_0-P.
+$$
+这里的 $q,w_0$ 仅是本小节的实际函数，
+不改前文的 $Q$ 点或 quadric norm $W$。
+四个函数 $a_0,a_1,c_0,P$ 对
+$x\mapsto-x,y\mapsto-y$ 均不变，故还下降到实际椭圆商
+$C^3+A^3=1$，其中 $C=x^2,A=y^2$，
+$h_*=dC/(2A^2)$。
+
+原微分的 canonical 关系是
+$dP_{12}\,dP_{21}=dP_{11}\,dP$。
+直接微分四个函数给
+$$
+\mathscr Da_0=\frac{y^6}{q}a_0+1,\quad
+\mathscr Da_1=-\frac{x^6}{q}a_1+1,\quad
+\mathscr Dc_0=-\frac{w_0}{q}c_0+1,\quad
+\mathscr DP=1.
+$$
+因此得到完整的一阶扭曲身份
+$$
+\boxed{\qquad
+\left(\mathscr D+\frac{w_0}{q}\right)\mathcal Q_\times
+ =\mathcal T_\times .
+\qquad}
+\tag{Q.34}
+$$
+等价地，$\mathcal T_\times h_*=xy\,d(P_{12}P_{21}-P_{11}P)$。
+乘上 $xy$ 后不能删除其 Cartier。
+
+原 (Q.1) 的 $\mathcal A,\mathcal B$ 给 $a_0=(\mathcal A+\mathcal B)/2$。
+用 $\omega=-b_0h_*$、$b_0^p=-b_0$，
+已付的 $C_{\rm rel}(\mathcal B\omega)=\alpha\omega'$ 准确变成
+$C(a_0h_*)=-\alpha h_*/2$。
+将 (Q.32) 用于 $a_0$，补项含
+$C(yh_*)=C(\omega_{23})=0$，
+所以 $C(a_1h_*)=\alpha h_*/2$。
+另 $C(Ph_*)=0$。连同 (Q.33)，得到
+$$
+\boxed{\qquad
+C(\mathcal T_\times h_*)
+ =-\frac{\epsilon r_{11}}2\,h_*\ne0.
+\qquad}
+\tag{Q.35}
+$$
+
+这个非零读数并未排除原共同零。
+确切地，在 $e=K_4=0$ 时，(Q.2)、(Q.5) 的全部低插入及
+(G4.90)–(G4.91) 给
+$$
+C(P^r a_0h_*)=C(P^r a_1h_*)=0\quad(0\le r\le4).
+$$
+第二式要将 (Q.32) 中 $\sigma^*P$ 的全部 $p$ 次补偿展开；
+出现的附加项是已付的 $C(P^j yh_*)$，$j\le r$，均为零。
+因此这个分支上完整保留的是
+$$
+C(P^r\mathcal T_\times h_*)=-C(P^rc_0h_*)
+\qquad(0\le r\le4).
+$$
+特别 $r=0$ 时，右侧正承担 (Q.35) 的单位。
+后继若要据 (Q.34) 排除共同零，必须处理这个实际 $114$ 项，
+不能只凭两个 $123$ 项的消失把整条扭曲源置零。
+本节为纸面函数域证明，无数学程序执行。

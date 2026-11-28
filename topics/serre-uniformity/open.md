@@ -63,7 +63,7 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 R1166 §§9–13原第一层tame S_L=⊕z^jS_F，g=u−p=ze−p，ψτ交换且N_z=eN_u、dlogu=e dlogz；actual Cor无log槽e·第0块、log槽第0块，两个L因子用same-coset。原Tr x^[d]=0后才消theta leading/幂项；d4/8取原V₂=−1/(z³y)，来源¼[Δ/(16y⁴)]无新根。输入恰k_d⁻¹(A₀dlogu,eB₀)，A/B是x^[d]NlogV₂与x^[d]p⁻¹log(V₂^p/ψV₂)，全部normal及高层gauge保留。
 
-R1166 §§14–18 actual Steinberg primitive(0,β)满足d h=−cup，β=Li₂†+AB₀+J，J=p⁻²∫log(1−t/(1−U^p))/(U^p+t)dt整，模p^M只需n≤M+1(M≤29)。βmodp=(ℓ₂+εℓ₁/U^p−ε²/(2U^p))/(1−U^p)，原线性carry不能删；h_R=AB−β及通用Z=𝔟(A,A)−H，𝔟的λ∞为正。未分歧universal的整compatible tower先锁同根再pullback；共同U=z^mV近0化ε=U^pα，J无负幂，exact S/J保AB−β、−β+A²/2。原line/divisor精确z因子、固定CM整数α与[1+α]P(z)继续，不能用只在Ep相同的Teich形式替换。
+R1166 §§14–18已付原Steinberg整β=Li₂†+AB₀+J、全部normal carry及共同log三坏角，h_R=AB−β、Z=𝔟(A,A)−H且λ∞为正。完整有限精度/whole universal同根/固定CM整数α和[1+α]端点均沿原文与逐字前态；不得删线性carry或替换Teich形式。
 
 R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n从k+1起、J0=0及a=N_u y。最高corr完整nonlinear SDR给BCH=−R_ZJ；R1168 §§8–9已继续实读全部所需J：设B_kl=A4,k A8,l−Σ_iA′i,4,k A′i,8,l，则BCH=Σ(k−l)B_kl/[2(k+l+2)]·ω^(k+l)η^(12−k−l)，ordered换系数(k+1)/(k+l+2)。所有rank1/rank2、原根/同陪集Cor保留；不再有未定U读数，未宣单位。继续原未平滑J_n/B_n与Π2/4。
 
@@ -102,6 +102,8 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 [R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)有限八系统仅标量，不重跑；[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)、[原Prym三同源](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)、R1095/R1113/R1130的完整phase/primitive/Leibniz/相邻单位沿前态，只消费，均不代e/K4非同时零。
 
 ### 同一 Fermat 原 quadric、两指定 Cartier 与有界链
+
+[同续篇 §9](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原全部十个P_ab满足σP_ab+P_ba=r_ab/(x^b y^a)^p，r_ab=k(ak−1)!(bk−1)!/((a+b)k−1)!单位。设a=xP12,b=yP21,c=xyP11、F=ab−cP，则(Dscr+(x⁶−y⁶)/(x²y²))F=a+b−c−P，其Cartier准确为−(−1)^m r11 h*/2。双零只杀a/b的r≤4插入，c的114余项仍在，不能据旁unit宣矛盾。
 
 [原genus4 §§9–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已锁canonical P22=−Ψ/(b0δ)、六个123实际映射及全p次补偿、三个V4/114方向与高亚纯项、A3/A9及原谱jet一阶gauge。完整相位/极点/μ3范围沿本次逐字归档与原文；只有原123在eK40的第0…4层才可按已付Cartier零删除相应pth补偿，不删114的Λ或高极项。
 

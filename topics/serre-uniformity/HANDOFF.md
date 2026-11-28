@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：1696b6221a6de1894341ef77b8bf1c711852ad6e**（2026-11-28 15:59 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：abde110716843ed177ec9dc230fb84df30b80e69**（2026-11-28 16:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 15:44 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 15:44:08 Asia/Taipei，Actions run46122538838/job140909965508，blob:none浅clone后真实pull --rebase至e8cff12e且与origin/main相同；两README diff空、全文hash同，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤16:34、pull≤16:44。本地15:43仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -45,7 +45,7 @@ R1166 §§19–21已付原/primed θ₂的ordinary βU、first=0与normal y_k,n�
 
 [原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原canonical P22、六123映射/p次补偿、V4三平移及A/B/W全源已付；顶U^p与b6不同源，全部相位沿open/原文，不能替指定两jet。
 
-[quadric续篇 §§1–8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原A=D³I及高Lamé完整分裂锁全部P³有序槽/P²W、R0=g/U^(m+1)、K=UDR0。e检测R0有界primitive，K4检测同K第三插入，全部尺度在原文。§8 e=K4=0 iff D^(p−5)K=0；M0=K²−v²R0²、DM0=2K，高极全消且五阶有界链保非齐次norm D⁶M4−2。继续三极二次限制/最后五阶余项；首项、Jordan存在性和高Z单位都不代σ/Λ/T非零。
+[quadric续篇 §§1–9](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)A=D³I及高Lamé完整分裂已锁原两jet；R0=g/U^(m+1)、K=UDR0，双零iff D^(p−5)K=0，M0=K²−v²R0²、DM0=2K及五次有界链保非齐次2。§9全部P_ab的S3交换保实际p次补偿；非reciprocal quadric的扭曲源有−(−1)^m r11 h*/2的Cartier单位，但双零后仍由114项承担，不能删。继续三极norm/交叉quadric，不以旁unit替指定两jet。
 
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
