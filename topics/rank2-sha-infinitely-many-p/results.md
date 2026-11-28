@@ -240,3 +240,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1067 §59：真实中心比的新素因子与有限period判据
 
 三原Eisenstein比在大权模任意固定S-unit保持秩2；完整高度/最短向量/Matveev与S3证明后，Fuchs–Pham排除其对数与有限全局单位及阿贝尔点period的关系。只有目标余项进入该有限空间时才得原中央非零。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §60：全部目标导数的一重完整过收敛积分
+
+有限period障碍扩到S外循环群相对紧的一般交换代数群；同一三目标Newton/Borel转换给ΣI′=−∫₀¹D(−t)dt/t，两个端点正则。被积微分未证明代数，不能免费调用广义Jacobian对数。 [同编号全文](results/R1067-original-three-target-units-and-integral-isotropic-source.md)。

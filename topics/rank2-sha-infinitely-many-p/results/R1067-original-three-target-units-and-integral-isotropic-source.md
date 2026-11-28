@@ -410,3 +410,105 @@ $$
 在无穷多个 $p$ 对**完整**目标余项获得，便可用 R303 完成主目标。
 (Y4)的有限特征值本身含两个局部对数之比，(Y5)还读取任意深度；
 两步都没有把完整三导数和自动置入这里的有限线性对数空间。
+
+## 60. 一般交换代数群的有限对数，以及完整三目标余项的一条原超收敛积分
+
+沿用(AA1)–(AA5)，固定有限有理素数集 $S$，并在选择的
+$\overline{\mathbf Q}\hookrightarrow\mathbf C_p$ 下取对数。
+对交换连通代数群 $G/\overline{\mathbf Q}$ 和一个代数点 $P$，
+允许先取任何共同定义域。要求对每一 $v\nmid S\cup\{p\}$，
+$\langle P\rangle$ 在 $G(L_v)$ 中相对紧；这条件不随定义域
+的有限扩张改变。在所选 $p$ 位则要求 $P$ 属于群对数的定义域
+$G(\mathbf C_p)_f$。令 $\mathscr L_{S,p}$ 为所有这类对数在代数
+Lie 基中坐标的有限 $\overline{\mathbf Q}$-张成空间，并加入 $1$。
+原(AA4)扩大为
+$$
+ \log_p(c_1/c_0),\quad\log_p(c_2/c_0)
+ \ \text{在 }\mathbf C_p/\mathscr L_{S,p}
+       \text{ 中仍在 }\overline{\mathbf Q}\text{ 上线性独立}.       \tag{AB1}
+$$
+特别允许非分裂的半阿贝尔簇、向量扩张及任意模数的广义 Jacobian；
+群的维数、数域、所用点均可随 $p$，但每次的线性和有限。
+原 $S\cup\{p\}$-unit 对数在固定支 $\log_p(p)=0$ 下，可乘
+$p$ 的有理次幂使所选位为单位。阿贝尔簇由 proper 性在其它位
+自动满足相对紧条件。
+
+证明。将一条所称关系的所有群取乘积 $G$，连常数也用
+$(\mathbf G_a,1)$ 实现。记 $u=c_1/c_0,v=c_2/c_0$，取
+$(u,v,P)$ 的循环群在 $\mathbf G_m^2\times G$ 的 Zariski 闭包。
+取统一整数倍到连通分支，记该分支为 $D$，$G$ 侧投影为 $D_0$。
+由(AA1)，$D$ 满投射到 $\mathbf G_m^2$。若
+$D\cap(\mathbf G_m^2\times1)$ 不含整个环面，则 quotient
+$T=\mathbf G_m^2/(D\cap\mathbf G_m^2)$ 是正维环面。对应的
+$D_0\to T$ 是代数同态，因为 $D/(D\cap\mathbf G_m^2)=D_0$；
+两投影在 $D$ 上相等至这一商。取 $T$ 的非平凡字符，从而某个
+$(u^av^b)^N$ 等于 $D_0$ 的代数字符在 $[N]P$ 的值，
+其中 $(a,b)\ne(0,0)$。每个指定的 $v$ 上，$[N]P$ 的幂所生成的
+紧闭包落在 $D_0$，其字符像又相对紧。因此该值在 $S,p$ 外均为
+单位；$u,v$ 在全部 $p$ 位也是单位。这同(AA1)矛盾。于是闭包
+含整个外部环面。若(AB1)有非平凡代数系数关系，Fuchs–Pham
+Th. 1.1 所得代数子群包含原点的某个统一正整数倍，Lie 代数却落
+在对这两个环面坐标至少一个系数非零的超平面，与上述闭包矛盾。
+此处“原点”指所代入的代数点 $(u,v,P)$。
+
+在固定代数曲线、固定模数及支撑不碰模数的固定代数次数零除子
+的情形，所得广义 Jacobian 的代数点在某个固定有限集外有整
+光滑群模型上的整截面，故上述紧性条件成立。一重 Coleman 积分
+若由此点的群对数与一条代数不变微分配对给出，则该值已在
+$\mathscr L_{S,p}$ 中；可选所需模数包住所给极。这里允许第二类
+与第三类微分所给的向量及乘法扩张。因而
+$$
+ \sum_i\mathcal I_i'(0)\in\mathscr L_{S,p}
+   \ \Longrightarrow\ J_p'(0)\ne0
+   \ \Longrightarrow\ \Sha(E_{17}/\mathbf Q)[p^\infty]\text{有限}.\tag{AB2}
+$$
+
+有一个同一原三目标、端点固定的完整 **解析** 一重积分可供比较。
+令 $d=p+1$，$C_i=2c_i$，并用(U1)含物理二次指数的 $H_i$。
+对非负整数 $k$ 置
+$$
+ m_k=\sum_{i=0}^2 k!C_i^{-k}[z^{dk}]H_i(z),\qquad
+ M(X)=\sum_{k\ge0}m_kX^k,\qquad
+ D(W)=\sum_{h\ge0}\Delta^h m_0\,W^h,                         \tag{AB3}
+$$
+其中 $\Delta m_k=m_{k+1}-m_k$。完整的(U4)给
+$m_k=\sum_i\mathcal I_i(k)$；其质量 $m_0=\sum B_i=0$。
+Newton 系数 $\Delta^hm_0=h!\sum_i
+ C_i^{-h}[z^{dh}](H_i e^{-C_i z^d})$。逐项等式由有限二项式
+反演成立；(U4)或 R301 的同一圆盘界付出正的线性赋值增长，
+故 $D$ 在半径严格大于一的盘解析。也可只用
+$\sum_i\mathcal I_i\in\mathcal O\langle u\rangle$：各单项式
+$\Delta^h u^k|_0=h!\,{k\brace h}$ 给 $\Delta^h m_0\in h!\mathcal O$，
+已经足够超收敛。一般形式生成函数恒等式及完整积分为
+$$
+ D(W)={1\over1+W}M\!\left({W\over1+W}\right),\qquad
+ \boxed{\displaystyle
+ \sum_i\mathcal I_i'(0)
+ =-\int_0^1 D(-t){dt\over t}
+ =-\int_0^\infty M(X){dX\over X}.}                            \tag{AB4}
+$$
+第一式展开 $\Delta^hm_0$ 的二项式即可。第二式的第一积分沿
+$t$ 闭单位盘的解析原函数定义，积分项为
+$(-1)^{h-1}\Delta^hm_0/h$，准确等于 Newton 基
+$\binom uh$ 在零的导数贡献。末一积分沿同盘的坐标
+$X=-t/(1-t)$，不另选空间延拓的分支。确实
+$D(-t)=(1-X)M(X)$ 与 $dt/t=dX/[X(1-X)]$；$M(0)=0$，且
+$M(X)=D(X/(1-X))/(1-X)$ 在所取 $p$ 进无穷盘正则且为零。
+因此被积微分在两个代数端点都正则。本式未将原超收敛被积
+微分假定为代数微分。
+
+从二阶 sigma 加法式还可在每个真实目标上选择代数点
+$P_i$ 使 $x_i(P_i)=-A_i/B_i$，从而
+$$
+ {H_i(z)\over B_i}
+ =-{e^{-s_i z^2}\sigma_i(z+P_i)\sigma_i(z-P_i)\over\sigma_i(P_i)^2}.
+                                                                  \tag{AB5}
+$$
+这里 $P_i$ 在复正规化中取任一 lift；等式的右边由加法式独立
+于这一选择。Bannai–Furusho–Kobayashi, Nagoya Math. J.
+**219** (2015), Th. 1.2 在好超奇异处也给位置变量的
+$E^{\rm col}_{1,1}$ 与 Coleman reduced-theta **对数**的等式；
+其 Prop. 1.3 所用 $p$ 进权极限则假设好普通约化。该文原模型
+还取最大 CM 序。公式(AB3)读取的是(AB5)整个截面的系数、所有
+$k!$ 和三个各自的 $C_i$，其端点值还未由该文的固定位置
+对数给出。[一手原刊](https://www.math.nagoya-u.ac.jp/~furusho/paper/BFK.pdf)（DOI 10.1215/00277630-2891995）
