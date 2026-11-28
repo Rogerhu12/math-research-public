@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-entire-Delta-zero-1895-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-392-new-Vlow-Newton-1900-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0比值≤23088/U0另3及同h余34/CD50/三核/h0、C2/Loww/F142保；10ab/436389冻，cb71闭cross0给det1。[原t完整I6及两标量](results/R150-appendix-unit211-W-b0-t-parameter-complete-I6-q2-two-original-scalars.md)实际4.932428614秒/0：首一λ²、十二/十四行、S3和S4七原乘子全返，t度3/4、总49/76。所有新权内容及t头零保，完整原值未判空。
+W旧闭支/≤616824、b0比值≤23088/U0另3及同h余34/CD50/三核/h0、C2/Loww/F142保；10ab/436389冻，cb71给det1。2f7fd原t完整I6/J7与两七源S3/S4全返，全部新头零保。新[固定1009 Newton边界](notes/2026-11-28-unit211-W-b0-two-weight-curves-first-1009-Newton-boundary-8542-input.md)首次120秒1GiB只查C74/D78共同边初始式；全通过才付e/k整单位，其它分母/完整整原模型仍未付，不重算旧原标量门。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0比值≤23088/U0另3及同h余34/CD50/三核/h0、C2/L
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-Phi旧闭支/维≤1/t三生成λ3/C77开图13保，错链/失败冻。[全图六原乘子与H28](results/R150-appendix-unit211-Phi-zero-corrected-whole-t-sextic-six-original-multipliers-and-H28.md)首次1.10780979秒/0；C6的全部六终端与七最终分母old-paid，跨整个H6/H8但不排其点。原头只余H28(total28,u26Q15)QQ单因子一次；其补图必要代数18生成，Δ补图仍12，整H28零曲线保，接完整Vlow。
+Phi旧闭支/维≤1/t三生成λ3/C77开图13保，错链/失败冻；全六原C6跨整个H6/H8，H28补图18生成。[三真实头合成](results/R150-appendix-unit211-Phi-zero-corrected-three-heads-392-exceptional-weights.md)纸证同时零例外权≤392，非原总点数，整零纤维保。新[完整Vlow/t首次输入](notes/2026-11-28-unit211-Phi-zero-corrected-t-complete-Vlow-two-original-cofactors-8542-input.md)120秒1GiB：真Z0/Z1/Z2全部运输、原总次≤5/三mean迹，以及(N1,NS,Vlow)/(N1,PS,Vlow)两全三乘子返回；尚无新空性。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
