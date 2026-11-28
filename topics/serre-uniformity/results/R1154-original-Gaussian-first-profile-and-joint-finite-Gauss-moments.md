@@ -1244,3 +1244,297 @@ $$
 $D_{S,P}$ 的二根递推来处理；
 目前没有证明 (1154.51) 的缺项对这种指定 $D_{S,P}$ 不可能。
 本节为纯纸面证明，没有数学程序执行。
+
+
+## 13. 原 Jacobi 参数的完整有限 Green 核与 Newton 端点
+
+本节把 §7 的同一个 Legendre 对、§12 的同一个 $E(T)$
+放入一个有限系数空间，保留首次 $p$ 边界。
+得到的是带原权重的明确读取公式，以及原 Newton 基的
+Jacobi 端点身份。没有将无权配对、共同谱或其非退化性
+当作指定 $\mathcal H_p,\Delta_{\rm low}$ 的非零证明。
+
+### 13.1. 同一 companion 的参数来源
+
+置 $\mathcal A=\mathbf F_p[w]/(w^p)$，并记
+$$
+q=1-w^2,\qquad
+\mathcal D=q\,\frac d{dw},\qquad
+\langle f,g\rangle=[w^{p-1}]\frac{fg}{q}.
+$$
+这里 $q$ 是一个多项式，不是 Fermat quotient。
+$\mathcal D$ 在 $\mathcal A$ 上有定义，
+而且 $\langle\mathcal Df,g\rangle=-\langle f,\mathcal Dg\rangle$；
+这只用 $[w^{p-1}](fg)'=p[w^p](fg)=0$。
+此配对非退化，因为在单项式基上的反对角系数为一。
+
+对形式参数 $\tau$，用安全有限式定义
+$$
+A_\tau(w)=
+\sum_{j=0}^{p-1}\frac{\tau^j\mathcal L_p(w)^j}{j!}
+       \pmod{w^p},
+$$
+$$
+J_{d,\tau}(w)=2^{-d}\sum_{j=0}^d
+ \binom{d-\tau}{d-j}\binom{d+\tau}{j}
+ (w-1)^j(w+1)^{d-j},
+\qquad
+F_{d,\tau}=A_\tau J_{d,\tau}\pmod{w^p}.
+\tag{1154.54}
+$$
+本节只取 $0\le d\le m-1$，其中 $m=(p-1)/2$。
+这些广义二项式仅除以小于 $p$ 的阶乘。
+$J_{d,\tau}=P_d^{(-\tau,\tau)}$ 是一个实际多项式，
+不是在可能有参数分母的超几何式中作形式相除。
+
+特别，固定原 $\nu=\lfloor p/6\rfloor$，有
+$$
+F_{\nu,0}=\mathsf P_\nu,\qquad
+\left.\partial_\tau F_{\nu,\tau}\right|_{\tau=0}
+=-V_\nu.
+\tag{1154.55}
+$$
+确实 $J_{0,\tau}=1,J_{1,\tau}=w-\tau$，且对 $d\ge1$，
+$$
+(d+1)J_{d+1,\tau}
+=(2d+1)wJ_{d,\tau}
+-\frac{d^2-\tau^2}{d}J_{d-1,\tau}.
+$$
+在 $\tau=0$ 微分后，
+$\partial_\tau J_{d,\tau}|_0=-\mathsf W_{d-1}$，
+由同一三项递推和初值逐步确定。
+再用 $\partial_\tau A_\tau|_0=\mathcal L_p$ 就是 (1154.55)。
+因此下文的一阶参数列准确是原 $V_\nu$，没有另选 companion。
+
+### 13.2. 保留形式参数的两个边界项
+
+记
+$$
+j_\tau=F_{\nu,\tau}(0),\qquad
+k_\tau=F_{\nu,\tau}'(0),\qquad
+\mathcal L_\nu=\mathcal D^2+\nu(\nu+1)q.
+$$
+$\nu$ 为奇数。由 (1154.54) 的 Rodrigues 等价式在 $w=0$
+读取，或按上面的递推归纳，准确有
+$$
+j_\tau=-\frac{\tau}{\nu!}
+ \prod_{a=1}^{(\nu-1)/2}(\tau^2-4a^2),
+\qquad
+k_\tau=-\frac1{\nu!}
+ \prod_{a=0}^{(\nu-1)/2}
+       \bigl(\tau^2-(2a+1)^2\bigr).
+\tag{1154.56}
+$$
+第二式包含 $A_\tau$ 的一次导数：
+$k_\tau=J_{\nu,\tau}'(0)+\tau J_{\nu,\tau}(0)$。
+特别 $j_0=0,k_0=a_\nu$。
+
+在 $\mathcal A[\tau]$ 中，完整方程是
+$$
+\boxed{\quad
+(\mathcal L_\nu-\tau^2)F_{\nu,\tau}
+=(\tau-\tau^p)
+ \bigl(j_\tau w^{p-2}-k_\tau w^{p-1}\bigr).
+\quad}
+\tag{1154.57}
+$$
+以下直接支付首次边界，而不把 $\tau^p=\tau$
+用于形式参数。先在特征零中写
+$\mathcal F_\tau=e^{\tau\operatorname{atanh}w}J_{\nu,\tau}$。
+Jacobi 方程给
+$(\mathcal L_\nu-\tau^2)\mathcal F_\tau=0$。
+若 $a_j=[w^j]e^{\tau\operatorname{atanh}w}$，
+则到次数 $p$ 的唯一非整来源是
+$\tau w^p/p$ 与 $(\tau w)^p/p!$，所以
+$$
+pa_p\equiv\tau-\tau^p,\qquad
+pa_{p+1}\equiv\tau(\tau-\tau^p)\pmod p.
+$$
+后一式也由
+$(1-w^2)(e^{\tau\operatorname{atanh}w})'
+=\tau e^{\tau\operatorname{atanh}w}$
+在次数 $p$ 直接得到。
+于是
+$$
+p[w^p]\mathcal F_\tau=(\tau-\tau^p)j_\tau,\qquad
+p[w^{p+1}]\mathcal F_\tau=(\tau-\tau^p)k_\tau.
+$$
+$\mathcal D^2w^p$ 的最低项是 $p(p-1)w^{p-2}$，
+$\mathcal D^2w^{p+1}$ 的最低项是 $p(p+1)w^{p-1}$。
+从完整解减去这两个被截掉的系数，恰给 (1154.57)；
+更高次数不可能落入 $\mathcal A$。
+这是有限多项式的恒等式，不需要约化整个非整无限解。
+
+因为 $\mathcal L_\nu$ 关于上述配对自伴，
+将 (1154.57) 的两参数版本相减，得到
+$$
+(\tau^2-\sigma^2)
+ \langle F_{\nu,\tau},F_{\nu,\sigma}\rangle
+=\bigl(\tau+\sigma-(\tau+\sigma)^p\bigr)
+ (k_\tau j_\sigma-j_\tau k_\sigma).
+$$
+分子 $k_\tau j_\sigma-j_\tau k_\sigma$ 被 $\tau-\sigma$
+整除。在多项式环中消去共同因子后，有
+$$
+\boxed{\quad
+\langle F_{\nu,\tau},F_{\nu,\sigma}\rangle
+=\bigl(1-(\tau+\sigma)^{p-1}\bigr)
+ \frac{k_\tau j_\sigma-j_\tau k_\sigma}{\tau-\sigma}.
+\quad}
+\tag{1154.58}
+$$
+右边的商是真正的多项式，所以对角与反对角也包含在内。
+例如 $\sigma=-\tau$ 时它准确是
+$\prod_{a=1}^{\nu}(1-\tau^2/a^2)$。
+对 (1154.57) 在 $\tau=0$ 微分，还得到原伴随列的完整式
+$$
+\boxed{\quad
+\mathcal L_\nu V_\nu=a_\nu w^{p-1}.
+\quad}
+\tag{1154.59}
+$$
+不能以 $\tau\in\mathbf F_p$ 逐点时右边消失为理由，
+在参数微分前删掉 $\tau-\tau^p$。
+
+### 13.3. 全部原权重都由同一个 $E$ 读取
+
+只使用 (1154.58) 的无权配对还不包含原 minor 的权重。
+这里给出保留这些权重的有限公式。
+
+定义
+$$
+M_j(\eta)=\langle w^j,A_\eta\rangle
+\quad(0\le j\le p),\qquad M_p=0.
+$$
+原 $A_\eta$ 的完整一阶边界是
+$\mathcal DA_\eta-\eta A_\eta
+=-(\eta-\eta^p)w^{p-1}$。
+对它以及 $\mathcal D(w^jA_\eta)$ 使用配对，
+直接得到
+$$
+\boxed{\begin{aligned}
+M_0&=1-\eta^{p-1},&
+M_1&=-\frac{E(\eta/2)}{\eta},\\
+M_{j+1}&=M_{j-1}+\frac{\eta}{j}M_j
+ &&(1\le j\le p-1).
+\end{aligned}}
+\tag{1154.60}
+$$
+$E(0)=0$，所以这里的商也是多项式。
+$M_1$ 的式子来自
+$0=\langle1,\mathcal D(wA_\eta)\rangle
+=[w^{p-1}]A_\eta+\eta M_1$，
+其中 $[w^{p-1}]A_\eta=E(\eta/2)$。
+所有递推除数均为单位。
+
+这也给一个完全固定的有限端点模型。
+令 $\mathfrak a_0=1,\mathfrak a_1=0$、
+$\mathfrak b_0=0,\mathfrak b_1=1$，两列按
+(1154.60) 的同一递推定义至指标 $p$。则
+$$
+\boxed{\quad
+\mathfrak b_p=1-\eta^{p-1},\qquad
+\mathfrak a_p=\frac{E(\eta/2)}{\eta},\qquad
+M_j=\mathfrak a_j\mathfrak b_p-\mathfrak b_j\mathfrak a_p.
+\quad}
+\tag{1154.61}
+$$
+证明不假设任何 Bernoulli 数为单位。
+先由递推得 $M_j=\mathfrak a_jM_0+\mathfrak b_jM_1$。
+$\mathfrak b_p$ 的次数为 $p-1$、首系数为
+$1/(p-1)!=-1$、常数为一。
+对每个 $\eta\in\mathbf F_p^\times$，
+(1154.47) 前的准确值保证 $E(\eta/2)\ne0$；
+故 $M_p=0$ 强迫 $\mathfrak b_p(\eta)=0$。
+于是 $\mathfrak b_p=1-\eta^{p-1}$，再在多项式环中消去
+这个非零因子，得到 $\mathfrak a_p=-M_1$。
+特别由原定义，$M_{p-1}=1,M_{p-2}=\eta$。
+这些端点保留了 §11 的真实高端 cutoff。
+
+对任何多项式 $H(w)=\sum h_jw^j$，定义
+$$
+\mathscr T_\eta(H)=\sum_{j=0}^{p-1}h_jM_j(\eta).
+$$
+先在 $w$ 方向模 $w^p$，再作此读取。
+有限指数的乘法律给
+$$
+\left\langle 1,\,
+ H(w)\prod_{i=1}^sF_{d_i,\tau_i}(w)\right\rangle
+=\mathscr T_{\tau_1+\cdots+\tau_s}
+ \left(H(w)\prod_{i=1}^sJ_{d_i,\tau_i}(w)\right).
+\tag{1154.62}
+$$
+因此这不是用无权核替代原 moments。
+写 $P=\mathsf P_\nu$，则 (1154.55) 准确给
+$$
+\boxed{\begin{aligned}
+a_\nu^2\mathsf h
+&=-\left.\partial_\tau
+ \mathscr T_\tau(wP^3J_{\nu,\tau})\right|_0,\\
+\mathbf B_\nu
+&=\left.\partial_\tau\partial_\sigma
+ \mathscr T_{\tau+\sigma}
+ (P^4J_{\nu,\tau}J_{\nu,\sigma})\right|_0,\\
+\mathbf U_\nu
+&=-\left.\partial_\tau
+ \mathscr T_\tau(wP^7J_{\nu,\tau})\right|_0,\\
+\mathbf V_\nu
+&=-\left.\partial_\tau\partial_\sigma\partial_\rho
+ \mathscr T_{\tau+\sigma+\rho}
+ (wP^5J_{\nu,\tau}J_{\nu,\sigma}J_{\nu,\rho})\right|_0.
+\end{aligned}}
+\tag{1154.63}
+$$
+这些参数微分仅到三阶；它们作用于已经定义的有限多项式。
+$P^8$ 的高次项没有被改成端点一：
+次数至少 $p$ 的 $w$ 项确实不参与原系数读取。
+尤其 $M_{p-2}=\eta$ 的三次系数为零，
+所以最末奇位不能套用 §11.2 的内部三次核；
+这正是原 $D_2$ 而非 $D_1$ 的 cutoff。
+(1154.63) 继续保留 $\mathfrak C_\nu(Q_\nu)$ 的全部剩余项。
+
+### 13.4. 原 Newton 基的准确 Jacobi 端点
+
+还有一条将 §12 的原差商接回同一有限配对的精确身份。
+对每个 $2\le r\le m$，取 (1154.54) 中的 $d=r-1$。
+有限指数相消，而 $J_{d,\tau}J_{d,-\tau}$ 为偶多项式，
+次数 $2d\le p-3$。所以
+$$
+\langle F_{r-1,\tau},F_{r-1,-\tau}\rangle
+=J_{r-1,\tau}(1)J_{r-1,-\tau}(1)
+=\prod_{a=1}^{r-1}\left(1-\frac{\tau^2}{a^2}\right).
+$$
+由此得到原 (F.20) 的完整尺度
+$$
+\boxed{\quad
+q_r(R)=
+-\frac{R((r-1)!)^2}{(2r-1)!}
+ \langle F_{r-1,R},F_{r-1,-R}\rangle.
+\quad}
+\tag{1154.64}
+$$
+特别，原实际点对
+$\mathsf F_{Z,Z'}=\sum_{r=2}^m c_rE_r$
+的全 Newton 读取，是 (1154.64) 的同一 $c_r$ 线性组合；
+没有换成另一组可自由选择的 moments。
+$r=m$ 的端点在非零 $R\in\mathbf F_p$ 上只可能于
+$R=\pm m=\pm1/2$ 非零，
+故再乘 $R^2-1/4$ 后消失。这与
+spectral note (F.35)–(F.38) 的完整
+$C_{\rm pr}$ 和 $-(R^p-R)$ 边界一致，
+不把 $C_{\rm pr}$ 或其中某个低卷积改成零。
+
+这里仍有两个明确不同的指标：
+(1154.55)–(1154.63) 的 $\nu$ 固定为原 $\lfloor p/6\rfloor$；
+(1154.64) 的 Jacobi 次数是变化的 $r-1$。
+端点身份本身没有把这个变化次数族与指定
+$P_\nu^4,wP_\nu^6$ 权重作算子等同，
+也没有构造一个保原二根递推的 intertwiner。
+因此 actual-good mask、两点真实范围及 (1154.45)/(1154.51)
+仍保持原有条件，未由本节排除共同纤维。
+新增可消费的来源是 (1154.57) 的两个完整边界、
+(1154.60)–(1154.63) 保全部权重的同一个 $E$ 读取，
+以及 (1154.64) 的原 Newton 端点尺度。
+全节为纸面证明，没有数学程序执行。
+
+root 全文逐式核准形式参数的p/p+1边界、Green相减号、M_j递推至真实j=p端点、所有原Pν权重与Newton尺度。特别未在参数微分前使用τ^p=τ，也未把固定ν与变化r−1等同；o1独核完整Green核。无数学程序执行。

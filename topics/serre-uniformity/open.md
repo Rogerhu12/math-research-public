@@ -111,6 +111,8 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [原spectral §§10–11](notes/2026-11-28-original-Gaussian-finite-contiguity-and-spectral-reconstruction.md)回收整列C_pr=Σ a_(k+1−h)b_(h−1)/(2h)!，a_l来自(q/σ(q))²安全系数。完整Newton差商D−C_prQ_grid，Euler核−(R^p−R)不给C_pr/b_k零。E的真实tanh核保Riccati首carry；g_p=−3D(1)/4−C_pr/2=−3/8∫₀¹F_pair(u,1−u)u⁻²du，积分分母全安全。g1=−15G_(p−3)/16单位，使g(2atanh x)首x^p系数含p分母；该读取不能当整形式群坐标。继续actual两根/Jacobi与首carry，不新增缺席good行、不删S0/P0或原mask。
 
+[R1154 §13](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)实际Fν,τ=AτJν,τ的一阶参数列恰−Vν；完整(Lν−τ²)F=(τ−τ^p)(jτw^(p−2)−kτw^(p−1))，故LνVν=aνw^(p−1)。Green核为(1−(τ+σ)^(p−1))(kτjσ−jτkσ)/(τ−σ)，形式τ不得先取Fp值。所有原Pν⁴/wPν⁶等权都由同E读取：M0=1−η^(p−1)、M1=−E(η/2)/η、M_(j+1)=M_(j−1)+ηM_j/j，保Mp=0、M_(p−2)=η的真实cutoff。变化次数r−1的Jacobi端点准确还原原q_r(R)，但还没有保原二根与固定ν权重的intertwiner；actual-good共同纤维仍开。
+
 ## O3：固定低权 cohomology 与原 Igusa 投影
 
 完整旧输入、角色、trace、mask及运行 pins 见[本次逐字前态](open-archive-2026-11-28-before-exact-Lame-conjugation.md)。R1076–79 的同一原 primitive / 短障碍优先；低权来源不代近 p 指定系数，跨来源比较必须保 phase/carry/本原标签。已成窗口不重开。

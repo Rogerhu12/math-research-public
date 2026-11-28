@@ -90,3 +90,8 @@
 ### 2026-11-28 11:41 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1157 §11付原n2 source的真实切线分解、五扭统一避位及并发三线的完整finite Bloch witness。root核全常数、全部rank1支持和每种valuation，o2独核并发号；旧前文逐字保留，即推。
 - SS仅付切线/常数和参考线的整性，不删modp才并发的坏参数，也不借局部唯一性换global filling。原Frob/中央读数继续；无数学执行。
+
+
+### 2026-11-28 11:42 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1154 §13付同一形式Jacobi源的p/p+1边界、完整Green核、所有指定权重的同E有限递推，以及原Newton基的端点尺度。root核完整边界/相减号/最高cutoff，o1独核Green；旧1–12逐字保留，即推。
+- 固定ν与变化r−1仍需真实保二根intertwiner，实际good共同纤维/联合非零未宣关闭；无数学程序执行。

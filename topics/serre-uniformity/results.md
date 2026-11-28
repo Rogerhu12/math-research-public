@@ -1,5 +1,7 @@
 # 结论索引
 
+- **原 Jacobi 的有限 Green 核与完整加权读取（已证明）**：[R1154 §13](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)付形式参数的首p边界、原companion与同E的M_j完整递推，所有指定Legendre权重仍保；原Newton基有准确Jacobi端点尺度。固定ν与变化r−1尚无保两根比较，不以无权非退化代原joint排除。
+
 - **原二同源的实际切线与并发分支（已证明）**：[R1157 §11](results/R1157-original-integral-SV-Manin-triangle-filling.md)非零五扭点统一分离所有rank-one支撑，完整常数的两切线比给有限四线展开；真正三线并发另给参考线三个Bloch值。SS整性与模p才并发的坏参数严格分开，原根相位/ordered修正全保。
 
 - **R1160（已证明）**：[原 Hecke 平滑的显式算术下降与未平滑 primitive](results/R1160-original-explicit-arithmetic-descent-and-unsmoothing.md)以原C2/C3有阶lift、复共轭的实际Eisenstein修正及两幺幂有限反差分构造B_n，准确dB_n=(V_n−v_n)Ω；h0=(hV+B_n)/v_n给原最高canonical lift，n2/n5覆盖全部p>37。一般Frob的同一conjugating path值和F0中央仍须计算，未将该程序当数值非零。
