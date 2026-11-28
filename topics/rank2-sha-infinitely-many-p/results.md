@@ -464,3 +464,7 @@ j=k+1层实际Y_k=Σa⁻¹ binom(−s(a),2)[a]d_j在完整有限Kummer群为零�
 ### R1067 §92：全部原倒数点非挠及统一七进对数首格
 
 已证明：以5-Frobenius的≤50次方程和17惯性≥144共轭直接证明每个Q_P非挠；规范七进提升给真实单位首格−5v/(2λ⁵)，从而获得完整代数带权关系的必要检验，不代原中央。 [同编号全文](results/R1067-original-signed-kummer-specialization-and-finite-power-tests.md)。
+
+### R1073 §30：三整差商与完整原 Hecke 基的准确配对
+
+已证明：对目标和参考统一给(N₀^p,B^p,C^p)与U₀/U₁/U₂的完整带单位配对；原低两项准确对应杀前两基，参考首列非零，联合中央坏等价两真泛函同时杀整个三维空间。 [同编号全文](results/R1073-original-first-shell-traces-and-modular-unit-geometry.md)。
