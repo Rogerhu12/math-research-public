@@ -198,7 +198,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 原rho二次头零（含例外有序权）及整个第一二次头H1已闭，均限旧物理D≠0图，不传D0。旧C87/55/C71/29/P201/316不再处理。现在第一头H6,4在全部当前Phi余图可付，原均值商全图由(1,T,z)生成；其它头无需另开图。旧P6(39,20,6)、P9(73,41,9)与λ头H19/11必要身份保正文，λ头零与个别NP未付，不能由次数冒称首一或由互素冒称排空。
 
-[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及维数≤1成。[u⁴后725](results/R150-appendix-unit211-Phi-zero-exact-u-four-factor-and-complete-integral-weight-model-725.md)合[真实(u−1)^30与完整695](results/R150-appendix-unit211-Phi-zero-u-minus-one-thirtieth-factor-695-model-and-frozen-memory-boundary.md)：四轮rank9/14/16/19仅付30≤ord≤39，5bd真71.641008419秒/−6内存失败冻结，余九重数及全部坏块保。0965[全系数180秒失败](notes/2026-11-28-unit211-Phi-zero-scalar-coefficient-base-locus-first-timeout-8542.md)未返1，冻结不重排，整λ纤维开。首派eeae T0、b77 ell两独立QQ横截面，各120秒/1GiB，模16/25仅上界。整H42权≤23268、三头同零≤798的λ纤维、物理D0/余最高支继续。
+[整Phi C6](results/R150-appendix-unit211-Phi-zero-whole-original-NSPS-sixth-scalar-and-regular-three-source-extension.md)、I10/D2及维数≤1成。[原四因子与完整639](results/R150-appendix-unit211-Phi-zero-T-and-ell-partial-original-orders-complete-639-model-and-frozen-boundaries.md)：u⁴、(u−1)^30、φT^14、φell^21均真QQ，LC636；u1/T/ell三门分别内存/计时失败已冻，余9/2/每根4及全部坏块保。0965全系数180秒未返1已冻，整λ纤维开。首派8a072原个别NP/完整V五次最高8来源，120秒/1GiB，真实极化与最终权cover全零纤维保，不预称成功。整H42权≤23268、三头同零≤798的λ纤维、物理D0/余最高支继续。
 
 [整H1含旧b0已闭](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：a26a真4.821258866秒，原QQ F5点/Dixon左核、整Hensel块及section付D真0，合C55/八单位块/F9全部闭。旧Gram20仅模D0的历史边界保留，不重播。继续全Phi首头原值层；D0碰撞图独立。
 
