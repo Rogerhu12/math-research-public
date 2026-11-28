@@ -591,3 +591,204 @@ R1113 原有限空间的自同态。
 $-2v$、完整上下半段、$C(R_0\omega)$、
 有界 primitive 空间及 $\Psi^3K$ 的全部尺度与相位。
 本节未执行数学程序，未增加有限素数窗口。
+
+
+## 8. 同一低半段的二次 primitive 与完整五次有界链
+
+保留 §7 的 $R_0,K$，定义实际二次函数
+$$
+\mathcal M_0=K^2-v^2R_0^2.
+$$
+由 $DR_0=K/U$、(Q.22) 直接得
+$$
+\boxed{D\mathcal M_0=2K.}
+$$
+写 $a_j=-3k+1+3j$，则还有精确有限式
+$$
+\boxed{
+\mathcal M_0
+=\sum_{j=0}^N\frac{2a_jg_j}{a_j+1}U^{a_j+1}.
+}
+\tag{Q.24}
+$$
+所有 $a_j+1$ 均为单位。
+事实上右边的导数也是 $2K$。
+左、右两边之差是 $U$ 的 Laurent 多项式，指数完全位于
+$-p+1,\ldots,-1$，其中没有 $p$ 的倍数；
+导数为零遂迫该差为零。
+这直接支付了二次函数最高极部的消去，没有使用未知的 norm 常数。
+
+尤其 $\mathcal M_0$ 在 $Q,-Q$ 的极阶至多 $m-1$，
+在 $O$ 为 $\tau^2+O(\tau^8)$。
+两个原一阶系统也完整保留：
+$$
+D(K+vR_0)=1+\frac vU(K+vR_0),\qquad
+D(K-vR_0)=1-\frac vU(K-vR_0).
+$$
+它们不能被替换成齐次方程；二次 primitive 正来自两个常数项。
+
+### 8.1. 第一积分障碍仍准确是原 $e$
+
+在 (Q.23) 之前的完整 $\mathscr S$ 恒等式中，
+改读一次 $\Psi$ 插入。
+原
+$C_{\rm rel}(\Psi F_Q\omega)=e\omega'$、
+$C_{\rm rel}(\Psi F_Q^{-1}\omega)=-e\omega'$，
+以及 $C_{\rm rel}(\Psi\mathcal A\omega)=0$，给
+$$
+C_{\rm rel}(\Psi K\omega)
+=\frac{v^2e}{2z_NU'}\omega'.
+$$
+使用 (Q.24) 一次分部积分，准确得到
+$$
+\boxed{
+C_{\rm rel}(\mathcal M_0\omega)
+=-\frac{v^2e}{\delta z_NU'}\omega'.
+}
+\tag{Q.25}
+$$
+这是两个原三挠点处的第三类项，不是全纯常数。
+
+令
+$$
+\begin{aligned}
+\mathcal E_0&=U^{-3k+2}\Bbbk[U^3]_{\le k-1},\\
+\mathcal E_1&=VU^{-3k+3}\Bbbk[U^3]_{\le k-2}.
+\end{aligned}
+$$
+$\mathcal M_0\in\mathcal E_0$。
+$\mathcal E_0\omega$ 只有 $Q,-Q$ 两个小于 $p$ 阶的极点，
+其 Cartier 输出只有简单极点。
+$\mu_3$ 角色排除全纯补项，所以该像包含在
+$\Bbbk\,\omega'/U'$。
+按两点留数及相对 Frobenius 的 $Q\leftrightarrow -Q$，
+$$
+C_{\rm rel}(U^{-1}\omega)=-\frac{\omega'}{U'},
+$$
+故该映射秩一。
+
+$D:\mathcal E_1\to\mathcal E_0$ 的实际公式仍是
+$D(VU^a)=(2a+3)U^{a+2}+2av^2U^{a-1}$。
+其最底三角系数全为单位，因此它单射，
+像恰为上述维数 $k-1$ 的 Cartier 核。
+于是
+$$
+\boxed{
+e=0\quad\Longleftrightarrow\quad
+\exists!\ \mathcal M_1\in\mathcal E_1,\qquad
+D\mathcal M_1=\mathcal M_0.
+}
+\tag{Q.26}
+$$
+这同时保留了原第三类障碍及严格极阶。
+
+### 8.2. 下一全纯障碍准确是原 $K_4$
+
+现在假定 $e=0$，写
+$\mathcal M_1=V\sum_{j=0}^{k-2}h_jU^{b_j}$，
+$b_j=-3k+3+3j$。
+可直接逐项取
+$$
+\mathcal M_2
+=\sum_{j=0}^{k-2}\frac{h_j}{2(b_j+1)}U^{b_j+1}
+\in U^{-3k+4}\Bbbk[U^3]_{\le k-2},
+\qquad D\mathcal M_2=\mathcal M_1.
+$$
+所有分母均为单位。
+$\mathcal M_2\omega$ 在 $Q,-Q$ 的极阶至多 $m-3<p$，
+其指数角色排除留数，所以输出全纯。
+从 $\mathcal M_0=D\mathcal M_1$、
+$\mathcal M_1=D\mathcal M_2$ 及 (Q.24)，
+连续三次分部积分给
+$$
+C_{\rm rel}(\Psi^3K\omega)
+=-3\delta^3C_{\rm rel}(\mathcal M_2\omega).
+$$
+因此 (Q.23) 精确变成
+$$
+\boxed{
+C_{\rm rel}(\mathcal M_2\omega)
+=\frac{\rho K_4}{3\delta^2}\omega'
+\qquad(e=0).
+}
+\tag{Q.27}
+$$
+
+和 (Q.21) 同样，目标空间包含 $U^{-2}$，
+其 Cartier 为 $-\delta\omega'/(2v^2)\ne0$。
+逐基的最底三角系数给
+$$
+\boxed{
+K_4=0\quad\Longleftrightarrow\quad
+\exists!\ \mathcal M_3\in
+VU^{-3k+5}\Bbbk[U^3]_{\le k-3},\qquad
+D\mathcal M_3=\mathcal M_2
+\quad(e=0).
+}
+$$
+随后再逐项积分，无新障碍地得到唯一
+$$
+\mathcal M_4\in U^{-3k+6}\Bbbk[U^3]_{\le k-3},
+\qquad D\mathcal M_4=\mathcal M_3.
+\tag{Q.28}
+$$
+这里的“唯一”均在显示的空间内；不加入未定常数或 $p$ 次幂。
+
+因此共同消失给出完整的原二次链
+$$
+\boxed{
+D\mathcal M_0=2K,\qquad
+D\mathcal M_j=\mathcal M_{j-1}\ (1\le j\le4),\qquad
+K=\frac12D^5\mathcal M_4.
+}
+$$
+在两点 $Q,-Q$，
+$\mathcal M_j$ 的极阶至多 $m-1-j$；
+在 $O$，全部首项由同一 exact 参数锁为
+$$
+\boxed{
+\mathcal M_j=
+\frac{2\tau^{j+2}}{(j+2)!}
++O(\tau^{j+8})\qquad(0\le j\le4).
+}
+\tag{Q.29}
+$$
+这些不是从局部 primitive 自动延拓到全局的断言：
+(Q.26)、(Q.28) 的两个有限矩阵支付了实际全局存在性，
+其余两步均为显示的有理 monomial 积分。
+
+用 $D^p=0$，还可把同一结论写为一个确切原函数判据：
+$$
+\boxed{
+e=K_4=0
+\quad\Longleftrightarrow\quad
+D^{p-5}K=0.
+}
+\tag{Q.30}
+$$
+正向由 (Q.29)。
+反向若 $D^{p-5}K=0$，则 Leibniz 展开
+$D^{p-1}(\Psi^rK)$ 对 $0\le r\le4$ 全为零，
+因而这些插入的 Cartier 都为零。
+先用 (Q.25) 前的一次读数得 $e=0$，
+再由 (Q.23) 的三次读数得 $K_4=0$。
+这里 $D$、$K$ 都是原 $E$ 上的实际函数与导子，
+不是任意 Jordan 块中的指定坐标。
+
+(Q.24) 的二次关系始终保留，尤其在共同零分支上，
+$$
+v^2(D^5\mathcal M_4)^2
+-U^2(D^6\mathcal M_4-2)^2
+=4v^2D^4\mathcal M_4.
+$$
+它由 $R_0=U(D^6\mathcal M_4-2)/(2v^2)$ 代入原 norm 得到，
+并没有省去非齐次常数二。
+当前仍须证明这条实际有限链不可能出现，
+或利用保留的二次关系取得可消费的新限制。
+首项的单位性本身不排除这条链。
+
+
+**新增纸核。** o2_high_coefficient 独立核 (Q.24)–(Q.29)：
+二次 primitive 的全部 $p$ 次核项排除、第三类 $U'^{-1}$ 相位、
+两次实际有限空间的核维数、三次分部积分的 $-3\delta^3$，
+以及五次链的所有首项均相符。没有数学程序执行。

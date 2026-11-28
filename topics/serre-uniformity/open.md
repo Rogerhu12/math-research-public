@@ -2,7 +2,7 @@
 
 **主要目标仍OPEN。** 完整证明绝对常数C，或给出p→∞完整无CM反例族；有限素数、条件结论、低权/局部Abel/部分子群均不够。
 
-此前逐字状态在[最新open归档](open-archive-2026-11-28-before-continuous-all-vector-moments.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
+此前逐字状态在[最新open归档](open-archive-2026-11-28-before-bounded-quadratic-primitive-chain.md)，沿链保全部旧公式、来源、执行pins和关闭边界；[HANDOFF](HANDOFF.md)记最新真实run与两README已读提交。归档不撤销结论，不重算。
 
 ## 原最低型：准确未付入口
 
@@ -91,23 +91,21 @@ R1156–58的generic四线参数在SS原p-torsion同归零时可能退化0/1/∞
 
 [R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)有限八系统仅标量，不重跑；[原Tate normal-FM](notes/2026-11-27-original-Tate-three-torsion-normal-FM-variation.md)、[原Prym三同源](notes/2026-11-28-original-fixed-Prym-three-isogeny-and-trace.md)、R1095/R1113/R1130的完整phase/primitive/Leibniz/相邻单位沿前态，只消费，均不代e/K4非同时零。
 
-### 同一 Fermat 源的完整 canonical primitive 与高插入
+### 同一 Fermat 原 quadric、两指定 Cartier 与有界链
 
-[原genus4 §§9–13](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)现锁定P=P22=−Ψ(T−Q)/(b0δ)。同一三平移V4覆盖的H_j=R_j^p π_j*H_*有P=H_j+B_j^p，B0=(V+v)/(b0δU)=r1x⁴/y²、B+=2v/(b0δU)=r1/(x²y²)、B−0，r1=2/(b0²δ)。三个同E*映射、绝对Cartier相位、原C的−Q偏移均固定。
+[原genus4 §§9–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已锁canonical P22=−Ψ/(b0δ)、六个123实际映射及全p次补偿、三个V4/114方向与高亚纯项、A3/A9及原谱jet一阶gauge。完整相位/极点/μ3范围沿本次逐字归档与原文；只有原123在eK40的第0…4层才可按已付Cartier零删除相应pth补偿，不删114的Λ或高极项。
 
-三个114方向完整读数为C(P²λj)=Λλj、C(P³λj)=3BjΛλj、C(P⁴λj)=6Λ(Bj²+r1²Rj²)λj；第0/1层零。高层通常亚纯，不能删。无条件A9=−4c^(2k−2)K4/δ²、A3=4c^(2k−2)K4/δ²+8vc^(2k−2)e/δ⁴；K4∈Fp而e^p=−e。原两个谱jet准确满足q0=δr0/(2Γ)、q′0+2v²q0/(3δ³)=δr′0/(2Γ)，Γ=(2v)^(2k)，不再需要先假e0；不是整个谱的指数gauge。
+原A=xP12+x⁻¹P32、B=xP12−x⁻¹P32满足DA=vB/U−2/b0、DB=vA/U；B=Σt_jU^(3j+1)且所有t_j单位。F=P12P32=C0U^p−Σ(3j+1)t_jU^(3j+2)/{b0v(3j+2)}，C0=ρ²/(b0²δ²)，W=F−P²顶系数(ρ²−1)/(b0²δ²)unit。α=C_rel(Bω)/ω′=−2ρe/(b0δ)，ΨrB第1…5层及第6层−5αU′³+b6全保；b6=8δ³C(Rcal³Bω)/ω′是不同源，不换名K4。原45槽、九mixed及七维消失范围沿归档，σ/Λ/T仍未unit。
 
-[同文 §14](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)现给六个123方向的全部实际椭圆映射及原P_ab的精确函数式：两项无p次补偿，另四项保(V/U)^p或(U²/V)^p及各模型δ/符号；以实际极点和μ3角色排除残余pth函数。只有e=K4=0且123方向第0…4层，原已付Cartier消失才允许在C(P^rP_iω_j)和C(P^(r−1)P_iP_jh*)中删除这些补偿；完整Leibniz右端仍保，114的Λ和高层亚纯项不删。此为后续真实mixed源输入，不是共同零排除。
+[quadric续篇 §§1–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)三个实际单位三角矩阵给A=D³I、poleI≤p−3；原全kernel保4ve，故a3=C_rel(Ψ³Aω)/ω′=−δ⁴[τ⁻⁵]A/4=2ρδK4/b0−4vα，原双零恰α=a3=0。e0时两个absolute有序P³Piωj均为ρK4 h*/(b0⁴δ²)，一般式保±2αV；C(P²Wh*)=−a3h*/(3b0³δ³)。原D_R⁴t(−Q)及a3准确相同，Leibniz给120C(U³I)/ω′+48v²βI=vα+2δ/b0。
 
-[同文 §15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已将原ω12ω32=h*²的两个primitive组合降至同一旧E：A=xP12+x⁻¹P32、B=xP12−x⁻¹P32，DA=−2/b0+vB/U、DB=vA/U。B=UT(U³)各t_j明确且unit，F=P12P32=U²(U³+v²)(B′)²/v²−B²/4=C0U^p−Σ(3j+1)t_jU^(3j+2)/{b0v(3j+2)}，C0单位；W=F−P²全函数亦锁。原Cartier读数C_rel(Bω)=αω′，α=2ρc^(2k−1)e/δ；Ψ^rB的r1…5层只给0、−αU′、2αV′、−3αU′²、4αU′V′，r6为−5αU′³+b6。顶项unit和前五层不排e0；新b6尚未与原K4比较，继续该真实二次源，不混同旁矩。
+同一高Lamé零模Z=(Vp(J+−J−)−v(J++J−))/Up，deg p−1，完整二次变换G(4w(1−w))=(1−w)^(4k−1)+w^(4k−1)保共振高项；Z=4zN g+2b0zN U^(m+1)B/v且C_rel(Zω)=−2vω′。R0=g/U^(m+1)满足C(R0ω)=ρeω′/(vδ)，e0 iff唯一有界H0∈VU^(−3k+2)K[U³]_(≤k−2)、DH0=R0，首τ⁵/20。K=UDR0有DK=1+v²R0/U，C(Ψ³K)/ω′=3v²e/(2zN)−b0a3/2；e0下恰−ρδK4。高unit和双零强迫C(U³I)=δ/(60b0)没有给矛盾。
 
-[同文 §15.4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)已将原K4接到上述同一个B：同原exact µ6参数τ、x(O)=1支，P12/P32共同负p主部c0=−ρ/(b0δ)。故C0=ρ²/(b0²δ²)，W的U^p系数(ρ²−1)/(b0²δ²)unit；[τ⁻²]B=2ρe/(b0δ²)，e0时[τ⁻⁵]A=−8ρK4/(b0δ³)。原双零准确等价于B及(U/v)DB的这两个线性Laurent读数同零。另一方面C(Rcal Bω)=−αU′ω′/δ、C(Rcal²Bω)=0、C(Rcal³Bω)=b6ω′/(8δ³)，所以第六层是不同的cubic源，不能换名K4；继续用完整quadric/norm比较。
+[同续篇 §8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)进一步保真正二次关系M0=K²−v²R0²=Σ2a_j g_j U^(a_j+1)/(a_j+1)，a_j=−3k+1+3j，全部高极相消且DM0=2K。其C_rel为−v²e/(δzN U′)，不是全纯常数。e0 iff唯一M1∈VU^(−3k+3)K[U³]_(≤k−2)满足DM1=M0；随后逐项积分M2∈U^(−3k+4)K[U³]_(≤k−2)，其C=ρK4ω′/(3δ²)。K40 iff唯一M3∈VU^(−3k+5)K[U³]_(≤k−3)存在，再积分M4∈U^(−3k+6)K[U³]_(≤k−3)。整个链极≤m−1−j、O首2τ^(j+2)/(j+2)!，K=D⁵M4/2，故
 
-[原quadric续篇](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)现给三个实际单位三角积分A=D³I，I∈UK[U³]且pole≤p−3。a3=C_rel(Ψ³Aω)/ω′=−δ⁴[τ⁻⁵]A/4，完整原kernel的4ve修正给a3=2ρδK4/b0−4vα，α=−2ρe/(b0δ)。所以原双零恰α=a3=0；其真正有序absolute输出在e0时为C(P³P12ω32)=C(P³P32ω12)=ρK4 h*/(b0⁴δ²)，一般式保±2αV亚纯项。另C(P²W h*)=−a3h*/(3b0³δ³)。第0…5层同零仍允许第6层b6；下一步继续原Leibniz与Rcal³源，不以有界source的高moment强迫代指定jet排除。
+**e=K4=0 ⇔ D^(p−5)K=0**。
 
-全部45槽中的κ–Serre型对角−6r_ab为单位，有限Thomae付全三张量Fp²交替、九mixed合一；e=δS_n/(ρs)、S_n=−9ρ²A_orig准确。σ来自三114循环，Λ来自同E* H_*²及原Padé D_N的有限functional，二者均未unit。e=K4=0仍恰222+123七维第0…4层消失/原q两jet共零；继续实际Leibniz、指定短源/有界primitive，不以perfectness、覆盖同构、全Jordan或旁列单位排除。
-
-[quadric续篇 §§5–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)将两障碍留在同一低半段：原Picard读取a3=ρD_R⁴t(−Q)/(2b0δ)，完整Leibniz给120C(U³Iω)/ω′+48v²βI=vα+2δ/b0。原高Lamé零模Z的有限二次变换G(4w(1−w))=(1−w)^(4k−1)+w^(4k−1)完整保共振末项；Z=4zN g+2b0zN U^(m+1)B/v，C_rel(Zω)=−2vω′。R0=g/U^(m+1)则C_rel(R0ω)=ρeω′/(vδ)，e0 iff唯一H0∈VU^(−3k+2)K[U³]_(≤k−2)满足DH0=R0，其首τ⁵/20。K=UDR0满足DK=1+v²R0/U、C(Ψ³Kω)/ω′=3v²e/(2zN)−b0a3/2；所以e0下真K4读数为−ρδK4。高零模unit及双零下C(U³I)=δ/(60b0)都未自动排除原共同零，继续同一三极/有界primitive比较。
+所有箭头由实际空间三角矩阵支付，不用一般低极exact积分。完整二次限制为v²(D⁵M4)²−U²(D⁶M4−2)²=4v²D⁴M4，非齐次常数二保留。现在继续同一V有理子域/三极界与此norm式，仍须排除实际链；不以首τ⁶/360、全Jordan或旁列单位代原两jet。旧窗口不重跑。
 
 ## O2：原 Gaussian 全 good-mask 与实际共同纤维
 

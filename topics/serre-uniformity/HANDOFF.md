@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：103387f94d0cae79f02ca34df235939b56281936**（2026-11-28 13:10 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：345fc610eaa131b092ca6d0316ff5a6b4ef70c7d**（2026-11-28 13:13 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 12:48 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 12:48:17 Asia/Taipei，Actions run46109203139/job140868723588，blob:none浅clone后真实pull --rebase至c6b1020c；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤13:38、pull≤13:48。本地12:47仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-finite-integral-moment-jet.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-bounded-quadratic-primitive-chain.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -36,13 +36,13 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
-[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé N=(p−5)/6，F=₂F₁(1/3,1/2;4/3)，contact2N+1首余项/P_N均unit。双缺陷⇔P,Q含x²，约后deg≤N−2/contact2N−1；F²=D_N−g_N²x^(2N+1)，D/G无重根互素，实际Pell余式W≠0、deg≤N−3但W0未unit。原Λ/rank3/moving p极与全部尺度沿文；双缺陷未排。
+[R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé双缺陷⇔P,Q含x²，约后degree≤N−2/contact2N−1；全部首余项/P_N单位、Pell W非零但W0未unit。[原Dixon](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)保全Hesse/Schur/Jordan，normal=12tr(adjQ A²)非spectral，指定中列未cyclic。R1145及旧窗口/Prym只消费。
 
-[原固定Dixon §§1–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)同Dixon/Fermat源、Hesse/Schur/Jordan全付；normal=12tr(adjQ A²)不等spectral=tr(adjQ)，不能代指定中列。R1145八带仅标量，旧窗口/Prym/normal-FM只消费。
+[原genus4](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)全canonical P22、六123映射/p次补偿、V4三平移、114高层及全部相位已付；A/B/W原quadric全函数、顶U^p单位与b6不同源沿open，不能换成指定两jet。
 
-[原genus4 §§6–15](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)锁定完整canonical P22、六个123映射/p次补偿、三平移V4与全部114高层；所有phase、A3/A9及谱jet一阶gauge沿文。原quadric A/B/W二阶源、B全系数、norm最高U^p单位和b6=8δ³C(Rcal³Bω)/ω′均付，顶unit不代指定低读数。
+[quadric续篇 §§1–8](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原A=D³I和全kernel给a3=2ρδK4/b0−4vα、α=−2ρe/(b0δ)，原P³有序槽及P²W已定标。高Lamé零模Z的全上下分裂给R0=g/U^(m+1)、K=UDR0、DK=1+v²R0/U，C R0=ρe/(vδ)，e0下C(Ψ³K)=−ρδK4。Z的unit不代任一半段。
 
-[quadric续篇 §§1–7](notes/2026-11-28-original-Fermat-six-quadric-Cartier-continuation.md)原A=D³I付a3=−δ⁴[τ⁻⁵]A/4=2ρδK4/b0−4vα，α=−2ρe/(b0δ)；原有序P³两槽及P²W全尺度见open。新增原高Lamé零模Z=(Vp(J+−J−)−v(J++J−))/Up，deg p−1、C_rel Zω=−2vω′。完整分裂Z=4zN g+2b0zN U^(m+1)B/v给R0=g/U^(m+1)的C=ρe/(vδ)；e0 iff唯一有界H0满足DH0=R0，H0首τ⁵/20。K=UDR0、DK=1+v²R0/U，e0时C(Ψ³Kω)=−ρδK4ω′。双零另强迫C(U³Iω)=δω′/(60b0)，未与已付消失冲突；继续真实三极/高插入，不以Z顶单位代原双零。
+§8新增**e=K4=0 iff D^(p−5)K=0**：M0=K²−v²R0²的全部高极相消，DM0=2K；C M0=−v²e/(δzN U′)，保真实第三类。e0 iff唯一有界M1，自动积分M2后C M2=ρK4/(3δ²)；K40 iff有界M3，自动M4，K=D⁵M4/2。全部极≤(m−1−j)(Q+−Q)，首2τ^(j+2)/(j+2)!；完整norm式保D⁶M4−2常数，首τ⁶/360不代无解。继续同一三极有理函数的二次限制，σ/Λ/T仍未unit。
 
 ## O2：原 Gaussian 全 good-mask 与共同纤维
 
