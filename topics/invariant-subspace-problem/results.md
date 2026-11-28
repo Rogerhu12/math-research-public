@@ -38,6 +38,8 @@
 
 ## 新增结论
 
+- [R150/W b0：整个小m正阶排除及m、k+2、Q−2整单位](results/R150-appendix-unit211-W-b0-entire-m-positive-exclusion-and-three-1009-integral-units.md)：两图穷尽；k−2已原1，Q2新固定15次投影全部1/2/5次域之十二原模型返1，极点与Ast精确0完整纸排，得三个1009单位，未外推整个W空性。
+
 - [R150/Phi：真E1原首一t²与完整N1一次余式](results/R150-appendix-unit211-Phi-zero-true-E1-monic-t-quadratic-and-original-N1-linear-remainder.md)：完整dual原头−bc·ellQ/(2δ)，N1−2eE1=aN+bN t，全部系数显示且不倒新bN；精确双向原理想等式保全部降头纤维，新同t范数五列输入另首次派发。
 
 - [R150/W b0：整个大M正阶排除与完整原Gram整性](results/R150-appendix-unit211-W-b0-entire-M-positive-exclusion-and-original-Gram-integrality.md)：原W付三辅助单位、q/R付谱整、真ME1单位二次头付f整，EC/PC排全部t/Y极点；合法c0剩余后EB迫X=u、E1=p²(2ell−1)²/2单位矛盾。全纸证明，得M整单位，不外推辅助单位或全W空性。

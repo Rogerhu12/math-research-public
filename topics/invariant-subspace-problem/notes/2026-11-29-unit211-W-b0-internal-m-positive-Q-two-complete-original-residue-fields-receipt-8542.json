@@ -1,0 +1,1385 @@
+{
+  "schema": "isp-small-execution-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date_asia_taipei": "2026-11-29",
+  "scope": "Current correct W/b0, p=1009: entire v(m)>0,Qbar=2 residue chart; combined with the separately completed kbar=-2 chart, entire v(m)>0 is excluded.",
+  "source": {
+    "blob": "8634ac81c968927a6a227f2acc881fd2a95a8cfb",
+    "bytes": 19195,
+    "sha256": "783208e869a0daecb194439a0ef09c698424f1020d7188ebd7b0334891997e6d",
+    "basename": "2026-11-29-unit211-W-b0-internal-m-positive-Q-two-complete-original-residue-fields-8542.py"
+  },
+  "input": {
+    "blob": "821898fdcf9979822bc9fd2a327bdd343b0317fd",
+    "bytes": 10960,
+    "sha256": "30622f7217cfc3001a8eb978d3dc3204a49a1e6064de96e563af5ef36d09a67a",
+    "basename": "2026-11-29-unit211-W-b0-internal-m-positive-Q-two-complete-original-residue-fields-8542-input.md"
+  },
+  "execution": {
+    "elapsed_seconds": 2.6567879320000003,
+    "max_child_rss_kib": 39408,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "52937a89ed7db0955993c22230239f8a414d5651",
+        "before": "2df05945997be8717912b04692b834846f1775fd",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T20:03:20.574819+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46184328225",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "2df05945997be8717912b04692b834846f1775fd",
+    "source_exit_code": 0,
+    "source_git_blob": "8634ac81c968927a6a227f2acc881fd2a95a8cfb",
+    "source_sha256": "783208e869a0daecb194439a0ef09c698424f1020d7188ebd7b0334891997e6d",
+    "stdout_bytes": 23850,
+    "stdout_sha256": "289cb46058a86808aa0ff7af55a1e37543b191a1f591786834ec273f07a16d5a",
+    "stop_reason": null
+  },
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46184328225",
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46184328225/job/141100717128",
+  "source_review": {
+    "status": "Root and independent peer full static source/input review passed before the sole mathematical execution; no reproduction gate."
+  },
+  "direct_log_read": {
+    "records": 14,
+    "stdout_reconstructed_exactly": true,
+    "bytes": 23850,
+    "sha256": "289cb46058a86808aa0ff7af55a1e37543b191a1f591786834ec273f07a16d5a"
+  },
+  "mathematical_result": {
+    "projection_degree": 15,
+    "complete_factor_degrees_and_multiplicities": [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "paid_absent_fields": [
+      0,
+      2
+    ],
+    "closed_fields": [
+      1,
+      3,
+      4
+    ],
+    "retained_fields": [],
+    "environment_dimensions": [
+      4,
+      8,
+      20
+    ],
+    "mu_gcd_degrees": [
+      1,
+      1,
+      1
+    ],
+    "original_column_counts": [
+      48,
+      96,
+      240
+    ],
+    "ranks": [
+      4,
+      8,
+      20
+    ],
+    "final_target": "1",
+    "final_ring": "K_phi[mu,f,sigma], unquotiented ordinary polynomial ring",
+    "all_residue_embeddings": true,
+    "all_mu_f_sigma_multiplicities_kept": true,
+    "valuation_boundary_only": true,
+    "no_QQ_generic_emptiness_or_scheme_length_claim": true
+  },
+  "paper_completion": {
+    "exact_Astar_zero": "b0 directly forces mu=0; the unit T^2 head of original q2 gives T integral; 64T^2+224=0 and R6 giving K=14+8T=0 contradict 105/16 !=0 modulo1009. No infinity-minus-infinity valuation step.",
+    "unchanged_source_input_and_run_bytes": true,
+    "whole_m_cover": "Exact m=u(k+2)(Q-2)/(kVbar), old e/k/u/delta/Vbar units and ell integral; the two complete m-positive charts are exhausted.",
+    "resulting_integral_units": [
+      "m",
+      "k+2",
+      "Q-2"
+    ]
+  },
+  "previous_independent_chart": {
+    "formal_blob": "dd01671f46c47aaaf8e95b59f414a5cf42b67480",
+    "receipt_blob": "641e7c3708968bc45281d9125406227e987b621d",
+    "run": 46182562376,
+    "job": 141095189005,
+    "rerun": false
+  },
+  "records": [
+    {
+      "allMuHeadZeroFibersRetained": true,
+      "fiveOriginalCoordinatesReturned": true,
+      "fixedCapacity": [
+        2,
+        3
+      ],
+      "noR6NilpotenceLift": true,
+      "prime": 1009,
+      "projection": {
+        "bytes": 65,
+        "degree": 15,
+        "sha256": "0553ec5de8c46a65fefd617935f08f141b9bbb9d82b67d9bc1f408fb235407ac",
+        "terms": 16
+      },
+      "seconds": 0.0023912620000032803,
+      "stage": "new_Q_two_complete_fixed_five_original_projection_returned",
+      "statistics": {
+        "FpBezoutReturns": 0,
+        "FpPolynomialDivisionReturns": 0,
+        "GaussianVectorReturns": 0,
+        "baseInverseReturns": 0,
+        "factorProductReturns": 0,
+        "fieldInverseReturns": 0,
+        "finalOriginalReturns": 0,
+        "monicOriginalReturns": 0,
+        "muBezoutReturns": 0,
+        "muDivisionReturns": 0,
+        "originalColumnReturns": 0,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 0,
+        "rawDefinitionReturns": 0
+      }
+    },
+    {
+      "UProjectionMultiplicitiesRecordedNoSchemeLengthClaim": true,
+      "allFactorProductReturned": true,
+      "factors": [
+        {
+          "factor": {
+            "bytes": 5,
+            "degree": 1,
+            "sha256": "af1a1fc110b6094c48582b0ef83553cb7908d7a4365424eef28e76ef6c88d630",
+            "terms": 2
+          },
+          "multiplicity": 6
+        },
+        {
+          "factor": {
+            "bytes": 7,
+            "degree": 1,
+            "sha256": "adc1e3eadf6affe5044d1ede4b83747f0756a75dfbc919e9f60d0de89930527d",
+            "terms": 2
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "bytes": 8,
+            "degree": 1,
+            "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+            "terms": 2
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "bytes": 11,
+            "degree": 2,
+            "sha256": "3392f7cb478d4e863dddd55a2410005f790caf0fc1aeef4c585902bb782430c9",
+            "terms": 3
+          },
+          "multiplicity": 1
+        },
+        {
+          "factor": {
+            "bytes": 23,
+            "degree": 5,
+            "sha256": "9c50846384a5e076dde76e25cd225b30de2df53ca6c7858a643cbffee7acef46",
+            "terms": 6
+          },
+          "multiplicity": 1
+        }
+      ],
+      "purpose": "All residue embeddings, not a QQ factor interpretation",
+      "seconds": 0.0027107480000054807,
+      "stage": "new_Q_two_complete_Fp_projection_factorization",
+      "statistics": {
+        "FpBezoutReturns": 0,
+        "FpPolynomialDivisionReturns": 0,
+        "GaussianVectorReturns": 0,
+        "baseInverseReturns": 0,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 0,
+        "finalOriginalReturns": 0,
+        "monicOriginalReturns": 0,
+        "muBezoutReturns": 0,
+        "muDivisionReturns": 0,
+        "originalColumnReturns": 0,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 0,
+        "rawDefinitionReturns": 0
+      }
+    },
+    {
+      "allEmbeddingsOfThisFactor": true,
+      "factor": 0,
+      "profile": {
+        "bytes": 5,
+        "degree": 1,
+        "sha256": "af1a1fc110b6094c48582b0ef83553cb7908d7a4365424eef28e76ef6c88d630",
+        "terms": 2
+      },
+      "projectionMultiplicity": 6,
+      "seconds": 0.00289747600000112,
+      "stage": "new_Q_two_whole_residue_field_removed_by_declared_old_scope",
+      "supports": [
+        "Astar_deep_U_minus_two_paper_exclusion"
+      ]
+    },
+    {
+      "UFieldDegree": 1,
+      "actualKDegree": 3,
+      "actualQDegree": 2,
+      "completeMuGcd": {
+        "UFieldDegree": 1,
+        "bytes": 9,
+        "muDegree": 1,
+        "sha256": "671fbbc84d3181a2577d78f623afaaba12e2a26e2e3a6a2f4c55650011b13e95"
+      },
+      "factor": 1,
+      "kMultiplier": {
+        "UFieldDegree": 1,
+        "bytes": 7,
+        "muDegree": 0,
+        "sha256": "b17cec21d41c951220a81e25c21b3c2c8713eae63910b84d009722692f919a10"
+      },
+      "noSelectedMuRoot": true,
+      "projectionMultiplicity": 1,
+      "qMultiplier": {
+        "UFieldDegree": 1,
+        "bytes": 13,
+        "muDegree": 1,
+        "sha256": "9bdd085ac4bcfedfcf2fc7d526cccb777366589dd5932aa07fe5d124c4a6e412"
+      },
+      "seconds": 0.003926188000001218,
+      "stage": "new_Q_two_whole_residue_field_same_mu_Bezout",
+      "statistics": {
+        "FpBezoutReturns": 0,
+        "FpPolynomialDivisionReturns": 9,
+        "GaussianVectorReturns": 0,
+        "baseInverseReturns": 19,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 8,
+        "finalOriginalReturns": 0,
+        "monicOriginalReturns": 0,
+        "muBezoutReturns": 4,
+        "muDivisionReturns": 3,
+        "originalColumnReturns": 0,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 0,
+        "rawDefinitionReturns": 0
+      }
+    },
+    {
+      "P02ZeroAndDZeroAndLambdaZeroRetained": true,
+      "UFieldDegree": 1,
+      "actualColumns": 48,
+      "allRawLabels": [
+        "original_q2",
+        "complete_E2",
+        "complete_E3",
+        "true_dual_E1",
+        "complete_EB",
+        "complete_EC",
+        "complete_N1",
+        "complete_NB",
+        "complete_NC",
+        "complete_PB",
+        "complete_PC",
+        "complete_NV"
+      ],
+      "allRawProfiles": [
+        {
+          "UFieldDegree": 1,
+          "bytes": 49,
+          "fDegree": 0,
+          "muDegree": 2,
+          "sha256": "f81e0c680ad48b08947098c5566e596993bcfc8f0ff7c1a299487cc97d3cc4f6",
+          "sigmaDegree": 0,
+          "terms": 3
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 66,
+          "fDegree": 0,
+          "muDegree": 2,
+          "sha256": "bec8f892d4311a5736c5fc9ec3e77fc8c9725a29a080fb4f988c6fd549168993",
+          "sigmaDegree": 2,
+          "terms": 4
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 83,
+          "fDegree": 0,
+          "muDegree": 3,
+          "sha256": "fc4a546a3a9eb5514bb6af89daa3c26842e218e8ee6b77cfa1a3166e5864be42",
+          "sigmaDegree": 2,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 95,
+          "fDegree": 2,
+          "muDegree": 2,
+          "sha256": "1cb7cf987d2921fb20e25962be424df6e76f6adf7b709ed0e719db5b2d1d7583",
+          "sigmaDegree": 0,
+          "terms": 6
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 81,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "6f394aa1b303d90a97adef40638bc6858d698f74c913204747fb852b89cc7b2a",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 82,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "da7777ca8bf0b9c72aa803e356c708f71e6b8cf26ebf0048f6a339509469e3ac",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 97,
+          "fDegree": 2,
+          "muDegree": 2,
+          "sha256": "8a47be13b7f27461f76d1997519fc385ed318392623d95bbaf9b7266bc4cfa5c",
+          "sigmaDegree": 0,
+          "terms": 6
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 238,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "7d23aa822e380ec0bee465793da510391eb518d2a7cb52dc34e3c497107c17d3",
+          "sigmaDegree": 2,
+          "terms": 15
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 239,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "60dbd60b0dc8f63503262ccc609186a2ecc33ec0e375d8859c2fe8419ad11f5b",
+          "sigmaDegree": 2,
+          "terms": 15
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 257,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "3a26197b59a3262a99a7d2245381695722699368a4802dbbc7b274360244cd4f",
+          "sigmaDegree": 3,
+          "terms": 16
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 254,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "96a994e92a4a42dd168a3936b8833e2723e837ca41ca10f7f0d2b3e1b72f8382",
+          "sigmaDegree": 3,
+          "terms": 16
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 178,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "0667e606129a9bdcea564b226a1cefca8c417056c6150b89ed55dd89dc024cf8",
+          "sigmaDegree": 2,
+          "terms": 11
+        }
+      ],
+      "dimension": 4,
+      "factor": 1,
+      "monicF": {
+        "UFieldDegree": 1,
+        "bytes": 94,
+        "fDegree": 2,
+        "muDegree": 2,
+        "sha256": "227e6f7dc28ec5d7605fc721b12d7a40b52ad51377c96d4833c864d85cec50e1",
+        "sigmaDegree": 0,
+        "terms": 6
+      },
+      "monicSigma": {
+        "UFieldDegree": 1,
+        "bytes": 63,
+        "fDegree": 0,
+        "muDegree": 2,
+        "sha256": "fa0d494cd7551fa6c0e5d572fb20c52a8f50bd5f46e630c9b75cbe4ac07cf7cd",
+        "sigmaDegree": 2,
+        "terms": 4
+      },
+      "muDegree": 1,
+      "muGcd": {
+        "UFieldDegree": 1,
+        "bytes": 9,
+        "muDegree": 1,
+        "sha256": "671fbbc84d3181a2577d78f623afaaba12e2a26e2e3a6a2f4c55650011b13e95"
+      },
+      "noSmallMOrDOrLambdaOrP02Inverse": true,
+      "projectionMultiplicity": 1,
+      "retainsAllMuFAndSigmaMultiplicities": true,
+      "seconds": 0.14965488100000357,
+      "stage": "new_Q_two_complete_same_point_finite_original_model",
+      "statistics": {
+        "FpBezoutReturns": 0,
+        "FpPolynomialDivisionReturns": 9,
+        "GaussianVectorReturns": 0,
+        "baseInverseReturns": 50,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 39,
+        "finalOriginalReturns": 0,
+        "monicOriginalReturns": 3,
+        "muBezoutReturns": 4,
+        "muDivisionReturns": 3,
+        "originalColumnReturns": 48,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 48,
+        "rawDefinitionReturns": 13
+      }
+    },
+    {
+      "UFieldDegree": 1,
+      "allResidueEmbeddingsCovered": true,
+      "dimension": 4,
+      "entireOrdinaryKMuFSigmaPolynomialReturned": true,
+      "factor": 1,
+      "originalMultipliers": [
+        {
+          "UFieldDegree": 1,
+          "bytes": 112,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "378191194005ffefc8d83f335efb143f4b4f589fe6ec9918a9e873eb42b14e27",
+          "sigmaDegree": 0,
+          "terms": 7
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 80,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "8e00606feae98041dcfcb89a6c38bfddbb53c47e9756978673de9bb5f130c084",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 81,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "5065fd8e06ab5cd712d7986cf92a1912c135edf399306698fb4f54209524c026",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 33,
+          "fDegree": 0,
+          "muDegree": 1,
+          "sha256": "77916228c2c11ea59880497a9b71912fd659e27986f95edf4d62b9cd13f0d7be",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 33,
+          "fDegree": 1,
+          "muDegree": 0,
+          "sha256": "98d0789bb3536e496b99830c0c961f2e03350c6686168522080e12baf986c389",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 1,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        }
+      ],
+      "projectionMultiplicity": 1,
+      "rank": 4,
+      "seconds": 0.1514664490000044,
+      "stage": "new_Q_two_whole_residue_field_twelve_original_unit_returned",
+      "statistics": {
+        "FpBezoutReturns": 0,
+        "FpPolynomialDivisionReturns": 9,
+        "GaussianVectorReturns": 4,
+        "baseInverseReturns": 54,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 39,
+        "finalOriginalReturns": 1,
+        "monicOriginalReturns": 3,
+        "muBezoutReturns": 4,
+        "muDivisionReturns": 3,
+        "originalColumnReturns": 48,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 48,
+        "rawDefinitionReturns": 13
+      },
+      "target": "1"
+    },
+    {
+      "allEmbeddingsOfThisFactor": true,
+      "factor": 2,
+      "profile": {
+        "bytes": 8,
+        "degree": 1,
+        "sha256": "53d44ff6405c0c5a7ff73dd8cfd432024931a9924f4a3ffad16f6932577c9c80",
+        "terms": 2
+      },
+      "projectionMultiplicity": 1,
+      "seconds": 0.15159710400000392,
+      "stage": "new_Q_two_whole_residue_field_removed_by_declared_old_scope",
+      "supports": [
+        "e_already_valuation_unit"
+      ]
+    },
+    {
+      "UFieldDegree": 2,
+      "actualKDegree": 3,
+      "actualQDegree": 2,
+      "completeMuGcd": {
+        "UFieldDegree": 2,
+        "bytes": 9,
+        "muDegree": 1,
+        "sha256": "671fbbc84d3181a2577d78f623afaaba12e2a26e2e3a6a2f4c55650011b13e95"
+      },
+      "factor": 3,
+      "kMultiplier": {
+        "UFieldDegree": 2,
+        "bytes": 11,
+        "muDegree": 0,
+        "sha256": "bee895999aee842d720284dd53316d4a1e5da83fa950553aca373ed44366fd5d"
+      },
+      "noSelectedMuRoot": true,
+      "projectionMultiplicity": 1,
+      "qMultiplier": {
+        "UFieldDegree": 2,
+        "bytes": 21,
+        "muDegree": 1,
+        "sha256": "a8a8021200411a5723bc36c9889d4ef6c17b61d81a77206dff76a24d0ee6a9d9"
+      },
+      "seconds": 0.15363212500000145,
+      "stage": "new_Q_two_whole_residue_field_same_mu_Bezout",
+      "statistics": {
+        "FpBezoutReturns": 32,
+        "FpPolynomialDivisionReturns": 101,
+        "GaussianVectorReturns": 4,
+        "baseInverseReturns": 164,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 47,
+        "finalOriginalReturns": 1,
+        "monicOriginalReturns": 3,
+        "muBezoutReturns": 8,
+        "muDivisionReturns": 6,
+        "originalColumnReturns": 48,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 48,
+        "rawDefinitionReturns": 13
+      }
+    },
+    {
+      "P02ZeroAndDZeroAndLambdaZeroRetained": true,
+      "UFieldDegree": 2,
+      "actualColumns": 96,
+      "allRawLabels": [
+        "original_q2",
+        "complete_E2",
+        "complete_E3",
+        "true_dual_E1",
+        "complete_EB",
+        "complete_EC",
+        "complete_N1",
+        "complete_NB",
+        "complete_NC",
+        "complete_PB",
+        "complete_PC",
+        "complete_NV"
+      ],
+      "allRawProfiles": [
+        {
+          "UFieldDegree": 2,
+          "bytes": 61,
+          "fDegree": 0,
+          "muDegree": 2,
+          "sha256": "e702627a00377950e3658ed44c5b813ce929cec9e7766ab597ea45b49820dab5",
+          "sigmaDegree": 0,
+          "terms": 3
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 73,
+          "fDegree": 0,
+          "muDegree": 2,
+          "sha256": "ee21f0c2f134f57c75633087dd0344b8340692f0d42192b86d2731a1866f8a2e",
+          "sigmaDegree": 2,
+          "terms": 4
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 91,
+          "fDegree": 0,
+          "muDegree": 3,
+          "sha256": "0cfc83126bdc7974be3b51e76fe2b2652da4c4a65b55163c0dadf7b962fa6fb3",
+          "sigmaDegree": 2,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 118,
+          "fDegree": 2,
+          "muDegree": 2,
+          "sha256": "b67b562773bd3e3c636d31235da463d087e7584dd60e85e1c72677149c8950f6",
+          "sigmaDegree": 0,
+          "terms": 6
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 101,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "b31416adf4e012acf94fb4e5c8aed2581a20d4e94ef745bbd911a819e6b0fd5d",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 101,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "0756b57e0748cdbc800184a866b4165787f88c8862c63f54fada7c5874433b8f",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 120,
+          "fDegree": 2,
+          "muDegree": 2,
+          "sha256": "b65cccc1c8e04eace844cdba8d0f889ac82e27e5c5546e6c6d9a8c83a8c08c2b",
+          "sigmaDegree": 0,
+          "terms": 6
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 296,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "b00bc71cf393c26ddcc2fa3a6893dbf103a3df03fb649bad005a2b73650639cf",
+          "sigmaDegree": 2,
+          "terms": 15
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 294,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "12eff130f7047a864742a5ae3be83f8196a175cd19ca12ffdb0e4d1bcc3c4782",
+          "sigmaDegree": 2,
+          "terms": 15
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 317,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "bac7465a9a3b8c5beeec18729e01e591ad3a8dfddded0c4437152bdb4e54b9f8",
+          "sigmaDegree": 3,
+          "terms": 16
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 317,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "04a171dae896d85f5831efffae2969cb7008a37cd3166b43590afc9731493c0a",
+          "sigmaDegree": 3,
+          "terms": 16
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 215,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "4e717f333a0e510f3773d9803bbab244bca93ee9e691e9e60a78d33032596bb7",
+          "sigmaDegree": 2,
+          "terms": 11
+        }
+      ],
+      "dimension": 8,
+      "factor": 3,
+      "monicF": {
+        "UFieldDegree": 2,
+        "bytes": 114,
+        "fDegree": 2,
+        "muDegree": 2,
+        "sha256": "9becb6d642bd7536058c14a03d34bf34430c403994ea0c1fadc1348b55f773ad",
+        "sigmaDegree": 0,
+        "terms": 6
+      },
+      "monicSigma": {
+        "UFieldDegree": 2,
+        "bytes": 75,
+        "fDegree": 0,
+        "muDegree": 2,
+        "sha256": "8e4c114a70e1782b4b54b9eaf1cecdc6596b4ad9139840797216e2cc3226b938",
+        "sigmaDegree": 2,
+        "terms": 4
+      },
+      "muDegree": 1,
+      "muGcd": {
+        "UFieldDegree": 2,
+        "bytes": 9,
+        "muDegree": 1,
+        "sha256": "671fbbc84d3181a2577d78f623afaaba12e2a26e2e3a6a2f4c55650011b13e95"
+      },
+      "noSmallMOrDOrLambdaOrP02Inverse": true,
+      "projectionMultiplicity": 1,
+      "retainsAllMuFAndSigmaMultiplicities": true,
+      "seconds": 0.5529958910000019,
+      "stage": "new_Q_two_complete_same_point_finite_original_model",
+      "statistics": {
+        "FpBezoutReturns": 128,
+        "FpPolynomialDivisionReturns": 13884,
+        "GaussianVectorReturns": 4,
+        "baseInverseReturns": 14002,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 78,
+        "finalOriginalReturns": 1,
+        "monicOriginalReturns": 6,
+        "muBezoutReturns": 8,
+        "muDivisionReturns": 6,
+        "originalColumnReturns": 144,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 144,
+        "rawDefinitionReturns": 26
+      }
+    },
+    {
+      "UFieldDegree": 2,
+      "allResidueEmbeddingsCovered": true,
+      "dimension": 8,
+      "entireOrdinaryKMuFSigmaPolynomialReturned": true,
+      "factor": 3,
+      "originalMultipliers": [
+        {
+          "UFieldDegree": 2,
+          "bytes": 138,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "02a303a11195ea67c6d9fa0410e34e90acb4d6d612a4d465702a01860981c6b7",
+          "sigmaDegree": 0,
+          "terms": 7
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 99,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "63268f1a1844dd16c12d4ceaee8f4822d260cfc17dd17c0d5e788e4ebe4bb4ea",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 101,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "ef119d5755dd0a73fe870218267b49ab9a78f9c60abc8f8b716b7deca13ee49c",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 40,
+          "fDegree": 0,
+          "muDegree": 1,
+          "sha256": "fc73fe3b56d723a1d95cb351ac3f451acd3880068f98ef250b14cc8f926edb1e",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 41,
+          "fDegree": 1,
+          "muDegree": 0,
+          "sha256": "a6cb9474ba39859c69fa134e2114d1aa591f2e8ecee6b1fa32de5e4413e852a2",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 2,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        }
+      ],
+      "projectionMultiplicity": 1,
+      "rank": 8,
+      "seconds": 0.5577698130000002,
+      "stage": "new_Q_two_whole_residue_field_twelve_original_unit_returned",
+      "statistics": {
+        "FpBezoutReturns": 128,
+        "FpPolynomialDivisionReturns": 13947,
+        "GaussianVectorReturns": 12,
+        "baseInverseReturns": 14073,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 78,
+        "finalOriginalReturns": 2,
+        "monicOriginalReturns": 6,
+        "muBezoutReturns": 8,
+        "muDivisionReturns": 6,
+        "originalColumnReturns": 144,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 144,
+        "rawDefinitionReturns": 26
+      },
+      "target": "1"
+    },
+    {
+      "UFieldDegree": 5,
+      "actualKDegree": 3,
+      "actualQDegree": 2,
+      "completeMuGcd": {
+        "UFieldDegree": 5,
+        "bytes": 27,
+        "muDegree": 1,
+        "sha256": "321594ced27578044eefb35c760677838fbffa413a3361e970c143c6ac920db6"
+      },
+      "factor": 4,
+      "kMultiplier": {
+        "UFieldDegree": 5,
+        "bytes": 22,
+        "muDegree": 0,
+        "sha256": "164b7fbd78642e5bd6ab438399ec9511e40421db59d72e21e87e59d6a3cc613e"
+      },
+      "noSelectedMuRoot": true,
+      "projectionMultiplicity": 1,
+      "qMultiplier": {
+        "UFieldDegree": 5,
+        "bytes": 44,
+        "muDegree": 1,
+        "sha256": "1cd3fc6dd0e7aa406dff95d68d216f7fc746a374d1c85df95e4d711bcaa0eb2b"
+      },
+      "seconds": 0.5635387160000036,
+      "stage": "new_Q_two_whole_residue_field_same_mu_Bezout",
+      "statistics": {
+        "FpBezoutReturns": 170,
+        "FpPolynomialDivisionReturns": 14041,
+        "GaussianVectorReturns": 12,
+        "baseInverseReturns": 14184,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 86,
+        "finalOriginalReturns": 2,
+        "monicOriginalReturns": 6,
+        "muBezoutReturns": 12,
+        "muDivisionReturns": 9,
+        "originalColumnReturns": 144,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 144,
+        "rawDefinitionReturns": 26
+      }
+    },
+    {
+      "P02ZeroAndDZeroAndLambdaZeroRetained": true,
+      "UFieldDegree": 5,
+      "actualColumns": 240,
+      "allRawLabels": [
+        "original_q2",
+        "complete_E2",
+        "complete_E3",
+        "true_dual_E1",
+        "complete_EB",
+        "complete_EC",
+        "complete_N1",
+        "complete_NB",
+        "complete_NC",
+        "complete_PB",
+        "complete_PC",
+        "complete_NV"
+      ],
+      "allRawProfiles": [
+        {
+          "UFieldDegree": 5,
+          "bytes": 84,
+          "fDegree": 0,
+          "muDegree": 2,
+          "sha256": "62b323a66bbb9f8b709f1451483511822784a8af7624cd639e61bb4b64b169cc",
+          "sigmaDegree": 0,
+          "terms": 3
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 84,
+          "fDegree": 0,
+          "muDegree": 2,
+          "sha256": "fd93fe208dfa50226b82b5144ea63778cb9402fb1774e381659cf52aa753a521",
+          "sigmaDegree": 2,
+          "terms": 4
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 114,
+          "fDegree": 0,
+          "muDegree": 3,
+          "sha256": "65675a006475d96e518e0096c9a91ae024bfb7b387d1ddec27053fa8aedb25ef",
+          "sigmaDegree": 2,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 170,
+          "fDegree": 2,
+          "muDegree": 2,
+          "sha256": "8a6e0fd0f3788f476ca376844f0838b61f1f1e2314c9b96e5b47c42ba61b2407",
+          "sigmaDegree": 0,
+          "terms": 6
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 151,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "72de14dc65daf5da642ac0d968f2830ca590c9fc8f80e2b6d126df870d34c23d",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 153,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "99e27104eb0e24aff99f3a5e749cabb11ed6a7a8e76a5d1cdb9772529c68db69",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 176,
+          "fDegree": 2,
+          "muDegree": 2,
+          "sha256": "84851d760e7fc5d610d613fdf4a5ab4ff2b9384f6d60e34f2a37d39a7515e12e",
+          "sigmaDegree": 0,
+          "terms": 6
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 429,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "208c79d3b5b15d80faf1c7c203ecaeeb95e1d4d395a3620b0fb802cb4c80a992",
+          "sigmaDegree": 2,
+          "terms": 15
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 430,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "fd6d9cb5f38431477fc55bb5d8556d6de0cafe64a03a92dccec298127e4a2a39",
+          "sigmaDegree": 2,
+          "terms": 15
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 464,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "0dbced049da5f1d3d721028901757b5fc0cd6e763faa17dab6efa5355bfbf407",
+          "sigmaDegree": 3,
+          "terms": 16
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 463,
+          "fDegree": 3,
+          "muDegree": 3,
+          "sha256": "36cb9b862cd5b5ee8978434a7564067342b17a32f0aa15c898e8f34ead407bd7",
+          "sigmaDegree": 3,
+          "terms": 16
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 298,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "a966a14256c09afb4a811f3080341cecedf174310b8b3f66a3efe18dcf57b470",
+          "sigmaDegree": 2,
+          "terms": 11
+        }
+      ],
+      "dimension": 20,
+      "factor": 4,
+      "monicF": {
+        "UFieldDegree": 5,
+        "bytes": 172,
+        "fDegree": 2,
+        "muDegree": 2,
+        "sha256": "5a755a5b9babeeaa8775de340da28f418526c83e566a12de59b414a6ceefdca3",
+        "sigmaDegree": 0,
+        "terms": 6
+      },
+      "monicSigma": {
+        "UFieldDegree": 5,
+        "bytes": 109,
+        "fDegree": 0,
+        "muDegree": 2,
+        "sha256": "1b160a782c5b080b538d0eebf5feeb91cf35c4a4329fc2dc4c3a49498ce89a73",
+        "sigmaDegree": 2,
+        "terms": 4
+      },
+      "muDegree": 1,
+      "muGcd": {
+        "UFieldDegree": 5,
+        "bytes": 27,
+        "muDegree": 1,
+        "sha256": "321594ced27578044eefb35c760677838fbffa413a3361e970c143c6ac920db6"
+      },
+      "noSmallMOrDOrLambdaOrP02Inverse": true,
+      "projectionMultiplicity": 1,
+      "retainsAllMuFAndSigmaMultiplicities": true,
+      "seconds": 2.5699240570000015,
+      "stage": "new_Q_two_complete_same_point_finite_original_model",
+      "statistics": {
+        "FpBezoutReturns": 284,
+        "FpPolynomialDivisionReturns": 49126,
+        "GaussianVectorReturns": 12,
+        "baseInverseReturns": 49324,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 117,
+        "finalOriginalReturns": 2,
+        "monicOriginalReturns": 9,
+        "muBezoutReturns": 12,
+        "muDivisionReturns": 9,
+        "originalColumnReturns": 384,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 384,
+        "rawDefinitionReturns": 39
+      }
+    },
+    {
+      "UFieldDegree": 5,
+      "allResidueEmbeddingsCovered": true,
+      "dimension": 20,
+      "entireOrdinaryKMuFSigmaPolynomialReturned": true,
+      "factor": 4,
+      "originalMultipliers": [
+        {
+          "UFieldDegree": 5,
+          "bytes": 221,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "23caffd5790308b0a95717d1f346deb3b438524c664d65bd616b3e58d44a5ad5",
+          "sigmaDegree": 0,
+          "terms": 7
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 158,
+          "fDegree": 1,
+          "muDegree": 3,
+          "sha256": "900817a90dc983cdd47c30bb827e9ca51958f2ae1f232bd68d84772abf2fc681",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 160,
+          "fDegree": 1,
+          "muDegree": 2,
+          "sha256": "f06008a6fe855f8c88e6198d83ccee02358cacc74c439a1fc94f8e4f6f84d02f",
+          "sigmaDegree": 0,
+          "terms": 5
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 65,
+          "fDegree": 0,
+          "muDegree": 1,
+          "sha256": "9499b6e2a9907cc73c742e91ca662b2477ba94c1f91557c0719656663cbe8e65",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 63,
+          "fDegree": 1,
+          "muDegree": 0,
+          "sha256": "c41906595e4bf1da182bbd85066cef825e461914e509a7b928900caa84076905",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "UFieldDegree": 5,
+          "bytes": 2,
+          "fDegree": -1,
+          "muDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        }
+      ],
+      "projectionMultiplicity": 1,
+      "rank": 20,
+      "seconds": 2.585279521000004,
+      "stage": "new_Q_two_whole_residue_field_twelve_original_unit_returned",
+      "statistics": {
+        "FpBezoutReturns": 284,
+        "FpPolynomialDivisionReturns": 49189,
+        "GaussianVectorReturns": 32,
+        "baseInverseReturns": 49407,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 117,
+        "finalOriginalReturns": 3,
+        "monicOriginalReturns": 9,
+        "muBezoutReturns": 12,
+        "muDivisionReturns": 9,
+        "originalColumnReturns": 384,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 384,
+        "rawDefinitionReturns": 39
+      },
+      "target": "1"
+    },
+    {
+      "closedFields": [
+        1,
+        3,
+        4
+      ],
+      "excludesEntireNamedResidueChart": true,
+      "factorCount": 5,
+      "noOldGateReplayed": true,
+      "paidAbsentFields": [
+        0,
+        2
+      ],
+      "purpose": "Original 1009 valuation boundary, not QQ generic emptiness or scheme length",
+      "retainedFields": [],
+      "seconds": 2.5853332410000007,
+      "stage": "new_m_positive_Q_two_original_input_complete",
+      "statistics": {
+        "FpBezoutReturns": 284,
+        "FpPolynomialDivisionReturns": 49189,
+        "GaussianVectorReturns": 32,
+        "baseInverseReturns": 49407,
+        "factorProductReturns": 1,
+        "fieldInverseReturns": 117,
+        "finalOriginalReturns": 3,
+        "monicOriginalReturns": 9,
+        "muBezoutReturns": 12,
+        "muDivisionReturns": 9,
+        "originalColumnReturns": 384,
+        "projectionCoordinates": 5,
+        "quotientDivisionReturns": 384,
+        "rawDefinitionReturns": 39
+      }
+    }
+  ],
+  "coefficient_payloads_saved": false
+}
