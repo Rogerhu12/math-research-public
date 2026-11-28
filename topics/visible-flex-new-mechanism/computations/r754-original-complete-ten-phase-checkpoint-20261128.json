@@ -1,0 +1,833 @@
+{
+  "README_completion_claim": false,
+  "accepted": 11,
+  "active_operation": null,
+  "all_original_paid_cost": {
+    "all_column_native_operators": {
+      "complete_by_level": {
+        "3": 1,
+        "5": 20
+      },
+      "independently_checked_columns_per_operator": "explicit in each sparse operator",
+      "level_column_counts": {
+        "3": 330,
+        "5": 1371
+      },
+      "saved_nine_channels": 0,
+      "summed_full_physical_columns": 27750
+    },
+    "forced_sleeve": {
+      "archive_seconds": 2.138006367000031,
+      "bytes": 572,
+      "failed": 0,
+      "saved": 1,
+      "science_seconds": 1.498800000376832e-05,
+      "started": 1
+    },
+    "full_sparse_jacobian": {
+      "archive_seconds": 51.462304754999934,
+      "bytes": 1700331191,
+      "failed": 0,
+      "saved": 21,
+      "science_seconds": 0.36384901900009936,
+      "started": 21
+    },
+    "native_frame": {
+      "archive_seconds": 26.449238501000195,
+      "bytes": 321791298,
+      "failed": 0,
+      "saved": 8,
+      "science_seconds": 68.56747219099987,
+      "started": 8
+    },
+    "phase_pulses": {
+      "archive_seconds": 0.5508587099998294,
+      "bytes": 12193768,
+      "failed": 0,
+      "saved": 4,
+      "science_seconds": 1.2623799680000047,
+      "started": 4
+    },
+    "phase_ring": {
+      "archive_seconds": 0.0038389359999655426,
+      "bytes": 8957,
+      "failed": 0,
+      "saved": 4,
+      "science_seconds": 0.06494293399987328,
+      "started": 4
+    },
+    "qualification": {
+      "archive_seconds": 10.312174603000017,
+      "bytes": 2121,
+      "failed": 0,
+      "saved": 1,
+      "science_seconds": 8.695999997598847e-05,
+      "started": 1
+    },
+    "r754_additional_native_frame": {
+      "archive_seconds": 0.6110089819997881,
+      "bytes": 6251909,
+      "failed": 0,
+      "saved": 20,
+      "science_seconds": 1.716481054000127,
+      "started": 20
+    },
+    "r754_angular_all": {
+      "archive_seconds": 4.62892696999964,
+      "bytes": 148613579,
+      "failed": 0,
+      "saved": 41,
+      "science_seconds": 15.23179757500003,
+      "started": 41
+    },
+    "r754_appended_euler_columns": {
+      "archive_seconds": 1.1030690319999508,
+      "bytes": 30250867,
+      "failed": 0,
+      "saved": 42,
+      "science_seconds": 0.7640204830003086,
+      "started": 42
+    },
+    "r754_augmented_checks": {
+      "archive_seconds": 0.02309099100020262,
+      "bytes": 28038,
+      "failed": 0,
+      "saved": 42,
+      "science_seconds": 1.353319090000042,
+      "started": 42
+    },
+    "r754_augmented_row_group": {
+      "archive_seconds": 51.51033497499975,
+      "bytes": 1700379929,
+      "failed": 0,
+      "saved": 42,
+      "science_seconds": 2.008700042210876e-05,
+      "started": 42
+    },
+    "r754_deferred_physical": {
+      "archive_seconds": 0.07955292400004055,
+      "bytes": 268470,
+      "failed": 0,
+      "saved": 9,
+      "science_seconds": 0.0007264829999940048,
+      "started": 9
+    },
+    "r754_exact_witness": {
+      "archive_seconds": 0.008964813999938315,
+      "bytes": 20863,
+      "failed": 0,
+      "saved": 10,
+      "science_seconds": 0.1671525149999411,
+      "started": 10
+    },
+    "r754_initial_candidate_score": {
+      "archive_seconds": 0.074552789999899,
+      "bytes": 132115,
+      "failed": 0,
+      "saved": 128,
+      "science_seconds": 0.6852882999996552,
+      "started": 128
+    },
+    "r754_left_meridian_columns": {
+      "archive_seconds": 1.1830785070002605,
+      "bytes": 17350632,
+      "failed": 0,
+      "saved": 42,
+      "science_seconds": 24.10216647699994,
+      "started": 42
+    },
+    "r754_old_columns_unpaid": {
+      "archive_seconds": 49.59600036000026,
+      "bytes": 1641023404,
+      "failed": 0,
+      "saved": 41,
+      "science_seconds": 22.82958123400016,
+      "started": 41
+    },
+    "r754_original_node_field": {
+      "archive_seconds": 56.48750032100034,
+      "bytes": 1257189613,
+      "failed": 0,
+      "saved": 1216,
+      "science_seconds": 334.9721998269998,
+      "started": 1216
+    },
+    "r754_parent_frame_extension": {
+      "archive_seconds": 2.1694590199999197,
+      "bytes": 26428913,
+      "failed": 0,
+      "saved": 12,
+      "science_seconds": 3.7401279119999487,
+      "started": 12
+    },
+    "r754_same_true_core_seed": {
+      "archive_seconds": 4.309427833999962,
+      "bytes": 13315,
+      "failed": 0,
+      "saved": 20,
+      "science_seconds": 7.903833881999844,
+      "started": 20
+    },
+    "r754_transported_householder": {
+      "archive_seconds": 16.784983941999997,
+      "bytes": 469912,
+      "failed": 0,
+      "saved": 10,
+      "science_seconds": 0.008617557999940573,
+      "started": 10
+    },
+    "r754_witness_field": {
+      "archive_seconds": 0.8145208499984733,
+      "bytes": 10834117,
+      "failed": 0,
+      "saved": 1216,
+      "science_seconds": 4.151041773997946,
+      "started": 1216
+    },
+    "sampled_all_pose_hull": {
+      "archive_seconds": 0.003311109999998507,
+      "bytes": 72389,
+      "failed": 0,
+      "saved": 1,
+      "science_seconds": 0.10363934099999028,
+      "started": 1
+    },
+    "sampled_shell_hull": {
+      "archive_seconds": 0.004299411000005193,
+      "bytes": 72414,
+      "failed": 0,
+      "saved": 1,
+      "science_seconds": 9.998999985327828e-06,
+      "started": 1
+    },
+    "tsqr_leaf": {
+      "archive_seconds": 41.18121843100096,
+      "bytes": 571280099,
+      "failed": 0,
+      "saved": 488,
+      "science_seconds": 170.5259128969998,
+      "started": 488
+    },
+    "tsqr_merge": {
+      "archive_seconds": 45.696451733998884,
+      "bytes": 950347575,
+      "failed": 0,
+      "saved": 477,
+      "science_seconds": 69.7576851190016,
+      "started": 477
+    },
+    "tsqr_scale": {
+      "archive_seconds": 0.023439475999651904,
+      "bytes": 378154,
+      "failed": 0,
+      "saved": 21,
+      "science_seconds": 1.494836563999911,
+      "started": 21
+    },
+    "tsqr_svd": {
+      "archive_seconds": 50.367069520999905,
+      "bytes": 1555354935,
+      "failed": 0,
+      "saved": 21,
+      "science_seconds": 25.519159643999643,
+      "started": 21
+    }
+  },
+  "artifact_bytes": 9903931804,
+  "artifact_expires_at": "2026-12-28T19:47:41Z",
+  "artifact_id": 15278616826,
+  "artifact_name": "visible-r754-paid-46181463183-1",
+  "artifact_sha256": "cfce7b4f5de710a1fea1352c8e3490a819d77c84f05864a9a92ddfe10245caf3",
+  "completed_pose_index": [
+    {
+      "degree": 3,
+      "fitted": true,
+      "phase": 0.0,
+      "physical": {
+        "archive_sha256": "fb1ad3b4f5b323ee00dee09cd9cd8e544d529cb40cab6842725213c5949b6824",
+        "disk_cartesian_curl_max": 0.0,
+        "disk_curvature_max": 9.045656409341085,
+        "disk_metric_max": 5.6621374255882984e-14,
+        "full_shell_qualification": false,
+        "given_far_seat_z": 0.20666637234234955,
+        "max_source_to_phase_union_diameter_sample": 3.010216376893131
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "855745003e7c964f375554a7448241e5e6235fe78dac1d20fa85956421bdf0a1",
+        "shape": [
+          330
+        ]
+      },
+      "training_peak": 0.0,
+      "validation_peak": 0.0
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 0.002,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "52e3009ec08e1f26eca70b0d2fd5a357026827935549431e9aaec1cfabd07c76",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 0.2163651439206715,
+      "validation_peak": 0.2163651439206715
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 0.008,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "8263a5f5775094a6b70d6580701c6cb654feb7e9c7d6e4edf6358e2bec7214b6",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 0.8668306137727922,
+      "validation_peak": 0.8668306137727922
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 0.02,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "d683a353e94e838a28818fe7020e83f70850b4dc23651c6d100ca21af5b3e719",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 2.172214282053243,
+      "validation_peak": 2.172214282053243
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 0.08,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "986e18fc49f4e6eaab0aef0564c34214561e30ede1b580764b33301234432cfc",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 8.70172051631508,
+      "validation_peak": 8.70172051631508
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 0.2,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "90152459315c242c1fb689e48725129cc793df237689a58202bb3a329eb9f4af",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 21.763769377428186,
+      "validation_peak": 21.763769377428186
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 0.4,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "db024488efd629e85def725d4d52122eba5b7e95bd8eb5718f77a298a4c2cf9d",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 43.53481650842158,
+      "validation_peak": 43.53481650842158
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 0.65,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "bcc720bdba27b799324b8df684beb1a085f57e04e6975dd3acc2c01d61da0d2e",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 70.57008393712238,
+      "validation_peak": 70.57008393712238
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 0.85,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "bcc720bdba27b799324b8df684beb1a085f57e04e6975dd3acc2c01d61da0d2e",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 92.34228786881943,
+      "validation_peak": 92.34228786881943
+    },
+    {
+      "degree": 5,
+      "fitted": false,
+      "phase": 1.0,
+      "physical": {
+        "archive_sha256": null,
+        "disk_cartesian_curl_max": null,
+        "disk_curvature_max": null,
+        "disk_metric_max": null,
+        "full_shell_qualification": null,
+        "given_far_seat_z": null,
+        "max_source_to_phase_union_diameter_sample": null
+      },
+      "q": {
+        "dtype": "<f8",
+        "sha256": "cadda67fb406cdad21c5dd838372a8b89182b21c0ab811b39b86e906e3a780a3",
+        "shape": [
+          1371
+        ]
+      },
+      "training_peak": 108.57626556267495,
+      "validation_peak": 108.57626556267495
+    }
+  ],
+  "cumulative_full_J": 21,
+  "cumulative_full_physical_columns": 27750,
+  "expected_artifact_terminal_bytes": 133652,
+  "expected_artifact_terminal_sha256": "afb12e489327465e392c810c550d0562736b63c6f2b80fb642cca44bac06dda1",
+  "expected_conclusion": "success",
+  "finished_phase_records": 10,
+  "full_schedule_may_be_replayed": false,
+  "head_sha": "dd0075aa62b269242b3b883e9ba7ec7c70fd6056",
+  "input_identity": "cbe3599a59cc97a6b6d4238d909ab0602926cc84d4f0f5c627fa928cefbc1786",
+  "job_id": 141091752179,
+  "naturally_completed_at": "2026-11-28T19:52:43Z",
+  "new_full_J": 14,
+  "next_backtrack": 0,
+  "next_iteration": 0,
+  "next_phase_index": 10,
+  "original_first_accepted": 4,
+  "original_first_run": 46179020787,
+  "original_log_final_bytes": 133651,
+  "original_log_final_sha256": "5cc7d0b566435fb96d03c4ff605a3229cbc12a09ad52b88c6af564e62989d6cd",
+  "reason": "finished_finite_pose_schedule",
+  "retained_q": {
+    "dtype": "<f8",
+    "sha256": "cadda67fb406cdad21c5dd838372a8b89182b21c0ab811b39b86e906e3a780a3",
+    "shape": [
+      1371
+    ]
+  },
+  "run_id": 46181463183,
+  "this_allocation_archive_seconds": 310.23422980999806,
+  "this_allocation_counts": {
+    "finished_full_sparse_jacobian": 14,
+    "finished_native_frame": 8,
+    "finished_phase_pulses": 4,
+    "finished_phase_ring": 4,
+    "finished_r754_additional_native_frame": 14,
+    "finished_r754_angular_all": 28,
+    "finished_r754_appended_euler_columns": 28,
+    "finished_r754_augmented_checks": 28,
+    "finished_r754_augmented_row_group": 28,
+    "finished_r754_deferred_physical": 7,
+    "finished_r754_exact_witness": 7,
+    "finished_r754_initial_candidate_score": 96,
+    "finished_r754_left_meridian_columns": 28,
+    "finished_r754_old_columns_unpaid": 28,
+    "finished_r754_original_node_field": 932,
+    "finished_r754_parent_frame_extension": 6,
+    "finished_r754_same_true_core_seed": 14,
+    "finished_r754_witness_field": 932,
+    "finished_tsqr_leaf": 336,
+    "finished_tsqr_merge": 322,
+    "finished_tsqr_scale": 14,
+    "finished_tsqr_svd": 14,
+    "reused_R746_curl": 12,
+    "reused_R746_native_frame": 6,
+    "reused_R746_native_nodes": 14,
+    "reused_R746_phase_pulses": 3,
+    "reused_R746_phase_ring": 3,
+    "reused_R746_r746_zero_core_seed": 6,
+    "reused_R746_source_build": 1,
+    "reused_r754_original_node_field": 126,
+    "reused_r754_witness_field": 126,
+    "reused_tsqr_svd": 49,
+    "started_full_sparse_jacobian": 14,
+    "started_native_frame": 8,
+    "started_phase_pulses": 4,
+    "started_phase_ring": 4,
+    "started_r754_additional_native_frame": 14,
+    "started_r754_angular_all": 28,
+    "started_r754_appended_euler_columns": 28,
+    "started_r754_augmented_checks": 28,
+    "started_r754_augmented_row_group": 28,
+    "started_r754_deferred_physical": 7,
+    "started_r754_exact_witness": 7,
+    "started_r754_initial_candidate_score": 96,
+    "started_r754_left_meridian_columns": 28,
+    "started_r754_old_columns_unpaid": 28,
+    "started_r754_original_node_field": 932,
+    "started_r754_parent_frame_extension": 6,
+    "started_r754_same_true_core_seed": 14,
+    "started_r754_witness_field": 932,
+    "started_tsqr_leaf": 336,
+    "started_tsqr_merge": 322,
+    "started_tsqr_scale": 14,
+    "started_tsqr_svd": 14
+  },
+  "this_allocation_wall_seconds": 947.124478211,
+  "transport_and_rule_records": [
+    {
+      "prefix": "2026-11-28T19:30:46.2725972Z COMPLETED_ARCHIVE_TRANSPORT ",
+      "value": {
+        "administrative_seconds": 31.577593031999996,
+        "bytes": 2793862555,
+        "full_zip_sha256": "86ff4bdc73479c1e2bfcbd0373a997dedf313d90614ac3b0f69a6291146858ff",
+        "measured_disk_capacity": {
+          "free_bytes": 90109296640,
+          "required_new_bytes": 2793862555,
+          "reserve_bytes": 2147483648
+        },
+        "old_log_requests": 0,
+        "provider": {
+          "artifact_id": 15277750701,
+          "bytes": 2793862555,
+          "completed_at": "2026-11-28T19:14:28Z",
+          "conclusion": "failure",
+          "head_sha": "551fdb544a4fbde3409e663e7d458ad67c115c6c",
+          "job_id": 141084139107,
+          "official_digest": "sha256:86ff4bdc73479c1e2bfcbd0373a997dedf313d90614ac3b0f69a6291146858ff",
+          "run_id": 46179020787
+        },
+        "ranges": 42,
+        "scientific_evaluations": 0,
+        "signed_address_acquisitions": 1,
+        "strong_etag": "\"0x8DF4D83D0535D23\""
+      }
+    },
+    {
+      "prefix": "2026-11-28T19:30:50.9595854Z COMPLETED_ARCHIVE_TRANSPORT ",
+      "value": {
+        "accepted": 4,
+        "administrative_seconds": 4.683154909999999,
+        "coefficients_changed": false,
+        "documents": {
+          "continuation": {
+            "bytes": 325103,
+            "member": "continuation.json",
+            "sha256": "9e324a180438604dd24a8249f0b1dc4d138d1e8637f18ffb580d8ecc63f53c14"
+          },
+          "input-identity": {
+            "bytes": 4181,
+            "member": "input-identity.json",
+            "sha256": "9293cdc32971b7155d7e575e0e931756e89ad6c84539d4be9a9eac5d3b1e4220"
+          },
+          "source-identity": {
+            "bytes": 3820,
+            "member": "source-identity.json",
+            "sha256": "c5567dd7d687d661c03b3db62c30771fc9d0136fc63b163781827f0a815e6e5a"
+          },
+          "terminal": {
+            "bytes": 133306,
+            "member": "terminal.json",
+            "sha256": "2b36e2e73a85913ecc755262be51ccb6e4118d6728f049b111ab0034725f27f1"
+          }
+        },
+        "input_identity": "cbe3599a59cc97a6b6d4238d909ab0602926cc84d4f0f5c627fa928cefbc1786",
+        "measured_disk_capacity": {
+          "free_bytes": 87315492864,
+          "required_new_bytes": 2812520316,
+          "reserve_bytes": 2147483648
+        },
+        "next_backtrack": 0,
+        "next_iteration": 0,
+        "next_phase_index": 3,
+        "original_completed_phases": 3,
+        "original_run": 46179020787,
+        "restored_original_bytes": 2812520316,
+        "restored_original_members": 1059,
+        "scientific_evaluations": 0
+      }
+    },
+    {
+      "prefix": "2026-11-28T19:31:33.3375537Z COMPLETED_ARCHIVE_TRANSPORT ",
+      "value": {
+        "administrative_seconds": 42.05873913800001,
+        "bytes": 3423400015,
+        "full_zip_sha256": "6f99b6abacde7bf28d7d21dfa5821df7ff63726b584f2d315fdf5fd8027f5b31",
+        "measured_disk_capacity": {
+          "free_bytes": 87294619648,
+          "required_new_bytes": 3423400015,
+          "reserve_bytes": 2147483648
+        },
+        "old_log_requests": 0,
+        "provider": {
+          "artifact_id": 15276016206,
+          "bytes": 3423400015,
+          "completed_at": "2026-11-28T18:34:48Z",
+          "conclusion": "success",
+          "head_sha": "f406ba20aa8cf46172036d071d007d503834faa2",
+          "job_id": 141064971057,
+          "official_digest": "sha256:6f99b6abacde7bf28d7d21dfa5821df7ff63726b584f2d315fdf5fd8027f5b31",
+          "run_id": 46172869144
+        },
+        "ranges": 52,
+        "scientific_evaluations": 0,
+        "signed_address_acquisitions": 1,
+        "strong_etag": "\"0x8DF4D7E47274CEB\""
+      }
+    },
+    {
+      "prefix": "2026-11-28T19:31:33.3379524Z COMPLETED_ARCHIVE_TRANSPORT ",
+      "value": {
+        "administrative_seconds": 78.642990427,
+        "consumer_run": "46181463183",
+        "scientific_evaluations": 0,
+        "transport_complete": true
+      }
+    },
+    {
+      "prefix": "2026-11-28T19:31:39.9869140Z INVERSE_ACTIONS_PUBLIC_PULL ",
+      "value": {
+        "actual_git_pull": true,
+        "after": "5641554dcd3ed7fbe69aa46f077cb09421fea6c5",
+        "before": "dd0075aa62b269242b3b883e9ba7ec7c70fd6056",
+        "completed_at": "2026-11-28T19:31:39.986367Z",
+        "git_output_sha256": "9ff98e31103a88d6f3f87468e03214992eaa56ca9095ddcf3891fec9b66386f4",
+        "readmes": {
+          "README.md": {
+            "after_pull_blob": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+            "diff": "",
+            "expected_blob": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+            "matches": true,
+            "source_blob": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18"
+          },
+          "topics/visible-flex-new-mechanism/README.md": {
+            "after_pull_blob": "d0432faff569c8e9af7ed4809847e12880976c11",
+            "diff": "",
+            "expected_blob": "d0432faff569c8e9af7ed4809847e12880976c11",
+            "matches": true,
+            "source_blob": "d0432faff569c8e9af7ed4809847e12880976c11"
+          }
+        },
+        "returncode": 0,
+        "started_at": "2026-11-28T19:31:33.792156Z"
+      }
+    },
+    {
+      "prefix": "2026-11-28T19:31:43.3031634Z INVERSE_ACTIONS_PRIVATE_PULL ",
+      "value": {
+        "actual_git_pull": true,
+        "after": "1d024aa58f1254af6698e1321935a448fad31d30",
+        "after_pull_root_blob": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a",
+        "before": "1d024aa58f1254af6698e1321935a448fad31d30",
+        "completed_at": "2026-11-28T19:31:43.302634Z",
+        "expected_root_blob": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a",
+        "private_contents_not_published": true,
+        "queue_unique_and_ongoing_for_this_session": true,
+        "repository": "Rogerhu12/math-research",
+        "root_matches": true,
+        "started_at": "2026-11-28T19:31:42.589591Z"
+      }
+    },
+    {
+      "prefix": "2026-11-28T19:31:43.4905018Z INVERSE_ACTIONS_SOURCE ",
+      "value": {
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+          "topics/visible-flex-new-mechanism/scripts/r754_nested_disk_solver.py",
+          "--parent-zip",
+          "r754-original-parent.zip",
+          "--parent-receipt",
+          "topics/visible-flex-new-mechanism/computations/r746-original-completed-parent-20261128.json",
+          "--state",
+          "r754-paid-state",
+          "--seconds",
+          "1200",
+          "--level",
+          "1",
+          "--iterations",
+          "8"
+        ],
+        "lane": "actual-physical-disks",
+        "old_scope_replayed": false,
+        "parameters": {
+          "iterations": 8,
+          "level": 1,
+          "parent_receipt": "topics/visible-flex-new-mechanism/computations/r746-original-completed-parent-20261128.json",
+          "parent_zip": "r754-original-parent.zip",
+          "seconds": 1200,
+          "state": "r754-paid-state"
+        },
+        "private_rules_read_commit": "1d024aa58f1254af6698e1321935a448fad31d30",
+        "public_rules_read_commit": "5641554dcd3ed7fbe69aa46f077cb09421fea6c5",
+        "request_bytes": 9196,
+        "request_path": "topics/visible-flex-new-mechanism/computations/request-r754-paid4-original-zip-resume-20261128.json",
+        "request_sha256": "c798f7be7368656ebd56c2ea394160922f90de6a96d46713647dd266c30672f9",
+        "run_attempt": "1",
+        "run_id": "46181463183",
+        "runtime": {
+          "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+          "packages": {
+            "numpy": "2.3.5",
+            "scipy": "1.17.0"
+          },
+          "python": "3.12.14",
+          "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+        },
+        "source_commit": "dd0075aa62b269242b3b883e9ba7ec7c70fd6056",
+        "source_sha256": {
+          ".github/workflows/visible-r746-early-long-s-physical-core-20261128.yml": "27b17c950ee1187d50b84987a0565e7f3a8ccfeceab091f257d1efd7badedd6d",
+          ".github/workflows/visible-r754-original-disk-nested-wide-field-20261128.yml": "5b49e6af305fd77de933d042884110cee9fe320f9789ac132f0125e6b98c6e7e",
+          ".github/workflows/visible-r754-paid4-original-zip-resume-20261128.yml": "27f80965a5dc3d753c0ff6c4b3afea77898f1b9bb25e470d66e992dcaea66734",
+          "topics/visible-flex-new-mechanism/computations/r746-original-completed-parent-20261128.json": "9bc0855262e4c109162a998f8fb195b5a9b01751f94fb8cd1ca1be90ea1eba63",
+          "topics/visible-flex-new-mechanism/computations/r754-original-first-failed-checkpoint-20261128.json": "6f27034ab0be2f42f8e44c028b2b5b605864d0c5cf93178644eee7682773fb83",
+          "topics/visible-flex-new-mechanism/computations/request-r754-original-disk-nested-wide-field-20261128.json": "dc5aa8c364e9f14e205973913e91f9f5b6552a7ec4b5cae94d99f1e50122e36d",
+          "topics/visible-flex-new-mechanism/notes/2026-11-28-r746-early-long-s-physical-core-first-scope.md": "8bcf4720fe354249e339256696bf3499683955d4bde3b83c3f2ec5cb51775ba4",
+          "topics/visible-flex-new-mechanism/notes/2026-11-28-r754-first-original-disk-nested-wide-field.md": "8f3061c177f0ad0cc9d58ad664fb774bafeaf2ed24d08e3ca3d63856d4090519",
+          "topics/visible-flex-new-mechanism/notes/2026-11-28-r754-paid4-original-zip-exact-resume.md": "d76fd7b37a72b4d6b948c686c807692f9ea4758b35fd4ac17ce6e8b3f8125756",
+          "topics/visible-flex-new-mechanism/results/R724-comoving-central-crowns-and-four-outer-pulses.md": "29e2655e7bf95a72f482e5f2e134ce19072946ace90ee390c34c6d8277f07ede",
+          "topics/visible-flex-new-mechanism/results/R727-one-physical-disc-three-curls-and-exact-boundary-jets.md": "c73231b37f170b35b98f60fb70aa2eb805cca7ae787b455f943e3792e07cbe18",
+          "topics/visible-flex-new-mechanism/results/R730-all-collar-chords-and-the-negative-Gauss-area-of-a-mirrored-cylinder-cap.md": "aa1b30762b96ea5cc104bed6e6448c778851207fabd7c7d0cdcdb6635c2ba56e",
+          "topics/visible-flex-new-mechanism/results/R733-circumferential-reverse-meridians-and-directional-negative-Gauss-area.md": "f020204d40c4c9c5dad762b0aa2de77ee14026913278d82205b2c58d36f65101",
+          "topics/visible-flex-new-mechanism/results/R740-weak-baseline-full-corner-tubes-and-native-disk-rotation-space.md": "804050752a1c0aa374328b392874d4046edf8601f368e51b922525a5bfbc7b1c",
+          "topics/visible-flex-new-mechanism/results/R743-an-early-long-reverse-meridian-and-all-forced-sleeve-chords.md": "73ef09a1351c45b4dfe51e30f911cbcb47bceab74da92d071680539893844a2b",
+          "topics/visible-flex-new-mechanism/results/R746-an-exact-planar-core-seed-on-the-early-long-S-source.md": "9a25b8b42fef7507cdb91ad2c920152abe719289856914d90ea6cf43f7957044",
+          "topics/visible-flex-new-mechanism/results/R754-the-nested-original-disk-and-exact-householder-subtree-transfer.md": "3c8b3b030816d62097c4cede43aeb538e47f556eb3d0007200b018571c09095d",
+          "topics/visible-flex-new-mechanism/scripts/completed_artifact_prefetch_20261128.py": "f30e44f1a9bc5917dfb0afd8f9549e4152bb77c80fb34f11215270d5bef947a9",
+          "topics/visible-flex-new-mechanism/scripts/r688_actual_r664_window_collars.py": "45f3ee532fc4cddc086131ec841e02e534eefff6bab29ccdf7b396c197d33df2",
+          "topics/visible-flex-new-mechanism/scripts/r688_true_caps_and_reference_sections.py": "df8cd3a7e7caf99dc32b2c4c50c84955097c75a813124f22486d932b67f5e973",
+          "topics/visible-flex-new-mechanism/scripts/r732_closed_ring.py": "58c04599e8d24b0aee8204426491fb0d0132922900b2014fdcbab0f4b1a578e0",
+          "topics/visible-flex-new-mechanism/scripts/r732_compensated_pulses.py": "8df0b12620daf51978873d29319da4b05028088803de570c0995ad98448c7f11",
+          "topics/visible-flex-new-mechanism/scripts/r732_disk_fields.py": "c403b3d979273760fe5ccfd68ba5f7c929f56a28d9113df4770e5a346a109d71",
+          "topics/visible-flex-new-mechanism/scripts/r732_disk_qualification.py": "08feb20d441a5695b6d07e531d71ad3569afe7f874637ef8926a23041855a033",
+          "topics/visible-flex-new-mechanism/scripts/r732_disk_solver.py": "ed1dd8910eaf8dba190308d7717a4ec9053302f62e1181d10b446f9b24257472",
+          "topics/visible-flex-new-mechanism/scripts/r732_physical_disk.py": "752165ed2eac07e18c9993ede8218a15de16a8820d42210f1cf801d346d10369",
+          "topics/visible-flex-new-mechanism/scripts/r733_inserted_meridian.py": "c9c057b0f9f47a1fa60c7aa224d4fbccdb3cbf5a77075721ffdb5f372310efad",
+          "topics/visible-flex-new-mechanism/scripts/r733_physical_disk.py": "64aba86f3d52e490627e5a858362f24d02720e6f6b6a8655e9510f0821a54120",
+          "topics/visible-flex-new-mechanism/scripts/r740_disk_solver.py": "dfb7a81550049cc75d57cab5be7a4ee4092233028999daac8a2267e1c46fd9c8",
+          "topics/visible-flex-new-mechanism/scripts/r740_material_rotation_space.py": "6121a9463ce13505177387b40e59a6fd2ea5d983d4f12d2b856592768bd66a94",
+          "topics/visible-flex-new-mechanism/scripts/r740_weak_material_disk.py": "0dbb3fb63f941f733f62350b9e3063c773df1f07b210d51f29ff4adc16ec96cb",
+          "topics/visible-flex-new-mechanism/scripts/r742_native_tsqr.py": "d9565b37ad9e3b8d70df7adf0aa1b82015fd66edadcd6386923c1a1197f2b729",
+          "topics/visible-flex-new-mechanism/scripts/r743_early_material_disk.py": "9513d8fb67459f4338bf494be0d88a07b848ed6da98cd9975fbac523b5d9ca0c",
+          "topics/visible-flex-new-mechanism/scripts/r743_native_disk_solver.py": "a83c42cdbeded98836e539fdb98664475b2798e4919511a39f9d78328e766f18",
+          "topics/visible-flex-new-mechanism/scripts/r746_native_disk_solver.py": "9f58e36d7775272c2dc434f903fb6a8c1507d2a271ee47ee5cb564ca2ddbf7f4",
+          "topics/visible-flex-new-mechanism/scripts/r746_physical_core_seed.py": "1a4607c0f7c8a046ac7d10b1a3942715b81c323a699fd0f4b47ca6b95827cb6b",
+          "topics/visible-flex-new-mechanism/scripts/r750_rigid_annulus.py": "2057b965ab62cc9fd18039de518ee300a74cf376b9b1c2f1e3f29ea5029c780f",
+          "topics/visible-flex-new-mechanism/scripts/r754_augmented_operator.py": "19737d485ab899fd0ef106786397b7d4a70b427db2f86f86ff5573f7e3c5e755",
+          "topics/visible-flex-new-mechanism/scripts/r754_broad_seed.py": "6cd3e4df51a2b99e09c47720ea0688023dc2ab1d869b49d67803d25de7a9034d",
+          "topics/visible-flex-new-mechanism/scripts/r754_nested_disk_solver.py": "164c0e5e47ec17d8ecc67f177204c6bd06a161bd75cfd07168bcda0c6f0e4058",
+          "topics/visible-flex-new-mechanism/scripts/r754_nested_rotation.py": "d5c41dd9359e569e7fbaf7c18846e3660e4339556a9dc593ff0f65c2b579512e",
+          "topics/visible-flex-new-mechanism/scripts/r754_parent_archive.py": "fe535f36e109580c7b37970e836026bc2d1be803c2f11e832ce1412b980b15a3",
+          "topics/visible-flex-new-mechanism/scripts/r754_ranged_zip.py": "6fcf6c8f2a10c5e7eb9fa608e8ecb36352182b81be88dfdc903e2eeff2237f96",
+          "topics/visible-flex-new-mechanism/scripts/r754_tsqr_reuse.py": "9192e965c9a1d2e67e47111d93eb07925860e92ef4039e06f5f2153857920726",
+          "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae"
+        }
+      }
+    },
+    {
+      "prefix": "2026-11-28T19:31:52.0569039Z INVERSE_ACTIONS_RUNTIME ",
+      "value": {
+        "credentials_removed_before_science": true,
+        "packages": {
+          "numpy": "2.3.5",
+          "scipy": "1.17.0"
+        },
+        "python": "3.12.14"
+      }
+    },
+    {
+      "prefix": "2026-11-28T19:47:40.4244838Z INVERSE_ACTIONS_FINISHED ",
+      "value": {
+        "README_completion_claim": false,
+        "completed_at": "2026-11-28T19:47:40.241623Z",
+        "frozen_metric_convergence_claim": false,
+        "lane": "actual-physical-disks",
+        "returncode": 0,
+        "started_at": "2026-11-28T19:31:52.056653Z",
+        "stdout_only": true
+      }
+    }
+  ],
+  "whole_ZIP_sha256_recomputed_locally": false
+}

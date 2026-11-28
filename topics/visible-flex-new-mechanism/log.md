@@ -233,3 +233,7 @@ R761末段原费用用语定点更正为wall880.705914869秒和原累计science 
 ## 2026-11-28 19:56:02 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R760原12单位保重恢复
 
 **R760 原12单位恢复单已装订。** [保面板/序号/权重的准确继承](notes/2026-11-28-r760-paid12-occurrence-preserving-exact-resume.md)，新软件身份9f3f7d1a434e6e48878bb6e87983d04513229409f409824b0a626cab37ce593f；原.npy字节与全部原失败/费用保全，423/1752列不变，首1200秒从phase0首未付积分核接续。
+
+## 2026-11-28 20:03:45 UTC｜Astra-new-mechanism-8cdb3418-20261128｜R754原十姿全部终态
+
+**R754 原4步恢复后，十相位已自然全部完成。** [原11步/21全J/27750列及全费用](notes/2026-11-28-r754-paid11-all-ten-original-disk-phases-natural-terminal.md)；run46181463183/job141091752179，新增wall947.124478211秒、7接纳/14J，累计十姿仍仅0fit，phase1峰108.576265563，九非零physical均deferred/null。原9.9039GB artifact15278616826和全部原/新费用保存；phase_index10、active_operation=null，不重原排程。

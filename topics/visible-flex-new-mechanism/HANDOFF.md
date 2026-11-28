@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **039a58e211c393f85ba0726a269f6afd60b74579**。私库最近实际终端 pull 为 **2026-11-28 19:44:17 UTC / 3c38b8c3e453871385beae236db01951156aa501**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **877caa93e86721e59cf5991b3e5a925703f98909**。私库最近实际终端 pull 为 **2026-11-28 19:44:17 UTC / 3c38b8c3e453871385beae236db01951156aa501**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
@@ -18,13 +18,11 @@
 
 **R760 原12单位已自然保存，首积分核重号检查失败。** [原成功对象与准确next](notes/2026-11-28-r760-original-twelve-paid-units-and-gauss-occurrence-stop.md)，run46181796301/job141092792865，25.823854399秒、0步/0J，源profile/两帧/两网等12单位不重。57.53MB原artifact15277979068已全SHA接收；新外包层保真实面板/序号/权重重数，科学身份明确升级、原.npy字节全继承，仍423/1752列。
 
-**R760 原12单位恢复单已装订。** [保面板/序号/权重的准确继承](notes/2026-11-28-r760-paid12-occurrence-preserving-exact-resume.md)，新软件身份9f3f7d1a434e6e48878bb6e87983d04513229409f409824b0a626cab37ce593f；原.npy字节与全部原失败/费用保全，423/1752列不变，首1200秒从phase0首未付积分核接续。
+**R760 原12单位恢复已运行 run46183791068/job141099052121。** head c62e613d753f93c9783b3a03cae3f3c73cd1ea03；双原ZIP预接收成功，正在科学步骤。 [保面板/序号/权重的准确继承](notes/2026-11-28-r760-paid12-occurrence-preserving-exact-resume.md)，新软件身份9f3f7d1a434e6e48878bb6e87983d04513229409f409824b0a626cab37ce593f；原.npy字节与全部原失败/费用保全，423/1752列不变，首1200秒从phase0首未付积分核接续。
 
 **R746 原7步已终态。** [14J/10689列与六次资格](notes/2026-11-28-r746-paid7-original-fourteen-full-operators-natural-terminal.md)，仅0fit；原3.4GB及全部费用保全，R754用同g/同父receipt的全330/1371列接续。
 
-**R754 首轮HTTP403已保全原4步。** [7全J/8556列及准确next](notes/2026-11-28-r754-first-paid4-exact-stop-at-original-artifact-403.md)，run46179020787/job141084139107自然failure但upload成功；625.551765814秒、4接纳，0/.002/.008三条完成，非零curl .216365/.866831仍未fit。下一phase .02/iteration0，active_operation=null。原artifact15277750701/2793862555B与全部费用已绑定；不回放三相位，科学前预接收R746父ZIP及本轮checkpoint，保持原cbe3599a…身份接续。
-
-**R754 原4步恢复已启动 run46181463183/job141091752179。** head dd0075aa62b269242b3b883e9ba7ec7c70fd6056，request SHA c798f7be7368656ebd56c2ea394160922f90de6a96d46713647dd266c30672f9。 [完整原ZIP预接收](notes/2026-11-28-r754-paid4-original-zip-exact-resume.md)，同cbe3599a…科学身份、全部330/1371列/原迭代设置不变；首1200秒从phase_index3/.02接续，0/.002/.008不重。公开Actions先全SHA核R746父ZIP与本轮checkpoint，再按原next执行，所有旧/新单位和失败终态保留。
+**R754 原4步恢复后，十相位已自然全部完成。** [原11步/21全J/27750列及全费用](notes/2026-11-28-r754-paid11-all-ten-original-disk-phases-natural-terminal.md)；run46181463183/job141091752179，新增wall947.124478211秒、7接纳/14J，累计十姿仍仅0fit，phase1峰108.576265563，九非零physical均deferred/null。原9.9039GB artifact15278616826和全部原/新费用保存；phase_index10、active_operation=null，不重原排程。
 
 **R755 原固定材料已自然终态。** [整个中心矩形通过基本必要门](notes/2026-11-28-r755-original-material-whole-center-rectangle-natural-terminal.md)：run46176741814/job141077050686，543新胞/5.394724727秒；A/π≈[.05115435,.05128258]、L≈[1.27234741,1.27539840]。四角真主子式全正覆盖整个Cx/Cz矩形；curvature四方向未排但未授全向。原artifact15275746976与343534B/543行journal全部保留，R757只读原积分；不授等距场/族。
 
