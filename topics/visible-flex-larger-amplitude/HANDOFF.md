@@ -5,7 +5,7 @@
 
 ## 规则、同步及目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`f9afbb41dc5bb9abd490c9f11df5c19d09aa83ba`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活25–29/31通常5分钟真pull，末槽保已读commit。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端失效后15:03/21:33/00:40/02:10/04:17/06:47/07:05实际重置各唯一探测失败，恢复即pull。云核至`10d6dc401daccca09fe527ff6b088440172d4612`非pull。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d；真pull至少每小时，只读变化diff即执行。活25–29/31通常5分钟真pull，末槽保已读commit。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端rebase，否则freshHEAD整合重推，禁force/冒pull；令牌仅CLI。
 科学仅公开Actions，raw只runner/scratch；保全源参/run/whole身份/typed/失败未知，不加AST/fixture/独审/准入门，不缩原预算。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。§15仅退完整闭源旧生成输出，留全源参/结论/固定恢复，不删活输入/唯一状态/未闭来源。
 目标：闭连通C²嵌入、全t强C²连续、同固定g；固定有内点H且diam≥.2D，整像δhold≥.2D无对齐、含反射δE>0；全t reach≥.03D、全relative metric算子≤1e−6，D为闭F0整像直径。同g/参数/t空间、频率、时间真精化至机器/原容差，多t全mesh各<5MB；严格存在缺口明示，继续加强比例。有限点、开放片或条件论证不算完成。
@@ -27,7 +27,7 @@ R724半波、R725固定b三片端层、R726球面端层正根、R727非急角全
 
 **31完整执行闭包已刊**：[启动/接续](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md)保本次全23runtime/137角色/真实反号及全原三步。activeID/parent同visible-larger-resume-20261128-31，三整步65162B/157词458formal64live，4/64/15及全原预算保；自然science返后同ID整pure46851B。真实run46122200592/job140908938124，两输入0；science dfbbc306/PID4131，model78717/初7e06，Gram.822374918515021；几何未返。源/参数/launch三完整总表及12份非运行再生/重复ready共481099B整blob已保在note，稍后继续刊；实际运行所需源和全部原参数已齐，未假称所有39文件已main。
 
-[R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)已刊143e7f：接R683，公共slack同号列给全行对偶紧level set/准确循环收敛/全行可行恢复/gap。实际25首QP仅2advance、Pg远超tol；具体阻挡行未知。solver落实独立新kernel/driver/reader/launcher（拟32），完整原QP report保、只原两dependent状态恢复分支触发，原137角色加1/24runtime；新旧计数和方向归属分开，不混31/活算法。
+[R729](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md)已刊143e7f：接R683，公共slack同号列给全行对偶紧level set/准确循环收敛/全行可行恢复/gap。实际25首QP仅2advance、Pg远超tol；具体阻挡行未知。[32完整源码8件](computations/fixed-fejer-r728-R729-common-slack-complete-source-delivery.json)431128B已刊，138角色/24runtime；完整原QP保，两dependent状态才触发，全行CCD/全C复读及原screen保，新旧计数/方向分开。157/7全参数及launch继续，不混31。
 
 ## 准确后继与容量
 

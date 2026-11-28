@@ -285,3 +285,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:03:17 UTC — RET82八旧CI行政回执保全
 
 仅退8个固定4a8f49原publication-manifest 158317B；全ledger61225B/note9087B/manifest10947B新增81259B、净77058B。18原request/runtime/失败/RET31note当前whole守卫保。四原private publisher与两workflow全来源已核，不用当前源冒旧；全部原请求、141 file行的原whole定位、实际exit1/ref-race/旧r7未知保。旧gzip482261与已知474562变体不同、原blob仍null，明确未退该数值文件。行政published候选不冒成功push；精确原回执固定Git可恢复。见[完整交付](computations/legacy-eight-ci-publication-receipts-retention-82-complete-delivery.json)。 双README云核至`f9afbb41dc5bb9abd490c9f11df5c19d09aa83ba`无变（非pull）。
+
+## 2026-11-28 08:03:44 UTC — 32独立R729完整源码八件
+
+完整8件431128B刊出：4新runtime269947B＋全138角色/24runtime binding50082B、整再生器76965B、说明22321B、总表11813B；20共享runtime及原137角色完整保。原QP先完整执行，仅restoration两个dependent状态触发；剩余64减原advance分配全行CCD sweep，单位明确，新旧完整report与旧Pg归属分开，原全C最终重读/外层screen与所有数值原预算保。pure pointer已准确为actual_restoration_directions，旧少actual_的准备metadata未刊；四运行体未变。有限gap不是严格证书。原31父实际闭包8591已main、其12非runtime附件仍待刊；本32参数/launch继续，实际run/model/点尚未知。见[完整八件总表](computations/fixed-fejer-r728-R729-common-slack-complete-source-delivery.json)。 双README云核至`10d6dc401daccca09fe527ff6b088440172d4612`无变（非pull）。

@@ -1,0 +1,245 @@
+{
+  "schema": "complete-fixed-fejer-R728-R729-common-slack-source-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "prepared_utc": "2026-11-28 07:39:29 UTC",
+  "intended_runner": 32,
+  "status": "Complete independently source-bound R729 recovery implementation; protected, not yet scientifically executed",
+  "this_manifest_path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-R729-common-slack-complete-source-delivery.json",
+  "current_source_publication": null,
+  "current_run_id": null,
+  "complete_other_files": [
+    {
+      "role": "common_slack_dual_recovery",
+      "name": "fixed_fejer_R729_common_slack_dual_recovery.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fixed_fejer_R729_common_slack_dual_recovery.py",
+      "bytes": 54333,
+      "sha256": "2dfe85c432d91f561a5f9d413f02cbc7d939edab2ea896e7fe4b3f810bc41863",
+      "git_blob_sha": "2877ba8d6503974b6aa84621997bdc051f523929"
+    },
+    {
+      "role": "driver",
+      "name": "fullclosed_fixed_fejer_r728_R729_demanded_qp.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/fullclosed_fixed_fejer_r728_R729_demanded_qp.py",
+      "bytes": 99884,
+      "sha256": "501313cc50c2a877f98318193a8878242ec13c2f8a0664740a4ea8c47eb4baa7",
+      "git_blob_sha": "34442907898f84aa99245ece5daca388b334bb34"
+    },
+    {
+      "role": "reader",
+      "name": "read_fixed_fejer_r728_R729_demanded_report.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/read_fixed_fejer_r728_R729_demanded_report.py",
+      "bytes": 93371,
+      "sha256": "1464b894cfe2ab2731ab82add4098b759af1ef266730a97e623b0945fda73e9b",
+      "git_blob_sha": "0bc09c5ea5618d0a9759d1f06ad3ea0aea22ca77"
+    },
+    {
+      "role": "launcher",
+      "name": "launch_fixed_fejer_r728_R729_demanded_actions.py",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/launch_fixed_fejer_r728_R729_demanded_actions.py",
+      "bytes": 22359,
+      "sha256": "da440c59c6fbd798b0dc1711a274e5480de9a8ecb1e71d1382976180ea3bd7f3",
+      "git_blob_sha": "edb6504cf8a20b8e98acda3a3de89352ac76bb37"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-R729-common-slack-current-runtime-binding.json",
+      "bytes": 50082,
+      "sha256": "dfd6c5de398fe33fcc44bb4c4d0bb3ddcbf72069ce0432836ff3d42c794c4af5",
+      "git_blob_sha": "ffc501b19d28899f3e0e0d92b4613f747768d594"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R729_common_slack_family.mjs",
+      "bytes": 76965,
+      "sha256": "8bc71f6644fa4c4248bd4aae2ff58c034f73f661bdcf6768ca85f9c18ab442f5",
+      "git_blob_sha": "55afa3b6ab7dd882bb350791a439ad3299d9979f"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-R729-complete-common-slack-dual-recovery-source-family.md",
+      "bytes": 22321,
+      "sha256": "1237802d1fa06e7eab94510ec5b744ef209ba69600db2b5037be24aafc375c1d",
+      "git_blob_sha": "99b6f40e25a23561ef50b4bc6090beb413385df9"
+    }
+  ],
+  "complete_file_count_including_this_manifest": 8,
+  "complete_other_file_bytes": 419315,
+  "incremental_runtime_count": 4,
+  "incremental_runtime_bytes": 269947,
+  "current_runtime_source_count": 24,
+  "current_scientific_role_count": 138,
+  "whole_current_runtime_and_role_registry": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-R729-common-slack-current-runtime-binding.json",
+    "bytes": 50082,
+    "sha256": "dfd6c5de398fe33fcc44bb4c4d0bb3ddcbf72069ce0432836ff3d42c794c4af5",
+    "git_blob_sha": "ffc501b19d28899f3e0e0d92b4613f747768d594",
+    "json_pointer": "/"
+  },
+  "original_137_pairs_retained_exactly": true,
+  "new_role": "common_slack_dual_recovery",
+  "original_complete_QPv3": {
+    "bytes": 26947,
+    "sha256": "fb4ec6b81bcabfd1760178f3cad5f5eea7f7b0708c4c5cf11147ca0d52cc4bb4",
+    "git_blob_sha": "fabfcd7556a634d19e8dac788d5cb95d696b3d5d",
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261120/fullspace_feasible_active_cg_v3.py"
+  },
+  "complete_mathematical_proof": {
+    "path": "topics/visible-flex-larger-amplitude/results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md",
+    "bytes": 16220,
+    "sha256": "d6104084c6a96651e478ab4c0b7f25124ca5859ae03e49fdb4d3a35c9264c87a",
+    "git_blob_sha": "a66c19196b798957a6f905c23e47b2b500b60dd8",
+    "publication": "f687c963cbc899e211a3d083c12b2f1b7e322d4d"
+  },
+  "whole_parent_source_binding": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-current-runtime-binding.json",
+    "bytes": 74756,
+    "sha256": "4af8d6d8ca43a8bc62005e091e0b3baddb6e0e382f0ba6c6ac62247678f3c4ea",
+    "git_blob_sha": "d79fd8c5e889f826585cd4ddaf64aeadbc0ef369"
+  },
+  "whole_parent_source_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-complete-source-delivery.json",
+    "bytes": 40338,
+    "sha256": "5d7d7c0e8fb3c104e797ebe97c98fc6f7fc1c9efa4ce996b54b3b51ac3d35284",
+    "git_blob_sha": "182b065be81e7f9c0e8fdc84b82d22c2da494fed"
+  },
+  "whole_parent_source_reproducer": {
+    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R728_demanded_family.mjs",
+    "bytes": 69141,
+    "sha256": "eec4ae51b7a83ebc10b1ec3f39be24570509def85e21538d7bfc65407b84988b",
+    "git_blob_sha": "e2523d56f2c5796ae2e2470c882acd6b186c4872"
+  },
+  "whole_parent_parameter_binding": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-bhalf-complete-parameter-binding.json",
+    "bytes": 35050,
+    "sha256": "8790f2cc535346118f7733ac3fb8577b599f2c9c2374efffd06dae7d1ccf9154",
+    "git_blob_sha": "fc704611d7a95003ff9dc31157801bbd88be6ea6"
+  },
+  "whole_parent_parameter_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r728-demanded-bhalf-complete-parameter-delivery.json",
+    "bytes": 17702,
+    "sha256": "b07d7a6fa46a463db25b100fa76fb0ac09880ce6eec43ec9e2013220183dcb7a",
+    "git_blob_sha": "c14c51b73df42435cb2ab22b0915fae25492dadf"
+  },
+  "actual_parent_publication_received_after_preparation": {
+    "source": "Root agent exact publication/official-run message",
+    "runtime_publication": "8591fc4c0ce0a3e4ec26e9e1d0728f95b5b28d48",
+    "official_run_id": 46122200592,
+    "attempt": 1,
+    "created_at": "2026-11-28T07:39:20Z",
+    "observed_status": "in_progress",
+    "actual_input_results": null,
+    "actual_field_results": null,
+    "scope": "20 new runtime + 3 original runtime, 137 source roles and three complete execution steps",
+    "remaining_unpublished_nonruntime_file_count": 12,
+    "remaining_unpublished_nonruntime_bytes": 481099,
+    "all_39_parent_files_claimed_published": false,
+    "this_new_run32_publication_or_result_inferred": false
+  },
+  "trigger_and_budget": {
+    "original_complete_QP_first": true,
+    "phase": "restoration",
+    "statuses": [
+      "dependent_blocker_at_zero_step",
+      "dependent_blocker_after_feasible_step"
+    ],
+    "original_maxiter_and_all_other_numerical_CLI_values_unchanged": true,
+    "full_sweeps": "maxiter - original advances",
+    "full_augmented_rows_per_sweep": "all M, original order",
+    "original_CG_advances_dual_sweeps_and_coordinate_visits_separate": true,
+    "original_signed_multipliers_not_reused_as_nonnegative_dual_initialization": true,
+    "lambda_initial": "zero",
+    "per_sweep_candidate_field_or_root_evaluations": 0,
+    "final_candidate": "one full-dimensional dual direction with all-row optimal scalar repair",
+    "selected_direction": "best actual finite-tolerance-feasible original/zero/final candidate; preserve original report and finite errors",
+    "original_outer_acceptance_lines_and_geometry_unchanged": true
+  },
+  "complete_new_diagnostics": {
+    "original_report_key": "qp",
+    "original_report_retained_whole": true,
+    "actual_recovery_key": "R729_common_slack_fallback",
+    "actual_selected_direction_key": "R729_common_slack_fallback.actual_selected_direction",
+    "actual_final_C_dual_key": "R729_common_slack_fallback.final_diagnostics",
+    "units_key": "R729_common_slack_fallback.budget",
+    "old_face_Pg_is_not_new_dual_stationarity": true,
+    "original_QP_legacy_selector_meanings_explicitly_retained": true,
+    "finite_gap_or_tolerance_feasibility_not_a_strict_certificate": true,
+    "no_new_F_J_Jtranspose_root_or_geometry_call": true,
+    "pure_direction_lists": [
+      "actual_metric_directions",
+      "actual_restoration_directions"
+    ]
+  },
+  "exact_text_construction": {
+    "whole_reverse": [
+      {
+        "role": "driver",
+        "patches": 6,
+        "reverse_exact_parent": true,
+        "bytes": 99884
+      },
+      {
+        "role": "reader",
+        "patches": 9,
+        "reverse_exact_parent": true,
+        "bytes": 93371
+      },
+      {
+        "role": "launcher",
+        "patches": 4,
+        "reverse_exact_parent": true,
+        "bytes": 22359
+      }
+    ],
+    "original_roles_exact": 137,
+    "new_roles": 1,
+    "current_roles": 138,
+    "no_ast_or_scientific_execution": true
+  },
+  "complete_source_reproduction": {
+    "file": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_fixed_fejer_R729_common_slack_family.mjs",
+      "bytes": 76965,
+      "sha256": "8bc71f6644fa4c4248bd4aae2ff58c034f73f661bdcf6768ca85f9c18ab442f5",
+      "git_blob_sha": "55afa3b6ab7dd882bb350791a439ad3299d9979f"
+    },
+    "all_new_kernel_body_embedded": true,
+    "all_19_full_patch_records_embedded": true,
+    "original_parent_files_3_whole_checked_and_reversed": true,
+    "complete_shared_20_runtime_bodies_copied": true,
+    "output_current_runtime_count": 24,
+    "command": "node reproduce_fixed_fejer_R729_common_slack_family.mjs --source-directory <complete-run31-script-directory> --generated-directory <text-output-directory>",
+    "complete_old_role_registry_is_not_truncated": true,
+    "instruction_is_for_source_recovery_not_a_scientific_queue_gate": true
+  },
+  "source_scope": {
+    "physical_seed_mean_base_normal_all_32_stages_geometry_and_all_137_old_role_pairs_unchanged": true,
+    "current_model_formula_not_mistaken_for_an_actual_new_field_result": true,
+    "new_algorithm_declared_by_independent_report_reader_launcher_schemas": true,
+    "new_readout_always_attributes_old_QP_fields_to_original_attempt": true,
+    "old_same_source_final_and_typed_guards_preserved": true,
+    "old_31_accurate_consumers_not_automatically_relabelled_as_32": true,
+    "original_whole_frozen_history_and_unknown_peer_responsibility_preserved": true,
+    "no_parameter_or_actual_output_truncated_for_size": true,
+    "every_complete_artifact_below_100000_bytes": true,
+    "source_or_theorem_reading_and_text_construction_only": true,
+    "Python_AST_compile_fixture_benchmark_or_science_executed": false,
+    "refs_queues_running_jobs_or_ROOT_READMEs_modified": false
+  },
+  "future_actual": {
+    "source_publication": null,
+    "run_id": null,
+    "job_id": null,
+    "inputs": null,
+    "model_identity": null,
+    "point": null,
+    "complete_scientific_report": null,
+    "complete_pure_readout": null,
+    "original_QP_status": null,
+    "full_dual_sweeps": null,
+    "recovered_candidate_adopted": null,
+    "finite_linear_g": null,
+    "nonlinear_acceptance": null,
+    "final_field": null,
+    "walltime_or_speedup": null
+  },
+  "exact_recovery": "Every other file has its full original Git blob, bytes and SHA-256 above; recover with git cat-file blob and use the original full path. This manifest whole identity is supplied externally with the delivery.",
+  "source_ready_but_not_scientific_success": true
+}
