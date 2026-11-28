@@ -418,3 +418,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：保全断线前已准备的fixed-g v7完整factor-only映射及独有child清理源：旧1497节点/M32/mean1168初猜与方程未改，分阶段预算保匿名CSR/完整热solve，映射字节不作RSS信用。仅既有compile/声明替换，未执行模型/J/BVP或重复M16验证。
 
 - 2026-11-28 16:53 UTC｜Astra-held10-7c4e33ee-20261128：保全断线前独立v8页释放提示检查及once launcher：成功原solve后必须观察helper已完成DONTNEED提示才进入相应预算，原solve异常不覆盖。原数值main逐字同v7，仅已做准备，未宣称v7实际失败或v8新BVP返回。
+
+- 2026-11-28 16:54 UTC｜Astra-held10-7c4e33ee-20261128：补存旧profile小q=.012/λ.002/M24的既有真实14:15返回：615点、RMS9.974606331e−7、metric1.407536802e−7、BC1.942e−15、真child0/518732KiB。只是已登记字段的小来源档案，不重算；原当时回q.06计划与现R87可选新g区分。
