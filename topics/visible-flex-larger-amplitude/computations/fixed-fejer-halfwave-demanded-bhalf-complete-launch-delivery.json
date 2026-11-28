@@ -1,0 +1,208 @@
+{
+  "schema": "complete-demanded-halfwave-bhalf-independent-launch-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "intended_runner_label": 28,
+  "namespace": "fixed-fejer-paired-halfwave-demanded-bhalf-first",
+  "status": "complete independent launch files; actual official run and scientific results not yet returned",
+  "prepared_utc": "2026-11-28 04:35:15 UTC",
+  "complete_artifacts_except_this_manifest": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel28_geometry_locations.py",
+      "bytes": 19995,
+      "sha256": "164f4a7acc04ea380ad1627fe034e5b44f2b00d50c01c660b382309d2a5f75dd",
+      "sha": "f07730e05ea187523224b83cc18101167497f0d8",
+      "git_blob_sha": "f07730e05ea187523224b83cc18101167497f0d8"
+    },
+    {
+      "path": ".github/workflows/visible-larger-20261128-parallel28.yml",
+      "bytes": 2211,
+      "sha256": "be22c050f1acfabc59b2ecce9ca7c5421b5f831c8471414cdb2a1953aa622d47",
+      "sha": "3b8e66a3d60f1a84c3ffcb18ee541078747bcf44",
+      "git_blob_sha": "3b8e66a3d60f1a84c3ffcb18ee541078747bcf44"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-28.json",
+      "bytes": 32737,
+      "sha256": "5918c36723307cc50ea72835fb80b3cff9065a168ce3e644a18a486a1efd674f",
+      "sha": "9a741ba69ed987233066cc285e5adca1961a0ad1",
+      "git_blob_sha": "9a741ba69ed987233066cc285e5adca1961a0ad1"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-28.json",
+      "bytes": 74634,
+      "sha256": "2761c59b534a02e8b7a06490eb252d1df6d6af8387d44222cf37b020e2d74efd",
+      "sha": "4b4eb17b83ed8a6ef311b2c3d2a49cbf72cb1f01",
+      "git_blob_sha": "4b4eb17b83ed8a6ef311b2c3d2a49cbf72cb1f01"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md",
+      "bytes": 11168,
+      "sha256": "b0d6d593cee37b3f98c89a692168156f6399b25e08cb9dd736b09079b8c9eae6",
+      "sha": "2ce26792dd9a78f92bb47cea24a61767a8fdd8b3",
+      "git_blob_sha": "2ce26792dd9a78f92bb47cea24a61767a8fdd8b3"
+    }
+  ],
+  "complete_source_delivery": {
+    "name": "fixed-fejer-halfwave-demanded-complete-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-complete-source-delivery.json",
+    "bytes": 56928,
+    "sha256": "6c8880e6badc4f0e4ec02eafb224f6d45baaf3943354defa5c445f1e0063a4be",
+    "git_blob_sha": "3989acf5902578635c3b7bcaa9c94b55f6a7dca0",
+    "fixed_publication_commit": "3fa8f98f08649da12ee5b8b9ba5889276285bc84"
+  },
+  "complete_parameter_delivery": {
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-bhalf-complete-parameter-delivery.json",
+    "bytes": 26835,
+    "sha": "bb0276deed1e6e487fc7ce2e3264b0f86776d9cd",
+    "sha256": "da1fe6a13e4651a93af189bbe963b4397d9ed67c788391b422730aed889840b8",
+    "ref": "68fdeb2937069e5b73a2973154c137b1211f054f"
+  },
+  "complete_source_registry": {
+    "complete_file": {
+      "name": "fixed-fejer-halfwave-demanded-bhalf-complete-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-bhalf-complete-parameter-binding.json",
+      "bytes": 45365,
+      "sha256": "27a9467deba43fb964f287ad2df0897260c14bf94ccf624aee62344f1643a0c5",
+      "git_blob_sha": "b591d00267e144934bcf1ea7037f762d7f5ba449",
+      "role": "parameter-binding"
+    },
+    "json_pointer": "/current_source_role_registry",
+    "whole_parent_value_retained": true
+  },
+  "complete_runtime_registry": {
+    "complete_file": {
+      "name": "fixed-fejer-halfwave-demanded-bhalf-complete-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-bhalf-complete-parameter-binding.json",
+      "bytes": 45365,
+      "sha256": "27a9467deba43fb964f287ad2df0897260c14bf94ccf624aee62344f1643a0c5",
+      "git_blob_sha": "b591d00267e144934bcf1ea7037f762d7f5ba449",
+      "role": "parameter-binding"
+    },
+    "json_pointer": "/current_runtime_records",
+    "whole_parent_value_retained": true
+  },
+  "complete_transport_parent_records": {
+    "request": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-25.json",
+      "bytes": 32579,
+      "sha256": "fcd2d24e51d49fadd33d74734c89494f25b8ff6963b7be04b64a7192c2337119",
+      "sha": "fcd05bc1cdcae41249d2ff946787e42d3a1f07bb",
+      "git_blob_sha": "fcd05bc1cdcae41249d2ff946787e42d3a1f07bb",
+      "fixed_publication_commit": "007348e5c8bd943a13704d7761cf9d4d6b06fea6"
+    },
+    "controller": {
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel27_geometry_locations.py",
+      "bytes": 19995,
+      "sha256": "0c54bbe4e8cc6ab5c02fc3e5ace1e09226d43e5bfbea53e0da3b4c7b71d3cf2b",
+      "sha": "baeb75bb65d7e8f5977b7a92fb1c39df23f88e78",
+      "git_blob_sha": "baeb75bb65d7e8f5977b7a92fb1c39df23f88e78",
+      "fixed_publication_commit": "a773d67267750078be498284d1fcd3cabe4f3ab3"
+    },
+    "workflow": {
+      "path": ".github/workflows/visible-larger-20261128-parallel27.yml",
+      "bytes": 2216,
+      "sha256": "aca6ac9b2951ae3ef8772f063cd6aa30007847e29596b4b8e5cdbd0bdd1a5b20",
+      "sha": "318d3fcfbc34dd7b0620862d19b28907b3b23273",
+      "git_blob_sha": "318d3fcfbc34dd7b0620862d19b28907b3b23273",
+      "fixed_publication_commit": "a773d67267750078be498284d1fcd3cabe4f3ab3"
+    },
+    "queue": {
+      "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-27.json",
+      "bytes": 74597,
+      "sha256": "9f9def58233edcb5cc59d4166fd322d17365bae367e694fb7a93d6091aeee8bd",
+      "sha": "43aa2cae8091e7971f1cbd7b3555a26e06d17e0f",
+      "git_blob_sha": "43aa2cae8091e7971f1cbd7b3555a26e06d17e0f",
+      "fixed_publication_commit": "a773d67267750078be498284d1fcd3cabe4f3ab3"
+    }
+  },
+  "complete_controller_replacements": [
+    {
+      "before": "visible-larger-parallel-27:start",
+      "after": "visible-larger-parallel-28:start",
+      "count": 1
+    },
+    {
+      "before": "visible-larger-parallel-27:end",
+      "after": "visible-larger-parallel-28:end",
+      "count": 1
+    },
+    {
+      "before": "Actions27：",
+      "after": "Actions28：",
+      "count": 1
+    },
+    {
+      "before": "并行27规则核查：",
+      "after": "并行28规则核查：",
+      "count": 1
+    }
+  ],
+  "complete_workflow_replacements": [
+    {
+      "before": "Visible larger amplitude R725 five-eighths cutoff 20261128 27",
+      "after": "Visible larger amplitude complete demanded half-wave 20261128 28",
+      "count": 1
+    },
+    {
+      "before": "resume-20261128-actions-request-27.json",
+      "after": "resume-20261128-actions-request-28.json",
+      "count": 2
+    },
+    {
+      "before": "visible-larger-fixed-input-20261128-27",
+      "after": "visible-larger-fixed-input-20261128-28",
+      "count": 1
+    },
+    {
+      "before": "Construct the same fixed target and solve the complete R725 five-eighths boundary",
+      "after": "Construct the same fixed target and solve the complete demanded half-wave",
+      "count": 1
+    },
+    {
+      "before": "public_actions_controller_parallel27_geometry_locations.py",
+      "after": "public_actions_controller_parallel28_geometry_locations.py",
+      "count": 1
+    }
+  ],
+  "all_complete_parent_request_keys_retained_as_whole_original_file": 51,
+  "current_request_keys": 53,
+  "original_all_scientific_numeric_words_and_budgets_retained": true,
+  "all_157_and7_words_458_and445_formal64_live_retained": true,
+  "complete_scientific_parameter_recipe": {
+    "complete_file": {
+      "name": "fixed-fejer-halfwave-demanded-bhalf-complete-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-bhalf-complete-parameter-binding.json",
+      "bytes": 45365,
+      "sha256": "27a9467deba43fb964f287ad2df0897260c14bf94ccf624aee62344f1643a0c5",
+      "git_blob_sha": "b591d00267e144934bcf1ea7037f762d7f5ba449",
+      "role": "parameter-binding"
+    },
+    "json_pointer": "/explicit_parameter_recipe",
+    "whole_parent_value_retained": true
+  },
+  "supported_original_CLI_peer_count": 5,
+  "complete_external_peer_count": 15,
+  "complete_initial_inputs_only_reference_id_changed": true,
+  "queue_counts": {
+    "initial": 74634,
+    "science_plus_pure": 118751,
+    "all4": 126872,
+    "pure_only": 52347
+  },
+  "finish_when_done": false,
+  "raw_remains_runner_only": true,
+  "local_science_AST_fixture_compile_benchmark_admission_added": false,
+  "complete_full_text_forward_inverse_constructed": true,
+  "actual_run": null,
+  "actual_input_records": null,
+  "actual_model": null,
+  "actual_point": null,
+  "actual_report": null,
+  "actual_feasibility": null,
+  "actual_performance_gain": null,
+  "self_path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-halfwave-demanded-bhalf-complete-launch-delivery.json",
+  "manifest_bytes": 9195,
+  "total_files": 6,
+  "total_bytes": 149940
+}

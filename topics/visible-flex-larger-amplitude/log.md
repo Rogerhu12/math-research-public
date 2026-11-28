@@ -506,3 +506,7 @@ N自然1/324.00838658499924s、source b9275d63/entryc6f6c972，无output/report�
 ## 2026-11-28 04:31:39 UTC — ret68五旧派生报告完整来源整理
 
 五旧报告毛394359B，四新件122015B，净272344B；全原argv/resource、11完整源+5既有helper、74输入关系、准确结果及全部未付保。R53全46轴不是product box，R73两个全中心预算位false，R81外场/Green未付，R96六generated split未公开以null保且已刊完整单文件再生入口与原Git恢复分开，q095有限核心差非全闭面比例。固定2b13747323ccb6a96df5c13775edcb436fe78792完整原字恢复，真实旧消费者先恢复whole原件。活输入/源码/raw/唯一状态不动，无科学重跑/AST或新门。双README云核至`c2b352b85653132f09a47a21e3a429ced0e943dd`无变（非pull）。
+
+## 2026-11-28 04:35:47 UTC — 28完整按需半波独立启动
+
+六全件149940B：controller19995/164f4a7a只换27四槽literal，workflow2211/be22c050五literal组保原partial clone/依赖/350min/真实pull。request32737/5918c367保51完整父key、53当前key及全source/params/15external；真正数学参数父25，27仅transport。queue74634/2761c59b全6/26/157词，reference只id27→28，science+pure118751/all4 126872超95000，真自然返后整接pure52347，不删selector/预算。完整source3fa8、params68fd已刊；S5半波与全部原数学保，仅按需旋转/同branch角2复用，无速度/结果宣称。19终态失败和26新geometry完整后证保，official run/job/输入/model/point皆待返。H/open旧容量全措辞保ee53固定原件，open§1–6原字不动。双README云核至`7a8d853e1e795ba584980e72f23968d7cae537ef`无变（非pull）。
