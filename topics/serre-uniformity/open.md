@@ -124,3 +124,9 @@ R1149 §17已付原参数桥：通用∂H_p=β_p、同一marked first lift t*=β
 ### R1154：原首标签与 minor 的联合有限 Gauss moment
 
 [R1154](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)以同一r5 forcing付H_p=4χ(r_G)E_H/(63β_G)，E_H=[x^(N+1)](xT′−NT)(L/Q)²。原T=Q⁶反序列精确为F(1/12,7/12;1)^6 mod y^p；N<j<p全零、xT′−NT下一首项−7t_N/24单位，但不代指定moment。完整Wronskian/分部积分给c=t/8+e†/6、d=3b/8+f†/6，故Δ_low=4(3b e†−t f†)/(13365 r_G β_G²)。Bp−3好时非对角余对强迫E_H0；再在Bp−7坏/Bp−5好分支还须同一minor0。全部矩均同一L/Q，保实际good mask、两twist、S0/P0；继续排完整联合等式，不把不存在的高行补进mask。
+
+### R1153：原 Kummer / finiteFL 读数校准已付
+
+[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)用实际Fp超奇异校准reference的两非零顶项，完整证明两个读数单位分别U★=4δc_g,★²β★²、U★²；实际Miller相位a_E=γ_E/γ★给U_E=U★a_E²。原两槽全为a=U_E Q1(β_Et)、b=U_E²Q2(β_Et)+ks，不除Bernoulli。Deuring计数/Heilbronn增长提供独立C_SS，需global生成时范围为p>max(C_SS,C_cyc)。原r=(2/3)U★γ★⁻²β3、s=(24/5)U★²γ★⁻⁴β5，零分支与R1152同。
+
+原q_t可见x2..4与y4..8已逐项从同一旧profile读出；不可见x0/1与y0..3未冒称恢复。Gaussian顶障碍=16δ³c_g⁶rs z12−z U_E³q1,2 q2,4；cubic顶障碍=16δ³c_g⁶rs z12−z a3 U_E²q2,3。主要局部未知现在是同一原F0中央项z12及较低中央coefficient；继续它与R1152有限J_p的准确相减和深盘，两个top profile单位不代该组合非零。

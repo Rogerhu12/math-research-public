@@ -6,11 +6,11 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：67da4dbfe318d18b1bf92b4d37f803e456885fa5**（2026-11-28 09:08 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 08:28 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：404f2dd90816473d1f7d17e38b8c4364bc96149e**（2026-11-28 09:09 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 08:28 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 08:28:21 Asia/Taipei，Actions run46088030307/job140802126576，blob:none浅clone真实pull --rebase至9055c2a9，两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤09:18、pull≤09:28。本地08:27仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
-root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-global-Frobenius-subtraction.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
+root管main/H/open/index/log，子研究仅独立candidate；每条结论即推。H<10KB，open尽量<30KB，每MD<100KB，topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Kummer-FL-calibration.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。旧“R1003 norm3准备中”未交，现R1003为范围纠错。
 
 ## O0：完整一般 p、原算术 cochains 与新增尖点中心
 
@@ -26,7 +26,7 @@ root管main/H/open/index/log，子研究仅独立candidate；每条结论即推�
 
 [R1149](results/R1149-original-relative-Hodge-section-and-central-connection.md)原43塔唯一Hodge截面/右action与中央连接0已付，α4=(1−p⁴)E6ν⁴τKS/252、α8=(1−p⁸)E10ν⁸τKS/132，α8=λ∞E4ν⁴α4；原γ5连接0不删算术常数。
 
-R1149 §§11–16付u=pt整Taylor、真实finite q_t/λ/binomial及F0三槽：a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸。Gaussian/cubic粗次数1/2/3、1/1/2，cubic首槽斜率unit；原条件由R1150付。 §17通用∂H=β给原t*=β_CM t，旧coarseT*=β_CM^eT；Gaussian β_CM=−δ_Car，区别Cartan δ，旧Kummer/FL读数单位仍未标定。
+R1149 §§11–16付u=pt整Taylor、真实finite q_t/λ/binomial及F0三槽：a=Pa+a3t³、b=Pb+b5t⁵、h=Ph+Pa b5t⁵+h8t⁸。Gaussian/cubic粗次数1/2/3、1/1/2，cubic首槽斜率unit；原条件由R1150付。 §17付t*=β_CM t、T*=β_CM^eT，Gaussian β_CM=−δ_Car区别Cartan δ；原Kummer/FL单位现由R1153支付。
 
 [R1150](results/R1150-original-relative-log-Frobenius-and-crystalline-identification.md)原rational log Frobenius同源已付：∇uV=α′−α，∇uZ=b(uV,α′)−b(α,uV)；Tate a5=u5消中央res。horizontal period gauge/proper-log下降/H¹etZ0锁同一tower；保Cartan仅modp及整未分歧短盘范围。
 
@@ -40,15 +40,13 @@ R1148 §12付rank-p character计数及ℓ>4D_p²的共同affine lift，D_p=g+p(p
 
 R1152 §§1–12付原Θ∞/MT(Z)/正向Frobenius同源及完整finite harmonic尾项。记β3=Bp−3、β5=Bp−5、J=Har_p(1,3,4)，实际单位缩放下ap=−β3/3、bp=−β5/5、hp=(J+2β3β5)/25；r/s零⇔对应β零，z零⇔J+2β3β5零。rs非零κ=z/(rs)=6/5+3J/(5β3β5)，全部七分支已有限化；3/8−κ=−3(11β3β5+8J)/(40β3β5)。未宣J或原F0组合非零；继续z12/深盘。
 
+[R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付原raw Q1/Q2到finiteFL的完整比较：U_E=4δc_g,★²β★²·a_E²，a_E为实际Miller比；a=U_E Q1(β_Et)，b=U_E²Q2(β_Et)+ks。无需Bernoulli-good，读全q_t可见x2..4/y4..8及Gaussian x4/y8、cubic y7。generic Fp SS校准由Deuring/Heilbronn给独立C_SS，全部global范围取max(C_SS,C_cyc)。r=(2/3)U★γ★⁻²β3，s=(24/5)U★²γ★⁻⁴β5。中央z12仍未付，不把被q_t恒杀的其它X/Y项称已读。
+
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé N=(p−5)/6，F=₂F₁(1/3,1/2;4/3)，contact2N+1首余项/P_N均unit。双缺陷⇔P,Q含x²，约后deg≤N−2/contact2N−1；F²=D_N−g_N²x^(2N+1)，D/G无重根互素，实际Pell余式W≠0、deg≤N−3但W0未unit。原Λ/rank3/moving p极与全部尺度沿文；双缺陷未排。
 
-[原固定Dixon源](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)付双零⇔D^(p−5)η0⇔整P_(p−5)content被p除；全Jordan不代指定中列。§§6–8原Fermat/D³=2vT、q/r生成式给r_N(λ)=R1076η_k(λ/3)与r′=ν/3；互倒Dixon平方根精确读全谱/相邻系数，尚未排共同零。
-
-原Dixon §§9–10付Hesse Frel全矩阵/边界、Dp=H D及H=αh(α³)、h0单位；完整Schur Q付det和原q/r块。normal为12tr(adjQ A²)、spectral为tr(adjQ)，未互代，原双零仍开。
-
-[R1145](results/R1145-original-Pade-banded-self-adjoint-exclusion.md)八个带宽1/2系统仅标量，只排已登记有限机制；run/source沿文。旧5372扫描/十五Euler/Prym/六CM/normal-FM只消费；Hesse保αD²/α²D与完整主块边界。
+[原固定Dixon](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)§§1–10付D^(p−5)η、原Fermat/同Dixon生成式、Hesse全Frel/Schur谱。normal=12tr(adjQ A²)不等spectral=tr(adjQ)，全Jordan不代指定中列；原双零未排。R1145八带系统仅标量、旧5372/十五Euler/Prym/六CM/normal-FM均只消费，不重跑。
 
 [原genus4 §§6–8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)付Fermat6完整十维/45槽和B22,12=−c^(2k−1)e/δ。e0后123六维第0…3插入全零，第4准确C(P⁴ω12)=4c^(2k−2)K4·ω32/δ²；e=K4=0 iff222+123七维第0…4全零。两个真实Cartier指数3p−1/9p−1必须全保，e0才有A9=−A3；114第二层Λp完整有限式未unit，高插入可有极。V4仍留18 cross，继续原临界非零。 §8付完整交换P↦−P+(r1/x²y²)^p及全部高极；A3=−2r1³qN0−3qN′0/2，回原Dixon，未添unit。
 
@@ -60,7 +58,7 @@ R1152 §§1–12付原Θ∞/MT(Z)/正向Frobenius同源及完整finite harmonic�
 
 [R1135](results/R1135-original-Gaussian-low-row-fiber-constraint.md)原两低good支至多一非对角pair，另一支Δ_low/48待unit；norm2完整V3/V4和CM gauge未删。§10两下降线真正运输给Π′(z′)=Π(−z′)，同component统一z∈Fp，保S0/P0。§11 actual-good代数仅A0=Fp[W²,W(W²−d)]或Fp[W]，导子W²−d；d0或非平方已分Fp点，非零平方须实际O_R(d)≠0。旧Δ/(2Gp−7)即该导子类；向量场闭性仍未付。
 
-R1135 §§12–15付完整heat/Hasse/Katz forcing及XiG实际Cartier读数；Wω恒Cartier零、全权W非零均不能代W(TG)单位，原bad Bp−7边界沿文。
+R1135 §§12–17付同一heat/Hasse/Katz forcing及实际Cartier/有限Gauss，全部坏行边界/安全jet/余项沿原文。
 
 R1135 §§16–17用原Hasse伴随ℓ读准确forcing/消曲率，Δ_low=160/(11β_G¹¹)(J70 M3−3J72 M1)。同源Gauss对L=F(1/12,1/12;1/2)、Q=F(7/12,7/12;3/2)，Q⁶真多项式N=(p−7)/2；完整Y-residue付Δ_low=8(3b_Nc_N−t_Nd_N)/(4455 r_G β_G²)。只≤p−5 jet，t_N单位不代det，Wronskian全部余项保留，继续实际非零。
 
