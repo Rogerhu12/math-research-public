@@ -1,0 +1,126 @@
+{
+  "schema": "isp-small-original-u-zero-order-actual-v1",
+  "run_id": 46101935811,
+  "job_id": 140846118207,
+  "execution": {
+    "elapsed_seconds": 15.117517354,
+    "max_child_rss_kib": 110392,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "c16d0a59ceb8a1fd118c346dc7e81dc261b1c190",
+        "before": "c16d0a59ceb8a1fd118c346dc7e81dc261b1c190",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T03:15:22.413333+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46101935811",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "c16d0a59ceb8a1fd118c346dc7e81dc261b1c190",
+    "source_exit_code": 0,
+    "source_git_blob": "ccddcf6d2e0f3aeb6db915ebc48560e40e44d00b",
+    "source_sha256": "03127dcfbd35033d91b8d2b70b998e07686b39f54bfc4c3e4903712c8883e8a2",
+    "stdout_bytes": 18998,
+    "stdout_sha256": "f98c115aa89a14adf4bebf12faad3c42a578119f62003793e6de152479f227ed",
+    "stop_reason": null
+  },
+  "initial": {
+    "transverseParameter": "u",
+    "coefficientField": "QQ(Q)",
+    "targetLowerOrder": 4,
+    "initialPrecision": 5,
+    "fullOriginalCoefficientTruncationReturns": 484,
+    "constantMatrix": {
+      "rows": 22,
+      "columns": 22,
+      "maximumParameterDegree": 37,
+      "sha256": "b4795c2b4463c3cf655683fb73618d72fa7f991943e13269cad9bffce93dfdda"
+    },
+    "knownUpperBoundFromPublishedIntegralPolynomial": 4,
+    "knownModularFactorSHA256": "463f2998327eb3a694145e6014444480b2235be84aa6cfd57871cc64f1cd816c",
+    "knownWholeReducedModularPolynomialSHA256": "ca632b1fc0b2d69fa810a11f19a759908dd6bf6a5151b045967dc6930653f0a6",
+    "noOldDeterminantOrFactorizationExecuted": true,
+    "stage": "new_local_original_QQ_u_zero_jet_definition",
+    "seconds": 8.703906238000002
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "constantRank": 20,
+      "zeroRows": 2,
+      "precisionBefore": 5,
+      "extractedOrderBefore": 0,
+      "extractedOrderAfter": 2,
+      "precisionAfter": 4,
+      "constantMatrix": {
+        "rows": 22,
+        "columns": 22,
+        "maximumParameterDegree": 37,
+        "sha256": "b4795c2b4463c3cf655683fb73618d72fa7f991943e13269cad9bffce93dfdda"
+      },
+      "transformation": {
+        "rows": 22,
+        "columns": 22,
+        "maximumParameterDegree": 37,
+        "sha256": "4374ca351140360c81cca91add84b6ce868f5d36f128f491247a95357af6856d"
+      },
+      "completeEH0Returns": 484,
+      "fullZeroRowJetDivisionReturns": 44,
+      "retainedDeterminantPrecisionAtLeast": 6,
+      "seconds": 11.357842773999998
+    },
+    {
+      "round": 2,
+      "constantRank": 20,
+      "zeroRows": 2,
+      "precisionBefore": 4,
+      "extractedOrderBefore": 2,
+      "extractedOrderAfter": 4,
+      "precisionAfter": 4,
+      "constantMatrix": {
+        "rows": 22,
+        "columns": 22,
+        "maximumParameterDegree": 69,
+        "sha256": "126062d3faf91b5b520e8f492d8ac83a69889ee7d56583ad1c691d4fba95a1e2"
+      },
+      "transformation": {
+        "rows": 22,
+        "columns": 22,
+        "maximumParameterDegree": 23,
+        "sha256": "f302cb9993cd1e5d2bb18e0328afda99149b734a60db6db2c65e1d827dc87bbb"
+      },
+      "completeEH0Returns": 484,
+      "seconds": 15.048656532999999
+    }
+  ],
+  "conclusion": {
+    "sameOriginalReducedMatrix": true,
+    "originalPolynomialName": "F=det(C22)",
+    "coefficientRingConclusion": "QQ[u,Q]",
+    "localOrderLowerBound": 4,
+    "actualExactUZeroOrder": 4,
+    "targetFourAchieved": true,
+    "publishedIntegralQ2Mod1009UpperOrder": 4,
+    "targetNeverAssumedForLowerBound": true,
+    "allParameterZerosRetainedByMonicGaussDivisibility": true,
+    "noPhysicalParameterPivotInverse": true,
+    "actualKernelRounds": 2,
+    "originalCoefficientTruncationReturns": 484,
+    "allExactPolynomialDivisionReturns": 20514,
+    "allConstantMatrixTransformationReturns": 968,
+    "allZeroRowJetDivisionReturns": 44,
+    "coefficientFieldContentReturns": 3784,
+    "transformedJetCoordinateDefinitions": 2420,
+    "noWholePhiExclusionClaim": true,
+    "noRecomputablePayloadSaved": true,
+    "peakRSSKiB": 107720,
+    "stage": "new_original_reduced_weight_polynomial_exact_QQ_u_zero_order",
+    "seconds": 15.048749803
+  }
+}

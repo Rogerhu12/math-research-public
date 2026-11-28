@@ -2,9 +2,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-exact-Phi789-first-W-D-column-cover-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-positive-commutators-first-Phi-coefficients-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [原Haar全整数幂的函数正序交换子必零](results/R107-appendix-all-original-powers-positive-commutators-vanish.md)：对任意有界T，用真实标量WOT返回和正望远镜端点证明[C^r,T]有一个锥符号即0；全部有限放大和aC^r+bI同。双侧正半交换锥精确等于正交换锥，不自动传给无格结构的普通子商。
 
 - [同P快速整函数逆源及全部原旗的最大闭分式场](results/R12-appendix-quantitative-flat-entire-inverse-sources-and-universal-closed-fractions.md)：明确>4次系数衰减支付实际级数；同Q归一dyadic幂与Jensen/Poisson付所有非零分子全旗quasi。最大图本身作为原旗支付真实参数核心、自然和积闭包、同循环空间；忠实场由零阶奇偶排平方根，场外来源仍开。
 
@@ -65,13 +67,3 @@
 - [R150：Phi 原 N1 斜率补图精确六行两列及三个原八次标量](results/R150-appendix-unit211-Phi-zero-original-N1-slope-exact-six-by-two-presentation-and-three-eighth-degree-scalars.md)：e797完整I4双向同构与稳定关系、三个真实来源λ8；H19交补图每权≤12，整斜率零及头/内容保留。
 
 - [R150：W 无新逆中心坐标与原值次数界](results/R150-appendix-unit211-W-H198-centered-slope-monic-square-and-original-value-degree-bounds.md)：纯权仿射平移给两个坐标对λ一次、首一平方两个系数对λ≤2；新完整原值配对≤11/10，不改变旧cofactor或重启旧门。
-
-- [R150：整个 Phi D2=0 最高方向的原一元 Bézout 排除](results/R150-appendix-unit211-Phi-zero-whole-D2-highest-direction-original-exclusion.md)：三原纯权 cofactor 在 QQ[u] 全来源 gcd 恰为已付 (u−1)^10(u−2)^8，五候选整纤维全闭；物理 D0 与整 Phi 不由此关闭。
-
-- [R150：W 整 H198 与原 P164 的有限交及完整七坐标长度](results/R150-appendix-unit211-W-entire-H198-native-P164-finite-intersection-and-original-length.md)：固定 p1009,k3 真余式、完整 p 整/本原给 H 不整除 P164；权/均值/全坐标长度≤4100/24600/49200，包含重数，尚未判空。
-
-- [R150：Phi 两原支持互素及至多1634个有限性例外权点](results/R150-appendix-unit211-Phi-zero-coprime-original-highest-supports-and-1634-exceptional-weights.md)：47aaa真QQ gcd1/总86×19；两模型补集每权≤21，整个交点集及原个别值仍留，非全权有限。
-
-- [R150：W的完整15×2原表示及两条本原λ六次式](results/R150-appendix-unit211-W-H198-complement-exact-fifteen-two-columns-and-two-primitive-sextics.md)：ecf383真14.074930164秒/0，全部同点NS/PS关系及两乘子内容取消返；头和整H198零留。
-
-- [R150：Phi整D2=0最高方向的五权支持](results/R150-appendix-unit211-Phi-zero-highest-D2-zero-five-weight-support.md)：原F6迫ell半/t1，整Q曲线上四原二次式准确C16身份及QQ分解付≤5权对；全部s纤维继续。
