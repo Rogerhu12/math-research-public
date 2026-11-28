@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ25C：两真实成功父件后的三列物理接收首发](results/R149-supplement-first-actual-parent-entry-for-the-three-signed-physical-columns.md)：已绑定ASQ23真3073/两目标及DCP18实际全件；immutable manifest14b776d3…、首workflowc20e5851…全文/所有SHA核，接原8192/4096全signed残差、96坐标、三列/两mean，322和184/32原输入不动。宽parent误差全保，实际新四目标待。
+
 - [GJOR：原外缝入口整文件大小错误的实际修复](results/R149-supplement-actual-exterior-seam-input-size-failure-and-first-repaired-entry.md)：实际GJO46147231505/1 step8 TypeError：st_size属性误作调用，原完整输入/14shards/CPU/whole SHA已过，step9 scientific skipped，0新格。只删两个括号，source新5026B033393a8…；全87971B ZIP b2db80cc…保，46pins新首次入口待。
 
 - [AASQ23：3073格双负侧有符号腰值与全Gram实际完成](results/R149-supplement-actual-two-complete-negative-signed-waists-and-wide-residual-balls.md)：实际46144609049/1全3073/2目标完成，193×2真腰、strict/root两完整2×2 signed Gram/288+1024尾/独立mean保。整actual11955B8532bb42…、execution24626Bc0669b2e…和37957696B原私trial全身份核；raw腰误差约39.71/24.74，不能由小trial中心授小真解。可接ASQ25；ASQ27新−f0路径独立继续。

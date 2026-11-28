@@ -1,0 +1,104 @@
+name: R149 three signed physical Theta and recovered coordinates
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fourfold-codazzi-three-signed-physical-columns-public.yml']
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: R149-three-direct-signed-physical-cols-v1
+  cancel-in-progress: false
+jobs:
+  signed-coordinates:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    env:
+      OPENBLAS_CORETYPE: Haswell
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      BLIS_NUM_THREADS: '1'
+      VECLIB_MAXIMUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - name: Install Git in the original container
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-negative-signed-waists-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-particular-density-Theta-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-three-direct-signed-physical-columns-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-trial-complete2677-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-whole-selected-signed-sources-inputs.json
+            /topics/visible-flex-exact-nearby/notes/negative_signed_waists_ci/consumed-v1.json
+            /topics/visible-flex-exact-nearby/notes/negative_signed_waists_ci/run-46144609049-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/negative_signed_waists_ci/run-46144609049-1/negative-signed-waists.json
+            /topics/visible-flex-exact-nearby/notes/particular_density_Theta_ci/run-46124617641-1/actual-particular-density-Theta.json
+            /topics/visible-flex-exact-nearby/notes/particular_density_Theta_ci/run-46124617641-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/strict_nu_amplitude_border_ci/run-45906257068-1/actual-strict-nu-amplitude-border.json
+            /topics/visible-flex-exact-nearby/notes/strict_nu_particular_ci/run-45893562391-1/actual-strict-nu-particular.json
+            /topics/visible-flex-exact-nearby/notes/whole_selected_signed_sources_ci/run-46136409179-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/whole_selected_signed_sources_ci/run-46136409179-1/root-complete-admission.json
+            /topics/visible-flex-exact-nearby/notes/whole_selected_signed_sources_ci/run-46136409179-1/whole-selected-signed-source.json
+            /topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md
+            /topics/visible-flex-exact-nearby/results/R144-supplement-signed-metric-mean-moments-and-compact-parameter-lift.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-actual-low-coordinate-recovery-on-complete-physical-columns.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-actual-signed-Theta-trial-and-finite-inverse-by-primitive-residual.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-direct-signed-physical-density-inverse-and-coordinate-residual.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-selected-signed-Newton-nu-and-whole-cell-Grassmann-response.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-small-true-Theta-reception-of-the-negative-parameter-defect.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-two-signed-negative-waist-responses-and-common-Gram-remainder.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-whole-signed-selected-both-ordinary-sources.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_asq18_CFC_finite_reconstruction.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_finite_columns_carriers.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_finite_columns_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_finite_columns_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_signed_density_inverse.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_signed_physical_columns.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_signed_physical_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_signed_physical_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_defect_signed_waist_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_defect_signed_waist_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_defect_signed_waist_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_positive_signed_sources.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_strict_raw_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_strict_raw_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_nu_particular_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_grassmann_carriers.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_grassmann_runner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_vector_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_vector_trial_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_selected_signed_source_carrier.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_selected_signed_source_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_selected_signed_source_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/make_direct_signed_physical_columns_manifest.py
+            /topics/visible-flex-exact-nearby/scripts/make_negative_defect_signed_waist_manifest.py
+            /topics/visible-flex-exact-nearby/scripts/make_whole_selected_signed_source_manifest.py
+      - name: Trust the original mounted checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Install the original native restoration and signed source runtime
+        run: >-
+          python -m pip install --disable-pip-version-check --only-binary=:all:
+          numpy==2.3.5 python-flint==0.9.0 scipy==1.17.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Receive the three actual signed physical columns
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_signed_physical_public_worker.py
+          --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-three-direct-signed-physical-columns-inputs.json --manifest-sha 14b776d33235fdd27246c051909fc8ee9b3d426c2fd9e3909f7c3499d19df697
