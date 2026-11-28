@@ -407,3 +407,9 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 根核primitive f挠剩余盘避全零极、统一整界/不变导子换极限、34−2n²−2(17−n²)全曲率取消。实读R298(10)–(13)全部有限ε和理想逆约定，CRT ε(p²)=χ(f)=1；原γ乘子norm非零且绝对值≤19，保两个原复周期。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:55:18 UTC到fa8128e89819526fe36e47b93c74a1a6eae076e0，私库2026-11-28 13:55:14 UTC到550a0770ff7596d8f7d936cdbefb8432fbf580a3；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47567955B/tree91907c9a1ed06769d0e9e9c3fc0c1eeffeaa9860，无>5MB。
+
+## 2026-11-28 13:55:24 UTC：R1067 §70：原全除子Poincaré核的准确native中央平方
+
+根逐极点核同源Poincaré残量和非平凡Pic0唯一性；实读Bannai–Kobayashi Th1.17与R298(9)–(13)、R303(3),(23)，核全h!/A/双周期、f纯虚偶h和θ⁻¹³。整Tate乘子单位，Jp(0)=0故二阶无遗漏导数；未假称超奇异全双盘有界。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:55:34 UTC到69e951efb5a769a58ea3878aa69d327ad2992ea4，私库2026-11-28 13:55:29 UTC到77dd8dd3ed42ce23660086d3b6831127860bd6fd；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47576056B/treecbdf72b2e4de0b3d6d01276056d8f0a920275189，无>5MB。

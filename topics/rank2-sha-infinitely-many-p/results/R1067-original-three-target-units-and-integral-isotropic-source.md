@@ -1413,3 +1413,115 @@ $\varepsilon(t)\chi(w)^2$ 投影，则 $(t,w)\mapsto(-t,-w)$
 下该零阶和为零，因 $\varepsilon(-1)=-1$、$\chi(-1)=1$。
 (AJ3)的非零读数与(AK3)的这项真实空间微分因此不能仅由奇偶性
 相认；(AK3)没有证明原 Hall 中央值或(AH4)的权导数非零。
+
+## 70. 原有理单位全除子的 Poincaré 核与平凡有限角色的准确 native 平方
+
+继续(AK1)的实际驯余类；$M=p^2$ 取原 wild 标记，另容许
+$M=1,\chi=1,Q=O$，这时只求和 $t\in(\mathcal O_K/f)^\times$。
+固定 $\Theta_P(z,y)$ 为 R298(10)的 Kronecker 函数
+$$
+ \Theta_P(z,y)=e^{-\bar P y/A}\,
+       \frac{\sigma(P+z+y)}{\sigma(P+z)\sigma(y)}.
+$$
+对任意非零 $a\in\mathcal O_K$，有真正的除子拉回
+$$
+ a\Theta_{aP}(az,y/\bar a)
+             =\sum_{V\in E_1[a]}\Theta_{P+V}(z,y).                \tag{AL1}
+$$
+$P,V$ 的格代表不影响等式。事实上两边在每个
+$z=-P-V$ 的留数均为 $e^{-\overline{P+V}y/A}$：左边用
+$aV\in\Lambda$ 的带符号准周期，且 $\eta_{aV}/\bar a=\bar V/A$。
+在 $z\mapsto z+\lambda$ 下两边同乘 $e^{\bar\lambda y/A}$。
+固定 $y\notin\Lambda$，差在椭圆曲线上是非平凡度零线丛的
+全纯截面，故为零；再亚纯延拓。这也逐项说明了为何原向量
+变量取 $az$，对偶变量取逆共轭 $y/\bar a$，而不是同时乘 $a$。
+
+对有限 $n$，以(AK1)的原有理函数 $R_n^-$ 的全除子作 Cauchy
+核，即以每个真实零极点的重数加权右边的 $\Theta_{P+V}$。
+$R_n^-$ 为偶函数，故 $V$ 或 $-V$ 给同一重数。定义
+$H_a(P;z,y)=a\Theta_{aP}(az,y/\bar a)$，则(AL1)给此和恰为
+$$
+ \sum_{a\in\mathcal D}H_a(P;z,y)
+       -H_{\delta n}(P;z,y)+H_n(P;z,y)
+       -(17-n^2)\bigl(H_\delta(P;z,y)-H_1(P;z,y)\bigr).
+                                                                    \tag{AL2}
+$$
+这是(AI2)、$G=\sigma(\delta z)/(\delta\sigma(z))$ 的同一
+有理近似。$y^{-1}$ 极系数为完整度数
+$34-2n^2-2(17-n^2)=0$，且 $y^0z^0$ 就是该比值在 $P$ 的真实
+不变对数导数。在 $P=T_t+Q_w$、$n\equiv1\bmod f$ 并
+$n\equiv m\bmod M$ 时，$(\delta n)P,nP$ 都固定，每一项中
+缩放 $n,1/n$ 逐系数连续。Kronecker 挠点 Laurent–Taylor
+系数代数，由 R298(10)的 $X(P),\wp(P),\wp'(P)$ 展开，或由
+Bannai–Kobayashi [Th. 1.17](https://arxiv.org/pdf/math/0610163)。所有实际 $aP$ 在本节都非零。
+因此 $n\to\beta$ 有逐系数特征零极限 $\mathcal K_{t,w}(z,y)$；
+(AK2)是它的常数项。这里只拿逐系数极限，不需要误称两变量
+Kronecker 核在整个超奇异开双盘一致有界。
+
+对 $h=dj$、$d=p+1$、每个 $j\ge0$，定义实际对角
+$$
+ B_{M,h}=\sum_{t,w}\varepsilon(t)\chi(w)^2
+                         [z^h y^h]\mathcal K_{t,w}(z,y).
+$$
+$6\mid h$；$\xi_{p,r}=\widetilde\eta_{p,r}$ 或 $M=1$ 时
+$\xi_{p,0}=1$。原双曲线 CM 配对给完全标记的身份
+$$
+ B_{M,h}=u_{p,r}(j)\,
+ \frac{6}{h! A^h}\frac{\bar\varpi^h}{\varpi^{h+1}}\,
+ \frac{(f M)^{h+1}}{(\bar f M)^h}
+           L(\psi_{17}^{2h+1}\xi_{p,r},h+1),                    \tag{AL3}
+$$
+其中
+$$
+ u_{p,r}(j)=1+\beta+
+   \sum_{a\in\{\gamma_7,\bar\gamma_7\}}
+     \frac{a}{\varepsilon(a)\chi(a)^2}
+                  \big((a/\bar a)^d\big)^j .                     \tag{AL4}
+$$
+事实上 $c_{h,h}(P)=[z^hy^h]\Theta_P(z,y)$，其缩放系数正是
+$a(a/\bar a)^h$。在原 $\varepsilon(t)\chi(w)^2$ 投影中
+$2,\delta,2\delta$ 及参考的 $\delta$ 项和(AK3)逐项同样为零，
+最后 $n$ 项的系数是 $n$，极限为 $\beta$，因为 $n/\bar n=1$。
+其余两项保实际 $a/(\varepsilon(a)\chi(a)^2)$，给(AL4)。
+Bannai–Kobayashi [Th. 1.17](https://arxiv.org/pdf/math/0610163) 的符号在此为 $(-1)^{2h}=1$，
+$$
+ c_{h,h}(P)=(h!A^h)^{-1}\!
+  \sum_{\lambda\in\varpi\mathcal O_K}^{*}
+                  \frac{\overline{P+\lambda}^{h}}{(P+\lambda)^{h+1}}.
+$$
+在绝对收敛区分 $a=Mt+fw\bmod fM$ 再延拓。$\varepsilon^{2h+1}
+=\varepsilon$，$\varepsilon(M)=\chi(f)^2=1$，同(AK3)的理想角色逆
+及共轭给(AL3)。当 $M=1$，CRT 只剩 $a=t\bmod f$。
+
+(AL4)在整个 $p$ 进 $j$ 盘上是整解析单位。每个 $a/\bar a$
+的模 $p$ 范数为一，故 $(a/\bar a)^d\in1+p\mathcal O_{K_p}$。
+其 $j$ 次幂用固定的 $\exp(j\log((a/\bar a)^d))$，属整 Tate
+代数且模极大理想恒一。余下常数的单位性正是(AK3)已核的
+$(1+\operatorname{Tr}(\gamma_7/\varepsilon(\gamma_7)))^2-17$。
+特别没有把 $a^{2h}$ 的 Teich 径向分支隐含在单位中。
+
+在目标的原平凡有限角色 $M=1$，令 $C=34c$，
+$\theta=17^{1/6}$，$\kappa_0=48940416$，置
+$C_*=6f\kappa_0(1-\omega)\theta^{-13}$。此时
+$$
+ \boxed{\;B_{1,h}=C_*u_{p,0}(j)34^{-h}\alpha_h^2,\qquad
+       (j!)^2 34^{dj}C^{-2j} B_{1,dj}
+            =C_*u_{p,0}(j)J_p(j)^2.\;}                          \tag{AL5}
+$$
+确实 $A=(\sqrt3/(2\pi))|\varpi|^2$，目标
+$\varpi_{17}=\varpi/\theta$，因此将原 R298(9)
+$\mathcal E_h^{\rm CM}=\kappa_0(1-\omega)34^{-h}s_h^2$
+代入(AL3)时，全部 $A^h,h!$ 及复周期完全消去，
+留 $6(f^{h+1}/\bar f^h)\theta^{-(2h+1)}$。$f$ 纯虚、$h$ 偶，
+前一幂商为 $f$；R303(3)的 $s_h=\theta^{h-6}\alpha_h$ 正好
+再化为 $\theta^{-13}$。第二式用 R303(23)实际
+$J_p(j)=j!C^{-j}\alpha_{dj}$。因而(AL5)左侧整数点取值有
+唯一的连续插值 $F_p$，且在全盘满足
+$$
+ F_p''(0)=2 C_* u_{p,0}(0)J_p'(0)^2.                             \tag{AL6}
+$$
+$J_p(0)=0$，所以没有遗漏(AL4)的导数项。由 R303(8)，只须在无穷
+多个本射线素数上证这同一全除子的规范对角二阶非零，即得固定
+$E_{17}$ 的通常全 $\Sha[p^\infty]$ 有限。(AL6)实际接到了原
+native 中央。它同(AJ3)的有限非平凡 wild 对数之间仍缺一个能
+强迫该二阶非零的结论。

@@ -53,3 +53,7 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 ### R1067 §69：全原驯标记的空间对数微分与真正Hecke中央值
 
 同一D在全部f=34δ驯剩余盘的真实归一极限给原dlog，准确全和等于单位u·6fp²/varpi·L(ψ17·η,1)。原六因子、全部驯/wild标记、周期及R716 Hall平方同留，尚未付该空间导数非零。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
+
+### R1067 §70：原全除子Poincaré核的准确native中央平方
+
+真实同源分布aΘ(aP;az,y/bar a)给同一全有理除子的Poincaré Cauchy核；原平凡wild对角全归一恰C* u(j)Jp(j)²，C*=6fκ0(1−ω)θ⁻¹³，二阶等于2C*u(0)Jp′²。剩余是该真实二阶非零。 [同编号全文](../results/R1067-original-three-target-units-and-integral-isotropic-source.md)。
