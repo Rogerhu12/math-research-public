@@ -105,3 +105,7 @@ R33对真正旋转固定g及开平帽给全时phase族，δE可0。实际新候�
 ### R654 从已获连续四端正输入求完整 ruling
 
 [R651真实输入](notes/2026-11-28-r651-certified-positive-four-end-actual-terminal.md)已实际闭合四连续偶端、正时长及全部原盒，取代上文“尚未取得”的状态。[R654](results/R654-released-rest-shapes-moving-time-four-end-implicit-chart.md)释放全部256全局形状和旧接点jets；四τ由当前完整Eτ解，所有移动时间/η/A/加速度项不删。实际公开范围仅对C³新collar付差积分，复用源b球；其后保18块正势/两ruling/原绝对门，固定q/τ/八中心/三gauge作2305点fine。原解析plateau不能直接作为非平凡完整反馈根，当前仍需真ruling、ODE/history/period/pose/闭面宏观；R656额外四端搜索暂停未执行。
+
+### R632／R636 原前沿与真实内点约束继续
+
+[新实际范围](notes/2026-11-28-r632-r636-true-extremum-frontier-resume-scope.md)从各自真实1afc37ef/e648e90c继续。R632已有方向及正safe cap，直接乘原.95保护并向下转binary64，只付新trial；R636仅补剩余25速度路径的准确四次/Sturm判定，保已闭h/k/γ和79叶，先完成或严格否定真实90283候选。新方向用全部原J/欧氏正则和实际h/υ内点梯度，保全Dα/DL；旧恢复/fine不重做。两个完整端/ruling目前仍远未达原门，后继不能把小归一merit当作根或宏观候选。

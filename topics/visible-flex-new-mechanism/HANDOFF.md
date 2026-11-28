@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **3de595f9f34a6776d0637cf4d75026f015dbf7a5**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **3ea24240a2d528ab4e71a6c0c5ce7fcd5782a76c**；根16新增条款已读。私库实际pull **2026-11-28 09:38:41 UTC** 至 **2bea2888397db073ec71e3aec8e59e51c4b90d83**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff、立即执行、记SHA。每结论即push，NFF立即pull --rebase重推至成功，不强推。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不加机械审核；根15只存源/参数/run/hash及真正必要续接输入。全部失败、未完和费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -24,7 +24,7 @@
 
 R643 [真实终态](notes/2026-11-28-r643-1566-0d9a-rule-terminal.md)run46128314775/source24c1ee59：3310.24427324秒、2接受至0d9a753f，workη2.21791e−7，完整1566列3J/3QR已付，根16检查退出。第三方向整/半步已拒，四分之一步d1f8的全坐标/预测已保存而联合场未完。[直接后继](notes/2026-11-28-r643-0d9a-coupled-mean-continuation.md)先判该真实trial，拒绝后才必要重建未存J/因子，并按原方向身份跳过已判步；全950work→1728fine/双位置末读、7原误差和费用保持。R648/R650只接当前现成tail/paid receipts。
 
-R648全真内尾R/G/全S与η≤3S+S²已证；R650现补固定E″≤W²P6、固定seed s″≤WP6、trial Rr/Gr/Hr/Ss≤W²P6、真实曲率和内平帽C²/κ→0。消费者只复用同对象及paid receipts，不重ODE/root/J/FFT；完整三jet/pre-tanh/样条/forced/全部Gaussian保留，trial不除小mean。七类原源误差未闭仍条件性。R617范围、τ1非宏观、硬trace/Pμ及旧.85条件预算不扩大。
+R648全真尾R/G/S、η≤3S+S²及R650固定E″/seed s″/全trial三jet、真实曲率/内平帽C²已证；完整pre-tanh/样条/forced/Gaussian均保留，trial不除小mean。只复用现成对象/paid receipts，不重ODE/root/J/FFT；七原源误差仍条件性，R617范围/τ1小核心/硬trace/Pμ/旧.85预算不扩大。
 
 ## C：B030已到f2dda／当前库容量边界
 
@@ -36,9 +36,9 @@ R648全真内尾R/G/全S与η≤3S+S²已证；R650现补固定E″≤W²P6、�
 
 R632/R636的原盒/18块576微包/全正势/全历史保持，ODE/ruling/history1e−7、真十末1e−8不改，stored末零不是真资格；根后period/十三规范/frame/闭pose/C²嵌入/宏观仍欠。
 
-[R632原47续接](notes/2026-11-28-r632-adaptive47-actual-state-continuation-scope.md)run46129701632/source529f3c20已自然结束408.126006383秒，新增9接受至1afc37ef；真实端1.08610/ruling7.12431e13未闭，无inflight。原方向已有正safe fraction6.97345e−13，仅99%紧度未闭。terminal_bvp_ultra保原方向/已闭树，备必要后继。
+[R632真实56接受终态](notes/2026-11-28-r632-adaptive56-frontier-natural-terminal.md)run46129701632/source529f3c20：408.126秒/9新增至1afc37ef，端1.08610/ruling7.12431e13；已有安全cap6.97345e−13，只欠99%紧度，无inflight。[R636真实26接受终态](notes/2026-11-28-r636-center-26-frontier-natural-terminal.md)run46129327712/source43136190：818.326秒至e648e90c，端.161777/ruling1.43337e14；末90283trial的h/k/γ与υ79叶已闭，25路径未闭。
 
-[R636中心锥](notes/2026-11-28-r636-original-center-cone-resume-scope.md)run46129327712/source43136190已自然结束818.325969984秒，新增26接受至e648e90c；端.161777/ruling1.43337e14未闭。末trial h/k/γ已闭，υ尚25前沿，不重已闭79叶；详notes由该代理正在交付。
+[两原前沿直接后继](notes/2026-11-28-r632-r636-true-extremum-frontier-resume-scope.md)R632复用已付方向/安全cap；R636仅剩25路径准确有理Sturm，真实违反或完整trial后原Armijo。随后全J欧氏LM加入实际内点h/υ/全L活动面，不重源恢复/fine/树；原全门/费用不删。
 
 [R641终态](notes/2026-11-28-r641-three-end-natural-terminal.md)17接受c797752d，Ar−.18801974/ruling1.66777e14，同态fine已付，末P括号0叶/104前沿不冒拒绝。[固定物理Ar续接](notes/2026-11-28-r641-fixed-physical-center-resume-scope.md)source389c5029保256列、固定8H*²/L*权重、真中心/全DL锥、原trust.03125；旧root/fine/6恢复/17步不重播，3300秒含180末读出，旧λ留账。
 

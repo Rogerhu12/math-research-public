@@ -241,3 +241,7 @@
 ## R651 连续四端正输入及 R654 释放后的完整原求解
 
 [实际证书](notes/2026-11-28-r651-certified-positive-four-end-actual-terminal.md)run46132556094/source d7878cdb以16个Arb连续积分、准确有理V逆取得四个严格正时长；H=.802、L4.769735604及原全部h/k/η/γ/υ盒严格通过，四个真实偶端同时准确为零。71个候选即得该输入，未跑家族不冒负结论；完整ruling尚欠。[R654证明](results/R654-released-rest-shapes-moving-time-four-end-implicit-chart.md)以保四端C³接边与全局256形状释放旧停留内部/接点jets，完整移动时间/η前缀/当前四控制隐式导数保全部物理项。[新实际范围](notes/2026-11-28-r654-positive-source-full-ruling-actions-scope.md)只积分改变collar的新旧密度差，接原18块全正势/两ruling、全行全列欧氏方向/原绝对门/固定2305点fine。未闭物理盒有局部有向前沿，不虚报域反例或根资格。
+
+## R632／R636真实未闭前沿与原完整系统的内点活动面
+
+[R632终态](notes/2026-11-28-r632-adaptive56-frontier-natural-terminal.md)新增9接受至总56，已有正安全cap6.973448105612177e−13，未闭仅99%最大性；真实端/ruling未达。[R636终态](notes/2026-11-28-r636-center-26-frontier-natural-terminal.md)新增26接受，末trial三个整场和υ79叶已闭、25路径未闭，不能作拒绝。[直接后继](notes/2026-11-28-r632-r636-true-extremum-frontier-resume-scope.md)分别复用原完整方向/安全cap、仅准确有理判剩余路径；随后全部J/欧氏阻尼面保实际内点h、υ含α/L全链、L及原已闭端切向条件。原true delta Armijo、全历史/正势/两ruling/绝对门、同态fine和全部旧费保持。
