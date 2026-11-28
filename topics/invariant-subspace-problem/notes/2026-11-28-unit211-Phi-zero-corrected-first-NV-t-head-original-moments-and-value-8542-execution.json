@@ -1,0 +1,287 @@
+{
+  "schema": "isp-corrected-Phi-first-NV-t-head-actual-frozen-gcd-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "run_id": "46166961445",
+  "job_id": "141046534179",
+  "run_attempt": 1,
+  "source_git_blob": "e362142779557f1aba8f349ac6c39b7135ab9acd",
+  "source_sha256": "05f9b72e900b1176ae1dc765786841fa01da8b6dc474ba407d52c3df7f3b4d89",
+  "source_basename": "2026-11-28-unit211-Phi-zero-corrected-first-NV-t-head-original-moments-and-value-8542.py",
+  "input_git_blob": "124862062f733680ab436653deecfe696518fb2b",
+  "source_commit": "39d21734df0bfa597288ae5e63735ecb814ad451",
+  "rules_reads": [
+    {
+      "after": "d4bcf94bb6f3a793d3daeb5ac1e4a5d51787cc00",
+      "before": "39d21734df0bfa597288ae5e63735ecb814ad451",
+      "rules_git_blobs": {
+        "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+        "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+      },
+      "rules_unchanged": true,
+      "utc": "2026-11-28T16:47:01.286892+00:00"
+    }
+  ],
+  "budget": {
+    "inner_seconds": 120,
+    "hard_address_space_bytes": 1073741824,
+    "outer_seconds": 135,
+    "dependencies": 0
+  },
+  "actual": {
+    "elapsed_seconds": 120.07393622500001,
+    "max_child_rss_kib": 130724,
+    "source_exit_code": -14,
+    "driver_stop_reason": null,
+    "classification": "SIGALRM at original absolute deadline; not a Python implementation exception; not a memory boundary",
+    "stdout_bytes": 8443,
+    "stdout_sha256": "f048907b0dbce9a8945bd0767ff3f5ca18fb7bf277245d6cc0a9d23c957b7398",
+    "math_record_count": 7
+  },
+  "completed_original_chart": {
+    "head": "T+u*sigma",
+    "seconds": 0.13677129900000295,
+    "full_true_Gram_and_E0_N0_P1_returned": true,
+    "complete_NV_original_identity_returned": true,
+    "monic_lambda_quadratic": {
+      "denominator": {
+        "degrees": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+        "terms": 1,
+        "totalDegree": 0
+      },
+      "numerator": {
+        "degrees": [
+          2,
+          1,
+          2,
+          2,
+          0
+        ],
+        "sha256": "e80982e3e104fe1300636d1bc92bef1f25dd959acd6b0615ee5aa996fa520404",
+        "terms": 7,
+        "totalDegree": 4
+      }
+    },
+    "complete_NV_profile": {
+      "denominator": {
+        "degrees": [
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "sha256": "70bc44f3cfe32c7d6a4d4020d0106566fd4efe79905a0c9d7441824f4d3b7c5e",
+        "terms": 5,
+        "totalDegree": 2
+      },
+      "numerator": {
+        "degrees": [
+          6,
+          2,
+          3,
+          3,
+          0
+        ],
+        "sha256": "3f1d658e166c11e52ee824d4cb8a67d687181d416c4cdbc36a87abf6cf941284",
+        "terms": 90,
+        "totalDegree": 9
+      }
+    }
+  },
+  "completed_lambda_remainders": [
+    {
+      "label": "third_moment",
+      "seconds": 0.1386919199999994,
+      "remainder_numerator_sha256": [
+        "908b49b16f8bd91cce6d78201c015b86c724cc9ed6fe73f84a2f6dd58ff34329",
+        "e5146720da78d00fa688f2980d59e8213717cc28ac742643a55e426b1b13cb07"
+      ],
+      "remainder_sigma_degrees": [
+        3,
+        2
+      ],
+      "original_quadratic_multiplier_numerator_sha256": "d239addfaa84f915eca12c2392ea2fad1148d406f129d7df9090b8d6a655ae26",
+      "complete_original_identity_returned": true
+    },
+    {
+      "label": "complete_NV",
+      "seconds": 0.14215016800000058,
+      "remainder_numerator_sha256": [
+        "1c9b9fd726832c5d14ffb87a7086c646780b0ddde3b6a233c449dc6d59ee791d",
+        "b12b904261ffdbaafd9c3077702f2cb7311a00defcff7d51147a3e2f314995f4"
+      ],
+      "remainder_sigma_degrees": [
+        3,
+        2
+      ],
+      "original_quadratic_multiplier_numerator_sha256": "89621968ca014c2725925c1d7fd0897663f28cdbb5c029c933af1d304f7a62a1",
+      "complete_original_identity_returned": true
+    }
+  ],
+  "completed_original_scalars": [
+    {
+      "label": "norm_third_moment",
+      "seconds": 0.14522393000000022,
+      "scalar": {
+        "denominator": {
+          "degrees": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sha256": "7d71a286db4009112d220b6e5a089a15dce5e0fb05b4b4f4ad28f10f9ab9eb83",
+          "terms": 1,
+          "totalDegree": 0
+        },
+        "numerator": {
+          "degrees": [
+            6,
+            3,
+            0,
+            6,
+            0
+          ],
+          "sha256": "3c3631c246fc7c5d23e2f974328843eee4999d2ce218e5d4d27c2d3d879ac9c5",
+          "terms": 35,
+          "totalDegree": 12
+        }
+      },
+      "complete_three_original_equation_identity_returned": true,
+      "no_lambda_coefficient_divided": true
+    },
+    {
+      "label": "cross_same_lambda",
+      "seconds": 0.1487837479999996,
+      "scalar": {
+        "denominator": {
+          "degrees": [
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "sha256": "70bc44f3cfe32c7d6a4d4020d0106566fd4efe79905a0c9d7441824f4d3b7c5e",
+          "terms": 5,
+          "totalDegree": 2
+        },
+        "numerator": {
+          "degrees": [
+            8,
+            4,
+            0,
+            5,
+            0
+          ],
+          "sha256": "f887de52d6d48460ed55a8d051e9748cd574b528ce0f153df8162271ec26e7cd",
+          "terms": 108,
+          "totalDegree": 13
+        }
+      },
+      "complete_three_original_equation_identity_returned": true,
+      "no_lambda_coefficient_divided": true
+    },
+    {
+      "label": "norm_complete_NV",
+      "seconds": 0.15713595100000077,
+      "scalar": {
+        "denominator": {
+          "degrees": [
+            4,
+            2,
+            0,
+            0,
+            0
+          ],
+          "sha256": "d3063ced7c6aacab857ab1258a5bb079254ffc667cc8a584dc453dcaf7a72812",
+          "terms": 12,
+          "totalDegree": 4
+        },
+        "numerator": {
+          "degrees": [
+            12,
+            7,
+            0,
+            6,
+            0
+          ],
+          "sha256": "d1fb445a99a7256f80721e86552c3e2dff62f47c25acf8d7ea08692c5de8146d",
+          "terms": 283,
+          "totalDegree": 18
+        }
+      },
+      "complete_three_original_equation_identity_returned": true,
+      "no_lambda_coefficient_divided": true
+    }
+  ],
+  "last_checkpoint": {
+    "stage": "new_first_NV_head_same_sigma_gcd_step",
+    "seconds": 0.16276528800000278,
+    "index": 0,
+    "used": [
+      0
+    ],
+    "degree": 6,
+    "profile": {
+      "denominator": {
+        "degrees": [
+          6,
+          3,
+          0,
+          0,
+          0
+        ],
+        "sha256": "1c12d0a178b43a6a6bd5c8271421d71a9ffa80dffc900b8ed53f87d79dba6e32",
+        "terms": 16,
+        "totalDegree": 6
+      },
+      "numerator": {
+        "degrees": [
+          6,
+          3,
+          0,
+          6,
+          0
+        ],
+        "sha256": "b318644387d7220f2e2ff38a099bc88599ad30f73d01b1dd33ca778da82d1325",
+        "terms": 35,
+        "totalDegree": 12
+      }
+    },
+    "meaning": "Only first seed normalized to monic degree six; no combined gcd returned"
+  },
+  "not_returned": [
+    "first pair combined gcd",
+    "final three-scalar Bezout",
+    "merged terminal E2/E3/fullNV original identity",
+    "terminal denominator LCM",
+    "pure-weight cover",
+    "factorization",
+    "whole first head exclusion",
+    "new point bound"
+  ],
+  "frozen": {
+    "target": "The fixed three-scalar QQ(u,Q)[sigma] gcd and terminal-cover computation",
+    "no_extra_time": true,
+    "no_reorder": true,
+    "no_resume": true,
+    "no_same_target_algorithm_replay": true
+  },
+  "remaining": {
+    "whole_first_head_retained": true,
+    "whole_second_NV_t_head_retained": true,
+    "all_original_conditions_and_unknown_weight_fibers_retained": true,
+    "whole_Phi_excluded": false,
+    "ordinary_ISP_claim": false
+  },
+  "no_coefficient_payload_or_chunks_saved": true
+}

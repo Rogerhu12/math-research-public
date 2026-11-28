@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** 4c463f17269541b02dbe9a82c6611b601ea87653（2026-11-28 16:52:05 UTC，Actions run46167397033实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46167397033-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 16:52:04 UTC/04e3f165b5b7864c1ffdfe00d973d6ef0b9a7a5f，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 16:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。17:07再探，旧故障保归档。
-- **终端断开后远端已读：** 4c463f17269541b02dbe9a82c6611b601ea87653（2026-11-28 16:51:38 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** bc8f1107a01c1efbcd961fcd9c34426b364d45ce（2026-11-28 16:55:59 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-W-positive-k-ray-complete-2060-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-Phi-first-head-gcd-boundary-2065-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -39,7 +39,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，整Δ0/ellhalf闭。** 权像维数≤1/8184保。新[完整NV–Loww91及Δ余图恢复](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)abd714唯一8.428479614秒/0，P(72,19,9)/总91原两源返；AΔ[t]/(NV,L)=AΔ/(P)，t唯一、明列单权纤维≤2且约化，U0另计。权共同分量/原空性开。
-- **Phi错链冻，旧真闭支保。** 全权10/每权9、QQ公共总45/u5与同σ16/C10保。新e362第一NV t头全Gram小NV、λ首一2及三个原σ式6/5/6已返；实际120.073936225秒/−14冻，仅σ6种子，无合并gcd/三原cover。旧两Q内存仍冻；转第二完整NV t头新原输入。
+- **Phi错链冻，旧真闭支保。** 全权10/每权9、QQ公共总45/u5及同σ16/C10保。新[第一NV t头原小三次/三标量](results/R150-appendix-unit211-Phi-zero-corrected-first-NV-t-head-original-cubics-scalars-and-frozen-gcd-boundary.md)e362真120.073936225秒/−14冻；原σ式6/5/6已全返，仅σ6种子，无合并gcd/三原cover。旧两Q内存冻；第二头已付纸面首一σ2，续新原值/均值。
 
 ### rankH3原ess6
 
