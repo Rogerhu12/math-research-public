@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **e4b3cff02923036a835051668ecbbe7257de0e98**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **d6eaf2b581df3774a7253f36380669720773d33b**；根16新增条款已读。私库实际pull **2026-11-28 11:15:19 UTC** 至 **7a2e7034acf6bc41c2d7ad2815a6f87c5e51c773**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -32,7 +32,7 @@ R648/R650/R649/R653只消费同场全尾三jet、离解形算子和真实C²接�
 
 [R641实际96](notes/2026-11-28-r641-real96-fixed-weight-physical-continuation.md)run46136366510新1976.651665898秒/48接受405263e8，Ar−.1460593817/ruling1.2983707611e14；同物理细读已付仍未根。后继source31f57b0f保原w=1.291923405522812165913821、trust2/λ1e−14、真L/α/八中心/三规范全算子，变q才付新fine；新96步预算6000秒。
 
-[R654实际23](notes/2026-11-28-r654-actual23-terminal-and-aligned-continuation.md)2698.167121223秒/f7c8，114方向/37完整trial/73域拒/493未闭，粗十端1.106e−13/细9.685e−7、ρ差.00357454不授根。R651正四端原盒连续已闭。[R674](results/R674-material-seam-prefixes-and-actual23-four-end-continuation.md)source df9f08de只续唯一真8198叶前沿，按材料片对齐Gauss，移动四τ全导数传至六ρ；保原1153/2305读数，新离散先收真四端。每一预算/clock未闭参数树/η前缀当场和FINAL完整保留。R656暂停无科学。
+[R654实际23](notes/2026-11-28-r654-actual23-terminal-and-aligned-continuation.md)2698.167121223秒/f7c8，114方向/37完整trial/73域拒/493未闭，粗十端1.106e−13/细9.685e−7、ρ差.00357454不授根。R651正四端原盒连续已闭。[R674](results/R674-material-seam-prefixes-and-actual23-four-end-continuation.md)按材料片对齐Gauss、移动四τ全导数传六ρ，保原1153/2305读数，新离散先收真四端。[启动修复](notes/2026-11-28-r674-paid-three-suffix-leaves-and-exact-diagnostics.md)：run46140781970先真补3叶至8201，后FINAL长双精度序列化失败，原控制异常不可恢复。续接双完成日志，直接复用3叶且不提升候选；输出副本转精确十进制，科学数组不改，初E/Eτ及原异常独立先发。全部树/η前缀/493旧账保留。R656暂停无科学。
 
 ## E：真实宏观b7e0的R631
 
