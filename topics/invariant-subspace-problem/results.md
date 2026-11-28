@@ -22,6 +22,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi原N1最高极化单位与完整I6全权十三生成](results/R150-appendix-unit211-Phi-zero-corrected-original-N1-highest-unit-and-whole-I6-thirteen-generators.md)：完整六项极化在已控幂零商中为零，原N1校正−4s⁴/P02为单位；不加R6即排全部最高方向。(2,2,3)与固定21行degree5满射给原I6的13个指定单项式全权生成，物理局部化与原权曲线仍保范围。
+
 - [R12：首位符号、实际平方分式零因子与单前向列直接超不变桥](results/R12-appendix-first-bit-gauge-zero-divisors-and-single-forward-column-hyperinvariants.md)：V²=CP²给两个非零有界零因子；原连续J对称形式使An²→C与一条首位本征强列直接返回同尾超不变空间，实际PtΩ源经有界单位准确归约，含m0=0。全尾乘积余项有范数bN/4界；实际列紧性仍开。
 
 - [R150：正确h=k整ellhalf的五原Q目标与完整六次u支持](results/R150-appendix-unit211-hk-ell-half-original-five-Q-cofactors-and-entire-sextic-u-cover.md)：首次6.111232795秒/0，真dual八行和五固定Sylvester全回，整K2[u]g12最终回八原式；正QQ范数是不可约六次四重。仅必要u覆盖，所有Q纤维与重数保，不宣整ellhalf排空。
