@@ -31,3 +31,7 @@
 ## 2026-11-28 10:55:54 UTC — RET100D：四早期闭合队列归档完整可再生退库
 
 四旧02/03b completed-archive副本与独立历史原队列完整相同或仅JSON词法空白不同；保全部初次/末次whole身份与完整原字恢复，净300918B。仅退生成archive副本，所有原queue/request/参数/源码/人工记录未改，原失败和未知不丢。 双README云核至`5b0ab004f24f62b74d37587de6dbb2259a72419e`无变（非pull）。
+
+## 2026-11-28 10:56:05 UTC — 35完整R732/R729科学及纯读参数
+
+完整6件258964B参数包：binding/science-ready/pure-ready/整再生器/说明/manifest；原632/625全部字段与64live保，新增真实圆肩积分/根/selected snapshot与正常build诊断成713/719。两input/139roles/24runtime、全变量/allphase、原预算及两个unused legacy shape词的明确报告保；没有执行或成功声明。待完整launch刊后实际新run。 双README云核至`b2bc940deea69bbe4d3998f4588953f7c8068ee2`无变（非pull）。

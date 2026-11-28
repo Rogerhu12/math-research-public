@@ -1,0 +1,520 @@
+{
+  "schema": "complete-R732-R729-run35-parameter-delivery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "status": "independent complete prepared source and parameters; actual scientific work unknown",
+  "prepared_utc": "2026-11-28 10:37:37 UTC",
+  "intended_runner": 35,
+  "request_id": "visible-larger-resume-20261128-35",
+  "namespace": "fixed-fejer-r732-R729-first",
+  "files": [
+    {
+      "role": "binding",
+      "name": "fixed-fejer-r732-R729-complete-parameter-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-complete-parameter-binding.json",
+      "bytes": 55504,
+      "sha256": "18818dc9d8ca565c8b06921210b3c237465174255f55aaa27bc91a8968540959",
+      "git_blob_sha": "90863cf813f8e83e54a812302269fe30623b4402"
+    },
+    {
+      "role": "science",
+      "name": "fixed-fejer-r732-R729-science-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-science-complete-ready.json",
+      "bytes": 87692,
+      "sha256": "ebc8d4a0ed161a43ef3a50628b55600e67dec0855aacfc118d9b5fb20335695d",
+      "git_blob_sha": "a8c5b8abdf2a6de3da4738403bad883060a024c0"
+    },
+    {
+      "role": "pure",
+      "name": "fixed-fejer-r732-R729-pure-complete-ready.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-pure-complete-ready.json",
+      "bytes": 77632,
+      "sha256": "e7c82c216e2da8c84327b6b23df302ccf26fd1ccbe775d76b8abac317d1318e0",
+      "git_blob_sha": "0438f0d75e83445aad50b83ffdd878b0bd22659f"
+    },
+    {
+      "role": "pgen",
+      "name": "reproduce_r732_R729_run35_parameters.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r732_R729_run35_parameters.mjs",
+      "bytes": 13829,
+      "sha256": "cf7332753aace071fdd7b97976d9be6bca4ea414630cd7ce74a371055a859ef5",
+      "git_blob_sha": "36a116016d175a97d678ed2b82afd18cc1d98769"
+    },
+    {
+      "role": "pnote",
+      "name": "2026-11-28-R732-R729-run35-complete-parameters.md",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-R732-R729-run35-complete-parameters.md",
+      "bytes": 2884,
+      "sha256": "59f4ad2ccc653686bf2c813e5bb61930ff6718c375feac49637bc84a8dccdbb3",
+      "git_blob_sha": "74ddf659aa91069ed8c522855b683147e1f74cee"
+    }
+  ],
+  "file_count_including_this_manifest": 6,
+  "complete_source": {
+    "role": "complete_scientific_source_delivery",
+    "name": "fixed-fejer-r732-R729-complete-source-delivery.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-complete-source-delivery.json",
+    "bytes": 36718,
+    "sha256": "7ac0fac5bed253862db708c87892c9908a87ba31a6ceab01460e7a1ce5da3902",
+    "git_blob_sha": "069f2d0267355893ac69334d8e845a19c59a0358"
+  },
+  "source_publication": null,
+  "complete_inputs": {
+    "old_manifest": {
+      "role": "parent_parameters",
+      "name": "fixed-fejer-r730-R729-complete-parameter-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-delivery.json",
+      "bytes": 10643,
+      "sha256": "ac63c2fb4ef9fba1867dedd8cc3d42ed0e7ac2ca0856b1164b774bed9e43f528",
+      "git_blob_sha": "6d1bf823988ffd202639ea678062252bb8492449"
+    },
+    "old_binding": {
+      "role": "binding",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-binding.json",
+      "bytes": 36310,
+      "sha256": "b53af2212ab7e574afc7d65f6607594a64c6f32ce6ecbffe2901730cda9b8a91",
+      "git_blob_sha": "2bc4198d68ee3f605f9f4bedbafefd8e67d8d510"
+    },
+    "old_science": {
+      "role": "science",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-science-complete-ready.json",
+      "bytes": 80179,
+      "sha256": "e59560d83da7c287458ac24814b25fa22f3465f1df42c4729d9b283f80c124ca",
+      "git_blob_sha": "3521520ffc6ca45a52d21f56b83bd74df423969d"
+    },
+    "old_pure": {
+      "role": "pure",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-pure-complete-ready.json",
+      "bytes": 69444,
+      "sha256": "9cfe04f62d8eb60d808c2ab0c7733f9a2d803a831c6c64de0378c4090dbe139f",
+      "git_blob_sha": "39a7df0497e21c90cf93dfe919d280d4e0572446"
+    },
+    "new_source": {
+      "role": "complete_scientific_source_delivery",
+      "name": "fixed-fejer-r732-R729-complete-source-delivery.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-complete-source-delivery.json",
+      "bytes": 36718,
+      "sha256": "7ac0fac5bed253862db708c87892c9908a87ba31a6ceab01460e7a1ce5da3902",
+      "git_blob_sha": "069f2d0267355893ac69334d8e845a19c59a0358"
+    },
+    "new_registry": {
+      "role": "complete_runtime_and_source_binding",
+      "name": "fixed-fejer-r732-R729-current-runtime-binding.json",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-current-runtime-binding.json",
+      "bytes": 66334,
+      "sha256": "425a1c0f484de848fdc66396623bc8e434b92bcfaf07216b49149a7324e7a195",
+      "git_blob_sha": "ba50a6fa07a086964c2c99c9fb2580c702427915"
+    }
+  },
+  "whole_parameter_binding": {
+    "role": "binding",
+    "name": "fixed-fejer-r732-R729-complete-parameter-binding.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-complete-parameter-binding.json",
+    "bytes": 55504,
+    "sha256": "18818dc9d8ca565c8b06921210b3c237465174255f55aaa27bc91a8968540959",
+    "git_blob_sha": "90863cf813f8e83e54a812302269fe30623b4402"
+  },
+  "complete_science": {
+    "role": "science",
+    "name": "fixed-fejer-r732-R729-science-complete-ready.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-science-complete-ready.json",
+    "bytes": 87692,
+    "sha256": "ebc8d4a0ed161a43ef3a50628b55600e67dec0855aacfc118d9b5fb20335695d",
+    "git_blob_sha": "a8c5b8abdf2a6de3da4738403bad883060a024c0"
+  },
+  "complete_pure": {
+    "role": "pure",
+    "name": "fixed-fejer-r732-R729-pure-complete-ready.json",
+    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-pure-complete-ready.json",
+    "bytes": 77632,
+    "sha256": "e7c82c216e2da8c84327b6b23df302ccf26fd1ccbe775d76b8abac317d1318e0",
+    "git_blob_sha": "0438f0d75e83445aad50b83ffdd878b0bd22659f"
+  },
+  "current_roles": 139,
+  "current_runtime_files": 24,
+  "role_comparison": {
+    "parent_count": 139,
+    "unchanged_exact_pairs": 120,
+    "replaced_pairs": 19,
+    "added_pairs": 0,
+    "changed_original_scientific_role_pairs": [
+      {
+        "role": "seed_length_kernel",
+        "parent": [
+          "scripts/resume_20261126/fixed_fejer_R730_safe_cone_length_kernel.py",
+          "87be2efa7381f50bd419c0d91a3b0c5b1a762f9f1eb7d1f2f7a053f8bc93cfc2"
+        ],
+        "current": [
+          "scripts/resume_20261126/fixed_fejer_R732_rounded_end_length_kernel.py",
+          "032b6c68570c75a849daa2a5a335a9546cf31e1c3c0ad8a7ee4eb0dee3cb0420"
+        ]
+      },
+      {
+        "role": "root_packets",
+        "parent": [
+          "scripts/resume_20261126/r730_root_packets.py",
+          "b22da89436235bf80081957bd26aae890565e20eb7d2d1cbb8caaaccf50f5599"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_root_packets.py",
+          "1180d09db83368f0f0948a57c5ebb32544865108867ccb82dccffa310a2b1141"
+        ]
+      },
+      {
+        "role": "analytic_J3",
+        "parent": [
+          "scripts/resume_20261126/r730_analytic_stage.py",
+          "6e0493ca4a00e66bd9b290af0dc6d913f0f9e13261a206993fb596a2a02087a0"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_analytic_stage.py",
+          "34bff2031d9dee1a4574725abc8d51c1fecaa1d5ba9c27ae2ca13bf1cf6fa7cf"
+        ]
+      },
+      {
+        "role": "analytic_J3_binding",
+        "parent": [
+          "scripts/resume_20261126/r730_source_binding.py",
+          "71e0027952cdc4e00a46d3710a0c01003c798edcf4bdf7382a03b8eccabd7917"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_source_binding.py",
+          "875a04f68a14e8a74be4e11cb507a2376436d2bc20a5c406b6e69735fb5910c7"
+        ]
+      },
+      {
+        "role": "seed_reference",
+        "parent": [
+          "scripts/resume_20261126/fixed_fejer_R730_safe_cone_arclength_reference.py",
+          "53ebce095394a833d95a65b834ae889b4cb9554e06ef839fcb626bddcb8864b8"
+        ],
+        "current": [
+          "scripts/resume_20261126/fixed_fejer_R732_rounded_end_arclength_reference.py",
+          "831447a2d50b54029abcf6cd6d441bca7239771b1fd405463db55e1da7646116"
+        ]
+      },
+      {
+        "role": "meridian",
+        "parent": [
+          "scripts/resume_20261126/fixed_fejer_r730_meridian_operator.py",
+          "b9c787340021b5736f2796f2b84a1c25cb4b0ce96333eb98f543b1e8923ce267"
+        ],
+        "current": [
+          "scripts/resume_20261126/fixed_fejer_r732_meridian_operator.py",
+          "dbaf58889c3a1ece8489f11eda4e4106c907ff69b43a32b57ebda8f5cdf20222"
+        ]
+      },
+      {
+        "role": "geometry",
+        "parent": [
+          "scripts/resume_20261126/r730_geometry.py",
+          "72bb5fb77656a22ee855ba7a8c03ca9c30e2bbed9e918d570a63012d080e644f"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_geometry.py",
+          "137810ba4f4fa7b4d20c0e6f2637abfa742520ba0dab0d1567b4997ff576caf7"
+        ]
+      },
+      {
+        "role": "geometry_selector",
+        "parent": [
+          "scripts/resume_20261120/fullclosed_point_inequalities_v2_r730_curvature_cache.py",
+          "57dad737fba1937c7e269a05f07ec5ed1af32cf49dd864b6e3163187bac1fe07"
+        ],
+        "current": [
+          "scripts/resume_20261120/fullclosed_point_inequalities_v2_r732_curvature_cache.py",
+          "0df39875f7709e9cff661a760ce7fcc3307c974bad43e0a8f9a0aa50379c6432"
+        ]
+      },
+      {
+        "role": "endpoint",
+        "parent": [
+          "scripts/resume_20261126/r730_normal_lift.py",
+          "94c4cc8a871bf1db493ee1cc50908ca48d78cac78fc8e7bc8c29a1decea0a6d3"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_normal_lift.py",
+          "fe5d60e9d04a886a4f11228a7aa63e52e8756272b39e4dc964d1decefc42d823"
+        ]
+      },
+      {
+        "role": "new_moment_input",
+        "parent": [
+          "scripts/resume_20261126/fixed_fejer_r730_literal_zero_moment_input.py",
+          "4e72d300388372ae9fa43ba1795be9ad3ed17805a45fd0c407c4f16ed4aa4d1b"
+        ],
+        "current": [
+          "scripts/resume_20261126/fixed_fejer_r732_literal_zero_moment_input.py",
+          "146afb7d6cb97a90f95b5232d5779dc4adda9c5b7147990171d9853aff26db07"
+        ]
+      },
+      {
+        "role": "reference_calibration",
+        "parent": [
+          "scripts/resume_20261126/fixed_fejer_r730_reference_calibration.py",
+          "7650bbd18c856d70164a8b76eab22d63231d401cff91bf63f8b0bd5019b010fd"
+        ],
+        "current": [
+          "scripts/resume_20261126/fixed_fejer_r732_reference_calibration.py",
+          "9a9ba9546a360e8f5188436b45ec529d9d985d0d723ff4f8195186a9cbe5c2b0"
+        ]
+      },
+      {
+        "role": "frame_C1",
+        "parent": [
+          "scripts/resume_20261126/r730_frame_c1.py",
+          "31eae4076a9ca40cecceb0e70afde1a252466404dcaf980a22626693346e66c4"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_frame_c1.py",
+          "fa40e2b58e9a24aa704faf89c1a98600b76801cfcf01532632b290decc9e1af5"
+        ]
+      },
+      {
+        "role": "stage_matrices",
+        "parent": [
+          "scripts/resume_20261126/r730_stage_matrices.py",
+          "b261d870c5087e3caee915d5391ec453bcab2705a566d17a2e8b2f92d3b47c83"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_stage_matrices.py",
+          "6b421d71542d81728e6a4d3216420c71f2e26ecdc06206980c9fa64adf761d3a"
+        ]
+      },
+      {
+        "role": "envelope_transfer",
+        "parent": [
+          "scripts/resume_20261126/r730_memory_transfer.py",
+          "21139492579e269566959e655bbbbf1d1c99beeefd107e9ec9837bd71f0b6dab"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_memory_transfer.py",
+          "5d00ab4c948657aebdebe238480fec1091a6f92373f06843e466ee6567622bf8"
+        ]
+      },
+      {
+        "role": "adjacent_matrices",
+        "parent": [
+          "scripts/resume_20261126/r730_adjacent_matrices.py",
+          "cc9fc378213ba09b003b96e6fb89ae772a3995c06c39aa88cb2e366d99d219d6"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_adjacent_matrices.py",
+          "23929c93ad190470ba4758fed5fc1b1d7dd43ea9c6de4a6c5f70b12a8f4f93fc"
+        ]
+      },
+      {
+        "role": "analytic_frame",
+        "parent": [
+          "scripts/resume_20261126/r730_analytic_frame.py",
+          "77bdef1ebc934754b02653324e310867a3bc2d57af9583e65442d031f53632a3"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_analytic_frame.py",
+          "c9eef7bafbc3024b4601d2a04bf635dfeedc14ed3e8ebcddadef7f5216c83668"
+        ]
+      },
+      {
+        "role": "closure_values",
+        "parent": [
+          "scripts/resume_20261126/r730_closure_values.py",
+          "d43d9c34c95d9d49fdb231253d9a9c596de2fa4d46b11792dbd4f646ea86a9f7"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_closure_values.py",
+          "2e7476e9b05c8282359c48509c6c69d7b08b503241afd742be9e42d335485e26"
+        ]
+      },
+      {
+        "role": "detached_meridian_values",
+        "parent": [
+          "scripts/resume_20261126/r730_meridian_values.py",
+          "382e53321377ab962bc27864b1c6610016b196aa6492f7425875b4c8bbaea7e4"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_meridian_values.py",
+          "1b4e188d1abd2ce3838ab8ab87855c8a6ecd41ead11b0620b2428a01c154bfcb"
+        ]
+      },
+      {
+        "role": "batched_geometry_binding",
+        "parent": [
+          "scripts/resume_20261126/r730_geometry_binding.py",
+          "6a6b0bca3eba3488c23b58e39cd2517a3f5afe65349b0c3e617611b32e9269ad"
+        ],
+        "current": [
+          "scripts/resume_20261126/r732_geometry_binding.py",
+          "9971997dee5f92f59949d8f17c9ab653ae1cabb59bf5da240aaea0dc53afde1b"
+        ]
+      }
+    ],
+    "new_roles": {},
+    "all_parent_pairs_preserved_as_immutable_history": true,
+    "old_seed_mean_role": "The complete original 2513 source pair remains in the registry and frozen provenance; the current driver does not import it or call its old mean equations."
+  },
+  "counts": {
+    "science": {
+      "inner_argv": 157,
+      "wrapper_argv": 162,
+      "parent_formal": 632,
+      "new_R732_formal": 55,
+      "new_build_formal": 26,
+      "all_formal": 713,
+      "live": 64
+    },
+    "pure": {
+      "inner_argv": 7,
+      "wrapper_argv": 12,
+      "parent_formal": 625,
+      "new_R732_formal": 68,
+      "new_build_formal": 26,
+      "all_formal": 719,
+      "live": 0
+    }
+  },
+  "original_64_live_maps_preserved": true,
+  "full_legacy_shape_semantics": "Original unused 1/2 and 1/32 shape CLI values are preserved; R732 physical handle is 1/512. Seven active numerical parameters feed the true physical length/inverse/terminal quadrature.",
+  "whole_original_budgets": {
+    "current_M": 160,
+    "current_J": 923,
+    "current_N": 2048,
+    "normal_stages": 32,
+    "normal_angle_block": 8,
+    "stage_block": 64,
+    "integration_order": 8,
+    "metric_directions": 1,
+    "metric_maxiter": 16,
+    "restoration_directions": 4,
+    "restoration_maxiter": 64,
+    "line_trials": 15,
+    "active_rows": 192,
+    "envelope_near_active_rows": 32,
+    "metric_damping": ".01",
+    "restoration_damping": ".01",
+    "seed_boundary_total_length": "1/2",
+    "seed_profile_delta": "1/32",
+    "all_remaining_numeric_words_tolerances_domains_variables_in_the_complete_step": true,
+    "no_smaller_problem_no_reduced_domain_no_reduced_budget": true
+  },
+  "full_original_peer_histories": {
+    "full": {
+      "role": "binding",
+      "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-binding.json",
+      "bytes": 36310,
+      "sha256": "b53af2212ab7e574afc7d65f6607594a64c6f32ce6ecbffe2901730cda9b8a91",
+      "git_blob_sha": "2bc4198d68ee3f605f9f4bedbafefd8e67d8d510"
+    },
+    "external_pairs": 18,
+    "original_pending_cli_pairs": 5,
+    "unreturned_scientific_history_not_reconstructed": true
+  },
+  "reproduction": {
+    "script": {
+      "role": "pgen",
+      "name": "reproduce_r732_R729_run35_parameters.mjs",
+      "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/reproduce_r732_R729_run35_parameters.mjs",
+      "bytes": 13829,
+      "sha256": "cf7332753aace071fdd7b97976d9be6bca4ea414630cd7ce74a371055a859ef5",
+      "git_blob_sha": "36a116016d175a97d678ed2b82afd18cc1d98769"
+    },
+    "all_three_complete_output_identities": [
+      {
+        "role": "binding",
+        "name": "fixed-fejer-r732-R729-complete-parameter-binding.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-complete-parameter-binding.json",
+        "bytes": 55504,
+        "sha256": "18818dc9d8ca565c8b06921210b3c237465174255f55aaa27bc91a8968540959",
+        "git_blob_sha": "90863cf813f8e83e54a812302269fe30623b4402"
+      },
+      {
+        "role": "science",
+        "name": "fixed-fejer-r732-R729-science-complete-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-science-complete-ready.json",
+        "bytes": 87692,
+        "sha256": "ebc8d4a0ed161a43ef3a50628b55600e67dec0855aacfc118d9b5fb20335695d",
+        "git_blob_sha": "a8c5b8abdf2a6de3da4738403bad883060a024c0"
+      },
+      {
+        "role": "pure",
+        "name": "fixed-fejer-r732-R729-pure-complete-ready.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-pure-complete-ready.json",
+        "bytes": 77632,
+        "sha256": "e7c82c216e2da8c84327b6b23df302ccf26fd1ccbe775d76b8abac317d1318e0",
+        "git_blob_sha": "0438f0d75e83445aad50b83ffdd878b0bd22659f"
+      }
+    ],
+    "all_whole_source_parents": {
+      "old_manifest": {
+        "role": "parent_parameters",
+        "name": "fixed-fejer-r730-R729-complete-parameter-delivery.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-delivery.json",
+        "bytes": 10643,
+        "sha256": "ac63c2fb4ef9fba1867dedd8cc3d42ed0e7ac2ca0856b1164b774bed9e43f528",
+        "git_blob_sha": "6d1bf823988ffd202639ea678062252bb8492449"
+      },
+      "old_binding": {
+        "role": "binding",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-complete-parameter-binding.json",
+        "bytes": 36310,
+        "sha256": "b53af2212ab7e574afc7d65f6607594a64c6f32ce6ecbffe2901730cda9b8a91",
+        "git_blob_sha": "2bc4198d68ee3f605f9f4bedbafefd8e67d8d510"
+      },
+      "old_science": {
+        "role": "science",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-science-complete-ready.json",
+        "bytes": 80179,
+        "sha256": "e59560d83da7c287458ac24814b25fa22f3465f1df42c4729d9b283f80c124ca",
+        "git_blob_sha": "3521520ffc6ca45a52d21f56b83bd74df423969d"
+      },
+      "old_pure": {
+        "role": "pure",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r730-R729-pure-complete-ready.json",
+        "bytes": 69444,
+        "sha256": "9cfe04f62d8eb60d808c2ab0c7733f9a2d803a831c6c64de0378c4090dbe139f",
+        "git_blob_sha": "39a7df0497e21c90cf93dfe919d280d4e0572446"
+      },
+      "new_source": {
+        "role": "complete_scientific_source_delivery",
+        "name": "fixed-fejer-r732-R729-complete-source-delivery.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-complete-source-delivery.json",
+        "bytes": 36718,
+        "sha256": "7ac0fac5bed253862db708c87892c9908a87ba31a6ceab01460e7a1ce5da3902",
+        "git_blob_sha": "069f2d0267355893ac69334d8e845a19c59a0358"
+      },
+      "new_registry": {
+        "role": "complete_runtime_and_source_binding",
+        "name": "fixed-fejer-r732-R729-current-runtime-binding.json",
+        "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-r732-R729-current-runtime-binding.json",
+        "bytes": 66334,
+        "sha256": "425a1c0f484de848fdc66396623bc8e434b92bcfaf07216b49149a7324e7a195",
+        "git_blob_sha": "ba50a6fa07a086964c2c99c9fb2580c702427915"
+      }
+    },
+    "execution": "node reproduce_r732_R729_run35_parameters.mjs REPOSITORY OUTPUT_REPOSITORY",
+    "no_scientific_calls": true
+  },
+  "raw_outputs_in_repository": false,
+  "scientific_execution": false,
+  "actual_future": {
+    "run_id": null,
+    "attempt": null,
+    "source_commit": null,
+    "model_identity_sha256": null,
+    "current_full_point_sha256": null,
+    "preparation_report": null,
+    "science_report": null,
+    "pure_readout": null,
+    "length_root_batch": null,
+    "normal_packet": null,
+    "normal_fee_report": null,
+    "geometry_report": null,
+    "closed_report": null,
+    "R716_report": null,
+    "mesh_report": null,
+    "build_receipt_sha256": null,
+    "accepted_field": null,
+    "certificate": null,
+    "terminal_integral": null,
+    "selected_snapshot": null
+  }
+}
