@@ -4,8 +4,8 @@
 
 ## 规则与完成线
 
-- 最近实际pull后双README已读锚 `e0c3db277b967fc6294f3619aa6bdbcf7219b363`（2026-11-28 16:40 UTC）。
-- 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；本轮实际pull到 6c4bb67a33d0cd7ef5aeb9c38860c1f169f35a17，双README空diff，QUEUE仍本会话进行中。
+- 最近实际pull后双README已读锚 `f541c9d735e0cfa71f28754e157d27d521acc2e9`（2026-11-28 16:44 UTC）。
+- 私库QUEUE认领提交 e96d935de69d7e96381ba17732e6f92350654b2a；本轮实际pull到 501598ecab5ed0ab5529fd85bfc436c008f2d5f2，双README空diff，QUEUE仍本会话进行中。
 - 每结论先pull核根/本题README差异再push，NFF立即rebase重推至成功，不force。根§12不另设审批/独立复核；§15只存小源/参数/hash/标量，不存再生数组；§16新spawn须显式gpt-6.2-astra/ultra/forknone。令牌仅CLI，H<10KB、单MD<100KB、题目录<200MB。
 - 断线间小文本集成已由实际pull收齐。完整旧前沿与失败见[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)、[恢复计算前H](notes/2026-11-28-handoff-before-resumed-numerics.md)、[本次压缩前H](notes/2026-11-28-handoff-before-r89.md)，不重做已登记结论。
 - 完成必须同一完整g/profile/chart/mean/时间域的连通闭C²嵌入连续族；H内点且diamH≥.2D，整像δhold≥.1D，全E(3)含反射δE>0，全时reach≥.03D；全metric≤1e−6并在固定问题的谱/径向/时间精化降到机器或求解容差；多t小网格复现与严格存在性差距说明。λ<1非准确圆弧H；换δ/profile/帽不是同g精化。完成后继续改善比例。
@@ -15,7 +15,7 @@
 [R87](results/R87-single-gentle-ramp-half-curvature-held-window.md)改首升速为0→9/20单缓坡，k=.5/S=.675/b=.3/α=.8；原核心A≤2/3预算现由[R91](results/R91-period-mean-compensation-and-wider-core-box.md)扩为A≤8/9：准确总曲率给β<897/314、全λ κ<3723/314<12.3；首圆片在低曲率/正支撑下耗尽保护窗。50 Bernstein盒付首周期|X|<1.34，并给条件H/held/reach；原R5/C³旧高k两级支已[精确排除](notes/2026-11-28-design-higher-k-old-profile-screen.md)，不跑回旧支。
 
 [独立r≤1.15新盒](notes/2026-11-28-design-single-gentle-r115-extension.md)重新付50盒/首片支撑>.0978059；[原Python线性校准](notes/2026-11-28-design-single-gentle-linear-root-actual.md)δ=.06809451565377872、r=1.1349085942296453、core_z/core_R=−5.2781e−13，真exit0，原盒五同号点仅缓存复用。
-[新profile λ0/M8](notes/2026-11-28-design-single-gentle-lambda000-m8-actual.md)真580点/metric2.159654640e−8，run601f7af1…；正λ原全门真锚已顺序到.002/.004/.008/.016/M16与[.032/M24](notes/2026-11-28-design-single-gentle-lambda032-m24-actual.md)、[.064/M24](notes/2026-11-28-design-single-gentle-lambda064-m24-actual.md)。最新[.128/M24](notes/2026-11-28-design-single-gentle-lambda128-m24-actual.md)真642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。未有λ1；任何设计δ变化不充同g精化。低模.002/M8、.032/M16和[.256/M24](notes/2026-11-28-design-single-gentle-lambda256-m24-metric.md)仅metric失败；后者848点/RMS9.932516485e−7但metric8.841396910e−5，原完整场仅作.256/M32初猜，未接受或回跑M24。[独立升模入口](notes/2026-11-28-design-single-gentle-metric-mode-resume-preparation.md)准备后唯一TTY89083已真过原RAM/256MiB盘门，完整848点升模并原Newton运行，尚未终态；后继.512/.75/1。
+[新profile λ0/M8](notes/2026-11-28-design-single-gentle-lambda000-m8-actual.md)真580点/metric2.159654640e−8，run601f7af1…；正λ原全门真锚已顺序到.002/.004/.008/.016/M16与[.032/M24](notes/2026-11-28-design-single-gentle-lambda032-m24-actual.md)、[.064/M24](notes/2026-11-28-design-single-gentle-lambda064-m24-actual.md)。最新[.128/M24](notes/2026-11-28-design-single-gentle-lambda128-m24-actual.md)真642点、RMS9.919225412e−7、metric6.356023549e−7、BC6.8426e−17、mean1168、δ=.06809994441452687，run7f8bfa03ec380ef87d0a2dcdfd10b9fac7ad24e94a515f2b8cf271cdb149ed88。未有λ1；任何设计δ变化不充同g精化。低模.002/M8、.032/M16和[.256/M24](notes/2026-11-28-design-single-gentle-lambda256-m24-metric.md)仅metric失败；后者848点/RMS9.932516485e−7但metric8.841396910e−5，原完整场仅作.256/M32初猜，未接受或回跑M24。[独立升模入口](notes/2026-11-28-design-single-gentle-metric-mode-resume-preparation.md)准备后唯一TTY89083已真过原RAM/256MiB盘门，[.256/M32](notes/2026-11-28-design-single-gentle-lambda256-m32-metric.md)已真850点/RMS9.932427255e−7，但metric1.285843882e−6仍未门；原全场已继续M40，后继.512/.75/1。
 
 旧q/profile各真锚、失败及Actions权限状态见[完整接续快照](notes/2026-11-28-handoff-after-r90-before-new-frontier.md)，不混profile或重算旧支。
 
