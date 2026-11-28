@@ -206,3 +206,23 @@ root完整读geometry_ultra稳定v1/v2，逐项手核有限p项消极、非平�
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:14:07 UTC到bc7799966d423e6ee7bb43f19c7a5549c8eb3dbd，私库2026-11-28 10:14:18 UTC到598190383bd8e15a0145ad804e9d9ba32545b356；四README同已读blob，QUEUE 192ef5f5527eb0eaef28429daf333068b5f669f5本题行未变。公开基线3224/46250935B/tree747baaf76fe537490779e4f2f0afdfdb8e67b314，无>5MB。
 
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 10:14:29 UTC到6f98931ae0f92e674685eb529c3e17cdf489dedb，私库2026-11-28 10:14:36 UTC到feb94f6c18d97cedea9f87d6befbfd6c5265bcf7；四README同已读blob，QUEUE 192ef5f5527eb0eaef28429daf333068b5f669f5本题行未变。公开基线3224/46250935B/tree747baaf76fe537490779e4f2f0afdfdb8e67b314，无>5MB。
+
+### 2026-11-28 10:15 UTC：R1071 原单右端与完整双图图核
+
+root完整读arithmetic_ultra四段手证(1)–(23)，逐项核Dixon进位和唯一重建、后缀gcd标量核的双包含、真残量失败坐标与终止、逐列Laurent全多项式部分、双向多项式lift及实际原矩阵hash编码。另直接核原R883的2256射影极度和original_ys_divisor_ideal_tools.py的编码。两方向完整图与原API保留，不把其他eta48 degree288域的旧inverse当今306基右端。无数学运行、无新生产启动；v16仍唯一heavy。results.md接近100KB，已逐字归档当前95337B后缩短当前索引，完整历史/更正/证据入口不删。
+
+R1070已实际推96bfa0133246ba54360fd5c47236672dc8737397；一次非FF后立即实际双pull/rebase重推成功，四README同已读blob。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 10:16:28 UTC到bb8fe00037b0926fe06fbdaaaa3f99a257bf0ee7，私库2026-11-28 10:16:38 UTC到63eacccb910a30252417b26f24a67c877dd22271；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。
+
+推送前实际本地双pull（本次发布第2次）：公开2026-11-28 10:16:50 UTC到9d1204c9403a3b75e7ffb0dfb4f240ac7304f5fe，私库2026-11-28 10:16:59 UTC到fe4c17452411fe5158ee9d8820aebf0614f0a030；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。
+
+推送前实际本地双pull（本次发布第3次）：公开2026-11-28 10:17:16 UTC到b49e0830a0ed5fbf9063e537694d2e4a8c373e0f，私库2026-11-28 10:17:23 UTC到50cf0b178bc061336a3ffe15ab3274e9cc9cbafe；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。
+
+推送前实际本地双pull（本次发布第4次）：公开2026-11-28 10:17:35 UTC到46b930dff5d92b9f887661cd7ea7be1b48fe0ae8，私库2026-11-28 10:17:43 UTC到349cbff8aea26714260ed13fbcb7a1ae1ad603cc；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。
+
+推送前实际本地双pull（本次发布第5次）：公开2026-11-28 10:17:54 UTC到8f6e5c2779ead0f2e263462aa35a6990fe6342a1，私库2026-11-28 10:18:03 UTC到70287d1e0bf4ca452e6b8907b24350b4ac5793b3；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。
+
+推送前实际本地双pull（本次发布第6次）：公开2026-11-28 10:18:13 UTC到3ea24240a2d528ab4e71a6c0c5ce7fcd5782a76c，私库2026-11-28 10:18:20 UTC到fee0fb75f66ddbb2aaf99c0f601bdf873c30ce03；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。
+
+推送前实际本地双pull（本次发布第7次）：公开2026-11-28 10:18:36 UTC到eb0d6e0f7c11801e9c8588f84d4193f660d6ea37，私库2026-11-28 10:18:43 UTC到45979a1378c4ff23bb7e294d38074ef338f483a1；四README同已读blob，QUEUE 32001964a2044af442dca663e64f81a021c13234本题行未变。公开基线3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a，无>5MB。

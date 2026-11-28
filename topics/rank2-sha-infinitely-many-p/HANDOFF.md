@@ -11,10 +11,10 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 ## 实际同步、已读规则、认领
 
 本地blob:none/depth1/sparse工作区已恢复，显式/bin/bash、login:false；数学仍仅公开Actions。
-- 公开2026-11-28 10:14:29 UTC实际pull --rebase，读取main 6f98931ae0f92e674685eb529c3e17cdf489dedb；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 10:14:36 UTC实际pull --rebase至feb94f6c18d97cedea9f87d6befbfd6c5265bcf7；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与已读版本同blob，未重读；QUEUE 192ef5f5527eb0eaef28429daf333068b5f669f5，本题认领行未变，仍进行中。
-- 拉取的公开基线库存3224/46250935B/tree747baaf76fe537490779e4f2f0afdfdb8e67b314；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
+- 公开2026-11-28 10:18:36 UTC实际pull --rebase，读取main eb0d6e0f7c11801e9c8588f84d4193f660d6ea37；根/课题blobs：99c5ad8d06e939e6cfbbab1afdeffa5463f15f18、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 10:18:43 UTC实际pull --rebase至45979a1378c4ff23bb7e294d38074ef338f483a1；根/课题blobs：1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与已读版本同blob，未重读；QUEUE 32001964a2044af442dca663e64f81a021c13234，本题认领行未变，仍进行中。
+- 拉取的公开基线库存3225/46278226B/treea61e6e40bd34d8ab5879803436ef07486be2870a；无>5MB，三旧gzip未改。当前新增文件另守10KB/100KB/200MB。
 - 每推前实际pull两库；非FF立即pull --rebase、读README差异再推，循环成功、不force。旧CI回执和启动失败边界保于上链。
 
 ## 厚点实际终态及唯一 v16
@@ -43,6 +43,10 @@ R1062真CM除法/finite-flat极限、Na=17全比值及specified lift付Cβ(Q)=K_
 ## O7 同一原点与边界的新整模型
 
 [R1070](results/R1070-original-norm-one-wild-trace-and-integral-difference-inverse.md)付原E17同charge的η=A/Ā完整Miller比值、绝对wild相位与真实p项去极迹。Volkenborn极限保原j_m且(Tη−1)Y∞=dlogη·W B_m；完整位移Φη−W∈pWO+W^pO使M=(Tη−1)/W为整个开盘整等距自同构，Y∞=dlogη·Z_m∈pO[[W]],Z=M⁻¹B。全部首层局部jets/所有Q^ℓ及深层真实orbit和已准确返回；无1/p的p项CM迹整像恰QO。头两位仅回R710，j=0只给Z(0)=0，不给Q|B。下一直接构造同来源全wild测度并对原R716/R1067 period，不能把新measure的定义冒作书中原measure。
+
+## 原厚点的新完整算法
+
+[R1071](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)已手证真实D·W=qN单右端及逐原坐标Y核，失败原残量经LU定真不整列，≤306列终止；全H源行及原X返回才完图。各列σ的完整Laurent窗保全多项式部分，余量deg<degM_D的低次核必须连同全X比较；可选双向HNF/流式X,T有实际多项式两包含，不冒v16 transcript。原2256射影极度给分子权与分母同时≤2256，Dixon总度>4512充分。全四内/四外、旧F_y、4交/8scalar/Norm/终门保持；没有速度或实际PASS声明。arithmetic_ultra仅备scratch最小实现，待v16实际瓶颈再择，不并发heavy。
 
 ## 其它实际门与接续
 
