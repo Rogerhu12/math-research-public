@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GDC：有向历史误差与完整正侧Grassmann逆](results/R149-supplement-signed-chronological-Grassmann-defect-and-verified-spectral-complements.md)：逐真实物理格先合并全部有符号Fréchet历史再取范数，PSD补矩阵以定向Gram证明谱界；严格新分母作用于真实BEP。先整件恢复原89packet/82frame/245matrix，再单独保存原失败第82格的新判定，继而1424双向图/1425节点/四全源映射。109whole+21历史、完整proof和执行源核过；原GG失败保，三新实际目标待。
+
 - [ASQ23：真实负侧两列有符号腰值与公共残差Gram](results/R149-supplement-two-signed-negative-waist-responses-and-common-Gram-remainder.md)：原3073负格上两列完整193坐标含独立均值，自真实根零数据向腰解；原7728共同分割、源符号与接口保留。新Hermite试函数只由浮点提案定义，全部严格/根窗2×2有符号Gram控制真实误差，再以ASQ22接收Θ和均值；31整件身份核过，首次公开实际数值待。
 
 - [GIC：原局部genuine全无穷带的物理强范数](results/R149-supplement-infinite-true-profile-tail-of-the-complete-genuine-collar-source.md)：所有n≥4194308在实际实剖面用两次原有序B分部及低阶余项再分部，完整频率盘和全部角导Cauchy后5/6插值得同源H^-5/3范数；全部两列/两sign/内部mean保。有限带与无穷自然输入正交，仅公共Ni左侧合并；首发27pins/2AST/5新比较通过，实际数值及其余全域源仍待。

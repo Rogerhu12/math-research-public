@@ -1,0 +1,149 @@
+name: R149 physical low193 signed chronological defects
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/fourfold-codazzi-signed-grassmann-defect-public.yml]
+permissions:
+  contents: write
+concurrency:
+  group: r149-signed-grassmann-defect
+  cancel-in-progress: false
+jobs:
+  certify:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-root-scalarization-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta96-root-collar-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-W2C-signed-reference-interface.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-collar-Volterra-dual-readonly-interface.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-complete-paired-finite-residual-current-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-continuous-centre-tracefree-current-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-cross-block-readonly-input-inventory.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-true-collar-signed-packet-interface.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-zero-Volterra-positive-head-readonly-input-inventory.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-20-reviewed-public-CI-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-26-low193-parent-moment-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-signed-grassmann-defect-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-true-low193-direct-flow-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-true-low193-grassmann-inputs.json
+            /topics/visible-flex-exact-nearby/notes/centre_mean_floor_ci/run-44727185157-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/centre_mean_floor_ci/run-44727185157-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/complete_paired_finite_residual_ci/run-43878765372-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/complete_paired_finite_residual_ci/run-43878765372-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/process.json
+            /topics/visible-flex-exact-nearby/notes/frozen_cross_block_remaining_body_ci/run-43859287399-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/full_delta96_root_collar_ci/run-43606747196-1/consumers/process.json
+            /topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/evidence/full-real-delta-negative-one-positive-graph-summary.json
+            /topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/process.json
+            /topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/evidence/full-delta-complete-positive-N97-high-inverse-summary.json
+            /topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts.json
+            /topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/process.json
+            /topics/visible-flex-exact-nearby/notes/low193_balanced_endpoint_ci/run-44721851908-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/low193_balanced_endpoint_ci/run-44721851908-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/low193_signed_loop_ci/run-45917913526-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/low193_signed_loop_ci/run-45917913526-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/low193_verified_green_ci/run-44730452579-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/low193_verified_green_ci/run-44730452579-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/outer_rows_and_rough_positive_observations_ci/run-43844596176-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/true_low193_direct_flow_ci/run-46120139018-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/true_low193_direct_flow_ci/run-46120139018-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/true_low193_grassmann_ci/run-46135063788-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/true_low193_grassmann_ci/run-46135063788-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/zero_volterra_positive_head_ci/run-43838214094-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-paired-finite-residual-and-false-gate.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-cellwise-principal-inverses-and-dual-radial-head-tail.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-complete-collar-Volterra-dual-feedback-candidate.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-complete-outer-rows-and-signed-root96-inverse-certificate.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-joint-centre-Green-kernel-and-complete-collar-cross-terms.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md
+            /topics/visible-flex-exact-nearby/results/R141-supplement-exact-cell-Green-moments-and-shared-output-covariances.md
+            /topics/visible-flex-exact-nearby/results/R141-supplement-exact-cell-moment-provider-and-shared-lifecycle.md
+            /topics/visible-flex-exact-nearby/results/R141-supplement-exact-refinement-and-compact-directed-grams.md
+            /topics/visible-flex-exact-nearby/results/R141-supplement-genuine-child-coefficients-and-unchanged-hybrid-sources.md
+            /topics/visible-flex-exact-nearby/results/R141-supplement-shared-scalar-whole-box-factors.md
+            /topics/visible-flex-exact-nearby/results/R142-low193-parent-moment-continuation.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-joint-Grassmann-true-low193-and-whole-source-maps.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-chronological-Grassmann-defect-and-verified-spectral-complements.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-true-low193-local-flow-and-direct-response.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_W2C_signed_reference_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_bidirectional_impedance_generators_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_dual_feedback_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_candidate.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_readonly.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_readonly_core.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_root_scalarization_budget.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_value_tail.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_budget.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_positive_high_Volterra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_grassmann_failed_joint_packets.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_low_centre_child_coefficients.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_low_centre_exact_cell_moments.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_low_centre_moment_continuation_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_low_centre_parent_moment_provider.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_low_centre_refined_green_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_low_centre_shared_scalar_factors.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_low_centre_verified_green_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_turning_complex_germ.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_positive_high_Volterra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_grassmann_defect_cocycle.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_grassmann_defect_model.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_grassmann_defect_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_grassmann_defect_runner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_grassmann_defect_validate.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_semiseparable_kernel_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_collar_signed_packet_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_checkpoint_carrier_restore.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_direct_flow_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_direct_flow_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_grassmann_carriers.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_grassmann_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_grassmann_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_grassmann_runner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_low193_grassmann_validate.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_turning_complex_germ.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_impedance_circuit_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_interval.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_phase_metric_defect.py
+            /topics/visible-flex-exact-nearby/scripts/make_signed_grassmann_defect_manifest.py
+            /topics/visible-flex-exact-nearby/scripts/make_true_low193_direct_flow_manifest.py
+            /topics/visible-flex-exact-nearby/scripts/make_true_low193_grassmann_manifest.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install fixed directed arithmetic and chart proposal runtime
+        run: >-
+          python -m pip install --only-binary=:all: python-flint==0.9.0 numpy==2.3.5
+      - name: Verify new physical cell, full low193 inverse and four source maps
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+          MKL_NUM_THREADS: '1'
+          PYTHONUNBUFFERED: '1'
+        run: python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-signed-grassmann-defect-inputs.json --manifest-sha 7b1a72bf49a24db39804cae5f2cde5612db2c302566d89b6034f2648f36303b0
