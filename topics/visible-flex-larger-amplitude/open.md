@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md) b/S1/2、δ1/32、两μ.01；两input0/model0abfbf，初reach.9684249942095058/distplus.005863061771032241，其余四负。首d761b5真接受/current该点/accepted1，Phi3825.0583176123996/Gram.6460503022350718/真reach.9679630392005261；第二b622已拒；新增7af04真g.9691295883291671已拒，下一b6a06仅开始。中间b90d几何/决定未取，reportfalse。
 
-[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复μ.01→.001，metric.01及全部源参/预算保。两input0，sciencec592e434/f600/PID3277/model0abfbf；初Phi3825.0583894874153/Gram.6460503011117507/六g逐项等19。首345906真reach.9750099817855096已拒；下一d346在00:03:30.800085开始，00:11:35.553745统计返，几何/alpha未知，不推方向号。current仍初7e06/accepted0/reportfalse。
+[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复μ.01→.001，metric.01及全部源参/预算保。两input0，sciencec592e434/f600/PID3277/model0abfbf；初Phi3825.0583894874153/Gram.6460503011117507/六g逐项等19。首345906及第二d346已拒，后者真reach.970243177977179；下一0f4d在00:54:57.956069统计返Phi3824.9895336084514/Gram.646051041919538，几何/alpha未知。current仍初7e06/accepted0/reportfalse。
 
 [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)同g只width1/2→5/8；官方46084442413/1、job140790598810，两input0；science001025/f600/PID3644/model9387/初7e06，Phi3233.3855489912225/Gram.6568825757487662；初真reach2.541916739245917、其余五族负，accepted0/reportfalse；首df8d统计返、几何未知。比19reach更差、distplus转负，完整[宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保全部未知排序。
 

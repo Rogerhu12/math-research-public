@@ -931,3 +931,117 @@ trial d34614ab98e8942a3dc9e8e0ff77d4bda999c436b1a765ea8fc741cfcb8d72ee 在2026-1
   "observed_utc": "2026-11-28T00:15:09Z"
 }
 ```
+
+## 2026-11-28 01:19:08 UTC — 20第二试步真实拒绝与下一统计返回
+
+run46079535427/1仍原c592e434ac19b1659c179ab6929ed592f104f362/f600/PID3277、model0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add。此前已登记统计但几何未知的d34614ab98e8942a3dc9e8e0ff77d4bda999c436b1a765ea8fc741cfcb8d72ee现确认为真实几何g0.970243177977179、maximum_families=reach、accepted=false；Phi3824.9207739761805/Gram0.6460517826414733保。拒绝决定时刻、alpha及方向号未知。
+
+新trial0f4d216ea4bf3c105af76b11b85e87204cd5758888fba506b3f4f6cbd0a2d871于00:54:57.956069统计返回Phi3824.9895336084514、Gram0.646051041919538；最新观察01:15:49Z时其几何/接受尚未知，不能以旧current或前一trial几何填入。current仍初7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47、accepted0，原初始Phi3825.0583894874153/Gram.6460503011117507/g.9684249942095058与全部六族保。科学未自然返回、reportfalse、纯读者及final未知。没有执行新的本地计算。
+
+以下固定完整小索引身份与原active全对象只保原已返标量；缺值/错误原样，未取科学raw或另算场。
+
+```json
+{
+  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-27-public-actions-46079535427-1.md",
+  "bytes": 50555,
+  "sha256": "a1fb2f687906e8b7c1635f98b3ba44b952782b49c832d0514f8ac56b365dd758",
+  "git_blob_sha": "9ef5b8948673c29a8d9c5898e8652891abcd3ffa",
+  "fixed_commit": "7e40321a66fe496bbef13724faffb7a7801e106d"
+}
+```
+
+```json
+{
+  "step_id": "complete-fixed-fejer-meridian-batched-bhalf-mu001-first-20261127",
+  "scientific_source_commit": "c592e434ac19b1659c179ab6929ed592f104f362",
+  "scientific_source_sha256": "f600bc6e8c94428025bc517d7ad00e561a6cde1cb8a96fd709fdf7c8dfc8b506",
+  "pid": 3277,
+  "observations": {
+    "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 01:15:39 UTC",
+      "point": "0f4d216ea4bf3c105af76b11b85e87204cd5758888fba506b3f4f6cbd0a2d871",
+      "cached_angle_roots": 905,
+      "closure_original_returns": 107839,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T00:54:57.956069+00:00",
+      "math_event": "trial-statistics-returned",
+      "math_driver": "10fa4e4e679cbe02b56456f05479c8136bd0481fd16384992a557cefc9a4bf3f",
+      "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
+      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 3825.0583894874153,
+      "initial_Gram": 0.6460503011117507,
+      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_violation": 0.9684249942095058,
+      "initial_geometry_complete": true,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 3825.0583894874153,
+      "current_Gram": 0.6460503011117507,
+      "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_violation": 0.9684249942095058,
+      "current_geometry_complete": true,
+      "current_state": "initial statistics returned; no accepted direction",
+      "trial_point": "0f4d216ea4bf3c105af76b11b85e87204cd5758888fba506b3f4f6cbd0a2d871",
+      "trial_Phi": 3824.9895336084514,
+      "trial_Gram": 0.646051041919538,
+      "trial_accepted": null,
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0,
+      "current_g_reach": 0.9684249942095058,
+      "current_g_body_diameter": -0.038135527545650194,
+      "current_g_distance_plus": 0.005863061771032241,
+      "current_g_distance_minus": -3.0936337267043594,
+      "current_g_cap_diameter": -0.06715131487906445,
+      "current_g_height_floor": -1.0411715967426867,
+      "previous_completed_trial_point": "d34614ab98e8942a3dc9e8e0ff77d4bda999c436b1a765ea8fc741cfcb8d72ee",
+      "previous_completed_trial_g": 0.970243177977179,
+      "previous_completed_trial_accepted": false,
+      "previous_completed_trial_maximum_families": "reach",
+      "previous_completed_trial_Phi": 3824.9207739761805,
+      "previous_completed_trial_Gram": 0.6460517826414733
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-normal-evaluation-progress.json",
+      "bytes": 3381,
+      "sha256": "579b699d2e5ac5c33e35c9dff8cfd1a4a64df951d1db6b4ac59feef5ba405b54",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-mathematical-progress.json",
+      "bytes": 11073,
+      "sha256": "d460b685fdc79d5fe91df55a90d02d650224de446498aca392620b638c2b88d4",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-meridian-batched-bhalf-mu001-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "94e649e7e63dc5715244fe400462aac1688c15d5c5d7862fa8d820b33782d35e",
+  "observed_utc": "2026-11-28T01:15:49Z"
+}
+```

@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33及00:40新重置后唯一探测均失败；恢复即真pull。云核至`99102780f14dd6b907a3be81728399315095ef42`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活18–21及新22通常5分钟真pull，已读commit保末槽，终态12–17末槽保旧H/终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33及00:40新重置后唯一探测均失败；恢复即真pull。云核至`0bcd1e3593af18ff3b66cc909e9f99e575385d3f`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活18–21及新22通常5分钟真pull，已读commit保末槽，终态12–17末槽保旧H/终态note。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD整合循环，不冒pull或force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅公开Actions；raw只runner/scratch，不Git/Release/artifact/改名输入。全源/参数/真实run/whole输出/typed/未知/失败保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。不加AST/fixture/重跑/审查门，不减目标或原预算。
 
@@ -23,7 +23,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端�
 | 17=46053911348 | 官方cancelled@00:53:34Z；两input0，science未自然返。末current e2c1ad7/accepted3/g2.0441496554550835，下一52bca仅开始；末真pull/完整终态保17note。 |
 | 18=46062343475 | 两input0、前三science1及三reader0；e3d2eb/10fa/f600/PID7515/model9ec211。current2b1c/accepted3/g2.0441496553824883；完整六族返，仍不可行。 |
 | 19=46076669320 | 两input0；36304a0d/f600/PID3240/model0abfbf。currentd761/accepted1/g.9679630392005261；末7af04真g.9691295883291671已拒，下一b6a06开始、统计/几何未知。 |
-| 20=46079535427 | 两input0；c592e434/f600/PID3277/model0abfbf。current初7e06/accepted0/g.9684249942095058；首345906真g.9750099817855096已拒，下一d346统计返、几何未知。 |
+| 20=46079535427 | 两input0；c592e434/f600/PID3277/model0abfbf。current初7e06/accepted0/g.9684249942095058；第二d346真g.970243177977179已拒，下一0f4d统计返、几何未知。 |
 | 21=46084442413 | 两input0；001025/f600/PID3644/model9387。初7e06真g2.541916739245917/accepted0；首df8d统计返、几何未知。23:47:39Z启动/job140790598810。 |
 | 22=46090913581 | 两input0；c6517a/6fd57/PID3541/model6f3ae32。初7e06/Phi681.6517423825409/Gram.40616525311769985，几何未返/accepted0；[全记录](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。 |
 
