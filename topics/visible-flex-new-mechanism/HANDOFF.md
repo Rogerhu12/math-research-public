@@ -5,7 +5,7 @@
 
 ## 规则、接手和来源
 
-公开最近实际pull/双README差异检查至 **00429f1705d22d277b85c1b257d578a71f850c83**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
+公开最近实际pull/双README差异检查至 **786a337d11cf3b601c6934a488d8ab3c47559fab**，无变化；首次完整读于b0865cd9。私库最近实际pull至 **9525ec1c3ea6400e512710eb404424bc9f744f7b**，根/题README无变化；QUEUE仍为本会话，认领已推 **9310d8a886530a067fd44ffa126c6ae52637d0a1**。相邻QUEUE冲突保留对方后rebase，未强推。
 
 每次pull查根/题README差异，至少每小时；新SHA记本节。每结论即普通commit/push；NFF立即pull --rebase再推。主代理独占git/共享索引。科学仍用本公开Actions，本地纸证/源码/已完日志解析。根12不重复独审/机械门；根15不存可重算原日志/数组，只留真正后继输入/源参/run/hash；部分、失败及原费用保留。H<10KB/open<30KB/md<100KB/题<200MB。
 
@@ -45,13 +45,13 @@ R617排固定有限pre/post精确非圆根，增长响应仍可用；τ1当前j2
 
 64×16/1153点，fine128×16/2305点冻结同shape/α/L/八中心A/三规范；不重锚或重拟合。原ODE1e−7/十末1e−8/ruling1e−7门不改；3300/180秒、48步只是可续段。R619–627、原18块576微包/ε1/12000/全正势保持；根后period/frame/闭pose/宏观reach仍欠。
 
-[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P=0必U>16/225，须改相对h形状。[R636](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)已给全程原盒内显式C²输入，P/动能两端准确零、B₂<0合法；余两端/ruling欠。[实际新范围](notes/2026-11-28-r636-polynomial-background-original-bvp-scope.md)本次push触发，准确背景+原257扰动，首完整链复用，fine保同背景及全部常数；不重旧R632活动范围。
+[R634](results/R634-true-P-end-needs-quantitative-height-energy.md)给真P=0必U>16/225，须改相对h形状。[R636](results/R636-explicit-c2-physical-input-with-two-true-even-ends.md)已给全程原盒内显式C²输入，P/动能两端准确零、B₂<0合法；余两端/ruling欠。[实际新范围](notes/2026-11-28-r636-polynomial-background-original-bvp-scope.md)本次push触发，准确背景+原257扰动，首完整链复用，fine保同背景及全部常数；不重旧R632活动范围。[R638](results/R638-exact-P-and-kinetic-two-end-shape-chart.md)已给真实P/动能双端图：显式S不属旧h空间，增一维后用∂bP=−15/68消元，保全部257自由方向/完整链；尚未执行。
 
 ## 几何及新构造
 
-旧59a4单有限C²场[完整reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)已证reach/D≥.0311710349107，但η≈3.84e−5且宏观/同g未过；不移给83b0或cc117后态。R604/R622仅同输入组合。
+旧59a4[单场reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)≥.0311710349107D，但η≈3.84e−5且宏观/同g未过；不转新q。R604/R622只同输入组合。
 
-R33相位族保全时几何，本题允许δE=0；真正缺口是大非圆核心到开圆帽的完整旋转度量连接。R565/R579宏观充分预算已付，连接尚欠；现有同轴两圆领相位模块不积累末帽姿态。
+R33相位族保全时几何、允许δE=0；缺大非圆核心至开圆帽的完整旋转度量连接。R565/R579仅宏观条件预算；同轴圆领不积累末帽姿态。
 
 [R628](results/R628-double-flat-kernel-and-nonzero-second-order-port.md)：已给另一高M真2/3双核、中心Jac45/16与β→15/8（有限β>1）；有限角/高M几何仍未付。
 
