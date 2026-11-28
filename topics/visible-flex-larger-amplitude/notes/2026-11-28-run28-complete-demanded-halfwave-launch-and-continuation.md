@@ -1159,3 +1159,11 @@ root无可用executor，实际重置后唯一探测失败的最新记录为04:17
   }
 }
 ```
+
+## 2026-11-28 08:40:36 UTC — 完整metadata读取0，补正确的标量投影
+
+上步真实sourcee9abdaf0ae41f4c3e9bcbeaa61fbf6cb0ff2a38d，原读出源50ffbff8d2e2980295b2db1641c5ce0fbb874805fdfff5b5ed3ba9ea3d094b32，退出0/5.94083467100063秒。全输出22358字节/SHAebc93a65362b42d90c3aa6cae945926ece7591423ec957ed5a3975611bf92e84已真实写于原runner。origin=.99、原字0x1.fae147ae147aep-1、准确4458563631096791/4503599627370496、全部416 scalar knots的完整定义绑定已返；F/J/normal/new-integrations均0。
+
+控制器只接受标量summary，首次请求13个whole对象均报Requested summary is not scalar；不能把这种投影错误说成读取失败，也不能据此填写未投影S/k0。全部原错误保固定whole分卷 ecb0788abe96ca3dcbeab61f10d0a41fd3d54dd7/topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46108296054-1-part-002.md：40901字节/SHA09e8cc9eefb2e724db6f5e6e900db13bf1528469e0e1485915efeffda68c7cd5/blob4af46912463de2a12317dda821e99f6eb8ddca14。本次保同源，12完整CLI词仅换新输出路径，新增明确step ID；90个标量leaf选择完整覆盖所需FullHold metadata（含每个包围的准确两端/近似两端）、全部初始律三字段/字、原末knot及来源。输出仍全对象在runner，不编码JSON对象搬入字符串。原source/参数/report/first readout均未变，新读出尚未观察。
+
+新整queue 8746字节/SHAe9ac86dce6b1f8c781b32043c67cc140028d6db09c071974e91395e672fa7b37；active/parent同原28。此处只修运输投影，未改科学模型、预算、接受条件或任何已返数学结果。

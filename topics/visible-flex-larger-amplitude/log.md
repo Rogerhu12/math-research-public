@@ -341,3 +341,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:35:13 UTC — RET85：15–18九份终态笔记完整保留原叙述与真实异常
 
 [RET85完整交付及64块对应表](computations/terminal-run15-18-narrative-retention-85-complete-delivery.json)保九份终态人写笔记全部非JSON原字，包括数值表、公式、三份真实traceback、来源/参数、失败因果和时间顺序；重复嵌入对象改为固定1b64c4a7e8b3c09ae6231fdd604659ca492f3ae4完整旧文精确引用，原whole/逐块身份及完整逆文本构造均保。原495247B→177969B，加构造器19662和总表42240，净回收255376B（不含日志）。九路径继续存在，科学source/参数/raw和三个19/21独立终态证据原字不动。前条metadata读出命令实际是12参数词，已按完整队列纠正文字计数，队列/源未改。 双README云核至`8b7513934e6ca212fa6dce00c8efed46acdaed09`无变（非pull）。
+
+## 2026-11-28 08:40:36 UTC — 28完整metadata读取已0，改为控制器支持的全部标量leaf投影
+
+原metadata只读5.9408秒/0、全输出22358B ebc93a65已返，origin与416 knots绑定明确。13个whole对象因控制器仅接标量summary未投影，完整原错误保固定小卷；S/initial_law尚未知。现同源码/12CLI词换新输出，90标量leaf覆盖完整相关小metadata；不重做科学计算、不编码whole对象穿过传输。完整记录保28 note。 双README云核至`efc15190fd40e21625ec8a3169a5a5f23d5a496f`无变（非pull）。
