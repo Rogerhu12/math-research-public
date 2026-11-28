@@ -8,6 +8,8 @@
 
 ## 新增结论
 
+- [R150：完整NV已付M四次的原六列、两列及两个新标量](results/R150-appendix-unit211-W-full-NV-paid-M-quartic-two-columns-and-two-scalars.md)：完整原C4/Vlow组合降四次，已付M三因子乘回；native全迹、六基12系数收缩及原EW/EBo两个χ8组合全返，122.127592445秒/0。保b0与乘子公因子零面，未得新权覆盖或排空。
+
 - [R150：正确固定十七阶λ覆盖与5640完整规范点界](results/R150-appendix-unit211-h-equals-k-corrected-fixed-seventeen-lambda-cover-and-5640-points.md)：实际716次仅剥已付支持得470次，完整QQ因子1^19/2^14/4^6/99/300；406个λ候选，保消失阶给≤470基点，乘全部Q/z/ρ纤维给5640。3.066182153秒/0，1496次Bareiss精除乘回，不恢复旧错误覆盖。
 
 - [R12：真实整数图迹、均方采样和单条稠密边界链](results/R12-appendix-actual-walsh-graph-domain-integer-traces-sampling-and-single-boundary-chain.md)：同E图范数中精确近邻两块/远尾费用使整数迹分离并恢复原H范数；实际C_E伴随广义核维n且并稠。强高位交换有界像不能进入DomR，原不变闭图的真实域包含亦被排，保任意不同域开放。
