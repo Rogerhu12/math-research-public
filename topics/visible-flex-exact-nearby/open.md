@@ -183,3 +183,6 @@ ASQ4：在w=Mbar x、Θw=0中完整腰行(I+K)w+Xc+gk=f作可逆row变换，得�
 
 
 ASQ5：原J=2^4608令h=2^-44+2^-1337A+，保完整KP的finite-reference费k=h+2^-1194，Θ全范数<17.082。真实CFC块新增17.082kδX/(1−h)；A+≤2^1335/1330/1293分别足5.695/.135/2^-38倍δX，未假定pending A+已达门。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+TCF：只在TC真实terminal后从全accepted union严格补集分配完整cells，每格原96列/5窗/4whole数组保持。唯一局部优化是同一只读完整Fourier对象的Legendre memo；全prefix有序保存，所有7724覆盖才合成旧未完成source。API/父锁/assignment唯一标记、compact全execution均已实现；当前无新fleet/science。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
