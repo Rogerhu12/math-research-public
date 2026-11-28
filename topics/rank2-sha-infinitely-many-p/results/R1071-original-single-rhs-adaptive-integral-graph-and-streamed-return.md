@@ -216,10 +216,69 @@ $$ \deg q\le P,\qquad w(W)\le\deg q+P_\infty\le P. \tag{23} $$
 
 **同一轮全部失败行可同时排掉。** 对 (13) 的各非零实际残量 $E_i$，令 $a_i$ 为其中最小的 $\pi$ 进阶，取其实际 $u_iM_D=E_i/\pi^{a_i}\pmod\pi$。组成原剩余域矩阵 $U_0=(u_i)$，所有这些行非零。旧 $J$ 中每列恒零：该列上当前 $H_i\in K_J$ 的有理乘积坐标已经整，而所返 $X_i$ 为其精确多项式部分，故真实差的此列恒零。取 $U_0$ 的一组列基 $J'$，它与 $J$ 不交，且每个非零行在至少一个 $J'$ 列上非零；反之若一行在全列基上零，则在其生成的所有列上零。前述失配判据逐项说明这项原坐标真不整。对每个 $j\in J'$ 仍要构成并完整认证实际列 (6)，依次作 (7)。这一批更新保证当前所有失败的 $H$ 基行均不再属于新格。重复直到整个新 $H$ 的所有原行实际通过；添加的坐标总数仍不超过 $n$。$U_0$ 的秩仅用于选列，其余式或列秩不能取代任何完整同余、厚度、全行或外核。
 
+## 9. 原 A0 的正端恰为一、公共零长度和实际缓存界
+
+设 $k=\mathbf F_{29^2}$，$t=y_s$，$s=1/t$。只取运行 `46126639698/140922574854` 中的原 A0 端点 $f=y_0=N/D$。用 $F_\infty=t^*(\infty)$ 表示整个底纤维，记 $p_\infty$ 为 $f$ 在 $F_\infty$ 上的极除子次数，以免和底纤维自身的次数306混淆。以下是同次公开输入所确定的推论。
+
+**分母在无穷纤维的总零长度等于2。** 原运行09:18:55.7740266Z的 A0 行记录 $y_0$ 的共权 $M=12$。10:57:58.3674598Z原未除 $M_D$ 的完整 unshifted Popov 给 $\deg\det M_D=3670$。原两图表基为 $b_i$ 与 $c_i=s^{d_i}b_i$，秩306。函数的另一图表整对为 $N_\infty=s^M N(1/s)$，$D_\infty=s^M D(1/s)$，两式在相应基表达。令 $S=\operatorname{diag}(s^{d_i})$。在源码的行约定下，
+$$
+ M_{D_\infty}(s)=s^M S M_D(1/s)S^{-1},\qquad
+ v_s(\det M_{D_\infty})=306\cdot12-3670=2.
+$$
+在 $k[s]_{(s)}$ 上对完整自由模的乘法算子取 Smith 正规形，行列式阶即局部商的总 $k$ 长度。R925 的原正规化又使它等于 $\sum_{Q\mid s}[\kappa(Q):k]v_Q(D_\infty)$。由于 $N_\infty,D_\infty$ 都整，$p_\infty\le2$。
+
+**无穷端的每个可能极都是单极。** R925 §14 的六个实际原纤维在原二次常数域上的无穷闭点数据 $(\deg Q,e_Q)$ 为 $(1,289),(1,1),(8,1),(8,1)$，其中 $e_Q=v_Q(s)$。原方程 $f^2=(t^2-1)x_0^3+1$ 在同一端点已经核过。若 $m=-v_Q(f)>0$，则 $v_Q(t^2-1)=-2e_Q$，右端的非常数项有负赋值，因而
+$$
+ -2m=-2e_Q+3v_Q(x_0),\qquad m\equiv e_Q\equiv1\pmod3.
+$$
+$p_\infty\le2$ 排除两处次数8闭点，并迫每处真极有 $m=1$。
+
+**原展开点必为一个单极。** R899 §1 给原支 $QY_{\rm new}(Q)=-1+O(Q)$；常项 $-1$ 在三原嵌入和本次好约化下相同。R882 (26) 给 $f=2Y_{P,\pi_1}/v_{\rm new}+1$，其中 $v_{\rm new}\in k^\times$。原 $Y$ 的此展开参数为 $u=q^3$，端点 $\pi_1$ 的代入是 $Q=u$，中央 $\pi_2$ 与另一端点 $\pi_4$ 各有自己的指数。因此
+$$
+  f=-\frac{2}{v_{\rm new}}u^{-1}+O(1),\qquad t=-u^{-1}+O(u).
+$$
+此次数1点的 $e_Q=1$；另一个可能极只有次数1、$e_Q=289$ 的点。故
+$$
+ p_\infty\in\{1,2\},\qquad
+ p_{\rm fin}=2256-p_\infty\in\{2255,2254\}.
+$$
+这里2256来自 R883 已证的整个原 $y_0$ 极次数；第二个点是否为极尚未由这些资料判定。
+
+**Laurent 正端恰为1。** 写 R1071 的共同分式解 $f=W/q$，其中 $W=\sum_iW_i(t)b_i$，$0\ne q\in k[t]$。在上述原自由基下
+$$
+ U=\max_{W_i\ne0}(\deg W_i+d_i)-\deg q.
+$$
+因为 $c_i=s^{d_i}b_i$ 构成 $k[s]_{(s)}$ 上的完整自由基，逐坐标在 $s=0$ 比较阶可知，$U$ 正是满足 $s^U f$ 在 $F_\infty$ 所有原局部环中整的最小整数。各可能极都简单而 $e_Q\ge1$，故 $sf$ 在全纤维整；已确定的原展开点使 $f$ 有单极，故 $U=1$。此结论控制第一张 A0 图的 Laurent 窗；端点图的实际 $q,W,H,X$ 仍各须完整构造与回核。
+
+**公共零长度。** 令 $A$ 为原有限图环，$Y_-=(DA):(NA)$。乘 $N$ 模 $DA$ 给短正合列
+$$
+ 0\longrightarrow A/Y_- \xrightarrow{\,N\,} A/DA
+ \longrightarrow A/(N,D)\longrightarrow0.
+$$
+其映射核由 colon 定义，像为 $(NA+DA)/DA$。原 Dedekind 环上的 $\dim_k A/Y_-$ 正是 $p_{\rm fin}$，故
+$$
+ \dim_k A/(N,D)=3670-p_{\rm fin}=1414+p_\infty\in\{1415,1416\}.
+$$
+无穷纤维处的公共零长度为 $2-p_\infty$，因此原两共权截面在整条射影曲线上的公共零方案总长度恰为1416，按全部局部重数及闭点度数计。这个数未决定不同闭点个数或它们各自的非约化性。另由 v16 两次完整 Popov 得原未除 $M_D$ 的首一底环条目 content 为1，故无任意整个底素纤维可从 $D$ 中抽去：$D\in\pi A$ 当且仅当 $M_D$ 的全矩阵被 $\pi$ 整除（反向以原单位作用）。
+
+**原文与固定源码定位。** R883 §2，特别(9)后第94–95行及附录B (B4)；R899 §1 第35–40行；R882 §8 (25)–(26)；R925 §1 第17–23行、§4 (24)、§14实际全纤维记录第830–834行及§16二次常数域分裂第1006行。原函数与图表见 `scripts/original_ys_fraction_bridge.py:77–88,168–189,354–361,375–383`；原 $Q=u^j$ 见 `scripts/produce-original-y-global-section-and-ys.py:350–365`，整套原基的参数回核见 `scripts/original_section_ring_embedding.py:309–323`。R1071 §6、§8 给 $U$ 的完整坐标定义及原分式窗口。
+
+### A0 有限图的完整 Laurent 窗口均在已通过的软件缓存限额内
+
+对第一个原 A0 有限图，以上证明给 $U=1$，$p_{\rm fin}\le2255$。R1071 每次自适应约束后的完整 Hermite $H_J$ 均满足 $Y_-\subseteq\operatorname{row}(H_J)\subseteq A$。置 $\delta_j=\deg H_{J,jj}$，则 $\sum_j\delta_j=\dim_k A/\operatorname{row}(H_J)\le2255$。原权 $0\le d_i\le4$，而实际返回的第 $j$ 个 Laurent 窗口是 $[t^{\delta_j} b_j f]_+$；其第 $i$ 个坐标次数至多 $\delta_j+U+d_j-d_i\le\delta_j+5$。因此所有306个窗口合起来的实际多项式系数位最多
+$$
+ \sum_j306(\delta_j+6)\le306(2255+6\cdot306)=1\,251\,846.
+$$
+已通过软件的 `original_adaptive_scalar_graph.py:119–125,140–148` 在每次取窗时做 `saved=self.cached.pop(j,None)`。键只有整数 $j$，深度存于三元组 $(\delta,\text{cells},\text{row})$ 内。同深度就原键放回原三元组；异深度先减去旧系数数，最终只做 `self.cached[j]=(depth,cells,result)`。因此每个 $j$ 最多保留一个窗口，且随附到该键的计数恰为每个非零坐标的次数加一。此文件第56–65行以 $a=\beta/\beta_i$ 精确整除并核 $H^{\rm new}_{ii}=aH^{\rm old}_{ii}$，其中 $a$ 首一；第219行确以当前对角次数作全部列深度。故每次完整细化使每个对角元素乘一个首一多项式，故旧窗口的深度逐列小于等于当前 $\delta_j$。整段 A0 有限图的窗口缓存不会触及已通过软件的 2,000,000 系数驱逐门。第312–313行的造理想后外核新建另一个窗口对象，同一单对象界分别适用。这里只计驻留窗口；完整 $X_H$ 输出限额、Dixon 数组、原整环和进程总 RSS 各有自己的费用。次数界来自原真实图和 Laurent 窗定义，未宣称实际端点已生成。
+
+同次完整日志、全部来源哈希及终态失败边界见[v16 §11](../notes/2026-11-28-original-streamed-shadow-production-v16.md#11-actual-v16-terminal-failure-and-completed-scope)。上述推论只消费已返回的两次完整Popov和既有原曲线证书，不预报任何尚未返回的端点图。
+
 ## 原来源与执行边界
 
 - [R883](R883-original-relative-six-shadow-and-complete-boundary.md)：原射影极次数、完整两图整环、配对图或既有算术接口。
 - [R925](R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原射影极次数、完整两图整环、配对图或既有算术接口。
 - [R931](R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：原射影极次数、完整两图整环、配对图或既有算术接口。
 - [R942](R942-original-split-scalar-preimages-and-whole-module-elimination.md)：原射影极次数、完整两图整环、配对图或既有算术接口。
-- [当前v16固定来源和原验收](../notes/2026-11-28-original-streamed-shadow-production-v16.md)：本算法证明不代当前run46126639698/job140922574854的实际原HNF/transcript。
+- [v16固定来源和真实失败边界](../notes/2026-11-28-original-streamed-shadow-production-v16.md)：本算法证明不代run46126639698/job140922574854未返回的完整端点图；其原transcript预算失败已如实登记。
+- [v17实际生产](../notes/2026-11-28-original-adaptive-scalar-graph-production-v17.md)：run46139352999/job140961628765正执行已通过软件的同一算法，完整生产结果待实读。
+- [R882](R882-original-degree18-source-model-and-two-endpoint-coordinates.md)、[R899](R899-original-P-single-prime-dixon-and-complete-certification.md)：原端点缩放和真实QY_new常项。

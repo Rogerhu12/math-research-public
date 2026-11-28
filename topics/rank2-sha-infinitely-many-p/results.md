@@ -80,3 +80,7 @@ R1067(H1–H7)把同一原p²全尾精确写为两固定3F2受迫周期，并将
 ### R1067 §§44–45：原A两位与S三位的完整分歧重建
 
 原Gφ=W21/p在所有有限模p^r下降Y直线且两cusp处消失，任一分歧严格主部唯一恢复；两位Taylor只需真实单位第二列的低p窗，其未知CM提升λ在Gφ/Gφ(P0)精确消去。原第二列S与8p²x^pM的换提升差一致，全球cusp极界及g/h特征迫剩余为−u t L_eP_m，给全V三位等式。N5因此把EN三位、Ed两位都写回冻结f与完整分歧主部，N6仍保两canonical原单位/符号，跨p非零未证。 [同编号全文](results/R1067-original-first-wild-fixed-geometric-tail.md)。
+
+### R1071 §9：真实A0正端与公共零方案
+
+同次v16原A0共权12及两完整306 Popov的det度3670，给D∞在整纤维零长2、标量content1。原四∞点及原椭圆方程迫每个可能极为有理单极；R899原π1 germ确定e=1点真单极，因此U恰1、P∞∈{1,2}，有限公共零长1415或1416、全球1416。逐实际LRU代码的整数j单键及细化对角单调，所有驻留窗口系数≤1251846<2000000；不含整X/临时引用/Dixon/RSS，也未宣称图已生成。 [同编号全文](results/R1071-original-single-rhs-adaptive-integral-graph-and-streamed-return.md)。
