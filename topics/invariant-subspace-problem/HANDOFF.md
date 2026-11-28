@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** fdc204f0fa9011f6e85509a3006a0e6bb01639f6（2026-11-28 14:38:19 UTC，Actions run46155660279实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46155660279-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 14:38:18 UTC/e46e20e15dddf17a728e129f53e893a501588a20，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 14:03 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。15:03再探，旧故障保归档。
-- **终端断开后远端已读：** a026e46002cd0457be7f88d3e7a3cac0d14fbfc3（2026-11-28 14:37:51 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** d35c88c4c636876a0b19ef364896cb36abfcbb20（2026-11-28 14:41:45 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-hk-ellhalf-sextic-cover-1930-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-28-HANDOFF-before-Haar-gauge-Phi-support-1935-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -39,7 +39,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，整Δ0已闭。** 全Pf固定λ原monic t³/三生成1,t,t²已刊，无ellhalf/Δ/Φ/D逆。整ellhalf 53d唯一6.111232795秒/0正式刊：五固定Q cofactor→整K2[u]g12，完整八原返；QQ正norm=不可约F6⁴，u≤6而Q纤维全保。新Cramer基点H3短定义接整六维域Q饱和，不预记H3⁴已匹配；旧门冻。
-- **Phi错链冻，真t0/A0/B0/fu/α0/ellhalf闭。** 真3mean+完整Loww+R6最高t1原单位，t0投影空；P³/ξ⁶η⁶/n¹¹及ell3/2/R6单位保全幂零。固定45行degree8满射给未几何局部化(I6,R6)全权22指定生成：t^0..7、f/V·t^0..6，旧≤392例外全覆盖。F444/维≤1、C6/Vlow两t8保；原值曲线/空性仍开。
+- **Phi错链冻，真t0/A0/B0/fu/α0/ellhalf闭。** 真3mean+完整Loww+R6最高t1原单位，t0投影空；P³/ξ⁶η⁶/n¹¹及ell3/2/R6单位保全幂零。固定45行degree8满射给未几何局部化(I6,R6)全权22指定生成：t^0..7、f/V·t^0..6，旧≤392例外全覆盖。F444/维≤1、C6/Vlow两t8保；原值曲线/空性仍开；079cc新G14/旧F12两固定轴1009全多项式比较首次120秒1GiB已派，无回执。
 
 ### rankH3原ess6
 
@@ -68,6 +68,6 @@
 
 - 原A单射/稠密像/拟幂零/非紧，普通M未知。真迹类Ky全目标稠密、核Cy⊥；每个非零像对全T循环，所有proper闭T不变L拉回=Cy⊥，此族像交点零。Cy⊥非零未付；RanKy∩RanJ0及同源Abel平方费/log→∞已付，不外推W。D非闭/固定费非localizing/闭包R无紧及MASA门冻结，未知M额外代数保持开。
 - 同源累计log费Θ(n⁵)、全尾q|pk、M有限头非Fredholm/无尾模补或幂不变闭补已付；不分裂M开，全尾不传未知限制。全C强*密度/喷射/UHF零交不付入域；指定正循环f的PXf全柱无界/C1∩Cf0/无可闭已付，普通分母路线冻结。
-- **原Haar普通格/根：** 严格I/F、closureF=I开；Pr全旗quasi/图核心，YN²=C DN、DN强*I，QN²无条件强*。新单前向列YN PtΩ强子列即得Sp=f的闭稳定根，RanS含循环Cp，m0≥1返原M；不需p∈RanS或逆QN列。亦适用Z_n=CW_n²强*I后CW_nPtΩ。紧性未付；分离选择只付前向偶切口发散/逆向全切口发散，前向奇切口仍开。有限相位/log支不改旧逆列紧性，续真来源。
+- **原Haar普通格/根：** 严格I/F、closureF=I开；Pr全旗quasi/图核心，YN²=C DN、QN²强*保。首位γ现给有界V²=CP²的两个非零零因子；原连续J形式下An²→C及任一本征源强列直接给同C超不变，Pγ(P)F+把PtΩ列准确归约，含m0=0。DN−γDN范数≤bN/4已付。实际强列/分子未成；分离例只前向偶发散，奇切口/无限相位继续。
 - 真GR=RT+Q与全C自伴域可付P=RQ入域；q∤p的Q=FZR+KR第一阶整类已排，原q²结式/R171/Puiseux范围保档。真实gauge识别开。原第一正则器ell1时C∩UHF单位、非ell1全喷射平坦，不付另一分母的未知限制。
 - Haar解析循环闭包/真源费、同向量非对称双幂分类及解析单位多项式增长排除已付。非循环g、真实Green/紧扰动/负整数边界、未知域、同forcing/carry、子商损失及N=M开；全H稠密不传未知限制，正常态不代边界奇异态。

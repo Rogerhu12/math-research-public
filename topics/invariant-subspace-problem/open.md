@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-hk-ellhalf-sextic-cover-1930-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Haar-gauge-Phi-support-1935-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar：严格I/F、closureF=I开；Pr全旗quasi/图核心，YN²=C DN、DN强*I，QN²无条件强*。[单前向列新接口](results/R267-appendix-single-forward-column-compactness-and-original-stable-root.md)：只需YN PtΩ一强子列，给Sp=f、闭同域平方C、RanS含循环Cp，m0≥1返原普通M；也适用CW_nPtΩ，不需p∈RanS或逆QN列。实际紧性未付；指定分离选择仅前向偶切口发散，奇切口尚未排，逆向全切口发散不能移用。有限相位/log支结论保，继续真实前向源估计。
+原Haar严格I/F、closureF=I开；Pr全旗quasi/图核心、YN²=C DN及QN²强*保。[首位γ直接超不变桥](results/R12-appendix-first-bit-gauge-zero-divisors-and-single-forward-column-hyperinvariants.md)现刊：有界V²=CP²给两个非零原零因子；全H连续J转置下An²→C及单本征源强列（含零极限）直接给同C超不变。Pγ(P)F+将原PtΩ一列准确归约，m0=0亦适用；实际DN−γDN范数≤bN/4。旧闭稳定根接口保，新的强列/实际平方分子仍待构造；分离选择只前向偶发散，奇切口/无限相位/一般原源继续。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -200,7 +200,7 @@ W旧闭支/≤616824、b0比值≤23088/U0另3及同h余34/CD50/三核/h0、C2/L
 
 旧firsthead e6d789直接使用错误Rbar。由此而来的H1关闭/首头单位/三生成/旧P6、C6、H42、C5与完整583等原题推论均撤回；旧矩阵本身的精确运算和失败仍保留，不改执行历史，不向新模型转移单位。等单值compact三列也是直接消费者，其后继原结论同样按来源暂挂。旧独立raw Gram链继续逐项分类，不能按日期一并判定。
 
-[正确Phi全最高排除与22生成](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-unit-ideal-and-twenty-two-generators.md)已成纸面整环证明：完整NS/PS最高Loww给P³/ξ⁶η⁶/n¹¹，模幂零后ell3/2且R6单位；t0投影空。剩余域(2,2,6)正则序列→固定45行degree8映射全权满射，未几何局部化(I6,R6)由t^0..7及f/V·t^0..6共22元生成，全部旧≤392例外纤维已覆盖。F444纯权支持/维≤1、全六原C6、完整Vlow总5与两t8保。物理D局部化后逐权Artin长度≤22，但不冒称全局A有限；接完整原值与权曲线排除，未闭全Phi。
+[正确Phi全最高排除与22生成](results/R150-appendix-unit211-Phi-zero-corrected-whole-highest-unit-ideal-and-twenty-two-generators.md)已成纸面整环证明：完整NS/PS最高Loww给P³/ξ⁶η⁶/n¹¹，模幂零后ell3/2且R6单位；t0投影空。剩余域(2,2,6)正则序列→固定45行degree8映射全权满射，未几何局部化(I6,R6)由t^0..7及f/V·t^0..6共22元生成，全部旧≤392例外纤维已覆盖。F444纯权支持/维≤1、全六原C6、完整Vlow总5与两t8保。物理D局部化后逐权Artin长度≤22，但不冒称全局A有限；接完整原值与权曲线排除，未闭全Phi。 新[完整Vlow第二纯权支持输入](notes/2026-11-28-unit211-Phi-zero-corrected-Vlow-second-weight-support-two-axis-comparison-8542-input.md)079cc首次120秒1GiB已派：固定G14必要支持及旧F12的1009/Q2、u2完整切片，两个全局度上界/最高矩阵各自付款，禁剥模paid因子；只有两向均保度且gcd1才排QQ曲线，尚无新回执。
 
 ### R271：更多有限联合源已成，同W实际费用未成
 
