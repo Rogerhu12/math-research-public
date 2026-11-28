@@ -177,3 +177,6 @@ ASQ27R：真46149703541/1 child1/rc1且0cells/0targets，首异常被suffix二�
 
 
 AGJOR：真46150669215/1于13:51:56success；1973全成/521samecut精确0，原576根接口不重算。whole1510B7db431ce…；strict2.945707169633746e−12/natural4.066489833535994e−10/common5.042447393584633e−9<5.043e−9；12753217/44821297B私件双SHA保，非全普通/非局部响应。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ25R：实际ASQ25C reserve前KeyError restore_only、0children/0files/0targets，20382B5eba5710…全保。新transport严格绑定269current/53history五原形状与全Git bytes/SHA/blob、同路径必同bytes；57whole完全反构原14b776manifest，原consumed/concurrency/4目标/means不动。真实科学结果待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

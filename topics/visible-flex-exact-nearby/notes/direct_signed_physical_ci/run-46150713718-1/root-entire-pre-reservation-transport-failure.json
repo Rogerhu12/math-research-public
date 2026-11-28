@@ -1,0 +1,50 @@
+{
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T13:42:02Z",
+        "conclusion": "failure",
+        "head_sha": "e289e68549748f79d60900ca2cace49556271dfc",
+        "id": 140996546327,
+        "name": "signed-coordinates",
+        "started_at": "2026-11-28T13:39:44Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "failure",
+      "head_sha": "e289e68549748f79d60900ca2cace49556271dfc",
+      "id": 46150713718,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T13:39:42Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T13:42:02Z"
+    },
+    "jobs_API": {
+      "bytes": 2718,
+      "sha256": "7c60941e099a661d712581d0c94c7e960eacd1291d88008391fa9c92e3407750"
+    },
+    "observed_at": "2026-11-28T13:52:14.568277+00:00",
+    "run_API": {
+      "bytes": 13328,
+      "sha256": "b6b2907164f971d78bcf207120aa5f762fa506980b7e09511c9ca1fc4974cd5c"
+    }
+  },
+  "whole_execution": {
+    "bytes": 20382,
+    "sha256": "5eba5710b93cbca94ae11c8da0913ba345ffaee4d5dd5253d14d7a121ee5d123"
+  },
+  "whole_logs": {
+    "bytes": 92695,
+    "sha256": "d768dc1678c5009d683174b873d571939c7281ec79415acf76f089c7f3075033"
+  },
+  "actual_failure": {
+    "message": "'restore_only'",
+    "traceback": "Traceback (most recent call last):\n  File \"/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_selected_signed_source_public_worker.py#ASQ25\", line 180, in main\n    current(head)\n  File \"/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_selected_signed_source_public_worker.py#ASQ25\", line 1, in current\n    \"\"\"Public worker for the complete two-column original-body signed source carrier.\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_signed_physical_public_worker.py\", line 37, in stage_dcp\n    if not s[\"restore_only\"] or s[\"encoding\"]!=\"gzip-json\":\n           ~^^^^^^^^^^^^^^^^\nKeyError: 'restore_only'\n",
+    "type": "KeyError"
+  },
+  "scientific_children": 0,
+  "scientific_files": [],
+  "reservation_created": false,
+  "old_scientific_targets_recomputed": 0
+}

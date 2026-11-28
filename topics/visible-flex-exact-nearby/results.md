@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ25R：真实53种历史整件接收错误后的保真首发](results/R149-supplement-actual-original-DCP53-history-transport-and-signed-column-first-entry.md)：实际ASQ25C reserve前KeyError restore_only、0children/0files/0targets，20382B5eba5710…全保。新transport严格绑定269current/53history五原形状与全Git bytes/SHA/blob、同路径必同bytes；57whole完全反构原14b776manifest，原consumed/concurrency/4目标/means不动。真实科学结果待。
+
 - [AGJOR：全部1973真实外域接口已实际接收](results/R149-supplement-actual-all1973-genuine-exterior-interface-receivers.md)：真46150669215/1于13:51:56success；1973全成/521samecut精确0，原576根接口不重算。whole1510B7db431ce…；strict2.945707169633746e−12/natural4.066489833535994e−10/common5.042447393584633e−9<5.043e−9；12753217/44821297B私件双SHA保，非全普通/非局部响应。
 
 - [ASQ27R：真实零accepted失败后的原子负向轨迹首发](results/R149-supplement-actual-zero-suffix-failure-and-atomic-negative-Newton-continuation.md)：真46149703541/1 child1/rc1且0cells/0targets，首异常被suffix二次save掩盖，不能推nan/奇异。56whole新入口先全193trace/六有向decimal/validator/atomic后计数，并保原traceback；非有限flat仅可用原有限解析sup²×真最高权，独立计数。原全部3073/65/193/η0及同Aδ*不改。
