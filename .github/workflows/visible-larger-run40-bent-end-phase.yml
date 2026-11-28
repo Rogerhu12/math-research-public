@@ -1,0 +1,68 @@
+name: Run 40 whole bent axial body direct finite-phase search
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-larger-amplitude/computations/run40-bent-end-phase-request.json'
+      - '.github/workflows/visible-larger-run40-bent-end-phase.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-run40-bent-end-phase
+  cancel-in-progress: false
+
+jobs:
+  finite_amplitude:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Check out the triggering public source commit
+        id: checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r738_exact_gap.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/run36_bent_disk_actions.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_disk_search.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_end_phase_fields.py
+            /topics/visible-flex-larger-amplitude/computations/bent-end-phase-design-v1.json
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r744_extruded_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r746_axial_translation_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r747_offset_arclength_closed_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r748_developable_axial_caps.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261128/bent_body_atlas.py
+            /topics/visible-flex-larger-amplitude/computations/run40-bent-end-phase-request.json
+            /topics/visible-flex-larger-amplitude/notes/run40-bent-end-phase-*.json
+      - name: Select the pinned public numerical Python
+        id: python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - name: Execute the complete finite-phase physical shape problem and publish actual returns
+        if: ${{ always() && steps.checkout.outcome == 'success' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+          PYTHONUNBUFFERED: '1'
+          RUN40_PYTHON_SETUP: ${{ steps.python.outcome }}
+        shell: bash
+        run: >-
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261128/observe_bent_disk_search.py
+          --request topics/visible-flex-larger-amplitude/computations/run40-bent-end-phase-request.json
+          --setup-conclusion "$RUN40_PYTHON_SETUP"

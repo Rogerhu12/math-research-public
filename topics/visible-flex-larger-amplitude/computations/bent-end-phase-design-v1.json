@@ -1,0 +1,220 @@
+{
+  "schema": "direct-evolving-closed-end/v1",
+  "source_sha256": {
+    "r748_developable_axial_caps.py": "947245856229ddeb95b83c763403e86bdd867c63b63b6013929d2e2a13a87b46",
+    "r747_offset_arclength_closed_two_jets.py": "09b29cd06eec6887bf8f103f104cdd9ca598b691c3e7503fa2220dbafc71e3ac",
+    "r746_axial_translation_closed_two_jets.py": "e5ab4d4a0921cb83c7eefc485147883d6dcea92ff9df6f3f3da8604440f174ef",
+    "r744_extruded_closed_two_jets.py": "35bb8a1612dd22a8e215a7682ead0c9836b26f3a6c6b525a876fff178a3d6c24",
+    "r742_tilted_disk_two_jets.py": "5088d1e5183b91f78d8fd1af056bd774ce6ef54b5c578277c3dc7ef04fe183bd",
+    "r740_rolled_disk_seed.py": "b812afa381e2775433710edb9cfa9bd54f0b1b892935c21f2f785675bb4d866f",
+    "bent_end_phase_fields.py": "5305a955f3f5a0f37a3097388b025889584ce2033fe82bcab0140ab8330b31ba",
+    "bent_body_atlas.py": "873bcabafc61a7223736d7806201e289349f838359e59c539f27fafc066ad102"
+  },
+  "designs": [
+    {
+      "id": "legacy-named-free",
+      "angle": "legacy",
+      "mode": "named",
+      "central": "free"
+    },
+    {
+      "id": "offset-cap-only-free",
+      "angle": "arc",
+      "mode": "cap-only",
+      "central": "free"
+    },
+    {
+      "id": "legacy-developable-full",
+      "angle": "legacy",
+      "mode": "dev",
+      "central": "free",
+      "bend": 0.000244140625,
+      "fade": [
+        0.71,
+        1.09
+      ]
+    },
+    {
+      "id": "offset-developable-full",
+      "angle": "arc",
+      "mode": "dev",
+      "central": "free",
+      "bend": 0.000244140625,
+      "fade": [
+        0.71,
+        1.09
+      ]
+    },
+    {
+      "id": "legacy-developable-boundary",
+      "angle": "legacy",
+      "mode": "dev",
+      "central": "locked",
+      "bend": 0.000015625,
+      "fade": [
+        1,
+        1.095
+      ]
+    }
+  ],
+  "metric_loss_scale": 1.5,
+  "curvature_cap": 9.55,
+  "bend_weight": 0.8,
+  "support_goal": 0.103,
+  "support_weight": 8,
+  "normal_displace_goal": 0.045,
+  "normal_displace_weight": 1.5,
+  "travel_goal": 0.35,
+  "travel_weight": 0.6,
+  "jacobian_probe": 5e-8,
+  "dense_jacobian_entries": 42000000,
+  "coarse": {
+    "id": "all-five-coarse",
+    "degree": 3,
+    "cap_degree": 3,
+    "roll_spans": 3,
+    "roll_modes": 3,
+    "intervals": 2,
+    "mesh": [
+      27,
+      11,
+      8,
+      7
+    ],
+    "check": [
+      69,
+      21,
+      15,
+      13
+    ],
+    "max_nfev": 52,
+    "inner": 85,
+    "regularizer": 0.000007,
+    "extra_check": false
+  },
+  "refinements": [
+    {
+      "id": "fixed-target-space-time-1",
+      "degree": 4,
+      "cap_degree": 4,
+      "roll_spans": 4,
+      "roll_modes": 5,
+      "intervals": 4,
+      "mesh": [
+        35,
+        13,
+        10,
+        9
+      ],
+      "check": [
+        77,
+        25,
+        17,
+        15
+      ],
+      "max_nfev": 60,
+      "inner": 95,
+      "regularizer": 0.000004,
+      "extra_check": true,
+      "previous_roll_spaces": [
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "fixed-target-space-time-2",
+      "degree": 5,
+      "cap_degree": 6,
+      "roll_spans": 8,
+      "roll_modes": 7,
+      "intervals": 8,
+      "mesh": [
+        49,
+        17,
+        12,
+        11
+      ],
+      "check": [
+        103,
+        33,
+        21,
+        19
+      ],
+      "max_nfev": 68,
+      "inner": 105,
+      "regularizer": 0.000002,
+      "extra_check": true,
+      "previous_roll_spaces": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "fixed-target-space-time-3",
+      "degree": 7,
+      "cap_degree": 8,
+      "roll_spans": 12,
+      "roll_modes": 9,
+      "intervals": 16,
+      "mesh": [
+        65,
+        21,
+        16,
+        14
+      ],
+      "check": [
+        127,
+        41,
+        27,
+        23
+      ],
+      "max_nfev": 76,
+      "inner": 125,
+      "regularizer": 0.000001,
+      "extra_check": true,
+      "previous_roll_spaces": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          8,
+          7
+        ]
+      ]
+    }
+  ],
+  "cloud_grid": [
+    27,
+    9,
+    5,
+    5
+  ],
+  "moment_grid": [
+    125,
+    33,
+    25,
+    19
+  ],
+  "geometry_phases": [
+    0,
+    0.2617993877991494,
+    0.5235987755982988,
+    0.7853981633974483,
+    1.0471975511965976,
+    1.3089969389957472,
+    1.5707963267948966
+  ]
+}

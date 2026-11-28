@@ -125,6 +125,8 @@ R746–748完整证明/六jet见[索引](results.md)：R746整柱准确同g、�
 
 [39b真材料流](notes/2026-11-28-run39b-actual-material-flow-complete-launch.md)完整七件现刊触发：原39全11阶段/原预算重生并核全点身份，再对6/9/10同g*跑双DOP853全0…π与完整J，真实切图和33时间样本。失败/独立重生明确保留；actual未返。
 
+[40真全时物理](notes/2026-11-28-run40-direct-full-phase-complete-launch.md)6完整件现刊触发：同一初g/全材料/0…π/2，原5粗及4/8/16时间结三精化；两真帽、非整数端层、握外中央三分量全放。锁比较支若赢，以全部旧样条列精确保场后新增中央自由；65时间独立核查，不借Killing或旧点。actual未返。
+
 ### 完整准确下游与完成责任
 
 R726–730旧准确包完整保护；R732准确13件和闭/矩/mesh14件全部main，139源/922cells/32stage/六jet/N38/52/G8/22、900秒/1Mleaf/192bit、7原步骤及原完整预算不减。原路径、同点snapshot/normal/32stage/胞/尾与late failure合同保固定全文；待35自然science/whole pure后逐一支付。
