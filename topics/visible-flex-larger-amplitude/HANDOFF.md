@@ -58,6 +58,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R781](results/R781-circular-three-lobe-thick-shell-and-free-spatial-rings.md)：新g真圆三波闭球，准确初D<1.362；短/六个百分点径向平衡场全t reach≥1/24.45、held>.320、商距>.096，最坏Gram仍<.305仅改善>.013。自由整空间环三最坏圈全g/K<9.1，其余混合/轴向/整管须重付。
 
 [51](notes/2026-11-28-run51-circular-metric-free-rims-and-complete-three-family-launch.md)46178008636/PID2857：18实际冻结源全核同，真实18:50:50Z启动，索引六粗已返待独立数值核读；原三族18stage/各69相七网继续，固定初D厚弦/全谱/真内握不变。
-<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 2867aa6932a46964ce94eca0fe81dc22721cdcbb
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 171cae01734552f415bd901fae8e2744709f73f6
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull e8672627505a25497a9b0913818203f0d0c87179
+<!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 2ac37b2035f44390b9b6f1293160b5c52d0869c5
