@@ -4,7 +4,7 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **388430e04257fc122cdb279e8ee9d9f01cd8621f**；本次恢复后已实际 pull/rebase，并核至当前已发布源。私库最近成功终端 pull 为 2026-11-28 15:27 UTC、**3e7c6871779bfdfbb55d551f55a48ed706834c98**，根未变，QUEUE 仍为本会话。14:32 磁盘满、之后环境不可用的失败 pull 未冒成功；其间 GitHub API 小文本续接保留在旧H。15:25 后环境恢复，继续至少每小时实际 pull，根/课题 README 有变只读差异并立即执行。
+公开最近成功的终端 pull/双 README 检查为 **ba8108a9515673d9fbd5ad5e8c3caecc8496d8b0**；本次恢复后已实际 pull/rebase，并核至当前已发布源。私库最近成功终端 pull 为 2026-11-28 15:27 UTC、**3e7c6871779bfdfbb55d551f55a48ed706834c98**，根未变，QUEUE 仍为本会话。14:32 磁盘满、之后环境不可用的失败 pull 未冒成功；其间 GitHub API 小文本续接保留在旧H。15:25 后环境恢复，继续至少每小时实际 pull，根/课题 README 有变只读差异并立即执行。
 
 公开根 blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 均未变。根16已读。子代理均显式 **gpt-6.2-astra / ultra**，当前三名都无下级。每条结论立即提交推送；NFF 立即 pull/rebase、查规则、重推至成功，不强推。科学仅公开 Actions；本地只纸证、源码、已完成日志解析/元数据。根12不重复机械审核；根15不入库可再生大数据。H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -41,6 +41,8 @@ R643自然终态：[实际保留态与未完项](notes/2026-11-28-r643-fixed-sou
 R631自然终态：[实际保留态与未完项](notes/2026-11-28-r631-design174-and-two-position-stencils-natural-terminal.md)。μ0设计总174；双位置stencil已完成，η约2.46059e−5，非宏观同g。
 
 R707自然终态：[实际保留态与未完项](notes/2026-11-28-r707-actual-material-f60be0-retained-natural-terminal.md)。当前f60be0材料η3.22670e−5；三真待加径点保留，旧ada2债不消。
+
+R705自然终态：[实际保留态与未完项](notes/2026-11-28-r705-four-work-seven-independent-and-paid-normal-natural-terminal.md)。11相位源与末几何均未过；140×140真normal存在，α索引4未完。
 
 ## 环境恢复后找到的未发布稿件
 

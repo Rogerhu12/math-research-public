@@ -37,3 +37,5 @@
 - [R631 自然终态：174 次设计接受及双直接位置读数](notes/2026-11-28-r631-design174-and-two-position-stencils-natural-terminal.md)。μ0设计总174；双位置stencil已完成，η约2.46059e−5，非宏观同g。
 
 - [R707 自然终态：真实新材料上的保留场与三待加径点](notes/2026-11-28-r707-actual-material-f60be0-retained-natural-terminal.md)。当前f60be0材料η3.22670e−5；三真待加径点保留，旧ada2债不消。
+
+- [R705 自然终态：四工作相位、七独立相位及已付矩阵](notes/2026-11-28-r705-four-work-seven-independent-and-paid-normal-natural-terminal.md)。11相位源与末几何均未过；140×140真normal存在，α索引4未完。
