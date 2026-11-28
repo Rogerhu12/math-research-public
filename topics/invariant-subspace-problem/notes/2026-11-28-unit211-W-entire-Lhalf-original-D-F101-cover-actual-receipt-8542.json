@@ -1,0 +1,533 @@
+{
+  "schema": "isp-entire-Lhalf-original-D-F101-cover-actual-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "dateUTC": "2026-11-28",
+  "scope": "entire current W Lhalf=0 original physical D!=0 branch, including all k poles and quadratic ramification",
+  "runId": 46103038066,
+  "jobId": 140849577998,
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-entire-Lhalf-quadratic-original-D-final-denominator-return-8542.py",
+    "gitBlob": "0c9c9fb0d2ccbe328017e68f2b086175005e2049",
+    "bytes": 17877,
+    "sha256": "53c744cfb54beccaae092fb51ab9869331a0b801361eefc5e2e0032d674bdf0f",
+    "firstOutputRevisionUnexecuted": "9ac2e26ad1d4d74386a38ae2b9df212a5b7bbae2",
+    "limits": {
+      "seconds": 180,
+      "addressSpaceBytes": 4294967296
+    },
+    "bothNestedHardLimitsConfirmedBytes": 4294967296
+  },
+  "actualDriver": {
+    "elapsed_seconds": 10.678929948999997,
+    "max_child_rss_kib": 89980,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "760c636f5e21e36fb58d70e3890d957fa197083f",
+        "before": "760c636f5e21e36fb58d70e3890d957fa197083f",
+        "rules_git_blobs": {
+          "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T03:29:00.580854+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46103038066",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "760c636f5e21e36fb58d70e3890d957fa197083f",
+    "source_exit_code": 0,
+    "source_git_blob": "0c9c9fb0d2ccbe328017e68f2b086175005e2049",
+    "source_sha256": "53c744cfb54beccaae092fb51ab9869331a0b801361eefc5e2e0032d674bdf0f",
+    "stdout_bytes": 10429,
+    "stdout_sha256": "80bcda6278084e6ed571068106532a3a533994b4f571a825ddff3e63139d9a22",
+    "stop_reason": null
+  },
+  "actualRecords": [
+    {
+      "stage": "necessary_same_D_columns_for_new_whole_Lhalf_curve",
+      "originalKernelColumns": [
+        [
+          1,
+          "1/2",
+          "1/2",
+          0,
+          "1/4",
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "constantColumnTransformationDeterminant": 1,
+      "exactLhalf": "4*k*e^2-(k^2+4*k+8)*e-(k^2+6*k+8)",
+      "allBaseRowsAndOriginalDTargetForwardReverseProductsReturned": true,
+      "QQExactColumnDivisionReturns": 26,
+      "originalDTargetMeanTraceReturned": true,
+      "DTargetPaidDenominator": {
+        "degrees": [
+          11,
+          15
+        ],
+        "totalDegree": 22,
+        "terms": 109,
+        "bytes": 3155,
+        "sha256": "0b63aa2e51ac3f71129c4cfaec89f7eebeab5e970b596ded1705cb80d2a8ff6c"
+      },
+      "deflatedDTarget": {
+        "degrees": [
+          13,
+          16
+        ],
+        "terms": 844,
+        "bytes": 25106,
+        "sha256": "e7e829c407e24ee4fc695ec69587456b3c5a2860471df2d4800df85610d3650c"
+      },
+      "deflatedBaseRowProfiles": [
+        {
+          "degrees": [
+            28,
+            37
+          ],
+          "terms": 4152,
+          "bytes": 158116,
+          "sha256": "fa43ab09b6963cb55860d35a0f51cf1f4f5ee78fe8217b3a3d4023d097556bb3"
+        },
+        {
+          "degrees": [
+            28,
+            37
+          ],
+          "terms": 4146,
+          "bytes": 157093,
+          "sha256": "f2edb84f54fbd0a629da762e09008cb8146468d89d7084857f6492609cf517a0"
+        },
+        {
+          "degrees": [
+            36,
+            49
+          ],
+          "terms": 6843,
+          "bytes": 287894,
+          "sha256": "4b7acfeafb11eb8e7f11d385530193038ab41c54bbe30f4393bf06fd090ebc42"
+        },
+        {
+          "degrees": [
+            40,
+            54
+          ],
+          "terms": 8655,
+          "bytes": 384683,
+          "sha256": "1e571f4033c6e314f99523f1a9529a11c53216155b57f178bd30a4e19864b12d"
+        },
+        {
+          "degrees": [
+            36,
+            49
+          ],
+          "terms": 6837,
+          "bytes": 286308,
+          "sha256": "7fde87b4cbf2fad00f400d75c7f96d48136ebba7ee0860461584c648b2a181bc"
+        },
+        {
+          "degrees": [
+            40,
+            54
+          ],
+          "terms": 8655,
+          "bytes": 382741,
+          "sha256": "a421c44341c3699d41d345e2ad889c64caa944a22a3ade483995c651c6acf203"
+        }
+      ],
+      "universalOriginalCofactorIdentity": "det(N)*d=dprime*adj(N)*M",
+      "noLhalfInverse": true,
+      "entireLhalfZeroRetained": true,
+      "noH198OrOtherNewHeadInverse": true,
+      "originalDTargetValidOnEntireCurrentW": true,
+      "oldQQNativeDeterminantNotReplayed": true,
+      "wholeWExcluded": false,
+      "seconds": 8.481073097
+    },
+    {
+      "stage": "new_entire_Lhalf_complete_quadratic_original_D_input",
+      "field": "QQ(k)[e]/(4*k*e^2-(k^2+4*k+8)*e-(k^2+6*k+8))",
+      "wholeQuadraticAlgebraUsed": true,
+      "allQuadraticRelationProductsReturned": true,
+      "genericDiscriminantCoefficientsAscending": [
+        64,
+        192,
+        128,
+        24,
+        1
+      ],
+      "genericIrreducibilityByQuadraticSquareCoefficientComparison": true,
+      "discriminantNotInverted": true,
+      "originalSixMatrixDefinition": {
+        "bytes": 122214,
+        "sha256": "63595d847f66bd50be957e53710a398ea11383ae6a896bf41ed0680b64a633eb"
+      },
+      "actualOriginalDTargetDefinition": {
+        "bytes": 3129,
+        "sha256": "1f3cab6174ef4da1308ad0fd07cce3c84afd738d28c7b81266b64c946deb3c14"
+      },
+      "previousCoprimalityUsed": "full p1009,k3 Pprime/Lhalf Bezout with monic integral lifting",
+      "noSelectedRootOrNumericalSubstitution": true,
+      "allFiniteKPoleAndRamificationFibresRetained": true,
+      "wholeWExcluded": false,
+      "seconds": 8.745786232999997
+    },
+    {
+      "stage": "new_whole_Lhalf_actual_original_quadratic_pivot",
+      "pivot": 0,
+      "actualTrueNormInverseCount": 1,
+      "actualRowCoordinateReturns": 112,
+      "exactQQkPolynomialDivisionReturns": 21968,
+      "remainingMaximumCoefficientDegree": 85,
+      "pivotDefinition": {
+        "column": 0,
+        "rowSwap": 0,
+        "pivot": {
+          "aNumeratorDegree": 36,
+          "aDenominatorDegree": 0,
+          "bNumeratorDegree": 36,
+          "bDenominatorDegree": 0,
+          "bytes": 1738,
+          "sha256": "c0ffd6596be24ca4fb8310203368c63fefeb8d7dcbf76896f6d0c263365f9a0a"
+        }
+      },
+      "noFinalCoverOrWholeCurveExclusionClaim": true,
+      "wholeWExcluded": false,
+      "seconds": 8.833961616
+    },
+    {
+      "stage": "new_whole_Lhalf_actual_original_quadratic_pivot",
+      "pivot": 1,
+      "actualTrueNormInverseCount": 2,
+      "actualRowCoordinateReturns": 168,
+      "exactQQkPolynomialDivisionReturns": 23818,
+      "remainingMaximumCoefficientDegree": 94,
+      "pivotDefinition": {
+        "column": 1,
+        "rowSwap": 5,
+        "pivot": {
+          "aNumeratorDegree": 61,
+          "aDenominatorDegree": 0,
+          "bNumeratorDegree": 61,
+          "bDenominatorDegree": 0,
+          "bytes": 4082,
+          "sha256": "143d0507c02a286212b200ef72e6e34ddbb9bfb47ba1b12e4b82a6fcce338215"
+        }
+      },
+      "noFinalCoverOrWholeCurveExclusionClaim": true,
+      "wholeWExcluded": false,
+      "seconds": 8.957471654999999
+    },
+    {
+      "stage": "new_whole_Lhalf_actual_original_quadratic_pivot",
+      "pivot": 2,
+      "actualTrueNormInverseCount": 3,
+      "actualRowCoordinateReturns": 210,
+      "exactQQkPolynomialDivisionReturns": 25064,
+      "remainingMaximumCoefficientDegree": 121,
+      "pivotDefinition": {
+        "column": 2,
+        "rowSwap": 3,
+        "pivot": {
+          "aNumeratorDegree": 85,
+          "aDenominatorDegree": 0,
+          "bNumeratorDegree": 85,
+          "bDenominatorDegree": 0,
+          "bytes": 7549,
+          "sha256": "3496f537b41c6479bf84dd2418e462f3a0197b8d611df49085d46172003be3e0"
+        }
+      },
+      "noFinalCoverOrWholeCurveExclusionClaim": true,
+      "wholeWExcluded": false,
+      "seconds": 9.134326015
+    },
+    {
+      "stage": "new_whole_Lhalf_actual_original_quadratic_pivot",
+      "pivot": 3,
+      "actualTrueNormInverseCount": 4,
+      "actualRowCoordinateReturns": 238,
+      "exactQQkPolynomialDivisionReturns": 25818,
+      "remainingMaximumCoefficientDegree": 146,
+      "pivotDefinition": {
+        "column": 3,
+        "rowSwap": 5,
+        "pivot": {
+          "aNumeratorDegree": 120,
+          "aDenominatorDegree": 0,
+          "bNumeratorDegree": 120,
+          "bDenominatorDegree": 0,
+          "bytes": 14091,
+          "sha256": "6f82af6f31fd0b63e978ffed59be48c96d8ab73417a0e52893ef8ecf346781d6"
+        }
+      },
+      "noFinalCoverOrWholeCurveExclusionClaim": true,
+      "wholeWExcluded": false,
+      "seconds": 9.356765692999996
+    },
+    {
+      "stage": "new_whole_Lhalf_actual_original_quadratic_pivot",
+      "pivot": 4,
+      "actualTrueNormInverseCount": 5,
+      "actualRowCoordinateReturns": 252,
+      "exactQQkPolynomialDivisionReturns": 26192,
+      "remainingMaximumCoefficientDegree": 146,
+      "pivotDefinition": {
+        "column": 4,
+        "rowSwap": 4,
+        "pivot": {
+          "aNumeratorDegree": 139,
+          "aDenominatorDegree": 0,
+          "bNumeratorDegree": 139,
+          "bDenominatorDegree": 0,
+          "bytes": 18366,
+          "sha256": "6ade7d3f39d08715b10561c4e23b010156b6778f72694842c00282233914154b"
+        }
+      },
+      "noFinalCoverOrWholeCurveExclusionClaim": true,
+      "wholeWExcluded": false,
+      "seconds": 9.498656923000002
+    },
+    {
+      "stage": "new_whole_Lhalf_actual_original_quadratic_pivot",
+      "pivot": 5,
+      "actualTrueNormInverseCount": 6,
+      "actualRowCoordinateReturns": 252,
+      "exactQQkPolynomialDivisionReturns": 26298,
+      "remainingMaximumCoefficientDegree": 146,
+      "pivotDefinition": {
+        "column": 5,
+        "rowSwap": 5,
+        "pivot": {
+          "aNumeratorDegree": 146,
+          "aDenominatorDegree": 0,
+          "bNumeratorDegree": 146,
+          "bDenominatorDegree": 0,
+          "bytes": 19901,
+          "sha256": "793e0bbf6708847b1c9e6971f62222ff8635f5599615c3d3344acf6bdea4c534"
+        }
+      },
+      "noFinalCoverOrWholeCurveExclusionClaim": true,
+      "wholeWExcluded": false,
+      "seconds": 9.565591594999997
+    },
+    {
+      "stage": "new_complete_original_D_target_return_in_whole_Lhalf_quadratic_algebra",
+      "allSixOriginalTargetCoordinatesReturned": true,
+      "originalRowCoefficientDefinition": {
+        "bytes": 178691,
+        "sha256": "3165dcf90126d4304a4daff5ce7e874656ae00306b4c726e4300056efe305a07"
+      },
+      "actualTrueNormInverseCount": 6,
+      "actualQQkExactPolynomialDivisionReturns": 27758,
+      "noDInverseUsed": true,
+      "noSelectedQuadraticRoot": true,
+      "intermediatePivotZerosNotDiscarded": true,
+      "finalCoefficientDenominatorsNotYetCleared": true,
+      "wholeWExcluded": false,
+      "seconds": 10.246330427999997
+    },
+    {
+      "stage": "new_whole_Lhalf_original_D_polynomial_final_coefficient_cover",
+      "finalPureKDenominator": {
+        "degree": 140,
+        "bytes": 9539,
+        "sha256": "c9a9515ce15e56a90e32dac62ffde3380fc6daf7ce9846a6a15f691f79df0a6f"
+      },
+      "allTwelveFinalPolynomialCoefficientReturns": true,
+      "allSixClearedWholeQuadraticCoordinatesReturned": true,
+      "originalIdentity": "G*dprime - sum f_i*N_i belongs to (Lhalf) in QQ[e,k]^6",
+      "polynomialDivisibilityReason": "Lhalf primitive in QQ[k][e], exact whole quadratic residues zero, Gauss",
+      "originalPhysicalConsequence": "G(k)*D belongs to I6+(Lhalf) after original native weight localization",
+      "wholeLhalfNonzeroGOriginalFibresExcluded": true,
+      "allGZeroFiniteFibresRetained": true,
+      "allIntermediatePivotZeroFibresRecoveredByFinalCoefficients": true,
+      "quadraticDiscriminantZeroFibresRetained": true,
+      "originalTargetIsSameDFromSimultaneousColumnIdentity": true,
+      "noExpandedOriginalTraceRequiredForThisEstablishedConsequence": true,
+      "wholeWExcluded": false,
+      "seconds": 10.285840570000001
+    },
+    {
+      "stage": "new_whole_Lhalf_original_D_explicit_polynomial_lift_coordinate",
+      "coordinate": 0,
+      "actualExactLhalfDivisionReturned": true,
+      "quotientDefinition": {
+        "degrees": [
+          38,
+          157
+        ],
+        "totalDegree": 175,
+        "terms": 5369,
+        "bytes": 531057,
+        "sha256": "74a5f72588c25046f467065cd7bbf68cb4ef580da024620722c5005e926ead67"
+      },
+      "wholeWExcluded": false,
+      "seconds": 10.340385856999998
+    },
+    {
+      "stage": "new_whole_Lhalf_original_D_explicit_polynomial_lift_coordinate",
+      "coordinate": 1,
+      "actualExactLhalfDivisionReturned": true,
+      "quotientDefinition": {
+        "degrees": [
+          37,
+          157
+        ],
+        "totalDegree": 174,
+        "terms": 5362,
+        "bytes": 530299,
+        "sha256": "eefd6b15c608ecfb29baa9ce264189a5505d87767099df6057df9b34e1d0b0d2"
+      },
+      "wholeWExcluded": false,
+      "seconds": 10.398050430000001
+    },
+    {
+      "stage": "new_whole_Lhalf_original_D_explicit_polynomial_lift_coordinate",
+      "coordinate": 2,
+      "actualExactLhalfDivisionReturned": true,
+      "quotientDefinition": {
+        "degrees": [
+          39,
+          160
+        ],
+        "totalDegree": 178,
+        "terms": 5742,
+        "bytes": 574467,
+        "sha256": "c6de6c38380e1b257c42eb23dda99bd5d0069f5db6131e26680d6163f68bfc2e"
+      },
+      "wholeWExcluded": false,
+      "seconds": 10.451984423999999
+    },
+    {
+      "stage": "new_whole_Lhalf_original_D_explicit_polynomial_lift_coordinate",
+      "coordinate": 3,
+      "actualExactLhalfDivisionReturned": true,
+      "quotientDefinition": {
+        "degrees": [
+          39,
+          159
+        ],
+        "totalDegree": 177,
+        "terms": 5738,
+        "bytes": 572551,
+        "sha256": "51d942e6786cdb74004fbe3f14ab76a47c47563152a32e5b141ff41c5df98478"
+      },
+      "wholeWExcluded": false,
+      "seconds": 10.505752867000002
+    },
+    {
+      "stage": "new_whole_Lhalf_original_D_explicit_polynomial_lift_coordinate",
+      "coordinate": 4,
+      "actualExactLhalfDivisionReturned": true,
+      "quotientDefinition": {
+        "degrees": [
+          39,
+          160
+        ],
+        "totalDegree": 178,
+        "terms": 5549,
+        "bytes": 553309,
+        "sha256": "0e29386099716e63ce977dfc441f6704843dd05f6d1759062b73c7ebf96f1f32"
+      },
+      "wholeWExcluded": false,
+      "seconds": 10.559754395999999
+    },
+    {
+      "stage": "new_whole_Lhalf_original_D_explicit_polynomial_lift_coordinate",
+      "coordinate": 5,
+      "actualExactLhalfDivisionReturned": true,
+      "quotientDefinition": {
+        "degrees": [
+          39,
+          159
+        ],
+        "totalDegree": 177,
+        "terms": 5550,
+        "bytes": 552125,
+        "sha256": "afa3dfba7968fbe11903fcab4abfa6f95fda83ae4f4f370486bd5abfc8ec2f30"
+      },
+      "wholeWExcluded": false,
+      "seconds": 10.613080817
+    },
+    {
+      "stage": "new_entire_Lhalf_original_D_finite_k_return_complete",
+      "finalUnpaidKCover": {
+        "degree": 101,
+        "bytes": 5793,
+        "sha256": "185c9cb25e54e6b0b85e2d0e509a500de0fb4effae48d7a8ec51366c3ea0764f"
+      },
+      "allOriginalMultiplicityRetained": true,
+      "removedOnlyOriginalPaidKFactors": [
+        [
+          "k",
+          7
+        ],
+        [
+          "k+2",
+          15
+        ],
+        [
+          "k+4",
+          17
+        ]
+      ],
+      "allSixExplicitLhalfPolynomialDivisionProductsReturned": true,
+      "actualWholeQuadraticTargetProducts": 6,
+      "actualClearedCoefficientTargetProducts": 6,
+      "actualTrueNormInverseCount": 6,
+      "exactQQkPolynomialDivisionReturns": 28829,
+      "exactQQWeightPolynomialDivisionReturns": 32,
+      "rowCoordinateReturns": 252,
+      "temporaryGaussianPivotsDoNotEnterFinalCover": true,
+      "noDiscriminantInverse": true,
+      "noNativeWeightNormDeclaredGloballyPaid": true,
+      "wholeLhalfOriginalPhysicalBranchExcluded": false,
+      "allFiniteKCoverZerosStillOpen": true,
+      "wholeWExcluded": false,
+      "ordinaryISPClaim": false,
+      "sourceSHA256": "53c744cfb54beccaae092fb51ab9869331a0b801361eefc5e2e0032d674bdf0f",
+      "noRecomputableLargeCoefficientCacheEncodedOrSplitPayload": true,
+      "peakRSSKiB": 89980,
+      "seconds": 10.615164066999998
+    }
+  ],
+  "completePaperConsequences": {
+    "wholeQuadraticAlgebra": "QQ(k)[e]/(4*k*e^2-(k^2+4*k+8)*e-(k^2+6*k+8))",
+    "actualOriginalTargetIdentity": "s*N=dprime, complete six coordinates",
+    "finalClearedPolynomialIdentity": "sum(f_i*N_i)-G*dprime=Lhalf*q, all six polynomial divisions actually returned",
+    "originalPhysicalIdentity": "F101(k)*D belongs to I6+(Lhalf) after only original native weight localization",
+    "exactCoverDefinition": "the monic lcm G of the twelve fully reduced final QQ(k) solution coefficient denominators, divided exactly by k^7*(k+2)^15*(k+4)^17",
+    "exactGdegree": 140,
+    "exactCoverDegree": 101,
+    "coverCoefficientDefinitionBytes": 5793,
+    "coverCoefficientDefinitionSHA256": "185c9cb25e54e6b0b85e2d0e509a500de0fb4effae48d7a8ec51366c3ea0764f",
+    "allOriginalMultiplicityRetained": true,
+    "noIntermediatePivotOrDiscriminantUnit": true,
+    "wholeWeightEnvironmentQQDimension": 202,
+    "wholeMeanQQDimensionUpperBound": 1212,
+    "wholeFixedSevenCoordinateOriginalSchemeLengthUpperBound": 2424,
+    "wholeLhalfBranchExcluded": false,
+    "allF101FiniteOriginalFibresOpen": true,
+    "wholeWExcluded": false,
+    "ordinaryISPClaim": false
+  },
+  "completeProof": {
+    "suggestedPath": "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-entire-Lhalf-original-D-F101-cover-and-normalized-length.md",
+    "gitBlob": "ee94e8241ae48664799c8be41320e0ff0b0e7ad9",
+    "bytes": 8867,
+    "sha256": "c7decb6a77fcd0baa38c141ddb222853499b1568f526685ddeb6f1bd9052c44e"
+  },
+  "noRecomputableCoefficientOrMatrixPayloadSaved": true,
+  "noEncodedOrSplitPayload": true
+}
