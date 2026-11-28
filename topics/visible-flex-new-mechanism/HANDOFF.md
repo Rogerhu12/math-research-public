@@ -4,13 +4,13 @@
 
 ## 规则和实际同步
 
-公开最近成功的终端 pull/双 README 检查为 **f706df857101c505d0761b261354e08950d09e6f**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
+公开最近成功的终端 pull/双 README 检查为 **823fa5a8cb557614a216e6d61ad7aaaf45e9f062**。私库最近实际终端 pull 为 **2026-11-28 18:56:25 UTC / d277f375a2c359ce29a84a1eb3bfcd6f483c5afd**，根未变、QUEUE仍为本会话进行中且唯一。至少每小时实际pull；每次检查两公开README，有变只读差异立即执行，读过head记这里。NFF或cannot-lock-ref立刻pull/rebase、查两规则后重推到成功；每条结论即推。
 
 公开根blob **99c5ad8d06e939e6cfbbab1afdeffa5463f15f18**、课题 **d0432faff569c8e9af7ed4809847e12880976c11**、私根 **1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a** 未变，根16已读。三位子代理都是 **gpt-6.2-astra / ultra**，逐一确认无下级代理。仅公开Actions执行科学；本地仅纸证、源码/AST/SHA、自然完成日志解析和纯字节运输。根12不重复机械审核，根15不入库可再生大数组；H<10KB/open<30KB/md<100KB/课题<200MB。旧目录17:09丢失后在新/tmp部分克隆，原记录与失败费用全保留。
 
 ## 正在实际推进
 
-**R748 已启动 run46176200567。** head **1a1355d1e88dc75a7bbc7437c34ce1abe149525c**，request SHA **e0d73f1984c1be1695b243aea255cd9b31938f274cc40f1e2bacffaf955e5bc1**。[同一E完整单高度](notes/2026-11-28-r748-first-complete-single-height-fixed-material.md)，93/191/409全列/全部TSQR-SVD，2400秒；原1882q真实转移，两帽/三Gram/完整旋角位移与两轴长。共享原包外补运23base+3校准，1,439,017B；不重已付键。规范深帽估计未含原IEEE/Gauss/OLD相接误差，整体连续资格仍false。
+**R748 原三层36步已自然终态。** [93→191→409全高度/36J/38全谱](notes/2026-11-28-r748-paid36-complete-single-height-natural-terminal.md)，run46176200567/job141075364113，880.705914869秒；末eta .4625174/曲率36.6068、中央Darboux2.6926，全部离散门和全壳仍false。75成员108.6MB原artifact15276770446已全SHA接收；最新s02_complete与两次prolong/原fine不重。新表示须从真实409q转换，规范深帽包不冒IEEE全连续资格。
 
 **R745 厚双谷原终态已登记。** [7接纳/32全2×2/242732新区间单位](notes/2026-11-28-r745-thick-two-valley-paid242732-natural-terminal.md)，run46174255201/job141069279288，1321.976574898秒；中心Wronskian约3.57e−15但true_two_valley_box=null，有限beta≈5.855e16未证全尾。原pending=null、原RHS342033和全部242732胞不重，R759改真半段射影/Krawczyk传播。
 

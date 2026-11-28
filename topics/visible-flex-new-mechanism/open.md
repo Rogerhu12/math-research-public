@@ -116,3 +116,5 @@ R716规范共结必须用原有限BPoly世界零阶h*−h_bin、六jet、两侧�
 **R757 全方向曲率必要门已严格完成。** [整个原中心矩形通过](notes/2026-11-28-r757-entire-center-rectangle-all-direction-curvature-gate.md)，run46178661481/job141083035943，9新单位/5.107658396秒；统一全球余量最小>.00636153564978，四姿无需方向细分、整个矩形true，原424材料积分/旧J/ODE重算0。不排源，不授实际等距场/族；本门不再重复，转实际相容性。
 
 **R745 厚双谷原终态已登记。** [7接纳/32全2×2/242732新区间单位](notes/2026-11-28-r745-thick-two-valley-paid242732-natural-terminal.md)，run46174255201/job141069279288，1321.976574898秒；中心Wronskian约3.57e−15但true_two_valley_box=null，有限beta≈5.855e16未证全尾。原pending=null、原RHS342033和全部242732胞不重，R759改真半段射影/Krawczyk传播。
+
+**R748 原三层36步已自然终态。** [93→191→409全高度/36J/38全谱](notes/2026-11-28-r748-paid36-complete-single-height-natural-terminal.md)，run46176200567/job141075364113，880.705914869秒；末eta .4625174/曲率36.6068、中央Darboux2.6926，全部离散门和全壳仍false。75成员108.6MB原artifact15276770446已全SHA接收；最新s02_complete与两次prolong/原fine不重。新表示须从真实409q转换，规范深帽包不冒IEEE全连续资格。
