@@ -61,9 +61,11 @@ R249/R252/R253分别保材料两jet、source-cross、分区源法向转移。R23
 
 <!-- 2ecf-r258-floor --> [R258](results/R258-accurate-fixed-ramp-signed-radial-metric-floor.md)：准确强位置前缀原样固定的同g误差下界>6.98105e−8；后缀不能消除。
 
+<!-- 2ecf-strong-physical-h --> [强前缀实际h17→33→65](notes/2026-11-28-2ecf-strong-same-g-genuine-physical-h-position-fields.md)已生成，旧17节点PVA逐字保留、g及准确coast端口不变；完整自身度量/几何在算，literal反参另有身份。
+
 ## 工作位置与接续
 
 公开clone /workspace/scratch/2ecfcd6930d6/math-research-public，私clone同级math-research；代理中间文件m12-work、exact-work、strong-work，root-work含全tail生产三driver与精确组成器。输入/输出SHA、真正命令及失败回执在各note；数据丢失按已发表配方重生，不算新结论。root用task_git_sync.py在每次push前literal pull和根/题差读；task_git_rules.json记当前锚。全prefix已完，full-tail-production按互斥源范围继续全部18552；不得借部分覆盖收尾。子问题完成就推进open下一项，不能停等用户。
 
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:13:13 UTC；已读公开 main `9a499d4dd76a513e7ca25e069350ddb95f400711`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 10:13:25 UTC；已读公开 main `2ee36d39309bcb51c6f8baf8de646f4166a02f8d`，根/课题 README 逐差无变化。
