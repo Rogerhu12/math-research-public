@@ -113,7 +113,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)同g只width1/2→5/8；官方46084442413/1、job140790598810，两input0；science001025/f600/PID3644/model9387/初7e06，Phi3233.3855489912225/Gram.6568825757487662；初真reach2.541916739245917、其余五族负，accepted0/reportfalse；首df8d统计返、几何未知。比19reach更差、distplus转负，完整[宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保全部未知排序。
 
-22准备以完整19半宽/δ1/32/两μ.01只换[R724成对半波](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)：同准确跨段均值/两角根、中央|T_s|减半，完整位置/两角jet账已证；不推wholeK/D/Gram。[新20完整源](computations/fixed-fejer-paired-halfwave-complete-scientific-source-delivery.json)及137角色当前绑定/18runtime/3全字再生器已刊；17当前pairs替换、120原样，[6完整参数件](computations/fixed-fejer-paired-halfwave-bhalf-complete-parameter-delivery.json)已刊，实际22run/模型/点/几何仍未知。外层原whole-cell Gauss/partial规则未变，参考缺陷和准确全部费用新付。
+22已按完整19半宽/δ1/32/两μ.01换[R724成对半波](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)：准确跨段均值/两角根保持、中央|T_s|减半，完整位置/jet账已证，不推wholeK/D/Gram。[20完整源](computations/fixed-fejer-paired-halfwave-complete-scientific-source-delivery.json)、[6参数件](computations/fixed-fejer-paired-halfwave-bhalf-complete-parameter-delivery.json)、[全启动](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊，137角色/18runtime/17对改120同；63721B三全步queue，science+pure110351>95000B，科学真自然返才接纯步。官方46090913581/1、job140811337445于01:00:48Z真启动。[22实际](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)两input0，sciencec6517a/6fd57/PID3541/model6f3ae32；初7e06/Phi681.6517423825409/Gram.40616525311769985，accepted0，完整几何/六族未返。外层原whole-cell Gauss/partial不变，参考缺陷及准确全费用仍未付。
 
 19–21完整normal/geometry/closed/R718/R716/mesh后参及R723独立源参全已刊，精确路径/完整whole records保旧完整open/H。R723方向支撑/全平行面排序已证，真实支撑/曲率未付，五新角色不冒旧八角色通过。R718要标记面σ；R716要无标记管、正V、非零中心不变量才给含反射δE。全五t/三级空间/频率/时间完整mesh须同g同参数实跑。
 
@@ -126,6 +126,3 @@ normal.complete不代连续branch，mean J不代Cu，旧R709 bool保真；R722�
 [ret57](computations/legacy-small-core-request-metadata-retention-57-complete-delivery.json)净200328B完整原账保。[ret58](computations/legacy-request-identity-retention-58-complete-delivery.json)34旧包装净76119B，全部原值/145源/30workflow/21真实结论及byte-reader恢复全保。前批不退数值仅各批范围；后续根15允许精退完整可再生旧数据，须保全源参/run/SHA/真实结论及恢复映射，未知/活输入不猜删。
 
 README未完成；时长、阶段、失败和输入困难均非终点，继续真实求解与全固定目标精化。raw仅runner/scratch，保完整源码/配方/真实run与SHA。
-
-
-22[完整启动包](computations/fixed-fejer-paired-halfwave-bhalf-complete-launch-delivery.json)已刊：新workflow/controller/request/63721B三整步queue，完整19数值仅换半波20源；157/7及458/445/48全保，纯步须science真自然返后整接。官方46090913581/1于01:00:48Z真启动，输入/模型/点待返；启动说明及之后真实记录见[22](notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。

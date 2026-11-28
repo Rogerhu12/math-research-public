@@ -181,3 +181,294 @@
   ]
 }
 ```
+
+## 2026-11-28 01:17:44 UTC — 22两个完整输入与初统计实际返回
+
+真实run46090913581/1的两个完整输入步骤均completed/exit0：输入构造耗时5.928990263999992s，source89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60，实际commit0bfb66f595ebff65a2abf59143b93c4921f0231f；完整参考耗时481.429137124s（内部478.64331817s），sourcee7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb，实际commit3ecc2f9b472810c298b2f066637520eb4ff1b8fb。完整M160/J923/P7377/N2048、2218叶和height1.947054437068418；accuracy_reached=false、whole_tail=true，未冒精化或几何证书。完整原command/全部指标/输入与11输出/cleanup/缺项保下列固定Git原卷两个全JSON块，未以摘要替换原记录。
+
+```json
+{
+  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1-part-001.md",
+  "bytes": 16601,
+  "sha": "ece3181bad61eae661a6480ddec59ff8976f83a4",
+  "sha256": "bb8a6ffda09602e32a0689be7dec7a87393440a72b46d19e1454ac9b462c9d7a",
+  "ref": "7e40321a66fe496bbef13724faffb7a7801e106d",
+  "complete_stage_blocks": [
+    {
+      "heading": "followup:prepare-complete-fixed-fejer-r690-inputs-20261127",
+      "step_id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
+      "returncode": 0,
+      "seconds": 5.928990263999992,
+      "source_commit": "0bfb66f595ebff65a2abf59143b93c4921f0231f",
+      "source_sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
+      "outputs": [
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-r690-inputs/report.json",
+          "sha256": "df4b3813457d276c44854dc591c1c81889a0641f766c35557093316ca01212d6",
+          "bytes": 65338
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
+          "sha256": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
+          "bytes": 4334
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
+          "sha256": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
+          "bytes": 144306
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
+          "sha256": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
+          "bytes": 40488
+        }
+      ]
+    },
+    {
+      "heading": "followup:prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run22",
+      "step_id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run22",
+      "returncode": 0,
+      "seconds": 481.429137124,
+      "source_commit": "3ecc2f9b472810c298b2f066637520eb4ff1b8fb",
+      "source_sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
+      "outputs": [
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/report.json",
+          "sha256": "5e0cfbb397f74f5257a50320e0d49106a5566776bbcb3f1d3c45ef3ecd90d49b",
+          "bytes": 84965
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/reference.npz",
+          "sha256": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
+          "bytes": 894879
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/observations.npz",
+          "sha256": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
+          "bytes": 205842
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/locations.json",
+          "sha256": "082fc635c704a6b59a834204e65a342efb279ec504f2e70dc2987decd0025f51",
+          "bytes": 106771
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/supplied-location-provenance.json",
+          "sha256": "4e4be359a12856b6a5497604477b1182cbf520c24f001355d1f5e4f0187a60c5",
+          "bytes": 223955
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/fixed-target-definition.json",
+          "sha256": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
+          "bytes": 30919
+        },
+        {
+          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json",
+          "sha256": "4e30d6f39143b076ec3ecd85f4988e5eab37917514ef430c6c9cf904f416e1ec",
+          "bytes": 35712
+        }
+      ]
+    }
+  ]
+}
+```
+
+同一新半波science实际sourcecommit c6517a030888df2bf0ca51efade67b7693102785，launcher6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c/PID3541；完整driver095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec。新model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef，旧坐标身份7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47并不表示旧物理场。
+
+01:12:40.949868初统计真实返回Phi681.6517423825409、Gram0.40616525311769985，accepted0/reportfalse。观察至01:15:12Z，初始/当前几何、六族、试步及final均未返回；相应None读取错误是字段尚无值，不补值、不当科学失败。法向进度513角根/closure failures0只是当前只读进度。继续完整几何及原预算科学步骤。
+
+以下固定完整小索引身份与原active全对象只保原已返标量；缺值/错误原样，未取科学raw或另算场。
+
+```json
+{
+  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
+  "bytes": 52253,
+  "sha256": "688a8a336b67e461a8c60991068808dd2bead190c534dde211e2e3c5f522743e",
+  "git_blob_sha": "420285a0cce4190a2b6a3a508bbb57fb3f3146fe",
+  "fixed_commit": "7e40321a66fe496bbef13724faffb7a7801e106d"
+}
+```
+
+```json
+{
+  "step_id": "complete-fixed-fejer-paired-halfwave-bhalf-first-20261127",
+  "scientific_source_commit": "c6517a030888df2bf0ca51efade67b7693102785",
+  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
+  "pid": 3541,
+  "observations": {
+    "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json": {
+      "phase": "normal_chain_enter",
+      "at": "2026-11-28 01:15:11 UTC",
+      "point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "cached_angle_roots": 513,
+      "closure_original_returns": 4074,
+      "closure_logical_failures": 0
+    },
+    "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json": {
+      "math_at": "2026-11-28T01:12:40.949868+00:00",
+      "math_event": "initial-statistics-returned",
+      "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
+      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
+      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
+      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
+      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "initial_Phi": 681.6517423825409,
+      "initial_Gram": 0.40616525311769985,
+      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
+      "current_Phi": 681.6517423825409,
+      "current_Gram": 0.40616525311769985,
+      "current_state": "initial statistics returned; no accepted direction",
+      "accepted_directions": 0,
+      "complete_report": false,
+      "stop_reason": null,
+      "observer_failures": 0
+    }
+  },
+  "complete_small_progress_file_identities": [
+    {
+      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json",
+      "bytes": 3294,
+      "sha256": "b8d5ce0deacdf0e19eba180c0a5f9ce4dc74bbde8d51900cd6882c1a945c153d",
+      "two_complete_bounded_reads_agreed": true
+    },
+    {
+      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "bytes": 3527,
+      "sha256": "679086742e14c8a5269acba6ff97236fdbfacc8fbd470a40816f5d00c369900f",
+      "two_complete_bounded_reads_agreed": true
+    }
+  ],
+  "observation_errors": [
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "initial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial_geometry.complete",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "latest_trial.accepted",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.reach",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.body_diameter",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.distance_plus",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.distance_minus",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.cap_diameter",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "current_geometry.physical_g_by_family.height_floor",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.point_sha256",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.actual_positive_physical_g",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.accepted",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.geometry.maximum_physical_families",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.statistics.Phi",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    },
+    {
+      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
+      "field": "last_completed_trial.statistics.max_relative_gram",
+      "error": "TypeError: 'NoneType' object is not subscriptable"
+    }
+  ],
+  "child_exit_code": null,
+  "child_natural_return_not_observed": true,
+  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
+  "observation_identity_sha256": "a8137c20cda92b9b56e45d81df040bdd517ac3ed6ae6cb69cca9115762297c94",
+  "observed_utc": "2026-11-28T01:15:12Z"
+}
+```
