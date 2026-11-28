@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [AGRQ：完整原3056闭子格真首比值的实际成功](results/R149-supplement-actual-complete-first-ray-ratio-and-real-physical-amplitudes.md)：实际46139062783/1 success，3056覆盖原3026/128两种角格/四branch/五场6阶归一jet全部保；真small2537B/ea20996a…，私176771817B与raw219304395B整SHA，原GCS/GPR仅必要whole恢复。真幅上包不是点值，完整B高逆/端点/正侧仍待。
+
 - [ASQ22：已知负侧参数缺陷的完整真Theta小接收](results/R149-supplement-small-true-Theta-reception-of-the-negative-parameter-defect.md)：真零根/零独立jump的负body sν给raw腰<3.65e−5、x<9.17e−6、全≥97 x<9.13e−7，Theta和真低恢复各<1.67e−5，两个独立mean各<2.5e−5。全高Theta<3.04/全域<3.395，15whole/24新Fraction一次通过；不冒充真物理root或其余匹配。
 
 - [GLC：原根窗完整三项有符号源与共初值Green矩阵](results/R149-supplement-signed-genuine-local-collar-operator-and-anchored-reference-Green-matrix.md)：原11完整Nraw与同真实相位/势先合成全部G.7，再对两原参考列及两符号整Fourier接收；有限97..2^20全输出/均值和无穷幅另行保留。首发22pins/5AST通过，四闭径向格×完整角轮廓；原GSF交叠只计一次，全部非局部/端点/正侧与无穷剖面仍待。

@@ -1,0 +1,49 @@
+{
+  "actual_observation": {
+    "actual_jobs": [
+      {
+        "completed_at": "2026-11-28T11:41:57Z",
+        "conclusion": "success",
+        "head_sha": "aaeae03b0671370319293acf7161cf65c8993f18",
+        "id": 140960745639,
+        "name": "full-signed-first-ratio",
+        "started_at": "2026-11-28T11:16:04Z",
+        "status": "completed"
+      }
+    ],
+    "actual_run": {
+      "conclusion": "success",
+      "head_sha": "aaeae03b0671370319293acf7161cf65c8993f18",
+      "id": 46139062783,
+      "run_attempt": 1,
+      "run_started_at": "2026-11-28T11:16:02Z",
+      "status": "completed",
+      "updated_at": "2026-11-28T11:41:57Z"
+    },
+    "jobs_API": {
+      "bytes": 3181,
+      "sha256": "d4ae35ab31aac685a597f5492db6488170987fd16b3e136791d44aaac5330931"
+    },
+    "observed_at": "2026-11-28T11:59:32.804095+00:00",
+    "run_API": {
+      "bytes": 13331,
+      "sha256": "31ef34dc1b3349b3726119feec544f416d5d7e4bb865fbdfe7e2a87e857d46de"
+    }
+  },
+  "complete_small_scientific_receipt": {
+    "bytes": 2537,
+    "sha256": "ea20996adecf10de592c38781ce8ed1c216a676cfc3833c9f58ea06de5ab6a2c"
+  },
+  "full_genuine_high_inverse_proved": false,
+  "identical_whole_final_markers": [
+    "0_full-signed-first-ratio.txt",
+    "full-signed-first-ratio/9_Record only the complete small owner receipt.txt"
+  ],
+  "kind": "root_whole_actual_GRQ_admission_v1",
+  "private_arrays_restored": 0,
+  "scientific_targets_reexecuted": 0,
+  "whole_log_archive": {
+    "bytes": 163723,
+    "sha256": "f7b5e8dd80502831445f64bbd833c35cf70b4b55d3cd52d0d4836c1d90a06c37"
+  }
+}
