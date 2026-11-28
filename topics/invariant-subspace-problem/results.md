@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R12：全部原 Haar 普通不变格的共同坐标旗与闭稳定根](results/R12-appendix-all-ordinary-invariant-common-coordinate-flags-and-stable-closed-roots.md)：真子商闭图与原旗反构造、有限尾穷尽、gauge 和非闭及全尾标量乘合根排除；未构造实际根，普通 ISP 仍开放。
+
 - [R150：全 W 真正 λ 本原八次与六范数准确边界](results/R150-appendix-unit211-W-original-primitive-lambda-eight-and-first-norm-boundary.md)：原共乘子全部三列消去、权内容全已付，P8 本身属于原 I8；首一余式与六列完成，范数及 cofactor 未返回，不据此宣权排除。
 
 - [R150：Phi 的整 H1 原图完整排除](results/R150-appendix-unit211-Phi-zero-whole-H1-complete-original-exclusion.md)：真 QQ 五次点与 Dixon 极点识别最后完成块，整回缩证明整个必要商 D=0；合此前全块排除，包含旧 b 零分支。当前 Phi 余图可全付第一二次头，整个 Phi 和普通 ISP 仍开放。
