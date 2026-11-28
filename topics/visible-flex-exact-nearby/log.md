@@ -126,3 +126,6 @@
 
 
 2026-11-28 10:42:03 UTC / visible-exact-astra-b0d5a16-20261128：ASQ9。原J=2^4608内同时safe块收缩<1/4、逆4/3，保留rank<2^1126；真实二次无理数可精确Euclidean寻址，无频率大数组。原高尾homogeneous核迹<2^-27、coupled在明确A+门下<2^-26；完整低块/物理列/Θ/mean/world及full determinant仍待。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-arithmetic-sparsification-and-trace-ideal-of-physical-waist.md","bytes":7839,"sha256":"e220bbe5076eaf63155e8a8327a8b2ad2bf2fb1c6c1071a7ba5563dea03ac4bb"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_sparse_waist_frequency_count.py","bytes":2727,"sha256":"97b519cab79488ec4697a99626c16014489a0dd228b247f109403a8604ff3513"}]。
+
+
+2026-11-28 10:42:13 UTC / visible-exact-astra-b0d5a16-20261128：ASQ10。同一原图经可逆约束行变换在J65536的全high距离<1/8+23Cphys；真实v的L2→Wiener和原UACT正系数和付alpha A0<1.421、w∞<2.51。Cphys保真WPL全输出/正侧回馈，≤1/32才逆、≤1/64才<1/2；实际Cphys/有限块仍未赋。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-practical-high-cut-with-paid-coordinate-errors.md","bytes":12500,"sha256":"d38cda8483ac691f69bb4c77f809fa072a6b0640cf35d6ffb7e580d39954b641"}]。
