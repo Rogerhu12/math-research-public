@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际同步、已读规则、认领
 
-readonly run46073965457/job140918577683，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 08:20:24 UTC实际partial clone/pull至f6b405ad489bd029ed6f8d602572d31d2f9b6507；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 08:20:30 UTC至54267b9aa4785342ad211d38d00e41d3c9bc407a；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与08:17同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
-- 日志14887B/hash1d4ce6dd875f8a2ecc741cd0e3bdcd256de2e880b1855cc1f9665bec57fc5b5e；库存3216/45968901B/tree3490e4f3d4f3754731a9c1ac426e68c52330f55b；无>5MB，三旧必要gzip未变。
-- 每推前新pull，最迟09:20UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
+readonly run46073965457/job140920797448，source3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 08:29:37 UTC实际partial clone/pull至dbae25e25530ca2f51f64e0f71f04f558b6e7c6f；已读根/课题blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 08:29:46 UTC至4a285f492ffa1f42166bbc04df72eb0114084381；已读根/课题blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与08:20同blob；QUEUEa631265928b6c5195eb63a96d492645965775088，本题认领仍进行中，原认领41fe885610073f478b2f5a752461ca56cfd43f09。actual heads不以baseline替代。
+- 日志14887B/hashae7048ce41d3c16fe4c84125d9048d139d5241ca411dd355175e67d8686b8af8；库存3216/45980866B/tree496d75f3abd091d2ceda12ae1fbe252d5df2f52b；无>5MB，三旧必要gzip未变。
+- 每推前新pull，最迟09:29UTC；非FF立即pull --rebase/读差异/重推，不force。旧startup_failure不算pull。
 - 本地自11月27日07:20失联，最近11月28日08:16实际pull --rebase仍无环境；末本地07:12至1cf10ac。API、CI实际pull、本地分记。
 
 ## v13 终态、软件 v2 与实际 v15
@@ -24,7 +24,7 @@ readonly run46073965457/job140918577683，source3bd753e5d0f0cd071d0ba615c9774695
 [R1050§7](results/R1050-original-scalar-thick-fibers-and-exact-cusp-transfer.md)scalar-primary v2真PASS：run46109939554/job140871011216；完整source/结果hash/六对照/五拒绝/旧七组与真实projector见该文，仅软件。
 [同一分母软件/生产](notes/2026-11-28-original-whole-denominator-software-and-production.md)：v1 immutable失败；v2 run46112089371/job140877645107真PASS，七完整图/十拒绝/原F/scalar均过，完整source/hash见原文。仅A0/A1各finite/∞用H/U/CH/XMD，F_y真实旧attached不动；非原几何或306性能。
 
-**唯一heavy v15：run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962，05:35:43UTC创建。**本次读取时任务仍step4进行中；首可读快照止07:02:54，2101739B/hash18993cfd45d126e46ab7deae244d1c7d8ca22de736aa4702562e098328f63c2a。69源及两原PASS已核，实际same-MD绑定digest29855f612dd80eeafc2ae891cae0a1033884fb42a10f1acfd0a397e7d40314e1；同T无穷远全图347.920秒已返、pole全长1836已返，无穷纤维612在100/306列。尚无A0/A1分母和最终四交/Norm/18×9等PASS；完整receipt见上文§10。69源/参数/全部原门及4CPU/16GB/21000秒不变，arithmetic继续只读监控。
+**v15已真实终止failure：run46112816717/job140879915022/sourcee959b4331bb9cd3871c9f05b101d47f2dba9e962。**root已取完整终log3987033B/hash9d6856f0ca3cc601d1b24e7241420259c71475f464c9e0df495b31a506a15e56。08:10:56UTC首A0 y0完整MD306/d16/exact-prime官方HNF开始，08:24:51 solver137、launcherexit1；无该HNF成功/终门PASS，不判OOM、不称超时。69源/两原PASS及全部旧scalar门保持，旧07:02快照不再作当前状态。已全静审v16准备接唯一heavy，4CPU/16GB/21000秒及全部原门不变；root正完整记录并发布。
 
 [原行运算返回](notes/2026-11-28-original-row-operation-right-return.md)、[完整商/content](notes/2026-11-28-original-complete-cyclic-denominator-return.md)及[逐实际来源返回](notes/2026-11-28-original-streamed-denominator-return.md)均真实软件PASS，完整source/run/hash/范围见原记录。最新source4560405b/run46121926002/job140908102059：34源、9全比较/15拒错、4engine+4outer、2原F_y/scalar均过；全P/H/W_i/X_i及两ideal保，无通用U/全C/全YMN。仅软件，不代306性能；未来生产须真实四graph+四outer，v15不改。
 
@@ -45,7 +45,7 @@ R1062–66完整证明由[open](open.md)及本卷索引直达，旧范围不变�
 
 §§16–21真实A(x)=U(G34/G2,17r)²，Kato a→s→b→b^-1/两图非p288下降和原period全付；ε=κθ^−(2m+1)、U=U0·17^−m，β尺度Uβ=U0(Nβ/17)^m，λ17=−(p−1)²log17，Na=17时U常数。全部权块Tγ/逆/carry和首r=d负块保留；全Euler(∂^p−c^(p−1)∂)(UF²)∈p^(p+1)只为整A必要同余。§20首连接在完整平方Euler内自动变深，无需bad。
 
-[续证§§22–23](results/R1067-original-first-wild-rubin-native-euler-continuation.md)全p阶log窗n≤p+3、native核k≤p+2及真ℓ1/三层阶乘已付；原K_a全frame在当前完整平方Euler内自动深。余项是同一H_a全加法行(99)，保持全参考商、λε=λ′、old/native carry。central正消费bad所给B=A/T⁴的同Euler，须保x⁻⁴非交换连接和实际全source；尚无新forcing。
+[续证§§22–23](results/R1067-original-first-wild-rubin-native-euler-continuation.md)全p阶log窗n≤p+3、native核k≤p+2及真ℓ1/三层阶乘已付；原K_a全frame在当前完整平方Euler内自动深。余项是同一H_a全加法行(99)，保持全参考商、λε=λ′、old/native carry。§§24–26已付B=A/T⁴全非交换Euler：恰a₂,a₃∈p²，所有r同门；窗p+3与首连接/新第三frame校正全保。原ν=1精确A=C₀17^{−(p−1)u}(J/J₀)²付a₃及semi-linear共轭，全尾返j₁∈p²且j₁j₂∈p⁵；这是原第二位选择，不加独立forcing。继续g₂/原第二位跨p关系。
 
 [R1069](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)固定H=S34,1/Θ2,4913及原Q形式叶V=D1+D4913已核。几何闭包r=2；受限p幂准确在inert或(17/p)=+1封闭，密度3/4。Herblot原定义/全部假设给准确最优α=1/4（ρ=2饱和）；全Θ极N∞=17πR²/area(Λ)+O(R+logR)，不因34−2a²=0消失。目标inert/square类本已p-闭合，非bad收益；不是R310同曲线H3商，不替原Smith/全j!C预算。§§8–10已付Pell整A的全H¹：A*=第一因子反演、±维36/32；原even S两维上恒等。全两极boundary仅一维pair(±1/2,0)，完整主部boundary0，全部斜极运输保留；这不是canonical零。继续同H_a实际central/wild读者。
 

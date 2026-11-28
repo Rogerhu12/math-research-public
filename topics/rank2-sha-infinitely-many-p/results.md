@@ -591,3 +591,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1069 §§8–10：同一形式叶的完整 Pell 算子
 
 R1069§§8–10支付A=[[33,8],[136,33]]的实际sigma/cube刚性化；P=[[1,4],[4,17]]把(34,−2)变为(2,−34)，AR共轭反射在全H¹为恒等，故A*=R*、全68维±空间36/32。固定原even S后两维全固定；负degree2的Serre微分负号保留。1/Θ两真简单极的边界像仅一维，准确pair(±1/2,0)、全主部边界0；A拉回的全部斜极支撑均保，未把cohom零/单极非零冒作原canonical行。 [同篇完整证明](results/R1069-fixed-sqrt-seventeen-formal-leaf-and-sharp-arithmetic-height.md)。
+
+
+### R1067 §§24–26：除 T⁴ 的完整读者及真实中央两槽
+
+R1067续证§§24–26付原bad的A/T⁴完整非交换Euler，精度p+1+4/(p−1)准确等价原未分歧a₂,a₃∈p²；所有第一wild标签给同一两条件。全native窗增至p+3，保新增−k₁h_Q,2、实际首连接及shifted V₁…V₅，不沿用浅模数消项。ν=1原两CM图/全部Euler给A(q_ac^{du}−1)=C₀17^{−(p−1)u}(J/J₀)²，完整a₃保参考/物理/逆参数；真实semi-linear inversion亦保共轭。全Newton尾给j₂∈p²，localized恰为j₁∈p²且j₁j₂∈p⁵，回同一g₁,g₂两槽，非额外独立forcing。 [完整续证](results/R1067-original-first-wild-rubin-native-euler-continuation.md)。
