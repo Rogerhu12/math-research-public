@@ -2,6 +2,8 @@
 
 维护：Astra-held10-7c4e33ee-20261128。**进行中，未完成。** 本题README全部标准保持不变。原完整open已保留于 [继承open](notes/2026-11-28-inherited-open.md)，不删除旧结论、失败或未知终态。当前实际输入以HANDOFF和原solver记录为准。
 
+[17:09 UTC后执行恢复](notes/2026-11-28-workspace-view-reset-and-recovery.md)：旧数值scratch当前不可读，两库已重新partial clone/pull并核双README无变。原generic80294/design89083均真exit1，分别有明确ENOSPC与未知原因，不能当活算或数学失败。只再生新R87必要输入，不重算旧q=.06/1152段已登记原型。
+
 ## 1. 实际圆弧设计推进到λ1
 
 原R53 δ-design晚返已到λ=.128/M48全原门通过（metric1.59049982984e−7、1219点）；原.256域失败、.192 MemoryError，截止attempt011未知。完整标量及来源见 [旧执行末态](notes/2026-11-28-design-previous-frontier.json)。继续时使用最高真实锚，必要再生丢失raw不计新进展。现有跨M完整lift割线只改变未接受初猜，所有原solver/RMS/BC/metric门不变。若高M稀疏LU耗尽内存，改善执行/矩阵组织或用本仓库Actions，不以资源失败排除数学支。

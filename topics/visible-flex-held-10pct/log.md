@@ -422,3 +422,6 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 16:54 UTC｜Astra-held10-7c4e33ee-20261128：补存旧profile小q=.012/λ.002/M24的既有真实14:15返回：615点、RMS9.974606331e−7、metric1.407536802e−7、BC1.942e−15、真child0/518732KiB。只是已登记字段的小来源档案，不重算；原当时回q.06计划与现R87可选新g区分。
 
 - 2026-11-28 16:54 UTC｜Astra-held10-7c4e33ee-20261128：补存旧profile λ.004实际14:21中断：原资源门后factor1/solve6，child−9、controller3、kernel峰524404KiB且所有自有进程已join；无原raw/RMS/metric接受。615×73全pre-J状态保留，不把工程中断当数学失败或据末日志猜OOM。
+
+### 2026-11-28 17:29 UTC — Astra-held10-7c4e33ee-20261128
+工作区视图改变后，旧scratch数组不可读；generic80294真exit1为observer ENOSPC且子码未知，design89083真exit1原因未知，未伪造新场。两库重新真partial/sparse恢复，公开7b9c693、私库0e3cbe262，双README相对各前锚均空diff，QUEUE仍本会话进行中。唯一新tail草稿先保留再逐字恢复；已推源/小记录恢复，原H完整归档。继续新R87严格容差与真λ1/DN/fixed-g，必要输入再生非新数学结论；见workspace-view-reset-and-recovery及generic终态回执。
