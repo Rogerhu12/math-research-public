@@ -5,7 +5,7 @@
 
 ## 规则和接手
 
-公开最近实际pull/双README差异检查至 **9cc61847416e7e1dfcb8133e4e0c055c53227dd3**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
+公开最近实际pull/双README差异检查至 **1557946fb3490e154cf47e55a7784c0feb74562c**，无变化；首次全读b0865cd9。私库最近实际pull **2026-11-28 08:08:34 UTC** 至 **3871f5ce2dd5f4b221dd60a24211cb814f043b09**，根/题README无差；QUEUE仍本会话，认领已推9310d8a886530a067fd44ffa126c6ae52637d0a1。
 
 每次pull查根/题README，至少每小时，变化只读diff并立即执行、SHA记此。每结论即普通commit/push，NFF立即pull --rebase再推循环到成功，不强推。主代理独占git及H/open/results/log。科学只在本公开Actions；本地只纸证、源码、已完日志解析。根12不重复独审/机械门；根15不存可重算大日志/数组，只保source/参数/run/hash及真正后继输入。原失败、未完和全部费用保留。H<10KB、open<30KB、单md<100KB、课题<200MB。
 
@@ -24,9 +24,9 @@
 
 ## B：R618同固定E在算，后接硬trace
 
-[split原终态](notes/2026-11-28-r618-split-first-complete-state-terminal.md)：run45923793283/source4e00e0fb，新增5400.058385949001秒，target86da8c60…/H.5188903877153482/amp1e−5/τ1；response19519575…，1接受仅merit降1.416e−19、eta微升，2J、3拒绝+1未闭，无fine/direct。reference比例2.6025e34压步至3.8424e−36，无attainer，原因未全归舍入。
+[split原终态](notes/2026-11-28-r618-split-first-complete-state-terminal.md)保5400.058385949001秒/response19519575…及1微小接受、2J、3拒绝+1未闭；无fine/direct。原reference比例2.6025e34压步至3.8424e−36，无attainer，原因未全归舍入。
 
-[等价零背景消去](notes/2026-11-28-r618-centered-actual-response-scope.md)实际run **46117718197** / job140895158286/source19de4da3，06:40:49启动。保同E、1473响应/1472自由、121600行、950work/1728fine及旧费用；先准确消零背景后除极小W，完整离解链和真实符号根保留。自然终态到达后消费，不造accepted。
+[等价零背景消去](notes/2026-11-28-r618-centered-actual-response-scope.md)实际run **46117718197** / job140895158286/source19de4da3，06:40:49启动。保target86da8c60…/H.5188903877153482/amp1e−5/τ1，同E、1473/1472列、121600行、950work/1728fine及旧费用；先准确消零背景后除极小W，完整离解链和真实符号根保留。自然终态到达后消费，不造accepted。
 
 R617排固定有限pre/post精确非圆根，不排增长极限。τ1当前j2锁定、amp不是宏观幅度。已付[硬总trace/核心路径](notes/2026-11-28-r618-hard-total-trace-and-convex-core-path.md)、[实际模型](notes/2026-11-28-r618-hard-total-trace-actual-model.md)、[连续Pμ生成器](notes/2026-11-28-r618-canonical-convex-core-input-generator.md)：保1449列，从属A/B准确固定P/P1，真τ1态函数恒等嵌回；尚未执行新μ、同E可达性欠，R=.85/R579只条件预算。
 
@@ -70,3 +70,5 @@ R617排固定有限pre/post精确非圆根，不排增长极限。τ1当前j2锁
 
 旧59a4[单场reach](notes/2026-11-27-r623-current59a4-complete-reach-original-terminal.md)≥.0311710349107D，但η≈3.84e−5、宏观/同g未过，不转新q。R604/R622只同输入组合。
 R33可从一个真正完整旋转g连接得到全时相位族、开盘逐点固定、δE可0；同轴圆领不累积末帽姿态。真正缺大非圆核心至开圆帽的完整连接和其全部几何；已证局部/条件量不替该对象。
+
+[R640](results/R640-r631-support-height-and-complete-reflected-reach-reduction.md)已付同一R631核心球<1.014；全域P误差≤2e−5则有限核心位置差<.005，条件宏观≥155/516>.3。完整上半法弦加高度门可付全部镜下半/中央柱跨片；p<0及连续曲率界推出高度门。分层支撑球界保高度相关性，非零S须付真实位置误差；当前样本不授这些连续资格。
