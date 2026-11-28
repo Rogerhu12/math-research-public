@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：5486783e841a37eb1b802e8902613ca0f40cee3c**（2026-11-28 19:21 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 18:39 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：c8f31099e89133f9df69464dc8494a59e64fc4ee**（2026-11-28 19:21 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 18:39 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 18:39:21 Asia/Taipei，Actions run46136174028/job140951870303，blob:none浅clone后真实pull --rebase至271101c9且与origin/main相同；两README diff空、全文hash已核，[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤19:29、pull≤19:39。本地18:38仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
