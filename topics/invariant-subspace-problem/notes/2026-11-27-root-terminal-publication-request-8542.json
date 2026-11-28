@@ -1,17 +1,22 @@
 {
-  "message": "ISP: prove unique reduced Q over both collision fields and 2394 Artin envelope",
-  "parentCommit": "7546b941c11d2cd60b7c8b79b24f18a54abf17e1",
+  "message": "ISP: center original Phi NSPS; first full new W and Phi t value inputs",
+  "parentCommit": "125f8a4c87314b8789b9a1725152cde36ee90c95",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-hk-independent-P-discriminant-unique-reduced-Q-and-2394-Artin-envelope.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-hk-independent-P-cubic-u-discriminant-8542-execution.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-hk-unique-Q-1860-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-hk-unique-Q-1860-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-hk-unique-Q-1860-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-hk-unique-Q-1860-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-Phi-zero-corrected-t-slope-centering-and-original-NSPS-cubic-pairs.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-t-parameter-monic-lambda-two-complete-I6-q2-two-original-targets-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-t-parameter-monic-lambda-two-complete-I6-q2-two-original-targets-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-centered-t-original-NSPS-ten-by-two-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-centered-t-original-NSPS-ten-by-two-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-b0-t-parameter-monic-lambda-two-complete-I6-q2-two-original-targets-8542-root-reading.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-centered-t-original-NSPS-ten-by-two-8542-root-reading.json",
+    ".github/workflows/invariant-subspace-8542-w-b0-t-lambda-two-values.yml",
+    ".github/workflows/invariant-subspace-8542-phi-centered-t-nsps.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-HANDOFF-before-centered-original-values-1865-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-centered-original-values-1865-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -20,5 +25,8 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-w-b0-t-lambda-two-values.yml",
+    "invariant-subspace-8542-phi-centered-t-nsps.yml"
+  ]
 }
