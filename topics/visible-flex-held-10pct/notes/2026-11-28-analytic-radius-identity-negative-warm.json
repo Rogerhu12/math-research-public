@@ -1,0 +1,51 @@
+{
+  "status": "actual_warm_packet_correctly_rejected_as_unscaled",
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/verify_complete_tail_radius_identity.py",
+    "sha256": "4c775e4333d789d5481531316d02e02a974212997eb6c14b2d9f99f7f7281116"
+  },
+  "packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-mild-modes-20261128-d/m24/tail_0001.json.gz",
+    "sha256": "1cb9a3ae6a0aa943fa8f305e0ce52b7028650210244e942df2794aa0b970b306"
+  },
+  "source_port": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/m24-linear-port.json",
+    "sha256": "42369d1571413fd4ecccea43ccfef233f4b97506f71e28b86ed9735c28c2d93b"
+  },
+  "reference": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/height-reference.json",
+    "sha256": "d0451df8687ca28b8297d5e08336d646c15485727a0fc4eb4c546be133e977dd"
+  },
+  "actual_warm_height_identity": {
+    "reference": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/height-reference.json",
+      "sha256": "d0451df8687ca28b8297d5e08336d646c15485727a0fc4eb4c546be133e977dd"
+    },
+    "reference_key": "candidate_H",
+    "reference_height_sha256": "ddf98055a1a9b682550621cd0751393523250181799b073eec95c3e39c156188",
+    "requested_height_sha256": "090e458c79ee6db07523608b37f22245b788221289fe46d88e7b90408e2d91ba",
+    "factor": 0.5,
+    "factor_exact_binary": "1/2",
+    "original_arithmetic": "numpy",
+    "role": "warm_scaled_reference_height",
+    "unscaled_reference_request_verified": false,
+    "prefix_coupling_verified": false,
+    "exact_full_H_solution_proved": false
+  },
+  "modes": 24,
+  "original_packet_converged": true,
+  "original_packet_residual": 3.1311279019737547e-10,
+  "rejection_messages": {
+    "actual_warm_identity_rejected_by_unscaled_gate": "The actual tail is warm-scaled; a genuine unscaled factor-one height is required",
+    "same_actual_packet_rejected_for_literal_factor_one": "Accepted height is not the declared original request"
+  },
+  "synthetic_packet_or_bundle_created": false,
+  "full_height_positive_gate_executed": false,
+  "complete_bundle_available": false,
+  "radius_chart_identity_proved": false,
+  "full_bundle_positive_verifier_execution_pending": true,
+  "metric_or_embedding_proved": false,
+  "nonlinear_solves_executed": 0,
+  "maximum_rss_kib": 32524,
+  "seconds": 0.08159895999961009
+}
