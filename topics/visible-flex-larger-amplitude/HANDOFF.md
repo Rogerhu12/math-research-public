@@ -54,7 +54,7 @@ root末真pull/rebase eda95d51e82b126439d51d42185a880e6ddad3e9；终端missing-s
 
 <!-- visible-larger-parallel-47:start -->
 Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46171090151)；[全阶段记录](notes/2026-11-28-public-actions-46171090151-1.md)。running；已返2，exit=未返。
-并行47规则核查：2026-11-28 18:03:30 UTC，真实pull至`0d7c8b2dc555fd003ea912f772b3d08893311b9c`，双README无变化。
+并行47规则核查：2026-11-28 18:08:34 UTC，真实pull至`757bab37666d3a516f6abf8b969f5c22327260e4`，双README无变化。
 <!-- visible-larger-parallel-47:end -->
 
 已闭41/R764/R766的实际规则pull历史保各ownnote及[576d完整H](https://github.com/Rogerhu12/math-research-public/blob/576d836ce9dcdf02b8960cdb72bcef55c95b4c57/topics/visible-flex-larger-amplitude/HANDOFF.md)。
