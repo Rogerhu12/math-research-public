@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：9286b5b62fcb2bcbc110cdff57f3d7ab08dd3d06**（2026-11-28 19:37 Asia/Taipei；本地真实pull --rebase，两README相对0030fd3c的diff为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：e976d36f6536f6cb92de040f9d5880e367c9789e**（2026-11-28 19:42 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地终端已恢复：工作树为/workspace/scratch/24b8836b87e3/math-research-public，blob:none/sparse仅检出本课题及workflow，topic 124MiB；19:35真实pull至0030fd3c，HEAD=origin/main。恢复终端git提交推送，非快进立即pull --rebase/核规则后重推；令牌只CLI。下次pull≤20:35。此前Actions回执保留于[原记录](notes/2026-11-28-terminal-rule-sync.md)。数学程序仍仅本公开Actions，本地/V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+本地终端已恢复：工作树为/workspace/scratch/24b8836b87e3/math-research-public，blob:none/sparse仅检出本课题及workflow，topic 124MiB；最近真实pull至4ba9bc85；时间见上。恢复终端git提交推送，非快进立即pull --rebase/核规则后重推；令牌只CLI。下次pull≤20:41。此前Actions回执保留于[原记录](notes/2026-11-28-terminal-rule-sync.md)。数学程序仍仅本公开Actions，本地/V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
 root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-integral-CM-norm-tower.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
