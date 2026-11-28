@@ -429,3 +429,9 @@ R1071 §20独立G3小软件真PASS：固定source c5ac865e508ff7e4f6ead488e8ce8d
 推送前实际本地双pull（本次发布第2次）：公开2026-11-28 13:56:18 UTC到2cce8429732875c68ed39efa604cdbcb3ca6e80c，私库2026-11-28 13:56:15 UTC到2e53cc8ee5bdab081fca4ccd7f4431223ee3319e；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47590948B/tree0778b460a65466acd001177bf77f3aae7289d7a0，无>5MB。
 
 推送前实际本地双pull（本次发布第3次）：公开2026-11-28 13:56:32 UTC到9209403b519b8b2b221f99f7f21df8b52a1685c0，私库2026-11-28 13:56:27 UTC到76507f5935f3c2f6ba62d26cefd93a3bc7ae1b3a；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3284/47590948B/tree0778b460a65466acd001177bf77f3aae7289d7a0，无>5MB。
+
+## 2026-11-28 13:56:37 UTC：R1073 §18：相反Weil分量及原奇层逐商为零
+
+根核E1*(三挠)实际flex公式、第二独立特征非零、Hodge O(1)二维与c重标行列式−1；130≡1mod3和p奇层翻转全标记。K2源预标在零分量而目标回原分量，不删原非平凡全迹。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:56:45 UTC到129f8195defb2bc2ce52644d7ddf5c9ea252c790，私库2026-11-28 13:56:42 UTC到38d55156aec18ddd54dc1832e2a303303acd41aa；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3285/47597042B/treefae59444b509054b219e1fd2f70fcc3d304e1b97，无>5MB。
