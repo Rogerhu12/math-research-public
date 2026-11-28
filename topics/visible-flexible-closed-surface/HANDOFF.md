@@ -61,4 +61,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 执行器失联后的 API 规则读取：公开 `adcfa2a72ba3e1a1028d764d782b54ac591eb9fa`、私 `a1ea9352be9cfdf32e217d18e3a149d1d2308fa6` 无变化；API 不冒称 literal pull。
 
 <!-- 2ecf-actions-launch --> 新公开 workflow `.github/workflows/2ecf-visible-flex-recovery.yml`：两并行任务为 R299 真实整闭/独立相位求解、R262 四个原场再生及新小输入；运行器每45分钟 literal pull 两库并读规则差，只有小文本结论/参数/run/SHA入库。
-<!-- 2ecf-actions-rules --> Actions run 46157156458/1：真实 pull/rebase 2026-11-28 15:03:25 UTC；公开已读 c14506ff6fac978705b80175f62a2a4ea507b72e，根/课题 README 无变化。 私库真实 pull 2026-11-28 14:56:31 UTC、已读 72206db7ecd838ca9bb60cdcd9e4c55aee1f1dfb，私根无变化。
+<!-- 2ecf-actions-rules --> Actions run 46157156458/1：真实 pull/rebase 2026-11-28 15:03:33 UTC；公开已读 5ba4d1c26eea88b2bafb4132842ccbfa67986d62，根/课题 README 无变化。 私库真实 pull 2026-11-28 14:56:31 UTC、已读 72206db7ecd838ca9bb60cdcd9e4c55aee1f1dfb，私根无变化。
