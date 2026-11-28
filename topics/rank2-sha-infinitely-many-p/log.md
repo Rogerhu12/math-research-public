@@ -359,3 +359,9 @@ root完整读85绑定、全部producer差异、独立host及原双图调用，�
 根手核Lagrange、精确B_j的p估值及二阶所有调和项、远尾j²界和d因子，完整平均后才取消两端极；实读Wewers Th3.2/Cor4.7及Gross–Hopkins等变period，对应真实首p同源准canonical点，保持全部水平重标。
 
 推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:37:39 UTC到374015c11c5ced2c88f77daa4efe088426c9a9da，私库2026-11-28 13:37:35 UTC到fd1e12807e4d81554782c657b66f6e92edae75f6；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47428594B/tree0ef3bf20d95634af47c679113eacc4a2fb4035ae，无>5MB。
+
+## 2026-11-28 13:37:46 UTC：R1073 §16：同一目标微分的一阶与完整二阶返回
+
+根核同源cup配对的130因子与τ、取共同剩余域倍数子序列后的Teich恢复、目标首阶trace及三项完整二阶。原两Ab2尚未由单位log非零推出；不掉目标T1/T2。
+
+推送前实际本地双pull（本次发布第1次）：公开2026-11-28 13:37:53 UTC到6194a4403327f3ae940a7556bfa77a1758bad3fc，私库2026-11-28 13:37:50 UTC到fd1e12807e4d81554782c657b66f6e92edae75f6；四README同已读blob，QUEUE bf67cce7a873ae765b533da3a26d0bc56207fc6b本题行未变。公开基线3274/47436850B/tree9998a8c26b376906a95a33df2e7643f058f0af6a，无>5MB。

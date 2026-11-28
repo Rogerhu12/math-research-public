@@ -484,3 +484,7 @@ R1071§12接续：85源v18把同一软件PASS的六模块接回两原端点/四�
 ### R1073 §15：首层完整端点的原水平二次积分
 
 原PF经真实Tate坐标Y/(1+κY^d)给所有阶系数和完整B_j(k)；全尾估计付二阶极限，65 f1(0)(d logρ)² Ab2恰为保全部d端点的二次积分。两端正则只在完整平均后成立。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。
+
+### R1073 §16：同一目标微分的一阶与完整二阶返回
+
+同源cup度130给τ_C=u_C²/130，完整首导等于−2d f3 Σχ⁻¹u logu而非零，不能删；原Ab2二阶须保T2、d logτ T1及(logτ)²质量三项。 [同编号全文](results/R1073-original-fixed-quadratic-curve-pair-and-central-certificates.md)。

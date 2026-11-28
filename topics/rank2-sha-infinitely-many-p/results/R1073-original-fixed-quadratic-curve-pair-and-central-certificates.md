@@ -588,3 +588,35 @@ $$ \boxed{
 此商 Tate 格为 $\mathcal O_{K_p}+p^{-1}u\mathbf Z_p$，乘子环 $\mathbf Z_p+p\mathcal O_{K_p}$，是 Gross 准典提升的第一层。Wewers, *Canonical and quasi-canonical liftings*, Th. 3.2、Cor. 4.7，证明该层的通用形变模量是全分歧度 $[\mathcal O_{K_p}^\times:(\mathbf Z_p+p\mathcal O_{K_p})^\times]=p+1$ 扩张的 uniformizer。换为当前整光滑参数 $v$ 不改赋值：线性系数为单位，常数属于 $pW$，其余项赋值更大。Gross–Hopkins 的等变刚性周期映射把通用 Hodge 线映到特殊纤维等晶体的射影线；在本首闭盘它具体由 $(P(v):vQ(v)/6)$ 给出，因为(R2)的水平基解逐项收敛且 Wronskian 可逆。两种标记下 $q_D$ 在等晶体上是特殊 $\mathrm{Fr}$，它满足 $\mathrm{Fr}\,t=\bar t\,\mathrm{Fr}$ 对 $t\in K$；故其拉回交换 $e_0$、$e_1$ 两轴。又 $q_D^*$ 把目标 Hodge 线映回原 Hodge 线 $\langle e_0\rangle$，于是目标线为 $\langle e_1\rangle$，即 $P(v_D)=0$。这些 $d$ 个点彼此不同：若带上述全水平标记的商同构，复格超格 $\mathcal O_K+p^{-1}u\mathbf Z$ 扩到最大序都为 $p^{-1}\mathcal O_K$，相似只能为全局单位；在公共 prime-to-$p$ 水平上该单位还须恒等，只能为1，故两核相同。由首圈零的数目已尽，这给全部端点的几何识别。
 
 原文 https://smf.emath.fr/download/pdf/42655 （Wewers, Cor. 4.7）；https://arxiv.org/abs/math/9401220 （Gross–Hopkins, §1）。
+
+## 16. 同一三级规范微分的目标一阶与完整二阶返回
+
+保留(Z1)–(Z5),(U1)–(U8),(W1)–(W8)。对每个130商 $E_C$ 在中心取 $\omega_C^*=u_C\kappa_C$，故 $f_3(E_C,q_C\alpha_3,\omega_C^*)=f_3(0)$。令 $\eta_C^*$ 为互补 CM 特征轴上唯一向量，使其与 $\omega_C^*$ 的 de Rham cup 等于原 $\omega,\eta=x\omega$ 的 cup。相对于(Q1)的原两条水平基，$q_C^*$ 在中心的两轴及其水平延拓为
+$$ q_C^* e_{0,C}^*=u_C e_0,\qquad q_C^* e_{1,C}^*=130u_C^{-1}e_1. \tag{V1}$$
+第二项的130由 $\langle q_C^*\xi,q_C^*\zeta\rangle=130\langle\xi,\zeta\rangle$ 得到。$q_C$ 在中央同源变形的整邻域延拓，因130素于$p$。对于该族中 $q_C^*\kappa_C(v)=\omega(v)$ 的微分，写 $\kappa_C=h_C(e_{0,C}^*+w_C e_{1,C}^*)$，即
+$$ h_C=P/u_C,\qquad w_C=\tau_C w,\qquad \tau_C=u_C^2/130. \tag{V2}$$
+故若 $\widetilde c_C(n)=[w_C^n]h_C G_C$ 是真正由该三级规范微分出发的水平系数，则
+$$c_C(n)=u_C\tau_C^n\widetilde c_C(n).\tag{V3}$$
+
+取 $k=p^a$，令 $a$ 遍历固定公倍数的倍数使每个 $p$ 进单位 $\tau_C$ 的 Teichmüller 部分满足 $\omega_p(\tau_C)^{p^a}=\omega_p(\tau_C)$。因仅有72个固定代数数，一个固定剩余域次数的倍数足够。写 $\zeta_C=\omega_p(\tau_C)^d,\ l_C=\log_p\tau_C=2\log_pu_C-\log_p130$。用(W4)的同一标量规范，令
+$$ \widetilde S_C(k)=\zeta_C
+ \frac{(\pi/6)^{dk}\widetilde c_C(dk)}
+ {\kappa^k\binom{dk}k} .
+$$
+于是 $S_C(k)=u_C e^{dk l_C}\widetilde S_C(k)$ 对 $a$ 大准确成立，$S_C$ 是(W4)对单个 $g=G_C$ 的真实返回。由(W5)逐项得到
+$$ \widetilde S_C(k)=f_3(0)+k\,T_{1,C}+k^2T_{2,C}+o(k^2). \tag{V4}$$
+这里分子已用同一三级规范框计算，两个 $T_{i,C}$ 由相同极限唯一决定。具体
+$$ T_{1,C}=s_1(G_C)/u_C-d l_C f_3(0),\qquad
+ T_{2,C}=s_2(G_C)/u_C-dl_C\,s_1(G_C)/u_C+
+                 (d l_C)^2 f_3(0)/2.$$
+
+对 $n=dk$，$6\mid n$。实际 $G_{aC}(v)$ 和 $G_C(v)$ 用 $\mu_6$ 在 $v$ 上的转动、原三级重标和微分权一相消，故 $c_{aC}(n)=c_C(n)$（与(Y3)同样逐项；此处 $\epsilon_0(a)=a^{-1}$）。故216物理行在本数列确为三份72类。由(W6)的 $s_1(f_b)=0$ 与(Z5)得
+$$\boxed{\sum_{C\in H}\chi_b(C)^{-1}u_C T_{1,C}
+             =-2d f_3(0)\sum_{C\in H}\chi_b(C)^{-1}u_C\log_p u_C\ne0.}\tag{V5}$$
+因 (U6)右边确实非零。这将权一单位导数认作同一个目标水平变化的一阶加权值。然后用(V4)的二次项可精确写
+$$\boxed{
+65 f_1(0)(d\log_p\rho)^2[T^2]\mathcal A_b
+ =3\sum_{C\in H}\chi_b(C)^{-1}u_C
+ \left(T_{2,C}+d l_C T_{1,C}
+       +\tfrac12(d l_C)^2 f_3(0)\right).}\tag{V6}$$
+右边是全部目标二阶、水平一阶与移动规范以及中心二次对数。对每条曲线，删去目标变化将已经破坏(V5)。其二阶的剩余结论仍由(W8)的同一真实定端点积分决定。
