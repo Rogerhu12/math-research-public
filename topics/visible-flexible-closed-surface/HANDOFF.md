@@ -48,7 +48,7 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 <!-- 2ecf-HF-new-length --> [新正长度g双钟后三次完整XYZ](notes/2026-11-28-2ecf-strong-hf-two-clocks-three-full-XYZ-steps.md)：原成本下降，G11 .187979/κ19.8488，未过。
 
-<!-- 2ecf-HF-both-material-clocks --> [新g全6615位置联合谱75次](notes/2026-11-28-2ecf-strong-hf-true-XYZ-joint-spectral-solve.md)：G11 .09094544/κ22.03432/held .659465；原14成本上升。
+<!-- 2ecf-HF-both-material-clocks --> [同g后续240次全6615位置](notes/2026-11-28-2ecf-strong-hf-same-g-240-joint-XYZ-iterations.md)：最佳联合G11 .09022977/κ20.07007；末态 .09925885/19.47169，未过。
 
 <!-- 2ecf-r272-grafted-HF --> [R272](results/R272-actual-full-corrected-HF-kernel-and-fixed-cap-strong-shape.md)：H65/HF64+原W/R205/R210完整闭面全相位嵌入，实际两强变化量>.2137、>.0532；精度和整闭 reach 接续。
 
@@ -62,4 +62,4 @@ R250为另一源，本场Q-free；R235高阶跳不排C2极限。[h503七阶段](
 
 私库最近literal pull：2026-11-28 11:24:38 UTC；已读main `8d985c9b5ef99295c04d5f51b0eaca6c8a9bb2fd`，根README较上一锚无变化；基础完成/强比例继续QUEUE更新已推5dc3543677ef6291b69d1e8db2b7a16b2a6e2b05。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:45:08 UTC；已读公开 main `3ed82f6ab890974e93a25a37a30f254f465ac2f6`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 11:47:28 UTC；已读公开 main `c9a67ce1f1faa7cba795a089721c95915891610c`，根/课题 README 逐差无变化。
