@@ -193,7 +193,7 @@
   },
   "proof": {
     "path": "topics/visible-flex-held-10pct/results/R87-single-gentle-ramp-half-curvature-held-window.md",
-    "sha": "0cc5154db9bbce366ed34608024410710a47eea9",
+    "sha": "b09413defde8e467985c52c390ec6a7d04b9317c",
     "prepared_blob_sha": "131dad6dcc413e4b5d3c615747dd75399adb0331"
   },
   "independent_formula_review": {
@@ -229,5 +229,5 @@
     "lambda_one_chord_requires_actual_lambda_one_blend_one_M_at_most_64": true,
     "no_existing_old_field_geometry_bound_reused": true
   },
-  "publication_format_only_change": "Root converted mathematical delimiters to repository-required dollar syntax; scalar source/configs and original computation unchanged."
+  "publication_format_only_change": "Dollar delimiters applied; preserved the TeX row spacing command in the ramp cases. No scalar source/configuration/computation changed."
 }

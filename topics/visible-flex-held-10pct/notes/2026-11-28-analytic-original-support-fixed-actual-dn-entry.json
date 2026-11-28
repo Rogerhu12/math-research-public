@@ -1,0 +1,185 @@
+{
+  "schema": "prepared-original-r53-fixed-actual-dn-entry-v1",
+  "status": "prepared_unexecuted_original_support_fixed_actual_DN_entry",
+  "sources": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_model.py",
+      "sha256": "5f5fde082660b02f164a0b8932bed09ca6fa9ecb212d4928768fc8210d8d82a0"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_resources.py",
+      "sha256": "c19093a00ddff270337dff47cfcd2c5c1ed426eed79d65eb083dfbc66651db15"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_step.py",
+      "sha256": "a4b21f9fb08c1756b274ceeaa2c89b877ecebfa3bcd64627ebd7940cb5025359"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_acceptance.py",
+      "sha256": "23501290001a0a01f5aefc0a32772a0a357f87cb86e27f8b1143fd2592e7c93f"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_chord_fixed_support_actual_once.py",
+      "sha256": "23b7ded6ad7791cb032ab0363c4b2e4bceb2be8beb3670cfc4c59289ef641374"
+    }
+  ],
+  "validation": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/chord-fixed-support-actual-entry-preparation-20261128/validation.json",
+    "sha256": "9718d7cc1e6f2616aa624648126966f082dcc76fc345503a9986f2e65058ec46"
+  },
+  "validation_checks": [
+    {
+      "kind": "py_compile",
+      "source": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_model.py",
+        "sha256": "5f5fde082660b02f164a0b8932bed09ca6fa9ecb212d4928768fc8210d8d82a0"
+      },
+      "returned": true
+    },
+    {
+      "kind": "py_compile",
+      "source": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_resources.py",
+        "sha256": "c19093a00ddff270337dff47cfcd2c5c1ed426eed79d65eb083dfbc66651db15"
+      },
+      "returned": true
+    },
+    {
+      "kind": "py_compile",
+      "source": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_step.py",
+        "sha256": "a4b21f9fb08c1756b274ceeaa2c89b877ecebfa3bcd64627ebd7940cb5025359"
+      },
+      "returned": true
+    },
+    {
+      "kind": "py_compile",
+      "source": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_acceptance.py",
+        "sha256": "23501290001a0a01f5aefc0a32772a0a357f87cb86e27f8b1143fd2592e7c93f"
+      },
+      "returned": true
+    },
+    {
+      "kind": "py_compile",
+      "source": {
+        "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_chord_fixed_support_actual_once.py",
+        "sha256": "23b7ded6ad7791cb032ab0363c4b2e4bceb2be8beb3670cfc4c59289ef641374"
+      },
+      "returned": true
+    },
+    {
+      "kind": "actual_CLI_help",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_fixed_support_actual_step.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.4535360510017199,
+      "output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/chord-fixed-support-actual-entry-preparation-20261128/chord_fixed_support_actual_step.py.help.txt",
+        "sha256": "bd63fc92f9fa6123fbe1d7e957ae05283077446950df60d21f26f070ab52eb01"
+      }
+    },
+    {
+      "kind": "actual_CLI_help",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/run_chord_fixed_support_actual_once.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.046280700000352226,
+      "output": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-analytic-work/chord-fixed-support-actual-entry-preparation-20261128/run_chord_fixed_support_actual_once.py.help.txt",
+        "sha256": "d14fceda5172c0eac5f38bc10f3689e223091889b6905fad7cb3d04d1e65efe9"
+      }
+    }
+  ],
+  "mathematical_contract": {
+    "first_source": "strict accepted actual lambda-one original R53 7a chord return, not a linear candidate or a phase-family record",
+    "later_source": "own genuine fixed-metric actual-DN accepted return",
+    "frozen": [
+      "actual final physical delta",
+      "complete profile and bridge",
+      "physical tail parameters and cut",
+      "literal radial chart",
+      "angular chart",
+      "material homotopy=1 and curvature_blend=1",
+      "fixed gauge q",
+      "warp_reference_q",
+      "source literal finite mean count",
+      "original BC normalization"
+    ],
+    "parameter_zero": "log(q_actual/q_seed); no delta variation",
+    "higher_parameters": "all original physical support coefficients retained with identical prefix scales; added modes zero-extended only in the unaccepted initializer",
+    "full_lift": "the unchanged original exact core lift; complete state embedding plus the original a(s)*(1-S5) inlet projection correction",
+    "source_knots": "all complete original adaptive nodes literally retained; only added refinement nodes evaluated from the actual physical quintic",
+    "terminal": "unchanged original TailMixin nonlinear DN, complete full H/J/audit, original eight-outer budget",
+    "final_height": "saved physical quintic endpoint; original outer raw height kept separately; packet reused only if all little-endian float64 H bytes agree",
+    "finite_mean": "source N is frozen independently of later M; diagnostic audit angles may increase",
+    "tail_modes": "1<=M<=64 current actual native ABI; no truncation or higher-mode claim",
+    "claims": [
+      "no actual lambda-one source used in this preparation",
+      "no fixed-DN finite solve returned",
+      "no C2 limit, seam, embedding, reach or completed surface proved"
+    ]
+  },
+  "resource_contract": {
+    "complete_CSR": "existing verified direct_csr_collocation",
+    "linear_solver": "existing complete block_qr_v2; full original matrix residual retained",
+    "storage": "verified complete factor-only mmap; complete CSR remains anonymous",
+    "grouping": "unchanged fixed-support RHS64/Jac32 with explicit additional 512 MiB grouped allowance",
+    "gates": "actual pre-J mesh memory/disk gate, retained complete solve and original nonlinear overlap; logical mapped bytes are never RSS credit",
+    "checkpoint": "full true nodal x/y/p/pscale before every complete J; midpoints cannot overwrite",
+    "page_release": "a successful original linear solve must also report mapped-page DONTNEED before released-factor nonlinear work",
+    "lifecycle": "explicit mutually exclusive inherited CI-owned session or standalone new owned session; only observed true child terminal permits scoped mapped-store cleanup"
+  },
+  "independent_read_reviews": [
+    {
+      "reviewer": "design_continuation",
+      "scope": "resources.py and cross frozen-repository loader/native binding",
+      "result": "no concrete blocking issue found; requested joined-child cleanup and explicit mutually exclusive ownership modes, now included",
+      "numerical_tests": false
+    },
+    {
+      "reviewer": "tail_closure",
+      "scope": "complete H/J/audit/8outer/physical H and packet acceptance",
+      "result": "no mode/mean/state omission found; requested finite values of all eight original audit scalars, now included without inventing error thresholds",
+      "numerical_tests": false
+    }
+  ],
+  "execution": {
+    "original_BVP_solves": 0,
+    "original_tail_solves": 0,
+    "model_constructions": 0,
+    "positive_lambda_one_inputs_used": 0,
+    "new_numerical_tests": 0,
+    "only_actual_compile_and_CLI_help_executed": true
+  },
+  "dependencies": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/chord_actual_coupled_prefix.py",
+      "sha256": "5c1e816af142b8d2f5cc8cba43d840c5bc352a032a9be212e9581f753efd625a"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/analytic/fixed_support_mapped_memory_budget.py",
+      "sha256": "8e8d1af72de072547702fef0586d41fb94c4d1f7a6ec07b28b45d04516161e1c"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/owned_process_session.py",
+      "sha256": "690b0f0cb313b319e20a721ce861803e3dd3288afda3e09419190b1aeb19c96f"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/design/mapped_factor_cleanup.py",
+      "sha256": "9acd6130309bd5044940350080745f7212060a687a698cc30207552d10c5f4cb"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/continue_original_actual_dn_chord.py",
+      "sha256": "7a1ce40d5141c08f4d76b2bc201f3113b04d02f12f60c06809a9053ba03321cc"
+    }
+  ],
+  "next_actual_use": "After one genuine 7a return, prepare an original full native/config/port at actual M and run the owned child. At the first same-M level the already bound native and literal base/port can be reused; only new trace/initialCheckpoint/chord runtime fields are made. Changes of M/RK require the existing honest original port/native exporters and a new complete solve.",
+  "complete_surface": false
+}

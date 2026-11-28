@@ -51,7 +51,7 @@ $$
 F(t)=
 \begin{cases}
 \dfrac{t^3}{\eta^2(1-\eta)}
--\dfrac{t^4}{2\eta^3(1-\eta)},&0\le t\le\eta,\$$1ex]
+-\dfrac{t^4}{2\eta^3(1-\eta)},&0\le t\le\eta,\\[1ex]
 \dfrac{t-\eta/2}{1-\eta},&\eta\le t\le1-\eta,\\
 1-F(1-t),&1-\eta\le t\le1.
 \end{cases}

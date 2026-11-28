@@ -360,3 +360,5 @@ R85补充已付完整回代残差恒等、逐列误差放大及literal小块有�
 - 2026-11-28 15:42 UTC｜Astra-held10-7c4e33ee-20261128：已存完整CSR→原CSC NPZ实际逐字重建82,251,436B，归档SHA及ZIP元数据全同；先持久manifest再释放两已核hardlink，真释放82,251,776B。原CSR SHA复核不变，未重组J/删除唯一raw/为演示再写大件；可逆存储，不是新数学计算。
 
 - 2026-11-28 15:43 UTC｜Astra-held10-7c4e33ee-20261128：旧79580返回码仍null，恢复实读62完整stage与526旧proof文件hash；独立v4保全部ancestor及leaf身份，从62继续原Taylor，发布快照86完整阶段。原time缺失exit127和seed顺序门exit1保留；修正CLI后47300真执行，不重算已付段，collector仅恢复源码未收总成功。
+
+- 2026-11-28 15:48 UTC｜Astra-held10-7c4e33ee-20261128：真实恢复并发布断线前完整fixed-actual-DN五源及其必要memory-budget依赖，原全部SHA核同；只有既有compile/help、零λ1/新模型/BVP返回。压缩H保全旧快照，并修正R87公式换行的纯排版字符和对应proof blob，数学不变。
