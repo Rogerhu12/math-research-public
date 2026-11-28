@@ -396,3 +396,12 @@ root完整证明S3150点源，geometry独核7处真实坐标/CRT/Gaussian，arit
 
 - 2026-11-28 00:09 UTC：root审R1026§9的含质量整展开、两个真实Gaussian、第二半径端点(p−1)η=p−3+1/p、完整无限尾和qα log，实际精度提高到H+1；稿19838B/hash072b38bc9a02e22c392b8542a3c31ebb4d843b96cb87c81f8d5a807a0751c0d2。root另证R1028§9的整个ΔV=cpA^(p²)Tt^p原39纤维阶、全部native三角及真实cut费用，arithmetic独审通过；全稿23206B/hash9cddf874162be294b484879e5efa467f18fa168227ff2e733fad7bfaee15bdb8。更高精度未使原四阶cut见到Tt差，c=6/t=1仅未授权候选，物理M及全高位/中央求和不删。当前API逐字核两稿旧base与已审blob一致，未覆盖其它修改；旧9669B H逐字归档。无数学执行。
 推前实际两库pull run46075603971/job140795368313：公开2026-11-28 00:04:44至18ef37d4e40e799b34a259955a232f8e08719039、私库00:04:49至1ac8b3c55680f162caa357a56ae9c083db69598c；四README与23:58一致。QUEUE新blob207e1c58896cdd799b136aa4ca11970e050d14a5，根直接只核本题行仍本会话进行中，未改他题。日志14886B/hash0b20530e05f369aa9c017924581843d7172d386b09cf5dcec456a1ab1b305a4b；库存3152blob/44,395,147B，tree8b813db5189f52f1c5e010cf8f64ac0163a621f0，无超限，三旧必要gzip不变。00:08本地exec只读pwd重试仍无可用环境，API/CI继续分记。00:04唯一v13仍in_progress，未增加数学PASS。
+
+
+## 2026-11-28：原B12完整canonical读者和三十九支返回
+
+完成 notes/2026-11-28-original-b12-canonical-reader-and-complete-thirtynine-trace.md，全文16031B、SHA256 31a49fa78b04087bb11298b56fe4e9793222d387e4ba2606a9119546dd22e658。geometry手证，root逐式核完整R1037谱、R1038§§11–13及R853全极/Cartier证明。保Pi_E全部324词、B12共轭第四Miller与CM有理比，原390→378的实际frame和全部零极，四次Cartier首行及全39微分trace；Normα(y)的常数由全部39支和无穷点归一核定。projection formula保三个rank13/degree126稳定carrier。表面六极被实际O额外六零补偿，未给R1028终端新增非零。
+
+发布前实际两库pull由readonly run46075603971/job140799406042完成，workflow source e5309ee152260aa4aef389c7d5d68bac1cf8b116。公开00:18:40UTC至c9df0b1778a4d56d4add15a39af7d289fc90489a；私库00:18:45UTC至50bbc6ab4613f14b9fec6bc2c54e4c40262e6087。四README blob与00:04已读版本完全相同，无新差异；私库QUEUE新0960ae68e078bae51fd8e95fc2839c7028ffa6fc已直接读本行仍本会话进行中。完整job日志14889B/hash86166b8195f422c9ca2003e98187bb65cd7a6355ed02f848bfb0aa3f89544d5f，仅记录不保存；库存3153blobs/44,420,255B、tree a070d55f6b0d922b1c05e9825b960cb1fd1789cc，无>5MB，三旧必要gzip不变。H按规矩逐字归档至 notes/2026-11-28-handoff-before-b12-complete-trace.md 后缩写。
+
+唯一heavy v13 run46080875647/job140779301767于00:17:25UTC仍in_progress，完整认证/数学step未终；不开第二heavy。中央原p²剔除完整finite矩阵/周期/实际Bol接口已交独审，根继续实际Q平均/规范source接合，几何继续原39/P10 frame，不等用户。

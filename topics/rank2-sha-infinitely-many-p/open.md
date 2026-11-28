@@ -208,3 +208,10 @@ g_1^*((p\delta)^nF_0)=p^{2n}\delta^n(g_1^*F_0)=p^ng_1^*(\delta^nF_0).
 [R1026§9](results/R1026-extended-flat-window-thirteen-saturation-and-full-contiguous-family.md)把原两个39支特征零顺序的准确比较提高至 $p^{H+1}$（原全部 $H\le p-6$），保非零质量、两Gaussian及 $m_0\log q_\alpha$；第二半径从 $h=p-1$ 的完整尾至少 $p^{p-2}$，不误借质量零端点。末六权各为 $p^{p-6t+1}$。[R1028§9](results/R1028-terminal-flat-weights-and-complete-thirtynine-primitive.md)同时证明原已付四阶cut仍看不到完整 $T_t$ 余项：全权差 $c_pA^{p^2}T_t^p$ 在全部39核点从 $p(H_t+1)$ 阶起，native三角 $n\le(p+1)H_t$ 后逐纤维仍无留数。一般局部耗费 $c<6t$ 同样不见；$c=6,t=1$ 仅留下一个尚无非零授权的端点候选。精度加强没有增加canonical零行；完整物理M、高位、GP10、外权和Newton和仍保留。
 
 正在核两个真正新输入：central把书中实际 $w^{(p)}$ 的全部导子$p^2$新来源、finite words和周期相消具象化，原未改动零项只按R1052删除；geometry追原E3969投影 $\Pi_E(f/B_{12})$ 的全部实际finite权/次数和其它极，不能把它硬当旧390/39标量cut或预认六阶候选非零。两条都须完成来源与原canonical的比较，不以模型换名填主门。
+
+
+### 2026-11-28：原B12 reader已完整支付，六极须保实际补偿
+
+[原B12 canonical读者与完整39支返回](notes/2026-11-28-original-b12-canonical-reader-and-complete-thirtynine-trace.md)把R1037的全部324词和真正B12共轭写回原390两来源；保二挠第四Miller及每个CM词的完整有理比，最终是E3969的原degree378必要首行。原投影来源在O增加六阶零，准确抵消表面六极；±S和二挠全部阶及同一M=1 frame的高零保留。完整四次Cartier与39支trace返回同一原首行，Normα(y)=cαy使对数方向的trace标量为1；一般微分的39/α费用明确保留。theta推前仍是三个rank13/degree126稳定carrier，不能冒旧390→10降次。下一步须付此真实reader与原P10/全Miller窗的逐式比较或同R新消元，不能先给c=6终端非零。
+
+继续同一Pi_E来源、指定frame及全部rank13中间层；不把环境极帽或局部六阶矩当canonical授权。原无穷p非零仍开。
