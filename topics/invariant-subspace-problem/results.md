@@ -4,9 +4,11 @@
 
 普通复可分无限维 Hilbert ISP 仍未完成。AI-assisted GPT-6 Astra Pro；当前接续见[HANDOFF](HANDOFF.md)与[open](open.md)。只有各正文完整证明的明确范围算已闭。
 
-本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-Phi-Bzero-C2-whole-I6-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
+本次压缩前的完整结果索引、原日期/来源/计算身份与适用边界保[完整索引快照](notes/2026-11-28-results-before-W-gamma-monic-first-nine-8542.md)及其全部归档链。原全W31/W127、Γ120、原权7–11和此前R271长链及截至11月26日的完整结论均已登记，不重算；此处保本会话新增结论。旧条目中的“仍开”仅被后续明确同范围的结论更新，省略不算关闭。
 
 ## 新增结论
+
+- [整个W/γ的原齐次三次迹、头Bézout1与首一f²](results/R150-appendix-unit211-W-gamma-open-global-original-monic-f-two.md)：全部原分母仅已付权与γ，8.998秒全三列返回，纯权额外覆盖为1。180秒/−14后的十×二展开没有完成且冻结；二生成环境仅按首一除法精确推论，不冒称全物理商有限自由或空。
 
 - [正确Phi整B斜率二次纤维的完整原排除](results/R150-appendix-unit211-Phi-zero-true-Bzero-slope-quadratic-complete-original-exclusion.md)：全QQ[x]/(23x²−11x+2)、同点原Gram、原线性均值恢复和五固定t结式；23.103秒完整Bézout仅(λ+1/4)²，该整λ纤维已原排空。无H3或D借逆，不称整B已空。
 
@@ -67,5 +69,3 @@
 - [R12 附录：原逆变量与同一平坦分母的联合解析场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)：统一双系数预算、真正P解析逆及L^q Jensen付全部原旗商非零分子quasi；最大闭图/原参数核心/闭包场忠实。实际P超越旧单变量场，e^P亦不在旧场(P)；最低w阶证明联合场仍无平方根，场外复来源继续。
 
 - [R150 附录：原个别N/P与完整V五次原提升及十五生成补图](results/R150-appendix-unit211-Phi-zero-original-individual-NP-and-full-V-fifth-degree-lift-and-fifteen-generator-cover.md)：真极化/原Gram同点返回；Cλ⁵降为次数(4,3,3)，C5补图十五生成、固定权纤维长≤15，C5零集与物理D开保留。唯一run46103882263成功，不登记全Phi有限或排空。
-
-- **R267 / 同一定量P的精确幂费用和Neumann预算：** [完整证明](results/R267-appendix-same-positive-denominator-exact-power-cost-and-neumann-budget.md)。同尾正来源、实现原C^r权范数的真实同柱给log(-log||P^n||)/n^(3/2)→log16/48；混合幂同付。全尺度解析逆费用任意1+ε，未知普通Q只上界；联合来源忠实性和平方根仍另付。
