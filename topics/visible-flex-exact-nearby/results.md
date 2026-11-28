@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [PWA96R：完整真实H96与APHI原runtime后的七目标首发](results/R149-supplement-first-PWA-entry-with-the-entire-actual-H96-and-APHI-runtime.md)：34whole全部原validator过；只对固定APHI三whole与真实run/event使用其原manifest runtime，不伪加Haswell，另外两父原门保。原唯一consumed和七PWA数学不动；接原96dyadic中心、同rho、4负窗/2world/两mean，首次actual结果及CFC待。
+
 - [AH96：原2847闭格之后全96高度七目标实际完成](results/R149-supplement-actual-all96-height-rows-after-the-complete-2847-cells.md)：实际46135898111/1七目标全成、原2847/96列/三类whole载体保；根完整34whole原H96/P96/APHI validator及失败父前后检查全过。actual31652Ba49119d5…、execution43566B73d78ed9…；帽height joint .1387156385/reduced phase .2154269254全保，不能授小真解。PWA共rho→CFC实际新目标待。
 
 - [GPM：全部真实截断不完全矩与四阶导的有向接收](results/R149-supplement-complete-signed-partial-cutoff-averages-on-the-genuine-frequency-contours.md)：真实Beta65,65截断经下不完全矩精确递推，原13有向系数及全Taylor余；整个x∈[0,1]两边界与Vext0..3/B0..4保。四真实输入组+完整复轮廓共52×256=13312闭格，18whole首发；实B>190/复B<276均待真实科学，不拿GXM整标量代替部分积分。

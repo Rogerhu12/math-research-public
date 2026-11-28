@@ -165,3 +165,6 @@ GPM：真实Beta65,65截断经下不完全矩精确递推，原13有向系数及
 
 
 AH96：实际46135898111/1七目标全成、原2847/96列/三类whole载体保；根完整34whole原H96/P96/APHI validator及失败父前后检查全过。actual31652Ba49119d5…、execution43566B73d78ed9…；帽height joint .1387156385/reduced phase .2154269254全保，不能授小真解。PWA共rho→CFC实际新目标待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+PWA96R：34whole全部原validator过；只对固定APHI三whole与真实run/event使用其原manifest runtime，不伪加Haswell，另外两父原门保。原唯一consumed和七PWA数学不动；接原96dyadic中心、同rho、4负窗/2world/两mean，首次actual结果及CFC待。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

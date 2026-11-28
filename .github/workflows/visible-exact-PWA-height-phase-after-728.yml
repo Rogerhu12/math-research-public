@@ -1,0 +1,84 @@
+name: R149 complete PWA height and common-ratio phase rows
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-PWA-height-phase-after-728.yml'
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-exact-PWA-height-phase-saved-20261128
+  cancel-in-progress: false
+jobs:
+  first-PWA-height-and-phase-saved-combinations:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 30
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - name: Install Git in the original immutable Python container
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-20-reviewed-public-CI-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-27-finite-trial-phase-complete-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-27-strict-nu-phase-after-45914123725-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-PWA-height-phase-after-728-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-finite-trial-height-after-728-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-finite-trial-height-complete-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json
+            /topics/visible-flex-exact-nearby/notes/finite_trial_height_after_728_ci/consumed-target.json
+            /topics/visible-flex-exact-nearby/notes/finite_trial_height_after_728_ci/run-46135898111-1/actual-finite-trial-height.json
+            /topics/visible-flex-exact-nearby/notes/finite_trial_height_after_728_ci/run-46135898111-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/finite_trial_height_ci/consumed-target.json
+            /topics/visible-flex-exact-nearby/notes/finite_trial_height_ci/run-46123190757-1/actual-finite-trial-height.json
+            /topics/visible-flex-exact-nearby/notes/finite_trial_height_ci/run-46123190757-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/finite_trial_phase_ci/run-45926971089-1/actual-finite-trial-phase.json
+            /topics/visible-flex-exact-nearby/notes/finite_trial_phase_ci/run-45926971089-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/strict_nu_phase_ci/run-45915169627-1/actual-strict-nu-phase.json
+            /topics/visible-flex-exact-nearby/notes/strict_nu_phase_ci/run-45915169627-1/execution.json
+            /topics/visible-flex-exact-nearby/results/R147-supplement-actual-height-pivot-and-complete-phase-mean-transfer.md
+            /topics/visible-flex-exact-nearby/results/R147-supplement-physical-angle-cap-GW-and-small-vertical-world-anchors.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-PWA-height-row-and-common-ratio-phase-consumer.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-complete-phase-receiver-in-original-negative-source-windows.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_height_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_height_resume_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_height_resume_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_phase_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_trial_phase_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_chain_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_actual_runtime.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_after_728.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_saved_math.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_saved_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_saved_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_nu_phase_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_nu_phase_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/make_pwa_height_phase_saved_manifest.py
+      - name: Trust the explicitly mounted checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Install the declared small scalar arithmetic
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Consume complete H96 P96 APHI objects exactly once
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_pwa_height_phase_saved_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-PWA-height-phase-after-728-inputs.json
+          --manifest-sha 192b231765159b17c9b33a34048f9839268ed93e26cb28a8f7e5550985b7cb2a
