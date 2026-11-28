@@ -1,0 +1,176 @@
+{
+  "schema": "isp-original-local-jet-and-valuation-closure-small-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date": "2026-11-29 Asia/Taipei",
+  "theorem": "R150-appendix-unit211-W-b0-positive-e-k-minus-two-entire-original-valuation-exclusion.md",
+  "scope": {
+    "prime": 1009,
+    "chart": "current W/b0, physical D nonzero",
+    "valuation_conditions": [
+      "v(e)>0",
+      "v(k)=0",
+      "residue(k)=-2"
+    ],
+    "whole_named_branch_excluded": true,
+    "whole_positive_e_ray_excluded": false,
+    "whole_W_excluded": false,
+    "new_center": {
+      "ell": "3/5",
+      "mu": "-2",
+      "lambda": "1/2",
+      "T": "-1/2",
+      "Z": "-4/3"
+    },
+    "proof_method": "unit integral original Jacobian, unique local series, first exact QQ nonzero complete N5 coefficient a p-unit; combine prior whole branches"
+  },
+  "source": {
+    "basename": "2026-11-29-unit211-W-b0-positive-e-k-minus-two-finite-center-two-original-unit-jets-8542.py",
+    "blob": "719469bead8b8388a6c93b9aa37b8e0162c8be23",
+    "sha256": "3e596cbcbfb8cad9afc49437a1542ff73f41a950080c392daa04f0f59281ae43",
+    "bytes": 8105,
+    "dependencies": [],
+    "seconds": 120,
+    "memory_mib": 1024,
+    "fixed_jet_order": 12
+  },
+  "input": {
+    "blob": "2394dfa8344c01b5bead4c5940510c5c256ebdff",
+    "sha256": "7e5250b8587190d4030e4a71148c71aaae250e41cc4196c05abe45aeb345a9fd"
+  },
+  "execution": {
+    "elapsed_seconds": 0.9118542709999957,
+    "max_child_rss_kib": 39264,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "43c2d3b4c98d50648ddb238c1fb346da890137ee",
+        "before": "18f615c941b4e18e503d1ba028437b891fab5d85",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T18:16:20.009379+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46174918280",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "18f615c941b4e18e503d1ba028437b891fab5d85",
+    "source_exit_code": 0,
+    "source_git_blob": "719469bead8b8388a6c93b9aa37b8e0162c8be23",
+    "source_sha256": "3e596cbcbfb8cad9afc49437a1542ff73f41a950080c392daa04f0f59281ae43",
+    "stdout_bytes": 1947,
+    "stdout_sha256": "6232914f40e8b7b5b2b0bc72757b695689cd0293625f8e617a9bb599efcd11f8",
+    "stop_reason": null
+  },
+  "records": [
+    {
+      "center": {
+        "Z": "-4/3",
+        "ell": "3/5",
+        "mu": "-2",
+        "lambda": "1/2",
+        "T": "-1/2"
+      },
+      "parameter": "x=Z+4/3",
+      "unknownOrder": [
+        "mu",
+        "e"
+      ],
+      "originalEquations": [
+        "q2/(4e)",
+        "complete_R6"
+      ],
+      "jacobian": [
+        [
+          "-9/25",
+          "217/375"
+        ],
+        [
+          "0",
+          "-27/62500"
+        ]
+      ],
+      "jacobianDeterminant": "243/1562500",
+      "jacobianMod1009": 123,
+      "prescribedExactQQJetOrder": 12,
+      "everyOriginalEFactorCancelledBeforeSeries": true,
+      "noOldResultantGcdInitialIdealOrPoleJet": true,
+      "stage": "new_finite_center_two_original_unit_Jacobian",
+      "seconds": 0.08581088599999731
+    },
+    {
+      "firstExactNonzeroOrder": 2,
+      "everyEarlierCoefficientExactlyQQZero": true,
+      "firstCoefficientMod1009": 733,
+      "firstCoefficientBytes": 10,
+      "firstCoefficientSHA256": "53ff6deb3bc9e4ed3a237370361ea42235f67a15f95577b5e84aedbf5c1de14a",
+      "exactImplicitMuJet": {
+        "knownThrough": 12,
+        "bytes": 526,
+        "sha256": "c7492dd9c1838d1840135cebda9e182bc9d7b6e5b5af496f041aa0515349f305"
+      },
+      "exactImplicitEJet": {
+        "knownThrough": 12,
+        "bytes": 486,
+        "sha256": "9911fb1f413cbe9aedd455355a8c13b02dcfaed2360a972bbd53f6063028f9a9"
+      },
+      "firstEOrder": 2,
+      "completeOriginalN5Jet": {
+        "knownThrough": 12,
+        "bytes": 592,
+        "sha256": "f45d6bd278959616d21b7c4fa89aa7ca5a2cbb06c3e71bd567180de01ce22371"
+      },
+      "originalQ2AndR6BothZeroThroughOrder": 12,
+      "unitJacobianAndEntirePIntegralLocalModel": true,
+      "parameterZeroWouldForcePhysicalEZero": true,
+      "excludesEntireNamedValuationCenter": true,
+      "nonunitFirstCoefficientRetainsCenter": false,
+      "notBareModDNilpotenceOrQQEmptyLifting": true,
+      "statistics": {
+        "seriesExactCoordinateChecks": 32,
+        "implicitJetCoefficients": 24,
+        "pIntegralCoefficientChecks": 66,
+        "finalOriginalN5Jets": 1
+      },
+      "stage": "new_finite_center_complete_original_N5_first_coefficient",
+      "seconds": 0.8563888389999974
+    },
+    {
+      "fixedOrder": 12,
+      "onlyNamedFiniteCenter": true,
+      "oldUnexecutedTangentSourceNotEntered": true,
+      "actualOriginalN5Jets": 1,
+      "statistics": {
+        "seriesExactCoordinateChecks": 32,
+        "implicitJetCoefficients": 24,
+        "pIntegralCoefficientChecks": 66,
+        "finalOriginalN5Jets": 1
+      },
+      "stage": "new_finite_center_original_local_jet_input_complete",
+      "seconds": 0.8564376100000004
+    }
+  ],
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46174918280",
+  "job_id": 141071333935,
+  "personally_read_complete_math_records": 3,
+  "prior_results": [
+    "R150-appendix-unit211-W-b0-positive-e-k-minus-two-positive-ell-exclusion-and-integral-center.md",
+    "R150-appendix-unit211-W-b0-positive-e-k-minus-two-entire-ell-pole-original-exclusion.md",
+    "R150-appendix-unit211-W-b0-positive-e-k-minus-two-ell-unit-entire-mu-pole-exclusion.md",
+    "R150-appendix-unit211-W-b0-positive-e-k-minus-two-ell-unit-finite-mu-one-residue-center.md"
+  ],
+  "unexecuted_replaced_source": {
+    "blob": "da659b35f9ed3702ccd91a0c35efe4f2a595d083",
+    "executed": false,
+    "record_as_math_failure": false
+  },
+  "preservation": {
+    "full_series_coefficients_stored": false,
+    "replayed_prior_math_gate": false,
+    "resource_increase": false,
+    "first_nonzero_coefficient": "[x^2] of complete original N5 on the unique integral (mu,e) original local solution; exact definition retained"
+  }
+}
