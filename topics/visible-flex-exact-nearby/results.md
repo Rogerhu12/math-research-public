@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [GRQ：真实四分支首比值的整域固定标签求积入口](results/R149-supplement-fixed-label-whole-first-ratio-quadrature-and-real-reflection.md)：从实际GCS/GPR两完整成功原载体同SHA恢复，保同一正E、原cut四符号反射/共同标签/全均值/6角导数，首次积分全物理域R、a1、b1；最多4500闭子格，原子整件前缀及下一格continuation、15分钟独立README规则监督。新科学尚未运行成功；并未支付完整genuine高频强迫算子。
+
 - [GRR：原完整Grassmann图的必要整件恢复合同](results/R149-supplement-whole-signed-response-graph-carrier-recovery.md)：只可在GG原2/2 whole成功后恢复实际1424两向flow、1425真图节点和97/96完整frame；原81三SHA、exact1424 frame文件index、所有graph写入/live index/journal全部相同才消费。后1343旧四source covariance不重算，原mean/full193/whole真实图保持；尚无实际GG成功。
 
 - [GAF：全负域两真Airy状态行的全频物理范数](results/R149-supplement-all-frequency-two-ray-physical-bound-for-both-genuine-Airy-rows.md)：同r真光学范围比≤81，整负域−T≥min(5ρ/2,1/20)；AHD正Laplace矩给解调幅对数变差1/2、5/8。保原两列Z与两真相位，任意全输入集高度/导数÷n完整物理L2费≤36bN/160bN，普通dr L2<40N−1/6/176N−1/6；均值低泄漏全保，其他源与负阶仍另付。
