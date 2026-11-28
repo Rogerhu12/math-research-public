@@ -64,6 +64,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 <!--r777-publish-->R777 [全部返回](notes/r777-bent-cap-whole-46179547740-1-index.json) [每次双README真读](notes/r777-bent-cap-whole-46179547740-1-reads.json) 52937a89ed7db0955993c22230239f8a414d5651
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull df4b14486e38b128fb9b6284324eb417d48f41d3
 <!--run52-mild-cap-stress-->52 [实测](notes/run52-mild-cap-stress-46182901571-1.json) 双README真pull 0020840e0fc72c354d1fac0e7cda9113eb32c941
-<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull 0c507ca4d29c0412b92d1c3d57c80804481cfc3b
 <!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 1e58cefd4f5300fae1e15807aa7e6a2e9ba16776
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 4513f2d641beb70bd7c74b5416ad160a6d4a43a0
+<!--run54-prebent-waist-->54 [实测](notes/run54-prebent-waist-46184263875-1.json) 双README真pull bea61102cd31c3e92468fcb62469066f67396795
