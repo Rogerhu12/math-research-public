@@ -156,3 +156,6 @@ RCS首run46129196297/1在科学前因实际host无SkylakeX指令失败，目标0
 GDG已付全负域genuine determinant：ΔV/D>1−1e−7、ΔV>1/720、root BΣ<21/10、whole(B−Hinv)Σ<1/70000；不等于uniform高响应。JWS与FWT所有joint常数/负阶窗/unknown cL,ZS,ZL按原proof保，实际PH⁻¹PKQ/PU/Pg/Pf、普通finite complement、phase/height/ν/means/Robin、normalizer缺陷及全非线性迭代仍必须完成。
 
 公开根新增#16和私库新增#15要求全部子代理显式gpt-6.2-astra/ultra，09:41差异已读立即落实。各新结论独立登记并逐条push；总课题未完成，持续推进。
+
+
+ADCP：run46124617641/1全部18目标成功；322整输入、原validator和原admission全过。全2560/8192/2048加无限tail、96exact signed中心及双mean保，finite-reference joint<.000559991、true Θν joint<.001177993；旧science0。CFC的DCP parent可实际准入，其余SC/H96/PWA96条件仍须真完成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

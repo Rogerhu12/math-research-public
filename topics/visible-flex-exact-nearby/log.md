@@ -290,3 +290,6 @@ DWTB9 45935081577/1于04:35:55全9success，actual24958B SHA2658db04a88e92f88b26
 
 
 2026-11-28 09:41 UTC / visible-exact-astra-b0d5a16-20261128：公开pull至ca8909e6b21d2ac6a5e373887dda5d01d0ede954发现根新增#16，topic无diff；私库pull至ede146a4a9899f74b54d9c1aa00bdf3222018431发现根新增#15，QUEUE仍本会话进行中。两条均要求subagent显式gpt-6.2-astra/ultra，已读差异并立即让三旧实例保存完整接续后换指定ultra的新实例。GG首次push先记录新读head再继续；原结论不重做。open第8节压缩前全页固定b2992a2d4，所有旧成功/失败/unknown/whole身份和义务保留。
+
+
+2026-11-28 09:46:01 UTC / visible-exact-astra-b0d5a16-20261128：ADCP。run46124617641/1全部18目标成功；322整输入、原validator和原admission全过。全2560/8192/2048加无限tail、96exact signed中心及双mean保，finite-reference joint<.000559991、true Θν joint<.001177993；旧science0。CFC的DCP parent可实际准入，其余SC/H96/PWA96条件仍须真完成。 后置临时receipt86460B/e47d293e1ae7bbc50868356c7a12cd39c0980ae6ab9ec2382c9dd56571f91b9c，仅52个历史整文件按原Git字节恢复，无旧producer。 全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-actual-complete-particular-density-Theta.md","bytes":7478,"sha256":"1b4a30ad4d5e049059e03d1f887d63112602b60d40a3e12ed379bdca8f35f238"}]。
