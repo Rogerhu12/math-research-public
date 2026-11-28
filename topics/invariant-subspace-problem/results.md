@@ -30,6 +30,8 @@
 
 ## 新增结论
 
+- [R150：正确Phi第二头完整odd N/P八列与两九原六次](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-complete-odd-NP-eight-columns-and-two-original-sextics.md)：唯一1de198运行21.923922683秒/0，8新列32坐标并入准确4×28呈示；两固定cofactor全9原返，λ6/6总66/71、权头60/65未付。全部共同约消零纤维保，无gcd/单位/全Phi空性。
+
 - [R150：正e单位k的完整剩余二次与±4中心全排](results/R150-appendix-unit211-W-b0-positive-e-unit-k-exact-residual-quadratic-and-k-plus-minus-four-exclusion.md)：原q2准确给h³μ²/9−4h(L−1)μ+2h²−3；h0直接矛盾，负四中心S=(μ+3)²/12、K原短除及余657支付单位，任意深M的R6阶γ/3γ矛盾。全文纸面，无旧初始理想重跑。
 
 - [R12：实际复逆幂、全旗共同强单位及平坦精确可除层](results/R12-appendix-accretive-complex-inverse-powers-flat-divisibility-layers-and-all-flag-sources.md)：新Reθ>0同Γ积分、有限组共同Eλ^k、Hk实际逆源/图核心；全喷射零但C^rLθ∉C^(r+1)C′。旧正实分数根不重计，原Y²=CLθ²仍开放。

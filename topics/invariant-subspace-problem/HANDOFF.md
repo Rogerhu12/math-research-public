@@ -10,9 +10,9 @@
 - **最近实际 pull / 已读规则提交：** 4656d931b0676975b151c9a454fb16f4a80fe56b（2026-11-28 17:53:55 UTC，Actions run46172875023实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-8542/46172875023-1.json。
 - 私库QUEUE本会话进行中已实际核验；最近真实pull为2026-11-28 17:53:50 UTC/7768de78a8d0de5c5861edb87f48253f86bfd239，根README diff无变。公私均部分克隆blob:none。
 - **终端断开：** 2026-11-28 17:07 UTC复探仍不可用；按规矩8/13小文本准备、Actions真实部分克隆/pull/rebase/push，拒推立即循环。18:07再探，旧故障保归档。
-- **终端断开后远端已读：** f406ba20aa8cf46172036d071d007d503834faa2（2026-11-28 17:53:20 UTC）；只读检查不冒称实际pull。
+- **终端断开后远端已读：** 0e33dcf75625b3e323583881d853d8752c6fba35（2026-11-28 17:57:19 UTC）；只读检查不冒称实际pull。
 - H<10KB、MD<100KB、open尽量<30KB、题<200MB；只留源/参数定义/run/SHA/小回执，禁编码或分片搬运数据；旧缓存已按8/15移除，不写根LOG。课题外workflow改动已记本题log。
-- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-29-HANDOFF-before-W-positive-e-k-plus-minus-four-2140-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
+- 所有被压缩的精确结论/来源/失败身份保[最新完整H](notes/2026-11-29-HANDOFF-before-Phi-complete-odd-NP-eight-columns-2145-8542.md)、[open](open.md)、[结果索引](results.md)及归档链；省略不算关闭，已登记不重做。
 
 **优先更正：** [compact原E1平方错误](notes/2026-11-28-unit211-dual-germ-compact-mean-definition-correction-and-dependency-quarantine-8542.md)已确认；所有沿错R2/Rbar的原推论撤回，旧闭合标签不得抵触本更正。已核受影响页逐篇加撤回。W原链/十三单位已核正确；Haar/R271独立。
 **尺度范围：** R150长度只计明列比值/Gram；独立U0另添U0³=−P0。W/b0≤23088添尺度≤69264；h=k/Δ0旧2394/7182包络现已整体排空，不计未列矩阵轨道。
@@ -39,7 +39,7 @@
 - **一般ell=0全闭，全局付ell。** 全三头/1146覆盖及全部余域源保总证归档，不加W/Q边界，不重放。
 - **旧D≠0图T0=0全闭，仅该图付T0。** 完整QQ4原48×35返1/旧源保档；一般头仍2u⁴Q(Q−1)³M²ell·T0(J−Q)，不传h=k。
 - **h=k错链撤回，整Δ0/ellhalf闭。** 权像维数≤1/8184保。新[完整NV–Loww91及Δ余图恢复](results/R150-appendix-unit211-hk-complete-NV-Loww-original-norm-91-and-Delta-open-two-source-quotient.md)abd714唯一8.428479614秒/0，P(72,19,9)/总91原两源返；AΔ[t]/(NV,L)=AΔ/(P)，t唯一、明列单权纤维≤2且约化，U0另计。权共同分量/原空性开。
-- **Phi错链冻，旧真闭支保。** 全权10/每权9、QQ公共总45/u5、同σ16/C10保。[第二头20列/七原5,6,6](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-twenty-original-columns-and-three-cofactors.md)d20真4.379637371秒/0，无单位/gcd，头未付。新完整odd NP八列/两固定九原cofactor首派120秒/1GiB；自由4仅环境，第一头/两Q冻。
+- **Phi错链冻，旧真闭支保。** 全权10/每权9、QQ公共总45/u5、同σ16/C10保。新[完整odd NP八列/两九原六次](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-head-complete-odd-NP-eight-columns-and-two-original-sextics.md)真21.923922683秒/0，合准确4×28；新总66/71、头60/65均未付，无单位/gcd。旧20列/三七源5,6,6保，四元仅环境；第一头/两Q冻，续新原值。
 
 ### rankH3原ess6
 
