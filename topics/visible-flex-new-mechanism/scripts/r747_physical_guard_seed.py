@@ -16,54 +16,56 @@ class R747Frame(source.R742Frame):
         _,_,xr,_,_,_,ell=build.profile.read(self.r)
         endpoint=source.CUTOFF+source.WIDTH
         _,kind,v=build.ring.label(self.s)
-        main=(kind==0)|(kind==2)
         av=abs(v)
-        active=np.zeros_like(main)
-        for c in (.206,.847):
-            # The target curvature differs from the source strictly inside this
-            # interval. At either end rho=1 on a true open neighborhood.
-            active |= (av>c-.0002)&(av<c+.1002)
-        mask=main&active&(ell>weak.physical.H)&(ell<=endpoint)
+        support=np.zeros_like(av,dtype=bool)
+        for c in (.205,.846):
+            support |= (av>=c-source.ANGULAR_RAMP)&(av<=c+.102+source.ANGULAR_RAMP)
+        mask=((kind==0)|(kind==2))&support&(ell>weak.physical.H)&(ell<=endpoint)
         if not np.any(mask):
             return
-        s=self.s[mask]
-        d=ell[mask]
-        target=build.target(phase)
-        _,_,_,k0,k0s=build.ring.jets(s)
-        _,T,N,k,ks=target.jets(s)
-        if np.any(k*k0<=0):
-            raise ArithmeticError("R747 target curvature changes sign on the true constant-source band")
-        per=target.length
-        rho=k0/k
-        rho_s=per*(k0s-rho*ks)/k
-        f,fs,_=source.support(build.ring,s)
-        _,ap,app=source.depth(d)
-        m=f*ap
-        m_r=xr[mask]*f*app
-        m_s=per*fs*ap
-        loss=(1-rho)*(1+rho)
-        C=np.sqrt(1+loss*m*m)
-        angle=np.arctan2(-m*loss*(1+m*m)/(C+rho),C+rho*m*m)
-        da_dm=-loss/(C*(C+rho))
-        da_drho=m/C
+        s,d=self.s[mask],ell[mask]
+        ring=build.target(phase)
+        _,T,N,k,ks=ring.jets(s)
+        f,fs,fss=source.support(build.ring,s)
+        p,pd,pdd=source.depth(d)
         h=weak.physical.H
-        g,gd,_=source.step((d-h)/h)
-        ar=g*da_dm*m_r+gd*xr[mask]*angle/h
-        ass=g*(da_dm*m_s+da_drho*rho_s)
-        angle=g*angle
-
-        basis=np.zeros((len(s),3,3))
-        basis[:,0,0]=1.
-        basis[:,1:,1],basis[:,1:,2]=T,N
-        bs=np.zeros_like(basis)
-        bs[:,1:,1]=(k*per)[:,None]*N
-        bs[:,1:,2]=-(k*per)[:,None]*T
-        local,local_derivative=weak.fields.rotation(angle,1)
-        bt=np.swapaxes(basis,-1,-2)
-        K=basis@local@bt
-        Ka=basis@local_derivative@bt
-        Kr=ar[:,None,None]*Ka
-        Ks=bs@local@bt+basis@local@np.swapaxes(bs,-1,-2)+ass[:,None,None]*Ka
+        g,gd,gdd=source.step((d-h)/h)
+        # One constant continuation per physical pulse. The true f vanishes with
+        # all necessary angular jets before any U collar. No k_lambda' / k_lambda
+        # spike is introduced at the native narrow angular slope.
+        ratio=weak.B0/(weak.B0+phase*weak.INCREMENT/(.100*.998))
+        amp=1+(ratio-1)*g
+        ad=(ratio-1)*gd/h
+        add=(ratio-1)*gdd/h**2
+        u=amp*p
+        ud=amp*pd+ad*p
+        udd=amp*pdd+2*ad*pd+add*p
+        ref=pd/weak.B0
+        moved=ud/weak.B0
+        C=np.sqrt(1+(ref-moved)*(ref+moved))
+        Cd=(ref*pdd-moved*udd)/(weak.B0*C)
+        b,bx,bs=u*f,ud*f,u*fs
+        bxx,bxs,bss=udd*f,ud*fs,u*fss
+        E=1+k*b
+        zero=np.zeros_like(d)
+        vec,col=source.vec,source.col
+        # Both tangent vectors and their physical derivatives are taken from G.
+        # The normal component of G_sigma on straight angular tapers is retained.
+        want=(None,vec(C,-col(bx)*N),vec(zero,col(E)*T-col(bs)*N),
+              vec(Cd,-col(bxx)*N),vec(zero,col(k*bx)*T-col(bxs)*N),
+              vec(zero,col(ks*b+2*k*bs)*T+col(k*E-bss)*N))
+        G,Gd,Gs=weak.fields.frames(want)
+        F,Fd,Fs=weak.fields.frames(source.ring_jets(build.ring,d,s))
+        trans=weak.fields.trans
+        M=G@trans(F)
+        Md=Gd@trans(F)+G@trans(Fd)
+        Ms=Gs@trans(F)+G@trans(Fs)
+        delta,ds=ring.angular_data(s)
+        X,Xdelta=weak.fields.rotation(delta,0)
+        Xt=trans(X)
+        K=M@Xt
+        Kr=xr[mask,None,None]*(Md@Xt)
+        Ks=ring.length*(Ms@Xt)+M@trans(ds[:,None,None]*Xdelta)
         original=self.base[mask]
         self.br[mask]=Kr@original+K@self.br[mask]
         self.bs[mask]=Ks@original+K@self.bs[mask]
@@ -89,7 +91,7 @@ class R747Build(source.R742Build):
 
 
 def primitive_advance(d,reciprocal,rho,order):
-    """Rationalized X_lambda-W-d at each constant-support label."""
+    """Exact homogeneous comparison X_lambda-W-d, independent of the numerical collar blend."""
     z,w=np.polynomial.legendre.leggauss(order)
     value=np.zeros_like(rho)
     loss=(1-rho)*(1+rho)
@@ -155,9 +157,31 @@ def homogeneous_probe(build,phase):
     gamma=ring.jets(ss)[0]
     px=weak.physical.W+ell[:,None]+inc
     yz=gamma-(p[:,None]*f*rho)[...,None]*N
+    # On the true narrow target shoulders, f still equals 1/k_* but k_lambda
+    # genuinely varies. Its unscaled physical curl is (k0-rho*k_lambda)m*T.
+    v=np.concatenate([c+np.array([.00006,.0001,.00014,.09986,.09990,.09994]) for c in (.206,.847)])
+    v=np.r_[-v,v]
+    shoulders=np.r_[(1+v)/ring.length,(3+ring.LU-v)/ring.length]
+    R,S=np.meshgrid(rs,shoulders,indexing="ij")
+    slope=R747Frame(build,phase,R,S,3)
+    got=slope.curl(slope.q0)
+    _,ts,_,kt,_=ring.jets(shoulders)
+    kb=build.ring.jets(shoulders)[3]
+    ff=source.support(build.ring,shoulders)[0]
+    amp=weak.B0/(weak.B0+phase*weak.INCREMENT/(.100*.998))
+    material=vec(np.zeros((len(rs),len(shoulders))),
+             (ap[:,None]*ff*(kb-amp*kt))[...,None]*ts)
+    predicted=xr[:,None,None]*per*material/slope.det.reshape(R.shape)[...,None]
+    slope_diff=float(np.max(np.linalg.norm(got-predicted,axis=-1)))
+    slope_mass=float(np.max(np.linalg.norm(material,axis=-1)))
+    if not np.isfinite([slope_diff,slope_mass]).all() or slope_diff>2.e-8 or slope_mass>.000101:
+        raise ArithmeticError("R747 changing native shoulders disagree with the analytic nonzero curl")
+
     return dict(phase=phase,source="R742",input_seed="R747",degree_for_zero_probe=3,
          labels=ss,depths=ell,absolute_native_derivative_defects=absolute,
          relative_native_derivative_defects=scaled,derivative_names=["r","s","rr","rs","ss"],
-         native_cartesian_curl=cpeak,quadrature_advance_48=inc,
+         native_cartesian_curl=cpeak,changing_shoulder_material_peak=slope_mass,
+         changing_shoulder_cartesian_defect=slope_diff,changing_shoulder_labels=shoulders,
+         quadrature_advance_48=inc,
          primitive_32_48_max=float(np.max(abs(inc-alt))),analytic_reference_P=vec(px,yz),
-         scope="constant curvature open portions, zero controls and d>=2h; independent full-disk qualification remains required")
+         scope="zero controls at d>=2h; homogeneous five jets and changing shoulder curl; full-disk qualification independent")
