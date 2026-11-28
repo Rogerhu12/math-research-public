@@ -385,3 +385,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 09:08:45 UTC — 29八分之一步拒绝与十六分之一步自身统计
 
 29真retry d24e八分之一步真实reachg2.0394327986836136拒；695833十六分之一步返自身统计，几何/接受未返，current仍bc818/accepted1。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`6ebde20eba332276f797ca62497010a6e816c4f6`无变（非pull）。
+
+## 2026-11-28 09:10:38 UTC — RET90 旧01–18已终态非触发followup全token整理
+
+19份完整旧followups中仅02/03/03b/06/11/18六份移除字符串外空白，13本已紧凑不动。六官方completed在已刊RET62/63/64全表按真实JSONpointer绑定，五个完整workflow均只request触发；原03和03b版本不混用，request/controller不写。16634B/d278f6802dcf89203c21221f5262d5c05058aa1721a7c56f43db444cad4e513d完整映射、3464B说明与旧固定57bbee6ddee60445db5209074809f2269a9703c3全恢复同刊，复用RET88原3718B再生器。毛52345B、净32247B，未动科学源/活queue或参数token。 双README云核至`84d526b44da1c902b9dd3b0e0ad1b04b7a5ade93`无变（非pull）。
