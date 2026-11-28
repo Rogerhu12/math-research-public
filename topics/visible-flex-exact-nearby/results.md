@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [NBE：真实非线性背景下全频负侧ordinary响应](results/R149-supplement-nonlinear-background-negative-ordinary-response.md)：对真实Qδ*+p、t=sup max(W1/3(p),W1/3(pφ))≤1e−7，保真实主部/全部无限频，普通负窗≤25.944(B+Jroot)+3.973Jstrict+9.49e−7V+1.755e−5+5100t，Newton强余项≤74t²。11whole/30首次新Fraction全过；实际t/B/V与完整匹配未授。
+
 - [H96P：真实728整格前缀与规则中断](notes/2026-11-28-H96-actual728-prefix-and-rule-interruption.md)：run46123190757/1因实际根README新#16中断，child−9，7final目标0；完整96积分球/adjoint误差的728/2847格已保存。原actual13221B/0f4b60c2…及execution43464B/c079f809…从完整log原字节按SHA恢复到原路径，无科学重跑。只算剩余2119格的同目标接续推进，非数学假失败。
 
 - [NHT：整域真实选定成员的完整高Newton与ν源](results/R149-supplement-selected-complete-high-Newton-and-nu-from-the-Z-tail.md)：原7721全行tail正预算与完整compact metric参数导给全[0,25/8]、|j|≥97真实ν源H1/3<1.254870e−9，Newton<1.17560e−19；完整已知负窗费用降至1.760e−5。13whole/21新Fraction首次全过，receipt2241B/7eb693b8…；0旧science，未知high反馈/真根边界仍保。

@@ -1,11 +1,11 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 10:21:27 UTC。
+维护会话：visible-exact-astra-b0d5a16-20261128；更新：2026-11-28 10:21:36 UTC。
 **总任务未完成，持续研究，不等用户回复。**
 
 ## 规则与实际环境
 
-公开根/topic规则核至a86ae89b4bca2186754138bfb700d409199cef5a；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至f6e450d91d28cdb96fc74c17fed9d781a9563762（10:16 pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
+公开根/topic规则核至a0a4e90a781aaad9abf108fbe4b32c0a4312bdc3；每次pull后只读两README差异并立即遵行，至少每小时，此前无diff；本次只读新增#16。私库读至f6e450d91d28cdb96fc74c17fed9d781a9563762（10:16 pull，README无新差异，原#15已执行）；QUEUE已推“进行中（visible-exact-astra-b0d5a16-20261128 / 2026-11-28）”。两仓partial+sparse，终端可用，无AGENTS，令牌只CLI且不落文件。
 每结论终端commit/push，先pull，NFF立即rebase循环推成功，禁止force。root LOG不动，不加审批门。科学用公开Actions；成功旧目标不重跑，必要载体恢复须whole SHA。大数组只job private，保存code/params/run/whole SHA/小结论。
 topic≤200000000B，H<10KB/open尽量<30KB/Markdown<100KB。META11新200件无当前引用旧manifest只去字符串外空白，净1180728B；原05b945b8f/receipt94784B SHAec28724d…保所有literal/whole身份，科学0。META1–10完整账/receipt保旧H，禁重做；本批每pull核changed/untracked+全200新hash，承接此前全reference scan。
 
@@ -35,6 +35,8 @@ raw ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；repair440
 - NHT：全域真实ν高源<1.254870e−9、Newton<1.17560e−19，已知负窗总费<1.760e−5；13whole/21新有理比较一次过，0旧science，未知解高频不截。
 
 - H96P：09:54真实规则中断child−9；全部96列728/2847完整height格已保，actual13221B/0f4b60c2…、exec43464B/c079f809…整原字节恢复公开；仅接续2119缺格，7final目标仍0。
+
+- NBE：真背景全频负窗估计及74t² Newton余项已证，11whole/30新exact一次过；连续t≤1e−7、B≤.000170、V≤1为足够条件，实际值未授。
 
 ## 后继和完整尾部义务
 
