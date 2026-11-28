@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `3d4ec512a4f2c1b0bf5b35877cff2263a79f2846`（2026-11-28 13:20 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `2bcacc494c200aa5f1ffe34b325026cfbb1aa386`（2026-11-28 13:22 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；13:05:52UTC真pull到 `daa55359468914e15b0fdb5864785c3a3991cfe5`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12不加审批；§13授权公开库Actions，§15源/参数/hash/小标量入Git，可再生数组/网格/证书不存仓库或Release；§16今后spawn显式gpt-6.2-astra/ultra/forknone，既有代理不中断。H<10KB、单MD<100KB、目录<200MB。每次改外部workflow须在本题log说明。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
@@ -35,7 +35,7 @@
 
 [全尾半径恒等已付](notes/2026-11-28-analytic-actual-complete-tail-radius-identity.md)：c=Rc=5404319552844595/18014398509481984，实数定义r(R)=R、r′=1、r″=0；完整谱/mean/共享两jet/索引再核，14.684s，parent/child0。只属原raw-H场，不借旧metric。
 
-默认完整闭图查询经独立JSON显示修复真exit0，42尾点有限；零柱/marker0的初始化零数组不作验收。原width.04 cut真连续执行TTY60969正常返回但未证；后真点区间A>2.16109e−6，.01变体更差>9.25717e−6，不能靠加密救这些场，现换.12宽度实查。cut改变另标设计；tail源/全部g/H/mean不变。
+默认完整闭图查询经独立JSON显示修复真exit0，42尾点有限；零柱/marker0的初始化零数组不作验收。原width.04 cut真连续执行TTY60969正常返回但未证；[真点区间](notes/2026-11-28-actual-short-cut-point-obstructions.md)给.04的A>2.16109e−6、.01的A>9.25717e−6，现换.12；135点真返后TTY77958正付连续界。cut改变另标设计；tail源/全部g/H/mean不变。
 
 [严格原响应复用](notes/2026-11-28-tail-exact-response-memo-preflight.md)新F55344state/1776J正预检已过。最终coupled图须独立绑定binding.candidate_H，不能搬raw-H尾证书；现尚无8outer最终physical-H。
 

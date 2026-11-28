@@ -1,0 +1,165 @@
+{
+  "status": "two_specific_actual_cut_widths_excluded_by_exact_point_interval",
+  "scope": "Same actual lambda .002/M24 full raw-H tail, two independently defined finite Hermite cut widths; not a nonexistence result for other widths, coupled physical-H, or lambda1",
+  "parent_continuous_run": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-continuous-20261128-v2/summary.json",
+    "sha256": "d008154e3558e15d5f549bdb21a1fdc7ecc6ac0d12df0fae7fddc8120dac50b6"
+  },
+  "actual_parent_process": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-continuous-20261128-v2-process.json",
+    "sha256": "6ea6b574055508561d8c37840b5b901a138a84fedd2c39300003ce6393f8c127"
+  },
+  "parent_child_returncode": 0,
+  "parent_status": "continuous_cut_prefix_unresolved",
+  "parent_accepted_leaves": 20,
+  "parent_radial_splits": 31,
+  "parent_depth_reached": 28,
+  "parent_seconds": 82.55762665300063,
+  "complete_cut_tables": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-fullheight-cut-continuous-20261128-v2/complete-cut-angular-tables.npz",
+    "sha256": "e23caa4f019b075e3577e228afc4ab111ae5996289fb2f38dd4261f73ac8f6a8"
+  },
+  "original_cut_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric.py",
+    "sha256": "a5b8f4f821f6b284cb124d8f2c90d471271b91f16218c8ff6157f93d609892a7"
+  },
+  "durable_cut_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_cut_metric_durable_v2.py",
+    "sha256": "d0c6f2ecbe86cf7a1995398344cf61cb7c1fa8ec087ba7e06c138c8cb6bb4144"
+  },
+  "durable_only_source_change": "leaves.flush();os.fsync(leaves.fileno()); every nonmain function and class AST is identical",
+  "point_probe_v1": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/probe_actual_cut_point_metrics.py",
+    "sha256": "12bb0ad4952ed801df6fcbdd119d059fe9ae286dbbf63d6c6b6e143fd30405da"
+  },
+  "point_probe_v2": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/probe_actual_cut_point_metrics_v2.py",
+    "sha256": "d262348fcc3b3cd569778f386ce3eec0cd0582ef289c7b024f19b28c6bd78071"
+  },
+  "first_probe_terminal": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-cut-width004-point-intervals-20261128/actual-terminal-observation.json",
+    "sha256": "affa16eb18e6d3d88e60a3e1b0be90e5cf7721e5a97ddd0a9dea9acbb0559c77"
+  },
+  "v1_exit_code": 1,
+  "v1_complete_saved_rows": 37,
+  "v1_expected_rows": 38,
+  "v1_last_zero_discriminant_query_not_completed": true,
+  "v2_width001_exit_code_observed": 0,
+  "v2_only_algebra_change": "Intersect the squared discriminant with its exact known range [0,+infinity) before square root; no target, field or acceptance threshold is changed",
+  "witnesses": [
+    {
+      "cut_width_binary64": "0.04",
+      "s_exact": "3165296822634805/2251799813685248",
+      "psi_exact": "0",
+      "normalized_Gram_minus_identity_A_interval": [
+        2.161096767983039e-06,
+        2.161096884778502e-06
+      ],
+      "A_lower_exact_binary": "5102745471680511/2361183241434822606848",
+      "A_upper_exact_binary": "5102745747456001/2361183241434822606848",
+      "A_lower_strictly_above_one_millionth": true,
+      "witness_row": {
+        "s_exact": "3165296822634805/2251799813685248",
+        "angular_index": 0,
+        "angular_count_per_sector": 1536,
+        "angle_definition": "psi=2*pi*j/(3*N), original exact material chart at phase zero",
+        "witness_operator_lower": 2.161096659403225e-06,
+        "all_finite_angular_points_operator_upper": 2.161096993358316e-06,
+        "witness_gram_intervals": [
+          [
+            2.161096767983039e-06,
+            2.161096884778502e-06
+          ],
+          [
+            -2.213332931546587e-43,
+            2.213332931546587e-43
+          ],
+          [
+            -5.0157404896111765e-09,
+            -5.015523329987558e-09
+          ]
+        ],
+        "witness_eigenvalue_intervals": [
+          [
+            2.161096659403225e-06,
+            2.161096993358316e-06
+          ],
+          [
+            -5.015798887344389e-09,
+            -5.015464932254345e-09
+          ]
+        ],
+        "radius_lower": 0.31954928641181407,
+        "rho_lower": 0.9999996836995773
+      },
+      "point_journal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-cut-width004-point-intervals-20261128/point-intervals.jsonl",
+        "sha256": "57baccf5df29974dcc72266f16f366dbd72e41aa1d36576867ec2d16fc4ca262"
+      },
+      "summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-cut-width004-point-intervals-20261128/summary.json",
+        "sha256": "946f0b65f1a878d051da4e66c9417af930a23c3b0d6a7e9ab127f96eff81918f"
+      }
+    },
+    {
+      "cut_width_binary64": "0.01",
+      "s_exact": "1598693953972129/1125899906842624",
+      "psi_exact": "0",
+      "normalized_Gram_minus_identity_A_interval": [
+        9.25717501942813e-06,
+        9.257175173749134e-06
+      ],
+      "A_lower_exact_binary": "5464471629725695/590295810358705651712",
+      "A_upper_exact_binary": "5464471720820737/590295810358705651712",
+      "A_lower_strictly_above_one_millionth": true,
+      "witness_row": {
+        "s_exact": "1598693953972129/1125899906842624",
+        "angular_index": 0,
+        "angular_count_per_sector": 1536,
+        "angle_definition": "psi=2*pi*j/(3*N), original exact material chart at phase zero",
+        "witness_operator_lower": 9.257174907739686e-06,
+        "all_finite_angular_points_operator_upper": 9.257175285437579e-06,
+        "witness_gram_intervals": [
+          [
+            9.25717501942813e-06,
+            9.257175173749134e-06
+          ],
+          [
+            -4.6951101076127375e-43,
+            4.6951101076127375e-43
+          ],
+          [
+            -5.860327778606234e-09,
+            -5.860104401733678e-09
+          ]
+        ],
+        "witness_eigenvalue_intervals": [
+          [
+            9.257174907739686e-06,
+            9.257175285437579e-06
+          ],
+          [
+            -5.860404939114916e-09,
+            -5.860027241224996e-09
+          ]
+        ],
+        "radius_lower": 0.3053290353626829,
+        "rho_lower": 0.9999999953666088
+      },
+      "point_journal": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-cut-width001-point-intervals-20261128/point-intervals.jsonl",
+        "sha256": "8e33e841bdba860578b4f2fd878a0327b824543c6e4ecd0b0e45261095043fd9"
+      },
+      "summary": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-geometry-work/new-prefix-cut-width001-point-intervals-20261128/summary.json",
+        "sha256": "39dd51be95a11b9dd280f69c881eb2f976394e2e16e5a307f1073f7f431e417a"
+      }
+    }
+  ],
+  "proof": "For the exact symmetric normalized Gram error E, ||E||op >= |e1^T E e1| = |A|. Each recorded outward interval has A_lower > 1/1000000 exactly as rational binary64 data. Therefore those particular finite cut maps violate the required all-point metric gate.",
+  "whole_tail_changed": false,
+  "prefix_target_metric_changed": false,
+  "Fourier_modes_dropped": false,
+  "other_cut_widths_excluded": false,
+  "width012_continuous_certificate_claimed": false
+}
