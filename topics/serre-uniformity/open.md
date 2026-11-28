@@ -98,9 +98,9 @@ R1168 的原d4/8高Hurwitz公式、normal收缩与原中央有序gauge完整保�
 
 [R1137](results/R1137-original-Lame-conjugation-with-complete-boundaries.md)原Padé N=(p−5)/6、F=₂F₁(1/3,1/2;4/3)，contact2N+1且首余项/P_N单位。e=K4=0 iff P,Q同含x²，约后degree≤N−2/contact2N−1。F²=D_N−g_N²x^(2N+1)，D/G无重根互素、Pell余式W非零degree≤N−3；W0未unit。换x=4z/(1+z)²后必须保reciprocal约束，不套普通对角Jacobi正常性。
 
-[原Dixon §§1–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)保完整原Fermat、q/r有限源与D^(p−5)η、Hesse Frel全矩阵/Schur谱。normal读数12tr(adjQ A²)不等spectral tr(adjQ)，全Jordan不代指定中列cyclic。r_N(λ)=R1076η_k(λ/3)及r′=ν/3只消费；两指定读数共同零未排。
+[原Dixon §§1–10](notes/2026-11-28-original-genus-four-Dixon-Jordan-chain.md)实际Fermat/Hesse/Schur/Jordan源已付，normal=12tr(adjQ A²)非spectral，指定中列未cyclic。原r_N/η_k与两谱jet尺度沿原文保全，两个指定读数共同零未排。
 
-[原genus4 §§6–8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原十维45槽、e0七维低插入及K4尺度全付；完整primitive交换保p次补偿，A3/A9回同一Dixon。114第二层Λp未unit，18个cross及高亚纯极均保；准确式见原文/逐字前态。
+[原genus4 §§6–8](notes/2026-11-28-original-genus-four-global-Raynaud-vanishing.md)原45槽/七维低插入/K4尺度及A3/A9回Dixon已付；全部pth补偿保留。114的Λp未unit，18个cross与高极项仍保，准确式沿原文及逐字前态。
 
 [R1126](results/R1126-original-X108-complete-CM-Raynaud-pairing.md)原X108六CM十五对完整表及A/S/T仅付准确尺度，T未unit；原四非CM目标的普通性不能移到Fermat6。真实gd=c²、uv=h²可继续高Cartier乘法；Pfaffian恒零且不含S。
 
@@ -168,7 +168,7 @@ R1179 §12.4 已将第三互补矩绝对校为J8=−175680βBp−7/C⁶、T7=823
 
 ## O4：原 Abel 像与真正高度
 
-[R1182 §§1–9](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)原C/F₀/β的有理超平面几何半稳定，FP给同β′交错首项v_q(a_m)<B，全部尾≥−v_q(r)；含坏q=p。预定N=B+v_q(m)、形式log截2N决定本原hλ/e_m，原分支深度a+ceil(log_q(m+1))+max(0,e_m)+1仅c₁，m≤q−2时a+e_m+1。仅去β/Ω辅助标量，a、商模型/格/点高度须统一并比较实际候选深度。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d、首项unit或固定盘排点。
+[R1182 §§1–9](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)原C/F₀/β的有理超平面几何半稳定，FP给同β′交错首项v_q(a_m)<B，全部尾≥−v_q(r)；含坏q=p。预定N=B+v_q(m)、形式log截2N决定本原hλ/e_m，原分支深度a+ceil(log_q(m+1))+max(0,e_m)+1仅c₁，m≤q−2时a+e_m+1。仅去β/Ω辅助标量；[R1184](results/R1184-original-uniform-cubic-CM-disc-and-Neron-integrality.md)以原height2闭细盘/μ3下降及形式Néron付a=3，B/e_m按b−1=p³w重算，商模型/格/点高度仍须控制并比较候选深度。R1010非CM非挠范围p≥10¹⁸,p5mod6或p≥431,p11mod12；不外推X_d、首项unit或固定盘排点。
 
 R1007 三挠 Picard/自伴性迫原对应高度在ℓ²，R1008 全有理 End 中央化δ，故该框架的新 nondeck 入口已关闭；底曲线η_h与其它完整高度仍开。R696/832实际Ω={0}、R921/924整 Hom/两节点首层已成，均不删η_h或代有理排点。R945/R948 的有限227/857同h两Abel零集恰中心，只消费；候选仍可能有非零 MW 像。R575相反twist秩零断言已撤回。所有原σ/cY、eη、d/N、nonp、Poincaré、splitting及准确常数见逐字前态，不能只交模p单位。
 

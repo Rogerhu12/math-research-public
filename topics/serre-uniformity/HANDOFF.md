@@ -6,9 +6,9 @@
 
 会话 **Astra-serre-24b8836b-20261126**。初始clone/pull及全规程已读；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：1efeb3d63c6fd43f2918b0af2e6be12608fac0ed**（2026-11-28 20:03 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：6e60b15a479d3ca8af57153ffbd59d3c3283b79a**（2026-11-28 20:13 Asia/Taipei；本地真实pull --rebase，两README差异为空）。每次pull检查两README diff，至少每小时；变化只读差异即执行。
 
-本地终端已恢复：工作树为/workspace/scratch/24b8836b87e3/math-research-public，blob:none/sparse仅检出本课题及workflow，topic 124MiB；最近真实pull及已读提交见上。恢复终端git提交推送，非快进立即pull --rebase/核规则后重推；令牌只CLI。下次pull≤21:03。此前Actions回执保留于[原记录](notes/2026-11-28-terminal-rule-sync.md)。数学程序仍仅本公开Actions，本地/V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
+本地终端已恢复：工作树为/workspace/scratch/24b8836b87e3/math-research-public，blob:none/sparse仅检出本课题及workflow，topic 124MiB；最近真实pull及已读提交见上。恢复终端git提交推送，非快进立即pull --rebase/核规则后重推；令牌只CLI。下次pull≤21:13。此前Actions回执保留于[原记录](notes/2026-11-28-terminal-rule-sync.md)。数学程序仍仅本公开Actions，本地/V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
 root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-6.2-astra/ultra（根规则16，fb3965f7已读执行）；逐结论即推。H<10KB、open<30KB、每MD<100KB、topic<200MB；不存可重算raw/artifact/Release，不写根LOG。[最新逐字前态](handoff-archive-2026-11-28-before-Hermitian-and-uniform-CM-chart.md)沿链保完整旧公式、source/run/hash；[open](open.md)/[索引](results.md)为完整入口。
 
@@ -65,6 +65,8 @@ root管main/H/open/index/log；子研究仅candidate。新派子代理显式gpt-
 ## O4：原半秩商的有效首项与深盘
 
 [R1182 §§1–9](results/R1182-original-effective-Abel-jet-valuation-and-CM-disc-radius.md)原C/F₀/β的有理超平面几何半稳定，同β两列首项由FP给v_q(a_m)<B，全尾≥−v_q(r)。N=B+v_q(m)、形式log截2N准确决定本原泛函尺度hλ及e_m=v(a_m)−hλ；整盘深a+ceil(log_q(m+1))+max(0,e_m)+1仅c₁，m≤q−2时为a+e_m+1。含坏q=p；仅去β/Ω辅助标量，原商格/高度仍保，不宣固定盘或统一p。
+
+[R1184](results/R1184-original-uniform-cubic-CM-disc-and-Neron-integrality.md)原height2挠群在细u∈p整盘严格Hensel平凡化，保群律/配对/Galois/μ6；原项链μ3下降给b−1=p³w，形式Néron给任意原商的全部rU_r∈Λ。因此R1182可取a=3，B/e_m须按新参数重算；原首项/高度与候选深度比较仍开。
 
 ## 已成、禁止重做与其它入口
 
