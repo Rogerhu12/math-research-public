@@ -168,3 +168,7 @@ ret56精确退144窗口/32prePopen/13wrapper，毛1805389B；8完整附件448691
 ## 2026-11-28 00:40:12 UTC — 18第三观测试点统计实际返回，几何与决定未返
 
 18下一2b1c真实统计00:30:28.482615返Phi4954.529810384405/Gram.6374134312335313；geometry/alpha/决定未返，current仍4a822/accepted2/原六g。17的不同模型接受结果不移用。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)。双README云核至`484b94f95fcaa879cedd2e9b3f6706d5b952461d`无变（非pull）。
+
+## 2026-11-28 00:44:52 UTC — 21首观测试点统计真实返回，六族几何待返
+
+21首df8d真实统计返Phi3233.3855388300776/Gram.6568825814651759；trial geometry/alpha/决定未知，current仍7e06/accepted0/原六g。00:40reset后据main恢复已成功17/18提交，只补本条，所有已锁新源参从whole blobs恢复，无科学重跑。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。双README云核至`f81da9c60b476c341fc235f64744832cb131a7b1`无变（非pull）。

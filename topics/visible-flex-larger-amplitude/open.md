@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)仅恢复μ.01→.001，metric.01及全部源参/预算保。两input0，sciencec592e434/f600/PID3277/model0abfbf；初Phi3825.0583894874153/Gram.6460503011117507/六g逐项等19。首345906真reach.9750099817855096已拒；下一d346在00:03:30.800085开始，00:11:35.553745统计返，几何/alpha未知，不推方向号。current仍初7e06/accepted0/reportfalse。
 
-[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)同g只width1/2→5/8；官方46084442413/1、job140790598810，两input0；science001025/f600/PID3644/model9387/初7e06，Phi3233.3855489912225/Gram.6568825757487662；初真reach2.541916739245917、其余五族负，accepted0/reportfalse。比19reach更差、distplus转负，完整[宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保全部未知排序。
+[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)同g只width1/2→5/8；官方46084442413/1、job140790598810，两input0；science001025/f600/PID3644/model9387/初7e06，Phi3233.3855489912225/Gram.6568825757487662；初真reach2.541916739245917、其余五族负，accepted0/reportfalse；首df8d统计返、几何未知。比19reach更差、distplus转负，完整[宽度分析](notes/2026-11-27-supported-seed-five-eighths-three-quarters-and-existing-geometry-observations.md)保全部未知排序。
 
 22准备以完整19半宽/δ1/32/两μ.01只换[R724成对半波](results/R724-paired-halfwave-central-seed-and-complete-source-identity.md)：同准确跨段均值/两角根、中央|T_s|减半，完整位置/两角jet账已证；不推wholeK/D/Gram。[新20完整源](computations/fixed-fejer-paired-halfwave-complete-scientific-source-delivery.json)及137角色当前绑定/18runtime/3全字再生器已刊；17当前pairs替换、120原样，实际22run/模型/点/几何仍未知。外层原whole-cell Gauss/partial规则未变，参考缺陷和准确全部费用新付。
 

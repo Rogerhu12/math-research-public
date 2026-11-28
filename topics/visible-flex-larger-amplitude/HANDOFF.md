@@ -5,7 +5,7 @@
 
 ## 规则与同步
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33重置后唯一探测均失败；恢复即真pull。云核至`484b94f95fcaa879cedd2e9b3f6706d5b952461d`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活17–21通常5分钟真pull，已读commit保末槽，终态12–16末槽保旧H/终态note。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端失效，15:03/21:33及00:40新重置后唯一探测均失败；恢复即真pull。云核至`f81da9c60b476c341fc235f64744832cb131a7b1`（非pull）。双README SHA256 581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102 / 3c1c03b358792b6c9937b95fcfea05b80a572a4da2cce615c4c9832fe929057d。每真pull至少每小时，只读新diff立刻执行；活17–21通常5分钟真pull，已读commit保末槽，终态12–16末槽保旧H/终态note。
 私库QUEUE进行中已推e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/queue，每结论普通推；NFF有终端即rebase重推，否则freshHEAD整合循环，不冒pull或force。令牌仅瞬时CLI；[完整发布支持](computations/resume-20261127-root-publication-support.mjs)保。
 科学仅公开Actions；raw只runner/scratch，不Git/Release/artifact/改名输入。全源/参数/真实run/whole输出/typed/未知/失败保。题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB；先metadata，不整读≥100KB/binary。不加AST/fixture/重跑/审查门，不减目标或原预算。
 
@@ -24,7 +24,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`。07:21终端�
 | 18=46062343475 | 两input0、前三science1及三reader0；e3d2eb/10fa/f600/PID7515/model9ec211。current4a822/accepted2/g2.0460148700322605；下一2b1c统计返，几何未知。 |
 | 19=46076669320 | 两input0；36304a0d/f600/PID3240/model0abfbf。currentd761/accepted1/g.9679630392005261；第二b622真g.9817636973298995已拒，下一b90d统计返、几何未知。 |
 | 20=46079535427 | 两input0；c592e434/f600/PID3277/model0abfbf。current初7e06/accepted0/g.9684249942095058；首345906真g.9750099817855096已拒，下一d346统计返、几何未知。 |
-| 21=46084442413 | 两input0；001025/f600/PID3644/model9387。初7e06真g2.541916739245917、其余五族负，accepted0。23:47:39Z启动/job140790598810。 |
+| 21=46084442413 | 两input0；001025/f600/PID3644/model9387。初7e06真g2.541916739245917/accepted0；首df8d统计返、几何未知。23:47:39Z启动/job140790598810。 |
 | 22准备 | 完整19 b1/2/δ1/32/两μ.01只换成对半波；新20源已成体，尚无真实run/新场。早期5/8准备保历史。 |
 
 全部当前仍不可行、report未完整。全exact point/model/source/Phi/Gram/六族与事件时刻/缺值：[17](notes/2026-11-27-run17-wide-seed-actual-mathematics.md)、[18](notes/2026-11-27-run18-complete-producer-binding-repair-and-continuation.md)、[19](notes/2026-11-27-run19-complete-bhalf-launch-and-continuation.md)、[20](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)、[21](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)。同坐标异model不冒同场，统计不代几何，alpha未知不推回溯或方向号。
