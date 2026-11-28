@@ -10,12 +10,12 @@ root独占refs/H/open/log/index；每条结论即推。每推前实际pull两库
 
 ## 实际pull、已读规则和认领
 
-readonly run46073965457/job140860445227，source 3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
-- 公开2026-11-28 04:13:40 UTC实际partial clone/pull至9b1f51010ac73c214a4008e05bf3638a4218c04c。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
-- 私库2026-11-28 04:13:45 UTC实际至84439c12d0ca065bbbd6e6b6cf325c3cf31e69d5。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
-- 四README与04:01已读版相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
-- 日志14889B/SHA256 4f450917d892ae7a172d96fb3b265538b47c55e5ed729a46e885d2cc06508ef6；完整库存3180blobs/45010886B，treebde071debe622c9cbc1a39c148f6baaaa73cd85b，无>5MB，三旧必要gzip不变。
-- 前run46075603971第50次attempt于04:08:41 startup_failure，未冒pull；已核本次较早run的workflow与其逐字相同并实际重跑。后续用新run/job。每推前新pull；最迟05:13UTC再拉两库。非FF立即实际pull --rebase、读新差异再推，不force。
+readonly run46073965457/job140861317190，source 3bd753e5d0f0cd071d0ba615c9774695e0165b6f：
+- 公开2026-11-28 04:17:16 UTC实际partial clone/pull至6c1d322308dd982625246fb8ffc1b5d3a3f49acf。根/课题已读blobs：282e86b03385d3b6245ce7100ae2e2af7b103c2d、2f3b3c9264fbba8189f85716e68f768830e921bc。
+- 私库2026-11-28 04:17:21 UTC实际至78f648d224355c03dece776e9829fb734b2de7d2。根/课题已读blobs：5ba164843b1f5802184178a82d786264404873a3、452d0127a4c3879807d70550d3eafd46c8fac642。
+- 四README与04:13已读版相同。QUEUE 0960ae68e078bae51fd8e95fc2839c7028ffa6fc未变，本行仍本会话进行中；认领41fe885610073f478b2f5a752461ca56cfd43f09。实际head不以旧request baseline替代。
+- 日志14887B/SHA256 13a1586e42c435613f687e8584a38708387b4b2d5554bd559639327614c83eb9；完整库存3180blobs/45021861B，treeb8acf188a5f012e47a0b8e54356b39fd48a8ffc6，无>5MB，三旧必要gzip不变。
+- 前run46075603971第50次attempt于04:08:41 startup_failure，未冒pull；已核本次较早run的workflow与其逐字相同并实际重跑。后续用新run/job。每推前新pull；最迟05:17UTC再拉两库。非FF立即实际pull --rebase、读新差异再推，不force。
 - 本地07:20失联；03:44:37实际pull --rebase、04:12环境检查仍无环境；末本地07:12至1cf10ac。API/CI/本地分记。
 
 ## 唯一原完整厚几何v13
@@ -36,7 +36,7 @@ R1061 C/D付同一Z_Q全jet、严格半径和指定(p−7,p−5)槽非零；crit
 [R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)G1–19现付同一NZ_Q去指数的Bell全极帽、二项式Tate单位及F(−2)、两槽先合ρ/Ω/p的单位底数、共同Teich/全部根单位子列及全斜率。指定Norm纤维的endpoint真非零，v保c0/ell和−4+(10−p)/(p²−1)；只在已付G18实际graded字才接whole，未付保原有限转置。原R716还须tame0；同变量Rubin给bad J′=0⇒vHall≥2/(p−1)，有限非零不足。
 R1062 P1–11由完整Tate自然性给σΩ=cΩ、σR(j)=c⁻¹exp(2(j+2)logc)R(j)，非零raw值迫全部raw jets在有限F上线性独立；准确Ω(R′−logU*R)∈F，canonical去period后不自动非零。whole µ另付σm=c³T_((c²−1)C)D_(c²)m，actualσA才供全盘，非任意形式Möbius测度。
 [R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)H1–27付实际tame0/χ_r两侧、全部绝对中心、Z_Q=Xi(w_Q)和误差6p/(p²−1)、负二Hall五层及W_+=hat3W。严格Haar对偶给d/p²，负侧p²准确抵消；首卷积d_-,p−1·s_p+1，非无穷单位证书。J1–10现付五层到原Newton有限除p jet，完整Ec整卷积/charge3/δ整对数均保；bad只杀Acan常数，不杀余四层。I1–22现付整列non-p/h/Artin返回、实际十八商γ及17^(-3−n)、compact↔ideal的Norm/avatar与导数，原c0/ell单位。B_r(−2)=p^-6Ω_A^-1×单位×H_-H_+；full斜率保logU*与所有λ′，单图仍不分解。I22同一个Rubin整基给严格单Hall门；尚未付无穷p上界。
-[R1064](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)现付同一HT/Weil/Rosati的Ωϖ=λ_GY∈O_F×与全Gal bar(a)^−1；原whole µ经actual Cartier-dual同态给全LT盘bounded提升，全部log−E/外权reader保留。ST下降准确要求σν=ν，普通LT disc系数固定不同。有限F保全部trace-dual返回；§10已由BSS与Berger已发表等距消去最终different损，actual µ的LT lift也精确等距，全部wild坐标保留。原Mahler前缀有明确affinoid精度，不冒负矩/log−E/Smith精度；Colović全文已核。直接去周期完成矩若真LA分布则原整flat分量零，不能拿该候选冒新测度。geometry继续同源quadratic与完整Maass流/ψ整性，未预付bounded completion。
+[R1064](results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)现付同一HT/Weil/Rosati的Ωϖ=λ_GY∈O_F×与全Gal bar(a)^−1；原whole µ经actual Cartier-dual同态给全LT盘bounded提升，全部log−E/外权reader保留。ST下降准确要求σν=ν，普通LT disc系数固定不同。有限F保全部trace-dual返回；§10已由BSS与Berger已发表等距消去最终different损，actual µ的LT lift也精确等距，全部wild坐标保留。原Mahler前缀有明确affinoid精度，不冒负矩/log−E/Smith精度；Colović全文已核。直接去周期完成矩若真LA分布则原整flat分量零，不能拿该候选冒新测度。§11现付原µ×的等距quadratic lift、P10单位限制、全部odd Laurent低矩、原L与完整Möbius式；一般Dirac的heat反例不排actualsource。完整heat仍须原额外关系。arithmetic正付actual A(Q_E)的ψ投影与原单位cut及负二/斜率读者；central R1065接原H±、中心/质量项与同canonical五层，不混Katz dual和普通µ。
 
 [连续性审计](notes/2026-11-27-original-psi4-common-factor-digit-and-continuity-audit.md)优先：literal通常剔除阶乘数列不能连接非零连续族，旧full54/六线/ψ4连续cross与共同F单位仍条件化。p227/u1辅助65537只char0非零、非227单位；不重算。direct proper/晶体残余/R1049 signed桥各保原范围，不删outward。
 

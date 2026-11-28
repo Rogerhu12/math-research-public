@@ -266,3 +266,12 @@ arith全文核新Colović及Berger§§2.1–2.3，root全文读附录并直接�
 
 推前实际pull：run46073965457/job140860445227，公开2026-11-28 04:13:40 UTC至9b1f51010ac73c214a4008e05bf3638a4218c04c，私库2026-11-28 04:13:45 UTC至84439c12d0ca065bbbd6e6b6cf325c3cf31e69d5；四README与04:01已读版相同，QUEUE本行未变。日志14889B/hash4f450917d892ae7a172d96fb3b265538b47c55e5ed729a46e885d2cc06508ef6；库存3180blobs/45010886B/treebde071debe622c9cbc1a39c148f6baaaa73cd85b，无>5MB、旧三必要gzip不变。原run46075603971第50次attempt startup_failure未执行pull；本次核较早run的workflow逐字相同后实际重跑成功，后续继续用46073965457。
 v13最新04:04:44仍in_progress；04:04:56日志GET保持4203375B/hash1700c9bbc09ac33891ab65b303a174a1e31093451ffd83a6a5ca3b011264fa35、末222/306，无终门。不据相同日志断停滞。接续实际H±的Katz投影、保中心/质量项的原Hall返回，以及quadratic/fullMaass全部低矩；主无穷p门未完成。
+
+
+## 2026-11-28 04:21 UTC：实际二次提升、低矩与完整 Maass 作用
+
+R1064§11由原µ×按两平方根反对称构造真实quadratic测度ν，并由(u²)_*(u³ν)=µ×证明精确等距；原dual LT Fourier亦等距，全部odd Laurent低矩及一次项保留。原固定finiteF的deep principal norm-one P10经统一尾界严格返回单位restriction，热算子L=(∂²−u⁻¹∂−3u⁻²)/4保ν(u)=m_-1和ν(u^-1)=m_-2，完成后一次矩准确为m_-1−Cm_-2。完整Möbius生成式和局部LA_N热作用条件明确；合法整值多项式证明一般Dirac输入的全heat完成不必bounded。该反例不满足本题actual Galois来源，只排除从vC=2免费接全测度的步骤。
+
+geometry全稿由root逐式核：平方根分支抵消、(u²)_*(u³ν)全连续测试、P10单位限制的统一M+2R尾、L与R_c的次序、全部低矩及一般反例P_h的整值性/统一中心矩尾。root将Q标签改G，明确实际deep principal norm-one子群，even测试用固定annulus收敛而不称幂零，并加强两个范数为等距。上一篇R1064§10已推cf5135d9d4dbf91ac148643e4b68fc1c90e5989c。无新数学执行。
+
+本次推前实际双pull run46073965457/job140861317190：公开2026-11-28 04:17:16 UTC至6c1d322308dd982625246fb8ffc1b5d3a3f49acf；私库2026-11-28 04:17:21 UTC至78f648d224355c03dece776e9829fb734b2de7d2。四README与04:13已读版相同，QUEUE本会话认领未变。日志14887B/hash13a1586e42c435613f687e8584a38708387b4b2d5554bd559639327614c83eb9；完整库存3180blobs/45021861B/treeb8acf188a5f012e47a0b8e54356b39fd48a8ffc6，无>5MB，三旧必要gzip不变。后继继续actual ψ原单位cut与原H±的真实Katz返回；主无穷p门仍开。

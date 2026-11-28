@@ -559,3 +559,302 @@ $F(\mu_{p^m})/F(\mu_{p^{m-1}})$ 的 Galois 轨道；部分 residue 投影的值�
 这里的新输出是(R31)–(R35)的实际无损范数与有限精度。它不证明未构造的 $e^{CL}$ 完成测度 bounded，也不把普通 LT 盘的不变性改成(R11)的 twisted descent，更不把一个新 LT 系数自动认作 R716 的同一 $A_p$ 或原 $J'_S$。
 
 本节仍为原文核对与纸笔证明，无新增数学执行。
+
+## 11. 原单位测度的二次提升、全部 Maass 低矩与全热修正范围
+
+本节固定同一个 R1060 裸 bounded 来源；
+这里不添加 canonical 零，不更换实际 $C$、周期或有限 source。
+二次提升本身是一个真正的 bounded measure。完整
+$\exp(CL)^*$ 修正的 bounded 性仍需原来源的新输入；本篇给出其准确
+形式、局部范围和不能凭 $v_p(C)=2$ 推出的边界。
+
+### 原单位限制及其完整 Galois 律
+
+令 $L=\mathbf Q_{p^2}$，$p>3$，$\mu$ 是 R1060 的原
+$\mathbf C_p$ 值 bounded 测度，定义
+$$
+\mu^\times=\mu|_{\mathbf Z_p^\times},\qquad
+m_k^\times=\int_{\mathbf Z_p^\times}x^k\,d\mu(x)
+\quad(k\in\mathbf Z).
+\tag{G1}
+$$
+负矩因 $x$ 是单位而实际存在。以下范数均为原 supremum
+measure norm；设所有原矩的赋值至少为 $M$。
+
+取 R1062§7(P10)已经支付的固定有限 $F$ 上、足够深的 norm-one principal Galois 子群；$F$ 包含原有限 level 和 $p^2$ 除点。写其真实单位为
+$c\in1+p^s\mathcal O_L$（$s\ge2$ 足够大，$N_{L/\mathbf Q_p}(c)=1$），并保持
+$$
+\sigma C=C,\qquad v_p(C)=2,\qquad D_c=(c^2-1)C.
+$$
+其在非负整数原矩上的全式为
+$$
+\sigma m_n
+=c^3\sum_{r=0}^n
+ \binom{n+2}{r}\binom nr r!\,
+ D_c^r c^{2(n-r)}m_{n-r}.
+\tag{G2}
+$$
+这里不扩大已经支付的 $\sigma$ 范围。
+
+式(G2)确实保持原单位 restriction。固定整数
+$k\ge-2$，取趋于 $k$ 的正整数
+$n_a=k+(p^2-1)p^a$。对固定 $r$，非单位部分因
+$n_a-r\to+\infty$ 消失；单位部分和全部 $c$ 的 Teich 相位
+按同一个 $p^2-1$ 分支收敛。另一方面
+$\binom{n_a+2}{r}\binom{n_a}{r}r!$ 是整数，
+所以 $r\ge R$ 的尾统一具有赋值至少 $M+2R$。
+因而可以先截断 $r$，再令 $a\to\infty$，最后令 $R\to\infty$。
+结果是
+$$
+\sigma m_k^\times
+=c^3\sum_{r\ge0}
+ \binom{k+2}{r}\binom kr r!\,
+ D_c^r c^{2(k-r)}m_{k-r}^\times.
+\tag{G3}
+$$
+对 $k\ge0$，仍恰在 $r\le k$ 截断；$k=-1,-2$ 的结果是
+$$
+\boxed{\begin{aligned}
+\sigma m_{-1}^\times
+ &=c\,m_{-1}^\times-C(c-c^{-1})m_{-2}^\times,\\
+\sigma m_{-2}^\times&=c^{-1}m_{-2}^\times .
+\end{aligned}}
+\tag{G4}
+$$
+因此负一次矩不能当作零，也不能在热修正中遗失它的负二次矩费用。
+
+### 真正的 quadratic lift
+
+每个 $x\in\mathbf Z_p^\times$ 都在 $L$ 中有两个单位平方根。
+这是因为 $\mathbf F_p^\times$ 的所有元素在
+$\mathbf F_{p^2}^\times$ 中都是平方，再用 $2$ 为单位的 Hensel 提升。
+置
+$$
+\Sigma=\{u\in\mathcal O_L^\times:u^2\in\mathbf Z_p^\times\}.
+$$
+对 $\mathcal O_L$ 上任意连续函数 $f$，定义
+$$
+\boxed{\quad
+\nu(f)=\int_{\mathbf Z_p^\times}
+       \frac{f(u)-f(-u)}{2u^3}\,d\mu(x),\qquad u^2=x .
+\quad}
+\tag{G5}
+$$
+换根使分子、分母同时变号，所以这不是选择一个全局平方根分支。
+在每个固定 residue class 上可取解析分支；分支无关说明被积函数
+在全部 $\mathbf Z_p^\times$ 连续。因为 $2u^3$ 为单位，
+$$
+\|\nu\|=\|\mu^\times\|.
+\tag{G6}
+$$
+先由(G5)得到 $\le$。反向对任意连续 $g$ 直接代入 $u^3g(u^2)$，给
+$
+ (u^2)_*(u^3\nu)=\mu^\times.
+$
+乘单位 $u^3$ 及 pushforward 的范数至多一，故得到(G6)的等式。这是真正支撑在 $\Sigma$ 的 bounded measure，而非仅一个矩序列。
+
+对所有整数 $k$，完整 Laurent 矩为
+$$
+\boxed{\quad
+\nu(u^{2k+3})=m_k^\times,\qquad
+\nu(u^{2k})=0 .
+\quad}
+\tag{G7}
+$$
+特别 $\nu(1)=0$，但
+$\nu(u)=m_{-1}^\times$、$\nu(u^{-1})=m_{-2}^\times$；
+前者一般不为零。所有 Laurent 测试只在原单位支撑上使用。
+
+令 $G$、$t'$、$\varpi_E$ 为 R1064 的真实 Cartier-dual 规范：
+$$
+\chi_v(u)=\langle t',[u]v\rangle,\qquad
+d\langle t',v\rangle/\langle t',v\rangle=\varpi_E\omega_G .
+$$
+于是无条件存在整个 open unit disc 上的 bounded Fourier 函数
+$$
+F_\nu(v)=\int_{\mathcal O_L}\chi_v(u)\,d\nu(u),
+\qquad \|F_\nu\|=\|\nu\|=\|\mu^\times\|.
+\tag{G8}
+$$
+等距使用已经证明的(R31)。整 character 来自 Cartier duality；只有在足够小的盘才写成
+$\exp(u\varpi_E\log_Gv)$。因此该小盘的完整式是
+$$
+F_\nu(v)
+=\varpi_E m_{-1}^\times\log_Gv+
+ \sum_{n\ge0}m_n^\times
+ \frac{(\varpi_E\log_Gv)^{2n+3}}{(2n+3)!}.
+\tag{G9}
+$$
+原单位限制、一次项和全部阶乘都在这个式子中。
+
+### 同一个 Maass 算子及有限 Laurent 闭合
+
+取
+$$
+L=\frac14\left(\partial_u^2-u^{-1}\partial_u-3u^{-2}\right).
+$$
+直接计算得到
+$$
+L u^{2k+3}=k(k+2)u^{2k+1},\qquad
+L^r u^{2k+3}=(k)_r(k+2)_r u^{2k+3-2r}.
+\tag{G10}
+$$
+此处 $(k)_r$ 为 falling factorial。特别
+$Lu=-u^{-1}$、$Lu^{-1}=0$。
+因此 odd Laurent 空间
+$\langle u^{-1},u,u^3,u^5,\ldots\rangle$
+在 $L$ 下稳定，且每条列上的 $L$ 都幂零；
+相应指数不涉及任何无限和。
+
+记 $R_cf(u)=f(cu)$，$c_*\nu(f)=\nu(R_cf)$，并约定
+$T^*\nu(f)=\nu(Tf)$。由(G3)有实际的有限矩身份
+$$
+\boxed{\quad
+\sigma\nu=\exp(D_cL)^*c_*\nu
+\quad}
+\tag{G11}
+$$
+在上述 odd Laurent 空间成立。even Laurent 测试用下文固定 Laurent annulus 上收敛的指数；每一项仍为 even，故其两边均为零。这没有声称 even 列亦幂零。
+这是完整 Galois 律在原二次提升上的表述；
+并未先把右侧的指数当成作用于所有连续函数的 bounded 算子。固定 source 的子群范围贯穿本节；任意含非平凡 Teich 部分的 CM 作用仍须运输原 finite source、标记及相位，不能扩大(G2)的适用范围。
+
+逐列定义形式完成 $\nu_R=\exp(CL)^*\nu$ 后，得到
+$$
+\begin{aligned}
+\nu_R(u^{2n+3})&=R_n^\times
+ =\sum_{r=0}^n \binom{n+2}{r}\binom nr r!C^r m_{n-r}^\times,\\
+\nu_R(u)&=m_{-1}^\times-Cm_{-2}^\times,\qquad
+\nu_R(u^{-1})=m_{-2}^\times .
+\end{aligned}
+\tag{G12}
+$$
+所有正矩仍是原 full Maass 矩的单位限制。
+由 $LR_c=c^2R_cL$、$\sigma C=C$，
+$$
+\sigma\nu_R=c_*\nu_R
+\tag{G13}
+$$
+在同一有限矩空间严格成立。特别(G4)使(G12)的一次矩按 $c$ 变换。
+
+若以后证明这个 $\nu_R$ 真是 bounded measure，则(G8)同样适用于它。
+但在 R1064 的 $\sigma\varpi_E=c^{-1}\varpi_E$ 规范下，(G13)
+给的是 $F_{\nu_R}$ 的普通系数 Galois 固定。
+这不是 Schneider--Teitelbaum character variety 的 twisted descent：
+后者要求 $\sigma F=F\circ[\tau]$，对应 measure 系数本身 Galois 固定。
+两个对象不能用同一名称替代。
+
+### 正矩的完整 Möbius 生成式
+
+令 $x=u^2$。算子的准确径向式为
+$$
+L(u^3 f(x))=u^3\bigl(xf''(x)+3f'(x)\bigr).
+$$
+这在形式上是 rank6 径向 Laplacian 的四分之一，但本篇没有
+构造一个六变量测度，也没有把原有限 Schwartz 认成任意 rank6 来源。
+
+置
+$$
+M(z)=\sum_{n\ge0}m_n^\times\frac{z^n}{n!},\qquad
+M_C(z)=\sum_{n\ge0}R_n^\times\frac{z^n}{n!}.
+$$
+按(G12)令 $j=n-r$ 并把全部有限系数相加，严格得到
+$$
+\boxed{\quad
+M_C(z)=(1-Cz)^{-3}
+       M\!\left(\frac{z}{1-Cz}\right).
+\quad}
+\tag{G14}
+$$
+因为内和恰为
+$\sum_{r\ge0}(j+3)_r(Cz)^r/r!=(1-Cz)^{-j-3}$，
+这里最后的 $(j+3)_r$ 是上升 Pochhammer 符号。
+(G14)是特征零形式幂级数身份；它没有把其分式参数在整个 LT 盘上
+无条件解释为同一个全局坐标。负一次矩仍须另保(G12)，不在 $M$ 中消失。
+
+### 局部解析作用与全连续作用的区别
+
+在每个单位球 $u_0+p^N\mathcal O_L$ 的 Tate 解析函数上，
+$N\ge1$，有
+$\|\partial_u\|\le p^N$、$\|L\|\le p^{2N}$。
+所以
+$$
+v_p(D)>2N+\frac1{p-1}
+\tag{G15}
+$$
+保证 $\exp(DL)$ 的算子级数收敛。对于单位 Laurent Tate
+annulus $\mathbf C_p\langle u,u^{-1}\rangle$，相同论证取 $N=0$。
+原 $C$ 的赋值2足以支付后一个固定 annulus；
+它不支付所有不断细分的 locally analytic 球。
+
+actual $D_c$ 随 $c\to1$ 可满足任意一个固定的(G15)。
+这与(G11)相容，但不允许让 $c$ 的单位轨道趋于零，
+也不允许从每个小 $D_c$ 的局部作用推出参数 $C$ 的全连续作用。
+上述 annulus 的 Gauss 范数不同于只在 $\mathcal O_L^\times$
+点上取的 supremum 范数；因此亦不能据 annulus 有界性就声称
+$\nu_R$ 是 bounded measure。
+
+### 一般 bounded 输入确实不能省掉这一步
+
+下面是严格的范围反例，不是对原来源(G11)的反例。
+取 $\mu^\times=\delta_x$，$x\in\mathbf Z_p^\times$，
+保持任意 $C$ 满足 $v_p(C)=2$。
+若形式完成 $\nu_R$ 可延成 $\mathcal O_L$ 上 bounded measure，
+则
+$$
+\lambda=(u^2)_*(u^3\nu_R)
+$$
+也是 bounded measure，其全部非负矩恰为 $R_n^\times$。
+由(G14)，其绕 $x$ 的中心矩 $\kappa_j$ 满足
+$$
+\sum_{j\ge0}\kappa_j\frac{z^j}{j!}
+=(1-Cz)^{-3}
+  \exp\!\left(\frac{xCz^2}{1-Cz}\right),
+$$
+即
+$$
+\kappa_j=j!\sum_{a=0}^{\lfloor j/2\rfloor}
+ \frac{x^a C^{j-a}}{a!}
+ \binom{j-a+2}{j-2a}.
+$$
+所有项给
+$v_p(\kappa_j)\ge j+j/(2(p-1))-O(\log(j+1))$。
+当 $j=2n$，$a=n$ 项为
+$x^nC^n(2n)!/n!$；其它 $a=n-b$ 项与它之比为
+$$
+x^{-b}C^b\frac{n!}{(n-b)!}\binom{n+b+2}{2b},
+$$
+赋值至少 $2b$。故准确有
+$$
+\boxed{\quad
+v_p(\kappa_{2n})=2n+v_p((2n)!/n!).
+\quad}
+\tag{G16}
+$$
+
+以下直接用合法的整值测试多项式给出矛盾，毋须假定热流保持支撑。
+固定 $n$，令 $q=p^2$、$M_h=(q-1)p^h$，取整数
+$A_h$ 使 $A_h(h+1)\ge M_h+4n$。对 $h+1\ge2n$，多项式
+$$
+P_h(t)=p^{-4n}t^{2n}(1-t^{M_h})^{A_h}
+                     \bigl(1-(t/p)^{M_h}\bigr)
+$$
+在 $t\in\mathcal O_L$ 上的 supremum 范数至多1。
+确实，$v_p(t)=0$ 时前一括号提供至少 $A_h(h+1)$、
+后一括号的损失至多 $M_h$；$v_p(t)=1$ 时后一括号提供
+至少 $h+1$；$v_p(t)\ge2$ 时 $p^{-4n}t^{2n}$ 已整。
+
+展开 $P_h$ 并令 $h\to\infty$，上面的中心矩线性估值
+使除常数选项以外的全部项统一趋零，即使保留
+$p^{-M_h}$ 的分母。因此
+$$
+\int P_h(t-x)\,d\lambda(t)\longrightarrow p^{-4n}\kappa_{2n}.
+$$
+若 $\lambda$ 的 measure 范数为 $p^B$，就须对全部 $n$ 有
+$v_p(\kappa_{2n})\ge4n-B$。
+但(G16)的斜率是 $2+1/(p-1)<4$，矛盾。
+
+因此一般 bounded 输入的 $\exp(CL)^*$ 完成甚至不必存在 bounded
+measure 延拓。这个 Dirac 输入不满足本题实际的全 Galois/Miller
+来源约束；它只说明那些额外约束必须实际进入证明。
+原 quadratic lift(G5)始终是已建立的正对象，原 full heat 完成
+及其同 canonical 读者的全部连接仍按明确缺口保留。

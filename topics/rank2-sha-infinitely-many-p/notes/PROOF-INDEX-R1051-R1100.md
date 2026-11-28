@@ -277,3 +277,10 @@ R1064从同一个原Tate生成元的HT/dlog与Weil–Rosati配对证明Ω_book·
 R1064§10将有限F的全trace-dual存在性与Berger已发表的Fourier限制等距定理合用，得到同一实际测度范数等于bounded字符函数范数；有限任意分歧F均无different损，全部wild坐标保留。原µ的actual Cartier-dual提升亦精确等距。实际二变量Mahler前缀在ρ_n盘取D=H(p^n−p^(n−1))即达p^-H误差；这是同源affinoid精度，不冒负矩、log−E、Smith或测度总变差精度。全文核Colović只作相容检查，本二次域加强已经由BSS与已发表等距定理推出。
 
 [完整证明](../results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)，R30–R35；Cp值的等距只在已有实际测度像上，不声称所有Cp bounded字符函数都返回测度。
+
+
+### R1064 §11：真实 quadratic lift、全部低矩与合法热作用范围
+
+R1064§11由原µ×按两平方根反对称构造真实quadratic测度ν，并由(u²)_*(u³ν)=µ×证明精确等距；原dual LT Fourier亦等距，全部odd Laurent低矩及一次项保留。原固定finiteF的deep principal norm-one P10经统一尾界严格返回单位restriction，热算子L=(∂²−u⁻¹∂−3u⁻²)/4保ν(u)=m_-1和ν(u^-1)=m_-2，完成后一次矩准确为m_-1−Cm_-2。完整Möbius生成式和局部LA_N热作用条件明确；合法整值多项式证明一般Dirac输入的全heat完成不必bounded。该反例不满足本题actual Galois来源，只排除从vC=2免费接全测度的步骤。
+
+[完整证明](../results/R1064-original-book-cartier-dual-period-and-actual-lt-measure-bridge.md)，G1–G16。Galois只用原固定有限域上的已付深子群，任意Teich/CM作用仍须全source重标。
