@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 当前完整闭面主线与实际续作
 
-[本批前完整open](https://github.com/Rogerhu12/math-research-public/blob/6552609ae10573a8c3dd46a6b4599c583d3bc329/topics/visible-flex-larger-amplitude/open.md)逐字保全部原源参/预算/路径、模型/点/六族K、typed、失败未知及旧链接；§1–6原23359B不动。未达README，继续实际求解。
+[本批前完整open](https://github.com/Rogerhu12/math-research-public/blob/30a3a01f4fc249b44d7c63ed58db0aaa7b7bf600/topics/visible-flex-larger-amplitude/open.md)逐字保全部原源参/预算/路径/模型点/六族K/typed/失败未知与旧链；§1–6原23359B不动。持续实际求解。
 
 ### 实际运行
 
@@ -119,11 +119,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 已证结果与严格缺口
 
-[R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)真S/κ₀的全角长度根/逆弧长六jet、参考闭嵌入/双held/D≤4.2；仅径向unit不代全Gram/reach。
-[R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)冻结R730全相位reach<.016、D>3.88，小邻域亦失败；不外推自由outer。
-
-[R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)保原S/R/H的新圆肩，付末带全Gram、正确core jet、帽混合/反向及同端.126球、D/双held/δE；中央Gram及中央相关reach未付。
-[R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)非圆core正宽准确Gram、core对全像两向.126球、柱内.18球和移动接口全jets；拼接宽未数值包围，非实际J923输入。
+R730参考unit/held/D、R731冻结参考reach障碍、R732圆肩及R733真core的局部全Gram/球界均保[完整索引](results.md)及固定open；不外推自由outer或中央全域。R732中央Gram、中央有关reach及core实际拼接宽仍未付。
 
 [R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)全角同g带/内部.16球；[实际补发46139111288/1](notes/r734-actual-Hermite-46139111288-1.json) success，T*=1.1294006338228755e−5、原415片无未知、合作前缀0；raw与首run全SHA同，发布故障已修。
 [R738](results/R738-noncooperative-actual-core-characteristic-gap-and-prefix.md)全415片13280叶[实际46139897443/1](notes/r738-actual-gap-46139897443-1.json) success：同g全角双侧C²浸入半宽≥.5384265521561006，固定矩形段≥.264316681320779且II≤5；全有序.16球只证半宽1/200。初T†=.0004922365060485215；末充分比较不确不证物理解失效，未付外段/全闭面。
@@ -131,6 +127,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 R735单帽非零平坦线性核、R736全有限兼容阶、R737精确闭面等距端点对与R739真Hu发展/held判据均有[完整证明](results.md)及固定open全责任；未付有限幅收敛、贯穿同g路径、.2D held和cut实际复现。弱正位移reach/D上确界1/2不充强目标。
 
 [R740](results/R740-finite-bent-disk-rolled-and-elliptic-closed-shoulders.md)两完整闭C²初场每相位嵌入：D<2.60、全像held≥.564、grip≥.60、δE>0，触握盘全部有序对.08球。滚肩末环K>40失败，椭圆替换付正宽末柱R_b/1.01球；中肩角Gram及其他reach未付。[完整生成器](scripts/resume_20261126/r740_rolled_disk_seed.py)现刊，独立36。
+
+[R742完整物理读出](notes/2026-11-28-R742-complete-physical-sixjet-launch.md)：原水平/两倾镜/有限物理handle共13设计×三层，非投影全六jet直接读全部肩K/support/环叶两缺陷；源参现刊、actual待查。全同g与严格全reach未付。
 
 ### 准确费用与完整下游
 

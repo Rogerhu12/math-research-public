@@ -1,0 +1,68 @@
+name: Compute actual R742 physical six jets and all shoulder costs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/scripts/resume_20261126/measure_r742_tilted_shoulders.py
+      - .github/workflows/visible-larger-r742-physical-costs.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-larger-r742-twojet-science
+  cancel-in-progress: false
+
+jobs:
+  whole_shoulder:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r740_rolled_disk_seed.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/r742_tilted_disk_two_jets.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/measure_r742_tilted_shoulders.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r734_exact_conclusion.py
+            /topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r742_physical_costs.py
+            /topics/visible-flex-larger-amplitude/notes/r742-actual-two-jet-*.json
+      - name: Pull main and check both current README texts
+        run: python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r742_physical_costs.py sync
+      - name: Install the array runtime
+        run: python -m pip install numpy==2.2.6
+      - name: Evaluate complete closed-shoulder designs and all three resolutions
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_dir=topics/visible-flex-larger-amplitude/scripts/resume_20261126
+          summary="$RUNNER_TEMP/r742-actual-report.json"
+          python -u "$source_dir/measure_r742_tilted_shoulders.py" --work "$RUNNER_TEMP/r742-physical-costs" --summary "$summary"
+          echo R742_COMPLETE_REPORT_BEGIN
+          if test "$(wc -c < "$summary")" -lt 100000; then
+            cat "$summary"
+          else
+            wc -c "$summary"
+            sha256sum "$summary"
+          fi
+          echo R742_COMPLETE_REPORT_END
+      - name: Publish complete logical costs and checked handoff
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-larger-amplitude/scripts/resume_20261126/publish_r742_physical_costs.py
+          publish --summary "$RUNNER_TEMP/r742-actual-report.json"
