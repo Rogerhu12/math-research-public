@@ -46,8 +46,8 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 并行35规则核查：2026-11-28 16:37:32 UTC，真实pull至`ab9026310b365a93f9e6887bedf368c3fe35ceac`，双README无变化。
 <!-- visible-larger-parallel-35:end -->
 <!--run44-shared-rim-phase-->44 [实测](notes/run44-shared-rim-phase-46160123014-1.json) 双README真pull 75f9f78c0987bc30614a7e3b32e151475d00e2ce
-<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull a77d7acefdaaaf7ef783f2056e99a45b3539f51e
 <!--r764-publish-->R764 [非平预卷四整球十二层实际](notes/r764-corrugated-whole-46162184631-1-index.json) 双README真pull b2e539e90a46890006af9d1bd0ac0f32c255777c
 <!--run45-coframe-phase-->45 [实测](notes/run45-coframe-phase-46163490136-1.json) 双README真pull c57ac0ec069c5afacbfd64d3ef30d0961ddc7952
 <!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 48bf2788173e6c466a1783f95b476b1a38adb992
 <!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 09d7bef9b19460bb2765dba393405c1b847767e2
+<!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull f770502e9d95d1449a716cfc6f625fdef0058088
