@@ -108,3 +108,7 @@
 ## 2026-11-28 00:01:56 UTC — 21 maker实际返回
 
 首必要输入maker真实0/6.160448841999994s，source bce727d6/89cc；报告65334B/a052a2ea，原固定NPZ4334B/b9e12a03、全部nodes/scalar与完整命令/source/cleanup/缺值保[21全记录](notes/2026-11-27-run21-complete-five-eighths-launch-and-continuation.md)，并附完整原5756B分卷/固定Git身份。第二参考/科学此时尚未返回，未借19/20 actual填本轮point；raw不读取不搬运。双README云核至`b9be9a052d40b80c8a6d9d97f5e8537812cbeb3f`无变（非pull）。
+
+## 2026-11-28 00:11:20 UTC — 20首试点完整有限几何拒绝；下一试点尚未返回
+
+20原48live实际保首345906完整有限g=.9750099817855096、reach最大、accepted=false；current初点g=.9684249942095058/accepted0不变。下一d34614于00:03:30.800085开始，统计/几何/alpha未知，不能推第二方向；较小恢复μ在此首试点没有改善几何。科学未自然返回、reportfalse。 完整原对象及小文件全身份保[本轮note](notes/2026-11-27-run20-complete-bhalf-mu001-launch-and-continuation.md)。双README云核至`8f7dc258e27c0aa47865ead41e5a36c90fbda367`无变（非pull）。
