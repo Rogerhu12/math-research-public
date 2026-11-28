@@ -43,3 +43,7 @@
 ## 2026-11-28 11:01:45 UTC — RET100E：18旧实际返回归档独立完整再生
 
 旧04/05/06/08/09共18派生archive739563B的77完整参数step/实际return由24独立whole原队列或已刊记录精确恢复；5个按原run的完整其余metadata、ledger及再生器保每个原字段/报错/null/序号/原数值拼写，含原ECMAScript转录的准确原字，净677289B。原archive自身不作再生输入；所有原queue/request/生成器/科学raw保持。 双README云核至`6ba550036050a03dc99b433e349c8e6aabd7ce3d`无变（非pull）。
+
+## 2026-11-28 11:02:32 UTC — 35完整圆肩新参考实际公开启动
+
+完整7件启动包现刊；新增 .github/workflows/visible-larger-20261128-parallel35.yml（课题外，为本题独立完整新参考求解）。请求/parent均35；两个原完整输入新runner重算，原6/26参数原字保，全science162词由157内词+正常build包装构成。360分钟/21000秒、全变量/32stage/M160/J923/N2048/原预算和错误全部保持，90808整队后自然返再接74162整pure，未冒科学结果。 双README云核至`dd3eff70a36443229b76901467d4ccd5091c3d42`无变（非pull）。

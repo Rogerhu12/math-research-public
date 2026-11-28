@@ -105,17 +105,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 已终态实际计算
 
-19–26完整记录保上述旧open及各whole note：19science/pure0而N1无report；20–26cancelled原因未知。25原accepted4，restart新accepted0、四分拒/八分仅统计；26accepted1，下一步仅开始。27/28/29/31/32官方failure原因待各自日志，不从旧33借用。
+[截至RET100E的完整终态表和全部链接](https://github.com/Rogerhu12/math-research-public/blob/dd3eff70a36443229b76901467d4ccd5091c3d42/topics/visible-flex-larger-amplitude/open.md)保19–32每次自身源/模型/点/六族/K/原预算、失败及未知；各完整own note仍在。19science/pure0、N1无report；20–26cancelled；27/28/29/31/32failure。其他run原因不从33借用。25原accepted4、restart0；26/29/31 accepted1，27 accepted3，32 accepted0，末trial统计不冒final。26/27/29/31/32无自然final/typed，whole pure未执行。28原science/pure0而新R729 continuation仅started；其whole final/源比较合同不证明未返新场。旧失败自身日志现已实际读取，待逐条登记。
 
-| 自身完整记录 | 末实际状态 |
-|---|---|
-| [27](notes/2026-11-28-run27-complete-r725-five-eighths-launch-and-continuation.md) | accepted3、12d82 current；86e14全步拒、c6928半步仅统计；failure09:42:20Z。 |
-| [28原](notes/2026-11-28-run28-complete-demanded-halfwave-launch-and-continuation.md)与[R729接续](notes/2026-11-28-run28-R729-explicit-final-continuation.md) | 原science/pure0，a28ae/accepted4/Gram.40616533555531326/reachg.5225620087197518；pure423值/22错。新source689954/PID14760仅开始，无新model/point/report；failure09:40:01Z。 |
-| [29重试](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md) | bc818/accepted1，695833十六分步拒、30412三十二分步仅统计；failure09:40:48Z。 |
-| [31](notes/2026-11-28-run31-complete-R728-reversed-demanded-launch-and-continuation.md) | source dfbbc306/PID4131/model78717，337dc/accepted1，ec99第二步仅统计；failure09:40:24Z。 |
-| [32](notes/2026-11-28-run32-complete-R729-launch-and-continuation.md) | source20911541/PID3496/model78717，7e06/accepted0；1ec676首trial仅统计，几何/接受/R729归因未知；failure09:41:53Z。 |
-
-26/27/29/31/32无自然final/typed，whole pure未执行。28跨source合同只读相等不证明未返新场。完整[S/core-law90项](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已返，13summary旧错保留。trial不冒accepted/final，异source/model不借同坐标结果。
+完整[S/core-law90项](notes/2026-11-28-actual-complete-fixed-scalar-length-and-core-law.md)已返，13summary旧错保留；异source/model不借同坐标结果。
 
 ### 正在执行
 
@@ -123,13 +115,15 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [34完整启动](notes/2026-11-28-R730-R729-run34-complete-launch.md)实际46135301432/job140949157288，两input0；science c3228e9d/PID3687已启，自身model/点未返。R730全物理/正常build/参数/启动全main：139角色/24runtime、17整源物化、原guards/内157/7/外162/12、632/625+64live及预算保；全science自然返才pure66120。
 
+[35完整启动](notes/2026-11-28-R732-R729-run35-complete-launch.md)现刊，active/parent=visible-larger-resume-20261128-35；新R732圆肩参考、139角色/24runtime，完整正常build17源，713/719正式+64live、内157/7外162/12、原全部预算保。三step整队90808，science自然返才whole pure74162；actual run/model/point待本次自身返回。全outer仍自由，不冻结正宽末带。
+
 ### 已证新方向及未付责任
 
 [R730](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md)：真实S∈(2.37,2.38)、κ0=binary.2，η1/32、ξmax3/4、k6的唯一长度根、全角逆弧长六jet、闭参考嵌入、安全锥双held、D≤4.2；仅径向unit不代全Gram/reach。
 [R731](results/R731-frozen-reference-cap-normal-chord-and-reach-obstruction.md)：冻结R730全相位reach<.016、D>3.88；水平/帽相对高度各改≤.025仍reach<.0285。仅约束参考及该邻域，不约束任意outer场。
 [R732](results/R732-rounded-cap-exact-terminal-metric-and-full-reference.md)：圆肩新参考付帽混合/反向.126球、原末带Gram、正确core jet、D/双held/δE；中央Gram及中央/中央、中央/圆肩reach未付。新源独立34。
 [R733](results/R733-exact-noncircular-core-collar-and-global-normal-balls.md)：真实非圆core/两帽正宽准确Gram，柱内.18球/core对全像两向.126球；移动接口全jets保，core宽未数值包围。
-[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。完整Fraction/Bernstein/Sturm/Yun程序及公开workflow已刊，实际T*/415片前缀待本次返回；不替R733拼接宽。
+[R734](results/R734-hyperbolic-core-continuation-computable-width-and-normal-balls.md)：真首quintic有理T*、全角同g带/带内.16球、跨片运输与显式比较。完整有理计算首run46136563673于10:54:23Z cancelled，无已刊结论；自身失败日志已读取待登记并修复完整重跑，不替R733拼接宽。
 
 [R735](results/R735-deep-valley-cap-flat-infinitesimal-bending-lines.md)原深谷每个m≥2确有非零平坦帽端线性弯曲，完整半周期精确传递/反向连分式证明并给唯一径向线；有限非线性及双端匹配未付。
 
