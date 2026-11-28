@@ -461,3 +461,7 @@ source8/参数6/launch7共21件925632B（topic923413B）全部同刊，已在28�
 ## 2026-11-28 10:01:59 UTC — RET97完整保全22–25已终态输出与来源
 
 22–25九个已终态控制器生成索引/返回卷338269B退到固定Git恢复；五件214565B完整保存10实际stage和4末observation的全部JSON tokens，含25原science/pure0与取消restart，全部源参/命令/失败未知与45当前保留身份/5历史身份分列，净减123704B。原human notes/源参/输入保留，未读科学raw；无数学结论改变。 双README云核至`6953c39eb4818aaa699d762ca4d46035188cd083`无变（非pull）。
+
+## 2026-11-28 10:03:15 UTC — run33真实规则变更失败与两个完整input返回
+
+33官方failure终态与完整日志核定：两input code0，第二返回后Publisher.sync真pull见根§16并抛README changed；science未启。完整input事件、所有输出身份和异常保本轮note，新runner按已读规则完整重算；删除失效运行槽，未把输入成功当科学完成。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run33-halfwave-R729-complete-launch-preparation.md)。双README云核至`393a49ef3d59e1b39eedc35e22da45797fdea0d0`无变（非pull）。

@@ -275,3 +275,150 @@ node reproduce_fixed_fejer_halfwave_R729_run33_complete_launch.mjs --source-dire
 [官方运行](https://github.com/Rogerhu12/math-research-public/actions/runs/46130690181)。安装/checkout阶段已成功不代科学完成；当前两个输入的source/report、科学detached source/PID、model/point/最终typed/R729触发与采用均待本次自己的完整记录，不用28或32相同输入数值填空。
 
 原三步整queue80264B/SHA256230b6ab4a1c2dbf43edc522d466f4fa30d9571d880a38a3f9287204c5043f480，parent/active同visible-larger-resume-20261128-33，finishfalse，三个script均有完整topics/visible-flex-larger-amplitude/前缀。whole pure62838B已由完整70074B ready原step形成，7 argv/564正式读数原字保，只有科学自然返回后再同ID排；不将136410B science+pure或143009B全四步队列硬塞到95000B接口，也不删字段凑队列。全157科学词、原458/445映射、现575/564、64live、4/64/15、32stage和全部源/变量/观察/数值预算不变。
+
+## 2026-11-28 10:03:15 UTC — run33真实规则变更失败与两个完整input返回
+
+官方 run46130690181/attempt1、job140934949073 已 completed/failure：job终止2026-11-28T09:38:59Z，科学编排步骤09:38:54Z失败。完整原job日志64705B，SHA256 `ad490cac7f23076de59607b79514f6a2df58009836c9bc73cc3b55c02b6c06ac`；日志仅API临时读取，未提交raw。其完整异常指出 `Publisher.sync` 在真实 `git pull --rebase origin main` 后打印根README新增§16的精确差异，抛出 `RuntimeError: README changed: the research agent must read this exact diff before further computation/publication`。这是有实际错误证据的规则变更中断，不能说是科学不收敛、超时或用户取消。
+
+当前索引只刊第一input；日志额外真实返回了第二input：09:38:53.3589567Z、returncode0、499.93597806900004s、source77b0048525a4ae51aad18ab36dc64f5ec849b44a/PID2969，报告84971B/SHA c2ac7be69f718960b53a3f8c887ab54d619d517cb1dfb66cfdd58451dab0b423。下面保全部两个input的start/returned完整事件（含所有输出身份/字段/false/未知）。第二input的scalar accuracy_reached=false不改写。科学步骤尚无started事件；新物理model/point/最终报告/typed/pure全部尚未返回。
+
+root已在f57995b11d7b9e390d61a6f363cdf50bf5febc43读并落实§16。完整同科学请求将在新runner按已读新版README重新运行，两input实际文件随旧runner清除，故完整重算；不能把旧返回身份冒充新run的输入。原workflow/科学/预算/源守卫不改，恢复不添加独立核验门。
+
+```json
+{
+  "official_jobs": {
+    "total_count": 1,
+    "jobs": [
+      {
+        "id": 140934949073,
+        "run_id": 46130690181,
+        "workflow_name": "Visible larger amplitude halfwave R729 common slack 20261128 33",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46130690181",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOVt5L2s8AAAAg0GCo0Q",
+        "head_sha": "3ff5795e46cc5a2b50f0ba27d6c747a00bc54d03",
+        "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140934949073",
+        "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46130690181/job/140934949073",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-11-28T09:29:17Z",
+        "started_at": "2026-11-28T09:29:18Z",
+        "completed_at": "2026-11-28T09:38:59Z",
+        "name": "Construct the same fixed target and solve original halfwave with R729 common slack",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-11-28T09:29:19Z",
+            "completed_at": "2026-11-28T09:29:20Z"
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-11-28T09:29:20Z",
+            "completed_at": "2026-11-28T09:29:28Z"
+          },
+          {
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-11-28T09:29:28Z",
+            "completed_at": "2026-11-28T09:29:34Z"
+          },
+          {
+            "name": "Install the recorded numerical and automatic differentiation dependencies",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-11-28T09:29:34Z",
+            "completed_at": "2026-11-28T09:30:05Z"
+          },
+          {
+            "name": "Execute public research and publish independent compact records",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 5,
+            "started_at": "2026-11-28T09:30:05Z",
+            "completed_at": "2026-11-28T09:38:54Z"
+          },
+          {
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9,
+            "started_at": "2026-11-28T09:38:54Z",
+            "completed_at": "2026-11-28T09:38:54Z"
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10,
+            "started_at": "2026-11-28T09:38:54Z",
+            "completed_at": "2026-11-28T09:38:54Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11,
+            "started_at": "2026-11-28T09:38:54Z",
+            "completed_at": "2026-11-28T09:38:54Z"
+          }
+        ],
+        "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140934949073",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 1000012801,
+        "runner_name": "GitHub Actions 1000012801",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+      }
+    ]
+  },
+  "whole_original_log": {
+    "bytes": 64705,
+    "sha256": "ad490cac7f23076de59607b79514f6a2df58009836c9bc73cc3b55c02b6c06ac"
+  },
+  "complete_logical_input_events": [
+    {
+      "line_one_based": 412,
+      "full_original_event_line": "2026-11-28T09:30:25.7493965Z {\"event\": \"followup_started\", \"step_id\": \"prepare-complete-fixed-fejer-r690-inputs-20261127\", \"source_commit\": \"fa603b208efef1ae2daee467bbf3ab9958c94b24\", \"source_sha256\": \"89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60\", \"parent_sha256\": null, \"pid\": 2828}"
+    },
+    {
+      "line_one_based": 413,
+      "full_original_event_line": "2026-11-28T09:30:30.7785001Z {\"event\": \"followup_returned\", \"step_id\": \"prepare-complete-fixed-fejer-r690-inputs-20261127\", \"state\": \"completed\", \"returncode\": 0, \"seconds\": 6.024486248000002, \"source_commit\": \"fa603b208efef1ae2daee467bbf3ab9958c94b24\", \"source_sha256\": \"89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60\", \"parent_sha256\": null, \"outputs\": [{\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-r690-inputs/report.json\", \"sha256\": \"7f1598b7cf8f7eb59d31d7f3ef24e7426106e6115e3818a7522aebf9fe0815df\", \"bytes\": 65324}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz\", \"sha256\": \"b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98\", \"bytes\": 4334}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json\", \"sha256\": \"1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5\", \"bytes\": 144306}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json\", \"sha256\": \"2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189\", \"bytes\": 40488}], \"metrics\": {\"fixed-fejer-r690-inputs/report.json\": {\"schema\": \"complete-fixed-fejer-r690-input-preparation-v1\", \"source\": \"89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60\", \"status\": \"complete\", \"complete\": true, \"seconds\": 0.5768969490000018, \"definition\": \"5e1c65204a45ae97b64d845f7fe7277ffedd57c758939cc82df068b2f104ce4a\", \"target\": \"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9\", \"actual_run\": \"46130690181\", \"actual_attempt\": \"1\", \"actual_source_commit\": \"fa603b208efef1ae2daee467bbf3ab9958c94b24\", \"all_input_source_output_rechecked\": true, \"physicalF\": 0, \"J_evaluations\": 0, \"normal_roots\": 0}}}"
+    },
+    {
+      "line_one_based": 425,
+      "full_original_event_line": "2026-11-28T09:30:34.4958952Z {\"event\": \"followup_started\", \"step_id\": \"prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run33\", \"source_commit\": \"77b0048525a4ae51aad18ab36dc64f5ec849b44a\", \"source_sha256\": \"e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb\", \"parent_sha256\": null, \"pid\": 2969}"
+    },
+    {
+      "line_one_based": 426,
+      "full_original_event_line": "2026-11-28T09:38:53.3589567Z {\"event\": \"followup_returned\", \"step_id\": \"prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run33\", \"state\": \"completed\", \"returncode\": 0, \"seconds\": 499.93597806900004, \"source_commit\": \"77b0048525a4ae51aad18ab36dc64f5ec849b44a\", \"source_sha256\": \"e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb\", \"parent_sha256\": null, \"outputs\": [{\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-reference/report.json\", \"sha256\": \"c2ac7be69f718960b53a3f8c887ab54d619d517cb1dfb66cfdd58451dab0b423\", \"bytes\": 84971}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-reference/reference.npz\", \"sha256\": \"212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb\", \"bytes\": 894879}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-reference/observations.npz\", \"sha256\": \"84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e\", \"bytes\": 205842}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-reference/locations.json\", \"sha256\": \"fa8a54cae553947372c976df417d5adde1bf7bad943333d614f1837a99764659\", \"bytes\": 106771}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-reference/supplied-location-provenance.json\", \"sha256\": \"64535f512f7566d313b7f1ae6fb5c74a34af41f9b05ca973482595c1166f5577\", \"bytes\": 223955}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-reference/fixed-target-definition.json\", \"sha256\": \"777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df\", \"bytes\": 30919}, {\"path\": \"/home/runner/work/_temp/visible-larger-research-46130690181-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json\", \"sha256\": \"65907c4f5988e2dc27bd12ee93cd3c24979f2840af82c037929dd565f659997f\", \"bytes\": 35712}], \"metrics\": {\"fixed-fejer-reference/report.json\": {\"schema\": \"R690-fixed-fejer-axisymmetric-SO3-preparation-v1\", \"source\": \"e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb\", \"source_commit\": \"77b0048525a4ae51aad18ab36dc64f5ec849b44a\", \"complete\": true, \"seconds\": 497.703110829, \"reference_model\": \"ea64e2fe5e272648195128d53521705cc266d82f7d2636bd7201b90fcf172fac\", \"fixed_scalar\": \"d492e4ad97245a8474f1a73a8787aac2fc5691b1f928d0b8ea72224cabd55160\", \"scalar_parameters\": \"e640aec831df350fa69740650b723a7d2d55676ca64ffb5ddabbacb3ab7d6dfa\", \"mathematical_target\": \"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9\", \"full_target\": \"50df37b6b832dcdd53d05c54138e62e43df6b14df68d946a7b8a7b8227f58319\", \"fixed_recipe\": \"5e1c65204a45ae97b64d845f7fe7277ffedd57c758939cc82df068b2f104ce4a\", \"model_chart\": \"af8ab672f847163fe02999df70a031cd5e4a495ed89c788ad0dffc8786651103\", \"model_mesh\": \"ca4b5c626e0e5cf1687c40c25a68a76c4e8fbde391bd8c853399400c784dddfc\", \"core0\": \"0x1.c000000000000p-2\", \"core1\": \"-0x1.3333333333333p-4\", \"core2\": \"0x1.b6db6db6db6dbp-6\", \"M\": 160, \"J\": 923, \"P\": 7377, \"N\": 2048, \"height\": 1.947054437068418, \"reference\": \"212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb\", \"carrier\": \"84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e\", \"nodes\": \"1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5\", \"scalar\": \"2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189\", \"fixed_input\": \"b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98\", \"input_preparation\": \"7f1598b7cf8f7eb59d31d7f3ef24e7426106e6115e3818a7522aebf9fe0815df\", \"locations\": \"fa8a54cae553947372c976df417d5adde1bf7bad943333d614f1837a99764659\", \"location_provenance\": \"64535f512f7566d313b7f1ae6fb5c74a34af41f9b05ca973482595c1166f5577\", \"target_file\": \"777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df\", \"leaf_target\": 2218, \"actual_leaves\": 2218, \"accuracy_reached\": false, \"integral_width_exact\": \"20705780131163723599438290019541571913013106551525357578680931811765776678181/14411518807585587200000000000000000000000000000000000000000000000000000000000000000000000\", \"whole_tail\": true, \"unresolved_tail_dropped\": false, \"clock_selects_leaves\": false, \"old_warm_not_required\": true, \"old_surface_used\": false, \"old_directions_replayed\": false, \"old_certificates_inherited\": false, \"physical_field_read\": false, \"new_field_still_required\": true, \"run\": \"46130690181\", \"attempt\": \"1\"}, \"fixed-fejer-reference/material-envelope-carrier-binding.json\": {\"schema\": \"complete-fixed-fejer-actual-reference-binding-v1\", \"source\": \"e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb\", \"source_commit\": \"77b0048525a4ae51aad18ab36dc64f5ec849b44a\", \"run\": \"46130690181\", \"attempt\": \"1\", \"mathematical_target\": \"957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9\", \"full_reference_definition\": \"50df37b6b832dcdd53d05c54138e62e43df6b14df68d946a7b8a7b8227f58319\", \"reference\": \"212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb\", \"preparation\": \"c2ac7be69f718960b53a3f8c887ab54d619d517cb1dfb66cfdd58451dab0b423\", \"carrier\": \"84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e\", \"fixed_input\": \"b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98\", \"nodes\": \"1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5\", \"scalar\": \"2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189\", \"target_file\": \"777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df\", \"history\": \"64535f512f7566d313b7f1ae6fb5c74a34af41f9b05ca973482595c1166f5577\", \"all_six_actual\": true, \"old_values_or_unknown_history_inherited\": false}}}"
+    }
+  ]
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46130690181-1.md",
+    "bytes": 49260,
+    "sha256": "9b71dd2ce4e34a11d037fb2d30be45815602169f76c9475881d138e88bfedc01",
+    "git_blob_sha": "002947e90bbcec8332dd5db5e20238abcefd799a",
+    "fixed_commit": "404d36570aa1322799cfeb651743ac57cae29690",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
