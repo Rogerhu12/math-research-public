@@ -48,6 +48,6 @@ Actions47：[run 46171090151/1](https://github.com/Rogerhu12/math-research-publi
 [R783](results/R783-optimal-four-moving-cap-sectors-and-closed-normal-tubes.md)：同R781平帽内握.18，至少四固定rim点且四独立发展扇精确达到。完整九图共环境场：.020/.022/.024/.025仅证整reach>.0021；tiny独立分支才证≥1/24.46。二者中央g缺陷>.23，不混两种界。
 
 [R785](results/R785-moderate-two-cap-shear-and-the-full-signed-normal-tube.md)：同R781 g双完整帽各四真实MILD扇，xi≤.02，共全空间剪切逐对支付reach≥1/24.36>.03D、held>.320、含反射商距>.086及真.18内握。终相同一中央点原g缺陷>.24；下一全场必须纠正。
-<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull c86d1dfe0c8a5f9645a77f8d27c908c46b18c348
 <!--run50-short-tube-->50 [实测](notes/run50-short-tube-46176264056-1.json) 双README真pull 41d53fe1b3de06af0e4b6f5fdd484ac57df522a4
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull 313bc5965e7514858afa3af67a76009a896b336d
+<!--run51-circular-free-ring-->51 [实测](notes/run51-circular-free-ring-46178008636-1.json) 双README真pull 2dd2961ce48a36c22a05c943a12f4010f193b317
