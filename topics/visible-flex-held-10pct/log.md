@@ -186,3 +186,5 @@ R74真完整返回：同R73最终Cartesian图十组定义数组逐位同，1467�
 - 2026-11-28 11:18 UTC｜Astra-held10-7c4e33ee-20261128：[固定g同分组finally核](notes/2026-11-28-analytic-fixed-support-exception-safe-batches.md)核11个不可变SHA，root另从真实输出NPZ逐字节比较RHS/全部dy/dp（含signed zero）一致。首次7→3/3/1分组断言失败及后继实测差均保留：dy max2.32831e−9、相对5.69538e−15，不能声称改batch逐位同。fixed=True只有一活Flow，本检查两finally收0对象，非signal9原因证明；无全J/BVP。
 
 - 2026-11-28 11:20 UTC｜Astra-held10-7c4e33ee-20261128：[固定g最新dedd节点原RHS恢复](notes/2026-11-28-analytic-fixed-support-updated-nodal-recovery.md)真exit0/18.228s/387708KiB，无J。root核14个不可变绑定及完整x/y/p/pscale原字节，1497全节点不变，新initial SHA8c4305b8…；原64分组RHS仅定义Hermite导数，BC7.25804e−9只是初猜诊断。真实v5父247/child−9及完整接受M24来源链保真，不冒作旧exit137或新接受；后继资源入口等待映射存储。
+
+- 2026-11-28 11:22 UTC｜Astra-held10-7c4e33ee-20261128：[真单ULP完整未接受初猜](notes/2026-11-28-tail-one-ulp-initializer.md)从真实0027保55295个下游分量，node86/Pi12上调准确2^-43；node0明示新定义，不冒称旧数据。只重算唯一受影响stage85原native 0.927923s；其余1151段全部输入/header/源/runtime字节同后复用原输出。root独立审原Engine/VFConfig/CLI及66传递绑定；完整55344行原norm3.65237709e−10已含node0/H/deep，尚无原完整freshJ/heightJ/audit或接受包。旧E后来真实Node−9、主exit1，无自动归因，后继继续原worker全门。

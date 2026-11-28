@@ -1,0 +1,129 @@
+{
+  "scope": "Actual complete original residual of a new unaccepted 55344-variable initializer, one genuinely recomputed original native stage and 1151 exact complete-input prior-stage reuses. No full fresh J/heightJ/audit or accepted solver packet.",
+  "created_utc": "2026-11-28T11:17:52.024538+00:00",
+  "actual_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-ulp-initializer-20261128-a/summary.json",
+    "sha256": "93aad9b186f642ea17d4997787d09711299d83ed2ca1240b00a341983495a3c4"
+  },
+  "actual_preflight": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-ulp-initializer-20261128-a/preflight.json",
+    "sha256": "ff37c20bdb7734b2a972d36f2544cd485665895d0143f95bc93e2ab53232beb5"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/build_ulp_roundoff_initializer.py",
+    "sha256": "b4ce6f9cda1b48c55b8be3b8a8492018d091cbd94668bba167be800dea08c76a"
+  },
+  "original_trial": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0027-state-record.json",
+    "sha256": "7490e9944f1079c885fc5a20a917372b3bc34e0c607c5aac50666a8c01f38eec"
+  },
+  "previous_true_J": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-runs/0024-jac-record.json",
+    "sha256": "84a72a2f257f5cf3e4821c0499fbef28e1c4bfd40c3e1a1f76f212405a6b95fb"
+  },
+  "native_manifest": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/attempt-001/native-source/native-manifest.json",
+    "sha256": "ca2331a3b6d586d0dd248bdf30b3714597e143bbf308bb0d457ddadb8735e7eb"
+  },
+  "full_height_reference": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-adaptive-fullheight-20261128-a/height-reference.json",
+    "sha256": "d0451df8687ca28b8297d5e08336d646c15485727a0fc4eb4c546be133e977dd"
+  },
+  "source_prefix_homotopy": 0.002,
+  "full_height_f64le_sha256": "ea4449d16395e45022b0b176a49dd6125e85728ea9a26f229b92c36d7509d707",
+  "new_initial_state": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-ulp-initializer-20261128-a/unaccepted-complete-ulp-initializer.json.gz",
+    "sha256": "1ea694705e3864ea7a877162b68c0ae058434d08016a7dd08cae691b2114fcb7"
+  },
+  "node0_definition": "New unaccepted Q=original desiredTarget; Pi=actual call0027 normalized stage0 output",
+  "old_node0_preservation_claimed": false,
+  "changed_node": 86,
+  "changed_component": 27,
+  "physical_harmonic": 12,
+  "before": 519.6180251866067,
+  "after": 519.6180251866068,
+  "exact_delta": "1/8796093022208",
+  "original_predicted_neighbor": {
+    "node0_Q_norm": 5.179014456859017e-24,
+    "node0_Pi_norm": 0.0,
+    "other_complete_flow_rows_norm": 3.652377088977401e-10,
+    "deep_norm": 2.663947909512669e-42,
+    "unchanged_height_boundary_norm": 0.0,
+    "previous_true_J_neighbor_effect_norm": 3.502858050580925e-11,
+    "previous_true_J_neighbor_predicted_norm": 5.476335739287853e-11,
+    "previous_J_is_prediction_only": true
+  },
+  "native_recomputation": {
+    "command": [
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/frozen_flow_batch",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-ulp-initializer-20261128-a/original-stage85-input.bin",
+      "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-ulp-initializer-20261128-a/original-stage85-output.bin"
+    ],
+    "returncode": 0,
+    "input": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-ulp-initializer-20261128-a/original-stage85-input.bin",
+      "sha256": "de5ad0243018a4980ca65c97ed7188019d286bd3f530f75e62853d23a69c534c"
+    },
+    "output": {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-ulp-initializer-20261128-a/original-stage85-output.bin",
+      "sha256": "e17969b171da66245881bd0ad404cac98dd06e18d6e6fb1ebc530efa4d80783c"
+    },
+    "diagnostics": {
+      "root_calls": 64,
+      "root_updates": 149,
+      "root_fallbacks": 0,
+      "minA": 0.9698065474023256,
+      "minD": 0.9999672044238833,
+      "max_root_relative_residual": 7.62122131998339e-14,
+      "min_literal_Jacobian_pivot": null,
+      "kernel_seconds": 0.922187053
+    },
+    "process_wall_seconds": 0.9279225140016933,
+    "native_stage_count": 1,
+    "original_global_stage": 85,
+    "withJac": false,
+    "original_production_executable_unchanged": true
+  },
+  "complete_original_residual": {
+    "norm": 3.652377088977401e-10,
+    "tolerance": 2e-09,
+    "candidate_state_residual_passed": true,
+    "interior_and_node0_flow_rows": 55296,
+    "deep_rows": 24,
+    "physical_height_rows": 24,
+    "total_rows": 55344,
+    "node0_Q_norm": 5.179014456859017e-24,
+    "node0_Pi_norm": 0.0,
+    "deep_norm": 2.663947909512669e-42,
+    "physical_height_norm": 0.0,
+    "changed_neighbor85_norm": 5.920433066120782e-11,
+    "repaired_row86_norm": 8.882712308991597e-11,
+    "maximizing_flow_row": {
+      "stage": 91,
+      "component": 27,
+      "variable": "Pi",
+      "harmonic": 12,
+      "absolute_residual": 4.547473508864641e-13,
+      "original_scale": 0.0012450722907523908
+    }
+  },
+  "complete_original_stage_domain": {
+    "minA": 0.5559990629241173,
+    "minD": 0.9991573250502112,
+    "all_actual_original_root_guards_passed": true
+  },
+  "complete_unknown_count": 55344,
+  "retained_downstream_unknown_count": 55295,
+  "exact_reuse_stage_count": 1151,
+  "new_native_stage_count": 1,
+  "all_1152_complete_dependency_keys_bound_in_preflight": true,
+  "no_rounding_of_cache_keys": true,
+  "full_state_f64le_sha256": "db4be26e70a0c30926b918b2bceb750328f7d07c9e5b9a3f9f6f817e9ec6d768",
+  "accepted_field": false,
+  "original_solver_convergence_claimed": false,
+  "fresh_full_J_returned": false,
+  "full_height_J_returned": false,
+  "full_audit_returned": false,
+  "closed_surface": false,
+  "held10_completion": false
+}
