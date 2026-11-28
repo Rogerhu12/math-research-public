@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-Phi-three-heads-and-Walsh-angle-source-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-28-open-before-first-W-local1164-model-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-[P164完整整模型与无竖线](results/R150-appendix-unit211-W-native-P164-integral-specialization-no-vertical-component-and-local-weight-model.md)：e4bcc真11.412102491秒/0，固定p1009,k3保195=98+97；三QQ e2/3/5商241次保度/三项模Bézout1，P无纯k内容，局部权环境B自由秩97。[全I11二十×二/两原标量](results/R150-appendix-unit211-W-H198-complement-exact-twenty-two-full-original-values-and-two-scalars.md)保完整原值；C11/C10头与λ内容未付。整H198长度界保结果索引，未判空。下一须实际付完整B上的全部权分母单位与原值单位来源，尚无新权曲线排除；旧门不重放。
+[P164整模型与无竖线](results/R150-appendix-unit211-W-native-P164-integral-specialization-no-vertical-component-and-local-weight-model.md)保p1009,k3准确195=98+97、三QQ商241次完整模Bézout1，局部B自由秩97。[全I11](results/R150-appendix-unit211-W-H198-complement-exact-twenty-two-full-original-values-and-two-scalars.md)保原值，C11/C10头/内容未付，整H198有限界未判空。新18ac首次180秒/4GiB按完整Pbar/χ6/qZ2构造A秩1164环境，所有分母须全P返逆，11原式/132列保全primary重数并CRT返1；只有真成功才有限Nakayama付QQ(k)泛型排除/全W权零维，否则留全部阻碍。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
