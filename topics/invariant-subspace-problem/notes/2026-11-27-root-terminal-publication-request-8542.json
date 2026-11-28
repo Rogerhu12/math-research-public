@@ -1,16 +1,15 @@
 {
-  "message": "ISP: reduce every ell-positive original valuation to one finite T-unit centre and dispatch its complete three-source input",
-  "parentCommit": "02182f1d1cbc3df8225023fd7df7ebe89775a125",
+  "message": "ISP: exclude the entire m-positive k-minus-two original boundary by a full four-dimensional mean return",
+  "parentCommit": "a92dde741f0759a2c6fd10b97d5aee06c0191435",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-ell-positive-unique-centre-poles-and-zero-T-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-ell-positive-unique-centre-three-original-scalars-8542.py",
-    ".github/workflows/invariant-subspace-8542-w-ell-positive-unique-centre-three-original-scalars.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-ell-positive-finite-centre-input-2285-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-ell-positive-finite-centre-input-2285-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-internal-m-positive-k-minus-two-entire-original-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-b0-internal-m-positive-k-minus-two-whole-four-original-return-receipt-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-m-positive-k-minus-two-entire-2290-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-m-positive-k-minus-two-entire-2290-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -19,7 +18,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-w-ell-positive-unique-centre-three-original-scalars.yml"
-  ]
+  "dispatchWorkflows": []
 }

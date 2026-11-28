@@ -1,0 +1,316 @@
+{
+  "schema": "isp-small-execution-receipt-v1",
+  "session": "Astra-ISP-8542378f-20261127",
+  "date_asia_taipei": "2026-11-29",
+  "scope": "Current W/b0, p=1009, v(m)>0 and kbar=-2 ONLY",
+  "execution": {
+    "elapsed_seconds": 0.03303533100000067,
+    "max_child_rss_kib": 34160,
+    "ordinary_isp_claim": false,
+    "rules_reads": [
+      {
+        "after": "4cb9c03e90a3f2dcec519f80ad0c66d6c885664c",
+        "before": "4cb9c03e90a3f2dcec519f80ad0c66d6c885664c",
+        "rules_git_blobs": {
+          "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+          "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
+        },
+        "rules_unchanged": true,
+        "utc": "2026-11-28T19:42:36.598954+00:00"
+      }
+    ],
+    "run_attempt": "1",
+    "run_id": "46182562376",
+    "schema": "isp-frozen-exact-actions-execution-v1",
+    "session": "Astra-ISP-8542378f-20261127",
+    "source_commit": "4cb9c03e90a3f2dcec519f80ad0c66d6c885664c",
+    "source_exit_code": 0,
+    "source_git_blob": "e9ceaf177097ac19454bad1d3e5bae84310b5e7c",
+    "source_sha256": "4cd24055fb922e2dd041ec37d6a9c0a4f57f0cc17ff5a382a5a61b487de4f1f3",
+    "stdout_bytes": 4584,
+    "stdout_sha256": "50a4415b46259c9084ac5d98f99aced8128cdfff28a69cab2a941495e6e519b8",
+    "stop_reason": null
+  },
+  "source": {
+    "blob": "e9ceaf177097ac19454bad1d3e5bae84310b5e7c",
+    "bytes": 10015,
+    "sha256": "4cd24055fb922e2dd041ec37d6a9c0a4f57f0cc17ff5a382a5a61b487de4f1f3",
+    "basename": "2026-11-29-unit211-W-b0-internal-m-positive-k-minus-two-whole-four-original-return-8542.py"
+  },
+  "input": {
+    "blob": "4c73c9211cb053f4c51dcfab30cc074ce237c087",
+    "bytes": 9265,
+    "sha256": "84734b1db8f4df3ac57e00da9d64c6c890bab3c55f429d0da624d39034da4446",
+    "basename": "2026-11-29-unit211-W-b0-internal-m-positive-k-minus-two-whole-four-original-return-8542-input.md"
+  },
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46182562376",
+  "job_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46182562376/job/141095189005",
+  "source_review": {
+    "status": "Immutable source/input statically reviewed; independent peer full static pass received; no reproduction gate.",
+    "root_dispatch_record": "Root accepted e9ce/4c73 in prepared publication 2275 before this sole run.",
+    "independent_peer_review": "Full static pass received; no execution, rerun or new gate requested."
+  },
+  "direct_log_read": {
+    "records": 3,
+    "stdout_reconstructed_exactly": true,
+    "sha256": "50a4415b46259c9084ac5d98f99aced8128cdfff28a69cab2a941495e6e519b8"
+  },
+  "mathematical_result": {
+    "unit_returned": true,
+    "dimension": 4,
+    "rank": 4,
+    "columns": 40,
+    "final_ring": "F_1009[f,sigma], unquotiented ordinary polynomial ring",
+    "nonzero_final_multipliers": [
+      "true_dual_E1: constant",
+      "complete_EB: f degree 1"
+    ],
+    "all_f_sigma_roots_and_multiplicities_retained": true,
+    "only_kminus2_mpositive_branch_excluded": true,
+    "Q_equals_two_branch_retained": true
+  },
+  "historical_field_note": "The immutable noMInverse=true record refers to lowercase m. Capital M is inverted after proving it is a valuation unit; source and old log bytes are unchanged.",
+  "records": [
+    {
+      "allRawLabels": [
+        "complete_second_spectral_moment",
+        "true_dual_E1",
+        "complete_EB",
+        "complete_EC",
+        "complete_N1",
+        "complete_NB",
+        "complete_NC",
+        "complete_PB",
+        "complete_PC",
+        "complete_NV"
+      ],
+      "allRawProfiles": [
+        {
+          "bytes": 21,
+          "fDegree": 0,
+          "sha256": "265556d742ba310c0c89c44d4037232ceb7854352108d327094f7960cab6e069",
+          "sigmaDegree": 2,
+          "terms": 2
+        },
+        {
+          "bytes": 31,
+          "fDegree": 2,
+          "sha256": "f6ca65cda9087ffdd028298bd0d8985c0bb4406e47d4198a9b6ce9e1d429018d",
+          "sigmaDegree": 0,
+          "terms": 3
+        },
+        {
+          "bytes": 21,
+          "fDegree": 1,
+          "sha256": "34f1e84a33e3ff26dc826d6da813252e02db14c8cd912211bb7a53946c0aebb4",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "bytes": 21,
+          "fDegree": 1,
+          "sha256": "4e7befcedf376df8ee3a41aca3e2b6074d7ce82527da04a67dd9b4869535e6c5",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "bytes": 30,
+          "fDegree": 2,
+          "sha256": "516e25bb03c1fdaef79370fc2972fbad24597aa2a24d4aa23de53bcee758a361",
+          "sigmaDegree": 0,
+          "terms": 3
+        },
+        {
+          "bytes": 57,
+          "fDegree": 3,
+          "sha256": "036ffab7e5867d27137970ddbf12a52c97c040389c65f72bfde00dfbccf7a54e",
+          "sigmaDegree": 2,
+          "terms": 6
+        },
+        {
+          "bytes": 60,
+          "fDegree": 3,
+          "sha256": "43e6619032f9228d71541648adfeb834fca699ebdcae4e73669c865fca080dda",
+          "sigmaDegree": 2,
+          "terms": 6
+        },
+        {
+          "bytes": 67,
+          "fDegree": 3,
+          "sha256": "69dd07aad34388f2b2bd420bdf4348894417a6a7473e853c880db9d3919fec7b",
+          "sigmaDegree": 3,
+          "terms": 7
+        },
+        {
+          "bytes": 70,
+          "fDegree": 3,
+          "sha256": "5aed2b5fe7cfa787c2d6850734c3fa104ac7b8dd61d29731a498af4a76029861",
+          "sigmaDegree": 3,
+          "terms": 7
+        },
+        {
+          "bytes": 50,
+          "fDegree": 1,
+          "sha256": "c1e3e9f2cf4632482017d6cc7e2412c75cfd87db4edc13d7b130addc4b14be5f",
+          "sigmaDegree": 2,
+          "terms": 5
+        }
+      ],
+      "centre": {
+        "D": 256,
+        "Q": 42,
+        "T": 35,
+        "ell": 989,
+        "k": 1007,
+        "lambda": 252,
+        "m": 0,
+        "mu": 501,
+        "rho": 577,
+        "u": 989
+      },
+      "completeDualSquareVm": true,
+      "monicF": {
+        "bytes": 29,
+        "fDegree": 2,
+        "sha256": "5836c2ca9f929efbdbff1277c549c09a2a7179918e44a1013729e165d7bdbe48",
+        "sigmaDegree": 0,
+        "terms": 3
+      },
+      "monicSigma": {
+        "bytes": 17,
+        "fDegree": 0,
+        "sha256": "1da3bf128ec242650e4bd01188e5f668b7ab312f23a906690939018969a5a8ae",
+        "sigmaDegree": 2,
+        "terms": 2
+      },
+      "noMInverse": true,
+      "noSelectedFOrSigmaRoot": true,
+      "oppositeRhoOnlySwapsBothOriginalSingletonLabels": true,
+      "originalF2AndMeanZeroN0P1Returned": true,
+      "prime": 1009,
+      "seconds": 0.004125659999999698,
+      "stage": "new_m_positive_k_minus_two_unique_centre_complete_raw_Gram",
+      "statistics": {
+        "GaussianVectorReturns": 0,
+        "baseInverseReturns": 36,
+        "finalOriginalReturns": 0,
+        "monicOriginalReturns": 2,
+        "originalColumnReturns": 0,
+        "quotientDivisionReturns": 0,
+        "rawDefinitionReturns": 15
+      },
+      "unitFQuadraticHead": 328
+    },
+    {
+      "QEqualsTwoOtherMChartNotClaimed": true,
+      "allFAndSigmaMultiplicitiesKept": true,
+      "dimension": 4,
+      "excludesThisValuationResidueCentreOnly": true,
+      "fullUnquotientedFpFAndSigmaPolynomialReturned": true,
+      "originalMultipliers": [
+        {
+          "bytes": 2,
+          "fDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "bytes": 11,
+          "fDegree": 0,
+          "sha256": "3b023596ea2e4d7ac8aa2a3dd0d2f85df5712524c04b9e92adfb3eae4151ca39",
+          "sigmaDegree": 0,
+          "terms": 1
+        },
+        {
+          "bytes": 20,
+          "fDegree": 1,
+          "sha256": "9c05ca4098ff00be38a4a89311365ed5da28f8361eba12a293186b97e6e54523",
+          "sigmaDegree": 0,
+          "terms": 2
+        },
+        {
+          "bytes": 2,
+          "fDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "bytes": 2,
+          "fDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "bytes": 2,
+          "fDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "bytes": 2,
+          "fDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "bytes": 2,
+          "fDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "bytes": 2,
+          "fDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        },
+        {
+          "bytes": 2,
+          "fDegree": -1,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sigmaDegree": -1,
+          "terms": 0
+        }
+      ],
+      "rank": 4,
+      "seconds": 0.010878357999999366,
+      "stage": "new_m_positive_k_minus_two_original_unit_returned",
+      "statistics": {
+        "GaussianVectorReturns": 4,
+        "baseInverseReturns": 40,
+        "finalOriginalReturns": 1,
+        "monicOriginalReturns": 2,
+        "originalColumnReturns": 40,
+        "quotientDivisionReturns": 40,
+        "rawDefinitionReturns": 15
+      },
+      "target": "1"
+    },
+    {
+      "dimension": 4,
+      "noOldGateReplayed": true,
+      "originalColumns": 40,
+      "scope": "ONLY v(m)>0 with kbar=-2 in current W/b0 and p=1009",
+      "seconds": 0.01091920899999721,
+      "stage": "new_m_positive_k_minus_two_original_input_complete",
+      "statistics": {
+        "GaussianVectorReturns": 4,
+        "baseInverseReturns": 40,
+        "finalOriginalReturns": 1,
+        "monicOriginalReturns": 2,
+        "originalColumnReturns": 40,
+        "quotientDivisionReturns": 40,
+        "rawDefinitionReturns": 15
+      },
+      "unitReturned": true
+    }
+  ],
+  "coefficient_payloads_saved": false
+}

@@ -36,6 +36,8 @@
 
 ## 新增结论
 
+- [R150/W b0：m正阶、k=-2整个原支排除](results/R150-appendix-unit211-W-b0-internal-m-positive-k-minus-two-entire-original-exclusion.md)：原q/R唯一中心U29/49,µ−7/2，真E1单位f²头付整性；唯一e9ce四维40列后完整普通十源返1，实际仅E1/EB非零乘子，全部谱根重数保，不关闭Q2余图。
+
 - [R150/W b0：ell正阶仅余唯一有限T单位中心及完整N5二阶归一](results/R150-appendix-unit211-W-b0-ell-positive-unique-centre-poles-and-zero-T-exclusion.md)：原q/R排Ast单位及全部µ/T极点，完整N5=2ell²H原展开排T零支，唯一U−5/4,k−1/2且T/µ/A2皆单位；首次两固定完整原消元输入已定义，不预记剩余有限图空。
 
 - [R267：同一真正范数稠密分母中的完整加权原平方曲线](results/R267-appendix-weighted-original-square-curve-in-one-norm-dense-denominator.md)：仅j≥1加权块保最低C²/γ偶和完整carry，L后可和误差付B上的稠密乘子像；固定v与每u(s)真F∩Ω，u(s)²→Cv²范数，原全旗及单列桥保，奇列强紧性和根仍开。
