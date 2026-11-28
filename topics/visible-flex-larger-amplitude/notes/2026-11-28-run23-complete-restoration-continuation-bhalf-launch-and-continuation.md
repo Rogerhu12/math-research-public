@@ -1,5 +1,15 @@
 # Run23: complete full-wave restoration continuation launch and actual record
 
+## RET84：终态导读与完整历史记录
+
+**已知终态：** run 46094430214/1 的 job 在 2026-11-28 07:32:27Z 为 completed/cancelled，原因未知。两必要输入确已返回 0；最后 current 接受数为 2，491dae 真实被拒，下一 344a0b 仅自身统计已返。科学自然返回、完整 report/final/typed 和该下一点几何/接受仍未知，不能从所选策略预填。
+
+本版保留原笔记全部非 JSON 叙述、数值表、公式、时间顺序、来源与参数链接、接受/拒绝及错误/未知原文。18 个重复嵌入的 JSON 改为各自固定全文和精确行号引用；它们的所有原字段、命令、标量、缺值和 whole 身份仍在同一完整旧文件中。这里没有把原 JSON 重编码成数值载体，也没有改动科学源、request、ready、实际输入、checkpoint 或报告。
+
+**完整旧文件：** 66558 字节；SHA256 `87c194f13156443ccd2be5bd14d0ea908de4faedf9e0f628dc6aced41ceaff1e`；Git blob `2da87cf9e52a9c700749b0a8a762416470526131`；固定提交 `a7ee59c79535235b4161da7780b77556e9760940`。[完整旧版](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md)。旧 whole-hash 读者应从该提交恢复原件；当前紧凑笔记有独立新身份，不能冒旧字节。逐块对应与恢复说明见[RET84 完整交付表](../computations/terminal-run19-24-narrative-retention-84-complete-delivery.json)。
+
+下文“当前”“未返”“准备”均保各原节的时间作用域；旧 running 不覆盖已知官方终态。原文所称“以下完整对象”现在由紧接其后的固定完整记录链接承接，不是声称该 JSON 仍内嵌于当前正文。首次准备的 null 也不覆盖后面真正返回的事实。
+
 Prepared at 2026-11-28 01:25 UTC. Session Astra-larger-e4e2a2bf-20261126. This is the complete independent launch specification for the already prepared restoration continuation family. An actual run ID, its input returns, model, points, policy decisions and final report are still unknown at preparation. They are recorded only after the public Actions execution really occurs.
 
 ## One declared algorithm change
@@ -59,293 +69,8 @@ Actual run46094430214/1, workflow433320427, job140822424469, head3d1f7b396e735e0
 
 The complete official run object and complete returned job wrapper are preserved below. Original launch manifest and all earlier preparation fields remain historical declarations; this section supplies the actual run fact without rewriting them or changing the ongoing source/queue.
 
-```json
-{
-  "queried_utc": "2026-11-28 01:45:37 UTC",
-  "query_scope": "official Actions list constrained to actual launch head and latest-attempt job wrapper",
-  "query_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs?head_sha=3d1f7b396e735e07f1dceca825aa69f963c105dc",
-  "complete_official_run_object": {
-    "id": 46094430214,
-    "name": "Visible larger amplitude complete restoration damping continuation 20261128 23",
-    "node_id": "WFR_kwLOVt5L2s8AAAAKu3EwBg",
-    "head_branch": "main",
-    "head_sha": "3d1f7b396e735e07f1dceca825aa69f963c105dc",
-    "path": ".github/workflows/visible-larger-20261128-parallel23.yml",
-    "display_title": "Launch the complete full-wave restoration continuation family with al…",
-    "run_number": 1,
-    "event": "push",
-    "status": "in_progress",
-    "conclusion": null,
-    "workflow_id": 433320427,
-    "check_suite_id": 124698963690,
-    "check_suite_node_id": "CS_kwDOVt5L2s8AAAAdCKMu6g",
-    "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46094430214",
-    "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46094430214",
-    "pull_requests": [],
-    "created_at": "2026-11-28T01:42:05Z",
-    "updated_at": "2026-11-28T01:42:08Z",
-    "actor": {
-      "login": "Rogerhu12",
-      "id": 199914264,
-      "node_id": "U_kgDOC-pzGA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Rogerhu12",
-      "html_url": "https://github.com/Rogerhu12",
-      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "run_attempt": 1,
-    "referenced_workflows": [],
-    "run_started_at": "2026-11-28T01:42:05Z",
-    "triggering_actor": {
-      "login": "Rogerhu12",
-      "id": 199914264,
-      "node_id": "U_kgDOC-pzGA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Rogerhu12",
-      "html_url": "https://github.com/Rogerhu12",
-      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "jobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46094430214/jobs",
-    "logs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46094430214/logs",
-    "check_suite_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-suites/124698963690",
-    "artifacts_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46094430214/artifacts",
-    "cancel_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46094430214/cancel",
-    "rerun_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46094430214/rerun",
-    "previous_attempt_url": null,
-    "workflow_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/workflows/433320427",
-    "head_commit": {
-      "id": "3d1f7b396e735e07f1dceca825aa69f963c105dc",
-      "tree_id": "65e9b72c9c2702f3053e3e3c70bad7cddb7b2fc1",
-      "message": "Launch the complete full-wave restoration continuation family with all original scientific budgets",
-      "timestamp": "2026-11-28T01:42:00Z",
-      "author": {
-        "name": "Boyang Hu",
-        "email": "2538238358@qq.com"
-      },
-      "committer": {
-        "name": "Boyang Hu",
-        "email": "2538238358@qq.com"
-      }
-    },
-    "repository": {
-      "id": 1457408986,
-      "node_id": "R_kgDOVt5L2g",
-      "name": "math-research-public",
-      "full_name": "Rogerhu12/math-research-public",
-      "private": false,
-      "owner": {
-        "login": "Rogerhu12",
-        "id": 199914264,
-        "node_id": "U_kgDOC-pzGA",
-        "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/Rogerhu12",
-        "html_url": "https://github.com/Rogerhu12",
-        "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-        "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-        "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-        "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-        "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-        "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/Rogerhu12/math-research-public",
-      "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
-      "fork": false,
-      "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
-      "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
-      "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
-      "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
-      "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
-      "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
-      "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
-      "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
-      "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
-      "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
-      "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
-      "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
-      "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
-      "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
-      "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
-    },
-    "head_repository": {
-      "id": 1457408986,
-      "node_id": "R_kgDOVt5L2g",
-      "name": "math-research-public",
-      "full_name": "Rogerhu12/math-research-public",
-      "private": false,
-      "owner": {
-        "login": "Rogerhu12",
-        "id": 199914264,
-        "node_id": "U_kgDOC-pzGA",
-        "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/Rogerhu12",
-        "html_url": "https://github.com/Rogerhu12",
-        "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-        "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-        "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-        "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-        "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-        "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "html_url": "https://github.com/Rogerhu12/math-research-public",
-      "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
-      "fork": false,
-      "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
-      "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
-      "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
-      "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
-      "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
-      "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
-      "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
-      "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
-      "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
-      "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
-      "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
-      "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
-      "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
-      "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
-      "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
-    }
-  },
-  "complete_job_wrapper_response": {
-    "jobs": [
-      {
-        "id": 140822424469,
-        "name": "Construct the same fixed target and solve the complete restoration continuation",
-        "status": "in_progress",
-        "conclusion": null,
-        "run_id": 46094430214,
-        "logs_url": null,
-        "steps": [
-          {
-            "name": "Set up job",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 1
-          },
-          {
-            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 2
-          },
-          {
-            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 3
-          },
-          {
-            "name": "Install the recorded numerical and automatic differentiation dependencies",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 4
-          },
-          {
-            "name": "Execute public research and publish independent compact records",
-            "status": "in_progress",
-            "conclusion": null,
-            "number": 5
-          },
-          {
-            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-            "status": "pending",
-            "conclusion": null,
-            "number": 9
-          },
-          {
-            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-            "status": "pending",
-            "conclusion": null,
-            "number": 10
-          }
-        ]
-      }
-    ]
-  }
-}
-```
+> **原 JSON 01：首次官方 run/jobs 全对象。** [固定旧版完整记录，第 62–348 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L62-L348)。
+
 
 ## 2026-11-28 02:00:54 UTC — 23两个完整输入实际返回，恢复策略科学已进入
 
@@ -355,26 +80,8 @@ The complete official run object and complete returned job wrapper are preserved
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1-part-001.md",
-    "bytes": 16606,
-    "sha256": "b6fa5168eb72c36582d5ca18a44f8cb393173220f80340d4cb8cafc1d0361c57",
-    "git_blob_sha": "82b902ab2cfa5222c57560485fa5629f97665419",
-    "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  },
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 48158,
-    "sha256": "95ce978e602b1184d00581d28479909db606c2bde326b3b0dbbfbdb71e154f31",
-    "git_blob_sha": "b14cfb26f40917b55d769ad18f13aa4a9b1a5bc9",
-    "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 02：原完整索引/分卷身份。** [固定旧版完整记录，第 358–377 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L358-L377)。
+
 
 ## 2026-11-28 02:09:43 UTC — 23初始统计实际返回，几何与策略结果尚未返回
 
@@ -384,18 +91,8 @@ The complete official run object and complete returned job wrapper are preserved
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 55453,
-    "sha256": "7b8c4717118efe103f09480cd0ee28450df64d39bf2fadb5bce075bf827b11be",
-    "git_blob_sha": "3026f34e8e2101d814f511a863f5838d08452f19",
-    "fixed_commit": "dbbcd99a1c6c15f25224f57424985d8ac2ccf01c",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 03：原完整索引/分卷身份。** [固定旧版完整记录，第 387–398 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L387-L398)。
+
 
 ## 2026-11-28 02:18:05 UTC — 23初始完整六族几何实际返回
 
@@ -405,18 +102,8 @@ The complete official run object and complete returned job wrapper are preserved
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 53262,
-    "sha256": "d0306e8d4541d5956c61528ad75919a8aac3e4f7fda13baf0e3d584f0179c3b0",
-    "git_blob_sha": "2340525a05bf65fb7110239829b57673deb8b088",
-    "fixed_commit": "1836fd074846eec7effbe84a1e4e5851d4e250da",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 04：原完整索引/分卷身份。** [固定旧版完整记录，第 408–419 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L408-L419)。
+
 
 ## 2026-11-28 02:37:27 UTC — 23首个观测试点统计实际返回，策略效果尚未知
 
@@ -426,81 +113,20 @@ The complete official run object and complete returned job wrapper are preserved
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 52526,
-    "sha256": "2fa5a8e35456e29ade8b3dd84e6f61735e5c993c4f3a8cb1f0e5a59cd5568b69",
-    "git_blob_sha": "a4d1028fe69011a098f20a66629d465967abb639",
-    "fixed_commit": "17ed6ccae50001659c1bb8cf549075a538778f65",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 05：原完整索引/分卷身份。** [固定旧版完整记录，第 429–440 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L429-L440)。
+
 
 ## 2026-11-28 03:47:06 UTC — 23第一真实恢复接受及下一统计
 
 第23组d86dcda4b4cba05807294d2d5c22e63ce0c6bc5f7465cda196e5bc1201cb5d51已真实current/accepted1，Phi3825.0583176123996/Gram.6460503022350718；reachg.9679630392005256、distance+.005863064535577611仍正，其余六族原值见完整对象。下一87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f于03:40:56.805593返Phi3825.0581646753217/Gram.6460503043451958，至03:43:12几何未返。policy实际运行产生第一接受，不由此声称整体速度或策略获益；原μ/预算/模式保。report=false，source b31c3422、driver9db39、model0ab保持，新trial缺失三字段原样保。
 
-```json
-{
-  "math_at": "2026-11-28T03:40:56.805593+00:00",
-  "math_event": "trial-statistics-returned",
-  "math_driver": "9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699",
-  "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
-  "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_Phi": 3825.0583894874153,
-  "initial_Gram": 0.6460503011117507,
-  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_violation": 0.968424994209506,
-  "initial_geometry_complete": true,
-  "current_point": "d86dcda4b4cba05807294d2d5c22e63ce0c6bc5f7465cda196e5bc1201cb5d51",
-  "current_Phi": 3825.0583176123996,
-  "current_Gram": 0.6460503022350718,
-  "current_geometry_point": "d86dcda4b4cba05807294d2d5c22e63ce0c6bc5f7465cda196e5bc1201cb5d51",
-  "current_violation": 0.9679630392005256,
-  "current_geometry_complete": true,
-  "current_state": "accepted restoration checkpoint returned; final report not inferred",
-  "trial_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-  "trial_Phi": 3825.0581646753217,
-  "trial_Gram": 0.6460503043451958,
-  "trial_accepted": null,
-  "accepted_directions": 1,
-  "complete_report": false,
-  "stop_reason": null,
-  "observer_failures": 0,
-  "current_g_reach": 0.9679630392005256,
-  "current_g_body_diameter": -0.03813552759796779,
-  "current_g_distance_plus": 0.005863064535577611,
-  "current_g_distance_minus": -3.0936337267043754,
-  "current_g_cap_diameter": -0.06715131493167947,
-  "current_g_height_floor": -1.0411715966765438,
-  "previous_completed_trial_point": "d86dcda4b4cba05807294d2d5c22e63ce0c6bc5f7465cda196e5bc1201cb5d51",
-  "previous_completed_trial_g": 0.9679630392005256,
-  "previous_completed_trial_accepted": true,
-  "previous_completed_trial_maximum_families": "reach",
-  "previous_completed_trial_Phi": 3825.0583176123996,
-  "previous_completed_trial_Gram": 0.6460503022350718
-}
-```
+> **原 JSON 06：首接受点及下一试点数学标量。** [固定旧版完整记录，第 446–488 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L446-L488)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 51481,
-    "sha256": "aa1c622c7d7efea9458d25d44c7b24643960b6a9fbecf6952ac3f358f3c015d8",
-    "git_blob_sha": "857cb8dd7ff152dd56c5bc9d085ff7a8341d7b4e",
-    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 07：原完整索引/分卷身份。** [固定旧版完整记录，第 492–503 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L492-L503)。
+
 
 ## 2026-11-28 05:05:47 UTC — 23第二个恢复步实际接受
 
@@ -508,124 +134,13 @@ The complete official run object and complete returned job wrapper are preserved
 
 完整原观察含实际source/PID/driver/model/target/initial/current/trial、全部六物理族、原normal进度和每一观察错误如下。工作几何complete仅指该有限步骤；没有whole准确界或README完成。完整全量report与child自然返回仍未观察。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-restoration-continuation-bhalf-first-20261128",
-  "scientific_source_commit": "b31c3422a7f8f86954977988c8386208301a2942",
-  "scientific_source_sha256": "f2a9e38f62a3844b5d9ce8df9399f6702f37e6fc96c792d0dcb0bb61a80e1371",
-  "pid": 3652,
-  "observations": {
-    "fixed-fejer-restoration-continuation-bhalf-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-28 04:58:52 UTC",
-      "point": "6a101d6ee5d83220f9cf41720fec04d108d451e5996d346bbb3b14d488f9d836",
-      "cached_angle_roots": 312,
-      "closure_original_returns": 106105,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T04:52:44.521603+00:00",
-      "math_event": "trial-start",
-      "math_driver": "9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699",
-      "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
-      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 3825.0583894874153,
-      "initial_Gram": 0.6460503011117507,
-      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_violation": 0.968424994209506,
-      "initial_geometry_complete": true,
-      "current_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-      "current_Phi": 3825.0581646753217,
-      "current_Gram": 0.6460503043451958,
-      "current_geometry_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-      "current_violation": 0.9678293850088526,
-      "current_geometry_complete": true,
-      "current_state": "accepted restoration checkpoint returned; final report not inferred",
-      "trial_point": "6a101d6ee5d83220f9cf41720fec04d108d451e5996d346bbb3b14d488f9d836",
-      "trial_accepted": null,
-      "accepted_directions": 2,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0,
-      "current_g_reach": 0.9678293850088526,
-      "current_g_body_diameter": -0.03813552770937323,
-      "current_g_distance_plus": 0.005863070400698112,
-      "current_g_distance_minus": -3.0936337267044083,
-      "current_g_cap_diameter": -0.06715131504375238,
-      "current_g_height_floor": -1.0411715965356552,
-      "previous_completed_trial_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-      "previous_completed_trial_g": 0.9678293850088526,
-      "previous_completed_trial_accepted": true,
-      "previous_completed_trial_maximum_families": "reach",
-      "previous_completed_trial_Phi": 3825.0581646753217,
-      "previous_completed_trial_Gram": 0.6460503043451958
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-restoration-continuation-bhalf-first/actual-normal-evaluation-progress.json",
-      "bytes": 3379,
-      "sha256": "07bc1b9b0bc4acb1a75e7ac8ebda6799c83f5fb15731b0a5bcc01a9135ae95f6",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "bytes": 10186,
-      "sha256": "5bf765daf28223aa20e2b999d5013cfc6d62b6951fbfe0671ad44541fb34c15e",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [
-    {
-      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_statistics.Phi",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_statistics.max_relative_gram",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    }
-  ],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "db04f1480d4ffc8aeacba9c7ee11bec650043188534799f6557426b915dade09",
-  "observed_utc": "2026-11-28T04:58:53Z"
-}
-```
+> **原 JSON 08：完整只读进度观察。** [固定旧版完整记录，第 511–613 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L511-L613)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 51859,
-    "sha256": "57e05a66c1ec158f3701b630ffd599e3d66246f2b8fdb38451bdcaa89cb30a3c",
-    "git_blob_sha": "ba10b5c76a2f4830f13763d482c9f6239e8c2ada",
-    "fixed_commit": "7e0683e820718743a3a62cc475bc465eb60f36e7",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 09：原完整索引/分卷身份。** [固定旧版完整记录，第 617–628 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L617-L628)。
+
 
 ## 2026-11-28 05:46:52 UTC — 23后续试步的实际统计返回
 
@@ -633,18 +148,8 @@ The complete official run object and complete returned job wrapper are preserved
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 51483,
-    "sha256": "17ae6c8a9091da7dbd09f93bf966c412fdb79aede51bd57da883c7d7cfbf432c",
-    "git_blob_sha": "57a7153dd1b84a08c94b2d65fafb86b7ed7d8976",
-    "fixed_commit": "6678c474e2abe0e650bb9eda35d04e23acc55964",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 10：原完整索引/分卷身份。** [固定旧版完整记录，第 636–647 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L636-L647)。
+
 
 ## 2026-11-28 06:00:45 UTC — 23后续完整试步拒绝及新试点开始
 
@@ -652,155 +157,34 @@ The complete official run object and complete returned job wrapper are preserved
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 51859,
-    "sha256": "eaa37cc30735f742be7aae929aa323110da34e6b943a753d6b356d4703955bd2",
-    "git_blob_sha": "80b1f14bf08e2f759072e7b10c9c634a1d91b0cc",
-    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 11：原完整索引/分卷身份。** [固定旧版完整记录，第 655–666 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L655-L666)。
+
 
 ## 2026-11-28 06:16:18 UTC — 23新试点491dae自己的完整统计返回
 
 此处trial-statistics-returned事件才把统计绑定491dae，不沿用上一次6a101试点的统计。当前已接受点仍为87c076、接受2次；491dae的完整几何和接受决定尚未返回。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-restoration-continuation-bhalf-first-20261128",
-  "scientific_source_commit": "b31c3422a7f8f86954977988c8386208301a2942",
-  "scientific_source_sha256": "f2a9e38f62a3844b5d9ce8df9399f6702f37e6fc96c792d0dcb0bb61a80e1371",
-  "pid": 3652,
-  "observed_utc": "2026-11-28T06:14:35Z",
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "mathematical_observation": {
-    "math_at": "2026-11-28T05:57:51.231388+00:00",
-    "math_event": "trial-statistics-returned",
-    "math_driver": "9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699",
-    "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
-    "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-    "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-    "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-    "initial_Phi": 3825.0583894874153,
-    "initial_Gram": 0.6460503011117507,
-    "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-    "initial_violation": 0.968424994209506,
-    "initial_geometry_complete": true,
-    "current_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-    "current_Phi": 3825.0581646753217,
-    "current_Gram": 0.6460503043451958,
-    "current_geometry_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-    "current_violation": 0.9678293850088526,
-    "current_geometry_complete": true,
-    "current_state": "accepted restoration checkpoint returned; final report not inferred",
-    "trial_point": "491dae08135b3f508dd369016137accb78a76cfc08a3d1e3295449af7446aa55",
-    "trial_Phi": 3824.8418400694645,
-    "trial_Gram": 0.6460565739889155,
-    "trial_accepted": null,
-    "accepted_directions": 2,
-    "complete_report": false,
-    "stop_reason": null,
-    "observer_failures": 0,
-    "current_g_reach": 0.9678293850088526,
-    "current_g_body_diameter": -0.03813552770937323,
-    "current_g_distance_plus": 0.005863070400698112,
-    "current_g_distance_minus": -3.0936337267044083,
-    "current_g_cap_diameter": -0.06715131504375238,
-    "current_g_height_floor": -1.0411715965356552,
-    "previous_completed_trial_point": "6a101d6ee5d83220f9cf41720fec04d108d451e5996d346bbb3b14d488f9d836",
-    "previous_completed_trial_g": 0.9815551189995484,
-    "previous_completed_trial_accepted": false,
-    "previous_completed_trial_maximum_families": "reach",
-    "previous_completed_trial_Phi": 3824.6264079942416,
-    "previous_completed_trial_Gram": 0.6461163646720337
-  }
-}
-```
+> **原 JSON 12：491dae 自身数学观察。** [固定旧版完整记录，第 672–723 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L672-L723)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 51483,
-    "sha256": "ba8ebc415726f3f204159307cd65f78d9ecc3d52d7a225b891d31a922a02ae33",
-    "git_blob_sha": "54545f63ba63a477ec43852dea085afdae45d810",
-    "fixed_commit": "fec2ee37e0befe693af53f92b3b12bf91b83305f",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 13：原完整索引/分卷身份。** [固定旧版完整记录，第 727–738 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L727-L738)。
+
 
 ## 2026-11-28 07:18:23 UTC — 23的491dae试点实际拒绝；344a0b自身统计返回
 
 同source b31c3422a7f8f86954977988c8386208301a2942、PID3652、模型0abfb，491dae08135b3f508dd369016137accb78a76cfc08a3d1e3295449af7446aa55实际完整trial返回，最大reach g=.9734004743711437，accepted=false。当前仍87c076/accepted2/g.9678293850088526。下一344a0b8d8a14eacee9b65961d5bc8f006e07e43349b768857f1812fdbbd4ea2c在06:53:38.351892Z返回自身Phi3824.9498851292506/Gram.646051622709035；其几何和接受未返，alpha未投影不补。原6a101拒绝等全部历史保留。
 
-```json
-{
-  "math_at": "2026-11-28T06:53:38.351892+00:00",
-  "math_event": "trial-statistics-returned",
-  "math_driver": "9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699",
-  "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
-  "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_Phi": 3825.0583894874153,
-  "initial_Gram": 0.6460503011117507,
-  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_violation": 0.968424994209506,
-  "initial_geometry_complete": true,
-  "current_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-  "current_Phi": 3825.0581646753217,
-  "current_Gram": 0.6460503043451958,
-  "current_geometry_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-  "current_violation": 0.9678293850088526,
-  "current_geometry_complete": true,
-  "current_state": "accepted restoration checkpoint returned; final report not inferred",
-  "trial_point": "344a0b8d8a14eacee9b65961d5bc8f006e07e43349b768857f1812fdbbd4ea2c",
-  "trial_Phi": 3824.9498851292506,
-  "trial_Gram": 0.646051622709035,
-  "trial_accepted": null,
-  "accepted_directions": 2,
-  "complete_report": false,
-  "stop_reason": null,
-  "observer_failures": 0,
-  "current_g_reach": 0.9678293850088526,
-  "current_g_body_diameter": -0.03813552770937323,
-  "current_g_distance_plus": 0.005863070400698112,
-  "current_g_distance_minus": -3.0936337267044083,
-  "current_g_cap_diameter": -0.06715131504375238,
-  "current_g_height_floor": -1.0411715965356552,
-  "previous_completed_trial_point": "491dae08135b3f508dd369016137accb78a76cfc08a3d1e3295449af7446aa55",
-  "previous_completed_trial_g": 0.9734004743711437,
-  "previous_completed_trial_accepted": false,
-  "previous_completed_trial_maximum_families": "reach",
-  "previous_completed_trial_Phi": 3824.8418400694645,
-  "previous_completed_trial_Gram": 0.6460565739889155
-}
-```
+> **原 JSON 14：491dae 拒绝与344a0b自身统计。** [固定旧版完整记录，第 744–786 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L744-L786)。
+
 
 下列固定整索引保全部原字段、观察错误、参数和来源；只报告实际返回，不改变活子进程或预算。
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 51482,
-    "sha256": "e208070a9373a5a45064b382fc1cb90f743539bb715bbe75e188ca51286289a2",
-    "git_blob_sha": "368d81f12dc3a503bc7e02ec98f83f043a2f8634",
-    "fixed_commit": "16cbef8790b20cb9d8b11ee2149c3978c60c97d0",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 15：原完整索引/分卷身份。** [固定旧版完整记录，第 792–803 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L792-L803)。
+
 
 ## 2026-11-28 07:36:40 UTC — 23官方取消及最后完整观察
 
@@ -810,203 +194,13 @@ The complete official run object and complete returned job wrapper are preserved
 
 ### 官方完整jobs
 
-```json
-{
-  "total_count": 1,
-  "jobs": [
-    {
-      "id": 140822424469,
-      "run_id": 46094430214,
-      "workflow_name": "Visible larger amplitude complete restoration damping continuation 20261128 23",
-      "head_branch": "main",
-      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46094430214",
-      "run_attempt": 1,
-      "node_id": "CR_kwDOVt5L2s8AAAAgyaurlQ",
-      "head_sha": "3d1f7b396e735e07f1dceca825aa69f963c105dc",
-      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140822424469",
-      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46094430214/job/140822424469",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "created_at": "2026-11-28T01:42:06Z",
-      "started_at": "2026-11-28T01:42:08Z",
-      "completed_at": "2026-11-28T07:32:27Z",
-      "name": "Construct the same fixed target and solve the complete restoration continuation",
-      "steps": [
-        {
-          "name": "Set up job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 1,
-          "started_at": "2026-11-28T01:42:09Z",
-          "completed_at": "2026-11-28T01:42:09Z"
-        },
-        {
-          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 2,
-          "started_at": "2026-11-28T01:42:09Z",
-          "completed_at": "2026-11-28T01:42:17Z"
-        },
-        {
-          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 3,
-          "started_at": "2026-11-28T01:42:17Z",
-          "completed_at": "2026-11-28T01:42:23Z"
-        },
-        {
-          "name": "Install the recorded numerical and automatic differentiation dependencies",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 4,
-          "started_at": "2026-11-28T01:42:23Z",
-          "completed_at": "2026-11-28T01:42:53Z"
-        },
-        {
-          "name": "Execute public research and publish independent compact records",
-          "status": "completed",
-          "conclusion": "cancelled",
-          "number": 5,
-          "started_at": "2026-11-28T01:42:53Z",
-          "completed_at": "2026-11-28T07:32:21Z"
-        },
-        {
-          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "skipped",
-          "number": 9,
-          "started_at": "2026-11-28T07:32:21Z",
-          "completed_at": "2026-11-28T07:32:21Z"
-        },
-        {
-          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 10,
-          "started_at": "2026-11-28T07:32:21Z",
-          "completed_at": "2026-11-28T07:32:22Z"
-        },
-        {
-          "name": "Complete job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 11,
-          "started_at": "2026-11-28T07:32:22Z",
-          "completed_at": "2026-11-28T07:32:22Z"
-        }
-      ],
-      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140822424469",
-      "labels": [
-        "ubuntu-latest"
-      ],
-      "runner_id": 1000012463,
-      "runner_name": "GitHub Actions 1000012463",
-      "runner_group_id": 0,
-      "runner_group_name": "GitHub Actions"
-    }
-  ]
-}
-```
+> **原 JSON 16：官方取消 jobs 全对象。** [固定旧版完整记录，第 813–911 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L813-L911)。
+
 
 ### 最后完整只读观察
 
-```json
-{
-  "step_id": "complete-fixed-fejer-restoration-continuation-bhalf-first-20261128",
-  "scientific_source_commit": "b31c3422a7f8f86954977988c8386208301a2942",
-  "scientific_source_sha256": "f2a9e38f62a3844b5d9ce8df9399f6702f37e6fc96c792d0dcb0bb61a80e1371",
-  "pid": 3652,
-  "observations": {
-    "fixed-fejer-restoration-continuation-bhalf-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-28 07:30:03 UTC",
-      "point": "344a0b8d8a14eacee9b65961d5bc8f006e07e43349b768857f1812fdbbd4ea2c",
-      "cached_angle_roots": 1297,
-      "closure_original_returns": 200215,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T06:53:38.351892+00:00",
-      "math_event": "trial-statistics-returned",
-      "math_driver": "9db39cd1b4c2812f5fc1b8fc2619efc4cd30271ba6b43f06bfde65004f131699",
-      "math_model": "0abfbfe4cc5878ca6bfbbbf37c6dbb82610d7c49ce3ece40a8a609406db53add",
-      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 3825.0583894874153,
-      "initial_Gram": 0.6460503011117507,
-      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_violation": 0.968424994209506,
-      "initial_geometry_complete": true,
-      "current_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-      "current_Phi": 3825.0581646753217,
-      "current_Gram": 0.6460503043451958,
-      "current_geometry_point": "87c07682c4ee3fa23e87a0c236e7321d62c62986646db3d572b320557e4ada7f",
-      "current_violation": 0.9678293850088526,
-      "current_geometry_complete": true,
-      "current_state": "accepted restoration checkpoint returned; final report not inferred",
-      "trial_point": "344a0b8d8a14eacee9b65961d5bc8f006e07e43349b768857f1812fdbbd4ea2c",
-      "trial_Phi": 3824.9498851292506,
-      "trial_Gram": 0.646051622709035,
-      "trial_accepted": null,
-      "accepted_directions": 2,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0,
-      "current_g_reach": 0.9678293850088526,
-      "current_g_body_diameter": -0.03813552770937323,
-      "current_g_distance_plus": 0.005863070400698112,
-      "current_g_distance_minus": -3.0936337267044083,
-      "current_g_cap_diameter": -0.06715131504375238,
-      "current_g_height_floor": -1.0411715965356552,
-      "previous_completed_trial_point": "491dae08135b3f508dd369016137accb78a76cfc08a3d1e3295449af7446aa55",
-      "previous_completed_trial_g": 0.9734004743711437,
-      "previous_completed_trial_accepted": false,
-      "previous_completed_trial_maximum_families": "reach",
-      "previous_completed_trial_Phi": 3824.8418400694645,
-      "previous_completed_trial_Gram": 0.6460565739889155
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-restoration-continuation-bhalf-first/actual-normal-evaluation-progress.json",
-      "bytes": 3400,
-      "sha256": "f21c75ce6049ce74a0c447238088a63257c547418e0ddd841cb3055321352f0a",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "bytes": 11091,
-      "sha256": "73b26f96a2564b3ce5d2ec09cad37cfb5e41707f0e3c1e29e1226b2a4d3062fa",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [
-    {
-      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-restoration-continuation-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    }
-  ],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "ce5c3f8517a1b7eeaed3ed94e2012c8cae736268f23b352aa3fcad0f097c5118",
-  "observed_utc": "2026-11-28T07:30:16Z"
-}
-```
+> **原 JSON 17：最后完整只读观察。** [固定旧版完整记录，第 915–1009 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L915-L1009)。
+
 
 ### 原已读规则槽
 
@@ -1019,15 +213,5 @@ Actions23：[run 46094430214/1](https://github.com/Rogerhu12/math-research-publi
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46094430214-1.md",
-    "bytes": 51483,
-    "sha256": "397fff1954aef96559446f2be6f17ce34c9a5ac5837ab4dfdb14145f094192d1",
-    "git_blob_sha": "c784647a90be8574b3ca81fe48920cce46100214",
-    "fixed_commit": "603d2d30678b9e9c40145af93f7f30c9af2c1d9b",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 18：原完整索引/分卷身份。** [固定旧版完整记录，第 1022–1033 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run23-complete-restoration-continuation-bhalf-launch-and-continuation.md#L1022-L1033)。
+

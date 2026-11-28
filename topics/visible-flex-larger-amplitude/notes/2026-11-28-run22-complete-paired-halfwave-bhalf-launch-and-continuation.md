@@ -1,5 +1,15 @@
 # 22：完整成对半波、半宽基线的真实启动与续求
 
+## RET84：终态导读与完整历史记录
+
+**已知终态：** run 46090913581/1 的 job 在 2026-11-28 06:51:08Z 为 completed/cancelled，原因未知。两必要输入确已返回 0，科学没有观察到自然返回；最后 current 接受数为 3，下一 480be 的几何、接受和最终 report/final/typed 未知。末节保留官方对象和最后观察各自的完整历史定位。
+
+本版保留原笔记全部非 JSON 叙述、数值表、公式、时间顺序、来源与参数链接、接受/拒绝及错误/未知原文。21 个重复嵌入的 JSON 改为各自固定全文和精确行号引用；它们的所有原字段、命令、标量、缺值和 whole 身份仍在同一完整旧文件中。这里没有把原 JSON 重编码成数值载体，也没有改动科学源、request、ready、实际输入、checkpoint 或报告。
+
+**完整旧文件：** 65324 字节；SHA256 `ca64e480a1b6e20c00e600e678b114bc39e0e1132e9b8a49e52c091023ba1d61`；Git blob `d7a63157e3614ba573ce6b1fe638b7962306d68f`；固定提交 `a7ee59c79535235b4161da7780b77556e9760940`。[完整旧版](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md)。旧 whole-hash 读者应从该提交恢复原件；当前紧凑笔记有独立新身份，不能冒旧字节。逐块对应与恢复说明见[RET84 完整交付表](../computations/terminal-run19-24-narrative-retention-84-complete-delivery.json)。
+
+下文“当前”“未返”“准备”均保各原节的时间作用域；旧 running 不覆盖已知官方终态。原文所称“以下完整对象”现在由紧接其后的固定完整记录链接承接，不是声称该 JSON 仍内嵌于当前正文。首次准备的 null 也不覆盖后面真正返回的事实。
+
 2026-11-28 UTC；Astra-larger-e4e2a2bf-20261126。当前是完整启动包：真正run号、job、来源commit、输入返回和新场均须等公开Actions真实事件后另记。本文件不把准备当执行。
 
 ## 1. 科学选择与全部预算
@@ -51,52 +61,8 @@
 
 下面每条为实际完整对象；都已保护原bytes，不含令牌。真正发布commit与Actions状态随后根据实际事件追加。
 
-```json
-{
-  "controller": {
-    "path": "topics/visible-flex-larger-amplitude/scripts/resume_20261126/public_actions_controller_parallel22_compact_metadata.py",
-    "bytes": 19984,
-    "sha256": "0f6a636e438628a312c9c86091a8f69d503dfdd94218f5a5872f17352a244a84",
-    "git_blob_sha": "f6fe15f414e431ca95ba4297d3e95df4ca252271"
-  },
-  "workflow": {
-    "path": ".github/workflows/visible-larger-20261128-parallel22.yml",
-    "bytes": 2225,
-    "sha256": "5026b84e65bd09f4461d87a14b209721919ed5511ed12fe1fd9efe255f1939a6",
-    "git_blob_sha": "0651e95f8bd7a9474ad11abdca0d4ddeacff0879"
-  },
-  "request": {
-    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-actions-request-22.json",
-    "bytes": 36444,
-    "sha256": "0a657604fccc2757dcc403f35329194fbf5e81b7850ff34afcced8e2ad2e760d",
-    "git_blob_sha": "74bbd19b9c51859c939fd3a7dea93c5fb03c1c3f"
-  },
-  "initial_queue": {
-    "path": "topics/visible-flex-larger-amplitude/computations/resume-20261128-followups-22.json",
-    "bytes": 63721,
-    "sha256": "99207324fd997b2bb4d01dc941ed68f3b476f4c10c88b95f0727506f2cd8a588",
-    "git_blob_sha": "a6b74b70f5544181ccf44ba583ea1935d720e6be"
-  },
-  "complete_parameters": {
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-bhalf-complete-parameter-delivery.json",
-    "bytes": 23548,
-    "sha256": "ed050212100d597aa6e43af283aad16ad46a7819f73b2db32e4c21e2ce76c05d",
-    "git_blob_sha": "6e42ab000ab2f74a4628bf340669c23bace8a410"
-  },
-  "complete_sources": {
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-complete-scientific-source-delivery.json",
-    "bytes": 26658,
-    "sha256": "f5e7ca6bd04ff3cc73d4cd17decfce15e3500bb71ea47bd0f589e13e4e1e5151",
-    "git_blob_sha": "e8e9aaf67a31ae2a380bc88a714944bb00b9cf13"
-  },
-  "current_binding": {
-    "path": "topics/visible-flex-larger-amplitude/computations/fixed-fejer-paired-halfwave-current-complete-runtime-binding.json",
-    "bytes": 67013,
-    "sha256": "6dd246a030ffaf9e58e750c135e26424b12668b182f0e6a59726c2af006c1638",
-    "git_blob_sha": "4f20af6e3663bdf69aca7193bc29624dc706411c"
-  }
-}
-```
+> **原 JSON 01：完整启动对象身份。** [固定旧版完整记录，第 54–99 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L54-L99)。
+
 
 ## 2026-11-28 01:03:47 UTC — 官方22实际启动
 
@@ -104,174 +70,18 @@
 
 原完整源/参数/请求/queue已经同提交或其祖先刊出；继续按两实际input、science真实返回、完整pure与全部准确费用的原条件接续。
 
-```json
-{
-  "source_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs?head_sha=18081452c5181d958bb5432c4045c067bf1d1caa",
-  "scope": "Exact selected official run fields; repository/avatar boilerplate not reproduced",
-  "id": 46090913581,
-  "run_attempt": 1,
-  "name": "Visible larger amplitude complete paired half-wave supported seed 20261128 22",
-  "status": "in_progress",
-  "conclusion": null,
-  "head_sha": "18081452c5181d958bb5432c4045c067bf1d1caa",
-  "event": "push",
-  "created_at": "2026-11-28T01:00:48Z",
-  "run_started_at": "2026-11-28T01:00:48Z",
-  "updated_at": "2026-11-28T01:00:51Z",
-  "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46090913581",
-  "workflow_id": 433299248
-}
-```
+> **原 JSON 02：首次官方 run。** [固定旧版完整记录，第 107–124 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L107-L124)。
 
-```json
-{
-  "jobs": [
-    {
-      "id": 140811337445,
-      "name": "Construct the same fixed target and solve the complete paired half-wave seed",
-      "status": "in_progress",
-      "conclusion": null,
-      "run_id": 46090913581,
-      "logs_url": null,
-      "steps": [
-        {
-          "name": "Set up job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 1
-        },
-        {
-          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 2
-        },
-        {
-          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 3
-        },
-        {
-          "name": "Install the recorded numerical and automatic differentiation dependencies",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 4
-        },
-        {
-          "name": "Execute public research and publish independent compact records",
-          "status": "in_progress",
-          "conclusion": null,
-          "number": 5
-        },
-        {
-          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "pending",
-          "conclusion": null,
-          "number": 9
-        },
-        {
-          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "pending",
-          "conclusion": null,
-          "number": 10
-        }
-      ]
-    }
-  ]
-}
-```
+
+> **原 JSON 03：首次官方 jobs。** [固定旧版完整记录，第 126–183 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L126-L183)。
+
 
 ## 2026-11-28 01:17:44 UTC — 22两个完整输入与初统计实际返回
 
 真实run46090913581/1的两个完整输入步骤均completed/exit0：输入构造耗时5.928990263999992s，source89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60，实际commit0bfb66f595ebff65a2abf59143b93c4921f0231f；完整参考耗时481.429137124s（内部478.64331817s），sourcee7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb，实际commit3ecc2f9b472810c298b2f066637520eb4ff1b8fb。完整M160/J923/P7377/N2048、2218叶和height1.947054437068418；accuracy_reached=false、whole_tail=true，未冒精化或几何证书。完整原command/全部指标/输入与11输出/cleanup/缺项保下列固定Git原卷两个全JSON块，未以摘要替换原记录。
 
-```json
-{
-  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1-part-001.md",
-  "bytes": 16601,
-  "sha": "ece3181bad61eae661a6480ddec59ff8976f83a4",
-  "sha256": "bb8a6ffda09602e32a0689be7dec7a87393440a72b46d19e1454ac9b462c9d7a",
-  "ref": "7e40321a66fe496bbef13724faffb7a7801e106d",
-  "complete_stage_blocks": [
-    {
-      "heading": "followup:prepare-complete-fixed-fejer-r690-inputs-20261127",
-      "step_id": "prepare-complete-fixed-fejer-r690-inputs-20261127",
-      "returncode": 0,
-      "seconds": 5.928990263999992,
-      "source_commit": "0bfb66f595ebff65a2abf59143b93c4921f0231f",
-      "source_sha256": "89cc6c07e7d9e6188c35151199d38f7df301737630cec233c52195cddfb43e60",
-      "outputs": [
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-r690-inputs/report.json",
-          "sha256": "df4b3813457d276c44854dc591c1c81889a0641f766c35557093316ca01212d6",
-          "bytes": 65338
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-r690-inputs/fixed-reference-input.npz",
-          "sha256": "b9e12a03ba2b06c634478288853f0711f3349f8589654d14e11c44cd7577dc98",
-          "bytes": 4334
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-r690-inputs/fixed-affine-nodes.json",
-          "sha256": "1e71a3851ccfc1449a4f20a90dcfb120600594360051bcd810fdf73b1efb73c5",
-          "bytes": 144306
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-r690-inputs/fixed-scalar-input.json",
-          "sha256": "2eb44f9977373b2d4fc36009e884b71d7834f85c1cd996c03b91b7586ea56189",
-          "bytes": 40488
-        }
-      ]
-    },
-    {
-      "heading": "followup:prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run22",
-      "step_id": "prepare-fixed-fejer-complete-R690-reference-2218-first-20261127-run22",
-      "returncode": 0,
-      "seconds": 481.429137124,
-      "source_commit": "3ecc2f9b472810c298b2f066637520eb4ff1b8fb",
-      "source_sha256": "e7175f591a14844331b55c9c09cc6d0ff25f1e2f390706c951f9b6a6008322cb",
-      "outputs": [
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/report.json",
-          "sha256": "5e0cfbb397f74f5257a50320e0d49106a5566776bbcb3f1d3c45ef3ecd90d49b",
-          "bytes": 84965
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/reference.npz",
-          "sha256": "212eb5fde565e76db7255f8c5605764268340b9c1636953ab0a8f8b254bf24cb",
-          "bytes": 894879
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/observations.npz",
-          "sha256": "84060403d6ad8a4fdd17532028bda7b4a15a6671cd6bc5950ae4f0c828cd118e",
-          "bytes": 205842
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/locations.json",
-          "sha256": "082fc635c704a6b59a834204e65a342efb279ec504f2e70dc2987decd0025f51",
-          "bytes": 106771
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/supplied-location-provenance.json",
-          "sha256": "4e4be359a12856b6a5497604477b1182cbf520c24f001355d1f5e4f0187a60c5",
-          "bytes": 223955
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/fixed-target-definition.json",
-          "sha256": "777a69e77b34a8fda152442ca7e326a48c91050edaae69ade0355f5c8b8628df",
-          "bytes": 30919
-        },
-        {
-          "path": "/home/runner/work/_temp/visible-larger-research-46090913581-1/research/fixed-fejer-reference/material-envelope-carrier-binding.json",
-          "sha256": "4e30d6f39143b076ec3ecd85f4988e5eab37917514ef430c6c9cf904f416e1ec",
-          "bytes": 35712
-        }
-      ]
-    }
-  ]
-}
-```
+> **原 JSON 04：两个必要输入的完整实际记录与原分卷。** [固定旧版完整记录，第 189–274 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L189-L274)。
+
 
 同一新半波science实际sourcecommit c6517a030888df2bf0ca51efade67b7693102785，launcher6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c/PID3541；完整driver095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec。新model6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef，旧坐标身份7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47并不表示旧物理场。
 
@@ -279,199 +89,11 @@
 
 以下固定完整小索引身份与原active全对象只保原已返标量；缺值/错误原样，未取科学raw或另算场。
 
-```json
-{
-  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-  "bytes": 52253,
-  "sha256": "688a8a336b67e461a8c60991068808dd2bead190c534dde211e2e3c5f522743e",
-  "git_blob_sha": "420285a0cce4190a2b6a3a508bbb57fb3f3146fe",
-  "fixed_commit": "7e40321a66fe496bbef13724faffb7a7801e106d"
-}
-```
+> **原 JSON 05：完整索引身份。** [固定旧版完整记录，第 282–290 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L282-L290)。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-bhalf-first-20261127",
-  "scientific_source_commit": "c6517a030888df2bf0ca51efade67b7693102785",
-  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
-  "pid": 3541,
-  "observations": {
-    "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-28 01:15:11 UTC",
-      "point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "cached_angle_roots": 513,
-      "closure_original_returns": 4074,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T01:12:40.949868+00:00",
-      "math_event": "initial-statistics-returned",
-      "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 681.6517423825409,
-      "initial_Gram": 0.40616525311769985,
-      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "current_Phi": 681.6517423825409,
-      "current_Gram": 0.40616525311769985,
-      "current_state": "initial statistics returned; no accepted direction",
-      "accepted_directions": 0,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json",
-      "bytes": 3294,
-      "sha256": "b8d5ce0deacdf0e19eba180c0a5f9ce4dc74bbde8d51900cd6882c1a945c153d",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "bytes": 3527,
-      "sha256": "679086742e14c8a5269acba6ff97236fdbfacc8fbd470a40816f5d00c369900f",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "initial_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "initial_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "initial_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_statistics.Phi",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_statistics.max_relative_gram",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial.accepted",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.physical_g_by_family.reach",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.physical_g_by_family.body_diameter",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.physical_g_by_family.distance_plus",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.physical_g_by_family.distance_minus",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.physical_g_by_family.cap_diameter",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "current_geometry.physical_g_by_family.height_floor",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.actual_positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.accepted",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.geometry.maximum_physical_families",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.statistics.Phi",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.statistics.max_relative_gram",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    }
-  ],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "a8137c20cda92b9b56e45d81df040bdd517ac3ed6ae6cb69cca9115762297c94",
-  "observed_utc": "2026-11-28T01:15:12Z"
-}
-```
+
+> **原 JSON 06：完整只读进度观察。** [固定旧版完整记录，第 292–474 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L292-L474)。
+
 
 ## 2026-11-28 01:28:06 UTC — 22初始完整六族几何实际返回
 
@@ -487,151 +109,11 @@ run46090913581/1的原science c6517a030888df2bf0ca51efade67b7693102785/launcher6
 
 以下固定完整小索引身份与原active全对象只保原已返标量；缺值/错误原样，未取科学raw或另算场。
 
-```json
-{
-  "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-  "bytes": 50179,
-  "sha256": "c235e12015495f77221618b798a439eb9bfbed36b4a9faa59d546a6b72fff2da",
-  "git_blob_sha": "42af20c0a8945837b7dcb72610f572240e914489",
-  "fixed_commit": "82a95d5050561b8d8dfdfdad1219b74048748c7c"
-}
-```
+> **原 JSON 07：完整索引身份。** [固定旧版完整记录，第 490–498 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L490-L498)。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-bhalf-first-20261127",
-  "scientific_source_commit": "c6517a030888df2bf0ca51efade67b7693102785",
-  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
-  "pid": 3541,
-  "observations": {
-    "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json": {
-      "phase": "initial-complete-geometry-returned",
-      "at": "2026-11-28 01:22:55 UTC",
-      "point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "cached_angle_roots": 1448,
-      "closure_original_returns": 8762,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T01:24:50.545031+00:00",
-      "math_event": "current-geometry-returned",
-      "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 681.6517423825409,
-      "initial_Gram": 0.40616525311769985,
-      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_violation": 0.5305849371949052,
-      "initial_geometry_complete": true,
-      "current_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "current_Phi": 681.6517423825409,
-      "current_Gram": 0.40616525311769985,
-      "current_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "current_violation": 0.5305849371949052,
-      "current_geometry_complete": true,
-      "current_state": "initial statistics returned; no accepted direction",
-      "accepted_directions": 0,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0,
-      "current_g_reach": 0.5305849371949052,
-      "current_g_body_diameter": -0.03813552733778258,
-      "current_g_distance_plus": 0.11391238912344381,
-      "current_g_distance_minus": -3.0936337267043594,
-      "current_g_cap_diameter": -0.06715131487906445,
-      "current_g_height_floor": -1.0411715967426867
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json",
-      "bytes": 3333,
-      "sha256": "96214f547c18bd527d8942c13a7ab3fbdf116051f5e996e133749f9b5b70fc84",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "bytes": 6173,
-      "sha256": "c70f3ccc744a082a2acb126582ff2fc6b67f9e85f0c656c6f7df26f67b39ef32",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_statistics.Phi",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_statistics.max_relative_gram",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial.accepted",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.actual_positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.accepted",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.geometry.maximum_physical_families",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.statistics.Phi",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "last_completed_trial.statistics.max_relative_gram",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    }
-  ],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "6d3befc2e352e229567046ff0fd50e28bb703b08acbcc88bff405a59eb1a42c5",
-  "observed_utc": "2026-11-28T01:25:18Z"
-}
-```
+
+> **原 JSON 08：完整只读进度观察。** [固定旧版完整记录，第 500–634 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L500-L634)。
+
 
 ## 2026-11-28 02:00:28 UTC — 22首个观测试点统计返回，几何与接受仍未知
 
@@ -639,18 +121,8 @@ run46090913581/1的原science c6517a030888df2bf0ca51efade67b7693102785/launcher6
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-    "bytes": 49478,
-    "sha256": "e9932381ed55a117ae442647956d699079f62ebd1ba8f393808d86f75d5b83f0",
-    "git_blob_sha": "f14788b54aef868f6a9d7186bc9ebf1163520d89",
-    "fixed_commit": "69b10ba8993f785379ab63a4395353386a1cf172",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 09：原完整索引/分卷身份。** [固定旧版完整记录，第 642–653 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L642-L653)。
+
 
 ## 2026-11-28 03:09:55 UTC — 22首个试点真实接受并返回完整六族
 
@@ -662,81 +134,20 @@ Phi=681.6511710299278、max_relative_Gram=0.4061652579029476。六族全返：re
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-    "bytes": 47992,
-    "sha256": "0eb88d7a9220b495ab320062bbceaeae4b5113d038d1046c4d53fcc7c2b2a931",
-    "git_blob_sha": "6da3a54335bb5620fc528415043d9afc305da3d4",
-    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 10：原完整索引/分卷身份。** [固定旧版完整记录，第 665–676 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L665-L676)。
+
 
 ## 2026-11-28 03:46:50 UTC — 22下一完整试步统计实际返回
 
 第22组下一trial e906e24a5de604e0ce480aff4aa2aa0617a098621e7358cea5dcc100f26312d8在03:16:43.074825+00:00返Phi681.6473711639321/Gram.40616528955370923；03:41:38索引仍无该trial几何/接受。current97fbb/accepted1与其原六族不变。原三个NoneType缺字段保，不填0，不以统计改称接受。report=false，source c6517a、driver095bf、model6f3ae32保。
 
-```json
-{
-  "math_at": "2026-11-28T03:16:43.074825+00:00",
-  "math_event": "trial-statistics-returned",
-  "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-  "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-  "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_Phi": 681.6517423825409,
-  "initial_Gram": 0.40616525311769985,
-  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_violation": 0.5305849371949052,
-  "initial_geometry_complete": true,
-  "current_point": "97fbb982b31c713cc71b8cb0d44f255127380185bcfb68be53e29dd19d9b579c",
-  "current_Phi": 681.6511710299278,
-  "current_Gram": 0.4061652579029476,
-  "current_geometry_point": "97fbb982b31c713cc71b8cb0d44f255127380185bcfb68be53e29dd19d9b579c",
-  "current_violation": 0.5294703284893127,
-  "current_geometry_complete": true,
-  "current_state": "accepted restoration checkpoint returned; final report not inferred",
-  "trial_point": "e906e24a5de604e0ce480aff4aa2aa0617a098621e7358cea5dcc100f26312d8",
-  "trial_Phi": 681.6473711639321,
-  "trial_Gram": 0.40616528955370923,
-  "trial_accepted": null,
-  "accepted_directions": 1,
-  "complete_report": false,
-  "stop_reason": null,
-  "observer_failures": 0,
-  "current_g_reach": 0.5294703284893127,
-  "current_g_body_diameter": -0.038135649309102404,
-  "current_g_distance_plus": 0.11391376026366629,
-  "current_g_distance_minus": -3.0936337267606984,
-  "current_g_cap_diameter": -0.06715135970511843,
-  "current_g_height_floor": -1.0411715403912758,
-  "previous_completed_trial_point": "97fbb982b31c713cc71b8cb0d44f255127380185bcfb68be53e29dd19d9b579c",
-  "previous_completed_trial_g": 0.5294703284893127,
-  "previous_completed_trial_accepted": true,
-  "previous_completed_trial_maximum_families": "reach",
-  "previous_completed_trial_Phi": 681.6511710299278,
-  "previous_completed_trial_Gram": 0.4061652579029476
-}
-```
+> **原 JSON 11：试点真实数学标量。** [固定旧版完整记录，第 682–724 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L682-L724)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-    "bytes": 48486,
-    "sha256": "00825d14e506058982d76cee20222ce6f6c4fedd03ec1afe420c25a83c6dae7d",
-    "git_blob_sha": "2549fd06ccc89df2aa4de306477bd5f4ba5dc429",
-    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 12：原完整索引/分卷身份。** [固定旧版完整记录，第 728–739 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L728-L739)。
+
 
 ## 2026-11-28 05:05:41 UTC — 22第二个恢复步实际接受
 
@@ -744,225 +155,37 @@ Phi=681.6511710299278、max_relative_Gram=0.4061652579029476。六族全返：re
 
 完整原观察含实际source/PID/driver/model/target/initial/current/trial、全部六物理族、原normal进度和每一观察错误如下。工作几何complete仅指该有限步骤；没有whole准确界或README完成。完整全量report与child自然返回仍未观察。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-bhalf-first-20261127",
-  "scientific_source_commit": "c6517a030888df2bf0ca51efade67b7693102785",
-  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
-  "pid": 3541,
-  "observations": {
-    "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-28 04:57:20 UTC",
-      "point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-      "cached_angle_roots": 513,
-      "closure_original_returns": 119784,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T04:43:47.964609+00:00",
-      "math_event": "trial-statistics-returned",
-      "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 681.6517423825409,
-      "initial_Gram": 0.40616525311769985,
-      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_violation": 0.5305849371949052,
-      "initial_geometry_complete": true,
-      "current_point": "e906e24a5de604e0ce480aff4aa2aa0617a098621e7358cea5dcc100f26312d8",
-      "current_Phi": 681.6473711639321,
-      "current_Gram": 0.40616528955370923,
-      "current_geometry_point": "e906e24a5de604e0ce480aff4aa2aa0617a098621e7358cea5dcc100f26312d8",
-      "current_violation": 0.5237169415657044,
-      "current_geometry_complete": true,
-      "current_state": "accepted restoration checkpoint returned; final report not inferred",
-      "trial_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-      "trial_Phi": 681.6470516175362,
-      "trial_Gram": 0.40616529581758637,
-      "trial_accepted": null,
-      "accepted_directions": 2,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0,
-      "current_g_reach": 0.5237169415657044,
-      "current_g_body_diameter": -0.038136317601933256,
-      "current_g_distance_plus": 0.11392286053783374,
-      "current_g_distance_minus": -3.0936337271355727,
-      "current_g_cap_diameter": -0.06715165785312127,
-      "current_g_height_floor": -1.0411711655855374,
-      "previous_completed_trial_point": "e906e24a5de604e0ce480aff4aa2aa0617a098621e7358cea5dcc100f26312d8",
-      "previous_completed_trial_g": 0.5237169415657044,
-      "previous_completed_trial_accepted": true,
-      "previous_completed_trial_maximum_families": "reach",
-      "previous_completed_trial_Phi": 681.6473711639321,
-      "previous_completed_trial_Gram": 0.40616528955370923
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json",
-      "bytes": 3382,
-      "sha256": "1d1f6bf81f1ff637f2b1937dc8a1f0c70981d748b78fbc7bd0b28a04f213d8b4",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "bytes": 11082,
-      "sha256": "7eef5e8de6ae97480da0198f2f2adbd9ccb4fa2a4ef6b4c1d3d4b90412ac3652",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    }
-  ],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "b9077ce38a494d8be3e5d02ca5cb3ff91b734d2d706271e1f63cdaba4c57b8d8",
-  "observed_utc": "2026-11-28T04:57:30Z"
-}
-```
+> **原 JSON 13：完整只读进度观察。** [固定旧版完整记录，第 747–841 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L747-L841)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-    "bytes": 48489,
-    "sha256": "c3924b902120a2762f89e127791063bfa2e936205ab23d119aaa1205686ccff8",
-    "git_blob_sha": "96cc717023bbef386d49820926d26974580ef1d0",
-    "fixed_commit": "7e0683e820718743a3a62cc475bc465eb60f36e7",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 14：原完整索引/分卷身份。** [固定旧版完整记录，第 845–856 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L845-L856)。
+
 
 ## 2026-11-28 06:00:39 UTC — 22第三个完整恢复步实际接受
 
 05:38:09.646582Z，b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d真实accepted3，Phi681.6470516175362/Gram.40616529581758637，reachg.5235597907246015、distance_plus .11392305204890485仍正。全六族如下；同25某组标量相等不把不同point/source当同一证据。至05:42:57完整report/自然退出未返。
 
-```json
-{
-  "math_at": "2026-11-28T05:38:09.646582+00:00",
-  "math_event": "current-geometry-returned",
-  "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-  "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-  "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_Phi": 681.6517423825409,
-  "initial_Gram": 0.40616525311769985,
-  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_violation": 0.5305849371949052,
-  "initial_geometry_complete": true,
-  "current_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-  "current_Phi": 681.6470516175362,
-  "current_Gram": 0.40616529581758637,
-  "current_geometry_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-  "current_violation": 0.5235597907246015,
-  "current_geometry_complete": true,
-  "current_state": "accepted restoration checkpoint returned; final report not inferred",
-  "trial_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-  "trial_Phi": 681.6470516175362,
-  "trial_Gram": 0.40616529581758637,
-  "trial_geometry_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-  "trial_violation": 0.5235597907246015,
-  "trial_geometry_complete": true,
-  "trial_accepted": true,
-  "accepted_directions": 3,
-  "complete_report": false,
-  "stop_reason": null,
-  "observer_failures": 0,
-  "current_g_reach": 0.5235597907246015,
-  "current_g_body_diameter": -0.038136386569002756,
-  "current_g_distance_plus": 0.11392305204890485,
-  "current_g_distance_minus": -3.093633727173847,
-  "current_g_cap_diameter": -0.06715168866958865,
-  "current_g_height_floor": -1.0411711268457509,
-  "previous_completed_trial_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-  "previous_completed_trial_g": 0.5235597907246015,
-  "previous_completed_trial_accepted": true,
-  "previous_completed_trial_maximum_families": "reach",
-  "previous_completed_trial_Phi": 681.6470516175362,
-  "previous_completed_trial_Gram": 0.40616529581758637
-}
-```
+> **原 JSON 15：第三接受点真实数学标量及六族。** [固定旧版完整记录，第 862–907 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L862-L907)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-    "bytes": 47995,
-    "sha256": "9e6e7b1376d0459ccd4592b7c8cf7d4e9d5feb1c3120620289d6cc99329690ea",
-    "git_blob_sha": "dd95d4fe4c3a2f0b0e156a2f948ca7972a7d6d42",
-    "fixed_commit": "fa4b2c2988b5d1e8f00770a045d4b172dc361961",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 16：原完整索引/分卷身份。** [固定旧版完整记录，第 911–922 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L911-L922)。
+
 
 ## 2026-11-28 06:30:01 UTC — 22下一试点480be的自身统计返回
 
 试点480be58574d985b3f714bc2567d92adcf3e7b46366248d1722c9665afd814938的自身统计为Phi681.6450227773521、Gram.40616533555531326。当前仍b34824/accepted3；该trial的几何与接受未返。即使这两个标量与25原终点相同，也不能把25的点、g、接受或报告转移到此点；原alpha/方向号未投影，仍未知。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-bhalf-first-20261127",
-  "scientific_source_commit": "c6517a030888df2bf0ca51efade67b7693102785",
-  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
-  "pid": 3541,
-  "observed_utc": "2026-11-28T06:28:30Z",
-  "new_actual_observation": {
-    "math_at": "2026-11-28T06:14:02.197446+00:00",
-    "math_event": "trial-statistics-returned",
-    "trial_point": "480be58574d985b3f714bc2567d92adcf3e7b46366248d1722c9665afd814938",
-    "trial_Phi": 681.6450227773521,
-    "trial_Gram": 0.40616533555531326,
-    "trial_alpha": null,
-    "trial_phase": null,
-    "trial_accepted": null,
-    "accepted_directions": 3,
-    "current_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-    "complete_report": false
-  },
-  "all_other_fields_and_errors": "Preserved in the entire original immutable evidence file below; no stale trial object is rebound."
-}
-```
+> **原 JSON 17：下一试点自身的实际观察。** [固定旧版完整记录，第 928–950 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L928-L950)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-    "bytes": 48488,
-    "sha256": "65c62985fae0b6f705c96016ed5f4d25ebf0468855453ee0f740cf3c354b8867",
-    "git_blob_sha": "2acb85e9d5d73bcfe7e1a0759d2653e61bc418e6",
-    "fixed_commit": "405ab36831ff0c73112428b55debed613c5352e8",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 18：原完整索引/分卷身份。** [固定旧版完整记录，第 954–965 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L954-L965)。
+
 
 ## 2026-11-28 07:05:57 UTC — 22官方取消及完整末次观察；真实运行边界保留
 
@@ -972,203 +195,13 @@ Phi=681.6511710299278、max_relative_Gram=0.4061652579029476。六族全返：re
 
 ### 官方完整jobs对象
 
-```json
-{
-  "total_count": 1,
-  "jobs": [
-    {
-      "id": 140811337445,
-      "run_id": 46090913581,
-      "workflow_name": "Visible larger amplitude complete paired half-wave supported seed 20261128 22",
-      "head_branch": "main",
-      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46090913581",
-      "run_attempt": 1,
-      "node_id": "CR_kwDOVt5L2s8AAAAgyQJ-5Q",
-      "head_sha": "18081452c5181d958bb5432c4045c067bf1d1caa",
-      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140811337445",
-      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46090913581/job/140811337445",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "created_at": "2026-11-28T01:00:48Z",
-      "started_at": "2026-11-28T01:00:50Z",
-      "completed_at": "2026-11-28T06:51:08Z",
-      "name": "Construct the same fixed target and solve the complete paired half-wave seed",
-      "steps": [
-        {
-          "name": "Set up job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 1,
-          "started_at": "2026-11-28T01:00:51Z",
-          "completed_at": "2026-11-28T01:00:51Z"
-        },
-        {
-          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 2,
-          "started_at": "2026-11-28T01:00:51Z",
-          "completed_at": "2026-11-28T01:01:00Z"
-        },
-        {
-          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 3,
-          "started_at": "2026-11-28T01:01:00Z",
-          "completed_at": "2026-11-28T01:01:06Z"
-        },
-        {
-          "name": "Install the recorded numerical and automatic differentiation dependencies",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 4,
-          "started_at": "2026-11-28T01:01:06Z",
-          "completed_at": "2026-11-28T01:01:34Z"
-        },
-        {
-          "name": "Execute public research and publish independent compact records",
-          "status": "completed",
-          "conclusion": "cancelled",
-          "number": 5,
-          "started_at": "2026-11-28T01:01:34Z",
-          "completed_at": "2026-11-28T06:51:03Z"
-        },
-        {
-          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "skipped",
-          "number": 9,
-          "started_at": "2026-11-28T06:51:03Z",
-          "completed_at": "2026-11-28T06:51:03Z"
-        },
-        {
-          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 10,
-          "started_at": "2026-11-28T06:51:03Z",
-          "completed_at": "2026-11-28T06:51:04Z"
-        },
-        {
-          "name": "Complete job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 11,
-          "started_at": "2026-11-28T06:51:04Z",
-          "completed_at": "2026-11-28T06:51:04Z"
-        }
-      ],
-      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140811337445",
-      "labels": [
-        "ubuntu-latest"
-      ],
-      "runner_id": 1000012443,
-      "runner_name": "GitHub Actions 1000012443",
-      "runner_group_id": 0,
-      "runner_group_name": "GitHub Actions"
-    }
-  ]
-}
-```
+> **原 JSON 19：官方取消 jobs 全对象。** [固定旧版完整记录，第 975–1073 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L975-L1073)。
+
 
 ### 完整末次只读观察（不是final）
 
-```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-bhalf-first-20261127",
-  "scientific_source_commit": "c6517a030888df2bf0ca51efade67b7693102785",
-  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
-  "pid": 3541,
-  "observations": {
-    "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_enter",
-      "at": "2026-11-28 06:48:40 UTC",
-      "point": "480be58574d985b3f714bc2567d92adcf3e7b46366248d1722c9665afd814938",
-      "cached_angle_roots": 985,
-      "closure_original_returns": 173143,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T06:14:02.197446+00:00",
-      "math_event": "trial-statistics-returned",
-      "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-      "math_model": "6f3ae32a19723a91d36aa9d1157838b6977b8099bf2de178458c102f726c96ef",
-      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 681.6517423825409,
-      "initial_Gram": 0.40616525311769985,
-      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_violation": 0.5305849371949052,
-      "initial_geometry_complete": true,
-      "current_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-      "current_Phi": 681.6470516175362,
-      "current_Gram": 0.40616529581758637,
-      "current_geometry_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-      "current_violation": 0.5235597907246015,
-      "current_geometry_complete": true,
-      "current_state": "accepted restoration checkpoint returned; final report not inferred",
-      "trial_point": "480be58574d985b3f714bc2567d92adcf3e7b46366248d1722c9665afd814938",
-      "trial_Phi": 681.6450227773521,
-      "trial_Gram": 0.40616533555531326,
-      "trial_accepted": null,
-      "accepted_directions": 3,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0,
-      "current_g_reach": 0.5235597907246015,
-      "current_g_body_diameter": -0.038136386569002756,
-      "current_g_distance_plus": 0.11392305204890485,
-      "current_g_distance_minus": -3.093633727173847,
-      "current_g_cap_diameter": -0.06715168866958865,
-      "current_g_height_floor": -1.0411711268457509,
-      "previous_completed_trial_point": "b34824acd5f82b1540ff7c582fc0319b3311974e9e8860845f9c0d26d084846d",
-      "previous_completed_trial_g": 0.5235597907246015,
-      "previous_completed_trial_accepted": true,
-      "previous_completed_trial_maximum_families": "reach",
-      "previous_completed_trial_Phi": 681.6470516175362,
-      "previous_completed_trial_Gram": 0.40616529581758637
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-normal-evaluation-progress.json",
-      "bytes": 3394,
-      "sha256": "43f3569ef7cfac647bc058fae7faed2b390f775e7031c7880e3374cd68eb5ea5",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "bytes": 11086,
-      "sha256": "121ec3d331b290b545e827c48d5bcf5e25370245f9274ba97180871d9ec420a1",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.point_sha256",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.positive_physical_g",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    },
-    {
-      "report": "fixed-fejer-paired-halfwave-bhalf-first/actual-mathematical-progress.json",
-      "field": "latest_trial_geometry.complete",
-      "error": "TypeError: 'NoneType' object is not subscriptable"
-    }
-  ],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "cfff83698d5c1d60b51ddf3bd2bb69f87dcdfaa8f3a25f432887015eab781338",
-  "observed_utc": "2026-11-28T06:48:45Z"
-}
-```
+> **原 JSON 20：最后完整只读观察。** [固定旧版完整记录，第 1077–1171 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L1077-L1171)。
+
 
 ### 移出活动区的原规则同步槽
 
@@ -1181,15 +214,5 @@ Actions22：[run 46090913581/1](https://github.com/Rogerhu12/math-research-publi
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46090913581-1.md",
-    "bytes": 48488,
-    "sha256": "166ceb9968626627b7544ec9b0499ca3b2ceec4828ff3f38f14506ce2a29fa24",
-    "git_blob_sha": "dc76b7e5c140bb054f2ac0bda5aa518ac69738ff",
-    "fixed_commit": "52c90c05f4974a1f50d4ed358634c04a01a627b6",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 21：原完整索引/分卷身份。** [固定旧版完整记录，第 1184–1195 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run22-complete-paired-halfwave-bhalf-launch-and-continuation.md#L1184-L1195)。
+

@@ -321,3 +321,7 @@ science实际0/9668.217378869s/source870e11a1，whole report51804983B/c1be2382�
 ## 2026-11-28 08:26:18 UTC — 29真重试四分之一步拒绝，八分之一步已开始
 
 29真重试eb34四分之一步自身reachg4.794466481111248拒，current仍bc818/accepted1；d24e八分之一步只trial-start，无自身统计/几何。原ID/parent和全预算继续。 全部原对象及固定完整证据身份保[本轮note](notes/2026-11-28-run29-complete-capacity-repair-and-retry.md)。双README云核至`d9be3bd38ede883ebd941d2563a48c93fe3a3aa3`无变（非pull）。
+
+## 2026-11-28 08:27:51 UTC — RET84：六份终态人写笔记保全原叙述，重复嵌入记录固定全文引用
+
+[RET84完整交付与逐块对应表](computations/terminal-run19-24-narrative-retention-84-complete-delivery.json)把19–24六份终态人写笔记的119个重复JSON嵌入改为固定a7ee59c79535235b4161da7780b77556e9760940完整原件的精确引用；全部非JSON原文、数值表、公式、源参链接、接受/拒绝、时间顺序和错误/未知逐字保留。新增终态导读区分历史running与实际终态；六路径仍在。完整文本构造器保原whole身份和逐字逆恢复，三个19/21独立终态证据原字保留。六原474586B→176430B，连构造器17568和总表53098，净回收227490B（不含本日志）；不改科学source/参数/request/ready/raw/checkpoint。旧whole-hash读者须恢复完整旧版，当前新note有独立身份。RET83及更早全来源和恢复链仍保各自总表。 双README云核至`4e9655966fa8476ad9027bbbf686b70407377d94`无变（非pull）。

@@ -1,5 +1,15 @@
 # 完整24：同一半波族 b/S=5/8 单宽度对照启动与真实续作
 
+## RET84：终态导读与完整历史记录
+
+**已知终态：** run 46096380016/1 的 job 在 2026-11-28 07:56:19Z 为 completed/cancelled，原因未知。最后 current 086003 接受数为 3；下一 90c83f 仅自身统计已返，几何、接受和未投影的 alpha 未知。完整 science report、自然返回、final/typed 仍未观察，原 pure 不被改称已运行。
+
+本版保留原笔记全部非 JSON 叙述、数值表、公式、时间顺序、来源与参数链接、接受/拒绝及错误/未知原文。17 个重复嵌入的 JSON 改为各自固定全文和精确行号引用；它们的所有原字段、命令、标量、缺值和 whole 身份仍在同一完整旧文件中。这里没有把原 JSON 重编码成数值载体，也没有改动科学源、request、ready、实际输入、checkpoint 或报告。
+
+**完整旧文件：** 57377 字节；SHA256 `eb2e60fa43fdd91084434815327a5a3e40090c35b39a86829b21aa781155ce06`；Git blob `308666a08d7b0b98e58b48354d3d68ae211ef3af`；固定提交 `a7ee59c79535235b4161da7780b77556e9760940`。[完整旧版](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md)。旧 whole-hash 读者应从该提交恢复原件；当前紧凑笔记有独立新身份，不能冒旧字节。逐块对应与恢复说明见[RET84 完整交付表](../computations/terminal-run19-24-narrative-retention-84-complete-delivery.json)。
+
+下文“当前”“未返”“准备”均保各原节的时间作用域；旧 running 不覆盖已知官方终态。原文所称“以下完整对象”现在由紧接其后的固定完整记录链接承接，不是声称该 JSON 仍内嵌于当前正文。首次准备的 null 也不覆盖后面真正返回的事实。
+
 作者：Astra-larger-e4e2a2bf-20261126（GPT-6 Astra Pro，AI辅助）。
 
 ## 1. 为何执行这一完整对照
@@ -56,293 +66,13 @@ science+pure两步完整序列116887B，全四步125008B，均超过原95000B队
 
 官方run完整对象：
 
-```json
-{
-  "id": 46096380016,
-  "name": "Visible larger amplitude paired half-wave five-eighths comparison 20261128 24",
-  "node_id": "WFR_kwLOVt5L2s8AAAAKu47wcA",
-  "head_branch": "main",
-  "head_sha": "431b54a096c89b81637a3634fd99a1dcda0cf487",
-  "path": ".github/workflows/visible-larger-20261128-parallel24.yml",
-  "display_title": "Launch complete same-source halfwave five-eighths comparison with all…",
-  "run_number": 1,
-  "event": "push",
-  "status": "in_progress",
-  "conclusion": null,
-  "workflow_id": 433333276,
-  "check_suite_id": 124704075946,
-  "check_suite_node_id": "CS_kwDOVt5L2s8AAAAdCPEwqg",
-  "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016",
-  "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46096380016",
-  "pull_requests": [],
-  "created_at": "2026-11-28T02:05:58Z",
-  "updated_at": "2026-11-28T02:06:01Z",
-  "actor": {
-    "login": "Rogerhu12",
-    "id": 199914264,
-    "node_id": "U_kgDOC-pzGA",
-    "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/Rogerhu12",
-    "html_url": "https://github.com/Rogerhu12",
-    "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-    "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-    "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-    "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-    "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-    "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false
-  },
-  "run_attempt": 1,
-  "referenced_workflows": [],
-  "run_started_at": "2026-11-28T02:05:58Z",
-  "triggering_actor": {
-    "login": "Rogerhu12",
-    "id": 199914264,
-    "node_id": "U_kgDOC-pzGA",
-    "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/Rogerhu12",
-    "html_url": "https://github.com/Rogerhu12",
-    "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-    "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-    "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-    "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-    "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-    "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false
-  },
-  "jobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/jobs",
-  "logs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/logs",
-  "check_suite_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-suites/124704075946",
-  "artifacts_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/artifacts",
-  "cancel_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/cancel",
-  "rerun_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016/rerun",
-  "previous_attempt_url": null,
-  "workflow_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/workflows/433333276",
-  "head_commit": {
-    "id": "431b54a096c89b81637a3634fd99a1dcda0cf487",
-    "tree_id": "8eff5d37d4c471333a57b0cfd6d4b921891c1e87",
-    "message": "Launch complete same-source halfwave five-eighths comparison with all original budgets",
-    "timestamp": "2026-11-28T02:05:54Z",
-    "author": {
-      "name": "Boyang Hu",
-      "email": "2538238358@qq.com"
-    },
-    "committer": {
-      "name": "Boyang Hu",
-      "email": "2538238358@qq.com"
-    }
-  },
-  "repository": {
-    "id": 1457408986,
-    "node_id": "R_kgDOVt5L2g",
-    "name": "math-research-public",
-    "full_name": "Rogerhu12/math-research-public",
-    "private": false,
-    "owner": {
-      "login": "Rogerhu12",
-      "id": 199914264,
-      "node_id": "U_kgDOC-pzGA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Rogerhu12",
-      "html_url": "https://github.com/Rogerhu12",
-      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "html_url": "https://github.com/Rogerhu12/math-research-public",
-    "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
-    "fork": false,
-    "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
-    "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
-    "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
-    "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
-    "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
-    "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
-    "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
-    "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
-    "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
-    "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
-    "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
-    "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
-    "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
-    "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
-    "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
-  },
-  "head_repository": {
-    "id": 1457408986,
-    "node_id": "R_kgDOVt5L2g",
-    "name": "math-research-public",
-    "full_name": "Rogerhu12/math-research-public",
-    "private": false,
-    "owner": {
-      "login": "Rogerhu12",
-      "id": 199914264,
-      "node_id": "U_kgDOC-pzGA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199914264?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Rogerhu12",
-      "html_url": "https://github.com/Rogerhu12",
-      "followers_url": "https://api.github.com/users/Rogerhu12/followers",
-      "following_url": "https://api.github.com/users/Rogerhu12/following{/other_user}",
-      "gists_url": "https://api.github.com/users/Rogerhu12/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/Rogerhu12/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/Rogerhu12/subscriptions",
-      "organizations_url": "https://api.github.com/users/Rogerhu12/orgs",
-      "repos_url": "https://api.github.com/users/Rogerhu12/repos",
-      "events_url": "https://api.github.com/users/Rogerhu12/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/Rogerhu12/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "html_url": "https://github.com/Rogerhu12/math-research-public",
-    "description": "Open research computations: flexible closed surfaces, Serre uniformity, rank-two Sha, invariant subspaces",
-    "fork": false,
-    "url": "https://api.github.com/repos/Rogerhu12/math-research-public",
-    "forks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/forks",
-    "keys_url": "https://api.github.com/repos/Rogerhu12/math-research-public/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/Rogerhu12/math-research-public/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/Rogerhu12/math-research-public/teams",
-    "hooks_url": "https://api.github.com/repos/Rogerhu12/math-research-public/hooks",
-    "issue_events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/Rogerhu12/math-research-public/events",
-    "assignees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/Rogerhu12/math-research-public/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/tags",
-    "blobs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/Rogerhu12/math-research-public/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/Rogerhu12/math-research-public/languages",
-    "stargazers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/stargazers",
-    "contributors_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contributors",
-    "subscribers_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscribers",
-    "subscription_url": "https://api.github.com/repos/Rogerhu12/math-research-public/subscription",
-    "commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/Rogerhu12/math-research-public/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/Rogerhu12/math-research-public/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/Rogerhu12/math-research-public/merges",
-    "archive_url": "https://api.github.com/repos/Rogerhu12/math-research-public/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/Rogerhu12/math-research-public/downloads",
-    "issues_url": "https://api.github.com/repos/Rogerhu12/math-research-public/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/Rogerhu12/math-research-public/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/Rogerhu12/math-research-public/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/Rogerhu12/math-research-public/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/Rogerhu12/math-research-public/labels{/name}",
-    "releases_url": "https://api.github.com/repos/Rogerhu12/math-research-public/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/Rogerhu12/math-research-public/deployments"
-  }
-}
-```
+> **原 JSON 01：首次官方 run 全对象。** [固定旧版完整记录，第 59–284 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L59-L284)。
+
 
 官方jobs完整对象：
 
-```json
-{
-  "jobs": [
-    {
-      "id": 140828543967,
-      "name": "Construct the same fixed target and solve the full half-wave width comparison",
-      "status": "in_progress",
-      "conclusion": null,
-      "run_id": 46096380016,
-      "logs_url": null,
-      "steps": [
-        {
-          "name": "Set up job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 1
-        },
-        {
-          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 2
-        },
-        {
-          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 3
-        },
-        {
-          "name": "Install the recorded numerical and automatic differentiation dependencies",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 4
-        },
-        {
-          "name": "Execute public research and publish independent compact records",
-          "status": "in_progress",
-          "conclusion": null,
-          "number": 5
-        },
-        {
-          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "pending",
-          "conclusion": null,
-          "number": 9
-        },
-        {
-          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "pending",
-          "conclusion": null,
-          "number": 10
-        }
-      ]
-    }
-  ]
-}
-```
+> **原 JSON 02：首次官方 jobs 全对象。** [固定旧版完整记录，第 288–345 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L288-L345)。
+
 
 ## 2026-11-28 02:38:02 UTC — 24两完整输入与初始完整六族几何实际返回
 
@@ -356,26 +86,8 @@ science实际commit0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5、launcher6fd57ab06a
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 61652,
-    "sha256": "4c449672d1c4680dc9092fbf5709b2c451f82c582156439fb8141630a87e769a",
-    "git_blob_sha": "9fa91d6ed1710f4ba425c92cfb41866b356386dc",
-    "fixed_commit": "17ed6ccae50001659c1bb8cf549075a538778f65",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  },
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1-part-001.md",
-    "bytes": 16607,
-    "sha256": "abfac2cecef0c019439b3ce6c5cbff5bb273009907fea2992b182ffde185adbd",
-    "git_blob_sha": "c1e68f6d4819b1fdf4f4668d11e14570c93016ed",
-    "fixed_commit": "17ed6ccae50001659c1bb8cf549075a538778f65",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 03：原完整索引/分卷身份。** [固定旧版完整记录，第 359–378 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L359-L378)。
+
 
 ## 2026-11-28 03:11:00 UTC — 24下一真实试点统计返回，几何未返
 
@@ -385,84 +97,20 @@ current仍7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，acc
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 60924,
-    "sha256": "ade918f084d10f7e6770215c417842cd59e700e1cabd87ac502415a20e00be97",
-    "git_blob_sha": "038e4570daf843c4052629c1e51980ffab97d1a7",
-    "fixed_commit": "4e37ab47ceeb4d753297742a00b077d28baeb71e",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 04：原完整索引/分卷身份。** [固定旧版完整记录，第 388–399 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L388-L399)。
+
 
 ## 2026-11-28 03:47:21 UTC — 24半波五分之八宽度第一真实接受
 
 第24组b5/8完整原半波场，a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748已真实current/accepted1；03:28:12.292155数学current-geometry-returned，03:31:31索引。Phi886.6498886762892/Gram.47296582200907233，reachg.6117804556256119、distance+.060865075686575065仍正。原六族/source0f0bbbee/driver095bf/model9e2d7完整保；无缺值错误但仍report=false。宽度初场和第一步不等于统一可行性或单调性，未混R725/27。
 
-```json
-{
-  "math_at": "2026-11-28T03:28:12.292155+00:00",
-  "math_event": "current-geometry-returned",
-  "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-  "math_model": "9e2d7dedb3ece1a3c198ced9801b5a5d048fa231d33723d0366c28b834f8eb1e",
-  "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_Phi": 886.6498886846562,
-  "initial_Gram": 0.47296582169113244,
-  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_violation": 0.6122924171813162,
-  "initial_geometry_complete": true,
-  "current_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
-  "current_Phi": 886.6498886762892,
-  "current_Gram": 0.47296582200907233,
-  "current_geometry_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
-  "current_violation": 0.6117804556256119,
-  "current_geometry_complete": true,
-  "current_state": "accepted restoration checkpoint returned; final report not inferred",
-  "trial_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
-  "trial_Phi": 886.6498886762892,
-  "trial_Gram": 0.47296582200907233,
-  "trial_geometry_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
-  "trial_violation": 0.6117804556256119,
-  "trial_geometry_complete": true,
-  "trial_accepted": true,
-  "accepted_directions": 1,
-  "complete_report": false,
-  "stop_reason": null,
-  "observer_failures": 0,
-  "current_g_reach": 0.6117804556256119,
-  "current_g_body_diameter": -0.03620012039717546,
-  "current_g_distance_plus": 0.060865075686575065,
-  "current_g_distance_minus": -3.093633726704372,
-  "current_g_cap_diameter": -0.06715131487868453,
-  "current_g_height_floor": -1.0411715967431643,
-  "previous_completed_trial_point": "a464ca1e335f0d49746d47775f74d7e281346e991f87eabdb1869a3c131bf748",
-  "previous_completed_trial_g": 0.6117804556256119,
-  "previous_completed_trial_accepted": true,
-  "previous_completed_trial_maximum_families": "reach",
-  "previous_completed_trial_Phi": 886.6498886762892,
-  "previous_completed_trial_Gram": 0.47296582200907233
-}
-```
+> **原 JSON 05：第一接受点完整数学标量。** [固定旧版完整记录，第 405–450 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L405-L450)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 59377,
-    "sha256": "8788416e80895425eaf891def7b78d8e107e55d5abc944e11f3e7096166e3678",
-    "git_blob_sha": "c29629e452685772e21ba76987394fd88fe379ff",
-    "fixed_commit": "9d4df9a9ef341a72b6f8976141e64cf61caaaaf8",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 06：原完整索引/分卷身份。** [固定旧版完整记录，第 454–465 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L454-L465)。
+
 
 ## 2026-11-28 05:05:52 UTC — 24第二个恢复步实际接受
 
@@ -470,103 +118,13 @@ current仍7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，acc
 
 完整原观察含实际source/PID/driver/model/target/initial/current/trial、全部六物理族、原normal进度和每一观察错误如下。工作几何complete仅指该有限步骤；没有whole准确界或README完成。完整全量report与child自然返回仍未观察。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-bfiveeighths-first-20261128",
-  "scientific_source_commit": "0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5",
-  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
-  "pid": 3575,
-  "observations": {
-    "fixed-fejer-paired-halfwave-bfiveeighths-first/actual-normal-evaluation-progress.json": {
-      "phase": "normal_chain_scope_closed",
-      "at": "2026-11-28 04:43:21 UTC",
-      "point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-      "cached_angle_roots": 1441,
-      "closure_original_returns": 80365,
-      "closure_logical_failures": 0
-    },
-    "fixed-fejer-paired-halfwave-bfiveeighths-first/actual-mathematical-progress.json": {
-      "math_at": "2026-11-28T04:46:43.791046+00:00",
-      "math_event": "current-geometry-returned",
-      "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-      "math_model": "9e2d7dedb3ece1a3c198ced9801b5a5d048fa231d33723d0366c28b834f8eb1e",
-      "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-      "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-      "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_Phi": 886.6498886846562,
-      "initial_Gram": 0.47296582169113244,
-      "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-      "initial_violation": 0.6122924171813162,
-      "initial_geometry_complete": true,
-      "current_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-      "current_Phi": 886.6498886416713,
-      "current_Gram": 0.4729658228900724,
-      "current_geometry_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-      "current_violation": 0.6115910089638068,
-      "current_geometry_complete": true,
-      "current_state": "accepted restoration checkpoint returned; final report not inferred",
-      "trial_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-      "trial_Phi": 886.6498886416713,
-      "trial_Gram": 0.4729658228900724,
-      "trial_geometry_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-      "trial_violation": 0.6115910089638068,
-      "trial_geometry_complete": true,
-      "trial_accepted": true,
-      "accepted_directions": 2,
-      "complete_report": false,
-      "stop_reason": null,
-      "observer_failures": 0,
-      "current_g_reach": 0.6115910089638068,
-      "current_g_body_diameter": -0.036200120406833736,
-      "current_g_distance_plus": 0.060865075697836946,
-      "current_g_distance_minus": -3.093633726704402,
-      "current_g_cap_diameter": -0.06715131487766868,
-      "current_g_height_floor": -1.0411715967444413,
-      "previous_completed_trial_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-      "previous_completed_trial_g": 0.6115910089638068,
-      "previous_completed_trial_accepted": true,
-      "previous_completed_trial_maximum_families": "reach",
-      "previous_completed_trial_Phi": 886.6498886416713,
-      "previous_completed_trial_Gram": 0.4729658228900724
-    }
-  },
-  "complete_small_progress_file_identities": [
-    {
-      "path": "fixed-fejer-paired-halfwave-bfiveeighths-first/actual-normal-evaluation-progress.json",
-      "bytes": 3386,
-      "sha256": "49b36ea6660eddcb97bc51532a7b23261cbe9e6a9e357d27d2fda5a349c6b019",
-      "two_complete_bounded_reads_agreed": true
-    },
-    {
-      "path": "fixed-fejer-paired-halfwave-bfiveeighths-first/actual-mathematical-progress.json",
-      "bytes": 12397,
-      "sha256": "281c73ae2219beb701cdfdc1e3577ef91d67a71b9dbdfb4a700b00424e7d0af8",
-      "two_complete_bounded_reads_agreed": true
-    }
-  ],
-  "observation_errors": [],
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "observations_are_not_a_completed_step_or_a_scientific_certificate": true,
-  "observation_identity_sha256": "60f8e9ce0d90b37d299f9356d0d3888f879390b7ee644dd8c24e2c0519761996",
-  "observed_utc": "2026-11-28T04:47:11Z"
-}
-```
+> **原 JSON 07：完整只读进度观察。** [固定旧版完整记录，第 473–554 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L473-L554)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 59375,
-    "sha256": "c0e205489e12991f6e29a8a0459397f34138eacd2d1dbdb3fa747250856f6ba7",
-    "git_blob_sha": "97f6d326ddfce69146bb8b7f470302582e21709b",
-    "fixed_commit": "7e0683e820718743a3a62cc475bc465eb60f36e7",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 08：原完整索引/分卷身份。** [固定旧版完整记录，第 558–569 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L558-L569)。
+
 
 ## 2026-11-28 05:46:57 UTC — 24后续试步的实际统计返回
 
@@ -574,199 +132,46 @@ current仍7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47，acc
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 59889,
-    "sha256": "90099fdbe6ce89d17c0a54dd54a239bf226a3f88d182d25236c841a0aa034117",
-    "git_blob_sha": "81d31c5d46baeb38347ed5a334c2ee83afba9feb",
-    "fixed_commit": "6678c474e2abe0e650bb9eda35d04e23acc55964",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 09：原完整索引/分卷身份。** [固定旧版完整记录，第 577–588 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L577-L588)。
+
 
 ## 2026-11-28 06:16:22 UTC — 24后续完整试步f725拒绝及下一点开始
 
 f725完整试点的g为.611899231330644，最大族reach，实际拒绝。当前仍ff7dc8/accepted2/g.6115910089638068；新086003只在trial-start出现，不把前试点统计移给它。原alpha和方向号未投影，仍未知。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-bfiveeighths-first-20261128",
-  "scientific_source_commit": "0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5",
-  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
-  "pid": 3575,
-  "observed_utc": "2026-11-28T06:12:50Z",
-  "child_exit_code": null,
-  "child_natural_return_not_observed": true,
-  "mathematical_observation": {
-    "math_at": "2026-11-28T06:09:08.766278+00:00",
-    "math_event": "trial-start",
-    "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-    "math_model": "9e2d7dedb3ece1a3c198ced9801b5a5d048fa231d33723d0366c28b834f8eb1e",
-    "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-    "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-    "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-    "initial_Phi": 886.6498886846562,
-    "initial_Gram": 0.47296582169113244,
-    "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-    "initial_violation": 0.6122924171813162,
-    "initial_geometry_complete": true,
-    "current_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-    "current_Phi": 886.6498886416713,
-    "current_Gram": 0.4729658228900724,
-    "current_geometry_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-    "current_violation": 0.6115910089638068,
-    "current_geometry_complete": true,
-    "current_state": "accepted restoration checkpoint returned; final report not inferred",
-    "trial_point": "0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07",
-    "trial_accepted": null,
-    "accepted_directions": 2,
-    "complete_report": false,
-    "stop_reason": null,
-    "observer_failures": 0,
-    "current_g_reach": 0.6115910089638068,
-    "current_g_body_diameter": -0.036200120406833736,
-    "current_g_distance_plus": 0.060865075697836946,
-    "current_g_distance_minus": -3.093633726704402,
-    "current_g_cap_diameter": -0.06715131487766868,
-    "current_g_height_floor": -1.0411715967444413,
-    "previous_completed_trial_point": "f725cbad0fe278d63d46bf22946fc79b344fbe2e0aa52283dc7b1190d812316f",
-    "previous_completed_trial_g": 0.611899231330644,
-    "previous_completed_trial_accepted": false,
-    "previous_completed_trial_maximum_families": "reach",
-    "previous_completed_trial_Phi": 886.6498768143834,
-    "previous_completed_trial_Gram": 0.472966161836316
-  }
-}
-```
+> **原 JSON 10：f725 拒绝与下一试点的完整数学观察。** [固定旧版完整记录，第 594–643 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L594-L643)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 60263,
-    "sha256": "c4bc8feee9b939df425a57cc406880b613a57695bcb2097a96646bc25fe0c67d",
-    "git_blob_sha": "4a36c5dd66986aa25ae26ba1b2ddfd5665aefc39",
-    "fixed_commit": "fec2ee37e0befe693af53f92b3b12bf91b83305f",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 11：原完整索引/分卷身份。** [固定旧版完整记录，第 647–658 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L647-L658)。
+
 
 ## 2026-11-28 06:30:07 UTC — 24新试点086003的自身统计返回
 
 0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07自身统计为Phi886.6498827366873、Gram.4729659923630599；新几何/接受未返回，当前仍ff7dc8/accepted2/g.6115910089638068。alpha和方向号仍未投影。
 
-```json
-{
-  "step_id": "complete-fixed-fejer-paired-halfwave-bfiveeighths-first-20261128",
-  "scientific_source_commit": "0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5",
-  "scientific_source_sha256": "6fd57ab06a8655522e5b79eadaa73fdf7cba93309d86cd2568e91845473cd99c",
-  "pid": 3575,
-  "observed_utc": "2026-11-28T06:28:00Z",
-  "new_actual_observation": {
-    "math_at": "2026-11-28T06:19:52.063761+00:00",
-    "math_event": "trial-statistics-returned",
-    "trial_point": "0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07",
-    "trial_Phi": 886.6498827366873,
-    "trial_Gram": 0.4729659923630599,
-    "trial_alpha": null,
-    "trial_phase": null,
-    "trial_accepted": null,
-    "accepted_directions": 2,
-    "current_point": "ff7dc83be0935470ad05278647de8ed0cfacc321930d70730434e385c4fd7af4",
-    "complete_report": false
-  },
-  "all_other_fields_and_errors": "Preserved in the entire original immutable evidence file below; no stale trial object is rebound."
-}
-```
+> **原 JSON 12：086003 自身实际观察。** [固定旧版完整记录，第 664–686 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L664-L686)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 59889,
-    "sha256": "121a3c8dd1452947852c0619fb96151161d4f99cf0b66f01e520d3fb0cb31b8b",
-    "git_blob_sha": "6ba74e8eb9a242e9bba3cf8944ba155eb882ff78",
-    "fixed_commit": "405ab36831ff0c73112428b55debed613c5352e8",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 13：原完整索引/分卷身份。** [固定旧版完整记录，第 690–701 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L690-L701)。
+
 
 ## 2026-11-28 07:18:34 UTC — 24真实接受086003为第三点，完整科学报告尚未返
 
 同source0f0bbbeee1b2c6665284e7bb67970f95b44c4eb5/PID3575/模型9e2d7ded，0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07已真实accepted=true，接受数3。07:06:13.280684Z自身current-geometry返回，Phi886.6498827366873/Gram.4729659923630599，reachg=.6114243730497866、distance_plus=.06086507728771828；其余六族完整保下方。原ff7dc8/f725身份及拒绝不覆盖。当前仍明显不可行，complete_report=false；没有由第3点补第4点或最终13文件。原alpha未投影保未知。
 
-```json
-{
-  "math_at": "2026-11-28T07:06:13.280684+00:00",
-  "math_event": "current-geometry-returned",
-  "math_driver": "095bf318e9440358f2fef9a7b71c47eb65df546a3f113d76b2984637a10d80ec",
-  "math_model": "9e2d7dedb3ece1a3c198ced9801b5a5d048fa231d33723d0366c28b834f8eb1e",
-  "math_source": "321be35ae07519fcd283e09d209b19fedde570a54fdc65be79fc1caf848f3cc5",
-  "math_target": "957cf0fc1ee59835f499b21a2300094ecb8c8a39fe14a1ebd987cef11305faa9",
-  "initial_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_Phi": 886.6498886846562,
-  "initial_Gram": 0.47296582169113244,
-  "initial_geometry_point": "7e06e86e65d3edffa946bacbfc47a8e3f09ba95bfe5ff5d2ee53816b1c68ac47",
-  "initial_violation": 0.6122924171813162,
-  "initial_geometry_complete": true,
-  "current_point": "0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07",
-  "current_Phi": 886.6498827366873,
-  "current_Gram": 0.4729659923630599,
-  "current_geometry_point": "0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07",
-  "current_violation": 0.6114243730497866,
-  "current_geometry_complete": true,
-  "current_state": "accepted restoration checkpoint returned; final report not inferred",
-  "trial_point": "0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07",
-  "trial_Phi": 886.6498827366873,
-  "trial_Gram": 0.4729659923630599,
-  "trial_geometry_point": "0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07",
-  "trial_violation": 0.6114243730497866,
-  "trial_geometry_complete": true,
-  "trial_accepted": true,
-  "accepted_directions": 3,
-  "complete_report": false,
-  "stop_reason": null,
-  "observer_failures": 0,
-  "current_g_reach": 0.6114243730497866,
-  "current_g_body_diameter": -0.03620012217243096,
-  "current_g_distance_plus": 0.06086507728771828,
-  "current_g_distance_minus": -3.093633726710114,
-  "current_g_cap_diameter": -0.0671513146838616,
-  "current_g_height_floor": -1.0411715969880786,
-  "previous_completed_trial_point": "0860037c29fd448e6b114e0897436b67aa7cc0edeaeb427674888949c022ef07",
-  "previous_completed_trial_g": 0.6114243730497866,
-  "previous_completed_trial_accepted": true,
-  "previous_completed_trial_maximum_families": "reach",
-  "previous_completed_trial_Phi": 886.6498827366873,
-  "previous_completed_trial_Gram": 0.4729659923630599
-}
-```
+> **原 JSON 14：第三接受点完整数学标量。** [固定旧版完整记录，第 707–752 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L707-L752)。
+
 
 下列固定整索引保全部原字段、观察错误、参数和来源；只报告实际返回，不改变活子进程或预算。
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 59373,
-    "sha256": "b7d469a7837a1c468c3f55411abb291e6ad3f8daec5fbdf98ba516a58f5f47da",
-    "git_blob_sha": "1f4c98825e3b8f1b2c526627ab05ace8fb2339bb",
-    "fixed_commit": "16cbef8790b20cb9d8b11ee2149c3978c60c97d0",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 15：原完整索引/分卷身份。** [固定旧版完整记录，第 758–769 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L758-L769)。
+
 
 ## 2026-11-28 07:59:04 UTC — 24官方取消与最后完整观察
 
@@ -783,133 +188,10 @@ Actions24：[run 46096380016/1](https://github.com/Rogerhu12/math-research-publi
 
 官方接口本次完整对象：
 
-```json
-{
-  "total_count": 1,
-  "jobs": [
-    {
-      "id": 140828543967,
-      "run_id": 46096380016,
-      "workflow_name": "Visible larger amplitude paired half-wave five-eighths comparison 20261128 24",
-      "head_branch": "main",
-      "run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/runs/46096380016",
-      "run_attempt": 1,
-      "node_id": "CR_kwDOVt5L2s8AAAAgygkL3w",
-      "head_sha": "431b54a096c89b81637a3634fd99a1dcda0cf487",
-      "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/jobs/140828543967",
-      "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/46096380016/job/140828543967",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "created_at": "2026-11-28T02:05:59Z",
-      "started_at": "2026-11-28T02:06:00Z",
-      "completed_at": "2026-11-28T07:56:19Z",
-      "name": "Construct the same fixed target and solve the full half-wave width comparison",
-      "steps": [
-        {
-          "name": "Set up job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 1,
-          "started_at": "2026-11-28T02:06:01Z",
-          "completed_at": "2026-11-28T02:06:02Z"
-        },
-        {
-          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 2,
-          "started_at": "2026-11-28T02:06:02Z",
-          "completed_at": "2026-11-28T02:06:10Z"
-        },
-        {
-          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 3,
-          "started_at": "2026-11-28T02:06:10Z",
-          "completed_at": "2026-11-28T02:06:16Z"
-        },
-        {
-          "name": "Install the recorded numerical and automatic differentiation dependencies",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 4,
-          "started_at": "2026-11-28T02:06:16Z",
-          "completed_at": "2026-11-28T02:06:47Z"
-        },
-        {
-          "name": "Execute public research and publish independent compact records",
-          "status": "completed",
-          "conclusion": "cancelled",
-          "number": 5,
-          "started_at": "2026-11-28T02:06:47Z",
-          "completed_at": "2026-11-28T07:56:13Z"
-        },
-        {
-          "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-          "status": "completed",
-          "conclusion": "skipped",
-          "number": 9,
-          "started_at": "2026-11-28T07:56:13Z",
-          "completed_at": "2026-11-28T07:56:13Z"
-        },
-        {
-          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 10,
-          "started_at": "2026-11-28T07:56:13Z",
-          "completed_at": "2026-11-28T07:56:14Z"
-        },
-        {
-          "name": "Complete job",
-          "status": "completed",
-          "conclusion": "success",
-          "number": 11,
-          "started_at": "2026-11-28T07:56:14Z",
-          "completed_at": "2026-11-28T07:56:15Z"
-        }
-      ],
-      "check_run_url": "https://api.github.com/repos/Rogerhu12/math-research-public/check-runs/140828543967",
-      "labels": [
-        "ubuntu-latest"
-      ],
-      "runner_id": 1000012475,
-      "runner_name": "GitHub Actions 1000012475",
-      "runner_group_id": 0,
-      "runner_group_name": "GitHub Actions"
-    }
-  ]
-}
-```
+> **原 JSON 16：官方取消 jobs 全对象。** [固定旧版完整记录，第 786–884 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L786-L884)。
+
 
 原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
 
-```json
-[
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 60261,
-    "sha256": "017f93c978ceeffa42ce4e0d5cba1aba60b985df7e7bce3026f23415dbcc27ec",
-    "git_blob_sha": "c25f04a21eea41d74eb726dab9bc5e56d7873dba",
-    "fixed_commit": "48ce66d0585eacc472027355e9674100aebb41a5",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  },
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 59887,
-    "sha256": "ce6360c74a41faa7456dcb555de7398e7b9a689f7d2117c469a0a163c94dc38f",
-    "git_blob_sha": "4c72520338abff45b6f8d8ae20c17356e374ae94",
-    "fixed_commit": "bac04724add48148fe74c389830f36c2fcd99e8e",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  },
-  {
-    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46096380016-1.md",
-    "bytes": 59887,
-    "sha256": "73b6e6d418bf1df8a59f364086c5953f2b93a40991c0ecd271f409d7b4dc7650",
-    "git_blob_sha": "ecfb80f065984c9d7738d47e7084e01788eda7b6",
-    "fixed_commit": "62de25c019a922ec661de5da59f5fbd9b69d0087",
-    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
-  }
-]
-```
+> **原 JSON 17：三个不同历史版本的完整索引身份。** [固定旧版完整记录，第 888–915 行](https://github.com/Rogerhu12/math-research-public/blob/a7ee59c79535235b4161da7780b77556e9760940/topics/visible-flex-larger-amplitude/notes/2026-11-28-run24-complete-halfwave-five-eighths-launch-and-continuation.md#L888-L915)。
+
