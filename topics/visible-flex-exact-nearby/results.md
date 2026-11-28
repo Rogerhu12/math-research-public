@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ASQ27：同固定仿射背景的真实负侧Newton体解](results/R149-supplement-fixed-affine-negative-Newton-trajectory-and-flat-quadrature.md)：新−f0强迫使用同η0完整affine、原65/193与独立mean，动态η(r)仍真−γΠv。3073原负格/真根bracket/全部接口上新连续8次dyadic trial；原几何22阶/24倍复盘、49节点正平测度积分+16倍全解析余，完整signed残差至160，selected差至288。原ASQ26同A*转移保。49whole/184+32/2原affine whole合同与五源全文核，首次实际入口待。
+
 - [JCR：含真实根及完整扰动的同一物理圆周逆](results/R149-supplement-uniform-negative-circle-inverse-through-the-true-root.md)：原严格区与独立实际根rectangle相接，同固定η0原仿射|a|≤1e−8、PPR校正|a|≤1e−10/全A³≤1e−7均有DJ>.785、全负窗J L²<7/5；根区更小<.837且H¹<3.46。Πexp[−αIuv]≥1保真实均值，不借根外scope。11whole/20新Fraction根首次全过，完整非局部和全边界仍待。
 
 - [AGXM：全频真实外域势平移实际完成](results/R149-supplement-actual-signed-exterior-potential-translation-on-all-inputs.md)：实际46148285040/1全部13带含∞完成，同两ray真λ全有向hull[4.664883387833184,4.665329214437577]、每带半径≤.0002228624055078399；正且<6门true，<1false。整1040B/4850a81c…及6539B/13898B私件全SHA保。后继完整外域源须原次序插入非零λ，不授整体逆。
