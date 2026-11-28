@@ -357,3 +357,197 @@ $u^p\to u$ 的运输都必须保留。
   未使用未分歧的 integral Fontaine–Laffaille 等价。
 
 本篇全部为纸面推导；没有数学程序执行。
+
+
+## 8. 改变 Frobenius 提升的完整运输与实际同点有限读数
+
+本节支付 §4–7 中一个具体运输，而不是将两个不同 fibre 的
+Frobenius 直接等同。设 $p>3$，$L/\mathbb Q_p$ 为任意有限扩张，
+$u,1-u\in\mathcal O_L^\times$，并取
+$$
+z=u^p,\qquad v=z+p\varepsilon,\qquad \varepsilon\in\mathcal O_L.
+\tag{1155.20}
+$$
+故 $z,z-1,v,v-1$ 都是单位。任意这样的 $v$ 都可用于
+同一通用 KZ object 的 fibre 间运输；只有在下文 §8.3 的
+未分歧算术情形，才将 $v$ 取成 coefficient Frobenius 的实际像。
+
+### 8.1. 精确短运输与全尾整性
+
+在同一 (1155.7) 的通用 de Rham frame 中，置
+$$
+H(z,v)=G(z)G(v)^{-1},\qquad
+D_p\mathcal H(a,b,h)=\mathcal H(p^{-1}a,p^{-1}b,p^{-2}h).
+$$
+$D_p$ 是 (1155.1) 的群同态。
+写 $\delta=v-z=p\varepsilon$，则
+$$
+\begin{aligned}
+a_H&=-\log_p(1+\delta/z),\\
+b_H&=-\log_p(1+\delta/(z-1)),\\
+h_H&=\operatorname{Li}_2^p(v)-\operatorname{Li}_2^p(z)
+       +(\log_pv-\log_pz)\log_p(1-v).
+\end{aligned}
+\tag{1155.21}
+$$
+最后一项来自 ordered 群律中的 $ab'$，不能去掉。
+
+在 $|\delta|\le|p|$ 的整个盘内，中央项还有一个不含
+任何未定 Coleman 常数的绝对收敛式：
+$$
+\boxed{\quad
+h_H=\sum_{n\ge2}\frac{(-1)^n\delta^n}{n}
+       \sum_{r=1}^{n-1}
+       \frac{1}{r z^r(z-1)^{n-r}}.
+\quad}
+\tag{1155.22}
+$$
+确实，以 $v$ 为变量对 (1155.21) 求导，得
+$$
+\frac{d h_H}{dv}=\frac{\log_p(v/z)}{v-1},\qquad h_H(z,z)=0.
+$$
+展开 $\log(1+\delta/z)$ 及 $(z-1+\delta)^{-1}$，
+逐项积分正好给 (1155.22) 的 $nr$ 分母及 $(-1)^n$。
+这也直接说明没有一次中央项。
+
+全部估值都以 $v_p(p)=1$ 计，不把分歧域的 uniformizer
+当成 $p$。对 $n\ge2$，
+$n-1-v_p(n)\ge1$，所以两条 logarithm 除 $p$ 后，
+$n\ge2$ 的全部尾都在 $p\mathcal O_L$。
+对 (1155.22) 的 $n\ge3$，$nr\mid n!$，故
+$$
+n-2-v_p(nr)\ \ge\ n-2-v_p(n!)\ \ge1.
+$$
+最后一步由 $v_p(n!)\le(n-1)/(p-1)$ 及整值性成立，
+包含 $n=3$ 的端点。因此这是除 $p^2$ 后的完整尾界，
+没有只截掉形式上的三次及更高项而不核其分母。
+得到
+$$
+\boxed{\quad
+D_pH(z,v)\equiv
+\mathcal H\left(
+-\frac{\varepsilon}{z},\
+-\frac{\varepsilon}{z-1},\
+\frac{\varepsilon^2}{2z(z-1)}
+\right)\pmod{p\mathcal O_L}.
+\quad}
+\tag{1155.23}
+$$
+
+### 8.2. 换提升后的完整 Frobenius 三槽
+
+把从 $v$ 的 fibre 到 $u$ 的 Frobenius/运输组合记为
+$$
+R_v(u)=G(u)D_pG(v)^{-1}.
+$$
+沿 (1155.11) 的同一 class-two quotient，精确因子次序为
+$$
+\boxed{\quad
+R_v(u)=R^\dagger(u)\,D_pH(u^p,v).
+\quad}
+\tag{1155.24}
+$$
+这是右侧运输。结合 (1155.16) 与 (1155.23)，由于
+$R^\dagger$ 的第一槽准确为零，乘积没有另一个遗漏的中央
+cross term。令所有显示量在 $\mathcal O_L/p\mathcal O_L$ 中读取，
+则
+$$
+\boxed{\begin{aligned}
+a_v&=-\frac{\varepsilon}{u^p},\\
+b_v&=\frac{\varepsilon-\ell_{1,p}(u)}{1-u^p},\\
+h_v&=-\frac{\ell_{2,p}(u)}{1-u^p}
+      -\frac{\varepsilon^2}{2u^p(1-u^p)}.
+\end{aligned}}
+\tag{1155.25}
+$$
+因此改提升的二次修正除 $p^2$ 后一般不消失。
+其 BCH 中央坐标则为
+$$
+\boxed{\quad
+h_v-\frac12a_vb_v
+=-\frac{\ell_{2,p}(u)}{1-u^p}
+ -\frac{\varepsilon\,\ell_{1,p}(u)}
+        {2u^p(1-u^p)}.
+\quad}
+\tag{1155.26}
+$$
+这里两个 $\varepsilon^2$ 恰相消；
+这不是在 ordered 坐标中删除二次项。
+
+(1155.23)–(1155.26) 是强模 $p\mathcal O_L$ 身份，
+保留 $u,\varepsilon$ 的全部 nilpotent 部分。
+它们也逐点适用于一个实际整函数提升
+$v=\psi(u)\equiv u^p\bmod p$。
+若原输入只有 $v\equiv u^p\bmod\mathfrak m_L$，
+则没有这里的尾界，不能使用本式；
+同样，任意挑出的 $v$ 不会因此变成分歧域上的
+canonical field Frobenius。
+
+### 8.3. 全部未分歧 fibre 的同一点算术 Frobenius
+
+现设 $L=F/\mathbb Q_p$ 未分歧，并令 $\sigma_F$ 为其
+arithmetic Frobenius，即模 $p$ 的 $p$ 次幂提升。取
+$$
+v=\sigma_F(u),\qquad
+\varepsilon_F(u)=\frac{\sigma_F(u)-u^p}{p}\in\mathcal O_F.
+\tag{1155.27}
+$$
+由 §2 的同一 arithmetic comparison 及 universal KZ
+object 的 $\mathbb Q_p$ 定义，
+$G(\sigma_Fu)=\sigma_F(G(u))$。
+所以 (1155.24) 此时准确是
+$$
+R_F(u)=G(u)\,D_p\sigma_F(G(u))^{-1},
+\tag{1155.28}
+$$
+也就是同一原 arithmetic fibre 相对 Hodge 点的 Frobenius。
+所有 coefficient-semilinear 项均保留。
+(1155.25) 给其完整有限矩阵，并从右边的两个实际整因子
+证明 $R_F(u)\in\mathcal H(\mathcal O_F)$。
+没有为分歧 full-level 域声称同样的算术比较，也没有将
+这个矩阵的整性直接升级为任意指定 lattice 的 FL 识别。
+
+特别当 $F=\mathbb Q_p$ 时，定义
+$$
+q_p(w)=\frac{w^{p-1}-1}{p}\in\mathbb Z_p
+\qquad(w\in\mathbb Z_p^\times).
+$$
+这里允许 $p$-adic 单位 $w$，不只整数代表。
+因为 $\varepsilon(u)=-u q_p(u)$，有
+$$
+\boxed{\quad
+R_{\mathbb Q_p}(u)\equiv
+\mathcal H\left(
+ q_p(u),\
+ q_p(1-u),\
+ -\frac{\ell_{2,p}(\bar u)}{1-\bar u}
+ -\frac{\bar u}{2(1-\bar u)}q_p(u)^2
+\right)\pmod p .
+\quad}
+\tag{1155.29}
+$$
+两条 Fermat quotient 在右边也约模 $p$。
+第二槽可直接核准：整数多项式
+$$
+\frac{1-U^p-(1-U)^p}{p}\equiv\ell_{1,p}(U)\pmod p
+$$
+给
+$\ell_{1,p}(\bar u)\equiv
+-uq_p(u)-(1-u)q_p(1-u)$。
+因而 (1155.25) 的第二槽确为 $q_p(1-u)$，
+未另换 Kummer 符号。
+
+(1155.29) 同时与 §3 的完整
+$-(1-p^{-2})\operatorname{Li}_2^p
+ +(p^{-2}-p^{-1})\log u\log(1-u)$ 相容；
+本节给的是该实际同点读数的有限式。
+其对 $u\bmod p^2$ 的依赖也已显式保留，
+不是仅用 $\bar u$ 替代原 torsor。
+
+后继指定四线/Manin组合现在可先识别每个实际
+$\psi(u)$，再用 (1155.25) 保留其提升误差和二次修正；
+尚未给出的原 moment 填充、全部 transfer 与
+$F_0$ 的 $z_{12}$ 仍按 §7 继续。
+本节为纸面推导；root 固定乘法方向并核全尾估值，
+o1_theta 独立核 (1155.21)–(1155.26) 的中央导数、
+$n r$ 分母及全部符号。没有数学程序执行。

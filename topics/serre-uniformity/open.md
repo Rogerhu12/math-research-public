@@ -183,3 +183,8 @@ Gaussian/cubic顶项分别为(256/25)δ³c_g⁶·{5β3β5 z12−3(J+2β3β5)x4y8
 ### 原 Newton 余核的 finite-log 差分入口
 
 [R1154 §12](results/R1154-original-Gaussian-first-profile-and-joint-finite-Gauss-moments.md)：同一finite-log E(T)满足T E(T+1)+(T+1)E(T)=−2(T^p−T)，完整Bernoulli系数及primitive因子1−2^R均保留。原Newton D_(S,P)的实际θ算子Z_D，在全actual-good相等下缺项至T^(2k+4)，但最高项为15G_(p−3)/8单位；前两层恰−35Bp−3 H_p/16与−297Bp−5 Δ_low/(32Gp−7)。该缺项尚非矛盾，未增添缺席低行或同值纤维的横向导数。 后继须用实际二根递推或同源关系排除该指定D，不能以普通有限多项式的长零带宣矛盾。
+
+
+### 原 Frobenius 改提升的实际运输已付
+
+[R1155 §8](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)：原u^p到v=u^p+pε的右侧运输已付全尾；中央必须保−ε²/{2u^p(1−u^p)}，BCH槽对应−εℓ1/{2u^p(1−u^p)}。未分歧v=σ_Fu给actual同点Frobenius；Qp三槽为q_p(u)、q_p(1−u)、−ℓ2(ū)/(1−ū)−ū q_p(u)²/{2(1−ū)}。任意分歧域仅为fibres间运输，强mod p、nilpotents和v−u^p∈p条件全保，未代原z12。 继续原四线组合中的实际提升、全部corestriction及同一moment格。

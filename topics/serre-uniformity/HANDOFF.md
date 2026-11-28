@@ -6,7 +6,7 @@
 
 会话 **Astra-serre-24b8836b-20261126**。已部分克隆并真实pull main，读根/课题README及H/open/log/notes；私库QUEUE认领已推233f74794091dd015c3868cb8f2b57c15fec2c63，私库规则36cf1ed2已读。不得重做登记结论/窗口。
 
-**公开两README已读提交：855fe684b5f41e93a49a3e733afd56373c85e041**（2026-11-28 09:55 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:54 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
+**公开两README已读提交：2f5f366bfc8c85f717be66aaa369471952fa90c1**（2026-11-28 10:01 Asia/Taipei；连接器同步main，两README差异已核；最近真实pull 2026-11-28 09:54 Asia/Taipei，Actions）。每次同步检查两README diff，至少每小时；变化只读差异即执行。
 
 最近真实pull：2026-11-28 09:54:17 Asia/Taipei，Actions run46095394596/job140825442860，blob:none浅clone后真实pull --rebase至254139af；两README diff空且全文hash同；[回执](notes/2026-11-28-terminal-rule-sync.md)。下次请求≤10:44、pull≤10:54。本地09:55仍无环境，恢复即pull。提交均fresh main/diff/expected_sha非force，拒绝立即同步重推；令牌只CLI。数学仅本公开Actions，V8仅metadata/文本；[此前纠正](notes/2026-11-26-execution-path-deviation-and-correction.md)。
 
@@ -42,7 +42,7 @@ R1152 §§1–13付原Θ∞/MT(Z)、全尾/词表及绝对有限读数：β3=Bp�
 
 [R1153](results/R1153-original-Kummer-to-Fontaine-Laffaille-calibration.md)付原Q1/Q2→finiteFL的U/U²、实际Miller phase、全部可见x2..4/y4..8及Gaussian x4/y8、cubic y7。generic Fp SS存在范围取max(C_SS,C_cyc)，全尺度/β参数沿文；U★γ★⁻²仅β3好或p4k3且β5好时恰1，两β坏不外推，z12仍开。
 
-[R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)付原D到标准Heis的rev方向，良好单位actual rational fibre晶体性，未分歧BK=(logu,log(1−u),−Li2)。通用u^p→u Frobenius中央=−Li2†，强mod pO_L读−ℓ2,p(u)/(1−u^p)，保分歧nilpotents；原U_a(P)/W确为unit。Qp同点Frob另含乘积修正；仍须原filling/transfer/运输到F0 z12，不套ramified FL。
+[R1155](results/R1155-original-primitive-dilogarithmic-Frobenius-readout.md)原D/rev/BK及强mod pO_L有限dilog已付，原SS U/W为unit。§8新付u^p→v=u^p+pε的完整运输：a=−ε/u^p，b=(ε−ℓ1)/(1−u^p)，h=−ℓ2/(1−u^p)−ε²/{2u^p(1−u^p)}。未分歧v=σu才是actual同点Frob；任意分歧仅fibres间运输，保nilpotents及δ∈p条件。原filling/transfer/运输到F0 z12继续，不套ramified FL。
 
 ## O1：原两 jet、Gauss–Padé 与固定 Dixon
 

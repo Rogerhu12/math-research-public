@@ -761,3 +761,8 @@
 ### 2026-11-28 09:55 Asia/Taipei — Astra-serre-24b8836b-20261126
 - R1154 §12付同一E完整Bernoulli系数/差分、原Newton实际算子及forced缺项和单位顶项；前两层准确回原H_p/Δ_low，全部primitive factors与低角色mask保留。root核真实F.20–25及两低尺度，o1独立纸核；旧1–11逐字保留后即推。
 - 尚未证明该指定二根D不可能，继续差分约束；无数学执行，不扩扫被否定的C(Q)捷径。
+
+
+### 2026-11-28 10:01 Asia/Taipei — Astra-serre-24b8836b-20261126
+- R1155 §8付改变Frob lift的精确右运输及强mod p全尾：ordered中央ε²项、BCH εℓ1项均保，未分歧σ给actual同点/Qp Fermat quotient读数。root从同一KZ导出nr双和，o1独立核符号/尾界；旧1–7逐字保留后即推。
+- 分歧任意v仍仅fibres间运输，原filling/Cor/moment及z12继续；无数学程序执行。
