@@ -1,0 +1,63 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "queue_session": "Astra-new-mechanism-8cdb3418-20261128",
+  "expected_readme_blobs": {
+    "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "1cc6a1851bf7dc98cfdcee3302d48cf82e6a1c4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checkout_action": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup_python_action": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "private_rules_read_commit": "8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e",
+  "schema": "r703-real-material-mass-v1",
+  "public_rules_read_commit": "d0880fd6d3dfc25d1443ad1429ba3811d0d0e917",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/r703_real_material_mass_continuation_20261128.py",
+  "workflow": ".github/workflows/visible-r703-real-material-mass-20261128.yml",
+  "common_parameters": {
+    "geometry": "topics/visible-flex-new-mechanism/computations/r703-real-material-mass-20261128.json",
+    "max_seconds": 3450
+  },
+  "lanes": {
+    "actual-weighted-material": {}
+  },
+  "scope": {
+    "actual_R687_run": 46146623642,
+    "original_full_1604_source": true,
+    "new_material_operator_and_C2_slope_cost": true,
+    "full_independent_columns": true,
+    "positive_frozen_mass_domain_required": true,
+    "old_science_replayed": false,
+    "README_completion_claim": false
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/r703_material_geometry_observer.py": "2c278f0a0351e81290a23173e67a70fd3a9cea34db0035b2fda4f54a083d4144",
+    "topics/visible-flex-new-mechanism/scripts/r703_real_material_mass_continuation_20261128.py": "c1aea784289467b86edffac8f5519808a426481fd12efde6d4d0bb342f0fc1d2",
+    "topics/visible-flex-new-mechanism/scripts/r703_transported_lattice_anchor.py": "4a974666f186f53772c3b61a12b1ff69e73655acc9ebb2f1a4f977ba0b323ebb",
+    "topics/visible-flex-new-mechanism/scripts/r703_weighted_material_field.py": "fa96027fca505faeb28dcc63f432b055fbaf312aa17da15ef8bcc6c86dba6a90",
+    "topics/visible-flex-new-mechanism/scripts/r687_darboux_frame_transport_20261128.py": "f25b31c1795e8371759eddfaa5d71ad3cfd47aee46c3b560a0f306651ee43760",
+    "topics/visible-flex-new-mechanism/scripts/r683_proper_phase_metric_transport_20261128.py": "de16c8d2d5083e9f4b18f86e9ea3efdbe8f2491bda7eac4dd5401e75d6c222d0",
+    "topics/visible-flex-new-mechanism/scripts/r669_true_finite_tilt_reach_continuation_20261128.py": "d792ba39faf98cbf0c9ffa9b4da784d9866d3805ebc26b6ff165513895919147",
+    "topics/visible-flex-new-mechanism/scripts/r659_finite_tilt_latitude_system_20261128.py": "3d0f09b79e574251634157b515eee7555855e7f6ef6f606e1486f1ad092a65a5",
+    "topics/visible-flex-new-mechanism/scripts/run_inverse_rotational_metric_20261126.py": "a97334fb7004ce750c0c949469be2db21ca7a187e53b48032dba2f330cf5e8ae",
+    "topics/visible-flex-new-mechanism/computations/r687-natural-frame-for-r703-20261128.json": "4dc79f1a9c54df8147fcb886e04e011d142cadd8c269530c094671f96ae218ca",
+    "topics/visible-flex-new-mechanism/computations/r703-real-material-mass-20261128.json": "edaac1642005bf5f6b822773f7221c91cd12a3ebea271fedd73d157ba73d2e8d",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r703-actual-weighted-material-continuation-scope.md": "e118fbbfc060d8ee91b5233a26044dc857b6c6c7fb41670ff7352b917b45bb6d",
+    "topics/visible-flex-new-mechanism/notes/2026-11-28-r703-r687-actual-general-frame-natural-terminal.md": "9239ba28414141b8c8ba49e70cb6e6cacf553a0342a4b4734ae5a915c65d9ece",
+    "topics/visible-flex-new-mechanism/results/R698-two-component-latitude-curl-with-the-actual-signed-binormal-speed.md": "4dacc1517f64af2e87d2aeddc55d4a71918a64479e707c978d5c9c2808bce58d",
+    "topics/visible-flex-new-mechanism/results/R701-actual-material-latitude-reparametrization-and-fixed-radial-mass.md": "5f486b7ab22610dd5859edd1a3c734224e23273f2822f67c2ad5b8b345206cf3",
+    "topics/visible-flex-new-mechanism/results/R687-global-darboux-frames-with-quantitative-periodic-immersion-reconstruction.md": "145700c2b86374c99a3c022dd3bf869d50e152e9b95fc606aada9a9b12efd34f",
+    "topics/visible-flex-new-mechanism/results/R680-smaller-tilt-offset-cap-and-positive-hoop-curvature-phase-input.md": "80d9371aa10e49e1c2adddbe46c3cb6ccf3e23959ee126d1dacf2942e93d2608",
+    "topics/visible-flex-new-mechanism/results/R662-tilted-two-plane-global-tube-and-offset-cap-clearance.md": "0587a98a884e99be1fff5e523128727d161d24ca754648d63941d42ce672785f",
+    "topics/visible-flex-new-mechanism/results/R665-end-tangent-and-length-cost-for-finite-tilt.md": "528425da5f18c1e7e8db3b1a9432c8b1f13c695cada031090f05917b10eabea1",
+    ".github/workflows/visible-r703-real-material-mass-20261128.yml": "eb27784074f3573b3c0a53727af1f797b43f8859d26da55e8909bb2b410dad80"
+  }
+}

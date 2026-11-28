@@ -1,0 +1,33 @@
+{
+  "input_state": "topics/visible-flex-new-mechanism/computations/r687-natural-frame-for-r703-20261128.json",
+  "input_state_sha256": "4dc79f1a9c54df8147fcb886e04e011d142cadd8c269530c094671f96ae218ca",
+  "geometry_weight": 1.6,
+  "cone_guard": 0.12,
+  "axis_guard": 0.30,
+  "barrier_width": 0.004,
+  "closure_weight": 1.0,
+  "length_weight": 1.2,
+  "work_betas": 193,
+  "fine_betas": 2049,
+  "trust": 0.035,
+  "retarget_trust": 0.025,
+  "max_trust": 0.45,
+  "goal": 1e-9,
+  "freeze_eta": 1e-6,
+  "reserve_seconds": 210,
+  "check_order": 5,
+  "check_angles": 97,
+  "stage_order": 6,
+  "stage_angles": 145,
+  "final_order": 9,
+  "final_angles": 289,
+  "reference_angles": 385,
+  "stages": [
+    {"level": 0.18, "spans": 6, "K": 3, "order": 3, "angles": 49, "iterations": 10},
+    {"level": 0.48, "spans": 6, "K": 3, "order": 3, "angles": 49, "iterations": 11},
+    {"level": 0.75, "spans": 6, "K": 4, "order": 4, "angles": 65, "iterations": 12},
+    {"level": 1.0, "spans": 6, "K": 4, "order": 4, "angles": 65, "iterations": 13},
+    {"level": 1.0, "spans": 12, "K": 5, "order": 4, "angles": 65, "iterations": 17}
+  ],
+  "fixed_stage": {"level": 1.0, "order": 4, "angles": 81, "iterations": 18}
+}

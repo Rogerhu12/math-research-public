@@ -4,7 +4,7 @@
 
 ## 规则、来源、终点
 
-公开最近实际pull/双README差异检查至 **c6cc5ff63ee0dc36b511f10d935b1da7b6eeac2f**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
+公开最近实际pull/双README差异检查至 **d0880fd6d3dfc25d1443ad1429ba3811d0d0e917**；根16新增条款已读。私库实际pull **2026-11-28 13:40:01 UTC** 至 **8a8cb97e6781bdd66ceed0ff82aeaced68b9f46e**，根15同条款已读：所有subagent显式gpt-6.2-astra/ultra，当前三名均遵守且无下级。课题README未变。首次全读b0865cd9；QUEUE仍本会话，认领9310d8a8。
 
 每次pull查双README且至少每小时；变则只读diff/执行/记SHA。每结论push，NFF立刻pull --rebase循环。root独占git/H/open/results/log。科学仅公开Actions；本地纸证/源码/已完日志解析。根12不重复机械审核；根15只存源/参数/run/hash及必要续接输入。全失败/未完/费用保留；H<10KB/open<30KB/md<100KB/课题<200MB。
 
@@ -42,13 +42,13 @@ R648–R653/R658/R663/R668/R672的七来源真C²/三jet/正collar/分母/法管
 
 R655/R662的D<1/hold≥.201/dH≥.3/reach≥.03仍需同候选全域法向/曲率/盘包络。R659、R669全失败/费用/未冻E保原文；R665/R671/R679排相应旧输入，R673精确反射不能连续同g。
 
-R680proper相位真厚锚sinθ.27/偏心帽.56已付κ<32.8/reach.03/D<1/hold.201/dH.3024，E_sharp只必要长度。R683112接受279.610253657秒/η.0304898/κ28.7128非停滞、E未冻；[R687](results/R687-global-darboux-frames-with-quantitative-periodic-immersion-reconstruction.md)完整帧G,d/周期真F、双角曲率/两jet/N对3N，run46146623642自然468.454786866秒/100接受，R703真1604参273c656f/双轴η.03491061/κ27.0645/长度−.00081162，E未冻；新两curl接此态，旧100J/五段已付。仅λ1真实径向E全门后冻结/精化，连续证欠。
+R680proper厚锚sinθ.27/偏心帽.56条件付κ<32.8/reach.03/D<1/hold.201/dH.3024。R683112接受/η.0304898非停滞E未冻；[R687](results/R687-global-darboux-frames-with-quantitative-periodic-immersion-reconstruction.md)run46146623642新468.454786866秒/100接受，R703真1604参273c656f/双轴η.03491061/κ27.0645/长度−.00081162。旧五段100J已付，全材连续证欠。
 
 R675全五响应旧账保留；R685准确矩不控弯曲，[原真12步](notes/2026-11-28-r685-hard-moment-fixed-pose-natural-terminal.md)186.283451223秒/3152列/q−.004/η4.45883e−5/κ29.0581。[R691](results/R691-physical-full-derivative-for-continuing-the-actual-fixed-bowed-pose.md)保同g/全g±.03b/L4与原QR，先1e−6再扩大空间至1e−8才扩角。自然run46146638022新1982.649944039秒/58接受/62J/81QR/2升空间，R711接真终态；旧矩/站/响应不重。
 
 R689球Taylor/真角积分/原结与两个冻结目标，只消费自然已过门场；新解析重建不冒充原109项角/离散积分场。可验真实q全区间，未授任意精化或完成。
 
-R698真T,a表示消T向curl，剩两curl/径度量；原未解场投影/中心/g/二阶实改量必须收费。R701真Φ及材料两阶/质量根消元，内部p仅C¹须明确改C²并付变化，端质量商须真实延拓；R703从实际1604列进入新求解。
+R698两curl/R701真材料Φ与正质量根由R703实际1604态落实。新四源仿射J族及三套真两jet/双母线全读；同离散根的值/两径导/全复列一致，另设raw质量三门。仅λ1在真385角E双独立全门后冻结再同g精化；当前未冻。
 
 ## G：活动整圈到真正闭帽
 
