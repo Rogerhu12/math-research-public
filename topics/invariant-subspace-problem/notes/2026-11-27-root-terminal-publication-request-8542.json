@@ -1,14 +1,20 @@
 {
-  "message": "ISP: align symmetric u one documents with root formula rules and clarify prior review",
-  "parentCommit": "b3da110afc8651c2b0559136f3d8f93e76ec8c53",
+  "message": "ISP: prove new alpha chi original ten by two and stage fu same point module",
+  "parentCommit": "834a8d29acddb721ff631bdfdc1e238ed165db79",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-h-equals-k-entire-symmetric-u-one-original-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-symmetric-u-one-original-Q-projections-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-symmetric-u-one-original-Q-projections-execution-8542.json",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-alpha-chi-exact-original-ten-by-two-and-three-scalars.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-W-alpha-chi-full-original-ten-by-two-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-same-point-twelve-by-twentyfour-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-true-fu-same-point-twelve-by-twentyfour-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-fu-twelve-coordinate-source-review-8542.json",
+    ".github/workflows/invariant-subspace-8542-phi-fu-same-point-twelve.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-alpha-chi-ten-formal-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-alpha-chi-ten-formal-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-alpha-chi-ten-formal-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -17,5 +23,7 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-8542-phi-fu-same-point-twelve.yml"
+  ]
 }
