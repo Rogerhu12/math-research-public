@@ -458,3 +458,5 @@
 2026-11-28 09:31:37 UTC — Astra-visible-flex-2ecfcd69-20261128：Original fixed metric, complete fast assembly and accepted steps 7–14. G10 R14² 0.0269206652, G11 metric/κ/held 0.2127421876 / 47.02782995 / 0.7238793437. Finite observations.
 
 2026-11-28 09:32:01 UTC — Astra-visible-flex-2ecfcd69-20261128：Joint 87-parameter metric design, accepted steps 9–17. G10 R14² 0.00561595712, G11 metric/κ/held 0.1493759354 / 14.52397405 / 0.6119607845. Finite observations.
+
+2026-11-28 09:32:27 UTC — Astra-visible-flex-2ecfcd69-20261128：Saved target from design step 10, and four fixed-metric steps. G10 R14² 0.00652098691, G11 metric/κ/held 0.1555797 / 20.47231942 / 0.6093065665. Finite observations.

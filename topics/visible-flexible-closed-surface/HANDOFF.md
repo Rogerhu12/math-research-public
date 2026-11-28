@@ -62,8 +62,10 @@ M64/G12从真实M48/G6父态独立准确转移，完整142784列；后继h503实
 
 <!-- 2ecf-live-m12-refinement --> [h503首次LM −9，原源/注入保留；单线程映射带重试。](notes/2026-11-28-2ecf-m12-h503-original-LM-sigkill.md)
 
+<!-- 2ecf-live-frozen --> [保存α10全87系数后新fixedg own4/4，G11 metric .155580、κ20.472、held .609307；冻结本身不算接受。](notes/2026-11-28-2ecf-polar-frozen-steps-01-04.md)
+
 ## 工作位置
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:32:21 UTC；已读公开 main `8874f0c2fc047cddc2e5a0b67a7ab6f4b2b44f9d`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 09:32:58 UTC；已读公开 main `dc35c17c50c79b4926d1eba0051f50dc0e8ccb5b`，根/课题 README 逐差无变化。
