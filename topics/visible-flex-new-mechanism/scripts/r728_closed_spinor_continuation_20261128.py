@@ -94,7 +94,7 @@ class PaidBook:
     def once(self,key,unit,fn):
         if self.has(key):return self.load(key)
         if key in self.ledger['retired']:raise ArithmeticError('Reached an obsolete accepted model instead of its durable successor.')
-        reserve={'source':240.,'columns':15.,'qr':65.,'trial':24.,'read':30.,'fd':24.,'prolong':8.,'proposal':4.}.get(unit,2.)
+        reserve={'source':240.,'columns':15.,'qr':120.,'tsqr_leaf':12.,'tsqr_merge':32.,'trial':24.,'read':30.,'fd':24.,'prolong':8.,'proposal':4.}.get(unit,2.)
         reserve=max(reserve,1.3*self.ledger['unit_max_seconds'].get(unit,0.))
         self.ledger['pending']=dict(key=key,unit=unit,context=self.ledger['context'])
         self.flush()
@@ -116,8 +116,10 @@ class PaidBook:
     def retire_accepted_model(self,tag):
         # Only a durable, genuinely accepted successor permits retirement of its predecessor workspace.
         keys=[key for key in self.ledger['kept'] if key.startswith(tag)]
+        self.retire_equivalent(keys)
+    def retire_equivalent(self,keys):
         for key in keys:
-            self.ledger['retired'][key]=self.ledger['kept'].pop(key)
+            if key in self.ledger['kept']:self.ledger['retired'][key]=self.ledger['kept'].pop(key)
         self.flush()
         for key in keys:(self.root/(key+'.npz')).unlink(missing_ok=True)
     def locate(self,**context):
@@ -125,6 +127,96 @@ class PaidBook:
     def checkpoint_state(self,key,**state):
         self.ledger['latest_state']=dict(key=key,**state)
         self.flush()
+
+
+def weighted_tree(book,tag,sp,variant,rows,nlocal,active,supports,col_step,radial_step,counts,emit):
+    """All-column Householder TSQR on [WJ | Wv], with local-to-global column embeddings."""
+    from scipy.linalg.lapack import get_lapack_funcs
+    p=sp.size
+    complete=tag+'_variant'+str(variant)+'_QR_SVD'
+    if book.has(complete):return book.load(complete)
+    cuts=np.r_[0,np.cumsum(active.sum(axis=1),dtype=np.int64)]
+    # Every active local row belongs to one contiguous material-radial group.
+    leaves=[]
+    for r0 in range(0,len(active),radial_step):
+        r1=min(r0+radial_step,len(active))
+        if cuts[r1]>cuts[r0]:
+            columns=np.array([j for j,ids in enumerate(supports) if ids[0]<r1 and ids[-1]>=r0],int)
+            leaves.append((int(cuts[r0]),int(cuts[r1]),columns))
+    if nlocal<len(rows):leaves.append((nlocal,len(rows),np.arange(p)))
+    def get_weights(start,stop):
+        v=rows[start:stop]
+        if variant==0:return np.ones(len(v))
+        if start>=nlocal:return np.full(len(v),8. if variant==1 else 4.)
+        if variant==1:return np.ones(len(v))
+        return 1+8*abs(v)/max(float(abs(rows[:nlocal]).max()),1.e-12)
+    def compress(a,columns):
+        # Fortran order with exact input ownership allows the LAPACK reflector workspace to replace the matrix.
+        geqrf=get_lapack_funcs('geqrf',(a,))
+        _,_,w,info=geqrf(a,lwork=-1,overwrite_a=True)
+        if info:raise ArithmeticError('Householder workspace query failed.')
+        factors,_,_,info=geqrf(a,lwork=max(1,int(w[0])),overwrite_a=True)
+        if info:raise ArithmeticError('Full Householder block failed.')
+        m=min(factors.shape)
+        tri=np.triu(factors[:m,:])
+        counts['complete_TSQR_Householder_blocks']+=1
+        counts['TSQR_input_rows_including_merges']+=a.shape[0]
+        return dict(columns=columns,augmented_R=tri)
+    def leaf(i):
+        start,stop,js=leaves[i]
+        a=np.zeros((stop-start,len(js)+1),order='F')
+        for j0 in np.unique((js//col_step)*col_step):
+            j1=min(j0+col_step,p)
+            chunk=book.load(tag+f'cols_{j0:05d}_{j1:05d}')
+            ix=chunk['kept_rows'];lo,hi=np.searchsorted(ix,(start,stop))
+            if hi==lo:continue
+            dl,dh=np.searchsorted(js,(j0,j1))
+            sub=js[dl:dh]-j0
+            a[np.ix_(ix[lo:hi]-start,np.arange(dl,dh))]=chunk['values'][lo:hi][:,sub]
+        a[:,-1]=rows[start:stop]
+        a*=get_weights(start,stop)[:,None]
+        return compress(a,js)
+    def joined(left,right):
+        cols=np.union1d(left['columns'],right['columns'])
+        m1,m2=[f['augmented_R'].shape[0] for f in (left,right)]
+        a=np.zeros((m1+m2,len(cols)+1),order='F')
+        for child,s in ((left,slice(0,m1)),(right,slice(m1,m1+m2))):
+            r=child['augmented_R'];ds=np.searchsorted(cols,child['columns'])
+            a[s,ds]=r[:,:-1];a[s,-1]=r[:,-1]
+        return compress(a,cols)
+    def node(lo,hi):
+        key=tag+f'tree{variant}_{lo:03d}_{hi:03d}'
+        if book.has(key):return key,book.load(key)
+        if hi-lo==1:
+            book.locate(action='full_TSQR_leaf',variant=variant,leaf=lo,first=leaves[lo][0],stop=leaves[lo][1],base=tag+'base')
+            return key,book.once(key,'tsqr_leaf',lambda:leaf(lo))
+        mid=(lo+hi)//2
+        lk,left=node(lo,mid);rk,right=node(mid,hi)
+        book.locate(action='full_TSQR_merge',variant=variant,child_keys=[lk,rk],base=tag+'base')
+        val=book.once(key,'tsqr_merge',lambda:joined(left,right))
+        # Parent is an exact orthogonal representation of the two stacked child R factors.
+        # The raw all-column J remains durable even if this variant is rejected.
+        book.retire_equivalent((lk,rk))
+        return key,val
+    root,f=node(0,len(leaves))
+    book.locate(action='full_TSQR_root_SVD',variant=variant,root=root,base=tag+'base')
+    def finish():
+        if not np.array_equal(f['columns'],np.arange(p)) or f['augmented_R'].shape[0]<p:
+            raise ArithmeticError('All material columns and enough physical rows are required.')
+        aug=f['augmented_R']
+        R=np.asfortranarray(aug[:p,:p])
+        rhs=aug[:p,-1].copy()
+        u,s,vt=svd(R,full_matrices=False,check_finite=False,lapack_driver='gesvd')
+        force=-(u.T@rhs);counts['full_QR_SVD']+=1
+        emit('complete_spectrum',model=tag,variant=variant,values=s.tolist(),full_TSQR=True)
+        # Together with the physical residual, variant and formula identify every original row weight.
+        return dict(R=R,weighted_projected_residual=rhs,U=u,s=s,vt=vt,force=force,
+                    residual_orthogonal_tail_norm=float(np.linalg.norm(aug[p:,-1])),
+                    weight_variant=variant,weights_from_full_original_residual=tag+'base',
+                    least=max(1.e-17,float(s[0]**2)*2.e-13))
+    model=book.once(complete,'qr',finish)
+    book.retire_equivalent((root,))
+    return model
 
 
 def main():
@@ -234,13 +326,16 @@ def main():
                 rows=work['rows'];active=work['active'];gl=work['global_rows']
                 lookup=np.full(active.shape,-1,int);lookup[active]=np.arange(active.sum())
                 nlocal=int(active.sum());v=np.r_[rows[active],gl];loss=work['norm']**2
-                mat=np.zeros((len(v),sp.size),order='F');h=2.e-24;ref=work['E'] if frozen is not None else None
+                h=2.e-24;ref=work['E'] if frozen is not None else None
+                if it==0:
+                    d=np.cos(.917*np.arange(1,sp.size+1));d/=np.linalg.norm(d)
                 header=bank+'base'
                 book.locate(stage=stage_no,iteration=it,action='complete_column_blocks',base=header)
                 book.once(header,'metadata',lambda:dict(x=x,space=[sp.spans,sp.K],rows=v,local_mask=active,
                     local_row_count=nlocal,complete_shape=[len(v),sp.size],source_trust=trust,frozen=serialize_reference()))
                 book.checkpoint_state(header,stage=stage_no,iteration=it,space=[sp.spans,sp.K],accepted=accepted,trust=trust,mu=mu)
                 for j0 in range(0,sp.size,opt['column_block']):
+                    if book.has(bank+'complete_J'):break
                     j1=min(sp.size,j0+opt['column_block'])
                     def columns():
                         block=np.zeros((len(v),j1-j0))
@@ -260,13 +355,19 @@ def main():
                         return dict(first=j0,stop=j1,kept_rows=paid,values=block[paid],height=len(v))
                     chunk=book.once(bank+f'cols_{j0:05d}_{j1:05d}','columns',columns)
                     if chunk['first']!=j0 or chunk['stop']!=j1 or chunk['height']!=len(v):raise ArithmeticError('Wrong paid column block layout.')
-                    mat[chunk['kept_rows'],j0:j1]=chunk['values']
                 def assembled():
                     counts['complete_new_Fourier_physical_J']+=1
                     return dict(rows=len(v),columns=sp.size,block_size=opt['column_block'])
                 book.once(bank+'complete_J','metadata',assembled)
                 if it==0:
-                    d=np.cos(.917*np.arange(1,sp.size+1));d/=np.linalg.norm(d);pred=mat@d;err=[]
+                    def directional():
+                        out=np.zeros(len(v))
+                        for j0 in range(0,sp.size,opt['column_block']):
+                            j1=min(j0+opt['column_block'],sp.size)
+                            part=book.load(bank+f'cols_{j0:05d}_{j1:05d}')
+                            out[part['kept_rows']]+=part['values']@d[j0:j1]
+                        return out
+                    pred=book.once(bank+'full_unweighted_directional_action','fd',directional);err=[]
                     for ei,eps in enumerate((2.e-6,4.e-7)):
                         def actual_fd():
                             hi=evaluate(geom,kw,x+eps*d,frozen,False);lo=evaluate(geom,kw,x-eps*d,frozen,False)
@@ -279,27 +380,19 @@ def main():
                 for variant in range(3):
                     vtag=bank+f'variant{variant}'
                     book.locate(stage=stage_no,iteration=it,variant=variant,action='whole_QR_SVD',base=header)
-                    def decomposition():
-                        weights=np.ones(len(v))
-                        if variant==1:weights[nlocal:]=8.
-                        if variant==2:
-                            weights[:nlocal]+=8*abs(v[:nlocal])/max(float(abs(v[:nlocal]).max()),1.e-12);weights[nlocal:]=4.
-                        Q,R=qr(mat*weights[:,None],mode='economic',check_finite=False,overwrite_a=True)
-                        rhs=Q.T@(v*weights);del Q
-                        u,s,vt=svd(R,full_matrices=False,check_finite=False)
-                        force=-(u.T@rhs);counts['full_QR_SVD']+=1
-                        emit('complete_spectrum',stage=stage_no,iteration=it,variant=variant,values=s.tolist())
-                        return dict(R=R,weighted_projected_residual=rhs,U=u,s=s,vt=vt,force=force,
-                                    raw_row_weights=weights,least=max(1.e-17,float(s[0]**2)*2.e-13))
-                    model=book.once(vtag+'_QR_SVD','qr',decomposition);rad=start_trust*(.5**variant)
+                    model=weighted_tree(book,bank,sp,variant,v,nlocal,active,supports,opt['column_block'],
+                                          stage['order']+1,counts,emit)
+                    if variant==0:
+                        raw_R=model['R'];raw_rhs=model['weighted_projected_residual']
+                    rad=start_trust*(.5**variant)
                     for trial in range(12):
                         ttag=vtag+f'_trial{trial:02d}'
                         book.locate(stage=stage_no,iteration=it,variant=variant,trial=trial,base=header,
                                     factorization=vtag+'_QR_SVD',trust=float(rad),next_proposal=ttag+'_step')
                         def proposal():
                             dx,_,damping=trust_step(model['s'],model['vt'],model['force'],rad,model['least'])
-                            image=mat@dx
-                            return dict(dx=dx,y=x+dx,mu=float(damping),prediction=float(-2*v@image-image@image),radius=float(rad))
+                            image=raw_R@dx
+                            return dict(dx=dx,y=x+dx,mu=float(damping),prediction=float(-2*raw_rhs@image-image@image),radius=float(rad))
                         step=book.once(ttag+'_step','proposal',proposal)
                         book.locate(stage=stage_no,iteration=it,variant=variant,trial=trial,base=header,
                                     factorization=vtag+'_QR_SVD',paid_next_real_parameters=ttag+'_step')
