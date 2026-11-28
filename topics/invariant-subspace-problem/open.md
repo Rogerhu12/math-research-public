@@ -6,7 +6,7 @@
 
 **普通复可分无限维 Hilbert ISP 未完成。** 完成标准仍只有全体有界算子的非平凡闭不变子空间存在定理，或一个完整反例；排除某个候选、完成子问题或有限维计算都不收尾。
 
-此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Phi-small-three-by-six-result-2185-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
+此前全部原条目、来源、失败范围与开放接口保[本次完整快照](notes/2026-11-29-open-before-Haar-full-two-column-exclusion-2190-8542.md)及其归档链。以下压缩只更新明确已闭的部分；任何省略项都不算关闭，仍按原顺序接续。全部已证结论见[结果索引](results.md)，操作状态见[HANDOFF](HANDOFF.md)。
 
 ## 1. R150：完整非 rank-one Bell 非零问题
 
@@ -129,7 +129,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 [同W首位域与正定来源能量](results/R271-appendix-same-w-first-block-domain-and-positive-schur-source-energy.md)已给Sh∈H iff整个偶块在H，准确费用Γ(u)=sup|〈Ju,JHz〉|²/||Kz||²；原N/Y正则化列的全物理范数不能隐藏该费。W仅付g0∈closure RanK*，续同u的Γ有限性及原1/16输出逆权，不换任意闭包来源。
 
 
-原Haar I/F、closureF=I、固定Q*/O(s²)/Ω强子列桥及每非零列本性保；复Lθ全旗/精确可除层保。新[真尾同像与同分子对数费用](results/R12-appendix-accretive-denominator-exact-tail-ranges-and-same-numerator-logarithmic-fees.md)435ace先付共同真域与Balakrishnan有界差，再有界ODE核同log芽；Pθ=Qθ,L U_L^−θ且Ran完全相同，低位矩阵源域运输K=UθEU−θ费用B²；双向B=Oθ((1+logL)^m)，Qθ,L强*I有实际原孔数源界。若同一个Y²=CPθ²，则Y_L=YUθ给全部尾平方及同分子polylog预算；未构造Y，低位矩阵非C′，不宣未知根域不变/强紧。继续同Y尾系数方程。
+原Haar I/F、closureF=I、固定Q*/O(s²)/Ω强子列桥及每非零列本性保；复Lθ全旗/精确可除层、真尾同像/低位源域运输保。新[完整两原列四次费用与增生分母全族排除](results/R12-appendix-full-two-column-quartic-source-cost-and-accretive-denominator-exclusion.md)36572保全部F0/F1回绕、β反转及ρ计数，任意Y²=CP²给真实常数尾D0⁴界；纯尾Q给||Q⁴||≤28η_{L−1}||Y||⁴/c²。同一个Y经旧单位只付polylog，而Qtail⁴强*I且η双指数衰减，故全部Reθ>0的Pθ无有界平方分子，R88作用闭图后亦排稳定根域包含RanPθ。一般flat/未知旗商未排，不从D0⁴反推D0小；转其它实际同分子来源。
 
 
 [闭平方根的实际gauge分母](results/R12-appendix-regularized-gauge-square-root-actual-flat-denominator.md)已给明确P=RQ与Y，完整C自伴性把PT有界返回PH入原域；奇幂根的R/Q本身也须平坦。继续支付同一未知根的实际GR=RT+Q接口及全C自伴域。R143只有原二阶乘子的该接口，不能把头像反根直接识别为它，也不能把一般平坦源变成分母。
@@ -190,7 +190,7 @@ Deddens自伴MASA/可分重数有限成本投影、全平移/odometer/加权复�
 
 [全W原必要权P164](results/R150-appendix-unit211-W-entire-original-native-NSPS-necessary-weight-curve.md)双度97/123、总164，仅必要；[H265整曲线有限环境](results/R150-appendix-unit211-W-entire-H265-finite-weight-intersection-and-original-environment.md)用不可约总30及真模余式付不整除，权长≤4920、均值≤29520、当前七坐标≤59040。完整重数/几何局部化范围与[H265方向](results/R150-appendix-unit211-W-first-head-entire-curve-projective-direction-and-generic-uniqueness.md)的无穷/重根均保，不判空。
 
-W旧闭支/≤616824、b0≤23088与U0另3保。五ray和正e整k−2已全闭（719末中心原Jac单位/N5首x²模733）；一般k λunit/物理f及Gram整/±4闭，首阶2f951余L33μ9未单位。新完整q/P/P1/R6/N5准确六元环境、18列、三固定6阶cofactor及首次联合1009 Bézout，120秒/1GiB；仅必要Gram定义前缀4750B，旧首阶结式/83e门不执行。内部ve=vk=0且u正阶纸排k≠2全部L/m/M深中心；k2仅γ=a/2且μunit余新三原q/R/N，567c固定30秒/256MiB一次消元/Bézout并回d³g全部三源，不倒物理D/新头；根修正alpha非零只凭已付Ast，mu零由q排。两新输入均未预报单位；其余内部/DVR继续。
+W旧闭支/≤616824、b0≤23088与U0另3保。五ray和正e整k−2已闭。一般k λunit/f及Gram整/±4闭；新860063五原q/P/P1/R6/N5准确6×18实际0.430858720秒/40908KiB/0，108列坐标/18cofactor坐标/25全五源返回，固定新标量L56/59/42；首联合1009 Bézout只余L−3/4（7B摘要精确识别[756,1]），q在此为3(μ+2)²/8，故仅(3/4,−2)继续完整singleton新中心，未排空。内部u正阶567c实际0.025592954秒/38292KiB/0，R3/E5 gcd1及d³完整三源证书成；合已纸排各层整u支正式稿在写。无旧射线/首阶结式门重放，其余内部/DVR继续。
 
 原qF、六Gram、q3/r2/R6、全部个别N/P/NV须同点返回。Bi/H411/L1/A143/几何D/旧C13、未付一次头及e方向k+3仍不为单位；旧NS-NV投影、全部首项零、8222/7168/旧十二原行准确失败保本次完整快照，9105未执行不重派。不把首一S³环境作纯权三点界。
 
