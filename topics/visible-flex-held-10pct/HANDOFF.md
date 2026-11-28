@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；同一g/物理参数/完整时间域，固定H有内点且diamH≥.2D，整像δhold≥.1D、全E(3)商δE>0、全时reach≥.03D；全域metric≤1e−6并在固定问题加密下降至机器/求解容差。λ<1没有准确圆弧H，设计δ/mean漂移不是同g精化。
 
-- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `4c3d00d6b62d36e2ac771811b294f984aba47e95`（2026-11-28 08:55 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；08:48 UTC再次pull到 `da37aafe414c2ec340d9686d8cfdb89ebd7217c3`，根规则空diff且QUEUE仍本会话。
+- 初始真实pull并完整读公共双README：`b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`，2026-11-28约06:23 UTC。最近实际pull后双README空diff锚 `a4ee9d41ed6d94819e19878edbbbb0ba2b2314ef`（2026-11-28 08:56 UTC）。私库已认领推 `e96d935de69d7e96381ba17732e6f92350654b2a`；08:48 UTC再次pull到 `da37aafe414c2ec340d9686d8cfdb89ebd7217c3`，根规则空diff且QUEUE仍本会话。
 - root独占git与H/open/log/results；每结论push前pull并核双README，至少每小时；NFF立即rebase重推；禁止force，令牌只命令行。根§12不加审批流程；§15不存可再生数组/网格，源/参数/hash/小标量保留。H<10KB，open尽量<30KB，单MD<100KB，目录<200MB。
 - [接手与来源](notes/2026-11-28-resume-current-sources.md)；[继承完整H](notes/2026-11-28-inherited-handoff.md)与[继承open](notes/2026-11-28-inherited-open.md)保原全部结论/失败/命令链接。原scratch和runner raw未取得，必要再生不计新结果。
 
@@ -14,7 +14,7 @@
 
 1. **旧最高设计接受λ=.128/M48。** [原晚返真实提取](notes/2026-11-28-design-previous-frontier.json)，run45821850836/source a0151c8…；.08/.096/M40全门、.128/M40仅metric1.24051e−6未门，完整lift后.128/M48全门（1219点/RMS9.19598e−7/metric1.59050e−7/BC4.143e−13/δ.06412830439644338/mean2320）。原.256域失败、.192 MemoryError无raw、attempt011未知，不重定性。源/全SHA见原记录；不能把.064当旧最高锚。
 2. **真实低模尾已full-H，但仍只有M8。** [原run45849403133终态](notes/2026-11-28-tail-low-modes-actual-terminal.md)：来自λ.002/M24原631点前缀，M8/N128暖因子.25/.5/.75/.9/1全原门过；full factor1 residual1.8949786217e−9、sample metric2.9133693236e−8、formalK8.38502633、normalizedFullDefect.0003086785，packet52f92191。随后M16/N256收到worker failed包97fd2b60；具体字符串未发布，不归因为已知某一域错误。M24 full-H/J未执行。
-3. **旧固定g暖链未推进真接受λ=.002。** v2/v3/v4已失败，v5 .003/M32与.0025/M32 RMS失败，.0025/M24仅metric失败；完整旧记录见[真实终态](notes/2026-11-28-v5-previous-terminal.md)和继承H，不晋级失败场。
+3. **旧warm/phase链未推进真接受λ=.002。** v2–v4固定δ路线已失败；v5是加性δ的R70设计（fixed=False），其.003/M32与.0025/M32 RMS失败、.0025/M24仅metric失败；完整旧记录见[真实终态](notes/2026-11-28-v5-previous-terminal.md)和继承H，不晋级失败场。
 
 ## 当前实际工作
 
