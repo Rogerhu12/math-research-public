@@ -211,3 +211,7 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R82. 实际标记闭族的全时嵌入与 reach
 
 [完整证明](results/R82-actual-marked-closed-family-all-time-geometry.md)。同R79/R80真实.12 cut/raw-H图加入query字面半柱长.0025和正R67全谐波帽，完整C²闭族全相位嵌入，D≤2.3850166810388336、support≥.6420099883604928、K≤123/10、reach≥10/123，reach/D>.03408815。原图/参数/均值未换，完整metric、δE、λ1握持及同g精化继续。
+
+## R83. 实际完整第三活动矩与全欧氏非全等
+
+[完整证明](results/R83-actual-closed-third-activity-and-euclidean-separation.md)。同R82 .12 cut闭族完整965叶前缀矩、R81整尾通量及真实字面柱长合成Re A3∈[.1392755359019308,.15002395770094334]；正canonical B3/R67最高频率判据给实际δE>0，含反射。没有混用λ.064或预报指定端点；准确λ1、整尾metric与固定g收敛继续。
