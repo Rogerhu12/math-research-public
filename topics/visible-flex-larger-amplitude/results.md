@@ -380,3 +380,5 @@
 - **R728（已证明，条件反号距离恒等式）**：[两完整半波的反号、前缀位置与见证距离](results/R728-reversed-paired-halfwave-prefix-and-held-witness-distance.md) — 保完整球面均值/选定根，证明F±=C±Aw、全部六jet、两见证距离差4A·w·(q−C)及半径差；给两中央段符号常量与φ=π/2任意正乘子根的平面性，不借旧全局唯一。完整负首段seed已刊；高度项、全域两见证、normal/Gram/K/reach与全等仍须真实求解，不宣称新场已可行。
 
 - **R729（已证明，完整公共slack QP）**：[全行对偶强制有界、循环收敛与可行恢复](results/R729-common-slack-all-row-dual-coercivity-and-feasible-recovery.md) — 接R683原全行KKT；同号slack列给正象限紧level set，允许Gram奇异且不删行，证明准确全循环坐标收敛、原全行可行slack恢复、primal/dual gap及原范数误差界。源于25首恢复QP仅2 advances即dependent blocker且Pg远超容差的真实返回；新算法尚未运行，不冒64轮保证或非线性可行，不改变31。
+
+- **R730（已证明，实际输入的安全锥与单位弧长新参考）**：[完整双见证锥、全角唯一弧长根和闭参考像](results/R730-whole-image-safe-cone-and-unit-speed-contracted-reference.md) — 用真实完整S∈(2.37,2.38)、κ0=binary.2，给η1/32、ξmax3/4及单宽脉冲[1−(2t−1)^12]^7；全角左右长度严格夹S，证明唯一正根/两角隐式导数/逆弧长六jet、全闭参考嵌入/全相位与双held锥距离及D≤4.2。仅支付径向unit；角向Gram、同固定g、0.03D reach、actual全normal与Euclidean非全等未付，新独立长度核/provider正在真实实施，不继承旧mean证书。
