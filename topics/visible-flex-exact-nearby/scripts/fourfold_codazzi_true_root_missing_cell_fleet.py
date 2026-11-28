@@ -120,10 +120,17 @@ def inspect_parent(root, directory):
         and execution["parallel_accepted_complete_cells"]==accepted
         and execution["qualified_complete_cells"]==contiguous,
         "the whole terminal accepted union and contiguous prefix agree")
-    require(len(record["child_outcomes"])==len(record["slices"])
-        and {item["ordinal"] for item in record["child_outcomes"]}==set(range(len(record["slices"])))
-        and all(type(item["actual_exitcode"]) is int for item in record["child_outcomes"]),
-        "every predecessor arithmetic process has a real terminal outcome")
+
+    evidence_path=Path(root)/TOPIC/'scripts/fourfold_codazzi_tcf_whole_terminal_rule16.py'
+    require(sha(evidence_path.read_bytes())=='f9d35b5558427d75ea18ac1585489971cfced93ca134311b563f637a9cbc0522','entire actual TC terminal policy and job attestation')
+    evidence=load(evidence_path,'_TCF_exact_hard_stop_and_rule_16')
+    if not record["child_outcomes"]:
+        evidence.hard_stopped(root,record,raw)
+    else:
+        require(len(record["child_outcomes"])==len(record["slices"])
+            and {item["ordinal"] for item in record["child_outcomes"]}==set(range(len(record["slices"])))
+            and all(type(item["actual_exitcode"]) is int for item in record["child_outcomes"]),
+            "every predecessor arithmetic process has a real terminal outcome")
     matrix=docs["matrix"]
     owner.validate_complete_result(matrix,"matrix",state["proposal"],matrix["input_manifest_sha256"],
                                     state["input_identity"]["same_selected_family"])

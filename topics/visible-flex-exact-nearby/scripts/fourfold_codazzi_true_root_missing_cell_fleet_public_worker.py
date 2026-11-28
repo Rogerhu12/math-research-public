@@ -131,13 +131,23 @@ def original_input_prefix(root):
     source=original.patched_source();tree=ast.parse(source)
     functions=[node for node in tree.body if isinstance(node,ast.FunctionDef) and node.name=="main"]
     require(len(functions)==1,"one whole original public main")
+
+    evidence_path=Path(root)/TOPIC/'scripts/fourfold_codazzi_tcf_whole_terminal_rule16.py'
+    require(sha(evidence_path.read_bytes())=='f9d35b5558427d75ea18ac1585489971cfced93ca134311b563f637a9cbc0522','entire actual TC terminal policy and job attestation')
+    evidence=load(evidence_path,'_TCF_exact_hard_stop_and_rule_16')
     function=functions[0];first=ast.parse("head = pull()").body[0]
+    old_review=ast.parse('review_spec = roles["reviewed_rules"]').body[0]
+    slots=[i for i,stmt in enumerate(function.body) if ast.dump(stmt)==ast.dump(old_review)]
+    require(len(slots)==1,"one original administrative review slot, all mathematical roles untouched")
+    function.body[slots[0]:slots[0]+1]=ast.parse(
+        'review_spec = roles["reviewed_rules"]\n'
+        'review_spec = tcf_current_policy(root,review_spec,checked_bytes(review_spec,entry_head)[0])').body
     stops=[i for i,node in enumerate(function.body) if isinstance(node,ast.Try)
         and node.body and ast.dump(node.body[0])==ast.dump(first)]
     require(len(stops)==1,"one exact boundary before the old reservation and mathematical branch")
     function.body=function.body[:stops[0]]+ast.parse(TAIL).body
     fragment=ast.Module(body=[function],type_ignores=[]);ast.fix_missing_locations(fragment)
-    namespace=dict(original.__dict__)
+    namespace=dict(original.__dict__,tcf_current_policy=evidence.current_policy)
     exec(compile(fragment,"<TCF unchanged original native/publication prefix>","exec"),namespace)
     return namespace["main"]
 
@@ -151,8 +161,15 @@ def terminal_actions_parent(run):
     value=json.loads(body)
     require(str(value["id"])==run and value["run_attempt"]==1 and value["status"]=="completed"
         and value["conclusion"] is not None,"the real original public run has ended before any missing-cell allocation")
-    return {"whole_API_response_bytes":len(body),"whole_API_response_sha256":sha(body),
+    receipt={"whole_API_response_bytes":len(body),"whole_API_response_sha256":sha(body),
         **{key:value[key] for key in ("id","run_attempt","status","conclusion","updated_at","html_url")}}
+    if run=="46117170011":
+        evidence_path=Path(__file__).with_name("fourfold_codazzi_tcf_whole_terminal_rule16.py")
+        require(sha(evidence_path.read_bytes())=="f9d35b5558427d75ea18ac1585489971cfced93ca134311b563f637a9cbc0522","entire concrete terminal API contract")
+        evidence=load(evidence_path,"_TCF_original_runner_attestation")
+        require(value["head_sha"]==evidence.EVENT and value["conclusion"]=="failure","same stopped original run")
+        receipt["whole_sole_terminal_job"]=evidence.live_job()
+    return receipt
 
 
 def main():

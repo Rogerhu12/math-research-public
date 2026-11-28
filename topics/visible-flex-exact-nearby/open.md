@@ -318,3 +318,6 @@ ASQ17：真C逆的12/16项Neumann作用在全Theta行的截断费<1e−10/4e−1
 
 
 ASQ18：同原WMA/UACT whole成功记录、真lift primitive homotopy与真实固定J/S预算，给整个Theta trial误差<.26、原低96误差<.025、真T^{-1}<2.694；无重算旧目标或私数组。root全读原两actual及原公式，20新精确Fraction比较一次全过；物理PDE全逆和完整matched square未成。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+TCF-R：原46117170011唯一job实际11:16:03 failure、父−9且新规则门，三个子退出码未知如实保留；根完整ZIP/四终态和原validator核过。保3612已接受并集，18互斥assignment只补4112缺格，旧科学0；原全96/五窗/四whole数组、每次规则检查与唯一领取保留。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。

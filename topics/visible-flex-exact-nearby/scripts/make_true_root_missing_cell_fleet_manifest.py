@@ -161,6 +161,13 @@ def build(root,*,maximum_cells=256,maximum_parallel=6,carry_directory=None,carry
     for role,path in (("helper",BASE+".py"),("science",BASE+"_owner.py"),("worker",BASE+"_public_worker.py"),
         ("merge_worker",BASE+"_merge_public_worker.py"),("generator",GENERATOR),("proof",PROOF),("entry",ENTRY)):
         files.append({"role":role,**helper.descriptor(root,path)})
+    case_path=TOPIC+"/scripts/fourfold_codazzi_tcf_whole_terminal_rule16.py"
+    case=load(root,case_path,"_TCF_terminal_rule16_evidence")
+    require(sha((root/case_path).read_bytes())=="f9d35b5558427d75ea18ac1585489971cfced93ca134311b563f637a9cbc0522","the entire exact hard-stop evidence reader")
+    files.append({"role":"TC_hard_stop_reader",**helper.descriptor(root,case_path)})
+    for role,spec in case.INPUTS.items():
+        case.read(root,spec)
+        files.append({"role":role,**helper.descriptor(root,spec[0])})
     for key,spec in original["specs"].items():files.append({"role":"original_terminal_"+key,**spec})
     require(len({item["path"] for item in files})==len(files),"one whole descriptor per current metadata object")
     identity=sha(encode({"parent":parent["parent_identity"],"assignments":assignments,

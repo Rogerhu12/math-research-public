@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [TCF-R：原真实硬终止、3612完整并集和4112缺格首次入口](notes/2026-11-28-TCF-actual-terminal-and-first-missing-fleet.md)：原46117170011唯一job实际11:16:03 failure、父−9且新规则门，三个子退出码未知如实保留；根完整ZIP/四终态和原validator核过。保3612已接受并集，18互斥assignment只补4112缺格，旧科学0；原全96/五窗/四whole数组、每次规则检查与唯一领取保留。
+
 - [ASQ18：原signedTheta试探的完整改进与真96坐标逆](results/R149-supplement-actual-signed-Theta-trial-and-finite-inverse-by-primitive-residual.md)：同原WMA/UACT whole成功记录、真lift primitive homotopy与真实固定J/S预算，给整个Theta trial误差<.26、原低96误差<.025、真T^{-1}<2.694；无重算旧目标或私数组。root全读原两actual及原公式，20新精确Fraction比较一次全过；物理PDE全逆和完整matched square未成。
 
 - [ASQ17：全96真实Theta行的快速级数与完整尾](results/R149-supplement-fast-true-Theta-series-and-complete-original-high-row-tail.md)：真C逆的12/16项Neumann作用在全Theta行的截断费<1e−10/4e−15；原全96联合Theta在n≥4097的实际输入尾<.000117，真同号/异号与原mean零空间保持。必须对实际H_c r取尾，不能把入端尾替代响应尾；数值真lift/coeff误差另加。

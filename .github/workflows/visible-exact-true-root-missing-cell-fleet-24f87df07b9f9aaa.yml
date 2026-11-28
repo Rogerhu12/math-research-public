@@ -1,0 +1,147 @@
+name: R149 terminal-admitted original TC missing cells f0bb997df758
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visible-exact-true-root-missing-cell-fleet-24f87df07b9f9aaa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-flex-exact-TCF-24f87df07b9f9aaaea231d2d8fd19cabf08fdab0f95ae35ff66c1170e2582e1b
+  cancel-in-progress: false
+jobs:
+  original-missing-cells:
+    name: TCF original cells ${{ matrix.ordinal }}
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        ordinal: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    env:
+      OPENBLAS_CORETYPE: Haswell
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      BLIS_NUM_THREADS: '1'
+      VECLIB_MAXIMUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    timeout-minutes: 350
+    steps:
+      - name: Install Git in the original immutable runtime
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-20-reviewed-public-CI-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-TCF-terminal-46117170011-jobs-API.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-TCF-terminal-46117170011-run-API.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-TCF-terminal-missing-cell-fleet-entry.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-missing-cell-fleet-24f87df07b9f9aaa-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-trial-complete2677-inputs.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/consumed-complete2677.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/run-46117170011-1/actual-trial-state.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/run-46117170011-1/complete-radial-integration-prefix.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/run-46117170011-1/complete-signed-trial-matrices.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/run-46117170011-1/execution.json
+            /topics/visible-flex-exact-nearby/results/R149-supplement-terminal-missing-cell-fleet-and-complete-source-aggregation.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_tcf_whole_terminal_rule16.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet_merge_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_vector_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/make_true_root_missing_cell_fleet_manifest.py
+      - name: Trust the explicitly mounted checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Install the unchanged complete native reconstruction and directed cell runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 python-flint==0.9.0 scipy==1.17.0 sympy==1.14.0 mpmath==1.3.0
+      - name: One disjoint original-cell interval with every96 column and all source windows
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-missing-cell-fleet-24f87df07b9f9aaa-inputs.json
+          --manifest-sha 06f17850e575ba69bfb5d0d12a5fc81d6721d6305a4cf23c2d98e7fee77b69f8
+          --ordinal ${{ matrix.ordinal }}
+  merge-whole-terminal-union:
+    name: TCF complete terminal union
+    needs: original-missing-cells
+    if: always() && github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    env:
+      OPENBLAS_CORETYPE: Haswell
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      BLIS_NUM_THREADS: '1'
+      VECLIB_MAXIMUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    timeout-minutes: 35
+    steps:
+      - name: Install Git in the original immutable runtime
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-20-reviewed-public-CI-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-TCF-terminal-46117170011-jobs-API.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-TCF-terminal-46117170011-run-API.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-TCF-terminal-missing-cell-fleet-entry.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-read-public-model-ultra-rules.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-missing-cell-fleet-24f87df07b9f9aaa-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-trial-complete2677-inputs.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/consumed-complete2677.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/run-46117170011-1/actual-trial-state.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/run-46117170011-1/complete-radial-integration-prefix.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/run-46117170011-1/complete-signed-trial-matrices.json
+            /topics/visible-flex-exact-nearby/notes/true_root_trial_residual_ci/run-46117170011-1/execution.json
+            /topics/visible-flex-exact-nearby/results/R149-supplement-terminal-missing-cell-fleet-and-complete-source-aggregation.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_tcf_whole_terminal_rule16.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet_merge_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_parallel_vector_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_trial_public_worker.py
+            /topics/visible-flex-exact-nearby/scripts/make_true_root_missing_cell_fleet_manifest.py
+      - name: Trust the explicitly mounted checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Install only the final directed scalar arithmetic
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Preserve every accepted original cell and finish only complete missing norms
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_missing_cell_fleet_merge_public_worker.py
+          --repo "$GITHUB_WORKSPACE"
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-28-true-root-missing-cell-fleet-24f87df07b9f9aaa-inputs.json
+          --manifest-sha 06f17850e575ba69bfb5d0d12a5fc81d6721d6305a4cf23c2d98e7fee77b69f8
