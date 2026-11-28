@@ -1339,3 +1339,46 @@ root终端自07:21失效，实际重置后的唯一探测仍失败。此次云�
   }
 ]
 ```
+
+## 2026-11-28 06:30:12 UTC — 27下一完整试点939ea的自身统计返回
+
+939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29、alpha1/restoration自身统计为Phi748.4181748571943、Gram.48764641101863465；其几何/接受尚未返。当前仍a7ff7c/accepted1/g.7008605078876107，微小Phi变化不推出几何改善。
+
+```json
+{
+  "step_id": "complete-fixed-fejer-r725-bfiveeighths-first-20261128",
+  "scientific_source_commit": "1547e23955e6f776336030966b6e204fadaca9d0",
+  "scientific_source_sha256": "0673232700619911d4ab3c8fbe36c579bb52dc19f4e4e27eb84aa8e7ff7ff734",
+  "pid": 3303,
+  "observed_utc": "2026-11-28T06:25:19Z",
+  "new_actual_observation": {
+    "math_at": "2026-11-28T06:13:55.756834+00:00",
+    "math_event": "trial-statistics-returned",
+    "trial_point": "939ea0f03a3b5b6a98fa2dd7a4403ca47abe3e3f8ae1d94ee0147d3e6078fb29",
+    "trial_Phi": 748.4181748571943,
+    "trial_Gram": 0.48764641101863465,
+    "trial_alpha": 1,
+    "trial_phase": "restoration",
+    "trial_accepted": null,
+    "accepted_directions": 1,
+    "current_point": "a7ff7cb1dbec044685156e201e168c972f60b6d111875cbc308b6226ecb71e9e",
+    "complete_report": false
+  },
+  "all_other_fields_and_errors": "Preserved in the entire original immutable evidence file below; no stale trial object is rebound."
+}
+```
+
+原索引/分卷已逐字核取；以下 whole-file 固定身份保全部原字段与失败/未知，不复制科学raw，不把统计进度当完整报告。
+
+```json
+[
+  {
+    "path": "topics/visible-flex-larger-amplitude/notes/2026-11-28-public-actions-46105138690-1.md",
+    "bytes": 45638,
+    "sha256": "abca9109ca366d97dfdce778edca35a5adab0be75ce7d6b7c24fa43fffb5bf7b",
+    "git_blob_sha": "2c112e08e3dcdc99c2e5775c7bdfb5b54f7f74a7",
+    "fixed_commit": "405ab36831ff0c73112428b55debed613c5352e8",
+    "scope": "Complete immutable original file; every command, input/output identity, returned value, missing field and error is preserved at this exact commit."
+  }
+]
+```
