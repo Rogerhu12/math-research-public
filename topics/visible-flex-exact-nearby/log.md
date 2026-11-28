@@ -195,3 +195,6 @@
 
 
 2026-11-28 11:21:44 UTC / visible-exact-astra-b0d5a16-20261128：SAR。对真实WSS全两列在原GG1424格按两条有序递推构造signed particular，保root/cut/outer完整双列和三真实2×2 Gram，另加全部193自由边界。已知high与right97通过min(g_J L*,c_J+g_J d_C)同一源图接收；cut以局部H1真迹付费。必要WSS恢复全61chunks/index而不重算旧polarization；GG尚未成功，未运行新解。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-signed-selected-affine-columns-and-true-high-return-at-the-cut.md","bytes":6411,"sha256":"3cbec5453da323feccbef04817644b14246252c68d328debe8e50bd6d007af70"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_affine_response.py","bytes":20775,"sha256":"012d08eae1e696ffdf6c78a107894483a764ed6b0bfd37b5dd88de7de6cb63b4"},{"path":"topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_signed_response_source_restore.py","bytes":11806,"sha256":"4ede5c9b533d1599a99b2687c42ee63c2348f566513b4333eda0526a19c6861e"}]。
+
+
+2026-11-28 11:22:07 UTC / visible-exact-astra-b0d5a16-20261128：ASQ17。真C逆的12/16项Neumann作用在全Theta行的截断费<1e−10/4e−15；原全96联合Theta在n≥4097的实际输入尾<.000117，真同号/异号与原mean零空间保持。必须对实际H_c r取尾，不能把入端尾替代响应尾；数值真lift/coeff误差另加。  全部新文件身份：[{"path":"topics/visible-flex-exact-nearby/results/R149-supplement-fast-true-Theta-series-and-complete-original-high-row-tail.md","bytes":5351,"sha256":"ea35e6595e17bbe27eb8c550353d714fd76bf93f3d5a01c31d31aa0f9158ff25"}]。

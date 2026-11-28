@@ -312,3 +312,6 @@ AWSS：实际46136409179/1两目标success，7728全闭格/61chunk/577×2含原�
 
 
 SAR：对真实WSS全两列在原GG1424格按两条有序递推构造signed particular，保root/cut/outer完整双列和三真实2×2 Gram，另加全部193自由边界。已知high与right97通过min(g_J L*,c_J+g_J d_C)同一源图接收；cut以局部H1真迹付费。必要WSS恢复全61chunks/index而不重算旧polarization；GG尚未成功，未运行新解。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
+
+
+ASQ17：真C逆的12/16项Neumann作用在全Theta行的截断费<1e−10/4e−15；原全96联合Theta在n≥4097的实际输入尾<.000117，真同号/异号与原mean零空间保持。必须对实际H_c r取尾，不能把入端尾替代响应尾；数值真lift/coeff误差另加。 后继仍须满足该证明中全部未付条件，不能替代完整闭族验收。
