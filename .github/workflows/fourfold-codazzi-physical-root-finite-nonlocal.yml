@@ -1,0 +1,118 @@
+name: Genuine finite root nonlocal and independent physical mean
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-physical-root-finite-nonlocal.yml
+permissions:
+  contents: read
+concurrency:
+  group: visible-flex-exact-finite-root-physical-nonlocal-20261128
+  cancel-in-progress: false
+jobs:
+  physical-circle-sources:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    container: python@sha256:4d1caded1f729ae443eb803f26ffde7b61e696aeaef62f099abb6dd6b14257c7
+    timeout-minutes: 325
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - name: Install the public read-only repository transport
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-physical-root-finite-nonlocal-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-28-JCR-new-actual-root-circle-rational-comparisons.json
+            /topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/common_reference_columns_old_circle_ci/run-43688459733-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/genuine_signed_local_collar_ci/run-46143574106-1/root-whole-admission.json
+            /topics/visible-flex-exact-nearby/notes/genuine_signed_local_collar_ci/run-46143574106-1/whole-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/paid_waist_strong_error_assembly_ci/run-43769746581-1/actual-scientific-conclusion.json
+            /topics/visible-flex-exact-nearby/notes/paid_waist_strong_error_assembly_ci/run-43769746581-1/execution.json
+            /topics/visible-flex-exact-nearby/notes/primitive_mean_strict_propagation_ci/run-43731464771-1/execution.json
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-actual-genuine-common-radial-columns-and-old-circle-inverse.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-interval-angular-inverse-and-physical-mean.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md
+            /topics/visible-flex-exact-nearby/results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-complete-root-collar-nonlocal-source-with-both-physical-circle-inverses.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-first-genuine-source-through-the-physical-waist-and-common-input.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-Laurent-terminal-column-and-physical-shift-reception.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-free-first-wave-and-correlated-genuine-potential.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-signed-two-circle-residual-for-complete-nonlocal-and-mean-sources.md
+            /topics/visible-flex-exact-nearby/results/R149-supplement-uniform-negative-circle-inverse-through-the-true-root.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_genuine_nonlocal_columns.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_genuine_nonlocal_owner.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_laurent_terminal.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_background_jets.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_helper_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_signed_laurent_enclosure.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_radial_potential_budget.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_collar_reference.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_physical_mean_adjoint.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_reflected_circle_inverse.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_two_circle_residual_words.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_shifted_circle_backend.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_shifted_circle_receiver.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_density_transport_arithmetic.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_root_input.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_characteristic_seed_admission.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_phase_original_inputs.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_live_rules.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_ratio_prefix.py
+      - name: Check every current whole source before numerical imports
+        env:
+          FROZEN_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-28-physical-root-finite-nonlocal-inputs.json
+          FROZEN_SHA256: 36d319f4a60ae50e16613b8e1d61f2c1e9ce0a47ff762d36e39a78a36b6d1607
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          python -B - <<'PYEND'
+          import ast,hashlib,json,os
+          from pathlib import Path
+          b=Path(os.environ['FROZEN_MANIFEST']).read_bytes();h=hashlib.sha256(b).hexdigest()
+          assert h==os.environ['FROZEN_SHA256']
+          z=json.loads(b);assert len(set(s['path'] for s in z['files']))==len(z['files'])
+          for s in z['files']:
+              p=Path(s['path']);v=p.read_bytes()
+              assert (len(v),hashlib.sha256(v).hexdigest(),hashlib.sha1(b'blob '+str(len(v)).encode()+b'\0'+v).hexdigest())==(s['bytes'],s['sha256'],s['git_blob_sha'])
+              if p.suffix=='.py':ast.parse(v,filename=str(p))
+          print('GNF_FROZEN_SOURCES',len(z['files']),h,'original input count',z['original_whole_count'])
+          PYEND
+          python -m pip install --disable-pip-version-check --only-binary=:all: numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+      - name: Measure all finite root-collar nonlocal columns and the true physical mean
+        env:
+          FROZEN_SHA256: 36d319f4a60ae50e16613b8e1d61f2c1e9ce0a47ff762d36e39a78a36b6d1607
+        run: |
+          script_root=topics/visible-flex-exact-nearby/scripts
+          python -B "$script_root/fourfold_codazzi_true_ratio_live_rules.py" python -B "$script_root/fourfold_codazzi_collar_genuine_nonlocal_owner.py" --repo "$GITHUB_WORKSPACE" --manifest "topics/visible-flex-exact-nearby/notes/2026-11-28-physical-root-finite-nonlocal-inputs.json" --manifest-sha "$FROZEN_SHA256" --private "$RUNNER_TEMP/gnf-private" --receipt "$RUNNER_TEMP/gnf-actual.json"
+      - name: Print the entire small terminal outcome or its confirmed physical prefix
+        if: always()
+        run: |
+          python -B - <<'PYEND'
+          import hashlib,json,os
+          from pathlib import Path
+          p=Path(os.environ['RUNNER_TEMP'])/'gnf-actual.json'
+          if p.is_file():
+              b=p.read_bytes();z=json.loads(b)
+              assert 0<len(b)<100000 and isinstance(z['complete'],bool)
+              print('GNF_FINAL_WHOLE_OR_PREFIX',len(b),hashlib.sha256(b).hexdigest(),b.decode().strip(),flush=True)
+          PYEND
