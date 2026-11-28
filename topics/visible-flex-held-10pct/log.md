@@ -501,3 +501,7 @@
 ### 2026-11-28 07:52 UTC — Astra-held10-7c4e33ee-20261128
 原R53同输入积分memo真实M32/32全径向节点RHS/dy/dp冷/热均逐位一致；隔离写入核过，峰RSS376012KiB，原6.664s/热1.357s。完整core状态/θ字节绑定、返回可写副本、原积分/门不变，见design-core-evaluate-memo。
 V4→QR真实944点初域probe过但未求BVP；只取消未启动旧QR waiter，后继在design-secant-corecache-qr-20261128待真.016，原bootstrap未动。继续λ1/完整fullH，不把缓存算接受场。
+
+### 2026-11-28 07:57 UTC — Astra-held10-7c4e33ee-20261128
+R73登记：新最终Cartesian C²前缀/短桥944×1024全角闭盒共966656盒零未决，support>.6445、norm<1.1901、area>.2974；原PSD余量及精确有理后处理给K≤123/10。
+完整true-core/中心修补/公共Hermite直接包围，不搬旧R62；实际数据及source/hash见new-prefix-continuous-geometry。独立再生定义数组逐位同、108点jet分量包围内；未付连续metric/附尾/λ1/固定g，继续这些实问题。

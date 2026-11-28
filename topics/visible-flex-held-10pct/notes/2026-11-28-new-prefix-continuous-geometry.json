@@ -1,0 +1,140 @@
+{
+  "status": "continuous_new_prefix_geometry_certified",
+  "scope": "Continuous geometry of the NEW complete Cartesian R53 prefix.\n\nThe final Cartesian shared-Hermite coefficients, the complete true-core lift,\nand the actual center two-jet repair define the map.  Source primitive means,\nold R62 bounds and sampled jets are not substituted for that map.  This checks\ngeometry only; it does not certify metric error, a tail, reach or refinement.\nAll interval arrays and polynomial data stay outside the repository.\n",
+  "complete": true,
+  "metric_certified": false,
+  "tail_attached": false,
+  "complete_surface": false,
+  "source_run": "/workspace/scratch/7c4e33ee17de/held10-design-work/design-material-recovery-20261128/lambda002_m24/run.json",
+  "source_run_sha256": "1ad1682601655468ecacfe22867d20fe849e87406fac64f1d3b3f9c36ab63891",
+  "old_numeric_bounds_reused": false,
+  "source_primitive_substituted": false,
+  "modes": 24,
+  "homotopy": 0.002,
+  "physical_sha256": "b9a61ae87a80f550daf98417e0cf2c39d12e3150a974fb8c904aa3d21cc7d1b0",
+  "radial_spans": 944,
+  "mean_nodes": 1168,
+  "center_width": 0.04,
+  "defining_jets_sha256": "02bba64a6afc45903b95ed159daa5d761d3f3d5121dbf980caac94d0e2b1fa10",
+  "progress": {
+    "stage": "new_map_continuous_geometry",
+    "radial_done": 904,
+    "radial_total": 944,
+    "boxes": 925696,
+    "failed_boxes": 0
+  },
+  "seconds": 437.6665242079998,
+  "true_core_angular_ranges_sha256": "3dbe52090953c556abcab1fffd93bb784a18fde185851ac45e23cade85fcab52",
+  "oracle": {
+    "core_kind": "true-R65-supported-phase-integral",
+    "phase_basis_family": "full_period_sine_v1",
+    "anchor_support_exact": [
+      "1080863910568919/18014398509481984",
+      "579920315453815/1152921504606846976",
+      "-3007561987672999/73786976294838206464",
+      "-2007626649558593/1180591620717411303424",
+      "5374117957276761/9444732965739290427392",
+      "1328885329131963/1180591620717411303424",
+      "-2940431885136769/18889465931478580854784",
+      "-3513158225293773/9444732965739290427392",
+      "3239112860174971/18889465931478580854784",
+      "8731607510533203/75557863725914323419136",
+      "-4466923441715595/37778931862957161709568",
+      "-5656797181392575/302231454903657293676544",
+      "5041317966602535/75557863725914323419136",
+      "-3937001686223551/302231454903657293676544",
+      "-1159851929960045/37778931862957161709568",
+      "1252903170406263/75557863725914323419136",
+      "3815655611855551/302231454903657293676544",
+      "-1199862345935723/75557863725914323419136",
+      "3374158325491523/151115727451828646838272",
+      "-7798807452909593/151115727451828646838272",
+      "3473249566308131/18889465931478580854784",
+      "7221385168844871/151115727451828646838272",
+      "-4128417160308651/151115727451828646838272",
+      "-1711144480758463/151115727451828646838272"
+    ],
+    "phase_controls_exact": [
+      "0"
+    ],
+    "true_period": "2*pi/3",
+    "true_sector_halfperiod": "pi/3",
+    "frequencies_lower_exact": [
+      "3"
+    ],
+    "frequencies_upper_exact": [
+      "3"
+    ],
+    "homotopy_exact": "1152921504606847/576460752303423488",
+    "S_exact": "1/2",
+    "b_exact": "3602879701896397/18014398509481984",
+    "k_exact": "3602879701896397/18014398509481984",
+    "rho_lower_exact": "37480285624898675630617/75557863725914323419136",
+    "support_complex_radius_exact": "1/16",
+    "support_complex_B_upper_exact": "2498611578423495/4503599627370496",
+    "inverse_radius_exact": "6014964146841003/288230376151711744",
+    "position_radius_exact": "6014964146841003/288230376151711744",
+    "complex_kappa_bound_exact": "639589313734525/281474976710656",
+    "beta_abs_coarse_exact": "5486333368394517/2251799813685248",
+    "beta_interval": [
+      0.7287691583137267,
+      0.7287691583138957
+    ],
+    "phase_l1_rational_upper_bounds": {
+      "phase": "0",
+      "kappa": "0",
+      "kappa_u": "0",
+      "kappa_uu": "0"
+    },
+    "source_float_frequencies_not_used_as_true_constants": true,
+    "global_phase_basis_regular_order_at_least": 4,
+    "global_curve_regular_order_at_least": 5,
+    "cells_per_unit": 256,
+    "inverse_degree": 24,
+    "inverse_seed_max_width": 3.0399313313932445e-75,
+    "source_float_inverse_used_only_as_seed": true,
+    "old_small_lambda_numeric_bounds_reused": false,
+    "old_core_or_prefix_certificate_reused": false,
+    "frequency_definition": "3*j",
+    "normalizations_exact": [
+      "18380315979205837/3602879701896397"
+    ],
+    "queried_core_kind": "true-R53-material-support",
+    "zero_phase_specialization": true,
+    "source_field_relabelled": false,
+    "source_supported_phase_controls_added": false
+  },
+  "continuous_prefix_geometry_certified": true,
+  "covered_radial": [
+    0.0,
+    1.425269704374845
+  ],
+  "full_angular_range": "[0,2*pi]",
+  "angular_boxes": 1024,
+  "boxes": 966656,
+  "failed_boxes": 0,
+  "first_failures": [],
+  "bounds": {
+    "support_lower": 0.6445099883604929,
+    "radius_upper": 1.1900082155194167,
+    "area_lower": 0.29747502207979754,
+    "curvature_psd_diagonal_lower": 1.0728806928768255,
+    "curvature_psd_determinant_lower": 11.50709320462769
+  },
+  "thresholds": {
+    "curvature": 12.3,
+    "support": 0.087,
+    "radius": 1.34
+  },
+  "source_hashes": {
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/geometry/cartesian_prefix_interval_geometry.py": "1e4554834e66dc72a8942bc9a844225704d478a07e248084aa4531ef891990dc",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/actual_cartesian_prefix.py": "6290427a4bafb2d3e8a5d5c7da10bf43e446de45f5851e69bf3d4a00d758248b",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_interval_center.py": "a7d5d8d8d80b1ba99d4054dd6cf79a3264421f1c438460dadf10a3a7f77a9f3d",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/warm_phase_validated_core.py": "8fb218071da89f111982a6ac970f51fcf0e52487b6985d637af26211ddcd9194",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/r53_validated_material_core.py": "743ed9b9a38cbc4ec2a3bf5b6d8d340cdc3d5c330bb37626ed453707e7bde197",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_r59_fixed_mean_ranges.py": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+    "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7"
+  }
+}

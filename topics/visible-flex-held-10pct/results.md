@@ -170,3 +170,8 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R72. δ设计的精确端口响应与相位兼容标量
 
 [完整证明](results/R72-delta-robin-response-and-phase-compatibility.md)。完整转移R=ell·B·P·e1保桥/端点导数；本原多段profile精确返回半径1，桥全部输入固定，故桥项才可消。共振δ响应为含det(B)与a⁻³权重的伴随积分，二次型不定，不凭公式断言非零；给有限幅完整chart/lift的伴随相容标量及实际残差右端。R14连续mean微分不新增独立端口行；以δ换d1须实付Schur横截，未证明当前BVP可逆或新场存在。
+
+
+## R73. 新公共 Cartesian C² 前缀的连续几何
+
+[完整证明](results/R73-new-common-cartesian-prefix-continuous-geometry.md)。本次真实879节点λ.002/M24场的新945节点最终Cartesian图，保完整真实R53 lift及声明的新有限均值；944径向×1024全角闭盒共966656盒零未决。全前缀/短桥连续support>.6445、norm<1.1901、area>.2974，PSD余量加精确有理收紧给|κ|≤123/10；适用于全部相位刚性旋转/重参数化。未附尾/cut，连续metric/λ1/完整闭族/固定g收敛未付，不继承R62旧数字。
