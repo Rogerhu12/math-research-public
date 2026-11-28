@@ -1,17 +1,19 @@
 {
-  "message": "ISP: exclude the entire delta-positive u-half original valuation branch",
-  "parentCommit": "da33e08b58370e867111486ce66219290632870d",
+  "message": "ISP: exclude entire delta-positive Astar degeneration and start new Vbar original targets",
+  "parentCommit": "5901605e73983cdf5ef34f8683f9e0b2271699a8",
   "rulesGitBlobs": {
     "README.md": "99c5ad8d06e939e6cfbbab1afdeffa5463f15f18",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-internal-delta-positive-u-half-entire-original-valuation-exclusion.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-whole-quartic-original-values-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-second-NV-head-ell-three-halves-whole-quartic-original-values-8542-input.md",
-    ".github/workflows/invariant-subspace-8542-phi-second-head-ell-three-halves-whole-quartic-values.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-delta-u-half-whole-2220-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-delta-u-half-whole-2220-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-W-b0-internal-delta-positive-Astar-entire-original-valuation-exclusion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-Vbar-positive-M-zero-and-generic-mu-pole-original-input-8542.py",
+    "topics/invariant-subspace-problem/notes/2026-11-29-unit211-W-Vbar-positive-M-zero-and-generic-mu-pole-original-input-8542-input.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-terminal-environment-reprobe-1907-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-root-publication-preparer-8542.js",
+    ".github/workflows/invariant-subspace-8542-w-vbar-positive-M-zero-and-mu-pole.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-29-HANDOFF-before-W-delta-Astar-2225-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-29-open-before-W-delta-Astar-2225-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,6 +23,6 @@
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-second-head-ell-three-halves-whole-quartic-values.yml"
+    "invariant-subspace-8542-w-vbar-positive-M-zero-and-mu-pole.yml"
   ]
 }

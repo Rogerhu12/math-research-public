@@ -34,6 +34,8 @@
 
 ## 新增结论
 
+- [R150：δ正阶、Astar任意正阶的整个原支排除](results/R150-appendix-unit211-W-b0-internal-delta-positive-Astar-entire-original-valuation-exclusion.md)：完整原N5/T⁵的线性项和准确余项理想，结合原q2/R6覆盖mu恰零、正阶、单位及任意极点；两个Astar剩余根同时排除，无新执行。delta的一般有限mu仍保。
+
 - [R150：δ正阶、u剩余二分之一的整个原支排除](results/R150-appendix-unit211-W-b0-internal-delta-positive-u-half-entire-original-valuation-exclusion.md)：完整(m,δ)整局部坐标与余项理想覆盖mu全部极点、有限值及所有相对阶；原N5末非零1/72、2/9，任意深M分别支付。无新数学执行，δ其他剩余值仍保。
 
 - [R150：全ell整性与Vbar正阶的有限权图](results/R150-appendix-unit211-W-b0-global-ell-integrality-and-Vbar-positive-finite-weight-chart.md)：统一原q2/R6排全部ell极点，无delta逆；Vbar只余U1/2,k−4、z整，四个原深中心L0/1/4/1/2/7/4逐支排除。M两零值和一般mu尚未支付，无新数学执行。
