@@ -28,6 +28,8 @@
 
 ## 新增结论
 
+- [R150：第二完整NV t头的原首一σ二次与四列呈示](results/R150-appendix-unit211-Phi-zero-corrected-second-NV-t-head-original-monic-sigma-and-four-columns.md)：旧ellδ首一化完整第二矩，第三矩与完整NV有显示一次余式；同σ实际2×4呈示保所有头零、D0和t变量。纸面原身份，无新执行或排空；物理商不冒称自由，续真实原均值输入。
+
 - [R150：完整NV第一t头的原小三次、三个标量与冻结gcd边界](results/R150-appendix-unit211-Phi-zero-corrected-first-NV-t-head-original-cubics-scalars-and-frozen-gcd-boundary.md)：e362唯一120.073936225秒/−14；原Gram完整NV小三次、E2首一λ2、两个短除及三个原σ标量6/5/6均已完整返回。只σ6首种子，不是共同gcd；无合并/最终三原cover/排空，原120秒门冻结转新输入。
 
 - [R150：W/b0正k的e首值负一全分层原排除](results/R150-appendix-unit211-W-b0-positive-k-e-minus-one-complete-original-valuation-exclusion.md)：vu与vk全部比例、μ零/整值/各极点均由原q2/R6/N5覆盖，最后Z=bar(kμ)须同时满足R6三次及Z=−4/−16，矛盾。结合一般中心与E1论文关闭整个正k射线；仅余其它四ray和内部/整权模型，不宣全W空性。
