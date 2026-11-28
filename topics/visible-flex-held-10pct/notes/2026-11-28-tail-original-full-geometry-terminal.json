@@ -1,0 +1,93 @@
+{
+  "status": "actual_original_complete_tail_geometric_execution_returned_with_unmet_original_allocations",
+  "session": "Astra-held10-7c4e33ee-20261128/tail_closure",
+  "date": "2026-11-28",
+  "actual_exec_session": 43666,
+  "actual_exit_code": 2,
+  "pipeline_summary": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/summary.json",
+    "sha256": "4939f1c86421d454f38e29f222b594ea8f33b9aa8c2b0aa17dcb02dce3c050a8"
+  },
+  "complete_original_certificate": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-certificates-001/summary.json",
+    "sha256": "824fc92ebdd98f1ff04a311a2aaeaf525291f8e2ba4a7efbd103166f963b44ee"
+  },
+  "original_component_certificates": [
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-certify-001/summary.json",
+      "sha256": "cc0931d8279b1a1f0195bf84c7206856ea36ed97b3fc2ea4f880909c4db9aaae"
+    },
+    {
+      "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001/summary.json",
+      "sha256": "b9d827c0ae5b41e804646bb758c81d6ee81687e998edbd46d2146949147e3271"
+    }
+  ],
+  "geometry_bundle": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/complete-map-001/geometry-bundle.json",
+    "sha256": "3b312be557d67cda05624e41d46266925fbe3836c48759c613ede6cf52c70b98"
+  },
+  "accepted_packet": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-20261128-a/tail_0001.json.gz",
+    "sha256": "81f6eb0f5c253c13d6aaaa320adbf95bfc6c59dca7a45b888bacd7b6991b770c"
+  },
+  "full_spectrum_contract": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/spectrum-contract.json",
+    "sha256": "36beb8cf3dadf3763f8ae741c8bc4dd20517f4d5efaf26abfb42449af1d206b9"
+  },
+  "original_entire_mean": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-20261128-a/steps/stage0-export-001/original-native-mean-chain.json",
+    "sha256": "161eec0d27afb4a0b81c84ef85c5849259f1c9faf39093bfedfce099fc2fbbe9"
+  },
+  "original_sources": {
+    "certify_q060_shared_r_tail_batch.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_shared_r_tail_batch.py",
+      "sha256": "c646bd4a918aa467212870d437718f22451903a0141242fa5ebf3166ba376aac"
+    },
+    "certify_q060_stage127_r_quintic.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/certify_q060_stage127_r_quintic.py",
+      "sha256": "4a2bcb9f9e749ce62663d3b8768029ed7c19cbde03a7068eaab3f6552f36fe94"
+    },
+    "q060_true_background_oracle.py": {
+      "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/q060_true_background_oracle.py",
+      "sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901"
+    }
+  },
+  "original_certifier": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_certify_tail_geometry_v2.py",
+    "sha256": "ee381646dc052b8d7c9833aa693a5568982542cc11e26cfcfdf1c35edb0791ef"
+  },
+  "complete_map_source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261126/seam_run_tail_geometry_v2.py",
+    "sha256": "c165678d912761163ef29cfca1eb9c4dfc4bbf3102de6a00b228ca537f727615"
+  },
+  "actual_chunk_entry": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/chunked_tail_geometry_resume_v2.py",
+    "sha256": "ea610a2b60e58677442946b3463fb1c9b6e9affe0cd2a7048b580ee611726568"
+  },
+  "finite_stages": 1152,
+  "literal_spans": 18460,
+  "original_metric_failed_stages": 52,
+  "original_metric_unproved_spans": 816,
+  "original_metric_proved_spans": 17644,
+  "maximum_original_metric_upper": 0.00015592122745872465,
+  "maximum_original_curvature_upper": 10.017503096013616,
+  "original_K_below_10_allocation_failures": [
+    82
+  ],
+  "deep_collar_certificate": {
+    "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001/new-deep-collar.json",
+    "sha256": "42814b122a57d46b7ccbd7ab12c97c8c9328169a2454443a95d8d6d761cc162d"
+  },
+  "deep_collar_metric_upper": 1.4617380072747594e-29,
+  "deep_collar_curvature_upper": 8.000000000000002,
+  "complete_tail_disk_planar_projection_injective": true,
+  "finite_tail_to_its_own_deep_disk_C2": true,
+  "original_complete_tail_metric_gate": false,
+  "original_complete_tail_K10_allocation": false,
+  "stage0_certificate_recomputed": false,
+  "actual_original_certificate_seconds_sum": 3302.6901860430007,
+  "actual_pipeline_seconds": 5901.390749691003,
+  "upper_bound_failure_is_not_actual_error_lower_bound": true,
+  "whole_closed_surface_claimed": false,
+  "readme_completion_claimed": false
+}

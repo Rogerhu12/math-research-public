@@ -1,0 +1,77 @@
+{
+  "status": "two_actual_complete_same_map_tail_stages_continuous_metric_certified",
+  "session": "Astra-held10-7c4e33ee-20261128/tail_closure",
+  "date": "2026-11-28",
+  "mathematical_derivation": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-tail-true-w-taylor-first-certificate.md",
+    "sha256": "58c669907e69646b807c46cdebfbb5a8a6bd13ffed68854d61c15910332b52ae"
+  },
+  "actual_selected_input_gate_sidecar": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/notes/2026-11-28-tail-manifest-count-and-selected-gates.json",
+    "sha256": "607a33fab43d0336c83c9b17873a6003bd64523f3e30565967dd1dd2b668a084"
+  },
+  "source": {
+    "path": "/workspace/scratch/7c4e33ee17de/math-research-public/topics/visible-flex-held-10pct/scripts/resume_20261128/tail/tail_metric_true_w_taylor.py",
+    "sha256": "9b3a6d07cf27149e6af48fb1280d2fbb02a6964af8e00f8cbee4a159edea3e3c"
+  },
+  "stages": [
+    {
+      "stage": 16,
+      "actual_spans": 16,
+      "original_stage_certificate": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001/stage-0016.json",
+        "sha256": "4032b8a5389a1221eab1271f1cc48094504c9164dc3b667cf62abe1e0591790f"
+      },
+      "Taylor_summaries": [
+        {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage16-all-20261128-a/summary.json",
+          "sha256": "387dd67d9c29724981867aae44e3e8e7973d74d8fd44ea5d7e7b44a9858b7270"
+        }
+      ],
+      "whole_original_stage_continuous_metric_certified": true,
+      "maximum_metric_upper": 1.3930787705095377e-08,
+      "old_whole_stage_upper": 3.0360854527374876e-06,
+      "proof_leaves": 16,
+      "proof_subdivisions": 0,
+      "actual_core_seconds": [
+        7.750764906999393
+      ],
+      "original_first_test_span15_recomputed": false
+    },
+    {
+      "stage": 24,
+      "actual_spans": 16,
+      "original_stage_certificate": {
+        "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-fullheight-ulp-geometry-chunks-20261128-b/steps/remaining-certify-001/stage-0024.json",
+        "sha256": "8f1358d6586002dec7534cd84e7f84466c25b2191552d810d130d36ad3c26019"
+      },
+      "Taylor_summaries": [
+        {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-span15-20261128-a/summary.json",
+          "sha256": "4a959e29203f9b2b0cf2bf46d09ecf17e3f4bf0b0b0833af0445bd04d2f65f70"
+        },
+        {
+          "path": "/workspace/scratch/7c4e33ee17de/held10-design-work/tail-true-w-stage24-spans0-14-20261128-a/summary.json",
+          "sha256": "fef7bf6ccecc90dcc30fe2a9c72c85ce40116850be194e5ab0103931218bed2f"
+        }
+      ],
+      "whole_original_stage_continuous_metric_certified": true,
+      "maximum_metric_upper": 8.643040227348194e-09,
+      "old_whole_stage_upper": 0.00015592122745872465,
+      "proof_leaves": 16,
+      "proof_subdivisions": 0,
+      "actual_core_seconds": [
+        5.779301260001375,
+        108.48799133899956
+      ],
+      "original_first_test_span15_recomputed": false
+    }
+  ],
+  "total_original_spans": 32,
+  "target_exact": "1/1000000",
+  "field_target_all_modes_mean_H_changed": false,
+  "old_true_certificates_overwritten": false,
+  "whole_finite_chain_metric_claimed": false,
+  "deep_collar_claimed": false,
+  "whole_surface_claimed": false
+}

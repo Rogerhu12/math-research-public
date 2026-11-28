@@ -4,7 +4,7 @@
 
 ## 规则与已读提交
 
-- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `6f44feb0c90fbba462a6f7781f500a5d9658c0ae`（2026-11-28 13:49 UTC）。
+- 初始双README全文已读于 `b0865cd9e3eb99ae5e48c4c6d5f49ec538b88d7c`（约06:23UTC）。最近实际pull后双README已读锚 `07847bafb40d909896c1e377d5533114df987b72`（2026-11-28 13:52 UTC）。
 - 私库QUEUE已认领，推 `e96d935de69d7e96381ba17732e6f92350654b2a`；13:05:52UTC真pull到 `daa55359468914e15b0fdb5864785c3a3991cfe5`，双README空diff、认领仍本会话。公/私库至少每小时pull；每次pull只核已读锚后的双README差异，照新规则，H记录实际SHA。每结论push；NFF立即rebase重推至成功，不force。令牌仅命令行。
 - 根§12/13/15/16照做：授权直接提交/Actions，可再生产物不存Git/Release；新spawn显式gpt-6.2-astra/ultra/forknone。H<10KB、单MD<100KB、课题<200MB。改外部workflow记本题log。
 - [接手来源](notes/2026-11-28-resume-current-sources.md)、[继承H](notes/2026-11-28-inherited-handoff.md)、[继承open](notes/2026-11-28-inherited-open.md)及[本次详细断点快照](notes/2026-11-28-handoff-details-before-compact.md)保全历史数字/失败/命令。不得重做已登记结论；丢失runner原输入的必要再生不算新前沿。
@@ -31,7 +31,7 @@
 
 [完整1152段C²定义已返](notes/2026-11-28-tail-actual-complete-geometry-bundle.md)，bundle3b312be5…；全170 planar+25 height模、18460 quintic spans、1153边界及1151相邻两jet/原global mean全核。[chunk恢复](notes/2026-11-28-tail-chunked-geometry-recovery.md)保stage0+105旧段，新1046段来自177正常/2部分−9真实返回；181组件/179anchor由独立SHA-bound sidecar说明，旧construction文字未倒改。
 
-[stage0原严界](notes/2026-11-28-tail-actual-fullH-stage0.md)metric≤3.60000e−8、K≤8.17731。TTY43666续原全尾cert，stage16起有上界未过，非实际误差下界。[真实w(R) Taylor](notes/2026-11-28-tail-true-w-taylor-first-certificate.md)已付stage16/24全部32span，max1.394e−8/8.644e−9，原selected gates另实补、root44引用/32叶核过；全尾仍在补。deep collar、投影单射、全连续界及原8outer仍欠。
+[原全尾终态](notes/2026-11-28-tail-original-full-geometry-terminal.md)：TTY43666/exit2已遍1152段/18460 spans；17644 spans原metric过，816未付；Kmax10.017503096（仅stage82内门10未过）。deep metric≤1.462e−29/K≤8.00001、全尾投影单射/共享两jet接深盘已证。[真实w Taylor](notes/2026-11-28-tail-true-w-taylor-first-certificate.md)已付16/24全32span，通用v2只续原未付，不重算。原8outer仍欠。
 
 [全尾半径恒等已付](notes/2026-11-28-analytic-actual-complete-tail-radius-identity.md)：c=Rc=5404319552844595/18014398509481984，实数定义r(R)=R、r′=1、r″=0；完整谱/mean/共享两jet/索引再核，14.684s，parent/child0。只属原raw-H场，不借旧metric。
 
