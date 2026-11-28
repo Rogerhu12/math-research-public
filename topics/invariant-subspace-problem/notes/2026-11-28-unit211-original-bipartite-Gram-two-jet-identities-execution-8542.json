@@ -1,0 +1,43 @@
+{
+  "sourceSHA256": "277c1c978d07f65308eedbc291513e1039c69e99f179b0e2b9c6e472334450ff",
+  "sourceBytes": 3545,
+  "schema": "isp-original-bipartite-unit211-jets-v1",
+  "variables": [
+    "b",
+    "c",
+    "p",
+    "q",
+    "r",
+    "s"
+  ],
+  "elapsed_milliseconds": 5,
+  "integerPolynomialProducts": 495,
+  "checks": [
+    {
+      "name": "same_full_Gram_F2_equals_twoV",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "full_original_Pjet_N0_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    },
+    {
+      "name": "full_original_Njet_means_N0_identity",
+      "fullIntegerPolynomialDifferenceZero": true
+    }
+  ],
+  "originalGramRows": [
+    "0,0,p,q",
+    "0,0,r,s",
+    "p,r,0,0",
+    "q,s,0,0"
+  ],
+  "trueDualGermSquare": true,
+  "allSixParametersIndependent": true,
+  "noPhiAssumption": true,
+  "noWAuxiliaryAssumption": true,
+  "noUnpaidDivision": true,
+  "noOldQuadraticHeadUsed": true,
+  "consequenceUsingOriginalN0P1N1AndMeans": "P02 != 0 forces T=-ell and A2=ell, hence D=0",
+  "originalISPClaim": false
+}

@@ -1,18 +1,18 @@
 {
-  "message": "ISP R150: preserve independent true N1 environment; first corrected Phi common-head return",
-  "parentCommit": "fb38378c6a59c4ebf667cc42477f7ee8109b4574",
+  "message": "ISP R150: entire original bipartite Gram jets force value discriminant zero",
+  "parentCommit": "8f713572e31f8c50cb0ff0436453427394d0f32f",
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "5fbd905291dd044c88d35bd9c07ac0e586ff795a"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-unit211-original-N1-monic-quadratic-and-Phi-zero-twelve-generator-environment.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-h-equals-k-corrected-dual-germ-five-original-rows-three-cofactors-execution-8542.json",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-four-heads-whole-common-zero-original-return-8542.py",
-    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-Phi-zero-corrected-four-heads-whole-common-zero-original-return-input-8542.md",
-    ".github/workflows/invariant-subspace-8542-phi-corrected-common-heads.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-true-Phi-common-heads-8542.md",
-    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-true-Phi-common-heads-8542.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-unit211-original-bipartite-Gram-jets-force-value-discriminant-zero.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-original-bipartite-Gram-two-jet-identities-8542.js",
+    "topics/invariant-subspace-problem/notes/2026-11-28-unit211-original-bipartite-Gram-two-jet-identities-execution-8542.json",
+    "topics/invariant-subspace-problem/notes/2026-11-28-results-before-original-bipartite-jets-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-log-before-original-bipartite-jets-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-handoff-before-original-bipartite-jets-8542.md",
+    "topics/invariant-subspace-problem/notes/2026-11-28-open-before-original-bipartite-jets-8542.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
@@ -21,7 +21,5 @@
     ".github/workflows/invariant-subspace-8542-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-27-root-terminal-publication-request-8542.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-8542-phi-corrected-common-heads.yml"
-  ]
+  "dispatchWorkflows": []
 }
