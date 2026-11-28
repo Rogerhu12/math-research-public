@@ -31,3 +31,5 @@
 - [R783](R783-optimal-four-moving-cap-sectors-and-closed-normal-tubes.md)及[六jet](../scripts/resume_20261126/r783_four_developable_cap_flaps.py)：固定内握的全帽精确发展，四个固定边点最优。一般有限四扇全闭嵌入/宏运动；MILD整reach仅>.0021，tiny才≥1/24.46，中央度量缺陷仍>.23。
 
 - [R785](R785-moderate-two-cap-shear-and-the-full-signed-normal-tube.md)及[完整共剪六jet](../scripts/resume_20261126/r785_two_cap_separable_world_shear.py)：同R781 g、xi≤.02和真实MILD四角，两完整帽全g；全signed法层原reach≥1/22.70及全世界弦/Taylor界使整reach≥1/24.36>.03D，held>.320、商距>.086。真实中央g缺陷>.24，仍是有厚度保证的待纠正场。
+
+- [R779](R779-wide-normal-swing-simultaneous-thick-descent-and-movable-cell-anchors.md)：同R776 g宽法摆的准确全角长/端对与固定λ=1e−10全相厚下降，严格改善≥8e−13仍未接近等距；两胞/三胞以上的规定短锚由内距/厚度界排除，不覆盖50自由物料锚。
