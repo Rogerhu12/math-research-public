@@ -1132,3 +1132,308 @@ $Q\mapsto[\beta]Q$ 的标签、线性 exponential 和全部 $\Gamma$。
 
 本节全为实际原来源的纸笔证明，无数学执行，
 亦未据此宣称新的 Hall 低赋值或无穷多个 Sha 素数。
+
+
+## 10. 同一 canonical 字与参考字的完整核匹配、共同有限平坦族及原 Hall 卷积
+
+本节使用(G34)--(G39)的同一 $\beta^d=17$，但以下整下降不由
+physical sigma 比值的半径免费推出。它直接作用于
+[R1065](R1065-original-hall-katz-unit-measures-and-canonical-return.md)
+(W5)--(W16)的实际 $[p]$ 拉回框架，保留原 $p^2$ lift 和中心。
+
+采用 R1067 §18 已运输到 $E_1=E_0$ 同一不变微分的原来源对：
+目标为 $S_{34}$、norm-$r$，参考为 $\Theta_2=\sigma^2x$、
+norm-$17r$。原非 $p$ 向量、有限角色、原模型运输和 Hall 归一均不改变。
+下文比较实际字，不另选同角色 Schwartz 向量。
+
+### 10.1 全有限平坦 theta 群上的归一
+
+记 $G=\widehat E_0$、$P(v)=pv-v^q$，并置
+$$
+ \mathcal L_N=\mathcal O_E(NO),\qquad
+ \mathcal M_N=[p]^*\mathcal L_N,\qquad N=2,34.
+$$
+使用原同一 $h(v)=v/T_{\rm g}(w(v))$ 及整框架 $[p]^*e_N$。
+对原指定 lift $T\in E[p^2]$，$Q=pT$，准确有
+$$
+ A_{N,T}(v)
+    =m_{N,T}(v)f_N(P(v)\oplus Q),\qquad
+ m_{N,T}(0)=\mathscr C_{N,T}\in\mathcal O_F^\times ,
+ \tag{G40}
+$$
+其中
+$f_{34}=h^{34}R_S\in v^6(1+v\mathcal O_L[[v]])$，
+$f_2=h^2x\in1+v\mathcal O_L[[v]]$。
+$\mathscr C_{N,T}$ 是原实际 Miller/Hall 中心，不能设为1。
+
+以下构造只把中心分离，**不把整个 $G[p^2]$ 上的整 section
+称为原逐点对称 lift**。它不要求逐点对称 lift 构成群同态。
+
+限制实际 theta 群 $\mathcal G(\mathcal M_N)$ 到 $G[p^2]$。
+这是真正的 $\mathbf G_m$-torsor。
+原整拉回框架在形式盘上非零，因此对任何一个 theta lift，
+其 multiplier 在 $v=0$ 的值是单位；此评价是两个
+$\mathbf G_m$-torsor 的等变同构。
+所以有唯一的归一 multiplier
+$$
+ \widetilde{\mathfrak m}_N(v,T)
+   \in\mathcal O_{G[p^2]}[[v]]^\times,\qquad
+ \widetilde{\mathfrak m}_N(0,T)=1.
+ \tag{G41}
+$$
+也可先在有限局部底环上选一个整 torsor section，再除以其
+$v=0$ 值；更换该 section 只乘一个底环单位，被此除法准确消去。
+故(G41)与选择无关，并且是全有限平坦底环上的恒等式，
+不只是 generic 点上的单位估计。
+
+对于 $R\in G[p]$，原 canonical pullback lift 在
+$[p]^*e_N$ 中的 multiplier 为1，见 R1065(W7)--(W8)。
+将(G41)的 lift 右乘这一 lift，底点变成 $T+R$，
+multiplier 仍是 $\widetilde{\mathfrak m}_N(v,T)$，其首值仍为1。
+归一的唯一性给
+$$
+ \widetilde{\mathfrak m}_N(v,T+R)
+       =\widetilde{\mathfrak m}_N(v,T)
+$$
+作为 $G[p^2]\times G[p]$ 上的 scheme 恒等式。
+沿 $[p]:G[p^2]\to G[p]$ 的有限平坦下降，得到唯一
+$$
+ \boxed{
+ \begin{gathered}
+ \mathfrak m_N(v,Q)
+       \in\mathcal O_{G[p]}[[v]]^\times,\qquad
+ \mathfrak m_N(0,Q)=\mathfrak m_N(v,0)=1,\\
+ m_{N,T}(v)=\mathscr C_{N,T}\,\mathfrak m_N(v,pT).
+ \end{gathered}}
+ \tag{G42}
+$$
+最后一式在原指定点/lift 上使用其实际中心，不重选该 lift。
+张量幂与本归一相容，例如
+$\mathfrak m_{34}=\mathfrak m_2^{17}$；
+这不使不同点 $T,T'$ 的中心比自动成为常数。
+
+### 10.2 全 scheme 的核角色准确相同
+
+置 $\nu=N_{L/\mathbf Q_p}\beta$，故
+$34-2\nu\in p\mathbf Z_p$。
+对 $Q=pT\ne0$，取参考原指定 lift $T'$，只要求
+$$
+ pT'=[\beta]Q.
+$$
+无需把它改成 $[\beta]T$。因为
+$T'-[\beta]T\in E[p]$，而
+$e_{p^2}(E[p],E[p])=1$，
+对每个 $R\in E[p]$ 有
+$$
+ \begin{aligned}
+ e_{p^2}(T',[\beta]R)^2
+ &=e_{p^2}([\beta]T,[\beta]R)^2\\
+ &=e_{p^2}(T,R)^{2\nu}
+  =e_{p^2}(T,R)^{34}.
+ \end{aligned}
+ \tag{G43}
+$$
+第二个等号是实际 CM Rosati 共轭给的 determinant $N\beta$
+（在 $p^2$ 级取其准确剩余类）；最后一个等号使用该配对在
+$R\in E[p]$ 时属于 $\mu_p$。
+若用与本式同时相反的 Weil pairing 约定，两边同时取逆，
+结论不变；实际角色固定为 R1065(W9)--(W10)的约定。
+本处按几何点写出 $N$；回到已把极化收入 $\beta_\pm$ 的
+Schrödinger 标记时不得再乘一次 $N$。
+
+(G43)也在 group schemes 上成立。
+确切地，$G[p^2]\to G[p]$ 可在 fppf 底变换后取 lift，
+Weil pairing 的双线性与 Rosati 恒等式本来就是 scheme 恒等式；
+相差的 exponent $34-2\nu$ 被 $p$ 整除，故在 $\mu_p$ 上
+严格平凡。它不是根据 generic $\mu_p$ 点的近似同余作推断。
+$[\beta]$ 在这里仅用原形式 CM 群上的整作用及其
+$p^2$ 挠点作用，不被认作全局同源。
+
+由实际核线性化及(G43)，
+$$
+ \frac{\mathfrak m_{34}(v,Q)}
+      {\mathfrak m_2([\beta]v,[\beta]Q)}
+$$
+对 $v$ 端的整个 $G[p]$ 作用不变。
+再沿 $[p]:G\to G$ 作有限平坦下降，得到唯一的共同族
+$$
+ \boxed{
+ \begin{gathered}
+ J(w,Q)\in
+   \bigl(\mathcal O_L[Q]/(pQ-Q^q)\bigr)[[w]]^\times,\\
+ \frac{\mathfrak m_{34}(v,Q)}
+      {\mathfrak m_2([\beta]v,[\beta]Q)}
+       =J(P(v),Q),\\
+ J(0,Q)=J(w,0)=1,\qquad
+ J-1\in w\,I_Q[[w]],\quad I_Q=(Q).
+ \end{gathered}}
+ \tag{G44}
+$$
+这里的第二次下降在任意底环成立：
+$[p]$ 是其核的 fppf 商，函数的等化子给不变函数；
+也可用 $P(v)$ 的 monic Weierstrass 基
+$1,v,\ldots,v^{q-1}$ 验证。
+没有取 $p^{-2}$ 平均，没有给有理 projector 赋整范数1。
+
+(G44)给真正的厚结构。由于 $P(Q)$ 为 monic（差一个符号），
+每个 $w$ 系数具有唯一的 degree-$<q$ 的 $Q$ 代表，全部系数整。
+尤其可写
+$$
+ J(w,Q)=1+
+   \sum_{i\ge1}\sum_{j=1}^{q-1}J_{ij}w^iQ^j,\qquad
+ J_{ij}\in\mathcal O_L.
+ \tag{G45}
+$$
+这不是从所有特征零点值整而倒推的整性。
+
+R1065 §1已由完整 $\log T_{\rm g}=F_{\rm c}-F$ 证明 $T_{\rm g}$ 的 $\mu_6$ 不变性；
+故原 $\mu_6$ 在 $e_N=h^{-N}\sigma^N$ 上保框架。
+归一唯一性及 $\beta$ 与 $\mu_6$ 交换给
+$J(\epsilon w,\epsilon Q)=J(w,Q)$，$\epsilon\in\mu_6$。
+所以(G45)只在 $i+j\equiv0\bmod6$ 时可能非零。
+同样，$J$ 的系数属于原 $L$；对 fixing $L$ 的实际局部 Galois
+作用，$J(w,\sigma Q)=\sigma J(w,Q)$。
+这提供真正的 tame/Galois 重标，但不消掉中心和外部 Artin 权。
+
+### 10.3 每个实际字的完整整下降与六重零
+
+定义共同整函数
+$$
+ \mathcal R(w,Q)=
+ J(w,Q)\,
+ \frac{f_{34}(w\oplus Q)}
+      {f_2([\beta](w\oplus Q))}.
+$$
+分母为整单位，所有加法和 $[\beta]$ 都是原整形式群作用。
+对原指定 $T,T'$ 置
+$$
+ C_{T,T'}=\frac{\mathscr C_{34,T}}{\mathscr C_{2,T'}},
+ \qquad R_T(w)=C_{T,T'}\mathcal R(w,Q),\quad Q=pT.
+$$
+由(G40)、(G42)、(G44)逐项得到
+$$
+ \boxed{
+ A_{34,T}(v)
+       =A_{2,T'}([\beta]v)\,R_T(P(v)).
+ }
+ \tag{G46}
+$$
+这里 $A_{2,T'}([\beta]v)$ 本身为整单位，
+而 $R_T$ 一般不是单位。
+准确地，
+$$
+ \boxed{
+ R_T(w)=(w\oplus Q)^6\,U_T(w),\qquad
+ U_T\in\mathcal O_F[[w]]^\times,\qquad
+ R_T(0)=\frac{\mathscr C_{34,T}f_{34}(Q)}
+                  {\mathscr C_{2,T'}f_2([\beta]Q)},\qquad
+ v_pR_T(0)=\frac6\Delta .
+ }
+ \tag{G47}
+$$
+形式加法给 $w\oplus Q=(w-[-1]Q)$ 乘一个整单位。
+所以 $R_T$ 的 Weierstrass degree 恰为6，其零点是
+$w=[-1]Q$，准确重数6；没有遗漏一个分母的零点。
+这同时保留 canonical $S_{34}$ 的首阶6和参考质量1。
+
+$\mathcal R$ 是同一个二变量函数；各 $T$ 的差异只剩原实际
+$C_{T,T'}$。不同 $Q$ 的 $U_T$ 不被重新宣称为一个可移出和的单位。
+在 $Q=0$ 时，$\mathcal R(w,0)=f_{34}(w)/f_2([\beta]w)$。
+(G44)的厚 augmentation、原整加法和 $\mu_6$ 型均在此完整式中。
+
+### 10.4 原 Hall 权保持的整模块算子
+
+令 $Q$ 遍历原 norm-$r$ 点集，$T_Q$ 为原指定 lifts；
+参考点集由 $Q'=[\beta]Q$ 准确重标为 norm-$17r$。
+记 $\lambda_Q$、$\lambda'_{Q'}$ 为两条原 Hall 剩余外权；
+若某个相位已经收入 actual lift，则该处不再重复乘。
+完整 target 字和为
+$$
+ \boxed{
+ P_{34,r}(v)
+  =\frac1{\sqrt d}\sum_{\operatorname{Norm}Q=r}
+       \lambda_Q\,
+       A_{2,T'_{[\beta]Q}}([\beta]v)\,
+       R_{T_Q}(P(v)).
+ }
+ \tag{G48}
+$$
+参考本身仍是
+$d^{-1/2}\sum\lambda'_{[\beta]Q}A_{2,T'_{[\beta]Q}}$。
+(G48)没有令 $\lambda_Q/\lambda'_{[\beta]Q}=1$，
+也没有令 $\chi_r(\beta)=1$。
+$\beta$ 的 principal 部分、原 CRT 整数代表、所有中心和
+非 $p$ 来源运输均保持在这些原符号中。
+
+在实际同一个非平凡 kernel character 的函数空间上，
+乘 $\phi R=R(P(v))$ 保持整性及 $\psi=0$。
+故通过 R1065(W13)的真正 Katz 双射，它给一个保持整格的算子
+$$
+ \mathcal M_R:\quad
+ \boldsymbol\mu\longmapsto
+ \mathcal K^{*-1}\bigl((\phi R)\mathcal K^*\boldsymbol\mu\bigr).
+ \tag{G49}
+$$
+$\mathcal M_R\mathcal M_{R'}=\mathcal M_{RR'}$；
+$R$ 为整单位时这是整格自同构。
+本题(G46)用的是准确的 $R_T$，不是任意同角色替代源。
+也没有假设每个 $R_T$ 自身另有一份 Katz 测度。
+因而(G49)是原同 coset 来源的整模块作用，不偷换成未支付的
+普通 $\mathbf C_p$ 测度 convolution。
+
+### 10.5 全部 native carry 与实际首窗
+
+令 $\boldsymbol\mu_{2,T'}^{(\beta)}$ 表示实际
+$A_{2,T'}([\beta]v)$ 的 Katz 测度；它仍整且 $\psi=0$，
+因为 $[\beta]$ 运输完整 $p$ 核。
+写 $R_T(w)=\sum_{k\ge0}R_{T,k}w^k$。
+从 $P(v)^k$ 的精确二项式展开，得到所有 $m\ge0$ 的全式
+$$
+ \boxed{
+ \begin{aligned}
+ \boldsymbol\mu_{34,T}(c_m)
+ =\sum_{\substack{k,l\ge0\\l\le k\\k+\Delta l\le m}}
+   (-1)^l\binom{k}{l}p^{k-l}R_{T,k}\,
+   \boldsymbol\mu_{2,T'}^{(\beta)}
+          (c_{m-k-\Delta l}) .
+ \end{aligned}}
+ \tag{G50}
+$$
+这里是原 universal-character 系数 $c_m$；
+没有插入或删除 $m!$。
+$l>0$ 是全部 native $p^2$ carry，不把高 Lie 矩认成普通系数。
+
+在 $m\le\Delta$ 的实际首窗，只可能 $l=0$：
+$$
+ \boldsymbol\mu_{34,T}(c_m)
+   =\sum_{k=0}^{m}p^kR_{T,k}\,
+         \boldsymbol\mu_{2,T'}^{(\beta)}(c_{m-k}).
+$$
+因此在同一个完整 Hall 和中，准确有
+$$
+ \boxed{
+ [v^\Delta]P_{34,r}\equiv
+  \frac1{\sqrt d}\sum_Q\lambda_Q
+   \left\{
+       R_{T_Q,0}\boldsymbol\mu_{2,T'_Q}^{(\beta)}(c_\Delta)
+       +pR_{T_Q,1}
+             \boldsymbol\mu_{2,T'_Q}^{(\beta)}(c_{\Delta-1})
+   \right\}\pmod{p^2\mathcal O_F}.
+ }
+ \tag{G51}
+$$
+所有 $k\ge2$ 的项确实被 $p^2$ 整除，因为这次 $R_{T,k}$
+和参考 Katz 矩都已在原整格中。
+(G51)是实际 $P_H$ 的系数关系，不是只对裸 $f_{34}$ 的关系。
+若回 $E_{17}$，仍逐项使用 R1067(50)的完整
+$\vartheta^{\Delta-6}$ 和 $p^\Delta a_0$ 框架项；
+非零质量时不能删除后者。
+
+本节新增的是实际两来源的全 scheme 角色匹配、共同有限平坦
+$J$、准确六重零及完整 native 模块关系。
+原中心比 $C_{T,T'}$ 没有被证明与 $Q$ 无关；
+$34-2\nu$ 仅保证一级 kernel 角色相消，一般不被 $p^2$ 整除。
+其余 theta-extension 相位不能由(G44)擅自删除。
+(G48)--(G51)也没有把 canonical 坏升级为 Hall 精确零，
+没有把已有自动的 $a_\Delta$ 同余另计为独立 forcing，
+更没有把逐字单位或 Weierstrass degree 当成 whole Hall 非消失。

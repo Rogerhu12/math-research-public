@@ -44,7 +44,7 @@ R1060§13.1进一步定清边界：同coherent frame的whole临界闭盘Tate延�
 
 R1062§8已付同一V_Q的actual even-product及第二盘全单位，原首Gaussian准确限制逐字项级weight半径≤p^(1−2τ)，仍比首wild指数边界小1/(p+1)；不能仅补k!扩大。下一只看完整Hall及原Norm17r参考先作全source相消；该边界不否定whole，也不声称同一exponential权参数直接到T=0。
 
-R1062§9现给正返回：真正j-zero CM除法及连续β把全sigma高尾的归一比值、同一S34/Theta2全部有理因子一起延为每个严格R<R_E盘的norm1单位/逆；Normβ≡17modp，未假定Normβ=17。R632/R635原p幂明确复用。此为physical形式比值的延拓，不能在挠点边界评价各sigma或移出Hall和；下一支付原Miller中心、β点标签、线性exponential与Γ，接R1067§18全p−1块算子，不将0块比值免费当乘法。
+R1062§9现给正返回：真正j-zero CM除法及连续β把全sigma高尾的归一比值、同一S34/Theta2全部有理因子一起延为每个严格R<R_E盘的norm1单位/逆；Normβ≡17modp，未假定Normβ=17。R632/R635原p幂明确复用。此为physical形式比值的延拓，不能在挠点边界评价各sigma或移出Hall和。§10进一步在实际[p]拉回框架付全scheme kernel匹配、共同J(w,Q)和J−1∈wI_Q；原A34=A2β·φR_T，R_T为(w⊕Q)^6乘整单位且保全部实际中心/外权。全Katz native carry及a_Δ模p²两项已返回；下一核中心比的真正theta-extension余class及完整Hall和的独立低行，不把六重零、同coset或旧自动同余当主非零。
 
 [R1063](results/R1063-original-tame-zero-hall-and-five-layer-miller-return.md)现付真正原tame0 Hall角色和完整中心：Z_Q=Xi、严格LT全坐标、负二连接第五层误差、W_+=hat3W及原Haar d/p²全保。前五层准确是两原B卷积，首项d_-,p−1s_p+1；没有得到任一首系数的无穷单位。§8付原Newton五层；§10 L1–10以完整zeta连接与R618强尾扩大到全部p−1层。最高层修正为−(2γ_+/3)Acan(0)W^(p−2)，原bad使它和常数同时消失，余p−2阶除p jet未被赋零。首个非零jet给paired估值k/(p−1)，仍不自动给原单Hall严格门。§9现付完整non-p/h/Artin整列、十八原商的γ_i/17^(-3−n)、Norm/avatar对偶与全部外权导数，以及原c0/ell单位；其负二返回准确为p^-6Ω^-1×单位×两Hall。单图仍不免费分离；同一单Hall仍需v<2/(p−1)才排canonical坏，正Hall的全五层或有限非零并不完成无穷严格界。原period与actual LT测度/有限域返回正继续接同一斜率，普通disc固定不冒ST扭曲下降。
 

@@ -31,3 +31,11 @@ R1067§19附节6711B/hash0472b0425a785159d476a17b3304e7d788e118333d922d65273c96b
 此行由原A整性无条件成立，不另造坏条件，尚未证明它相对完整来源独立。central继续按原有限CM单位幂/不分歧Frobenius、全参考商评价(74)，geometry继续完整kernel和实际共同J(w,Q)及保留的中心。唯一v15不改；direct-W软件仍在隔离源码准备。
 
 推前实际双pull run46073965457/job140905917990：公开2026-11-28 07:26:24 UTC至aea7924dada2d3ee945426afad6c415bcefae761，私库2026-11-28 07:26:28 UTC至ca925dbd2b2c33889e1fb95021ec3dbf98e3c5cc。四README与07:18已读版同blob、QUEUE本题认领不变。日志14886B/hashe8c80a4e28c5d721d406b1a34900380efe221f02ad540a147d5108b89f031e7f；库存3210/45734441B/treeac611f55255dd57d0926d5d23f56d9687225f6c4，无>5MB，三旧必要gzip不变。H更新全部实际头和已读规则blob。
+
+## 2026-11-28 07:32 UTC — R1062§10全核同角色、共同有限平坦族和原Hall返回
+
+root逐式核theta torsor的eval0归一、右kernel作用及首次[p]下降；Rosati Norm在p²级及E[p]×E[p]配对平凡；v端完整scheme角色匹配给第二fppf下降，未使用除p²平均。J−1∈wI_Q、degree<q的非约化整代表、实际μ6框架和Galois协变均保。原R_T=(w⊕Q)^6×整单位，C34,T/C2,T′和原λ/λ′全不删；G50从P(v)^k全二项式返native c_m，G51只用已付整格删p²以上项。此为同一个原Hall来源关系，不计自动a_Δ条件为新forcing。
+
+附节10956B/hash1c2a9a07a2c71a6712cef11fc8e8b144b94fd7aa68c871f33640693f2efd02b6；R1062全文52272B/hash4b88d027f0775a09c9d81d7cb3c221b3ad5d8a173a5f8abb0242462f667c193f。继续实际中心余class和全Hall消费；v15最新log读取仍是已登记同一07:02:54快照，未出现新终回执。direct-W审稿已核完整source返回与三处大乘积；仅补实际X预算拒绝和整次reverse工作预算，随后一次固定小软件验证。
+
+推前actual双pull run46073965457/job140907075464：公开2026-11-28 07:31:22 UTC至54771dbda2ecd95d949d7ae7f4286a9759e63d40；私库2026-11-28 07:31:27 UTC至8b30c0b42dfb3ba6c5905e41550758a84160b3d7。四README与07:26同blob、QUEUE本题不变；日志14887B/hasha44673f8f6d0d5110138b805960f0d538dc3cd0a09b386b5f96f187daaf90bfd；库存3210/45743974B/treec13dda187304f33def2f52b0ac997636fccc3b67，无>5MB，三旧必要输入同blob。H记录actual head和已读rules。

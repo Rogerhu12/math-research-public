@@ -536,3 +536,8 @@ R1063 L1–10将原负二Hall五层比较扩到首挠点环的完整模p窗口�
 ### R1067 §19：同一整 Rubin 函数的全 p 阶 Euler 行
 
 [R1067](results/R1067-original-first-wild-rubin-even-multiplicity.md)（73）–（79）从原A_p整性准确给(∂^p−c^(p−1)∂)(U F²)∈p^(p+1)，c=Δlogq_ac；全部U/参考商Leibniz项保留。两原Hall最高导数准确返δ_p−pδ_(p+1)/2−γ_NΔ^p p!p(p+1)B_N/2，其中B_N是原ρ=p−2、t=−1块。全log尾、其余连接联合整格、唯一首连接负号及Π/β相位已付；不把(55)外推至δ_p，不将整性同余改成精确零。尚未证明该行相对已有完整来源独立，继续实际评价，不计新增forcing或无穷p。
+
+
+### R1062 §10：实际同核字的共同有限平坦族及全 native 返回
+
+[R1062](results/R1062-original-translated-miller-jets-and-critical-weight-germs.md)（G40）–（G51）在原[p]拉回框架中分离实际中心；theta torsor的v=0归一及两次fppf下降给真正共同J(w,Q)，J−1∈wI_Q，保degree<q的全厚Q代表与μ6/Galois协变。β的Rosati Norm只需2Normβ≡34modp，原指定T′−βT∈E[p]使整个scheme kernel角色准确相同。故原A34,T=A2,T′([β]v)R_T(P(v))，R_T严格为(w⊕Q)^6乘整单位，原C34,T/C2,T′全留。Katz同coset整模块及所有p² carry返原c_m，a_Δ模p²只留R0参考cΔ与pR1参考c_(Δ−1)的完整Hall和；不移中心/外权出和、不将旧自动同余计新增forcing。
