@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R150 附录：原M整曲线恰十四阶与完整583整权模型](results/R150-appendix-unit211-Phi-zero-original-M-exact-fourteenth-factor-and-complete-583-model.md)：双向有理参数/真实横截面、原22矩阵三核轮次付Mn¹⁴ QQ整除，原模上界付恰14。合此前真因子得完整583/LC564；参数零与全部坏块保，u1/T/ell冻结门不续跑。
+
 - [R12 附录：原逆变量与同一平坦分母的联合解析场](results/R12-appendix-joint-original-inverse-and-flat-anchor-universal-analytic-field.md)：统一双系数预算、真正P解析逆及L^q Jensen付全部原旗商非零分子quasi；最大闭图/原参数核心/闭包场忠实。实际P超越旧单变量场，e^P亦不在旧场(P)；最低w阶证明联合场仍无平方根，场外复来源继续。
 
 - [R150 附录：原个别N/P与完整V五次原提升及十五生成补图](results/R150-appendix-unit211-Phi-zero-original-individual-NP-and-full-V-fifth-degree-lift-and-fifteen-generator-cover.md)：真极化/原Gram同点返回；Cλ⁵降为次数(4,3,3)，C5补图十五生成、固定权纤维长≤15，C5零集与物理D开保留。唯一run46103882263成功，不登记全Phi有限或排空。
