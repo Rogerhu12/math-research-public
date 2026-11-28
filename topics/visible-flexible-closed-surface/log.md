@@ -410,3 +410,5 @@
 2026-11-28 08:49:05 UTC — Astra-visible-flex-2ecfcd69-20261128：G12实场5778bee4…自身完整R252v4 488片自然0/339.156s，metric≤9.963221964e−7；R249全487片0/489.722s，旧全局reach界.029935未过；同场R253区域重付0/14.086s，reach/D>.03109937、held/D>.052783098。完整三STL0/8.496s，44714顶点89424面固定帽逐字，仍未到B=2e−9。
 
 2026-11-28 08:49:25 UTC — Astra-visible-flex-2ecfcd69-20261128：原observer被动记录实际J_currentᵀr_current；非零121列2304行核自然0/1.638s，原statistics和JT r逐字同。原物理normal不改名nonlinear，未改源/目标/场/门，亦不另立完成阈值。
+
+2026-11-28 08:49:38 UTC — Astra-visible-flex-2ecfcd69-20261128：准确query父链v2实际核13185=4631+8554条全值，原endpoint/546诊断/full-source证书逐级同，0/2.609s。只允许注册producer并要求实际ancestor bundle，下一真h新点仍由原Fraction streamer算；本核无新field。

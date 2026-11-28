@@ -31,7 +31,7 @@
 
 M64/G12从真实M48/G6 field6aafee…独立准确转移已α1接受，完整142784列，待共同独立观察；不是未返G12子场。随后按实际诊断做真物理h，保全部旧knots/source/祖先观察。[J落盘完整normal](notes/2026-11-28-2ecf-m12-disk-physical-normal-and-passive-span-probe.md)核已通过，不删物理行列。当前全域metric仍未到B；prefix/tail正在直接计算完整X+C+W的相关Gram，不能继续靠固定d0+三角界冒终值。全时间由原orbit解析覆盖。
 
-<!-- 2ecf-m12-diagnostic --> [实际nonlinear梯度被动核](notes/2026-11-28-2ecf-m12-actual-nonlinear-gradient-probe.md)已0；原活动入口冻结。
+<!-- 2ecf-m12-diagnostic --> [实际nonlinear梯度被动核](notes/2026-11-28-2ecf-m12-actual-nonlinear-gradient-probe.md)已0；[准确query父链核](notes/2026-11-28-2ecf-m12-exact-query-extension-parent-chain.md)已0，新h必须保完整实际祖先身份；原活动入口冻结。
 
 [R249](results/R249-local-material-two-jet-continuous-budget.md)保材料二jet抵消；[R252](results/R252-full-source-cross-Gram-and-actual-H2-metric.md)保source cross；[R253](results/R253-regional-source-normal-transfer-and-actual-H2-reach.md)前缀/尾各自p×CX。所有完整网格每份44714顶点/89424面、Euler2、固定帽3458顶点逐字一致；不是PL自交/连续插值/G5证书。
 
@@ -56,4 +56,4 @@ M64/G12从真实M48/G6 field6aafee…独立准确转移已α1接受，完整1427
 
 公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；私clone同级 `math-research`。代理scratch为 `m12-work`、`exact-work`、`strong-work`；root临时完整输出在 `root-work`。公开note给重生命令/身份，临时盘丢失则按原配方重生、不算新结论。始终继续open下一项直到完成。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:49:32 UTC；已读公开 main `09dc9d0ca17a7530064b4af41473a18cc7dc877a`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 08:49:43 UTC；已读公开 main `96a975656bc27c3ee871ba79462ae2eeb76fc487`，根/课题 README 逐差无变化。
