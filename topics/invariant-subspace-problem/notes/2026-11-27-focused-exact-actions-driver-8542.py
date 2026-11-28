@@ -20,7 +20,7 @@ parser.add_argument('--seconds', type=int, default=900)
 parser.add_argument('--expected-blob', required=True)
 args = parser.parse_args()
 rules = {
-    'README.md': '282e86b03385d3b6245ce7100ae2e2af7b103c2d',
+    'README.md': '99c5ad8d06e939e6cfbbab1afdeffa5463f15f18',
     'topics/invariant-subspace-problem/README.md': '5fbd905291dd044c88d35bd9c07ac0e586ff795a',
 }
 source = Path(args.source)
