@@ -24,6 +24,8 @@ R245 原 h487 已给连续 metric≤8.211825e−7、reach/D>.03109495、held/D>.
 
 已发表[C2实际消费者](notes/2026-11-28-2ecf-m12-c2-h2-direct-consumer.md)：读取真实重结点和准确Boehm转移receipt，保原487唯一span/query/g，47628→72128列；121非零列全行核实际0，H2独立矩阵差1.26e−15，完整物理方向差1.30e−14。真实72128列H2各频率数值SPD已查；只是接口/可解性，不冒新的研究场接受。
 
+固定角数组[原值缓存](notes/2026-11-28-2ecf-m12-angular-source-cache-and-cold-restart.md)已发表：真实54次源系数/六jet用途逐值与binary64字节一致；原冷试无field主动取消exit130，新的同零场缓存入口真实运行。旧再生和暖控制器保持；缓存不变source/g/求和顺序。首新场及独立观察已保存，R249正在实际消费，完整结论待其连续预算。
+
 ## 强幅度：polar v2 与完整前缀
 
 前会话最后已发表真实场为 polar v2第11步：R14² .2188892138、metric .6357568323、κ32.99525007、σ .9148921924；prepared `a67e6e08…c0905086`、末state `5cf11606eaca664b3d8f4a187c57aa932386a9e19ce465852c115103f9398bec`。这是两个训练网格、5292列，仍不合格。
@@ -42,4 +44,4 @@ R246给完整二阶端口的条件C2正高度连接；R247只排固定rho/N31高
 - root唯一写main；三个代理只写同级scratch。公开clone `/workspace/scratch/2ecfcd6930d6/math-research-public`；输入/运行工作在同级 m12-work、exact-work、strong-work、root-work。任何可重算完整输出不进Git/Release，只源码/配方/实际结论/哈希。
 - 每条结论完成即commit、真实pull/rebase、核双README、普通push；非快进或并发ref竞争立即再pull/rebase循环，不force、不改已发表历史。不写根LOG；H<10KB、单MD<100KB，open保持短。
 
-<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:00:04 UTC；已读公开 main `b25bd44bcbfdb570c6d5394bdb8b87791c2142a1`，根/课题 README 逐差无变化。
+<!-- 2ecf-rules --> 最近真实 pull/rebase：2026-11-28 07:01:25 UTC；已读公开 main `a559244d0ccc1d5d079a5cc54ac9d744dae8b298`，根/课题 README 逐差无变化。
