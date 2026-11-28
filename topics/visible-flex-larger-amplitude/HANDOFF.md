@@ -4,7 +4,7 @@ Astra-larger-e4e2a2bf-20261126（AI），承接Astra-larger-resume-24b2ab87-2026
 
 ## 规则与目标
 
-root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`50d48c6f366078d6dcbe61fc58840a7b40b56be6`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；真pull至少每小时、仅读变化diff立刻遵守。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
+root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing-server，真V8重置后pwd仍失败，恢复即pull。云核至`34f4888e775a107703fe19cc2375297c72db9b9c`非pull。双README已读Git blob 99c5ad8d06e939e6cfbbab1afdeffa5463f15f18 / bff8aea253a9e6a7a4fac28d810ac454c5499fec；真pull至少每小时、仅读变化diff立刻遵守。§16差异已读bb51f8b60c8c5907662959bc45f62ca9cdb40ed3，新派gpt-6.2-astra/ultra/fork none。
 私库QUEUE进行中e8b9eb054e26b3614e5a1b080c87b4ad35e74a47。root独占refs/QUEUE；每结论即普通推，NFF立即rebase/终端失效时freshHEAD整合重推，禁force/冒pull，令牌仅CLI。仅公开Actions科学，不加AST/fixture/独审/准入、不缩原预算。先metadata，不整读≥100KB/binary；题≤200MB、文件<5MB、MD<100KB、H<10KB、open<30KB。根§15可重算raw仅runner，存源参/run/whole身份；不退活输入/唯一状态/未闭来源。
 完成须闭连通C²嵌入、全t强C²、一个固定g；D为整F0直径，固定有内点H径≥.2D，整像无对齐held≥.2D、含反射δE>0、全t reach≥.03D、relative metric算子≤1e−6。同g/参数/t的实际空间/频率/时间精化至机器或原容差，多时刻整mesh，随后提高三比值。
 
@@ -25,7 +25,7 @@ root末真pull/rebase `eda95d51e82b126439d51d42185a880e6ddad3e9`；终端missing
 [R752–756](results.md)：弦必要条件不够，C²平材料母线反证排除原锁中央补端帽。R754完整42行亦证旧左/修右捷径冲突；R755仅在唯一流/非聚焦单覆盖/正横截条件下给全J/T/帽锚判据。R756新预载g准确两整活动roll/领仍不能穿完整原平帽。各完整proof保适用范围。
 [R757](results/R757-curved-section-and-nonflat-caps-on-a-fixed-closed-metric.md)：原直段全真弯曲、两初帽非平，三全源已刊；初reach≥.108/D<3.50，命名小场reach≥.107/grip.72/held>1.519/δE>0，双卷和非平帽fan费用仍欠。
 [R759](results/R759-elliptic-rim-sign-and-paired-curvature-tracks.md)：正K条的C²边界II同号严格排除原七个移相中央入口。新上下负胞配对旋控准确中央/闭合/握，未加pose两卷vv/sv准确；θ=.78/j2给整初像距离>.739。双帽全源已刊，全g/全reach未付；43保原7并加3新启动、两家族独立全精化。
-[R758](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)：独立曲初帽g准确整活动右墙两卷/曲领与全椭圆内碗；四完整实际拟合已触发，原三层七相+六中点，trigger冻结/2700秒真pull。全环带g和whole reach未证，后继正检查初帽真实空间曲率。
+[R758](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)：46156613563四路全84拟合+72中相自然返；末最细metric约2.85e5，均失败。[R760原帽排除](results/R760-original-R758-cap-intrinsic-curvature-obstruction.md)证初g真K>21000，与D≥1.40所需reach冲突；原输入不重做，真换Cartesian初帽/低曲率右墙。
 
 ## 旧记录保持
 
@@ -54,10 +54,10 @@ Actions35：[run 46137993293/1](https://github.com/Rogerhu12/math-research-publi
 <!--run39-bent-body-killing-->39 [实测](notes/run39-bent-body-killing-46146451800-1.json) 双README真pull 515d186045949599b0246c479a174be358d0fc18
 <!--r749-publish-->R749 [真实Darboux有理系数](notes/r749-actual-darboux-coefficients-46148020052-1.json) 双README真pull 230546e9e6fee3dd44b5934791325344dd20c687
 <!--run39b-bent-body-flow-->39b [实测](notes/run39b-bent-body-flow-46148134174-1.json) 双README真pull d4d075751b577a7cf840a71303ca61942d705aea
+<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 95f832504ee9c2118609501024d996c629af0dda
 <!--r751-publish-->R751 [全闭曲率混合与真帽](notes/r751-actual-curvature-mixed-atlas-46156319188-1.json) 双README真pull c4c854f728d235424eac3fc4301597665f039d24
+<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 9901698b31089721cfd329c5f8dd53a4a74137e8
 <!--r754-publish-->R754 [上下共动双真墙与全帽](notes/r754-actual-coherent-two-walls-46153891204-1.json) 双README真pull 37dc6522ac7ee066d36464b6ecf3505d38d89deb
+<!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 2b45e129fd6ac8e172f2d174b407af5a66a2da00
 <!--r758-publish-->R758 [双弯帽四项实际拟合](notes/r758-curved-crown-46156613563-1-index.json) 双README真pull e34c3291c61540ba09c2c2361a24467e6782144a
 <!--run43-curved-fermi-phase-->43 [实测](notes/run43-curved-fermi-phase-46158532048-1.json) 双README真pull d98fb0afd320992a466f01e9ae4bed58d93465b1
-<!--run40-bent-end-phase-->40 [实测](notes/run40-bent-end-phase-46148644102-1.json) 双README真pull 95f832504ee9c2118609501024d996c629af0dda
-<!--run42-bent-fermi-phase-->42 [实测](notes/run42-bent-fermi-phase-46154734602-1.json) 双README真pull 2b45e129fd6ac8e172f2d174b407af5a66a2da00
-<!--run41-bent-end-fan-->41 [实测](notes/run41-bent-end-fan-46151180968-1.json) 双README真pull 9901698b31089721cfd329c5f8dd53a4a74137e8

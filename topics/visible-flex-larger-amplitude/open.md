@@ -127,6 +127,8 @@ R752–753[完整证明/六jet](results.md)：新Y=.37/e=.81/b=1/1024初g付所�
 [R756](results/R756-flat-ruling-cap-obstruction-and-preloaded-exact-returning-rolls.md)：C²平片非零II的直母线合法全续，排除旧直中央变弯后仅修双端帽，并特化R752/753单端。独立预载g精确付整活动右墙两整roll/双帽领，完整九图续接已给，但两原平帽继续强制冲突；该准确分支全reach未证。后继须真改初帽曲率或释放端Cauchy，不能只缩扇区/改标签。
 
 
+[R758](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)：46156613563四路全84拟合+72中相自然返；末最细metric约2.85e5，均失败。[R760原帽排除](results/R760-original-R758-cap-intrinsic-curvature-obstruction.md)证初g真K>21000，与D≥1.40所需reach冲突；原输入不重做，真换Cartesian初帽/低曲率右墙。
+
 ### 保留的全部责任
 
 19–32原终态、36–39全部阶段/原39未访flow与39b重生不同点，R724–750条件和失败范围，全部保固定旧open/H及各完整proof/note，已登记不重做。R732全13+14件/139源/922cells/32stage、N38/52G8/22、900sec/1Mleaf/192bit及7步预算不减，35自然science返后才原完整pure。RET100H/100I完整复现退出旧生成文本，活输入/唯一状态/未闭来源保。

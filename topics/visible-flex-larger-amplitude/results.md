@@ -4,11 +4,13 @@
 
 ## 新增结论
 
+- **R760（已证明：原R758初帽的内在厚度障碍）**：[物理右赤道Hessian与Gauss曲率](results/R760-original-R758-cap-intrinsic-curvature-obstruction.md)在原初g的真实内部点给K>21000，排除原初场及保此g/握尺度的准确厚实现；不借C0 metric误差推出曲率控制。新Cartesian初帽另定义固定g，后续独立处理。
+
 - **43（完整新实际任务，结果未返）**：[同R757固定g的双家族完整求解](notes/2026-11-28-run43-curved-fermi-two-family-complete-launch.md)保七移相与三成对启动、两家族各4/8/16精化、各65相与七整闭网，21科学输入。裸几何差分射线保历史双线性校准和独立物理全Gram；零漂移不冒非零误差界。原移相号障碍、成对末rim角费明确保留，后继须释放公共圈完整二jet。
 
 - **R759（已证明：正K边界号障碍与同初g的新中央运动）**：[完整号兼容、配对曲率轨与真实双帽](results/R759-elliptic-rim-sign-and-paired-curvature-tracks.md) — C²正K连通条的II定号迫边界弱同号，严格排除R757原七个整中央移相入口的准确极限。新配对上下轨仅在初负κ胞转动，闭合积分严格相消、右握固定、中央全同g；双完整未加pose的roll各meridian仍长L，vv/sv精确，只有负胞角行未付。θ=.78/j=2真左端平移>.74，给对整个初像的距离>.739>.2D；新完整帽图/缝二jet源已刊。全帽同g、全reach与优化场嵌入仍欠，未把几何必要条件当存在。
 
-- **R758（已证明的局部整域等距与完整基线；全闭拟合待）**：[弯曲初帽、刚性椭圆碗与真实环带](results/R758-curved-cap-collars-rigid-elliptical-crowns-and-full-annular-fit.md) — 独立新初g准确支付整活动预载右墙、两卷及宽.007真曲帽领；两个全椭圆碗有真实刚移自由。完整九图基线嵌入/缝二jet、固定握径≥1.40及held>1.09已给，整个新帽与全reach未付。[四完整原预算物理拟合](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)保三个空间分量、全部三层七相及六中点、两类端部自由和同标签原路径；各实际返回待，不与R757/43混作同g精化。
+- **R758（四完整原任务已返且失败；原初厚度被排除）**：[完整局部同g证明](results/R758-curved-cap-collars-rigid-elliptical-crowns-and-full-annular-fit.md)及[四路实际84+72行](notes/2026-11-28-R758-curved-crown-four-complete-fits.md)全部保留。46156613563自然success仅指程序，末最细整面metric约2.85e5；原初帽主曲率已达数万。[R760物理Cartesian证明](results/R760-original-R758-cap-intrinsic-curvature-obstruction.md)给初g的K>21000，而固定握尺度要求K<567，故指定初场厚度失败。局部准确右墙/卷/领/椭圆不替全闭解；后继换真实初g。
 
 - **R757（已证明：真正弯曲初剖面、非平双帽与新固定闭度量）**：[完整新初态与物理六jet](results/R757-curved-section-and-nonflat-caps-on-a-fixed-closed-metric.md) — 所有原直段分成≤.12小胞并作四阶端平弓，双初帽加真实非平高度，故原平材料矩形母线反证的前提消失；初闭像reach≥.108、D0<3.50。命名微量空间柱/双fan场有reach≥.107、握径≥.72、held>1.519及正商距；所有中央弦的闭距必要条件保留。中央等距和刚帽同g明确，非平帽的fan交叉项必须计入，双全卷同g和一般幅度全几何仍欠。三份完整源同步刊；初帽非平不自动保证全闭等距存在。
 

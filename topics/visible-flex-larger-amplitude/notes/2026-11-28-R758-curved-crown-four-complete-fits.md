@@ -1,6 +1,6 @@
 # R758 弯曲初帽、完整刚性椭圆内帽及四项全域实际拟合
 
-Astra-larger-e4e2a2bf-20261126。**全课题未完成。** 本次普通公开启动四个独立实际科学进程；run/job、自然返回、原系数点和费用现在未知，不把启动当成功。数学适用范围见[完整R758](../results/R758-curved-cap-collars-rigid-elliptical-crowns-and-full-annular-fit.md)。
+Astra-larger-e4e2a2bf-20261126。**全课题未完成。** 四个原公开实际进程已完整自然返回，全部未达标；原初帽的厚度障碍现已严格证明。初始启动配置逐字保留，真实run/点/费用及R760排除见末两节。数学适用范围见[完整R758](../results/R758-curved-cap-collars-rigid-elliptical-crowns-and-full-annular-fit.md)。
 
 ## 同一真实初态与付清的区域
 
@@ -36,3 +36,34 @@ outer_locked保护上述准确外带，余下卷和真实中环带以三个空�
 | .github/workflows/visible-larger-r758-curved-crown-physical-fits.yml | 3365 | 58ac4e8cdf7a228d237f036d09584c2e10cc20f1e960c23bbce4135257ac35b0 | 2603a5dcc434778fb8899aeddbc4724b544db5f0 |
 
 改课题外.github/workflows/visible-larger-r758-curved-crown-physical-fits.yml仅为上述完整公开拟合。与43/R759为不同固定初g，不交叉套用收敛、点或费用。
+
+## 四项原完整实际返回：均未达标
+
+公开[run 46156613563/1](https://github.com/Rogerhu12/math-research-public/actions/runs/46156613563)、job141014561055自然success；trigger与冻结科学源均 `70c7bb25ceb03427b33906b60d2227160a730700`，规则已读 `e6043f33dd1754621103ce6557a7bf0511f3b522`。四个进程均exit0，每支完整21个拟合相位记录与18个独立中间相位，共84行+72行全部返回。每个非零拟合仍到原12/20/30次nfev上限、status0；程序正常退出不表示优化收敛或数学成功。
+
+下表严格指**最细层、最后 .90 相位**五图中的极值；不是所有相位的全局极值。末列亦是这一最后相位已跟踪的同材料标签新弦减初始内路径，不冒全相最大。
+
+| 分支 | 全图相对metric最大 | 绝对主曲率最大 | support最小 | 最后相位弦−初路径 |
+|---|---:|---:|---:|---:|
+| free_end-minus | 285796.9540400908 | 365884.7831464992 | -1.1786812363214672 | 0.1873282725610429 |
+| free_end-plus | 284554.8669837486 | 1936983.4623909844 | -1.140008486814578 | 0.1881877366051562 |
+| outer_locked-minus | 285860.51930999215 | 2837780.242041216 | -1.1691685646236643 | 0.18578064800999894 |
+| outer_locked-plus | 289108.2810397969 | 468579.16088923655 | -1.0211407774624415 | 0.1896315272978163 |
+
+四路初相独查的帽主曲率随三层为10950.031560603662、19673.31892362897、25510.895302883473；这些初相实际Gram约4e−14到6e−14，所有初相记录nearly_singular为0。故高曲率已在真实零相初场，不能以末相拟合未收敛解释。终最细中央free_end两支还有 .38874323571294667/.3670844035495142 的metric误差；锁外部两支中央约4.44e−16，但整卷和完整帽仍大误差。两内椭圆碗保持真实刚体同g，不能替整个帽。
+
+原全部三层、七相、十八中间相、五图的六列测量、每个系数数组全身份与三层完整路径记录均在以下小件，不在本note重复整份数表。原完整系数在同一runner，依原源码和参数重算；未另造新点替代。
+
+| 固定实际文件 | 字节 | SHA256 | Git blob |
+|---|---:|---|---|
+| [r758-curved-crown-46156613563-1-index.json](https://github.com/Rogerhu12/math-research-public/blob/da7bed4972575f9b424af2ea2b4245cf75c693ad/topics/visible-flex-larger-amplitude/notes/r758-curved-crown-46156613563-1-index.json) | 3517 | `8661fefa4b0fa61fca1e4f5b019d8292783e948303aae02d954a2413a6957def` | `6c1ddb6a67f72e53eb5fe1d996d010f905591532` |
+| [r758-curved-crown-46156613563-1-free_end-minus.json](https://github.com/Rogerhu12/math-research-public/blob/da7bed4972575f9b424af2ea2b4245cf75c693ad/topics/visible-flex-larger-amplitude/notes/r758-curved-crown-46156613563-1-free_end-minus.json) | 47145 | `17db52158f42f871ff6908b7400cb642fe1643ac1f4e207ac8e7a19af1b22aa4` | `24610e8287242bac59fd251b15400b9695b6e58e` |
+| [r758-curved-crown-46156613563-1-free_end-plus.json](https://github.com/Rogerhu12/math-research-public/blob/da7bed4972575f9b424af2ea2b4245cf75c693ad/topics/visible-flex-larger-amplitude/notes/r758-curved-crown-46156613563-1-free_end-plus.json) | 47138 | `49ca52e1fd711538b449c511f7814f7ff5a25aff4a4ee18587ef9b93389f0dea` | `acf121d829a9f9b023dea4e7cc6b556657bf00e6` |
+| [r758-curved-crown-46156613563-1-outer_locked-minus.json](https://github.com/Rogerhu12/math-research-public/blob/da7bed4972575f9b424af2ea2b4245cf75c693ad/topics/visible-flex-larger-amplitude/notes/r758-curved-crown-46156613563-1-outer_locked-minus.json) | 47392 | `39ad03b959d4d0db9adbdff4bd0f48db79f1b4317b22edf3bc8692767265e5c2` | `e60bc976333f85c4bea344345eb75a47399a9f40` |
+| [r758-curved-crown-46156613563-1-outer_locked-plus.json](https://github.com/Rogerhu12/math-research-public/blob/da7bed4972575f9b424af2ea2b4245cf75c693ad/topics/visible-flex-larger-amplitude/notes/r758-curved-crown-46156613563-1-outer_locked-plus.json) | 47363 | `543f9db6b99e9c6e2a091ad0a80ca51bda2a20f402c60a71738177dbd762b38f` | `6fcc632a4317a7daa94f383b92d1a1c4c0be154d` |
+
+## R760对这个原初度量的严格排除
+
+[原R758初帽内在曲率障碍](../results/R760-original-R758-cap-intrinsic-curvature-obstruction.md)在正帽真实右赤道、rho=.84的物理Cartesian坐标直接求Hessian，证明原初g的Gauss曲率>21000。固定握已使D≥1.40，而reach≥.03D要求|K|≤1/.042²<567，故**这个指定初场本身已违反全时厚度标准**；保同g和该直径尺度的准确等距实现也无法避开Gauss方程。这里没有假称C0大小的metric误差能控制其曲率；原始F0的直接失败已足以排除此完整输入。
+
+原R758局部准确右墙/两卷/曲领、刚性椭圆、基线嵌入与其未证全reach的原责任保留，现以严格反例结清初始厚度未知。四原任务已经完整返回，不为重现已登记失败另开原重放。后继R760真正改变初帽物理高度和右墙曲率，采用另一个明确固定g，不是本初g上的虚称精化。
